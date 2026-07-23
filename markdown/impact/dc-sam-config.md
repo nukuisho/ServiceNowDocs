@@ -2,11 +2,12 @@
 title: Configure Data Collection for SAM
 description: Configure Data Collection for SAM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-sam-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for SAM, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for SAM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Configure Data Collection for SAM
@@ -29,6 +30,8 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 2.  Enter the data point in the relevant month cell.
 
-    ![Example with Mar 2024 cell selected with no Indicator score entered.](../image/dct_config_sam.png)
+    \[Omitted image "dct\_config\_sam.png"\] Alt text: Example with Mar 2024 cell selected with no Indicator score entered.
 
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-sam.md)
 

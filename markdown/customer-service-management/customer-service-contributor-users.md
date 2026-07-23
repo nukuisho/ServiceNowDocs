@@ -2,6 +2,7 @@
 title: Contributor users
 description: With contributor user roles, you can engage both internal and external users to assist in resolving customer issues and requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-contributor-users.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,8 +23,6 @@ The contributor users feature provides unified customer support for internal and
 ## Overview of contributor user roles
 
 The contributor users feature includes several roles that you can assign to users to control access to cases, case tasks, and case-related information. These roles can be assigned to users based on different business needs. In some cases, these roles also provide access to the parent cases and associated customer information.
-
-![Table that defines contributor user roles. For a text description, refer to the Contributor user role description and capabilities table.](../image/csm-contributor-user-role-diagram.png "Contributor user roles")
 
 The contributor users feature also includes viewer roles that enable employees to view cases, cases tasks, or core customer data. These roles include:
 
@@ -195,7 +194,7 @@ This user can:
 -   Search for knowledge articles to assist with the case task.
 
 </td></tr></tbody>
-</table>The contributor user roles are available with different CSM plugins. For a more detailed description of these user roles, see [Contributor user roles](../reference/csm-contributor-user-roles.md).
+</table>The contributor user roles are available with different CSM plugins. For a more detailed description of these user roles, see [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-contributor-user-roles.md).
 
 ## Fields added to the Case form
 
@@ -211,7 +210,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Requestor Organization
+Requester Organization
 
 </td><td>
 
@@ -223,7 +222,7 @@ Requested By
 
 </td><td>
 
-This field displays the name of the requester. If this field is filled in and the **Account**, **Consumer**, and **Requestor Organization** fields are empty, the customer for the case is an employee. This field is included with the Customer Service plugin \(com.sn\_customerservice\).
+This field displays the name of the requester. If this field is filled in and the **Account**, **Consumer**, and **Requester Organization** fields are empty, the customer for the case is an employee. This field is included with the Customer Service plugin \(com.sn\_customerservice\).
 
 </td></tr></tbody>
 </table>The Customer Service plugin adds two fields to the Notes section of the Case form for contributor users.
@@ -258,8 +257,6 @@ When a user with the case task agent role is assigned to a case task, the user's
 </table>## Create Case for Customer record producer
 
 The contributor users feature adds a record producer that contributor users can access from the Customer and Consumer Service Portals and use to create cases. When creating a case, this record producer presents different options for the customer in the **Who are you creating this case for?** field, depending on the roles assigned to the logged-in user.
-
-![Create a Customer Case form to describe who the agent is making a case for: account, consumer, business location, or myself.](../image/create-case-for-customer-record-producer.png "Create Case for Customer record producer")
 
 When the contributor user selects an option, additional fields related to that customer type are displayed.
 
@@ -316,8 +313,6 @@ Myself
 
 The My Lists widget on the Customer and Consumer Service Portals includes different filters for viewing records.
 
-![My Lists widget with filters for sorting case records. For a text description of the filters, refer to the My Lists filters table.](../image/contributor-users-portal-my-lists-widget.png "My Lists widget on the Customer Service Portal")
-
 Depending on the roles assigned to the logged-in user, this widget displays the following filters.
 
 <table id="table_hxt_4yg_h4b"><thead><tr><th>
@@ -372,7 +367,7 @@ Displays filters depending on the relationships established for this user. -   *
 -   **My Cases for Consumers**: Cases created by the contributor user on behalf of consumers or households where the user is a Relationship Manager.
 -   **All Cases for Consumers**: All cases created on behalf of consumers or households where the user is a Relationship Manager, independent of who created the case.
 
- For more information, see [Service Model Foundation relationships](../reference/csm-data-model-relationships.md).
+ For more information, see [Service Model Foundation relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-relationships.md).
 
 </td></tr></tbody>
 </table>## Access to case tasks
@@ -484,7 +479,7 @@ Users with the case task agent role have read-only access to some of the custome
 **Related topics**  
 
 
-[Contributor user roles](../reference/csm-contributor-user-roles.md)
+[Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-contributor-user-roles.md)
 
-[Configure Contributor Users](../task/config-contributor-user.md)
+[Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-contributor-user.md)
 

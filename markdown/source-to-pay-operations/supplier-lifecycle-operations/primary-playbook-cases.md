@@ -2,6 +2,7 @@
 title: Playbook for updating the supplier primary data
 description: Source-to-Pay Workspace includes a playbook that you use for updating the supplier primary data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ Source-to-Pay Workspace includes a playbook that you use for updating the suppli
 
 ## Review supplier primary data request playbook
 
-This playbook provides step-by-step guidance for cases related to updating supplier primary data. The playbook includes a supplier case flow containing various stages and activities that you must complete to close the supplier case. For more information, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+This playbook provides step-by-step guidance for cases related to updating supplier primary data. The playbook includes a supplier case flow containing various stages and activities that you must complete to close the supplier case. For more information, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
 
 This playbook is used for updating the supplier primary data when:
 
@@ -33,13 +34,13 @@ This playbook is displayed only for these case types:
 -   Supplier location change request
 -   Conduct sanction screening
 
-![Review supplier primary data request playbook.](../image/primary-data-playbook.png "Review supplier primary data request playbook on the Playbook tab")
+\[Omitted image "primary-data-playbook.png"\] Alt text: Review supplier primary data request playbook.
 
 ## Review supplier primary data request playbook flow
 
 The following diagram illustrates the flow of the activities in each stage of the Review supplier primary data request playbook.
 
-![Review supplier primary data request playbook.](../image/primary-data-playbook-flow.png "Review supplier primary data request playbook flow")
+\[Omitted image "primary-data-playbook-flow.png"\] Alt text: Review supplier primary data request playbook.
 
 ## Review supplier primary data request playbook stages and activities
 
@@ -88,7 +89,7 @@ As a supplier manager or fulfiller, you can use this activity to decide whether 
 -   Approve changes: Approves your changes.
 -   Reject changes: Rejects your changes and opens the Reject changes stage.
 
- For more information, see [Non-Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/non-interactive-activities.md).
+ For more information, see [Non-Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/non-interactive-activities.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -170,16 +171,16 @@ You can do the following:
 Updates the case to Closed Rejected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage supplier details](supp-ws-details-page.md)
+</table>**Parent Topic:**[Manage supplier details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-ws-details-page.md)
 
 **Related topics**  
 
 
-[Manage supplier cases from the Source-to-Pay Workspace](managing-cases.md)
+[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 
-[Configure due dates for supplier cases](../task/configure-case-due-date.md)
+[Configure due dates for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-case-due-date.md)
 
-[Case playbook for specific supplier case types](gen-playbook-cases.md)
+[Case playbook for specific supplier case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/gen-playbook-cases.md)
 
-[Create a case on behalf of a supplier from the Source-to-Pay Workspace](../task/create-new-supplier-case.md)
+[Create a case on behalf of a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-case.md)
 

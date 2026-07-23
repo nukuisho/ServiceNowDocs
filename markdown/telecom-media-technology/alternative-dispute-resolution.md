@@ -2,6 +2,7 @@
 title: Alternative dispute resolution management
 description: Use the Alternative Dispute Resolution \(ADR\) case to resolve customer disputes efficiently while confirming transparency, accountability, and regulatory conformance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/alternative-dispute-resolution.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -180,7 +181,7 @@ When the customer accepts the resolution, the Outcome stage completes and the Cl
 </td></tr></tbody>
 </table>## Using ADR case
 
-To learn more about how to use ADR case, see [Using alternative dispute resolution case](use-alternative-dispute-resolution-case.md).
+To learn more about how to use ADR case, see [Using alternative dispute resolution case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/use-alternative-dispute-resolution-case.md).
 
 **Related topics**  
 

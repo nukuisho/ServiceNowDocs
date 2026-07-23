@@ -2,6 +2,7 @@
 title: Run Isolate Host
 description: Isolate Host restricts system connections to other devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/run-isolate-host.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,22 +30,16 @@ The **Security Operations Integration - Isolate Host or Endpoint** flow can be t
 
 2.  Select **Configuration Items** from the **Related List** tab.
 
-3.  Click **Isolate Host** in the **Actions on selected rows...** drop-down menu.
+3.  Select **Isolate Host** in the **Actions on selected rows...** drop-down menu.
 
-    ![Isolate Host](../image/IsolateHost.png)
-
-    The dialog box appears.
-
-    ![Isolate Host dialog box](../image/IsolateHostDiaglogBox.png)
+    The Isolate Host dialog box appears.
 
 4.  Choose the implementation.
 
-5.  Click **Isolate Host**.
+5.  Select **Isolate Host**.
 
     The flow execution audit is displayed in the work notes section.
 
-    ![Isolate Host work note example](../image/IsolateHostWorkNote.png)
 
-
-**Parent Topic:**[Security Operations Integration- Isolate Host capability](../concept/isolate-host-capability.md)
+**Parent Topic:**[Security Operations Integration- Isolate Host capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/isolate-host-capability.md)
 

@@ -2,6 +2,7 @@
 title: Select large language models for use cases in Now Assist in Contract Management
 description: Select a large language model \(LLM\) provider for a contract analysis or metadata extraction use case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-manage-llm.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -22,7 +23,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 ## About this task
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 In Now Assist in Contract Management, you can select the LLM provider at the use case level. This selected LLM is applicable only for the use case and overrides the LLM selected at the skill level.
 
@@ -32,21 +33,21 @@ In Now Assist in Contract Management, you can select the LLM provider at the use
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile of your activated skill that you want to modify, select **Edit** in the options menu \(![Options menu icon.](../image/cmpro-na-three-dot-icon.png)\).
+3.  On the tile of your activated skill that you want to modify, select **Edit** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
 
-    ![Now Assist skills in Contract Management Pro.](../image/cmpro-na-active-skills.png "Active skills in Contract Management Pro")
+    \[Omitted image "cmpro-na-active-skills.png"\] Alt text: Now Assist skills in Contract Management Pro.
 
 4.  In the skill guided setup, select **Use cases**.
 
 5.  Open the use case for which you want to set the LLM.
 
-6.  Select the settings icon \(![Settings icon.](../../workplace-space-mapping/images/gear-icon.png)\).
+6.  Select the settings icon \(\[Omitted image "gear-icon.png"\] Alt text: Settings icon.\).
 
-    ![Settings in the Use case page.](../image/cmpro-na-use-case-gear.png "Use case settings")
+    \[Omitted image "cmpro-na-use-case-gear.png"\] Alt text: Settings in the Use case page.
 
 7.  In the Settings window, select **Manage LLMs**.
 
-    ![Manage LLM Provider in use case settings.](../image/cmpro-na-llm-setting.png "Manage LLMs")
+    \[Omitted image "cmpro-na-llm-setting.png"\] Alt text: Manage LLM Provider in use case settings.
 
 8.  From the LLM provider drop-down list, select the LLM provider.
 
@@ -61,26 +62,26 @@ In Now Assist in Contract Management, you can select the LLM provider at the use
 
 The LLM provider is set for the use case and is used for contract analysis or metadata extraction where this use case is applicable.
 
-**Parent Topic:**[Configure Now Assist in Contract Management](confg-na-in-cmpro.md)
+**Parent Topic:**[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
 
-[Configure data permissions for Now Assist skills](cmpro-conf-roles-skills.md)
+[Configure data permissions for Now Assist skills]()
 
-[Configuring contract metadata extraction](cncore-conf-metadata-extraction.md)
+[Configuring contract metadata extraction]()
 
-[Configuring contract analysis](../concept/cmpro-conf-contract-analysis.md)
+[Configuring contract analysis]()
 
-[Configuring contract obligation extraction](cncore-conf-obligation-extraction.md)
+[Configuring contract obligation extraction]()
 
-[Configuring agentic workflows in Now Assist in Contract Management](../concept/cmpro-conf-agentic-workflow.md)
+[Configuring agentic workflows in Now Assist in Contract Management]()
 
-[Post-upgrade steps for Now Assist in Contract Management](cmpro-na-upgrade-steps.md)
+[Post-upgrade steps for Now Assist in Contract Management]()
 
-[Configure Now Assist in Contract Management](confg-na-in-cmpro.md)
+[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
-[Create use cases for contract metadata extraction](cmpro-na-usecase-me.md)
+[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
 
-[Create use cases for contract analysis](cmpro-na-usecase-ca.md)
+[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)
 

@@ -1,19 +1,20 @@
 ---
 title: Request Management architecture
-description: Request Management allows catalog items to be requested and fulfilled based on defined flows.
+description: Request Management defines the data model and processing flow for catalog item requests, from cart creation through record fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/request-management-architecture.html
 release: australia
 product: Request Management
 classification: request-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Explore, Request Management, IT Service Management]
 ---
 
 # Request Management architecture
 
-Request Management allows catalog items to be requested and fulfilled based on defined flows.
+Request Management defines the data model and processing flow for catalog item requests, from cart creation through record fulfillment.
 
 ## Request Management hierarchy
 
@@ -23,11 +24,11 @@ When a user submits a request for a catalog item, records are generated in the f
 
 **Note:** Variables are associated only with the Requested Item \[sc\_req\_item\] table. Variables are not supported for extended tables.
 
-![Screenshot for the Request Management hierarchy](../image/requestManagement.png "Request Management hierarchy")
+\[Omitted image "requestManagement.png"\] Alt text: Screenshot for the Request Management hierarchy
 
 **Note:** When you configure Request Management:
 
--   The data model does not support a record producer generating request management objects such as request, request item, and catalog task. Hence, do not use a record producer to insert records in the following request management tables or their extensions:
+-   The data model does not support a record producer generating request management objects such as request, request item, and catalog task. Therefore, do not use a record producer to insert records in the following request management tables or their extensions:
     -   Request \[sc\_request\]
     -   Request Item \[sc\_req\_item\]
     -   Catalog Task \[sc\_task\]
@@ -57,7 +58,7 @@ When a user submits a request for a catalog item, records are generated in the f
 
     If a catalog item is added to the cart and the request is submitted using the checkout process, the default cart is checked out.
 
-    All steps mentioned in the preceding scenario, Catalog item is ordered directly without adding it to the cart, are applicable. However, if multiple catalog items are added to the cart, step b to step e are repeated for each item.
+    All steps mentioned in the preceding scenario, Catalog item is ordered directly without adding it to the cart, are applicable. However, if multiple catalog items are added to the cart, step 2 through step 4 of the checkout process are repeated for each item.
 
 -   **Request is submitted using an order guide**
 
@@ -68,12 +69,12 @@ When a user submits a request for a catalog item, records are generated in the f
 
 **Note:** The base system workflow attached to the request is demo data.
 
-**Parent Topic:**[Exploring Request Management](../../request-management/concept/exploring-request-management.md)
+**Parent Topic:**[Exploring Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/exploring-request-management.md)
 
 **Related topics**  
 
 
-[Create a catalog request in Agent Workspace](../../service-catalog-management/task/create-request-workspace.md)
+[Create a catalog request in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/create-request-workspace.md)
 
-[Create a request from Universal Request](../../request-management/task/create-request-from-ur.md)
+[Create a request from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/create-request-from-ur.md)
 

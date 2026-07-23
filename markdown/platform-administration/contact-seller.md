@@ -2,6 +2,7 @@
 title: Contact a seller
 description: Contact the provider of an app through the ServiceNow Store to ask questions about the app and its procurement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/contact-seller.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,21 +23,23 @@ If an app is provided by a partner of ServiceNow, you can contact the provider t
 
 If you have questions about an app offered by ServiceNow, contact your account executive or a ServiceNow sales representative.
 
+**Note:** If your organization uses a federal or regulated instance of the ServiceNow Store, the **Contact Seller** button is unavailable. Instead, navigate to the **Contacts** section of the listing details using the side menu or select **View seller profile**, then use the contact information provided to contact the seller directly. For more information about getting applications in regulated environments, see [Using the ServiceNow Store in a regulated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-regulated-store.md).
+
 ## Procedure
 
 1.  From the summary section of the app listing details, select **Contact Seller**.
 
 2.  On the contact form, fill in the fields, which depend on whether you're logged in with your Now Support credentials.
 
-<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d303101e149">
+<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d310124e155">
 
 Logged in status
 
-</th><th align="left" id="d303101e152">
+</th><th align="left" id="d310124e158">
 
 Fields displayed
 
-</th></tr></thead><tbody><tr><td id="d303101e158">
+</th></tr></thead><tbody><tr><td id="d310124e164">
 
 **Logged in**
 
@@ -44,15 +47,15 @@ Fields displayed
 
 Provide the reason for contacting the seller and your message.
 
-</td></tr><tr><td id="d303101e170">
+</td></tr><tr><td id="d310124e173">
 
-**Not Logged in**
+**Not logged in**
 
 </td><td>
 
 On the guest contact form, fill in the fields.
 
- For a description of the field values, see [Guest contact form fields](../reference/guest-contact-form-fields.md).
+ For a description of the field values, see [Guest contact form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/guest-contact-form-fields.md).
 
 </td></tr></tbody>
 </table>3.  Select **Send** to submit the form.
@@ -60,7 +63,7 @@ On the guest contact form, fill in the fields.
 
 ## Result
 
-If you contacted the vendor about a purchase, you might receive an email notification from the ServiceNow Store informing you that the seller has agreed to a custom order. In this case, you can procure the app from the ServiceNow Store according to the terms described in the email.
+If you contact the seller about a purchase, you might receive an email notification from the ServiceNow Store informing you that the seller has agreed to a custom order. In this case, you can procure the app from the ServiceNow Store according to the terms described in the email.
 
 Otherwise, the seller responds to you directly using the contact information that's provided in the contact form or that's associated with your Now Support account.
 

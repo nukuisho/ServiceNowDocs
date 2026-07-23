@@ -2,6 +2,7 @@
 title: Add an MCP Server with Connection and Credential Alias
 description: Add an MCP Server by selecting a Connection and Credential Alias record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-an-mcp-server-with-connection-and-credential-alias.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +19,7 @@ Add an MCP Server by selecting a Connection and Credential Alias record.
 -   Role required: sn\_mcp\_client.admin
 -   Verify that you have a Connection and Credential alias record created before adding an MCP Server with Others as the option.
 
-    For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
+    For more information, see .
 
 
 ## About this task
@@ -66,7 +67,7 @@ Connection and credential alias
 Select a Connection and credential alias record to map with your MCP Server.
 
 </td></tr></tbody>
-</table>    ![Adding an MCP Server in AI Agent Studio with a Connection and credential alias record.](../image/others-mcp-server.png)
+</table>    \[Omitted image "others-mcp-server.png"\] Alt text: Adding an MCP Server in AI Agent Studio with a Connection and credential alias record.
 
 4.  Select **Add**.
 

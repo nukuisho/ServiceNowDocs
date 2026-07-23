@@ -2,6 +2,7 @@
 title: Trigger an AI agent to execute adaptive path desktop actions
 description: Trigger an AI agent that uses adaptive desktop actions from the Now Assist panel. These desktop actions perform tasks on an external website or web application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-wa-access-using-nap.html
 release: australia
 topic_type: task
 last_updated: "2025-09-06"
@@ -16,9 +17,9 @@ Trigger an AI agent that uses adaptive desktop actions from the Now Assist panel
 
 ## Before you begin
 
--   Confirm that the **ServiceNow Web Automation** Google Chrome extension is installed and connected to your ServiceNow® instance. For more information, see [Install the Google Chrome extension for adaptive desktop actions](na-ai-wa-install-browser-extension.md).
+-   Confirm that the **ServiceNow Web Automation** Google Chrome extension is installed and connected to your ServiceNow® instance. For more information, see [Install the Google Chrome extension for adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-install-browser-extension.md).
 -   Confirm that you're logged in to your ServiceNow instance and it is in the active state in the browser window.
--   Verify that enhanced chat is available in Now Assist panel. The Web view pane is available only when enhanced chat is enabled. For more information see [Enhanced chat](../../../administer/now-assist-platform/concept/now-assist-panel-enhanced.md).
+-   Verify that enhanced chat is available in Now Assist panel. The Web view pane is available only when enhanced chat is enabled. For more information see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced.md).
 
 Role required: now\_assist\_panel\_user
 
@@ -34,7 +35,7 @@ Here are tips for writing successful requests for the LLM:
 
 ## Procedure
 
-1.  On your ServiceNow instance, open the Now Assist panel by using the Now Assist ![Now Assist icon.](../../../administer/now-assist-platform/images/wwna-icon.png) icon.
+1.  On your ServiceNow instance, open the Now Assist panel by using the Now Assist \[Omitted image "wwna-icon.png"\] Alt text: Now Assist icon. icon.
 
     Use the same instance that the **ServiceNow Web Automation** extension is connected to and has at least one AI agent that uses adaptive desktop actions.
 
@@ -42,7 +43,7 @@ Here are tips for writing successful requests for the LLM:
 
     Now Assist panel asks for details about your request.
 
-    ![Under View AI Agent Processing Steps, the agent asks for specifics. The Reply to Now Assist text box is highlighted.](../../../administer/now-assist-web-agents/image/na-ai-wa-access-using-nap-specifyZ.png)
+    \[Omitted image "na-ai-wa-access-using-nap-specifyZ.png"\] Alt text: Under View AI Agent Processing Steps, the agent asks for specifics. The Reply to Now Assist text box is highlighted.
 
 3.  Enter details about the task you want the AI agent to execute for you.
 
@@ -52,7 +53,7 @@ Here are tips for writing successful requests for the LLM:
     -   Can you find the latest invoice from invoiceninja.com?
     -   Navigate to https://www.accuweather.com/. In the Search field, enter "zip code 95054" and search. In the search results, open the first page. Find the current temperature in degrees Fahrenheit and tell me the temperature.
     -   Navigate to en.wikipedia.org. On the main page of wikipedia.org, in the Search field, search for "Santa Clara, California". In the search results, open the first page listed, and read its contents. Summarize the contents of the page in 2 or 3 sentences.
-    In your conversations with AI agents, the actual wording of the questions and answers may be different from the given examples. For more information about Now Assist panel, see [Now Assist panel](../../../administer/now-assist-platform/concept/now-assist-panel-overview.md).
+    In your conversations with AI agents, the actual wording of the questions and answers may be different from the given examples. For more information about Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 4.  Review the execution plan proposed by the AI agent and confirm your approval.
 
@@ -66,16 +67,16 @@ Here are tips for writing successful requests for the LLM:
 
     You can see the following:
 
-    -   AI agent opens a concurrent browser tab to your target website, labeled "Opened for you".![The browser tab opened by the Now Assist AI agent, with the message "Opened for you."](../../../administer/now-assist-web-agents/image/na-ai-wa-test-opened-for-youZ.png)
+    -   AI agent opens a concurrent browser tab to your target website, labeled "Opened for you".\[Omitted image "na-ai-wa-test-opened-for-youZ.png"\] Alt text: The browser tab opened by the Now Assist AI agent, with the message "Opened for you."
     -   The **Web view** tab displays periodic screenshots of how AI agent navigates to the website and perform requested steps.
 
         You can switch to the Web view by selecting the **Web view** tab or by selecting the **Walkthrough of AI agents on the web** card in Now Assist panel.
 
-        ![Under View AI Agent Processing Steps, at Walkthrough of AI agents on the web, the Show button is highlighted.](../../../administer/now-assist-web-agents/image/na-ai-wa-access-using-nap-show-web-viewZ.png)
+        \[Omitted image "na-ai-wa-access-using-nap-show-web-viewZ.png"\] Alt text: Under View AI Agent Processing Steps, at Walkthrough of AI agents on the web, the Show button is highlighted.
 
 6.  If the AI agent prompts you that the website requires a login or terms agreement, respond in the chat or switch to the **Opened for you** browser tab to enter the information directly.
 
-    ![In chat in Now Assist panel, the AI agent requests the user to complete the required action on the website and then confirm once finished.](../../../administer/now-assist-web-agents/image/na-ai-wa-access-request-to-userZ.png)
+    \[Omitted image "na-ai-wa-access-request-to-userZ.png"\] Alt text: In chat in Now Assist panel, the AI agent requests the user to complete the required action on the website and then confirm once finished.
 
     Return to the Now Assist panel in your instance when you have finished the login. Confirm that you're ready to continue.
 
@@ -86,14 +87,14 @@ Here are tips for writing successful requests for the LLM:
 
 ## Result
 
-The AI agent closes the separate browser tab to the external website. Your chat is moved to the Completed section of Now Assist panel.
+The browser tabs opened during goal execution in adaptive desktop actions stay open after the goal completes. Use the `keep_tab_open` system property to turn this behavior on or off. The property is turned on by default.
 
 ## What to do next
 
-You can delete the chat log in Now Assist panel if any sensitive information was captured. For detailed instructions, see [Delete an AI agent chat log](na-ai-wa-delete-chat-log.md).
+You can delete the chat log in Now Assist panel if any sensitive information was captured. For detailed instructions, see [Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-delete-chat-log.md).
 
--   **[Delete an AI agent chat log](na-ai-wa-delete-chat-log.md)**  
+-   **[Delete an AI agent chat log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-delete-chat-log.md)**  
 After you close an AI agent session, you can delete its chat if any sensitive information was captured. Deleting your chat log permanently erases the chat history of that session, including screenshots.
 
-**Parent Topic:**[Examples of executing desktop actions using AI agents](../concept/use-agentic-desktop.md)
+**Parent Topic:**[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
 

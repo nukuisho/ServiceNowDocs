@@ -2,6 +2,7 @@
 title: Create an event rule to bind metric events to host CIs
 description: Create event rules to explicitly allow binding of metric events to host CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-host.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -31,7 +32,7 @@ To avoid this confusion, Event Management default host binding is disabled for m
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Event Rules** to open the event rule designer.
 
-2.  Click **New** and ensure that the **Active** toggle switch ![Active toggle switch](../image/Active-toggle-button.png) is set to the right \(Active\).
+2.  Click **New** and ensure that the **Active** toggle switch \[Omitted image "Active-toggle-button.png"\] Alt text: Active toggle switch is set to the right \(Active\).
 
 3.  On the **Event Rule Info** tab:
 
@@ -44,10 +45,10 @@ To avoid this confusion, Event Management default host binding is disabled for m
 5.  Click **Save**.
 
 
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 
 **Related topics**  
 
 
-[Create or edit an event rule](create-or-edit-event-rule.md)
+[Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-or-edit-event-rule.md)
 

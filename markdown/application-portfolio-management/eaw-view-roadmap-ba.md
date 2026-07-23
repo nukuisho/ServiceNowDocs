@@ -2,6 +2,7 @@
 title: View roadmap of a business application
 description: View the roadmap of your business applications and align them with the organization's strategy. Creating a portfolio plan helps you plan, prioritize, and roadmap the work for your business application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-roadmap-ba.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,21 +26,21 @@ Role required: sn\_apm.apm\_user and sn\_align\_core.apw\_user
 
     -   From the Business Portfolio page:
         1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace** &gt; **Business Portfolio**
-        2.  Select the expand row icon \(![Expand Row icon.](../../image/ExpandIcon.png)\) next to a business capability.
-        3.  Select the row context menu icon \(![Row context menu icon.](../../../../common/image/icon-menu.png)\) for a business application and select **View roadmap**.
+        2.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon.\) next to a business capability.
+        3.  Select the row context menu icon \(\[Omitted image "icon-menu.png"\] Alt text: Row context menu icon.\) for a business application and select **View roadmap**.
     -   From the Portfolio page:
         1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace** &gt; **Portfolio**
-        2.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Application Portfolio**.
+        2.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Application Portfolio**.
         3.  Select  **Business Applications**.
         4.  Select a business application to open it.
-        5.  Select the more actions menu \(![More actions menu.](../../image/icon-three-dot-menu-eaw.png)\) and select **View roadmap**.
+        5.  Select the more actions menu \(\[Omitted image "icon-three-dot-menu-eaw.png"\] Alt text: More actions menu.\) and select **View roadmap**.
     You’re navigated to the Planning page of the Strategic Planning Workspace. A temporary portfolio plan is created in the Strategic Planning Workspace with all the planning items that are associated with the business application.
 
-    **Note:** The temporary portfolio plan is meant for preview purpose only. To plan, prioritize, and roadmap the work for your business application, copy the temporary portfolio plan or create one. ![Business application roadmap in SPW](../../image/eaw-image/view-roadmap-ba-spw.png)
+    **Note:** The temporary portfolio plan is meant for preview purpose only. To plan, prioritize, and roadmap the work for your business application, copy the temporary portfolio plan or create one. \[Omitted image "view-roadmap-ba-spw.png"\] Alt text: Business application roadmap in SPW
 
 2.  Copy the portfolio plan for your business application to plan, prioritize, and roadmap the work for your business application.
 
-    1.  From the portfolio plan header, select the more actions icon \(![More actions menu in SPW.](../../../alignment-planner-workspace/images/icon-more-actions.png)\) and then select **Copy portfolio plan**.
+    1.  From the portfolio plan header, select the more actions icon \(\[Omitted image "icon-more-actions.png"\] Alt text: More actions menu in SPW.\) and then select **Copy portfolio plan**.
 
     2.  On the Copy portfolio plan window, fill in the details.
 
@@ -47,39 +48,39 @@ Role required: sn\_apm.apm\_user and sn\_align\_core.apw\_user
         2.  \(Optional\)  Grant access to the users of the portfolio plan by selecting the **Share with same users and groups ** option.
     3.  Select **Confirm**.
 
-    Alternatively, you can also create your own portfolio plan in the Strategic Planning Workspace \(SPW\) using the Business Capability lens. For more information, see [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
+    Alternatively, you can also create your own portfolio plan in the Strategic Planning Workspace \(SPW\) using the Business Capability lens. For more information, see [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 
-**Parent Topic:**[Working with an application portfolio](../../concept/eaw-concept/eaw-work-with-application-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 
 
-[View a unified map for a business application](eaw-open-map-ba.md)
+[View a unified map for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-open-map-ba.md)
 
-[Manage information objects of a business application in EA Workspace](eaw-associate-info-obj-ba.md)
+[Manage information objects in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-associate-info-obj-ba.md)
 
-[View architectural artifacts associated with a business application](eaw-view-archi-artfct-assoc-with-ba.md)
+[View architectural artifacts for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-archi-artfct-assoc-with-ba.md)
 
-[Create an architectural artifact and associate it with a business application](eaw-assoicate-artifact-ba.md)
+[Associate an architectural artifact with a business app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-ba.md)
 
-[Add an existing architectural artifact to a business application](eaw-add--existing-archi-artfct-to-a-ba.md)
+[Add an architectural artifact to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add--existing-archi-artfct-to-a-ba.md)
 
-[Remove architectural artifacts associated with a business application](eaw-unassign-archi-artfct-assoc-ba.md)
+[Remove architectural artifacts from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-archi-artfct-assoc-ba.md)
 
-[Open business application form in Core UI from EA Workspace](view-ba-form-in-coreui.md)
+[Open business application form in Core UI from EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-ba-form-in-coreui.md)
 
-[Create a Lucidchart diagram for a business application in the EA Workspace](eaw-create-lucid-diagram-ba.md)
+[Create a Lucidchart diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
 
-[Create a diagram for a business application in the EA Workspace](eaw-create-diagram-ba.md)
+[Create a diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-diagram-ba.md)
 
-[Remove business capabilities associated with a business application](eaw-unassign-business-capabilities-from-ba.md)
+[Remove business capabilities from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-business-capabilities-from-ba.md)
 
-[Add an existing business capability to a business application](eaw-add-existing-business-capability-to-ba.md)
+[Add a business capability to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-existing-business-capability-to-ba.md)
 
-[View business capabilities associated with a business application](eaw-view-business-capabilities-assoc-with-ba.md)
+[View business capabilities for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-business-capabilities-assoc-with-ba.md)
 
-[Add or edit a business application](eaw-create-business-app.md)
+[Add or edit a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-business-app.md)
 
-[View all business applications](view-all-business-apps.md)
+[View all business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-all-business-apps.md)
 

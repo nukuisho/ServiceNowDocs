@@ -2,6 +2,7 @@
 title: Components installed with Universal Task
 description: Several types of components are installed with activation of the Universal Task application, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/installed-with-uni-task.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -22,6 +23,7 @@ Demo data is available for this feature.
 |Role title \[name\]|Description|Contains roles|
 |-------------------|-----------|--------------|
 |Admin \[sn\_uni\_task.admin\]|View and configure the Universal Task application|None|
+|Agent \[sn\_uni\_task.agent\]|Enable agents to be assigned Universal Task work items.| |
 |Report view \[sn\_uni\_task.report\_view\]|Access and view Universal Task reports|None|
 |Employee form admin \[sn\_uni\_task.emp\_form\_admin\]|Create and manage Employee forms|survey\_admin|
 |Employee form creator \[sn\_uni\_task.emp\_form\_creator\]|Create and modify employee forms|survey\_creator|
@@ -102,5 +104,5 @@ Universal Task Dynamic Template Mapping \[sn\_uni\_task\_dynamic\_template\_mapp
 Stores the dynamic template mappings between Universal Task fields and parent table fields.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Universal Task](../task/install-universal-task.md)
+</table>**Parent Topic:**[Install Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/install-universal-task.md)
 

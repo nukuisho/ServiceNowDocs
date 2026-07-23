@@ -2,6 +2,7 @@
 title: Invoke the Schedule page and view a calendar
 description: You can use the URL from arguments module, a field decoration \(dictionary attribute ref\_contributions\), or a UI Action linking to show\_schedule.do to invoke the Schedule page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/c\_GenCalViewsFromSchedPages.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -33,10 +34,10 @@ This URL takes the user to the monthly calendar view dated March 1, 2016.
 
 **Note:** The `sysparm_zoom` URL component has been replaced with `sysparm_current_view` in OnCallRotation only.
 
-**Parent Topic:**[Using schedules and calendars](../reference/r_CreateCalendarsWithSchedulePages.md)
+**Parent Topic:**[Using schedules and calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_CreateCalendarsWithSchedulePages.md)
 
 **Related topics**  
 
 
-[Schedule calendar](schedule-calendar.md)
+[Schedule calendar]()
 

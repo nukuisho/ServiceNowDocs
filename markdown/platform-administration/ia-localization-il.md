@@ -2,11 +2,12 @@
 title: Localization
 description: Enable users worldwide to interact in their preferred language and currency through one integrated system
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-localization-il.html
 release: australia
 topic_type: reference
 last_updated: "2025-12-04"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Localization
@@ -15,7 +16,7 @@ Enable users worldwide to interact in their preferred language and currency thro
 
 **Note:** You are required to have Global scope to modify Localization settings.
 
-![](../image/ia-localization.png)
+\[Omitted image "ia-localization.png"\] Alt text:
 
 ## Default language
 
@@ -40,7 +41,7 @@ The locale options are for timezone, currencies, and date/time format.
 
 **Note:** Select **Save** to save the recent settings. You can also undo the most recent change by selecting **Undo**. By selecting **Undo**, the values are reverted back to the most recent saved values.
 
-See [Localization](ia-localization-il.md) for more information.
+See [Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-localization-il.md) for more information.
 
-**Parent Topic:**[Platform module configuration in Now Assist for Setup](ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

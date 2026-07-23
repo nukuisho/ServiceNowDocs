@@ -1,15 +1,16 @@
 ---
-title: Create a renewal playbook
+title: Create a renewal play
 description: Create a renewal playbook to define processes to simplify contract renewals and identify expansion opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-renewal-playbook.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Manage playbooks, Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Manage playbooks, Customer success, Use, Customer Success Management]
 ---
 
-# Create a renewal playbook
+# Create a renewal play
 
 Create a renewal playbook to define processes to simplify contract renewals and identify expansion opportunities.
 
@@ -27,7 +28,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 4.  Select **Success Support** from the Category drop down list.
 
-5.  In the subcategory section, select **Simple renewal play** and select **Next**.
+5.  In the subcategory section, select the **Internal play** and **Simple renewal play** and select **Next**.
 
 6.  Specify the Due Date and select the user in the Assigned to field and select **Finish**.
 
@@ -69,5 +70,5 @@ Role required: sn\_acct\_lc.customer\_success\_agent
     **Note:** If after creating the renewal playbook, you close or cancel the playbook, all pending activities, and lanes are automatically canceled and the playbook State is set to Canceled.
 
 
-**Parent Topic:**[Manage customer success playbooks](../concept/account-lifecycle-manage-cust-succ-playbooks.md)
+**Parent Topic:**[Manage customer success playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.md)
 

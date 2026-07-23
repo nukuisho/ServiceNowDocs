@@ -1,23 +1,25 @@
 ---
 title: APO landing page
-description: Use the Source-to-Pay Workspace landing page to find all the information that you need and view the tasks specific to your role, all in one location.
+description: The Source-to-Pay Workspace provides a centralized view of information and role-specific tasks, enabling quick access to relevant information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-landing-page.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
+keywords: [APO, Accounts Payable Operations, Accounts Payable Workspace, invoice automation, AP automation]
 breadcrumb: [Source-to-Pay Workspace landing page, Explore, Workspace, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # APO landing page
 
-Use the Source-to-Pay Workspace landing page to find all the information that you need and view the tasks specific to your role, all in one location.
+The Source-to-Pay Workspace provides a centralized view of information and role-specific tasks, enabling quick access to relevant information.
 
 Open the Source-to-Pay Workspace by navigating to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-When you open the Source-to-Pay Workspace, the home page is displayed by default. If you navigate away from the home page, you can select the home icon \(![Home icon](../../supplier-lifecycle-operations/image/home-icon.png)\) to return to the home page.
+When you open the Source-to-Pay Workspace, the home page is displayed by default. If you navigate away from the home page, you can select the home icon \(\[Omitted image "home-icon.png"\] Alt text: Home icon\) to return to the home page.
 
 As an agent, you can view and manage to-do tasks assigned to you, open any unassigned cases, and cases by priority. As an Accounts Payable Specialist, you can view and manage tasks assigned to you, open any unassigned cases, cases by priority, invoice exceptions, and invoices at risk of being paid late.
 
@@ -303,17 +305,17 @@ Widget
 
 </td><td>
 
-View the list of invoice tasks that are assigned to the assignment group of the current user. For more information on the fields of invoice tasks, see [Create New Invoice task form](../reference/create-apm-task-form.md)
+View the list of invoice tasks that are assigned to the assignment group of the current user. For more information on the fields of invoice tasks, see [Create New Invoice task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-apm-task-form.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Source-to-Pay Workspace landing page](../../source-to-pay-operations/concept/source-to-pay-ws-landing-page.md)
+</table>**Parent Topic:**[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)
 
 **Related topics**  
 
 
-[SPO landing page](../../sourcing-procurement-operations/concept/procurement-workspace-landing-page.md)
+[SPO landing page]()
 
-[SLO landing page](../../supplier-lifecycle-operations/concept/supp-manager-ws-home.md)
+[SLO landing page]()
 
-[POM landing page](../../purchase-order-management/concept/purch-order-mgmt-tab-s2pws.md)
+[POM landing page]()
 

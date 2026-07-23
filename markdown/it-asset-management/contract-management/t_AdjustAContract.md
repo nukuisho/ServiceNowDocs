@@ -2,13 +2,14 @@
 title: Adjust a contract
 description: After creating a contract, you can change the start date, end date, or payment amount for a contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_AdjustAContract.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Contracts, Contract Management use, Contract Management, IT Asset Management]
+breadcrumb: [Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
 
 # Adjust a contract
@@ -45,25 +46,25 @@ To adjust a contract, the **State** should be **Active**. If the end date of a c
 5.  Click **Submit Adjustments**.
 
 
--   **[Renew a contract](t_RenewAContract.md)**  
+-   **[Renew a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_RenewAContract.md)**  
 After you have created a contract or the contract has expired, you can renew the contract.
--   **[Cancel a contract](t_CancelAContract.md)**  
+-   **[Cancel a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_CancelAContract.md)**  
 You can cancel a contract when the **State** is **Active**.
 
-**Parent Topic:**[Contracts](../concept/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 
 
-[Create a contract](t_CreateAContract.md)
+[Create a contract]()
 
-[Verify contract administrator assignment for notification](t_SendAContractNotification.md)
+[Verify contract administrator assignment for notification]()
 
-[Send the contract for approval](t_SendTheContractForApproval.md)
+[Send the contract for approval]()
 
-[Terms and conditions](../concept/c_TermsAndConditions.md)
+[Terms and conditions]()
 
-[Create a contract rate card](t_ContractRateCardsAndExpenseLines.md)
+[Create a contract rate card]()
 
-[Monitor a contract](t_MonitoringContracts.md)
+[Monitor a contract]()
 

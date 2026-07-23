@@ -2,6 +2,7 @@
 title: Run a scheduled job to update TRM technical debt data in EA Workspace
 description: Run a scheduled job to fetch the TRM technical debts data. You must run this job to see the products that are not approved for usage in your enterprise according to the TRM phases defined in Enterprise Architecture Workspace &gt; Setup&gt;TRM Phases&gt;All. You can schedule this job to periodically update the TRM technical debt for all business applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-run-job-trm-tech-debts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,10 +37,10 @@ You must run this job to see the products that are not approved for usage in you
 
 After executing the scheduled job, the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table gets updated with the latest technical debt data for your application portfolio. It updates the values in the table each time after you run the job.
 
-**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](../../concept/eaw-concept/eaw-work-with-trm.md)
+**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
 
 **Related topics**  
 
 
-[View TRM technical debts](view-trm-tech-debt.md)
+[View TRM technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-trm-tech-debt.md)
 

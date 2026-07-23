@@ -2,6 +2,7 @@
 title: Client-side script use cases
 description: Use cases for client-side scripts include displaying field messages, changing form colors, adding fields, and creating UI routing actions.This is an example of adding a Company field to the checkout below the Requested for field using non-cart layout macros, that is, glide.sc.use\_cart\_layouts is false.Add autofill functionality is also called incident template, auto assignments, quick calls, call script, or auto populate.Changes color of a form field of the form on state change. The script can easily be changed to adjust any property of any object on the page accessible via the HTML DOM.This solution enables you to create a record with the service desk without knowing whether it is an incident or request item; the service desk can then route the record to the appropriate table.Rather than use JavaScript alert\(\), for a cleaner look, you can display an error on the form itself. The methods showFieldMsg\(\) and hideFieldMsg\(\) can be used to display a message just below the field itself.You can use a script to validate input upon a UI Action click on the client side before updating the record on the server side. The user will not have to click the button twice to validate the required fields and update the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/useful-client-side-scripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [Useful scripts, Scripting, API implementation, API implementation a
 
 Use cases for client-side scripts include displaying field messages, changing form colors, adding fields, and creating UI routing actions.
 
-**Parent Topic:**[Useful scripts](usefulScripts.md)
+**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/usefulScripts.md)
 
 ## Add a field to the service catalog checkout
 
@@ -31,7 +32,7 @@ This field passes a provided value to the **Company** field of the Service Catal
 
 This example makes the following assumptions:
 
--   The instance using two-step checkout. If two-step checkout is not enabled, enable it before beginning. For more information, see [Service Catalog checkout models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_EnableATwoStepCheckout.md).
+-   The instance using two-step checkout. If two-step checkout is not enabled, enable it before beginning. For more information, see [Service Catalog checkout models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_EnableATwoStepCheckout.md).
 -   This example populates the **Company** field on the Service Catalog Request form. If the field does not appear on the form, configure the form before beginning. For instructions, see [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md).
 
 ### Procedure
@@ -96,7 +97,7 @@ This example makes the following assumptions:
     </tr>
     ```
 
-    **Note:** The `'ui_reference'` macro defines a reference field. There are several macros for different field types. You can see examples of these field types under **System UI -&gt; UI Macros**. These macros start with `'ui_'`. For this example, the reference field created is named **core\_company**. For more information, see [UI macros](../../server-scripting/concept/c_UIMacros.md#).
+    **Note:** The `'ui_reference'` macro defines a reference field. There are several macros for different field types. You can see examples of these field types under **System UI -&gt; UI Macros**. These macros start with `'ui_'`. For this example, the reference field created is named **core\_company**. For more information, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md).
 
 5.  Now navigate to **System UI &gt; UI Pages** and select the **servicecatalog\_checkout\_one** UI Page.
 
@@ -322,7 +323,7 @@ Error message```
 g_form.showFieldMsg('impact','Low impact not allowed with High priority','error');
 ```
 
-![Low impact not allowed with high priority message.](../image/ShowFieldMsgError.png)
+\[Omitted image "ShowFieldMsgError.png"\] Alt text: Low impact not allowed with high priority message.
 
 Informational message
 
@@ -332,7 +333,7 @@ g_form.showFieldMsg('impact', 'Low impact response time can be one week','info')
 //g_form.showFieldMsg('impact', 'Low impact response time can be one week');
 ```
 
-![Low impact response time can be one week message.](../image/ShowFieldMsgInfo.png)
+\[Omitted image "ShowFieldMsgInfo.png"\] Alt text: Low impact response time can be one week message.
 
 </td></tr><tr><td>
 
@@ -443,11 +444,11 @@ Action name. This value is provided in the record listed in the UI Actions \[sys
 </table>**Related topics**  
 
 
-[GlideForm - getFormElement\(\)](../../../app-store/dev_portal/API_reference/GlideForm/concept/c_GlideFormAPI.md#)
+[GlideForm - getFormElement\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md)
 
-[Scoped GlideSystem - eventQueue\(String name, Object instance, String parm1, String parm2, String queue\)](../../../app-store/dev_portal/API_reference/glideSystemScoped/concept/c_GlideSystemScopedAPI.md#)
+[Scoped GlideSystem - eventQueue\(String name, Object instance, String parm1, String parm2, String queue\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
 
-[GlideUser - Client](../../../app-store/dev_portal/API_reference/GlideUser/concept/c_GlideUserAPI.md#)
+[GlideUser - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideUserAPI.md)
 
 [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
 

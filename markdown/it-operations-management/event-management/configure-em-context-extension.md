@@ -2,12 +2,13 @@
 title: Configure the MID WebService Event Collector Context
 description: Configure the MID WebService Event Collector Context to provide a URL method to push event messages from an external source to the MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-em-context-extension.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-05-21"
+reading_time_minutes: 6
 breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -83,7 +84,7 @@ MID Web Server Extension
 
 </td><td>
 
-Specify and then start the MID Web Server extension. The supported authentication methods are listed in the **Authentication Type** field of the MID Web Server extension. For information about how to configure a MID Web Server extension, see [Configure the MID Web Server](configure-mid-web-server-extension.md).
+Specify and then start the MID Web Server extension. The supported authentication methods are listed in the **Authentication Type** field of the MID Web Server extension. For information about how to configure a MID Web Server extension, see [Configure the MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +105,7 @@ Execute on
 
 </td><td>
 
-**Specific MID Server** or **Specific MID Server Cluster**, as defined on the specified MID Web Server extension.
+**Specific MID Server** or **Specific MID Server Cluster**, as defined on the specified MID Web Server extension.**Note:** **Specific MID Server Cluster** is only for internal processing of ECC queue record and is not for external API load balancing.
 
 </td></tr><tr><td>
 
@@ -162,7 +163,7 @@ For this example, assume that the script name is EventsToProcess, the URL is the
 ```
 
 curl -v -H "Accept: application/json" -H "Content-Type: application/json" -X POST --data "{
-    "records":
+    \"records"\:
     [ {
          \"source\" : \"Simulated\",
         \"node\" : \"nameofnode\",
@@ -222,14 +223,29 @@ curl --location -g --request POST 'http://{MID_Server_IP}:{MID_Web_Server_Port}/
 }'
 ```
 
+## Configuring external API integrations with MID Server failover
+
+To ensure high availability for external API integrations, deploy an external load balancer that distributes traffic across multiple MID servers. Note that the MID cluster web server configuration handles internal processing only \(through ecc\_queue\) and can't manage inbound external API traffic.
+
+|Field|Value|
+|-----|-----|
+|MID Server 1|mid-1.internal:8080|
+|MID Server 2|mid-2.internal:8080|
+|External Load Balancer|mid-cluster.example.com:443|
+|API endpoint format|jsonv2|
+
+Reference the external load balancer hostname in your webhook URL rather than individual MID Server addresses. Replace the variables in the default format: `https://<load-balancer>/api/mid/em/inbound_event?Transform=<format>` with values from the preceding table: `https:///mid-cluster.example.com/api/mid/em/inbound_event?Transform=jsonv2`.
+
+This configuration distributes incoming requests across both MID servers, and if one server becomes unavailable, the load balancer automatically routes traffic to the remaining operational server without service interruption.
+
 **Related topics**  
 
 
-[Configure the MID Web Server extension](configure-mid-web-server-extension.md)
+[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md)
 
-[Event collection from BMC TrueSight](event-collection-BMCTrueSight.md)
+[Event collection from BMC TrueSight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-BMCTrueSight.md)
 
-[Event collection from Microsoft Azure Monitor](event-collection-MicrosoftAzure.md)
+[Event collection from Microsoft Azure Monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-MicrosoftAzure.md)
 
-[Event collection from Google Cloud Platform](event-collection-GCP.md)
+[Event collection from Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-GCP.md)
 

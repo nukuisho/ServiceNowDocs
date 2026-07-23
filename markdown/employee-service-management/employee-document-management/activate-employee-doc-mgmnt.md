@@ -2,13 +2,14 @@
 title: Activate Employee Document Management
 description: You can activate the Employee Document Management \[com.sn\_employee\_document\_management\] plugin with the admin role. This plugin includes demo data and activates related plugins if they are not already active.The Employee Document Management Bulk Uploads requires separate subscriptions to the Orchestration \[com.snc.runbook\_automation\] and ServiceNow IntegrationHub Installer \[com.glide.hub.integrations\] plugins. These plugins must be activated by ServiceNow personnel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/activate-employee-doc-mgmnt.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Employee Document Management
@@ -31,15 +32,15 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Employee Document Management](../concept/configuring-employee-document-management.md)
+**Parent Topic:**[Configuring Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/configuring-employee-document-management.md)
 
 **Related topics**  
 
 
-[Defining and setting for employee documents](../concept/hr-doc-management-config.md#)
+[Defining and setting for employee documents]()
 
 ## Request employee document management bulk uploads
 
@@ -118,7 +119,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 

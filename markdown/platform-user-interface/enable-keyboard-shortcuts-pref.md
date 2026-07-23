@@ -2,18 +2,19 @@
 title: Enable keyboard shortcuts preference
 description: Learn more about the Enable keyboard shortcuts accessibility preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-keyboard-shortcuts-pref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure accessibility preferences, Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure accessibility preferences, Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Enable keyboard shortcuts preference
 
 Learn more about the Enable keyboard shortcuts accessibility preference.
 
-![Enable keyboard shortcuts accessibility preference.](../image/coral-pref-shortcuts.png)
+\[Omitted image "coral-pref-shortcuts.png"\] Alt text: Enable keyboard shortcuts accessibility preference.
 
 The purpose of this preference is to improve efficiency and productivity.
 
@@ -56,13 +57,13 @@ Deactivated
 
 Keyboard shortcuts are active, and users can access a list of available shortcuts from the user menu.
 
-![User menu with Keyboard Shortcuts displayed.](../image/a11y-pref-keyboard-shortcut-on.png)
+\[Omitted image "a11y-pref-keyboard-shortcut-on.png"\] Alt text: User menu with Keyboard Shortcuts displayed.
 
 </td><td>
 
 Keyboard shortcuts are not available.
 
-![User menu without Keyboard shortcuts turned off.](../image/a11y-pref-keyboard-shortcut-off.png)
+\[Omitted image "a11y-pref-keyboard-shortcut-off.png"\] Alt text: User menu without Keyboard shortcuts turned off.
 
 </td></tr></tbody>
 </table>

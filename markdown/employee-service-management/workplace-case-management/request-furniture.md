@@ -2,6 +2,7 @@
 title: Request furniture for a space
 description: Order furniture or equipment for your workplace or for any event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/request-furniture.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -65,7 +66,7 @@ Find a space on a floor map
 
 </td><td>
 
-Option to select a space directly on the floor map.If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](../../wsd-reservation-management/task/display-permanent-seats-on-maps.md).
+Option to select a space directly on the floor map.If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
 
 </td></tr><tr><td>
 
@@ -121,36 +122,36 @@ The furniture request is submitted.
 
 The state of the request changes to Awaiting approval for approval by the respective manager. After the request is approved, the state of the request changes to Work in progress. Depending on the progress of the background tasks that are assigned to fulfill the request, the state of the request further changes.
 
-**Parent Topic:**[Requesting a workplace service](../concept/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 
 
-[Reconfigure an office space](Reconfig-office-space-1.md)
+[Reconfigure an office space]()
 
-[Raise help request for a workplace inquiry](submit-gen-workplace-serv-req.md)
+[Raise help request for a workplace inquiry]()
 
-[Raise a move request for a space change](../../workplace-move-mgmt/task/request-desk-change.md)
+[Raise a move request for a space change]()
 
-[Raise a space assistance request](../../workplace-space-management/task/raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Submit a maintenance request](submit-a-maintenance-request.md)
+[Submit a maintenance request]()
 
-[Submit a catering request](submit-a-catering-request.md)
+[Submit a catering request]()
 
-[Submit heating and cooling request](submit-heating-and-cooling-request.md)
+[Submit heating and cooling request]()
 
-[Submit a badge request](submit-a-badge-request.md)
+[Submit a badge request]()
 
-[Submit a tech support request](submit-a-tech-support-request.md)
+[Submit a tech support request]()
 
-[Submit a cleaning request](submit-a-cleaning-request.md)
+[Submit a cleaning request]()
 
-[Submit an equipment request](submit-a-equipment-request.md)
+[Submit an equipment request]()
 
-[Edit a workplace request](edit-workplace-request.md)
+[Edit a workplace request]()
 
-[Submit an emergency maintenance request](submit-emergency-maint-request.md)
+[Submit an emergency maintenance request]()
 
-[Submit a change event request for a reservation](submit-change-event-reservation.md)
+[Submit a change event request for a reservation]()
 

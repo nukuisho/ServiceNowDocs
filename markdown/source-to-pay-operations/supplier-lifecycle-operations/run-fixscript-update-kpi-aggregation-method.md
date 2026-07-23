@@ -2,6 +2,7 @@
 title: Run fix script to update the Aggregation method field in the KPI table
 description: Run this fix script to update the new fields added in the KPI table \(sn\_kpi\_kpi\) after the May 2025 Australia release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-update-kpi-aggregation-method.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -42,22 +43,22 @@ For new KPI templates and KPIs, there’s no impact even if the script is not ru
 4.  Select **Run Fix Script**.
 
 
-**Parent Topic:**[Post-upgrade tasks for Supplier Case Management](../concept/post-upgrade-tasks-slo.md)
+**Parent Topic:**[Post-upgrade tasks for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-upgrade-tasks-slo.md)
 
 **Related topics**  
 
 
-[Run fix script to update the KPI weighted score field in the KPI score table](run-fixscript-update-kpi-weighted-score.md)
+[Run fix script to update the KPI weighted score field in the KPI score table]()
 
-[Run fix script to update the KPI Instruction field in the Supplier Task table](run-fixscript-update-kpi-instruction.md)
+[Run fix script to update the KPI Instruction field in the Supplier Task table]()
 
-[Run fix scripts to enable Automated KPI collection](run-fixscript-automated-kpis.md)
+[Run fix scripts to enable Automated KPI collection]()
 
-[Run fix script to migrate existing data from the deprecated Action type column after upgrade](fix-script-deprecated-column.md)
+[Run fix script to migrate existing data from the deprecated Action type column after upgrade]()
 
-[Run fix script to use the Supplier Manager Workspace after upgrading to the Australia release](access-smw-after-upgrade.md)
+[Run fix script to use the Supplier Manager Workspace after upgrading to the Australia release]()
 
-[Enable deprecated case types after upgrade](enable-deprecated-case-types.md)
+[Enable deprecated case types after upgrade]()
 
-[Processing the skipped supplier catalog item records after upgrade](../concept/process-skipped-records-upgrade.md)
+[Processing the skipped supplier catalog item records after upgrade]()
 

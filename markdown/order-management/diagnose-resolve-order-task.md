@@ -2,6 +2,7 @@
 title: Diagnose and resolve an order task
 description: As a customer service agent, review, diagnose, and resolve, and close an order task for the service-related issue experienced by the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/diagnose-resolve-order-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ The order task progresses through several stages from start to closure. It begin
 
 4.  Open an order task that is in the New or Open state.
 
-    ![order task.](../image/diagnose-order-task.png)
+    \[Omitted image "diagnose-order-task.png"\] Alt text: order task.
 
 5.  Review and verify the order task.
 
@@ -43,7 +44,7 @@ The order task progresses through several stages from start to closure. It begin
 
 6.  Diagnose the order task to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -65,7 +66,7 @@ The order task progresses through several stages from start to closure. It begin
 
     8.  Select **Run test**.
 
-    9.  In the diagnose tab **Test results** section, select **Refresh list** ![](../image/refresh-order-line-item-orchestration-plan-ui.png) icon.
+    9.  In the diagnose tab **Test results** section, select **Refresh list** \[Omitted image "refresh-order-line-item-orchestration-plan-ui.png"\] Alt text: icon.
 
     10. In the diagnose tab, expand the **Test results** and review the results of the tests conducted in the previous step, checking whether each test is passed or failed.
 
@@ -73,9 +74,9 @@ The order task progresses through several stages from start to closure. It begin
 
         The maximum number of rows to the group is limited to 20 rows. To configure the maximum number of rows more than 20 rows to the group, see [Presentational List Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-list/usage).
 
-    11. Select the **View Details** ![](../../../reuse/icons/product-icons/open-link-right-fill-24.svg) icon for a specific test result to review its details.
+    11. Select the **View Details** \[Omitted image "open-link-right-fill-24.svg"\] Alt text: icon for a specific test result to review its details.
 
-    12. Select the **Rerun test** ![](../../../reuse/icons/product-icons/arrow-clockwise-outline-24.svg) icon for a specific test result to run it again.
+    12. Select the **Rerun test** \[Omitted image "arrow-clockwise-outline-24.svg"\] Alt text: icon for a specific test result to run it again.
 
     13. Select **Continue**.
 

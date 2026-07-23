@@ -2,6 +2,7 @@
 title: Add attachments for a sales process record
 description: Attach files, documents, or images such as implementation plans, customer-provided specifications, or finalized quotes related to a customer account you're monitoring with a sales process record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/add-attachments-sales-process.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ You can attach files only to a sales process record. To add attachments to child
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Under **Lead to Cash Process Management**, select **Sales Process Records**.
 
@@ -37,15 +38,15 @@ You can attach files only to a sales process record. To add attachments to child
 
     **Note:** The default maximum file size is 1 GB, but this may vary based on the size limit set by your admin on your ServiceNow instance.
 
-<table id="choicetable_rbm_fqz_bgc"><thead><tr><th align="left" id="d155057e129">
+<table id="choicetable_rbm_fqz_bgc"><thead><tr><th align="left" id="d171273e129">
 
 Method
 
-</th><th align="left" id="d155057e132">
+</th><th align="left" id="d171273e132">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d155057e138">
+</th></tr></thead><tbody><tr><td id="d171273e138">
 
 **Drag and drop**
 
@@ -53,7 +54,7 @@ Action
 
 Drag and drop the file from your system to the Attachments pane.
 
-</td></tr><tr><td id="d155057e147">
+</td></tr><tr><td id="d171273e147">
 
 **Select a file from your system**
 
@@ -67,12 +68,19 @@ Drag and drop the file from your system to the Attachments pane.
 </td></tr></tbody>
 </table>7.  Select **Upload**.
 
-8.  Attach more files by selecting the Add icon ![](../../../reuse/itom/image/workspace-icon-add.png).
+8.  Attach more files by selecting the Add icon \[Omitted image "workspace-icon-add.png"\] Alt text:.
 
 
 ## What to do next
 
-Download, rename, or delete attachments. For more information, see [Manage attachments for a sales process record](manage-attachments-l2c-process-management.md).
+Download, rename, or delete attachments. For more information, see [Manage attachments for a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-attachments-l2c-process-management.md).
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](../concept/using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+
+**Related topics**  
+
+
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-cash-process-management.md)
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
 

@@ -2,13 +2,14 @@
 title: Domain separation and Asset Management
 description: Domain separation is supported in Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/domain-separation-asset-management.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Asset Management, IT Asset Management]
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Domain separation and Asset Management

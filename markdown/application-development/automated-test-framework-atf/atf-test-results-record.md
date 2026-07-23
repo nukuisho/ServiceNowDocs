@@ -2,6 +2,7 @@
 title: Test results record
 description: A Test Results record contains detailed results information about one test execution. Client Error Details and Failure Details sections appear when a test fails due to error conditions, and include detailed error information you can use for troubleshooting purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-test-results-record.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -76,7 +77,7 @@ Retain indefinitely
 
 </td><td>
 
-Check box to keep this record even after the specified data retention period has passed. For more information, see [Table Cleanup](../concept/table-cleanup.md).
+Check box to keep this record even after the specified data retention period has passed. For more information, see [Table Cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/table-cleanup.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +109,7 @@ Previous test result
 
 </td><td>
 
-Results of the previous test execution, indicating if the test passed or failed. Only appears if this test result is for a re-run of a failed test and you are logged on with the admin, atf\_test\_admin, or atf\_test\_designer role. Click the information icon \(![Reference field icon](../image/atf-test-results-item.png)\) to navigate to the original test result. ![Previous test result](../image/atf-prev-test-results.png)
+Results of the previous test execution, indicating if the test passed or failed. Only appears if this test result is for a re-run of a failed test and you are logged on with the admin, atf\_test\_admin, or atf\_test\_designer role. Click the information icon \(\[Omitted image "atf-test-results-item.png"\] Alt text: Reference field icon\) to navigate to the original test result. \[Omitted image "atf-prev-test-results.png"\] Alt text: Previous test result
 
 </td></tr></tbody>
 </table>**Note:** If this test created screenshots, they appear as attachments in **Manage attachments**.
@@ -131,7 +132,7 @@ Failing step
 
 </td><td>
 
-Reference to the first test step result that failed during this test. Click the information icon \(![Reference field icon](../image/atf-test-results-item.png)\) to view detailed step results and error information in the Step Results form.
+Reference to the first test step result that failed during this test. Click the information icon \(\[Omitted image "atf-test-results-item.png"\] Alt text: Reference field icon\) to view detailed step results and error information in the Step Results form.
 
 </td></tr><tr><td>
 
@@ -141,7 +142,7 @@ Summary
 
 The following text indicates that a client error occurred at this step, and includes the detailed error message:`This step failed because the client error 'DETAILED ERROR MESSAGE' was detected on the page being tested. See failing Test Logs. To ignore these errors in the next test run, use ‘Add all client errors to warning/ignored list’ links.`
 
- Test designers and developers should always investigate client errors to determine if there are issues with your business process. For more details, see [Identify and resolve client errors](../task/identify-and-resolve-client-errors.md#).
+ Test designers and developers should always investigate client errors to determine if there are issues with your business process. For more details, see [Identify and resolve client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/identify-and-resolve-client-errors.md).
 
 </td></tr><tr><td>
 
@@ -149,7 +150,7 @@ First failing client error
 
 </td><td>
 
-Reference to the first client error that failed during the test. Click the information icon \( ![Reference field icon](../image/atf-test-results-item.png)\) to view detailed test results and error information in the Test Logs form.**Note:** For details on how to allow client errors as ignored or warning entries, refer to [Allowed client errors](../concept/whitelisted-client-errors.md)
+Reference to the first client error that failed during the test. Click the information icon \( \[Omitted image "atf-test-results-item.png"\] Alt text: Reference field icon\) to view detailed test results and error information in the Test Logs form.**Note:** For details on how to allow client errors as ignored or warning entries, refer to [Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 
 </td></tr><tr><td>
 
@@ -157,7 +158,7 @@ Failing step screenshot
 
 </td><td>
 
-Screenshot of the step that failed. Click ![Reference field icon](../image/atf-test-results-item.png) to download the screenshot.
+Screenshot of the step that failed. Click \[Omitted image "atf-test-results-item.png"\] Alt text: Reference field icon to download the screenshot.
 
 </td></tr></tbody>
 </table>## Failure Details
@@ -166,7 +167,7 @@ This section only displays when a test fails due to a cause other than a client 
 
 |Field|Description|
 |-----|-----------|
-|Failing step|Reference to the first step result that failed during this test. Click ![Reference field icon](../image/atf-test-results-item.png) to download the screenshot.|
+|Failing step|Reference to the first step result that failed during this test. Click \[Omitted image "atf-test-results-item.png"\] Alt text: Reference field icon to download the screenshot.|
 |Summary|Output of the step that failed.|
 |Failing screenshot|Screenshot of the step that failed.|
 
@@ -245,20 +246,20 @@ Warnings
 List of test logs containing client errors with a warning status. The Warnings related list only appears on test results with warnings.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Test results](../concept/atf-test-results-module.md)
+</table>**Parent Topic:**[Test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-results-module.md)
 
 **Related topics**  
 
 
-[View test results and automated test results](../task/atf-view-results-consolidated.md)
+[View test results and automated test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-view-results-consolidated.md)
 
-[Test logs record](atf-test-log-record.md)
+[Test logs record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-log-record.md)
 
-[Step results record](atf-step-result-record.md)
+[Step results record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-step-result-record.md)
 
-[Allowed client errors](../concept/whitelisted-client-errors.md)
+[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 
-[Allow client errors from step results](../task/whitelist-errors-from-step-results-related-list.md)
+[Allow client errors from step results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelist-errors-from-step-results-related-list.md)
 
-[Allow client errors from the test logs](../task/whitelist-errors-from-test-log-related-list.md)
+[Allow client errors from the test logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelist-errors-from-test-log-related-list.md)
 

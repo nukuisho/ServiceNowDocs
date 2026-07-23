@@ -2,6 +2,7 @@
 title: High Assurance for SSO login
 description: Establish high assurance session for SSO login using ServiceNow's continuous authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/high-assurance-sso-logins.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,13 +22,13 @@ When the user re-authenticates, there's a high assurance session that is establi
 
 You can create CA policies to verify the users identity and authentication the users to access the data that you've protected. You can configure the CA policy and provide the Identity Providers details in the Identity Providers record to establish high assurance session.
 
-![Continuous Authentication - tab information](../images/ca-tab.png)
+\[Omitted image "ca-tab.png"\] Alt text: Continuous Authentication - tab information
 
 The users who are performing SSO based login \(SAML or OIDC\) and whenever there is an attempt to access the protected data, re-authentication screen is prompted with the same SSO that was used by the user during the initial login.
 
-![SSO - Screen](../images/ca-sso-screen.png)
+\[Omitted image "ca-sso-screen.png"\] Alt text: SSO - Screen
 
-After successful SSO authentication, the protected data is displayed to the users for a certain time frame. You can configure the properties to change the time limit based on your requirement. To know more, see [High Assurance session with Continuous Authentication](high-assurance-ca.md).
+After successful SSO authentication, the protected data is displayed to the users for a certain time frame. You can configure the properties to change the time limit based on your requirement. To know more, see [High Assurance session with Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/high-assurance-ca.md).
 
 Performing re-authentication with SSO login \(SAML or OIDC\), creates a high assurance session establishing a secure and trusted connection with the identities \(users\) who are accessing the protected data.
 
@@ -36,9 +37,9 @@ An high assurance session established for the user is limited to the High Assura
 **Related topics**  
 
 
-[High Assurance session with Continuous Authentication](high-assurance-ca.md)
+[High Assurance session with Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/high-assurance-ca.md)
 
-[Pre-work for Continuous Authentication](pre-work-ca.md)
+[Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/pre-work-ca.md)
 
-[Configuring Continuous Authentication](../task/configure-ca.md)
+[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-ca.md)
 

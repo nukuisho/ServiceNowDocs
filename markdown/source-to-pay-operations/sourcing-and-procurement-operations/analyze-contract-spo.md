@@ -2,13 +2,14 @@
 title: Analyze a contract document from Source-to-Pay Workspace
 description: As a contract fulfiller, analyze a contract document with generative AI to identify non-standard and missing clauses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/analyze-contract-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Using Now Assist Contract Management, Source-to-Pay Operations integration Contract Management, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Now Assist for Contract Management, Source-to-Pay Operations and Contract Management Pro integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Analyze a contract document from Source-to-Pay Workspace
@@ -23,7 +24,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller or sn\_cm\_core.contract\
 
 You can analyze an entire document and identify any non-standard or missing clauses by using generative AI with the Now Assist in Contract Management application. With generative AI, your organization can save time and effort by reducing the need for manual review.
 
-For more information, see [Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
+For more information, see [Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-NA-review-land.md).
 
 ## Procedure
 
@@ -35,11 +36,11 @@ For more information, see [Contract analysis using Now Assist in Contract Manage
 
     **Note:** You can analyze only the contracts that are in Work in progress state.
 
-4.  If the contextual side panel isn’t open, select the Now Assist Contract Review by Now Assist icon \(![Contract Review by Now Assist icon](../image/cmpro-ai-sparkel-icon.png)\).
+4.  If the contextual side panel isn’t open, select the Now Assist Contract Review by Now Assist icon \(\[Omitted image "cmpro-ai-sparkel-icon.png"\] Alt text: Contract Review by Now Assist icon\).
 
     You can analyze contracts in the Now Assist contextual side panel as shown in the following example.
 
-    ![Analyze contracts with Now Assist contextual side panel](../image/cmpro-na-side-panel.png)
+    \[Omitted image "cmpro-na-side-panel.png"\] Alt text: Analyze contracts with Now Assist contextual side panel
 
 5.  On the contract request page, select **Contract documents**.
 
@@ -47,15 +48,15 @@ For more information, see [Contract analysis using Now Assist in Contract Manage
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d85369e159">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d149789e159">
 
 Method
 
-</th><th align="left" id="d85369e162">
+</th><th align="left" id="d149789e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d85369e168">
+</th></tr></thead><tbody><tr><td id="d149789e168">
 
 **Run Now Assist analysis on a single contract document**
 
@@ -65,7 +66,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with Now Assist**.
 
 
-</td></tr><tr><td id="d85369e195">
+</td></tr><tr><td id="d149789e195">
 
 **Run Now Assist analysis on multiple contract documents**
 
@@ -81,9 +82,9 @@ Steps
 </td></tr></tbody>
 </table>    After you select **Analyze with Now Assist**, you might encounter Restricted Caller Access \(RCA\) approval messages as shown in the image.
 
-    ![RCA approvals for Now Assist in Contract Management.](../image/spo-cmro-rca-message.png)
+    \[Omitted image "spo-cmro-rca-message.png"\] Alt text: RCA approvals for Now Assist in Contract Management.
 
-    For more information about approving restricted caller access \(RCA\) privileges to allow cross-scope access to Now Assist in Contract Management, see [RCA approvals for Now Assist in Contract Management](approve-rca-contracts-spo.md).
+    For more information about approving restricted caller access \(RCA\) privileges to allow cross-scope access to Now Assist in Contract Management, see [RCA approvals for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/approve-rca-contracts-spo.md).
 
 7.  Select **Analyze contract**.
 
@@ -102,18 +103,18 @@ Steps
 
 9.  View the analysis and select **Back** to go to the analyzed contracts in the Now Assist contextual side panel.
 
-    You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Contract analysis states in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-states.md)
+    You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Contract analysis states in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cmpro-na-states.md)
 
 
--   **[RCA approvals for Now Assist in Contract Management](approve-rca-contracts-spo.md)**  
+-   **[RCA approvals for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/approve-rca-contracts-spo.md)**  
 Approve restricted caller access \(RCA\) privileges to allow cross-scope access to Now Assist in Contract Management.
 
-**Parent Topic:**[Using Now Assist for Contract Management in Sourcing and Procurement Operations](../concept/use-now-assist-cmpro-spo.md)
+**Parent Topic:**[Using Now Assist for Contract Management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-now-assist-cmpro-spo.md)
 
 **Related topics**  
 
 
-[Enable Now Assist in Contract Management](activate-na-cmpro-spo.md)
+[Enable Now Assist in Contract Management]()
 
-[Start a metadata extraction for a contract from Source-to-Pay Workspace](extract-metadata-spo.md)
+[Start a metadata extraction for a contract from Source-to-Pay Workspace]()
 

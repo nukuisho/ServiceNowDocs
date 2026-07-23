@@ -2,6 +2,7 @@
 title: Submit a self-registration request
 description: Submit a registration request from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_SubmitPortalSelfRegRequest.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,4 +42,11 @@ Role required: none
 
     If the code was incorrect, you see this message: “Incorrect Registration Code".
 
+
+**Related topics**  
+
+
+[Customer contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_PortalSelfRegistration.md)
+
+[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_LogInToPortalFirstTime.md)
 

@@ -2,6 +2,7 @@
 title: Add domains to a visibility domains list
 description: Adding a visibility domain allows a user or group to see and potentially edit records from another domain regardless of the user or group's normal domain membership.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_AddADomainToAVisibilityDomainList.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,6 +38,6 @@ Assigning visibility domains to all members of a group is preferred over grantin
 
 6.  Click **Save**, and then click **Update**.
 
-    ![Visibility Domains group](../image/Visibility_domains_group.png)
+    \[Omitted image "Visibility\_domains\_group.png"\] Alt text: Visibility Domains group
 
 

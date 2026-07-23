@@ -2,6 +2,7 @@
 title: Using Playbooks Public Sector Digital Services
 description: A playbook provides government service agents with step-by-step guidance through the life cycle of a public service request case. Use Playbooks to fulfill requests for license and permits, government records and other public information, or non-emergency service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-playbooks-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,17 +23,17 @@ A playbook takes a workflow and breaks it into multiple stages or lanes. Each st
 
 The following applications are available with Public Sector Digital Services that enable you to create and use playbooks:
 
--   [Grants Management](psds-using-grants-management-playbook.md)
--   [Social Benefits Playbook](psds-using-sb-playbooks.md)
--   [License and Permit Playbook](psds-using-lp-playbooks.md)
--   [Information Request Playbook](psds-using-ir-playbooks.md)
--   [Service Request Playbook](psds-using-sr-playbooks.md)
+-   [Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
+-   [Social Benefits Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-sb-playbooks.md)
+-   [License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-lp-playbooks.md)
+-   [Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-ir-playbooks.md)
+-   [Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-sr-playbooks.md)
 
 The corresponding playbook for each case type automatically appears in the **Playbook** tab when you create an public service request case as an agent in the CSM Configurable Workspace, or when a constituent puts in a request through the Government Service Portal.
 
 The workflows for a type of case and the activities that you need to resolve these cases are in the playbook. By using a playbook, you can visualize the entire life cycle of the public service case workflow.
 
-![License Permit Playbook.](../image/lpr-example.png)
+\[Omitted image "lpr-example.png"\] Alt text: License Permit Playbook.
 
 ## Playbook stages
 
@@ -59,7 +60,7 @@ The process-based playbook layout shows the following features:
 -   Record information on the left side of the page, such as the contact information that is always available.
 -   Related records in the contextual side panel supported by the dynamic related records component.
 
-![Agent workspace view of the License and Permit Playbook life cycle, case record information, and license request details, shown in the Process-based experience view.](../image/lp-request-process-based-layout.png "Playbook layout with the Process-based Experience")
+\[Omitted image "lp-request-process-based-layout.png"\] Alt text: Agent workspace view of the License and Permit Playbook life cycle, case record information, and license request details, shown in the Process-based experience view.
 
 The following table shows the components shown in the Playbook workspace.
 
@@ -112,7 +113,7 @@ Contextual side panel
 -   Includes the tabs that you can use to display the following types of information:
     -   Case or case task activity stream.
     -   Ribbon information such as the case overview, customer details, timeline, and service level agreements \(SLAs\).
-    -   Dynamic related records. For more information, see [Dynamic related records](psds-playbook-viewing-rel-records.md).
+    -   Dynamic related records. For more information, see [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-playbook-viewing-rel-records.md).
 
 </td></tr><tr><td>
 
@@ -148,28 +149,28 @@ Items Received Card
 
 The Public Sector Digital Services platform includes the following playbooks:
 
--   **[Social Benefits Playbook](psds-using-sb-playbooks.md)**
+-   **[Social Benefits Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-sb-playbooks.md)**
 
     The Social Benefits Playbook application provides an end-to-end workflow for handling requests for social benefits submitted by public sector end users. The application includes the following:
 
     -   Packaged playbook that deploys out of the box case types, playbooks, business logic, SLAs, notifications and more to automate workflow to orchestrate the process​ and help agents resolve requests faster and efficiently.
     -   Customizable catalog of pre-built social benefit options that constituents and businesses can choose from on the Government Service Portal.
     -   Extendable data model through service definitions.
--   **[License and Permit Playbook](psds-using-lp-playbooks.md)**
+-   **[License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-lp-playbooks.md)**
 
     The License and Permit Playbook application provides an end-to-end workflow for handling license and permit requests submitted by public sector end users. The application includes the following:
 
     -   Packaged playbook that deploys out of the box case types, playbooks, business logic, SLAs, notifications and more to automate workflow to orchestrate the process​ and help agents resolve requests faster and efficiently.
     -   Customizable catalog of pre-built license and permit request options that constituents and businesses can choose from on the Government Service Portal.
     -   Extendable data model through service definitions.
--   **[Information Request Playbook](psds-using-ir-playbooks.md)**
+-   **[Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-ir-playbooks.md)**
 
     The Information Request Playbook application provides an end-to-end workflow for handling public record and information requests submitted by public sector end users. The application includes the following:
 
     -   Service catalog of pre-built, information request options that constituents and businesses can choose from on the Government Service Portal.
     -   Automated workflow process that agents use to resolve information requests faster and efficiently.
     -   If using Advanced Work Assignment, an Information Request service channel that admins can use to automatically route information requests to designated agents.
--   **[Service Request Playbook](psds-using-sr-playbooks.md)**
+-   **[Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-sr-playbooks.md)**
 
     The Service Request Playbook application provides an end-to-end workflow for handling non-emergency service requests submitted by public sector end users. The application includes the following:
 
@@ -178,5 +179,5 @@ The Public Sector Digital Services platform includes the following playbooks:
     -   If using Advanced Work Assignment, a Service Request service channel that admins can use to automatically route non-emergency service requests to designated agents.
     -   Pre-built Virtual Agent conversation topic that enables constituents and businesses to use Virtual Agent to submit non-emergency service requests.
 
-For more information on installing and configuring Playbooks for Public Sector Digital Services, see [Configuring Public Sector Digital Services](configuring-public-sector-digital-services.md).
+For more information on installing and configuring Playbooks for Public Sector Digital Services, see [Configuring Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configuring-public-sector-digital-services.md).
 

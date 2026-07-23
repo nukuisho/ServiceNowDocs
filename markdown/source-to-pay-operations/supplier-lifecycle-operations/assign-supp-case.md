@@ -2,6 +2,7 @@
 title: Assign a supplier case to yourself from the Source-to-Pay Workspace
 description: As a supplier manager, assign a case to yourself and start working on it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/assign-supp-case.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -19,13 +20,11 @@ As a supplier manager, assign a case to yourself and start working on it.
 
 Role required: sn\_slm.manager, sn\_slm.owner, sn\_slm.fulfiller, or sn\_slm.admin
 
-## About this task
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Do one of the following:
 
@@ -33,7 +32,7 @@ Role required: sn\_slm.manager, sn\_slm.owner, sn\_slm.fulfiller, or sn\_slm.adm
     -   View all the cases by navigating to **Lists** &gt; **Cases** &gt; **All Cases**.
 4.  To view the details of the case, select the link for the case in the Number column.
 
-5.  Select **Assign to me**.![Selected button for assigning a case to yourself.](../../source-to-pay-operations/image/assign-supplier-case-to-yourself.png)
+5.  Select **Assign to me**.\[Omitted image "assign-supplier-case-to-yourself.png"\] Alt text: Selected button for assigning a case to yourself.
 
 6.  Select **Save**.
 
@@ -44,10 +43,16 @@ The case is assigned to you.
 
 **Note:** The **Assign to me** option is not available if a case is already assigned.
 
-**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](../concept/managing-cases.md)
+**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 
 **Related topics**  
 
 
-[Manage supplier cases from the Source-to-Pay Workspace](../concept/managing-cases.md)
+[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
+
+[Add a related case to a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-related-case.md)
+
+[Complete a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/complete-supplier-case.md)
+
+[Submit a supplier case from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/submit-supplier-case.md)
 

@@ -2,6 +2,7 @@
 title: Enable notifications in Now Mobile
 description: Allow push notifications on your mobile device when there is an update for a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/enable-notification-mobile.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -35,22 +36,22 @@ Role required: admin
     -   Request Rejected
     -   Agent adds comment to Requested Item
 
-**Parent Topic:**[Request experience in Now Mobile](../concept/now-mobile-catalog.md)
+**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md)
 
 **Related topics**  
 
 
-[Configure catalogs](../../../administer/mobile-employee/task/configure-catalog.md)
+[Configure catalogs]()
 
-[Browse catalog items using the catalog hierarchy](now-mob-browse-cat-item-catalog.md)
+[Browse catalog items using the catalog hierarchy]()
 
-[Submit and track a request](../../../administer/mobile-employee/task/order-item.md)
+[Submit and track a request]()
 
-[Create a quick action in your mobile applications](../../../administer/mobile-employee/task/sc-quick-action.md)
+[Create a quick action in your mobile applications]()
 
-[Enable the cart in Now Mobile](enable-cart-mobile.md)
+[Enable the cart in Now Mobile]()
 
-[Edit the label of Submit button for a record producer](edit-recprdcr-submit-label.md)
+[Edit the label of Submit button for a record producer]()
 
-[Configure Now Mobile properties](config-now-mob-properties.md)
+[Configure Now Mobile properties]()
 

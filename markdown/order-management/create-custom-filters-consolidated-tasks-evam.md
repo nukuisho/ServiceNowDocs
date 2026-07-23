@@ -2,6 +2,7 @@
 title: Customize Tasks tab views using EVAM
 description: Customize the sales entities from which the tasks are displayed, icon and fields that are displayed on each task tile, and create custom options to filter and view consolidated tasks on the sales process dashboard in Lead-to-Cash Process Management using Entity View Action Mapping \(EVAM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-custom-filters-consolidated-tasks-evam.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: admin or evam\_admin
 
 1.  Log in to your ServiceNow instance.
 
-2.  Select the Globe icon ![](../../../reuse/icons/product-icons/globe-outline-24.svg) and set the application scope to Lead-to-Cash Process Management.
+2.  Select the Globe icon \[Omitted image "globe-outline-24.svg"\] Alt text: and set the application scope to Lead-to-Cash Process Management.
 
 3.  Navigate to **All** &gt; **Entity View Action Mapper \(EVAM\)** &gt; **EVAM Definitions**.
 
@@ -33,7 +34,7 @@ Role required: admin or evam\_admin
 
 5.  In the **EVAM Datasource M2Ms** tab, add or remove a data source.
 
-    -   Create and Link: Define a new data source and then link this data source to your EVAM definition. For more information, see [Define a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.md).
+    -   Create and Link: Define a new data source and then link this data source to your EVAM definition. For more information, see [Define a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-datasource.md).
 
         **Note:** When specifying a condition to define how the data is filtered from the selected table, select the operator as **is not empty** for the business entity you're adding. For example, **\[Quote\]\[is not empty\]**.
 
@@ -43,7 +44,7 @@ Role required: admin or evam\_admin
 
 7.  In the **EVAM View Config Bundle M2Ms** tab, add or remove a configuration bundle.
 
-    -   Create and Link: Define a new configuration bundle and then link this bundle to your EVAM definition. For more information, see [Defining an EVAM configuration bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-view-configuration-bundle.md) and [Defining an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md).
+    -   Create and Link: Define a new configuration bundle and then link this bundle to your EVAM definition. For more information, see [Defining an EVAM configuration bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-view-configuration-bundle.md) and [Defining an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-template.md).
     -   Link Existing: Add a predefined configuration bundle to your EVAM definition.
     -   Unlink Selected: Remove the view config bundle for entities you don't want to display.
 8.  Add more data filter options on the Tasks tab of the sales process dashboard.
@@ -63,10 +64,10 @@ Role required: admin or evam\_admin
 9.  Select **Submit**.
 
 
-**Parent Topic:**[Customizing the sales process dashboard](../concept/customizing-sales-process-dashboard.md)
+**Parent Topic:**[Customizing the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customizing-sales-process-dashboard.md)
 
 **Related topics**  
 
 
-[Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md)
+[Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-composite-dataset.md)
 

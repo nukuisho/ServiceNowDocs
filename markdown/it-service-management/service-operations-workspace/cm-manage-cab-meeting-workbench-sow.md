@@ -2,6 +2,7 @@
 title: Conduct a CAB meeting in the CAB workbench
 description: Start and conduct a Change Advisory Board meeting in the CAB Workbench in Service Operations Workspace to review the agenda and approve or schedule changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/cm-manage-cab-meeting-workbench-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -24,7 +25,7 @@ Role required: sn\_change\_cab.cab\_manager
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the List icon \(![List icon.](../image/sow-list.png)\).
+2.  Select the List icon \(\[Omitted image "sow-list.png"\] Alt text: List icon.\).
 
 3.  In the **Change Advisory Board** tab, select **My upcoming CAB meetings**.
 
@@ -34,7 +35,7 @@ Role required: sn\_change\_cab.cab\_manager
 
     The CAB meeting opens in the CAB Workbench.
 
-    ![CAB workbench shows a CAB meeting in progress, and an agenda item with its details.](../image/cm-cab-workbench-meeting-sow.png)
+    \[Omitted image "cm-cab-workbench-meeting-sow.png"\] Alt text: CAB workbench shows a CAB meeting in progress, and an agenda item with its details.
 
 6.  Select **Start meeting** to start the meeting.
 
@@ -83,12 +84,12 @@ Role required: sn\_change\_cab.cab\_manager
 
 8.  In the contextual menu, view the meeting details, attendees list, and take meeting notes.
 
-    -   Select the meeting information icon \(![Meeting information icon.](../image/cm-icon-meeting-info.png)\) to view the meeting details.
-    -   Select the attendees icon \(![Attendees icon.](../image/cm-icon-attendee.png)\) to view the list of attendees along with their response to the meeting invitation.
+    -   Select the meeting information icon \(\[Omitted image "cm-icon-meeting-info.png"\] Alt text: Meeting information icon.\) to view the meeting details.
+    -   Select the attendees icon \(\[Omitted image "cm-icon-attendee.png"\] Alt text: Attendees icon.\) to view the list of attendees along with their response to the meeting invitation.
 
         The green circle mark next to the name of attendees indicates they are currently connected to the meeting.
 
-    -   Select the notes icon \(![Notes icon.](../image/cm-icon-meeting-notes.png)\) to enter meeting notes and save into the CAB meeting record or email it to the attendees.
+    -   Select the notes icon \(\[Omitted image "cm-icon-meeting-notes.png"\] Alt text: Notes icon.\) to enter meeting notes and save into the CAB meeting record or email it to the attendees.
 
         **Note:** Only the CAB manager or delegates can enter the notes for the overall meeting. Other attendees in the meeting can review the notes in the read-only mode.
 
@@ -102,22 +103,22 @@ Role required: sn\_change\_cab.cab\_manager
     -   **Meeting end time**: Shows when the meeting ended.
     -   **Meeting notes**: Shows notes taken during the meeting and decision comments on agenda items.
 
-**Parent Topic:**[Change Management in Service Operations Workspace](../concept/change-sow.md)
+**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/change-sow.md)
 
 **Related topics**  
 
 
-[Create a change request in Service Operations Workspace](create-change-sow.md)
+[Create a change request in Service Operations Workspace]()
 
-[Work on a change request in Service Operations Workspace](work-on-change-sow.md)
+[Work on a change request in Service Operations Workspace]()
 
-[Standard change catalog](../concept/standard-change-catalog-sow.md)
+[Standard change catalog]()
 
-[Create a change task in Service Operations Workspace](create-change-task-sow.md)
+[Create a change task in Service Operations Workspace]()
 
-[Work on a change task in Service Operations Workspace](work-on-change-task-sow.md)
+[Work on a change task in Service Operations Workspace]()
 
-[Create a Change Advisory Board \(CAB\) definition](cm-create-cab-definition-sow.md)
+[Create a Change Advisory Board \(CAB\) definition]()
 
-[Create a CAB meeting](cm-create-cab-meeting-sow.md)
+[Create a CAB meeting]()
 

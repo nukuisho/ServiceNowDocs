@@ -2,6 +2,7 @@
 title: Create a questionnaire or document request template
 description: You can reuse questionnaire templates and document-request templates to speed up the creation of new questionnaires and document requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/create-questionnaire-template.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -63,18 +64,18 @@ A set of related questions within a questionnaire template.**Note:** There can b
 1.  Navigate to one of the following locations:
 
     -   **All** &gt; **Third-party Risk Management** &gt; **Assessment setup** &gt; **Questionnaire Templates** or **Third-party Risk Management** &gt; **Assessment Setup** &gt; **Document Request Templates**.
-    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Assessment setup** &gt; **Questionnaire Templates**.
+    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Assessment setup** &gt; **Questionnaire Templates**.
 2.  Complete one of the following options to create a new template or copy an existing template.
 
-<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d262180e205">
+<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d277897e205">
 
 Option
 
-</th><th align="left" id="d262180e208">
+</th><th align="left" id="d277897e208">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d262180e214">
+</th></tr></thead><tbody><tr><td id="d277897e214">
 
 **Create a new template**
 
@@ -82,7 +83,7 @@ Description
 
 1.  Select **New** and then fill in the form.
 
-For descriptions of all these fields, see [Assessment metric type form](../reference/tprm-create-q-template-form.md).
+For descriptions of all these fields, see [Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-q-template-form.md).
 
 2.  Select **Submit**
 
@@ -92,7 +93,7 @@ Any other templates associated with this template are shown as related links or 
 
 .
 
-</td></tr><tr><td id="d262180e254">
+</td></tr><tr><td id="d277897e254">
 
 **Copy and customize an existing template**
 
@@ -108,9 +109,9 @@ A copy of the questionnaire template has been created and is shown in the Assess
 **Related topics**  
 
 
-[Create an external assessment](tprm-create-assessment.md)
+[Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md)
 
-[Assessing your third-party risk](../concept/tprm-assessing-tpr.md)
+[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
 
-[Create an issue generation rule](tprm-generate-issue-rule.md)
+[Create an issue generation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-generate-issue-rule.md)
 

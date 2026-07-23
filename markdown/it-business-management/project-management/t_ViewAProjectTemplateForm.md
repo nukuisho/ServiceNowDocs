@@ -2,6 +2,7 @@
 title: Create a project template
 description: Create a template from an existing template or a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ViewAProjectTemplateForm.html
 release: australia
 product: Project Management
 classification: project-management
@@ -27,15 +28,15 @@ When you create a template from a project, all the project attachments and check
 
 1.  Create a template.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d315703e68">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d322676e68">
 
 Option
 
-</th><th align="left" id="d315703e71">
+</th><th align="left" id="d322676e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d315703e77">
+</th></tr></thead><tbody><tr><td id="d322676e77">
 
 **From an existing template**
 
@@ -47,7 +48,7 @@ Steps
 4.  The Copy Template dialog box opens. The **Template** field is auto-filled with the current template name.
 
 
-</td></tr><tr><td id="d315703e122">
+</td></tr><tr><td id="d322676e122">
 
 **From a project**
 
@@ -75,20 +76,20 @@ Steps
 5.  Select **Update**.
 
 
-**Parent Topic:**[Applying templates to projects](../concept/c_ProjectTemplates.md)
+**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
 
 **Related topics**  
 
 
-[Add an attachment to a project template](t_AddAnAttachmentToAProjectTemplate.md)
+[Add an attachment to a project template]()
 
-[Apply a template on the Project form](t_ApplyATemplateFromTheProjectForm.md)
+[Apply a template on the Project form]()
 
-[Apply template to an existing project](apply-multiple-templates-prj.md)
+[Apply template to an existing project]()
 
-[Apply template to a blank project in project workspace](t_ApplyTempProjWorkbench.md)
+[Apply template to a blank project in project workspace]()
 
-[Project template configuration](../concept/c_ProjectTemplateConfiguration.md)
+[Project template configuration]()
 
-[Applying templates to projects](../concept/c_ProjectTemplates.md)
+[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
 

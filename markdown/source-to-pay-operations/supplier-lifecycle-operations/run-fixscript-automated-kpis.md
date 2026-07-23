@@ -2,6 +2,7 @@
 title: Run fix scripts to enable Automated KPI collection
 description: Run the fix scripts to enable the Automated KPIs feature that automatically calculates KPI data from database tables instead of manually entering values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-automated-kpis.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -36,26 +37,26 @@ Role required: admin
 
 After running the fix script, a new field **Data collection type** is added in the KPI Template \[sn\_kpi\_template\] table.
 
-**Parent Topic:**[Post-upgrade tasks for Supplier Case Management](../concept/post-upgrade-tasks-slo.md)
+**Parent Topic:**[Post-upgrade tasks for Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-upgrade-tasks-slo.md)
 
 **Related topics**  
 
 
-[Run fix script to update the KPI weighted score field in the KPI score table](run-fixscript-update-kpi-weighted-score.md)
+[Run fix script to update the KPI weighted score field in the KPI score table]()
 
-[Run fix script to update the Aggregation method field in the KPI table](run-fixscript-update-kpi-aggregation-method.md)
+[Run fix script to update the Aggregation method field in the KPI table]()
 
-[Run fix script to update the KPI Instruction field in the Supplier Task table](run-fixscript-update-kpi-instruction.md)
+[Run fix script to update the KPI Instruction field in the Supplier Task table]()
 
-[Run fix script to migrate existing data from the deprecated Action type column after upgrade](fix-script-deprecated-column.md)
+[Run fix script to migrate existing data from the deprecated Action type column after upgrade]()
 
-[Run fix script to use the Supplier Manager Workspace after upgrading to the Australia release](access-smw-after-upgrade.md)
+[Run fix script to use the Supplier Manager Workspace after upgrading to the Australia release]()
 
-[Enable deprecated case types after upgrade](enable-deprecated-case-types.md)
+[Enable deprecated case types after upgrade]()
 
-[Processing the skipped supplier catalog item records after upgrade](../concept/process-skipped-records-upgrade.md)
+[Processing the skipped supplier catalog item records after upgrade]()
 
-[Run fix script to update the Aggregation method field in the KPI table](run-fixscript-update-kpi-aggregation-method.md)
+[Run fix script to update the Aggregation method field in the KPI table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-update-kpi-aggregation-method.md)
 
-[Run fix script to update the KPI Instruction field in the Supplier Task table](run-fixscript-update-kpi-instruction.md)
+[Run fix script to update the KPI Instruction field in the Supplier Task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fixscript-update-kpi-instruction.md)
 

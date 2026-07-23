@@ -2,6 +2,7 @@
 title: Work on an individual life insurance underwriting task
 description: An underwriter can work on an individual life insurance underwriting task to evaluate the policy request and analyze risks for an insurance policy customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-indiv-life-insurance-underwriting-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,11 +28,11 @@ Use the case playbook that provides the activities and tasks required to researc
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the underwriting task list.
 
-<table><tbody><tr><td id="d58981e105">
+<table><tbody><tr><td id="d61121e105">
 
 **From the Individual Life Underwriting task list**
 
@@ -52,15 +53,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 6.  Close the task from the underwriting task form.
 
-<table><thead><tr><th align="left" id="d58981e182">
+<table><thead><tr><th align="left" id="d61121e182">
 
 Underwriting task
 
-</th><th align="left" id="d58981e185">
+</th><th align="left" id="d61121e185">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d58981e191">
+</th></tr></thead><tbody><tr><td id="d61121e191">
 
 **To review coverage change**
 
@@ -72,7 +73,7 @@ Action
     -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d58981e229">
+</td></tr><tr><td id="d61121e229">
 
 **To submit a review**
 

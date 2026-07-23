@@ -2,6 +2,7 @@
 title: Create image-based link content
 description: Using the Content Library, you can upload a picture or graphic and link it to a url.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-library-portal-image.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ Using the Content Library, you can upload a picture or graphic and link it to a 
 
 Role required: sn\_cd.content\_manager
 
-Define the link: [Add or modify links to other content sources](ecpro-manage-link-content.md)
+Define the link: [Add or modify links to other content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
 
 ## Procedure
 
@@ -75,7 +76,7 @@ Link
 
 </td><td>
 
-The URL link to content you want to appear on the Employee Center or Employee Center Pro.Select the Lookup using list icon \(![Lookup using list icon](../../human-resources/image/magnify-glass-outline-icon.png)\) to view a list of link content.
+The URL link to content you want to appear on the Employee Center or Employee Center Pro.Select the Lookup using list icon \(\[Omitted image "magnify-glass-outline-icon.png"\] Alt text: Lookup using list icon\) to view a list of link content.
 
 **Note:** Depending on your configurations or extensions, your link may open in a new window.
 
@@ -92,17 +93,17 @@ The image the URL is embedded in. Select the **Click to add an image** link to a
 
 8.  Or, select **Save and continue** to save the record and move to the **Publish** tab.
 
-    For information on publishing your content, see [Create a publish plan for your content](ec-content-library-publish2.md).
+    For information on publishing your content, see [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 
     To switch languages or translate your content, select the **Language settings** drop-down at the top, right side.
 
-    To switch languages and have the fields on the form appear in a different language, select the **Switch language** button, at the top. This button only appears when the sn\_cd.enable\_language\_switching system property is activated. This is similar to changing your language at login. For more information, see [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
+    To switch languages and have the fields on the form appear in a different language, select the **Switch language** button, at the top. This button only appears when the sn\_cd.enable\_language\_switching system property is activated. This is similar to changing your language at login. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
-    To request your content to be translated into a different language, select the **Translate content** button at the top. This button only appears when the sn\_cd.enable\_localization\_framework\_integration system property is activated. For more information, see [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
+    To request your content to be translated into a different language, select the **Translate content** button at the top. This button only appears when the sn\_cd.enable\_localization\_framework\_integration system property is activated. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
     -   **Content Governance**
 
-        When portal content is requested from Content Governance, the **Content Request Items** related list tab appears. Select the content request item to view information about the request. For more information, see [Edit a content request item](../concept/ec-content-gov-request.md#).
+        When portal content is requested from Content Governance, the **Content Request Items** related list tab appears. Select the content request item to view information about the request. For more information, see [Edit a content request item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md).
 
         When the **Content Request Item** has a state of **Work in Progress**, the **Send for Review** button appears.
 

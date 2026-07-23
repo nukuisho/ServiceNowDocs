@@ -2,13 +2,14 @@
 title: Initiate chargeback and fill merchant response
 description: This is a part of the collaboration dispute workflow for the Chargeback stage. Initiate a chargeback request for the card network issuer to credit the customer with the card network and await a response from the merchant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/initiate-chargeback-and-fill-merchant-response.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Initiate chargeback and fill merchant response
@@ -23,7 +24,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -33,17 +34,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+6.  Select the **Initiate chargeback and fill merchant response** activity.
 
-7.  Select the **Initiate chargeback and fill merchant response** activity.
+7.  The chargeback reason code and dispute amount is displayed.
 
-8.  The chargeback reason code and dispute amount is displayed.
+8.  Review the details and add any other details.
 
-9.  Review the details and add any other details.
-
-10. Submit the request by selecting **Initiate chargeback**.
+9.  Submit the request by selecting **Initiate chargeback**.
 
 
 ## Result
@@ -54,8 +53,8 @@ The questionnaire data from the **Initiate** stage is sent to Visa. The task is 
 
 Review the response from the merchant and fill the further details.
 
-1.  After you receive the merchant's response, the **Dispute response** field is set to **Yes** or **No** and the next activity [Review a dispute response and initiate pre-arbitration](review-dispute-response-and-create-pre-arbitration.md) is displayed.
+1.  After you receive the merchant's response, the **Dispute response** field is set to **Yes** or **No** and the next activity [Review a dispute response and initiate pre-arbitration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/review-dispute-response-and-create-pre-arbitration.md) is displayed.
 2.  Select **Close task**. The next activity appears based on the selected option.
 
-**Parent Topic:**[Collaboration dispute workflow](../concept/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

@@ -2,6 +2,7 @@
 title: New visit form
 description: Use the New visit form to select a purpose, location, date and time for your visit. Additionally, add visitors and optional co-hosts
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/new-visit-form.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -102,24 +103,24 @@ Private note to receptionist
 Additional requirements or a private note to the receptionist.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Visitor Management references](../concept/workplace-visitor-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Visitor Management](components-installed-with-workplace-visitor-mgmt.md)
+[Components installed with Workplace Visitor Management]()
 
-[Properties installed with Workplace Visitor Management](properties-installed-with-workplace-visitor-mgmt.md)
+[Properties installed with Workplace Visitor Management]()
 
-[Kiosk Check-in Flow Configuration form](kiosk-check-in-config-form.md)
+[Kiosk Check-in Flow Configuration form]()
 
-[Kiosk Check-out Flow Configuration form](kiosk-check-out-config-form.md)
+[Kiosk Check-out Flow Configuration form]()
 
-[Kiosk Page Configuration form](kiosk-page-config-form.md)
+[Kiosk Page Configuration form]()
 
-[Kiosk Page Customizations](kiosk-page-customizations.md)
+[Kiosk Page Customizations]()
 
-[Location Policy form](location-policy-form.md)
+[Location Policy form]()
 
-[Additional requirement form](additional-req-form.md)
+[Additional requirement form]()
 

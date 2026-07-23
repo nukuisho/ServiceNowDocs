@@ -2,6 +2,7 @@
 title: Define the configuration type for customers or business locations
 description: Define the configuration type to provide service to customers or business locations within any service organization \(SO\) using the Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-customer-criteria-to-service-organization.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,15 +26,15 @@ Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_loc
 
 3.  Select the configuration type based on whether you intend to provide service to customers or business locations within any service organization.
 
-<table id="choicetable_tgr_32q_1cc"><thead><tr><th align="left" id="d149589e96">
+<table id="choicetable_tgr_32q_1cc"><thead><tr><th align="left" id="d153977e96">
 
 Configuration type
 
-</th><th align="left" id="d149589e99">
+</th><th align="left" id="d153977e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d149589e105">
+</th></tr></thead><tbody><tr><td id="d153977e105">
 
 **Customers served**
 
@@ -43,7 +44,7 @@ Customers that are served at a business location. The customers served can be de
 -   **Criteria-based**: Enables service organization staff to create and resolve issues only for customers associated with the service organization using a criteria.
 
 
-</td></tr><tr><td id="d149589e126">
+</td></tr><tr><td id="d153977e126">
 
 **Business locations served**
 
@@ -63,5 +64,5 @@ In other words, it’s a service organization relationship where a business loca
 
 ## What to do next
 
-Once the configuration is defined, you can associate your customers or business locations to a service organization. For more information, see [Associate customers or business locations to a service organization](associate-customers-or-bus-loc-to-so.md).
+Once the configuration is defined, you can associate your customers or business locations to a service organization. For more information, see [Associate customers or business locations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md).
 

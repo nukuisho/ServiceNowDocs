@@ -2,6 +2,7 @@
 title: Oracle Analytics Server pattern-based discovery
 description: Discovery and Service Mapping Patterns finds Oracle Analytics Server \(formerly Oracle Business Intelligence Enterprise Edition\) components on Windows and Linux servers in your environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/oracle-analytics-server-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,7 +19,7 @@ Discovery and Service Mapping Patterns finds Oracle Analytics Server \(formerly 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Oracle Analytics Server consists of integrated components that provide business intelligence capabilities. The Discovery patterns discover three core components:
 
@@ -55,11 +56,11 @@ Oracle Analytics Server consists of integrated components that provide business 
     -   `BI_ORACLE_HOME` environment variable location
     -   `bifoundation/version.txt` file within the Oracle BI installation
 -   **Create credentials on the ServiceNow AI Platform**
-    -   Windows: Configure Windows credentials. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
-    -   Linux: Configure SSH credentials. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+    -   Windows: Configure Windows credentials. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+    -   Linux: Configure SSH credentials. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
 -   **Schedule a horizontal discovery**
 
-    For more information, see [Schedule a horizontal discovery](../../discovery/task/t_CreateADiscoverySchedule.md#).
+    For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -114,5 +115,5 @@ The Oracle Analytics Server patterns create these relationships to support Oracl
     |Oracle BI Scheduler \[cmdb\_ci\_oracle\_bi\_scheduler\]|Runs on::Runs|Windows Server \[cmdb\_ci\_win\_server\] or Linux Server \[cmdb\_ci\_linux\_server\]|
 
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

@@ -2,6 +2,7 @@
 title: Add a recipients list to a survey
 description: Send the survey invites to targeted sets of users by adding a recipients list to a survey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/add-recipient-list-survey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Send the survey invites to targeted sets of users by adding a recipients list to
 
 Role required: admin or survey\_admin
 
-Recipients lists should be pre-defined in the Recipients Lists submodule. For more information on defining recipients lists, see [Define a recipients list for surveys](define-recipient-list.md).
+Recipients lists should be pre-defined in the Recipients Lists submodule. For more information on defining recipients lists, see [Define a recipients list for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-recipient-list.md).
 
 ## Procedure
 
@@ -27,15 +28,15 @@ Recipients lists should be pre-defined in the Recipients Lists submodule. For mo
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_jnl_df2_5fb"><thead><tr><th align="left" id="d467746e81">
+<table id="choicetable_jnl_df2_5fb"><thead><tr><th align="left" id="d481259e81">
 
 Option
 
-</th><th align="left" id="d467746e84">
+</th><th align="left" id="d481259e84">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d467746e90">
+</th></tr></thead><tbody><tr><td id="d481259e90">
 
 **From Platform**
 
@@ -46,7 +47,7 @@ Description
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d467746e123">
+</td></tr><tr><td id="d481259e123">
 
 **From Survey Designer**
 
@@ -65,26 +66,26 @@ Description
     -   The **Send Invitations** UI action is available when there is at least one recipients list or survey user for the survey.
     -   If a user is available in the **Survey Users** related list and multiple recipients lists, the survey invite is sent only once to the user.
 
-**Parent Topic:**[Survey distribution](../concept/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 
 
-[Email notifications for surveys](../concept/email-notification-for-surveys.md)
+[Email notifications for surveys]()
 
-[Send survey invitations to users](t_SendSurveyInvitationsToUsers.md)
+[Send survey invitations to users]()
 
-[Define a recipients list for surveys](define-recipient-list.md)
+[Define a recipients list for surveys]()
 
-[Embed a survey within the Outlook email client](embed-survey-in-outlook-email.md)
+[Embed a survey within the Outlook email client]()
 
-[Enable localization for a survey](enable-localization-survey.md)
+[Enable localization for a survey]()
 
-[Survey URLs](../concept/c_SurveyURLs.md)
+[Survey URLs]()
 
-[Create a survey module](t_CreatingASurveyModule.md)
+[Create a survey module]()
 
-[Sharing surveys](../concept/c_SurveyInportAndExport.md)
+[Sharing surveys]()
 
-[Configure a survey in the Connect chat support](take-survey-connect-chat.md)
+[Configure a survey in the Connect chat support]()
 

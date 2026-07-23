@@ -2,6 +2,7 @@
 title: Filter on multiple string values
 description: For a string field, you can create a filter that searches for multiple values by creating a comma-delimited list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_FilteringOnMultipleStringValues.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,29 +34,29 @@ This feature enables administrators to copy and paste search criteria from a Mic
 
     The choice list remains visible.
 
-    ![Comma-delimited filter](../image/CommaDelimitedFilter.png)
+    \[Omitted image "CommaDelimitedFilter.png"\] Alt text: Comma-delimited filter
 
     Alternatively, for text or number fields, type your search options. Separate the options by commas or put each option on a separate line, and do not enclose the selections in brackets.
 
-    ![Incident field is one of list of incidents separated by next line](../image/MultipleStringValuesText.png)
+    \[Omitted image "MultipleStringValuesText.png"\] Alt text: Incident field is one of list of incidents separated by next line
 
 3.  Click **Run** to filter the list.
 
     The filter conditions appear as a comma-delimited string at the top of the results list.
 
-    ![Comma-delimited filter string](../image/CommaDelimitedFilter2.png "Comma-delimited filter string")
+    \[Omitted image "CommaDelimitedFilter2.png"\] Alt text: Comma-delimited filter string
 
 
-**Parent Topic:**[Filters](../concept/c_Filters.md)
+**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md)
 
 **Related topics**  
 
 
-[Create a filter in List](t_CreatingFilters.md)
+[Create a filter in List]()
 
-[Add related list conditions](../../using-lists-v3/task/create-related-list-query.md)
+[Add related list conditions]()
 
-[OR conditions](../concept/c_UsingORConditions.md)
+[OR conditions]()
 
-[Dynamic operators](../reference/r_UsingTheDynamicOperator.md)
+[Dynamic operators]()
 

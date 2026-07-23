@@ -2,6 +2,7 @@
 title: Fulfilling service requests in Care Team Operations for Biomed
 description: Healthcare Biomed cases can be fulfilled one of two ways, depending on what plugin you have installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-fulfilling-biomed.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ It also provides the following roles for Care Team Operations for Biomed:
 -   biomed.agent
 -   biomed.qualifier
 
-For information on fulfilling work orders, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_ManageWorkOrders.md).
+For information on fulfilling work orders, see .
 
 **If the Field Service Management \[com.snc.work\_management\] plugin isn’t installed:**
 
@@ -31,5 +32,5 @@ Work orders aren’t created from healthcare biomed cases. Instead, agents work 
 
 Cases created are assigned to assignment groups based on the requesting location associations and are configured normally.
 
-For information on fulfilling cases, see [Manage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cases.md) in Customer Service Management.
+For information on fulfilling cases, see  in Customer Service Management.
 

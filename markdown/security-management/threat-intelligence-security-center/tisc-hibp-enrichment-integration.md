@@ -2,6 +2,7 @@
 title: Run Have I Been Pwned enrichment integration
 description: Run the Have I Been Pwned \(HIBP\) enrichment on an email address or domain name observable to determine whether it has been involved in a known data breach.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-hibp-enrichment-integration.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Have I Been Pwned, HIBP, observable enrichment, integration, breach detection]
-breadcrumb: [Observable Enrichment, Run Enrichment operations in TISC, Observables, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Observable Enrichment, Run Enrichment operations in TISC, Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Run Have I Been Pwned enrichment integration
@@ -20,7 +21,7 @@ Run the Have I Been Pwned \(HIBP\) enrichment on an email address or domain name
 
 Role required: sn\_sec\_tisc.analyst
 
-Ensure that the Have I Been Pwned integration is configured and enabled by your administrator. For more information, see [Configure and enable Have I Been Pwned integration](tisc-config-hipw-integration.md).
+Ensure that the Have I Been Pwned integration is configured and enabled by your administrator. For more information, see [Configure and enable Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-config-hipw-integration.md).
 
 ## About this task
 
@@ -41,11 +42,11 @@ You can initiate enrichment from an individual observable record or from the **A
 
     1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center** &gt; **Threat Intelligence Library** and open any observable record from the Threat Intelligence Library.
 
-        ![TISC Observables form view](../image/tisc-hibp-obs-enrichment.png)
+        \[Omitted image "tisc-hibp-obs-enrichment.png"\] Alt text: TISC Observables form view
 
     2.  \(Alternatively\) open a case, navigate to the **Artifacts** tab, and select the **Observables** related list from Case to run observable enrichment.
 
-        ![TISC Case Artifacts:Observables - Run Observable Enrichment](../image/tisc-case-obs-enrich-result.png)
+        \[Omitted image "tisc-case-obs-enrich-result.png"\] Alt text: TISC Case Artifacts:Observables - Run Observable Enrichment
 
 2.  Select the observable or observables you want to submit for enrichment.
 
@@ -68,7 +69,7 @@ To view the enrichment results:
 2.  Go to **Enrichment Results** tab.
 3.  Select **Observable Enrichment Results** and open the result record.
 
-    ![Observable enrichment results section](../image/tisc-hibp-obs-enrich-view.png)
+    \[Omitted image "tisc-hibp-obs-enrich-view.png"\] Alt text: Observable enrichment results section
 
 
 ## What to do next
@@ -139,7 +140,7 @@ Raw Result
 Displays the response returned by the Have I Been Pwned API in JSON format. This field is intended for validation and troubleshooting purposes.
 
 </td></tr></tbody>
-</table>    ![TISC HIBP observable enrichment results- details view](../image/tisc-hibp-enrich-details-view.png)
+</table>    \[Omitted image "tisc-hibp-enrich-details-view.png"\] Alt text: TISC HIBP observable enrichment results- details view
 
 -   **Breaches**: Displays breach records associated to the observable domain or email, as retrieved from the HIBP integration. Each record includes the breach title, domain, breach date, number of affected accounts, exposed data classes, and the date the breach was added to HIBP.
 
@@ -159,7 +160,7 @@ Displays the response returned by the Have I Been Pwned API in JSON format. This
     |Attribution|Sometimes requested by the party that provides the data to HIBP.|
     |Disclosure URL|Hyperlink that contains public forum information such as news reported on the breach.|
 
-    ![TISC HIBP observable enrichment results breaches.](../image/tisc-hibp-enrich-breach.png)
+    \[Omitted image "tisc-hibp-enrich-breach.png"\] Alt text: TISC HIBP observable enrichment results breaches.
 
 
 **View HTML Response**: Select this button to view the complete `html` response returned by the Have I Been Pwned integration for the selected observable. This view shows the unprocessed source data exactly as received. Use this option for validation, troubleshooting, or audit purposes to review the response payload.
@@ -177,16 +178,16 @@ You can also view the Have I Been Pwned flags, which indicate the attributes ide
 |SpamList|Indicates that the data has not come as a result of a security compromise \(or is a spam list\).|
 |Subscription Free|Indicates if the breach is subscription-free.|
 
-![TISC HIBP Observable enrichment results - View HTML Response](../image/tisc-hibp-view-html-response.png)
+\[Omitted image "tisc-hibp-view-html-response.png"\] Alt text: TISC HIBP Observable enrichment results - View HTML Response
 
 **Note:** The HIBP integration provides breach awareness only. It does not support actions to remediate or resolve breaches, as the breaches originate from external third-party systems.
 
-**Parent Topic:**[Observable Enrichment](../concept/tisc-observable-enrichment.md)
+**Parent Topic:**[Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-observable-enrichment.md)
 
 **Related topics**  
 
 
-[Configure Observable Enrichment](configure-observable-enrichment.md)
+[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)
 
-[Configure and enable Have I Been Pwned integration](tisc-config-hipw-integration.md)
+[Configure and enable Have I Been Pwned integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-config-hipw-integration.md)
 

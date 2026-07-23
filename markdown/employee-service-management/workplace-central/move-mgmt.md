@@ -2,6 +2,7 @@
 title: Move Management
 description: Monitor multiple workplace moves at a time seamlessly using the Move Management workspace in the Workplace Central. Create move projects to track the progress of move requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/move-mgmt.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -17,9 +18,9 @@ Monitor multiple workplace moves at a time seamlessly using the Move Management 
 
 The Move management workspace enables you to schedule moves as per their planned date. You can create a move project and group move requests using different filter conditions, such as, workplace location, campus, space type or more.
 
-![Move scheduler view of a move project.](../images/move-scheduler.png "Move scheduler view of a move project")
+\[Omitted image "move-scheduler.png"\] Alt text: Move scheduler view of a move project.
 
-A move project enables you to work on requests in a schedule view, which is referred to as the Move scheduler view. The Move schedule view provides a visual representation of move requests in a schedule view similar to the schedule view of the Workplace Reservation Management Reservation portal. The requests are displayed with their current state, the date on which they’re scheduled to move and further details. This way you can fulfill move requests as per the requested date in the Workplace Move Management. For more information about the Move scheduler, refer to [Move project views, actions, and states](../reference/move-project-schedule-view.md).
+A move project enables you to work on requests in a schedule view, which is referred to as the Move scheduler view. The Move schedule view provides a visual representation of move requests in a schedule view similar to the schedule view of the Workplace Reservation Management Reservation portal. The requests are displayed with their current state, the date on which they’re scheduled to move and further details. This way you can fulfill move requests as per the requested date in the Workplace Move Management. For more information about the Move scheduler, refer to [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-project-schedule-view.md).
 
 **Important:** The Move management workspace enables you to only view and schedule move requests across different dates. To fulfill a move request, you must use the Workplace Move Management.
 
@@ -45,30 +46,30 @@ As a move manager, using the Workplace Central Move Management workspace, you ca
 -   Visualize the current states of move requests. Track which requests are complete and which ones aren’t. Based on the state, you can work on any requests that requires attention.
 -   You can also visualize each move project that you’re working on. Each project is displayed based on the number of move cases assigned to the move project.
 
-For more information about the Move management workspace, refer to [Move management key features and actions](../reference/move-mgmt-views-states-actions.md).
+For more information about the Move management workspace, refer to [Move management key features and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-mgmt-views-states-actions.md).
 
-**Parent Topic:**[Explore Workplace Central](workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 
 
-[Lists module](wsd-lists-module.md)
+[Lists module]()
 
-[Workplace Analytics](workplace-analytics.md)
+[Workplace Analytics]()
 
-[Space Planning](space-planning.md)
+[Space Planning]()
 
-[Space Optimization](space-optimization.md)
+[Space Optimization]()
 
-[Scenario Planning](scenario-planning.md)
+[Scenario Planning]()
 
-[Schedule Planning](schedule-planning.md)
+[Schedule Planning]()
 
-[Space assistance](space-assistance.md)
+[Space assistance]()
 
-[Event Planner](event-planner.md)
+[Event Planner]()
 
-[Case management](case-management-workspace.md)
+[Case management]()
 
-[Kiosk Indoor Mapping](kiosk-indoor-mapping.md)
+[Kiosk Indoor Mapping]()
 

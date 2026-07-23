@@ -2,11 +2,12 @@
 title: Automation basics for apps
 description: Automation is central to ServiceNow application development and is a core strength of the ServiceNow AI Platform. Automation enables developers to build applications that reduce manual work, enforce consistency, and respond intelligently to business events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automation-basics-for-apps.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Building apps in ServiceNow, Getting Started guide for developers, Building applications]
+breadcrumb: [Build your first app, Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Automation basics for apps
@@ -71,7 +72,7 @@ Now Assist \(Generative AI\) for Spoke Generation
 
 </td><td>
 
-Uses AI to automatically create Integration Hub spokes from natural language descriptions, OpenAPI specifications, Postman collections, and API documentation. This dramatically reduces the manual coding needed to build integrations.For more information, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spoke-builder.md).
+Uses AI to automatically create Integration Hub spokes from natural language descriptions, OpenAPI specifications, Postman collections, and API documentation. This dramatically reduces the manual coding needed to build integrations.For more information, see [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/spoke-builder.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ AI-Powered RPA Bot Generation
 
 </td><td>
 
-Generative AI can automatically generate robotic process automation bots from process diagrams and documentation, converting visual workflows into executable automation scripts without traditional development.For more information, see [Robotic Process Automation \(RPA\) bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md).
+Generative AI can automatically generate robotic process automation bots from process diagrams and documentation, converting visual workflows into executable automation scripts without traditional development.For more information, see [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ AI-Generated Playbooks
 
 </td><td>
 
-Now Assist can create playbooks automatically based on business process descriptions, eliminating the need to manually design multi-step guided workflows.For more information, see [Playbook generation](../../../administer/process-automation-designer/concept/playbook-assist-landing.md).
+Now Assist can create playbooks automatically based on business process descriptions, eliminating the need to manually design multi-step guided workflows.For more information, see [Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist-landing.md).
 
 </td></tr><tr><td>
 
@@ -95,7 +96,7 @@ Document Intelligence
 
 </td><td>
 
-Built-in AI capabilities extract meaningful data from unstructured files like scanned documents and PDFs, making them actionable within automated workflows. This turns static documents into structured data that can trigger automations.For more information, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
+Built-in AI capabilities extract meaningful data from unstructured files like scanned documents and PDFs, making them actionable within automated workflows. This turns static documents into structured data that can trigger automations.For more information, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md).
 
 </td></tr><tr><td>
 
@@ -103,7 +104,7 @@ Knowledge Graph with AI
 
 </td><td>
 
-Uses AI to cluster data insights, translate raw data into meaningful visualizations, and discover relationships between different data points across your enterprise. This contextualizes data so AI agents understand how information relates across systems.For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md).
+Uses AI to cluster data insights, translate raw data into meaningful visualizations, and discover relationships between different data points across your enterprise. This contextualizes data so AI agents understand how information relates across systems.For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph-landing.md).
 
 </td></tr><tr><td>
 
@@ -119,8 +120,8 @@ Predictive Intelligence and AIOps
 
 </td><td>
 
-Machine learning algorithms analyze patterns in the connected data to predict issues before they occur, automatically route work to the right teams, and proactively resolve incidents.For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md).
+Machine learning algorithms analyze patterns in the connected data to predict issues before they occur, automatically route work to the right teams, and proactively resolve incidents.For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence-landing.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Overview of building apps in ServiceNow](overview-building-apps-in-servicenow.md)
+</table>**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
 

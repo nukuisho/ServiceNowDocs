@@ -6,6 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [purge policies, data cleanup, table cleanup, purge data]
 ---
 
 # Modify purge policies to clean up data
@@ -31,13 +32,13 @@ Role required: sn\_ta\_hiring\_core.admin/ sn\_ta\_tp.talent\_profile\_admin
     |sn\_ta\_hiring\_core\_job\_description \[sn\_ta\_hiring\_core\_job\_requisition\]|sys\_updated\_on|3 years|
     |sn\_ta\_tp\_talent\_profile \[sn\_ta\_tp\_talent\_profile\]|job\_applicant.consent\_updated|1 year|
 
-    For a description of the auto flush form field values, see [Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-auto-flush.md).
+    For a description of the auto flush form field values, see [Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-auto-flush.md).
 
 
--   **[Rules to archive data](../concept/archive-data-ta.md)**  
+-   **[Rules to archive data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/archive-data-ta.md)**  
 Create rules to archive and delete data according to your organizational policy.
--   **[Cascade rules for cleaning data](../reference/cascade-rule-ta.md)**  
+-   **[Cascade rules for cleaning data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/cascade-rule-ta.md)**  
 Cascade rules determine a thorough cleanup of the outdated data and its related counterparts at source from the system.
 
-**Parent Topic:**[Configuring Hiring Experiences](../concept/config-frmwrk-ta.md)
+**Parent Topic:**[Configuring Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-frmwrk-ta.md)
 

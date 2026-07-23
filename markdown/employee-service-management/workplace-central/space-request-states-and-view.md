@@ -2,6 +2,7 @@
 title: Space request approvals, states, actions, and key features
 description: As a space planner, execute the space allocation requests raised in the organization using the Workplace Central Space Optimization dashboard. Using the Workplace Central Space Optimization dashboard to avoid multiple tasks about checking the availability, allocating spaces manually, and other process involved while space planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/space-request-states-and-view.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -97,40 +98,40 @@ A space request has the following states:
     -   The deployment process is unsuccessful if any one workplace case is not implemented successfully, that is, if any one case is closed with the Closed incomplete state.
 -   **Closed complete**: If the deployment is successfully implemented, then the space request is closed and the state is set to Closed complete. If the deployment fails, then the space request is closed and the state is set to Closed incomplete.
 
-**Parent Topic:**[Workplace Central reference](../concept/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Central](components-installed-with-workplace-central.md)
+[Components installed with Workplace Central]()
 
-[Space Optimization - Key features and actions](space-optmization-features-and-actions-.md)
+[Space Optimization - Key features and actions]()
 
-[Workplace Central Event planner](event-planner-key-features-actions-views.md)
+[Workplace Central Event planner]()
 
-[Scenario and Building - Views, states, settings, and key features](scenario-planning-views-actions-keyfeatures-.md)
+[Scenario and Building - Views, states, settings, and key features]()
 
-[Move management key features and actions](move-mgmt-views-states-actions.md)
+[Move management key features and actions]()
 
-[Case Management - Key features, Actions &amp; Case details](case-management-key-features-actions-case-details.md)
+[Case Management - Key features, Actions &amp; Case details]()
 
-[Schedule Plan details form](schedule-plan-details-form.md)
+[Schedule Plan details form]()
 
-[Scenario details form](scenario-details-form.md)
+[Scenario details form]()
 
-[Space Deployment Plan](space-deployment-plan.md)
+[Space Deployment Plan]()
 
-[User Deployment Plan](user-deployment-plan.md)
+[User Deployment Plan]()
 
-[Excel column lengths for move projects](move-excel-char-limit.md)
+[Excel column lengths for move projects]()
 
-[Move conflicts for projects created via Excel upload](excel-upload-conflicts.md)
+[Move conflicts for projects created via Excel upload]()
 
-[Workplace Central troubleshooting](workplace-central-troubleshooting.md)
+[Workplace Central troubleshooting]()
 
-[Workplace Task form - Space Assignment task](workplace-task-space-assignment.md)
+[Workplace Task form - Space Assignment task]()
 
-[Neighborhood User Assignment Rule form](user-assignment-rule-form.md)
+[Neighborhood User Assignment Rule form]()
 
-[User Workplace Profile form](user-workplace-profile-form.md)
+[User Workplace Profile form]()
 

@@ -2,13 +2,14 @@
 title: Jumpstart Your Issue Auto Resolution
 description: The Jumpstart Your Issue Auto Resolution \(IAR\) Accelerator provides a demonstration of the possibilities and capabilities of Issue Auto Resolution within your ServiceNow platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-issue-auto-resolution.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Issue Auto Resolution
@@ -19,9 +20,11 @@ The Jumpstart Your Issue Auto Resolution \(IAR\) Accelerator provides a demonstr
 
 Jumpstart Your Issue Auto Resolution provides Impact customers with an introduction to IAR to deflect high-volume, non-critical tasks and demonstrates how IAR will  enhance self-service and automation capabilities. This Accelerator aims to educate customers on the possibilities and capabilities of IAR,  specific use cases, a configuration overview, and key resources and guides to enable customers on getting started.
 
-See [Issue auto-resolution tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dashboard-auto-resolution-pae.md) for additional information on IAR.
+See  for additional information on IAR.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
@@ -62,7 +65,7 @@ Offered pursuant to the applicable Impact Accelerator Description available at�
 
 ## Requested Information
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+Please refer to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## Exclusions
 

@@ -2,6 +2,7 @@
 title: Configure Financial Services Operations Integration with Guidewire
 description: Use this procedure to select and configure the Financial Services Operations Integration with Guidewire application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-fso-integration-with-guidewire.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +29,7 @@ Role required: admin
     -   Guidewire ClaimCenter
     -   Guidewire PolicyCenter
     -   Guidewire ContactManager
-    Select one of these connections and follow the instructions described in [Set up the Guidewire spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-guidewire-spoke.md) to update the connection configuration.
+    Select one of these connections and follow the instructions described in [Set up the Guidewire spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-guidewire-spoke.md) to update the connection configuration.
 
 3.  Select the **Subflows** tab.
 
@@ -38,7 +39,7 @@ Role required: admin
     -   Commercial Lines Claims, search for **Get Commercial Auto Claim** in the Name field.
 5.  Locate the flow from the list and open it.
 
-    For information about subflows, see [Financial Services Operations Integration with Guidewire subflows](../reference/fso-guidewire-integration-subflows.md).
+    For information about subflows, see [Financial Services Operations Integration with Guidewire subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-guidewire-integration-subflows.md).
 
 6.  Select **Test**.
 
@@ -55,5 +56,5 @@ Role required: admin
     The Execution Details open.
 
 
-**Parent Topic:**[Financial Services Operations Integration with Guidewire](../concept/fso-integration-with-guidewire-landing-page.md)
+**Parent Topic:**[Financial Services Operations Integration with Guidewire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-guidewire-landing-page.md)
 

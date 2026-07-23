@@ -2,6 +2,7 @@
 title: Case management
 description: As a workplace case manager, manage all your workplace cases from a single place using the Case management workspace in the Workplace Central workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/case-management-workspace.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -19,11 +20,11 @@ The Case management workspace helps you to handle thousands of workplace cases r
 
 **Important:** You need the case manager \[sn\_wsd\_case.manager\] role to access the Case management module.
 
-To know the key features of the Case management workspace and more, refer to [Case Management - Key features, Actions &amp; Case details](../reference/case-management-key-features-actions-case-details.md).
+To know the key features of the Case management workspace and more, refer to [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md).
 
 You can analyze the incoming cases with the help of charts. Check the statuses of the cases and view them in detail. The workspace displays the cases that breached SLAs. The workspace displays cases such as normal workplace cases, maintenance cases, and move cases.
 
-![Case management - landing page.](../images/casemgmt-landingpage.png)
+\[Omitted image "casemgmt-landingpage.png"\] Alt text: Case management - landing page.
 
 As a Case manager, the workspace enables you to perform the following actions:
 
@@ -39,28 +40,28 @@ As a Case manager, the workspace enables you to perform the following actions:
 
 As an admin or a case admin, you can cancel a case if it’s no longer required. Similarly, as a move admin, you can cancel a move case and as a maintenance admin you can cancel a maintenance case.
 
-**Parent Topic:**[Explore Workplace Central](workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 
 
-[Lists module](wsd-lists-module.md)
+[Lists module]()
 
-[Workplace Analytics](workplace-analytics.md)
+[Workplace Analytics]()
 
-[Space Planning](space-planning.md)
+[Space Planning]()
 
-[Space Optimization](space-optimization.md)
+[Space Optimization]()
 
-[Scenario Planning](scenario-planning.md)
+[Scenario Planning]()
 
-[Schedule Planning](schedule-planning.md)
+[Schedule Planning]()
 
-[Space assistance](space-assistance.md)
+[Space assistance]()
 
-[Event Planner](event-planner.md)
+[Event Planner]()
 
-[Move Management](move-mgmt.md)
+[Move Management]()
 
-[Kiosk Indoor Mapping](kiosk-indoor-mapping.md)
+[Kiosk Indoor Mapping]()
 

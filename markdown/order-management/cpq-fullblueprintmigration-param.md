@@ -2,11 +2,12 @@
 title: The fullBlueprintMigration parameter
 description: Learn the effects of enabling or disabling the fullBlueprintMigration parameter on sources in various configurations. The fullBlueprintMigration parameter controls how thoroughly a blueprint is updated during migration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-fullblueprintmigration-param.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up blueprints, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The fullBlueprintMigration parameter
@@ -80,7 +81,7 @@ Product is removed from ProductList on destination
 </td></tr></tbody>
 </table>## Notes
 
-CPQ administrators do not directly associate or remove rules to or from blueprints. Instead, a rule is associated with a blueprint only if all its referenced fields are associated with the blueprint. Therefore, the admin manipulates a rule's association with a blueprint by associating or removing \(deassociating\) its fields. A rule will be removed from a blueprint in several circumstances, including:
+ServiceNow CPQ administrators do not directly associate or remove rules to or from blueprints. Instead, a rule is associated with a blueprint only if all its referenced fields are associated with the blueprint. Therefore, the admin manipulates a rule's association with a blueprint by associating or removing \(deassociating\) its fields. A rule will be removed from a blueprint in several circumstances, including:
 
 -   A field referenced by the rule is removed from the blueprint.
 -   In the rule, the admin adds a reference to a field that is not associated with the blueprint.
@@ -90,5 +91,5 @@ CPQ administrators do not directly associate or remove rules to or from blueprin
 **Related topics**  
 
 
-[Testing in non-production environments before migration](../concept/cpq-env-to-env-bp-migration-intro.md)
+[Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-env-to-env-bp-migration-intro.md)
 

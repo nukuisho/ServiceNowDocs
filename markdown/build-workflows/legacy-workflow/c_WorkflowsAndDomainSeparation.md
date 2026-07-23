@@ -2,6 +2,7 @@
 title: Domain separation and Workflow
 description: Domain separation is supported in the Workflow application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.Delegated administration allows child domains to inherit workflows from higher up the domain hierarchy and to override them with domain-specific versions if necessary.When a user starts a new workflow, the workflow runs with that user's domain and credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_WorkflowsAndDomainSeparation.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -38,9 +39,9 @@ While workflows are managed by multiple tables, only the following tables are us
 
 The Workflow Editor displays a workflow's domain in the title bar after the workflow name.
 
-![](../image/WorkflowEditorDomain.png "Workflow editor domain")
+\[Omitted image "WorkflowEditorDomain.png"\] Alt text:
 
-**Parent Topic:**[Workflow concepts](c_WorkflowConcepts.md)
+**Parent Topic:**[Workflow concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowConcepts.md)
 
 **Related topics**  
 
@@ -51,7 +52,7 @@ The Workflow Editor displays a workflow's domain in the title bar after the work
 
 Delegated administration allows child domains to inherit workflows from higher up the domain hierarchy and to override them with domain-specific versions if necessary.
 
-![Processes are visible upwards. A child domain can see workflows in a parent domain.](../image/WorkflowsAndDelegatedAdministration.png "Workflow and delegated administration")
+\[Omitted image "WorkflowsAndDelegatedAdministration.png"\] Alt text: Processes are visible upwards. A child domain can see workflows in a parent domain.
 
 Workflow records in the Workflow \[wf\_workflow\] and Workflow Version \[wf\_workflow\_version\] tables are considered processes. A user in a child domain may check out but not copy a workflow from a parent domain. When a user in a child domain checks out a workflow from a parent domain, the system creates a version of the workflow in that user's domain. This new version is a unique record in the Workflow \[wf\_workflow\] table. After the user publishes this new workflow, other users in the child domain use the new workflow, which overrides the workflow from the parent domain. The original workflow in the parent domain is no longer visible to users in the child domain.
 

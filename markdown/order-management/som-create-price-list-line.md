@@ -2,6 +2,7 @@
 title: Create a price list line
 description: Create a price list line and associate it to a product offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-price-list-line.html
 release: australia
 topic_type: task
 last_updated: "2025-11-16"
@@ -89,7 +90,7 @@ Derived price
 
 </td><td>
 
-Option that enables derived pricing \(also called related product pricing\) for product offerings associated with this price list line. For more information, see [Configuring derived pricing](../concept/configuring-related-product-pricing.md).
+Option that enables derived pricing \(also called related product pricing\) for product offerings associated with this price list line. For more information, see [Configuring derived pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-related-product-pricing.md).
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ Start Date
 
 </td><td>
 
-Starting date and time that the price list line is effective. Select the Calendar icon ![](../../tmt-telecom-network-inventory/image/calendar-icon.png) to choose the start date and time, then select **OK**.
+Starting date and time that the price list line is effective. Select the Calendar icon \[Omitted image "calendar-icon.png"\] Alt text: to choose the start date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -105,7 +106,7 @@ End Date
 
 </td><td>
 
-Ending date and time that the price list line is no longer effective. After this time, the price list line is no longer active. Select the Calendar icon ![](../../tmt-telecom-network-inventory/image/calendar-icon.png) to choose the end date and time, then select **OK**.
+Ending date and time that the price list line is no longer effective. After this time, the price list line is no longer active. Select the Calendar icon \[Omitted image "calendar-icon.png"\] Alt text: to choose the end date and time, then select **OK**.
 
 </td></tr><tr><td>
 

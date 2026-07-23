@@ -2,6 +2,7 @@
 title: Automatically add threat intelligence to a TAXII collection
 description: Learn how to automatically add threat intelligence to a TAXII server collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-taxii-automated-flow.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -46,27 +47,29 @@ Role required:
 
 6.  End the flow for adding threat intelligence to a TAXII collection.
 
-    ![Automated TAXII server collection.](../image/tisc-taxii-collections-flow.png)
+    \[Omitted image "tisc-taxii-collections-flow.png"\] Alt text: Automated TAXII server collection.
 
 
-**Parent Topic:**[Working with automated flows](../concept/tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 
 
-[Automated IOC Enrichment](tisc-ioc-enrichment.md)
+[Automated IOC Enrichment]()
 
-[Automated sharing of high-risk IOC's with trusted partners](tisc-automated-sharing-flow.md)
+[Automated sharing of high-risk IOC's with trusted partners]()
 
-[Create vulnerability assessment for zero day](tisc-create-vul-assess.md)
+[Create vulnerability assessment for zero day]()
 
-[Analyze, assess, and disseminate observables](tisc-disseminate-observables.md)
+[Analyze, assess, and disseminate observables]()
 
-[Analyze and assess threat IoC’s](tisc-analyze-ioc.md)
+[Analyze and assess threat IoC’s]()
 
-[Vulnerability Management Support](tisc-vul-mgmt.md)
+[Vulnerability Management Support]()
 
-[Zero-day vulnerability tracking](tisc-zero-vul.md)
+[Zero-day vulnerability tracking]()
 
-[Automated flows tables](../concept/tisc-flows-tables.md)
+[Automatic Threat Actor priority tagging]()
+
+[Automated flows tables]()
 

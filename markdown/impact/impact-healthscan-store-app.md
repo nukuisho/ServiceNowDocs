@@ -2,10 +2,11 @@
 title: Scan Engine for the Impact Store Application
 description: Impact Platform Health uses the Impact Scan Engine to enable proactive management of instance quality, compliance, and performance. The Scan Engine is integrated with your Impact Store App to support platform health and adherence to leading practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/impact-healthscan-store-app.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Platform Health, Using Impact, Impact]
 ---
 
@@ -32,7 +33,7 @@ Impact Scan Engine automates your code inspections in real-time so you can ident
 
 Scan Engine uses a large set of definitions to correct coding and workflow findings in real time and performs scans across your entire instance to detect existing findings. This prevents developer mistakes by blocking saving a record before issues are resolved. Nightly scans identify existing findings across the entire instance.
 
-For more information, see [Scan Engine definitions](scan-engine-definitions.md).
+For more information, see [Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions.md).
 
 ## Scan types
 
@@ -58,7 +59,7 @@ Initial diagnostic scan \(Scheduled scan\)
 
 **Note:** The first executed instance scan is a full scan.
 
-See [Run your first scan with the Scan Engine](../task/run-scan-engine.md) for first time setup.
+See [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md) for first time setup.
 
 -   View existing or resolved findings that resulted from the instance scans as well as summarized and detailed scan information.
 
@@ -70,10 +71,10 @@ Diagnostic scans- On-demand scan \(subsequent delta scans\)
 
 -   Scans for configured updates that occurred since the last scan.
 -   Specifically analyzes application files that have been modified or sys\_update\_xml records.
--   Delta scans always look for definitions marked to return one row check per system property.
+-   Delta scans look for definitions marked to return one row check per system property.
 -   Scans for specific definitions that were identified as development issues in a previous scan.
 
-**Note:** See [Configure Scan Engine properties](../task/configure-scan-engine-properties.md) for on-demand scan configuration options.
+**Note:** See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md) for on-demand scan configuration options and [Full and delta instance scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-parallel-processing.md) for scan information.
 
 
 </td></tr><tr><td>
@@ -88,7 +89,7 @@ The initial Update set scan is a full scan of all open update sets. Subsequent s
 
 -   Child update set findings are visible from the parent update set findings summary scan record.
 
-**Note:** See [Configure update set scanning properties](../task/update-set-scanning-properties.md) for details.
+**Note:** See [Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/update-set-scanning-properties.md) for details.
 
 
 </td></tr><tr><td>
@@ -97,12 +98,10 @@ Application scan
 
 </td><td>
 
-Scan applications to identify definition findings before publishing to the application repository. **Note:** See [Initiate application scans](../task/initiating-on-demand-scans-scan-engine.md)for details.
+Scan applications to identify definition findings before publishing to the application repository. **Note:** See [Initiate application scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiating-on-demand-scans-scan-engine.md) for details.
 
 </td></tr></tbody>
-</table>## Configuration overview
+</table>For more information on running the Scan Engine, see [Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/using-impact-scan-engine.md), and [Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-diagnostic-dashboards.md) for findings charts.
 
-For more information on configuring and running the Scan Engine, see [Running on-demand scans](../task/using-impact-scan-engine.md), and [Analytics Dashboards](scan-engine-diagnostic-dashboards.md).
-
-**Note:** Scan Engine findings are not transmitted to Impact Delivery Instance through the Guided Setup integration.
+**Note:** Scan Engine findings aren't transmitted to the Impact Delivery Instance through the Guided Setup integration.
 

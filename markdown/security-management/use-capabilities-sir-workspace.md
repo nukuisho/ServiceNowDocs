@@ -2,11 +2,12 @@
 title: Use capabilities in SIR Workspace
 description: Use the capabilities created using Now Assist for Security Incident Response integrations in the SIR Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/use-capabilities-sir-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, LLM-powered SIR integration builder, Security Operations]
+breadcrumb: [Use SIR Integration Builder, LLM-powered SIR integration builder, Security Operations]
 ---
 
 # Use capabilities in SIR Workspace
@@ -35,7 +36,7 @@ Role required: sn\_si\_int\_kit.integration\_creator or sn\_si.analyst
 
     A pop-up appears with the list of applications.
 
-    ![Select capability](../images/select-cap-sir-workspace.png)
+    \[Omitted image "select-cap-sir-workspace.png"\] Alt text: Select capability
 
 7.  Select the application to execute the capability.
 

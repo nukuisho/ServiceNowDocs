@@ -2,6 +2,7 @@
 title: Create sightings search configuration records
 description: Create multiple sightings search configuration records and use them while querying multiple log stores or varying the search parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sightings-search-configurations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,7 +50,7 @@ To verify if the saved search configuration matches the configuration defined on
 
 For example, the Sightings Search Configuration form contains the email address and email sender as search parameters:
 
-![Saved configuration](../image/cj-sir-si-saved-config.png "Sightings Search Configuration form")
+\[Omitted image "cj-sir-si-saved-config.png"\] Alt text: Saved configuration
 
 In your Splunk instance, define the saved search with the same name, Default Saved Search - Emails, and the same search parameters for the email address and email subject. If the name and search parameters are not the same, sightings search does not generate accurate result.
 
@@ -78,16 +79,16 @@ You have created a sightings search configuration record.
 
 After defining the search query, select **Generate Sightings Search Test Query**, and specify a list of observable values to generate a test query based on this saved search configuration.
 
--   **[Run a Sightings Search](../../security-operations-common/task/run-sightings-search.md)**  
+-   **[Run a Sightings Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/run-sightings-search.md)**  
 Determine the prevalence of a threat over time or test remediation or eradication efforts. You can select individual or multiple observables and the date range for your search from a security incident. Results are included in the **Security Incident Observables** related list.
--   **[Security Operations Integration - Sightings Search Flow](../../security-operations-integrations/task/secops-integration-sightings-search-workflow.md)**  
+-   **[Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-sightings-search-workflow.md)**  
 **Security Operations Integration - Sightings Search** flow is a high-level flow independent of integrations. It uses the configured queries to search for a set of observables based on the configured integrations which support the capability. Use it to fulfill an integration such as Splunk or Elasticsearch.
--   **[View Sightings Search Results](../../security-operations-common/task/view-sightings-search-results.md)**  
+-   **[View Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-sightings-search-results.md)**  
 You can review Sightings Search Results for internal and external malicious indicators.
--   **[View Sightings Search Details](../../security-operations-common/task/view-sightings-search-details.md)**  
+-   **[View Sightings Search Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-sightings-search-details.md)**  
 Review the aggregate details of all sighting searches.
--   **[View Sightings Search Data](../../security-operations-common/task/view-sightings-search-data.md)**  
+-   **[View Sightings Search Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-sightings-search-data.md)**  
 Review the aggregate data of all sighting searches.
 
-**Parent Topic:**[Security Operations Integration- Sightings Search capability](../../security-operations-common/concept/sightings-search-capability.md)
+**Parent Topic:**[Security Operations Integration- Sightings Search capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-search-capability.md)
 

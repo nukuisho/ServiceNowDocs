@@ -2,6 +2,7 @@
 title: Create a compute security group profile
 description: A compute security group profile applies specified security rules to newly-provisioned resources. You map a compute security group profile to a cloud account, a datacenter, a Compute Security Group template, and security rules for the template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-compute-security-profile.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -37,7 +38,7 @@ Role required: sn\_cmp.cloud\_admin
 
     2.  In the **Compute Security Group Profile Mappings** related list, click **New**, fill in the form, and then click **Submit**.
 
-        ![Compute security group profile](../image/compute-securitygrp-profile.png)
+        \[Omitted image "compute-securitygrp-profile.png"\] Alt text: Compute security group profile
 
 <table id="table_n3n_zvt_ddb"><thead><tr><th>
 
@@ -71,7 +72,7 @@ Compute Security Group Template \[cmdb\_ci\_security\_grp\_template\]
 
 Select or create a template that the profile should be mapped to.To create a new template, click the list icon and then click **New**. Enter a name and a template ID and click **Submit**.
 
- Click the reference icon \(![Reference image](../../../common/image/icon-reference.png)\) to view the details of the template.
+ Click the reference icon \(\[Omitted image "icon-reference.png"\] Alt text: Reference image\) to view the details of the template.
 
 </td></tr></tbody>
 </table>5.  Add rules to the template.
@@ -93,10 +94,10 @@ Select or create a template that the profile should be mapped to.To create a new
         |To Port|Specify the destination port number.|
 
 
-**Parent Topic:**[Resource Profiles](../concept/cloud-resource-profiles.md)
+**Parent Topic:**[Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
 
 **Related topics**  
 
 
-[Discover all datacenters in a service account on-demand](../../cloud-management-v2-setup/task/disco-datacntrs-in-srv-acct.md)
+[Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md)
 

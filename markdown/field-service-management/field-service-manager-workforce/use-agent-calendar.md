@@ -2,6 +2,7 @@
 title: Use the agent calendar
 description: Users with the agent calendar user role can add events to their personal calendar and configure the calendar to show or hide different types of events.Users with the agent schedule user role can add events to their personal calendar.Users with the agent schedule user role can move events on their personal calendar.Users with the agent schedule user role can personalize their calendar and show or hide different types of events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/use-agent-calendar.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -18,9 +19,9 @@ Users with the agent calendar user role can add events to their personal calenda
 **Related topics**  
 
 
-[Configuring an agent calendar](configure-agent-calendar.md)
+[Configuring an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configure-agent-calendar.md)
 
-[Managing agent calendar](agent-calendar.md)
+[Managing agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/agent-calendar.md)
 
 ## Add an event to the agent calendar
 
@@ -38,7 +39,7 @@ Role required: agent\_schedule\_user
     -   **Field Service** &gt; **Agent** &gt; **My Schedule**
 2.  Double-click a timeslot or click and drag over a timeslot on the calendar to open the New Event form.
 
-    ![The agent schedule shows an event on Tuesday, July 9, and a new event being selected for Wednesday, July 10.](../../field-service-management/image/agent-my-schedule.png "Agent schedule")
+    \[Omitted image "agent-my-schedule.png"\] Alt text: The agent schedule shows an event on Tuesday, July 9, and a new event being selected for Wednesday, July 10.
 
 3.  Fill in the fields on the New Event form, as necessary.
 
@@ -227,7 +228,7 @@ Role required: agent\_schedule\_user
     -   **Field Service** &gt; **Agent** &gt; **My Schedule**
 2.  Use one of the following methods to move an event.
 
-<table id="choicetable_ezl_bqb_hx"><tbody><tr><td id="d74727e628">
+<table id="choicetable_ezl_bqb_hx"><tbody><tr><td id="d76300e628">
 
 **Click an event and drag it to a new day or time**
 
@@ -235,7 +236,7 @@ Role required: agent\_schedule\_user
 
 The **When** and **To** fields in the event record are updated with the new information.
 
-</td></tr><tr><td id="d74727e643">
+</td></tr><tr><td id="d76300e643">
 
 **Double-click an event to open the event record**
 
@@ -259,13 +260,13 @@ Role required: agent\_schedule\_user
 
     -   **Customer Service** &gt; **My Schedule**
     -   **Field Service** &gt; **Agent** &gt; **My Schedule**
-2.  Click the configuration icon \(![Configuration icon.](../../field-service-management/image/icon-agent-sched-config.png)\) in the calendar header to display the Schedule Configuration menu.
+2.  Click the configuration icon \(\[Omitted image "icon-agent-sched-config.png"\] Alt text: Configuration icon.\) in the calendar header to display the Schedule Configuration menu.
 
 3.  Enable or disable the switches for the different types of events.
 
     An option is enabled when the switch is moved to the right and appears with a green background.
 
-4.  Click the configuration icon \(![Configuration icon.](../../field-service-management/image/icon-agent-sched-config.png)\) again to hide the Schedule Configuration menu.
+4.  Click the configuration icon \(\[Omitted image "icon-agent-sched-config.png"\] Alt text: Configuration icon.\) again to hide the Schedule Configuration menu.
 
     The calendar displays the enabled task types.
 

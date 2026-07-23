@@ -2,6 +2,7 @@
 title: HPE BladeSystem Enclosure Discovery
 description: ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to discover BladeSystem, which is a line of Hewlett Packard Enterprise blade server machines. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/hpe-bladesystem-enclosure-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -17,13 +18,13 @@ ServiceNow Discovery uses the HPE BladeSystem Enclosure discovery pattern to dis
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   Ensure you are using the latest version of Discovery and Service Mapping Patterns.
--   Set SNMP credentials for the enclosure \(to be used by the Classifier\). For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md).
--   Set the SSH credentials for the enclosure’s Onboard Administrator \(to be used by the Discovery pattern\). The account used for accessing the Onboard Administrator must have permissions to view all of the enclosure’s bays, so it can gather the blade servers' information. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+-   Set SNMP credentials for the enclosure \(to be used by the Classifier\). For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
+-   Set the SSH credentials for the enclosure’s Onboard Administrator \(to be used by the Discovery pattern\). The account used for accessing the Onboard Administrator must have permissions to view all of the enclosure’s bays, so it can gather the blade servers' information. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
 -   Verify the Onboard Administrator’s IP address, which Discovery runs against.
 -   Ensure that the host machine is reachable from the MID Server.
 
@@ -122,10 +123,10 @@ Discovery creates these relationships to support HPE BladeSystem Enclosure disco
 |Serial Number \[cmdb\_serial\_number\]|references|HPE BladeSystem Enclosure \[cmdb\_ci\_hpe\_bladesystem\_enclosure\]|
 |Serial Number \[cmdb\_serial\_number\]|references|HPE BladeSystem Blade \[cmdb\_ci\_hpe\_bladesystem\_blade\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 
 **Related topics**  
 
 
-[SNMP-based queries](snmp-based-queries.md)
+[SNMP-based queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/snmp-based-queries.md)
 

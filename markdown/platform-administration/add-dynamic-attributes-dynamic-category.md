@@ -2,6 +2,7 @@
 title: Include dynamic attributes in a dynamic category
 description: Categorize specific dynamic attributes by relating a dynamic attribute to a dynamic category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/add-dynamic-attributes-dynamic-category.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,7 +42,7 @@ After creating dynamic attributes, you can build out your taxonomy by including 
 
 ## Dynamic attributes added to a dynamic category
 
-![Add dynamic attributes to the Televisions dynamic category.](../image/dynamic-category-attribute-member-example.png)
+\[Omitted image "dynamic-category-attribute-member-example.png"\] Alt text: Add dynamic attributes to the Televisions dynamic category.
 
 ## What to do next
 

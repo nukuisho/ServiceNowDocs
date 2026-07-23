@@ -2,6 +2,7 @@
 title: Generating case from an alert
 description: Enable swift resolution by generating cases from alerts, either manually or automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/alert-generate-case.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps

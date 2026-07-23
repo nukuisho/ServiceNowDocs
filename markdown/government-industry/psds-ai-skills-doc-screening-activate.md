@@ -2,10 +2,11 @@
 title: Activate the Document screening Al skill in Now Assist for PSDS
 description: Activate the Document screening Al skill to use Now Assist for PSDS gen-AI to screen documents in the Social Benefits Playbook, classifying document types, validating them against what's expected for the case, flagging issues and providing clear explanations, and giving agents Al-composed messages to send back to constituents with specific resubmission instructions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ai-skills-doc-screening-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Activate Now Assist skills, Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -15,11 +16,11 @@ Activate the Document screening Al skill to use Now Assist for PSDS gen-AI to sc
 
 ## Before you begin
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
+**Important:** Some generative AI skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
 
 -   **New customers**
 
-    When you install a Now Assist product, designated skills, agents, or agentic workflows are turned on automatically.
+    When you install an AI product, designated generative AI skills, AI agents, or agentic workflows are turned on automatically.
 
 -   **Existing customers who are upgrading \(starting with Australia Patch 4\)**
 
@@ -27,12 +28,14 @@ Activate the Document screening Al skill to use Now Assist for PSDS gen-AI to sc
 
     An AI asset is turned on if:
 
-    -   The Now Assist plugin is installed, but the asset was never turned on.
+    -   The AI plugin is installed, but the asset was never turned on.
     -   An admin has never adjusted roles for the skill.
     An AI asset is not turned on if:
 
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
+
+For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Confirm that the following applications and plugins are installed:
 
@@ -41,7 +44,7 @@ Activate the Document screening Al skill to use Now Assist for PSDS gen-AI to sc
     -   Service Applicant Information \(sn\_svc\_appl\_info\)
     -   Now Assist for Public Sector Digital Services \(PSDS\)
     -   Social Benefits Playbook, Grants Management, **or** License and Permit Playbook
-    For more information on configuring Now Assist in Document Intelligence, see [Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md).
+    For more information on configuring Now Assist in Document Intelligence, see [Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/docintel-configuring-now-assist.md).
 
 -   Perform this task in your ServiceNow instance, ensuring the Now Assist for Public Sector Digital Services \(PSDS\) Application scope is selected.
 -   Role required: admin
@@ -56,7 +59,7 @@ Activate the Document screening Al skill to use Now Assist for PSDS gen-AI to sc
 
 3.  On the card for the Document screening Al skill, select **Turn on**.
 
-    ![Document screening Al skill card that displays the skill to be turned on.](../image/psds-activate-doc-screening-skill.png)
+    \[Omitted image "psds-activate-doc-screening-skill.png"\] Alt text: Document screening Al skill card that displays the skill to be turned on.
 
 4.  Configure user access on the pop-up modal to specify who can utilize this skill.
 
@@ -68,6 +71,6 @@ Activate the Document screening Al skill to use Now Assist for PSDS gen-AI to sc
 
 7.  Verify that the skill is activated on the Document Screening Al skill card.
 
-    ![Document screening Al skill is active.](../image/psds-doc-screening-skill-activated.png)
+    \[Omitted image "psds-doc-screening-skill-activated.png"\] Alt text: Document screening Al skill is active.
 
 

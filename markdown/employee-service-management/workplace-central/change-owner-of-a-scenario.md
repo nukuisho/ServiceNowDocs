@@ -1,7 +1,8 @@
 ---
 title: Change owner of a scenario
-description: Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A can switch a scenario between multiple owners one at a time.
+description: Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A scenario can switch between multiple owners one at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/change-owner-of-a-scenario.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -13,14 +14,14 @@ breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace 
 
 # Change owner of a scenario
 
-Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A can switch a scenario between multiple owners one at a time.
+Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A scenario can switch between multiple owners one at a time.
 
 ## Before you begin
 
 Ensure the following:
 
-1.  [Create a scenario](create-a-scenario.md).
-2.  [Publish a scenario](publish-a-scenario.md)
+1.  [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+2.  [Publish a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/publish-a-scenario.md)
 
 Role required: sn\_wsd\_spcmgmt.space\_planner
 
@@ -38,7 +39,7 @@ Change the ownership of a published scenario to enable other space planners to i
 
     The Workplace Analytics dashboard opens.
 
-2.  On the left pane, select **Space Optimization** icon \(![Space optimization icon.](../images/space-optimization-icon.png)\).
+2.  On the left pane, select **Space Optimization** icon \(\[Omitted image "space-optimization-icon.png"\] Alt text: Space optimization icon.\).
 
     The Space optimization dashboard opens.
 
@@ -46,15 +47,15 @@ Change the ownership of a published scenario to enable other space planners to i
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d410646e157">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d418897e157">
 
 Path
 
-</th><th align="left" id="d410646e160">
+</th><th align="left" id="d418897e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d410646e166">
+</th></tr></thead><tbody><tr><td id="d418897e166">
 
 **From the Scenarios list section**
 
@@ -68,7 +69,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d410646e191">
+</td></tr><tr><td id="d418897e191">
 
 **From the Buildings list section**
 
@@ -98,30 +99,30 @@ The stack plan view of the building opens.
 
 The scenario is moved to the selected space planners. You can no longer change the scenario. You can make changes to a scenario only if you are assigned as the owner of the scenario.
 
-**Parent Topic:**[Working with Space Optimization](../concept/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 
 
-[Create a scenario](create-a-scenario.md)
+[Create a scenario]()
 
-[Viewing or editing a scenario](../concept/viewing-editing-scenario.md)
+[Viewing or editing a scenario]()
 
-[Review a scenario](review-a-scenario.md)
+[Review a scenario]()
 
-[Publish a scenario](publish-a-scenario.md)
+[Publish a scenario]()
 
-[Send a scenario for approval](send-a-scenario-for-approval.md)
+[Send a scenario for approval]()
 
-[Deploy a scenario](deploy-a-scenoria.md)
+[Deploy a scenario]()
 
-[View scenario change details](view-scenario-change-details.md)
+[View scenario change details]()
 
-[Create a copy of an existing scenario](create-copy-of-scenario.md)
+[Create a copy of an existing scenario]()
 
-[View or edit space allocations of a building](view-or-edit-space-alloctions-of-a-building.md)
+[View or edit space allocations of a building]()
 
-[Work on a space assist request](work-on-space-assist-request.md)
+[Work on a space assist request]()
 
-[Map based space administration](../concept/map-based-space-administration.md)
+[Map based space administration]()
 

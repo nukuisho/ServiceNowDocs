@@ -2,6 +2,7 @@
 title: Using the Work Element
 description: The work element encodes SQL statements to be executed by the probe.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_UsingTheWorkElement.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -91,10 +92,10 @@ A delete SQL can be executed by specifying the table and optional where clause.
 ...
 ```
 
-**Parent Topic:**[JDBCProbe](../task/t_JDBCProbe.md)
+**Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_JDBCProbe.md)
 
 **Related topics**  
 
 
-[JDBCProbe](../task/t_JDBCProbe.md)
+[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_JDBCProbe.md)
 

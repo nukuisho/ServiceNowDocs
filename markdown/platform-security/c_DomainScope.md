@@ -2,6 +2,7 @@
 title: Domain scope
 description: Domain scope defines what users can and cannot access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_DomainScope.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -90,18 +91,18 @@ When you deactivate a domain, the instance also automatically completes the foll
 
 For example, if you deactivate the ACME domain from the sample data, the instance also deactivates the ACME company, and the three sample users are locked out.
 
-**Parent Topic:**[Exploring domain separation](c_DomainSeparation.md)
+**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
 
 **Related topics**  
 
 
-[Configuration that can be delegated to internal or external customers](ds-before-you-begin.md)
+[Configuration that can be delegated to internal or external customers]()
 
-[Domain assignment](c_DomainAssignment.md)
+[Domain assignment]()
 
-[Visibility domains and Contains domains](c_DomainVisibility.md)
+[Visibility domains and Contains domains]()
 
-[Concepts for service providers](sp-concepts.md)
+[Concepts for service providers]()
 
-[Installed with domain separation](../reference/r_InstalledWithDomainSeparation.md)
+[Installed with domain separation]()
 

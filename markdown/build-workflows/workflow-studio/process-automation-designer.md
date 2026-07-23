@@ -2,6 +2,7 @@
 title: Exploring Playbook
 description: Playbook enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/process-automation-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -34,7 +35,7 @@ Workflow Studio Playbooks enables you, as a business playbook owner, to organize
 The automated business processes that you design guide your end users and help them focus on the tasks and information that matter to them. A well-designed playbook can do these things:
 
 -   Start up, or trigger, automatically for the types of records that your end users care about
--   Reuse activities from existing [Workflow Studio](../../workflow-studio/reference/workflow-studio.md) content
+-   Reuse activities from existing [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md) content
 -   Has well-defined stages that end users can follow for a record
 -   Clearly show the next steps that end users must take to move through a record's life cycle
 
@@ -56,65 +57,65 @@ Playbooks has these components:
 
 -   **Activities**
 
-    An activity defines the [Workflow Studio](../../workflow-studio/reference/workflow-studio.md) content that powers the playbook's automation. An activity can also specify the user-facing experience that the playbook produces when it runs.
+    An activity defines the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md) content that powers the playbook's automation. An activity can also specify the user-facing experience that the playbook produces when it runs.
 
 
-For more information about how to use and navigate the Playbooks user interface, see [Playbook builder](exploring-process-automation-designer.md).
+For more information about how to use and navigate the Playbooks user interface, see [Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-process-automation-designer.md).
 
 ## Playbook Experience
 
 Guide agents and fulfillers through complicated playbooks from start to finish, improving customer experience and task resolution. Build your playbooks in Workflow Studio, and then design and embed your Playbook Experience in legacy workspace, UI Builder, ServiceNow Mobile Platform, Service Portal, and more.
 
-To learn about designing Playbook Experience, see [Designing Playbook Experience](../../workspace/concept/playbook-experience-admins.md).
+To learn about designing Playbook Experience, see [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-experience-admins.md).
 
 ## Getting started
 
-Before you get started with Playbooks, familiarize yourself with any features that your business uses to automate operations on the ServiceNow AI Platform, such as [flows](../../workflow-studio/concept/exploring-flows.md), [subflows](../../workflow-studio/reference/exploring-subflows.md), and [actions](../../workflow-studio/concept/exploring-actions.md).
+Before you get started with Playbooks, Familiarize yourself with any features that your business uses to automate operations on the ServiceNow AI Platform, such as [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md), [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-subflows.md), and [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-actions.md).
 
 If you're a playbook owner who wants to learn the basics of digitizing your business process, check out the following resources:
 
--   [Get started with ServiceNow® Process Automation](getting-started-process-automation.md)
--   [Get started with Playbooks](getting-started-processes.md)
--   [Design your first automated process](../task/design-automated-process.md)
--   [View your process executions](process-executions.md)
+-   [Get started with ServiceNow® Process Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-process-automation.md)
+-   [Get started with Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-processes.md)
+-   [Design your first automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-automated-process.md)
+-   [View your process executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-executions.md)
 
 If you're a ServiceNow Process Automation administrator who wants to set up and customize Playbooks, check out the following resources:
 
--   [Triggers](process-automation-designer-triggers.md)
--   [Activity definitions](activity-definitions.md)
+-   [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
+-   [Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md)
 
 ## Playbook across ServiceNow AI Platform®
 
 Playbook capabilities are available in other ServiceNow® products and for specific industries. You get the Playbook content when you subscribe to the ServiceNow AI Platform®.
 
-To learn about activating Playbook other applications, see [Activate Playbooks](activate-process-automation-designer.md).
+To learn about activating Playbook other applications, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md).
 
 |Integration|Content available|
 |-----------|-----------------|
-|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md)|Build playbooks from App Engine Studio.|
-|[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-landing.md)|Create basic request and fulfillment apps without code.|
-|[Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-configuring.md)|Create playbooks for Customer Service Management.|
-|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)|Create playbooks for Field Service Management.|
-|[HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr.md)|Create playbooks for HR services.|
-|[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/playbook-entitlementsetup-workspace.md)|Create playbooks for Software Asset Management.|
+|App Engine Studio|Build playbooks from App Engine Studio.|
+||Create basic request and fulfillment apps without code.|
+||Create playbooks for Customer Service Management.|
+||Create playbooks for Field Service Management.|
+||Create playbooks for HR services.|
+||Create playbooks for Software Asset Management.|
 |[Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-overview.md)|Create playbooks for Healthcare and Life Science processes.|
 |[Playbooks for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/playbooks-fso-apps.md)|Create playbooks for Financial Services Operations.|
-|[Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/playbooks-psds-exploring.md)|Create playbooks for Public Sector Digital Services.|
-|[Run actions to resolve alert issues in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/run-alert-remediation.md)|Create playbooks for IT Operations Management.|
+||Create playbooks for Public Sector Digital Services.|
+|[Run actions to resolve alert issues in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/run-alert-remediation.md)|Create playbooks for IT Operations Management.|
 |[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-playbook-overview.md)|Create playbooks for Account Lifecycle Events.|
-|[Onboard Jira to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-jira-tool-dev-ops.md)|Create playbooks for IT Service Management.|
-|[Security Incident Response playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/cj-sir-about-flows.md)|Create playbooks for Security Operations.|
-|[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)|Create playbooks for Procurement Service Management.|
-|[Complete publishing checklist and request policy approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.md)|Create playbooks for Governance, Risk, and Compliance processes.|
+|[Onboard Jira to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-jira-tool-dev-ops.md)|Create playbooks for IT Service Management.|
+|[Security Incident Response playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cj-sir-about-flows.md)|Create playbooks for Security Operations.|
+|[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/work-playbooks-spo.md)|Create playbooks for Procurement Service Management.|
+||Create playbooks for Governance, Risk, and Compliance processes.|
 
--   **[Playbook builder](exploring-process-automation-designer.md)**  
+-   **[Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-process-automation-designer.md)**  
 Playbooks is a component in Workflow Studio. Workflow Studio gives you a streamlined way to author, configure, and monitor playbooks, flows, subflows, actions, and decision tables in one place.
--   **[Playbook Experience](process-automation-designer-architecture-overview.md)**  
+-   **[Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-architecture-overview.md)**  
 Understand how Playbook work in the ServiceNow AI Platform® to automate cross-functional processes and consolidate them into task-oriented views for your end users.
--   **[Now Assist features for Playbooks](now-assist-features-playbooks.md)**  
+-   **[Now Assist features for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/now-assist-features-playbooks.md)**  
 Now Assist provides AI-powered capabilities across the Playbook experience, from generating and recommending playbooks to enabling autonomous, agentic execution.
--   **[Domain separation in Playbooks](process-automation-designer-domain-separation.md)**  
+-   **[Domain separation in Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-domain-separation.md)**  
 Data separation is supported for Playbooks. The domain value of the triggering input record determines the domain context. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Workflow Studio playbooks](../../workflow-studio/reference/workflow-studio-playbooks-landing.md)
+**Parent Topic:**[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 

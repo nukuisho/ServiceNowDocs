@@ -2,6 +2,7 @@
 title: Investigative Case Management Evidence Management forms
 description: Use forms to view and update information about evidence linked to an investigative case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-icm-ref-case-forms-evidence-management.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

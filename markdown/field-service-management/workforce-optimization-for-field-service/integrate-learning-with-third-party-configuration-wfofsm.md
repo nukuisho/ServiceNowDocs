@@ -2,6 +2,7 @@
 title: Integrate third-party learning management systems with the Coaching with Learning application
 description: Connect your ServiceNow instance with third-party learning sites to pull learning content into your repository.When you integrate Coaching with Learning with third-party learning management systems, the source record for Cornerstone OnDemand, Pluralsight, and Udemy applications are automatically created in the Enterprise Service Management Integrations Framework. These source records contain a predefined set of properties and integration services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/integrate-learning-with-third-party-configuration-wfofsm.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -17,7 +18,7 @@ Connect your ServiceNow instance with third-party learning sites to pull learnin
 
 ## Before you begin
 
-**Important:** The Coaching with Learning application is available with the Workforce Optimization for Field Service \(sn\_fsm\_wfo\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for Field Service](activate-wfo-fsm.md).
+**Important:** The Coaching with Learning application is available with the Workforce Optimization for Field Service \(sn\_fsm\_wfo\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
 
 Role required: learning\_admin
 
@@ -25,7 +26,7 @@ Role required: learning\_admin
 
 Activating the Coaching with Learning \(sn\_coach\_lrn\) plugin enables the following applications from the ServiceNow Store:
 
--   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-framework.md)
+-   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-integrations-framework.md)
 -   Cornerstone spoke
 -   Pluralsight spoke
 -   Udemy spoke
@@ -127,31 +128,31 @@ Configuration set to push a record if the previous push fails.**Note:** This fie
 </table>    7.  Click **Submit**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d101315e319">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d102947e319">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d101315e322">
+</th><th align="left" id="d102947e322">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d101315e328">
+</th></tr></thead><tbody><tr><td id="d102947e328">
 
 **Pluralsight Skills account**
 
 </td><td>
 
-Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-pluralsight-spk.md) to perform the integration.
+Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d101315e341">
+</td></tr><tr><td id="d102947e341">
 
 **Cornerstone application**
 
 </td><td>
 
-Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-cornerstone.md) to perform the integration.
+Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d101315e357">
+</td></tr><tr><td id="d102947e357">
 
 **Udemy application**
 

@@ -2,6 +2,7 @@
 title: Export a quiz scorecard as an image
 description: You can export scorecards as images.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ExportAQuizScorecard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,23 +24,23 @@ Role required: assessment\_admin or admin
 
 2.  When the export is complete, select **Download** to save the scorecard image to a storage location.
 
-    ![Scorecard export image](../images/QuizScorecardExportImage.png)
+    \[Omitted image "QuizScorecardExportImage.png"\] Alt text: Scorecard export image
 
 
-**Parent Topic:**[Survey responses and results](../../survey-administration/concept/c_SurveyResults.md)
+**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md)
 
 **Related topics**  
 
 
-[View results for all surveys](../../survey-administration/task/t_ViewResultsForAllSurveys.md)
+[View results for all surveys]()
 
-[View the results for a survey](../../survey-administration/task/t_ViewResultsForASpecificSurvey.md)
+[View the results for a survey]()
 
-[View a survey scorecard](../../survey-administration/task/t_ViewAScorecard.md)
+[View a survey scorecard]()
 
-[Request translations for surveys](../../survey-administration/task/request-translations-for-surveys.md)
+[Request translations for surveys]()
 
-[Edit translations for surveys](../../survey-administration/task/edit-translations-for-surveys.md)
+[Edit translations for surveys]()
 
-[Survey responses in a database view](../../survey-administration/concept/survey-result-database-view.md)
+[Survey responses in a database view]()
 

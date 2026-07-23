@@ -2,6 +2,7 @@
 title: Risk Calculator property
 description: The Best Practice - Change Risk Calculator plugin enables dynamic calculations of the risk and impact of a change. The administrator specifies how and when risk and impact rules are applied.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/r\_ChangeRiskCalculator.html
 release: australia
 product: Change Management
 classification: change-management
@@ -33,7 +34,7 @@ UI Action
 
 </td><td>
 
-Enables users to click the **Calculate Risk** related link to check condition rules on demand.This UI action applies matching conditions according to their order. Each time a rule is applied, an alert is displayed confirming the new values for risk and impact.
+Enables users to select the **Calculate Risk** related link to check condition rules on demand.This UI action applies matching conditions according to their order. Each time a rule is applied, an alert is displayed confirming the new values for risk and impact.
 
  The **Calculate Risk** related link appears on the Change Request form only if the following statements are true.
 
@@ -61,10 +62,10 @@ None
 Disables the processing of risk and impact rules.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Risk conditions and calculation](../../../product/change-management/concept/change-risk-assess-detect-conflict.md)
+</table>**Parent Topic:**[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-risk-assess-detect-conflict.md)
 
 **Related topics**  
 
 
-[Add or modify risk and impact conditions](../../../product/change-management/task/define-risk-and-impact-conditions.md)
+[Add or modify risk and impact conditions]()
 

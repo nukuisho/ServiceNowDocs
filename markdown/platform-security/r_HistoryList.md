@@ -2,6 +2,7 @@
 title: History List
 description: The history list displays each change as its own row in the change list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_HistoryList.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,11 +14,11 @@ breadcrumb: [Knowing about History sets, Auditing]
 
 The history list displays each change as its own row in the change list.
 
-![View History List](../image/ViewHistoryList.png "View History List")
+\[Omitted image "ViewHistoryList.png"\] Alt text: View History List
 
 Click on a row item to view additional details about the change.
 
-![View List Change record](../image/ViewListChange.png "View List Change")
+\[Omitted image "ViewListChange.png"\] Alt text: View List Change record
 
 ## Requirements
 

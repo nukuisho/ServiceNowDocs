@@ -2,13 +2,14 @@
 title: Create a reserve entitlement for Microsoft online services in the Software Asset Workspace
 description: Create a reserve entitlement for Microsoft online services in the Software Asset Workspace so that you can add licenses to an existing Microsoft 365 subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-0365-reserve-entitlements-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Creating reserve entitlements for Microsoft online services, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Creating reserve entitlements for Microsoft online services, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a reserve entitlement for Microsoft online services in the Software Asset Workspace
@@ -17,7 +18,7 @@ Create a reserve entitlement for Microsoft online services in the Software Asset
 
 ## Before you begin
 
-To create reserve entitlements for Microsoft online services in the Software Asset Workspace, you must request and activate the Software Asset Workspace \(sn\_sam\_workspace\) store application. For details on requesting and activating the Software Asset Workspace \(sn\_sam\_workspace\) store application, see [Request Software Asset Management](t_RequSoftwareAssetMgmt.md).
+To create reserve entitlements for Microsoft online services in the Software Asset Workspace, you must request and activate the Software Asset Workspace \(sn\_sam\_workspace\) store application. For details on requesting and activating the Software Asset Workspace \(sn\_sam\_workspace\) store application, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 Role required: sam\_user or sam\_admin
 
@@ -59,7 +60,7 @@ Role required: sam\_user or sam\_admin
 
 ## What to do next
 
-Run a reconciliation to include the new reserve entitlement in the true-up cost calculation. View your reconciliation results in the [Microsoft publisher overview](../reference/publisher-overview-microsoft.md). The cost of the reserve entitlement is included in the **True-up cost** report.
+Run a reconciliation to include the new reserve entitlement in the true-up cost calculation. View your reconciliation results in the [Microsoft publisher overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/publisher-overview-microsoft.md). The cost of the reserve entitlement is included in the **True-up cost** report.
 
 When you pass the end date of the reserve entitlement, the SAM - Subscription Maintenance scheduled job creates a new entitlement to replace it.
 

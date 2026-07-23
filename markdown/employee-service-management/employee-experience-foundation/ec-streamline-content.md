@@ -2,6 +2,7 @@
 title: Portal content
 description: The Content Library is your one-stop location for creating and publishing a variety of content types to appear on the employee portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-streamline-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,7 +31,7 @@ Example
 
 </th></tr></thead><tbody><tr><td>
 
-[Image-based link](../task/ec-content-library-portal-image.md)
+[Image-based link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-image.md)
 
 </td><td>
 
@@ -38,11 +39,11 @@ An picture or graphic that redirects employees to an internal or external web pa
 
 </td><td>
 
-![Image-based links](../images/ec-example-image-link.png)
+\[Omitted image "ec-example-image-link.png"\] Alt text: Image-based links
 
 </td></tr><tr><td>
 
-[Banner](../task/ec-content-library-portal-banner.md)
+[Banner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-banner.md)
 
 </td><td>
 
@@ -50,11 +51,11 @@ An image with text that appears at the top of the portal homepage.
 
 </td><td>
 
-![Banner appears at the top of the page](../images/ec-example-banner.png)
+\[Omitted image "ec-example-banner.png"\] Alt text: Banner appears at the top of the page
 
 </td></tr><tr><td>
 
-[Calendar](../task/ec-content-library-portal-calendar.md#)
+[Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-calendar.md)
 
 </td><td>
 
@@ -62,11 +63,11 @@ Displays upcoming company holidays.**Note:** Employees can download content as a
 
 </td><td>
 
-![Events displayed in event widget](../images/ec-example-calendar.png)
+\[Omitted image "ec-example-calendar.png"\] Alt text: Events displayed in event widget
 
 </td></tr><tr><td>
 
-[Event](../task/ec-content-library-portal-events.md)
+[Event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-events.md)
 
 </td><td>
 
@@ -74,11 +75,11 @@ Provides employees with a quick view of upcoming company events.**Note:** Employ
 
 </td><td>
 
-![US holidays calendar](../images/ec-example-events.png)
+\[Omitted image "ec-example-events.png"\] Alt text: US holidays calendar
 
 </td></tr><tr><td>
 
-[Rich text](../task/ec-content-library-portal-richtext.md)
+[Rich text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-richtext.md)
 
 </td><td>
 
@@ -86,11 +87,11 @@ Blocks of formatted text and images.
 
 </td><td>
 
-![Block of rich text](../images/ec-example-rich-text.png)
+\[Omitted image "ec-example-rich-text.png"\] Alt text: Block of rich text
 
 </td></tr><tr><td>
 
-[Styled content](../task/ec-content-library-portal-styled.md)
+[Styled content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-styled.md)
 
 </td><td>
 
@@ -98,11 +99,11 @@ A banner, video, or block of rich text.
 
 </td><td>
 
-![Block of styled content](../images/ec-example-styled-content.png)
+\[Omitted image "ec-example-styled-content.png"\] Alt text: Block of styled content
 
 </td></tr><tr><td>
 
-[URL](../task/ec-content-library-portal-url.md)
+[URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-url.md)
 
 </td><td>
 
@@ -110,11 +111,11 @@ A text-based link that redirects employees to an internal or external web page.
 
 </td><td>
 
-![URL links in widget](../images/ec-example-url.png)
+\[Omitted image "ec-example-url.png"\] Alt text: URL links in widget
 
 </td></tr><tr><td>
 
-[Video](../task/ec-content-library-portal-video.md)
+[Video](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-video.md)
 
 </td><td>
 
@@ -122,13 +123,13 @@ Embed a video in the portal.
 
 </td><td>
 
-![YouTube video embedded in portal](../images/ec-example-video.png)
+\[Omitted image "ec-example-video.png"\] Alt text: YouTube video embedded in portal
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Publishing content](ec-content-publishing-schedule.md)
+[Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md)
 
-[Creating campaigns](ecpro-campaigns.md)
+[Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 

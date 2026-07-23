@@ -2,6 +2,7 @@
 title: Item dependency errors in Portfolio Planning Workspace
 description: Learn about the scenarios when the planning item dependencies on the portfolio plan roadmap or free-form roadmap in Portfolio Planning Workspace can be in an error state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/item-dependency-errors-in-portfolio-planning-wkspc.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -19,18 +20,18 @@ A dependency between two planning items can be in an error state when a scheduli
 
 **Note:** Error states are displayed for only if the planning items have a **Depends on** type of relationship.
 
-In the sample roadmap shown here, starting work on **Employee onboarding process improvement** is dependent on the completion of **Specific onboarding path for new hire**. This relation is considered a linear dependency. Here, **Employee onboarding process improvement** is scheduled to start before the end date of **Specific onboarding path for new hire**. This conflict is indicated on the roadmap with an error icon \(![Dependency error icon.](../../alignment-planner-workspace/images/icon-dependency-error.png)\), and is also mentioned in the Dependencies tab of the Item details side panel.
+In the sample roadmap shown here, starting work on **Employee onboarding process improvement** is dependent on the completion of **Specific onboarding path for new hire**. This relation is considered a linear dependency. Here, **Employee onboarding process improvement** is scheduled to start before the end date of **Specific onboarding path for new hire**. This conflict is indicated on the roadmap with an error icon \(\[Omitted image "icon-dependency-error.png"\] Alt text: Dependency error icon.\), and is also mentioned in the Dependencies tab of the Item details side panel.
 
 To resolve such errors, review the scope of the planning items and update the start or end dates to adjust their scheduling accordingly.
 
-![planning item dependency conflicts.](../../alignment-planner-workspace/images/dependency-conflict.png)
+\[Omitted image "dependency-conflict.png"\] Alt text: planning item dependency conflicts.
 
-**Parent Topic:**[Portfolio Planning reference](../concept/portfolio-planning-reference.md)
+**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
 
 **Related topics**  
 
 
-[Add dependencies for roadmap items](../task/add-dependencies-roadmap-items-portfolio-planning.md)
+[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
 
-[Update roadmap item dependencies](../task/update-roadmap-item-dependencies-portfolio-planning.md)
+[Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.md)
 

@@ -2,11 +2,12 @@
 title: Configure onboarding tasks in playbook
 description: You can configure customer success onboarding tasks in a playbook using the Process Automation Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-configure-simple.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure playbook activities, Account onboarding, Customer Success Management, Customer Success Management]
+breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
 ---
 
 # Configure onboarding tasks in playbook
@@ -18,7 +19,7 @@ You can configure customer success onboarding tasks in a playbook using the Proc
 Role required:
 
 -   sn\_acct\_lc.agent
--   One or more Playbooks roles. See [Playbooks roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-roles.md) for details.
+-   One or more Playbooks roles. See [Playbooks roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-roles.md) for details.
 
 ## About this task
 
@@ -47,5 +48,5 @@ You can add, modify, and delete any tasks for the Customer success onboarding ta
 9.  Select **Done** and then **Activate**.
 
 
-**Parent Topic:**[Configure the onboarding playbook activities](../concept/account-lifecycle-pad.md)
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure.md)
 

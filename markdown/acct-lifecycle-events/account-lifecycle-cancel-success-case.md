@@ -2,11 +2,12 @@
 title: Close or cancel a customer play
 description: You can close or cancel a customer play and all the related tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-cancel-success-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a customer play, Manage playbooks, Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Create a customer play, Manage playbooks, Customer success, Use, Customer Success Management]
 ---
 
 # Close or cancel a customer play
@@ -33,10 +34,10 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 6.  Select **Yes** in the confirmation window to continue.
 
-    The customer play along with all associated child customer play tasks will be canceled or closed and the Progress is set to **Finished**.
+    The customer play along with all associated child customer play tasks will be canceled or closed and the Progress is set to **Canceled** or **Closed**.
 
     **Note:** Before you close a customer play, you must close or cancel all the associated child tasks. If an associated child task is still open, a warning message is displayed. You must first close or cancel the child tasks and then proceed with closing the customer play.
 
 
-**Parent Topic:**[Create a customer play](account-lifecycle-create-success-case-playbook.md)
+**Parent Topic:**[Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md)
 

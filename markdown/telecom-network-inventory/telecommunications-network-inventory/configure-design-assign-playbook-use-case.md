@@ -2,6 +2,7 @@
 title: Configure a Design and Assign function example
 description: This example demonstrates how you can create and configure a playbook to design and assign a network service in the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/configure-design-assign-playbook-use-case.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -76,7 +77,7 @@ Don't set any model state transition for this state.
 **Note:** You must add Allow CI Modification attribute to the **Design in progress** and **Design complete** model states.
 
 </td></tr></tbody>
-</table>    To learn more about the detailed steps, see [Create a Change Model for Design and Assign function](../task/create-change-model-design-assign-playbook.md).
+</table>    To learn more about the detailed steps, see [Create a Change Model for Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-change-model-design-assign-playbook.md).
 
 2.  Create a record producer to capture the ONT input details such as ONT site and inventory template. This record producer is used in the second activity in the playbook.
 
@@ -99,7 +100,7 @@ Record producer
 
 
 </td></tr></tbody>
-</table>    To learn more about the detailed steps, see [Create a record producer for the Design and Assign function](../task/create-record-producer-design-assign-playbook.md).
+</table>    To learn more about the detailed steps, see [Create a record producer for the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-record-producer-design-assign-playbook.md).
 
 3.  Add variables to the record producer.
 
@@ -134,11 +135,11 @@ Set the following details for Variable 1.-   Set the **Type** field as **Referen
 
 
 </td></tr></tbody>
-</table>    To learn more about the detailed steps, see [Create variables for Design and Assign function](../task/create-variables-record-producer-design-assign-playbook.md).
+</table>    To learn more about the detailed steps, see [Create variables for Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-variables-record-producer-design-assign-playbook.md).
 
 4.  Select **DA common variables** as a variable set to the record producer.
 
-    To learn more about the detailed steps, see [Add variable set to the record producer for Design and Assign function](../task/add-variable-set-record-producer-design-assign-playbook.md).
+    To learn more about the detailed steps, see [Add variable set to the record producer for Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/add-variable-set-record-producer-design-assign-playbook.md).
 
 5.  Create a subflow for the request definition that you use to configure the second activity in the playbook.
 
@@ -180,7 +181,7 @@ Add the following actions to the subflow.-   Add the **Get Catalog Variable** ac
 
 
 </td></tr></tbody>
-</table>    To learn more about the detailed steps, see [Create subflow for Design and Assign function](../task/create-subflow-design-assign-playbook.md).
+</table>    To learn more about the detailed steps, see [Create subflow for Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-subflow-design-assign-playbook.md).
 
 6.  Create a request definition that you use to configure the second activity in the playbook.
 
@@ -203,12 +204,12 @@ Set the following details for the request definition.-   Set the request definit
 
 
 </td></tr></tbody>
-</table>    To learn more about the detailed steps, see [Create subflow for Design and Assign function](../task/create-subflow-design-assign-playbook.md).
+</table>    To learn more about the detailed steps, see [Create subflow for Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-subflow-design-assign-playbook.md).
 
 
 ## Creating and configuring a playbook
 
-As a playbook admin, you create and configure the playbook for the Design and Assign function in the Workflow Studio. For the detailed information about the following steps, see [Create a playbook for the Design and Assign function](../task/create-playbook-design-assign-function.md).
+As a playbook admin, you create and configure the playbook for the Design and Assign function in the Workflow Studio. For the detailed information about the following steps, see [Create a playbook for the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-playbook-design-assign-function.md).
 
 1.  Create a playbook and set the name as **Design Network Service**.
 2.  Add and configure your trigger.
@@ -369,18 +370,18 @@ Set the following details in the **UI Layout** tab.-   Set the **Associated tabl
 
 The following example shows the playbook that you created and configured in the Workflow Studio.
 
-![Playbook in Workflow Studio with the list of activities.](../image/playbook-configure-example.png "Example of the playbook in Workflow Studio")
+\[Omitted image "playbook-configure-example.png"\] Alt text: Playbook in Workflow Studio with the list of activities.
 
 ## Adding playbook to home page
 
-You add the sys\_id of the Network Service Automated Flow Change model in the `sn_ni_ws.tni_design_assign_chg_models` record. To learn more about the detailed steps, see [Update system property to configure the Design and Assign home page](../task/update-system-property-configure-design-assign-home-page.md).
+You add the sys\_id of the Network Service Automated Flow Change model in the `sn_ni_ws.tni_design_assign_chg_models` record. To learn more about the detailed steps, see [Update system property to configure the Design and Assign home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/update-system-property-configure-design-assign-home-page.md).
 
 ## Using a Design and Assign function
 
 As an agent, you use the playbook for the Design and Assign function to fulfill the requirement of the network service by following the steps.
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
-2.  Select the design and assign icon \(![Design and Assign Icon](../image/icon-design-assign.png)\) to open the Design and Assign home page.
+2.  Select the design and assign icon \(\[Omitted image "icon-design-assign.png"\] Alt text: Design and Assign Icon\) to open the Design and Assign home page.
 3.  On the Design Assign home page, select **New** &gt; **Network Service Automated Flow**.
 4.  Complete the activities on the playbook to design and assign your network service.
 
@@ -388,12 +389,12 @@ This process creates an ONT device based on the template and site that you selec
 
 The following example is the Design and Assign function that you created.
 
-![Playbook view with the list of activities](../image/design-assign-playbook-example.png "Example of playbook")
+\[Omitted image "design-assign-playbook-example.png"\] Alt text: Playbook view with the list of activities
 
-**Parent Topic:**[Configuring Design and Assign function for your network services](configure-playbooks-design-assign-function.md)
+**Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
 **Related topics**  
 
 
-[Configuring Design and Assign function for your network services](configure-playbooks-design-assign-function.md)
+[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

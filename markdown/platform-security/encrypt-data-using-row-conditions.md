@@ -2,6 +2,7 @@
 title: Encrypt data using Row Conditions
 description: Encrypt fields with multiple Field Encryption modules using Row Conditions to define the data being encrypted and the associated encryption keys. Row Conditions can also be used to define the users that have access using the condition builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/encrypt-data-using-row-conditions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +41,7 @@ The field is encrypted by the encryption module of the first user to enter data.
 
 2.  Navigate to **System Security** &gt; **Field Encryption** &gt; **Encrypted Field Experience** &gt; **Create new module**.
 
-    If you need more information on Encrypted Field Configurations, see [Set encrypted field configurations](set-encrypted-field-config.md).
+    If you need more information on Encrypted Field Configurations, see [Set encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-encrypted-field-config.md).
 
 3.  Select the **Table** and the **Column** in the table that you want to encrypt.
 
@@ -52,13 +53,13 @@ The field is encrypted by the encryption module of the first user to enter data.
 
     For example, a Row Condition can be defined to encrypt records to declare that the "Department" field on the record equals "IT." Then, the records in which the "Department" field doesn’t equal "IT" wouldn’t be encrypted unless **Encrypt by default** is selected. This example utilizes a custom created "Department" Choice field on the sn\_customerservice\_case table, but other custom or default fields, if they are a supported data type of Row Conditions. The **Encrypt by default** option is selected by default. To create a configuration without this option selected, create the EFC from the **Configurations** page.
 
-    ![Encrypt by default and associated Crypto module selected.](../image/fe-encrypt-by-default.png)
+    \[Omitted image "fe-encrypt-by-default.png"\] Alt text: Encrypt by default and associated Crypto module selected.
 
 5.  Select **Submit**.
 
 6.  Select the newly created Encrypted Field Configuration \(EFC\) from the **Configurations** tab.
 
-7.  Select the **Add Row Conditions** box and **Add Condition**.![Create Row Conditions.](../image/fe-add-rcs.png)
+7.  Select the **Add Row Conditions** box and **Add Condition**.\[Omitted image "fe-add-rcs.png"\] Alt text: Create Row Conditions.
 
 8.  Define Row Conditions by filling out the required fields.
 
@@ -95,7 +96,7 @@ For encrypting the Short Description, you would do the following:
 
     -   Mass Encryption - Run this job when a new Row Condition is created.
     -   Mass Rekeying - Run this job when an existing Row Condition is modified.
-    See [Schedule mass encryption, decryption, and rekeying jobs](schedule-mass-jobs.md).
+    See [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-mass-jobs.md).
 
 6.  Have a user from Module A and a user from Module B create an incident with a short description. Have both users view the list of incidents.
 
@@ -103,7 +104,7 @@ The short description for the incident created by the user with the HR role is e
 
 All users with the HR and Sales roles have access to incidents. However, only a user with the HR role can decrypt and view the short description for those incidents created by another user with the HR role. Likewise, only users with the Sales role can decrypt and view the short descriptions for those incidents created by the user B, who had the Sales role.
 
-![Diagram displays viewable fields of the Row Condition example.](../image/MMASSET0021135-multi-encryption-square.svg)
+\[Omitted image "MMASSET0021135-multi-encryption-square.svg"\] Alt text: Diagram displays viewable fields of the Row Condition example.
 
 ## What to do next
 
@@ -112,7 +113,7 @@ Perform one of the following operations:
 -   Schedule a **Mass Encryption** job to update the encryption of the condition field.
 -   If modifying an existing Row Condition run a **Mass Rekeying** job to encrypt necessary data with the updated encryption module.
 
-See [Schedule mass encryption, decryption, and rekeying jobs](schedule-mass-jobs.md)
+See [Schedule mass encryption, decryption, and rekeying jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/schedule-mass-jobs.md)
 
-**Parent Topic:**[Using multiple encryption modules](../concept/using-multiple-encryption-modules.md)
+**Parent Topic:**[Using multiple encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-multiple-encryption-modules.md)
 

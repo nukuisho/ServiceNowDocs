@@ -2,6 +2,7 @@
 title: Modify a project task dependency
 description: Modify a dependency when editing the tasks that are linked in the dependency, the dependency type, or the lag time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ModifyProjectTaskDependencies.html
 release: australia
 product: Project Management
 classification: project-management
@@ -25,27 +26,27 @@ Project task dependencies are saved on the Planned Task Relationship \[planned\_
 
 ## Procedure
 
-1.  Double-click a dependency on the Gantt chart of the [planning console](../concept/c_TheProjectPlanningConsole.md).
+1.  Double-click a dependency on the Gantt chart of the [planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md).
 
 2.  On the form, fill in the details.
 
-    For more information, see [Planned Task Relationship form](../reference/planned-task-relationship-form.md).
+    For more information, see [Planned Task Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/planned-task-relationship-form.md).
 
-    ![Planned Task Relationship form](../image/planned_task_relationshipform.png "Planned Task Relationship form")
+    \[Omitted image "planned\_task\_relationshipform.png"\] Alt text: Planned Task Relationship form
 
 3.  Select **Update**.
 
     You can view dependencies in the Project Task related list on a Project or Project Task form and from the Project Tasks list on the workbench. These columns show the dependencies:
 
     -   The **Dependency** column shows the successor task in the relationship.
-    -   The **Dependencies** column shows the dependency value. See [Predecessor dependencies in the planning console](../reference/r_ProjectTaskDependencyValues.md) for a description of what you see in this column.
+    -   The **Dependencies** column shows the dependency value. See [Predecessor dependencies in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_ProjectTaskDependencyValues.md) for a description of what you see in this column.
 
-**Parent Topic:**[Create a dependency from the planning console](t_CreateADependency.md)
+**Parent Topic:**[Create a dependency from the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateADependency.md)
 
 **Related topics**  
 
 
-[Create a dependency from the planning console](t_CreateADependency.md)
+[Create a dependency from the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateADependency.md)
 
-[Remove a dependency](t_RemoveDependencies.md)
+[Remove a dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_RemoveDependencies.md)
 

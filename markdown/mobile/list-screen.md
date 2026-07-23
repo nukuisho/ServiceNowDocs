@@ -2,6 +2,7 @@
 title: List screen
 description: Use a list to display a list of records. Records in lists display in a card format, showing a limited selection of the information in the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/list-screen.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,35 +22,35 @@ Use a list screen to see records in a list view. Within a list screen, each reco
 
 -   **Record screen**
 
-Configure your list screen to include a record screen. This configuration automatically displays a detailed view of a record when your users tap it in the list screen. Learn more about record screens in [Record screen](form-screen.md).
+Configure your list screen to include a record screen. This configuration automatically displays a detailed view of a record when your users tap it in the list screen. Learn more about record screens in [Record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/form-screen.md).
 
 -   **List filters**
 
-Mobile list filters enable your users to find what they need in the records on your instance. For more detail on filters, see [Mobile list screen filters](mobile-list-filters.md).
+Mobile list filters enable your users to find what they need in the records on your instance. For more detail on filters, see [Mobile list screen filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-list-filters.md).
 
 -   **Dynamic screen name**
 
-Configure your list screen to inherit the name of a previous screen selection or form field and display it as the header on a subsequent screen. For more information, see [Configure a dynamic screen name for a list screen](../task/dynamic-screen-titles.md).
+Configure your list screen to inherit the name of a previous screen selection or form field and display it as the header on a subsequent screen. For more information, see [Configure a dynamic screen name for a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/dynamic-screen-titles.md).
 
 -   **Functions**
 
-Functions determine which actions users can perform in your mobile apps. For more detail on functions, see [Mobile functions](sg-studio-mobile-button-types.md).
+Functions determine which actions users can perform in your mobile apps. For more detail on functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
 
 
 </td><td>
 
-![List screen.](../image/mobile-list.png)
+\[Omitted image "mobile-list.png"\] Alt text: List screen.
 
 </td></tr></tbody>
 </table>## Configure lists with forms
 
 <table id="table_y4t_zv3_nlb"><tbody><tr><td>
 
-Configure your list with a record screen so your users can tap list items to view details of the records on your list. For details on list configuration, see [List screen configuration](../task/sg-configure-list-screen.md).
+Configure your list with a record screen so your users can tap list items to view details of the records on your list. For details on list configuration, see [List screen configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-list-screen.md).
 
 </td><td>
 
-![List and form screens.](../image/form-and-list.png)
+\[Omitted image "form-and-list.png"\] Alt text: List and form screens.
 
 </td></tr></tbody>
 </table>## Parametrized list screens
@@ -58,16 +59,16 @@ Configure your list with a record screen so your users can tap list items to vie
 
 Use parameters to pass information into your list screens. For example, when a user taps on a group in a group list screen, a list containing records in the group is displayed. The list of records in the group is a parametrized list, which accepts the value of the group your user selected as a parameter.
 
- To learn about parametrized list configuration, see [Parametrized list screens](list-applet-parameters.md).
+ To learn about parametrized list configuration, see [Parametrized list screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/list-applet-parameters.md).
 
 </td><td>
 
-![Opening a parametrized list of records from a group list.](../image/param-list.png)
+\[Omitted image "param-list.png"\] Alt text: Opening a parametrized list of records from a group list.
 
 </td></tr></tbody>
 </table>## List screen functions
 
-Add functions to your list screens to give your users the ability to take actions directly on a record screen. List screens support swipe, footer, and top menu functions. For more information on functions, see [Mobile functions](sg-studio-mobile-button-types.md).
+Add functions to your list screens to give your users the ability to take actions directly on a record screen. List screens support swipe, footer, and top menu functions. For more information on functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
 
 <table id="table_o45_nbq_slb"><tbody><tr><td>
 
@@ -77,7 +78,7 @@ Swipe functions
 
 </td><td>
 
-![Swipe function from the list view with options to Resolve or Reassign an incident.](../image/SwipeFunction.png)
+\[Omitted image "SwipeFunction.png"\] Alt text: Swipe function from the list view with options to Resolve or Reassign an incident.
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Top menu functions
 
 </td><td>
 
-![Top menu for an incident which includes the following functions: Reassign, Resolve, Add comments, and Edit.](../image/top-menu.png)
+\[Omitted image "top-menu.png"\] Alt text: Top menu for an incident which includes the following functions: Reassign, Resolve, Add comments, and Edit.
 
 </td></tr><tr><td>
 
@@ -104,11 +105,11 @@ Footer functions
 
 By default, the instance automaticaaly creates filter and sorting functionality. This filter is based on the fields selected in your list pattern. No further configuration is needed. Users can filter and sort the list based on any of these fields.
 
-If the default filters do not fit your requirements, you can create a custom filter. You can manually select the fields that are available to the list filter and enable keyword filtering. For more information about list screen filters, see [Mobile list screen filters](mobile-list-filters.md).
+If the default filters do not fit your requirements, you can create a custom filter. You can manually select the fields that are available to the list filter and enable keyword filtering. For more information about list screen filters, see [Mobile list screen filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-list-filters.md).
 
 ## Dynamic screen name
 
-Use dynamic screen name functionality to let users to easily identify the screen or field which they are currently viewing. You can configure a screen to inherit a name from a previous screen selection. These dynamic names can be used with grouped lists, where the selected group name becomes the header on a subsequent screen. Alternatively, a field in a form can be used as a header in a different screen. For more information, see [Configure a dynamic screen name for a list screen](../task/dynamic-screen-titles.md).
+Use dynamic screen name functionality to let users to easily identify the screen or field which they are currently viewing. You can configure a screen to inherit a name from a previous screen selection. These dynamic names can be used with grouped lists, where the selected group name becomes the header on a subsequent screen. Alternatively, a field in a form can be used as a header in a different screen. For more information, see [Configure a dynamic screen name for a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/dynamic-screen-titles.md).
 
 <table id="table_rjt_nmr_ylb"><tbody><tr><td>
 
@@ -118,7 +119,7 @@ Display name from a redirection parameter
 
 </td><td>
 
-![Display screen name from a redirection parameter.](../image/dynamic-name-redirection-parameter.png)
+\[Omitted image "dynamic-name-redirection-parameter.png"\] Alt text: Display screen name from a redirection parameter.
 
 </td></tr><tr><td>
 
@@ -128,7 +129,7 @@ Display information from field previous record
 
 </td><td>
 
-![Dynamic screen name displayed from field in previous record.](../image/dynamic-name-form-screen.png)
+\[Omitted image "dynamic-name-form-screen.png"\] Alt text: Dynamic screen name displayed from field in previous record.
 
 </td></tr></tbody>
 </table>

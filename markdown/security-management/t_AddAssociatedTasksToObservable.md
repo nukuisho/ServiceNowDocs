@@ -2,6 +2,7 @@
 title: Add associated tasks to an observable
 description: In addition to importing associated tasks \(such as changes and incidents\) as STIX data, you can add them to an observable manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/t\_AddAssociatedTasksToObservable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,22 +35,22 @@ Role required: sn\_ti.admin
 7.  Click **Save**.
 
 
-**Parent Topic:**[Observables](../concept/c_Observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_Observables.md)
 
 **Related topics**  
 
 
-[Define an observable](t_AddObservable.md)
+[Define an observable]()
 
-[Add a related IoC to an observable](t_AddIoCToObserv.md)
+[Add a related IoC to an observable]()
 
-[Add a related observable](t_AddRelatedObservable.md)
+[Add a related observable]()
 
-[Load more IoC data](t_LoadAdditionalIoCData.md)
+[Load more IoC data]()
 
-[Identify observable sources](t_IdentifyObservbleSources.md)
+[Identify observable sources]()
 
-[Perform lookups on observables](perform-lookups-on-observables.md)
+[Perform lookups on observables]()
 
-[Perform threat enrichment on observables](perform-enrich-on-observs.md)
+[Perform threat enrichment on observables]()
 

@@ -2,6 +2,7 @@
 title: SAFe PI planning board
 description: Use a centralized board to plan your program increments \(PIs\) for an agile release train \(ART\). You can create and assign stories to teams, add and view story dependencies, track stories by sprints, and re-plan these stories if required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/safe-pi-planning-board.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -33,14 +34,14 @@ The SAFe PI planning board contains the following components that guide you duri
 
 -   **Story dependencies**
 
-    Visually analyze dependencies between stories of different sprints and teams by using the story dependency lines. Use the dependencies icon \(![Dependencies icon.](../images/hide-dependencies.png)\) to show or hide these dependency lines. If you choose to hide the dependencies or if the dependencies involve a story that is not present on the board, you can see a colored border on the story card.
+    Visually analyze dependencies between stories of different sprints and teams by using the story dependency lines. Use the dependencies icon \(\[Omitted image "hide-dependencies.png"\] Alt text: Dependencies icon.\) to show or hide these dependency lines. If you choose to hide the dependencies or if the dependencies involve a story that is not present on the board, you can see a colored border on the story card.
 
     The color of the dependency indicates the way you've scheduled the stories. Possible colors are the following:
 
     -   Green: A prerequisite story is scheduled in a sprint that's before the sprint of the dependent story.
     -   Yellow: A prerequisite story is scheduled in the same sprint as the dependent story.
     -   Red: A prerequisite story is scheduled in a sprint that's after the sprint of the dependent story. Review the dependency and reschedule the story as required.
-    If none of the stories are associated with a prerequisite or dependent story, the dependencies icon \(![Dependencies icon.](../images/hide-dependencies.png)\) is not visible. For information on how to add story dependencies, see [Add dependencies to your SAFe stories](../task/add-dependencies-safe-stories.md).
+    If none of the stories are associated with a prerequisite or dependent story, the dependencies icon \(\[Omitted image "hide-dependencies.png"\] Alt text: Dependencies icon.\) is not visible. For information on how to add story dependencies, see [Add dependencies to your SAFe stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/add-dependencies-safe-stories.md).
 
 -   **Feature Backlog pane**
 
@@ -78,7 +79,7 @@ The SAFe PI planning board contains the following components that guide you duri
 
     The story cards use the following indicators:
 
-    ![SAFe PI story card legend.](../images/safe-story-cards.png "Legend for story cards on the SAFe PI Planning board")
+    \[Omitted image "safe-story-cards.png"\] Alt text: SAFe PI story card legend.
 
     |Number|Indicator description|
     |------|---------------------|
@@ -102,7 +103,7 @@ The SAFe PI planning board contains the following components that guide you duri
 
 -   **Zoom in and zoom out**
 
-    Adjust the board view using the zoom in icon \(![Zoom in icon.](../../scrum-programs/images/zoom-in.png)\) and zoom out icon \(![Zoom out icon.](../../scrum-programs/images/zoom-out.png)\).
+    Adjust the board view using the zoom in icon \(\[Omitted image "zoom-in.png"\] Alt text: Zoom in icon.\) and zoom out icon \(\[Omitted image "zoom-out.png"\] Alt text: Zoom out icon.\).
 
 -   **Search**
 
@@ -110,11 +111,11 @@ The SAFe PI planning board contains the following components that guide you duri
 
 -   **Stories list**
 
-    View the list of all stories of the program by using the standard list view icon \(![Standard list view icon.](../images/viewstandardlist.png)\).
+    View the list of all stories of the program by using the standard list view icon \(\[Omitted image "viewstandardlist.png"\] Alt text: Standard list view icon.\).
 
 
--   **[Plan a SAFe program increment](../task/perform-bigroom-planning.md)**  
+-   **[Plan a SAFe program increment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/perform-bigroom-planning.md)**  
 Plan your SAFe program increments \(PIs\) and track the progress of stories and features in an interactive planning board.
 
-**Parent Topic:**[SAFe Board — ART level](program-level-tabs.md)
+**Parent Topic:**[SAFe Board — ART level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/program-level-tabs.md)
 

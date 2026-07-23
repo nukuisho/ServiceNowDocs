@@ -2,6 +2,7 @@
 title: Exploring Machine Identity Console
 description: Manage your service accounts, which are used for integrations with ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/explore-machine-identity-console.html
 release: australia
 product: Identity
 classification: identity
@@ -19,7 +20,7 @@ Machine Identity Console enables you to manage your non-human identities \(NHIs\
 
 **Note:** You need the `mi_admin` role to use the Machine Identity Console.
 
-Overview of Machine Identity Console 
+\[Omitted video\] Description: Overview of Machine Identity Console
 
 Here's what is available on the Machine Identity Console Overview page:
 
@@ -33,13 +34,13 @@ Here's what is available on the Machine Identity Console Overview page:
 **Related topics**  
 
 
-[Activating Machine Identity Console](../task/activate-machine-identity-console.md)
+[Activating Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/activate-machine-identity-console.md)
 
-[Security findings](security-score.md)
+[Security findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/security-score.md)
 
-[Metrics](machine-identity-metrics.md)
+[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/machine-identity-metrics.md)
 
-[Machine Identity Console Settings](../task/machine-identity-console-settings.md)
+[Machine Identity Console Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/machine-identity-console-settings.md)
 
-[Inbound integrations](inbound-integrations.md)
+[Inbound integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/inbound-integrations.md)
 

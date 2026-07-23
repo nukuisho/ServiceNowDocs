@@ -2,6 +2,7 @@
 title: Find a space or user
 description: All users in your organization, regardless of their role, can search for other users and spaces. The results are ordered by current level or floor, current campus, and other campuses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_FindASpaceOrUser.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,9 +33,9 @@ Role required: none
 
 3.  To help narrow your search results, you can select the campus, building, and floor number for your search.
 
-    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](../reference/r_WorkbenchConfiguration.md).
+    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
 
-    ![In this figure, a facilities map image displays a building floor and its designated spaces.](../image/CampusFloorSelection.png)
+    \[Omitted image "CampusFloorSelection.png"\] Alt text: In this figure, a facilities map image displays a building floor and its designated spaces.
 
 4.  On the Spaces tab, enter the user's name or space name in the search field.
 
@@ -47,15 +48,15 @@ Role required: none
     -   Other Campuses
 6.  Perform one of the following options.
 
-<table id="choicetable_dm3_syy_nt"><thead><tr><th align="left" id="d32682e205">
+<table id="choicetable_dm3_syy_nt"><thead><tr><th align="left" id="d32983e205">
 
 Result
 
-</th><th align="left" id="d32682e208">
+</th><th align="left" id="d32983e208">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d32682e214">
+</th></tr></thead><tbody><tr><td id="d32983e214">
 
 **To see the space or user details**
 
@@ -63,15 +64,15 @@ Action
 
 Click the link for the space or user. The details for that user or space open in a separate form.
 
- **Note:** If the location is a space, users and facilities staff can create facilities requests from the room information. See [Create a facility request from the floor plan](t_CreateFacReqWorkbench.md).
+ **Note:** If the location is a space, users and facilities staff can create facilities requests from the room information. See [Create a facility request from the floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateFacReqWorkbench.md).
 
-</td></tr><tr><td id="d32682e237">
+</td></tr><tr><td id="d32983e237">
 
 **To see the location of the space or user on the floor plan**
 
 </td><td>
 
-Click the pin ![Pin icon shows location on floor plan.](../image/PinIcon.png) icon, beside the link for the user or space.
+Click the pin \[Omitted image "PinIcon.png"\] Alt text: Pin icon shows location on floor plan. icon, beside the link for the user or space.
 
 </td></tr></tbody>
 </table>

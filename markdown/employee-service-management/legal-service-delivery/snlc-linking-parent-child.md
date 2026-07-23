@@ -2,6 +2,7 @@
 title: Linking parent-child contracts
 description: Link a parent contract to a child contract to establish hierarchical relationships between contract requests and inherit fields from the parent contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-linking-parent-child.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -28,32 +29,34 @@ To link a contract as a parent, the following conditions must be met:
 -   Only one parent contract can be selected while linking.
 -   The parent contract must be a single contract type using own paper or third-party paper.
 
-**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](snlc-use-sn-legal-cont-landing.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
 
 
-[Non-disclosure agreement requests](snlc-request-nda-1.md)
+[Non-disclosure agreement requests]()
 
-[Third-party contract review requests](snlc-request-third-party-contract-1.md)
+[Third-party contract review requests]()
 
-[Contract amendments](snlc-amend-req-landing.md)
+[Contract amendments]()
 
-[Internal review overview](../task/snlc-expert-review.md)
+[Internal review overview]()
 
-[Cancel a legal request](../task/snlc-cancel-request-tpc.md)
+[Signature workflow for a request]()
 
-[View and download a signed contract document](../task/snlc-preview-contract.md)
+[Cancel a legal request]()
 
-[View contract requests](../task/snlc-view-contract-requests.md)
+[View and download a signed contract document]()
 
-[Manage Contract Management Pro for Legal Service Delivery](snlc-manage-sn-legal-contracts.md)
+[View contract requests]()
 
-[Link parent contract requests](../../contract-mgmt-pro/task/cmpro-link-parent-cmr.md)
+[Manage Contract Management Pro for Legal Service Delivery]()
 
-[Link and inherit parent contract fields](../../contract-mgmt-pro/task/cmpro-link-inhrt-prnt-flds.md)
+[Link parent contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.md)
 
-[Remove a linked contract](../../contract-mgmt-pro/task/cmpro-remove-linked-cntr.md)
+[Link and inherit parent contract fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.md)
 
-[Configure field mapping for parent-child contract linking](../../contract-mgmt-pro/task/cncor-conf-parent-child.md)
+[Remove a linked contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.md)
+
+[Configure field mapping for parent-child contract linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncor-conf-parent-child.md)
 

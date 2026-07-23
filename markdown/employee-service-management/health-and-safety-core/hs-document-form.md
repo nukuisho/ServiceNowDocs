@@ -2,6 +2,7 @@
 title: Health and Safety document version form
 description: Safety team such as safety agent and contractor coordinator can use the Health and Safety document version form to add or modify a safety-related document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/hs-document-form.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Core, Health and Safety, Employee Serv
 
 Safety team such as safety agent and contractor coordinator can use the Health and Safety document version form to add or modify a safety-related document.
 
-For more information, see [Add a new Health and Safety related document](../task/add-hs-related-document.md).
+For more information, see [Add a new Health and Safety related document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/add-hs-related-document.md).
 
 <table id="table_xgm_2zy_bdc"><thead><tr><th>
 
@@ -92,22 +93,22 @@ Notes
 Information related to the document version.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Core reference](../../hs-core/concept/hs-core-reference.md)
+</table>**Parent Topic:**[Health and Safety Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-core-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Health and Safety Core](../../hs-core/reference/components-installed-hs-core.md)
+[Components installed with Health and Safety Core]()
 
-[Health and Safety action form](hs-action-form.md)
+[Health and Safety action form]()
 
-[Health and safety action schedule form](hs-health-safety-action-schedule-form.md)
+[Health and safety action schedule form]()
 
-[Health and Safety profile form](hs-health-safety-profile-form.md)
+[Health and Safety profile form]()
 
-[Health and Safety report field mapping form](hs-report-field-mapping-form.md)
+[Health and Safety report field mapping form]()
 
-[Health and Safety meeting form](hs-safety-meeting-form.md)
+[Health and Safety meeting form]()
 
-[Health and Safety meeting attendee form](hs-safety-meeting-attendee-form.md)
+[Health and Safety meeting attendee form]()
 

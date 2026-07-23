@@ -2,6 +2,7 @@
 title: Publish a TRM catalog to the knowledge base
 description: Publish a Technology Reference Model \(TRM\) catalog to the ServiceNow Knowledge Base, making approved technology standards available for broader discovery and consumption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/publish-trm-cat-to-kb.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,15 +28,15 @@ When you publish a TRM catalog, the details such as products, lifecycle phases, 
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon ![Setup icon](../../image/eaw-image/setup-icon.png).
+2.  Open the Setup page by selecting the Setup icon \[Omitted image "setup-icon.png"\] Alt text: Setup icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Publishing Center**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Publishing Center**.
 
 4.  Select **All**.
 
 5.  Open the catalog that you want to publish or create a new configuration to publish.
 
-    For instructions to create a new configuration,see [Create a new configuration to publish TRM data](config-trm-data-to-publish.md).
+    For instructions to create a new configuration,see [Create a configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/config-trm-data-to-publish.md).
 
     **Note:** If you plan to publish a public catalog for guest users, ensure that your knowledge portal is configured to allow public access. Publishing applies knowledge base access settings based on the access type selected for the catalog.
 
@@ -50,20 +51,20 @@ After publishing, you can see the following changes on the **Details** tab:
 -   The **Status** field value is changed to **Published**.
 -   The **Catalog link** field displays a URL to the published catalog.
 
-**Parent Topic:**[Working with the publishing center](../../concept/eaw-concept/working-with-publishing-center.md)
+**Parent Topic:**[Working with the publishing center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/working-with-publishing-center.md)
 
 **Related topics**  
 
 
-[Working with the publishing center](../../concept/eaw-concept/working-with-publishing-center.md)
+[Working with the publishing center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/working-with-publishing-center.md)
 
-[Create a new configuration to publish TRM data](config-trm-data-to-publish.md)
+[Create a configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/config-trm-data-to-publish.md)
 
-[Edit a published TRM catalog configuration](modify-trm-cat-pub-config.md)
+[Edit a published TRM catalog configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/modify-trm-cat-pub-config.md)
 
-[Associate a portal with a knowledge base](associate-portal-to-trm-cat.md)
+[Associate a portal with a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/associate-portal-to-trm-cat.md)
 
-[Republish a TRM catalog after updates](republish-trm-cat.md)
+[Republish a TRM catalog after updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/republish-trm-cat.md)
 
-[Understanding the publishing results and knowledge base output](../../reference/eaw-reference/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/understand-publishing-output.md)
 

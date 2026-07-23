@@ -2,6 +2,7 @@
 title: SC Categories widget
 description: The SC Categories widget displays Service Catalog categories. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-categories-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -17,13 +18,13 @@ The SC Categories widget displays Service Catalog categories. You can use this b
 
 The system renders the categories available in this widget from the Categories table in Service Catalog \[sc\_category\].
 
-![Screenshot for the SC Categories widget](../../../product/service-catalog-management/image/CategoryWidget.png "SC Categories widget")
+\[Omitted image "CategoryWidget.png"\] Alt text: Screenshot for the SC Categories widget
 
 If you associate your portal with multiple catalogs, then the SC Categories widget also includes a menu to select which catalog to browse.
 
-![Menu to select a catalog](../../../product/service-catalog-management/image/sc-categories-menu.png)
+\[Omitted image "sc-categories-menu.png"\] Alt text: Menu to select a catalog
 
-For more information on associating your portal with catalogs, see [Configure a catalog in Service Portal](../task/associate-portal-catalog.md).
+For more information on associating your portal with catalogs, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
 
 ## Instance options
 
@@ -73,7 +74,7 @@ Category Layout
 
 </td><td>
 
-Select a flat or nested layout. A flat layout shows all of the available categories. A nested layout shows only the parent categories. Use a nested layout if you have a large number of categories to prevent an unnecessarily long list. Click ![Plus sign icon](../image/Expand.png) that appears next to a category with nested topics to expand the sub-categories.The widget only supports three levels of nesting. After level four, categories appear in the flat view.
+Select a flat or nested layout. A flat layout shows all of the available categories. A nested layout shows only the parent categories. Use a nested layout if you have a large number of categories to prevent an unnecessarily long list. Click \[Omitted image "Expand.png"\] Alt text: Plus sign icon that appears next to a category with nested topics to expand the sub-categories.The widget only supports three levels of nesting. After level four, categories appear in the flat view.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -110,48 +111,48 @@ Verifies with each item that the user has the right roles to view the catalog it
 -   Omit badges: True
 -   Check canView per item: False
 
-**Parent Topic:**[Service Catalog widgets](sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
 
-[Catalog Content widget](catalog-content-widget.md)
+[Catalog Content widget]()
 
-[Catalog Homepage Search widget](cat-homepage-search-widget.md)
+[Catalog Homepage Search widget]()
 
-[Recent &amp; Popular Items widget](recent-and-popular-items-widget.md)
+[Recent &amp; Popular Items widget]()
 
-[Request Fields widget](request-fields-widget.md)
+[Request Fields widget]()
 
-[Requested Items widget](requested-items-widget.md)
+[Requested Items widget]()
 
-[Requests and Approvals widget](requests-and-approvals-widget.md)
+[Requests and Approvals widget]()
 
-[SC Catalog Item widget](sc-catalog-item-widget.md)
+[SC Catalog Item widget]()
 
-[SC Category Page widget](sc-category-page-widget.md)
+[SC Category Page widget]()
 
-[SC Order Guide widget](sc-order-guide-widget.md)
+[SC Order Guide widget]()
 
-[SC Popular Items widget](sc-popular-items.md)
+[SC Popular Items widget]()
 
-[SC Save Bundles widget](save-bundles-widget.md)
+[SC Save Bundles widget]()
 
-[SC Saved Carts widget](saved-cart-widget.md)
+[SC Saved Carts widget]()
 
-[SC Scroll to top widget](sc-scroll-to-top.md)
+[SC Scroll to top widget]()
 
-[SC Shopping Cart widget](sc-shopping-cart.md)
+[SC Shopping Cart widget]()
 
-[SP Variable Editor widget](variable-editor-widget.md)
+[SP Variable Editor widget]()
 
-[SC Wish List Cart widget](sc-wish-list.md)
+[SC Wish List Cart widget]()
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 
-[Access Service Catalog categories in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/access-categories-portal.md)
+[Access Service Catalog categories in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/access-categories-portal.md)
 

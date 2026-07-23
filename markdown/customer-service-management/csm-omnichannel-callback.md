@@ -2,10 +2,11 @@
 title: Using Omnichannel Callback for Customer Service Management
 description: The ServiceNow Omnichannel Callback for Customer Service Management app enables a callback option for customers when there's a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CSM Configurable Workspace
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-omnichannel-callback.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
 
@@ -13,7 +14,9 @@ breadcrumb: [Customer communication, Use, Customer Service Management]
 
 The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there's a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CSM Configurable Workspace
 
-For more information, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback/omnichannel-callback.md).
+For more information, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback.md).
+
+**Note:** Prerequisite for CCaaS callbacks: Verify that agents are configured through their contact center integration to receive callbacks and access the ServiceNow Workspace. Agent profiles are synced automatically when agents log in through the contact center connector in OpenFrame. For example, an agent must be able to log in to both the contact center and ServiceNow workspace. The agent presence state must match between both systems, as callbacks only route to available agents. In some cases, the state "available" might be labeled differently in the contact center, such as "on queue." Presence mismatches can prevent agents from receiving callbacks.
 
 ## Callback flow
 
@@ -30,7 +33,7 @@ The callback workflow proceeds as follows:
     -   If the customer doesn't accept the call, the agent can retry the callback later.
 8.  The agent can decide to close the interaction or queue the callback again manually from the workspace.
 
-![Callback flow diagram](../image/callback-flow-diagram.png "Callback flow diagram")
+\[Omitted image "callback-flow-diagram.png"\] Alt text: Callback flow diagram
 
 ## Callback requests
 
@@ -57,7 +60,7 @@ In addition to customer-scheduled callbacks, agents can now create callbacks on 
 
 The following diagram shows the agent-scheduled callback workflow.
 
-![](../image/agent-scheduled-callback-workflow.png "Agent-scheduled callback flow")
+\[Omitted image "agent-scheduled-callback-workflow.png"\] Alt text: Agent-scheduled callback flow
 
 -   **Agent-scheduled callback workflow**
 
@@ -75,7 +78,7 @@ Customers can request a callback during a chat on Virtual Agent or Engagement Me
 **Related topics**  
 
 
-[Working with callback requests from customers](request-callback-from-agent.md)
+[Working with callback requests from customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-callback-from-agent.md)
 
-[Callback requests by agents](callback-requests-agents-customer.md)
+[Callback requests by agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/callback-requests-agents-customer.md)
 

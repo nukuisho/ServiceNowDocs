@@ -2,6 +2,7 @@
 title: View all application services
 description: View the list of all application services in the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-app-services.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,17 +22,17 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by clicking the Portfolio icon \(![Portfolio icon](../../image/portfolio-icon.png)\).
+2.  Open the Portfolio List view by clicking the Portfolio icon \(\[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon\).
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Application Portfolio**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Application Portfolio**.
 
 4.  Select **Application Services**.
 
 
-**Parent Topic:**[Working with an application portfolio](../../concept/eaw-concept/eaw-work-with-application-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 
 
-[Add or edit an application service in the Enterprise Architecture Workspace](eaw-add-appl-service.md)
+[Add or edit an application service in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-appl-service.md)
 

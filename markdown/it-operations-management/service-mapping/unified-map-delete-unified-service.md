@@ -2,6 +2,7 @@
 title: Delete a unified service
 description: Delete a unified service using the Service Mapping workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/unified-map-delete-unified-service.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -18,7 +19,7 @@ Delete a unified service using the Service Mapping workspace.
 
 ## About this task
 
-[Multi-source service mapping](../concept/multi-source-service-mapping.md)
+[Multi-source service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/multi-source-service-mapping.md)
 
 ## Before you begin
 
@@ -26,7 +27,7 @@ You must have at least Australia platform version installed.
 
 You must have the latest version of Service Mapping Plus.
 
-[Create a service instance from various data sources](unified-map-create-service-instance.md)
+[Create a service instance from various data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-create-service-instance.md)
 
 Role required: service\_mapping\_admin
 
@@ -42,17 +43,17 @@ Role required: service\_mapping\_admin
 
 4.  Select **Delete service**.
 
-    ![](../image/delete-unified-service.png)
+    \[Omitted image "delete-unified-service.png"\] Alt text: Delete service button on the Add service details page
 
 
 ## Result
 
 The service is deleted. The UI is redirected to the home page. Child services remain non-operational.
 
-**Parent Topic:**[Using Service Mapping](../concept/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
 
 **Related topics**  
 
 
-[Edit a unified service](unified-map-edit-unified-service.md)
+[Edit a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)
 

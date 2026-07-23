@@ -2,6 +2,7 @@
 title: Add a target for goal
 description: Create SMART targets for goals to track and measure the progress of your goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/set-target-for-goal-strategy.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -21,9 +22,9 @@ Role required: sn\_apw\_advanced.spw\_goal\_user
 
 ## About this task
 
-If you’re using Now Assist for SPM, you can use the Target generation skill to generate targets for a goal. The skill uses the goal’s details and provided context to create a precise target for the goal. The more specific the input, the stronger the recommendations. For details, see [Generate targets for a goal in Strategic Planning Workspace using Now Assist for SPM](../../now-assist-spm/task/generate-targets-for-goal.md).
+If you’re using Now Assist for SPM, you can use the Target generation skill to generate targets for a goal. The skill uses the goal’s details and provided context to create a precise target for the goal. The more specific the input, the stronger the recommendations. For details, see [Generate targets for a goal in Strategic Planning Workspace using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-targets-for-goal.md).
 
-Configuring a target source for your target updates the **Actuals to date** field on the Target form automatically. For more information on target automation, see [Target actuals automation in Strategic Planning](../../spw-goals/concept/target-actuals-automation-spw.md).
+Configuring a target source for your target updates the **Actuals to date** field on the Target form automatically. For more information on target automation, see [Target actuals automation in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-actuals-automation-spw.md).
 
 A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R = Relevant, and T = Time-bound.
 
@@ -42,23 +43,23 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 
 3.  Add a target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d138780e146">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d141095e142">
 
 Option
 
-</th><th align="left" id="d138780e149">
+</th><th align="left" id="d141095e145">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d138780e155">
+</th></tr></thead><tbody><tr><td id="d141095e151">
 
 **From the Goals page**
 
 </td><td>
 
-Next to the goal that you want to add a target for, select the row context menu icon \(![Row context menu icon.](../../alignment-planner-workspace/images/action-menu-icon.png)\) and select **Add target**.
+Next to the goal that you want to add a target for, select the row context menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Row context menu icon.\) and select **Add target**.
 
-</td></tr><tr><td id="d138780e173">
+</td></tr><tr><td id="d141095e169">
 
 **From the Strategy page**
 
@@ -80,7 +81,7 @@ The goal details page opens.
 </td></tr></tbody>
 </table>4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Target form](../../spw-goals/reference/target-form-egm.md).
+    For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md).
 
 5.  Select **Save**.
 
@@ -95,20 +96,20 @@ The target progress records are automatically created when you save the target p
 
 ## What to do next
 
-[Update the progress of the target](update-progress-of-target-strategy.md) manually if the target isn’t enabled for target automation.
+[Update the progress of the target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/update-progress-of-target-strategy.md) manually if the target isn’t enabled for target automation.
 
 **Related topics**  
 
 
-[Create a goal](create-goal-strategy.md)
+[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
 
-[Duplicate a goal or target](duplicate-goal-target-strategy.md)
+[Duplicate a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/duplicate-goal-target-strategy.md)
 
-[Align work with a goal or target](associate-work-with-goals-strategy.md)
+[Align work with a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/associate-work-with-goals-strategy.md)
 
-[Create a strategic plan](create-strategic-plan-strategy.md)
+[Create a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-strategic-plan-strategy.md)
 
-[Create a strategic priority](create-strategic-priority-strategy.md)
+[Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-strategic-priority-strategy.md)
 
-[Send a reminder for target actuals check in](send-reminder-target-checkin-strategy.md)
+[Send a reminder for target actuals check in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/send-reminder-target-checkin-strategy.md)
 

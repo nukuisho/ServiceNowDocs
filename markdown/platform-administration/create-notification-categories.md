@@ -2,6 +2,7 @@
 title: Create notification categories
 description: You can create notification categories to identify and group related notifications that are listed in the notification settings for your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-notification-categories.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,30 +41,30 @@ Before adding new categories, review the base system notification categories in 
 
 The system adds the new category to the Notification Categories \[sys\_notification\_category\] table. After you create at least one, active notification that uses the new category, the category and notification are listed in the Notification preferences for users \(**User Menu** &gt; **Preferences** &gt; **Notifications** &gt; **System Notifications**\).
 
-**Parent Topic:**[Email and SMS notifications](../concept/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 
 
-[Create an email notification](t_CreateANotification.md)
+[Create an email notification]()
 
-[Email notifications dashboard](../concept/email-notifications-dashboard.md)
+[Email notifications dashboard]()
 
-[Email diagnostics dashboard](../concept/email-diagnostics-dashboard.md)
+[Email diagnostics dashboard]()
 
-[Email templates](../concept/c_EmailTemplates.md)
+[Email templates]()
 
-[Email layouts](../concept/email-layouts.md)
+[Email layouts]()
 
-[Email retention](../concept/email-retention.md)
+[Email retention]()
 
-[Watermarks on notification emails](../concept/c_WorkingWithWatermarks.md)
+[Watermarks on notification emails]()
 
-[Parse an email thread](parse-email.md)
+[Parse an email thread]()
 
-[Email digests](../concept/email-digests.md)
+[Email digests]()
 
-[Domain separation and Notifications](../concept/domain-separation-notifications.md)
+[Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails](../concept/troubleshooting-notification-emails.md)
+[Email FAQs and troubleshooting notification emails]()
 

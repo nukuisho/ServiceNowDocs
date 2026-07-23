@@ -2,6 +2,7 @@
 title: Set up Threat Intelligence
 description: Before you run Threat Intelligence in your instance, you must download it from the ServiceNow Store. You can also set up properties and define a threat source.Before you run Threat Intelligence in your instance, you must download it from the ServiceNow Store.Several types of components are installed with activation of the Threat Intelligence plugin, including tables and user roles.Threat Intelligence properties allow you to control how different aspects of the system function, including the setting of API keys.You can maintain a list of Threat Intelligence threat sources. Each source includes the ability to define how often a source is queried. You can also execute a threat source on demand to import the needed Structured Threat Information eXpression \(STIX\) data.You can maintain TAXII profiles for sharing STIX-formatted information. Each profile contains one or more TAXII collections or feeds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/c\_GetStartedWithThreatIntel.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -43,12 +44,12 @@ The following roles are required for installation, configuration, and verificati
 
 ### Procedure
 
-1.  Follow the instructions for [downloading an application from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
+1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
 
 
 ### What to do next
 
-[Set Threat Intelligence properties](c_GetStartedWithThreatIntel.md#).
+[Set Threat Intelligence properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md).
 
 ### Components installed with Threat Intelligence
 
@@ -1026,23 +1027,34 @@ Option to define the duration after which the automated threat lookup of the obs
 
 </td></tr><tr><td>
 
-Set a validity duration for user overrides on observable finding. sn\_ti.enable\_observable\_finding\_system\_override
-
- **Note:** You need to define the validity in the next property \(sn\_ti.observable\_finding\_override\_expiry\).
+Observable finding override mode sn\_ti.observable\_finding\_override\_mode
 
 </td><td>
 
-Option to set a validity duration for user overrides on the observable findings. Threat lookup finding of the observable will not be changed by the base system during this validity duration.Default value: No.
-
-**Note:** If you're enabling this property, make sure that you are adding an appropriate value.
+Controls how user-set observable findings interact with system-calculated findings from threat lookups.-   **Default** — System always recalculates findings from threat lookup results.
+-   **Override** — User can override findings for a limited time. Configure the validity in the next property \(sn\_ti.observable\_finding\_override\_expiry\).
+-   **Precedence** — Findings follow a defined priority order. Upgrades are applied immediately; downgrades are deferred until the per-observable-type expiry window elapses.
+Default value: default
 
 </td></tr><tr><td>
 
 Validity \(in minutes\)sn\_ti.observable\_finding\_override\_expiry
 
+ **Note:** Applicable only when the override mode is set to Override.
+
 </td><td>
 
-Option to define the validity period of the observable finding.Default value \(in minutes\): none
+Option to define the validity period of the observable finding. The system does not recalculate the finding during this period.Default value \(in minutes\): none
+
+</td></tr><tr><td>
+
+Observable finding precedence order sn\_ti.observable\_finding\_precedence\_order
+
+ **Note:** Applicable only when the override mode is set to Precedence.
+
+</td><td>
+
+Comma-separated list of finding values in precedence order. The first value in the list has the highest priority. Use the finding identifiers as defined on the observable finding field.Default value: Malicious,Suspicious,Unknown,Clean
 
 </td></tr><tr><td>
 
@@ -1282,15 +1294,15 @@ Role required: sn\_ti.admin
 
 5.  Fill in the fields in the **Collection Service Configuration** section, as appropriate.
 
-<table id="choicetable_fn4_l4l_wmb"><thead><tr><th align="left" id="d72558e2686">
+<table id="choicetable_fn4_l4l_wmb"><thead><tr><th align="left" id="d74047e2716">
 
 Field
 
-</th><th align="left" id="d72558e2689">
+</th><th align="left" id="d74047e2719">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d72558e2695">
+</th></tr></thead><tbody><tr><td id="d74047e2725">
 
 **Collection Info Service endpoint**
 
@@ -1298,7 +1310,7 @@ Description
 
 A TAXII Collection is an interface to a logical repository of CTI objects provided by a TAXII Server and is used by TAXII Clients to send information to the TAXII Server or request information from the TAXII Server. A TAXII Server can host multiple Collections per API Root, and Collections are used to exchange information in a request–response manner.
 
-</td></tr><tr><td id="d72558e2707">
+</td></tr><tr><td id="d74047e2737">
 
 **Use REST message**
 
@@ -1306,7 +1318,7 @@ A TAXII Collection is an interface to a logical repository of CTI objects provid
 
 Select this option if you require a REST message to access the TAXII profile. The **Collection Info Service REST message** and **Collection Info Service REST method** fields become required.
 
-</td></tr><tr><td id="d72558e2722">
+</td></tr><tr><td id="d74047e2752">
 
 **Collection Info Service REST message**
 
@@ -1314,7 +1326,7 @@ Select this option if you require a REST message to access the TAXII profile. Th
 
 Click the lookup icon, and select the REST message from the list or click **New** to define a new REST message.
 
-</td></tr><tr><td id="d72558e2734">
+</td></tr><tr><td id="d74047e2764">
 
 **Collection Info Service REST method**
 

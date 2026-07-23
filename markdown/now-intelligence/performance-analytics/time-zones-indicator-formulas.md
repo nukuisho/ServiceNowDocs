@@ -2,6 +2,7 @@
 title: Changes to score\_start/end because of different user time zones
 description: For formula indicators, the values of the variables score\_start and score\_end are calculated based on the time zone of the user who is executing the formula. If users in different time zones execute the same formula, the values of score\_start and score\_end change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/time-zones-indicator-formulas.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -33,24 +34,24 @@ Three different users view a dashboard widget with this formula indicator on 18 
 -   One user is in the US/Pacific time zone. Their `score_end` value is "2019-10-19 06:59:59", and the score for the date 19 October is returned.
 -   One user is in the GMT time zone. Their `score_end` value matches the database server, "2019-10-18 23:59:59", and the score for the date 18 October is returned.
 
-**Parent Topic:**[Formula indicators](formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 
 
-[Create a formula indicator](../task/t_CreateAFormulaIndicator.md)
+[Create a formula indicator]()
 
-[Get analytics methods in formulas](../task/get-indicator-analytics.md)
+[Get analytics methods in formulas]()
 
-[Prevent a contributing indicator in a formula from following breakdowns](c_ExcludingBreakdownsFromFormulas.md)
+[Prevent a contributing indicator in a formula from following breakdowns]()
 
-[Breakdown matrices in formula indicators](bkdown-matrix-formula-indicators.md)
+[Breakdown matrices in formula indicators]()
 
-[Applying time series to result or to contributing indicators](apply-time-series-result-components.md)
+[Applying time series to result or to contributing indicators]()
 
-[Detect indicators with no scores in a formula](../task/detect-indicators-no-scores-formula.md)
+[Detect indicators with no scores in a formula]()
 
-[Indexing multiple indicators in a formula](index-indicators.md)
+[Indexing multiple indicators in a formula]()
 
-[Performance Analytics variables](pa-scripts.md#)
+[Performance Analytics variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-scripts.md)
 

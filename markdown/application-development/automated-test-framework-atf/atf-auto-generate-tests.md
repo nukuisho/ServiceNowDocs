@@ -2,6 +2,7 @@
 title: Auto-generate ATF tests
 description: Auto-generate ATF tests by selecting the auto-generate option either from the Auto-generate Tests module or Tests/Suites modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-auto-generate-tests.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -23,15 +24,15 @@ Role required: admin
 
 1.  Access the Auto-generate Tests feature using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d222117e53">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d218893e53">
 
 Option
 
-</th><th align="left" id="d222117e56">
+</th><th align="left" id="d218893e56">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d222117e62">
+</th></tr></thead><tbody><tr><td id="d218893e62">
 
 **Using Auto-generate Tests module**
 
@@ -45,7 +46,7 @@ Steps
 
 **Note:** The ATF Test Generator and Cloud Runner store app page shows up.
 
-</td></tr><tr><td id="d222117e99">
+</td></tr><tr><td id="d218893e99">
 
 **Using Tests or Suites module**
 
@@ -65,14 +66,14 @@ Steps
     **Note:** This step is applicable only if the store app is not installed on your instance. You will be redirected to install the store app.
 
 
-**Parent Topic:**[Automated Test Framework \(ATF\) test building and execution](../concept/atf-test-build-execution.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test building and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-build-execution.md)
 
 **Related topics**  
 
 
-[Building and running automated tests with the Automated Test Framework](../concept/atf-build-overview.md)
+[Building and running automated tests with the Automated Test Framework]()
 
-[Building and running automated test suites](../concept/atf-suites-overview.md)
+[Building and running automated test suites]()
 
-[Cancelling automated tests and test suites](../concept/atf-cancelling.md#)
+[Cancelling automated tests and test suites]()
 

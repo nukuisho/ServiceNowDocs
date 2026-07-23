@@ -2,6 +2,7 @@
 title: Configure conditions to send reminder notifications for expiring contracts
 description: Configure contract repository rules to determine the expiration conditions under which reminder notifications for expiring contracts are sent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-rem-exp-cont.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -43,9 +44,9 @@ Role required: sn\_cm\_core.contract\_admin
 
     3.  On the form, fill in the fields.
 
-        ![Conditions for expiration reminders.](../image/cmpro-exp-reminder.png "Condition checks for reminders")
+        \[Omitted image "cmpro-exp-reminder.png"\] Alt text: Conditions for expiration reminders.
 
-        For more information on these fields, see [Expiring Contracts Condition form fields](../reference/cncore-email-notif-expcont-form.md).
+        For more information on these fields, see [Expiring Contracts Condition form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-email-notif-expcont-form.md).
 
     4.  Select **Submit**.
 
@@ -66,28 +67,30 @@ Role required: sn\_cm\_core.contract\_admin
 
 ## Result
 
-The contract expiration reminders will trigger based on the defined conditions for contract repository. For more information on configuring contract repository, see [Create a contract configuration](cncore-contract-config.md).
+The contract expiration reminders will trigger based on the defined conditions for contract repository. For more information on configuring contract repository, see [Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contract-config.md).
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](../concept/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace](../concept/cncore-conf-cntrct-wrkspc.md)
+[Configuring Contract Workspace]()
 
-[Configure signature pause duration when modifying signatories](cncore-pause-sig-property.md)
+[Configure signature pause duration when modifying signatories]()
 
-[Auto-populate the start date and end date for contract requests](cncore-conf-start-end-date-for-cntrcts.md)
+[Auto-populate the start date and end date for contract requests]()
 
-[Activate a system property to generate a certificate of completion](cncore-config-system-prop-COC.md)
+[Enable signatory roles]()
 
-[Enable users to view email details in activity stream](cncore-enbl-user-email-astream.md)
+[Activate a system property to generate a certificate of completion]()
 
-[Enable keyword search for contract templates](cncore-enable-search-cont-tmplts.md)
+[Enable users to view email details in activity stream]()
 
-[Configuring contract summarization for Contract Management Pro](cmpro-conf-cntr-summary.md)
+[Enable keyword search for contract templates]()
 
-[Copy fields from parent request to amendment request](cncore-cpy-fld-parent-amedreq.md)
+[Configuring contract summarization for Contract Management Pro]()
 
-[Manage notifications in Contract Management Pro](../concept/cmpro-manage-notifications.md)
+[Copy fields from parent request to amendment request]()
+
+[Manage notifications in Contract Management Pro]()
 

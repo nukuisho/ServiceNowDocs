@@ -2,10 +2,11 @@
 title: Review and approve service qualification requests
 description: Review and approve customer orders captured through the Technical Service Qualification API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-tsq-approve.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Service qualification requests, Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -21,7 +22,7 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Service Orders** &gt; **All**.
 
@@ -37,7 +38,7 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
 
     **Note:** The **Qualify Order** option is available only on the top order line items in the hierarchy.
 
-    -   The Result field is updated to **Pending** and the [Process Qualification Request subflow](../reference/order-mgt-tsq-subflow.md) subflow is launched. After the subflow has been executed, depending on the response from the external inventory system, the Customer Order Result field is updated to one of the following:
+    -   The Result field is updated to **Pending** and the [Process Qualification Request subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-subflow.md) subflow is launched. After the subflow has been executed, depending on the response from the external inventory system, the Customer Order Result field is updated to one of the following:
         -   Qualified: Requested service is available.
         -   Alternate: Requested service is not available but an alternate proposal is available.
         -   Unqualified: Requested service and alternate proposals are not available.
@@ -84,5 +85,12 @@ Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.o
         -   Result: Can be None, Qualified, Unqualified, Alternate, or Pending.
         -   Unavailability reason
 
-**Parent Topic:**[Service qualification requests](../concept/order-mgt-tsq-about.md)
+**Parent Topic:**[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-about.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

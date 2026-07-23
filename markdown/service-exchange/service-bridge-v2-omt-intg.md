@@ -2,6 +2,7 @@
 title: Integration with Sales Customer Relationship Management
 description: Providers can use Service Exchange to publish their product offers to a consumer using a Service Exchange Remote Record Producer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-omt-intg.html
 release: australia
 product: Service Exchange
 classification: service-exchange

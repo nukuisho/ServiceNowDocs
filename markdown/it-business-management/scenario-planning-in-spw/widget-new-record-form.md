@@ -1,7 +1,8 @@
 ---
 title: Widget New Record form
-description: Use these form fields to create a new widget for your project administration.
+description: Use these form fields to create widget for your project administration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/widget-new-record-form.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -13,7 +14,7 @@ breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio
 
 # Widget New Record form
 
-Use these form fields to create a new widget for your project administration.
+Use these form fields to create widget for your project administration.
 
 <table id="table_osc_b4b_xhc"><thead><tr><th>
 
@@ -106,5 +107,5 @@ Short description
 Description of the widget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](../../alignment-planner-workspace/reference/form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

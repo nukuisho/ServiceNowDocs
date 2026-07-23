@@ -2,6 +2,7 @@
 title: Configure integration services for Coupa
 description: Configure integration services for Coupa. Provide the connection end point and the Coupa ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/configure-integration-services-coupa.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -15,12 +16,12 @@ breadcrumb: [Configure, Source-to-Pay integration with Coupa, Integration with t
 
 Configure integration services for Coupa. Provide the connection end point and the Coupa ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 
-Configure integration services for Coupa 
+\[Omitted video\] Description: Configure integration services for Coupa
 
 ## Before you begin
 
 -   Verify that the application scope is set to Coupa spoke.
--   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
+-   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md).
 
     **Note:** The MID Server integration is required only for a Coupa integration using SOAP services.
 
@@ -42,7 +43,7 @@ If the application requires multiple Coupa ERP instances, create separate web se
 
 3.  In the Integration Services list, select the service that you want to configure.
 
-    ![Look up Legal Entities from Coupa](../../source-to-pay-operations/image/coupa-fulllpull.png "Look up Legal Entities from Coupa")
+    \[Omitted image "coupa-fulllpull.png"\] Alt text: Look up Legal Entities from Coupa
 
 4.  On the integration service record, fill in the fields.
 
@@ -139,16 +140,16 @@ Order in which the entity should be displayed.
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Configure Source-to-Pay integration with Coupa](../concept/configuring-source-to-pay-coupa-integration.md)
+**Parent Topic:**[Configure Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-coupa-integration.md)
 
 **Related topics**  
 
 
-[ERP Source Configuration for Coupa](../concept/erp-source-configuration-coupa.md)
+[ERP Source Configuration for Coupa]()
 
-[Define an ERP source configuration for Coupa](define-erp-source-coupa.md)
+[Define an ERP source configuration for Coupa]()
 
-[Activate the schedule flows](activate-schedule-flows-coupa.md)
+[Activate the schedule flows]()
 
-[Looking up primary data in Coupa](../concept/look-up-primary-data-coupa.md)
+[Looking up primary data in Coupa]()
 

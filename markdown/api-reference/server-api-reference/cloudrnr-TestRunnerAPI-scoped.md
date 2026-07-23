@@ -1,7 +1,8 @@
 ---
 title: Cloud Runner TestRunnerApi – Scoped, Global
-description: Manages tests to be executed in a cloud runner for Automated Test Framework \(ATF\). This API is part of the CloudRunnerApi script include.Sets the test runner job to complete status and cancels the root trackers of any generated tests that are running.Provides the status of each test ran for a provided Browser Orchestration Queue \(BOQ\) record.Starts an ATF test or a test suite on the Cloud Runner browser.
+description: Manages tests to be executed in a cloud runner for Automated Test Framework \(ATF\). This API is part of the CloudRunnerApi script include.Sets the test runner job to complete status and cancels any generated tests that are running.Provides the status of each test ran for a provided Browser Orchestration Queue \(BOQ\) record.Starts an ATF test or a test suite on the Cloud Runner browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/cloudrnr-TestRunnerAPI-scoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -21,44 +22,47 @@ You can use this API for the following tasks:
 -   Check the progress of the test job.
 -   Cancel the test job.
 
-In global scope, this API is executed within the sn\_atf\_tg namespace. You must have the [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-intro.md) \(sn\_atf\_tg\) plugin activated to use this API.
+In global scope, this API is executed within the sn\_atf\_tg namespace. You must have the [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-intro.md) \(sn\_atf\_tg\) plugin activated to use this API.
 
 See also:
 
--   [Cloud Runner TestGenerationApi – Scoped, Global](../../CloudRunnerAPI-TestGenerationAPIScoped/concept/cloudrnr-TestGenerationAPI-scoped.md#)
--   [Cloud Runner TestUserApi – Scoped, Global](../../CloudRunnerAPI-TestUserAPIScoped/concept/cloudrnr-TestUserAPI-scoped.md#)
--   [Cloud Runner Test User REST API](../../../../../integrate/inbound-rest/concept/cloudrunner-testuser-api.md#)
+-   [Cloud Runner TestGenerationApi – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/cloudrnr-TestGenerationAPI-scoped.md)
+-   [Cloud Runner TestUserApi – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/cloudrnr-TestUserAPI-scoped.md)
+-   [Cloud Runner Test User REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cloudrunner-testuser-api.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## TestRunnerApi – cancelJob\(String snboqId\)
 
-Sets the test runner job to complete status and cancels the root trackers of any generated tests that are running.
+Sets the test runner job to complete status and cancels any generated tests that are running.
 
 |Name|Type|Description|
 |----|----|-----------|
-|snboqId|String|Required. The sys\_id of the BOQ record in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table.|
+|snboqId|String|Sys\_id of the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] record associated with the test runner job to cancel.|
 
 |Type|Description|
 |----|-----------|
 |null|Null if successful, error message otherwise.|
 
-The following example shows how to start a test run an ATF test, display the progress, and stop the test run. In the global scope, use the sn\_atf\_tg namespace.
+The following example shows how to cancel a test job using snboqId:
 
 ```
-var snboqId = CloudRunnerAPI.TestRunnerAPI.startJob({
-	"testId": "<sys_id>"
-});
+var testRunnerApi = new sn_atf_tg.TestRunnerApi();
 
-gs.info(JSON.stringify(CloudRunnerAPI.TestRunnerAPI.progress({"snboqId": snboqId})));
+// Cancel job using snboqId
+var cancelResult = testRunnerApi.cancelJob('f6e5d4c3b2a1908070605040302010ab', null);
 
-CloudRunnerAPI.TestRunnerAPI.cancelJob({"snboqId": snboqId});
+if (cancelResult.status === 'success') {
+  gs.info('Test job cancelled successfully');
+} else {
+  gs.error('Failed to cancel test job: ' + cancelResult.message);
+}
 ```
 
 Output:
 
 ```
-{progress: 64, state: running}
+Test job cancelled successfully
 ```
 
 ## TestRunnerApi – progress\(String snboqId\)
@@ -67,7 +71,7 @@ Provides the status of each test ran for a provided Browser Orchestration Queue 
 
 |Name|Type|Description|
 |----|----|-----------|
-|snboqId|String|Required. The sys\_id of the BOQ record in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table.|
+|snboqId|String|Sys\_id of the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] record associated with the test runner job to retrieve.|
 
 <table id="table_fpx_lv4_g1c" class="returns"><thead><tr><th>
 
@@ -104,14 +108,14 @@ Object.state
 
 </td><td>
 
-State of the BOQ record.Possible values:
+State of the record.Possible values:
 
--   Pending – The requested test activity has been created and is waiting to be executed.
--   Processing – The instance is scanning for records to ensure that the execution trackers are marked for cloud runner before the request is sent to the cloud infrastructure.
--   Browsers requested – A request has been sent to the cloud infrastructure to start browsers for test generation or test running.
--   Running – Cloud infrastructure browsers find and execute pending tests.
--   Completed – The test task is complete.
--   Failed state – The test task failed.
+-   `Pending`: The requested test activity has been created and is waiting to be executed.
+-   `Processing`: The instance is scanning for records to ensure that the execution trackers are marked for cloud runner before the request is sent to the cloud infrastructure.
+-   `Browsers requested`: A request has been sent to the cloud infrastructure to start browsers for test generation or test running.
+-   `Running`: Cloud infrastructure browsers find and execute pending tests.
+-   `Completed`: The test task is complete.
+-   `Failed state`: The test task failed.
 
 Type: String
 
@@ -121,8 +125,8 @@ Error
 
 </td><td>
 
-If unsuccessful, possible error messages:-   No BOQ ID passed in – The JSON object provided doesn’t have a BOQ ID entry. Verify that the JSON object is structured as `{snboqId: "<sys_id>"}`.
--   Invalid BOQ sys\_id passed in – The ID provided must be for a BOQ record in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table.
+If unsuccessful, possible error messages:-   No sys\_id passed in – The JSON object provided doesn’t have a BOQ ID entry. Verify that the JSON object is structured as `{snboqId: "<sys_id>"}`.
+-   Invalid sys\_id passed in – The ID provided must be for a BOQ record in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table.
 
 </td></tr></tbody>
 </table>The following example shows how to start a test run an ATF test, display the progress, and stop the test run. In the global scope, use the sn\_atf\_tg namespace.
@@ -169,13 +173,15 @@ String
 
 </td><td>
 
-Required. The sys\_id of the ATF test or test suite to be run in the Cloud Runner browser. Located in one of the following tables:-   Test \[sys\_atf\_test\]
+Sys\_id of the ATF test or test suite to be run in the Cloud Runner browser. Located in one of the following tables:
+
+-   Test \[sys\_atf\_test\]
 -   Test Suites \[sys\_atf\_test\_suite\]
 
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|String|The sys\_id of the BOQ record in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table.|
+|String|Returns the sys\_id of the BOQ record in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table.|
 
 The following example shows how to start a test run an ATF test, display the progress, and stop the test run. In the global scope, use the sn\_atf\_tg namespace.
 

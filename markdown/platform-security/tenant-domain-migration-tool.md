@@ -2,6 +2,7 @@
 title: Domain Migration Tool
 description: Use the Domain Migration Tool to move a customer from a domain-separated environment to their own dedicated instance.Move a customer from a domain-separated environment into their own dedicated instance environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/tenant-domain-migration-tool.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -89,7 +90,7 @@ Role required: admin
 
 1.  Elevate to the security\_admin role.
 
-    See [Elevate to a privileged role](../../security/task/t_ElevateToAPrivilegedRole.md) for details.
+    See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md) for details.
 
 2.  Navigate to **All** &gt; **Domain Admin** &gt; **Domain Migration Tool**.
 
@@ -110,7 +111,7 @@ Role required: admin
 
 7.  Navigate to **All** &gt; **Domain Separation Center** &gt; **Configure Audits** .
 
-    See [Domain Separation Center](../reference/domain-separation-center.md) for additional information.
+    See [Domain Separation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separation-center.md) for additional information.
 
 8.  Set the **Validate Domain Separated Table Schema** audit to **Active** and assign a schedule.
 
@@ -118,15 +119,15 @@ Role required: admin
 
 9.  Run the **Audit Schedule** that includes the schema.
 
-    See [Execute audits immediately](../task/execute-audits-immediately.md) for details.
+    See [Execute audits immediately](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/execute-audits-immediately.md) for details.
 
 10. Address issues returned from the audit.
 
-    ![Error example from schema check.](../image/validate-domain-schema-error.png)
+    \[Omitted image "validate-domain-schema-error.png"\] Alt text: Error example from schema check.
 
 11. Select **Start Migration**.
 
-    -   The execution tracker progress bar and the domain migration tool are triggered.![Domain migration progress bar.](../image/domain0migration-progress-bar.png)
+    -   The execution tracker progress bar and the domain migration tool are triggered.\[Omitted image "domain0migration-progress-bar.png"\] Alt text: Domain migration progress bar.
     -   The current progressing migrating table is displayed along with the total percentage of successfully migrated tables.
     -   The table where all of the domain separated tables are recorded with the migration status, total number of records in each table, and the number of records migrated.
     -   The count of tables where migration failed is also recorded.
@@ -189,20 +190,20 @@ Current Progressing Table
 Displays the name of the table that is currently being migrated. After successful migration, this field will be empty.
 
 </td></tr></tbody>
-</table>12. Select the **Click here** link on the Domain Migration Tool Status page to open the Execution Tracker.![Link to reopen the Domain Migration tool progress bar.](../image/relaunch-progress-bar.png)
+</table>12. Select the **Click here** link on the Domain Migration Tool Status page to open the Execution Tracker.\[Omitted image "relaunch-progress-bar.png"\] Alt text: Link to reopen the Domain Migration tool progress bar.
 
     You can also access the sys\_execution\_tracker table and look for **Running Migration on Tables** to check the migration process running in the background.
 
-13. Select **Show status** in the Related Links section to access the progress bar any time during the migration.![Displays the Show status link on the Execution Tracker.](../image/show-status-execution-tracker.png)
+13. Select **Show status** in the Related Links section to access the progress bar any time during the migration.\[Omitted image "show-status-execution-tracker.png"\] Alt text: Displays the Show status link on the Execution Tracker.
 
-    In the case that a table failed the schema check, the Migration Status of Domain Separated Tables overall status will be **Failed**.![The overall migration status shows failed.](../image/failed-status.png)
+    In the case that a table failed the schema check, the Migration Status of Domain Separated Tables overall status will be **Failed**.\[Omitted image "failed-status.png"\] Alt text: The overall migration status shows failed.
 
     There will be **Failed** entries for each corresponding table.
 
-    ![Displays the tables that failed the migration.](../image/domain-migration-failure-status-table.png)
+    \[Omitted image "domain-migration-failure-status-table.png"\] Alt text: Displays the tables that failed the migration.
 
-    The remainder of the migration continues and a summary of all failed tables and the total number of **Revisit Tables Count** will be populated in the Domain Migration Tool Status.![Shows the number of tables that failed and require a tables revisit count.](../image/revisit-tables-count.png)
+    The remainder of the migration continues and a summary of all failed tables and the total number of **Revisit Tables Count** will be populated in the Domain Migration Tool Status.\[Omitted image "revisit-tables-count.png"\] Alt text: Shows the number of tables that failed and require a tables revisit count.
 
-    The **Status** is **Finished Successfully** when the migration is complete. ![Shows successful migration status.](../image/migration-successful.png)
+    The **Status** is **Finished Successfully** when the migration is complete. \[Omitted image "migration-successful.png"\] Alt text: Shows successful migration status.
 
 

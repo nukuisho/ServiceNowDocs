@@ -2,6 +2,7 @@
 title: Space management
 description: The concept of space is part of the Facilities Service Management application. Space provides a definition at all levels with the same unit measure, and presents metrics that are readily available for analysis. These metrics include occupancy percentage, total space available, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_SpaceManagement.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -28,7 +29,7 @@ A natural hierarchy models all the spaces of your organization. You can use th
 
 You can create types of spaces as needed. New space definition tables extend the \[fm\_space\] table. Be sure to set the proper ACLs. The following graphic depicts how tables are related to one another.
 
-![Picture depicts order of tables as fm_campus, alm_building, fm_level, and fm_space and how they are extended](../image/SpaceHierarchy.png "Space table hierarchy")
+\[Omitted image "SpaceHierarchy.png"\] Alt text: Picture depicts order of tables as fm\_campus, alm\_building, fm\_level, and fm\_space and how they are extended
 
 ## Space roll up calculations
 
@@ -36,7 +37,7 @@ The Facilities Service Management application can roll up occupancy, area, and u
 
 When you designate a space as available for occupancy, you can also specify the maximum occupancy. Depending on the actual occupancy, a percentage appears to show how much space is available. A script include modifies the roll-up calculations.
 
-![image is a screenshot showing the available occupancy check box and dependant fields](../image/Occupiable.png "Available for occupancy selected and dependent fields")
+\[Omitted image "Occupiable.png"\] Alt text: image is a screenshot showing the available occupancy check box and dependant fields
 
 The values that roll up are:
 
@@ -60,12 +61,12 @@ You can assign spaces to more than one department for cost allocation and report
 
 The Associated Department \[fm\_m2m\_department\_to\_space\] table extends the fm\_space table, containing the relationship of departments and percentage ownership. A percentage automatically calculates after setting the weight for each department. A business rule sets the percentages based on weight so that the sum of percentages equals 100%.
 
--   **[GeoJSON map files](r_GeoJSONMapFiles.md)**  
+-   **[GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_GeoJSONMapFiles.md)**  
 The floor plan visualization feature uses files in the GeoJSON format, an open standard for representing geographical features.
--   **[Customer-created maps](r_Manually-builtMaps.md)**  
+-   **[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_Manually-builtMaps.md)**  
 Creating a map begins with the addition of the campus, then the buildings, floors, and other spaces.
--   **[Run transform to update data](../task/t_RunTransform.md)**  
+-   **[Run transform to update data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_RunTransform.md)**  
 Running a transform exports information from your records into an .xls file. That data can be imported into the ServiceNow space management application.
 
-**Parent Topic:**[Facilities Service Management overview](../concept/c_FacilitiesServiceManagement.md)
+**Parent Topic:**[Facilities Service Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesServiceManagement.md)
 

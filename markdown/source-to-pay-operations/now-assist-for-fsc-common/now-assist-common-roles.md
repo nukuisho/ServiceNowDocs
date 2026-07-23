@@ -2,12 +2,13 @@
 title: Now Assist roles for Common Finance and Supply Chain features
 description: Grant fulfiller, requester, and supplier user roles to access the Common Finance and Supply Chain features powered by generative AI along with the product specific Now Assist features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/now-assist-common-roles.html
 release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Explore, Features, Now Assist Finance Supply Chain, Finance and Supply Chain]
 ---
 
@@ -33,16 +34,16 @@ Grant fulfiller, requester, and supplier user roles to access the Common Finance
 |sn\_supplier\_gen\_ai.now\_assist\_fulfiller|Contains Now Assist fulfiller role to access generative AI features for Supplier Lifecycle Operations|sn\_fsc\_genai.now\_assist\_fulfiller|
 |sn\_supplier\_gen\_ai.now\_assist\_supplier|Contains Now Assist supplier role to access generative AI features for Supplier Collaboration Portal|sn\_fsc\_genai.now\_assist\_supplier|
 
-**Parent Topic:**[Explore Now Assist for Common Finance and Supply Chain features](now-assist-fsc-exploring.md)
+**Parent Topic:**[Explore Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-exploring.md)
 
 **Related topics**  
 
 
-[Supporting information for Now Assist for Common Finance and Supply Chain features](now-assist-fsc-supporting-info.md)
+[Supporting information for Now Assist for Common Finance and Supply Chain features]()
 
-[Now Assist for Sourcing and Procurement Operations \(SPO\)](now-assist-spo.md)
+[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 
-[Now Assist for Supplier Lifecycle Operations \(SLO\)](../../supplier-lifecycle-operations/concept/now-assist-slo.md)
+[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-slo.md)
 
-[Now Assist for Accounts Payable Operations \(APO\)](../../accounts-payable-operations/concept/now-assist-apo.md)
+[Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/now-assist-apo.md)
 

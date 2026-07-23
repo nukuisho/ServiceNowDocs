@@ -2,6 +2,7 @@
 title: Collaborate with stakeholders by using the sidebar
 description: Initiate a discussion with internal and external stakeholders, such as sales agents, solution consultants, and subject matter experts using sidebar integration with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-sidebars-teams.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,11 +18,11 @@ Initiate a discussion with internal and external stakeholders, such as sales age
 
 Role required: sales\_agent or sales\_manager
 
-Before using the sidebar integration, you must first complete configuring the sidebar integration with your opportunity. To learn more, see [Configuring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/configure-sidebar.md).
+Before using the sidebar integration, you must first complete configuring the sidebar integration with your opportunity. To learn more, see [Configuring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-sidebar.md).
 
 ## Procedure
 
-1.  Navigate to the **List** view ![](../../../reuse/icons/product-icons/list-outline-24.svg) and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with.
 
@@ -45,5 +46,12 @@ Before using the sidebar integration, you must first complete configuring the si
 
 Make your collaboration more effective by sharing emojis, messages, and attachments.
 
-**Parent Topic:**[Using Opportunity Management](../concept/opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+**Related topics**  
+
+
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

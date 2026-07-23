@@ -2,13 +2,14 @@
 title: Client script summarization
 description: Client script summarization uses Now Assist to create easy-to-understand explanations of client scripts within the UI Builder editor. This feature helps creators to learn what a script does without needing to read the complex code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/client-script-summarization.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Client script summarization
@@ -51,12 +52,12 @@ Client script summarization provides the following benefits:
     Creators with limited coding experience gain visibility into what scripts do, which helps them make informed decisions about whether to modify or replace a script.
 
 
-**Parent Topic:**[Exploring UI generation](exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-ui-generation.md)
 
 **Related topics**  
 
 
-[Summarize a client script using Now Assist](../task/client-script-summarization-generation.md)
+[Summarize a client script using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/client-script-summarization-generation.md)
 
-[Use case: Summarize a client script using Now Assist](use-case-client-script-summarization.md)
+[Use case: Summarize a client script using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/use-case-client-script-summarization.md)
 

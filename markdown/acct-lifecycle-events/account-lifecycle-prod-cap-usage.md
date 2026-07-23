@@ -2,23 +2,24 @@
 title: View product usage and capability data
 description: View the product usage and capability data for a specific sold product over a period of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-prod-cap-usage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer success, Use, Customer Success Management]
+breadcrumb: [Product adoption, Customer success, Use, Customer Success Management]
 ---
 
 # View product usage and capability data
 
 View the product usage and capability data for a specific sold product over a period of time.
 
-Product usage data provides insights into how customers interact with a product. It encompasses various metrics and data points that help understand how effectively a product is being adopted and used. This data helps customer success managers to analyze the data, identify areas for improvement, and make informed decisions. The data that appears on this page is configured using the DEC Insights Visualizations table. See [Configure DCE Visualizations](../task/account-lifecycle-configure-dce-visual.md) for details.
+Product usage data provides insights into how customers interact with a product. It encompasses various metrics and data points that help understand how effectively a product is being adopted and used. This data helps customer success managers to analyze the data, identify areas for improvement, and make informed decisions. The data that appears on this page is configured using the DEC Insights Visualizations table. See [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md) for details.
 
 1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
 2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workpace** and select the **List** icon.
 3.  Navigate to **Customer Success** &gt; **All Engagements** and select **Number** column to open the engagement record.
-4.  Navigate to the Product adoption tab. Select an engagement from the Sold products list and select ![](../../../reuse/icons/product-icons/open-link-right-outline-24.svg) to navigate to the Product usage page.
+4.  Navigate to the Product adoption tab. Select an engagement from the Sold products list and select \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to navigate to the Product usage page.
 
 This page contains the following tabs:
 
@@ -26,7 +27,7 @@ This page contains the following tabs:
 -   Child products
 -   Capabilities
 
-![Product capability usage](../image/product-cap-adopt.jpg)
+\[Omitted image "product-cap-adopt.jpg"\] Alt text: Product capability usage
 
 The Overview tab displays weekly breakdown data for the following metrics:
 
@@ -42,9 +43,9 @@ The Child products tab displays a list of all child products associated with the
 
 The Capabilities tab displays a list of all capabilities associated with the selected sold product. Select the Name to drill down to the Capability usage page.
 
-![Capability usage data](../image/cap-usage-data.jpg)
+\[Omitted image "cap-usage-data.jpg"\] Alt text: Capability usage data
 
 This page shows the capability adoption score over the last 12 weeks. The metrics that contribute the usage data are also displayed.
 
-**Parent Topic:**[Customer success](account-lifecycle-use-cust-success.md)
+**Parent Topic:**[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)
 

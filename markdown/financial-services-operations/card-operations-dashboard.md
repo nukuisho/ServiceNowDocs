@@ -2,6 +2,7 @@
 title: Dispute Management dashboard
 description: With the Dispute Management dashboard, you can get an insight into how your team and business are performing for the card service requests that were received for your financial services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/card-operations-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ You can monitor the status of card service cases from a single view. For any tim
 
 ## Access the Dispute Management dashboard
 
-To access the Dispute Management dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Dispute Management dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon\).
 
 Alternatively, you can navigate to **All** &gt; **Card Operations** &gt; **Analytics**.
 

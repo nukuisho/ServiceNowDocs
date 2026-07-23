@@ -2,10 +2,11 @@
 title: Cancel orders
 description: Cancel an inflight order, or order line item when a customer requests it or your internal personnel determine an order cancellation is necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-review-cust-order-detail.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Inflight order changes, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -19,13 +20,13 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 ## About this task
 
-You can only cancel orders that are in the In progress state. You can delete orders or order line items from orders that are in Draft or New states. To learn more, see [Delete orders](delete-orders.md).
+You can only cancel orders that are in the In progress state. You can delete orders or order line items from orders that are in Draft or New states. To learn more, see [Delete orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/delete-orders.md).
 
 ## Procedure
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All** or **Service Orders** &gt; **All** to cancel a product or service order respectively.
 
@@ -46,7 +47,14 @@ You can only cancel orders that are in the In progress state. You can delete ord
 
 ## What to do next
 
-A designated manager must approve the order cancellation. To learn more, see [Review and approve order revisions or cancellation requests](review-and-approve-or-decline-order-cancellation-requests.md).
+A designated manager must approve the order cancellation. To learn more, see [Review and approve order revisions or cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-and-approve-or-decline-order-cancellation-requests.md).
 
-**Parent Topic:**[Managing inflight order changes and cancellation requests](../concept/inflight-order-change-mgt-overview.md)
+**Parent Topic:**[Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

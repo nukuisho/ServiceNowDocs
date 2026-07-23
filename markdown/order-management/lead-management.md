@@ -2,6 +2,7 @@
 title: Lead Management
 description: The Lead Management application enables your sales agents and sales development representatives to create leads and nurture them into opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,9 +26,9 @@ The processes include:
 
 As sales agents move through the lead workflow and recognize interest from customers in buying products, it becomes essential to qualify or convert the lead. This process includes linking the lead to specific accounts and establishing lead qualification, which ultimately generates product orders.
 
-![Lead Management workflow that shows the lead entry to lead conversion.](../image/lead-management-som.svg "Lead workflow in Sales Customer Relationship Management")
+\[Omitted image "lead-management-som.svg"\] Alt text: Lead Management workflow that shows the lead entry to lead conversion.
 
-## Related links
+## What to explore next
 
-To learn about setting up Lead Management, see [Install and configure Lead Management](configure-lead-management.md).
+To learn about setting up Lead Management, see [Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md).
 

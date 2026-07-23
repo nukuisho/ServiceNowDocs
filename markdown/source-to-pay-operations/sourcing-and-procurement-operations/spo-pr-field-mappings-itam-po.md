@@ -2,6 +2,7 @@
 title: SPO PR field mappings to ITAM PO
 description: Lists the field mappings between SPO purchase purchase requisition \(PR\) records and ITAM purchase order \(PO\) records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-pr-field-mappings-itam-po.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,22 +28,22 @@ Fields in the SPO PR record align to fields in the ITAM PO and purchase order li
 |PR \(PRL\)|N/A|Delivery Location.Location|Ship To|N/A|
 |PR \(PRL\)|N/A|Total line amount|N/A|Total Cost|
 
-**Parent Topic:**[SPO and ITAM data model mappings](../concept/itam-spo-data-model.md)
+**Parent Topic:**[SPO and ITAM data model mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-data-model.md)
 
 **Related topics**  
 
 
-[SPO PO field mappings to ITAM PO](spo-po-field-mappings-itam-po.md)
+[SPO PO field mappings to ITAM PO]()
 
-[SPO PO state mappings to ITAM PO](spo-po-state-mappings-itam-po.md)
+[SPO PO state mappings to ITAM PO]()
 
-[SPO PR state mappings to ITAM PO](spo-pr-state-mappings-itam-po.md)
+[SPO PR state mappings to ITAM PO]()
 
-[SPO SR field mappings to ITAM PO](spo-sr-field-mappings-itam-po.md)
+[SPO SR field mappings to ITAM PO]()
 
-[SPO SR state mappings to ITAM PO](spo-sr-state-mappings-itam-po.md)
+[SPO SR state mappings to ITAM PO]()
 
-[ITAM shipment field and state mappings to SPO](itam-shipment-field-state-mappings-spo.md)
+[ITAM shipment field and state mappings to SPO]()
 
-[ITAM receipt field mappings to SPO receipt](itam-receipt-field-mappings-spo-receipt.md)
+[ITAM receipt field mappings to SPO receipt]()
 

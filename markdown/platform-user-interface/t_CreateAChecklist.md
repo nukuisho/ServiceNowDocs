@@ -2,6 +2,7 @@
 title: Create a checklist
 description: You can create a unique checklist for each task record. You can quickly create a checklist from a previously created template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateAChecklist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 3.  Complete one of the following steps.
 
-<table id="choicetable_zzd_cd3_xbb"><tbody><tr><td id="d104523e88">
+<table id="choicetable_zzd_cd3_xbb"><tbody><tr><td id="d104841e88">
 
 **To create a new checklist**
 
@@ -41,7 +42,7 @@ A template saves time by creating checklist items automatically. You can add, ed
 
 Select **Create new**.
 
-</td></tr><tr><td id="d104523e100">
+</td></tr><tr><td id="d104841e100">
 
 **To create a checklist by using a template**
 
@@ -60,7 +61,7 @@ Under **Create from template**, select a template. The checklist items in the te
 
 8.  Click the minus \(-\) icon to delete a checklist item.
 
-9.  Click the drag icon \(![Drag icon](../image/IconDrag.png)\) and drag a checklist item to a different position in the list.
+9.  Click the drag icon \(\[Omitted image "IconDrag.png"\] Alt text: Drag icon\) and drag a checklist item to a different position in the list.
 
 10. Save the checklist as a template for easy reuse.
 
@@ -83,12 +84,12 @@ Under **Create from template**, select a template. The checklist items in the te
 11. Save the form.
 
 
-**Parent Topic:**[Checklists](../concept/c_Checklists.md)
+**Parent Topic:**[Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Checklists.md)
 
 **Related topics**  
 
 
-[Activate checklists](t_ActivateChecklists.md)
+[Activate checklists]()
 
-[Delete checklist or a template](t_DeleteAChecklist.md)
+[Delete checklist or a template]()
 

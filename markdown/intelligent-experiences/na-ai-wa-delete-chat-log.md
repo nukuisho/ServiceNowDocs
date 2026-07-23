@@ -2,6 +2,7 @@
 title: Delete an AI agent chat log
 description: After you close an AI agent session, you can delete its chat if any sensitive information was captured. Deleting your chat log permanently erases the chat history of that session, including screenshots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/na-ai-wa-delete-chat-log.html
 release: australia
 topic_type: task
 last_updated: "2025-09-05"
@@ -24,7 +25,7 @@ Role required: now\_assist\_panel\_user
 
 As you're interacting with an AI agent, the text of your conversation with the AI agent is recorded in a chat log. The screenshots taken during the session are also recorded in the chat.
 
-While interacting with an AI agent in the Now Assist panel, the **Web view** tab displays the following notice from the title's information icon ![](../../../administer/now-assist-admin/image/info-icon.png):
+While interacting with an AI agent in the Now Assist panel, the **Web view** tab displays the following notice from the title's information icon \[Omitted image "info-icon.png"\]:
 
 **Screenshots are being captured by the system. You can delete the chat log if any sensitive information was captured.**
 
@@ -34,19 +35,19 @@ Review your chat log by selecting its title. Use the following procedure if you 
 
 ## Procedure
 
-1.  In the Now Assist panel, select the context menu icon ![](../../../administer/document-intelligence/image/icon-docintel-additional-actions.png) and navigate to **Chats** &gt; **Closed**.
+1.  In the Now Assist panel, select the context menu icon \[Omitted image "icon-docintel-additional-actions.png"\] and navigate to **Chats** &gt; **Closed**.
 
 2.  Locate the title of your AI agent session, and hover your cursor over it.
 
     **Note:** The title of your chat may default to the name of the task used with the AI agent. The chat title was displayed as a banner while the session was running.
 
-3.  Select the delete icon ![](../../../common/image/Form_DeleteIcon.png) that appears when you hover your cursor over the chat title.
+3.  Select the delete icon \[Omitted image "Form\_DeleteIcon.png"\] Alt text: that appears when you hover your cursor over the chat title.
 
-    ![In theNow Assist panel, the delete icon is highlighted.](../../../administer/now-assist-web-agents/image/na-ai-wa-delete-chat-log2Z.png)
+    \[Omitted image "na-ai-wa-delete-chat-log2Z.png"\] Alt text: In theNow Assist panel, the delete icon is highlighted.
 
     A dialog box appears with the question **Delete this chat?**
 
-    ![The Delete chat log confirmation dialog box.](../../../administer/now-assist-web-agents/image/na-ai-wa-delete-chat-log3Z.png)
+    \[Omitted image "na-ai-wa-delete-chat-log3Z.png"\] Alt text: The Delete chat log confirmation dialog box.
 
 4.  Select **Delete** to permanently delete the chat.
 
@@ -55,5 +56,5 @@ Review your chat log by selecting its title. Use the following procedure if you 
 
 The chat history and its screenshots are deleted from the system.
 
-**Parent Topic:**[Trigger an AI agent to execute adaptive path desktop actions](na-ai-wa-access-using-nap.md)
+**Parent Topic:**[Trigger an AI agent to execute adaptive path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-wa-access-using-nap.md)
 

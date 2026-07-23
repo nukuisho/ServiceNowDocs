@@ -2,6 +2,7 @@
 title: Remove a member from a roster
 description: You might remove a member from a roster, for example, if they are no longer a member of the organization or of the group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/remove-member-from-roster-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -25,7 +26,7 @@ Role required: rota\_manager, rota\_admin, or admin
 
 2.  Open the required shift form.
 
-3.  In the Rosters related list, click the information icon \( ![Information icon.](../image/icon-information.png) \) for the roster from which you want to remove a member.
+3.  In the Rosters related list, click the information icon \( \[Omitted image "icon-information.png"\] Alt text: Information icon. \) for the roster from which you want to remove a member.
 
 4.  Click **Open Record**.
 
@@ -93,10 +94,10 @@ Name of the shift.
 </table>7.  Click **Submit**.
 
 
-**Parent Topic:**[Managing roster members](../concept/managing-roster-members.md)
+**Parent Topic:**[Managing roster members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/managing-roster-members.md)
 
 **Related topics**  
 
 
-[Assigning On-Call Scheduling roles](../concept/roles-assigning-oncall.md)
+[Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
 

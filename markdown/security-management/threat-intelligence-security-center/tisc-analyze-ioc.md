@@ -2,12 +2,13 @@
 title: Analyze and assess threat IoC’s
 description: Learn how to analyze an IOC’s which are a threat and notifying the security incident team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-analyze-ioc.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -53,27 +54,29 @@ Whenever a sighting search enrichment is requested:
 
     3.  Send an email communication.
 
-        ![Analyze, assess the IoC’s related to the threat and create incident.](../image/tisc-analyze-assess-IoCs.png)
+        \[Omitted image "tisc-analyze-assess-IoCs.png"\] Alt text: Analyze, assess the IoC’s related to the threat and create incident.
 
 
-**Parent Topic:**[Working with automated flows](../concept/tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 
 
-[Automated IOC Enrichment](tisc-ioc-enrichment.md)
+[Automated IOC Enrichment]()
 
-[Automated sharing of high-risk IOC's with trusted partners](tisc-automated-sharing-flow.md)
+[Automated sharing of high-risk IOC's with trusted partners]()
 
-[Automatically add threat intelligence to a TAXII collection](tisc-taxii-automated-flow.md)
+[Automatically add threat intelligence to a TAXII collection]()
 
-[Create vulnerability assessment for zero day](tisc-create-vul-assess.md)
+[Create vulnerability assessment for zero day]()
 
-[Analyze, assess, and disseminate observables](tisc-disseminate-observables.md)
+[Analyze, assess, and disseminate observables]()
 
-[Vulnerability Management Support](tisc-vul-mgmt.md)
+[Vulnerability Management Support]()
 
-[Zero-day vulnerability tracking](tisc-zero-vul.md)
+[Zero-day vulnerability tracking]()
 
-[Automated flows tables](../concept/tisc-flows-tables.md)
+[Automatic Threat Actor priority tagging]()
+
+[Automated flows tables]()
 

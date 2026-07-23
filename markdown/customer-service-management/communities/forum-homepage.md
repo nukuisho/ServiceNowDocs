@@ -2,6 +2,7 @@
 title: Navigating the forum homepage
 description: While in a forum, you can navigate the forum homepage and perform tasks, such as posting content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/forum-homepage.html
 release: australia
 product: Communities
 classification: communities
@@ -125,38 +126,38 @@ Most viewed content
 Displays the top three posts according to number of views.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using communities](using-communities.md)
+</table>**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 
 
-[Community homepage features for logged in users](c_communities-service-portal.md)
+[Community homepage features for logged in users]()
 
-[Navigating the activity feed](navigating-activity-feed.md)
+[Navigating the activity feed]()
 
-[Community homepage features for non-logged in users](community-homepage-non-logged.md)
+[Community homepage features for non-logged in users]()
 
-[Self-register to a community](../task/register-community.md)
+[Self-register to a community]()
 
-[Search the community](../task/search.md)
+[Search the community]()
 
-[Use a community profile](../task/community-profile.md)
+[Use a community profile]()
 
-[Community subscriptions](c_communities-subscriptions.md)
+[Community subscriptions]()
 
-[Request membership to a forum](../task/request-membership-forum.md)
+[Request membership to a forum]()
 
-[Accept an invitation to join a forum](../task/accept-invitation-forum.md)
+[Accept an invitation to join a forum]()
 
-[Post and respond to content in the community](../task/post-respond-content.md)
+[Post and respond to content in the community]()
 
-[Report inappropriate community content](../task/report-content.md)
+[Report inappropriate community content]()
 
-[Add featured content in a community](../task/feature-community-content.md)
+[Add featured content in a community]()
 
-[Email a community user](../task/private-message-community-user.md)
+[Email a community user]()
 
-[View a list of questions and create a case](../task/case-mgmt-integration-view-list.md)
+[View a list of questions and create a case]()
 
-[Gamification](communities-gamification.md)
+[Gamification]()
 

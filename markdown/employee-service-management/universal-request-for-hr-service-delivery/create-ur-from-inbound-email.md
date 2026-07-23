@@ -2,6 +2,7 @@
 title: Automatically create universal request from an inbound email
 description: Universal requests can be automatically created from the information received by emails. The auto-creation of universal requests enables faster response time and quicker resolution for employees compared to the agents manually creating requests from emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/create-ur-from-inbound-email.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Unified ticket experience setting, Configure service to use Univers
 
 Universal requests can be automatically created from the information received by emails. The auto-creation of universal requests enables faster response time and quicker resolution for employees compared to the agents manually creating requests from emails.
 
-Configure the email IDs in the **General email address for Universal Requests** \(sn\_uni\_req.ur\_email\) property. For more information, see [Universal Request properties](../reference/ur-properties.md). By default, an email sent to these configured mail IDs will automatically create a universal request. Incoming emails marked with high importance will create universal requests with high priority \(Priority 1\).
+Configure the email IDs in the **General email address for Universal Requests** \(sn\_uni\_req.ur\_email\) property. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md). By default, an email sent to these configured mail IDs will automatically create a universal request. Incoming emails marked with high importance will create universal requests with high priority \(Priority 1\).
 
 By default, the solution definition is configured and the predictive model is auto-trained when the following conditions are met.
 
@@ -33,14 +34,14 @@ On instances where Predictive Intelligence for Universal Request is active, the 
 |-------------|-----|-----------|
 |Predict assignment group of UR|Universal Request \[universal\_request\]|Predicts the assignment group from the short description and description of a Universal Request.|
 
-**Parent Topic:**[Unified ticket experience setting](unified-ticket-experience.md)
+**Parent Topic:**[Unified ticket experience setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/unified-ticket-experience.md)
 
 **Related topics**  
 
 
-[Create universal request automatically for department tickets via other channels](../task/autocreate-ur-from-interactionrecord-WS.md)
+[Create universal request automatically for department tickets via other channels]()
 
-[Email notification preferences for your service](ur-customize-email-notifcations.md)
+[Email notification preferences for your service]()
 
-[Configure a catalog item or record producer to create a universal request](../../service-catalog-management/task/create-ur-recordproducer.md)
+[Configure a catalog item or record producer to create a universal request]()
 

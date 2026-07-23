@@ -1,7 +1,8 @@
 ---
-title: AI Workflow pattern in Customer Service Management
-description: In-product AI workflow patterns shows agentic workflow status, presence indicators, and AI-generated insights directly on Customer Service Management \(CSM\) record and interaction pages.
+title: In-product trigger for agentic AI in Customer Service Management
+description: In-product trigger for agentic AI shows agentic workflow status, presence indicators, and AI-generated insights directly on Customer Service Management \(CSM\) record and interaction pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/ai-workflow-pattern-in-customer-service-management.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -12,9 +13,9 @@ keywords: [Generative AI, generative AI for Customer Service Management, generat
 breadcrumb: [Configure, Now Assist for CSM, Customer Service Management]
 ---
 
-# AI Workflow pattern in Customer Service Management
+# In-product trigger for agentic AI in Customer Service Management
 
-In-product AI workflow patterns shows agentic workflow status, presence indicators, and AI-generated insights directly on Customer Service Management \(CSM\) record and interaction pages.
+In-product trigger for agentic AI shows agentic workflow status, presence indicators, and AI-generated insights directly on Customer Service Management \(CSM\) record and interaction pages.
 
 The AI workflow feature is built directly into Customer Service Management \(CSM\). This feature is available on Core UI and Configurable Workspace of the case records. You can view AI activity, respond to workflow prompts, and track progress — all from the case record page. AI indicators, workflow presence, and a dedicated AI Workflow tab are available on case records and interaction pages in the contextual side panel. The feature also introduces a **Triage Cases** button that initiates agentic workflows directly from the case form.
 
@@ -24,7 +25,7 @@ AI workflow supports human‑initiated and autonomous agent‑initiated workflow
 
 ## AI Workflow UI Components
 
-The following table describes the key user interface components that support in‑product AI workflow patterns.
+The following table describes the key user interface components that support in-product trigger for agentic AI.
 
 |UI component|Description|
 |------------|-----------|
@@ -40,7 +41,7 @@ The following table describes the key user interface components that support in�
 
 The AI workflow tab provides a single view of all AI workflows related to a record. It shows workflow status, step‑by‑step details, and any required inputs, which you can enter directly in the tab. Workflows can also be canceled when needed.
 
-By default, this feature is turned off in the base system. To enable it, admin must set the system property com.glide.agentic\_processes\_view.enabled. Once the system property is enabled by an admin, the **Triage Cases** button \(UI Action\) and the **AI Workflow** tab is set to visible. If you prefer to hide this option, you can disable it in AI Agent Studio. To disable the **Triage Cases** button:
+By default, this feature is turned off in the base system. To enable it, admin must set the system property com.glide.agentic\_processes\_view.enabled in global scope. Once the system property is enabled by an admin, the **Triage Cases** button \(UI Action\) and the **AI Workflow** tab is set to visible. If you prefer to hide this option, you can disable it in AI Agent Studio. To disable the **Triage Cases** button:
 
 1.  Open AI Agent Studio.
 2.  Select the **Triage Cases** agentic workflow.
@@ -52,7 +53,7 @@ This allows admin to control whether the **Triage Cases** button appears in the 
 
 **Note:** The sn\_now\_canvas\_ai.interactive\_view\_user role must be manually added to the sn\_esm\_agent role to enable agents to view the **AI Workflows** tab in the side panel.
 
-![Add triggers page showing Triage Cases UI actions with display toggles and configuration options.](../image/ai-workflow-triage-cases.png "Triage Cases guided flow")
+\[Omitted image "ai-workflow-triage-cases.png"\] Alt text: Add triggers page showing Triage Cases UI actions with display toggles and configuration options.
 
 The **AI Workflow** tab is visible on following pages in CSM Configurable Workspace:
 

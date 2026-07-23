@@ -2,6 +2,7 @@
 title: Schedule a meeting from a touchpoint
 description: Schedule meetings with leads, opportunities, and accounts directly from the touchpoint record. Align internal and external stakeholders, avoid scheduling conflicts, and build a timeline view of customer interactions for risk analysis and planning future actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/schedule-meeting-touchpoint.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Schedule meetings directly from a touchpoint record to coordinate customer-facin
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Touchpoints** &gt; **All Touchpoints**.
 
@@ -39,7 +40,7 @@ Schedule meetings directly from a touchpoint record to coordinate customer-facin
 
 7.  On the Create New Meeting form, fill in the fields.
 
-    For a description of the field values, see [Create new meeting form](../reference/create-meeting-touchpoints-form.md).
+    For a description of the field values, see [Create new meeting form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-meeting-touchpoints-form.md).
 
 8.  Add attachments to your meeting.
 
@@ -54,5 +55,12 @@ Schedule meetings directly from a touchpoint record to coordinate customer-facin
 
 The meeting is scheduled and an invite with the agenda is sent to all invitees. You can view saved meetings from the touchpoint's Meetings tab.
 
-**Parent Topic:**[Using Activity Management](../concept/using-activity-management.md)
+**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+
+**Related topics**  
+
+
+[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
+
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
 

@@ -2,6 +2,7 @@
 title: Enable metrics collection and evaluation
 description: To enable a ServiceNow instance to collect and evaluate metrics, you must create a distributed MID Server cluster, associate MID Servers with the cluster, and enable Metric Intelligence for your MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-distributed-mid-cluster.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -40,7 +41,7 @@ Role required: agent\_client\_collector\_admin
 
         The MID Server Clusters page opens, displaying the list of configured MID Server clusters.
 
-        ![MID Server Clusters page](../image/ACC-MID-Server-Clusters.png)
+        \[Omitted image "ACC-MID-Server-Clusters.png"\] Alt text: MID Server Clusters page
 
     2.  Click **New**.
 
@@ -60,15 +61,15 @@ Role required: agent\_client\_collector\_admin
 
         The following page appears:
 
-        ![MID Server Cluster details page](../image/ACC-MID-Cluster.png)
+        \[Omitted image "ACC-MID-Cluster.png"\] Alt text: MID Server Cluster details page
 
     2.  On the **Includes MID Servers** tab, click **Edit**.
 
         The **Edit Members** page appears.
 
-        ![Edit Members page](../image/ACC-Edit-Members.png)
+        \[Omitted image "ACC-Edit-Members.png"\] Alt text: Edit Members page
 
-    3.  Select the relevant MID Servers from the left cell and click the right arrow button ![Right arrow icon](../image/right-arrow-icon.png) to move them to the right cell.
+    3.  Select the relevant MID Servers from the left cell and click the right arrow button \[Omitted image "right-arrow-icon.png"\] Alt text: Right arrow icon to move them to the right cell.
 
         In a staging environment, it is acceptable to have only one MID Server in the cluster.
 
@@ -76,7 +77,7 @@ Role required: agent\_client\_collector\_admin
 
         The **Includes MID Servers** tab displays the MID Servers that are part of the cluster.
 
-        ![Includes MID Servers tab](../image/ACC-includes-MID-Servers-tab.png)
+        \[Omitted image "ACC-includes-MID-Servers-tab.png"\] Alt text: Includes MID Servers tab
 
 3.  Enable Metric Intelligence for your MID Server:
 
@@ -88,7 +89,7 @@ Role required: agent\_client\_collector\_admin
 
         The **Metric Intelligence Contexts - New record** page appears.
 
-        ![Metric Intelligence metrics contexts - New record form](../image/acc-mi-metrics-context.png)
+        \[Omitted image "acc-mi-metrics-context.png"\] Alt text: Metric Intelligence metrics contexts - New record form
 
     3.  In the **Name** field, enter a descriptive name for the Metric Intelligence metrics extension.
 
@@ -110,5 +111,5 @@ Role required: agent\_client\_collector\_admin
 **Related topics**  
 
 
-[Limit metrics collection and evaluation](acc-limit-metrics-collection.md)
+[Limit metrics collection and evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-limit-metrics-collection.md)
 

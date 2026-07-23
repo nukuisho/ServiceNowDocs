@@ -2,6 +2,7 @@
 title: View survey reports
 description: Use the Survey Overview dashboard to view various survey reports, such as Surveys by Metric Type and State.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/view-survey-overview.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,43 +28,43 @@ The dashboard displays your survey reports arranged in widgets. You can add new 
 
 2.  Click the elements within the reports to view more information.
 
-    For more information about working with dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dashboards-landing-page.md).
+    For more information about working with dashboards, see [Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboards-landing-page.md).
 
 
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[Survey designer](../concept/c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Survey users and groups](../concept/c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Copy a survey](copy-survey.md)
+[Copy a survey]()
 
-[Publish a survey](t_PublishASurvey.md)
+[Publish a survey]()
 
-[Customize the appearance of a survey](t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Survey definitions](../concept/c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Create a survey designer template question](t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](../concept/c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](../concept/c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](../concept/c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Sentiment analysis for surveys](../concept/sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](../concept/c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](../concept/survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](../concept/c_MigrateSurveys.md)
+[Legacy survey migration]()
 

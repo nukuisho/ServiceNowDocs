@@ -2,6 +2,7 @@
 title: Create a word corpus
 description: Build a collection of words and phrases that functions as the vocabulary the system uses to compare your instance records based on their textual similarity. You can think of the word corpus as a dictionary that you want your machine-learning system to understand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/create-word-corpus.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -154,7 +155,7 @@ Select **Short description** and **Article body**.
 
     Your two word corpus content components appear on the word corpus form.
 
-    ![This image shows the two content components you've created for your word corpus.](../images/predict-intel-wordcorpus-click-update.png)
+    \[Omitted image "predict-intel-wordcorpus-click-update.png"\] Alt text: This image shows the two content components you've created for your word corpus.
 
 12. Select **Update**.
 
@@ -163,20 +164,20 @@ Select **Short description** and **Article body**.
 
 The completed word corpus you created appears on the word corpus form and is available for use in your similarity and clustering solution definition forms.
 
-![When you click Update, the system validates the addition of the components to complete the corpus creation process.](../images/predict-intel-wordcorpus-result.png)
+\[Omitted image "predict-intel-wordcorpus-result.png"\] Alt text: When you click Update, the system validates the addition of the components to complete the corpus creation process.
 
 ## What to do next
 
 Create a solution in the appropriate framework. For more information, see the links in the Related Content panel on this page.
 
-**Parent Topic:**[Configure Predictive Intelligence](configure-predictive-intelligence.md)
+**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 
 **Related topics**  
 
 
-[Create and train a classification solution](create-solution-definition.md)
+[Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 
-[Create and train a similarity solution](create-similarity-solution.md)
+[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md)
 
-[Create and train a clustering solution](create-clustering-solution.md)
+[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
 

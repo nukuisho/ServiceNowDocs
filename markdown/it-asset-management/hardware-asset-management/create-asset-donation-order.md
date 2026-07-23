@@ -2,13 +2,14 @@
 title: Create an Asset Donation Order
 description: Create a service catalog request to donate the in-stock hardware and consumable assets in your organization to charity organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-asset-donation-order.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Donate assets to charity organizations, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Donate assets to charity organizations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an Asset Donation Order
@@ -23,7 +24,7 @@ Role required: none
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Asset Lifecycle**.
 
-    The Asset Lifecycle category isn't on the Service Catalog page by default. To add this category, select the Add content icon \(![Add content icon.](../image/add_content_icon.png)\) beside the Search catalog bar and then select **Asset Lifecycle**.
+    The Asset Lifecycle category isn't on the Service Catalog page by default. To add this category, select the Add content icon \(\[Omitted image "add\_content\_icon.png"\] Alt text: Add content icon.\) beside the Search catalog bar and then select **Asset Lifecycle**.
 
     **Note:** You require admin role to add a category to the Service Catalog.
 
@@ -63,14 +64,14 @@ Name and quantity of the assets that you want to donate. For example, `Request t
 5.  View the status of your Asset Donation Order by navigating to **All** &gt; **Self-Service** &gt; **My Requests**.
 
 
-**Parent Topic:**[Donate assets to charity organizations](../concept/donate-asset-to-charity-organizations.md)
+**Parent Topic:**[Donate assets to charity organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.md)
 
 **Related topics**  
 
 
-[Approve or reject an Asset Donation Order](approve-reject-asset-donation-order.md)
+[Approve or reject an Asset Donation Order]()
 
-[Process an Asset Donation Order](process-asset-donation-order.md)
+[Process an Asset Donation Order]()
 
-[Add a charity organization for donating assets](add-charity-org.md)
+[Add a charity organization for donating assets]()
 

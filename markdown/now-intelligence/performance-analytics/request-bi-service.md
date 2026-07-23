@@ -2,6 +2,7 @@
 title: Request an analytics service
 description: Request services associated with dashboards, such as to request a new dashboard or access to an existing dashboard.Analytics service requests are assigned to the Analytics group who can review and fulfill the requests.You can activate the Self-Service Portal for Analytics plugin \(com.snc.pa.bi\_service\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/request-bi-service.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -44,7 +45,7 @@ Role required: none
 
 After you submit the request, the Analytics team is responsible for reviewing and implementing your requested changes.
 
-**Parent Topic:**[Create and use dashboards](../concept/create-and-edit-dashboards.md)
+**Parent Topic:**[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
 ## Fulfill an analytics request
 
@@ -97,9 +98,9 @@ Role required:
 **Related topics**  
 
 
-[Create and use dashboards](../concept/create-and-edit-dashboards.md)
+[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
-[Share a responsive dashboard](t_ControlAccessToADashboard.md)
+[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 
 ## Activate the Self-Service Portal for Analytics plugin
 
@@ -142,7 +143,7 @@ Core Performance Analytics functionality
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  

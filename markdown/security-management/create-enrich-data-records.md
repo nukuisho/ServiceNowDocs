@@ -2,6 +2,7 @@
 title: Create Enrichment Data records Flow Action
 description: The Create enrichment data records flow action creates or updates enrichment records to use in the flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/create-enrich-data-records.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,5 +45,5 @@ The output variables contain data that can be used in subsequent activities.
 |--------|-----------|
 |result|GlideRecords created using the enrichmentUtils script.|
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
 

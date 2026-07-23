@@ -2,11 +2,12 @@
 title: Modify email notification layout
 description: Modify the email notification layout and template that is shipped with the Employee Experience Foundation \(com.snc.sn\_ex\_emp\_fd\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/activate-notification-template.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
@@ -72,5 +73,5 @@ Reuse the Employee notification layout for any of your templates to build consis
 **Related topics**  
 
 
-[Configure the mail and SMS send to self](deskless-kiosk-sendtoself-sms-email.md)
+[Configure the mail and SMS send to self](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.md)
 

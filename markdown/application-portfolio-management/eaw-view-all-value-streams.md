@@ -2,6 +2,7 @@
 title: View value streams details
 description: You can value stream details in the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-value-streams.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,9 +30,9 @@ The value stream record page displays information on the following:
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon ![Portfolio icon](../../image/portfolio-icon.png).
+2.  Open the Portfolio List view by selecting the Portfolio icon \[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Business Architecture**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Business Architecture**.
 
 4.  Select **Value Streams**.
 
@@ -44,16 +45,16 @@ The value stream record page displays information on the following:
     **Note:** Select a value stream stage to view more details.
 
 
-**Parent Topic:**[Manage value streams](../../concept/eaw-concept/eaw-manage-value-streams.md)
+**Parent Topic:**[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-value-streams.md)
 
 **Related topics**  
 
 
-[Add or edit a value stream](eaw-add-or-edit-a-value-stream.md)
+[Add or edit a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-value-stream.md)
 
-[Add value stream stages to a value stream](eaw-add-vs-stages-to-a-vs.md)
+[Add value stream stages to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-vs-stages-to-a-vs.md)
 
-[Associate an application model to a value stream](eaw-add-an-application-model-to-a-value-stream.md)
+[Associate an application model to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-an-application-model-to-a-value-stream.md)
 
-[Exploring value streams](../../concept/eaw-concept/eaw-value-streams.md)
+[Exploring value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-value-streams.md)
 

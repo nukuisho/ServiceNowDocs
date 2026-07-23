@@ -2,6 +2,7 @@
 title: Australia Patch 2
 description: The Australia Patch 2 release contains important problem fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-patch-2.html
 release: australia
 topic_type: reference
 last_updated: "2026-05-05"
@@ -17,7 +18,7 @@ The Australia Patch 2 release contains important problem fixes.
     -   Build date: 04-29-2026\_2044
     -   Build tag: glide-australia-02-11-2026\_\_patch2-04-17-2026
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](../upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
@@ -27,9 +28,9 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 ## Overview
 
-Australia Patch 2 includes 332 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
+Australia Patch 2 includes 335 problem fixes in various categories. The chart below shows the top 10 problem categories included in this patch.
 
-![Fixed issues grouped by problem categories bar chart](../image/prb-chart-ap2.png "Top 10 problem categories")
+\[Omitted image "prb-chart-ap2.png"\] Alt text: Fixed issues grouped by problem categories bar chart
 
 ## Security-related fixes
 
@@ -39,13 +40,13 @@ Australia Patch 2 includes fixes for security-related problems that affected cer
 
 -   **[Add the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-nacm.md)**
 
-    Use the NACM to enable viewers of a dashboard to generate a summary of the contents of a dashboard or dashboard tab.
+    Use the Now Assist context menu to enable Now Assist skills to be displayed directly in the dashboard.
 
--   **[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)**
+-   **[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md)**
 
-    If true, enables case and accent \(diacritic\) sensitivity for text search of the column. If false, text search of the column is case and accent insensitive. The default behavior is false. This attribute can't be set to true when i18n\_session\_language\_sortable is true on the same column. To learn more see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sl-locale-text-match.md).
+    If true, enables case and accent \(diacritic\) sensitivity for text search of the column. If false, text search of the column is case and accent insensitive. The default behavior is false. This attribute can't be set to true when i18n\_session\_language\_sortable is true on the same column. To learn more see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/sl-locale-text-match.md).
 
--   **[Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md)**
+-   ****
 
     The guarded script evaluator enhances instance security by supporting only a restricted scripting language and detecting or rejecting untrusted scripts that use unsupported JavaScript features.
 
@@ -53,7 +54,7 @@ Australia Patch 2 includes fixes for security-related problems that affected cer
 
     Install Live Archive to archive data in object storage.
 
--   **[JavaScript APIs supported by guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script-allowed-apis.md)**
+-   ****
 
     Review the JavaScript APIs that guarded script supports to help you analyze scripts in the Incompatible Guarded Scripts list and either rewrite them or create an exemption for them.
 
@@ -61,25 +62,22 @@ Australia Patch 2 includes fixes for security-related problems that affected cer
 
     Live Archive \(formerly Data Archiving\) moves records and attachments to object storage, freeing up space in the primary database while keeping data accessible for compliance and reporting. This capability improves query performance and provides scalable storage for large archives.
 
--   **[Review and update scripts incompatible with guarded script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/review-incompatible-guarded-scripts.md)**
+-   ****
+-   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)**
 
-    Review scripts that are incompatible with guarded script and either rewrite them to use supported features or create an exemption for scripts that can't be rewritten.
+    For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md).
 
--   **[Now Assist and agentic AI release notes](../now-assist/now-assist-rn-landing.md)**
-
-    For Now Assist new features and changes, see [Now Assist and agentic AI release notes](../now-assist/now-assist-rn-landing.md).
-
--   **[Script sandbox environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox-environment.md)**
+-   ****
 
     The script sandbox environment is a restricted execution context in which untrusted, client-generated scripts run on the server using one of two evaluators: the guarded script evaluator or the script sandbox evaluator.
 
--   **[Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox.md)**
+-   ****
 
     The script sandbox evaluator helps prevent executing untrusted scripts on an instance by limiting the APIs available to scripts.
 
     Scripts that run in the script sandbox evaluator can use features supported by the JavaScript engine and the sandbox environment, except for certain restricted methods.
 
--   **[Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sl-locale-text-match.md)**
+-   **[Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/sl-locale-text-match.md)**
 
     Set locale text match to provide case and accent sensitivity when searching the text of table columns. The default behavior for text searching in table columns is insensitive to case and accent \(diacritic\) variations, but you can enforce sensitivity using locale text match.
 
@@ -538,6 +536,54 @@ Requesting a live agent doesn't create a work item in the NLU \(Natural Language
 5.  Request a live agent.
 
  Observe that the conversation ends without a work item sent to the agent.
+
+</td></tr><tr><td>
+
+Agent Chat
+
+ PRB2012130
+
+</td><td>
+
+There's a misleading VA Message while agent connection is still in progress
+
+</td><td>
+
+Before the agent accepts the workItem, there's a VA Message that says 'Live Agent Engaged'.
+
+</td><td>
+
+Connect to LA.
+
+ Observe that the VA Message says 'Live Agent Engaged' before the agent accepts the workItem.
+
+</td></tr><tr><td>
+
+Agent Chat
+
+ PRB2013475
+
+</td><td>
+
+LA conversation ends when sys\_prop is set to empty
+
+</td><td>
+
+When sys\_prop is deleted, the off-glide LA topic is still called for LA transfer.
+
+</td><td>
+
+Scenario 1:
+
+ 1.  Create the sys\_prop, but leave the value as empty.
+2.  Connect to LA.
+3.  Observe that the conversation ends.
+
+ Scenario 2:
+
+ 1.  Delete the sys\_prop.
+2.  Start a LA topic.
+3.  Observe that the off-glide LA topic is still called for LA transfer, even when sys\_prop is deleted.
 
 </td></tr><tr><td>
 
@@ -3136,6 +3182,24 @@ There's log message flooding: 'java.net.UnknownHostException'
 </td><td>
 
  
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Instance Scan
+
+ PRB2009023
+
+</td><td>
+
+In Australia, an instance scan executed with an update set option doesn't get considered and runs a full instance scan
+
+</td><td>
+
+When the user submits an instance scan suite execution by selecting the 'Update Set' option, then it does not run the scan only for the selected update sets. Rather, it runs a full instance scan. This is happening only with instances on the Australia release.
 
 </td><td>
 
@@ -6072,10 +6136,10 @@ Attachments added through questionnaires aren't reflected/updated on the corresp
 
 Unless any exceptions are noted, you can safely upgrade to this release version from any of the versions listed below. These prior versions contain PRB fixes that are also included with this release. Be sure to upgrade to the latest listed patch that includes all of the PRB fixes you are interested in.
 
--   [Australia Patch 1](australia-patch-1.md)
+-   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 -   [Australia EA Hotfix 1](https://www.servicenow.com/docs/r/release-notes/australia-patch-0-hf-1-PO.html)
 -   [Australia security and notable fixes](https://www.servicenow.com/docs/r/release-notes/australia-security-notables.html)
 -   [All other Australia fixes](https://www.servicenow.com/docs/r/release-notes/australia-all-other-fixes.html)
 
-**Parent Topic:**[Available patches and hotfixes](../available-versions.md)
+**Parent Topic:**[Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/available-versions.md)
 

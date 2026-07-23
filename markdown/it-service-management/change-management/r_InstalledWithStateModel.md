@@ -2,6 +2,7 @@
 title: Installed with Change Management - State Model
 description: Several types of components are installed with the Change Management - State Model.Change Management - State Model modifies the list view of the following table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/r\_InstalledWithStateModel.html
 release: australia
 product: Change Management
 classification: change-management
@@ -15,12 +16,12 @@ breadcrumb: [Activate Change Management - State Model, Change Management plugins
 
 Several types of components are installed with the Change Management - State Model.
 
-**Parent Topic:**[Activate Change Management - State Model](../task/t_ActivateStateModel.md)
+**Parent Topic:**[Activate Change Management - State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateStateModel.md)
 
 **Related topics**  
 
 
-[Update change request states](../task/state-model-activate-tasks.md)
+[Update change request states]()
 
 ## Table modified with Change Management - State Model
 

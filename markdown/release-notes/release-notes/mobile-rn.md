@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 ---
 
 # Mobile Platform release notes
@@ -44,7 +44,7 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
 -   **[Configurable timing for PIN application timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/pin-timeout.md)**
 
-    Configure a new property to define the PIN timeout for different ServiceNow mobile apps. This configuration helps reinforce security by controlling how long users are can remain inactive before being required to reenter their PIN.
+    Configure a new property to define the PIN timeout for different ServiceNow mobile apps. This configuration helps reinforce security by controlling how long users can remain inactive before being required to reenter their PIN.
 
 -   **[Dynamic variable support in record screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/record-screen-script-type.md)**
 
@@ -57,6 +57,14 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 -   **[Push notifications for logged-out users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)**
 
     Configure push notifications to be sent to users even when they’re logged out so critical updates aren't missed.
+
+-   **Mobile Voice Agent SDK support**
+
+    Enable Voice Agent in SDK-based mobile applications by configuring the External Applications section within the Voice Assistant configuration. Admins with an SDK app configured on the instance can select and save a custom app to activate Voice Agent for that SDK application.
+
+-   **Premium chat for mobile Virtual Agent **
+
+    Premium Chat opens a web-based chat experience within your mobile app, ensuring that every feature configured for the web is accessible on your mobile device.
 
 
 ## UI changes
@@ -80,6 +88,10 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 -   **[Chat button in standard search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-assist-mobile-search.md)**
 
     Launch Virtual Agent directly from your standard search results to chat with the Virtual Agent about the selected search result.
+
+-   **Mobile Voice Agent background calling**
+
+    Continue a Voice Agent call after backgrounding the mobile app on iOS and Android. Mute, unmute, or end the call from the home screen or lock screen without returning to the app.
 
 
 ## Changed in this release
@@ -108,6 +120,12 @@ See [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     Configure the **impersonationEnabled** property to turn off mobile impersonation functionality. With this property, administrators can hide the impersonation option from the mobile app, regardless of assigned user roles.
 
+-   ****
+
+    The following changes have been made:
+
+    -   Expanded the supported file types to include all of the following: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, JPG, JPEG, PNG
+    -   Field service agents can now upload attachments in the background after submitting a work order task form, eliminating wait time caused by slow or unreliable network connections. Failed uploads retry automatically, so agents can move to their next task without interruption.
 
 ## Activation information
 
@@ -117,5 +135,5 @@ Mobile Platform is a ServiceNow AI Platform feature that is active by default.
 
 Improved readability on tablet devices.
 
-**Parent Topic:**[Features and changes by product](../new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

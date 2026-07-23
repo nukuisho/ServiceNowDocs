@@ -2,11 +2,12 @@
 title: Setting a custom target for a message rule action
 description: You can set a layout element as the target of a message action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/how\_do\_i\_set\_a\_custom\_target\_for\_the\_message\_rule\_action.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Setting a custom target for a message rule action

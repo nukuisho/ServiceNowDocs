@@ -2,11 +2,12 @@
 title: Logical connections
 description: Design and assign a logical connection in the Telecommunications Network Inventory application. By using the Design and Assign function, you can fulfill the logical connection design request of a customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Design and assign your network services, Explore, Telecommunications Network Inventory]
 ---
@@ -21,7 +22,7 @@ The Design and Assign function provides the activities and tasks that an agent c
 
 The following example shows the Design and Assign function layout for a logical connection.
 
-![View of Design and Assign function layout.](../image/design-assign-paybook-layout.png "Design and Assign function layout and features")
+\[Omitted image "design-assign-paybook-layout.png"\] Alt text: View of Design and Assign function layout.
 
 <table id="table_crd_4hd_ndc"><thead><tr><th>
 
@@ -45,10 +46,10 @@ Activity picker
 
 </td><td>
 
-The activity picker displays the list of activities to design and assign a logical connection. Each activity has an indicator that shows the activity state:-   ![Activity In progress Icon](../image/icon-activity-progress.png) - Activity is work in progress.
--   ![Activity Complete Icon](../image/icon-activity-complete.png) - Activity is completed.
--   ![Activity Pending Icon](../image/icon-activity-pending.png) - Pending activities.
--   ![Activity Skipped Icon](../image/icon-activity-skip.png) - Activity is skipped.
+The activity picker displays the list of activities to design and assign a logical connection. Each activity has an indicator that shows the activity state:-   \[Omitted image "icon-activity-progress.png"\] Alt text: Activity In progress Icon - Activity is work in progress.
+-   \[Omitted image "icon-activity-complete.png"\] Alt text: Activity Complete Icon - Activity is completed.
+-   \[Omitted image "icon-activity-pending.png"\] Alt text: Activity Pending Icon - Pending activities.
+-   \[Omitted image "icon-activity-skip.png"\] Alt text: Activity Skipped Icon - Activity is skipped.
 
 Select an activity to view the details in the activity viewer.
 
@@ -93,7 +94,9 @@ You can expand the pills in the diagram to see all underlying connection element
 </td></tr></tbody>
 </table>## Design and Assign workflow for logical connection
 
-The Design and Assign function for a logical connection has the following workflow.
+\[Omitted image "design-assign-flow\_copy.png"\] Alt text: Design and Assign workflow for logical logical connection
+
+The Design and Assign function for a logical connection has the following workflows.
 
 1.  Create a change request and add necessary details about your design.
 2.  Provide connection details which influence the design such as logical connection model, bandwidth, and domain.
@@ -106,20 +109,20 @@ The Design and Assign function for a logical connection has the following workfl
 
 By completing these steps, a logical connection record is generated with the associated Configuration Items \(CI\).
 
-To learn more about the steps to design and assign a logical connection, see [Create a logical connection record using the Design and Assign function](../task/create-logical-connection-record-design-assign-playbook.md).
+To learn more about the steps to design and assign a logical connection, see [Create a logical connection record using the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-design-assign-playbook.md).
 
 ## Access
 
 You can access the Design and Assign function for a logical connection in the Telecommunications Network Inventory Workspace as follows:
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
-2.  Select the design and assign icon \(![Design and Assign Icon.](../image/icon-design-assign.png)\) to open the Design request overview window.
+2.  Select the design and assign icon \(\[Omitted image "icon-design-assign.png"\] Alt text: Design and Assign Icon.\) to open the Design request overview window.
 3.  Select **New** &gt; **Create Logical Connection** or select any change request from the list.
 
 **Related topics**  
 
 
-[Design and assign your network services](design-assign-playbook.md)
+[Design and assign your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/design-assign-playbook.md)
 
-[Telecommunications Network Inventory subflows](subflow.md)
+[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 

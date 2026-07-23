@@ -2,6 +2,7 @@
 title: Configure auto-fill inputs on input form screens
 description: Streamline form completion on input form screens by configuring auto-filled inputs based on one or more user inputs. Auto-fill inputs are configured by using mobile client scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/config-autofil-inputs-nptfrmscrn.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Auto-fill inputs are configured by using mobile client scripts that run as a UI rule action in the UI rule of an input form screen. These scripts run in UI rules with an **OnChange** trigger type. For more information about UI rules and UI rule actions, see [Mobile UI Rules](../concept/mobile-ui-rules.md).
+Auto-fill inputs are configured by using mobile client scripts that run as a UI rule action in the UI rule of an input form screen. These scripts run in UI rules with an **OnChange** trigger type. For more information about UI rules and UI rule actions, see [Mobile UI Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-rules.md).
 
 **Note:**
 
@@ -181,13 +182,13 @@ Make sure that at least one of the **Triggers** is set to **onChange**.
 
 5.  In the Mobile UI Rule Actions section of the mobile UI rule form, select **New**.
 
-    ![Mobile Rule UI Actions form](../image/autofill-input-form-screen-nu-act.png)
+    \[Omitted image "autofill-input-form-screen-nu-act.png"\] Alt text: Mobile Rule UI Actions form
 
     The Mobile UI Rule Action form appears.
 
 6.  In the Mobile UI Rule Action form **Operation** field, search for and select **Run Client Script**.
 
-    ![Mobile UI Rule Action form with Run Client Script Operation called out](../image/autofil-inpt-frm-scrn-rn-clnt-scrpt.png)
+    \[Omitted image "autofil-inpt-frm-scrn-rn-clnt-scrpt.png"\] Alt text: Mobile UI Rule Action form with Run Client Script Operation called out
 
 7.  Write the client script in the **Client script** field.
 

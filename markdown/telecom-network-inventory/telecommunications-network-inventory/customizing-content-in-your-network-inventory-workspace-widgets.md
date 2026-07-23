@@ -2,6 +2,7 @@
 title: Customizing the content in your Network Inventory Workspace widgets
 description: The Network Inventory Workspace is delivered in the base system with a standard set of information in each landing page widget. You can easily customize this content to include other Telecommunications Network Inventory data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/customizing-content-in-your-network-inventory-workspace-widgets.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -26,9 +27,9 @@ The data collection process for the Network Inventory Workspace landing page use
 
 For example, the following shows a listing of some of the CMDB groups that are used for the Network Inventory Workspace data collection:
 
-![CMDB groups view for the Network Inventory Workspace with the list of standard CMDB groups.](../image/ni-workspace-cmdb-groups.png "Standard CMDB groups for the Network Inventory Workspace")
+\[Omitted image "cmdb-group.png"\] Alt text: CMDB groups view for the Network Inventory Workspace with the list of standard CMDB groups.
 
-**Note:** To learn how the data collection process operates, see [Data collection and refresh for the Network Inventory Workspace widgets](data-collection-niw-widgets.md).
+**Note:** To learn how the data collection process operates, see [Data collection and refresh for the Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-collection-niw-widgets.md).
 
 These CMDB groups follow the following standard naming convention:
 
@@ -94,15 +95,15 @@ The following examples show how the name segments are combined in the CMDB group
 
 This widget contains a pie chart with a standard set of the five most recognizable telecommunications equipment manufacturers.
 
-![Donut chart for the five most recognizable telecommunications equipment manufacturers.](../image/ni-workspace-network-equipment-by-manufacturer.png "Network equipment by manufacturer widget")
+\[Omitted image "ni-workspace-network-equipment-by-manufacturer.png"\] Alt text: Donut chart for the five most recognizable telecommunications equipment manufacturers.
 
 A pre-defined CMDB group structure supports retrieval of the data that appears in the widget pie chart. The following example shows the standard CMDB groups that are used to retrieve the manufacturer data for the Network Inventory Workspace.
 
-![CMDB groups view for the Network Inventory Workspace with the list of standard CMDB groups.](../image/ni-workspace-network-equipment-manufacturer-cmdb-groups.png "Standard CMDB groups used for the Network equipment by manufacturer widget")
+\[Omitted image "ni-workspace-network-equipment-manufacturer-cmdb-groups.png"\] Alt text: CMDB groups view for the Network Inventory Workspace with the list of standard CMDB groups.
 
 To add or change the data in a widget, use the CMDB Groups function to create CMDB group codes or modify the accompanying query conditions for existing ones. To update any of the existing CMDB groups, you must follow the standard CMDB group naming convention used for the Network Inventory Workspace widgets.
 
-**Note:** To learn more about creating, updating, or naming CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
+**Note:** To learn more about creating, updating, or naming CMDB groups, see CMDB groups.
 
 For example, let's say that you want to add another equipment manufacturer to the widget. To accomplish this task, you can use existing CMDB groups for a manufacturer, for each of the network domains, as the base for the new manufacturer. In this example, you use the existing CMDB groups for Ericsson as the base for the CMDB groups that you create for the new manufacturer.
 
@@ -115,13 +116,13 @@ This table shows what the existing CMDB group codes look like for Ericsson, and 
 |Mobility Ericsson Manufacturer Equipment|Mobility Dell Manufacturer Equipment|
 |Telco Ericsson Manufacturer Equipment|Telco Dell Manufacturer Equipment|
 
--   **[Update CMDB groups for use in the data collection process](../task/updating-cmdb-groups-niw-data-collection-process.md)**  
+-   **[Update CMDB groups for use in the data collection process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/updating-cmdb-groups-niw-data-collection-process.md)**  
 Add or change the data that you see in a Network Inventory Workspace widget by using the CMDB Groups function. You create CMDB group codes as needed or modify the query conditions for existing ones. By changing the CMDB groups, you affect what data the collection process retrieves for the widgets on the Network Inventory Workspace landing page.
 
-**Parent Topic:**[Reviewing and updating your network inventory with the Network Inventory Workspace](tni-workspace.md)
+**Parent Topic:**[Reviewing and updating network inventory via Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 
 **Related topics**  
 
 
-[Network Inventory Workspace](exploring-network-inventory-workspace.md)
+[Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-network-inventory-workspace.md)
 

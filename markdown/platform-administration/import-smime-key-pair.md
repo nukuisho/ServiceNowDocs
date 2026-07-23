@@ -2,6 +2,7 @@
 title: Import an S/MIME key pair
 description: Import an S/MIME key pair consisting of the private key and certificate to sign outbound emails or decrypt emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/import-smime-key-pair.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Make sure the file format is PKCS \#12.
 
 ## About this task
 
-This video shows you how to perform the following procedure.This video shows how to import an S/MIME key pair
+This video shows you how to perform the following procedure.
 
 ## Procedure
 
@@ -196,14 +197,14 @@ Field the duration is relative to. Displays if a relative duration or operation 
     Secure information for the keys will be stored on the Module Keys tab along with the private key and public key. The **Key lifecycle state** is set to **Active**.
 
 
-**Parent Topic:**[Setting up S/MIME for email](../concept/smime-for-email-signing-and-encryption.md)
+**Parent Topic:**[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/smime-for-email-signing-and-encryption.md)
 
 **Related topics**  
 
 
-[Upload a CA certificate](upload-ca-certificate.md)
+[Upload a CA certificate]()
 
-[Upload an email certificate](upload-email-certificate.md)
+[Upload an email certificate]()
 
-[Enable S/MIME](../concept/enable-smime-for-outbound-and-inbound.md)
+[Enable S/MIME]()
 

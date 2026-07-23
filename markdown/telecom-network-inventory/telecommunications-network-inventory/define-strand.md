@@ -2,6 +2,7 @@
 title: Define the strand details
 description: Review, update, or create a network asset instance for a strand in the cable. You define these attributes so that you can track and manage your network assets in the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/define-strand.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -21,19 +22,19 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-A strand refers to an individual conductor or wire within the cable. Cables are composed of multiple strands twisted or grouped. When you create a strand record, it creates a corresponding configuration item \(CI\) record in the Fiber Strand \[cmdb\_ci\_fiber\_strand\] table. To learn more, see [Data model](../concept/uses-for-network-inventory-data.md).
+A strand refers to an individual conductor or wire within the cable. Cables are composed of multiple strands twisted or grouped. When you create a strand record, it creates a corresponding configuration item \(CI\) record in the Fiber Strand \[cmdb\_ci\_fiber\_strand\] table. To learn more, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Inventory** &gt; **Strands**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Inventory** &gt; **Strands**.
 
 3.  Select **New** and then select the **Optical Fiber Strand** from the list.
 
 4.  On the **Details** tab, fill in the fields.
 
-    To learn more about the fields, see [Strand form](../reference/strand-form.md).
+    To learn more about the fields, see [Strand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/strand-form.md).
 
 5.  Create the Telecommunications Network Inventory attributes for the Strand form by selecting **Set Inventory Attributes**.
 
@@ -45,17 +46,17 @@ A strand refers to an individual conductor or wire within the cable. Cables are 
 
 6.  On the TNI CI Attributes form, fill in the fields.
 
-    To learn more about the Telecommunications Network Inventory attribute fields, see [TNI CI Attributes form](../reference/ci-attribue-form.md).
+    To learn more about the Telecommunications Network Inventory attribute fields, see [TNI CI Attributes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/ci-attribue-form.md).
 
 7.  Select **Save**.
 
     The Telecommunications Network Inventory attribute fields are displayed on the Strand form after you save the TNI CI Attributes form. The **Set Inventory Attributes** doesn’t appear when you reopen the CI record.
 
-8.  Add the attachments, such as graphics or documents, by selecting the attachment icon \(![Attachment icon.](../image/attachments-icon.png)\) in the right panel.
+8.  Add the attachments, such as graphics or documents, by selecting the attachment icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon.\) in the right panel.
 
 9.  Select **Save**.
 
-    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the Network inventory forms](../reference/inventory-related-tab.md).
+    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
 10. View the visual representation of the selected record by selecting the **Open Map** button.
 
@@ -63,17 +64,17 @@ A strand refers to an individual conductor or wire within the cable. Cables are 
 
 11. Capture the attributes for a configuration item \(CI\) record by selecting **Add Packs**.
 
-    To learn more, see [Attribute pack for CI records](../concept/using-pack-table-ci-record.md).
+    To learn more, see [Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
 
-12. View the associated network inventories by selecting the brick icon \(![Brick icon.](../image/infrastructure-relashionship.png)\).
+12. View the associated network inventories by selecting the brick icon \(\[Omitted image "infrastructure-relashionship.png"\] Alt text: Brick icon.\).
 
     The Infrastructure Relationships section shows all the associated network inventories grouped by the individual network asset instances.
 
 
-**Parent Topic:**[Manually creating and reviewing your network asset instances](../concept/creating-telecommunications-network-inventory.md)
+**Parent Topic:**[Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
 
 **Related topics**  
 
 
-[Modeling your workflow](../concept/telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 

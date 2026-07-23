@@ -2,6 +2,7 @@
 title: View all demands
 description: You can create or edit a demand as a step to identify cost-saving opportunities on applications or capabilities, to meet the target.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-demands.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,17 +22,17 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon ![Portfolio icon](../../image/portfolio-icon.png).
+2.  Open the Portfolio List view by selecting the Portfolio icon \[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Business Architecture**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Business Architecture**.
 
 4.  Select **Demands**.
 
 
-**Parent Topic:**[Manage demands](../../concept/eaw-concept/eaw-manage-demands.md)
+**Parent Topic:**[Manage demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-demands.md)
 
 **Related topics**  
 
 
-[Add or edit a demand](eaw-create-demand-ba.md)
+[Add or edit a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-demand-ba.md)
 

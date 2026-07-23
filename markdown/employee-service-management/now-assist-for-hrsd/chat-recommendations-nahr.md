@@ -2,6 +2,7 @@
 title: Generate a chat reply recommendation by using Now Assist for HRSD
 description: Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/chat-recommendations-nahr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -17,9 +18,9 @@ Generate a reply based on the context of the chat conversation using Now Assist 
 
 ## Before you begin
 
-[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md).
+[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
-Role required: admin
+Role required: sn\_hr\_gen\_ai.admin
 
 ## About this task
 
@@ -28,9 +29,9 @@ You can do these actions by using the Now Assist icon:
 -   Generate a recommended reply that is based on the context of the conversation.
 -   Refine the recommendation by elaborating or shortening the response.
 
-**Note:** The Chat reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin. To learn how to activate this skill, see [Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md).
+**Note:** The Chat reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin. To learn how to activate this skill, see [Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -44,17 +45,17 @@ You can do these actions by using the Now Assist icon:
 
     For example, if the requester is having an issue with hardware, you may need the hardware model number and serial number.
 
-4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png)
+4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d396958e189">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d404882e186">
 
 Chat message window
 
-</th><th align="left" id="d396958e192">
+</th><th align="left" id="d404882e189">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d396958e200">
+</th></tr></thead><tbody><tr><td id="d404882e197">
 
 **Typed response**
 
@@ -66,7 +67,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d396958e220">
+</td></tr><tr><td id="d404882e217">
 
 **Left blank**
 
@@ -86,38 +87,38 @@ Generates a recommended reply that is based on the context of the conversation u
 7.  End the chat by selecting **End Chat**.
 
 
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\) in Agent Workspace](../concept/use-now-assist-hr.md)
+**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)](now-assist-hrsd-chat.md)
+[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using Now Assist for HRSD](sidebar-discussion-nahr.md)
+[Summarize a Sidebar discussion by using Now Assist for HRSD]()
 
-[Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD](gen-kb-now-assisthr.md)
+[Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD]()
 
-[Generate a knowledge article from multiple cases](gen-kb-now-assisthr-multi-case.md)
+[Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation using Now Assist for HRSD](email-recommendation-nahr.md)
+[Generate an email reply recommendation using Now Assist for HRSD]()
 
-[Summarize an HR case using Now Assist for HRSD](now-assist-hrsd-summarize-case.md)
+[Summarize an HR case using Now Assist for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD](now-assist-hrsd-res-note.md)
+[Generate resolution notes using Now Assist for HRSD]()
 
-[View employee summary reports](../../td-leader-hub/task/employee-summary-lh.md)
+[View employee summary reports]()
 
-[Summarize actions while transferring an HR case](tcase-now-assist-hr.md)
+[Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD](na-kb-graph.md)
+[Use Knowledge Graph in Now Assist for HRSD]()
 
-[Use Now Assist for HR - Galileo Inside to answer HR-related questions](use-galileo-inside.md)
+[Use Now Assist for HR - Galileo Inside to answer HR-related questions]()
 
-[Use the Now Assist panel in HR Agent Workspace](now-assist-panel-hr.md)
+[Use the Now Assist panel in HR Agent Workspace]()
 
-[Submit an HR request with Gen AI Virtual Agent](use-genai-hrsd.md)
+[Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](../concept/integ-now-assist-hrsd.md)
+[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)](analyze-sentiments-now-assist.md)
+[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
 

@@ -2,6 +2,7 @@
 title: View service instance details
 description: View information about service instances that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the service instance life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Portfolio Management plugin \[sn\_apm\_tpm\] installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-app-service-details.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -15,7 +16,7 @@ breadcrumb: [Life-cycle management, Explore, Digital Portfolio Management, IT Se
 
 View information about service instances that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the service instance life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Portfolio Management plugin \[sn\_apm\_tpm\] installed.
 
-As you view the following tables, keep in mind that what you are able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](../reference/dpm-related-products.md) for the required installs and plugins to see each data element.
+As you view the following tables, keep in mind that what you are able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installs and plugins to see each data element.
 
 ## KPI groups for service instances
 
@@ -112,7 +113,7 @@ Description
 
 </td><td>
 
-Performance details about the service instance. You can select the graphs and cards for each section to view more details. Each indicator has an information icon \(![Information icon.](../image/information-icon.jpg)\) that when selected, provides a tooltip description for that indicator.The following KPI groups and indicators are in this section.
+Performance details about the service instance. You can select the graphs and cards for each section to view more details. Each indicator has an information icon \(\[Omitted image "information-icon.jpg"\] Alt text: Information icon.\) that when selected, provides a tooltip description for that indicator.The following KPI groups and indicators are in this section.
 
 -   **Portfolio success metrics**
     -   Availability
@@ -162,7 +163,7 @@ Service reliability management information data for the service instance. To see
 
 A list of the offerings that depend on this service instance. The number of offerings is in a gray box. Select an offering for its details.
 
- For information on offering details, see [View service and service offering details](dpm-service-details.md).
+ For information on offering details, see [View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-service-details.md).
 
 </td></tr></tbody>
 </table>## Risk tab
@@ -246,16 +247,16 @@ The configuration items \(CIs\) for the service instance. The number of CIs is i
 
 The Needs attention panel includes the following icons for service instances:
 
--   Needs attention icon \(![Needs attention icon](../../../administer/on-call-scheduling/image/icon-information.png)\) to show or hide the Needs attention panel.
--   Contacts icon \(![Contacts icon.](../image/contacts.png)\) to view team members and teams for the record.
--   Attachments icon \(![Attachments icon.](../image/attachment.png)\) to view and add attachments to the record.
+-   Needs attention icon \(\[Omitted image "icon-information.png"\] Alt text: Needs attention icon\) to show or hide the Needs attention panel.
+-   Contacts icon \(\[Omitted image "contacts.png"\] Alt text: Contacts icon.\) to view team members and teams for the record.
+-   Attachments icon \(\[Omitted image "attachment.png"\] Alt text: Attachments icon.\) to view and add attachments to the record.
 
 **Related topics**  
 
 
-[Enterprise portfolios](dpm-enterprise-portfolios.md)
+[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
 
-[Create enterprise portfolios in Digital Portfolio Management](../task/dpm-create-enterprise-portfolios.md)
+[Create enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolios.md)
 
-[Work with Needs attention panels in Digital Portfolio Management](dpm-needs-attn-panels.md)
+[Work with Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-needs-attn-panels.md)
 

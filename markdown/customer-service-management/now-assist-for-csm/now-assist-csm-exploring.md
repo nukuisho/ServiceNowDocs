@@ -2,12 +2,13 @@
 title: Exploring Now Assist for Customer Service Management \(CSM\)
 description: With the Now Assist for Customer Service Management \(CSM\) application, your agents can use generative AI to summarize the customer chat conversations and case details to get the context of the case. They can also generate the case resolution notes to share with the other agents and wrap up cases faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 12
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Now Assist for CSM, Customer Service Management]
 ---
@@ -15,8 +16,6 @@ breadcrumb: [Now Assist for CSM, Customer Service Management]
 # Exploring Now Assist for Customer Service Management \(CSM\)
 
 With the Now Assist for Customer Service Management \(CSM\) application, your agents can use generative AI to summarize the customer chat conversations and case details to get the context of the case. They can also generate the case resolution notes to share with the other agents and wrap up cases faster.
-
-Summarize a chat with Now Assist for Customer Service Management.
 
 ## Now Assist for Customer Service Management \(CSM\) overview
 
@@ -36,6 +35,9 @@ The following generative AI capabilities are available for an agent:
 -   Conversational subflows and actions in the Now Assist panel use natural language to trigger subflows or actions, improving agent productivity and allowing them to complete tasks efficiently within the panel.
 
 -   The Portal case form guides requesters through a self-service flow using Genius Results, helping them find solutions and reducing the number of cases created.
+-   Automated quality assurance dashboard displays detailed agent performance metrics and quality assurance scoring data, accessible from the CSM Configurable Workspace.
+-   Special handling notes summarization skill condenses lengthy or multiple special handling notes into a brief, actionable summary. Agents view the summary in the Case Insights section to understand customer-specific handling requirements before engaging.
+-   Customer summarization skill generates a concise, consolidated summary of a customer for the agent to understand the details before engaging.
 
 ## Now Assist for Customer Service Management \(CSM\) skills
 
@@ -52,13 +54,13 @@ The Now Assist for CSM application includes the generative AI skills that enable
 
         **Note:** If a chat summary isn’t available for the interaction, the **Chat Summary** field doesn’t appear on the interaction record.
 
-    ![AI-generated chat summaries for an interaction.](../image/now-assist-csm-chat-summary.png "Interaction record with chat summaries")
+    \[Omitted image "now-assist-csm-chat-summary.png"\] Alt text: AI-generated chat summaries for an interaction.
 
 -   **Sidebar discussion summarization**
 
     Provides an agent with a summary of the sidebar discussions between agents, requesters, and subject matter experts. An agent can also post the summary to the case work notes for further troubleshooting before or after the chat ends.
 
-    ![Choose participants to start a discussion.](../image/now-assist-sidebar-discussion.png "Sidebar discussion modal")
+    \[Omitted image "now-assist-sidebar-discussion.png"\] Alt text: Choose participants to start a discussion.
 
 -   **Chat reply recommendation**
 
@@ -66,7 +68,7 @@ The Now Assist for CSM application includes the generative AI skills that enable
 
     The chat reply recommendation skill displays a pop-up window that an agent can use to generate a recommendation and review it before sending it as a reply.
 
-    ![Modal that enables an agent to generate a reply recommendation from a chat.](../image/now-assist-chat-reply-recommendation.png "Now Assist context menu")
+    \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that enables an agent to generate a reply recommendation from a chat.
 
 -   **Case summarization**
 
@@ -80,7 +82,7 @@ The Now Assist for CSM application includes the generative AI skills that enable
     -   Additional comments
     -   Email
     -   Service level agreement \(SLA\)
-    ![AI-generated case summary for a case record.](../image/now-assist-csm-case-summary.png "Case record with case summary")
+    \[Omitted image "now-assist-csm-case-summary.png"\] Alt text: AI-generated case summary for a case record.
 
 -   **Email response**
 
@@ -88,7 +90,7 @@ The Now Assist for CSM application includes the generative AI skills that enable
 
     The email response skill displays a pop-up window that an agent can use to generate a recommendation and review it before sending it as a reply.
 
-    ![Pop-up window that an agent can use to generate a recommendation and review it before sending it as a reply in an email.](../image/now-assist-email-reply-recommendation.png "Now Assist context menu modal")
+    \[Omitted image "now-assist-email-reply-recommendation.png"\] Alt text: Pop-up window that an agent can use to generate a recommendation and review it before sending it as a reply in an email.
 
 -   **Resolution notes generation**
 
@@ -96,7 +98,7 @@ The Now Assist for CSM application includes the generative AI skills that enable
 
     The resolution notes that generation skill displays a pop-up window that an agent can use to select a resolution code and review the resolution notes text before proposing a resolution to a customer.
 
-    ![AI-generated resolution information for a case record.](../image/now-assist-csm-propose-solution-modal.png "Resolution notes generation pop-up window")
+    \[Omitted image "now-assist-csm-propose-solution-modal.png"\] Alt text: AI-generated resolution information for a case record.
 
     **Note:** The resolution notes generation skill requires a minimum of 50 words in the case record to generate the resolution notes. If the resolution notes can't be generated, the system displays a message below the **Resolution notes** field.
 
@@ -106,7 +108,7 @@ The Now Assist for CSM application includes the generative AI skills that enable
 
     The knowledge generation skill displays a pop-up window that an agent can use to generate a knowledge article that is based on similar cases and review it before publishing the knowledge article draft.
 
-    ![Al-generated knowledge article information for a case record.](../image/now-assist-kb-dialog-box.png "Knowledge article generation pop-up window")
+    \[Omitted image "now-assist-kb-dialog-box.png"\] Alt text: Al-generated knowledge article information for a case record.
 
 -   **Call summarization**
 
@@ -117,46 +119,58 @@ The Now Assist for CSM application includes the generative AI skills that enable
         **Note:** If a call summary isn’t available for the interaction, the **Chat Summary** field doesn't appear on the interaction record.
 
     -   Call summary from the Now Assist panel: Creates a summary of the conversation between the agent and customer from the Now Assist panel by selecting **Summarize conversation**.
-    ![AI-generated call summary for an interaction.](../image/now-assist.csm-call-summary.png "Interaction record with call summary")
+    \[Omitted image "now-assist.csm-call-summary.png"\] Alt text: AI-generated call summary for an interaction.
 
 
 ## Sentiment analysis on a case
 
 Sentiment analysis helps reduce escalated cases by providing agents with the most current sentiment on a case, based on customer interactions and the latest trends. It also offers insights into why the sentiment is what it is today.
 
-![The case shows that the sentiment is positive and improving](../image/sentiment-analysis-form-view-configurable-workspace.png "Sentiment analysis on a case") ![]( "Sentiment analysis on a case")
+\[Omitted image "sentiment-analysis-form-view-configurable-workspace.png"\] Alt text: The case shows that the sentiment is positive and improving \[Omitted image ""\]
 
 ## Sentiment analysis on an account
 
 Track the sentiment of a business-to-business account using filters and sorting dashboards to gain valuable insights and reduce escalated cases.
 
-![Sentiment on accounts showing trends in the dashboard view](../image/sentiment-analysis-dashboard.png "Sentiment analysis on an account")
+\[Omitted image "sentiment-analysis-dashboard.png"\] Alt text: Sentiment on accounts showing trends in the dashboard view
 
 ## Conversational subflows and actions in Now Assist panel
 
-Use natural language to trigger subflows or actions, enhancing agent productivity and allowing them to complete tasks efficiently within the Now Assist panel. For more info, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](../task/request-gen-ai-capabilities-csm-now-assist-panel.md).
+Use natural language to trigger subflows or actions, enhancing agent productivity and allowing them to complete tasks efficiently within the Now Assist panel. For more info, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
 
 ## Now Assist in Portal case form
 
-Guide requesters through a self-service flow using Genius Results to find solutions and reduce the number of cases created. For more info, see [Using Now Assist in portal case form](using-ai-search-with-q-a-within-the-portal-form.md).
+Guide requesters through a self-service flow using Genius Results to find solutions and reduce the number of cases created. For more info, see [Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md).
 
 ## Suggested steps generation
 
 Suggested steps generation may help resolve cases and boost agent productivity by outlining the next best actions for unfamiliar cases in the Recommended Actions tab.
 
-![Suggested steps by Now Assist to resolve the issue](../image/suggested-steps.png "Suggested steps")
+\[Omitted image "suggested-steps.png"\] Alt text: Suggested steps by Now Assist to resolve the issue
 
 ## Activity response generation
 
-Use the activity response generation skill to automatically generate recommendations for resolution notes, work notes, and comments. This feature helps agents add meaningful updates to case records, improving efficiency, and interaction. For more info, see [Generate activity stream responses](../task/generate-a-recommendation-to-respond-to-an-activity.md).
+Use the activity response generation skill to automatically generate recommendations for resolution notes, work notes, and comments. This feature helps agents add meaningful updates to case records, improving efficiency, and interaction. For more info, see [Generate activity stream responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/generate-a-recommendation-to-respond-to-an-activity.md).
 
 ## Trending topics dashboard
 
-Get a comprehensive view of trending topics across cases along with insights and visualizations to facilitate deeper analysis. This feature helps support teams track trend progression, regional impact, and drill down into specific trends using customizable filters. For more info, see [View trending topics dashboard](view-trending-topics-dashboard.md). ![Dashboard showing trending topics with a table of top 10 trends and metrics, with colorful bar charts for GenAI generated insights on impacted accounts, products, assignment groups, and channels.](../image/trending-topics-dashboard.png)
+Get a comprehensive view of trending topics across cases along with insights and visualizations to facilitate deeper analysis. This feature helps support teams track trend progression, regional impact, and drill down into specific trends using customizable filters. For more info, see [View trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/view-trending-topics-dashboard.md). \[Omitted image "trending-topics-dashboard.png"\] Alt text: Dashboard showing trending topics with a table of top 10 trends and metrics, with colorful bar charts for GenAI generated insights on impacted accounts, products, assignment groups, and channels.
 
 ## Sentiment analysis dashboard
 
-Get a comprehensive view of customer sentiment across cases and accounts. The dashboard uses Now LLM Service insights to explain sentiment changes and lets you drill down to find root causes—helping teams take targeted actions. For more info, see [Use sentiment analysis dashboard](use-sentiment-analysis-dashboard.md). ![Dashboard showing sentiment trend line chart, sentiment breakdown by channel, and multiple bar charts for negative and positive drivers, assignment groups, escalation impact, and case counts by channel.](../image/sentiment-trends-dashboard.png)
+Get a comprehensive view of customer sentiment across cases and accounts. The dashboard by default uses Azure to explain sentiment changes and lets you drill down to find root causes—helping teams take targeted actions. For more info, see [Use sentiment analysis dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-sentiment-analysis-dashboard.md). \[Omitted image "sentiment-trends-dashboard.png"\] Alt text: Dashboard showing sentiment trend line chart, sentiment breakdown by channel, and multiple bar charts for negative and positive drivers, assignment groups, escalation impact, and case counts by channel.
+
+## Automated quality assurance
+
+View detailed agent performance metrics and quality assurance scoring data on the automated quality assurance dashboard, accessible from the CSM Configurable Workspace
+
+## Special handling notes summarization
+
+Use the Special handling notes summarization skill to condense lengthy or multiple special handling notes into a brief, actionable summary.
+
+## Customer summarization
+
+Use the Customer summarization skill for Now Assist for CSM to generate a concise, consolidated summary of a customer \(account or consumer\) rather than a single caes.The skill synthesizes information across the customer's record so agents can understand who the customer is and their current situation before engaging.
 
 ## Now Assist panel in CSM Configurable Workspace
 
@@ -164,22 +178,22 @@ An agent can use the Now Assist panel in CSM Configurable Workspace. This conver
 
 ## Now Assist in AI Search
 
-The Now Assist in AI Search application uses Now LLM Service to extract actionable Q&amp;A Genius Result answers from the knowledge articles that are found in Service Portal, Virtual Agent, Employee Center, and global searches. By using this application, an agent can improve the customer's experience by retrieving the relevant content from the knowledge base and generating concise answers. For more information, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-ais.md).
+The Now Assist in AI Search application uses Now LLM Service to extract actionable Q&amp;A Genius Result answers from the knowledge articles that are found in Service Portal, Virtual Agent, Employee Center, and global searches. By using this application, an agent can improve the customer's experience by retrieving the relevant content from the knowledge base and generating concise answers. For more information, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md).
 
 ## Now Assist in Virtual Agent
 
-Now Assist in the Virtual Agent guided setup can reduce the time and effort needed to deploy Now Assist within Virtual Agent. Your administrators can configure features and skills as well as sources of information such as knowledge bases and catalogs. For more information, see [Configure Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+Now Assist in the Virtual Agent guided setup can reduce the time and effort needed to deploy Now Assist within Virtual Agent. Your administrators can configure features and skills as well as sources of information such as knowledge bases and catalogs. For more information, see [Configure Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
-With the Now Assist Multi-Turn Catalog Requests skill, your customers can engage with Virtual Agent in a conversational manner to request catalog items. A customer can request an item and then refine their search by providing additional information. For more information, see [Multi-turn catalog ordering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md#section_pl4_zjw_jzb).
+With the Now Assist Multi-Turn Catalog Requests skill, your customers can engage with Virtual Agent in a conversational manner to request catalog items. A customer can request an item and then refine their search by providing additional information. For more information, see [Multi-turn catalog ordering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md#section_pl4_zjw_jzb).
 
 ## Sensitive data handling
 
 Personally identifiable information and other sensitive data can be masked so that it does not appear in generative AI prompts. Placeholder text is sent with the prompt instead, and that placeholder text is replaced with the original text after the response has been received. This two-way masking ensures that your users see the correct values, but the Now LLM Service is not exposed to any sensitive information. For more information, see Multi-turn catalog ordering.
 
--   **[Supporting information for Now Assist for Customer Service Management \(CSM\)](now-assist-csm-supporting-info.md)**  
+-   **[Supporting information for Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)**  
 Get a quick overview of the important information that is related to the Now Assist for Customer Service Management \(CSM\) application.
 
-**Parent Topic:**[Now Assist for Customer Service Management \(CSM\)](now-assist-csm.md)
+**Parent Topic:**[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
 **Related topics**  
 

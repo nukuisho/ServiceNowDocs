@@ -2,6 +2,7 @@
 title: Evaluate equality between date values
 description: Date comparison evaluates a match for one of several date increments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_EvaluatingEqualityBetweenDates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: none
 
 You can specify granularity to the hour, day, week, month, quarter, or year. For example, the filter **\[Created on\] \[is same\] \[Week\] as \[Closed\]** returns records that were closed in the same week that they were opened. When you run this type of filter, be sure to specify the year in an additional filter condition of **\[Created\] \[is same\] \[Year\] as \[Closed\]** to eliminate records that were created a year before they were closed.
 
-![](../image/DatesFieldComparison.png "Date field comparison")
+\[Omitted image "DatesFieldComparison.png"\] Alt text:
 
 ## Procedure
 
@@ -49,5 +50,5 @@ You can specify granularity to the hour, day, week, month, quarter, or year. For
 6.  Click **Run**.
 
 
-**Parent Topic:**[Comparing field values](../reference/r_ComparingFieldValues.md)
+**Parent Topic:**[Comparing field values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_ComparingFieldValues.md)
 

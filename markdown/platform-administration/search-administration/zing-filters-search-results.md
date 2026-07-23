@@ -2,6 +2,7 @@
 title: Zing filters search results with access controls
 description: Zing filters search results to only display records the user can access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/zing-filters-search-results.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -17,38 +18,38 @@ Zing filters search results to only display records the user can access.
 
 For example, suppose you index the System Property \[sys\_properties\] table. When the ITIL user searches for a term in the System Property table, Zing returns no search results because the ITIL user doesn't meet the ACL rule requirements.
 
-![Empty search results page for ITIL user search in System Property table.](../image/ITILUserSearch.png "ITIL User Search")
+\[Omitted image "ITILUserSearch.png"\] Alt text: Empty search results page for ITIL user search in System Property table.
 
 When a system administrator searches for the same property, Zing returns search results from the System Property table because the administrator meets the ACL rule requirements.
 
-![Search results for system administrator search in System Property table.](../image/SystemAdministratorSearch.png "System Administrator Search")
+\[Omitted image "SystemAdministratorSearch.png"\] Alt text: Search results for system administrator search in System Property table.
 
-**Parent Topic:**[Zing text indexing and search engine](c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 
 
-[Features of Zing text indexing and search engine](../reference/features-zing.md)
+[Features of Zing text indexing and search engine]()
 
-[Available search options](c_IntroductionToSearching.md)
+[Available search options]()
 
-[Global search finds records from multiple tables](c_GlobalTextSearch.md)
+[Global search finds records from multiple tables]()
 
-[Zing generates search results in four phases](c_SearchProcess.md)
+[Zing generates search results in four phases]()
 
-[Zing computes document scores using three components](c_DocumentScoring.md)
+[Zing computes document scores using three components]()
 
-[Zing indexes words](zing-indexes-words.md)
+[Zing indexes words]()
 
-[Zing can include attachments in search results](c_SearchingForAttachments.md)
+[Zing can include attachments in search results]()
 
-[Zing removes stop words from queries](stop-words-removed-from-queries.md)
+[Zing removes stop words from queries]()
 
-[Zing matches derived words with stemming](stemming-matches-derived-words.md)
+[Zing matches derived words with stemming]()
 
-[Zing can expand search results with synonyms](search-synonyms-expand-results.md)
+[Zing can expand search results with synonyms]()
 
-[Zing displays search suggestions as users enter search terms](search-suggestions-zing.md)
+[Zing displays search suggestions as users enter search terms]()
 
-[Installed with Zing](../reference/installed-with-zing.md)
+[Installed with Zing]()
 

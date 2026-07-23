@@ -2,13 +2,14 @@
 title: Submit a workplace contract for review in Workplace Central
 description: You can send a contract that is in Draft state for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-submit-lease-contract-review.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with Workplace Lease Administration from the Workplace Central, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Working with Workplace Lease Administration from the Workplace Central, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Submit a workplace contract for review in Workplace Central
@@ -36,12 +37,12 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 An email message is sent to the selected approver and the contract substate changes to Under Review.
 
-**Parent Topic:**[Working with Workplace Lease Administration from the Workplace Central](../concept/working-with-lease-administration.md)
+**Parent Topic:**[Working with Workplace Lease Administration from the Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/working-with-lease-administration.md)
 
 **Related topics**  
 
 
-[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+[Create workplace contracts in Workplace Central]()
 
-[Approve or reject workplace contract in Workplace Central](wpc-approve-lease-contract.md)
+[Approve or reject workplace contract in Workplace Central]()
 

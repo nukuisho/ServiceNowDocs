@@ -2,6 +2,7 @@
 title: Retire a remote catalog item
 description: Retire a product offering or service specification used in a remote catalog, which automatically retires the corresponding remote record producer. When the remote record producer is retired, the remote catalog item is removed automatically from the service catalog on the consumer instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/retire-product-offer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_cata
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace on the provider instance, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace on the provider instance, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to the published product offering or service specification to be retired.
 

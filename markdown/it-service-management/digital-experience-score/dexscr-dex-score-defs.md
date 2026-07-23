@@ -2,11 +2,12 @@
 title: Metric scores in Digital Experience Score​
 description: Learn more about the different qualitative and quantitative metrics in the Digital Experience Score​ dashboard, which provides end-to-end visibility into your employees' digital experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-dex-score-defs.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Explore, Digital Experience Score, Digital End-User Experience, IT Service Management]
 ---
@@ -21,7 +22,7 @@ This metric measures the overall employee experience with devices and applicatio
 
 This metric score is rolled up from the following two metric scores: Application experience score and Device experience score.
 
-![Chart representing the hierarchy of metrics score considered in Digital Experience Score​.](../image/dex-score-hierarchy.png "Digital Experience Score​ hierarchy")
+\[Omitted image "dex-score-hierarchy.png"\] Alt text: Chart representing the hierarchy of metrics score considered in Digital Experience Score​.
 
 ## Application experience score
 
@@ -72,7 +73,7 @@ The device experience score is the average device experience score of DEX monito
 **Related topics**  
 
 
-[DEX Score metrics calculation](../reference/dexscr-dex-score-metrics-calc.md)
+[DEX Score metrics calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-metrics-calc.md)
 
-[DEX Score normalization for metric scores](../reference/dexscr-dex-score-normalization.md)
+[DEX Score normalization for metric scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-normalization.md)
 

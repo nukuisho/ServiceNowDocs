@@ -2,6 +2,7 @@
 title: Using Troubleshooting steps identification AI agent
 description: The Troubleshooting steps identification AI agent fetches the context from a case, identifies the missing context by comparing it with knowledge articles, similar cases, and standard operating documents, and then proposes additional troubleshooting steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/troubleshooting-steps-identification-ai-agent.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -18,7 +19,7 @@ The Troubleshooting steps identification AI agent fetches the context from a cas
 
 ## Troubleshooting steps identification AI agent overview
 
-![Troubleshooting steps identification AI agent providing suggested resolution steps for a case.](../image/nowassist-troubleshooting-agent.png)
+\[Omitted image "nowassist-troubleshooting-agent.png"\] Alt text: Troubleshooting steps identification AI agent providing suggested resolution steps for a case.
 
 This agent is typically used in standalone mode. Any agentic workflow that interacts with Customer Service Management \(CSM\) cases can use it.
 
@@ -32,7 +33,7 @@ Agentic workflows can access this AI agent in Core UI or CSM/FSM workspace.
 
 ## Configure AI Search for the Troubleshooting steps identification AI agent
 
-You must configure AI Search so that this AI agent can fetch similar cases and relevant knowledge articles For more information, see [Configure AI Search to use with the Troubleshooting steps identification AI agent](../task/configure-ai-search-troubleshooting-ai-agent.md) and [Configure the Troubleshooting steps identification AI agent to use the Search retrieval tool](../task/enhance-search-retrieval-tool-troubleshooting-steps-ai-agent.md).
+You must configure AI Search so that this AI agent can fetch similar cases and relevant knowledge articles For more information, see [Configure AI Search to use with the Troubleshooting steps identification AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-ai-search-troubleshooting-ai-agent.md) and [Configure the Troubleshooting steps identification AI agent to use the Search retrieval tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/enhance-search-retrieval-tool-troubleshooting-steps-ai-agent.md).
 
 ## Limitations
 
@@ -47,7 +48,7 @@ The document types supported for AI Search and document processing are:
 
 When fetching text from knowledge articles, this AI agent can fetch only the **article\_body** field from the kb\_knowledge table.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 

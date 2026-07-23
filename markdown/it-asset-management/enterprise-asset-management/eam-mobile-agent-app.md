@@ -2,13 +2,14 @@
 title: Mobile Agent application for Enterprise Asset Management
 description: You can use the ServiceNow Mobile Agent application to create, update, and view your enterprise assets. You can also use the application to scan enterprise assets for inventory audits and to complete verifications and departures for asset disposals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/eam-mobile-agent-app.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Explore, Enterprise Asset Management, Asset Management]
 ---
 
 # Mobile Agent application for Enterprise Asset Management
@@ -22,5 +23,5 @@ See [Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 **Related topics**  
 
 
-[Managing enterprise assets and tasks using the Mobile Agent application](manage-enterprise-assets-tasks-mobile-app.md)
+[Managing enterprise assets and tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-enterprise-assets-tasks-mobile-app.md)
 

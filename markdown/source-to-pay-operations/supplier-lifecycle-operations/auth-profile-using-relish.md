@@ -2,6 +2,7 @@
 title: Set up authentication profile using Relish credentials
 description: Create a basic authentication profile that can be used for web service integration with Relish. Register the Relish user name and password to create the authentication profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/auth-profile-using-relish.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -45,10 +46,14 @@ Role required: admin
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Relish Integration for Supplier Lifecycle Operations](../concept/relish-slo-connector.md)
+## Result
+
+The authentication profile is now linked and can be tested.
+
+**Parent Topic:**[Relish Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.md)
 
 **Related topics**  
 
 
-[Relish Integration for Supplier Lifecycle Operations](../concept/relish-slo-connector.md)
+[Relish Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/relish-slo-connector.md)
 

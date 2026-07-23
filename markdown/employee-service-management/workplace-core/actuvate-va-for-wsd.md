@@ -2,13 +2,14 @@
 title: Activate Virtual Agent for Workplace Service Delivery
 description: Activate Virtual Agent for Workplace Service Delivery to provide user assistance to employees through a chat interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/actuvate-va-for-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Workplace Core, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Activate Virtual Agent for Workplace Service Delivery
@@ -30,7 +31,7 @@ Role required: admin
 
 2.  Find the application using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
@@ -51,14 +52,14 @@ Role required: admin
     **Important:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
 
-**Parent Topic:**[Configure Workplace Core](../concept/configure-wsd.md)
+**Parent Topic:**[Configure Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-wsd.md)
 
 **Related topics**  
 
 
-[Install Workplace Core](install-workplace-service-delivery.md)
+[Install Workplace Core]()
 
-[Providing your workplace data](../concept/providing-your-workplace-data-wsd.md)
+[Providing your workplace data]()
 
-[Configuring spreadsheets to import workplace data](../concept/importing-workspace-data-wsd.md#)
+[Configuring spreadsheets to import workplace data]()
 

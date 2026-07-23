@@ -2,6 +2,7 @@
 title: Mobile text search
 description: Find items, articles, and people by entering text in the search area.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-text-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,20 +16,20 @@ Find items, articles, and people by entering text in the search area.
 
 Use search in the launcher screen header to quickly find information within the defined search sources while on your mobile device.
 
-Your administrator can configure a search area within launcher screen headers and define a set of tables that can be searched through. There are two search engine types which your administrator can configure, Zing text indexing and search engine and AI Search. Zing search is available throughout all mobile platforms, whereas AI Search is available only on Now Mobile. For details on how an administrator can configure this features, see [Enable global search in your screen launcher](../task/sg-configure-alp-search.md).
+Your administrator can configure a search area within launcher screen headers and define a set of tables that can be searched through. There are two search engine types which your administrator can configure, Zing text indexing and search engine and AI Search. Zing search is available throughout all mobile platforms, whereas AI Search is available only on Now Mobile. For details on how an administrator can configure this features, see [Enable global search in your screen launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-alp-search.md).
 
 The appearance and capabilities of the Zing and AI Search results differ. You may notice this difference as admins can configure the different search engines on different launcher screens throughout a single instance.
 
 <table id="table_arb_qnd_h4b"><tbody><tr><td>
 
-![Display of Zing global search results.](../image/launcher-global-search-cropped.png "Zing (global) search results")
+\[Omitted image "launcher-global-search-cropped.png"\] Alt text: Display of Zing global search results.
 
 </td><td>
 
-![Display of AI Search search results.](../image/launcher-ais-search.png "AI Search search results")
+\[Omitted image "launcher-ais-search.png"\] Alt text: Display of AI Search search results.
 
 </td></tr></tbody>
-</table>Both search engines provide search suggestions as you type. They also include navigation tab filters which streamline the results displayed to help you find your specific answer. Zing search engine is available for all mobile platforms and utilizes additional data sources not associated with AI Search, such as CMDB records. For a list of tables that AI Search doesn't support for indexing, see [ServiceNow AI Platform tables excluded from AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md).
+</table>Both search engines provide search suggestions as you type. They also include navigation tab filters which streamline the results displayed to help you find your specific answer. Zing search engine is available for all mobile platforms and utilizes additional data sources not associated with AI Search, such as CMDB records. For a list of tables that AI Search doesn't support for indexing, see [ServiceNow AI Platform tables excluded from AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/reference-ais.md).
 
 AI Search has the following additional capabilities and behaviors to assist you in your search.
 

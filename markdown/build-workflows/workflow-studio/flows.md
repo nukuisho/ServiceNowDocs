@@ -2,6 +2,7 @@
 title: Building flows
 description: Workflow Studio is the default ServiceNow AI Platform process automation builder used to create flows. Workflow Studio replaces the Workflow Editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flows.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -25,11 +26,11 @@ By default, flows can have no more than 50 actions. To change the default behavi
 
 ## Missing actions
 
-If an administrator added your flow from an update set, you might have some missing actions in your flow. This normally happens when your instance doesn't have the appropriate Integration Hub spokes installed. For more information on how to install the spokes you need to get these actions to appear, see [spokes](spokes.md).
+If an administrator added your flow from an update set, you might have some missing actions in your flow. This normally happens when your instance doesn't have the appropriate Integration Hub spokes installed. For more information on how to install the spokes you need to get these actions to appear, see [spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md).
 
 ## More Actions menu
 
-Select the **More Actions** icon \(![More Actions icon](../images/MoreActionsIcon.png)\) to access additional options for your flow.
+Select the **More Actions** icon \(\[Omitted image "MoreActionsIcon.png"\] Alt text: More Actions icon\) to access additional options for your flow.
 
 -   **Stages**
 
@@ -61,7 +62,7 @@ Select the **More Actions** icon \(![More Actions icon](../images/MoreActionsIco
 
 -   **Change default flow title**
 
-    Change the default title for your flow by adding styled or dynamic text. For more information, see [Create a natural language title](../task/manage-natural-language-title.md).
+    Change the default title for your flow by adding styled or dynamic text. For more information, see [Create a natural language title](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-natural-language-title.md).
 
 
 ## Testing flows
@@ -74,7 +75,7 @@ You can test a flow directly from the Workflow Studio interface. Each test runs 
 
 Each time you test a flow, the system generates flow execution records, log messages, and reports. The flow context is a related record containing the current state and runtime values of the flow. The system generates a context record each time a flow is run.
 
-Optionally, you can configure the system to generate execution details anytime a flow is run, not just during testing. For more information, see [Activate flow reporting](../task/enable-flow-reporting.md#).
+Optionally, you can configure the system to generate execution details anytime a flow is run, not just during testing. For more information, see [Activate flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-flow-reporting.md).
 
 ## Flow properties
 
@@ -128,7 +129,7 @@ Run As
 
 Option to specify the user that runs the flow. You can select the system user or the user who initiates the session. Select the user who initiates the session option when updates should come from the user who triggered the flow. For example, use this option when you want the incident record comments to come from the user who started the flow. Settings for the Run as option in a flow don't apply to child subflows.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/oauth-2-credentials.md).
 
 </td></tr><tr><td>
 
@@ -151,17 +152,17 @@ To access Flows, a user must have the flow\_designer or admin roles.
 
 Flows should be short, modular, reusable collections of work. If they take more than an hour to execute, they’re probably too long and can be more efficient.
 
-Any general guidelines that apply to flows also apply to [subflows](flows.md#subflows-design-considerations).
+Any general guidelines that apply to flows also apply to [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
 
 -   **Prevent conflicting or duplicate business logic**
 
-    Automations can be created with Flow Designer, business rules, workflows, and Integration Hub. Before you start using Workflow Studio, make sure you understand how existing ServiceNow AI Platform automations work. Deactivate automations before replacing them with Workflow Studio flows and actions. See the [Architecture Overview](flow-designer-arch-overview.md) to learn how Workflow Studio works within the ServiceNow AI Platform.
+    Automations can be created with Flow Designer, business rules, workflows, and Integration Hub. Before you start using Workflow Studio, make sure you understand how existing ServiceNow AI Platform automations work. Deactivate automations before replacing them with Workflow Studio flows and actions. See the [Architecture Overview]() to learn how Workflow Studio works within the ServiceNow AI Platform.
 
-    Review [Flows](flows.md), [Sub-flows](subflows.md), and [Actions](actions.md) documentation, if necessary.
+    Review [Flows](), [Sub-flows](), and [Actions]() documentation, if necessary.
 
 -   **Determine whether your flow needs a trigger or variable input**
 
-    Flows always run when their trigger conditions are met. Triggers always provide the same data as input for flows. If you need variable input to initiate a flow instead, create a [subflow](flows.md#subflows-design-considerations).
+    Flows always run when their trigger conditions are met. Triggers always provide the same data as input for flows. If you need variable input to initiate a flow instead, create a [subflow]().
 
 -   **Reuse business logic**
 
@@ -173,7 +174,7 @@ Any general guidelines that apply to flows also apply to [subflows](flows.md#sub
 
 -   **Use flow logic or a schedule-based trigger to control flow timing**
 
-    Flow logic or schedule-based triggers help to optimize the performance of your flows. Do not use the gs.sleep\(\) method to wait within a flow. The gs.sleep\(\) method prevents the thread from performing other work. To run a flow at a specific time, use a schedule-based trigger. To pause a flow for a specific duration, use the [Wait for a duration](flow-logic-wait-for-a-duration.md) or [wait for condition](../reference/wait-for-condition-flow-designer.md) flow logic.
+    Flow logic or schedule-based triggers help to optimize the performance of your flows. Do not use the gs.sleep\(\) method to wait within a flow. The gs.sleep\(\) method prevents the thread from performing other work. To run a flow at a specific time, use a schedule-based trigger. To pause a flow for a specific duration, use the [Wait for a duration]() or [wait for condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/wait-for-condition-flow-designer.md) flow logic.
 
 -   **Avoid dependencies**
 
@@ -192,9 +193,9 @@ Any general guidelines that apply to flows also apply to [subflows](flows.md#sub
     -   Set max records on Look Up Records to 1000.
     -   Avoid changing property sn\_flow\_designer.max\_iterations, which defaults to 1000.
     -   For large amounts of data processing, consider batching into smaller batches.
-    -   For bulk imports, consider [concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/concurrent-imports.md).
+    -   For bulk imports, consider concurrent imports.
 -   **Use QuickAPI for faster executions \(business rule alternative\)**
-    -   [QuickAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowRunnerScopedAPI.md) executions are much faster, but there is less debugging capability.
+    -   QuickAPI executions are much faster, but there is less debugging capability.
     -   Foreground QuickAPI executions run in the user session as the user who called the flow.
     -   Background QuickAPI executions run in a background thread and are run in the ‘system’ user session.
 -   **Use Do Until loops instead of calling flows from themselves**
@@ -215,7 +216,7 @@ Any general guidelines that apply to flows also apply to [subflows](flows.md#sub
 
 -   **Include sys\_complex\_object records generated by the flow in update sets**
 
-    Missing [complex data](complex-data.md) schemas can cause execution issues. Make sure you include sys\_complex\_object records generated by the flow in update sets.
+    Missing [complex data]() schemas can cause execution issues. Make sure you include sys\_complex\_object records generated by the flow in update sets.
 
 -   **Calling flows from a script**
 
@@ -231,35 +232,35 @@ Any general guidelines that apply to flows also apply to [subflows](flows.md#sub
 
 -   **Turn flow reporting off in production**
 
-    Minimize the amount of memory required to run flows by disabling [Flow reporting](../task/enable-flow-reporting.md#). Flow reporting stores configuration and runtime information for the Execution Details page. These reports are good for troubleshooting, but requires a large amount of data to be retained both in memory and in the database. By default, flow reporting is disabled, and the system only generates execution details when you manually test a flow or action. Instead you can use log files, which are still available when reporting is turned off.
+    Minimize the amount of memory required to run flows by disabling [Flow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-flow-reporting.md). Flow reporting stores configuration and runtime information for the Execution Details page. These reports are good for troubleshooting, but requires a large amount of data to be retained both in memory and in the database. By default, flow reporting is disabled, and the system only generates execution details when you manually test a flow or action. Instead you can use log files, which are still available when reporting is turned off.
 
 -   **Reduce the amount of memory consumed in flows with nested looping**
 
     When reporting is activated, set com.snc.process\_flow.reporting.iteration.lastn to a value of "1" to reduce the amounts of the amounts of memory that previous loop iterations consume. The more iterations you report on, the more memory is required.
 
 
--   **[Create a flow in Workflow Studio](../task/create-flow.md)**  
+-   **[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)**  
 Run a sequence of actions and flow logic when the trigger conditions occur.
--   **[Default read-only flows](default-read-only-flows.md)**  
+-   **[Default read-only flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/default-read-only-flows.md)**  
 Open existing flows in a read-only state to protect them from accidental changes. While a flow is in a read-only state, you can only review, test, deactivate, or request to edit it.
--   **[Flow and subflow stages](flow-designer-stages.md)**  
+-   **[Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-stages.md)**  
 Communicate the current stage of a request, flow, or subflow with an end user.
--   **[Flow error handler](flow-error-handler.md)**  
+-   **[Flow error handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-error-handler.md)**  
 Enable flows to catch errors. Run a sequence of actions and subflows to identify and correct issues. For example, have flows log output values, send notifications, and run corrective subflows when they produce an error.
--   **[Flow history](flow-history.md)**  
+-   **[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-history.md)**  
 View and manage the history of a flow. See past configurations of a flow to copy, restore, or remove them.
--   **[Flow roles](flow-roles.md)**  
+-   **[Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-roles.md)**  
 Create flows and subflows that run with specific roles. Assigning roles enables you to create user-initiated flows that run with their own roles rather than the user's roles.
--   **[Flow Template Builder](flow-template.md#)**  
+-   **[Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-template.md)**  
 Enable citizen developers to create their own flow templates. Flow Templates guide flow authors to create flows for common use cases. Use the flow template builder to define flows, actions, and flow template variables.
--   **[Inline scripts](inline-scripts.md)**  
+-   **[Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md)**  
 Enable users with coding experience to write inline scripts that set and modify input values during the configuration of an action or flow. Use inline scripts to modify input values that require small format conversions, data transformations, or math operations.
--   **[Save as you go flows](save-as-you-go-flows.md)**  
+-   **[Save as you go flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/save-as-you-go-flows.md)**  
 Save flows, subflows, and actions automatically as you work on them.
--   **[Summarize a flow](../task/summarize-a-flow.md)**  
+-   **[Summarize a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/summarize-a-flow.md)**  
 Generate a summary of a flow with Now Assist for Creator.
--   **[Flow variables](flow-variables.md)**  
+-   **[Flow variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-variables.md)**  
 Similar to Workflow scratchpad variables, create variables that you can use and modify directly in your flow. Access flow variables as data pills directly in the Data panel.
 
-**Parent Topic:**[Workflow Studio flows, subflows, and actions](../../workflow-studio/reference/workflow-studio-flows-subflows-and-actions-landing.md)
+**Parent Topic:**[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
 

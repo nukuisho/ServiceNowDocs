@@ -2,6 +2,7 @@
 title: Major Incident workbench — the Post Incident Report tab
 description: The Post Incident Report tab helps you to understand the cause of the major incident, and the actions taken by the teams to resolve the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/mi-workbench-pir-tab.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -19,7 +20,7 @@ The teams can assess the incident response and resolution process and determine 
 
 **Note:** The major incident manager can edit a report when the incident is in the **Resolved** state.
 
-![Post incident report tab](../image/mim-pir-tab.png "View of the Post Incident Report tab")
+\[Omitted image "mim-pir-tab.png"\] Alt text: Post incident report tab
 
 The post incident report includes the following sections where a major incident manager can provide required information:
 
@@ -45,16 +46,16 @@ The following links appear in the Incident form under the Related Links section:
 -   If you propose the incident as a major incident: The time indicates the time from creation of the first related alert for this incident or creation of the incident \(in case there is no alert or the Event Management plugin is inactive\), whichever occurs first, until the time the incident is first proposed as a major incident.
 -   If you create a major incident directly: The time indicates the time from creation of the first related alert for this incident or creation of the incident \(in case there is no alert or the Event Management plugin is inactive\), whichever occurs first, until the time the incident is promoted as a major incident.
 
-**Parent Topic:**[Major incident workbench UI elements](mi-workbench-ui-elements.md)
+**Parent Topic:**[Major incident workbench UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/mi-workbench-ui-elements.md)
 
 **Related topics**  
 
 
-[Major Incident workbench — Summary tab](mi-workbench-summary-tab.md)
+[Major Incident workbench — Summary tab]()
 
-[The Communicate tab in the Major Incident workbench](mi-workbench-communicate-tab.md)
+[The Communicate tab in the Major Incident workbench]()
 
-[Major Incident workbench — the Collaborate tab](mi-workbench-collaborate-tab.md)
+[Major Incident workbench — the Collaborate tab]()
 
-[Associate a new post incident report](../task/asso-new-post-incident-report.md)
+[Associate a new post incident report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/asso-new-post-incident-report.md)
 

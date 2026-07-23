@@ -2,6 +2,7 @@
 title: Configure tags for the Activity stream
 description: Configure custom tags to filter through entries in the Activity stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tags-activity-stream-admin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,13 +24,13 @@ Tags enable you to filter entries in the Activity stream by dynamic and static s
 
 **Important:** Tags are not available until you configure and create them.
 
-![Activity stream with tags](image/x-activity-tags-agent.png)
+\[Omitted image "x-activity-tags-agent.png"\] Alt text: Activity stream with tags
 
 ## Procedure
 
 1.  Open your Configurable Workspace experience in UI Builder.
 
-    For instructions, see [Open experience](task/open-your-configurable-workspace-experience-in-ui-builder.md).
+    For instructions, see [Open experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md).
 
 2.  Select a page from your experience.
 
@@ -65,14 +66,14 @@ Tags enable you to filter entries in the Activity stream by dynamic and static s
 
 8.  Select **Save**.
 
-9.  Select the slider icon \(![Sliders icon](image/x-sliders-icon.png)\) for a tag to edit it.
+9.  Select the slider icon \(\[Omitted image "x-sliders-icon.png"\] Alt text: Sliders icon\) for a tag to edit it.
 
-10. Change the order displayed to agents by dragging tags with the drag dots icon \(![Drag dots icon](image/x-drag-dots-icon.png)\).
+10. Change the order displayed to agents by dragging tags with the drag dots icon \(\[Omitted image "x-drag-dots-icon.png"\] Alt text: Drag dots icon\).
 
 
 ## Result
 
 All tags you created appear under the Tags section.
 
-![Tags property](image/x-activity-tags-admin.png)
+\[Omitted image "x-activity-tags-admin.png"\] Alt text: Tags property
 

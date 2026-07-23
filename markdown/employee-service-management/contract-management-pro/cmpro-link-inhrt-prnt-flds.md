@@ -1,33 +1,36 @@
 ---
 title: Link and inherit parent contract fields
-description: Link parent contracts during drafting and negotiation phases to establish hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
+description: Link parent contracts during drafting and negotiation phases to establish a hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-link-inhrt-prnt-flds.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Linking parent-child contracts, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Link and inherit parent contract fields
 
-Link parent contracts during drafting and negotiation phases to establish hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
+Link parent contracts during drafting and negotiation phases to establish a hierarchical relationship between the parent and child contracts, and automatically inherit the configured fields from the parent contract.
 
 ## About this task
 
-The following video walks you through the process of linking a parent contract request and inheriting its fields.Video providing step-by-step instructions on linking parent contract request and inheriting its fields, approximately one and a half minutes long. 
+This task links a parent contract request and copies configured fields from it into the child contract request. If you only want to establish the parent-child relationship without inheriting fields, use [Link parent contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-link-parent-cmr.md) instead. That action also supports contract requests in Contract signed state.
+
+The following video walks you through the process of linking a parent contract request and inheriting its fields.\[Omitted video\] Description: Video providing step-by-step instructions on linking parent contract request and inheriting its fields, approximately one and a half minutes long.
 
 ## Before you begin
 
-Ensure that the contract request is in Draft, Work in progress, or Awaiting review state.
+Verify that the contract request is in Draft, Work in progress, or Awaiting review state.
 
 You must be either assigned to the contract request or a group manager or a collaborator.
 
-Ensure that the parent contract is not a multiple contracts type third-party contract request.
+Verify that the parent contract is not a multiple contracts type third-party contract request.
 
-Ensure that the parent child mapping is configured. For more information, see [Configure field mapping for parent-child contract linking](cncor-conf-parent-child.md).
+Verify that the parent child mapping is configured. For more information, see [Configure field mapping for parent-child contract linking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncor-conf-parent-child.md).
 
 Role required: sn\_cm\_core.contract\_fulfiller
 
@@ -35,27 +38,27 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d70287e86">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d71603e96">
 
 Method
 
-</th><th align="left" id="d70287e89">
+</th><th align="left" id="d71603e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d70287e95">
+</th></tr></thead><tbody><tr><td id="d71603e105">
 
 **Contract Workspace listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Contract requests** &gt; **All**
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d70287e142">
+</td></tr><tr><td id="d71603e152">
 
 **Workspace used by your application**
 
@@ -75,7 +78,7 @@ Steps
 
     **Note:** You can select only one contract request when linking it as a parent contract.
 
-    ![Link contract window for linking and inheriting fields from the parent contract.](../image/cmpro-link-contract.png "Link contract window")
+    \[Omitted image "cmpro-link-contract.png"\] Alt text: Link contract window for linking and inheriting fields from the parent contract.
 
 5.  Select **Link and inherit fields**.
 
@@ -85,8 +88,8 @@ Steps
 
     The **Parent contract request** field is updated with the parent contract request number. The linked parent contract details appear in the activity stream.
 
-    ![Parent-child hierarchy in the Related contract requests tab](../image/cmpro-parent-child-link.png "Parent-child hierarchy")
+    \[Omitted image "cmpro-parent-child-link.png"\] Alt text: Parent-child hierarchy in the Related contract requests tab
 
 
-**Parent Topic:**[Linking parent-child contracts](../concept/cmpro-linking-parent-child.md)
+**Parent Topic:**[Linking parent-child contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-linking-parent-child.md)
 

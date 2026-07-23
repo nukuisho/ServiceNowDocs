@@ -2,13 +2,14 @@
 title: Complete the repair asset task in the Hardware Asset Workspace
 description: Complete the repair of the defective asset and confirm if the asset is repaired, unrepairable, or redeployable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/repair-ham-assets-ws.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Fulfill repair orders in the Hardware Asset Workspace, Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Fulfill repair orders manually, Repair order fulfillment in the Hardware Asset Workspace, Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Complete the repair asset task in the Hardware Asset Workspace
@@ -41,7 +42,7 @@ Role required: asset
 
 9.  Record the time worked on the task.
 
-    You can either use the timer or record the time manually. For more details, see [Record time worked on asset repair tasks in the Hardware Asset Workspace](../concept/record-repair-time-ham-ws.md).
+    You can either use the timer or record the time manually. For more details, see [Record time worked on asset repair tasks in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/record-repair-time-ham-ws.md).
 
     An entry for the time you worked is created in the **Time Worked** tab of the Repair asset task.
 
@@ -78,22 +79,22 @@ Role required: asset
 
 ## What to do next
 
-[Evaluate the repaired asset in the Hardware Asset Workspace](evaluate-repaired-ham-asset-ws.md).
+[Evaluate the repaired asset in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/evaluate-repaired-ham-asset-ws.md).
 
-**Parent Topic:**[Fulfill repair orders in the Hardware Asset Workspace](../concept/fulfill-ham-repair-orders-ws.md)
+**Parent Topic:**[Fulfill repair orders in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfill-ham-repair-orders-ws.md)
 
 **Related topics**  
 
 
-[View open repair orders for your stockroom in the Hardware Asset Workspace](view-open-repair-orders-stockroom-ham.md)
+[View open repair orders for your stockroom in the Hardware Asset Workspace]()
 
-[Troubleshoot assets requested for repair in the Hardware Asset Workspace](troubleshoot-ham-assets-for-repair.md)
+[Troubleshoot assets requested for repair in the Hardware Asset Workspace]()
 
-[Evaluate the repaired asset in the Hardware Asset Workspace](evaluate-repaired-ham-asset-ws.md)
+[Evaluate the repaired asset in the Hardware Asset Workspace]()
 
-[Bulk close asset repair tasks in the Hardware Asset Workspace](bulk-close-repair-tasks-ham-ws.md)
+[Bulk close asset repair tasks in the Hardware Asset Workspace]()
 
-[Cancel a repair order in the Hardware Asset Workspace](cancel-repair-orders-ham-ws.md)
+[Cancel a repair order in the Hardware Asset Workspace]()
 
-[Cancel a repair order line in the Hardware Asset Workspace](cancel-repair-order-line-ham-ws.md)
+[Cancel a repair order line in the Hardware Asset Workspace]()
 

@@ -2,6 +2,7 @@
 title: Chat surveys
 description: Display conversational questionnaires to your end users to gather important information from them, before and after they chat with a live or virtual agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ci-conversational-chat-surveys.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -19,7 +20,7 @@ Display conversational questionnaires to your end users to gather important info
 
 Instead of using forms to collect information from your requesters, you can create different questionnaires that run in the chat client to capture preliminary user information or post-chat feedback. The questions in the following pre-chat survey example ask users to identify their service issue and to provide additional details.
 
-![Web chat client with pre-chat surveys highlighted.](../image/pre-chat-survey-example.png "Example pre-chat survey conversation")
+\[Omitted image "pre-chat-survey-example.png"\] Alt text: Web chat client with pre-chat surveys highlighted.
 
 Survey administrators and administrators use [Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md) to:
 
@@ -38,25 +39,25 @@ You can also turn pre-chat surveys on and off specifically for Now Assist Self S
 
 Setting up chat surveys involves these main steps:
 
-![Infographic describing steps for setting up pre-chat and post-chat conversational surveys.](../image/survey-implementation-steps.png)
+\[Omitted image "survey-implementation-steps.png"\] Alt text: Infographic describing steps for setting up pre-chat and post-chat conversational surveys.
 
--   **[1. \(Optional\) Define chat context.](../task/ac-configure-context-variables.md)**
+-   **[1. \(Optional\) Define chat context.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-variables.md)**
 
     Configure the chat context variables for storing survey responses using **Context Variables** in Chat Settings.
 
--   **[2. Create chat surveys](../task/create-chat-surveys.md)**
+-   **[2. Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-chat-surveys.md)**
 
     In Survey Designer, build your conversational questionnaires for gathering pre-chat information and post-chat feedback from your requesters. If you defined chat context variables to store certain survey responses, you can map the appropriate survey question to the corresponding chat context variable.
 
--   **[3. Define pre-chat survey configurations.](../task/ac-configure-pre-chat-surveys.md)**
+-   **[3. Define pre-chat survey configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-pre-chat-surveys.md)**
 
     Determine the pre-chat questionnaire to be presented to your requesters based on conditions that you apply.
 
--   **[4. Define post-chat survey configurations.](../task/define-post-chat-survey-config.md)**
+-   **[4. Define post-chat survey configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/define-post-chat-survey-config.md)**
 
     Control the post-chat questionnaire displayed to your requesters to gather feedback on their experience with live agents.
 
--   **[5. If using Virtual Agent, define context topic intent configurations.](../task/ac-configure-context-topic-intent.md)**
+-   **[5. If using Virtual Agent, define context topic intent configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-topic-intent.md)**
 
     Use pre-chat survey information to determine the appropriate Virtual Agent conversation topic automatically displayed to your requesters, rather than prompting them to choose from a list of conversation topics.
 

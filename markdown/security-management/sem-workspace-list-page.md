@@ -1,17 +1,18 @@
 ---
 title: Security Exposure Management Workspace List view
-description: The List view in the Security Exposure Management Workspace permits vulnerability and security managers and analysts to view remediation progress on records, drill down into records, and view the status of their approval requests and exceptions.
+description: The List view in the Security Exposure Management Workspace enables vulnerability and security managers and analysts to view remediation progress on records, drill down into records, and view the status of their approval requests and exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-workspace-list-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 10
+last_updated: "2026-05-20"
+reading_time_minutes: 11
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
 
 # Security Exposure Management Workspace List view
 
-The List view in the Security Exposure Management Workspace permits vulnerability and security managers and analysts to view remediation progress on records, drill down into records, and view the status of their approval requests and exceptions.
+The List view in the Security Exposure Management Workspace enables vulnerability and security managers and analysts to view remediation progress on records, drill down into records, and view the status of their approval requests and exceptions.
 
 Role required:
 
@@ -20,25 +21,25 @@ Role required:
 -   sn\_vul\_container.vulnerability\_analyst, sn\_vul\_container.vulnerability\_admin, or sn\_vul\_container.remediation\_owner for container vulnerable items \(CVITs\)
 -   sn\_vulc.admin, sn\_vulc.remediation\_owner for configuration test results \(CTRs\)
 
-These lists and links provide you with easy access to records and tasks. It contains two tabs:
+The lists and links provide access to records and tasks. It contains two tabs:
 
 -   **Lists** tab: Displays the default lists for remediation efforts, remediation tasks, vulnerable items, configuration test results, solutions, exceptions, and libraries.
--   **My Lists** tab: Displays any lists that you’ve renamed from the Lists tab and any lists that you create.
+-   **My Lists** tab: Displays any lists that you've renamed from the Lists tab and any lists that you create.
 
-    You can also create your own list to monitor remediation progress. For more information, see [Create a customized list of records](../task/sem-create-custom-list.md).
+    You can also create your own list to monitor remediation progress. For more information, see [Create a customized list of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-custom-list.md).
 
 
 ## Lists tab
 
-The following table shows the lists available in the Lists tab of the List page:
+The following table shows the lists available in the Lists tab:
 
 **Tip:**
 
-If the **sn\_vul\_cmn\_ws.navigate\_to\_workspace** system property is set to `true` by an admin, upon selecting the predefined filter links in the Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response and Configuration Compliance modules from the **All** menu, these links open in the List page of the Security Exposure Management Workspace based on your role.
+If the **sn\_vul\_cmn\_ws.navigate\_to\_workspace** system property is set to `true` by an admin, when you select the predefined filter links in the Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response and Configuration Compliance modules from the **All** menu, these links open in the List page of the Security Exposure Management Workspace based on your role.
 
-For example, if you select **Assigned to My Groups** by navigating to **All** &gt; **Security Exposure Management** &gt; **Remediation Tasks** &gt; **Assigned to My Groups**, this link is redirected to the Security Exposure Management Workspace. The **Assigned to My Groups** list in the **Remediation Tasks** module opens in the List page of the Security Exposure Management Workspace if you have the vulnerability admin or analyst role. To view the host remediation tasks group the tasks by Record Type.
+For example, if you select **Assigned to My Groups** by navigating to **All** &gt; **Security Exposure Management** &gt; **Remediation Tasks** &gt; **Assigned to My Groups**, this link is redirected to the Security Exposure Management Workspace. The **Assigned to My Groups** list in the **Remediation Tasks** module opens in the List page of the Security Exposure Management Workspace if you have the vulnerability admin or analyst role. To view the host remediation tasks, group the tasks by Record Type.
 
-You can hide the record count on the lists using the **glide.ui.list.seismic.omit.count** system property. For more information on how to turn off/on the record count on a list, see the [KBB0010402](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010402) KB article.
+You can hide the record count on the lists using the **glide.ui.list.seismic.omit.count** system property. For more information on how to disable or enable the record count on a list, see the [KBB0010402](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010402) KB article.
 
 <table id="table_gkm_1lr_55b"><thead><tr><th>
 
@@ -62,7 +63,7 @@ Remediation efforts \(REs\)
 
 </td><td>
 
-List of **Active** REs and **All** the REs assigned to your assignment groups.Group the remediation efforts by **Record Type** to categorize them by host vulnerable items, application vulnerable items, container vulnerable items and configuration test results.
+List of **Active** REs and **All** the REs assigned to your assignment groups.Group the remediation efforts by **Record Type** to categorize them by host vulnerable items, application vulnerable items, container vulnerable items, and configuration test results.
 
 </td><td>
 
@@ -101,13 +102,13 @@ Remediation tasks
 
 </td><td>
 
-Contains the following lists:-   **Active**: List of all the active host, application, container and Test result remediation tasks.
--   **All**: List of both active and inactive host, application, container and Test result remediation tasks.
+Contains the following lists:-   **Active**: List of all the active host, application, container, and Test result remediation tasks.
+-   **All**: List of both active and inactive host, application, container, and Test result remediation tasks.
 -   **Assigned to me**: List of Remediation tasks assigned to you for remediation.
 -   **Assigned to my group**: Remediation tasks assigned to your assignment groups for remediation.
 -   **Multiple Deferrals**: Lists findings that you've deferred multiple times.
 
-Group the remediation tasks by **Record Type** to categorize them by host vulnerable items, application vulnerable items, container vulnerable items and configuration test results.
+Group the remediation tasks by **Record Type** to categorize them by host vulnerable items, application vulnerable items, container vulnerable items, and configuration test results.
 
 **Note:** The Remediation tasks list includes tasks generated during the Remediation Effort creation in the Security Exposure Management Workspace, as well as those created manually and by remediation task rules and other processes in the classic UI. The Remediation effort column will be empty for any remediation tasks that were not created as part of the Remediation Effort.
 
@@ -133,6 +134,8 @@ Contains the following lists-   **Active**: List of all the active host vulnerab
 -   **Assigned to me**: List of host vulnerable items assigned to you for remediation.
 -   **Assigned to my group**: List of host vulnerable items assigned to your assignment groups for remediation.
 
+Remediation owners can select **Create Remediation Task** from the list toolbar to manually create a remediation task for findings in the **Assigned to me** and **Assigned to my group** lists.
+
 </td><td>
 
 Vulnerability Response
@@ -152,7 +155,7 @@ Contains the following lists:-   **Active**: List of all the active application 
 -   **Assigned to me**: List of application vulnerable items assigned to you for remediation.
 -   **Assigned to my group**: List of application vulnerable items assigned to your assignment groups for remediation.
 
-You can create a new application vulnerable item by selecting the **New** button.
+You can create a new application vulnerable item by selecting the **New** button.Remediation owners can select **Create Remediation Task** from the list toolbar to manually create a remediation task for findings in the **Assigned to me** and **Assigned to my group** lists.
 
 </td><td>
 
@@ -173,6 +176,8 @@ Contains the following lists:-   **Active**: List of all the active container vu
 -   **Assigned to me**: List of container vulnerable items assigned to you for remediation.
 -   **Assigned to my group**: List of container vulnerable items assigned to your assignment groups for remediation.
 
+Remediation owners can select **Create Remediation Task** from the list toolbar to manually create a remediation task for findings in the **Assigned to me** and **Assigned to my group** lists.
+
 </td><td>
 
 Container Vulnerability Response
@@ -192,6 +197,8 @@ Contains the following lists:-   **Active**: List of all the active test results
 -   **Assigned to me**: List of test results assigned to you for remediation.
 -   **Assigned to my group**: List of test results assigned to your assignment groups for remediation.
 
+Remediation owners can select **Create Remediation Task** from the list toolbar to manually create a remediation task for findings in the **Assigned to me** and **Assigned to my group** lists.
+
 </td><td>
 
 Configuration Compliance
@@ -207,8 +214,8 @@ Solutions
 </td><td>
 
 Contains the following lists:-   **All**: Shows all the available solutions which you can use to remediate the host vulnerable items.
--   **Highest Supersedence**: Shows all the solutions which is used to populated Preferred Solutions.
--   **With Vulnerable items**: Shows the solutions which are being used as Preferred Solution on Vulnerable Items.
+-   **Highest Supersedence**: Shows all the solutions which are used to populate Preferred Solutions.
+-   **With Vulnerable items**: Shows the solutions that are being used as Preferred Solution on Vulnerable Items.
 
 </td><td>
 
@@ -229,7 +236,7 @@ Shows the approval states for all the exception and false positive requests asso
 -   **All \(Configuration Compliance\)**: List of the exceptions, false positive, and unassign approval requests related test results and remediation tasks \(CTR\#\).
 -   **My requests \(configuration compliance\)**: List of all the exception, false positive, and unassign approval requests raised by you for the test results and their remediation tasks that you are working on.
 
-Group the exceptions by **Record type** to categorize them by host vulnerable items, application vulnerable items, container vulnerable items and configuration test results.
+Group the exceptions by **Record type** to categorize them by host vulnerable items, application vulnerable items, container vulnerable items, and configuration test results.
 
 </td><td>
 
@@ -248,7 +255,7 @@ Approvals
 
 </td><td>
 
-**Assigned to me**: Shows the approval requests assigned to you for processing. To process your approvals in the workspace, see [Approve or reject requests in the Security Exposure Management Workspace](../task/sem-approve-requests.md).
+**Assigned to me**: Shows the approval requests assigned to you for processing. To process your approvals in the workspace, see [Approve or reject requests in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-approve-requests.md).
 
 </td><td>
 
@@ -269,15 +276,17 @@ Libraries
 
 Consists of the following lists:-   **CVEs \(NVD\)**: List of all the Common Vulnerability and Exposures \(CVEs\) from Vulnerability Response, Application Vulnerability Response, and Container Vulnerability Response.
 
-**Note:** Starting with v30.3 of Vulnerability Response, it is renamed to Vulnerabilities.
+**Note:**
 
+    -   Starting with v30.3 of Vulnerability Response, it is renamed to Vulnerabilities.
+    -   The Armis Early Warning integration adds two new columns to the list - Armis Early Warning displays early warning signals, while Armis Early Warning CVD Attributes shows detailed context for each signal. For more information, see [Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md).
 -   **TPEs**: List of imported third-party vulnerabilities in your instance. Contains a list of related references, vulnerable items, exploits, and CVEs.
 -   **CWEs**: List of all the Common Weakness Enumerations \(CWEs\) from Vulnerability Response, Application Vulnerability Response, and Container Vulnerability Response.
 -   **Vulnerable Software**: List of all the software vulnerable entries.
 -   **App vulnerabilities**: List of all the third-party application vulnerability entries.
 -   **Test Groups**: List of all the Configuration Compliance test groups. You can view the percentage of CI compliance and test results compliance for a Test Group in the record view.
 -   **Tests**: List of all the tests from Configuration Compliance. You can view the percentage of test results compliance for a test in the record view.
--   **Compensating Controls**: List of all the compensating controls which can be used for risk reduction requests. You can add a compensating control by clicking **New**. For more information on how to add a compensating control, see [Add a compensating control to the library](../task/sem-create-compensatory-control.md).
+-   **Compensating Controls**: List of all the compensating controls that can be used for risk reduction requests. You can add a compensating control by clicking **New**. For more information on how to add a compensating control, see [Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-compensatory-control.md).
 
 </td><td>
 
@@ -322,7 +331,7 @@ Contains the following lists:-   **Active**: List of active Penetration Test Ass
 -   **Assigned to me**: List of Penetration Test Assessment Requests raised by you.
 -   **Assigned to my group**: List of Penetration Test Assessment Requests raised by the users in your assignment groups.
 
-For information on how to create a penetration test assessment request, see [Create a new penetration testing assessment request](../../vulnerability-app-vuln-mgmt/task/create-new-pen-test-assesment-req.md).
+For information on how to create a penetration test assessment request, see [Create a new penetration testing assessment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/create-new-pen-test-assesment-req.md).
 
 </td><td>
 
@@ -344,7 +353,7 @@ Contains the following lists:-   **Active**: List of all the active Penetration 
 -   **Assigned to my group**: List of Penetration Test Findings assigned to your assignment groups for remediation.
 -   **Validation Pending**: List of Penetration Test Findings that are pending validation after remediation.
 
-For information on how to create a penetration test findings, see [Create penetration test findings based on an assessment questionnaire](../../vulnerability-app-vuln-mgmt/task/create-penetration-test-findings.md).
+For information on how to create a penetration test findings, see [Create penetration test findings based on an assessment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/create-penetration-test-findings.md).
 
 </td><td>
 
@@ -376,7 +385,7 @@ Supporting Data
 
 </td><td>
 
-Contains the following lists:-   **Authoritative Sources**: List of authoritative sources that provide summary information which is useful to research the source publications.
+Contains the following lists:-   **Authoritative Sources**: List of authoritative sources that provide summary information that is useful to research the source publications.
 -   **Technologies**: List of technologies that provide the summary information about each authoritative sources and citation \(also known, in Qualys, as a framework\).
 
 </td><td>
@@ -391,5 +400,5 @@ sn\_vulc.admin
 </table>**Related topics**  
 
 
-[Use the List view in the Security Exposure Management Workspace](../task/sem-ws-list-view.md)
+[Use the List view in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ws-list-view.md)
 

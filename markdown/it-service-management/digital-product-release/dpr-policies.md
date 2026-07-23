@@ -2,6 +2,7 @@
 title: Digital Product Release policies
 description: The Digital Product Release Policy Content Pack contains a set of policies to automate phase gate verification and continuous evaluation of software artifacts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-policies.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -16,17 +17,23 @@ breadcrumb: [Digital Product Release Policy Content Pack, Digital Product Releas
 
 The Digital Product Release Policy Content Pack contains a set of policies to automate phase gate verification and continuous evaluation of software artifacts.
 
-You can use or customize these default DPR policies to validate that your configuration data content is conformable, or administrate the full life cycle of PaCE policies. For more information, see [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md).
+You can use or customize these default DPR policies to validate that your configuration data content is conformable, or administrate the full life cycle of PaCE policies. For more information, see [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-managing-policies.md).
 
 **Note:** You can’t modify the base system policies. However, you can create a copy of the policy and customize it.
 
-These policies are for both product and service releases. However, a few don't apply to service releases. For more information about those policies, see [Policies not applicable to service releases](dpr-policies.md#dpr-section_policy-not-service).
+These policies are for both product and service releases. However, a few don't apply to service releases. For more information about those policies, see [Policies not applicable to service releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-policies.md).
 
 ## All Completed Stories Have Associated Commits \(all\_completed\_stories\_have\_associated\_commits\)
 
 This policy checks whether all the completed stories of a release have associated commits.
 
 The policy results into a non-compliant status when a completed story of a release has no associated commits.
+
+## All change requests are closed or inactive \(all\_change\_requests\_are\_closed\_inactive\)
+
+This policy checks whether all change requests associated with a release phase are inactive \(closed or cancelled\).
+
+The policy results into a non-compliant status when at least one change request is not complete \(active = true\).
 
 ## All Planned Stories Are Completed \(all\_planned\_stories\_are\_completed\)
 
@@ -183,5 +190,5 @@ The following policies don't apply to service releases.
 **Related topics**  
 
 
-[Digital Product Release data collectors](dpr-data-collector.md)
+[Digital Product Release data collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-data-collector.md)
 

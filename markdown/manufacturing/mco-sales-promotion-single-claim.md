@@ -2,11 +2,12 @@
 title: Submit a sales promotion claim
 description: As a dealer, submit a single sales promotion claim request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-sales-promotion-single-claim.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion for the dealer, Dealer management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion for the dealer, Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Submit a sales promotion claim

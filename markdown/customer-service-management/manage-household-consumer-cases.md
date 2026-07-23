@@ -2,6 +2,7 @@
 title: Create and manage cases for a consumer or household
 description: Staff members with the location agent role can create and manage cases for consumers and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-household-consumer-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +43,7 @@ When a consumer case is created or updated, the consumer receives an email notif
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d186294e112">
+<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d191229e112">
 
 **Add a consumer.**
 
@@ -53,7 +54,7 @@ Select a consumer in the **Consumer** field. -   If the consumer belongs to only
 -   If the consumer doesn’t belong to a household, you can leave the **Household** field empty.
 
 
-</td></tr><tr><td id="d186294e145">
+</td></tr><tr><td id="d191229e145">
 
 **Add a household.**
 
@@ -64,7 +65,7 @@ Select a household in the **Household** field. -   If the household only has onl
 
 
 </td></tr></tbody>
-</table>4.  Fill in the remaining fields on the [Case form](../reference/r_CustomerServiceCaseForm.md).
+</table>4.  Fill in the remaining fields on the [Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServiceCaseForm.md).
 
 5.  If desired, add other members of the household to the watch list.
 
@@ -78,5 +79,5 @@ Select a household in the **Household** field. -   If the household only has onl
 **Related topics**  
 
 
-[Service Model Foundation cases](../reference/industry-data-model-cases.md)
+[Service Model Foundation cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/industry-data-model-cases.md)
 

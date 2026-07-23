@@ -2,6 +2,7 @@
 title: Exploring Financial Services Operations
 description: Use the ServiceNow Financial Services Operations \(FSO\) application to help create a seamless experience for your customers, agents, and managers while resolving issues and initiating and fulfilling requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/exploring-fso-apps.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Use the ServiceNow® Financial Services Operations \(FSO\) application to help c
 
 This video provides an overview of how you can use Financial Services Operations to automate core operations, allowing financial institutions to securely manage tasks with prebuilt applications and workflows, making everyday tasks easier and faster.
 
-A visual guide to Financial Services Operations applications.
+\[Omitted video\] Description: A visual guide to Financial Services Operations applications.
 
 ## Financial Services Operations features
 
@@ -33,13 +34,13 @@ Key features of the FSO include:
 
 ## Financial Services Operations users
 
-For more information on user roles in FSO, see [User roles and FSO Business rules](../reference/fso-core-roles.md).
+For more information on user roles in FSO, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-core-roles.md).
 
 ## Financial Services Operations workflow
 
 The following example shows a sample Financial Services Operations end-to-end workflow describing different roles and stages handled by these roles starting from creating the case and related tasks through the completion of the case.
 
-![Workflow diagram to illustrate the Financial Services Operations workflow.](../image/exploring-fso-workflow.png)
+\[Omitted image "exploring-fso-workflow.png"\] Alt text: Workflow diagram to illustrate the Financial Services Operations workflow.
 
 ## Licensing
 

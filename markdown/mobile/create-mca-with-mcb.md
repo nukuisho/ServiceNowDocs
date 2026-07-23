@@ -2,6 +2,7 @@
 title: Configure a card action using Mobile Card Builder
 description: Use Mobile Card Builder to add card actions to a mobile card.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/create-mca-with-mcb.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Use Mobile Card Builder to add card actions to a mobile card.
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -31,9 +32,9 @@ When creating mobile cards, you may want to add buttons to enable your users to 
 
 3.  Select the card template where you want to add a card action and select **Open**, or create a new card template using the **Create blank template** button.
 
-4.  Select a plus icon ![Plus icon.](../image/mcb-plus-icon.png) to select a new component to add to your mobile card.
+4.  Select a plus icon \[Omitted image "mcb-plus-icon.png"\] Alt text: Plus icon. to select a new component to add to your mobile card.
 
-    ![Adding a component in card builder.](../image/mcb-new-component-2.png)
+    \[Omitted image "mcb-new-component-2.png"\] Alt text: Adding a component in card builder.
 
 5.  Select **Button** from the displayed components.
 
@@ -51,8 +52,8 @@ When creating mobile cards, you may want to add buttons to enable your users to 
     The available options are:
 
     -   Label - A button with text only, for example an OK button. Enter the text required for the button.
-    -   Icon - A button with an icon only, for example a trash icon \(![Trash icon for card action.](../image/trash-mcb.png)\) to denote a delete button. Select an icon from the menu.
-    -   Label and Icon - A button with text and an icon, for example an edit button \(![Edit icon with text and image.](../image/edit-mcb.png)\). Enter the desired text and select the image from the fields.
+    -   Icon - A button with an icon only, for example a trash icon \(\[Omitted image "trash-mcb.png"\] Alt text: Trash icon for card action.\) to denote a delete button. Select an icon from the menu.
+    -   Label and Icon - A button with text and an icon, for example an edit button \(\[Omitted image "edit-mcb.png"\] Alt text: Edit icon with text and image.\). Enter the desired text and select the image from the fields.
 8.  Select if you want the button to contain a single action or multiple actions.
 
     The actions listed in the functions menu come from the Function \[sys\_sg\_button\] table.
@@ -60,9 +61,9 @@ When creating mobile cards, you may want to add buttons to enable your users to 
     -   Single - Search in the function menu to allocate a single action to a button.
     -   Multi - Creates a single button which, when tapped, reveals additional card actions in a menu at the bottom of the screen. Select **Add Menu Item** and from the displayed menu add as many card actions as required. Select **Finish** after you configure each card action.
 
-        Drag the order icon \(![Order icon.](../image/order-mcb.png)\) to change the order of the card actions. You can also edit and delete the card actions at any point.
+        Drag the order icon \(\[Omitted image "order-mcb.png"\] Alt text: Order icon.\) to change the order of the card actions. You can also edit and delete the card actions at any point.
 
-    ![Multiple action menu for card actions.](../image/multi-menu-mcb.png)
+    \[Omitted image "multi-menu-mcb.png"\] Alt text: Multiple action menu for card actions.
 
 9.  Define the appearance of buttons, in terms of its background color, text color, and border color.
 
@@ -70,7 +71,7 @@ When creating mobile cards, you may want to add buttons to enable your users to 
 
     -   Manually entering the hexadecimal color value.
     -   Selecting an appearance palette and then select either the Swatches or List tab at the top of the menu.
-    ![Color picker for button appearance in card action.](../image/button-appearance-mcb.png)
+    \[Omitted image "button-appearance-mcb.png"\] Alt text: Color picker for button appearance in card action.
 
     **Note:** For icons, black is the only color available for the base record. Select a text color input to change the icon color from black to the selected color.
 

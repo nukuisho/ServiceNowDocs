@@ -2,6 +2,7 @@
 title: Understand your Scheduled Jobs dashboard
 description: Visit scheduler dashboard to learn about key health metrics and insights of scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/scheduled-jobs-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Visit scheduler dashboard to learn about key health metrics and insights of sche
 
 Navigate to **All** &gt; **System Diagnostics** &gt; **Scheduled Jobs Dashboard**.
 
-![Scheduled jobs dashboard.](../image/scheduled-jobs-dashboard.png)
+\[Omitted image "scheduled-jobs-dashboard.png"\] Alt text: Scheduled jobs dashboard.
 
 The following cards show up on the dashboard
 

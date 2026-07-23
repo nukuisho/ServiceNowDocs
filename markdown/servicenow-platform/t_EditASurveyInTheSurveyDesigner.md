@@ -2,6 +2,7 @@
 title: Edit a survey in the survey designer
 description: You can modify surveys using the survey designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_EditASurveyInTheSurveyDesigner.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,22 +43,22 @@ You can edit a survey even after it has been distributed, with the following res
     When you publish the edited survey, the system generates survey instances for any associated survey users.
 
 
-**Parent Topic:**[Survey designer](../concept/c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
 
 **Related topics**  
 
 
-[Survey designer elements](../concept/c_SurveyDesignerElements.md)
+[Survey designer elements]()
 
-[Configure a survey in the survey designer](t_ConfigSurveyInSurveyDesgnr.md)
+[Configure a survey in the survey designer]()
 
-[Survey categories](../concept/c_SurveyCategory.md)
+[Survey categories]()
 
-[Create a question in the survey designer](t_CreateQuestSurveyDesigr.md)
+[Create a question in the survey designer]()
 
-[Survey question data types](../reference/r_SurveyQuestionDataTypes.md)
+[Survey question data types]()
 
-[Create custom metric type](create-custom-templates-questions.md)
+[Create custom metric type]()
 
-[Configure category weights for a survey](t_ConfigCatWeightsForSurvey.md)
+[Configure category weights for a survey]()
 

@@ -2,6 +2,7 @@
 title: Configuring Express List views for users and user groups
 description: Centrally control what users monitor by predefining views in Express List and assigning them to users and user groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/manage-views-express-list.html
 release: australia
 product: Event Management
 classification: event-management
@@ -21,21 +22,21 @@ Users belonging to a group can only see the predefined views you assigned to tha
 
 The filter conditions builder enables you to configure AND and OR conditions between attributes.
 
-![Express List view filter conditions sample.](../image/manage-views-filter-conditions.png "Express List view filter conditions")
+\[Omitted image "manage-views-filter-conditions.png"\] Alt text: Express List view filter conditions sample.
 
 For example, the admin can configure conditions that allow the user to see only alerts that are not assigned to an assignment group or in maintenance. In the example, the alerts must also contain a value of email\_sid and must be from one of the specified sources.
 
--   **[Create a predefined Express List view for users](../../event-management/task/manage-views-express-list-admin.md)**  
+-   **[Create a predefined Express List view for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manage-views-express-list-admin.md)**  
 Configure an Express List view for users to make sure that they focus on specific services, priorities, or alerts. You can set the filters, column order, and filter attributes for this view and assign it to individual users or user groups.
--   **[Assign users and groups to predefined Express List views](../../event-management/task/assign-operator-view-in-express-list.md)**  
+-   **[Assign users and groups to predefined Express List views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/assign-operator-view-in-express-list.md)**  
 Assign individual users and user groups to preconfigured Express List views to make sure that they focus on specific services, priorities, or alerts.
 
-**Parent Topic:**[Manage and monitor alerts](../../event-management/concept/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlert.md)
 
 **Related topics**  
 
 
-[Create a predefined Express List view for users](../../event-management/task/manage-views-express-list-admin.md)
+[Create a predefined Express List view for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manage-views-express-list-admin.md)
 
-[Identify an assigned Express List view](../task/manage-views-express-list-operator.md)
+[Identify an assigned Express List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/manage-views-express-list-operator.md)
 

@@ -2,13 +2,14 @@
 title: Event handler generation
 description: Now Assist event handler generation enables you to configure event handlers for UI components using natural language, eliminating the need for manual configuration of complex routing parameters and binding expressions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/concept-event-handler-generation.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
-breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Event handler generation
@@ -81,12 +82,12 @@ For example, the Reference link clicked event on a list component dispatches the
 
 When an event has no payload — such as the Button clicked event — parameters must be bound from state parameters or entered as static values.
 
-**Parent Topic:**[Exploring UI generation](exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-ui-generation.md)
 
 **Related topics**  
 
 
-[Configure an event handler with Now Assist](../task/configure-an-event-handler-with-now-assist.md)
+[Configure an event handler with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/configure-an-event-handler-with-now-assist.md)
 
-[Use case: Configure an event handler with Now Assist](use-case-event-handler-generation.md)
+[Use case: Configure an event handler with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/use-case-event-handler-generation.md)
 

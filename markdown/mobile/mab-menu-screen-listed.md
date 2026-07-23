@@ -2,6 +2,7 @@
 title: Menu options in the categories home screen
 description: Familiarize yourself with the various menu options in the Mobile App Builder categories home page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mab-menu-screen-listed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,11 +22,11 @@ Familiarize yourself with the various menu options in the Mobile App Builder cat
 
 <table id="table_mdx_sqk_qqb"><tbody><tr><td>
 
-Select the **New** button \(![New button in categories home screen.](../image/mab-buttton-new-green-solid.png)\) to create a new mobile app configuration.Alternatively, select the name of a listed mobile app configuration to open the defined records for that configuration, in the Mobile App Builder record screen.
+Select the **New** button \(\[Omitted image "mab-buttton-new-green-solid.png"\] Alt text: New button in categories home screen.\) to create a new mobile app configuration.Alternatively, select the name of a listed mobile app configuration to open the defined records for that configuration, in the Mobile App Builder record screen.
 
 </td><td>
 
-![Create new mobile app configuration screen.](../image/mab-create-config.png)
+\[Omitted image "mab-create-config.png"\] Alt text: Create new mobile app configuration screen.
 
 </td></tr></tbody>
 </table>-   **Screens**
@@ -34,11 +35,11 @@ Select the **New** button \(![New button in categories home screen.](../image/ma
 
 <table id="table_pys_c1r_qqb"><tbody><tr><td>
 
-Select the **New** button \(![New button in categories home screen.](../image/mab-buttton-new-green-solid.png)\) to select a screen type to configure a new mobile screen. Alternatively, select the name of a listed screen to open the records required for that configuration, in the Mobile App Builder record screen.
+Select the **New** button \(\[Omitted image "mab-buttton-new-green-solid.png"\] Alt text: New button in categories home screen.\) to select a screen type to configure a new mobile screen. Alternatively, select the name of a listed screen to open the records required for that configuration, in the Mobile App Builder record screen.
 
 </td><td>
 
-![Create new mobile screen.](../image/mab-screen-select.png)
+\[Omitted image "mab-screen-select.png"\] Alt text: Create new mobile screen.
 
 </td></tr></tbody>
 </table>-   **Cards &amp; icons**
@@ -47,20 +48,20 @@ Select the **New** button \(![New button in categories home screen.](../image/ma
 
 <table id="table_eqh_f1r_qqb"><tbody><tr><td>
 
-Select the **New** button \(![New button in categories home screen.](../image/mab-buttton-new-green-solid.png)\) to select a card type to configure.Alternatively, select the name of a listed card, card template, icon, or legacy card to open the records required for that configuration, in the Mobile App Builder record screen.
+Select the **New** button \(\[Omitted image "mab-buttton-new-green-solid.png"\] Alt text: New button in categories home screen.\) to select a card type to configure.Alternatively, select the name of a listed card, card template, icon, or legacy card to open the records required for that configuration, in the Mobile App Builder record screen.
 
  **Note:** You are able to open and edit an existing legacy card configured from a previous release. However, you cannot create a new legacy card.
 
 </td><td>
 
-![Create a new card or icon screen.](../image/mab-card-icon-select.png)
+\[Omitted image "mab-card-icon-select.png"\] Alt text: Create a new card or icon screen.
 
 </td></tr></tbody>
 </table>-   **Functions**
 
     Use functions to define which actions users can perform within the mobile app. This category is based on the \[sys\_sg\_button\] table.
 
-    Select the **New** button \(![New button in categories home screen.](../image/mab-buttton-new-green-solid.png)\) to create a new function. Alternatively, select the name of a listed function type to open the records required for that configuration, in the Mobile App Builder record screen.
+    Select the **New** button \(\[Omitted image "mab-buttton-new-green-solid.png"\] Alt text: New button in categories home screen.\) to create a new function. Alternatively, select the name of a listed function type to open the records required for that configuration, in the Mobile App Builder record screen.
 
 -   **Data**
 
@@ -68,11 +69,11 @@ Select the **New** button \(![New button in categories home screen.](../image/ma
 
 <table id="table_r1k_nbr_qqb"><tbody><tr><td>
 
-Select the **new** button \(![New button in categories home screen.](../image/mab-buttton-new-green-solid.png)\) to select a data item type. Alternatively, select the name of a listed data item to open the records required for that configuration, in the Mobile App Builder record screen.
+Select the **new** button \(\[Omitted image "mab-buttton-new-green-solid.png"\] Alt text: New button in categories home screen.\) to select a data item type. Alternatively, select the name of a listed data item to open the records required for that configuration, in the Mobile App Builder record screen.
 
 </td><td>
 
-![Create a new data item screen.](../image/mab-create-data.png)
+\[Omitted image "mab-create-data.png"\] Alt text: Create a new data item screen.
 
 </td></tr></tbody>
 </table>-   **All mobile records**
@@ -81,11 +82,11 @@ Select the **new** button \(![New button in categories home screen.](../image/ma
 
 <table id="table_pz3_xbr_qqb"><tbody><tr><td>
 
-Use the **Record type** field to search and select the table you require. The results display a list of records of the selected record type. Use the search box \(![Search option for category results.](../image/mab-search-in-category.png)\) to filter the records from the list.
+Use the **Record type** field to search and select the table you require. The results display a list of records of the selected record type. Use the search box \(\[Omitted image "mab-search-in-category.png"\] Alt text: Search option for category results.\) to filter the records from the list.
 
 </td><td>
 
-![Mobile App Builder All mobile records category with the record type drop-down displayed.](../image/mab-all-mobile-records.png)
+\[Omitted image "mab-all-mobile-records.png"\] Alt text: Mobile App Builder All mobile records category with the record type drop-down displayed.
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Filter device notifications using a schedule
 description: You can associate devices, such as Email, SMS, and Voice, to schedules that define when the devices can and cannot receive notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_FiltDeviceNotifUsingASchedule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,5 +35,5 @@ Notifications that are triggered outside of the scheduled days and times for the
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Create a notification filter](t_NotificationFilters.md)
+**Parent Topic:**[Create a notification filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_NotificationFilters.md)
 

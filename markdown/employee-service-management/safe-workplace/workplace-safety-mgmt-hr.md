@@ -2,6 +2,7 @@
 title: Workplace Core
 description: Use the ServiceNow Workplace Core application to create safer, managed processes for returning employees to the workplace and staying open. Establish distancing plans, shift assignments, and sanitation scheduling and manage workspace allocation in stages. The Workplace Core is also available as a core application in the Workplace Service Delivery suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/workplace-safety-mgmt-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -15,7 +16,7 @@ breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 
 Use the ServiceNow® Workplace Core application to create safer, managed processes for returning employees to the workplace and staying open. Establish distancing plans, shift assignments, and sanitation scheduling and manage workspace allocation in stages. The Workplace Core is also available as a core application in the Workplace Service Delivery suite.
 
-![Workplace Safety Management overview](../../../reuse/workplace-safety-mgmt/images/covid.wsm_overview.png)
+\[Omitted image "covid.wsm\_overview.png"\] Alt text: Workplace Safety Management overview
 
 -   **Space administration**
 
@@ -46,7 +47,7 @@ Use the ServiceNow® Workplace Core application to create safer, managed process
 
     If the workplace profiles of all employees are set up, the application automatically assigns available workspaces for employees based on their date and time selection when they make a reservation.
 
-    For more advanced workplace reservation options, use Workplace Reservation Management in the Workplace Service Delivery suite. For more information, see [Workplace Reservation Management](../../wsd-reservation-management/concept/wsd-reservation-mgmt-ovw.md).
+    For more advanced workplace reservation options, use Workplace Reservation Management in the Workplace Service Delivery suite. For more information, see [Workplace Reservation Management]().
 
 -   **Workplace tasks**
 
@@ -59,16 +60,16 @@ Use the ServiceNow® Workplace Core application to create safer, managed process
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
-    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
 
 
 ## Use with other Safe Workplace suite applications
 
 Workplace Core is part of a suite of ServiceNow® Safe Workplace suite applications. Use it with these other applications to help your organization prepare its workforce and workplaces to resume operations after emergencies and pandemics like COVID-19.
 
--   With the [Employee Readiness Surveys](../../business-continuity/concept/employee-readiness-surveys.md) application, evaluate the readiness of your users to return to the workplace by asking them to fill in a survey.
--   Before users re-enter workspaces, use the [Employee Health Screening](../../employee-health-screening/concept/employee-health-screening.md) application to screen users and ensure compliance with your entry requirements, such as a temperature check and PPE.
--   You can manage the inventory of safety equipment for your workforce with the [Workplace Personal Protective Equipment Inventory Management](../../ppe-inventory-management/concept/ppe-inventory-management.md) application.
+-   With the [Employee Readiness Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-readiness-surveys.md) application, evaluate the readiness of your users to return to the workplace by asking them to fill in a survey.
+-   Before users re-enter workspaces, use the [Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md) application to screen users and ensure compliance with your entry requirements, such as a temperature check and PPE.
+-   You can manage the inventory of safety equipment for your workforce with the [Workplace Personal Protective Equipment Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/ppe-inventory-management.md) application.
 
 All Safe Workplace suite applications are available in the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 

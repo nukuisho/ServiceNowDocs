@@ -2,6 +2,7 @@
 title: Configuring a user as a Unified Consumer
 description: By creating a unified profile, you can integrate both internal and external personas or consumers in your organization. A user who has a unified profile has synchronized user's login interactions across the Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-employee-as-a-consumer.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -51,9 +52,9 @@ You can synchronize all types of user records by customizing the business rule. 
 **Related topics**  
 
 
-[Roles installed with Employee as a Consumer](../reference/roles-installed-with-employee-as-consumer.md)
+[Roles installed with Employee as a Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/roles-installed-with-employee-as-consumer.md)
 
-[Supported and unsupported roles and features](../reference/features-supp-and-unsupp-by-unified-consumer.md)
+[Supported and unsupported roles and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/features-supp-and-unsupp-by-unified-consumer.md)
 
-[Setting up a user as a Unified Consumer](setting-up-a-user.md)
+[Setting up a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-a-user.md)
 

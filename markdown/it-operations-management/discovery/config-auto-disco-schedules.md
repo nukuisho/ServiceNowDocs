@@ -2,11 +2,12 @@
 title: Configure auto-created Discovery schedules
 description: Enable the system to automatically create Discovery schedules based on IP data from your IP Address Management \(IPAM\) connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/config-auto-disco-schedules.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [IPAM Discovery integration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +21,7 @@ Enable the system to automatically create Discovery schedules based on IP data f
 Confirm the following:
 
 -   You have installed and configured Service Graph Connector Central \(SGC Central\) v2.4.0. For more information, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md).
--   You have installed and configured Service Graph Connector for Infoblox v1.5.0. For more information, see [Configure Service Graph Connector for Infoblox using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-infoblox-integ.md).
+-   You have installed and configured Service Graph Connector for Infoblox v1.5.0. For more information, see [Configure Service Graph Connector for Infoblox using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configure-infoblox-integ.md).
 -   You're using Discovery Admin Workspace v1.13.0.
 -   You're using the Australia, ZP9 or later, or YP13 or later version of the ServiceNow AI Platform.
 
@@ -59,10 +60,10 @@ The IPAM to Discovery integration monitors your IPv6 network structure by tracki
 
 ## What to do next
 
-After you enable auto-created schedules and configure the IP data refresh settings, IPAM generates a corresponding Discovery schedule. The schedule is inactive when it's created, so make sure to activate it before it runs. For more information, see [Activate auto-created Discovery schedules](activate-auto-disco-schedule.md).
+After you enable auto-created schedules and configure the IP data refresh settings, IPAM generates a corresponding Discovery schedule. The schedule is inactive when it's created, so make sure to activate it before it runs. For more information, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/activate-auto-disco-schedule.md).
 
 **Related topics**  
 
 
-[IPAM Discovery integration](../concept/ipv6-ipam-disco-integration.md)
+[IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ipv6-ipam-disco-integration.md)
 

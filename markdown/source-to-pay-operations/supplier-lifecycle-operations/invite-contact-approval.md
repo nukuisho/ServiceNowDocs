@@ -2,6 +2,7 @@
 title: Configure the flow to create approval records for all supplier contact invite requests
 description: Typically, an approval record is created only when a supplier contact self-registers to get access to the Supplier Collaboration Portal. However, a supplier admin can configure the Supplier Contact Onboarding flow to create approval records even when a supplier manager adds or invites a new supplier contact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/invite-contact-approval.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,7 +24,7 @@ Role required: sn\_slm.admin
 
 After you perform this task, an approval record is created for the Enroll a new supplier user case type, regardless of whether a supplier contact self-registers or a supplier manager invites a new supplier contact.
 
-**Important:** Supplier Case Management creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
+**Important:** Supplier Case Management creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAUserToAGroup.md).
 
 ## Procedure
 
@@ -33,21 +34,21 @@ After you perform this task, an approval record is created for the Enroll a new 
 
 3.  Search for the **If the onboarding request is created by Relationship Manager or Contact is invited** condition label and select it, which expands the condition label.
 
-4.  Delete the Condition 2 by selecting the remove condition icon \(![Remove condition icon.](../image/cross-flow-icon.png)\) next to the condition.
+4.  Delete the Condition 2 by selecting the remove condition icon \(\[Omitted image "cross-flow-icon.png"\] Alt text: Remove condition icon.\) next to the condition.
 
-    ![Supplier Contact Onboarding flow.](../image/supp-onboard-flow.png)
+    \[Omitted image "supp-onboard-flow.png"\] Alt text: Supplier Contact Onboarding flow.
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configure self-registration for external users](config-reg-for-external-users-slm.md)
+**Parent Topic:**[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)
 
 **Related topics**  
 
 
-[Map the self-registration configuration to Supplier Collaboration Portal](map-ext-user-to-supp-central.md)
+[Map the self-registration configuration to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/map-ext-user-to-supp-central.md)
 
-[Configure system property to send registration emails to external users](sys-prop-reg-email.md)
+[Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md)
 
-[Configure the Vendor Contact table to send invitation emails during self-registration](config-vendor-contact-table.md)
+[Configure the Vendor Contact table to send invitation emails during self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-vendor-contact-table.md)
 

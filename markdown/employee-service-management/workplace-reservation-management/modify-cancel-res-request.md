@@ -2,11 +2,12 @@
 title: Share, modify, or cancel a reservation
 description: You can view, modify \(update\), or cancel a reservation. Update the reserved workplace item or the date and time for a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/modify-cancel-res-request.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -25,7 +26,7 @@ When you submit a reservation, you receive an email notification with the detail
 
 **Note:** As an admin or reservation manager, you cannot edit a reservation opened manually using a URL.
 
-You can also view, edit, or cancel a reservation using the Virtual agent chat support. Navigate to **Workplace Core** &gt; **Workplace service portal**, then select the chat icon \(![Chat icon.](../image/chat-icon.png)\). Enter your question or select **Show Me Everything** to select from a list of available options to make your reservation changes.
+You can also view, edit, or cancel a reservation using the Virtual agent chat support. Navigate to **Workplace Core** &gt; **Workplace service portal**, then select the chat icon \(\[Omitted image "chat-icon.png"\] Alt text: Chat icon.\). Enter your question or select **Show Me Everything** to select from a list of available options to make your reservation changes.
 
 You can also update the reserved workplace item in your reservation and change the date and time of the reservation.
 
@@ -35,15 +36,15 @@ You can also update the reserved workplace item in your reservation and change t
 
 1.  Navigate to **My Reservations** page from any of the following starting points.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d245069e91">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d250743e91">
 
 Location
 
-</th><th align="left" id="d245069e94">
+</th><th align="left" id="d250743e94">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d245069e100">
+</th></tr></thead><tbody><tr><td id="d250743e100">
 
 **From application navigator**
 
@@ -51,7 +52,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **My Reservations**.
 
-</td></tr><tr><td id="d245069e121">
+</td></tr><tr><td id="d250743e121">
 
 **From Workplace Service Portal**
 
@@ -106,6 +107,10 @@ Update a reservation
  **Note:**
 
 -   If you’re changing the location of a reservation, ensure that you change the location name in the subject in case it’s mentioned.
+-   If you have additional services in the reservation, the workplace service case is closed and a new one is created.
+
+Based on the software version installed by the admin, the case can remain open and only the child cases are created again.
+
 -   If you have additional services in the reservation, the workplace service case remains open until all the service item requests are fulfilled. Based on the configuration set by the admin, unfulfilled service item requests are either updated, or canceled and recreated.
 
 
@@ -164,40 +169,40 @@ Cancel a reservation
 
 The reservation is updated with your changes and an email notification is sent with the details of your reservation.
 
-**Parent Topic:**[Reserve workplace items](../concept/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 
 
-[Create a reservation](create-reservation-request-1.md)
+[Create a reservation]()
 
-[Add invitees as collaborators and create a reservation](add-colleagues-rsv-search.md)
+[Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations](recurring-reservations.md)
+[Auto-resolve recurring reservations]()
 
-[Set a location as favorite using the Space details page](set-a-location-as-favorite.md)
+[Set a location as favorite using the Space details page]()
 
-[Reserve a space near your colleague](browse-near-person-rsv.md)
+[Reserve a space near your colleague]()
 
-[Create a multi-day reservation](create-multi-day-reservation.md)
+[Create a multi-day reservation]()
 
-[Create multi-building reservations](create-multi-building-reservation.md)
+[Create multi-building reservations]()
 
-[Create neighborhood reservations](create-neighborhood-reservations.md)
+[Create neighborhood reservations]()
 
-[Create reservation for multiple workplace items](create-reservation-for-multiple-wrkplceitems-1.md)
+[Create reservation for multiple workplace items]()
 
-[Enable shift-based reservation](enable-shift-based-reservation.md)
+[Enable shift-based reservation]()
 
-[Create a reservation along with a shared reservation](create-rsv-along-with-shared-rsv.md)
+[Create a reservation along with a shared reservation]()
 
-[Create a reservation including a virtual meeting link](Create-reservation-with-virtual-meeting.md)
+[Create a reservation including a virtual meeting link]()
 
-[Create a shift reservation](create-a-shift-reservation.md)
+[Create a shift reservation]()
 
-[Create a group reservation](create-group-reservation.md)
+[Create a group reservation]()
 
-[Reserve a workplace using the Quick Reservation widget](reserve-workplace-for-a-time-slot.md)
+[Reserve a workplace using the Quick Reservation widget]()
 
-[Download an iCalendar for a reservation](generate-ical.md)
+[Download an iCalendar for a reservation]()
 

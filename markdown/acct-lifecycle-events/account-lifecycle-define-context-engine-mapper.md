@@ -2,11 +2,12 @@
 title: Configure the Context Engine Mapper
 description: After you have defined the data source, use the Context Engine Mapper to specify the record in the context table for which it is applicable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Set up the Data Context Engine, Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Data context engine, Customer success, Configure, Customer Success Management]
 ---
 
 # Configure the Context Engine Mapper
@@ -15,7 +16,7 @@ After you have defined the data source, use the Context Engine Mapper to specify
 
 The Context Engine Mapper is a framework that establishes mappings between source entities and their corresponding context entities, enabling the resolution of context-specific records based on given sources such as resolving engagements from customer accounts.
 
-You can use the Context Engine Mapper to determine which fields will be used to categorize data collected by the [Data Context Engine](account-lifecycle-setup-metric-data.md). This mapping ensures that data is organized and analyzed based on designated breakdown fields such as account type, engagement status, or sold products.
+You can use the Context Engine Mapper to determine which fields will be used to categorize data collected by the [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-metric-data.md). This mapping ensures that data is organized and analyzed based on designated breakdown fields such as account type, engagement status, or sold products.
 
 **Note:** You can set up the context engine to map the source and target tables using one of the following methods:
 
@@ -127,7 +128,7 @@ If you cannot query the context table through dot walking, you can define a scri
 4.  Select **Submit** to save the context mapping.
 5.  Navigate to **All** &gt; **Data Context Engine** &gt; **Data Sources**.
 
-    ![Metric data collection data source](../image/account-lifecycle-data-source.png)
+    \[Omitted image "account-lifecycle-data-source.png"\] Alt text: Metric data collection data source
 
 6.  Open the data source you had created earlier and select **Publish**.
 
@@ -138,14 +139,14 @@ The following examples show how to set up the different types of mapping:
 
 -   **Related table \(Global\)**
 
-    ![Context engine mapping with related table](../image/account-lifecycle-context-engine-mapping-1.png)
+    \[Omitted image "account-lifecycle-context-engine-mapping-1.png"\] Alt text: Context engine mapping with related table
 
 -   **Metric Based Type**
 
-    ![Metric based mapping](../image/account-lifecycle-context-engine-mapping-3.png)
+    \[Omitted image "account-lifecycle-context-engine-mapping-3.png"\] Alt text: Metric based mapping
 
 -   **Script**
 
-    ![Context engine mapping with script](../image/account-lifecycle-context-engine-mapping-2.png)
+    \[Omitted image "account-lifecycle-context-engine-mapping-2.png"\] Alt text: Context engine mapping with script
 
 

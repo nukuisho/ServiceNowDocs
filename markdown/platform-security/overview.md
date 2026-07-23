@@ -2,9 +2,10 @@
 title: Overview Dashboard
 description: The Overview dashboard provides a centralized view of your Code Signing environment, offering real-time insights into key components and their status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Health and Status Dashboard, Code Signing, Platform Security]
 ---
@@ -136,5 +137,5 @@ Distribution of signed records across different application modules, showing the
 -   **Others**: Percentage of signed records in all other application modules.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Code Signing Health and Status Dashboard](code-signing-health-and-status-dashboard.md)
+</table>**Parent Topic:**[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-health-and-status-dashboard.md)
 

@@ -2,13 +2,14 @@
 title: Record time worked on a repair task manually in the Enterprise Asset Workspace
 description: Create an entry for the time worked on a repair task manually in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/record-time-worked-manually-eam-ws.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Record time worked on asset repair tasks in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Record time worked on asset repair tasks in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Record time worked on a repair task manually in the Enterprise Asset Workspace
@@ -54,12 +55,12 @@ Role required: enterprise\_asset\_technician
 
 The Time Worked form is saved and the time card is added to the Time Worked tab of the asset repair task.
 
-**Parent Topic:**[Record time worked on asset repair tasks in the Enterprise Asset Workspace](../concept/record-repair-time-eam-ws.md)
+**Parent Topic:**[Record time worked on asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-repair-time-eam-ws.md)
 
 **Related topics**  
 
 
-[Record time worked on a repair task automatically in the Enterprise Asset Workspace](record-total-repair-time-eam-ws.md)
+[Record time worked on a repair task automatically in the Enterprise Asset Workspace]()
 
-[Pause a repair task in the Enterprise Asset Workspace](pause-repair-task-eam-ws.md)
+[Pause a repair task in the Enterprise Asset Workspace]()
 

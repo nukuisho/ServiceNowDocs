@@ -2,6 +2,7 @@
 title: Manage conference calls on task
 description: Add and manage multiple participants on the conference including self-joining in to the conference call and end the conference call when the discussion is over.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/manage-conf-call.html
 release: australia
 product: Notify
 classification: notify
@@ -43,12 +44,12 @@ The **Manage Conference Calls** UI action is available for any table that extend
 5.  In the Manage Conferences window, click the conference call number to know the details of the conference.
 
 
-**Parent Topic:**[Using Notify with tasks](../concept/c_NotifyOnTask.md)
+**Parent Topic:**[Using Notify with tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyOnTask.md)
 
 **Related topics**  
 
 
-[Start a conference call from a task](t_StartAConferenceCallFromATask.md)
+[Start a conference call from a task]()
 
-[Send an SMS alert from a task](t_SendAnSMSFromATask.md)
+[Send an SMS alert from a task]()
 

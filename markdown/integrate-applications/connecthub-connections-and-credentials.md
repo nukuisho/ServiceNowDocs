@@ -2,11 +2,12 @@
 title: Connections and Credentials
 description: The Connections and Credentials page is where you create, configure, and manage all connections between ServiceNow and external systems. This is where you store authentication credentials and establish the actual communication links.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connecthub-connections-and-credentials.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Connect, Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [Connect, Workflow Data Fabric]
 ---
 
 # Connections and Credentials
@@ -25,7 +26,7 @@ When you create an outbound connection, you:
 -   Set up endpoints for different environments
 -   Save the connection for use in workflows
 
-See [Set up outbound connections](../task/connecthub-set-up-outbound-connections.md) for detailed steps.
+See [Set up outbound connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for detailed steps.
 
 ## Inbound connections
 
@@ -39,7 +40,7 @@ When you create an inbound connection, you:
 -   Activate the connection to generate an endpoint URL
 -   Share the endpoint URL with the external system
 
-See [Set up inbound connections](../task/connecthub-set-up-inbound-connections.md) for detailed steps.
+See [Set up inbound connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for detailed steps.
 
 ## Credentials and security
 

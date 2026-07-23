@@ -2,6 +2,7 @@
 title: Query Generation skills
 description: Query Generation skills enable users to ask questions in Now Assist in Platform Analytics applications and receive answers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/enable-query-generation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -35,18 +36,16 @@ Role required: admin
 
 4.  Browse for the analytics query generation skill.
 
-    ![Analytics query generation skill tile.](../image/querygen-activate-qg-skill-new.png)
+    \[Omitted image "querygen-activate-qg-skill-new.png"\] Alt text: Analytics query generation skill tile.
 
 5.  To deactivate a skill, select **Deactivate skill**.
 
-    Features that require the skill, such as AI Data Explorer, will no longer function.
-
 6.  To change the roles that can access a skill, open it for editing.
 
-    ![Opening a skill card to edit the settings.](../image/open-skill-edit.png)
+    \[Omitted image "open-skill-edit.png"\] Alt text: Opening a skill card to edit the settings.
 
     **Warning:** Be careful when selecting the roles that can access a skill. The default role is sn\_query\_gen.user, which the default roles for other Now Assist in Platform Analytics skills contain. Users of these other skills must be able to access Query Generation skills.
 
 
-**Parent Topic:**[Configuring Query Generation](../concept/configuring-query-generation.md)
+**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-query-generation.md)
 

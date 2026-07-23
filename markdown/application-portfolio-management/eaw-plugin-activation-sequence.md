@@ -1,655 +1,87 @@
 ---
 title: Application plugin installation sequence for Enterprise Architecture Workspace
-description: The following table provides the list of plugins for Enterprise Architecture Workspace, a high-level description of each plugin, and the dependencies that are required before installing each plugin.
+description: Activate the required plugins and optional add-ons in the correct order to confirm all Enterprise Architecture Workspace features are available on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-plugin-activation-sequence.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-23"
-reading_time_minutes: 6
+last_updated: "2026-05-18"
+reading_time_minutes: 4
 breadcrumb: [Install Enterprise Architecture Workspace, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Application plugin installation sequence for Enterprise Architecture Workspace
 
-The following table provides the list of plugins for Enterprise Architecture Workspace, a high-level description of each plugin, and the dependencies that are required before installing each plugin.
-
-**Warning:** type="warning"&gt;Before activating a plugin listed in the Plugin name column, verify that you activate all corresponding dependencies listed in the Plugin dependencies column from the [ServiceNow Store](https://store.servicenow.com).
+Activate the required plugins and optional add-ons in the correct order to confirm all Enterprise Architecture Workspace features are available on your instance.
 
 ## Enterprise Architecture Workspace application plugin list
 
-When you activate Enterprise Architecture Workspace \(`com.snc.apm_workspace`\), ServiceNow automatically activates several dependent plugins. These are listed as **Automatic** in the Activation column. The remaining plugins must be activated manually in the order shown in the [Enterprise Architecture Workspace plugin activation sequence](eaw-plugin-activation-sequence.md#install_sequence) section.
-
-**Tip:** The auto-activated plugin list may vary depending on your instance version. To confirm the exact dependencies for your version, check the Plugin Manager before activation.
-
-<table id="table_ys3_v1g_1jc"><thead><tr><th>
-
-Sequence
-
-</th><th>
-
-Plugin name
-
-</th><th>
-
-Description
-
-</th><th>
-
-Activation
-
-</th><th>
-
-Plugin dependencies
-
-</th></tr></thead><tbody><tr><td>
-
-1
-
-</td><td>
-
-Enterprise Architecture Core
-
- `[com.snc.apm_core]`
-
-</td><td>
-
-Provides the core data model and foundation tables for Enterprise Architecture.
-
-</td><td>
-
-Automatic
-
-</td><td>
-
-—
-
-</td></tr><tr><td>
-
-2
-
-</td><td>
-
-Enterprise Architecture
-
- `[com.snc.apm]`
-
-</td><td>
-
-Provides application portfolio management capabilities for tracking business applications, capabilities, and services. All other EA plugins depend on this plugin.
-
-</td><td>
-
-Automatic
-
-</td><td>
-
-Enterprise Architecture Core \(`com.snc.apm_core`\)
-
-</td></tr><tr><td>
-
-3
-
-</td><td>
-
-Read-only Roles for EA
-
- `[com.snc.apm_read_roles]`
-
-</td><td>
-
-Provides read-only access roles for Enterprise Architecture data and records. Activate this plugin before activating Enterprise Architecture Workspace.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\)
-
-</td></tr><tr><td>
-
-4
-
-</td><td>
-
-Four-Quadrant Bubble Chart
-
- `[sn_4_q_bubble]`
-
-</td><td>
-
-Provides the bubble chart visualization component used in EA Workspace rationalization views.
-
-</td><td>
-
-Automatic
-
-</td><td>
-
-—
-
-</td></tr><tr><td>
-
-5
-
-</td><td>
-
-Enterprise Architecture Workspace
-
- `[com.snc.apm_workspace]`
-
-</td><td>
-
-Provides the primary workspace interface for Enterprise Architecture, including dashboards, rationalization views, and Now Assist. Activating this plugin triggers automatic activation of all dependent plugins.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture Core \(`com.snc.apm_core`\), Enterprise Architecture \(`com.snc.apm`\), Read-only Roles for EA \(`com.snc.apm_read_roles`\), Four-Quadrant Bubble Chart \(`sn_4_q_bubble`\)
-
-</td></tr><tr><td>
-
-6
-
-</td><td>
-
-Value Stream
-
- `[sn_value_stream]`
-
-</td><td>
-
-Provides value stream integration capabilities for mapping business value flows within Enterprise Architecture.
-
-</td><td>
-
-Automatic
-
-</td><td>
-
-Enterprise Architecture Workspace \(`com.snc.apm_workspace`\)
-
-</td></tr><tr><td>
-
-7
-
-</td><td>
-
-Product Capability Core
-
- `[sn_prod_cap_core]`
-
-</td><td>
-
-Provides product capability mapping components used within Enterprise Architecture Workspace.
-
-</td><td>
-
-Automatic
-
-</td><td>
-
-Enterprise Architecture Workspace \(`com.snc.apm_workspace`\)
-
-</td></tr><tr><td>
-
-8
-
-</td><td>
-
-Enterprise Architecture – TRM
-
- `[com.snc.apm_trm]`
-
-</td><td>
-
-Provides Technology Reference Model capabilities for tracking and managing the technology landscape across the enterprise.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\)
-
-</td></tr><tr><td>
-
-9
-
-</td><td>
-
-Technology Portfolio Management
-
- `[com.snc.apm_tpm]`
-
-</td><td>
-
-Provides technology lifecycle management, software model mapping, and capability scoring for enterprise applications.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\), Enterprise Architecture – TRM \(`com.snc.apm_trm`\)
-
-</td></tr><tr><td>
-
-10
-
-</td><td>
-
-Total Cost of Ownership
-
- `[com.snc.apm_tco]`
-
-</td><td>
-
-Provides cost tracking and reporting for enterprise applications.
-
-</td><td>
-
-Automatic
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\)
-
-</td></tr><tr><td>
-
-11
-
-</td><td>
-
-Digital Integration Management
-
- `[com.snc.apm_digital_integration]`
-
-</td><td>
-
-Provides digital integration and interface management capabilities, including entity shapes for architecture diagrams. This plugin activates automatically, but must be active before Enterprise Modeling Common activates for diagram entity shapes to load correctly.
-
-</td><td>
-
-Automatic
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\)
-
-</td></tr><tr><td>
-
-12
-
-</td><td>
-
-Cloud Readiness Assessment
-
- `[com.snc.apm_cloud_readiness]`
-
-</td><td>
-
-Provides cloud readiness scoring and assessment capabilities for enterprise applications.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\)
-
-</td></tr><tr><td>
-
-13
-
-</td><td>
-
-Advanced Risk Management
-
- `[com.sn_risk_advanced]`
-
-</td><td>
-
-Provides advanced risk management capabilities. Required by Risk Assessment for EA.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-—
-
-</td></tr><tr><td>
-
-14
-
-</td><td>
-
-Risk Assessment for EA
-
- `[com.snc.apm_risk_assessment]`
-
-</td><td>
-
-Provides risk assessment capabilities within the Enterprise Architecture context.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\), Advanced Risk Management \(`com.sn_risk_advanced`\)
-
-</td></tr><tr><td>
-
-15
-
-</td><td>
-
-Compliance
-
- `[com.sn_compliance]`
-
-</td><td>
-
-Provides compliance management capabilities. Required by Control Management for EA.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-—
-
-</td></tr><tr><td>
-
-16
-
-</td><td>
-
-Control Management for EA
-
- `[com.snc.apm_control_management]`
-
-</td><td>
-
-Provides control management capabilities within the Enterprise Architecture context.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\), Compliance \(`com.sn_compliance`\)
-
-</td></tr><tr><td>
-
-17
-
-</td><td>
-
-APM Diagram Builder
-
- `[com.sn_apm_diagram_builder]`
-
-</td><td>
-
-Provides the diagram builder component used by Enterprise Modeling and Visualization.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture Workspace \(`com.snc.apm_workspace`\)
-
-</td></tr><tr><td>
-
-18
-
-</td><td>
-
-Enterprise Modeling Common
-
- `[com.snc.apm_modelling_tool_common]`
-
-</td><td>
-
-Provides the base data model and shared components for Enterprise Modeling and Visualization.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\), APM Diagram Builder \(`com.sn_apm_diagram_builder`\)
-
-</td></tr><tr><td>
-
-19
-
-</td><td>
-
-Enterprise Modeling and Visualization
-
- `[com.snc.apm_modelling_tool]`
-
-</td><td>
-
-Provides capabilities for creating and managing architecture diagrams, including EA entity shapes and relationships.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture Workspace \(`com.snc.apm_workspace`\), APM Diagram Builder \(`com.sn_apm_diagram_builder`\), Enterprise Modeling Common \(`com.snc.apm_modelling_tool_common`\)
-
-</td></tr><tr><td>
-
-20
-
-</td><td>
-
-PA for APM
-
- `[com.snc.pa.apm]`
-
-</td><td>
-
-Provides Performance Analytics content packs for EA dashboards and reporting.
-
-</td><td>
-
-Automatic
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\)
-
-</td></tr><tr><td>
-
-21
-
-</td><td>
-
-PPT Export for EA
-
- `[com.snc.apm_ppt_export]`
-
-</td><td>
-
-Provides PowerPoint export capabilities for EA diagrams and workspace content.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture Workspace \(`com.snc.apm_workspace`\)
-
-</td></tr><tr><td>
-
-22
-
-</td><td>
-
-Lucidchart Integration
-
- `[com.snc.sn_lucidchart_integration]`
-
-</td><td>
-
-Provides integration with Lucidchart for collaborative diagram editing and import.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-IntegrationHub
-
-</td></tr><tr><td>
-
-23
-
-</td><td>
-
-Lucidchart Diagramming Spoke \(IH\)
-
- `[com.sn.lucidchart.spoke]`
-
-</td><td>
-
-Provides IntegrationHub spoke actions for Lucidchart diagram operations in Flow Designer.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-IntegrationHub, Lucidchart Integration \(`com.snc.sn_lucidchart_integration`\)
-
-</td></tr><tr><td>
-
-24
-
-</td><td>
-
-PA for APM – Change
-
- `[com.snc.pa.apm.change_request]`
-
-</td><td>
-
-Provides Performance Analytics content for change request tracking in EA dashboards.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-PA for APM \(`com.snc.pa.apm`\)
-
-</td></tr><tr><td>
-
-25
-
-</td><td>
-
-PA for APM – Problem
-
- `[com.snc.pa.apm.problem]`
-
-</td><td>
-
-Provides Performance Analytics content for problem management in EA dashboards.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-PA for APM \(`com.snc.pa.apm`\)
-
-</td></tr><tr><td>
-
-26
-
-</td><td>
-
-EA – Predictive Intelligence
-
- `[com.snc.apm.predictive_intelligence]`
-
-</td><td>
-
-Provides predictive intelligence capabilities for enterprise application analysis and recommendations.
-
-</td><td>
-
-Manual
-
-</td><td>
-
-Enterprise Architecture \(`com.snc.apm`\)
-
-</td></tr></tbody>
-</table>## Enterprise Architecture Workspace plugin activation sequence
-
-To avoid missing features and activation issues, activate the manually activated plugins in the following sequence. Plugins marked as Automatic in the table earlier do not require manual activation.
-
-1.  Read-only Roles for EA \(`com.snc.apm_read_roles`\)
-2.  Enterprise Architecture Workspace \(`com.snc.apm_workspace`\)
-3.  Enterprise Architecture – TRM \(`com.snc.apm_trm`\)
-4.  Technology Portfolio Management \(`com.snc.apm_tpm`\)
-5.  \(Optional\) Cloud Readiness Assessment \(`com.snc.apm_cloud_readiness`\)
-6.  Advanced Risk Management \(`com.sn_risk_advanced`\)
-7.  Risk Assessment for EA \(`com.snc.apm_risk_assessment`\)
-8.  Compliance \(`com.sn_compliance`\)
-9.  Control Management for EA \(`com.snc.apm_control_management`\)
-10. APM Diagram Builder \(`com.sn_apm_diagram_builder`\)
-11. Enterprise Modeling Common \(`com.snc.apm_modelling_tool_common`\)
-12. Enterprise Modeling and Visualization \(`com.snc.apm_modelling_tool`\)
-13. \(Optional\) PPT Export for EA \(`com.snc.apm_ppt_export`\)
-14. \(Optional\) Lucidchart Integration \(`com.snc.sn_lucidchart_integration`\)
-15. \(Optional\) Lucidchart Diagramming Spoke \(IH\) \(`com.sn.lucidchart.spoke`\)
-16. \(Optional\) PA for APM – Change \(`com.snc.pa.apm.change_request`\)
-17. \(Optional\) PA for APM – Problem \(`com.snc.pa.apm.problem`\)
-18. \(Optional\) EA – Predictive Intelligence \(`com.snc.apm.predictive_intelligence`\)
+The Enterprise Architecture Workspace consists of a core plugin and several feature plugins and optional add-ons. Some features only become available when their dependent plugins are active at the time of activation.
+
+Loading the core plugin before feature plugins and optional add-ons confirms that all functionalities are initialized properly.
+
+**Note:** Activating plugins out of order can cause features to appear missing after activation — with no error message to indicate the cause. Follow the sequence in this topic to avoid this.
+
+You must have the admin role to activate plugins and store apps. Verify that your instance is on a supported release for the plugins you plan to activate.
+
+## Plugin activation sequence
+
+|\#|Plugin ID|Display name|Required|What it enables|
+|---|---------|------------|--------|---------------|
+|Core|
+|1|com.snc.apm\_core|Enterprise Architecture Core|Yes|Base data model. Activate first.|
+|2|com.snc.apm|Enterprise Architecture|Yes|Core plugin. All other EA plugins depend on this.|
+|3|com.snc.apm\_read\_roles|Read-only Roles for EA|Yes|Read-only access roles. Activate before assigning roles to users.|
+|4|sn\_4\_q\_bubble|Four-Quadrant Bubble Chart|Yes|UI component required by the workspace. Must be active before \#5.|
+|5|com.snc.apm\_workspace|Enterprise Architecture Workspace|Yes|Main workspace UI. Requires \#1–4 to be active first.|
+|Feature plugins — activate after core \(\#1–5\) in any order|
+|6|`com.snc.apm_trm`|TRM|Yes|Technology reference model, lifecycle tracking, and technical debt calculation. Activate before TPM \(\#7\).|
+|7|com.snc.apm\_tpm|Technology Portfolio Management|Yes|Software lifecycle data, capability scores, and software model mapping in the workspace. Activate after TRM \(\#6\).|
+|8|com.snc.apm\_tco|Total Cost of Ownership|No|TCO cost data on application records.|
+|9|com.snc.apm\_digital\_integration|Digital Integration Management|No|Digital integration entities. If you plan to use Enterprise Modeling and Visualization \(\#15–17\), activate this plugin first.|
+|10|com.snc.apm\_cloud\_readiness|Cloud Readiness Assessment|No|Cloud readiness scoring on application records.|
+|GRC integration — activate the platform plugin before the EA plugin in each pair|
+|11|com.sn\_risk\_advanced|Advanced Risk Management|No|Platform plugin. Required before \#12.|
+|12|com.snc.apm\_risk\_assessment|Risk Assessment for EA|No|Risk Assessment section on Business Application records and in diagrams.|
+|13|com.sn\_compliance|Compliance|No|Platform plugin. Required before \#14.|
+|14|com.snc.apm\_control\_management|Control Management for EA|No|Controls section on Business Application records and in diagrams.|
+|Enterprise Modeling and Visualization — activate in this exact order after core and feature plugins|
+|15|com.sn\_apm\_diagram\_builder|APM Diagram Builder|No|Diagram builder engine. Required before \#16–17.|
+|16|com.snc.apm\_modelling\_tool\_common|Enterprise Modeling and Visualization Common|No|Base data model for diagrams. Required before \#17.|
+|17|com.snc.apm\_modelling\_tool|Enterprise Modeling and Visualization|No|Diagramming and modeling capabilities in the workspace.|
+|Optional add-ons — activate at any point after their listed prerequisites|
+|18|com.snc.apm\_ppt\_export|PPT Export for EA|No|PowerPoint export from the workspace. Requires \#5.|
+|19|com.snc.sn\_lucidchart\_integration|Lucidchart Integration|No|Lucidchart diagram integration. Requires IntegrationHub to be active first.|
+|20|com.sn.lucidchart.spoke|Lucidchart Diagramming Spoke|No|Lucidchart spoke actions in Flow Designer. Requires IntegrationHub to be active first.|
+|21|com.snc.pa.apm|Performance Analytics for APM|No|Performance Analytics dashboards for EA. Requires Performance Analytics to be active.|
+|22|com.snc.pa.apm.change\_request|Performance Analytics for APM – Change|No|Change request analytics for EA. Requires \#21.|
+|23|com.snc.pa.apm.problem|Performance Analytics for APM – Problem|No|Problem analytics for EA. Requires \#21.|
+|24|com.snc.apm.predictive\_intelligence|EA – Predictive Intelligence|No|Predictive Intelligence features for EA. Licensable.|
+
+## Post-activation checklist
+
+After activating all required plugins and any optional add-ons, verify that the expected features are available.
+
+-   Go to **Workspaces** &gt; **Enterprise Architecture Workspace**. The workspace opens without errors.
+-   The Application Rationalization bubble chart is visible.
+-   The Business Applications list populates with data.
+-   The Capability Heatmap renders correctly.
+-   If TPM \(\#7\) is active, lifecycle data is visible on application records and capability scores display in the Business Capability Hierarchy.
+-   If Enterprise Modeling and Visualization \(\#15–17\) is active, the **Modeling and Visualization** section is available in the workspace navigation and EA entity shapes appear in the diagram shape library.
 
 ## Resolving missing features
 
-If a feature is missing after activation, check whether a required plugin was inactive when another plugin was activated. The following table lists common symptoms and how to resolve them.
+If a feature is missing after activation, use the following table to identify the cause and resolve it.
 
-|Symptom|Cause|Resolution|
-|-------|-----|----------|
-|Bubble Chart page is empty or missing|Four-Quadrant Bubble Chart was not active when EA Workspace was activated|Confirm `sn_4_q_bubble` is active, then reactivate `com.snc.apm_workspace`.|
-|Risk Assessment menu missing in workspace|Advanced Risk Management was not active when Risk Assessment for EA was activated|Activate `com.sn_risk_advanced` first, then activate `com.snc.apm_risk_assessment`.|
-|No entity shapes in Enterprise Modeling and Visualization|Enterprise Architecture was not active when Enterprise Modeling and Visualization was activated|Confirm `com.snc.apm` is active, then reactivate `com.snc.apm_modelling_tool`.|
-|Lucidchart spoke actions missing in Flow Designer|IntegrationHub was not active before the Lucidchart spoke was activated|Activate IntegrationHub, then reactivate `com.sn.lucidchart.spoke`.|
-|Architectural Artifacts section missing|Document Management was not active when Enterprise Architecture was activated|Activate `com.snc.platform_document_management`, then reactivate `com.snc.apm`.|
-|Now Assist buttons not visible in workspace|Now Assist for EA was not active when EA Workspace was activated|Activate `sn_apm_gen_ai`, then reactivate `com.snc.apm_workspace`.|
-|Digital Integration entities missing in diagrams|Digital Integration Management was not active when Enterprise Modeling Common was activated|Activate `com.snc.apm_digital_integration`, then reactivate `com.snc.apm_modelling_tool_common`.|
+|Missing feature|Likely cause|Resolution|
+|---------------|------------|----------|
+|Bubble Chart page is blank or missing|The Four-Quadrant Bubble Chart plugin was not active when the workspace was activated|Reactivate com.snc.apm\_workspace after confirming sn\_4\_q\_bubble is active.|
+|Risk Assessment section missing from workspace|Advanced Risk Management was not active before Risk Assessment for EA was activated|Activate com.sn\_risk\_advanced, then reactivate com.snc.apm\_risk\_assessment.|
+|No entity shapes in diagram editor|Enterprise Architecture Core was not active when Enterprise Modeling and Visualization was activated|Confirm com.snc.apm is active, then reactivate com.snc.apm\_modelling\_tool.|
+|Digital Integration shapes missing from diagrams|Digital Integration Management was activated after Enterprise Modeling and Visualization|Activate com.snc.apm\_digital\_integration, then reactivate com.snc.apm\_modelling\_tool\_common.|
+|Lucidchart spoke actions missing in Flow Designer|IntegrationHub was not active before the Lucidchart spoke was activated|Activate IntegrationHub, then reactivate com.sn.lucidchart.spoke.|
+|Architectural Documents section missing|The Document Management platform plugin was not active whenEnterprise Architecture was activated|Activate com.snc.platform\_document\_management, then reactivate com.snc.apm.|
+|Now Assist buttons not visible in the workspace|The Now Assist for Enterprise Architecture \(EA\) plugin is not active|Activate sn\_apm\_gen\_ai.|
 
-**Parent Topic:**[Install Enterprise Architecture Workspace](../../task/install-ea-workspace.md)
+**Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/install-ea-workspace.md)
 

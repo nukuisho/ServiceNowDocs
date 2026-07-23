@@ -1,7 +1,8 @@
 ---
-title: Model relationships
+title: Modeling network inventory relationships
 description: You model your network inventory relationships in the Telecommunications Network Inventory application so that you can use them in the inventory template relationships to create your network inventory records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -11,13 +12,13 @@ reading_time_minutes: 2
 breadcrumb: [Modeling your workflow, Explore, Telecommunications Network Inventory]
 ---
 
-# Model relationships
+# Modeling network inventory relationships
 
 You model your network inventory relationships in the Telecommunications Network Inventory application so that you can use them in the inventory template relationships to create your network inventory records.
 
 ## Network model relationship overview
 
-A model relationship captures the relationships between the inventory models. By defining the relationships between the various network model entities, you can also define the compatibility between these entities. The inventory template uses the model relationships to create template relationships. The instantiation process uses the inventory template relationships that you create when it generates the network inventory records. For example, when you create an equipment or card template, the associated slots and interface templates are automatically created by using the data from the model relationship. If the model relationships aren’t made, the system doesn't create the associated templates.
+A model relationship captures the relationships between the inventory models. By defining the relationships between the various network model entities, you can also define the compatibility between these entities. The inventory template uses the model relationships to create template relationships. The instantiation process uses the inventory template relationships that you create when it generates the network inventory records. For example, when you create an equipment or card template, the associated slots and interface templates are automatically created using the data from the model relationship. If the model relationships aren’t made, the system doesn't create the associated templates.
 
 ## Inventory modeling process
 
@@ -28,7 +29,7 @@ When you create inventory models for your equipment inventory in the Telecommuni
 
 The following diagram shows a top-to-bottom approach for the inventory modeling process.
 
-![Top-to-bottom inventory modeling. For a text description, refer to the modeling steps that follow.](../image/inventory-modeling-process.png "Top-to-bottom inventory modeling")
+\[Omitted image "top-down-inventory-model.png"\] Alt text: Top down inventory modeling
 
 The steps for top-to-bottom modeling of an inventory are as follows:
 
@@ -47,7 +48,7 @@ This process ensures that all models and model relationships are created accordi
 **Related topics**  
 
 
-[Create inventory models](creating-your-inventory-models.md)
+[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 
-[Define a network model relationship](../task/create-network-model-relationships.md)
+[Define a network model relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-network-model-relationships.md)
 

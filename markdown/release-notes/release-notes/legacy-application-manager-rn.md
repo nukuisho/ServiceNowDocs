@@ -16,5 +16,5 @@ The ServiceNow® Legacy Application Manager application enables administrators t
 
 Legacy Application Manager is being deprecated as of Australia patch 1. Bookmarks to Legacy Application Manager redirect to the new Application Manager experience.
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
 

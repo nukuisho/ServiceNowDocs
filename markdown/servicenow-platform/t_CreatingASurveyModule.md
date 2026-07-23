@@ -2,6 +2,7 @@
 title: Create a survey module
 description: You can create a module that opens a survey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreatingASurveyModule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,26 +44,26 @@ When a user clicks a survey module, the system performs one of the following act
 4.  Complete and save the form.
 
 
-**Parent Topic:**[Survey distribution](../concept/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 
 
-[Email notifications for surveys](../concept/email-notification-for-surveys.md)
+[Email notifications for surveys]()
 
-[Send survey invitations to users](t_SendSurveyInvitationsToUsers.md)
+[Send survey invitations to users]()
 
-[Define a recipients list for surveys](define-recipient-list.md)
+[Define a recipients list for surveys]()
 
-[Add a recipients list to a survey](add-recipient-list-survey.md)
+[Add a recipients list to a survey]()
 
-[Embed a survey within the Outlook email client](embed-survey-in-outlook-email.md)
+[Embed a survey within the Outlook email client]()
 
-[Enable localization for a survey](enable-localization-survey.md)
+[Enable localization for a survey]()
 
-[Survey URLs](../concept/c_SurveyURLs.md)
+[Survey URLs]()
 
-[Sharing surveys](../concept/c_SurveyInportAndExport.md)
+[Sharing surveys]()
 
-[Configure a survey in the Connect chat support](take-survey-connect-chat.md)
+[Configure a survey in the Connect chat support]()
 

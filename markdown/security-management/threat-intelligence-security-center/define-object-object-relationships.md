@@ -2,13 +2,14 @@
 title: Define object-object relationships
 description: Define relationships between SDOs, except the indicator object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/define-object-object-relationships.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Define object-object relationships
@@ -31,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d177755e102">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d181251e98">
 
 Field
 
-</th><th align="left" id="d177755e105">
+</th><th align="left" id="d181251e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d177755e111">
+</th></tr></thead><tbody><tr><td id="d181251e107">
 
 **Source Object**
 
@@ -47,7 +48,7 @@ Description
 
 Select and define the source object.
 
-</td></tr><tr><td id="d177755e120">
+</td></tr><tr><td id="d181251e116">
 
 **Source Object Type**
 
@@ -55,7 +56,7 @@ Select and define the source object.
 
 Defines the type of source object.
 
-</td></tr><tr><td id="d177755e129">
+</td></tr><tr><td id="d181251e125">
 
 **Target Object**
 
@@ -63,7 +64,7 @@ Defines the type of source object.
 
 Select and define the target object.
 
-</td></tr><tr><td id="d177755e138">
+</td></tr><tr><td id="d181251e134">
 
 **Target Object Type**
 
@@ -71,7 +72,7 @@ Select and define the target object.
 
 Defines the type of target object.
 
-</td></tr><tr><td id="d177755e148">
+</td></tr><tr><td id="d181251e144">
 
 **Relationship Type**
 
@@ -83,7 +84,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d177755e167">
+</td></tr><tr><td id="d181251e163">
 
 **Start Time**
 
@@ -91,7 +92,7 @@ A description that provides more details and context about the relationship type
 
 Specifies the time when the relationship is created.
 
-</td></tr><tr><td id="d177755e176">
+</td></tr><tr><td id="d181251e172">
 
 **Stop Time**
 
@@ -99,7 +100,7 @@ Specifies the time when the relationship is created.
 
 Specifies the time when the relationship is stopped or removed.
 
-</td></tr><tr><td id="d177755e185">
+</td></tr><tr><td id="d181251e181">
 
 **Description**
 
@@ -111,5 +112,5 @@ A brief description about the object relationships.
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships Objects](../concept/relationship-objects.md)
+**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/relationship-objects.md)
 

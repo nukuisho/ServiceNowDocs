@@ -2,11 +2,12 @@
 title: Indexing multiple indicators in a formula
 description: You can write a formula to measure what the gap is to the overall target of multiple, combined indicators. Such a formula indicator is called an 'index indicator'.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/index-indicators.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-08"
 reading_time_minutes: 5
 breadcrumb: [Formula indicators, Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -44,7 +45,7 @@ For indicators that have a **Minimize** direction, the formula is:
 
 If you are weighting the indicators evenly, you can index the final aggregation to 100 instead of indexing the individual indicators to 100.
 
-You can use methods of the PAFormulaUtils\(\) API to get the gap between score and target for the indicator from the Analytics Hub. For more information, see [Get analytics methods in formulas](../task/get-indicator-analytics.md):
+You can use methods of the PAFormulaUtils\(\) API to get the gap between score and target for the indicator from the Analytics Hub. For more information, see [Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/get-indicator-analytics.md):
 
 ```
 pa.getGap(indicator, On date) / pa.getGlobalTarget(indicator, On date)
@@ -66,12 +67,12 @@ In the following example, you want a single index that aggregates the gap betwee
 -   The average age of the last update of open incidents.
 -   The total number of open incidents.
 
-To get this single index, you follow these steps to produce an index indicator:
+To get this single index, follow these steps to produce an index indicator:
 
-1.  You navigate to **Performance Analytics** &gt; **Formula Indicators** and click **New**. Index indicators are a use case of formula indicators.
-2.  You give the indicator a meaningful name, such as **Aggregate incident gap**.
-3.  Because you are creating an index indicator, you set the **Direction** to **Maximize**.
-4.  In the **Formula** field, you use the **Browse for a method** and **Browse for an indicator** functions to create the following formula:
+1.  Navigate to **Platform Analytics Administration** &gt; **Indicators** &gt; **Formula Indicators** and select **New**. Index indicators are a use case of formula indicators.
+2.  Give the indicator a meaningful name, such as **Aggregate incident gap**.
+3.  Set the **Direction** to **Maximize**.
+4.  In the **Formula** field, use the **Browse for a method** and **Browse for an indicator** functions to create the following formula:
 
     ```
     var a = pa.getGap($[[% of open overdue incidents]], score_start) / pa.getGlobalTarget($[[% of open overdue incidents]],score_start);
@@ -84,22 +85,22 @@ To get this single index, you follow these steps to produce an index indicator:
     The three indicators are weighted equally, so the aggregation is indexed to 100 instead of the individual indicators.
 
 
-**Parent Topic:**[Formula indicators](formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 
 
-[Create a formula indicator](../task/t_CreateAFormulaIndicator.md)
+[Create a formula indicator]()
 
-[Get analytics methods in formulas](../task/get-indicator-analytics.md)
+[Get analytics methods in formulas]()
 
-[Prevent a contributing indicator in a formula from following breakdowns](c_ExcludingBreakdownsFromFormulas.md)
+[Prevent a contributing indicator in a formula from following breakdowns]()
 
-[Breakdown matrices in formula indicators](bkdown-matrix-formula-indicators.md)
+[Breakdown matrices in formula indicators]()
 
-[Applying time series to result or to contributing indicators](apply-time-series-result-components.md)
+[Applying time series to result or to contributing indicators]()
 
-[Detect indicators with no scores in a formula](../task/detect-indicators-no-scores-formula.md)
+[Detect indicators with no scores in a formula]()
 
-[Changes to score\_start/end because of different user time zones](time-zones-indicator-formulas.md)
+[Changes to score\_start/end because of different user time zones]()
 

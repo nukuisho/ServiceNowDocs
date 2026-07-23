@@ -2,6 +2,7 @@
 title: Next Experience banner announcements
 description: Banner announcements enable you to communicate planned maintenance, unplanned outages, or important events like ESPP stock plans or benefits enrollment to those affected or to everyone. You can target specific experiences or all experiences.Configure banner announcements to communicate important information to your users while they are in an experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-banner-announcements.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,9 +14,7 @@ breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure
 
 Banner announcements enable you to communicate planned maintenance, unplanned outages, or important events like ESPP stock plans or benefits enrollment to those affected or to everyone. You can target specific experiences or all experiences.
 
-**Note:** Beginning with the San Diego release, configure banner announcements instead of updating the **glide.product.description** system property.
-
-![Banner announcement.](../image/pol-banner-announcement.png)
+\[Omitted image "pol-banner-announcement.png"\] Alt text: Banner announcement.
 
 You can configure the following aspects of banner announcements:
 
@@ -26,7 +25,7 @@ You can configure the following aspects of banner announcements:
     **Note:** If a user dismisses a banner announcement during a session and the announcement is still active, it will re-appear once the user logs out and back in to a new session.
 
 
-**Parent Topic:**[Configuring the Next Experience UI](next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
 
 ## Configure Next Experience banner announcements
 
@@ -38,11 +37,11 @@ Role required: announcement\_admin or admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Banner Announcements** to create an announcement.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Banner Announcements**.
 
 2.  Select **New**.
 
-3.  On the form, fill in the fields.
+3.  On the Banner Announcements form, fill in the fields.
 
 <table id="table_yyw_xxr_nrb"><thead><tr><th>
 
@@ -139,7 +138,7 @@ Icon
 
 </td><td>
 
-Icon to depict the urgency or category of the banner announcement. For example, a flame icon shows increased urgency and a graduation cap icon notifies of continuing learning opportunities.
+Icon to depict the urgency or category of the banner announcement. For example, a flame icon shows increased urgency and a graduation cap icon signals continuing learning opportunities.
 
 </td></tr><tr><td>
 
@@ -158,19 +157,19 @@ Content position
 Options for the horizontal position of the banner content.
 
 </td></tr></tbody>
-</table>4.  Right-click the form header and select **Save**.
+</table>4.  Select and hold \(or right-click\) the form header and select **Save**.
 
     The Associated to Configurations related list displays at the bottom of the form.
 
 5.  In the Associated to Configurations related list, select **New**.
 
-    ![Associated to Configurations related list.](../image/next-exp-associated-config.png "Associated to Configurations related list")
+    \[Omitted image "next-exp-associated-config.png"\] Alt text: Associated to Configurations related list.
 
-6.  In the Announcement Config field, select the search icon ![](../image/QueryIcon.png).
+6.  In the **Announcement Config** field, select the search icon \[Omitted image "QueryIcon.png"\] Alt text:.
 
 7.  Select **Unified Navigation** from the Banner Announcement Configs list.
 
-    ![Banner Announcement Configs list with Unified Navigation selected.](../image/next-exp-banner-config.png "Banner Announcement Configs list")
+    \[Omitted image "next-exp-banner-config.png"\] Alt text: Banner Announcement Configs list with Unified Navigation selected.
 
 8.  On the Banner Announcement Mapping form, set the order of the banner announcement mapping.
 

@@ -2,6 +2,7 @@
 title: Send notifications for an emergency
 description: Use Emergency Outreach to notify users to report their health status. Use Emergency Outreach also to quickly notify users of important information if there is an emergency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/send-eo-notification-outreach.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -17,7 +18,7 @@ Use Emergency Outreach to notify users to report their health status. Use Emerge
 
 ## Before you begin
 
-Users must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md).
+Users must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
 Note the following requirements to be able to send and receive SMS notifications:
 
@@ -26,7 +27,7 @@ Note the following requirements to be able to send and receive SMS notifications
 -   The Notify plug-in and the Notify-Twilio Direct driver must be enabled.
 -   The Label for your number in **Notify** &gt; **Messages** must be set to **Outreach**.
 
-For more information on configuring Notify and the Notify-Twilio Direct driver, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
+For more information on configuring Notify and the Notify-Twilio Direct driver, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-landing-page.md).
 
 Role required: sn\_imt\_checkin.checkin\_admin or admin
 
@@ -57,15 +58,15 @@ The following procedure is applicable to the use of Emergency Outreach as a stan
 
 4.  On the **When to run** tab, specify when the outreach should be sent.
 
-<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d450165e238">
+<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d459108e238">
 
 Option
 
-</th><th align="left" id="d450165e241">
+</th><th align="left" id="d459108e241">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d450165e247">
+</th></tr></thead><tbody><tr><td id="d459108e247">
 
 **To send the notification on demand**
 
@@ -73,7 +74,7 @@ Action
 
 Keep the default **Mode** value of **None**. The outreach is sent when you select **Send Notification**.
 
-</td></tr><tr><td id="d450165e265">
+</td></tr><tr><td id="d459108e265">
 
 **To schedule the notification**
 
@@ -98,23 +99,23 @@ The outreach messages reference a send time based on the time zone of the user s
 
 5.  To identify who will receive the outreach, perform one of the following actions.
 
-<table id="choicetable_cfs_ms2_jmb"><thead><tr><th align="left" id="d450165e366">
+<table id="choicetable_cfs_ms2_jmb"><thead><tr><th align="left" id="d459108e366">
 
 Installed apps
 
-</th><th align="left" id="d450165e369">
+</th><th align="left" id="d459108e369">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d450165e375">
+</th></tr></thead><tbody><tr><td id="d459108e375">
 
 **Emergency Outreach standalone**
 
 </td><td>
 
-On the **Select targeted audience** tab, select the combination of users to send the outreach notification to. Choose from user lists, groups, departments, locations, or other search filters such as building, cost center, or country code.For more information, see [Add a Safe Workplace audience](../../employee-readiness-core/task/add-safe-workplace-audience.md).
+On the **Select targeted audience** tab, select the combination of users to send the outreach notification to. Choose from user lists, groups, departments, locations, or other search filters such as building, cost center, or country code.For more information, see [Add a Safe Workplace audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/add-safe-workplace-audience.md).
 
-</td></tr><tr><td id="d450165e405">
+</td></tr><tr><td id="d459108e405">
 
 **With Safe Workplace**
 
@@ -131,15 +132,15 @@ On the Safe Workplace Audience tab, select the name of the audience to send the 
 
 8.  On the **Content configuration** tab, specify how to send the outreach notification.
 
-<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d450165e457">
+<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d459108e457">
 
 Option
 
-</th><th align="left" id="d450165e460">
+</th><th align="left" id="d459108e460">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d450165e466">
+</th></tr></thead><tbody><tr><td id="d459108e466">
 
 **Disable the email notification**
 
@@ -147,15 +148,15 @@ Action
 
 Clear the **Email** check box.
 
-</td></tr><tr><td id="d450165e478">
+</td></tr><tr><td id="d459108e478">
 
 **Select a different notification**
 
 </td><td>
 
-Click the lookup icon \(![Click icon to look up a notification](../../contact-tracing/image/icon-lookup.png)\) and select the notification to use.
+Click the lookup icon \(\[Omitted image "icon-lookup.png"\] Alt text: Click icon to look up a notification\) and select the notification to use.
 
-</td></tr><tr><td id="d450165e493">
+</td></tr><tr><td id="d459108e493">
 
 **Review and edit the introductory message**
 
@@ -163,7 +164,7 @@ Click the lookup icon \(![Click icon to look up a notification](../../contact-tr
 
 Modify the subject and body as desired. The default message template asks users to submit their health status regarding infectious diseases, such as COVID-19. The user selects a response from a list of possible responses.
 
-</td></tr><tr><td id="d450165e505">
+</td></tr><tr><td id="d459108e505">
 
 **Send a mobile push notification**
 
@@ -176,7 +177,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 2.  Modify the push message text as desired.
  Push notifications use the ServiceNow Request Application notification device. When mobile application is registered to an instance, this notification device is automatically created in the user's notification preferences. Ensure that this device is active for the users that you want to receive the push notification.
 
-</td></tr><tr><td id="d450165e535">
+</td></tr><tr><td id="d459108e535">
 
 **Send an SMS notification**
 
@@ -190,7 +191,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 3.  Click **Save**.
  SMS reply options are dynamically populated from the Response Options \[sn\_imt\_checkin\_response\_option\] table.
 
-</td></tr><tr><td id="d450165e573">
+</td></tr><tr><td id="d459108e573">
 
 **Use a custom notification channel**
 
@@ -210,18 +211,18 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 
 Review the Emergency Outreach acknowledgements.
 
-**Parent Topic:**[Emergency Outreach](../concept/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md)
 
 **Related topics**  
 
 
-[Add a Safe Workplace audience for Emergency Outreach](add-sw-audience-outreach.md)
+[Add a Safe Workplace audience for Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/add-sw-audience-outreach.md)
 
-[Send an Outreach notification for the daily contact log](../../contact-tracing/task/send-outreach-notif-daily-log.md)
+[Send an Outreach notification for the daily contact log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/send-outreach-notif-daily-log.md)
 
-[Send an Emergency Outreach notification for employee privacy consents in Contact Tracing](../../contact-tracing/task/send-outreach-notif-privacy.md)
+[Send an Emergency Outreach notification for employee privacy consents in Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/send-outreach-notif-privacy.md)
 
-[Send a readiness survey and view responses](send-eo-outreach-survey.md)
+[Send a readiness survey and view responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/send-eo-outreach-survey.md)
 
-[Send notifications for daily health verification](send-daily-health-verif-notif-outreach.md)
+[Send notifications for daily health verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/send-daily-health-verif-notif-outreach.md)
 

@@ -2,6 +2,7 @@
 title: Configure the required strength for passwords
 description: The password that a user defines must meet certain requirements — for example, it must contain at least 12 characters, it must include a numeral, and so on. You can configure the requirements as needed for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/config-pwd-strength-rqmts.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -27,7 +28,7 @@ The base system includes example credential stores with various password require
 -   At least one uppercase and one lower case letter
 -   At least one numeral
 
-**Note:** In addition to configuring password strength requirements, you can configure several other settings for the credential store, as described in [Configure the connection to a credential store for the Password Reset processes](t_CreateACredentialStore.md).
+**Note:** In addition to configuring password strength requirements, you can configure several other settings for the credential store, as described in [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateACredentialStore.md).
 
 ## Procedure
 
@@ -83,7 +84,7 @@ Default settings:-   Selected for local ServiceNow credential stores
 
 -   To guide the user during the reset process, the system displays a graphical bar labeled **Password Strength** under the **New password** field.
 
-![Password strength indicator](../image/password-strength.png)
+\[Omitted image "password-strength.png"\] Alt text: Password strength indicator
 
 -   The Password Reset Windows Application does not support Password Strength.
 
@@ -100,28 +101,28 @@ Default settings:-   Selected for local ServiceNow credential stores
     A progress page displays the result of the test.
 
 
-**Parent Topic:**[Configure your Password Reset process](t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 
 
-[Calculating the security score for password reset process](../reference/pwd-reset-process-recommend.md)
+[Calculating the security score for password reset process]()
 
-[Configure password expiration reminder](password-reset-expiration-setup.md)
+[Configure password expiration reminder]()
 
-[Credential stores for Password Reset](../concept/c_CredentialStores.md)
+[Credential stores for Password Reset]()
 
-[Password Reset verifications](../concept/c_PWRVerifications.md)
+[Password Reset verifications]()
 
-[Configure your Password Reset process to auto-enroll users](../../security/task/configure-auto-enroll-for-pwd-reset.md)
+[Configure your Password Reset process to auto-enroll users]()
 
-[Enable users to enroll for Password Reset](../../security/task/configure-user-enroll-for-pwd-reset.md)
+[Enable users to enroll for Password Reset]()
 
-[Configure Password Reset properties](t_SetPwdResetProps.md)
+[Configure Password Reset properties]()
 
-[Send email to remind users to enroll for Password Reset](config-pwd-reset-enroll-reminder.md)
+[Send email to remind users to enroll for Password Reset]()
 
-[Specify lockout for failed login attempts](../../security/task/t_LockoutForFailedLogins.md)
+[Specify lockout for failed login attempts]()
 
-[Configure Google reCAPTCHA for the password reset process](t_ConfigureGoogleRecaptcha.md)
+[Configure Google reCAPTCHA for the password reset process]()
 

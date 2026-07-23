@@ -2,11 +2,12 @@
 title: Now Assist for Sales CRM for Telecommunications AI agent Move order voice AI agent
 description: Use this agent to automatically create a customer move order capture journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-move-order-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI agents in SOMT, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Now Assist for Sales CRM for Telecommunications AI agent Move order voice AI agent
@@ -44,7 +45,7 @@ To configure the AI agent:
 2.  In Now Assist Voice Deployment tile, select **Edit**.
 3.  Select **Settings** tab and review the details.
 
-To create SoftPIN, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-soft-pin.md).
+To create SoftPIN, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-soft-pin.md).
 
 ## Move order voice AI agent
 

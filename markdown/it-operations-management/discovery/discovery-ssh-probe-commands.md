@@ -1,7 +1,8 @@
 ---
-title: SSH commands not requiring a privileged user during probe-based discovery
+title: Non-privileged SSH commands during probe-based discovery
 description: These tables display the SSH commands run by Discovery probes on target devices during horizontal discovery. These SSH commands don’t require elevated privileges to run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-ssh-probe-commands.html
 release: australia
 product: Discovery
 classification: discovery
@@ -12,13 +13,13 @@ keywords: [SSH commands, probe commands, SSH probe commands, no elevated privile
 breadcrumb: [SSHCommand probe, List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# SSH commands not requiring a privileged user during probe-based discovery
+# Non-privileged SSH commands during probe-based discovery
 
 These tables display the SSH commands run by Discovery probes on target devices during horizontal discovery. These SSH commands don’t require elevated privileges to run.
 
 ## Operating systems
 
-For information on commands used by Service Mapping during the top-down discovery, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md) and [Service Mapping commands not requiring a privileged user](../../service-mapping/reference/r_NonSudoCommands.md).
+For information on commands used by Service Mapping during the top-down discovery, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md) and [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md).
 
 <table id="table_zzv_4md_11b"><thead><tr><th>
 
@@ -889,10 +890,10 @@ Parameters
 |`sudo vxdisk`|**list \| awk 'NR &gt; 1'**|
 |`pureblade`|**list 2&gt;&amp;1**|
 
-**Parent Topic:**[SSHCommand probe](../concept/c_SSHCommandProbe.md)
+**Parent Topic:**[SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SSHCommandProbe.md)
 
 **Related topics**  
 
 
-[Discovery commands for probes and patterns](../concept/discovery-command-probe-pattern.md)
+[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
 

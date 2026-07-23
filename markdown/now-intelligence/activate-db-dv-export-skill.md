@@ -2,6 +2,7 @@
 title: Dashboard and visualization export skill
 description: Give users generative AI capabilities for creating data visualizations from the Now Assist panel by activating the dashboard and visualization export skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/activate-db-dv-export-skill.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ Role required: admin
 
 3.  In Now Assist skills for Analytics, search for the dashboard and visualization export skill.
 
-    ![Now Assist Skills tab of Now Assist Admin console, showing the dashboard and visualization export skill under Platform.](../image/nowass-db-dv-export-skill.png)
+    \[Omitted image "nowass-db-dv-export-skill.png"\] Alt text: Now Assist Skills tab of Now Assist Admin console, showing the dashboard and visualization export skill under Platform.
 
 4.  Select **Turn on** or **Deactivate skill**.
 
@@ -40,5 +41,5 @@ Role required: admin
 
 If the skill was successfully activated or deactivated, the system notifies you.
 
-**Parent Topic:**[Configuring Now Assist panel skills for Platform Analytics](../concept/configuring-now-ass-skills-pa.md)
+**Parent Topic:**[Configuring Now Assist panel skills for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-now-ass-skills-pa.md)
 

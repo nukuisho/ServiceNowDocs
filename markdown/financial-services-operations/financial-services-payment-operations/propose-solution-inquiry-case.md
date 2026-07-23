@@ -2,6 +2,7 @@
 title: Propose a solution for an inquiry case
 description: Propose a solution that is based on your findings from the investigation of the inquiry case that you've just finished, so that you can resolve the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/propose-solution-inquiry-case.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -23,7 +24,7 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Payment Inquiry Cases**, click **Assigned to me**.
 
@@ -51,9 +52,9 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
 
 ## What to do next
 
-Get an acceptance from the customer for the resolution and [close the inquiry case](close-payment-inquiry-case.md).
+Get an acceptance from the customer for the resolution and [close the inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.md).
 
 If the customer rejects the proposed solution, move the case back to the Open state. If the customer rejected the proposed solution from the Customer or Consumer Service Portal, the state of the case automatically updates to Open.
 
-**Parent Topic:**[Managing payment inquiries](../concept/managing-payment-inquiries.md)
+**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
 

@@ -2,6 +2,7 @@
 title: Data extraction modes
 description: Extraction modes determine how the data is extracted in the document task and how the task is processed. The mode changes the behavior of the fields in the Document Intelligence workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/data-extraction-modes.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Document Intelligence, Enable AI experiences]
 
 Extraction modes determine how the data is extracted in the document task and how the task is processed. The mode changes the behavior of the fields in the Document Intelligence workspace.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 DocIntel uses the following extraction modes.
 
@@ -62,32 +63,32 @@ DocIntel automatically extracts the data for all fields and processes the docume
  DocIntel becomes more confident over time, as it processes more and more documents. Choose Fully automated mode for frequently processed documents or if you’re confident in the system.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Document Intelligence references](docintel-references.md)
+</table>**Parent Topic:**[Document Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/docintel-references.md)
 
 **Related topics**  
 
 
-[Components installed with Document Intelligence](installed-with-document-intelligence.md)
+[Components installed with Document Intelligence]()
 
-[Confidence scores](../concept/docintel-confidence-scores.md)
+[Confidence scores]()
 
-[Data normalization](../concept/data-normalization.md)
+[Data normalization]()
 
-[Document field statuses](docintel-field-statuses.md)
+[Document field statuses]()
 
-[Document Intelligence forms](document-intelligence-forms.md)
+[Document Intelligence forms]()
 
-[Document Intelligence properties](document-intelligence-properties.md)
+[Document Intelligence properties]()
 
-[Document Intelligence roles](document-intelligence-user-roles.md#)
+[Document Intelligence roles]()
 
-[Document Intelligence terminology](../concept/docintel-terminology.md#)
+[Document Intelligence terminology]()
 
-[Document task statuses](docintel-task-statuses.md)
+[Document task statuses]()
 
-[Domain separation and Document Intelligence](domain-separation-and-doc-intel.md)
+[Domain separation and Document Intelligence]()
 
-[Languages supported by Document Intelligence](../concept/languages-supported-by-document-intelligence.md)
+[Languages supported by Document Intelligence]()
 
-[Limitations in Document Intelligence](hard-limits-in-doc-intel.md)
+[Limitations in Document Intelligence]()
 

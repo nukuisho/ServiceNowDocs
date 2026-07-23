@@ -2,6 +2,7 @@
 title: Add a logo to the sales cart PDF
 description: Customize and embed your company logo in sales cart summary PDFs to ensure consistent branding and alignment with corporate identity standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/add-logo-sales-cart-pdf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,4 +44,11 @@ Role required: admin
 
 8.  Select **Update**.
 
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+
+[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 

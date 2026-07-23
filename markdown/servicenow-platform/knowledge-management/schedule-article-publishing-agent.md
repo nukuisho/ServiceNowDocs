@@ -2,6 +2,7 @@
 title: Schedule a knowledge article for publishing in Agent Workspace
 description: Set a specific time and day for a knowledge article to be published in Agent Workspace automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/schedule-article-publishing-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -21,10 +22,10 @@ You must have contribute access to the knowledge base that stores the knowledge 
 
 Ensure that the system administrator verifies the following settings:
 
--   Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) is activated. For more information, see [Activate the Knowledge Management Advanced plugin](activate-knowledge-advanced-plugin.md).
--   The article versioning feature is enabled. For more information, see [Article versioning](../concept/article-versioning.md).
+-   Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) is activated. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
+-   The article versioning feature is enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md).
 
-**Note:** You can also schedule a knowledge article for publishing from the Knowledge Management application in the ServiceNow AI Platform interface. For more information, see [Schedule a knowledge article for publishing](schedule-article-publishing.md).
+**Note:** You can also schedule a knowledge article for publishing from the Knowledge Management application in the ServiceNow AI Platform interface. For more information, see [Schedule a knowledge article for publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/schedule-article-publishing.md).
 
 Role required: agent\_workspace\_user
 
@@ -36,7 +37,7 @@ Role required: agent\_workspace\_user
 
 3.  Click an article link.
 
-4.  In the **Scheduled publish date** field, click the show calendar icon \(![Show calendar icon](../image/show-calendar.png)\).
+4.  In the **Scheduled publish date** field, click the show calendar icon.
 
 5.  Select any future date in the calendar.
 
@@ -64,7 +65,7 @@ The knowledge article is published on the scheduled publish date depending on th
 **Related topics**  
 
 
-[Edit a knowledge article in Agent Workspace](edit-article-workspace-1.md)
+[Edit a knowledge article in Agent Workspace]()
 
-[Knowledge workflows](../reference/r_KnowledgeWorkflows.md#)
+[Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
 

@@ -2,6 +2,7 @@
 title: Sample workspaces you can build
 description: Workspace Builder provides a basic workspace that includes a home page, record pages, lists, an Analytics Overview, and other functions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/types-of-workspaces.html
 release: australia
 product: Workspace Builder
 classification: workspace-builder
@@ -29,19 +30,19 @@ The following are some examples of the page customizations you can apply to the 
 
 **Note:** You can make changes to the home page, but editing all other pages requires creating a variant or copy of the page. If you edit the pages directly, then they won't get the latest code in a system upgrade.
 
-![Sample workspace home page](../image/sample-workspace-next-exp.png "Home page")
+\[Omitted image "sample-workspace-next-exp.png"\] Alt text: Sample workspace home page
 
 ## Workspace list page
 
-![Sample workspace list page](../image/sample-workspace-list-next-exp.png "List page")
+\[Omitted image "sample-workspace-list-next-exp.png"\] Alt text: Sample workspace list page
 
 ## Workspace record page
 
-![Sample workspace record page](../image/sample-workspace-record-next-exp.png "Record page")
+\[Omitted image "sample-workspace-record-next-exp.png"\] Alt text: Sample workspace record page
 
 ## Workspace search page
 
-![Sample workspace search page](../image/sample-workspace-search-next-exp.png "Search page")
+\[Omitted image "sample-workspace-search-next-exp.png"\] Alt text: Sample workspace search page
 
 ## Workspace Analytics Overview
 
@@ -64,7 +65,7 @@ The Analytics Overview includes the following components:
 
 For more information on Analytics Overview, see [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
 
-![Example Analytics Center for a workspace](../image/sample-worksapce-analytics-next-exp.png "Analytics Overview")
+\[Omitted image "sample-worksapce-analytics-next-exp.png"\] Alt text: Example Analytics Center for a workspace
 
-**Parent Topic:**[Exploring Workspace Builder](../../workspace-builder/concept/exploring-workspace-builder.md)
+**Parent Topic:**[Exploring Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/exploring-workspace-builder.md)
 

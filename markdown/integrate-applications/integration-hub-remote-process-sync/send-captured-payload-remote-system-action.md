@@ -2,6 +2,7 @@
 title: Send Captured Payload to Remote System
 description: Generate a captured payload, and send it to a remote system. This action should follow a Look Up Correlation action. Remote Process Sync flows use the returned correlation to check if a new correlation should be created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/send-captured-payload-remote-system-action.html
 release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
@@ -21,11 +22,11 @@ Available as a ServiceNow Core Remote Process Sync action.
 
 -   **Subscription requirements**
 
-    This action requires an Integration Hub subscription. For more information, see [Request Integration Hub](../../flow-designer/concept/request-ih-overview.md) and [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+    This action requires an Integration Hub subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md) and [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
+    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md).
 
 
 ## Inputs

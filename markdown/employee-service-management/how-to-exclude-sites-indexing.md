@@ -2,6 +2,7 @@
 title: Exclude sites from indexing
 description: Index sites and subsites selectively by excluding some URLs and subsites, which have confidential information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/how-to-exclude-sites-indexing.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: AI search administrator
 
 2.  Click **New**.
 
-3.  Follow the instructions [Index sites for search](../concept/sharepoint-how-to-configure-search.md).
+3.  Follow the instructions [Index sites for search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-how-to-configure-search.md).
 
 4.  Specify the URLs list in the **Exclude Subsites** field.
 

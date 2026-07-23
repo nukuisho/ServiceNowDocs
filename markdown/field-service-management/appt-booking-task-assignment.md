@@ -2,6 +2,7 @@
 title: Learn about appointment availability settings
 description: Settings in the application configuration determine how the appointment booking feature determines availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/appt-booking-task-assignment.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -39,17 +40,18 @@ Different methods are provided for determining availability:
 
     -   The capacity is shared across different cities in the same time zone.
     -   There could be a slight delay in the creation of work order tasks for appointments booked through Service Portal as the tasks are created asynchronously after capacity calculation.
+    -   When the capacity is defined by Agent Schedule and the availability method is set to Capacity Definition, the availability defaults to the **Number of appointments per slot** availability method.
 
 ## Excluding days from appointment availability
 
 In the service configuration, the appointment booking administrator can select a schedule of days that are excluded from appointment availability. The **Holiday Schedule** field is a reference field that points to the Schedules table \[cmn\_schedule\]. Selecting a schedule from the Schedules list defines the days and times to exclude from appointment availability. In the schedule selected, those days must be set to **Excluded**.
 
-**Parent Topic:**[Field Service Management reference](../../planning-and-policy/reference/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
 
 **Related topics**  
 
 
-[Global domain configurations](../../planning-and-policy/task/t_ConfigureFieldService.md)
+[Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md)
 
-[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseSchedules.md)
 

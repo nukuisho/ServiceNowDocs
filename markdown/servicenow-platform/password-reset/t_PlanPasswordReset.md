@@ -2,6 +2,7 @@
 title: Plan your Password Reset processes
 description: To ensure security and efficiency, take the time to plan your Password Reset implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_PlanPasswordReset.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -23,7 +24,7 @@ Role required: password\_reset\_admin or admin
 
 1.  Decide on the password reset process:
 
-    -   **Self-service process:** Users reset their password over the Internet using a browser on any supported interface, including mobile devices. To make the Password Reset application with Orchestration available to all users publicly, create a new Password Reset process only for this purpose and make it accessible to all users by setting the **Public access** property. See [Example: The default self-service Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_SelfServicePasswordReset.md).
+    -   **Self-service process:** Users reset their password over the Internet using a browser on any supported interface, including mobile devices. To make the Password Reset application with Orchestration available to all users publicly, create a new Password Reset process only for this purpose and make it accessible to all users by setting the **Public access** property. See [Example: The default self-service Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SelfServicePasswordReset.md).
     -   **Service desk-assisted process:** Users reset passwords by requesting the assistance of a service desk agent, over the phone or in person. Only service desk agents with the password\_reset\_service\_desk role can reset user passwords. See the video to reset the password using service desk-assisted process [How to Set Up a Service Desk-Assisted Password Reset Process \(Video\)](https://www.youtube.com/watch?v=6VbPR7CWF0M).
 2.  Decide how groups and roles differ in access and security needs.
 
@@ -46,10 +47,10 @@ Role required: password\_reset\_admin or admin
     -   If your organization uses single sign-on, how will users reset their password if they are unable to log on?
     -   What options are available to users working off-site?
 
-**Parent Topic:**[Configuring Password Reset](../concept/password-reset-admin-guide.md)
+**Parent Topic:**[Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-admin-guide.md)
 
 **Related topics**  
 
 
-[Configure your Password Reset process](t_CreateAPasswordResetProcess.md)
+[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 

@@ -2,11 +2,12 @@
 title: Methods and events of the TextBox element
 description: The TextBox element in RPA Desktop Design Studio enables you to add a text box to a form so that your user can provide information within that text box.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/form-control-textbox.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Methods and events of elements, Reference, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Methods and events of elements, Reference, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Methods and events of the TextBox element
@@ -89,5 +90,5 @@ The methods and events of the TextBox element are displayed in the Object Explor
     Occurs when the focus moves out of the current element.
 
 
-**Parent Topic:**[Methods and events of elements](form-control-methods-events.md)
+**Parent Topic:**[Methods and events of elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-methods-events.md)
 

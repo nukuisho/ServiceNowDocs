@@ -2,6 +2,7 @@
 title: Generate an action plan to resolve a Deviation in the Digital Factory Workspace
 description: Generate an action plan to document and track remediation steps for an Industrial Connected Workforce \(ICW\) deviation. Action plans help you organize tasks, assign responsibilities, and monitor progress toward resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/generate-action-plan-ai-enhanced-ra-icw.html
 release: australia
 topic_type: task
 last_updated: "2026-04-25"
@@ -44,17 +45,17 @@ The AI Enhanced recommended actions for ICW enables you to generate a structured
 
 9.  Select the **More** icon, then select **Create follow-up actions**.
 
-    Use this option to create a follow-up action for either the entire action plan or a step listed in the action plan. The **More** icon appears as ![](../../mftg-manufacturing-ot-knowledge/image/more-actions-vertical.png).
+    Use this option to create a follow-up action for either the entire action plan or a step listed in the action plan. The **More** icon appears as \[Omitted image "more-actions-vertical.png"\] Alt text:.
 
 
 ## Result
 
 The action plan appears in Work notes of the deviation record that you can refer to as the remediation work progresses.
 
-**Parent Topic:**[Using AI Enhanced recommended actions for Industrial Connected Workforce](../concept/using-ai-enhanced-ra-icw.md)
+**Parent Topic:**[Using AI Enhanced recommended actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/using-ai-enhanced-ra-icw.md)
 
 **Related topics**  
 
 
-[Generate an action plan using AI Enhanced recommended actions for ICW Mobile](../../icw-mobile-experience/task/generate-action-plan-ai-enhanced-ra-icw-mobile.md)
+[Generate an action plan using AI Enhanced recommended actions for ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/generate-action-plan-ai-enhanced-ra-icw-mobile.md)
 

@@ -2,6 +2,7 @@
 title: Task plan templates driven order fulfillment
 description: Use the task plan template to define tasks and their dependencies that are needed to orchestrate the fulfillment journey for a product to standardize fulfillment processes across products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-flow-action-catalog-task.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,6 +19,8 @@ A no-code approach in ServiceNow® that allows you to create task orchestration 
 For more information about Flow actions for fulfillment subflow definition, see [Flow actions for fulfillment subflow definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-flow-actions-fulfillment-subflows.md).
 
 When the template is configured for a specification, the out of box logic, on domain order creation automatically searches for a matching template, based on the task's specification and action of domain order. When a template match is found, the template is applied to generate the order tasks under the domain order. To learn more about task plan template, see [Task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-templates.md).
+
+**Important:** Automatic closure of domain orders is currently inactive and will require a custom implementation.
 
 ## Benefits of task plan template
 
@@ -51,7 +54,7 @@ Create the template and set the conditions as to when the template applies.-   T
 
 </td></tr><tr><td>
 
-[Configure task plan template](../task/configure-task-plan-template.md)
+[Configure task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/configure-task-plan-template.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Using the contextual side panel in Service Request Playbook
 description: The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-playbook-using-contextual-side-panel.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,15 +30,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Record information icon ![Record information icon.](../../customer-service-management/image/contextual-side-panel-record-info.jpg)
+Record information icon \[Omitted image "contextual-side-panel-record-info.png"\] Alt text: Record information icon.
 
 </td><td>
 
-Relevant information about a record. In Service Request Playbook, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [View the ribbon information in Service Request Playbook](psds-playbook-viewing-ribbon.md).
+Relevant information about a record. In Service Request Playbook, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [View the ribbon information in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-playbook-viewing-ribbon.md).
 
 </td></tr><tr><td>
 
-Agent assist icon \(![Agent assist icon.](../image/agent-assist-icon.png)\)
+Agent assist icon \(\[Omitted image "agent-assist-icon.png"\] Alt text: Agent assist icon.\)
 
 </td><td>
 
@@ -45,7 +46,7 @@ List of search results with the content that is related to the record that you a
 
 </td></tr><tr><td>
 
-Attachments icon \(![Attachments icon.](../image/attachments-icon.png)\)
+Attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachments icon.\)
 
 </td><td>
 
@@ -53,23 +54,23 @@ Ability for you to attach knowledge base content to a response to the requester 
 
 </td></tr><tr><td>
 
-Template icon \(![Template icon.](../image/template-icon-2.png)\)
+Template icon \(\[Omitted image "template-icon-2.png"\] Alt text: Template icon.\)
 
 </td><td>
 
-Standard content that is related to resolving the issue. To create a template, select the template icon ![Template icon.](../image/create-icon.png).
+Standard content that is related to resolving the issue. To create a template, select the template icon \[Omitted image "create-icon.png"\] Alt text: Template icon..
 
 </td></tr><tr><td>
 
-Response template icon \(![Response template icon.](../image/response-template-icon.png)\)
+Response template icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon.\)
 
 </td><td>
 
-Reusable messages that you can copy and paste into the cases and case tasks. For more information on using and creating response templates, see [Use response templates in Service Request Playbook](../task/use-response-templates-psds.md).
+Reusable messages that you can copy and paste into the cases and case tasks. For more information on using and creating response templates, see [Use response templates in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/use-response-templates-psds.md).
 
 </td></tr><tr><td>
 
-Dynamic Related Records icon \(![Dynamic Related Records icon.](../image/checklist-icon.png)\)
+Dynamic Related Records icon \(\[Omitted image "checklist-icon.png"\] Alt text: Dynamic Related Records icon.\)
 
 </td><td>
 
@@ -77,7 +78,7 @@ Related records in the contextual side panel that dynamically change based on th
 
 </td></tr><tr><td>
 
-Activity stream icon ![Activity stream icon.](../image/activity-stream-icon.png)
+Activity stream icon \[Omitted image "activity-stream-icon.png"\] Alt text: Activity stream icon.
 
 </td><td>
 

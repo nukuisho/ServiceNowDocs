@@ -2,6 +2,7 @@
 title: Install Now Assist for Vault
 description: Install the ServiceNow Now Assist for Vault application from the ServiceNow Store to get Now Assist for Vault.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/configuring-now-assist-vault.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,10 +38,10 @@ Role required: admin
 
     3.  Verify that the Now Assist for Vault skills are active.
 
-    ![Now Assist Admin console showing three skills from Now Assist for Vault](../image/now-assist-admin-vault-skills.png).
+    \[Omitted image "now-assist-admin-vault-skills.png"\] Alt text: Now Assist Admin console showing three skills from Now Assist for Vault.
 
 6.  Verify that Now Assist for Vault agentic workflows are activated by following the steps in [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
 
-    By default, the workflows are active when you install Now Assist for Vault. This step is in case a user disabled them after installation.
+    By default, the workflows are active when you install Now Assist for Vault. This step is in case a user deactivated them after installation.
 
 

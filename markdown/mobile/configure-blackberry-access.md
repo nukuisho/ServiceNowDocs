@@ -2,6 +2,7 @@
 title: Configure BlackBerry Access for mobile apps
 description: Configure the BlackBerry Access browser to authenticate ServiceNow mobile apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/configure-blackberry-access.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,19 +28,19 @@ The following steps are only necessary if you are using the BlackBerry Access br
 
 2.  In the menu bar to the left, click **Apps**.
 
-    ![BlackBerry UEM menu bar](../image/BB-EUM-menu.png)
+    \[Omitted image "BB-EUM-menu.png"\] Alt text: BlackBerry UEM menu bar
 
     You see a list of available apps tied to your BlackBerry UEM.
 
 3.  In the search bar above the list of apps, type `BlackBerry Access`.
 
-    ![BlackBerry UEM available apps list](../image/BB-UEM-3.png)
+    \[Omitted image "BB-UEM-3.png"\] Alt text: BlackBerry UEM available apps list
 
 4.  Click **BlackBerry Access** to open the app.
 
 5.  When the app opens, click on the blue text labeled **App Config With Default Values** to create the app configuration for this app.
 
-    ![BlackBerry UEM app settings screen](../image/BB-UEM-app-config.png)
+    \[Omitted image "BB-UEM-app-config.png"\] Alt text: BlackBerry UEM app settings screen
 
 6.  Enable **Allow external apps** to open HTTP/HTTPS URLs through BlackBerry Access.
 
@@ -54,5 +55,5 @@ The following steps are only necessary if you are using the BlackBerry Access br
 9.  Click **Save**.
 
 
-**Parent Topic:**[BlackBerry Unified Endpoint Management \(UEM\)](../concept/blackberry-uem.md)
+**Parent Topic:**[BlackBerry Unified Endpoint Management \(UEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/blackberry-uem.md)
 

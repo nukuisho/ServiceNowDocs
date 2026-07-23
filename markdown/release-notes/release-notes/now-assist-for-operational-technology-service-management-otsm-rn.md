@@ -61,7 +61,7 @@ See [Now Assist for Operational Technology Service Management \(OTSM\)](https://
 
 ## Activation information
 
-Install Now Assist for OTSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Now Assist for OTSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -74,10 +74,10 @@ Install Now Assist for OTSM by requesting it from the ServiceNow Store. Visit th
 
 ## Related ServiceNow applications and features
 
--   **[Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md)**
+-   **[Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management-landing-page.md)**
 
     The ServiceNow® Operational Technology Incident Management application enables engineers to resolve Operational Technology \(OT\) asset and production process issues quickly.
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](../now-assist/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

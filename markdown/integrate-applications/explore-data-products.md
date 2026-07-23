@@ -2,6 +2,7 @@
 title: Explore data products
 description: Data products package data interfaces with metadata and governance to provide reusable, discoverable data for workflows, AI agents, and analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-data-products.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-25"
@@ -21,7 +22,7 @@ Data interfaces define the schema, field names, and data types that consumers us
 
 Metadata makes data products discoverable and understandable. This includes business descriptions, tags, ownership information, usage guidelines, and documentation that help consumers evaluate whether the data product meets their requirements.
 
-Governance controls provide data quality and managed access. Each data product has defined ownership, access controls through role-based permissions, and lifecycle management through draft and published states. ![Sample data product](../image/wdf-data-product-overview.png)
+Governance controls provide data quality and managed access. Each data product has defined ownership, access controls through role-based permissions, and lifecycle management through draft and published states. \[Omitted image "wdf-data-product-overview.png"\] Alt text: Sample data product
 
 ## How data products work
 
@@ -74,7 +75,7 @@ Security Administrators validate that parent role configuration includes appropr
 
 To learn more about data products, see:
 
--   [Data products use cases](data-products-use-cases.md)
--   [Managing data products](manage-data-products-wdf.md)
--   [Data interfaces](data-interfaces.md)
+-   [Data products use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-products-use-cases.md)
+-   [Managing data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-products-wdf.md)
+-   [Data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-interfaces.md)
 

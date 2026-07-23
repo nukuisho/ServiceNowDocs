@@ -2,6 +2,7 @@
 title: Configure SLA definitions for customer service cases
 description: A service level agreement \(SLA\) specifies the time within which service must be provided. Configure SLA definitions that include the necessary information to create and progress SLAs for customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_DefineSLAForCustServiceCase.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,8 +26,13 @@ An SLA is automatically associated to a case when the case is created or updated
 
 ## Procedure
 
--   For more information about SLAs, see [Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-concepts.md).
+-   For more information about SLAs, see [Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management-concepts.md).
 
--   To create an SLA, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
+-   To create an SLA, see [Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAnSLADefinition.md).
 
+
+**Related topics**  
+
+
+[Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management-concepts.md)
 

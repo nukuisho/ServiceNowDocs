@@ -2,6 +2,7 @@
 title: Add legal request tables for data indexing
 description: Add the legal request tables to be considered for data indexing for AI Search in the Now Assist for Legal Service Delivery \(LSD\) application. The legal request tables are indexed so that you can get relevant AI Search results for the legal records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-legal-service-delivery/add-tables-legal-requests.html
 release: australia
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -24,7 +25,7 @@ Role required: admin
 
 ## About this task
 
-Include the legal request tables to define them as indexed sources. These added tables are then selected for indexing. For more information on the indexing of sources for AI Search, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md).
+Include the legal request tables to define them as indexed sources. These added tables are then selected for indexing. For more information on the indexing of sources for AI Search, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/retention-policies-conditions-ais.md).
 
 ## Procedure
 

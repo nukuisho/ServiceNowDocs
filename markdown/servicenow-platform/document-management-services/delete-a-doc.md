@@ -2,6 +2,7 @@
 title: Delete documents
 description: Delete documents in the document repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/delete-a-doc.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -36,22 +37,22 @@ User: owner
     -   To delete a single document, open the document record and select **Delete**.
     -   To delete multiple documents, select the document record entries, and from the Actions on selected rows drop-down menu, select **Delete**.
 
-**Parent Topic:**[Document repository](../concept/doc-mgt-view-documents-repo.md)
+**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
 **Related topics**  
 
 
-[Create a document record](create-new-doc.md)
+[Create a document record]()
 
-[Document versions](../concept/document-mgt-versions.md)
+[Document versions]()
 
-[Download a document](downloading-a-document.md)
+[Download a document]()
 
-[Share a document link](share-document-link.md)
+[Share a document link]()
 
-[Modify a shared link access](modify-access-shared-link.md)
+[Modify a shared link access]()
 
-[Configure document permissions](../concept/document-configuration.md)
+[Configure document permissions]()
 
-[Delete a document link](delete-document-link.md)
+[Delete a document link]()
 

@@ -2,6 +2,7 @@
 title: Now Assist for Zero Copy Connector agentic workflow prerequisites
 description: Before you use Now Assist for Zero Copy Connector agentic workflows, you must complete several prerequisites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-erp-ai-agents-prereqs.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-24"
@@ -19,7 +20,7 @@ Agentic workflows and their AI agents use [role masking](https://raw.githubuserc
 
 ## Check status of assistants
 
-Now Assist in Virtual Agent and Now Assist panel must be on. For information about how to check the status of assistants, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-llm-va.md)
+Now Assist in Virtual Agent and Now Assist panel must be on. For information about how to check the status of assistants, see 
 
 ## Activate conversational skills
 
@@ -40,8 +41,8 @@ Set a large language model \(LLM\) provider and have at least one connection. Fo
 3.  Select the **Connections** tab.
 4.  At least one connection should be listed with **Active** set to **true**.
 
-    ![Azure OpenAI connection and credential alias record with connections tab displayed showing one active connection.](../images/erp-data-explorer-workflow4.png)
+    \[Omitted image "erp-data-explorer-workflow4.png"\] Alt text: Azure OpenAI connection and credential alias record with connections tab displayed showing one active connection.
 
-    **Note:** For more information about creating a connection and making it active, see [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md).
+    **Note:** For more information about creating a connection and making it active, see [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md).
 
 

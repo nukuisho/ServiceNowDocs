@@ -2,6 +2,7 @@
 title: Workflow Data Fabric Credits
 description: Workflow Data Fabric Credits let you monitor and track Workflow Data Fabric product usage through a dashboard showing credit usage, usage measurements, and thresholds that trigger alerts.Workflow Data Fabric lets organizations connect, manage, and automate their data workflows across different systems, through various product solutions.You must have Workflow Data Fabric license to use Workflow Data Fabric Credits.Credit usage is measured for each account. The number of credits you use for a feature is determined by the terms of the Workflow Data Fabric license.The Usage Dashboard shows credit usage, usage measurements, and thresholds that trigger alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/credits.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -74,10 +75,10 @@ Access the Usage Dashboard by navigating to **All** &gt; **Workflow Data Fabric 
 
 -   **Overall usage tab**
 
-    Provides a detailed analysis of credit usage with specific KPIs and a usage trend chart. View data by total credits entitled, credits used, daily average, credits remaining, and overall usage trend.![Screenshot showing an Overall usage analysis in the Usage Dashboard.](../images/tokens-dashboard-overall.png)
+    Provides a detailed analysis of credit usage with specific KPIs and a usage trend chart. View data by total credits entitled, credits used, daily average, credits remaining, and overall usage trend.\[Omitted image "tokens-dashboard-overall.png"\] Alt text: Screenshot showing an Overall usage analysis in the Usage Dashboard.
 
 -   **Product breakdown tab**
 
-    Provides an overview of credit usage by product. You can filter the data that is displayed by date range and selected product. View the usage trend by product and detailed product metrics.![Screenshot showing a product breakdown analysis in the Usage Dashboard.](../images/tokens-dashboard-product.png)
+    Provides an overview of credit usage by product. You can filter the data that is displayed by date range and selected product. View the usage trend by product and detailed product metrics.\[Omitted image "tokens-dashboard-product.png"\] Alt text: Screenshot showing a product breakdown analysis in the Usage Dashboard.
 
 

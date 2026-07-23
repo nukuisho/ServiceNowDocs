@@ -2,6 +2,7 @@
 title: Call resiliency
 description: Call resiliency for Contact Center as a Service \(CCaaS\) delivers phone calls to Agent Workspaces without creating an Interaction in the ServiceNow instance. This capability verifies uninterrupted and reliable call management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ccaas-call-resiliency.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ When an agent accepts a call, an Interaction and a phone log record are created.
 
 The following call resiliency visual gives you a snapshot of the end-to-end workflow.
 
-![Contact center call resiliency workflow](../image/ccaas-call-resiliency-architecture-updated.png "Call resiliency flow")
+\[Omitted image "ccaas-call-resiliency-architecture-updated.png"\] Alt text: Contact center call resiliency workflow
 
 Refer to the following table for annotation description of the preceding image.
 

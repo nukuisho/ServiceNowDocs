@@ -2,6 +2,7 @@
 title: Test a survey URL
 description: When there are survey users associated with a survey, the survey is restricted so only those users can use the survey URL. You can test the survey URL to ensure it is restricted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_TestTheSurveyURL.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,14 +31,14 @@ Role required: admin or survey\_admin
     You see a message that you are not authorized to take the survey.
 
 
-**Parent Topic:**[Survey URLs](../concept/c_SurveyURLs.md)
+**Parent Topic:**[Survey URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyURLs.md)
 
 **Related topics**  
 
 
-[Obtain and distribute a general survey URL](t_ObtainAGeneralSurveyURL.md)
+[Obtain and distribute a general survey URL]()
 
-[Deactivate auto-notification for surveys](t_DeactivateAutoNotifyForSurveys.md)
+[Deactivate auto-notification for surveys]()
 
-[Obtain a survey instance URL](t_ObtainASurveyInstanceURL.md)
+[Obtain a survey instance URL]()
 

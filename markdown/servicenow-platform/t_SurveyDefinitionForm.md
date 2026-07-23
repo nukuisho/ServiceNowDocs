@@ -2,6 +2,7 @@
 title: Designate a survey user
 description: You can designate one survey user at a time from the Survey Definition form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_SurveyDefinitionForm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,16 +37,16 @@ Role required: admin or survey\_admin
 6.  To remove survey users, in the **Survey Users** related list, select the check box beside the user, and then select **Delete** from the action list below the list.
 
 
-**Parent Topic:**[Survey users and groups](../concept/c_SurveyUsersAndGroups.md)
+**Parent Topic:**[Survey users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyUsersAndGroups.md)
 
 **Related topics**  
 
 
-[Create a survey user group](t_CreatingSurveyUserGroups.md)
+[Create a survey user group]()
 
-[Select recipients for a survey in the Survey Designer](t_SelRecipsForASurveyInDesigner.md)
+[Select recipients for a survey in the Survey Designer]()
 
-[Designate or remove multiple survey users at one time](t_SurveyCategoryForm.md)
+[Designate or remove multiple survey users at one time]()
 
-[Allow recipients to retake a survey](t_AllowRecipientsToRetakeASurvey.md)
+[Allow recipients to retake a survey]()
 

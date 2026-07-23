@@ -2,9 +2,10 @@
 title: Associate allocation dimensions with allocation types
 description: Associating allocation dimensions to allocation types enables consistent, transparent, multi‑dimensional roll‑ups for reporting and forecasting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/associate-allocation-dimensions-with-allocation-types.html
 release: australia
 topic_type: task
-last_updated: "2026-03-31"
+last_updated: "2026-05-21"
 reading_time_minutes: 1
 breadcrumb: [Configure allocation types, Install and configure Opportunity Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
 ---
@@ -45,12 +46,21 @@ An allocation dimension defines the attributes \(for example, Territory, Product
 
 6.  Select **Submit**.
 
-    A new opportunity allocation dimension is created and added on the **Opportunity Allocation Dimensions** page.
 
+## Result
+
+The opportunity allocation dimension is created and listed on the **Opportunity Allocation Dimensions** page.
 
 ## What to do next
 
--   [Managing allocations](../concept/manage-allocations.md)
--   [Add or edit opportunity allocations](add-or-edit-opportunity-allocations.md)
--   [Split opportunity allocation](split-an-opportunity-allocation.md)
+-   [Manage allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-allocations.md)
+-   [Add or edit opportunity allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-or-edit-opportunity-allocations.md)
+-   [Split opportunity allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/split-an-opportunity-allocation.md)
+
+**Related topics**  
+
+
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

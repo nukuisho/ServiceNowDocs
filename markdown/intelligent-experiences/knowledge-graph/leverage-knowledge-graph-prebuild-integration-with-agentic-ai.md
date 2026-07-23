@@ -2,12 +2,13 @@
 title: Leverage Knowledge Graph prebuild integration with AI agents
 description: The prebuilt integrations of Knowledge Graph, can improve live agent productivity by assisting AI agents in performing tasks and answering user queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/leverage-knowledge-graph-prebuild-integration-with-agentic-ai.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
 
@@ -46,7 +47,7 @@ Knowledge Graph can now be used as a tool within AI agents. Users can choose Kno
 
 You can define the flow action to use Knowledge Graph as a reusable operation in automating the ServiceNow AI Platform features without having to write code.
 
-See [Add a Knowledge Graph to an AI agent](../../now-assist-ai-agents/task/add-knowledge-graph.md) to add Knowledge Graph to an AI agents in AI Agent Studio.
+See [Add a Knowledge Graph to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-knowledge-graph.md) to add Knowledge Graph to an AI agents in AI Agent Studio.
 
 Example use case:
 
@@ -113,4 +114,10 @@ When a user ask a query `What is my Manager's name?`, AI agents reaches out to K
 ```
 
 In this example, the table that is called is `sys_user` and column referred is `user_name`. The output also displays SysId , example: `"sysId": "62826bf03710200044e0bfc8bcbe5df1"`.
+
+## Integration with Now Assist Skill MCP server
+
+Knowledge Graph can now be used as a tool within MCP server console from a subset of Now Assist skills. Knowledge Graph helps AI agents in providing accurate, relationship-aware access to live instance data. This enables more precise, context-aware responses in every workflow by directly querying relationships.
+
+Refer [Create a tool from Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-tool-from-knowledge-graphs.md) to add Knowledge Graph as a tool and to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 

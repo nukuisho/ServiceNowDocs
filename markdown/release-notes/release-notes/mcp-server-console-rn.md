@@ -34,12 +34,12 @@ See [MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 -   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-tool-mcp-server.md)**
 
-    With this release, you can now create tools from additional categories like, Knowledge graph, Subflow, Action, and REST APIs in addition to Now Assist skills.
+    With this release, you can now create tools from additional categories like, Subflow, Action, REST APIs, Knowledge graphs and Now Assist skills.
 
 
 ## Activation information
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/installing-generative-ai-controller.md) and [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 ## Plugin information
 
@@ -52,7 +52,7 @@ MCP Server Console is available with activation of a Now Assist application. For
 
 ## Related ServiceNow applications and features
 
--   **[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-landing.md)**
+-   **[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md)**
 
     AI Control Tower enables enterprises to manage, optimize, govern, secure, and measure the value of their AI investments. AI Gateway in AI Control Tower is a registry for MCP Server Console servers and provides observability and metrics for servers and their tools.
 
@@ -60,10 +60,10 @@ MCP Server Console is available with activation of a Now Assist application. For
 
     The ServiceNow® Model Context Protocol Client enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP server in AI Agent Studio.
 
--   **[Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/machine-identity-console.md)**
+-   **[Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/machine-identity-console.md)**
 
     Create and manage OAuth inbound integrations to connect MCP Server Console clients to servers in Machine Identity Console.
 
 
-**Parent Topic:**[AI Experiences release notes](../analytics-intelligence-reporting/intelligent-experiences-rn-landing.md)
+**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/intelligent-experiences-rn-landing.md)
 

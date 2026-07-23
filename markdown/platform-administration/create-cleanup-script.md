@@ -2,6 +2,7 @@
 title: Create cleanup scripts
 description: Use cleanup scripts to automate post-clone steps or to modify data after your clone.Use cleanup scripts to modify data after your clone completes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-cleanup-script.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

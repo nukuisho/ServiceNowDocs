@@ -2,6 +2,7 @@
 title: Add relationship form
 description: Relate a business application to an information object using the CI relationship \[cmdb\_rel\_ci\] table of type Uses::Used by. Use this suggested relationship to get the logical data of the information object to leverage a business application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-relationship-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -56,10 +57,10 @@ Create, Read, Update, and Delete
 Options for capturing the type of operation or a combination of operations that the business application can do on the information object.Selecting the Create, Read, Update, and Delete \(CRUD\) check boxes adds qualifiers, which are properties that define the extent of the relationship between the business application CI and the information object CI.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Manage information objects of a business application in EA Workspace](../../task/eaw-task/eaw-associate-info-obj-ba.md)
+[Manage information objects in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-associate-info-obj-ba.md)
 

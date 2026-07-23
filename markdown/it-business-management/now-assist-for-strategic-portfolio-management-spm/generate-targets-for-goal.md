@@ -2,14 +2,15 @@
 title: Generate targets for a goal in Strategic Planning Workspace using Now Assist for SPM
 description: Generate measurable targets for your goals in Strategic Planning Workspace using Now Assist for SPM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-targets-for-goal.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 keywords: [Target generation, Now Assist skill, Now Assist, Gen AI, Generative AI, Email project summary, Strategic Portfolio Management, SPM]
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
 # Generate targets for a goal in Strategic Planning Workspace using Now Assist for SPM
@@ -18,7 +19,7 @@ Generate measurable targets for your goals in Strategic Planning Workspace using
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_apw\_advanced.spw\_goal\_user and \(sn\_align\_core.apw\_user or sn\_gf.goal\_admin\)
 
@@ -30,7 +31,7 @@ The skill automatically populates key fields in the Target form, ensuring accura
 
 **Note:** Only the owner or contributors of the goal can create targets for the goal.
 
-![Generate targets in Strategic Planning Workspace using Target generation skill.](../images/target-generation-skill.gif)
+\[Omitted video\] Description: Generate targets for a goal in Strategic Planning Workspace using Now Assist for SPM
 
 ## Procedure
 
@@ -40,7 +41,7 @@ The skill automatically populates key fields in the Target form, ensuring accura
 
 3.  In the Goals view, select the **Goals and targets** tab.
 
-4.  Next to the goal that you want to create a target for, select the row context menu icon \(![Row context menu icon.](../../alignment-planner-workspace/images/action-menu-icon.png)\) and select **Generate target**.
+4.  Next to the goal that you want to create a target for, select the row context menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Row context menu icon.\) and select **Generate target**.
 
 5.  On the Provide context to generate a target window, enter a context to generate a desired target and then select **Generate**.
 
@@ -48,7 +49,7 @@ The skill automatically populates key fields in the Target form, ensuring accura
 
 6.  On the form, verify the filed values and update them as needed.
 
-    For a description of the field values, see [Target form](../../spw-goals/reference/target-form-egm.md).
+    For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md).
 
 7.  Select **Save**.
 
@@ -63,12 +64,12 @@ The target progress records are automatically created when you save the target p
 
 ## What to do next
 
-[Update the progress of the target](../../spw-goals/task/update-progress-of-target-egm.md) manually if the target isn’t enabled for target automation.
+[Update the progress of the target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-progress-of-target-egm.md) manually if the target isn’t enabled for target automation.
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
 **Related topics**  
 
 
-[Add targets for a goal in Strategic Planning](../../spw-goals/task/set-targets-for-goal-egm.md)
+[Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md)
 

@@ -2,9 +2,10 @@
 title: Share a Platform Analytics dashboard
 description: Share a dashboard with other users, groups, or roles to create a shared view of data that you can use to collaborate. You can grant viewing rights or both viewing and editing rights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/share-db-in-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-25"
 reading_time_minutes: 4
 keywords: [How to share a dashboard, How to share a Platform Analytics dashboard, How to share a Next Experience dashboard]
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -16,7 +17,7 @@ Share a dashboard with other users, groups, or roles to create a shared view of 
 
 ## Before you begin
 
-Sharing a dashboard 
+\[Omitted video\] Description: Sharing a dashboard
 
 Role required: You can share any dashboard that you created. You can share dashboards that have been shared with you, if sharing is allowed. If you have the right to edit a dashboard that has been shared with you, you can pass that right along to whomever you share it with. Users with the admin or dashboard\_admin role can share all dashboards.
 
@@ -32,13 +33,15 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 2.  Select the dashboard you want to share.
 
-3.  Select the **More actions** button \(![More actions button](../image/icon-vert-3dot-p.png)\) and choose **Share**.
+3.  Select the **More actions** button \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions button\) and choose **Share**.
 
     The Share Dashboard dialog opens.
 
 4.  In the **Grant access to** field, enter the names of one or more users, groups, or roles you want to share the dashboard with.
 
     To share the dashboard with roles, you need read access to the Roles \[sys\_user\_role\] table.
+
+    To share the dashboard with all authenticated users, share it to the dashboard\_user role. Users who are allowed to use dashboards \(those who have at least one role\) will be able to see the dashboard.
 
 5.  To allow the people you share the dashboard with to share the dashboard as well, select **Allow recipients to add, edit, or delete sharing permissions associated with this dashboard**.
 
@@ -48,7 +51,7 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d38120e166">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d38757e168">
 
 **Add as viewer**
 
@@ -56,7 +59,7 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 Grant only viewing rights to the users, groups, or roles you are sharing the dashboard with. They cannot edit it.
 
-</td></tr><tr><td id="d38120e175">
+</td></tr><tr><td id="d38757e177">
 
 **Add as editor**
 
@@ -76,37 +79,37 @@ Grant editing rights to the users, groups, or roles you are sharing the dashboar
 
 The roles, groups, and users you have shared the dashboard with appear when you reopen the dialog, along with the rights you have given them.
 
-![Dashboard sharing dialog showing who the dashboard has been shared with and whether they can edit or only view it.](../../par-for-workspace/image/db-share-dialog.png)
+\[Omitted image "db-share-dialog.png"\] Alt text: Dashboard sharing dialog showing who the dashboard has been shared with and whether they can edit or only view it.
 
-**Tip:** The users, groups, and roles with which a dashboard is shared are also visible in the dashboard details. For more information, see [Configure Platform Analytics dashboard details](config-db-in-ac.md).
+**Tip:** The users, groups, and roles with which a dashboard is shared are also visible in the dashboard details. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-db-in-ac.md).
 
 ## What to do next
 
 You can change the rights of whom you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can edit list for each user, group, or role.
 
-![Rights selector for a user, group, or role that a dashboard was shared with.](../../par-for-workspace/image/db-share-rights-selector.png)
+\[Omitted image "db-share-rights-selector.png"\] Alt text: Rights selector for a user, group, or role that a dashboard was shared with.
 
--   **[Dashboard sharing reference qualifiers](../../par-for-workspace/task/share-db-ref-qualifiers.md)**  
+-   **[Dashboard sharing reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-ref-qualifiers.md)**  
 Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared dashboards.
 
-**Parent Topic:**[Common dashboard tasks in the in-line editor](../concept/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 
 
-[Create a dashboard with the in-line editor](create-db-in-ac.md)
+[Create a dashboard with the in-line editor]()
 
-[Edit Platform Analytics dashboards](edit-db-in-ac.md)
+[Edit Platform Analytics dashboards]()
 
-[Duplicate a Platform Analytics dashboard](../../reporting/task/duplicate-db.md#)
+[Duplicate a Platform Analytics dashboard]()
 
-[Print a Platform Analytics dashboard](printer-friendly-db-ac.md)
+[Print a Platform Analytics dashboard]()
 
-[Export a Platform Analytics dashboard](export-pae-dashboard-ppt.md)
+[Export a Platform Analytics dashboard]()
 
-[Schedule the export of dashboards and data visualizations](../../par-for-workspace/task/schedule-export-dboards-data-viz.md)
+[Schedule the export of dashboards and data visualizations]()
 
-[Bookmark a Platform Analytics dashboard](bookmark-dashboard-ac.md)
+[Bookmark a Platform Analytics dashboard]()
 
-[Delete a Platform Analytics dashboard](delete-db-in-ac.md)
+[Delete a Platform Analytics dashboard]()
 

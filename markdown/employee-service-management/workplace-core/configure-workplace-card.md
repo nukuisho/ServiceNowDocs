@@ -2,6 +2,7 @@
 title: Configure a workplace card
 description: Create a workplace card to be used in your workplace applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/configure-workplace-card.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -48,49 +49,49 @@ Card configuration enables admins to tailor the display and functionality of spa
 5.  Select **Submit**.
 
 
--   **[Configure a space details card](configure-a-space-details-card.md)**  
+-   **[Configure a space details card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-a-space-details-card.md)**  
 Configure a space card in the Location Directory, Kiosk Indoor Mapping, or Reservation by updating the card's template with the specific details that you want to customize. You can configure a new field, button, or style for each space card.
 
-**Parent Topic:**[Manage workplace safety activities](../concept/manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 
 
-[Import your workspaces data from an Excel spreadsheet](import-excel-spreadsheet-workspace-data-wsd.md)
+[Import your workspaces data from an Excel spreadsheet]()
 
-[Add a space type configuration](add-space-type-configuration-wsd.md)
+[Add a space type configuration]()
 
-[Block a workplace location](block-workplace-location.md)
+[Block a workplace location]()
 
-[Configure Workplace entity and entity types](../concept/workplace-entity.md)
+[Configure Workplace entity and entity types]()
 
-[Managing Neighborhoods](../../workplace-space-management/concept/neighborhoods.md)
+[Managing Neighborhoods]()
 
-[Enable favorites option for Workplace Service Portal](confgure-favourites-option-for-ws-portal-wsd.md)
+[Enable favorites option for Workplace Service Portal]()
 
-[Create a workplace performer criteria](create-workplace-performer-criteria.md)
+[Create a workplace performer criteria]()
 
-[Mapping employees to their designated workspaces](../concept/mapping-employees-to-existing-work-locations-wsd.md)
+[Mapping employees to their designated workspaces]()
 
-[Assign the workplace user role to employees](assign-workplace-user-role-to-employees-of-a-location-wsd.md)
+[Assign the workplace user role to employees]()
 
-[Configuring shifts for your workplace](../concept/configuring-shifts-for-your-workplace-wsd.md)
+[Configuring shifts for your workplace]()
 
-[Managing workplace shifts that you own](../concept/managing-shifts-you-own-wsd.md)
+[Managing workplace shifts that you own]()
 
-[Managing workplace reservations for employees](../concept/managing-workplace-reservations-wsd.md)
+[Managing workplace reservations for employees]()
 
-[Setting and tracking arrivals at the workplace](../concept/scheduling-employees-arrival-to-the-workplace-wsd.md)
+[Setting and tracking arrivals at the workplace]()
 
-[Approve employee workplace reservation requests](approve-workplace-reservation-requests-wsd.md)
+[Approve employee workplace reservation requests]()
 
-[Managing workplace tasks](../concept/managing-workplace-maintenance-tasks.md)
+[Managing workplace tasks]()
 
-[Workplace knowledge management](../concept/workplace-knowledge-mgmt-wsd.md)
+[Workplace knowledge management]()
 
-[QR code management](../concept/qr-code-mgmt.md)
+[QR code management]()
 
-[Location migration](../concept/location-migration.md)
+[Location migration]()
 
-[View workplace service usage analytics with Usage Insights](../reference/appsee-intergration-wsd.md)
+[View workplace service usage analytics with Usage Insights]()
 

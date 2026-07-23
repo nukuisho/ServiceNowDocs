@@ -2,6 +2,7 @@
 title: Configuring manual location tracking
 description: Configure manual location tracking system properties to control how location tracking registers the activity of your users, while performing their tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/location-tracking-manual-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,15 +36,15 @@ There are two system properties which control how location tracking registers us
 
 2.  Select the location tracking mobile properties that you want to configure.
 
-<table id="choicetable_dtv_3vz_2wb"><thead><tr><th align="left" id="d39402e104">
+<table id="choicetable_dtv_3vz_2wb"><thead><tr><th align="left" id="d40266e104">
 
 System property
 
-</th><th align="left" id="d39402e107">
+</th><th align="left" id="d40266e107">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d39402e113">
+</th></tr></thead><tbody><tr><td id="d40266e113">
 
 **glide.geolocation.tracking.frequency**
 
@@ -53,7 +54,7 @@ Procedure
 2.  In the **Value** field for the selected system property, select the value and change it to your desired amount.
 
 
-</td></tr><tr><td id="d39402e140">
+</td></tr><tr><td id="d40266e140">
 
 **glide.geolocation.proximity**
 
@@ -67,5 +68,5 @@ Procedure
 </table>3.  Right-click in the header and select **Save**.
 
 
-**Parent Topic:**[Enabling and selecting location tracking options](location-tracking-enable.md)
+**Parent Topic:**[Enabling and selecting location tracking options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-enable.md)
 

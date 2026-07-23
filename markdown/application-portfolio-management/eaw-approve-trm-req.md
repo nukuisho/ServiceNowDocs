@@ -2,6 +2,7 @@
 title: Approve or reject TRM requests
 description: As an Enterprise Architect, approve or reject a TRM product or product lifecycle requests submitted by other users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-approve-trm-req.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,12 +41,12 @@ When an Enterprise Architecture user requests for TRM product or TRM product lif
 
 The requester receives an email notification for the approval or rejection.
 
-**Parent Topic:**[Working with Enterprise Architecture workspace home page](../../concept/eaw-concept/eaw-work-with-ea-workspace-homepage.md)
+**Parent Topic:**[Working with Enterprise Architecture workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ea-workspace-homepage.md)
 
 **Related topics**  
 
 
-[View or update your TRM requests](eaw-view-update-trm-requests.md)
+[View or update your TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-update-trm-requests.md)
 
-[Manage the Technology Reference Model in Enterprise Architecture Workspace](../../concept/eaw-concept/eaw-managing-the-technology-portfolio.md)
+[Manage the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 

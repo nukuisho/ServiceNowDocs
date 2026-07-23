@@ -2,6 +2,7 @@
 title: Enterprise Architecture shapes
 description: Use the Enterprise Architecture shapes to create diagrams with icons related to enterprise architecture.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-ea-shapes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,33 +20,33 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 
 |Shape|Name|
 |-----|----|
-|![Application](../../image/eaw-image/modeling/icon-application.png)|Application|
-|![Application service](../../image/eaw-image/modeling/icon-application-service.png)|Application Service|
-|![Business application](../../image/eaw-image/modeling/icon-business-application.png)|Business Application|
-|![Business capability](../../image/eaw-image/modeling/icon-business-capability.png)|Business Capability|
-|![Business process](../../image/eaw-image/modeling/icon-business-process.png)|Business Process|
-|![Business service](../../image/eaw-image/modeling/icon-business-service.png)|Business Service|
-|![Business unit](../../image/eaw-image/modeling/icon-business-unit.png)|Business Unit|
-|![Computer](../../image/eaw-image/icon-computer.png)|Computer|
-|![Demand](../../image/eaw-image/modeling/icon-demand.png)|Demand|
-|![Departments](../../image/eaw-image/modeling/icon-departments.png)|Departments|
-|![Digital integration](../../image/eaw-image/modeling/icon-digital-integration.png)|Digital Integration|
-|![Digital interface](../../image/eaw-image/modeling/icon-digital-interface.png)|Digital Interface|
-|![Dynamic CI group](../../image/eaw-image/modeling/icon-dynamic-ci-group.png)|Dynamic CI Group|
-|![Hardware model](../../image/eaw-image/modeling/icon-hardware-model.png)|Hardware Model|
-|![Information object](../../image/eaw-image/modeling/icon-information-object.png)|Information Object|
-|![SDLC component](../../image/eaw-image/modeling/icon-sdlc-component.png)|SDLC Component|
-|![Server](../../image/eaw-image/modeling/icon-server.png)|Server|
-|![Service portfolio](../../image/eaw-image/modeling/icon-service-portfolio.png)|Service Portfolio|
-|![Software product](../../image/eaw-image/modeling/icon-software-product.png)|Software Product|
-|![Technical service](../../image/eaw-image/modeling/icon-technical-service.png)|Technical Service|
-|![Technical service offering](../../image/eaw-image/modeling/icon-technical-service-offering.png)|Technical Service Offering|
-|![Value stream](../../image/eaw-image/modeling/icon-value-stream.png)|Value Stream|
-|![Value stream stage](../../image/eaw-image/modeling/icon-value-stream-stage.png)|Value Stream Stage|
-|![AI dataset digital asset](../../image/eaw-image/modeling/icon-ai-dataset.png)|AI Dataset Digital Asset|
-|![AI model digital asset](../../image/eaw-image/modeling/icon-ai-model.png)|AI Model Digital Asset|
-|![AI prompt digital asset](../../image/eaw-image/modeling/icon-ai-prompt.png)|AI Prompt Digital Asset|
-|![AI system digital asset](../../image/eaw-image/modeling/icon-ai-system.png)|AI System Digital Asset|
+|\[Omitted image "icon-application.png"\] Alt text: Application|Application|
+|\[Omitted image "icon-application-service.png"\] Alt text: Application service|Application Service|
+|\[Omitted image "icon-business-application.png"\] Alt text: Business application|Business Application|
+|\[Omitted image "icon-business-capability.png"\] Alt text: Business capability|Business Capability|
+|\[Omitted image "icon-business-process.png"\] Alt text: Business process|Business Process|
+|\[Omitted image "icon-business-service.png"\] Alt text: Business service|Business Service|
+|\[Omitted image "icon-business-unit.png"\] Alt text: Business unit|Business Unit|
+|\[Omitted image "icon-computer.png"\] Alt text: Computer|Computer|
+|\[Omitted image "icon-demand.png"\] Alt text: Demand|Demand|
+|\[Omitted image "icon-departments.png"\] Alt text: Departments|Departments|
+|\[Omitted image "icon-digital-integration.png"\] Alt text: Digital integration|Digital Integration|
+|\[Omitted image "icon-digital-interface.png"\] Alt text: Digital interface|Digital Interface|
+|\[Omitted image "icon-dynamic-ci-group.png"\] Alt text: Dynamic CI group|Dynamic CI Group|
+|\[Omitted image "icon-hardware-model.png"\] Alt text: Hardware model|Hardware Model|
+|\[Omitted image "icon-information-object.png"\] Alt text: Information object|Information Object|
+|\[Omitted image "icon-sdlc-component.png"\] Alt text: SDLC component|SDLC Component|
+|\[Omitted image "icon-server.png"\] Alt text: Server|Server|
+|\[Omitted image "icon-service-portfolio.png"\] Alt text: Service portfolio|Service Portfolio|
+|\[Omitted image "icon-software-product.png"\] Alt text: Software product|Software Product|
+|\[Omitted image "icon-technical-service.png"\] Alt text: Technical service|Technical Service|
+|\[Omitted image "icon-technical-service-offering.png"\] Alt text: Technical service offering|Technical Service Offering|
+|\[Omitted image "icon-value-stream.png"\] Alt text: Value stream|Value Stream|
+|\[Omitted image "icon-value-stream-stage.png"\] Alt text: Value stream stage|Value Stream Stage|
+|\[Omitted image "icon-ai-dataset.png"\] Alt text: AI dataset digital asset|AI Dataset Digital Asset|
+|\[Omitted image "icon-ai-model.png"\] Alt text: AI model digital asset|AI Model Digital Asset|
+|\[Omitted image "icon-ai-prompt.png"\] Alt text: AI prompt digital asset|AI Prompt Digital Asset|
+|\[Omitted image "icon-ai-system.png"\] Alt text: AI system digital asset|AI System Digital Asset|
 
-**Parent Topic:**[Shapes to create a modeling diagram](eaw-modeling-shapes.md)
+**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-shapes.md)
 

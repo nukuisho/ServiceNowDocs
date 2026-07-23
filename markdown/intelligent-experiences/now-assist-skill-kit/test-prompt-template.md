@@ -2,6 +2,7 @@
 title: Test a prompt
 description: After you create a prompt for your custom skill, test the prompt template before you finalize it. Testing the prompt verifies that you’re seeing the expected prompt results before it’s activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/test-prompt-template.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -40,35 +41,35 @@ Role required: sn\_skill\_builder.admin
 
 6.  If the skill is deployed as a flow, disable the system property com.glide.oneapi.fdih.async.quick.mode, and then enable flow reporting.
 
-    This property allows the generation of flow execution details when running flows, subflows, and actions from a custom skill. You can use flow execution details to test and troubleshoot your flow, subflow, or action. For more information about the system property, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
+    This property allows the generation of flow execution details when running flows, subflows, and actions from a custom skill. You can use flow execution details to test and troubleshoot your flow, subflow, or action. For more information about the system property, see .
 
 7.  Refine the prompt if you want, and repeat testing as necessary.
 
-8.  Select the run test history icon ![Run test history icon.](../image/icon-nask-test-history.png) to see the results from your previous run tests.
+8.  Select the run test history icon \[Omitted image "icon-nask-test-history.png"\] Alt text: Run test history icon. to see the results from your previous run tests.
 
 
 ## What to do next
 
-After you test your prompt, you must finalize and publish it. To learn more about publishing a skill, see [Finalize and publish a skill](publish-skill.md).
+After you test your prompt, you must finalize and publish it. To learn more about publishing a skill, see [Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md).
 
-If you have not configured the deployment settings for your skill, see [Configure skill deployment settings](configure-skill-settings.md).
+If you have not configured the deployment settings for your skill, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
-**Parent Topic:**[Using Now Assist Skill Kit](../concept/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 
 
-[Create a skill](create-new-skill.md)
+[Create a skill]()
 
-[Create a prompt](create-prompt-template.md)
+[Create a prompt]()
 
-[Use prompt assistance](use-prompt-assistance.md)
+[Use prompt assistance]()
 
-[Evaluate a prompt](evaluate-prompt.md)
+[Evaluate a prompt]()
 
-[Finalize and publish a skill](publish-skill.md)
+[Finalize and publish a skill]()
 
-[Activate a skill](activate-skill.md)
+[Activate a skill]()
 
-[Call a custom skill from a script](call-custom-skill-from-script.md)
+[Call a custom skill from a script]()
 

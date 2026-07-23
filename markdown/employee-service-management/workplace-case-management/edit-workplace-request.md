@@ -2,6 +2,7 @@
 title: Edit a workplace request
 description: Edit the details of a workplace request or change workplace service items included in a workplace request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/edit-workplace-request.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -30,7 +31,7 @@ Editing a request is supported for the following request types:
 -   Space arrangement request
 -   Tech support
 
-If you have created a request from a workplace reservation, you can only edit the request from the reservation summary page. For more information, see [Share, modify, or cancel a reservation](../../wsd-reservation-management/task/modify-cancel-res-request.md).
+If you have created a request from a workplace reservation, you can only edit the request from the reservation summary page. For more information, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
 
 **Note:**
 
@@ -67,36 +68,36 @@ Role required: sn\_wsd\_core.workplace\_user
     The Workplace Request is updated.
 
 
-**Parent Topic:**[Requesting a workplace service](../concept/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 
 
-[Reconfigure an office space](Reconfig-office-space-1.md)
+[Reconfigure an office space]()
 
-[Raise help request for a workplace inquiry](submit-gen-workplace-serv-req.md)
+[Raise help request for a workplace inquiry]()
 
-[Raise a move request for a space change](../../workplace-move-mgmt/task/request-desk-change.md)
+[Raise a move request for a space change]()
 
-[Request furniture for a space](request-furniture.md)
+[Request furniture for a space]()
 
-[Raise a space assistance request](../../workplace-space-management/task/raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Submit a maintenance request](submit-a-maintenance-request.md)
+[Submit a maintenance request]()
 
-[Submit a catering request](submit-a-catering-request.md)
+[Submit a catering request]()
 
-[Submit heating and cooling request](submit-heating-and-cooling-request.md)
+[Submit heating and cooling request]()
 
-[Submit a badge request](submit-a-badge-request.md)
+[Submit a badge request]()
 
-[Submit a tech support request](submit-a-tech-support-request.md)
+[Submit a tech support request]()
 
-[Submit a cleaning request](submit-a-cleaning-request.md)
+[Submit a cleaning request]()
 
-[Submit an equipment request](submit-a-equipment-request.md)
+[Submit an equipment request]()
 
-[Submit an emergency maintenance request](submit-emergency-maint-request.md)
+[Submit an emergency maintenance request]()
 
-[Submit a change event request for a reservation](submit-change-event-reservation.md)
+[Submit a change event request for a reservation]()
 

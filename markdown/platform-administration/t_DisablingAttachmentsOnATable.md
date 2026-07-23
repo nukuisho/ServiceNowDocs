@@ -2,6 +2,7 @@
 title: Index attachments on a table
 description: You can enable attachment indexing for a table so text searches can return matches from the record and its file attachments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_DisablingAttachmentsOnATable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ By default, attachment indexing is enabled for the Knowledge Base. You can enabl
     |Attribute name|Attachment index|
     |Value|true|
 
-    **Note:** The attachment index attribute only applies to the tables on which you explicitly add it. It does not cascade to child tables. For example, enabling indexing of attachments on the Task table does not enable indexing of attachments on the Incident table. Not all file types are supported for attachment indexing. For a list of supported file types, see [Zing can include attachments in search results](../../search-administration/concept/c_SearchingForAttachments.md).
+    **Note:** The attachment index attribute only applies to the tables on which you explicitly add it. It does not cascade to child tables. For example, enabling indexing of attachments on the Task table does not enable indexing of attachments on the Incident table. Not all file types are supported for attachment indexing. For a list of supported file types, see [Zing can include attachments in search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_SearchingForAttachments.md).
 
 5.  Select **Submit**.
 
@@ -51,7 +52,7 @@ By default, attachment indexing is enabled for the Knowledge Base. You can enabl
 
     -   To receive an email notification from the system when text indexing for the table is complete, enter your email address and select **OK**.
     -   If you do not want to receive an email notification, select **Do not notify me**, then select **OK**.
-    ![Confirmation window for Generate Text Index action.](../image/generate-text-index.png)
+    \[Omitted image "generate-text-index.png"\] Alt text: Confirmation window for Generate Text Index action.
 
 9.  Dismiss the confirmation message by selecting **OK**.
 
@@ -60,7 +61,7 @@ By default, attachment indexing is enabled for the Knowledge Base. You can enabl
 
 The system begins text indexing for the table. When it is complete, attachments can be searched on that table.
 
-**Parent Topic:**[Administering attachments](../reference/r_AdministeringAttachments.md)
+**Parent Topic:**[Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringAttachments.md)
 
-**Parent Topic:**[Zing can include attachments in search results](../../search-administration/concept/c_SearchingForAttachments.md)
+**Parent Topic:**[Zing can include attachments in search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_SearchingForAttachments.md)
 

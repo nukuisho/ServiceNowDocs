@@ -2,6 +2,7 @@
 title: Insurance Claims Core roles and properties
 description: This section outlines the core roles involved in managing insurance claims and highlights their system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims-core-roles-and-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -233,5 +234,5 @@ When enabled, the manager receives a notification that the adjuster has submitte
  When disabled, the approval request goes directly to a manager who has the approval authority for the amount.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Insurance Claims Core](insurance-claims-core-data-model.md)
+</table>**Parent Topic:**[Insurance Claims Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims-core-data-model.md)
 

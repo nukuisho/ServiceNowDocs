@@ -2,6 +2,7 @@
 title: Personalize a form
 description: When the form personalization feature is activated, users can personalize fields to appear on a specific form view according to individual preferences. Form personalization is available in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_PersonalizeAForm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,13 +38,13 @@ In contrast to configuring a form, personalizing a form does not enable users to
 
     The Personalize Form menu appears and hide field icons appear on the form.
 
-    ![Personalize the form](../image/PersonalizeForm.png "Personalize the form")
+    \[Omitted image "PersonalizeForm.png"\] Alt text: Personalize the form
 
     A cleared gray check box indicates fields that you previously hid.
 
     **Note:** Only the fields that the form is configured to display are available in the Personalize Form menu. To add fields to the form, you must configure the form layout.
 
-3.  Clear a check box or click the hide field icon \(![Hide field icon](../image/HideFieldIcon.png)\) by a field.
+3.  Clear a check box or click the hide field icon \(\[Omitted image "HideFieldIcon.png"\] Alt text: Hide field icon\) by a field.
 
     Some check boxes are gray and selected. These check boxes indicate fields that cannot be hidden because they are required or are already hidden by UI policies or client scripts.
 
@@ -54,7 +55,7 @@ In contrast to configuring a form, personalizing a form does not enable users to
 5.  To restore the default form view, personalize the form and click **Reset**.
 
 
-**Parent Topic:**[Forms in the classic environment](../concept/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
 
 **Related topics**  
 

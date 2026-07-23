@@ -2,6 +2,7 @@
 title: Migrate a legacy survey
 description: Migrate a legacy survey and its related records to take advantage of a more powerful feature set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_MigrateALegacySurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin or survey\_admin
 
 ## About this task
 
-To avoid timing out for very large surveys, you can disable the transaction quota. See [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/c_TransactionQuotas.md).
+To avoid timing out for very large surveys, you can disable the transaction quota. See [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TransactionQuotas.md).
 
 ## Procedure
 
@@ -56,14 +57,14 @@ To avoid timing out for very large surveys, you can disable the transaction quot
 
 The **Migrate to Assessment** related link on the legacy survey record becomes unavailable after the migration. However, if you delete the record referenced in the **Assessment** field, the related link reappears and you can migrate the legacy survey again.
 
-**Parent Topic:**[Legacy survey migration](../concept/c_MigrateSurveys.md)
+**Parent Topic:**[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MigrateSurveys.md)
 
 **Related topics**  
 
 
-[Survey question migration](../reference/r_SurveyQuestionMigration.md)
+[Survey question migration]()
 
-[Migrated components](../reference/r_MigratedComponents.md)
+[Migrated components]()
 
-[Migrated question review](../reference/r_ReviewMigratedQuestions.md)
+[Migrated question review]()
 

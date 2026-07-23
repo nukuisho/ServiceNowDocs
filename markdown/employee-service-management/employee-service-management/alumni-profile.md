@@ -20,15 +20,15 @@ The **Profile** option under your name contains various widgets to manage your d
 
 Your latest employment details for all the companies you’ve worked with.
 
-![Alumni other employment details](../image/alumni-profile-emp-details.png)
+\[Omitted image "alumni-profile-emp-details.png"\] Alt text: Alumni other employment details
 
-For more information, see [Add other employment details](../task/add-other-emp-details.md).
+For more information, see [Add other employment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/add-other-emp-details.md).
 
 ## Past employment details
 
 Your legacy employment details in the organization appear here automatically from your ex-HR profile. If any details are missing, create a service request to update them.
 
-![Past employment details](../image/alumni-profile-sn-emp-details.png)
+\[Omitted image "alumni-profile-sn-emp-details.png"\] Alt text: Past employment details
 
 **Note:** If this section doesn’t show your details, your HR profile has been purged. Select the **Request profile update** button to create a service request. Provide your employment details, and an agent creates a new HR profile and update it.
 
@@ -38,19 +38,19 @@ Your personal details are retrieved and displayed here automatically from your e
 
 **Note:** In cases your alumni account is created through the automated offboarding process, the relevant details are automatically retrieved from the HR profile.
 
-![Personal details](../image/alumni-profile-personal-details.png)
+\[Omitted image "alumni-profile-personal-details.png"\] Alt text: Personal details
 
-For more information, see [Edit personal details](../task/edit-personal-details.md).
+For more information, see [Edit personal details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/edit-personal-details.md).
 
 ## Documents
 
 Access your documents shared through the service requests directly from your profile.
 
-![Documents](../image/alumni-profile-documents.png)
+\[Omitted image "alumni-profile-documents.png"\] Alt text: Documents
 
 ## Preferences
 
 Enable or disable email notifications for recommended job opportunities, news, and event updates.
 
-![Preferences](../image/alumni-profile-preferences.png)
+\[Omitted image "alumni-profile-preferences.png"\] Alt text: Preferences
 

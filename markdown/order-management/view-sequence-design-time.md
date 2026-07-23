@@ -2,6 +2,7 @@
 title: Review sequences in Workflow Studio
 description: Review sequences in Workflow Studio so you can suggest optimizations and share high-performing sequences across territories to promote best practices across the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/view-sequence-design-time.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: Sequence reader \[sn\_crm\_sequence.reader\]
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Sequences** &gt; **All Sequences**.
 
@@ -32,5 +33,12 @@ Role required: Sequence reader \[sn\_crm\_sequence.reader\]
     You're redirected to Workflow Studio where you can view the sequence diagram.
 
 
-**Parent Topic:**[Using Customer Engagement Sequences](../concept/using-customer-engagement-sequences.md)
+**Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-engagement-sequences.md)
+
+**Related topics**  
+
+
+[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-customer-engagement-sequences.md)
+
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
 

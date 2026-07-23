@@ -2,6 +2,7 @@
 title: Resume a Disputes intake via Virtual Agent dispute case as an agent
 description: As an agent, you can resume a card dispute case when a customer leaves a Virtual Agent chat in Disputes intake via Virtual Agent without submitting the dispute. Pick up where the customer left off and complete the details of the dispute case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/resume-dispute-case-from-disputes-intake-via-virtual-agent.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -27,7 +28,7 @@ When a customer initiates a dispute intake by selecting **Report a dispute** in 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../../use/reporting/image/inline-data-vis-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
 
 3.  Open a card disputes service case.
 
@@ -37,7 +38,7 @@ When a customer initiates a dispute intake by selecting **Report a dispute** in 
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_egp_gdn_wdc"><tbody><tr><td id="d112909e161">
+<table id="choicetable_egp_gdn_wdc"><tbody><tr><td id="d117369e161">
 
 **Customer has identified a disputed transaction**
 
@@ -45,7 +46,7 @@ When a customer initiates a dispute intake by selecting **Report a dispute** in 
 
 Review the disputed transaction details.
 
-</td></tr><tr><td id="d112909e170">
+</td></tr><tr><td id="d117369e170">
 
 **Customer hasn’t identified a disputed transaction**
 
@@ -54,19 +55,19 @@ Review the disputed transaction details.
 Select the card account and disputed transactions.
 
 </td></tr></tbody>
-</table>    ![Finish the card dispute record created by the customer's incomplete Virtual Agent chat from the Resume dispute case activity.](../image/disputes-va-resume-case.png)
+</table>    \[Omitted image "disputes-va-resume-case.png"\] Alt text: Finish the card dispute record created by the customer's incomplete Virtual Agent chat from the Resume dispute case activity.
 
 6.  Complete the remaining activities in the **Initiate** lane.
 
 7.  At the Submit dispute activity, select **Submit**.
 
 
-**Parent Topic:**[Submit a dispute case with Disputes intake via Virtual Agent](submit-dispute-case-disputes-intake-via-virtual-agent.md)
+**Parent Topic:**[Submit a dispute case with Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/submit-dispute-case-disputes-intake-via-virtual-agent.md)
 
 **Related topics**  
 
 
-[Overview of the Dispute Management workflow](../../fso-card-operations/concept/dispute-management-workflows.md)
+[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management-workflows.md)
 
-[Create a case with Disputes intake via Virtual Agent](../../fso-card-operations/concept/create-a-case-with-virtual-agent.md)
+[Create a case with Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-a-case-with-virtual-agent.md)
 

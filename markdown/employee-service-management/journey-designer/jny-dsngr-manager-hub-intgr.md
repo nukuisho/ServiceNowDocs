@@ -2,6 +2,7 @@
 title: Integrating Manager Hub with Journey designer
 description: Integrate Manager Hub with Journey designer to facilitate daily activities among various cross-functional processes and departments, and automate processes such as new hire onboarding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsngr-manager-hub-intgr.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -17,10 +18,10 @@ Integrate Manager Hub with Journey designer to facilitate daily activities among
 
 Follow the instructions in the Manager Hub documentation to install and configure the application for Journey designer.
 
-**Parent Topic:**[Integrations for Journey designer app](jny-integrations-1.md)
+**Parent Topic:**[Integrations for Journey designer app]()
 
 **Related topics**  
 
 
-[Manager Hub](manager-hub-overview.md)
+[Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/manager-hub-overview.md)
 

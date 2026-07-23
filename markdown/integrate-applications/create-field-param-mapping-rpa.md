@@ -2,11 +2,12 @@
 title: Map a table field to a bot process field parameter in RPA Hub
 description: Map form fields of the associated attended configuration table \(Table field\) to the process field parameters used in the automations. For example, if "First name" is the process field parameter used in the automation, then it’s mapped to the form's 'requested\_for.first\_name' field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-field-param-mapping-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Create an attended configuration record, Embedded Task Automation \(ETA\), Use, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Create an attended configuration record, Embedded Task Automation \(ETA\), Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Map a table field to a bot process field parameter in RPA Hub
@@ -15,19 +16,19 @@ Map form fields of the associated attended configuration table \(**Table** field
 
 ## Before you begin
 
-Familiarize yourself with Embedded Task Automation concepts. For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](../concept/embedded-task-auto-rpa.md).
+Familiarize yourself with Embedded Task Automation concepts. For more information, see [Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md).
 
-Verify that you’ve completed the tasks that are related to configuring the Embedded Task Automation in RPA Hub. For more information, see [List of steps for configuring embedded task automation](../reference/list-steps-eta-rpa.md).
+Verify that you’ve completed the tasks that are related to configuring the Embedded Task Automation in RPA Hub. For more information, see [List of steps for configuring embedded task automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/list-steps-eta-rpa.md).
 
-Create an attended bot process. For more information about creating an attended bot process, see [Configuring a bot process record in RPA Hub](../concept/create-botprocess.md).
+Create an attended bot process. For more information about creating an attended bot process, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
 
-Verify that the **Enable Embedded Task Automation** check box is selected in the associated attended bot process form. For more information about the bot process form, see [Bot Process form in RPA Hub](select-botprocess.md#).
+Verify that the **Enable Embedded Task Automation** check box is selected in the associated attended bot process form. For more information about the bot process form, see [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
 
-Create an attended configuration record. For more information, see [Create an attended configuration record in RPA Hub](create-attended-config-rpa.md).
+Create an attended configuration record. For more information, see [Create an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-attended-config-rpa.md).
 
 Create process field parameters that are used in the automations.
 
--   For more information about creating process field parameters from a bot process, see [Create a process field parameter in RPA Hub](create-process-field-param-rpa.md).
+-   For more information about creating process field parameters from a bot process, see [Create a process field parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-process-field-param-rpa.md).
 -   You can create a process field parameter by performing step 7 of this task. Verify that the associated bot process isn’t published. Also verify that the associated attended configuration record is either in **Draft** or **Inactive** state.
 
 Verify that the RPA developer \(sn\_rpa\_fdn.rpa\_developer\) is in the Managed by Group list of the associated bot process that is assigned to an Attended Configuration record. Verify that the Attended Configuration record that is assigned to the given field parameter mapping, must be either in **Inactive** or **Draft** state.
@@ -44,19 +45,19 @@ You can’t map the same process field parameter with multiple fields. A process
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  Map a field parameter from either the Attended Configuration menu list or from an attended bot process record's related list.
 
-<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d113481e210">
+<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d114478e210">
 
 Option
 
-</th><th align="left" id="d113481e213">
+</th><th align="left" id="d114478e213">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d113481e219">
+</th></tr></thead><tbody><tr><td id="d114478e219">
 
 **Map a field parameter from an Attended Configuration menu list**
 
@@ -66,7 +67,7 @@ Action
 2.  Open an attended configuration record.
 
 
-</td></tr><tr><td id="d113481e246">
+</td></tr><tr><td id="d114478e246">
 
 **Map a field parameter from an attended bot process record's related list**
 
@@ -106,7 +107,7 @@ Process Field Parameter
 
 Select a process field parameter to set or get the value of a field from the particular ServiceNow form.For example, if you select 'BadgeID' in the **Process Field Parameter** field, select '`Badge Id`' in the **Field**. To set the value in the "Badge Id" field of the request table, you can update the value of the "BadgeID" process field parameter.
 
-![Field parameter mapping.](../image/field-param-mapping.png)
+\[Omitted image "field-param-mapping.png"\] Alt text: Field parameter mapping.
 
 Process field parameters that are already mapped to the fields are unavailable for mapping.
 
@@ -121,15 +122,15 @@ Select a form field to map with a process field parameter.
 </td></tr></tbody>
 </table>6.  Perform any of the following tasks to save the mapping.
 
-<table id="choicetable_z1v_dzc_lzb"><thead><tr><th align="left" id="d113481e384">
+<table id="choicetable_z1v_dzc_lzb"><thead><tr><th align="left" id="d114478e384">
 
 Option
 
-</th><th align="left" id="d113481e387">
+</th><th align="left" id="d114478e387">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d113481e393">
+</th></tr></thead><tbody><tr><td id="d114478e393">
 
 **Only save the mapping**
 
@@ -137,7 +138,7 @@ Action
 
 Select **Save**.
 
-</td></tr><tr><td id="d113481e405">
+</td></tr><tr><td id="d114478e405">
 
 **Save the mapping and map another field parameter**
 
@@ -188,20 +189,20 @@ Brief description of the process field parameter.
 
 ## What to do next
 
-Activate an attended configuration record. For more information, see [Activate an attended configuration record in RPA Hub](activate-attend-config-rpa.md).
+Activate an attended configuration record. For more information, see [Activate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/activate-attend-config-rpa.md).
 
-**Parent Topic:**[Create an attended configuration record in RPA Hub](create-attended-config-rpa.md)
+**Parent Topic:**[Create an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-attended-config-rpa.md)
 
 **Related topics**  
 
 
-[Attended Configuration form in RPA Hub](../reference/attended-config-form-rpa.md)
+[Attended Configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/attended-config-form-rpa.md)
 
-[Deactivate an attended configuration record in RPA Hub](deactivate-attend-config-rpa.md)
+[Deactivate an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/deactivate-attend-config-rpa.md)
 
-[Delete an attended configuration record in RPA Hub](delete-attended-config-rpa.md)
+[Delete an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/delete-attended-config-rpa.md)
 
-[Invoke Embedded Task Automation via API in RPA Hub](../concept/create-button-att-config-rpa.md)
+[Invoke Embedded Task Automation via API in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-button-att-config-rpa.md)
 
-[Conditions for the visibility of UI action \(button\)](../reference/visibility-cond-button-rpa.md)
+[Conditions for the visibility of UI action \(button\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/visibility-cond-button-rpa.md)
 

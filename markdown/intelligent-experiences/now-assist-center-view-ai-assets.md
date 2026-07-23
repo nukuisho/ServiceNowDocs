@@ -2,10 +2,11 @@
 title: View your AI assets in the asset inventory
 description: Use the asset library to view the AI assets in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-view-ai-assets.html
 release: australia
 topic_type: task
-last_updated: "2026-04-01"
-reading_time_minutes: 2
+last_updated: "2026-06-04"
+reading_time_minutes: 4
 keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
 breadcrumb: [Using the asset inventory, Use, Now Assist Center, Enable AI experiences]
 ---
@@ -20,21 +21,23 @@ Role required: sn\_na\_center.nac\_admin
 
 ## About this task
 
-Follow these steps to view the AI assets on your instance. AI assets include agents, agentic workflows, skills, subflows, actions, virtual assistants, and topics.
+Follow these steps to view the AI assets on your instance. AI assets include agents, agentic workflows, skills, subflows, actions, virtual assistants, and topics.They also include datasets, knowledge graphs, and catalog items.
 
-For more information, see [Now Assist AI assets](../../now-assist-skills/concept/platform-ai-assets-section.md).
+For more information, see [Now Assist AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-assets-section.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Assist Center** or **Workspaces** &gt; **Now Assist Center**.
 
-2.  Select **Asset inventory** \(![Asset inventory icon.](../image/icon-now-assist-center-nav-assets.png)\) in the side navigation bar.
+2.  Select **Asset inventory** \(\[Omitted image "icon-now-assist-center-nav-assets.png"\] Alt text: Asset inventory icon.\) in the side navigation bar.
 
     The Asset inventory tab opens showing tabs for the various asset types.
 
-    ![Asset inventory in Now Assist Center.](../image/now-assist-center-asset-inventory-overview.png "Asset inventory")
+    \[Omitted image "now-assist-center-asset-inventory-overview-2.png"\] Alt text: Asset inventory in Now Assist Center.
 
 3.  Select the tab to view your AI assets for that type.
+
+    Select **More** to view and select additional tabs.
 
     The asset inventory contains the following tabs.
 
@@ -126,18 +129,79 @@ Displays a list of all topics.
 
  A conversational topic is used to structure back-and-forth conversations between the virtual agent and the end user.
 
+</td></tr><tr><td>
+
+Data assets
+
+</td><td>
+
+Displays a list of all datasets.
+
+ A custom dataset and data collection in Now Assist Data Kit is used for evaluations in Now Assist Skill Kit.
+
+</td></tr><tr><td>
+
+Catalog items
+
+</td><td>
+
+Displays a list of all catalog items.
+
+ A catalog item is used to publish a service to users in the Service Catalog.
+
+</td></tr><tr><td>
+
+Knowledge graphs
+
+</td><td>
+
+Displays a list of all knowledge graphs.
+
+ A knowledge graph is a graphical representation of real-world entities \(tables\) and their relationships. It is used add context and meaning to information to enable intelligent search, insights, and AI-driven experiences.
+
 </td></tr></tbody>
-</table>4.  In the Overview tab, use the Discover assets section to find the new AI assets on your instance.
+</table>4.  Select a combination of sort and filter options to refine the list.
+
+    The filters vary depending on the asset tab selected.
+
+    \[Omitted image "now-assist-center-asset-inventory-filters.png"\] Alt text: Filter and sorting controls for the asset list.
+
+    -   Select the **Sort by** button \(\[Omitted image "icon-now-assist-center-sort.png"\] Alt text: Sort by icon.\) and select a sorting order.
+    -   Select a filter button.
+    -   Select an option from a filter menu.
+    -   Type in the search box and select the **Submit search** icon \(\[Omitted image "icon-now-assist-center-search.png"\] Alt text: Submit search icon.\) to filter by search criteria.
+5.  Change the columns that appear in the list table.
+
+    1.  Select the **Personalize columns** button \(\[Omitted image "icon-now-assist-center-personalize.png"\] Alt text: Personalize columns button.\).
+
+        The **Select columns to display** box opens.
+
+        \[Omitted image "now-assist-center-asset-inventory-select-columns.png"\] Alt text: Select columns to display box with options for adding, removing, and reordering table columns.
+
+    2.  Customize the columns as needed.
+
+        -   Select an option in the **Available columns** panel to add the column to your list. Deselect an option to remove it.
+        -   Select the **Remove items** icon \(\[Omitted image "icon-now-assist-center-remove.png"\] Alt text: Remove items icon.\) on an item in the **Selected columns** panel to remove it from your list.
+        -   Drag one or more columns to a different location in the **Selected columns** panel to change the order in which they appear in your list.
+
+            Columns ordered from top to bottom in the panel appear from left to right in the list table.
+
+        -   Select **Reset to defaults** to restore the column configuration before your changes.
+    3.  Select **Apply**.
+
+6.  In the Overview tab, use theAvailable assets section to find the new AI assets on your instance.
 
     -   Select the **Recently created** filter to see all AI assets you created in the last 30 days.
     -   Select the **New from ServiceNow** filter to see all base system assets provided by ServiceNow within the last 90 days.
-5.  Select the asset name in the list to view the asset details on a separate workspace tab.
+7.  Select the asset name in the list to view the asset details.
+
+    The asset details page may open on a separate workspace tab if the selected asset is managed using an application that is fully integrated in Now Assist Center. If it is managed in another application, the application opens to the asset details page.
 
 
-**Parent Topic:**[Using the asset inventory in Now Assist Center](../concept/now-assist-center-using-asset-inventory.md)
+**Parent Topic:**[Using the asset inventory in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md)
 
 **Related topics**  
 
 
-[Create an AI asset in the asset inventory](now-assist-center-create-asset.md)
+[Create an AI asset in the asset inventory]()
 

@@ -2,6 +2,7 @@
 title: Install Operational Sustainability Management \(formerly ESG Management\)
 description: You can install the Operational Sustainability Management application \(sn\_esg\) if you have the sys\_admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/install-esg.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,7 +52,7 @@ The following items are installed with Operational Sustainability Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](../reference/components-installed-with-esg.md).
+For more information, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
 
 ## Procedure
 
@@ -61,7 +62,7 @@ For more information, see [Components installed with Operational Sustainability 
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -74,5 +75,5 @@ For more information, see [Components installed with Operational Sustainability 
 5.  Select **Install**.
 
 
-**Parent Topic:**[Operational Sustainability Management \(formerly ESG Management\) implementation](../concept/esg-implementation.md)
+**Parent Topic:**[Operational Sustainability Management \(formerly ESG Management\) implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-implementation.md)
 

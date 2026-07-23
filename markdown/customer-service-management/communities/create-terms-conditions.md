@@ -2,6 +2,7 @@
 title: Create community Terms and Conditions
 description: Community members must follow the community rules of conduct. Create community Terms and Conditions and them share to build a successful community. Every community user must review and accept the Terms and Conditions before contributing to a community.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-terms-conditions.html
 release: australia
 product: Communities
 classification: communities
@@ -37,15 +38,15 @@ You can disable Terms and Conditions using the **sn\_communities.disable\_terms\
 
 2.  Complete one of the following actions to save the Terms and Conditions.
 
-<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d67399e154">
+<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d68939e154">
 
 To
 
-</th><th align="left" id="d67399e157">
+</th><th align="left" id="d68939e157">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d67399e163">
+</th></tr></thead><tbody><tr><td id="d68939e163">
 
 **Submit**
 
@@ -53,7 +54,7 @@ Do this
 
 Click **Submit** to save your Terms and Conditions.
 
-</td></tr><tr><td id="d67399e175">
+</td></tr><tr><td id="d68939e175">
 
 **Activate**
 
@@ -69,48 +70,48 @@ Click **Submit** to save your Terms and Conditions.
 </table>    You can view which community users have accepted the Terms and Conditions and when. Navigate to **Community** &gt; **User Profile** &gt; **Community Profiles**. View or add, if necessary, the **Accepted TC**, **Accepted TC Date**, and **Accepted TC Number** fields.
 
 
-**Parent Topic:**[Configuring communities](../reference/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 
 
-[Community content types](../concept/c_communities-content-types.md)
+[Community content types]()
 
-[Community feedback types](../concept/feedback-types.md)
+[Community feedback types]()
 
-[Community access types](../concept/access-types.md)
+[Community access types]()
 
-[Platform Analytics Solutions for Communities](../../../use/dashboards/application-content-packs/communities-content-pack.md)
+[Platform Analytics Solutions for Communities]()
 
-[Migrate Social Q&amp;A data to Communities](migrate-socialqa.md)
+[Migrate Social Q&amp;A data to Communities]()
 
-[View community logs](view-community-logs.md)
+[View community logs]()
 
-[View community feedback and bookmarks tables](view-feedback-bookmark-tables.md)
+[View community feedback and bookmarks tables]()
 
-[Create a case from a discussion](../concept/case-management-integration.md)
+[Create a case from a discussion]()
 
-[Enable knowledge harvesting](../concept/communities-km-integration-configure.md)
+[Enable knowledge harvesting]()
 
-[Activate Communities plugins](activate-communities.md)
+[Activate Communities plugins]()
 
-[Community setup guide for admins](../reference/r_setup-communities-admin.md)
+[Community setup guide for admins]()
 
-[Configure community content types](enable-content-types-for-community.md)
+[Configure community content types]()
 
-[Configure video sources for a community](../../customer-service-management/task/create-video-configuration.md)
+[Configure video sources for a community]()
 
-[Configure community forums](configure-forums-topics.md)
+[Configure community forums]()
 
-[Forum and user permissions management](../concept/communities-permissions.md)
+[Forum and user permissions management]()
 
-[Configure the community profile](configure-community-profile.md)
+[Configure the community profile]()
 
-[Enable users to self-register to a community](../concept/configure-registration.md)
+[Enable users to self-register to a community]()
 
-[Moderate a community](moderate-communities.md)
+[Moderate a community]()
 
-[Administer gamification](../concept/communities-gamification-administer.md)
+[Administer gamification]()
 
-[Community Service Portal](../concept/community-service-portal.md)
+[Community Service Portal]()
 

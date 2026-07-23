@@ -2,6 +2,7 @@
 title: Workplace Concierge agentic workflow
 description: Use the Workplace Concierge agentic workflow to register visitors from existing communication tools like emails, calendars, or the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -34,15 +35,15 @@ After a visit is created, the Workplace Concierge sends invitation emails with a
 To access the Workplace Concierge workflow, follow these steps:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
-2.  Select **Automate map updates**.
+2.  Select **Workplace Concierge**.
 3.  Select **Define trigger** to review the trigger factors for this agentic workflow.
-4.  The **Display** option enables the Now Assist panel. For more information, see [Select display](workplace-concierge-ai-agent.md#section_bc5_ykn_x2c).
+4.  The **Display** option enables the Now Assist panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md).
 
 ## AI agents used in the Workplace Concierge workflow
 
-The **Connect AI agents** section in the Describe and Connect workflow displays the AI Agents that are working on the Automate map updates workflow.
+The **Connect AI agents** section in the Describe and Connect workflow displays the AI Agents that are working on the Workplace Concierge workflow.
 
-The following agents are used in the Automate map updates workflow:
+The following agents are used in the Workplace Concierge workflow:
 
 |AI agent Name|Description|
 |-------------|-----------|
@@ -56,29 +57,29 @@ In the Select a UI display section, select **Display** to display the Now Assist
 
 **Note:** To view the output from a triggered use case, you should have the now\_assist\_panel\_role.
 
-Select this option to receive and review notifications sent by AI agents in the Now Assist panel. AI agents send notifications to Map Admins in the Now Assist panel about updates to the import tasks.
+Select this option to receive and review notifications sent by AI agents in the Now Assist panel. AI agents send notifications to hosts in the Now Assist panel about updates to the import tasks.
 
--   **[Use Workplace Concierge with Now Assist in Virtual Agent](../task/use-concierge-virtual-agent.md)**  
+-   **[Use Workplace Concierge with Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/use-concierge-virtual-agent.md)**  
 Invoke Workplace Concierge from Now Assist in Virtual Agent to invite visitors to your organization.
--   **[Use Workplace Concierge with email or calendar invite](../task/use-concierge-email.md)**  
+-   **[Use Workplace Concierge with email or calendar invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/use-concierge-email.md)**  
 Add the Workplace Concierge to an email thread or a calendar invite.
 
-**Parent Topic:**[Using AI agent workflows in Now Assist for WSD](now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 
 
-[Manage temporary space closures agentic workflow](maintenance-meeting-room-agent-ai.md)
+[Manage temporary space closures agentic workflow]()
 
-[Help manage workplace reservations agentic workflow](manage-workplace-reservations-agent-ai.md)
+[Help manage workplace reservations agentic workflow]()
 
-[Optimize cleaning activities agent overview](optimise-cleaning-agent-overview.md)
+[Optimize cleaning activities agent overview]()
 
-[Automate map updates agentic workflow](automate-map-updates-agent-ai.md)
+[Automate map updates agentic workflow]()
 
-[Workplace Advisor Overview](workplace-advisor-overview.md)
+[Workplace Advisor Overview]()
 
-[implement-autonomous-l1-agent-for-workplace.md](implement-autonomous-l1-agent-for-workplace.md)
+[]()
 
 [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md)
 

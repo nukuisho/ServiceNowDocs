@@ -2,6 +2,7 @@
 title: Wait For Condition action
 description: Pause a flow until record values match a specific set of conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/wait-for-condition-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -43,7 +44,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     The record values necessary to resume running the flow. For example, if the condition is **\[State\]** **\[is\]** **\[Closed\]**, the flow pauses until the condition is met. Once met, the flow moves on to the next flow step. Only select conditions that apply to field values in the table to which the record belongs. See Condition evaluation for more information about creating valid conditions.
 
-    **Note:** For conditions that depend on a specific duration, consider using [Wait for a duration flow logic](../concept/flow-logic-wait-for-a-duration.md) instead.
+    **Note:** For conditions that depend on a specific duration, consider using [Wait for a duration flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.md) instead.
 
 -   **Enable Timeout**
 
@@ -89,20 +90,20 @@ The Wait for Condition action only evaluates the wait condition when there are c
 
 -   Each condition specifies a field value change rather than a relative time period.
 
-    **Note:** For conditions that depend on a specific duration, consider using [Wait for a duration flow logic](../concept/flow-logic-wait-for-a-duration.md) instead.
+    **Note:** For conditions that depend on a specific duration, consider using [Wait for a duration flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.md) instead.
 
 
 In this example, the wait condition is valid because the **State** field belongs to the Incident table and the condition is a field value change to **Closed**.
 
-![Condition met for a Wait for Condition action in Flow Designer.](../images/wait-for-condition-flow-met-example.png "Valid wait condition")
+\[Omitted image "wait-for-condition-flow-met-example.png"\] Alt text: Condition met for a Wait for Condition action in Flow Designer.
 
 In this example, the wait condition is invalid because it is a time relative to the **Created** date. Actions that have a condition that relies on a time interval will not be met, so the action is never performed.
 
-![Condition not met for a Wait for Condition action in Flow Designer.](../images/wait-for-condition-flow-not-met-example.png "Invalid wait condition")
+\[Omitted image "wait-for-condition-flow-not-met-example.png"\] Alt text: Condition not met for a Wait for Condition action in Flow Designer.
 
 ## Wait for incident state closed
 
-![Condition met for a Wait for Condition action in Flow Designer.](../images/wait-for-condition-flow-met-example.png)
+\[Omitted image "wait-for-condition-flow-met-example.png"\] Alt text: Condition met for a Wait for Condition action in Flow Designer.
 
 In this example, a subflow provides an incident record as an input to the Wait For Condition action. The condition is valid because it uses a field value from the Incident table.
 
@@ -116,11 +117,11 @@ Follow these general guidelines when creating flows that wait for a condition.
 
 -   **Cancel flows whose resume conditions can never occur**
 
-    Prevent your flows from waiting indefinitely by specifying flow stop conditions with [End Flow flow logic](../concept/flow-logic-end-action.md). To free up system resources, you can also cancel any flow whose resume conditions can never be met. For example, cancel flows waiting for incident record updates where the related incident is closed.
+    Prevent your flows from waiting indefinitely by specifying flow stop conditions with [End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-end-action.md). To free up system resources, you can also cancel any flow whose resume conditions can never be met. For example, cancel flows waiting for incident record updates where the related incident is closed.
 
 -   **Provide at least one condition to resume a flow**
 
-    The Wait For Condition action requires at least one condition to resume running a flow. If you want to pause a flow for a specific amount of time, use the [Wait for a duration of time flow logic](../concept/flow-logic-wait-for-a-duration.md) instead.
+    The Wait For Condition action requires at least one condition to resume running a flow. If you want to pause a flow for a specific amount of time, use the [Wait for a duration of time flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.md) instead.
 
 -   **Restrict wait conditions to fields present on the current table**
 
@@ -162,5 +163,5 @@ The system does not support Wait for Condition for the following tables.
 |Users|User Session \[sys\_user\_session\], User Token \[sys\_user\_token\], User Preference \[sys\_user\_preference\], Navigator History \[sys\_ui\_navigator\_history\]|
 |Workflow|Workflow Execution \[wf\_workflow\_execution\], Workflow History \[wf\_history\], Workflow Executing Activity \[wf\_executing\], Workflow Queued Command \[wf\_command\], Workflow Context \[wf\_context\], Workflow Transition History \[wf\_transition\_history\]|
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

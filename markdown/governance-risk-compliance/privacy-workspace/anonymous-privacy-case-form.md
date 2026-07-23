@@ -2,6 +2,7 @@
 title: Anonymous privacy case form
 description: The fields in the Report a privacy case form capture information about the suspected or confirmed privacy issue while keeping the reporter's identity confidential.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/anonymous-privacy-case-form.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -29,7 +30,7 @@ Type of privacy case
 
 </td><td>
 
-Nature of the privacy issue. For example violation of company policies, regulatory requirements, or ethical standards.
+Nature of the privacy issue. For example, violation of customer data.
 
 </td></tr><tr><td>
 
@@ -116,12 +117,12 @@ Number of impacted individuals
 Total number of individuals whose personal data was exposed, accessed, or compromised.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Report a privacy case anonymously](../task/report-privacy-case-anonymously.md)
+</table>**Parent Topic:**[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
 
 **Related topics**  
 
 
-[Anonymous Reporting Center](../../grc-common/concept/grc-anonymous-reporting-center.md)
+[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 
-[Report a privacy case anonymously](../task/report-privacy-case-anonymously.md)
+[Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
 

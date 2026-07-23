@@ -2,6 +2,7 @@
 title: Improve portal load time with asynchronous loading
 description: Reduce the time employees spend waiting for the portal to load by enabling widgets to load data asynchronously. This allows widgets to display information as it becomes available, improving overall portal performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/optimize-performance-of-employee-center-home-page.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -42,12 +43,12 @@ By default, widgets try to load and display data simultaneously. This can cause 
 4.  Click **Save**.
 
 
-**Parent Topic:**[Managing portal performance](../concept/improve-manage.md)
+**Parent Topic:**[Managing portal performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/improve-manage.md)
 
 **Related topics**  
 
 
-[Portal performance optimization](../concept/ec-load-experience-optimization.md)
+[Portal performance optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-load-experience-optimization.md)
 
-[Manage connected content from topic pages](mnge-content-topics.md)
+[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
 

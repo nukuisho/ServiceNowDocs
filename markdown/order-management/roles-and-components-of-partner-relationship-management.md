@@ -2,11 +2,12 @@
 title: Roles and components of Partner Relationship Management
 description: The Partner Relationship Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between enterprises and channel partners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/roles-and-components-of-partner-relationship-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
-breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Explore, Sales Customer Relationship Management]
 ---
 
 # Roles and components of Partner Relationship Management
@@ -208,15 +209,10 @@ Navigate to **All** &gt; **Partner Relationship Management** &gt; **Properties**
 -   glide.ui.sn\_prm\_partner\_program\_relationship\_activity.fields
 -   glide.ui.sn\_prm\_channel\_partner\_activity.fields
 
--   **[Add responsibilities to PRM roles](../task/add-responsibilities-to-prm-roles.md)**  
-A responsibility describes a role or function that supports a user. Use responsibility definitions to create relationships between any two partner entities.
-
-**Parent Topic:**[Configure Partner Relationship Management](configure-partner-relationship-management.md)
-
 **Related topics**  
 
 
-[Install Partner Relationship Management](../task/install-partner-relationship-management.md)
+[Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-partner-relationship-management.md)
 
-[Data model for Partner Relationship Management](data-model-for-partner-relationship-management.md)
+[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-partner-relationship-management.md)
 

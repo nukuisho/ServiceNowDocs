@@ -2,6 +2,7 @@
 title: Enable the Now Assist panel
 description: Enable the Now Assist panel to have your AI companion perform setup, configuration, and administrative tasks more quickly using natural language prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-enable-now-assist-panel.html
 release: australia
 topic_type: task
 last_updated: "2026-03-13"
@@ -20,9 +21,11 @@ Role required: sn\_na\_center.nac\_admin
 
 ## About this task
 
+The Now Assist panel is turned on by default. If it is turned off, follow these steps to turn on the Now Assist panel.
+
 The Now Assist panel must be enabled for administrators to use the conversational interface in Now Assist Center. When the panel is turned off, a banner appears on the home page notifying you that the conversational experience is unavailable, with a link to the settings page.
 
-For more information on the capabilities of Now Assist panel, see [Now Assist panel](../../now-assist-platform/concept/now-assist-panel-overview.md).
+For more information on the capabilities of Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
@@ -39,14 +42,14 @@ For more information on the capabilities of Now Assist panel, see [Now Assist pa
 
 ## Result
 
-The Now Assist panel is enabled and available globally via the sparkle icon \(![Now Assist panel icon.](../image/icon-now-assist-center-panel-sparkle.png)\) in the Next Experience Unified Navigation. The panel understands where users are in the application and can personalize responses accordingly, streamlining the completion of tasks.
+The Now Assist panel is enabled and available globally via the sparkle icon \(\[Omitted image "icon-now-assist-center-panel-sparkle.png"\] Alt text: Now Assist panel icon.\) in the Next Experience Unified Navigation. The panel understands where users are in the application and can personalize responses accordingly, streamlining the completion of tasks.
 
-**Parent Topic:**[Configuring Now Assist Center](../concept/configuring-now-assist-center.md)
+**Parent Topic:**[Configuring Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist-center.md)
 
 **Related topics**  
 
 
-[Confirm installation of Now Assist Center](now-assist-center-install.md)
+[Confirm installation of Now Assist Center]()
 
-[Set up automation discovery in Now Assist Center](../concept/now-assist-center-automation-discovery-setup.md)
+[Set up automation opportunity discovery in Now Assist Center]()
 

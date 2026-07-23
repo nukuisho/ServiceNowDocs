@@ -2,6 +2,7 @@
 title: Get started with MITRE-ATT&amp;CK framework
 description: Review the following information before you start setting up your MITRE-ATT&amp;CK framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/get-started-with-mitre.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -36,7 +37,7 @@ The following roles are used across the MITRE-ATT&amp;CK features:-   The admini
 -   sn\_ti.mitre\_analyst - The MITRE analyst role has been introduced to allow cross-navigation for the MITRE features between Security Incident Response and Threat Intelligence Support Common. With this role, you can view both the Threat Intelligence MITRE module and the Security Incident Response module in read-only mode.
 -   sn\_si.read
 
- For more information, see [Setup Threat Intelligence](../concept/c_GetStartedWithThreatIntel.md#).
+ For more information, see [Setup Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_GetStartedWithThreatIntel.md).
 
 </td></tr><tr><td>
 
@@ -51,7 +52,7 @@ Verify that the following Security Operations applications are installed and act
 -   Threat Intelligence - Version 12.0 or higher
 -   Security Incident Response - Version 12.0 or higher
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [get entitlement for a Security Operations product](../../security-incident-response/task/entitle-secops-product.md) or application and [activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [get entitlement for a Security Operations product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) or application and [activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
 
 </td></tr><tr><td>
 
@@ -59,57 +60,57 @@ Domain separation
 
 </td><td>
 
-Verify the [domain separation section](domain-separation-and-mitre-att-ck.md) if you intend to separate data, processes, and administrative tasks.
+Verify the [domain separation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-and-mitre-att-ck.md) if you intend to separate data, processes, and administrative tasks.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MITRE-ATT&amp;CK administration](../concept/mitre-att-ck-administration.md)
+</table>**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 
 
-[Understand the MITRE to STIX data model](understand-the-mitre-to-stix-data-model-mapping.md)
+[Understand the MITRE to STIX data model]()
 
-[Domain separation and MITRE-ATT&amp;CK](domain-separation-and-mitre-att-ck.md)
+[Domain separation and MITRE-ATT&amp;CK]()
 
-[Set up the MITRE-ATT&amp;CK framework](../task/setup-mitre-profile.md)
+[Set up the MITRE-ATT&amp;CK framework]()
 
-[Manage matrices](../task/view-mitre-collection.md)
+[Manage matrices]()
 
-[Manage techniques](../task/view-techniques.md)
+[Manage techniques]()
 
-[Manage mitigations](../task/manage-mitigations.md)
+[Manage mitigations]()
 
-[Manage groups](../task/manage-groups-threat-intel.md)
+[Manage groups]()
 
-[Manage malware](../task/manage-malware.md)
+[Manage malware]()
 
-[Manage tools](../task/manage-tools.md)
+[Manage tools]()
 
-[Manage MITRE relationships](../task/manage-mitre-relationships.md)
+[Manage MITRE relationships]()
 
-[Manage CVE and technique mapping](../task/manage-cve-and-technique-mapping.md)
+[Manage CVE and technique mapping]()
 
-[Extend the MITRE-ATT&amp;CK data](../task/view-and-extend-information.md)
+[Extend the MITRE-ATT&amp;CK data]()
 
-[Define the data source and detection tool mapping](../task/manage-mitre-att-ck-data-sources.md)
+[Define the data source and detection tool mapping]()
 
-[Define the data source and data component mapping](../task/map-the-data-source-and-data-components.md)
+[Define the data source and data component mapping]()
 
-[Define the technique detection coverage](../task/define-technique-coverage.md)
+[Define the technique detection coverage]()
 
-[Map your technique detection coverage to a technique](../task/map-technique-coverage.md)
+[Map your technique detection coverage to a technique]()
 
-[Define the mitigation coverage](../task/define-the-mitigation-coverage.md)
+[Define the mitigation coverage]()
 
-[Map your mitigation coverage to a technique](../task/map-your-mitigation-coverage-to-a-technique.md)
+[Map your mitigation coverage to a technique]()
 
-[Create and map detection rules](../task/create-detection-rules.md)
+[Create and map detection rules]()
 
-[Auto-extract technique rules for importing MITRE-ATT&amp;CK information](../concept/auto-extract-technique-rules.md#)
+[Auto-extract technique rules for importing MITRE-ATT&amp;CK information]()
 
-[Review threat group and MITRE-ATT&amp;CK techniques mapping](../task/review-threat-group-and-techniques-mapping.md)
+[Review threat group and MITRE-ATT&amp;CK techniques mapping]()
 
-[Threat group to technique heatmap definition](../task/threat-group-to-technique-heatmap-definition.md)
+[Threat group to technique heatmap definition]()
 
-[Review the MITRE-ATT&amp;CK system properties](../task/configure-mitre-att-ck-properties.md)
+[Review the MITRE-ATT&amp;CK system properties]()
 

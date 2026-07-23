@@ -2,6 +2,7 @@
 title: Manage use cases for Now Assist in Contract Management
 description: Manage use cases for Now Assist in Contract Management by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-manage-use-cases.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -26,19 +27,19 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile of your activated skill that you want to modify, select **Edit** in the options menu \(![Options menu icon.](../image/cmpro-na-three-dot-icon.png)\).
+3.  On the tile of your activated skill that you want to modify, select **Edit** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
 
-    ![Active skills in Contract management pro.](../image/cmpro-na-active-skills.png "Active skills in Now Assist in Contract Management")
+    \[Omitted image "cmpro-na-active-skills.png"\] Alt text: Active skills in Contract management pro.
 
 4.  In the skill guided setup, select **Use cases**.
 
-5.  Select the actions icon ![Actions icon.](../image/cmpro-na-three-dot-icon.png) on the use case that you want to update, delete, deactivate, or copy.
+5.  Select the actions icon \[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Actions icon. on the use case that you want to update, delete, deactivate, or copy.
 
     -   **Edit**
 
         Modify the use case by adding new fields, or updating, deactivating, or deleting existing fields.
 
-        For more information on the **Field** form, see [Field form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-extraction-single-field-form.md) and [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-qna-single-field-form.md).
+        For more information on the **Field** form, see [Field form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-extraction-single-field-form.md) and [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-qna-single-field-form.md).
 
         The base system use cases, **CM Pro - Contract Metadata Extraction** for contract metadata extraction, **CM Pro - Contract Obligation Extraction** for obligation extraction, and **CM Pro - Contract Analysis** for contract analysis cannot be edited, deleted, or deactivated. To customize these use cases, make a copy of the base system use cases and update the copied versions.
 
@@ -63,24 +64,24 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 Now Assist applies the updated use case for contract analysis or metadata extraction.
 
-**Parent Topic:**[Managing skills for Now Assist in Contract Management](cmpro-manage-na-skills.md)
+**Parent Topic:**[Managing skills for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
 
 **Related topics**  
 
 
-[Manage use case mappings for Now Assist in Contract Management](../task/cmpro-manage-use-case-map.md)
+[Manage use case mappings for Now Assist in Contract Management]()
 
-[Manage clause mappings for contract analysis](../task/cmpro-manage-clause-mappings.md)
+[Manage clause mappings for contract analysis]()
 
-[Manage expected response mappings for contract analysis](../task/cmpro-manage-expected-response.md)
+[Manage expected response mappings for contract analysis]()
 
-[Deactivate skills for Now Assist in Contract Management](../task/cmpro-deactivate-na-skills.md)
+[Deactivate skills for Now Assist in Contract Management]()
 
-[Create use cases for contract metadata extraction](../task/cmpro-na-usecase-me.md)
+[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
 
-[Create use cases for contract analysis](../task/cmpro-na-usecase-ca.md)
+[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)
 
-[Create use cases for contract obligation extraction](../task/cmpro-na-use-case-obext.md)
+[Create use cases for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.md)
 
-[Select large language models for use cases in Now Assist in Contract Management](../task/cmpro-na-manage-llm.md)
+[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
 

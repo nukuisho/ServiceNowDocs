@@ -2,6 +2,7 @@
 title: Change highlighting of calendar report events
 description: Field styles control the highlighting of events in calendar reports. Manage field styles to change how highlighting works.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_HighlightACalendarEntry.html
 release: australia
 product: Reporting
 classification: reporting
@@ -40,11 +41,11 @@ If calendar reports are configured to use field styles from their tables or repo
 
 2.  Filter the list to show the tables you want to address and then group the result by field name.
 
-    ![Field styles table with filter button highlighted](../image/filter-field-styles-table.gif)
+    \[Omitted image "filter-field-styles-table.gif"\] Alt text: Field styles table with filter button highlighted
 
 3.  Select the name of the table next to the field and value that you want to highlight.
 
-    ![A section of the field styles list with the task table highlighted](../image/field-style-list-selection.png)
+    \[Omitted image "field-style-list-selection.png"\] Alt text: A section of the field styles list with the task table highlighted
 
 4.  Change the background-color value as desired.
 
@@ -53,14 +54,14 @@ If calendar reports are configured to use field styles from their tables or repo
 5.  Select **Update**.
 
 
-**Parent Topic:**[Customize calendar reports](../concept/c_CustomizeCalendarReports.md)
+**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CustomizeCalendarReports.md)
 
 **Related topics**  
 
 
-[Configure how calendar entries look](t_ConfigureACalendarAttribute.md)
+[Configure how calendar entries look]()
 
-[Modifying and adding calendar report system properties](modify-add-calendar-sys-props.md#)
+[Modifying and adding calendar report system properties]()
 
-[Customize start and end dates](t_CustomizeAStartAndEndDate.md)
+[Customize start and end dates]()
 

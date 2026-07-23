@@ -21,5 +21,5 @@ The ServiceNow® Predictive Intelligence for Legal Service Delivery uses machine
      \(sn\_lg\_pi\): Planned for deprecation in C release. There is no replacement for this plugin.
 
 
-**Parent Topic:**[Legal Service Delivery release notes](lsd-rn-landing-page.md)
+**Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/lsd-rn-landing-page.md)
 

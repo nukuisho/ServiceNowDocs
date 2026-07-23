@@ -2,6 +2,7 @@
 title: Email digests
 description: An email digest is a single email that summarizes the activity for a selected notification and its target records during a specified time interval. You can enable an email digest to reduce the number of notifications received when frequent updates to the associated records occur within a short time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-digests.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,13 +14,13 @@ breadcrumb: [Email and SMS notifications, System notifications, Notifications, C
 
 An email digest is a single email that summarizes the activity for a selected notification and its target records during a specified time interval. You can enable an email digest to reduce the number of notifications received when frequent updates to the associated records occur within a short time period.
 
-![Email digest example that has a summary of incident comments](../image/EmailDigestExample.png "Example email digest")
+\[Omitted image "EmailDigestExample.png"\] Alt text: Email digest example that has a summary of incident comments
 
 **Note:** Email digests apply to email notifications only and are not supported for SMS messages, push notifications, and activity streams.
 
 ## How email digests work
 
-In new and upgraded instances, the Email digest \(com.glide.email\_digest\) plugin is activated by default. Your instance must use the Core UI interface, since the email digest feature involves setting [user notification preferences](user-notification-preferences.md).
+In new and upgraded instances, the Email digest \(com.glide.email\_digest\) plugin is activated by default. Your instance must use the Core UI interface, since the email digest feature involves setting [user notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-notification-preferences.md).
 
 Admins determine which notifications can be delivered in an email digest and configure the digest content for those notifications. They also set the intervals for digests. An interval is the length of time that notifications are collected for the digest, such as daily or hourly.
 
@@ -41,56 +42,56 @@ When processing an email digest, the system:
 ## Set up email digests
 
 -   **What to do — admins**
-    1.  Review the base system digest intervals and if needed, [create or modify intervals](../task/create-digest-intervals.md).
+    1.  Review the base system digest intervals and if needed, [create or modify intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-digest-intervals.md).
 
         The base system digest intervals are one day \(24 hours\), one hour, every four hours, and seven days \(weekly\).
 
-    2.  Determine the email notifications that can be delivered in a digest and [configure the email digest content](../task/configure-email-digest.md) for those notifications.
+    2.  Determine the email notifications that can be delivered in a digest and [configure the email digest content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-email-digest.md) for those notifications.
 
         When determining which notifications are appropriate for an email digest, consider the notification content and intervals that your users can select. For example, digests that can be generated weekly might be better suited for notifications that are non-urgent.
 
 -   **What to do — all users**
 
-    For a notification that can be delivered in an email digest, [enable the email digest in your notification preferences](../task/enable-email-digest.md) \(**Notifications** tab in the System Settings window\). You also specify the interval time that the notifications are accumulated.
+    For a notification that can be delivered in an email digest, [enable the email digest in your notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-digest.md) \(**Notifications** tab in the System Settings window\). You also specify the interval time that the notifications are accumulated.
 
 -   **Next step**
 
-    If you are an admin, begin the digest setup process by reviewing the base system email digest intervals and [create or modify the intervals](../task/create-digest-intervals.md).
+    If you are an admin, begin the digest setup process by reviewing the base system email digest intervals and [create or modify the intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-digest-intervals.md).
 
 
--   **[Create or modify email digest intervals](../task/create-digest-intervals.md)**  
+-   **[Create or modify email digest intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-digest-intervals.md)**  
 Admins can create or modify the email digest intervals \(length of time\) during which activity for a selected notification is accumulated in an email digest. Users select a digest interval when they enable an email digest in their notification preferences.
--   **[Configure email digests](../task/configure-email-digest.md)**  
+-   **[Configure email digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-email-digest.md)**  
 Use the Notification form to create or modify the content of an email digest for a notification. You can also disable the email digest for a notification so that it isn’t available in the notification preferences of your users.
--   **[Enable email digest in Next Experience](../task/enable-email-digest-next-exp.md)**  
+-   **[Enable email digest in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-digest-next-exp.md)**  
 Reduce the number of email notifications you receive by enabling email digest notifications. An email digest is a single email that summarizes the activity for a selected notification and its target record during a specified time interval.
--   **[Enable an email digest in Core UI](../task/enable-email-digest.md)**  
+-   **[Enable an email digest in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/enable-email-digest.md)**  
 Reduce the number of notifications you receive for a selected target record during a specified time interval by enabling an email digest. The digest is a single email that collects individual notifications for a targeted record generated during the specified interval. The email digest of two different target records will not be clubbed in a single email.
 
-**Parent Topic:**[Email and SMS notifications](c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 
 
-[Create notification categories](../task/create-notification-categories.md)
+[Create notification categories]()
 
-[Create an email notification](../task/t_CreateANotification.md)
+[Create an email notification]()
 
-[Email notifications dashboard](email-notifications-dashboard.md)
+[Email notifications dashboard]()
 
-[Email diagnostics dashboard](email-diagnostics-dashboard.md)
+[Email diagnostics dashboard]()
 
-[Email templates](c_EmailTemplates.md)
+[Email templates]()
 
-[Email layouts](email-layouts.md)
+[Email layouts]()
 
-[Email retention](email-retention.md)
+[Email retention]()
 
-[Watermarks on notification emails](c_WorkingWithWatermarks.md)
+[Watermarks on notification emails]()
 
-[Parse an email thread](../task/parse-email.md)
+[Parse an email thread]()
 
-[Domain separation and Notifications](domain-separation-notifications.md)
+[Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails](troubleshooting-notification-emails.md)
+[Email FAQs and troubleshooting notification emails]()
 

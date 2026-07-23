@@ -6,6 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Hiring Core properties, system properties, configuration properties]
 ---
 
 # Properties installed with Hiring Core
@@ -70,7 +71,7 @@ Fields that trigger a new approval request when updated.-   Type: String
 -   Default value: compensation\_range, location\_flexibility, seniority\_level, position\_count
 -   Other possible values:
     -   Read roles: sn\_ta\_hiring\_core.admin
-    -   Write roles: admin
+    -   Write roles: sn\_ta\_hiring\_core.admin
 
 </td></tr><tr><td>
 
@@ -151,9 +152,9 @@ The following are the field values:
 -   Type: String
 -   Default value: 10,30,40
 -   Other possible values:
-    -   Read roles: sn\_ta\_hiring\_core.admin, admin
-    -   Write roles: admin
+    -   Read roles: sn\_ta\_hiring\_core.admin
+    -   Write roles: sn\_ta\_hiring\_core.admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hiring Experiences reference](reference-frmwrk-ta.md)
+</table>**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
 

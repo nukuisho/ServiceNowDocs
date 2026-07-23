@@ -2,6 +2,7 @@
 title: Enhancing the asset procurement experience using IT Asset Management \(ITAM\) and Sourcing and Procurement Operations \(SPO\)
 description: Integrating IT Asset Management \(ITAM\) with Sourcing and Procurement Operations \(SPO\) enhances the procurement process for service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/better-together/use-ham-spo-for-po-creation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -45,15 +46,15 @@ Raise sourcing requests for catalog items without a price
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -61,15 +62,15 @@ Generate purchase requests for catalog items with a price
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -77,15 +78,15 @@ Submit asset requests from Employee Center or Service Catalog
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -93,15 +94,15 @@ Create requests via stock replenishment rules
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -109,15 +110,15 @@ Receive assets using mobile barcode scanning
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -125,15 +126,15 @@ Generate comprehensive records in the Asset \[alm\_asset\], Software License \[a
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr></tbody>
 </table>## Workflow for IT Asset Management and Sourcing and Procurement Operations better together feature
@@ -143,7 +144,7 @@ Using the IT Asset Management and Sourcing and Procurement Operations applicatio
 -   Create and manage external purchase by accessing the items from the Shopping Hub within the IT Asset Management application.
 -   Manage all related receipts and shipments automatically and consistently across IT Asset Management and Sourcing and Procurement Operations applications.
 
-![ITSM-SPO better together flow](../image/itam-spo-bt-workflow.png "The IT Asset Management and Sourcing and Procurement Operations workflow")
+\[Omitted image "itam-spo-bt-workflow.png"\] Alt text: ITSM-SPO better together flow
 
 In this workflow:
 
@@ -181,9 +182,9 @@ The following additional plugins are required based on the specific IT Asset Man
 Start procuring assets by accessing the items from the Shopping Hub catalog by completing these tasks:
 
 1.  [Activate Asset Management Integration for Sourcing and Procurement Operations \(sn\_spend\_asset\) plugin](https://store.servicenow.com/store/app/3a2a560a1b8baad02ca2a643604bcb7b).
-2.  Begin sourcing and procuring of the requested items from the IT Asset Management workspaces such as Software Asset Workspace, Hardware Asset Workspace, or Enterprise Asset Workspace. For more information, see [Create Sourcing Request or Purchase Requisition in SPO via IT Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md).
-3.  Receive the requested assets in a stockroom. For more information, see [Receiving assets in the IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-receiving-assets.md) application.
-4.  Acknowledge the receipt of the assets in the stockroom for asset creation. For more information, see [Asset creation in the IT Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-asset-creation.md).
+2.  Begin sourcing and procuring of the requested items from the IT Asset Management workspaces such as Software Asset Workspace, Hardware Asset Workspace, or Enterprise Asset Workspace. For more information, see [Create Sourcing Request or Purchase Requisition in SPO via IT Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/spo-itam-submit-requests.md).
+3.  Receive the requested assets in a stockroom. For more information, see [Receiving assets in the IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/itam-spo-receiving-assets.md) application.
+4.  Acknowledge the receipt of the assets in the stockroom for asset creation. For more information, see [Asset creation in the IT Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/itam-spo-asset-creation.md).
 
-**Parent Topic:**[Solutions](../reference/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
 

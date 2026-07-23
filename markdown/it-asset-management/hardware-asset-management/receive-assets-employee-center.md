@@ -2,13 +2,14 @@
 title: Acknowledge receipt of assets on the Employee Center portal
 description: After receiving hardware or consumable assets that were in transit and reserved for you, confirm their receipt on the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/receive-assets-employee-center.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Acknowledge receipt of assets on the Employee Center portal
@@ -19,7 +20,7 @@ After receiving hardware or consumable assets that were in transit and reserved 
 
 Role required: Log in as an employee.
 
-To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-global-header-components.md).
+To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-global-header-components.md).
 
 **Note:** The **My Assets** option requires the Hardware Asset Management application to be activated.
 
@@ -68,15 +69,15 @@ Select **My Assets** in the global header navigation bar of the Employee Center 
 
 2.  Acknowledge after you receive the asset.
 
-<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d95245e214">
+<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d67544e214">
 
 Asset
 
-</th><th align="left" id="d95245e217">
+</th><th align="left" id="d67544e217">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d95245e223">
+</th></tr></thead><tbody><tr><td id="d67544e223">
 
 **Hardware**
 
@@ -94,9 +95,9 @@ Action
     -   Status of the asset changes from **In transit** to **In use**, and the asset is assigned to you.
     -   The **Receive asset** option is no longer available for that asset.
     -   Any receive task associated with that asset is automatically closed.
- **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](report-asset-issue-attestation.md).
+ **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/report-asset-issue-attestation.md).
 
-</td></tr><tr><td id="d95245e336">
+</td></tr><tr><td id="d67544e336">
 
 **Consumables**
 
@@ -118,68 +119,72 @@ Action
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Hardware Asset Management](../concept/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
 
-[Manage asset bundles from your inventory](create-bundled-assets.md)
+[Work with hardware normalization]()
 
-[Manage your inventory through pallet assets](../concept/pallets-for-inventory-management.md)
+[Manage asset bundles from your inventory]()
 
-[Manage loaner assets](manage-loaner-asset.md)
+[Manage your inventory through pallet assets]()
 
-[Donate assets to charity organizations](../concept/donate-asset-to-charity-organizations.md)
+[Manage loaner assets]()
 
-[Use Advanced Shipment Notification](advanced-shipment-notification.md)
+[Donate assets to charity organizations]()
 
-[Manage RMA requests](../concept/manage-rma-req.md)
+[Use Advanced Shipment Notification]()
 
-[Create an inventory stock order request](create-inventory-stock-order.md)
+[Manage RMA requests]()
 
-[Create a disposal order](create-disposal-order.md)
+[Create an inventory stock order request]()
 
-[Use a hardware asset request flow](hardware-request-flow.md)
+[Create a disposal order]()
 
-[Audit hardware asset inventory](../concept/ham-inventory-audit.md)
+[Fulfilling hardware asset requests]()
 
-[Request a Hardware Asset Refresh](hardware-asset-refresh.md#)
+[Audit hardware asset inventory]()
 
-[Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md)
+[Request a Hardware Asset Refresh]()
 
-[Reclaim hardware assets](../concept/manage-asset-reclaim.md)
+[Manage your expiring contracts for leased hardware assets]()
 
-[View RFID information of assets](view-rfid-info.md)
+[Reclaim hardware assets]()
 
-[Manage the lifecycle of hardware models with calculated lifecycle templates](../concept/manage-ham-lifecycle-temp.md)
+[View RFID information of assets]()
 
-[Receive asset warranty details from Lenovo](../concept/receive-warranty-details-lenovo.md)
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
-[Manage stockrooms](../concept/manage-your-stockrooms.md)
+[Create an internal lifecycle in the Hardware Asset Workspace]()
 
-[Track shipments using the integration framework](../concept/tracking-shipments-using-integration-framework.md)
+[Receive asset warranty details from Lenovo]()
 
-[Track asset location using indoor maps](track-asset-location-using-indoor-maps.md)
+[Manage stockrooms]()
 
-[Assess performance of Hardware Asset Management](../concept/suc-goal-act-hw.md)
+[Track shipments using the integration framework]()
 
-[Manage refresh of assets using Zero Touch Refresh](../concept/refresh-hardware-uisng-ztr.md)
+[Track asset location using indoor maps]()
 
-[Configure the Total Cost of Ownership of assets](../concept/configure-ham-tco.md)
+[Assess performance of Hardware Asset Management]()
 
-[Manage Hardware Asset Management subscriptions](../concept/managing-ham-subscriptions.md)
+[Manage refresh of assets using Zero Touch Refresh]()
 
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](../concept/manage-repair-of-defective-ham-assets.md)
+[Configure the Total Cost of Ownership of assets]()
 
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](../concept/manage-asset-picking-stockroom-ham-ws.md)
+[Manage Hardware Asset Management subscriptions]()
 
-[Manage hardware asset tasks using the Mobile Agent application](../concept/manage-hardware-asset-tasks-mobile-agent.md)
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
 
-[Manage asset put away using the Hardware Asset Workspace](../concept/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
 
-[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+[Manage hardware asset tasks using the Mobile Agent application]()
 
-[Update associated Decision tables for HAM flows](trigger-flow-ham.md)
+[Manage asset put away using the Hardware Asset Workspace]()
+
+[Audit your hardware assets by using Asset Attestation]()
+
+[Update associated Decision tables for HAM flows]()
 

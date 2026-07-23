@@ -2,6 +2,7 @@
 title: Add related list conditions
 description: Related list conditions allow you to include a relationship with another table in the filter. Related list conditions are supported in both List v3 and the Report interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-related-list-query.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,9 +24,9 @@ You can optionally include conditions on the related table. For example, you can
 
 The List v3 filter contains two sections, one for the current table conditions and one for related lists conditions. You can include only one related table in the query, however, you can add multiple conditions for that table.
 
-![Problem filter for open problems](../image/related-list-conditions-problem.png "Problem filter for open problems")
+\[Omitted image "related-list-conditions-problem.png"\] Alt text: Problem filter for open problems
 
-The easiest way to understand the parts of a related list condition is to use an example. The steps below use the example of open problems with some number of related incidents. You can perform these steps for any list view that supports List v3.
+The steps below use the example of open problems with some number of related incidents. You can perform these steps for any list view that supports List v3.
 
 ## Procedure
 
@@ -37,7 +38,7 @@ The easiest way to understand the parts of a related list condition is to use an
 
 3.  Select **RELATED LISTS CONDITIONS** to expand the section.
 
-4.  From the choice list, select the table relationship to include in the query.
+4.  From the list, select the table relationship to include in the query.
 
     For this example, select **Incident&gt;Problem**. You can select any table that you have access to view.
 
@@ -45,9 +46,9 @@ The easiest way to understand the parts of a related list condition is to use an
 
     The Quantity popover opens.
 
-    ![Related list conditions quantity](../image/problems-with-related-incidents.png)
+    \[Omitted image "problems-with-related-incidents.png"\] Alt text: Related list conditions quantity
 
-6.  Select a quantity, enter number of records in the related table that must match, and then select**X** to close the popover.
+6.  Select a quantity, enter number of records in the related table that must match, and then select **X** to close the popover.
 
     The default number is **1**. Following are descriptions and examples of each quantifier for this example.
 
@@ -58,13 +59,15 @@ The easiest way to understand the parts of a related list condition is to use an
     -   **Equal To**: Returns problems with this number of related incidents. A value of **5** includes problem records with exactly five related incidents.
     -   **None**: Returns problems that do not match the specified table relationship. A selection of **None** returns problems with no related incidents.
     -   **Between**: Returns problems with any number of related incidents that is between the two numbers you enter. **Between** values of **5** and **10** include problem records with 5, 6, 7, 8, 9, or 10 related incidents.
+    **Note:** You cannot customize the available filter options, which are hard-coded.
+
 7.  Enter one or more conditions for the related table.
 
     Select **New Criteria** to add another condition.
 
     The following image shows the example of filtering for problem records with more than two related incidents that are critical priority.
 
-    ![Filter for problems with more than two related critical incidents](../image/related-list-conditions-incident-filter.png)
+    \[Omitted image "related-list-conditions-incident-filter.png"\] Alt text: Filter for problems with more than two related critical incidents
 
     **Note:** You cannot perform a keyword search in a related table condition.
 
@@ -75,22 +78,20 @@ The easiest way to understand the parts of a related list condition is to use an
 
 The breadcrumb displays **Related List condition...**. Open the filter to view the related list query statement.
 
-![List breadcrumb and the related list condition query statement](../image/related-list-breadcrumb.png "List breadcrumb and the related list condition query statement")
+\[Omitted image "related-list-breadcrumb.png"\] Alt text: List breadcrumb and the related list condition query statement
 
 **Note:** If List v3 is disabled for a list with a related list condition query in the default filter, the filter edit function is disabled. Remove the related list condition to enable list filter editing.
 
-![Remove a related list condition in List v2 filter](../image/related-list-condition-v2-remove.png)
-
-**Parent Topic:**[Filters](../../using-lists/concept/c_Filters.md)
+**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md)
 
 **Related topics**  
 
 
-[Create a filter in List](../../using-lists/task/t_CreatingFilters.md)
+[Create a filter in List]()
 
-[OR conditions](../../using-lists/concept/c_UsingORConditions.md)
+[OR conditions]()
 
-[Filter on multiple string values](../../using-lists/task/t_FilteringOnMultipleStringValues.md)
+[Filter on multiple string values]()
 
-[Dynamic operators](../../using-lists/reference/r_UsingTheDynamicOperator.md)
+[Dynamic operators]()
 

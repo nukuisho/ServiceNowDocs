@@ -2,13 +2,14 @@
 title: Add substitute models to a hardware model
 description: On a hardware model record, you can add substitutes to track what hardware models can be substituted for another hardware model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_AddingSubModelsToHrdwModel.html
 release: australia
 product: Product Catalog
 classification: product-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create hardware models, Models, Product Catalog, IT Asset Management]
+breadcrumb: [Create hardware models, Models, Product Catalog, Common applications, Asset Management]
 ---
 
 # Add substitute models to a hardware model
@@ -45,18 +46,18 @@ When you select substitute models, note the following conditions.
     The model is listed in the **Substitutes** related list.
 
 
-**Parent Topic:**[Create hardware models](t_CreatingHardwareModels.md)
+**Parent Topic:**[Create hardware models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/t_CreatingHardwareModels.md)
 
 **Related topics**  
 
 
-[Add compatible models to a hardware model](t_AddingCompModelsToHrdwreModel.md)
+[Add compatible models to a hardware model]()
 
-[Models](../concept/c_Models.md)
+[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md)
 
-[Bundled models](../concept/c_CreatingBundledModels.md)
+[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_CreatingBundledModels.md)
 
-[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_TransferOrders.md)
+[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/c_TransferOrders.md)
 
-[Procurement](../../procurement/concept/c_Procurement.md)
+[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_Procurement.md)
 

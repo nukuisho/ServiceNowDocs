@@ -2,13 +2,14 @@
 title: Mark the status of impacted people as an agent
 description: Take attendance of the impacted people in Critical Event Management and request help if needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/mark-status-of-impacted-people.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing impacted people, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage impacted people, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Mark the status of impacted people as an agent
@@ -33,25 +34,25 @@ Role required: sn\_critical.agent
 
 6.  In the Status drop-down list, select the appropriate status.
 
-    For more information on the different statuses for impacted people, see [Impacted people status](../reference/impacted-people-status.md).
+    For more information on the different statuses for impacted people, see [Impacted people status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/impacted-people-status.md).
 
-7.  Update the status of multiple individuals by selecting multiple check boxes and then selecting the **Accounted** button or selecting the Accounted More Actions icon \(![Accounted More Actions icon](../../legal-invention-disclosure/image/arrow.png)\) and choosing a different status.
+7.  Update the status of multiple individuals by selecting multiple check boxes and then selecting the **Accounted** button or selecting the Accounted More Actions icon \(\[Omitted image "arrow.png"\] Alt text: Accounted More Actions icon\) and choosing a different status.
 
 
-**Parent Topic:**[Managing impacted people](../concept/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 
 
-[Generate impacted people list](generate-impacted-people-list.md)
+[Generate impacted people list]()
 
-[Add a person manually to the impacted people list](add-person-manually-to-impacted-people.md)
+[Add a person manually to the impacted people list]()
 
-[Export an impacted people list](export-impacted-people-list.md)
+[Export an impacted people list]()
 
-[View an impacted person record](view-impacted-person-record.md)
+[View an impacted person record]()
 
-[View notifications received](view-notifications-received.md)
+[View notifications received]()
 
-[Conduct a roll call as an on-site responder](conduct-roll-call.md)
+[Conduct a roll call as an on-site responder]()
 

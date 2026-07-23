@@ -2,6 +2,7 @@
 title: Resolve common issues in mobile migration script results
 description: Find solutions to common issues after running the mobile migration script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/ny-migration.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -27,15 +28,15 @@ The mobile migration script adds entries to the Log \[syslog\] table when it enc
 
 Collisions can occur in base system applications that you have customized before the upgrade to New York or later versions. If the migration script detects any collisions, it prompts you to review them after the script execution completes.
 
-![Mobile migration collision prompt.](../image/migration-collision-prompt.png)
+\[Omitted image "migration-collision-prompt.png"\] Alt text: Mobile migration collision prompt.
 
 Click the **View Collisions** button to view a filtered list of upgrade details \[sys\_upgrade\_history\_log\] records. This list shows the records within the current scope that the upgrade process has skipped. To resolve a conflict, click a record on this list to open the record, then click the **Resolve Conflicts** button.
 
 The **Resolve Conflicts** form shows the base system version of the record alongside the customized version Fields that are different between versions are highlighted with a darker background.
 
-![Resolve conflicts form.](../image/resolve-conflicts.png)
+\[Omitted image "resolve-conflicts.png"\] Alt text: Resolve conflicts form.
 
-Use the arrow buttons \(![Arrow button](../image/migrate-arrow.png)\) to move values from one version to the other. After making your changes, click the **Save Merge** button to save your changes. You can also click the **Revert to Base System** button to discard your customizations and use the unmodified version of the record.
+Use the arrow buttons \(\[Omitted image "migrate-arrow.png"\] Alt text: Arrow button\) to move values from one version to the other. After making your changes, click the **Save Merge** button to save your changes. You can also click the **Revert to Base System** button to discard your customizations and use the unmodified version of the record.
 
 A common collision issue is master detail \[sys\_sg\_master\_detail\_screen\] records. Master details records are no longer a part of the mobile schema as of the New York release. These records are replaced with new list \[sys\_sg\_list\_screen\] and form \[sys\_sg\_form\_screen\] screen records. They are normally deleted as part of the upgrade process, but if they have been customized, the script does not automatically delete them. If you have, for example, renamed a base system application, this kind of collision can occur.
 
@@ -81,5 +82,5 @@ To resolve the issue, check Mobile Studio to make sure that your applet is still
     3.  Check the value of the **Screen** field. If this field appears empty, it may be pointing to an unused Master-detail screen \[sys\_sg\_master\_detail\_screen\] record.
     4.  Update the field by selecting the applet \[sys\_sg\_screen\] record used by this parameter.
 
-**Parent Topic:**[Mobile migration from Madrid to New York and later releases](../concept/sg-mobile-migration-ny.md)
+**Parent Topic:**[Mobile migration from Madrid to New York and later releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-migration-ny.md)
 

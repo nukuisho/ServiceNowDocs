@@ -2,6 +2,7 @@
 title: Explore Now Assist in Document Management
 description: Now Assist in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/explore-now-assist-in-document-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,7 +45,7 @@ Generate instant summaries and key document insights
 
 </td><td>
 
-[Generate a document summary by using Now Assist in Document Management](../task/generate-document-summary-now-assist.md)
+[Generate a document summary by using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/generate-document-summary-now-assist.md)
 
 </td><td>
 
@@ -56,7 +57,7 @@ Extract key document insights through conversational interactions, powered using
 
 </td><td>
 
-[Generate summary and ask questions using Now Assist in Document Management](../task/ask-questions-faqs-now-assist.md)
+[Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ask-questions-faqs-now-assist.md)
 
 </td><td>
 
@@ -67,6 +68,6 @@ Admin
 
 To learn more about configuring and using Now Assist in Document Management, see:
 
--   [Configure Now Assist in Document Management](configure-now-assist-document-management.md)
--   [Use Now Assist in Document Management](use-now-assist-document-management.md)
+-   [Configure Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-now-assist-document-management.md)
+-   [Use Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-now-assist-document-management.md)
 

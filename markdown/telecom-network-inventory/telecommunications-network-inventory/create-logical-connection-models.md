@@ -2,6 +2,7 @@
 title: Create a logical connection model
 description: Create a logical connection model in the ServiceNow Telecommunications Network Inventory application to define the metadata for the different logical connections. In the logical connection model, you can import models, attach a file or an image, add or remove optional fields, and add compatibilities and substitutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-models.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,7 +28,7 @@ When you create a logical connection model record, it creates a model in the Log
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Inventory Models** &gt; **Logical Connection Models**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Inventory Models** &gt; **Logical Connection Models**.
 
 3.  Select **New**.
 
@@ -57,7 +58,7 @@ Manufacturer
 
 </td><td>
 
-Name of the network asset's manufacturer. Select the search icon \(![Search icon.](../image/search.png)\) and select a manufacturer code. To learn more, see [Create manufacturer and vendor codes](add-company-designate-manufacturer-tni.md).
+Name of the network asset's manufacturer. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a manufacturer code. To learn more, see [Create manufacturer and vendor codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/add-company-designate-manufacturer-tni.md).
 
 </td></tr><tr><td>
 
@@ -70,15 +71,15 @@ Manufacturer-assigned name of the logical connection model that is specified by 
 </td></tr></tbody>
 </table>5.  On the **Details** tab, fill in the general section information for the logical connection model.
 
-    **Note:** To learn more about the fields, see [Inventory Model form - General](../reference/tni-model-form-general.md).
+    **Note:** To learn more about the fields, see [Inventory Model form - General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-general.md).
 
 6.  On the **Details** tab, fill in the information section for the logical connection model.
 
-    To learn more about the fields, see [Inventory Model form - Information](../reference/tni-model-form-information.md).
+    To learn more about the fields, see [Inventory Model form - Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-information.md).
 
 7.  To add the compatible models, select **Add Compatible**.
 
-    You can personalize the list of compatibles table by using the gear \(![Personalise icon.](../image/Personalize_1.png)\) icon.
+    You can personalize the list of compatibles table by using the gear \(\[Omitted image "Personalize\_1.png"\] Alt text: Personalise icon.\) icon.
 
     **Note:** In the classic environment, this function is available only for administrators.
 
@@ -88,19 +89,19 @@ Manufacturer-assigned name of the logical connection model that is specified by 
 
     **Note:** In the classic environment, this function is available only for administrators.
 
-9.  To add the attachments, such as graphics or documents, select the attachment icon \(![Attachment icon.](../image/attachments-icon.png)\) in the right panel.
+9.  To add the attachments, such as graphics or documents, select the attachment icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon.\) in the right panel.
 
 10. Select **Save**.
 
-    The related tabs appear on the form. You can view or modify the tabs information. To learn more about the related tabs, see [Inventory models additional tabs](../reference/additional-tabs-of-inventory-models.md).
+    The related tabs appear on the form. You can view or modify the tabs information. To learn more about the related tabs, see [Inventory models additional tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/additional-tabs-of-inventory-models.md).
 
-11. To delete a model, select the options icon \(![Options icon.](../image/options-icon.png)\) next to the **Save** button, and select **Delete**.
+11. To delete a model, select the options icon \(\[Omitted image "options-icon.png"\] Alt text: Options icon.\) next to the **Save** button, and select **Delete**.
 
 
-**Parent Topic:**[Create inventory models](../concept/creating-your-inventory-models.md)
+**Parent Topic:**[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 
 **Related topics**  
 
 
-[Network inventory models](../concept/using-inventory-models-tni.md)
+[Network inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.md)
 

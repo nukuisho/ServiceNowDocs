@@ -2,11 +2,12 @@
 title: Define an internal signatory rule
 description: Define an internal signatory rule to map signatories to a template using signatory mappings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-24"
 reading_time_minutes: 2
 breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -21,7 +22,7 @@ Role required: sn\_cm\_core.contract\_admin and sn\_cm\_core.contract\_config
 
 ## About this task
 
-If you want the variables related to a contract request to be available in the condition builder, add the contract request reference to your application table. For more information, see [Enable contract request fields in condition builders](cncore-add-cmr-condtion-build.md)
+If you want the variables related to a contract request to be available in the condition builder, add the contract request reference to your application table. For more information, see [Enable contract request fields in condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.md)
 
 ## Procedure
 
@@ -98,17 +99,21 @@ Conditions under which the internal signatory rule is selected. For example, if 
 </td></tr></tbody>
 </table>4.  Right-click the form header and select **Save**.
 
-    ![Internal signatory rule with signer mapping](../image/cmpro-internal-signatory.png "Internal signatory rule")
+    \[Omitted image "cmpro-internal-signatory.png"\] Alt text: Internal signatory rule with signer mapping
 
 5.  In the **Signers Mappings** section, select **New**.
 
     1.  In the **Participant** field, select a participant.
 
-        **Note:** If signature blocks are configured for the contract template, this field isn’t available.
+        **Note:** If signature blocks are configured for the contract template, this field isn't available.
 
     2.  In the **Signer** field, select a user from the list.
 
-    3.  Select **Submit**.
+    3.  In the **Role** field, select the role for the signatory.
+
+        **Note:** The **Role** field is visible for signature block-based contract templates only and when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`. To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+    4.  Select **Submit**.
 
 6.  Select **Update**.
 
@@ -123,6 +128,10 @@ An internal signatory rule is created to map a user as an internal signatory for
 
 -   A user from **Signers mappings** is picked as a signatory.
 -   For contract templates configured with participants, when a participant does not meet the **Internal Signatory** rule criteria, a signatory is picked from the user field mapping of the participant list in the template.
--   While creating the signer task for an internal user, check whether the user's legal name is available in the user's employee profile. If no value is provided in the **Legal Name** field, use the user name from the Users \[sys\_user\] table. For more information, see [Employee Profile form](../../employee-center/reference/employee-profile-fieldconfig.md).
+-   While creating the signer task for an internal user, check whether the user's legal name is available in the user's employee profile. If no value is provided in the **Legal Name** field, use the user name from the Users \[sys\_user\] table. For more information, see [Employee Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-fieldconfig.md).
 -   When no data is found, an empty signatory record is created that can update with the correct signatory details.
+
+## What to do next
+
+For information about signatory role types and their behavior across signature types, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 

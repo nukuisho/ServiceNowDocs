@@ -2,11 +2,12 @@
 title: Sample automations
 description: The RPA Desktop Design Studio provides multiple sample automations that cater to different use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/sample-automations-rpa-studio.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Use a sample automation, Use, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Use a sample automation, Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Sample automations
@@ -77,5 +78,5 @@ Use the following unattended and attended sample automations that were added to 
 |-----------------|-----------|
 |Copying a Range from One Excel File to Another|This automation copies a range of data from one Excel file to another. The automation is designed to identify the specific range of cells in the source Excel file, extract the data, and then paste it into the designated range in the destination Excel file. This use case is useful for tasks such as data consolidation, report generation, and data migration, where manual copying and pasting can be time-consuming and prone to errors.|
 
-**Parent Topic:**[Use sample automations in RPA Desktop Design Studio](../task/use-sample-automation.md)
+**Parent Topic:**[Use sample automations in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-sample-automation.md)
 

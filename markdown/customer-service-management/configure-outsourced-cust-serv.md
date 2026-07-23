@@ -2,6 +2,7 @@
 title: Configure Outsourced Customer Service
 description: Configure various components of Outsourced Customer Service based on the specific requirements of your organization.Configure various aspects of Outsourced Customer Service based on the specific requirements of your organization.OSP managers and agents view cases based on the defined outsourced criteria. Defining outsourcing criteria can be based on account, asset, consumer, or sold product. For example, consumer-based criteria could be defined for all Spanish speaking consumers and all consumers based out of Australia.An administrator creates groups and associates it to an OSP. This group is the default group to which the case is assigned to when an OSP agent transfers the unresolved case back to an enterprise.An administrator creates Outsourced Service Providers \(OSPs\) after which OSP managers and agents must be onboarded to manage and fulfill cases. As an administrator you can onboard both the OSP managers and agents.An enterprise creates Outsourced Service Providers \(OSPs\) to provide customer service to external customers.Run diagnostics, review and customize components, and start collecting data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-outsourced-cust-serv.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -122,15 +123,15 @@ Role required: admin
 
 5.  Fill in the fields on the new record form, as appropriate.
 
-<table id="choicetable_nmd_nql_mlb"><thead><tr><th align="left" id="d116422e388">
+<table id="choicetable_nmd_nql_mlb"><thead><tr><th align="left" id="d119727e388">
 
 Option
 
-</th><th align="left" id="d116422e391">
+</th><th align="left" id="d119727e391">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d116422e397">
+</th></tr></thead><tbody><tr><td id="d119727e397">
 
 **Description**
 
@@ -138,7 +139,7 @@ Description
 
 Description for the outsourcing criteria.
 
-</td></tr><tr><td id="d116422e406">
+</td></tr><tr><td id="d119727e406">
 
 **Table**
 
@@ -146,7 +147,7 @@ Description for the outsourcing criteria.
 
 The table that stores the task for which the outsourcing criteria is created. Select either **Account**, **Asset**, **Consumer**, or **Sold Product** tables.
 
-</td></tr><tr><td id="d116422e427">
+</td></tr><tr><td id="d119727e427">
 
 **Condition**
 
@@ -254,15 +255,15 @@ Role required: admin
 
 3.  Fill in the fields on the Outsourced Service Provider form, as appropriate.
 
-<table id="choicetable_ckq_svb_hlb"><thead><tr><th align="left" id="d116422e970">
+<table id="choicetable_ckq_svb_hlb"><thead><tr><th align="left" id="d119727e970">
 
 Option
 
-</th><th align="left" id="d116422e973">
+</th><th align="left" id="d119727e973">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d116422e979">
+</th></tr></thead><tbody><tr><td id="d119727e979">
 
 **Name**
 
@@ -270,7 +271,7 @@ Description
 
 The OSP's name.
 
-</td></tr><tr><td id="d116422e988">
+</td></tr><tr><td id="d119727e988">
 
 **Service Provider Type**
 
@@ -278,7 +279,7 @@ The OSP's name.
 
 Customer or Field service provider.
 
-</td></tr><tr><td id="d116422e997">
+</td></tr><tr><td id="d119727e997">
 
 **Manager**
 
@@ -286,7 +287,7 @@ Customer or Field service provider.
 
 The OSP's manager name.
 
-</td></tr><tr><td id="d116422e1006">
+</td></tr><tr><td id="d119727e1006">
 
 **Website**
 
@@ -294,7 +295,7 @@ The OSP's manager name.
 
 The web address for the internal business location.
 
-</td></tr><tr><td id="d116422e1016">
+</td></tr><tr><td id="d119727e1016">
 
 **Notes**
 
@@ -302,7 +303,7 @@ The web address for the internal business location.
 
 Any note regarding the OSP.
 
-</td></tr><tr><td id="d116422e1025">
+</td></tr><tr><td id="d119727e1025">
 
 **Company**
 
@@ -310,7 +311,7 @@ Any note regarding the OSP.
 
 The company or organization to which the OSP belongs.**Note:** The **Company** field is a read-only field. Additionally, there’s a 1:1 relationship between an OSP and a company. It means that only one company record can be mapped to an OSP record at any given time.
 
-</td></tr><tr><td id="d116422e1039">
+</td></tr><tr><td id="d119727e1039">
 
 **Active**
 
@@ -318,7 +319,7 @@ The company or organization to which the OSP belongs.**Note:** The **Company** f
 
 Enables the OSP. The default value is set to **True**.
 
-</td></tr><tr><td id="d116422e1051">
+</td></tr><tr><td id="d119727e1051">
 
 **Contact**
 
@@ -326,7 +327,7 @@ Enables the OSP. The default value is set to **True**.
 
 Enter **Phone** or **Fax phone** number.
 
-</td></tr><tr><td id="d116422e1066">
+</td></tr><tr><td id="d119727e1066">
 
 **Address**
 
@@ -341,7 +342,7 @@ The OSP's postal address. The following address fields are available by default:
 -   Country
 
 
-</td></tr><tr><td id="d116422e1094">
+</td></tr><tr><td id="d119727e1094">
 
 **Case Transfer**
 
@@ -374,9 +375,9 @@ Define outsourcing criteria so that cases matching the criteria are visible to t
 **Related topics**  
 
 
-[Outsourced Service Provider agent tasks](osp-agent-tasks.md)
+[Outsourced Service Provider agent tasks]()
 
-[Outsourced Service Provider manager tasks](osp-manager-tasks.md)
+[Outsourced Service Provider manager tasks]()
 
 ## Configure the Performance Analytics for the Outsourced Customer Service
 
@@ -390,7 +391,7 @@ Role required: pa\_admin
 
 ### Procedure
 
-1.  Run all diagnostics on all records, as described in [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/self-diagnostics.md).
+1.  Run all diagnostics on all records, as described in [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/self-diagnostics.md).
 
     These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables.
 
@@ -406,7 +407,7 @@ Role required: pa\_admin
 
     1.  Filter the indicator sources on the dashboard name.
 
-        This screenshot shows the indicator sources filtered on the Outsourced Service Provider dashboard from the Self-Service Analytics for CSM Platform Analytics Solution.![The Indicator source for Outsourced Service Provider dashboard.](../image/osp-indicator-dashboard.jpg)
+        This screenshot shows the indicator sources filtered on the Outsourced Service Provider dashboard from the Self-Service Analytics for CSM Platform Analytics Solution.\[Omitted image "osp-indicator-dashboard.jpg"\] Alt text: The Indicator source for Outsourced Service Provider dashboard.
 
     2.  Review the facts table, conditions, and frequency of the indicator sources compared to the data structure on your own instance.
 

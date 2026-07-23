@@ -2,6 +2,7 @@
 title: Create a system module access policy
 description: Create a module access policy \(MAP\) for a matched user to encrypt attachments when inbound email processing runs as that user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/fe-create-system-map.html
 release: australia
 topic_type: task
 last_updated: "2026-04-27"
@@ -19,7 +20,7 @@ Role required: **security\_admin** and **sn\_kmf.crypto\_manager** \(or **sn\_km
 
 ## About this task
 
-These instructions create a system-based MAP for the system user's role. See [Configure module access policies for Field Encryption](maps-for-fe.md) for information.
+These instructions create a system-based MAP for the system user's role. See [Configure module access policies for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/maps-for-fe.md) for information.
 
 ## Procedure
 
@@ -37,7 +38,7 @@ These instructions create a system-based MAP for the system user's role. See [Co
 
 7.  Fill out the rest of the form accordingly.
 
-    ![System Module Access Policy Example](../image/fe-system-map.png)
+    \[Omitted image "fe-system-map.png"\] Alt text: System Module Access Policy Example
 
 8.  Select **Save**.
 
@@ -46,5 +47,5 @@ These instructions create a system-based MAP for the system user's role. See [Co
 
 The system MAP has been created.
 
-**Parent Topic:**[Module access policies for inbound email attachment encryption](../concept/fe-maps-inbound-email-attachment-encryption.md)
+**Parent Topic:**[Module access policies for inbound email attachment encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/fe-maps-inbound-email-attachment-encryption.md)
 

@@ -2,6 +2,7 @@
 title: FSO Look Up Client action
 description: Look up a record from any table based on defined conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-look-up-client-action.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -45,7 +46,7 @@ When you select the **Action Payload Definition** in the field decorator, it act
 |searchFields|\["field":"consumer","name":"Consumer","filter":"LIKE","val":"","field":"name","name":"Name","filter":"LIKE","val":""\]|
 |listTitle|Select an account|
 
-![Example FSO Look Up Client action.](../image/fso-look-up-client-action.png)
+\[Omitted image "fso-look-up-client-action.png"\] Alt text: Example FSO Look Up Client action.
 
-**Parent Topic:**[Financial Services Remote Tables](financialservices-remote-tables.md)
+**Parent Topic:**[Financial Services Remote Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financialservices-remote-tables.md)
 

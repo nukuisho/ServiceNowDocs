@@ -2,12 +2,13 @@
 title: Making workplace reservations
 description: Make workplace reservations in Workplace Core when you are ready to return to the office. You can reserve a workplace for a day or less directly or request a workplace for a specified period. Once a reservation request is approved and confirmed, you are notified about the reservation details. The Workplace Service Delivery also offers more advanced workplace reservation options in the Workplace Reservation Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/making-workspace-reservations.html
 release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Request employee-related services, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -44,19 +45,21 @@ If you submit a space reservation request from the catalog item, or if a request
 
 The notification contains campus details, space details, and the reservation duration.
 
-![Reservation details like the campus, space, and duration.](../images/wsd-core-notification.png)
+\[Omitted image "wsd-core-notification.png"\] Alt text: Reservation details like the campus, space, and duration.
 
--   **[Request a workplace reservation for multiple days](../task/request-workspace-reservations-for-multiple-days-wsd.md)**  
+As an admin, you can create custom notifications for upcoming reservations by using the **sn\_wsd\_core\_reservation** table. You can also use the **sn\_wsd\_core.upcoming\_reservation** event to decide when the notification must be sent. For more information about notifications, see [System notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-notifications-landing.md).
+
+-   **[Request a workplace reservation for multiple days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/request-workspace-reservations-for-multiple-days-wsd.md)**  
 Request a workplace reservation for the days during which you want to return to office by using Workplace Core.
--   **[Reserve a workplace for a day](../task/reserve-space-for-a-day-wsd.md)**  
+-   **[Reserve a workplace for a day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/reserve-space-for-a-day-wsd.md)**  
 Reserve workplaces for a day on which you want to return to the office by using Workplace Core.
 
-**Parent Topic:**[Request employee-related services](request-employee-services.md)
+**Parent Topic:**[Request employee-related services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/request-employee-services.md)
 
 **Related topics**  
 
 
-[Schedule your arrival time at a workplace location](../task/schedule-your-arrival-time-to-the-workplace-wsd.md)
+[Schedule your arrival time at a workplace location]()
 
-[Manage workplace activities and services with Location directory](location-directory.md)
+[Manage workplace activities and services with Location directory]()
 

@@ -2,6 +2,7 @@
 title: Plugins or applications installed with ITOM AIOps
 description: Tables that list the plugins or applications that are installed with ITOM AIOps applications. When you update your application, any newly required application dependencies are installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/plugin-app-itom-health.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -94,7 +95,7 @@ Tables that list the plugins or applications that are installed with ITOM AIOps 
 
 |Plugin or application name|Description|
 |--------------------------|-----------|
-|Agent Client Collector for Visibility - Content Content \(sn\_acc\_vis\_content\)|Provides agent-based infrastructure discovery and collects Software Asset Management \(SAM\) metrics to support Discovery and Digital End-User Experience \(DEX\) applications.|
+|Agent Client Collector for Visibility Content Content \(sn\_acc\_vis\_content\)|Provides agent-based infrastructure discovery and collects Software Asset Management \(SAM\) metrics to support Discovery and Digital End-User Experience \(DEX\) applications.|
 |Discovery \(com.snc.discovery\)|Finds applications and devices on your network, and then updates the CMDB with the information it finds.|
 |Agent Client Collector Framework \(sn\_agent\)|Manages Agent Client Collector on the ServiceNow instance and the MID Server.|
 |CMDB CI Class Models \(sn\_cmdb\_ci\_class\)|Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships if applicable. Applications such as Discovery and Service Mapping can use these class extensions to populate configuration items \(CIs\) and discover various technologies and software.|
@@ -127,11 +128,11 @@ Tables that list the plugins or applications that are installed with ITOM AIOps 
 **Related topics**  
 
 
-[Plugins or applications installed with ITOM Cloud Accelerate](../../itom-cloud-accelerate/reference/plugin-app-cloud-accelerate.md)
+[Plugins or applications installed with ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.md)
 
-[Plugins or applications installed with ITOM Visibility](plugin-app-itom-visibility.md)
+[Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md)
 
-[Plugins activated with ITOM Optimization](plugin-itom-optimization.md)
+[Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-itom-optimization.md)
 
-[Applications installed with Now Assist for ITOM](../../now-assist-itom/reference/app-now-assist-itom.md)
+[Applications installed with Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
 

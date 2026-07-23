@@ -2,6 +2,7 @@
 title: Compare changesets from the same or different CDM applications
 description: Use the Config Data Analyzer tool to find similarities and differences between any two committed changesets from the same or different applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-cda-changeset-compare.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ Use the Config Data Analyzer tool to find similarities and differences between a
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required:cdm\_viewer, cdm\_editor, or cdm\_admin
 
@@ -27,7 +28,7 @@ Role required:cdm\_viewer, cdm\_editor, or cdm\_admin
 
     The **Compare config data** tab opens. The current application is the target application, and its name is pre-populated in the **Target application**.
 
-    ![Compare config data tab for comparing application changesets.](../image/cdm-changeset-compare.png)
+    \[Omitted image "cdm-changeset-compare.png"\] Alt text: Compare config data tab for comparing application changesets.
 
 2.  Select the **Changeset** option in the **Compare type** field.
 
@@ -39,7 +40,7 @@ Role required:cdm\_viewer, cdm\_editor, or cdm\_admin
     |Reference snapshot|Snapshot of the reference application to compare.|
     |Target snapshot|Snapshot of the target application against which the reference snapshot is compared.|
 
-4.  Select the folder icon \(![folder icon](../image/icon-folder.png)\) to specify a folder path for comparison.
+4.  Select the folder icon \(\[Omitted image "icon-folder.png"\] Alt text: folder icon\) to specify a folder path for comparison.
 
 5.  Select **Apply variables** to display fully resolved variable values in the comparison results.
 
@@ -53,7 +54,7 @@ Role required:cdm\_viewer, cdm\_editor, or cdm\_admin
 
     The letters in the following illustration identify the tools that you can use to analyze the data.
 
-    ![Tools in the Config data differences section.](../image/cdm-changeset-compare-result.png)
+    \[Omitted image "cdm-changeset-compare-result.png"\] Alt text: Tools in the Config data differences section.
 
     -   **A. Navigation panel**
 
@@ -66,8 +67,8 @@ Role required:cdm\_viewer, cdm\_editor, or cdm\_admin
     -   **B: Differences panel**
 
         -   By default, all config data is displayed. Select **Diff only** to view only data that differs between the two changesets.
-        -   Use the **Search** icon \(![Search icon](../../site-reliability-ops/image/icon-search.png)\) to search for text in the Component differences panel.
-        -   The panel offers two tabs: **Data model** and **CDIs and variables**. In either tab, expand and close groupings with the expansion icon \(![expansion icon](../image/cdm-icon-expand.png)\).
+        -   Use the **Search** icon \(\[Omitted image "icon-search.png"\] Alt text: Search icon\) to search for text in the Component differences panel.
+        -   The panel offers two tabs: **Data model** and **CDIs and variables**. In either tab, expand and close groupings with the expansion icon \(\[Omitted image "cdm-icon-expand.png"\] Alt text: expansion icon\).
         -   If a selection includes more than 50 CDIs, then CDIs are organized into pages of 50.
         The **Data model** tab displays changes to the structure of the application at the folder level, such as, adding, deleting, or renaming a folder.
 
@@ -118,7 +119,7 @@ Source level \(Reference/Target\)
 
         -   By default, the root node is selected and the data panel includes all CDIs for both changesets. Select a node in the navigation panel to display data for only that node and its descendents.
         -   When **Diff only** is selected, the number of CDIs that differ appears after the node path.
-        -   Node paths are displayed in gray. Use the expansion icon \(![expansion icon](../image/cdm-icon-expand.png)\) to view CDIs in a folder.
+        -   Node paths are displayed in gray. Use the expansion icon \(\[Omitted image "cdm-icon-expand.png"\] Alt text: expansion icon\) to view CDIs in a folder.
 <table id="table_znm_bcc_yvb"><thead><tr><th>
 
 Column
@@ -144,7 +145,7 @@ Description
 
 </td><td>
 
-Statement of how the changesets differ. For example, the text might indicate that a CDI appears only in the reference changeset or that the values for the variable differ between the changesets. See [Types of differences between CDM applications](../reference/cdm-cda-diff-types.md) for the full list of difference types and their causes.
+Statement of how the changesets differ. For example, the text might indicate that a CDI appears only in the reference changeset or that the values for the variable differ between the changesets. See [Types of differences between CDM applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-cda-diff-types.md) for the full list of difference types and their causes.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Configure the At a Glance panel
 description: Customize which employee information appears in the At a Glance panel by adding or removing fields from the Employee Details and Contacts sections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-config-ataglance.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -39,7 +40,7 @@ You can customize which fields appear in the panel to match your organization's 
 
 4.  In the **Form view and section** area, select **At a Glance** from the **View name** drop-down list.
 
-    ![Form layout configuration showing At a Glance view selection](../image/hr-agent-workspace-at-a-glance-3.png)
+    \[Omitted image "hr-agent-workspace-at-a-glance-3.png"\] Alt text: Form layout configuration dialog with At a Glance selected in View name drop-down list
 
     The form layout displays the current At a Glance configuration with available sections.
 
@@ -58,5 +59,5 @@ You can customize which fields appear in the panel to match your organization's 
 
 ## Result
 
-The customized At a Glance panel now displays your selected fields when agents view employee profiles. Fields without data for a specific employee do not appear in that employee's panel, keeping the display clean and relevant.
+The customized At a Glance panel now displays your selected fields when agents view employee profiles. Fields without data for a specific employee don't appear in that employee's panel, keeping the display clean and relevant.
 

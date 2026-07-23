@@ -2,6 +2,7 @@
 title: View and track workplace cases
 description: View and track open, closed, and unassigned workplace cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/view-workplace-cases.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -206,7 +207,7 @@ For example: If while making a reservation, the original case that you raised fo
 
 For more information about retaining or discarding services while updating a reservation location, see
 
-[Create a reservation](../../wsd-reservation-management/task/create-reservation-request-1.md).
+[Create a reservation]().
 
 </td></tr><tr><td>
 
@@ -217,7 +218,7 @@ Time worked
 Tracks the total time spent on a case or task. The timer starts at zero, tracks time until the record is saved or closed, and resumes when revisited. You can also manually adjust, pause, or resume the timer.
 
 </td></tr></tbody>
-</table>5.  Select the gear icon \(Gear icon ![Gear settings icon.](../../workplace-space-mapping/images/gear-icon.png)\) to add the additional fields that you require.
+</table>5.  Select the gear icon \(Gear icon \[Omitted image "gear-icon.png"\] Alt text: Gear settings icon.\) to add the additional fields that you require.
 
     For example, the **Quantity**, **Total cost**, **Reservation** fields, and so on.
 
@@ -242,7 +243,7 @@ Tracks the total time spent on a case or task. The timer starts at zero, tracks 
         A message is displayed describing that this case is a replacement case for a previous case.
 
     -   Select the case ID to view the previous case request details.
-    For more information, see [Create a reservation](../../wsd-reservation-management/task/create-reservation-request-1.md).
+    For more information, see [Create a reservation]().
 
 9.  Costs are visible in the case and task level and are calculated and updated when an employee orders or edits services as part of a reservation.
 
@@ -256,16 +257,16 @@ Tracks the total time spent on a case or task. The timer starts at zero, tracks 
     **Note:** Only updating the reservation in Workplace Reservations for Microsoft Outlook Add-in cancels the services.
 
 
-**Parent Topic:**[Managing Workplace cases](../concept/manage-workplace-cases.md)
+**Parent Topic:**[Managing Workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/manage-workplace-cases.md)
 
 **Related topics**  
 
 
-[View emergency maintenance case details](view-emergency-maint-case.md)
+[View emergency maintenance case details]()
 
-[View change event reservation case details](view-case-change-event-reservation.md)
+[View change event reservation case details]()
 
-[Print workplace cases](print-workplace-cases.md)
+[Print workplace cases]()
 
-[Managing print cases](../concept/manage-case-print.md#)
+[Managing print cases]()
 

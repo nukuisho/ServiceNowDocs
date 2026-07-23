@@ -2,6 +2,7 @@
 title: Roles installed with Facilities Service Management
 description: Roles control access to features and capabilities in Facilities Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_RolesInstallWFacServMgmnt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Roles control access to features and capabilities in Facilities Service Manageme
 
 Facilities Service Management adds the following roles.
 
-**Note:** You must add the Notify viewer \(notify\_view\) role to employees you want to view notify \(conference calls and SMS messages\) content. For more information, see [Roles installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/r_NotifyRoles.md).
+**Note:** You must add the Notify viewer \(notify\_view\) role to employees you want to view notify \(conference calls and SMS messages\) content. For more information, see [Roles installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_NotifyRoles.md).
 
 <table id="table_b4f_jcp_yq"><thead><tr><th>
 
@@ -184,5 +185,5 @@ Can create, read, write, and delete room records.
 none
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installed with Facilities Service Management](r_InstallWFacServMgmnt.md)
+</table>**Parent Topic:**[Installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacServMgmnt.md)
 

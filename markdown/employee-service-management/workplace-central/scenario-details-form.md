@@ -2,6 +2,7 @@
 title: Scenario details form
 description: Use the scenario details form to select the scenario owner, location, group by selection, and space selection criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/scenario-details-form.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -45,7 +46,7 @@ Locations
 
 </td><td>
 
-Locations that are added to the scenario.This field is displayed after a scenario is created.
+Locations that are added to the scenario.This field is displayed only after a scenario is created.
 
 The locations are displayed based on the **Space Selection Criteria** of the scenario.
 
@@ -55,7 +56,7 @@ Group by
 
 </td><td>
 
-Option to select and group a scenario based on the allocation type. After the scenario is created, this field becomes read-only.Allocation types are defined in the **sn\_wsd\_core.ALLOCATION\_TYPE** system property.
+Option to select and group a scenario based on the allocation type. After the scenario is created, this field is set to read-only.Allocation types are defined in the **sn\_wsd\_core.ALLOCATION\_TYPE** system property.
 
 -   Department
 -   Cost center
@@ -71,7 +72,7 @@ If you select Workplace Entity as the group by option, the bars of the stack pla
 
 -   Creating or viewing a scenario based on workplace entities is supported from Workplace Space Management version 1.15.0. Workplace Entity is not supported for scenarios created in earlier versions.
 
-For earlier versions, you can view spaces based on their workplace entities for a building. For more information, see [Edit or view a building's spaces based on workplace entities](../task/view-a-building-s-spaces-based-on-workplace-entities.md).
+For earlier versions, you can view spaces based on their workplace entities for a building. For more information, see [Edit or view a building's spaces based on workplace entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-a-building-s-spaces-based-on-workplace-entities.md).
 
 
 </td></tr><tr><td>
@@ -87,43 +88,43 @@ You can select and add multiple buildings using the space selection criteria.
 -   Select operator: Select **And** **Or** operators as required.
 -   Enter value: Option to provide the value for the selected field. For example, if you select Building, then enter the value as the name of the building \(Building A\).
 
-Location names are displayed based on the filter conditions. Select the refresh icon \( ![Refresh icon to refresh the filter criteria and get locations for multi-building scenario.](../images/refresh-icon.png)\) to view results matching filter conditions.
+Location names are displayed based on the filter conditions. Select the refresh icon \( \[Omitted image "refresh-icon.png"\] Alt text: Refresh icon to refresh the filter criteria and get locations for multi-building scenario.\) to view results matching filter conditions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](../concept/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Central](components-installed-with-workplace-central.md)
+[Components installed with Workplace Central]()
 
-[Space Optimization - Key features and actions](space-optmization-features-and-actions-.md)
+[Space Optimization - Key features and actions]()
 
-[Workplace Central Event planner](event-planner-key-features-actions-views.md)
+[Workplace Central Event planner]()
 
-[Scenario and Building - Views, states, settings, and key features](scenario-planning-views-actions-keyfeatures-.md)
+[Scenario and Building - Views, states, settings, and key features]()
 
-[Space request approvals, states, actions, and key features](space-request-states-and-view.md)
+[Space request approvals, states, actions, and key features]()
 
-[Move management key features and actions](move-mgmt-views-states-actions.md)
+[Move management key features and actions]()
 
-[Case Management - Key features, Actions &amp; Case details](case-management-key-features-actions-case-details.md)
+[Case Management - Key features, Actions &amp; Case details]()
 
-[Schedule Plan details form](schedule-plan-details-form.md)
+[Schedule Plan details form]()
 
-[Space Deployment Plan](space-deployment-plan.md)
+[Space Deployment Plan]()
 
-[User Deployment Plan](user-deployment-plan.md)
+[User Deployment Plan]()
 
-[Excel column lengths for move projects](move-excel-char-limit.md)
+[Excel column lengths for move projects]()
 
-[Move conflicts for projects created via Excel upload](excel-upload-conflicts.md)
+[Move conflicts for projects created via Excel upload]()
 
-[Workplace Central troubleshooting](workplace-central-troubleshooting.md)
+[Workplace Central troubleshooting]()
 
-[Workplace Task form - Space Assignment task](workplace-task-space-assignment.md)
+[Workplace Task form - Space Assignment task]()
 
-[Neighborhood User Assignment Rule form](user-assignment-rule-form.md)
+[Neighborhood User Assignment Rule form]()
 
-[User Workplace Profile form](user-workplace-profile-form.md)
+[User Workplace Profile form]()
 

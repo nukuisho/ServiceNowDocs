@@ -2,6 +2,7 @@
 title: Sourcing Pipeline Management
 description: Sourcing Pipeline Management \(sn\_spend\_pipeline\) provides a centralized framework for creating, tracking, and executing sourcing initiatives through pipeline projects. It enhances efficiency through automated workflows, improves visibility into project progress, and simplifies savings tracking and forecasting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-sourcing-pipeline-mgmt.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -21,7 +22,7 @@ Sourcing Managers gain access to a unified pipeline project workspace that conso
 
 With the pipeline\_management\_admin role, you can configure the Pipeline project creation rule decision table to automate the creation of pipeline projects. The default pipeline project creation rule automatically creates a pipeline project when the total price of the products being sourced exceeds $250,000. When a sourcing intake request is submitted, a pipeline project is automatically created in the Draft state when the rule conditions are met. The pipeline project is associated with the sourcing request.
 
-For more information about using Sourcing Pipeline Management, see [Using Sourcing Pipeline Management](use-pipeline-sourcing-mgmt.md).
+For more information about using Sourcing Pipeline Management, see [Using Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-pipeline-sourcing-mgmt.md).
 
 ## Plugin dependencies
 
@@ -41,39 +42,39 @@ To filter and locate specific pipeline projects, fulfillers can use the All work
 
 Fulfillers can view tasks related to pipeline projects in the Distribution of Work section of the Summary panel on the Source-to-Pay Workspace workspace landing page. Pipeline projects also appear in the Recently updated section.
 
--   **[Components installed with Sourcing Pipeline Management](../reference/components-pipeline-mgmt.md)**  
+-   **[Components installed with Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/components-pipeline-mgmt.md)**  
 Several types of components are installed with activation of the Sourcing Pipeline Management \(sn\_spend\_pipeline\) plugin, including user roles and tables.
--   **[Pipeline project creation rule for high-value sourcing requests](pipeline-project-creation-rule.md)**  
+-   **[Pipeline project creation rule for high-value sourcing requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-project-creation-rule.md)**  
 By default, the Pipeline project creation rule decision table is used to create pipeline projects automtatically in Sourcing Pipeline Management.
--   **[Automatic pipeline project creation via Shopping Hub or Employee Center intake requests](automatic-pipeline-creation.md)**  
+-   **[Automatic pipeline project creation via Shopping Hub or Employee Center intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/automatic-pipeline-creation.md)**  
 When a shopper submits sourcing requests for products, pipeline projects are automatically created, provided the product price meets the budget conditions defined in the decision table.
--   **[Email notifications for pipeline projects](pipeline-email-notifications.md)**  
+-   **[Email notifications for pipeline projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-email-notifications.md)**  
 Sourcing managers receive email notifications when a pipeline project is created automatically, and before its estimated start and end dates.
--   **[Pipeline management tab](pipeline-mgmt-tab.md)**  
+-   **[Pipeline management tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-mgmt-tab.md)**  
 The Pipeline management tab enables you to get insights into savings and pipeline projects, improving visibility, tracking, and collaboration across teams.
 
-**Parent Topic:**[Explore Sourcing and Procurement Operations](exploring-spo.md)
+**Parent Topic:**[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 
 
-[Shopping Hub](shopping-hub-overview.md)
+[Shopping Hub]()
 
-[My purchases on Shopping Hub](my-purchases.md)
+[Shopping Hub Mobile]()
 
-[Shopping Hub Mobile](shoppinghub-mobile.md)
+[Performance Analytics for Sourcing and Procurement Operations]()
 
-[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
+[Sourcing and Purchasing Automation]()
 
-[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+[Procurement Case Management]()
 
-[Procurement Case Management](psd-overview.md)
+[Source-to-Pay Workspace]()
 
-[Source-to-Pay Workspace](procurement-specialist-workspace.md)
+[Spend and Savings Management]()
 
-[Spend and Savings Management](spo-spend-mgmt.md)
+[Understanding Punchout]()
 
-[Understanding Punchout](punchout-overview.md)
+[AI Search for Sourcing and Procurement Operations]()
 
-[AI Search for Sourcing and Procurement Operations](ai-search-sourcing-procurement-operations.md)
+[Universal Request in Sourcing and Procurement Operations]()
 

@@ -2,6 +2,7 @@
 title: Overview tab in AI Control Tower
 description: Explore the overview tab in AI Control Tower and the widgets available on the tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/overview-tab-in-ai-control-tower.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -23,7 +24,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 The **Overview** tab of the AI Control Tower dashboard provides a comprehensive view of all metrics of AI systems.
 
-![Overview tab that displays all the metric types for AI systems.](../image/aict-overview.png)
+\[Omitted image "aict-overview.png"\] Alt text: Overview tab that displays all the metric types for AI systems.
 
 The following widgets are available, showing various metrics. You can view the data in detail on each widget.
 
@@ -35,7 +36,7 @@ The following widgets are available, showing various metrics. You can view the d
     -   Assess
     -   Build and test
     -   Deploy
-    For more information about the AI asset lifecycle stages, see [AI asset lifecycle](ai-asset-lifecycle.md)
+    For more information about the AI asset lifecycle stages, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
 
 -   **AI systems by type**
 

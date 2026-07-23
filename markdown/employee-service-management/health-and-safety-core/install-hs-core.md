@@ -2,6 +2,7 @@
 title: Install Health and Safety Core
 description: You can install the Health and Safety Core \(sn\_ohs\_im\) if you have an admin role. This data model includes demo data and installs related ServiceNow Store plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/install-hs-core.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -32,7 +33,7 @@ The following items are installed with Health and Safety Incident Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Health and Safety Core](../reference/components-installed-hs-core.md).
+For more information, see [Components installed with Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/components-installed-hs-core.md).
 
 This table lists the optional applications that can be installed for additional features:
 
@@ -74,7 +75,7 @@ Learning Core\[sn\_lc\]
 
 </td><td>
 
-Installs Learning Core to enable learning content in Health and Safety actions.For more information, see [Configuring Learning Core](../../human-resources/concept/configuring-learning-core.md).
+Installs Learning Core to enable learning content in Health and Safety actions.For more information, see [Configuring Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/configuring-learning-core.md).
 
 </td></tr></tbody>
 </table>## Procedure
@@ -100,24 +101,24 @@ Installs Learning Core to enable learning content in Health and Safety actions.F
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up Health and Safety Core](../concept/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 
 
-[Workplace location data](../../ohs-incident-management/task/configure-hs-workplace-location-data.md)
+[Workplace location data]()
 
-[Enable a Health and Safety table for configuring report field mapping](../../ohs-incident-management/task/enable-hs-table-report-field-mapping.md)
+[Enable a Health and Safety table for configuring report field mapping]()
 
-[Create a safety report field mapping for generating reports](../../ohs-incident-management/task/create-safety-report-field-mapping.md)
+[Create a safety report field mapping for generating reports]()
 
-[Configure groups for Health and Safety](../../ohs-incident-management/task/configure-groups-health-and-safety.md)
+[Configure groups for Health and Safety]()
 
-[Configure scheduled job to generate frequency rates](../../ohs-incident-management/task/configure-job-generate-frequency-rates.md)
+[Configure scheduled job to generate frequency rates]()
 
-[Assign Health and Safety profile to a user](../../ohs-incident-management/task/assign-hs-profile-user.md)
+[Assign Health and Safety profile to a user]()
 
-[Add a Health and Safety visitor](../../ohs-incident-management/task/hs-add-health-safety-visitor.md)
+[Add a Health and Safety visitor]()
 
-[Migrate existing safety documents to the Document library](hs-migrate-sync-existing-safety-document-docs-library.md)
+[Migrate existing safety documents to the Document library]()
 

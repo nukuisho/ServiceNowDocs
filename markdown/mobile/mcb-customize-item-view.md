@@ -2,6 +2,7 @@
 title: Customize a screen using Mobile Card Builder
 description: Use Mobile Card Builder to modify the cards for your screens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mcb-customize-item-view.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Use Mobile Card Builder to modify the cards for your screens.
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## Procedure
 
@@ -27,7 +28,7 @@ For more information about the delegated developer role, see [Delegated developm
 
 3.  Use the **Screen** list to select your screen.
 
-    ![The application and screen lists on the open screen](../image/mcb-open-screen-lists.png)
+    \[Omitted image "mcb-open-screen-lists.png"\] Alt text: The application and screen lists on the open screen
 
 4.  Select the card where you want to apply a card template.
 
@@ -42,7 +43,7 @@ For more information about the delegated developer role, see [Delegated developm
 
 ## What to do next
 
-To change the layout of the elements of your mobile card, see [Mobile Card Builder user interface](../reference/mcb-stage-ui.md).
+To change the layout of the elements of your mobile card, see [Mobile Card Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-stage-ui.md).
 
-When you are happy with the appearance of your card, and want to add values from your records, see [Assign field values to your mobile card](mcb-assign-fields.md).
+When you are happy with the appearance of your card, and want to add values from your records, see [Assign field values to your mobile card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-assign-fields.md).
 

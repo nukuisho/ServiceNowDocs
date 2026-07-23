@@ -2,6 +2,7 @@
 title: Pass values from one automated test step to another
 description: Assign a form field the value of an output variable returned from a previous step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-retrieve-value.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -23,7 +24,7 @@ Role required: admin, atf\_test\_admin and atf\_test\_designer
 
 ## Procedure
 
-1.  To the right of the field whose value you want to assign, click the input value icon \( ![Input value icon](../image/rem-value-icon.png)\)
+1.  To the right of the field whose value you want to assign, click the input value icon \( \[Omitted image "rem-value-icon.png"\] Alt text: Input value icon\)
 
     The input value mapping control lists previous steps that create an output variable. If no previous steps create an output variable, the control displays the message: There are no elements to show.
 
@@ -36,10 +37,10 @@ Role required: admin, atf\_test\_admin and atf\_test\_designer
 4.  Navigate through the tree picker hierarchy until you find and select the value you want.
 
 
-**Parent Topic:**[Passing data from one automated test step to another](../concept/atf-passing-data.md)
+**Parent Topic:**[Passing data from one automated test step to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-passing-data.md)
 
 **Related topics**  
 
 
-[Automated Test Framework use case: reference a value from a previous step](atf-use-backref.md)
+[Automated Test Framework use case: reference a value from a previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-backref.md)
 

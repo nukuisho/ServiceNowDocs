@@ -2,6 +2,7 @@
 title: Column Level Encryption Guided Tour
 description: The tour gives a brief overview of the Column Level Encryption setup needed to encrypt table fields or attachments.​ Steps for the creation of Field Encryption Modules, Module Access Policies, and Encrypted Field Configurations are also covered. The tour includes links to detailed documentation and the ServiceNow University Column Level Encryption Overview course.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/cle-tour.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,14 +26,14 @@ Role required: sn\_kmf.crypto\_manager or security\_admin
 
     For example: `http://yourcompany.servicenow.com/nav_to.do?uri=%2F$pa_dashboards_overview.do​` Replace `yourcompany` with the name of your instance.
 
-2.  Open the **Show Help** icon \(![Shows Toggle Help Sidebar icon](../../key-management-framework/image/toggle-help-sidebar-icon.png) in the upper left corner.​
+2.  Open the **Show Help** icon \(\[Omitted image "toggle-help-sidebar-icon.png"\] Alt text: Shows Toggle Help Sidebar icon in the upper left corner.​
 
 3.  Select **Take a Tour** at the bottom of the sidebar​.
 
 4.  Select **Next** to progress through the tour.
 
-    ![The Column Level Encryption tour.](../../key-management-framework/image/tour_image.png)
+    \[Omitted image "tour\_image.png"\] Alt text: The Column Level Encryption tour.
 
 
-**Parent Topic:**[Exploring Column Level Encryption](../concept/exploring-column-level-encryption.md)
+**Parent Topic:**[Exploring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-column-level-encryption.md)
 

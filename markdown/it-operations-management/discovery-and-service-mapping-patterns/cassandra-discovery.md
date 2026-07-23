@@ -2,6 +2,7 @@
 title: Apache Cassandra database discovery
 description: ServiceNow Discovery finds the Apache and the DataStax Cassandra database on UNIX using the Cassandra Distributed DB pattern. Discovering some of these resources requires installing the Discovery and Service Mapping Patterns from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/cassandra-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -17,13 +18,13 @@ ServiceNow Discovery finds the Apache and the DataStax Cassandra database on UNI
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   **Provide credentials for discovering the host**
 
-    Identify the servers hosting a Cassandra database and provide credentials necessary for horizontal discovery of these servers. For more information, see [Credentials required for host discovery](r_Credentials4HostDiscovery.md).
+    Identify the servers hosting a Cassandra database and provide credentials necessary for horizontal discovery of these servers. For more information, see [Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md).
 
 -   **Verify CMDB CI Class Models store app is up to date**
 
@@ -31,7 +32,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify permissions for Cassandra commands for UNIX**
 
-    For the list of Cassandra commands, see the [Cassandra \(for UNIX\)](r_NonSudoCommands.md#table_dxn_bml_mmb) section in [Service Mapping commands requiring a privileged user](r_CommandsnCredentials.md).
+    For the list of Cassandra commands, see the [Cassandra \(for UNIX\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md) section in [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
 
 -   **Verify read access to cassandra.yaml**
 
@@ -82,7 +83,7 @@ Discovery populates the data in the CMDB when running the Cassandra Distributed 
 |Keyspace Name \[keyspace\_name\]|Name of the keyspace.|
 |Name \[name\]|The display name in the following format: &lt;keyspace\_name&gt;@&lt;cluster\_name&gt;.|
 
-![Dependency Views showing discovered Apache Cassandra deployment.](../../discovery/image/apache-cassandra-dependency-view.png "Dependency Views showing discovered Apache Cassandra deployment")
+\[Omitted image "apache-cassandra-dependency-view.png"\] Alt text: Dependency Views showing discovered Apache Cassandra deployment.
 
 ## CI relationships
 
@@ -107,12 +108,12 @@ In addition to the tables and fields discovered during horizontal discovery, the
 
 For incoming connections, the instance is discovered, as shown in the following image.
 
-![Cassandra discovery top-down service map](../image/cassandra-discovery-top-down.png "Cassandra discovery top-down service map")
+\[Omitted image "cassandra-discovery-top-down.png"\] Alt text: Cassandra discovery top-down service map
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 
 **Related topics**  
 
 
-[Database Administrator \(DBA\) report discovery](../../discovery/concept/dba-report-discovery-pattern.md)
+[Database Administrator \(DBA\) report discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/dba-report-discovery-pattern.md)
 

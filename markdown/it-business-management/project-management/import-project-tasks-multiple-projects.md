@@ -2,6 +2,7 @@
 title: Import project tasks for multiple projects
 description: Import project tasks for multiple projects from an external file system or data source using import sets and transform maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/import-project-tasks-multiple-projects.html
 release: australia
 product: Project Management
 classification: project-management
@@ -37,27 +38,27 @@ Role required: import\_transformer, import\_admin, or admin
 
 7.  Create field mappings for custom columns.
 
-    For more information, see [Create field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_MappingOptions.md).
+    For more information, see [Create field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_MappingOptions.md).
 
 8.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RunImport.md).
+    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_RunImport.md).
 
 
-**Parent Topic:**[Importing and exporting projects](../concept/c_ProjectImportAndExport.md)
+**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 
 **Related topics**  
 
 
-[Project field mapping](../reference/r_ProjectFieldMapping.md)
+[Project field mapping]()
 
-[Create custom field mapping for Microsoft Project file import](map-custom-fields-msp-project.md)
+[Create custom field mapping for Microsoft Project import]()
 
-[Project import from Microsoft Project](../concept/project-import-msp.md)
+[Project import from Microsoft Project]()
 
-[Project export to Microsoft Project](../concept/c_ProjectExportToMicrosoftProject.md)
+[Project export to Microsoft Project]()
 
-[Calendars and schedules- Limitations](../concept/c_CalendarsAndSchedules.md)
+[Calendars and schedules- Limitations]()
 
-[Importing and exporting projects](../concept/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 

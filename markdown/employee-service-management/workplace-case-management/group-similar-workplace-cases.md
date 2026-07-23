@@ -2,6 +2,7 @@
 title: Group similar workplace cases under a parent case
 description: Categorize cases that have similar issues and that require the same resolution under a single parent case. Reduce the time spent on resolving multiple workplace cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/group-similar-workplace-cases.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -58,40 +59,40 @@ The workplace case is assigned to a parent case.
 
 **Important:** The case selected in the **Parent case** field and the case displayed in the **Parent** field are different. The workplace case displayed in the **Parent** field is generated from the workplace service to which the case is associated. A parent is assigned automatically if the **Activity type** of the workplace service is **Task** or **Child case**.
 
-**Parent Topic:**[Configuring Workplace Case Management](../concept/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Case Management](install-workplace-case-mgmt.md)
+[Install Workplace Case Management]()
 
-[Create a Workplace case template](wsd-case-template.md)
+[Create a Workplace case template]()
 
-[Create a Workplace task template](wsd-task-template.md)
+[Create a Workplace task template]()
 
-[Smart Assessment for Workplace Case and Task](smart-assessment-for-workplace-case-and-task.md)
+[Smart Assessment for Workplace Case and Task]()
 
-[Automating seat assignment for new hires](../concept/auto-assign-new-hires.md)
+[Automating seat assignment for new hires]()
 
-[Configure Approval options](config-approval-optns.md)
+[Configure Approval options]()
 
-[Configure a Record producer](wsd-create-record-producer.md)
+[Configure a Record producer]()
 
-[Configuring a record producer for request edit](../concept/config-case-edit-rp.md)
+[Configuring a record producer for request edit]()
 
-[Configuring a record producer for reservation](../concept/config-reservation-rp.md)
+[Configuring a record producer for reservation]()
 
-[Create an SLA Definition](create-sla-defn-case-mgmt.md)
+[Create an SLA Definition]()
 
-[Create a Workplace service](create-workplace-service.md)
+[Create a Workplace service]()
 
-[Add a workplace service item to a workplace service](add-workplace-service-items.md)
+[Add a workplace service item to a workplace service]()
 
-[Create a workplace template configuration](create-workplace-template-confguration.md)
+[Create a workplace template configuration]()
 
-[Create a workplace field mapping](create-workplace-field-mapping.md)
+[Create a workplace field mapping]()
 
-[Configure an escalation rule](configure-escalation-rule.md)
+[Configure an escalation rule]()
 
-[Add Fulfillment instructions](add-fulfillment-instructions.md)
+[Add Fulfillment instructions]()
 

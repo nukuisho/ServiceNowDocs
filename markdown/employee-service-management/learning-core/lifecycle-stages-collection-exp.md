@@ -2,6 +2,7 @@
 title: Life-cycle stages of a content collection in Learning Core
 description: The State transition of a collection guides you through the stages of its life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/lifecycle-stages-collection-exp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -24,24 +25,24 @@ The State transition of a collection guides you through the stages of its life c
 |Pending Retirement|Collection that is pending for retirement.|
 |Retired|Collection that is retired.|
 
-**Parent Topic:**[Learning reference](learning-experience-reference.md)
+**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-experience-reference.md)
 
-**Parent Topic:**[Learning Core Reference](learning-core-reference.md)
+**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Learning Core](learning-core-components-installed.md)
+[Components installed with Learning Core]()
 
-[Course catalog form](course-catalog-table.md)
+[Course catalog form]()
 
-[Learning library form](learning-library-form.md)
+[Learning library form]()
 
-[Learning task form](learning-task-form.md)
+[Learning task form]()
 
-[Learning internal content form](learning-internal-content-form.md)
+[Learning internal content form]()
 
-[Learning External Contents form](learning-external-contents-form.md)
+[Learning External Contents form]()
 
-[Collection form](collection-form-lc.md)
+[Collection form]()
 

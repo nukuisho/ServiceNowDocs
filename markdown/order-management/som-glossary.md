@@ -2,10 +2,11 @@
 title: Sales Customer Relationship Management glossary
 description: Learn about terms and concepts that are unique to Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-glossary.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 17
+reading_time_minutes: 14
 breadcrumb: [Reference, Sales Customer Relationship Management]
 ---
 
@@ -15,7 +16,7 @@ Learn about terms and concepts that are unique to Sales Customer Relationship Ma
 
 Glossary terms are listed alphabetically.
 
-**Parent Topic:**[Sales Customer Relationship Management reference](som-reference.md)
+**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-reference.md)
 
 ## account
 
@@ -83,15 +84,11 @@ The process of creating, managing, and executing legal sales contracts from comp
 
 Covered products refer to offerings that act as entitlements or contracts linked to a primary product, such as a warranty purchased with a phone.
 
-For more information, see [Add Covered Products using Contracts and Entitlement Workflow](../../post-sales-support/concept/adding-cov-prod-cceworkflows.md).
+For more information, see [Add Covered Products using Contracts and Entitlement Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/adding-cov-prod-cceworkflows.md).
 
 ## configurable pricing plans
 
 Customizable plans defining the sequence of pricing calculations and adjustments to determine final product prices.
-
-## configure, price, quote \(CPQ\)
-
-A process that intelligently guides every product, pricing, and quoting decision across every channel to deliver fast, accurate, and customer-centric deals. CPQ enables faster sales cycles and a better buyer experience, with less manual work.
 
 ## cross-sell
 
@@ -121,17 +118,9 @@ A lead that is no longer viable for sales engagement.
 
 An external service for electronic signatures, enabling customers to sign documents digitally.
 
-## domain orders
-
-Product, service, and resource orders generated during customer order decomposition, each with a corresponding fulfillment flow and order tasks.
-
 ## enrichment
 
 Enhancing customer orders with additional technical data or attributes necessary for accurate processing and fulfillment.
-
-## fallout management
-
-A process that identifies, investigates, and resolves order issues, tracking fallout and triggering automated resolution actions.
 
 ## fallout record
 
@@ -141,13 +130,13 @@ A record created to investigate and resolve processing issues during order fulfi
 
 Classification of opportunities by closure certainty, with default categories including Won, Commit, Strong Upside, Upside, Pipeline, and Omitted.
 
-For more information, see [Sales Forecasting terminology](sales-forecasting-terminology.md).
+For more information, see [Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting-terminology.md).
 
 ## forecast model
 
 A framework predicting future sales.
 
-For more information, see [Sales Forecasting terminology](sales-forecasting-terminology.md).
+For more information, see [Sales Forecasting terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting-terminology.md).
 
 ## forecast roll-up method \(single/cumulative\)
 
@@ -193,7 +182,7 @@ Notifications generated when fulfillment tasks risk missing deadlines.
 
 A potential customer created from information captured through various channels.
 
-For more information, see [Lead Management](lead-management.md).
+For more information, see [Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md).
 
 ## lead management workflow
 
@@ -235,7 +224,7 @@ A business process encompassing all activities and tasks involved in selling to 
 
 Order action types managing changes to customer orders and service inventories.
 
-For more information, see [Action types for customer and service orders](order-mgt-customer-order-types.md).
+For more information, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md).
 
 ## matrix validations
 
@@ -249,7 +238,7 @@ A pricing method with monthly charges for products/services.
 
 A feature allowing multiple variations of child product offerings.
 
-For more information, see [Multiple configurations](multiple-child-offering-configurations.md).
+For more information, see [Multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/multiple-child-offering-configurations.md).
 
 ## needs analysis
 
@@ -287,7 +276,7 @@ Products/services added to an opportunity.
 
 Analyzing customer needs and generating product recommendations.
 
-For more information, see [Opportunity Management](opportunity-management.md)
+For more information, see [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 
 ## orchestration
 
@@ -297,33 +286,15 @@ Coordinating order fulfillment through fulfillment flows.
 
 User interfaces tracking domain orders and tasks, providing hierarchical representations.
 
-## order capture
-
-Receiving product or service orders through various methods.
-
-For more information, see [Methods of creating orders in Sales Customer Relationship Management](order-capture-methods-som.md).
-
 ## order case
 
 Cases created for order-related issues or changes.
-
-## order decomposition
-
-Breaking down customer orders into product, service, and resource orders.
-
-For more information, see [Order decomposition](order-mgt-order-decomposition.md).
 
 ## order fallout
 
 Failures during order fulfillment due to errors or exceptions.
 
-For more information, see [Managing order fallout](fallout-management-overview.md).
-
-## order fulfillment
-
-Completing tasks to fulfill orders, guided by orchestration plans.
-
-For more information, see [Order fulfillment](reviewing-orchestration-plans-order-fulfillment.md).
+For more information, see [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md).
 
 ## order hierarchy
 
@@ -333,27 +304,23 @@ The structure of an order, including decomposed orders and tasks.
 
 Stages a customer order progresses through in Order Management including order creation, enrichment, decomposition, and orchestration, and fulfillment.
 
-For more information, see [Using Order Management](using-order-management.md).
+For more information, see [Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md).
 
 ## order line items \(Order Management\)
 
 Individual items in customer and service orders.
 
-## order management
-
-Process of capturing and fulfilling customer orders.
-
 ## order states
 
 The current stage of an order or an order line item in its life cycle, from initial creation through fulfillment and closure. Each state indicates what actions have been completed and what steps remain in the order processing workflow.
 
-For more information, see [Order life cycle states](order-lifecycle-states.md).
+For more information, see [Order life cycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-lifecycle-states.md).
 
 ## order tasks
 
 Tasks needed to fulfill domain orders.
 
-For more information, see [Order decomposition](order-mgt-order-decomposition.md).
+For more information, see [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-order-decomposition.md).
 
 ## order tracking
 
@@ -371,7 +338,7 @@ Analyzing sales pipeline progression.
 
 The point after which orders can't be changed or canceled.
 
-For more information, see [Managing inflight order changes and cancellation requests](inflight-order-change-mgt-overview.md).
+For more information, see [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md).
 
 ## price list
 
@@ -461,10 +428,6 @@ Allows for the creation of product offer bundles with an offer hierarchy using p
 
 Dynamically filters product catalogs, product offering categories, and product offerings to display only eligible items for a specific customer, based on context such as customer accounts, location, and sales contracts.
 
-## product offering catalog
-
-The top-level entity in the catalog hierarchy. Catalogs can contain categories, which in turn can have subcategories or product offers.
-
 ## product offering category
 
 Logical groupings of product offerings within a catalog, making it easier for agents to browse and navigate product offerings.
@@ -473,17 +436,9 @@ Logical groupings of product offerings within a catalog, making it easier for ag
 
 Suggestions for additional products that agents can use to up-sell or cross-sell to customers in quotes, displayed as cards in the contextual side panel.
 
-## product offerings
-
-Configurable, order-able products and services with pricing.
-
 ## product offering version
 
 New iterations of published product offerings.
-
-## product specification
-
-Definitions of product options and fulfillment details, containing information such as the product description, pricing, eligibility, and product options.
 
 ## propose
 
@@ -533,10 +488,6 @@ A classification indicating sales engagement nature: "Renew" for continuing cont
 
 Extending an existing customer contract.
 
-## resource specification
-
-Technical information for resources, including visuals and activation guides, supporting product and service delivery.
-
 ## Return Merchandise Authorization \(RMA\)
 
 Formal authorization for customers to return unwanted or defective items.
@@ -548,12 +499,6 @@ Projecting future sales volumes or revenue based on opportunities, historical pe
 ## risk level \(jeopardy\)
 
 Classification of fulfillment task risk based on delay percentage. Levels include Low, Medium, High, and Critical.
-
-## sales agreement
-
-A binding agreement between seller and buyer for future transactions.
-
-In the context of quote management, it is a binding agreement changing quote workflow to set products or services according to agreement terms.
 
 ## salesforce automation
 
@@ -587,7 +532,7 @@ A lead meeting specific criteria, ready for sales engagement.
 
 Assigning sales quota targets to representatives or managers based on hierarchy, role, and forecast period.
 
-For more information, see [Set up sales quota](../task/setup-sales-quota.md).
+For more information, see [Set up sales quota](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/setup-sales-quota.md).
 
 ## sales targets
 
@@ -605,12 +550,6 @@ Individual activities within sequence tasks, such as customer calls or emails.
 
 System-generated tasks including predefined activities for sales agents while engaging with a prospect or customer.
 
-## service order
-
-Orders for activating new services or post-sales requests.
-
-For more information, see [Order types in Sales Customer Relationship Management](som-order-types.md).
-
 ## shipment
 
 Delivering ordered products to specified locations.
@@ -619,13 +558,7 @@ Delivering ordered products to specified locations.
 
 Individuals designated to sign quote PDF documents.
 
-For more information, see [Set up PDF document signers](../task/quote-mgt-configure-pdf-document-signers.md).
-
-## staggered decomposition
-
-Breaking down customer orders in multiple iterations.
-
-For more information, see [Staggered decomposition](staggered-decomposition.md).
+For more information, see [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgt-configure-pdf-document-signers.md).
 
 ## strong upside
 
@@ -683,7 +616,7 @@ Tracking or managing different versions of entities in Sales Customer Relationsh
 
 Pricing adjustments based on item quantity.
 
-For more information, see [Configure volume pricing](../task/configure-volume-pricing.md).
+For more information, see [Configure volume pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-volume-pricing.md).
 
 ## weighted amount
 

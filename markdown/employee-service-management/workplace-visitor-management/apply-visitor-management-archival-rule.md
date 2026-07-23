@@ -2,6 +2,7 @@
 title: Apply visitor management archive policy
 description: Apply the archival policy for Workplace Visitor Management. The archival policy will archive old visitor records and visitor registration records that are more than one year old.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/apply-visitor-management-archival-rule.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -42,20 +43,20 @@ Role required: admin
 7.  Select **Run Archive Now** under related links to run the archival rule.
 
 
-**Parent Topic:**[Managing visitor registrations](../concept/manage-visitor-registrations.md)
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
 
-[Use the receptionist portal](use-receptionist-portal.md)
+[Use the receptionist portal]()
 
-[Update a visitor registration](update-visitor-registration.md)
+[Update a visitor registration]()
 
-[View visitor registrations](view-visitor-registrations.md)
+[View visitor registrations]()
 
-[View visitor policy confirmations](view-policy-confirmations.md)
+[View visitor policy confirmations]()
 
-[Visitor registration states](../reference/visitor-registration-states.md)
+[Visitor registration states]()
 
-[Anonymize a visitor](anonymize-visitor.md)
+[Anonymize a visitor]()
 

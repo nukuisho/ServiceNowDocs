@@ -2,6 +2,7 @@
 title: Customize fields in the approval message for change request
 description: Customize the body message for a change request approval sent in Microsoft Outlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/customize-fields-change.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,8 +33,8 @@ Role required: oam\_admin
 
     The approval message is displayed in Microsoft Outlook as shown below. Click **View Approval Request** to view the request in ServiceNow instance.
 
-    ![Change approval in Microsoft Outlook](../image/oam-change2.png)
+    \[Omitted image "oam-change2.png"\] Alt text: Change approval in Microsoft Outlook
 
 
-**Parent Topic:**[Customize fields for the approval message](../concept/customize-approval-message.md)
+**Parent Topic:**[Customize fields for the approval message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/customize-approval-message.md)
 

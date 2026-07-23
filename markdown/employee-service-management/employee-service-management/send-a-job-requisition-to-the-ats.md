@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [send job requisition, ATS posting, job boards, integration flow, requisition trigger]
 ---
 
 # Send job requisitions to the ATS
@@ -16,8 +17,8 @@ Send the job requisitions to your integrated ATS to get posted on the job boards
 
 Create an integration flow to send the job requisitions to the ATS when it is in **Ready** state. You can re-configure the state when the requisition is sent to your integrated ATS.
 
--   **[Create integration flow for ATS](../concept/create-your-integration-flow.md)**  
+-   **[Create integration flow for ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-your-integration-flow.md)**  
 Create the integration flow with your preferred ATS to send job requisition data to the ATS.
 
-**Parent Topic:**[Integrate with your ATS](../concept/integrate-ats.md)
+**Parent Topic:**[Integrate with your ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-ats.md)
 

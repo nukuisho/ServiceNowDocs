@@ -2,6 +2,7 @@
 title: Granular admin role changes in Enterprise Architecture
 description: Understand the transition from global admin usage to feature‑specific granular admin roles, outlining the intent, architectural principles, and governance expectations defined by the Granular Admin Directive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-gran-admin-role-changes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -39,7 +40,7 @@ Direct usage of the `admin` role for feature administration resulted in:
 
 ## Standard role pattern
 
-![Role patter.](../../image/eaw-image/role-pattern.png)
+\[Omitted image "role-pattern.png"\] Alt text: Role patter.
 
 -   `<feature>_admin` – Full administrative control for a specific feature or capability
 -   `<feature>_read` – Read‑only access for operational or reporting use
@@ -51,5 +52,5 @@ Direct usage of the `admin` role for feature administration resulted in:
 -   `sn_apm.apm_read` – Read‑only access to Enterprise Architecture data
 -   `sn_apm.apm_user` – Standard Enterprise Architecture user access
 
-**Parent Topic:**[Install Enterprise Architecture Workspace](../../task/install-ea-workspace.md)
+**Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/install-ea-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Widget API reference
 description: Service Portal includes client and server side APIs to use in widget client and server scripts.Global variable and functions available in widget client and server scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/widget-api-reference.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -125,7 +126,7 @@ Return human-readable URLs for a specific page, or for the current page, based o
 Check whether a provided table is granted access to a widget to ensure that a widget is securely accessed by an intended audience.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Developing custom widgets](../concept/widget-dev-guide.md)
+</table>**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
 
 ## Widget properties
 

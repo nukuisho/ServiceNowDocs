@@ -2,6 +2,7 @@
 title: Manage the dashboard in Service Operations Workspace
 description: Add or edit the cards that are to be viewed on the IT Agent Dashboard in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/manage-it-agent-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select Dashboard icon \(![Dashboard icon](../image/dashboard-icon-sow.png)\).
+2.  Select Dashboard icon \(\[Omitted image "dashboard-icon-sow.png"\] Alt text: Dashboard icon\).
 
 3.  Select **Edit**.
 

@@ -2,6 +2,7 @@
 title: Remove CIs not belonging to application services
 description: Remove CIs erroneously mapped as part of an application service by Service Mapping. Unnecessary CIs included in the map can generate irrelevant alerts in Event Management. For example, when creating an application service for a web portal, Service Mapping might automatically discover a connection to unaffiliated external services, such as PayPal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/remove-cis-not-belonging-business-services.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -48,15 +49,15 @@ Depending on why Service Mapping mapped an unwanted CI, you can remove it by the
 
 2.  Remove CIs that do not belong to this service instance by completing the following actions.
 
-<table id="choicetable_rsk_cnk_hnb"><thead><tr><th align="left" id="d333555e172">
+<table id="choicetable_rsk_cnk_hnb"><thead><tr><th align="left" id="d351693e172">
 
 Action
 
-</th><th align="left" id="d333555e175">
+</th><th align="left" id="d351693e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d333555e181">
+</th></tr></thead><tbody><tr><td id="d351693e181">
 
 **Add mapping boundaries**
 
@@ -65,11 +66,11 @@ Steps
 1.  Right-click the connector leading to the CI you want to remove.
 2.  Select **Mark boundary**.
 
-The CI is marked as boundary on the map \(![The boundary icon](../image/MapBoundaryIcon.png)\).
+The CI is marked as boundary on the map \(\[Omitted image "MapBoundaryIcon.png"\] Alt text: The boundary icon\).
 
  **Note:** Ensure that you are looking at the map in Edit view.
 
-</td></tr><tr><td id="d333555e213">
+</td></tr><tr><td id="d351693e213">
 
 **\(If the connection suggestions feature is disabled\) Remove CIs discovered using traffic-based connections**
 
@@ -81,27 +82,27 @@ The CI is marked as boundary on the map \(![The boundary icon](../image/MapBound
 
 2.  Select **Show traffic based connections**.
 
-The Traffic Based Connections List opens. See [Traffic-based connections list](../reference/traffic-based-connections-list.md).
+The Traffic Based Connections List opens. See [Traffic-based connections list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traffic-based-connections-list.md).
 
 3.  In the **Traffic Based Connections List**, identify the connection used to discover the unwanted CI.
 4.  Select `Remove` from the **User decision** field for this connection.
 5.  Click **Close**.
 
 
-</td></tr><tr><td id="d333555e269">
+</td></tr><tr><td id="d351693e269">
 
 **\(If the connection suggestions feature is enabled\) Remove CIs discovered using traffic-based connections**
 
 </td><td>
 
-Perform the procedure described in [Add or remove CIs for single application services using connection suggestions](add-remove-ci-connections-services.md).
+Perform the procedure described in [Manage CI connections for a single service using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-remove-ci-connections-services.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Fine-tune application services to implement owner requests](review-implement-business-service-maps.md)
+**Parent Topic:**[Fine-tune application services to implement owner requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/review-implement-business-service-maps.md)
 
 **Related topics**  
 
 
-[Enable traffic-based discovery for CI types or specific CIs](t_CreateATrafficBasedDiscoveryRule.md)
+[Enable traffic-based discovery for CI types or specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateATrafficBasedDiscoveryRule.md)
 

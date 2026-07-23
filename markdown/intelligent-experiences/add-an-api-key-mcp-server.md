@@ -2,6 +2,7 @@
 title: Add an MCP Server with API Key
 description: Add an MCP Server with an API Key in the AI Agent Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-an-api-key-mcp-server.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,7 +67,7 @@ API Key
 A unique code or password to identify and authenticate the user or application when accessing the API.**Note:** The API Key adds a Connection alias dynamically at runtime and maps with the MCP Server.
 
 </td></tr></tbody>
-</table>    ![Adding an MCP Server in AI Agent Studio with a API Key.](../image/add-mcp-server-apikey.png)
+</table>    \[Omitted image "add-mcp-server-apikey.png"\] Alt text: Adding an MCP Server in AI Agent Studio with a API Key.
 
 4.  Select **Add**.
 

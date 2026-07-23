@@ -2,6 +2,7 @@
 title: Integrate MSIM Conference Calls with Zoom
 description: The Conference Call Zoom integration enables you to manage and initiate a Zoom conference call directly from a major security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/integrate-msim-conf-calls-zoom.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -30,29 +31,29 @@ Verify you’ve installed the following Integration Hub plugins on your ServiceN
 -   Notify Zoom \(sn\_notify\_zoom\)
 -   Notify UI Components for Configurable Workspaces
 
-For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
+For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md).
 
 ## Configuration
 
-To configure the MSIM Conference Call Zoom integration using the Notify communication channel, see [Configure Notify Zoom connector in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configure-notify-zoom-connector.md).
+To configure the MSIM Conference Call Zoom integration using the Notify communication channel, see [Configure Notify Zoom connector in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-notify-zoom-connector.md).
 
--   **[Use the MSIM Conference Call Zoom integration](../task/using-conf-call-zoom-integration.md)**  
+-   **[Use the MSIM Conference Call Zoom integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-conf-call-zoom-integration.md)**  
 The following steps give you a walkthrough of how you can manage and initiate a Zoom conference call directly from a major security incident.
 
-**Parent Topic:**[Major Security Incident Management Conference Call Integration](integrate-msim-conference-calls.md)
+**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
 
 **Related topics**  
 
 
-[Start a conference call](../task/start-conference-call.md)
+[Start a conference call]()
 
-[Add participants to a conference call](../task/add-participants-conference-call.md)
+[Add participants to a conference call]()
 
-[Mute participants in a conference call](../task/mute-unmute-participants.md)
+[Mute participants in a conference call]()
 
-[View conference call details](../task/view-conference-call-details.md)
+[View conference call details]()
 
-[Integrate MSIM Conference Calls with Microsoft Teams](integrate-msim-conf-call-ms-teams.md)
+[Integrate MSIM Conference Calls with Microsoft Teams]()
 
-[Integrate MSIM Conference Calls with Cisco Webex](integrate-msim-conf-calls-webex.md)
+[Integrate MSIM Conference Calls with Cisco Webex]()
 

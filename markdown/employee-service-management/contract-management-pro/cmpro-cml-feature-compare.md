@@ -2,6 +2,7 @@
 title: Contract Management solutions
 description: Explore the differences between the different contract management solutions offered in ServiceNow - ITAM Contract Management, \(Deprecated\) Legal Simple Contracts, and Contract Management Pro \(CM Pro\)
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-cml-feature-compare.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -55,11 +56,11 @@ Self-serve with configurable Intake
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -71,11 +72,11 @@ Third party contracts
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ Third party contracts with multiple documents
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ NOW Integrations \(Legal, Procurement, Sales\)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td rowspan="12">
 
@@ -123,7 +124,7 @@ PDF, HTML Templates
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -139,11 +140,11 @@ MS Word Templates
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -159,7 +160,7 @@ MS Word Add-in
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -175,7 +176,7 @@ Clause Library for Contract Generation
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -187,11 +188,11 @@ Versions
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -207,7 +208,7 @@ Versions with multiple documents
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -219,11 +220,11 @@ External storage \(OneDrive and GoogleDrive\)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -235,15 +236,15 @@ Create contract record
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg) AI-assisted Review
+\[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI-assisted Review
 
 </td><td>
 
@@ -255,7 +256,7 @@ Create contract record
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -271,7 +272,7 @@ Contract Workspace
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -287,7 +288,7 @@ Clause Library for Negotiation
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -303,7 +304,7 @@ Amendment workflow
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td rowspan="2">
 
@@ -319,11 +320,11 @@ Wet Signature
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -387,15 +388,15 @@ Document storage in ServiceNow
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -407,11 +408,11 @@ OneDrive, Google Drive storage integration
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -419,7 +420,7 @@ Contract Relationships \(parent/child\)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -427,7 +428,7 @@ Contract Relationships \(parent/child\)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -435,19 +436,19 @@ Contract Metadata
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td align="center">
 
-![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)AI Metadata Extraction
+\[Omitted image "bus-ai-sparkle.svg"\] Alt text:AI Metadata Extraction
 
 </td><td>
 
@@ -459,7 +460,7 @@ Contract Metadata
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td rowspan="2">
 
@@ -471,19 +472,19 @@ Expiry / Renewal notifications
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg) AI Obligation Extraction
+\[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI Obligation Extraction
 
 </td><td>
 
@@ -495,7 +496,7 @@ Expiry / Renewal notifications
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td rowspan="2">
 
@@ -511,11 +512,11 @@ Dashboard for Volume &amp; Work distribution
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -523,7 +524,7 @@ Dashboard for asset contract renewals
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -531,7 +532,7 @@ Dashboard for asset contract renewals
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr></tbody>
 </table>## Migrating from Legal Simple Contracts to Contract Management Pro
@@ -545,42 +546,44 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 You can migrate your data from Legal Simple Contracts to Contract Management Pro to start using the additional features available.
 
-For more information on migration, see [Migrating to Contract Management Pro for Legal Service Delivery](../../legal-simple-contracts/concept/migration-landing-page.md).
+For more information on migration, see [Migrating to Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/migration-landing-page.md).
 
 **Important:** The migration script is designed only for migrating data from Legal Simple Contracts to the Legal Contract Repository, which applies specifically to Contract Management Pro for Legal Service Delivery.
 
 Contract Management Pro for Legal Service Delivery is a licensed application that must be installed separately.
 
-**Parent Topic:**[Contract Management Pro reference](../concept/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 
 
-[Components installed with Contract Management Pro](cncore-comp-ccore.md)
+[Components installed with Contract Management Pro]()
 
-[Components installed with Contract Workspace](cncore-comp-contract-workspace.md)
+[Components installed with Contract Workspace]()
 
-[Components installed with Analytics Pack for Contract Management Pro](cncore-comp-analytics-pack-cmpro.md)
+[Components installed with Analytics Pack for Contract Management Pro]()
 
-[Contract request State and Contract document status in Contract Management Pro](cncore-cr-state-status.md)
+[Contract request State and Contract document status in Contract Management Pro]()
 
-[Clause Variation form](cncore-cv-form.md)
+[Signatory roles]()
 
-[Contract Configuration form](cncore-contract-config-form.md)
+[Clause Variation form]()
 
-[Properties installed to configure expiry notifications](cncore-properties-installed.md)
+[Contract Configuration form]()
 
-[Properties installed to configure contracts integrations](cncore-properties.md)
+[Properties installed to configure expiry notifications]()
 
-[Expiring Contracts Condition form fields](cncore-email-notif-expcont-form.md)
+[Properties installed to configure contracts integrations]()
 
-[Action assignment form](cmpro-actn-assignment-form.md)
+[Expiring Contracts Condition form fields]()
 
-[UFX Add on Event mapping form](cmpro-ufx-event-map-form.md)
+[Action assignment form]()
 
-[Obligation form](cncore-obligation-form.md)
+[UFX Add on Event mapping form]()
 
-[Obligation Management notifications](cncore-ob-mgmt-notification.md)
+[Obligation form]()
 
-[Contract Management Pro glossary](../concept/contract-management-pro-glossary.md#)
+[Obligation Management notifications]()
+
+[Contract Management Pro glossary]()
 

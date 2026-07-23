@@ -2,6 +2,7 @@
 title: Move conflicts for projects created via Excel upload
 description: Review the conflicts and decide whether you want to resolve or ignore them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/excel-upload-conflicts.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -111,7 +112,7 @@ Allocation Mismatch
 
 </td><td>
 
-The user's allocation doesn't match the allocation of the selected destination.For more information about allocations, see [Allocate a cost center, department, or workplace entity](../../workplace-space-management/task/add-cost-center-department-floor.md).
+The user's allocation doesn't match the allocation of the selected destination.For more information about allocations, see [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-cost-center-department-floor.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +120,7 @@ Flexible Destination
 
 </td><td>
 
-The selected destination is a flexible or shared location, not a fixed assignment.For more information about flexible and permanent spaces, see [Configure a workspace or desk as flexible or permanent](../../workplace-space-management/task/assign-a-flex-perm-space.md).
+The selected destination is a flexible or shared location, not a fixed assignment.For more information about flexible and permanent spaces, see [Configure a workspace or desk as flexible or permanent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/assign-a-flex-perm-space.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +128,7 @@ Capacity Exceeded
 
 </td><td>
 
-The selected destination exceeds its capacity when the move is completed.For more information about defining the capacity of a location, see [Define the capacity of workplace areas](../../workplace-service-delivery/task/define-capacity-of-workplace-areas-wsd.md).
+The selected destination exceeds its capacity when the move is completed.For more information about defining the capacity of a location, see [Define the capacity of workplace areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/define-capacity-of-workplace-areas-wsd.md).
 
 </td></tr><tr><td>
 
@@ -138,40 +139,40 @@ Duplicate destination location
 If the uploaded Excel sheet has the same location listed in two different rows, this conflict will occur.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](../concept/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Central](components-installed-with-workplace-central.md)
+[Components installed with Workplace Central]()
 
-[Space Optimization - Key features and actions](space-optmization-features-and-actions-.md)
+[Space Optimization - Key features and actions]()
 
-[Workplace Central Event planner](event-planner-key-features-actions-views.md)
+[Workplace Central Event planner]()
 
-[Scenario and Building - Views, states, settings, and key features](scenario-planning-views-actions-keyfeatures-.md)
+[Scenario and Building - Views, states, settings, and key features]()
 
-[Space request approvals, states, actions, and key features](space-request-states-and-view.md)
+[Space request approvals, states, actions, and key features]()
 
-[Move management key features and actions](move-mgmt-views-states-actions.md)
+[Move management key features and actions]()
 
-[Case Management - Key features, Actions &amp; Case details](case-management-key-features-actions-case-details.md)
+[Case Management - Key features, Actions &amp; Case details]()
 
-[Schedule Plan details form](schedule-plan-details-form.md)
+[Schedule Plan details form]()
 
-[Scenario details form](scenario-details-form.md)
+[Scenario details form]()
 
-[Space Deployment Plan](space-deployment-plan.md)
+[Space Deployment Plan]()
 
-[User Deployment Plan](user-deployment-plan.md)
+[User Deployment Plan]()
 
-[Excel column lengths for move projects](move-excel-char-limit.md)
+[Excel column lengths for move projects]()
 
-[Workplace Central troubleshooting](workplace-central-troubleshooting.md)
+[Workplace Central troubleshooting]()
 
-[Workplace Task form - Space Assignment task](workplace-task-space-assignment.md)
+[Workplace Task form - Space Assignment task]()
 
-[Neighborhood User Assignment Rule form](user-assignment-rule-form.md)
+[Neighborhood User Assignment Rule form]()
 
-[User Workplace Profile form](user-workplace-profile-form.md)
+[User Workplace Profile form]()
 

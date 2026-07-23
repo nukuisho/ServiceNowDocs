@@ -2,6 +2,7 @@
 title: Add content types to a permission
 description: Content types for a permission determine the access that users have to certain content in a forum.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/add-content-types-permission.html
 release: australia
 product: Communities
 classification: communities
@@ -34,12 +35,12 @@ Role required: sn\_communities.forum\_admin
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Create a permission](create-permission.md)
+**Parent Topic:**[Create a permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-permission.md)
 
 **Related topics**  
 
 
-[Add access types to a permission](define-access-type-permission.md)
+[Add access types to a permission]()
 
-[Create a permission exception](manage-permission-exceptions.md)
+[Create a permission exception]()
 

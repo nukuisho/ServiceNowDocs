@@ -2,6 +2,7 @@
 title: Create an issue for a third party or engagement
 description: Create an issue to help ensure that your concerns about a third party or engagement are remediated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-create.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -25,7 +26,7 @@ In an iterative process, before the TPR manager closes an assessment, the TPR ma
 
 ## Procedure
 
-1.  In the **Quick actions** box on the TPRM home page ![](../../grc-workspace-vrm/image/icon-tprm-ws-home.png), select **Create issue**.
+1.  In the **Quick actions** box on the TPRM home page \[Omitted image "icon-tprm-ws-home.png"\] Alt text:, select **Create issue**.
 
 2.  Select a template to fill in several fields on the form.
 
@@ -100,7 +101,7 @@ State
 
 </td><td>
 
-The state of an issue is updated as you perform actions that are associated with the issue. The workflow chain along the top of the **Risk overview** tab identifies the current state of the issue. See [Manage issues](tprm-ws-issue-manage.md).
+The state of an issue is updated as you perform actions that are associated with the issue. The workflow chain along the top of the **Risk overview** tab identifies the current state of the issue. See [Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-manage.md).
 
 </td></tr><tr><td>
 
@@ -179,14 +180,14 @@ The field might be filled in by a template.
 
 ## Result
 
-The highest priority issues are listed in the Issues by priority section of the Home page. The **Assigned to** user can manage the issue on the tabs of the Issue management page. See [Manage issues](tprm-ws-issue-manage.md).
+The highest priority issues are listed in the Issues by priority section of the Home page. The **Assigned to** user can manage the issue on the tabs of the Issue management page. See [Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-manage.md).
 
 **Related topics**  
 
 
-[TPRM Home page](../../grc-workspace-vrm/concept/tprm-ws-home-page.md)
+[TPRM Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-home-page.md)
 
-[Create an issue generation rule](tprm-generate-issue-rule.md)
+[Create an issue generation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-generate-issue-rule.md)
 
-[Manage issues](tprm-ws-issue-manage.md)
+[Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-manage.md)
 

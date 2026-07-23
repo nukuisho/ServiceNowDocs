@@ -2,6 +2,7 @@
 title: Override model ratings
 description: Override the risk rating and materiality tier of a model manually at any stages of its life-cycle. This helps maintain data accuracy, transparency, and governance when business context or expert judgment requires adjustments to system-calculated values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/override-model-ratings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,13 +22,13 @@ Role required: sn\_model\_risk\_mgmt.model\_governance or sn\_model\_risk\_mgmt.
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon ![](../image/list-icon-mrm.png).
+2.  Select the list icon \[Omitted image "list-icon-mrm.png"\] Alt text:.
 
 3.  From the list, navigate to **Models** &gt; **All**.
 
 4.  Select the model and go to the **Details** tab.
 
-5.  In the Risk &amp; materiality section, select the override icon ![](../image/edit-icon.png) on the **Risk rating** field.
+5.  In the Risk &amp; materiality section, select the override icon \[Omitted image "edit-icon.png"\] Alt text: on the **Risk rating** field.
 
 6.  On the Override risk rating dialog, fill in the fields.
 
@@ -38,7 +39,7 @@ Role required: sn\_model\_risk\_mgmt.model\_governance or sn\_model\_risk\_mgmt.
     |Reason for override|Context to justify the manual override of the system-calculated risk rating.|
     |Revert to computed|Option to revert to the system-calculated risk rating.|
 
-7.  In the Risk &amp; materiality section, select the override icon ![](../image/edit-icon.png) on the **Materiality tier** field.
+7.  In the Risk &amp; materiality section, select the override icon \[Omitted image "edit-icon.png"\] Alt text: on the **Materiality tier** field.
 
 8.  On the Override materiality tier dialog, fill in the fields.
 
@@ -52,5 +53,5 @@ Role required: sn\_model\_risk\_mgmt.model\_governance or sn\_model\_risk\_mgmt.
 9.  Select **Save**.
 
 
-**Parent Topic:**[Using Model Risk Management](../concept/using-mrm.md)
+**Parent Topic:**[Using Model Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-mrm.md)
 

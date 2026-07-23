@@ -2,6 +2,7 @@
 title: Enable notification for contract metadata extraction
 description: Enable the notification for contract metadata extraction to receive email notifications when metadata extraction is completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-notf-na-metadata.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -33,7 +34,7 @@ Role required: admin
 
 4.  On the Notification form, select the **Active** check box.
 
-    ![Activate check box in the metadata extraction email notification.](../image/cmpro-na-me-notf.png "Metadata extraction email notification")
+    \[Omitted image "cmpro-na-me-notf.png"\] Alt text: Activate check box in the metadata extraction email notification.
 
 5.  Select **Update**.
 
@@ -44,20 +45,20 @@ The metadata extraction email notification is activated and triggers when the me
 
 ## What to do next
 
-[Configure the workspace URL for contract metadata extraction notifications](cncore-config-ext-wrkspc-email.md)
+[Configure the workspace URL for contract metadata extraction notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.md)
 
-**Parent Topic:**[Configuring contract metadata extraction](cncore-conf-metadata-extraction.md)
+**Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
 **Related topics**  
 
 
-[Create use cases for contract metadata extraction](cmpro-na-usecase-me.md)
+[Create use cases for contract metadata extraction]()
 
-[Map a use case for contract metadata extraction](cmpro-na-usecase-mappings-me.md)
+[Map a use case for contract metadata extraction]()
 
-[Configure system properties for contract metadata extraction](cncore-conf-sys-prop-na.md)
+[Configure system properties for contract metadata extraction]()
 
-[Configure the workspace URL for contract metadata extraction notifications](cncore-config-ext-wrkspc-email.md)
+[Configure the workspace URL for contract metadata extraction notifications]()
 
-[Configure an extension point to add contract metadata](config-ext-pt-to-add-metadata.md)
+[Configure an extension point to add contract metadata]()
 

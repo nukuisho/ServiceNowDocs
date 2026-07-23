@@ -2,6 +2,7 @@
 title: Next Experience client-side scripting global variables
 description: Next Experience global variables are used in client scripts to determine whether Next Experience is applied to a page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-exp-client-script-globals.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Next Experience global variables are used in client scripts to determine whether
 
     Returns **true** if the page is running in the Next Experience Unified Navigation. This global variable exists only in the Unified Navigation.
 
-    For more information about the Unified Navigation, see [Using the Next Experience Unified Navigation](../../../get-started/servicenow-overview/concept/using-the-next-experience-global-header.md).
+    For more information about the Unified Navigation, see [Using the Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-the-next-experience-global-header.md).
 
 
 Client script:
@@ -35,7 +36,7 @@ if (NOW.isUsingPolaris && (!top.NOW || top.NOW.isPolarisWrapper !== "true")) {
 
 ```
 
-**Parent Topic:**[Configuring the Next Experience UI](../concept/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
 
 **Related topics**  
 

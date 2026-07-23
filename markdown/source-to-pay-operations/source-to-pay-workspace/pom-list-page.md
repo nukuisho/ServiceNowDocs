@@ -2,6 +2,7 @@
 title: POM list page
 description: As an Operational Buyer, use the list page to view all purchase order exceptions and work on the exceptions assigned to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/pom-list-page.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -55,14 +56,14 @@ All work
 -   Closed purchase order exceptions: Displays a list of all closed purchase order exceptions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Source-to-Pay Workspace list page](../../source-to-pay-operations/concept/source-to-pay-list-page.md)
+</table>**Parent Topic:**[Source-to-Pay Workspace list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-list-page.md)
 
 **Related topics**  
 
 
-[SPO list page](../../sourcing-procurement-operations/concept/procurement-specialist-list-page.md)
+[SPO list page]()
 
-[SLO list page](../../supplier-lifecycle-operations/concept/supp-workspace-list-page.md)
+[SLO list page]()
 
-[APO list page](../../accounts-payable-operations/concept/acc-pay-workspace-list-page.md)
+[APO list page]()
 

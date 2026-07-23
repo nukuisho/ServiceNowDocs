@@ -2,6 +2,7 @@
 title: Accessing DD requests that are in the contract risk process
 description: You can view the contracts associated with each engagement or third party and alongside detailed information such as the expiration, start date, end date, and state. You can also manage and update contract processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-contract-risk.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -18,12 +19,12 @@ You can view the contracts associated with each engagement or third party and al
 ## Accessing contract information
 
 1.  Select **Workspaces** &gt; **Vendor Management Workspace**.
-2.  On the **Risk** tab, select the home page icon ![](../image/icon-tprm-ws-home.png).
+2.  On the **Risk** tab, select the home page icon \[Omitted image "icon-tprm-ws-home.png"\] Alt text:.
 3.  In the Third-party risk overview section, select any number in a box to open the list of third parties or engagements with that value.
 
 4.  Select a third party or engagement name to open all tabs for the item and then select the **Documents** tab.
 
-    ![Access contracts for a third party or engagement.](../image/tprm-ws-dd-list-contracts.png)
+    \[Omitted image "tprm-ws-dd-list-contracts.png"\] Alt text: Access contracts for a third party or engagement.
 
 5.  Select a **Name** to view detailed information.
 
@@ -149,5 +150,5 @@ Select **Browse** in the **Attachments** section to select and add an attachment
 **Related topics**  
 
 
-[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_ContractManagement.md)
+[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ContractManagement.md)
 

@@ -2,13 +2,14 @@
 title: Approve or reject workplace contract in Workplace Central
 description: Approve or reject a workplace contract after it is submitted for review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-approve-lease-contract.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with Workplace Lease Administration from the Workplace Central, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Working with Workplace Lease Administration from the Workplace Central, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Approve or reject workplace contract in Workplace Central
@@ -44,12 +45,12 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 -   If the contract has a substate of Approved, the system changes the state to Active and removes the Substate value.
 -   When a contract with a state of Draft and a start date set to a date in the past is approved, the State value is automatically set to Active and the Substate value is left empty.
 
-**Parent Topic:**[Working with Workplace Lease Administration from the Workplace Central](../concept/working-with-lease-administration.md)
+**Parent Topic:**[Working with Workplace Lease Administration from the Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/working-with-lease-administration.md)
 
 **Related topics**  
 
 
-[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+[Create workplace contracts in Workplace Central]()
 
-[Submit a workplace contract for review in Workplace Central](wpc-submit-lease-contract-review.md)
+[Submit a workplace contract for review in Workplace Central]()
 

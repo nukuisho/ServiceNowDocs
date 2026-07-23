@@ -2,6 +2,7 @@
 title: View track approval for Workday Learning
 description: Track every pull that has been performed from ServiceNow to Workday Learning. View or edit details of the job, such as when did the job begin and end, when did the records start loading into staging tables, or did the job run completely or fail in between.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/track-approval-adl-intg.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,17 +28,17 @@ Role required: sn\_lrn\_workday.admin
 
 3.  On the form, edit the fields.
 
-    For a description of the field values, see [Edit a record in HR Service Delivery Integration with Workday Learning](../reference/sync-user-activity-form.md).
+    For a description of the field values, see [Edit a record in HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/sync-user-activity-form.md).
 
 
-**Parent Topic:**[Using HR Service Delivery Integration with Workday Learning](../concept/using-workday-learning-intg.md)
+**Parent Topic:**[Using HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-workday-learning-intg.md)
 
 **Related topics**  
 
 
-[View user activity for Workday Learning](sync-user-actitvity-wdl-intg.md)
+[View user activity for Workday Learning]()
 
-[Use transform maps](../concept/use-transform-maps-wd-learning.md)
+[Use transform maps]()
 
-[Import set tables in HR Service Delivery Integration with Workday Learning](../concept/import-set-tables.md)
+[Import set tables in HR Service Delivery Integration with Workday Learning]()
 

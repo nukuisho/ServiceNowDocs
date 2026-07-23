@@ -2,6 +2,7 @@
 title: Create a test in Test Management 2.0
 description: Create a test specifying conditions or steps to determine whether a feature is working correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/create-test2.html
 release: australia
 product: Test Management
 classification: test-management
@@ -23,15 +24,15 @@ Role required: sn\_test\_management.tester or sn\_test\_management.test\_manager
 
 1.  Create a test using either of the following options.
 
-<table id="choicetable_fmy_53j_5cb"><thead><tr><th align="left" id="d272199e61">
+<table id="choicetable_fmy_53j_5cb"><thead><tr><th align="left" id="d276481e61">
 
 Option
 
-</th><th align="left" id="d272199e64">
+</th><th align="left" id="d276481e64">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d272199e70">
+</th></tr></thead><tbody><tr><td id="d276481e70">
 
 **From Test Management 2.0**
 
@@ -41,7 +42,7 @@ Description
 2.  To create a test, click **New**.
 
 
-</td></tr><tr><td id="d272199e100">
+</td></tr><tr><td id="d276481e100">
 
 **From Agile Development 2.0**
 
@@ -126,7 +127,7 @@ Button used to add step to a test.
 
 </td></tr><tr><td>
 
-Change step order \(![Change step order icon](../../sdlc-scrum/image/draganddropicon.png)\)
+Change step order \(\[Omitted image "draganddropicon.png"\] Alt text: Change step order icon\)
 
 </td><td>
 
@@ -144,7 +145,7 @@ If this checkbox is not selected, you need not verify that if this step passed, 
 
 </td></tr><tr><td>
 
-Delete a test step \(![Delete a test step icon](../images/deleteteststep.png)\)
+Delete a test step \(\[Omitted image "deleteteststep.png"\] Alt text: Delete a test step icon\)
 
 </td><td>
 
@@ -156,7 +157,7 @@ Run
 
 </td><td>
 
-Button used to run steps, which is displayed only when the test is in the **Ready** state.See [Run your test assignments in Test Management 2.0](run-your-test-assignments.md).
+Button used to run steps, which is displayed only when the test is in the **Ready** state.See [Run your test assignments in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/run-your-test-assignments.md).
 
 </td></tr><tr><td>
 
@@ -201,16 +202,16 @@ To add a test to a test set:
 1.  Select the test from the Test list.
 2.  Click **Add to Test Set**.
 
-**Parent Topic:**[Testing using Test Management 2.0](../concept/release-readiness-testing.md)
+**Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/release-readiness-testing.md)
 
 **Related topics**  
 
 
-[Create a test set in Test Management 2.0](create-test-set.md)
+[Create a test set in Test Management 2.0]()
 
-[Test Board in Test Management 2.0](../concept/test-board.md)
+[Test Board in Test Management 2.0]()
 
-[Create a test execution suite in Test Management 2.0](create-test-execution-suite.md)
+[Create a test execution suite in Test Management 2.0]()
 
-[Run your test assignments in Test Management 2.0](run-your-test-assignments.md)
+[Run your test assignments in Test Management 2.0]()
 

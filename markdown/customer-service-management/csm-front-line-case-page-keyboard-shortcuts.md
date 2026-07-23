@@ -2,6 +2,7 @@
 title: Front-line case page keyboard shortcuts
 description: Use keyboard shortcuts to create comments, work notes, and emails quickly, when using the Front-line case page in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-front-line-case-page-keyboard-shortcuts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,6 +2,7 @@
 title: IRQ process management
 description: The first internal step after an engagement request is approved is to start the IRQ process to scope the risk by determining the third party's risk score.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-irq-tab.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -21,7 +22,7 @@ On the Due diligence management page, select the **DDR** number for any due dili
 
 The tab displays the list of all IRQ processes for the engagement request. For each IRQ process, the system auto-assigns a unique ID number that starts with the text INA.
 
-![Accessing the Vendor Management Workspace.](../image/tprm-ws-inherent-risk-assess-tab.png)
+\[Omitted image "tprm-ws-inherent-risk-assess-tab.png"\] Alt text: Accessing the Vendor Management Workspace.
 
 ## Viewing the list of internal risk assessments
 
@@ -76,11 +77,11 @@ Users who responded to the request.
 
     For each IRQ process, the system auto-assigns a unique ID number that starts with the text INA. Select an INA number to work on the IRQ process on the Internal assessments page.
 
-    ![Select the INA number to work on the Internal assessments page.](../image/tprm-ws-dd-mgt-tp-irq-ovw-tab.png)
+    \[Omitted image "tprm-ws-dd-mgt-tp-irq-ovw-tab.png"\] Alt text: Select the INA number to work on the Internal assessments page.
 
     -   The symbols indicate the state of each stage in the IRQ process for the request.
 
-        ![IRQ process stages.](../image/tprm-ws-irq-stage-indicators.png)
+        \[Omitted image "tprm-ws-irq-stage-indicators.png"\] Alt text: IRQ process stages.
 
     -   **Questionnaire requests** section: List of questionnaires that are associated with the third party. You can view each questionnaire by selecting the **Name**.
     -   **Tracking** section: Count of assessments associated with the third party that are in the **Open**, **Overdue**, and **Closed** state.
@@ -97,7 +98,7 @@ Users who responded to the request.
 
 -   **Scales tab on the Internal assessments page**
 
-    The tab lists the definitions of the calculated rating and tier values. See [Set up risk rating scales for scoring](../../grc-vendor-risk-implementation/task/tprm-risk-rating-scales-config.md) for instructions for defining the settings.
+    The tab lists the definitions of the calculated rating and tier values. See [Set up risk rating scales for scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.md) for instructions for defining the settings.
 
 -   **Questionnaire requests tab on the Internal assessments page**
 
@@ -171,19 +172,19 @@ Internal risk score
 
 An engagement risk-scoring rule specifies component criteria that determine which engagements are selected for assessment. For example, a rule could enable assessments for engagements that involve more than $40,000 annual business. Engagement scoring rules apply only to engagements.
 
- See [Define engagement risk scoring rules](../../grc-vendor-risk/task/tprm-engagement-scoring-rules-df.md).
+ See [Define engagement risk scoring rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-engagement-scoring-rules-df.md).
 
 </td></tr></tbody>
 </table>
--   **[Create new internal assessment form](../../grc-vendor-risk/reference/create-int-assess-form.md)**  
+-   **[Create new internal assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-int-assess-form.md)**  
 Use the internal assessment form to capture all the information that you need to create an internal assessment. As a third-party risk assessor, you can create an assessment template.
 
-**Parent Topic:**[Third-party Risk Management reference](../../grc-vendor-risk/concept/tprm-reference.md)
+**Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
 **Related topics**  
 
 
-[Assessing your third-party risk](../../grc-vendor-risk/concept/tprm-assessing-tpr.md)
+[Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md)
 
-[Respond to an internal assessment](../task/tprm-irq-respond-to.md)
+[Respond to an internal assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-irq-respond-to.md)
 

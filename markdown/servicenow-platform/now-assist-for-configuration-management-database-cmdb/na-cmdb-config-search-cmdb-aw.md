@@ -2,6 +2,7 @@
 title: Configure the Search CMDB agentic workflow
 description: Review and configure the settings of the Search CMDB agentic workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-config-search-cmdb-aw.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -30,10 +31,10 @@ Role required: admin
     2.  Open the two records and select **Index all tables** or **Index table**.
 
 
-**Parent Topic:**[Configuring Now Assist for CMDB](../../configuration-management/concept/now-assist-cmdb-configuring.md)
+**Parent Topic:**[Configuring Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 
 **Related topics**  
 
 
-[Use Now Assist to search the CMDB](na-cmdb-awf-search.md)
+[Use Now Assist to search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.md)
 

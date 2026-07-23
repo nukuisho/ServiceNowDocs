@@ -2,6 +2,7 @@
 title: Translated Name / Field table
 description: The Translated Name / Fields \[sys\_translated\] table stores translated values for text fields where the field type is translated\_field \(see the dictionary entry\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/r\_TranslatedNameFieldTable.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -23,14 +24,14 @@ This option is available for text fields up to 255 characters in length. Some ex
 -   Language: [BCP 47](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) code of the language for this translated text.
 -   Value: English value that causes this translated text to be displayed.
 
-![The Translated Name/Fields table with Spanish translations for name and field values.](../image/FieldList.png "Translated Name/Fields table")
+\[Omitted image "FieldList.png"\] Alt text: The Translated Name/Fields table with Spanish translations for name and field values.
 
-**Parent Topic:**[Translation tables](r_TranslationTables.md)
+**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslationTables.md)
 
 **Related topics**  
 
 
-[Translate a field value for the Classic Environment](../task/t_TranslateAFieldValue.md)
+[Translate a field value for the Classic Environment]()
 
-[Translate a related list name](../task/t_TranslateARelatedListName.md)
+[Translate a related list name]()
 

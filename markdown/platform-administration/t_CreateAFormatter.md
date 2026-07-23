@@ -2,6 +2,7 @@
 title: Create a formatter and add it to a form
 description: Create the formatter after creating the UI macro that defines the content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAFormatter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,22 +43,22 @@ With the UI macro in place, create the formatter that references it, and add it 
     The formatter appears on the form according to your selections.
 
 
-**Parent Topic:**[Using formatters](../concept/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
 
 **Related topics**  
 
 
-[Activity formatter](../concept/c_ActivityFormatter.md#)
+[Activity formatter]()
 
-[Create a UI macro for a formatter](t_CreateAUIMacro.md)
+[Create a UI macro for a formatter]()
 
-[Process flow formatter](../reference/r_ProcessFlowFormatter.md#)
+[Process flow formatter]()
 
-[Parent breadcrumbs formatter](t_TaskParentBreadcrumbsFormatter.md#)
+[Parent breadcrumbs formatter]()
 
-[Approval summarizer formatter](../../service-administration/reference/r_ApprovalSummarizerFormatter.md)
+[Approval summarizer formatter]()
 
-[Limit the number of activity stream entries](limit-activity-stream-entries.md)
+[Limit the number of activity stream entries]()
 
-[Override a formatter with macros](t_UIMacroOverride.md)
+[Override a formatter with macros]()
 

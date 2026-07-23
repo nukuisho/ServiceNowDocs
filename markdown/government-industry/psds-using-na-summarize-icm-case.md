@@ -2,6 +2,7 @@
 title: Summarize an investigative case using the Now Assist for PSDS Investigative case summarization skill
 description: Generate a summary directly from the investigative case workspace to help you understand the case context using the investigative case summarization skill in the Now Assist for Public Sector Digital Services \(PSDS\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-na-summarize-icm-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,19 +47,19 @@ Role required: admin
 
 2.  In the Case summary by Now Assist component, select **Summarize**.
 
-    ![AI-generated case summary for a case record.](../image/now_assist_psds_case_summary.png "Case record with case summary")
+    \[Omitted image "now\_assist\_psds\_case\_summary.png"\] Alt text: AI-generated case summary for a case record.
 
 3.  When you're finished summarizing a case, you can add it to the case work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d49570e167">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d39336e167">
 
 Option
 
-</th><th align="left" id="d49570e170">
+</th><th align="left" id="d39336e170">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d49570e176">
+</th></tr></thead><tbody><tr><td id="d39336e176">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -69,37 +70,37 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d49570e203">
+</td></tr><tr><td id="d39336e203">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../image/icon-collapse.png)\) to see more details or fewer summary details.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d49570e224">
+</td></tr><tr><td id="d39336e224">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d49570e247">
+</td></tr><tr><td id="d39336e247">
 
 **Copy the case summary**
 
 </td><td>
 
-Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the case summary information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d49570e263">
+</td></tr><tr><td id="d39336e263">
 
 **View the information about the case summary**
 
 </td><td>
 
-If you want to view more details about the summary, select the more info icon \(![More info icon.](../image/icon-more-info.png)\).
+If you want to view more details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
 </td></tr></tbody>
 </table>

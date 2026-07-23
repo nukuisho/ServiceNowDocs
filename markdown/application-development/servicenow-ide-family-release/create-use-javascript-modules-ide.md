@@ -2,6 +2,7 @@
 title: Create and use JavaScript modules in applications in the ServiceNow IDE
 description: Optimize your codebase by defining reusable code blocks with JavaScript modules in the ServiceNow IDE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/create-use-javascript-modules-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -17,7 +18,7 @@ Optimize your codebase by defining reusable code blocks with JavaScript modules 
 
 ## Before you begin
 
-Create, convert, or clone an application and add it to your workspace. For more information, see [Adding applications in ServiceNow IDE](../concept/creating-applications-servicenow-ide.md).
+Create, convert, or clone an application and add it to your workspace. For more information, see [Adding applications in ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/creating-applications-servicenow-ide.md).
 
 **Note:** To use TypeScript in modules, select TypeScript as the template type when creating an application.
 
@@ -25,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-To learn about support for using JavaScript modules in scoped applications, including some limitations, see [JavaScript modules and third-party libraries](../../servicenow-sdk/concept/javascript-modules-third-party-libraries.md). For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
+To learn about support for using JavaScript modules in scoped applications, including some limitations, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md). For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
 
 **Note:** With Now Assist for Code, you can use the Code autocomplete skill to generate code suggestions for module scripts. For more information, see [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/generate-code-with-autocomplete.md).
 
@@ -35,7 +36,7 @@ To learn about support for using JavaScript modules in scoped applications, incl
 
 2.  Open a workspace with an application.
 
-3.  From the Activity Bar, select the File Explorer view \(![File Explorer](../image/servicenow-ide-file-explorer-icon.png)\).
+3.  From the Activity Bar, select the File Explorer view \(\[Omitted image "servicenow-ide-file-explorer-icon.png"\] Alt text: File Explorer\).
 
 4.  In the `src/server` directory of the application, create a JavaScript or TypeScript file to contain the module code you want to reuse.
 
@@ -65,15 +66,15 @@ To learn about support for using JavaScript modules in scoped applications, incl
 
 7.  Use code from the exported module in other modules or server-side scripts.
 
-<table id="choicetable_kjx_xnm_pzb"><thead><tr><th align="left" id="d167831e200">
+<table id="choicetable_kjx_xnm_pzb"><thead><tr><th align="left" id="d164342e200">
 
 File
 
-</th><th align="left" id="d167831e203">
+</th><th align="left" id="d164342e203">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d167831e209">
+</th></tr></thead><tbody><tr><td id="d164342e209">
 
 **Module**
 
@@ -94,7 +95,7 @@ import { feature } from "path/to/module";
 3.  Call the module code from this module to reuse it.
 
 
-</td></tr><tr><td id="d167831e248">
+</td></tr><tr><td id="d164342e248">
 
 **Server-side script in source code**
 
@@ -119,9 +120,9 @@ script: `
     process(request, response)`,
         ```
 
-For more information about server-side scripts in source code, see [ServiceNow Fluent API reference](../../servicenow-sdk/reference/servicenow-fluent-api-reference.md).
+For more information about server-side scripts in source code, see [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md).
 
-</td></tr><tr><td id="d167831e308">
+</td></tr><tr><td id="d164342e308">
 
 **Server-side script record**
 
@@ -145,7 +146,7 @@ const { feature } = require("path/to/module");
 
 9.  From the Status Bar, select **Build and Install**.
 
-    ![Build and deploy](../image/servicenow-ide-build-icon.png)
+    \[Omitted image "servicenow-ide-build-icon.png"\] Alt text: Build and deploy
 
     The active file that's open in the editor determines which application to build. If no files are open, select the application to build when prompted.
 
@@ -154,12 +155,12 @@ const { feature } = require("path/to/module");
 
 ## What to do next
 
-To use third-party libraries in a JavaScript module, see [Use third-party libraries in applications in the ServiceNow IDE](use-third-party-libraries-ide.md).
+To use third-party libraries in a JavaScript module, see [Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md).
 
-**Parent Topic:**[Developing applications with the ServiceNow IDE](../concept/developing-applications-servicenow-ide.md)
+**Parent Topic:**[Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md)
 
 **Related topics**  
 
 
-[JavaScript modules and third-party libraries](../../servicenow-sdk/concept/javascript-modules-third-party-libraries.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md)
 

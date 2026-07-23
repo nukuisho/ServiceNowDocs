@@ -2,6 +2,7 @@
 title: Define security controls for an AI agent
 description: In the guided setup for an AI agent, define security controls for who can access the AI agent and what data the AI agent has access to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-sec-controls-aia.html
 release: australia
 topic_type: task
 last_updated: "2025-11-23"
@@ -21,7 +22,7 @@ Role required: sn\_aia.admin
 
 The **Define security controls** step is divided into two parts: **Define user access** and **Define data access**. The former creates an ACL that determines who can discover or invoke the AI agent. The latter defines the data that the AI agent has access to once it’s invoked.
 
-See [Security for AI agents](../concept/aia-security-implementation.md) for more information about creating ACLs and user identities for security for AI agent.
+See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for AI agent.
 
 ## Procedure
 
@@ -40,13 +41,13 @@ See [Security for AI agents](../concept/aia-security-implementation.md) for more
 
     Saving and moving onto the next step triggers the creation of an ACL for your AI agent. If you want to make changes later, you can return to the guided setup and change the options here. If you have the correct elevated role, you can also make edits directly on the ACL table.
 
-    ![Define user access step for Approval Assistant agent](../image/def-user-access-aia.png)
+    \[Omitted image "def-user-access-aia.png"\] Alt text: Define user access step for Approval Assistant agent
 
 3.  Define the user identity of the AI agent to determine what data it has access to.
 
     The two options are **Dynamic user** and **AI user**. The dynamic user is the user invoking the AI agent or the dynamic user of the agentic workflow calling on the AI agent. An AI user is a dedicated user that has its own specified roles that allow access, which could be more than the dynamic user.
 
-    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md). Select **AI user** as the identity type.
+    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See Create a user. Select **AI user** as the identity type.
 
     If you select **Dynamic user**, you can select the **Approved roles** that the AI agent runs with. By default, an AI agent runs as a dynamic user and has the roles of the invoking user. Select the approved roles to limit the data access that an AI agent could have. Role masking must be applied for all AI agents and agentic workflows to run as dynamic users.
 
@@ -56,7 +57,7 @@ See [Security for AI agents](../concept/aia-security-implementation.md) for more
 
     If you select **AI user**, the list of roles that the AI user has is displayed.
 
-    ![Define data access step for Approval Assistant agent](../image/def-data-access-aia.png)
+    \[Omitted image "def-data-access-aia.png"\] Alt text: Define data access step for Approval Assistant agent
 
 
 ## Result
@@ -65,5 +66,5 @@ You have created an ACL that determines who can discover and access your AI agen
 
 ## What to do next
 
-Select **Save and continue** to move to the next step, [Adding a trigger](add-trigger-aia.md). Adding a trigger is optional. You can also skip to the final step, [Select channels and access](channels-access-aia.md).
+Select **Save and continue** to move to the next step, [Adding a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aia.md). Adding a trigger is optional. You can also skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aia.md).
 

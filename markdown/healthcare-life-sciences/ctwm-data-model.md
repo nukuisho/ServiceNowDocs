@@ -2,6 +2,7 @@
 title: Care Team Work Management data model
 description: The following diagram shows the tables and their relationships within Care Team Work Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-data-model.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,5 +14,5 @@ breadcrumb: [Reference, Care Team Work Management, Healthcare Operations, Health
 
 The following diagram shows the tables and their relationships within Care Team Work Management.
 
-![Data model for Care Team Work Management.](../image/ctwm-data-model.png)
+\[Omitted image "ctwm-data-model.png"\] Alt text: Data model for Care Team Work Management.
 

@@ -2,11 +2,12 @@
 title: Adding custom attributes to the product list
 description: Use ProductList.extended to add custom attributes such as cost, margin, and discount to a product list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/productlist\_extended\_adding\_custom\_attributes\_in\_the\_productlist.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ProductList.Type options: Accessory and Component, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ProductList.Type options: Accessory and Component, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Adding custom attributes to the product list
@@ -57,10 +58,10 @@ ProductList.extended = {“SBQQ__Description__c”: “Text Description”}
 
 To add custom ProductList attributes to a layout, use `extended.{attributename}` in the value column:
 
-![CSV file](../images/cpq-product-list-custom-attributes.png)
+\[Omitted image "cpq-product-list-custom-attributes.png"\] Alt text: CSV file
 
 **Related topics**  
 
 
-[Using ProductList.extended to populate the Quote Line record](reverse_twin_productlist_extended_data_to_quoteline.md)
+[Using ProductList.extended to populate the Quote Line record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reverse_twin_productlist_extended_data_to_quoteline.md)
 

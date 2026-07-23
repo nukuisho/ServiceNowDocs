@@ -2,6 +2,7 @@
 title: Individual Life Servicing dashboard
 description: With the Individual Life Servicing dashboard, you can get an insight into how your team and business are performing for the individual policy service requests that were received for your insurance services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/individual-life-servicing-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ The Individual Life Servicing dashboard enables you to monitor the status of the
 
 ## Access the Individual Life Servicing dashboard
 
-To access the Individual Life Servicing dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Individual Life Servicing dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon\).
 
 Alternatively, you can navigate to **All** &gt; **Individual Life Servicing** &gt; **Analytics**.
 
@@ -111,5 +112,5 @@ Needs to be able to customize views.
 -   Individual Life Rejection Reason
 -   Individual Life Service
 
-**Parent Topic:**[Implementing Platform Analytics solutions](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
 

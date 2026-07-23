@@ -2,13 +2,14 @@
 title: Create a manifest file for Microsoft Outlook Add-in
 description: Create a manifest file and customize it as per your organization standards to configure the add-in in Microsoft Outlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery/add-manifest-file-for-outlook-addin.html
 release: australia
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a manifest file for Microsoft Outlook Add-in
@@ -121,17 +122,17 @@ The manifest file for the add-in is created.
 
 Perform any of the following actions as per requirement:
 
--   [Upload the manifest file for a single user](upload-manifest-for-single-user.md)
--   [Upload the manifest file in Microsoft Office 365](upload-the-manifest-file-office365.md)
+-   [Upload the manifest file for a single user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/upload-manifest-for-single-user.md)
+-   [Upload the manifest file in Microsoft Office 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/upload-the-manifest-file-office365.md)
 
-**Parent Topic:**[Configure Workplace Reservations for Microsoft Outlook Add-in](../concept/configure-workplace-rsv-for-outlook-addin.md)
+**Parent Topic:**[Configure Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/configure-workplace-rsv-for-outlook-addin.md)
 
 **Related topics**  
 
 
-[Install Workplace Reservations for Microsoft Outlook Add-in](install-workplace-reservations-for-outlook-addin.md)
+[Install Workplace Reservations for Microsoft Outlook Add-in]()
 
-[Upload the manifest file for a single user](upload-manifest-for-single-user.md)
+[Upload the manifest file for a single user]()
 
-[Upload the manifest file in Microsoft Office 365](upload-the-manifest-file-office365.md)
+[Upload the manifest file in Microsoft Office 365]()
 

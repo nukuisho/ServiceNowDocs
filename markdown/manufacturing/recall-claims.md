@@ -2,6 +2,7 @@
 title: Recall campaign data model
 description: The recall campaign framework enables you to initiate the reimbursement claim request from the OEM for the recalled products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/recall-claims.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,10 +26,10 @@ A recall is a measure taken by the manufactures when they identify a safety issu
 
 A recall is initiated when a particular defect impacts a significant number of products. The following diagram shows the entities and their relationships within the recall claims application.
 
-![Decorative](../image/Data-model-recall-campaign.png "Recall claim data model")
+\[Omitted image "Data-model-recall-campaign.png"\] Alt text: Decorative
 
--   **[Recall campaign tables](recall-claims-table.md)**  
+-   **[Recall campaign tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/recall-claims-table.md)**  
 This section explains the recall campaign tables in Manufacturing Commercial Operations.
 
-**Parent Topic:**[Data model](data-model.md)
+**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/data-model.md)
 

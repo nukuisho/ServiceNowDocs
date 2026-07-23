@@ -2,6 +2,7 @@
 title: ITSM spoke
 description: Provides flow and actions associated with ITSM. Requires the ITSM application suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/itsm-spoke.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -46,9 +47,9 @@ Provides flow and actions associated with ITSM. Requires the ITSM application su
 
 Users with the admin, flow\_designer, or action\_designer roles can open and view the steps of ITSM Spoke actions. To view data mappings between ITSM data types, view the Create Record step of the ITSM Spoke action. Most ITSM Spoke data is stored in extensions of the Task \[task\] table, which means that many of the data types share common fields.
 
-![Field values used to create an Change Request from an Incident record](../images/example-itsm-spoke-create-change-from-incident.png "Create Record step for the Create Normal Change Request from Incident action")
+\[Omitted image "example-itsm-spoke-create-change-from-incident.png"\] Alt text: Field values used to create an Change Request from an Incident record
 
 For example, the Create Normal Change Request from Incident action uses the common Task table fields for Short description, Configuration Item, Priority, Domain, Company, and Description to create a Change Request from an Incident.
 
-**Parent Topic:**[Spokes](../concept/spokes.md)
+**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
 

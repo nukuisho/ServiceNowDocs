@@ -2,6 +2,7 @@
 title: Close a job requisition
 description: Close a job requisition if it’s no longer required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/close-a-job-req.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -29,27 +30,27 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 4.  In the pop-up window, select **Cancel requisition** and select **Close**.
 
-    If a requisition is closed while it was on hold, the on hold state won't be retained. For more information, see [Job requisition state management](../reference/job-req-state-mngmnt.md).
+    If a requisition is closed while it was on hold, the on hold state won't be retained. For more information, see [Job requisition state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/job-req-state-mngmnt.md).
 
 
-**Parent Topic:**[Manage the job requisitions as a recruiter](../../employee-center/concept/manage-job-reqs.md)
+**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
 
 **Related topics**  
 
 
-[Put a job requisition on hold](put-req-on-hold.md)
+[Put a job requisition on hold]()
 
-[Withdraw hold on a job requisition](off-hold-job-req.md)
+[Withdraw hold on a job requisition]()
 
-[Duplicate a job requisition](duplicate-job-req.md)
+[Duplicate a job requisition]()
 
-[Reopen a job requisition](reopen-job-req.md)
+[Reopen a job requisition]()
 
-[Submit a job requisition for approval](submit-for-approval-job-req.md)
+[Submit a job requisition for approval]()
 
-[Cancel a submitted approval request](cancel-approval-job-req.md)
+[Cancel a submitted approval request]()
 
-[Resend a job requisition for approval](resubmit-approval-job-req.md)
+[Resend a job requisition for approval]()
 
-[Open a job requisition in your ATS](open-a-job-req-for-ats.md)
+[Open a job requisition in your ATS]()
 

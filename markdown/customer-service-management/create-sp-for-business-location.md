@@ -2,6 +2,7 @@
 title: Create and manage sold products for a business location
 description: Staff members with the location agent role can manage sold products for their business locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-sp-for-business-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -80,5 +81,5 @@ Internal or external entity that is involved in providing service to the custome
 **Related topics**  
 
 
-[Create a sold product](create-sold-item.md)
+[Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sold-item.md)
 

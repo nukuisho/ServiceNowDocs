@@ -2,6 +2,7 @@
 title: Configure user groups for dispatchers in Dispatcher Workspace
 description: Enable dispatchers to be a member of different user groups so they can efficiently manage agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-dispatcher-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Dispatch groups must be added to a dispatcher’s user record so they can see me
 
 Role required: admin
 
-Configure user groups for dispatchers in Dispatcher Workspace 
+\[Omitted video\] Description: Configure user groups for dispatchers in Dispatcher Workspace
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Configure user groups for dispatchers in Dispatcher Workspace
 
 5.  Select the Dispatch Group that you want the dispatcher to be a part of.
 
-6.  Select the Add icon ![add icon](../image/add-arrow.png).
+6.  Select the Add icon \[Omitted image "add-arrow.png"\] Alt text: add icon.
 
 7.  Repeat steps five and six until all Dispatch Groups are added.
 

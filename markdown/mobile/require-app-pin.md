@@ -2,6 +2,7 @@
 title: Require an app PIN for the mobile app
 description: Require users to enter a PIN when the application has been inactive for five minutes. To require the mobile user to set and enter a local application PIN, add the system property glide.sg.require\_mobile\_application\_pin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/require-app-pin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 Users generate a six-digit code for the app PIN. The PIN must be entered when they log in to an instance from their mobile device, or after the application has been inactive for more than five minutes. If your users have faceID, touchID, or similar biometric security configured on their phone, they can use biometric authentication in place of the PIN.
 
-![App PIN.](../image/app-pin.png)
+\[Omitted image "app-pin.png"\] Alt text: App PIN.
 
 ## Procedure
 
@@ -40,5 +41,5 @@ Users generate a six-digit code for the app PIN. The PIN must be entered when th
     **Note:** The mobile app is automatically locked after five minutes of inactivity. Users accessing the mobile app after a period of inactivity must enter their PIN code.
 
 
-**Parent Topic:**[Mobile system property configurations](../concept/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
 

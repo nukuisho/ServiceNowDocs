@@ -2,6 +2,7 @@
 title: Create a template by saving a form
 description: Save a populated form as a template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_SaveAFormAsATemplateInUI16OrUI15.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  In the template bar, click the plus icon \(+\).
 
-    ![Template form](../image/TemplateUI16Form.png)
+    \[Omitted image "TemplateUI16Form.png"\] Alt text: Template form
 
 4.  Enter a descriptive name to make it easy for a user to select the correct template.
 
@@ -36,24 +37,24 @@ Role required: admin
 6.  Click **Save**.
 
 
-**Parent Topic:**[Using form templates](../concept/c_Templates.md)
+**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md)
 
 **Related topics**  
 
 
-[Create a template using the Template form](t_CreateATemplateUsingTheTmplForm.md)
+[Create a template using the Template form]()
 
-[Create templates for related task records](create-templates-for-related-task-records.md)
+[Create templates for related task records]()
 
-[Schedule record creation from a template](t_ScheduleATemplate.md)
+[Schedule record creation from a template]()
 
-[Create a module for a template](t_CreateAModuleForATemplate.md)
+[Create a module for a template]()
 
-[Template bar](../concept/template-bar.md)
+[Template bar]()
 
-[Toggle the template bar](t_ToggleTheTemplateBar.md)
+[Toggle the template bar]()
 
-[Scripted templates](../reference/r_ScriptedTemplates.md)
+[Scripted templates]()
 
-[ACL rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-rule-types.md)
+[ACL rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/acl-rule-types.md)
 

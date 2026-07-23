@@ -2,6 +2,7 @@
 title: Create Approval Rules
 description: Configure approval rules that require one or more approvers to authorize an advanced response option before it is applied to a DLP incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-approval-rules.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -64,7 +65,7 @@ Execution order
 
 </td><td>
 
-The approval rule priority. This field indicates the order in which the approval rules are executed when two or more rules share the triggering conditions.
+Indicates the approval rule priority. The approval rule of the highest priority or the least order is selected.
 
  The approval rule with the lowest number has the highest priority. To set the order of operation, enter a value. For example, 100, 200, 300, and so on.
 
@@ -226,50 +227,50 @@ Option to select the approvers. 1.  Users and Groups:
 </table>9.  Select **Submit**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](../concept/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
 
-[DLP default configuration settings](configure-data-loss-prevention.md)
+[DLP default configuration settings]()
 
-[Create end user lookup rules](configure-enduser-lookup-rules.md)
+[Create end user lookup rules]()
 
-[Create assignment rules](create-assignment-rules.md)
+[Create assignment rules]()
 
-[Create incident consolidation rules](configure-incident-consolidation-rules-to-consolidate-your-dlp-incidents.md)
+[Create incident consolidation rules]()
 
-[Create response due date rules](setup-response-due-date-rules.md)
+[Create response due date rules]()
 
-[Create user instructions templates](create-and-manage-user-instructions-template-for-dlp-incidents.md)
+[Create user instructions templates]()
 
-[Create email templates](create-and-manage-email-templates.md)
+[Create email templates]()
 
-[Create a Data Loss Prevention Incident Response SLA trigger](sla-records.md)
+[Create a Data Loss Prevention Incident Response SLA trigger]()
 
-[Create a Data Loss Prevention Incident Response SLA definition](dlp-sla-definitions.md)
+[Create a Data Loss Prevention Incident Response SLA definition]()
 
-[Create assessments](create-and-manage-assessments-for-dlp-incidents.md)
+[Create assessments]()
 
-[Configure response option for your DLP incidents](configure-response-option-mapping.md)
+[Configure response option for your DLP incidents]()
 
-[Create incident response option rules](configure-end-user-action.md)
+[Create incident response option rules]()
 
-[Create age chart configurations](configure-age-chart.md)
+[Create age chart configurations]()
 
-[Create user delegate configurations](configure-delegation.md)
+[Create user delegate configurations]()
 
-[Create repeat offender identification rules](repeat-offender-identification-rules.md)
+[Create repeat offender identification rules]()
 
-[Create additional incident data fields](create-custom-fields-dlp.md)
+[Create additional incident data fields]()
 
-[DLP SLA Definition form](../reference/dlp-sla-def-properties.md)
+[DLP SLA Definition form]()
 
-[Configure advanced settings](configure-advanced-settings-dlp.md)
+[Configure advanced settings]()
 
-[Monitor DLP Integration Run process](../../dlp-microsoft/concept/configure-microsoft-dlp-integration-run-process.md)
+[Monitor DLP Integration Run process]()
 
-[DLP Incident Access Restrictions](../concept/dlp-incident-access-restrictions.md)
+[DLP Incident Access Restrictions]()
 
-[DLP Incidents Archival](dlp-archiving-rule.md)
+[DLP Incidents Archival]()
 

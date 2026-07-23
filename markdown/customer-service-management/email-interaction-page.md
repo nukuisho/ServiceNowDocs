@@ -1,18 +1,19 @@
 ---
 title: Email interaction sections
-description: The Email interaction sections enable you to manage information within the interaction record.
+description: Use the sections on the email interaction page to view and update contact, interaction, and activity details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/email-interaction-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-05-11"
+reading_time_minutes: 7
 keywords: [Email Interaction for CSM]
 breadcrumb: [Email Interaction for CSM reference, Reference, Customer Service Management]
 ---
 
 # Email interaction sections
 
-The Email interaction sections enable you to manage information within the interaction record.
+Use the sections on the email interaction page to view and update contact, interaction, and activity details.
 
 |Field|Description|
 |-----|-----------|
@@ -39,10 +40,10 @@ Lookup by name, phone, or email
 
 </td><td>
 
-The contact lookup component enables agents to do the following:-   Look up a contact by name, phone number, or email address. As the agent types characters in the search box, matching information appears in record cards below the search box.
--   Select a contact after searching by selecting the record card. The selected record card replaces the lookup component.
+Component for looking up a contact by name, phone number, or email address: -   Search for a contact by name, phone number, or email address. Matching results appear in record cards as characters are entered in the search box.
+-   Select a contact by selecting the matching record card. The record card replaces the lookup component.
 
-You can also create a record to add a guest user as a contact. For more information, see [Create a customer contact](../task/create-a-customer-contact_EaaI.md).
+You can also create a record to add a guest user as a contact. For more information, see [Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-customer-contact_EaaI.md).
 
 </td></tr></tbody>
 </table><table id="table_v4m_3f1_ycc"><thead><tr><th>
@@ -99,7 +100,7 @@ Guest Email
 
 </td><td>
 
-Email ID of the guest user.
+Email address of the guest user.
 
 </td></tr><tr><td>
 
@@ -115,7 +116,7 @@ State
 
 </td><td>
 
-Current state of the interaction. For more information, see [Interaction states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-states.md).
+Current state of the interaction. For more information, see [Interaction states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-states.md).
 
 </td></tr><tr><td>
 
@@ -135,11 +136,11 @@ Information about the consumer.
 
 </td></tr><tr><td>
 
-Requestor Organization
+Requester Organization
 
 </td><td>
 
-Organization requesting the omni-channel interactions
+Organization requesting the omnichannel interactions.
 
 </td></tr><tr><td>
 
@@ -172,7 +173,7 @@ Work notes
 
 </td><td>
 
-Internal notes documented for agent’s reference. These notes are visible only to agents and not to the customer. When a work note is created, it appears in the Activity stream. For more information on work notes, see [Compose a work note for internal use](../concept/composing-email-work-note.md#).
+Internal notes documented for the agent's reference. These notes are visible only to agents and not to customer. When a work note is created, it appears in the Activity stream. For more information on work notes, see [Compose a work note for internal use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/composing-email-work-note.md).
 
 </td></tr><tr><td>
 
@@ -180,7 +181,7 @@ Email
 
 </td><td>
 
-Compose and send emails without leaving the record. For more information, see [Compose an email response](../concept/composing-email-work-note.md#).**Note:** The first email response that the agent sends is used to calculate the first response time duration, which is then populated in the **First response wait time** field.
+Compose and send emails without leaving the record. For more information, see [Compose an email response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/composing-email-work-note.md).**Note:** The first email response that the agent sends is used to calculate the first response time duration, which is then populated in the **First response wait time** field.
 
 </td></tr><tr><td>
 
@@ -188,7 +189,7 @@ Filters
 
 </td><td>
 
-Enables you to filter emails, work notes, and field changes on the interaction.
+Filters for emails, work notes, and field changes on the interaction.
 
 </td></tr><tr><td>
 
@@ -196,7 +197,15 @@ Activity
 
 </td><td>
 
-Enables agents to view the email conversations between the agent and customer. For more information, see [Using the activity stream in an email interaction](../concept/using-activity-stream-in-an-email-interaction.md).
+View of email conversations between the agent and the customer. For more information, see [Using the activity stream in an email interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-activity-stream-in-an-email-interaction.md).
+
+</td></tr><tr><td>
+
+Summarize this interaction
+
+</td><td>
+
+Displays the AI-generated summary of the email interaction. Agents can refresh the summary, copy it, provide feedback, or save it to the interaction record. **Note:** AI-generated summaries may be inaccurate. Review the summary before using it. Check your entitlements to determine whether you have access to this feature.
 
 </td></tr></tbody>
 </table><table id="table_lhx_qz5_zdc"><thead><tr><th>
@@ -221,7 +230,7 @@ Recommended Actions
 
 </td><td>
 
-Displays the most relevant next steps based on the current context. For more information, see [Using the Recommended Actions application](../concept/ra-csm-using-recommended-actions.md).
+Displays the most relevant next steps based on the current context. For more information, see [Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-using-recommended-actions.md).
 
 </td></tr><tr><td>
 
@@ -229,7 +238,7 @@ Consumer Verify
 
 </td><td>
 
-Confirms the identity or details of the consumer involved in the interaction. For more information, see [Lookup and verify](../../../administer/workspace/concept/lookup-and-verify-overview.md).
+Confirms the identity or details of the consumer involved in the interaction. For more information, see [Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-and-verify-overview.md).
 
 </td></tr><tr><td>
 
@@ -237,7 +246,7 @@ Contact Verify
 
 </td><td>
 
-Confirms the identity or details of the contact involved in the interaction. For more information, see [Lookup and verify](../../../administer/workspace/concept/lookup-and-verify-overview.md).
+Confirms the identity or details of the contact involved in the interaction. For more information, see [Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-and-verify-overview.md).
 
 </td></tr><tr><td>
 
@@ -245,7 +254,7 @@ Response Template
 
 </td><td>
 
-Displays the response template required to respond to the customer. For more information, see [Use a response template to compose an email or a work note](../concept/composing-email-work-note.md#).
+Displays the response template required to respond to the customer. For more information, see [Compose emails and work notes using response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/composing-email-work-note.md).
 
 </td></tr><tr><td>
 
@@ -266,7 +275,64 @@ Customer History
 
 </td><td>
 
-Displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab includes a search field, filter, and date range selector that agents can use to find specific information in the history. For more information on the customer history, see [Customer History component features](../concept/customer-history-component-features.md).
+Displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab includes a search field, filter, and date range selector that agents can use to find specific information in the history. For more information on the customer history, see [Customer History component features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-history-component-features.md).
+
+</td></tr></tbody>
+</table><table id="table_overview_zdc"><thead><tr><th>
+
+Control
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Summarize
+
+</td><td>
+
+Generates an AI summary of the email interaction using ServiceNow Otto. The summary appears in the Interaction Summary card and may include Issue, Key Actions Taken, and Next Steps depending on the email content.**Note:** AI-generated summaries may be inaccurate. Review the summary before using it. Check your entitlements to determine whether you have access to this feature. For more information, see [AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/eaai-ai-summarization-email-interactions.md) and [Summarize an email interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/summarize-email-interaction-eaai.md)
+
+</td></tr><tr><td>
+
+View less or View more
+
+</td><td>
+
+Collapses or expands the AI summary card.
+
+</td></tr><tr><td>
+
+Copy icon
+
+</td><td>
+
+Copies the summary content to the clipboard.
+
+</td></tr><tr><td>
+
+Helpful or Not helpful icons
+
+</td><td>
+
+Submits feedback on the quality of the AI-generated summary.
+
+</td></tr><tr><td>
+
+Refresh icon
+
+</td><td>
+
+Regenerates the summary when email interaction data has changed since the original summary was created.
+
+</td></tr><tr><td>
+
+Information icon
+
+</td><td>
+
+Displays the AI disclaimer: `AI summarized this using the record details. Check it for accuracy.`
 
 </td></tr></tbody>
 </table><table id="table_kqr_qbv_zdc"><thead><tr><th>
@@ -283,7 +349,7 @@ Create Case
 
 </td><td>
 
-Enables the creation of a new case from the interaction.
+Creates a case from the interaction.
 
 </td></tr><tr><td>
 
@@ -307,7 +373,7 @@ Associate Record
 
 </td><td>
 
-Enables associating the existing cases with the current interaction.
+Associates existing cases with the current interaction.
 
 </td></tr><tr><td>
 
@@ -315,11 +381,21 @@ Assign to me
 
 </td><td>
 
-Assigns the interaction to the current agent.**Note:** Assign to me is visible only in interactions in the New state and with the Assigned to field as empty.
+Assigns the interaction to the current agent.**Note:** Assign to me is visible only in interactions in the New state and when the Assigned to field is empty.
+
+</td></tr><tr><td>
+
+Summarize
+
+</td><td>
+
+Generates an AI summary of the email interaction on demand. Check your entitlements to determine whether you have access to this feature. For more information, see [AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/eaai-ai-summarization-email-interactions.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Using the email interaction page](../concept/using-email-interaction-page.md)
+[Using email interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-email-interaction-page.md)
+
+[AI summarization of email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/eaai-ai-summarization-email-interactions.md)
 

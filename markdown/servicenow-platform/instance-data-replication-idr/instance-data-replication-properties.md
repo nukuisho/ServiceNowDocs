@@ -2,6 +2,7 @@
 title: Instance Data Replication system properties
 description: These system properties control the behavior of the Instance Data Replication \(IDR\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/instance-data-replication-properties.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -108,18 +109,18 @@ If this property isn't set or present, there's no limit on the number of records
 -   Default value:
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Instance Data Replication reference](../concept/reference-instance-data-replication.md)
+</table>**Parent Topic:**[Instance Data Replication reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/reference-instance-data-replication.md)
 
 **Related topics**  
 
 
-[Data privacy in Instance Data Replication](../concept/data-privacy-consumers-idr.md)
+[Data privacy in Instance Data Replication]()
 
-[Adapter descriptions for Instance Data Replication](adapter-descriptions.md)
+[Adapter descriptions for Instance Data Replication]()
 
-[Excluded tables in Instance Data Replication](IDR-excluded-tables.md)
+[Excluded tables in Instance Data Replication]()
 
-[Domain separation and IDR](instance-data-replication-domain-separation.md)
+[Domain separation and IDR]()
 
-[Instance Data Replication roles](instance-data-replication-roles.md#)
+[Instance Data Replication roles]()
 

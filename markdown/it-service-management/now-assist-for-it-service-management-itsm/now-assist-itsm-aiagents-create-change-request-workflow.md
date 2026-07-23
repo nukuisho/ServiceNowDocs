@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection create standard change request
 description: Use the create standard change request agentic workflow to help users create a standard, normal, or emergency change request in a conversational and intuitive way.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-create-change-request-workflow.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -48,12 +49,12 @@ You can access the standard change template recommender AI agent in the Define k
 
     The agent executes the request for the workflow.
 
-    ![Create standard change request agentic workflow output in ServiceNowAI Agent Studio.](../image/now-assist-create-change-agent-studio.png "Example of the create standard change request agentic workflow output in the ServiceNowAI Agent Studio")
+    \[Omitted image "now-assist-create-change-agent-studio.png"\] Alt text: Create standard change request agentic workflow output in ServiceNowAI Agent Studio.
 
 4.  Access and use the create standard change request agentic workflow from the Now Assist panel.
 
     You can query in the Now Assist panel to create a change request. For the query instructions, read the steps specified in the **List of steps** field of the corresponding AI agent \(standard change template recommender AI agent\).
 
-    ![Create standard change request agentic workflow output in the Now Assist panel.](../image/now-assist-create-change-nap.png "Example of the create standard change request agentic workflow output in the Now Assist panel")
+    \[Omitted image "now-assist-create-change-nap.png"\] Alt text: Create standard change request agentic workflow output in the Now Assist panel.
 
 

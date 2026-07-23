@@ -2,6 +2,7 @@
 title: Create a landing page variant
 description: Create a variant of your landing page to build a custom portal experience for your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/configure-report-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -27,7 +28,7 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
 3.  Select the **Settings** tab.
 
-    ![Settings tab](../image/settings_tab_uibuilder.png)
+    \[Omitted image "settings\_tab\_uibuilder.png"\] Alt text: Settings tab in UI Builder showing landing page configuration options and duplicate action
 
 4.  Select **Duplicate**.
 
@@ -37,7 +38,7 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
 6.  Define who can view your page by selecting **Add an audience** and selecting or defining the audience.
 
-    For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
+    For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-audiences.md).
 
 7.  Select **Create**.
 
@@ -46,17 +47,17 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
     The order of the variant defines the copy to be used.
 
 
--   **[Landing page configuration example](landing-page-example.md)**  
+-   **[Landing page configuration example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/landing-page-example.md)**  
 Learn how to configure a landing page through an example configuration process.
 
-**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](../concept/uib-aws.md)
+**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/uib-aws.md)
 
 **Related topics**  
 
 
-[Enable a detailed data display within a report](drill-down-report.md)
+[Enable a detailed data display within a report]()
 
-[Configure quick links in Agent Workspace for HR Case Management](quick-links-aws.md)
+[Configure quick links in Agent Workspace for HR Case Management]()
 
-[Reorder the navigation pane modules in HR Agent Workspace](reorder-pane-modules-aws.md)
+[Reorder the navigation pane modules in HR Agent Workspace]()
 

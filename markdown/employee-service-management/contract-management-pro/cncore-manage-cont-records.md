@@ -2,6 +2,7 @@
 title: Manage contract records
 description: As administrator manage contract records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-manage-cont-records.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -15,21 +16,21 @@ breadcrumb: [Manage, Contract Management Pro, Legal and Contract Operations, Emp
 
 As administrator manage contract records.
 
--   **[View a contract record](cncore-view-contract-rec.md)**  
+-   **[View a contract record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-view-contract-rec.md)**  
 View the history of a contract request to track changes, review the audit trail, and update fields. Easily see the date a contract was modified and who modified it.
--   **[Modify a contract record](cncore-modify-contract-rec.md)**  
+-   **[Modify a contract record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-modify-contract-rec.md)**  
 After a contract record is created, you can change the end date, parent contract, and contract model.
--   **[Configure fields in contract template to display correct sys\_id value in contract documents](cncore-addin-adv-script.md)**  
+-   **[Configure fields in contract template to display correct sys\_id value in contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-adv-script.md)**  
 As a contract configurator, update an advanced script to print the correct display value for sys\_id variables in the generated contract document.
 
-**Parent Topic:**[Managing Contract Management Pro](../concept/cncore-manage-cmpro.md)
+**Parent Topic:**[Managing Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
 
 **Related topics**  
 
 
-[Manage clauses, tables, and contract templates](../concept/cncore-manage-clauses-ctemplates.md)
+[Manage clauses, tables, and contract templates]()
 
-[Platform Analytics Solutions for Contract Management Pro](../../../use/application-content-packs/concept/cncore-analytics-pa.md)
+[Platform Analytics Solutions for Contract Management Pro]()
 
-[Modify assignment rule for contract requests](cncore-create-assign-rule.md)
+[Modify assignment rule for contract requests]()
 

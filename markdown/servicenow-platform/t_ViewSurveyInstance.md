@@ -2,6 +2,7 @@
 title: View a survey instance
 description: A survey instance represents one questionnaire assigned to one user. You view an instance to verify that survey instances were created, to check the state of a survey instance, or to reassign a survey instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewSurveyInstance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +31,7 @@ Role required: admin or survey\_admin
     -   **All**: Displays survey instances in all states. By default, these instances are sorted in ascending order by the **Number** field.
 2.  Open a survey instance from the required sub-module.
 
-    By default, you can view the following fields in the [Survey Instance form](../reference/survey-instance-form.md) for all sub-modules other than **Completed**.
+    By default, you can view the following fields in the [Survey Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-instance-form.md) for all sub-modules other than **Completed**.
 
     -   **Number**
     -   **Metric type**
@@ -47,44 +48,44 @@ Role required: admin or survey\_admin
     -   When you open an instance in the **Completed** sub-module, you are redirected to the User's Response page.
     -   Each survey instance is stored as a record on the Assessment Instance \[asmt\_assessment\_instance\] table with a modified view for survey use.
 
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](../concept/c_SurveyDesigner.md)
+[Survey designer]()
 
-[Survey users and groups](../concept/c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Copy a survey](copy-survey.md)
+[Copy a survey]()
 
-[Publish a survey](t_PublishASurvey.md)
+[Publish a survey]()
 
-[Customize the appearance of a survey](t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Survey definitions](../concept/c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Create a survey designer template question](t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](../concept/c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](../concept/c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](../concept/c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Sentiment analysis for surveys](../concept/sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](../concept/c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](../concept/survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](../concept/c_MigrateSurveys.md)
+[Legacy survey migration]()
 
-[Schedule periods](../concept/c_SchedulePeriods.md)
+[Schedule periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SchedulePeriods.md)
 
-[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduleEvents.md)
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduleEvents.md)
 

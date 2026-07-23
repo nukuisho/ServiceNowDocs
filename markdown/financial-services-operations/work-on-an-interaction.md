@@ -2,10 +2,12 @@
 title: Work on an interaction in Agentic Contact Center for Banking
 description: Manage customer interactions in the Interaction page, from accepting incoming calls to resolving issues with AI-powered assistance. Customer service representatives \(CSRs\) can verify customer identity, use AI-generated insights, and complete interactions with automated wrap-up summaries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-on-an-interaction.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [work on a banking interaction, manage banking customer interactions, customer context summarization, verify banking customer identity, agentic contact center ai-generated insights, agentic contact center wrap-up summary, agentic contact center interaction page, agentic contact center csr interaction workflow, agentic contact center create interaction record]
 breadcrumb: [Use, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -43,7 +45,7 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
     The chat is specific to this interaction record. If you navigate away, you can resume the chat by selecting **Ask Now Assist**.
 
-    For more information, see [Request AI agent support in the Interaction page](../../fso-now-assist/task/request-ai-agent-interaction-workspace.md).
+    For more information, see [Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/request-ai-agent-interaction-workspace.md).
 
 6.  After resolving the customer's issues, end the chat or call.
 
@@ -56,18 +58,18 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
 The interaction is closed.
 
-**Parent Topic:**[Financial Services](../../fso-common/concept/fso-overview.md)
+**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[Interaction page for Agentic Contact Center for Banking](../concept/interaction-workspace-for-agentic-contact-center-for-banking.md)
+[Interaction page for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/interaction-workspace-for-agentic-contact-center-for-banking.md)
 
-[Summarize customer interaction context in the Interaction page](../../fso-now-assist/task/summarize-customer-context-fso.md)
+[Summarize banking customer interaction context in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-customer-context-fso.md)
 
-[Request AI agent support in the Interaction page](../../fso-now-assist/task/request-ai-agent-interaction-workspace.md)
+[Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/request-ai-agent-interaction-workspace.md)
 
-[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md)
+[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md)
 
 [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
 

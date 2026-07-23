@@ -2,6 +2,7 @@
 title: Configure a Record producer
 description: Make a Workplace service available to employees as a self-service option. Configure a record producer to display the service as a catalog item in the Workplace Services catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/wsd-create-record-producer.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -113,7 +114,7 @@ Select this option to enable users to expand help for all questions.
     -   Reference
     -   Select Box
     -   Single Line Text
-    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) Types of service catalog variables.
+    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_VariableTypes.md) Types of service catalog variables.
 
 7.  Select **Submit**.
 
@@ -124,42 +125,42 @@ The record producer is created.
 
 ## What to do next
 
-Link the record producer to the workplace service, see [Create a Workplace service](create-workplace-service.md).
+Link the record producer to the workplace service, see [Create a Workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/create-workplace-service.md).
 
-**Parent Topic:**[Configuring Workplace Case Management](../concept/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Case Management](install-workplace-case-mgmt.md)
+[Install Workplace Case Management]()
 
-[Create a Workplace case template](wsd-case-template.md)
+[Create a Workplace case template]()
 
-[Create a Workplace task template](wsd-task-template.md)
+[Create a Workplace task template]()
 
-[Smart Assessment for Workplace Case and Task](smart-assessment-for-workplace-case-and-task.md)
+[Smart Assessment for Workplace Case and Task]()
 
-[Automating seat assignment for new hires](../concept/auto-assign-new-hires.md)
+[Automating seat assignment for new hires]()
 
-[Configure Approval options](config-approval-optns.md)
+[Configure Approval options]()
 
-[Configuring a record producer for request edit](../concept/config-case-edit-rp.md)
+[Configuring a record producer for request edit]()
 
-[Configuring a record producer for reservation](../concept/config-reservation-rp.md)
+[Configuring a record producer for reservation]()
 
-[Create an SLA Definition](create-sla-defn-case-mgmt.md)
+[Create an SLA Definition]()
 
-[Create a Workplace service](create-workplace-service.md)
+[Create a Workplace service]()
 
-[Add a workplace service item to a workplace service](add-workplace-service-items.md)
+[Add a workplace service item to a workplace service]()
 
-[Create a workplace template configuration](create-workplace-template-confguration.md)
+[Create a workplace template configuration]()
 
-[Create a workplace field mapping](create-workplace-field-mapping.md)
+[Create a workplace field mapping]()
 
-[Configure an escalation rule](configure-escalation-rule.md)
+[Configure an escalation rule]()
 
-[Add Fulfillment instructions](add-fulfillment-instructions.md)
+[Add Fulfillment instructions]()
 
-[Group similar workplace cases under a parent case](group-similar-workplace-cases.md)
+[Group similar workplace cases under a parent case]()
 

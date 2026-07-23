@@ -2,6 +2,7 @@
 title: Configure content links
 description: Use content links to create navigational links to information outside your instance. Content links are the predecessors to navigation menus.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_ConfigureContentLinks.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -52,24 +53,24 @@ After the content link is configured, it must be defined in a list block. List b
 7.  Click **Update**.
 
 
-**Parent Topic:**[Types of content blocks](../reference/r_TypesOfContentBlocks.md)
+**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
 
 **Related topics**  
 
 
-[Configure a header block](t_HeaderBlock.md)
+[Configure a header block]()
 
-[Create a navigation menu block](t_CreateNavigationMenuBlock.md)
+[Create a navigation menu block]()
 
-[Configure dynamic blocks](t_CreateADynamicBlock.md)
+[Configure dynamic blocks]()
 
-[Customize the list block](t_DefineTheListBlock.md)
+[Customize the list block]()
 
-[Configure a static HTML block](t_StaticHTMLBlock.md)
+[Configure a static HTML block]()
 
-[Configure Flash movie blocks](t_FlashMovieBlock.md)
+[Configure Flash movie blocks]()
 
-[Configure iFrames](t_IFrame.md)
+[Configure iFrames]()
 
-[Configure a detailed content block](t_DetailedContentBlock.md)
+[Configure a detailed content block]()
 

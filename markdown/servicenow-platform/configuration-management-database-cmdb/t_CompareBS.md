@@ -2,6 +2,7 @@
 title: Compare two versions of an application service in classic Service Mapping
 description: You can see a summary of application service changes at a glance by comparing two versions of an application service. This feature is useful for checking the application service status before and after a certain change or problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CompareBS.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -41,37 +42,37 @@ Service Mapping, if deployed, tracks and shows all changes to a CI including con
 
 3.  On the history timeline, set the time range of changes that you want to view.
 
-<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d452339e184">
+<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d465454e184">
 
 Option
 
-</th><th align="left" id="d452339e187">
+</th><th align="left" id="d465454e187">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d452339e193">
+</th></tr></thead><tbody><tr><td id="d465454e193">
 
 **To set the time range of the history timeline**
 
 </td><td>
 
-Click the hour, day, week, or month icons.![Click Hours, Days, Weeks, or Months to set the time range of the history scale.](../image/MapHistoryTimeRangeIcons.png)
+Click the hour, day, week, or month icons.\[Omitted image "MapHistoryTimeRangeIcons.png"\] Alt text: Click Hours, Days, Weeks, or Months to set the time range of the history scale.
 
-</td></tr><tr><td id="d452339e208">
+</td></tr><tr><td id="d465454e208">
 
 **To increase or decrease the time range**
 
 </td><td>
 
-Click the zoom in and zoom out icons.![Click Zoom in and Zoom out to change the time range.](../image/MapHistoryPlusMinusIcons.png)
+Click the zoom in and zoom out icons.\[Omitted image "MapHistoryPlusMinusIcons.png"\] Alt text: Click Zoom in and Zoom out to change the time range.
 
-</td></tr><tr><td id="d452339e223">
+</td></tr><tr><td id="d465454e223">
 
 **To change the upper limit on your history range**
 
 </td><td>
 
-Click the history scale.![Click the history scale to mark the time which serves as the upper limit.](../image/MapHistoryMarkedPoint.png)
+Click the history scale.\[Omitted image "MapHistoryMarkedPoint.png"\] Alt text: Click the history scale to mark the time which serves as the upper limit.
 
  The time that serves as the upper limit appears above the history timeline.
 
@@ -79,7 +80,7 @@ Click the history scale.![Click the history scale to mark the time which serves 
 
 You cannot set the lower limit on your history range to a time before this service instance was created. This time is marked with the **IT Service Created** event on the history timeline.
 
-![The IT Service Created pointer on the History timeline.](../image/MapHistoryBSCreatedPointer.png)
+\[Omitted image "MapHistoryBSCreatedPointer.png"\] Alt text: The IT Service Created pointer on the History timeline.
 
 </td></tr></tbody>
 </table>    The map shows the history view of the service instance for the time you selected.
@@ -88,17 +89,17 @@ You cannot set the lower limit on your history range to a time before this servi
 
 4.  Click the **Compare** icon.
 
-    ![The Compare icon on the Map page.](../image/MapHistoryCompareIcon.png)
+    \[Omitted image "MapHistoryCompareIcon.png"\] Alt text: The Compare icon on the Map page.
 
 5.  Set **Compare point 1** and **Compare point 2** as the two points in time for the comparison.
 
     You can drag the pointers on the history scale to set corresponding time points.
 
-    ![Drag pointers to set time points.](../image/MapHistoryComparePointers.png)
+    \[Omitted image "MapHistoryComparePointers.png"\] Alt text: Drag pointers to set time points.
 
     If the history scale does not include the time set for comparison, then its corresponding pointer appears next to the compare point in yellow:
 
-    ![A yellow pointer](../image/MapHistoryComparePointersYellow.png)
+    \[Omitted image "MapHistoryComparePointersYellow.png"\] Alt text: A yellow pointer
 
     **Note:** If there are no changes to the service during the time interval specified by **Compare point 1** and **Compare point 2**, then no change details are displayed.
 
@@ -108,7 +109,7 @@ You cannot set the lower limit on your history range to a time before this servi
 
 7.  Select a marked CI to see the relevant change record on the **Changes** tab.
 
-    ![Selecting a changed CI on the comparison map marks the relevant change on the Changes tab.](../image/MapHistoryComparisonResult.png)
+    \[Omitted image "MapHistoryComparisonResult.png"\] Alt text: Selecting a changed CI on the comparison map marks the relevant change on the Changes tab.
 
 8.  If Service Mapping is deployed, you can compare two versions of a configuration file that appears on the map as Updated:
 
@@ -116,7 +117,7 @@ You cannot set the lower limit on your history range to a time before this servi
 
     2.  In the **Properties** pane, click the link to the updated file.
 
-        ![Click the link to see file comparison.](../image/MapHistoryComparisonFileTrack.png)
+        \[Omitted image "MapHistoryComparisonFileTrack.png"\] Alt text: Click the link to see file comparison.
 
         The **Tracked Configuration Files Version Compare** tab opens showing two versions of the configuration file side by side.
 
@@ -127,7 +128,7 @@ You cannot set the lower limit on your history range to a time before this servi
         -   Purple — Updated line
         -   Pink — New line
         -   Gray — Deleted line
-    4.  Navigate between the changes using the Next difference icon ![image.next-difference-icon] and the Previous difference icon ![image.previous-difference-icon].
+    4.  Navigate between the changes using the Next difference icon \[Omitted image "image.next-difference-icon"\] Alt text: and the Previous difference icon \[Omitted image "image.previous-difference-icon"\] Alt text:.
 
     5.  Close the **Tracked Configuration Files Version Compare** tab when finished.
 
@@ -137,7 +138,7 @@ You cannot set the lower limit on your history range to a time before this servi
 **Related topics**  
 
 
-[View the change history of application services in classic Service Mapping](t_ViewCIChanges.md)
+[View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_ViewCIChanges.md)
 
-[Compare versions of CI configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/compare-configuration-files.md)
+[Compare versions of CI configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/compare-configuration-files.md)
 

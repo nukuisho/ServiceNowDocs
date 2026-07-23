@@ -2,11 +2,12 @@
 title: Scan Engine definitions: Security
 description: Scan Engine security definitions measure implementation of protocols across a ServiceNow instance to prevent unauthorized access, data breaches, cyber attacks, and potential vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions-security.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 38
-breadcrumb: [View and modify Scan Engine definitions, Scan Engine definitions, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
 
 # Scan Engine definitions: Security
@@ -143,7 +144,7 @@ Activate the **High Security** plugin.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=high-security-plugin.html)
+[Documentation](https://www.servicenow.com/docs/access?context=high-security-plugin)
 
 </td></tr><tr><td>
 
@@ -175,7 +176,7 @@ Activate the Contextual Security: Role Management V2 plugin.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=Role-Mgmt-V2.html)
+[Documentation](https://www.servicenow.com/docs/access?context=Role-Mgmt-V2)
 
 </td></tr><tr><td>
 
@@ -239,7 +240,7 @@ Create a new ACL with a type of Client Callable Script Include and set the name 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=acl-rule-types.html)
+[Documentation](https://www.servicenow.com/docs/access?context=acl-rule-types)
 
 </td></tr><tr><td>
 
@@ -271,7 +272,7 @@ Set the value to "Deny".
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_DefaultDenyProperty.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_DefaultDenyProperty)
 
 </td></tr><tr><td>
 
@@ -303,7 +304,7 @@ Check the read only flag on the **field\_\_\_**UICTRL\_0\_\_\_table\_name.**fiel
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_ModifyADictionaryEntryFromAForm.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_ModifyADictionaryEntryFromAForm)
 
 </td></tr><tr><td>
 
@@ -335,7 +336,7 @@ Check the mandatory flag on the field's dictionary record to make the field mand
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateAUIPolicy.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAUIPolicy)
 
 </td></tr><tr><td>
 
@@ -367,7 +368,7 @@ Create a read ACL with an operation of read where the name of the ACL matches th
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=acl-rule-types.html)
+[Documentation](https://www.servicenow.com/docs/access?context=acl-rule-types)
 
 </td></tr><tr><td>
 
@@ -399,7 +400,7 @@ Deactivate the admin account and remove any group and role association from the 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=change-default-credentials.html)
+[Documentation](https://www.servicenow.com/docs/access?context=change-default-credentials)
 
 </td></tr><tr><td>
 
@@ -431,7 +432,7 @@ Either update the value of the **glide.ui.escape\_html\_list\_field** system pro
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=escape-html)
+[Documentation](https://www.servicenow.com/docs/access?context=escape-html)
 
 </td></tr><tr><td>
 
@@ -463,7 +464,7 @@ Either update the value of the **glide.ui.escape\_all\_script** system property 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=escape-jelly.html)
+[Documentation](https://www.servicenow.com/docs/access?context=escape-jelly)
 
 </td></tr><tr><td>
 
@@ -495,7 +496,7 @@ Either update the value of the **glide.html.escape\_script** system property to 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=sc-escape-javascript.html)
+[Documentation](https://www.servicenow.com/docs/access?context=sc-escape-javascript)
 
 </td></tr><tr><td>
 
@@ -527,7 +528,7 @@ Either update the value of the **glide.script.use.sandbox** system property to *
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_ScriptSandboxing.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_ScriptSandboxing)
 
 </td></tr><tr><td>
 
@@ -559,7 +560,7 @@ Either update the value of the **glide.ui.security.allow\_codetag** system prope
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=allow-embedded-html-code.html)
+[Documentation](https://www.servicenow.com/docs/access?context=allow-embedded-html-code)
 
 </td></tr><tr><td>
 
@@ -591,7 +592,7 @@ Either update the value of the **glide.ui.security.codetag.allow\_script** syste
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_HighSecuritySettings.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_HighSecuritySettings)
 
 </td></tr><tr><td>
 
@@ -623,7 +624,7 @@ Either update the value of the **glide.script.allow.ajaxevaluate** system proper
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=enable-ajaxevaluate.html)
+[Documentation](https://www.servicenow.com/docs/access?context=enable-ajaxevaluate)
 
 </td></tr><tr><td>
 
@@ -655,7 +656,7 @@ Either update the value of the **glide.html.sanitize\_all\_fields** system prope
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_HTMLSanitizer.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_HTMLSanitizer)
 
 </td></tr><tr><td>
 
@@ -687,7 +688,7 @@ Either update the value of the **glide.soap.strict\_security** system property t
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=soap-request-strict-security.html)
+[Documentation](https://www.servicenow.com/docs/access?context=soap-request-strict-security)
 
 </td></tr><tr><td>
 
@@ -719,7 +720,7 @@ Either update the value of the **glide.ui.jelly.js\_interpolation.protect** syst
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=jelly-js-interpolation.html)
+[Documentation](https://www.servicenow.com/docs/access?context=jelly-js-interpolation)
 
 </td></tr><tr><td>
 
@@ -751,7 +752,7 @@ Either update the value of the **glide.export.escape\_formulas** system property
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=escape-excel-formula.html)
+[Documentation](https://www.servicenow.com/docs/access?context=escape-excel-formula)
 
 </td></tr><tr><td>
 
@@ -783,7 +784,7 @@ Activate the **IP Range Based Authentication** plugin if only certain IP address
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=restrict-access-to-specific-ip-ranges.html)
+[Documentation](https://www.servicenow.com/docs/access?context=restrict-access-to-specific-ip-ranges)
 
 </td></tr><tr><td>
 
@@ -815,7 +816,7 @@ Activate the **Security Jump Start \(ACL Rules\)** plugin.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=security-jump-start-acl-rules.html)
+[Documentation](https://www.servicenow.com/docs/access?context=security-jump-start-acl-rules)
 
 </td></tr><tr><td>
 
@@ -847,7 +848,7 @@ Either update the value of the **glide.security.strict.updates** system property
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=double-check-inbound-transactions.html)
+[Documentation](https://www.servicenow.com/docs/access?context=double-check-inbound-transactions)
 
 </td></tr><tr><td>
 
@@ -879,7 +880,7 @@ Either update the value of the **glide.security.strict.actions** system property
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=check-ui-action-conditions-before-execution.html)
+[Documentation](https://www.servicenow.com/docs/access?context=check-ui-action-conditions-before-execution)
 
 </td></tr><tr><td>
 
@@ -911,7 +912,7 @@ Either update the value of the **glide.security.diag\_txns\_acl** system propert
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=performance-monitoring-acl.html)
+[Documentation](https://www.servicenow.com/docs/access?context=performance-monitoring-acl)
 
 </td></tr><tr><td>
 
@@ -943,7 +944,7 @@ Either update the value of the **glide.script.secure.ajaxgliderecord** system pr
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=enabling-ajaxgliderecord-acl-checking.html)
+[Documentation](https://www.servicenow.com/docs/access?context=enabling-ajaxgliderecord-acl-checking)
 
 </td></tr><tr><td>
 
@@ -975,7 +976,7 @@ Either update the value of the **glide.soap.require\_content\_type\_xml** system
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=soap-content-type-checking.html)
+[Documentation](https://www.servicenow.com/docs/access?context=soap-content-type-checking)
 
 </td></tr><tr><td>
 
@@ -1007,7 +1008,7 @@ Activate the **SNC Access Control** plugin by contacting &lt;ph keyref="var.comp
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=snc-access-control-plugin.html)
+[Documentation](https://www.servicenow.com/docs/access?context=snc-access-control-plugin)
 
 </td></tr><tr><td>
 
@@ -1039,7 +1040,7 @@ Either update the value of the **glide.ip.authenticate.strict** system property 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=strict-ip-restriction.html)
+[Documentation](https://www.servicenow.com/docs/access?context=strict-ip-restriction)
 
 </td></tr><tr><td>
 
@@ -1071,7 +1072,7 @@ Activate the **Explicit Role** plugin by contacting &lt;ph keyref="var.company-n
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=explicit-role-plugin.html)
+[Documentation](https://www.servicenow.com/docs/access?context=explicit-role-plugin)
 
 </td></tr><tr><td>
 
@@ -1103,7 +1104,7 @@ Either update the value of the **glide.live\_profile.details** system property t
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=enable-acls-to-control-live-profile-details.html)
+[Documentation](https://www.servicenow.com/docs/access?context=enable-acls-to-control-live-profile-details)
 
 </td></tr><tr><td>
 
@@ -1135,7 +1136,7 @@ Either update the value of the **glide.script.ccsi.ispublic** system property to
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=sc-privacy-on-client-callable-script-includes.html)
+[Documentation](https://www.servicenow.com/docs/access?context=sc-privacy-on-client-callable-script-includes)
 
 </td></tr><tr><td>
 
@@ -1167,7 +1168,7 @@ Either update the value of the **glide.smtp.auth** system property to **true** O
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=smtp-authentication.html)
+[Documentation](https://www.servicenow.com/docs/access?context=smtp-authentication)
 
 </td></tr><tr><td>
 
@@ -1199,7 +1200,7 @@ Either update the value of the **glide.basicauth.required.wsdl** system property
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=wsdl-request-authorization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=wsdl-request-authorization)
 
 </td></tr><tr><td>
 
@@ -1231,7 +1232,7 @@ Either update the value of the **glide.basicauth.required.csv** system property 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=csv-request-authorization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=csv-request-authorization)
 
 </td></tr><tr><td>
 
@@ -1263,7 +1264,7 @@ Either update the value of the **glide.basicauth.required.excel** system propert
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=excel-request-authorization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=excel-request-authorization)
 
 </td></tr><tr><td>
 
@@ -1295,7 +1296,7 @@ Either update the value of the **glide.basicauth.required.importprocessor** syst
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=import-request-authorization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=import-request-authorization)
 
 </td></tr><tr><td>
 
@@ -1327,7 +1328,7 @@ Either update the value of the **glide.basicauth.required.pdf** system property 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=pdf-request-authorization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=pdf-request-authorization)
 
 </td></tr><tr><td>
 
@@ -1359,7 +1360,7 @@ Either update the value of the **glide.basicauth.required.rss** system property 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=rss-request-authorization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=rss-request-authorization)
 
 </td></tr><tr><td>
 
@@ -1391,7 +1392,7 @@ Either update the value of the **glide.basicauth.required.scriptedprocessor** sy
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=script-request-authorization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=script-request-authorization)
 
 </td></tr><tr><td>
 
@@ -1423,7 +1424,7 @@ Either update the value of the **glide.basicauth.required.soap** system property
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_SOAPWebService.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_SOAPWebService)
 
 </td></tr><tr><td>
 
@@ -1455,7 +1456,7 @@ Either update the value of the **glide.basicauth.required.jsonv2** system proper
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=access-control-instance-security-hardening.html)
+[Documentation](https://www.servicenow.com/docs/access?context=access-control-instance-security-hardening)
 
 </td></tr><tr><td>
 
@@ -1487,7 +1488,7 @@ Either update the value of the **glide.basicauth.required.unl** system property 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=unload-request-authorization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=unload-request-authorization)
 
 </td></tr><tr><td>
 
@@ -1519,7 +1520,7 @@ Either update the value of the **glide.basicauth.required.xml** system property 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=xml-request-authorization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=xml-request-authorization)
 
 </td></tr><tr><td>
 
@@ -1551,7 +1552,7 @@ Either update the value of the **glide.basicauth.required.xsd** system property 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=xsd-request-authorization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=xsd-request-authorization)
 
 </td></tr><tr><td>
 
@@ -1583,7 +1584,7 @@ Activate the **Integration - Multiple Provider Single Sign-On Installer** plugin
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=sc-updated-version-of-multi-sso-plugin-is-enabled.html)
+[Documentation](https://www.servicenow.com/docs/access?context=sc-updated-version-of-multi-sso-plugin-is-enabled)
 
 </td></tr><tr><td>
 
@@ -1615,7 +1616,7 @@ The default content on the Welcome page should be changed to remove the default 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=sc-remove-credentials-welcome-page.html)
+[Documentation](https://www.servicenow.com/docs/access?context=sc-remove-credentials-welcome-page)
 
 </td></tr><tr><td>
 
@@ -1647,7 +1648,7 @@ Either update the value of the **glide.ui.forgetme** system property to **true**
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=remove-remember-me.html)
+[Documentation](https://www.servicenow.com/docs/access?context=remove-remember-me)
 
 </td></tr><tr><td>
 
@@ -1679,7 +1680,7 @@ Either update the value of the **glide.login.autocomplete** system property to *
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=password-field-autocomplete.html)
+[Documentation](https://www.servicenow.com/docs/access?context=password-field-autocomplete)
 
 </td></tr><tr><td>
 
@@ -1711,7 +1712,7 @@ Activate the ValidatePasswordStronger installation exit.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=sc-enable-password-reset-policy-checks.html)
+[Documentation](https://www.servicenow.com/docs/access?context=sc-enable-password-reset-policy-checks)
 
 </td></tr><tr><td>
 
@@ -1743,7 +1744,7 @@ Either update the value of the **glide.login.no\_blank\_password** system proper
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=disable-password-less-authentication.html)
+[Documentation](https://www.servicenow.com/docs/access?context=disable-password-less-authentication)
 
 </td></tr><tr><td>
 
@@ -1775,7 +1776,7 @@ Either update the value of the **glide.authenticate.multifactor** system propert
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=multi-factor-authentication.html)
+[Documentation](https://www.servicenow.com/docs/access?context=multi-factor-authentication)
 
 </td></tr><tr><td>
 
@@ -1807,7 +1808,7 @@ Either update the value of the **glide.ui.attachment.download\_mime\_types** sys
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=download-mime-types.html)
+[Documentation](https://www.servicenow.com/docs/access?context=download-mime-types)
 
 </td></tr><tr><td>
 
@@ -1839,7 +1840,7 @@ Either update the value of the **glide.ui.attachment.force\_download\_all\_mime\
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=force-download-mime-types.html)
+[Documentation](https://www.servicenow.com/docs/access?context=force-download-mime-types)
 
 </td></tr><tr><td>
 
@@ -1871,7 +1872,7 @@ Either update the value of the **glide.ui.strict\_customer\_uploaded\_content\_t
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=specify-downloadable-file-types.html)
+[Documentation](https://www.servicenow.com/docs/access?context=specify-downloadable-file-types)
 
 </td></tr><tr><td>
 
@@ -1903,7 +1904,7 @@ Either update the value of the **glide.attachment.extensions** system property t
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=restrict-file-extensions.html)
+[Documentation](https://www.servicenow.com/docs/access?context=restrict-file-extensions)
 
 </td></tr><tr><td>
 
@@ -1935,7 +1936,7 @@ Either update the value of the **glide.security.file.mime\_type.validation** sys
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=upload-mime-type-restriction.html)
+[Documentation](https://www.servicenow.com/docs/access?context=upload-mime-type-restriction)
 
 </td></tr><tr><td>
 
@@ -1967,7 +1968,7 @@ Either update the value of the **glide.image\_provider.security\_enabled** syste
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=restrict-unauthenticated-access-to-attachments.html)
+[Documentation](https://www.servicenow.com/docs/access?context=restrict-unauthenticated-access-to-attachments)
 
 </td></tr><tr><td>
 
@@ -1999,7 +2000,7 @@ Either update the value of the **glide.ui.rotate\_sessions** system property to 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=rotate-http-session-identifiers.html)
+[Documentation](https://www.servicenow.com/docs/access?context=rotate-http-session-identifiers)
 
 </td></tr><tr><td>
 
@@ -2031,7 +2032,7 @@ Either update the value of the **glide.ui.secure\_cookies** system property to *
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=secure-session-cookies.html)
+[Documentation](https://www.servicenow.com/docs/access?context=secure-session-cookies)
 
 </td></tr><tr><td>
 
@@ -2063,7 +2064,7 @@ Either update the value of the **glide.ui.session\_timeout** system property to 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=session-activity-timeout.html)
+[Documentation](https://www.servicenow.com/docs/access?context=session-activity-timeout)
 
 </td></tr><tr><td>
 
@@ -2095,7 +2096,7 @@ Either update the value of the **glide.cookies.http\_only** system property to *
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=cookies-http-only.html)
+[Documentation](https://www.servicenow.com/docs/access?context=cookies-http-only)
 
 </td></tr><tr><td>
 
@@ -2127,7 +2128,7 @@ Either update the value of the **glide.security.use\_csrf\_token** system proper
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=anti-csrf-token.html)
+[Documentation](https://www.servicenow.com/docs/access?context=anti-csrf-token)
 
 </td></tr><tr><td>
 
@@ -2159,7 +2160,7 @@ Either update the value of the **glide.security.csrf.strict.validation.mode** sy
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=csrf-strict-validation.html)
+[Documentation](https://www.servicenow.com/docs/access?context=csrf-strict-validation)
 
 </td></tr><tr><td>
 
@@ -2191,7 +2192,7 @@ Either update the value of the **com.glide.communications.trustmanager\_trust\_a
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=certificate-trust.html)
+[Documentation](https://www.servicenow.com/docs/access?context=certificate-trust)
 
 </td></tr><tr><td>
 
@@ -2223,7 +2224,7 @@ Either update the value of the **glide.outbound.sslv3.disabled** system property
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=disabling-sslv2-sslv3.html)
+[Documentation](https://www.servicenow.com/docs/access?context=disabling-sslv2-sslv3)
 
 </td></tr><tr><td>
 
@@ -2255,7 +2256,7 @@ Either update the value of the **glide.cms.catalog\_uri\_relative** system prope
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=enforce-relative-links.html)
+[Documentation](https://www.servicenow.com/docs/access?context=enforce-relative-links)
 
 </td></tr><tr><td>
 
@@ -2287,7 +2288,7 @@ Either update the value of the **glide.set\_x\_frame\_options** system property 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=x-frame-options-sameorigin.html)
+[Documentation](https://www.servicenow.com/docs/access?context=x-frame-options-sameorigin)
 
 </td></tr><tr><td>
 
@@ -2319,7 +2320,7 @@ Activate the SNC User related Script Actions.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=sc-managing-failed-login-attempts.html)
+[Documentation](https://www.servicenow.com/docs/access?context=sc-managing-failed-login-attempts)
 
 </td></tr><tr><td>
 
@@ -2351,7 +2352,7 @@ Either update the value of the **glide.db.loguser** system property to **false**
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=disabling-sql-error-messages.html)
+[Documentation](https://www.servicenow.com/docs/access?context=disabling-sql-error-messages)
 
 </td></tr><tr><td>
 
@@ -2383,7 +2384,7 @@ Either update the value of the **glide.ui.m.blur\_ui\_when\_backgrounded** syste
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=mobile-ui-obfuscation.html)
+[Documentation](https://www.servicenow.com/docs/access?context=mobile-ui-obfuscation)
 
 </td></tr><tr><td>
 
@@ -2415,7 +2416,7 @@ Either update the value of the **glide.security.url.whitelist** system property 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=url-whitelist-for-logout-redirects.html)
+[Documentation](https://www.servicenow.com/docs/access?context=url-whitelist-for-logout-redirects)
 
 </td></tr><tr><td>
 
@@ -2447,7 +2448,7 @@ Either update the value of the **glide.stax.allow\_entity\_resolution** system p
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=disable-entity-expansion.html)
+[Documentation](https://www.servicenow.com/docs/access?context=disable-entity-expansion)
 
 </td></tr><tr><td>
 
@@ -2479,7 +2480,7 @@ Either update the value of the **glide.user.trusted\_domain** system property to
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=restrict-emails-by-domain.html)
+[Documentation](https://www.servicenow.com/docs/access?context=restrict-emails-by-domain)
 
 </td></tr><tr><td>
 
@@ -2543,7 +2544,7 @@ Review the Cross Scope Privilege record to determine whether to allow or deny th
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_CrossScopePrivilegeRecord.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_CrossScopePrivilegeRecord)
 
 </td></tr><tr><td>
 
@@ -2575,7 +2576,7 @@ Update the value of the **glide.user.default\_password** property to have a more
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_InboundMailConfiguration.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_InboundMailConfiguration)
 
 </td></tr><tr><td>
 
@@ -2607,7 +2608,7 @@ Set the "**glide.security.strict.user\_image\_upload**" system property to **tru
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=sc-enforce-strict-user-image-upload.html)
+[Documentation](https://www.servicenow.com/docs/access?context=sc-enforce-strict-user-image-upload)
 
 </td></tr><tr><td>
 
@@ -2639,7 +2640,7 @@ Set the "**glide.email.email\_with\_no\_target\_visible\_to\_all**" system prope
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=restrict-access-to-emails-with-empty-target-table.html)
+[Documentation](https://www.servicenow.com/docs/access?context=restrict-access-to-emails-with-empty-target-table)
 
 </td></tr><tr><td>
 
@@ -2671,7 +2672,7 @@ The **glide.xmlutil.max\_entity\_expansion** **system\_property** should have a 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=setting-entity-expansion-threshold.html)
+[Documentation](https://www.servicenow.com/docs/access?context=setting-entity-expansion-threshold)
 
 </td></tr><tr><td>
 
@@ -2703,7 +2704,7 @@ Activate the Email Spam Scoring and Filtering \(**com.\_\_\_PARM\_0\_\_\_**\) pl
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=email-spam-scoring-and-filtering)
+[Documentation](https://www.servicenow.com/docs/access?context=email-spam-scoring-and-filtering)
 
 </td></tr><tr><td>
 
@@ -2735,7 +2736,7 @@ Set the value to the list of URLs that can be accessed by XML Entity processing.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=xml-external-entity-processing-whitelist.html)
+[Documentation](https://www.servicenow.com/docs/access?context=xml-external-entity-processing-whitelist)
 
 </td></tr><tr><td>
 
@@ -2767,7 +2768,7 @@ Ensure the property "**glide.xml.entity.whitelist**" is set to "http://java.sun.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=disable-entity-expansion.html)
+[Documentation](https://www.servicenow.com/docs/access?context=disable-entity-expansion)
 
 </td></tr><tr><td>
 
@@ -2799,7 +2800,7 @@ Set the value to **true** to enable origin checking. Once this property is set t
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=enable-url-whitelist-for-cross-origin-iframe-communication.html)
+[Documentation](https://www.servicenow.com/docs/access?context=enable-url-whitelist-for-cross-origin-iframe-communication)
 
 </td></tr><tr><td>
 
@@ -2831,7 +2832,7 @@ Set the **glide.ui.user\_cookie.max\_life\_span\_in\_days** system property to 3
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=absolute-session-timeout.html)
+[Documentation](https://www.servicenow.com/docs/access?context=absolute-session-timeout)
 
 </td></tr><tr><td>
 
@@ -2863,7 +2864,7 @@ Set the **glide.http.cache\_control** system property to private.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=cache-control-http-header-value.html)
+[Documentation](https://www.servicenow.com/docs/access?context=cache-control-http-header-value)
 
 </td></tr><tr><td>
 
@@ -2895,7 +2896,7 @@ Share reports through Roles, Users, and/or Groups rather than have them be acces
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_PublishAReport.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_PublishAReport)
 
 </td></tr><tr><td>
 
@@ -2927,7 +2928,7 @@ Instead of using "visibility domains" it is best to use "contains domains" for m
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_DomainVisibility.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_DomainVisibility)
 
 </td></tr><tr><td>
 
@@ -2959,7 +2960,7 @@ Set the Public field to **false** and ensure access is limited to the required a
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=portal-security.html)
+[Documentation](https://www.servicenow.com/docs/access?context=portal-security)
 
 </td></tr><tr><td>
 
@@ -2991,7 +2992,7 @@ Set the Active field to **false** and ensure access is limited to the required a
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_MakeAPagePublic.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_MakeAPagePublic)
 
 </td></tr><tr><td>
 
@@ -3023,7 +3024,7 @@ Ensure that these HR Roles are only "Assignable by" the **sn\_hr\_le**.admin or 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_ManageRoles.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_ManageRoles)
 
 </td></tr><tr><td>
 
@@ -3055,7 +3056,7 @@ Ensure that the "Assignable by" field on these records is set as provided when t
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_ManageRoles.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_ManageRoles)
 
 </td></tr><tr><td>
 
@@ -3087,7 +3088,7 @@ Create an ACL rather than a UI Policy to secure the Planned Start and End Date f
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateAnACLRule.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule)
 
 </td></tr><tr><td>
 
@@ -3119,7 +3120,7 @@ Set the property "**glide.sg.clear\_pasteboard\_when\_backgrounded**" to **true*
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-copy-paste.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-copy-paste)
 
 </td></tr><tr><td>
 
@@ -3151,7 +3152,7 @@ Set the value of the property "**password\_reset**.request.**max\_attempt\_windo
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=password-reset-global-properties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=password-reset-global-properties)
 
 </td></tr><tr><td>
 
@@ -3183,7 +3184,7 @@ Set the property "**glide.pop3readerjob.create\_caller**" to **false**. When **f
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_EnablingAutomaticUserCreation.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_EnablingAutomaticUserCreation)
 
 </td></tr><tr><td>
 
@@ -3215,7 +3216,7 @@ Set the property "**sn\_ext\_usr\_reg**.captchaEnabled" to **true**.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=communities-properties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=communities-properties)
 
 </td></tr><tr><td>
 
@@ -3247,7 +3248,7 @@ Set the property "**com.\_\_\_PARM\_0\_\_\_**" to **true**.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-antivirus-protection.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-antivirus-protection)
 
 </td></tr><tr><td>
 
@@ -3279,7 +3280,7 @@ Set the property "**glide.pop3.process\_locked\_out**" to **false**.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_AllowLockedUsersInbdEmailAct.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_AllowLockedUsersInbdEmailAct)
 
 </td></tr><tr><td>
 
@@ -3311,7 +3312,7 @@ Set the value of the property "**password\_reset**.request.**max\_attempt**" to 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=sc-reset-password-request-max-attempts.html)
+[Documentation](https://www.servicenow.com/docs/access?context=sc-reset-password-request-max-attempts)
 
 </td></tr><tr><td>
 
@@ -3343,7 +3344,7 @@ Ensure that Integration account users are not assigned the admin role. Alternati
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_MarkSvcAcctsAsInternalIntegUsers.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_MarkSvcAcctsAsInternalIntegUsers)
 
 </td></tr><tr><td>
 
@@ -3375,7 +3376,7 @@ Unselect "Visible by all roles" and select the specific roles that are required 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreatingABreakdownForIndicators.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreatingABreakdownForIndicators)
 
 </td></tr><tr><td>
 
@@ -3407,7 +3408,7 @@ As an Admin user, navigate to the **sys\_user\_role\_contains** table, then sele
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_HRRemoveAdminRole.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_HRRemoveAdminRole)
 
 </td></tr><tr><td>
 
@@ -3439,7 +3440,7 @@ As an Admin user, navigate to the **sys\_user\_role\_contains** table, then sele
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_HRRemoveAdminRole.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_HRRemoveAdminRole)
 
 </td></tr><tr><td>
 
@@ -3471,7 +3472,7 @@ As an Admin user, navigate to the **sys\_user\_role\_contains** table, then sele
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_HRRemoveAdminRole.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_HRRemoveAdminRole)
 
 </td></tr><tr><td>
 
@@ -3503,7 +3504,7 @@ Set the property "**glide.sg.require\_mobile\_application\_pin**" to **true**.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=require-app-pin.html)
+[Documentation](https://www.servicenow.com/docs/access?context=require-app-pin)
 
 </td></tr><tr><td>
 
@@ -3535,7 +3536,7 @@ For Service Portal resources that are not public, there should be a list of role
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-page-security.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-page-security)
 
 </td></tr><tr><td>
 
@@ -3567,7 +3568,7 @@ Either set the system property "**glide.sc.use\_user\_criteria**" to **true** or
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_DefRecProdInSCat.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_DefRecProdInSCat)
 
 </td></tr><tr><td>
 
@@ -3599,7 +3600,7 @@ Set the property "**glide.email.smtp.max\_recipients**" to a value less than or 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=sc-max-smtp-recipients.html)
+[Documentation](https://www.servicenow.com/docs/access?context=sc-max-smtp-recipients)
 
 </td></tr><tr><td>
 
@@ -3631,7 +3632,7 @@ Deactivate the user account of the users with the "**sn\_hr\_core**.**hrsm\_alum
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_HRProfileRecords.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_HRProfileRecords)
 
 </td></tr><tr><td>
 
@@ -3663,7 +3664,7 @@ Remove elevated access roles from the web service access only user.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_NonInteractiveSessions.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_NonInteractiveSessions)
 
 </td></tr><tr><td>
 
@@ -3695,7 +3696,7 @@ Elevate to the Security Admin role, then navigate to System Security &gt; Access
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=acl-rule-types.html)
+[Documentation](https://www.servicenow.com/docs/access?context=acl-rule-types)
 
 </td></tr><tr><td>
 
@@ -3727,7 +3728,7 @@ After system configuration, remove the HR Administrator role from the Admin role
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_HRRemoveAdminRole.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_HRRemoveAdminRole)
 
 </td></tr><tr><td>
 
@@ -3759,7 +3760,7 @@ Investigate each Cross Scope privilege and identify whether this is really neede
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_CrossScopePrivilegeRecord.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_CrossScopePrivilegeRecord)
 
 </td></tr><tr><td>
 
@@ -3791,7 +3792,7 @@ System tables usually are not needed to be accessed by all internal and external
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=access-control-rules.html)
+[Documentation](https://www.servicenow.com/docs/access?context=access-control-rules)
 
 </td></tr><tr><td>
 
@@ -3855,7 +3856,7 @@ Assign a Delegated Developer role to the HR Core Scope.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_HRAdminRoles.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_HRAdminRoles)
 
 </td></tr><tr><td>
 
@@ -3887,7 +3888,7 @@ Create exclusions for HR tables in your production instance.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_ExcludeATableFromCloning.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_ExcludeATableFromCloning)
 
 </td></tr><tr><td>
 
@@ -3919,7 +3920,7 @@ Use the VR System account as the RunAs user for scheduled script executions and 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_MarkSvcAcctsAsInternalIntegUsers.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_MarkSvcAcctsAsInternalIntegUsers)
 
 </td></tr><tr><td>
 
@@ -3951,7 +3952,7 @@ Make sure that all high-privilege roles do not have more than 10 users assigned.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_ElevatedPrivilege.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege)
 
 </td></tr><tr><td>
 
@@ -3983,7 +3984,7 @@ Remove the invalid role by editing the report, then share the report with valid 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_ShareASetting.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_ShareASetting)
 
 </td></tr><tr><td>
 
@@ -4015,7 +4016,7 @@ Check the **internal\_integration\_user** field for the MID Server or ODBC Drive
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_MarkSvcAcctsAsInternalIntegUsers.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_MarkSvcAcctsAsInternalIntegUsers)
 
 </td></tr><tr><td>
 
@@ -4047,7 +4048,7 @@ System tables usually are not needed to be accessed by all internal and external
 
 </td><td>
 
-[Documentation](https://docs.servicenow.com/csh?topicname=access-control-rules.html)
+[Documentation](https://www.servicenow.com/docs/access?context=access-control-rules)
 
 </td></tr><tr><td>
 
@@ -4079,7 +4080,7 @@ After system configuration, remove the Security Incident Administrator role from
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_ConfigureSIM.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_ConfigureSIM)
 
 </td></tr><tr><td>
 
@@ -4111,7 +4112,7 @@ It is recommended to utilize the Restricted Caller Access \(ID: **com.\_\_\_PARM
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=hr-security.html)
+[Documentation](https://www.servicenow.com/docs/access?context=hr-security)
 
 </td></tr><tr><td>
 
@@ -4143,7 +4144,7 @@ Discuss whether or not senior leadership users actually require the ability to e
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=installed-with-sir.html)
+[Documentation](https://www.servicenow.com/docs/access?context=installed-with-sir)
 
 </td></tr><tr><td>
 
@@ -4175,7 +4176,7 @@ Groups that currently have role "**sn\_si**.analyst" assigned to them should hav
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=setup-assistant-reference.html)
+[Documentation](https://www.servicenow.com/docs/access?context=setup-assistant-reference)
 
 </td></tr><tr><td>
 
@@ -4239,7 +4240,7 @@ Report View ACLs provide control over who can view reports protected by the Repo
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=report-view-acl-dashboard.html)
+[Documentation](https://www.servicenow.com/docs/access?context=report-view-acl-dashboard)
 
 </td></tr><tr><td>
 
@@ -4271,7 +4272,7 @@ Rotate and encrypt new keys to ensure that no old records exist with old keys.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_EncryptionKeyRotation.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_EncryptionKeyRotation)
 
 </td></tr><tr><td>
 
@@ -4303,7 +4304,7 @@ Make sure to define user criteria for Knowledge Base and articles.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=select-user-criteria-for-knowledge-block.html)
+[Documentation](https://www.servicenow.com/docs/access?context=select-user-criteria-for-knowledge-block)
 
 </td></tr><tr><td>
 
@@ -4335,7 +4336,7 @@ To require authorization, select the **Requires Authentication** checkbox and th
 
 </td><td>
 
-[Documentation](https://docs.servicenow.com/csh?topicname=t_WbSvcRqACL.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_WbSvcRqACL)
 
 </td></tr><tr><td>
 
@@ -4368,7 +4369,7 @@ Unauthorized users may be able to access your instance.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=restrict-access-to-specific-ip-ranges.html)
+[Documentation](https://www.servicenow.com/docs/access?context=restrict-access-to-specific-ip-ranges)
 
 </td></tr><tr><td>
 
@@ -4496,7 +4497,7 @@ Either update the value of the **glide.knowman.block\_access\_with\_no\_user\_cr
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=sc-restrict-knowledge-bases-access.html)
+[Documentation](https://www.servicenow.com/docs/access?context=sc-restrict-knowledge-bases-access)
 
 </td></tr><tr><td>
 
@@ -4528,7 +4529,7 @@ Create the system property **glide.knowman.apply\_article\_read\_criteria** and 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=user-access-knowledge.html)
+[Documentation](https://www.servicenow.com/docs/access?context=user-access-knowledge)
 
 </td></tr><tr><td>
 
@@ -4560,7 +4561,7 @@ Create the system property **glide.knowman.section.view\_roles.draft** and set t
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_KnowledgeProperties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties)
 
 </td></tr><tr><td>
 
@@ -4592,7 +4593,7 @@ Create the system property **glide.knowman.section.view\_roles.stagesAndRoles** 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_KnowledgeProperties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties)
 
 </td></tr><tr><td>
 
@@ -4624,7 +4625,7 @@ Create the system property **glide.knowman.show\_unpublished** and set the value
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_KnowledgeProperties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties)
 
 </td></tr><tr><td>
 
@@ -4688,7 +4689,7 @@ Create the system property **glide.knowman.section.view\_roles.review** and set 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_KnowledgeProperties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties)
 
 </td></tr><tr><td>
 

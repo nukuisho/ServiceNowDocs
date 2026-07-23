@@ -2,6 +2,7 @@
 title: Activating a PDI plugin from the developer site
 description: Activate your PDI plugin from the Developer Site to start working on an instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/activating\_a\_pdi\_plugin\_from\_the\_developer\_site.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,11 +38,11 @@ Some plugins require activation by ServiceNow® personnel on company and partner
 
     2.  Select the **Activate plugin with demo data** menu item to activate the plugin with demo data.
 
-        ![Select to activate with demo data](../image/activate-plugin-pdi3.png)
+        \[Omitted image "activate-plugin-pdi3.png"\] Alt text: Select to activate with demo data
 
     You cannot perform other instance actions while the plugin is activating. The **Instance Status** is **Fulfilling Request** while the plugin is activated.
 
-    ![In-process fulfilling a request](../image/fulfilling-request-pdi.png)
+    \[Omitted image "fulfilling-request-pdi.png"\] Alt text: In-process fulfilling a request
 
 
 ## Result
@@ -50,5 +51,5 @@ You will receive an email from the Developer Site when the plugin activation is 
 
 To use the plugin, reload the browser window where you logged in to your PDI.
 
-**Parent Topic:**[Personal developer instance guide](../concept/personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
 

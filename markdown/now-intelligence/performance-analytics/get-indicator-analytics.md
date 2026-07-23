@@ -2,6 +2,7 @@
 title: Get analytics methods in formulas
 description: To insert a calculated value from the Analytics Hub into a formula, use a method in the formula.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/get-indicator-analytics.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ Role required: pa\_power\_user, admin
 
 You can use a value that was calculated in the Analytics Hub as input for a formula. That value can be from any indicator, including from the current formula indicator itself.
 
-To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) into the formula. To call one of these methods, use the Performance Analytics variable `pa`. For example, to use the PAFormulaUtils.getScore method, call `pa.getScore`. For more information, see [PAFormulaUtils API](../PAFormulaUtil/concept/PAFormulaUtils.md).
+To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) into the formula. To call one of these methods, use the Performance Analytics variable `pa`. For example, to use the PAFormulaUtils.getScore method, call `pa.getScore`. For more information, see [PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md).
 
 ## Procedure
 
@@ -37,18 +38,18 @@ To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) i
 
     Methods refer either to the current formula that you are editing or to a different indicator that you must specify. The list shows a descriptive label for each method instead of the method name.
 
-    ![List of descriptive labels of methods in the "Add a method to the formula" dialog box, with Get global target gap of the specified indicator" highlighted.](../image/formula-method-selector.png)
+    \[Omitted image "formula-method-selector.png"\] Alt text: List of descriptive labels of methods in the "Add a method to the formula" dialog box, with Get global target gap of the specified indicator" highlighted.
 
 4.  Select a method.
 
     When you select a method, a description opens, including the name of the method and any parameter fields.
 
-    ![The Add a method to the formula dialog showing the method Get global target gap of the specified indicator selected and the date specified as the last score collected](../image/formula-indic-method-desc.png)
+    \[Omitted image "formula-indic-method-desc.png"\] Alt text: The Add a method to the formula dialog showing the method Get global target gap of the specified indicator selected and the date specified as the last score collected
 
     Date fields can take the following values:
 
     -   An absolute date in YYYY-MM-DD format, such as 2018-12-21.
-    -   The variable `score_start` or `score_end`. These variables represent the first and last second of the collection period being calculated for the referenced indicator. The times are calculated from the difference between the time zone of the user and the database server time zone, which is GMT. For more information, see [Changes to score\_start/end because of different user time zones](../concept/time-zones-indicator-formulas.md).
+    -   The variable `score_start` or `score_end`. These variables represent the first and last second of the collection period being calculated for the referenced indicator. The times are calculated from the difference between the time zone of the user and the database server time zone, which is GMT. For more information, see [Changes to score\_start/end because of different user time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/time-zones-indicator-formulas.md).
     -   A date parameter that you have coded yourself using the GlideDate or the GlideDateTime API.
 5.  Fill in any parameters and click **Select**.
 
@@ -58,7 +59,7 @@ To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) i
 
     The indicator selection dialog opens.
 
-    ![Opening the indicator selection dialog from inside a method in the formula](../image/formula-method-browse-indicator.gif)
+    \[Omitted image "formula-method-browse-indicator.gif"\] Alt text: Opening the indicator selection dialog from inside a method in the formula
 
 7.  Select the indicator.
 
@@ -68,7 +69,7 @@ To get a value from the Analytics Hub, insert a method from PAFormulaUtils\(\) i
 
     The method is complete, with an indicator selected. Note that a dollar sign, $, precedes the indicator. This dollar sign means that the Analytics Hub values for the indicator instead of the indicator score are returned. The Analytics Hub values are selected instead of the score when you select the **Use in method** check box.
 
-    ![Indicator, breakdown, element, and Use in method check box being selected](../image/formula-method-select-indicator.gif)
+    \[Omitted image "formula-method-select-indicator.gif"\] Alt text: Indicator, breakdown, element, and Use in method check box being selected
 
 
 ## Index indicator
@@ -119,25 +120,25 @@ You want to filter out the scores of incidents where Priority = 1 - Critical.
     ```
 
 
--   **[PAFormulaUtils API](../PAFormulaUtil/concept/PAFormulaUtils.md)**  
+-   **[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)**  
 The PAFormulaUtils API enables you to obtain a value that was calculated in the Analytics Hub and use that value as input for a formula.
 
-**Parent Topic:**[Formula indicators](../concept/formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 
 
-[Create a formula indicator](t_CreateAFormulaIndicator.md)
+[Create a formula indicator]()
 
-[Prevent a contributing indicator in a formula from following breakdowns](../concept/c_ExcludingBreakdownsFromFormulas.md)
+[Prevent a contributing indicator in a formula from following breakdowns]()
 
-[Breakdown matrices in formula indicators](../concept/bkdown-matrix-formula-indicators.md)
+[Breakdown matrices in formula indicators]()
 
-[Applying time series to result or to contributing indicators](../concept/apply-time-series-result-components.md)
+[Applying time series to result or to contributing indicators]()
 
-[Detect indicators with no scores in a formula](detect-indicators-no-scores-formula.md)
+[Detect indicators with no scores in a formula]()
 
-[Indexing multiple indicators in a formula](../concept/index-indicators.md)
+[Indexing multiple indicators in a formula]()
 
-[Changes to score\_start/end because of different user time zones](../concept/time-zones-indicator-formulas.md)
+[Changes to score\_start/end because of different user time zones]()
 

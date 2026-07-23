@@ -1,55 +1,57 @@
 ---
 title: Advanced Work Assignment in Accounts Payable Operations
-description: Advanced Work Assignment \(AWA\) automatically assigns work items to Accounts Payable Operations agents based on their availability, capacity and skills. AWA pushes work to qualified agents using work item queues, routing conditions, and assignment criteria that you define. The work items are available in Agent workspace inbox.
+description: Advanced Work Assignment \(AWA\) automatically routes invoice cases to qualified AP agents based on availability, capacity, and skills using work item queues, routing conditions, and assignment criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/advanced-work-assignment.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations,, Accounts Payable Workspace, Advanced Work Assignment, AWA]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Advanced Work Assignment in Accounts Payable Operations
 
-Advanced Work Assignment \(AWA\) automatically assigns work items to Accounts Payable Operations agents based on their availability, capacity and skills. AWA pushes work to qualified agents using work item queues, routing conditions, and assignment criteria that you define. The work items are available in **Agent workspace inbox**.
+Advanced Work Assignment \(AWA\) automatically routes invoice cases to qualified AP agents based on availability, capacity, and skills using work item queues, routing conditions, and assignment criteria.
 
-Customers use different channels to request service, for example, email, chats, cases, or incidents. Requests from customers create task or interaction records that store information about these objects, called work items. AWA automatically routes work items to queues that focus on certain types of support, using criteria \(such as priority or customer status\) that you provide.
+Customers use different channels to request service, for example, email, chat, cases, or incidents. Requests from customers create task or interaction records that store information about these objects, called work items. AWA automatically routes work items to queues that focus on certain types of support, using criteria \(such as priority or customer status\) that you provide.
 
-For more information about AWA, refer [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md).
+For more information about AWA, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-application-landing-page.md).
 
 **Note:** Check your entitlements to determine whether you have access to Advanced Work Assignment in Accounts Payable Operations in Source-to-Pay Operations Professional.
 
--   **[Setting up Advanced Work Assignment for Accounts Payable Operations](setting-up-AWA-for-APO.md)**  
-Set up the AWA and required plugins through the plugin page after selecting any `Get [plugin]`button on the Advanced Work Assignment home page.
+-   **[Advanced Work Assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/setting-up-AWA-for-APO.md)**  
+Set up Advanced Work Assignment \(AWA\) and required plugins to automatically route incoming work items to qualified agents in Accounts Payable Operations.
 
-**Parent Topic:**[Use Accounts Payable Operations](use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Create a knowledge base article about invoice](../task/create-knowledge-base-articles-for-invoices.md)
+[Create a knowledge base article about invoice]()
 
-[Invoice case categories and subcategories](working-with-cases.md)
+[Invoice case categories and subcategories]()
 
-[Using Invoice Case Management](use-invoice-case-mgmt.md)
+[Using Invoice Case Management]()
 
-[Using Accounts Payable Invoice Processing](use-ap-invoice-processing.md)
+[Using Accounts Payable Invoice Processing]()
 
-[Configure Advanced Work Assignment for Accounts Payable Operations](../task/configure-advanced-work-assignment-for-apo.md)
+[Configure Advanced Work Assignment for Accounts Payable Operations]()
 
-[Using Advanced Work Assignment for Accounts Payable Operations](using-awa-for-apo.md)
+[Using Advanced Work Assignment for Accounts Payable Operations]()
 
-[Working with Advanced Work Assignment](../task/working-with-advanved-work-assignment.md)
+[Working with Advanced Work Assignment]()
 
-[Interaction management in Accounts Payable Operations](interaction-record.md)
+[Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace](email-composer-apm-workspace.md)
+[Composing emails with predefined content from the Source-to-Pay Workspace]()
 
-[Universal Request in Accounts Payable Operations](universal-request-in-apo.md)
+[Universal Request in Accounts Payable Operations]()
 
-[Playbook for updating the invoice primary data](playbooks.md)
+[Playbook for updating the invoice primary data]()
 
-[Using Supplier Collaboration Portal in APO](using-supplier-collaboration-portal.md)
+[Using Supplier Collaboration Portal in APO]()
 

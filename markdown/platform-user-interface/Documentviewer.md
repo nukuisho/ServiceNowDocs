@@ -2,9 +2,10 @@
 title: Document Viewer
 description: Document Viewer enables you to view documents directly in the ServiceNow AI Platform rather than having to download them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/Documentviewer.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -30,7 +31,7 @@ You can view the following file types:
 
 Other document types, for example, .zip or .exe files, are automatically downloaded without requiring Document Viewer. Document viewer converts word documents and spreadsheets to pdf first in order to view them. This might take some time to render the file the first time.
 
-![Viewing a PDF file in Document Viewer](../image/DocViewerPDFView.png "PDF view in Document Viewer")
+\[Omitted image "DocViewerPDFView.png"\] Alt text: Viewing a PDF file in Document Viewer
 
 **Note:**
 
@@ -40,30 +41,30 @@ The following table describes the icons used in Document Viewer.
 
 |Icon|Description|
 |----|-----------|
-|![Sidebar toggle icon to preview all the pages in the document](../image/IconDocViewerToggleSidebar.png)|Toggle the sidebar to see a preview of all the pages in the document.|
-|![Icon to download the attachment](../image/IconDocViewerDownloadAttch.png)|Download the attachment.|
-|![Page up or page down icons to scroll the page](../image/IconDocViewerPreviousPg.png)|Page up or down using the arrow buttons. You can also scroll or use your keyboard arrow keys.|
-|![Icon to rotate document page](../image/IconDocViewerClockwise.png)|Rotate the page to the right.|
-|![Icon to rotate page](../image/IconDocViewerUnClockwise.png)|Rotate the page to the left.|
-|![Icons to zoom in or zoom out of the document](../image/IconDocViewerMagnification.png)|Zoom in or out of the document.|
-|![Icon to increase the page display to full width](../image/IconDocViewerFitWidth.png)|Increase the page to the full width of Document Viewer.|
-|![Search bar with arrows to toggle to the next search result](../image/IconDocViewerSearch.png)|Search for keywords in the document. Use the arrows to toggle to the next search result.|
+|\[Omitted image "IconDocViewerToggleSidebar.png"\] Alt text: Sidebar toggle icon to preview all the pages in the document|Toggle the sidebar to see a preview of all the pages in the document.|
+|\[Omitted image "IconDocViewerDownloadAttch.png"\] Alt text: Icon to download the attachment|Download the attachment.|
+|\[Omitted image "IconDocViewerPreviousPg.png"\] Alt text: Page up or page down icons to scroll the page|Page up or down using the arrow buttons. You can also scroll or use your keyboard arrow keys.|
+|\[Omitted image "IconDocViewerClockwise.png"\] Alt text: Icon to rotate document page|Rotate the page to the right.|
+|\[Omitted image "IconDocViewerUnClockwise.png"\] Alt text: Icon to rotate page|Rotate the page to the left.|
+|\[Omitted image "IconDocViewerMagnification.png"\] Alt text: Icons to zoom in or zoom out of the document|Zoom in or out of the document.|
+|\[Omitted image "IconDocViewerFitWidth.png"\] Alt text: Icon to increase the page display to full width|Increase the page to the full width of Document Viewer.|
+|\[Omitted image "IconDocViewerSearch.png"\] Alt text: Search bar with arrows to toggle to the next search result|Search for keywords in the document. Use the arrows to toggle to the next search result.|
 
--   **[Enable Document Viewer](../../../administer/form-administration/task/enable-document-viewer.md)**  
+-   **[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-document-viewer.md)**  
 Enable Document Viewer to view documents directly rather than download them to view them in their native applications.
--   **[Document Viewer plugins](doc-viewer-plugins.md)**  
+-   **[Document Viewer plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/doc-viewer-plugins.md)**  
 With Document Viewer, you can view documents directly in the ServiceNow Platform rather than having to download them. Two new plugins enhance the experience and provide more options for document viewing. You can collaborate with other people, copy, delete, restore, and view version history directly in a ServiceNow instance.
--   **[View attachments with Document Viewer](../task/view-attachment-doc-viewer.md)**  
+-   **[View attachments with Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-attachment-doc-viewer.md)**  
 View documents within the platform using Document Viewer rather than having to download them to your own file system.
--   **[Disable Document Viewer](../../../administer/form-administration/task/disable-doc-viewer.md)**  
+-   **[Disable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/disable-doc-viewer.md)**  
 Disable Document Viewer at the instance level to disable it or at table level to disable it for specific tables within the instance.
 
-**Parent Topic:**[Forms in the classic environment](c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
 
 **Related topics**  
 
 
-[View attachments with Document Viewer](../task/view-attachment-doc-viewer.md)
+[View attachments with Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-attachment-doc-viewer.md)
 
-[Enable Document Viewer](../../../administer/form-administration/task/enable-document-viewer.md)
+[Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-document-viewer.md)
 

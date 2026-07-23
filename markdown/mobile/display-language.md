@@ -2,6 +2,7 @@
 title: Languages on your mobile device
 description: Select a language for your ServiceNow mobile app that may differ from the language defined for your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/display-language.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Select a language for your ServiceNow mobile app that may differ from the langua
 
 **Note:** This capability is available from ServiceNow mobile app version 16.0.
 
-For a list of supported languages, see [Localization on mobile devices](localization-mobile-device.md).
+For a list of supported languages, see [Localization on mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/localization-mobile-device.md).
 
 ## Sources of languages for ServiceNow mobile apps
 
@@ -32,5 +33,5 @@ There's an additional display of content within your ServiceNow mobile apps, whi
 
 The display of right-to-left languages is supported in ServiceNow mobile apps. As of the Washington DC release, Arabic and Hebrew are supported right-to-left languages. Text as well as visual components are right-to-left aligned to mirror the more common left-to-right alignment.
 
-![Comparison of screens with different languages.](../image/right-to-left-example.png)
+\[Omitted image "right-to-left-example.png"\] Alt text: Comparison of screens with different languages.
 

@@ -53,7 +53,7 @@ To-dos Widget Mapping\[sn\_hr\_sp\_todos\_widget\_mapping\]
 To-dos widget mapping table.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
+</table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md).
 
 ## Widgets installed
 
@@ -80,5 +80,7 @@ To-dos widget mapping table.
 |Rating Star Feedback|rating-star-feedback|Captures 5-star rating feedback.|
 |Rating Thumb Feedback|rating-thumb-feedback| |
 |Skip feedback task|skip-feedback-task| |
+|View As Search|view-as-search| |
+|View As Search Results|view-as-search-results| |
 |Web Applications|web\_applications|Provides one-click access to applications assigned to the user.|
 

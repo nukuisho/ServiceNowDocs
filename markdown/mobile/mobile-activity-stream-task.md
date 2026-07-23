@@ -2,6 +2,7 @@
 title: Accessing and posting to the mobile activity stream
 description: Use the activity stream to submit and list work notes, files, images, and videos to a record within your mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-activity-stream-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: none
 
 An activity stream enables you to communicate with other users about the work done on a record.
 
-![Activity stream tab and records.](../image/activity-stream-widescreen.png)
+\[Omitted image "activity-stream-widescreen.png"\] Alt text: Activity stream tab and records.
 
 ## Procedure
 
@@ -31,15 +32,15 @@ An activity stream enables you to communicate with other users about the work do
 
 2.  Tap an icon displayed within the ribbon in the record title bar to post items to the activity stream.
 
-<table id="choicetable_l4z_wt4_bpb"><thead><tr><th align="left" id="d124709e86">
+<table id="choicetable_l4z_wt4_bpb"><thead><tr><th align="left" id="d126723e86">
 
 Activity stream item
 
-</th><th align="left" id="d124709e89">
+</th><th align="left" id="d126723e89">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d124709e95">
+</th></tr></thead><tbody><tr><td id="d126723e95">
 
 **Text**
 
@@ -51,37 +52,37 @@ Procedure
 4.  Tap **Post** to save your message in the activity stream.
 
 
-</td></tr><tr><td id="d124709e128">
+</td></tr><tr><td id="d126723e128">
 
 **Files**
 
 </td><td>
 
-1.  Tap the file icon \(![File icon within the activity stream.](../image/activity-stream-file.png)\).
+1.  Tap the file icon \(\[Omitted image "activity-stream-file.png"\] Alt text: File icon within the activity stream.\).
 2.  Browse to the files that you want to post.
 3.  Tap **Add**.
 
 An upload screen opens, detailing the upload progress of the files you selected. In cases where files fail to upload, you are presented with information detailing the reason for the unsuccessful post.
 
-</td></tr><tr><td id="d124709e160">
+</td></tr><tr><td id="d126723e160">
 
 **Multimedia files**
 
 </td><td>
 
-1.  Tap the image icon \(![Image icon within the activity stream.](../image/activity-stream-image.png)\).
+1.  Tap the image icon \(\[Omitted image "activity-stream-image.png"\] Alt text: Image icon within the activity stream.\).
 2.  Tap on the images and videos that you want to post to the activity stream.
 3.  Tap **Add**.
 
 An upload screen opens, detailing the upload progress of the multimedia files you selected. In cases where files fail to upload, you are presented with information detailing the reason for the unsuccessful post.
 
-</td></tr><tr><td id="d124709e192">
+</td></tr><tr><td id="d126723e192">
 
 **Captured photo or video**
 
 </td><td>
 
-1.  Tap the camera icon \(![Camera icon within the activity stream.](../image/activity-stream-camera.png)\).
+1.  Tap the camera icon \(\[Omitted image "activity-stream-camera.png"\] Alt text: Camera icon within the activity stream.\).
 2.  Select to either take a photo or record a video and then use your mobile device to perform one of those actions.
 3.  Approve the photo or video.
 

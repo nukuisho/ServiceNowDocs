@@ -2,13 +2,14 @@
 title: Exclude a resource from Rightsizing analysis
 description: To ensure that a particular resource is not considered or recommended for Rightsizing, add the resource to the Excluded Resources list. The system continues to collect cost and usage data but does not consider the resource for Rightsizing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/rs-exclude-resource-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Resize resources with Rightsizing, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Resize resources with Rightsizing, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Exclude a resource from Rightsizing analysis
@@ -45,10 +46,10 @@ If either condition is met, the app sends an email notification to the owner of 
     The resources are added to the Excluded Resources list. To remove a resource from the list, select the resources from the **Excluded** tab and then select **Remove From Exclusion**.
 
 
-**Parent Topic:**[Resize resources with Rightsizing](../concept/resize-res-ci.md)
+**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)
 
 **Related topics**  
 
 
-[Exclude a resource from all Cloud Cost Management reports](exclusion-list-add-to-cloudin.md)
+[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

@@ -2,6 +2,7 @@
 title: Configuring contract summarization for Contract Management Pro
 description: Configure the smart documents skill in Now Assist in Document Management to generate a contract summary in Contract Management Pro.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-conf-cntr-summary.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -20,7 +21,7 @@ You can summarize contracts, generate frequently asked questions \(FAQs\), and r
 
 To enable this feature in Contract Management Pro, do the following:
 
-1.  Activate the smart documents skill in Now Assist in Document Management. For more information, see [Configure the Smart Documents Skill for Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
+1.  Activate the smart documents skill in Now Assist in Document Management. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
 2.  To enable contract summarization for contract documents, supporting documents, and signed contracts, add the following tables in the **Define availability** tab of smart documents skill.
     -   Contract \[ast\_contract\]
     -   Contract Document Revision \[sn\_cm\_core\_document\_revision\]
@@ -37,26 +38,28 @@ To enable this feature in Contract Management Pro, do the following:
     -   Legal contract owner \[sn\_lg\_cnt.contract\_owner\]
 4.  Enable the Now Assist panel for your instance. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](../concept/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace](../concept/cncore-conf-cntrct-wrkspc.md)
+[Configuring Contract Workspace]()
 
-[Configure signature pause duration when modifying signatories](cncore-pause-sig-property.md)
+[Configure signature pause duration when modifying signatories]()
 
-[Auto-populate the start date and end date for contract requests](cncore-conf-start-end-date-for-cntrcts.md)
+[Auto-populate the start date and end date for contract requests]()
 
-[Activate a system property to generate a certificate of completion](cncore-config-system-prop-COC.md)
+[Enable signatory roles]()
 
-[Enable users to view email details in activity stream](cncore-enbl-user-email-astream.md)
+[Activate a system property to generate a certificate of completion]()
 
-[Enable keyword search for contract templates](cncore-enable-search-cont-tmplts.md)
+[Enable users to view email details in activity stream]()
 
-[Configure conditions to send reminder notifications for expiring contracts](cncore-config-rem-exp-cont.md)
+[Enable keyword search for contract templates]()
 
-[Copy fields from parent request to amendment request](cncore-cpy-fld-parent-amedreq.md)
+[Configure conditions to send reminder notifications for expiring contracts]()
 
-[Manage notifications in Contract Management Pro](../concept/cmpro-manage-notifications.md)
+[Copy fields from parent request to amendment request]()
+
+[Manage notifications in Contract Management Pro]()
 

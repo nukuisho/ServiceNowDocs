@@ -2,11 +2,12 @@
 title: Install Robotic Process Automation \(RPA\) Hub
 description: You can install the Robotic Process Automation \(RPA\) Hub application \(sn\_rpa\_fdn\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Getting started, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Getting started, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Install Robotic Process Automation \(RPA\) Hub
@@ -29,7 +30,7 @@ The following items are installed with Robotic Process Automation \(RPA\) Hub:
 -   Tables
 -   Actions and subflow
 
-For more information, see [Components installed with RPA Hub](../../rpa-hub/reference/installed-with-rpa-hub.md) and [Workflow Studio actions and subflow in RPA Hub](../../rpa-hub/reference/rpa-hub-actions.md).
+For more information, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-rpa-hub.md) and [Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-actions.md).
 
 ## Procedure
 
@@ -39,7 +40,7 @@ For more information, see [Components installed with RPA Hub](../../rpa-hub/refe
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -56,5 +57,5 @@ For more information, see [Components installed with RPA Hub](../../rpa-hub/refe
 
 Use the Robotic Process Automation \(RPA\) Guided Setup to configure the application on your instance.
 
-To access Robotic Process Automation \(RPA\) Guided Setup, navigate to **All** &gt; **Robotic Process Automation** &gt; **Administration** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+To access Robotic Process Automation \(RPA\) Guided Setup, navigate to **All** &gt; **Robotic Process Automation** &gt; **Administration** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
 

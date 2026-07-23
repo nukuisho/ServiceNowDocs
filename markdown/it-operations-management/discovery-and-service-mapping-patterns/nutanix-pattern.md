@@ -1,29 +1,37 @@
 ---
 title: Nutanix Acropolis discovery
-description: The ServiceNow Discovery application uses the Nutanix Components pattern to find components of the Nutanix Acropolis solution containing Nutanix Prism Central version 2024.3.1.8 or Nutanix Prism Element 7.0.1.6. The Nutanix VM Event pattern finds events created for virtual machines \(VMs\) in the Nutanix deployment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+description: The ServiceNow Discovery application uses the Nutanix Components pattern to find components of the Nutanix Acropolis solution containing Nutanix Prism Central version 2024.3.1.8 or Nutanix Prism Element 7.0.1.6. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-06-03"
 reading_time_minutes: 10
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Nutanix Acropolis discovery
 
-The ServiceNow Discovery application uses the Nutanix Components pattern to find components of the Nutanix Acropolis solution containing Nutanix Prism Central version 2024.3.1.8 or Nutanix Prism Element 7.0.1.6. The Nutanix VM Event pattern finds events created for virtual machines \(VMs\) in the Nutanix deployment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application uses the Nutanix Components pattern to find components of the Nutanix Acropolis solution containing Nutanix Prism Central version 2024.3.1.8 or Nutanix Prism Element 7.0.1.6. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 The Nutanix Components pattern uses REST APIs to collect information about the Acropolis deployment components.
-
-The Nutanix VM Event pattern runs every five minutes. If there are events that indicate the change of state in one of the Nutanix components, it triggers rediscovery of Nutanix components using the Nutanix Components Pattern.
 
 Starting with version 1.29.0, Discovery and Service Mapping Patterns supports Nutanix v4 discovery. When you switch to v4, Discovery creates new pool and container records, while existing records stop being updated.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+## Nutanix events
+
+The Nutanix VM Event pattern finds events for virtual machines \(VMs\) in the Nutanix deployment and triggers rediscovery when a state change is detected. Starting with Discovery and Service Mapping Patterns version 1.31.0, the VM Event pattern also supports API v4, and the Nutanix Host Event pattern detects state changes for Nutanix hosts using API v4. Both patterns run every five minutes by default, but are inactive until you enable the relevant scheduled job.
+
+|Pattern|CI|API version|
+|-------|---|-----------|
+|Nutanix VM Event|Nutanix Virtual Machine Instance \[cmdb\_ci\_nutanix\_vm\_instance\]|v1–3 and v4|
+|Nutanix Host Event|Nutanix Host \[cmdb\_ci\_nutanix\_host\]|v4 only|
 
 ## Prerequisites
 
@@ -35,16 +43,10 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     Deploy and connect a dedicated MID Server with network access to Prism Element and Prism Central.
 
-    To discover events related to VMs in the Nutanix deployment, set the MID Server capability to **All** or to **Nutanix**.
-
 -   **Install Nutanix end-point SSL certificates for the MID Server JRE**
-    1.  Collect the certificates by browsing the Nutanix Prism console on internet Explorer.
-    2.  Add SSL certificates for the MID Server, as described in [Add SSL certificates for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/add-ssl-certificates.md).
-    3.  Use the following JRE keytool command to import the SSL certificates in the MID Server's keystore: `<MID Installation>/jre/bin/keytool -import -v -keystore <MID Installation>jre/lib/security/cacerts`.
-
-        If you must enter a password, enter the custom password or the default password- "changeit".
-
-    4.  Install Nutanix end-point SSL certificates for the MID Server JRE.
+    1.  Collect the certificates by browsing the Nutanix Prism console on Internet Explorer.
+    2.  Add SSL certificates for the MID Server, as described in [Add SSL certificates for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-ssl-certificates.md).
+    3.  Install Nutanix end-point SSL certificates for the MID Server JRE.
 -   **Verify API permissions for v1-3**
 
     Verify that the user has read-only access to the following API requests:
@@ -77,19 +79,19 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Set MID Server property to discover v4**
 
-    Enable Nutanix v4 discovery by setting MID Server property value to the exact v4 version. For more information, see [Enable Nutanix v4 discovery](../task/enable-nutanix-v4-discovery.md).
+    Enable Nutanix v4 discovery by setting the MID Server property value to the exact v4 version. For more information, see [Enable Nutanix v4 discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-nutanix-v4-discovery.md).
 
 -   **Configure basic authentication credentials**
 
-    For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+    For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
 -   **Create a serverless discovery schedule**
 
-    Create a discovery schedule to perform targeted discovery of Nutanix components. For more information, see [Create a serverless schedule for Nutanix Acropolis discovery](../task/create-serverless-schedule-nutanix.md).
+    Create a discovery schedule to perform targeted discovery of Nutanix components. For more information, see [Create a serverless schedule for Nutanix Acropolis discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-nutanix.md).
 
 -   **Link Nutanix components to ESX clusters**
 
-    The Nutanix Components pattern can discover Nutanix components hosted on ESX clusters, like storage pools, storage containers, and Controller Virtual Machine \(CVM\), but not ESX clusters themselves. Run VMware probe discovery before the Nutanix pattern discovery to link the Nutanix components to their ESX clusters. If you don't, the Nutanix components are linked to Nutanix Prism instead. For more information on VMware probe discovery, see [Discovery for VMware virtualization](../../discovery/concept/c_DiscoverVMwareInfrastructure.md).
+    The Nutanix Components pattern can discover Nutanix components hosted on ESX clusters, like storage pools, storage containers, and Controller Virtual Machine \(CVM\), but not ESX clusters themselves. Run VMware probe discovery before the Nutanix pattern discovery to link the Nutanix components to their ESX clusters. If you don't, the Nutanix components are linked to Nutanix Prism instead. For more information on VMware probe discovery, see [Discovery for VMware virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoverVMwareInfrastructure.md).
 
 -   **\(Optional\) Disable CI tag discovery**
 
@@ -103,6 +105,12 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     The **sn\_itom\_pattern.nutanix\_relations\_deletion\_batch\_size** property sets the batch size for deleting relations between Nutanix Virtual Machine Instance and Nutanix Host. The default value is 1000; you can adjust this batch size as needed.
 
+-   **Configure Nutanix events**
+    -   Verify that Nutanix Components discovery has run and that the Nutanix Prism Central \[cmdb\_ci\_nutanix\_prism\_central\] table is populated.
+    -   Verify that the MID Servers for Nutanix event discovery have **All** or **Nutanix** capability.
+    -   For v4 event discovery, verify that at least version 1.31.0 of Discovery and Service Mapping Patterns is installed.
+    -   To restrict v4 event discovery to specific Prism Central instances, see [Restrict Nutanix v4 event discovery to specific Prism Centrals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/restrict-nutanix-event-v4-property.md).
+    -   Enable the event discovery scheduled job. For more information, see [Enable Nutanix event discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-nutanix-event-job.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -308,15 +316,15 @@ The ID of the Nutanix Prism Central. This field has the same value as the **Name
 </td></tr></tbody>
 </table>The graphic illustrates CIs that are part of the Acropolis discovery in deployments that use Nutanix AHV for virtualization.
 
-![Nutanix components](../image/CheckResultNutanixAHV.png "Nutanix components")
+\[Omitted image "CheckResultNutanixAHV.png"\] Alt text: Nutanix components
 
 The graphic illustrates CIs that are part of the Acropolis discovery in deployments that use VMware software for virtualization.
 
-![Nutanix components in deployments using VMware software](../image/CheckResultNutanixVMware.png "Nutanix components in deployments using VMware software")
+\[Omitted image "CheckResultNutanixVMware.png"\] Alt text: Nutanix components in deployments using VMware software
 
 The graphic illustrates the Server and Nutanix VM Instance relationship.
 
-![Server and Nutanix VM Instance relationship](../image/nutanix-vmi-server-relationship.png)
+\[Omitted image "nutanix-vmi-server-relationship.png"\] Alt text: Server and Nutanix VM Instance relationship
 
 ## CI relationships
 
@@ -370,10 +378,14 @@ To display the dashboard, navigate to **Self-Service** &gt; **Dashboards** &gt; 
 
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** and use the enhanced dashboard.
 
--   **[Create a serverless schedule for Nutanix Acropolis discovery](../task/create-serverless-schedule-nutanix.md)**  
+-   **[Create a serverless schedule for Nutanix Acropolis discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-nutanix.md)**  
 Create a serverless schedule to discover Nutanix Acropolis using REST API.
--   **[Enable Nutanix v4 discovery](../task/enable-nutanix-v4-discovery.md)**  
+-   **[Enable Nutanix v4 discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-nutanix-v4-discovery.md)**  
 Enable Nutanix v4 discovery by setting the MID Server property value to the exact v4 version.
+-   **[Restrict Nutanix v4 event discovery to specific Prism Centrals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/restrict-nutanix-event-v4-property.md)**  
+Create a MID Server property to target specific Prism Central instances for Nutanix v4 event discovery.
+-   **[Enable Nutanix event discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-nutanix-event-job.md)**  
+Activate the Nutanix events scheduled job to trigger rediscovery of Nutanix components when a state change is detected.
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

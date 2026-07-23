@@ -2,10 +2,11 @@
 title: Schedule an appointment from a touchpoint
 description: Schedule appointments with customers and stakeholders directly from a touchpoint record to coordinate in-person or virtual engagements and keep the entire account team informed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/schedule-appointment-crm-touchpoint.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Activity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
@@ -15,7 +16,7 @@ Schedule appointments with customers and stakeholders directly from a touchpoint
 
 ## Before you begin
 
-You can create appointments only after creating a lead or opportunity task. For information on how to create an opportunity task from the Touchpoints module, see [Create a related task from a touchpoint](create-touchpoint-related-tasks.md). Alternatively, you can create an opportunity task from the Opportunity module in the CSM/FSM Configurable Workspace. For details, see [Add opportunity tasks](../concept/opportunity-management-tasks-tab.md) and [Add lead tasks](lead-management-use-tasks-tab.md).
+You can create appointments only after creating a lead or opportunity task. For information on how to create an opportunity task from the Touchpoints module, see [Create a related task from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-touchpoint-related-tasks.md). Alternatively, you can create an opportunity task from the Opportunity module in the CSM/FSM Configurable Workspace. For details, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md) and [Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-use-tasks-tab.md).
 
 Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
@@ -23,7 +24,7 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Touchpoints** &gt; **All Touchpoints**.
 
@@ -45,8 +46,8 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
     |CRM entity|Form field descriptions|
     |----------|-----------------------|
-    |**Lead**|[Create new appointment form](../reference/create-lead-appointment-form.md)|
-    |**Opportunity**|[Create new appointment form](../reference/create-appointments-form.md)|
+    |**Lead**|[Create new appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-lead-appointment-form.md)|
+    |**Opportunity**|[Create new appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-appointments-form.md)|
 
 10. Select **Save**.
 
@@ -55,5 +56,12 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
 The appointment is scheduled and can be viewed from the touchpoint record's **Appointments** tab.
 
-**Parent Topic:**[Using Activity Management](../concept/using-activity-management.md)
+**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+
+**Related topics**  
+
+
+[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
+
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
 

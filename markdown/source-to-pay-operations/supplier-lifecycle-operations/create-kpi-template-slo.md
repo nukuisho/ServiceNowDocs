@@ -2,6 +2,7 @@
 title: Create manual KPI templates
 description: Create manual KPI templates to define KPIs that require users to manually input KPI data based on the frequency schedules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-template-slo.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -27,8 +28,8 @@ Manual KPI templates can be created for both **Qualitative** and **Quantitative*
 
 2.  Do one of the following:
 
-    -   Under Quick actions, select **Create KPI template**.![Selected Create KPI template option under Quick actions.](../image/create-kpi-template.png)
-    -   Select the list icon \(![List icon.](../image/cases-list-icon.png)\), navigate to **Lists** &gt; **Performance management** &gt; **KPI Templates**, and then select **New**.
+    -   Under Quick actions, select **Create KPI template**.\[Omitted image "create-kpi-template.png"\] Alt text: Selected Create KPI template option under Quick actions.
+    -   Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\), navigate to **Lists** &gt; **Performance management** &gt; **KPI Templates**, and then select **New**.
 3.  On the form, fill in the fields.
 
     Select **Manual** for creating a manual KPI template.
@@ -220,15 +221,18 @@ A KPI is created for the selected supplier. This KPI is activated only when the 
 
 -   At least two active thresholds are added to the KPI
 -   One of those thresholds is marked as target
+-   The template is added to a segmentation rule to produce KPIs
 
-**Parent Topic:**[KPI templates](../concept/kpi-templates.md)
+**Parent Topic:**[KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/kpi-templates.md)
 
 **Related topics**  
 
 
-[Create KPI thresholds](create-kpi-threshold.md)
+[KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/kpi-templates.md)
 
-[Create KPI units](../concept/create-kpi-units.md)
+[Create KPI thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-threshold.md)
 
-[Create KPI performance domains](../concept/create-kpi-domain.md)
+[Create KPI units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-units.md)
+
+[Create KPI performance domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-domain.md)
 

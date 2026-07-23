@@ -2,6 +2,7 @@
 title: Track record list changes
 description: Get an AI-generated summary of recent changes made to a list without manually reviewing each record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-ai-list-tracker.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,11 +28,11 @@ Role required: sn\_ai\_filter\_tracker.user, workspace\_user
     -   This feature is limited to tables that extend task.
     -   The list must have less than 100 records.
     -   You can only track five lists at a time.
-2.  Select the AI tracking icon \(![AI tracking icon](../image/icon-ai-tracking.png)\).
+2.  Select the AI tracking icon \(\[Omitted image "icon-ai-tracking.png"\] Alt text: AI tracking icon\).
 
     When records within the list change, you can summarize the changes.
 
-    ![Summarize recent changes](../image/notification-ai-list-tracker.png)
+    \[Omitted image "notification-ai-list-tracker.png"\] Alt text: Summarize recent changes
 
 3.  Select **Summarize**.
 
@@ -40,5 +41,5 @@ Role required: sn\_ai\_filter\_tracker.user, workspace\_user
 
 A summary of recent changes made to the list is generated.
 
-![Summary of recent changes](../image/summary-ai-list-tracker.png)
+\[Omitted image "summary-ai-list-tracker.png"\] Alt text: Summary of recent changes
 

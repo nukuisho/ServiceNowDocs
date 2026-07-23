@@ -2,6 +2,7 @@
 title: Viewing the dynamic related records in Information Request Playbook
 description: You can view the dynamic related records in the playbook contextual side panel in CSM Configurable Workspace. These records dynamically change based on the current record or playbook activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbook-viewing-rel-records.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -53,7 +54,7 @@ View the related records in the contextual side panel
 
 </td><td>
 
-Related Records icon \(![Related Records icon.](../image/related-records-icon.png)\) that you can select to view the Related Records list.
+Related Records icon \(\[Omitted image "related-records-icon.png"\] Alt text: Related Records icon.\) that you can select to view the Related Records list.
 
  Related records appear as a card format in the list. The initial set of records that display in the list is determined by the record type that you select in the filter at the top of the list.
 
@@ -63,7 +64,7 @@ Select the type of related record to view
 
 </td><td>
 
-Filter at the top of the Related Records list where you can select the type of related records to view. You can also use the filter to see the current selection. For more information, see [Customize the related records view in Service Request Playbook](../task/psds-playbook-customizing-rel-records-view.md).
+Filter at the top of the Related Records list where you can select the type of related records to view. You can also use the filter to see the current selection. For more information, see [Customize the related records view in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-playbook-customizing-rel-records-view.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Search the related records list
 
 </td><td>
 
-Search field at the top of the Related Records list to perform a text search. Records that match the search text are highlighted. For more information, see [Customize the related records view in Service Request Playbook](../task/psds-playbook-customizing-rel-records-view.md).
+Search field at the top of the Related Records list to perform a text search. Records that match the search text are highlighted. For more information, see [Customize the related records view in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-playbook-customizing-rel-records-view.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Open the related record list in a list view in a subtab
 
 </td><td>
 
-List view icon \(![Open in a subtab icon.](../image/dynamic-related-records-list-view-icon.png)\) to display the related records in a list view in a subtab under the parent record.
+List view icon \(\[Omitted image "dynamic-related-records-list-view-icon.png"\] Alt text: Open in a subtab icon.\) to display the related records in a list view in a subtab under the parent record.
 
 </td></tr><tr><td>
 

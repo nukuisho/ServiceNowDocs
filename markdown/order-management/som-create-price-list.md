@@ -2,9 +2,10 @@
 title: Create and publish a price list
 description: Create a price list that defines the pricing for products and services in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-price-list.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -121,7 +122,7 @@ Start Date
 
 </td><td>
 
-Starting date and time that the price list is effective. Select the Calendar icon ![](../image/field-calendar.png) to choose the start date and time, then select **OK**. **Note:** If this is a default price list, the start date must be either the current date or a date that is earlier than the current date.
+Starting date and time that the price list is effective. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the start date and time, then select **OK**. **Note:** If this is a default price list, the start date must be either the current date or a date that is earlier than the current date.
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ End Date
 
 </td><td>
 
-Ending date and time of the price list. Select the Calendar icon ![](../image/field-calendar.png) to choose the end date and time, then select **OK**. After the ending time, the price list is no longer active.**Note:** If this is a default price list, the end date is ignored.
+Ending date and time of the price list. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the end date and time, then select **OK**. After the ending time, the price list is no longer active.**Note:** If this is a default price list, the end date is ignored.
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
@@ -143,5 +144,5 @@ Ending date and time of the price list. Select the Calendar icon ![](../image/fi
 
 ## What to do next
 
-[Create a price list line](som-create-price-list-line.md) for the price list.
+[Create a price list line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-price-list-line.md) for the price list.
 

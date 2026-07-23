@@ -2,6 +2,7 @@
 title: Data privacy in Instance Data Replication
 description: The ability of replication sets to host multiple remote consumers in Instance Data Replication \(IDR\) means that there are potential data privacy issues to consider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/data-privacy-consumers-idr.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -27,18 +28,18 @@ Once a replication set is active, a replication set with multiple consumers migh
 
 If you set bi-direction between a producer and consumer instance, the consumer can originate data that shares back to the producer instance. This data can also potentially reach any other consumer that is part of the replication set.
 
-**Parent Topic:**[Instance Data Replication reference](reference-instance-data-replication.md)
+**Parent Topic:**[Instance Data Replication reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/reference-instance-data-replication.md)
 
 **Related topics**  
 
 
-[Adapter descriptions for Instance Data Replication](../reference/adapter-descriptions.md)
+[Adapter descriptions for Instance Data Replication]()
 
-[Excluded tables in Instance Data Replication](../reference/IDR-excluded-tables.md)
+[Excluded tables in Instance Data Replication]()
 
-[Domain separation and IDR](../reference/instance-data-replication-domain-separation.md)
+[Domain separation and IDR]()
 
-[Instance Data Replication system properties](../reference/instance-data-replication-properties.md)
+[Instance Data Replication system properties]()
 
-[Instance Data Replication roles](../reference/instance-data-replication-roles.md#)
+[Instance Data Replication roles]()
 

@@ -2,6 +2,7 @@
 title: Refreshing your Upgrade Plan
 description: Refresh your upgrade plan to package all the recently installed plugins and applications into your upgrade plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-refreshing-upgrade-plan.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -27,7 +28,7 @@ Role required: admin
 
     The plugin activation starts and installs successfully.
 
-2.  Go to the upgrade plan and refresh it by selecting **Refresh**.![Upgrade plan screen.](../../upgrade-center/image/uc-plan-refresh.png)
+2.  Go to the upgrade plan and refresh it by selecting **Refresh**.\[Omitted image "uc-plan-refresh.png"\] Alt text: Upgrade plan screen.
 
     The Refresh Upgrade Plan confirmation message shows up.
 
@@ -38,16 +39,16 @@ Role required: admin
     The recently installed plugins and applications show up under Upgrade Plan Items related list.
 
 
-**Parent Topic:**[Upgrade Plans tool in Upgrade Console](../concept/um-upgrade-plans-tool.md)
+**Parent Topic:**[Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-plans-tool.md)
 
 **Related topics**  
 
 
-[Building your Upgrade Plan](um-building-upgrade-plan.md)
+[Building your Upgrade Plan]()
 
-[Installing your Upgrade Plan](um-installing-upgrade-plan.md)
+[Installing your Upgrade Plan]()
 
-[Prepare to upgrade with Upgrade Plan](um-prepare-upgrade-plan.md)
+[Prepare to upgrade with Upgrade Plan]()
 
-[Apply Upgrade Plan on your upgrade](um-apply-upgrade-plan.md)
+[Apply Upgrade Plan on your upgrade]()
 

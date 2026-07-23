@@ -14,10 +14,14 @@ The ServiceNow® retail applications streamline frontline operations and custome
 
 ## Retail highlights for the Australia release
 
+-   Enable store staff and HQ support agents to report, resolve, and track equipment failures through a structured break-fix workflow.
+-   Enable HQ to publish standardized audit plans that automatically generate store audit cases and tasks for field auditors.
+-   Enable Moveworks to notify store associates in real time when a break-fix case is assigned, resolved, or needs more information.
+-   Enable HQ to create and distribute standardized questionnaires with stores to capture audit results and operational insights.
+-   Build smart store task questionnaires for Retail with conditional logic, attachment support, and role-based response visibility.
+-   Complete store task questionnaires for Retail directly from the Retail mobile app.
 -   Enables real-time tracking and monitoring of published store plans with visibility from overall plan status to individual store tasks.
 -   Enable HQ users and regional managers to create operational store plans involving cases and tasks for multiple stores through a guided, streamlined user experience.
--   Schedule and manage recurring tasks such as daily store opening procedures with parent cases for store-level tracking.
--   Fulfillment of store case and task for regional managers and store teams through Retail mobile app.
 
 See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-overview.md) for more information.
 
@@ -27,6 +31,11 @@ See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austral
 
 This section describes new features and enhancements in this release.
 
+-   ****
+
+    Create and publish smart assessment templates for store operations with Smart Assessment support for conditional logic and role-based visibility.
+
+
 -   **[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plans.md)**
 
     Store plans provide new capabilities for HQ and regional managers to create operational plans, schedule recurring tasks, and fulfill the tasks through the Retail mobile application.
@@ -34,7 +43,7 @@ This section describes new features and enhancements in this release.
 
 ## Activation information
 
-Install the Retail applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Retail applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -42,9 +51,9 @@ Install the Retail applications by requesting them from the ServiceNow Store. Vi
 
     The following plugins are new in Australia:
 
-    -   Retail Playbook for Store Plan \(sn\_rtl\_str\_plan\_pb\): The Retail Playbook for Store Plan enables headquarters and regional managers to create structured operational plans. These plans include tasks and cases that are linked to store locations and schedules, providing a streamlined approach to managing store operations.
-    -   Task plan template playbook activities \(sn\_tsk\_plan\_pb\_act\): The Task Plan Template Playbook Activities plugin enables users to create and execute task plan templates through guided playbook experiences. These playbooks include reusable activities for creating and managing template items, enforcing form validation, UI policies, and parent–child relationships to provide a consistent and streamlined authoring experience.
-    -   PWM playbook activities \(sn\_pwm\_pb\_act\): The PWM Playbook Activities plugin enables users to integrate Planned Work Management scheduling into guided playbook experiences. These playbooks include planned work scheduling and execution aligned with task plan templates, providing a streamlined approach to managing work schedules.
+    -   Smart Assessment for CSM \(com.sn\_smart\_ast\_cs\): Extends Smart Assessment Engine capabilities into Customer Service Management, enabling the creation and use of intelligent assessment templates within CSM workflows. Supports conditional question logic, role-based response visibility, and attachment handling for customer service scenarios.
+    -   Smart Assessment for Field Service \(com.snc.fsm\_smart\_asmt\_questionnaire\): Bridges Field Service Management and Smart Assessment by enabling questionnaires to be embedded directly into work order tasks via task plan templates. Allows administrators to associate Smart Assessment templates with FSM playbook activities, so field agents can complete structured assessments as part of their task workflow.
+    -   Retail Mobile \(com.sn\_retail\_mobile\): Delivers the Now Mobile Agent experience tailored for retail store associates and field agents. Enables store teams to manage work orders, complete questionnaires, and track in-store operations tasks from a mobile device, supporting both online and on-the-go retail workflows.
 
 ## Related ServiceNow applications and features
 
@@ -57,5 +66,5 @@ Install the Retail applications by requesting them from the ServiceNow Store. Vi
     The ServiceNow ® Field Service Management application aligns with Retail Core by providing capabilities such as work orders for use by each retail location that uses the Retail Core application.
 
 
-**Parent Topic:**[Features and changes by product](new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

@@ -2,6 +2,7 @@
 title: Survey scorecard category results
 description: The Category Results view is a stacked bar chart showing survey results for all questions in an individual category or all categories by respondent count.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_SurveyScorecardCategoryResults.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,22 +30,22 @@ This view displays responses that use the following data types:
 
 **Note:** The **Checkbox** and **Yes/No** data types are combined into the **Boolean** data type in the Survey Designer
 
-![Survey category results](../image/SrvyScoreCardCtgryRslts.png "Survey category results")
+\[Omitted image "SrvyScoreCardCtgryRslts.png"\] Alt text: Survey category results
 
 To view details about a specific response, point to the colored bar to display the response, the number of responses, and the percentage it represents of all the responses to that question.
 
-![Survey scorecard category results detail](../../../product/human-resources/image/SurveyScorecardResultDetail.png "Survey scorecard category results detail")
+\[Omitted image "SurveyScorecardResultDetail.png"\] Alt text: Survey scorecard category results detail
 
-**Parent Topic:**[View a survey scorecard](../task/t_ViewAScorecard.md)
+**Parent Topic:**[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAScorecard.md)
 
 **Related topics**  
 
 
-[Survey scorecard question results](r_SurveyScorecardQuestionResults.md)
+[Survey scorecard question results]()
 
-[Survey scorecard average ratings](r_SurveyScorecardAverageRatings.md)
+[Survey scorecard average ratings]()
 
-[Survey scorecard history](r_SurveyScorecardHistory.md)
+[Survey scorecard history]()
 
-[Export a survey scorecard as an image](../task/t_ExportAScorecardAsAnImage.md)
+[Export a survey scorecard as an image]()
 

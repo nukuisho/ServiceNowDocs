@@ -2,6 +2,7 @@
 title: Enable Core Business Suite Foundation business units
 description: If you’re using any standard business unit included in Core Business Suite Foundation, update the system properties to enable the Core Business Suite business units for installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/activate-cbs-bu-version.html
 release: australia
 topic_type: task
 last_updated: "2026-04-06"
@@ -50,5 +51,5 @@ Role required: admin
 
 The Core Business Suite business unit appears in the installation section.
 
-**Parent Topic:**[Configure Core Business Suite Foundation](../concept/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
 

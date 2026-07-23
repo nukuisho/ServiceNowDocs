@@ -2,6 +2,7 @@
 title: Configure entitlements
 description: An entitlement defines the type of support that a customer receives as well as the supported communication channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-entitlements.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

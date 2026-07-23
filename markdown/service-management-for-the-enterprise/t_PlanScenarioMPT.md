@@ -2,6 +2,7 @@
 title: Plan a move scenario
 description: Facilities administrators create move scenarios when planning and executing large-scale moves. When people are added to the scenario, move\_detail records are created. These records contain all the information about the potential move for a specific person, such as the reference to the sys\_user, destination floor, and destination building.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_PlanScenarioMPT.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -84,7 +85,7 @@ Move delegator
 
 </td><td>
 
-The person responsible for assigning users to open spaces in a scenario. Refer to [Activate a delegator](t_ActivateADelegator.md).
+The person responsible for assigning users to open spaces in a scenario. Refer to [Activate a delegator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateADelegator.md).
 
 </td></tr></tbody>
 </table>10. To add or delete users in this scenario, click the arrow to expand the **Users** tab.
@@ -93,11 +94,11 @@ The person responsible for assigning users to open spaces in a scenario. Refer t
 
     Users added to the scenario are shown in the pending assignments in the floor details.
 
-    ![In this figure, the users have been added to the move scenario and show as pending on the floor to which they have been assigned.](../image/AddUsersScenarios.png "Pending assignment")
+    \[Omitted image "AddUsersScenarios.png"\] Alt text: In this figure, the users have been added to the move scenario and show as pending on the floor to which they have been assigned.
 
 
--   **[Lounge](../concept/c_Lounge.md)**  
+-   **[Lounge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_Lounge.md)**  
 When a facilities administrator sets up a move scenario without specifying the destination building or floor, the users are moved to the lounge.
 
-**Parent Topic:**[Enterprise move scenarios](../reference/r_EnterMoveScenarios.md)
+**Parent Topic:**[Enterprise move scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_EnterMoveScenarios.md)
 

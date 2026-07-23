@@ -2,10 +2,11 @@
 title: Enterprise Architecture Workspace access roles
 description: The following roles help you to configure and use the Enterprise Architecture Workspace application. After access has been granted to a role, all the groups or users assigned to the role are granted access. Roles can contain other roles, and any access granted to a role is granted to any other role that includes it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-access-roles.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-17"
-reading_time_minutes: 14
+last_updated: "2026-06-09"
+reading_time_minutes: 16
 keywords: [access roles, permissions, role capabilities, enterprise architect, application portfolio, business architecture, technology portfolio, data certification, modeling, AI systems]
 breadcrumb: [Install Enterprise Architecture Workspace, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -23,11 +24,11 @@ The following roles are available in Enterprise Architecture Workspace. After ac
 |sn\_apm.apm\_admin|Full administrative access to configure and manage Enterprise Architecture Workspace settings, including Setup page configuration for all functional areas. Includes all permissions of sn\_apm.apm\_analyst.|EA administrator, IT architect lead|
 |sn\_apm.apm\_analyst|Create and manage key portfolio records such as business applications and digital integrations. Approve or reject requests when assigned to the Enterprise Architect group. Includes all permissions of sn\_apm.apm\_user.|Enterprise architect, solution architect|
 |sn\_apm.apm\_user|Create and update portfolio data across business architecture, information portfolio, technology portfolio, modeling, and data certification. Includes all permissions of sn\_apm.apm\_read.|Application owner, business analyst, portfolio manager|
-|sn\_apm.apm\_read|Read-only access to all pages and records in Enterprise Architecture Workspace. Cannot create or update data. For more information, see [Business stakeholder role for Enterprise Architecture Workspace](eaw-business-stakeholder-role.md).|Business stakeholder, executive, auditor|
+|sn\_apm.apm\_read|Read-only access to all pages and records in Enterprise Architecture Workspace. Cannot create or update data. For more information, see [Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-stakeholder-role.md).|Business stakeholder, executive, auditor|
 
 Users with Enterprise Architecture Workspace roles and certain platform roles, such as ITIL and other CMDB related roles, may be able to create or edit Business Application records by default.
 
-**Note:** The global admin role continues to function through role inheritance. However, Enterprise Architecture now uses feature-specific granular admin roles. Use sn\_apm.apm\_admin instead of admin for application-level administration wherever possible. For more information, see [Granular admin role changes in Enterprise Architecture](eaw-gran-admin-role-changes.md).
+**Note:** The global admin role continues to function through role inheritance. However, Enterprise Architecture now uses feature-specific granular admin roles. Use sn\_apm.apm\_admin instead of admin for application-level administration wherever possible. For more information, see [Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gran-admin-role-changes.md).
 
 ## Enterprise Architect group
 
@@ -77,6 +78,86 @@ sn\_apm.apm\_analyst
 -   Approve or reject modeling diagram requests
 -   View shape library configurations, entity configurations, and modeling configuration and relationship definitions
 
+</td></tr><tr><td>
+
+Technology Reference Model \(TRM\) — data access
+
+</td><td>
+
+Group membership only
+
+</td><td>
+
+Read data from the following TRM standards tables: -   TRM Standards phase \(sn\_apm\_trm\_standards\_phase\)
+-   TRM standards product lifecycle \(sn\_apm\_trm\_standards\_product\_lifecycle\)
+-   TRM standards technical debt \(sn\_apm\_trm\_standards\_technical\_debt\)
+
+</td></tr><tr><td>
+
+Application portfolio
+
+</td><td>
+
+Group membership
+
+</td><td>
+
+Retire a business application
+
+</td></tr><tr><td>
+
+Architectural artifacts
+
+</td><td>
+
+Group membership
+
+</td><td>
+
+-   Approve or reject architectural artifact version approval requests. EA group members receive approval requests by email and can approve or reject directly from the notification.
+-   Owner permission on the following architecture document types:
+    -   Application Architecture
+    -   Technology Architecture
+    -   Business Architecture
+    -   Data Architecture
+
+</td></tr><tr><td>
+
+Architecture Review Board \(ARB\)
+
+</td><td>
+
+Group membership
+
+</td><td>
+
+Request an ARB architecture review
+
+</td></tr><tr><td>
+
+Publishing Center / TRM Catalog
+
+</td><td>
+
+sn\_apm.apm\_admin + knowledge\_admin + sp\_admin
+
+</td><td>
+
+Create, publish, and manage TRM Publishing Configurations**Note:** sp\_admin is required in addition to sn\_apm.apm\_admin and knowledge\_admin for EA group members accessing the Publishing Center.
+
+</td></tr><tr><td>
+
+Administration
+
+</td><td>
+
+Group membership
+
+</td><td>
+
+-   Access the **Services Approval Group** module to view and manage EA workflow groups
+-   Configure the EA approval group using the **Configure Enterprise Architecture Group** step in APM Guided Setup
+
 </td></tr></tbody>
 </table>## Installation and plugin activation
 
@@ -116,7 +197,7 @@ Activate the EA Workspace plugin
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -144,7 +225,7 @@ Activate the Technology Portfolio Management \(TPM\) plugin
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -172,7 +253,7 @@ Activate the Technology Reference Model \(TRM\) plugin
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -200,7 +281,7 @@ Activate the Read only roles for Enterprise Architecture plugin
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -261,11 +342,11 @@ Configure application categories, category groups, and families
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -289,11 +370,11 @@ Configure application and capability indicators
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -317,11 +398,11 @@ Configure scoring profiles and attach profile indicators
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -345,11 +426,11 @@ Configure TRM phases and TRM categories
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -373,11 +454,11 @@ Configure information data domains
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -401,11 +482,11 @@ Configure architectural artifact categories
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -429,11 +510,11 @@ Configure demand actions
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -457,11 +538,11 @@ Configure modeling settings, including shape libraries, entities, relationships,
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -485,7 +566,7 @@ Configure total cost of ownership \(TCO\) sources, source cost types, and cost t
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -513,19 +594,19 @@ Configure Publishing Center for TRM catalog publishing; modify TRM catalog publi
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -541,19 +622,19 @@ Add and edit certification policies from the Setup page \(legacy CMDB-based poli
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -602,19 +683,19 @@ Add and edit business capabilities and sub-capabilities
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -630,19 +711,19 @@ Add and edit business units
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -658,19 +739,19 @@ Add and edit departments; add users to departments
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -686,19 +767,19 @@ Add and edit goals; add quantitative and qualitative targets; create sub-goals
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -714,19 +795,19 @@ Add and edit value streams; add application models to value streams
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -742,19 +823,19 @@ Add and edit value stream stages; associate business processes with value stream
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -770,19 +851,19 @@ Add and edit business processes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -798,19 +879,19 @@ Add and edit demands
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -826,19 +907,19 @@ Create demands from the Business Portfolio view and Application Rationalization 
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -854,19 +935,19 @@ Export business portfolio data
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -882,23 +963,23 @@ View all business architecture records
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -943,15 +1024,15 @@ Add new business applications
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -971,15 +1052,15 @@ Add and edit digital integrations; associate artifacts and information objects w
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -999,15 +1080,15 @@ Add and edit digital interfaces; manage Agile Development components, informatio
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1027,19 +1108,19 @@ Update business application details
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1055,19 +1136,19 @@ Associate and unassign business capabilities, product capabilities, architectura
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1083,19 +1164,19 @@ Create diagrams and unified maps from a business application
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1111,19 +1192,19 @@ View the business application roadmap
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1139,19 +1220,19 @@ Add and edit application services
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1167,19 +1248,19 @@ Add and edit product capabilities; view all product capabilities
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1195,19 +1276,19 @@ View and manage AI systems and AI portfolio items associated with business appli
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1223,19 +1304,19 @@ Run the job to generate model IDs for business applications
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1251,23 +1332,23 @@ View all business applications, application services, digital integrations, digi
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1312,19 +1393,19 @@ Add and edit data domains and information objects
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1340,19 +1421,19 @@ Create and edit architectural artifacts; add versions, related entities, and ass
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1368,19 +1449,19 @@ Share architectural artifacts with users and groups; manage access permissions f
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1396,19 +1477,19 @@ Request approval for an artifact version; download and delete architectural arti
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1424,19 +1505,19 @@ Create and edit architectural decision records \(ADRs\); add pages, subpages, an
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1452,19 +1533,19 @@ Tag users and records in an ADR document; request approval for an ADR
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1480,19 +1561,19 @@ Associate architectural artifacts with business applications, capabilities, busi
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1508,23 +1589,23 @@ View all data domains, information objects, architectural artifacts, artifact ve
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1569,7 +1650,7 @@ Activate the TPM plugin
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1597,7 +1678,7 @@ Update the system property to gather software from CMDB
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1625,19 +1706,19 @@ Update TPM lifecycle data for a business application or application service
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1653,19 +1734,19 @@ View technology lifecycle data and technology risk information
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1681,19 +1762,19 @@ View technology portfolio audit risk details and update verification status
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1709,19 +1790,19 @@ Run the job to populate TPM lifecycle data
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1737,19 +1818,19 @@ Run the scheduled job to update TPM data
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1765,19 +1846,19 @@ Run the scheduled job to generate TPM risk; restart the TPM scheduled job
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1793,19 +1874,19 @@ View TPM logs; run the job to populate TPM lifecycle identifiers
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1821,23 +1902,23 @@ View technology portfolio data, lifecycle timelines, and risk information
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1882,7 +1963,7 @@ Activate the TRM plugin
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1910,15 +1991,15 @@ Approve or reject TRM product requests
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1938,15 +2019,15 @@ Approve or reject TRM product lifecycle requests; create TRM product lifecycles
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1966,15 +2047,15 @@ View and update pending TRM requests
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1994,19 +2075,19 @@ View all TRM products, grouped by category or individually
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2022,19 +2103,19 @@ View all TRM phases and categories
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2050,19 +2131,19 @@ Request a new TRM product; request a TRM product lifecycle change
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2078,19 +2159,19 @@ Create TRM product lifecycle requests
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2106,19 +2187,19 @@ Associate architectural artifacts with TRM products
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2134,19 +2215,19 @@ View, create, add, and remove business capabilities and business applications as
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2162,19 +2243,19 @@ View TRM technical debt; run the job to generate TRM technical debts
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2190,19 +2271,19 @@ Export TRM product catalog data
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2218,27 +2299,55 @@ View TRM products, categories, phases, technical debt, and lifecycle timelines
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
  
+
+</td></tr><tr><td>
+
+Run the scheduled job to sync TRM product names with linked SAM software product names
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Requires the admin role. Run on demand from **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
 </td></tr></tbody>
 </table>## Enterprise modeling and visualization
@@ -2279,15 +2388,15 @@ Approve or reject modeling diagram requests
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2307,15 +2416,15 @@ View shape library configurations, entity configurations, modeling configuration
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2335,19 +2444,19 @@ Create empty diagrams and synchronize them with the ServiceNow database
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2363,19 +2472,19 @@ Create business capability maps \(BC maps\), business application maps \(BA maps
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2391,19 +2500,19 @@ Create ArchiMate diagrams, AWS architecture diagrams, and CSDM diagrams
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2419,19 +2528,19 @@ Add, remove, group, ungroup, expand, collapse, and delete shapes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2447,19 +2556,19 @@ Add related records to shapes; add labels to connector lines
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2475,19 +2584,19 @@ Reorder shapes in a category; show or hide the Shapes panel; toggle between grid
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2503,19 +2612,19 @@ Save a diagram as new; duplicate a diagram
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2531,19 +2640,19 @@ Submit a diagram for approval; synchronize a diagram and individual shapes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2559,19 +2668,19 @@ Share a diagram; download a diagram; add or edit diagram version details; delete
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2587,19 +2696,19 @@ Create and manage custom shape libraries, custom shape elements, and custom shap
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2615,19 +2724,19 @@ Modify BPMN diagrams
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2639,27 +2748,83 @@ Modify BPMN diagrams
 
 </td></tr><tr><td>
 
+Set relationship type on a connector; set connector line style, arrowhead style, and icon for non-ArchiMate and mixed connectors; swap connector direction; add a label to a connector
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Requires Owner or Editor access to the diagram
+
+</td></tr><tr><td>
+
+Align shapes to a common edge or center; distribute shapes at equal spacing
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Requires Owner or Editor access to the diagram. Not available in business capability map diagrams.
+
+</td></tr><tr><td>
+
 View diagrams and diagram details
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -2704,19 +2869,19 @@ Analyze business applications in the bubble chart view by capability
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2732,19 +2897,19 @@ Create demands from the bubble chart view and list view
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2760,19 +2925,19 @@ Set the planned disposition of a business application
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2788,19 +2953,19 @@ Add and edit business application lifecycle data
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2816,19 +2981,19 @@ Edit business application details from the bubble chart and list views
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2844,19 +3009,19 @@ Edit demands and projects associated with a business application
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2872,19 +3037,19 @@ Update the system property to change the number of bubbles displayed
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2900,19 +3065,19 @@ Apply filters on the application rationalization view
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2928,19 +3093,19 @@ Export application rationalization list data
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2956,23 +3121,23 @@ View application rationalization data in bubble chart and list views
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -3017,19 +3182,19 @@ Create data certification policies using the certification policy wizard
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3045,7 +3210,7 @@ Publish draft certification policies
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3073,7 +3238,7 @@ Run data certification policies
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3101,7 +3266,7 @@ Activate and deactivate certification policies; delete certification policies
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3129,7 +3294,7 @@ Track certification progress across policies
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3157,19 +3322,19 @@ Review and certify data certification tasks assigned to them
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3185,19 +3350,19 @@ Fail records that do not meet certification standards
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3213,19 +3378,19 @@ Reassign certification tasks to other users or groups; request reassignment
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3241,19 +3406,19 @@ Submit completed certification reviews
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3269,23 +3434,23 @@ View certification policies and certification status
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -3330,15 +3495,15 @@ View and monitor the Applications Assessment dashboard
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3358,15 +3523,15 @@ View and monitor the Application 360 dashboard
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3386,19 +3551,19 @@ View the workspace home dashboard and portfolio overview and health section
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3414,19 +3579,19 @@ Apply filters on the portfolio overview and health view
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3442,23 +3607,23 @@ View dashboards
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -3503,7 +3668,7 @@ Activate the App TCO plugin
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3531,7 +3696,7 @@ Create TCO sources, TCO source cost types, and TCO cost types
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3559,7 +3724,7 @@ Set properties for TCO dashboards
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3587,19 +3752,19 @@ View all TCO records for business applications
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3615,19 +3780,19 @@ create TCO records
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3643,23 +3808,23 @@ View TCO records
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -3704,19 +3869,19 @@ Create and modify TRM catalog publishing configurations
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3732,19 +3897,19 @@ Configure TRM data to publish; manage article configurations
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3760,19 +3925,19 @@ Associate portals with a TRM catalog knowledge base
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3788,19 +3953,19 @@ Enable automatic synchronization of published catalogs
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3816,19 +3981,19 @@ Publish and republish TRM catalogs to the knowledge base
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3844,19 +4009,19 @@ Retire and archive published TRM catalogs; view publishing run logs
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3872,23 +4037,23 @@ Access published TRM catalog content through the service portal
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -3933,19 +4098,19 @@ create explorations on the Architecture Analyzer canvas
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3961,19 +4126,19 @@ Add entities to the canvas by selecting entity type and specific record
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -3989,19 +4154,19 @@ Add upstream and downstream related entities to a selected entity on the canvas
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4017,19 +4182,19 @@ Show or hide the left navigation pane and the Add to canvas panel
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4045,19 +4210,19 @@ Clear all entities from the canvas
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4073,19 +4238,19 @@ Download an exploration canvas as an image
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4101,19 +4266,19 @@ Rename an exploration; delete an exploration
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4129,23 +4294,23 @@ View existing explorations
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -4190,19 +4355,19 @@ View the AI systems tab on a business application record
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4218,19 +4383,19 @@ View AI system details including lifecycle phase, state, lifecycle status, and r
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4246,19 +4411,19 @@ Add an existing AI Control Tower AI system to a business application
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4274,19 +4439,19 @@ Remove an AI system association from a business application
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4302,19 +4467,19 @@ Open and view the full AI system record in the AI Control Tower workspace
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4330,19 +4495,19 @@ View full AI system governance details in AI Control Tower, including related mo
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4358,19 +4523,19 @@ Manage AI system associations with business applications from the AI Control Tow
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4386,23 +4551,23 @@ View the AI systems tab on a business application record
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -4447,19 +4612,19 @@ View and manage your business capabilities, business processes, and business app
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4475,19 +4640,19 @@ View and manage your application services, information objects, and architectura
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4503,19 +4668,19 @@ View and manage your TRM products, digital integrations, and digital interfaces
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -4531,35 +4696,35 @@ View your assigned entities
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Enterprise Architecture Workspace](../../task/install-ea-workspace.md)
+</table>**Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/install-ea-workspace.md)
 
 **Related topics**  
 
 
-[Business stakeholder role for Enterprise Architecture Workspace](eaw-business-stakeholder-role.md)
+[Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-stakeholder-role.md)
 
-[Granular admin role changes in Enterprise Architecture](eaw-gran-admin-role-changes.md)
+[Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gran-admin-role-changes.md)
 

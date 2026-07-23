@@ -2,6 +2,7 @@
 title: Reopen a job requisition
 description: Reopen a job requisition that is already in closed state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/reopen-job-req.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -28,26 +29,26 @@ Role required: sn\_ta\_hiring\_core.recruiter
 3.  Select **Reopen**.
 
     -   The requisition moves to the **New** state after it's reopened.
-    -   For more information on the state management system, see [Job requisition state management](../reference/job-req-state-mngmnt.md).
+    -   For more information on the state management system, see [Job requisition state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/job-req-state-mngmnt.md).
 
-**Parent Topic:**[Manage the job requisitions as a recruiter](../../employee-center/concept/manage-job-reqs.md)
+**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
 
 **Related topics**  
 
 
-[Put a job requisition on hold](put-req-on-hold.md)
+[Put a job requisition on hold]()
 
-[Withdraw hold on a job requisition](off-hold-job-req.md)
+[Withdraw hold on a job requisition]()
 
-[Duplicate a job requisition](duplicate-job-req.md)
+[Duplicate a job requisition]()
 
-[Close a job requisition](close-a-job-req.md)
+[Close a job requisition]()
 
-[Submit a job requisition for approval](submit-for-approval-job-req.md)
+[Submit a job requisition for approval]()
 
-[Cancel a submitted approval request](cancel-approval-job-req.md)
+[Cancel a submitted approval request]()
 
-[Resend a job requisition for approval](resubmit-approval-job-req.md)
+[Resend a job requisition for approval]()
 
-[Open a job requisition in your ATS](open-a-job-req-for-ats.md)
+[Open a job requisition in your ATS]()
 

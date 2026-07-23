@@ -2,6 +2,7 @@
 title: Assign roles to AI Search administrators and users
 description: Grant users the ais\_admin, ais\_external\_content, ais\_high\_security\_admin, and search\_application\_admin roles so they can configure and manage settings and content for AI Search and search applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/assign-ais-admin-role.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -84,10 +85,10 @@ AI Search external content API user \[ais\_external\_content\]
 
 Accesses endpoints for AI Search external content APIs, including the following:
 
--   Feeds external documents for AI Search to index as search results, or deletes records for external documents from the index, using the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/external-content-ingestion-api.md).
--   Imports user mappings for external content security using the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md).
+-   Feeds external documents for AI Search to index as search results, or deletes records for external documents from the index, using the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/external-content-ingestion-api.md).
+-   Imports user mappings for external content security using the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ext-user-mapping-api.md).
 
- Assign this role to non-interactive users and integration users who require access to external content API endpoints. For more information on non-interactive users, see [Non-interactive sessions](../../users-and-groups/concept/c_NonInteractiveSessions.md#). For details on integration users, see [Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md).
+ Assign this role to non-interactive users and integration users who require access to external content API endpoints. For more information on non-interactive users, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md). For details on integration users, see [Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md).
 
  Users with the admin role don't need this role to access external content API endpoints.
 
@@ -96,10 +97,10 @@ Accesses endpoints for AI Search external content APIs, including the following:
 
 ## Procedure
 
--   [Assign a role to a user](../../users-and-groups/task/t_AssignARoleToAUser.md)
+-   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
 
--   [Assign a role to a group](../../roles/task/t_AssignRoleToGroup.md)
+-   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
 
 
-**Parent Topic:**[Configuring AI Search](../concept/configuring-ais.md)
+**Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md)
 

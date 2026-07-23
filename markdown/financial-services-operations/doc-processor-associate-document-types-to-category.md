@@ -2,6 +2,7 @@
 title: Associate document types to a document category
 description: Associate the relevant document types to a document category. For example, for the Proof of Identity document category, the types of documents could be Driver's License and Passport.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/doc-processor-associate-document-types-to-category.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +48,7 @@ You can associate one or more document types with a document category.
 
 ## What to do next
 
-[Create a document list definition](doc-processor-define-document-list.md)
+[Create a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/doc-processor-define-document-list.md)
 
-**Parent Topic:**[Configuring Financial Services Operations Document Processor](../concept/configuring-fso-document-processor.md)
+**Parent Topic:**[Configuring Financial Services Operations Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-fso-document-processor.md)
 

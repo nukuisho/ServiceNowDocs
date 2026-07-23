@@ -2,12 +2,13 @@
 title: Configure Remove Host Isolation capability in Microsoft Defender for Endpoint
 description: If needed, remove the isolation of a host that was previously isolated from the network in Microsoft Defender for Endpoint. You can prevent any other malicious activities or potential attacks on other hosts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/remove-isolation-ms-defender-for-endpoint.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Additional Configurations, Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -29,16 +30,14 @@ Role required: sn\_si.admin or sn\_si.analyst
 
 2.  Select the security incident that you want to review with the Microsoft Defender for Endpoint information.
 
-3.  In the Related Links section, click **Run EDR Profile\(s\)**.
+3.  In the Related Links section, select **Run EDR Profile\(s\)**.
 
-4.  Browse and select a profile with **Remove Isolation capability** selected from the list of available profiles, and click **Submit**.
-
-    ![Remove Isolation capability in Microsoft Defender for Endpoint](../image/remove_isolation.png "Remove Isolation")
+4.  Browse and select a profile with **Remove Isolation capability** selected from the list of available profiles, and select **Submit**.
 
     Alternatively, you can perform the following steps:
 
-    1.  Click **Show All Related Lists** in the related lists section.
-    2.  Click the **Configuration Item** related list.
+    1.  Select **Show All Related Lists** in the related lists section.
+    2.  Select the **Configuration Item** related list.
     3.  Select **Remove Isolation** and select the corresponding capabilities.
 5.  Validate the automation activity and activities section.
 
@@ -47,20 +46,20 @@ Role required: sn\_si.admin or sn\_si.analyst
 7.  Validate the automation activities of the execution.
 
 
-**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](../concept/additional-configurations-in-defender.md)
+**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 **Related topics**  
 
 
-[Configure Isolate Host capability in Microsoft Defender for Endpoint](isolate-host-ms-defender-for-endpoint.md)
+[Configure Isolate Host capability in Microsoft Defender for Endpoint]()
 
-[Configure Run Antivirus Scan capability in Microsoft Defender for Endpoint](run-antivirus-scan-capability-ms-defender.md)
+[Configure Run Antivirus Scan capability in Microsoft Defender for Endpoint]()
 
-[Configure Restrict App Execution capability in Microsoft Defender for Endpoint](restrict-app-execution-capability-ms-defender.md)
+[Configure Restrict App Execution capability in Microsoft Defender for Endpoint]()
 
-[Configure Remove App Restriction capability in Microsoft Defender for Endpoint](remove-app-restriction-capability-ms-defender.md)
+[Configure Remove App Restriction capability in Microsoft Defender for Endpoint]()
 
-[Configure Get Related Machines from Defender Capability in Microsoft Defender for Endpoint](get-related-machines-defender-capability-ms-defender.md)
+[Configure Get Related Machines from Defender Capability in Microsoft Defender for Endpoint]()
 
-[Configure Stop and Quarantine File capability in Microsoft Defender for Endpoint](stop-and-quarantine-file-capability.md)
+[Configure Stop and Quarantine File capability in Microsoft Defender for Endpoint]()
 

@@ -2,6 +2,7 @@
 title: Function field
 description: Create function fields and scripts in the ServiceNow AI Platform to perform common database transformations and calculations.Create a field that displays the results of a database function, such as a mathematical operation, field length computation, or day of the week calculation. Test in a subproduction instance before deploying to a production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-support-functions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,7 +48,7 @@ Because function field calculations are not stored in the database, some operati
 
 -   Function fields cannot be encrypted, since a function field value is never stored in the database.
 -   Function fields cannot be converted to regular fields or vice versa.
--   Function fields that you create in the Reporting UI do not support dot-walking. For more information, see [Configure function fields in Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/configure-function-fields.md).
+-   Function fields that you create in the Reporting UI do not support dot-walking. For more information, see [Configure function fields in Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-function-fields.md).
 -   Security is evaluated on the components of the function and on the calculated value of the field. When used in visualizations, sections that contain information that the user is not permitted to see are hidden from the user.
 -   Field function names must be unique.
 
@@ -65,7 +66,7 @@ Platform functions can be defined in two ways:
 
 2.  Create a field that holds the function definition, as shown in the following example.
 
-    ![Function field definition](../image/platform-functions-dictionary-entry.png)
+    \[Omitted image "platform-functions-dictionary-entry.png"\] Alt text: Function field definition
 
     Select the **Function field** check box on the Dictionary Entry \[sys\_dictionary\] form. This action specifies that the field runs a function rather than stores a value.
 

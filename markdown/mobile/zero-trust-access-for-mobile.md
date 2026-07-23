@@ -2,6 +2,7 @@
 title: Securing your ServiceNow mobile instance with Zero Trust Access
 description: Limit end-user access to your ServiceNow instance by opting in to Zero Trust Access. This adjusts user roles and permissions according to security policies defined by the admin based on factors such as IP address, location, and identity provider attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/zero-trust-access-for-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,10 +18,10 @@ Session states can either be relegated with limited user access or restored with
 
 For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/session-access.md).
 
-![Banner notifying the user that their access may be limited because they are not on a trusted network.](../image/mobile-zero-trust-access.png)
+\[Omitted image "mobile-zero-trust-access.png"\] Alt text: Banner notifying the user that their access may be limited because they are not on a trusted network.
 
--   **[Configure Zero Trust Access for mobile](configure-zero-trust-access-mobile.md)**  
+-   **[Configure Zero Trust Access for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-zero-trust-access-mobile.md)**  
 Configure Zero Trust Access \(ZTA\) on mobile to reduce end-user access based on factors such as IP address, location, and identity provider attributes.
 
-**Parent Topic:**[Mobile authentication](../concept/mobile-authentication.md)
+**Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-authentication.md)
 

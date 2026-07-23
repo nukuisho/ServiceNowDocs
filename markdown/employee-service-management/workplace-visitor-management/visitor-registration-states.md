@@ -2,6 +2,7 @@
 title: Visitor registration states
 description: The visitor logs display the current state of visitor registrations. These states can be changed to other states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/visitor-registration-states.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -110,20 +111,20 @@ Disappeared
 There is no update about the visitor or has checked out without updating the reception staff.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing visitor registrations](../concept/manage-visitor-registrations.md)
+</table>**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
 
-[Use the receptionist portal](../task/use-receptionist-portal.md)
+[Use the receptionist portal]()
 
-[Update a visitor registration](../task/update-visitor-registration.md)
+[Update a visitor registration]()
 
-[View visitor registrations](../task/view-visitor-registrations.md)
+[View visitor registrations]()
 
-[View visitor policy confirmations](../task/view-policy-confirmations.md)
+[View visitor policy confirmations]()
 
-[Anonymize a visitor](../task/anonymize-visitor.md)
+[Anonymize a visitor]()
 
-[Apply visitor management archive policy](../task/apply-visitor-management-archival-rule.md)
+[Apply visitor management archive policy]()
 

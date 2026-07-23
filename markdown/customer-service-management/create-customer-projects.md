@@ -2,6 +2,7 @@
 title: Create customer projects
 description: Create customer projects at internal or external business locations to manage location openings, renovations, closings, or other location-specific initiatives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-customer-projects.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ A customer project can be initiated by applying templates, or by importing and e
 
 3.  On the form, fill in the fields.
 
-    The following table outlines the unique fields of the form. To learn more about other fields, refer [Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md).
+    The following table outlines the unique fields of the form. To learn more about other fields, refer [Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateAProject.md).
 
     |Field|Description|
     |-----|-----------|
@@ -45,7 +46,7 @@ A customer project can be initiated by applying templates, or by importing and e
 
 5.  Select a project to see all the related tabs.
 
-    ![Project workspace displaying related tabs of a project.](../image/project-workspace.png)
+    \[Omitted image "project-workspace.png"\] Alt text: Project workspace displaying related tabs of a project.
 
 <table id="table_jzx_dmn_tdc"><thead><tr><th>
 
@@ -123,7 +124,7 @@ Reports of the project
 </td></tr></tbody>
 </table>6.  Under the **Details** tab, fill in the other fields.
 
-    The following table outlines the unique fields of the customer project. To learn more about other fields, see [Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md).
+    The following table outlines the unique fields of the customer project. To learn more about other fields, see [Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateAProject.md).
 
 <table id="table_h33_rpn_tdc"><thead><tr><th>
 
@@ -161,5 +162,5 @@ Service organization for the project. Select an internal business location \(IBL
 </table>
 ## What to do next
 
-[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md)
+[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateATaskFromAProject.md)
 

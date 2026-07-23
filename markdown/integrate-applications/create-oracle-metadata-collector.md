@@ -2,6 +2,7 @@
 title: Create an Oracle metadata collector
 description: Create a collector to import metadata from Oracle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-oracle-metadata-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,35 +18,43 @@ Create a collector to import metadata from Oracle.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](../concept/mid-server-for-metadata-collectors-dc.md).
--   All per-requisite tasks are completed. For more information, see [Prepare to run the Oracle collector](prepare-to-run-oracle-collector.md#).
+-   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
+-   All per-requisite tasks are completed. For more information, see [Prepare to run the Oracle collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-oracle-collector.md).
 -   Role required: connection-admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
 
-2.  Select the Connect Hub ![Connect Hub icon](../../../build/workflow-data-fabric/image/wdf-connect-hub-icon.png) icon in the left sidebar.
+2.  Select the Connect Hub \[Omitted image "wdf-connect-hub-icon.png"\] Alt text: Connect Hub icon icon in the left sidebar.
 
 3.  Select **Create** &gt; **Metadata collector**.
 
 4.  From the System list, select **Oracle**.
 
-5.  Complete the form.
+5.  From the Connection type list, select one of the following:
+
+    1.  Select **New connection** to configure a new connection.
+
+    2.  Select **Existing connection** to reuse an existing connection and select an existing connection from the **Connections** list.
+
+        The configuration form is filled with details from the existing connection. The name is appended with the word Copy and sensitive details like password aren't copied.
+
+6.  Complete the form.
 
     |Field|Description|
     |-----|-----------|
-    |Connection name|Unique identifier for the connection. This field cannot be modified once the connection is established.|
+    |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-6.  Configure the authentication options.
+7.  Configure the authentication options.
 
     |Field|Description|
     |-----|-----------|
     |Username|Username to use to connect to the database.|
     |Password|Password of the databsase user.|
 
-7.  Select from **Collect all schemas** or **Specify which schema to collect** to configure the schema collection options.
+8.  Select from **Collect all schemas** or **Specify which schema to collect** to configure the schema collection options.
 
     |Field|Description|
     |-----|-----------|
@@ -57,7 +66,7 @@ Before you begin, verify the following:
     |Specify which schema to collect|Catalog only the specified schemas.|
     |Schema|Name of the database schema to catalog.|
 
-8.  Configure the connection information.
+9.  Configure the connection information.
 
 <table id="table_mtg_br2_h3c"><thead><tr><th>
 
@@ -100,7 +109,7 @@ Excluded database
 Name or regular expression indicating databases not to catalog when the Database field is empty.**Note:** This parameter is ignored if the Database field is specified.
 
 </td></tr></tbody>
-</table>9.  Configure the statistics and sampling options.
+</table>10. Configure the statistics and sampling options.
 
 <table id="table_ocr_gc4_33c"><thead><tr><th>
 
@@ -143,7 +152,7 @@ Disable Extended Metadata collection
 Skip harvesting of extended metadata for data asset types such as database, schema, table, columns functions, stored procedures, user defined types, synonyms. Basic metadata for these data asset types will still be harvested.
 
 </td></tr></tbody>
-</table>10. Configure the harvesting scope and limits options.
+</table>11. Configure the harvesting scope and limits options.
 
     |Field|Description|
     |-----|-----------|
@@ -152,7 +161,7 @@ Skip harvesting of extended metadata for data asset types such as database, sche
     |Enable Sample String Values collection|Enable harvesting of sample values and histograms for columns containing string data.|
     |Exclude system functions|Exclude system functions from metadata collection.|
 
-11. Configure the connection and reliability options.
+12. Configure the connection and reliability options.
 
 <table id="table_jml_1bc_l3c"><thead><tr><th>
 
@@ -215,7 +224,7 @@ SQL parsing timeout
 Timeout in seconds for SQL parsing during lineage collection. Default: 60
 
 </td></tr></tbody>
-</table>12. Select **Save**.
+</table>13. Select **Save**.
 
 
 ## Result
@@ -226,10 +235,10 @@ The metadata collector is created and appears on the Connectors page with a Conf
 
 After creating the collector, you can perform any of the following tasks:
 
--   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](run_metadata-collectors-manually.md).
--   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](schedule-metadata-collector-runs.md).
--   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](view-runtime-logs-for-collector-runs.md).
--   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](../concept/manage-data-catalog.md).
+-   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run_metadata-collectors-manually.md).
+-   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/schedule-metadata-collector-runs.md).
+-   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-runtime-logs-for-collector-runs.md).
+-   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md).
 
-**Parent Topic:**[Oracle metadata collector](../concept/oracle-metadata-collector.md)
+**Parent Topic:**[Oracle metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/oracle-metadata-collector.md)
 

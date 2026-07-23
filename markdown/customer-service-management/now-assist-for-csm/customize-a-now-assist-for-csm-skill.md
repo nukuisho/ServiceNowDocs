@@ -2,11 +2,12 @@
 title: Customize a case summarization skill in Now Assist for Customer Service Management \(CSM\)
 description: If you have the admin role, you can customize a Now Assist for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Configure, Now Assist for CSM, Customer Service Management]
 ---
@@ -25,7 +26,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
 
 2.  In the **Customer** workflow group, view the skills for the Now Assist for CSM features.
 
@@ -39,7 +40,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the More actions icon![](../image/more_vertical_icon.png) for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    3.  Select the More actions icon\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -49,7 +50,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Additional skill input and trigger information](additional-skill-input-and-trigger-information-for-now-assist_0.md).
+    For information about the inputs and triggers for each skill, see [Additional skill input and trigger information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/additional-skill-input-and-trigger-information-for-now-assist_0.md).
 
     1.  Enter a name and description for the skill.
 
@@ -61,7 +62,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
     Configure the base input table fields and related lists for the different input templates \(Case new, Case work in progress, or Case resolved states\) for the skill.
 
-    Each skill relies on a base input table and input fields with descriptions to provide context for the Now LLM Service to generate a response.
+    Each skill relies on a base input table and input fields with descriptions to provide context for the LLM service to generate a response.
 
     Select only those related tables that are offered as the base system as part of the input data.
 
@@ -69,7 +70,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         Add multiple base input fields, as necessary.
 
-        ![View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.](../image/now-assist-csm-view-input.png "View input step")
+        \[Omitted image "now-assist-csm-view-input.png"\] Alt text: View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -104,7 +105,7 @@ Description of the base input field value.
 </td></tr></tbody>
 </table>    2.  For each input template state \(New, Work in progress, or Resolved\), configure the rule conditions by using the condition builder to filter the data.
 
-        The rule conditions determine when the input template is used. By default, the record state determines the input template that the Now LLM Service uses.
+        The rule conditions determine when the input template is used. By default, the record state determines the input template that the LLM service uses.
 
         You can build the condition out further by selecting **+New condition set** and configuring additional parameters.
 
@@ -118,7 +119,7 @@ Description of the base input field value.
 
     3.  For each input template state \(New, Work in progress, or Resolved\), select **+New data source** to configure the additional related table and activity stream data, as needed.
 
-        Adding input data sources, like the related tables and activity streams, provide more context to the Now LLM Service in a related list.
+        Adding input data sources, like the related tables and activity streams, provide more context to the LLM service in a related list.
 
         You can also add the rule conditions to these additional data sources.
 
@@ -128,9 +129,9 @@ Description of the base input field value.
 
 6.  Customize the prompt.
 
-    Review and test the default prompt provided. The prompt is fixed and cannot be customized directly within this step or from the Now Assist Admin screen.
+    Review and test the default prompt provided. The prompt is fixed and can't be customized directly within this step or from the Now Assist admin screen.
 
-    To customize or create new prompts, select **Edit prompt in Now Assist Skill Kit**. This will redirect you to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more info, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+    To customize or create prompts, select **Edit prompt in Now Assist Skill Kit**. This will redirect you to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more info, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)
 
     1.  For each input template state \(New, Work in progress, or Resolved\), select the prompt to include in the generated summary.
 
@@ -156,9 +157,9 @@ Description of the base input field value.
 
     -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
     -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
-    -   If new roles are created after the upgrade, you’ll need to manually add them in both the **Define Access** and **Select Display**.
+    -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
-        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
 9.  Configure where to display the case summarization.
 

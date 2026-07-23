@@ -2,6 +2,7 @@
 title: Configure quick links in Agent Workspace for HR Case Management
 description: Configure quick links to quickly access internal and external resources related to specific departments within your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/quick-links-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -17,7 +18,7 @@ Configure quick links to quickly access internal and external resources related 
 
 ## Before you begin
 
-Employee Center Pro must be installed. For more information, see [Install Employee Center Pro](../../employee-center/task/install-ec-pro.md).
+Employee Center Pro must be installed. For more information, see [Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-ec-pro.md).
 
 Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
@@ -45,7 +46,7 @@ Name
 
 </td><td>
 
-Name of the link to content.**Note:** Ensure that you have content created in **Content Publishing** &gt; **Content Library** &gt; **View All**.
+Name of the link to content.**Note:** Verify that you have content created in **Content Publishing** &gt; **Content Library** &gt; **View All**.
 
 </td></tr><tr><td>
 
@@ -167,7 +168,7 @@ Final date the content is valid.
 
     5.  Select **Submit**.
 
-4.  Map the link created above to the Quick link component in UI Builder.
+4.  Map the link created earlier to the Quick link component in UI Builder.
 
     1.  Navigate to **All** &gt; **HR Case Management** &gt; **UI Builder for Agent Workspace for HR Case Management**.
 
@@ -175,23 +176,23 @@ Final date the content is valid.
 
     3.  Select your landing page variant.
 
-    4.  In the left pane, select the data icon \(![Data icon](../image/data-icon.png)\).![Data tab](../image/data-icon-aws.png)
+    4.  In the left pane, select the data icon \(\[Omitted image "data-icon.png"\]\).\[Omitted image "data-icon-aws.png"\] Alt text: UI Builder left pane with Data tab icon highlighted
 
-    5.  Select **getQuickLinksContent**.![Get quick links panel](../image/get-quick-links.png)
+    5.  Select **getQuickLinksContent**.\[Omitted image "get-quick-links.png"\] Alt text: Data panel showing getQuickLinksContent data resource with content\_id field
 
     6.  In the **content\_id** field, enter the name given to the Content group.
 
     7.  Select **Save**.
 
 
-**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](../concept/uib-aws.md)
+**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/uib-aws.md)
 
 **Related topics**  
 
 
-[Create a landing page variant](configure-report-aws.md)
+[Create a landing page variant]()
 
-[Enable a detailed data display within a report](drill-down-report.md)
+[Enable a detailed data display within a report]()
 
-[Reorder the navigation pane modules in HR Agent Workspace](reorder-pane-modules-aws.md)
+[Reorder the navigation pane modules in HR Agent Workspace]()
 

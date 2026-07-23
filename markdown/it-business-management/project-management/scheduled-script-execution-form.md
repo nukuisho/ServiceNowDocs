@@ -2,6 +2,7 @@
 title: Scheduled Script Execution Form
 description: Use the scheduled script execution form to define a scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/scheduled-script-execution-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -61,7 +62,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
+To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/define-business-calendar-entries.md).
 
 
 </td></tr><tr><td>
@@ -221,7 +222,7 @@ Date and time of the first scheduled job generation. Select the calendar date an
 </table>**Related topics**  
 
 
-[Generate labor costs](../task/gen-cost-pln-prj-wrkspc.md)
+[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-cost-pln-prj-wrkspc.md)
 
-[Activate a scheduled job to generate labor costs](../task/gen-labor-costs-scheduled-job-ppm.md#)
+[Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md)
 

@@ -2,6 +2,7 @@
 title: Path Search function
 description: The Path Search function enables you to execute the path computation function between the starting and ending sites in the Telecommunications Network Inventory application. You can use this function for the path computation when you process the network inventory design and assign.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/path-compute-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -155,7 +156,7 @@ Allowed Logical Connection Model
 
 </td><td>
 
-sys\_id of the supported models for the logical connection. Click the add icon \(![Add icon.](../image/add-icon-1.png)\) to add a logical connection model.
+sys\_id of the supported models for the logical connection. Click the add icon \(\[Omitted image "add-icon-1.png"\] Alt text: Add icon.\) to add a logical connection model.
 
 </td><td>
 
@@ -167,7 +168,7 @@ Allowed Physical Connection Model
 
 </td><td>
 
-sys\_id of the supported models for the physical connection. Click the add icon \(![Add icon.](../image/add-icon-1.png)\) to add a physical connection model.
+sys\_id of the supported models for the physical connection. Click the add icon \(\[Omitted image "add-icon-1.png"\] Alt text: Add icon.\) to add a physical connection model.
 
 </td><td>
 
@@ -186,7 +187,7 @@ Option to select the action when the function fails. You can select an action fr
 Choice
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
+</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -196,30 +197,30 @@ The following table lists the information about the function's output.
 |----|-----------|---------|
 |Connection id|Returns the sys\_id of the logical connection record.|String|
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 
 
-[Allocate Free Number function](allocate-free-number-action.md)
+[Allocate Free Number function]()
 
-[Create CI From Template function](add-card-action.md)
+[Create CI From Template function]()
 
-[Cascade Update function](cascade-update-action.md)
+[Cascade Update function]()
 
-[Create and Assign Range/Single Number function](create-assign-range-single-number-function.md)
+[Create and Assign Range/Single Number function]()
 
-[Create Logical Interface function](create-logical-interface-action.md)
+[Create Logical Interface function]()
 
-[Create Logical Connection function](create-logical-connection-action.md)
+[Create Logical Connection function]()
 
-[Create Physical Connection function](create-physical-connection-action.md)
+[Create Physical Connection function]()
 
-[Create IP subnetwork function](create_ip_subnetwork.md)
+[Create IP subnetwork function]()
 
-[CIDR to IP range function](cidr_to_ip_range.md)
+[CIDR to IP range function]()
 
-[Get Interface Summary function](get-interface-summary-action.md)
+[Get Interface Summary function]()
 
-[Lookup Next Hub function](lookup-next-hub-action.md)
+[Lookup Next Hub function]()
 

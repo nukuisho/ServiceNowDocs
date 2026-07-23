@@ -2,6 +2,7 @@
 title: Modify planning items from the roadmap view
 description: Update the details of planning items or delete them from a portfolio plan or free-form roadmap so that your roadmap reflects the latest plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/manage-planning-items-from-the-roadmap-view.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -28,15 +29,15 @@ Edit the details of planning items from a side panel view, or the full details v
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d296072e105">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d300973e105">
 
 Roadmap type
 
-</th><th align="left" id="d296072e108">
+</th><th align="left" id="d300973e108">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d296072e114">
+</th></tr></thead><tbody><tr><td id="d300973e114">
 
 **Portfolio plan roadmap**
 
@@ -46,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d296072e135">
+</td></tr><tr><td id="d300973e135">
 
 **Free-form roadmap**
 
@@ -59,7 +60,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     The side panel opens with the Details tab.
 
-    Further, you can click **Full details** and open the item's record page. On the full details page, you can also view related lists such as Milestones, Dependencies, and others. For field information, see [Planning item form](../../alignment-planner-workspace/reference/planning-item-form.md).
+    Further, you can click **Full details** and open the item's record page. On the full details page, you can also view related lists such as Milestones, Dependencies, and others. For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
     You can refine planning item descriptions—for item types such as Demand, Epic, Project, Capability, Feature, and Story—using the Write planning item skill, if the Now Assist for SPM application is installed.
 
@@ -72,15 +73,15 @@ From the Free-form Roadmaps tab, select a roadmap.
         If you're on the full details page, click **Save**.
 
     -   To delete, do the following:
-        1.  On the full details page, click the More Actions icon \(![More actions icon.](../../alignment-planner-workspace/images/more-actions-icon.png)\) and select **Delete**.
+        1.  On the full details page, click the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and select **Delete**.
         2.  Click **OK** to confirm.
 
-**Parent Topic:**[Create planning items from the roadmap view](create-new-items-from-a-roadmap.md)
+**Parent Topic:**[Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
 
 **Related topics**  
 
 
-[Add milestones for roadmap items](create-planning-item-milestones.md)
+[Add milestones for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.md)
 
-[Add dependencies for roadmap items](create-planning-item-dependencies-in-a-roadmap.md)
+[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-item-dependencies-in-a-roadmap.md)
 

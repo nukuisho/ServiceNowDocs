@@ -2,18 +2,19 @@
 title: Install Workplace Concierge
 description: Install the Workplace Concierge application from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/install-workplace-concierge.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Workplace Concierge, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Concierge
 
-Install the Workplace Concierge application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Workplace Concierge application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -55,12 +56,12 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configure Workplace Concierge](../concept/configure-workplace-concierge.md)
+**Parent Topic:**[Configure Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/configure-workplace-concierge.md)
 
 **Related topics**  
 
 
-[Configure calendar sections on the Presence dashboard](configure-presence-dashboard-sections.md)
+[Configure calendar sections on the Presence dashboard]()
 
-[Configure workplace space suggestions for employees](../concept/configure-workplace-suggestions.md)
+[Configure workplace space suggestions for employees]()
 

@@ -2,6 +2,7 @@
 title: Work on a document task to verify documents for a policy service case
 description: Work on a document task to manage and track documents \(inbound and outbound\) that are needed for a policy service case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-document-task-ins-policy-ops.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ The Document Processor service determines which documents \(inbound and outbound
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Document Service**, open the task list.
 
@@ -41,15 +42,15 @@ The Document Processor service determines which documents \(inbound and outbound
     -   For a list of outbound documents, click the **Outbound Documents** tab.
 6.  Verify the completeness of all documents that the customer has submitted \(inbound\) or the bank should share with the customer \(outbound\).
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d121758e169">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d126922e169">
 
 Task
 
-</th><th align="left" id="d121758e172">
+</th><th align="left" id="d126922e172">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d121758e178">
+</th></tr></thead><tbody><tr><td id="d126922e178">
 
 **Verify an inbound or outbound document**
 
@@ -59,7 +60,7 @@ Action
 2.  Check the document details and click **Verify**.
 
 
-</td></tr><tr><td id="d121758e199">
+</td></tr><tr><td id="d126922e199">
 
 **Defer an inbound document**
 
@@ -69,7 +70,7 @@ If the customer can't submit a document and has requested to submit it at a futu
 2.  Click **Request Deferment**.
  **Note:** This option is available only if a deferment is enabled for the document category.
 
-</td></tr><tr><td id="d121758e223">
+</td></tr><tr><td id="d126922e223">
 
 **Request exception for an inbound document**
 
@@ -92,5 +93,5 @@ If the customer is not able to submit a document and seeks an exemption from sub
 -   The document task moves to the Closed Complete state and the associated case moves to the next stage.
 -   A new task that is based on the configured workflow is automatically generated in a respective task tab of the associated case. The new task is assigned to an assignment group or agent based on the assignment rules.
 
-**Parent Topic:**[Work on a policy service case](work-ins-policy-case.md)
+**Parent Topic:**[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-ins-policy-case.md)
 

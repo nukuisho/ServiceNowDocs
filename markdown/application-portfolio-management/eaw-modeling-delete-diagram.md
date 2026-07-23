@@ -2,6 +2,7 @@
 title: Delete Enterprise Modeling and Visualization diagrams
 description: You can delete diagrams from the Enterprise Modeling and Visualization All Diagrams page, confirming only the relevant and current diagrams are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-delete-diagram.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,13 +22,13 @@ Role required: sn\_apm.apm\_user and Owner access to the diagram
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(![Enterprise Modeling and Visualization](../../image/eaw-image/modeling/icon-modeling-logo.png)\).
+2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Enterprise Modeling and Visualization\).
 
 3.  Select the checkbox next to the diagram that you want to delete and select **Delete**.
 
     A confirmation message appears displaying the list of related records associated with the diagram, that will also be deleted.
 
-    ![Deleting a diagram from the Enterprise Modeling and Visualization Diagrams page](../../image/eaw-image/eaw-delete-diagram.png)
+    \[Omitted image "eaw-delete-diagram.png"\] Alt text: Deleting a diagram from the Enterprise Modeling and Visualization Diagrams page
 
 4.  Select **Delete All**.
 
@@ -36,5 +37,5 @@ Role required: sn\_apm.apm\_user and Owner access to the diagram
 
 The diagram is deleted from the All Diagrams page.
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](../../concept/eaw-concept/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 

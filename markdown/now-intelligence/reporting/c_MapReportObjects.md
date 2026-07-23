@@ -2,6 +2,7 @@
 title: Map report objects
 description: Map objects define the different levels that users can drill down into on a map report and the data displayed on these levels. Admins can create and manage these objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_MapReportObjects.html
 release: australia
 product: Reporting
 classification: reporting
@@ -19,7 +20,7 @@ Each map report contains a map source hierarchy, which configures the data for a
 
 **Note:** A set of predefined map sources and maps are available by default. Use these predefined objects whenever possible. If you need a map source that does not exist, generate it automatically using **Generate map source levels** link on the map source form, then customize it.You can automatically generate map source levels only for map sources that reference the location table. These map sources have a field that ends in `.location`.
 
-![Architecture of objects used in map reports.](../image/MapArchitecture.png)
+\[Omitted image "MapArchitecture.png"\] Alt text: Architecture of objects used in map reports.
 
 <table id="table_dsl_3tv_y5"><thead><tr><th>
 
@@ -58,16 +59,16 @@ Transform the data in a map source to a value that can be displayed on a map. Ma
  For example, a map source that has a **Field** value of **Locations Country** would use the **Country mappings** group. A map source that has a **Field** value of **Locations State / Province** would use the **Region and state mappings** mapping group.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Map report administration](c_AdministeringMapReports.md)
+</table>**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdministeringMapReports.md)
 
 **Related topics**  
 
 
-[Automatically generate a map source hierarchy](../task/t_AutoGenerateMapSourceHierarchy.md)
+[Automatically generate a map source hierarchy]()
 
-[Customize a map source level](../task/t_CustomizeAMapSourceLevel.md)
+[Customize a map source level]()
 
-[Create a key-value pair mapping](../task/t_CreateKeyValuePairMapping.md)
+[Create a key-value pair mapping]()
 
-[Create a map](../task/t_CreateAMap.md#)
+[Create a map]()
 

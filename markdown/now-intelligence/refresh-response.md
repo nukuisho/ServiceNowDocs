@@ -2,6 +2,7 @@
 title: Refresh a response with new data
 description: Look at the age of the response to a question in an AI Data Explorer exploration. Then regenerate the response with fresh data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/refresh-response.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: now\_assist\_explorer\_user and ownership or editing rights to th
 
 1.  Launch AI Data Explorer.
 
-    For more information, see [Launch AI Data Explorer](launch-now-assist-explorer.md).
+    For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-now-assist-explorer.md).
 
 2.  Open an exploration that has questions and responses that may be out of date.
 
@@ -29,7 +30,7 @@ Role required: now\_assist\_explorer\_user and ownership or editing rights to th
 
     You see how long ago the AI generated the response, along with a **Refresh** button.
 
-    ![The Refresh button and the information about how long ago the response was generated, which appears when you hover over View source.](../image/nowass-expl-refresh.png)
+    \[Omitted image "nowass-expl-refresh.png"\] Alt text: The Refresh button and the information about how long ago the response was generated, which appears when you hover over View source.
 
 4.  If you decide that the data in the response is too old, select **Refresh**.
 
@@ -40,5 +41,5 @@ The visualization, summary, and suggested follow-up questions in the response ar
 
 **Note:** Refreshing a response removes all changes that you made manually to the text in the summary.
 
-**Parent Topic:**[Questions and responses in an exploration](../concept/ask-expl-questions.md)
+**Parent Topic:**[Questions and responses in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ask-expl-questions.md)
 

@@ -2,6 +2,7 @@
 title: Minimum records needed for label to include it
 description: Set a threshold for the minimum number of records a label must have in your dataset to be included in model training.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intel-minimum-records-needed-label.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -55,7 +56,7 @@ In JSON format:
 
 6.  In the **User Inputs** field, enter the number of records you want as the minimum, then select **Submit**.
 
-    ![On the Advanced Solution Setting form, the Solution Parameters field and the User Inputs field are highlighted. The User Inputs field has an example value of 30.](../images/predictive-intel-minimum-records-needed-labelZ1.png)
+    \[Omitted image "predictive-intel-minimum-records-needed-labelZ1.png"\] Alt text: On the Advanced Solution Setting form, the Solution Parameters field and the User Inputs field are highlighted. The User Inputs field has an example value of 30.
 
 
 ## Result
@@ -66,12 +67,12 @@ The setting appears as a row on the **Advanced Solution Setting** tab on your so
 
 Retrain your solution.
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](../concept/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Using Machine Learning APIs](../concept/using-ml-apis.md#)
+[Using Machine Learning APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md)
 
-[Create and train a classification solution](create-solution-definition.md)
+[Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 

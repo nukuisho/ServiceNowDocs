@@ -2,6 +2,7 @@
 title: Enable semantic generation for tables in the semantic layer
 description: Tables can be included in the semantic table configuration but have semantic generation turned off. Enable semantic generation to include that table in Query Generation. Deactivate irrelevant data to improve results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/enable-semantics-generation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Tables can be included in the semantic table configuration but have semantic gen
 
 ## Before you begin
 
-Query Generation must be activated, and the desired table must have a Semantic Table Configuration record. For more information, see [Query Generation skills](enable-query-generation.md) and [Add a table to the semantic data layer](add-table-semantic-layer.md#).
+Query Generation must be activated, and the desired table must have a Semantic Table Configuration record. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md) and [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
 
 **Important:** If you want to add a database view to the semantic layer, you must be working in the same application scope as the database view.
 
@@ -51,7 +52,7 @@ You can control semantic generation at different levels of granularity depending
 
     **Tip:**
 
-    -   If you're in the Semantic Table Configurations table and the table is not listed, consider adding it as described in [Add a table to the semantic data layer](add-table-semantic-layer.md#).
+    -   If you're in the Semantic Table Configurations table and the table is not listed, consider adding it as described in [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
     -   If you're searching for a deactivated Entity or Dimension, ensure that you have removed the Active = true condition from the list filter.
     -   If you're searching for an Entity that represents a child table in a hierarchy, look for the Semantic Usage Instructions entries that begin with the parent table.
     -   If you're looking for a Dimension record that is associated with a particular Entity, consider searching for that Entity value.
@@ -61,14 +62,14 @@ You can control semantic generation at different levels of granularity depending
 
     -   In a Semantic Table Configuration record, change to the correct application scope and select or deselect **Enable Semantic Generation**.
 
-        ![Enable Semantic Generation option on a Semantic Table Generation record.](../image/qgen-disable-semantic-gen.png)
+        \[Omitted image "qgen-disable-semantic-gen.png"\] Alt text: Enable Semantic Generation option on a Semantic Table Generation record.
 
     -   In an Entity or Dimension record, select or deselect **Active**.
 
-        ![Active option on an Entity record.](../image/qgen-entity-deactivate.png)
+        \[Omitted image "qgen-entity-deactivate.png"\] Alt text: Active option on an Entity record.
 
 6.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Query Generation](../concept/configuring-query-generation.md)
+**Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-query-generation.md)
 

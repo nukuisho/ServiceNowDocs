@@ -2,6 +2,7 @@
 title: Request TRM product form
 description: The Request TRM product form is used for adding or editing a request to include a new software or hardware product to the Technology Reference Model \(TRM\) library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-product-request-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -33,11 +34,11 @@ A unique, auto-generated identification number for the product request.
 
 </td></tr><tr><td>
 
-Publisher
+Company
 
 </td><td>
 
-Publisher of the software or hardware product. Look up and select a publisher from the Companies page.
+Company of the software or hardware product. Look up and select a company from the list.
 
 </td></tr><tr><td>
 
@@ -142,10 +143,10 @@ Business Justification
 Business justification for the product request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Request a TRM product](../../task/eaw-task/eaw-request-a-trm-products.md)
+[Request a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-a-trm-products.md)
 

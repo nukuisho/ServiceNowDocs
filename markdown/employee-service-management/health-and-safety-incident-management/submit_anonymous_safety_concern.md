@@ -2,13 +2,14 @@
 title: Submit an anonymous safety concern
 description: Report a safety concern or observation without revealing your identity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/submit\_anonymous\_safety\_concern.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage anonymous safety concerns, Manage incidents, observations, and anonymous safety concerns, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage anonymous safety concerns, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Submit an anonymous safety concern
@@ -24,7 +25,7 @@ Role required:
 
 ## About this task
 
-The **Anonymous report center** \[com.sn\_anonymous\_report\_center\] plugin must be installed to enable reporting a safety concern anonymously. For more information, see [Activate the Anonymous Report Center](../../human-resources/task/arc-activate.md).
+The **Anonymous report center** \[com.sn\_anonymous\_report\_center\] plugin must be installed to enable reporting a safety concern anonymously. For more information, see [Activate the Anonymous Report Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-activate.md).
 
 ## Procedure
 
@@ -108,12 +109,12 @@ After completing the form, check the box.
 
 The anonymous report is submitted and you can use the report key and report number to check the progress of the report.
 
-**Parent Topic:**[Managing an anonymous safety concern](../concept/managing_anonymous_safety_concern.md)
+**Parent Topic:**[Managing an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing_anonymous_safety_concern.md)
 
 **Related topics**  
 
 
-[Follow up on an anonymous report](follow-up-on-anonymous-report.md)
+[Follow up on an anonymous report]()
 
-[Work on an anonymous safety concern](work-anonymous-safety-concern.md)
+[Work on an anonymous safety concern]()
 

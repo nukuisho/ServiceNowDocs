@@ -2,11 +2,12 @@
 title: Create My campaign phases
 description: Display the claims assigned to the person who has logged in to the workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-rc-my-campaign-phases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create My campaign phases
@@ -23,16 +24,14 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
     **Note:** A recall campaign must be in an In-progress state before creating a recall campaign phases.
 
-2.  Select **New**, to [Create a campaign](mco-rc-my-campaigns.md).
+2.  Select **New**, to [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaigns.md).
 
 3.  Select the corresponding campaign record in which you want to create phases and sub-phases.
 
 4.  On the Recall campaign phases form, fill in the fields.
 
-    For a description of the field values, see [Recall campaign phase form](../reference/mco-recall-campaign-phases-form.md).
+    For a description of the field values, see [Recall campaign phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-phases-form.md).
 
 5.  Select **Save**.
 
-
-**Parent Topic:**[Recall management](mco-recall-management.md)
 

@@ -2,13 +2,14 @@
 title: Test generation design considerations
 description: Leverage the full potential of Test generation by following these design considerations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/tg-summary.html
 release: australia
 product: Test Generation
 classification: test-generation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Test generation references, Test generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test generation references, Test generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Test generation design considerations
@@ -49,10 +50,10 @@ The following are the requirements to start using the Test generation applicatio
 -   Download and install the Test generation application from ServiceNow store
 -   The now.assist.creator role is required to access Test generation
 
-**Parent Topic:**[Test generation references](tg-reference.md)
+**Parent Topic:**[Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-reference.md)
 
 **Related topics**  
 
 
-[Design considerations for prompting](tg-prompt-design-considerations.md)
+[Design considerations for prompting]()
 

@@ -2,6 +2,7 @@
 title: Configure include only top N labels
 description: Limit your classification model to use only the most common classes when training. You can specify the number of classes to use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intel-only-top-n-labels.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -53,7 +54,7 @@ In JSON format:
 
 6.  In the **User Inputs** field, enter the number of classes you want as the limit, then select **Submit**.
 
-    ![On the Advanced Solution Setting form, the Solution Parameters field and the User Inputs field are highlighted. The User Inputs field displays an example value of 100.](../images/predictive-intel-only-top-n-labelsZ1.png)
+    \[Omitted image "predictive-intel-only-top-n-labelsZ1.png"\] Alt text: On the Advanced Solution Setting form, the Solution Parameters field and the User Inputs field are highlighted. The User Inputs field displays an example value of 100.
 
 
 ## Result
@@ -64,12 +65,12 @@ The setting appears as a row on the **Advanced Solution Setting** tab on your so
 
 Retrain your solution.
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](../concept/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Using Machine Learning APIs](../concept/using-ml-apis.md#)
+[Using Machine Learning APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md)
 
-[Create and train a classification solution](create-solution-definition.md)
+[Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 

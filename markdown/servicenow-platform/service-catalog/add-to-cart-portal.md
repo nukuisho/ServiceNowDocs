@@ -2,6 +2,7 @@
 title: Add a catalog item to the shopping cart
 description: Add a catalog item or order guide to the shopping cart to store at one place and checkout.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/add-to-cart-portal.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -27,7 +28,7 @@ Role required: requester
 
 2.  Select a catalog item or order guide from Service Catalog.
 
-3.  Click the Add to Cart icon \(![Icon to add to cart](../image/IconAddTocart.png)\) in the Ordering widget.
+3.  Click the Add to Cart icon \(\[Omitted image "IconAddTocart.png"\] Alt text: Icon to add to cart\) in the Ordering widget.
 
     **Note:**
 
@@ -43,7 +44,7 @@ Role required: requester
 
 6.  If required, edit the quantity of items.
 
-7.  To remove an item from the cart, click the Remove Item icon \(![Icon to remove item](../image/RemoveIcn.png)\).
+7.  To remove an item from the cart, click the Remove Item icon \(\[Omitted image "RemoveIcn.png"\] Alt text: Icon to remove item\).
 
 8.  To navigate to the Service Catalog landing page, click **Continue Shopping**.
 
@@ -86,7 +87,7 @@ Role required: requester
 
 15. If required, specify the **Delivery Information** and **Special instructions**.
 
-16. To add one or more attachments for the cart, click the add attachments icon \(![add attachment icon](../image/IconAddAttachmnt.png)\).
+16. To add one or more attachments for the cart, click the add attachments icon \(\[Omitted image "IconAddAttachmnt.png"\] Alt text: add attachment icon\).
 
     You can browse and choose the files, drag the files, or copy and paste them in the Add attachments window.
 
@@ -99,18 +100,18 @@ Role required: requester
     -   Use the instance options on the Order Status page to display the pre-defined columns.
     -   You can display either the RITM number or the name of the catalog item. By default, the name of the catalog item is displayed.
 
-**Parent Topic:**[Service Catalog in Service Portal](../concept/catalog-on-portal.md)
+**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
 
 **Related topics**  
 
 
-[Access Service Catalog categories in Service Portal](access-categories-portal.md)
+[Access Service Catalog categories in Service Portal]()
 
-[Add an item to the wish list in Service Portal](add-to-wishlist-portal.md)
+[Add an item to the wish list in Service Portal]()
 
-[Request a catalog item from Service Portal](request-cat-item-portal.md)
+[Request a catalog item from Service Portal]()
 
-[Request an order guide from Service Portal](request-order-guide-portal.md)
+[Request an order guide from Service Portal]()
 
-[SC Shopping Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-shopping-cart.md)
+[SC Shopping Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sc-shopping-cart.md)
 

@@ -2,6 +2,7 @@
 title: Configure a template question
 description: You can configure template questions when designing quizzes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ConfigureATemplateQuestion.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,19 +26,19 @@ Role required: assessment\_admin or admin
 
 3.  Select a predefined scale from the list.
 
-    ![Quiz designer template properties](../images/QuizDesignerTemplateProperties.png)
+    \[Omitted image "QuizDesignerTemplateProperties.png"\] Alt text: Quiz designer template properties
 
     Question entry fields appear for that template.
 
 4.  Enter one or more questions that are appropriate for the template.
 
-    ![Quiz designer template properties 2](../images/QuizDesignerTemplateProp2.png)
+    \[Omitted image "QuizDesignerTemplateProp2.png"\] Alt text: Quiz designer template properties 2
 
 5.  Click the arrow to the right of a question to configure its properties.
 
     You must provide a name for each question.
 
-    ![Quiz designer template question properties](../images/QuizDesignerTemplateQuestionProp.png)
+    \[Omitted image "QuizDesignerTemplateQuestionProp.png"\] Alt text: Quiz designer template question properties
 
 6.  Click the up or down arrow to move between questions, or click the back arrow to return to the template properties dialog box.
 
@@ -46,14 +47,14 @@ Role required: assessment\_admin or admin
 8.  Click the **X** icon to close the template properties dialog box and save your settings.
 
 
-**Parent Topic:**[Create a quiz](t_CreateaQuiz.md)
+**Parent Topic:**[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
 
-**Parent Topic:**[Edit a quiz](t_EditaQuiz.md)
+**Parent Topic:**[Edit a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_EditaQuiz.md)
 
 **Related topics**  
 
 
-[Quiz designer](../concept/c_QuizDesigner.md)
+[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
 
-[Create a quiz](t_CreateaQuiz.md)
+[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
 

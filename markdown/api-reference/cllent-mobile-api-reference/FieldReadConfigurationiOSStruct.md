@@ -2,6 +2,7 @@
 title: FieldReadConfiguration structure - iOS
 description: The FieldReadConfiguration structure enables you to configure which fields to fetch from a ServiceNow instance table and in which format.Configures the fields within a record in a ServiceNow table to pass back in the return results of a REST endpoint call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/FieldReadConfigurationiOSStruct.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -61,7 +62,7 @@ List of the types of fields to return.Possible values:
 -   rawValue: Returns the raw value of the parameter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## FieldReadConfiguration - init\(includeFields: \[FieldName\] = \[\], options: Options = \[\]\)
 

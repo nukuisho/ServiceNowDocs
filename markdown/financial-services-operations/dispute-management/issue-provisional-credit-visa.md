@@ -2,13 +2,14 @@
 title: Issue provisional credit
 description: Initiate temporary provisional credit to the Visa card holder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/issue-provisional-credit-visa.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Investigate, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Issue provisional credit
@@ -19,7 +20,7 @@ Initiate temporary provisional credit to the Visa card holder.
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ A temporary credit is provided to the card holder to notify that the case is und
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -39,14 +40,12 @@ A temporary credit is provided to the card holder to notify that the case is und
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the **Processing** tab, select the transaction ID.
+6.  In the **Issue provisional credit** activity, enter the refund amount and details.
 
-7.  In the **Issue provisional credit** activity, enter the refund amount and details.
-
-8.  In the  **Remarks** field, enter any comments.
+7.  In the  **Remarks** field, enter any comments.
 
 
-**Parent Topic:**[Investigate stage](../concept/investigate-stage.md)
+**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-stage.md)
 

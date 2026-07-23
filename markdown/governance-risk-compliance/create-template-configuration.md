@@ -2,10 +2,11 @@
 title: Create Template configurations
 description: Use the Template Configurations module to set up the template relationship registry. This module displays document design template configurations for action tasks. It enables you to configure data relationships, content, and scripted variables via the Document designer application so that required data is displayed in your reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-template-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Generating Microsoft Word reports using Document designer, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -15,11 +16,13 @@ Use the Template Configurations module to set up the template relationship regis
 
 ## Before you begin
 
-Role required: sn\_oper\_res.admin
+Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager
 
 ## About this task
 
 From the Administration menu, the Template Configurations module displays document design template details for DRIR action tasks. The Word Templates module, on the other hand, provides DRIR Word templates necessary for generating Microsoft Word reports.
+
+The Reporting Configurations module has been introduced with the Digital Resilience Incident Reporting, version 22.3.0 version. It provides Microsoft 365 reporting configurations that are scoped to the Digital resilience incident \(DRI\) business domain and adds data to a report.
 
 ## Procedure
 
@@ -27,7 +30,7 @@ From the Administration menu, the Template Configurations module displays docume
 
     Predefined Microsoft Word templates, available with the base version, are displayed in the Template Configurations module. The example shows a predefined DRI template.
 
-    ![Configuration.](../image/temp-config.png)
+    \[Omitted image "temp-config.png"\] Alt text: Configuration.
 
 2.  To create a template, select **New** in the Template Configurations module.
 
@@ -78,7 +81,7 @@ Fields from which data must be displayed on the report. Move the required fields
 </td></tr></tbody>
 </table>    The example shows how the fields are used in a Microsoft Word document.
 
-    ![Data column.](../image/d19-data-rel-selection-in-word-doc.png)
+    \[Omitted image "d19-data-rel-selection-in-word-doc.png"\] Alt text: Data column.
 
 4.  Select **Submit**.
 
@@ -86,4 +89,9 @@ Fields from which data must be displayed on the report. Move the required fields
 
     You can update the data relationships, content configurations, and scripted variables for the predefined templates.
 
+
+**Related topics**  
+
+
+[Create Data relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-data-relationships-action-tasks.md)
 

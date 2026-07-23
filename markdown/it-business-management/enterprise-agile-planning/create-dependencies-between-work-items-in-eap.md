@@ -2,12 +2,13 @@
 title: Create and manage dependencies between work items in EAP
 description: Draw work item dependencies in real-time across teams and iterations and visually analyze them while you collaborate using the Planning board in Enterprise Agile Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-dependencies-between-work-items-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-07-07"
+reading_time_minutes: 2
 breadcrumb: [Work item dependencies in EAP, Perform PI planning, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -34,13 +35,13 @@ This task is explained using stories in an Agile Release Train \(ART\) as an exa
 
 3.  Identify stories that have dependencies, and use the interactive functionality of the Planning board to draw dependency lines between them.
 
-    1.  On the dependent story card, click the Add dependency line icon \(![Add dependency line icon.](../images/eap-dependency-add-icon.png)\).
+    1.  On the dependent story card, click the Add dependency line icon \(\[Omitted image "eap-dependency-add-icon.png"\] Alt text: Add dependency line icon.\).
 
         A dotted dependency line appears.
 
     2.  Select the prerequisite story card to finish drawing the dependency line.
 
-    ![Draw dependency lines between stories on the Planning Board in EAP.](../images/eap-create-dependency.gif)
+    \[Omitted image "eap-create-dependency.gif"\] Alt text: Draw dependency lines between stories on the Planning Board in EAP.
 
     The dependencies are added to the work items on the board.
 
@@ -48,20 +49,26 @@ This task is explained using stories in an Agile Release Train \(ART\) as an exa
 
 5.  Delete a dependency, to account for any change in the requirements.
 
-    1.  Navigate to the full details page of a work item card that has a dependency to it.
+    You can delete a dependency directly from the Planning board, or from the work item's full details page.
 
-    2.  From the Prerequisite Stories or the Dependent Stories related lists, locate the dependency that you want to remove.
+    1.  On the Planning board, select the dependency line for the dependency that you want to delete.
+
+        A side panel opens showing the dependency record. Select **Delete**, then confirm the deletion. The dependency line is removed from the board immediately.
+
+    2.  Navigate to the full details page of a work item card that has a dependency to it.
+
+    3.  From the Prerequisite Stories or the Dependent Stories related lists, locate the dependency that you want to remove.
 
         **Note:** The names of these related lists are different for Epic and Solution Train.
 
-    3.  From the Sys class name column, select **Story Dependencies**.
+    4.  From the Sys class name column, select **Story Dependencies**.
 
-        ![Dependencies related lists for a work item.](../images/eap-delete-dependency-1.png)
+        \[Omitted image "eap-delete-dependency-1.png"\] Alt text: Dependencies related lists for a work item.
 
-    4.  From the dependency item header, select the More Actions icon \(![More Actions icon.](../images/eap-more-actions-icon.png)\) and select **Delete**.
+    5.  From the dependency item header, select the More Actions icon \(\[Omitted image "eap-more-actions-icon.png"\] Alt text: More Actions icon.\) and select **Delete**.
 
-    5.  Select **OK** to confirm deleting the dependency.
+    6.  Select **OK** to confirm deleting the dependency.
 
 
-**Parent Topic:**[Work item dependencies in EAP](../concept/work-item-dependencies-in-eap.md)
+**Parent Topic:**[Work item dependencies in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/work-item-dependencies-in-eap.md)
 

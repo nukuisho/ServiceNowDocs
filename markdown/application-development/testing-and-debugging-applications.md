@@ -2,6 +2,7 @@
 title: Testing and debugging applications
 description: Verify the application meets your business requirements. Your testing should cover record operations \(such as create, read, update, and delete\), user interface elements \(such as views and UI policies\), runtime operations \(such as business rules\), and event script actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/testing-and-debugging-applications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Verify the application meets your business requirements. Your testing should cov
 
 ## Testing and debugging on Core UI
 
--   **[Automated Test Framework \(ATF\)](../../../administer/auto-test-framework/concept/atf-landing-page.md)**
+-   **[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md)**
 
     Create and run automated tests to confirm that your instance works after making a change. Review failed test results to identify the changes that caused the failure and the changes that you should review.
 
@@ -34,11 +35,11 @@ Verify the application meets your business requirements. Your testing should cov
 
 ## Related ServiceNow applications and features
 
--   **[Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-management2-landing-page.md)**
+-   **[Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management2-landing-page.md)**
 
     The ServiceNow® Test Management 2.0 application streamlines the management of testing processes to help you deliver software products more efficiently and with fewer errors. You can create multiple versions of a test and integrate with Agile Development 2.0.
 
--   **[Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_ImpersonateAUserInUI16.md)**
+-   **[Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ImpersonateAUserInUI16.md)**
 
     Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. When impersonating another user, the administrator has access to exactly what that user can access in the system, including the same menus and modules.
 

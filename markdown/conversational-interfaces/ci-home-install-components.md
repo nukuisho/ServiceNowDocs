@@ -2,6 +2,7 @@
 title: Installing Conversational Interfaces components
 description: Use the Conversational Interfaces Home page to install Virtual Agent and related plugins. Once installed, select a card to customize your bot or set up Agent Chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ci-home-install-components.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -21,19 +22,19 @@ If you've never installed Virtual Agent, the Conversational Interfaces console p
 
     To begin, you must install the Virtual Agent plugin. Select **Get started** to install it.
 
-    ![Install Virtual Agent from the CI console.](../image/ci-home-no-va.png)
+    \[Omitted image "ci-home-no-va.png"\] Alt text: Install Virtual Agent from the CI console.
 
 -   **Get pre-built bot topics**
 
-    Activate plugins that provide the pre-built topic conversations you want to use to handle common user requests. For example, IT-related support issues, such as resetting a password or HR-related issues such as requesting a leave of absence. For more information, see [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](../../virtual-agent/reference/prebuilt-topics-ITSM.md).
+    Activate plugins that provide the pre-built topic conversations you want to use to handle common user requests. For example, IT-related support issues, such as resetting a password or HR-related issues such as requesting a leave of absence. For more information, see [Prebuilt Virtual Agent topics, topic blocks, and ServiceNow NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prebuilt-topics-ITSM.md).
 
-    ![After you install Virtual Agent, you can choose pre-built topic plugins to handle your user requests. Options include IT Service Management, Customer Service Management, and HR Service Delivery plugins.](../image/ci-home-plugins.png)
+    \[Omitted image "ci-home-plugins.png"\] Alt text: After you install Virtual Agent, you can choose pre-built topic plugins to handle your user requests. Options include IT Service Management, Customer Service Management, and HR Service Delivery plugins.
 
 -   **Here's what you can do next**
 
     Explore popular Virtual Agent settings from the Conversational Interfaces Home page. Next steps typically include branding your bot, adding it to a portal that your users can access, and creating conversations in Virtual Agent Designer.
 
-    ![The Here's what you can do next for NLU models section of the page contains cards that you can select to customize or install additional features.](../image/ci-home-whats-next.png)
+    \[Omitted image "ci-home-whats-next.png"\] Alt text: The Here's what you can do next for NLU models section of the page contains cards that you can select to customize or install additional features.
 
     Before implementing your Conversational Interfaces, take some time to ask and answer a few important questions meant to help you envision the Conversational Interfaces experience you need and want for your business. Browse the **Get the essentials for your Virtual Agent** section for more options.
 
@@ -41,26 +42,26 @@ If you've never installed Virtual Agent, the Conversational Interfaces console p
 
     Activate and set up Live Agent support. Set up agent names and avatars, set agent status messages, and determine whether agents can view user chat history.
 
-    ![Configure Agent Chat settings from the CI console.](../image/ci-home-set-up-ac.png)
+    \[Omitted image "ci-home-set-up-ac.png"\] Alt text: Configure Agent Chat settings from the CI console.
 
 -   **Install Sidebar**
 
     Provide live agents with a way to collaborate with others while they work on a Workspace record.
 
-    ![Select the Boost agent productivity with Sidebar tile to install Sidebar and help agents resolve user issues more quickly.](../image/ci-home-sidebar.png)
+    \[Omitted image "ci-home-sidebar.png"\] Alt text: Select the Boost agent productivity with Sidebar tile to install Sidebar and help agents resolve user issues more quickly.
 
 -   **NLU VA Accelerator progress panel**
 
     The progress panel quickly shows you what has been configured and what tools remain unconfigured or inactive.
 
-    ![Expand the NLU VA Accelerator progress panel to review settings that have not been configured.](../image/ci-home-bot-accelerator.png)
+    \[Omitted image "ci-home-bot-accelerator.png"\] Alt text: Expand the NLU VA Accelerator progress panel to review settings that have not been configured.
 
 -   **Create a Virtual Agent with LLM**
 
     If you have installed a Now Assist product, you can use the guided setup to install Now Assist in Virtual Agent. You can then activate the Now Assist Topics skill and create Virtual Agent topics that use LLM discovery. Select **Get started** to use the guided setup.
 
-    For more information, see [Now Assist in Virtual Agent](../../now-assist-in-va/concept/now-assist-in-va-landing.md).
+    For more information, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
 
-    ![If Now Assist is installed, you have the option to install Now Assist in Virtual Agent on the home page.](../image/ci-home-nava-llm.png)
+    \[Omitted image "ci-home-nava-llm.png"\] Alt text: If Now Assist is installed, you have the option to install Now Assist in Virtual Agent on the home page.
 
 

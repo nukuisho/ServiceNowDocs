@@ -2,6 +2,7 @@
 title: Manual indicators
 description: Manual indicators do not use scores collected from a database. Manual indicators are typically used for data that cannot be retrieved from the ServiceNow instance because it comes from an outside system, such as customer data from a third-party sales system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreateAManualIndicator.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -30,10 +31,8 @@ Manual indicators are not associated with an indicator source. Scores for manual
 
 ## Procedure
 
-1.  Use one of the following navigation paths:
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Manual Indicators** and select **New**.
 
-    -   If you are on an upgraded instance that has not migrated to Platform Analytics, navigate to **All** &gt; **Performance Analytics** &gt; **Indicators** &gt; **Manual Indicators** and select **New**.
-    -   If you are on a new instance or have migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Manual Indicators** and select **New**.
 2.  In the **Name** field, give the indicator a descriptive name, such as Number of Critical Incidents.
 
 3.  In the **Frequency** field, select the frequency at which scores are set.
@@ -78,9 +77,9 @@ Unit
 
 </td><td>
 
-The unit of measurement for the score, such as number, days, or percentages.To collect scores in the system reference currency on a Price, Currency, or FX Currency field, select **Use reference currency**. For more information, see [Indicator scores in reference currency](../concept/indicator-scores-reference-currency.md).
+The unit of measurement for the score, such as number, days, or percentages.To collect scores in the system reference currency on a Price, Currency, or FX Currency field, select **Use reference currency**. For more information, see [Indicator scores in reference currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/indicator-scores-reference-currency.md).
 
- If you select % or a time period as the unit, consider excluding some types of time series from being applied to the indicator. For more information, see [Exclude time series from an indicator](../concept/c_ExcludingTimeSeriesFromIndicators.md).
+ If you select % or a time period as the unit, consider excluding some types of time series from being applied to the indicator. For more information, see [Exclude time series from an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ExcludingTimeSeriesFromIndicators.md).
 
 If you select Time as the unit, the time is given as Days, Hours, and Minutes. If the system property **glide.ui.duration.seconds.enabled** exists and is true, seconds are also displayed. In this case, seconds are also displayed for all-time fields on the instance and are included in exports to Microsoft Excel.
 
@@ -90,7 +89,7 @@ Precision
 
 </td><td>
 
-The number of digits behind the decimal separator. For more information, see [Rounding and precision in indicators](../concept/r_FormulaRounding.md).This field isn’t available when the unit is **Use reference currency**. In this case, the precision is inherited from the reference currency.
+The number of digits behind the decimal separator. For more information, see [Rounding and precision in indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_FormulaRounding.md).This field isn’t available when the unit is **Use reference currency**. In this case, the precision is inherited from the reference currency.
 
 </td></tr><tr><td>
 
@@ -98,7 +97,7 @@ Number format
 
 </td><td>
 
-The abbreviations used for large numbers, thousands through quintillions. For more information, see [Rounding and precision in indicators](../concept/r_FormulaRounding.md).
+The abbreviations used for large numbers, thousands through quintillions. For more information, see [Rounding and precision in indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_FormulaRounding.md).
 
 </td></tr></tbody>
 </table>6.  In the **Access control** tab, set whether to save this indicator to the library and whether to limit the visibility of the indicator by user, group, or role.
@@ -130,7 +129,7 @@ Default time series
 
 A predefined analytical function, like a 7-days running average, to apply to the indicator instead of showing the raw scores of the indicator.
 
- For more information, see [Applying time series aggregations](../concept/applying-time-series-aggregations.md#).
+ For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
 
 **Note:** You can’t set the default time series for an indicator that uses a business or fiscal calendar. These calendars do not support time series aggregations.
 
@@ -142,7 +141,7 @@ Live group profile
 
 Live Group Profile \[live\_group\_profile\] record for a Live Feed group. Specify a group profile to cause that group to get notifications about this indicator.
 
- For more information about this social application on the ServiceNow AI Platform, see [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_GetStartedWithLiveFeed.md).
+ For more information about this social application on the ServiceNow AI Platform, see [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md).
 
 </td></tr><tr><td>
 
@@ -175,7 +174,7 @@ When selected, the Analytics Hub and KPI Details show unbroken data lines for th
 </td></tr></tbody>
 </table>9.  In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
 
-    For more information, see [Performance Analytics scores forecasts](../concept/c_ForecastingData.md#).
+    For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 
 ## What to do next
@@ -185,7 +184,7 @@ Create manual breakdowns and assign them to this indicator. Then, manually add s
 **Related topics**  
 
 
-[Manual breakdowns](../concept/manual-breakdowns.md#)
+[Manual breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/manual-breakdowns.md)
 
-[Add or edit indicator scores manually](t_ManuallyAddingScoresForIndicators.md)
+[Add or edit indicator scores manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ManuallyAddingScoresForIndicators.md)
 

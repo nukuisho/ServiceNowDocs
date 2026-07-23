@@ -2,6 +2,7 @@
 title: Making self-service order and invoice case management available on the Business Portal
 description: Install the necessary applications based on the self-service order and invoice case management options that you want to offer customers on the Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/activating-self-service-order-case-management-business-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
 
 Install the necessary applications based on the self-service order and invoice case management options that you want to offer customers on the Business Portal.
 
-**Note:** For information about activating the Business Portal itself, see [Enable the Business Portal](../task/order-management-enable-business-portal.md)
+**Note:** For information about activating the Business Portal itself, see [Enable the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-enable-business-portal.md)
 
 ## Case management applications
 
@@ -45,4 +46,11 @@ These plugins have the following dependencies:
 -   Playbooks for Customer Service Management \[sn\_csm\_playbook\]
 
 If your customers only need to view invoice cases in the Business Portal, you don’t need to install the Invoice Case Playbook \[com.sn\_inv\_case\_pb\] and the Playbooks for Customer Service Management \[sn\_csm\_playbook\] plugins.
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+
+[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 

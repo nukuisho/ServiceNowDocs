@@ -2,6 +2,7 @@
 title: Create or modify answer options
 description: You must create answer options, called metric definitions, for survey questions that have Data type set to Choice or Likert Scale.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateOrModifyAnswerOptions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -73,18 +74,18 @@ On survey questionnaires, the answer options for a question appear in order from
 
 If you use survey result calculations, ensure the question **Scale definition** is set appropriately based on the answer options. In the previous example, if you want the answer option **Good** to earn the highest score, the scale definition should be **Low** because **Good** has the smallest value.
 
-**Parent Topic:**[Survey questions](../concept/c_SurveyQuestion.md)
+**Parent Topic:**[Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestion.md)
 
 **Related topics**  
 
 
-[Create or modify survey questions](t_CreateOrModifySurveyQuestions.md)
+[Create or modify survey questions]()
 
-[Survey question data types](../reference/r_SurveyQuestionDataTypes.md)
+[Survey question data types]()
 
-[Survey question template](../concept/c_SurveyQuestionTemplate.md)
+[Survey question template]()
 
-[Add a metric category and metric in the question bank for surveys](add-questionbank-for-survey.md)
+[Add a metric category and metric in the question bank for surveys]()
 
-[Change the order of survey questions](t_ChangeTheOrderOfSurveyQuestions.md)
+[Change the order of survey questions]()
 

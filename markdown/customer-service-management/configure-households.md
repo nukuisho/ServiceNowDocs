@@ -2,6 +2,7 @@
 title: Configuring households
 description: The household entity represents a group of consumers that usually share a common address and use services as a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-households.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

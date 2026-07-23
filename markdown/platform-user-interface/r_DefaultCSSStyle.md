@@ -2,6 +2,7 @@
 title: Default CSS styles
 description: You can use CSS styles to control the appearance of elements in a theme.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_DefaultCSSStyle.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -44,12 +45,12 @@ $navpage-button-color-hover: #82C9B8
     
 ```
 
-**Parent Topic:**[CSS theme support](../concept/c_CSSThemeSupport.md)
+**Parent Topic:**[CSS theme support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CSSThemeSupport.md)
 
 **Related topics**  
 
 
-[Activating CSS theme support](r_ActivatingCSSThemeSupport.md)
+[Activating CSS theme support]()
 
-[Create or customize a theme](../task/t_CreateOrCustomizeATheme.md)
+[Create or customize a theme]()
 

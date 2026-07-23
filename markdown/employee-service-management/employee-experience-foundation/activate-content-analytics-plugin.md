@@ -2,6 +2,7 @@
 title: Activate Content Analytics
 description: Activate Content Analytics if you have an admin role to use the default analytics solution that provides web portal traffic analytics, as well as Content Experiences \(aka Campaigns\) related engagement statistics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,7 +40,7 @@ Content Analytics requires the following plugins to collect data and generate da
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -58,10 +59,10 @@ Content Analytics requires the following plugins to collect data and generate da
 
 ## What to do next
 
-[Content Analytics](../concept/ecpro-content-automation-analytics.md)
+[Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md)
 
 **Related topics**  
 
 
-[Components installed with Content Analytics](../reference/ecpro-installed-content-analytics-1.md)
+[Components installed with Content Analytics]()
 

@@ -2,6 +2,7 @@
 title: Components installed with Targeted Communications
 description: Several types of components are installed with the Targeted Communications application.Tables are added with activation of Targeted Communications.Roles are added with activation of Targeted Communications.Properties are added with activation of Targeted Communications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_TargetCommInstalledComponents.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -142,7 +143,6 @@ The publications author can:-   read all publications
 -   sn\_publications\_recipients\_user
 -   workflow\_publisher
 -   image\_admin
--   sn\_esm\_agent
 
 </td></tr><tr><td>
 

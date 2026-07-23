@@ -2,12 +2,14 @@
 title: Create an ACC registration key
 description: Set up an Agent Client Collector \(ACC\) by creating an agent registration key to identify and authenticate agents that are enabled to send data to the collector. The key helps promote the security and integrity of the data collected from the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/setup-acc.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [acc registration key, agent registration key, agent client collector \(acc\), authenticate agents, create registration key, register agents]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
 ---
 
@@ -40,7 +42,7 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Install ACC for DEX on Windows](install-acc-for-dex-windows.md) or [Install ACC for DEX on macOS](install-acc-for-dex-macos.md).
+[Install ACC for DEX on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.md) or [Install ACC for DEX on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-macos.md).
 
-**Parent Topic:**[Installing DEX on your local machine](../concept/installing-dex-local.md)
+**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
 

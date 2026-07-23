@@ -2,6 +2,7 @@
 title: Turn on Code Signing
 description: Turn on Code Signing in your trusted non-production instance to identify the trusted instances linking to your production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/enable-codesiging.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Turn on Code Signing in your trusted non-production instance to identify the tru
 
 Roles required: security\_admin, and either sn\_kmf.crypto\_manager or sn\_kmf.admin
 
-As a customer administrator, you can access and install the Code Signing \[com.glide.code\_signing\_enterprise\] plugin from the ServiceNow Plugin portal. To learn more about the use cases of Code Signing, see [Exploring Code Signing](../concept/explore-code-signing.md).
+As a customer administrator, you can access and install the Code Signing \[com.glide.code\_signing\_enterprise\] plugin from the ServiceNow Plugin portal. To learn more about the use cases of Code Signing, see [Exploring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-code-signing.md).
 
 ## About this task
 
@@ -43,11 +44,11 @@ Code Signing jobs with signed update sets are used to turn the Code Signing feat
 
 3.  Select **Turn on Code Signing Property**.
 
-    ![Shows the jobs to turn on or off the Code Signing feature for Circle of Trust.](../../key-management-framework/image/turnonoff-codesigning.png)
+    \[Omitted image "turnonoff-codesigning.png"\] Alt text: Shows the jobs to turn on or off the Code Signing feature for Circle of Trust.
 
     The **Scheduled Script Execution** form load. This form contains information to enable the Code Signing property. The jobs create update sets that contain the jobs and validated signatures through the Code Signing process.
 
-    ![Scheduled Script Execution form is loaded.](../../key-management-framework/image/export-signedjob-prod.png)
+    \[Omitted image "export-signedjob-prod.png"\] Alt text: Scheduled Script Execution form is loaded.
 
 4.  To execute the script immediately, sign the certificate, create the update set, and select **Export signed job to production**.
 
@@ -71,7 +72,7 @@ Code Signing jobs with signed update sets are used to turn the Code Signing feat
 
 13. Select the **Prerequisite Check** button at the top of the form.
 
-    ![Prerequisite Check button](../image/prereq-button.png)
+    \[Omitted image "prereq-button.png"\] Alt text: Prerequisite Check button
 
 14. Select the **Execute Now** button after the prerequisite check is complete.
 
@@ -87,10 +88,8 @@ Code Signing jobs with signed update sets are used to turn the Code Signing feat
 
 18. Verify that a new property **com\_snc\_kmf\_signature.validation.certificate** is listed in the table.
 
-    ![Code Signing certificates available in System Properties.](../../key-management-framework/image/syspropertie-kmf-cert.png "System Properties")
+    \[Omitted image "syspropertie-kmf-cert.png"\] Alt text: Code Signing certificates available in System Properties.
 
-    Use the Circle of Trust job in production to verify the trust relationship. No direct job can be executed in production that attempts to sign code. See [Configuring Code Signing](../concept/config-code-signing.md) for details on configuration options.
+    Use the Circle of Trust job in production to verify the trust relationship. No direct job can be executed in production that attempts to sign code. See [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/config-code-signing.md) for details on configuration options.
 
-
-**Parent Topic:**[Configuring Code Signing](../concept/config-code-signing.md)
 

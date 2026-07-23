@@ -2,6 +2,7 @@
 title: View Occupancy Dashboard
 description: Workplace administrators and managers can view the workspace occupancy metrics to plan and optimize the workplace space utilization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-badging-tables.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -41,7 +42,7 @@ Role required: sn\_wsd\_wc.admin
 
 3.  Filter by **Date**, **Region**, **Cost center**, **Department**, or **Workplace entity**.
 
-    ![Occupancy dashboard showing filter options.](../../workplace-maintenance-management/images/wsd-occupancy-dashboard-headcount-trends.png)
+    \[Omitted image "wsd-occupancy-dashboard-headcount-trends.png"\] Alt text: Occupancy dashboard showing filter options.
 
 4.  Select **Apply** after you’ve selected the required filters.
 
@@ -54,9 +55,9 @@ Role required: sn\_wsd\_wc.admin
     -   Total headcount vs online headcount by department
     -   Total headcount vs onsite headcount by workplace entity
 
-        Filter by workplace entity to view space allocations of a building based on workplace entities. Workplace entity-based allocation, enables you to control the space consumption of each business in your organization. For more information, see [Map designated workspaces to user profiles](../../workplace-service-delivery/task/map-employees-to-existing-workplace-locations-wsd.md) and [Attendance Analytics](attendance-analytics.md).
+        Filter by workplace entity to view space allocations of a building based on workplace entities. Workplace entity-based allocation, enables you to control the space consumption of each business in your organization. For more information, see [Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md) and [Attendance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/attendance-analytics.md).
 
-    ![Occupancy dashboard showing headcount trends.](../../workplace-maintenance-management/images/wsd-workplace-entity-total-headcount.png)
+    \[Omitted image "wsd-workplace-entity-total-headcount.png"\] Alt text: Occupancy dashboard showing headcount trends.
 
 7.  The following default scorecards are available on the dashboard:
 
@@ -74,16 +75,16 @@ Role required: sn\_wsd\_wc.admin
 10. After exporting the data, download or email the data.
 
 
-**Parent Topic:**[Working with Workplace Analytics](../../workplace-central/concept/working-with-workplace-analytics.md)
+**Parent Topic:**[Working with Workplace Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-workplace-analytics.md)
 
 **Related topics**  
 
 
-[View Space Optimization metrics](../../workplace-central/task/view-space-opt-analytics.md)
+[View Space Optimization metrics]()
 
-[View Lease Administration metrics](../../workplace-central/task/view-lease-admin-analytics.md)
+[View Lease Administration metrics]()
 
-[View Maintenance Management metrics](../../workplace-central/task/view-maintenence-mgmt-analytics.md)
+[View Maintenance Management metrics]()
 
-[Manage Workplace Dashboards](../../workplace-central/task/workplace-dashboards-wsd-central.md)
+[Manage Workplace Dashboards]()
 

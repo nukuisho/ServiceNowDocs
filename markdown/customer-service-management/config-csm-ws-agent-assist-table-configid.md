@@ -2,6 +2,7 @@
 title: Configure the Agent Assist and Response Template tabs
 description: Add a table configuration for the Agent Assist tab or Response Template tab for custom tables or custom case types in the contextual side panel in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-agent-assist-table-configid.html
 release: australia
 topic_type: task
 last_updated: "2026-03-11"
@@ -144,5 +145,5 @@ Agent Assist and Response Template example:
 **Related topics**  
 
 
-[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/configuring-contextual-search.md)
+[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-contextual-search.md)
 

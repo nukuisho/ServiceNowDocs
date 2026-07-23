@@ -2,11 +2,12 @@
 title: Parts of an application in ServiceNow
 description: Applications in ServiceNow have tables, UI elements, application files, integrations, and dependencies, all with a layer of security through the entire app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/parts-of-an-application.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Building apps in ServiceNow, Getting Started guide for developers, Building applications]
+breadcrumb: [Build your first app, Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Parts of an application in ServiceNow
@@ -15,7 +16,7 @@ Applications in ServiceNow have tables, UI elements, application files, integrat
 
 ## Parts of an application
 
-![Infographic showing how applications contain tables, UI elements, files, integrations, and dependencies. For a text description, refer to the following content.](../image/parts-of-an-app.png)
+\[Omitted image "parts-of-an-app.png"\] Alt text: Infographic showing how applications contain tables, UI elements, files, integrations, and dependencies. For a text description, refer to the following content.
 
 -   **Tables** are the foundation of ServiceNow applications, where data is stored and new records are created.
 -   **UI elements** enable users to interact with your application. Menus, modules, lists, and forms are just some of the UI elements you can add to an application.
@@ -46,5 +47,5 @@ It's similar to a system dictionary record for a table or column in that it stor
 -   View the run-time resource to which the application has been granted access
 -   View the design-time resources to which the application has been granted access
 
-**Parent Topic:**[Overview of building apps in ServiceNow](overview-building-apps-in-servicenow.md)
+**Parent Topic:**[Build your first application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-your-first-app.md)
 

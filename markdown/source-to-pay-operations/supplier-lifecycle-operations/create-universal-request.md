@@ -2,18 +2,21 @@
 title: Create a Universal Request from the Supplier Collaboration Portal
 description: Create a Universal Request to raise issues that do not fit into predefined case types or involve multiple departments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-universal-request.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using Supplier Collaboration Portal, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
 # Create a Universal Request from the Supplier Collaboration Portal
 
 Create a Universal Request to raise issues that do not fit into predefined case types or involve multiple departments.
+
+\[Omitted video\] Description: Creating a Universal request from the Supplier Collaboration portal.
 
 ## Before you begin
 
@@ -46,34 +49,38 @@ Role required: sn\_slm.contact
 
 ## Result
 
-A Universal Request is created based on the details provided in the Request Help form. For more information on the workflow, see [Universal Request](universal-request.md).
+A Universal Request is created based on the details provided in the Request Help form. For more information on the workflow, see [Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/universal-request.md).
 
-**Parent Topic:**[Using Supplier Collaboration Portal](use-supp-central.md)
+**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 
 **Related topics**  
 
 
-[Invite a member to access the Supplier Collaboration Portal](../task/invite-member-supp-portal.md)
+[Invite a member to access the Supplier Collaboration Portal]()
 
-[Supplier contact self-registration](supp-contact-self-reg.md)
+[Supplier contact self-registration]()
 
-[Managing supplier contacts from the Supplier Collaboration Portal](managing-contacts-scp.md)
+[Managing supplier contacts from the Supplier Collaboration Portal]()
 
-[Raising requests from the Supplier Collaboration Portal](supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal]()
 
-[Viewing supplier contact tasks from the Supplier Collaboration Portal](my-to-dos.md)
+[Viewing supplier contact tasks from the Supplier Collaboration Portal]()
 
-[View or update your user profile from the Supplier Collaboration Portal](../task/view-update-supp-profile.md)
+[View or update your user profile from the Supplier Collaboration Portal]()
 
-[View all your requests from the Supplier Collaboration Portal](../task/view-supp-case-sc.md)
+[View all your requests from the Supplier Collaboration Portal]()
 
-[View supplier locations from the Supplier Collaboration Portal](../task/view-supp-loc-supp-central.md)
+[View supplier locations from the Supplier Collaboration Portal]()
 
-[View supplier payment information from the Supplier Collaboration Portal](../task/view-bank-info-supp-central.md)
+[View supplier payment information from the Supplier Collaboration Portal]()
 
-[Start a chat session from the Supplier Collaboration Portal](../task/start-chat-portal.md)
+[Start a chat session from the Supplier Collaboration Portal]()
 
-[Manage documents from the Supplier Collaboration Portal](../task/upload-doc-portal.md)
+[Manage documents from the Supplier Collaboration Portal]()
 
-[Complete a risk assessment from the Supplier Collaboration Portal](../task/complete-risk-assessments.md)
+[Complete a risk assessment from the Supplier Collaboration Portal]()
+
+[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/universal-request.md)
+
+[Create supplier case from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.md)
 

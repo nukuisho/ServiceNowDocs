@@ -2,6 +2,7 @@
 title: Create a business process map form
 description: Create a business process map and associate an artifact for the map using Enterprise Modeling and Visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-bp-map-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Link to business process
 
 </td><td>
 
-Define whether the business process is new or an existing one. Use the following options:-   **New**-Select to create a new business process and an artifact to associate to the diagram.
+Option to specify whether the business process is new or an existing one. Use the following options:-   **New**-Select to create a new business process and an artifact to associate to the diagram.
 -   **Existing**-Select to associate the diagram to an existing business process.
 
 </td></tr><tr><td>
@@ -46,7 +47,7 @@ Select existing business process
 
 </td><td>
 
-Select an existing business process. This field appears only when you select **Existing** in the **Link to business process** field.
+The existing business process to associate with the diagram. This field appears only when you select **Existing** in the **Link to business process** field.
 
 </td></tr><tr><td>
 
@@ -57,5 +58,5 @@ Artifact name
 Name of the artifact. This field is auto populated based on the entry in the **Link to business process** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 

@@ -2,13 +2,14 @@
 title: Use the legacy Software Asset Management plugin Overview module
 description: The Overview module is a homepage that displays charts and graphs to help you manage software assets in the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_UseSWAssetMgmtOverviewMod.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Legacy Software Asset Management plugin Overview module, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Legacy Software Asset Management plugin Overview module, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Use the legacy Software Asset Management plugin Overview module
@@ -17,7 +18,7 @@ The Overview module is a homepage that displays charts and graphs to help you ma
 
 To use the Overview module for the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin, navigate to **Software Asset Management** &gt; **Overview**. Click an element within a report to see more information or add and move widgets as needed.
 
-![Legacy Software Asset Management plugin Overview module](../image/SAMDashOver.png "Legacy Software Asset Management plugin Overview module")
+\[Omitted image "SAMDashOver.png"\] Alt text: Legacy Software Asset Management plugin Overview module
 
 The overview shows the following compliance types:
 
@@ -26,12 +27,12 @@ The overview shows the following compliance types:
 
 The graphs show important statistics about the software being tracked, including software that has been entitled but is not being used and the total number of unallocated licenses.
 
-**Parent Topic:**[Legacy Software Asset Management plugin Overview module](c_SWAssetMgmtOverviewMod.md)
+**Parent Topic:**[Legacy Software Asset Management plugin Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SWAssetMgmtOverviewMod.md)
 
 **Related topics**  
 
 
-[Legacy Software Asset Management plugin roles](../reference/r_SoftwareAssetManagementRoles.md)
+[Legacy Software Asset Management plugin roles]()
 
-[Installed with the legacy Software Asset Management plugin](../reference/r_InstalledWithSoftwareAssetMgmt.md)
+[Installed with the legacy Software Asset Management plugin]()
 

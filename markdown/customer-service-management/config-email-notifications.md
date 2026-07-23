@@ -2,6 +2,7 @@
 title: Configure email and comment notifications
 description: Add a script to the email reply or case comment template to include all activities \(emails and comments\) on a case record in email replies and in email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-email-notifications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,11 +2,12 @@
 title: Use the ActionSet GetText action
 description: Capture text from the Windows applications, and web pages on the Internet Explorer browser by using the Get Text action in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-actionset-get-text.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use the ActionSet component, Actions \(UI\), Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Use the ActionSet component, Actions \(UI\), Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the ActionSet GetText action
@@ -15,25 +16,25 @@ Capture text from the Windows applications, and web pages on the Internet Explor
 
 ## Before you begin
 
-Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](use-actionsui-actionset.md).
+Capture an image of the target application window and create an anchor. For information about how to do this, see [Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionsui-actionset.md).
 
 Role required: none
 
 ## About this task
 
-The ActionSet Get Text action captures text from an area that you specify in the ActionSet Settings window. You can use it to receive text in the target area when it is in text format. To capture text from an image, see [Use the ActionSet OCR Read Text action](use-actionset-ocr-read-text.md).
+The ActionSet Get Text action captures text from an area that you specify in the ActionSet Settings window. You can use it to receive text in the target area when it is in text format. To capture text from an image, see [Use the ActionSet OCR Read Text action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionset-ocr-read-text.md).
 
-You can configure the properties for the GetText component. For more information about these properties, see [ActionSet-Get Text properties](../reference/actionset-actions-properties.md#ActionSet-GetText).
+You can configure the properties for the GetText component. For more information about these properties, see [ActionSet-Get Text properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/actionset-actions-properties.md).
 
 ## Procedure
 
 1.  Right-click the anchor.
 
-    To learn about the anchor, see how to use the [Anchor](../concept/anchor.md).
+    To learn about the anchor, see how to use the [Anchor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/anchor.md).
 
 2.  Click **Get Text**.
 
-3.  Drag the green plus icon \(![Green plus icon.](../image/green-plus-icon.png)\) to the field where you want to capture text.
+3.  Drag the green plus icon \(\[Omitted image "green-plus-icon.png"\] Alt text: Green plus icon.\) to the field where you want to capture text.
 
 4.  In the Properties pane of the ActionSet Settings window, configure the properties of the Get Text action.
 
@@ -52,5 +53,5 @@ You can configure the properties for the GetText component. For more information
 7.  To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[Use the ActionSet component](use-actionsui-actionset.md)
+**Parent Topic:**[Use the ActionSet component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-actionsui-actionset.md)
 

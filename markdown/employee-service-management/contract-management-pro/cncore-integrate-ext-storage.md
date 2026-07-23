@@ -2,6 +2,7 @@
 title: Configure an external storage system
 description: As a contract configurator, configure an external storage system to store signed contract documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,21 +18,21 @@ As a contract configurator, configure an external storage system to store signed
 
 ## About this task
 
-The following video walks you through the process of configuring external storage for Contract Management Pro.Video explaining how to configure external storage for Contract Management Pro, approximately two minutes long. 
+The following video walks you through the process of configuring external storage for Contract Management Pro.\[Omitted video\] Description: Video explaining how to configure external storage for Contract Management Pro, approximately two minutes long.
 
 ## Before you begin
 
 Ensure that the administrator has installed and set up spokes for the external storage system you want to configure.
 
--   **[Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/googledrive-spoke.md) v1.3.0 or later version**
+-   **[Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/googledrive-spoke.md) v1.3.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gdrive.md).
+    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-gdrive.md).
 
     **Note:** Word \(.docx\) files edited directly from Google Drive using Google Docs may become incompatible with Contract Management Pro causing failures during processing, signature operations, and document updates. To avoid these issues, download the .docx file from the Google Drive, edit it in Microsoft Word \(desktop or online\), and upload it into the system using the Create Revision option.
 
--   **[Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/onedrive-spoke.md) v2.1.0 or later version**
+-   **[Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/onedrive-spoke.md) v2.1.0 or later version**
 
-    For more information on the setup and creating the Microsoft OneDrive account, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msonedrive.md).
+    For more information on the setup and creating the Microsoft OneDrive account, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-msonedrive.md).
 
 
 Role required: sn\_cm\_core.contract\_config
@@ -60,7 +61,7 @@ Access permissions set on the parent request folder are automatically inherited 
     -   To modify an existing external app configuration, open the existing external app configuration from the list.
 3.  On the Contract Integration Type page, click the **External Storage** link.
 
-    ![External storage form](../image/cmpro-external-storage.png "External storage configuration form")
+    \[Omitted image "cmpro-external-storage.png"\] Alt text: External storage form
 
 4.  On the form, fill in the fields.
 
@@ -161,12 +162,12 @@ The external storage system is configured and ready to be used for storing contr
 
 **Note:** \(Optional\) You can view, edit, and delete the record.
 
-For information on configuring electronic signature provider, see [Configure an e-signature provider](cncore-integrate-esign.md).
+For information on configuring electronic signature provider, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
 
-**Parent Topic:**[Configuring external applications for Contract Management Pro](../concept/cncore-set-ext-app-config.md)
+**Parent Topic:**[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
 
 **Related topics**  
 
 
-[Configure an e-signature provider](cncore-integrate-esign.md)
+[Configure an e-signature provider]()
 

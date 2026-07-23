@@ -2,6 +2,7 @@
 title: Domain separation explained
 description: With domain separation, you can segregate application data, UI, and business logic, such as rules or workflows, in a single customer instance. Separating these elements into logically defined domains supports specific hierarchies for all customers using your applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-what-is-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -38,73 +39,73 @@ Before you start separating domains, read the following guidelines.
 
 The following graphic shows the division of data, process, and UI separation. These concepts are discussed in depth in the Recommended Practices section.
 
-![Types of domain separation](../image/bp-ds-separations.png)
+\[Omitted image "bp-ds-separations.png"\] Alt text: Types of domain separation
 
 ## Domain architecture
 
 User records are assigned a domain value that represents the user’s home domain. Users have no access to data in parent domains, peer domains, or domains in other branches of the hierarchy.
 
-See [Contains queries and domain access](bp-contains-domain-visibility.md) for advanced options to grant additional domain visibility.
+See [Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-contains-domain-visibility.md) for advanced options to grant additional domain visibility.
 
-The following diagram shows how the architecture process flows down to the child domains. ![Process flows down](../image/bp-architecture-down.png) ![Data rises up](../image/bp-architecture-up.png)
+The following diagram shows how the architecture process flows down to the child domains. \[Omitted image "bp-architecture-down.png"\] Alt text: Process flows down \[Omitted image "bp-architecture-up.png"\] Alt text: Data rises up
 
--   **[Domain separation value proposition](../reference/bp-dom-sep-value-prop.md)**  
+-   **[Domain separation value proposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-dom-sep-value-prop.md)**  
 With domain separation, service providers can have a multitenant instance architecture that delivers offerings efficiently and securely to their clients. Strong universal process standards, data-driven process design, strict governance, and centralized administration help to maximize these benefits.
--   **[Definition of domain separation](../reference/bp-dom-sep-definition.md)**  
+-   **[Definition of domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-dom-sep-definition.md)**  
 With domain separation \(also known as the ServiceNow® Multitenant Platform Architecture\), you can segregate application data, UI, and business logic in a single customer instance that supports hierarchical modeling with cross-tenant \(customer\) intelligence.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](../reference/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 
 
-[Domain separation hierarchies](../reference/bp-domain-sep-hierarchies.md)
+[Domain separation hierarchies]()
 
-[Context and domain separation](bp-domain-sep-context.md)
+[Context and domain separation]()
 
-[Segregating and securing data with domain separation](../reference/bp-segregate-secure.md)
+[Segregating and securing data with domain separation]()
 
-[Alternatives to domain separation](../reference/bp-domain-separation-alternatives.md)
+[Alternatives to domain separation]()
 
-[Evaluating the need for domain separation](../reference/bp-evaluation-dom-sep.md)
+[Evaluating the need for domain separation]()
 
-[Benefits of domain separation](../reference/bp-advantages-dom-sep.md)
+[Benefits of domain separation]()
 
-[How a database query works with domain separation](bp-db-query-with-ds.md)
+[How a database query works with domain separation]()
 
-[Domain separation levels of support](../reference/bp-domain-levels.md)
+[Domain separation levels of support]()
 
-[Service provider reference architecture](../reference/bp-sp-reference-arch-ds.md)
+[Service provider reference architecture]()
 
-[Domain separation terms](../reference/bp-terms-conditions.md)
+[Domain separation terms]()
 
-[Domain-separate a custom table](../reference/bp-ds-custom-table.md)
+[Domain-separate a custom table]()
 
-[Customizing domain properties and themes](bp-domain-prop-themes.md)
+[Customizing domain properties and themes]()
 
-[Managing domain separation for specific uses](bp-emails-catalog-users.md)
+[Managing domain separation for specific uses]()
 
-[Configuring domain separation with the domain picker](bp-domain-picker-config-process.md)
+[Configuring domain separation with the domain picker]()
 
-[Domain separation performance considerations](bp-performance-considerations.md)
+[Domain separation performance considerations]()
 
-[Setting up domain hierarchies](bp-domain-hierarchy.md)
+[Setting up domain hierarchies]()
 
-[Checking domain logs for errors and warnings](bp-domain-logs.md)
+[Checking domain logs for errors and warnings]()
 
-[Importance of the Default domain](bp-default-domain.md)
+[Importance of the Default domain]()
 
-[Contains queries and domain access](bp-contains-domain-visibility.md)
+[Contains queries and domain access]()
 
-[Domain paths query method](bp-domain-query-method.md)
+[Domain paths query method]()
 
-[Slow queries and SQL debugging](bp-debug-sql.md)
+[Slow queries and SQL debugging]()
 
-[Before Query business rules](bp-before-query-business-rules.md)
+[Before Query business rules]()
 
-[Avoiding domain path in scripts](bp-no-domain-path-in-scripts.md)
+[Avoiding domain path in scripts]()
 
-[Domain assignments](../reference/bp-domain-assignment.md)
+[Domain assignments]()
 
-[Domain separation and the Customer Service Management \(CSM\) plugin](bp-ds-and-csm.md)
+[Domain separation and the Customer Service Management \(CSM\) plugin]()
 

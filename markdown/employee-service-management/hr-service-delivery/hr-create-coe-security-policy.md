@@ -2,6 +2,7 @@
 title: Create a COE security policy
 description: Use COE Security Configuration to define group restrictions for a COE and for all or specific HR services under it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-create-coe-security-policy.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Role required: admin, sn\_hr\_er.admin
 
 Certain users will be able to access a COE even it is restricted. For example, Opened for, Opened by, Watch List and Collaborators get access to a restricted COE irrespective of its security policies.
 
-COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
+COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md).
 
 ## Procedure
 

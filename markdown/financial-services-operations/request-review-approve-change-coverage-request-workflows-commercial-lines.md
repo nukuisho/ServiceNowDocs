@@ -2,6 +2,7 @@
 title: Request, review, and approve change coverage request workflows
 description: Learn how agents, using the change coverage limits workflows, resolve service requests for requesting, reviewing, and approving policy change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/request-review-approve-change-coverage-request-workflows-commercial-lines.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Learn how agents, using the change coverage limits workflows, resolve service re
 
 The following diagram shows how the application helps agents resolve a change policy coverage request.
 
-![Workflow showing how a policy change coverage request is resolved using the Commercial Lines Servicing application. For the text description, refer to the workflow steps that follow.](../image/change-coverage-workflow.png "Change coverage workflow example")
+\[Omitted image "change-coverage-workflow.png"\] Alt text: Workflow showing how a policy change coverage request is resolved using the Commercial Lines Servicing application. For the text description, refer to the workflow steps that follow.
 
 The insurance policy admin can review and customize this predefined flow based on the business needs of your organization.
 
@@ -48,5 +49,5 @@ The following workflow routes the case and tasks for changing coverage for a pol
 
 The case is complete, and the state and stage of the case are set to Closed Complete.
 
-**Parent Topic:**[Using Commercial Lines Servicing](using-financial-services-commercial-lines-servicing.md)
+**Parent Topic:**[Using Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-financial-services-commercial-lines-servicing.md)
 

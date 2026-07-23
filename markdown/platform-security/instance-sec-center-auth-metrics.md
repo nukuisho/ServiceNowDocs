@@ -2,6 +2,7 @@
 title: Authentication Metrics
 description: Analyze authentication metrics to see information related to authentication, such as infrequently used IP addresses, failed logins, and types of authentication schemes used by your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-sec-center-auth-metrics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Analyze authentication metrics to see information related to authentication, suc
 
 Use the **Authentication Metrics** page to view reports relating to your authentication configuration. The following reports are displayed in this tab.
 
-**Note:** The authentication metrics page requires the **REST API Access Policy plugin** \(com.glide.rest.policy\) plugin. For more details about this feature, see [REST API access policies](../../../integrate/authentication/concept/inbound-authentication-profile.md).
+**Note:** The authentication metrics page requires the **REST API Access Policy plugin** \(com.glide.rest.policy\) plugin. For more details about this feature, see [REST API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/inbound-authentication-profile.md).
 
 -   **APIs without authentication policies**
 
@@ -32,5 +33,5 @@ Use the **Authentication Metrics** page to view reports relating to your authent
     Displays a count of all X.509 certificates from **X.509 Certificates** \[sys\_certificate\] table which are due expire in 30 days.
 
 
-**Parent Topic:**[Monitor instance metrics](monitoring-user-email-antivirus-metrics.md)
+**Parent Topic:**[Monitor instance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/monitoring-user-email-antivirus-metrics.md)
 

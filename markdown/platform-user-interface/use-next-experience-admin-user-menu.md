@@ -2,6 +2,7 @@
 title: Performing admin user functions in Next Experience
 description: Use admin functions in the Next Experience user menu to elevate roles, impersonate users, and configure a workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-next-experience-admin-user-menu.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **User Menu**![User menu.](../image/pol-user-menu.png).
+1.  Navigate to **User Menu**\[Omitted image "pol-user-menu.png"\] Alt text: User menu..
 
 2.  Select one of these user menu options for admins.
 
@@ -38,7 +39,7 @@ Impersonate user
 
 </td><td>
 
-Option to impersonate other authenticated users for testing purposes and to view impersonation logs. For more information, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md).
+Option to impersonate other authenticated users for testing purposes and to view impersonation logs. For more information, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ImpersonateAUser.md).
 
 </td></tr><tr><td>
 
@@ -60,5 +61,5 @@ Dynamic links to configuration pages to access configurations relevant to lists 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring the Next Experience UI](../../../administer/navigation-and-ui/concept/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
 

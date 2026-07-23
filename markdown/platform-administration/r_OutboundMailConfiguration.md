@@ -2,6 +2,7 @@
 title: Outbound email configuration
 description: The Outbound Email Configuration section of the Email Properties page contains properties for sending email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_OutboundMailConfiguration.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Email properties, Configure, Email Administration, Notifications, C
 
 The **Outbound Email Configuration** section of the Email Properties page contains properties for sending email.
 
-![](../../notification/image/outbound_email_configuration.png "Outbound email configuration")
+\[Omitted image "outbound\_email\_configuration.png"\] Alt text:
 
 <table id="table_otj_3ly_bp"><thead><tr><th>
 
@@ -146,16 +147,16 @@ Specifies the number of entries from a journal field, such as Additional comment
 -   Learn More:Restrict the Number of Entries Sent in a Notification
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email properties](../concept/c_EmailProperties.md)
+</table>**Parent Topic:**[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailProperties.md)
 
 **Related topics**  
 
 
-[Inbound email configuration](r_InboundMailConfiguration.md)
+[Inbound email configuration]()
 
-[Email image filtering properties](../../notification/concept/email-image-filters.md)
+[Email image filtering properties]()
 
-[Email digest properties](../../notification/concept/email-digest-properties.md)
+[Email digest properties]()
 
-[Advanced email properties](r_AdditionalProperties.md)
+[Advanced email properties]()
 

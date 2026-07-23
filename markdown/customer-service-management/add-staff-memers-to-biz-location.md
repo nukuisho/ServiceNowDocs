@@ -2,6 +2,7 @@
 title: Add staff members to a business location in the Business Location Service Portal
 description: Add users as staff members to a business location to support accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-staff-memers-to-biz-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -137,7 +138,7 @@ Once a staff member is added to a business location, the following details can b
 **Related topics**  
 
 
-[Create cases for a business location in the Business Location Service Portal](report-cases-on-behalf-of-biz-location.md)
+[Create cases for a business location in the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/report-cases-on-behalf-of-biz-location.md)
 
-[Track cases on the Business Location Service Portal](../concept/track-cases-for-blsp-portal.md)
+[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-cases-for-blsp-portal.md)
 

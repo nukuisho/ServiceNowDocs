@@ -2,11 +2,12 @@
 title: Specify the bindings for resource blocks
 description: Bindings represent endpoint relationships. For example, a storage volume might implement an endpoint type of Block EP \(cmdb\_ci\_endpoint\_block\). A virtual server might consume an endpoint of that type. Bindings must support the Guest interface that is specified for the resource block.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/specify-resource-bindings-cmp.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Create a custom resource block, Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  In the Cloud Admin Portal, navigate to **Design** &gt; **Resource Blocks**.
 
-2.  Select the resource block and then select **Draft** on the **Resource Blocks** form: ![Draft.](../image/draft-published-slider.png)
+2.  Select the resource block and then select **Draft** on the **Resource Blocks** form: \[Omitted image "draft-published-slider.png"\] Alt text: Draft.
 
 3.  In the **Resource Bindings** related list, click **New**.
 
@@ -34,12 +35,12 @@ Role required: admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Create a custom resource block](create-resource-block.md)
+**Parent Topic:**[Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-resource-block.md)
 
 **Related topics**  
 
 
-[Specify a host resource for a resource block](specify-host-resource-cmp.md)
+[Specify a host resource for a resource block]()
 
-[Configure endpoint operation mapping](configure-endpoint-mapping-cmp.md)
+[Configure endpoint operation mapping]()
 

@@ -2,13 +2,14 @@
 title: Specify rate discounts to enable accurate pricing for Rightsizing recommendations
 description: To generate an accurate Rightsizing recommendation, the system analyzes usage data for the last 14 days, obtains prices from the price sheet data tables, and then applies appropriate discounts. To enable the calculations, specify the provider's discount rate for each service account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/discounts-specify-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Rightsizing operations, Resize resources with Rightsizing, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configure Rightsizing operations, Resize resources with Rightsizing, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Specify rate discounts to enable accurate pricing for Rightsizing recommendations
@@ -59,10 +60,10 @@ The percentage discount for the selected service account.
 
 View the provider's discount rate for each service account by navigating to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Administration** &gt; **AWS price discounts**.
 
-**Parent Topic:**[Configure Rightsizing operations](rs-settings-config-cloudin.md)
+**Parent Topic:**[Configure Rightsizing operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/rs-settings-config-cloudin.md)
 
 **Related topics**  
 
 
-[Schedule and manage the Cloud Cost Management jobs that download AWS price sheets](aws-pricesht-sched-dwnld-cloudin.md)
+[Schedule and manage the Cloud Cost Management jobs that download AWS price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-pricesht-sched-dwnld-cloudin.md)
 

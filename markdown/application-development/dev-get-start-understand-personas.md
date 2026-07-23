@@ -2,11 +2,12 @@
 title: Learn about personas when creating applications
 description: Learn about personas and how to analyze personas before creating an application on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-understand-personas.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [User interface and experiences, Getting Started guide for developers, Building applications]
+breadcrumb: [User interface and experiences, Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Learn about personas when creating applications
@@ -38,5 +39,5 @@ Applications created in the ServiceNow AI Platform typically serve multiple pers
 -   Map tasks to outcomes. Focus on what users must accomplish rather than just their job title. This approach helps avoid over-engineering features that don’t add value.
 -   Plan for scalability. Use configurable workspaces and templates aligned with persona needs to reduce maintenance overhead.
 
-**Parent Topic:**[User interface and experiences](dev-get-start-ui-and-experience.md)
+**Parent Topic:**[User interface and experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-ui-and-experience.md)
 

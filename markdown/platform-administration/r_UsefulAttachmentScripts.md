@@ -2,6 +2,7 @@
 title: Useful attachment scripts
 description: This is a searchable version of the Useful Attachment Scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_UsefulAttachmentScripts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -124,14 +125,14 @@ Whenever a user downloads an attachment, the action writes an attachment.read ev
 -   parm1: File name
 -   parm2: Table name
 
-**Parent Topic:**[Scripting for email notifications](../../server-scripting/concept/c_ScriptingForEmailNotifications.md)
+**Parent Topic:**[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScriptingForEmailNotifications.md)
 
 **Related topics**  
 
 
-[JavaScript in emails](../../server-scripting/concept/c_UseJavaScriptInEmails.md)
+[Include mail scripts in email notifications]()
 
-[Mail script variables](../../server-scripting/reference/r_MailScriptAPI.md)
+[Mail script variables]()
 
-[Example scripting for email notifications](../../server-scripting/reference/r_ExScptEmlNtfn.md)
+[Example scripting for email notifications]()
 

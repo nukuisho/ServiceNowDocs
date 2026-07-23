@@ -2,6 +2,7 @@
 title: Enable enhanced barcode scanning
 description: Add the EnableCameraFocusEnhancement and the EnableMaxCameraResolution mobile properties to enhance barcode scanning for Android devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/enable-enhanced-barcode-scan.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -89,9 +90,9 @@ Application
 
 </td><td>
 
-Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(![Globe icon](../image/globe-icon.png)\) on the instance banner. Then select **Application scope:_application\_scope_**.
+Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe icon\) on the instance banner. Then select **Application scope:_application\_scope_**.
 
- For information about how mobile properties are affected by application scope, see [Mobile properties](../concept/mobile-properties.md).
+ For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -135,7 +136,7 @@ Is Public
 
 Determines whether the **pre\_auth** property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-events.md).
+ By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the **/user\_client** API response.
 
@@ -190,5 +191,5 @@ Mobile application to which you want to send the mobile property. This setting l
 -   To confirm that the properties have been added, make sure they appear in the Mobile Properties list after you select **Submit**.
 -   End users must pull to refresh and get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](../concept/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
 

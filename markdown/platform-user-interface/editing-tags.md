@@ -2,6 +2,7 @@
 title: Editing tags
 description: You can edit tags that you created from the list and form views, the My Tags module, and the Tagged Documents page. You can also merge tags from the My Tags module.In the list view, you can edit tags that you created.From the form view, you can edit tags that you created.From the My Tags module, you can edit the tags you have created.You can edit tags from the Tagged Documents page.You can merge one or more tags with another tag. For example, when you merge Tag A with Tag B, Tag A is deleted and all associated records are reassigned to Tag B.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/editing-tags.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ You can edit tags that you created from the list and form views, the **My Tags**
 
 **Note:** Tag names are case-insensitive and must not include punctuation.
 
-**Parent Topic:**[Tags](c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
 
 ## Edit tags from the list view
 
@@ -33,7 +34,7 @@ Role required: none
 
 1.  Navigate to a list that contains records you have previously tagged.
 
-2.  Click the edit tag audience icon \(![Edit tag audience](../image/IconEditTagAudience.png)\) beside the tag name.
+2.  Click the edit tag audience icon \(\[Omitted image "IconEditTagAudience.png"\] Alt text: Edit tag audience\) beside the tag name.
 
     The Tag Details dialog box opens.
 
@@ -60,9 +61,9 @@ Role required: none
 
 2.  Perform the appropriate action for your version of the UI.
 
-3.  Select the more options icon \(![More options icon.](../../using-forms/image/IconUI16MoreOptions.png)\) in the form header.
+3.  Select the more options icon \(\[Omitted image "IconUI16MoreOptions.png"\] Alt text: More options icon.\) in the form header.
 
-4.  Select the edit tag audience icon \(![Edit tag audience icon.](../image/IconEditTagAudienceUI16Form.png)\) beside the tag name.
+4.  Select the edit tag audience icon \(\[Omitted image "IconEditTagAudienceUI16Form.png"\] Alt text: Edit tag audience icon.\) beside the tag name.
 
 5.  In the Tag Details dialog box, edit the **Name** field as necessary.
 

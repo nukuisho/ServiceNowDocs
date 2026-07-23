@@ -1,19 +1,20 @@
 ---
-title: Debugging in CPQ
+title: Debugging in ServiceNow CPQ
 description: How to use the debugger to perfect your scripts before deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/rules-enrichments-debugging\_in\_logik\_io.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Debugging in CPQ
+# Debugging in ServiceNow CPQ
 
 How to use the debugger to perfect your scripts before deployment.
 
-When you need to fix a script in CPQ, the debugging tool in Advanced Functions and Enrichment Scripts can help. This guide shows you how to write debug JSONs to isolate and test your scripts before deployment. By following these best practices for debugging faulty scripts, you can help ensure your blueprints run flawlessly.
+When you need to fix a script in ServiceNow CPQ, the debugging tool in Advanced Functions and Enrichment Scripts can help. This guide shows you how to write debug JSONs to isolate and test your scripts before deployment. By following these best practices for debugging faulty scripts, you can help ensure your blueprints run flawlessly.
 
 ## General guidelines for debugging
 
@@ -23,11 +24,11 @@ Comment out blocks of codes: When a script becomes long, it may be necessary to 
 
 Comment out debug JSON for future use: If you are continually updating a rule during implementation, itʼs a good idea to save your debugging JSON either at the top or bottom of the script inside a comment block. That way, when the script is saved, the JSON can also be saved for future reference.
 
-For more tips on these features, see [Using comments and the console to debug scripts](rules-enrichments-comments-and-console_log.md).
+For more tips on these features, see [Using comments and the console to debug scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rules-enrichments-comments-and-console_log.md).
 
 ## How to use the debugger
 
-![Debugger screen](../images/cpq-scripting-debugging.png)
+\[Omitted image "cpq-scripting-debugging.png"\] Alt text: Debugger screen
 
 When in the script editor:
 
@@ -39,7 +40,7 @@ When in the script editor:
 
 -   Returned objects and console.log information appear in the Debugger Output panel \(d\).
 
-The CPQ debugger uses JSON format, which is written using attribute-value pairs. The attributes are the variable names of the fields used in the rule, and the value is the fieldʼs data in its object format.
+The ServiceNow CPQ debugger uses JSON format, which is written using attribute-value pairs. The attributes are the variable names of the fields used in the rule, and the value is the fieldʼs data in its object format.
 
 **Note:** As long as a field is referenced in the rule or enrichment, it must have a corresponding attribute in the JSON, or the script cannot be run in the debugger.
 
@@ -136,7 +137,7 @@ The structure of the JSON you use depends on the object type of each field, as w
     }
     ```
 
-    To learn more about defaulting a setʼs fields, see [Scripting: How to populate set values](enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md).
+    To learn more about defaulting a setʼs fields, see [Scripting: How to populate set values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md).
 
 
 ## Context-specific JSON formatting
@@ -173,7 +174,7 @@ On configuration and reconfiguration, inputs are entered in JSON format, using t
 }
 ```
 
-For more information about how to use the **userEdited** property, see [Scripting: Checking for first and subsequent configurations](enrichments_on_configurer_and_reconfigure_behavior.md)
+For more information about how to use the **userEdited** property, see [Scripting: Checking for first and subsequent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments_on_configurer_and_reconfigure_behavior.md)
 
 ## Context-specific JSON formatting: product pickers
 
@@ -358,9 +359,9 @@ picklist extension Request: Inputs are entered as an array of objects in JSON fo
 
 ## If the debuggerʼs behavior is different from runtime behavior
 
-In almost every case, the debugging JSON needs to match exactly what would normally be entered during runtime as valid values for the fields. Make sure that you are using the correct data type or structures described above.
+In most cases, the debugging JSON needs to exactly match what would normally be entered during runtime as valid values for the fields. Make sure that you're using the correct data type or structures described above.
 
-In other cases, similar rules may be acting on the same field. In this case, the debugger will not be helpful, as it can only show the behavior of one rule at a time. It might be necessary to inactivate entire rules and redeploy in order to rule out the undesired behavior.
+In other cases, similar rules may be acting on the same field. In this situation, the debugger will not be helpful, as it can only show the behavior of one rule at a time. To isolate the problem, it might be necessary to inactivate individual rules and redeploy.
 
-If all else fails, please open a case with our support team, or email us at support@logik.io.
+If neither method is successful, open a case with our support team by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 

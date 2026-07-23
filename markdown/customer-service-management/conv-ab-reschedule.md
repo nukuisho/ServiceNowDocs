@@ -2,6 +2,7 @@
 title: Reschedule an appointment with Conversational Appointment Booking
 description: As a customer or consumer, reschedule an appointment from the Virtual Agent chat window on the service portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/conv-ab-reschedule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,17 +28,17 @@ You can only schedule one appointment per location. Only logged-in users can sch
 
     For example: `https://yourportalurl.com/csm`
 
-2.  Click the chat icon \(![Chat icon.](../image/chat_icon.png)\) to open the chat window and begin a Virtual Agent chat.
+2.  Click the chat icon \(\[Omitted image "chat\_icon.png"\] Alt text: Chat icon.\) to open the chat window and begin a Virtual Agent chat.
 
 3.  In the chat window, enter `reschedule appointment`.
 
 4.  Choose the appointment that you want to reschedule.
 
-    ![Virtual Agent chat window with the selected appointment details and the rescheduling confirmation message.](../image/conv-ab-resched3.png "Rescheduling an appointment")
+    \[Omitted image "conv-ab-resched3.png"\] Alt text: Virtual Agent chat window with the selected appointment details and the rescheduling confirmation message.
 
 5.  Choose a date from the calendar for the new appointment time.
 
-    ![Virtual Agent chat window with dates and times that are available for the appointment being rescheduled.](../image/conv-ab-resched2.png "Choosing a date on the calendar")
+    \[Omitted image "conv-ab-resched2.png"\] Alt text: Virtual Agent chat window with dates and times that are available for the appointment being rescheduled.
 
 
 ## Result
@@ -47,7 +48,7 @@ The appointment is rescheduled.
 **Related topics**  
 
 
-[Schedule an appointment](conv-ab-schedule.md)
+[Schedule an appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/conv-ab-schedule.md)
 
-[Cancel an appointment](conv-ab-cancel.md)
+[Cancel an appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/conv-ab-cancel.md)
 

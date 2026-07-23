@@ -14,7 +14,7 @@ The ServiceNow® Theme Builder application enables you to customize the visual e
 
 ## Theme Builder highlights for the Australia release
 
--   Generate color palettes instantly by uploading a brand image and let our AI theme generator automatically detect your brand colors.
+-   Generate color palettes instantly by uploading a brand image or brand guidelinesand let our AI theme generator automatically detect your brand colors.
 -   Customize fonts by category and adjust font sizes to scale typography across specific component categories like headers, buttons, and form fields, or by size groups for consistent styling.
 -   Access the new icon library to configure and override default icons using custom assets.
 
@@ -24,7 +24,12 @@ See [Working with themes in Next Experience](https://raw.githubusercontent.com/S
 
 ## New in the Australia release
 
--   **[Upload brand guidelines to generate theme colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-a-theme-ai.md)**
+-   **[Upload brand guidelines to generate theme colors in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-a-theme-ai.md)**
+
+    As of Theme Builder, version 7.1, upload brand guidelines as a PDF in the Theme Builder wizard to generate theme colors from your documented brand standards.
+
+
+-   **[Upload brand guidelines to generate theme colors in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-a-theme-ai.md)**
 
     Upload brand guidelines as a PDF to the Theme Builder theme creation workflow in the Now Assist panel to generate themes aligned with your brand.
 
@@ -91,11 +96,11 @@ Theme Builder is included as a core plugin with the Next Experience application 
 
 ## Related ServiceNow applications and features
 
--   **[Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md)**
+-   ****
 
     Use ServiceNow® App Engine Studio for developing rich web applications to store information, automate business processes, and solve business problems.
 
--   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)**
+-   ****
 
     Use ServiceNow® UI Builder to build pages for workspaces that are generated with App Engine Studio or custom web experiences by using Next Experience Components and custom web components.
 
@@ -103,7 +108,7 @@ Theme Builder is included as a core plugin with the Next Experience application 
 
     ServiceNow® Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   **[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)**
+-   ****
 
     ServiceNow® Now Assist for Creator application includes generative AI skills that can help you develop on the ServiceNow AI Platform efficiently.
 
@@ -112,5 +117,5 @@ Theme Builder is included as a core plugin with the Next Experience application 
     Create, manage, or test AI agents and agentic workflows so that you can create self-executing workflows to help you achieve your business goals.
 
 
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](now-platform-ui-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
 

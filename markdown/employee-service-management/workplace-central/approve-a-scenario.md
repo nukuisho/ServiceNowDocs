@@ -2,6 +2,7 @@
 title: Approve a scenario
 description: As a workplace manager, you can approve or reject when a scenario is sent for approval
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/approve-a-scenario.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -26,7 +27,7 @@ Role required: sn\_wsd\_core.workplace\_manager and sn\_wsd\_spcmgmt.scenario\_r
 
 ## About this task
 
-As a workplace manager, you can approve a scenario. The Workplace Core Approval definition, provides the **Scenario Plan Approval** by default to perform scenario approval. The approval definition consists of a **Scenario Plan Approver** performer criteria, in which all the workplace managers are configured to approve scenarios. To configure more approvers, refer to [Configure approvers of a scenario](configure-approvers-of-a-scenario.md).
+As a workplace manager, you can approve a scenario. The Workplace Core Approval definition, provides the **Scenario Plan Approval** by default to perform scenario approval. The approval definition consists of a **Scenario Plan Approver** performer criteria, in which all the workplace managers are configured to approve scenarios. To configure more approvers, refer to [Configure approvers of a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/configure-approvers-of-a-scenario.md).
 
 ## Procedure
 
@@ -36,7 +37,7 @@ As a workplace manager, you can approve a scenario. The Workplace Core Approval 
 
     You can also use filter options to view only those approvals that are in the **Requested** state.
 
-3.  To view the scenario before approving, in the **Approving** field, select Preview this record icon \(![Preview this record icon](../../workplace-case-mgmt/image/preview-icon.png)\).
+3.  To view the scenario before approving, in the **Approving** field, select Preview this record icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview this record icon\).
 
 4.  Select the **Open Record** tab from the preview window.
 
@@ -69,14 +70,16 @@ As a workplace manager, you can approve a scenario. The Workplace Core Approval 
 
 The scenario is approved or rejected based on what action you performed. If the scenario is approved, then the state of the scenario changes to Approved. If it is rejected, then the scenario state is changed to Rejected.
 
-**Parent Topic:**[Manage Workplace Central](../concept/manage-workplace-central.md)
+**Parent Topic:**[Manage Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/manage-workplace-central.md)
 
 **Related topics**  
 
 
-[View workplace scenarios](view-space-optimization-board.md)
+[View workplace scenarios]()
 
-[Raise a space assistance request](../../workplace-space-management/task/raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Approve a space assist request](approve-a-space-assist-request.md)
+[Approve a space assist request]()
+
+[Manage reservation waitlist records]()
 

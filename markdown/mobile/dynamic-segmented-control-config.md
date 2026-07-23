@@ -2,6 +2,7 @@
 title: Customize segment button colors in the segmented control area
 description: Customize the color of segment buttons to help users identify a tapped segment button. For example, use a darker color to indicate that it is a selected button.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/dynamic-segmented-control-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,17 +26,17 @@ Role required: admin
 
     2.  Select the record screen that contains the dynamic screen segment you want to configure.
 
-    3.  Select the **Record Screen Segments** tab and select the information icon \(![Information icon.](../image/gac-info-icon.png)\) next to the embedded screen that contains a dynamic record screen segment.
+    3.  Select the **Record Screen Segments** tab and select the information icon \(\[Omitted image "gac-info-icon.png"\] Alt text: Information icon.\) next to the embedded screen that contains a dynamic record screen segment.
 
     4.  Select **Open Record** from the menu.
 
-    5.  From the **Dynamic segment list stream** field, select the information icon \(![Information icon.](../image/gac-info-icon.png)\) and select **Open Record**.
+    5.  From the **Dynamic segment list stream** field, select the information icon \(\[Omitted image "gac-info-icon.png"\] Alt text: Information icon.\) and select **Open Record**.
 
     6.  Select the List Stream M2M Item Configuration to use for the dynamic section.
 
-    7.  In the **Card** field of the List Item Configuration form, select the information icon \(![Information icon.](../image/gac-info-icon.png)\) and select **Open Record**.
+    7.  In the **Card** field of the List Item Configuration form, select the information icon \(\[Omitted image "gac-info-icon.png"\] Alt text: Information icon.\) and select **Open Record**.
 
-2.  In the Card Template form, select the menu icon \(![Menu icon.](../image/context-menu-icon.png)\) and select **Configure** &gt; **Form Layout**.
+2.  In the Card Template form, select the menu icon \(\[Omitted image "context-menu-icon.png"\] Alt text: Menu icon.\) and select **Configure** &gt; **Form Layout**.
 
 3.  In the Configuring Card Template form, select **Root-view attribute JSON** and move it to the selected area.
 

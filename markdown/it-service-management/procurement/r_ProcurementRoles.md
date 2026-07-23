@@ -2,13 +2,14 @@
 title: Procurement roles
 description: The Procurement application uses the following roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/r\_ProcurementRoles.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Procurement, Asset Management, IT Service Management]
+breadcrumb: [Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Procurement roles
@@ -52,22 +53,22 @@ financial\_mgmt\_user, model\_manager
 Can create purchase orders without a request. Can view requests and requested items. Can view transfer orders. Can create a purchase order or transfer order when sourcing items for a request. Can view the vendor catalog. Can view and refresh gauges in the Procurement Overview module.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Procurement](../concept/c_Procurement.md)
+</table>**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
 
 **Related topics**  
 
 
-[Procurement workflows](../concept/c_ProcurementWorkflows.md)
+[Procurement workflows]()
 
-[Use the Procurement Overview module](../task/t_UsingTheProcurementOverviewModule.md)
+[Use the Procurement Overview module]()
 
-[Activate Procurement](../task/t_ActivateProcurement.md)
+[Activate Procurement]()
 
-[Sourcing items in a service catalog request](../concept/c_SourcingRequestItems.md)
+[Sourcing items in a service catalog request]()
 
-[Procurement purchase order management for assets](../concept/c_UseProcurement.md)
+[Procurement purchase order management for assets]()
 
-[Receive assets](../concept/c_ReceiveAssets.md)
+[Receive assets]()
 
-[Domain separation and Procurement](../concept/domain-separation-procurement.md)
+[Domain separation and Procurement]()
 

@@ -2,18 +2,19 @@
 title: Install Workplace Reservations for Microsoft Outlook Add-in
 description: Install the Workplace Reservations for Microsoft Outlook Add-in application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery/install-workplace-reservations-for-outlook-addin.html
 release: australia
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Reservations for Microsoft Outlook Add-in
 
-Install the Workplace Reservations for Microsoft Outlook Add-in application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Workplace Reservations for Microsoft Outlook Add-in application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -61,14 +62,14 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configure Workplace Reservations for Microsoft Outlook Add-in](../concept/configure-workplace-rsv-for-outlook-addin.md)
+**Parent Topic:**[Configure Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/configure-workplace-rsv-for-outlook-addin.md)
 
 **Related topics**  
 
 
-[Create a manifest file for Microsoft Outlook Add-in](add-manifest-file-for-outlook-addin.md)
+[Create a manifest file for Microsoft Outlook Add-in]()
 
-[Upload the manifest file for a single user](upload-manifest-for-single-user.md)
+[Upload the manifest file for a single user]()
 
-[Upload the manifest file in Microsoft Office 365](upload-the-manifest-file-office365.md)
+[Upload the manifest file in Microsoft Office 365]()
 

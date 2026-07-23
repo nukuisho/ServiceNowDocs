@@ -2,11 +2,12 @@
 title: View a product adoption roadmap
 description: View and organize products or capabilities into lanes to create a visual adoption plan for customer engagements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-view-par-roadmap.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Customer success, Use, Customer Success Management]
+breadcrumb: [Product adoption, Customer success, Use, Customer Success Management]
 ---
 
 # View a product adoption roadmap
@@ -15,7 +16,7 @@ View and organize products or capabilities into lanes to create a visual adoptio
 
 The product adoption roadmap is displayed as a visual board that organizes product usages and product capability usages into lanes based on your selected phase field. Each lane contains cards representing products or capabilities, showing key adoption metrics and status information.
 
-![Product adoption roadmap](../image/product-adopt-roadmap.jpg)
+\[Omitted image "product-adopt-roadmap.jpg"\] Alt text: Product adoption roadmap
 
 ## Product adoption roadmap header
 
@@ -26,7 +27,7 @@ The header section displays the following:
 -   Phase field: The field used to organize lanes \(for example, Business criticality, Customer priority\)
 -   Planning object: Indicates whether the roadmap organizes Product Usage or Capability Usage
 -   Last updated: Date the roadmap was last modified
--   Template: Shows the template name if the roadmap was created from a template. See [Create a product adoption roadmap template](../task/account-lifecycle-create-par-roadmap-temp.md) for details.
+-   Template: Shows the template name if the roadmap was created from a template. See [Define a product adoption roadmap template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap-temp.md) for details.
 
 ## Product adoption roadmap lanes
 
@@ -50,10 +51,10 @@ The roadmap can be in one of the following states:
 -   Canceled: Roadmap is no longer active and cannot be used.
 -   Retired: Roadmap has been archived.
 
-**Parent Topic:**[Customer success](account-lifecycle-use-cust-success.md)
+**Parent Topic:**[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)
 
 **Related topics**  
 
 
-[Product adoption roadmap](account-lifecycle-par-roadmap.md)
+[Product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-roadmap.md)
 

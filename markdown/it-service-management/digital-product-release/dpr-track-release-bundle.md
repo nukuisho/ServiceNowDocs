@@ -2,6 +2,7 @@
 title: Track multiple releases from a release bundle
 description: Track the progress of releases in a release bundle concurrently to improve efficiency and streamline the release management process. You can also identify dependencies and potential conflicts in your releases and coordinate with team members working on different releases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-track-release-bundle.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -23,7 +24,7 @@ Role required: sn\_dpr\_model.release\_coordinator, sn\_dpr\_model.product\_mana
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\), and then select **Bundles**.
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\), and then select **Bundles**.
 
 3.  Select a release bundle from the list to open.
 
@@ -57,10 +58,10 @@ Role required: sn\_dpr\_model.release\_coordinator, sn\_dpr\_model.product\_mana
     To view the details of a change request, select it from the list.
 
 
-**Parent Topic:**[Managing multiple releases through release bundles](../concept/dpr-release-bundle.md)
+**Parent Topic:**[Managing multiple releases through release bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-bundle.md)
 
 **Related topics**  
 
 
-[Create a release bundle](dpr-create-release-bundle.md)
+[Create a release bundle]()
 

@@ -2,9 +2,10 @@
 title: Enable Now Assist Guardian for AI agents
 description: Identify and block offensive messages that are sent by human agents automatically by enabling Now Assist Guardian in AI agents. With this capability, you can help reduce your agentic workflow or test from being exposed to harmful content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/enable-aia-na-guardian.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
 ---
@@ -23,7 +24,7 @@ The Now Assist Guardian, which is a ServiceNow AI Platform capability in the Now
 
 For example, let's say that Now Assist Guardian detects an offensive message in the execution plan of an agentic workflow. When you try to trigger the plan or test it, Now Assist Guardian can step in to terminate the plan or test because it detected harmful content at the first step of the execution plan.
 
-![Offensive message is detected during the execution plan and the execution of the agentic workflow is terminated.](../image/aia-offnsv-msg-dtctn-exction-trmntn.png)
+\[Omitted image "aia-offnsv-msg-dtctn-exction-trmntn.png"\] Alt text: Offensive message is detected during the execution plan and the execution of the agentic workflow is terminated.
 
 For more information about the different guardrails, see Now Assist Guardian.
 
@@ -35,15 +36,15 @@ For more information about the different guardrails, see Now Assist Guardian.
 
         You’re directed to the Offensiveness page.
 
-        ![User being directed to the Offensiveness page when selecting the Settings in AI Agent Studio.](../image/aia-offensiveness-page-new.png)
+        \[Omitted image "aia-offensiveness-page-new.png"\] Alt text: User being directed to the Offensiveness page when selecting the Settings in AI Agent Studio.
 
     2.  Turn on the Offensiveness setting for AI agents by using the toggle button.
 
-        ![User turning on the Offensiveness setting for AI agents.](../image/aia-offensiveness-detection-enabled.png)
+        \[Omitted image "aia-offensiveness-detection-enabled.png"\] Alt text: User turning on the Offensiveness setting for AI agents.
 
-    3.  Configure the detection impact by selecting the options icon \(![More options icon.](../image/options-icon.png)\) to enable the detection impact to use the following options:
+    3.  Configure the detection impact by selecting the options icon \(\[Omitted image "options-icon.png"\] Alt text: More options icon.\) to enable the detection impact to use the following options:
 
-        ![Options to enable detection impact.](../image/aia-offensiveness-options.png)
+        \[Omitted image "aia-offensiveness-options.png"\] Alt text: Options to enable detection impact.
 
         -   **Edit**: Choose the detection impact between logging or both blocking and logging.
 
@@ -62,7 +63,7 @@ For more information about the different guardrails, see Now Assist Guardian.
 
         You’re directed to the Now Assist Admin page to configure the Prompt Injection.
 
-        ![Prompt Injection page in AI Agent Studio.](../image/aia-prompt-injection-new.png)
+        \[Omitted image "aia-prompt-injection-new.png"\] Alt text: Prompt Injection page in AI Agent Studio.
 
         **Note:** For more information about configuring the Prompt Injection, see .
 

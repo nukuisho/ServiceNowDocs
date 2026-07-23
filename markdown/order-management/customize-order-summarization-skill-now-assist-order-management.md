@@ -2,12 +2,13 @@
 title: Customize an order summarization skill in Now Assist for Order Management
 description: Configure the Now Assist for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/customize-order-summarization-skill-now-assist-order-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Now Assist for Order Management]
+breadcrumb: [Configure, Now Assist for Order Management, Sales Customer Relationship Management]
 ---
 
 # Customize an order summarization skill in Now Assist for Order Management
@@ -30,7 +31,7 @@ Role required: admin
 
         **Note:** Only one version of a skill can be active at a time for each skill. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
 
-    2.  Select the More actions icon ![](../../tmt-order-mgt/image/more-options.png) for the skill, and create a copy that you can customize by selecting **Make a copy**.
+    2.  Select the More actions icon \[Omitted image "more-options.png"\] Alt text: for the skill, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the All section.
 
@@ -109,7 +110,7 @@ Description of the base input field value.
 
     Review and test the default prompt provided. The prompt is fixed and can’t be customized directly within this step or from the Now Assist Admin screen.
 
-    To customize or create prompts, select **Edit prompt in Now Assist Skill Kit**. You are redirected to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more information, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+    To customize or create prompts, select **Edit prompt in Now Assist Skill Kit**. You are redirected to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more information, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
 
     1.  For each input template \(Product Order Capture or Service Order Capture\), select a record in the Test output section and test the prompt response output format by selecting **Run Test**.
 
@@ -151,5 +152,5 @@ Description of the base input field value.
     Select **Summarize** in an order to generate the order summary.
 
 
-**Parent Topic:**[Configuring Now Assist for Order Management](../concept/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-for-order-management-configuring.md)
 

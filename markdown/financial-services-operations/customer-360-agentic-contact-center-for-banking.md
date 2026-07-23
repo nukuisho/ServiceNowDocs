@@ -2,10 +2,12 @@
 title: Customer 360 page for Agentic Contact Center for Banking
 description: The Customer 360 page provides customer service representatives \(CSRs\) with an AI-enhanced, comprehensive view of a customer's profile, financial standing, account details, transaction history, and service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/customer-360-agentic-contact-center-for-banking.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
+keywords: [customer 360, customer profile, financial overview, account details, transaction history, service cases, ai-generated customer summary, total deposit, total available credit, total money owed, view customer accounts, view customer cases, customer 360 page, b2c customer, b2b account]
 breadcrumb: [Explore, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -19,7 +21,7 @@ The page opens in a separate tab. It supports both retail \(B2C\) consumer profi
 
 **Note:** When viewing the page for an account's primary contact, a variant of the page displays the details of the associated account. No AI elements are displayed on this page.
 
-![Customer 360 view showing account details, interaction history, and financial overview with donut charts.](../images/agentic-contact-center-banking-c360.png)
+\[Omitted image "agentic-contact-center-banking-c360.png"\] Alt text: Customer 360 view showing account details, interaction history, and financial overview with donut charts.
 
 ## Customer summary
 
@@ -141,17 +143,17 @@ The following table shows the available actions in the Customer 360 page.
 
 |Name|Description|
 |----|-----------|
-|Ask Now Assist|Opens the Now Assist panel and initiates the Banking CSR customer insights AI agent. This agent uses the customer's profile and financial data to surface insights. See [Agentic Contact Center for Banking AI agents overview](../../fso-now-assist/concept/agentic-contact-center-for-banking-agents-overview.md) for more information.|
+|Ask Now Assist|Opens the Now Assist panel and initiates the Banking CSR customer insights AI agent. This agent uses the customer's profile and financial data to surface insights. See [Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/agentic-contact-center-for-banking-agents-overview.md) for more information.|
 |Create case|Opens the **Create new case** window to create a case for the customer.|
 
-**Parent Topic:**[Financial Services](../../fso-common/concept/fso-overview.md)
+**Parent Topic:**[Exploring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[Exploring Agentic Contact Center for Banking](exploring-agentic-contact-center-for-banking.md)
+[Exploring Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-agentic-contact-center-for-banking.md)
 
-[Interaction page for Agentic Contact Center for Banking](interaction-workspace-for-agentic-contact-center-for-banking.md)
+[Interaction page for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/interaction-workspace-for-agentic-contact-center-for-banking.md)
 
 [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md)
 

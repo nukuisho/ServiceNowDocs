@@ -2,11 +2,12 @@
 title: Export the configuration BOM to a CSV file
 description: Export the configuration bill of materials \(BOM\) to a customizable CSV file before the quote is finalized.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/export-the-configuration-bom-as-a-csv-file.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ProductList.Type options: Accessory and Component, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ProductList.Type options: Accessory and Component, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Export the configuration BOM to a CSV file
@@ -19,13 +20,13 @@ Role required: Admin
 
 ## Enhanced shopping cart with CSV export
 
-CPQ lets you export the configuration bill of materials \(BOM\) before the quote is finalized by exporting the BOM to a CSV file. The BOM UI has been enhanced to enable on-screen manipulation of fields, such as resizing of columns, pinning of fields, and hiding of fields.
+ServiceNow CPQ lets you export the configuration bill of materials \(BOM\) before the quote is finalized by exporting the BOM to a CSV file. The BOM UI has been enhanced to enable on-screen manipulation of fields, such as resizing of columns, pinning of fields, and hiding of fields.
 
 ## Procedure
 
 1.  In your blueprint, navigate to Layouts.
 
-2.  In your layout, scroll to Product List and select Product List Settings.![Product List](../images/cpq-product-list.png)
+2.  In your layout, scroll to Product List and select Product List Settings.\[Omitted image "cpq-product-list.png"\] Alt text: Product List
 
 3.  In Settings, scroll to Raw Value and insert the following code block:
 
@@ -52,7 +53,7 @@ CPQ lets you export the configuration bill of materials \(BOM\) before the quote
 
     In the UI, you see two new icons on the far right of the product list:
 
-    ![Product List](../images/cpq-product-list-new-items.png)
+    \[Omitted image "cpq-product-list-new-items.png"\] Alt text: Product List
 
     The icon to the left of **Export** lets you manipulate the columns via the UI, such as hiding and pinning certain columns. You can also manually resize columns as you would in a spreadsheet.
 

@@ -2,6 +2,7 @@
 title: Rekey a MID Server
 description: Rekey a MID Server to generate a new private key. Private keys are used to decrypt automation credentials, so that MID Servers can transmit information securely. Key pairs are initially generated when a MID Server is validated, and MID Servers should be rekeyed periodically to meet security requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_RekeyAMIDServer.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -39,38 +40,38 @@ Automation credentials are secured by encrypting them in the instance with the M
 3.  Under **Related Links**, click **Rekey**.
 
 
-**Parent Topic:**[Securing and encrypting MID Server data](../concept/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[MID Server certificate check policies](../concept/mid-security-checks.md)
+[MID Server certificate check policies]()
 
-[Encrypt or decrypt MID Server configuration file values](mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server authentication credentials and SOAP requests](../concept/mid-authentication-soap-requests.md#)
+[MID Server authentication credentials and SOAP requests]()
 
-[MID Server unified key store](../concept/mid-unified-keystore.md#)
+[MID Server unified key store]()
 
-[Enable MID Server mutual authentication](install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication]()
 
-[MID Server Azure Key Vault integration](mid-azure-key-vault-integration.md#)
+[MID Server Azure Key Vault integration]()
 
-[MID Server command audit log](../concept/mid-audit-log.md)
+[MID Server command audit log]()
 
-[Add SSL certificates for the MID Server](add-ssl-certificates.md#)
+[Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server](mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
+[MID Server SSH cryptographic algorithms]()
 
-[Attach a script file to a file synchronized MID Server](mid-server-script-attach.md#)
+[Attach a script file to a file synchronized MID Server]()
 
-[MID Server FIPS Enforced Mode](../concept/mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 
-[MID Server Governance](../concept/mid-timeout.md)
+[MID Server Governance]()
 
-[Validate the MID Server](t_ValidateAMIDServer.md)
+[Validate the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md)
 

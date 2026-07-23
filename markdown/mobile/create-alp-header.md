@@ -2,6 +2,7 @@
 title: Configure a launcher screen header
 description: Create a launcher screen header to define how the title of the screen appears.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/create-alp-header.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,7 +50,7 @@ Role required: admin
 
     When you configure a header function instance, an icon appears in the header:
 
-    ![Screen capture of the mobile screen with the header function.](../image/header-function-instance.png "Header function instance icon")
+    \[Omitted image "header-function-instance.png"\] Alt text: Screen capture of the mobile screen with the header function.
 
     Tapping the icon takes a user to the destination screen that is configured with the header function.
 

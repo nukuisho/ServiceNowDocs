@@ -2,6 +2,7 @@
 title: View TPM risk details
 description: View all the Technology Portfolio Management \(TPM\) risk data for software products that are facing high and moderate technology risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-tech-risk.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,27 +28,27 @@ The TPM risk details of software products and hardware models are calculated bas
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon ![Technology portfolio icon](../../image/eaw-image/technology-portfolio-icon.png).
+2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon \[Omitted image "technology-portfolio-icon.png"\] Alt text: Technology portfolio icon.
 
 3.  Select **TPM risk**.
 
-    To update the TPM risk scores, you must run the **Populate Technology Lifecycles Risks** job. For more details, see [Schedule a job to generate TPM technology risk](eaw-schedule-job-generate-tpm-risk.md).
+    To update the TPM risk scores, you must run the **Populate Technology Lifecycles Risks** job. For more details, see [Schedule a job to generate TPM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md).
 
 
-**Parent Topic:**[Working with Technology Portfolio Management \(TPM\) in EA Workspace](../../concept/eaw-concept/eaw-work-with-tpm.md)
+**Parent Topic:**[Working with Technology Portfolio Management \(TPM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
 
 **Related topics**  
 
 
-[Update TPM data for a business application or application service](update-tpm-data.md)
+[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md)
 
-[Restart Populate TPM Discovered Technologies and Lifecycles scheduled job](eaw-restart-tpm-scheduled-job.md)
+[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 
-[Update the system property to gather software products from a CMDB table](eaw-update-system-property-gather-software-cmdb.md)
+[Update the system property to gather software products from a CMDB table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md)
 
-[View technology portfolio audit risk details](eaw-view-audit-risk-details.md)
+[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
 
-[Update verification status of TPM audit details](../eaw-update-verif-status.md)
+[Update verification status of TPM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-verif-status.md)
 
-[View TPM logs](eaw-view-tpm-logs.md)
+[View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tpm-logs.md)
 

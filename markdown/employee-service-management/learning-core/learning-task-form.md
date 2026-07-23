@@ -2,6 +2,7 @@
 title: Learning task form
 description: Assign a learning task to an employee that can be completed from the To-dos page in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-task-form.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -27,22 +28,22 @@ Assign a learning task to an employee that can be completed from the To-dos page
 |Opened by|Name of the user who has created the learning task.|
 |Short description|Additional details of the learning task.|
 
-**Parent Topic:**[Learning Core Reference](learning-core-reference.md)
+**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Learning Core](learning-core-components-installed.md)
+[Components installed with Learning Core]()
 
-[Course catalog form](course-catalog-table.md)
+[Course catalog form]()
 
-[Learning library form](learning-library-form.md)
+[Learning library form]()
 
-[Life-cycle stages of a content collection in Learning Core](lifecycle-stages-collection.md)
+[Life-cycle stages of a content collection in Learning Core]()
 
-[Learning internal content form](learning-internal-content-form.md)
+[Learning internal content form]()
 
-[Learning External Contents form](learning-external-contents-form.md)
+[Learning External Contents form]()
 
-[Collection form](collection-form-lc.md)
+[Collection form]()
 

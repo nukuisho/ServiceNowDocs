@@ -2,6 +2,7 @@
 title: Configure Workplace Indoor Mapping
 description: Configure Indoor Mapping map data and objects to work with Workplace Service Delivery with Indoor Mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsd-integration-indoor-mapping.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,17 +25,17 @@ Navigate through indoor spaces with inbuilt indoor maps Workplace Service Delive
 3.  Use Workplace Service Delivery move management to request a desk move from one location to another if a workspace is mapped to Indoor Mapping map data.
 4.  Provide interactive locations and wayfinding solutions by entering the start and destination points on indoor maps from a space in a campus, building, or floor for workplace users.
 
--   **[Install Workplace Indoor Mapping dependent plugins](../task/wsm-install-ind-mapping-plugins.md)**  
+-   **[Install Workplace Indoor Mapping dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-install-ind-mapping-plugins.md)**  
 Install the dependent plugins for Indoor Mapping.
--   **[Create a new Indoor Mapping space](../task/create-new-ind-mapping-space.md)**  
+-   **[Create a new Indoor Mapping space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-new-ind-mapping-space.md)**  
 Create a Indoor Mapping space in Workplace Indoor Mapping.
 
-**Parent Topic:**[Configuring Workplace Space Mapping](wsm-config_space_mapping.md)
+**Parent Topic:**[Configuring Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-config_space_mapping.md)
 
 **Related topics**  
 
 
-[Setting up Workplace Space Mapping](set-up-workplace-service-mapping.md)
+[Setting up Workplace Space Mapping]()
 
-[Configure Mappedin](mappedin-integration-topics.md)
+[Configure Mappedin]()
 

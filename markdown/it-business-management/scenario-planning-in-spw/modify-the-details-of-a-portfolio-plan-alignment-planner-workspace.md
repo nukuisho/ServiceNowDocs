@@ -2,6 +2,7 @@
 title: Modify a portfolio plan
 description: Update the details of a portfolio plan in Strategic Planning Workspace or delete it, to reflect the changes in your planning priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/modify-the-details-of-a-portfolio-plan-alignment-planner-workspace.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +19,7 @@ Update the details of a portfolio plan in Strategic Planning Workspace or delete
 
 ## Before you begin
 
-[Create a portfolio plan](create-portfolio-plans-in-alignment-planner-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
@@ -32,21 +33,21 @@ Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
 2.  From the list of portfolio plans, select one.
 
-3.  From the portfolio plan header, select the More actions icon \(![More actions icon in the portfolio plan header.](../images/more-actions.png)\).
+3.  From the portfolio plan header, select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon in the portfolio plan header.\).
 
-    ![Portfolio plan actions menu.](../images/pp-actions-menu.png)
+    \[Omitted image "pp-actions-menu.png"\] Alt text: Portfolio plan actions menu.
 
 4.  Update the details of the portfolio plan or delete it.
 
-<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d170218e144">
+<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d172848e144">
 
 Choice
 
-</th><th align="left" id="d170218e147">
+</th><th align="left" id="d172848e147">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d170218e153">
+</th></tr></thead><tbody><tr><td id="d172848e153">
 
 **Update portfolio plan**
 
@@ -57,7 +58,7 @@ Action
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d170218e181">
+</td></tr><tr><td id="d172848e181">
 
 **Delete portfolio plan**
 
@@ -69,14 +70,14 @@ Action
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing portfolio plans in Strategic Planning Workspace](../concept/managing-portfolio-plans-in-alignment-planner-workspace.md)
+**Parent Topic:**[Managing portfolio plans in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-portfolio-plans-in-alignment-planner-workspace.md)
 
 **Related topics**  
 
 
-[Share a portfolio plan with stakeholders](share-portfolio-plan-alignment-planner-workspace.md)
+[Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md)
 
-[Collaborate on a portfolio plan](collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md)
+[Collaborate on a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md)
 
-[Show or hide the features for a portfolio plan](show-or-hide-the-features-for-your-portfolio-plan-spw.md)
+[Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.md)
 

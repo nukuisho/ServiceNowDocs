@@ -2,6 +2,7 @@
 title: Share a Task Mining analysis
 description: Determine which process owners have access to the project's analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/share-projects.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -27,11 +28,11 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
 3.  Select **Share**.
 
-    ![Screenshot showing the Share project panel with no access granted.](../image/tm-share-1.png)
+    \[Omitted image "tm-share-1.png"\] Alt text: Screenshot showing the Share project panel with no access granted.
 
 4.  If the project has already been shared with some users, determine whether you still want to grant those users permissions for the project's analysis.
 
-    ![Screenshot showing the Share project panel with access granted and Actions menu.](../image/tm-share-2.png)
+    \[Omitted image "tm-share-2.png"\] Alt text: Screenshot showing the Share project panel with access granted and Actions menu.
 
     -   To retain a user and the user's current permissions, don’t modify the user's card.
     -   To change a user's current permissions, select the **Actions** menu on a user's card and modify the permissions.
@@ -53,5 +54,5 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 **Related topics**  
 
 
-[Task Mining analyses](../concept/task-mining-dashboard.md)
+[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
 

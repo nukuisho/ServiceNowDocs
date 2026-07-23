@@ -2,6 +2,7 @@
 title: Create product offering relationship groups
 description: Use relationship groups to organize child offer options or relationships into logical groups and set up cardinality rules at the group level in Sales Customer Relationship Management. Groups of product offerings then appear on the product configurator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-product-config-relationship-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,11 +28,11 @@ Bundled product offerings can be other bundles or individual product offerings.
 
 Assign child product offerings in a bundle to the product offering relationship group, which presents the options in logical groups on the product configurator to the agent. The following example shows how product offering groups appear in the product configurator.
 
-![The image shows the product configurator in the Sales Customer Relationship Management application that lets agents select options when building product orders.](../image/l2c-rel-groups-product-configurator.png)
+\[Omitted image "l2c-rel-groups-product-configurator.png"\] Alt text: The image shows the product configurator in the Sales Customer Relationship Management application that lets agents select options when building product orders.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering you’re working with.
 
@@ -57,11 +58,18 @@ Assign child product offerings in a bundle to the product offering relationship 
 
 ## What to do next
 
--   [Create product characteristics and characteristic options](som-product-config-add-characteristics.md)
--   [Add product visuals](som-product-config-add-visuals.md)
--   [Add product catalog categories](som-product-config-offering-categories.md)
--   [Create product offering relationships](som-product-config-offering-relationships.md)
--   [Add related contracts to product offerings](som-product-config-related-contracts.md)
--   [Add a unit of measure to a product offering](som-product-config-add-unit-of-measure.md)
--   [Create a product offering version](som-product-config-create-new-version.md)
+-   [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md)
+-   [Add product visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-visuals.md)
+-   [Add product catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-offering-categories.md)
+-   [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-offering-relationships.md)
+-   [Add related contracts to product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-related-contracts.md)
+-   [Add a unit of measure to a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-unit-of-measure.md)
+-   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-create-new-version.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

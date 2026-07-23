@@ -2,6 +2,7 @@
 title: IBM WebSEAL discovery
 description: The Discovery application uses the IBM WebSEAL patterns to find WebSEAL applications, web application servers, and junctions on your infrastructure. Discovering some of these resources requires installing the Discovery and Service Mapping Patterns application from the Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/ibm\_webseal\_discovery\_patterns.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,19 +19,19 @@ The ® Discovery application uses the IBM WebSEAL patterns to find WebSEAL appli
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   **Detailed information on IBM WebSEAL**
 
-    For information, see [Detailed information on products discovered by ITOM Visibility](r_SupportedApplications.md)
+    For information, see [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md)
 
 -   **Authentication**
 
-    The WebSEAL authentication process includes HTTP header authentication with basic credentials [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+    The WebSEAL authentication process includes HTTP header authentication with basic credentials [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
-    If you’re running discovery for the first time, configure Credential affinity for Discovery and Orchestration [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CredentialAffinity.md).
+    If you’re running discovery for the first time, configure Credential affinity for Discovery and Orchestration [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_CredentialAffinity.md).
 
     **Note:** Credential affinity isn’t available In debug mode.
 
@@ -57,7 +58,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **HTTP Classification enabled**
 
-    The IBM WebSEAL Pattern is triggered when you run the discovery on the server that the WebSEAL is on. Ensure that the HTTP Classification is present in the instance. For more information, see [Create an HTTP classification](../../discovery/task/create-an-http-classifier.md) and [Run discovery through an HTTP or HTTPS REST call](../../discovery/task/run-http-discovery.md)
+    The IBM WebSEAL Pattern is triggered when you run the discovery on the server that the WebSEAL is on. Ensure that the HTTP Classification is present in the instance. For more information, see [Create an HTTP classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-an-http-classifier.md) and [Run discovery through an HTTP or HTTPS REST call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/run-http-discovery.md)
 
 
 ## Data collected during horizontal discovery
@@ -430,5 +431,5 @@ Webseal \[cmdb\_ci\_app\_server\_webseal\]
 </td></tr></tbody>
 </table>**Note:** Currently, the relation between the back-end servers and actual server CIs in the CMDB isn’t possible for HD.
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

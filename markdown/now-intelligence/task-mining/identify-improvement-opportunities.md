@@ -1,27 +1,32 @@
 ---
 title: Identify task improvement actions
-description: Initiate an automation request from a Task Mining task timeline analysis or share the details of the analysis.
+description: Initiate an automation request from a Task Mining task timeline analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/identify-improvement-opportunities.html
 release: australia
 product: Task Mining
 classification: task-mining
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Use, Task Mining, Platform Analytics]
 ---
 
 # Identify task improvement actions
 
-Initiate an automation request from a Task Mining task timeline analysis or share the details of the analysis.
+Initiate an automation request from a Task Mining task timeline analysis.
 
 ## Before you begin
 
-The project requires a task timeline analysis to take task improvement actions. A task timeline analysis contains tasks with sequential task time steps of user interactions. Use these task steps as the basis of your improvement opportunities. For more information, see [Task Mining analyses](../concept/task-mining-dashboard.md).
+The project requires a task timeline analysis to take task improvement actions. A task timeline analysis contains tasks with sequential task time steps of user interactions. Use these task steps as the basis of your improvement opportunities. For more information, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md).
 
-Automation Center must be installed to initiate an automation request. To use the Now Assist feature in the integration, you must install Now Assist for Platform and activate the User Task Step Summarization skill. For more information, see [Integration with Automation Center](../concept/integration-with-automation-center.md).
+Automation Center must be installed to initiate an automation request. To use the Now Assist feature in the integration, you must install Now Assist for Platform and activate the User Task Step Summarization skill. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md).
 
 Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admin
+
+## About this task
+
+Create automation requests for your tasks directly from Task Mining. Capture both steps and desktop actions automation properties in a single recording session, instead of recording the same process twice. When a Task Mining analyst submits an automation request, the recording is delivered to the automation team with all UI properties needed to build desktop actions.
 
 ## Procedure
 
@@ -31,55 +36,55 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
 3.  Select the task that you want to act on.
 
-    ![Screenshot showing the task steps view.](../image/tm-io-1.png)
+4.  Select the Image icon \[Omitted image "tm-io-image-icon.png"\] next to the step to preview any collected image.
 
-4.  Create a copy to make any edits and to take task improvement actions.
+5.  Create a copy to make any edits and to take task improvement actions.
 
     1.  Select **Edit** to create a copy that you use for automation without affecting the original.
+
+        \[Omitted image "tm-io-2.png"\] Alt text: Screenshot showing the edit task steps dialog.
 
     2.  Enter a descriptive name in the **Task name** field.
 
     3.  Select **Duplicate to edit**.
 
-        ![Screenshot showing the edit task steps dialog.](../image/tm-io-2.png)
-
     The new task is created with the task name appended with Editable.
 
-5.  Edit any of these steps if you want to change task details.
+6.  Edit any of these steps if you want to change task details.
 
-    1.  Select the Duplicate step icon ![](../image/task-mining-duplicate-step.png) in the left column to make a copy of the step.
+    1.  Select the Duplicate step icon \[Omitted image "task-mining-duplicate-step.png"\] next to the step to make a copy of the step.
 
         The new task step is created. The **Interaction** column of the duplicated step is empty.
 
-    2.  Select the Delete step icon ![](../image/tm-delete-step-icon.png) in the left column to remove a step from the task.
+    2.  Select the Delete step icon \[Omitted image "tm-delete-step-icon.png"\] next to the step to remove a step from the task.
 
-    3.  Select the Reorder step icon ![](../image/tm-reorder-icon.png) in the left column to drag the step to a different order.
+    3.  Select the Reorder step icon \[Omitted image "tm-reorder-icon.png"\] next to the step to drag the step to a different order.
 
     4.  Double-click a task field \(or use the keyboard shortcut\) to edit details, enter the new text, and select **Apply**.
 
         You can’t edit the **Source** and **Datetime** fields.
 
-    ![Screenshot showing the editable task steps view.](../image/tm-io-3.png)
+7.  Select **Request automation**.
 
-6.  Select**Take action**.
+    \[Omitted image "tm-io-3.png"\] Alt text: Screenshot showing the editable task steps view.
 
-7.  Select the task improvement action that you want to take, and select **Continue**.
+8.  Select the task improvement action that you want to take, and select **Continue**.
 
     The available options are:
 
-    -   **Request automation**
+    -   **__Generate with AI__**
 
-        Open an Automation Center request based on the improvement opportunity. For more information, see step 8.
+        Open an Automation Center request based on the improvement opportunity. Populate the **Description** and **Detailed sequence of steps** fields with data from the tasks. For more information, see step 8.
+
+    -   **__Complete manually__**
+
+        Fill in the Automation Center request form with details of the improvement opportunity, and submit the request.
 
         **Note:** If an automation request has already been made for this task, a message with a link to the existing automation request is provided.
 
-    -   **Share link**
+    \[Omitted image "tm-io-generate-ai.png"\] Alt text: Screenshot showing the UI option to generate details with AI.
 
-        Share details of the task to initiate further action. A link is copied to the task steps. You can choose who to send the improvement initiative to.
-
-    ![Screenshot showing the Take action options.](../image/tm-io-4.png)
-
-8.  Select **Generate details** to populate the **Description** and **Detailed sequence of steps** fields with data from the tasks.
+9.  Select **Regenerate details** to populate the **Description** and **Detailed sequence of steps** fields with data from the tasks again.
 
     Review all auto-generated instructions and correct any inaccuracies. The detailed sequence of steps is the basis of the automation.
 
@@ -87,21 +92,25 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
     **Note:** The generate details option is available only if Now Assist for Platform is installed and the User Task Step Summarization skill is activated.
 
-    ![Screenshot showing the New Automation Request form.](../image/tm-automation-request.png)
+    \[Omitted image "tm-automation-request-done.png"\] Alt text: Screenshot showing the New Automation Request form.
 
-9.  Add a value in the **Frequency** field to specify in minutes how often the process should be executed.
+10. Add a value in the **Frequency** field to specify in minutes how often the process should be executed.
 
-10. Add business applications associated with the process in the **Applications used** field.
+11. Add business applications associated with the process in the **Applications used** field.
 
-11. Select **Save**.
+12. Select **Save**.
 
-    The automation request is created and associated with the task that it was based on. A link to the automation request record is available under the **Automation request** column of the projects Task timeline analysis.
+    The automation request is created and associated with the task that it was based on. A link to the automation request record is available under the **Automation request** column of the project's Task timeline analysis.
 
+
+## What to do next
+
+Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention. For more information, see [Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-agent.md).
 
 **Related topics**  
 
 
-[Integration with Automation Center](../concept/integration-with-automation-center.md)
+[Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md)
 
-[Task Mining analyses](../concept/task-mining-dashboard.md)
+[Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining-dashboard.md)
 

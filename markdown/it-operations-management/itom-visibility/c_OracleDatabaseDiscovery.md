@@ -2,11 +2,12 @@
 title: Oracle database discovery
 description: Discovery can identify an Oracle database instance that is running on UNIX or Windows operating systems. It can also find Oracle clusterware, which runs Real Application Clusters \(RAC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_OracleDatabaseDiscovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-07"
 reading_time_minutes: 11
 breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +20,7 @@ Patterns perform the discovery of Oracle installations. These patterns replace s
 
 **Note:** Oracle DB on Unix and Oracle DB on Windows do not support RAC single-node discovery.
 
-The Oracle DB on Unix and Oracle DB on Windows patterns discover Oracle catalog objects through the pattern extension Get Catalog info. For more information, see [Oracle Catalog discovery](../../service-mapping/reference/oracle-catalog-discovery.md). For general information about database catalog discovery, see [database catalogs](c_DatabaseCatalogs.md).
+The Oracle DB on Unix and Oracle DB on Windows patterns discover Oracle catalog objects through the pattern extension Get Catalog info. For more information, see [Oracle Catalog discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-catalog-discovery.md). For general information about database catalog discovery, see [database catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DatabaseCatalogs.md).
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -37,7 +38,7 @@ Additional information
 
 </th></tr></thead><tbody><tr><td>
 
-[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)
+[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md)
 
 </td><td>
 
@@ -58,15 +59,27 @@ The user needs permissions for the SQL\*Plus command line tool and permissions t
 
 </td></tr><tr><td>
 
-[Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md)
+[Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)
 
-</td><td rowspan="2">
+</td><td>
 
-You can also use Windows and SSH credentials in addition to applicative credentials. For Windows credentials, the user must have read permissions to the `tnsnames.ora` file. SSH credentials, must allow read permission to the `oratab` file and read permission to the System Parameter file.For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+You can use Oracle Wallet instead of applicative credentials \(for UNIX only\).
 
 </td></tr><tr><td>
 
-[SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
+[Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)
+
+</td><td>
+
+Required for Windows targets. The user must have read permissions to the `tnsnames.ora` file.For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+
+</td></tr><tr><td>
+
+[SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md)
+
+</td><td>
+
+Required for UNIX targets. The user must have read permission to the `oratab` file and read permission to the System Parameter file.For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -226,7 +239,7 @@ Application patterns:
 -   Oracle DB On Windows Pattern
 -   Oracle DB on UNIX Pattern
 
- This shared library pattern used by the [Linux Server](../reference/r_DataCollDiscoLinuxComputers.md) pattern:
+ This shared library pattern used by the [Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md) pattern:
 
  UNIX Cluster - ORACLE Clusterware
 
@@ -247,7 +260,7 @@ none
 </td></tr></tbody>
 </table>**\***Probes inactive for new instances.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](c-UsingPatternsForHorizontalDiscovery.md#) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected
 
@@ -366,7 +379,7 @@ tcp\_port
 Obtained from the `tnsnames.ora` file, or `lsnrctl` status command. If no valid information is retrieved, the default port 1521 is assigned.
 
 </td></tr></tbody>
-</table>**Note:** See [Oracle options](c_OracleDatabaseDiscovery.md#section_lvy_czw_xz) for pattern extensions and additional information collected.
+</table>**Note:** See [Oracle options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md) for pattern extensions and additional information collected.
 
 <table id="table_tc2_qbw_jz"><thead><tr><th>
 
@@ -455,7 +468,7 @@ edition
  
 
 </td></tr></tbody>
-</table>**Note:** See [Oracle options](c_OracleDatabaseDiscovery.md#section_lvy_czw_xz) for pattern extensions and additional information collected.
+</table>**Note:** See [Oracle options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md) for pattern extensions and additional information collected.
 
 ## Oracle options
 
@@ -818,20 +831,20 @@ Hosted on::Hosts
 Linux Server \[cmdb\_ci\_linux\_server\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Database discovery](database-discovery.md)
+</table>**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/database-discovery.md)
 
 **Related topics**  
 
 
-[Add the Horizontal Pattern probe to a classifier](c-UsingPatternsForHorizontalDiscovery.md#)
+[Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md)
 
-[Horizontal Pattern probe](../reference/r-HorizontalPatternProbe.md)
+[Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md)
 
-[Database Administrator \(DBA\) report discovery](dba-report-discovery-pattern.md)
+[Database Administrator \(DBA\) report discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/dba-report-discovery-pattern.md)
 
-[Oracle Catalog discovery](../../service-mapping/reference/oracle-catalog-discovery.md)
+[Oracle Catalog discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-catalog-discovery.md)
 
-[Oracle pluggable database and container database discovery](../../service-mapping/reference/oracle-cdb-pdb-discovery.md)
+[Oracle pluggable database and container database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-cdb-pdb-discovery.md)
 
-[Oracle Global License Advisory Services \(GLAS\) data collection using patterns](../../service-mapping/reference/oracle-glas-discovery.md)
+[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
 

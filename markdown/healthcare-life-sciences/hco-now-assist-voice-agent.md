@@ -2,6 +2,7 @@
 title: Care Team Operations Case Creation Voice AI agent
 description: Use the Care Team Operations Case Creation Voice AI agent to create support request cases through conversational voice calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-voice-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"
@@ -34,9 +35,9 @@ The following Care Team Operations plugins are supported:
 -   Care Team Operations for Healthcare IT.
 
 
-To integrate this agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
+To integrate this agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see .
 
-For more information on setting up Voice AI Agents, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
+For more information on setting up Voice AI Agents, see .
 
 ## Procedure
 
@@ -46,7 +47,7 @@ For more information on setting up Voice AI Agents, see [Deploy AI voice agents]
 
     **Note:**
 
-    These trigger phrases can be configured to your use case. For information on updating these, see [Configure Care Team Operations Case Creation Voice AI agent triggers](hco-now-assist-cto-voice-triggers.md).
+    These trigger phrases can be configured to your use case. For information on updating these, see [Configure Care Team Operations Case Creation Voice AI agent triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-cto-voice-triggers.md).
 
 3.  Enter your PIN when the agent requests it.
 

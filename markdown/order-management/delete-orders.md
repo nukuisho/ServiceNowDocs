@@ -2,6 +2,7 @@
 title: Delete orders
 description: Delete order or order line items if you no longer require them to be part of the order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/delete-orders.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All** or **Service Orders** &gt; **All** to delete a product or service order respectively.
 
@@ -29,8 +30,15 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
     **Note:** If the **PONR** option is selected, the **Cancel Order** button is turned off because it is too far along in the process to request a cancellation.
 
-5.  Select **Delete** from the More actions icon ![](../image/icon-three-dot-menu.png).
+5.  Select **Delete** from the More actions icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:.
 
 
-**Parent Topic:**[Managing inflight order changes and cancellation requests](../concept/inflight-order-change-mgt-overview.md)
+**Parent Topic:**[Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

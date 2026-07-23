@@ -2,6 +2,7 @@
 title: Discover CIs identified as generic applications
 description: Service Mapping identifies application configuration items \(CIs\) that it failed to properly discover as generic applications. Correctly identify generic applications by creating a simplified discovery pattern from an application service map, rather than creating a fully functional pattern from scratch using the Pattern Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/create-pattern-from-generic-application.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -21,7 +22,7 @@ You can edit discovered and manually created service instances.
 
 **Important:** You cannot fine-tune or edit tag-based and dynamic services from the map.
 
-Make sure that you understand what [discovery process classification](../../discovery/concept/discovery-classifiers.md) is.
+Make sure that you understand what [discovery process classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-classifiers.md) is.
 
 Request information about the CI discovered as generic application from the application service owner.
 
@@ -37,7 +38,7 @@ As part of creating a simplified pattern for complete and proper application CI 
 
     All applications and hosts in your organization must have a corresponding configuration item \(CI\) type, which is necessary for discovering and processing applications and hosts correctly. A CI type \(or class\) contains several important definitions that apply to all CIs belonging to it. Preconfigured CI types form a hierarchy where child CI types derive attributes from their parents.
 
-    Define the CI type name and label for Service Mapping to create a child CI type for the application \[cmdb\_ci\_appl\] CI type. For more information about CI types, see [Create CI types for Service Mapping and Discovery](t_CreateCITypeForSM.md).
+    Define the CI type name and label for Service Mapping to create a child CI type for the application \[cmdb\_ci\_appl\] CI type. For more information about CI types, see [Create CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md).
 
 -   **Process classification**
 
@@ -45,7 +46,7 @@ As part of creating a simplified pattern for complete and proper application CI 
 
     Prior to starting the top-down discovery of an application CI, Service Mapping checks its process classification in the CMDB. It then runs only those patterns that are relevant for this application CI.
 
-    Create process classification by defining the classification criteria based on preconfigured process attributes. The new process classification is added to the Process Classification \[discovery\_classy\_proc\] table. To learn about process classification, refer to [Discovery classifiers](../../discovery/concept/discovery-classifiers.md).
+    Create process classification by defining the classification criteria based on preconfigured process attributes. The new process classification is added to the Process Classification \[discovery\_classy\_proc\] table. To learn about process classification, refer to [Discovery classifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-classifiers.md).
 
 -   **Pattern**
 
@@ -56,7 +57,7 @@ As part of creating a simplified pattern for complete and proper application CI 
     Each CI type is associated with an icon. When a CI is discovered and classified as belonging to a CI type, the map displays the associated icon to visualize this CI.
 
 
-You cannot create simplified patterns from generic applications that are based on multiple processes. In this case, you have to either [create a fully functional pattern using the Pattern Designer](t_CreatePatternPatDef.md) or [create a new CI type](t_CreateCITypeForSM.md).
+You cannot create simplified patterns from generic applications that are based on multiple processes. In this case, you have to either [create a fully functional pattern using the Pattern Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md) or [create a new CI type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md).
 
 ## Procedure
 
@@ -70,7 +71,7 @@ You cannot create simplified patterns from generic applications that are based o
 
 2.  Click **Edit** to be in Edit mode.
 
-    ![When you click Edit, the Discovery Messages section appears.](../image/MapEditDiscoveryMessages.png)
+    \[Omitted image "MapEditDiscoveryMessages.png"\] Alt text: When you click Edit, the Discovery Messages section appears.
 
 3.  On the map, right-click the relevant generic application CI.
 
@@ -78,7 +79,7 @@ You cannot create simplified patterns from generic applications that are based o
 
     In the base system, the map displays generic application CIs with the gear icon.
 
-    ![Generic applications displayed on the map](../image/MapGenericApp.png)
+    \[Omitted image "MapGenericApp.png"\] Alt text: Generic applications displayed on the map
 
 4.  Select **Create pattern for this generic application**.
 
@@ -139,7 +140,7 @@ Select the name of the existing icon to represent this application on maps.
 
         **Note:** If the value in the first condition is not unique like Java.exe, use additional conditions to narrow down the results.
 
-        ![Define classification criteria using the condition builder.](../image/GAprocessClassificationCondition.png)
+        \[Omitted image "GAprocessClassificationCondition.png"\] Alt text: Define classification criteria using the condition builder.
 
         For example, to discover a Citrix Licensing server, use the following classification criteria: the process name `Imadmin.exe` with the command `C:\Program Files (x86)\Citrix\Licensing\LS\lmadmin.exe`.
 
@@ -151,23 +152,23 @@ Select the name of the existing icon to represent this application on maps.
 
 8.  Verify that Service Mapping discovered the CI as you expected.
 
-    ![Correctly discovered application.](../image/MapGenericAppEgResult.png)
+    \[Omitted image "MapGenericAppEgResult.png"\] Alt text: Correctly discovered application.
 
     Notice that Service Mapping uses the name of the process for the CI label on the map.
 
 
 ## What to do next
 
-If Service Mapping still has not discovered the CI as you expected, [fine-tune the match and classification criteria for the process classifier](../../discovery/task/t_CreateAProcessClassification.md) and [configure advanced classification parameters](../../discovery/reference/classification-parameters.md).
+If Service Mapping still has not discovered the CI as you expected, [fine-tune the match and classification criteria for the process classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateAProcessClassification.md) and [configure advanced classification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/classification-parameters.md).
 
 If you are familiar with modifying patterns in the Pattern Designer, you can also enrich the simplified pattern by defining operations that discover more attributes for the CI.
 
-You may configure Discovery to use a different identifier. For more information, see [Discovery identifiers](../../discovery/concept/c_DiscoveryIdentifiers.md).
+You may configure Discovery to use a different identifier. For more information, see [Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md).
 
-**Parent Topic:**[Fine-tune application services to implement owner requests](review-implement-business-service-maps.md)
+**Parent Topic:**[Fine-tune application services to implement owner requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/review-implement-business-service-maps.md)
 
 **Related topics**  
 
 
-[Pattern-based discovery in Service Mapping](../concept/pattern-based-discovery.md)
+[Pattern-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/pattern-based-discovery.md)
 

@@ -2,6 +2,7 @@
 title: Portfolio SAFe
 description: With Portfolio SAFe, you can align your organizational goals and strategies with your portfolios, and apply lean and agile principles to seamlessly manage and deliver your portfolio work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/portfolio-overview.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -64,27 +65,27 @@ As a team member, you can plan and monitor activities within the team by accessi
 -   track all stories and view their transition from one state \(lane\) to another, in a visual task board.
 
 </td></tr></tbody>
-</table>-   **[Components installed with Portfolio SAFe](../reference/installed-with-portfolioSAFe.md)**  
+</table>-   **[Components installed with Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/installed-with-portfolioSAFe.md)**  
 Several types of components are installed with activation of the Agile - Scaled Agile Framework - Portfolio SAFe plugin \(com.snc.sdlc.portfolio\_safe\), including tables and user roles.
--   **[Define a portfolio](../task/create-SAFeportfolio.md)**  
+-   **[Define a portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeportfolio.md)**  
 From SAFe, define a portfolio which is a group of ARTs working towards a single solution.
--   **[SAFe Board—Portfolio level](portfolio-tabs.md)**  
+-   **[SAFe Board—Portfolio level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/portfolio-tabs.md)**  
 As a portfolio manager, you can plan and monitor activities within your portfolio by accessing the Portfolio level on the SAFe Board.
 
-**Parent Topic:**[Scaled Agile Framework \(SAFe\)](SAFeoverview.md)
+**Parent Topic:**[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/SAFeoverview.md)
 
 **Related topics**  
 
 
-[Domain separation and Scaled Agile Framework \(SAFe\)](domain-separation-scaled-agile-framework.md)
+[Domain separation and Scaled Agile Framework \(SAFe\)]()
 
-[Business stakeholder role for Essential SAFe and Portfolio SAFe](../reference/business-stakeholder-role-for-essential-safe-and-portfolio-safe.md)
+[Business stakeholder role for Essential SAFe and Portfolio SAFe]()
 
-[Essential SAFe](essential-overview.md)
+[Essential SAFe]()
 
-[SAFe — Unified Backlog](../../safe-unified-backlog/concept/safeunified-backlog.md)
+[SAFe — Unified Backlog]()
 
-[Performance Analytics Content Pack for Essential SAFe](../../../use/dashboards/application-content-packs/pa-content-pack-essential-safe.md)
+[Performance Analytics Content Pack for Essential SAFe]()
 
-[Work Progress Status for SAFe](../../work-progress-status-safe/concept/work-progress-status-safe-overview.md)
+[Work Progress Status for SAFe]()
 

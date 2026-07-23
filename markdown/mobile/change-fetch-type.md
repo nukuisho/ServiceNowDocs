@@ -2,6 +2,7 @@
 title: Change the fetch type for a screen
 description: Change the fetch type of a screen to change when the app loads its data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/change-fetch-type.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,10 +32,10 @@ Screen fetch types typically do not need to be changed. Be sure to test fetch ty
 
     If you are in the global scope, the record appear read-only. In this case, you can temporarily switch to the appropriate scope by clicking on the banner notification that appears at the top of the record.
 
-    ![Scope notification message.](../image/change-scope-warning.png)
+    \[Omitted image "change-scope-warning.png"\] Alt text: Scope notification message.
 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Mobile fetch types](../reference/applet-fetch-types.md)
+**Parent Topic:**[Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/applet-fetch-types.md)
 

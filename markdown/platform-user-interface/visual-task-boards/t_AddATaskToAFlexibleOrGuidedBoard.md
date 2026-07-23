@@ -2,6 +2,7 @@
 title: Add a task to a flexible or guided Visual Task Board
 description: Cards in a flexible or guided board represent records on whichever table the board is associated with.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_AddATaskToAFlexibleOrGuidedBoard.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -21,7 +22,7 @@ Role required: none
 
 ## Procedure
 
-1.  In a lane header, click the lane menu \(![Lane menu icon](../image/IconMoreOptions.png)\) and select **Add Card**.
+1.  In a lane header, click the lane menu \(\[Omitted image "IconMoreOptions.png"\] Alt text: Lane menu icon\) and select **Add Card**.
 
     Alternatively, click **Add Card** at the bottom of a lane.
 
@@ -34,18 +35,18 @@ Role required: none
     A new task card appears in the lane.
 
 
-**Parent Topic:**[Creating Visual Task Boards](../concept/c_VisualTaskBoardUse.md)
+**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
 
 **Related topics**  
 
 
-[Freeform Visual Task Boards](../concept/c_FreeformBoardTasks.md)
+[Freeform Visual Task Boards]()
 
-[Data driven Visual Task Boards](../concept/data-driven-tasks.md)
+[Data driven Visual Task Boards]()
 
-[Add or modify Visual Task Board lanes](t_AddOrModifyALane.md)
+[Add or modify Visual Task Board lanes]()
 
-[Add or remove a Visual Task Board member](t_AddOrRemoveATaskBoardMember.md)
+[Add or remove a Visual Task Board member]()
 
-[Delete a Visual Task Board](t_DeleteATaskBoard.md)
+[Delete a Visual Task Board]()
 

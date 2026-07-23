@@ -2,6 +2,7 @@
 title: Assign subflow outputs flow logic
 description: Specify the data the subflow returns when it completes running. Use subflow output as data for a parent flow or as input for another process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-assign-subflow-outputs.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows
 
 Specify the data the subflow returns when it completes running. Use subflow output as data for a parent flow or as input for another process.
 
-**Important:** This flow logic sets values for flow outputs that have already been created. For instructions on creating flow outputs, see [Building subflows](subflows.md).
+**Important:** This flow logic sets values for flow outputs that have already been created. For instructions on creating flow outputs, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
 ## Inputs
 
@@ -52,7 +53,7 @@ This flow logic produces no outputs of its own, but it does set values in the **
 
 In this example, the flow uses the Sys ID of a dashboard to look up a record, delete the record, and then return the action status code of the delete operation. The subflow assigns the output value of the Output code flow variable.
 
-![Assign Subflow Outputs example](../images/flow-logic-assign-subflow-outputs-example.png "Assign Subflow Outputs flow logic inputs")
+\[Omitted image "flow-logic-assign-subflow-outputs-example.png"\] Alt text: Assign Subflow Outputs example
 
 ## Design considerations
 
@@ -63,40 +64,40 @@ Follow these design considerations when assign output values from a subflow.
     Subflow outputs are intended to be static values generated at the completion of the subflow. Loops do not have access to subflow output values while the subflow is running. Assigning subflow output values within a loop can produce unexpected results such as the loop only receiving the last value set. If you need to generate dynamic values that change within a For each or Do until loop, use flow variables instead.
 
 
-**Parent Topic:**[Workflow Studio flow logic](flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 
 
-[Append to Flow Variables flow logic](../reference/append-to-flow-variables-flow-logic.md)
+[Append to Flow Variables flow logic]()
 
-[Call a workflow flow logic](flow-logic-call-workflow.md)
+[Call a workflow flow logic]()
 
-[Do the following until flow logic](flow-logic-do-until.md)
+[Do the following until flow logic]()
 
-[Do the following in parallel flow logic](flow-logic-do-following-in-parallel.md)
+[Do the following in parallel flow logic]()
 
-[Dynamic flows flow logic](flow-logic-dynamic-flow.md)
+[Dynamic flows flow logic]()
 
-[End Flow flow logic](flow-logic-end-action.md)
+[End Flow flow logic]()
 
-[Exit Loop flow logic](../reference/exit-loop-flow-logic.md)
+[Exit Loop flow logic]()
 
-[For Each flow logic](flow-logic-for-each.md)
+[For Each flow logic]()
 
-[Get Flow Outputs flow logic](../reference/get-flow-outputs-flow-logic.md)
+[Get Flow Outputs flow logic]()
 
-[Go back to flow logic](../reference/go-back-to-flow-logic.md)
+[Go back to flow logic]()
 
-[If flow logic](flow-logic-if.md)
+[If flow logic]()
 
-[Make a decision flow logic](flow-logic-make-decision.md)
+[Make a decision flow logic]()
 
-[Set Flow Variables flow logic](flow-logic-set-flow-variables.md)
+[Set Flow Variables flow logic]()
 
-[Skip Iteration flow logic](../reference/skip-iteration-flow-logic.md)
+[Skip Iteration flow logic]()
 
-[Try flow logic](flow-logic-try.md)
+[Try flow logic]()
 
-[Wait for a duration flow logic](flow-logic-wait-for-a-duration.md)
+[Wait for a duration flow logic]()
 

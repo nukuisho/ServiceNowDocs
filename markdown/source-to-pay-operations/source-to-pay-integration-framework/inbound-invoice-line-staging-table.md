@@ -2,6 +2,7 @@
 title: Invoice line import inbound staging table
 description: The Invoice line import inbound \[sn\_spend\_intg\_imp\_invoice\_line\] staging table temporarily stores important data about imported invoice line before this data is sent to the \[sn\_shop\_invoice\_line\] primary table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/inbound-invoice-line-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -368,22 +369,22 @@ String
 The unit or rate in which this product is sold by the supplier.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](../../accounts-payable-operations/concept/inbound-staging-tables-for-apo.md)
+</table>**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/inbound-staging-tables-for-apo.md)
 
 **Related topics**  
 
 
-[Invoice import inbound staging table](inbound-invoice-import-staging-table.md)
+[Invoice import inbound staging table]()
 
-[Import error staging table](../../accounts-payable-operations/reference/import-error-staging-table.md)
+[Import error staging table]()
 
-[Invoice payment detail import inbound table](../../accounts-payable-operations/reference/invoice-payment-detail-staging-table.md)
+[Invoice payment detail import inbound table]()
 
-[Organization tax details inbound staging table](slo-org-tax-details-inbound-table.md)
+[Organization tax details inbound staging table]()
 
-[Invoice tax line staging table](../../source-to-pay-operations/reference/inbound-invoice-tax-line-staging-table-apo.md)
+[Invoice tax line staging table]()
 
-[Invoice staging table](../../accounts-payable-operations/reference/invoice-staging-table.md)
+[Invoice staging table]()
 
-[Invoice line stage table](../../accounts-payable-operations/reference/invoice-line-staging-table.md)
+[Invoice line stage table]()
 

@@ -2,13 +2,14 @@
 title: Tables installed with the SAP publisher pack
 description: Tables are installed with the Software Asset Management Professional for SAP plugin. The tables store data pulled from the SAP systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/component-installed-sap-plugin.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Tables installed with the SAP publisher pack
@@ -142,51 +143,89 @@ USMM rules information from all connected SAP applications.
 
 Data from SAP is also stored in some additional tables that aren't part of the SAP publisher pack.
 
--   Price list data is pulled and stored in the Price List table \[samp\_price\_list\].
+<table id="table_gkk_vfl_njc"><thead><tr><th>
 
-    To view the table, navigate to **SAP Compliance and Optimization** &gt; **Administration** &gt; **Price Lists**.
+Table
 
--   Named user types are pulled and stored in the Named User Type table \[samp\_named\_user\_type\].
+</th><th>
 
-    To view the table, navigate to **SAP Compliance and Optimization** &gt; **Administration** &gt; **Named User Types**.
+Navigation
 
--   The Digital Access details such as Client, User name, Document type, Document type count, and Measured by are pulled from the SAP systems and stored in the SAP Digital Access \[samp\_sap\_digital\_access\] table.
+</th></tr></thead><tbody><tr><td>
 
-    To view the data in the table, navigate to **All** &gt; **Software Asset Workspace** &gt; **License operations** &gt; **Discovery** &gt; **SAP Digital Access Data**.
+Price List\[samp\_price\_list\]
 
+</td><td>
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](sap-publisher-pack.md)
+**SAP Compliance and Optimization** &gt; **Administration** &gt; **Price Lists**
+
+</td></tr><tr><td>
+
+Named User Type\[samp\_named\_user\_type\]
+
+</td><td>
+
+**SAP Compliance and Optimization** &gt; **Administration** &gt; **Named User Types**
+
+</td></tr><tr><td>
+
+SAP Digital Access\[samp\_sap\_digital\_access\]
+
+</td><td>
+
+**Workspaces** &gt; **Software Asset Workspace** &gt; **License operations** &gt; **Discovery** &gt; **SAP Digital Access Data**
+
+</td></tr></tbody>
+</table>The Digital Access table stores the following fields: Client, User name, Document type, Document type count, and Measured by.
+
+## Mapping between SAP tables and Software Asset Management tables
+
+|SAP table|Software Asset Management table|
+|---------|-------------------------------|
+|/NOW/SAMP\_RFC|SAP Client \[samp\_sap\_client\]|
+|/NOW/M\_SAP\_ROLES|SAP Roles \[samp\_sap\_role\]|
+|/NOW/SAP\_TCODES|SAP Transactions \[samp\_sap\_transactions\]|
+|/NOW/M\_USER\_DATA|SAP System User \[samp\_sap\_system\_user\]|
+|/NOW/M\_USR\_TCODE|SAP User Active Transactions \[samp\_named\_user\_type\_has\_transactions\]|
+|/NOW/M\_USER\_ROLE|SAP User Roles \[samp\_sap\_user\_has\_role\]|
+|/NOW/M\_USR\_ACTIT|SAP User Activity \[samp\_sap\_user\_activity\]|
+|/NOW/WEB\_ACTIVTY|SAP Web Activity \[samp\_sap\_web\_activity\]|
+|/NOW/M\_ENGINES|SAP License Metric Measurement \[samp\_sap\_license\_metric\_measurement\]|
+|/NOW/USMM\_DATA|SAP USMM Rules \[samp\_sap\_usmm\_rule\]|
+|/NOW/DIGITAL\_ACC|SAP Digital Access \[samp\_sap\_digital\_access\]|
+
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
 
-[Deploy the ABAP program for SAP](../task/import-abap-program-sap.md)
+[Set up SAP integration to establish a connection with SAP]()
 
-[Establish an SAP connection using basic authentication](../task/add-sap-connection.md)
+[Establish an SAP connection using basic authentication]()
 
-[Establish an SAP connection using OAuth 2.0](../task/add-sap-connection-oauth.md)
+[Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP](../task/create-entitlement-sap.md)
+[Create entitlements for SAP]()
 
-[Create software models for SAP](../task/add-software-model-sap.md)
+[Create software models for SAP]()
 
-[Create a custom SAP named user type](../task/create-named-user.md)
+[Create a custom SAP named user type]()
 
-[Map a role to a named user type](../task/create-named-user-type-role-mapping.md)
+[Map a role to a named user type]()
 
-[Create custom SAP price lists](../task/create-sap-pricelist.md)
+[Create custom SAP price lists]()
 
-[Import custom SAP named user types](../task/import-custom-sap-named-user-type.md)
+[Import custom SAP named user types]()
 
-[Import custom SAP price lists](../task/import-custom-sap-price-list.md)
+[Import custom SAP price lists]()
 
-[SAP USMM-based optimization](usmm-optimization.md)
+[SAP USMM-based optimization]()
 
-[User transaction activity for named user types](sap-named-user-transaction-activity.md)
+[User transaction activity for named user types]()
 
-[Self-declaring SAP engine license usage](self-declaring-sap-engine-usage.md)
+[Self-declaring SAP engine license usage]()
 
-[Software Publisher Analytics dashboard for SAP in Software Asset Management classic](../reference/dashboard-sap.md)
+[Software Publisher Analytics dashboard for SAP in Software Asset Management classic]()
 
-[Publisher overview for SAP in the Software Asset Workspace](../reference/publisher-overview-sap.md)
+[Publisher overview for SAP in the Software Asset Workspace]()
 

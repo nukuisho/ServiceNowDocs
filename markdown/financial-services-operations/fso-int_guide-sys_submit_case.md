@@ -2,9 +2,10 @@
 title: External systems submitting a case request
 description: This use case illustrates how the ServiceNow Financial Services Operations \(FSO\) product can receive case requests from an external system, such as online or mobile banking application, core banking systems, or other CRM tools.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-sys\_submit\_case.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Integration use cases, Developer resources, Financial Services Operations \(FSO\)]
 ---
@@ -25,7 +26,7 @@ The following diagram shows the flow of the REST API calls for this scenario and
 
 </td><td>
 
-1.  In the bank application, define the information necessary to create the loan case record, and then call the [POST /now/table/\{table\_Name\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md) REST endpoint on your ServiceNow instance.
+1.  In the bank application, define the information necessary to create the loan case record, and then call the [POST /now/table/\{table\_Name\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md) REST endpoint on your ServiceNow instance.
 2.  The Table API attempts to write the posted information to the Loan Service Case \[sn\_bom\_loan\_service\] table.
 3.  The Table API returns the results of the POST request.
 

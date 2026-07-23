@@ -2,6 +2,7 @@
 title: Customer Central for FSO
 description: Customer Central provides agents or contributors with all the information about the customer in one central place. It enables them to focus on the customer issue and provide efficient and supportive services to their customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/customer-central-fso.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Agents or contributors can view Customer Central on the interaction, case, accou
 
 The **Customer Information** tab displays key information about the customer and a view of all recent customer touchpoints with the service organization. It contains various predefined lists, records, reports, and report groups that are highly configurable, or you can create your own. You can also configure the number of days to display the data.
 
-![The Customer Information tab displays key information about the customer and a view of all recent customer touchpoints with the service organization.](../image/customer-information-fso.png "Customer Information tab")
+\[Omitted image "customer-information-fso.png"\] Alt text: The Customer Information tab displays key information about the customer and a view of all recent customer touchpoints with the service organization.
 
 ## Configure Customer Central
 

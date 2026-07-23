@@ -2,18 +2,19 @@
 title: User Access Control reference
 description: Control Admin access levels using CSV imports. Assign NONE, READ, EDIT, or ADMIN permissions to specific areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-user-access-control-ref.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ admin settings, CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ admin settings, ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
 # User Access Control reference
 
 Control Admin access levels using CSV imports. Assign NONE, READ, EDIT, or ADMIN permissions to specific areas.
 
-**Note:** The User Access utility is enabled via a support request.
+**Note:** The User Access utility is enabled via a support request. Open a ticket by using the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 ## Access levels
 
@@ -74,7 +75,7 @@ Control Admin access levels using CSV imports. Assign NONE, READ, EDIT, or ADMIN
 **Related topics**  
 
 
-[Using CPQ user access management](../concept/cpq-using-uam.md)
+[Using CPQ user access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using-uam.md)
 
-[User access](../concept/please_share_your_feedback_on_admin_assist_responses.md)
+[User access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

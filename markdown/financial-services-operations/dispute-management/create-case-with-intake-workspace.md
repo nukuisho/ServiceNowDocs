@@ -2,6 +2,7 @@
 title: Initiate a dispute
 description: Create a dispute case and initiate the dispute for a transaction associated with an account. You can enter dispute information, fill out the dispute questionnaire, upload supporting documentation, and submit the case for investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/create-case-with-intake-workspace.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ Create a dispute case and initiate the dispute for a transaction associated with
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,19 +30,19 @@ You can dispute one or more transactions that are associated with an account by 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a case from the dispute service case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d34456e124">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d35098e124">
 
 Option
 
-</th><th align="left" id="d34456e127">
+</th><th align="left" id="d35098e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d34456e133">
+</th></tr></thead><tbody><tr><td id="d35098e133">
 
 **Dispute case from the dispute case list**
 
@@ -51,7 +52,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d34456e163">
+</td></tr><tr><td id="d35098e163">
 
 **Dispute case from an interaction record**
 
@@ -60,7 +61,7 @@ Steps
 1.  In the **Lists** tab, under **Interactions**, select **My Interactions**.
 2.  Open the required interaction record for the customer.
 3.  Select **Create Case**.
- For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interactions.md).
+ For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-interactions.md).
 
 </td></tr></tbody>
 </table>4.  In the **Create a new case** dialog box, select **Card disputes services** from the category list.
@@ -73,15 +74,15 @@ Steps
 
 7.  Under the **Initiate** playbook stage, fill in the required fields and any other related information.
 
-<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d34456e252">
+<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d35098e252">
 
 Activity
 
-</th><th align="left" id="d34456e255">
+</th><th align="left" id="d35098e255">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d34456e261">
+</th></tr></thead><tbody><tr><td id="d35098e261">
 
 **Select transaction**
 
@@ -100,7 +101,7 @@ Provide information on the account or consumer and the dispute, such as:
 
  **Note:** If the transaction is part of another dispute case, it is flagged with a link to the case and information on the case outcome.
 
-</td></tr><tr><td id="d34456e302">
+</td></tr><tr><td id="d35098e302">
 
 **Select dispute reason**
 
@@ -110,7 +111,7 @@ Fill out a series of questions to arrive at the category and reason code.
 
  **Note:** In case of integration with Visa and Mastercard APIs, if an error displays, refer to the **Activity stream** to see the error cause, resolve it and then select **Retrigger** to reload the activity.
 
-</td></tr><tr><td id="d34456e329">
+</td></tr><tr><td id="d35098e329">
 
 **Add more transactions**
 
@@ -137,7 +138,7 @@ The **Fill additional transaction questions** activity is displayed if you add a
 
 **Note:** In case of integration with Visa and Mastercard APIs, if an error displays, refer to the **Activity stream** to see the error cause, resolve it, then select **Continue** to proceed to the next activity.
 
-</td></tr><tr><td id="d34456e401">
+</td></tr><tr><td id="d35098e401">
 
 **Resume dispute case**
 
@@ -147,7 +148,7 @@ This activity is displayed if the case was created using Now Assist for Financia
 
 If the conversation ends before the case is submitted, an agent can resume the intake and review or select the dispute's account and transaction details in this activity.
 
-</td></tr><tr><td id="d34456e424">
+</td></tr><tr><td id="d35098e424">
 
 **Fill dispute questionnaire**
 
@@ -155,7 +156,7 @@ If the conversation ends before the case is submitted, an agent can resume the i
 
 Continue completing the dispute questionnaire in this activity.
 
-</td></tr><tr><td id="d34456e433">
+</td></tr><tr><td id="d35098e433">
 
 **Fill additional transaction questions**
 
@@ -163,7 +164,7 @@ Continue completing the dispute questionnaire in this activity.
 
 This activity displays if multiple transactions are selected.
 
-</td></tr><tr><td id="d34456e442">
+</td></tr><tr><td id="d35098e442">
 
 **Document upload**
 
@@ -171,7 +172,7 @@ This activity displays if multiple transactions are selected.
 
 Upload any supporting documentation at this step, such as order details, invoices, and conversations between parties.
 
-</td></tr><tr><td id="d34456e451">
+</td></tr><tr><td id="d35098e451">
 
 **Customer signature required**
 
@@ -191,7 +192,7 @@ Upload any supporting documentation at this step, such as order details, invoice
 
  **Note:** In order for users to view the Written Statement of Unauthorized Debit \(WSUD\) document, the Document Templates \[sn\_doc\] plugin must be activated.
 
-</td></tr><tr><td id="d34456e485">
+</td></tr><tr><td id="d35098e485">
 
 **Submit dispute**
 
@@ -222,7 +223,7 @@ The case is set to high priority in the following situations:
 **Related topics**  
 
 
-[Managing Disputes](../concept/managing-disputes.md)
+[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-disputes.md)
 
-[Written Statement for Unauthorized Debit \(WSUD\) Troubleshooting](../concept/wsud-troubleshooting-reference.md)
+[Written Statement for Unauthorized Debit \(WSUD\) Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/wsud-troubleshooting-reference.md)
 

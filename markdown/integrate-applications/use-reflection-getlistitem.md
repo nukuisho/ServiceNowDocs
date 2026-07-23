@@ -2,11 +2,12 @@
 title: Use the GetListItem component
 description: Return items from a list by using the GetListItem component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-reflection-getlistitem.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reflection, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Reflection, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the GetListItem component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetListItem component. For more information about these properties, see [Properties of the Reflection components](../reference/util-reflection-prop.md).
+You can configure the properties for the GetListItem component. For more information about these properties, see [Properties of the Reflection components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-reflection-prop.md).
 
 ## Procedure
 
@@ -29,9 +30,9 @@ You can configure the properties for the GetListItem component. For more informa
 
 3.  To set the field that accepts an item from the list, do the following steps.
 
-    1.  Click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
+    1.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
 
-    2.  Click the add index icon \(![Add index icon.](../image/add-image-icon.png)\).
+    2.  Click the add index icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add index icon.\).
 
     3.  Update the data type of the index value.
 
@@ -41,7 +42,7 @@ You can configure the properties for the GetListItem component. For more informa
 
     5.  Click **OK**.
 
-4.  To configure the input field, [Configure port properties](configure-input-port-properties.md).
+4.  To configure the input field, [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 5.  Connect the data and control ports of the GetListItem component to the corresponding ports of the other components.
 
@@ -53,5 +54,5 @@ You can configure the properties for the GetListItem component. For more informa
 6.  To test the component, right-click the component bar and then click **Run From Here**.
 
 
-**Parent Topic:**[Reflection](../concept/reflection-utility.md)
+**Parent Topic:**[Reflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/reflection-utility.md)
 

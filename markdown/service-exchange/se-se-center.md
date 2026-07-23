@@ -2,12 +2,14 @@
 title: Service Exchange Center
 description: Service Exchange center is a unified dashboard that consolidates connection health monitoring, issue resolution, and scan check management into a single interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/se-se-center.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-05-13"
+reading_time_minutes: 4
+keywords: [Service Exchange Center, connection health, health dashboard, scan checks, resolution center]
 breadcrumb: [Explore, Service Exchange]
 ---
 
@@ -37,7 +39,7 @@ The Service Exchange Center is accessible from the Administration menu under eit
 
 Service Exchange health dashboard is the part of Service Exchange Center and provides unified views of connection health. It also consolidates functionality that was previously available across multiple interfaces, including the Health Dashboard, and scan checks. Service Exchange Health includes the following tabs and elements:
 
-![View of Service Exchange Health dashboard with four callouts highlighted. For descriptions of the numbered callouts, refer to the table that follows.](../image/se-health-dashboard.png)
+\[Omitted image "se-health-dashboard.png"\] Alt text: View of Service Exchange Health dashboard with four callouts highlighted. For descriptions of the numbered callouts, refer to the table that follows.
 
 |Feature|Description|
 |-------|-----------|
@@ -62,7 +64,7 @@ Service Exchange health dashboard is the part of Service Exchange Center and pro
 
         A comprehensive table listing all detected unresolved issues generated from scan checks and the Service Exchange Error table, with columns for issue summary, associated connection, count, assigned user, and other information.
 
-        Selecting an issue summary, shows details about the issue, known errors include resolution steps and guidance. The issue dialog includes options to mute, assign, or follow the issue, and a **Validate &amp; Resolve** button to revalidate the issue status and resolve if no longer applicable. You can select the Navigate to Issue Report icon ![](../image/icon-se-center-Issue-report.svg) next to **Validate &amp; Resolve** button to get more details about the issue.
+        Selecting an issue summary, shows details about the issue, known errors include resolution steps and guidance. The issue dialog includes options to mute, assign, or follow the issue, and a **Validate &amp; Resolve** button to revalidate the issue status and resolve if no longer applicable. You can select the Navigate to Issue Report icon \[Omitted image "icon-se-center-Issue-report.svg"\] Alt text: next to **Validate &amp; Resolve** button to get more details about the issue.
 
         Post comments or work notes using the Activity tab.
 
@@ -80,7 +82,7 @@ Service Exchange health dashboard is the part of Service Exchange Center and pro
 
 -   **Scan suites**
 
-    The Scan Suites tab provides access to automated health checks that detect issues and inconsistencies. To learn more about instance scan checks, see [Instance scan checks](service-bridge-v2-scan-checks.md).
+    The Scan Suites tab provides access to automated health checks that detect issues and inconsistencies. To learn more about instance scan checks, see [Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-scan-checks.md).
 
     Scan suites are organized into two categories:
 
@@ -104,7 +106,7 @@ Service Exchange health dashboard is the part of Service Exchange Center and pro
 **Related topics**  
 
 
-[Execute a scan suite as a provider](../task/se-execute-scan-check.md#)
+[Execute a scan suite as a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-execute-scan-check.md)
 
-[Execute a scan suite as a consumer](../task/se-con-execute-scan-check.md#)
+[Execute a scan suite as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-con-execute-scan-check.md)
 

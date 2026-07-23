@@ -2,11 +2,12 @@
 title: Major Case form view
 description: Major issue management provides the Major Case form view, which includes the Major Case Information form section and the Child Cases related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/major-issue-management-form-view.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Major issue management overview, Administer, Customer Service Management]
+breadcrumb: [Reference, Customer Service Management]
 ---
 
 # Major Case form view
@@ -69,7 +70,14 @@ The **Work notes** field on the major case form is updated when a major case is 
 
 When a major issue manager rejects a candidate case, the **Major Case State** field is set to Rejected and the **Work notes** field is updated with the case state. The candidate case reverts to a regular case.
 
-## Child Cases related list
+## Related lists
 
-Major issue management adds the **Child Cases** related list to the Customer Service Case form. All child cases associated with a major case are added to this list. Child cases are created automatically from the recipients list and can also be added or removed manually.
+-   **Child cases**
+
+    All child cases associated with a major case are added to this list. Child cases are created automatically from the recipients list and can also be added or removed manually.
+
+-   **Suggested child cases**
+
+    Cases that have been identified by the AI detection workflow as potential members of the major case group are located in this list. The major issue manager can add these cases as child cases on the major case, or remove them.
+
 

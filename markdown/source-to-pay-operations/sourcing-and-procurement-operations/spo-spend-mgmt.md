@@ -2,12 +2,14 @@
 title: Spend and Savings Management
 description: Category management is a strategic procurement approach that involves managing a group of related products or services to maximize value, optimize costs, and enhance supplier relationships. Essentially, it’s the structured management of category taxonomy, ensuring that goods and services are categorized, sourced, and managed efficiently to drive better decision-making and operational efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-spend-mgmt.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-05-15"
+reading_time_minutes: 4
+keywords: [spend and savings management, category management, savings opportunity, category taxonomy, sn\_spend\_mgmt]
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -27,8 +29,11 @@ The Spend and Savings Management application offers the following key benefits:
 -   **Risk management**: Identify potential supplier risks early on by closely monitoring spend within categories and ensuring compliance with regulatory requirements.
 -   **Enhanced procurement efficiency**: Streamline the procurement process by focusing on key categories, reducing unnecessary administrative tasks.
 -   **Data-driven decision making**: Use data analytics to identify trends and make informed procurement decisions based on category performance.
+-   **AI-driven savings discovery**: Use AI agents to automatically scan contracts, spend, and supplier data on a recurring schedule to surface ranked savings opportunities for category managers to review and act on.
 
-For more information about using Spend and Savings Management, see [Using Spend and Savings Management](using-spend-mgmt.md).
+For more information about using Spend and Savings Management, see [Using Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spend-mgmt.md).
+
+For more information about how AI agents identify savings opportunities across contracts, spend, and supplier data, see [Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md).
 
 ## Required role
 
@@ -69,35 +74,37 @@ Spend to Product Category Mapping\(sn\_spend\_mgmt\_m2m\_spend\_product\)
 Stores the mapping of spend categories to product categories.
 
 </td></tr></tbody>
-</table>-   **[Components installed with Spend and Savings Management](../reference/components-spend-savings.md)**  
+</table>-   **[Components installed with Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/components-spend-savings.md)**  
 Several types of components are installed with activation of the Spend and Savings Management \(sn\_spend\_mgmt\) plugin, including user roles and tables.
--   **[Category management tab](category-mgmt-tab.md)**  
+-   **[Category management tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/category-mgmt-tab.md)**  
 The Category management tab provides an overview of spend, savings, and pipeline projects, highlights savings opportunities, and enables creating pipeline projects directly from filtered lists.
--   **[Category analytics](spo-category-analytics.md)**  
+-   **[Category analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-category-analytics.md)**  
 Within the Source-to-Pay Workspace, the Category analytics module includes the Savings dashboard that offers procurement teams a unified view of savings opportunities across the sourcing pipeline.
+-   **[Savings opportunity identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/savings-opportunity-identification.md)**  
+The Savings Opportunity Discovery agentic workflow automatically scans contracts, spend, and supplier data to surface ranked savings opportunities, helping category managers focus on review and action rather than manual discovery.
 
-**Parent Topic:**[Explore Sourcing and Procurement Operations](exploring-spo.md)
+**Parent Topic:**[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 
 
-[Shopping Hub](shopping-hub-overview.md)
+[Shopping Hub]()
 
-[My purchases on Shopping Hub](my-purchases.md)
+[Shopping Hub Mobile]()
 
-[Shopping Hub Mobile](shoppinghub-mobile.md)
+[Performance Analytics for Sourcing and Procurement Operations]()
 
-[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
+[Sourcing and Purchasing Automation]()
 
-[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+[Procurement Case Management]()
 
-[Procurement Case Management](psd-overview.md)
+[Source-to-Pay Workspace]()
 
-[Source-to-Pay Workspace](procurement-specialist-workspace.md)
+[Sourcing Pipeline Management]()
 
-[Sourcing Pipeline Management](spo-sourcing-pipeline-mgmt.md)
+[Understanding Punchout]()
 
-[Understanding Punchout](punchout-overview.md)
+[AI Search for Sourcing and Procurement Operations]()
 
-[AI Search for Sourcing and Procurement Operations](ai-search-sourcing-procurement-operations.md)
+[Universal Request in Sourcing and Procurement Operations]()
 

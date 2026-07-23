@@ -2,11 +2,12 @@
 title: Scheduled maintenance days in RPA Hub
 description: Track the scheduled maintenance \(SM\) days on the robot calendar so that the bot processes can function optimally. If an issue occurs, you can take preventive measures. For example, you can know in advance about the days when the robot or the bot process is unavailable so that you can avoid the number of skipped process jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/sm-days-rpa.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Use, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Scheduled maintenance days in RPA Hub
@@ -31,13 +32,13 @@ With the scheduled maintenance days on the robot calendar, you get the following
 
 ## Workflow
 
-In RPA Hub, a Change Request \(CR\) with details of planned start and end dates along with time is created. This CR reflects as a scheduled maintenance day on the robot calendar, only when the change request is either in Scheduled, Implement, or Review states. For more information about the CR states, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).
+In RPA Hub, a Change Request \(CR\) with details of planned start and end dates along with time is created. This CR reflects as a scheduled maintenance day on the robot calendar, only when the change request is either in Scheduled, Implement, or Review states. For more information about the CR states, see .
 
 An associated SM event card appears on the robot calendar to display the scheduled maintenance days.
 
 See the following example for a snapshot of scheduled maintenance day event cards on the robot calendar.
 
-![Snapshot of scheduled maintenance day event cards on robot calendar.](../image/sm-day-rpa.png "Scheduled maintenance day event cards on robot calendar")
+\[Omitted image "sm-day-rpa.png"\] Alt text: Snapshot of scheduled maintenance day event cards on robot calendar.
 
 RPA business users, RPA release managers, RPA support users, RPA developers, and RPA admins have visibility to the potential impacts of current or future automation executions. RPA release managers and RPA admins can take an appropriate call to action, such as, either accepting or rejecting an associated SM event card for the CI on the robot calendar.
 
@@ -45,19 +46,19 @@ If the SM event card is accepted, a Maintenance Request \(MR\) is created on the
 
 See the following example for a snapshot of an accepted SM day event card on the robot calendar.
 
-![Snapshot of an accepted scheduled maintenance day event card on the robot calendar.](../image/sm-day-after-accept.png "Snapshot of an accepted scheduled maintenance day event card on the robot calendar")
+\[Omitted image "sm-day-after-accept.png"\] Alt text: Snapshot of an accepted scheduled maintenance day event card on the robot calendar.
 
 If the associated CI is in Published state, then the associated CI moves to In Maintenance state during the planned scheduled maintenance time frame. The executions are stopped until the CR is closed. Then, the CI automatically moves to the Published state.
 
 See the following example for a snapshot of accepting the SM event card when the associated CI \(bot process\) is in Published state.
 
-![Snapshot of accepting a scheduled maintenance event card on the robot calendar when the associated CI is in Published state.](../image/sm-accept-cr-rpa.gif "Accept a scheduled maintenance event card on the robot calendar")
+\[Omitted image "sm-accept-cr-rpa.gif"\] Alt text: Snapshot of accepting a scheduled maintenance event card on the robot calendar when the associated CI is in Published state.
 
 If the SM event card is rejected, it does not reflect on the robot calendar. An MR is created with Rejected state.
 
-You can view the maintenance request for tracking the state of the scheduled maintenance. For more information, see [View maintenance requests in RPA Hub](../task/view-mr-rpa.md#) and [Maintenance request form in RPA Hub](../task/view-mr-rpa.md#).
+You can view the maintenance request for tracking the state of the scheduled maintenance. For more information, see [View maintenance requests in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-mr-rpa.md) and [Maintenance request form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-mr-rpa.md).
 
-For more information about managing scheduled maintenance days, see [Manage scheduled maintenance days in RPA Hub](../task/manage-sm-request-rpa.md).
+For more information about managing scheduled maintenance days, see [Manage scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-sm-request-rpa.md).
 
 ## Mapping between a change request and a maintenance request
 
@@ -87,7 +88,7 @@ If the CR of the respective CI isn’t in Closed state, however the CI is functi
 
 If the CR is closed, then the life cycle stage status of the respective CI is updated to Published or In Use.
 
-If the CR is canceled and the MR is in Pending state, the MR isn’t executed. If the MR is picked for execution, then cancel the MR. For more information, see [Manage scheduled maintenance days in RPA Hub](../task/manage-sm-request-rpa.md).
+If the CR is canceled and the MR is in Pending state, the MR isn’t executed. If the MR is picked for execution, then cancel the MR. For more information, see [Manage scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-sm-request-rpa.md).
 
 If the CR is canceled and the MR is in In Progress state. Then, the life cycle stage status of the CI moves to Published state and the MR is updated to complete state.
 
@@ -348,8 +349,8 @@ If the MR is in Pending state, the MR isn’t executed.If the MR is picked for e
 If the MR is in In Progress state. Then, the life cycle stage status of the CI moves to Published state and the MR is updated to complete state.
 
 </td></tr></tbody>
-</table>-   **[Manage scheduled maintenance days in RPA Hub](../task/manage-sm-request-rpa.md)**  
+</table>-   **[Manage scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-sm-request-rpa.md)**  
 Track scheduled maintenance days on the **Robot Calendar** tab to manage your current and future automations.
 
-**Parent Topic:**[Using RPA Hub](managing-rpa-hub.md)
+**Parent Topic:**[Using RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-rpa-hub.md)
 

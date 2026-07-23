@@ -2,9 +2,10 @@
 title: Add a file upload to an AI agent
 description: Upload files for analysis by an AI agent in AI Agent Studio to grant your AI agent access to specialized knowledge.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-file-retrieval.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---

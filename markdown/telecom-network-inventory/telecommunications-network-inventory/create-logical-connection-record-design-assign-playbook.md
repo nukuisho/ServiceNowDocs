@@ -2,6 +2,7 @@
 title: Create a logical connection record using the Design and Assign function
 description: Use the Design and Assign function to create a logical connection in the Telecommunications Network Inventory application. By creating a logical connection, you can fulfill the design request for a network service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-design-assign-playbook.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -31,7 +32,7 @@ After you complete each activity, the network diagram updates and displays the d
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the design and assign icon \(![Design and Assign Icon](../image/icon-design-assign.png)\).
+2.  Select the design and assign icon \(\[Omitted image "icon-design-assign.png"\] Alt text: Design and Assign Icon\).
 
     The Design and Assign home page is displayed.
 
@@ -423,10 +424,10 @@ Free-form operation note text for this network asset. For example, `Check diesel
 
 The change tasks are created and executed for each activity. The logical connection record is created with the associated Configuration items \(CI\).
 
-**Parent Topic:**[Design and Assign function](../concept/using-playbooks-design-assign-inventory-record.md)
+**Parent Topic:**[Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md)
 
 **Related topics**  
 
 
-[Logical connections](../concept/design-logical-connection-design-assign-playbook.md)
+[Logical connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.md)
 

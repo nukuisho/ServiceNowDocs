@@ -18,7 +18,7 @@ Job opportunities are displayed based on your preferences and current role, usin
 
 **Note:** Organizations can import external job data into the Hiring Core plugin to display these roles as job opportunities for alumni.
 
-![Job opportunities](../image/alumni-job-opportunities.png)
+\[Omitted image "alumni-job-opportunities.png"\] Alt text: Job opportunities
 
 <table id="table_shk_g1q_khc"><thead><tr><th>
 
@@ -63,9 +63,9 @@ Track your job application status.**Note:** Your application is processed in the
 
 </td><td>
 
-Your job preferences​ that help in generating job recommendations. For more information, see [Alumni job preferences](../task/alumni-job-preferences.md).
+Your job preferences​ that help in generating job recommendations. For more information, see [Alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/alumni-job-preferences.md).
 
-**Note:** Admin can configure this form according to the organization requirements. For more information, see [Configure alumni job preferences](../task/config-alumni-job-pref.md).
+**Note:** Admin can configure this form according to the organization requirements. For more information, see [Configure alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/config-alumni-job-pref.md).
 
 </td></tr><tr><td>
 

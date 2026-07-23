@@ -2,13 +2,14 @@
 title: Process an Asset Donation Order
 description: Process an Asset Donation Order to prepare and send assets to a charity organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/process-asset-donation-order.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Donate assets to charity organizations, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Donate assets to charity organizations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Process an Asset Donation Order
@@ -82,7 +83,7 @@ You can cancel an Asset Donation Order until it reaches the transit stage in the
         1.  In the **Pickup contact name** field, enter the name of the vendor to pick up the assets for donation.
         2.  \(Optional\) In the **Shipping carrier** field, select your shipping carrier.
         3.  \(Optional\) In the **Tracking number** field, enter the tracking number for the shipment.
-        **Note:** The Shipping carrier and Tracking number fields are used to track shipments from the Shipment list in the Asset operations view of the Hardware Asset Workspace. For details, see [View hardware asset shipment details](view-hardware-asset-shipments.md).
+        **Note:** The Shipping carrier and Tracking number fields are used to track shipments from the Shipment list in the Asset operations view of the Hardware Asset Workspace. For details, see [View hardware asset shipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-hardware-asset-shipments.md).
 
     3.  Select **Close task**.
 
@@ -100,7 +101,7 @@ You can cancel an Asset Donation Order until it reaches the transit stage in the
 
     1.  Select the Confirmation from charity organization task.
 
-    2.  In the Details related list, select the Attachment icon ![](../image/paper-clip-icon.png).
+    2.  In the Details related list, select the Attachment icon \[Omitted image "paper-clip-icon.png"\] Alt text:.
 
     3.  Select the document.
 
@@ -115,14 +116,14 @@ You can cancel an Asset Donation Order until it reaches the transit stage in the
 
 All the asset donation tasks are in the Closed Complete state and the Asset Donation Order stage changes to Completed.
 
-**Parent Topic:**[Donate assets to charity organizations](../concept/donate-asset-to-charity-organizations.md)
+**Parent Topic:**[Donate assets to charity organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.md)
 
 **Related topics**  
 
 
-[Create an Asset Donation Order](create-asset-donation-order.md)
+[Create an Asset Donation Order]()
 
-[Approve or reject an Asset Donation Order](approve-reject-asset-donation-order.md)
+[Approve or reject an Asset Donation Order]()
 
-[Add a charity organization for donating assets](add-charity-org.md)
+[Add a charity organization for donating assets]()
 

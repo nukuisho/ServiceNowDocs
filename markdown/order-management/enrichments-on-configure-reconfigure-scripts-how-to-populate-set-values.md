@@ -2,11 +2,12 @@
 title: Scripting: How to populate set values
 description: View a detailed example of how to use an On Configure/Reconfigure blueprint enrichment script to load field values into a set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Scripting: How to populate set values
@@ -21,16 +22,16 @@ This example shows making a SOQL call to Salesforce using an external connection
 
 To complete this example you need:
 
--   Enrichments enabled in your CPQ instance
--   External connections enabled in your CPQ instance
+-   Enrichments enabled in your ServiceNow CPQ instance
+-   External connections enabled in your ServiceNow CPQ instance
 -   A set created and associated with the blueprint
 -   A text field associated with the set
 
 ## External connection: SOQL call
 
-In the CPQ Admin screen, find the external connections under Utilities.
+In the ServiceNow CPQ Admin screen, find the external connections under Utilities.
 
-![Admin screen](../images/cpq-admin-external-connections.png)
+\[Omitted image "cpq-admin-external-connections.png"\] Alt text: Admin screen
 
 1.  Set the integration type to Salesforce.
 2.  Define the SOQL query to make. In this example, we are retrieving all the contacts that are associated with a particular account and storing the last name.
@@ -68,7 +69,7 @@ return cfgRequest;
 
 ## Script walkthrough
 
-![Admin screen](../images/cpq-script-populate-set-values.png)
+\[Omitted image "cpq-script-populate-set-values.png"\] Alt text: Admin screen
 
 1.  The setData array is initialized as an empty array \(line 1\).
 2.  Check whether the set already has data in it, either from the API payload or from a previous configuration \(line 3\).

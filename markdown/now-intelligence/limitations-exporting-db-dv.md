@@ -2,6 +2,7 @@
 title: Limitations for exporting dashboards and visualizations
 description: The dashboard and visualization export skill supports only some dashboards for export. Requests for export are not always recognized or understood correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/limitations-exporting-db-dv.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,14 +26,14 @@ Some prompts are not recognized at all. Avoid the following phrases:
 -   Mail to me
 -   Mail with subject and body as Visualization/Dashboard name
 
-**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](../task/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 
 
-[Supported export output types](nowass-supported-export-output.md)
+[Supported export output types]()
 
-[Export destinations](nowass-export-destinations.md)
+[Export destinations]()
 
-[Export guidelines and examples](nowass-export-guidelines-examples.md)
+[Export guidelines and examples]()
 

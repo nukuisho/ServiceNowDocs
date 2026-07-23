@@ -2,6 +2,7 @@
 title: Service Catalog home page
 description: The home page for a service catalog lists the goods and services available to order from that catalog.If your organization has multiple service catalogs, you can search for the required catalogs using the Search field. The search results list items in active categories along with their short description.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ViewNavSvrCat.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -19,13 +20,13 @@ Catalog items are grouped into categories, which can also contain one or more su
 
 To access the default service catalog home page, navigate to **Self-Service** &gt; **Service Catalog**.
 
-![Service Catalog homepage and user shopping carts](../image/ServiceCatalogHomepage.png "Service Catalog home page")
+\[Omitted image "ServiceCatalogHomepage.png"\] Alt text: Service Catalog homepage and user shopping carts
 
 Click a category name to see a list of all subcategories and items in the category.
 
-![Hardware category items](../image/ServiceCatalogCategoriesItems.png "Service Catalog Subcategories and Items")
+\[Omitted image "ServiceCatalogCategoriesItems.png"\] Alt text: Hardware category items
 
-**Parent Topic:**[Service Catalog for managers and end users](c_UsingTheServiceCatalog.md)
+**Parent Topic:**[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
 
 ## Searching a service catalog
 
@@ -35,15 +36,15 @@ If your organization has multiple service catalogs, you can search for the requi
 
 To find a specific item in a catalog, use the **Search** field. Click the down arrow to see a list of previous searches. Catalog search is available on catalog and category pages.
 
-![Screenshot for the Search field](../image/ServiceCatalogSearchDropdown.png "Service catalog search field")
+\[Omitted image "ServiceCatalogSearchDropdown.png"\] Alt text: Screenshot for the Search field
 
 Search results list items in active categories along with their short description. Use the breadcrumbs in the header bar or below the short description to quickly navigate to a different page. The **Found In** list shows the categories related to the search results in hierarchical format.
 
-![Screenshot for search results](../image/ServiceCatalogResults.png "Service catalog search results")
+\[Omitted image "ServiceCatalogResults.png"\] Alt text: Screenshot for search results
 
 You can control the number of results shown on one page with the search results selection list.
 
-![Screenshot for search results selection list](../image/SearchResultsSelectionList.png "Search results selection list")
+\[Omitted image "SearchResultsSelectionList.png"\] Alt text: Screenshot for search results selection list
 
 In the catalog listing, click a link in the breadcrumbs at the top of the screen to quickly navigate back one or more levels in the hierarchy.
 
@@ -56,5 +57,5 @@ If a search returns multiple results, obtain details about a specific catalog it
 **Related topics**  
 
 
-[Service Catalog for managers and end users](c_UsingTheServiceCatalog.md)
+[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
 

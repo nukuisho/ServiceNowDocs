@@ -2,6 +2,7 @@
 title: Activate a Now Assist for Health and Safety skill
 description: Activate a Now Assist for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -17,7 +18,7 @@ Activate a Now Assist for Health and Safety skill to enable the safety team to u
 
 ## Before you begin
 
-[Install Now Assist for Health and Safety](now-assist-hs-install.md).
+[Install Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
 
 Role required: admin
 
@@ -33,7 +34,7 @@ The Health and Safety incident summarization skill is available in the base syst
 
 **Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 
 ## Procedure
 
@@ -47,7 +48,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 5.  In the Choose Input section, review inputs for the selected skill.
 
-    For information about the inputs for the skill, see [Skill inputs for Now Assist for Health and Safety](../reference/now-assist-hs-skill-inputs.md).![Choose input data screen for skills.](../image/na-hs-skill-inputs.png)
+    For information about the inputs for the skill, see [Skill inputs for Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-skill-inputs.md).\[Omitted image "na-hs-skill-inputs.png"\] Alt text: Choose input data screen for skills.
 
 6.  Select **Save and continue** to go to the next step.
 
@@ -69,8 +70,8 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 10. In the Active skills section of the Health and Safety page, verify that the skill is active from the Status column.
 
-    ![Active skills section displaying the active status for the Health and Safety incident summarization skill.](../image/na-hs-active-skill.png "Active skills section")
+    \[Omitted image "na-hs-active-skill.png"\] Alt text: Active skills section displaying the active status for the Health and Safety incident summarization skill.
 
 
-**Parent Topic:**[Configuring Now Assist for Health and Safety](../concept/now-assist-hs-configuring.md)
+**Parent Topic:**[Configuring Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 

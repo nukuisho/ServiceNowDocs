@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 9
 ---
 
 # Public Sector Digital Services release notes
@@ -13,6 +13,14 @@ reading_time_minutes: 4
 The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.
 
 ## Public Sector Digital Services highlights for the Australia release
+
+-   Control the visibility of the grant program lifecycle stepper on the Grant Program record page by disabling or enabling it per instance.
+-   Route flagged documents back to applicants, prompting re-upload of the corrected document, maintaining a complete audit trail within the system. Flagged documents now persist in the system rather than being deleted immediately.
+-   Enter award information and allocate budget across categories using the restructured Program Budget activity. The new three-section workflow separates total program budget, budget categories, and award allocation types for a clearer, more intuitive budget configuration experience. Budget allocations and balances update in real-time as you enter percentages across categories.
+-   Enable other governments to launch citizen-facing services using the GOV.UK Developer Toolkit, a library of reusable portal widgets that follow UK GDS guidelines, enabling ServiceNow developers to build compliant service portals for UK government customers.
+
+-   Submit funding and decline recommendations, as a Grant Program Manager for any scored subset of proposals as a Funding Allocation Request, enabling incremental funding decisions without waiting for the entire portfolio to complete review. The Grant Program Director can approve or reject each request, with rejected proposals returning to the working queue for future consideration.
+-   Release result letters per proposal as each Funding Allocation Request decision is approved, rather than waiting for all decisions across the program to be finalized. This enables rolling notification of award, decline, or ineligibility outcomes in Grants Management.
 
 -   Consolidate the case narrative, evidence, entities, team assignments, investigative tasks, and related cases into a single record page with Investigative Case Management Foundation.
 -   Manage persons, property, vehicles, organizations, locations, and events, including specialized entity types like firearms with detailed identification, specifications, origin, and ballistic information, and link them to cases and to each other with Investigative Case Management Entity Management.
@@ -31,6 +39,14 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
 ## New in the Australia release
 
+-   **[Enhancements to the grants management Workspace- Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
+
+    Propose awards and declines for any scored subset of applications at any time. The Rolling grant approval feature enhances the Grants management funding workflow, by giving Grant Program Managers the flexibility to propose awards and declines for any scored subset of applications at any time, without waiting for the entire proposal portfolio to complete review. From this release, Grant Program Managers can choose to process funding decisions incrementally as proposals are scored, or continue working in the traditional full-portfolio model.
+
+    The feature introduces the Funding Allocation Request as a new record type — an approval packet that groups a subset of proposals for Grant Program Director review. The Grant Program Director can either approve the Funding Allocation Request or reject it, returning all proposals in the batch, regardless of whether they were on the funding or decline track. The proposals in the rejected batch feed back into the Grant Program Manager's working queue, re-entering the funding pool for future review and funding allocation opportunities. The Funding Allocation Requests introduce an alternative to the previous all-or-none approval model and enable continuous, long-running grant programs to operate on a single program record.
+
+    Release result letters per proposal for Rolling grant approval scenarios in Grants Management. Once a proposal’s funding or decline decision is approved through its Funding Allocation Request \(FAR\), the corresponding award, decline, or ineligibility letter can be issued to that applicant independently—without waiting for program-wide completion.
+
 -   **[Investigative Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-explore-inv-case-management.md)**
 
     Create an investigative case using Investigative Case Management. Investigative Case Management guides investigators through the process of organizing, tracking, and resolving investigations, ​developing case details,​ assigning investigators and team members​, and track evidence with logging and metadata. The following features are available as part of Investigative Case Management:
@@ -41,11 +57,19 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
 -   **Use Now Assist for Public Sector Digital Services \(PSDS\) Skills to create case narratives and screen documents**
 
-    Complete case narratives and make refinements to investigative case records using Now Assist for PSDS Gen-AI skills. Investigators can streamline case narrative refinement byedit, adjust tone, and regenerate narrative content for clarity and completeness.
+    Complete case narratives and make refinements to investigative case records using Now Assist for PSDS Gen-AI skills. Investigators can streamline case narrative refinement by editing content, adjusting tone, and regenerating the narrative for clarity and completeness.
+
+-   **Use the Case Narrative Refinement AI Agent to refine case narratives in Investigative Case Management**
+
+    Produce clear, accurate, and well-structured case narratives using the Case narrative refinement AI agent, embedded within the case record page. This AI agent analyzes existing narratives and related case data to suggest improvements in clarity, structure, tone, and completeness, and highlighting gaps and inconsistencies.
 
 -   **Document Screening AI Skill for Social Benefits Playbook**
 
     Validate large volumes of uploaded documents, verify information, flag issues, and highlight key details for case agents using the Social Benefits Playbook with the Document Screening Al Skill, part of Now Assist for Public Sector Digital Services \(PSDS\).
+
+-   **[GOV.UK Developer Toolkit GDS Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gdsp-overview.md)**
+
+    Launch citizen-facing services using the GOV.UK Developer Toolkit, a collection of pre-built, GDS-compliant portal widgets that developers and partners can use to build service portals for UK government agencies. The GOV.UK Developer Toolkit comes with standardized components \(homepage, FAQs, Registration, Profile, login, case detail, knowledge search, record producers\) that can be used to assemble portals that meet UK accessibility and design standards and are compliant with GOV.UK Design System patterns​. WCAG 2.2AA compliant, and 400% zoom/reflow support has been added.
 
 -   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/roles-installed-with-public-sector-digital-services.md)**
 
@@ -59,7 +83,7 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
     The Coral theme has been improved to enhance usability across web, mobile, and portal experiences that use Next Experience and Core UI:
 
     -   A fully overhauled color system for smoother gradients and better contrast.
-    -   Softer outlines and more rounded components for a modern, accessible look.
+    -   Softer outlines and more rounded components for a new, accessible look.
     -   A significantly improved dark mode with deeper blue tones for reduced eye strain.
     -   New AI gradient styles and subtle animations to highlight intelligent features.
     -   Smarter focus behavior that reduces visual clutter for mouse users.
@@ -67,8 +91,30 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
     UI Enhancements have been made to all Public Sector Digital Services constituent portals by replacing legacy widgets \(for example, portal banners, data lists\) with standardized, CSM Configurable Widgets and components. The update verifies backward compatibility, migration guidance, usage analytics, and provide training for admins, and also enables dynamic data rendering, and better filtering across service flows.
 
+-   **[Enhancements to Investigative Case Management Configurable Case role-based access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-icm-assign-user-roles-responsibilities.md)**
+
+    Extend write access and restrict read access to cases based on Assigned Office, Assignment Group, or both to allow automatic case access alignment with organizational units without managing the Teams tab manually.
+
+-   **[Enhancements to Document Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-ai-skill-doc-screening.md)**
+
+    Applicants can select a specific document type from a pre-configured, category-scoped list during upload, stored on the document record and displayed read-only to internal agents in both portal and Workspace views.
+
 
 ## Changed in this release
+
+-   **[Enhancements to Grants Management: Program Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
+    -   [Grants Management Program Budget activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
+
+        Use the restructured Program Budget step that is now organized into three sections: Program Budget, Budget Categories, and Award Allocation. Grant Program Managers can select from three award models—Single Award, Multiple Equal Awards, or Multiple Variable Awards—with budgets automatically derived from the Awards category. Real-time calculations update the Budget allocated and Balance left fields as you enter category percentages. This enhancement prevents completion until all of the program budget is allocated across the categories.
+
+    -   [Grants Management Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
+
+        Disable the six-step grant program lifecycle stepper at the instance level, reducing ambiguity about grant program state. By default, the stepper indicating the Preparing Program, Accepting Proposals, Evaluating, Awarding, Post-Award, and Closed states is hidden in the Grant Program record page and admins can enable it if required for deployments that follow a batch or competitive grant lifecycle. When turned off, program state is conveyed through existing status fields.
+
+-   **[Enhancements to Grants Management: Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)**
+    -   [Grants Management Screen activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-grants-management-playbook.md)
+
+        Flag and route a document back to the applicant while reviewing the proposal details in the screening step. The document persists in the Flagged section with all metadata intact. Grant program managers and Grant program directors can reverse the flag by selecting the reset status icon to move it back to Requires Verification with no data loss. Select Request Documents at the bottom of the Verify Documents screen to route flagged documents back to applicants automatically; this action creates a case task assigned to the applicant, sends a notification in the applicant portal prompting re-upload, and changes the document status to Pending Resubmission. Once the applicant uploads the corrected document, the Upload Additional Documents activity closes and you can continue verification, maintaining a complete audit trail throughout the process.
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -82,7 +128,7 @@ After the upgrade, certain public sector menus and menu items in CSM Configurabl
 
 ## Activation information
 
-Install Public Sector Digital Services by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Public Sector Digital Services by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
@@ -96,8 +142,8 @@ Install Public Sector Digital Services by requesting it from the ServiceNow Stor
 
 -   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
-    The ServiceNow®Now Assist application uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
+    The ServiceNow®Now Assist application uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 
 
-**Parent Topic:**[Features and changes by product](../new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

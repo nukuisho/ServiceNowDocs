@@ -2,6 +2,7 @@
 title: Configure user experiences
 description: Interact with ServiceNow AI Platform applications and data in the way that works best for you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_NavigationAndTheUserInterface.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,11 +19,11 @@ Click any of the tiles below to learn more about the variety of customizations, 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure UIs and Portals ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Build user interfaces and create custom user experiences with this versatile suite of tools.](../../general/concept/configure-uis-and-portals.md)
+[Configure UIs and Portals \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Build user interfaces and create custom user experiences with this versatile suite of tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-uis-and-portals.md)
 
 </td><td>
 
-[Provide user assistance ![](../../../reuse/icons/brand-icons/bus-documentation.svg) Give users assistance on the ServiceNow AI Platform with knowledge articles, step-by-step tutorials, and more.](../../../build/adoption-services/concept/adoption-services.md)
+[Provide user assistance \[Omitted image "bus-documentation.svg"\] Alt text: Give users assistance on the ServiceNow AI Platform with knowledge articles, step-by-step tutorials, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md)
 
 </td></tr></tbody>
 </table>## Configure UIs and portals
@@ -37,39 +38,39 @@ Inform, educate, and assist your users with a full set of guidance and knowledge
 
 Access workspaces, Core UI, applications, history, and favorites through the single pane Next Experience UI.
 
-For highlights, see the [Next Experience UI landing page](../../../get-started/servicenow-overview/concept/next-experience-landing-page.md).
+For highlights, see the [Next Experience UI landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
 
 ## Provide just the data that you need
 
-![Image showing a Next Experience landing page.](../image/pol-admin-landing-page.png)
+\[Omitted image "pol-admin-landing-page.png"\] Alt text: Image showing a Next Experience landing page.
 
 Access the data that you need and get to work immediately. Next Experience landing pages are personalized according to user and role.
 
 ## Access your instance in single pane
 
-![Image showing the Next Experience Unified Navigation.](../../../get-started/servicenow-overview/image/pol-global-header.png)
+\[Omitted image "pol-global-header.png"\] Alt text: Image showing the Next Experience Unified Navigation.
 
 Navigate to modules in your instance without opening multiple windows. Favorite the modules, explore modules you visited, and search your instance. Receive web and email notifications in one location too.
 
 ## Personalize your user interface
 
-![Screen shot of the Next Experience preferences showing the preference category tiles display, notifications, accessibility, and Workspace.](../../../get-started/servicenow-overview/image/pol-pref-sans-preftext.png "Next Experience preferences")
+\[Omitted image "pol-pref-sans-preftext.png"\] Alt text: Screen shot of the Next Experience preferences showing the preference category tiles display, notifications, accessibility, and Workspace.
 
 You can customize the UI to determine the information that you want to see, that's accessible, and in the format that works for you.
 
 ## Improve agent efficiency with Workspace
 
-![Screen shot of Workspace user interface](../../../get-started/servicenow-overview/image/pol-workspace.png "Workspace user interface")
+\[Omitted image "pol-workspace.png"\] Alt text: Screen shot of Workspace user interface
 
 Solve issues faster with a workspace that is built to facilitate resolutions. Agents get full context and AI-assisted recommendations in a single view to resolve issues quickly. Agents can communicate with customers from the same interface while reviewing issues.
 
 ## Applications and features
 
--   [Next Experience UI](../../../get-started/servicenow-overview/concept/next-experience-landing-page.md)
--   [Workspace UI](../../configurable-workspace/concept/workspace-landing-page.md)
--   [Working in Core UI](../../../get-started/servicenow-overview/concept/working-in-ui16-and-ui15.md)
--   [Content Management System \(CMS\)](../../content-management/concept/c_ContentManagementSystem.md)
--   [Service Portal](../../../build/service-portal/concept/c_ServicePortal.md)
--   [Adoption services](../../../build/adoption-services/concept/adoption-services.md)
--   [Visual Task Boards \(VTB\)](../../../use/visual-task-boards/concept/c_VisualTaskBoards.md)
+-   [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md)
+-   [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)
+-   [Working in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-in-ui16-and-ui15.md)
+-   [Content Management System \(CMS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
+-   [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
+-   [Adoption services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adoption-services.md)
+-   [Visual Task Boards \(VTB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
 

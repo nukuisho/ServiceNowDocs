@@ -2,6 +2,7 @@
 title: Create a data product
 description: Create a data product to group one or more data interfaces into a governed, publishable collection that consumers can discover and access through the Data Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-data-product-wdf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-31"
@@ -50,7 +51,7 @@ The data product is created in draft state and visible in Data Workbench. Publis
 
 ## What to do next
 
-To make the data product available to consumers, see [Publish a data product](publish-data-product-wdf.md)
+To make the data product available to consumers, see [Publish a data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/publish-data-product-wdf.md)
 
-**Parent Topic:**[Managing data products](../concept/manage-data-products-wdf.md)
+**Parent Topic:**[Managing data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-products-wdf.md)
 

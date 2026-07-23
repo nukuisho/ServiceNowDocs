@@ -2,6 +2,7 @@
 title: Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance
 description: To set up Cloud Provisioning and Governance for the very first time, you perform the procedures in this "Day 1" setup guide. Be sure to perform the procedures in order. After you have performed Day 1 setup, you can perform optional Day 2 setup and configuration procedures as needed and in any order. Detailed instructions for each procedure follow this overview.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-mgt-azure-setup-guide.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,7 +18,7 @@ To set up Cloud Provisioning and Governance for the very first time, you perform
 
 ## Request the Cloud Provisioning and Governance application
 
-The Cloud Provisioning and Governance application is available as a separate subscription and requires the Cloud Provisioning and Governance plugin \(com.snc.cloud.mgmt\). See [Request the Cloud Provisioning and Governance application](../task/request-plugin-cloud-mgt-1.md).
+The Cloud Provisioning and Governance application is available as a separate subscription and requires the Cloud Provisioning and Governance plugin \(com.snc.cloud.mgmt\). See [Request the Cloud Provisioning and Governance application]().
 
 ## Roles required to set up Cloud Provisioning and Governance
 
@@ -46,7 +47,7 @@ Your setup process includes these tasks:
 -   Set up a cloud account to represent your entire managed cloud infrastructure and set up a service account that works with one of your provider accounts. You specify which datacenters in the service account should be included in the cloud account. \(Later, on "Day 2", you can set up additional cloud accounts and service accounts from the same or other providers.\)
 -   Cloud Provisioning uses CMDB data to help users request and manage cloud resources and to help you manage your cloud infrastructure. To populate the CMDB with resource data for all datacenters, you manually run the Discovery process on each datacenter in the service account. Then, to ensure that the data continues to be updated, you configure Discovery to run on a regular schedule. Your cloud account might look like this:
 
-    ![Structure of a cloud account on Day 1](../image/cloud-acct-day-1.png "Structure of a cloud account on Day 1")
+    \[Omitted image "cloud-acct-day-1.png"\] Alt text: Structure of a cloud account on Day 1
 
 -   Providers offer services that can auto-update the CMDB whenever a create/modify/terminate life-cycle change or configuration update occurs to a resource. You can configure the service to integrate directly with Cloud Provisioning and Governance.
 
@@ -58,7 +59,7 @@ Detailed instructions for each procedure follow this overview.
 
     You assign Cloud Provisioning and Governance roles to user groups and to individual users based on user activities and responsibilities.
 
--   **2. [Install and configure MID Servers to access cloud environments](../../it-operations-management/task/mid-server-configuration-cloud.md)**
+-   **2. [Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/mid-server-configuration-cloud.md)**
 
     To ensure secure and reliable communications, the Discovery process communicates with your cloud provider accounts and cloud resources through one or more MID Servers. You can set up the MID Servers on your network or in one of your cloud networks.
 
@@ -95,5 +96,5 @@ Detailed instructions for each procedure follow this overview.
 
 ## Next steps
 
-When you have finished all Day-1 and Day-2 procedures in this setup guide, see the [Cloud Provisioning and Governance administration guide](../../cloud-management-v2/concept/cloud-configuration.md) for information on using the Cloud Provisioning and Governance application in your organization.
+When you have finished all Day-1 and Day-2 procedures in this setup guide, see the [Cloud Provisioning and Governance administration guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-configuration.md) for information on using the Cloud Provisioning and Governance application in your organization.
 

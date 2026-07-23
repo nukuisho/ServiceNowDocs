@@ -2,6 +2,7 @@
 title: Design and assign your network services
 description: The Design and Assign function provides step-by-step guidance for designing a network service in the Telecommunications Network Inventory application. You can use the Design and Assign function to complete guided activities to design the network services and assign the network inventories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/design-assign-playbook.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -32,14 +33,14 @@ The Design and Assign home page displays all change requests \(design requests\)
 
 The following is an example for the Design and Assign home page.
 
-![Design and Assign home page with list of change requests.](../image/design-assign-homepage.png "Example of Design and Assign home page") ![]( "Example of Design and Assign home page")
+\[Omitted image "design-assign-homepage.png"\] Alt text: Design and Assign home page with list of change requests. \[Omitted image ""\] Alt text:
 
 Access the Design and Assign home page in the Telecommunications Network Inventory workspace as follows.
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
-2.  Select the design and assign icon \(![Design and Assign Icon](../image/icon-design-assign.png)\).
+2.  Select the design and assign icon \(\[Omitted image "icon-design-assign.png"\] Alt text: Design and Assign Icon\).
 
-To refresh the home page, select refresh icon \(![Refresh Icon.](../image/icon-refresh.png)\).
+To refresh the home page, select refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh Icon.\).
 
 ## Design and Assign function user roles
 
@@ -81,12 +82,12 @@ Playbook admin \[playbook.admin\]
 
 </td><td>
 
-Uses the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md) application to author, configure, and monitor the Design and Assign function.
+Uses the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md) application to author, configure, and monitor the Design and Assign function.
 
 </td></tr></tbody>
 </table>## Creating and configuring Design and Assign function for your network services
 
-You can create the Design and Assign function for various types of network services such as designing a Gigabyte Passive Optical Network \(GPON\) Broadband service. You can use ServiceNow AI Platform capabilities and Workflow Studio application to create and configure the Design and Assign function. To learn more, see [Configuring Design and Assign function for your network services](configure-playbooks-design-assign-function.md).
+You can create the Design and Assign function for various types of network services such as designing a Gigabyte Passive Optical Network \(GPON\) Broadband service. You can use ServiceNow AI Platform capabilities and Workflow Studio application to create and configure the Design and Assign function. To learn more, see [Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md).
 
 ## Using Design and Assign function
 
@@ -99,7 +100,7 @@ A Design and Assign function includes multiple activities for an agent to comple
 -   Mark an activity as complete and move to the next activity.
 -   Complete the activities necessary to design and assign an inventory record.
 
-To learn more, see [Design and Assign function](using-playbooks-design-assign-inventory-record.md).
+To learn more, see [Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md).
 
-You can create a logical connection by using the Design and Assign function available in the Telecommunications Network Inventory application. To learn more, see [Logical connections](design-logical-connection-design-assign-playbook.md).
+You can create a logical connection by using the Design and Assign function available in the Telecommunications Network Inventory application. To learn more, see [Logical connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.md).
 

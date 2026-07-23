@@ -2,6 +2,7 @@
 title: Add custom fields for a planning tool integration
 description: Add custom fields into your planning tool integration to improve configurability and access business-specific information, which facilitates more informed decision-making.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/add-custom-field-for-a-planning-tool-integration.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -31,7 +32,7 @@ You can add custom fields to a planning tool integration by using record transfo
 
 2.  Select **Integrations &gt; Tool integrations** from the Lists tab.
 
-3.  Select the planning tool integration for which you want to add custom fields, and then select **Edit field mappings**. ![Tool integration record](../image/custom-fields-1.png)
+3.  Select the planning tool integration for which you want to add custom fields, and then select **Edit field mappings**. \[Omitted image "custom-fields-1.png"\] Alt text: Tool integration record
 
     **Note:** Verify that the application scope is selected as DevOps Integrations.
 
@@ -39,12 +40,12 @@ You can add custom fields to a planning tool integration by using record transfo
 
     **Note:** You must create a record transformer for each tool action. In this procedure, a record transformer is created for the Import action.
 
-    1.  On the Create New Record Transformer page, select **Create transformer sequence**. ![Create New Record Transformer page](../image/custom-field-2.png)
-    2.  In the Create New Record Transformer Rule Sequence page, enter the name of the rule sequence in the **Name** field, and select the type of sequence in the **Type** field. ![Create new record transformer rule sequence page](../image/custom-field-3.png)
+    1.  On the Create New Record Transformer page, select **Create transformer sequence**. \[Omitted image "custom-field-2.png"\] Alt text: Create New Record Transformer page
+    2.  In the Create New Record Transformer Rule Sequence page, enter the name of the rule sequence in the **Name** field, and select the type of sequence in the **Type** field. \[Omitted image "custom-field-3.png"\] Alt text: Create new record transformer rule sequence page
     3.  Select **Save**.
-5.  Navigate to the transformer record page, and select the **Record Transformer Rules** tab, and then select **New**. ![Record Transformer Rules tab in the record transformer record](../image/custom-field-4.png)
+5.  Navigate to the transformer record page, and select the **Record Transformer Rules** tab, and then select **New**. \[Omitted image "custom-field-4.png"\] Alt text: Record Transformer Rules tab in the record transformer record
 
-6.  In the Create New Record Transformer Rule page, fill in the following fields. ![Create new record transformer rule page](../image/custom-field-5.png)
+6.  In the Create New Record Transformer Rule page, fill in the following fields. \[Omitted image "custom-field-5.png"\] Alt text: Create new record transformer rule page
 
     |Field|Description|
     |-----|-----------|
@@ -71,7 +72,7 @@ You can add custom fields to a planning tool integration by using record transfo
 
 9.  Select **Save**.
 
-10. Navigate to the **Edit field mappings** page and select **Add mapping**. ![Edit field mappings page](../image/custom-field-6.png)
+10. Navigate to the **Edit field mappings** page and select **Add mapping**. \[Omitted image "custom-field-6.png"\] Alt text: Edit field mappings page
 
     1.  Select the record transformer for the tool action.
     2.  Set the sequence in which the mapping of the record is processed in the **Order** field.
@@ -83,7 +84,7 @@ You can add custom fields to a planning tool integration by using record transfo
     **Note:** You can add multiple field mappings for an action as per your requirement.
 
 
-**Parent Topic:**[User-created integrations in DevOps Change Velocity](../concept/dev-ops-tool-integration.md)
+**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 
 **Related topics**  
 

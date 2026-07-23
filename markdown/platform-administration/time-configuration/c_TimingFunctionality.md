@@ -2,6 +2,7 @@
 title: Timing functionality
 description: Timing functionality are tools that exist to answer the question "How Long?"Defined metrics can track how long an audited field holds a certain value.Service Level Agreements time how long a task meets a certain condition, and is primarily used to ensure that tasks are handled within a pre-determined time limit.The Task \[task\] table provides a time-tracking field called Time worked. This field measures how long a record has been viewed in order to measure work time on a ticket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/c\_TimingFunctionality.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -15,16 +16,16 @@ breadcrumb: [Timeline pages, Viewing record information over time, Reference, Ti
 
 Timing functionality are tools that exist to answer the question "How Long?"
 
-**Parent Topic:**[Timeline pages](c_TimelinePages.md)
+**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md)
 
 **Related topics**  
 
 
-[Time worked fields](c_TimingFunctionality.md#)
+[Time worked fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimingFunctionality.md)
 
-[Time configuration SLAs](c_TimingFunctionality.md#)
+[Time configuration SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimingFunctionality.md)
 
-[Metric definitions](c_TimingFunctionality.md#)
+[Metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimingFunctionality.md)
 
 ## Metric definitions
 
@@ -32,7 +33,7 @@ Defined metrics can track how long an audited field holds a certain value.
 
 For instance, a metric can track how long an incident is assigned to an individual, or how long an incident is in the state Active.
 
-See [Metrics](../../../use/reporting/concept/c_MetricDefinitionSupport.md) for more information.
+See [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MetricDefinitionSupport.md) for more information.
 
 ## Time configuration SLAs
 
@@ -52,13 +53,13 @@ Notifications can be driven off of the SLA to warn interested parties as the tim
 
 The Task `[task]` table provides a time-tracking field called **Time worked**. This field measures how long a record has been viewed in order to measure work time on a ticket.
 
-![](../image/TimeTimeworked.png "Time Worked")
+\[Omitted image "TimeTimeworked.png"\] Alt text:
 
 Any table that extends Task can use this field. To add the field, [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md).
 
-As the record is viewed, the timer counts upward. To pause the timer, click the stop icon \(![Stop icon](../image/TimerStop.png)\)
+As the record is viewed, the timer counts upward. To pause the timer, click the stop icon \(\[Omitted image "TimerStop.png"\] Alt text: Stop icon\)
 
-To resume the timer, click the start icon \(![Start icon](../image/TimerStart.png)\).
+To resume the timer, click the start icon \(\[Omitted image "TimerStart.png"\] Alt text: Start icon\).
 
 When the task is saved, the amount of new time in the timer is used to generate a record on the Time Worked \[`task_time_worked`\] table. This table can be viewed as a related list on the task form.
 
@@ -71,5 +72,5 @@ You can set the property `com.snc.time_worked.update_task_timer` to enable updat
 **Related topics**  
 
 
-[Timing functionality](c_TimingFunctionality.md#)
+[Timing functionality]()
 

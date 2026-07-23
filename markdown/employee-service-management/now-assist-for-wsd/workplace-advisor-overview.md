@@ -2,6 +2,7 @@
 title: Workplace Advisor Overview
 description: Workplace Advisor is an AI-powered solution designed to help Space Planners and Facilities Managers optimize workplace management through intelligent insights and conversational support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/workplace-advisor-overview.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -29,25 +30,25 @@ Ask workplace reservation related questions in natural language and receive cont
 
 The system generates Insight Cards for key performance indicators on workplace operations such as occupancy, space utilization, reservation trends, and environmental metrics.
 
--   **[Workplace advisor QnA agentic workflow](workplace-advisor-qna.md)**  
+-   **[Workplace advisor QnA agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-advisor-qna.md)**  
 The workplace advisor QnA agentic workflow enables Reservation Managers to use the Now Assist panel to ask natural language questions about workplace reservations.
--   **[Insight cards on the Workplace Central dashboard](insight-cards-on-the-workplace-central-dashboard.md)**  
+-   **[Insight cards on the Workplace Central dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.md)**  
 Display key metrics and AI-generated insights from workplace data sources using Insight cards on the Workplace Central dashboard. These Insight cards are auto-generated using generative AI, enabling Space Planners, and Facilities Managers to make data-driven decisions to optimize workplace resources. Insight cards provide proactive insights into various workplace metrics such as space utilization, occupancy rates, attendance patterns, and reservation trends.
 
-**Parent Topic:**[Using AI agent workflows in Now Assist for WSD](now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 
 
-[Manage temporary space closures agentic workflow](maintenance-meeting-room-agent-ai.md)
+[Manage temporary space closures agentic workflow]()
 
-[Help manage workplace reservations agentic workflow](manage-workplace-reservations-agent-ai.md)
+[Help manage workplace reservations agentic workflow]()
 
-[Optimize cleaning activities agent overview](optimise-cleaning-agent-overview.md)
+[Optimize cleaning activities agent overview]()
 
-[Automate map updates agentic workflow](automate-map-updates-agent-ai.md)
+[Automate map updates agentic workflow]()
 
-[Workplace Concierge agentic workflow](workplace-concierge-ai-agent.md)
+[Workplace Concierge agentic workflow]()
 
-[implement-autonomous-l1-agent-for-workplace.md](implement-autonomous-l1-agent-for-workplace.md)
+[]()
 

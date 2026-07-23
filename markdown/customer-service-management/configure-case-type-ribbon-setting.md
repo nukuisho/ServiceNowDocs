@@ -2,6 +2,7 @@
 title: Configure case type ribbon settings
 description: Create a ribbon configuration for a case type or enable ribbon configurations to be inherited by the case type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-case-type-ribbon-setting.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

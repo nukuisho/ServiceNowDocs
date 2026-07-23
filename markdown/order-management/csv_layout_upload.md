@@ -2,11 +2,12 @@
 title: CSV layout upload
 description: Learn how to create and upload a CSV file that contains a layout specification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/csv\_layout\_upload.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Set up layouts, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # CSV layout upload
@@ -21,11 +22,11 @@ Layouts are defined via CSV file that contains all instructions for the layout. 
 
 Access a layout from its corresponding blueprint administration page.
 
-1.  In the CPQ Admin navigation pane, click **Blueprints** \(2\).
+1.  In the ServiceNow CPQ Admin navigation pane, click **Blueprints** \(2\).
 2.  Click the Layouts tab \(3\).
 3.  Click the name of the blueprint you want to access.
 
-![CSV layout upload](../images/cpq-csv-layout-upload-layouts-tab.png)
+\[Omitted image "cpq-csv-layout-upload-layouts-tab.png"\] Alt text: CSV layout upload
 
 To start a new layout, click **Create Layout**. To edit an existing layout, click the name of a layout in the list.
 
@@ -35,7 +36,7 @@ When you begin a new layout, the New Layout window opens. You can import a CSV f
 
 [Sample layout file](https://drive.google.com/file/d/1lzNW_jGkdzdUGwm9rh8xL9BeSxhv3MEJ/view?usp=sharing)
 
-![CSV layout upload](../images/cpq-csv-layout-upload-new-layout.png)
+\[Omitted image "cpq-csv-layout-upload-new-layout.png"\] Alt text: CSV layout upload
 
 When you edit an existing layout:
 
@@ -45,7 +46,7 @@ Import a layout CSV file by clicking **Replace** \(b\).
 
 Click **Save** \(c\) to replace the current layout with the edited layout. If CSV file upload fails, all errors found in the file will be shown to the administrator in an error dialog.
 
-![CSV layout upload](../images/cpq-csv-layout-upload-example-layout.png)
+\[Omitted image "cpq-csv-layout-upload-example-layout.png"\] Alt text: CSV layout upload
 
 ## Using layout CSV file upload
 
@@ -187,7 +188,7 @@ MultiSelectExtended picklist
 </td></tr></tbody>
 </table>`columnorder` is relevant for components in a column set. Used to provide the sort order of the Fields based on screen resolution in the responsive UI.
 
-`classname` is used to reference predefined classes available in CPQ. For example, when placing an image, a class can define the flow of fields around that image. Add these class names to the layout CSV file in the className column. As max-height and grid controls interact with the width of the browser, we recommend you experiment with each class distinctly, exploring how the class responds to a variety of browser sizes.
+`classname` is used to reference predefined classes available in ServiceNow CPQ. For example, when placing an image, a class can define the flow of fields around that image. Add these class names to the layout CSV file in the className column. As max-height and grid controls interact with the width of the browser, we recommend you experiment with each class distinctly, exploring how the class responds to a variety of browser sizes.
 
 <table id="table_z23_xkb_nhc"><thead><tr><th>
 
@@ -381,9 +382,9 @@ For picklist display components that include images, when options are disabled, 
 **Related topics**  
 
 
-[Layout Wizard](layout_wizard.md)
+[Layout Wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_wizard.md)
 
-[Layout editor](layout_editor.md)
+[Layout editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layout_editor.md)
 
-[Configure the Matrix Loader](cpq-using-the-matrix-loader.md)
+[Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using-the-matrix-loader.md)
 

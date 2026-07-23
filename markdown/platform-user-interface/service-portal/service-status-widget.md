@@ -2,6 +2,7 @@
 title: Service Status widget
 description: The Service Status widget provides a visual representation of service availability over the past three months. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/service-status-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -17,7 +18,7 @@ The Service Status widget provides a visual representation of service availabili
 
 The Service Status widget displays the history of service availability for one service from the Services \[cmdb\_ci\_service\] table. The widget uses the page URL to determine which service to represent.
 
-![Service Status widget](../image/WidgetServiceStatus.png "Service Status widget")
+\[Omitted image "WidgetServiceStatus.png"\] Alt text: Service Status widget
 
 Each pill represents one day. Each color correlates with a type of service availability. To include additional details when you hover over a pill, such as the task number or short description, you must clone the widget and edit the server script.
 
@@ -32,14 +33,14 @@ Each pill represents one day. Each color correlates with a type of service avail
 
 The Service Status widget does not have any included instance options.
 
-**Parent Topic:**[Service Portal service status widgets](service-status-widgets.md)
+**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-status-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

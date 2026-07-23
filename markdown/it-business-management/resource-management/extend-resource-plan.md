@@ -2,6 +2,7 @@
 title: Extend a resource plan
 description: You can extend the date of an allocated resource plan and allocate resources for the extended period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/extend-resource-plan.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -19,9 +20,9 @@ You can extend the date of an allocated resource plan and allocate resources for
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged [migrate your existing resource plans](../concept/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility and start using Resource Management Workspace.
+You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility and start using Resource Management Workspace.
 
-Resource requester can [extend an assigned or unassigned resource assignment](../../resource-management-workspace/task/manage-resource-allocations-rmw.md) using Resource Management Workspace.
+Resource requester can [extend an assigned or unassigned resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/manage-resource-allocations-rmw.md) using Resource Management Workspace.
 
 Role required: resource\_manager
 
@@ -41,7 +42,7 @@ For example, assume that you allocated 100 hours for 2 months, 50 hours for each
 
 4.  In the Extend resource plan dialog box, fill in the fields.
 
-    For a description of the field names, see [Extend resource plan form](../reference/extnd-rsrc-plan.md).
+    For a description of the field names, see [Extend resource plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/extnd-rsrc-plan.md).
 
 
 ## Result
@@ -52,42 +53,42 @@ For example, assume that you allocated 100 hours for 2 months, 50 hours for each
 -   Number of requested FTE or hours or person days is divided equally for each allocation period and is pre-filled in each allocation record.
 -   Extending the resource plan invokes the rate model for getting the hourly rates.
 
-**Parent Topic:**[Resource plans](../concept/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
 
-[Create a resource plan](t_CreateResourcePlanProjectTask.md)
+[Create a resource plan]()
 
-[Use Resource Finder to analyze resource availability](create-resource-plan-with-finder.md)
+[Use Resource Finder to analyze resource availability]()
 
-[Create an operational resource plan](create-operational-plan.md)
+[Create an operational resource plan]()
 
-[Request resources](t_RequestResourcePlanApproval.md)
+[Request resources]()
 
-[Confirm a resource plan](confirm-resource-plan.md)
+[Confirm a resource plan]()
 
-[Confirm and allocate a resource plan](confirm-allocate-resource-plan.md)
+[Confirm and allocate a resource plan]()
 
-[Request a change to a resource plan](t_RequestAChangeToAResourcePlan.md)
+[Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand](recalculate-resource-costs.md)
+[Recalculate costs of a resource plan]()
 
-[Update cost plan related to a resource plan](t_UpdateRelatedCostPlan.md)
+[Update cost plan related to a resource plan]()
 
-[Complete a resource plan](t_CloseAResourcePlan.md)
+[Complete an allocated resource plan]()
 
-[Cancel a resource plan](t_CancelAResourcePlan.md)
+[Cancel a resource plan]()
 
-[Delete a resource plan](t_DeleteAResourcePlan.md)
+[Delete a resource plan]()
 
-[Request extension of an allocated resource plan](request-extension-allocated-resource-plan.md)
+[Request extension of an allocated resource plan]()
 
-[Allocate resources for the extended period](allocate-resources-for-extended-period.md)
+[Allocate resources for the extended period]()
 
-[Reduce the duration of a resource plan](reduce-resource-plan.md)
+[Reduce the duration of a resource plan]()
 
-[Time zones in resource plans](../concept/c_TimeZonesInResourcePlans.md)
+[Time zones in resource plans]()
 
-[Associate a time card with a resource plan](t_AssocATimeCardWithAResourcePlan.md)
+[Associate a time card with a resource plan]()
 

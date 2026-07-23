@@ -1,7 +1,8 @@
 ---
-title: Create new demand form
+title: Create demand form
 description: Create a demand for your application or capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-new-demand-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 4
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new demand form
+# Create demand form
 
 Create a demand for your application or capability.
 
@@ -435,12 +436,12 @@ Digital integration
 Digital integration associated with the demand.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Exploring demands](../../concept/eaw-concept/eaw-demands.md)
+[Exploring demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-demands.md)
 
-[Add or edit a demand](../../task/eaw-task/eaw-create-demand-ba.md)
+[Add or edit a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-demand-ba.md)
 

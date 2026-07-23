@@ -2,6 +2,7 @@
 title: Create a Pareto visualization for a breakdown widget
 description: To identify the most important breakdown elements when the breakdown has a large set of elements, use a Pareto visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-pareto-bkdown-widget.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -21,13 +22,13 @@ Role required: pa\_admin or admin
 
 ## About this task
 
-**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](../concept/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](../../par-for-workspace/concept/interactive-filters-workspace.md).
+**Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md).
 
 This feature is deprecated, meaning it is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
 Pareto visualizations contain both bar and line graphs. The bars display the data in descending order from left to right, and the line graph shows the cumulative totals from each category in the same order. The left Y axis is the record count, and the right Y axis is the cumulative percentage of the total number of records evaluated. The data to the left of the intersection of the line graph and the 80% mark have the greatest effect on the overall outcome.
 
-![Pareto visualization of open incidents broken down by priority](../image/pareto-bkdown.png "Pareto visualization - breakdown")
+\[Omitted image "pareto-bkdown.png"\] Alt text: Pareto visualization of open incidents broken down by priority
 
 ## Procedure
 
@@ -50,7 +51,7 @@ Pareto visualizations contain both bar and line graphs. The bars display the dat
     You may also set a breakdown and element to filter the scores.
 
     -   For the widget to show scores grouped by the elements of a breakdown, select a breakdown in the **Breakdown** field. Do not select an element or a second breakdown.
-    -   You can have the widget show different elements depending on characteristics of the viewer. To do so, specify an elements filter in the **Element Settings** tab. Do not specify an element in the **Element** field. You can personalize only the first-level breakdown elements. For more information, see [Personalized visuals](../concept/personalized-visuals.md#).
+    -   You can have the widget show different elements depending on characteristics of the viewer. To do so, specify an elements filter in the **Element Settings** tab. Do not specify an element in the **Element** field. You can personalize only the first-level breakdown elements. For more information, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/personalized-visuals.md).
     -   For the widget to show scores filtered by an element of one breakdown then grouped by the elements of another breakdown, select the filtering breakdown and element in the **Breakdown** and **Element** fields. Then select the grouping breakdown in the **2nd Breakdown** field. The widget shows scores for each element of the **2nd Breakdown** but only if they match the first **Breakdown** and **Element**.
 
         **Note:**
@@ -74,7 +75,7 @@ Pareto visualizations contain both bar and line graphs. The bars display the dat
 
     3.  In **Show multiple elements as**, only the **Aggregated** view is possible.
 
-    For more information, see [Configure widgets for breakdown dashboards](set-up-widgets-for-breakdown-dashboards.md).
+    For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
 
     **Note:** The **Followed breakdown relation** menu works only with Scorecard visualizations. Also, multiple element selection on a breakdown dashboard is not supported on the widget when you set a breakdown relation to follow.
 
@@ -94,7 +95,7 @@ Time series
 
 </td><td>
 
-Run a function on the scores for a specific time period, such as applying a 7-day sum or average. from being applied to the indicator. For more information, see [Applying time series aggregations](../concept/applying-time-series-aggregations.md#).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
+Run a function on the scores for a specific time period, such as applying a 7-day sum or average. from being applied to the indicator. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).**Note:** Business and fiscal calendars do not support time series aggregations. You cannot set a time series aggregation on a widget for an indicator that uses such a calendar.
 
 </td></tr><tr id="chrow_sort-on"><td>
 
@@ -112,12 +113,12 @@ Color scheme
 
 A spectrum of colors for the scores for all breakdowns. If only one breakdown is shown, only the first color is used. If you do not specify a color scheme, the colors defined in the system property **glide.ui.chart.default.colors** apply.
 
- You can create your own color scheme instead of using a provided color scheme. For more information, see [Create a color scheme](../concept/color-schemes-pa-widgets.md#).
+ You can create your own color scheme instead of using a provided color scheme. For more information, see [Create a color scheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/color-schemes-pa-widgets.md).
 
 </td></tr></tbody>
 </table>9.  Review the **Settings** tabs and change settings as desired.
 
-    For more information, see [Additional settings for breakdown widgets](../reference/optional-settings-breakdown-widgets.md).
+    For more information, see [Additional settings for breakdown widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optional-settings-breakdown-widgets.md).
 
 10. Click **Submit**.
 
@@ -129,11 +130,11 @@ To view the widget, add it to a dashboard or a portal.
 **Related topics**  
 
 
-[Edit a responsive dashboard](../../dashboards/task/t_EditADashboard.md)
+[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md)
 
-[Performance Analytics widgets on Service Portal](../concept/service-portal-pa-widget.md#)
+[Performance Analytics widgets on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/service-portal-pa-widget.md)
 
-[Grouping by breakdown and filtering by breakdown](../concept/grouping-filtering-breakdown.md)
+[Grouping by breakdown and filtering by breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/grouping-filtering-breakdown.md)
 
-[Interacting with breakdown widgets on dashboards](../concept/c_WidgetInteractivity.md)
+[Interacting with breakdown widgets on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_WidgetInteractivity.md)
 

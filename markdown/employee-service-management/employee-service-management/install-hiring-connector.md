@@ -6,6 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Hiring Connector, install Hiring Connector, third party integration, ATS integration, connector application]
 ---
 
 # Install Hiring Connector for third party integration
@@ -17,13 +18,13 @@ You can install the Hiring Connector application \(sn\_ta\_connector\) to integr
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Hiring Connector](https://store.servicenow.com/store/app/7c8cafae1b246a50a85b16db234bcbac) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
-Role required: admin
+Role required: sn\_ta\_hiring\_core.admin, import\_admin, or import\_transformer
 
 ## About this task
 
 Tables and Store applications are installed with Hiring Connector.
 
-For more information, see [Components installed with Hiring Connector](../reference/installed-with-hiring.md).
+For more information, see [Components installed with Hiring Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/installed-with-hiring.md).
 
 ## Procedure
 

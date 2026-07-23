@@ -2,6 +2,7 @@
 title: Generate and preview a contract document from a template
 description: View the final form of a contract document with the content controls replaced with the values of the variables or return values of scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-preview-template.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,7 +28,7 @@ Role required: sn\_cm\_core.contract\_config
 
 3.  Select **Preview**.
 
-4.  In the Preview Document window, select the Lookup using list icon ![Lookup using list icon](../../legal-request-management/image/lookup-using-list.png)
+4.  In the Preview Document window, select the Lookup using list icon \[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon
 
 5.  Select a contract request from the list for which you want to generate a sample contract document.
 
@@ -40,18 +41,18 @@ Role required: sn\_cm\_core.contract\_config
 9.  Modify the contract template if you want to make any changes.
 
 
-**Parent Topic:**[Manage clauses, tables, and contract templates](../concept/cncore-manage-clauses-ctemplates.md)
+**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
 
 **Related topics**  
 
 
-[Edit a contract clause variation](cncore-edit-cv.md)
+[Edit a contract clause variation]()
 
-[Edit contract templates by manually adding content controls](cncore-edit-ct.md)
+[Edit contract templates by manually adding content controls]()
 
-[Edit a contract template using Microsoft Word add-in for ServiceNow Contracts](cncore-edit-ct-addin.md)
+[Edit a contract template using Microsoft Word add-in for ServiceNow Contracts]()
 
-[Create a contract template from an existing template](cncore-create-template-revision.md)
+[Create a contract template from an existing template]()
 
-[Delete a contract template](cncore-delete-template.md)
+[Delete a contract template]()
 

@@ -2,6 +2,7 @@
 title: Add a user to a department
 description: You can add users to departments, thereby enabling the departments to perform their specific tasks and reach their desired objectives. Users can contribute to the decision-making process of a department by providing their insights. This leads to optimized usage of business applications and increased cost savings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-a-new-user-to-a-deparment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,9 +22,9 @@ Role required: user\_admin
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon ![Portfolio icon](../../image/portfolio-icon.png).
+2.  Open the Portfolio List view by selecting the Portfolio icon \[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Business Architecture**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Business Architecture**.
 
 4.  Select **Departments**.
 
@@ -35,17 +36,17 @@ Role required: user\_admin
 
 7.  On the form, fill in the fields.
 
-    For a description of the field values, see [Create new user form](../../reference/eaw-reference/eaw-create-new-user-form.md).
+    For a description of the field values, see [Create user form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-user-form.md).
 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Manage departments](../../concept/eaw-concept/eaw-manage-departments.md)
+**Parent Topic:**[Manage departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-departments.md)
 
 **Related topics**  
 
 
-[View all departments](eaw-view-all-departments.md)
+[View all departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-departments.md)
 
-[Add or edit a department](eaw-add-or-edit-a-department.md)
+[Add or edit a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-department.md)
 

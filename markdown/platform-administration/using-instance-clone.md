@@ -2,6 +2,7 @@
 title: Managing Instance Clone
 description: You can use Instance Clone to request, cancel, schedule, or modify clones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/using-instance-clone.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

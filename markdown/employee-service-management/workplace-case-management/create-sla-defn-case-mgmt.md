@@ -2,6 +2,7 @@
 title: Create an SLA Definition
 description: Configure SLAs to ensure that cases are resolved according to the expectations of customers. SLAs set up performance parameters, such as specifying minimum uptime or the amount of time that a task needs in order to reach a certain condition. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/create-sla-defn-case-mgmt.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -21,7 +22,7 @@ Role required: sn\_wsd\_case.admin or sn\_wsd\_case.manager
 
 ## About this task
 
-Create an SLA definition and use it in Workplace cases. An SLA definition record defines the timings, conditions, workflows, and other information required to create and progress task SLAs. For more information, refer to [Service Level Agreement \(SLA\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLADefinitions.md).
+Create an SLA definition and use it in Workplace cases. An SLA definition record defines the timings, conditions, workflows, and other information required to create and progress task SLAs. For more information, refer to Service Level Agreement \(SLA\) definition.
 
 ## Procedure
 
@@ -31,7 +32,7 @@ Create an SLA definition and use it in Workplace cases. An SLA definition record
 
     -   If you are creating an SLA Definition, click **New**.
     -   If you are modifying an existing SLA Definition, open the desired SLA Definition.
-    For information about the template form fields, see [Create an SLA Defintion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md).
+    For information about the template form fields, see [Create an SLA Defintion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAnSLADefinition.md).
 
 3.  In the **Table** field, select the **Workplace Case \[sn\_wsd\_case\_workplace\_case\]** table.
 
@@ -46,40 +47,40 @@ Create an SLA definition and use it in Workplace cases. An SLA definition record
 
 The SLA Definition is created.
 
-**Parent Topic:**[Configuring Workplace Case Management](../concept/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Case Management](install-workplace-case-mgmt.md)
+[Install Workplace Case Management]()
 
-[Create a Workplace case template](wsd-case-template.md)
+[Create a Workplace case template]()
 
-[Create a Workplace task template](wsd-task-template.md)
+[Create a Workplace task template]()
 
-[Smart Assessment for Workplace Case and Task](smart-assessment-for-workplace-case-and-task.md)
+[Smart Assessment for Workplace Case and Task]()
 
-[Automating seat assignment for new hires](../concept/auto-assign-new-hires.md)
+[Automating seat assignment for new hires]()
 
-[Configure Approval options](config-approval-optns.md)
+[Configure Approval options]()
 
-[Configure a Record producer](wsd-create-record-producer.md)
+[Configure a Record producer]()
 
-[Configuring a record producer for request edit](../concept/config-case-edit-rp.md)
+[Configuring a record producer for request edit]()
 
-[Configuring a record producer for reservation](../concept/config-reservation-rp.md)
+[Configuring a record producer for reservation]()
 
-[Create a Workplace service](create-workplace-service.md)
+[Create a Workplace service]()
 
-[Add a workplace service item to a workplace service](add-workplace-service-items.md)
+[Add a workplace service item to a workplace service]()
 
-[Create a workplace template configuration](create-workplace-template-confguration.md)
+[Create a workplace template configuration]()
 
-[Create a workplace field mapping](create-workplace-field-mapping.md)
+[Create a workplace field mapping]()
 
-[Configure an escalation rule](configure-escalation-rule.md)
+[Configure an escalation rule]()
 
-[Add Fulfillment instructions](add-fulfillment-instructions.md)
+[Add Fulfillment instructions]()
 
-[Group similar workplace cases under a parent case](group-similar-workplace-cases.md)
+[Group similar workplace cases under a parent case]()
 

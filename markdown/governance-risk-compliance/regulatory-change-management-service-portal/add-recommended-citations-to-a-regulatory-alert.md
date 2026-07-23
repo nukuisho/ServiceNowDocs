@@ -2,11 +2,12 @@
 title: Add an AI-recommended citation to a regulatory alert
 description: Add an AI-recommended citation to a regulatory alert by using the GRC: Predictive Intelligence application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/add-recommended-citations-to-a-regulatory-alert.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +28,7 @@ Traditionally, citations were downloaded from a third-party provider but only th
 
 1.  Navigate to **All** &gt; **Regulatory Change Management** &gt; **Compliance Workspace**.
 
-2.  Select the list icon ![](../../grc-ai-risk-compliance/image/list-icon-airc-ws.png).
+2.  Select the list icon \[Omitted image "list-icon-airc-ws.png"\].
 
 3.  Select **Regulatory alerts**.
 
@@ -52,16 +53,16 @@ Traditionally, citations were downloaded from a third-party provider but only th
     The selected citations are associated with the regulatory alert.
 
 
-**Parent Topic:**[Regulatory alerts](../concept/regulatory-feeds.md)
+**Parent Topic:**[Regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-feeds.md)
 
 **Related topics**  
 
 
-[Perform actions on regulatory alerts](perform-actions-reg-event-feeds.md)
+[Perform actions on regulatory alerts]()
 
-[Manage and assign regulatory event alerts](manage-regulatory-feeds.md)
+[Manage and assign regulatory event alerts]()
 
-[Train and use the similarity solution to recommend citations on regulatory alerts](retrain-ml-reg-compliance-mapping.md)
+[Train and use the similarity solution to recommend citations on regulatory alerts]()
 
-[Manage and assign source document alerts](manage-source-document-feeds.md)
+[Manage and assign source document alerts]()
 

@@ -2,13 +2,14 @@
 title: User roles installed with Procurement
 description: Procurement plugin adds the following user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/r\_UserRolesProcurement.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Components installed with Procurement, Activate Procurement, Procurement, IT Asset Management]
+breadcrumb: [Components installed with Procurement, Activate Procurement, Procurement, Common applications, Asset Management]
 ---
 
 # User roles installed with Procurement
@@ -52,5 +53,5 @@ financial\_mgmt\_user, model\_manager
 Can create purchase orders without a request. Can view requests and requested items. Can view transfer orders. Can create a purchase order or transfer order when sourcing items for a request. Can view the vendor catalog. Can view and refresh gauges in the Procurement Overview module.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Procurement](r_InstalledWithProcurement.md)
+</table>**Parent Topic:**[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/r_InstalledWithProcurement.md)
 

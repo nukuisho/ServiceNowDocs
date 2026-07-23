@@ -2,6 +2,7 @@
 title: AppConfig for Mobile Apps
 description: Use AppConfig to define a default instance and browser for your managed mobile apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/appconfig.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ When you distribute ServiceNow mobile apps through an EMM suite or an embedded M
 
 ## Prevent end users from creating connections to new instances
 
-You can use the following AppConfig key/value pair to prevent end users from creating connections to new instances for managed mobile apps. When the following key is set to `true`, end users do not see the plus sign \(![Plus icon for adding new stances to a mobile app.](../image/icon-mobile-add-instance.png)\) on the instance list page of their mobile app. Without the plus sign, end users cannot add instances that they are not authorized to add.
+You can use the following AppConfig key/value pair to prevent end users from creating connections to new instances for managed mobile apps. When the following key is set to `true`, end users do not see the plus sign \(\[Omitted image "icon-mobile-add-instance.png"\] Alt text: Plus icon for adding new stances to a mobile app.\) on the instance list page of their mobile app. Without the plus sign, end users cannot add instances that they are not authorized to add.
 
 |Key|Value|
 |---|-----|
@@ -99,5 +100,5 @@ Use the following configuration keys with one of the following values to define 
 |MaasS360|IBM MAAS360|
 |Citrix|Citrix Secure|
 
-**Parent Topic:**[Considerations before implementation](../concept/imp-considerations.md)
+**Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/imp-considerations.md)
 

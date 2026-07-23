@@ -2,11 +2,12 @@
 title: Create a guided tour to illustrate vacation delegation
 description: Use Guided Tour Designer to create a guided tour for assigning a vacation delegate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/usecase-set-a-vacation-delegate.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Guided Tour Designer use case, Use Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -33,7 +34,7 @@ Here’s an example of using Guided Tour Designer to create a tour that explains
 
 4.  From the Starting Page list, search for `sys_user_delegate_list.do` and select it.
 
-    ![Select Delegate List.](../image/gtd-delegate-vacation.png)
+    \[Omitted image "gtd-delegate-vacation.png"\] Alt text: Select Delegate List.
 
 5.  Select a role and then select **Create Tour**.
 
@@ -81,7 +82,7 @@ Open the Delegate form and enter a new record.
 1.  Drag a callout and position it to point at the **New** button in the Delegates list view.
 2.  Enter the following message in the **Text** field: `Click New to set up a delegate who will receive your notifications while you are on vacation.`
 
-![Drag a callout and position it to point to a element.](../image/gtd-vacation-delegation-new.png)
+\[Omitted image "gtd-vacation-delegation-new.png"\] Alt text: Drag a callout and position it to point to a element.
 
 </td><td>
 
@@ -207,14 +208,14 @@ No trigger is required.
 
 The guided tour is created and listed in the Help Center.
 
-Users can access a guided tour by navigating to a page that has one. For more information, see [Start a guided tour](../concept/accessing-guided-tours.md#).
+Users can access a guided tour by navigating to a page that has one. For more information, see [Start a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/accessing-guided-tours.md).
 
-**Parent Topic:**[Guided Tour Designer use case](../concept/guided-tour-designer-use-case.md)
+**Parent Topic:**[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)
 
 **Related topics**  
 
 
-[Create Guided Tours](add-guided-tour.md)
+[Create Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/add-guided-tour.md)
 
-[Edit Guided Tours](edit-guided-tour.md)
+[Edit Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/edit-guided-tour.md)
 

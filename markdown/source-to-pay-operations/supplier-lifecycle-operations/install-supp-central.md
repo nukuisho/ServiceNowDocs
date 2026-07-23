@@ -2,6 +2,7 @@
 title: Install Supplier Collaboration Portal
 description: You can install the Supplier Collaboration Portal application \(com.snc.sn\_supplier\_sp\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/install-supp-central.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -25,7 +26,7 @@ You can install the Supplier Collaboration Portal application \(com.snc.sn\_supp
     -   E-signature \(com.snc.esign\)
     -   Employee Center \(sn\_ex\_sp\)
 
-**Note:** You can activate additional plugins to enable other features in Supplier Collaboration Portal. For more information, see [Additional plugins for Supplier Collaboration Portal](../reference/additional-plugins-supp-mgmt.md).
+**Note:** You can activate additional plugins to enable other features in Supplier Collaboration Portal. For more information, see [Additional plugins for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/additional-plugins-supp-mgmt.md).
 
 Role required: admin
 
@@ -52,49 +53,55 @@ Role required: admin
 6.  Select **Install**.
 
 
+## Result
+
+After installing the Supplier Collaboration Portal, install the post-install fix script. For more information, see [Run the fix script to enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.md).
+
 ## What to do next
 
-Ensure that you complete the post installation mandatory steps. For more information, see [Post installation troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/post-install-steps.md).
+Ensure that you complete the post installation mandatory steps. For more information, see [Post installation troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/post-install-steps.md).
 
--   **[Post installation mandatory step for Supplier Collaboration Portal](../concept/post-install-steps.md)**  
+-   **[Post installation mandatory step for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.md)**  
 After you install the Supplier Collaboration Portal, ensure that you enable access to Supplier Collaboration Portal.
--   **[Configure self-registration for external users](config-reg-for-external-users-slm.md)**  
+-   **[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)**  
 Configure self-registration for external users.
--   **[Restricted caller access approvals for Supplier Collaboration Portal](../concept/rca-approvals.md)**  
+-   **[Restricted caller access approvals for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/rca-approvals.md)**  
 After you install the Supplier Collaboration Portal application from ServiceNow Store, you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request. You can approve the RCA privileges either manually or by running the fix script.
--   **[Set the property to configure activity configurations](set-sys-prop-activity-config.md)**  
+-   **[Set the property to configure activity configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/set-sys-prop-activity-config.md)**  
 Set the **sn\_supplier\_sp.allow\_all\_apps\_configuration** property to make activity configurations and filters accessible from all application scopes.
--   **[Additional plugins for Supplier Collaboration Portal](../reference/additional-plugins-supp-mgmt.md)**  
+-   **[Additional plugins for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/additional-plugins-supp-mgmt.md)**  
 After installing the Supplier Collaboration Portal application, you can activate additional plugins to enable additional features.
 
-**Parent Topic:**[Configure Supplier Lifecycle Operations](../concept/config-supp-mgmt.md)
+**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
 
 **Related topics**  
 
 
-[Install Supplier Case Management](install-supp-mgmt.md)
+[Install Supplier Case Management]()
 
-[Install Supplier Operations](install-supplier-ops.md)
+[Install Supplier Operations]()
 
-[Install Supplier Payment Optimization](install-supp-payment-opt.md)
+[Install Supplier Payment Optimization]()
 
-[Supplier Document Management](../concept/supp-doc-mgmt-overview.md)
+[Supplier Document Management]()
 
-[Configure the document template for the Sign document action type for supplier task](configure-pdf-template-sign-doc-task.md)
+[Configure the document template for the Sign document action type for supplier task]()
 
-[Advanced Work Assignment for Supplier Lifecycle Operations](../concept/supplier-awa.md)
+[Advanced Work Assignment for Supplier Lifecycle Operations]()
 
-[Enable M2M mapping between supplier contact and suppliers](enable-m2m-supplier-contacts.md)
+[Enable M2M mapping between supplier contact and suppliers]()
 
-[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+[Configure Supplier Relationship and Performance Management]()
 
-[Install Universal Request for SLO](install-universal-request.md)
+[Install Universal Request for SLO]()
 
-[Configure smart assessments](../concept/configure-smart-assessments.md)
+[Configure smart assessments]()
 
-[Post installation mandatory step for Supplier Collaboration Portal](../concept/post-install-steps.md)
+[Enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-access-supp-central.md)
 
-[Configure self-registration for external users](config-reg-for-external-users-slm.md)
+[Post installation mandatory step for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/post-install-steps.md)
 
-[Additional plugins for Supplier Collaboration Portal](../reference/additional-plugins-supp-mgmt.md)
+[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)
+
+[Additional plugins for Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/additional-plugins-supp-mgmt.md)
 

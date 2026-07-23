@@ -45,7 +45,7 @@ Create the required event sources in the Event source builder, or use the existi
 -   Docusign eSignature Spoke
 -   Microsoft Azure DevOps Boards Spoke
 
-For more information about creating an event source, see [Create an external event source](manage-external-event-sources.md#).
+For more information about creating an event source, see [Create an external event source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-external-event-sources.md).
 
 **Important:** Keep the event payload JSON of the third-party application handy. Refer to the third-party webhook documentation to identify where you can copy the event payload JSON. For example, see the following link for Jira event payloads: [Executing a webhook](https://developer.atlassian.com/server/jira/platform/webhooks/#executing-a-webhook).
 
@@ -88,11 +88,11 @@ For more information about creating an event source, see [Create an external eve
 
 7.  Under **Body**, in **JSON editor**, paste the payload JSON from the third-party application.
 
-    Refer to the third-party webhook documentation to learn about from where you can copy the payload JSON. ![Shows the JSON editor where you paste the payload data in JSON.](../images/json-editor-1.jpg)
+    Refer to the third-party webhook documentation to learn about from where you can copy the payload JSON. \[Omitted image "json-editor-1.jpg"\] Alt text: Shows the JSON editor where you paste the payload data in JSON.
 
 8.  Select **Visualize objects**.
 
-    The editor displays the objects that are in the payload JSON. You can reorder or remove the objects. The objects are available as data pills to use in conditions. ![Displays the objects after you select Visualize objects.](../images/json-editor-2.jpg)
+    The editor displays the objects that are in the payload JSON. You can reorder or remove the objects. The objects are available as data pills to use in conditions. \[Omitted image "json-editor-2.jpg"\] Alt text: Displays the objects after you select Visualize objects.
 
 9.  In **Condition editor**, drag and drop the data pills to create a condition set.
 
@@ -107,10 +107,10 @@ For more information about creating an event source, see [Create an external eve
 
 ## Result
 
-The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](use-saved-trigger.md).
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/use-saved-trigger.md).
 
--   **[Managing external event sources](manage-external-event-sources.md#)**  
+-   **[Managing external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-external-event-sources.md)**  
 Create and manage external event sources for a spoke or a scoped application that listen to events occurring in an application outside ServiceNow. Then, you can create external trigger definitions and associate them with the external event sources. When the event that you specify in the external trigger definition occurs, it starts one or more flows on your ServiceNow instance.
 
-**Parent Topic:**[Building triggers](../concept/building-triggers.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
 

@@ -2,13 +2,14 @@
 title: Data binding generation
 description: Now Assist generates data bindings for component properties using natural language instructions, reducing the need to manually navigate data trees or construct formulas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/concept-data-binding-generation.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Data binding generation
@@ -65,12 +66,12 @@ The **Generate data binding** panel displays suggested prompts based on the comp
 
 After Now Assist generates a binding, a preview appears in the component's property panel before the binding is applied. You can inspect the formula or data pill reference and close the dialog without applying it if the result doesn't match your intent. You can also stop an in-progress generation by selecting **Stop generating**.
 
-**Parent Topic:**[Exploring UI generation](exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-ui-generation.md)
 
 **Related topics**  
 
 
-[Generate a data binding and formula](../task/generate-data-bindings-and-formulas.md)
+[Generate a data binding and formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-data-bindings-and-formulas.md)
 
-[Use case: Generate a data binding and formula](use-case-data-binding-generation.md)
+[Use case: Generate a data binding and formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/use-case-data-binding-generation.md)
 

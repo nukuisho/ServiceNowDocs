@@ -2,6 +2,7 @@
 title: Default proactive prompts for Manager Hub
 description: Default signal configurations, signal categories, and an action URL are available to use on activating Manager Hub and Proactive Prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/prompts-mh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,11 +16,11 @@ breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Manag
 
 Default signal configurations, signal categories, and an action URL are available to use on activating Manager Hub and Proactive Prompts.
 
-To learn how to use Proactive Prompts, refer to the [Proactive Prompts](proactive-prompts-for-hrsd.md) documentation.
+To learn how to use Proactive Prompts, refer to the [Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-for-hrsd.md) documentation.
 
 ## Signal configurations
 
-For detailed information on how to configure signals in Proactive Prompts, see [Configuring Proactive Prompts](proactive-prompts-config.md).
+For detailed information on how to configure signals in Proactive Prompts, see [Configuring Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-config.md).
 
 <table id="id_s1t_qps_tvb"><thead><tr><th>
 
@@ -118,42 +119,42 @@ A scheduled job runs every 14 days to identify users based on the following crit
 
 Signal categories are the logical groups to divide signals. Signal categories enable you to pull category-specific prompts on the prompt widget.
 
-Career, Employee service, New hire, Team insights, and Well-being are the default signal categories that are available for Manager Hub. For more information on these signal categories, see [Configure signal categories in Proactive Prompts](../task/proactive-prompts-signal-catergories.md).
+Career, Employee service, New hire, Team insights, and Well-being are the default signal categories that are available for Manager Hub. For more information on these signal categories, see [Configure signal categories in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-catergories.md).
 
 ## Signal actions
 
 Signal actions enable end users who receive the prompt to act on them. **Open a URL** is the default signal action that is available for Manager Hub.
 
-For more information on signal actions, see [Configure signal actions for Proactive Prompts](../task/proactive-prompts-signal-actions.md).
+For more information on signal actions, see [Configure signal actions for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-actions.md).
 
-**Parent Topic:**[Reference for Manager Hub](../reference/reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 
 
-[Components installed with Manager Hub](../reference/installed-with-managerhub.md)
+[Components installed with Manager Hub]()
 
-[Campaign configurations for Manager Hub](manager-hub-campaign.md)
+[Campaign configurations for Manager Hub]()
 
-[Default configurations for important dates](manager-hub-imp-dates.md)
+[Default configurations for important dates]()
 
-[Default configurations for team requests](manager-hub-team-requests.md)
+[Default configurations for team requests]()
 
-[Default configurations for team data](team-data-config.md)
+[Default configurations for team data]()
 
-[Default configurations for team column data](config-team-column.md)
+[Default configurations for team column data]()
 
-[Default configurations for filter groups](config-filter-group.md)
+[Default configurations for filter groups]()
 
-[Default configurations for daily stats](config-daily-stats.md)
+[Default configurations for daily stats]()
 
-[Default configurations for To do's](manager-hub-todos.md)
+[Default configurations for To do's]()
 
-[Use the View menu icon in Manager Hub](../reference/view-menu.md)
+[Use the View menu icon in Manager Hub]()
 
-[Assign learning form](../reference/assign-learning-form.md)
+[Assign learning form]()
 
-[Create a conversation form](../reference/create-conversation-form.md)
+[Create a conversation form]()
 
-[Schedule a conversation form](../reference/schedule-conversation-form.md)
+[Schedule a conversation form]()
 

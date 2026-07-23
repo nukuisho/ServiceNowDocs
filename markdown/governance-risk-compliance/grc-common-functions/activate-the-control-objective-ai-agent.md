@@ -2,6 +2,7 @@
 title: Activate the Control Objective Change Agent
 description: Enable the Control Objective Change Agent in AI Agent Studio to automate compliance workflows using generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/activate-the-control-objective-ai-agent.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions

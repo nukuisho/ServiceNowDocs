@@ -2,11 +2,12 @@
 title: Set up event forwarding
 description: Create an event forwarding configuration record to enable events to flow from one ServiceNow instance to another instance. Forwarding events to multiple target instances requires creating separate configuration records for each target instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-event-forwarding-em.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-06"
 reading_time_minutes: 2
 breadcrumb: [Event forwarding, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -17,7 +18,7 @@ Create an event forwarding configuration record to enable events to flow from on
 
 ## Before you begin
 
-You must have a credential with the evt\_mgmt\_integration role, which enables you to create events in the target instance. If you don't have this credential, see [Create basic auth server credentials](create-credentials-basic-auth.md) for information on how to create it.
+You must have a credential with the evt\_mgmt\_integration role, which enables you to create events in the target instance. If you don't have this credential, see [Create basic auth server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-credentials-basic-auth.md) for information on how to create it.
 
 Role required: evt\_mgmt\_admin
 
@@ -40,7 +41,7 @@ You must create a separate configuration record for each target instance to forw
 4.  In the **Credentials** field, provide the credentials for the target instance by either entering them or searching for them.
 
     -   To enter your credentials, start typing and then select the credential from the drop-down list.
-    -   To search for your credentials, select the Lookup using list icon \(![Lookup using list icon](../image/search-icon.png)\) to select your credential from the credentials lookup table.
+    -   To search for your credentials, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon\) to select your credential from the credentials lookup table.
 5.  Select **Save**.
 
 6.  Select **Test Connection** to validate the connection to the target ServiceNow instance.
@@ -48,6 +49,8 @@ You must create a separate configuration record for each target instance to forw
     -   If the connection succeeded, a confirmation message displays.
     -   If the connection didn't succeed, check your credentials and the instance URL.
 7.  When validated, select the **Active** check box to activate the event forwarding to the target instance and select **Submit**.
+
+    To forward events, you must also activate the **Event Management - Event Forwarding Job** scheduled job.
 
     The configuration is created and is listed on the **Event Sync Configurations** page.
 
@@ -57,5 +60,5 @@ You must create a separate configuration record for each target instance to forw
 **Related topics**  
 
 
-[Periodically run an event forwarding job](configuration-management-job-em.md)
+[Periodically run an event forwarding job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configuration-management-job-em.md)
 

@@ -2,6 +2,7 @@
 title: Exploring Care Team Operations for Facilities
 description: Use the Care Team Operations for Facilities application to resolve facilities issues related to maintenance or repair cases quickly and efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-exploring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +37,7 @@ A range of service requests come preconfigured for use with Care Team Operations
 
 ## Care Team Operations for Facilities workflow
 
-![Example workflow of a facilities issue being reported using Care Team Portal.](../image/cto-facilities-workflow.png "Care Team Operations for Facilities workflow")
+\[Omitted image "cto-facilities-workflow.png"\] Alt text: Example workflow of a facilities issue being reported using Care Team Portal.
 
 1.  An administrator configures the Care Team Operations for Facilities application.
 2.  A care team member detects a facilities issue and reports it using the Care Team Portal.
@@ -46,16 +47,16 @@ A range of service requests come preconfigured for use with Care Team Operations
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Automate healthcare operations by enabling facilities support request creation and fulfillment.|[Healthcare Facilities case overview](cto-facilities-case-overview.md)|Admin|
-|Create support requests and receive visibility to all Facilities service requests created by your teams.|[Creating service requests in Care Team Operations for Facilities](cto-facilities-create-request.md)|Nurse, Nurse assistant, Unit secretary|
-|Use CSM/FSM Configurable Workspace to fulfill facilities service requests.|[Fulfilling service requests in Care Team Operations for Facilities](cto-facilities-fulfilling-requests.md)|Facilities support agent|
+|Automate healthcare operations by enabling facilities support request creation and fulfillment.|[Healthcare Facilities case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-case-overview.md)|Admin|
+|Create support requests and receive visibility to all Facilities service requests created by your teams.|[Creating service requests in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-create-request.md)|Nurse, Nurse assistant, Unit secretary|
+|Use CSM/FSM Configurable Workspace to fulfill facilities service requests.|[Fulfilling service requests in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-fulfilling-requests.md)|Facilities support agent|
 
 ## What to explore next
 
 To learn more about configuring and using Care Team Operations for Facilities, see:
 
--   [Configuring Care Team Operations for Facilities](cto-facilities-configuring.md)
--   [Creating service requests in Care Team Operations for Facilities](cto-facilities-create-request.md)
--   [Fulfilling service requests in Care Team Operations for Facilities](cto-facilities-fulfilling-requests.md)
--   [Care Team Operations for Facilities reference](cto-facilities-reference.md)
+-   [Configuring Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-configuring.md)
+-   [Creating service requests in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-create-request.md)
+-   [Fulfilling service requests in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-fulfilling-requests.md)
+-   [Care Team Operations for Facilities reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-reference.md)
 

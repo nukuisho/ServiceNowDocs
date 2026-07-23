@@ -1,17 +1,18 @@
 ---
-title: Install the ServiceNow Reporting add-in
-description: Install the ServiceNow Reporting add-in to your Microsoft Word document. This add-in is required to import reports and data from your ServiceNow instance to Microsoft Word documents to create disclosure reports.
+title: Install the ServiceNow Document designer add-in
+description: Install the ServiceNow Document designer add-in to your Microsoft Word document. This add-in is required to import reports and data from your ServiceNow instance to Microsoft Word documents to create disclosure reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/install-o365-addin.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-05"
 reading_time_minutes: 1
 breadcrumb: [Integrating Microsoft 365 with ServiceNow reporting, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Install the ServiceNow Reporting add-in
+# Install the ServiceNow Document designer add-in
 
-Install the ServiceNow Reporting add-in to your Microsoft Word document. This add-in is required to import reports and data from your ServiceNow® instance to Microsoft Word documents to create disclosure reports.
+Install the ServiceNow Document designer add-in to your Microsoft Word document. This add-in is required to import reports and data from your ServiceNow instance to Microsoft Word documents to create disclosure reports.
 
 ## Before you begin
 
@@ -27,7 +28,7 @@ Role required: sys\_admin
 
 1.  Navigate to **All** &gt; **ServiceNow Add-Ins for Office** &gt; **Office Add-In Manifests**.
 
-2.  From the Office Manifests list, select **ServiceNow Reporting**.
+2.  Select **ServiceNow Reporting** from the Office Manifests list.
 
 3.  Select **Download Manifest**.
 
@@ -40,5 +41,5 @@ For detailed instructions on how to deploy the manifest file, see the [Deploy ad
 
 To configure the HTTP response headers for add-in for Microsoft Word in the browser, see the [Response header resolution \[KB1434453\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1434453) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Integrating Microsoft 365 with ServiceNow reporting](../concept/integrating-o365-with-servicenow.md)
+**Parent Topic:**[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-o365-with-servicenow.md)
 

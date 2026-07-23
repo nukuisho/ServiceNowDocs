@@ -2,13 +2,14 @@
 title: Components installed with Hardware Model Normalization
 description: Several types of components are installed with activation of the Hardware Model Normalization plugin, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/components-installed-hardware-normalization.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Hardware Asset Management reference, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Components installed with Hardware Model Normalization
@@ -28,5 +29,5 @@ Several types of components are installed with activation of the Hardware Model 
 |Hardware Normalization Map|Hardware product and hardware product model IDs.|
 |Hardware Product|Name of the product and type of device, such as Apple Mac or Lenovo Printer.|
 
-**Parent Topic:**[Hardware Asset Management reference](reference-hardware-asset-management.md)
+**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

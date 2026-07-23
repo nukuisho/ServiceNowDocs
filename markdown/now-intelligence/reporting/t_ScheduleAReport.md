@@ -2,6 +2,7 @@
 title: Schedule emails of Core UI reports
 description: Generate and distribute scheduled reports via email.You can export reports in certain output formats. You can schedule these reports for regular export.If you are on a domain-separated instance, scheduled reports are generated using the "Run as" user's permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_ScheduleAReport.html
 release: australia
 product: Reporting
 classification: reporting
@@ -19,13 +20,13 @@ Generate and distribute scheduled reports via email.
 
 Role required: report\_scheduler, report\_admin, admin
 
-This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Schedule the export of data visualizations or dashboards](../../par-for-workspace/task/schedule-visn-export-vd.md).
+This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Schedule the export of data visualizations or dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/schedule-visn-export-vd.md).
 
 ## About this task
 
 Scheduled reports can be distributed in PDF, CSV, or XLS format. Graphical reports can be distributed in PNG or PDF format. Multilevel pivot reports can only be scheduled in PDF format.
 
-This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a data visualization from the Visualization Designer](../../par-for-workspace/task/export-visualization-vd.md).
+This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Export a data visualization from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-visualization-vd.md).
 
 **Note:**
 
@@ -37,7 +38,7 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 1.  Navigate to **All** &gt; **Platform Analytics experience** &gt; **Schedules** &gt; **Scheduled Reports**.
 
-    On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](../../dashboards/reference/differences-between-core-ui-ne-dbs.md).
+    On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
 2.  Select **New**.
 
@@ -65,7 +66,7 @@ Report
 
 </td><td>
 
-Reference to the report you are scheduling. You can use the Search icon ![Search icon](../image/SearchIcon.png) to locate the report.**Note:** Automatic email support is not available for Calendar, Map, and Single Score reports.
+Reference to the report you are scheduling. You can use the Search icon \[Omitted image "SearchIcon.png"\] Alt text: Search icon to locate the report.**Note:** Automatic email support is not available for Calendar, Map, and Single Score reports.
 
 </td></tr><tr><td>
 
@@ -132,7 +133,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run since that is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
+To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/define-business-calendar-entries.md).
 
 </td></tr><tr><td>
 
@@ -322,7 +323,7 @@ Include with
 
 </td><td>
 
-One or more additional reports to include with the email. It is not possible to order the reports within the email. You can use the Search icon ![Search icon](../image/SearchIcon.png) to locate the additional reports.
+One or more additional reports to include with the email. It is not possible to order the reports within the email. You can use the Search icon \[Omitted image "SearchIcon.png"\] Alt text: Search icon to locate the additional reports.
 
 </td></tr><tr><td>
 
@@ -356,7 +357,7 @@ Shows when **Page size** is set to **Custom**. For non-standard paper sizes, mul
 
 To edit a scheduled email report, open it from the Scheduled Reports list. To delete a report, delete its row from the Scheduled Reports list.
 
-**Parent Topic:**[Distribute reports](../concept/c_DistributeReports.md)
+**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_DistributeReports.md)
 
 ## Report output formats
 
@@ -376,7 +377,7 @@ PDF
 
 </td><td>
 
-Generate a PDF in portrait or landscape orientation. PDF reports include the chart grid data. Map reports cannot be exported to PDF format. **Note:** To export [Multilevel pivot tables](../concept/c_MultilevelPivotCharts.md#) to PDF, you must enable the Webkit HTML to PDF \(com.snc.whtp\) plugin.
+Generate a PDF in portrait or landscape orientation. PDF reports include the chart grid data. Map reports cannot be exported to PDF format. **Note:** To export [Multilevel pivot tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_MultilevelPivotCharts.md) to PDF, you must enable the Webkit HTML to PDF \(com.snc.whtp\) plugin.
 
 </td></tr><tr><td>
 
@@ -416,5 +417,5 @@ If the data in the scheduled report is different than expected, the user who set
 **Related topics**  
 
 
-[Report\_view access control](../concept/report-view-access-control.md)
+[Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md)
 

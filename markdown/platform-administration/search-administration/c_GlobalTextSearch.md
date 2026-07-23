@@ -2,6 +2,7 @@
 title: Global search finds records from multiple tables
 description: Search multiple record types from a single search field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/c\_GlobalTextSearch.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -24,59 +25,59 @@ To perform a global search, perform one of the following actions based on your U
 
 All UI versions also have a global search keyboard shortcut. The `ui_global_text_search` UI Macro provides the global search field.
 
-For a list of search source tables that the system searches by default, along with steps for adding new search source tables, see [Default global search sources for Next Experience UI](search-settings-filter-group-table.md#) and [Default global text search groups for Core UI](search-settings-filter-group-table.md#).
+For a list of search source tables that the system searches by default, along with steps for adding new search source tables, see [Default global search sources for Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-settings-filter-group-table.md) and [Default global text search groups for Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-settings-filter-group-table.md).
 
-Global search supports Boolean operators, quoted phrases, and wildcard characters. For details on these search features, see [Boolean operators allow conditional search results](c_BooleanOperators.md), [Quotation marks allow exact phrase searches](c_PhraseSearches.md), and [Wildcard characters allow searching for patterns and variations](c_Wildcards.md).
+Global search supports Boolean operators, quoted phrases, and wildcard characters. For details on these search features, see [Boolean operators allow conditional search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_BooleanOperators.md), [Quotation marks allow exact phrase searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_PhraseSearches.md), and [Wildcard characters allow searching for patterns and variations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_Wildcards.md).
 
--   **[Global search displays a page of matching results](global-search-polaris-ui.md#)**  
+-   **[Global search displays a page of matching results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-polaris-ui.md)**  
 Global search displays a page of results that match your search, grouped by table.
--   **[Text search views control format of global search results for tables](text-search-view-formats-results.md)**  
+-   **[Text search views control format of global search results for tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/text-search-view-formats-results.md)**  
 The text\_search view for a table determines how global search displays results from that table.
--   **[Search settings filter and group global search results by table](search-settings-filter-group-table.md#)**  
+-   **[Search settings filter and group global search results by table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-settings-filter-group-table.md)**  
 Global search filters and groups matching results by table. You can configure search sources \(in Next Experience UI\) or search groups to define tables and groups for global search.
--   **[Global search displays exact matching records](exact-matches-global-search.md#)**  
+-   **[Global search displays exact matching records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/exact-matches-global-search.md)**  
 When your search exactly matches the **Number** field value for a record, global search takes you directly to that record, bypassing the search results page.
--   **[Global search displays your most recent search queries and results in Next Experience UI](global-search-recent-queries-results.md)**  
+-   **[Global search displays your most recent search queries and results in Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-recent-queries-results.md)**  
 When you select the empty Unified Navigation search field, the system displays lists showing your most recent search queries and your most recently viewed search results. Select a **Recently Searched** query to repeat it, or select a **Recently Viewed** search result record to navigate to it.
--   **[Set global text search properties](../task/set-global-text-search-properties.md)**  
+-   **[Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/set-global-text-search-properties.md)**  
 Administrators can control how global text search behaves with system properties.
--   **[Set the preview limit for global or workspace search in Next Experience UI](../task/set-app-preview-limit-polaris-ui.md)**  
+-   **[Set the preview limit for global or workspace search in Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/set-app-preview-limit-polaris-ui.md)**  
 Override the default limit of 5 preview results per search source on the Next Experience UI search results page for global or workspace search.
--   **[Hide per-table search result counts in Next Experience UI](../task/hide-result-counts-polaris-ui.md)**  
+-   **[Hide per-table search result counts in Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/hide-result-counts-polaris-ui.md)**  
 Suppress display of per-table search result counts in the Next Experience UI search results page.
--   **[Add a workspace application to the Unified Navigation search context menu](../task/add-app-search-context-polaris-ui.md)**  
+-   **[Add a workspace application to the Unified Navigation search context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/add-app-search-context-polaris-ui.md)**  
 Enable users to view results for their Unified Navigation searches in workspace applications as well as in global search.
--   **[Global text search suggestions](../reference/r_GlobalTextSearchSuggestions.md)**  
+-   **[Global text search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/r_GlobalTextSearchSuggestions.md)**  
 Global text search offers two types of search suggestions.
 
-**Parent Topic:**[Zing text indexing and search engine](c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 
 
-[Features of Zing text indexing and search engine](../reference/features-zing.md)
+[Features of Zing text indexing and search engine]()
 
-[Available search options](c_IntroductionToSearching.md)
+[Available search options]()
 
-[Zing generates search results in four phases](c_SearchProcess.md)
+[Zing generates search results in four phases]()
 
-[Zing filters search results with access controls](zing-filters-search-results.md)
+[Zing filters search results with access controls]()
 
-[Zing computes document scores using three components](c_DocumentScoring.md)
+[Zing computes document scores using three components]()
 
-[Zing indexes words](zing-indexes-words.md)
+[Zing indexes words]()
 
-[Zing can include attachments in search results](c_SearchingForAttachments.md)
+[Zing can include attachments in search results]()
 
-[Zing removes stop words from queries](stop-words-removed-from-queries.md)
+[Zing removes stop words from queries]()
 
-[Zing matches derived words with stemming](stemming-matches-derived-words.md)
+[Zing matches derived words with stemming]()
 
-[Zing can expand search results with synonyms](search-synonyms-expand-results.md)
+[Zing can expand search results with synonyms]()
 
-[Zing displays search suggestions as users enter search terms](search-suggestions-zing.md)
+[Zing displays search suggestions as users enter search terms]()
 
-[Installed with Zing](../reference/installed-with-zing.md)
+[Installed with Zing]()
 
 [Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md)
 

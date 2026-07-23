@@ -2,6 +2,7 @@
 title: Start the processing for an invoice imported via integration with third-party applications
 description: Start the processing for an invoice that doesn't have an associated invoice processing case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -31,13 +32,13 @@ The **Start invoice processing** option is not displayed for invoices that are i
 
 **Note:** Accounts Payable Operations includes the Start Invoice Processing for Orphan Invoices flow, which automatically picks up all the PO and Non-PO invoice type records that are in the Draft status that don't have an invoice processing case associated to them and starts their processing.
 
-You don't need to perform this manual task if you've activated the Start Invoice Processing for Orphan Invoices flow. For more information, see [Activate the Start Invoice Processing for Orphan Invoices flow](activate-start-invoice-processing-flow.md).
+You don't need to perform this manual task if you've activated the Start Invoice Processing for Orphan Invoices flow. For more information, see [Activate the Start Invoice Processing for Orphan Invoices flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Navigate to **Lists** &gt; **Primary Data** &gt; **Invoices**.
 
@@ -54,25 +55,25 @@ You don't need to perform this manual task if you've activated the Start Invoice
     The invoices for which an invoice processing case is not created automatically, a scheduled job runs at regular intervals to pick up such invoices, creates an invoice case for each invoice, and starts the processing for the invoices. The scheduled job enables you to start the processing for all such invoices in bulk, without requiring you to start the processing for each invoice individually.
 
 
--   **[Activate the Start Invoice Processing for Orphan Invoices flow](activate-start-invoice-processing-flow.md)**  
-Activate the **Start Invoice Processing for Orphan Invoices** flow to start the processing of an invoice that doesn’t have an associated invoice case.
+-   **[Activate the Start Invoice Processing for Orphan Invoices flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/activate-start-invoice-processing-flow.md)**  
+Activate the **Start Invoice Processing for Orphan Invoices** flow to process invoices that don’t have an associated invoice case.
 
-**Parent Topic:**[Accounts Payable Specialist manual tasks](../concept/aps-manual-tasks.md)
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 
 
-[View the invoice processing case associated with an invoice](view-invoice-case.md)
+[View the invoice processing case associated with an invoice]()
 
-[Review an invoice in Document Intelligence](review-invoice-docintel.md)
+[Review an invoice in Document Intelligence]()
 
-[Enter the missing required invoice information and submit an invoice](enter-missing-docintel.md)
+[Enter the missing required invoice information and submit an invoice]()
 
-[Confirm whether an invoice is a duplicate](confirm-duplicate-invoice.md)
+[Confirm whether an invoice is a duplicate]()
 
-[Convert invoice type](convert-invoice-case.md)
+[Convert invoice type]()
 
-[Reset an invoice to the Received status](reset-invoice-to-received.md)
+[Reset an invoice to the Received status]()
 
-[Check for invoice exceptions on a single invoice](identify-exceptions-manually.md)
+[Check for invoice exceptions on a single invoice]()
 

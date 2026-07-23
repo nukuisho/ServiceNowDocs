@@ -2,6 +2,7 @@
 title: Governance and admin safeguards
 description: Find guidance on preparing your instance for AI deployment, maintaining domain separation, and reducing risk across your Now Assist implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-governance-and-admin-safeguards.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -19,31 +20,31 @@ Responsible AI deployment requires more than configuring individual features. Yo
 
 The following topics describe how to use the Now Assist Readiness Evaluation app to evaluate whether your instance is prepared for generative AI and agentic AI deployment, and to identify and resolve any gaps before going live.
 
--   **[Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.md)**
+-   **[Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation-landing-page.md)**
 
     The Now Assist Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, Now Assist for five products, or both.
 
--   **[Exploring Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/exploring-now-assist-readiness-evaluation.md)**
+-   **[Exploring Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-readiness-evaluation.md)**
 
     Learn how the Now Assist Readiness Evaluation app automates assessment processes, evaluates data readiness, and provides actionable insights to help you adopt Now Assist quickly.
 
--   **[Configuring Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)**
+-   **[Configuring Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist-readiness-evaluation.md)**
 
     Run the scheduled jobs and complete the guided setup configuration steps before viewing generative AI and agentic AI assessment results.
 
--   **[Using Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)**
+-   **[Using Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-readiness-evaluation.md)**
 
     Find actionable items in your implementation preparation and use direct hyperlinks to address identified gaps.
 
--   **[Agentic AI - Assessment dashboard tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/agentic-ai-assessment-dashboard.md)**
+-   **[Agentic AI - Assessment dashboard tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-ai-assessment-dashboard.md)**
 
     Determine agentic AI readiness for IT Service Management \(ITSM\) and Customer Service Management \(CSM\) through automated, data-driven insights in the Agentic AI Assessment tab.
 
--   **[Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)**
+-   **[Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/reviewing-agentic-ai-assesment.md)**
 
     Evaluate potential implementation impacts and get actionable insights for agentic AI in Now Assist for IT Service Management \(ITSM\) and Now Assist for Customer Service Management \(CSM\).
 
--   **[Reviewing your Now Assist assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md)**
+-   **[Reviewing your Now Assist assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/reviewing-now-assist-assessment.md)**
 
     Evaluate potential implementation impacts and get actionable insights for Now Assist products.
 
@@ -52,7 +53,7 @@ The following topics describe how to use the Now Assist Readiness Evaluation app
 
 Domain separation lets you isolate data and processes across multiple business units or tenants on a single ServiceNow instance. The following topics describe domain separation support across Now Assist products.
 
--   **[Exploring domain separation](../../company-and-domain-separation/concept/c_DomainSeparation.md)**
+-   **[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)**
 
     Understand how domain separation works on the ServiceNow AI Platform and how to configure it to keep data isolated across your organization.
 
@@ -68,10 +69,10 @@ Domain separation lets you isolate data and processes across multiple business u
 
     Domain separation is supported for Now Assist Center. Learn how domain separation affects AI configuration and data visibility in Now Assist Center.
 
--   **[Now Assist in Virtual Agent domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/na-in-va-domain-separation.md)**
+-   **[Now Assist in Virtual Agent domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/na-in-va-domain-separation.md)**
 
     Domain separation is supported for Now Assist in Virtual Agent. Learn how domain separation affects AI configuration and data visibility in the virtual agent.
 
 
-**Parent Topic:**[Agentic AI security and governance](now-assist-security.md)
+**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)
 

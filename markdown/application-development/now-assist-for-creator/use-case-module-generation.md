@@ -2,13 +2,14 @@
 title: Use case: Generate modules using Now Assist
 description: Create and configure application menu modules using natural language
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/use-case-module-generation.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Use case, Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use case, Use, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Use case: Generate modules using Now Assist
@@ -29,7 +30,7 @@ Using the Module generation feature, the admin provides a single natural-languag
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](../task/install-ui-generation.md) and [Grant UI Builder admin role](../task/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/grant-ui-builder-admin-role.md).
 
 ## Configuration steps
 
@@ -38,7 +39,7 @@ Perform the following steps to generate modules:
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 2.  From the application navigator, select **All**, then select **Create menu**.
 
-    ![image.ui_gen_module_gen_create_menu]
+    \[Omitted image "ui\_gen\_module\_gen\_create\_menu.png"\] Alt text: The Create menu button \(+\) highlighted in the UI Builder navigation panel.
 
 3.  Enter a name for the application menu \(for example, Warehouse Operations\) and select Create.
 4.  On the Add modules page, select **Generate multiple modules at once using Now Assist**.
@@ -54,12 +55,12 @@ Perform the following steps to generate modules:
 
 The administrator creates and configures a five-module application menu within a single workflow. The resulting modules are immediately ready for use in the application navigator.
 
-**Parent Topic:**[UI Generation use cases](../task/ui-generation-use-cases.md)
+**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ui-generation-use-cases.md)
 
 **Related topics**  
 
 
-[Module generation](ai_module_creation_concept.md)
+[Module generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ai_module_creation_concept.md)
 
-[Generate modules using Now Assist](../task/generate-ai-modules.md)
+[Generate modules using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-ai-modules.md)
 

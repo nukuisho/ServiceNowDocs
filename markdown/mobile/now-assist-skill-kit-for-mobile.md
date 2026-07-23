@@ -2,6 +2,7 @@
 title: Now Assist Skill Kit for mobile
 description: The Now Assist Skill Kit plugin lets you create and activate custom prompts and skills for Now Assist on your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/now-assist-skill-kit-for-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

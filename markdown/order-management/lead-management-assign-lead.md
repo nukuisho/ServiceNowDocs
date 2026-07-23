@@ -2,6 +2,7 @@
 title: Assign a lead
 description: Assign a lead to a sales agent in Lead Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management-assign-lead.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,13 +20,13 @@ Role required: sales\_agent or sales\_manager
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and select an existing lead that you're working with.
 
     -   On the **Leads- All** page, select **Assign to**.
-    -   Open the lead record, select three-dot menu ![](../image/icon-three-dot-menu.png) at the top-right corner on the lead header and select **Assign to**.
-    To [Create a lead](create-new-lead.md), select **New**.
+    -   Open the lead record, select three-dot menu \[Omitted image "icon-three-dot-menu.png"\] Alt text: at the top-right corner on the lead header and select **Assign to**.
+    To [Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-new-lead.md), select **New**.
 
     **Note:**
 
@@ -40,7 +41,14 @@ Role required: sales\_agent or sales\_manager
 
 ## What to do next
 
-To learn more, see [Using Lead Management](../concept/lead-management-using.md).
+To learn more, see [Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md).
 
-**Parent Topic:**[Using Lead Management](../concept/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+
+**Related topics**  
+
+
+[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
 

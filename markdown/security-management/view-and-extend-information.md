@@ -2,6 +2,7 @@
 title: Extend the MITRE-ATT&amp;CK data
 description: Extend the MITRE-ATT&amp;CK repository data in the ServiceNow AI Platform by enriching it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/view-and-extend-information.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required:
 
 You can extend the Malware, Group, Mitigation, and Tool objects to a technique in the MITRE-ATT&amp;CK repository.
 
-You can create a new object and establish a relationship between a technique and the new object in the MITRE ATT&amp;CK Repository module, but you can't define the relationship type in this module. For more information about defining relationship types, see [object to object relationships](define-object-object.md). To define a relationship type, navigate to the **Threat Intelligence** &gt; **IoC Repository** &gt; **Object-Object Relationships** module.
+You can create a new object and establish a relationship between a technique and the new object in the MITRE ATT&amp;CK Repository module, but you can't define the relationship type in this module. For more information about defining relationship types, see [object to object relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-object-object.md). To define a relationship type, navigate to the **Threat Intelligence** &gt; **IoC Repository** &gt; **Object-Object Relationships** module.
 
 If you map the relationship type between an existing technique and an existing object, then you must define the technique as the target object and the object as the source object. To do so, navigate to the **IoC Repository** &gt; **Object-Object Relationships** module.
 
@@ -39,63 +40,63 @@ You can create a group and associate it with an attack pattern, but in the MITRE
 
 2.  Click a techniques or sub-technique to view all the associated information with this technique.
 
-    In the following illustration, you can see that the Botnet \(T1584.005\) technique is not associated with any group. If you have additional information about a technique or sub-technique, you can enrich it by adding or modifying the information.![Associate a Botnet with another object.](../image/mitre-botnet.png)
+    In the following illustration, you can see that the Botnet \(T1584.005\) technique is not associated with any group. If you have additional information about a technique or sub-technique, you can enrich it by adding or modifying the information.\[Omitted image "mitre-botnet.png"\] Alt text: Associate a Botnet with another object.
 
 3.  Click a related list to enrich its data to associate it with a new group.
 
     In the following illustration, a group, Custom1, has been associated with the Botnet sub-technique.
 
-    ![Extend MITRE object information by enriching its data.](../image/mitre-extend-object.gif)
+    \[Omitted image "mitre-extend-object.gif"\] Alt text: Extend MITRE object information by enriching its data.
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](../concept/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 
 
-[Get started with MITRE-ATT&amp;CK framework](../reference/get-started-with-mitre.md)
+[Get started with MITRE-ATT&amp;CK framework]()
 
-[Understand the MITRE to STIX data model](../reference/understand-the-mitre-to-stix-data-model-mapping.md)
+[Understand the MITRE to STIX data model]()
 
-[Domain separation and MITRE-ATT&amp;CK](../reference/domain-separation-and-mitre-att-ck.md)
+[Domain separation and MITRE-ATT&amp;CK]()
 
-[Set up the MITRE-ATT&amp;CK framework](setup-mitre-profile.md)
+[Set up the MITRE-ATT&amp;CK framework]()
 
-[Manage matrices](view-mitre-collection.md)
+[Manage matrices]()
 
-[Manage techniques](view-techniques.md)
+[Manage techniques]()
 
-[Manage mitigations](manage-mitigations.md)
+[Manage mitigations]()
 
-[Manage groups](manage-groups-threat-intel.md)
+[Manage groups]()
 
-[Manage malware](manage-malware.md)
+[Manage malware]()
 
-[Manage tools](manage-tools.md)
+[Manage tools]()
 
-[Manage MITRE relationships](manage-mitre-relationships.md)
+[Manage MITRE relationships]()
 
-[Manage CVE and technique mapping](manage-cve-and-technique-mapping.md)
+[Manage CVE and technique mapping]()
 
-[Define the data source and detection tool mapping](manage-mitre-att-ck-data-sources.md)
+[Define the data source and detection tool mapping]()
 
-[Define the data source and data component mapping](map-the-data-source-and-data-components.md)
+[Define the data source and data component mapping]()
 
-[Define the technique detection coverage](define-technique-coverage.md)
+[Define the technique detection coverage]()
 
-[Map your technique detection coverage to a technique](map-technique-coverage.md)
+[Map your technique detection coverage to a technique]()
 
-[Define the mitigation coverage](define-the-mitigation-coverage.md)
+[Define the mitigation coverage]()
 
-[Map your mitigation coverage to a technique](map-your-mitigation-coverage-to-a-technique.md)
+[Map your mitigation coverage to a technique]()
 
-[Create and map detection rules](create-detection-rules.md)
+[Create and map detection rules]()
 
-[Auto-extract technique rules for importing MITRE-ATT&amp;CK information](../concept/auto-extract-technique-rules.md#)
+[Auto-extract technique rules for importing MITRE-ATT&amp;CK information]()
 
-[Review threat group and MITRE-ATT&amp;CK techniques mapping](review-threat-group-and-techniques-mapping.md)
+[Review threat group and MITRE-ATT&amp;CK techniques mapping]()
 
-[Threat group to technique heatmap definition](threat-group-to-technique-heatmap-definition.md)
+[Threat group to technique heatmap definition]()
 
-[Review the MITRE-ATT&amp;CK system properties](configure-mitre-att-ck-properties.md)
+[Review the MITRE-ATT&amp;CK system properties]()
 

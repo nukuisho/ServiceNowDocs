@@ -2,6 +2,7 @@
 title: Create log protection property
 description: Create a log protection property to avoid the risk of log tampering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/log-protection-property.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,9 +2,10 @@
 title: Configure Now Assist for Retail Service Management \(RSM\)
 description: The collection comprises of Now Assist for Retail Service Management \(RSM\) and RSM AI agent collection. The Now Assist for Retail Service Management \(RSM\) and RSM AI agent collection together enable the store inquiry AI agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-now-assist-configure.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for Retail Service Management \(RSM\), Retail]
 ---

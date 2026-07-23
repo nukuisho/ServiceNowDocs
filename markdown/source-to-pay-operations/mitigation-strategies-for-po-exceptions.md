@@ -2,6 +2,7 @@
 title: Identify and execute mitigation strategies for purchase order exceptions
 description: Leverage the define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/mitigation-strategies-for-po-exceptions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,13 +41,13 @@ The following table lists the agents that are used in the Define PO exception mi
 |Scripts|Autonomous|Fetch Exception and Gap Schedule Details|Retrieves the purchase order exception details and delivery gap schedule.|
 |Scripts|Autonomous|Get Editable Purchase Orders|Searches for alternative purchase order lines that can be modified to resolve delivery gaps.|
 
--   **[Identify mitigation strategies for purchase order exceptions](../task/identify-mitigation-strategies-for-exceptions.md)**  
+-   **[Identify mitigation strategies for purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/identify-mitigation-strategies-for-exceptions.md)**  
 The Define PO exception mitigation strategy workflow assesses the material delivery gap caused by an exception. It then identifies alternative suppliers with open lines for the affected product model and proposes order adjustments to mitigate the shortfall.
 
-**Parent Topic:**[Using agentic workflows in Now Assist for Purchase Order Management \(POM\)](using-agentic-wf-na-for-pom.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/using-agentic-wf-na-for-pom.md)
 
 **Related topics**  
 
 
-[Automated purchase order exception creation from emails](convert-emails-to-exceptions.md)
+[Automated purchase order exception creation from emails]()
 

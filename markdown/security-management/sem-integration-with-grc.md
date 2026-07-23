@@ -2,9 +2,10 @@
 title: Request an exception using GRC: Policy and Compliance Management
 description: Request policy exceptions using the GRC policy exception management capability in the Policy and Compliance Management application from within Vulnerability Response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-integration-with-grc.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Configure Exception Management for Security Exposure Management, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -67,7 +68,7 @@ Valid until
 
 </td><td>
 
-Date that the policy exception expires and the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid cannot exceed the **Maximum exception duration \(days\)** that you set for the policy in Policy and Compliance. For more information, see [Create a policy](https://www.servicenow.com/docs/bundle/zurich-governance-risk-compliance/page/product/grc-policy-and-compliance/task/t_DefineAPolicy.html).
+Date that the policy exception expires and the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid cannot exceed the **Maximum exception duration \(days\)** that you set for the policy in Policy and Compliance. For more information, see [Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/t_DefineAPolicy.md).
 
 </td></tr><tr><td>
 
@@ -88,8 +89,8 @@ Details that are related to the reason why this request is being made. This mand
 </td></tr></tbody>
 </table>4.  Click **Submit**.
 
-    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance optional setup](https://www.servicenow.com/docs/bundle/zurich-governance-risk-compliance/page/product/grc-policy-compliance-implementation/concept/policy-compliance-optional-steps.html).
+    For more information on the Policy Exception Integration and the hand-off between the remediation owner and the compliance manager, see [Policy and Compliance optional setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-compliance-optional-steps.md).
 
 
-**Parent Topic:**[Configure Exception Management for Security Exposure Management](sem-configure-exp-mngmt-vr.md)
+**Parent Topic:**[Configure Exception Management for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exp-mngmt-vr.md)
 

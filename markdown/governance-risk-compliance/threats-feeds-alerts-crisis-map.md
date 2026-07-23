@@ -2,6 +2,7 @@
 title: Crisis map interface
 description: You can integrate Crisis map with the BCM application and initiate the response workflows for crisis management. After installing the Crisis map application, you can view the Threat and Alert Data Feeds module in your BCM application instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/threats-feeds-alerts-crisis-map.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ When you integrate the Crisis map application with the BCM application, you can 
 
 -   **Event**
 
-    Based on the severity of the alerts, you can take actions such as notifying the stakeholders of the incident or declaring a crisis event. An event can become a crisis event if it disrupts the business operations. For information on the crisis events, see [Crisis map view](crisis-map-uib-ws.md). You can then activate the business continuity plans for the locations that are impacted by the event.
+    Based on the severity of the alerts, you can take actions such as notifying the stakeholders of the incident or declaring a crisis event. An event can become a crisis event if it disrupts the business operations. For information on the crisis events, see [Crisis map view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-uib-ws.md). You can then activate the business continuity plans for the locations that are impacted by the event.
 
 
 ## Threat and Alert Data Feeds module in BCM
@@ -40,7 +41,7 @@ The **Threat and Alert Data Feeds** module in BCM displays details:
 
 The **Threat and Alert Data Feeds** module is shown in the example.
 
-![Threat alerts and data feeds.](../image/threat-alert-data-feeds-admin-tasks.png)
+\[Omitted image "threat-alert-data-feeds-admin-tasks.png"\] Alt text: Threat alerts and data feeds.
 
 ## Feeds module in BCM
 
@@ -53,7 +54,7 @@ The **Feeds** module in BCM displays types of feeds:
 
 A sample view of the active feeds is displayed in the example.
 
-![Active feeds view.](../image/feeds.png)
+\[Omitted image "feeds.png"\] Alt text: Active feeds view.
 
 You can use the **Personalize List** icon to configure the list columns in the **Feeds** module. For example, you can display additional details on the alert:
 
@@ -90,7 +91,7 @@ The **Alerts** module in BCM displays types of feeds:
 
 A sample view of the active alerts is shown in the example.
 
-![Active alerts.](../image/alerts.png)
+\[Omitted image "alerts.png"\] Alt text: Active alerts.
 
 You can use the **Personalize List** icon to configure the list columns in the **Alerts** module. For example, you can display these details on the alert:
 
@@ -104,31 +105,31 @@ You can use the **Personalize List** icon to configure the list columns in the *
 
 ## Administrative tasks in the Threat and Alert Data Feeds module
 
-If you have the BCM administrator role, see [Setup for Crisis map](crisis-map-admin-tasks.md) for information on the setup tasks.
+If you have the BCM administrator role, see [Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-admin-tasks.md) for information on the setup tasks.
 
 The **Administration** module in BCM displays types of feeds:
 
 -   **Scheduled imports**
 
-    To manage your threat feed subscriptions that are sourced internally and externally, you must schedule a data import from the data source at defined intervals. For more information on scheduled imports, see [Configure Scheduled Data Imports records](../task/sched-data-imports-crisis-map-uib-ws.md).
+    To manage your threat feed subscriptions that are sourced internally and externally, you must schedule a data import from the data source at defined intervals. For more information on scheduled imports, see [Configure Scheduled Data Imports records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sched-data-imports-crisis-map-uib-ws.md).
 
 -   **Resource configuration**
 
-    To plot your organization's assets or resources on the Crisis map, you must configure the resources in the application. For more information on resource configuration, see [Configure Resource Configuration records](../task/conf-resource-for-crisis-map-uib-ws.md).
+    To plot your organization's assets or resources on the Crisis map, you must configure the resources in the application. For more information on resource configuration, see [Configure Resource Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-resource-for-crisis-map-uib-ws.md).
 
 -   **Alert rules**
 
-    To display the feeds as alerts on the Crisis map, configure the alert rules. For more information on alert rules, see [Configure alert rules](../task/conf-alert-rule-uib-ws.md).
+    To display the feeds as alerts on the Crisis map, configure the alert rules. For more information on alert rules, see [Configure alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-alert-rule-uib-ws.md).
 
 -   **Alert actions**
 
-    To act on a critical alert from the Crisis map dashboard, see [Configure alert actions](../task/configure-alert-action-uib-ws.md).
+    To act on a critical alert from the Crisis map dashboard, see [Configure alert actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-alert-action-uib-ws.md).
 
 
--   For information on the administrative tasks for Crisis map, see [Setup for Crisis map](crisis-map-admin-tasks.md).
--   To search for locations on the Crisis map, you must set the **sn\_bcm\_map.use\_google\_places\_lib** system property. For more information, see [Properties installed with BCM](../reference/properties-bcm.md).
+-   For information on the administrative tasks for Crisis map, see [Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-admin-tasks.md).
+-   To search for locations on the Crisis map, you must set the **sn\_bcm\_map.use\_google\_places\_lib** system property. For more information, see [Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/properties-bcm.md).
 
 ## Crisis map
 
-For information on managing the alerts in Crisis map, see [Structured workflows for Crisis map](crisis-map-collective-tasks.md).
+For information on managing the alerts in Crisis map, see [Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-collective-tasks.md).
 

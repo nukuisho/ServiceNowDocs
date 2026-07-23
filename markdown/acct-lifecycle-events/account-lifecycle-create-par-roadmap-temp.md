@@ -1,15 +1,16 @@
 ---
-title: Create a product adoption roadmap template
+title: Define a product adoption roadmap template
 description: Create a template that defines a pre-configured adoption strategy with products or capabilities organized into lanes, that can be customized as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-par-roadmap-temp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Product capabilities, Customer success, Configure, Customer Success Management]
 ---
 
-# Create a product adoption roadmap template
+# Define a product adoption roadmap template
 
 Create a template that defines a pre-configured adoption strategy with products or capabilities organized into lanes, that can be customized as needed.
 
@@ -94,7 +95,7 @@ Enter a description of the template's purpose and the adoption approach it repre
 
     All items appear in the Unmapped lane.
 
-    ![Product adoption roadmap template](../image/product-adopt-road-temp.jpg)
+    \[Omitted image "product-adopt-road-temp.jpg"\] Alt text: Product adoption roadmap template
 
 5.  To organize the items, follow these steps:
 
@@ -114,12 +115,12 @@ Enter a description of the template's purpose and the adoption approach it repre
 
 The template is created with items organized into lanes. When you create a roadmap from this template, the items are already arranged according to the template's organization, eliminating the need to organize them from scratch. You can customize the roadmap for your specific needs while maintaining the template's structure.
 
-**Parent Topic:**[Customer success](../concept/account-lifecycle-config-cust-success.md)
+**Parent Topic:**[Configure product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-prod-cap.md)
 
 **Related topics**  
 
 
-[View a product adoption roadmap](../concept/account-lifecycle-view-par-roadmap.md)
+[View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md)
 
-[Product adoption roadmap](../concept/account-lifecycle-par-roadmap.md)
+[Product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-roadmap.md)
 

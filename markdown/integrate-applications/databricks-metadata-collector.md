@@ -2,10 +2,11 @@
 title: Databricks metadata collector
 description: The Databricks metadata collector provides read-only access to metadata from an external Databricks account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/databricks-metadata-collector.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -166,6 +167,57 @@ Metric View
 Name, Description, YAML Definition, Source Table, Source Table Type, Filter, Created, Last Modified
 
 </td></tr></tbody>
+</table>Following additional information is cataloged when you run the collector with the **​Enable Governance Metadata Collection** option.
+
+<table id="table_governance_policies"><thead><tr><th>
+
+Object
+
+</th><th>
+
+Information Cataloged
+
+</th></tr></thead><tbody><tr><td>
+
+Row Filter Access Control
+
+</td><td>
+
+Name
+
+</td></tr><tr><td>
+
+Column Mask Access Control
+
+</td><td>
+
+Name
+
+</td></tr><tr><td>
+
+Attribute Based Access Control
+
+</td><td>
+
+Name, Description, Created by, Created at, Modified by, Modified at, On securable type, For securable type, To principals, Except principals
+
+</td></tr><tr><td>
+
+Workspace bindings
+
+</td><td>
+
+Workspace ID, Binding type
+
+</td></tr><tr><td>
+
+Privileges
+
+</td><td>
+
+Granted to, Granted by, Privilege type, Granted on object, Inherited from
+
+</td></tr></tbody>
 </table>## Relationships between objects
 
 The harvested metadata includes catalog pages for the following data asset types. Each catalog page has a relationship to the other related data asset types.
@@ -184,7 +236,11 @@ Table
 
 </td><td>
 
-Columns contained in Table
+-   Columns contained in Table
+-   ​​​Table Indexes​
+-   ​​Has privileges
+
+ Columns contained in Table
 
 </td></tr><tr><td>
 
@@ -194,6 +250,7 @@ Schema
 
 -   Database that contains Schema
 -   Table that is part of Schema
+-   Has privileges
 
 </td></tr><tr><td>
 
@@ -209,7 +266,16 @@ Columns
 
 </td><td>
 
-Table containing Column
+-   Table Indexes
+-   Table containing Column
+
+</td></tr><tr><td>
+
+Table Indexes
+
+</td><td>
+
+Columns
 
 </td></tr><tr><td>
 
@@ -265,6 +331,7 @@ External Location
 
 -   Uses storage credential
 -   Connects to datasource \(S3 bucket, S3 Object, Azure container or Azure blob\)
+-   Has workspace bindings
 
 </td></tr><tr><td>
 
@@ -272,7 +339,8 @@ Storage Credential
 
 </td><td>
 
-Used by External Location
+-   Has workspace bindings
+-   Used by External Location
 
 </td></tr><tr><td>
 
@@ -309,6 +377,63 @@ Metric View
 
 -   Schema that contains Metric Views
 -   Columns that are part of Metric Views
+
+</td></tr><tr><td>
+
+Pipeline
+
+</td><td>
+
+-   Copies data to Databricks Table/Database Schema
+-   Ingests data from Database Table/Database Schema
+
+</td></tr><tr><td>
+
+Unity Catalog Metastore
+
+</td><td>
+
+Databases contained in metastore
+
+</td></tr><tr><td>
+
+Row Filter Access Control
+
+</td><td>
+
+-   Applies to table
+-   Uses function
+-   Using column
+-   Contained within schema
+
+</td></tr><tr><td>
+
+Column Mask Access Control
+
+</td><td>
+
+-   Applies to column
+-   Uses function
+-   Contained within schema
+
+</td></tr><tr><td>
+
+Attribute Based Access Control
+
+</td><td>
+
+-   Applies to catalog, schema and table
+-   Defined on catalog, schema and table
+-   Uses function
+
+</td></tr><tr><td>
+
+Catalog
+
+</td><td>
+
+-   Has workspace bindings
+-   Has privileges
 
 </td></tr></tbody>
 </table>## Lineage for Databricks
@@ -360,10 +485,10 @@ Table
 
 The Databricks collector supports Personal access token authentication and Oauth service principal authentication.
 
--   **[Prepare to run the Databricks collector](../task/prepare-to-run-the-databricks-collector.md#)**  
+-   **[Prepare to run the Databricks collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-the-databricks-collector.md)**  
 Complete authentication and permission configuration tasks before running the Databricks metadata collector.
--   **[Create a Databricks metadata collector](../task/create-databricks-metadata-collector.md)**  
+-   **[Create a Databricks metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-databricks-metadata-collector.md)**  
 Create a collector to import metadata from Databricks.
 
-**Parent Topic:**[Configuring metadata collectors](configure-metadata-collectors-dc.md)
+**Parent Topic:**[Configuring metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)
 

@@ -2,6 +2,7 @@
 title: Working with digital integrations
 description: Add or edit a digital integration, manage architectural artifacts, and information objects of a digital integration in Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-work-with-digital-integrations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,14 +14,16 @@ breadcrumb: [Working with digital integration management in Enterprise Architect
 
 Add or edit a digital integration, manage architectural artifacts, and information objects of a digital integration in Enterprise Architecture Workspace.
 
--   **[View all digital integrations](../../task/eaw-task/eaw-view-all-dig-integ.md)**  
+-   **[View all digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-dig-integ.md)**  
 View the list of all your digital integrations in the Enterprise Architecture Workspace.
--   **[Add or edit a digital integration in the EA Workspace](../../task/eaw-task/eaw-create-digital-integ.md)**  
+-   **[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-digital-integ.md)**  
 Add a digital integration or edit an existing digital integration in the EA Workspace. The digital integration is a design object used by the Enterprise Architects. It describes a connection between two business applications or between a business application and an external service \(for example: AWS, Yahoo, a TimeZone Conversion service\) that provides an interface \(API\) to interact with.
--   **[Manage architectural artifacts of a digital integration in EA Workspace](../../task/eaw-task/eaw-assoicate-artifact-dig-intgn.md)**  
+-   **[Manage architectural artifacts of a digital integration in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-dig-intgn.md)**  
 You can create new, add, or remove the architectural artifacts that are associated with a digital integration.
--   **[Associate an information object to a digital integration](../../task/eaw-task/eaw-dig-integ-add-info-object.md)**  
+-   **[Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-integ-add-info-object.md)**  
 Associate an information object to a digital integration in the Enterprise Architecture Workspace.
+-   **[Example: Provider and subscriber with data flow directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/example-prov-n-subsc-roles-with-data-flow.md)**  
+The provider and subscriber roles are independent of the data flow direction. The following example illustrates how the same provider and subscriber pairing can support both outgoing and incoming data flow directions.
 
-**Parent Topic:**[Working with digital integration management in Enterprise Architecture Workspace](eaw-work-with-digital-integ-mngmnt.md)
+**Parent Topic:**[Working with digital integration management in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-digital-integ-mngmnt.md)
 

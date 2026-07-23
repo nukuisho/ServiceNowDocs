@@ -2,6 +2,7 @@
 title: Resolve Coaching issues
 description: Resolve common issues when setting up or running Coaching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-coaching-troubleshooting.html
 release: australia
 product: Coaching
 classification: coaching
@@ -59,7 +60,7 @@ Implement Coaching [extension points](https://raw.githubusercontent.com/ServiceN
 -   CoachingACLExtensionPoint
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Coaching reference](cf-coaching-reference.md)
+</table>**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-reference.md)
 
 **Related topics**  
 

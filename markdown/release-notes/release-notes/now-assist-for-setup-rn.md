@@ -1,29 +1,29 @@
 ---
-title: Now Assist for Setup release notes
-description: The ServiceNow Now Assist for Setup application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. Now Assist for Setup is a new application in the Australia release.
+title: Setup Hub release notes
+description: The ServiceNow Setup Hub application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. Setup Hub is a new application in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
-# Now Assist for Setup release notes
+# Setup Hub release notes
 
-The ServiceNow® Now Assist for Setup application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. Now Assist for Setup is a new application in the Australia release.
+The ServiceNow® Setup Hub application centralizes instance management through a modular, personalized Admin Home dashboard, reducing administrative ambiguity and improving task efficiency. Setup Hub is a new application in the Australia release.
 
-## Now Assist for Setup highlights for the Australia release
+## Setup Hub highlights for the Australia release
 
 -   Automates setup and configuration by installing required products and applying default settings.
 -   Simplifies administration with a clear, modular Admin Home UI that centralizes access and accelerates task completion.
 -   Introduces Product Hubs to centralize discovery, installation, and configuration of entitled Now Assist products through guided, modular setup flows.
 -   Delivers an intuitive, customizable experience with streamlined access to critical tools based on user entitlements.
 
-See [Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md) for more information.
+See [Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md) for more information.
 
-**Important:** Now Assist for Setup is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** Setup Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Now Assist for Setup features
+## Setup Hub features
 
 -   **[Enhanced Admin Home experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)**
 
@@ -41,10 +41,34 @@ See [Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
     Configure the Platform module and applicable product modules from a unified configuration experience that guides you through module‑specific setup, with the Platform module appearing only when the selected product includes platform‑level changes for the installation.
 
+-   **[Tiered SKU support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)**
+
+    Setup Hub added support for Advanced and Prime SKUs across Simplified ITSM and CBS, including entitlement-driven experiences and flows.
+
+-   **[Product Hub experience enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-apps.md)**
+
+    Enhanced the Product Hub experience with updates to the Resources section and guided content.
+
+-   **[LitJS component support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md)**
+
+    Enabled support for importing and using LitJS components within Now Assist Panel to support a consistent component framework.
+
+-   **[Configuration tracking and Admin Home guidance enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)**
+
+    Enhanced configuration tracking and updated Admin Home banners and messaging to provide improved visibility into updates and guide users through setup tasks and implementation milestones.
+
+-   **[Zero-touch implementation enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)**
+
+    Expanded zero‑touch installation to automatically install Setup Hub with selected applications and plugins for new ServiceNow customer in supported non‑production instances, with installation status tracking and readiness for configuration.
+
+-   **[Configuration Console page UI enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-configure-il.md)**
+
+    Enhanced the Configuration Console with search support, task management actions, configuration status indicators, and integrated Now Assist agent guidance.
+
 
 ## Activation information
 
-Install Now Assist for Setup by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Setup Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -59,5 +83,5 @@ Install Now Assist for Setup by requesting it from the ServiceNow Store. Visit t
     -   app-ia-config
     -   admin-center
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
 

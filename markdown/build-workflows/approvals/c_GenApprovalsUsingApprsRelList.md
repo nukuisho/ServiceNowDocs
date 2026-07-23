@@ -2,6 +2,7 @@
 title: Generate approvals using the approvers related list
 description: It is possible to manually add approvers to a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/c\_GenApprovalsUsingApprsRelList.html
 release: australia
 product: Approvals
 classification: approvals
@@ -20,5 +21,5 @@ Additional approvers can be added by clicking the **Edit** button in the Approve
 **Related topics**  
 
 
-[Classic approvals](../reference/r_Approvals.md)
+[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_Approvals.md)
 

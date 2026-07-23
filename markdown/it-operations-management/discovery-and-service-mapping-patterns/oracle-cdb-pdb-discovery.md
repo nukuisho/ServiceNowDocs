@@ -2,6 +2,7 @@
 title: Oracle pluggable database and container database discovery
 description: The ServiceNow Discovery application can discover Oracle pluggable databases \(PDBs\) and container databases \(CDBs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/oracle-cdb-pdb-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -21,16 +22,16 @@ For more information about PDBs and CDBs, see [What are CDBs, PDBs and Container
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 Set the user credentials and grant permissions:
 
--   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md).
--   For Windows, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md)
--   For Unix, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
--   For the Oracle database, configure [Oracle database discovery](../../discovery/concept/c_OracleDatabaseDiscovery.md)
+-   Configure [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) or \(for UNIX only\) [Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)
+-   For Windows, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md)
+-   For Unix, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md)
+-   For the Oracle database, configure [Oracle database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md)
 -   Provide a user with permissions to run queries on the following tables:
     -   V$DATAFILE
     -   V$TEMPFILE​
@@ -65,14 +66,14 @@ Discovery collects the following data:
 
 The following is a dependency view of the relationship between PDBs, CDBs, and containers.
 
-![Dependency view of relationship between PDBs, CDBs, and containers](../image/oracle-pdb-cdb.png)
+\[Omitted image "oracle-pdb-cdb.png"\] Alt text: Dependency view of relationship between PDBs, CDBs, and containers
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 
 **Related topics**  
 
 
-[Oracle Catalog discovery](oracle-catalog-discovery.md)
+[Oracle Catalog discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-catalog-discovery.md)
 
-[Oracle Global License Advisory Services \(GLAS\) data collection using patterns](oracle-glas-discovery.md)
+[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
 

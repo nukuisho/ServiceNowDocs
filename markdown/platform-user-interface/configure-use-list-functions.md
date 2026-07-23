@@ -2,6 +2,7 @@
 title: Configure and use list functions
 description: All users can interact with lists for the tables their role permits them to access. Some list and column header menu options are controlled by permissions grated to the user role.You can quickly find information in a list by sorting the list. The method that the system uses to sort a list depends on the type of record in the sort column.You can enable or disable modern cell coloring for list field status indicators. This setting is available when you personalize a list. This setting is available in your system settings.You can customize the number of records, or rows, to display on each page of a list. The default is 20 rows per page.A view defines the elements that appear when a user opens a list.Remove the calculation of the total number of records in a list to speed up loading lists.Action check boxes enable you to perform actions on one or more items in a list.Some lists may be embedded in forms. Use list controls to work with records in an embedded list within a form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-use-list-functions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 The following procedures describe functions that users can configure or use with lists.
 
-**Parent Topic:**[Lists in the classic environment](../concept/c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
 
 ## Sort a list
 
@@ -81,19 +82,19 @@ Role required: none
 
 Field status indicators on lists are displayed with modern cell coloring, as a colored circle on the left side of the field. You can select the style of the field status indicator. You can revert to using a field background color by disabling modern cell coloring.
 
-![Modern cell coloring on](../image/Modern_cell_coloring.png "Modern cell coloring on")
+\[Omitted image "Modern\_cell\_coloring.png"\] Alt text: Modern cell coloring on
 
 ### Procedure
 
 1.  The process depends on the version.
 
-    1.  Click the personalize list icon \(![Personalize list icon](../image/IconPersonalizeList.png)\) in the list.
+    1.  Click the personalize list icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Personalize list icon\) in the list.
 
     2.  Select the **Modern cell coloring** check box to use the style field status indicator.
 
     3.  Click **OK**.
 
-    For more information, see [Creating Personal Lists](../concept/c_PersonalLists.md#).
+    For more information, see [Creating Personal Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
 
 
 ## Customize the number of list rows per page
@@ -114,7 +115,7 @@ When you customize the number of rows, it applies to all lists that you can acce
 
 2.  Right-click the list title and select **Show** &gt; **&lt;Number&gt; rows per page**.
 
-    The list refreshes to display the number of records selected, or, if there are fewer than the number of rows you are displaying, the total number of records. The page control is updated to show your selected number of records \(![Page control](../image/PageControl.png)\).
+    The list refreshes to display the number of records selected, or, if there are fewer than the number of rows you are displaying, the total number of records. The page control is updated to show your selected number of records \(\[Omitted image "PageControl.png"\] Alt text: Page control\).
 
 
 ## Switch between list views
@@ -154,19 +155,19 @@ To improve performance, you can remove that calculation for all or specified vie
 
 ### Procedure
 
-1.  On a list, click the menu icon \(![Menu icon](../../../administer/navigation-and-ui/image/MenuIconUI14.png)\) and navigate to **Configure** &gt; **List Control**.
+1.  On a list, click the menu icon \(\[Omitted image "MenuIconUI14.png"\] Alt text: Menu icon\) and navigate to **Configure** &gt; **List Control**.
 
 2.  On the List Control page, select a check box:
 
     -   **Remove pagination count**—Removes pagination calculation from all views.
     -   **Remove pagination count for specified views**—Removes pagination calculation from specified views.
-3.  If you selected **Remove pagination count for specified views**, click the lock icon \(![Lock icon](../../../common/image/icon-lock.png)\) and select the views that suppress displaying the number of pages in the list.
+3.  If you selected **Remove pagination count for specified views**, click the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\) and select the views that suppress displaying the number of pages in the list.
 
 4.  Verify that the pagination is not calculated for your view by switching to that view.
 
-    On a list, click the menu icon \(![Menu icon](../../../administer/navigation-and-ui/image/MenuIconUI14.png)\) and navigate to **View** &gt; **&lt;a view&gt;**.
+    On a list, click the menu icon \(\[Omitted image "MenuIconUI14.png"\] Alt text: Menu icon\) and navigate to **View** &gt; **&lt;a view&gt;**.
 
-    The pagination calculation should not appear and the fast forward icon \(![Fast forward icon](../../../administer/workspace/image/icon-fast-forward.png)\) should be grayed out.
+    The pagination calculation should not appear and the fast forward icon \(\[Omitted image "icon-fast-forward.png"\] Alt text: Fast forward icon\) should be grayed out.
 
 
 ## Perform actions on selected items in a list
@@ -179,7 +180,7 @@ Role required: admin
 
 ### About this task
 
-![Action check boxes and action choice list.](../image/ActionList.png)
+\[Omitted image "ActionList.png"\] Alt text: Action check boxes and action choice list.
 
 ### Procedure
 
@@ -196,15 +197,15 @@ Role required: admin
 
 Some lists may be embedded in forms. Use list controls to work with records in an embedded list within a form.
 
-Use these controls to work with an embedded list. For more information, see [Edit a form](../../using-forms/task/t_EditingInForms.md#).
+Use these controls to work with an embedded list. For more information, see [Edit a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditingInForms.md).
 
 |Task|Icon|Action|
 |----|----|------|
-|Expand an embedded list|![Expand embedded list icon.](../../using-forms/image/UI11FormExpand.png)|Click the expand icon in the list header.|
-|Collapse an embedded list|![Collapse embedded list icon.](../../using-forms/image/UI11FormCollapse.png)|Click the collapse icon in the list header.|
-|Insert a new row|![Insert a row.](../../using-forms/image/InsertRow.png)|Select **Add** and identify the record you want to add to the embedded list.|
-|Edit a row| |Double-click in an empty area of that field. See [Use the list editor](t_UseTheListEditor.md).|
-|Delete a row|![Delete row icon.](../../using-forms/image/RowDeleteIcon.png)|Click the delete icon beside the row. New rows are removed immediately. Existing rows are designated for deletion when the record is saved. To clear this designation, click the delete icon again.|
+|Expand an embedded list|\[Omitted image "UI11FormExpand.png"\] Alt text: Expand embedded list icon.|Click the expand icon in the list header.|
+|Collapse an embedded list|\[Omitted image "UI11FormCollapse.png"\] Alt text: Collapse embedded list icon.|Click the collapse icon in the list header.|
+|Insert a new row|\[Omitted image "InsertRow.png"\] Alt text: Insert a row.|Select **Add** and identify the record you want to add to the embedded list.|
+|Edit a row| |Double-click in an empty area of that field. See [Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseTheListEditor.md).|
+|Delete a row|\[Omitted image "RowDeleteIcon.png"\] Alt text: Delete row icon.|Click the delete icon beside the row. New rows are removed immediately. Existing rows are designated for deletion when the record is saved. To clear this designation, click the delete icon again.|
 
-![Embedded list](../../using-forms/image/FormEmbeddedList.png "Embedded list")
+\[Omitted image "FormEmbeddedList.png"\] Alt text: Embedded list
 

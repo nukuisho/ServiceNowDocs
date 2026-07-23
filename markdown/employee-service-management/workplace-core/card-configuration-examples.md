@@ -2,20 +2,21 @@
 title: Card Configuration examples
 description: Add buttons, fields, and sections to the workplace card configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/card-configuration-examples.html
 release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Workplace Core references, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Card Configuration examples
 
 Add buttons, fields, and sections to the workplace card configuration.
 
-**Note:** The following examples are to customize the card configurations in Workplace Core. For more information about configuring the cards, see [Configure a workplace card](../task/configure-workplace-card.md).
+**Note:** The following examples are to customize the card configurations in Workplace Core. For more information about configuring the cards, see [Configure a workplace card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-workplace-card.md).
 
 ## Customizing the card style
 
@@ -157,18 +158,18 @@ After hiding the element, make sure that you remove the custom logic, or surroun
 }); */
 ```
 
-**Parent Topic:**[Workplace Core references](../concept/wsd-references.md)
+**Parent Topic:**[Workplace Core references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Core](components-installed-with-workplace-service-delivery.md)
+[Components installed with Workplace Core]()
 
-[Properties installed with Workplace Core](properties-installed-with-workplace-service-delivery.md)
+[Properties installed with Workplace Core]()
 
-[Workplace Profile Location Assignment form](wsd-location-assignment-form.md)
+[Workplace Profile Location Assignment form]()
 
-[Workplace location assignment anomaly types](location-assignment-anomaly-types.md)
+[Workplace location assignment anomaly types]()
 
-[Reserve a space form](reserve-space-form.md)
+[Reserve a space form]()
 

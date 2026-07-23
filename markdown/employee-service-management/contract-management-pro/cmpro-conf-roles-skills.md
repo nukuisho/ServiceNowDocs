@@ -2,6 +2,7 @@
 title: Configure data permissions for Now Assist skills
 description: Add the user roles for a Now Assist skill to specify the roles that Now Assist uses to access data while performing a task. The user roles control the information that Now Assist can read, update, or share, based on the permissions of the selected roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -43,9 +44,9 @@ You must configure the necessary roles for your workspace to ensure that Now Ass
 
 2.  Open the skill that you want to configure.
 
-3.  In the **Role List** field, select the lock icon ![](../../workplace-connectors/images/wsd-unlock-connectors-list-icon.png).
+3.  In the **Role List** field, select the lock icon \[Omitted image "wsd-unlock-connectors-list-icon.png"\] Alt text:.
 
-    ![Role list field used to add new roles.](../image/cmpro-lock-role-list.png "Role list")
+    \[Omitted image "cmpro-lock-role-list.png"\] Alt text: Role list field used to add new roles.
 
 4.  In the search field, search for the role that you want to add.
 
@@ -54,20 +55,20 @@ You must configure the necessary roles for your workspace to ensure that Now Ass
     The selected role is added to the **Role List** field.
 
 
-**Parent Topic:**[Configure Now Assist in Contract Management](confg-na-in-cmpro.md)
+**Parent Topic:**[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
 
-[Select large language models for use cases in Now Assist in Contract Management](cmpro-na-manage-llm.md)
+[Select large language models for use cases in Now Assist in Contract Management]()
 
-[Configuring contract metadata extraction](cncore-conf-metadata-extraction.md)
+[Configuring contract metadata extraction]()
 
-[Configuring contract analysis](../concept/cmpro-conf-contract-analysis.md)
+[Configuring contract analysis]()
 
-[Configuring contract obligation extraction](cncore-conf-obligation-extraction.md)
+[Configuring contract obligation extraction]()
 
-[Configuring agentic workflows in Now Assist in Contract Management](../concept/cmpro-conf-agentic-workflow.md)
+[Configuring agentic workflows in Now Assist in Contract Management]()
 
-[Post-upgrade steps for Now Assist in Contract Management](cmpro-na-upgrade-steps.md)
+[Post-upgrade steps for Now Assist in Contract Management]()
 

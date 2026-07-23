@@ -2,6 +2,7 @@
 title: Document template form
 description: Use the document template form to create document template that can be used in the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/document-template-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architectur
 
 Use the document template form to create document template that can be used in the Enterprise Architecture Workspace.
 
-## Create new document template form
+## Document template form
 
 <table id="table_glp_2t1_m3c"><thead><tr><th>
 
@@ -90,5 +91,5 @@ Is dynamic
 Option to insert dynamic diagram data in the architectural document created using this template.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 

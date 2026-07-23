@@ -2,9 +2,10 @@
 title: Assessment trigger conditions
 description: A trigger condition tells the system who to send a designated assessment to and when, based on specific conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_AssessmentTriggerConditions.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Configure trigger conditions for an assessment, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -15,7 +16,7 @@ A trigger condition tells the system who to send a designated assessment to and 
 
 With trigger conditions, assessment administrators can configure the system to generate assessments each time a specific action occurs, such as when an incident or change request closes. The trigger condition sends the assessment to specified users who are related to the triggering record, such as incident callers or change request assignees. You can choose to send the assessment every time the condition is met, or set a probability for the system to send the assessment at random when the condition is met.
 
-For a description of the field values in Trigger Condition form, see [Trigger Condition form for assessments](trigger-condition-form-for-assessment.md).
+For a description of the field values in Trigger Condition form, see [Trigger Condition form for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/trigger-condition-form-for-assessment.md).
 
 <table id="table_znx_kb2_5s"><thead><tr><th>
 
@@ -79,9 +80,7 @@ Assessable Record Field
 
 </td><td>
 
-VendorThis is a field in the table that is selected from the **Table** field. The reference record selected in the field specified must have an assessable record.
-
- **Note:** The values in this field must have assessable records of the selected metric type. If this condition is met, then only the assessment is triggered.
+Vendor**Note:**
 
 </td></tr><tr><td>
 
@@ -119,5 +118,5 @@ Because two related fields were selected as part of the trigger condition, the a
 
 **Note:** Even though the trigger condition is set to be triggered every time the conditions are met, the **Repeat Interval** setting ensures that Boris does not receive another assessment if another vendor incident assigned to him closes within 30 days of the first one.
 
-**Parent Topic:**[Configure trigger conditions for an assessment](../task/t_CreateTriggerAssessment.md)
+**Parent Topic:**[Configure trigger conditions for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateTriggerAssessment.md)
 

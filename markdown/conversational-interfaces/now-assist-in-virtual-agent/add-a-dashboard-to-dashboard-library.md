@@ -2,6 +2,7 @@
 title: Add a dashboard to dashboard library
 description: Add a dashboard to the Related Dashboards page in Assistant analytics so that users can access it from the dashboard library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/add-a-dashboard-to-dashboard-library.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -33,7 +34,7 @@ Adding a dashboard to the library makes it available to users on the Related Das
 
 2.  Select **Add Dashboard** in the Dashboard Library.
 
-    ![Add Dashboard modal in Dashboard Library](../image/NAinVA-assistant-designer-analytics-add-dashboard.png "Add Dashboard modal")
+    \[Omitted image "NAinVA-assistant-designer-analytics-add-dashboard.png"\] Alt text: Add Dashboard modal in Dashboard Library
 
 3.  On the **Add Dashboard** form, fill in the fields.
 

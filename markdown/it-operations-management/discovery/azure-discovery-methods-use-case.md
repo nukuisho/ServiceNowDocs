@@ -2,6 +2,7 @@
 title: Azure cloud discovery methods and use cases
 description: Comparison of use cases and requirements for cloud discovery methods in Azure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/azure-discovery-methods-use-case.html
 release: australia
 product: Discovery
 classification: discovery
@@ -19,8 +20,8 @@ ITOM Visibility offers several methods for Azure cloud discovery. Each method su
 
 ## Azure cloud discovery use cases
 
-|Use case|Cloud Discovery \(Pattern-based\)|Service Graph Connectors|Agent Client Collector for Visibility - Content \(without MID Server\)|Agent Client Collector for Visibility - Content \(with MID Server\)|IP-based Horizontal Discovery \(Pattern-based\)|
-|--------|---------------------------------|------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------|
+|Use case|Cloud Discovery \(Pattern-based\)|Service Graph Connectors|Agent Client Collector for Visibility Content \(without MID Server\)|Agent Client Collector for Visibility Content \(with MID Server\)|IP-based Horizontal Discovery \(Pattern-based\)|
+|--------|---------------------------------|------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------|
 |IT Service Management \(ITSM\) - basic and generic virtual CI classes|Yes|Yes|No|No|No|
 |ITSM - extended virtual CI classes|Yes|No|No|No|No|
 |ITSM - hardware CI classes|No|Yes|Yes|Yes|Yes|
@@ -49,11 +50,11 @@ Service Graph Connectors
 
 </th><th>
 
-Agent Client Collector for Visibility - Content \(without MID Server\)
+Agent Client Collector for Visibility Content \(without MID Server\)
 
 </th><th>
 
-Agent Client Collector for Visibility - Content \(with MID Server\)
+Agent Client Collector for Visibility Content \(with MID Server\)
 
 </th><th>
 

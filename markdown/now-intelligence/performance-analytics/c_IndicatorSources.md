@@ -2,6 +2,7 @@
 title: Indicator sources
 description: Indicator sources are data sets consisting of filtered records from one table or database view.To provide a filtered data set of records that you can evaluate with one or more indicators, create an indicator source.You can select a database view as the facts table in an indicator source. Database views enable you to combine data from tables in your ServiceNow instance that are not connected by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_IndicatorSources.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -40,7 +41,7 @@ Role required: pa\_data\_collector or admin
 
 1.  Use one of the following navigation paths:
 
-    -   If you are on an upgraded instance that has not migrated to Platform Analytics, navigate to **All** &gt; **Performance Analytics** &gt; **Sources** &gt; **Indicator Sources** and select **New**.
+    -   If you are on an upgraded instance that has not migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Sources** &gt; **Indicator Sources** and select **New**.
     -   If you are on a new instance or have migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Sources** &gt; **Indicator Sources** and select **New**.
 2.  Enter a unique **Name** by which you can easily see what the indicator source is used for, such as **Incidents.Open**.
 
@@ -62,23 +63,23 @@ Role required: pa\_data\_collector or admin
 
 6.  Select a facts table, either directly or by reusing a report source.
 
-<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d143795e279">
+<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d145096e279">
 
 Field
 
-</th><th align="left" id="d143795e282">
+</th><th align="left" id="d145096e282">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d143795e288">
+</th></tr></thead><tbody><tr><td id="d145096e288">
 
 **Facts table**
 
 </td><td>
 
-Specify the facts table and any conditions for filtering the records of that table. You can specify a [database view](performance-analytics-glossary.md#) as the facts table. Remote tables are not supported, but Workflow Data Fabric tables are supported.
+Specify the facts table and any conditions for filtering the records of that table. You can specify a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the facts table. Remote tables are not supported, but Workflow Data Fabric tables are supported.
 
-</td></tr><tr><td id="d143795e304">
+</td></tr><tr><td id="d145096e304">
 
 **Report source**
 
@@ -124,7 +125,7 @@ Specify an existing report source to reuse. A report source specifies a facts ta
 
 11. In the Records Collection tab, override the maximum number of records that a job can collect for a single indicator source, for this indicator source only.
 
-    Select **Override record collection**, then enter a value in **Maximum number of records collected**. You are overriding the default value set on the property **com.snc.pa.dc.max\_row\_count\_indicator\_source**. For more information, see [Performance Analytics properties](../reference/pa-properties.md).
+    Select **Override record collection**, then enter a value in **Maximum number of records collected**. You are overriding the default value set on the property **com.snc.pa.dc.max\_row\_count\_indicator\_source**. For more information, see [Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-properties.md).
 
 12. Expand the context menu and click **Save**.
 
@@ -138,7 +139,7 @@ Specify an existing report source to reuse. A report source specifies a facts ta
 
     2.  In the **Number of entries to establish seasonality** field, enter the number of time periods, as defined in the business calendar or schedule entries, that are necessary to find seasonal patterns.
 
-        For more information about business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md).
+        For more information about business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md).
 
     3.  Set the number of time periods, as defined in the business calendar or schedule entries, to retain scores and snapshots.
 
@@ -154,11 +155,11 @@ The following settings create an indicator source that collects new incidents da
 -   **Facts table**:`Incident [incident]`
 -   **Condition**:`[Opened] [on] [Today]`
 
-![Create indicator sources](../image/CreatingIndicatorSources.png "Create indicator sources")
+\[Omitted image "CreatingIndicatorSources.png"\] Alt text: Create indicator sources
 
 ### What to do next
 
-After you create an indicator source, you can define text index configurations in a related list on the record. Use these configurations to create Performance Analytics text widgets with word clouds. For more information, see [Set up text analytics](../task/set-up-text-analytics.md).
+After you create an indicator source, you can define text index configurations in a related list on the record. Use these configurations to create Performance Analytics text widgets with word clouds. For more information, see [Set up text analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/set-up-text-analytics.md).
 
 If you are reusing a report source and the report source changes, a warning appears on the indicator source record. To update the indicator source to match the report source, click **Update report source**. You can also click the refresh button next to the **Report source** field.
 
@@ -167,9 +168,9 @@ The read-only **Report source updated at** field displays the last time the repo
 **Related topics**  
 
 
-[Report sources](../../reporting/concept/c_ReportSources.md#)
+[Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportSources.md)
 
-[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md)
+[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md)
 
 ## Use a database view in an indicator source
 
@@ -187,7 +188,7 @@ By joining tables in a database view, you can easily access them by calling up t
 
 -   If you select a database view as the facts table for an indicator source, provide additional configuration in the **Records view** section of the Indicator Source form.
 
-    ![Records View section on indicator source form](../image/indicator-source-record-view.png "Records View section on the indicator source form")
+    \[Omitted image "indicator-source-record-view.png"\] Alt text: Records View section on indicator source form
 
 <table id="table_lrc_1p5_dmb"><thead><tr><th>
 
@@ -223,14 +224,14 @@ Let's say you want to create some indicators tracking the number of incidents th
 
 Looking at the database view, you see that it gets the records where the task on the Task SLA table matches the unique sys\_id value on the Indicator table.
 
-![Database view tables list with Where clause highlighted](../image/ind-source-db-view-where-clause.png)
+\[Omitted image "ind-source-db-view-where-clause.png"\] Alt text: Database view tables list with Where clause highlighted
 
 You can only take snapshots from one table, and it is generally better to take snapshots of the table with a field with unique values. Therefore, you select Incident \[incident\] as the View table on the indicator source.
 
-![Records view tab](../image/ind-source-db-view-table.png)
+\[Omitted image "ind-source-db-view-table.png"\] Alt text: Records view tab
 
 **Related topics**  
 
 
-[Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md)
+[Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseViews.md)
 

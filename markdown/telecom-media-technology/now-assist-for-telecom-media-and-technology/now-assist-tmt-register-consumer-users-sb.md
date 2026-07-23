@@ -2,13 +2,14 @@
 title: Service Exchange onboarding agentic workflows
 description: Use the Service Exchange onboarding agentic workflow to register your consumers in Service Exchange.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-register-consumer-users-sb.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Service Exchange, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Service Exchange onboarding agentic workflows

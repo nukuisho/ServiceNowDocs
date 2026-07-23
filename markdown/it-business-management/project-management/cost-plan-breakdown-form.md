@@ -2,6 +2,7 @@
 title: Cost plan breakdown form
 description: Learn and update the enabled fields of cost plan breakdown form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/cost-plan-breakdown-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -79,7 +80,7 @@ Fiscal period
 
 </td><td>
 
-Fiscals generated at period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).
+Fiscals generated at period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FiscalCalendar.md).
 
 </td></tr><tr><td>
 
@@ -109,5 +110,5 @@ First date of the fiscal period corresponding to the cost plan breakdown.
 </table>**Related topics**  
 
 
-[Update a cost plan breakdown](../task/update-cost-plan-breakdown.md)
+[Update a cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-cost-plan-breakdown.md)
 

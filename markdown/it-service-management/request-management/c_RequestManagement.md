@@ -2,6 +2,7 @@
 title: Request Management
 description: Request Management allows employees to submit requests for services, products, or information through a self-service portal. It streamlines fulfillment workflows, reduces manual effort, and improves visibility into request status for both users and agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/c\_RequestManagement.html
 release: australia
 product: Request Management
 classification: request-management
@@ -19,38 +20,38 @@ Request Management allows employees to submit requests for services, products, o
 
 <table id="table_tfq_nff_jgc" class="nav-card presentation"><tbody><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-explore.svg)[Exploring Request Management](../../request-management/concept/exploring-request-management.md)
+\[Omitted image "bus-explore.svg"\] Alt text:[Exploring Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/exploring-request-management.md)
 
- [Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about On-Call Scheduling concepts and features.](../../../administer/on-call-scheduling/concept/exploring-on-call-scheduling.md)
+ [Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about On-Call Scheduling concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/exploring-on-call-scheduling.md)
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-sdlc.svg)[Configuring Request Management](../../request-management/concept/configuring-request-management.md)
+\[Omitted image "bus-sdlc.svg"\] Alt text:[Configuring Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/configuring-request-management.md)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)[Using Request Management](../../request-management/concept/using-request-management.md)
+\[Omitted image "bus-integration-and-apis.svg"\] Alt text:[Using Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/using-request-management.md)
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-learn.svg)[Request Management reference](../../request-management/concept/request-management-reference.md)
+\[Omitted image "bus-learn.svg"\] Alt text:[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-management-reference.md)
 
 </td></tr></tbody>
-</table>-   **[Exploring Request Management](../../request-management/concept/exploring-request-management.md)**  
+</table>-   **[Exploring Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/exploring-request-management.md)**  
 Request Management allows catalog items to be requested and fulfilled based on defined flows.
--   **[Configuring Request Management](../../request-management/concept/configuring-request-management.md)**  
+-   **[Configuring Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/configuring-request-management.md)**  
 Configure Request Management to enable the agents to efficiently manage multiple incidents, catalog requests, and catalog tasks.
--   **[Using Request Management](../../request-management/concept/using-request-management.md)**  
+-   **[Using Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/using-request-management.md)**  
 Request Management allows catalog items to be requested and fulfilled based on defined flows.
--   **[Request Management reference](../../request-management/concept/request-management-reference.md)**  
+-   **[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-management-reference.md)**  
 Reference topics for Request Management.
 
-**Parent Topic:**[IT Service Management](../../it-service-management/reference/r_ITServiceManagement.md)
+**Parent Topic:**[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)
 
 **Related topics**  
 
 
-[Exploring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/exploring-service-catalog.md)
+[Exploring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/exploring-service-catalog.md)
 
-[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder.md)
+[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md)
 

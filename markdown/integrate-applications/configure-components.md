@@ -2,11 +2,12 @@
 title: Use a component in RPA Desktop Design Studio
 description: Design automation projects by using components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-components.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Use, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use a component in RPA Desktop Design Studio
@@ -23,9 +24,9 @@ Components are reusable blocks that are used for designing automations and to ab
 
 RPA Desktop Design Studio hosts a wide range of components that you can use while you’re creating automation projects.
 
-Each component has ports that are used while creating an automation workflow. For more information, see [RPA Desktop Design Studio ports](../concept/overview-ports-rpa-studio.md).
+Each component has ports that are used while creating an automation workflow. For more information, see [RPA Desktop Design Studio ports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/overview-ports-rpa-studio.md).
 
-Enhance the automation logic with text instructions, either in an empty activity or by selecting a component in an existing one by using the Now Assist for RPA Hub application. For more information, see [Build an automation with Now Assist](build-automation-now-assist.md).
+Enhance the automation logic with text instructions, either in an empty activity or by selecting a component in an existing one by using the Now Assist for RPA Hub application. For more information, see [Build an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Enhance the automation logic with text instructions, either in an empty activity
 
 2.  To use a component, drag a component to the Design surface as shown in the following example.
 
-    ![Use an OCR Text component.](../image/component-ex-ocr-tex.png "Drag the OCR Text component to the Design surface")
+    \[Omitted image "component-ex-ocr-tex.png"\] Alt text: Use an OCR Text component.
 
     **Important:** You might come across the following behaviours when you drag and drop an automation component from the Toolbox, Object explorer, Project explorer, and Skills explorer to the Design surface:
 
@@ -61,15 +62,15 @@ Enhance the automation logic with text instructions, either in an empty activity
 
 4.  Do any of the following options for a desired action.
 
-<table id="choicetable_vmv_2f1_5rb"><thead><tr><th align="left" id="d258818e213">
+<table id="choicetable_vmv_2f1_5rb"><thead><tr><th align="left" id="d261617e213">
 
 Option
 
-</th><th align="left" id="d258818e216">
+</th><th align="left" id="d261617e216">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d258818e222">
+</th></tr></thead><tbody><tr><td id="d261617e222">
 
 **Search for a component that is available within the Toolbox**
 
@@ -77,19 +78,19 @@ Action
 
 Enter the text in the **Filter by Name** field.
 
-</td></tr><tr><td id="d258818e234">
+</td></tr><tr><td id="d261617e234">
 
 **Edit the configuration or settings of a component**
 
 </td><td>
 
-Either double-click the component title bar or click the settings icon \(![Settings icon.](../image/component-settings-icon.png)\). For example, to edit the settings of the OCR Text component, click the settings icon \(![Settings icon.](../image/component-settings-icon.png)\) over the OCR Text component. The OCR SETTINGS dialog box appears. You can define the properties in the dialog box that is shown in the following example.
+Either double-click the component title bar or click the settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Settings icon.\). For example, to edit the settings of the OCR Text component, click the settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Settings icon.\) over the OCR Text component. The OCR SETTINGS dialog box appears. You can define the properties in the dialog box that is shown in the following example.
 
- ![OCR Settings dialog box.](../image/ocr-settings.png "OCR Settings dialog box")
+ \[Omitted image "ocr-settings.png"\] Alt text: OCR Settings dialog box.
 
- The settings icon \(![Settings icon.](../image/component-settings-icon.png)\) doesn't appear for all components.
+ The settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Settings icon.\) doesn't appear for all components.
 
-</td></tr><tr><td id="d258818e279">
+</td></tr><tr><td id="d261617e279">
 
 **Edit the properties of a component**
 
@@ -97,15 +98,15 @@ Either double-click the component title bar or click the settings icon \(![Setti
 
 Change the required property in the Properties pane.
 
-</td></tr><tr><td id="d258818e288">
+</td></tr><tr><td id="d261617e288">
 
 **Set a breakpoint**
 
 </td><td>
 
-Right-click the component title bar and select **Breakpoint** For more information on Breakpoints, see [Set a breakpoint to pause a component in RPA Desktop Design Studio](set-breakpoint-rpa-studio.md).
+Right-click the component title bar and select **Breakpoint** For more information on Breakpoints, see [Set a breakpoint to pause a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-breakpoint-rpa-studio.md).
 
-</td></tr><tr><td id="d258818e311">
+</td></tr><tr><td id="d261617e311">
 
 **Start the workflow execution from a selected component**
 
@@ -113,15 +114,15 @@ Right-click the component title bar and select **Breakpoint** For more informati
 
 Right-click the component title bar and select **Run From Here**.
 
-</td></tr><tr><td id="d258818e323">
+</td></tr><tr><td id="d261617e323">
 
 **Handle the errors at a component level**
 
 </td><td>
 
-Right-click the component title bar and select **Error Handler** To learn more about handling errors, see [Handle errors in RPA Desktop Design Studio](error-handling-rpa-studio.md).
+Right-click the component title bar and select **Error Handler** To learn more about handling errors, see [Handle errors in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/error-handling-rpa-studio.md).
 
-</td></tr><tr><td id="d258818e348">
+</td></tr><tr><td id="d261617e348">
 
 **Delete a component**
 
@@ -129,7 +130,7 @@ Right-click the component title bar and select **Error Handler** To learn more a
 
 Right-click the component title bar and select **Delete**.
 
-</td></tr><tr><td id="d258818e360">
+</td></tr><tr><td id="d261617e360">
 
 **Skip a component in an automation**
 
@@ -145,7 +146,7 @@ To enable the automation to skip a component, right-click the component title ba
 -   You can't use the **Skip This** option on the **Start**, **End**, or any event-related component.
 
 
-</td></tr><tr><td id="d258818e438">
+</td></tr><tr><td id="d261617e438">
 
 **Execute a single component**
 
@@ -163,16 +164,16 @@ To test and debug any issue in an automation by isolating a single component, ri
 </table>5.  To search for a component that is available within the Toolbox, enter the text in the **Filter by Name** field.
 
 
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
 
 **Related topics**  
 
 
-[Set a breakpoint to pause a component in RPA Desktop Design Studio](set-breakpoint-rpa-studio.md)
+[Set a breakpoint to pause a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-breakpoint-rpa-studio.md)
 
-[Start a workflow execution from a selected component in RPA Desktop Design Studio](run-from-here-rpa-studio.md)
+[Start a workflow execution from a selected component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-from-here-rpa-studio.md)
 
-[Handle errors in RPA Desktop Design Studio](error-handling-rpa-studio.md)
+[Handle errors in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/error-handling-rpa-studio.md)
 
-[Build an automation with Now Assist](build-automation-now-assist.md)
+[Build an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/build-automation-now-assist.md)
 

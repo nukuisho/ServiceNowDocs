@@ -2,9 +2,10 @@
 title: Add a Knowledge Graph to an AI agent
 description: Add a Knowledge Graph to an AI agent in AI Agent Studio that uses the structured and unstructured data from different ServiceNow records to enhance the performance of AI agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-knowledge-graph.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---
@@ -25,7 +26,7 @@ Role required: sn\_aia.admin
 
 3.  In the Add tool drop-down list, select **Knowledge graph**.
 
-    You may need to scroll down.
+    You may have to scroll down.
 
 4.  On the form, fill in the fields.
 
@@ -70,6 +71,14 @@ Query instruction
 </td><td>
 
 The search query. Translate your request into a search query, including a verb.The query instruction is passed on to the LLM to generate a structured query for the Graph from the inputs selected in the tool form.
+
+</td></tr><tr><td>
+
+Conversation history
+
+</td><td>
+
+When enabled, the last 5 conversation turns are passed to the Knowledge Graph tool, allowing users to ask follow-up questions on the previously returned results. Turn off the toggle if each query should be treated as a standalone lookup.**Note:** The knowledge graph tools added previously to your AI agents will have the Conversation history turned off by default.
 
 </td></tr><tr><td>
 

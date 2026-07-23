@@ -2,11 +2,12 @@
 title: Using Now Assist for Configure, Price, Quote \(CPQ\)
 description: Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/using-now-assist-cpq.html
 release: australia
 topic_type: concept
-last_updated: "2026-02-04"
+last_updated: "2026-05-27"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for CPQ]
+breadcrumb: [Now Assist for CPQ, Sales Customer Relationship Management]
 ---
 
 # Using Now Assist for Configure, Price, Quote \(CPQ\)
@@ -21,9 +22,4 @@ Use Now Assist for CPQ to generate a summary of a quote to:
 -   Highlight custom pricing, discounts, and negotiated changes made during the quoting process.
 -   Review the quote prior to sending it to the customer to confirm accuracy and completeness.
 -   Support internal handoffs by summarizing the quoted offer for internal teams.
-
--   **[Summarize a quote using quote summarization](../task/summarize-quote.md)**  
-Summarize a quote to generate a consolidated report of a quote record to quickly understand the quote without manually reviewing multiple fields, line items, or related records.
-
-**Parent Topic:**[Now Assist for Configure, Price, Quote \(CPQ\)](now-assist-for-cpq-landing.md)
 

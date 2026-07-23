@@ -2,6 +2,7 @@
 title: Configure global search options for your screen launcher
 description: Configure global search options, using the Zing search engine, to control how your app presents search results to your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-configure-alp-search-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +41,7 @@ Role required: admin
     4.  In the Search Config form, locate the **Placeholder** section under **Properties**.
     5.  In the Placeholder text box, enter the text that you want to appear in the search bar before a user enters a value into the field, and then press Tab.
 
-        ![Placeholder text box in Mobile App Builder](../image/global-search-placeholder-txt.png)
+        \[Omitted image "global-search-placeholder-txt.png"\] Alt text: Placeholder text box in Mobile App Builder
 
 5.  In the **Settings** section, select **Interleave result** to display interleaved search results.
 
@@ -48,10 +49,10 @@ Role required: admin
 
 6.  Select **Save** in Mobile App Builder.
 
-7.  To configure the maximum number of search suggestions that can be returned, navigate to the ServiceNow® instance web interface an follow the instructions in [Set the maximum number of search suggestions Zing displays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/set-max-num-of-suggestions.md).
+7.  To configure the maximum number of search suggestions that can be returned, navigate to the ServiceNow® instance web interface an follow the instructions in [Set the maximum number of search suggestions Zing displays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/set-max-num-of-suggestions.md).
 
 
 ## What to do next
 
-Enable voice search so that your users can search using native speech recognition. For more details, see [Turn on voice search](../../mobile-employee/task/turn-on-voice-search.md)
+Enable voice search so that your users can search using native speech recognition. For more details, see [Turn on voice search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/turn-on-voice-search.md)
 

@@ -2,13 +2,14 @@
 title: Copy user or device allocations
 description: Copy user or device allocations from one entitlement to the other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/copy-allocations.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Copy user or device allocations
@@ -21,7 +22,7 @@ Copy allocations from a source entitlement to a target entitlement to renew expi
 
 The entitlement from which you want to copy the allocations is referred to as the source entitlement. The entitlement to which you want to copy the allocations is referred to as the target entitlement.
 
-User allocations can be copied to only entitlements that support user allocations. Similarly, device allocations can be copied to entitlements that support device allocations. For details on license metrics, see [Software license metrics](../concept/c_SAMLicenseMetrics.md).
+User allocations can be copied to only entitlements that support user allocations. Similarly, device allocations can be copied to entitlements that support device allocations. For details on license metrics, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
 
 If the selected user or device is already allocated in the target entitlement, the quantity of that allocation is incremented.
 
@@ -49,7 +50,9 @@ Role required: sam\_admin or sam\_user.
 
     All the details of the source entitlement such as license metric, metric group appear on the Details page.
 
-6.  Select the Source allocations related list and select the allocations.
+6.  Select the Source allocations related list and select an allocation.
+
+    Allocations can only be copied one at a time. Repeat the process for each allocation.
 
 7.  Select **Submit**.
 
@@ -58,10 +61,10 @@ Role required: sam\_admin or sam\_user.
     The link takes you to the Software Asset Job Results \[samp\_job\_log\] table. Use the Name column to search for the job log record, titled **Copy Allocations to &lt; &gt;**, where the angle brackets refer to the display name of the target entitlement.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 
 **Related topics**  
 
 
-[Create device allocation](create-device-allocation.md)
+[Create device allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-device-allocation.md)
 

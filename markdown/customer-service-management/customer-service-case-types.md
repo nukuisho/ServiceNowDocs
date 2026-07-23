@@ -1,7 +1,8 @@
 ---
 title: Customer service case types
-description: A case type represents the processes and the data that are needed to resolve a specific type of customer issue. Use the case types feature to create and configure the different types of customer service cases that your organization needs.
+description: A case type defines the processes and data for resolving a specific type of customer issue. Use case types to create and configure the customer service case types your organization needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-case-types.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -11,9 +12,9 @@ breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Ser
 
 # Customer service case types
 
-A case type represents the processes and the data that are needed to resolve a specific type of customer issue. Use the case types feature to create and configure the different types of customer service cases that your organization needs.
+A case type defines the processes and data for resolving a specific type of customer issue. Use case types to create and configure the customer service case types your organization needs.
 
-Customers can use case types to support a wide variety of end user needs, including:
+You can use case types to support a wide variety of end user needs, including:
 
 -   Diverse industries and products
 -   Complex processes, events, and systems
@@ -27,15 +28,17 @@ A good example of an industry that benefits from multiple case types is the bank
 
     System administrators configure the case types feature by creating a table for the new case type that extends the Case table and then setting up a number of different processes and components for the case type.
 
-    -   The [Case Types Guided Setup](customer-service-case-types.md#section_ls3_dcp_bjb) section below provides an overview of these setup steps.
-    -   For details about the case type guided setup tasks, see [Configure customer service case types](../task/configure-csm-case-types.md).
+    -   The [Case Types Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md) section below provides an overview of these setup steps.
+    -   For details about the case type guided setup tasks, see [Configure customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-case-types.md).
 -   **Managing case types**
 
-    After a case type has been created, system administrators can view the case types, manage settings, and update the configuration. For more information, see [Manage customer service case types](manage-csm-case-types.md).
+    After creating a case type, system administrators can view case types, manage settings, and update the configuration.
+
+    For more information, see [Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-csm-case-types.md).
 
 -   **Using case types**
 
-    Agents can use the case types feature when creating cases for customers by selecting from a list of configured case types. For more information, see the [Using case types to create cases](customer-service-case-types.md#section_s41_wtg_f4b) section below.
+    Agents can use the case types feature when creating cases for customers by selecting from a list of configured case types. For more information, see the [Using case types to create cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md) section below.
 
 
 ## Customer service case types plugin
@@ -48,7 +51,7 @@ Activating these plugin adds the **Customer Service** &gt; **Case Types** module
 
 ## Product Model and Catalog Items Relationship plugin deprecation
 
-The Customer Service Case Types plugin replaces the Product Model and Catalog Items Relationship plugin \(com.snc.product\_catalog\_relationship\), which is being prepared for future deprecation. Use the [Service definitions](csm-service-definitions.md) feature, available with the Customer Service Case Types plugin, to create definitions for the services that are offered to support your products. Then [configure the service definitions](csm-service-definitions-configure.md) to associate them with the appropriate products and catalog items.
+The Customer Service Case Types plugin replaces the Product Model and Catalog Items Relationship plugin, which was deprecated in the Xanadu release. Use the [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md) feature, available with the Customer Service Case Types plugin, to create definitions for the services that are offered to support your products. Then [configure the service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions-configure.md) to associate them with the appropriate products and catalog items.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
@@ -103,7 +106,7 @@ To create and configure a new case type:
 -   Create a case type definition record for the new case type and add it to the Case Type table \(sn\_case\_type\).
 -   Configure the **Get Case Types** flow and modify the conditions that determine visibility for a case type.
 
-For more information, see [Configure customer service case types](../task/configure-csm-case-types.md).
+For more information, see [Configure customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-case-types.md).
 
 ## Using case types to create cases
 
@@ -111,11 +114,13 @@ Customers can extend the Case table to handle different types of cases. Each ext
 
 When creating cases, customer service agents select the case type that corresponds to the customer issue.
 
--   In CSM Configurable Workspace and CSM Agent Workspace, agents select a case type from the [case type selector](csm-case-type-select-modals.md).
+-   In CSM Configurable Workspace and CSM Agent Workspace, agents select a case type from the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals.md).
 -   In the platform interface, agents select a case type from an interceptor.
 
-In CSM Configurable Workspace, there are several versions of the [case type selector](csm-case-type-select-modals.md) that can be configured for agents to use when creating cases of a specific type. These versions include multi-select, single-select, and Product Service Select. The multi-select version is the default functionality. In CSM Agent Workspace, agents can use the multi-select version of the [case type selector](csm-case-type-select-modals.md).
+the case type selector has several versions that agents can use when creating cases of a specific type.
 
--   [Create a customer service case of a specific type](../task/create-case-of-specific-case-type.md)
--   [Create a case task of a specific type for a customer service case](../task/create-case-task-specific-case-type.md)
+In CSM Configurable Workspace, the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals.md) has several versions that agents can use when creating cases of a specific type. These versions include multi-select, single-select, and Product Service Select. The multi-select version is the default functionality. In CSM Agent Workspace, agents can use the multi-select version of the [case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals.md).
+
+-   [Create a customer service case of a specific type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-of-specific-case-type.md)
+-   [Create a case task of a specific type for a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-task-specific-case-type.md)
 

@@ -2,6 +2,7 @@
 title: Configure volume pricing
 description: Set volume pricing rules by using the Standard Price Adjustment matrix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-volume-pricing.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,13 +20,13 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 
-3.  In the Pricing Matrices list, select the Standard Price Adjustment matrix and [create a new matrix version](create-matrix-versions.md).
+3.  In the Pricing Matrices list, select the Standard Price Adjustment matrix and [create a new matrix version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-matrix-versions.md).
 
-4.  In the Context variables section of the new matrix version, select the Search ![](../../tmt-telecom-network-inventory/image/search.png) icon and in the list of Context variables, select the Quantity variable.
+4.  In the Context variables section of the new matrix version, select the Search \[Omitted image "search.png"\] Alt text: icon and in the list of Context variables, select the Quantity variable.
 
     The Quantity variable is added to the Context variables section.
 
@@ -58,7 +59,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
         If you select the operator **between**, you specify a quantity range by entering the **Min value** and **Max value** for the range. You must set both a minimum and maximum value so that the quantity pricing adjustment applies only to the quantity of product offerings in the specified range.
 
-        ![Standard Price Adjustment Matrix conditions for Product Offering and Quantity range](../image/std-price-adj-matrix-example.png "Example quantity range for volume pricing")
+        \[Omitted image "std-price-adj-matrix-example.png"\] Alt text: Standard Price Adjustment Matrix conditions for Product Offering and Quantity range
 
         For example, the door sensor pricing adjustment applies only to quantities ranging from 1 through 10. The pricing adjustments are not applicable to other quantity values for door sensors.
 

@@ -2,6 +2,7 @@
 title: Create and manage cases for a business location
 description: As a staff member with the location agent role, create and manage cases for your business locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-business-location-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +43,7 @@ Location agents and managers can create cases for business locations without add
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Case form](../reference/r_CustomerServiceCaseForm.md).
+    For a description of the field values, see [Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServiceCaseForm.md).
 
 4.  Select **Submit**.
 
@@ -50,11 +51,11 @@ Location agents and managers can create cases for business locations without add
 **Related topics**  
 
 
-[Service Model Foundation cases](../reference/industry-data-model-cases.md)
+[Service Model Foundation cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/industry-data-model-cases.md)
 
-[Assign responsibilities](csm-assign-responsibilities.md)
+[Assign responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-assign-responsibilities.md)
 
-[Assign roles](configure-data-model-roles.md)
+[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-roles.md)
 
-[Create a customer service case](t_CreateACaseFromCustServApp.md)
+[Create a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustServApp.md)
 

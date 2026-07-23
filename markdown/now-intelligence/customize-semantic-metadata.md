@@ -2,6 +2,7 @@
 title: Customizing semantic metadata
 description: Semantic metadata — descriptions, labels, and usage instructions — control how Query Generation interprets natural language questions. Customize these metadata to improve accuracy for your organization's terminology and data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/customize-semantic-metadata.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-17"
@@ -14,7 +15,7 @@ breadcrumb: [Tuning the semantic layer, Configure, Query Generation, Now Assist 
 
 Semantic metadata — descriptions, labels, and usage instructions — control how Query Generation interprets natural language questions. Customize these metadata to improve accuracy for your organization's terminology and data.
 
-Both entities \(tables\) and dimensions \(fields\) in the semantic layer have three metadata fields that Query Generation uses when processing a question:
+Both [entities]() \(tables\) and [dimensions]() \(fields\) in the [semantic layer]() have three metadata fields that Query Generation uses when processing a question:
 
 -   **Semantic Label**
 
@@ -26,7 +27,7 @@ Both entities \(tables\) and dimensions \(fields\) in the semantic layer have th
 
 -   **Semantic Usage Instructions**
 
-    Instructions injected directly into the LLM prompt when the entity or dimension is selected. Teaches the system how to query the data — for example, which operators to use, how to handle abbreviations, or how to expand hierarchical values.
+    Instructions injected directly into the [LLM]() prompt when the entity or dimension is selected. Teaches the system how to query the data — for example, which operators to use, how to handle abbreviations, or how to expand hierarchical values.
 
 
 ## When to customize
@@ -53,7 +54,7 @@ Two methods are available. Editing the configuration tables is considered the de
 
 ## Writing effective descriptions
 
-Follow these guidelines when writing semantic descriptions and labels:
+Follow these guidelines when writing semantic descriptions:
 
 -   Keep descriptions to 1–2 sentences focused on how users refer to this data
 -   Include common synonyms and abbreviations your users would say
@@ -117,15 +118,15 @@ These usage instructions are for a free-text Approximate Location field with hie
     -   User: "Show me things in North Carolina" → Query: location CONTAINS "North Carolina" OR location CONTAINS "NC"
     -   User: "Show me everything in Europe" → Decomposition: Europe &gt; \[UK, Spain, France, Germany...\] → Query: location CONTAINS "UK" OR location CONTAINS "United Kingdom" OR location CONTAINS "Spain" OR location CONTAINS "France"...
 
--   **[Customize entity descriptions for the semantic layer](../task/customize-entity-descriptions.md)**  
+-   **[Customize entity descriptions for the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-entity-descriptions.md)**  
 Create custom entity descriptions in the Semantic Table Configuration table so that customizations can be transferred between instances via update sets.
--   **[Customize column descriptions and usage instructions](../task/customize-column-descriptions.md)**  
+-   **[Customize column descriptions and usage instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-column-descriptions.md)**  
 Create custom column descriptions and usage instructions in the Semantic Column Configuration table so that customizations can be transferred between instances via update sets.
 
-**Parent Topic:**[Tuning the semantic layer](semantic-layer-tuning-overview.md)
+**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/semantic-layer-tuning-overview.md)
 
 **Related topics**  
 
 
-[Roles, tables, and scheduled jobs included with Query Generation](../../par-for-workspace/concept/tables-sched-jobs-query-gen.md)
+[Roles, tables, and scheduled jobs included with Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/tables-sched-jobs-query-gen.md)
 

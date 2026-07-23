@@ -2,6 +2,7 @@
 title: Default entities
 description: Default entities are available to use on activating HR Service Delivery Integration with Magnit application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/default-ent-magnit.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -52,10 +53,10 @@ Contingent workers onboarding \(Magnit\)
 HR template for contingent workers onboarding \(Magnit\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for HR Service Delivery Integration with Magnit](reference-magnit.md)
+</table>**Parent Topic:**[Reference for HR Service Delivery Integration with Magnit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-magnit.md)
 
 **Related topics**  
 
 
-[Components installed with HR Service Delivery Integration with Magnit](installed-with-magnit-int.md)
+[Components installed with HR Service Delivery Integration with Magnit]()
 

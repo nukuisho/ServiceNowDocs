@@ -2,11 +2,12 @@
 title: Automatically close customer service cases
 description: Customer service cases in the Resolved state can be closed automatically if customers don’t act.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/auto-close-customer-service-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Administer, Customer Service Management]
+breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Automatically close customer service cases

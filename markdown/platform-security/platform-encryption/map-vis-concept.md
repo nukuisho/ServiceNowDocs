@@ -2,6 +2,7 @@
 title: Module access policy visualization
 description: Use module access policy visualization to view all relevant cryptographic module information on a single UI page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/map-vis-concept.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -15,7 +16,7 @@ breadcrumb: [Key Management Framework Reference, Key Management Framework, Encry
 
 Use module access policy visualization to view all relevant cryptographic module information on a single UI page.
 
-![Module access policy visualization UI page](../image/map-vis-ui-page.png)
+\[Omitted image "map-vis-ui-page.png"\] Alt text: Module access policy visualization UI page
 
 Key Management Framework admins and cryptographic managers can use the module access policy UI page to view all access control mechanisms related to a single cryptographic module. Use the information collected on this UI page to determine who has access to encrypted information on your instance.
 
@@ -27,10 +28,10 @@ Module access policies contain a **Result** field, which determines whether to g
 
 |UI label|Result field value|Definition|
 |--------|------------------|----------|
-|![Track label](../image/map-vis-track.png)|**Track** or **Allow**|Access is granted to all users, including scripts.|
-|![Reject label](../image/map-vis-reject.png)|**Reject**|Access is denied unless a track module access policy is found.|
-|![StrictReject label](../image/map-vis-strictreject.png)|**StrictReject**|Access is denied.|
-|![Absent label](../image/map-vis-absent.png)|**N/A**|The module access policy doesn’t exist on the instance. Access is denied to all.|
+|\[Omitted image "map-vis-track.png"\] Alt text: Track label|**Track** or **Allow**|Access is granted to all users, including scripts.|
+|\[Omitted image "map-vis-reject.png"\] Alt text: Reject label|**Reject**|Access is denied unless a track module access policy is found.|
+|\[Omitted image "map-vis-strictreject.png"\] Alt text: StrictReject label|**StrictReject**|Access is denied.|
+|\[Omitted image "map-vis-absent.png"\] Alt text: Absent label|**N/A**|The module access policy doesn’t exist on the instance. Access is denied to all.|
 
 ## Global policies
 
@@ -42,7 +43,7 @@ Use the **Global policies** section to review the module access policies that co
 
 </td><td>
 
-![Global policies section](../image/map-vis-global-section.png)
+\[Omitted image "map-vis-global-section.png"\] Alt text: Global policies section
 
 </td></tr></tbody>
 </table>|Policy|Definition|
@@ -56,11 +57,11 @@ Use the **Global policies** section to review the module access policies that co
 
 <table id="table_hn2_gr4_qxb"><tbody><tr><td>
 
-Use the **Helpful resources** section to find links to product documentation, relevant knowledge articles, and a brief description on how module access policies are evaluated on the platform. For a deeper look into how module access policies are evaluated, see [Module access policy debugger](map-debugger.md).
+Use the **Helpful resources** section to find links to product documentation, relevant knowledge articles, and a brief description on how module access policies are evaluated on the platform. For a deeper look into how module access policies are evaluated, see [Module access policy debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/map-debugger.md).
 
 </td><td>
 
-![Helpful resources section](../image/map-vis-help.png)
+\[Omitted image "map-vis-help.png"\] Alt text: Helpful resources section
 
 </td></tr></tbody>
 </table>## Granular policies
@@ -80,7 +81,7 @@ Use the **Granular policies** section to view lists of module access policies, s
 
 </td><td>
 
-![Granular policies section](../image/map-vis-granular.png)
+\[Omitted image "map-vis-granular.png"\] Alt text: Granular policies section
 
 </td></tr></tbody>
 </table>## Users with access
@@ -91,19 +92,19 @@ Use the **Users with access** section to see a list of all users that have acces
 
 </td><td>
 
-![Users with access section](../image/map-vis-users.png)
+\[Omitted image "map-vis-users.png"\] Alt text: Users with access section
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Key Management Framework Reference](understanding-kmf.md)
+</table>**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md)
 
 **Related topics**  
 
 
-[Key Management Framework key life-cycle states](../reference/key-life-cycle-states.md)
+[Key Management Framework key life-cycle states]()
 
-[Roles installed with Key Management Framework](../reference/kmf-roles.md#)
+[Roles installed with Key Management Framework]()
 
-[Module access policy debugger](map-debugger.md)
+[Module access policy debugger]()
 
-[Encryption and Key Management subscription bundle](../../encryption/reference/encryption-sku.md)
+[Encryption and Key Management subscription bundle]()
 

@@ -2,6 +2,7 @@
 title: Uninstall an application
 description: As an administrator, you can uninstall applications that are no longer needed. Typically, you uninstall applications that have been shared with other instances and you want to remove them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_UninstallApplications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ As an administrator, you can uninstall applications that are no longer needed. T
 
 ## Before you begin
 
-**Note:** For global scoped applications, you must first remove the associated files from the application before you delete the application record. These actions help protect the integrity of the instance by preventing the accidental deletion of files in the global scope. See [Legacy - Remove a file from a global application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/delete-files-global-application.md) and [Legacy - Move an application file between global applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/t_MoveAppFilesBetweenGlobalApps.md).
+**Note:** For global scoped applications, you must first remove the associated files from the application before you delete the application record. These actions help protect the integrity of the instance by preventing the accidental deletion of files in the global scope.
 
 Role required: admin
 
@@ -31,7 +32,7 @@ When you uninstall an application, all application files associated with the app
 
 3.  Click the name or icon of the application that you want to uninstall.
 
-    **Note:** You cannot uninstall applications on the **In Development** tab, but you can delete them. To learn more about what happens when you perform an application deletion, see [Delete an application](t_DeleteAnApplication.md). You also cannot uninstall base system applications.
+    **Note:** You cannot uninstall applications on the **In Development** tab, but you can delete them. To learn more about what happens when you perform an application deletion, see [Delete an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DeleteAnApplication.md). You also cannot uninstall base system applications.
 
 4.  In the custom application record, click the **Uninstall** related link.
 
@@ -59,5 +60,5 @@ When you uninstall an application, all application files associated with the app
 9.  Click **Done**.
 
 
-**Parent Topic:**[Rolling back and removing applications](../concept/c_RemovingApplications.md)
+**Parent Topic:**[Rolling back and removing applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_RemovingApplications.md)
 

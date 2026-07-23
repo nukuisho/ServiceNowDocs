@@ -2,6 +2,7 @@
 title: Add covered products to a quote
 description: Add a covered product to line items in a quote in Quote Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-quote-add-covered-products.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ When converting quotes to orders, the covered product relationships are transfer
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All** and select a quote to which a covered product is to be added.
 
@@ -39,15 +40,15 @@ When converting quotes to orders, the covered product relationships are transfer
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d60878e147">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d67974e147">
 
 Covered product type
 
-</th><th align="left" id="d60878e150">
+</th><th align="left" id="d67974e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d60878e156">
+</th></tr></thead><tbody><tr><td id="d67974e156">
 
 **Covered quote line item**
 
@@ -55,7 +56,7 @@ Description
 
 Select a quote line item to be added as a covered product.
 
-</td></tr><tr><td id="d60878e165">
+</td></tr><tr><td id="d67974e165">
 
 **Covered sold product**
 
@@ -63,7 +64,7 @@ Select a quote line item to be added as a covered product.
 
 Select a covered sold product to be added as a covered product.
 
-</td></tr><tr><td id="d60878e177">
+</td></tr><tr><td id="d67974e177">
 
 **Covered install base item**
 
@@ -81,5 +82,5 @@ Add an install base item as a covered product.
     A contract is created with the contract details for the order line.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

@@ -2,11 +2,12 @@
 title: Express List in the Service Operations Workspace for ITOM
 description: The ServiceNow Event Management Express List feature helps you identify health issues across the datacenter on the Service Operations Workspace. It provides a list of quick information on alerts so you can more efficiently monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/express-list.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-10"
 reading_time_minutes: 3
 breadcrumb: [Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -15,11 +16,15 @@ breadcrumb: [Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIO
 
 The ServiceNow Event Management Express List feature helps you identify health issues across the datacenter on the Service Operations Workspace. It provides a list of quick information on alerts so you can more efficiently monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents.
 
-Introduction to the Event Management Express List
+\[Omitted video\] Description: Service Operations Workspace for ITOM \| Identify health issues with Event Management
 
 The Express List pane sortable alert list reduces the number of clicks necessary to access alert information. Selecting the check box of an alert opens a preview panel where you can view data that helps for prioritization, impact realization, and root cause analysis. You can easily modify the Express List pane to narrow down the display by using a provided fields list, displaying additional alert information, and filtering out or showing matching alerts. You can also modify the displayed time range.
 
-The following image shows a sample Express List pane.![Express List display](../../event-management/image/express-list-main-page.png)
+**Note:**
+
+Exporting alerts is not supported from the Express List. To export alerts, open the list view in Service Operations Workspace.
+
+The following image shows a sample Express List pane.\[Omitted image "express-list-main-page.png"\] Alt text: Express List display
 
 ## Express List benefits
 
@@ -49,7 +54,7 @@ The **Info** tab on the preview panel displays the following information for a s
 -   Last Updated
 -   Impacted services
 
-    For more information, see [View data on impacted services on the preview panel in Express List](../task/el-impacted-services-data.md).
+    For more information, see [View data on impacted services on the preview panel in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-impacted-services-data.md).
 
 -   Additional info
 -   Custom field
@@ -69,7 +74,7 @@ Each tile displays the following alert information:
 
 ## Customizing the alert display time range
 
-You can determine the time range of the displayed alerts. The default time range is the last 24 hours. The list continues to update with new alerts until you select the pause icon \(![Pause icon.](../image/pause-el.png)\). Selecting the current range setting in the upper right displays a dialog box with date and time range options:
+You can determine the time range of the displayed alerts. The default time range is the last 24 hours. The list continues to update with new alerts until you select the pause icon \(\[Omitted image "pause-el.png"\] Alt text: Pause icon.\). Selecting the current range setting in the upper right displays a dialog box with date and time range options:
 
 -   All time - The last 90 days
 -   Last 24 hours
@@ -90,5 +95,5 @@ Default time ranges can be defined by your administrator using the system proper
 **Related topics**  
 
 
-[Roles used by Express List](../reference/roles-used-by-express-list.md)
+[Roles used by Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/roles-used-by-express-list.md)
 

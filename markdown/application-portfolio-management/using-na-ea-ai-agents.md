@@ -2,6 +2,7 @@
 title: Using AI agent agentic workflow in Now Assist for Enterprise Architecture \(EA\)
 description: Use the AI agents in Enterprise Architecture to help complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/using-na-ea-ai-agents.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,8 +37,8 @@ To view more information on AI agents and how to install them, see the following
 -   [Install Now Assist AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 -   [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
 
--   **[Enterprise Architecture AI agent generate enterprise architecture diagram agentic workflow](now-assist-aiagents-ea-diagramming-usecase.md)**  
+-   **[Enterprise Architecture AI agent diagramming agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md)**  
 Use the Enterprise architecture diagrams AI agent to generate Enterprise Modeling and Visualization diagrams for business applications hierarchy and summarize them.
 
-**Parent Topic:**[Now Assist for Enterprise Architecture \(EA\)](now-assist-ea.md)
+**Parent Topic:**[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)
 

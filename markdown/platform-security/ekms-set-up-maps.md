@@ -2,6 +2,7 @@
 title: Set up Module Access Policies
 description: Configure module access policies in External Key Management Service \(EKMS\) to control who can view encrypted data in clear text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ekms-set-up-maps.html
 release: australia
 topic_type: task
 last_updated: "2026-04-02"
@@ -19,14 +20,14 @@ Role required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
 Confirm that you have:
 
--   [Created a cryptographic module with external key wrapping enabled](ekms-configure-external-key-definition.md)
--   [Created an Encrypted Field Configuration](ekms-create-encrypted-field-config.md)
+-   [Created a cryptographic module with external key wrapping enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configure-external-key-definition.md)
+-   [Created an Encrypted Field Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-create-encrypted-field-config.md)
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience** &gt; **Configurations** &gt; **Access Policies**.
 
-    **Note:** For additional information, refer to [Configure module access policies for Field Encryption](../../key-management-framework/task/create-module-access-policy.md).
+    **Note:** For additional information, refer to [Configure module access policies for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-module-access-policy.md).
 
 2.  Select **Create New**.
 
@@ -61,7 +62,7 @@ Decide who or what should have access to this MAP to encrypt or decrypt data.-  
 -   Script- Ensure a specified script can access this MAP.
 -   System Access- Allows processes running in “System Context” access to this MAP.
 -   Resource Exchange- Allows for the Resource Exchange feature access to this MAP.
-For more information on how these different types of MAP work, see [Exploring Field Encryption](../concept/exploring-fe.md).
+For more information on how these different types of MAP work, see [Exploring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-fe.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Select one of the following:-   **StrictReject** rejects access under all circum
 
 
 </td></tr></tbody>
-</table>    ![Example of completed MAP form.](../image/ekms-create-map-track-ui.png)
+</table>    \[Omitted image "ekms-create-map-track-ui.png"\] Alt text: Example of completed MAP form.
 
 
 ## Result
@@ -116,8 +117,8 @@ The Module Access Policy for the script is available in the system.
 
 Next steps:
 
--   [Test an external key definition](ekms-test-external-key-definition.md)
--   [Learn how to change the status of an AWS KMS Key](ekms-change-status-aws-kms-key.md)
+-   [Test an external key definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-test-external-key-definition.md)
+-   [Learn how to change the status of an AWS KMS Key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-change-status-aws-kms-key.md)
 
-**Parent Topic:**[Configuring External Key Management Service](../concept/ekms-configuring-external-key-management.md)
+**Parent Topic:**[Configuring External Key Management Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ekms-configuring-external-key-management.md)
 

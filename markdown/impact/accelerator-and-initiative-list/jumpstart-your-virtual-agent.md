@@ -1,19 +1,20 @@
 ---
 title: Jumpstart Your Virtual Agent
-description: This accelerator provides guidance on realizing benefits with the ITSM Virtual Agent.
+description: This Accelerator provides guidance on realizing benefits with the ITSM Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-virtual-agent.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Virtual Agent
 
-This accelerator provides guidance on realizing benefits with the ITSM Virtual Agent.
+This Accelerator provides guidance on realizing benefits with the ITSM Virtual Agent.
 
 ## Accelerator Overview
 
@@ -21,7 +22,9 @@ Jumpstart Your Virtual Agent provides Impact Customers with an applied demonstra
 
 **Note:**
 
-This accelerator does not cover content related to the Now Assist \(GenAI\) Virtual Agent.
+This Accelerator does not cover content related to the Now Assist \(GenAI\) Virtual Agent.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -59,6 +62,8 @@ This accelerator does not cover content related to the Now Assist \(GenAI\) Virt
 |Developer\(s\)|Write code for the ServiceNow platform.| |✓|
 
 ## Requested information/access
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

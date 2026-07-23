@@ -2,6 +2,7 @@
 title: Mutually exclusive tests
 description: Prevent conflicting tests from running in parallel by marking them as mutually exclusive. For example, when the system identifies tests that modify the same record, the system makes these tests mutually exclusive. You can also manually mark tests as mutually exclusive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/mutual-exclusion-rule.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -46,18 +47,18 @@ You can mark tests as mutually exclusive using any of the following methods.
     **Note:** The **Parallel Test Runs** tab is visible only if the test runs in parallel with one or more tests.
 
 
-**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](atf-test-type-testing.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-type-testing.md)
 
 **Related topics**  
 
 
-[Reusable tests](atf-reuse-tests.md)
+[Reusable tests]()
 
-[Quick start tests](quick-start-tests.md)
+[Quick start tests]()
 
-[Parallel testing](parallel-testing.md)
+[Parallel testing]()
 
-[Accelerate ATF tests failure resolution](../task/atf-test-triage.md)
+[Accelerate ATF tests failure resolution]()
 
-[Performance profiling](atf-perf-prof.md#)
+[Performance profiling]()
 

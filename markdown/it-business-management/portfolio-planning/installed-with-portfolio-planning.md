@@ -2,6 +2,7 @@
 title: Components installed with Portfolio Planning
 description: Several types of components are installed with activation of the Portfolio Planning application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/installed-with-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -107,6 +108,7 @@ Business stakeholder\[business\_stakeholder\]
 
 -   Can create and update portfolio plans and free-form roadmaps.
 -   Can add notes, comments, or attachments to portfolio plans and roadmaps that are shared with them.
+-   Can fill out the assessments for scoring and reviews demands before they are approved.
 -   Can personalize the roadmaps.
 -   Can view generated resource capacity for planning items in the Capacity Planning screen.
 -   Can view goals and related records using the platform view.
@@ -353,8 +355,8 @@ com.sn\_align\_cmn\_int.bulk\_import
     -   INSERT
     -   &lt;Value 2 name&gt;:
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Configure bulk import](../../apw-internal-integrations/reference/configure-bulk-import.md)
+-   Learn more: [Configure bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configure-bulk-import.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Portfolio Planning reference](../concept/portfolio-planning-reference.md)
+</table>**Parent Topic:**[Portfolio Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-reference.md)
 

@@ -2,6 +2,7 @@
 title: Credentials error
 description: Troubleshoot a credentials error that occurs while registering a target instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/register-target-instance-1.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -26,5 +27,5 @@ Clone requests can’t redirect authentication requests to a single sign-on iden
 -   Provide credentials for the target instance for a user with the admin role.
 -   Use a local user account, not an LDAP, or SSO user account.
 
-**Parent Topic:**[Troubleshooting for registering target instance](register-target-instance-troubleshooting.md)
+**Parent Topic:**[Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/register-target-instance-troubleshooting.md)
 

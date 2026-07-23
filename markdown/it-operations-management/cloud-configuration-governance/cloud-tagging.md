@@ -2,6 +2,7 @@
 title: Tags for cloud resources
 description: Tags categorize cloud resources to provide richer and more detailed tracking and billing report data.Cloud Administrators can create custom tags in addition to the default tags to categorize cloud resources.Configure user-defined tags to view and analyze billing data using custom tags existing on provisioned resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-tagging.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -77,7 +78,7 @@ Tags generated for Amazon Web Services \(AWS\) resources are sent to AWS and are
 **Related topics**  
 
 
-[View tagged resources on the Tag dashboard](cloud-dashboards.md#)
+[View tagged resources on the Tag dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-dashboards.md)
 
 ## Create a custom tag for cloud resources
 
@@ -129,7 +130,7 @@ Value type
 
 </td><td>
 
-The [type of value](cloud-tagging.md#table_db3_vzx_vy) for this tag.
+The [type of value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-tagging.md) for this tag.
 
 </td></tr><tr><td>
 
@@ -168,7 +169,7 @@ An indicator that specifies if the tag is in use. Select this option to apply th
 **Related topics**  
 
 
-[View tagged resources on the Tag dashboard](cloud-dashboards.md#)
+[View tagged resources on the Tag dashboard]()
 
 ## Group billing data using custom tags from provisioned resources
 
@@ -209,7 +210,7 @@ Provisioned resources with existing tags are discovered as part of Cloud discove
 
 5.  Perform Cloud Discovery again to view updated ServiceNow \(Custom\) tags.
 
-    For more information, see [Cloud Discovery](../../discovery/concept/discovery-manager.md#).
+    For more information, see [Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-manager.md).
 
 6.  Run the Billing schedule.
 
@@ -226,5 +227,5 @@ Provisioned resources with existing tags are discovered as part of Cloud discove
 
 ### What to do next
 
-[View cloud costs on the Billing dashboard](cloud-dashboards.md#).
+[View cloud costs on the Billing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-dashboards.md).
 

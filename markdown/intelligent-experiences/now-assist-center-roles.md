@@ -2,6 +2,7 @@
 title: Now Assist Center roles
 description: Now Assist Center is installed with these roles.Use the Now Assist Center workspace to access and set up Now Assist solutions, perform administrative tasks, and monitor performance. This role has full access to the Now Assist Center application, and can access Now Assist Center tables.Perform read actions in Now Assist Center workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,16 +15,16 @@ breadcrumb: [Reference, Now Assist Center, Enable AI experiences]
 
 Now Assist Center is installed with these roles.
 
-**Parent Topic:**[Now Assist Center reference](now-assist-center-reference.md)
+**Parent Topic:**[Now Assist Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Now Assist Center](components-installed-with-now-assist-center.md)
+[Components installed with Now Assist Center]()
 
-[Domain separation and Now Assist Center](domain-separation-now-assist-center.md)
+[Domain separation and Now Assist Center]()
 
-[Now Assist Center glossary](../concept/now-assist-center-glossary.md#)
+[Now Assist Center glossary]()
 
 ## Now Assist Center admin \[sn\_na\_center.nac\_admin\]
 

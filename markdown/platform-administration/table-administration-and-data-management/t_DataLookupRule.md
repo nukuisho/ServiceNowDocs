@@ -2,6 +2,7 @@
 title: Create an assignment data lookup rule
 description: Automatically assign a record using Data Lookup and Record Matching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_DataLookupRule.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -49,22 +50,22 @@ The rule assigns incidents to the values in the Assignment Group and Assigned To
 
 In this example, the Assignment Data Lookup rule automatically assigns any incident with the Category of Inquiry/Help and Subcategory of Email to Fred Luddy.
 
-![Assignment data lookup](../image/Assignment_Data_Lookup.png "Assignment data lookup")
+\[Omitted image "Assignment\_Data\_Lookup.png"\] Alt text: Assignment data lookup
 
-**Parent Topic:**[Defining assignment rules](../concept/c_DefineAssignmentRules.md)
+**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
 
 **Related topics**  
 
 
-[Assignment rules module](../concept/c_AssignmentRulesModule.md)
+[Assignment rules module]()
 
-[Data lookup rules](../concept/c_DataLookupRules.md)
+[Data lookup rules]()
 
-[Precedence between data lookup, assignment, and business rules](../concept/c_PrecBetweenAssignmentAndBusRules.md)
+[Precedence between data lookup, assignment, and business rules]()
 
-[Workflow assignments](../concept/c_WorkflowAssignments.md)
+[Workflow assignments]()
 
-[Baseline assignment rules example](../reference/r_BaselineAssignmentRulesExample.md)
+[Baseline assignment rules example]()
 
-[Create an assignment rule](t_AssignmentModuleRule.md)
+[Create an assignment rule]()
 

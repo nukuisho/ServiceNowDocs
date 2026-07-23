@@ -1,7 +1,8 @@
 ---
-title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection preliminary troubleshooter agentic workflow
+title: Preliminary troubleshooter agentic workflow
 description: Use the preliminary troubleshooter agentic workflow to resolve broadband and internet issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-preliminary-troubleshooter-agentic-workflow.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -11,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Customer Service Problem Management, Use agentic workflows, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection preliminary troubleshooter agentic workflow
+# Preliminary troubleshooter agentic workflow
 
 Use the preliminary troubleshooter agentic workflow to resolve broadband and internet issues.
 

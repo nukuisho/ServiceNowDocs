@@ -2,6 +2,7 @@
 title: Threat actors
 description: Threat Actors are individuals, groups, or organizations who act with malicious intent. Threat actors applies for STIX 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-actors.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,57 +20,57 @@ Threat Actors use their resources, and the resources of an Intrusion Set, to con
 
 You can identify Threat Actors by their motives, capabilities, goals, sophistication level, past activities, resources they have access to, and their role in the organization.
 
--   **[Define threat actors](../task/define-threat-actors.md)**  
+-   **[Define threat actors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-threat-actors.md)**  
 Define threat actors who are individuals, groups, or organizations who act with malicious intent.
 
-**Parent Topic:**[IoC Repository](ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
 
 **Related topics**  
 
 
-[Attack modes and methods](c_AttackModeMethod.md)
+[Attack modes and methods]()
 
-[Indicators of compromise](c_IoCs.md)
+[Indicators of compromise]()
 
-[Observables](c_Observables.md)
+[Observables]()
 
-[Attack patterns](attack-patterns.md)
+[Attack patterns]()
 
-[Campaigns](threat-intelligence-campaigns.md)
+[Campaigns]()
 
-[Course of actions](threat-intelligence-course-actions.md)
+[Course of actions]()
 
-[Identities](threat-intelligence-identities.md)
+[Identities]()
 
-[Infrastructure](threat-intelligence-infrastructure.md)
+[Infrastructure]()
 
-[Intrusion set](threat-intelligence-intrusion-sets.md)
+[Intrusion set]()
 
-[Locations](threat-intelligence-locations.md)
+[Locations]()
 
-[Malware](threat-intelligence-malware.md)
+[Malware]()
 
-[Malware analysis](threat-intelligence-malware-analysis.md)
+[Malware analysis]()
 
-[Observed data](threat-intelligence-observed-data.md)
+[Observed data]()
 
-[Threat groupings](threat-groupings.md)
+[Threat groupings]()
 
-[Marking definitions](marking-definitions.md)
+[Marking definitions]()
 
-[Threat notes](threat-intelligence-threat-notes.md)
+[Threat notes]()
 
-[Threat opinions](threat-opinions.md)
+[Threat opinions]()
 
-[Threat reports](threat-reports.md)
+[Threat reports]()
 
-[Sightings](indicator-sightings.md)
+[Sightings]()
 
-[Tools](tools.md)
+[Tools]()
 
-[Vulnerabilities](vulnerabilities.md)
+[Vulnerabilities]()
 
-[Relationships](stix-relationships.md)
+[Relationships]()
 
-[STIX Visualizer](stix-visualizer.md)
+[STIX Visualizer]()
 

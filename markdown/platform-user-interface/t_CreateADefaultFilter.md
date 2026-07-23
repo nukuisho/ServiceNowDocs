@@ -2,6 +2,7 @@
 title: Create a default filter for a related list
 description: Create a default filter for the records that load when your related list displays.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateADefaultFilter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,25 +28,25 @@ Role required: admin
 
 2.  Create the desired filter using the condition builder \(example, **\[Active\] \[is\] \[true\]**\).
 
-    ![Filter in a related list with the Set as Default Filter button highlighted](../image/DefaultFilter.png)
+    \[Omitted image "DefaultFilter.png"\] Alt text: Filter in a related list with the Set as Default Filter button highlighted
 
 3.  Click **Set as Default Filter**.
 
 
-**Parent Topic:**[Related lists](../concept/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 
 
-[Select or create records in a related list](t_SelectRelatedRecords.md)
+[Select or create records in a related list]()
 
-[Configure when a related list loads](t_ConfigureWhenARelatedListLoads.md)
+[Configure when a related list loads]()
 
-[Configure the edit option](t_ConfigureTheEditOption.md)
+[Configure the edit option]()
 
-[Create defined related lists](../../../administer/form-administration/task/t_CreateDefinedRelatedLists.md)
+[Create defined related lists]()
 
-[Add fields to selections in a related list](../../../administer/form-administration/task/t_AddingFieldsToARelatedList.md)
+[Add fields to selections in a related list]()
 
-[Create a default filter for list selector records](../../../administer/form-administration/task/t_CreateDefaultRelatedRecSecFilter.md)
+[Create a default filter for list selector records]()
 

@@ -2,10 +2,11 @@
 title: AI agents and agentic workflows in Simplified IT Service Management
 description: Use conversational AI-native experience for administrators, employees, and fulfillers using Simplified IT Service Management \(Simplified ITSM\). AI agents and agentic workflows provide a step-by-step approach to configure ITSM workflows with validated inputs and preview.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/agents-ai-native-it-service-desk.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Reference, Simplified IT Service Management, IT Service Management]
 ---
 
@@ -17,11 +18,11 @@ Use conversational AI-native experience for administrators, employees, and fulfi
 
 These AI agents help administrators configure ITSM workflows seamlessly from a single admin UI page using natural language.
 
-For information about admin configurations applicable for Simplified ITSM, see [Platform module configuration in Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md).
+For information about admin configurations applicable for Simplified ITSM, see [Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md).
 
-For information about employee configurations in Simplified ITSM, see [Configuring the employee experience in Simplified IT Service Management](../concept/configuring-employee-experience-ai-native-itsm.md).
+For information about employee configurations in Simplified ITSM, see [Configuring the employee experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-employee-experience-ai-native-itsm.md).
 
-For information about fulfiller configurations in Simplified ITSM, see [Configuring the fulfiller experience in Simplified IT Service Management](../concept/configuring-fulfiller-experience-ai-native-itsm.md).
+For information about fulfiller configurations in Simplified ITSM, see [Configuring the fulfiller experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configuring-fulfiller-experience-ai-native-itsm.md).
 
 <table id="table_ckp_xzv_t3c"><thead><tr><th>
 
@@ -124,6 +125,8 @@ Incident Category Configuration AI Agent
 
 Configures incident categories and subcategories.It recommends industry-specific categories, supports bulk import via an Excel or CSV file, and provides a preview of changes before committing. It also supports editing categories in the base system.
 
+**Note:** You can download the template for bulk import, add the required details, and import it.
+
 </td></tr><tr><td>
 
 Notification Agent
@@ -139,6 +142,46 @@ SLA Management AI Agent
 </td><td>
 
 Configures Service Level Agreement \(SLA\) definitions of the SLA type for an incident.
+
+</td></tr><tr><td>
+
+Change Team Role Configuration Agent
+
+</td><td>
+
+Configures team roles in Change Management to assign the right people to the right roles in Change Management.
+
+</td></tr><tr><td>
+
+Change Risk Configuration Agent
+
+</td><td>
+
+Configures risk assessment questions, scoring thresholds, and risk levels so that Change Management can automatically evaluate the risk of a proposed change and route it to the appropriate approval workflow
+
+</td></tr><tr><td>
+
+CAB Configuration Agent
+
+</td><td>
+
+Configures the change advisory board \(CAB\) to define who reviews and approves significant changes before they are implemented.
+
+</td></tr><tr><td>
+
+Change Models Configuration Agent
+
+</td><td>
+
+Configures the change models that control how Normal, Standard, Emergency, and Change Registration changes are processed in Simplified Change Management.
+
+</td></tr><tr><td>
+
+Change Schedule Configuration Agent
+
+</td><td>
+
+Configures blackout and maintenance schedules for Change Management to control when changes are permitted or blocked across your organization.
 
 </td></tr></tbody>
 </table>## AI agents for employee usage
@@ -192,10 +235,10 @@ These AI agents help fulfillers with their ITSM tasks using natural language.
 
 |Agentic workflow|Description|
 |----------------|-----------|
-|Investigate and resolve ITSM incidents|Provides recommendations to resolve an incident based on the incident number. Checks for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident. For information about this agentic workflow, see [IT Service Management AI agent collection Investigate and resolve ITSM incidents agentic workflow](../../now-assist-itsm/concept/now-assist-itsm-aiagents-incident-resolver-workflow.md).|
-|Triage and categorize ITSM incidents|Assigns incident categories and subcategories based on its short description. After categorizing the incident, assigns the service, service offering, and configuration item \(CI\) related to the incident. It also automatically links incidents to major incidents or known problems. For information about this agentic workflow, see [IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow](../../now-assist-itsm/concept/now-assist-itsm-aiagents-catincidents-usecase.md).|
+|Investigate and resolve ITSM incidents|Provides recommendations to resolve an incident based on the incident number. Checks for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident. For information about this agentic workflow, see [IT Service Management AI agent collection Investigate and resolve ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.md).|
+|Triage and categorize ITSM incidents|Assigns incident categories and subcategories based on its short description. After categorizing the incident, assigns the service, service offering, and configuration item \(CI\) related to the incident. It also automatically links incidents to major incidents or known problems. For information about this agentic workflow, see [IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-catincidents-usecase.md).|
 
-**Parent Topic:**[Simplified IT Service Management reference](../concept/ai-native-it-service-desk-reference.md)
+**Parent Topic:**[Simplified IT Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/ai-native-it-service-desk-reference.md)
 
 **Related topics**  
 

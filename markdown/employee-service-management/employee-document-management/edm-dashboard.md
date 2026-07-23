@@ -2,6 +2,7 @@
 title: Employee Document Management dashboard
 description: Gain insight into macro trends more efficiently on a single dashboard-style page showing you important metrics on employee documents, status of purging and purge settings, and legal holds.The Employee Document Management Dashboard provides a quick and easy way to view statistics about the purge and legal hold status of your employee documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/edm-dashboard.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
@@ -16,8 +17,6 @@ breadcrumb: [Employee Document Management, HR Documents, HR Service Delivery, Em
 Gain insight into macro trends more efficiently on a single dashboard-style page showing you important metrics on employee documents, status of purging and purge settings, and legal holds.
 
 Activating the Performance Analytics - Content Pack - Human Resources Employee Document Management Scoped App \[com.sn\_hr\_employee\_files\_pa\] plugin enables the Performance Analytics reports and dashboard for the Employee Document Management.
-
-For more information on configuring your dashboard, see Dashboards overview.
 
 The Employee Documents Dashboard has two tabs:
 

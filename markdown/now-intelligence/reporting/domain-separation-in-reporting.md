@@ -2,6 +2,7 @@
 title: Domain separation and Reporting
 description: Domain separation is supported in reporting and relates to report creation and administration. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/domain-separation-in-reporting.html
 release: australia
 product: Reporting
 classification: reporting
@@ -38,14 +39,14 @@ In Reporting, separated data includes report designs and report content. A repor
 -   Reports created in either the IT, CS, or HR child domains aren’t visible to users in the other child domains, but they are visible to users in the parent Joe's Company domain.
 -   Reports created in the parent \(Joe's Company\) domain are available only to users in that domain, but not to users in the child domains.
 
-![List of company departments in separate domains including IT, CS, and HR. IT, CS, and HR are child domains of Joe's Company.](../image/domains-list-example.png)
+\[Omitted image "domains-list-example.png"\] Alt text: List of company departments in separate domains including IT, CS, and HR. IT, CS, and HR are child domains of Joe's Company.
 
 If you create a report in one domain and copy it to another, the report structure remains the same, but the report data is adjusted for the domain. For example, an Active Incident report shows all active incidents to a user in the parent domain, but only IT incidents to a user in the IT domain.
 
--   **[Enable domain separation on reports](../task/t_EnsureDomainSepOnAReport.md)**  
+-   **[Enable domain separation on reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_EnsureDomainSepOnAReport.md)**  
 Activate the domain separation plugin to enable reports to display content based on data, rules, and settings from the logged-on user domain.
 
-**Parent Topic:**[Administering reports](c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 
 **Related topics**  
 

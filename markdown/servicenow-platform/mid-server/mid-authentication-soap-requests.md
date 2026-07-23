@@ -2,6 +2,7 @@
 title: MID Server authentication credentials and SOAP requests
 description: Set basic authentication credentials to update the web service invocation data. For added security, you can enforce basic authentication on each incoming SOAP request to the MID Server.Enforce basic authentication on each incoming SOAP request to the MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-authentication-soap-requests.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -30,38 +31,38 @@ You can set basic authentication credentials for SOAP requests. Each SOAP reques
 
 The setting for enforcing strict security controls how the instance uses the credentials you provide for the MID Server. When the setting is enabled, you must provide a user ID with access to the tables the MID Server is trying to access. When the setting is disabled, any valid user ID allows the MID Server to access to all tables.
 
-**Parent Topic:**[Securing and encrypting MID Server data](mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[MID Server certificate check policies](mid-security-checks.md)
+[MID Server certificate check policies]()
 
-[Encrypt or decrypt MID Server configuration file values](../task/mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server unified key store](mid-unified-keystore.md#)
+[MID Server unified key store]()
 
-[Enable MID Server mutual authentication](../task/install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication]()
 
-[MID Server Azure Key Vault integration](../task/mid-azure-key-vault-integration.md#)
+[MID Server Azure Key Vault integration]()
 
-[MID Server command audit log](mid-audit-log.md)
+[MID Server command audit log]()
 
-[Rekey a MID Server](../task/t_RekeyAMIDServer.md)
+[Rekey a MID Server]()
 
-[Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#)
+[Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server](../task/mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
+[MID Server SSH cryptographic algorithms]()
 
-[Attach a script file to a file synchronized MID Server](../task/mid-server-script-attach.md#)
+[Attach a script file to a file synchronized MID Server]()
 
-[MID Server FIPS Enforced Mode](mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 
-[MID Server Governance](mid-timeout.md)
+[MID Server Governance]()
 
 ## Require basic authorization for incoming SOAP requests
 

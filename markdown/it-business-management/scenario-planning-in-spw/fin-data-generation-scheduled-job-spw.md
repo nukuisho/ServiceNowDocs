@@ -2,6 +2,7 @@
 title: Activate a scheduled job to generate data to view portfolio financials
 description: Activate and define Data generation for financials in SPW/PPW scheduled job to migrate budget from old data model to new data model and view portfolio financials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/fin-data-generation-scheduled-job-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ Activate and define **Data generation for financials in SPW/PPW** scheduled job 
 
 ## About this task
 
-It is a one-time activity to define and run this scheduled job to view portfolio financials.
+It’s a one-time activity to define and run this scheduled job to view portfolio financials.
 
 ## Before you begin
 
@@ -33,9 +34,11 @@ Role required: admin
 
 4.  Edit the fields on the Scheduled Script Execution form to customize the job and meet your requirements.
 
-    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
+    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ScheduleAScriptExecution.md#t_ScheduleScriptExecution).
 
-5.  Select **Execute Now** to execute the scheduled job.
+5.  Remove the condition `'active=true'` to generate the financial data and work on costs for inactive planning items.
+
+6.  Select **Update** to save your changes and execute the job as scheduled, or select **Execute Now** to run the scheduled job.
 
 
 ## Result

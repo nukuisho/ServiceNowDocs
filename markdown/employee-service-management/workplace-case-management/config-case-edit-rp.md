@@ -2,6 +2,7 @@
 title: Configuring a record producer for request edit
 description: Configure a record producer for editable workplace service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/config-case-edit-rp.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -21,9 +22,9 @@ To configure the edit functionality of a record producer, follow the steps in th
 
 ## Creating a record producer
 
-You must first create a record producer on the Workplace Case or Workplace Case Extension tables, then map it to the **Record Producer** field of a Workplace Service. For more information about creating a record producer, see [Configure a Record producer](../task/wsd-create-record-producer.md).
+You must first create a record producer on the Workplace Case or Workplace Case Extension tables, then map it to the **Record Producer** field of a Workplace Service. For more information about creating a record producer, see [Configure a Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-create-record-producer.md).
 
-If you want to integrate the record producer with Workplace Reservation Management, see [Configuring a record producer for reservation](config-reservation-rp.md).
+If you want to integrate the record producer with Workplace Reservation Management, see [Configuring a record producer for reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/config-reservation-rp.md).
 
 ## Enabling the edit functionality
 
@@ -31,7 +32,7 @@ You can enable the button by selecting `Case` or `Case and Reservation` in the *
 
 When the **Allow request modifications** option is enabled on a workplace service, users see the **Edit request** action in the request summary page for all the record producers associated with that service.
 
-For more information about the fields of a workplace service, see [Workplace Service form](../reference/workplace-service-form.md).
+For more information about the fields of a workplace service, see [Workplace Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-service-form.md).
 
 ## Redirecting to the Case Editor page
 
@@ -81,40 +82,40 @@ After making their changes, users can save the updated case, which makes the fol
     -   For both item and space selection in the request, use the `Workplace Service widget Variable set`.
     -   For only space selection, use the `Multilevel space picker widget variable set`.
 
-**Parent Topic:**[Configuring Workplace Case Management](workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Case Management](../task/install-workplace-case-mgmt.md)
+[Install Workplace Case Management]()
 
-[Create a Workplace case template](../task/wsd-case-template.md)
+[Create a Workplace case template]()
 
-[Create a Workplace task template](../task/wsd-task-template.md)
+[Create a Workplace task template]()
 
-[Smart Assessment for Workplace Case and Task](../task/smart-assessment-for-workplace-case-and-task.md)
+[Smart Assessment for Workplace Case and Task]()
 
-[Automating seat assignment for new hires](auto-assign-new-hires.md)
+[Automating seat assignment for new hires]()
 
-[Configure Approval options](../task/config-approval-optns.md)
+[Configure Approval options]()
 
-[Configure a Record producer](../task/wsd-create-record-producer.md)
+[Configure a Record producer]()
 
-[Configuring a record producer for reservation](config-reservation-rp.md)
+[Configuring a record producer for reservation]()
 
-[Create an SLA Definition](../task/create-sla-defn-case-mgmt.md)
+[Create an SLA Definition]()
 
-[Create a Workplace service](../task/create-workplace-service.md)
+[Create a Workplace service]()
 
-[Add a workplace service item to a workplace service](../task/add-workplace-service-items.md)
+[Add a workplace service item to a workplace service]()
 
-[Create a workplace template configuration](../task/create-workplace-template-confguration.md)
+[Create a workplace template configuration]()
 
-[Create a workplace field mapping](../task/create-workplace-field-mapping.md)
+[Create a workplace field mapping]()
 
-[Configure an escalation rule](../task/configure-escalation-rule.md)
+[Configure an escalation rule]()
 
-[Add Fulfillment instructions](../task/add-fulfillment-instructions.md)
+[Add Fulfillment instructions]()
 
-[Group similar workplace cases under a parent case](../task/group-similar-workplace-cases.md)
+[Group similar workplace cases under a parent case]()
 

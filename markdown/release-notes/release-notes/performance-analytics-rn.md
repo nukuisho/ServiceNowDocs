@@ -21,15 +21,15 @@ The ServiceNow®   Performance Analytics application is an in-platform process
 -   View scores as they accumulate throughout the day without having to wait for end-of-day processing.
 -   When exploring a Data snapshots indicator with KPI Details, customizable score formats, apply flexible breakdowns and aggregation periods, direct alert subscriptions for targets and thresholds, and apply hierarchical roll-ups for breakdowns.
 
-See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md) for more information.
+See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md) for more information.
 
 ## New in the Australia release
 
--   **[Create data snapshots indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-automated-indicator.md)**
+-   **[Create data snapshots indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-ds-automated-indicator.md)**
 
     Create data snapshots indicators and their sources rather than being able to enable data snapshots only on existing indicators. Benefit from the simplicity of data snapshots indicators, including the escape from the two-level breakdown limit. You can create either automated or formula indicators. Access control for these indicator is the same as for classic Performance Analytics indicators.
 
--   **[Create intraday indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-source.md)**
+-   **[Create intraday indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-ds-source.md)**
 
     Track process changes at a more granular level than daily, such as by work shift. Data snapshots indicator sources support business calendars with intraday periods, which can be as short as per minute.
 
@@ -44,34 +44,37 @@ See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercon
     -   Adjustable filtering by breakdown, calendar, or time series aggregation
     -   Hierarchical breakdowns, with scores rolled up to parent elements
     -   Customizable score formatting options, such as precision and abbreviation
--   **[View data trends in data snapshots as data accumulates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-ds-automated-indicator.md)**
+-   **[View data trends in data snapshots as data accumulates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-ds-automated-indicator.md)**
 
     When you select a field by which to trend a data snapshots automated indicator, you have the option to show the trend for incomplete collection periods. This feature shows the trend as it develops for live data without having to wait for the end of the collection period. You can set this behavior either on the automated data snapshot indicator record or in a time series data visualization for a data snapshot indicator.
 
--   **[Collect data snapshots scores with confidence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md)**
+-   **[Collect data snapshots scores with confidence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/tables-unlimited-breakdowns.md)**
 
     Data mining for data snapshots scores has the following improvements:
 
     -   Collect scores for tables with any volume of records.
-    -   The system accurately and automatically handles data gaps when data mining is disabled.
+    -   The system accurately and automatically handles data gaps when data mining is turned off.
     -   You are warned of the implications before you manually disable data mining \(score collection\).
--   **[Activate data snapshots in more cases and with better information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md)**
+-   **[Activate data snapshots in more cases and with better information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-unlimited-breakdowns.md)**
     -   Activate indicators without active data collector jobs.
     -   Activate indicators regardless of underlying record volume. For example, the `INSERT_VOLUME_EXCEEDED` error no longer occurs.
     -   If the activation fails because of scripted breakdowns, the scripted breakdowns are listed in the failure message.
     -   Generic parsing errors have been rewritten into specific, categorized messages.
+-   **[Data snapshots automatically installed on eligible instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/limitations-mlb.md)**
+
+    If you have Australia Patch 3 or later, the Data snapshots plugin is installed automatically if you have RaptorDB Professional. If your instance is also domain separated, the Data snapshots feature is installed but disabled.
+
 
 ## Deprecated features
 
--   The **Dashboard Visualization** tab in KPI Composer is no longer supported. Existing data visualization tabs remain but you are not able to create new ones because this feature is connected to Core UI dashboards, which are themselves deprecated.
--   Performance Analytics widgets are deprecated along with Core UI dashboards. Users with the pa\_admin role are still able to create Performance Analytics widgets.
+-   The **Dashboard Visualization** tab in KPI Composer is no longer supported. Existing data visualization tabs remain.
 -   The Analytics Hub has been replaced by KPI Details. Attempts to open the Analytics Hub are redirected to KPI Details.
 
 ## Activation information
 
 Complimentary Performance Analytics for Incident Management is active by default. You cannot create indicators or breakdowns with this complimentary application.
 
-The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches your subscription. For details, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches your subscription. For details, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
 
 ## Related ServiceNow applications and features
 
@@ -79,10 +82,10 @@ The full features of Performance Analytics are available with a subscription. Ac
 
     The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products, including Performance Analytics.
 
--   **[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md)**
+-   **[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md)**
 
     Process Mining helps analysts and process owners quickly analyze and optimize their business processes. Use Process Mining with Platform Analytics insights to optimize your indicator data sources.
 
 
-**Parent Topic:**[Platform Analytics release notes](analytics-intel-report-rn-landing.md)
+**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
 

@@ -2,6 +2,7 @@
 title: Add staff members to an internal business location
 description: Add users as staff members to an internal business location to support accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-user-internal-bus-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,7 +67,7 @@ Member Type
 
 </td><td>
 
-Field used to assign responsibility for the member selected at the business location.To learn more about responsibilities, see [Assign responsibilities](csm-assign-responsibilities.md).
+Field used to assign responsibility for the member selected at the business location.To learn more about responsibilities, see [Assign responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-assign-responsibilities.md).
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.

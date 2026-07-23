@@ -2,13 +2,14 @@
 title: Generate a test using Test generation
 description: Simplify and automate your testing process with Test generation. Describe your desired test, and Now Assist empowered Test generation application automatically generates the necessary tests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/tg-implement.html
 release: australia
 product: Test Generation
 classification: test-generation
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Test generation, Test generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Using Test generation, Test generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Generate a test using Test generation
@@ -57,13 +58,13 @@ Role required: admin or now.assist.creator
 
     **Note:** A generated test is designated as an active test only when you accept the test. If you don’t make a choice of either accepting or rejecting, the test is still saved but the active flag is set to false.
 
-    If you want to edit a test after saving, you can modify it using any actions in the Test steps related list. See [Edit a generated test using Test generation](../concept/tg-edit-test.md) for more information.
+    If you want to edit a test after saving, you can modify it using any actions in the Test steps related list. See [Edit a generated test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-edit-test.md) for more information.
 
 
-**Parent Topic:**[Using Test generation](../concept/tg-use.md)
+**Parent Topic:**[Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-use.md)
 
 **Related topics**  
 
 
-[Edit a generated test using Test generation](../concept/tg-edit-test.md)
+[Edit a generated test using Test generation]()
 

@@ -2,6 +2,7 @@
 title: Integration with Sales Customer Relationship Management
 description: Integrate Service Model Foundation with Sales Customer Relationship Management to enable business locations to operate as sellers. This integration triggers sales quote generation, order capture, and fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/integration-with-sales-and-order-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,19 +18,19 @@ Integrate Service Model Foundation with Sales Customer Relationship Management t
 
 Install the Order Management Business Locations plugin \(com.snc.business\_location\_orm\) to integrate Service Model Foundation with Order Management. You can manage customer orders and empower channel partner staff to create, modify, and track orders throughout the sales process with the integration of Service Model Foundation with Order Management.
 
-Organization staff can create orders for customers to monitor and manage the orders for their locations effectively. To learn more about the integration of Order Management with Service Model Foundation, see [Order Management for business location](order-managment-for-business-location.md).
+Organization staff can create orders for customers to monitor and manage the orders for their locations effectively. To learn more about the integration of Order Management with Service Model Foundation, see [Order Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/order-managment-for-business-location.md).
 
 ## Integrate with Quote Management
 
 Install the Quote Management Business Organization plugin \(com.snc.business\_organization\_qm\) to integrate Service Model Foundation with Quote Management.
 
-The integration of Quote Management with Service Model Foundation application helps to update and manage integrations with downstream functionalities such as sales orders and other related processes. To learn more about the integration with Quote Management , see [Quote management for business organization](quote-management-for-business-location.md).
+The integration of Quote Management with Service Model Foundation application helps to update and manage integrations with downstream functionalities such as sales orders and other related processes. To learn more about the integration with Quote Management , see [Quote management for business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quote-management-for-business-location.md).
 
 ## Integrate with Opportunity Management
 
 Install the Opportunity Management business location plugin \(com.snc.business\_organization\_opptym\) to integrate Service Model Foundation with Opportunity Management.
 
-This integration enables business location-based sales representatives to create, modify, and track sales opportunities throughout the sales process, ensuring they can address customer needs effectively and provide updates on opportunity status. The feature supports business locations \(such as dealerships, stores, franchises, and resellers\) which play a role in delivering customer service and driving product and service sales. For details, see [Opportunity Management for business location](opportunity-management-for-business-location.md).
+This integration enables business location-based sales representatives to create, modify, and track sales opportunities throughout the sales process, ensuring they can address customer needs effectively and provide updates on opportunity status. The feature supports business locations \(such as dealerships, stores, franchises, and resellers\) which play a role in delivering customer service and driving product and service sales. For details, see [Opportunity Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/opportunity-management-for-business-location.md).
 
 |Roles|Description|
 |-----|-----------|
@@ -42,9 +43,9 @@ This integration enables business location-based sales representatives to create
 **Related topics**  
 
 
-[Order Management for business location](order-managment-for-business-location.md)
+[Order Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/order-managment-for-business-location.md)
 
-[Quote management for business organization](quote-management-for-business-location.md)
+[Quote management for business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/quote-management-for-business-location.md)
 
-[Opportunity Management for business location](opportunity-management-for-business-location.md)
+[Opportunity Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/opportunity-management-for-business-location.md)
 

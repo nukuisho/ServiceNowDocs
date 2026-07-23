@@ -2,6 +2,7 @@
 title: Update a purchase order to revise supplier suggested changes
 description: After a purchase order exception is assigned to you, update the impacted purchase order by proposing changes that differ from the supplier’s suggestions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/update-po-revise-supp-changes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,15 +29,15 @@ Role required: sn\_poem\_core.operational\_buyer
 
 4.  From the **Address exception** list, select **Update impacted order**.
 
-    ![Update an impacted purchase order to address the exception](../image/pom-update-impacted-order.png)
+    \[Omitted image "pom-update-impacted-order.png"\] Alt text: Update an impacted purchase order to address the exception
 
 5.  Select **Edit order**.
 
-    ![Edit the order to revise the supplier's changes](../image/pom-update-order-edits.png)
+    \[Omitted image "pom-update-order-edits.png"\] Alt text: Edit the order to revise the supplier's changes
 
 6.  In the Quick edit window, update the purchased quantity or requested delivery date, or both.
 
-    ![Revise the quantity or delivery date or both](../image/pom-update-order-quickedits.png)
+    \[Omitted image "pom-update-order-quickedits.png"\] Alt text: Revise the quantity or delivery date or both
 
 7.  Select **Save edit**.
 
@@ -49,5 +50,14 @@ Role required: sn\_poem\_core.operational\_buyer
 
 A purchase requisition of type Revision is created with your updates and is assigned to a reviewer for further action.
 
-**Parent Topic:**[Resolving purchase order exceptions](../concept/resolving-purchase-order-exceptions.md)
+**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Confirm a resolution for a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/confirm-resolution.md)
+
+[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-po-exception-task.md)
+
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
 

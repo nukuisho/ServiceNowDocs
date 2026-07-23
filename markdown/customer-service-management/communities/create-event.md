@@ -2,6 +2,7 @@
 title: Post a community event
 description: You can create a community event that other community users, colleagues, or experts can register for and attend.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-event.html
 release: australia
 product: Communities
 classification: communities
@@ -133,9 +134,9 @@ Description
 
 </td><td>
 
-The description of the event.To insert an image, click the **Insert Image** button \(![Insert image](../images/insert-image-button.png)\), navigate to the .png or .jpg file, and then click **Open**.
+The description of the event.To insert an image, click the **Insert Image** button \(\[Omitted image "insert-image-button.png"\] Alt text: Insert image\), navigate to the .png or .jpg file, and then click **Open**.
 
- To insert a video, click the **Insert Video** button \(![Insert video](../images/insert-video-button.png)\), enter the video URL, and then click **Upload**.
+ To insert a video, click the **Insert Video** button \(\[Omitted image "insert-video-button.png"\] Alt text: Insert video\), enter the video URL, and then click **Upload**.
 
 </td></tr><tr><td>
 
@@ -162,15 +163,15 @@ Click the check box to publish an event on a specified date. Select the date and
 </td></tr></tbody>
 </table>2.  Perform one of the following actions.
 
-<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d211725e368">
+<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d217243e368">
 
 To
 
-</th><th align="left" id="d211725e371">
+</th><th align="left" id="d217243e371">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d211725e377">
+</th></tr></thead><tbody><tr><td id="d217243e377">
 
 **Save as Draft**
 
@@ -179,11 +180,11 @@ Do this
 Click **Save as Draft** to save the event as a draft on your profile page under **Content** &gt; **Drafts**. **Note:** Community and forum admins can edit and publish drafts. If a community or forum admin edits, deletes, or publishes the draft, you receive an email notification.
 
 From your profile page, you have the following options.1.  Click **Edit** to review the event before publishing.
-2.  -   Click the corresponding ellipsis ![More Options.](../images/moreoptions-icon.png) icon and then click **Publish**.
--   Click the corresponding ellipsis ![More Options.](../images/moreoptions-icon.png) icon and then click **Delete**.
+2.  -   Click the corresponding ellipsis \[Omitted image "moreoptions-icon.png"\] Alt text: More Options. icon and then click **Publish**.
+-   Click the corresponding ellipsis \[Omitted image "moreoptions-icon.png"\] Alt text: More Options. icon and then click **Delete**.
 
 
-</td></tr><tr><td id="d211725e438">
+</td></tr><tr><td id="d217243e438">
 
 **Schedule**
 
@@ -191,7 +192,7 @@ From your profile page, you have the following options.1.  Click **Edit** to rev
 
 Click **Schedule** to publish an event on the specified date. **Note:** This option appears for an event for which **Schedule Publish** option is selected.
 
-</td></tr><tr><td id="d211725e456">
+</td></tr><tr><td id="d217243e456">
 
 **Publish**
 
@@ -203,12 +204,12 @@ Click **Publish** to publish the event directly. As an author, you can edit or d
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Community events](community-events.md)
+**Parent Topic:**[Community events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-events.md)
 
 **Related topics**  
 
 
-[Edit an event](edit-event.md)
+[Edit an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/edit-event.md)
 
-[Disable comments](disable-comments.md)
+[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/disable-comments.md)
 

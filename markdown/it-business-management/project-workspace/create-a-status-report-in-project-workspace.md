@@ -2,13 +2,14 @@
 title: Create a status report in Project Workspace
 description: Create a status report in Project Workspace for your projects. Your team can view the report and be updated on project health, metrics, risks, issues, and milestones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-a-status-report-in-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a status report in Project Workspace
@@ -25,7 +26,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Status reports page of the project by selecting **Status Reports** from the list.
 
@@ -37,11 +38,11 @@ Role required: it\_pps\_admin, it\_project\_manager
     2.  From the "Welcome to your Template Center!" screen, select **Use** for the template that you want to use.
 5.  On the Create status report form, fill in the fields.
 
-    For a description of the field values, see [Create status report form](../reference/create-status-report-form.md).
+    For a description of the field values, see [Create status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-status-report-form.md).
 
 6.  Select **Submit**.
 
-    ![Sample status report.](../image/status-report-ACME.png)
+    \[Omitted image "status-report-ACME.png"\] Alt text: Sample status report.
 
     **Note:** The status report appears with the data and information that you entered populated in the default status report template. You can replace the existing default template with your desired template and set it as default by updating the sys id in value field of system property \(sn\_pw.project\_status\_report\_default\_templateId\).
 
@@ -65,36 +66,36 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 9.  Observe and monitor the report.
 
-    For more information on viewing and analyzing status reports, see [Analyze the status report in Project Workspace](view-status-report-in-project-workspace.md).
+    For more information on viewing and analyzing status reports, see [Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-status-report-in-project-workspace.md).
 
-    If you don’t have old status reports, you can't see the import option. For more information on importing existing status report, see [Import old project status report to Project Workspace](import-old-status-reports.md).
+    If you don’t have old status reports, you can't see the import option. For more information on importing existing status report, see [Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/import-old-status-reports.md).
 
 
--   **[Analyze the status report in Project Workspace](view-status-report-in-project-workspace.md)**  
+-   **[Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-status-report-in-project-workspace.md)**  
 Observe a status report in Project Workspace for your project to learn about project health, metrics, risks, issues, and milestones.
--   **[Status report tracking by status](../concept/analyzing-status-report-states.md)**  
-Status reports in Project Workspace use draft and published status to help project managers manage report readiness and stakeholder visibility.
--   **[Update status report in Project Workspace](update-status-report-project-workspace.md)**  
+-   **[Draft and Published status for status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/analyzing-status-report-states.md)**  
+Status reports in Project Workspace use Draft and Published status to help project managers track where a report is in their own process. These visibility labels for your project team don't send, share, or restrict the report.
+-   **[Update status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-status-report-project-workspace.md)**  
 Modify a status report in Project Workspace for your project to update project health, metrics, risks, issues, and milestones.
--   **[Duplicate a status report in Project Workspace](duplicate-status-report-pw.md)**  
+-   **[Duplicate a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/duplicate-status-report-pw.md)**  
 Save time by duplicating an existing status report to copy all the project details without having to copy the information manually in the Project Workspace.
--   **[Import old project status report to Project Workspace](import-old-status-reports.md)**  
+-   **[Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/import-old-status-reports.md)**  
 Migrate your old status reports from the classic Project Workspace to the new Project Workspace and optimize reporting process of your projects.
--   **[Add dynamic content to status report in Project Workspace](add-dynamic-content-to-status-report-in-pw.md)**  
+-   **[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)**  
 Add dynamic content to a status report in Project Workspace for your projects. The dynamic content gets updated automatically in the status report as a change is made to the record.
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
 
 **Related topics**  
 
 
-[Add dynamic content to status report in Project Workspace](add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 
-[Status reporting in Project Workspace](../concept/status-reporting-in-pw.md)
+[Status reporting in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/status-reporting-in-pw.md)
 
-[Analyze the status report in Project Workspace](view-status-report-in-project-workspace.md)
+[Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-status-report-in-project-workspace.md)
 
-[Import old project status report to Project Workspace](import-old-status-reports.md)
+[Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Create a status report template in Project Workspace](create-a-status-report-template-project-workspace.md)
+[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 

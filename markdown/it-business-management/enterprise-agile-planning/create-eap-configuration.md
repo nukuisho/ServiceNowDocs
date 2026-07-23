@@ -2,6 +2,7 @@
 title: Create or update a configuration in EAP
 description: Define your own Agile configuration or update an existing configuration in Enterprise Agile Planning \(EAP\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-eap-configuration.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -17,7 +18,7 @@ Define your own Agile configuration or update an existing configuration in Enter
 
 ## Before you begin
 
-[Install Strategic Planning](../../alignment-planner-workspace/task/install-alignment-planner-workspace.md).
+[Install Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/install-alignment-planner-workspace.md).
 
 Set the Application Scope of your ServiceNow instance to Strategic Planning.
 
@@ -33,7 +34,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
     -   To create, select **New configuration**.
     -   To update, select **Edit** from one of the available configurations.
-    ![Create an EAP configuration or edit an existing one.](../images/eap-create-edit-config.png)
+    \[Omitted image "eap-create-edit-config.png"\] Alt text: Create an EAP configuration or edit an existing one.
 
 4.  On the form, fill in or update the fields.
 
@@ -67,14 +68,14 @@ Sync with Agile Development
 
 </td><td>
 
-Select this option to sync iterations such as Planning Intervals and Sprints with Agile Development 2.0. For more information, see [Integration between EAP and Agile Development 2.0](../reference/sync-eap-and-agile-2.md).If your team is of the Kanban type, you can leave this option unselected.
+Select this option to sync iterations such as Planning Intervals and Sprints with Agile Development 2.0. For more information, see [Integration between EAP and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/sync-eap-and-agile-2.md).If your team is of the Kanban type, you can leave this option unselected.
 
 </td></tr></tbody>
 </table>5.  Select the work item types to be available within this configuration.
 
     Only the work item types that you enable here are available for your Agile teams in the Backlog and Planning board.
 
-    ![Select work item types for EAP configuration.](../images/eap-work-item-types-enable.png)
+    \[Omitted image "eap-work-item-types-enable.png"\] Alt text: Select work item types for EAP configuration.
 
 6.  Select the team levels that you want to have in your configuration.
 
@@ -84,21 +85,21 @@ Select this option to sync iterations such as Planning Intervals and Sprints wit
 
     -   **Scrum teams with a regular cadence**
 
-        Planning calendars can be set only for Agile Release Trains \(ARTs\) and Agile Teams and the planning calendar types available by default are **Planning Interval** and **Sprint**. If you want a different calendar, create one. See [Create a planning calendar in EAP](create-planning-calendar-type-in-eap.md).
+        Planning calendars can be set only for Agile Release Trains \(ARTs\) and Agile Teams and the planning calendar types available by default are **Planning Interval** and **Sprint**. If you want a different calendar, create one. See [Create a planning calendar in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-planning-calendar-type-in-eap.md).
 
-        ![Mapping work item type and planning calendars to the team levels.](../images/eap-work-item-team-level-mapping.png)
+        \[Omitted image "eap-work-item-team-level-mapping.png"\] Alt text: Mapping work item type and planning calendars to the team levels.
 
     -   **Kanban teams**
 
         If your team operates in a Kanban style, which is a continuous workflow structure without any regular planning interval schedule, you can set the **Planning calendar** fields to **None**.
 
-        ![Mapping work item type and planning calendars for a Kanban team configuration.](../images/eap-kanban-config-calendar.png)
+        \[Omitted image "eap-kanban-config-calendar.png"\] Alt text: Mapping work item type and planning calendars for a Kanban team configuration.
 
 8.  Select **Save**.
 
 
 ## What to do next
 
--   If you have updated the planning calendar selection for any active configuration that has teams associated with it, update the relevant dashboard configuration too. This action ensures that the metrics displayed for those teams are accurate. See [Updating dashboards for planning calendar changes in EAP](../concept/updating-dashboards-for-planning-calendar-changes-in-eap.md).
--   [Activate an EAP configuration](activate-eap-configuration.md)
+-   If you have updated the planning calendar selection for any active configuration that has teams associated with it, update the relevant dashboard configuration too. This action ensures that the metrics displayed for those teams are accurate. See [Updating dashboards for planning calendar changes in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/updating-dashboards-for-planning-calendar-changes-in-eap.md).
+-   [Activate an EAP configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/activate-eap-configuration.md)
 

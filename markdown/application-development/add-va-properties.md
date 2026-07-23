@@ -2,6 +2,7 @@
 title: Add properties to communicate with Virtual Agent
 description: To develop a component for Virtual Agent, add specific properties and actions to interact with the Virtual Agent client interface. The properties required depend on the type of component you are creating.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/add-va-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ To develop a component for Virtual Agent, add specific properties and actions to
 
 -   Set up your environment. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/getting-started).
 -   Set up your component project. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/cli)
--   Develop your component. For instructions, see the [ServiceNow® Developer Site](https://servicenow.com/docs/bundle/xanadu-application-development/page/build/components/task/develop-component.html)
+-   Develop your component. For instructions, see the ServiceNow® Developer Site
 
 Role required: virtual\_agent\_admin or admin
 
@@ -80,12 +81,12 @@ Response data from the client to send to the server. Only use in components that
 </table>
 ## What to do next
 
-[Test a component for Virtual Agent](test-va-component.md).
+[Test a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-va-component.md).
 
-**Parent Topic:**[Develop a component for Virtual Agent](../concept/va-components.md)
+**Parent Topic:**[Develop a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/va-components.md)
 
 **Related topics**  
 
 
-[Create custom components using ServiceNow CLI](../concept/custom-components.md)
+[Create custom components using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/custom-components.md)
 

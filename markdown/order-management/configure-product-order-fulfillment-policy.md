@@ -2,6 +2,7 @@
 title: Configure product order fulfillment policy using Decision Tables
 description: Associate fulfillment subflows with the product specifications by using the Product Order Fulfillment Policy in Decision Tables for move order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-product-order-fulfillment-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Add rows to the Product Order Fulfillment Policy decision table to specify which
 
     1.  Select **true** in the Move Operation column.
     2.  Select **Change** in the action column.
-    ![product order fulfillment policy.](../image/product-order-fulfillment-policy.png)
+    \[Omitted image "product-order-fulfillment-policy.png"\] Alt text: product order fulfillment policy.
 
 4.  To trigger separate subflow for change and not move, do the following:
 
@@ -42,7 +43,14 @@ Add rows to the Product Order Fulfillment Policy decision table to specify which
 
 ## Result
 
-A list of subflows appear in the results section. These sub flows create the fulfillment tasks for an order line item during the fulfillment process. For more information, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-builder-user-interface.md).
+A list of subflows appear in the results section. These sub flows create the fulfillment tasks for an order line item during the fulfillment process. For more information, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-builder-user-interface.md).
 
-**Parent Topic:**[Configuring Order Management](../concept/order-mgt-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+**Related topics**  
+
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
 

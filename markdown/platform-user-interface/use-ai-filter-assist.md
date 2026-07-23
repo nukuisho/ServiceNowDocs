@@ -2,6 +2,7 @@
 title: Use AI filter assist
 description: AI filter assist enables you to convert everyday language into an AI-generated encoded query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-ai-filter-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,11 +24,11 @@ Role required: workspace\_user
 
 1.  Open a workspace list in your instance.
 
-2.  From the list header, select the filter button \(![filter button](../../configurable-workspace/image/list-filter-button.png)\).
+2.  From the list header, select the filter button \(\[Omitted image "list-filter-button.png"\] Alt text: filter button\).
 
     A dialog box opens for generating filters.
 
-    ![AI filter assist dialog box](../../configurable-workspace/image/dialog-ai-filter-assist.png)
+    \[Omitted image "dialog-ai-filter-assist.png"\] Alt text: AI filter assist dialog box
 
 3.  Select one of the following options from the menu.
 
@@ -37,19 +38,19 @@ Role required: workspace\_user
 4.  Create a query with everyday language using one of the following options.
 
     -   Enter a query manually.
-    -   Select the microphone icon \(![microphone icon](../../configurable-workspace/image/icon-microphone.png)\) and speak a query out loud.
-5.  Select the submit icon \(![submit icon](../../configurable-workspace/image/icon-submit.png)\) to generate the filters.
+    -   Select the microphone icon \(\[Omitted image "icon-microphone.png"\] Alt text: microphone icon\) and speak a query out loud.
+5.  Select the submit icon \(\[Omitted image "icon-submit.png"\] Alt text: submit icon\) to generate the filters.
 
     A dialog box opens to display the generated filters.
 
-    ![Generate filters dialog box](../../configurable-workspace/image/dialog-ai-filter-assist-2.png)
+    \[Omitted image "dialog-ai-filter-assist-2.png"\] Alt text: Generate filters dialog box
 
 6.  Review the generated filters and select one of the following options.
 
-    -   Select the edit icon \(![edit icon](../../configurable-workspace/image/icon-edit.png)\) to make changes to the generated filters.
+    -   Select the edit icon \(\[Omitted image "icon-edit.png"\] Alt text: edit icon\) to make changes to the generated filters.
     -   Select **Apply** to submit the filters.
-7.  Show the conditions panel by selecting the filter button drop-down arrow \(![filter button](../../configurable-workspace/image/list-filter-button.png)\) and **Advanced Filter**.
+7.  Show the conditions panel by selecting the filter button drop-down arrow \(\[Omitted image "list-filter-button.png"\] Alt text: filter button\) and **Advanced Filter**.
 
-8.  View a list of filters you generated recently by selecting the history icon \(![history icon](../../configurable-workspace/image/icon-history.png)\).
+8.  View a list of filters you generated recently by selecting the history icon \(\[Omitted image "icon-history.png"\] Alt text: history icon\).
 
 

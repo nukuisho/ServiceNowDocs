@@ -2,6 +2,7 @@
 title: Add events to your calendar
 description: Add tasks, events, and appointments to your calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_AddEventsToYourCalendar.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -21,7 +22,7 @@ Role required: pps\_resource or resource\_manager
 
 ## About this task
 
-To create an event that repeats daily, weekly, or monthly, see [Create repeatable events](t_CreateRepeatableEvents.md).
+To create an event that repeats daily, weekly, or monthly, see [Create repeatable events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateRepeatableEvents.md).
 
 ## Procedure
 
@@ -33,13 +34,13 @@ To create an event that repeats daily, weekly, or monthly, see [Create repeatabl
 
     -   Select Day, Week, or Month.
     -   Use the forward or back arrows to navigate between days, weeks, and months.
-    -   Select a date using the calendar icon ![Date picker](../image/CalendarPicker.png).
+    -   Select a date using the calendar icon \[Omitted image "CalendarPicker.png"\] Alt text: Date picker.
     -   Select **Today** to reset your calendar view to show today's calendar.
 3.  Open the Add Event form by double-clicking an empty cell on the calendar.
 
 4.  On the New event form, fill the fields.
 
-    For a description of the field names, see [New event form](../reference/new-event-form.md).
+    For a description of the field names, see [New event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/new-event-form.md).
 
 5.  Select **Submit**.
 
@@ -47,18 +48,18 @@ To create an event that repeats daily, weekly, or monthly, see [Create repeatabl
 ## Result
 
 -   When you add a calender event, the resource aggregate daily, weekly, and monthly tables are updated. The resource aggregate daily table isn’t enabled by default. To generate daily aggregates and store them in this table, create the **com.snc.resource\_management.generate\_daily\_aggregates** property and set its value to true.
--   All the non-project events created for you from the calender appear as Operational Work for you in [Resource Finder](create-resource-plan-with-finder.md).
+-   All the non-project events created for you from the calender appear as Operational Work for you in [Resource Finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-resource-plan-with-finder.md).
 
-**Parent Topic:**[My Calendar](../concept/c_MyCalendar.md)
+**Parent Topic:**[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_MyCalendar.md)
 
 **Related topics**  
 
 
-[Create repeatable events](t_CreateRepeatableEvents.md)
+[Create repeatable events]()
 
-[View a user calendar](t_ViewAUserCalendar.md)
+[View a user calendar]()
 
-[Add events to a user calendar](t_AddEventsToAUserCalendar.md)
+[Add events to a user calendar]()
 
-[Delete events](t_DeleteEvents.md)
+[Delete events]()
 

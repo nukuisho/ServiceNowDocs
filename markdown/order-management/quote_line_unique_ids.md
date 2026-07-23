@@ -2,30 +2,31 @@
 title: Quote line unique IDs
 description: You can assign unique IDs to quote lines in Salesforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/quote\_line\_unique\_ids.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Quote line unique IDs
 
 You can assign unique IDs to quote lines in Salesforce.
 
-CPQ passes the unique identifier of a product in CPQ back to the Unique Line ID field on the quote line in Salesforce, allowing users to assign unique IDs to specific quote lines in Salesforce. This allows users to reference the Unique Line ID field \(LGK\_UniqueId\_c\) after the quote line has been created if a unique identifier was included in the product action in CPQ.
+ServiceNow CPQ passes the unique identifier of a product in ServiceNow CPQ back to the Unique Line ID field on the quote line in Salesforce, allowing users to assign unique IDs to specific quote lines in Salesforce. This allows users to reference the Unique Line ID field \(LGK\_UniqueId\_c\) after the quote line has been created if a unique identifier was included in the product action in ServiceNow CPQ.
 
-![Product action](../images/cpq-salesforce-quote-line-unique-id.png)
+\[Omitted image "cpq-salesforce-quote-line-unique-id.png"\] Alt text: Product action
 
-![Quote line details](../images/cpq-quote-line-unique-id.png)
+\[Omitted image "cpq-quote-line-unique-id.png"\] Alt text: Quote line details
 
 ## Prerequisites
 
-Have the Logik Extension for CPQ package version 2.2 or later installed on the org.
+Have the ServiceNow CPQ Extension for CPQ package version 2.2 or later installed on the org.
 
 Add the Unique Line ID field to the quote line page layout through Setup&gt;Object Manager&gt;Quote Line&gt;Page Layouts.
 
-Assign a unique identifier to a product in CPQ using a simple or advanced product action.
+Assign a unique identifier to a product in ServiceNow CPQ using a simple or advanced product action.
 
 ## How to use
 
@@ -43,15 +44,15 @@ Use cases include ramping deals, such as subscription-based pricing that applies
 
 ## Use case: Adding extended data to identical product code products in SFDC using flows
 
-Out of the box, the Configuration Line Item to Quote Line flow created by CPQ is set up to write the extended information of each product to its respective quote line in the BOM Data field.
+Out of the box, the Configuration Line Item to Quote Line flow created by ServiceNow CPQ is set up to write the extended information of each product to its respective quote line in the BOM Data field.
 
-![Quote line user interface](../images/cpq-quote-line-bom-data.png)
+\[Omitted image "cpq-quote-line-bom-data.png"\] Alt text: Quote line user interface
 
 As configured, the flow checks only whether the configuration ID and the product ID match and return only the first record. This causes the BOM data for the child lines to be identical if the product IDs are identical.
 
 If you are using the unique ID attribute, you can add another condition to the "Get Records" section of the flow that checks for the Configuration Line Item field "LGK\_UniqueId\_c" being equal to the unique line ID object on the quote line:
 
-![Edit GET records](../images/cpq-quote-line-edit-get-records.png)
+\[Omitted image "cpq-quote-line-edit-get-records.png"\] Alt text: Edit GET records
 
 This correctly writes the BOM data to each unique child line with the correct extended information.
 

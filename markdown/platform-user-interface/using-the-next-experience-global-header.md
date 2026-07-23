@@ -2,12 +2,13 @@
 title: Using the Next Experience Unified Navigation
 description: Improved navigation to access records and data, check your notifications, and set your preferences in the Next Experience Unified Navigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/using-the-next-experience-global-header.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [unified navigation, navigation]
-breadcrumb: [Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Explore, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Using the Next Experience Unified Navigation
@@ -16,11 +17,11 @@ Improved navigation to access records and data, check your notifications, and se
 
 The Next Experience Unified Navigation runs across the top of every page and includes controls that help you in navigating your instance. Easily access your workspaces and classic environment, search your instance, and receive notifications.
 
-Select the pin icon ![](../image/pol-nav-pin.png) to pin a menu to the page.
+Select the pin icon \[Omitted image "pol-nav-pin.png"\] Alt text: to pin a menu to the page.
 
 **Note:** The Unified Navigation items described in the following table might not be available to all users. The items that appear are determined by user access and admin customizations.
 
-![Unified navigation header](../../../administer/navigation-and-ui/image/next-exp-unified-navigation.png "Unified Navigation")
+\[Omitted image "next-exp-unified-navigation.png"\] Alt text: Unified navigation header
 
 <table id="table_fcj_p1f_jqb"><thead><tr><th>
 
@@ -40,7 +41,7 @@ Logo
 
 </td><td>
 
-![Logo.](../image/pol-servicenow-landing-page.png)
+\[Omitted image "pol-servicenow-landing-page.png"\] Alt text: Logo.
 
 </td><td>
 
@@ -52,11 +53,11 @@ Filter
 
 </td><td>
 
-![Filter.](../image/polaris-filter-ui.png)
+\[Omitted image "polaris-filter-ui.png"\] Alt text: Filter.
 
 </td><td>
 
-Filter field to quickly navigate to the module you want. The search functionality accommodates missing letters in your queries. The default accuracy score can be updated by your administrator. For more information, see [Next Experience system properties](../../../administer/navigation-and-ui/reference/pol-sys-properties.md).
+Filter field to quickly navigate to the module you want. The search functionality accommodates missing letters in your queries. The default accuracy score can be updated by your administrator. For more information, see [Next Experience system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/pol-sys-properties.md).
 
  For a list view, enter the table name in the format `name.list`, for example, sys\_properties.list.
 
@@ -70,13 +71,13 @@ All menu
 
 </td><td>
 
-![All menu.](../image/pol-nav-all-p.png)
+\[Omitted image "pol-nav-all-p.png"\] Alt text: All menu.
 
 </td><td>
 
 Lists all the menu items and modules in the instance.
 
- Select the refresh icon ![](../image/polaris-refresh-icon.png) to obtain the latest menu items without the need to manually clear the cache.
+ Select the refresh icon \[Omitted image "polaris-refresh-icon.png"\] Alt text: to obtain the latest menu items without the need to manually clear the cache.
 
 </td></tr><tr><td>
 
@@ -84,15 +85,15 @@ Favorites menu
 
 </td><td>
 
-![Favorites.](../image/pol-nav-p.png)
+\[Omitted image "pol-nav-p.png"\] Alt text: Favorites.
 
 </td><td>
 
 Items you have marked as favorites, for example, favorite workspaces, classic environment, and records.
 
- Select the edit icon ![](../image/polaris-edit-icon.png) to open the edit modal.
+ Select the edit icon \[Omitted image "polaris-edit-icon.png"\] Alt text: to open the edit modal.
 
- For more information on adding and editing favorites, see [Managing your favorites in Next Experience](managing-your-favorites.md#).
+ For more information on adding and editing favorites, see [Managing your favorites in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/managing-your-favorites.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +101,7 @@ History menu
 
 </td><td>
 
-![History.](../image/pol-nav-history-p.png)
+\[Omitted image "pol-nav-history-p.png"\] Alt text: History.
 
 </td><td>
 
@@ -112,7 +113,7 @@ Workspaces menu
 
 </td><td>
 
-![Workspace.](../image/pol-nav-workspaces-p.png)
+\[Omitted image "pol-nav-workspaces-p.png"\] Alt text: Workspace.
 
 </td><td>
 
@@ -124,7 +125,7 @@ Admin menu
 
 </td><td>
 
-![Admin menu.](../image/admin-menu.png)
+\[Omitted image "admin-menu.png"\] Alt text: Admin menu.
 
 </td><td>
 
@@ -136,7 +137,7 @@ Contextual app pill
 
 </td><td>
 
-![Contextual app pill.](../image/pol-nav-2.png)
+\[Omitted image "pol-nav-2.png"\] Alt text: Contextual app pill.
 
 </td><td>
 
@@ -148,7 +149,7 @@ Global search field
 
 </td><td>
 
-![Global search.](../image/pol-nav-global-search.png)
+\[Omitted image "pol-nav-global-search.png"\] Alt text: Global search.
 
 </td><td>
 
@@ -160,11 +161,11 @@ Globe
 
 </td><td>
 
-![Globe](../image/globe-menu.png)
+\[Omitted image "globe-menu.png"\] Alt text: Globe
 
 </td><td>
 
-Select the scope of your instance and the scope of your update sets. You can also select the **Update set** option and select the Plus sign icon ![](../image/plus.png) to create an update set. Any application scope other than Global displays a red circle icon ![](../../../administer/navigation-and-ui/image/icon-scope-changed.png).
+Select the scope of your instance and the scope of your update sets. You can also select the **Update set** option and select the Plus sign icon \[Omitted image "plus.png"\] Alt text: to create an update set. Any application scope other than Global displays a red circle icon \[Omitted image "icon-scope-changed.png"\] Alt text:.
 
 </td></tr><tr><td>
 
@@ -172,7 +173,7 @@ Now Assist
 
 </td><td>
 
-![Now Assist.](../image/icon-now-assist.png)
+\[Omitted image "icon-now-assist.png"\] Alt text: Now Assist.
 
 </td><td>
 
@@ -184,7 +185,7 @@ Show instance tools
 
 </td><td>
 
-![Show instance tools](../image/pol-show-instance-tools.png)
+\[Omitted image "pol-show-instance-tools.png"\] Alt text: Show instance tools
 
 </td><td>
 
@@ -196,7 +197,7 @@ Sidebar discussions
 
 </td><td>
 
-![Sidebar discussions.](../image/icon-sidebar-discussions.png)
+\[Omitted image "icon-sidebar-discussions.png"\] Alt text: Sidebar discussions.
 
 </td><td>
 
@@ -208,7 +209,7 @@ Usage analytics
 
 </td><td>
 
-![Usage analytics.](../image/next-exp-usage-analytics.png)
+\[Omitted image "next-exp-usage-analytics.png"\] Alt text: Usage analytics.
 
 </td><td>
 
@@ -220,7 +221,7 @@ Help
 
 </td><td>
 
-![Help.](../image/pol-nav-help.png)
+\[Omitted image "pol-nav-help.png"\] Alt text: Help.
 
 </td><td>
 
@@ -232,7 +233,7 @@ OpenFrame phone
 
 </td><td>
 
-![OpenFrame phone.](../image/icon-openframe-phone.png)
+\[Omitted image "icon-openframe-phone.png"\] Alt text: OpenFrame phone.
 
 </td><td>
 
@@ -244,7 +245,7 @@ Notifications menu
 
 </td><td>
 
-![Notifications menu.](../image/pol-nav-notifications.png)
+\[Omitted image "pol-nav-notifications.png"\] Alt text: Notifications menu.
 
 </td><td>
 
@@ -256,14 +257,14 @@ User menu
 
 </td><td>
 
-![User menu.](../image/pol-user-menu.png)
+\[Omitted image "pol-user-menu.png"\] Alt text: User menu.
 
 </td><td>
 
 Menu items to personalize your instance. -   **Profile**: Your instance profile, which includes your personal information displayed in the instance.
 -   **Preferences**: Display, accessibility, notifications, and Workspace preferences.
--   **Keyboard shortcuts**: Display a modal with keyboard shortcuts that are specific to the screen you’re viewing. For more information on the keyboard shortcut modal, see [Next Experience keyboard shortcuts](../../../use/navigation/reference/next-experience-keyboard-shortcuts.md). The keyboard shortcuts modal can also be accessed using **Command+/** \(Mac\) or **Control+/** \(Windows\).
--   **Impersonate user**: Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. For more information, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md).
+-   **Keyboard shortcuts**: Display a modal with keyboard shortcuts that are specific to the screen you’re viewing. For more information on the keyboard shortcut modal, see [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md). The keyboard shortcuts modal can also be accessed using **Command+/** \(Mac\) or **Control+/** \(Windows\).
+-   **Impersonate user**: Administrators can impersonate other authenticated users for testing purposes and view impersonation logs. For more information, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ImpersonateAUser.md).
 -   **Elevate role**: Designate any role as an elevated privilege role, and then assign that role to one or more users. Do this when you want to restrict users from having access to the rights that the role provides immediately after login.
 -   **Printer friendly version**: A printer-friendly version of the current content frame.
 

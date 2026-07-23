@@ -2,6 +2,7 @@
 title: Problem Management models in Service Operations Workspace
 description: You can use Problem Management models to tailor processes for specific use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/problem-mgmt-models-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -40,9 +41,9 @@ Test Problem Management models in a non-production instance first. If you have c
 
 To begin working with custom models, see the following topics:
 
--   [Enable Problem Management models in Service Operations Workspace](../task/enable-problem-mgmt-models-sow.md)
--   [Create a problem model in Service Operations Workspace](../task/create-problem-model-sow.md)
--   [Create a problem task model in Service Operations Workspace](../task/create-problem-task-model-sow.md)
+-   [Enable Problem Management models in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enable-problem-mgmt-models-sow.md)
+-   [Create a problem model in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-problem-model-sow.md)
+-   [Create a problem task model in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-problem-task-model-sow.md)
 
 **Note:** Any problems or problem tasks that were created before you enable Problem Management models will continue to use the non-model life cycle.
 
@@ -58,18 +59,18 @@ Service Operations Workspace 5.x is based on the Washington DC release and it do
 
 If you are using Service Operations Workspace 5.x and you enable Problem Management models, you will manage problems and problem tasks in the classic UI16 experience, rather than in Service Operations Workspace.
 
-**Parent Topic:**[Problem Management in Service Operations Workspace](problem-sow.md)
+**Parent Topic:**[Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/problem-sow.md)
 
 **Related topics**  
 
 
-[Create a problem in Service Operations Workspace](../task/create-problem-sow.md)
+[Create a problem in Service Operations Workspace]()
 
-[Work on a problem in Service Operations Workspace](../task/work-on-problem-sow.md)
+[Work on a problem in Service Operations Workspace]()
 
-[Create a problem task in Service Operations Workspace](../task/create-problem-task-sow.md)
+[Create a problem task in Service Operations Workspace]()
 
-[Work on a problem task in Service Operations Workspace](../task/work-on-problem-task-sow.md)
+[Work on a problem task in Service Operations Workspace]()
 
-[Problem Management in Service Operations Workspace reference](reference-problem-management-sow.md)
+[Problem Management in Service Operations Workspace reference]()
 

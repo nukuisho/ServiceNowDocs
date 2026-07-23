@@ -1,19 +1,21 @@
 ---
 title: Review an invoice in Document Intelligence
-description: Review the invoice details, enter the required invoice field values, and submit the invoice if Document Intelligence encounters an extraction error.
+description: Review invoice details, enter missing field values, and submit the invoice when Document Intelligence encounters an extraction error.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/review-invoice-docintel.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice capture, invoice management, AP specialist]
 breadcrumb: [Accounts Payable Specialist manual tasks, Work on an invoice processing case, Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Review an invoice in Document Intelligence
 
-Review the invoice details, enter the required invoice field values, and submit the invoice if Document Intelligence encounters an extraction error.
+Review invoice details, enter missing field values, and submit the invoice when Document Intelligence encounters an extraction error.
 
 ## Before you begin
 
@@ -27,7 +29,7 @@ If Document Intelligence encounters an extraction error, the invoice processing 
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Navigate to **Lists** &gt; **Primary Data** &gt; **Invoices**.
 
@@ -35,7 +37,7 @@ If Document Intelligence encounters an extraction error, the invoice processing 
 
 5.  Select **View invoice processing case**.
 
-    ![View invoice processing case](../image/apo-view-inv-process-case.png)
+    \[Omitted image "apo-view-inv-process-case.png"\] Alt text: View invoice processing case
 
     The invoice processing case opens and displays the following notification at the top:
 
@@ -58,22 +60,22 @@ If Document Intelligence encounters an extraction error, the invoice processing 
     The invoice is submitted for further processing and the status of the invoice changes to Received.
 
 
-**Parent Topic:**[Accounts Payable Specialist manual tasks](../concept/aps-manual-tasks.md)
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 
 
-[View the invoice processing case associated with an invoice](view-invoice-case.md)
+[View the invoice processing case associated with an invoice]()
 
-[Enter the missing required invoice information and submit an invoice](enter-missing-docintel.md)
+[Enter the missing required invoice information and submit an invoice]()
 
-[Confirm whether an invoice is a duplicate](confirm-duplicate-invoice.md)
+[Confirm whether an invoice is a duplicate]()
 
-[Convert invoice type](convert-invoice-case.md)
+[Convert invoice type]()
 
-[Reset an invoice to the Received status](reset-invoice-to-received.md)
+[Reset an invoice to the Received status]()
 
-[Check for invoice exceptions on a single invoice](identify-exceptions-manually.md)
+[Check for invoice exceptions on a single invoice]()
 
-[Start the processing for an invoice imported via integration with third-party applications](start-invoice-processing.md)
+[Start the processing for an invoice imported via integration with third-party applications]()
 

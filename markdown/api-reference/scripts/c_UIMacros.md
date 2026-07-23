@@ -2,6 +2,7 @@
 title: UI macros
 description: UI macros are discrete scripted components administrators can add to the user interface.UI macros can be used to build solutions that can’t be built using the available catalog variable types.Administrators can call UI macros from certain record types associated with the user interface.Each UI macro record consists of a name and an XML document written in Jelly code.This section describes how to create a custom approval UI macro.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_UIMacros.html
 release: australia
 product: Scripts
 classification: scripts
@@ -28,7 +29,14 @@ Administrators can create their own UI macros to provide custom controls or inte
 
 **Note:** To view available UI macros, navigate to **All** &gt; **System UI** &gt; **UI Macros**.
 
-**Parent Topic:**[Creating custom UI Pages and UI macros](../../general-scripting/concept/create-custom-ui-pages.md)
+**Parent Topic:**[Creating custom UI Pages and UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/create-custom-ui-pages.md)
+
+**Related topics**  
+
+
+[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md)
+
+[Create a UI macro for a formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIMacro.md)
 
 ## UI macro basics
 
@@ -104,15 +112,15 @@ The ui\_example UI macro uses three jvar-prefixed variables: jvar\_name, jvar\_t
 **Related topics**  
 
 
-[UI pages](../reference/r_UIPages.md#)
+[UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md)
 
-[Jelly tags](../../general-scripting/reference/r_JellyTags.md)
+[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
 
-[&lt;g:ui\_form/&gt;](../../general-scripting/concept/c_ExtensionsToJellySyntax.md#)
+[&lt;g:ui\_form/&gt;](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md)
 
-[&lt;g:ui\_input\_field /&gt;](../../general-scripting/concept/c_ExtensionsToJellySyntax.md#)
+[&lt;g:ui\_input\_field /&gt;](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md)
 
-[&lt;g:ui\_checkbox/&gt;](../../general-scripting/concept/c_ExtensionsToJellySyntax.md#)
+[&lt;g:ui\_checkbox/&gt;](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md)
 
 ## Calling UI macros
 

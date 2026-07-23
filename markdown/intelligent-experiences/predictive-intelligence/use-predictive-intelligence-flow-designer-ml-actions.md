@@ -2,6 +2,7 @@
 title: Use Predictive Intelligence in Workflow Studio with ML actions
 description: Use Predictive Intelligence actions in Workflow Studio to create flows that incorporate your model predictions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/use-predictive-intelligence-flow-designer-ml-actions.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -31,9 +32,9 @@ You can deploy any active and trained classification, similarity, or regression 
 
 In this example procedure, you create a flow that implements the ml\_incident\_categorization solution in a Workflow Studio action. You can find this solution by searching on the ML Solutions \[ml\_solution\] table, as shown in the image below. Confirm that the solution you use has been trained and its **Active** value is set to **true**.
 
-![An image showing the ML Solution that will be used as input to the Flow Designer flow](../images/use-predict-intel-flow-designer-ml-actions1.png)
+\[Omitted image "use-predict-intel-flow-designer-ml-actions1.png"\] Alt text: An image showing the ML Solution that will be used as input to the Flow Designer flow
 
-For more information on how to use Flow Designer in Workflow Studio, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md). For information about the Actions included in Predictive Intelligence for Workflow Studio, see the Spoke actions table in [Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/predictive-intelligence-spoke.md).
+For more information on how to use Flow Designer in Workflow Studio, see . For information about the Actions included in Predictive Intelligence for Workflow Studio, see the Spoke actions table in .
 
 ## Procedure
 
@@ -41,7 +42,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
 2.  Select **New** &gt; **Flow**.
 
-    ![In Workflow Studio, on the Flows tab, the selection for a new flow is highlighted.](../images/use-predictive-intelligence-flow-designer-ml-actions2Y.png)
+    \[Omitted image "use-predictive-intelligence-flow-designer-ml-actions2Y.png"\] Alt text: In Workflow Studio, on the Flows tab, the selection for a new flow is highlighted.
 
 3.  On the **Let's get the details for your flow** screen, configure the following fields.
 
@@ -59,7 +60,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
 4.  Select **Build flow**.
 
-    ![The screen for Let's get the details for your flow, with fields filled according to the example.](../images/use-predictive-intelligence-flow-designer-ml-actions3Y.png)
+    \[Omitted image "use-predictive-intelligence-flow-designer-ml-actions3Y.png"\] Alt text: The screen for Let's get the details for your flow, with fields filled according to the example.
 
     The Flow screen appears, showing the Auto-assign Category to Incident name you assigned to the flow. If a Getting started screen appears, select **Skip tour**.
 
@@ -67,13 +68,13 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
     1.  **Select a Trigger**: Select **Record**, then from the list of possible options for Record, select **Created**.
 
-        ![On the tab for the example flow, in the Trigger section, the Record-Created selection is highlighted.](../images/use-predictive-intelligence-flow-designer-ml-actions4Y.png) ![]()
+        \[Omitted image "use-predictive-intelligence-flow-designer-ml-actions4Y.png"\] Alt text: On the tab for the example flow, in the Trigger section, the Record-Created selection is highlighted. \[Omitted image ""\] Alt text:
 
     2.  **Table**: Select **Incident \[incident\]**.
 
         **Note:** After you configure both the **Trigger** and **Table** fields, record data pills appear in the **Data** section of the screen so you can use them in your flow.
 
-        ![On the tab for the example flow, in the Trigger section, the Table field is filled with the value Incident.](../images/use-predictive-intelligence-flow-designer-ml-actions5Y.png)
+        \[Omitted image "use-predictive-intelligence-flow-designer-ml-actions5Y.png"\] Alt text: On the tab for the example flow, in the Trigger section, the Table field is filled with the value Incident.
 
     3.  **Condition**: Select **Add filters** if you want to add any conditions to the flow.
 
@@ -87,9 +88,9 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
     1.  **Action** tab: Select **Action** &gt; **Predictive Intelligence** &gt; **Classification Prediction**.
 
-        ![In Actions section of the example, the search result for Predictive Intelligence is highlighted. Under that installed spoke is a list of ML model types with Classification Prediction highlighted.](../images/use-predictive-intelligence-flow-designer-ml-actions7Y.png)
+        \[Omitted image "use-predictive-intelligence-flow-designer-ml-actions7Y.png"\] Alt text: In Actions section of the example, the search result for Predictive Intelligence is highlighted. Under that installed spoke is a list of ML model types with Classification Prediction highlighted.
 
-        Select the information icon \(![](../../now-assist-admin/image/info-icon.png)\) to see the description of a Classification Prediction.
+        Select the information icon \(\[Omitted image "info-icon.png"\]\) to see the description of a Classification Prediction.
 
     2.  **Solution \[ML Solution\]**: Select **ml\_incident\_categorization**.
 
@@ -99,7 +100,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
     4.  **Input Record**: Drag and drop your **Trigger → Incident Record** data pill into the Input Record field.
 
-        ![An image showing how to drag and drop the trigger record pill into the Input Record field.](../images/use-predict-intel-flow-designer-ml-actions8.png)
+        \[Omitted image "use-predict-intel-flow-designer-ml-actions8.png"\] Alt text: An image showing how to drag and drop the trigger record pill into the Input Record field.
 
         The Action, Solution Name, Top N, and Input Record values provide a base for the Category prediction.
 
@@ -109,7 +110,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
         **Result**: The Classification Prediction action is completed in the flow and its data pills appear in the Data section of the screen.
 
-        ![An image showing the completed Classification Prediction action](../images/use-predict-intel-flow-designer-ml-actions9.png)
+        \[Omitted image "use-predict-intel-flow-designer-ml-actions9.png"\] Alt text: An image showing the completed Classification Prediction action
 
 7.  In the ACTIONS section of the screen, use the following steps to create actions and flow logic for the incident's Prediction Results.
 
@@ -117,7 +118,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
     1.  **For each item in** **list of items**: Drag and drop the **Prediction Results** data pill into the **Items** field.
 
-        ![An image showing how to drag and drop the Prediction Results data pill into the Classification Prediction action](../images/use-predict-intel-flow-designer-ml-actions10.png)
+        \[Omitted image "use-predict-intel-flow-designer-ml-actions10.png"\] Alt text: An image showing how to drag and drop the Prediction Results data pill into the Classification Prediction action
 
         **Note:**
 
@@ -133,7 +134,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
     The PI Confidence Check is a tool you can use to compare values in a flow. In this use case, it compares prediction result values, and the output from the check is either True or False.
 
-    ![An image showing how to use PI Confidence Check in the flow](../images/use-predict-intel-flow-designer-ml-actions11.png)
+    \[Omitted image "use-predict-intel-flow-designer-ml-actions11.png"\] Alt text: An image showing how to use PI Confidence Check in the flow
 
 9.  Drag and drop the **confidence** data pill into the **Predicted Number from Predictive Intelligence** field.
 
@@ -143,24 +144,24 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
 11. Select **Done**.
 
-    ![This image shows users how to drag the Confidence data pill into the Predicted Number from Predictive Intelligence field](../images/use-predict-intel-flow-designer-ml-actions12.png)
+    \[Omitted image "use-predict-intel-flow-designer-ml-actions12.png"\] Alt text: This image shows users how to drag the Confidence data pill into the Predicted Number from Predictive Intelligence field
 
 12. Select **Flow Logic** &gt; **If** to add a condition to the flow.
 
-    ![This image shows users how to evoke flow logic for the PI Confidence Check action](../images/use-predict-intel-flow-designer-ml-actions14.png)
+    \[Omitted image "use-predict-intel-flow-designer-ml-actions14.png"\] Alt text: This image shows users how to evoke flow logic for the PI Confidence Check action
 
 13. Configure the following fields to define the first part of the condition flow logic.
 
     -   **Condition**: Enter a name for the condition that defines what it does. In this example scenario, you enter `Confidence greater than 50`.
     -   **Condition 1**: Drag and drop the **Confidence To Predict** data pill into the field. Select **is**, and enter the value `True`. This step completes the first part \(the antecedent\) of the condition flow logic.
     -   Select **Done**.
-    ![This image shows users how to use flow logic to create and define a condition](../images/use-predict-intel-flow-designer-ml-actions15.png)
+    \[Omitted image "use-predict-intel-flow-designer-ml-actions15.png"\] Alt text: This image shows users how to use flow logic to create and define a condition
 
 14. Select **Action** and enter `worknote` into the search field.
 
 15. Select **ITSM** &gt; **Add Worknote** to add a work note as the second part \(the conclusion\) of the condition.
 
-    ![This image shows users how to locate the Add Worknote action in the flow](../images/use-predict-intel-flow-designer-ml-actions16.png)
+    \[Omitted image "use-predict-intel-flow-designer-ml-actions16.png"\] Alt text: This image shows users how to locate the Add Worknote action in the flow
 
 16. Configure the following fields to define the second and final part of the condition flow logic.
 
@@ -168,13 +169,13 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
     -   **task \[task\]**: Drag and drop the **Incident Record** data pill into the field.
     -   **work note**: Drag and drop the **predicted\_value** data pill into the field. This step completes the condition flow logic conclusion.
     -   Select **Done**.
-    ![This image shows users how to configure and save the Add Worknote action in the flow](../images/use-predict-intel-flow-designer-ml-actions17.png)
+    \[Omitted image "use-predict-intel-flow-designer-ml-actions17.png"\] Alt text: This image shows users how to configure and save the Add Worknote action in the flow
 
 17. Select **Action** and enter `update record` into the search field.
 
 18. Select **Update Record**.
 
-    ![This image shows users how to locate the Update Record action](../images/use-predict-intel-flow-designer-ml-actions18.png)
+    \[Omitted image "use-predict-intel-flow-designer-ml-actions18.png"\] Alt text: This image shows users how to locate the Update Record action
 
 19. Configure the following fields to update the Incident Record.
 
@@ -184,7 +185,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
     -   **Fields**: Select **Category**. Then drag and drop the **predicted\_value** data pill into this field, next to the **Category** value.
     -   Select **Done**.
 
-        ![This image shows users how to configure and save the Update Record action](../images/use-predict-intel-flow-designer-ml-actions19.png)
+        \[Omitted image "use-predict-intel-flow-designer-ml-actions19.png"\] Alt text: This image shows users how to configure and save the Update Record action
 
 20. Select **Save**.
 
@@ -194,11 +195,11 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
     -   Your Auto-assign Category to Incident flow is activated and complete.
 
-        ![This image shows users what their completed flow looks like](../images/use-predict-intel-flow-designer-ml-actions20.png)
+        \[Omitted image "use-predict-intel-flow-designer-ml-actions20.png"\] Alt text: This image shows users what their completed flow looks like
 
     -   It also appears as published in the Flows column on the Workflow Studio home screen.
 
-        ![This image shows users that their completed flow appears as published on the Flow Designer screen](../images/use-predict-intel-flow-designer-ml-actions21.png)
+        \[Omitted image "use-predict-intel-flow-designer-ml-actions21.png"\] Alt text: This image shows users that their completed flow appears as published on the Flow Designer screen
 
 22. Navigate to **Incidents**.
 
@@ -206,7 +207,7 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
     In this example scenario, you create record INC0010011.
 
-    ![This image shows users how to create a new incident record](../images/use-predict-intel-flow-designer-ml-actions22.png)
+    \[Omitted image "use-predict-intel-flow-designer-ml-actions22.png"\] Alt text: This image shows users how to create a new incident record
 
 24. In the record you created, note in the following image that the Category value is set to **Inquiry / Help**.
 
@@ -214,19 +215,19 @@ For more information on how to use Flow Designer in Workflow Studio, see [Explor
 
 26. Select **Submit**.
 
-    ![This image shows users the Number and Category values for the new record they created, and instructs them to enter the 'Email not working' value into the Short Description field](../images/use-predict-intel-flow-designer-ml-actions23.png)
+    \[Omitted image "use-predict-intel-flow-designer-ml-actions23.png"\] Alt text: This image shows users the Number and Category values for the new record they created, and instructs them to enter the 'Email not working' value into the Short Description field
 
     **Result**
 
     The system updates the incident record to show that its Category value has changed from **Inquiry / Help** to **Email**.
 
-    -   ![This image shows users that the Category record value has changed from Inquiry to Email](../images/use-predict-intel-flow-designer-ml-actions24.png)
+    -   \[Omitted image "use-predict-intel-flow-designer-ml-actions24.png"\] Alt text: This image shows users that the Category record value has changed from Inquiry to Email
 
-    -   ![This image shows users the bottom of the record, where the Work Note they created states that the Category for the record has been updated from Inquiry to Email](../images/use-predict-intel-flow-designer-ml-actions25.png)
+    -   \[Omitted image "use-predict-intel-flow-designer-ml-actions25.png"\] Alt text: This image shows users the bottom of the record, where the Work Note they created states that the Category for the record has been updated from Inquiry to Email
 
 
 **Related topics**  
 
 
-[Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/predictive-intelligence-spoke.md)
+[bundle-crworkflow.predictive-intelligence-spoke]
 

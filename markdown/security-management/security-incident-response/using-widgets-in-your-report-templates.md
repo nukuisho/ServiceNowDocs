@@ -2,6 +2,7 @@
 title: Use Visualizations in Report Templates
 description: Use report widgets to define and include User Interface Builder \(UIB\) elements such as data visualizations in the MSIM status reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-widgets-in-your-report-templates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -51,10 +52,10 @@ Role required: sn\_msi.workspace\_manager
     |**Timeline**|Displays the timeline of key events and milestones that have occurred as part of the major security incident.|
 
 
-**Parent Topic:**[Create a Report Template](create-report-template.md)
+**Parent Topic:**[Create a Report Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-report-template.md)
 
 **Related topics**  
 
 
-[Create a Visualization Type Element](create-visualization-type-element.md)
+[Create a Visualization Type Element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-visualization-type-element.md)
 

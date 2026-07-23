@@ -2,6 +2,7 @@
 title: Schedule a suite scan
 description: Create a schedule to regularly trigger a suite scan even when you don’t have an active session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hc-schedule-suite-scan.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -40,7 +41,7 @@ Role required: admin.
     -   **Full Instance**: Scans all the available records in the instance.
     -   **Scoped App**: Scans selected scoped apps. You can select multiple scoped apps.
     -   **Update Set**: Scans multiple update sets.
-6.  Select **Schedule Scan**.![Image showing Schedule Suite Scan modal](../image/hc-schedule-suite-scan.png)
+6.  Select **Schedule Scan**.\[Omitted image "hc-schedule-suite-scan.png"\] Alt text: Image showing Schedule Suite Scan modal
 
     **Note:** If a record is inactive, the checks don't generate any findings for that record.
 
@@ -142,28 +143,28 @@ Timezone used to run the scan.
     The scan that has been scheduled displays under Schedule related list.
 
 
-**Parent Topic:**[Using Instance Scan](../concept/hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 
 
-[Create a check](hs-create-health-check.md)
+[Create a check]()
 
-[Create a check suite](hc-create-check-suite.md)
+[Create a check suite]()
 
-[Executing a scan](../reference/hs-execute-scans.md)
+[Executing a scan]()
 
-[Schedule a full scan](hs-schedule-full-scan.md)
+[Schedule a full scan]()
 
-[Monitoring a scan](hs-progress-status-full-scan.md)
+[Monitoring a scan]()
 
-[Parallel scans](../concept/hs-parallel-scan.md)
+[Parallel scans]()
 
-[Reviewing of scans](../reference/hs-review-scans.md)
+[Reviewing of scans]()
 
-[Queue your scan](hs-queue-scan.md)
+[Queue your scan]()
 
-[Cancel a scan](hs-cancel-scan.md)
+[Cancel a scan]()
 
-[Using the Instance Scan dashboard](hs-implement-dashboard.md)
+[Using the Instance Scan dashboard]()
 

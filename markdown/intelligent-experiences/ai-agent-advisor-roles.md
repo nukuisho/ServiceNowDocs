@@ -2,6 +2,7 @@
 title: AI Agent Advisor roles
 description: AI Agent Advisor is installed with these roles.This role has full access to the AI Agent Advisor application and can access AI Agent Advisor tables.Perform read and write actions in AI Agent Advisor.Gain read-only access to AI Agent Advisor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-advisor-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-16"
@@ -14,12 +15,12 @@ breadcrumb: [Reference, AI Agent Advisor, Enable AI experiences]
 
 AI Agent Advisor is installed with these roles.
 
-**Parent Topic:**[AI Agent Advisor reference](../concept/ai-agent-advisor-reference.md)
+**Parent Topic:**[AI Agent Advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-reference.md)
 
 **Related topics**  
 
 
-[Components installed with AI Agent Advisor](components-installed-with-ai-agent-advisor.md)
+[Components installed with AI Agent Advisor]()
 
 ## AI Agent Advisor admin \[sn\_agent\_miner.app\_admin\]
 

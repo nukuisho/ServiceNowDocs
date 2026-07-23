@@ -2,6 +2,7 @@
 title: Turn off the Zero Trust Access banner on mobile apps
 description: Learn how to turn off the banner on mobile app screens where Zero Trust Access \(ZTA\) is enabled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/turn-off-zta-banner.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,9 +62,9 @@ Application
 
 </td><td>
 
-Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(![globe image](../image/globe-icon.png)\) on the instance banner. Then select **Application scope: _application\_scope_**.
+Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: globe image\) on the instance banner. Then select **Application scope: _application\_scope_**.
 
- For information about how mobile properties are affected by application scope, see [Mobile properties](../concept/mobile-properties.md).
+ For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Is Public
 
 Determines whether the **pre\_auth** property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-events.md).
+ By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the **/user\_client** API response.
 
@@ -121,7 +122,7 @@ Mobile App Config
 
 Mobile app configuration for which you want to use the mobile property. This setting limits the mobile property behavior to users who have access to this mobile app configuration. Other users don't have access to this mobile property and instead experience default behavior.
 
- To enter a value, either start entering the application name or select the search icon \(![magnifying glass image](../image/search-icon.png)\). The search dialog box lists the configurations from which you can choose.
+ To enter a value, either start entering the application name or select the search icon \(\[Omitted image "search-icon.png"\] Alt text: magnifying glass image\). The search dialog box lists the configurations from which you can choose.
 
  Select one of the following mobile app configs:
 
@@ -137,7 +138,7 @@ Mobile Application
 
 Mobile application to which you want to send the mobile property. This setting limits the mobile property behavior to users who have access to this mobile app. Other users don't have access to this mobile property and instead experience default behavior.
 
- To enter a value, either start to type the application name or select the search icon \(![magnifying glass image](../image/search-icon.png)\). The search dialog box lists the applications from which you can choose.
+ To enter a value, either start to type the application name or select the search icon \(\[Omitted image "search-icon.png"\] Alt text: magnifying glass image\). The search dialog box lists the applications from which you can choose.
 
  Select one of the following mobile applications:
 
@@ -153,5 +154,5 @@ Mobile application to which you want to send the mobile property. This setting l
 
 After updating this property, the end user must pull to refresh and get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](../concept/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
 

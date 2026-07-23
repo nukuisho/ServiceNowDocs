@@ -2,6 +2,7 @@
 title: Customize a Workforce Optimization for ITSM page using the Next Experience UI Builder
 description: Clone an existing Workforce Optimization for ITSM page and customize it based on your needs using the Next Experience UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/customize-wfo-itsm-page.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -21,7 +22,7 @@ Role required: workspace\_admin or ui\_builder\_admin
 
 ## About this task
 
-All Workforce Optimization for ITSM Next Experience UI Builder pages and page variants are read-only. You can copy a page variant and then customize it. You can create a page variant from scratch or use a page template. For more information, see [Create a variant of a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
+All Workforce Optimization for ITSM Next Experience UI Builder pages and page variants are read-only. You can copy a page variant and then customize it. You can create a page variant from scratch or use a page template. For more information, see [Create a variant of a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md).
 
 **Note:** After you copy and customize a page variant, any automatic updates applied to the original read-only page variant will not be applied to the page variant that you have customized.
 
@@ -39,9 +40,9 @@ For a list of all workspaces ServiceNow offers to target specific users, see [Li
 
     For example, Landing Page or Work Scheduler.
 
-4.  In the **Variants** section, select the menu icon \(![menu-icon](../image/menu-icon.png)\) of the variant you would like to copy select **Duplicate**.
+4.  In the **Variants** section, select the menu icon \(\[Omitted image "menu-icon.png"\] Alt text: menu-icon\) of the variant you would like to copy select **Duplicate**.
 
-5.  In the variant that you've duplicated, select the menu icon \(![menu-icon](../image/menu-icon.png)\) and select **Edit page variant settings**.
+5.  In the variant that you've duplicated, select the menu icon \(\[Omitted image "menu-icon.png"\] Alt text: menu-icon\) and select **Edit page variant settings**.
 
 6.  In the Edit settings pop-up window, do the following:
 
@@ -51,14 +52,14 @@ For a list of all workspaces ServiceNow offers to target specific users, see [Li
 
         If you do not want to make any updates, select **Cancel** or select **Delete** to delete the variant.
 
-7.  Select the menu icon \(![menu-icon](../image/menu-icon.png)\) and select **Edit conditions**.
+7.  Select the menu icon \(\[Omitted image "menu-icon.png"\] Alt text: menu-icon\) and select **Edit conditions**.
 
     -   To add or edit conditions for the variant, in the **Variant Conditions** field, and add your preferred conditions for the variant.
     -   To display the variant in Workforce Optimization for ITSM, in the **Order** field, set the preferred order number.
 8.  Select **Done**.
 
 
-**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](../concept/advanced-configuration-workforce-optimization-itsm.md)
+**Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
 
 **Related topics**  
 

@@ -2,6 +2,7 @@
 title: Contextualize an external document for a Deviation in the Digital Factory Workspace
 description: With the AI Enhanced recommended actions for Industrial Connected Workforce, contextualize an external document to get an explanation of why the document is relevant to a deviation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/use-ai-enhanced-ra-icw.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,12 +37,12 @@ Role required: sn\_icw.deviation\_user and sn\_ai\_enhanced\_ra.document\_user
 
 ## What to do next
 
-You can generate an action plan based on the contextualized external documents and information available in the deviation. For more information see, [Generate an action plan to resolve a Deviation in the Digital Factory Workspace](generate-action-plan-ai-enhanced-ra-icw.md).
+You can generate an action plan based on the contextualized external documents and information available in the deviation. For more information see, [Generate an action plan to resolve a Deviation in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/generate-action-plan-ai-enhanced-ra-icw.md).
 
-**Parent Topic:**[Using AI Enhanced recommended actions for Industrial Connected Workforce](../concept/using-ai-enhanced-ra-icw.md)
+**Parent Topic:**[Using AI Enhanced recommended actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/using-ai-enhanced-ra-icw.md)
 
 **Related topics**  
 
 
-[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](../../icw-mobile-experience/task/use-ai-enhanced-ra-icw-mobile.md)
+[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/use-ai-enhanced-ra-icw-mobile.md)
 

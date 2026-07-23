@@ -2,6 +2,7 @@
 title: Publicly distributed apps
 description: Public distribution can be used to distribute iOS or Android branded applications on public app stores.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-publicly-dist-apps.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ The ServiceNow® branding program complies with the suggested practices from App
 
 The following image summarizes the workflow. It usually takes about 1 week to build the iOS app for public distribution.
 
-![Public publishing process for iOS branded apps.](../image/mobile-ios-public-brand-app-process.png "iOS branded app publishing process for public distribution")
+\[Omitted image "mobile-ios-public-brand-app-process.png"\] Alt text: Public publishing process for iOS branded apps.
 
 ## Android branded apps for public distribution
 
@@ -33,7 +34,7 @@ The ServiceNow branding program also complies with the suggested practices from 
 
 The following image summarizes the workflow. It usually takes about a week or less to build the Android branded application. Sometimes it might take only a few hours.
 
-![Public publishing process for Android branded apps.](../image/mobile-android-public-brand-app-proc.png "Android branded app publishing process for public distribution")
+\[Omitted image "mobile-android-public-brand-app-proc.png"\] Alt text: Public publishing process for Android branded apps.
 
-**Parent Topic:**[Distributing your mobile app](mobile-distribution.md)
+**Parent Topic:**[Distributing your mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-distribution.md)
 

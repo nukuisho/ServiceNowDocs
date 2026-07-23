@@ -2,6 +2,7 @@
 title: Create New Pipeline Project form
 description: Use the Create New Pipeline Project form to provide details about the pipe project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-pipeline-project-form.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -260,20 +261,22 @@ Previous record ID
 The unique identifier of the previous related project or sourcing record, used for reference.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Procurement Operations reference](spo-reference.md)
+</table>**Parent Topic:**[Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
 
 **Related topics**  
 
 
-[Base system procurement case type reference](base-system-procurement-case-types.md)
+[Base system procurement case type reference]()
 
-[Pipeline project record tabs and UI actions](pipeline-form-tabs-actions.md)
+[Pipeline project record tabs and UI actions]()
 
-[Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md)
+[Savings opportunity fields]()
 
-[SPO and ITAM data model mappings](../concept/itam-spo-data-model.md)
+[Purchase requisition, purchase order, and sourcing request states]()
 
-[Domain separation and Sourcing and Procurement Operations](../concept/psm-domain-separation.md)
+[SPO and ITAM data model mappings]()
 
-[Sourcing and Procurement Operations glossary](../concept/spo-glossary.md#)
+[Domain separation and Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations glossary]()
 

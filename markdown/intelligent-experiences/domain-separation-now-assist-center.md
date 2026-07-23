@@ -2,6 +2,7 @@
 title: Domain separation and Now Assist Center
 description: Domain separation is supported for Now Assist Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/domain-separation-now-assist-center.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-09"
@@ -55,14 +56,14 @@ The following domain-separated fields are supported:
     Enables child domain state records to override parent domain states.
 
 
-**Parent Topic:**[Now Assist Center reference](now-assist-center-reference.md)
+**Parent Topic:**[Now Assist Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Now Assist Center](components-installed-with-now-assist-center.md)
+[Components installed with Now Assist Center]()
 
-[Now Assist Center glossary](../concept/now-assist-center-glossary.md#)
+[Now Assist Center glossary]()
 
-[Now Assist Center roles](now-assist-center-roles.md#)
+[Now Assist Center roles]()
 

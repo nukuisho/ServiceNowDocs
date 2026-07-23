@@ -2,13 +2,14 @@
 title: Install a MID Server on Linux
 description: Install MID Servers with the MID Server installer and verify it is active. The package includes an installer that automatically configures JRE to run in the environment. The MID Server can use an existing JRE rather than the provided JRE. Uninstall the MID Server to redeploy it.Silently installing the MID Server uses predefined parameters and requires no user input after it is initiated. You can use silent installation on several machines at once to quickly set up a network and to ensure all MID Servers have the same installation settings.Run MID Servers as non-root user on a Linux machine to improve security. Multiple MID Server can be installed as services so they can start by themselves after system reboots.You can choose to use an existing JRE for your MID Server rather than the OpenJDK provided with the MID Server installer. The MID Server runs as a stand-alone service. You can remove a stand-alone MID Server service to accommodate such tasks as redeploying the MID Server to another host machine or changing the unique name of a MID Server when deploying multiple MID Servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_InstallAMIDServerOnLinux.html
 release: australia
 product: MID Server
 classification: mid-server
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 13
-breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Install a MID Server on Linux
@@ -17,7 +18,7 @@ Install MID Servers with the MID Server installer and verify it is active. The p
 
 ## Before you begin
 
-Verify that the host computer satisfies the [MID Server system requirements](../reference/r_MIDServerSystemRequirements.md).
+Verify that the host computer satisfies the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
 
 Role required: admin, mid\_server
 
@@ -52,7 +53,7 @@ Testing showed that the MID Server works as expected with Oracle Java 11 version
 
 1.  On the instance, navigate to **MID Server** &gt; **Downloads** and download either the MID Server installer RPM file for RedHat/CentOS or the DEB file for Debian \(Ubuntu\) systems.
 
-    ![The Linux installer download page.](../image/linux-installer-download-page.png)
+    \[Omitted image "linux-installer-download-page.png"\] Alt text: The Linux installer download page.
 
     **Note:** Use the copy link button to copy the download link and use the following `wget` command to directly download the installers in Linux machines.
 
@@ -115,7 +116,7 @@ Testing showed that the MID Server works as expected with Oracle Java 11 version
     ./installer.sh
     ```
 
-    ![The Linux command line with the installer.sh running.](../image/linux-installer-commandline.png)
+    \[Omitted image "linux-installer-commandline.png"\] Alt text: The Linux command line with the installer.sh running.
 
 5.  The **installer.sh** script takes the following inputs.
 
@@ -125,7 +126,7 @@ Testing showed that the MID Server works as expected with Oracle Java 11 version
 
     -   **MID-Server Username**
 
-        Enter the user name of [the MID Server user that you already created](t_SetupMIDServerRole.md#). The MID Server user must have the mid\_server role.
+        Enter the user name of [the MID Server user that you already created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md). The MID Server user must have the mid\_server role.
 
     -   **MID-Server Password**
 
@@ -157,7 +158,7 @@ Testing showed that the MID Server works as expected with Oracle Java 11 version
 
         If the web proxy requires a password, set this parameter to define that password.
 
-    The MID Server can bypass proxy servers whose DNS/IP address is listed in the configuration parameter **mid.cloud.discovery.proxy.exclusion.list**. See [MID Server property](../reference/r_MIDServerProperties.md#) for more information.
+    The MID Server can bypass proxy servers whose DNS/IP address is listed in the configuration parameter **mid.cloud.discovery.proxy.exclusion.list**. See [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
 
     To run a MID Server as a daemon service, the following properties are also required.
 
@@ -206,7 +207,7 @@ The following fields can be passed through the command line:
 
 -   **MID\_USERNAME**
 
-    Enter the user name of [the MID Server user that you already created](t_SetupMIDServerRole.md#). The MID Server user must have the mid\_server role.
+    Enter the user name of [the MID Server user that you already created](). The MID Server user must have the mid\_server role.
 
 -   **MID\_PASSWORD**
 
@@ -257,7 +258,7 @@ The following is an example command for a MID Server which uses a proxy and mutu
 ./installer.sh -silent -INSTANCE_URL https://instance_name.service-now.com MUTUAL_AUTH Y –CERTIFICATE_PATH <path-to-certificate> -USE_PROXY Y -PROXY_HOST <ip> -PROXY_PORT <port> -PROXY_USERNAME <username> -PROXY_PASSWORD <password> -MID_NAME proxymid -APP_NAME proxymid -APP_LONG_NAME servicenow_proxy_mid -NON_ROOT_USER nonrootuser 
 ```
 
-**Note:** To reconfigure the MID Server, run the `installer.sh` command again. Reconfiguring the MID Server deletes the old configuration. ![The Linux command line after using the silent installation command.](../image/linux-silent-install.png)
+**Note:** To reconfigure the MID Server, run the `installer.sh` command again. Reconfiguring the MID Server deletes the old configuration. \[Omitted image "linux-silent-install.png"\] Alt text: The Linux command line after using the silent installation command.
 
 ## Run Linux MID Servers as non-root users
 
@@ -267,7 +268,7 @@ Run MID Servers as non-root user on a Linux machine to improve security. Multipl
 
 Role required: root
 
-This process is only applicable if you installed the MID Server manually using the ZIP file. If you installed the MID Server with the procedure in [Install a MID Server on Linux](t_InstallAMIDServerOnLinux.md#), then the MID Server is already running as a non-root user.
+This process is only applicable if you installed the MID Server manually using the ZIP file. If you installed the MID Server with the procedure in [Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md), then the MID Server is already running as a non-root user.
 
 Supported versions for this procedure are Linux Red Hat 6 or newer, Ubuntu 1404 or newer, and CentOS 6 or newer.
 
@@ -279,7 +280,7 @@ Supported versions for this procedure are Linux Red Hat 6 or newer, Ubuntu 1404 
 
 3.  Edit the file `mid.shconf_override`.
 
-    ![The content in mid.shconf_override.](../image/linux-mid.shconf_override.png)
+    \[Omitted image "linux-mid.shconf\_override.png"\] Alt text: The content in mid.shconf\_override.
 
 4.  Add the MID Server's name using the lines **APP\_NAME=** and **APP\_LONG\_NAME=** to run it as a service.
 
@@ -287,7 +288,7 @@ Supported versions for this procedure are Linux Red Hat 6 or newer, Ubuntu 1404 
 
 5.  To run multiple MID Servers as services on the same host, add an **APP\_NAME** and **APP\_LONG\_NAME** for each instance.
 
-    ![Multiple MID Servers being named as non-roots.](../image/Linux-multiple-non-admin-mid.png)
+    \[Omitted image "Linux-multiple-non-admin-mid.png"\] Alt text: Multiple MID Servers being named as non-roots.
 
 6.  Add the name of the non-root user to operate the account using the line **RUN\_AS\_USER=**.
 
@@ -306,7 +307,7 @@ Supported versions for this procedure are Linux Red Hat 6 or newer, Ubuntu 1404 
 
 ### What to do next
 
-For more information about managing the allow list and file permission enforcement, see [File permission enforcement for Windows MID Servers](../concept/mid-non-admin-permission.md). Running a Linux MID Server with a non-root account may result in issues with PolicyKit in some systems. See [PolicyKit issues with Linux MID Servers using non-root accounts](https://support.servicenow.com/kb_view.do?sysparm_article=KB0815542) for more information.
+For more information about managing the allow list and file permission enforcement, see [File permission enforcement for Windows MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-non-admin-permission.md). Running a Linux MID Server with a non-root account may result in issues with PolicyKit in some systems. See [PolicyKit issues with Linux MID Servers using non-root accounts](https://support.servicenow.com/kb_view.do?sysparm_article=KB0815542) for more information.
 
 ## Configure a Linux MID Server to use an existing JRE
 
@@ -314,7 +315,7 @@ You can choose to use an existing JRE for your MID Server rather than the OpenJD
 
 ### Before you begin
 
-Ensure that your JRE version is supported. See [MID Server system requirements](../reference/r_MIDServerSystemRequirements.md) for details.
+Ensure that your JRE version is supported. See [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) for details.
 
 Role required: admin
 
@@ -349,7 +350,7 @@ Role required: admin
 
 1.  Run the **uninstall.sh** script in the agent folder to remove the service and uninstall the RPM/DEB.
 
-    ![The Linux command line after running the uninstall.sh script.](../image/linux-uninstall-commandline.png)
+    \[Omitted image "linux-uninstall-commandline.png"\] Alt text: The Linux command line after running the uninstall.sh script.
 
 
 ### Result
@@ -358,5 +359,5 @@ The MID Server service is uninstalled.
 
 ### What to do next
 
-[Validate](t_ValidateAMIDServer.md) the MID Server to prepare it for use.
+[Validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md) the MID Server to prepare it for use.
 

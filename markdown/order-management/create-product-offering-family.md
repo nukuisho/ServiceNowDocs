@@ -2,10 +2,11 @@
 title: Create a product offering family
 description: Create a product offering family for products with similar or common features that have multiple variations. You can apply common rules or attributes for product offerings at the product offering family level instead of applying them individually to each product offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-product-offering-family.html
 release: australia
 topic_type: task
 last_updated: "2026-04-05"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -32,7 +33,7 @@ After you create product offering families, you assign a product offering to a p
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Offerings** &gt; **Product Offering Families**.
 
@@ -54,5 +55,12 @@ After you create product offering families, you assign a product offering to a p
 
 ## What to do next
 
-[Create product offerings](som-create-product-offering.md)
+[Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-offering.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

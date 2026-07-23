@@ -2,24 +2,19 @@
 title: Alert grouping
 description: Alert grouping is the process of organizing and consolidating related alerts into sets based on common characteristics or criteria. This helps in simplifying alert management by reducing noise, making it easier to prioritize, track, and address issues efficiently. Grouped alerts provide a clearer overview of related incidents, facilitating quicker root cause analysis and remediation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/c\_ServiceAnalyticsOverview.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert grouping
 
 Alert grouping is the process of organizing and consolidating related alerts into sets based on common characteristics or criteria. This helps in simplifying alert management by reducing noise, making it easier to prioritize, track, and address issues efficiently. Grouped alerts provide a clearer overview of related incidents, facilitating quicker root cause analysis and remediation.
-
-## Understanding alert grouping
-
-Watch this brief video to learn how alert grouping organizes alerts into clusters based on specific criteria.
-
-Video explaining how alert grouping organizes alerts into clusters based on specific criteria.
 
 ## How alert grouping works
 
@@ -31,13 +26,13 @@ Alert grouping enhances operational efficiency and optimizes alert management by
 
 ## Benefits of alert grouping
 
--   Creating [automated alert groups](c_SACorrelatedAlertGroups.md) by aggregating alerts based on predefined patterns.
+-   Creating [automated alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_SACorrelatedAlertGroups.md) by aggregating alerts based on predefined patterns.
 -   Correlating alerts using timestamps and CI identification to form automated alert groups.
--   Forming [CMDB based alert grouping](cmdb-alert-groups.md) by correlating alerts based on CI relationships in the CMDB.
+-   Forming [CMDB based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/cmdb-alert-groups.md) by correlating alerts based on CI relationships in the CMDB.
 -   Correlating alerts based on text similarity of alerts using NLP \(Natural Language Processing\).
 
 **Related topics**  
 
 
-[Synchronizing alert response with automated alert grouping](../task/coordinating-alert-response-with-automated-alert-grouping.md)
+[Synchronizing alert response with automated alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/coordinating-alert-response-with-automated-alert-grouping.md)
 

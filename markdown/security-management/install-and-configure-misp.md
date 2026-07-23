@@ -2,6 +2,7 @@
 title: Install and configure the MISP integration for Security Operations
 description: Install and configure the MISP integration for Security Operations from the ServiceNow Store on your ServiceNow AI Platform instance so that you can start investigating security incidents using the MISP data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/install-and-configure-misp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -75,7 +76,7 @@ MID Application
 
 </td><td>
 
-String field that identifies the MID Application name that is used to communicate with MISP.This field is required when you select the **On Premises Deployment** option. For information on how to configure the MID server for your application, see [Configure a MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SpecifyMIDServerApplications.md)
+String field that identifies the MID Application name that is used to communicate with MISP.This field is required when you select the **On Premises Deployment** option. For information on how to configure the MID server for your application, see [Configure a MID Server for each application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SpecifyMIDServerApplications.md)
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.
@@ -85,26 +86,26 @@ String field that identifies the MID Application name that is used to communicat
 
 After you successfully validate and submit the configuration, the MISP - SIR/TI Integration is saved on the Security Integrations page as a tile.
 
-**Parent Topic:**[MISP administration](../concept/misp-administration.md)
+**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
 
 **Related topics**  
 
 
-[Getting started with MISP integration for Security Operations](../reference/get-started-with-misp-integration-for-security-operations.md)
+[Getting started with MISP integration for Security Operations]()
 
-[Review the MISP integration settings](review-the-misp-integration-settings.md)
+[Review the MISP integration settings]()
 
-[Configure MISP sighting searches](configure-sightings-search.md)
+[Configure MISP sighting searches]()
 
-[Configure how an automatic event is created](configure-automatic-event-creation-profile.md#)
+[Configure how an automatic event is created]()
 
-[MISP event data](../concept/misp-event-data.md)
+[MISP event data]()
 
-[Associated MISP events](../reference/associated-misp-events.md)
+[Associated MISP events]()
 
-[MISP user information](../reference/misp-user-information.md)
+[MISP user information]()
 
-[Domain separation and MISP](../reference/domain-separation-and-misp.md)
+[Domain separation and MISP]()
 
-[Troubleshooting MISP integration](../reference/troubleshooting-misp-integration.md)
+[Troubleshooting MISP integration]()
 

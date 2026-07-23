@@ -2,6 +2,7 @@
 title: Assign learning form
 description: Use the Assign learning form to assign a learning course to an employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/assign-learning-form.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,34 +24,34 @@ Use the Assign learning form to assign a learning course to an employee.
 |This task is optional|Option to indicate that the learning assignment is optional.|
 |Due by|Date by which you want the employee to complete the course.|
 
-**Parent Topic:**[Reference for Manager Hub](reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 
 
-[Components installed with Manager Hub](installed-with-managerhub.md)
+[Components installed with Manager Hub]()
 
-[Campaign configurations for Manager Hub](../concept/manager-hub-campaign.md)
+[Campaign configurations for Manager Hub]()
 
-[Default configurations for important dates](../concept/manager-hub-imp-dates.md)
+[Default configurations for important dates]()
 
-[Default configurations for team requests](../concept/manager-hub-team-requests.md)
+[Default configurations for team requests]()
 
-[Default configurations for team data](../concept/team-data-config.md)
+[Default configurations for team data]()
 
-[Default configurations for team column data](../concept/config-team-column.md)
+[Default configurations for team column data]()
 
-[Default configurations for filter groups](../concept/config-filter-group.md)
+[Default configurations for filter groups]()
 
-[Default configurations for daily stats](../concept/config-daily-stats.md)
+[Default configurations for daily stats]()
 
-[Default configurations for To do's](../concept/manager-hub-todos.md)
+[Default configurations for To do's]()
 
-[Default proactive prompts for Manager Hub](../concept/prompts-mh.md)
+[Default proactive prompts for Manager Hub]()
 
-[Use the View menu icon in Manager Hub](view-menu.md)
+[Use the View menu icon in Manager Hub]()
 
-[Create a conversation form](create-conversation-form.md)
+[Create a conversation form]()
 
-[Schedule a conversation form](schedule-conversation-form.md)
+[Schedule a conversation form]()
 

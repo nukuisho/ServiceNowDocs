@@ -2,6 +2,7 @@
 title: Add an Azure service account
 description: During Cloud Provisioning Day 1 setup, you added one service account to the cloud account. To compartmentalize your infrastructure or to include different datacenters, you can add another service account. A particular datacenter, however, cannot be selected in more than one service account in a cloud account. Note: Resource ID
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -21,13 +22,13 @@ Role required: sn\_cmp.cloud\_admin
 
 ## Procedure
 
-1.  Open the `Azure-Credentials.txt` text file that you created during the [Create a Microsoft Azure service principal](azure-create-serv-princ-cloud-mgt-1.md) procedure.
+1.  Open the `Azure-Credentials.txt` text file that you created during the [Create a Microsoft Azure service principal]() procedure.
 
 2.  Navigate to **Cloud Admin Portal** &gt; **Manage** &gt; **Service Accounts**.
 
 3.  Click **New**, enter a unique and meaningful **Name**, and then fill in the form.
 
-    ![Paste the Azure Subscription ID value that you copied from the Azure Portal into the text file.](../image/azure-copy-to-service-account.png)
+    \[Omitted image "azure-copy-to-service-account.png"\] Alt text: Paste the Azure Subscription ID value that you copied from the Azure Portal into the text file.
 
 <table id="table_gs3_bdy_my"><thead><tr><th>
 
@@ -45,7 +46,7 @@ Description
 
 The Azure **Subscription ID** value that you copied from the Azure Portal into the text file.
 
- See [Discovery for Microsoft Azure](../../discovery/concept/azure-cloud-discovery.md) to learn Management Groups subscription IDs.
+ See [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-cloud-discovery.md) to learn Management Groups subscription IDs.
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ The Azure **Subscription ID** value that you copied from the Azure Portal into t
 
 </td><td>
 
-Name of the credentials that you created in the [Store the Azure service principal credentials in the instance](azure-create-creds-cloud-mgt-1.md) procedure. In the example, you used the name `Azure service principal credentials`.
+Name of the credentials that you created in the [Store the Azure service principal credentials in the instance]() procedure. In the example, you used the name `Azure service principal credentials`.
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Auto-generated value: Status and timestamp of the last execution of Discovery on
 
 </td><td>
 
-Option to enable the ServiceNow AI Platform® to collect resource change information from the Microsoft Azure cloud. The ServiceNow AI Platform® uses the resource change information to update the Configuration Management Database \(CMDB\). For more information on the supported Azure resource types, see [Azure change processing](../../it-operations-management/concept/azure-change-processing.md). If you select the Should pull events check box for a management group, the ServiceNow AI Platform enables Azure change processing for all the subscriptions in the management group.
+Option to enable the ServiceNow AI Platform® to collect resource change information from the Microsoft Azure cloud. The ServiceNow AI Platform® uses the resource change information to update the Configuration Management Database \(CMDB\). For more information on the supported Azure resource types, see [Azure change processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-change-processing.md). If you select the Should pull events check box for a management group, the ServiceNow AI Platform enables Azure change processing for all the subscriptions in the management group.
 
 </td></tr></tbody>
 </table>4.  Click **Update** or **Submit**.
@@ -106,5 +107,5 @@ If you are on a domain separated instance, only those events that are updated to
 **Related topics**  
 
 
-[Discovery for Microsoft Azure](../../discovery/concept/azure-cloud-discovery.md)
+[Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-cloud-discovery.md)
 

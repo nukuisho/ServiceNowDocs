@@ -4,8 +4,8 @@ description: The ServiceNow Operational Technology Incident Management applicati
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-06-23"
+reading_time_minutes: 4
 ---
 
 # Operational Technology Incident Management release notes
@@ -14,16 +14,31 @@ The ServiceNow® Operational Technology Incident Management application enables 
 
 ## Operational Technology Incident Management highlights for the Australia release
 
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+-   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
+
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+
+-   The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available.
+
+Australia Early Availability
+
 -   Quickly understand the OT incident context and respond to user inquiries by using the OT incident summarization skill.
 -   Help save time by automatically updating the resolution notes for an OT incident.
 -   Generate a KB article when an OT incident is resolved by using an agentic workflow.
 -   Report an OT incident without an OT incident role using the Employee Center for OT.
 
-See [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/operational-technology-incident-management-landing-page.md) for more information.
+See [Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management-landing-page.md) for more information.
 
 **Important:** Operational Technology Incident Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -35,17 +50,17 @@ See [Operational Technology Incident Management](https://raw.githubusercontent.c
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **[Summarize an Operational Technology incident by using Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
+-   **[Summarize an OT incident by using Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/summarize-ot-incident-now-assist.md)**
 
-    Automatically summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
+    With Now Assist for Operational Technology Service Management \(OTSM\), summarize an OT incident using the **Summarize** UI action to produce a concise summary of the incident.
 
--   **[Generate resolution notes for an Operational Technology incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-resolution-notes-ot-incident.md)**
+-   **[Generate resolution notes for an OT incident by using Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/generate-resolution-notes-ot-incident.md)**
 
-    Automatically generate resolution notes for an OT incident using the **Generate resolution notes** UI action to produce a concise summary of the incident.
+    With Now Assist for OTSM, automatically generate resolution notes for an OT incident using the **Generate resolution notes** UI action to produce a concise summary of the incident.
 
--   **[Generate OT KB articles agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/agent-ot-knowledge-generator.md)**
+-   **[Generate a KB article using an agentic workflow included in Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/agent-ot-knowledge-generator.md)**
 
-    Automatically generate a KB article for an OT incident when the state of the incident is set to **Resolved**. The article contains the following information:
+    With Now Assist for OTSM, automatically generate a KB article for an OT incident when the state of the incident is set to **Resolved**. The article contains the following information:
 
     -   Site
     -   OT Device
@@ -85,7 +100,7 @@ See [Operational Technology Incident Management](https://raw.githubusercontent.c
 
 ## Activation information
 
-Install Operational Technology Incident Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Operational Technology Incident Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
@@ -93,10 +108,10 @@ Install Operational Technology Incident Management by requesting it from the Ser
 
     When integrated with Operational Technology Incident Management, the ServiceNow IT Service Management application enables engineers to resolve OT device and production process issues.
 
--   **[Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)**
+-   **[Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager-overview.md)**
 
     Use the ServiceNow Industrial Process Manager application to create the ISA-95 Equipment Model data foundation that is required for the ServiceNow Industrial solution, enabling you to create your own version of the equipment models in each of your industrial solution sites.
 
 
-**Parent Topic:**[Operational Technology release notes](operational-technology-rn-landing.md)
+**Parent Topic:**[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/operational-technology-rn-landing.md)
 

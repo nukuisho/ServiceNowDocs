@@ -2,6 +2,7 @@
 title: Components installed with Analytics Pack for Contract Management Pro
 description: Several types of components are installed with activation of the Analytics Pack for Contract Management Pro plugin, including user roles and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-comp-analytics-pack-cmpro.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -82,7 +83,7 @@ Provides an immediate insight from your existing contract request data.
 
  Run this job when you first activate Analytics Pack for Contract Management Pro or create indicators. When collecting data for the first time, the job generates scores and snapshots for existing records.
 
- For more information on running historical data collection jobs, see [Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_RunHistoricalDataCollection.md).
+ For more information on running historical data collection jobs, see [Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_RunHistoricalDataCollection.md).
 
 </td></tr></tbody>
 </table>**Note:** The jobs must be run in the following sequence:
@@ -91,36 +92,38 @@ Provides an immediate insight from your existing contract request data.
 2.  Contracts Core: Monthly Data Collection
 3.  Contracts Core: Historical Data Collection
 
-**Parent Topic:**[Contract Management Pro reference](../concept/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 
 
-[Components installed with Contract Management Pro](cncore-comp-ccore.md)
+[Components installed with Contract Management Pro]()
 
-[Components installed with Contract Workspace](cncore-comp-contract-workspace.md)
+[Components installed with Contract Workspace]()
 
-[Contract request State and Contract document status in Contract Management Pro](cncore-cr-state-status.md)
+[Contract request State and Contract document status in Contract Management Pro]()
 
-[Clause Variation form](cncore-cv-form.md)
+[Signatory roles]()
 
-[Contract Configuration form](cncore-contract-config-form.md)
+[Clause Variation form]()
 
-[Properties installed to configure expiry notifications](cncore-properties-installed.md)
+[Contract Configuration form]()
 
-[Properties installed to configure contracts integrations](cncore-properties.md)
+[Properties installed to configure expiry notifications]()
 
-[Expiring Contracts Condition form fields](cncore-email-notif-expcont-form.md)
+[Properties installed to configure contracts integrations]()
 
-[Action assignment form](cmpro-actn-assignment-form.md)
+[Expiring Contracts Condition form fields]()
 
-[UFX Add on Event mapping form](cmpro-ufx-event-map-form.md)
+[Action assignment form]()
 
-[Obligation form](cncore-obligation-form.md)
+[UFX Add on Event mapping form]()
 
-[Obligation Management notifications](cncore-ob-mgmt-notification.md)
+[Obligation form]()
 
-[Contract Management Pro glossary](../concept/contract-management-pro-glossary.md#)
+[Obligation Management notifications]()
 
-[Contract Management solutions](cmpro-cml-feature-compare.md)
+[Contract Management Pro glossary]()
+
+[Contract Management solutions]()
 

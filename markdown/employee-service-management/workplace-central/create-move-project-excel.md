@@ -2,6 +2,7 @@
 title: Create a move project by uploading an Excel file
 description: As a move manager, create a move project by uploading an Excel file that contains move-related information for the employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-move-project-excel.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -30,7 +31,7 @@ Role required: sn\_wsd\_move.manager
 
     You can also open Workplace Central from the Employee Center by navigating to **Workspaces** &gt; **Workplace Central**.
 
-2.  Select the Move management \(![Move management icon.](../images/move-mgmt-icon-central.png)\) module.
+2.  Select the Move management \(\[Omitted image "move-mgmt-icon-central.png"\] Alt text: Move management icon.\) module.
 
 3.  Select **Create project**.
 
@@ -52,7 +53,7 @@ Role required: sn\_wsd\_move.manager
 
     The file must contain move-related information in the appropriate columns. The maximum supported file size is 10 MB.
 
-    You can download an Excel template by selecting **Download standard excel template**. For more information about the character limit of the Excel columns, see [Excel column lengths for move projects](../reference/move-excel-char-limit.md).
+    You can download an Excel template by selecting **Download standard excel template**. For more information about the character limit of the Excel columns, see [Excel column lengths for move projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-excel-char-limit.md).
 
     **Note:** If you have an existing file, you must delete it to upload a different file. You can delete the file by using the context menu.
 
@@ -72,12 +73,12 @@ Role required: sn\_wsd\_move.manager
 
 7.  On the `Fix data issues` page, review the information and resolve the conflicts.
 
-    Conflicts like non-existent employee or same source and destination are stored as data issues. You must resolve the issues or remove the conflicted records to continue. For more information about data issues, see [Move conflicts for projects created via Excel upload](../reference/excel-upload-conflicts.md).
+    Conflicts like non-existent employee or same source and destination are stored as data issues. You must resolve the issues or remove the conflicted records to continue. For more information about data issues, see [Move conflicts for projects created via Excel upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/excel-upload-conflicts.md).
 
     1.  Perform any of the following actions based on your requirement.
 
         -   You can delete records by selecting the check boxes, then selecting **Delete**.
-        -   You can edit a record by selecting the edit icon \(![Edit icon in the shape of a pencil.](../../../reuse/icons/product-icons/pencil-outline-24.svg)\) for the record.
+        -   You can edit a record by selecting the edit icon \(\[Omitted image "pencil-outline-24.svg"\] Alt text: Edit icon in the shape of a pencil.\) for the record.
         -   You can edit multiple records by selecting the check boxes, then selecting **Edit**.
     2.  After resolving the conflicts, select **Reprocess and continue**.
 
@@ -87,7 +88,7 @@ Role required: sn\_wsd\_move.manager
 
 8.  On the `Review conflicts` page, review the information and resolve the conflicts.
 
-    Conflicts like allocation mismatch or exceeding capacity are shown as business conflicts. For more information about the conflicts, see [Move conflicts for projects created via Excel upload](../reference/excel-upload-conflicts.md).
+    Conflicts like allocation mismatch or exceeding capacity are shown as business conflicts. For more information about the conflicts, see [Move conflicts for projects created via Excel upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/excel-upload-conflicts.md).
 
     **Note:** You can ignore the conflicts and continue by selecting **Next**.
 
@@ -117,14 +118,14 @@ If you accidentally close a move project after uploading an Excel file, the syst
 
 **Note:** The move project isn't marked complete even if all the child cases are closed. You can add more cases to the project from the Schedule View or the List View.
 
-For more information about working on a move project, see [Work on a move project](work-on-a-move-project.md).
+For more information about working on a move project, see [Work on a move project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/work-on-a-move-project.md).
 
-**Parent Topic:**[Working with Move management](../concept/working-with-move-management.md)
+**Parent Topic:**[Working with Move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-move-management.md)
 
 **Related topics**  
 
 
-[Create a move project from existing move requests](create-move-project.md)
+[Create a move project from existing move requests]()
 
-[Work on a move project](work-on-a-move-project.md)
+[Work on a move project]()
 

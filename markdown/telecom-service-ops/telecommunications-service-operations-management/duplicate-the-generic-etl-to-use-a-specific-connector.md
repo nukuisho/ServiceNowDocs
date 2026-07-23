@@ -1,7 +1,8 @@
 ---
-title: Duplicate the Telecom Discovery Builder framework ETL into a connector scope
+title: Duplicate the Telecom Discovery Builder ETL
 description: The Telecom Discovery Builder framework ETL enables Service Graph Connector \(SGC\) teams to rapidly adopt a standardized, schema-compliant data ingestion pipeline without building ETL logic from scratch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/duplicate-the-generic-etl-to-use-a-specific-connector.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -11,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Configure Telecom Discovery Builder, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
-# Duplicate the Telecom Discovery Builder framework ETL into a connector scope
+# Duplicate the Telecom Discovery Builder ETL
 
 The Telecom Discovery Builder framework ETL enables Service Graph Connector \(SGC\) teams to rapidly adopt a standardized, schema-compliant data ingestion pipeline without building ETL logic from scratch.
 
@@ -34,7 +35,7 @@ Duplicating the Telco Generic ETL allows you to:
 -   Align with the Telco Generic Schema for consistency and TNI compliance.
 -   Save time and reduce errors by working with a tested and proven ETL framework.
 
-The following screenshot can help you duplicate the ETL Transform Map.![Duplicate ETL Transform Map user interface displaying field information to duplicate the Telco Generic Schema V2 to Nokia NSP ETL.](../images/createduplicate.png)
+The following screenshot can help you duplicate the ETL Transform Map.\[Omitted image "createduplicate.png"\] Alt text: Duplicate ETL Transform Map user interface displaying field information to duplicate the Telco Generic Schema V2 to Nokia NSP ETL.
 
 ## Procedure
 
@@ -66,7 +67,7 @@ The following screenshot can help you duplicate the ETL Transform Map.![Duplicat
 
     7.  Select the data source that is used for the duplicate ETL transform map.
 
-        **Note:** This needs to be different than the existing default Data Source that is attached to the Telco Generic Schema ETL. For more information, see [Create a data source similar to Telecom core data source](create-a-data-source-similar-to-tsom-core-data-source.md).
+        **Note:** This needs to be different than the existing default Data Source that is attached to the Telco Generic Schema ETL. For more information, see [Create a data source similar to Telecom core data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/create-a-data-source-similar-to-tsom-core-data-source.md).
 
     8.  Enable **Auto-pull a new import set** option to automatically pull data into a new import set.
 
@@ -92,5 +93,5 @@ The following screenshot can help you duplicate the ETL Transform Map.![Duplicat
 **Related topics**  
 
 
-[Update the data source of the connector](update-data-source-of-the-connector.md)
+[Update the data source of the connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/update-data-source-of-the-connector.md)
 

@@ -2,13 +2,14 @@
 title: Components installed with Workplace Core
 description: Several types of components are installed with installation of the Workplace Core application, including user roles, scheduled jobs, tables, and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/components-installed-with-workplace-service-delivery.html
 release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Workplace Core references, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Workplace Core
@@ -209,7 +210,7 @@ User Space Suggestions \[sn\_wsd\_core\_user\_space\_suggestions\]
 
 Cache table for user preferred or recommended spaces. Has list view fields \(User, Building, and Suggestions\)**Note:** The sn\_wsd\_concierge.admin role can read, create, edit, and delete records in the table in both form and list views.The sn\_wsd\_core.workplace\_user has READ configuration used when receiving suggestions. Users with sn\_wsd\_core.workplace\_user role can only see the records created for them, and the records are read-only.
 
-For more information, see [User Space Suggestions](../../workplace-concierge/task/userspace-suggestions.md).
+For more information, see [User Space Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/userspace-suggestions.md).
 
 </td></tr><tr><td>
 
@@ -217,7 +218,7 @@ Space Suggestions
 
 </td><td>
 
-Cache table for space suggestions for employees. The suggestion type field contains the drop down in the form view fields \(Location, Favorites, Past and Future reservations, Collaborator location and Standard services\). Weight should be a positive number \(integer\). If a negative number is entered and saved, application shows an error message. For more information, see [Space suggestion Configuration](../../workplace-concierge/task/space-suggestion-configuration.md).**Note:** The sn\_wsd\_concierge.admin role can read, create, edit, and delete records in the table in both form and list views.The sn\_wsd\_core.workplace\_user has READ configuration used when receiving suggestions. Users with sn\_wsd\_core.workplace\_user role can only see the records created for them, and the records are read-only.
+Cache table for space suggestions for employees. The suggestion type field contains the drop down in the form view fields \(Location, Favorites, Past and Future reservations, Collaborator location and Standard services\). Weight should be a positive number \(integer\). If a negative number is entered and saved, application shows an error message. For more information, see [Space suggestion Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/space-suggestion-configuration.md).**Note:** The sn\_wsd\_concierge.admin role can read, create, edit, and delete records in the table in both form and list views.The sn\_wsd\_core.workplace\_user has READ configuration used when receiving suggestions. Users with sn\_wsd\_core.workplace\_user role can only see the records created for them, and the records are read-only.
 
 </td></tr><tr><td>
 
@@ -502,18 +503,18 @@ Workplace Card Configuration\[sn\_wsd\_core\_card\_configuration\]
 Stores configurations for the cards that are used across Workplace applications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Core references](../concept/wsd-references.md)
+</table>**Parent Topic:**[Workplace Core references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-references.md)
 
 **Related topics**  
 
 
-[Properties installed with Workplace Core](properties-installed-with-workplace-service-delivery.md)
+[Properties installed with Workplace Core]()
 
-[Workplace Profile Location Assignment form](wsd-location-assignment-form.md)
+[Workplace Profile Location Assignment form]()
 
-[Workplace location assignment anomaly types](location-assignment-anomaly-types.md)
+[Workplace location assignment anomaly types]()
 
-[Reserve a space form](reserve-space-form.md)
+[Reserve a space form]()
 
-[Card Configuration examples](card-configuration-examples.md)
+[Card Configuration examples]()
 

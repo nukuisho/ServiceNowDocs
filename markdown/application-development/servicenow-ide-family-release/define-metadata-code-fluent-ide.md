@@ -2,6 +2,7 @@
 title: Define application metadata in code with ServiceNow Fluent in the ServiceNow IDE
 description: Define application metadata in code with ServiceNow Fluent in the ServiceNow IDE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/define-metadata-code-fluent-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -17,13 +18,13 @@ Define application metadata in code with ServiceNow Fluent in the ServiceNow IDE
 
 ## Before you begin
 
-Create, convert, or clone an application and add it to your workspace. For more information, see [Adding applications in ServiceNow IDE](../concept/creating-applications-servicenow-ide.md).
+Create, convert, or clone an application and add it to your workspace. For more information, see [Adding applications in ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/creating-applications-servicenow-ide.md).
 
 Role required: admin
 
 ## About this task
 
-ServiceNow Fluent is a domain-specific language \(DSL\) based on TypeScript for defining the metadata files \[sys\_metadata\] that make up applications and includes APIs for the different types of metadata, such as tables, roles, ACLs, business rules, and Automated Test Framework tests. For more information about ServiceNow Fluent APIs and examples, see [ServiceNow Fluent API reference](../../servicenow-sdk/reference/servicenow-fluent-api-reference.md). The ServiceNow IDE has language processing and validation for ServiceNow Fluent APIs and applications by default.
+ServiceNow Fluent is a domain-specific language \(DSL\) based on TypeScript for defining the metadata files \[sys\_metadata\] that make up applications and includes APIs for the different types of metadata, such as tables, roles, ACLs, business rules, and Automated Test Framework tests. For more information about ServiceNow Fluent APIs and examples, see [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md). The ServiceNow IDE has language processing and validation for ServiceNow Fluent APIs and applications by default.
 
 ## Procedure
 
@@ -31,7 +32,7 @@ ServiceNow Fluent is a domain-specific language \(DSL\) based on TypeScript for 
 
 2.  Open a workspace with an application.
 
-3.  From the Activity Bar, select the File Explorer view \(![File Explorer](../image/servicenow-ide-file-explorer-icon.png)\).
+3.  From the Activity Bar, select the File Explorer view \(\[Omitted image "servicenow-ide-file-explorer-icon.png"\] Alt text: File Explorer\).
 
 4.  In the `src/fluent` directory, add a file with the `.now.ts` extension.
 
@@ -81,7 +82,7 @@ ServiceNow Fluent is a domain-specific language \(DSL\) based on TypeScript for 
 
 8.  Save your changes.
 
-9.  Build and install your application to compile source code into application metadata and make your changes available across the instance. For more information, see [Build and install an application in the ServiceNow IDE](build-applications-servicenow-ide.md).
+9.  Build and install your application to compile source code into application metadata and make your changes available across the instance. For more information, see [Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md).
 
 
 **Tip:** You can use the following directives in a code comment to help manage your code:
@@ -148,12 +149,12 @@ BusinessRule({
 
 After building the application, this source code generates the following application metadata files on the instance.
 
-![Application files generated from the example code.](../../servicenow-sdk/image/servicenow-ide-app-files.png "Application metadata generated from ServiceNow Fluent code")
+\[Omitted image "servicenow-ide-app-files.png"\] Alt text: Application files generated from the example code.
 
-**Parent Topic:**[Developing applications with the ServiceNow IDE](../concept/developing-applications-servicenow-ide.md)
+**Parent Topic:**[Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](../../servicenow-sdk/concept/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
 

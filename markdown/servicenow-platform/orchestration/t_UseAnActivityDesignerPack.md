@@ -2,6 +2,7 @@
 title: Use an activity pack
 description: The Packs tab of the Workflow Editor contains any activity packs downloaded from the ServiceNow Store and any activity packs that you create.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t\_UseAnActivityDesignerPack.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -31,8 +32,8 @@ You can organize custom activities into packs and upload them to the ServiceNow 
 
     The hierarchy in the tab organizes packs by vendor, scope, category, and activity.
 
-    ![Workflow activity packs tab](../image/WorkflowActivityPacks.png)
+    \[Omitted image "WorkflowActivityPacks.png"\] Alt text: Workflow activity packs tab
 
 
-**Parent Topic:**[Orchestration activity packs](../../orchestration-activities/concept/c_OrchestrationActivityPacks.md)
+**Parent Topic:**[Orchestration activity packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationActivityPacks.md)
 

@@ -2,6 +2,7 @@
 title: Now Assist for Care Team Operations
 description: Use the ServiceNowNow Assist for Care Team Operations application to create support requests in Care Team Mobile or Care Team Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/now-assist-for-healthcare-and-life-sciences.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -17,15 +18,15 @@ Use the ServiceNow®Now Assist for Care Team Operations application to create su
 
 <table id="table_z22_2ph_5hc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore the Now Assist for Care Team Operations application.](exploring-now-assist-hcls.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore the Now Assist for Care Team Operations application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/exploring-now-assist-hcls.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn how to configure the Now Assist for Care Team Operations application.](configuring-now-assist-hcls.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure the Now Assist for Care Team Operations application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/configuring-now-assist-hcls.md)
 
 </td><td>
 
-[Create support requests![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use the agentic workflow to create support requests in Care Team Mobile or Care Team Portal.](hcls-agentic-ai-use-cases.md)
+[Create support requests\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the agentic workflow to create support requests in Care Team Mobile or Care Team Portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-agentic-ai-use-cases.md)
 
 </td></tr></tbody>
 </table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).

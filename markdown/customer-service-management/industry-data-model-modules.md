@@ -2,6 +2,7 @@
 title: Service Model Foundation modules
 description: The Service Model Foundation plugins add several modules to the application navigator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/industry-data-model-modules.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,6 +2,7 @@
 title: View Now Support users
 description: As a Now Support admin, you can view active and inactive users and their roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/view-now-support-users.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,12 +29,12 @@ Role required: admin
 4.  Select **View all Users** or search for a specific user.
 
 
-**Parent Topic:**[Now Support administration](now-support-administration.md)
+**Parent Topic:**[Now Support administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-support-administration.md)
 
 **Related topics**  
 
 
-[Create a user in Now Support](create-a-user-in-now-support.md)
+[Create a user in Now Support]()
 
-[Manage user access in Now Support](manage-user-access-in-now-support.md)
+[Manage user access in Now Support]()
 

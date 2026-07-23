@@ -2,6 +2,7 @@
 title: Setting and tracking arrivals at the workplace
 description: Workplace managers can set arrival intervals in Workplace Core for different locations at your workplace with defined capacities to facilitate staggered entry of employees into the office. Employees can then choose from the defined arrival slots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/scheduling-employees-arrival-to-the-workplace-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -23,51 +24,51 @@ By setting arrival intervals for your workplace, you can facilitate employee act
 
 **Important:** Starting with Workplace Core version 2.3, time zones are introduced in the application. All the arrival schedules that were created on Workplace Core version 2.2 and earlier are deactivated after the upgrade.
 
--   **[Define arrival schedules at the workplace for employees](../task/define-arrival-intervals-at-the-workplace-for-employees.md)**  
+-   **[Define arrival schedules at the workplace for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/define-arrival-intervals-at-the-workplace-for-employees.md)**  
 Define arrival slot times in Workplace Core for different locations at your workplace and indicate the capacity for each slot. Establishing arrival schedules enables safe staggered entry of employees to these locations.
--   **[Update arrival schedules at the workplace](../task/update-arrival-entry-at-workplace-wsd.md)**  
+-   **[Update arrival schedules at the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/update-arrival-entry-at-workplace-wsd.md)**  
 Define building time zones, change the capacity of an arrival schedule, and set the schedule to active or inactive.
 
-**Parent Topic:**[Manage workplace safety activities](manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 
 
-[Import your workspaces data from an Excel spreadsheet](../task/import-excel-spreadsheet-workspace-data-wsd.md)
+[Import your workspaces data from an Excel spreadsheet]()
 
-[Add a space type configuration](../task/add-space-type-configuration-wsd.md)
+[Add a space type configuration]()
 
-[Configure a workplace card](../task/configure-workplace-card.md)
+[Configure a workplace card]()
 
-[Block a workplace location](../task/block-workplace-location.md)
+[Block a workplace location]()
 
-[Configure Workplace entity and entity types](workplace-entity.md)
+[Configure Workplace entity and entity types]()
 
-[Managing Neighborhoods](../../workplace-space-management/concept/neighborhoods.md)
+[Managing Neighborhoods]()
 
-[Enable favorites option for Workplace Service Portal](../task/confgure-favourites-option-for-ws-portal-wsd.md)
+[Enable favorites option for Workplace Service Portal]()
 
-[Create a workplace performer criteria](../task/create-workplace-performer-criteria.md)
+[Create a workplace performer criteria]()
 
-[Mapping employees to their designated workspaces](mapping-employees-to-existing-work-locations-wsd.md)
+[Mapping employees to their designated workspaces]()
 
-[Assign the workplace user role to employees](../task/assign-workplace-user-role-to-employees-of-a-location-wsd.md)
+[Assign the workplace user role to employees]()
 
-[Configuring shifts for your workplace](configuring-shifts-for-your-workplace-wsd.md)
+[Configuring shifts for your workplace]()
 
-[Managing workplace shifts that you own](managing-shifts-you-own-wsd.md)
+[Managing workplace shifts that you own]()
 
-[Managing workplace reservations for employees](managing-workplace-reservations-wsd.md)
+[Managing workplace reservations for employees]()
 
-[Approve employee workplace reservation requests](../task/approve-workplace-reservation-requests-wsd.md)
+[Approve employee workplace reservation requests]()
 
-[Managing workplace tasks](managing-workplace-maintenance-tasks.md)
+[Managing workplace tasks]()
 
-[Workplace knowledge management](workplace-knowledge-mgmt-wsd.md)
+[Workplace knowledge management]()
 
-[QR code management](qr-code-mgmt.md)
+[QR code management]()
 
-[Location migration](location-migration.md)
+[Location migration]()
 
-[View workplace service usage analytics with Usage Insights](../reference/appsee-intergration-wsd.md)
+[View workplace service usage analytics with Usage Insights]()
 

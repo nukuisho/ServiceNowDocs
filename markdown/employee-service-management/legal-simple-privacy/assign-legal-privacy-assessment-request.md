@@ -2,6 +2,7 @@
 title: Assign a privacy assessment request
 description: Assign a legal privacy assessment request to yourself or to someone in your assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-privacy/assign-legal-privacy-assessment-request.html
 release: australia
 product: Legal Simple Privacy
 classification: legal-simple-privacy
@@ -21,13 +22,13 @@ Role required: sn\_lg\_simple\_priva.privacy\_fulfiller
 
 ## About this task
 
-When an employee submits a legal request, it is automatically assigned to a group or user in the legal privacy department. The assignment is done based on the assignment rules configured for the intake form of the associated practice area. If the request is assigned to a legal group, any member from the group can triage the request themselves or assign it to another member of the group. For more information, see [Assignment rule to automatically assign legal requests or matters](../../legal-request-management/task/create-assignment-rules-intake-form.md).
+When an employee submits a legal request, it is automatically assigned to a group or user in the legal privacy department. The assignment is done based on the assignment rules configured for the intake form of the associated practice area. If the request is assigned to a legal group, any member from the group can triage the request themselves or assign it to another member of the group. For more information, see [Assignment rule to automatically assign legal requests or matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon.](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.\).
 
 3.  In the **Legal Requests** section, select **Unassigned**.
 
@@ -49,16 +50,16 @@ The state of the request updates to Assigned.
 
 ## What to do next
 
-The assigned user can start working on the legal request. For more information, see [Work on a legal request](../../legal-request-management/task/work-on-legal-request.md).
+The assigned user can start working on the legal request. For more information, see [Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md).
 
-**Parent Topic:**[Privacy assessment requests](../concept/privacy-assessment-requests.md)
+**Parent Topic:**[Privacy assessment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-privacy/privacy-assessment-requests.md)
 
 **Related topics**  
 
 
-[Submit a privacy assessment request](submit-legal-privacy-assessment-request.md)
+[Submit a privacy assessment request]()
 
-[Update a privacy assessment request](update-existing-legal-privacy-assessment-request.md)
+[Update a privacy assessment request]()
 
-[Cancel a privacy assessment request](cancel-privacy-assessment-request.md)
+[Cancel a privacy assessment request]()
 

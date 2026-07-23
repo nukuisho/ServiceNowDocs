@@ -2,6 +2,7 @@
 title: Configure error budget actions for breached SRM SLOs
 description: Configure the actions that the team can select when the error budget of a service level objective \(SLO\) is breached.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-configure-error-budget.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -30,9 +31,9 @@ Role required: srm\_admin or admin
     **Note:** Working in Workflow Studio requires advanced ServiceNow expertise. For more detailed information on editing workflows or creating custom workflows, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md).
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Customize team approval settings in SRM](sr-add-approval-teams.md)
+**Previous topic:**[Customize team approval settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-teams.md)
 
-**Next topic:**[Approve a change request for SRM](sr-approve-change-req.md)
+**Next topic:**[Approve a change request for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-approve-change-req.md)
 

@@ -2,6 +2,7 @@
 title: Highlight list fields
 description: Color fields in lists to call an agent's attention to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/highlight-list-fields-platform.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,11 +22,11 @@ Role required: admin
 
 Highlighted fields in lists appear colored and optionally, have a leading bullet.
 
-![highlight list fields](../image/highlight-list-fields.png)
+\[Omitted image "highlight-list-fields.png"\] Alt text: highlight list fields
 
 The set up involves specifying the fields that gets highlighted and the conditions that trigger the highlighting.
 
-![When records are listed from the selected Table, the selected Field is highlighted based on the conditions added in the Highlighted Value Conditions tab.](../image/highlight-reasoning.png)
+\[Omitted image "highlight-reasoning.png"\] Alt text: When records are listed from the selected Table, the selected Field is highlighted based on the conditions added in the Highlighted Value Conditions tab.
 
 You cannot highlight the following field types:
 
@@ -48,7 +49,7 @@ You cannot highlight the following field types:
 
     The **Field** value can be unrelated to the condition that triggers the highlighting. In the following example, if the **Caller** is Fred Luddy, Workspace highlights the **Priority** field, not the **Caller** field.
 
-    ![Condition and Field are different](../image/caller-fred-luddy.png)
+    \[Omitted image "caller-fred-luddy.png"\] Alt text: Condition and Field are different
 
 3.  Right-click the header and click **Save**.
 
@@ -62,8 +63,8 @@ You cannot highlight the following field types:
     |-----|-----------|
     |Conditions|Conditions that trigger the highlighting. The condition can be different from the field that gets highlighted. For example, you might highlight the **Priority** field in a record if the **Caller** in that record is Fred Luddy. A simpler example is highlighting the **Priority** field if the priority value is **critical**.|
     |Status|The highlighting color.|
-    |Show Icon|Toggle to display \(selected\) or hide the leading bullet when highlighting. ![Highlighting bullet](../image/bullet-highlighting.png)|
-    |Value Override|Text that replaces the field values from the table. If you don't supply a **Value Override**, Workspace highlights the field value from the table. If you supply a value, Workspace replaces the field value with your text and highlights that. ![Override text](../image/override-text.png)|
+    |Show Icon|Toggle to display \(selected\) or hide the leading bullet when highlighting. \[Omitted image "bullet-highlighting.png"\] Alt text: Highlighting bullet|
+    |Value Override|Text that replaces the field values from the table. If you don't supply a **Value Override**, Workspace highlights the field value from the table. If you supply a value, Workspace replaces the field value with your text and highlights that. \[Omitted image "override-text.png"\] Alt text: Override text|
     |Application|Scope of applications this highlighting pertains to.|
     |Order|The order in which to evaluate the conditions. When you have multiple conditions for highlighting the same field, they are evaluated in order from lowest to highest. If any of the conditions are True, Workspace highlights the field.|
 
@@ -71,13 +72,13 @@ You cannot highlight the following field types:
 
     In the following example, the highlighting was triggered on the **Priority** field because the priority value was critical.
 
-    ![Highlight list fields](../image/highlight-list-fields.png)
+    \[Omitted image "highlight-list-fields.png"\] Alt text: Highlight list fields
 
 7.  Click **New** on the **Highlighted Value Conditions** Related List and create another condition for highlighting the same field.
 
     For example, highlight the **Priority** field associated with the Incident table when the **Priority** value is "critical," or when the **Caller** value is "Fred Luddy." The conditions are ranked according to the **Order** value. Workspace evaluates the lowest value first.
 
-    ![Two conditions](../image/two-conditions.png)
+    \[Omitted image "two-conditions.png"\] Alt text: Two conditions
 
 8.  Remove all highlighting from a filtered list that would otherwise have highlighting.
 
@@ -98,5 +99,5 @@ You cannot highlight the following field types:
         Now, regardless of the conditions, Workspace will not highlight any fields in the specified filtered list. This option does not work, however, for filtered lists in **My Lists**, which are the filtered lists agents create.
 
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](../../field-administration/concept/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
 

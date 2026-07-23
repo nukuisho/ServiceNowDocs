@@ -2,6 +2,7 @@
 title: Reuse push notifications across mobile apps
 description: Reuse push notifications across mobile apps with Mobile App Builder \(MAB\). Push notifications are configurable pushed messages that appear directly in mobile apps. Using MAB to manage push notifications streamlines your mobile application development into one tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/add-push-notifications-mobile-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-This task describes how to reuse a push notification from one mobile app to another using MAB. For more information about MAB, see [Mobile App Builder](../concept/mab-concept.md).
+This task describes how to reuse a push notification from one mobile app to another using MAB. For more information about MAB, see [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md).
 
-To create a push notification from scratch, see [Mobile push notifications](../concept/sg-mobile-push-notifications.md).
+To create a push notification from scratch, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md).
 
 In MAB, mobile notifications aren’t tied to a specific application scope and don't change based on the application scope you’re using. You can reuse push notifications that contain workflows from other ServiceNow® mobile applications and then use MAB to update records so they point to the correct app.
 
@@ -64,17 +65,17 @@ For example, if you have a push notification configured for Now Mobile, the stan
     -   Then target them to the matching mobile push application you just added to this event.
 7.  In the menu, select the **Push notification message**.
 
-    ![Push notification message selected in the Mobile App Builder menu](../image/mab-push-notif-message.png)
+    \[Omitted image "mab-push-notif-message.png"\] Alt text: Push notification message selected in the Mobile App Builder menu
 
 8.  With **Push notification message** selected in the navigation menu, do the following:
 
     1.  If necessary, select **Edit in original scope** at the top of the form.
 
-    2.  Select the more options menu \(![More options menu icon](../image/button-more-ios.png)\).
+    2.  Select the more options menu \(\[Omitted image "button-more-ios.png"\] Alt text: More options menu icon\).
 
     3.  Then select **Duplicate**.
 
-    ![Mobile App Builder UI showing how to duplicate a push notification message.](../image/mab-duplicate-push-notif-msg.png)
+    \[Omitted image "mab-duplicate-push-notif-msg.png"\] Alt text: Mobile App Builder UI showing how to duplicate a push notification message.
 
 9.  In the Create a push notification message dialog box, select **Create**, and then select **Go to Record** in the Success! pop-up window.
 
@@ -82,7 +83,7 @@ For example, if you have a push notification configured for Now Mobile, the stan
 
     For example, if you want to reuse the push notification from the ServiceNow Agent mobile app \(ServiceNow Mobile Application\) in the Now Mobile app \(ServiceNow Request Application\), select that value in the list as shown in the following:
 
-    ![Mobile App Builder UI showing the new app being selected to reuse the push notification message.](../image/mab-push-not-msg-new-app.png)
+    \[Omitted image "mab-push-not-msg-new-app.png"\] Alt text: Mobile App Builder UI showing the new app being selected to reuse the push notification message.
 
 11. Select **Save**.
 
@@ -90,9 +91,9 @@ For example, if you have a push notification configured for Now Mobile, the stan
 
 13. On the PUSH NOTIFICATION MESSAGE CONTENT record, in the **Push application** section, select the application that you chose in the Push notification message record:
 
-    ![Mobile App Builder UI showing selection of application to reuse the push notification message content.](../image/mab-push-not-content-nuapp.png)
+    \[Omitted image "mab-push-not-content-nuapp.png"\] Alt text: Mobile App Builder UI showing selection of application to reuse the push notification message content.
 
-    **Important:** If you have any deep links in the **Push message content** script, the mobile app call used by the deep link generator must be changed to point to the application that you specified in the **Push app** field. For more information, see [Deep linking for mobile](../concept/deep-link-mobile.md).
+    **Important:** If you have any deep links in the **Push message content** script, the mobile app call used by the deep link generator must be changed to point to the application that you specified in the **Push app** field. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
 
 14. Select **Save**.
 
@@ -113,7 +114,7 @@ To verify that you have added this push notification to your mobile app, do the 
 
     If you have successfully added the event to your mobile app, you can see it in the **Push notifications** list.
 
-    ![Mobile App Builder UI showing the reused push notification has been added to the new app.](../image/mab-push-not-verification.png)
+    \[Omitted image "mab-push-not-verification.png"\] Alt text: Mobile App Builder UI showing the reused push notification has been added to the new app.
 
 
 If this event record's mobile push application matches that of an associated according to the chart below, you have completed the configuration.
@@ -123,5 +124,5 @@ If this event record's mobile push application matches that of an associated acc
 |Now Mobile®|ServiceNow Request Application|SkyNowRequestPushApp|Requestor|
 |Mobile Agent|ServiceNow Mobile Application|SkyNowPushApp|Agent|
 
-**Parent Topic:**[Mobile push notifications](../concept/sg-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
 

@@ -2,13 +2,14 @@
 title: Fulfill evidence requests through the Asset Response Guided Experience
 description: Use the Asset Response Guided Experience to fulfill and respond to evidence requests for financial regulatory audit engagements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/fulfill-evidence-requests-guided-experience.html
 release: australia
 product: Asset Audits
 classification: asset-audits
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Fulfilling evidence requests, Asset Audit Response, IT Asset Management]
+breadcrumb: [Fulfilling evidence requests, Asset Audit Response, IT Asset Management, Asset Management]
 ---
 
 # Fulfill evidence requests through the Asset Response Guided Experience
@@ -46,7 +47,7 @@ The Asset Response Guided Experience takes you through the entire process of ful
     -   Remediation Rules: Information about the remediation rules that were created for the request, including the total number of rules and the focus of each rule.
     -   Remediation Tasks: Information about the remediation tasks that were automatically generated based on the remediation rules, including the total number of tasks and the status of each task.
     -   Activity &amp; Audit Notes: Additional notes and activity logs for the request.
-    This skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md). If you choose to deactivate the skill, you must reactivate it manually. For detailed instructions, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+    This skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md). If you choose to deactivate the skill, you must reactivate it manually. For detailed instructions, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 4.  Create evidence records for the supporting information or data that you want to collect and submit for the evidence request.
 

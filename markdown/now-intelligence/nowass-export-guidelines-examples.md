@@ -2,6 +2,7 @@
 title: Export guidelines and examples
 description: In your prompts for the dashboard and visualization export skill, you can describe the export you want with a variable amount of detail. You are prompted for any necessary information that is missing. Before the export runs, you are asked to review the request, giving you a chance to change any options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/nowass-export-guidelines-examples.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Export dashboards and visualizations, Platform Analytics in the Now
 
 In your prompts for the dashboard and visualization export skill, you can describe the export you want with a variable amount of detail. You are prompted for any necessary information that is missing. Before the export runs, you are asked to review the request, giving you a chance to change any options.
 
-![Prompt to review a request to export a dashboard.](../../../administer/now-assist-platform/images/export-request-review.png "Export request review")
+\[Omitted image "export-request-review.png"\] Alt text: Prompt to review a request to export a dashboard.
 
 Here are some example requests with different levels of detail, to use in different circumstances:
 
@@ -29,7 +30,7 @@ Here are some example requests with different levels of detail, to use in differ
 
     As there are several dashboards with Usage Overview in the name, you are asked which one to export.
 
-    ![Prompt to select from several dashboards with names similar to the name in the request.](../../../administer/now-assist-platform/images/export-dboard-same-name.png)
+    \[Omitted image "export-dboard-same-name.png"\] Alt text: Prompt to select from several dashboards with names similar to the name in the request.
 
 -   **Export to PowerPoint the Reports Usage tab of the Analytics Usage Overview dashboard**
 
@@ -40,14 +41,14 @@ Here are some example requests with different levels of detail, to use in differ
     In this case, you export the open dashboard and apply any filters on the dashboard as a whole and on any tabs. If you export a dashboard tab with applied filters, you apply only the top-level dashboard filters and the filters on that tab. You can apply filters only when exporting to PowerPoint.
 
 
-**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](../task/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 
 
-[Supported export output types](nowass-supported-export-output.md)
+[Supported export output types]()
 
-[Export destinations](nowass-export-destinations.md)
+[Export destinations]()
 
-[Limitations for exporting dashboards and visualizations](limitations-exporting-db-dv.md)
+[Limitations for exporting dashboards and visualizations]()
 

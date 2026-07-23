@@ -2,6 +2,7 @@
 title: Viewing Outbound Intelligence
 description: Use this section to view all outbound intelligence sharing records. Review the intelligence data and take necessary actions to approve or reject them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-view-outbound-intel.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -57,12 +58,12 @@ Role required: sn\_sec\_tisc.analyst
 9.  Additionally, select **Reject** button if you need to reject the outbound sharing intelligence.
 
 
-**Parent Topic:**[Viewing Threat Intelligence External Sharing](../concept/tisc-intel-sharing-module.md)
+**Parent Topic:**[Viewing Threat Intelligence External Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-intel-sharing-module.md)
 
 **Related topics**  
 
 
-[Viewing Inbound Intelligence](tisc-view-inbound-intel.md)
+[Viewing Inbound Intelligence]()
 
-[Viewing TAXII Collections](tisc-view-taxii-collections.md)
+[Viewing TAXII Collections]()
 

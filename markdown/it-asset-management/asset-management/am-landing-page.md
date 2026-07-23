@@ -1,29 +1,30 @@
 ---
-title: Asset Management
-description: The Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Asset Management focuses on the financial tracking of company property.
+title: Base Asset Management
+description: The Base Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Base Asset Management focuses on the financial tracking of company property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/am-landing-page.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [IT Asset Management]
+breadcrumb: [Common applications, Asset Management]
 ---
 
-# Asset Management
+# Base Asset Management
 
-The Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Asset Management focuses on the financial tracking of company property.
+The Base Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Base Asset Management focuses on the financial tracking of company property.
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn the key features and business value that the Asset Management offers.](../concept/exploring-asset-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the key features and business value that the Asset Management offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/exploring-asset-management.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-manage.svg)Use the Asset Management to efficiently manage your assets.](../concept/using-asset-management.md)
+[Use \[Omitted image "bus-manage.svg"\] Alt text:Use the Asset Management to efficiently manage your assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/using-asset-management.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

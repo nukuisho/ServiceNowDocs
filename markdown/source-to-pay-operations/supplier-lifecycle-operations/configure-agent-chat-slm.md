@@ -2,6 +2,7 @@
 title: Configure Agent Chat for Source-to-Pay Workspace
 description: Use Agent Chat Settings to configure Agent Chat for Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/configure-agent-chat-slm.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -26,24 +27,28 @@ Role required: admin
 2.  In the User Experience - Chat settings section, do the following:
 
     1.  Swipe the **Agent names and avatars** toggle switch to the right to enable this option.
-    2.  Swipe the **Transcripts** toggle switch to the right to enable the requesters to download a transcript of the conversation they had with an agent. For more information, see [Chat transcript downloads for requesters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-chat-transcripts.md).
+    2.  Swipe the **Transcripts** toggle switch to the right to enable the requesters to download a transcript of the conversation they had with an agent. For more information, see [Chat transcript downloads for requesters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-chat-transcripts.md).
 3.  In the User Experience - Statuses section, from the Live chat wait status drop-down list, select **Wait Time**.
 
 4.  In the Configurable Toolbar Controls section, select **View All**.
 
     The Quick Action Toolbar Controls is displayed.
 
-    Add or update the quick action shortcuts for live agents in the Agent Chat. For more information about configuring the toolbar controls, see [Setting up quick action toolbar controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-quick-actions-overview.md).
+    Add or update the quick action shortcuts for live agents in the Agent Chat. For more information about configuring the toolbar controls, see [Setting up quick action toolbar controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-quick-actions-overview.md).
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Setting up Advanced Work Assignment for Supplier Lifecycle Operations](../concept/awa-slm-config.md)
+## Result
+
+After Agent Chat for Source-to-Pay Workspace is configured, chat routing is not active until AWA is also configured.
+
+**Parent Topic:**[Setting up Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/awa-slm-config.md)
 
 **Related topics**  
 
 
-[Configure Advanced Work Assignment for Supplier Lifecycle Operations](setup-awa-slm.md)
+[Configure Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/setup-awa-slm.md)
 
-[Configure the Supplier Collaboration Queue](configure-scp-queue.md)
+[Configure the Supplier Collaboration Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-scp-queue.md)
 

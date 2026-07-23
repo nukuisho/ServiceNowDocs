@@ -2,6 +2,7 @@
 title: Customize the incident record page
 description: You can customize the Overview tab and the contextual side panel for an incident.Modify the Overview tab of an incident record page to display the summary and other information of the incident for an agent.Modify the Investigation tab of an incident record page.Customize the Remedial action playbook displayed on the contextual side panel of an incident record page.Modify the incident record information displayed on the contextual side panel of an incident record page.Configure the display of service level agreement \(SLA\) information in the incident record page.Enable quick updates for field values in a list in Service Operations Workspace.Customize on how the CI related metrics information is displayed on the Investigate tab of the Incident record.Configure the collection rules and map the rules to the metric definitions in the Investigate Framework module. This configuration enables you to define when the CI related metrics information is automatically retrieved on the Investigate tab of the Incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-the-incident-record-page.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -15,14 +16,14 @@ breadcrumb: [Customizing Service Operations Workspace for ITSM to align with you
 
 You can customize the **Overview** tab and the contextual side panel for an incident.
 
-**Parent Topic:**[Customizing Service Operations Workspace for ITSM to align with your requirements](customize-sow-landing-page.md)
+**Parent Topic:**[Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-sow-landing-page.md)
 
 **Related topics**  
 
 
-[Create a copy of the Service Operations Workspace landing page](../task/create-copy-sow-landing-page.md)
+[Create a copy of the Service Operations Workspace landing page]()
 
-[Customize Service Operations Workspace landing page](../task/configure-service-operations-workspace-landing-page.md)
+[Customize Service Operations Workspace landing page]()
 
 ## Customize the Overview tab for an incident
 
@@ -54,31 +55,41 @@ For advanced customization of the **Overview** tab with SRP record, use the foll
 
 4.  Under **Contents** in the **Body** level, select **Main Tab**.
 
-    ![Callout for the location of the Main Tab option in SRP record.](../image/SRP_Main_tab_SOW_edit.png "Main Tab")
+    \[Omitted image "SRP\_Main\_tab\_SOW\_edit.png"\] Alt text: Callout for the location of the Main Tab option in SRP record.
 
     If the new copy is in a different application scope, select **Edit in original scope** before you start editing.
 
-5.  In the Config section under Tabs, point to the **Page Collection SOW - Record tabs left** tab and select the Edit content icon \(![Edit content icon.](../image/SRP_Edit_overviewpage_left_icon.png)\).
+5.  In the Config section under Tabs, point to the **Page Collection SOW - Record tabs left** tab and select the Edit content icon \(\[Omitted image "SRP\_Edit\_overviewpage\_left\_icon.png"\] Alt text: Edit content icon.\).
 
-    ![Callout for the location of the Page collection tile called SOW - Record tabs on the Overview tab.](../image/SRP_page_collection_tabs_left.png)
+    \[Omitted image "SRP\_page\_collection\_tabs\_left.png"\] Alt text: Callout for the location of the Page collection tile called SOW - Record tabs on the Overview tab.
 
-6.  Under **Overview**, point to the **Incident Overview SNC** variant and select the options icon \(![Options icon.](../image/options-variant.png)\).
+6.  Under **Overview**, point to the **Incident Overview SNC** variant and select the options icon \(\[Omitted image "options-variant.png"\] Alt text: Options icon.\).
 
-7.  Select the duplicate variant icon \(![Duplicate variant icon.](../image/duplicate-variant.png)\).
+7.  **Note:** Before you customize the **Overview** tab, duplicate the Service Record Page \(SRP\) variant. If a scoped application is active, the original SRP is read-only. To duplicate the variant, go to the **Tabs** menu and select **Page Collections,** and then select **Duplicate** on the relevant variant record.
+
+8.  Before making any changes, duplicate the SRP variant by performing the following steps:
+
+    1.  Navigate to **All** &gt; **Service Operations Workspace** &gt; **Administration** &gt; **Page Collections.**
+
+    2.  Select **Duplicate** on the incident record page variant.
+
+        Working on a duplicate allows you to make changes safely while the original SRP remains unchanged. You can use it as a backup if required.
+
+9.  Select the duplicate variant icon \(\[Omitted image "duplicate-variant.png"\] Alt text: Duplicate variant icon.\).
 
     The Variant creation page is displayed.
 
-8.  Enter the Name as `Incident Overview SNC Copy`.
+10. Enter the Name as `Incident Overview SNC Copy`.
 
     An error is displayed for the **Conditions** field.
 
-    ![Error displayed for conditions.](../image/SRP_page_condition_error.png)
+    \[Omitted image "SRP\_page\_condition\_error.png"\] Alt text: Error displayed for conditions.
 
-9.  Resolve this error by performing the following steps:
+11. Resolve this error by performing the following steps:
 
     1.  Close the Variant creation page.
 
-    2.  Under **Overview**, point to the **Incident Overview SNC** variant, select the options icon \(![Options icon.](../image/options-variant.png)\), then select **View settings**.
+    2.  Under **Overview**, point to the **Incident Overview SNC** variant, select the options icon \(\[Omitted image "options-variant.png"\] Alt text: Options icon.\), then select **View settings**.
 
     3.  Select **Open records**, then select **Variant record**.
 
@@ -100,25 +111,25 @@ For advanced customization of the **Overview** tab with SRP record, use the foll
 
     9.  Select **Save** and close the record.
 
-10. On the Variant creation page, select the **Settings** tab.
+12. On the Variant creation page, select the **Settings** tab.
 
     If the new copy is in a different application scope, select **Edit in original scope** before you start editing.
 
-11. Edit the **Order** value to modify the display order of the variants,
+13. Edit the **Order** value to modify the display order of the variants,
 
     The variant with the lowest number is the default configuration.
 
-12. Add the criteria to display a page or tab in **Variant conditions**.
+14. Add the criteria to display a page or tab in **Variant conditions**.
 
-13. Select **Save**.
+15. Select **Save**.
 
-14. Select the **Editor** tab to start editing the page components for customizing the **Overview** tab.
+16. Select the **Editor** tab to start editing the page components for customizing the **Overview** tab.
 
     1.  Select the **Body** level of the **Content** tree next to the main page area of UI Builder.
 
     2.  Edit the page by configuring components as required.
 
-    For more information on working with pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+    For more information on working with pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md).
 
 
 ## Customize the Investigation tab for an incident
@@ -143,17 +154,17 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
 4.  Under **Contents** in the **Body** level, select **Main Tab**.
 
-    ![Callout for the location of the Main Tab option in SRP record](../image/SRP_Main_tab_SOW_edit.png "Main Tab")
+    \[Omitted image "SRP\_Main\_tab\_SOW\_edit.png"\] Alt text: Callout for the location of the Main Tab option in SRP record
 
 5.  If the new copy is in a different application scope, select the **Edit in original scope** button before you start editing.
 
-6.  In the Config section under Tabs, point to the **Page Collection SOW - Record tabs left** tab and select the Edit content \(![Edit content icon](../image/SRP_Edit_overviewpage_left_icon.png)\) icon.
+6.  In the Config section under Tabs, point to the **Page Collection SOW - Record tabs left** tab and select the Edit content \(\[Omitted image "SRP\_Edit\_overviewpage\_left\_icon.png"\] Alt text: Edit content icon\) icon.
 
-    ![Callout for the location of the Page collection tile called SOW - Record tabs for the leftside on the Overview tab](../image/SRP_page_collection_tabs_left.png)
+    \[Omitted image "SRP\_page\_collection\_tabs\_left.png"\] Alt text: Callout for the location of the Page collection tile called SOW - Record tabs for the leftside on the Overview tab
 
-7.  Under **Investigation**, point to **SOW Investigate SNC** variant and select the options \(![options icon](../image/options-variant.png)\) icon.
+7.  Under **Investigation**, point to **SOW Investigate SNC** variant and select the options \(\[Omitted image "options-variant.png"\] Alt text: options icon\) icon.
 
-8.  Select the **Duplicate variant** icon \(![Duplicate icon](../image/duplicate-variant.png)\).
+8.  Select the **Duplicate variant** icon \(\[Omitted image "duplicate-variant.png"\] Alt text: Duplicate icon\).
 
     The Variant creation page is displayed.
 
@@ -161,13 +172,13 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     An error is displayed for the **Conditions** field.
 
-    ![Error displayed for conditions](../image/SRP_page_condition_error.png)
+    \[Omitted image "SRP\_page\_condition\_error.png"\] Alt text: Error displayed for conditions
 
 10. To resolve this error, perform the following steps:
 
     1.  Close the Variant creation page.
 
-    2.  Under **Investigation**, point to **SOW Investigate SNC** variant, select the options icon \(![options icon](../image/options-variant.png)\), and then select **View settings**.
+    2.  Under **Investigation**, point to **SOW Investigate SNC** variant, select the options icon \(\[Omitted image "options-variant.png"\] Alt text: options icon\), and then select **View settings**.
 
     3.  Select **Open records** and then select **Variant record**.
 
@@ -207,7 +218,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     2.  Edit the page by configuring components as required.
 
-    For more information on working with pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+    For more information on working with pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md).
 
 
 ## Customize the Remedial action playbook for an incident
@@ -232,17 +243,17 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
 4.  Under **Contents** in the **Body** level, select **Tab sidebar**.
 
-    ![Callout for the location of Tab sidebar view](../image/SRP_tab_sidebar.png "Tab sidebar")
+    \[Omitted image "SRP\_tab\_sidebar.png"\] Alt text: Callout for the location of Tab sidebar view
 
 5.  If the new copy is in a different application scope, select the **Edit in original scope** button before you start editing.
 
-6.  In the Config section under Tabs, point to the **Page Collection SOW - Sidebar tabs top** tab and select the Edit content \(![Edit content icon](../image/SRP_Edit_overviewpage_left_icon.png)\) icon.
+6.  In the Config section under Tabs, point to the **Page Collection SOW - Sidebar tabs top** tab and select the Edit content \(\[Omitted image "SRP\_Edit\_overviewpage\_left\_icon.png"\] Alt text: Edit content icon\) icon.
 
-    ![Callout for the location of the Page collection SOW sidebar tabs top on the Tab sidebar](../image/SRP_page_collection_sidebar_top.png)
+    \[Omitted image "SRP\_page\_collection\_sidebar\_top.png"\] Alt text: Callout for the location of the Page collection SOW sidebar tabs top on the Tab sidebar
 
-7.  Under **Playbook**, point to **Playbook SNC** variant and select the options icon \(![options icon](../image/options-variant.png)\).
+7.  Under **Playbook**, point to **Playbook SNC** variant and select the options icon \(\[Omitted image "options-variant.png"\] Alt text: options icon\).
 
-8.  Select the **Duplicate variant** icon \(![Duplicate icon](../image/duplicate-variant.png)\).
+8.  Select the **Duplicate variant** icon \(\[Omitted image "duplicate-variant.png"\] Alt text: Duplicate icon\).
 
     The Variant creation page is displayed.
 
@@ -250,13 +261,13 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     An error is displayed for the **Conditions** field.
 
-    ![Error displayed for conditions](../image/SRP_page_condition_error.png)
+    \[Omitted image "SRP\_page\_condition\_error.png"\] Alt text: Error displayed for conditions
 
 10. To resolve this error, perform the following steps:
 
     1.  Close the Variant creation page.
 
-    2.  Under **Playbook**, point to **Playbook SNC** variant, select the options icon \(![options icon](../image/options-variant.png)\), and then select **View settings**.
+    2.  Under **Playbook**, point to **Playbook SNC** variant, select the options icon \(\[Omitted image "options-variant.png"\] Alt text: options icon\), and then select **View settings**.
 
     3.  Select **Open records** and then select **Variant record**.
 
@@ -296,7 +307,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     2.  Edit the page by configuring components as required.
 
-    For information on working with pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+    For information on working with pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md).
 
 
 ## Customize the incident record information in the contextual side panel
@@ -321,17 +332,17 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
 4.  Under **Contents**, in the **Body** level, select **Tab sidebar**.
 
-    ![Callout for the location of the Tab sidebar view.](../image/SRP_tab_sidebar.png "Tab sidebar")
+    \[Omitted image "SRP\_tab\_sidebar.png"\] Alt text: Callout for the location of the Tab sidebar view.
 
     If the new copy is in a different application scope, select **Edit in original scope** before you start editing.
 
-5.  In the Config section under Tabs, point to the **Page Collection SOW - Sidebar tabs top** tab and select the edit content icon \(![Edit content icon.](../image/SRP_Edit_overviewpage_left_icon.png)\).
+5.  In the Config section under Tabs, point to the **Page Collection SOW - Sidebar tabs top** tab and select the edit content icon \(\[Omitted image "SRP\_Edit\_overviewpage\_left\_icon.png"\] Alt text: Edit content icon.\).
 
-    ![Callout for the location of the Page collection SOW sidebar tabs top view in the Tab sidebar.](../image/SRP_page_collection_sidebar_top.png)
+    \[Omitted image "SRP\_page\_collection\_sidebar\_top.png"\] Alt text: Callout for the location of the Page collection SOW sidebar tabs top view in the Tab sidebar.
 
-6.  Under **Record Information**, point to the **Record Information SNC** variant and select the options icon \(![Options icon.](../image/options-variant.png)\).
+6.  Under **Record Information**, point to the **Record Information SNC** variant and select the options icon \(\[Omitted image "options-variant.png"\] Alt text: Options icon.\).
 
-7.  Select the duplicate variant icon \(![Duplicate variant icon.](../image/duplicate-variant.png)\).
+7.  Select the duplicate variant icon \(\[Omitted image "duplicate-variant.png"\] Alt text: Duplicate variant icon.\).
 
     The Variant creation page is displayed.
 
@@ -339,13 +350,13 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     An error is displayed for the **Conditions** field.
 
-    ![Error displayed for conditions.](../image/SRP_page_condition_error.png)
+    \[Omitted image "SRP\_page\_condition\_error.png"\] Alt text: Error displayed for conditions.
 
 9.  To resolve this error, perform the following steps:
 
     1.  Close the Variant creation page.
 
-    2.  Under **Record Information**, point to the **Record Information SNC** variant, select the options icon \(![Options icon,](../image/options-variant.png)\), and then select **View settings**.
+    2.  Under **Record Information**, point to the **Record Information SNC** variant, select the options icon \(\[Omitted image "options-variant.png"\] Alt text: Options icon,\), and then select **View settings**.
 
     3.  Select **Open records** then select **Variant record**.
 
@@ -385,7 +396,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     2.  Edit the page by configuring components as required.
 
-    For information on working with pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+    For information on working with pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md).
 
 
 ## Customize the display of service level agreements for an incident
@@ -401,7 +412,7 @@ The following SLA timer configurations display the response and resolution SLA f
 -   Incident Response
 -   Incident Resolution
 
-You should configure SLA timer configuration mappings for these timer configurations. For information on how you can configure these mappings, see [Configure the SLA timer](../../service-level-management/task/sla-timer-configurations.md).
+You should configure SLA timer configuration mappings for these timer configurations. For information on how you can configure these mappings, see [Configure the SLA timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-timer-configurations.md).
 
 ### Procedure
 
@@ -428,7 +439,7 @@ You should configure SLA timer configuration mappings for these timer configurat
         },
     ```
 
-    For information about how the SLA information is displayed for an incident, see [View service level agreement information for an incident](slm-sow.md#).
+    For information about how the SLA information is displayed for an incident, see [View service level agreement information for an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/slm-sow.md).
 
 
 ## Enable inline editing for lists in Service Operations Workspace
@@ -483,7 +494,7 @@ Use this task to customize and configure the **Investigate** tab of the Incident
 
     For example, refer the screen shot for sn\_sow.SOWInvestigateConfig script include record.
 
-    ![sn_sow.SOWInvestigateConfig script includes record](../image/script_includes_sowinvestigate.png)
+    \[Omitted image "script\_includes\_sowinvestigate.png"\] Alt text: sn\_sow.SOWInvestigateConfig script includes record
 
 5.  In the **Script** field, paste the required function and edit to customize the UI elements that are displayed on the different sections of the **Investigate** tab.
 
@@ -503,7 +514,7 @@ Use this task to customize and configure the **Investigate** tab of the Incident
     -   **sn\_mecm\_adapter.MecmTransformUtils** for Microsoft Endpoint Configuration Manager for Investigation \(MECM\).
     For example, refer the screen shot for sn\_acc\_adapter.AccTransformUtils script include record.
 
-    ![sn_acc_adapter.AccTransformUtils script includes record](../image/script_includes_acctransform.png)
+    \[Omitted image "script\_includes\_acctransform.png"\] Alt text: sn\_acc\_adapter.AccTransformUtils script includes record
 
 10. In the **Script** field, paste and edit the script to configure the display of the metrics information on the customized UI of the **Investigate** tab.
 
@@ -514,7 +525,7 @@ Use this task to customize and configure the **Investigate** tab of the Incident
 
 ### What to do next
 
-On the **Investigate** tab of the Incident record in the Service Operations Workspace, click the get latest metrics icon \(![get latest matrix refresh](../image/get-latest-matrix.png)\) to refresh and view the customizations. For more information, see [Incident Management in Service Operations Workspace](incident-sow.md).
+On the **Investigate** tab of the Incident record in the Service Operations Workspace, click the get latest metrics icon \(\[Omitted image "get-latest-matrix.png"\] Alt text: get latest matrix refresh\) to refresh and view the customizations. For more information, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md).
 
 ## Configure the collection rules for the Investigate tab
 
@@ -522,9 +533,9 @@ Configure the collection rules and map the rules to the metric definitions in th
 
 ### Before you begin
 
-Agent Client Collector for Investigation \(sn\_acc\_adapter\) and Investigation Framework \(sn\_invest\_fwk\) must be installed on the instance to view the Investigate Framework module. For more information, see [Install Agent Client Collector for Investigation](../task/install-acc-adapter.md).
+Agent Client Collector for Investigation \(sn\_acc\_adapter\) and Investigation Framework \(sn\_invest\_fwk\) must be installed on the instance to view the Investigate Framework module. For more information, see [Install Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/install-acc-adapter.md).
 
-The Agent Client Collector framework \(sn\_agent\) plugin must be installed on the instance, and Agent Client Collector must be installed to the affected CI. These installations are required to view the **Investigate** tab on the Incident record and the CI related metrics information displayed on the **Investigate** tab of the Incident record. For more information on the Agent Client Collector framework plugin and the installation, see  and [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-installation.md).
+The Agent Client Collector framework \(sn\_agent\) plugin must be installed on the instance, and Agent Client Collector must be installed to the affected CI. These installations are required to view the **Investigate** tab on the Incident record and the CI related metrics information displayed on the **Investigate** tab of the Incident record. For more information on the Agent Client Collector framework plugin and the installation, see [Exploring Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-agent-client-collector.md) and [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/acc-installation.md).
 
 Role required: sn\_cimaf.sn\_cimaf\_admin or sn\_invest\_fwk.sn\_investigate\_admin
 

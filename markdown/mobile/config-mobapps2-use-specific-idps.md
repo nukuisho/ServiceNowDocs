@@ -2,6 +2,7 @@
 title: Configure mobile apps to use specific identity providers
 description: You can configure a login experience that is specific to a mobile app and different from the web login experience. For example, Now Mobile app users can be automatically redirected to an identity provider \(IdP\) that is different from the IdP that is defined for the web session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/config-mobapps2-use-specific-idps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ Admins can define the login experience for mobile users by associating app-speci
 
 3.  In the **Login URL** field of the Application Registries page, enter the login URL you want to use for this mobile app.
 
-    ![Application Registries screen showing the Login URL field.](../image/mob-auth-redirect-idp-provider.png)
+    \[Omitted image "mob-auth-redirect-idp-provider.png"\] Alt text: Application Registries screen showing the Login URL field.
 
     For example, enter:
 
@@ -51,7 +52,7 @@ Admins can define the login experience for mobile users by associating app-speci
 
         This login URL displays the ServiceNow SSO login screen where users can enter their email or user ID.
 
-        ![ServiceNow SSO login page on a mobile app screen.](../image/mob-auth-servicenow-sso-login.png)
+        \[Omitted image "mob-auth-servicenow-sso-login.png"\] Alt text: ServiceNow SSO login page on a mobile app screen.
 
     You can also enter the login URL for a custom login page.
 
@@ -67,11 +68,11 @@ Admins can define the login experience for mobile users by associating app-speci
     2.  In the Identity Providers page, select the IdP provider.
     3.  On the IdP provider page, right-click the page banner, and select **Copy sys\_id**.
 
-        ![Right-click menu showing the option to copy the IdP's sys_id.](../image/mob-auth-redirect-copy-idp-sysid.png)
+        \[Omitted image "mob-auth-redirect-copy-idp-sysid.png"\] Alt text: Right-click menu showing the option to copy the IdP's sys\_id.
 
     If a valid IdP sys\_id isn’t provided, the OAuth client login URL value can't be saved.
 
-    For information about configuring an external IdP on your instance, see [Create an external identity provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateUpdateIdentityProvider.md).
+    For information about configuring an external IdP on your instance, see [Create an external identity provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateUpdateIdentityProvider.md).
 
 4.  Select **Update** to save the entry.
 
@@ -82,5 +83,5 @@ Open the mobile app on a mobile device and select the instance. You should be re
 
 **Note:** If **login\_locate\_sso.do** was saved as the Login URL and no default IdP is configured or the **sso\_source** for the user isn’t set, then an error displays when the user name is entered. This behavior is similar to web UI behavior.
 
-**Parent Topic:**[Mobile authentication](../concept/mobile-authentication.md)
+**Parent Topic:**[Mobile authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-authentication.md)
 

@@ -2,6 +2,7 @@
 title: Configure the arbitration parameters in Recommended Actions
 description: Configure the recommended actions by the frequency of issues or by the order of priority so that your agents get the guidance that they must help resolve customer issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-nba-arbitration-param.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,13 +2,14 @@
 title: Configure virtual meeting providers
 description: Enable employees to provide a virtual meeting link with their reservation. Configure the virtual meeting providers so that the virtual meeting link of that provider is automatically generated when the employee makes a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/configure-virtual-meeting-providers.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure virtual meeting providers
@@ -19,8 +20,8 @@ Enable employees to provide a virtual meeting link with their reservation. Confi
 
 The Workplace Reservation Management application provides the **Template** virtual meeting provider by default. The following virtual meeting providers are also supported if they are configured:
 
--   Microsoft Teams: Refer to [Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md). Microsoft Teams.
--   Zoom: To use Zoom, you must have a Zoom user account. Refer to [Connect Workplace Reservation Management with Zoom](connect-rsv-mtm-with-zoom.md).
+-   Microsoft Teams: Refer to [Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md). Microsoft Teams.
+-   Zoom: To use Zoom, you must have a Zoom user account. Refer to [Connect Workplace Reservation Management with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mtm-with-zoom.md).
 
     **Warning:** The Zoom spoke version 3.0.0 is not supported. Only the Zoom spoke versions 3.0.3 and later are supported.
 
@@ -39,7 +40,7 @@ To configure a virtual meeting provider, you must have the following flows alrea
 -   Update meeting
 -   Get recording
 
-For more information on how to create a flow, refer to [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+For more information on how to create a flow, refer to [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
 
 Role required: sn\_wsd\_rsv.admin
 
@@ -76,7 +77,7 @@ The virtual meeting provider is added. To enable employees to add a virtual meet
 -   Zoom: If a Zoom meeting link is added, the link appears in the **Location** field of the email containing the meeting invite.
 -   Microsoft Teams: When a reservation is created with a virtual meeting link, the application retrieves the meeting link and the joining-related details and saves them on the reservation record. When this reservation is synchronized with Microsoft Outlook calendar, the meeting link and the joining-related details are added to the body of the calendar event. Similarly, when a reservation is created in the Microsoft Outlook calendar using the **Teams meeting** toggle button, the meeting link is retrieved and saved as a virtual meeting link on the reservation record.
 
-    **Note:** As the meeting link appears in the body of the email, in any case, if you want to update or change the meeting details, you must do it only using the Workplace Reservation Management. Because when a reservation synchronization is performed, the details \(in this case, the meeting link and details\) are synchronized only in one way, that is, from Workplace Reservation Management to the calendar provider\(in this case Microsoft Teams\). If you already made any changes to the meeting details or the notes from the calendar provider, it is overwritten by Workplace Reservation Management when a synchronization is performed. For more information, refer to [Explore Workplace Calendar Synchronization](../../workplace-calendar-synchronization/concept/workplace-calendar-synchronization-overview.md).
+    **Note:** As the meeting link appears in the body of the email, in any case, if you want to update or change the meeting details, you must do it only using the Workplace Reservation Management. Because when a reservation synchronization is performed, the details \(in this case, the meeting link and details\) are synchronized only in one way, that is, from Workplace Reservation Management to the calendar provider\(in this case Microsoft Teams\). If you already made any changes to the meeting details or the notes from the calendar provider, it is overwritten by Workplace Reservation Management when a synchronization is performed. For more information, refer to [Explore Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-overview.md).
 
 -   **Any other virtual meeting providers**: The meeting link is added in the **Location** field of the email containing the meeting invite.
 
@@ -86,48 +87,48 @@ For the meeting link to appear as above, the following plugin versions are requi
 -   Microsoft Teams Communications spoke version 1.3.0 and later.
 -   Latest version of Workplace Reservation Management application.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](../concept/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Reservation Management](install-wsd-reservation-mgmt.md)
+[Install Workplace Reservation Management]()
 
-[Add a workplace space for reservation](add-reservable-items.md)
+[Add a workplace space for reservation]()
 
-[Add a workplace room for reservation](add-workplace-rooms.md)
+[Add a workplace room for reservation]()
 
-[Configure a reservable module](config-reservable-module.md)
+[Configure a reservable module]()
 
-[Assign spaces to an area](add-neighbourhood-spaces-to-an-area.md)
+[Assign spaces to an area]()
 
-[Create a standard service](add-standard-services.md)
+[Create a standard service]()
 
-[Create a flexible service](add-flexible-service.md)
+[Create a flexible service]()
 
-[Create a workplace service to provide an extra service for a reservation](create-workplace-service-to-provide-extra-service.md)
+[Create a workplace service to provide an extra service for a reservation]()
 
-[Create a reservable view](create-a-reservable-view.md)
+[Create a reservable view]()
 
-[Create a user criteria record](create-user-criteria.md)
+[Create a user criteria record]()
 
-[Configure a reservable purpose](configure-reservable-purpose.md)
+[Configure a reservable purpose]()
 
-[Create a quick reservation time slot](add-reservable-time-slots.md)
+[Create a quick reservation time slot]()
 
-[Configure Microsoft Teams as virtual meeting provider](configure-msteams-as-virtual-meeting-provider.md)
+[Configure Microsoft Teams as virtual meeting provider]()
 
-[Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md)
+[Connect Workplace Reservation Management with Microsoft Teams]()
 
-[Connect Workplace Reservation Management with Zoom](connect-rsv-mtm-with-zoom.md)
+[Connect Workplace Reservation Management with Zoom]()
 
-[Display permanent seat assignments on floor maps](display-permanent-seats-on-maps.md)
+[Display permanent seat assignments on floor maps]()
 
-[Display name of the person reserving a space](displayname-person-booking-rsv.md)
+[Display name of the person reserving a space]()
 
-[Manage check-in and check-out reservations](../concept/check-in-check-out-process.md)
+[Manage check-in and check-out reservations]()
 
-[Configure automatic check-in for reserved spaces](../concept/configure-rsv-check-in.md)
+[Configure automatic check-in for reserved spaces]()
 
-[Configure reservation multi-day settings in Reservable Module](../concept/rsv-config-rsv-mod-value.md)
+[Configure reservation multi-day settings in Reservable Module]()
 

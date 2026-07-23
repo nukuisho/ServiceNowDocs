@@ -2,6 +2,7 @@
 title: Edit an event
 description: Edit the details of past and upcoming events. By editing a past event, you can attach a document or share the meeting recording link with your event subscribers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/edit-event.html
 release: australia
 product: Communities
 classification: communities
@@ -23,7 +24,7 @@ Role required: sn\_communities.community\_user, sn\_communities.moderation\_admi
 
 1.  Search for an event that you want to modify.
 
-2.  Click the More Options icon \(![More Options.](../images/moreoptions-icon.png)\) and then click **Edit**.
+2.  Click the More Options icon \(\[Omitted image "moreoptions-icon.png"\] Alt text: More Options.\) and then click **Edit**.
 
 3.  On the form, edit the fields as required.
 
@@ -220,15 +221,15 @@ No
 </td></tr></tbody>
 </table>4.  Perform one of the following actions.
 
-<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d267348e366">
+<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d275440e366">
 
 To
 
-</th><th align="left" id="d267348e369">
+</th><th align="left" id="d275440e369">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d267348e375">
+</th></tr></thead><tbody><tr><td id="d275440e375">
 
 **Save**
 
@@ -236,7 +237,7 @@ Do this
 
 To save the details, click **Save**.
 
-</td></tr><tr><td id="d267348e387">
+</td></tr><tr><td id="d275440e387">
 
 **Schedule**
 
@@ -244,7 +245,7 @@ To save the details, click **Save**.
 
 To publish an event on the specified date, click **Schedule**. **Note:** This option appears for a draft event that the**Schedule Publish** check box is selected for.
 
-</td></tr><tr><td id="d267348e405">
+</td></tr><tr><td id="d275440e405">
 
 **Publish**
 
@@ -254,12 +255,12 @@ To publish an event draft, click **Publish**. As an author, you can edit or dele
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Community events](community-events.md)
+**Parent Topic:**[Community events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-events.md)
 
 **Related topics**  
 
 
-[Post a community event](create-event.md)
+[Post a community event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-event.md)
 
-[Disable comments](disable-comments.md)
+[Disable comments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/disable-comments.md)
 

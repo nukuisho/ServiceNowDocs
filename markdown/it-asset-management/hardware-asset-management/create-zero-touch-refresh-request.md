@@ -2,13 +2,14 @@
 title: Request a hardware asset refresh through Zero Touch Refresh
 description: Request to replace a hardware asset that you own with a new asset directly with the provider through Zero Touch Refresh.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-zero-touch-refresh-request.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request a hardware asset refresh through Zero Touch Refresh
@@ -56,15 +57,15 @@ Asset model with which you want to replace the hardware asset.The list shows the
 </td></tr></tbody>
 </table>4.  Determine where the replacement asset should be sent.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d293962e143">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d333060e154">
 
 Shipping location
 
-</th><th align="left" id="d293962e146">
+</th><th align="left" id="d333060e157">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d293962e152">
+</th></tr></thead><tbody><tr><td id="d333060e163">
 
 **Your location**
 
@@ -72,7 +73,7 @@ Action
 
 In the **Refresh method** field, select **Ship**.**Note:** The form shows your contact details such as your address and phone number. You can change your contact details if necessary.
 
-</td></tr><tr><td id="d293962e169">
+</td></tr><tr><td id="d333060e180">
 
 **Stockroom**
 
@@ -95,18 +96,18 @@ In the **Refresh method** field, select **Ship**.**Note:** The form shows your c
 
 Your Zero Touch Refresh request is successfully submitted.
 
-**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](../concept/refresh-hardware-uisng-ztr.md)
+**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
 
 **Related topics**  
 
 
-[Configure replacement models for a refresh model](create-replacement-model.md)
+[Configure replacement models for a refresh model]()
 
-[Fulfill a Zero Touch Refresh Fulfillment Request](process-zero-touch-refresh-order.md)
+[Fulfill a Zero Touch Refresh Fulfillment Request]()
 
-[Process a Zero Touch Refresh request](process-zero-touch-asset-request.md)
+[Process a Zero Touch Refresh request]()
 
-[Acknowledge receipt of an asset on a mobile device](receive-assets-from-ztr.md)
+[Acknowledge receipt of an asset on a mobile device]()
 
-[Acknowledge receipt of an asset through the Core UI](acknowledge-asset-core-ui.md)
+[Acknowledge receipt of an asset through the Core UI]()
 

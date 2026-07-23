@@ -2,6 +2,7 @@
 title: Include a font icon in a single widget
 description: If you only want one widget to have access to a font icon, include the font icon in a single widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/include-widget-icon.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -83,18 +84,18 @@ Adding an icon to a specific widget keeps the icon scoped and prevents it from i
 
 An icon that you can select in the widget or widget instance. For example:
 
-![Example icon that matches the HTML in the widget example, with a check circle that says "you did it!"](../image/IconExample.png)
+\[Omitted image "IconExample.png"\] Alt text: Example icon that matches the HTML in the widget example, with a check circle that says "you did it!"
 
 ## What to do next
 
 To use custom font-icons across widgets, add the icon to a page or make it a widget dependency.
 
-**Parent Topic:**[Create a widget dependency](widget-dependencies.md)
+**Parent Topic:**[Create a widget dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dependencies.md)
 
 **Related topics**  
 
 
-[Include font icons on a page](t_ConfigureAPage.md#)
+[Include font icons on a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md)
 
-[Include font icons as a widget dependency](font-icons-dependency.md)
+[Include font icons as a widget dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/font-icons-dependency.md)
 

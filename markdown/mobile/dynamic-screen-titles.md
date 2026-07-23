@@ -2,6 +2,7 @@
 title: Configure a dynamic screen name for a list screen
 description: Configure a screen to dynamically inherit a name from a parametrized list screen. This setup enables users to view a passed parameter as the screen name instead of the screen record name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/dynamic-screen-titles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: admin
 
 3.  Apply an existing UI parameter in the UI parameter related list.
 
-    1.  If the **UI parameters**, **Screen UI element mappings**, and **Source and UI element** related lists are not displayed, add them by clicking the Additional actions icon \(![Additional actions icon.](../image/context-menu-icon.png)\). Then, select **Configure** &gt; **Related Lists**, and then select the required related lists.
+    1.  If the **UI parameters**, **Screen UI element mappings**, and **Source and UI element** related lists are not displayed, add them by clicking the Additional actions icon \(\[Omitted image "context-menu-icon.png"\] Alt text: Additional actions icon.\). Then, select **Configure** &gt; **Related Lists**, and then select the required related lists.
 
     2.  Click the **UI parameters** tab.
 
@@ -93,5 +94,5 @@ Role required: admin
 
 The screen name dynamically inherits a value from the redirection parameter.
 
-![Dynamic screen name displayed from redirection parameter.](../image/dynamic-name-redirection-parameter.png "Dynamic screen name displayed from the redirection parameter")
+\[Omitted image "dynamic-name-redirection-parameter.png"\] Alt text: Dynamic screen name displayed from redirection parameter.
 

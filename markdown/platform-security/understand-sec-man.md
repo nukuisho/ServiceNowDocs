@@ -1,15 +1,16 @@
 ---
-title: Understanding client-side Secrets Management
+title: About client-side Secrets Management
 description: Learn how use Secrets Management to manage access to secrets and groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/understand-sec-man.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-30"
-reading_time_minutes: 1
+last_updated: "2026-05-01"
+reading_time_minutes: 2
 breadcrumb: [Exploring Secrets Management, Secrets Management, Platform Security]
 ---
 
-# Understanding client-side Secrets Management
+# About client-side Secrets Management
 
 Learn how use Secrets Management to manage access to secrets and groups.
 
@@ -76,7 +77,7 @@ A symmetric key encrypts a credential \(in this case, an admin password\), chang
 
 </td><td>
 
- 
+\[Omitted image "sm-cse-process-1.svg"\] Alt text: Symmetric key encrypts credential
 
 </td></tr><tr><td>
 
@@ -84,15 +85,15 @@ The symmetric key \(represented in green\) can be applied to the credential to e
 
 </td><td>
 
- 
+\[Omitted image "sm-cse-process-2.svg"\] Alt text: Symmetric key can be applied to credential for encryption or decryption
 
 </td></tr><tr><td>
 
-At this point, asymmetric encryption begins using public\(yellow\) and private key\(blue\) keys.
+At this point, asymmetric encryption begins using public \(green\) and private key \(blue\) keys.
 
 </td><td>
 
- 
+\[Omitted image "sm-cse-process-3.svg"\] Alt text: Asymmetric encryption begins using keys
 
 </td></tr><tr><td>
 
@@ -100,7 +101,7 @@ The public key encrypts the credential along with the symmetric key. The symmetr
 
 </td><td>
 
- 
+\[Omitted image "sm-cse-process-4.svg"\] Alt text: Public key encrypts the credential with the symmetric key
 
 </td></tr><tr><td>
 
@@ -108,8 +109,8 @@ After being encrypted with the public key, the private key is needed to decrypt 
 
 </td><td>
 
- 
+\[Omitted image "sm-cse-process-5.svg"\] Alt text: The credential is now encrypted with the public key which needs the private key to decrypt
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Secrets Management](exploring-secrets-management.md)
+</table>**Parent Topic:**[Exploring Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-secrets-management.md)
 

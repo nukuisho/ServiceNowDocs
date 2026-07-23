@@ -2,6 +2,7 @@
 title: View job tracker details
 description: Track every pull that has been performed from ServiceNow to SuccessFactors either by schedule job or manual reconciliation process. View details of the job, such as when did the job begin and end, when did the records start loading into staging tables, or did the job run completely or fail in between.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/view-job-tracker-details-sf.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -52,18 +53,18 @@ Role required: sn\_hr\_sf.admin
     |Order|Order in which the item is executed as part of sync.|
 
 
-**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](using-hr-service-delivery-integration-with-success-factors.md)
+**Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
 
 **Related topics**  
 
 
-[View to dos](../task/view-to-dos-sf.md)
+[View to dos]()
 
-[Use transform maps](../reference/use-transform-maps-sf.md)
+[Use transform maps]()
 
-[Field mappings](../reference/field-mappings-sf.md)
+[Field mappings]()
 
-[Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors](na-va-sf.md)
+[Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors]()
 
-[Use HCM AI agents for HR Service Delivery Integration with SuccessFactors](conversational-agents-sf.md)
+[Use HCM AI agents for HR Service Delivery Integration with SuccessFactors]()
 

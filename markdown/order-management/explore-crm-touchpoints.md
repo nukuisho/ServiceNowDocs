@@ -2,10 +2,11 @@
 title: CRM Touchpoints
 description: CRM Touchpoints helps sales and service teams capture, track, and act on customer engagements throughout the customer's association with your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/explore-crm-touchpoints.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [explore]
 breadcrumb: [Activity Management, Lead and opportunity management, Explore, Sales Customer Relationship Management]
 ---
@@ -61,7 +62,7 @@ Gains visibility into various customer touchpoints without creating or modifying
 
 The following illustration shows a typical workflow for using CRM Touchpoints to track customer engagements.
 
-![Infographic showing how sales representatives use CRM Touchpoints to plan and track engagement activities with prospects or customers using various channels. For details, refer to the following description.](../image/crm-touchpoints-landing.svg "Capturing and tracking customer engagements with CRM Touchpoints")
+\[Omitted image "crm-touchpoints-landing.svg"\] Alt text: Infographic showing how sales representatives use CRM Touchpoints to plan and track engagement activities with prospects or customers using various channels. For details, refer to the following description.
 
 1.  As an administrator, install and configure the CRM Touchpoints application on your ServiceNow instance.
 2.  Set up communication channels such as emails and calls that your organization uses for interacting with customers.
@@ -76,17 +77,17 @@ The following illustration shows a typical workflow for using CRM Touchpoints to
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Capture and track all engagement activities in a single system, eliminating the need to switch between multiple tools and reducing data silos.|[Create a CRM touchpoint](../task/create-crm-touchpoint.md)|Sales representative|
-|Classify engagements by category and type to match your organization's specific sales and service processes.|[Create custom touchpoint types](../task/create-custom-touchpoint-types.md)|CRM Touchpoints admin|
-|Schedule meetings with customers and stakeholders directly from the touchpoint record to align teams and avoid scheduling conflicts.|[Schedule a meeting from a touchpoint](../task/schedule-meeting-touchpoint.md)|Sales representative|
-|Track customer follow-ups by scheduling calls directly from the touchpoint record.|[Schedule a call from a touchpoint](../task/schedule-call-crm-touchpoint.md)|Sales representative|
-|Send emails without having to leave the workspace, ensuring all communications are logged and accessible to the entire account team.|[Send an email from a touchpoint](../task/compose-send-emails-crm-touchpoint.md)|Sales representative|
+|Capture and track all engagement activities in a single system, eliminating the need to switch between multiple tools and reducing data silos.|[Create a CRM touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-touchpoint.md)|Sales representative|
+|Classify engagements by category and type to match your organization's specific sales and service processes.|[Create custom touchpoint types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-custom-touchpoint-types.md)|CRM Touchpoints admin|
+|Schedule meetings with customers and stakeholders directly from the touchpoint record to align teams and avoid scheduling conflicts.|[Schedule a meeting from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-meeting-touchpoint.md)|Sales representative|
+|Track customer follow-ups by scheduling calls directly from the touchpoint record.|[Schedule a call from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/schedule-call-crm-touchpoint.md)|Sales representative|
+|Send emails without having to leave the workspace, ensuring all communications are logged and accessible to the entire account team.|[Send an email from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/compose-send-emails-crm-touchpoint.md)|Sales representative|
 
-## Related links
+## What to explore next
 
 To learn more about configuring and using CRM Touchpoints, see:
 
--   [Configuring Activity Management](configuring-activity-management.md)
--   [Using Activity Management](using-activity-management.md)
--   [Activity Management reference](activity-management-reference.md)
+-   [Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
+-   [Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+-   [Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)
 

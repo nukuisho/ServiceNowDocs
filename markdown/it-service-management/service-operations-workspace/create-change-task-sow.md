@@ -2,6 +2,7 @@
 title: Create a change task in Service Operations Workspace
 description: When you need to engage another team or agent for help, create and assign change task. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-change-task-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,11 +24,11 @@ Role required: itil or admin
 
 1.  Open a change request.
 
-2.  On the change record page, Click the more actions icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and select **Create Change Task**.
+2.  On the change record page, Click the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Create Change Task**.
 
 3.  In the Create Change task dialog box, select the task type.
 
-    By default, the following task types are available. To create additional task types, see [Create a task type for problem or change in Service Operations Workspace](create-task-type-sow.md).
+    By default, the following task types are available. To create additional task types, see [Create a task type for problem or change in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-task-type-sow.md).
 
     -   Planning
     -   Implementation
@@ -158,22 +159,22 @@ Date the change task is planned to be completed.If the task type is **Implementa
 </table>6.  Click **Save**.
 
 
-**Parent Topic:**[Change Management in Service Operations Workspace](../concept/change-sow.md)
+**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/change-sow.md)
 
 **Related topics**  
 
 
-[Create a change request in Service Operations Workspace](create-change-sow.md)
+[Create a change request in Service Operations Workspace]()
 
-[Work on a change request in Service Operations Workspace](work-on-change-sow.md)
+[Work on a change request in Service Operations Workspace]()
 
-[Standard change catalog](../concept/standard-change-catalog-sow.md)
+[Standard change catalog]()
 
-[Work on a change task in Service Operations Workspace](work-on-change-task-sow.md)
+[Work on a change task in Service Operations Workspace]()
 
-[Create a Change Advisory Board \(CAB\) definition](cm-create-cab-definition-sow.md)
+[Create a Change Advisory Board \(CAB\) definition]()
 
-[Create a CAB meeting](cm-create-cab-meeting-sow.md)
+[Create a CAB meeting]()
 
-[Conduct a CAB meeting in the CAB workbench](cm-manage-cab-meeting-workbench-sow.md)
+[Conduct a CAB meeting in the CAB workbench]()
 

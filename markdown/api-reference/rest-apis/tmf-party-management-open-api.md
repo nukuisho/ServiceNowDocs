@@ -2,12 +2,13 @@
 title: Party Management Open API
 description: The Party Management Open API provides endpoints for managing parties with a relationship to the enterprise, like a consumer, account, or contact. Use this API to create, update, and retrieve data from the Consumer \[csm\_consumer\], Account \[customer\_account\], and Contact \[customer\_contact\] tables.Inactivates a specified record from the Consumer \[csm\_consumer\] and Contact \[customer\_contact\] tables.Retrieves a list of all individual \(party\) records with a relationship to the enterprise. You can filter results by specific fields or IDs.Retrieves a specified record from the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] tables. You can filter results by specific fields.Retrieves a specified record from the Account \[customer\_account\] tables. You can filter results by specific fields or IDs.Retrieves organization-level party records from the Company \[core\_company\] and Account \[customer\_account\] tables. You can filter results by specific fields or IDs.Updates an existing individual party record in the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] table without replacing the entire resource.Updates an existing individual party record in the Account \[customer\_account\] tables without replacing the entire resource.Creates a new individual party management record in the Consumer \[csm\_consumer\] or Contact \[customer\_contact\] tables.Creates a new party organization record in the Account \[customer\_account\] tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/tmf-party-management-open-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 73
+reading_time_minutes: 74
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -21,7 +22,7 @@ This API is provided within the sn\_tmf\_api namespace. The calling user must ha
 
 This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. Sensitive fields like phone numbers may require special ACL permissions for update or retrieval.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Party Management – DELETE /api/sn\_tmf\_api/v1/party/individual/\{id\}
 
@@ -72,7 +73,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -97,7 +98,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -221,7 +222,7 @@ Default: 0
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -288,7 +289,7 @@ For paginated queries, this header specifies the total number of records availab
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -1089,7 +1090,7 @@ Default: Returns all fields
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1114,7 +1115,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1781,7 +1782,7 @@ Default: 0
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1806,7 +1807,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2964,7 +2965,7 @@ Prefix or title of the individual. For example, `Dr.`, `Mr.`, `Ms.`\).Data type:
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2989,7 +2990,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -3621,7 +3622,7 @@ Prefix or title of the individual. For example, `Dr.`, `Mr.`, `Ms.`\).Data type:
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -3646,7 +3647,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -4640,7 +4641,28 @@ partyCharacteristics.name
 
 </td><td>
 
-Name of the party characteristic.Data type: String
+Name of the party characteristic.Accepted values:
+
+-   notes
+-   customer
+-   registrationCode
+-   vendorType
+-   industry
+-   taxId
+-   numEmployees
+-   rankTier
+-   publiclyTraded
+-   stockSymbolstockPrice
+-   vendor
+-   manufacturer
+-   marketCap
+-   profits
+-   revenuePerYear
+-   vendorType
+
+**Note:** The **partyCharacteristic.value** attribute accepts the display value of `rankTier` and `industry` choice fields as input. Invalid values will trigger a warning message in the response.
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -4806,7 +4828,7 @@ Name that the organization trades under.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -4831,7 +4853,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -6113,7 +6135,7 @@ Prefix or title of the individual. For example, `Dr.`, `Mr.`, `Ms.`\).Data type:
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -6138,7 +6160,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -7140,7 +7162,28 @@ partyCharacteristics.name
 
 </td><td>
 
-Name of the party characteristic.Data type: String
+Name of the party characteristic.Accepted values:
+
+-   notes
+-   customer
+-   registrationCode
+-   vendorType
+-   industry
+-   taxId
+-   numEmployees
+-   rankTier
+-   publiclyTraded
+-   stockSymbolstockPrice
+-   vendor
+-   manufacturer
+-   marketCap
+-   profits
+-   revenuePerYear
+-   vendorType
+
+**Note:** The **partyCharacteristic.value** attribute accepts the display value of `rankTier` and `industry` choice fields as input. Invalid values will trigger a warning message in the response.
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -7306,7 +7349,7 @@ Name that the organization trades under.Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -7331,7 +7374,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -7784,400 +7827,402 @@ This returns specified fields for the party management organization records.
 
 ```
 curl "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization" \
---request POST \
---header "Accept:application/json" \
---header "Content-Type:application/json" \
---user 'user':'password'
---data "{
-  \"name\": \"SERVICENOW 144\",
-  \"legalName\": \"Acme Corp Ltd.\",
-  \"tradingName\": \"Acme Inc.\",
-  \"contactMedium\": [
+  --request POST \
+  --header "Accept: application/json" \
+  --header "Content-Type: application/json" \
+  --user 'user:password' \
+  --data '{
+  "name": "SERVICENOW 144",
+  "legalName": "Acme Corp Ltd.",
+  "tradingName": "Acme Inc.",
+  "contactMedium": [
     {
-      \"preferred\": true,
-      \"mediumType\": \"email\",
-      \"emailAddress\": \"athammhd@email.com\",
-      \"@type\": \"EmailContactMedium\"
+      "preferred": true,
+      "mediumType": "email",
+      "emailAddress": "athammhd@email.com",
+      "@type": "EmailContactMedium"
     },
     {
-      \"preferred\": false,
-      \"mediumType\": \"phone\",
-      \"phoneNumber\": \"+1-202-555-0198\",
-      \"@type\": \"PhoneContactMedium\"
+      "preferred": false,
+      "mediumType": "phone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "PhoneContactMedium"
     },
     {
-      \"preferred\": false,
-      \"mediumType\": \"businessPhone\",
-      \"phoneNumber\": \"+1-202-555-0198\",
-      \"@type\": \"BusinessPhoneContactMedium\"
+      "preferred": false,
+      "mediumType": "businessPhone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "BusinessPhoneContactMedium"
     },
     {
-      \"preferred\": false,
-      \"mediumType\": \"homePhone\",
-      \"phoneNumber\": \"+1-202-555-0198\",
-      \"@type\": \"HomePhoneContactMedium\"
+      "preferred": false,
+      "mediumType": "homePhone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "HomePhoneContactMedium"
     },
     {
-      \"preferred\": false,
-      \"mediumType\": \"postalAddress\",
-      \"validFor\": {
-        \"startDateTime\": \"2017-03-15T07:49:25.246Z\"
+      "preferred": false,
+      "mediumType": "postalAddress",
+      "validFor": {
+        "startDateTime": "2017-03-15T07:49:25.246Z"
       },
-      \"@type\": \"GeographicAddressContactMedium\",
-      \"city\": \"chennai\",
-      \"country\": \"INDIA\",
-      \"postCode\": \"608001\",
-      \"stateOrProvince\": \"tamil nadu\",
-      \"street1\": \"samcon street\",
-      \"street2\": \"adyar,chennai\"
+      "@type": "GeographicAddressContactMedium",
+      "city": "chennai",
+      "country": "INDIA",
+      "postCode": "608001",
+      "stateOrProvince": "tamil nadu",
+      "street1": "samcon street",
+      "street2": "adyar,chennai"
     }
   ],
-  \"externalReference\": [
+  "externalReference": [
     {
-      \"externalIdentifierType\": \"Instagram\",
-      \"id\": \"Instagram\"
+      "externalIdentifierType": "Instagram",
+      "id": "Instagram"
     }
   ],
-  \"partyCharacteristic\": [
+  "partyCharacteristic": [
     {
-      \"name\": \"notes\",
-      \"value\": \"Testing for update the notes\",
-      \"valueType\": \"string\",
-      \"@type\": \"StringCharacteristics\"
+      "name": "notes",
+      "value": "Testing for update the notes",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"customer\",
-      \"value\": \"true\",
-      \"valueType\": \"boolean\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "customer",
+      "value": "true",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"registrationCode\",
-      \"value\": \"001\",
-      \"valueType\": \"string\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "registrationCode",
+      "value": "001",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-     \"name\": \"vendorType\",
-     \"value\": [\"Hardware\"],
-     \"valueType\": \"array\",
-      \"@type\": \"StringArrayCharacteristic\"
-     },
-     {
-      \"name\": \"industry\",
-      \"value\": \"technology_services\",
-      \"valueType\": \"choice\",
-        \"@type\": \"StringCharacteristics\"
+      "name": "vendorType",
+      "value": ["Hardware"],
+      "valueType": "array",
+      "@type": "StringArrayCharacteristic"
     },
     {
-      \"name\": \"taxId\",
-      \"value\": \"CTNUM1000123\",
-      \"valueType\": \"string\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "industry",
+      "value": "Manufacturing",
+      "valueType": "choice",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"numEmployees\",
-      \"value\": \"EMP1000\",
-      \"valueType\": \"integer\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "taxId",
+      "value": "CTNUM1000123",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"rankTier\",
-      \"value\": \"rankTier\",
-      \"valueType\": \"string\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "numEmployees",
+      "value": "10",
+      "valueType": "integer",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"publiclyTraded\",
-      \"value\": \"false\",
-      \"valueType\": \"boolean\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "rankTier",
+      "value": "Valued Partner",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"stockSymbol\",
-      \"value\": \"Market\",
-      \"valueType\": \"string\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "publiclyTraded",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"stockPrice\",
-      \"value\": \"1000\",
-      \"valueType\": \"string\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "stockSymbol",
+      "value": "Market",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"vendor\",
-      \"value\": \"false\",
-      \"valueType\": \"boolean\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "stockPrice",
+      "value": "1000",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"manufacturer\",
-      \"value\": \"false\",
-      \"valueType\": \"boolean\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "vendor",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"marketCap\",
-      \"value\": \"0\",
-      \"valueType\": \"currency\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "manufacturer",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"profits\",
-      \"value\": \"0\",
-      \"valueType\": \"currency\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "marketCap",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
     },
     {
-      \"name\": \"revenuePerYear\",
-      \"value\": \"0\",
-      \"valueType\": \"currency\",
-       \"@type\": \"StringCharacteristics\"
+      "name": "profits",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "revenuePerYear",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
     }
   ],
-  \"relatedParty\": [
+  "relatedParty": [
     {
-      \"role\": \"primaryContact\",
-      \"partyOrPartyRole\": {
-        \"id\": \"eaf68911c35420105252716b7d40ddde\",
-        \"name\": \"John Doe\",
-        \"@type\": \"Individual\"
+      "role": "primaryContact",
+      "partyOrPartyRole": {
+        "id": "eaf68911c35420105252716b7d40ddde",
+        "name": "John Doe",
+        "@type": "Individual"
       }
     },
     {
-      \"role\": \"other\",
-      \"partyOrPartyRole\": {
-        \"id\": \"776a22ea11f43110f877366201dea6b7\",
-        \"name\": \"Mary Star\",
-        \"@type\": \"Individual\"
+      "role": "other",
+      "partyOrPartyRole": {
+        "id": "776a22ea11f43110f877366201dea6b7",
+        "name": "Mary Star",
+        "@type": "Individual"
       }
     }
   ],
-  \"organizationChildRelationship\": [
+  "organizationChildRelationship": [
     {
-      \"relationshipType\": \"partneraccount\",
-      \"organization\": {
-        \"id\": \"0fef075b2fe06a10b79db3bf42faf31a\",
-        \"name\": \"mhd\",
-        \"@type\": \"Organization\"
+      "relationshipType": "partneraccount",
+      "organization": {
+        "id": "0fef075b2fe06a10b79db3bf42faf31a",
+        "name": "mhd",
+        "@type": "Organization"
       }
     }
   ],
-  \"organizationParentRelationship\": 
-    {
-      \"relationshipType\": \"Account\",
-      \"organization\": {
-        \"id\": \"9e2fd2ee11b43110f877366201dea674\",
-        \"name\": \"Global Holdings Ltd.\",
-        \"@type\": \"Organization\"
-      }
-    },
-  \"status\": \"active\",
-  \"@type\": \"Organization\",
-  \"partyOrPartyRole\": {
-    \"@type\":\"Party\",
-    \"name\":\"Customer\",
-    \"role\": \"Account\" 
+  "organizationParentRelationship": {
+    "relationshipType": "Account",
+    "organization": {
+      "id": "9e2fd2ee11b43110f877366201dea674",
+      "name": "Global Holdings Ltd.",
+      "@type": "Organization"
+    }
+  },
+  "status": "active",
+  "@type": "Organization",
+  "partyOrPartyRole": {
+    "@type": "Party",
+    "name": "Customer",
+    "role": "Account"
   }
-}" \
+}'
 ```
 
 Response body.
 
 ```
 {
-   "name": "SERVICENOW 144",
-   "legalName": "Acme Corp Ltd.",
-   "tradingName": "Acme Inc.",
-   "contactMedium": [
-     {
-       "preferred": true,
-       "mediumType": "email",
-       "emailAddress": "athammhd@email.com",
-       "@type": "EmailContactMedium"
-     },
-     {
-       "preferred": false,
-       "mediumType": "phone",
-       "phoneNumber": "+1-202-555-0198",
-       "@type": "PhoneContactMedium"
-     },
-     {
-       "preferred": false,
-       "mediumType": "businessPhone",
-       "phoneNumber": "+1-202-555-0198",
-       "@type": "BusinessPhoneContactMedium"
-     },
-     {
-       "preferred": false,
-       "mediumType": "homePhone",
-       "phoneNumber": "+1-202-555-0198",
-       "@type": "HomePhoneContactMedium"
-     },
-     {
-       "preferred": false,
-       "mediumType": "postalAddress",
-       "validFor": {
-         "startDateTime": "2017-03-15T07:49:25.246Z"
-       },
-       "@type": "GeographicAddressContactMedium",
-       "city": "chennai",
-       "country": "INDIA",
-       "postCode": "608001",
-       "stateOrProvince": "tamil nadu",
-       "street1": "samcon street",
-       "street2": "adyar,chennai"
-     }
-   ],
-   "externalReference": [
-     {
-       "externalIdentifierType": "Instagram",
-       "id": "Instagram"
-     }
-   ],
-   "partyCharacteristic": [
-     {
-       "name": "notes",
-       "value": "Testing for update the notes",
-       "valueType": "string",
-       "@type": "StringCharacteristics"
-     },
-     {
-       "name": "customer",
-       "value": "true",
-       "valueType": "boolean",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "registrationCode",
-       "value": "001",
-       "valueType": "string",
-        "@type": "StringCharacteristics"
-     },
-     {
+  "id": "0fef075b2fe06a10b79db3bf42faf31c",
+  "href": "http://instance.service-now.com/api/sn_tmf_api/v1/party/organization/0fef075b2fe06a10b79db3bf42faf31c",
+  "name": "SERVICENOW 144",
+  "legalName": "Acme Corp Ltd.",
+  "tradingName": "Acme Inc.",
+  "contactMedium": [
+    {
+      "preferred": true,
+      "mediumType": "email",
+      "emailAddress": "athammhd@email.com",
+      "@type": "EmailContactMedium"
+    },
+    {
+      "preferred": false,
+      "mediumType": "phone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "PhoneContactMedium"
+    },
+    {
+      "preferred": false,
+      "mediumType": "businessPhone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "BusinessPhoneContactMedium"
+    },
+    {
+      "preferred": false,
+      "mediumType": "homePhone",
+      "phoneNumber": "+1-202-555-0198",
+      "@type": "HomePhoneContactMedium"
+    },
+    {
+      "preferred": false,
+      "mediumType": "postalAddress",
+      "validFor": {
+        "startDateTime": "2017-03-15T07:49:25.246Z"
+      },
+      "@type": "GeographicAddressContactMedium",
+      "city": "chennai",
+      "country": "INDIA",
+      "postCode": "608001",
+      "stateOrProvince": "tamil nadu",
+      "street1": "samcon street",
+      "street2": "adyar,chennai"
+    }
+  ],
+  "externalReference": [
+    {
+      "externalIdentifierType": "Instagram",
+      "id": "Instagram"
+    }
+  ],
+  "partyCharacteristic": [
+    {
+      "name": "notes",
+      "value": "Testing for update the notes",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "customer",
+      "value": "true",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "registrationCode",
+      "value": "001",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
       "name": "vendorType",
       "value": ["Hardware"],
       "valueType": "array",
-       "@type": "StringArrayCharacteristic"
-      },
-      {
-       "name": "industry",
-       "value": "technology_services",
-       "valueType": "choice",
-         "@type": "StringCharacteristics"
-     },
-     {
-       "name": "taxId",
-       "value": "CTNUM1000123",
-       "valueType": "string",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "numEmployees",
-       "value": "EMP1000",
-       "valueType": "integer",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "rankTier",
-       "value": "rankTier",
-       "valueType": "string",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "publiclyTraded",
-       "value": "false",
-       "valueType": "boolean",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "stockSymbol",
-       "value": "Market",
-       "valueType": "string",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "stockPrice",
-       "value": "1000",
-       "valueType": "string",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "vendor",
-       "value": "false",
-       "valueType": "boolean",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "manufacturer",
-       "value": "false",
-       "valueType": "boolean",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "marketCap",
-       "value": "0",
-       "valueType": "currency",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "profits",
-       "value": "0",
-       "valueType": "currency",
-        "@type": "StringCharacteristics"
-     },
-     {
-       "name": "revenuePerYear",
-       "value": "0",
-       "valueType": "currency",
-        "@type": "StringCharacteristics"
-     }
-   ],
-   "relatedParty": [
-     {
-       "role": "primaryContact",
-       "partyOrPartyRole": {
-         "id": "eaf68911c35420105252716b7d40ddde",
-         "name": "John Doe",
-         "@type": "Individual"
-       }
-     },
-     {
-       "role": "other",
-       "partyOrPartyRole": {
-         "id": "776a22ea11f43110f877366201dea6b7",
-         "name": "Mary Star",
-         "@type": "Individual"
-       }
-     }
-   ],
-   "organizationChildRelationship": [
-     {
-       "relationshipType": "partneraccount",
-       "organization": {
-         "id": "0fef075b2fe06a10b79db3bf42faf31a",
-         "name": "mhd",
-         "@type": "Organization"
-       }
-     }
-   ],
-   "organizationParentRelationship": 
-     {
-       "relationshipType": "Account",
-       "organization": {
-         "id": "9e2fd2ee11b43110f877366201dea674",
-         "name": "Global Holdings Ltd.",
-         "@type": "Organization"
-       }
-     },
-   "status": "active",
-   "@type": "Organization",
-   "partyOrPartyRole": {
-     "@type":"Party",
-     "name":"Customer",
-     "role": "Account" 
-   }
- }
+      "@type": "StringArrayCharacteristic"
+    },
+    {
+      "name": "industry",
+      "value": "Manufacturing",
+      "valueType": "choice",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "taxId",
+      "value": "CTNUM1000123",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "numEmployees",
+      "value": "10",
+      "valueType": "integer",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "rankTier",
+      "value": "Valued Partner",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "publiclyTraded",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "stockSymbol",
+      "value": "Market",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "stockPrice",
+      "value": "1000",
+      "valueType": "string",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "vendor",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "manufacturer",
+      "value": "false",
+      "valueType": "boolean",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "marketCap",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "profits",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
+    },
+    {
+      "name": "revenuePerYear",
+      "value": "0",
+      "valueType": "currency",
+      "@type": "StringCharacteristics"
+    }
+  ],
+  "relatedParty": [
+    {
+      "role": "primaryContact",
+      "partyOrPartyRole": {
+        "id": "eaf68911c35420105252716b7d40ddde",
+        "name": "John Doe",
+        "@type": "Individual"
+      }
+    },
+    {
+      "role": "other",
+      "partyOrPartyRole": {
+        "id": "776a22ea11f43110f877366201dea6b7",
+        "name": "Mary Star",
+        "@type": "Individual"
+      }
+    }
+  ],
+  "organizationChildRelationship": [
+    {
+      "relationshipType": "partneraccount",
+      "organization": {
+        "id": "0fef075b2fe06a10b79db3bf42faf31a",
+        "name": "mhd",
+        "@type": "Organization"
+      }
+    }
+  ],
+  "organizationParentRelationship": {
+    "relationshipType": "Account",
+    "organization": {
+      "id": "9e2fd2ee11b43110f877366201dea674",
+      "name": "Global Holdings Ltd.",
+      "@type": "Organization"
+    }
+  },
+  "status": "active",
+  "@type": "Organization",
+  "partyOrPartyRole": {
+    "@type": "Party",
+    "name": "Customer",
+    "role": "Account"
+  },
+  "createdDate": "2025-06-25T14:32:18.000Z",
+  "lastModifiedDate": "2025-06-25T14:32:18.000Z"
+}
 ```
 

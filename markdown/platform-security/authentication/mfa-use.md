@@ -2,6 +2,7 @@
 title: Using Multi-factor authentication
 description: Learn how to use multi-factor authentication tools to securely access your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-use.html
 release: australia
 product: Authentication
 classification: authentication
@@ -43,7 +44,7 @@ You can use authenticator apps to use a second factor of authentication.
 
 </td><td>
 
-If your administrator has enabled multi-factor authentication \(MFA\) on your instance, you are prompted for a second authentication after entering your user name and password. For details on the MFA login process, see [Log in with Multi-factor Authentication](../task/t_LogOnWithMultifactorAuth.md).
+If your administrator has enabled multi-factor authentication \(MFA\) on your instance, you are prompted for a second authentication after entering your user name and password. For details on the MFA login process, see [Log in with Multi-factor Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_LogOnWithMultifactorAuth.md).
 
 </td></tr><tr><td>
 
@@ -54,9 +55,9 @@ Enter the code displayed on your authenticator app to login.
 
 </td><td>
 
-If you haven't configured a second form of authentication, you will see a configuration page after logging in to guide you through the process of setting up an authentication app. For details on this setup, see [Set up Multi-factor authentication for the first time](../task/t_SetUpMultiFactorAuthUponLogin.md).
+If you haven't configured a second form of authentication, you will see a configuration page after logging in to guide you through the process of setting up an authentication app. For details on this setup, see [Set up Multi-factor authentication for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_SetUpMultiFactorAuthUponLogin.md).
 
-![Authenticator](../images/auth-app.png)
+\[Omitted image "auth-app.png"\] Alt text: Authenticator
 
 </td></tr></tbody>
 </table>## Register an authentication device
@@ -67,23 +68,23 @@ After you've configured an authentication app, you can register other methods fo
 
 -   **Biometric authenticators**
 
-You can use biometric authenticators like fingerprint or facial recognition as your second MFA authentication. If your administrator allows this option, you can configure biometric authenticators using the steps in [Register a biometric authenticator](../task/mfa-setup-bio-auth.md).
+You can use biometric authenticators like fingerprint or facial recognition as your second MFA authentication. If your administrator allows this option, you can configure biometric authenticators using the steps in [Register a biometric authenticator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-setup-bio-auth.md).
 
 
 </td><td>
 
-![Biometrics icon](../images/biometric-2.png)
+\[Omitted image "biometric-2.png"\] Alt text: Biometrics icon
 
 </td></tr><tr><td>
 
 -   **Hardware key authenticators**
 
-Hardware keys are physical security devices you can use for authentication. You can register a hardware device for use with your instance using the steps in [Register a hardware security key](../task/mfa-setup-hardware-key-auth.md).
+Hardware keys are physical security devices you can use for authentication. You can register a hardware device for use with your instance using the steps in [Register a hardware security key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-setup-hardware-key-auth.md).
 
 
 </td><td>
 
-![Hardware key icon](../images/hardware-key.png)
+\[Omitted image "hardware-key.png"\] Alt text: Hardware key icon
 
 </td></tr><tr><td>
 
@@ -94,7 +95,7 @@ Use the biometric or hardware key to login.
 
 </td><td>
 
-Use the Biometric or Security Key to login.![MFA - Biometric or Hardware](../images/biometirc-mfa.png)
+Use the Biometric or Security Key to login.\[Omitted image "biometirc-mfa.png"\] Alt text: MFA - Biometric or Hardware
 
 </td></tr></tbody>
 </table>## Register a phone number for OTP
@@ -110,7 +111,7 @@ Use SMS based OTP to require users who attempt to login.
 
 When users attempt to login to ServiceNow, SMS OTP is sent to the mobile number associated with the sys\_user record. Users can enter the six-digit verification code that it sent to the mobile device and verify their identity.
 
- ![SMS.](../images/sms.png)
+ \[Omitted image "sms.png"\] Alt text: SMS.
 
 </td></tr><tr><td>
 
@@ -137,7 +138,7 @@ Use Email based OTP to require users who attempt to login.
 
 When users attempt to login to ServiceNow, Email OTP is sent to the email address associated to the user. User's can enter the six-digit verification code that it sent to the mobile device and verify their identity.
 
- ![Email.](../images/email.png)
+ \[Omitted image "email.png"\] Alt text: Email.
 
 </td></tr><tr><td>
 
@@ -148,7 +149,7 @@ Use the validation with Email to login based on the OTP generated.
 
 </td><td>
 
-You need to enter the 6-digit code sent to the email address to login. The code sent is valid for the next 5 minutes. You can use resend code to again send the code.![MFA-Email.](../images/email-screen-mfa.png)
+You need to enter the 6-digit code sent to the email address to login. The code sent is valid for the next 5 minutes. You can use resend code to again send the code.\[Omitted image "email-screen-mfa.png"\] Alt text: MFA-Email.
 
 </td></tr></tbody>
 </table>

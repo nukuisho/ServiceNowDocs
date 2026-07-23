@@ -2,6 +2,7 @@
 title: Create a product offering catalog
 description: Create a product catalog that lists the product offerings available to your customers. Catalogs are top-level entities in the catalog hierarchy. Catalogs have categories and categories can have sub-categories or product offers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-product-catalog.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_prd\_pm.product\_catalog\_manager
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offering Catalogs**.
 
@@ -128,4 +129,11 @@ System-generated product code for the catalog. The system automatically generate
 ## What to do next
 
 Create product offering categories.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

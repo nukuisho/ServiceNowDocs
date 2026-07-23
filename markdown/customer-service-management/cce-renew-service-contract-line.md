@@ -2,6 +2,7 @@
 title: Renew a customer contract line
 description: Renew a customer contract line on the CSM Configurable Workspace. You can renew the services specified in the customer contract line and its associated child customer contract lines and entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-renew-service-contract-line.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +39,7 @@ Role required:
 
 5.  Select **Renew**.
 
-    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](../concept/create-cont-ent-workflows-csm.md#section_qp4_rxv_tcc).
+    The target entity is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-cont-ent-workflows-csm.md).
 
     -   If the selected target entity is a quote, a quote to renew the customer contract line is created. You can select the quote number from the confirmation message to review the renewal quote. After the quote is approved and the status is updated to **Complete**, an order is created for further processing.
     -   If the selected target entity is an order, an order to renew the customer contract line is created. You can select the order number from the confirmation message to review the renewal order.
@@ -51,10 +52,11 @@ Role required:
 
 6.  Perform an early or late renewal on the customer contract line.
 
-    In early renewal, users can terminate the contract before the expiry date and create a new contract with the desired start date. For late renewal, users can renew expired contracts that are not renewed.
+    In early renewal, you can terminate the contract before the expiry date and create a new contract with the desired start date. For late renewal, you can renew expired contracts that are not renewed.
 
-    -   Select a date before the contract expiry date in the **Renew from** field to perform an early renewal. Two quote or order line items are created. One change order or quote line is created with the modified expiry date of the current service contract line. A new renewal quote or order line is created is created with the new start date.
+    -   Select a date before the contract expiry date in the **Renew from** field to perform an early renewal. Two quote or order line items are created. One change order or quote line is created with the modified expiry date of the current service contract line. A new renewal quote or order line is created with the new start date.
     -   For an expired contract line, enter a new date to renew the service contract line in the **Start from** field. A new renewal quote or order line is created with a new start date.
+    -   For a ramped contract line, select a date before the contract expiry date in the **Renew from** field to perform an early renewal. The contract line splits into two contract lines. One contract line has the early renewal end date that you selected and the second contract line has the original end date with State as **Canceled** and Quantity as **Zero**. The remaining segments are canceled and their quantities are zero.
 7.  After the order line items are fulfilled, set the status to **Completed**.
 
     A new customer contract line is created.

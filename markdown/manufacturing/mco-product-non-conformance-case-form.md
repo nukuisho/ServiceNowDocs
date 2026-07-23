@@ -2,6 +2,7 @@
 title: Product details form
 description: The Product non-conformance details form enables you to add the case details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-product-non-conformance-case-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -66,6 +67,14 @@ Impacted asset.
 
 </td></tr><tr><td>
 
+Requesting Service Organization
+
+</td><td>
+
+Select the service organization, business unit, or department on whose behalf this case record is being submitted.
+
+</td></tr><tr><td>
+
 State
 
 </td><td>
@@ -126,7 +135,7 @@ Assignment group
 
 </td><td>
 
-Organizational units or teams responsible for handling specific tasks, cases, or issues.
+Organizational units or teams responsible for handling specific tasks, cases, or issues. It is auto-populated.
 
 </td></tr><tr><td>
 
@@ -134,7 +143,7 @@ Assigned to
 
 </td><td>
 
-User to whom the non-conformance case has been assigned.
+User to whom the non-conformance case has been assigned. It is auto-populated based on the **Assignment group** owner, but you can reassign it to available user.
 
 </td></tr><tr><td>
 
@@ -169,10 +178,10 @@ Complaint details
 Complaint details, if any.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
 
 **Related topics**  
 
 
-[Create a product non-conformance case](../task/mco-playbook-create-non-conformance.md)
+[Create a product non-conformance case using playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-playbook-create-non-conformance.md)
 

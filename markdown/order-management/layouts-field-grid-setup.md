@@ -2,11 +2,12 @@
 title: Layouts: Field grid setup
 description: A field grid collects multiple fields in a single layout, but unlike a set, it can reference other rows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/layouts-field-grid-setup.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Set up layouts, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Layouts: Field grid setup
@@ -29,13 +30,13 @@ To add a field grid to the layout, a column set is not needed because the field 
 
 The first three images show the CSV file. The last image shows the corresponding user layout. The numbers above align with the numbers in the images below. \(Because number 3 is shown several times, a letter is added for clarity.\) Individual cells in the field grid cannot have both a label and an input field. Note that by 3C, both a label and input field are added to the layout CSV file. However, only the input field goes in the layout.
 
-![Field grid](../images/cpq-field-grid-setup-1.png)
+\[Omitted image "cpq-field-grid-setup-1.png"\] Alt text: Field grid
 
-![Field grid](../images/cpq-field-grid-setup-2.png)
+\[Omitted image "cpq-field-grid-setup-2.png"\] Alt text: Field grid
 
-![Field grid](../images/cpq-field-grid-setup-3.png)
+\[Omitted image "cpq-field-grid-setup-3.png"\] Alt text: Field grid
 
-![Field grid](../images/cpq-field-grid-setup-4.png)
+\[Omitted image "cpq-field-grid-setup-4.png"\] Alt text: Field grid
 
 [fieldGrid Sample Layout JSON](https://docs.google.com/document/d/123dT0vwmwBUWgyrEV5RzI3rH3WugJd2xUUkpI9O2Ias/edit?usp=sharing)
 

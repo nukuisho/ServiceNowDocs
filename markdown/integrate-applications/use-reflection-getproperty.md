@@ -2,11 +2,12 @@
 title: Use the GetProperty component
 description: Access single or multiple properties of a given object at a time by using the GetProperty component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-reflection-getproperty.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reflection, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Reflection, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the GetProperty component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the GetProperty component. For more information about these properties, see [Properties of the Reflection components](../reference/util-reflection-prop.md).
+You can configure the properties for the GetProperty component. For more information about these properties, see [Properties of the Reflection components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-reflection-prop.md).
 
 ## Procedure
 
@@ -27,9 +28,9 @@ You can configure the properties for the GetProperty component. For more informa
 
 2.  Drag the GetProperty component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
-4.  Click the add icon \(![Add icon.](../image/add-image-icon.png)\) on the GetProperty component title bar to add the additional parameters.
+4.  Click the add icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add icon.\) on the GetProperty component title bar to add the additional parameters.
 
 5.  Connect the data and control ports of the GetProperty component to the corresponding ports of the other components.
 
@@ -43,5 +44,5 @@ You can configure the properties for the GetProperty component. For more informa
 6.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Reflection](../concept/reflection-utility.md)
+**Parent Topic:**[Reflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/reflection-utility.md)
 

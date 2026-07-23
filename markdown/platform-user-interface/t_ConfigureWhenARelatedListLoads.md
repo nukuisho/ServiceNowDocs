@@ -2,6 +2,7 @@
 title: Configure when a related list loads
 description: If there are many related lists on a form or many records in the related lists, the form may load slowly. You can improve form response times by configuring related lists to load manually, on demand, or automatically, after the rest of the form loads.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfigureWhenARelatedListLoads.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,11 +22,11 @@ Role required: none
 
 ## Procedure
 
-1.  Navigate to ![User menu icon.](../../../get-started/servicenow-overview/image/user-menu-icon.png) **User Menu** &gt; **Preferences** &gt; **Display**.
+1.  Navigate to \[Omitted image "user-menu-icon.png"\] Alt text: User menu icon. **User Menu** &gt; **Preferences** &gt; **Display**.
 
 2.  Select one of the following options from the **Loads related lists in classic forms** menu.
 
-<table id="choicetable_rmk_dk5_1r"><tbody><tr><td id="d86698e86">
+<table id="choicetable_rmk_dk5_1r"><tbody><tr><td id="d87164e86">
 
 **With the Form**
 
@@ -33,7 +34,7 @@ Role required: none
 
 Related lists load when you open the form, which is the default setting. When selected, it sets the value of the glide.ui.related\_list\_timing user preference to `default`.
 
-</td></tr><tr><td id="d86698e101">
+</td></tr><tr><td id="d87164e101">
 
 **After Form Loads**
 
@@ -41,7 +42,7 @@ Related lists load when you open the form, which is the default setting. When se
 
 Related lists load after the rest of the form loads. When selected, it sets the value of the glide.ui.related\_list\_timing user preference to `deferred`.
 
-</td></tr><tr><td id="d86698e116">
+</td></tr><tr><td id="d87164e116">
 
 **On-demand**
 
@@ -53,20 +54,20 @@ Related lists load on demand. When this option is selected, a **Load Related Lis
 </table>3.  Close the display preferences menu.
 
 
-**Parent Topic:**[Related lists](../concept/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 
 
-[Select or create records in a related list](t_SelectRelatedRecords.md)
+[Select or create records in a related list]()
 
-[Create a default filter for a related list](t_CreateADefaultFilter.md)
+[Create a default filter for a related list]()
 
-[Configure the edit option](t_ConfigureTheEditOption.md)
+[Configure the edit option]()
 
-[Create defined related lists](../../../administer/form-administration/task/t_CreateDefinedRelatedLists.md)
+[Create defined related lists]()
 
-[Add fields to selections in a related list](../../../administer/form-administration/task/t_AddingFieldsToARelatedList.md)
+[Add fields to selections in a related list]()
 
-[Create a default filter for list selector records](../../../administer/form-administration/task/t_CreateDefaultRelatedRecSecFilter.md)
+[Create a default filter for list selector records]()
 

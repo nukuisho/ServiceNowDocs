@@ -2,6 +2,7 @@
 title: Using extension points to extend application functionality
 description: Use extension points to extend the functionality of an application without altering the original application code. You can use pre-existing extension points available in selected ServiceNow AI Platform applications, or you can add extension points when you develop custom applications in your own instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/extension-points.html
 release: australia
 product: Web Services
 classification: web-services
@@ -31,9 +32,9 @@ You can create extension points to process the custom code that uses the followi
 
     Extension points in server-side script includes that store JavaScript functions and object classes. To learn about scripts includes and how to implement scripted extension points in the application and custom code, see:
 
-    -   [Script includes](../../../script/server-scripting/concept/c_ScriptIncludes.md#)
-    -   [Creating and adding a scripted extension point](impl-scripted-ext-pts-base-code.md)
-    -   [Using extension points to extend application functionality](extension-points.md)
+    -   [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md)
+    -   [Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md)
+    -   [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
 -   **UI extension points**
 
     Extension points that are used in server-side UI macros such as HTML extensions.
@@ -42,9 +43,9 @@ You can create extension points to process the custom code that uses the followi
 
     To learn about UI macros and how to implement UI extension points in the application and custom code, see:
 
-    -   [UI macros](../../../script/server-scripting/concept/c_UIMacros.md#)
-    -   [Creating and adding a UI extension point](impl-ui-ext-pts-base-code.md#)
-    -   [Using extension points to extend application functionality](extension-points.md)
+    -   [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md)
+    -   [Creating and adding a UI extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-ui-ext-pts-base-code.md)
+    -   [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
 -   **Client extension points**
 
     Extension points that are used in client-side UI scripting, typically for modifying forms.
@@ -53,9 +54,9 @@ You can create extension points to process the custom code that uses the followi
 
     To learn about UI scripts and how to implement client extension points in application and custom code, see:
 
-    -   [UI scripts](../../../script/client-scripts/concept/c_UIScripts.md#)
-    -   [Creating and adding a client extension point](impl-client-ext-pts-base-code.md)
-    -   [Using extension points to extend application functionality](extension-points.md)
+    -   [UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIScripts.md)
+    -   [Creating and adding a client extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-client-ext-pts-base-code.md)
+    -   [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
 
 When you use extension points to process customizations, you create a defined structure for integrating custom data or functionality into an application. Custom server-side script includes, UI macros such as HTML extensions, and client-side UI scripts are all external to the application code and only interact with it at specified extension points.
 
@@ -71,8 +72,8 @@ The term application code refers to:
 
     |Application|Extension point topic|
     |-----------|---------------------|
-    |Coaching|[Resolve Coaching issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-troubleshooting.md)|
-    |Continual Improvement Management|[Improvement with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-integration.md)|
+    |Coaching|[Resolve Coaching issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cf-coaching-troubleshooting.md)|
+    |Continual Improvement Management|[Improvement with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-integration.md)|
     |Customer Service Management|[Extension points in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/extension-points-customer-service.md)|
     |[Creating custom user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/creating-custom-csm-user-roles.md)|
     |[CSM integration with Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-change.md)|
@@ -80,9 +81,9 @@ The term application code refers to:
     |[CSM integration with Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-problem.md)|
     |[CSM integration with Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-request.md)|
     |Field Service Management|[Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/extension-points-field-service.md)|
-    |Knowledge Management|[Use extension points for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/extension-points-km-plugins.md)|
-    |Orchestration|[Client software distribution extension network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_CSDExtensionFramework.md) [Installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_IWClientSWDist.md)|
-    |Password Reset|[Password Reset script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_InstalledPasswordResetScripts.md)|
+    |Knowledge Management|[Use extension points for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/extension-points-km-plugins.md)|
+    |Orchestration|[Client software distribution extension network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CSDExtensionFramework.md) [Installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_IWClientSWDist.md)|
+    |Password Reset|[Password Reset script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_InstalledPasswordResetScripts.md)|
 
 -   **Internally developed custom applications for your enterprise**
 
@@ -102,10 +103,10 @@ To create extension points and embed them in the application code, perform the f
 
 1.  Create an extension point and define its custom interface. This is an example of a scripted extension point.
 
-    ![Scripted extension point example](../image/Extension_point_example.png)
+    \[Omitted image "Extension\_point\_example.png"\] Alt text: Scripted extension point example
 
 2.  Designate specific places in the application code where data or objects can be sent to a customization, and where data is returned.
-3.  Create an artifact, such as a script include, UI macro, or UI script, that calls the [GlideScriptedExtensionPoint - Scoped](../../../app-store/dev_portal/API_reference/GlideScriptedExtensionPointAPI/concept/GlideScriptedExtPtScopedAPI.md#) method. This method identifies the extension point at which registered custom artifacts execute in the application code.
+3.  Create an artifact, such as a script include, UI macro, or UI script, that calls the [GlideScriptedExtensionPoint - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideScriptedExtPtScopedAPI.md) method. This method identifies the extension point at which registered custom artifacts execute in the application code.
 
 ## Enabling debugging and logging
 
@@ -116,9 +117,9 @@ When you create a extension point, you should also enable debugging and logging.
 
 **Note:** To learn more about how to enable debugging and how it works, see:
 
--   [Script Debugger and Session Log](../../../script/debugging/concept/script-debugger.md)
--   [Debugging applications](../../../script/debugging/concept/c_DebuggingApplications.md#)
--   [Writing to the debug log](../../../script/debugging/concept/c_WritingToTheDebugLog.md#)
+-   [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
+-   [Debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_DebuggingApplications.md)
+-   [Writing to the debug log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_WritingToTheDebugLog.md)
 
 ## Registering a custom artifact against an extension point
 
@@ -140,12 +141,12 @@ When the application code executes and finds an embedded API call containing an 
 3.  Collects the returned output from each custom artifact.
 4.  Processes and incorporates the returned results into the base application.
 
--   **[Using scripted extension points in server-side scripts](scripted-extension-points.md)**  
+-   **[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-extension-points.md)**  
 Use the scripted extension points in the server-side script includes that store JavaScript functions and object classes. By using extension points, you can integrate customizations without actually altering the core components in the application code.
--   **[Using UI extension points in server-side UI macros](ui-extension-points.md)**  
+-   **[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)**  
 Use UI extension points in the server-side UI macros, such as HTML extensions, to add custom content to a UI page without having to directly modify the page. By using UI extension points, you can integrate customizations without actually altering the core components in the application code.
--   **[Using client extension points in client-side UI scripting](client-extension-points.md)**  
+-   **[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/client-extension-points.md)**  
 Use client extension points in client-side UI scripting to modify forms, so that you do not have to directly modify the form. By using client extension points, you can integrate customizations without actually altering the core components in the application code.
 
-**Parent Topic:**[Additional integration resources](../../../integrate/outbound-web-services/concept/additional-integration-resources.md)
+**Parent Topic:**[Additional integration resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/additional-integration-resources.md)
 

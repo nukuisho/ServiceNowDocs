@@ -2,6 +2,7 @@
 title: Set up Google Maps API
 description: You enable the geolocation feature using the appropriate entries from a Google Maps API for Business license, or a Google Maps JavaScript API Key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-google-maps-api.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,15 +32,15 @@ Update your configuration to authenticate using an API key only \(that is, set *
 
     **Note:** You are required to use your own Google Maps JavaScript API Key from Google and not use any ServiceNow AI Platform® generated key.
 
-<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d54444e112">
+<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d54946e112">
 
 Existing Google Maps API for Business license available?
 
-</th><th align="left" id="d54444e118">
+</th><th align="left" id="d54946e118">
 
 Tasks
 
-</th></tr></thead><tbody><tr><td id="d54444e124">
+</th></tr></thead><tbody><tr><td id="d54946e124">
 
 **Existing license available**
 
@@ -54,7 +55,7 @@ Tasks
 
 The Google Maps Client ID–based configuration is being deprecated. Client ID authentication will not be supported starting May 2026, and configurations relying on it will no longer work.
 
-</td></tr><tr><td id="d54444e198">
+</td></tr><tr><td id="d54946e198">
 
 **No license available**
 
@@ -290,20 +291,20 @@ Maximum number of records in a table that can be processed using the scheduled j
     5.  Click **Save**.
 
 
-**Parent Topic:**[Map pages](../concept/c_MapPages.md)
+**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
 
 **Related topics**  
 
 
-[Create a map page](t_CreateAMapPage.md)
+[Create a map page]()
 
-[Create a map page module](create-map-page-module.md)
+[Create a map page module]()
 
-[Create an advanced Map Page](create-advanced-map-page.md)
+[Create an advanced Map Page]()
 
-[Set map application scope](set-map-application-scope.md)
+[Set map application scope]()
 
-[Create a smartphone map page module](t_CreateASmartphoneMapPageModule.md)
+[Create a smartphone map page module]()
 
-[Scripting for map pages](../reference/scripting-for-map-pages.md)
+[Scripting for map pages]()
 

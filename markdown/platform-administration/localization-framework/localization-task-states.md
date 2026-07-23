@@ -2,6 +2,7 @@
 title: States of Localization Framework projects and tasks
 description: In Localization Framework, the state of a localization project or of a task defines the status of the localization request. The states of the localization tasks change based on the workflow that is configured for translations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/localization-task-states.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -32,10 +33,10 @@ In Localization Framework, the state of a localization project or of a task defi
 |In Progress|Translation of localization tasks is in progress.|
 |Under Review|Approver is reviewing the translations.|
 
-**Parent Topic:**[Localization Framework reference](../concept/reference-localization-framework.md)
+**Parent Topic:**[Localization Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/reference-localization-framework.md)
 
 **Related topics**  
 
 
-[Localization Workspace Home and translation job status](../../localization-workspace/concept/lw-status-synchronization.md)
+[Localization Workspace Home and translation job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-status-synchronization.md)
 

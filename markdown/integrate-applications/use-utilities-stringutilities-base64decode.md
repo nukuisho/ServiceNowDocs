@@ -2,11 +2,12 @@
 title: Use the Base64Decode component
 description: Convert a base64 string to text by using the Base64Decode component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-stringutilities-base64decode.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [String utilities, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [String utilities, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the Base64Decode component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Base64Decode component. For more information about these properties, see [Properties of the String Utilities components](../reference/util-stringutil-prop.md).
+You can configure the properties for the Base64Decode component. For more information about these properties, see [Properties of the String Utilities components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-stringutil-prop.md).
 
 ## Procedure
 
@@ -27,7 +28,7 @@ You can configure the properties for the Base64Decode component. For more inform
 
 2.  Drag the Base64Decode component to the Design surface.
 
-3.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Base64Decode component to the corresponding ports of the other components as described in the following table.
 
@@ -57,7 +58,7 @@ Used to specify Base64 string that converts to a normal string.Takes the encoded
 
 For example, if you input a value like `1234test` in the Base64Encode component and then connect it to the Base64Decode component, running the components will result in the Base64Encode component encoding the value `1234test` and passing it to the Base64Decode component. The Base64Decode component then decodes the encoded value, such as "MzIzNDIzdGVzdHR0" and retrieves the original output as "1234test".
 
-![Encoded text decoded by Base64Decode component](../image/base64decode-stringutilities-rpa.png "Base64Encode and Base64Decode components")
+\[Omitted image "base64decode-stringutilities-rpa.png"\] Alt text: Encoded text decoded by Base64Decode component
 
 </td><td>
 
@@ -87,5 +88,5 @@ String
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[String utilities](../concept/string-utilities.md)
+**Parent Topic:**[String utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/string-utilities.md)
 

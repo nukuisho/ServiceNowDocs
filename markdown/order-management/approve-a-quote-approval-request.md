@@ -2,6 +2,7 @@
 title: Approve an approval request for a quote
 description: Review and approve or reject a quote advanced approval request that is routed to you as part of an advanced approval workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/approve-a-quote-approval-request.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ If your administrator has configured reminder schedules, you receive automated n
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**
 
-2.  Select the ![](../../../reuse/icons/product-icons/list-outline-24.svg)List icon.
+2.  Select the \[Omitted image "list-outline-24.svg"\] Alt text:List icon.
 
 3.  Navigate to **Quotes** &gt; **All**.
 
@@ -60,5 +61,5 @@ If approved, your decision is recorded for the quote approval step, and the appr
 
 If rejected, the approval request is marked as rejected and the quote is returned for further review or updates, based on the configured approval process.
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

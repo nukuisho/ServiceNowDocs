@@ -2,6 +2,7 @@
 title: Find a facilities request
 description: Facilities administrators can locate and manage requests from the Requests tab within the workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_FindFacilitesRequest.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,23 +24,23 @@ Role required: facilities admin
 
 2.  To help narrow your search results, you can select the campus, building, and floor number for your search.
 
-    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](../reference/r_WorkbenchConfiguration.md).
+    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
 
-    ![Campus and floor selection](../image/CampusFloorSelection.png)
+    \[Omitted image "CampusFloorSelection.png"\] Alt text: Campus and floor selection
 
-    By default, facilities administrators can see all requests for the selected level displayed in the right side pane. Red pins \(![red pin icon shows where facilities requests for floor plan.](../image/RequestPin.png)\) depict those requests on the floor plan.
+    By default, facilities administrators can see all requests for the selected level displayed in the right side pane. Red pins \(\[Omitted image "RequestPin.png"\] Alt text: red pin icon shows where facilities requests for floor plan.\) depict those requests on the floor plan.
 
 3.  Continue with one of the following options.
 
-<table id="choicetable_WorkbenchAccess"><thead><tr><th align="left" id="d36525e127">
+<table id="choicetable_WorkbenchAccess"><thead><tr><th align="left" id="d36838e127">
 
 Option
 
-</th><th align="left" id="d36525e130">
+</th><th align="left" id="d36838e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d36525e136">
+</th></tr></thead><tbody><tr><td id="d36838e136">
 
 **To see all requests assigned to you**
 
@@ -47,7 +48,7 @@ Action
 
 Select **Assigned to me** check box.
 
-</td></tr><tr><td id="d36525e148">
+</td></tr><tr><td id="d36838e148">
 
 **To search for a request**
 
@@ -69,8 +70,8 @@ Select **Assigned to me** check box.
     |------|------|
     |**To see request details**|Click the request number.|
     |**To see tasks associated with a request**|Click the task number under the request.|
-    |**To see the location on the floor plan**|Click the pin \( ![Pin icon that shows a location on floor plan.](../image/PinIcon.png)\) icon.|
+    |**To see the location on the floor plan**|Click the pin \( \[Omitted image "PinIcon.png"\] Alt text: Pin icon that shows a location on floor plan.\) icon.|
 
 
-**Parent Topic:**[Facilities Workbench](../concept/c_FacilitiesWorkbench.md)
+**Parent Topic:**[Facilities Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesWorkbench.md)
 

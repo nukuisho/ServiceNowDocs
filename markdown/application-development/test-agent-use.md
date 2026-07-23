@@ -2,12 +2,13 @@
 title: Author, execute, and troubleshoot tests with Test Agent
 description: Use Test Agent to significantly reduce the skills and resources needed to troubleshoot test failures on covered metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-use.html
 release: australia
 topic_type: task
 last_updated: "2026-04-21"
 reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Test Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Author, execute, and troubleshoot tests with Test Agent
@@ -35,10 +36,14 @@ Role required: admin
     -   Write ATF tests in the global scope by authoring tests from simple prompts, such as validating that all mandatory fields are completed before submitting the Incident form.
     -   Execute existing ATF tests.
 
-        **Note:** If you want to execute an existing ATF test using Test Agent, you're expected to create the ATF test before this process. See [Create new test](../../auto-test-framework/task/atf-tut-build-first.md#) for more information.
+        **Note:** If you want to execute an existing ATF test using Test Agent, you're expected to create the ATF test before this process. You can now use Now Assist to create an ATF test. Select the **Create with Otto** button on the ATF tests list page. If you have Build Agent installed on your instance, you are redirected to the ServiceNow IDE interface. You will see the following message if you don't have Build Agent installed on your instance.
+
+        \[Omitted image "ta-ba-install.png"\] Alt text: Screenshot showing the banner message
+
+        See [Create new test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-tut-build-first.md) for more information.
 
     -   Troubleshoot ATF test failures.
-    -   Use Test Agent, an extension to building or editing apps with Build Agent, to generate ATF tests for newly built or edited functionality, run those tests, and troubleshoot failures directly within the IDE or ServiceNow Studio context.
+    -   Use Test Agent, an extension to building or editing apps with Build Agent, to generate ATF tests for newly built or edited functionality, run those tests, and troubleshoot failures directly within the ServiceNow IDE or ServiceNow Studio context.
     The Test Agent starts the process as mentioned in the prompt.
 
     As you enter a prompt, the interface page displays the associated code for an existing test or the code generated from the prompt.

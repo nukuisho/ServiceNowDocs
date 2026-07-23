@@ -2,6 +2,7 @@
 title: Default guidance for search results
 description: The Default guidance for search results is a guidance that can be used for any search sources that don't have mapped guidances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidances-default-guidance-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Using AI search results in Recommended Actions requires a search application con
 
 Starting with the Yokohama release, the Recommended Actions application automatically creates the mapping between search results and actions.
 
-When an admin creates or updates the search application configuration for a context record, the system [automatically creates search result mapping records](ra-configuring-ai-search-automatically.md) for each of the search sources in that configuration.
+When an admin creates or updates the search application configuration for a context record, the system [automatically creates search result mapping records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search-automatically.md) for each of the search sources in that configuration.
 
 -   If a search source does not have an existing mapping to an action, the system maps the search source to the default guidance.
 -   If a search source has an existing mapping to a specific action, the system keeps that mapping and does not overwrite it with the default guidance.
@@ -34,7 +35,7 @@ The default guidance is available on the following pages:
 
 The preview card for the default guidance displays information about the search result.
 
-![Preview card for the default guidance displays information about the search result, including a title, fields that are relevant to the record type, "Open record" action and Dismiss action.](../image/ra-ai-search-preview-card.png)
+\[Omitted image "ra-ai-search-preview-card.png"\] Alt text: Preview card for the default guidance displays information about the search result, including a title, fields that are relevant to the record type, "Open record" action and Dismiss action.
 
 The preview card for the default guidance includes the following elements.
 
@@ -52,7 +53,7 @@ Search icon
 
 </td><td>
 
-The search icon appears at the top of the card along with the hint text. The icon is made up of a magnifying glass with a sparkle. This icon makes it easy for customers to identify search results from suggested actions.![Default guidance preview card magnifying glass icon and hint text](../image/ra-ai-search-magnify-glass-icon.png)
+The search icon appears at the top of the card along with the hint text. The icon is made up of a magnifying glass with a sparkle. This icon makes it easy for customers to identify search results from suggested actions.\[Omitted image "ra-ai-search-magnify-glass-icon.png"\] Alt text: Default guidance preview card magnifying glass icon and hint text
 
 </td></tr><tr><td>
 
@@ -106,5 +107,5 @@ Agents can use this action to open the associated record in a sub tab. Agents ca
 </table>**Related topics**  
 
 
-[Automatically map AI search results with guidance inputs in Recommended Actions](ra-configuring-ai-search-automatically.md)
+[Automatically map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search-automatically.md)
 

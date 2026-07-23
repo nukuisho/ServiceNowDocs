@@ -2,6 +2,7 @@
 title: View visitor policy confirmations
 description: View policy confirmations that were submitted by the visitors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/view-policy-confirmations.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -81,20 +82,20 @@ State of the policy confirmation.This field is automatically updated based on wh
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing visitor registrations](../concept/manage-visitor-registrations.md)
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
 
-[Use the receptionist portal](use-receptionist-portal.md)
+[Use the receptionist portal]()
 
-[Update a visitor registration](update-visitor-registration.md)
+[Update a visitor registration]()
 
-[View visitor registrations](view-visitor-registrations.md)
+[View visitor registrations]()
 
-[Visitor registration states](../reference/visitor-registration-states.md)
+[Visitor registration states]()
 
-[Anonymize a visitor](anonymize-visitor.md)
+[Anonymize a visitor]()
 
-[Apply visitor management archive policy](apply-visitor-management-archival-rule.md)
+[Apply visitor management archive policy]()
 

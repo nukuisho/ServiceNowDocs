@@ -2,6 +2,7 @@
 title: Work on a move project
 description: After creating a move project, work on the project using the move scheduler. The move scheduler displays all the move requests in a schedule view \(calendar view\) and a list view. Track all the move requests that are grouped under the move project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/work-on-a-move-project.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -19,10 +20,10 @@ After creating a move project, work on the project using the move scheduler. The
 
 Ensure that you have created a move project, and it’s active. For more information about creating a move project, see either of the following topics:
 
--   [Create a move project from existing move requests](create-move-project.md)
--   [Create a move project by uploading an Excel file](create-move-project-excel.md)
+-   [Create a move project from existing move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-move-project.md)
+-   [Create a move project by uploading an Excel file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-move-project-excel.md)
 
-Ensure that you’re aware of the [Move project views, actions, and states](../reference/move-project-schedule-view.md).
+Ensure that you’re aware of the [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-project-schedule-view.md).
 
 Role required: sn\_wsd\_move.manager
 
@@ -32,7 +33,7 @@ Role required: sn\_wsd\_move.manager
 
     You can also open Workplace Central from the Employee Center directly. Navigate to **Workspaces** &gt; **Workplace Central**.
 
-2.  Select the Move management \(![Move management icon.](../images/move-mgmt-icon-central.png)\) module.
+2.  Select the Move management \(\[Omitted image "move-mgmt-icon-central.png"\] Alt text: Move management icon.\) module.
 
 3.  In the **Move management** metrics section, select the **My active projects** tile.
 
@@ -48,13 +49,13 @@ Role required: sn\_wsd\_move.manager
 
     **Important:** Move requests that are in the Unplanned state aren’t displayed with a bar. As a move manager, you must specify the planned start and end date to the move requests.
 
-7.  View the previous week or next week by using the **Previous week/ next week** options \(![Previous next week icon.](../images/week-change-icon.png)\) placed on the top left of the calendar.
+7.  View the previous week or next week by using the **Previous week/ next week** options \(\[Omitted image "week-change-icon.png"\] Alt text: Previous next week icon.\) placed on the top left of the calendar.
 
-8.  Change the calendar view from week to month by using the **Week/Month** option \(![Week/Month icon.](../images/wsd-after-moving-rsv-evnt-planner-update-dialog.png)\).
+8.  Change the calendar view from week to month by using the **Week/Month** option \(\[Omitted image "wsd-after-moving-rsv-evnt-planner-update-dialog.png"\] Alt text: Week/Month icon.\).
 
     **Important:** You can’t move a move request bar in the **Month** view.
 
-9.  View the keyboard shortcuts by selecting the Settings icon \(![Setting icon.](../../workplace-space-mapping/images/gear-icon.png)\).
+9.  View the keyboard shortcuts by selecting the Settings icon \(\[Omitted image "gear-icon.png"\] Alt text: Setting icon.\).
 
 10. View details of a move request by selecting the event/bar on the calendar.
 
@@ -93,11 +94,11 @@ Role required: sn\_wsd\_move.manager
 
     -   **Expected start**: Edit this field to change the expected start of the move request. That is, select the date from when you’re planning to start the move.
     -   **Due date**: Edit this field to change the due date of the move request. That is, select the date by when you want to close the move request.
-14. Switch to a list view of the move requests by selecting the List option \(![List icon.](../images/list-options.png)\).
+14. Switch to a list view of the move requests by selecting the List option \(\[Omitted image "list-options.png"\] Alt text: List icon.\).
 
 15. Remove a request or assign a move request to yourself.
 
-    1.  Select the List option \(![List icon.](../images/list-options.png)\) to open the move requests in a list view.
+    1.  Select the List option \(\[Omitted image "list-options.png"\] Alt text: List icon.\) to open the move requests in a list view.
 
     2.  To remove a request, do the following:
 
@@ -138,7 +139,7 @@ Role required: sn\_wsd\_move.manager
 
     2.  To change the state, edit the **State** field.
 
-        Before changing the states, refer to [Move project views, actions, and states](../reference/move-project-schedule-view.md).
+        Before changing the states, refer to [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-project-schedule-view.md).
 
     3.  Assign the project to another move manager by changing the **Assigned to** field.
 
@@ -148,7 +149,7 @@ Role required: sn\_wsd\_move.manager
         2.  Enter your work notes.
         3.  Select **Post work notes\(private\)**.
         4.  Select **Save**.
-    5.  Add or view attachments of the projects by selecting the Attachments icon \(![Attachments icon.](../images/attachment-icon.png).
+    5.  Add or view attachments of the projects by selecting the Attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: Attachments icon..
 
     6.  Select **Save**.
 
@@ -158,7 +159,7 @@ Role required: sn\_wsd\_move.manager
 
     **Warning:** Deleting a project doesn’t delete or impact the associated move requests. After deletion, the move request will continue to exist in its current state without any project association.
 
-    1.  Select More actions icon \(![More actions icon.](../images/more-actions-move-schedule.png)\).
+    1.  Select More actions icon \(\[Omitted image "more-actions-move-schedule.png"\] Alt text: More actions icon.\).
 
     2.  Select **Delete**.
 
@@ -169,12 +170,12 @@ Role required: sn\_wsd\_move.manager
 
 The changes are saved on the move project.
 
-**Parent Topic:**[Working with Move management](../concept/working-with-move-management.md)
+**Parent Topic:**[Working with Move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-move-management.md)
 
 **Related topics**  
 
 
-[Create a move project from existing move requests](create-move-project.md)
+[Create a move project from existing move requests]()
 
-[Create a move project by uploading an Excel file](create-move-project-excel.md)
+[Create a move project by uploading an Excel file]()
 

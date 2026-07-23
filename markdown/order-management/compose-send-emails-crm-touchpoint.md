@@ -2,6 +2,7 @@
 title: Send an email from a touchpoint
 description: Send emails to customers and stakeholders directly from a touchpoint record without having to leave the workspace. Emails are stored in the CRM system so other agents, managers, and customer success managers have full context about interactions with the customer or account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/compose-send-emails-crm-touchpoint.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Touchpoints** &gt; **All Touchpoints**.
 
@@ -47,7 +48,7 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
 
             Toolbar options are available to format the text.
 
-    5.  Add attachments to your email by selecting the Attach file icon ![](../../tmt-telecom-network-inventory/image/attachments-icon.png) and selecting the file.
+    5.  Add attachments to your email by selecting the Attach file icon \[Omitted image "attachments-icon.png"\] Alt text: and selecting the file.
 
 7.  Either save the email as a draft or send it right away.
 
@@ -60,5 +61,12 @@ Role required: sn\_crm\_touchpoint.touchpoint\_writer
         The email is sent to the recipients and can be viewed from the touchpoint's **Emails** tab.
 
 
-**Parent Topic:**[Using Activity Management](../concept/using-activity-management.md)
+**Parent Topic:**[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+
+**Related topics**  
+
+
+[Configuring Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-activity-management.md)
+
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
 

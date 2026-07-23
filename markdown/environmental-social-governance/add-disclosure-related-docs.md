@@ -2,6 +2,7 @@
 title: Add disclosure documents
 description: Add secondary related or supporting documents to any disclosure you create. Supporting documents may include sustainability reports, corporate governance documents, third-party certifications, and relevant policies such as those on ethics and supply chain practices. These documents provide additional context and validation for environmental, social, and governance disclosures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/add-disclosure-related-docs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +37,7 @@ When you create a disclosure, that disclosure is the primary document. While you
     |Field|Description|
     |-----|-----------|
     |Name|Name of the document.|
-    |Type|Type of document. This field is automatically set to **Secondary** because the primary document is always the blank document for the disclosure that is automatically created.|
+    |Type|Type of document. This field is automatically set to **Secondary** because the primary document is the blank document for the disclosure that is automatically created.|
     |URL|URL of the document if the document is hosted elsewhere.|
     |Document|Supporting files to attach.|
 
@@ -45,5 +46,5 @@ When you create a disclosure, that disclosure is the primary document. While you
 7.  To view the document details, select the document and on the Attachments side panel, the details are displayed.
 
 
-**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](../concept/esg-disclosures.md)
+**Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-disclosures.md)
 

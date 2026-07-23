@@ -1,13 +1,14 @@
 ---
 title: Discovery Home page
-description: The Discovery Home page provides a summary of discoveries that were triggered by cloud and non-cloud schedules. You can view any errors that occurred during a Discovery and find remediation suggestions. Use the Home page view to examine the cloud resources discovered for the service accounts you selected in a cloud schedule. From the ServiceNow Home page, you can view the Discovery errors that occurred during a Discovery and get suggestions for resolving these errors. You can view the errors for all schedules or for a single schedule.
+description: The Discovery Home page provides a summary of discoveries that were triggered by cloud and non-cloud schedules. You can view any errors that occurred during a Discovery and find remediation suggestions. Use the Home page view to examine the cloud resources discovered for the service accounts you selected in a cloud schedule. View and resolve Discovery errors from the ServiceNow Home page. Get suggestions for fixing errors and filter by all schedules or a single schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-home-page.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-24"
-reading_time_minutes: 7
+last_updated: "2026-05-28"
+reading_time_minutes: 8
 breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -15,9 +16,11 @@ breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discove
 
 The Discovery Home page provides a summary of discoveries that were triggered by cloud and non-cloud schedules. You can view any errors that occurred during a Discovery and find remediation suggestions. Use the Home page view to examine the cloud resources discovered for the service accounts you selected in a cloud schedule.
 
-To open the Discovery Home page, navigate to **Discovery** &gt; **Home**. The Home page shows the Discovery totals for each of the following categories. Select a tile to see details for that category.
+To open the Discovery Home page, navigate to **Discovery** &gt; **Home**. The Home page shows the Discovery totals for each of the following categories. Select a tile to view details for that category.
 
-![Discovery Home page](../image/DiscoHomeSummary.png)
+**Note:** Discovery Admin Workspace provides an updated experience for monitoring discoveries, managing schedules, and resolving errors. For more information, see [Discovery Admin Workspace Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-home.md).
+
+\[Omitted image "DiscoHomeSummary.png"\] Alt text: Discovery Home page
 
 <table id="table_home-page-categories"><thead><tr><th>
 
@@ -51,7 +54,7 @@ Cloud Resources
 
 </td><td>
 
-The total number of resources \(virtual machines\) discovered for the service accounts selected. See [Enable discovery of virtual machines](discovery-manager.md#) for details about setting up Discovery for your cloud resources.
+The total number of resources \(virtual machines\) discovered for the service accounts selected. See [Enable discovery of virtual machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-manager.md) for details about setting up Discovery for your cloud resources.
 
  Select **View Cloud Resources** to open a list of discovered cloud resources, by type.
 
@@ -70,7 +73,9 @@ The total number of unresolved errors that occurred during discovery.
 
 The schedule view displays details for each schedule that ran for the selected filter. By default, the list shows all of the active Discovery schedules in alphabetical order, regardless of their current running status.
 
-![Default view of aggregated Discovery schedules](../image/DiscoScheduleMgrDefault.png)
+**Note:** You can also monitor and manage IP and cloud-based schedules in [Discovery Admin Workspace Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-schedules.md).
+
+\[Omitted image "DiscoScheduleMgrDefault.png"\] Alt text: Default view of aggregated Discovery schedules
 
 Use these controls to filter Discovery results by schedules:
 
@@ -81,17 +86,17 @@ Use these controls to filter Discovery results by schedules:
     -   **All**: Results of all Discovery schedules that ran. This is the default filter.
     -   **Cloud Schedules**: Results of all Cloud Discovery schedules that ran. When you select this filter, a second filter appears, allowing you to display cloud schedules by **Service Account**.
 
-        ![Cloud schedule filters](../image/DiscoScheduleMgrCloud.png)
+        \[Omitted image "DiscoScheduleMgrCloud.png"\] Alt text: Cloud schedule filters
 
     -   **IP Based Schedules**: Results of all Discovery schedules that ran for Configuration Items \(CI\), using IP ranges. When you select this filter, a second filter appears, allowing you to display the CI schedules by a specific location or all locations.
 
-        ![IP-based schedule filters](../image/CloudIPBasedFilter.png)
+        \[Omitted image "CloudIPBasedFilter.png"\] Alt text: IP-based schedule filters
 
 -   **Schedule sorter**
 
     From the schedule selector in the left pane, select a sorting criteria, from left to right:
 
-    ![Schedule sorting selections](../image/CloudScheduleSorter.png)
+    \[Omitted image "CloudScheduleSorter.png"\] Alt text: Schedule sorting selections
 
     -   Errors for each schedule listed.
     -   Unidentified IP addresses.
@@ -119,13 +124,13 @@ Use these controls to filter Discovery results by schedules:
 
     Place the cursor over any circle to see a summary of that discovery.
 
-    ![Resource trend chart detail](../image/discovery-trend-circle.png)
+    \[Omitted image "discovery-trend-circle.png"\] Alt text: Resource trend chart detail
 
     Select the circle to filter the values you see in the Discovery topics. The results populate the appropriate tiles above the graph.
 
 -   **Errors by category**
 
-    Category tiles for the errors encountered during the Discovery for the selected schedule. Select a tile to view the errors in that category and to see recommended actions for remediation. See [Discovery error messages](c_DiscoveryErrorMessages.md) for additional details.
+    Category tiles for the errors encountered during the Discovery for the selected schedule. Select a tile to view the errors in that category and to see recommended actions for remediation. See [Discovery error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryErrorMessages.md) for additional details.
 
 -   **Discovered cloud resources**
 
@@ -135,7 +140,7 @@ Use these controls to filter Discovery results by schedules:
 
     Types of schedules to add.
 
-    ![Add cloud schedule selections](../image/CloudScheduleOptions.png)
+    \[Omitted image "CloudScheduleOptions.png"\] Alt text: Add cloud schedule selections
 
 -   **Advanced View**
 
@@ -151,15 +156,17 @@ To display results from IP range discoveries, select **IP Based Schedules** in t
 -   **Unidentified IPs**: Count of unidentified CIs discovered by the IP-based scheduled.
 -   **Targeted IPs**: Count of CIs found that were configured in the IP-based schedule.
 
-![Virtual machine view in the Discovery Home page](../image/DiscoScheduleMgrVM.png)
+\[Omitted image "DiscoScheduleMgrVM.png"\] Alt text: Virtual machine view in the Discovery Home page
 
-## Resolve CI Discovery Schedule errors
+## Resolve CI Discovery schedule errors
 
-From the ServiceNow Home page, you can view the Discovery errors that occurred during a Discovery and get suggestions for resolving these errors. You can view the errors for all schedules or for a single schedule.
+View and resolve Discovery errors from the ServiceNow Home page. Get suggestions for fixing errors and filter by all schedules or a single schedule.
 
 ### Before you begin
 
 Role required: discovery\_admin
+
+**Note:** You can also investigate and resolve Discovery errors in Discovery Admin Workspace. For more information, see [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/daw-error-details.md).
 
 ### Procedure
 
@@ -167,52 +174,52 @@ Role required: discovery\_admin
 
     The summary page for all schedules appears.
 
-    ![CI schedule summary](../image/DiscoHomeSummary.png)
+    \[Omitted image "DiscoHomeSummary.png"\] Alt text: CI schedule summary
 
 2.  View the errors, using one of these methods:
 
-    -   Click the **Errors** tile to see the errors by category for all CI discovery schedules.
-    -   Click the **Schedules** tile to display the errors for a single schedule.
+    -   Select the **Errors** tile to see the errors by category for all configuration item \(CI\) discovery schedules.
+    -   Select the **Schedules** tile to display the errors for a single schedule.
         1.  In the summary screen, select the schedule that you want to investigate for errors.
 
-            If you have numerous schedules, you can filter by location, using the location dropdown list, or filter by the schedule name in the **Search by name** field.
+            If you have numerous schedules, you can filter by location, using the location drop-down list, or filter by the schedule name in the **Search by name** field.
 
-            ![CI schedule results](../image/CIScheduleMgrFilter.png)
+            \[Omitted image "CIScheduleMgrFilter.png"\] Alt text: CI schedule results
 
-        2.  After you select the schedule, click the **Errors** tile.
+        2.  After you select the schedule, select the **Errors** tile.
         3.  Scroll down to view the errors by category.
 
-            ![Errors by category for a schedule](../image/CIScheduleMgrErrorbyCat.png)
+            \[Omitted image "CIScheduleMgrErrorbyCat.png"\] Alt text: Errors by category for a schedule
 
-3.  Click a category tile to display the specific error codes that occurred in that category.
+3.  Select a category tile to display the specific error codes that occurred in that category.
 
-4.  Click the tile for the error code you want to investigate.
+4.  Select the tile for the error code you want to investigate.
 
-    ![Errors by category](../image/CIScheduleMgrCategories.png)
+    \[Omitted image "CIScheduleMgrCategories.png"\] Alt text: Errors by category
 
     The list displays all occurrences of that error code, either for a single CI schedule or for all schedules, depending on the path you took to view the errors. The list shows the IP address of each instance that experienced the error and the error status **Active error**. The **Recommended Actions** pane on the right contains the recommended action for the selected error. The **ACTION ON ALL** pane contains operations you can execute on all the errors in the list.
 
-    ![Automation Error Messages filter](../image/CIScheduleMgrErrorControls.png)
+    \[Omitted image "CIScheduleMgrErrorControls.png"\] Alt text: Automation Error Messages filter
 
-5.  Click **View instructions** to see details and remediation suggestions for the error code.
+5.  Select **View instructions** to see details and remediation suggestions for the error code.
 
-    ![Error details and remediation instructions](../image/CIScheduleMgrErrorInst.png)
+    \[Omitted image "CIScheduleMgrErrorInst.png"\] Alt text: Error details and remediation instructions
 
 6.  To begin work, either select the check box next to an error to resolve that specific error or select an action for **ALL** to resolve that error code for all instances of that error.
 
     In this example, the system recommends creating new Windows credentials to resolve this error code.
 
-    ![Error detail and recommended actions](../image/CIScheduleMgrErrorDetail.png)
+    \[Omitted image "CIScheduleMgrErrorDetail.png"\] Alt text: Error detail and recommended actions
 
 7.  Complete the suggested remediation tasks before attempting to retry Discovery.
 
     In this example, the **Create new Windows Credentials** link opens a form for creating and testing new Windows credentials.
 
-    ![Create new Windows credentials](../image/CIScheduleMgrWinCred.png)
+    \[Omitted image "CIScheduleMgrWinCred.png"\] Alt text: Create new Windows credentials
 
-8.  After all the recommended tasks are complete, click **Retry Discovery**.
+8.  After all the recommended tasks are complete, select **Retry Discovery**.
 
-    A possible course of action might be to retry Discovery for **ALL** instances after creating the credentials. The new credentials might solve the issue for all the instances experiencing this error code.
+    A possible course of action might be to retry discovery for **ALL** instances after creating the credentials. The new credentials might solve the issue for all the instances experiencing this error code.
 
 9.  Check the **Error Status** column to see the results of your remediation efforts.
 
@@ -222,18 +229,18 @@ Role required: discovery\_admin
 
     -   **Active error**: Unresolved error. This is the default status of all new errors.
     -   **Resolved**: Resolved error. The recommended actions show Error successfully resolved.
-    -   **Assigned**: Task assigned to resolve this error. Click **Create a task** to assign a user to a task for all active errors. Assigned errors are considered **Active errors**, and actions can still be performed on them.
+    -   **Assigned**: Task assigned to resolve this error. Select **Create a task** to assign a user to a task for all active errors. Assigned errors are considered **Active errors**, and actions can still be performed on them.
     -   **Pending Discovery**: Waiting for Discovery to start after you execute the **Retry Discovery** action on all errors.
     -   **In Discovery**: Discovery is currently active.
 
 **Related topics**  
 
 
-[Discovery status](c_DiscoveryStatus.md)
+[Discovery status]()
 
-[Review the logs for horizontal discovery](../reference/r_DiscoveryLog.md#)
+[Review the logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryLog.md)
 
-[The ECC queue for Discovery](../reference/r_DiscoveryStatusECCQueue.md)
+[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
 
-[Create Discovery schedules for cloud resources](discovery-manager.md#)
+[Create Discovery schedules for cloud resources]()
 

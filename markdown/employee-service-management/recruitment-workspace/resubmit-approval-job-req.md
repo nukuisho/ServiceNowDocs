@@ -2,6 +2,7 @@
 title: Resend a job requisition for approval
 description: Resend a job requisition for approval if last-minute changes or technical faults.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/resubmit-approval-job-req.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -28,7 +29,7 @@ Role required: sn\_ta\_hiring\_core.recruiter
 3.  Select **Resend for approval**.
 
     -   The requisition which was in **Ready** state before goes back to **Pending approval** state.
-    -   For more information on the state management system, see [Job requisition state management](../reference/job-req-state-mngmnt.md).
+    -   For more information on the state management system, see [Job requisition state management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/job-req-state-mngmnt.md).
 
 ## Result
 
@@ -36,24 +37,24 @@ The approval request is resend to the assigned approver.
 
 On the **Approvers** tab, the state of the approval request changes to Requested.
 
-**Parent Topic:**[Manage the job requisitions as a recruiter](../../employee-center/concept/manage-job-reqs.md)
+**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
 
 **Related topics**  
 
 
-[Put a job requisition on hold](put-req-on-hold.md)
+[Put a job requisition on hold]()
 
-[Withdraw hold on a job requisition](off-hold-job-req.md)
+[Withdraw hold on a job requisition]()
 
-[Duplicate a job requisition](duplicate-job-req.md)
+[Duplicate a job requisition]()
 
-[Close a job requisition](close-a-job-req.md)
+[Close a job requisition]()
 
-[Reopen a job requisition](reopen-job-req.md)
+[Reopen a job requisition]()
 
-[Submit a job requisition for approval](submit-for-approval-job-req.md)
+[Submit a job requisition for approval]()
 
-[Cancel a submitted approval request](cancel-approval-job-req.md)
+[Cancel a submitted approval request]()
 
-[Open a job requisition in your ATS](open-a-job-req-for-ats.md)
+[Open a job requisition in your ATS]()
 

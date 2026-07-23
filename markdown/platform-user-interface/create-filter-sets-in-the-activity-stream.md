@@ -2,6 +2,7 @@
 title: Use filter sets in the Activity stream
 description: Create and save filter sets with custom conditions in the Activity stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-filter-sets-in-the-activity-stream.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: workspace\_user
 
 1.  Open a record in your instance.
 
-2.  From the Activity stream, select the filter icon \(![Filter icon](../image/filter-icon-new.png)\).
+2.  From the Activity stream, select the filter icon \(\[Omitted image "filter-icon-new.png"\] Alt text: Filter icon\).
 
 3.  Select the **Post Types** list, and select the values you want to filter.
 
@@ -37,7 +38,7 @@ Role required: workspace\_user
 
     The new filter set appears in the **Filter sets** list.
 
-8.  Select **Filter sets** and the edit icon \(![Pencil icon](../image/pencil-icon.png)\) for a filter set.
+8.  Select **Filter sets** and the edit icon \(\[Omitted image "pencil-icon.png"\] Alt text: Pencil icon\) for a filter set.
 
     The Edit activity filter set dialog box opens.
 

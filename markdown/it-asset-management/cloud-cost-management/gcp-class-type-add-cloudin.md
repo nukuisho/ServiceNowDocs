@@ -2,13 +2,14 @@
 title: Add a Google Cloud CI class type to ensure accurate billing data
 description: Specify the details of a new CI or CI type to enable the CI placement process to assign cost and usage data correctly. The process is a part of Billing Download job execution. The CI placement process associates downloaded cost and usage data with the appropriate CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/gcp-class-type-add-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Set up access to Google Cloud billing and usage data, Configure Cloud Cost Management for Google Cloud, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Google Cloud billing and usage data, Configure Cloud Cost Management for Google Cloud, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Add a Google Cloud CI class type to ensure accurate billing data
@@ -29,11 +30,11 @@ The CI placement type table for Google Cloud \[sn\_cld\_intg\_gcp\_ci\_placement
 
 1.  Go to the CI placement type table and select **New**.
 
-    ![List of class types in the Core CI placement type table](../image/gcp-ci-type.png "Google Cloud class types in the Core CI placement type table [sn_cld_intg_core_ci_placement_type]")
+    \[Omitted image "gcp-ci-type.png"\] Alt text: List of class types in the Core CI placement type table
 
 2.  Fill in the form.
 
-    ![Example class type definition.](../image/aws-class-type-defintion.png)
+    \[Omitted image "aws-class-type-defintion.png"\] Alt text: Example class type definition.
 
 <table id="table_vgv_w4k_gtb"><thead><tr><th>
 
@@ -80,6 +81,6 @@ Parameter values in the billing node table that uniquely define the CI type.
 </td></tr></tbody>
 </table>3.  After you add a class type, you must reimport billing and usage data to ensure that CIs are correctly placed into the new type.
 
-    **Note:** The supported CIs are placed after the Cumulus Unsupported CI Placement scheduled job runs daily. For more information, see [Supported CI class types for Google Cloud services](../reference/gcp-supported-ci-class-types.md).
+    **Note:** The supported CIs are placed after the Cumulus Unsupported CI Placement scheduled job runs daily. For more information, see [Supported CI class types for Google Cloud services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-supported-ci-class-types.md).
 
 

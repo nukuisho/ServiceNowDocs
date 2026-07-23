@@ -2,6 +2,7 @@
 title: Caching for Now Assist Q&amp;A Genius Results
 description: AI Search provides two query-time caches to improve search performance for Now Assist Q&amp;A Genius Results. Caching enables AI Search to return previously generated Now Assist Q&amp;A Genius Result answers without submitting knowledge articles to the Now LLM Service for answer generation.Improve performance for Now Assist Q&amp;A Genius Results by pinning frequently used answers in the second-level cache. Pinning an answer exempts it from the cache's purge mechanism.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/caching-now-assist-q-a-gr.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -42,7 +43,7 @@ The cache includes two levels which work in different ways to improve search per
 
     When checking the second-level cache, AI Search queries the indexed table, looking for an entry that matches your search query and the sys\_id of your knowledge article search result. If it finds a matching entry, it returns the article summary stored in the indexed table. Otherwise, it goes on to submit your search query and knowledge article search result to the Now LLM Service.
 
-    **Note:** Unlike the first-level cache, the second-level cache compares search query meanings using semantic vector search, so you may get a cache result even if your search query isn't an exact keyword match for the cached search query. For example, if you search for `avoiding scams` you might get the result for a cached entry with search query `how to prevent scams` because the meanings of the two search queries are similar. For more information on semantic vector search, see [Semantic vector search in AI Search](semantic-search-ais.md).
+    **Note:** Unlike the first-level cache, the second-level cache compares search query meanings using semantic vector search, so you may get a cache result even if your search query isn't an exact keyword match for the cached search query. For example, if you search for `avoiding scams` you might get the result for a cached entry with search query `how to prevent scams` because the meanings of the two search queries are similar. For more information on semantic vector search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-search-ais.md).
 
 
 ## Benefits of caching
@@ -56,7 +57,7 @@ Caching for Now Assist Q&amp;A Genius Results provides the following benefits:
 
 ## Content Security for cached queries
 
-Because AI Search applies Content Security restrictions to your search before it matches knowledge articles and checks the caches, neither cache returns hits for knowledge articles that you don't have access to. For full details on AI Search's Content Security model, see [Content security in AI Search](content-security-ais.md).
+Because AI Search applies Content Security restrictions to your search before it matches knowledge articles and checks the caches, neither cache returns hits for knowledge articles that you don't have access to. For full details on AI Search's Content Security model, see [Content security in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/content-security-ais.md).
 
 ## Cache modes
 
@@ -89,18 +90,18 @@ The Now Assist Q&amp;A Genius Result answer caches support the following operati
 
 The default operational mode is **off**.
 
-Administrators can change the operational mode for the Now Assist Q&amp;A Genius Result answer caches by setting the value for the **sn\_ais\_assist.semantic\_cache\_mode** system property to **off**, **offline**, or **online**. For details on system property settings, see [Add a system property](../../reference-pages/reference/r_AvailableSystemProperties.md#).
+Administrators can change the operational mode for the Now Assist Q&amp;A Genius Result answer caches by setting the value for the **sn\_ais\_assist.semantic\_cache\_mode** system property to **off**, **offline**, or **online**. For details on system property settings, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
-For more details on using Dynamic Translation with Now Assist Genius Results, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](dynamic-translation-na-gr.md).
+For more details on using Dynamic Translation with Now Assist Genius Results, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md).
 
 ## Scheduled job for cache management
 
 The **Update Semantic Cache** scheduled job runs daily to perform the following tasks:
 
--   Populate the second-level cache with results for the most frequently submitted queries found in the Search Event \[sys\_search\_event\] search signal table. For more information on this table, see [Search signal tables](../../search-administration/reference/search-signal-tables.md).
--   Purge all unpinned second-level cache entries that have not been used in the past seven days. Search administrators can pin results in the second-level cache table to prevent them from being purged. For more details on this procedure, see [Pin cached answers for Now Assist Q&amp;A Genius Results](caching-now-assist-q-a-gr.md#).
+-   Populate the second-level cache with results for the most frequently submitted queries found in the Search Event \[sys\_search\_event\] search signal table. For more information on this table, see [Search signal tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-signal-tables.md).
+-   Purge all unpinned second-level cache entries that have not been used in the past seven days. Search administrators can pin results in the second-level cache table to prevent them from being purged. For more details on this procedure, see [Pin cached answers for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 
-**Parent Topic:**[Now Assist Q&amp;A Genius Results](now-assist-qna-genius-results.md)
+**Parent Topic:**[Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
 
 ## Pin cached answers for Now Assist Q&amp;A Genius Results
 
@@ -108,7 +109,7 @@ Improve performance for Now Assist Q&amp;A Genius Results by pinning frequently 
 
 ### Before you begin
 
-The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](../task/install-now-assist-ais.md).
+The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: ais\_admin
 
@@ -118,7 +119,7 @@ Search administrators can pin entries in the second-level cache for Now Assist Q
 
 Pinning frequently used entries helps improve search performance by enabling AI Search to return previously generated Now Assist Q&amp;A Genius Result answers without submitting knowledge articles to the Now LLM Service for answer generation.
 
-To learn more about the second-level Now Assist Q&amp;A Genius Result answer cache and its usage, see [Caching for Now Assist Q&amp;A Genius Results](caching-now-assist-q-a-gr.md#).
+To learn more about the second-level Now Assist Q&amp;A Genius Result answer cache and its usage, see [Caching for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 
 ### Procedure
 

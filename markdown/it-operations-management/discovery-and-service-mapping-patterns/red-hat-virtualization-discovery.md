@@ -2,6 +2,7 @@
 title: Oracle Linux Virtualization Manager and Red Hat Virtualization discovery
 description: The ServiceNow Discovery application uses patterns to find Oracle Linux Virtualization Manager \(OLVM\) and Red Hat Virtualization \(RHV\) components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/red-hat-virtualization-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -28,7 +29,22 @@ Discovery uses the following patterns for OLVM and RHV discovery:
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+## OLVM and RHV data model
+
+The OLVM and RHV patterns introduce the following CI classes that are part of the data model.
+
+|CI class|Extends from|
+|--------|------------|
+|oVirt LDC \[cmdb\_ci\_rhv\_ldc\]|Logical Datacenter \[cmdb\_ci\_logical\_datacenter\]|
+|oVirt Cluster \[cmdb\_ci\_rhv\_cluster\]|oVirt Object \[cmdb\_ci\_rhv\_object\]|
+|oVirt Server \[cmdb\_ci\_rhv\_server\]|Virtualization Server \[cmdb\_ci\_virtualization\_server\]|
+|oVirt Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\]|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
+|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|Network Adapter \[cmdb\_ci\_network\_adapter\]|
+|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
+|IP Address \[cmdb\_ci\_ip\_address\]|Configuration Item \[cmdb\_ci\]|
+|VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]|Endpoint \[cmdb\_ci\_endpoint\]|
 
 ## Prerequisites
 
@@ -66,7 +82,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   /ovirt-engine/api/networks
 -   **Add CMDB CI Class Models**
 
-    Add class models that extend the CMDB class hierarchy, using the CMDB CI Class Models application. The app is available from the ServiceNow Store. Discovery patterns use these class extensions to populate CIs. For more information, see [Red Hat Virtualization \(RHV\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-redhat-rhv.md).
+    Add class models that extend the CMDB class hierarchy, using the CMDB CI Class Models application. The app is available from the ServiceNow Store. Discovery patterns use these class extensions to populate CIs. For more information, see [Red Hat Virtualization \(RHV\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-redhat-rhv.md).
 
 -   **Create a cloud service account**
 
@@ -121,11 +137,11 @@ The datacenter type, which should be oVirt LDC \[cmdb\_ci\_rhv\_ldc\].
 </td></tr></tbody>
 </table>-   **Create a discovery schedule**
 
-    For more information, see [Create an oVirt Discovery schedule in Discovery Admin Workspace](../../discovery/task/create-ovirt-schedule-DAW.md).
+    For more information, see [Create an oVirt Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-ovirt-schedule-DAW.md).
 
 -   **\(Optional\) Populate Service Account and Logical Datacenter fields in cloud CIs**
 
-    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables](../concept/query-service-account-ldc-fields.md).
+    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables]().
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -138,7 +154,6 @@ Discovery populates the data in the CMDB when running the patterns.
 |Object ID \[object\_id\]|Unique object identifier.|
 |Description \[short\_description\]|Description of the datacenter that you provide for easy identification.|
 |Quota Mode \[quota\_mode\]|Quota mode policy.|
-|URL \[url\]|API URL to access the datacenter.|
 |Href ID \[href\_id\]|Href ID.|
 
 |Field|Description|
@@ -153,8 +168,6 @@ Discovery populates the data in the CMDB when running the patterns.
 |Memory Overcommit \[memory\_overcommit\]|Amount of over-commitment memory allowed on the cluster.|
 |Transparent Huge Pages \[thp\]|Transparent huge memory pages policy.|
 |Ballooning \[ballooning\]|Memory ballooning for guests.|
-|Compatability Version \[compatibility\_version\]|Compatibility version.|
-|URL \[url\]|API URL to access the cluster.|
 |Href ID \[href\_id\]|Href ID.|
 
 |Field|Description|
@@ -172,7 +185,6 @@ Discovery populates the data in the CMDB when running the patterns.
 |Operating System \[os\]|OS family.|
 |OS Version \[os\_version\]|OS version.|
 |RAM \(MB\) \[ram\]|Amount of RAM \(MB\).|
-|URL \[url\]|API URL used access the server.|
 
 |Field|Description|
 |-----|-----------|
@@ -181,8 +193,6 @@ Discovery populates the data in the CMDB when running the patterns.
 |Object ID \[object\_id\]|Unique object identifier.|
 |IP Address \[ip\_address\]|IP address of the instance.|
 |Disks \[disks\]|Number of disks.|
-|MAC Address \[mac\_address\]|MAC address of the instance.|
-|Management URL \[mgmt\_url\]|Management API URL.|
 |Description \[short\_description\]|Description of the instance that you provide for easy identification.|
 |Fully qualified domain name \[fqdn\]|Fully Qualified Domain Name \(FQDN\) of the instance.|
 |CPU Architecture \[cpu\_architecture\]|CPU architecture. For example: Intel Broadwell IBRS SSBD MDS Family.|
@@ -216,6 +226,7 @@ Discovery populates the data in the CMDB when running the patterns.
 |Name \[name\]|The IP address of the network interface card \(NIC\) assigned to the VM.|
 |IP Address \[ip\_address\]|The IP address of the NIC assigned to the VM.|
 |IP version \[ip\_version\]|IP version: IPv4 or IPv6.|
+|Nic \[nic\]|References the Cloud Mgmt Network Interface \[cmdb\_ci\_nic\] associated with this IP address.|
 
 |Field|Description|
 |-----|-----------|
@@ -250,41 +261,38 @@ Discovery populates the data in the CMDB when running the patterns.
 |Cores \[cores\]|Number of CPU cores.|
 |Install Status \[install\_status\]|Install status of the template. Default value is Installed.|
 |Memory MB \[memory\_mb\]|Memory in megabytes \(MB\).|
+|Provider \[provider\]|Provider for the template. Value is set to **oVirt**.|
 
 On the Dependency Views map, you can view all discovered OLVM or RHV resources in your organization and the relationships between them.
 
-![OLVM or RHV CIs and connections on a Dependency Views map](../image/ovirt-dependency-view.png "OLVM or RHV dependency view")
+\[Omitted image "ovirt-dependency-view.png"\] Alt text: OLVM or RHV CIs and connections on a Dependency Views map
 
 ## CI relationships
 
-The following relationships are created to support OLVM or RHV discovery.
+The OLVM and RHV patterns create the following relationships and references to support OLVM and RHV discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI|Relationship|CI|
 |---|------------|---|
 |Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\]|Hosted on::Hosts|oVirt LDC \[cmdb\_ci\_rhv\_ldc\]|
 |Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|Hosted on::Hosts|oVirt LDC \[cmdb\_ci\_rhv\_ldc\]|
 |Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
-|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|Extends from|Network Adapter \[cmdb\_ci\_network\_adapter\]|
 |Cloud Network \[cmdb\_ci\_network\]|Hosted on::Hosts|oVirt LDC \[cmdb\_ci\_rhv\_ldc\]|
-|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|Extends from|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
-|IP Address \[cmdb\_ci\_ip\_address\]|Extends from|Configuration Item \[cmdb\_ci\]|
 |oVirt Cluster \[cmdb\_ci\_rhv\_cluster\]|Members::Member of|oVirt Server \[cmdb\_ci\_rhv\_server\]|
-|oVirt Cluster \[cmdb\_ci\_rhv\_cluster\]|Extends from|oVirt Object \[cmdb\_ci\_rhv\_object\]|
 |oVirt LDC \[cmdb\_ci\_rhv\_ldc\]|Contains::Contained by|oVirt Cluster \[cmdb\_ci\_rhv\_cluster\]|
 |oVirt LDC \[cmdb\_ci\_rhv\_ldc\]|Hosted on::Hosts|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|
-|oVirt LDC \[cmdb\_ci\_rhv\_ldc\]|Extends from|Logical Datacenter \[cmdb\_ci\_logical\_datacenter\]|
 |oVirt Server \[cmdb\_ci\_rhv\_server\]|Runs on::Runs|Linux Server \[cmdb\_ci\_linux\_server\]|
-|oVirt Server \[cmdb\_ci\_rhv\_server\]|Extends from|Virtualization Server \[cmdb\_ci\_virtualization\_server\]|
 |oVirt Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\]|Contains::Contained by|Storage Volume \[cmdb\_ci\_storage\_volume\]|
 |oVirt Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\]|Hosted on::Hosts|oVirt Cluster \[cmdb\_ci\_rhv\_cluster\]|
 |oVirt Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\]|Hosted on::Hosts|oVirt LDC \[cmdb\_ci\_rhv\_ldc\]|
 |oVirt Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
-|oVirt Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\]|Registered on::Registers|oVirt Server \[cmdb\_ci\_rhv\_server\]|
+|oVirt Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\]|Registered on::Has registered|oVirt Server \[cmdb\_ci\_rhv\_server\]|
 |oVirt Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\]|Use End Point To::Use End Point From|VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]|
-|oVirt Virtual Machine Instance \[cmdb\_ci\_rhv\_vm\_instance\]|Extends from|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|Hosted on::Hosts|oVirt LDC \[cmdb\_ci\_rhv\_ldc\]|
 |VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]|Implement End Point To::Implement End Point From|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
-|VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]|Extends from|Endpoint \[cmdb\_ci\_endpoint\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|IP Address \[cmdb\_ci\_ip\_address\]|Nic \[nic\]|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
+
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

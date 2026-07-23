@@ -2,6 +2,7 @@
 title: Collaborate using Microsoft Teams from an interaction record in Service Operations Workspace
 description: You can initiate a chat or make conference calls using Microsoft Teams to communicate with stakeholders to resolve the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/collaborate-interaction-ms-teams-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,13 +24,13 @@ Role required: itil or admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(![List icon](../image/list-icon-new.png)\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
 
 3.  Select **Interactions** &gt; **Open**.
 
 4.  Select the interaction record.
 
-5.  Select the **Collaborate** icon \(![Collaborate icon](../image/collab-icon-02.png)\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
 
 6.  Select **Start Microsoft Teams chat**.
 
@@ -49,19 +50,19 @@ Role required: itil or admin
 
         -   A chat conversation is initiated in Microsoft Teams.
         -   All automatic chats are automatically imported to the **Collaborate** panel.
-9.  To view a chat conversation, click the more options icon \(![more options icon](../image/more-options-card.png)\) on the chat and select **View chat**.
+9.  To view a chat conversation, click the more options icon \(\[Omitted image "more-options-card.png"\] Alt text: more options icon\) on the chat and select **View chat**.
 
 10. To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d278117e240">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d283023e240">
 
 Option
 
-</th><th align="left" id="d278117e243">
+</th><th align="left" id="d283023e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d278117e249">
+</th></tr></thead><tbody><tr><td id="d283023e249">
 
 **Import a chat from any conversation**
 
@@ -72,27 +73,27 @@ Description
 3.  Select the chat and click **Import**.
 
 
-</td></tr><tr><td id="d278117e279">
+</td></tr><tr><td id="d283023e279">
 
 **Import a chat from a conversation in which you are a member**
 
 </td><td>
 
-1.  From the conversation that you are a member of, click the more options icon \(![more options icon](../image/more-options-card.png)\) and select **View chat**.
-2.  Click the filter chat messages icon \(![filter chat messages icon](../image/filter-icon.png)\) and select the type of messages you want to view.
+1.  From the conversation that you are a member of, click the more options icon \(\[Omitted image "more-options-card.png"\] Alt text: more options icon\) and select **View chat**.
+2.  Click the filter chat messages icon \(\[Omitted image "filter-icon.png"\] Alt text: filter chat messages icon\) and select the type of messages you want to view.
 3.  Select the required messages and click **Import**.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Interaction Management in Service Operations Workspace](../concept/interaction-sow.md)
+**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/interaction-sow.md)
 
 **Related topics**  
 
 
-[Create an interaction in Service Operations Workspace](create-interaction-sow.md)
+[Create an interaction in Service Operations Workspace]()
 
-[Work on an interaction in Service Operations Workspace](work-on-interaction-sow.md)
+[Work on an interaction in Service Operations Workspace]()
 
-[Associate an interaction with a task record](associate-interaction-record-sow.md)
+[Associate an interaction with a task record]()
 

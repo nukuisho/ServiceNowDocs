@@ -2,6 +2,7 @@
 title: Dealer data model
 description: The dealer framework helps you manage the day-to-day business activities and monitor the real-time data insight.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/dealer-data-model-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,10 +18,10 @@ The dealer portal provides you with a wide range of benefits such as claims mana
 
 The following diagram shows the entities and their relationships within the Dealer application.
 
-![Decorative](../image/Data-model-dealer.png "Dealer data model")
+\[Omitted image "Data-model-dealer.png"\] Alt text: Decorative
 
--   **[Dealer tables](dealer-tables.md)**  
+-   **[Dealer tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/dealer-tables.md)**  
 This section explains the dealer tables in Manufacturing Commercial Operations.
 
-**Parent Topic:**[Data model](data-model.md)
+**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/data-model.md)
 

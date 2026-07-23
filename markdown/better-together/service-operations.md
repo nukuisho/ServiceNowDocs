@@ -2,6 +2,7 @@
 title: Automating and optimizing your services and operations using Service Operations Workspace
 description: You can expand services while reducing costs, delivering high-quality customer and employee experiences, and driving operational resilience. Use a single cloud platform that integrates IT processes such as incident, problem, and change with IT operations such as discovery, business service definitions, service mapping, and event management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/better-together/service-operations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ You can expand services while reducing costs, delivering high-quality customer a
 
 ## Combined benefits of integrating Service Operations Workspace for IT Service Management \(ITSM\) and IT Operations Management \(ITOM\)
 
-![Benefits of integrating Service Operations Workspace for ITSM and ITOM](../image/sow-solutions-benefits.png)
+\[Omitted image "sow-solutions-benefits.png"\] Alt text: Benefits of integrating Service Operations Workspace for ITSM and ITOM
 
 <table id="table_mbd_31q_lvb"><thead><tr><th>
 
@@ -39,15 +40,15 @@ Simple, intuitive, and clear user interface \(UI\)
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -55,15 +56,15 @@ Automated recommendations based on user actions
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -71,15 +72,15 @@ Tailored landing page providing an overview of tasks
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -87,15 +88,15 @@ Effective incident management for service desk agents
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -103,15 +104,15 @@ Experts on call for high-priority tasks 
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -119,15 +120,15 @@ Onboarding experience for logged-in users
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -135,15 +136,15 @@ Walk-up experience
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -151,15 +152,15 @@ Request management from incidents and interactions
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -167,15 +168,15 @@ Guided experience for initial configuration of Service Operations Workspace
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -183,15 +184,15 @@ Presentation of a service's complete context with related metrics, logs, and add
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -199,15 +200,15 @@ Quick remediation for alerts of a service
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -215,15 +216,15 @@ Quick automation for operators when using an embedded playbook experience within
 
 </td><td>
 
-![No](../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr></tbody>
 </table>## Workflow for Service Operations Workspace
@@ -238,7 +239,7 @@ Use Service Operations Workspace for IT Service Management \(ITSM\) and IT Opera
 
 The following figure shows an example workflow of how an IT operator and a service agent \(service desk agent or L2/L3 specialist\) can use these applications to resolve a customer issue.
 
-![Service Operations Workspace workflow for ITSM and ITOM integration](../image/sow-workflow.png "Service Operations Workspace for ITSM and ITOM workflow")
+\[Omitted image "sow-workflow.png"\] Alt text: Service Operations Workspace workflow for ITSM and ITOM integration
 
 In this workflow:
 
@@ -259,7 +260,7 @@ In this workflow:
     3.  Install Service Operations Workspace ITSM Applications from the ServiceNow® Store. For information about installing this application, see Install Service Operations Workspace ITSM Applications.
 2.  Ensure that the following conditions are met for Service Operations Workspace for ITOM.
     1.  Procure the ITOM Professional license or later for ServiceNow® IT Operations Management applications. Contact your ServiceNow account manager or sales representative.
-    2.  Install Service Operations Workspace ITOM Applications from the ServiceNow® Store. For information about installing this application, see [Install Service Operations Workspace for ITOM Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/install-sow-itom-apps.md).
+    2.  Install Service Operations Workspace ITOM Applications from the ServiceNow® Store. For information about installing this application, see [Install Service Operations Workspace for ITOM Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/install-sow-itom-apps.md).
 
 ## Get started with Service Operations Workspace for ITSM and ITOM
 
@@ -270,7 +271,7 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: admin.
 
-    2.  Set up Investigation Framework. See [Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/set-up-investigate.md).
+    2.  Set up Investigation Framework. See [Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/set-up-investigate.md).
 
         Role: admin.
 
@@ -283,7 +284,7 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: evt\_mgmt\_operator.
 
-    2.  Configure alert metrics. See [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-metrics-itom.md).
+    2.  Configure alert metrics. See [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-alert-metrics-itom.md).
 
         Role: evt\_mgmt\_operator.
 
@@ -295,13 +296,13 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: evt\_mgmt\_admin.
 
-    5.  Customize Service Operations Workspace lists. See [Customize lists in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-list-sow.md).
+    5.  Customize Service Operations Workspace lists. See [Customize lists in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-list-sow.md).
 
         Role: itil.
 
 
--   **[Case Study: Enhancing Risk, Compliance, and Audit Management with ITOM](use-case-itom-risk-compliance-audit-mgmt.md)**  
+-   **[Case Study: Enhancing Risk, Compliance, and Audit Management with ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/use-case-itom-risk-compliance-audit-mgmt.md)**  
 The use case demonstrates how ITOM integration streamlined risk, compliance, and audit management for a financial institution by providing real-time operational visibility, automation, and enhanced risk assessments.
 
-**Parent Topic:**[Solutions](../reference/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
 

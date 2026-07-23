@@ -2,6 +2,7 @@
 title: Get started with dynamic outputs
 description: Create a sample action that builds dynamic outputs for use in a flow.Create the aliases, connections, and credentials that REST steps will use to connect to your local instance.Create a data gathering action to look up a table schema and convert into a JSON object.Create a data gathering action to generate an array of objects from a list of records.Create a sample action to dynamically generate two action outputs, Record and Records which refresh dynamically when the value for the Table input changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/getting-started-dynamic-output.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,31 +22,31 @@ Role required: action\_designer or admin
 
 ## Procedure
 
-1.  [Create connection and credential records for dynamic outputs](getting-started-dynamic-output.md#)
+1.  [Create connection and credential records for dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This connection &amp; credential alias will provide the base URL and user account needed to configure the REST steps of your data gathering actions.
 
-2.  [Create a data gathering action to get a record schema](getting-started-dynamic-output.md#)
+2.  [Create a data gathering action to get a record schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This data gathering action will convert a single record into a JSON object for a record dynamic output.
 
-3.  [Create a data gathering action to get an array of records schema](getting-started-dynamic-output.md#)
+3.  [Create a data gathering action to get an array of records schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This data gathering action will convert a list of records record into JSON array of objects for a records dynamic output.
 
-4.  [Create a custom action to test dynamic outputs](getting-started-dynamic-output.md#)
+4.  [Create a custom action to test dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md)
 
     This custom action illustrates two types of dynamic output data. One dynamic output generates an object for a single record. Another dynamic output generates an array of objects for a list of records.
 
 
-**Parent Topic:**[Dynamic outputs](../concept/dynamic-outputs.md)
+**Parent Topic:**[Dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-outputs.md)
 
 **Related topics**  
 
 
-[Create a data gathering action for a dynamic object](create-data-gathering-action-dynamic-object.md)
+[Create a data gathering action for a dynamic object]()
 
-[Dynamic output configuration options](../reference/dynamic-output-options.md)
+[Dynamic output configuration options]()
 
 ## Create connection and credential records for dynamic outputs
 
@@ -118,7 +119,7 @@ In this task, you create a data gathering action that collects the schema for a 
 -   A script step to transform the REST step's JSON Response Body into a dynamic object. The dynamic object consists of JSON name-value pairs, where there is an entry for each field in the table.
 -   An output variable named `output` of type JSON to store the dynamic object.
 
-**Note:** This task re-creates the demo actions that are installed when you [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-integrationhub.md) for your instance.
+**Note:** This task re-creates the demo actions that are installed when you Request an Integration Hub plugin for your instance.
 
 ### Procedure
 
@@ -142,26 +143,26 @@ In this task, you create a data gathering action that collects the schema for a 
 
     4.  To make this input required, toggle the **Mandatory** slider so that it is active.
 
-5.  In the Action Outline, select the add a new step icon \(![Add a new step icon](../images/add-new-step-icon.png)\) under Inputs and select **REST Step**.
+5.  In the Action Outline, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: Add a new step icon\) under Inputs and select **REST Step**.
 
 6.  Under the REST step header, fill in the following fields.
 
     |Field|Value|
     |-----|-----|
     |Connection|Leave the **Use Connection Alias** option selected.|
-    |Connection Alias|select the create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md).|
+    |Connection Alias|select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).|
     |Build Request|Leave the **Manually** option selected.|
-    |Resource Path|Enter `api/now/processflow/table/` and then select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\). Select **Inputs** &gt; **Table**. Next, enter `/schema`.|
+    |Resource Path|Enter `api/now/processflow/table/` and then select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\). Select **Inputs** &gt; **Table**. Next, enter `/schema`.|
     |HTTP Method|Enter `GET`|
-    |Query Parameters|select the plus icon \(![Plus icon](../../../build/app-engine-studio/image/plus-icon.png) to add a new query parameter. Then, in the **Name** field, enter `get_choices` and `true` in the **Value** field.|
+    |Query Parameters|select the plus icon \(\[Omitted image "plus-icon.png"\] Alt text: Plus icon to add a new query parameter. Then, in the **Name** field, enter `get_choices` and `true` in the **Value** field.|
 
-7.  In the Action Outline, select the add a new step icon \(![Add a new step icon](../images/add-new-step-icon.png)\) under your REST step and select the **Script** step.
+7.  In the Action Outline, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: Add a new step icon\) under your REST step and select the **Script** step.
 
     1.  In the Input Variables section, select **Create Variable**.
 
     2.  In the **Name** field, enter `payload`.
 
-    3.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **REST Step** &gt; **Response Body**.
+    3.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **REST Step** &gt; **Response Body**.
 
     4.  In the **Script** field, enter the following code.
 
@@ -219,9 +220,9 @@ In this task, you create a data gathering action that collects the schema for a 
 
     4.  In the Action Output header, select **Exit Edit Mode**.
 
-    5.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **Script Step** &gt; **schema**.
+    5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script Step** &gt; **schema**.
 
-9.  In the Action header, select **Save** and then select **Test** to [test the action](test-action.md).
+9.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, enter `incident` for the **Table** input.
 
@@ -267,7 +268,7 @@ In this task, you create a data gathering action that collects the schema for a 
 -   A script step to transform the REST step's JSON Response Body into a dynamic object. The dynamic object consists of a JSON array of objects, where each source record is converted into one object of the array.
 -   An output variable named `output` of type JSON to store the dynamic object.
 
-**Note:** This task re-creates the demo actions that are installed when you [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-integrationhub.md) for your instance.
+**Note:** This task re-creates the demo actions that are installed when you Request an Integration Hub plugin for your instance.
 
 ### Procedure
 
@@ -291,26 +292,26 @@ In this task, you create a data gathering action that collects the schema for a 
 
     4.  To make the input required, toggle the **Mandatory** slider so that it is active.
 
-5.  In the Action Outline, select the add a new step icon \(![New step icon](../images/add-new-step-icon.png)\) under Inputs and select the **REST** step.
+5.  In the Action Outline, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: New step icon\) under Inputs and select the **REST** step.
 
 6.  Under the REST step header, fill in the following fields.
 
     |Field|Value|
     |-----|-----|
     |Connection|Leave **Use Connection Alias** selected.|
-    |Connection Alias|select the create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
+    |Connection Alias|select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
     |Build Request|Leave **Manually** selected.|
-    |Resource Path|Enter `api/now/processflow/table/` and then select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\). Select **Inputs** &gt; **Table**. Finally, enter `/schema`|
+    |Resource Path|Enter `api/now/processflow/table/` and then select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\). Select **Inputs** &gt; **Table**. Finally, enter `/schema`|
     |HTTP Method|Enter `GET`|
-    |Query Parameters|select the plus icon \(![Plus icon](../../../build/app-engine-studio/image/plus-icon.png) to add a new query parameter. Then, in the **Name** field, enter `get_choices` and `true`in the **Value** field.|
+    |Query Parameters|select the plus icon \(\[Omitted image "plus-icon.png"\] Alt text: Plus icon to add a new query parameter. Then, in the **Name** field, enter `get_choices` and `true`in the **Value** field.|
 
-7.  In the Action Outline, select the **Add a new step**\(![New step icon](../images/add-new-step-icon.png)\) icon under your REST step and select the **Script** step.
+7.  In the Action Outline, select the **Add a new step**\(\[Omitted image "add-new-step-icon.png"\] Alt text: New step icon\) icon under your REST step and select the **Script** step.
 
     1.  In the Input Variables section, select **Create Variable**.
 
     2.  In the **Name** field, enter `payload`.
 
-    3.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **REST Step** &gt; **Response Body**.
+    3.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **REST Step** &gt; **Response Body**.
 
     4.  In the **Script** field, enter the following code.
 
@@ -365,9 +366,9 @@ In this task, you create a data gathering action that collects the schema for a 
 
     4.  Select **Exit Edit Mode**.
 
-    5.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **Script Step** &gt; **schema**.
+    5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script Step** &gt; **schema**.
 
-9.  In the Action header, select **Save** and then select **Test** to [test the action](test-action.md).
+9.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, in the **Table** field, enter `incident`.
 
@@ -412,7 +413,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
 
 ### Procedure
 
-1.  In the main header, select the create flow, subflow, or action icon \(![Create flow, subflow, or action icon](../images/create-flow-subflow-or-action-icon.png)\) and select **Action**.
+1.  In the main header, select the create flow, subflow, or action icon \(\[Omitted image "create-flow-subflow-or-action-icon.png"\] Alt text: Create flow, subflow, or action icon\) and select **Action**.
 
     1.  In the Action Properties modal, in the **Name** field, enter `Get ServiceNow Records (Dynamic)`.
 
@@ -428,7 +429,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
 
     4.  To make the input required, toggle the **Mandatory** slider so that it is active.
 
-    5.  Select the Toggle advanced inputs icon \(![Toggle advanced inputs icon](../images/toggle-advanced-inputs-icon.png) to display the advanced options for the `Table` input.
+    5.  Select the Toggle advanced inputs icon \(\[Omitted image "toggle-advanced-inputs-icon.png"\] Alt text: Toggle advanced inputs icon to display the advanced options for the `Table` input.
 
     6.  In the **Default value** field, enter `incident`.
 
@@ -442,30 +443,30 @@ This custom action uses two data gathering actions to populate dynamic outputs.
 
     11. To make the input required, toggle the **Mandatory** slider so that it is active.
 
-    12. Select the Toggle advanced inputs icon \(![Toggle advanced inputs icon](../images/toggle-advanced-inputs-icon.png) to display the advanced options for the `Table` input.
+    12. Select the Toggle advanced inputs icon \(\[Omitted image "toggle-advanced-inputs-icon.png"\] Alt text: Toggle advanced inputs icon to display the advanced options for the `Table` input.
 
     13. In the **Default value** field, enter `3`.
 
-3.  In the Action Outline, select the add a new step icon \(![New step icon](../images/add-new-step-icon.png)\) under Inputs and select the **REST** step.
+3.  In the Action Outline, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: New step icon\) under Inputs and select the **REST** step.
 
 4.  Under the REST step header, fill in the following fields.
 
     |Field|Value|
     |-----|-----|
     |Connection|Leave **Use Connection Alias** selected.|
-    |Connection Alias|Select the create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
+    |Connection Alias|Select the create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to create a new [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
     |Build Request|Leave **Manually** selected|
-    |Resource Path|Enter `api/now/table/` and then select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\). Select **Inputs** &gt; **Table**.|
+    |Resource Path|Enter `api/now/table/` and then select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\). Select **Inputs** &gt; **Table**.|
     |HTTP Method|Enter `GET`|
-    |Query Parameters|Select the plus icon \(![Plus icon](../../../build/app-engine-studio/image/plus-icon.png) to add a new query parameter. Then, enter `sysparm_limit` in the **Name** field. Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and then select **Inputs** &gt; **NumberOfRecords**.|
+    |Query Parameters|Select the plus icon \(\[Omitted image "plus-icon.png"\] Alt text: Plus icon to add a new query parameter. Then, enter `sysparm_limit` in the **Name** field. Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and then select **Inputs** &gt; **NumberOfRecords**.|
 
-5.  In the Action Outline, select the add a new step icon \(![New step icon](../images/add-new-step-icon.png)\) under **Inputs** and select the **Script** step.
+5.  In the Action Outline, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: New step icon\) under **Inputs** and select the **Script** step.
 
     1.  In the Input Variables section, select **Create Variable**.
 
     2.  In the **Name** field, enter `payload`.
 
-    3.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **REST Step** &gt; **Response Body**.
+    3.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **REST Step** &gt; **Response Body**.
 
     4.  In the **Script** field, enter the following code.
 
@@ -503,7 +504,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
 
     3.  In the **Type** field, select **Dynamic Object**.
 
-    4.  Select the Toggle advanced inputs icon \(![Toggle advanced inputs icon](../images/toggle-advanced-inputs-icon.png) to display the advanced options for the `Records` output.
+    4.  Select the Toggle advanced inputs icon \(\[Omitted image "toggle-advanced-inputs-icon.png"\] Alt text: Toggle advanced inputs icon to display the advanced options for the `Records` output.
 
     5.  Under Dynamic Options, select **Get ServiceNow Array.Object Schema \(Dynamic\)** as the **Action**.
 
@@ -513,7 +514,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
 
     8.  In the Action Output header, select **Exit Edit Mode**.
 
-    9.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **Script Step** &gt; **records**.
+    9.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script Step** &gt; **records**.
 
     10. In the Action Output header, select **Edit Outputs** &gt; **Create Output** to create another action output.
 
@@ -521,7 +522,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
 
     12. In the **Type** field, select `Dynamic Object`.
 
-    13. Select the Toggle advanced inputs icon \(![Toggle advanced inputs icon](../images/toggle-advanced-inputs-icon.png) to display the advanced options for the `Record` output.
+    13. Select the Toggle advanced inputs icon \(\[Omitted image "toggle-advanced-inputs-icon.png"\] Alt text: Toggle advanced inputs icon to display the advanced options for the `Record` output.
 
     14. Under Dynamic Options, in the **Action** field, select **Get ServiceNow Object Schema \(Dynamic\)**.
 
@@ -531,9 +532,9 @@ This custom action uses two data gathering actions to populate dynamic outputs.
 
     17. In the Action Output header, select **Exit Edit Mode**.
 
-    18. For the **Value**, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **Script Step** &gt; **record**.
+    18. For the **Value**, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script Step** &gt; **record**.
 
-7.  In the Action header, select **Save** and then select **Test** to [test the action](test-action.md).
+7.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, select any dynamically generated choice value for the **Table** input.
 
@@ -548,7 +549,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
 
 ### Result
 
-![Use the Get ServiceNow Records Dynamic sample action in a flow.](../images/getting-started-dynamic-output-result.png)
+\[Omitted image "getting-started-dynamic-output-result.png"\] Alt text: Use the Get ServiceNow Records Dynamic sample action in a flow.
 
 You can now add the **Get ServiceNow Records \(Dynamic\)** action to a flow. This sample action dynamically generates two action outputs, `Record` and `Records`, which can be accessed as data pills in the data panel. The data pills refresh dynamically when the value for the **Table** input changes.
 

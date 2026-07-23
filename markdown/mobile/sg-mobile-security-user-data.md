@@ -2,6 +2,7 @@
 title: User data collection
 description: ServiceNow mobile apps do not specifically collect any user data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-security-user-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,5 +20,5 @@ Any user transactions or usage within an app is tracked on the ServiceNow instan
 -   Access to camera
 -   Notifications
 
-**Parent Topic:**[Mobile security practices](sg-mobile-security-practices.md)
+**Parent Topic:**[Mobile security practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-security-practices.md)
 

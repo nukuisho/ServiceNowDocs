@@ -2,6 +2,7 @@
 title: Ticket Location widget
 description: Share your location in a ticket. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/ticket-location-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -15,20 +16,20 @@ breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring 
 
 Share your location in a ticket. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-![Ticket Location widget](../image/WidgetTicketLocation.png "Ticket Location widget")
+\[Omitted image "WidgetTicketLocation.png"\] Alt text: Ticket Location widget
 
 ## Instance options
 
 The Ticket Location widget does not include any instance options.
 
-**Parent Topic:**[Example widgets](sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

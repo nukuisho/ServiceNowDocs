@@ -2,6 +2,7 @@
 title: Update contract template mappings for legal contract template
 description: Update template mappings to pre-fill information that will be placed in the contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/lsc-template-map-msword.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -145,16 +146,16 @@ Script configuring the mapping between fields and record producer variables. Thi
 </table>6.  Select **Update**.
 
 
-**Parent Topic:**[Configure legal contract templates of type Microsoft Word](lsc-configure-ct-msword.md)
+**Parent Topic:**[Configure legal contract templates of type Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-configure-ct-msword.md)
 
 **Related topics**  
 
 
-[Add content controls in a Microsoft Word document](lsc-cont-contr-word-tmplt.md)
+[Add content controls in a Microsoft Word document]()
 
-[Create a Microsoft Word legal contract template](lsc-create-ct-msword.md)
+[Create a Microsoft Word legal contract template]()
 
-[Create and configure participants for legal contract template](lsc-add-config-participants-msword.md)
+[Create and configure participants for legal contract template]()
 
-[Publish a contract template](lsc-publish-word-template.md)
+[Publish a contract template]()
 

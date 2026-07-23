@@ -2,6 +2,7 @@
 title: Plan a scrum program
 description: Plan work for sprints, using a centralized view on Agile Board, of multiple scrum teams that are working together on a scrum program.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/plan-scrum-program.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -17,8 +18,8 @@ Plan work for sprints, using a centralized view on Agile Board, of multiple scru
 
 ## Before you begin
 
--   [Create an epic backlog](create-epic-backlog.md).
--   [Create a scrum program](create-scrum-program.md).
+-   [Create an epic backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-epic-backlog.md).
+-   [Create a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-scrum-program.md).
 -   Role required: scrum\_sprint\_planner
 
 ## Procedure
@@ -31,7 +32,7 @@ Plan work for sprints, using a centralized view on Agile Board, of multiple scru
 
     A planning board displays all the teams that are working on the selected program, their sprint cadences, and sprint capacities.
 
-4.  From the Backlog list, select an epic backlog and click the backlog icon \(![Epic backlogs icon](../images/display-epic-backlog-icon.png)\) to display the epics from the selected backlog.
+4.  From the Backlog list, select an epic backlog and click the backlog icon \(\[Omitted image "display-epic-backlog-icon.png"\] Alt text: Epic backlogs icon\) to display the epics from the selected backlog.
 
 5.  View the stories of an epic by selecting the epic from the backlog.
 
@@ -51,10 +52,10 @@ Plan work for sprints, using a centralized view on Agile Board, of multiple scru
     -   Dropping the story back into the epic backlog pane clears the references of the sprint and assignment group from the story.
     -   Moving the story to the team's backlog lane clears only the sprint reference but retains the assignment group.
 
-**Parent Topic:**[Scrum program planning board](../concept/planning-scrum-program-overview.md)
+**Parent Topic:**[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/planning-scrum-program-overview.md)
 
 **Related topics**  
 
 
-[Scrum program planning board](../concept/planning-scrum-program-overview.md)
+[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/planning-scrum-program-overview.md)
 

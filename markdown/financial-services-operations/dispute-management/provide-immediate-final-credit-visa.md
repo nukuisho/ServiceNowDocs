@@ -2,13 +2,14 @@
 title: Provide immediate final credit
 description: Issue immediate final credit to the Visa card holder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/provide-immediate-final-credit-visa.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Investigate, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Provide immediate final credit
@@ -19,7 +20,7 @@ Issue immediate final credit to the Visa card holder.
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ Based on business rules, the bank can make a determination to issue immediate fi
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -39,28 +40,28 @@ Based on business rules, the bank can make a determination to issue immediate fi
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  In the open task tab, select the dispute transaction.
 
-6.  Select the **Immediate final credit** activity under the Investigation playbook stage.
+    The transaction opens in the **Dispute workspace**.
+
+6.  Select the **Immediate final credit activity** from the **Dispute workspace**.
 
 7.  Select the immediate final credit task that you want to complete.
 
-8.  On the form, fill in the required fields and any other related information that you have gathered.
+8.  Fill in the required fields in the form, and any other related information that you have gathered.
 
 9.  In the **Work notes** field, enter any comments.
+
+    This step is optional.
 
 10. After you have entered the details in the task, select **Update**.
 
 11. Close the task from the playbook.
-
-    |Dispute activity|Action|
-    |----------------|------|
-    |**To close the Immediate final credit task**|Select **Close**.|
 
 
 ## Result
 
 The task state updates to Closed Complete. The dispute transaction moves to the Chargeback stage.
 
-**Parent Topic:**[Investigate stage](../concept/investigate-stage.md)
+**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-stage.md)
 

@@ -2,11 +2,12 @@
 title: Migration of UI actions and layouts from ITSM Agent Workspace to Service Operations Workspace for ITSM
 description: Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM includes identifying the required tables, identifying the eligible UI actions and layout records for migrations, and the migration process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/ui-actions-layouts-migration-itsm-aw-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
 breadcrumb: [Configure and customize the migration to SOW, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -48,8 +49,8 @@ The Service Operations Workspace migration utility uses the following sequence t
 
 The Service Operations Workspace migration utility uses the following sequence to migrate the layouts from ITSM Agent Workspace to Service Operations Workspace for ITSM. All these actions are done by the system.
 
-1.  Searches for UI Action Group \[sys\_ux\_form\_action\_layout\_group\] table records that are mapped to UX Form Actions Layout Group \[sys\_ux\_form\_action\_layout\_item\] table records.
-2.  If a record isn’t found, creates a UX Form Actions Layout Group \[sys\_ux\_form\_action\_layout\_item\] table record and maps it to the UI Action Group \[sys\_ux\_form\_action\_layout\_group\] table record.
+1.  Searches for UI Action Group \[sys\_aw\_form\_uiaction\_group\] table records that are mapped to UX Form Actions Layout Group \[sys\_ux\_form\_action\_layout\_group\] table records.
+2.  If a record isn’t found, creates a UX Form Actions Layout Group \[sys\_ux\_form\_action\_layout\_group\] table record and maps it to the UI Action Group \[sys\_aw\_form\_uiaction\_group\] table record.
 
 The Service Operations Workspace migration utility uses the following sequence to migrate input tables from ITSM Agent Workspace to Service Operations Workspace for ITSM. All these actions are done by the system.
 
@@ -67,33 +68,33 @@ The Service Operations Workspace migration utility uses the following sequence t
     3.  Searches for Sys Ux M2m Action Layout Item \[sys\_ux\_m2m\_action\_layout\_item\] table records that are mapped to the UX Form Actions Layout \[sys\_ux\_form\_action\_layout\] table record.
     4.  If a mapped record isn’t found, creates a Sys Ux M2m Action Layout Item \[sys\_ux\_m2m\_action\_layout\_item\] table record.
 
--   **[Perform post-migration tasks for UI actions and layouts](../task/verify-migration-status-ui-actions-layouts.md)**  
+-   **[Perform post-migration tasks for UI actions and layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/verify-migration-status-ui-actions-layouts.md)**  
 Verify that the UI actions and layouts in Service Operations Workspace \(SOW\) are consistent with UI actions and layouts in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated UI actions and layouts settings in SOW based on your requirements.
 
-**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](../concept/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
+**Parent Topic:**[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
 
 **Related topics**  
 
 
-[Ribbons migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](ribbons-migration-itsm-aw-sow.md)
+[Ribbons migration from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 
-[Migration of view rules from ITSM Agent Workspace to Service Operations Workspace for ITSM](view-rules-migration-itsm-aw-sow.md)
+[Migration of view rules from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 
-[New record menu items migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](new-record-menu-items-migration-itsm-aw-sow.md)
+[New record menu items migration from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 
-[Migration of highlighted fields in lists and forms from ITSM Agent Workspace to Service Operations Workspace for ITSM](highlighted-fields-lists-forms-migration-itsm-aw-sow.md)
+[Migration of highlighted fields in lists and forms from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 
-[List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](list-actions-migration-itsm-aw-sow.md)
+[List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 
-[List categories and modules migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](list-categories-modules-migration-itsm-aw-sow.md)
+[List categories and modules migration from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 
-[Migration of form headers from ITSM Agent Workspace to Service Operations Workspace for ITSM](form-headers-migration-itsm-aw-sow.md)
+[Migration of form headers from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 
-[Migration of search configurations from ITSM Agent Workspace to Service Operations Workspace for ITSM](search-config-migration-itsm-aw-sow.md)
+[Migration of search configurations from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 
-[Migration of Agent assist from ITSM Agent Workspace to Service Operations Workspace for ITSM](agent-assist-migration-itsm-aw-sow.md)
+[Migration of Agent assist from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 
-[Migration of Related list declarative actions from ITSM Agent Workspace to Service Operations Workspace for ITSM](related-list-declarative-actions-aw-sow.md)
+[Migration of Related list declarative actions from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 
-[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](field-declarative-actions-aw-sow.md)
+[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM]()
 

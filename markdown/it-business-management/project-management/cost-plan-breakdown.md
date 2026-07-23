@@ -2,6 +2,7 @@
 title: Cost plan breakdown
 description: A cost plan breakdown captures the estimated cost and actual cost for every fiscal period. Cost plan, project, demand, program, and portfolio are the breakdowns types that are available.When an expense line is created without populating the Cost Plan field, system-generated cost plans are created automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/cost-plan-breakdown.html
 release: australia
 product: Project Management
 classification: project-management
@@ -32,36 +33,34 @@ A cost plan breakdown captures the estimated cost and actual cost for every fisc
     If a project or a demand is part of a portfolio, the breakdown type of **Portfolio** provides the aggregate of portfolio level costs per period.
 
 
-**Parent Topic:**[Basics of Project Management](c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
 
-[Parent-child rollup task calculations](c_ParentChildRollupTaskCalcs.md)
+[Parent-child rollup task calculations]()
 
-[Project tasks](../task/t_CreateAProjectTask.md)
+[Project tasks]()
 
-[Schedule conflicts between project tasks](scheduling-conflicts.md)
+[Schedule conflicts between project tasks]()
 
-[Change requests and project tasks](c_ChangeRequestsAndProjectTasks.md)
+[Change requests and project tasks]()
 
-[Project task checklists](c_project-task-checklists.md)
+[Project task checklists]()
 
-[Task resources](c_TaskResources.md)
+[Task resources]()
 
-[Project and project task states](project-and-project-task-states.md)
+[Project and project task states]()
 
-[Composite Fields](pm-composite-fields.md)
+[Composite Fields]()
 
-[Actual project costs](actual-project-costs.md)
+[Actual project costs]()
 
-[Types of external dependencies](external-dependency-types.md)
+[Types of external dependencies]()
 
-[Project and portfolio funding](../../project-portfolio-suite-with-financials/concept/c_ProjectAndPortfolioFunding.md)
+[Project and portfolio funding]()
 
-[Project scheduling in Project Management](project-scheduling.md)
-
-[Task constraints](task-constraints-project-management.md)
+[Project scheduling in Project Management]()
 
 ## System-generated cost plans
 

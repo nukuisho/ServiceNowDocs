@@ -2,6 +2,7 @@
 title: GTD interface
 description: The Guided Tour Designer \(GTD\) provides an easy way to create guided tours. You can easily drag a callout to the element you want to highlight and enter instructions for each step, along with the corresponding trigger. As you add steps, you have the option to test and modify them as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/guided-tour-designer-interface.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -17,11 +18,11 @@ The Guided Tour Designer \(GTD\) provides an easy way to create guided tours. Yo
 
 The GTD has the following features:
 
-![GTD interface with description callouts](../image/gtd-interface.png "GTD interface")
+\[Omitted image "gtd-interface.png"\] Alt text: GTD interface with description callouts
 
 -   **\(A\) Guided tour actions**
 
-    Share your draft or published tour with your internal colleagues for review by selecting the copy URL icon ![Copy URL icon](../../../reuse/icons/product-icons/link-outline-24.svg) and copying the link.
+    Share your draft or published tour with your internal colleagues for review by selecting the copy URL icon \[Omitted image "link-outline-24.svg"\] Alt text: Copy URL icon and copying the link.
 
 -   **\(B\) Callouts**
 
@@ -43,7 +44,7 @@ The GTD has the following features:
 
     When you hover over a step, the corresponding number on the page becomes large.
 
-    Edit the text of a specific step by choosing that step and selecting the edit icon ![edit icon](../../service-portal/image/edit-icon.png). Then, in the Content HTML formatter, make your changes and select **Save**.
+    Edit the text of a specific step by choosing that step and selecting the edit icon \[Omitted image "edit-icon.png"\] Alt text: edit icon. Then, in the Content HTML formatter, make your changes and select **Save**.
 
     Remove a step by selecting it from the list and then selecting the delete icon \(-\).
 
@@ -67,9 +68,9 @@ The GTD has the following features:
 **Related topics**  
 
 
-[GTD triggers](../reference/guided-tour-triggers.md)
+[GTD triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-triggers.md)
 
-[Create Guided Tours](../task/add-guided-tour.md)
+[Create Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/add-guided-tour.md)
 
-[Guided Tour Designer use case](guided-tour-designer-use-case.md)
+[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)
 

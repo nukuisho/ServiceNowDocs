@@ -2,13 +2,14 @@
 title: Record time worked on a hardware asset repair task manually using the Mobile Agent application
 description: Record time worked on a hardware asset repair task manually and provide any additional comments on the task using the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/record-time-ham-repair-mobile-agent.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Record time spent on asset repair task, Manage hardware asset repair tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Record time spent on asset repair task, Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Record time worked on a hardware asset repair task manually using the Mobile Agent application
@@ -33,8 +34,8 @@ Role required: asset
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon \(![](../../enterprise-asset-management/image/filter-mobile-task-eam.png)\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon ![](../../enterprise-asset-management/image/filter-mobile-task-eam.png), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text:\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:, tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the repair task record for which you want to record time.
 
 6.  On the **Details** tab, tap **Record time**.
@@ -52,10 +53,10 @@ Role required: asset
 
 The Record time form is saved and the time card is added to the Time worked section of the Related tab.
 
-**Parent Topic:**[Record time worked on a hardware asset repair task using the Mobile Agent application](../concept/record-time-worked-mobile-agent-app-con.md)
+**Parent Topic:**[Record time worked on a hardware asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/record-time-worked-mobile-agent-app-con.md)
 
 **Related topics**  
 
 
-[Pause a hardware asset repair task using the Mobile Agent application](pause-repair-task-ham-mobile-agent.md)
+[Pause a hardware asset repair task using the Mobile Agent application]()
 

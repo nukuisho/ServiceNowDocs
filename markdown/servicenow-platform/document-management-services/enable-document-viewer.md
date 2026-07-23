@@ -2,6 +2,7 @@
 title: Enable Document Viewer
 description: Enable Document Viewer to view documents directly rather than download them to view them in their native applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/enable-document-viewer.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -49,5 +50,5 @@ Document Viewer is enabled by default. Activate it at the instance level and the
 **Related topics**  
 
 
-[Disable Document Viewer](disable-doc-viewer.md)
+[Disable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/disable-doc-viewer.md)
 

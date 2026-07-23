@@ -2,6 +2,7 @@
 title: SharePoint Online Search Connector prerequisites
 description: The ServiceNow SharePoint Online Search Connector offers a consumer-grade search configuration to manage your information resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/sharepoint-search-overview-prereq.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,9 +18,9 @@ The ServiceNow SharePoint Online Search Connector offers a consumer-grade search
 
 For detailed instructions on how to get started with **External Content Connectors**, see
 
--   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
--   [Exploring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/exploring-ext-cont-connectors.md).
--   [Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ext-cont-connectors.md).
+-   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
+-   [Exploring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-ext-cont-connectors.md).
+-   [Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ext-cont-connectors.md).
 
 As search is the key to productivity, SharePoint Online Search Connector \(SPOC\) helps your employees to search and discover content from the ServiceNow employee experience.
 
@@ -27,7 +28,7 @@ As search is the key to productivity, SharePoint Online Search Connector \(SPOC\
 
 Here’s an overview of how SharePoint Online Search Connector works:
 
-![SharePoint Online Search Connector flow](../image/spoc-sharepoint-overview.png "SPOC overview")
+\[Omitted image "spoc-sharepoint-overview.png"\] Alt text: SharePoint Online Search Connector flow
 
 Use the SharePoint Online Search Connector to:
 
@@ -47,7 +48,7 @@ Activate the following plugins and apps:
 
 Verify that the AI Search engine is enabled. External Content for the AI Search plugin \(com.glide.ais.external\_content\) must have a ServiceNow subscription.
 
-For more information, see [Setting up SharePoint Online Search Connector](setup-sp-ovrvw.md#).
+For more information, see [Setting up SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md).
 
 ## Things to remember
 
@@ -78,5 +79,5 @@ For more information, see [Setting up SharePoint Online Search Connector](setup-
 **Related topics**  
 
 
-[SharePoint Online Search Connector reference](../reference/sharepoint-reference.md)
+[SharePoint Online Search Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-reference.md)
 

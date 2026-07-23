@@ -2,6 +2,7 @@
 title: Automated flows tables
 description: The following tables helps you to understand the relationship tables between entities and enrichment tables that are used in automated flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-flows-tables.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -34,24 +35,26 @@ The following tables helps you to understand the relationship tables between ent
 |Sightings|sn\_sec\_tisc\_sighting|
 |Observable Enrichment Result|sn\_sec\_tisc\_observable\_enrichment\_result|
 
-**Parent Topic:**[Working with automated flows](tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 
 
-[Automated IOC Enrichment](../task/tisc-ioc-enrichment.md)
+[Automated IOC Enrichment]()
 
-[Automated sharing of high-risk IOC's with trusted partners](../task/tisc-automated-sharing-flow.md)
+[Automated sharing of high-risk IOC's with trusted partners]()
 
-[Automatically add threat intelligence to a TAXII collection](../task/tisc-taxii-automated-flow.md)
+[Automatically add threat intelligence to a TAXII collection]()
 
-[Create vulnerability assessment for zero day](../task/tisc-create-vul-assess.md)
+[Create vulnerability assessment for zero day]()
 
-[Analyze, assess, and disseminate observables](../task/tisc-disseminate-observables.md)
+[Analyze, assess, and disseminate observables]()
 
-[Analyze and assess threat IoC’s](../task/tisc-analyze-ioc.md)
+[Analyze and assess threat IoC’s]()
 
-[Vulnerability Management Support](../task/tisc-vul-mgmt.md)
+[Vulnerability Management Support]()
 
-[Zero-day vulnerability tracking](../task/tisc-zero-vul.md)
+[Zero-day vulnerability tracking]()
+
+[Automatic Threat Actor priority tagging]()
 

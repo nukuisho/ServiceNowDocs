@@ -2,6 +2,7 @@
 title: Create a secret group cryptographic module
 description: Create a secret group cryptographic module to perform encryption and decryption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/create-sm-crypto-module.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +37,7 @@ Role required:
 
 3.  In the **Cryptographic Module** form, fill in the fields.
 
-    ![Cryptographic module form](../images/crypto-module-form.png)
+    \[Omitted image "crypto-module-form.png"\] Alt text: Cryptographic module form
 
 <table id="table_hrr_lnm_ltb"><thead><tr><th>
 
@@ -117,5 +118,5 @@ The parent cryptographic module, which is determined by the cryptographic module
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Secrets Management dashboard](../concept/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/secrets-dashboard.md)
 

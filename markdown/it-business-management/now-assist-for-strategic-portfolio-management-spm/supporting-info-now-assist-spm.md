@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Strategic Portfolio Management \(SPM\)
 description: Get a quick overview of the important information that is related to the Now Assist for Strategic Portfolio Management \(SPM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/supporting-info-now-assist-spm.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -40,16 +41,16 @@ This store app has the following dependencies:
 -   Enterprise Agile Planning
 -   Demand workbench
 
-For more information, see [Configure Now Assist Admin features](configuring-na-spm.md).
+For more information, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 
 **Related topics**  
 
 
-[Exploring Now Assist for Strategic Portfolio Management \(SPM\)](exploring-now-assist-for-spm.md)
+[Exploring Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/exploring-now-assist-for-spm.md)
 
-[Using Now Assist for Strategic Portfolio Management \(SPM\)](using-now-assist-for-spm.md)
+[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
-[Now Assist for SPM reference](../reference/now-assist-spm-reference.md)
+[Now Assist for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm-reference.md)
 
-[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
 

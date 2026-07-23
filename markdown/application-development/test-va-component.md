@@ -2,6 +2,7 @@
 title: Test a component for Virtual Agent
 description: Test your Virtual Agent custom component before deploying it to your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-va-component.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,8 +18,8 @@ Test your Virtual Agent custom component before deploying it to your instance.
 
 -   Set up your environment. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/getting-started).
 -   Set up your component project. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/cli)
--   Develop your component. For instructions, see the [ServiceNow® Developer Site](https://servicenow.com/docs/bundle/xanadu-application-development/page/build/components/task/develop-component.html)
--   [Add properties to communicate with Virtual Agent](add-va-properties.md)
+-   Develop your component. For instructions, see the ServiceNow® Developer Site
+-   [Add properties to communicate with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-va-properties.md)
 
 Role required: virtual\_agent\_admin or admin
 
@@ -155,12 +156,12 @@ Host address to use if you want your local development server to be accessible e
 
 If your component is working as expected, deploy it to your instance. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/development-flow).
 
-After developing the component and deploying it to your instance, add it to Virtual Agent Designer using a custom control and definition. For more information, see [Virtual Agent custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-controls.md).
+After developing the component and deploying it to your instance, add it to Virtual Agent Designer using a custom control and definition. For more information, see [Virtual Agent custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/custom-controls.md).
 
-**Parent Topic:**[Develop a component for Virtual Agent](../concept/va-components.md)
+**Parent Topic:**[Develop a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/va-components.md)
 
 **Related topics**  
 
 
-[Create custom components using ServiceNow CLI](../concept/custom-components.md)
+[Create custom components using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/custom-components.md)
 

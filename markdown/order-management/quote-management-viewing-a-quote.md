@@ -2,6 +2,7 @@
 title: View an existing quote
 description: View existing quotes to update the quote status or make other changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-viewing-a-quote.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Select **Quotes** &gt; **All**.
 
@@ -33,5 +34,5 @@ Role required: sales\_agent
 5.  Select **Save**.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

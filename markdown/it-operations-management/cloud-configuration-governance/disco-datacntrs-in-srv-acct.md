@@ -2,6 +2,7 @@
 title: Discover all datacenters in a service account on-demand
 description: After you set up a service account, run Discovery to populate the datacenters in the account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -58,5 +59,5 @@ The discovered datacenters appear in the Logical Datacenters related list.
 **Related topics**  
 
 
-[Logs for horizontal discovery](../../discovery/reference/r_DiscoveryLog.md#)
+[Logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryLog.md)
 

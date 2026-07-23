@@ -2,6 +2,7 @@
 title: Configure the health screening form
 description: Provide additional information on contacts or consumers to health screeners by adding fields to the health screening form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-record-producer-csm-safe-workplace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Role required: admin
 
     3.  Create a variable.
 
-        For more information about the different types of variables and how to configure them, see [Creating variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_CreatingVariablesForFieldTypes.md).
+        For more information about the different types of variables and how to configure them, see [Creating variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CreatingVariablesForFieldTypes.md).
 
     4.  Click **Submit**.
 

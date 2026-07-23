@@ -2,14 +2,15 @@
 title: Associate a user with subscription records
 description: If the User field in the Software Subscription \[samp\_sw\_subscription\] table is empty, map the field with an associated user in the User \[sys\_user\] table within ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/map-user-data.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 keywords: [user resolution, map user data, user field empty, unresolved subscriptions]
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Associate a user with subscription records
@@ -22,7 +23,7 @@ ServiceNow Role required: sam\_admin or sam\_integrator
 
 **Important:** sam\_user can view the user resolution rules but not create them.
 
-Review the list of unresolved subscriptions on the Subscriptions without user page in the [License operations view](../concept/operations-workspace.md). Note the User principal name value for the subscription and then verify if this value matches any entry in the User \[sys\_user\] table. If no match is found, configure the rule accordingly.
+Review the list of unresolved subscriptions on the Subscriptions without user page in the [License operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/operations-workspace.md). Note the User principal name value for the subscription and then verify if this value matches any entry in the User \[sys\_user\] table. If no match is found, configure the rule accordingly.
 
 ## About this task
 
@@ -36,53 +37,53 @@ SaaS integrations create subscription records in the Software Subscription \[sam
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [User resolution rule fields](../reference/user-resolution-rule-fields.md).
+    For a description of the field values, see [User resolution rule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/user-resolution-rule-fields.md).
 
 4.  Select **Save**.
 
 
 ## Result
 
-If the user resolution rule is correctly configured and the Download subscription job **SAM - Refresh &lt;profile name&gt; Subscriptions** runs successfully, the unresolved subscription you targeted is cleared from the Subscriptions without user page in [License operations view](../concept/operations-workspace.md).
+If the user resolution rule is correctly configured and the Download subscription job **SAM - Refresh &lt;profile name&gt; Subscriptions** runs successfully, the unresolved subscription you targeted is cleared from the Subscriptions without user page in [License operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/operations-workspace.md).
 
 If you find multiple records with the same email address but different User IDs and associated user classes, enable the system property **sn\_itam\_samp.user\_resolution\_exclude\_table**. Provide a list of comma-separated table names that extend the User \[sys\_user\] table to exclude them from user resolution. After making these changes, rerun the Download Subscription job **SAM - Refresh &lt;profile name&gt; Subscriptions** to associate users with their subscription records.
 
-**Parent Topic:**[SaaS License Management](../concept/sam-subscription-management.md)
+**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 
 
-[Request SaaS License Management](request-saas-license-management.md)
+[Request SaaS License Management]()
 
-[SaaS License Management setup for large companies](../concept/saas-setup-large-companies.md)
+[SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard](../concept/saas-overview-dashboard.md)
+[SaaS Overview dashboard]()
 
-[Integrate with SaaS applications](../concept/create-integration-profile.md)
+[Integrate with SaaS applications]()
 
-[Integrate with SSO providers](../concept/saas-sso-integration.md)
+[Integrate with SSO providers]()
 
-[Playbook for SaaS integrations](../concept/playbook-saas-integrations.md)
+[Playbook for SaaS integrations]()
 
-[Viewing your SaaS and SSO subscriptions](../concept/usage-summary-saas.md)
+[Viewing your SaaS and SSO subscriptions]()
 
-[Review a software reclamation rule](add-reclamation-rule-sub.md)
+[Review a software reclamation rule]()
 
-[Reclaiming user subscriptions](../concept/reclaiming-user-subscriptions-saas.md)
+[Reclaiming user subscriptions]()
 
-[Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md)
+[Create a child alias to set up multiple integration profiles]()
 
-[Create a child alias to set up multiple Cisco Webex integration profiles](create-child-alias-webex.md)
+[Create a child alias to set up multiple Cisco Webex integration profiles]()
 
-[Create a child alias to set up multiple Confluence Cloud integration profiles](create-child-alias-confluence.md)
+[Create a child alias to set up multiple Confluence Cloud integration profiles]()
 
-[Create a child alias to set up multiple Jira integration profiles](create-child-alias-jira.md)
+[Create a child alias to set up multiple Jira integration profiles]()
 
-[Disconnect SSO apps](disconnect-azure-ad-apps.md)
+[Disconnect SSO apps]()
 
-[Delete an integration profile](../concept/delete-saas-integration.md)
+[Delete an integration profile]()
 
-[Subscription identifiers for SaaS and SSO applications](../concept/subscription-identifiers.md#)
+[Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications](../concept/subscription-exclusions.md#)
+[Subscription exclusions for SaaS and SSO applications]()
 

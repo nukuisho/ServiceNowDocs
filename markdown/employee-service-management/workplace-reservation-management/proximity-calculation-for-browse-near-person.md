@@ -2,13 +2,14 @@
 title: Proximity calculation when browsing near a person
 description: When an employee searches for a space near a person using the Browse near a person option, the workplace locations are displayed based on the closest proximity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/proximity-calculation-for-browse-near-person.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Workplace Reservation Management references, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Proximity calculation when browsing near a person
@@ -38,22 +39,22 @@ The factors that influence the proximity based search are explained below:
 
 By default, all the available spaces are displayed based on the above proximity calculations. In case the employee has set favorite locations and has selected the **My favorites first** sort option, then the favorite locations are displayed at first.
 
-**Parent Topic:**[Workplace Reservation Management references](../concept/rsv-mgmt-references.md)
+**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Reservation Management](components-installed-with-wsd-reservation-mgmt.md)
+[Components installed with Workplace Reservation Management]()
 
-[Properties installed with Workplace Reservation Management](properties-installed-with-wsd-reservation-mgmt.md)
+[Properties installed with Workplace Reservation Management]()
 
-[Workplace Reservation Management - Field descriptions](../concept/workplace-reservation-management-field-descriptions.md)
+[Workplace Reservation Management - Field descriptions]()
 
-[Reservable module derivation logic for Space details](../concept/reservation-logic-for-myfavorites-space-details.md)
+[Reservable module derivation logic for Space details]()
 
-[Mobile push notifications for workplace reservations](reservation-push-notifications.md)
+[Mobile push notifications for workplace reservations]()
 
-[Location privacy settings and impact](location-privacy-settings-and-impact.md)
+[Location privacy settings and impact]()
 
-[Additional details record producer - Mapping Variable types and limitations](custom-fields-record-producer-mapping-variable-type-conditions.md)
+[Additional details record producer - Mapping Variable types and limitations]()
 

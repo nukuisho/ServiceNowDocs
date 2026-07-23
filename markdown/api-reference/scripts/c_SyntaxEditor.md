@@ -2,6 +2,7 @@
 title: JavaScript syntax editor
 description: The JavaScript syntax editor provides support for editing JavaScript scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_SyntaxEditor.html
 release: australia
 product: Scripts
 classification: scripts
@@ -22,7 +23,7 @@ With the JavaScript syntax editor, you can use the following features:
 -   Script macros for common code shortcuts
 -   Linting using the ESLint utility
 
-![JavaScript code in the syntax editor](../image/JavaScriptSyntaxEditor.png "JavaScript syntax editor")
+\[Omitted image "JavaScriptSyntaxEditor.png"\] Alt text: JavaScript code in the syntax editor
 
 ## Configuring the syntax editor
 
@@ -36,10 +37,10 @@ The Syntax Editor plugin \(com.glide.syntax\_editor\) is required to use this fu
 
 For more information about system properties, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
 
--   **[Using the JavaScript syntax editor](../reference/r_EdtJvaScptWSyntxEdtr.md)**  
+-   **[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)**  
 The syntax editor provides editing functions to support editing JavaScript scripts.
--   **[Create a script macro for the syntax editor](../task/t_ManageScriptMacros.md)**  
+-   **[Create a script macro for the syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/t_ManageScriptMacros.md)**  
 Administrators can define new script macros or modify existing script macros.
 
-**Parent Topic:**[Scripting](../../topic/c_Script.md)
+**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
 

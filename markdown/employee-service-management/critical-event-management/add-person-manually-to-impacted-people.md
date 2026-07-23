@@ -2,13 +2,14 @@
 title: Add a person manually to the impacted people list
 description: Manually add people to the impacted people list who may have visited the critical event location. Adding people help account for visitors, as their names won’t be automatically generated in the impacted people list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/add-person-manually-to-impacted-people.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing impacted people, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage impacted people, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Add a person manually to the impacted people list
@@ -33,27 +34,27 @@ Role required: sn\_critical.agent
 
 6.  Select the status of the person.
 
-    For details on impacted people status, see [Impacted people status](../reference/impacted-people-status.md).
+    For details on impacted people status, see [Impacted people status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/impacted-people-status.md).
 
 7.  Enter any relevant notes.
 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Managing impacted people](../concept/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 
 
-[Generate impacted people list](generate-impacted-people-list.md)
+[Generate impacted people list]()
 
-[Export an impacted people list](export-impacted-people-list.md)
+[Export an impacted people list]()
 
-[View an impacted person record](view-impacted-person-record.md)
+[View an impacted person record]()
 
-[Mark the status of impacted people as an agent](mark-status-of-impacted-people.md)
+[Mark the status of impacted people as an agent]()
 
-[View notifications received](view-notifications-received.md)
+[View notifications received]()
 
-[Conduct a roll call as an on-site responder](conduct-roll-call.md)
+[Conduct a roll call as an on-site responder]()
 

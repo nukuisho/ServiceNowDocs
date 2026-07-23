@@ -2,6 +2,7 @@
 title: Mobile encryption security compliance
 description: Learn about how ServiceNow mobile apps comply with encryption security standards for the FedRAMP and DISA environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-fedramp.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Learn about how ServiceNow mobile apps comply with encryption security standards
 
 <table id="table_hws_qkb_2lb"><tbody><tr><td>
 
-![Device PIN and Blur features in the mobile UI.](../image/fedramp-compliance.png)
+\[Omitted image "fedramp-compliance.png"\] Alt text: Device PIN and Blur features in the mobile UI.
 
 </td><td>
 
@@ -78,7 +79,7 @@ For more information on the certificate used with the third party SDK, see [http
 
     For commercial instances, offline mode is enabled by default when the offline mode plugin is installed. To disable offline mode on a commercial instance, an administrator must create the **glide.sg.offline.enabled** system property on the \[sys\_properties\] table, and set the value of this property to `false`.
 
-    For more information on offline mode, see [Offline mode](mobile-offline-mode.md).
+    For more information on offline mode, see [Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md).
 
 -   **Screen blur on background**
 

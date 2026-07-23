@@ -2,6 +2,7 @@
 title: Managing content requests
 description: Content Governance provides a streamlined way for employees to ask for content to be created, track the progress, preview the content, and approve it before it is published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-governance.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Content Governance provides a streamlined way for employees to ask for content t
 
 Content Governance integrates with Content Publishing to provide content managers and admins an efficient way to fulfill and manage content requests. Content managers and admins can view these requests, assign it to a content creator, review the content, approve or make suggestions, and publish the content to make it available to their employees.
 
-![Content Governance and Content Publishing features enable the end-to-end content request, fulfilment, and publishing process](../images/ecpro-content-gov-pubs.png)
+\[Omitted image "ecpro-content-gov-pubs.png"\] Alt text: Content Governance and Content Publishing features enable the end-to-end content request, fulfilment, and publishing process
 
 ## Content Governance components
 
@@ -37,7 +38,7 @@ Content Governance integrates with Content Publishing to provide content manager
 
 -   **Assignment groups**
 
-    An assignment group is a group of users that receive the content request. Content Governance includes two assignment groups out of the box: Content Admin and Content Manager, which contain the users with those roles. To configure a new assignment group, see [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ConfigGroupTypesForAssignGroups.md)
+    An assignment group is a group of users that receive the content request. Content Governance includes two assignment groups out of the box: Content Admin and Content Manager, which contain the users with those roles. To configure a new assignment group, see [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ConfigGroupTypesForAssignGroups.md)
 
 
 ## Content request process overview
@@ -48,19 +49,19 @@ The following process overview provides a high-level understanding of how employ
 
     A user fills out the Content Request form, providing details about the needed content. Once the user submits the form, the system creates a content request record, where the user can add comments and attach files.
 
-    ![Content request form](../images/content-gov-request.png)
+    \[Omitted image "content-gov-request.png"\] Alt text: Content request form
 
-    [Requesting content](ec-content-gov-request.md#)
+    [Requesting content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md)
 
 -   **Step 2: Content request is created and assigned**
 
     The content manager opens the content request record to review the request details and assign it to an employee responsible for creating content.
 
-    ![Content manager can view the request details and assign the request to the content creator](../images/content-gov-request-record.png)
+    \[Omitted image "content-gov-request-record.png"\] Alt text: Content manager can view the request details and assign the request to the content creator
 
-    [Tracking content requests](ec-content-gov-track.md)
+    [Tracking content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-track.md)
 
-    [Assign content request to content creator](../task/assign-content-request.md)
+    [Assign content request to content creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/assign-content-request.md)
 
 -   **Step 3: Content is created and scheduled**
 
@@ -68,9 +69,9 @@ The following process overview provides a high-level understanding of how employ
 
     **Note:** Content can only be associated with one content request.
 
-    ![The assigned content creator can create content from the Content Governance interface](../images/content-gov-create-content.png)
+    \[Omitted image "content-gov-create-content.png"\] Alt text: The assigned content creator can create content from the Content Governance interface
 
-    [Creating content through Content Governance](../task/creating-content-governance.md)
+    [Creating content through Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/creating-content-governance.md)
 
 -   **Step 4: Content is sent to requester for review**
 
@@ -78,7 +79,7 @@ The following process overview provides a high-level understanding of how employ
 
     **Note:** Once a Content Request record is in the Review state, the associated content is locked to prevent further editing.
 
-    ![Content creators can send content for review from the Content Library interface](../images/content-gov-send-review.png)
+    \[Omitted image "content-gov-send-review.png"\] Alt text: Content creators can send content for review from the Content Library interface
 
 -   **Step 5: Content is reviewed and approved**
 
@@ -90,9 +91,9 @@ The following process overview provides a high-level understanding of how employ
 
     -   Suggest edits or changes
     -   Approve the content
-    ![The requester and other reviewers access the review request from the My Tasks button in the portal](../images/content-gov-request-review.png)
+    \[Omitted image "content-gov-request-review.png"\] Alt text: The requester and other reviewers access the review request from the My Tasks button in the portal
 
-    [Previewing and approving a content request item](ec-content-gov-preview.md)
+    [Previewing and approving a content request item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-preview.md)
 
 -   **Step 6: Content is published**
 

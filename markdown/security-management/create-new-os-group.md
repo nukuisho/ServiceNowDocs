@@ -2,6 +2,7 @@
 title: Create an operating system group
 description: Operating system groups are used to map an operating system to specific process types and scripts in Security Incident Response workflows. The scripts define how running processes for the defined operating system groups are retrieved. New operating systems can be added as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/create-new-os-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +29,7 @@ Role required: sn\_sec\_cmn.admin
     -   Windows OS
 2.  Select **New**.
 
-    ![Operating system groups](../image/os-groups.png)
+    \[Omitted image "os-groups.png"\] Alt text: Operating system groups
 
 3.  Fill in the fields, as needed.
 
@@ -46,7 +47,7 @@ Role required: sn\_sec\_cmn.admin
 
     The Operating System Related Scripts related list opens.
 
-    ![Operating System Related Scripts](../image/os-related-scripts.png)
+    \[Omitted image "os-related-scripts.png"\] Alt text: Operating System Related Scripts
 
 5.  Select **New**.
 
@@ -55,10 +56,10 @@ Role required: sn\_sec\_cmn.admin
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Security Operations common functionality](../concept/sec-ops-common-functionality.md)
+**Parent Topic:**[Security Operations common functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-common-functionality.md)
 
 **Related topics**  
 
 
-[Attach a script file to a file synchronized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-script-attach.md)
+[Attach a script file to a file synchronized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-script-attach.md)
 

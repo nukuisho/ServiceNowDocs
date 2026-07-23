@@ -2,6 +2,7 @@
 title: Debug user permissions
 description: Investigate and diagnose problems with user access to forums.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/debug-user-permissions.html
 release: australia
 product: Communities
 classification: communities
@@ -32,12 +33,12 @@ Role required: sn\_communities.forum\_admin
     The forum user permissions information indicates which content and access types the user has for a particular forum.
 
 
-**Parent Topic:**[Create a forum permission](create-forum-permission.md)
+**Parent Topic:**[Create a forum permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-forum-permission.md)
 
 **Related topics**  
 
 
-[Copy permissions from a parent forum](copy-permissions-from-parent-forum.md)
+[Copy permissions from a parent forum]()
 
-[Copy permissions from a forum](copy-permissions-from-another-forum.md)
+[Copy permissions from a forum]()
 

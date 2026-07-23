@@ -2,6 +2,7 @@
 title: Create an Automation Discovery report
 description: Create an Automation Discovery report to analyze your records for automation opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-auto-discovry-report.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Role required: admin, nlu\_admin, or sn\_auto\_discovery.DiscoveryAuthor
 
 2.  Select **New Report**.
 
-    ![New report form in Automation Discovery.](../images/new_auto_disc_report_form.png)
+    \[Omitted image "new\_auto\_disc\_report\_form.png"\] Alt text: New report form in Automation Discovery.
 
 3.  Fill in the form fields.
 

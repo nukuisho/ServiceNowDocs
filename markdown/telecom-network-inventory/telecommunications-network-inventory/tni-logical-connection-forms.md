@@ -2,6 +2,7 @@
 title: Logical Connection form
 description: The Logical Connection form enables you to define a logical connection by describing its configuration and connection details.The Logical Connection form enables you to describe the details for a logical connection.The Configuration section in the Logical Connection form enables you to create a logical connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-logical-connection-forms.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Telecommunications Network Inventory]
 
 The Logical Connection form enables you to define a logical connection by describing its configuration and connection details.
 
-**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 ## Logical Connection form
 
@@ -51,7 +52,7 @@ Site A
 
 </td><td>
 
-Originating network site for this connection. Select the search icon \( ![Search icon.](../image/search.png)\) and select a network site. To learn more, see [153f0911a5303dc2d91ba071cdb03271e0039fd3.dita](../task/define-tni-sites.md).
+Originating network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [febcfe12194eeb91c09e3996e78edd4ed1efeb0b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr><tr><td>
 
@@ -59,13 +60,13 @@ Site Z
 
 </td><td>
 
-Destination network site for this connection. Select the search icon \( ![Search icon.](../image/search.png)\) and select a network site. To learn more, see [153f0911a5303dc2d91ba071cdb03271e0039fd3.dita](../task/define-tni-sites.md).
+Destination network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [febcfe12194eeb91c09e3996e78edd4ed1efeb0b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Define the logical connection details](../task/define-tni-logical-connections.md)
+[Define the logical connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-logical-connections.md)
 
 ## Logical Connection form - Configuration
 
@@ -85,7 +86,7 @@ Port A
 
 </td><td>
 
-Network interface that is used in the Port A connection. Select the search icon \( ![Search icon.](../image/search.png)\) and select a network interface. To learn more, see [Define the network interface details](../task/define-tni-interfaces.md).
+Network interface that is used in the Port A connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network interface. To learn more, see [Define the network interface details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-interfaces.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +140,7 @@ Port Z
 
 </td><td>
 
-Network interface that is used in the Port Z connection. Select the search icon \(![Search icon.](../image/search.png)\) and select a network interface. To learn more, see [Define the network interface details](../task/define-tni-interfaces.md).
+Network interface that is used in the Port Z connection. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a network interface. To learn more, see [Define the network interface details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-interfaces.md).
 
 </td></tr><tr><td>
 
@@ -195,10 +196,10 @@ Distance is expressed in meters.
 
 
 </td></tr></tbody>
-</table>**Note:** To learn about the remaining configuration fields that are common to most of the Inventory menu forms, see [Commonly used network asset instance configuration fields](commonly-used-tni-configuration-fields.md).
+</table>**Note:** To learn about the remaining configuration fields that are common to most of the Inventory menu forms, see [Commonly used network asset instance configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-configuration-fields.md).
 
 **Related topics**  
 
 
-[Define the logical connection details](../task/define-tni-logical-connections.md)
+[Define the logical connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-logical-connections.md)
 

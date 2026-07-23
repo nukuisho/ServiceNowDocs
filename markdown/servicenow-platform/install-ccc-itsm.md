@@ -2,6 +2,7 @@
 title: Install ServiceNow Voice for ITSM
 description: You can install the ServiceNow Voice for ITSM application \(sn\_cti\_itsm\_cnt\) if you have the admin role. This plugin installs the ITSM content for integration between ServiceNow Voice and a third-party phone system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/install-ccc-itsm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ The following items are installed with ServiceNow Voice for ITSM application \(s
 -   Contact flows
 -   Operation handlers
 
-For more information, see [Components installed with ServiceNow Voice for ITSM](../reference/instld-with-cloud-call-center-itsm.md).
+For more information, see [Components installed with ServiceNow Voice for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instld-with-cloud-call-center-itsm.md).
 
 ## Procedure
 
@@ -43,7 +44,7 @@ For more information, see [Components installed with ServiceNow Voice for ITSM](
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -56,5 +57,5 @@ For more information, see [Components installed with ServiceNow Voice for ITSM](
 5.  Select **Install**.
 
 
-**Parent Topic:**[Integrating ServiceNow Voice with ITSM](../concept/integrate-ccc-itsm.md)
+**Parent Topic:**[Integrating ServiceNow Voice with ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-ccc-itsm.md)
 

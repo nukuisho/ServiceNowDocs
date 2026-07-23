@@ -2,6 +2,7 @@
 title: Add your certificate to the ServiceNow Trusted Key Store
 description: Upload your key and certificate to the ServiceNow Trusted Key Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ The public certificate that you created in this example is considered a “self-
 
 ## Procedure
 
-1.  In your local environment, open Terminal \(On Mac or Linux\), or Command Line \(in Windows\).
+1.  In your local environment, open Terminal \(on Mac or Linux\), or Command Line \(in Windows\).
 
 2.  Using the terminal, use `cd` to move into the folder where you have created your encryption keys.
 
@@ -33,7 +34,7 @@ The public certificate that you created in this example is considered a “self-
 
     You must view the contents of your public certificate to copy it into the trusted key store. This `cat` command displays the certificate.
 
-    ![Contents of the public certificate displayed in terminal](../images/client-side-2.png)
+    \[Omitted image "client-side-2.png"\] Alt text: Contents of the public certificate displayed in terminal
 
 4.  Copy the certificate information to your clipboard.
 
@@ -41,7 +42,7 @@ The public certificate that you created in this example is considered a “self-
 
 5.  On your ServiceNow instance, navigate to the **X.509 certificate** list by entering `sys_certificate.LIST` in the navigation filter.
 
-    ![sys_certificate.LIST entered into the instance navigation filter](../images/client-side-3.png)
+    \[Omitted image "client-side-3.png"\] Alt text: sys\_certificate.LIST entered into the instance navigation filter
 
 6.  Select **New** to create a **X.509 Certificate** record.
 
@@ -99,5 +100,5 @@ Paste the certificate information that you copied in step 4.
 </table>8.  Select **Submit** to save the record.
 
 
-**Parent Topic:**[Configuring client accessible secrets](../concept/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
 

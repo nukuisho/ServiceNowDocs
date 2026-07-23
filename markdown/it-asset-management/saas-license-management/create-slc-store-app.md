@@ -2,13 +2,14 @@
 title: Create a store app for a custom integration
 description: Publish your custom integration application on the ServiceNow Store to make it available for others to use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-slc-store-app.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a store app for a custom integration
@@ -95,7 +96,7 @@ Source Scope
 
 Your custom integration application. This field is populated automatically.
 
- To select a different application, click the Settings \(![Settings icon](../../../common/image/List_PersonalizeListIcon.png)\) icon on the banner frame of your ServiceNow instance. On the System Settings dialog box, select the **Developer** tab and then choose an application from the **Application** drop-down list.
+ To select a different application, click the Settings \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: Settings icon\) icon on the banner frame of your ServiceNow instance. On the System Settings dialog box, select the **Developer** tab and then choose an application from the **Application** drop-down list.
 
 </td></tr><tr><td>
 
@@ -103,7 +104,7 @@ Target Scope
 
 </td><td>
 
-Application from which resources are being requested. Select the search![](../image/search-icon.png)icon to locate and select the **Global** application.
+Application from which resources are being requested. Select the search\[Omitted image "search-icon.png"\] Alt text:icon to locate and select the **Global** application.
 
 </td></tr><tr><td>
 

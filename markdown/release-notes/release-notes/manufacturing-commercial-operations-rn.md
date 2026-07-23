@@ -14,10 +14,12 @@ The ServiceNow® Manufacturing Commercial Operations enables manufacturers, agen
 
 ## Manufacturing Commercial Operations highlights for the Australia release
 
--   QIM now integrates with FSM, enabling work order creation directly from NC and QI records for on-site verification, containment, or remediation action.
--   Enable detect potential fraudulent claims component to detect duplicate warranty claims.
--   Enable the recall manager to plan and execute phases and sub-phases recall campaigns using the plan and execute recall campaign phases and sub-phases AI agent.
--   Enable a non-conformance description to verify that the requirements are clearly stated.
+-   The CSM/FSM workspace landing page surfaces assigned claims, pre-authorization requests, and dashboard widgets with claims volume and value insights.
+-   Anomaly-detection rules enable auto-approval or flagging of repair claim case lines for human review based on eligibility thresholds and historical claim averages.
+-   Repair claim case lines displays a suggested action and reason on the panel, giving claim reviewers job-level and claim-level analysis in a single view.
+-   QIM playbook enables creation of remediation action plans and use of system-recommended containment actions.
+-   QIM enables auto-triage of non-conformance records, assigning owners, and generating tasks based on historical patterns.
+-   QIM integrates with FSM, enabling work order creation directly from NC and QI records for on-site verification, containment, or remediation action.
 
 See [Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-overview.md) for more information.
 
@@ -25,10 +27,21 @@ See [Manufacturing Commercial Operations](https://raw.githubusercontent.com/Serv
 
 ## New in the Australia release
 
+-   **[Manufacturing Commercial Operations landing page \(CSM/FSM configurable workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-landing-page.md)**
+
+    The MCO core landing page surfaces role-based views of claims, pre-authorization requests, and key processing metrics for claims agents and warranty assessors.
+
+-   **[Summarize fraudulent claim detection using agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-summarize-fraudulent-claim-detection.md)**
+
+    Anomaly-detection rules scan claim case lines against historical patterns and thresholds to identify fraudulent claims, flagging inflated amounts, frequency anomalies, and suspicious submission patterns. Claims meeting approval thresholds auto-approve with audit trail recording. Claims exceeding thresholds or exhibiting anomalies route to designated reviewers for investigation and disposition.
+
+-   **[Create a product non-conformance case using playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-playbook-create-non-conformance.md)**
+
+    QIM playbook enables you to create remediation action plans and access system-recommended correction actions. It automatically triages non-conformance records, assigns owners, and creates tasks based on historical patterns.
+
 -   **[FSM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-fsm-integration.md)**
 
     QIM integrates with FSM to support quality actions that require on-site intervention. When an NC or QI record identifies a need for field verification, containment, or remediation action, you can create an FSM work order directly from within QIM.
-
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -40,14 +53,16 @@ See [Manufacturing Commercial Operations](https://raw.githubusercontent.com/Serv
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **[Summarize fraudulent claim detection using agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-summarize-fraudulent-claim-detection.md)**
+## Change in this release
 
-    Use the detect potential fraudulent claims to analyze dealer warranty claims for duplicate claims, mismatched parts and supporting documents/images, reused images/documents, similar claims within specified periods or for same end customers across assets, and product usage inconsistencies.
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
 ## Activation information
 
-Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Browser requirements
 
@@ -72,14 +87,10 @@ ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Mic
 
     The ServiceNow Field Service Management application enables you to manage work orders and related tasks, resources, skills, assets, and locations.
 
--   **[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)**
-
-    ServiceNow® Service Exchange connects multiple ServiceNow instances to provide seamless support and service experiences across the ecosystem, from enterprise customers to suppliers and system integrators. Service Exchange provides a frictionless experience that makes it easy to collaborate and process requests while giving users the convenience of working in their own ServiceNow instance
-
 -   **[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_ITBusinessManagement.md)**
 
     Align work with strategy to deliver products and services in a way that supports your business goals and priorities. The ServiceNow Strategic Portfolio Management \(SPM\) application enables you to use digital transformation to drive customer value.
 
 
-**Parent Topic:**[Features and changes by product](new-features-changes.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/new-features-changes.md)
 

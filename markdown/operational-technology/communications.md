@@ -1,7 +1,8 @@
 ---
-title: Enabling OT Discovery component communications
+title: OT Discovery communications
 description: This section describes how the OT Discovery components should be connected so they can communicate with each other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/communications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-24"
@@ -9,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Enabling OT Discovery component communications
+# OT Discovery communications
 
 This section describes how the OT Discovery components should be connected so they can communicate with each other.
 
@@ -29,7 +30,7 @@ When determining the environment architecture for your deployment, consider how 
     -   Deploy a separate MID Server for each network or network segment.
     -   Configure firewall rules to enable communication across networks or network segment boundaries.
     -   The Console needs to communicate with the Sensors, the Collectors, the MID Server, the SGC, and your ServiceNow instance.
-    ![Network setup](../../operational-technology-discovery-deployment-guide/images/network-setup-communications.png "Network communication setup")
+    \[Omitted image "network-setup-communications.png"\] Alt text: Network setup
 
 -   Sensor-to-Console communication:
     -   Deploy a separate Console for each network, network segment, or system.

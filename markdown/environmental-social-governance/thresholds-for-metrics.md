@@ -2,6 +2,7 @@
 title: Thresholds for metrics
 description: In the context of metrics, thresholds refer to predetermined values or limits used to assess the performance of a metric. These thresholds are typically defined based on specific criteria or objectives and serve as reference points to determine whether the measured value or performance meets, exceeds, or falls below the desired level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/thresholds-for-metrics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Thresholds use color-coded indicators to signify different levels of perform
 
 **Important:**
 
-Threshold fields and metric status are not evaluated for ad hoc metric data tasks. For more information, see [Ad hoc metric data task limitations](../reference/ad-hoc-metric-data-task-limitations.md).
+Threshold fields and metric status are not evaluated for ad hoc metric data tasks. For more information, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
 
 ## Types of thresholds
 
@@ -29,7 +30,7 @@ The two types of threshold for a metric are static and dynamic:
 **Related topics**  
 
 
-[Create a threshold for a metric](../task/create-a-threshold-for-a-metric.md)
+[Create a threshold for a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-threshold-for-a-metric.md)
 
-[Copy a threshold](../task/copy-thresholds.md)
+[Copy a threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/copy-thresholds.md)
 

@@ -2,6 +2,7 @@
 title: Contract approval flow
 description: Use the Contract Approval flow to get approval from the approver defined in the contract. You can edit the existing flow or create a flow in the graphical Workflow Studio to meet your organization's contract approval process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/contract-approval-workflow.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -9,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [contract approval workflow]
-breadcrumb: [Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Contract approval flow
@@ -24,31 +25,31 @@ Ensure that the Contract Management \(com.snc.contract\_management\) plugin is i
 
 Submit your contract for approval by selecting an approver in the contract record. This workflow enables you to manage the terms and conditions the contract must meet to approve a contract.
 
-![Contract approval flow actions](../image/contract-approval-workflow-actions.png "Contract Approval")
+\[Omitted image "contract-approval-workflow-actions.png"\] Alt text: Contract approval flow actions
 
 ## Contract approval process
 
--   Select an **Approver** for the contract and select **Submit for Review**. If the contract's end date is greater than the current date, an approval history record is automatically created to track the status of the approval process. For more information about sending a contract for approval, see [Send the contract for approval](../task/t_SendTheContractForApproval.md).
--   Access the contract approval history record and take an approval action. For more information about viewing the approval history for a contract, see [View approval history on contracts](../task/t_ObtainContractApproval.md). Based on the approval decision on the contract, the state and substate of the contract is updated.
+-   Select an **Approver** for the contract and select **Submit for Review**. If the contract's end date is greater than the current date, an approval history record is automatically created to track the status of the approval process. For more information about sending a contract for approval, see [Send the contract for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_SendTheContractForApproval.md).
+-   Access the contract approval history record and take an approval action. For more information about viewing the approval history for a contract, see [View approval history on contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_ObtainContractApproval.md). Based on the approval decision on the contract, the state and substate of the contract is updated.
 
-**Parent Topic:**[Contract Management](c_ContractManagement.md)
+**Parent Topic:**[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_ContractManagement.md)
 
 **Related topics**  
 
 
-[Use the Asset Contract Overview module](../task/t_UseTheContractMgmtOverviewModule.md)
+[Use the Asset Contract Overview module]()
 
-[Components installed with Contract Management](../reference/r_ComponentsInstalledWContractMgmt.md)
+[Components installed with Contract Management]()
 
-[Contract Management use](c_UseContractManagement.md)
+[Contract Management use]()
 
-[Condition check definitions](c_UseConditionCheckDefinitions.md)
+[Condition check definitions]()
 
-[Domain separation and Contract Management](domain-separation-contract-mgmt.md)
+[Domain separation and Contract Management]()
 
-[Send the contract for approval](../task/t_SendTheContractForApproval.md)
+[Send the contract for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_SendTheContractForApproval.md)
 
-[Approve or reject a contract](../task/t_ApproveOrRejectAContract.md)
+[Approve or reject a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_ApproveOrRejectAContract.md)
 
-[View approval history on contracts](../task/t_ObtainContractApproval.md)
+[View approval history on contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_ObtainContractApproval.md)
 

@@ -2,6 +2,7 @@
 title: Add line items to an opportunity
 description: Create a new product line item for your opportunity by entering the details, such as product offering and quantity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-line-items-tab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to the **List** view ![](../../../reuse/icons/product-icons/list-outline-24.svg) and select **Opportunity - All**.
+1.  In the CSM Configurable Workspace, navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  From the **Opportunity List** view, select the opportunity you want to work with and select the **Line Items** tab.
 
@@ -298,7 +299,14 @@ Value representing upsell or downsell in comparison to the renewal amount for th
 
 ## What to do next
 
-Add a task to your opportunity. To learn more, see [Add opportunity tasks](opportunity-management-tasks-tab.md).
+Add a task to your opportunity. To learn more, see [Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-tasks-tab.md).
 
-**Parent Topic:**[Using Opportunity Management](opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+**Related topics**  
+
+
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

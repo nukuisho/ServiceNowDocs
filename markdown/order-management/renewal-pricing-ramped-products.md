@@ -2,6 +2,7 @@
 title: Renewal pricing for products with price and quantity ramps
 description: You can control how renewal uplift pricing for product offerings with price and quantity ramps is calculated by the pricing engine. A renewal uplift is a price increase applied to a product when a contract is renewed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/renewal-pricing-ramped-products.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-07"
@@ -25,7 +26,7 @@ Ramp deals may also have standard \(yearly or quarterly\) and custom segment dur
 
     However, the pricing engine can use the first segment as the price basis and apply the uplift across the entire ramp term \(total ramp duration\). You can set the first segment as the price basis and entire ramp term by using the pricing system properties **sn\_csm\_pricing.ramp\_renewal\_price\_segment** and **sn\_csm\_pricing.ramp\_renewal\_term\_basis**. You set these properties by using the Customization Properties for Pricing form \(navigate to **All** &gt; **Pricing** &gt; **Administration** &gt; **Properties**\).
 
-    ![System properties for pricing, including properties for setting renewal uplift term and renewal pricing for products with price and quantity ramps](../image/customization-properties-pricing.png "Customization Properties for pricing")
+    \[Omitted image "customization-properties-pricing.png"\] Alt text: System properties for pricing, including properties for setting renewal uplift term and renewal pricing for products with price and quantity ramps
 
     The following table shows the price basis and terms that you can control.
 
@@ -68,7 +69,7 @@ Using the uplift calculation example from the previous section, the pricing engi
 
 Manage how the pricing engine calculates renewal uplift pricing for ramped products by using the following properties and extension point:
 
--   Uplift renewal multiplier: To set the uplift renewal multiplier, use the `renewal_uplift_term` system property. For more information, see [Set properties to control pricing processing](../task/som-set-pricing-properties.md).
--   Segment basis and term used by the pricing engine: Use the system properties `sn_csm_pricing.ramp_renewal_price_segment` and `sn_csm_pricing.ramp_renewal_term_basis`. To learn more, see [Set properties to control pricing processing](../task/som-set-pricing-properties.md).
+-   Uplift renewal multiplier: To set the uplift renewal multiplier, use the `renewal_uplift_term` system property. For more information, see [Set properties to control pricing processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-set-pricing-properties.md).
+-   Segment basis and term used by the pricing engine: Use the system properties `sn_csm_pricing.ramp_renewal_price_segment` and `sn_csm_pricing.ramp_renewal_term_basis`. To learn more, see [Set properties to control pricing processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-set-pricing-properties.md).
 -   Override the default renewal uplift calculations for ramped products: Use the `RampRenewalUpliftCalculationExtensionPoint` to customize the uplift calculation logic. Access the extension point by navigating to **All** &gt; **Pricing** &gt; **Administration** &gt; **Scripted Extension Points** and in the Extension Points list, select `sn_csm_pricing.RampRenewalUpliftCalculationExtensionPoint`. Your inputs can include data such as the unit price and term for each ramp segment.
 

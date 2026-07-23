@@ -2,10 +2,11 @@
 title: Revise existing opportunities after an upgrade
 description: Run a scheduled job to modify older opportunities so they can support parent-child opportunity line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/revise-existing-opportunities-post-upgrade.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Install and configure Opportunity Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -56,4 +57,11 @@ For open, synced opportunities:
 2.  The **Product Specification** field, new hierarchy, and pricing fields for this line are updated only if any change is done on the corresponding synced quote line.
 
 **Note:** After upgrading to the Yokohama Q2 release, run the scheduled job before working with Opportunity. Failure to do so results in inconsistent behavior in Opportunity and the related tables.
+
+**Related topics**  
+
+
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

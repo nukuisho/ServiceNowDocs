@@ -2,6 +2,7 @@
 title: Add a metric category and metric in the question bank for surveys
 description: Reuse the question categories \(metric categories\) and questions \(metrics\) added in the question bank for surveys. You can add metric categories or metrics from the question bank to a survey, or from the survey to a question bank.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/add-questionbank-for-survey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,26 +40,26 @@ Activate the Survey Question Bank Sample Data plugin \(com.snc.question\_bank\_d
 
 6.  In the Survey Question form, fill the fields.
 
-    For information on these fields, see [Create or modify survey questions](t_CreateOrModifySurveyQuestions.md).
+    For information on these fields, see [Create or modify survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateOrModifySurveyQuestions.md).
 
 7.  Click **Submit**.
 
 
--   **[Configure metric categories or metrics for a survey using the question bank](configure-questionbank-survey.md)**  
+-   **[Configure metric categories or metrics for a survey using the question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-questionbank-survey.md)**  
 Reuse question categories \(metric categories\) and questions \(metrics\) from the **Question Bank** module while creating or updating a survey.
 
-**Parent Topic:**[Survey questions](../concept/c_SurveyQuestion.md)
+**Parent Topic:**[Survey questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestion.md)
 
 **Related topics**  
 
 
-[Create or modify survey questions](t_CreateOrModifySurveyQuestions.md)
+[Create or modify survey questions]()
 
-[Survey question data types](../reference/r_SurveyQuestionDataTypes.md)
+[Survey question data types]()
 
-[Survey question template](../concept/c_SurveyQuestionTemplate.md)
+[Survey question template]()
 
-[Create or modify answer options](t_CreateOrModifyAnswerOptions.md)
+[Create or modify answer options]()
 
-[Change the order of survey questions](t_ChangeTheOrderOfSurveyQuestions.md)
+[Change the order of survey questions]()
 

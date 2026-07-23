@@ -2,6 +2,7 @@
 title: Configure AI search profiles with Now Assist for PSDS
 description: You can enable AI Search users to search content and metadata from documents in all or part of the knowledge bases, external repositories, and remote tables.Create a new search profile to store search experience settings for Now Assist for PSDS AI Search.Link search sources to a search profile to specify the content that a government service agent can search through that profile.Publish a search profile to make its settings, and any pending changes to its settings, active in search queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-config-ais-profiles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ AI Search for Now Assist for Public Sector Digital Services \(PSDS\) stores sear
 
 A search profile contains settings that determine how AI Search generates search results for a given search. The search application's configuration specifies which search profile to use, and also determines how the generated results are displayed to users.
 
-For more information on AI search profiles, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
+For more information on AI search profiles, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-profiles-ais.md).
 
 ## Create a search profile using Now Assist for PSDS
 
@@ -37,18 +38,18 @@ Role required: admin
 
 3.  On the Search Profile form, fill in the fields.
 
-    For a description of the field values, see [Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-profile-form-ais.md).
+    For a description of the field values, see [Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-profile-form-ais.md).
 
 4.  Select **Submit**.
 
 
 ### Result
 
-The new search profile appears in the AI Search Search Profiles list with **State** set to **New**. An informational message and an alert triangle icon \(![Alert triangle icon.](../image/icon-alert-triangle.png)\) indicate that the new search profile has never been published.
+The new search profile appears in the AI Search Search Profiles list with **State** set to **New**. An informational message and an alert triangle icon \(\[Omitted image "icon-alert-triangle.png"\] Alt text: Alert triangle icon.\) indicate that the new search profile has never been published.
 
 ### What to do next
 
-Your new search profile includes sample synonym and stop word dictionaries and a default typo handling dictionary. For more details on configuring and populating these dictionaries, see [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md), [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md), and [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md).
+Your new search profile includes sample synonym and stop word dictionaries and a default typo handling dictionary. For more details on configuring and populating these dictionaries, see [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/synonyms-ais.md), [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/stop-words-ais.md), and [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/typo-handling-ais.md).
 
 To make content searchable using your new search profile, link one or more search sources to it.
 
@@ -80,11 +81,11 @@ Linking a search source to a search profile makes its filtered content available
 
     To configure single-turn AI Search, enter **Now Assist Q&amp;A** in the Genius Result Configuration field, and set the order to **1**.
 
-    For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-prof-src-mapping-form-ais.md).
+    For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-prof-src-mapping-form-ais.md).
 
 5.  Select **Submit**.
 
-    ![Search profile related list showing linked Now Assist Q&A configuration](../image/search-profile-related-list-na-psds.png)
+    \[Omitted image "search-profile-related-list-na-psds.png"\] Alt text: Search profile related list showing linked Now Assist Q&amp;A configuration
 
 
 ### Result
@@ -107,7 +108,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **AI Search** &gt; **Search Experience** &gt; **Search Profiles**.
 
-    **Note:** Search profiles with the **New** state display an alert triangle icon \(![Alert triangle icon.](../image/icon-alert-triangle.png)\). An informational message notifies you to publish these search profiles.
+    **Note:** Search profiles with the **New** state display an alert triangle icon \(\[Omitted image "icon-alert-triangle.png"\] Alt text: Alert triangle icon.\). An informational message notifies you to publish these search profiles.
 
 2.  Open the search profile that you want to publish.
 

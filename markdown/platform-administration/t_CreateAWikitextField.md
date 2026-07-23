@@ -2,6 +2,7 @@
 title: Create a Wikitext field
 description: You can create a Wikitext field on any form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAWikitextField.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,5 +30,5 @@ Role required: personalize\_form
 **Related topics**  
 
 
-[Add and customize a field in a table](t_CreatingNewFields.md)
+[Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md)
 

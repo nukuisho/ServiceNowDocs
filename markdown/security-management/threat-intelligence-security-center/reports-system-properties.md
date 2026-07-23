@@ -2,13 +2,14 @@
 title: System properties for TISC Reports
 description: The following section describes the system properties applicable to TISC reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/reports-system-properties.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [About Report Templates in TISC, Administer, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Configure report templates, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # System properties for TISC Reports

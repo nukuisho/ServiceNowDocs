@@ -2,6 +2,7 @@
 title: Set the application scope, application resource, and event access
 description: Create a record in the Restricted Caller Access Privileges \[sys\_restricted\_caller\_access\] table to set cross-scope resource access requests. Approve or deny requests from a source scope or source scope application resources to a target scope or to target scope application resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/scope-resource-access.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ If you enable application administration for the target application, only applic
 
 Role required: application admin or admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](../concept/ACL-access-checks.md) and [Delegated development and deployment](../concept/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -152,7 +153,7 @@ Target Type
 
 Type of requested resource.-   Event
 
-**Note:** An event is a special type of target for restricted caller access. By selecting an event in a target scope, you give a source application permission to queue an event that is registered as part of a target application. However, if you set the caller access on the event registry to None, it prevents cross-scope access calls to an event. This setting combination is a one-to-one relationship. To learn more about events, and their function, see [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/events.md). If you set caller access to None on the event registry, the cross-scope access calls to an event are denied.
+**Note:** An event is a special type of target for restricted caller access. By selecting an event in a target scope, you give a source application permission to queue an event that is registered as part of a target application. However, if you set the caller access on the event registry to None, it prevents cross-scope access calls to an event. This setting combination is a one-to-one relationship. To learn more about events, and their function, see [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/events.md). If you set caller access to None on the event registry, the cross-scope access calls to an event are denied.
 
 -   Scope
 -   Table
@@ -161,14 +162,14 @@ For example, to allow access to an entire application, select **Scope**.
 
 </td></tr></tbody>
 </table>
--   **[Scope-to-scope settings](../reference/scope-to-scope-settings.md)**  
+-   **[Scope-to-scope settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-to-scope-settings.md)**  
 Allow or deny access of all application resources in a source scope to all application resources in a target scope. This setting combination is a many-to-many relationship.
--   **[Scope-to-target settings](../reference/scope-to-target-settings.md)**  
+-   **[Scope-to-target settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-to-target-settings.md)**  
 Allow or deny access of all application resources in a source scope to a specific application resource \(business rule, table, script include, or event\) in a target scope.
--   **[Source-to-scope settings](../reference/source-to-scope-settings.md)**  
+-   **[Source-to-scope settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/source-to-scope-settings.md)**  
 Allow or deny access of a specific application resource in a source scope to all application resources in a target scope.
--   **[Source-to-target settings](../reference/source-to-target-settings.md)**  
+-   **[Source-to-target settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/source-to-target-settings.md)**  
 Allow or deny access of a specific application resource in a source scope to a specific application resource in a target scope.
 
-**Parent Topic:**[Restricted caller access privilege settings](../concept/restricted-caller-access-privilege.md)
+**Parent Topic:**[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md)
 

@@ -2,6 +2,7 @@
 title: Control access to an indicator
 description: You can control which user roles grant access to specific indicators. Access to an indicator is regulated in the indicator record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_ControlAccessToAnIndicator.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -21,7 +22,7 @@ Role required: pa\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Automated Indicators** or to **Manual Indicators** or **Formula Indicators** if applicable.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Automated Indicators** or to **Manual Indicators** or **Formula Indicators** if applicable.
 
 2.  Select an indicator record.
 
@@ -35,7 +36,7 @@ Role required: pa\_admin or admin
 **Related topics**  
 
 
-[Control ability to view breakdown elements](t_ControlAccessToABreakdown.md#)
+[Control ability to view breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToABreakdown.md)
 
-[Share a responsive dashboard](../../dashboards/task/t_ControlAccessToADashboard.md)
+[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 

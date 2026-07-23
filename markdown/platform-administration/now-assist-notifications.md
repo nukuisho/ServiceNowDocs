@@ -2,6 +2,7 @@
 title: Now Assist in Notifications
 description: Use ServiceNow Now Assist to automate inbound emails processing and to create and modify email notifications, templates, and layouts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/now-assist-notifications.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -17,11 +18,11 @@ Use ServiceNow Now Assist to automate inbound emails processing and to create an
 
 <table id="table_dlz_kd4_ghc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore Now Assist in Notifications](exploring-now-assist-notifications.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Now Assist in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-now-assist-notifications.md)
 
 </td><td>
 
-[Use agentic workflow![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use agentic workflows in Now Assist for Notifications](use-agentic-ai-notifications.md)
+[Use agentic workflow\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Now Assist for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/use-agentic-ai-notifications.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

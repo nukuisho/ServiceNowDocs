@@ -2,11 +2,12 @@
 title: Properties of the Conditions components
 description: Learn about the properties for the Conditions components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/conditions-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Conditions, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Conditions, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Properties of the Conditions components
@@ -66,5 +67,5 @@ Timeout
 Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Conditions](../concept/conditions-components.md)
+</table>**Parent Topic:**[Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions-components.md)
 

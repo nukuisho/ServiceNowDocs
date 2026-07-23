@@ -2,6 +2,7 @@
 title: Delete checklist or a template
 description: You can remove a checklist from a record, and delete checklist templates you no longer need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_DeleteAChecklist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,12 +47,12 @@ Deleting a checklist template has no effect on checklists created from that temp
     4.  In the confirmation dialog box, click **Delete**.
 
 
-**Parent Topic:**[Checklists](../concept/c_Checklists.md)
+**Parent Topic:**[Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Checklists.md)
 
 **Related topics**  
 
 
-[Activate checklists](t_ActivateChecklists.md)
+[Activate checklists]()
 
-[Create a checklist](t_CreateAChecklist.md)
+[Create a checklist]()
 

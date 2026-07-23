@@ -1,42 +1,90 @@
 ---
 title: AI Service Graph Connector for Amazon
-description: Use the  AI Service Graph Connector for Amazon to create AI connections to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
+description: The AI Service Graph Connector for Amazon enables you to discover and import AI assets from your AWS environment into ServiceNow AI Control Tower.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/aws\_0.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+reading_time_minutes: 3
+breadcrumb: [Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # AI Service Graph Connector for Amazon
 
-Use the  AI Service Graph Connector for Amazon to create AI connections to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
+The AI Service Graph Connector for Amazon enables you to discover and import AI assets from your AWS environment into ServiceNow AI Control Tower.
+
+The connector integrates with your AWS account to catalog AI systems, agents, models, and prompts. Usage data is automatically collected and populated into the AI Control Tower value dashboard, providing comprehensive visibility and governance of your AI operations.
 
 ## Download apps from the Store
 
-Visit the  [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to download the AI Service Graph Connector for Amazon app.
+Visit the  ServiceNow store website to download the [AI Service Graph Connector for Amazon](https://store.servicenow.com/store/app/74d7378e47a73a50cbbce551336d4356) application.
 
 ## Supported ServiceNow versions
 
--   Australia
--   Zurich patch 7
--   Yokohama patch 11
+This connector is supported on the following ServiceNow releases:
 
-## User roles
+|Release|Status|
+|-------|------|
+|Australia|Supported|
+|Zurich|Supported|
+|Yokohama|Supported|
 
-Roles required in the ServiceNow environment:
+## User Roles
 
--   sn\_ai\_disc.discovery\_admin
--   sn\_cmdb\_int\_util.sgc\_admin
+You must have one of the following roles assigned.
 
-## Prerequisites from AWS
+|Required Roles|
+|--------------|
+|sn\_ai\_disc.discovery\_admin|
+|sn\_cmdb\_int\_util.sgc\_admin|
+
+## ServiceNow Prerequisites
+
+Complete the following setup steps once when configuring the connector for the first time.
+
+**Note:** Updating data source access and clear cache is a prerequisite that needs to be completed only once, when setting up a new instance for the first time.
+
+Update Data Source Access
+
+The connector requires write permissions to the Data Source table to create data sources.
+
+To enable data source creation:
+
+1.  Select Global from the application picker.
+2.  Navigate to Application Access.
+3.  Select the Can create, Can update, and Can delete check boxes.
+4.  Select Update.
+5.  Switch to the connector application scope.
+
+Clear cache
+
+Clear the cached data for the Data Source and Tables.
+
+To clear the cache:
+
+1.  Navigate to System Definition &gt; Background Scripts
+2.  Paste the following script into the Run Script text box:
+
+    ```
+    GlideTableManager.invalidateTable('sys_data_source');
+    GlideCacheManager.flushTable('sys_data_source');
+    GlideTableManager.invalidateTable('sys_db_object');
+    GlideCacheManager.flushTable('sys_db_object');
+    
+    ```
+
+3.  Select Run Script.
+
+    **Note:** The script may take several minutes to complete.
+
+4.  After completion, switch to the connector application scope.
+
+## AWS Prerequisites
 
 Role required: IAM user
-
-**AWS Prerequisites**
 
 Before proceeding, confirm you have:
 
@@ -44,18 +92,52 @@ Before proceeding, confirm you have:
 -   IAM Credentials: AWS Access Key ID and Secret Access Key with read permissions for the services you plan to migrate
 -   Service Access- API access enabled for Amazon Bedrock, Amazon SageMaker, Amazon CloudWatch, and Amazon Bedrock AgentCore
 
-**Required IAM Permissions**
+Choose Your Deployment Scenario
 
-Your IAM user role or role needs these permissions.
+Determine how your ServiceNow IAM user will b setup in AWS:
 
--   Amazon Bedrock: bedrock:List\*, bedrock:Get\*
--   Amazon SageMaker: sagemaker:List\*, sagemaker:Describe\*
--   Amazon CloudWatch: logs:DescribeLogGroups, logs:DescribeLogStreams, cloudwatch:GetMetricData
--   Amazon Bedrock AgentCore: bedrock:ListAgents, bedrock:GetAgent
+1.  Scenario 1- Management Account: The ServiceNow IAM user is created directly in the AWS Org/Management account
+2.  Scenario 2- Delegated Member Account: The ServiceNow IAM user is created in a dedicated member account, with a cross-account role in the Management account for Organizational-level access
+3.  Standalone Mode: Available in both scenarios. Use this to test discovery against a single AWS account before rolling out to the full organization.
 
-**AWS Setup documentation**
+CloudFormation Templates
 
-Use these AWS resources to set up credentials and enable services:
+Deploy the following AWS CloudFormation templates based on your chosen scenario:
+
+-   ServiceNowAictUser.yml- Required in all scenarios. Deploy in the account where the ServiceNow IAM user will reside
+    -   Management account for Scenario 1
+    -   Designated account for Scenario 2
+-   SgcAictReadOnlyAccessRole.yml- Required in all scenarios. Deploy across all member accounts via StackSet for Organization-wide discovery, or in a single target account for Standalone Mode
+-   SgcAictReadOnlyOrgAccessRole.yml- Required only for Scenario 2. Deploy in the Org/Management account to grant the Designated account cross-account Organization read access
+
+Required IAM permissions
+
+The IAM roles created by the templates above grant read-only access to the following services:
+
+-   Amazon Bedrock
+-   Amazon SageMaker
+-   Amazon CloudWatch Logs
+-   Amazon Bedrock AgentCore
+-   AWS Organizations
+-   Amazon EC2
+
+Pre-Deployment Checklist
+
+Before deploying any templates, confirm the following:
+
+You have AWS CloudFormation Stack and StackSet deployment permissions in the relevant accounts.
+
+Target member accounts have Amazon Bedrock, SageMaker, and/or AgentCore enabled- accounts without these services will return 403 errors during discovery.
+
+If using Standalone Mode, confirm the target account ID where SgAictReadOnlyAccessRole.yml will be deployed.
+
+If using StackSet deployment, confirm that Automatic Deployment is enabled so newly created accounts are covered automatically.
+
+The default role name across all templates is SgAictReadOnlyAccessRole. If your organization requires a different naming convention, update it consistently across all templates and in the ServiceNow connector configuration before deployment.
+
+AWS Setup documentation
+
+Use these AWS resources to set up credentials and enable services.
 
 -   [AWS IAM- Managing Access Keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)
 -   [Amazon Bedrock- Setting Up](https://docs.aws.amazon.com/bedrock/latest/userguide/setting-up.html)
@@ -63,21 +145,21 @@ Use these AWS resources to set up credentials and enable services:
 -   [Amazon CloudWatch- Setup Guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GettingSetup.html)
 -   [Amazon SageMaker- Get Started](https://docs.aws.amazon.com/sagemaker/latest/dg/gs.html)
 
-## Data mapping
+## Data Mapping
 
 The following table lists the data sources, the staging tables, and the target tables  CMDB CI classes and non-CMDB  classes where data is stored for a  AWS  project.
 
 <table id="table_jc1_m2r_l3c"><tbody><tr><td>
 
-**Data Source**
+Data Source
 
 </td><td>
 
-**Staging Table**
+Staging Table
 
 </td><td>
 
-**Target Table**
+Target Table
 
 </td></tr><tr><td>
 

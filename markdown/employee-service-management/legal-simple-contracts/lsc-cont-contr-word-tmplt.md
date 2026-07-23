@@ -2,6 +2,7 @@
 title: Add content controls in a Microsoft Word document
 description: As a legal contract configurator, prepare a Microsoft Word document that you want to import as a contract template by marking the content with content controls so it can be efficiently parsed and reused.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/lsc-cont-contr-word-tmplt.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -53,21 +54,21 @@ Role required: sn\_lg\_contracts.contracts\_config
 
     For example, Microsoft Outlook Add-In for Legal Service Delivery If you are adding a metadata for company name, you would name the tag **field\_company**.
 
-    ![Content control example](../image/lsc-add-ctrl-field.png)
+    \[Omitted image "lsc-add-ctrl-field.png"\] Alt text: Content control example
 
 8.  Select **OK**.
 
 
-**Parent Topic:**[Configure legal contract templates of type Microsoft Word](lsc-configure-ct-msword.md)
+**Parent Topic:**[Configure legal contract templates of type Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-configure-ct-msword.md)
 
 **Related topics**  
 
 
-[Create a Microsoft Word legal contract template](lsc-create-ct-msword.md)
+[Create a Microsoft Word legal contract template]()
 
-[Create and configure participants for legal contract template](lsc-add-config-participants-msword.md)
+[Create and configure participants for legal contract template]()
 
-[Update contract template mappings for legal contract template](lsc-template-map-msword.md)
+[Update contract template mappings for legal contract template]()
 
-[Publish a contract template](lsc-publish-word-template.md)
+[Publish a contract template]()
 

@@ -2,10 +2,11 @@
 title: Create a case from IoCs or observables
 description: In Threat Intelligence, you can create a case from artifacts \(IoCs or observables\). After the IoCs or observables have been used to create a case, you can use Security Case Management to analyze the data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/create-cases-threat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [IoCs and observables in cases, Case creation from security artifacts, Security Case Management, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -31,11 +32,11 @@ Role required: sn\_ti.case\_user\_write
 
 3.  From the **Actions on selected items** drop-down list, select **Add to Security Case**.
 
-    ![Add indicators to a new case](../image/add-to-case.png)
+    \[Omitted image "add-to-case.png"\] Alt text: Add indicators to a new case
 
     The **Add to Security Case** dialog box opens. If you already have cases assigned to you, they display in the list.
 
-    ![Add an indicator to the case](../image/add-to-security-case.png)
+    \[Omitted image "add-to-security-case.png"\] Alt text: Add an indicator to the case
 
 4.  Click **Create New Case**.
 
@@ -53,14 +54,14 @@ Role required: sn\_ti.case\_user\_write
 7.  Click the link to view the new case.
 
 
-**Parent Topic:**[IoCs and observables in cases](../concept/cases-in-threat.md)
+**Parent Topic:**[IoCs and observables in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cases-in-threat.md)
 
 **Related topics**  
 
 
-[Add IoCs and observables to an existing case](add-records-to-cases-threat.md)
+[Add IoCs and observables to an existing case]()
 
-[Create an observable from a case](create-an-observable-from-a-case.md)
+[Create an observable from a case]()
 
-[Run a sightings search on observables in a case](run-local-sighted-srch.md)
+[Run a sightings search on observables in a case]()
 

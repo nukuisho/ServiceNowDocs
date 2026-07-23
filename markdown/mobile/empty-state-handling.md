@@ -2,6 +2,7 @@
 title: Empty state display
 description: Use an empty state to indicate to your users that the displayed page does not contain data. You can add an image, text, and buttons to direct users to perform an action, view a particular screen, or review specific information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/empty-state-handling.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,16 +24,16 @@ The default empty state is triggered for all screens and segments without an ass
 
 <table id="table_shj_3dy_24b"><tbody><tr><td>
 
-![Default empty state.](../image/empty-state-default.png "Default empty state")
+\[Omitted image "empty-state-default.png"\] Alt text: Default empty state.
 
 </td><td>
 
-![Configured empty state with an image, a line of text and two buttons.](../image/empty-state-real.png "Configured empty state")
+\[Omitted image "empty-state-real.png"\] Alt text: Configured empty state with an image, a line of text and two buttons.
 
 </td></tr></tbody>
 </table>## Empty state structure
 
 You can define up to one image element, two text elements, and three button elements within a single empty state display. The elements are displayed in the vertical alignment in the order image, text, and then button. The following graphic shows the element order with its corresponding element name. Unused elements are not displayed in the empty state.
 
-![Empty state with predefined system names used in configuration.](../image/empty-state-element-callout.png "Empty state with predefined system names used in configuration")
+\[Omitted image "empty-state-element-callout.png"\] Alt text: Empty state with predefined system names used in configuration.
 

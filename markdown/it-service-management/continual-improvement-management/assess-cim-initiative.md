@@ -2,11 +2,12 @@
 title: Assess an improvement for approval
 description: Once accepted and set to assess, Approver group members evaluate the improvement for approval before implementation can begin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/assess-cim-initiative.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Managing improvements, Continual Improvement Management, IT Service Management]
 ---
@@ -30,7 +31,7 @@ Preconditions:
 -   Incident manager created an improvement request.
 -   Improvement Manager accepted and assigned the improvement request.
 
-By default, an improvement requires approval before it can progress to the Implement state. You can disable the approval requirement using the **sn\_cim.need\_approval** [property](../reference/cim-reference.md). When disabled, the **Approver group** field and the **Approvers** related list on the Improvement Initiative form are not shown.
+By default, an improvement requires approval before it can progress to the Implement state. You can disable the approval requirement using the **sn\_cim.need\_approval** [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md). When disabled, the **Approver group** field and the **Approvers** related list on the Improvement Initiative form are not shown.
 
 ## Procedure
 
@@ -58,10 +59,10 @@ As part of the approval process, an Approver group member assessed the details o
 |Approving|CIM0000135|
 |Comments|--|
 
-**Parent Topic:**[Managing improvements](../concept/cim-improvement-initiative-mgmt.md)
+**Parent Topic:**[Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
 
 **Related topics**  
 
 
-[Improvement field descriptions](../reference/cim-field-descriptions.md)
+[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
 

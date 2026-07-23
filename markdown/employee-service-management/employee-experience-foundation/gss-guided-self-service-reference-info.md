@@ -2,6 +2,7 @@
 title: Guided Self-Service reference
 description: Use the following reference information for the Guided Self-Service functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ You can display Guided Self-Service as a widget on the home page or as a quick l
 
 -   Ensure that the **sn\_hr\_sp.esc\_admin** user has the **playbook.write** role to edit the playbook design and **playbook\_experience.admin** to preview the guided experience.
 -   Only when the playbook and guided help process are in an active state, the guided help process appears on the Employee Center.
--   Guided Self-Service can’t be created from the playbook page directly, create the process from the GSS form, see [Configure Guided Self-Service](../task/gss-guided-help-config.md).
+-   Guided Self-Service can’t be created from the playbook page directly, create the process from the GSS form, see [Configure Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-help-config.md).
 -   Guided Self-Service flow is a single-stage flow.
 -   The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in **Workflow Studio**.
 
@@ -34,68 +35,68 @@ You can display Guided Self-Service as a widget on the home page or as a quick l
 -   The `Cancel incomplete guided help playbook` scheduled job for the automatic cancellation of incomplete guidance is only available for admin.
 -   Deleting the GSS process from `sn_ex_sp_gd_help_process` doesn’t delete the process from `sys_pd_process_definition`.
 
-**Parent Topic:**[Employee Center reference](emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
 
-[Activity Configuration form](ec-activity-configuration-form.md)
+[Activity Configuration form]()
 
-[Activity Configuration Detail form](activity-configuration-detail-form.md)
+[Activity Configuration Detail form]()
 
-[Approvals experience reference](approval-hub-ootb.md)
+[Approvals experience reference]()
 
-[Connected Content form](connected-content-form.md)
+[Connected Content form]()
 
-[Default Employee Profile Header Configuration record](default-profile-header.md)
+[Default Employee Profile Header Configuration record]()
 
-[Employee Center widgets](../concept/employee-center-widgets-list.md)
+[Employee Center widgets]()
 
-[Employee Profile form](employee-profile-fieldconfig.md)
+[Employee Profile form]()
 
-[Employee Profile Header Configuration form](profile-header-config-form.md)
+[Employee Profile Header Configuration form]()
 
-[Employee Profile portal configuration form](profile-portal-config-form.md)
+[Employee Profile portal configuration form]()
 
-[Employee Profile upgrade scenarios](emp-profile-upgrade.md)
+[Employee Profile upgrade scenarios]()
 
-[Enhanced Requests Experience forms](req-concept-ec.md)
+[Enhanced Requests Experience forms]()
 
-[External Link form](external-link-form.md)
+[External Link form]()
 
-[Featured Content form](featured-content-form.md)
+[Featured Content form]()
 
-[Footer form](ec-footer-form.md)
+[Footer form]()
 
-[Footer Menus form](ec-footer-menus.md)
+[Footer Menus form]()
 
-[Menu Item form](menu-item-form.md)
+[Menu Item form]()
 
-[Overview section form](profile-overview-section-form.md)
+[Overview section form]()
 
-[Portal notification configuration form](portal-notif-config-form.md)
+[Portal notification configuration form]()
 
-[Portal notification content form](notif-content-form.md)
+[Portal notification content form]()
 
-[Trigger conditions form](notif-trigger-form.md)
+[Trigger conditions form]()
 
-[Quick Link form](ec-quick-link-form.md)
+[Quick Link form]()
 
-[Tab widget mapping form](tab-widget-mapping-form.md)
+[Tab widget mapping form]()
 
-[Taxonomy form](taxonomy-form.md)
+[Taxonomy form]()
 
-[Topic form](topic-form.md)
+[Topic form]()
 
-[User Criteria form](ec-user-criteria-form.md)
+[User Criteria form]()
 
-[User Criteria output](user-criteria-output.md)
+[User Criteria output]()
 
-[Schedule appointment form](schedule-appointment-form.md)
+[Schedule appointment form]()
 
-[Location Consent form](location-consent-form.md)
+[Location Consent form]()
 
-[Website configuration form](config-website-form.md)
+[Website configuration form]()
 
-[Use Guided Self-Service](../concept/gss-guided-self-service-homepage.md)
+[Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
 

@@ -2,6 +2,7 @@
 title: Scrum tasks for stories in CWM
 description: Extend your agile workflow in CWM by breaking user stories into scrum tasks, giving your team the granularity needed to estimate effort, distribute work, and track daily progress through a sprint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -24,18 +25,18 @@ You can create scrum tasks manually or use Now Assist to generate them based on 
 
 -   **Manual creation**
 
-    After a story is saved, a Scrum Tasks tab is available on the story form. From this tab, you can add tasks by entering a title and any relevant details directly on the story. You can also create scrum tasks for stories inline from the List and Sprint planning views. For more information, see [Add scrum tasks to a story in CWM](../task/add-scrum-tasks-to-a-story-cwm.md).
+    After a story is saved, a Scrum Tasks tab is available on the story form. From this tab, you can add tasks by entering a title and any relevant details directly on the story. You can also create scrum tasks for stories inline from the List and Sprint planning views. For more information, see [Add scrum tasks to a story in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-scrum-tasks-to-a-story-cwm.md).
 
-    ![The Scrum tasks tab on a story form showing the option to add a scrum task from the side panel.](../images/cwm-scrum-tasks-add.png)
+    \[Omitted image "cwm-scrum-tasks-add.png"\] Alt text: The Scrum tasks tab on a story form showing the option to add a scrum task from the side panel.
 
 -   **AI-generated scrum tasks**
 
-    Now Assist can analyze the story description and context to suggest a set of scrum tasks. The **Create with Now Assist** button on the story form and the inline sparkle button on the **Scrum tasks** tab both trigger generation. You can review the suggestions, regenerate if the results don’t fit the story, and then insert the tasks. AI-generated tasks serve as a starting point and can be edited after they're created. For more information, see [Generate scrum tasks for a story with Now Assist for CWM](../../now-assist-cwm/task/generate-scrum-tasks-for-stories-cwm.md).
+    Now Assist can analyze the story description and context to suggest a set of scrum tasks. The **Create with Now Assist** button on the story form and the inline sparkle button on the **Scrum tasks** tab both trigger generation. You can review the suggestions, regenerate if the results don’t fit the story, and then insert the tasks. AI-generated tasks serve as a starting point and can be edited after they're created. For more information, see [Generate scrum tasks for a story with Now Assist for CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-scrum-tasks-for-stories-cwm.md).
 
 
 ## Scrum tasks on the Kanban board
 
-When a story has one or more scrum tasks, a scrum task indicator icon appears on the story's Kanban card. Selecting the icon opens a side panel that shows the scrum tasks for that story, so team members can view task details without leaving the board.![A Kanban board showing a story card with the scrum task indicator, and the side panel open with the associated scrum tasks listed.](../images/cwm-scrum-tasks-kanban-indicator.png)
+When a story has one or more scrum tasks, a scrum task indicator icon appears on the story's Kanban card. Selecting the icon opens a side panel that shows the scrum tasks for that story, so team members can view task details without leaving the board.\[Omitted image "cwm-scrum-tasks-kanban-indicator.png"\] Alt text: A Kanban board showing a story card with the scrum task indicator, and the side panel open with the associated scrum tasks listed.
 
 Quick filters on the Kanban board let teams focus on specific sprints, states, or other columns. Multiple filters can be active at the same time, and a counter at the top of the board shows how many filters are currently applied. This makes it easier to track sprint-specific work during daily stand-ups and sprint execution.
 
@@ -55,15 +56,17 @@ Quick filters on the Kanban board let teams focus on specific sprints, states, o
 -   You can't add scrum tasks if you have just the Viewer access to the CWM Board.
 -   If scrum tasks were previously imported through Connected work before upgrading to v9.0.0, and stories are then imported through Connected work after the upgrade, duplicate scrum tasks may appear on the board. To resolve this, remove the existing configuration for scrum tasks in Connected work for your Board.
 
--   **[Add scrum tasks to a story in CWM](../task/add-scrum-tasks-to-a-story-cwm.md)**  
+-   **[Add scrum tasks to a story in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-scrum-tasks-to-a-story-cwm.md)**  
 Break down a user story into scrum tasks in Collaborative Work Management \(CWM\) to distribute work across team members and track daily progress during a sprint.
+-   **[Generate scrum tasks for a story with Now Assist for CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-scrum-tasks-for-stories-cwm.md)**  
+Use Now Assist to automatically generate scrum tasks for a story in Collaborative Work Management \(CWM\) based on the story's description and context, saving time on manual task breakdown.
 
-**Parent Topic:**[Agile work management in CWM](agile-in-cwm.md)
+**Parent Topic:**[Agile work management in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-in-cwm.md)
 
 **Related topics**  
 
 
-[Agile work management in CWM](agile-in-cwm.md)
+[Agile work management in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-in-cwm.md)
 
-[Task dependencies and relationships in CWM](managing-task-dependencies-relationships-cwm.md)
+[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
 

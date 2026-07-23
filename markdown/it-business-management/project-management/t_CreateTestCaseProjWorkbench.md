@@ -2,6 +2,7 @@
 title: Create a test case in the project workbench
 description: Specifying a test plan is optional when creating a test phase. However, before you add test cases to a test phase, you must specify a test plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateTestCaseProjWorkbench.html
 release: australia
 product: Project Management
 classification: project-management
@@ -30,18 +31,18 @@ Role required: it\_project\_manager
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing Project workbench](../concept/c_UsingProjectWorkbench.md)
+**Parent Topic:**[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
 
 **Related topics**  
 
 
-[Open a project in the project workbench](t_OpenAProjectInTheProjectWorkbench.md)
+[Open a project in the project workbench]()
 
-[Create a project task in the project workbench](t_CreateProjTaskProjWorkbench.md)
+[Create a project task in the project workbench]()
 
-[Manage project stories in the project workbench](t_ManageProjStoriesProjWorkbench.md)
+[Manage project stories in the project workbench]()
 
-[Create a story in the project workbench](t_CreateAStoryInTheProjectWorkbench.md)
+[Create a story in the project workbench]()
 
-[Managing Project workbench](../concept/c_UsingProjectWorkbench.md)
+[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
 

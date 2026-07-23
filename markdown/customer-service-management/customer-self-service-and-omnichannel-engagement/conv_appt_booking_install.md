@@ -2,6 +2,7 @@
 title: Install Conversational Appointment Booking
 description: Install the Conversational Appointment Booking application \(sn\_va\_appt\_schedul\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/conv\_appt\_booking\_install.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -28,27 +29,22 @@ Conversational Appointment Booking requires the following plugins. Ensure that t
 -   **Required ServiceNow plugins**
     -   **Walk-Up for CSM \(com.snc.walkup\_for\_csm\)**
 
-        **Note:** Conversational Appointment Booking can be used without the Walk-Up for CSM plugin. However, custom control and Virtual Agent topic blocks shown in [Configure Conversational Appointment Booking](conv-appt-booking-config.md) cannot be used without this plugin.
+        **Note:** Conversational Appointment Booking can be used without the Walk-Up for CSM plugin. However, custom control and Virtual Agent topic blocks shown in [Configure Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/conv-appt-booking-config.md) cannot be used without this plugin.
 
         The following items are installed with this plugin:
 
-        -   NLU model for Conversational Appointment Booking.
+        -   Now Assist model for Conversational Appointment Booking.
 
-            **Note:** In order to use the NLU model, you need to train and publish the model. See [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md) for more information.
+            **Note:** A Now Assist for CSM license must be active on your instance for using the Now Assist model for Conversational Appointment Booking model.
 
-        -   Virtual Agent topics: Schedule a Walk-up appointment, Reschedule a Walk-up appointment, and Cancel a Walk-up appointment.
-        -   Virtual Agent topic blocks: Get Walk-up location and Walk-up appointment scheduling.
+        -   Virtual Agent topics: Walk-up Appointment Scheduling - LLM, Reschedule a Walk-up appointment, and Cancel a Walk-up appointment.
     -   **Appointment Booking \(com.snc.appointment\_booking\)**
 
         Enables the appointment booking feature for Walk-up Experience.
 
     -   **Glide Virtual Agent \(com.glide.cs.chatbot\)**
 
-        Activates the Virtual Agent platform. Virtual Agent requires additional licensing. See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) for more information.
-
-    -   **NLU Workbench \(com.snc.nlu\_studio\)**
-
-        Enables the creation of custom ServiceNow Natural Language Understanding models used by Virtual Agent.
+        Activates the Virtual Agent platform. Virtual Agent requires additional licensing. See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
 
     -   **Studio \(com.glide.dev-studio\)**
 
@@ -65,7 +61,7 @@ For information about plugin activation, see [Activate a plugin](https://raw.git
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

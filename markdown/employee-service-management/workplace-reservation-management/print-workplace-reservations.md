@@ -2,6 +2,7 @@
 title: Print workplace reservations
 description: Using the Reservation Overview, workplace managers and reservation desk executives can print the reservations created and scheduled for a location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/print-workplace-reservations.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -43,12 +44,14 @@ The report contains the reservation details and the requested service item detai
     **Note:** The Print reservation feature is only available for single- and multi-child reservations and isn’t available for blocker reservations and multi-parent reservations.
 
 
-**Parent Topic:**[Manage employee reservations](../concept/manage-reservation-requests.md)
+**Parent Topic:**[Manage employee reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/manage-reservation-requests.md)
 
 **Related topics**  
 
 
-[View or update reservations](view-reservations.md)
+[View or update reservations]()
 
-[Approve a reservation](approve-res-req.md)
+[Approve a reservation]()
+
+[Manage and configure reservation waitlist]()
 

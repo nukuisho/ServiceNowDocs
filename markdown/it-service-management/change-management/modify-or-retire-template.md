@@ -2,6 +2,7 @@
 title: Modify a template
 description: Copy and modify change templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/modify-or-retire-template.html
 release: australia
 product: Change Management
 classification: change-management
@@ -17,7 +18,7 @@ Copy and modify change templates.
 
 ## Before you begin
 
-The change model you want to modify must have been created. For more information, see [Create a Change model](create-a-change-model.md).
+The change model you want to modify must have been created. For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md).
 
 Role required: change\_manager
 
@@ -40,7 +41,7 @@ You can modify only templates in the Draft state. To modify templates that are i
 
 3.  Either modify the change template directly or copy it and then modify it.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d89464e134">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d90956e134">
 
 **Modify a change template**
 
@@ -48,7 +49,7 @@ You can modify only templates in the Draft state. To modify templates that are i
 
 Modify any field or field policy information available in the template.You can modify only templates in the Draft state.
 
-</td></tr><tr><td id="d89464e153">
+</td></tr><tr><td id="d90956e153">
 
 **Create a copy of a published template for modification**
 
@@ -66,12 +67,12 @@ Select **Copy**.A template copy is created and the Previous template field displ
     After the modifications are approved, a new version of the change template is created. Change requests created from the modified change template reflects the modifications made.
 
 
-**Parent Topic:**[Create and propose a change template](create-change-template.md)
+**Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md)
 
 **Related topics**  
 
 
-[Create and propose a change template](create-change-template.md)
+[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md)
 
-[Review a change template](review-change-template.md)
+[Review a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/review-change-template.md)
 

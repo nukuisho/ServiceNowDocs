@@ -2,6 +2,7 @@
 title: Configure knowledge bases from the Finance Operations Workspace
 description: Configure a knowledge base so that guest users can publish the knowledge base articles from the Finance Operations Workspace.To enable guest users to publish a knowledge article, add them to the Can Read list of the corresponding knowledge base in the Finance Operations Workspace.After creating a knowledge base article, publish the article from the Finance Operations Workspace
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/configure-kb-fin-ops-ws.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -15,12 +16,12 @@ breadcrumb: [Configure Finance Operations Workspace, Configure, Finance Case Man
 
 Configure a knowledge base so that guest users can publish the knowledge base articles from the Finance Operations Workspace.
 
-**Parent Topic:**[Configure Finance Operations Workspace](configuring-fin-ops-ws.md)
+**Parent Topic:**[Configure Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/configuring-fin-ops-ws.md)
 
 **Related topics**  
 
 
-[Configure the Finance Operations Workspace landing page](configure-fin-ops-ws.md)
+[Configure the Finance Operations Workspace landing page]()
 
 ## Enable guest users to publish knowledge base articles from the Finance Operations Workspace
 
@@ -63,13 +64,13 @@ Role required: admin
 
     -   **All** &gt; **Finance Operations** &gt; **Finance Operations Workspace**.
     -   **Workspaces** &gt; **Finance Operations Workspace**.
-2.  Select the list icon ![](../image/fin-ops-list-icon.png)
+2.  Select the list icon \[Omitted image "fin-ops-list-icon.png"\] Alt text:
 
 3.  Navigate to **Lists** &gt; **Knowledge**, and then select **Finance articles**.
 
 4.  Under the Number column, select the link to a knowledge base article to open it.
 
-5.  Select **Publish**.![Publish a finance article](../image/fin-ops-publish.png)
+5.  Select **Publish**.\[Omitted image "fin-ops-publish.png"\] Alt text: Publish a finance article
 
     A confirmation message appears, notifying you that the article is published.
 

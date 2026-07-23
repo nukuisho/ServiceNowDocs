@@ -2,6 +2,7 @@
 title: Slider types and their input attributes
 description: Review the sections to see slider type examples and learn which input attributes are used to create them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/slider-input-attributes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Number render types and compatible input attributes, Input form scr
 
 Review the sections to see slider type examples and learn which input attributes are used to create them.
 
-The sections within this topic show the types of sliders that you can create and the input attributes needed to create them. For more information about all the input attributes, see the Number inputs section in the topic [Input form screen attributes for inputs](parameter-screen-var-attr.md).
+The sections within this topic show the types of sliders that you can create and the input attributes needed to create them. For more information about all the input attributes, see the Number inputs section in the topic [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-var-attr.md).
 
 **Note:**
 
@@ -22,7 +23,7 @@ The sections within this topic show the types of sliders that you can create and
 
 ## Default value slider
 
-![Slider with values between 1 and 100 and a default number of 50.](../image/ifs-slider-default.png)
+\[Omitted image "ifs-slider-default.png"\] Alt text: Slider with values between 1 and 100 and a default number of 50.
 
 A default value provides a starting point to help users understand a typical or suggested setting. The following are input attributes that are required to create a slider with a displayed default value.
 
@@ -34,7 +35,7 @@ A default value provides a starting point to help users understand a typical or 
 
 ## Visual steps slider
 
-![A visual steps slider with a range of 0 to 20. Each step marks an increase of 2. The number displayed is 12.](../image/ifs-slider-visual-steps.png)
+\[Omitted image "ifs-slider-visual-steps.png"\] Alt text: A visual steps slider with a range of 0 to 20. Each step marks an increase of 2. The number displayed is 12.
 
 A visual step slider makes it clear to users what each position on the slider represents. The following are input attributes that are required to create a slider containing visual steps.
 
@@ -47,7 +48,7 @@ A visual step slider makes it clear to users what each position on the slider re
 
 ## Enforced step size slider
 
-![A enforced step slider with an error message stating that the selected number of 0.1 is not a valid and needs to be within a range of 0.0 and 0.5.](../image/ifs-slider-enforced-step-size.png)
+\[Omitted image "ifs-slider-enforced-step-size.png"\] Alt text: A enforced step slider with an error message stating that the selected number of 0.1 is not a valid and needs to be within a range of 0.0 and 0.5.
 
 Use an enforced step size slider to make sure that users can only select specific predefined incremental values. This slider is a more appropriate choice than a visual step slider, if the range of values is large. The image shows a scenario where the chosen figure doesn't conform with the enforced incremental value. The following are input attributes that are required to create a slider with enforced steps.
 
@@ -59,7 +60,7 @@ Use an enforced step size slider to make sure that users can only select specifi
 
 ## Reference point slider
 
-![Slider with values of minus 200 and 200. With a reference point of zero in the middle of the slider.](../image/ifs-slider-reference.png)
+\[Omitted image "ifs-slider-reference.png"\] Alt text: Slider with values of minus 200 and 200. With a reference point of zero in the middle of the slider.
 
 Use a reference point within a slider to help users understand where they are within the range of possible values. For example, a reference point at the center, shows users that they're setting a value higher or lower than the expected value. The following are input attributes that are required to create a slider containing a reference point.
 
@@ -72,7 +73,7 @@ Use a reference point within a slider to help users understand where they are wi
 
 ## Decorative step slider
 
-![The render type called slider showing an input called Quality of service with the indicator placed in the orange area, which is listed as Poor.](../image/ifs-slider-decorative.png)
+\[Omitted image "ifs-slider-decorative.png"\] Alt text: The render type called slider showing an input called Quality of service with the indicator placed in the orange area, which is listed as Poor.
 
 Use a decorative step slider to improve the overall look and feel of the user interface. This is important in design-focused applications where the visual experience is a key aspect. This slider type provides three visual indicators: the numeric value, the label text \(for example, good, poor, and bad\), and the colored slider. These colorful visual elements can aid accessibility. For example, distinct colors and labels for each step can help users better understand the slider's position and options. The following are input attributes that are required to create a decorative step slider.
 
@@ -83,5 +84,5 @@ Use a decorative step slider to improve the overall look and feel of the user in
 -   EnforceStepSize: Optional
 -   Decoration
 
-For more information, see [Configure a decorative slider](../task/decorative-slider.md).
+For more information, see [Configure a decorative slider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/decorative-slider.md).
 

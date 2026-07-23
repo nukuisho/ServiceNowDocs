@@ -2,6 +2,7 @@
 title: Troubleshoot workflows
 description: Troubleshooting tools for workflows enable administrators to isolate execution paths, compare contexts, and track incomplete activities.Use the controls in a workflow timeline to isolate specific execution paths or compare multiple execution paths over time.Highlight execution paths and rollbacks to locate activities that may have been left in an unresolved state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_TroubleshootWorkflows.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -17,9 +18,9 @@ Troubleshooting tools for workflows enable administrators to isolate execution p
 
 **Important:** As of the Zurich release, new customers no longer receive the legacy workflows created and published by ServiceNow, Inc.. All legacy workflow functionality has been replaced by Workflow Studio content. Only customers who upgraded from prior versions retain the ability to use and edit existing legacy workflows. While all customers retain the ability to create legacy workflows, you are strongly encouraged to instead use Workflow Studio to create process automation content. Only Workflow Studio will receive new features and enhancements.
 
-The workflow timeline provides a visual representation of the workflow, including transitions and the elapsed time for each activity. A troubleshooting tool for highlighting execution paths helps users perform forensics on a workflow. The highlighting feature can group multiple execution paths in various colors and can isolate [rollback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_ApprovalAndRollbackActivities.md) processing. Use the workflow highlighter to isolate incomplete tasks and approvals. You can also enable a workflow performance timing feature to troubleshoot slow workflows.
+The workflow timeline provides a visual representation of the workflow, including transitions and the elapsed time for each activity. A troubleshooting tool for highlighting execution paths helps users perform forensics on a workflow. The highlighting feature can group multiple execution paths in various colors and can isolate [rollback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ApprovalAndRollbackActivities.md) processing. Use the workflow highlighter to isolate incomplete tasks and approvals. You can also enable a workflow performance timing feature to troubleshoot slow workflows.
 
-**Parent Topic:**[Classic Workflow](c_WorkflowOverview.md)
+**Parent Topic:**[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md)
 
 ## Execution path troubleshooting in timelines
 
@@ -27,7 +28,12 @@ Use the controls in a workflow timeline to isolate specific execution paths or c
 
 Timelines show how the activities in the workflow progressed in relation to one another over time. Isolate execution paths and follow transition lines between subflows and the main flow. Processing times provide a view of the workflow that you cannot get from the workflow diagram. Tooltips give precise information about each activity, such as duration.
 
-![](../image/WorkflowTimelineTroubleshooting.png "Workflow timeline troubleshooting")
+\[Omitted image "WorkflowTimelineTroubleshooting.png"\] Alt text:
+
+**Related topics**  
+
+
+[Workflow timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowTimelines.md)
 
 ## Execution history table
 
@@ -51,7 +57,7 @@ Rollbacks, cancels, and deletions during the execution of a workflow can prevent
 
     All activities in that execution path are highlighted in a color selected by the platform. The debug path shows all activities that completed successfully during the workflow.
 
-    ![Workflow highlight path](../image/WorkflowHighlightPath2.png)
+    \[Omitted image "WorkflowHighlightPath2.png"\] Alt text: Workflow highlight path
 
 6.  Right-click a rollback activity and select **Workflow Debug** &gt; **Toggle Rollback Highlighting** from the context menu.
 
@@ -59,7 +65,7 @@ Rollbacks, cancels, and deletions during the execution of a workflow can prevent
 
     **Note:** The rollback activity itself appears in both execution path and rollback highlighting.
 
-    ![Workflow highlight path](../image/WorkflowHighlightPath1.png)
+    \[Omitted image "WorkflowHighlightPath1.png"\] Alt text: Workflow highlight path
 
 7.  To remove highlighting, right-click in the list and select an option to clear execution path or rollback highlighting.
 

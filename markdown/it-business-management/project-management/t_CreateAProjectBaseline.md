@@ -2,6 +2,7 @@
 title: Create baseline of a project
 description: Create a schedule baseline and financial baseline of a project. A schedule baseline captures planned dates of all tasks and milestones at a particular moment in time. A financial baseline captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and project-level financial metrics\) at a particular moment in time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateAProjectBaseline.html
 release: australia
 product: Project Management
 classification: project-management
@@ -29,7 +30,7 @@ The baseline appears as a set of gray lines below the bars that represent the ac
 
 **Financial baseline**
 
-You can create as many financial baselines as necessary and [compare them](compare-baselines-of-project.md) to review the financial changes that have been made to the project since the previous baseline. Any financial baseline does not capture actual cost component of the project.
+You can create as many financial baselines as necessary and [compare them](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/compare-baselines-of-project.md) to review the financial changes that have been made to the project since the previous baseline. Any financial baseline does not capture actual cost component of the project.
 
 **Note:** Nested projects cannot have baselines. Baselines are allowed for the top-level projects only.
 
@@ -41,15 +42,15 @@ You can create as many financial baselines as necessary and [compare them](compa
 
 3.  To create schedule and financial baselines of a project, use any of the following options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d148655e121">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d151223e121">
 
 Option
 
-</th><th align="left" id="d148655e124">
+</th><th align="left" id="d151223e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d148655e130">
+</th></tr></thead><tbody><tr><td id="d151223e130">
 
 **From the Financials tab**
 
@@ -61,19 +62,19 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d148655e163">
+</td></tr><tr><td id="d151223e163">
 
 **From the Project Workspace**
 
 </td><td>
 
 1.  Open a project from planning page in Project Workspace.
-2.  Select the baseline icon \(![](../../project-workspace/image/icon-baselines.png)\).
+2.  Select the baseline icon \(\[Omitted image "icon-baselines.png"\] Alt text: Baseline icon.\).
 3.  In the Create Baseline pop-up, enter a suitable name and description.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d148655e195">
+</td></tr><tr><td id="d151223e196">
 
 **From a related link**
 
@@ -84,7 +85,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d148655e222">
+</td></tr><tr><td id="d151223e223">
 
 **From a related list**
 
@@ -100,65 +101,61 @@ Steps
 </table>    **Note:** In the Create Baseline pop-up, the **Create Schedule Baseline** and the **Create Financial Baseline** check boxes are selected by default. Clear a check box if you do not intend to create a specific baseline.
 
 
--   **[Compare financial baselines of a project](compare-baselines-of-project.md)**  
+-   **[Compare financial baselines of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/compare-baselines-of-project.md)**  
 Compare baselines to review the variances in the financial data of a project and see what changed.
--   **[Compare schedule baselines of a project](compare-schedule-baselines-prj.md)**  
+-   **[Compare schedule baselines of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/compare-schedule-baselines-prj.md)**  
 Compare baselines to review variance between tasks and identify which task has variance from the current planned end date and the baseline end date. The baseline variance column displays the amount of variance between the two date comparisons.
 
-**Parent Topic:**[Starting a project](t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
 
-[Create a project task from a project](t_CreateATaskFromAProject.md)
+[Create a project task from a project]()
 
-[Create a parent-child relationship on the Project Task form](t_CreateParentChildRelationship.md)
+[Create a parent-child relationship on the Project Task form]()
 
-[Create a monetary benefit plan for a project](create-project-benefit-plan.md)
+[Create a monetary benefit plan for a project]()
 
-[Create a non-monetary benefit plan for a project](create-a-non-monetary-benefit-plan-for-a-project.md)
+[Create a non-monetary benefit plan for a project]()
 
-[Associate monetary and non-monetary benefit plans](associate-monetary-and-non-monetary-benefit-plans-project.md)
+[Associate monetary and non-monetary benefit plans]()
 
-[Create a project cost plan](t_CreateAProjectCostPlan.md)
+[Create a project cost plan]()
 
-[Recalculating costs of all resource plans in a project](recalculate-resource-costs-of-a-project.md)
+[Recalculating costs of all resource plans in a project]()
 
-[Create an expense line](t_CreateAExpenseLine.md)
+[Create an expense line]()
 
-[Create and manage waterfall projects](../../project-portfolio-suite/concept/c_CreateAndManageWaterfallProjects.md)
+[Create and manage waterfall projects]()
 
-[Schedule a project from a start date](schedule-a-project-pm.md)
+[Update a project]()
 
-[Apply or change a task constraint](change-task-constraint-project-management.md)
+[Copy a project]()
 
-[Update a project](t_UpdateAProjectInProgress.md)
+[Assign a project schedule]()
 
-[Copy a project](t_CopyAProject.md)
+[Create a milestone]()
 
-[Assign a project schedule](t_UseAProjectSchedule.md)
+[Activate project task email notifications]()
 
-[Create a milestone](t_CreateMilestones.md)
+[Change the planned start date of a project]()
 
-[Activate project task email notifications](t_ActivateProjTaskEmailNot.md)
+[Create a cost type definition]()
 
-[Change the planned start date of a project](change-planned-start-date-of-project.md)
+[Costing add-on in Project Management]()
 
-[Create a cost type definition](t_CreateAResourceTypeDefinition.md)
+[Generate labor costs]()
 
-[Costing add-on in Project Management](../concept/c_ProjectManagementCostingAddOn.md)
+[Create a project status report]()
 
-[Generate labor costs](gen-cost-pln-prj-wrkspc.md)
+[Allocate budget to a project]()
 
-[Create a project status report](t_CreateAProjectStatusReport.md)
+[Migrate budget of active projects to Next Experience]()
 
-[Allocate budget to a project](allocate-budget-to-project.md)
+[Migrate financial baselines of projects to Next Experience]()
 
-[Migrate budget of active projects to Next Experience](fin-migrate-budget-project-ppm.md)
+[Compare financial baselines of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/compare-baselines-of-project.md)
 
-[Migrate financial baselines of projects to Next Experience](migrate-fin-baselines-projects.md)
-
-[Compare financial baselines of a project](compare-baselines-of-project.md)
-
-[Compare schedule baselines of a project](compare-schedule-baselines-prj.md)
+[Compare schedule baselines of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/compare-schedule-baselines-prj.md)
 

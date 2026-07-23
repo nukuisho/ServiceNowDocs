@@ -2,6 +2,7 @@
 title: Bucket groups for breakdown sources
 description: Bucket groups are used to recategorize data so it can be used as a breakdown, for example by grouping a range of values into discrete buckets.You can use a bucket group with a breakdown mapping that does not use a script, to group the values of any mapped field to buckets.When you have a breakdown mapping script that collects a range of values, you can define a bucket group to divide those values into discrete buckets.Specify a group of buckets into which you want to recategorize data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_BucketGroups.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -19,12 +20,12 @@ In the data architecture, bucket groups are defined in Bucket Group \[pa\_bucket
 
 To work with a bucket group, create a breakdown source that uses Bucket \[pa\_buckets\] as the facts table and specifies the bucket group in a condition. If a breakdown built on this source uses a breakdown mapping with a script, the breakdown groups the values that the script returns into buckets. If the breakdown mapping specifies a field instead of using a script, the breakdown groups the values of the mapped field into buckets.
 
-**Parent Topic:**[Breakdown sources](breakdown-sources.md)
+**Parent Topic:**[Breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-sources.md)
 
 **Related topics**  
 
 
-[Create a breakdown mapping on a breakdown record](../task/t_CrtBkdnBreakdownMpngs.md)
+[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
 
 ## Grouping field values into buckets
 
@@ -36,13 +37,13 @@ The use case can be as simple as translating the `true` and `false` values of a 
 
 A base Performance Analytics installation includes the Active breakdown as part of the Analytics Usage Overview. This breakdown uses a mapping to the job.active boolean field from the Job Log \[pa\_jobs\_logs\] table. The breakdown source uses a bucket group where `true` values for job.active are sorted into the Active bucket, while `false` values are sorted into the Inactive bucket. Note that `false` values are numerically considered to be a value less than one, while `true` values are numerically one and above.
 
-![Bucket group form showing the Inactive and Active buckets and their ranges](../image/bucket-group-scriptless.png)
+\[Omitted image "bucket-group-scriptless.png"\] Alt text: Bucket group form showing the Inactive and Active buckets and their ranges
 
 ## Grouping script results into buckets
 
 When you have a breakdown mapping script that collects a range of values, you can define a bucket group to divide those values into discrete buckets.
 
-After you create the bucket group, you create a breakdown source based on the bucket group. Then you create a breakdown that uses that breakdown source. When you create the breakdown mapping for the breakdown, define or select a script for the mapping. The breakdown groups the results that the script returns into the buckets of the bucket group. For an example, see [Example: Script mapping](example-script-mapping.md).
+After you create the bucket group, you create a breakdown source based on the bucket group. Then you create a breakdown that uses that breakdown source. When you create the breakdown mapping for the breakdown, define or select a script for the mapping. The breakdown groups the results that the script returns into the buckets of the bucket group. For an example, see [Example: Script mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/example-script-mapping.md).
 
 You can write a bucket group for an existing script, or you can first write the bucket group and then write the script. Both must exist before you can create the breakdown.
 
@@ -58,7 +59,7 @@ Role required: pa\_data\_collector or higher
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Breakdowns** &gt; **Bucket Groups**.
+1.  Navigate to **Platform Analytics Administration** &gt; **Indicators** &gt; **Scripts**.
 
 2.  Select **New**.
 
@@ -87,7 +88,7 @@ Consider the case where you want to group incidents by age, as follows:
 -   31–90 days
 -   More than 90 days
 
-In **Performance Analytics** &gt; **Scripts**, you already have a script named Incident.Age.Days. This script derives the age in days of an incident from its opening date and the latest date on which a score was collected:
+In **Platform Analytics Administration** &gt; **Indicators** &gt; **Scripts**, you already have a script named Incident.Age.Days. This script derives the age in days of an incident from its opening date and the latest date on which a score was collected:
 
 ```
 var diff=function(x,y){return y.dateNumericValue() - x.dateNumericValue();};
@@ -97,13 +98,13 @@ days(current.opened_at, score_end);
 
 You create a bucket group named Incident Age Ranges \(Days\). In this bucket group, you define a set of buckets that start at the desired date and end at the beginning of the next bucket. For example, the 06–30 Days bucket starts at 6 and ends at 31:
 
-![The 06–30 day bucket](../image/bucket.png)
+\[Omitted image "bucket.png"\] Alt text: The 06–30 day bucket
 
 This bucket will contain incidents from the age of precisely 6 days to the age of 30 days, 23 hours, 59 minutes, and 59 seconds.
 
 At the end, you have a bucket group with five buckets corresponding to the age ranges in which you want to divide incidents.
 
-![Bucket groups](../image/BucketGroups.png)
+\[Omitted image "BucketGroups.png"\] Alt text: Bucket groups
 
 **Note:** The Script Mapping example shows a breakdown that uses this bucket group and script.
 
@@ -114,7 +115,7 @@ Create a breakdown source that uses the Bucket \[pa\_buckets\] facts table, the 
 **Related topics**  
 
 
-[Example: Script mapping](example-script-mapping.md)
+[Example: Script mapping]()
 
-[Scripting in Performance Analytics](pa-scripts.md#)
+[Scripting in Performance Analytics]()
 

@@ -1,31 +1,44 @@
 ---
-title: Explore Now Assist for Setup
-description: Now Assist for Setup simplifies installing, configuring, and deploying ServiceNow products by automating setup, applying best practices, tracking progress, and packaging changes for production.
+title: Explore Setup Hub
+description: Setup Hub simplifies installing, configuring, and deploying ServiceNow products by automating setup, applying best practices, tracking progress, and packaging changes for production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Explore Now Assist for Setup
+# Explore Setup Hub
 
-Now Assist for Setup simplifies installing, configuring, and deploying ServiceNow products by automating setup, applying best practices, tracking progress, and packaging changes for production.
+Setup Hub simplifies installing, configuring, and deploying ServiceNow products by automating setup, applying best practices, tracking progress, and packaging changes for production.
 
-## Now Assist for Setup overview
+## Setup Hub overview
 
-Now Assist for Setup offers a guided approach for installing, configuring, and deploying ServiceNow products. It streamlines the end‑to‑end setup by automating installation tasks, applying recommended configurations, monitoring setup progress, and preparing changes for production, making deployments more efficient and less manual.
+Setup Hub offers a guided approach for installing, configuring, and deploying ServiceNow products. It streamlines the end‑to‑end setup by automating installation tasks, applying recommended configurations, monitoring setup progress, and preparing changes for production, making deployments more efficient and less manual.
 
-This application is available to all users with Foundation SKUs for ITSM, CBS, ITOM, and ESM, and Pro+ SKUs for ITSM and HRSD.
+This application is available to all users with Foundation SKUs for ITSM, CBS, ITOM, Employee Slate and ESM, and Pro+ SKUs for Simplified ITSM, ITOM and HRSD.
 
-Installing Now Assist for Setup is the first step to experience automatic product installations and implementation of default configurations on your ServiceNow instance.
+**Note:** Setup Hub supports tiered SKUs \(Advanced and Prime\) for ITOM, Simplified IT Service Management, HAM and CBS, including entitlement-driven flows and experiences.
 
-**Note:** You can install the Now Assist for Setup application either directly from the [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
+Installing Setup Hub is the first step to experience automatic product installations and implementation of default configurations on your ServiceNow instance.
 
-![Image showing the button for installation of Now Assist for Setup store app](../image/ia-pre-install.png)
+**Note:** You can install the Setup Hub application either directly from the [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
 
-The Now Assist for Setup capability helps you with the following:
+\[Omitted image "ia-pre-install.png"\] Alt text: Image showing the button for installation of Now Assist for Setup store app
+
+Zero touch install automatically installs Setup Hub along with selected applications and plugins for net new ServiceNow customers in supported non‑production instances, displays installation status, and enables users to begin configuration without manual setup. A contextual banner appears during initial onboarding to help you get started and you can dismiss it when you no longer need it.
+
+\[Omitted image "ia-pre-install-netnew-cust.png"\] Alt text: Screenshot showing the banner and pre-install of Setup Hub
+
+Admin Home displays the installation status for each product to clearly indicate readiness and required action. Each product shows one of three states to help you understand the current state and determine the next step at a glance.
+
+-   Installation in progress: Indicates when the system is preparing the product in the background
+-   Ready to configure: Indicates when installation is complete and you can start the setup process
+-   Ready to install: when the product is not yet installed or installation did not complete successfully
+
+The Setup Hub capability helps you with the following:
 
 -   Automatic installation of the required products and implementation of default configurations.
 -   Visually clear and modular UI for focused task management.
@@ -33,9 +46,9 @@ The Now Assist for Setup capability helps you with the following:
 -   Ensures maintaining control with minimal effort by significantly improving task completion speed through centralized access and reduced navigation steps.
 -   Supports customizations as per user entitlements.
 
-## Now Assist for Setup users
+## Setup Hub users
 
-Now Assist for Setup has the following roles.
+Setup Hub has the following roles.
 
 |Users|Description|
 |-----|-----------|
@@ -43,23 +56,23 @@ Now Assist for Setup has the following roles.
 
 See [Now Assist for Setup personas and role assignments](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2809388) depending on the product family for more information.
 
-## Now Assist for Setup benefits
+## Setup Hub benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Set up an application with Now Assist for Setup|[Set up an application with Now Assist for Setup](../task/ia-setup-apps.md)|admin|
-|Set up Now Assist|[Set up Now Assist with Now Assist for Setup](../task/ia-setup-now-assist.md)|admin|
-|Upload update set batch file|[Manage update set for Now Assist for Setup](../task/ia-update-set.md)|admin|
-|Configure an application with Now Assist for Setup|[Product modules configuration in Now Assist for Setup](ia-bu-conf.md)|admin|
-|General guidelines for Now Assist for Setup|[General guidelines](ia-des-conf.md)|admin|
+|Set up an application with Setup Hub|[Set up an application with Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-apps.md)|admin|
+|Set up Now Assist|[Set up Now Assist with Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-setup-now-assist.md)|admin|
+|Upload update set batch file|[Manage update set for Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-update-set.md)|admin|
+|Configure an application with Setup Hub|[Product modules configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-bu-conf.md)|admin|
+|General guidelines for Setup Hub|[General guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-des-conf.md)|admin|
 
 ## What to explore next
 
-To learn more about using Now Assist for Setup, see:
+To learn more about using Setup Hub, see:
 
--   [Administer Now Assist for Setup](ia-administer.md)
--   [Product modules configuration in Now Assist for Setup](ia-bu-conf.md)
--   [Now Assist for Setup references](../reference/ia-reference.md)
+-   [Administer Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)
+-   [Product modules configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-bu-conf.md)
+-   [Setup Hub references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
 
-**Parent Topic:**[Now Assist for Setup](ia-landing.md)
+**Parent Topic:**[Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)
 

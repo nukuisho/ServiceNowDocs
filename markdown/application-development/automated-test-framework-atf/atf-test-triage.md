@@ -2,6 +2,7 @@
 title: Accelerate ATF tests failure resolution
 description: Resolve ATF test failures faster using the actionable support provided by the new ATF failure insights feature. You can achieve it by accessing the Find changes since last successful run related link.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-test-triage.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -64,21 +65,21 @@ Role required: admin
     If you select more than 1 changed file while creating a task, it still creates just 1 task for the multiple files.
 
 
--   **[Metadata exception list](../concept/atf-metadata-exception-triage.md)**  
+-   **[Metadata exception list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-metadata-exception-triage.md)**  
 The following list of tables are not supported by the ATF tests failure resolution feature.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](../concept/atf-test-type-testing.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-type-testing.md)
 
 **Related topics**  
 
 
-[Reusable tests](../concept/atf-reuse-tests.md)
+[Reusable tests]()
 
-[Mutually exclusive tests](../concept/mutual-exclusion-rule.md)
+[Mutually exclusive tests]()
 
-[Quick start tests](../concept/quick-start-tests.md)
+[Quick start tests]()
 
-[Parallel testing](../concept/parallel-testing.md)
+[Parallel testing]()
 
-[Performance profiling](../concept/atf-perf-prof.md#)
+[Performance profiling]()
 

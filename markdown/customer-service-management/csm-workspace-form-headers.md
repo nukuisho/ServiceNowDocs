@@ -1,23 +1,24 @@
 ---
 title: CSM Configurable Workspace form headers
-description: Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
+description: Form headers in CSM Configurable Workspace provide agents with a brief description of the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-form-headers.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-24"
+last_updated: "2026-06-30"
 reading_time_minutes: 1
 breadcrumb: [Form features, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM Configurable Workspace form headers
 
-Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
+Form headers in CSM Configurable Workspace provide agents with a brief description of the case.
 
-Form headers typically include the case short description. They can also include the action bar, record tags, and the [record presence component](csm-front-line-case-page.md#section_nbp_lfh_zdc).
+Form headers typically include the case short description. They can also include the action bar, record tags, and the [record presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md).
 
-![Case form header that shows the short description, record tags, and action buttons such as Close Case, Save, and Assign to me](../image/csm-config-workspace-case-form-header.png "Case form header")
+\[Omitted image "csm-config-workspace-case-form-header.png"\] Alt text: Case form header that shows the short description, record tags, and action buttons such as Close Case, Save, and Assign to me
 
-For more information, see [Set up a form header in CSM Configurable Workspace](../task/config-csm-config-ws-form-header.md)
+For more information, see [Set up a form header in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-header.md)
 
 **Note:** One form header configuration, **CSM/FSM Configurable Workspace Header Config**, is included with CSM Configurable Workspace.
 
@@ -30,13 +31,13 @@ The Record Information tab in the contextual side panel can include the followin
 -   Overview: Displays relevant information about the case including the account and contact, the case priority, and the state.
 -   Active SLA: Displays active SLAs for the case, including time remaining, the SLA state, and any breaches.
 
-The cards that appear in the Record Information tab can be configured in the ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](../task/config-csm-config-ws-ribbon.md).
+The cards that appear in the Record Information tab can be configured in the ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-ribbon.md).
 
-![The overview card shows the customer information, the case priority, and case state.](../image/csm-config-workspace-case-form-header-sidebar.png "Overview card in the Record Information tab")
+\[Omitted image "csm-config-workspace-case-form-header-sidebar.png"\] Alt text: The overview card shows the customer information, the case priority, and case state.
 
 ## Form header components
 
-For CSM Configurable Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md).
+For CSM Configurable Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-ui-builder.md).
 
 Individual components provide customers with flexible and granular configuration options. Customers can control the placement, size and spacing of these components, giving them the ability to show additional information that agents may need.
 

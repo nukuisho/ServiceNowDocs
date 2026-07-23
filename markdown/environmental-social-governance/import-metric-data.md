@@ -2,6 +2,7 @@
 title: Import historical metric data and tasks
 description: Import historical metric data with or without corresponding metric data tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/import-metric-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Import historical metric data with or without corresponding metric data tasks.
 
 ## Before you begin
 
-Download the metric template and follow the instructions to fill it out. You must use this .xlsx template for importing historical metric data. For more information on creating a metric data template, see [Download a metric import template](create-metric-data-template.md).
+Download the metric template and follow the instructions to fill it out. You must use this .xlsx template for importing historical metric data. For more information on creating a metric data template, see [Download a metric import template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-metric-data-template.md).
 
 Role required: sn\_esg.metric\_manager or esg.program\_manager
 
@@ -68,7 +69,7 @@ The state of a job is updated as the metric import job is processed.-   Draft
 
 
 </td></tr></tbody>
-</table>4.  Attach the completed template file by selecting the attachments icon ![Attachment icon.](../../esg-management-reporting/images/attachment-icon.png) and selecting the file from your local hard drive.
+</table>4.  Attach the completed template file by selecting the attachments icon \[Omitted image "attachment-icon.png"\] Alt text: Attachment icon. and selecting the file from your local hard drive.
 
     **Important:** The questionnaire template is downloaded in the .xlsx format and after being completed must be uploaded in the same format.
 
@@ -80,16 +81,16 @@ The state of a job is updated as the metric import job is processed.-   Draft
 
     1.  Correct any errors in the Microsoft Excel spreadsheet.
 
-    2.  Attach the updated template file by selecting the attachments icon ![Attachment icon.](../../esg-management-reporting/images/attachment-icon.png) and selecting the file from your local hard drive.
+    2.  Attach the updated template file by selecting the attachments icon \[Omitted image "attachment-icon.png"\] Alt text: Attachment icon. and selecting the file from your local hard drive.
 
     3.  Select **Re-import** and repeat until all errors are resolved and the import metrics job is completed successfully.
 
-        Select the help icon ![Help icon.](../image/help-icon.png) for additional instructions on re-importing a metric job.
+        Select the help icon \[Omitted image "help-icon.png"\] Alt text: Help icon. for additional instructions on re-importing a metric job.
 
     The metrics are imported and their associated metric data task records are created.
 
     **Note:** Metric data tasks are assigned based on the state of the metric data and the approval requirements. If data is provided, the state of the metric data task moves to Work In Progress. You must submit the task for the state to update to Awaiting approval or closed. Approval records are created and assigned according to the metric definition approval. If approval is not required, the task is created in a new state. Additionally, if the metric data is completed, a metadata task is created for audit purposes.
 
 
-**Parent Topic:**[Importing historical metric data](../concept/importing-metric-data.md)
+**Parent Topic:**[Importing historical metric data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/importing-metric-data.md)
 

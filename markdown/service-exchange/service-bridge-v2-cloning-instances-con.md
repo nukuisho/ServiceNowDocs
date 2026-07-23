@@ -2,6 +2,7 @@
 title: Reestablish connection after a clone for a consumer
 description: After you clone your instance, you must reestablish the connection between the consumer and provider instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-cloning-instances-con.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -19,7 +20,7 @@ After you clone your instance, you must reestablish the connection between the c
 
 Role required: admin
 
-The clone must be completed. For more information on cloning, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-clone-landing.md).
+The clone must be completed. For more information on cloning, see .
 
 ## About this task
 
@@ -49,7 +50,7 @@ After you clone your Service Exchange, the inbound and outbound connections move
 **Related topics**  
 
 
-[Reestablish connection after a clone for a provider](service-bridge-v2-cloning-instances.md)
+[Reestablish connection after a clone for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-cloning-instances.md)
 
-[List of preservers and exclusions tables for cloning](../reference/service-bridge-v2-cloning.md)
+[List of preservers and exclusions tables for cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-cloning.md)
 

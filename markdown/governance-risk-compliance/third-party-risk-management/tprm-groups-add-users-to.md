@@ -2,6 +2,7 @@
 title: Add users to groups based on responsibilities
 description: Assign users to groups before you implement or use the Third-party Risk Management application. Each group contains users with particular roles. Well-organized user groups simplify and improve process management and help to ensure that users are promptly notified of tasks in their areas of responsibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-groups-add-users-to.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Several user groups are created when you activate the TPRM app. In this procedure, you add users to each group. The roles mentioned in this procedure are described in [Roles in Third-party Risk Management](../reference/tprm-roles.md).
+Several user groups are created when you activate the TPRM app. In this procedure, you add users to each group. The roles mentioned in this procedure are described in [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
 
 There’s an important practical result of including all users with a particular role in a group: Your risk management process isn’t affected when one or more members of the group are unavailable due to vacation, for example.
 
@@ -60,7 +61,7 @@ There’s an important practical result of including all users with a particular
 
     The list of user groups appears.
 
-    ![Pre-defined user groups for TPRM.](../image/tprm-groups.png)
+    \[Omitted image "tprm-groups.png"\] Alt text: Pre-defined user groups for TPRM.
 
 2.  Select the name of the group to update.
 
@@ -86,7 +87,7 @@ There’s an important practical result of including all users with a particular
 **Related topics**  
 
 
-[Roles in Third-party Risk Management](../reference/tprm-roles.md)
+[Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-roles.md)
 
-[TPRM and the Explicit Roles plugin](../../grc-vendor-risk/concept/vrm-and-explicit-roles-plugin.md)
+[TPRM and the Explicit Roles plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vrm-and-explicit-roles-plugin.md)
 

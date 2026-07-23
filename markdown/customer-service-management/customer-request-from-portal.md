@@ -2,6 +2,7 @@
 title: Request an item or service from the Customer Service Portal
 description: Browse the catalog and create a request from the Customer or Consumer Service Portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-request-from-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner,
 
 Customers and consumers can make requests from the Customer and Consumer Service Portals. Customer administrators, partners, and case managers can also make requests.
 
-**Note:** Creating a request from the Customer and Consumer Service Portals requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the system administrator [provide external customers with access to request records](csm-itsm-integration-view-request.md).
+**Note:** Creating a request from the Customer and Consumer Service Portals requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the system administrator [provide external customers with access to request records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-itsm-integration-view-request.md).
 
 ## Procedure
 
@@ -39,4 +40,11 @@ Customers and consumers can make requests from the Customer and Consumer Service
 
     The system processes the request, creates the request and any other related records, and displays the details in the Related Records widget on the case view page.
 
+
+**Related topics**  
+
+
+[View the status of a request, change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-request-status-cust-portal.md)
+
+[Approve a change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/approve-request-from-cust-portal.md)
 

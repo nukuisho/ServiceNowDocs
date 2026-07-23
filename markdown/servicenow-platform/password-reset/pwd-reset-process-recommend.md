@@ -2,6 +2,7 @@
 title: Calculating the security score for password reset process
 description: The security score of the password reset process is a critical metric for the password reset administrators to assess the strength and configuration of the password reset process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/pwd-reset-process-recommend.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -44,28 +45,28 @@ To maximize your Password Policy Score, enable the Password Policy on the Creden
 
 **Send password reset process security score notification** is a weekly job that send reminders to the password admin about the score and recommendations to improve the score. An email notification is sent to the Process Owners of all the active processes if **Enable security score notification** option is selected in Password Reset Process form.
 
-**Parent Topic:**[Configure your Password Reset process](../task/t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 
 
-[Configure password expiration reminder](../task/password-reset-expiration-setup.md)
+[Configure password expiration reminder]()
 
-[Credential stores for Password Reset](../concept/c_CredentialStores.md)
+[Credential stores for Password Reset]()
 
-[Password Reset verifications](../concept/c_PWRVerifications.md)
+[Password Reset verifications]()
 
-[Configure your Password Reset process to auto-enroll users](../../security/task/configure-auto-enroll-for-pwd-reset.md)
+[Configure your Password Reset process to auto-enroll users]()
 
-[Enable users to enroll for Password Reset](../../security/task/configure-user-enroll-for-pwd-reset.md)
+[Enable users to enroll for Password Reset]()
 
-[Configure Password Reset properties](../task/t_SetPwdResetProps.md)
+[Configure Password Reset properties]()
 
-[Send email to remind users to enroll for Password Reset](../task/config-pwd-reset-enroll-reminder.md)
+[Send email to remind users to enroll for Password Reset]()
 
-[Configure the required strength for passwords](../task/config-pwd-strength-rqmts.md)
+[Configure the required strength for passwords]()
 
-[Specify lockout for failed login attempts](../../security/task/t_LockoutForFailedLogins.md)
+[Specify lockout for failed login attempts]()
 
-[Configure Google reCAPTCHA for the password reset process](../task/t_ConfigureGoogleRecaptcha.md)
+[Configure Google reCAPTCHA for the password reset process]()
 

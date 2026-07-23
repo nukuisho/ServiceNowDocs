@@ -2,9 +2,10 @@
 title: Warranty Claims SOAP API
 description: The Warranty Claims SOAP API handles incoming repair orders from dealer systems and converts them into warranty claims within the Oracle Enterprise Manager \(OEM\)’s platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/warranty-claims-SOAP-API.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 10
 breadcrumb: [MCO Integration APIs, Reference, Manufacturing Commercial Operations]
 ---
@@ -48,7 +49,7 @@ The API adheres to widely used, publicly documented standards.
 
 ## Granular roles and entities
 
-This SOAP API requires granular roles to access certain MCO features and responsibilities, provide CRU permissions without custom ACLs, and map directly to supported entities. See [Granular roles and entities](../concept/mco-granular-roles-and-entities.md) for information about supported granular roles.
+This SOAP API requires granular roles to access certain MCO features and responsibilities, provide CRU permissions without custom ACLs, and map directly to supported entities. See [Granular roles and entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-granular-roles-and-entities.md) for information about supported granular roles.
 
 ## Endpoint details
 
@@ -970,5 +971,5 @@ Requests and responses are logged by the service for diagnostic and troubleshoot
 
 Refer to the official STAR and W3C documentation for detailed schema and protocol definitions.
 
-**Parent Topic:**[MCO Integration APIs](../integrate/manufacturing-integrate.md)
+**Parent Topic:**[MCO Integration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-integrate.md)
 

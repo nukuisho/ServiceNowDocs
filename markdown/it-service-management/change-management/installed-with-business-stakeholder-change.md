@@ -2,11 +2,12 @@
 title: Installed with Business Stakeholder
 description: The Business Stakeholder plugin \(com.snc.business\_stakeholder\) installs the Business Stakeholder role when activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/installed-with-business-stakeholder-change.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Activate Business Stakeholder, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -37,7 +38,7 @@ Business Stakeholder\[business\_stakeholder\]
 
 </td><td>
 
-Users with this role can view and approve records within all products of ITSM.**Note:** The business\_stakeholder role contains the following ITSM roles: sn\_request\_comments\_write, sn\_incident\_comments\_write roles.
+Users with this role can view and approve records within all products of ITSM.
 
 </td><td>
 
@@ -45,6 +46,11 @@ Users with this role can view and approve records within all products of ITSM.**
 -   approver\_user.business\_stakeholder
 -   cmdb\_read.business\_stakeholder
 
+ -   sn\_request\_comments\_write
+
+-   sn\_incident\_comments\_write
+
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Business Stakeholder](../task/activate-business-stakeholders.md)
+</table>**Parent Topic:**[Activate Business Stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/activate-business-stakeholders.md)
 

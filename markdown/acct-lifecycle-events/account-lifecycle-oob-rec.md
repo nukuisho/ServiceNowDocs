@@ -1,7 +1,8 @@
 ---
-title: Recommended Actions available with account onboarding
+title: Recommended actions available with account onboarding
 description: Use the predefined recommended actions that are available with the base system during the account onboarding process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-oob-rec.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 3
 breadcrumb: [Account onboarding, Use, Customer Success Management]
 ---
 
-# Recommended Actions available with account onboarding
+# Recommended actions available with account onboarding
 
 Use the predefined recommended actions that are available with the base system during the account onboarding process.
 
@@ -35,7 +36,7 @@ The following recommendations are available:
 
 Depending on your selection, you will see instructions on how to resolve the issue. Select the Knowledge Base article to view additional information about the error. After the error has been resolved, select **End Troubleshooting**.
 
-## Service Exchange Consumer Registration &amp; Configuration
+## Service Exchange consumer registration &amp; configuration
 
 The following recommendations are available:
 
@@ -51,7 +52,7 @@ The following recommendations are available:
     -   Specify whether your Service Exchange version is 1.0.4 or later. If you select **No**, the troubleshooting process ends and you must contact customer support for assistance. If you select **Yes**, you will see further information on how to troubleshoot the issue.
     The following image shows the recommended actions and troubleshooting tips for the Service Exchange Consumer Registration &amp; Configuration task. To initiate the registration process, select **Start Registration** and follow the guided flow to register the consumer.
 
-    ![Account onboarding recommended action](../image/account-lifecycle-rec-action.png)
+    \[Omitted image "account-lifecycle-rec-action.png"\] Alt text: Account onboarding recommended action
 
 -   Assigned to Field Recommendation: Select **Assign** to assign the recommended user and auto-populate the Assigned to field in the Service Exchange Consumer Registration &amp; Configuration task.
 
@@ -69,5 +70,5 @@ The following recommended actions are available for the data import task:
 
 Depending on your selection, you will see instructions on how to resolve the issue. After the error has been resolved, select **End Troubleshooting**.
 
-**Parent Topic:**[Account onboarding](account-lifecycle-use.md)
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use.md)
 

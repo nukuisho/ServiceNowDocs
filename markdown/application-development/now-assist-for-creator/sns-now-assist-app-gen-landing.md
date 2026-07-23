@@ -2,46 +2,49 @@
 title: App generation
 description: Use the app generation skill available with Now Assist for Creator to create applications through conversation with generative AI. Describe the app you want to build, and Now Assist for Creator generates it so you can review and modify it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/sns-now-assist-app-gen-landing.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-05-12"
+reading_time_minutes: 4
 keywords: [agentic ai, app gen, app generation, now assist, application generation, app creation, application creation, servicenow studio, generative ai]
-breadcrumb: [Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # App generation
 
 Use the app generation skill available with Now Assist for Creator to create applications through conversation with generative AI. Describe the app you want to build, and Now Assist for Creator generates it so you can review and modify it.
 
-Video describing Now Assist for app generation and how to use it to create applications. 
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
+
+\[Omitted video\] Description: Video describing Now Assist for app generation and how to use it to create applications.
 
 ## Get started
 
 <table id="now-assist-app-gen-landing-tb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn how to create apps through conversation](sns-exploring-now-assist-gen.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how to create apps through conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-exploring-now-assist-gen.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up app generation](sns-app-gen-config-landing.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-config-landing.md)
 
 </td></tr><tr><td>
 
-[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Build apps through conversation](../task/sns-app-gen-using-landing.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Build apps through conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-using-landing.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about properties, roles, and more](sns-app-gen-reference-landing.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, roles, and more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-reference-landing.md)
 
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
@@ -62,14 +65,14 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which app generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring app generation](sns-exploring-now-assist-gen.md)**  
+-   **[Exploring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-exploring-now-assist-gen.md)**  
 App generation enables you to create applications in ServiceNow Studio by describing your business process in a conversation with Now Assist.
--   **[Configuring app generation](sns-app-gen-config-landing.md)**  
+-   **[Configuring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-config-landing.md)**  
 To build applications with app generation, install Now Assist for Creator and enable the app generation skill in the Now Assist Admin console.
--   **[Generate apps in ServiceNow Studio](../task/sns-app-gen-using-landing.md)**  
+-   **[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-using-landing.md)**  
 Use the app generation skill to build an application in ServiceNow Studio by describing your business process in a conversation with Now Assist.
--   **[App generation reference](sns-app-gen-reference-landing.md)**  
+-   **[App generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-reference-landing.md)**  
 Use these reference topics to look up configuration properties, roles, and related details for app generation.
 
-**Parent Topic:**[Using generative AI with Now Assist for Creator](../../now-assist-for-creator/concept/using-gen-ai-now-assist-for-creator.md)
+**Parent Topic:**[Using generative AI with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)
 

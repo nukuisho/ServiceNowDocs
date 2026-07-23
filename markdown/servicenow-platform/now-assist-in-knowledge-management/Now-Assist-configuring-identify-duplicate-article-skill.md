@@ -2,6 +2,7 @@
 title: Configure and activate the Now Assist Identify duplicate articles skill
 description: Configure the Knowledge content management skill to enable admins and managers to activate the Now Assist Identify duplicate articles skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -95,10 +96,10 @@ Use the template to specify all the fields that will be used in the identify dup
 
 The Now Assist Identify duplicate articles skill is configured.
 
-**Parent Topic:**[Configuring Now Assist in Knowledge Management](../concept/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 
 **Related topics**  
 
 
-[Identify and resolve duplicate articles](../../knowledge-center/task/identify-duplicate-articles.md)
+[Identify and resolve duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/identify-duplicate-articles.md)
 

@@ -2,6 +2,7 @@
 title: Activate Content engagement
 description: You can activate the Content Engagement \[sn\_ce\] plugin if you have the admin role to enable employee engagement activities \(reaction icons, comments, or sharing content\) with portal and mobile content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/installing-content-engagement.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ You can activate the Content Engagement \[sn\_ce\] plugin if you have the admin 
 
 Role required: admin
 
-Activate the Content Publishing \[sn\_cd\] plugin: [Activate Content Publishing](activate-content-delivery-plugin.md)
+Activate the Content Publishing \[sn\_cd\] plugin: [Activate Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-delivery-plugin.md)
 
 ## Procedure
 
@@ -33,13 +34,13 @@ Activate the Content Publishing \[sn\_cd\] plugin: [Activate Content Publishing]
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  
 
 
-[Components installed with Content engagement](../reference/installed-content-engagement.md)
+[Components installed with Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/installed-content-engagement.md)
 
-[Content engagement](../concept/ec-content-engagement.md)
+[Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
 

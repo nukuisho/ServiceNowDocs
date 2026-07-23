@@ -2,6 +2,7 @@
 title: PCI configuration controls score dashboard
 description: Use the PCI configuration controls score dashboard to review your PCI configuration and determine which security checks are non-compliant. You can change the configuration of the non-compliant security checks from the instance security center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/pci-config-controls-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -61,7 +62,7 @@ PCI Configuration Controls
 
 </td><td>
 
-![Stacked bar chart](../../../reuse/reporting/image/bar-stacked.svg) Stacked bar chart
+\[Omitted image "bar-stacked.svg"\] Alt text: Stacked bar chart Stacked bar chart
 
 </td><td>
 
@@ -72,5 +73,5 @@ Security Configurations \[isc\_security\_configurations\]
 Displays compliant and non-compliant PCI control configurations in high, medium, and low categories. Click an area of the report to display the matching security configurations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Check the daily compliance score and configure security property settings](../../../administer/security/concept/instance-sec-center-hardening.md)
+</table>**Parent Topic:**[Check the daily compliance score and configure security property settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-hardening.md)
 

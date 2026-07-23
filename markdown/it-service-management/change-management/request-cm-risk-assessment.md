@@ -2,6 +2,7 @@
 title: Request Change Management - Risk Assessment
 description: To activate Change Management capability to predict change risk using Predictive Intelligence, request the Change Management - Risk Intelligence plugin \(com.snc.change\_management.ml.risk\) through the Now Support Customer Service system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/request-cm-risk-assessment.html
 release: australia
 product: Change Management
 classification: change-management
@@ -72,7 +73,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -90,55 +91,55 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with Change Management - Risk Intelligence](../reference/installed-with-risk-intelligence.md)**  
+-   **[Components installed with Change Management - Risk Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-risk-intelligence.md)**  
 Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, that includes tables.
 
-**Parent Topic:**[Change Management plugins](../concept/change-plugins.md)
+**Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management](request-itsm-roles-cm.md)
+[Request ITSM Roles- Change Management]()
 
-[Activate Business Stakeholder](../../../reuse/itsm/task/activate-business-stakeholders.md)
+[Activate Business Stakeholder]()
 
-[Activate Change Management - State Model](t_ActivateStateModel.md)
+[Activate Change Management - State Model]()
 
-[Activate Change Management - Collision Detector](t_ActivateConflictDetection.md)
+[Activate Change Management - Collision Detector]()
 
-[Activate Best Practice - Change Risk Calculator](activate-change-risk-calculator.md)
+[Activate Change Management - Risk Calculator]()
 
-[Activate Change Management - Change Schedule](activate-changemgmt-changeschedule.md)
+[Activate Change Management - Change Schedule]()
 
-[Activate Change Management - Risk Assessment](activate-change-risk-assessment.md)
+[Activate Change Management - Risk Assessment]()
 
-[Activate Change Management - Standard Change Catalog](t_ActivateStandardChangeCatalog.md)
+[Activate Change Management - Standard Change Catalog]()
 
-[Activate Change Management - Change Success Score](activate-change-success-score.md)
+[Activate Change Management - Change Success Score]()
 
-[Activate Change Management - Mass Update CI](t_ActivateChangeManagementBulkCI.md)
+[Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy](activate-change-approval-policy.md)
+[Activate Change Management -Approval policy]()
 
-[Activate Change Management - CAB Workbench](activate-cab-workbench.md)
+[Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests](activate-changemgmt-atftests.md)
+[Activate Change Management ATF Tests]()
 
-[Activate Change Management - Core](t_ActivateChangeMgmtCore.md)
+[Activate Change Management - Core]()
 
-[Request Change Management - Standard Change Template Intelligence](request-cm-std-chg-template-intelligence.md)
+[Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core](request-cm-picore.md)
+[Change Management - Predictive Intelligence Core]()
 
-[Activate Change Management - Change Flows](activate-change-flows.md)
+[Activate Change Management - Change Flows]()
 
-[Activate Change Management - Change Velocity dashboard](activate-change-velocity-dashboard.md)
+[Activate Change Management - Change Velocity dashboard]()
 
-[Activate Change Management - Change Models](activate-change-models.md)
+[Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability](install-chg-mgmt-success-probability.md)
+[Activate Change Management Success Probability]()
 
-[Activate Change Management - Data Archiving](activate-data-retention-archive-rule.md)
+[Activate Change Management - Data Archiving]()
 
 [List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

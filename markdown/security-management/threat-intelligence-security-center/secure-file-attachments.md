@@ -2,6 +2,7 @@
 title: Upload Secure File Attachments
 description: Use this section to understand on how to upload the secure file attachments to the case\(s\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/secure-file-attachments.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -43,7 +44,7 @@ Role required: sn\_sec\_tisc\_secure\_file\_access, sn\_sec\_tisc.admin
 
     The file attachments are uploaded.
 
-    ![Secure file attachments](../image/tisc-upload-secure-file.png)
+    \[Omitted image "tisc-upload-secure-file.png"\] Alt text: Secure file attachments
 
 9.  Click **Download Secure Files** to download the attachments.
 
@@ -53,27 +54,33 @@ Role required: sn\_sec\_tisc\_secure\_file\_access, sn\_sec\_tisc.admin
 
     **Note:**
 
-    -   All the secure attachments are encrypted and stored in the system using Key Management Framework \(KMF\). For more information, see [Attachment Encryption](https://servicenow.com/docs/bundle/vancouver-platform-security/page/administer/encryption/concept/c_EncryptionSupport.html).
+    -   All the secure attachments are encrypted and stored in the system using Key Management Framework \(KMF\). For more information, see [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption.md).
     -   If users have subscription for **ServiceNow Integration Hub Professional Pack Installer**, secure files are compressed in zip format and also encrypted and stored
 
-**Parent Topic:**[Threat Analyst Workbench](../concept/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 
 
-[Workbench Overview](../concept/workbench-overview.md)
+[Workbench Overview]()
 
-[Creating cases using Threat Analyst Workbench](../concept/create-cases-using-threat-analyst-workbench.md)
+[Creating cases using Threat Analyst Workbench]()
 
-[Creating case task using Threat Analyst Workbench](tisc-create-case-task.md)
+[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
 
-[Working with Investigation Canvas](../concept/tisc-investigation-canvases.md)
+[Creating case task using Threat Analyst Workbench]()
 
-[Add artifacts to case\(s\) or case task\(s\)](add-artifacts-to-a-case-s.md)
+[Working with Investigation Canvas]()
 
-[Run Enrichment Actions within a case](run-enrichment-results.md)
+[Add artifacts to case\(s\) or case task\(s\)]()
 
-[View Case Reports](view-case-reports.md)
+[Run Enrichment Actions within a case]()
 
-[Create a security incident from a TISC case](tisc-create-si-case.md)
+[Generate a Case Report using generative AI]()
+
+[Generate a Case Report using a template]()
+
+[Create a security incident from a TISC case]()
+
+[Using playbooks]()
 

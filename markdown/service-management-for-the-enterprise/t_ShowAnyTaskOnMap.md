@@ -2,6 +2,7 @@
 title: Show any task on a map
 description: Custom tables that are extended from task can be created, shown, and managed on the interactive map. The location field on the task, must be a mappable space \(fm\_space\). There are some location fields on task that may have a reference qualifier that does not allow fm\_space be used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_ShowAnyTaskOnMap.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +31,7 @@ Role required: facilities\_admin to edit, create, delete records
 
 3.  Do one of the following actions:
 
-<table id="choicetable_lmr_1x2_bv"><tbody><tr><td id="d21679e89">
+<table id="choicetable_lmr_1x2_bv"><tbody><tr><td id="d21917e89">
 
 **To show the task on the map**
 
@@ -38,7 +39,7 @@ Role required: facilities\_admin to edit, create, delete records
 
 Set **Show task** to true
 
-</td></tr><tr><td id="d21679e101">
+</td></tr><tr><td id="d21917e101">
 
 **To hide the task from the map**
 
@@ -49,8 +50,8 @@ Set **Show task** to false
 </td></tr></tbody>
 </table>    These tasks display on the Task tab on the map.
 
-    ![In this figure, there is a Task tab, with four requests on the current level.](../image/TaskTab.png "Tasks Tab")
+    \[Omitted image "TaskTab.png"\] Alt text: In this figure, there is a Task tab, with four requests on the current level.
 
 
-**Parent Topic:**[Interactive facility maps](../concept/c_InteractiveFacilityMaps.md)
+**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
 

@@ -20,7 +20,7 @@ Role required: trigger\_designer, flow\_designer, or admin.
 
 Choose from a variety of scheduling options to create a scheduled trigger that starts your flow at the required time and interval. You can schedule a trigger in any time zone, with or without an end date for the schedule.
 
-If you want to create a scheduled trigger based on a business calendar, see [Create a scheduled trigger using business calendar](create-trigger-business-calendar.md).
+If you want to create a scheduled trigger based on a business calendar, see [Create a scheduled trigger using business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-trigger-business-calendar.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ If you want to create a scheduled trigger based on a business calendar, see [Cre
 
 2.  From the Workflow Studio home page, select **New** &gt; **Trigger**.
 
-    The New Trigger page appears.![Screen to enter the details of your trigger.](../images/scheduled-trigger-properties.png)
+    The New Trigger page appears.\[Omitted image "scheduled-trigger-properties.png"\] Alt text: Screen to enter the details of your trigger.
 
 3.  Fill in the details for your trigger.
 
@@ -94,7 +94,7 @@ Domain scope of the flow. For more information about domain separation, see [Dom
 
 6.  On the Trigger definition form, specify the **Scheduling Details**.
 
-    ![Form to specify the scheduling details for your trigger](../images/scheduled-trigger-definition.png)
+    \[Omitted image "scheduled-trigger-definition.png"\] Alt text: Form to specify the scheduling details for your trigger
 
     1.  Select the **Time zone** in which you want to schedule the trigger.
 
@@ -126,7 +126,7 @@ Weekly
 
 </td><td>
 
-Runs every week or at your chosen interval of weeks. For example, every 2, 3, or 10 weeks.![Option to select the days of the week for scheduling a weekly trigger.](../images/scheduled-trigger-weekly.png)
+Runs every week or at your chosen interval of weeks. For example, every 2, 3, or 10 weeks.\[Omitted image "scheduled-trigger-weekly.png"\] Alt text: Option to select the days of the week for scheduling a weekly trigger.
 
 Select on which days of the week you want the trigger to run. For example, every Monday, Wednesday, and Friday.
 
@@ -136,7 +136,7 @@ Monthly
 
 </td><td>
 
-Runs every month or at your chosen interval of months, for example, every 2, 3, or 24 months.![Option to select the day of the month for scheduling a monthly trigger.](../images/scheduled-trigger-monthly.png)
+Runs every month or at your chosen interval of months, for example, every 2, 3, or 24 months.\[Omitted image "scheduled-trigger-monthly.png"\] Alt text: Option to select the day of the month for scheduling a monthly trigger.
 
 Select on which day of the month you want the trigger to run:
 
@@ -150,7 +150,7 @@ Yearly
 
 </td><td>
 
-Runs every year in the selected month.![Option to select the month and the day of the month for scheduling a yearly trigger.](../images/scheduled-trigger-yearly.png)
+Runs every year in the selected month.\[Omitted image "scheduled-trigger-yearly.png"\] Alt text: Option to select the month and the day of the month for scheduling a yearly trigger.
 
 Select on which day of the month you want the trigger to run:
 
@@ -186,10 +186,10 @@ Runs only once at the specified date and time.
 
 ## Result
 
-The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](use-saved-trigger.md).
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/use-saved-trigger.md).
 
--   **[Create a scheduled trigger using business calendar](create-trigger-business-calendar.md)**  
+-   **[Create a scheduled trigger using business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-trigger-business-calendar.md)**  
 Schedule a recurring trigger to run based on a business calendar, so your automation run only when your business is actually operating, on working days, active shifts, or custom production schedules.
 
-**Parent Topic:**[Building triggers](../concept/building-triggers.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
 

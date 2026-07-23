@@ -2,6 +2,7 @@
 title: OAuth parameters for default profile support
 description: The default profile feature requires a set of parameters that you can use with the setParameter\(\) API to specify the OAuth requestor, a context for the request, and the provider profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/r\_OAuthProfileParameters.html
 release: australia
 product: Authentication
 classification: authentication

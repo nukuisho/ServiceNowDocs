@@ -2,6 +2,7 @@
 title: Employee Journey Management
 description: Employee Journey Management integrates HR Service Delivery features and applications to enable employees, managers, and the organization to initiate and manage journeys to drive employee engagement and productivity. There are several applications, plugins, integrations, and features that are available for Employee Journey Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-journey-management/employee-journey-management.html
 release: australia
 product: Employee Journey Management
 classification: employee-journey-management
@@ -19,15 +20,15 @@ Employee Journey Management integrates HR Service Delivery features and applicat
 
 <table id="table_z3y_d1g_h2c" class="nav-card presentation"><tbody><tr><td>
 
-[Journey Designer![](../../../reuse/icons/brand-icons/bus-service-aware.svg)Personalize employee journeys to enhance their experience.](jny-dsgnr-landing-page-1.md)
+[Journey Designer\[Omitted image "bus-service-aware.svg"\] Alt text:Personalize employee journeys to enhance their experience.]()
 
 </td><td>
 
-[Journey Accelerator![](../../../reuse/icons/brand-icons/bus-rocketship.svg)Use Journey Accelerator to create personalized journey plans for key employee transitions.](journey-accelerator-1.md)
+[Journey Accelerator\[Omitted image "bus-rocketship.svg"\] Alt text:Use Journey Accelerator to create personalized journey plans for key employee transitions.]()
 
 </td><td>
 
-[Lifecycle Events![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Lifecycle Events to automate complex processes across the enterprise and create great employee experiences during moments that matter.](hr-lifecycle-events-landing-page-1.md)
+[Lifecycle Events\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Lifecycle Events to automate complex processes across the enterprise and create great employee experiences during moments that matter.]()
 
 </td></tr></tbody>
 </table>## Additional resources

@@ -2,11 +2,12 @@
 title: Configure the Chromium connector
 description: Capture one or more web pages from the Google Chrome or Microsoft Edge browser and then the elements on the web pages by configuring the Chromium connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-chrome-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Chromium connector, Connectors, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Chromium connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Configure the Chromium connector
@@ -17,10 +18,10 @@ Capture one or more web pages from the Google Chrome or Microsoft Edge browser a
 
 Software prerequisites: The ServiceNow, Inc. RPA Google Chrome and the ServiceNow® Store RPA Microsoft Edge extensions are added. To add the extensions, see:
 
--   [Add the ServiceNow RPA Edge extension](add-servicenow-edge-extension.md).
--   [Add the ServiceNow RPA Chrome extension](../../rpa-hub/task/add-google-chrome-extension-rpa.md).
+-   [Add the ServiceNow RPA Edge extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/add-servicenow-edge-extension.md).
+-   [Add the ServiceNow RPA Chrome extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/add-google-chrome-extension-rpa.md).
 
-Ensure you have installed the Chromium plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](install-plugins-rpa-studio.md).
+Ensure you have installed the Chromium plugin on the RPA Desktop Design Studio. To install, see [Manage plugins in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-plugins-rpa-studio.md).
 
 Ensure that at least one website or application is open or active on both the Microsoft Edge and the Google Chrome browsers.
 
@@ -40,11 +41,11 @@ Role required: none
 
 5.  In the Chromium Connector window, select **Edge** or **Chrome**.
 
-6.  To load the window, click the refresh icon \(![Refresh icon.](../image/refresh-jav-program.png)\).
+6.  To load the window, click the refresh icon \(\[Omitted image "refresh-jav-program.png"\] Alt text: Refresh icon.\).
 
 7.  In the list, select the required screen.
 
-    ![Select required screen.](../image/chromium-add-screen.png)
+    \[Omitted image "chromium-add-screen.png"\] Alt text: Select required screen.
 
 8.  Click **Add Screen**.
 
@@ -56,8 +57,8 @@ Role required: none
 
 11. Use the context dialog to capture the elements.
 
-    To use the context dialog, see [Use the Capture element dialog](use-context-dialog.md).
+    To use the context dialog, see [Use the Capture element dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-context-dialog.md).
 
 
-**Parent Topic:**[Chromium connector](../concept/chrome-connector.md)
+**Parent Topic:**[Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/chrome-connector.md)
 

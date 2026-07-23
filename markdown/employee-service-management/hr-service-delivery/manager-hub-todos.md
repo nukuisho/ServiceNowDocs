@@ -2,6 +2,7 @@
 title: Default configurations for To do's
 description: Default set of To do's configurations are available to use after you have activated Employee Center Core. These configurations display managerial tasks and requests in Manager Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/manager-hub-todos.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Manager Hub, HR Service Delivery, Employee Service Manag
 
 Default set of To do's configurations are available to use after you have activated Employee Center Core. These configurations display managerial tasks and requests in Manager Hub.
 
-To dos filters is a module within Employee Center. For more details on how to configure the filters, see [Create or modify a to-dos filter](../../employee-center/task/configure-to-dos-page-filters.md)
+To dos filters is a module within Employee Center. For more details on how to configure the filters, see [Create or modify a to-dos filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-to-dos-page-filters.md)
 
 |Name|Description|
 |----|-----------|
@@ -28,34 +29,34 @@ For more information on the filters, navigate to **Employee Center** &gt; **Admi
 
 For more information on the filter conditions, navigate to **Employee Center** &gt; **Administration** &gt; **To-dos configuration** &gt; **To-dos config filter conditions**.
 
-**Parent Topic:**[Reference for Manager Hub](../reference/reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 
 
-[Components installed with Manager Hub](../reference/installed-with-managerhub.md)
+[Components installed with Manager Hub]()
 
-[Campaign configurations for Manager Hub](manager-hub-campaign.md)
+[Campaign configurations for Manager Hub]()
 
-[Default configurations for important dates](manager-hub-imp-dates.md)
+[Default configurations for important dates]()
 
-[Default configurations for team requests](manager-hub-team-requests.md)
+[Default configurations for team requests]()
 
-[Default configurations for team data](team-data-config.md)
+[Default configurations for team data]()
 
-[Default configurations for team column data](config-team-column.md)
+[Default configurations for team column data]()
 
-[Default configurations for filter groups](config-filter-group.md)
+[Default configurations for filter groups]()
 
-[Default configurations for daily stats](config-daily-stats.md)
+[Default configurations for daily stats]()
 
-[Default proactive prompts for Manager Hub](prompts-mh.md)
+[Default proactive prompts for Manager Hub]()
 
-[Use the View menu icon in Manager Hub](../reference/view-menu.md)
+[Use the View menu icon in Manager Hub]()
 
-[Assign learning form](../reference/assign-learning-form.md)
+[Assign learning form]()
 
-[Create a conversation form](../reference/create-conversation-form.md)
+[Create a conversation form]()
 
-[Schedule a conversation form](../reference/schedule-conversation-form.md)
+[Schedule a conversation form]()
 

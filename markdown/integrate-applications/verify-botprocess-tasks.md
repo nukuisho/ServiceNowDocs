@@ -2,11 +2,12 @@
 title: Verify the associated schedules, parameters, packages, and queues in RPA Hub
 description: Verify that the bot process has the associated schedule, process parameters, shared parameters, package, package version, and work queues in RPA Hub. You do this task when you’re migrating your data from a lower \(non-production\) environment to a higher \(production\) environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/verify-botprocess-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Migrate data, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Migrate data, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Verify the associated schedules, parameters, packages, and queues in RPA Hub
@@ -21,7 +22,7 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or admin
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **Bot Process**.
 
@@ -50,26 +51,26 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or admin
     3.  On the **Bot Process Configuration** tab, verify the association.
 
 
-**Parent Topic:**[Migrating data in RPA Hub](../concept/migrating-data-rpa-hub.md)
+**Parent Topic:**[Migrating data in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/migrating-data-rpa-hub.md)
 
 **Related topics**  
 
 
-[Create a package to assign to a bot process](create-package.md#)
+[Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-package.md)
 
-[Create a schedule within a bot process in RPA Hub](create-schedule-botprocess.md)
+[Create a schedule within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-schedule-botprocess.md)
 
-[Create a process parameter within a bot process in RPA Hub](create-process-parameter-botprocess.md#)
+[Create a process parameter within a bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-process-parameter-botprocess.md)
 
-[Create a shared parameter in RPA Hub](create-shared-parameter.md)
+[Create a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-shared-parameter.md)
 
-[Create a queue in RPA Hub](create-queue.md)
+[Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-queue.md)
 
-[Assign a bot process to a queue from Queues menu in RPA Hub](assign-botprocess-queue.md)
+[Assign a bot process to a queue from Queues menu in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-botprocess-queue.md)
 
-[Assign a bot process to a shared parameter in RPA Hub](assign-botprocess-shared-parameter.md)
+[Assign a bot process to a shared parameter in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/assign-botprocess-shared-parameter.md)
 
-[Schedule form in RPA Hub](create-robot-schedule.md#)
+[Schedule form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robot-schedule.md)
 
-[Process parameter form in RPA Hub](create-process-parameter-botprocess.md#)
+[Process parameter form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-process-parameter-botprocess.md)
 

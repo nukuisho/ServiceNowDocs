@@ -2,6 +2,7 @@
 title: View Major Security Incident trend charts
 description: View the major security incident impact progress metrics visualized as bar graphs and charts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/viewing-msi-impact-metrics.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ In addition to the incident timeline and progress trend chart visualizations, th
 
 The counts displayed in the visualization components are based on active tasks on linked Security Incident Response \(SIR\) incidents. As tasks are opened and closed, these counts change in terms of the nature and volume of remaining activity planned for the major security incident to represent the trends shown in the trend chart visualization components.
 
-![View the impact metrics of the major security incident](../image/overview-tab-msim.png "MSIM Overview tab impact metrics")
+\[Omitted image "overview-tab-msim.png"\] Alt text: View the impact metrics of the major security incident
 
 Refer to the following table for the UI actions that you can perform from the **Overview** section:
 
@@ -105,26 +106,26 @@ Displays collaboration activities in total for all the labelled collaboration ac
 -   **Trends by activity type**: View the trend chart for the number of Microsoft Teams and Microsoft SharePoint files and folders activities over the incident duration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Major Security Incident Management](../../security-incident-response/concept/major-security-incident-setup.md)
+</table>**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 
 
-[Propose, promote, and link incident records](../../security-incident-response/concept/promoting-sir-to-msim.md)
+[Propose, promote, and link incident records]()
 
-[Using MSI List view in the MSIM workspace](../../security-incident-response/task/list-view-in-msim.md)
+[Using MSI List view in the MSIM workspace]()
 
-[View Major Security Incident impact metrics](viewing-trend-charts-and-progress-of-msi.md)
+[View Major Security Incident impact metrics]()
 
-[Update Major Security Incident details](msim-details-tab.md)
+[Update Major Security Incident details]()
 
-[Link additional records to Major Security Incident](../task/linking-additional-records-to-major-security-incidents.md)
+[Link additional records to Major Security Incident]()
 
-[Unlink records from Major Security Incident](../task/unlinking-msi-records.md)
+[Unlink records from Major Security Incident]()
 
-[Manage tasks in a Major Security Incident](tasks-tab.md)
+[Manage tasks in a Major Security Incident]()
 
-[Track collaboration activity via MSIM workspace](collab-tab.md#)
+[Track collaboration activity via MSIM workspace]()
 
-[Create and distribute MSIM Status Reports](../task/creating-and-distributing-major-security-incident-status-reports.md)
+[Create and distribute MSIM Status Reports]()
 

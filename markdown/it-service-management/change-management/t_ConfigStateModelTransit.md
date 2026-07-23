@@ -1,23 +1,22 @@
 ---
-title: Legacy: Configure state model transitions
+title: Configure state model transitions
 description: You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ConfigStateModelTransit.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Legacy: State model and transitions, Configure, Change Management, IT Service Management]
 ---
 
-# Legacy: Configure state model transitions
+# Configure state model transitions
 
 You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 
 ## Before you begin
-
-**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](create-a-change-model.md).
 
 Role required: script\_include\_admin, ui\_policy\_admin, or admin
 
@@ -60,5 +59,5 @@ Role required: script\_include\_admin, ui\_policy\_admin, or admin
     3.  Complete and save the UI policy.
 
 
-**Parent Topic:**[Legacy: State model and transitions](../concept/c_ChangeStateModel.md)
+**Parent Topic:**[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md)
 

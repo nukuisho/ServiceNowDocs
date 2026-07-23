@@ -2,11 +2,12 @@
 title: Create conditions that trigger approval workflows
 description: Define one or more conditions that apply company policies, such as legal guidelines or pricing rules, to trigger an approval workflow. Also enable the smart reapprovals feature, which allows previous approvals to be used for a resubmitted approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/set-approval-trigger-conditions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create an approval configuration, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create conditions that trigger approval workflows
@@ -35,7 +36,7 @@ Conditions are based on attributes for a Sales Customer Relationship Management 
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Advanced Approvals** &gt; **Approval Trigger Conditions**.
 
@@ -82,5 +83,5 @@ Conditions are based on attributes for a Sales Customer Relationship Management 
 
 ## What to do next
 
-[Create approval rules](create-approval-rules.md).
+[Create approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-rules.md).
 

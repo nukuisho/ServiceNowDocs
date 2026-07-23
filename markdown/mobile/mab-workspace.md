@@ -2,6 +2,7 @@
 title: Mobile App Builder record screen
 description: Use the Mobile App Builder record screen as the workspace where you perform all your mobile configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mab-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,5 +22,5 @@ The Mobile App Builder record screen consists of the following sections:
 -   Configuration panel: Displays the field types from the selected record in the ServiceNow AI Platform configuration tree.
 -   Mobile interface example panel: Highlights the UI element you are configuring on your mobile device.
 
-![Record screen displaying the sections: configuration tree, configuration pane, and example panel.](../image/mab-full-record-screen.png)
+\[Omitted image "mab-full-record-screen.png"\] Alt text: Record screen displaying the sections: configuration tree, configuration pane, and example panel.
 

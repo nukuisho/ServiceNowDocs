@@ -2,6 +2,7 @@
 title: Insights view in CMDB Workspace
 description: Use the Insights view in CMDB Workspace to see and increase the level of adoption of key CMDB features and application services to improve the overall health of the CMDB. Explore how tools and features can maximize the health and efficiency of your CMDB and use direct links to install and start using features immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-insights-view.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -59,7 +60,7 @@ Depending on adoption level, a card might contain any of the following resource 
 -   **Get started**: Link to a landing page where you can start immediately utilizing the feature.
 -   **Install app**: Link to the ServiceNow Store where you can immediately install the app.
 
-Cards use different methods to examine the instance and determine if the card's feature is installed, activated, and being used. For example, some cards check for the installation status of plugins and some cards rely on data in the specific feature tables. Many counts and aggregation data that appear on cards is based on [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md) built on top of the Base Aggregate Data \[sn\_cmdb\_ws\_base\_aggregate\_data\] table.
+Cards use different methods to examine the instance and determine if the card's feature is installed, activated, and being used. For example, some cards check for the installation status of plugins and some cards rely on data in the specific feature tables. Many counts and aggregation data that appear on cards is based on [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_Indicators.md) built on top of the Base Aggregate Data \[sn\_cmdb\_ws\_base\_aggregate\_data\] table.
 
 -   If the result is that the card's feature is installed or being used, then the card shows charts and counts about the level of usage. In which case, the card's label might slightly adjust.
 -   If the result is that the card's feature isn't installed or isn't in use, then links are provided to resources where you can explore, install, and start using the feature.
@@ -80,13 +81,13 @@ Data ingestion contains the following features and aggregations:
 
 -   **CIs processed by IRE**
 
-    Determines the percentage of CIs that are processed by [IRE](c_CMDBIdentifyandReconcile.md), by checking the Source \[sys\_object\_source\] table. CIs that aren't processed by IRE introduce a data integrity risk.
+    Determines the percentage of CIs that are processed by [IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md), by checking the Source \[sys\_object\_source\] table. CIs that aren't processed by IRE introduce a data integrity risk.
 
     The percentage of CIs that are being processed by IRE determines both, the level of adoption for this feature card and the overall adoption level for the entire data ingestion category.
 
 -   **Service Graph Connectors**
 
-    Determines the installation and usage status of [Getting started with Service Graph Connectors](cmdb-sgc-intro.md), by checking:
+    Determines the installation and usage status of [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md), by checking:
 
     -   If the ITOM Licensing plugin \(com.snc.itom.license\) is active
     -   If there is at least one Service Graph Connector installed in the instance
@@ -96,7 +97,7 @@ Data ingestion contains the following features and aggregations:
 
 -   **IntegrationHub ETL**
 
-    Determines whether the [IntegrationHub ETL](integrationhub-etl.md) store app is installed and used, based on records in the CMDB Integration Studio Application Data Sources \[cmdb\_inst\_application\_feed\] table. If IntegrationHub ETL is in use, then the card shows a count of ETL transform maps in IntegrationHub ETL \(demo ETL transform maps aren't counted\).
+    Determines whether the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) store app is installed and used, based on records in the CMDB Integration Studio Application Data Sources \[cmdb\_inst\_application\_feed\] table. If IntegrationHub ETL is in use, then the card shows a count of ETL transform maps in IntegrationHub ETL \(demo ETL transform maps aren't counted\).
 
     Select **View ETL transform maps** to open IntegrationHub ETL where you can examine existing ETL transform maps and create new ones.
 
@@ -117,7 +118,7 @@ Data ingestion contains the following features and aggregations:
 
 -   **CMDB application for APIs and CLI**
 
-    Determines whether the [CMDB application for APIs and CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/cmdb-cli-commands.md) store app is installed.
+    Determines whether the [CMDB application for APIs and CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/cmdb-cli-commands.md) store app is installed.
 
     This card appears only if the store app isn't installed, providing helpful resources for exploration and adoption.
 
@@ -130,7 +131,7 @@ The overall adoption level for data governance maps to the following findings in
 -   Moderate \(amber\): 33—66% of features are used
 -   High \(green\): Over 66% of features are used
 
-The overall level of adoption of data governance is based on whether [CMDB Data Manager](cmdb-data-management-landing.md) features are used.
+The overall level of adoption of data governance is based on whether [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management-landing.md) features are used.
 
 **Note:** Historical data might not be available for all past 90 days because CMDB Workspace version 3.4, which relies on Performance Analytics indicators to collect and save historical usage data, was deployed less than 90 days ago. This situation might result in a discrepancy between actual usage and what the card shows.
 
@@ -146,7 +147,7 @@ The overall level of adoption of data governance is based on whether [CMDB Data 
 
     Determines usage by checking if either of the following conditions is true:
 
-    -   There are any user-created [Attestation policies](attesting-cis.md) \(by searching table CMDB Data Manager Policy and Attributes \[cmdb\_data\_manager\_policy\_and\_attributes\]\)
+    -   There are any user-created [Attestation policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md) \(by searching table CMDB Data Manager Policy and Attributes \[cmdb\_data\_manager\_policy\_and\_attributes\]\)
     -   There are any CIs processed by these user-created Attestation policies, in the last 90 days \(by searching table CMDB Data Management Policy Executions \[cmdb\_data\_management\_policy\_execution\]\)
     If data attestation is in use, shows a chart with CIs that were processed by attestation policy tasks in the past six months, by month.
 
@@ -154,7 +155,7 @@ The overall level of adoption of data governance is based on whether [CMDB Data 
 
     Checks if there is at least one class for which the **managed\_by\_group** attribute is globally set so that all class CIs are synchronized on the same value.
 
-    For information about synchronizing group assignment attributes using the CI Class Manager, see [Set the group for a CI or an entire class of CIs](../../csdm-implementation/task/csdm-data-synchronize-enable.md) and [Synchronizing group assignment attributes](../../csdm-implementation/concept/csdm-data-synchronize.md).
+    For information about synchronizing group assignment attributes using the CI Class Manager, see [Set the group for a CI or an entire class of CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize-enable.md) and [Synchronizing group assignment attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize.md).
 
     The Data synchronization card is available starting with CMDB Workspace v3.6.
 
@@ -162,7 +163,7 @@ The overall level of adoption of data governance is based on whether [CMDB Data 
 
     Checks if the Principal Class filter is configured with at least one principal class. The Principal Class filter limits the number of CIs that appear in list views, to show only CIs of principal classes. Reducing the amount of data in list views to only relevant data, improves performance and efficiency.
 
-    For more information about managing the Principal Class filter in CI Class Manager, see [Update the list of classes in the Principal Class filter](../task/update-principal-class-filter.md).
+    For more information about managing the Principal Class filter in CI Class Manager, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
 
     The Principal class card is available starting with CMDB Workspace v3.6.
 
@@ -179,7 +180,7 @@ Search &amp; analytics contains the following features and aggregations:
 
 -   **CMDB Query Builder/Query Builder queries**
 
-    Determines if the [CMDB Query Builder](querying-cmdb.md) is in use, by checking if either of the following conditions is true:
+    Determines if the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) is in use, by checking if either of the following conditions is true:
 
     -   There are any records in the Saved Queries \[qb\_saved\_query\] table in which **Source** is **QB**
     -   There are any queries executed or queries executed with reports, in the last 90 days
@@ -192,31 +193,31 @@ Search &amp; analytics contains the following features and aggregations:
 
 -   **Intelligent search**
 
-    Determines if [Intelligent Search for CMDB](intelligent-search-cmdb.md) is in use by checking the NLQ Query Logs \[nlq\_query\_log\] table for any records where **source** is **CMDB\_WS**, from the past 90 days. If Intelligent Search is in use, shows counts of Intelligent Search queries for the past six months, by month.
+    Determines if [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md) is in use by checking the NLQ Query Logs \[nlq\_query\_log\] table for any records where **source** is **CMDB\_WS**, from the past 90 days. If Intelligent Search is in use, shows counts of Intelligent Search queries for the past six months, by month.
 
     **Note:** Historical data might not be available for all past 90 days because CMDB Workspace version 3.4, which relies on Performance Analytics indicators to collect and save historical usage data, was deployed less than 90 days ago. This situation might result in a discrepancy between actual usage and what the card shows.
 
 -   **CMDB 360 — Records in Multisource**
 
-    Total number of raw [CMDB 360](multisource-cmdb.md) records in the CMDB 360 data store that contains records for each discovery source report, per each CI attribute. This card is identical to the [Total CMDB 360 records](cmdb360-exp-cmdb-workspace.md) card in the Discovery Sources tile in the CMDB 360 view.
+    Total number of raw [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md) records in the CMDB 360 data store that contains records for each discovery source report, per each CI attribute. This card is identical to the [Total CMDB 360 records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md) card in the Discovery Sources tile in the CMDB 360 view.
 
-    This card appears only if CMDB 360 is enabled, which is determined by checking the ITOM Discovery License \(com.snc.itom.discovery.license\) plugin and the system property [glide.identification\_engine.multisource\_enabled](../reference/components-multisource-cmdb.md).
+    This card appears only if CMDB 360 is enabled, which is determined by checking the ITOM Discovery License \(com.snc.itom.discovery.license\) plugin and the system property [glide.identification\_engine.multisource\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md).
 
 -   **CMDB 360 queries**
 
     Count of CMDB 360 queries that exist in the CMDB Multisource Queries \[cmdb\_multisource\_query\] table.
 
-    This card appears only if CMDB 360 is enabled, which is determined by checking the ITOM Discovery License \(com.snc.itom.discovery.license\) plugin and the system property [glide.identification\_engine.multisource\_enabled](../reference/components-multisource-cmdb.md).
+    This card appears only if CMDB 360 is enabled, which is determined by checking the ITOM Discovery License \(com.snc.itom.discovery.license\) plugin and the system property [glide.identification\_engine.multisource\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md).
 
 -   **CMDB Data Foundation dashboard**
 
-    Determines if the [CMDB and CSDM Data Foundations Dashboards](csdm-cmdb-foundations-dashboards.md) store app \(which includes the CMDB Data Foundation dashboard\) is installed.
+    Determines if the [CMDB and CSDM Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md) store app \(which includes the CMDB Data Foundation dashboard\) is installed.
 
     This card appears only if the store app isn't installed, providing helpful resources for exploration and adoption. However, the feature is still included in calculating the search &amp; analytics overall level of adoption.
 
 -   **CMDB Health Dashboard**
 
-    Determines if [CMDB Health](c_CMDBHealth.md) is in use by checking if at least one CMDB Health Dashboard job is enabled.
+    Determines if [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md) is in use by checking if at least one CMDB Health Dashboard job is enabled.
 
     This card appears only if the feature isn't in use, providing helpful resources for exploration and adoption. However, the feature is still included in calculating the search &amp; analytics overall level of adoption.
 
@@ -239,7 +240,7 @@ The Payloads &amp; CIs tab contains the following tiles:
 
         Shows the total number of partial payloads that exist in your instance. Large numbers of partial payloads in your instance can cause performance deterioration of the CMDB.
 
-        For more information about partial payloads, see [Identification and Reconciliation Engine \(IRE\)](ire.md).
+        For more information about partial payloads, see [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md).
 
     -   Discovery source:
 
@@ -247,7 +248,7 @@ The Payloads &amp; CIs tab contains the following tiles:
 
         You can drill down on specific partial payloads to better understand the error that you're experiencing. When you drill down on a partial payload, you can see the full payload item, which you can review to troubleshoot and address the specific errors.
 
-        For more information about error types, see [Using identification simulation](identification-simulation.md#).
+        For more information about error types, see [Using identification simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/identification-simulation.md).
 
 -   **Related records**
 
@@ -257,7 +258,7 @@ The Payloads &amp; CIs tab contains the following tiles:
 
         Shows the total number of records that do not reference a CI in the **Referenced** field in the Related table. You can see a full list of the Related tables and the associated **Referenced** fields in the Related Entries \[cmdb\_related\_entry\] table.
 
-        For more information about Related tables, see [Overview of CMDB](cnfig-mgmt-and-cmdb.md).
+        For more information about Related tables, see [Overview of CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cnfig-mgmt-and-cmdb.md).
 
     -   Related records missing reference by table:
 
@@ -265,11 +266,11 @@ The Payloads &amp; CIs tab contains the following tiles:
 
         Before you can drill down on a slice of this pie chart, you must have any user roles required to view the table.
 
-        You can also select **New** from the list view to create a new related entry table record. For more information about creating or editing a related entry table record, see [Edit a related table from CMDB performance insights](../task/insights-update-record-rltd-table.md).
+        You can also select **New** from the list view to create a new related entry table record. For more information about creating or editing a related entry table record, see [Edit a related table from CMDB performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/insights-update-record-rltd-table.md).
 
 -   **Duplicate and stale CIs**
 
-    A CI is flagged as duplicate during identification and reconciliation. A CI is flagged as stale if it has not been updated within the Effective Duration time period specified in the [CMDB Health staleness rule](../task/t_CreateCMDBHealthStaleRule.md) for the CI class.
+    A CI is flagged as duplicate during identification and reconciliation. A CI is flagged as stale if it has not been updated within the Effective Duration time period specified in the [CMDB Health staleness rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthStaleRule.md) for the CI class.
 
     -   CIs:
 
@@ -279,13 +280,13 @@ The Payloads &amp; CIs tab contains the following tiles:
 
         Breaks down the number of stale CIs based on the CI class. You can drill down on slices in this pie chart to see the list of specific CI records filtered by class.
 
-        For more information about stale CIs, see [CMDB Health KPIs and metrics](../reference/r_CMDBHealthMetrics.md).
+        For more information about stale CIs, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
 
     -   Duplicate records by class:
 
         Breaks down the number of duplicate CIs based on the CI class. You can drill down on slices in this pie chart to see the list of specific CI records.
 
-        For more information about duplicate CIs, see [Duplicate CIs remediation](de-duplication-tasks.md).
+        For more information about duplicate CIs, see [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
 
 -   **Relationship records missing parent or child**
 
@@ -315,25 +316,25 @@ The Service Graph connectors tab contains the following tiles:
 
         Shows the percentage of Service Graph Connector data sources in the Data Sources \[sys\_data\_source\] table with disabled **Use Batch Import**. It also lists the total number of data sources, and the number of data sources with enabled or disabled batch processing.
 
-        To enable batch processing, access the record of a specific data source from the list view and select **Use Batch Import**. For more information about batch processing, see [Data source fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_DataSourceFileTypeFields.md).
+        To enable batch processing, access the record of a specific data source from the list view and select **Use Batch Import**. For more information about batch processing, see [Data source fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_DataSourceFileTypeFields.md).
 
-        You can also select **Edit** to update a data source from the list view. For more information about editing a data source, see [Edit a data source from CMDB performance insights](../task/insights-update-data-source.md).
+        You can also select **Edit** to update a data source from the list view. For more information about editing a data source, see [Edit a data source from CMDB performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/insights-update-data-source.md).
 
     -   Sources with concurrent import turned off:
 
         Shows the percentage of scheduled data imports of Service Graph Connector data sources in the Scheduled Data Imports \[scheduled\_import\_set\] table with **Concurrent Import** turned off. It also lists the total number of scheduled data imports, and the number of scheduled data imports with **Concurrent Import** turned on or off.
 
-        To enable concurrent import, access the record of a specific scheduled data import from the list view and select **Concurrent Import**. For more information about concurrent import, see [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/concurrent-imports.md).
+        To enable concurrent import, access the record of a specific scheduled data import from the list view and select **Concurrent Import**. For more information about concurrent import, see [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/concurrent-imports.md).
 
-        You can also select **Edit** to update a scheduled data import from the list view. For more information about editing a scheduled data import, see [Edit a scheduled data import from CMDB performance insights](../task/insights-schedule-data-import.md).
+        You can also select **Edit** to update a scheduled data import from the list view. For more information about editing a scheduled data import, see [Edit a scheduled data import from CMDB performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/insights-schedule-data-import.md).
 
     -   Sources with non-custom size partition method:
 
         Shows the percentage of scheduled data imports of Service Graph Connector data sources in the Scheduled Data Imports \[scheduled\_import\_set\] table that use a non-custom size partition method. It also lists the total number of scheduled data imports, and the number of scheduled data imports that use a non-custom size partition method.
 
-        To use a custom size partition method, access the record of a specific scheduled data import from the list view. Ensure that **Concurrent Import** is selected. From the **Partition Method** drop-down menu that appears, select **Custom size**. For more information about partition methods, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
+        To use a custom size partition method, access the record of a specific scheduled data import from the list view. Ensure that **Concurrent Import** is selected. From the **Partition Method** drop-down menu that appears, select **Custom size**. For more information about partition methods, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md).
 
-        You can also select **Edit** to update a new scheduled data import from the list view. For more information about editing a scheduled data import, see [Edit a scheduled data import from CMDB performance insights](../task/insights-schedule-data-import.md).
+        You can also select **Edit** to update a new scheduled data import from the list view. For more information about editing a scheduled data import, see [Edit a scheduled data import from CMDB performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/insights-schedule-data-import.md).
 
 -   **Connectors execution trends**
 
@@ -366,19 +367,19 @@ The Service Graph connectors tab contains the following tiles:
     On both charts, you can select outlier and non-outlier Service Graph Connectors to see the trend lines against each other.
 
 
-For more information about processing data with Service Graph Connectors, see [Getting started with Service Graph Connectors](cmdb-sgc-intro.md).
+For more information about processing data with Service Graph Connectors, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Cloud vs Non-cloud resources
 
 Charts showing counts and details for resourcesand application services that are hosted on various cloud services versus those that aren't. Resourcesand application services can be deployed on cloud services such as the Microsoft Azure Cloud, or on the local instance or other non-cloud solutions. For some ongoing operations in the organization, it might be necessary to have those details which can be difficult to obtain.
 
-For details about the charts, see 'Cloud vs Non-cloud resources' in the [Home view in CMDB Workspace](cmdb-workspace-home-view.md) topic.
+For details about the charts, see 'Cloud vs Non-cloud resources' in the [Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md) topic.
 
 ## Application services
 
-Shows a count of [application services](application-services.md) in your organization, based on records in the Service Instance \[cmdb\_ci\_service\_auto\] table. The chart shows the trend of total number of application services per day, for the past seven days.
+Shows a count of [application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md) in your organization, based on records in the Service Instance \[cmdb\_ci\_service\_auto\] table. The chart shows the trend of total number of application services per day, for the past seven days.
 
-Select the tile to access the Application Services dashboard where you can monitor the adoption level and health of application services. For details about the Application Services dashboard, see [Use Service instance \(Application Services\) dashboard to monitor health](../task/app-service-dashboard.md).
+Select the tile to access the Application Services dashboard where you can monitor the adoption level and health of application services. For details about the Application Services dashboard, see [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
-**Parent Topic:**[Exploring CMDB Workspace](exploring-cmdb-workspace.md)
+**Parent Topic:**[Exploring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)
 

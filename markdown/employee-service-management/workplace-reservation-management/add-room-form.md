@@ -2,13 +2,14 @@
 title: Add a room form
 description: Use the room form to add a room for workplace reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-room-form.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Workplace Reservation Management - Field descriptions, Workplace Reservation Management references, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace Reservation Management - Field descriptions, Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add a room form
@@ -149,7 +150,7 @@ Managed by
 
 </td><td>
 
-The workplace manager of the group that manages the reservation for the floor plan.Click the Lookup using list icon ![Lookup using list icon](../../workplace-case-mgmt/image/search-icon.png) to view a list of group managers you can select.
+The workplace manager of the group that manages the reservation for the floor plan.Click the Lookup using list icon \[Omitted image "search-icon.png"\] Alt text: Lookup using list icon to view a list of group managers you can select.
 
 </td></tr><tr><td>
 
@@ -157,7 +158,7 @@ Managed by group
 
 </td><td>
 
-The group that manages the reservation for the floor plan.Click the lookup using list icon ![Lookup using list icon](../../workplace-case-mgmt/image/search-icon.png) to view a list of groups you can select.
+The group that manages the reservation for the floor plan.Click the lookup using list icon \[Omitted image "search-icon.png"\] Alt text: Lookup using list icon to view a list of groups you can select.
 
 </td></tr><tr><td>
 
@@ -184,12 +185,12 @@ Image
 Upload an image of the room. The supported ratio of an image is: 26:17.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Reservation Management - Field descriptions](../concept/workplace-reservation-management-field-descriptions.md)
+</table>**Parent Topic:**[Workplace Reservation Management - Field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/workplace-reservation-management-field-descriptions.md)
 
 **Related topics**  
 
 
-[Space form](space-new-record-form.md)
+[Space form]()
 
-[User criteria form](user-criteria-form.md)
+[User criteria form]()
 

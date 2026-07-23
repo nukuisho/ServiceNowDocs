@@ -2,6 +2,7 @@
 title: Service Builder
 description: Create and edit services and service offerings using the ServiceNow Service Builder application. Service Builder is an interactive, guided experience as you create and edit services and service offering details. Even though Service Builder is a feature of Service Portfolio Management, its plugin is part of the Digital Portfolio Management list of products in the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-builder/service-builder.html
 release: australia
 product: Service Builder
 classification: service-builder
@@ -15,7 +16,7 @@ breadcrumb: [IT Service Management]
 
 Create and edit services and service offerings using the ServiceNow® Service Builder application. Service Builder is an interactive, guided experience as you create and edit services and service offering details. Even though Service Builder is a feature of Service Portfolio Management, its plugin is part of the Digital Portfolio Management list of products in the ServiceNow Store.
 
-![Service Builder in action.](../image/SB-noloop3.gif)
+\[Omitted image "SB-noloop3.gif"\] Alt text: Service Builder in action.
 
 **Tip:** Refresh the browser to replay the demo video.
 
@@ -32,7 +33,7 @@ Service Builder provides contextual guidance for each step tab as you create you
 -   **Create a business service**
 -   **Create a technology management service**
 
-After you select an option, Service Builder provides an organizer for you to see the steps to create a service.![Create service organizer.](../image/sb-create-service.png)
+After you select an option, Service Builder provides an organizer for you to see the steps to create a service.\[Omitted image "sb-create-service.png"\] Alt text: Create service organizer.
 
 Selecting **Continue** takes you through each step, starting with the **Details** tab as described in the following Service Builder tabs table.
 
@@ -46,7 +47,7 @@ Selecting **Continue** takes you through each step, starting with the **Details*
 
 You can edit your services and offerings at any time. You can also duplicate them \(create a copy\) to edit services, as needed so that you can create other services and offerings quickly. The contextual guidance in the experience walks you through how to do these tasks.
 
-After you edit a service or an offering, the published version stays active until the draft that you’re working on becomes the new published version. For more information, see [Service Builder approval flow](service-builder-states.md).
+After you edit a service or an offering, the published version stays active until the draft that you’re working on becomes the new published version. For more information, see [Service Builder approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder/service-builder-states.md).
 
 |Home page tab|Description|
 |-------------|-----------|
@@ -56,9 +57,9 @@ After you edit a service or an offering, the published version stays active unti
 **Related topics**  
 
 
-[Service Builder approval flow](service-builder-states.md)
+[Service Builder approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder/service-builder-states.md)
 
-[Create a service in Service Builder](../task/create-service.md)
+[Create a service in Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder/create-service.md)
 
-[Create a service offering in Service Builder](../task/create-edit-service-offering.md)
+[Create a service offering in Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder/create-edit-service-offering.md)
 

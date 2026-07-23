@@ -2,6 +2,7 @@
 title: Pre-date a project task
 description: Move the planned start date of a task prior to the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/pre-date-prj-dt.html
 release: australia
 product: Project Management
 classification: project-management
@@ -37,15 +38,15 @@ Before pre-dating a project task, note the following conditions:
 
 3.  On the Project form, update the planned start date for a project task using either of the following options.
 
-<table id="choicetable_h1v_kq4_nlb"><thead><tr><th align="left" id="d130491e96">
+<table id="choicetable_h1v_kq4_nlb"><thead><tr><th align="left" id="d132461e96">
 
 Option
 
-</th><th align="left" id="d130491e99">
+</th><th align="left" id="d132461e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d130491e105">
+</th></tr></thead><tbody><tr><td id="d132461e105">
 
 **From the Project Task form**
 
@@ -55,7 +56,7 @@ Steps
 2.  On the Project Task form, select the **Dates** tab and update the **Planned start date** for the task.
 
 
-</td></tr><tr><td id="d130491e129">
+</td></tr><tr><td id="d132461e129">
 
 **From the Planning Console**
 
@@ -69,10 +70,10 @@ Steps
 </table>4.  In the Move date dialog box, select **OK**.
 
 
-**Parent Topic:**[Change the planned start date of a project](change-planned-start-date-of-project.md)
+**Parent Topic:**[Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-planned-start-date-of-project.md)
 
 **Related topics**  
 
 
-[Change the planned start date of a project](change-planned-start-date-of-project.md)
+[Change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-planned-start-date-of-project.md)
 

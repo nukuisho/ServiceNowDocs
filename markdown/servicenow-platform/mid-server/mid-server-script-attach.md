@@ -2,11 +2,12 @@
 title: Attach a script file to a file synchronized MID Server
 description: You can attach a script file to synchronize to a connected MID Server.Script files attached to a record stay synchronized with a connected MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-script-attach.html
 release: australia
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,38 +48,38 @@ You can attach multiple files, but the last attached file gets synchronized to t
     Ensure that the file name matches the script name. If you receive the error message: `File type not permitted or mime type does not match the file content`, request that your administrator turn off mime type validation on attachments. The system property **glide.security.file.mime\_type.validation** controls this setting.
 
 
-**Parent Topic:**[Securing and encrypting MID Server data](../concept/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[MID Server certificate check policies](../concept/mid-security-checks.md)
+[MID Server certificate check policies]()
 
-[Encrypt or decrypt MID Server configuration file values](mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server authentication credentials and SOAP requests](../concept/mid-authentication-soap-requests.md#)
+[MID Server authentication credentials and SOAP requests]()
 
-[MID Server unified key store](../concept/mid-unified-keystore.md#)
+[MID Server unified key store]()
 
-[Enable MID Server mutual authentication](install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication]()
 
-[MID Server Azure Key Vault integration](mid-azure-key-vault-integration.md#)
+[MID Server Azure Key Vault integration]()
 
-[MID Server command audit log](../concept/mid-audit-log.md)
+[MID Server command audit log]()
 
-[Rekey a MID Server](t_RekeyAMIDServer.md)
+[Rekey a MID Server]()
 
-[Add SSL certificates for the MID Server](add-ssl-certificates.md#)
+[Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server](mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
+[MID Server SSH cryptographic algorithms]()
 
-[MID Server FIPS Enforced Mode](../concept/mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 
-[MID Server Governance](../concept/mid-timeout.md)
+[MID Server Governance]()
 
 ## How script file synchronization works on the MID Server
 
@@ -90,7 +91,7 @@ When the MID Server first connects to the instance, the instance creates a direc
 
 The instance creates each script file in the parent directory on the MID Server using the record Name from the ecc\_agent\_script\_file table as the file name and the Script field payload as the file contents. The synchronization of the script file continues to work as if the script was manually added to the form.
 
-See [Attach a script file to a file synchronized MID Server](mid-server-script-attach.md#) for instructions on how to attach a script file.
+See [Attach a script file to a file synchronized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-script-attach.md) for instructions on how to attach a script file.
 
-**Note:** The MID Server Script File \[ecc\_agent\_script\_file\] table is domain separated. You can create versions of these policies that only a MID Server from the same domain can use. For instructions, see [Set up domain separation for MID servers](../concept/c_MIDServerDomainSeparation.md#).
+**Note:** The MID Server Script File \[ecc\_agent\_script\_file\] table is domain separated. You can create versions of these policies that only a MID Server from the same domain can use. For instructions, see [Set up domain separation for MID servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDomainSeparation.md).
 

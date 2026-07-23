@@ -2,6 +2,7 @@
 title: Performance Analytics indicators compared to table data
 description: Indicator data sources address a different set of use cases than table data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-vs-reporting-pa.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -19,7 +20,7 @@ Generally speaking, table data shows current state and indicators show trends. V
 
 Performance Analytics is able to generate accurate historical trends by capturing continuous snapshots on a regular schedule. As illustrated by the following diagram, table data answers the question of "Where are we today," while indicators answer questions of what is happening over time.
 
-![Reporting answers questions about what is happening now. Performance Analytics answers questions about where we were and where we are going.](../image/pa-vs-reporting.png "Common process insight questions for table data and for Performance Analytics indicators")
+\[Omitted image "pa-vs-reporting.png"\] Alt text: Reporting answers questions about what is happening now. Performance Analytics answers questions about where we were and where we are going.
 
 In addition to calculating trends from snapshots, Performance Analytics is able to:
 
@@ -33,14 +34,14 @@ Finally, while you can develop table data visualizations through trial and error
 
 **Important:** Do not try to configure Performance Analytics without training. A poorly-designed Performance Analytics solution can severely impact performance and even destabilize your instance. The initial training, [Performance Analytics Essentials](https://learning.servicenow.com/lxp/en/now-intelligence/performance-analytics-pa-essentials?id=learning_course_prev&course_id=289a949bdb2b009015531cbd139619d1), is available free of charge.
 
-**Parent Topic:**[Exploring Performance Analytics](c_GetStartedwithPA.md)
+**Parent Topic:**[Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_GetStartedwithPA.md)
 
 **Related topics**  
 
 
-[Planning your indicators](planning-indicators.md)
+[Planning your indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/planning-indicators.md)
 
-[Workflow for creating indicators](../task/workflow-automated-indicators.md)
+[Workflow for creating indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/workflow-automated-indicators.md)
 
-[Design your Performance Analytics solution with KPI Composer](designing-pa-solution.md)
+[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
 

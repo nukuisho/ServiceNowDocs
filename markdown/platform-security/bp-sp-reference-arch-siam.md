@@ -2,6 +2,7 @@
 title: Service provider reference architecture for Service Integration Management \(SIAM\)
 description: The Service Integration Management Service Integration and Management \(SIAM\) for service provider \(SP\) architecture integrates services for a unified customer experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-sp-reference-arch-siam.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,9 +19,9 @@ The Service Integration Management Service Integration and Management \(SIAM\) f
 -   Customers access SP services on a dedicated or shared portal to the SP shared instance.
 -   SPs use ServiceNow shared instances to manage their service delivery.
 
-![Reference architecture SIAM](../image/bp-sp-reference-architecture-siam.png "SIAM architecture at a glance")
+\[Omitted image "bp-sp-reference-architecture-siam.png"\] Alt text: Reference architecture SIAM
 
-![Reference architecture comparison](../image/bp-dedicated-ds-hybrid-siam.png "SP reference architecture comparison")
+\[Omitted image "bp-dedicated-ds-hybrid-siam.png"\] Alt text: Reference architecture comparison
 
-**Parent Topic:**[Service provider reference architecture](bp-sp-reference-arch-ds.md)
+**Parent Topic:**[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-sp-reference-arch-ds.md)
 

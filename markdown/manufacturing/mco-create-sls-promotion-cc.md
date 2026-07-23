@@ -2,11 +2,12 @@
 title: Create a sales promotion claim case
 description: Create a sales promotion claim case to claim the reimbursement or discount.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-sls-promotion-cc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for my promotions, My promotions, Sales promotion management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a checklist template, My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a sales promotion claim case
@@ -33,6 +34,4 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
     |Dealer|Business location.|
     |Sale price|Sale price of the product sold. Select the required currency from the list|
 
-
-**Parent Topic:**[Related list for my promotions](../concept/related-list-for-my-promotions.md)
 

@@ -2,6 +2,7 @@
 title: Create or modify a connection using the map editor
 description: Use the map editor to add a relationship between two CIs or to modify an existing relationship.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-edit-connection.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -27,7 +28,7 @@ Role required: sn\_cmdb\_admin or sn\_cmdb\_editor
 
 Two CIs might be connected by one or more relationships \(stored in the CI Relationship \[cmdb\_rel\_ci\] table\). For example, two CIs might be connected by the **Runs On::Runs**, **Depends On::Discovered From**, and by the **Owned By::Owns** relationships.
 
-You can learn more about relationships at [CI relationships in the CMDB](../concept/c_CIRelationships.md).
+You can learn more about relationships at [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md).
 
 The map editor does not support the following actions:
 
@@ -35,21 +36,21 @@ The map editor does not support the following actions:
 -   Deleting reference or endpoint connections or removing from the map a CI that has reference or endpoint connections.
 -   Updating the applicative flow relationship type \(connection between endpoint CIs\).
 
-**Note:** At any time, select the reset icon ![](../image/icon-um-reset-map.png) to undo all unsaved changes.
+**Note:** At any time, select the reset icon \[Omitted image "icon-um-reset-map.png"\] to undo all unsaved changes.
 
 ## Procedure
 
 1.  While editing a map, specify whether to create or modify a connection.
 
-<table id="choicetable_cb2_gjb_l2c"><thead><tr><th align="left" id="d458309e134">
+<table id="choicetable_cb2_gjb_l2c"><thead><tr><th align="left" id="d471580e134">
 
 Action
 
-</th><th align="left" id="d458309e137">
+</th><th align="left" id="d471580e137">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d458309e143">
+</th></tr></thead><tbody><tr><td id="d471580e143">
 
 **Create a connection**
 
@@ -58,10 +59,10 @@ Procedure
 Take one of the following actions:
 
 -   Select and hold \(or right-click\) a CI and select **Connect to**.
--   Select a CI for the connection \(either the parent or the child\) and then select the Manage connection icon ![](../image/icon-um-edit-connection.png).
+-   Select a CI for the connection \(either the parent or the child\) and then select the Manage connection icon \[Omitted image "icon-um-edit-connection.png"\].
 
 
-</td></tr><tr><td id="d458309e168">
+</td></tr><tr><td id="d471580e168">
 
 **Modify an existing connection**
 
@@ -69,20 +70,20 @@ Take one of the following actions:
 
 Take one of the following actions:
 
--   Select the connection and then select the Manage connection icon ![](../image/icon-um-edit-connection.png).
--   Select a CI for the connection \(either the parent or the child\) and then select the Attributes icon ![](../image/icon-um-attributes-panel.png). All connections for the CI are listed in boxes. ![](../image/um-editor-attrib-card-cxn.png) Select **Change**.
+-   Select the connection and then select the Manage connection icon \[Omitted image "icon-um-edit-connection.png"\].
+-   Select a CI for the connection \(either the parent or the child\) and then select the Attributes icon \[Omitted image "icon-um-attributes-panel.png"\]. All connections for the CI are listed in boxes. \[Omitted image "um-editor-attrib-card-cxn.png"\] Select **Change**.
 
 
-</td></tr><tr><td id="d458309e197">
+</td></tr><tr><td id="d471580e197">
 
 **Delete a connection**
 
 </td><td>
 
-For instructions, see [Delete a connection using the map editor](unified-map-delete-connection.md).
+For instructions, see [Delete a connection using the map editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-delete-connection.md).
 
 </td></tr></tbody>
-</table>2.  On the Manage connection panel \(![](../image/icon-um-edit-connection.png)\), specify the settings.
+</table>2.  On the Manage connection panel \(\[Omitted image "icon-um-edit-connection.png"\]\), specify the settings.
 
 <table id="table_qwp_hq5_k2c"><thead><tr><th>
 
@@ -98,7 +99,7 @@ Source CI
 
 </td><td>
 
-You can select the swap icon ![](../image/icon-um-edit-swap.png) to swap source and target.
+You can select the swap icon \[Omitted image "icon-um-edit-swap.png"\] to swap source and target.
 
  **Note:** In the context of a CI relationship, this is the parent CI.
 
@@ -108,7 +109,7 @@ Target CI
 
 </td><td>
 
-You can select the swap icon ![](../image/icon-um-edit-swap.png) to swap source and target.
+You can select the swap icon \[Omitted image "icon-um-edit-swap.png"\] to swap source and target.
 
  **Note:** In the context of a CI relationship, this is the child CI.
 
@@ -135,13 +136,13 @@ The relationship between the CIs. For example, the relationship between the pare
 **Related topics**  
 
 
-[CI relationships in the CMDB](../concept/c_CIRelationships.md)
+[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 
-[Suggested class relationships](../reference/r_SuggestedRelationshipModel.md)
+[Suggested class relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md)
 
-[Add a suggested relationship](t_AddANewSuggestedRelationship.md)
+[Add a suggested relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_AddANewSuggestedRelationship.md)
 
-[Editing maps in Unified Map](../concept/unified-map-editing-map.md)
+[Editing maps in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-editing-map.md)
 
-[Delete a connection using the map editor](unified-map-delete-connection.md)
+[Delete a connection using the map editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-delete-connection.md)
 

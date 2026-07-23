@@ -2,12 +2,13 @@
 title: Components installed with Localization Framework
 description: The Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) activates several related plugins that are not already active. With installation of the core plugins, optional plugins for the Localization Framework Hub and Spoke architecture are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/components-installed-with-lf.html
 release: australia
 product: Localization Framework
 classification: localization-framework
 topic_type: reference
-last_updated: "2026-03-16"
-reading_time_minutes: 1
+last_updated: "2026-06-10"
+reading_time_minutes: 2
 breadcrumb: [Activating the Localization Framework, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -80,7 +81,7 @@ Scope: sn\_lf\_hub
 
 </td><td>
 
-It's a framework that enables to fulfill the translation requests received from Localization Framework Spoke. After installation and configuration, the hub instance manages incoming translation requests.For more information, see [Localization Framework Hub and Spoke architecture](../concept/localization-framework-hub-spoke-architecture.md).
+It's a framework that enables to fulfill the translation requests received from Localization Framework Spoke. After installation and configuration, the hub instance manages incoming translation requests.For more information, see [Localization Framework Hub and Spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md).
 
 </td></tr><tr><td>
 
@@ -160,10 +161,55 @@ TMS Configuration\(Sn Lf Tms Config\)
 sn\_lf\_tms\_config
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activating the Localization Framework](../concept/activation-localization-framework.md)
+</table>## Tables installed with the optional Localization Framework Hub and Spoke architecture
+
+The application scope for the following tables: Localization Framework Hub. For more information, see [Localization Framework Hub and Spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md).
+
+<table id="table_rc3_rq4_njc"><thead><tr><th>
+
+Table label
+
+</th><th>
+
+Table name
+
+</th></tr></thead><tbody><tr><td>
+
+Localization Framework Spoke Configuration \(Sn Lf Hub Spoke Configuration\)
+
+</td><td>
+
+sn\_lf\_hub\_spoke\_configuration
+
+</td></tr><tr><td>
+
+Localization Framework Hub Translation Item \(Sn Lf Hub Translation Item\)
+
+</td><td>
+
+sn\_lf\_hub\_translation\_item
+
+</td></tr><tr><td>
+
+Localization Framework Hub Spoke Settings \(Sn Lf Hub Spoke Setting\)
+
+</td><td>
+
+sn\_lf\_hub\_spoke\_setting
+
+</td></tr><tr><td>
+
+Localization Framework Hub Translation Request \(Sn Lf Hub Translation Request\)
+
+</td><td>
+
+sn\_lf\_hub\_translation\_request
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Activating the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/activation-localization-framework.md)
 
 **Related topics**  
 
 
-[Find components installed with an application](../../plugins/task/find-components.md)
+[Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md)
 

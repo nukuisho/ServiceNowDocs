@@ -2,11 +2,12 @@
 title: Set up Attended Robot
 description: Establish a connection between the Attended Robot and the ServiceNow RPA Hub instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/set-up-rda-runtime.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure, Attended Robot, Workflow Data Fabric]
+breadcrumb: [Configure, Attended Robot, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Set up Attended Robot
@@ -15,11 +16,11 @@ Establish a connection between the Attended Robot and the ServiceNow RPA Hub ins
 
 Watch this video to learn about the configuration of Attended Robot.
 
-Setup of Attended Robot application 
+\[Omitted video\] Description: Setup of Attended Robot application
 
 ## Before you begin
 
-Install the Attended Robot. For more information, see [Install Attended Robot](install-rda-runtime.md).
+Install the Attended Robot. For more information, see [Install Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/install-rda-runtime.md).
 
 Role required: none
 
@@ -31,7 +32,7 @@ If the Attended Robot is launched when the RPA Desktop Design Studio is open in 
 
 ## Procedure
 
-1.  From your desktop, double-click the Attended Robot icon \(![Attended Robot icon.](../image/rda-robot-runtime-icon.png)\).
+1.  From your desktop, double-click the Attended Robot icon \(\[Omitted image "rda-robot-runtime-icon.png"\] Alt text: Attended Robot icon.\).
 
 2.  In the Connection Manager dialog box, to add a new RPA Hub, select **Add New**.
 
@@ -116,5 +117,5 @@ Option to launch the login screen in the default browser.The Attended Robot is s
 
 ## What to do next
 
-Run an Attended Robot to execute the attended bot process. For more information, see [Run an automation using Attended Robot](run-rda-robot.md).
+Run an Attended Robot to execute the attended bot process. For more information, see [Run an automation using Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run-rda-robot.md).
 

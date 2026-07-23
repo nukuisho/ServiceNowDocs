@@ -2,6 +2,7 @@
 title: Set up Real-Time Transcription for ServiceNow Voice
 description: Set up the properties in the Amazon Connect integration in order to enable Real-Time Transcription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/set-up-rtt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,13 +22,13 @@ Role required: admin
 
 For new deployments, the Real-Time Transcription feature is enabled during the guided setup for ServiceNow Voice.
 
-If you have already deployed ServiceNow Voice and are upgrading, go through all of the steps for [Setting up ServiceNow Voice](../concept/ccc-setup.md), and the steps in this procedure, before completing the setup on Amazon Connect.
+If you have already deployed ServiceNow Voice and are upgrading, go through all of the steps for [Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-setup.md), and the steps in this procedure, before completing the setup on Amazon Connect.
 
 ## Procedure
 
 1.  Add the system property `sn_cti_csm_cnt.enable_ims_update` and set it to **true**.
 
-    For more information on adding a new system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+    For more information on adding a new system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 2.  Navigate to **All** &gt; **Amazon Connect integration** &gt; **View instances**.
 
@@ -56,5 +57,5 @@ If you have already deployed ServiceNow Voice and are upgrading, go through all 
 
 Proceed with the setup tasks on your Amazon Connect instance detailed in the setup guide.
 
-**Parent Topic:**[Configure Real Time Transcription for ServiceNow Voice Customer Service Management](configure-rtt-sn-voice.md)
+**Parent Topic:**[Configure Real Time Transcription for ServiceNow Voice Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-rtt-sn-voice.md)
 

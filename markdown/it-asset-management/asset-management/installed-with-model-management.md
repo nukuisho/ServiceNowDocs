@@ -2,13 +2,14 @@
 title: Installed with Model Management
 description: Several types of components are installed with Model Management.Model Management uses a number of business rules.Model Management includes a number of client scripts.Model Management includes the property glide.cmdb\_model.display\_name.shorten.Model Management includes script includes.Model Management includes numerous tables.Model Management includes UI policies.Model Management includes user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/installed-with-model-management.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Reference, Asset Management, IT Asset Management]
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Installed with Model Management

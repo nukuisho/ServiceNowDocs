@@ -2,6 +2,7 @@
 title: Exploring Service Graph Workspace
 description: Learn more about Service Graph Workspace, its different views and insight dashboards, when using key CMDB features such as CMDB Health, CMDB Data Manager, and CMDB 360.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/exploring-sg-workspace.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -21,11 +22,11 @@ The Service Graph Workspace is an efficient, central, and modernized way for you
 
 ## Guided Tour
 
-Administrators assigned to the guided tour admin role \(guided\_tour\_admin\) can use the Guided Tour Designer to create step-by-step walkthroughs that can guide users through the Service Graph Workspace. For more information, see [Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tours.md).
+Administrators assigned to the guided tour admin role \(guided\_tour\_admin\) can use the Guided Tour Designer to create step-by-step walkthroughs that can guide users through the Service Graph Workspace. For more information, see [Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-tours.md).
 
 ## General interaction and additional information
 
--   Service Graph Workspace leverages many [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md) capabilities and features, such as indicator sources. Throughout the Service Graph Workspace views, you can select the various cards to drill down to Performance Analytics KPI Details panes that show trends for the associated data. On a KPI Details pane, you can modify different settings to change the scope of the data. You can also select **Show Records** to list the records associated with the chart.
+-   Service Graph Workspace leverages many [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md) capabilities and features, such as indicator sources. Throughout the Service Graph Workspace views, you can select the various cards to drill down to Performance Analytics KPI Details panes that show trends for the associated data. On a KPI Details pane, you can modify different settings to change the scope of the data. You can also select **Show Records** to list the records associated with the chart.
 -   Lists throughout the Service Graph Workspace have a filter icon that you can select to show the filter definition used for the list.
 -   You can [open your Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md) to access and edit your Service Graph Workspace experience.
 -   See [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md) for a list of all Workspaces that ServiceNow® provides.
@@ -51,8 +52,8 @@ When you drill down to CI details, how those details appear depends on system se
 
     For more information, see:
 
-    -   [Components installed with Service Graph Workspace](../reference/installed-with-sg-workspace.md): **sn\_cmdb\_ws.explore\_ci.record.enabled** system property.
-    -   [Manage CI details using CI Form in Service Graph Workspace](ci-form-sg-workspace.md).
+    -   [Components installed with Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/installed-with-sg-workspace.md): **sn\_cmdb\_ws.explore\_ci.record.enabled** system property.
+    -   [Manage CI details using CI Form in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-form-sg-workspace.md).
 -   **CI details pane**
 
     If **sn\_cmdb\_ws.explore\_ci.record.enabled** is set to **false**, then the CI details pane is used for viewing CI details.When you drill down to a CI record in Service Graph Workspace views and pages, the following details for the CI appear:
@@ -80,13 +81,13 @@ When you drill down to CI details, how those details appear depends on system se
     -   Service Relationships: List of business applications, service offerings, and application services that the CI may be related to.
     On the CI details pane, you can:
 
-    -   Select **Open Dependency View** to open the [Dependency Views](../../business-service-management-map-ng/concept/c_BusinesssServiceManagementMaps.md) map and display a graphic infrastructure view of the specific CI record.
+    -   Select **Open Dependency View** to open the [Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/c_BusinesssServiceManagementMaps.md) map and display a graphic infrastructure view of the specific CI record.
     -   Select **View CMDB 360 Data** to show CMDB 360 details at the CI attribute level for the specific CI record.
     -   Select **Save** to save any changes made to attributes for the CI record.
 
     -   Select the More Actions icon \(...\) for additional functions:
-        -   Select **Create Change** to [create a new change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md) for the CI record.
-        -   Select **Create Incident** to [create a new incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-an-incident.md) for the CI record.
+        -   Select **Create Change** to [create a new change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAChange.md) for the CI record.
+        -   Select **Create Incident** to [create a new incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/create-an-incident.md) for the CI record.
         -   Select **Delete** to delete the CI record.
 <table id="table_cxt_nn4_mrb"><thead><tr><th>
 
@@ -153,7 +154,7 @@ Event Management \(com.glideapp.itom.snac\) plugin
 
  evt\_mgmt\_user role
 
- [Set up Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMConfiguration.md)
+ [Set up Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_EMConfiguration.md)
 
 </td></tr><tr><td>
 
@@ -173,7 +174,7 @@ View CMDB 360 Data
 
 </td><td>
 
-[Enable and configure CMDB 360](multisource-cmdb.md#section_enable_multisource_CMDB)
+[Enable and configure CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
 
 </td></tr><tr><td>
 
@@ -209,17 +210,17 @@ For information about the shared pages, see the Dev site as follows:
 To learn more about configuring and using Service Graph Workspace, see:
 
 -   Views:
-    -   [Data Owner Home view in Service Graph Workspace](sg-workspace-data-owner-home-view.md)
-    -   [Governance view in Service Graph Workspace](sg-workspace-governance-view.md)
-    -   [Explore and Search view in Service Graph Workspace](sg-workspace-search-explore-view.md)
-    -   [Insights view in Service Graph Workspace](sg-workspace-insights-view.md)
-    -   [Tasks view in Service Graph Workspace](sg-workspace-tasks-view.md)
-    -   [Lists view in Service Graph Workspace](sg-workspace-lists-view.md)
-    -   [SGC Central](../../sgc-central/reference/sgcc-landing.md) \(if installed\)
-    -   [CMDB success advisor](../../cmdb-success-advisor/reference/cmdb-sa.md) \(if installed\)
--   [Configuring Service Graph Workspace](configuring-sg-workspace.md)
--   [Resume a disabled Cloud vs Non-cloud resources scheduled job](../task/sg-workspace-resume-cloud-job.md)
--   [Edit a related table from CMDB performance insights in Service Graph Workspace](../task/sginsights-update-record-rltd-table.md)
--   [Edit a scheduled data import from CMDB performance insights in Service Graph Workspace](../task/sg-insights-schedule-data-import.md)
--   [Components installed with Service Graph Workspace](../reference/installed-with-sg-workspace.md)
+    -   [Data Owner Home view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-data-owner-home-view.md)
+    -   [Governance view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md)
+    -   [Explore and Search view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md)
+    -   [Insights view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-view.md)
+    -   [Tasks view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-tasks-view.md)
+    -   [Lists view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-lists-view.md)
+    -   [SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-landing.md) \(if installed\)
+    -   [CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa.md) \(if installed\)
+-   [Configuring Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-sg-workspace.md)
+-   [Resume a disabled Cloud vs Non-cloud resources scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-resume-cloud-job.md)
+-   [Edit a related table from CMDB performance insights in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sginsights-update-record-rltd-table.md)
+-   [Edit a scheduled data import from CMDB performance insights in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-insights-schedule-data-import.md)
+-   [Components installed with Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/installed-with-sg-workspace.md)
 

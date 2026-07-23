@@ -2,6 +2,7 @@
 title: Create a product attribute-based pricing adjustment
 description: Create a pricing adjustment for a product offering based on its product characteristics, such as the product size or color. A pricing adjustment can be a markup or markdown percentage, amount, or a pricing override.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-pricing-adjustment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,13 +20,13 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 ## About this task
 
-In this task, you specify the product characteristics to which the pricing adjustment applies. Next, you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md).
+In this task, you specify the product characteristics to which the pricing adjustment applies. Next, you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/using-decision-builder.md).
 
 **Note:** Starting with Pricing Matrixes release v10.0.0, a decision rule row can have more than one condition.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Attribute Adjustments**.
 
@@ -79,7 +80,7 @@ In this task, you specify the product characteristics to which the pricing adjus
 
 7.  Test your decision table.
 
-    For more information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-decision-table-in-decision-builder.md).
+    For more information on testing your decision table before publishing it, see [Test a decision table in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/test-decision-table-in-decision-builder.md).
 
 8.  In the **Details** tab for the attribute adjustment, select **Publish**.
 

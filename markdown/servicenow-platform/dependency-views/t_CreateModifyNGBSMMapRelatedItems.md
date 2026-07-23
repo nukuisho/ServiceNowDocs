@@ -2,6 +2,7 @@
 title: Create or modify Map Related Items
 description: The Map Related Items module relates referenced CIs to one another, which allows them to be displayed in a Dependency Views map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMapRelatedItems.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -31,11 +32,11 @@ Some additional referenced CIs that can be related in this manner are file syste
 
 In the following example, computer nodes in the map are related to network adapter nodes if the **Configuration Item** field of the adapter records reference the specific CI node. Access or create a network adapter record from the Network Adapter related list in the cmdb\_ci\_computer record.
 
-![CIs related by depencency.](../image/NGBSMRelatedItems2.png "Dependency Views Configuration Item field")
+\[Omitted image "NGBSMRelatedItems2.png"\] Alt text: CIs related by depencency.
 
 The Dependency Views map for the \*JEMPLOYEE-IBM computer shows the network adapter attached to the computer.
 
-![Dependency Views map displaying related CIs.](../image/DepViewsExample01.png "Dependency Views map Related Items example")
+\[Omitted image "DepViewsExample01.png"\] Alt text: Dependency Views map displaying related CIs.
 
 You can configure Dependency Views to display CIs that have no relationship record, but are related to other CIs by reference fields.
 
@@ -59,22 +60,22 @@ You can configure Dependency Views to display CIs that have no relationship reco
     |Active|Check box to enable or disable this record.|
 
 
-**Parent Topic:**[Administer Dependency Views](../topic/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 
 
-[Create or modify map indicators](t_CreateModifyNGBSMMapIndicators.md)
+[Create or modify map indicators]()
 
-[Create or modify map icons](t_CreateModifyNGBSMMapIcons.md)
+[Create or modify map icons]()
 
-[Create a predefined filter](create-predefined-filter.md)
+[Create a predefined filter]()
 
-[Set a predefined filter as default](set-predefined-filter-default.md)
+[Set a predefined filter as default]()
 
-[Create or modify Dependency Views menu actions](t_CreateModifyNGBSMMenuActions.md)
+[Create or modify Dependency Views menu actions]()
 
-[Condition and script parameters for menu actions](../reference/condition-script-parameters.md)
+[Condition and script parameters for menu actions]()
 
-[Create or edit a dependency type](t_CreateMapScript.md)
+[Create or edit a dependency type]()
 

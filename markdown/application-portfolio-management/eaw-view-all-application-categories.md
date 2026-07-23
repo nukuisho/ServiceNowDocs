@@ -2,6 +2,7 @@
 title: View all application categories
 description: You can view the list of all application categories in the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-application-categories.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,19 +22,19 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon ![Setup icon](../../image/eaw-image/setup-icon.png).
+2.  Open the Setup page by selecting the Setup icon \[Omitted image "setup-icon.png"\] Alt text: Setup icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Application Categories**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Application Categories**.
 
 4.  Select **All**.
 
 
-**Parent Topic:**[Working with the Setup page](../../concept/eaw-concept/eaw-work-with-setup-page.md)
+**Parent Topic:**[Working with the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-setup-page.md)
 
 **Related topics**  
 
 
-[Manage application categories](../../concept/eaw-concept/eaw-configure-application-categories.md)
+[Manage application categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-application-categories.md)
 
-[Add or edit an application category](eaw-create-app-category.md)
+[Add or edit an application category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-app-category.md)
 

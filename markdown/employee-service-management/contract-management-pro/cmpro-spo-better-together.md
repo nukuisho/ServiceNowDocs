@@ -2,6 +2,7 @@
 title: Optimizing Sourcing and Procurement Operations through Contract Lifecycle Automation
 description: This solution enables seamless collaboration between sourcing professionals and legal teams by embedding contract request workflows into the Sourcing and Procurement Operations workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-spo-better-together.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,17 +28,17 @@ Using Sourcing and Procurement Operations and Contract Management Pro together p
 
 |Feature|Sourcing and Procurement Operations|Contract Management Pro|All applications together|
 |-------|-----------------------------------|-----------------------|-------------------------|
-|Connected procurement workflows across systems|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Omni-channel self-service for employees and suppliers|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Non-standard and negotiated purchasing capabilities|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Catalog access for goods and services requests|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Automated procurement with supplier risk assessment|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Interactive experiences for supplier engagement|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Contract lifecycle management|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Contract document authoring|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Obligation Management|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Contract document Analysis using generative AI|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Contract document metadata extraction using generative AI|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
+|Connected procurement workflows across systems|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Omni-channel self-service for employees and suppliers|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Non-standard and negotiated purchasing capabilities|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Catalog access for goods and services requests|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Automated procurement with supplier risk assessment|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Interactive experiences for supplier engagement|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Contract lifecycle management|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Contract document authoring|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Obligation Management|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Contract document Analysis using generative AI|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Contract document metadata extraction using generative AI|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 
 Within the Source-to-Pay Workspace, Procurement Specialists can create contract requests for the following records:
 
@@ -51,7 +52,7 @@ Within the Source-to-Pay Workspace, Procurement Specialists can create contract 
 
 The following figure shows an example workflow of how a procurement specialist and a contract fulfiller can use these applications to streamline collaboration with legal teams, enabling them to execute contracting tasks within the procurement workflow. It also provides procurement professionals with full visibility into contract progress, reducing delays and improving operational transparency.
 
-![SPO - CM Pro workflow](../image/mmassest0021243-SPO-CMPro-workflow.png "The Sourcing and Procurement Operations and Contract Management Pro workflow")
+\[Omitted image "mmassest0021243-SPO-CMPro-workflow.png"\] Alt text: SPO - CM Pro workflow
 
 In this workflow:
 
@@ -75,9 +76,9 @@ You can assign your procurement and contracting professionals to these roles as 
 
 ## Requirements for integrating Sourcing and Procurement Operations and Contract Management Pro
 
-1.  [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md).
-2.  [Install Contract Management Pro](../task/cncore-install-cmpro.md).
-3.  [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrate-spo-with-cmpro.md).
+1.  [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/activate-finance-spend-central.md).
+2.  [Install Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-install-cmpro.md).
+3.  [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/integrate-spo-with-cmpro.md).
 
     **Note:** To use this application, a license is required for both Contract Management Pro and Sourcing and Procurement Operations.
 
@@ -86,37 +87,37 @@ You can assign your procurement and contracting professionals to these roles as 
 
 Get started with initiating contract request by completing these tasks:
 
-1.  [Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md).
+1.  [Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configuring-spo.md).
 2.  Configuring Contract Management Pro
-    -   **[Create a contract type](../task/cncore-create-contract-type.md)**
+    -   **[Create a contract type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-contract-type.md)**
 
         Create a contract type for defining different types of contract requests and associate it to a contract model.
 
         Role:contract administrator.
 
-    -   **[Configure templates for a contract and amendment request in Contract Management Pro](cncore-document-templates.md)**
+    -   **[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-document-templates.md)**
 
         Create a contract template of type .docx that can be used when submitting a contract request to generate a standard contract with predefined content.
 
         Role:contract configurator.
 
-    -   **[Configure dynamic clauses for contract templates](cncore-clause-and-cv.md)**
+    -   **[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)**
 
         Enable dynamic customized content in contract templates through clauses that contain clause variations for preset conditions.
 
         Role:contract configurator.
 
-    -   **[Define an internal signatory rule](../task/cncore-define-internal-signers-rule.md)**
+    -   **[Define an internal signatory rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.md)**
 
         Define a user as an internal signatory rule so that the signer can be added to a contract template to automatically add to the contract document for a request.
 
         Role:contract configurator.
 
-    -   **[Create a contract configuration](../task/cncore-contract-config.md)**
+    -   **[Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contract-config.md)**
 
         Define the contract repository where the contracts will be stored and map the data to be added to the contract document.
 
         Role:contract configurator.
 
-3.  [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/initiate-contract-request.md).
+3.  [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/initiate-contract-request.md).
 

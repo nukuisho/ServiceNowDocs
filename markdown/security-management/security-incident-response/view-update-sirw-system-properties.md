@@ -2,6 +2,7 @@
 title: View and update Security Incident Response system properties
 description: View and update the Security Incident Response Workspace system properties from the Security Incident Response Workspace administration panel to access and update the required properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-update-sirw-system-properties.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -15,35 +16,37 @@ breadcrumb: [Configure, Security Incident Response Workspace, Security Incident 
 
 View and update the Security Incident Response Workspace system properties from the Security Incident Response Workspace administration panel to access and update the required properties.
 
--   **[Configure default landing tab for security analysts](../task/configure-default-landing-tab.md)**  
+-   **[Configure default landing tab for security analysts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-default-landing-tab.md)**  
 Configure the default landing tab \(Overview or Details\) for security analysts when they select a security incident so they directly land on the page where they need to work on.
--   **[Configure auto refresh interval for security incident lists](../task/configure-auto-refresh-for-security-incident-lists.md)**  
+-   **[Configure auto refresh interval for security incident lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-auto-refresh-for-security-incident-lists.md)**  
 Configure the refresh interval for security incident lists for automatic update of the security incident list ensuring an updated list for the security analysts.
--   **[Configure default view for contextual menu](../task/configure-default-view-for-contextual-menu.md)**  
+-   **[Configure default view for contextual menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-default-view-for-contextual-menu.md)**  
 Configure whether the contextual menu panel for a security incident is expanded or collapsed by default.
 
-**Parent Topic:**[Configuring SIR Workspace](../reference/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 
 
-[Set up view of SIR Records](set-up-view-of-sir-records.md)
+[Set up view of SIR Records]()
 
-[Configure SI design time investigation](configure-investigation-canvas-records.md)
+[Configure SI design time investigation]()
 
-[SIR Workspace Related Records](sir-records.md#)
+[SIR Workspace Related Records]()
 
-[Define the new Risk Score Calculator Rules](../task/define-risk-score-calculator-rules-sir.md)
+[Define the new Risk Score Calculator Rules]()
 
-[Configure Shift Handover](config-shift-handover.md)
+[Configure Shift Handover]()
 
-[Security Incident Response conference call integration](sir-conf-call-capability.md)
+[Security Incident Response conference call integration]()
 
-[Configure report templates in Security Incident Response](daily-status-sir.md)
+[Configure report templates in Security Incident Response]()
 
-[On-Call scheduling in Security Incident Response](on-call-schedule-sir.md)
+[On-Call scheduling in Security Incident Response]()
 
-[Category management in Security Incident Response](category-management-sir.md)
+[Category management in Security Incident Response]()
 
-[Create quick filters for Security Incidents and Response Tasks lists](../task/create-quick-filters-for-security-incidents.md)
+[Create quick filters for Security Incidents and Response Tasks lists]()
+
+[Timeline in Security Incident Response Workspace]()
 

@@ -2,13 +2,14 @@
 title: Exploring Now Assist for Software Asset Management \(SAM\)
 description: With the Now Assist for Software Asset Management \(SAM\) application, Software Asset Management managers can use generative AI capabilities for tasks such as generating compliance summaries, optimization recommendations, and automating SaaS user resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.html
 release: australia
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+reading_time_minutes: 4
+breadcrumb: [Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Exploring Now Assist for Software Asset Management \(SAM\)
@@ -30,7 +31,7 @@ Custom role configurations for accessing generative AI skills are preserved. For
 
 The sam-user role also contains the Now Assist Admin User \(sn\_nowassist\_admin.user\) role. This provides the sam\_user role read-only access to the Now Assist Admin to view the generative AI skills.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 Domain separation is supported in Now Assist for Software Asset Management \(SAM\). For details, see [Domain separation in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
 
@@ -44,19 +45,19 @@ Additionally, you also get AI-powered recommended actions that help you to mitig
 
     Provides insights into publisher summaries, focusing on software deployment, license compliance, optimizations, and configuration health. The streamlined process highlights critical information about your software assets, making it easier for you to manage licenses and ensure compliance with publisher contracts.
 
-    ![Microsoft compliance summary.](../image/now-assist-summarization.png)
+    \[Omitted image "now-assist-summarization.png"\] Alt text: Microsoft compliance summary.
 
 -   **Product compliance summarization**
 
     Provides insights into specific product summaries for publishers, focusing on software deployment, license compliance, optimization, and issues.
 
-    ![SQL Server product summarization](../image/now-assist-sam-product-summary.png)
+    \[Omitted image "now-assist-sam-product-summary.png"\] Alt text: SQL Server product summarization
 
 -   **Recommended actions**
 
     Provides a list of recommended actions that you can perform to fix any configuration, maintenance, and optimization related issues to manage software license compliance and optimize licensing spend.
 
-    ![List of recommended actions for a product](../image/now-assist-sam-recommended-actions.png)
+    \[Omitted image "now-assist-sam-recommended-actions.png"\] Alt text: List of recommended actions for a product
 
 -   **SaaS user resolution**
 
@@ -64,7 +65,7 @@ Additionally, you also get AI-powered recommended actions that help you to mitig
 
     **Note:** To effectively use the SaaS user resolution generative skill, ensure that you have the latest compatible versions of both the Software Asset Management plugin and the Software Asset Management - SaaS License Management plugin.
 
-    Upon activation of the SaaS user resolution skill, a series of automated processes are triggered. First, the **Downgrade subscriptions** scheduled job is executed on a cadence, daily or weekly, that depends on your SaaS subscription. After the **Downgrade subscriptions** job is successfully executed, the **SAM - Generate user resolution rule** scheduled job is initiated, creating a new user resolution rule for the relevant SaaS integration profile and resolving all associated users.
+    Activating the SaaS user resolution skill initiates the user resolution process. As part of the process, the **Download subscriptions** scheduled job runs on its configured schedule, daily or weekly, based on your SaaS subscription. When the **Download subscriptions** job completes successfully, the **SAM - Generate user resolution rule** scheduled job triggers, creating a user resolution rule for the relevant SaaS integration profile and resolving all associated users.
 
 -   **Contract entitlement data extraction**
 
@@ -72,7 +73,7 @@ Additionally, you also get AI-powered recommended actions that help you to mitig
 
     DocIntel, a ServiceNow tool, is used to extract information from contracts. After data has been extracted from Docintel, a synchronous call is made to the prediction server to predict the product, publisher, and edition based on the product description for each entitlement. The Software Asset Management application performs post processing on the fields extracted from DocIntel to map to the supported values for different entitlement fields.
 
-    **Note:** For more information on DocIntel, see [Document Intelligence documentation](https://servicenow.com/docs/bundle/vancouver-intelligent-experiences/page/administer/document-intelligence/concept/document-intelligence-landing.html).
+    **Note:** For more information on DocIntel, see [Document Intelligence documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md).
 
     DocIntel is an intuitive and flexible application for dynamic businesses with highly variable document processing needs that change over time. DocIntel processes PDFs and images. Following are the image size and page count limits:
 
@@ -84,11 +85,11 @@ Additionally, you also get AI-powered recommended actions that help you to mitig
 
     Once the document is uploaded to DocIntel, a flow designer flow is executed to retrieve the values from the document and populate the ITAM Contract Import \[itam\_contract\_import\] table.
 
-    For extracting entitlements from contracts, you can opt in to participate in the Software Asset Management Content Service. The Software Asset Management Content Service is an IT Asset Management shared service that provides users with continual software recognition improvements. For additional details, see [Software Asset Management Content Service](../../software-asset-management2/concept/c_SAMContentService.md).
+    For extracting entitlements from contracts, you can opt in to participate in the Software Asset Management Content Service. The Software Asset Management Content Service is an IT Asset Management shared service that provides users with continual software recognition improvements. For additional details, see [Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMContentService.md).
 
 
--   **[Supporting information for Now Assist for Software Asset Management \(SAM\)](supporting-information-now-assist-sam.md)**  
+-   **[Supporting information for Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/supporting-information-now-assist-sam.md)**  
 Get a quick overview of the important information that is related to the Now Assist for Software Asset Management \(SAM\) application.
 
-**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](now-assist-sam.md)
+**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 

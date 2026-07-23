@@ -1,7 +1,8 @@
 ---
-title: Populating Assigned To attribute in Computer CI for Agent Client Collector for Visibility - Content
+title: Populating Assigned To attribute in Computer CI for Agent Client Collector for Visibility Content
 description: To update the Assigned To attribute of the Computer CI, you need to collect information from the logged in user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/fetching-logged-in-user-information-for-acc-v.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -12,7 +13,7 @@ keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC fo
 breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Populating Assigned To attribute in Computer CI for Agent Client Collector for Visibility - Content
+# Populating Assigned To attribute in Computer CI for Agent Client Collector for Visibility Content
 
 To update the Assigned To attribute of the Computer CI, you need to collect information from the logged in user.
 
@@ -47,5 +48,5 @@ You can automatically populate Assigned to for Windows endpoint devices and macO
 
 No new user account is created in the sys\_user table. Instead, the existing user is queryied and the same is referenced as Assigned To user for a CI.
 
-**Parent Topic:**[Agent Client Collector Discovery](../concept/acc-discovery.md)
+**Parent Topic:**[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-discovery.md)
 

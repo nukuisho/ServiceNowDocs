@@ -2,6 +2,7 @@
 title: Save Microsoft Word document as a template
 description: Save your Microsoft Word document as a template using the Design template provided in the Document designer, enabling you to create a reusable template in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-bcm-word-temp-using-docudesigner.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,9 +20,9 @@ Role required: sn\_bcm.admin, sn\_bcm.manager
 
 ## About this task
 
-Install and activate the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) plugin. For more information, see [Install Document designer with Microsoft Word](install-document-designer-with-word-plugin.md).
+Install and activate the Document designer with Microsoft Word \(sn\_grc\_doc\_design\) plugin. For more information, see [Install Document designer with Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/install-document-designer-with-word-plugin.md).
 
-Confirm that you have the templates configured. For more information, see [Set up the template configurations](set-up-document-designer-templates.md).
+Confirm that you have the templates configured. For more information, see [Set up the template configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-document-designer-templates.md).
 
 ## Procedure
 
@@ -43,7 +44,7 @@ Confirm that you have the templates configured. For more information, see [Set u
 
     On the Document designer pane, the Design template is displayed.
 
-    ![Design template TOC.](../image/design-template.png)
+    \[Omitted image "design-template.png"\] Alt text: Design template TOC.
 
 5.  On the Document designer pane, fill in the fields.
 

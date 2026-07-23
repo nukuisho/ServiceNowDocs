@@ -2,6 +2,7 @@
 title: Create a condition statement using the condition builder
 description: A condition builder constructs a condition statement with a series of contextually generated fields. Condition builders are used in many operations, such as creating filters, administering surveys, and administering access control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-cond-state-using-cond-build.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 A condition consists of three parts: field, operator, and value.
 
-![Condition builder with the Active field, the is operator, and the true value highlighted.](../image/condition-builder.png)
+\[Omitted image "condition-builder.png"\] Alt text: Condition builder with the Active field, the is operator, and the true value highlighted.
 
 |Part|Description|
 |----|-----------|
@@ -37,13 +38,13 @@ A condition consists of three parts: field, operator, and value.
 
 3.  To remove a condition, select the delete icon \(X\) next to the condition.
 
-    ![Example AND condition](../image/ExampleConditionActiveIsTrueAndCallerIsNotEmpty.png "Example AND condition")
+    \[Omitted image "ExampleConditionActiveIsTrueAndCallerIsNotEmpty.png"\] Alt text: Example AND condition
 
 
--   **[Condition builder](../concept/c_ConditionBuilder.md)**  
+-   **[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)**  
 A condition builder constructs a condition statement with a series of contextually generated fields. Condition builders are used in many operations, such as creating filters, administering surveys, and administering access control.
--   **[Operators available for filters and queries](../reference/r_OpAvailableFiltersQueries.md)**  
+-   **[Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md)**  
 The system provides a set of operators for use with filters, condition builders, and encoded queries. The data type of a field determines what operators are available for it.
 
-**Parent Topic:**[Common UI elements](../topic/p_CommonUIElements.md)
+**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_CommonUIElements.md)
 

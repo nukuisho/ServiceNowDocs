@@ -2,6 +2,7 @@
 title: Using chat in Agent Workspace for HR Case Management
 description: Agent chat for Agent Workspace for HR Case Management enables you to ask questions and receive information through live or virtual agent chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-chat.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -17,15 +18,15 @@ Agent chat for Agent Workspace for HR Case Management enables you to ask questio
 
 -   **Activation**
 
-    Ensure you have activated the Agent Chat \[com.glide.interaction.awa\] plugin prior to using this feature. For more information on setting up chat, see Agent Workspace chat.
+    Confirm that you have activated the Agent Chat \[com.glide.interaction.awa\] plugin before using this feature.
 
 -   **HR groups**
 
-    Ensure that your HR agents are part of an HR group or subgroup. Having subgroups helps to ensure HR agents with the correct skills and knowledge pair up when an employee initiates a chat.
+    Verify that your HR agents are part of an HR group or subgroup. Having subgroups helps to pair HR agents with the correct skills and knowledge when an employee initiates a chat.
 
-    For example, an employee initiates a chat requesting information about your company's benefits. Having a benefits subgroup with agents that specialize in your company's benefits ensures the employee's chat is directed to the correct agents.
+    For example, an employee initiates a chat requesting information about your company's benefits. Having a benefits subgroup with agents that specialize in your company's benefits directs the employee's chat to the correct agents.
 
-    For more information about HR groups, see [Manage HR Groups](../task/t_ManageHRGroups.md).
+    For more information about HR groups, see [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md).
 
 -   **Interaction records**
 
@@ -43,6 +44,6 @@ Agent chat for Agent Workspace for HR Case Management enables you to ask questio
 
     Automating chat can enhance the employee experience by addressing queries immediately. At any time during a virtual chat, the employee can request to interact with a live HR agent.
 
-    For more information on virtual agent, see [Virtual Agent for HR Service Delivery](hr-virtual-agent-conversations.md#).
+    For more information on virtual agent, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md).
 
 

@@ -2,6 +2,7 @@
 title: Problem Management in Service Operations Workspace reference
 description: Reference topics provide additional information about Problem Management in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/reference-problem-management-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -15,23 +16,23 @@ breadcrumb: [Problem Management in Service Operations Workspace, Managing IT ser
 
 Reference topics provide additional information about Problem Management in Service Operations Workspace.
 
--   **[Problem form](../reference/problem-form-sow.md)**  
+-   **[Problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/problem-form-sow.md)**  
 Description of the field values for the problem form in Service Operations Workspace.
--   **[Problem task form](../reference/problem-task-form-sow.md)**  
+-   **[Problem task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/problem-task-form-sow.md)**  
 Description of the field values for the problem task form in Service Operations Workspace.
 
-**Parent Topic:**[Problem Management in Service Operations Workspace](problem-sow.md)
+**Parent Topic:**[Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/problem-sow.md)
 
 **Related topics**  
 
 
-[Create a problem in Service Operations Workspace](../task/create-problem-sow.md)
+[Create a problem in Service Operations Workspace]()
 
-[Work on a problem in Service Operations Workspace](../task/work-on-problem-sow.md)
+[Work on a problem in Service Operations Workspace]()
 
-[Problem Management models in Service Operations Workspace](problem-mgmt-models-sow.md)
+[Problem Management models in Service Operations Workspace]()
 
-[Create a problem task in Service Operations Workspace](../task/create-problem-task-sow.md)
+[Create a problem task in Service Operations Workspace]()
 
-[Work on a problem task in Service Operations Workspace](../task/work-on-problem-task-sow.md)
+[Work on a problem task in Service Operations Workspace]()
 

@@ -2,6 +2,7 @@
 title: Define a communication channel
 description: Define a communication channel for each communication task to determine which mode of communication to use for the task when a plan is attached to a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/create-comm-channel-definition.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management
@@ -25,9 +26,9 @@ You have defined a communication plan and its related tasks.
 
 -   The modes of communication available are: email, SMS, conference, and Slack.
 -   For the incident table, the functionality for SMS and conference appears only if you activate the Notify plugin \(com.snc.notify\) and the **com.snc.iam.notify\_number** property value is set to the registered notify number. The notify number is registered while configuring the Twilio account.
--   For the incident table, the functionality for Slack appears only if you activate the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\). To activate the Collaboration Services for Task Communications Management plugin, navigate to [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install the Collaboration Services for Task Communications Management application. For more information, refer [Collaboration services for Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/collab-services-tcm.md).
+-   For the incident table, the functionality for Slack appears only if you activate the Collaboration Services for Task Communications Management plugin \(sn\_tcm\_collab\_hook\). To activate the Collaboration Services for Task Communications Management plugin, navigate to [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) and install the Collaboration Services for Task Communications Management application. For more information, refer [Collaboration services for Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collab-services-tcm.md).
 
-    **Note:** For information on how to configure Slack, refer to [Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-slack.md) .
+    **Note:** For information on how to configure Slack, refer to [Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-slack.md) .
 
 -   **Add Channel – Conference** is mutually exclusive to **Add Channel – SMS** and **Add Channel – Email**. If you select **Add Channel – Conference**, you cannot select **Add Channel – Email** or **Add Channel – SMS**.
 
@@ -74,7 +75,7 @@ Notify provider selector
 
 </td><td>
 
-Lookup icon \(![Lookup icon](../../proactive-triggers/image/look-up-icon.png)\) to select the selector from the Provider Selector \[notify\_group\_selector\] table.**Note:** The selector can be associated with notify number group or conference provider. Each notify number group can have one or more Notify numbers that can be used to make conference calls.
+Lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup icon\) to select the selector from the Provider Selector \[notify\_group\_selector\] table.**Note:** The selector can be associated with notify number group or conference provider. Each notify number group can have one or more Notify numbers that can be used to make conference calls.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -94,7 +95,7 @@ Email client template
 
 </td><td>
 
-Lookup icon \(![Lookup icon](../../proactive-triggers/image/look-up-icon.png)\) to select the email client template used to send emails to the targeted audience. **Note:** This email template must be defined in the Communication task table.
+Lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup icon\) to select the email client template used to send emails to the targeted audience. **Note:** This email template must be defined in the Communication task table.
 
 </td></tr><tr><td>
 
@@ -122,7 +123,7 @@ Notify SMS template
 
 </td><td>
 
-Lookup icon ![Lookup icon](../../proactive-triggers/image/look-up-icon.png) to select the notify SMS template used to send an SMS to the targeted audience.**Note:** This SMS template must be defined in the Communication task table.
+Lookup icon \[Omitted image "look-up-icon.png"\] Alt text: Lookup icon to select the notify SMS template used to send an SMS to the targeted audience.**Note:** This SMS template must be defined in the Communication task table.
 
 </td></tr><tr><td>
 
@@ -130,7 +131,7 @@ Notify provider selector
 
 </td><td>
 
-Lookup icon \(![Lookup icon](../../proactive-triggers/image/look-up-icon.png)\) to select the selector from the Provider Selector \[notify\_group\_selector\] table.**Note:** The selector can be associated with notify number group or conference provider. Each notify number group can have one or more Notify numbers that can be used to send SMS.
+Lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup icon\) to select the selector from the Provider Selector \[notify\_group\_selector\] table.**Note:** The selector can be associated with notify number group or conference provider. Each notify number group can have one or more Notify numbers that can be used to send SMS.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -190,12 +191,12 @@ Template applied when composing the notification message.
 
 After creating communication tasks and communication channels for those tasks, define contacts for the communication plan.
 
-**Parent Topic:**[Define a communication plan](create-comm-plan-definition.md)
+**Parent Topic:**[Define a communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/create-comm-plan-definition.md)
 
 **Related topics**  
 
 
-[Define a communication task](create-comm-task-definition.md)
+[Define a communication task]()
 
-[Define a communication contact](create-comm-contact-definition.md)
+[Define a communication contact]()
 

@@ -2,6 +2,7 @@
 title: SC Wish List Cart widget
 description: Use this widget to add catalog items or record producers to the wish list so that you can review them. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-wish-list.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -23,7 +24,7 @@ If the wish list is enabled for Service Catalog, SC Wish List Cart widget \(sc\_
 
 From the wish list details page, you can view or delete catalog items, clear the wish list, or navigate to the Service Catalog landing page.
 
-![Screenshot for the SC Wish List Cart widget](../../../product/service-catalog-management/image/WishListWdgt.png "SC Wish List Cart widget")
+\[Omitted image "WishListWdgt.png"\] Alt text: Screenshot for the SC Wish List Cart widget
 
 ## Instance options
 
@@ -33,53 +34,53 @@ Use the widget instance options to customize the settings for the SC Wish List C
 |-----|-----------|
 |Auto update wish list|Automatically updates the wish list across all sessions.|
 
--   **[Enable the SC Wish List Cart widget in Service Portal](../task/enable-wish-list-portal.md)**  
+-   **[Enable the SC Wish List Cart widget in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-wish-list-portal.md)**  
 Add catalog items or record producers to the wish list after you enable the wish list.
--   **[Enable automatic updates to the wish list](../task/enable-auto-update-wish-list.md)**  
+-   **[Enable automatic updates to the wish list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-auto-update-wish-list.md)**  
 Update the wish list automatically with user-specific changes from multiple tabs and platforms.
 
-**Parent Topic:**[Service Catalog widgets](sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
 
-[Catalog Content widget](catalog-content-widget.md)
+[Catalog Content widget]()
 
-[Catalog Homepage Search widget](cat-homepage-search-widget.md)
+[Catalog Homepage Search widget]()
 
-[Recent &amp; Popular Items widget](recent-and-popular-items-widget.md)
+[Recent &amp; Popular Items widget]()
 
-[Request Fields widget](request-fields-widget.md)
+[Request Fields widget]()
 
-[Requested Items widget](requested-items-widget.md)
+[Requested Items widget]()
 
-[Requests and Approvals widget](requests-and-approvals-widget.md)
+[Requests and Approvals widget]()
 
-[SC Catalog Item widget](sc-catalog-item-widget.md)
+[SC Catalog Item widget]()
 
-[SC Categories widget](sc-categories-widget.md)
+[SC Categories widget]()
 
-[SC Category Page widget](sc-category-page-widget.md)
+[SC Category Page widget]()
 
-[SC Order Guide widget](sc-order-guide-widget.md)
+[SC Order Guide widget]()
 
-[SC Popular Items widget](sc-popular-items.md)
+[SC Popular Items widget]()
 
-[SC Save Bundles widget](save-bundles-widget.md)
+[SC Save Bundles widget]()
 
-[SC Saved Carts widget](saved-cart-widget.md)
+[SC Saved Carts widget]()
 
-[SC Scroll to top widget](sc-scroll-to-top.md)
+[SC Scroll to top widget]()
 
-[SC Shopping Cart widget](sc-shopping-cart.md)
+[SC Shopping Cart widget]()
 
-[SP Variable Editor widget](variable-editor-widget.md)
+[SP Variable Editor widget]()
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 
-[Add an item to the wish list in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/add-to-wishlist-portal.md)
+[Add an item to the wish list in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-to-wishlist-portal.md)
 

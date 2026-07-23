@@ -2,6 +2,7 @@
 title: Install ServiceNow Voice for CSM
 description: You can install the ServiceNow Voice for CSM application \(sn\_cti\_csm\_cnt\) if you have the admin role. The application installs related ServiceNow Store applications if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/install-ccc-csm.html
 release: australia
 topic_type: task
 last_updated: "2023-08-03"
@@ -36,7 +37,7 @@ The following items are installed with ServiceNow Voice for CSM:
 -   Contact flows
 -   Operation handlers
 
-For more information, see [Components installed with ServiceNow Voice for CSM](../reference/instld-with-ccc-csm.md).
+For more information, see [Components installed with ServiceNow Voice for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instld-with-ccc-csm.md).
 
 ## Procedure
 
@@ -46,7 +47,7 @@ For more information, see [Components installed with ServiceNow Voice for CSM](.
 
     You can search for the application by its name or ID. If you cannot find the application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -61,7 +62,7 @@ For more information, see [Components installed with ServiceNow Voice for CSM](.
 
 ## What to do next
 
-To set up Voice for CSM, see [Setting up ServiceNow Voice](../concept/ccc-setup.md)
+To set up Voice for CSM, see [Setting up ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ccc-setup.md)
 
-**Parent Topic:**[Integrating ServiceNow Voice with CSM](../concept/integrating-ccc-csm.md)
+**Parent Topic:**[Integrating ServiceNow Voice with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrating-ccc-csm.md)
 

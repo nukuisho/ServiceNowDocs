@@ -2,6 +2,7 @@
 title: Generate customer insights in the Customer 360 page
 description: Use the Banking CSR customer insights AI agent in the Customer 360 page to automatically consolidate customer data and generate persona-based insights. These insights help customer service representatives \(CSRs\) prepare for callbacks, conduct proactive outreach, and identify high-value customers requiring attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/generate-customer-insights-customer-360-workspace.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -23,7 +24,7 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
 When requested, the Banking CSR customer insights AI agent will begin consolidating customer data and presents persona-based insights to help CSR agents prepare for callbacks, perform proactive outreach, or identify high-value customers that need attention.
 
-![Customer 360 Insights panel showing customer details, financial overview, AI-generated summary, and Now Assist panel with AI agent conversation.](../../fso-front-office-banking/images/agentic-contact-center-c360-na-panel.png)
+\[Omitted image "agentic-contact-center-c360-na-panel.png"\] Alt text: Customer 360 Insights panel showing customer details, financial overview, AI-generated summary, and Now Assist panel with AI agent conversation.
 
 ## Procedure
 
@@ -47,7 +48,7 @@ The AI agent answers your questions using information from its configured knowle
 **Related topics**  
 
 
-[Agentic AI use cases for FSO](../concept/usecase-now-assist.md)
+[Agentic AI use cases for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/usecase-now-assist.md)
 
-[Agentic Contact Center for Banking AI agents overview](../concept/agentic-contact-center-for-banking-agents-overview.md)
+[Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/agentic-contact-center-for-banking-agents-overview.md)
 

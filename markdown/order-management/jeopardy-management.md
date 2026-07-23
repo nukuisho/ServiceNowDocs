@@ -2,6 +2,7 @@
 title: Jeopardy Management
 description: Jeopardy Management is a risk assessment tool that monitors fulfillment tasks, assesses the risk level, and alerts fulfillment managers when the assigned task time is in jeopardy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/jeopardy-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -75,10 +76,10 @@ The following table shows how Jeopardy Management assesses risk levels for tasks
 
 Jeopardy Management assesses all tasks in a workflow and adjusts the risk level for tasks that occur later in the workflow. In the delayed scenario, a delay in Task B causes the fulfillment time for all successor tasks to become uncertain, and the product order duration can no longer be determined.
 
-## Related links
+## What to explore next
 
 For information on configuring and using Jeopardy Management, see:
 
--   [Configuring Jeopardy Management](configuring-jeopardy-management.md)
--   [Monitoring order jeopardy](../task/monitoring-jeopardy-management.md)
+-   [Configuring Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-jeopardy-management.md)
+-   [Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
 

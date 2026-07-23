@@ -2,6 +2,7 @@
 title: Configure Demand Forecast
 description: Define the data that you want to collect for incidents, interactions, or any table to forecast the number of agents that you require for your staffing needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-data-collection-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -17,7 +18,7 @@ Define the data that you want to collect for incidents, interactions, or any tab
 
 ## Before you begin
 
--   You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for ITSM. For more information, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/request-metricbase.md).
+-   You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for ITSM. For more information, see [Requesting the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-metricbase.md).
 -   You must be in the [Global scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_GlobalScope.md).
 
 Role required: sn\_agent\_forecast.admin
@@ -30,7 +31,7 @@ Role required: sn\_agent\_forecast.admin
 
     1.  Click **Data Collection Definitions**.
 
-        See the [forecast configuration tables for demand forecast](../reference/configurable-wfo-itsm-demand-forecast-reference.md) for the list of configurations that are available by default.
+        See the [forecast configuration tables for demand forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md) for the list of configurations that are available by default.
 
     2.  Click New.
     3.  On the form, fill in the fields.
@@ -92,7 +93,7 @@ Data that you can add to forecast for the future.
 
         **Note:** A forecast parameter in **Published** state is automatically created.
 
-    5.  Create an index for the table that you have created using the date field and the conditions that you have added to the table. For information on creating a table index, see [Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateCustomIndex.md).
+    5.  Create an index for the table that you have created using the date field and the conditions that you have added to the table. For information on creating a table index, see [Create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateCustomIndex.md).
 3.  Add parameters for the formula to calculate how many agents you need per hour in a day.
 
     1.  Click **Formula Parameters**.
@@ -101,7 +102,7 @@ Data that you can add to forecast for the future.
 
         -   To add a value to be calculated for the formula, in the **Value** field, enter the value.
         -   To use the performance analytics score card API or a custom API, click **Advanced,** and add the script.
-        The Average Chat Duration and Average Walkup Duration forecast parameters that are provided by default are examples of how you can use scripts to add the parameters. For a list of parameters provided by default, see the [forecast parameters in demand forecast](../reference/configurable-wfo-itsm-demand-forecast-reference.md) for the list of configurations that are available by default.
+        The Average Chat Duration and Average Walkup Duration forecast parameters that are provided by default are examples of how you can use scripts to add the parameters. For a list of parameters provided by default, see the [forecast parameters in demand forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md) for the list of configurations that are available by default.
 
         **Note:** A resource conversion formula uses multiple data collection definitions to calculate the resource conversion. In a data collection definition, if the forecast parameters set for each of the forecast configurations vary, the resource conversion formula uses the lowest parameter values set for a forecast configuration.
 
@@ -163,20 +164,20 @@ Formula to calculate the forecasted number of agents that you need.In the Relate
 
     1.  Click **Group Forecast Configurations**.
     2.  Click **New** and do the following:
-        -   In the **Assignment Group** field, click the search icon \(![Search icon](../image/search_icon.png)\) and select the group to which you want to associate a forecast configuration.
-        -   In the **Forecast Configuration** field, click the search icon \(![Search icon](../image/search_icon.png)\) and select a **Resource Conversion Formula**.
+        -   In the **Assignment Group** field, click the search icon \(\[Omitted image "search\_icon.png"\] Alt text: Search icon\) and select the group to which you want to associate a forecast configuration.
+        -   In the **Forecast Configuration** field, click the search icon \(\[Omitted image "search\_icon.png"\] Alt text: Search icon\) and select a **Resource Conversion Formula**.
 
 ## What to do next
 
-Run the **Collect historical data for automated forecast configurations** scheduled job. For more information, see [scheduled jobs for demand forecast](../reference/configurable-wfo-itsm-demand-forecast-reference.md) .
+Run the **Collect historical data for automated forecast configurations** scheduled job. For more information, see [scheduled jobs for demand forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-demand-forecast-reference.md) .
 
--   **[Define the minimum and maximum number of agents to forecast demand](define-number-of-agents-configurable-wfo-itsm.md)**  
+-   **[Define the minimum and maximum number of agents to forecast demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/define-number-of-agents-configurable-wfo-itsm.md)**  
 Set the minimum or maximum number of agents required per hour so that you always have the desired staffing coverage.
 
-**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for ITSM](../concept/setting-up-demand-forecast-configurable-wfo-itsm.md)
+**Parent Topic:**[Setting up Demand Forecast in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setting-up-demand-forecast-configurable-wfo-itsm.md)
 
 **Related topics**  
 
 
-[Use Demand Forecast](analyze-staffing-demand-forecast-wfo-itsm.md)
+[Use Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/analyze-staffing-demand-forecast-wfo-itsm.md)
 

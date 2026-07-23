@@ -2,6 +2,7 @@
 title: Blueprint attributes
 description: When you add a blueprint operation to a resource, the system adds the appropriate attributes. You can choose whether or not to make the attributes available as catalog properties on the form when the system performs the operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/blueprint-attributes.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -28,14 +29,14 @@ When you add a blueprint operation to a resource, the system adds the appropriat
 
 **Warning:** It is recommended that you do not use **KeyPreference**. If you use the attribute, do not set **KeyPreference** to `user`.
 
-**Parent Topic:**[Build a Cloud Provisioning blueprint](../task/create-blueprint-cmp.md)
+**Parent Topic:**[Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
 
 **Related topics**  
 
 
-[Add a resource operation to the execution plan](../task/add-resource-operation-cmp.md)
+[Add a resource operation to the execution plan]()
 
-[Execute blueprint operations in parallel](../task/execute-blueprint-operations-parallel.md)
+[Execute blueprint operations in parallel]()
 
-[Configure a blueprint rule](../task/configure-a-blueprint-rule.md#)
+[Configure a blueprint rule]()
 

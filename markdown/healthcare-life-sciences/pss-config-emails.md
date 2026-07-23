@@ -2,6 +2,7 @@
 title: Configuring the Patient Support Services email notifications
 description: Configure the email notifications sent to patients about Patient Support Services programs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-config-emails.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

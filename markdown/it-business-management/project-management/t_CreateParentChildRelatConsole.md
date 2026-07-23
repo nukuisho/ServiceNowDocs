@@ -2,6 +2,7 @@
 title: Create a parent-child relationship on the planning console
 description: The WBS section of the planning console allows you to create parent-child relationships for new tasks or move around existing tasks in a new parent-child relationship. The position of a task in the hierarchy and the level of indentation determine the parent-child relationship it has with the tasks above or below it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateParentChildRelatConsole.html
 release: australia
 product: Project Management
 classification: project-management
@@ -23,7 +24,7 @@ Role required: it\_project\_manager
 
 In this example, the System Readiness Assessment task is a child of the Planning task because it is one level below the Planning task and is indented.
 
-![Parent-child task example](../image/example_parent-child-task.png "Parent-child relation for tasks")
+\[Omitted image "example\_parent-child-task.png"\] Alt text: Parent-child task example
 
 ## Procedure
 
@@ -33,29 +34,29 @@ In this example, the System Readiness Assessment task is a child of the Planning
 
     |Icon|Action|
     |----|------|
-    |Add task above icon \(![Add task icon](../image/add_task_above.png)\)|Create a task above the highlighted task.|
-    |Add task below icon \(![Add task icon](../image/add_task_below.png)\)|Create a task below the highlighted task.|
-    |Indent icon \(![Indent icon](../image/demote_icon.png)\)|Makes the highlighted task a child of the task above it.|
+    |Add task above icon \(\[Omitted image "add\_task\_above.png"\] Alt text: Add task icon\)|Create a task above the highlighted task.|
+    |Add task below icon \(\[Omitted image "add\_task\_below.png"\] Alt text: Add task icon\)|Create a task below the highlighted task.|
+    |Indent icon \(\[Omitted image "demote\_icon.png"\] Alt text: Indent icon\)|Makes the highlighted task a child of the task above it.|
 
 
-**Parent Topic:**[Using Planning console - Legacy](../concept/c_TheProjectPlanningConsole.md)
+**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 
 **Related topics**  
 
 
-[Open the project planning console](t_OpenPlanningConsole.md)
+[Open the project planning console]()
 
-[Planning console tasks](../reference/r_PlanningConsoleTasks.md)
+[Planning console tasks]()
 
-[Client side planning console](../concept/client-side-planning-console.md)
+[Client side planning console]()
 
-[Gantt chart](../concept/c_GanttChart.md)
+[Gantt chart]()
 
-[Predecessor dependencies in the planning console](../reference/r_ProjectTaskDependencyValues.md)
+[Predecessor dependencies in the planning console]()
 
-[Custom columns in the planning console](../concept/custom-columns-planning-console.md)
+[Custom columns in the planning console]()
 
-[Create a dependency from the planning console](t_CreateADependency.md)
+[Create a dependency from the planning console]()
 
-[Using Planning console - Legacy](../concept/c_TheProjectPlanningConsole.md)
+[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 

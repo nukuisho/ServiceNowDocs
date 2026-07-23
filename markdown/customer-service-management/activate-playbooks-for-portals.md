@@ -2,6 +2,7 @@
 title: Set up custom Playbooks for Portals
 description: Create custom Playbooks for Portals to provide end users with the playbook experience on your service portal.Create a content item of Playbook type on portal so that users can navigate to the playbook experience. These content items are specifically configured to enable the playbook experience on portals.You can set up a widget to reroute the user to the csm\_ticket page once the record state changes from draft to new, indicating that the user has completed the intake process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-playbooks-for-portals.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,31 +27,31 @@ Plugins required:
 -   Case Playbook for Onboarding: sn\_onboarding \(required if you need the predefined playbook experience\)
 -   Case Playbook for Product Support: sn\_product \(required if you want to use the product case playbook and record generator\)
 
-Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](customer-service-case-playbooks.md).
+Plugins are available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md).
 
 ## Summary of steps for setting up Playbooks for Portals
 
 You can set up Playbooks for Portals using the following high level steps.
 
-1.  Define your process using Workflow Studio. See [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md) for more information.
-2.  Activate the record generator. For more information, see [Activate the record generator](activate-the-record-generator.md).
-3.  Set up ACLs \(Access Control Lists\) to provide the appropriate read, write, and create permissions for users. See [Explicit Roles in CSM](../../../administer/contextual-security/concept/explicit-roles-in-csm.md) for more information.
+1.  Define your process using Workflow Studio. See [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-process-definition.md) for more information.
+2.  Activate the record generator. For more information, see [Activate the record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-the-record-generator.md).
+3.  Set up ACLs \(Access Control Lists\) to provide the appropriate read, write, and create permissions for users. See [Explicit Roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/explicit-roles-in-csm.md) for more information.
 
     **Note:** Add write and create roles with a condition based on "State=draft" so that users can only edit the fields in the draft state.
 
-4.  Create a Playbook Content Item so that users can navigate to the Playbook experience. See [Create a Playbook Content Item](activate-playbooks-for-portals.md#) for more information.
-5.  Set up a redirection widget so that users are redirected to the playbook intake experience once the state changes from "draft" to "new." See [Set up a redirection widget](activate-playbooks-for-portals.md#) for more information.
+4.  Create a Playbook Content Item so that users can navigate to the Playbook experience. See [Create a Playbook Content Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-playbooks-for-portals.md) for more information.
+5.  Set up a redirection widget so that users are redirected to the playbook intake experience once the state changes from "draft" to "new." See [Set up a redirection widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-playbooks-for-portals.md) for more information.
 
 **Related topics**  
 
 
-[Playbooks for Portals](playbooks-for-portals.md)
+[Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbooks-for-portals.md)
 
-[Using Playbooks for Portals](using-playbooks-for-portals.md)
+[Using Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-playbooks-for-portals.md)
 
-[Creating an onboarding case with Playbooks for Portals](create-an-onboarding-case-with-portal-playbook.md)
+[Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
 
-[Activate the record generator](activate-the-record-generator.md)
+[Activate the record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-the-record-generator.md)
 
 ## Create a Playbook Content Item
 
@@ -64,7 +65,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Playbook Content Items** &gt; **New**.
 
-    ![content item form showing all fields](../image/playbook-content-item.png "Content item form")
+    \[Omitted image "playbook-content-item.png"\] Alt text: content item form showing all fields
 
 2.  In the form, fill out the fields.
 

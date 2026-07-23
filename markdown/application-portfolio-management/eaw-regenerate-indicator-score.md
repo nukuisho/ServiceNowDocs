@@ -2,6 +2,7 @@
 title: Regenerate application indicator scores on-demand in Enterprise Architecture Workspace
 description: You can update application indicator scores on-demand, to assess the application across various dimensions such as cost, quality, technical risk, business value, to gather real-time insights into the performance of applications and take immediate action, if necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-regenerate-indicator-score.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,9 +26,9 @@ On-demand generation of indicator scores makes sure that the assessment reflects
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon ![Setup icon](../../image/eaw-image/setup-icon.png).
+2.  Open the Setup page by selecting the Setup icon \[Omitted image "setup-icon.png"\] Alt text: Setup icon.
 
-3.  Select the expand row icon \(![Expand Row icon.](../../image/ExpandIcon.png)\) next to **Indicators**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon.\) next to **Indicators**.
 
 4.  Select **Application Indicators**.
 
@@ -39,25 +40,25 @@ On-demand generation of indicator scores makes sure that the assessment reflects
 
 7.  In the **Fiscal Period** box, enter the fiscal period that you want to generate the indicator score for.
 
-    You can also select the lookup using list icon ![Lookup using list icon.](../../image/eaw-image/lookup-using-list-icon.png) to view the list of available fiscal periods.
+    You can also select the lookup using list icon \[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon. to view the list of available fiscal periods.
 
 8.  Select **OK**.
 
     This action doesn’t update the existing application indicator scores but deletes them and generates new scores.
 
 
-**Parent Topic:**[Working with indicators](../../concept/eaw-concept/eaw-manage-indicators.md)
+**Parent Topic:**[Working with indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-indicators.md)
 
 **Related topics**  
 
 
-[Manage indicators](../../concept/eaw-concept/eaw-configure-indicators.md)
+[Manage indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-indicators.md)
 
-[Add or edit an application indicator](eaw-create-indicator.md)
+[Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-indicator.md)
 
-[Activate or turn off an application or capability indicator](eaw-enable-or-disable-an-application-indicator.md)
+[Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md)
 
-[Regenerate application indicator scores on-demand in Enterprise Architecture Workspace](eaw-regenerate-indicator-score.md)
+[Regenerate application indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-regenerate-indicator-score.md)
 
-[Regenerate capability indicator scores on-demand in Enterprise Architecture Workspace](eaw-regenerate-capability-indicator-scores-in-eaw.md)
+[Regenerate capability indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-regenerate-capability-indicator-scores-in-eaw.md)
 

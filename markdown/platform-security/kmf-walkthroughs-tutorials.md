@@ -2,6 +2,7 @@
 title: Field Encryption Enterprise examples
 description: These examples walk you through the encryption of fields and attachments using customer-supplied keys.This walkthrough shows you how to encrypt a field in your instance using Field Encryption Enterprise with the Key Management Framework \(KMF\). It also shows you how to use your own key.This walkthrough shows you how to encrypt an attachment in your instance using Field Encryption Enterprise with the Key Management Framework \(KMF\). It also shows you how to use your own key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/kmf-walkthroughs-tutorials.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Using Field Encryption, Field Encryption, Encryption]
 
 These examples walk you through the encryption of fields and attachments using customer-supplied keys.
 
-**Parent Topic:**[Using Field Encryption](../../encryption/concept/using-column-level-encryption.md)
+**Parent Topic:**[Using Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-column-level-encryption.md)
 
 ## Field Encryption Enterprise walkthrough
 
@@ -21,11 +22,11 @@ This walkthrough shows you how to encrypt a field in your instance using Field E
 
 ### Before you begin
 
-**Note:** This procedure only applies to Field Encryption Enterprise functionality. See [Activate Field Encryption](../../now-platform-encryption/task/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise.
+**Note:** This procedure only applies to Field Encryption Enterprise functionality. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise.
 
 Role required: security\_admin  and sn\_kmf.cryptographic\_manager  or sn\_kmf.admin
 
-**Note:** security\_admin is a privileged role, for details on using privileged roles, see [Elevate to a privileged role](../../security/task/t_ElevateToAPrivilegedRole.md)
+**Note:** security\_admin is a privileged role, for details on using privileged roles, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md)
 
 ### About this task
 
@@ -35,13 +36,13 @@ After the key has been stored in a cryptographic module, you can start configuri
 
 This task demonstrates two scenarios. One example encrypts the **Short Description** field in an Incident for users who are not authorized to view the sensitive data.
 
-Attachments can also be encrypted and only visible to users who are granted access, or is visible to all users that are not restricted from viewing the data. See [Attachment encryption walkthrough](../task/attachment-encryption-walkthrough.md) to encrypt an attachment.
+Attachments can also be encrypted and only visible to users who are granted access, or is visible to all users that are not restricted from viewing the data. See [Attachment encryption walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/attachment-encryption-walkthrough.md) to encrypt an attachment.
 
 ### Procedure
 
 1.  Create a cryptographic module for column\_level\_encryption.
 
-    See [Create cryptographic module for Field Encryption](../task/create-PE-cryptographic-module.md) [Create a cryptographic module](../task/create-cryptographic-module.md) for more information.
+    See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-PE-cryptographic-module.md) [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md) for more information.
 
 2.  Select **View module details** for the module you created.
 
@@ -61,11 +62,11 @@ Attachments can also be encrypted and only visible to users who are granted acce
     |Algorithm Equality Preserving|The option is automatically selected.|
     |Method|The **Single Module** option is used to apply the policies for one module. **Multiple Modules** is used to apply the policies across multiple modules.|
 
-    ![Shows a completed Encrypted Field Configuration.](../../encryption/image/fee-efc.png "Encryption field configuration example")
+    \[Omitted image "fee-efc.png"\] Alt text: Shows a completed Encrypted Field Configuration.
 
 6.  Click **Save**.
 
-    Establish a Module Access Policy \(MAP\) to assign access to the cryptographic module. See [Create a module access policy](../task/create-module-access-policy.md) for additional information.
+    Establish a Module Access Policy \(MAP\) to assign access to the cryptographic module. See [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-module-access-policy.md) for additional information.
 
 7.  Select **Access Policies** to set up the MAP.
 
@@ -82,17 +83,17 @@ Attachments can also be encrypted and only visible to users who are granted acce
     |Result|The **Track**option enables the access to the field for the selected role. \(To restrict access to that field for the selected role, select **Reject** or**Strict Reject**.\)|
     |Impersonation|Option to enable module access via impersonation.|
 
-    ![Shows the completed module access policy form.](../../encryption/image/fe-map.png "Module access policy example")
+    \[Omitted image "fe-map.png"\] Alt text: Shows the completed module access policy form.
 
 10. Select **Save**.
 
 11. As a user with the sn\_kmf.admin role, navigate to **All** &gt; **Incidents** &gt; **Create New**.
 
-    ![Shows the visible Short description data.](../image/seeshortdescriptionasadmin.png "Example of encrypted field visible")
+    \[Omitted image "seeshortdescriptionasadmin.png"\] Alt text: Shows the visible Short description data.
 
     You can now view the Short description field based on the module access policy configuration.
 
-    **Note:** The sn\_kmf.admin role was granted user access to the encrypted field, Short description, by setting the module access policy to **Track**. Notice the lock icon \(![Lock icon.](../image/lock-icon.png)\) under the field name indicating that the field is an encrypted field.
+    **Note:** The sn\_kmf.admin role was granted user access to the encrypted field, Short description, by setting the module access policy to **Track**. Notice the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon.\) under the field name indicating that the field is an encrypted field.
 
     You can now access the **Incidents** module as an end user to test the encrypted field configuration.
 
@@ -111,7 +112,7 @@ This walkthrough shows you how to encrypt an attachment in your instance using F
 
 ### Before you begin
 
-**Note:** This procedure only applies to Field Encryption Enterprise functionality. See [Activate Field Encryption](../../now-platform-encryption/task/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise.
+**Note:** This procedure only applies to Field Encryption Enterprise functionality. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise.
 
 Role required: sn\_kmf.cryptographic\_manager
 
@@ -131,7 +132,7 @@ We show you how to encrypt attachments to only be visible to users who are grant
 
 2.  Create a cryptographic module.
 
-    See [Create cryptographic module for Field Encryption](../task/create-PE-cryptographic-module.md) for more information.
+    See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-PE-cryptographic-module.md) for more information.
 
 3.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience**.
 
@@ -230,7 +231,7 @@ The **Single Module** option is used to apply the policies for one module. **Mul
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
-    Establish a Module Access Policy \(MAP\) to assign access to the cryptographic module. Refer to [Create a module access policy](../task/create-module-access-policy.md) for additional information.
+    Establish a Module Access Policy \(MAP\) to assign access to the cryptographic module. Refer to [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-module-access-policy.md) for additional information.
 
 8.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience** &gt; **Configurations** &gt; **Access Policies**.
 
@@ -251,7 +252,7 @@ The **Single Module** option is used to apply the policies for one module. **Mul
     |Specify purpose|Optional. Enable to display the Crypto Spec field on the form. Enable this option to configure granular operations, such as some users being able to encrypt, but not decrypt.|
     |Application|The Application scope is auto-populated by your current scope.|
 
-    ![Module Access Policy form](../image/attachment-access-policy.png "Module Access Policy form")
+    \[Omitted image "attachment-access-policy.png"\] Alt text: Module Access Policy form
 
 12. Click **Submit**.
 

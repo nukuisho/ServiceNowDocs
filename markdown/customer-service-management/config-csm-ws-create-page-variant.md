@@ -2,6 +2,7 @@
 title: Creating pages and page variants
 description: You can create new pages or customize existing pages in UI Builder to display table and record information in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-ws-create-page-variant.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ When you create a page in UI Builder, you have the option to create a page from 
 
 ## UI Builder terminology
 
-The following table describes the UI Builder terminology around workspace experiences, pages and page variants, and page templates. For more information about UI Builder terminology, see the [UI Builder glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md).
+The following table describes the UI Builder terminology around workspace experiences, pages and page variants, and page templates. For more information about UI Builder terminology, see the [UI Builder glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-glossary.md).
 
 <table id="table_spj_stk_1bc"><thead><tr><th>
 
@@ -29,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-workspace-settings.md)
+[Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-workspace-settings.md)
 
 </td><td>
 
@@ -39,7 +40,7 @@ A workspace experience resides at a specific URL. When an admin creates a worksp
 
 </td></tr><tr><td>
 
-[Page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/page-collections.md)
+[Page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/page-collections.md)
 
 </td><td>
 
@@ -91,7 +92,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a page from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md)
+[Create a page from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md)
 
 </td><td>
 
@@ -99,7 +100,7 @@ When you create a page from scratch, you start with a blank page and select layo
 
 </td></tr><tr><td>
 
-[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md)
+[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)
 
 </td><td>
 
@@ -113,7 +114,7 @@ For example, when you create a page from the Front-line case page template, the 
 
 </td></tr><tr><td>
 
-[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
+[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md)
 
 </td><td>
 
@@ -125,7 +126,7 @@ By creating a page variant, you can target an experience for a specific audience
 -   The conditions determine when a page is shown. For example, you can add a condition for records from a specific table, such as the Case table.
 
 </td></tr></tbody>
-</table>For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
+</table>For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/work-pages.md).
 
 **Note:** If a page is modified after page variants have been created, the changes to the page do not sync with the variants. These changes must be made manually.
 
@@ -143,7 +144,7 @@ The system chooses a record page by evaluating the settings on the available act
 -   If there is an active page with one or more conditions and those conditions are met, the system chooses that page.
 -   If there are two active pages with the same conditions, the system chooses the page with the lowest order value.
 
-For more information, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 **Related topics**  
 

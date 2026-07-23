@@ -2,6 +2,7 @@
 title: Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD
 description: Create drafts of knowledge articles that are based on the case descriptions with Now Assist for HR Service Delivery \(HRSD\). Generating article content with generative AI enables you to write efficiently as you address user concerns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -24,7 +25,7 @@ Create drafts of knowledge articles that are based on the case descriptions with
     -   Latest version of Agent Workspace for HR Case Management \[sn\_hr\_agent\_ws\]
     -   Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\]
     -   Human Resources Scoped App: Employee Relations \[com.sn\_hr\_employee\_relations\]
--   Activate the Knowledge Assist skill from the Now Assist Admin console.
+-   Activate the KB generation skill from the Now Assist Admin console. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 Role required:
 
@@ -45,11 +46,11 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 1.  Navigate to **Workspaces** &gt; **HR Agent Workspace**.
 
-2.  Select the **Lists** icon \(![HR Workspace Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
 
 3.  Open an HR case in the **Close Complete** state.
 
-4.  Select the More Actions icon\( ![More actions icon](../reference/images/EllipsisIcon.png)\)
+4.  Select the More Actions icon\( \[Omitted image "EllipsisIcon.png"\] Alt text: More actions icon\)
 
 5.  Select **Create Knowledge**.
 
@@ -59,15 +60,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 7.  Select one of the following in the **Use AI to draft this article?** modal.
 
-<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d381929e227">
+<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d389655e242">
 
 Option
 
-</th><th align="left" id="d381929e230">
+</th><th align="left" id="d389655e245">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d381929e236">
+</th></tr></thead><tbody><tr><td id="d389655e251">
 
 **Yes, draft with Now Assist**
 
@@ -75,7 +76,7 @@ Description
 
 Use Now Assist to draft an article based on task details.You can review and edit the article before it is published.
 
-</td></tr><tr><td id="d381929e247">
+</td></tr><tr><td id="d389655e262">
 
 **No, write it myself**
 
@@ -93,40 +94,40 @@ Draft the article manually.
 10. View, save, or publish the article by using the UI actions on the screen.
 
 
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\) in Agent Workspace](../concept/use-now-assist-hr.md)
+**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)](now-assist-hrsd-chat.md)
+[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using Now Assist for HRSD](sidebar-discussion-nahr.md)
+[Summarize a Sidebar discussion by using Now Assist for HRSD]()
 
-[Generate a chat reply recommendation by using Now Assist for HRSD](chat-recommendations-nahr.md)
+[Generate a chat reply recommendation by using Now Assist for HRSD]()
 
-[Generate a knowledge article from multiple cases](gen-kb-now-assisthr-multi-case.md)
+[Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation using Now Assist for HRSD](email-recommendation-nahr.md)
+[Generate an email reply recommendation using Now Assist for HRSD]()
 
-[Summarize an HR case using Now Assist for HRSD](now-assist-hrsd-summarize-case.md)
+[Summarize an HR case using Now Assist for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD](now-assist-hrsd-res-note.md)
+[Generate resolution notes using Now Assist for HRSD]()
 
-[View employee summary reports](../../td-leader-hub/task/employee-summary-lh.md)
+[View employee summary reports]()
 
-[Summarize actions while transferring an HR case](tcase-now-assist-hr.md)
+[Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD](na-kb-graph.md)
+[Use Knowledge Graph in Now Assist for HRSD]()
 
-[Use Now Assist for HR - Galileo Inside to answer HR-related questions](use-galileo-inside.md)
+[Use Now Assist for HR - Galileo Inside to answer HR-related questions]()
 
-[Use the Now Assist panel in HR Agent Workspace](now-assist-panel-hr.md)
+[Use the Now Assist panel in HR Agent Workspace]()
 
-[Submit an HR request with Gen AI Virtual Agent](use-genai-hrsd.md)
+[Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](../concept/integ-now-assist-hrsd.md)
+[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)](analyze-sentiments-now-assist.md)
+[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
 
-[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)
+[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-knowledge-management.md)
 

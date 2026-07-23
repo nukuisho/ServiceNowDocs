@@ -1,7 +1,8 @@
 ---
 title: CSDM Data Modeling
-description: This accelerator provides a demonstration of the possibilities and capabilities of CSDM Data Modeling.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of CSDM Data Modeling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/csdm-data-modeling.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -9,22 +10,24 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [CSDM, Common Service Data Model, Data Modeling, CMDB, Data Architecture]
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # CSDM Data Modeling
 
-This accelerator provides a demonstration of the possibilities and capabilities of CSDM Data Modeling.
+This Accelerator provides a demonstration of the possibilities and capabilities of CSDM Data Modeling.
 
 ## Accelerator Overview
 
 CSDM Data Modeling helps Impact customers build a solid understanding of the ServiceNow platform data model \(CSDM\) and teaches them how to properly model their data, so it aligns with the framework's standardized structure. By learning how to map and relate their information correctly, customers gain clearer service visibility, stronger governance, and a more scalable foundation for future platform capabilities. This offering also provides key resources and leading practices to get started with modeling your data to align to the ServiceNow platform successfully.
 
-**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
+## Package Availability
+
+**Note:** This Accelerator is available for the Impact Total package.
 
 ## Prerequisites
 
-Customers are strongly encouraged to complete [Jumpstart Your CSDM: Foundation](jumpstart-csdm.md), [TuneUp Your CMDB](tuneup-your-cmdb.md), and [CSDM Maturity Assessment](csdm-maturity-assessment.md) prior to taking this accelerator to ensure foundational and configuration data population and an understanding of organizational maturity.
+Customers are strongly encouraged to complete [Jumpstart Your CSDM: Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md), [TuneUp Your CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md), and [CSDM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/csdm-maturity-assessment.md) prior to taking this accelerator to ensure foundational and configuration data population and an understanding of organizational maturity.
 
 ## What You Get
 

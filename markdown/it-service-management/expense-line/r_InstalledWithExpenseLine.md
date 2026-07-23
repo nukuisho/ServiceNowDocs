@@ -2,6 +2,7 @@
 title: Components installed with Expense Line
 description: Several types of components are installed with the Expense Line plugin.Tables are added with activation of Expense Line.Roles are added with activation of Expense Line.Script includes are added with activation of Expense Line.Client scripts are added with activation of Expense Line.Business rules are added with activation of Expense Line.Domain separation is unsupported in Expense Line processing. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/r\_InstalledWithExpenseLine.html
 release: australia
 product: Expense Line
 classification: expense-line
@@ -15,16 +16,16 @@ breadcrumb: [Expense Line, IT Service Management]
 
 Several types of components are installed with the Expense Line plugin.
 
-**Parent Topic:**[Expense Line](../../asset-and-configuration/concept/c_ExpenseLine.md)
+**Parent Topic:**[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLine.md)
 
 **Related topics**  
 
 
-[View an expense](../../asset-and-configuration/task/t_ExpenseLinesExample.md)
+[View an expense]()
 
-[Expense lines and expense allocations](../concept/c_ExpenseLinesAndAllocations.md)
+[Expense lines and expense allocations]()
 
-[Domain separation and Expense Line](../concept/domain-separation-expense-line.md)
+[Domain separation and Expense Line]()
 
 ## Tables installed with Expense Line
 

@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Virtual Agent notifications, requisition notifications, hiring manager notifications, recruiter notifications, chat notifications]
 ---
 
 # Virtual Agent notifications
@@ -55,7 +56,7 @@ You can also:
 
 The Virtual Agent notifications feature is only available with the Microsoft Teams.
 
-For more information on setting up Virtual Agent with Microsoft Teams, see [Configure Virtual Agent notifications in Microsoft Teams](../task/config-va-ta.md).
+For more information on setting up Virtual Agent with Microsoft Teams, see [Configure Virtual Agent notifications in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-va-ta.md).
 
-**Parent Topic:**[Notifications in Hiring Experiences](notifications-ta.md)
+**Parent Topic:**[Notifications in Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/notifications-ta.md)
 

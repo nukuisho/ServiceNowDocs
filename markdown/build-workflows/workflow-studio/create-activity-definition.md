@@ -2,6 +2,7 @@
 title: Create an activity definition
 description: Specify the action or subflow you want an activity to run. Configure the inputs you want playbook designers to set when adding the activity to a playbook. Select the experience you want end users to have when the activity runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-activity-definition.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Specify the action or subflow you want an activity to run. Configure the inputs 
 
 ## Before you begin
 
--   Create a Workflow Studio [subflow](../../flow-designer/task/create-subflow.md) or [action](../../flow-designer/task/create-action.md) that you want to use as the automation plan for your activity. For example, see [Create an action as an activity automation plan](create-automation-plan.md).
+-   Create a Workflow Studio [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md) or [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md) that you want to use as the automation plan for your activity. For example, see [Create an action as an activity automation plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-automation-plan.md).
 -   Make sure to set your current application to the application that you want your activity to run in. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 -   Role required: admin, playbook.admin, or pd\_content\_author
 
@@ -26,20 +27,20 @@ Specify the action or subflow you want an activity to run. Configure the inputs 
 1.  To start creating a new activity definition, do one of the following:
 
     -   Navigate to **Process Automation** &gt; **Process Automation Administration** &gt; **Activity Definitions**. Then in the context header, click **New**.
-    -   Follow the steps to [Create a playbook](create-process-definition.md). Then in the Playbooks activity design space, click **Add an activity** &gt; **Create a new activity**.
+    -   Follow the steps to [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md). Then in the Playbooks activity design space, click **Add an activity** &gt; **Create a new activity**.
     The Activity Definition form view appears.
 
 2.  Fill in the Activity Definition form fields.
 
-<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d176464e170">
+<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d180038e162">
 
 Field
 
-</th><th align="left" id="d176464e173">
+</th><th align="left" id="d180038e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d176464e179">
+</th></tr></thead><tbody><tr><td id="d180038e171">
 
 **Label**
 
@@ -49,7 +50,7 @@ Enter a unique name for your activity.
 
  This name appears in the playbook in both the Workflow Studio Playbooks builder as well as during playbook runtime.
 
-</td></tr><tr><td id="d176464e206">
+</td></tr><tr><td id="d180038e198">
 
 **Table**
 
@@ -57,9 +58,9 @@ Enter a unique name for your activity.
 
 Select a table whose records the activity can access as inputs. When adding inputs to your activity in the Workflow Studio Playbooks builder, you can dot-walk to dynamic record data from this table. See [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
 
- **Note:** The table specified for a playbook's triggering input record overrides the activity definition table at design time. See [Triggers](../concept/process-automation-designer-triggers.md)
+ **Note:** The table specified for a playbook's triggering input record overrides the activity definition table at design time. See [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 
-</td></tr><tr><td id="d176464e250">
+</td></tr><tr><td id="d180038e242">
 
 **Description**
 
@@ -67,7 +68,7 @@ Select a table whose records the activity can access as inputs. When adding inpu
 
 Optionally, enter some descriptive details about your activity.
 
-</td></tr><tr><td id="d176464e259">
+</td></tr><tr><td id="d180038e251">
 
 **Accessible From**
 
@@ -77,18 +78,18 @@ Choose one of the following options:-   **All application scopes** - You can add
 -   **This application scope only** - You can only add this activity to playbooks within the same application scope specified in the **Application** field.
 
 
-</td></tr><tr><td id="d176464e288">
+</td></tr><tr><td id="d180038e280">
 
 **Required Roles**
 
 </td><td>
 
-Add roles that are allowed to access activities that use this activity definition. ![Required roles field in an activity definition](../images/required-roles-activity-def.png)
+Add roles that are allowed to access activities that use this activity definition. \[Omitted image "required-roles-activity-def.png"\] Alt text: Required roles field in an activity definition
 
 **Note:** Users who can view the playbook but who do not have the required role to access activities with this activity definition will have a read-only view of these activities.
 
 </td></tr></tbody>
-</table>3.  Under the Automation Plan section next to the **Flow or Action** field, click the lookup documents using list icon \(![Lookup documents using list icon](../../flow-designer/images/lookup-using-list-icon.png)\).
+</table>3.  Under the Automation Plan section next to the **Flow or Action** field, click the lookup documents using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup documents using list icon\).
 
     The Select the document screen appears.
 
@@ -98,7 +99,7 @@ Add roles that are allowed to access activities that use this activity definitio
     -   To use a Workflow Studio action to automate your activity, select **Action Type**.
     **Note:** You can only use published actions or subflows for an activity definition's automation plan.
 
-5.  Next to the **Document** field, click the lookup documents using list icon \(![Lookup documents using list icon](../../flow-designer/images/lookup-using-list-icon.png)\).
+5.  Next to the **Document** field, click the lookup documents using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup documents using list icon\).
 
     The Flows or Action Types screen appears.
 
@@ -108,7 +109,7 @@ Add roles that are allowed to access activities that use this activity definitio
 
 8.  From the list, select an UI Layout for the properties and components that you want your activity to use when it renders in a user-facing view of your playbook.
 
-    For more information, see [UI Layouts](../concept/experience-types.md).
+    For more information, see [UI Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/experience-types.md).
 
 9.  Click **Submit** to save and create your activity definition record.
 
@@ -138,7 +139,7 @@ Add roles that are allowed to access activities that use this activity definitio
 
 14. Select the Activity Experience tab.
 
-15. Next to the **UI Layout** field, select the list icon \(![Lookup documents using list icon](../../flow-designer/images/lookup-using-list-icon.png)\).
+15. Next to the **UI Layout** field, select the list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup documents using list icon\).
 
     The Activity UI Layouts list appears.
 
@@ -148,15 +149,15 @@ Add roles that are allowed to access activities that use this activity definitio
 
 18. Under the Associated Record section, select values for the **Associated table** and **Associated record** fields.
 
-    These values are typically Record and Table Name outputs for the Workflow Studio subflow or action specified in your activity's automation plan. For example, you can click the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon-01.png)\) next to the **Associated record** field and dot-walk to the Table Name output by selecting **VL** &gt; **Add Comment** &gt; **Outputs** &gt; **task** &gt; **Approval**.
+    These values are typically Record and Table Name outputs for the Workflow Studio subflow or action specified in your activity's automation plan. For example, you can click the data pill picker icon \(\[Omitted image "data-pill-picker-icon-01.png"\] Alt text: Data pill picker icon\) next to the **Associated record** field and dot-walk to the Table Name output by selecting **VL** &gt; **Add Comment** &gt; **Outputs** &gt; **task** &gt; **Approval**.
 
     The system associates a record with your activity so that, when the activity runs, it knows which record's data to output.
 
-    ![Use the data pill picker to add an associated table and record to your activity definition.](../images/add-associated-table-activity-def-demo.gif)
+    \[Omitted image "add-associated-table-activity-def-demo.gif"\] Alt text: Use the data pill picker to add an associated table and record to your activity definition.
 
 19. If you want to set up the default activity data that renders in your playbook during runtime, enter the values for that data in the other sections under Activity Experience.
 
-    The sections and fields that appear under Activity Experience vary depending on the UI Layout that you select. For more information, see [UI Layouts](../concept/experience-types.md).
+    The sections and fields that appear under Activity Experience vary depending on the UI Layout that you select. For more information, see [UI Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/experience-types.md).
 
 20. Click **Update** to finish creating your activity definition.
 
@@ -165,12 +166,12 @@ Add roles that are allowed to access activities that use this activity definitio
 
 You can now select your custom activity from the activity picker in the Workflow Studio Playbooks design environment. Select the appropriate application scope for your activity to view it in the picker.
 
-**Parent Topic:**[Activity definitions](../concept/activity-definitions.md)
+**Parent Topic:**[Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md)
 
 **Related topics**  
 
 
-[Create an action as an activity automation plan](create-automation-plan.md)
+[Create an action as an activity automation plan]()
 
-[UI Layouts](../concept/experience-types.md)
+[UI Layouts]()
 

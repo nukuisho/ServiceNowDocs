@@ -2,13 +2,14 @@
 title: Connect Workplace Reservation Management with Zoom
 description: Establish connection between Zoom and Workplace Reservation Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/connect-rsv-mtm-with-zoom.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Connect Workplace Reservation Management with Zoom
@@ -29,7 +30,7 @@ Role required: admin
 
 1.  Setup Zoom to enable virtual meeting.
 
-    Refer to the Create a connected app in Zoom topic in [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zoom.md)
+    Refer to the Create a connected app in Zoom topic in [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-zoom.md)
 
     **Note:** While setting up zoom, ensure the following:
 
@@ -41,58 +42,58 @@ Role required: admin
         -   In **Recording**, select **View all users recordings \(recording:read:admin\)**
     .
 
-2.  [Setup OAuth connectivity between ServiceNow and Zoom](setup-connectivity-between-servicenow-and-zoom.md).
+2.  [Setup OAuth connectivity between ServiceNow and Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-zoom.md).
 
-3.  [Create connection and credential for Zoom](create-connection-and-credentials-for-zoom.md).
+3.  [Create connection and credential for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-connection-and-credentials-for-zoom.md).
 
 
-1.  [Setup OAuth connectivity between ServiceNow and Zoom](setup-connectivity-between-servicenow-and-zoom.md)  
+1.  [Setup OAuth connectivity between ServiceNow and Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-zoom.md)  
 Register Zoom with ServiceNow instance for OAuth authorization to get create virtual meetings and get recordings after a virtual meeting.
-2.  [Create connection and credential for Zoom](create-connection-and-credentials-for-zoom.md)  
+2.  [Create connection and credential for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-connection-and-credentials-for-zoom.md)  
 Setup connection and credentials alias for Zoom.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](../concept/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Reservation Management](install-wsd-reservation-mgmt.md)
+[Install Workplace Reservation Management]()
 
-[Add a workplace space for reservation](add-reservable-items.md)
+[Add a workplace space for reservation]()
 
-[Add a workplace room for reservation](add-workplace-rooms.md)
+[Add a workplace room for reservation]()
 
-[Configure a reservable module](config-reservable-module.md)
+[Configure a reservable module]()
 
-[Assign spaces to an area](add-neighbourhood-spaces-to-an-area.md)
+[Assign spaces to an area]()
 
-[Create a standard service](add-standard-services.md)
+[Create a standard service]()
 
-[Create a flexible service](add-flexible-service.md)
+[Create a flexible service]()
 
-[Create a workplace service to provide an extra service for a reservation](create-workplace-service-to-provide-extra-service.md)
+[Create a workplace service to provide an extra service for a reservation]()
 
-[Create a reservable view](create-a-reservable-view.md)
+[Create a reservable view]()
 
-[Create a user criteria record](create-user-criteria.md)
+[Create a user criteria record]()
 
-[Configure a reservable purpose](configure-reservable-purpose.md)
+[Configure a reservable purpose]()
 
-[Create a quick reservation time slot](add-reservable-time-slots.md)
+[Create a quick reservation time slot]()
 
-[Configure virtual meeting providers](configure-virtual-meeting-providers.md)
+[Configure virtual meeting providers]()
 
-[Configure Microsoft Teams as virtual meeting provider](configure-msteams-as-virtual-meeting-provider.md)
+[Configure Microsoft Teams as virtual meeting provider]()
 
-[Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md)
+[Connect Workplace Reservation Management with Microsoft Teams]()
 
-[Display permanent seat assignments on floor maps](display-permanent-seats-on-maps.md)
+[Display permanent seat assignments on floor maps]()
 
-[Display name of the person reserving a space](displayname-person-booking-rsv.md)
+[Display name of the person reserving a space]()
 
-[Manage check-in and check-out reservations](../concept/check-in-check-out-process.md)
+[Manage check-in and check-out reservations]()
 
-[Configure automatic check-in for reserved spaces](../concept/configure-rsv-check-in.md)
+[Configure automatic check-in for reserved spaces]()
 
-[Configure reservation multi-day settings in Reservable Module](../concept/rsv-config-rsv-mod-value.md)
+[Configure reservation multi-day settings in Reservable Module]()
 

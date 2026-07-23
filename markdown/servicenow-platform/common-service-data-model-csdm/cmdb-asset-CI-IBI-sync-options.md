@@ -2,11 +2,12 @@
 title: How life-cycle values for Asset, CI, and IBI are synchronized
 description: Your organization gains significant value from your ServiceNow AI Platform applications when you take advantage of the option to directly map legacy status values to CSDM life cycle stage and life cycle stage status values and auto-synchronize the values going forward.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-11"
 reading_time_minutes: 5
 breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -19,23 +20,23 @@ Your organization gains significant value from your ServiceNow AI Platform appli
 
 Any item that is provided as a service or sold to your customer is tracked as an Install Base Item \(IBI\). The Model category table associates Asset, CI, and IBI for the item.
 
--   **Synchronize between asset and IBI**
+-   **Synchronization between asset and IBI**
 
-    By default, the system syncs life-cycle values between asset and IBI using the CSDM **life cycle stage** and **life cycle stage status** life-cycle value pairs.
+    When the model category is configured as a product instance, the system synchronizes the life cycle values between asset and IBI using the CSDM **life cycle stage** and **life cycle stage status** life-cycle value pairs.
 
--   **Synchronize between asset and CI**
+-   **Synchronization between asset and CI**
 
-    When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your instance, synchronize between the asset and CI tables depends on the **csdm.lifecycle.sync.between.ci.and.asset.activated** system property setting:
+    When the **csdm.lifecycle.migration.activated** system property is set to true on your instance, synchronization between the asset and CI tables depends on the **csdm.lifecycle.sync.between.ci.and.asset.activated** system property setting:
 
+    -   When the property is set to false \(default\), synchronization occurs through the legacy **status** and **substatus** values.
     -   When the property is set to true, the system syncs the CSDM **life cycle stage** and **life cycle stage status** values directly. This option provides significant benefits to your organization.
 
         **Important:** The property is set to true when you select **Enable life cycle sync** on the Life cycle mappings list view.
 
-    -   When the property is set to false \(default\), synchronization occurs through the legacy **status** and **substatus** values.
 
 ## Life-cycle synchronization when the system property is set to false \(the default setting\)
 
-![Sync when the system property is false.](../image/csdm-lifecycle-sync-default.png)
+\[Omitted image "csdm-lifecycle-sync-default.png"\] Alt text: Sync when the system property is false.
 
 When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your instance and the **csdm.lifecycle.sync.between.ci.and.asset.activated** system property is set to false:
 
@@ -58,9 +59,9 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 
 ## Life-cycle synchronization when the system property is set to true
 
-![Sync when the system property is true or you select Enable life cycle sync on the Life cycle mappings list view.](../image/csdm-lifecycle-sync-activated.png)
+\[Omitted image "csdm-lifecycle-sync-activated.png"\] Alt text: Sync when the system property is true or you select Enable life cycle sync on the Life cycle mappings list view.
 
-When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your instance and the **csdm.lifecycle.sync.between.ci.and.asset.activated** system property is set to true \(or you select the select **Enable life cycle sync** on the Life cycle mapping table list page, as described in [Enabling life-cycle synchronization from legacy to asset](../../configuration-management/concept/csdm-life-cycle-standard-values.md#)\):
+When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your instance and the **csdm.lifecycle.sync.between.ci.and.asset.activated** system property is set to true \(or you select the select **Enable life cycle sync** on the Life cycle mapping table list page, as described in [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)\):
 
 -   **Synchronization of updates from asset to CI and IBI**
 
@@ -87,12 +88,12 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
     -   The **status** and **substatus** values of the asset are then synced with the associated CI.
     -   The **status** and **substatus** values of IBI are synced with the asset through the CSDM life-cycle value pairs.
 
-**Parent Topic:**[CSDM reference](../concept/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 
 **Related topics**  
 
 
-[Asset status values aligned to CSDM life cycle values](../../configuration-management/reference/csdm-lifecycle-map-csdm-to-asset.md)
+[Asset status values aligned to CSDM life cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-map-csdm-to-asset.md)
 
-[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/c_ManagingAssets.md)
+[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/c_ManagingAssets.md)
 

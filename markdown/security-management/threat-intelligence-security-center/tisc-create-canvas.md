@@ -2,6 +2,7 @@
 title: Creating an investigation canvas
 description: Create canvas to add observables from threat intelligence library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-canvas.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -125,14 +126,14 @@ Select the state of the canvas.
 17. Click **Duplicate** to duplicate the canvas data and nodes within the canvas.
 
 
-**Parent Topic:**[Working with Investigation Canvas](../concept/tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 
 **Related topics**  
 
 
-[Working with Actions on the Investigation Canvas](../concept/tisc-canvas-actions.md)
+[Working with Actions on the Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-canvas-actions.md)
 
-[Linking Canvas from a Case](tisc-link-canvas-from-case.md)
+[Linking Canvas from a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-link-canvas-from-case.md)
 
-[Creating a Case and Linking from Investigation Canvas](tisc-link-case.md)
+[Creating a Case and Linking from Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-link-case.md)
 

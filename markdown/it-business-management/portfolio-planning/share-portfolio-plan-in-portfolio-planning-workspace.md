@@ -2,6 +2,7 @@
 title: Share a portfolio plan with stakeholders
 description: Share your portfolio plan with stakeholders and other planning managers so that they have visibility into the plan's progress and start collaborating.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/share-portfolio-plan-in-portfolio-planning-workspace.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Share your portfolio plan with stakeholders and other planning managers so that 
 
 ## Before you begin
 
--   [Create a portfolio plan](create-portfolio-plan-in-portfolio-planning-workspace.md).
+-   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 -   Users or groups that you want to share the portfolio plan with must have the sn\_align\_core.ap\_read\_only or sn\_align\_core.apw\_user role to get the read or edit access to the portfolio plan respectively.
 
 Role required: sn\_align\_core.apw\_user or business\_stakeholder
@@ -35,11 +36,11 @@ When you share a portfolio plan with an individual user or a group, they can acc
 
 2.  From the list of portfolio plans, select one.
 
-3.  From the portfolio plan header in the Planning page, select the **Share portfolio plan** icon \(![Share portfolio plan with users and groups](../../alignment-planner-workspace/images/icon-share-pp.png)\).
+3.  From the portfolio plan header in the Planning page, select the **Share portfolio plan** icon \(\[Omitted image "icon-share-pp.png"\] Alt text: Share portfolio plan with users and groups\).
 
-    **Note:** Alternatively, you can select Share actions icon \(![Share actions of a portfolio plan.](../../alignment-planner-workspace/images/share-actions-pp.png)\) and then select **Copy link** to copy a direct link to the portfolio plan that you can share with other users. The link provides access only to users who already have the required permissions.
+    **Note:** Alternatively, you can select Share actions icon \(\[Omitted image "share-actions-pp.png"\] Alt text: Share actions of a portfolio plan.\) and then select **Copy link** to copy a direct link to the portfolio plan that you can share with other users. The link provides access only to users who already have the required permissions.
 
-    ![Copy link to share a portfolio plan.](../../alignment-planner-workspace/images/copy-link-portfolio-plan.png)
+    \[Omitted image "copy-link-portfolio-plan.png"\] Alt text: Copy link to share a portfolio plan.
 
 4.  On the Share portfolio plan form, select users to share the portfolio plan with and set their access appropriately.
 
@@ -61,20 +62,20 @@ The selected individual and group users are notified of the portfolio plan shari
 
 ## What to do next
 
-[Collaborate on portfolio plans](collaborate-on-portfolio-plans-in-portfolio-planning-workspace.md).
+[Collaborate on portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/collaborate-on-portfolio-plans-in-portfolio-planning-workspace.md).
 
 You can change the access level or remove access for a user or a group.
 
-1.  From the portfolio plan header, select Share actions icon \(![Share actions of a portfolio plan.](../../alignment-planner-workspace/images/share-actions-pp.png)\) and then select **Manage access**.
-2.  From the user or group card, select the Action Menu icon \(![Action menu icon.](../../alignment-planner-workspace/images/action-menu-icon.png)\).
+1.  From the portfolio plan header, select Share actions icon \(\[Omitted image "share-actions-pp.png"\] Alt text: Share actions of a portfolio plan.\) and then select **Manage access**.
+2.  From the user or group card, select the Action Menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Action menu icon.\).
 3.  Select the right access level or select **Remove**.
 
-**Parent Topic:**[Managing portfolio plans in Portfolio Planning](../concept/managing-portfolio-plans-in-portfolio-planning.md)
+**Parent Topic:**[Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
 
 **Related topics**  
 
 
-[Modify a portfolio plan](modify-portfolio-plan-in-portfolio-planning-workspace.md)
+[Modify a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/modify-portfolio-plan-in-portfolio-planning-workspace.md)
 
-[Show or hide the features for a portfolio plan](show-or-hide-the-features-for-your-portfolio-plan-ppw.md)
+[Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/show-or-hide-the-features-for-your-portfolio-plan-ppw.md)
 

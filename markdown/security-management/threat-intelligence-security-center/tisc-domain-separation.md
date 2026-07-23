@@ -2,6 +2,7 @@
 title: Domain separation and Threat Intelligence Security Center
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.Domain separation is supported for Threat Intelligence Security Center. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-domain-separation.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -34,7 +35,7 @@ Domain separation is enabled for all the features of Threat Intelligence Securit
 
 -   All the configuration related records that are provisioned in the base system are shipped in the global domain. In case the instance is domain separated, users would see an explicit button **Setup TISC** under the **Administration** module of the TISC workspace. Click on this button to clone the base system provisioned global domain configurations into the respective domains.
 
-    ![TISC Domain Separation](../image/tisc-domain-separation.png "Domain Separation")
+    \[Omitted image "tisc-domain-separation.png"\] Alt text: TISC Domain Separation
 
     **Note:** Users should only enable or modify domain specific configuration records and should not enable or modify configuration records in the global domain.
 

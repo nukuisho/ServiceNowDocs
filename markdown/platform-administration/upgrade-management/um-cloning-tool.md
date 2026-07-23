@@ -2,6 +2,7 @@
 title: Cloning tool in Upgrade Console
 description: Utilize the System Clone application to duplicate an entire database from one instance to another. This cloning process, commonly employed to replicate a production instance for pre-production testing, leverages the latest nightly backup as the data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-cloning-tool.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -22,24 +23,24 @@ You can achieve the following using the System Clone tool:
 -   Clone a ServiceNow instance from a backup.
 -   Clone a ServiceNow instance over a production instance.
 
-See [Exploring Instance Clone](../../managing-data/concept/exploring-instance-clone.md) for more information.
+See [Exploring Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-instance-clone.md) for more information.
 
-**Parent Topic:**[Upgrade Console tools](../reference/um-tools.md)
+**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-tools.md)
 
 **Related topics**  
 
 
-[ATF Test Generator and Cloud Runner tool in Upgrade Console](um-atf-tool.md)
+[ATF Test Generator and Cloud Runner tool in Upgrade Console]()
 
-[Upgrade History tool in Upgrade Console](um-upgrade-history-tool.md)
+[Upgrade History tool in Upgrade Console]()
 
-[Upgrade Monitor tool in Upgrade Console](um-upgrade-monitor-tool.md)
+[Upgrade Monitor tool in Upgrade Console]()
 
-[Now Support in Upgrade Console](um-now-support.md)
+[Now Support in Upgrade Console]()
 
-[Upgrade Preview tool in Upgrade Console](um-upgrade-preview-tool.md)
+[Upgrade Preview tool in Upgrade Console]()
 
-[Upgrade Skipped Record Rules Editor tool in Upgrade Console](um-skipped-rules-tool.md)
+[Upgrade Skipped Record Rules Editor tool in Upgrade Console]()
 
-[Upgrade Plans tool in Upgrade Console](um-upgrade-plans-tool.md)
+[Upgrade Plans tool in Upgrade Console]()
 

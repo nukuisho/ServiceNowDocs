@@ -2,13 +2,14 @@
 title: Display permanent seat assignments on floor maps
 description: Display permanent space assignments along with employee names on maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-04-06"
 reading_time_minutes: 8
-breadcrumb: [Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Display permanent seat assignments on floor maps
@@ -58,7 +59,7 @@ Role required: admin
         -   General request \(Order something\)
 3.  On the Make a reservation page, perform the following steps:
 
-    For more information about how to make a reservation or update an existing reservation, see [Create a reservation](create-reservation-request-1.md).
+    For more information about how to make a reservation or update an existing reservation, see [Create a reservation]().
 
     1.  Select a location and building.
 
@@ -70,7 +71,7 @@ Role required: admin
 
     5.  Zoom in to display spaces.
 
-    6.  On the map, select the **gear settings icon \(![gear settings to display the map setting options](../../workplace-safety-mgmt/images/wsd-gear-settings-icon.png)\)**.
+    6.  On the map, select the **gear settings icon \(\[Omitted image "wsd-gear-settings-icon.png"\] Alt text: gear settings to display the map setting options\)**.
 
     7.  Enable the **Display employees permanent seat assignments on floor maps** toggle button.
 
@@ -86,7 +87,7 @@ Role required: admin
 
     2.  Zoom in to see spaces or permanent seating assignments for employees.
 
-    3.  On the map, select the **gear settings icon \(![gear settings to display the map setting options](../../workplace-safety-mgmt/images/wsd-gear-settings-icon.png)\)**.
+    3.  On the map, select the **gear settings icon \(\[Omitted image "wsd-gear-settings-icon.png"\] Alt text: gear settings to display the map setting options\)**.
 
     4.  Enable the **Display employees permanent seat assignments on floor maps** toggle button.
 
@@ -105,7 +106,7 @@ Role required: admin
 
     2.  Complete the steps for a move request.
 
-        For more information, see [Raise a move request for a space change](../../workplace-move-mgmt/task/request-desk-change.md).
+        For more information, see [Raise a move request for a space change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-desk-change.md).
 
     3.  Select the **Find the space on a floor map** link.
 
@@ -113,7 +114,7 @@ Role required: admin
 
     5.  Zoom in and select a space.
 
-    6.  On the map, select the **gear settings icon \(![gear settings to display the map setting options](../../workplace-safety-mgmt/images/wsd-gear-settings-icon.png)\)**.
+    6.  On the map, select the **gear settings icon \(\[Omitted image "wsd-gear-settings-icon.png"\] Alt text: gear settings to display the map setting options\)**.
 
     7.  Enable the **Display employees permanent seat assignments on floor maps** toggle button.
 
@@ -123,7 +124,7 @@ Role required: admin
 
     2.  Complete the steps for ordering furniture or equipment.
 
-        For more information, see [Request furniture for a space](../../workplace-case-mgmt/task/request-furniture.md).
+        For more information, see [Request furniture for a space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-furniture.md).
 
     3.  Select the **Find the space on a floor map** link.
 
@@ -131,7 +132,7 @@ Role required: admin
 
     5.  Zoom in and select a space.
 
-    6.  On the map, select the **gear settings icon \(![gear settings to display the map setting options](../../workplace-safety-mgmt/images/wsd-gear-settings-icon.png)\)**.
+    6.  On the map, select the **gear settings icon \(\[Omitted image "wsd-gear-settings-icon.png"\] Alt text: gear settings to display the map setting options\)**.
 
     7.  Enable the **Display employees permanent seat assignments on floor maps** toggle button.
 
@@ -141,7 +142,7 @@ Role required: admin
 
     2.  Complete the steps for submitting a general workplace service request.
 
-        For more information, see [Raise help request for a workplace inquiry](../../workplace-case-mgmt/task/submit-gen-workplace-serv-req.md).
+        For more information, see [Raise help request for a workplace inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/submit-gen-workplace-serv-req.md).
 
     3.  Select the **Find the space on a floor map** link.
 
@@ -149,7 +150,7 @@ Role required: admin
 
     5.  Zoom in and select a space.
 
-    6.  On the map, select the **gear settings icon \(![gear settings to display the map setting options](../../workplace-safety-mgmt/images/wsd-gear-settings-icon.png)\)**.
+    6.  On the map, select the **gear settings icon \(\[Omitted image "wsd-gear-settings-icon.png"\] Alt text: gear settings to display the map setting options\)**.
 
     7.  Enable the **Display employees permanent seat assignments on floor maps** toggle button.
 
@@ -161,59 +162,59 @@ Role required: admin
 
     2.  To make a reservation, enter the required information.
 
-        For more information, see [Set a location as favorite using the Space details page](set-a-location-as-favorite.md).
+        For more information, see [Set a location as favorite using the Space details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/set-a-location-as-favorite.md).
 
     3.  Select **Map view**.
 
-    4.  On the map, select the **gear settings icon \(![gear settings to display the map setting options](../../workplace-safety-mgmt/images/wsd-gear-settings-icon.png)\)**.
+    4.  On the map, select the **gear settings icon \(\[Omitted image "wsd-gear-settings-icon.png"\] Alt text: gear settings to display the map setting options\)**.
 
     5.  Enable the **Display employees permanent seat assignments on floor maps** toggle button.
 
         Employee names along with their assigned seats are displayed for a selected space.
 
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](../concept/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Reservation Management](install-wsd-reservation-mgmt.md)
+[Install Workplace Reservation Management]()
 
-[Add a workplace space for reservation](add-reservable-items.md)
+[Add a workplace space for reservation]()
 
-[Add a workplace room for reservation](add-workplace-rooms.md)
+[Add a workplace room for reservation]()
 
-[Configure a reservable module](config-reservable-module.md)
+[Configure a reservable module]()
 
-[Assign spaces to an area](add-neighbourhood-spaces-to-an-area.md)
+[Assign spaces to an area]()
 
-[Create a standard service](add-standard-services.md)
+[Create a standard service]()
 
-[Create a flexible service](add-flexible-service.md)
+[Create a flexible service]()
 
-[Create a workplace service to provide an extra service for a reservation](create-workplace-service-to-provide-extra-service.md)
+[Create a workplace service to provide an extra service for a reservation]()
 
-[Create a reservable view](create-a-reservable-view.md)
+[Create a reservable view]()
 
-[Create a user criteria record](create-user-criteria.md)
+[Create a user criteria record]()
 
-[Configure a reservable purpose](configure-reservable-purpose.md)
+[Configure a reservable purpose]()
 
-[Create a quick reservation time slot](add-reservable-time-slots.md)
+[Create a quick reservation time slot]()
 
-[Configure virtual meeting providers](configure-virtual-meeting-providers.md)
+[Configure virtual meeting providers]()
 
-[Configure Microsoft Teams as virtual meeting provider](configure-msteams-as-virtual-meeting-provider.md)
+[Configure Microsoft Teams as virtual meeting provider]()
 
-[Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md)
+[Connect Workplace Reservation Management with Microsoft Teams]()
 
-[Connect Workplace Reservation Management with Zoom](connect-rsv-mtm-with-zoom.md)
+[Connect Workplace Reservation Management with Zoom]()
 
-[Display name of the person reserving a space](displayname-person-booking-rsv.md)
+[Display name of the person reserving a space]()
 
-[Manage check-in and check-out reservations](../concept/check-in-check-out-process.md)
+[Manage check-in and check-out reservations]()
 
-[Configure automatic check-in for reserved spaces](../concept/configure-rsv-check-in.md)
+[Configure automatic check-in for reserved spaces]()
 
-[Configure reservation multi-day settings in Reservable Module](../concept/rsv-config-rsv-mod-value.md)
+[Configure reservation multi-day settings in Reservable Module]()
 

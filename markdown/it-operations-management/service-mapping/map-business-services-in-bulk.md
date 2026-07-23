@@ -2,6 +2,7 @@
 title: Map multiple application services suggested by classic Service Mapping
 description: You can map multiple application services identified and suggested by Service Mapping in a single operation. This method suits your organization if you do not have much information about application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/map-business-services-in-bulk.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -58,9 +59,9 @@ You can remove the unwanted candidates from the list using these methods either 
 
     If some obligatory configurations are missing, the error displays at the top of the window.
 
-    1.  Click the link in the error or click the **Readiness Checklist** icon \(![Readiness Checklist icon](../image/ReadinessChecklistErrorIcon.png)\).
+    1.  Click the link in the error or click the **Readiness Checklist** icon \(\[Omitted image "ReadinessChecklistErrorIcon.png"\] Alt text: Readiness Checklist icon\).
 
-    2.  In the Service Mapping Readiness Checklist window, click the link next to the setup category with the error icon \(![Error icon](../image/BulkMappingSetupErrorIcon.png)\).
+    2.  In the Service Mapping Readiness Checklist window, click the link next to the setup category with the error icon \(\[Omitted image "BulkMappingSetupErrorIcon.png"\] Alt text: Error icon\).
 
         You cannot perform discovery and mapping unless there are no errors in the Readiness Checklist window.
 
@@ -78,7 +79,7 @@ You can remove the unwanted candidates from the list using these methods either 
 
     3.  Display candidates based on traffic-based connections, remove the condition that filters out candidates retrieved from load balancers or imported from a CSV file.
 
-        ![Display service instance candidates based on traffic-based connections](../image/BSCandidatesDisplayNetstat.png)
+        \[Omitted image "BSCandidatesDisplayNetstat.png"\] Alt text: Display service instance candidates based on traffic-based connections
 
         The candidate list shows candidates with the source attribute **netstat**.
 
@@ -126,10 +127,10 @@ If you want to create application services only from several candidates
 
 ## What to do next
 
--   If the connection suggestions feature is enabled, Service Mapping does not automatically add any traffic-based connections to application services, providing suggestions instead. [Add or remove CIs for multiple application services using connection suggestions](manipulate-connections-suggestions-in-bulk.md).
--   Fix application services discovered with errors. For more information, see [Fix application service errors in bulk](fix-bus-serv-errors-by-category.md).
--   Review the list of created application services. If Service Mapping did not create some application services during bulk mapping as you expected, create them manually as described in [Map a single application service using classic Service Mapping](t_DefineNewBusinessService.md).
--   Send application services discovered without errors to their respective owners for approval. For more information, see [Send application service maps for review](send-business-service-for-review.md).
+-   If the connection suggestions feature is enabled, Service Mapping does not automatically add any traffic-based connections to application services, providing suggestions instead. [Manage CI connections for multiple services using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md).
+-   Fix application services discovered with errors. For more information, see [Fix application service errors in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-bus-serv-errors-by-category.md).
+-   Review the list of created application services. If Service Mapping did not create some application services during bulk mapping as you expected, create them manually as described in [Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md).
+-   Send application services discovered without errors to their respective owners for approval. For more information, see [Send application service maps for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/send-business-service-for-review.md).
 -   Make sure that the service instances aren't too large:
 
     -   Service Mapping doesn't offer to view CI list instead of a map for a service instance.
@@ -137,33 +138,33 @@ If you want to create application services only from several candidates
     If some application services are too large, resolve the service size issue:
 
     -   If you use customized discovery patterns and mapping results in very large service instances, modify the patterns so that they don't map irrelevant CIs.
-    -   [Split the service into smaller services](add-segment-to-business-service-map.md).
+    -   [Split the service into smaller services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-segment-to-business-service-map.md).
 
--   **[Add or remove CIs for multiple application services using connection suggestions](manipulate-connections-suggestions-in-bulk.md)**  
+-   **[Manage CI connections for multiple services using suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/manipulate-connections-suggestions-in-bulk.md)**  
 If the discovery based on Predictive Intelligence is enabled, the newly mapped application services include only CIs and CI connections added by discovery patterns. Use connection suggestions to decide which configuration items \(CIs\) to include or exclude globally. Service Mapping then updates all relevant discovered application services to reflect your decisions.
--   **[Add CIs to multiple application services using connection rules](add-cis-connection-rules-multiple.md)**  
+-   **[Add CIs to application services using connection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-cis-connection-rules-multiple.md)**  
 Create rules for automatically adding traffic-based connections and the CIs they lead to in discovered service instances. Create rules that add CIs to multiple application services.
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](../concept/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 
 **Related topics**  
 
 
-[Map application services using tags with classic Service Mapping](map-service-tag.md)
+[Map application services using tags with classic Service Mapping]()
 
-[Map multiple application services from a CSV file using classic Service Mapping](import-business-services-csv.md)
+[Map multiple application services from a CSV file using classic Service Mapping]()
 
-[Map a single application service using classic Service Mapping](t_DefineNewBusinessService.md)
+[Map a single application service using classic Service Mapping]()
 
-[Fix application service errors in bulk](fix-bus-serv-errors-by-category.md)
+[Fix application service errors in bulk]()
 
-[Fix errors in individual application service maps](fix-or-ignore-errors-business-service-map.md)
+[Fix errors in individual application service maps]()
 
-[Review and approval of application service maps](business-service-approval.md)
+[Review and approval of application service maps]()
 
-[Fine-tune application services to implement owner requests](review-implement-business-service-maps.md)
+[Fine-tune application services to implement owner requests]()
 
-[Application service completion](../concept/advanced-business-service-definitions.md)
+[Application service completion]()
 
-[Application service analysis and maintenance using classic Service Mapping](../concept/c_SvcPlanningAndAnalysisUsingMaps.md)
+[Application service analysis and maintenance using classic Service Mapping]()
 

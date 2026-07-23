@@ -2,6 +2,7 @@
 title: Install Sourcing and Procurement Operations
 description: Install Sourcing and Procurement Operations and its dependent applications from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -55,7 +56,7 @@ Install the following applications in the suggested sequence to get started with
     **Note:** This application is owned by the Field Service Management team.
 
 
-For more information on these applications and their dependencies, see [Application plugin installation sequence in Sourcing and Procurement Operations](../reference/application-plugin-list.md).
+For more information on these applications and their dependencies, see [Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md).
 
 ## Procedure
 
@@ -63,7 +64,7 @@ For more information on these applications and their dependencies, see [Applicat
 
 2.  In the search bar, use the filter criteria to find the application.
 
-    You can search for the application by its name or ID. If you can't find an application, you can request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID. If you can't find an application, you can request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select **Install**.
 
@@ -84,38 +85,40 @@ For more information on these applications and their dependencies, see [Applicat
 
 Review the various components installed with these installations. For details, see:
 
--   [Components installed with Sourcing and Procurement Operations](../reference/installed-with-FSC.md)
--   [Components installed with ERP Integration Framework](../reference/installed-with-FSC-ERP.md)
--   [Components installed with Finance Common Architecture](../reference/installed-with-finance-common.md)
--   [Properties installed with Finance Common Architecture](../reference/properties-for-finance-common.md)
+-   [Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md)
+-   [Components installed with ERP Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/installed-with-FSC-ERP.md)
+-   [Components installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/installed-with-finance-common.md)
+-   [Properties installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/properties-for-finance-common.md)
 
--   **[Components installed with Sourcing and Procurement Operations](../reference/installed-with-FSC.md)**  
+-   **[Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md)**  
 Several types of components are installed with the activation of Sourcing and Procurement Operations, including tables, user roles, and scheduled jobs.
--   **[Properties installed with Finance Common Architecture](../reference/properties-for-finance-common.md)**  
+-   **[Properties installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/properties-for-finance-common.md)**  
 Use these properties to configure various settings in the Sourcing and Procurement Operations application.
--   **[Application plugin installation sequence in Sourcing and Procurement Operations](../reference/application-plugin-list.md)**  
+-   **[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)**  
 The following table lists the Sourcing and Procurement Operations \(SPO\) plugins, their installation sequence, high-level descriptions, and dependencies.
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](../concept/configuring-spo.md)
+**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
-[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+[Setting up primary data for ShoppingHub]()
 
-[Configure punchout for third-party site purchases](configure-supplier-punchout.md)
+[Configure punchout for third-party site purchases]()
 
-[Configuring work prioritization](../concept/configuring-work-prioritization.md)
+[Configuring work prioritization]()
 
-[Add a new button in Shopping Hub](add-new-button-shoppinghub.md)
+[Add a button in Shopping Hub]()
 
-[Customize your top suppliers on Shopping Hub](customize-top-suppliers.md)
+[Customize your top suppliers on Shopping Hub]()
 
-[Configure conditions for merging purchase requisitions](config-pr-merge.md)
+[Configure conditions for merging purchase requisitions]()
 
-[Service portal configuration for ShoppingHub](../concept/service-portal-configuration-for-shoppinghub.md)
+[Service portal configuration for ShoppingHub]()
 
-[Install ShoppingHub Mobile](install-shoppinghub-mobile.md)
+[Install ShoppingHub Mobile]()
 
-[Advanced Work Assignment for Source-to-Pay Operations](../concept/awa-spo.md)
+[Advanced Work Assignment for Source-to-Pay Operations]()
+
+[Install Universal Request for Sourcing and Procurement Operations]()
 

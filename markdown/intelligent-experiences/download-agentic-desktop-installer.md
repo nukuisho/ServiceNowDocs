@@ -2,6 +2,7 @@
 title: Download AI Desktop Actions installer
 description: Download the AI Desktop Actions installer so that you can install AI Desktop Actions on your Windows machine for designing and running desktop actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/download-agentic-desktop-installer.html
 release: australia
 topic_type: task
 last_updated: "2025-11-02"
@@ -33,9 +34,9 @@ Role required: Windows administrator
 
 2.  In the AI Desktop Actions Downloads page, do any of the following actions to download the required application for Windows:
 
-    -   Select the download icon \(![](../../rpa-hub/image/rpa-hub-download-icon.png)\).
-    -   Select the copy link \(![](../../rpa-hub/image/rpa-hub-copyurl-icon.png)\). In a browser, right-click and select the **paste and go** option.
-    ![Downloads page for downloading AI Desktop Actions installer.](../image/agentic-desktop-download-msi.png)
+    -   Select the download icon \(\[Omitted image "rpa-hub-download-icon.png"\] Alt text:\).
+    -   Select the copy link \(\[Omitted image "rpa-hub-copyurl-icon.png"\] Alt text:\). In a browser, right-click and select the **paste and go** option.
+    \[Omitted image "agentic-desktop-download-msi.png"\] Alt text: Downloads page for downloading AI Desktop Actions installer.
 
     The system might prompt you to save or open the file.
 
@@ -49,13 +50,13 @@ Role required: Windows administrator
 
 5.  Keep the option **Enable Remote Desktop access for the logged-in user** selected to automatically add the logged-in user to the Remote Desktop Users group.
 
-    ![AI Desktop Actions Setup welcome screen.](../image/ad-set-up-remote-user.png)
+    \[Omitted image "ad-set-up-remote-user.png"\] Alt text: AI Desktop Actions Setup welcome screen.
 
 6.  If not already installed, download and install the .Net Desktop Runtime framework.
 
-    The installer validates if required .NET Desktop Runtime is installed or not on the user machine. If not installed, the installer provides a link to instructions for downloading and installing the same. For more information, see [Download and install .Net Desktop Runtime for AI Desktop Actions](install-dot-network-framework-ad.md).
+    The installer validates if required .NET Desktop Runtime is installed or not on the user machine. If not installed, the installer provides a link to instructions for downloading and installing the same. For more information, see [Download and install .Net Desktop Runtime for AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-dot-network-framework-ad.md).
 
-    ![NET Desktop Runtime required screen.](../image/ad-set-up-dot-net-installation.png)
+    \[Omitted image "ad-set-up-dot-net-installation.png"\] Alt text: NET Desktop Runtime required screen.
 
 
 If AI Desktop Actions is not installed using Windows administrator privileges, you may encounter issues with the desktop session in the Execution workspace. To fix the issue, perform the following steps.
@@ -66,7 +67,7 @@ If AI Desktop Actions is not installed using Windows administrator privileges, y
 
 ## What to do next
 
-Use AI Desktop Actions to design desktop actions. For more information, see [Defined path desktop actions in AI Desktop Actions](../concept/desktop-actions-designer-workspace-ad.md).
+Use AI Desktop Actions to design desktop actions. For more information, see [Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md).
 
-**Parent Topic:**[Configuring AI Desktop Actions for defined path desktop actions](../concept/ad-defined-path-da.md)
+**Parent Topic:**[Configuring AI Desktop Actions for defined path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ad-defined-path-da.md)
 

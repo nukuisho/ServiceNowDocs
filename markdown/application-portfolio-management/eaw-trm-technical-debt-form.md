@@ -2,6 +2,7 @@
 title: TRM technical debt form
 description: The Technology Reference Model \(TRM\) technical debts that are created for the products that aren’t aligned with the TRM phases and standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-technical-debt-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -116,12 +117,12 @@ Last run
 Shows the timestamp when the custom scheduled job **Populate TRM technical debts in the EA Workspace** is run to update the table with technical debt.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[View TRM technical debts](../../task/eaw-task/view-trm-tech-debt.md)
+[View TRM technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-trm-tech-debt.md)
 
-[Manage TRM technical debt](../../concept/eaw-concept/eaw-manage-trm-technical-debt.md)
+[Manage TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md)
 

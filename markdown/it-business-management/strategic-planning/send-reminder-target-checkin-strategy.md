@@ -2,6 +2,7 @@
 title: Send a reminder for target actuals check in
 description: Send reminders to the target owner and contributors to ensure target check-ins are completed before the due date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/send-reminder-target-checkin-strategy.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -25,7 +26,7 @@ Sending the reminders to the contributor owner of the target helps them ensuring
 
 **Note:** Only the owner or contributors of the goal or target can send check-in reminders.
 
-![Send a reminder for target actuals check in.](../image/send-target-checkin-reminder.gif)
+\[Omitted image "send-target-checkin-reminder.gif"\] Alt text: Send a reminder for target actuals check in.
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Sending the reminders to the contributor owner of the target helps them ensuring
 
 2.  On the Strategy and Goals page, select the goal-based board for which your target belongs to.
 
-3.  Select the Row context menu icon \(![Row context menu icon.](../../alignment-planner-workspace/images/more-actions.png)\) of the target that you want to send a reminder and then select **Send reminder**.
+3.  Select the Row context menu icon \(\[Omitted image "more-actions.png"\] Alt text: Row context menu icon.\) of the target that you want to send a reminder and then select **Send reminder**.
 
 4.  On the Send target check-in reminder window, enter an optional message in the **Message** field to help users update the target actuals, then select **Send**.
 
@@ -45,11 +46,11 @@ Contributors are notified with a check‑in reminder to update the target actual
 **Related topics**  
 
 
-[Create a goal](create-goal-strategy.md)
+[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
 
-[Add a target for goal](set-target-for-goal-strategy.md)
+[Add a target for goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/set-target-for-goal-strategy.md)
 
-[Duplicate a goal or target](duplicate-goal-target-strategy.md)
+[Duplicate a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/duplicate-goal-target-strategy.md)
 
-[Align work with a goal or target](associate-work-with-goals-strategy.md)
+[Align work with a goal or target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/associate-work-with-goals-strategy.md)
 

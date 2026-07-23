@@ -2,13 +2,14 @@
 title: Data Management and Governance
 description: This Accelerator provides insights and guidance to assess and improve your data management and data governance practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/data-mgt-governance.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Data Management and Governance
@@ -19,7 +20,9 @@ This Accelerator provides insights and guidance to assess and improve your data 
 
 The Data Management and Governance Accelerator provides Impact Customers with a self-assessment, leading practice content, and advisory guidance for managing and governing the data in your ServiceNow implementation to achieve high levels of data quality.
 
-**Note:** This Accelerator is available in Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
 ## What You Get
 
@@ -32,7 +35,7 @@ The Data Management and Governance Accelerator provides Impact Customers with a 
         -   Data Governance
     -   Set expectations on process and depth of deliverable
     -   Communicate expectation for participation
-    -   Request the completion of an intake questionnaire, self-assessment, and any other necessary inputs \(See the [Requested Information Access](data-mgt-governance.md#requested-info) section for details.\)
+    -   Request the completion of an intake questionnaire, self-assessment, and any other necessary inputs \(See the [Requested Information Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/data-mgt-governance.md) section for details.\)
 -   **Customer Current State Working Session \(up to 120 minutes\)**
     -   Review the customer intake questionnaire and self-assessment
     -   Discuss the current state of the data management and data governance practices organized around the five pillars for data management
@@ -86,7 +89,7 @@ Customers must provide the following supporting documentation from their Service
 -   Define your data strategy
 -   Define your data design
 -   Define, document or both, of your data architecture
--   Assess or troubleshoot your CMDB \(Refer to the [TuneUp Your Configuration Management Database](tuneup-your-cmdb.md) Accelerator\)
+-   Assess or troubleshoot your CMDB \(Refer to the [TuneUp Your Configuration Management Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/tuneup-your-cmdb.md) Accelerator\)
 -   Assess or troubleshoot your implementation of the CSDM framework \(Refer to the  Accelerator\)
 -   Define your data and integrations with external systems or applications
 -   Assess or troubleshoot your data integrations

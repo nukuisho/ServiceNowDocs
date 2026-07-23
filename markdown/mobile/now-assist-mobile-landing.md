@@ -2,6 +2,7 @@
 title: Now Assist for Mobile
 description: Use ServiceNow Now Assist for Mobile platform to summarize case information, generate case resolution notes, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/now-assist-mobile-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -17,18 +18,18 @@ Use ServiceNow® Now Assist for Mobile platform to summarize case information, g
 
 <table id="table_agh_hpn_51c" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the generative AI skills available in Now Assist for Mobile.](exploring-now-assist-mobile.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in Now Assist for Mobile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/exploring-now-assist-mobile.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate Now Assist for Mobile and configure generative AI skills.](configuring-now-assist-mobile.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Now Assist for Mobile and configure generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Learn about the requester conversational experience.](using-now-assist-mobile.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn about the requester conversational experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
 
 </td></tr></tbody>
-</table>**Important:** Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+</table>**Important:** Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
 

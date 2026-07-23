@@ -2,11 +2,12 @@
 title: Activate Case Action Status
 description: Activate the Case Action Status application to use the case action status feature. You can install the Case Action Status application \(com.snc.csm\_action\_status\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-case-action-status.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activate Case Action Status
@@ -50,5 +51,5 @@ Case action status provides a Customer Service-specific application of the Actio
 **Related topics**  
 
 
-[Case action status](../concept/case-action-status-csm-workspace.md)
+[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-action-status-csm-workspace.md)
 

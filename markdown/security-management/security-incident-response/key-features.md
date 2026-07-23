@@ -2,6 +2,7 @@
 title: SIR Workspace features
 description: The Security Incident Response Workspace consists of the following key features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/key-features.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,23 +22,24 @@ The Security Incident Response Workspace consists of the following key features.
 -   Shift Handover Records section
 -   List view
 -   Multi-tab interface that supports opening multiple security incidents
+-   AI Search to find Security Incidents, Response Tasks, Observables, Security Requests, and Indicators of Compromise across the workspace. Filter results by State, Assigned to, Category, Severity, Finding, Type, Configuration Item, and Affected User. For more information about AI Search, see [AI Search](https://www.servicenow.com/docs/r/ai-search/ai-search).
 
-![SIR workspace key features](../image/key-features-section.png "SIR Workspace key features")
+\[Omitted image "key-features-section.png"\] Alt text: SIR workspace key features
 
-**Parent Topic:**[Exploring SIR Workspace](exploring-security-incident-response-workspace.md)
+**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
 
 **Related topics**  
 
 
-[SIR Workspace plugins](components-installed-with-analyst-workspace.md)
+[SIR Workspace plugins]()
 
-[SIR Workspace interface overview](overview.md)
+[SIR Workspace interface overview]()
 
-[Upcoming section](../task/upcoming-section.md)
+[Upcoming section]()
 
-[Quick links section](../concept/quick-links.md)
+[Quick links section]()
 
-[Shift Handover Records section](../concept/shift-handover-records-section.md)
+[Shift Handover Records section]()
 
-[List view in SIR Workspace](../concept/setting-up-list-view-in-analyst-workspace.md)
+[List view in SIR Workspace]()
 

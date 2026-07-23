@@ -2,6 +2,7 @@
 title: Lists
 description: Learn about the components in UI Builder that enable admins to create and customize lists and list pages for a Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/lists-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Learn about the components in UI Builder that enable admins to create and custom
 
 ## Lists overview
 
-A [list](../configurable-workspace-glossary.md#) is a content page that displays zero or more records from a database table. The list has rows and columns. Each row is a record, and each column is a field from the record.
+A [list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configurable-workspace-glossary.md) is a content page that displays zero or more records from a database table. The list has rows and columns. Each row is a record, and each column is a field from the record.
 
 Lists display multiple records in a Configurable Workspace, such as cases, task, or incidents, so that agents can find and work on records quickly.
 
@@ -23,7 +24,7 @@ Lists display multiple records in a Configurable Workspace, such as cases, task,
 
 A list page is a workspace page designed to help agents navigate, filter, and manage records. List pages for Configurable Workspace are created with the List page template in UI Builder. The List page template includes the Record List component bundle and List menu component.
 
-![List page for a Configurable Workspace](../image/configurable-workspace-list-page.png)
+\[Omitted image "configurable-workspace-list-page.png"\] Alt text: List page for a Configurable Workspace
 
 ## Record List component bundle
 
@@ -61,7 +62,7 @@ The List menu component is configured by admins in UI Builder. For information o
 
 The Predicate Builder component enables agents to set conditions from the list header to filter which records appear in a list.
 
-![Predicate Builder for a Configurable Workspace](../image/configurable-workspace-predicate-builder.png)
+\[Omitted image "configurable-workspace-predicate-builder.png"\] Alt text: Predicate Builder for a Configurable Workspace
 
 The Predicate Builder is configured by admins in UI Builder.
 

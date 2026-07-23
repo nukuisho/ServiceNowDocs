@@ -2,6 +2,7 @@
 title: Select channels and status for an AI agent
 description: In the guided setup for an AI agent, activate the AI agent to use in an assistant in Now Assist for Virtual Agent, and set the processing messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/channels-access-aia.html
 release: australia
 topic_type: task
 last_updated: "2025-11-23"
@@ -33,7 +34,7 @@ The final step of the AI agent guided setup includes options for where you can i
 
     You can also use Now Assist to generate the messages for you by selecting **Generate messages**. You can change the messages after they're generated.
 
-    ![Select channels and access page](../image/select-aia-channels.png)
+    \[Omitted image "select-aia-channels.png"\] Alt text: Select channels and access page
 
 3.  Activate the AI agent.
 
@@ -41,7 +42,7 @@ The final step of the AI agent guided setup includes options for where you can i
 
     If you don't see this option, you may need to scroll.
 
-    ![Select channels and access page.](../image/aia-channels-activation.png)
+    \[Omitted image "aia-channels-activation.png"\] Alt text: Select channels and access page.
 
     **Note:** If you have installed the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) on your ServiceNow AI Agent Studio instance, then agent learning and voice agents won't work if the assistant is in Premium Chat mode.
 
@@ -54,5 +55,5 @@ You have completed the guided setup for creating an AI agent. Your new AI agent 
 
 ## What to do next
 
-Move to the **Testing** playground to [test an AI agent execution](test-ai-agent.md) using example utterances or to [test user access](test-aia-access.md).
+Move to the **Testing** page to [test an AI agent execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md) using example utterances or to [test user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-access.md).
 

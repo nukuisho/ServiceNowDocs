@@ -2,11 +2,12 @@
 title: Corrective actions
 description: Corrective action enables you to address the asset issue, either by eliminating or replacing the asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-corrective-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for my campaigns, Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Corrective actions
@@ -29,7 +30,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 5.  On the corrective action form, fill in the fields.
 
-    For a description of the field values, see [Corrective action form](../reference/mco-corrective-action-form.md).
+    For a description of the field values, see [Corrective action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-corrective-action-form.md).
 
 6.  Select **Save**.
 
@@ -39,11 +40,4 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
     Corrective action must contain at least one action charge line to move it to In use.
 
-
--   **[Corrective action charges](mco_corrective_action_charges.md)**  
-Create correction action charges to enable the expenses incurred to address a non-conformance and implement measures to help prevent its recurrence.
--   **[Generate a part requirement](mco-part-requirements.md)**  
-Capture all the part requirements at the campaign level.
-
-**Parent Topic:**[Related lists for my campaigns](../concept/mco-related-list-for-my-campaigns.md)
 

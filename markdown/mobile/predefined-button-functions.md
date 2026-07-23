@@ -2,6 +2,7 @@
 title: Predefined button functions
 description: Use predefined buttons to quickly add prebuilt functionality to pop-ups in your mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/predefined-button-functions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Mobile functions, Mobile app components, Building mobile apps, Mobi
 
 Use predefined buttons to quickly add prebuilt functionality to pop-ups in your mobile app.
 
-![mobile pop-up with the option to complete, cancel, or log out](../image/predefined-button-functions.png "Predefined button functions")
+\[Omitted image "predefined-button-functions.png"\] Alt text: mobile pop-up with the option to complete, cancel, or log out
 
 Use predefined buttons to choose from prebuilt actions that don’t require additional configuration. The actions currently available are Continue, Cancel, and Log Out.
 

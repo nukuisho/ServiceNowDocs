@@ -2,6 +2,7 @@
 title: Module lifecycle policy exceptions for Field Encryption
 description: Use module lifecycle policy exceptions to customize the lifecycle of your module keys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/module-lifecycle-policy-exceptions-for-fe.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,5 +43,5 @@ Module lifecycle policy exceptions change the lifecycle policy of Field Encrypti
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Field Encryption](../concept/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
 

@@ -2,13 +2,14 @@
 title: Components installed with Employee Document Management
 description: Several types of components install with the activation of the Employee Document Management \[com.sn\_employee\_document\_management\] plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/installed-w-employee-doc-mngemnt.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Reference - Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Employee Document Management
@@ -75,7 +76,7 @@ Employee Document Management Reader\[sn\_hr\_ef.document\_reader\]
 Can:-   Access Employee Document Management.
 -   Search and read employee documents.
 
-**Note:** Add this role to the Read access tab on the security policy of the employee document. See [Add or modify document security policies](../concept/hr-doc-management-config.md#).
+**Note:** Add this role to the Read access tab on the security policy of the employee document. See [Add or modify document security policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md).
 
 
 </td><td>
@@ -92,7 +93,7 @@ Can:-   Access Employee Document Management.
 -   Search and read employee documents.
 -   Create and update employee documents.
 
- **Note:** Add this role to the Write access tab on the security policy of the employee document. See [Add or modify document security policies](../concept/hr-doc-management-config.md#).
+ **Note:** Add this role to the Write access tab on the security policy of the employee document. See [Add or modify document security policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/hr-doc-management-config.md).
 
 </td><td>
 
@@ -213,7 +214,7 @@ Refresh Purge Dates for Employee Documents
 This job ensures that any employee documents that have a changed retention period since the last run does not purge a document.This scheduled job works with the sn\_hr\_ef.purge\_stride\_length property to determine which employee documents for a user \[sys\_user\] record get purge dates recalculated.
 
 </td></tr></tbody>
-</table>**Note:** The Employee Document Management scheduled jobs run daily by default. To change when a scheduled job runs, see [Default schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_DefaultSchedules.md).
+</table>**Note:** The Employee Document Management scheduled jobs run daily by default. To change when a scheduled job runs, see [Default schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_DefaultSchedules.md).
 
 ## Document management tables and descriptions
 
@@ -306,10 +307,10 @@ Document Type Security Policy\[sn\_hr\_ef\_m2m\_doc\_type\_sec\_policy\]
 Associates security policies to a document type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference - Employee Document Management](../concept/reference-employee-document-management.md)
+</table>**Parent Topic:**[Reference - Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/reference-employee-document-management.md)
 
 **Related topics**  
 
 
-[Properties for Employee Document Management application](employee-doc-properties.md)
+[Properties for Employee Document Management application]()
 

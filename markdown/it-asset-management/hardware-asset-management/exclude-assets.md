@@ -2,6 +2,7 @@
 title: Exclude assets
 description: Exclude an asset for which you don't want to use Hardware Asset Management licensed features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/exclude-assets.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Manage Hardware Asset Management subscriptions, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage Hardware Asset Management subscriptions, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Exclude assets
@@ -41,12 +42,12 @@ Role required: admin
 
 The asset is excluded from using the licensed Hardware Asset Management features.
 
-**Parent Topic:**[Manage Hardware Asset Management subscriptions](../concept/managing-ham-subscriptions.md)
+**Parent Topic:**[Manage Hardware Asset Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/managing-ham-subscriptions.md)
 
 **Related topics**  
 
 
-[Opt-in or opt-out of HAM license resource categories](optin-optout-ham-license-resource-categories.md)
+[Opt-in or opt-out of HAM license resource categories]()
 
-[View the license report for the Hardware Asset Management application](view-license-report-ham.md)
+[View the license report for the Hardware Asset Management application]()
 

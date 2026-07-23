@@ -2,12 +2,13 @@
 title: Viewing task assignments from Schedule Optimization runs
 description: View the results of Schedule Optimization runs to understand how tasks were processed and assigned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Scheduling and dispatching, Use, Field Service Management]
 ---
 
@@ -27,21 +28,21 @@ Schedule Optimization can run in three different modes depending on your schedul
 
     Intraday optimization is an event-based mode of Schedule Optimization. It runs throughout the day in response to schedule disruptions such as technicians calling in sick, canceled tasks, new high-priority tasks, or technicians running late.
 
-    By default, intraday optimization runs every 60 minutes and can be configured to run as frequently as every 15 minutes. When a trigger condition is met, the system creates an intraday event. During the next scheduled run, Schedule Optimization creates an optimization job for each affected assignment group or territory and reoptimizes the tasks. Schedule-locked tasks aren’t considered for reoptimization.
+    By default, intraday optimization runs every 60 minutes and can be configured to run as frequently as every 15 minutes. When a trigger condition is met, Schedule Optimization creates an intraday event. During the next scheduled run, Schedule Optimization creates an optimization job for each affected assignment group or territory and reoptimizes the tasks. Schedule-locked tasks aren’t considered for reoptimization.
 
     Prioritized event optimization is a focused mode of intraday optimization that responds quickly to critical events. Instead of waiting for the next scheduled intraday run, this mode triggers optimization shortly after a high-priority event occurs and targets only the specific technicians and tasks affected by the event.
 
-    For prioritized events, considers:
+    Prioritized events considers:
 
     -   Technicians with the qualifier role in directly impacted territories
     -   Active tasks that aren't schedule-locked
-    -   Pending dispatch tasks with SLA breaches or due to end within the next hour
+    -   Pending dispatch tasks with SLA breaches or SLAs due within the next hour
     -   Scheduled or assigned tasks for affected technicians
     You can apply matching rules to prioritized event optimization to control which tasks and technicians are included in optimization runs.
 
 -   **On-demand intraday optimization**
 
-    Schedule Optimization can be configured to run the optimization engine in batches overnight or at selected intervals throughout the day. Dispatchers can also [trigger optimization from Dispatcher Workspace](optimize-agent-schedules-on-demand-in-dispatcher-workspace.md) when on-demand optimization is configured, allowing them to run the optimization engine at any time.
+    Schedule Optimization can be configured to run the optimization engine in batches overnight or at selected intervals throughout the day. Dispatchers can also [trigger optimization from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-agent-schedules-on-demand-in-dispatcher-workspace.md) when on-demand optimization is configured, allowing them to run the optimization engine at any time.
 
 
 Regardless of which mode runs, Schedule Optimization applies the configured policies. A policy is a grouping of objectives and constraints that defines the rules for optimization. Policy objectives prioritize how tasks are assigned to technicians. Policy constraints determine the criteria that must be met before a task can be assigned to a technician in an assignment group or territory.
@@ -49,6 +50,8 @@ Regardless of which mode runs, Schedule Optimization applies the configured poli
 ## What happens during an optimization run
 
 During a run, Schedule Optimization processes task and resource data and attempts to assign as many tasks as possible. Runs can produce complete assignments, partial results, or errors when tasks can’t be scheduled. Schedule Optimization records the run type, applied objectives and constraints, and any warnings or issues it encounters. This information helps you understand why tasks were scheduled in the way they were or why they weren’t scheduled at all.
+
+During processing, the system also tracks technicians and tasks that are excluded from optimization. Technicians without valid work schedules are dropped before data is sent to the optimization engine. Tasks that can't be assigned because of scheduling conflicts are tracked as conflict tasks. Both are recorded in the run detail and available for review after the run completes.
 
 ## Viewing optimization run summaries
 
@@ -74,15 +77,17 @@ Each run summary provides:
 -   Assignment group or territory states:
     -   Optimized: Assignment group or territory was sent to the optimization engine for processing.
     -   Error: Assignment group or territory encountered an error during optimization.
--   Technician errors identifying technicians that weren’t sent for optimization due to errors.
 -   Validation and exception messages.
+-   Technician errors identifying technicians that weren't sent for optimization due to errors.
+-   Dropped technicians: Technicians excluded from the optimization run because they don't have valid work schedules. Each dropped technician is shown with an **Error** status and the reason for exclusion in the **Technicians** tab of the run detail record.
+-   Conflict tasks: Tasks that couldn't be assigned because a scheduling conflict was detected. Conflict tasks occur when the suggested assignment overlaps with an existing booking for the same technician. Each conflict task is shown with an **Unchanged** status and the reason for the conflict in the **Work Order Tasks** tab of the run detail record.
 
 **Related topics**  
 
 
-[Configuring Schedule Optimization](schedule-optimization-engine.md)
+[Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md)
 
-[Optimizing technician schedules at set intervals throughout the day](../task/optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
-[Run optimization for your groups or territories from Dispatcher Workspace](optimize-agent-schedules-on-demand-in-dispatcher-workspace.md)
+[Run optimization for your groups or territories from Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-agent-schedules-on-demand-in-dispatcher-workspace.md)
 

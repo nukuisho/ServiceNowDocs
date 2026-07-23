@@ -2,6 +2,7 @@
 title: Hermes Messaging Service components
 description: The Hermes Messaging Service architecture is built on the following components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-components.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -21,16 +22,18 @@ The Hermes Messaging Service architecture is built on the following components.
 |Hermes Gateway|Part of the ServiceNow datacenter that enables you to connect to a ServiceNow endpoint to read and write data to the Hermes Message Queue.|
 |Hermes Glide connector|Connector that integrates instance functionality \(for example, flows, data export, and data replication\) with the Hermes Message Queue via the API.|
 
-**Parent Topic:**[Hermes Messaging Service reference](hermes-messaging-service-reference.md)
+**Parent Topic:**[Hermes Messaging Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-reference.md)
 
 **Related topics**  
 
 
-[Hermes Messaging Service security model](hermes-messaging-service-security-model.md)
+[Hermes Messaging Service security model]()
 
-[Hermes Messaging Service system properties](../reference/hermes-messaging-service-properties.md)
+[Hermes Messaging Service system properties]()
 
-[Hermes Messaging Service roles](../reference/hermes-messaging-service-roles.md#)
+[Hermes background jobs]()
 
-[Hermes Messaging Service domain separation](../reference/hermes-messaging-service-domain-separation.md)
+[Hermes Messaging Service roles]()
+
+[Hermes Messaging Service domain separation]()
 

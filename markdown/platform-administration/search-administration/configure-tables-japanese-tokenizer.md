@@ -2,6 +2,7 @@
 title: Configure tables to use the Japanese tokenizer
 description: Improve search results in Japanese language searches by configuring individual tables to use the Japanese tokenizer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-tables-japanese-tokenizer.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -43,41 +44,41 @@ Japanese language searches use the Kuromoji Japanese tokenizer in Zing. The Japa
 
 6.  Select **Submit**.
 
-7.  [Regenerate a text index for a table](t_RegenerateATextIndexForATable.md).
+7.  [Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_RegenerateATextIndexForATable.md).
 
-    **Note:** Text indexing can be a resource-intensive task that may take a while to complete. You may notice performance degradation or incomplete search results during index generation. To estimate text indexing duration, you can view historical [statistics](../reference/r_ViewTextIndexingStatsAndStatus.md).
+    **Note:** Text indexing can be a resource-intensive task that may take a while to complete. You may notice performance degradation or incomplete search results during index generation. To estimate text indexing duration, you can view historical [statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/r_ViewTextIndexingStatsAndStatus.md).
 
 
 ## Result
 
 When the text index is generated and you go to the table you configured, the table now uses the Japanese tokenizer.
 
-**Parent Topic:**[Zing indexes words](../concept/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 
 
-[Zing indexes punctuation as part of some words](../concept/c_PunctuationForSearchResults.md)
+[Zing indexes punctuation as part of some words]()
 
-[Zing indexes some HTML elements](../concept/c_SearchingHTMLContent.md)
+[Zing indexes some HTML elements]()
 
-[Configure a table for indexing and searching](configure-single-table-for-indexing.md#)
+[Configure a table for indexing and searching]()
 
-[Configure a text index group to search across multiple tables](index-multiple-tables.md)
+[Configure a text index group to search across multiple tables]()
 
-[Zing index and search dictionary attributes](../reference/index-attributes.md)
+[Zing index and search dictionary attributes]()
 
-[Regenerate a text index for a table](t_RegenerateATextIndexForATable.md)
+[Regenerate a text index for a table]()
 
-[Remove an index](t_RemoveAnIndex.md)
+[Remove an index]()
 
-[Remove an index for a specific field](t_RemoveAnIndexForASpecificField.md)
+[Remove an index for a specific field]()
 
-[Remove the text index for a child table](remove-index-child-table.md)
+[Remove the text index for a child table]()
 
-[Change the query mode of an indexed table](configure-table-query-mode.md)
+[Change the query mode of an indexed table]()
 
-[Enable indexing of text in multi-row variable sets](index-text-multi-row-variable-sets.md)
+[Enable indexing of text in multi-row variable sets]()
 
-[Text indexing statistics and status](../reference/r_ViewTextIndexingStatsAndStatus.md)
+[Text indexing statistics and status]()
 

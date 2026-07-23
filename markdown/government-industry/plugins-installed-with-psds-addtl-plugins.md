@@ -2,10 +2,11 @@
 title: Plugins installed with Public Sector Digital Services Applications
 description: These plugins are automatically installed with the following Public Sector Digital Services applications, if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/plugins-installed-with-psds-addtl-plugins.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Components and roles installed, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -398,7 +399,57 @@ Foundational plugin that enables customers to create playbooks based on individu
 -   CSM Configurable Workspace Bundle
 
 </td></tr></tbody>
-</table>## Plugins installed with Now Assist for Public Sector Digital Services \(PSDS\)
+</table>## Plugins installed with GOV.UK Developer Toolkit
+
+The following plugins are installed with the GOV.UK Developer Toolkit application:
+
+<table id="table_rlg_yp3_ljc"><thead><tr><th>
+
+Plugin
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Service Portal Knowledge Base \(com.glide.service-portal.knowledge-base\)
+
+</td><td>
+
+Provides a standard architecture for provisioning a variety of government services—such as social assistance programs, service requests, licensing/permitting, and so on—with a government data model that supports case types and agency services provided to constituents or their businesses. Includes:-   Customer Service Case Types \(com.snc.csm\_case\_types\)
+-   Customer Service Install Base Management \(com.snc.install\_base\)
+-   Agency Support Model \(com.sn\_agency\_support\_model\)
+-   Consumer Service Portal \(com.glide.service-portal.consumer-portal\)
+-   Signature Pad \(com.snc.signaturepad\)
+-   UI Components for Customer Portals \(sn\_ciwf\_ui\_cmpnt\)
+
+
+</td></tr><tr><td>
+
+Playbooks for Customer Service Management \(com.sn\_csm\_playbook\)
+
+</td><td>
+
+Foundational plugin that enables customers to create playbooks based on individual business needs. Playbooks guide government service agents through sequences of tasks to resolve constituent issues, and helps users to visualize the entire lifecycle of a workflow. This plugin includes:-   Dynamic Related Records for Configurable Workspace \(sn\_uib\_dyn\_rel\_rec\)
+-   Customer Service Management \(com.sn\_customerservice\)
+-   CSM Configurable Workspace Bundle
+
+</td></tr></tbody>
+</table>## Plugins installed with Service Portal
+
+The following plugins are installed with the Service Portal \(com.glide.service-portal.esm\) application, which comes with the GOV.UK Developer Toolkit:
+
+|Plugin|Description|
+|------|-----------|
+|Service Portal Knowledge Base \(com.glide.service-portal.knowledge-base\)| |
+|Service Portal - Service Catalog \[com.glide.service-portal.service-catalog\]| |
+|Service Portal - Service Status \[com.glide.service-portal.service-status\]| |
+|Service Portal Configuration Pages \[com.glide.service-portal.config\]| |
+|Service Portal Designer \[com.glide.service-portal.designer\]| |
+|Service Portal Surveys \[com.glide.service-portal.survey\]| |
+
+## Plugins installed with Now Assist for Public Sector Digital Services \(PSDS\)
 
 The following plugins are installed with Now Assist for Public Sector Digital Services \(PSDS\) \(com.sn\_psds\_gen\_ai\) application:
 
@@ -408,5 +459,5 @@ The following plugins are installed with Now Assist for Public Sector Digital Se
 
 - Geo Map \(sn\_geo\_map\) for Service Request Playbook
 
-**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](installed-with-public-sector-digital-services-core.md)
+**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
 

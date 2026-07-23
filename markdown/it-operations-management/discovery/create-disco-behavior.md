@@ -2,6 +2,7 @@
 title: Create a Discovery behavior
 description: Create a Discovery behavior to determine which probes Shazzam launches and which MID Server is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-disco-behavior.html
 release: australia
 product: Discovery
 classification: discovery
@@ -29,7 +30,7 @@ Role required: discovery\_admin
 
 4.  Right-click the form header and select **Save**.
 
-    ![Discovery behavior form](../image/DiscoveryBehavior.png)
+    \[Omitted image "DiscoveryBehavior.png"\] Alt text: Discovery behavior form
 
 5.  In the Discovery Functionality related list, select **New**.
 
@@ -134,23 +135,23 @@ Value
 Enter the actual name of the MID Server \(`mid_server`\) or domain \(`win_domain`\) to pass to Discovery for this criteria. This field can also have a value of `mid_domain`, which defines the Windows domain of the MID Server that is processing the Shazzam results.
 
 </td></tr></tbody>
-</table>    The following graphic shows an example of functionality criteria. ![Discovery functionality criteria](../image/DiscoveryFunctionalityCriteria.png)
+</table>    The following graphic shows an example of functionality criteria. \[Omitted image "DiscoveryFunctionalityCriteria.png"\] Alt text: Discovery functionality criteria
 
 10. Select **Submit**.
 
 
 ## What to do next
 
-[Schedule a horizontal discovery](t_CreateADiscoverySchedule.md#) of type **Configuration Item**, and select **Use Behavior** for the MID Server selection method.
+[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) of type **Configuration Item**, and select **Use Behavior** for the MID Server selection method.
 
-**Parent Topic:**[Discovery behaviors](../concept/c_DiscoveryBehaviors.md)
+**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
 
 **Related topics**  
 
 
-[Set up a load balancing behavior](t_SetUpLoadBalDiscoBehavr.md)
+[Set up a load balancing behavior]()
 
-[Examples of Discovery behavior functionalities](../reference/r_DefineTheFunctionalities.md)
+[Examples of Discovery behavior functionalities]()
 
-[Discovery behavior example: access an ACL protected SNMP device](t_AccessAnACLProtectedSNMPDevice.md)
+[Access an ACL-protected SNMP device]()
 

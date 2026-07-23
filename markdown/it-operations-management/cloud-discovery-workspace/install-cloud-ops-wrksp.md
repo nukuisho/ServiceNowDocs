@@ -2,6 +2,7 @@
 title: Install Cloud Discovery Workspace
 description: You can install the Cloud Discovery Workspace application \(com.cloud\_operations\_workspace\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-discovery-workspace/install-cloud-ops-wrksp.html
 release: australia
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
@@ -17,16 +18,16 @@ You can install the Cloud Discovery Workspace application \(com.cloud\_operation
 
 ## Before you begin
 
-**Important:** Starting with the Zurich release, Cloud Discovery Workspace is being prepared for future deprecation. It will be hidden and no longer activated on new instances, but will continue to be supported. Discovery Admin Workspace provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-When Cloud Discovery Workspace is installed, several plugins and applications are also installed. For more information, see [Plugins or applications installed with ITOM Visibility](../../it-operations-management/reference/plugin-app-itom-visibility.md).
+When Cloud Discovery Workspace is installed, several plugins and applications are also installed. For more information, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md).
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Cloud Discovery Workspace requires the following plugin. Ensure that the following plugin is activated before you install Cloud Discovery Workspace.
     -   **Required ServiceNow plugins**
         -   **Discovery \(com.snc.discovery\)**
 
-            ServiceNow Cloud Discovery finds applications and devices on your network, and then updates the CMDB 360 with the information it finds. For more information on activating Discovery, see [Request Discovery](../../discovery/task/t_ActivateTheDiscoveryPlugin.md).
+            ServiceNow Cloud Discovery finds applications and devices on your network, and then updates the CMDB 360 with the information it finds. For more information on activating Discovery, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
 
 
 Role required: admin
@@ -73,7 +74,7 @@ The Cloud Discovery Workspace admin can perform the following actions:-   View t
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

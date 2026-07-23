@@ -2,6 +2,7 @@
 title: Tracking message usage in Hermes
 description: Message usage through the Hermes Messaging Service is tracked for monitoring and management purposes through the Kafka topic name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/tracking-hermes-messaging-service-usage.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -34,16 +35,18 @@ where:
 
 Kafka message usage and licensing impact vary by application. License usage is tracked at the application level.
 
-**Parent Topic:**[Administering Hermes Messaging Service](hermes-messaging-service-administration.md)
+**Parent Topic:**[Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
 
 **Related topics**  
 
 
-[Check the status of and connection to the Hermes Kafka cluster](../task/run-hermes-messaging-service-diagnostics.md)
+[Managing Hermes settings]()
 
-[Monitoring data usage in Hermes](monitoring-data-usage-hermes.md)
+[Check the status of and connection to the Hermes Kafka cluster]()
 
-[Cloning with Hermes Messaging Service enabled](cloning-with-hermes-messaging-service.md)
+[Monitoring data usage in Hermes]()
 
-[View Hermes Messaging Service log messages](../task/view-hermes-log-messages.md)
+[Cloning with Hermes Messaging Service enabled]()
+
+[View Hermes Messaging Service log messages]()
 

@@ -2,13 +2,14 @@
 title: Track a hardware asset shipment
 description: Track the progress of your hardware asset shipment that isn't delivered and that has a carrier associated with an active integration profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/track-hardware-asset-shipments.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Track shipments using the integration framework, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Track a hardware asset shipment
@@ -38,26 +39,26 @@ The following fields on the Shipment details form show the tracking details rece
 -   Carrier pick-up date
 -   Carrier delivered date
 
-**Parent Topic:**[Track shipments using the integration framework](../concept/tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 
 
-[Creating an integration script include for third-party carrier applications](../concept/creating-integration-script-include-ham.md)
+[Creating an integration script include for third-party carrier applications]()
 
-[Connect your ServiceNow instance with a shipping carrier application](associate-shipping-carrier-int-profile.md)
+[Connect your ServiceNow instance with a shipping carrier application]()
 
-[Remove a shipping carrier from an integration profile](remove-shipping-carrier.md)
+[Remove a shipping carrier from an integration profile]()
 
-[Create a carrier integration profile](create-carrier-integration-profile.md)
+[Create a carrier integration profile]()
 
-[View the carrier integration profile details](view-integration-profiles.md)
+[View the carrier integration profile details]()
 
-[Test the integration with the carrier API](test-carrier-api-integration.md)
+[Test the integration with the carrier API]()
 
-[Create a shipping carrier record](create-shipping-carrier.md)
+[Create a shipping carrier record]()
 
-[View hardware asset shipment details](view-hardware-asset-shipments.md)
+[View hardware asset shipment details]()
 
-[Stale shipments](../concept/stale-shipments.md)
+[Stale shipments]()
 

@@ -2,11 +2,12 @@
 title: Merge two or more phases
 description: Merge phases and sub-phases to reorganize and transfer assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco\_merge\_phases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Merge two or more phases
@@ -27,7 +28,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
 
     All the active campaign phases that are in either the Draft state or Pre-launched state can be merged.
 
-    The Merge assets to another phase &amp; cancel current phase window appears.
+    The Merge assets to another phase &amp; cancel current phase window displays.
 
 4.  From the list, select **Move assets to phase or sub-phase**.
 
@@ -39,6 +40,4 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.rec
 ## Result
 
 The current phase or sub-phase state is canceled, and all associated assets are transferred to the target phase.
-
-**Parent Topic:**[Recall management](../concept/mco-recall-management.md)
 

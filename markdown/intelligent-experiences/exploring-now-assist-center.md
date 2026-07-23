@@ -2,10 +2,11 @@
 title: Exploring Now Assist Center
 description: The ServiceNow Now Assist Center application is a single control hub that brings together other Now Assist capabilities and configuration functions, making it fast and effortless for administrators to set up and manage generative AI solutions from a unified experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-now-assist-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-05-27"
+reading_time_minutes: 4
 keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
 breadcrumb: [Now Assist Center, Enable AI experiences]
 ---
@@ -57,7 +58,47 @@ AI builders and practitioners
 AI practitioners building and deploying custom AI solutions across ServiceNow workflows
 
 </td></tr></tbody>
-</table>## Now Assist Center benefits
+</table>## Now Assist Center workflow
+
+The following diagram shows the AI adoption activities you can accomplish in Now Assist Center.
+
+\[Omitted image "mmasset0022025-now-assist-center-capabilities.png"\] Alt text: List of the Now Assist Center capabilities and their related activities.
+
+This diagram shows the following capabilities in Now Assist Center:
+
+-   Assess AI readiness
+    -   Take remediation steps
+    -   View readiness assessments
+-   Install and configure AI products
+    -   Install plugins
+    -   Activate skills
+-   Deploy AI solutions
+    -   Activate proposed solutions
+    -   Deploy AI agents
+-   Discover AI automation opportunities
+    -   View opportunities
+    -   Implement automations
+    -   Find and create AI agents
+-   Create datasets
+    -   Create and manage datasets
+    -   Cleanse sensitive data
+-   Manage AI assets
+    -   View asset library
+    -   Create AI assets
+-   Set up AI settings and guardrails
+    -   Configure settings
+    -   Manage models
+    -   Set data sharing and use
+    -   Set AI content guardrails
+-   Monitor your AI
+    -   View Now Assist skill analytics
+    -   View AI agent analytics
+    -   View assistant analytics
+    -   View AI adoption analytics
+    -   View recent activations
+    -   View business value analytics
+
+## Now Assist Center benefits
 
 Now Assist Center provides the following benefits.
 
@@ -79,7 +120,7 @@ Accelerate and simplify setup of your AI solutions in a unified experience. The 
 
 </td><td>
 
-[Now Assist Center workspace](now-assist-center-workspace.md)
+[Now Assist Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md)
 
 </td><td>
 
@@ -91,7 +132,19 @@ Easy-to-use conversational interface to perform common admin tasks, from basic s
 
 </td><td>
 
-[Now Assist Panel in Now Assist Center](using-now-assist-panel-now-assist-center.md)
+[Now Assist Panel in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-panel-now-assist-center.md)
+
+</td><td>
+
+Now Assist administrator
+
+</td></tr><tr><td>
+
+Automated assessment of your instance readiness helps you prepare for AI adoption. The readiness assessment enables you to assess whether updates, installations, or customizations on your instance could affect AI implementation. It helps you to identify configuration gaps, view actionable insights, measure readiness over time.
+
+</td><td>
+
+[AI readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-readiness-evaluation.md)
 
 </td><td>
 
@@ -103,7 +156,7 @@ Get started right away with guided quick-start use cases that appear as actionab
 
 </td><td>
 
-[Actionable use cases](now-assist-center-actionable-use-cases.md)
+[Actionable use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-actionable-use-cases.md)
 
 </td><td>
 
@@ -115,7 +168,7 @@ Quickly discover automation opportunities for your instance. AI Agent Advisor an
 
 </td><td>
 
-[Automation discovery with AI Agent Advisor](now-assist-center-using-ai-agent-advisor.md)
+[Automation discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
 
 </td><td>
 
@@ -127,7 +180,7 @@ Matches identified automation opportunities to existing AI agents on the platfor
 
 </td><td>
 
-[AI agent matching and automated deployment](../task/activate-automation-opportunity-now-assist-center.md)
+[AI agent matching and automated deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md)
 
 </td><td>
 
@@ -141,7 +194,7 @@ Provides centralized access to the broader Now Assist and AI ecosystem within a 
 
 </td><td>
 
-[Now Assist integrations](now-assist-center-using-other-applications.md)
+[Now Assist integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-other-applications.md)
 
 </td><td>
 
@@ -153,19 +206,21 @@ View performance and usage statistics for your AI implementation.
 
 </td><td>
 
-[AI adoption metrics](now-assist-center-monitoring.md)
+[AI adoption metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-monitoring.md)
 
 </td><td>
 
 Now Assist administrator
 
 </td></tr></tbody>
-</table>-   **[Now Assist Center workspace](now-assist-center-workspace.md)**  
+</table>-   **[Now Assist Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md)**  
 Use the Now Assist Center workspace to set up, monitor, and manage your Now Assist solutions.
--   **[AI Agent Advisor in Now Assist Center](now-assist-center-ai-agent-advisor.md)**  
+-   **[AI Agent Advisor in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-ai-agent-advisor.md)**  
 AI Agent Advisor automatically discovers automation opportunities in your instance based on actual operational data and helps you to deploy AI agents to implement them.
--   **[Supporting information for Now Assist Center](supporting-information-now-assist-center.md)**  
+-   **[Now Assist Readiness Evaluation in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-readiness-evaluation.md)**  
+Now Assist Readiness Evaluation is a solution designed to simplify and automate the agentic AI and Now Assist implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
+-   **[Supporting information for Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/supporting-information-now-assist-center.md)**  
 Get a quick overview of the important information that is related to the Now Assist Center application.
 
-**Parent Topic:**[Now Assist Center](now-assist-center-landing-page.md)
+**Parent Topic:**[Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md)
 

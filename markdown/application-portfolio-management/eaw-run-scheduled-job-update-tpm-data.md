@@ -2,9 +2,10 @@
 title: Run a scheduled job to generate TPM lifecycle data
 description: Run a scheduled job to fetch the technology lifecycle data for your technology portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Working with Technology Portfolio Management \(TPM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -40,5 +41,5 @@ After executing the scheduled job, the engine automatically stores the technolog
 
 To know the status of the scheduled job, refer to the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. To view the technology lifecycle information, refer to the TPM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table. You can view the results in the Portfolio &gt; Technology Portfolio Management &gt; Logs page.
 
-**Parent Topic:**[Working with Technology Portfolio Management \(TPM\) in EA Workspace](../../concept/eaw-concept/eaw-work-with-tpm.md)
+**Parent Topic:**[Working with Technology Portfolio Management \(TPM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
 

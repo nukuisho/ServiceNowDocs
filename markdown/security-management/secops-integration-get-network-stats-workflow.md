@@ -2,6 +2,7 @@
 title: Security Operations Integrations - Get Network Statistics flow
 description: The Security Operations Integrations - Get Network Statistics flow retrieves a list of active network connections from a host or endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/secops-integration-get-network-stats-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,18 +22,18 @@ Role required: sn\_si.analyst
 
 This flow runs automatically when a configuration item is added to a security incident.
 
-![Security Operations Integrations - Get Network Statistics flow](../image/get-network-statistics-flow.png "Get Network Statistics")
+\[Omitted image "get-network-statistics-flow.png"\] Alt text: Security Operations Integrations - Get Network Statistics flow
 
-Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](../../security-operations-common/concept/common-wf-activities.md).
+Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
 
 The flow actions include:
 
--   [Capability - Determine CIs activity](../reference/determine-cis-activity.md)
+-   [Capability - Determine CIs activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/determine-cis-activity.md)
 -   
 .
 
--   **[Execution Tracking - Begin \(CIs\) Flow Action](../reference/execution-tracking-begins-cis-activity.md)**  
+-   **[Execution Tracking - Begin \(CIs\) Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begins-cis-activity.md)**  
 The **Execution Tracking - Begin \(CIs\)** flow action starts the auditing process for a Security Operations Integration flow that operates on configuration items \(CIs\).
 
-**Parent Topic:**[Security Operations Integration- Get Network Statistics capability](../../security-operations-common/concept/get-network-statistics-capability.md)
+**Parent Topic:**[Security Operations Integration- Get Network Statistics capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-network-statistics-capability.md)
 

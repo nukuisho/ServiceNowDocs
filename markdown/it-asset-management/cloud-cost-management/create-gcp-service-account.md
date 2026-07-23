@@ -2,13 +2,14 @@
 title: Create a Google Cloud billing account
 description: Create a billing account, project, and BigQuery dataset in the Google Cloud Console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-gcp-service-account.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up access to Google Cloud billing and usage data, Configure Cloud Cost Management for Google Cloud, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Google Cloud billing and usage data, Configure Cloud Cost Management for Google Cloud, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Create a Google Cloud billing account
@@ -37,7 +38,7 @@ Role required: Google Cloud administrator
 
     3.  Download the key file \(JSON file\) which contains the required credentials.
 
-2.  In the Google Cloud, enable Detailed usage costs to use Google Cloud Billing Download.![Detailed usage costs](../image/billing_export.png)
+2.  In the Google Cloud, enable Detailed usage costs to use Google Cloud Billing Download.\[Omitted image "billing\_export.png"\] Alt text: Detailed usage costs
 
     **Note:** If you’re configuring the billing download BigQuery dataset for the first time, read the Data availability section in the [Understand the Cloud Billing data tables in Big Query](https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables) topic from [Google cloud documentation](https://cloud.google.com/docs).
 

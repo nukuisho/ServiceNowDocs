@@ -2,6 +2,7 @@
 title: Advanced Work Assignment for Source-to-Pay Operations
 description: Use the Advanced Work Assignment for Source-to-Pay Operations feature to automatically assign work items to agents based on availability and capacity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -15,11 +16,11 @@ breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply 
 
 Use the Advanced Work Assignment for Source-to-Pay Operations feature to automatically assign work items to agents based on availability and capacity.
 
-Advanced Work Assignment for Source-to-Pay Operations pushes work to qualified agents using work item queues, routing conditions, and assignment criteria that you define. For more information, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
+Advanced Work Assignment for Source-to-Pay Operations pushes work to qualified agents using work item queues, routing conditions, and assignment criteria that you define. For more information, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md).
 
 ## Prerequisites for installing Advanced Work Assignment for Source-to-Pay Operations
 
-Before you install Advanced Work Assignment for Source-to-Pay Operations, ensure that you activate the Agent Chat application and load the demo data during installation. For more information, see [Activate Agent Chat and load demo data](../../supplier-lifecycle-operations/task/load-demo-agent-chat.md).
+Before you install Advanced Work Assignment for Source-to-Pay Operations, ensure that you activate the Agent Chat application and load the demo data during installation. For more information, see [Activate Agent Chat and load demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/load-demo-agent-chat.md).
 
 ## Required plugins
 
@@ -28,35 +29,37 @@ Install the Advanced Work Assignment for Source-to-Pay Operations \(sn\_spend\_a
 -   Advanced Work Assignment \(com.glide.awa\)
 -   Agent Chat \(com.glide.interaction.awa\)
 
--   **[Setting up Advanced Work Assignment for Source-to-Pay Operations](awa-spo-setup.md)**  
+-   **[Setting up Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo-setup.md)**  
 Plan and configure your implementation of Advanced Work Assignment for Source-to-Pay Operations.
--   **[Using Advanced Work Assignment for Source-to-Pay Operations](using-awa-spo.md)**  
+-   **[Using Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-awa-spo.md)**  
 Enables shoppers or requesters to interact with agents to resolve their issues and get answers to their questions.
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](configuring-spo.md)
+**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
-[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+[Install Sourcing and Procurement Operations]()
 
-[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+[Setting up primary data for ShoppingHub]()
 
-[Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md)
+[Configure punchout for third-party site purchases]()
 
-[Configuring work prioritization](configuring-work-prioritization.md)
+[Configuring work prioritization]()
 
-[Add a new button in Shopping Hub](../task/add-new-button-shoppinghub.md)
+[Add a button in Shopping Hub]()
 
-[Customize your top suppliers on Shopping Hub](../task/customize-top-suppliers.md)
+[Customize your top suppliers on Shopping Hub]()
 
-[Configure conditions for merging purchase requisitions](../task/config-pr-merge.md)
+[Configure conditions for merging purchase requisitions]()
 
-[Service portal configuration for ShoppingHub](service-portal-configuration-for-shoppinghub.md)
+[Service portal configuration for ShoppingHub]()
 
-[Install ShoppingHub Mobile](../task/install-shoppinghub-mobile.md)
+[Install ShoppingHub Mobile]()
 
-[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+[Install Universal Request for Sourcing and Procurement Operations]()
 
-[Application plugin installation sequence in Sourcing and Procurement Operations](../reference/application-plugin-list.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
+
+[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
 

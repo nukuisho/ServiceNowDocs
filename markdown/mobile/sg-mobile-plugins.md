@@ -2,6 +2,7 @@
 title: Mobile plugins
 description: Learn about the plugins used to enable ServiceNow mobile on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-plugins.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -42,12 +43,12 @@ Install a plugin by searching for the plugin name in you plugins list. For infor
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **[Mobile plugins for Mobile Agent](sg-mobile-plugins-agent.md)**  
+-   **[Mobile plugins for Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-plugins-agent.md)**  
 Use these plugins to extend functionality for the Mobile Agent app.
--   **[Mobile plugins for Now Mobile](sg-mobile-plugins-now.md)**  
+-   **[Mobile plugins for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-plugins-now.md)**  
 Use these plugins to extend functionality for the Now Mobile app.
 
-**Parent Topic:**[Mobile plugins and upgrades](../concept/plugins-upgrades.md)
+**Parent Topic:**[Mobile plugins and upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/plugins-upgrades.md)
 

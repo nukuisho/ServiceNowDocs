@@ -2,6 +2,7 @@
 title: Create a debit approval case for an internal refund
 description: Create a debit approval case for a claim so that you can request a refund internally from one of your banks or a customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/create-debit-approval-case.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -23,7 +24,7 @@ Role required: sn\_bom\_payment.claim\_agent or sn\_bom\_payment.claim\_agent\_c
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Claims**, click **Assigned to me**.
 
@@ -41,7 +42,7 @@ Role required: sn\_bom\_payment.claim\_agent or sn\_bom\_payment.claim\_agent\_c
     -   Debit customer or Debit account
     -   Debit financial account
     -   Receiving transaction
-    For information on the Claim form field descriptions, see [Field descriptions for a claim case](../reference/claim-form-fields.md).
+    For information on the Claim form field descriptions, see [Field descriptions for a claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/claim-form-fields.md).
 
 6.  Click **Create Debit Approval**.
 
@@ -62,8 +63,8 @@ Role required: sn\_bom\_payment.claim\_agent or sn\_bom\_payment.claim\_agent\_c
 
 -   If the refund amount should be debited from multiple financial accounts, set up instructions for each debit account in the Debit instructions tab.
 -   Get an acceptance for the debit from the debit customer or the refund bank.
--   Update the debit approval case fields as required to complete the refund and close this case. For more information, see [Work on a debit approval case to complete a refund](work-debit-approval-case-internal-refund.md).
+-   Update the debit approval case fields as required to complete the refund and close this case. For more information, see [Work on a debit approval case to complete a refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/work-debit-approval-case-internal-refund.md).
 -   If the debit customer or the bank rejects the debit, move the claim case back to the **Open** state. If the customer rejected the debit from the Customer or Consumer Service Portal, the state of the claim case automatically updates to Open.
 
-**Parent Topic:**[Work on a claim with an internal refund](work-claim-with-internal-refund.md)
+**Parent Topic:**[Work on a claim with an internal refund](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/work-claim-with-internal-refund.md)
 

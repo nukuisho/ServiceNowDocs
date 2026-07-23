@@ -2,6 +2,7 @@
 title: MID Server SSH cryptographic algorithms
 description: The MID Server utilizes SSH clients to perform many discovery actions. During the SSH handshake, both the client and server first determine which algorithms both parties support, then client picks the highest priority algorithm. For the Host Key Algorithm, the client picks highest priority algorithm which both parties support that matches the key type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-ssh-algorithms.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -90,38 +91,38 @@ The properties accept comma separated lists with operators. The first name in th
 -   The **-** operator removes the comma separated list of algorithms from the default algorithm list.
 -   The **^** operator places the comma separated list of algorithms at the front of the default algorithm list.
 
-![The MID Server properties using the operators to customize the SSH algorithm lists.](../image/mid-ssh-properties.png)
+\[Omitted image "mid-ssh-properties.png"\] Alt text: The MID Server properties using the operators to customize the SSH algorithm lists.
 
-**Parent Topic:**[Securing and encrypting MID Server data](../concept/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[MID Server certificate check policies](../concept/mid-security-checks.md)
+[MID Server certificate check policies]()
 
-[Encrypt or decrypt MID Server configuration file values](../task/mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server authentication credentials and SOAP requests](../concept/mid-authentication-soap-requests.md#)
+[MID Server authentication credentials and SOAP requests]()
 
-[MID Server unified key store](../concept/mid-unified-keystore.md#)
+[MID Server unified key store]()
 
-[Enable MID Server mutual authentication](../task/install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication]()
 
-[MID Server Azure Key Vault integration](../task/mid-azure-key-vault-integration.md#)
+[MID Server Azure Key Vault integration]()
 
-[MID Server command audit log](../concept/mid-audit-log.md)
+[MID Server command audit log]()
 
-[Rekey a MID Server](../task/t_RekeyAMIDServer.md)
+[Rekey a MID Server]()
 
-[Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#)
+[Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server](../task/mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[Attach a script file to a file synchronized MID Server](../task/mid-server-script-attach.md#)
+[Attach a script file to a file synchronized MID Server]()
 
-[MID Server FIPS Enforced Mode](../concept/mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 
-[MID Server Governance](../concept/mid-timeout.md)
+[MID Server Governance]()
 

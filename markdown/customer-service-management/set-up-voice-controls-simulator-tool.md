@@ -2,6 +2,7 @@
 title: Set up the Voice Controls Simulator tool
 description: Integrate with Interaction Controls Component \(ICC\) to manage voice call features. Then, use the Voice Controls Simulator tool to set up your call experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/set-up-voice-controls-simulator-tool.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,5 +40,5 @@ Before you start, make sure you have the following:
     -   sn\_int\_control\_sim.voice\_test\_tool\_user
 4.  Supported workspaces: This tool works only in the CSM Configurable Workspace.
 
-You are now ready to launch the Voice Controls Simulator tool. See [Launching the simulator](../task/launch-voice-controls-simulator.md).
+You are now ready to launch the Voice Controls Simulator tool. See [Launching the simulator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/launch-voice-controls-simulator.md).
 

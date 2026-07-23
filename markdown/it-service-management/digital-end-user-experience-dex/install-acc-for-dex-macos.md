@@ -2,12 +2,14 @@
 title: Install ACC for DEX on macOS
 description: Install Agent Client Collector \(ACC\) to monitor and collect data in a centralized and organized manner, provide insights into system performance, identify issues, and enable proactive maintenance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-macos.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [install acc macos, agent client collector mac, acc for dex, install agent client collector, install acc mac]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
 ---
 
@@ -108,15 +110,15 @@ Optional **ACC\_VALIDATE\_SIG=0** string that you can add to disable the verific
 </td></tr></tbody>
 </table>4.  Configure the ServiceNow sudoers file.
 
-    For details on the procedure, see [Configure ServiceNow sudoers file](config-sudoers-file.md).
+    For details on the procedure, see [Configure ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/config-sudoers-file.md).
 
 
-**Parent Topic:**[Installing DEX on your local machine](../concept/installing-dex-local.md)
+**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
 
 **Related topics**  
 
 
-[Create an ACC registration key](setup-acc.md)
+[Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/setup-acc.md)
 
-[DEX Architecture](../concept/dex-architecture.md)
+[DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-architecture.md)
 

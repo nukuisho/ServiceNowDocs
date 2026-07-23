@@ -2,6 +2,7 @@
 title: Add or edit a building
 description: Buildings are assigned to campuses with a unique name, and contain floors or levels, a location, and utilization thresholds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_AddOrEditABuilding.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,15 +24,15 @@ Role required: admin
 
 2.  Continue with one of the following options.
 
-<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d30013e99">
+<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d30298e99">
 
 Option
 
-</th><th align="left" id="d30013e102">
+</th><th align="left" id="d30298e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d30013e108">
+</th></tr></thead><tbody><tr><td id="d30298e108">
 
 **To add a building**
 
@@ -40,7 +41,7 @@ Action
 -   Click **New**.
 
 
-</td></tr><tr><td id="d30013e126">
+</td></tr><tr><td id="d30298e126">
 
 **To edit the details of the building**
 
@@ -124,7 +125,7 @@ Area unit
 
 Select the unit used for defining the space size: square feet or square meters.
 
- **Note:** The **Area unit** assigned to all spaces must be consistent for the roll-up calculations to work properly. See [Space roll up calculations](../concept/c_SpaceRollupCalculations.md).
+ **Note:** The **Area unit** assigned to all spaces must be consistent for the roll-up calculations to work properly. See [Space roll up calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_SpaceRollupCalculations.md).
 
 </td></tr><tr><td>
 
@@ -184,15 +185,15 @@ Enter a number to define the maximum level of utilization for the building.
     -   Expense Lines: List of expense lines for the building. Click **New** to create an expense line or on an existing expense line to edit.
 6.  Continue with one of the following options.
 
-<table id="choicetable_pbs_zp4_ht"><thead><tr><th align="left" id="d30013e397">
+<table id="choicetable_pbs_zp4_ht"><thead><tr><th align="left" id="d30298e397">
 
 Option
 
-</th><th align="left" id="d30013e400">
+</th><th align="left" id="d30298e400">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d30013e406">
+</th></tr></thead><tbody><tr><td id="d30298e406">
 
 **To add the building**
 
@@ -201,7 +202,7 @@ Action
 -   Click **Submit**.
 
 
-</td></tr><tr><td id="d30013e424">
+</td></tr><tr><td id="d30298e424">
 
 **To update the building details**
 
@@ -212,5 +213,5 @@ Action
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Customer-created maps](../reference/r_Manually-builtMaps.md)
+**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_Manually-builtMaps.md)
 

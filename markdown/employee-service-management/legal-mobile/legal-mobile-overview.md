@@ -2,6 +2,7 @@
 title: Legal Mobile
 description: The ServiceNow Legal Mobile application enables your employees to submit and track legal requests and lawyers to work on these requests on their mobile devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/legal-mobile-overview.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile

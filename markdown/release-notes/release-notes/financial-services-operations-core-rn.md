@@ -43,7 +43,7 @@ See [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 ## Activation information
 
-Install Financial Services Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Financial Services Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
@@ -52,5 +52,5 @@ Install Financial Services Operations Core by requesting it from the ServiceNow 
     Filter service definitions using the FSO case type selector with the CSM implementation, which supports agent criteria and customer conditions for filtering the service definitions displayed when creating a case.
 
 
-**Parent Topic:**[Financial Services Operations release notes](financial-services-operations-rn-landing.md)
+**Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/financial-services-operations-rn-landing.md)
 

@@ -2,6 +2,7 @@
 title: Setting up the SharePoint Online Search Connector
 description: Set up the SharePoint Online Search Connector by configuring and connecting the Microsoft SharePoint tenant with your instance. Validate the connection to avoid any setup failures before indexing the sites for search.Configure your Microsoft SharePoint tenant to get started with the SharePoint Online Search Connector.Link search sources to a search profile to specify the content users can search through the linked search profile.Connect your ServiceNow instance with a Microsoft SharePoint tenant. Create custom ServiceNow OAuth connections for Microsoft SharePoint to authenticate ServiceNow requests.Run a validation after you connect your ServiceNow instance with a Microsoft SharePoint tenant to check for any errors in the configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/setup-sp-ovrvw.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,9 +28,9 @@ For deprecation details, see the [Deprecation Process \[KB0867184\]](https://sup
 
 Ensure you complete the following prerequisites.
 
--   Follow the procedure to [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
--   Follow the procedure to [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-azure.md). Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) is a dependent plugin that needs to be set up before indexing the users.
--   Understand how to [Configure Microsoft SharePoint Graph connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-microsoft-sharepoint-graph-connection.md).
+-   Follow the procedure to [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-oauth-application-in-microsoft-azure.md).
+-   Follow the procedure to [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-azure.md). Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) is a dependent plugin that needs to be set up before indexing the users.
+-   Understand how to [Configure Microsoft SharePoint Graph connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-microsoft-sharepoint-graph-connection.md).
 -   Log in with your admin credentials to grant permissions.
 
 Role required: admin
@@ -40,7 +41,7 @@ Complete the following procedure from your Microsoft SharePoint account. For mor
 
 **Note:** When the permissions assigned in the Azure apps have privilege issues, the following error message appears: `Error message: Method failed: (/_api/web/XXXXXXX) with code: 401 - Invalid username/password combo`. Address this issue with the instructions available in [KB1117977](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1117977).
 
-When you want the search results to display only the published versions of the documents, ensure you select **Application permissions** instead of the **Delegated permissions** while configuring the permissions explained in [Microsoft SharePoint Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md).
+When you want the search results to display only the published versions of the documents, ensure you select **Application permissions** instead of the **Delegated permissions** while configuring the permissions explained in [Microsoft SharePoint Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sharepoint-online-spoke.md).
 
 **Note:** Admins can limit indexing to the published versions only, ensuring that drafts or unfinished work aren’t displayed in the search results.​
 
@@ -108,15 +109,15 @@ When you want the search results to display only the published versions of the d
 
 6.  Ensure you configure the required API permissions as shown in the following image:
 
-    ![image.spoc-permissions-azure]
+    \[Omitted image "image.spoc-permissions-azure"\] Alt text: SharePoint configured permission list
 
-    For more information, see [Configure Microsoft SharePoint Graph connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-microsoft-sharepoint-graph-connection.md).
+    For more information, see [Configure Microsoft SharePoint Graph connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-microsoft-sharepoint-graph-connection.md).
 
 7.  Click **Grant admin consent**, select **Yes**, and click **Save and Continue**.
 
 8.  Navigate to **Authentication** &gt; **Web** &gt; **Redirect URLs** and add the URL in this format `https://<your Servicenow instance URL>/oauth_redirect.do`, for example, [https://eesharepoint.example.com/oauth\_redirect.do](https://eesharepoint.example.com/oauth_redirect.do) and click **Save**.
 
-9.  Navigate to [Microsoft SharePoint Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md) and register the certificate and secret for your application.
+9.  Navigate to [Microsoft SharePoint Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sharepoint-online-spoke.md) and register the certificate and secret for your application.
 
 10. Click **Add user** on the [Microsoft admin portal](http://admin.microsoft.com/AdminPortal/Home#/users), specify the user details, and click **Finish**.
 
@@ -127,7 +128,7 @@ When you want the search results to display only the published versions of the d
 
 ### What to do next
 
-Complete the integration from your ServiceNow AI Search account. For more information, see [Integrate the Microsoft SharePoint search sources with the AI Search profiles](setup-sp-ovrvw.md#).
+Complete the integration from your ServiceNow AI Search account. For more information, see [Integrate the Microsoft SharePoint search sources with the AI Search profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md).
 
 ## Integrate the Microsoft SharePoint search sources with the AI Search profiles
 
@@ -145,12 +146,12 @@ Role required: admin
 
     -   Search Engine: **AI Search**.
     -   Search Profile: **ESC Portal Default Search Profile**. This dynamic field value is visible after you change the **Search Engine** value.
-    For more information, see [Create a search application configuration for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-app-config-ais.md).
+    For more information, see [Create a search application configuration for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-search-app-config-ais.md).
 
 
 ### What to do next
 
-Connect the ServiceNow® instance with the Microsoft SharePoint tenant. Complete the steps from your ServiceNow® account. For more information, see [Connect your ServiceNow instance to a Microsoft SharePoint tenant](setup-sp-ovrvw.md#).
+Connect the ServiceNow® instance with the Microsoft SharePoint tenant. Complete the steps from your ServiceNow® account. For more information, see [Connect your ServiceNow instance to a Microsoft SharePoint tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md).
 
 ## Connect your ServiceNow instance to a Microsoft SharePoint tenant
 
@@ -177,11 +178,11 @@ Role required: sn\_sp\_con.admin and admin.
 
     1.  On the Graph connection form, fill in the fields.
 
-        For a description of the field value, see [Graph connection form](../reference/graph-connection-form.md).
+        For a description of the field value, see [Graph connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/graph-connection-form.md).
 
     2.  On the REST connection form, fill in the fields.
 
-        For a description of the field value, see [REST connection form](../reference/rest-connection-form.md).
+        For a description of the field value, see [REST connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/rest-connection-form.md).
 
     3.  Right-click the form header and click **Save**.
 
@@ -279,7 +280,7 @@ OAuth entity profile
 </td></tr></tbody>
 </table>    2.  Right-click the form header and click **Save**.
 
-        **Note:** For more information on Entities, Connection &amp; Credential Aliases, see [Configure the SharePoint Graph Root Site Subscription connection and credential alias record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-graph-root.md).
+        **Note:** For more information on Entities, Connection &amp; Credential Aliases, see [Configure the SharePoint Graph Root Site Subscription connection and credential alias record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conf-graph-root.md).
 
 13. **Connection**
 14. Navigate to **Connections &amp; Credentials** &gt; **Connection**, and click **New** to create HTTP\(s\) connections for the following **Graph** or **REST**.
@@ -296,7 +297,7 @@ OAuth entity profile
 
     2.  Right-click the form header and click **Save**.
 
-    For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md) and [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
+    For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md) and [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).
 
 15. **Tenants**
 16. Navigate to **Microsoft Sharepoint Online** &gt; **Tenants.**
@@ -356,14 +357,14 @@ Global
 </td></tr></tbody>
 </table>    3.  Right-click the topic header and click **Save**.
 
-    For more information, see [Define tenants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-tenant.md), [Configure the SharePoint Graph Root Site Subscription connection and credential alias record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-graph-root.md), and [Create aliases for multiple tenants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-aliases-sharepoint.md)
+    For more information, see [Define tenants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-tenant.md), [Configure the SharePoint Graph Root Site Subscription connection and credential alias record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conf-graph-root.md), and [Create aliases for multiple tenants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-aliases-sharepoint.md)
 
 17. **Certificates**
 18. Navigate to **System definition** &gt; **Certificates** &gt; **Microsoft SharePoint Online Certificate**.
 
     1.  Attach the file generated Java Key Store certificate on the Azure AD portal.
 
-        For more information, see [Attach a Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-microsoft-sharepoint-online-and-connection-record.md).
+        For more information, see [Attach a Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-microsoft-sharepoint-online-and-connection-record.md).
 
     2.  Update the Key store password with the password of the `Java Key Store (.jks)` file.
 
@@ -371,7 +372,7 @@ Global
 
     4.  Right-click the topic header and click **Save**.
 
-    For more information, see [Configure the SharePoint Graph Root Site Subscription connection and credential alias record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-graph-root.md).
+    For more information, see [Configure the SharePoint Graph Root Site Subscription connection and credential alias record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conf-graph-root.md).
 
 19. **JWT keys**
 20. Navigate to **System OAuth** &gt; **JWT keys** &gt; **Microsoft SharePoint Online JWT Keys**.
@@ -405,7 +406,7 @@ Global
 
             Ensure that you log in to your Microsoft SharePoint instance with the Tenant administrator credentials to get the OAuth token for the REST connection. Store the credentials in the instance.
 
-            Validate the credential to avoid any configuration failure. For more information on validating the SharePoint connection, see [Validate the Microsoft SharePoint connection](setup-sp-ovrvw.md#).
+            Validate the credential to avoid any configuration failure. For more information on validating the SharePoint connection, see [Validate the Microsoft SharePoint connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md).
 
     3.  Click **Save**.
 
@@ -421,7 +422,7 @@ Global
 
     2.  Click **Save**.
 
-        For more information, see [Set up the AI Search spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ais-spoke.md).
+        For more information, see [Set up the AI Search spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-ais-spoke.md).
 
         **Note:** Ensure you create a trusted domain record for each tenant, when there are multiple tenants.
 
@@ -432,19 +433,19 @@ Global
 
     2.  Specify the **User name** and **Password** of the user \(sys\_user\) who has the **ais\_external\_content** role.
 
-        ![ingest user](../image/spoc-ingest-user.png)
+        \[Omitted image "spoc-ingest-user.png"\] Alt text: ingest user
 
         **Note:** In the example screenshot, the user `abel.tuter` is the sys\_user who has the ais\_external\_content role assigned.
 
     3.  Click **Submit**.
 
-        For more information, see [Create aliases for multiple tenants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-aliases-sharepoint.md).
+        For more information, see [Create aliases for multiple tenants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-aliases-sharepoint.md).
 
-    4.  Configure the [AI Search server connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-ais-spoke.md) before you proceed with the next steps.
+    4.  Configure the [AI Search server connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-ais-spoke.md) before you proceed with the next steps.
 
     The Entity View Action Mapper \(EVAM\) configuration is available by default with Employee Center Pro version 32.0.
 
-    For more information on EVAM definition, see [Create an EVAM action definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-action.md) and [Create a multi-data source list display in Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/tutorial-create-evam.md).
+    For more information on EVAM definition, see [Create an EVAM action definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-evam-action.md) and [Create a multi-data source list display in Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/tutorial-create-evam.md).
 
 
 ### Result
@@ -453,7 +454,7 @@ Your configuration is complete.
 
 ### What to do next
 
-[Validate the Microsoft SharePoint connection](setup-sp-ovrvw.md#) to rule out any configuration failure before indexing a sample site.
+[Validate the Microsoft SharePoint connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md) to rule out any configuration failure before indexing a sample site.
 
 ## Validate the Microsoft SharePoint connection
 
@@ -486,5 +487,5 @@ The validation rules out any configuration failure and ensures a seamless setup 
 
 ### What to do next
 
-Index sites for search. For more information, see [Index sites for search](sharepoint-how-to-configure-search.md).
+Index sites for search. For more information, see [Index sites for search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-how-to-configure-search.md).
 

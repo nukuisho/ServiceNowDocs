@@ -2,6 +2,7 @@
 title: Elevate a contact to the primary contact role from the Source-to-Pay Workspace
 description: Elevate a contact to the primary contact role to enable them to access and manage all the contacts and tasks in the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/elevate-contact-ws.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -38,21 +39,21 @@ Role required: sn\_slm.owner, sn\_slm.manager, sn\_slm.admin
 
 6.  Select the supplier contact.
 
-7.  On the Supplier contact details page, select **Elevate access**.![Selected Elevate access button.](../image/elevate-access-supplier-contact.png)
+7.  On the Supplier contact details page, select **Elevate access**.\[Omitted image "elevate-access-supplier-contact.png"\] Alt text: Selected Elevate access button.
 
 
 ## Result
 
 The Primary contact column is set to **true** for this contact on the Supplier contacts page, and the contact is elevated to the primary contact role.
 
-**Parent Topic:**[Manage supplier contacts from the Source-to-Pay Workspace](../concept/managing-contacts-smw.md)
+**Parent Topic:**[Manage supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md)
 
 **Related topics**  
 
 
-[Add a supplier contact from the Source-to-Pay Workspace](add-supplier-contact.md)
+[Add a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.md)
 
-[Remove a supplier contact from the Source-to-Pay Workspace](remove-supp-contact-ws.md)
+[Remove a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact-ws.md)
 
-[Restrict the primary contact role for a contact from the Source-to-Pay Workspace](restrict-contact-ws.md)
+[Restrict the primary contact role for a contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/restrict-contact-ws.md)
 

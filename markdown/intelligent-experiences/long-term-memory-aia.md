@@ -2,9 +2,10 @@
 title: Set up long-term memory
 description: Make AI agents remember your preference or facts from previous interactions and use memories for more focused conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/long-term-memory-aia.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
 ---
@@ -23,7 +24,7 @@ Role required: sn\_aia.admin
 
 2.  Select **Long-term memory**.
 
-    ![The Long-term memory settings page from AI Agent Studio.](../image/aia-long-term-memory-new.png)
+    \[Omitted image "aia-long-term-memory-new.png"\] Alt text: The Long-term memory settings page from AI Agent Studio.
 
 3.  Configure the User facts and preferences.
 
@@ -41,6 +42,6 @@ Role required: sn\_aia.admin
 
     When you want to turn off agent learning from past executions, you will see a confirmation pop up. Selecting **Disable** will disable agent learning.
 
-    ![Confirmation for disabling agent learning.](../image/disable-agent-learning.png)
+    \[Omitted image "disable-agent-learning.png"\] Alt text: Confirmation for disabling agent learning.
 
 

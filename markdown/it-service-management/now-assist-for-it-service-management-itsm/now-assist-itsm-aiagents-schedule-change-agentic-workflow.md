@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection schedule a change agentic workflow
 description: Use the schedule a change agentic workflow to schedule change requests by identifying the available schedule slots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-schedule-change-agentic-workflow.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -56,7 +57,7 @@ The AI agent executes the request for the agentic workflow.
 
 ## Example of the schedule a change agentic workflow output in the ServiceNow® AI Agent Studio
 
-![Schedule a change agentic workflow output in AI Agent Studio.](../image/now-assist-itsm-schedule-a-change-workflow.png)
+\[Omitted image "now-assist-itsm-schedule-a-change-workflow.png"\] Alt text: Schedule a change agentic workflow output in AI Agent Studio.
 
 Access and use the schedule a change agentic workflow from the Now Assist panel.
 
@@ -64,5 +65,5 @@ You can add a query using the change request number to use the AI agent.
 
 For the query instruction, follow the steps specified in the **List of steps** field of the Define key requirements screen in the agentic workflow record.
 
-In the AI Agent Studio, the human agent gets notified as soon as a text message is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](../task/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as a text message is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 

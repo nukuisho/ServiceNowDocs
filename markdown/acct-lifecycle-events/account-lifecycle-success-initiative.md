@@ -1,15 +1,16 @@
 ---
-title: Create a success initiative
+title: Add a success initiative
 description: Create a success initiative with a planned set of internal or external tasks to support a primary success outcome.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-initiative.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Basic setup, Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Create a success blueprint manually, Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
-# Create a success initiative
+# Add a success initiative
 
 Create a success initiative with a planned set of internal or external tasks to support a primary success outcome.
 
@@ -21,7 +22,7 @@ Role required: role sn\_acct\_lc.customer\_success\_agent , sn\_acct\_lc.custome
 
 Success initiatives are a set of planned activities or tasks that a provider and a customer must complete achieving a primary success outcome. A success initiative can include one or more tasks that can be internal or external and can be defined with the Create Success Initiative playbook.
 
-**Note:** The Create Success Initiative playbook has a set of predefined stages and fields. You can add or modify these stages using Playbooks. See [Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-process-automation-designer.md) for the details.
+**Note:** The Create Success Initiative playbook has a set of predefined stages and fields. You can add or modify these stages using Playbooks. See [Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-process-automation-designer.md) for the details.
 
 ## Procedure
 
@@ -53,7 +54,7 @@ Primary success outcome
 
 The primary success outcome associated with this initiative.
 
- To create applicable success outcome, see [Create an applicable success outcome](account-lifecycle-create-applicable-outcome.md).
+ To create applicable success outcome, see [Create an applicable success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-applicable-outcome.md).
 
 </td></tr><tr><td>
 
@@ -199,16 +200,11 @@ You can perform the following actions:
 -   Discuss: Select **Discuss** to start a sidebar discussion about this initiative. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this initiative. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the **Activity stream**.
 -   Assign to me: Select this option to reassign this initiative to yourself.
 -   Close initiative: Once the initiative has been completed and the Closure code is set to **Achieved**, you can close this initiative.
--   Create success play: Select this option to create a success play. See [Create a success play](account-lifecycle-create-success-play.md) for the details.
+-   Create success play: Select this option to create a success play. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md) for the details.
 -   Email: Open the **Activity stream** and select **Email** from the More drop down list. Enter the required details and select **Send email**.
 
     **Note:** You can send emails only to the team members associated with the account.
 
 
--   **[Create an applicable success outcome](account-lifecycle-create-applicable-outcome.md)**  
-Create the applicable success outcomes to support the primary success outcome.
--   **[Close or cancel a success initiative](account-lifecycle-cancel-success-initiative.md)**  
-You can close or cancel a success initiative and all the related tasks.
-
-**Parent Topic:**[Basic customer success setup](../concept/account-lifecycle-basic-config.md)
+**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

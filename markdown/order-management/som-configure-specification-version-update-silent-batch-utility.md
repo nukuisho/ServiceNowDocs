@@ -2,6 +2,7 @@
 title: Batch update for product specification versions
 description: Use the inventory batch update job to update product specifications when changes occur from one version to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-configure-specification-version-update-silent-batch-utility.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ There are two steps to perform this process. The first is to update the specific
 
 1.  Navigate to **All** &gt; **Product Catalog Management** &gt; **Product Specifications** and select the product specification you want to update.
 
-    ![Image shows the Product Specification window that let managers update specification version.](../image/som-prod-spec-version-update.png)
+    \[Omitted image "som-prod-spec-version-update.png"\] Alt text: Image shows the Product Specification window that let managers update specification version.
 
 2.  Select the **Create New Version** button to create a version of the specification.
 
@@ -41,12 +42,19 @@ There are two steps to perform this process. The first is to update the specific
 
 5.  Navigate to **All** &gt; **Inventory upgrade job** and select the job you’re working with to view the status of the job and address any errors.
 
-    ![Upgrade inventory job window that allows managers to view the progress of an inventory upgrade job.](../image/som-upgrade-inventory-job.png)
+    \[Omitted image "som-upgrade-inventory-job.png"\] Alt text: Upgrade inventory job window that allows managers to view the progress of an inventory upgrade job.
 
 6.  Navigate to **All** &gt; **Inbound queue** &gt; **Inbound requests** and select the record id you’re working with to view the status.
 
     The number of inbound queue requests indicates the number of product inventories that matched the source specification. Once all the inbound queue records are processed, the request creates a change order for each of the inbound queue records processed successfully.
 
 
-**Parent Topic:**[Updating specification versions](../concept/som-specification-version-update.md)
+**Parent Topic:**[Updating specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-specification-version-update.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

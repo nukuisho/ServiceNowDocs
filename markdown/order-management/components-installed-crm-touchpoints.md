@@ -2,6 +2,7 @@
 title: Components installed with CRM Touchpoints
 description: Several types of components are installed with activation of the CRM Touchpoints plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-crm-touchpoints.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -93,5 +94,5 @@ Stores touchpoint records that track customer engagement activities across the s
 </td></tr></tbody>
 </table>The CRM Touchpoint \[sn\_crm\_touchpoint\_touchpoint\] table extends the Case \[case\] table.
 
-**Parent Topic:**[Activity Management reference](../concept/activity-management-reference.md)
+**Parent Topic:**[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)
 

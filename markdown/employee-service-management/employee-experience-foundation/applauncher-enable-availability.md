@@ -2,11 +2,12 @@
 title: Configure application visibility and access
 description: Enhance application discovery and navigation on the App launcher by configuring the access and visibility settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/applauncher-enable-availability.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [App Launcher, Setup task management, Configuring Employee Center Pro, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -21,8 +22,8 @@ Role required: Admin, ESC admin, and taxonomy manager.
 
 Ensure you configure and enable AI search capabilities, see the following AI Search topics:
 
--   [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md)
--   [Configuring navigation tabs in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/config-nav-tabs-ais.md) and tag **ESC Portal Default Search Application**
+-   [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md)
+-   [Configuring navigation tabs in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-nav-tabs-ais.md) and tag **ESC Portal Default Search Application**
 
 ## About this task
 
@@ -43,7 +44,7 @@ Administrators can control user access by specifying who can and can’t use the
 
 2.  Click **New**.
 
-3.  Configure the **Application** form as explained in [Register custom web applications with app launcher](web-applications-custom.md).
+3.  Configure the **Application** form as explained in [Register custom web applications with app launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-applications-custom.md).
 
 4.  Configure the user access control options for application visibility and access.
 
@@ -64,10 +65,10 @@ When an application is configured **Available for** a user, the search results s
 
 **Note:** When you mark an application as **Not Available for** a user, the application tab on the search results indicates the count. However, the user can’t see or navigate to the application due to user permissions.
 
-For more information on Application security directive changes, see [App Launcher](../concept/web-application-employee-about.md)
+For more information on Application security directive changes, see [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee-about.md)
 
 **Related topics**  
 
 
-[Manage favorites](web-configure-favorites-employee.md)
+[Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md)
 

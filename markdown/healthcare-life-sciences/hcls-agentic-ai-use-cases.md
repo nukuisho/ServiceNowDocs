@@ -2,6 +2,7 @@
 title: Using Agentic AI in Now Assist for Care Team Operations
 description: Use the Now Assist for Care Team Operations AI agents within the Request care team assistance agentic workflow to create support requests using the conversational abilities of Now Assist in Virtual Agent directly within Care Team Mobile or Care Team Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-agentic-ai-use-cases.html
 release: australia
 topic_type: concept
 last_updated: "2025-12-29"

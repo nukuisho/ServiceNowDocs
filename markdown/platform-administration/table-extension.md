@@ -2,6 +2,7 @@
 title: Table extension
 description: Partition and preserve data sets for extended periods without overwriting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-extension.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,15 +22,15 @@ The disadvantage is that table extension requires a union query when you query f
 
 Consider using table extension when you have sequentially-written tables or insert-only type tables \(there are exceptions to this parameter\). Table extension is also useful in tables where data is needed for long periods of time.
 
--   **[Apply table extension](../../platform-performance/task/t_TableExtensionExample.md)**  
+-   **[Apply table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TableExtensionExample.md)**  
 Preserve data sets using table extension.
 
-**Parent Topic:**[Applying database rotation techniques](../../database-rotation/concept/c_DatabaseRotation.md)
+**Parent Topic:**[Applying database rotation techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DatabaseRotation.md)
 
 **Related topics**  
 
 
-[Activate database rotation](../../database-rotation/task/t_ActivateDatabaseRotation.md)
+[Activate database rotation]()
 
-[Table rotation](../../platform-performance/concept/c_TableRotation.md)
+[Table rotation]()
 

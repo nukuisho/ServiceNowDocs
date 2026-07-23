@@ -2,13 +2,14 @@
 title: Edit a generated test using Test generation
 description: You can edit a Test generation generated test after the preview is generated in the test generation process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/tg-edit-test.html
 release: australia
 product: Test Generation
 classification: test-generation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Test generation, Test generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Using Test generation, Test generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Edit a generated test using Test generation
@@ -32,10 +33,10 @@ You can use either of the following methods to edit a test that depends on the c
     **Note:** You can also select an existing test row and select an action to be implemented on the selected row. You can also edit the test steps at any point of time during the test creation process.
 
 
-**Parent Topic:**[Using Test generation](tg-use.md)
+**Parent Topic:**[Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-use.md)
 
 **Related topics**  
 
 
-[Generate a test using Test generation](../task/tg-implement.md)
+[Generate a test using Test generation]()
 

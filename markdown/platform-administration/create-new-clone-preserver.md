@@ -2,6 +2,7 @@
 title: Create a clone preserver
 description: Create clone preservers to protect data on the target instance from being overwritten.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-new-clone-preserver.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

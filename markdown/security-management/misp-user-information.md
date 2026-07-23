@@ -2,6 +2,7 @@
 title: MISP user information
 description: You can use the MISP user information page to view all the associated users for the ServiceNow AI Platform MISP integration for Security Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/misp-user-information.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -97,26 +98,26 @@ Tagger Permission
 Permission that enables a user to do tagging.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MISP administration](../concept/misp-administration.md)
+</table>**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
 
 **Related topics**  
 
 
-[Getting started with MISP integration for Security Operations](get-started-with-misp-integration-for-security-operations.md)
+[Getting started with MISP integration for Security Operations]()
 
-[Install and configure the MISP integration for Security Operations](../task/install-and-configure-misp.md)
+[Install and configure the MISP integration for Security Operations]()
 
-[Review the MISP integration settings](../task/review-the-misp-integration-settings.md)
+[Review the MISP integration settings]()
 
-[Configure MISP sighting searches](../task/configure-sightings-search.md)
+[Configure MISP sighting searches]()
 
-[Configure how an automatic event is created](../task/configure-automatic-event-creation-profile.md#)
+[Configure how an automatic event is created]()
 
-[MISP event data](../concept/misp-event-data.md)
+[MISP event data]()
 
-[Associated MISP events](associated-misp-events.md)
+[Associated MISP events]()
 
-[Domain separation and MISP](domain-separation-and-misp.md)
+[Domain separation and MISP]()
 
-[Troubleshooting MISP integration](troubleshooting-misp-integration.md)
+[Troubleshooting MISP integration]()
 

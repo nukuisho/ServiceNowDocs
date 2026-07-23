@@ -2,13 +2,14 @@
 title: Pick the selected asset
 description: Pick the selected asset by using the Asset pick task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/pick-daas-asset.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing inbound asset orders for DaaS assets, Device as a Service, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Managing inbound asset orders for DaaS assets, Device as a Service, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Pick the selected asset
@@ -96,7 +97,7 @@ Asset
 
 </td><td>
 
-The asset that is selected in the Asset selection task. For more information, see [Select an asset](select-daas-asset.md).
+The asset that is selected in the Asset selection task. For more information, see [Select an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/select-daas-asset.md).
 
 </td></tr><tr><td>
 
@@ -174,5 +175,5 @@ Notes about the task that are visible to all users within your organization.
 
 ## What to do next
 
-[Prepare the picked asset by using the Asset prepare task.](prepare-daas-asset.md)
+[Prepare the picked asset by using the Asset prepare task.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/prepare-daas-asset.md)
 

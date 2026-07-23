@@ -2,11 +2,12 @@
 title: Properties of the Environment components
 description: Learn about the properties of the Environment components in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/util-environment-prop.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Environment, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Environment, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Properties of the Environment components
@@ -20,5 +21,5 @@ Learn about the properties of the Environment components in RPA Desktop Design S
 |Enable Timeout|Option to set a timeout value.|
 |Timeout|Number of seconds that the operation ends after if not completed. To apply this value, you must set the **Enable Timeout** property.|
 
-**Parent Topic:**[Environment](../concept/environment-utility.md)
+**Parent Topic:**[Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/environment-utility.md)
 

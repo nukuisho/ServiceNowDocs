@@ -2,13 +2,14 @@
 title: Contract Rate Card form
 description: The Contract rate card form enables you to generate expense lines for recurring expenses automatically by providing detailed price information for a contract. There can be multiple rate cards for the same contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/ContractRateCardForm.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a contract rate card, Contracts, Contract Management use, Contract Management, IT Asset Management]
+breadcrumb: [Create a contract rate card, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
 
 # Contract Rate Card form
@@ -38,14 +39,14 @@ The Contract rate card form enables you to generate expense lines for recurring 
 |Tax cost|Total cost of the tax.|
 |Total cost|Final cost of the rate card after adjustments such as taxes have been applied.|
 
-**Parent Topic:**[Create a contract rate card](../task/t_ContractRateCardsAndExpenseLines.md)
+**Parent Topic:**[Create a contract rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_ContractRateCardsAndExpenseLines.md)
 
 **Related topics**  
 
 
-[Create a new expense line](../task/t_CreatingANewExpenseLine.md)
+[Create a new expense line]()
 
-[Generating expense lines based on assets or users](../task/t_GenExpnsLinOnAssetsUsers.md)
+[Generating expense lines based on assets or users]()
 
-[View contract expense lines](../task/t_ViewingContractExpenseLines.md)
+[View contract expense lines]()
 

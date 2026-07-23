@@ -2,6 +2,7 @@
 title: Create assignment rules
 description: Create assignment rules and assign the Data Loss Prevention Incident Response \(DLP IR\) incidents to user groups, end users, managers, or user from incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-assignment-rules.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -191,7 +192,7 @@ For example, you can use the email address field to identify the end user.
 </td></tr></tbody>
 </table>    The following example shows an assignment rule with the name `Assign 'Medium' Priority Incident to End User`. The condition builder requires the Scan Source to be `Endpoint File System`, and the `Assign to` field is set to `End user`. Then, you can look up the 'Email' of the End user.
 
-    ![Create the assignment rules for your Data Loss Prevention Incident Response incidents](../image/dlp-assignment-rule.png "DLP Assignment rule")
+    \[Omitted image "dlp-assignment-rule.png"\] Alt text: Create the assignment rules for your Data Loss Prevention Incident Response incidents
 
 4.  Select the **Assign to** field from the related list section where all the DLP incidents are assigned to.
 
@@ -206,50 +207,50 @@ For example, you can use the email address field to identify the end user.
 6.  To reapply an assignment rule on all existing DLP incidents, select **Reapply**.
 
 
-**Parent Topic:**[DLP Incident Response Administration](../concept/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
 
-[DLP default configuration settings](configure-data-loss-prevention.md)
+[DLP default configuration settings]()
 
-[Create end user lookup rules](configure-enduser-lookup-rules.md)
+[Create end user lookup rules]()
 
-[Create incident consolidation rules](configure-incident-consolidation-rules-to-consolidate-your-dlp-incidents.md)
+[Create incident consolidation rules]()
 
-[Create response due date rules](setup-response-due-date-rules.md)
+[Create response due date rules]()
 
-[Create Approval Rules](configure-approval-rules.md)
+[Create Approval Rules]()
 
-[Create user instructions templates](create-and-manage-user-instructions-template-for-dlp-incidents.md)
+[Create user instructions templates]()
 
-[Create email templates](create-and-manage-email-templates.md)
+[Create email templates]()
 
-[Create a Data Loss Prevention Incident Response SLA trigger](sla-records.md)
+[Create a Data Loss Prevention Incident Response SLA trigger]()
 
-[Create a Data Loss Prevention Incident Response SLA definition](dlp-sla-definitions.md)
+[Create a Data Loss Prevention Incident Response SLA definition]()
 
-[Create assessments](create-and-manage-assessments-for-dlp-incidents.md)
+[Create assessments]()
 
-[Configure response option for your DLP incidents](configure-response-option-mapping.md)
+[Configure response option for your DLP incidents]()
 
-[Create incident response option rules](configure-end-user-action.md)
+[Create incident response option rules]()
 
-[Create age chart configurations](configure-age-chart.md)
+[Create age chart configurations]()
 
-[Create user delegate configurations](configure-delegation.md)
+[Create user delegate configurations]()
 
-[Create repeat offender identification rules](repeat-offender-identification-rules.md)
+[Create repeat offender identification rules]()
 
-[Create additional incident data fields](create-custom-fields-dlp.md)
+[Create additional incident data fields]()
 
-[DLP SLA Definition form](../reference/dlp-sla-def-properties.md)
+[DLP SLA Definition form]()
 
-[Configure advanced settings](configure-advanced-settings-dlp.md)
+[Configure advanced settings]()
 
-[Monitor DLP Integration Run process](../../dlp-microsoft/concept/configure-microsoft-dlp-integration-run-process.md)
+[Monitor DLP Integration Run process]()
 
-[DLP Incident Access Restrictions](../concept/dlp-incident-access-restrictions.md)
+[DLP Incident Access Restrictions]()
 
-[DLP Incidents Archival](dlp-archiving-rule.md)
+[DLP Incidents Archival]()
 

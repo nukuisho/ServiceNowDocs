@@ -2,6 +2,7 @@
 title: Breadcrumbs widget
 description: The breadcrumbs widget allows users to easily navigate around a portal. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/breadcrumbs-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -19,7 +20,7 @@ The breadcrumbs widget allows users to easily navigate around a portal. You can 
 
 The breadcrumbs widget displays information based on where a page is located in a portal. For example, if you navigate to the Knowledge Base from the home page, then the breadcrumb reads as **Home** &gt; **Knowledge Base**. Each subsequent page that you open expands the breadcrumb.
 
-![Breadcrumbs widget](../image/WidgetBreadcrumbs.png)
+\[Omitted image "WidgetBreadcrumbs.png"\] Alt text: Breadcrumbs widget
 
 Click a page name on the breadcrumbs widget to navigate to that page. For example, to return to the home page, click **Home**.
 
@@ -29,14 +30,14 @@ You can customize this widget to change the breadcrumb path. For more informatio
 
 The breadcrumbs widget does not have instance options.
 
-**Parent Topic:**[Example widgets](sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

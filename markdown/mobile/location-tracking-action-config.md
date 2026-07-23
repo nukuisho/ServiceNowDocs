@@ -2,6 +2,7 @@
 title: Configuring action-based location tracking
 description: Configure action-based tracking location properties. This tracking option starts and stops tracking based on the actions a user performs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/location-tracking-action-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,9 +20,9 @@ Enable geolocation features on your instance by activating the Geolocation plugi
 
 To enable the action-based location tracking option, ensure that you have the Mobile Location Tracking plugin \[com.glide.sg.location.tracking\] installed.
 
-You must have a preconfigured action item before you can configure the action-based tracking option. For more information, see [Configure an action item](sg-studio-create-action-item.md).
+You must have a preconfigured action item before you can configure the action-based tracking option. For more information, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
 
-You need preconfigured action functions for users to tap within their mobile device. For more information, see [Configure an action function](sg-studio-config-action-function.md).
+You need preconfigured action functions for users to tap within their mobile device. For more information, see [Configure an action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-config-action-function.md).
 
 **Note:**
 
@@ -38,19 +39,19 @@ Role required: admin
 
 3.  Select Action item in the **Type** field.
 
-4.  In the **Action item** field, select the search icon \(![Reference lookup icon.](../image/reference-lookup-icon.png)\) and from the list, select the action item you want to trigger.
+4.  In the **Action item** field, select the search icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference lookup icon.\) and from the list, select the action item you want to trigger.
 
 5.  In the **Location tracking action** field, select one of the following options of the action item.
 
-<table id="choicetable_tqp_sb1_fwb"><thead><tr><th align="left" id="d126840e154">
+<table id="choicetable_tqp_sb1_fwb"><thead><tr><th align="left" id="d128886e154">
 
 Location tracking action
 
-</th><th align="left" id="d126840e157">
+</th><th align="left" id="d128886e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126840e163">
+</th></tr></thead><tbody><tr><td id="d128886e163">
 
 **None**
 
@@ -58,7 +59,7 @@ Description
 
 This option does not affect any location tracking functionality.
 
-</td></tr><tr><td id="d126840e172">
+</td></tr><tr><td id="d128886e172">
 
 **Stop**
 
@@ -66,7 +67,7 @@ This option does not affect any location tracking functionality.
 
 Ends a location tracking session.
 
-</td></tr><tr><td id="d126840e181">
+</td></tr><tr><td id="d128886e181">
 
 **Start**
 
@@ -98,5 +99,5 @@ Starts a location tracking session.**Note:** If you select the Start option, the
 7.  Right-click in the header and select **Save**, to save your action function settings.
 
 
-**Parent Topic:**[Enabling and selecting location tracking options](location-tracking-enable.md)
+**Parent Topic:**[Enabling and selecting location tracking options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-enable.md)
 

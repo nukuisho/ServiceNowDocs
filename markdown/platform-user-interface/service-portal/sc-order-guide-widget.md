@@ -2,6 +2,7 @@
 title: SC Order Guide widget
 description: Use this widget \(widget-sc-order-guide-v2\) to request an order guide, that is, a single service catalog request for several catalog items with a specific purpose. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-order-guide-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -15,7 +16,7 @@ breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Conf
 
 Use this widget \(widget-sc-order-guide-v2\) to request an order guide, that is, a single service catalog request for several catalog items with a specific purpose. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-Configure [order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md) using the Service Catalog in the platform UI by navigating to **Service Catalog** &gt; **Catalog Definitions** &gt; **Order Guides**.
+Configure [order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogOrderGuides.md) using the Service Catalog in the platform UI by navigating to **Service Catalog** &gt; **Catalog Definitions** &gt; **Order Guides**.
 
 The order guide form comprises the following sections:
 
@@ -37,7 +38,7 @@ Each accordion displays:
 
     **Note:** If the fields are mandatory, a red asterisk is displayed beside **Options**.
 
--   A toggle to include the catalog item in the order guide request. You can make it mandatory to include all items in the order guide request by not displaying the toggle. You can make it optional to include items in the order guide request by displaying the toggle. To display the toggle for each catalog item of the order guide, select the **Show Include Toggle \(Service Portal\)** check box while configuring the order guide. For more information, see [Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md) .
+-   A toggle to include the catalog item in the order guide request. You can make it mandatory to include all items in the order guide request by not displaying the toggle. You can make it optional to include items in the order guide request by displaying the toggle. To display the toggle for each catalog item of the order guide, select the **Show Include Toggle \(Service Portal\)** check box while configuring the order guide. For more information, see [Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAnOrderGuide.md) .
 
     **Note:** When an item is excluded from the order guide request, the item is not editable and the corresponding mandatory field restrictions are ignored.
 
@@ -118,50 +119,50 @@ Show Add to Cart
 Option to display the **Add to Cart** button on the order guide summary page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog widgets](sc-widgets.md)
+</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
 
-[Catalog Content widget](catalog-content-widget.md)
+[Catalog Content widget]()
 
-[Catalog Homepage Search widget](cat-homepage-search-widget.md)
+[Catalog Homepage Search widget]()
 
-[Recent &amp; Popular Items widget](recent-and-popular-items-widget.md)
+[Recent &amp; Popular Items widget]()
 
-[Request Fields widget](request-fields-widget.md)
+[Request Fields widget]()
 
-[Requested Items widget](requested-items-widget.md)
+[Requested Items widget]()
 
-[Requests and Approvals widget](requests-and-approvals-widget.md)
+[Requests and Approvals widget]()
 
-[SC Catalog Item widget](sc-catalog-item-widget.md)
+[SC Catalog Item widget]()
 
-[SC Categories widget](sc-categories-widget.md)
+[SC Categories widget]()
 
-[SC Category Page widget](sc-category-page-widget.md)
+[SC Category Page widget]()
 
-[SC Popular Items widget](sc-popular-items.md)
+[SC Popular Items widget]()
 
-[SC Save Bundles widget](save-bundles-widget.md)
+[SC Save Bundles widget]()
 
-[SC Saved Carts widget](saved-cart-widget.md)
+[SC Saved Carts widget]()
 
-[SC Scroll to top widget](sc-scroll-to-top.md)
+[SC Scroll to top widget]()
 
-[SC Shopping Cart widget](sc-shopping-cart.md)
+[SC Shopping Cart widget]()
 
-[SP Variable Editor widget](variable-editor-widget.md)
+[SP Variable Editor widget]()
 
-[SC Wish List Cart widget](sc-wish-list.md)
+[SC Wish List Cart widget]()
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 
-[Request an order guide from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-order-guide-portal.md)
+[Request an order guide from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-order-guide-portal.md)
 
-[Configure order guide widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-cart-widgets.md)
+[Configure order guide widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog-cart-widgets.md)
 

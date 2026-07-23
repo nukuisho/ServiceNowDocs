@@ -1,32 +1,36 @@
 ---
 title: Microsoft Foundry \(Classic\) pattern-based discovery
-description: AI Agent Topology Mapping discovers Microsoft Foundry \(Classic\) services and agents during horizontal discovery.
+description: AI Agent Topology Mapping discovers Microsoft Foundry \(Classic\) services, agents, and models during horizontal discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-05-03"
+reading_time_minutes: 10
 keywords: [Azure AI Foundry, Microsoft Foundry, AI Agent Topology Mapping, Azure AI, AI discovery]
 breadcrumb: [Reference, AI Agent Topology Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Microsoft Foundry \(Classic\) pattern-based discovery
 
-AI Agent Topology Mapping discovers Microsoft Foundry \(Classic\) services and agents during horizontal discovery.
+AI Agent Topology Mapping discovers Microsoft Foundry \(Classic\) services, agents, and models during horizontal discovery.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Microsoft Foundry data model
 
 The following diagram illustrates the tables and relationships that the AI Agent Topology Mapping application creates when discovering Microsoft Foundry resources.
 
-![Microsoft Foundry data model](../images/microsoft-foundry-data-model.png "Tables and relationships populated during Microsoft Foundry discovery")
+\[Omitted image "microsoft-foundry-data-model.png"\] Alt text: Microsoft Foundry data model
 
-**Note:** The **Deployed as::Deployment of** relationship between the AI Function \[cmdb\_ci\_function\_ai\] and AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] tables is stored in the Asset-CI Relationship \[cmdb\_rel\_asset\_ci\] table and isn't represented in the Dependency View map.
+**Note:** The following relationships are stored in the Asset-CI Relationship \[cmdb\_rel\_asset\_ci\] table and aren't represented in the Dependency View map:
+
+-   The **Deployed as::Deployment of** relationship between AI Function \[cmdb\_ci\_function\_ai\] and AI System Digital Asset \[alm\_ai\_system\_digital\_asset\].
+-   The **Used by::Uses** relationship between AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\] and AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\].
 
 ## Discovery requirements
 
@@ -40,7 +44,7 @@ The following diagram illustrates the tables and relationships that the AI Agent
     -   CMDB CI Class Models
 -   **Activate the cloud-related CI relationships**
 
-    To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](../../service-mapping/concept/tag_discovery_configuration.md).
+    To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md).
 
 -   **Azure Availability Set**
 
@@ -54,19 +58,19 @@ The following diagram illustrates the tables and relationships that the AI Agent
 
     Enable Cloud Discovery to access your Azure environment.
 
-    Discovering Azure GovCloud \(US\) accounts requires using a datacenter URL when setting up an Azure service account. For more information, see [Set up Azure service accounts](../../it-operations-management/task/setup-azure-service-accounts.md).
+    Discovering Azure GovCloud \(US\) accounts requires using a datacenter URL when setting up an Azure service account. For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-azure-service-accounts.md).
 
 -   **Create an Azure cloud discovery schedule**
 
-    For more information, see [Create an Azure Discovery schedule in Discovery Admin Workspace](../../discovery/task/create-azure-schedule-DAW.md).
+    For more information, see [Create an Azure Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-azure-schedule-DAW.md).
 
 -   **\(Optional\) Discover datacenters only for new subscriptions**
 
-    Starting with Zurich Patch 2, you can discover datacenters only for new subscriptions added since the last discovery. For more information, see [Discover datacenters only for new cloud accounts](../../service-mapping/task/discover-datacenter-only-new-account.md).
+    Starting with Zurich Patch 2, you can discover datacenters only for new subscriptions added since the last discovery. For more information, see [Discover datacenters only for new cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/discover-datacenter-only-new-account.md).
 
 -   **\(Optional\) Populate Service Account and Logical Datacenter fields in cloud CIs**
 
-    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables](../../service-mapping/concept/query-service-account-ldc-fields.md).
+    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md).
 
 
 ## Verify the REST API Permissions
@@ -80,14 +84,17 @@ The AI Agent Topology Mapping application includes the following patterns for Mi
 -   Azure - AI Foundry Agents
 -   Azure - AI Service Foundry
 -   Azure - AI Service Foundry Project
+-   Azure - AI Foundry Models
 
 The Azure - AI Foundry Agents pattern collects AI System Digital Assets, AI Prompt Digital Assets, and Key Value information. You can view this information in the **Related Links** section of the CI record by navigating to **All** &gt; **Configuration** &gt; **Azure** &gt; **Azure AI Foundry Agents** and selecting the relevant record.
+
+The Azure - AI Foundry Models pattern collects AI Model Digital Assets. You can view this information in the **Related Links** section of the CI record by navigating to **All** &gt; **Configuration** &gt; **Azure** &gt; **Azure AI Foundry Models** and selecting the relevant record.
 
 The AI Agent Topology Mapping application populates data in both CMDB and non-CMDB tables.
 
 ## Data stored in non-CMDB tables
 
-The Azure - AI Foundry Agents pattern populates data in non-CMDB tables.
+The AI Agent Topology Mapping application populates data in non-CMDB tables when running the Microsoft Foundry patterns.
 
 If you have the AI Control Tower application, you can view the information in the AI Control Tower Workspace.
 
@@ -131,6 +138,7 @@ If you have the AI Control Tower application, you can view the information in th
 |Model \[model\]|References the AI Model Product Model \[cmdb\_ai\_model\_product\_model\] table.|
 |Asset type \[model\_category\]|Asset type of the model. Value is set to **AI model**.|
 |Vendor \[vendor\]|Provider of the foundation model.|
+|Configuration Item \[ci\]|References the AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\] table.|
 
 |Field|Description|
 |-----|-----------|
@@ -285,15 +293,92 @@ Azure Project Kind \[azure\_project\_kind\]
 Resource kind of the Microsoft Foundry project. For example: AIServices.
 
 </td></tr></tbody>
+</table><table id="table_ai_model_deployment"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name \[name\]
+
+</td><td>
+
+Name of the AI model available in Microsoft Foundry.
+
+</td></tr><tr><td>
+
+Object ID \[object\_id\]
+
+</td><td>
+
+Resource identifier of the AI model.
+
+</td></tr><tr><td>
+
+Description \[short\_description\]
+
+</td><td>
+
+Description of the AI model.
+
+</td></tr><tr><td>
+
+Model number \[model\_number\]
+
+</td><td>
+
+Model name, used as an identifier.
+
+</td></tr><tr><td>
+
+Manufacturer \[manufacturer\]
+
+</td><td>
+
+Provider of the AI model. For example: Microsoft, Anthropic, or OpenAI.
+
+</td></tr><tr><td>
+
+Attributes \[attributes\]
+
+</td><td>
+
+Lifecycle status of the model as reported by the API. For example: Stable or Deprecated.
+
+</td></tr><tr><td>
+
+Comments \[comments\]
+
+</td><td>
+
+Azure resource type identifier. Value is set to **Microsoft.CognitiveServices/locations/models**.
+
+</td></tr><tr><td>
+
+Operational status \[operational\_status\]
+
+</td><td>
+
+Operational status of the resource. Default value is Operational.
+
+</td></tr><tr><td>
+
+Install Status \[install\_status\]
+
+</td><td>
+
+Install status of the resource. Default value is Installed.
+
+</td></tr></tbody>
 </table>## Dependency Views map
 
-The following dependency views display the relationships between Microsoft Foundry resources. The CI relationships table captures all relationships across the three views.
+On the Dependency Views map, you can view discovered Microsoft Foundry resources and the relationships between them.
 
-![Microsoft Foundry AI Foundry CI and connections on a Dependency Views map](../images/microsoft-foundry-ai-foundry-dependency-view.png "Azure AI Foundry dependency view")
-
-![Microsoft Foundry AI Project CI and connections on a Dependency Views map](../images/microsoft-foundry-ai-project-dependency-view.png "Azure AI Project dependency view")
-
-![Microsoft Foundry AI Function CI and connections on a Dependency Views map](../images/microsoft-foundry-ai-function-dependency-view.png "AI Function dependency view")
+\[Omitted image "microsoft-foundry-dependency-view.png"\] Alt text: Microsoft Foundry CIs and connections on a Dependency Views map
 
 ## CI relationships
 
@@ -310,6 +395,9 @@ The Microsoft Foundry patterns create the following relationships and references
 |Azure AI Foundry \[cmdb\_ci\_azure\_ai\_foundry\]|Contains::Contained by|Azure AI Project \[cmdb\_ci\_azure\_ai\_project\]|
 |Azure AI Project \[cmdb\_ci\_azure\_ai\_project\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
 |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Azure AI Project \[cmdb\_ci\_azure\_ai\_project\]|
+|AI Function \[cmdb\_ci\_function\_ai\]|Depends on::Used by|AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\]|
+|AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+|AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\]|Used by::Uses|AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|
 
 |CI/Table|Field|Referenced CI/Table|
 |--------|-----|-------------------|
@@ -320,6 +408,7 @@ The Microsoft Foundry patterns create the following relationships and references
 |AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|Model \[model\]|AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]|
 |AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|Configuration Item \[ci\]|AI Function \[cmdb\_ci\_function\_ai\]|
 |AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|Model \[model\]|AI Model Product Model \[cmdb\_ai\_model\_product\_model\]|
+|AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|Configuration Item \[ci\]|AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\]|
 |Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Azure AI Foundry \[cmdb\_ci\_azure\_ai\_foundry\]|
 |Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Azure AI Project \[cmdb\_ci\_azure\_ai\_project\]|
 
@@ -341,10 +430,10 @@ The Azure - AI Service Foundry Project pattern collects tags and populates them 
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Azure AI Project \[cmdb\_ci\_azure\_ai\_project\] table.|
 
-**Parent Topic:**[AI Agent Topology Mapping reference](ai-agent-topology-mapping-reference.md)
+**Parent Topic:**[AI Agent Topology Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/ai-agent-topology-mapping-reference.md)
 
 **Related topics**  
 
 
-[Microsoft Azure Cloud discovery using patterns](../../service-mapping/reference/azure-cloud-discovery-patterns.md)
+[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

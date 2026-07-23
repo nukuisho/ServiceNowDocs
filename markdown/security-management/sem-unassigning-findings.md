@@ -2,6 +2,7 @@
 title: Removing assignments from findings and remediation tasks
 description: You can remove yourself or your group from the Assigned to and Assignment group fields on findings and remediation tasks if you believe they were incorrectly assigned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-unassigning-findings.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,13 +24,13 @@ Use the **Unassign** option when a finding or remediation task is not relevant t
 
 ## Unassigning from findings and remediation tasks
 
-You can unassign records in any state except Closed or Resolved, using the **Unassign** button or the More options menu \(![Vertical dots](../../security-incident-response/image/more-actions-icon.png)\).
+You can unassign records in any state except Closed or Resolved, using the **Unassign** button or the **More** options menu.
 
 **Supported Records**:
 
 -   **Remediation tasks**: When a remediation task is unassigned, all associated findings with the same assignment group are also unassigned.
 
-    **Note:** Items with a different assignment group than their remediation task are not unassigned, as they are likely manually assigned.
+    **Note:** Items with a different assignment group than their remediation task aren't unassigned, as they are likely manually assigned.
 
 -   **Findings**: Records unassigned manually or via UI appear under the **Unassigned** module.
 
@@ -77,14 +78,10 @@ To view reassignment counts:
 
 Each reassigned record retains a reference to its original assignment rule. The list view displays reassignment counts for each assignment rule, helping you identify rules that may need adjustment.
 
-The following example shows reassignment counts for two assignment rules.
-
-![Reassignment counts for two assignment rules for Vulnerability Response VITs.](../../vulnerability-response/image/vr-reassignment-counts.png)
-
-**Parent Topic:**[Assigning findings to remediation teams using assignment rules](sem-assigning-findings-to-remediation-teams.md)
+**Parent Topic:**[Assigning findings to remediation teams using assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-assigning-findings-to-remediation-teams.md)
 
 **Related topics**  
 
 
-[Remove assignments from findings and remediation tasks](sem-configure-assignment-rules.md#)
+[Remove assignments from findings and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-assignment-rules.md)
 

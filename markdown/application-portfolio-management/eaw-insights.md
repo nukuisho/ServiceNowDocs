@@ -2,6 +2,7 @@
 title: Viewing insights of your portfolio
 description: You can view the insights for your business portfolio, information portfolio, application portfolio, and technology portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-insights.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,9 +21,9 @@ You can see the details such as the following:
 -   Software products that are facing high and moderate technology risks
 -   Pending certification instances that are open and not 100% complete
 
-The last refreshed time shows when the results were refreshed in your browser. You can manually refresh the results by using the refresh icon \(![Refresh icon](../image/icon-refresh.png)\). You can navigate to the full list in the Application Rationalization by selecting the **View list** button. You can see the details of a record by selecting it.
+The last refreshed time shows when the results were refreshed in your browser. You can manually refresh the results by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon\). You can navigate to the full list in the Application Rationalization by selecting the **View list** button. You can see the details of a record by selecting it.
 
-![Insights view](../image/insights-section.png "Insights view")
+\[Omitted image "insights-section.png"\] Alt text: Insights view
 
 -   **Application Portfolio**
 
@@ -33,7 +34,7 @@ The last refreshed time shows when the results were refreshed in your browser. Y
     -   **Candidate business applications for migration**: Displays the number of business applications that are fit for migration, based on their indicator scores.
     -   **Candidate business applications for investment**: Displays the number of business applications that are fit for further investment, based on their indicator scores.
     -   **Business applications w/o cost data**: Displays the number of business applications that lack any cost data associated with them.
-    **Note:** To learn about application indicator scores, see [Manage indicators](eaw-concept/eaw-configure-indicators.md).
+    **Note:** To learn about application indicator scores, see [Manage indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-indicators.md).
 
 -   **Business Portfolio**
 
@@ -169,5 +170,5 @@ The link to the TPM technology lifecycles of the hardware model or software prod
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
 

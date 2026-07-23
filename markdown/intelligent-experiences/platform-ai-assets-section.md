@@ -2,6 +2,7 @@
 title: Now Assist AI assets
 description: The Now Assist AI experience includes generative AI skills, AI agents, and AI agentic workflows. These components work alone or in combination to help achieve efficiencies and results on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platform-ai-assets-section.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,32 +21,32 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](../../ai-implementation/concept/ai-native-sku-overview.md).
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Get started
 
 <table id="table_vhh_f41_zgc" class="nav-card presentation"><tbody><tr><td>
 
-[Now Assist skills![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Now Assist skills are predefined capabilities that use generative AI to perform tasks such as generating summaries, resolution notes, and so forth.](now-assist-skills.md)
+[Now Assist skills\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Now Assist skills are predefined capabilities that use generative AI to perform tasks such as generating summaries, resolution notes, and so forth.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
 
 </td><td>
 
-[Now Assist agentic workflows![](../../../reuse/icons/brand-icons/bus-rocketship.svg)An agentic workflow is a structured sequence of tasks executed by one or more AI agents with minimal human intervention to fulfill a business objective. You can create and manage these workflows in AI Agent Studio.](../../now-assist-ai-agents/concept/sn-aia-use-cases-list.md)
+[Now Assist agentic workflows\[Omitted image "bus-rocketship.svg"\] Alt text:An agentic workflow is a structured sequence of tasks executed by one or more AI agents with minimal human intervention to fulfill a business objective. You can create and manage these workflows in AI Agent Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
 
 </td><td>
 
-[Platform AI agents![](../../../reuse/icons/brand-icons/bus-artificial-intelligence.svg)An agent is a software entity that can perceive its environment, make decisions, and take actions to achieve specific goals. They are often used to automate tasks, interact with users, or manage complex processes.](../../now-assist-ai-agents/concept/platform-ai-agents.md)
+[Platform AI agents\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:An agent is a software entity that can perceive its environment, make decisions, and take actions to achieve specific goals. They are often used to automate tasks, interact with users, or manage complex processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-ai-agents.md)
 
 </td></tr></tbody>
-</table>**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](now-assist-skills-on-by-default.md).
+</table>**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
-For a list of AI assets that are turned on by default, see [Now Assist skills, agents, and agentic workflows on by default](now-assist-skills-on-by-default.md).
+For a list of AI assets that are turned on by default, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 **Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## AI limitations
@@ -58,5 +59,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](../../now-assist-admin/task/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

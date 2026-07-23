@@ -2,13 +2,14 @@
 title: Communicate with customer about proactive case
 description: Communicate with the customer about the proactive case that is generated for service issue. Address the issue promptly and maintain clear, effective communication with the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/create-communication-customer-impact-tab.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-03-31"
 reading_time_minutes: 1
-breadcrumb: [Identify affected accounts, Proactive Service Experience Workflow, Use, Product Support for Technology]
+breadcrumb: [Identify affected accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Communicate with customer about proactive case
@@ -27,7 +28,7 @@ Analyze the service issue in an incident, problem, or change record. If no commu
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the list icon \(![List Icon.](../../../common/image/icon-list.png)\)
+2.  Select the list icon \(\[Omitted image "icon-list.png"\] Alt text: List Icon.\)
 
 3.  Navigate to **All** &gt; **Incidents** &gt; **All**.
 
@@ -37,7 +38,7 @@ Analyze the service issue in an incident, problem, or change record. If no commu
 
 6.  In the Affected customers section, select the account for which you want to send the email.
 
-7.  Select the more option icon \(![More Option Icon.](../image/icon-more-option.png)\).
+7.  Select the more option icon \(\[Omitted image "icon-more-option.png"\] Alt text: More Option Icon.\).
 
 8.  Select **Create communication** from the option list.
 
@@ -50,10 +51,10 @@ Analyze the service issue in an incident, problem, or change record. If no commu
 
 The system sends an email to the customer or consumer account.
 
-**Parent Topic:**[About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](../concept/psew-identify-act-incident.md)
+**Parent Topic:**[About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-identify-act-incident.md)
 
 **Related topics**  
 
 
-[Enhancing customer impact visibility for PSEW processes](../concept/enhance-customer-impact-visibility-psew-process.md)
+[Enhancing customer impact visibility for PSEW processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/enhance-customer-impact-visibility-psew-process.md)
 

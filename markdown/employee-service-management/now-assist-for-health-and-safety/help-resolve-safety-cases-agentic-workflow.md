@@ -2,12 +2,13 @@
 title: Help resolve health and safety cases agentic workflow
 description: Use the Help resolve health and safety cases agentic workflow to enable faster resolution of cases. It enhances the management of Health and Safety cases by improving the time to response for safety teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/help-resolve-safety-cases-agentic-workflow.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use agentic workflows, Now Assist for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
@@ -17,9 +18,11 @@ Use the **Help resolve health and safety cases** agentic workflow to enable fast
 
 The **Help resolve health and safety cases** is a case analyzer agentic workflow designed to support safety teams in resolving cases more quickly and effectively. It reviews related historical cases, analyzes actions taken, and reviews available knowledge base articles to generate suitable action plans. You can select one or more preferred actions from the suggestions to apply to the current case. This process helps safety teams benefit from previous resolutions, reducing the time and effort required to close new cases.
 
+The **Help resolve health and safety cases** agentic workflow is not active by default. For more information to activate an agentic workflow, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
+
 To access the agentic workflow:
 
-1.  Navigate to All&gt;AI Agent Studio&gt;Overview.
+1.  Navigate to **All** &gt; **Agent Studio** &gt; **Overview**.
 2.  Select **Help resolve Health and Safety cases**.
 
     The Help resolve health and safety cases **Describe and connect** workflow opens.

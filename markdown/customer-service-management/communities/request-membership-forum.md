@@ -2,6 +2,7 @@
 title: Request membership to a forum
 description: You must be a registered member of the community to request membership to a forum that is marked for membership only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/request-membership-forum.html
 release: australia
 product: Communities
 classification: communities
@@ -38,42 +39,42 @@ Role required: sn\_communities.community\_user
     **Status** changes to **Request Access**.
 
 
-**Parent Topic:**[Using communities](../concept/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 
 
-[Community homepage features for logged in users](../concept/c_communities-service-portal.md)
+[Community homepage features for logged in users]()
 
-[Navigating the activity feed](../concept/navigating-activity-feed.md)
+[Navigating the activity feed]()
 
-[Navigating the forum homepage](../concept/forum-homepage.md)
+[Navigating the forum homepage]()
 
-[Community homepage features for non-logged in users](../concept/community-homepage-non-logged.md)
+[Community homepage features for non-logged in users]()
 
-[Self-register to a community](register-community.md)
+[Self-register to a community]()
 
-[Search the community](search.md)
+[Search the community]()
 
-[Use a community profile](community-profile.md)
+[Use a community profile]()
 
-[Community subscriptions](../concept/c_communities-subscriptions.md)
+[Community subscriptions]()
 
-[Accept an invitation to join a forum](accept-invitation-forum.md)
+[Accept an invitation to join a forum]()
 
-[Post and respond to content in the community](post-respond-content.md)
+[Post and respond to content in the community]()
 
-[Report inappropriate community content](report-content.md)
+[Report inappropriate community content]()
 
-[Add featured content in a community](feature-community-content.md)
+[Add featured content in a community]()
 
-[Email a community user](private-message-community-user.md)
+[Email a community user]()
 
-[View a list of questions and create a case](case-mgmt-integration-view-list.md)
+[View a list of questions and create a case]()
 
-[Gamification](../concept/communities-gamification.md)
+[Gamification]()
 
-[Community access types](../concept/access-types.md)
+[Community access types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/access-types.md)
 
-[Communities roles](../reference/communities-roles.md)
+[Communities roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-roles.md)
 

@@ -2,6 +2,7 @@
 title: Copy a cost book
 description: Duplicate a cost book and its cost book lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/copy-cost-book.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pri
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Cost Books**.
 

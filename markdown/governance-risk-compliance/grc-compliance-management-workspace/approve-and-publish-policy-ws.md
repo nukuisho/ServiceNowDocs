@@ -2,6 +2,7 @@
 title: Approve and publish a policy using the Compliance Workspace
 description: When a policy is approved, it is automatically published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/approve-and-publish-policy-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

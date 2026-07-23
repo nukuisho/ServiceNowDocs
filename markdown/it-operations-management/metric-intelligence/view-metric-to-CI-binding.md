@@ -2,6 +2,7 @@
 title: View metric to CI and resource binding
 description: View the metric to CI and resource binding results, including details for failed bindings which you can use to mitigate the failure. If Metric Intelligence cannot map and bind a metric to a CI or to a resource, then that CI or resource is not included in anomaly detection until it is properly mapped.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/view-metric-to-CI-binding.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -19,7 +20,7 @@ View the metric to CI and resource binding results, including details for failed
 
 Role required: evt\_mgmt\_admin
 
-If [resource binding](../concept/resource-binding.md) is not enabled, then no resource binding results appear.
+If [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/resource-binding.md) is not enabled, then no resource binding results appear.
 
 ## About this task
 
@@ -165,7 +166,7 @@ Non-Host CI Duplicate
 
 </td><td>
 
-Use the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md) to remediate the duplication.
+Use the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/de-duplication-tasks.md) to remediate the duplication.
 
 </td></tr><tr><td>
 
@@ -173,7 +174,7 @@ Dependent CI Duplicate
 
 </td><td>
 
-Use the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md) to remediate the duplication.
+Use the [Duplicate CI Remediator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/de-duplication-tasks.md) to remediate the duplication.
 
 </td></tr><tr><td>
 
@@ -207,10 +208,10 @@ Verify that the CI Type To Resource Class \[sa\_ci\_type\_to\_resource\_class\] 
 
 Group **Binding Failure Reason** by **Binding Status** to create a summary report with the number of records per failure category. Use this report to efficiently remediate the problems.
 
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 
 **Related topics**  
 
 
-[Creating an event rule to map metrics to specific CIs](../concept/event-rule-bind-metrics-to-ci.md)
+[Creating an event rule to map metrics to specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/event-rule-bind-metrics-to-ci.md)
 

@@ -2,6 +2,7 @@
 title: Create cases for a business location in the Business Location Service Portal
 description: As a staff member with the location agent role, create and manage cases for your business locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/report-cases-on-behalf-of-biz-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,6 +52,14 @@ The record producer used for to create a case for the contributor user. When the
 -   **Business Location**: The logged-in user with the service organization contributor role.
 -   **Myself**: The logged-in user with the self-contributor role.
 
+
+</td></tr><tr><td>
+
+Reported By
+
+</td><td>
+
+Auto-populated with the logged-in user.
 
 </td></tr><tr><td>
 
@@ -172,5 +181,5 @@ Similarly, you can report cases on behalf of a business location, against sold p
 **Related topics**  
 
 
-[Track cases on the Business Location Service Portal](../concept/track-cases-for-blsp-portal.md)
+[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-cases-for-blsp-portal.md)
 

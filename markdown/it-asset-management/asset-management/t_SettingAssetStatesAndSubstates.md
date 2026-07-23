@@ -2,13 +2,14 @@
 title: Set asset states and substates
 description: Use asset states and substates to track assets accurately and at a detailed level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_SettingAssetStatesAndSubstates.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Manage various assets through asset classes, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Manage various assets through asset classes, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Set asset states and substates
@@ -188,14 +189,14 @@ Asset is being prepared. This state is used during the creation of an asset bund
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage various assets through asset classes](../concept/c_AssetClasses.md)
+**Parent Topic:**[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_AssetClasses.md)
 
 **Related topics**  
 
 
-[Create an asset class](t_CreateAnAssetClass.md)
+[Create an asset class]()
 
-[Create license assets](t_CreatingLicenseAssets.md)
+[Create license assets]()
 
-[Add depreciation to an asset](t_AddingDepreciationToAnAsset.md)
+[Add depreciation to an asset]()
 

@@ -2,13 +2,14 @@
 title: Update resource assignment from Project Workspace
 description: Update a resource assignment that is associated with a project or project task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/update-resource-assignment-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Manage resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Update resource assignment from Project Workspace
@@ -43,21 +44,21 @@ Before updating a resource assignment, verify the following to ensure accurate a
 
     The resource assignment is updated in the resource assignment pane.
 
-    **Note:** When a resource is added on an empty resource assignment, which has more than one Full-time equivalent \(FTE\) effort, then an additional row is created automatically and the resource assignment is auto-updated in both the rows.
+    When a resource is added on an empty resource assignment, which has more than one Full-time equivalent \(FTE\) effort, then an additional row is created automatically. The resource assignment is auto-updated in both the rows.
 
     Extend, edit, or delete the resource assignments using the row context menu in resource assignment pane.
 
 
-**Parent Topic:**[Resource assignments in Project Workspace](../concept/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
 
 **Related topics**  
 
 
-[Extend a resource assignment](extend-resource-assignment-pw.md)
+[Extend a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/extend-resource-assignment-pw.md)
 
-[Delete a resource assignment from Project Workspace](delete-resource-assignment-pw.md)
+[Delete a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/delete-resource-assignment-pw.md)
 
-[Update the resource allocation in a heatmap](view-allocations-heatmap-prj-wksp.md)
+[Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)
 
-[Realign resource assignment to project task](realign-resource-assignment-to-task.md)
+[Realign resource assignments with project dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/realign-resource-assignment-to-task.md)
 

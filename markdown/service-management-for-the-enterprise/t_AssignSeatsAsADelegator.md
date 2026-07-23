@@ -2,6 +2,7 @@
 title: Assign users to seats
 description: Delegators receive an email notification requesting that they assign seats using Move Details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_AssignSeatsAsADelegator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,9 +28,9 @@ Role required: admin
 
     The users with pending destinations are listed.
 
-    ![In this figure, the users requiring seats are shown in the Pending Destination section of the Moves tab.](../image/PendingSeats.png "Users pending destinations")
+    \[Omitted image "PendingSeats.png"\] Alt text: In this figure, the users requiring seats are shown in the Pending Destination section of the Moves tab.
 
-4.  Click the ![chair icon](../image/ChairIcon.png) icon beside a name and click a destination space on the map.
+4.  Click the \[Omitted image "ChairIcon.png"\] Alt text: chair icon icon beside a name and click a destination space on the map.
 
     The user and location are added to the Assigned destination link.
 
@@ -37,8 +38,8 @@ Role required: admin
 
     You are finished assigning spaces when all users in the Pending destination list have been moved into the Assigned destination list.
 
-    ![In this figure, the users have all been moved to the Assigned destination section of the Moves tab.](../image/UsersAssigned.png "Users assigned spaces")
+    \[Omitted image "UsersAssigned.png"\] Alt text: In this figure, the users have all been moved to the Assigned destination section of the Moves tab.
 
 
-**Parent Topic:**[Enterprise move scenarios](../reference/r_EnterMoveScenarios.md)
+**Parent Topic:**[Enterprise move scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_EnterMoveScenarios.md)
 

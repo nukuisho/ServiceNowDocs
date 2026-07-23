@@ -2,6 +2,7 @@
 title: Schedule for the fifth instance of a week date
 description: You can select a date that computes to the fifth instance of a weekday for a date near the end of a month for a repeating monthly schedule,
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_FifthInstanceOfADayOfTheWeek.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -36,7 +37,7 @@ Use the **glide.schedules.fifth** system property to control how a schedule entr
 
 3.  Verify that the **Value** is set to **last**.
 
-4.  Navigate to **System Scheduler** &gt; **Schedules** &gt; **Schedules**, [define a new schedule](t_DefineASchedule.md), and click **Submit**.
+4.  Navigate to **System Scheduler** &gt; **Schedules** &gt; **Schedules**, [define a new schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md), and click **Submit**.
 
 5.  Open the new schedule and in the **Schedule Entries** related list, create a new entry with the following parameters:
 
@@ -69,30 +70,30 @@ Use the **glide.schedules.fifth** system property to control how a schedule entr
     -   No meeting \(December 2012 skipped because it does not have five Thursdays\)
     -   January 31, 2013 \(Fifth Thursday of the month\)
 
-**Parent Topic:**[Schedules](../concept/c_UseSchedules.md)
+**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
 **Related topics**  
 
 
-[Default schedules](../reference/r_DefaultSchedules.md)
+[Default schedules]()
 
-[Holidays](../concept/c_Holidays.md)
+[Holidays]()
 
-[Create a holiday schedule for multiple regions](t_CreateAHolidaySchedMultiRegions.md)
+[Create a holiday schedule for multiple regions]()
 
-[Parent and child schedules](../concept/c_ParentAndChildSchedules.md)
+[Parent and child schedules]()
 
-[Define a schedule](t_DefineASchedule.md)
+[Define a schedule]()
 
-[Repeat a monthly schedule](t_RepeatAMonthlySchedule.md)
+[Repeat a monthly schedule]()
 
-[Using schedules and calendars](../reference/r_CreateCalendarsWithSchedulePages.md)
+[Using schedules and calendars]()
 
-[Domain support and schedules](../concept/domain-support-for-schedules.md)
+[Domain support and schedules]()
 
-[Schedules](../concept/c_UseSchedules.md)
+[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
-[Define a schedule](t_DefineASchedule.md)
+[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md)
 
-[Repeat a monthly schedule](t_RepeatAMonthlySchedule.md)
+[Repeat a monthly schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_RepeatAMonthlySchedule.md)
 

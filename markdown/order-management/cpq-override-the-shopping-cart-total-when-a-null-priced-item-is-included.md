@@ -2,11 +2,12 @@
 title: Override the shopping cart total when a null-priced item is included
 description: To avoid displaying an incorrect total price, show a custom string when a bill of materials includes an item with a null price.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-override-the-shopping-cart-total-when-a-null-priced-item-is-included.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up pricing display, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up pricing display, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Override the shopping cart total when a null-priced item is included
@@ -25,11 +26,11 @@ When a BOM contains null-priced items, the total price may be incorrect. When th
 
 1.  In the layout editor, open the product list properties.
 
-    ![Product list](../images/cpq-layout-custom-message-gear-icon.png)
+    \[Omitted image "cpq-layout-custom-message-gear-icon.png"\] Alt text: Product list
 
 2.  In the properties dialog, set **Override display of Total for incomplete pricing** to true, and enter the string to display in the total's place.
 
-    ![Product list properties](../images/cpq-layout-custom-message-override-display.png)
+    \[Omitted image "cpq-layout-custom-message-override-display.png"\] Alt text: Product list properties
 
 3.  Click **Save**.
 
@@ -37,7 +38,7 @@ When a BOM contains null-priced items, the total price may be incorrect. When th
 **Related topics**  
 
 
-[Set a custom message for zero-priced and null-priced items](cpq-set-a-custom-message-for-zero-priced-and-null-priced-items.md)
+[Set a custom message for zero-priced and null-priced items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-[Availability of price value overrides](cpq-availability-of-price-value-overrides.md)
+[Availability of price value overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-availability-of-price-value-overrides.md)
 

@@ -2,6 +2,7 @@
 title: Reorder the navigation pane modules in HR Agent Workspace
 description: Quickly access the navigation pane modules in HR Agent Workspace. For example, Home, List, Inbox, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/reorder-pane-modules-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -34,14 +35,14 @@ Role required: ui\_builder\_admin
 5.  Drag the modules in the required order.
 
 
-**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](../concept/uib-aws.md)
+**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/uib-aws.md)
 
 **Related topics**  
 
 
-[Create a landing page variant](configure-report-aws.md)
+[Create a landing page variant]()
 
-[Enable a detailed data display within a report](drill-down-report.md)
+[Enable a detailed data display within a report]()
 
-[Configure quick links in Agent Workspace for HR Case Management](quick-links-aws.md)
+[Configure quick links in Agent Workspace for HR Case Management]()
 

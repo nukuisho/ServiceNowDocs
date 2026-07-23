@@ -2,6 +2,7 @@
 title: Review and approval of application service maps
 description: After the Service Mapping administrator maps IT services and fixes errors in them, the administrator and the owner collaborate to review and approve the service maps. The review and approval process is available only for discovered and manually created service instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/business-service-approval.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -35,31 +36,31 @@ The process of application service review may take some time as it requires maki
 
 Once the owner approves an application service, the application service status changes to Approved and it appears in the list of completed application services on the **Home** page.
 
--   **[Send application service maps for review](send-business-service-for-review.md)**  
+-   **[Send application service maps for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/send-business-service-for-review.md)**  
 After you map an application service, send it to the application service owner for review to make sure that the map is accurate.
--   **[Review application service maps](review-service-map.md)**  
+-   **[Review application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/review-service-map.md)**  
 As the application service owner for the application service map, you receive an email notification that the application service map is assigned to you for review. Review mapping results for correctness and either provide your feedback or approve the application service map. The review and approval process is available only for discovered and manually created service instances.
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](../concept/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 
 **Related topics**  
 
 
-[Map multiple application services suggested by classic Service Mapping](map-business-services-in-bulk.md)
+[Map multiple application services suggested by classic Service Mapping]()
 
-[Map application services using tags with classic Service Mapping](map-service-tag.md)
+[Map application services using tags with classic Service Mapping]()
 
-[Map multiple application services from a CSV file using classic Service Mapping](import-business-services-csv.md)
+[Map multiple application services from a CSV file using classic Service Mapping]()
 
-[Map a single application service using classic Service Mapping](t_DefineNewBusinessService.md)
+[Map a single application service using classic Service Mapping]()
 
-[Fix application service errors in bulk](fix-bus-serv-errors-by-category.md)
+[Fix application service errors in bulk]()
 
-[Fix errors in individual application service maps](fix-or-ignore-errors-business-service-map.md)
+[Fix errors in individual application service maps]()
 
-[Fine-tune application services to implement owner requests](review-implement-business-service-maps.md)
+[Fine-tune application services to implement owner requests]()
 
-[Application service completion](../concept/advanced-business-service-definitions.md)
+[Application service completion]()
 
-[Application service analysis and maintenance using classic Service Mapping](../concept/c_SvcPlanningAndAnalysisUsingMaps.md)
+[Application service analysis and maintenance using classic Service Mapping]()
 

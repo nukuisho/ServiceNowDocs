@@ -2,9 +2,10 @@
 title: Exploring Now Assist Analytics
 description: Learn how Now Assist Analytics enables users with the Now Assist Analytics Viewer or Now Assist Analytics Admin role to monitor the usage, value, and performance of generative AI features and capabilities offered under Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-now-assist-analytics.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Exploring, Now Assist Analytics, Admin, GenAI, Generative AI]
 breadcrumb: [Analyzing Now Assist performance, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
@@ -45,12 +46,12 @@ Monitor usage, value, and adoption of Now Assist, skill performance, Now Assist 
 
 </td><td>
 
--   [Usage and adoption](usage-and-adoption.md)
+-   [Usage and adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/usage-and-adoption.md)
 -   
--   [Skills performance](skill-usage.md)
--   [Now Assist Guardian analytics](now-assist-guardian-analytics.md)
--   [Now Assist context menu analytics](now-assist-context-menu-analytics.md)
--   [User search analyzer](user-search-analyser.md)
+-   [Skills performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/skill-usage.md)
+-   [Now Assist Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md)
+-   [Now Assist context menu analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-context-menu-analytics.md)
+-   [User search analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/user-search-analyser.md)
 
 </td><td>
 
@@ -61,7 +62,7 @@ Now Assist Analytics Admin or Now Assist Analytics Viewer
 
 To learn more about configuring and using Now Assist Analytics, see:
 
--   [Configuring Now Assist Analytics](configuring-now-assist-analytics.md)
--   [Using Now Assist Analytics](using-now-assist-analytics.md)
--   [Now Assist Analytics reference](now-assist-analytics-reference.md)
+-   [Configuring Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist-analytics.md)
+-   [Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
+-   [Now Assist Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-reference.md)
 

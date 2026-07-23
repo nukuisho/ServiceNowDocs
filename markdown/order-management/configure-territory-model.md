@@ -2,6 +2,7 @@
 title: Configuring the Territory Model
 description: Territory model contains the territory hierarchies mapped to it and maintains the organizational structure for a territory hierarchy​. Create a Territory Model to add territories that can be assigned to accounts, consumers, leads, and opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-territory-model.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,4 +44,11 @@ The Sales Territory Model is shipped by default with the necessary configuration
 
     The new territory model is created. You can update the new territory model with the associated **Territory Model Sources** and **Territory Model Level Mappings**.
 
+
+**Related topics**  
+
+
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md)
 

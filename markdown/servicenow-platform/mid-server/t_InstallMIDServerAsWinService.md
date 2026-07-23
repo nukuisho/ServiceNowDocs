@@ -2,6 +2,7 @@
 title: Manually start, stop, and restart a MID Server
 description: If you did not start the MID Server at the end of the installation procedure, you can manually start the MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_InstallMIDServerAsWinService.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -36,36 +37,36 @@ This procedure is only for users who install the MID Server using the ZIP file. 
     -   If the MID Server is stopped, execute the `start.bat` file.
     -   If the MID Server is running, execute the `restart.bat` file.
 
-**Parent Topic:**[MID Server reference](../concept/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
 
-[MID Server system requirements](../reference/r_MIDServerSystemRequirements.md)
+[MID Server system requirements]()
 
-[MID Server upgrades](../concept/c_UpgradeAndTestMIDServer.md)
+[MID Server upgrades]()
 
-[Resolving MID Server issues](../reference/r_MIDServerTroubleshooting.md)
+[Resolving MID Server issues]()
 
-[MID Server dashboard](../concept/c_MIDServerDashboard.md)
+[MID Server dashboard]()
 
-[MID Server properties](../reference/r_MIDServerProperties.md#)
+[MID Server properties]()
 
-[MID Server parameters](../reference/mid-server-parameters.md#)
+[MID Server parameters]()
 
-[MID Server Configuration Parameter settings and priority](../reference/mid-config-param-priority.md)
+[MID Server Configuration Parameter settings and priority]()
 
-[MID Server File Cleaner](../concept/mid_file_cleaner.md)
+[MID Server File Cleaner]()
 
-[MID Server protected records and reserved characters](../reference/mid-server-reserved-characters.md)
+[MID Server protected records and reserved characters]()
 
-[MID Server privileged commands](../concept/c_PrivilegedCommandsForMIDServer.md#)
+[MID Server privileged commands]()
 
-[MIDSystem methods](../reference/r_MIDSystemMethods.md)
+[MIDSystem methods]()
 
-[MID Server heartbeat](../reference/r_MIDServerHeartbeat.md)
+[MID Server heartbeat]()
 
-[Set the MID Server JVM memory size](t_MIDServerOptionalConfiguration.md)
+[Set the MID Server JVM memory size]()
 
-[Pause the MID Server](t_PauseTheMIDServer.md#)
+[Pause the MID Server]()
 

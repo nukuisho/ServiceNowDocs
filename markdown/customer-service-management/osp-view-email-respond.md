@@ -2,6 +2,7 @@
 title: View case related emails and respond
 description: As an OSP agent, you can view the list of emails related to a case that is assigned to you. You can respond to a case by emailing stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-view-email-respond.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ Role required: sn\_csm\_ocs.ext\_agent
 
 5.  Enter the body text in the Compose Email window.
 
-6.  Select the Attachment icon \(![Attachment icon.](../image/email-attachment.jpg)\) if you want to add an attachment to the email.
+6.  Select the Attachment icon \(\[Omitted image "email-attachment.jpg"\] Alt text: Attachment icon.\) if you want to add an attachment to the email.
 
 7.  Select **Send**.
 

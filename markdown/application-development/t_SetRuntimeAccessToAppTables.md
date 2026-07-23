@@ -2,6 +2,7 @@
 title: Set runtime access to application tables
 description: Set these access permissions to protect application tables at runtime.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/t\_SetRuntimeAccessToAppTables.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: admin
 
 2.  Click the button for the application type you want to edit.
 
-<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d314294e80">
+<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d309468e80">
 
 **__Developed__**
 
@@ -31,7 +32,7 @@ Role required: admin
 
 displays applications created on this instance.
 
-</td></tr><tr><td id="d314294e90">
+</td></tr><tr><td id="d309468e90">
 
 **__Downloaded__**
 
@@ -49,5 +50,5 @@ displays applications downloaded on this instance.
 6.  Click **Update**.
 
 
-**Parent Topic:**[Runtime access to applications tables](../concept/c_RuntimeAccessToAppTables.md)
+**Parent Topic:**[Runtime access to applications tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_RuntimeAccessToAppTables.md)
 

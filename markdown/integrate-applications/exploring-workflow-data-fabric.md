@@ -2,6 +2,7 @@
 title: Exploring Workflow Data Fabric Home
 description: Workflow Data Fabric Home is ServiceNow's unified data foundation that connects enterprise data where it lives, governs it through stable contracts, and makes it ready for workflows, analytics, and AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/exploring-workflow-data-fabric.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,9 +19,13 @@ Workflow Data Fabric Home is ServiceNow's unified data foundation that connects 
 
 Workflow Data Fabric addresses a common enterprise challenge: Data is scattered across dozens of systems, integrations are rebuilt team by team, and AI agents lack the governed context they need to act reliably. Workflow Data Fabric Home addresses this challenge so that once data is connected and governed, any team can discover and reuse it without rebuilding pipelines or compromising data integrity.
 
+-   **Now Assist Panel for Workflow Data Fabric Home**
+
+    The Now Assist panel embedded in the top-right corner of the Workflow Data Fabric \(WDF\) home page header provides AI-guided assistance for data integration, discovery, and action-taking tasks without leaving your current work context.
+
 -   **Now Assist for Workflow Data Fabric \(WDF\)**
 
-    The AI-guided entry point and parent interface for Workflow Data Fabric, powered by Now Assist for WDF. Describe what you need and Now Assist for WDF recommends whether to reuse existing data or connect a new source, and then routes you to the right place.
+    Now Assist for WDF search field in the Workflow Data Fabric \(WDF\) home page also provides AI-guided assistance. Describe what you need and Now Assist for WDF recommends whether to reuse existing data or connect a new source, and then routes you to the right place.
 
 -   **Connect Hub**
 
@@ -35,7 +40,7 @@ Workflow Data Fabric addresses a common enterprise challenge: Data is scattered 
     The interface in Workflow Data Fabric Home where Data Stewards create Data Interfaces and Data Products. The Data Workbench is also used to define mappings, set ACLs, and publish or promote assets.
 
 
-For more information, see [Workflow Data Fabric Home navigation](workflow-data-fabric-tutorial.md).
+For more information, see [Workflow Data Fabric Home navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric-tutorial.md).
 
 ## Workflow Data Fabric Home users
 
@@ -47,7 +52,7 @@ For more information, see [Workflow Data Fabric Home navigation](workflow-data-f
 |WDF Operator|Builds deterministic and agentic workflows that consume governed data through Data Interfaces. WDF Operators are consumers of contracts, not owners or modifiers.|
 |WDF Consumer|Explores the Data Catalog to discover data products, evaluates them for use, requests access, and uses governed data through workflows, analytics, AI agents, or APIs.|
 
-For more information, see [Workflow Data Fabric Home roles](../reference/installed-with-workflow-data-fabric.md).
+For more information, see [Workflow Data Fabric Home roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-workflow-data-fabric.md).
 
 ## Workflow Data Fabric Home benefits
 
@@ -65,10 +70,10 @@ For more information, see [Workflow Data Fabric Home roles](../reference/install
 
 To learn more about configuring and using Workflow Data Fabric Home, see:
 
--   [Configuring Workflow Data Fabric Home](configuring-workflow-data-fabric.md)
--   [Now Assist for Workflow Data Fabric \(WDF\)](now-assist-for-workflow-data-fabric-landing.md)
--   [Connect to external systems](connecthub-connect-to-external-systems.md)
--   [Data Catalog](../../../administer/workflow-data-fabric/concept/data-catalog.md)
--   [Data Products](../../../administer/data-products/concept/data-products.md)
--   [Workflow Data Fabric Home Reference](workflow-data-fabric-reference.md)
+-   [Configuring Workflow Data Fabric Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configuring-workflow-data-fabric.md)
+-   [Now Assist for Workflow Data Fabric \(WDF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-now-assist-for-workflow-data-fabric.md)
+-   [Connect to external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+-   [Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)
+-   [Data Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-products.md)
+-   [Workflow Data Fabric Home Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric-reference.md)
 

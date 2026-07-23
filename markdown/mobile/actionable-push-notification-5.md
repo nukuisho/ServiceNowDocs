@@ -2,6 +2,7 @@
 title: Create push message content
 description: Create a record to determine what information the notification displays to your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/actionable-push-notification-5.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,5 +36,5 @@ Role required: admin
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Configure actionable push notifications](../concept/actionable-push-notification.md)
+**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
 

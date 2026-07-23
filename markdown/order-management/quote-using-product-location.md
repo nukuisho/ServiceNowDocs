@@ -2,6 +2,7 @@
 title: Filter catalogs by location in a quote
 description: Use the location filter on the Catalog tab to filter products by location in Quote Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/quote-using-product-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
@@ -32,5 +33,5 @@ Role required: sales\_agent
     The products in the catalog are filtered according to the selected location.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

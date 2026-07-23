@@ -2,6 +2,7 @@
 title: SpendInt APIs
 description: SpendInt APIs are inbound REST APIs that enable external procurement systems to send catalog, pricing, order, shipment, and invoice data into ServiceNow Sourcing and Procurement Operations, synchronizing structured procurement data from third-party systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spendint-api.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -35,7 +36,7 @@ Each inbound procurement scenario is handled by a dedicated SpendInt endpoint un
 |Shipment updates|Send shipping and delivery status for orders|`POST /sn_spend_intg/spendint/shipment`|
 |Invoice ingestion|Send invoice data generated in third-party external systems into ServiceNow|`POST /sn_spend_intg/spendint/invoice`|
 
-For details about individual APIs, request payloads, and field mappings, see [Spendint API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/spendint-api.md).
+For details about individual APIs, request payloads, and field mappings, see [Spendint API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spendint-api.md).
 
 ## How SpendInt APIs process data
 
@@ -43,28 +44,28 @@ SpendInt endpoints receive inbound payloads and write them to integration stagin
 
 This design separates data ingestion from record creation, allowing consistent handling of supplier data across integration scenarios.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management](spo-itam-better-together.md)
+[Sourcing and Procurement Operations integration with Asset Management]()
 
-[Sourcing and Procurement Operations integration with Employee Center](employee-center-integration-psm.md)
+[Sourcing and Procurement Operations integration with Employee Center]()
 
-[Sourcing and Procurement Operations integration with third-party sourcing solutions](psm-integration-third-party-sourcing.md)
+[Sourcing and Procurement Operations integration with third-party sourcing solutions]()
 
-[Sourcing and Procurement Operations integration with Third-party Risk Management](better-together-with-vrm.md)
+[Sourcing and Procurement Operations integration with Third-party Risk Management]()
 
-[Sourcing and Procurement Operations integration with Project Management](integration-psm-ppm.md)
+[Sourcing and Procurement Operations integration with Project Management]()
 
-[Sourcing and Procurement Operations integration with Celonis](integration-psm-celonis.md)
+[Sourcing and Procurement Operations integration with Celonis]()
 
-[Sourcing and Procurement Operations integration with Field Service Management](integration-psm-fsm.md)
+[Sourcing and Procurement Operations integration with Field Service Management]()
 
-[Source-to-Pay Operations integration with Contract Management Pro](integration-spo-cmpro.md)
+[Source-to-Pay Operations integration with Contract Management Pro]()
 
-[ERP source validation on Sourcing and Procurement Operations objects](../reference/erp-source-val-spo-objects.md)
+[ERP source validation on Sourcing and Procurement Operations objects]()
 
-[Procurement File Transfer Framework](procurement-file-transfer-framework.md)
+[Procurement File Transfer Framework]()
 

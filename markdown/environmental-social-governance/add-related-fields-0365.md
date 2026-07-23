@@ -2,6 +2,7 @@
 title: Add related fields to a Microsoft 365 configuration record
 description: Add related fields to filter values based on the chosen primary field. These filter values will automatically adjust according to the selected filter criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/add-related-fields-0365.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Add related fields to filter values based on the chosen primary field. These fil
 
 ## Before you begin
 
-Create additional reporting configuration filters for a Microsoft 365 configuration record. For more information, see [Set up Microsoft 365 reporting configuration](configure-o365-reporting-configs.md) and [Add additional reporting configuration filters for a Microsoft 365 configuration record](add-additional-reporting-filters.md).
+Create additional reporting configuration filters for a Microsoft 365 configuration record. For more information, see [Set up Microsoft 365 reporting configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-o365-reporting-configs.md) and [Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-additional-reporting-filters.md).
 
 Role required: \(per product\)
 
@@ -36,9 +37,9 @@ Filter the fields dynamically and set up dependencies by using related fields. I
 
 3.  On the Microsoft 365 reporting configuration filters related list, select the field name of the filter you want to add related fields to.
 
-4.  Select the lock icon ![Lock icon.](../../../reuse/icons/product-icons/lock-outline-24.svg) to unlock the related fields and then choose the fields that the **Field name** should be related to.
+4.  Select the lock icon \[Omitted image "lock-outline-24.svg"\] Alt text: Lock icon. to unlock the related fields and then choose the fields that the **Field name** should be related to.
 
-5.  Add related fields by selecting the magnifying glass icon ![Magnifying glass icon.](../../../reuse/icons/product-icons/magnifying-glass-outline-24.svg) and choosing the fields that you want.
+5.  Add related fields by selecting the magnifying glass icon \[Omitted image "magnifying-glass-outline-24.svg"\] Alt text: Magnifying glass icon. and choosing the fields that you want.
 
     Only fields with a greater order values can be selected as related fields.
 
@@ -57,5 +58,5 @@ The related fields are ready to be used as part of your configuration data.
 
 If an ESG reporting disclosure manager wants to understand the total emissions for an entire year for a particular location in Japan and if the location has sub-locations, you can make this process easier by using related fields. To add related fields, select the field that you want to set a dependency with. For instance, select the City field and add the Country field as a related field. Now, when you select Japan as the location's country, the options for the city field will be limited to only cities located in Japan. This setup helps ensure that the data aggregation for Scope 1 emissions is focused on Japan and its specified sub-locations, such as Tokyo and Kyoto.
 
-**Parent Topic:**[Add additional reporting configuration filters for a Microsoft 365 configuration record](add-additional-reporting-filters.md)
+**Parent Topic:**[Add additional reporting configuration filters for a Microsoft 365 configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/add-additional-reporting-filters.md)
 

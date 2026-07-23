@@ -2,6 +2,7 @@
 title: Threat Lookup - VirusTotal workflow
 description: The Threat Lookup - VirusTotal workflow performs a lookup on selected observables. If the observables are of a type recognized by VirusTotal, the observables are scanned for malware, and the results are returned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-lookup-virustotal-wf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,9 +20,9 @@ Role required: admin
 
 ## About this task
 
-This workflow is triggered by the [Security Operations Integration - Threat Lookup capability](../../../security-operations-common/concept/sec-ops-threat-lookups-capability.md) when you perform a threat lookup on one or more observables, and the VirusTotal implementation is selected. For more information, see [Perform lookups on observables](../../../threat-intelligence/task/perform-lookups-on-observables.md).
+This workflow is triggered by the [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-ops-threat-lookups-capability.md) when you perform a threat lookup on one or more observables, and the VirusTotal implementation is selected. For more information, see [Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/perform-lookups-on-observables.md).
 
-![Threat Lookup - VirusTotal workflow](../image/hreat-lookup-virustotal-wf.png "Threat Lookup - VirusTotal workflow")
+\[Omitted image "hreat-lookup-virustotal-wf.png"\] Alt text: Threat Lookup - VirusTotal workflow
 
-For information on the activities used by this workflow, see [Common Security Operations integration flows and orchestration activities](../../../security-operations-common/concept/common-wf-activities.md).
+For information on the activities used by this workflow, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
 

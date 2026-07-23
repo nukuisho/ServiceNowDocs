@@ -2,6 +2,7 @@
 title: Outlook Actionable Messages
 description: Outlook actionable messages plugin enables users to respond to the survey from within the Microsoft Outlook application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/outlook-actionable-messages.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,47 +14,47 @@ breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Survey
 
 Outlook actionable messages plugin enables users to respond to the survey from within the Microsoft Outlook application.
 
--   **[Install Outlook Actionable Messages plugin](../task/install-outlook-actionable-messages-plugin.md)**  
+-   **[Install Outlook Actionable Messages plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-outlook-actionable-messages-plugin.md)**  
 Install Outlook Actionable Messages\(sn\_ms\_oam\) plugin to configure actionable messages.
--   **[Customize fields for the approval message](customize-approval-message.md)**  
+-   **[Customize fields for the approval message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/customize-approval-message.md)**  
 Customize the body message for a request, change, and request item approval sent in Microsoft Outlook.
--   **[Enable Advanced view for Outlook Actionable Message definition](../task/enable-advanced-view-oam.md)**  
+-   **[Enable Advanced view for Outlook Actionable Message definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-advanced-view-oam.md)**  
 Enable the advanced view to customize the actionable message as per the requirement for Microsoft Outlook.
 
-**Parent Topic:**[Survey administration](../../survey-administration/reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](../../survey-administration/task/view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](../../survey-administration/concept/c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](../../survey-administration/task/t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Survey users and groups](../../survey-administration/concept/c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Copy a survey](../../survey-administration/task/copy-survey.md)
+[Copy a survey]()
 
-[Publish a survey](../../survey-administration/task/t_PublishASurvey.md)
+[Publish a survey]()
 
-[Customize the appearance of a survey](../../survey-administration/task/t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Survey definitions](../../survey-administration/concept/c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Create a survey designer template question](../../survey-administration/task/t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](../../survey-administration/concept/c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](../../survey-administration/concept/c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](../../survey-administration/concept/c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Sentiment analysis for surveys](../../survey-administration/concept/sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](../../survey-administration/concept/c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](../../survey-administration/concept/survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](../../survey-administration/concept/c_MigrateSurveys.md)
+[Legacy survey migration]()
 

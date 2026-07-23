@@ -2,11 +2,12 @@
 title: Call a custom skill from a script
 description: You can use a script to call a custom skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/call-custom-skill-from-script.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Create a UI action.
 
-    For more information on creating UI actions, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
+    For more information on creating UI actions, see .
 
 3.  Add your script.
 
@@ -82,22 +83,22 @@ Role required: admin
     ```
 
 
-**Parent Topic:**[Using Now Assist Skill Kit](../concept/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 
 
-[Create a skill](create-new-skill.md)
+[Create a skill]()
 
-[Create a prompt](create-prompt-template.md)
+[Create a prompt]()
 
-[Use prompt assistance](use-prompt-assistance.md)
+[Use prompt assistance]()
 
-[Test a prompt](test-prompt-template.md)
+[Test a prompt]()
 
-[Evaluate a prompt](evaluate-prompt.md)
+[Evaluate a prompt]()
 
-[Finalize and publish a skill](publish-skill.md)
+[Finalize and publish a skill]()
 
-[Activate a skill](activate-skill.md)
+[Activate a skill]()
 

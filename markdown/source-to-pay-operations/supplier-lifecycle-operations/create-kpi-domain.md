@@ -2,6 +2,7 @@
 title: Create KPI performance domains
 description: Create KPI performance domains to classify various KPIs into categories. The KPIs under different performance domains can be viewed in the KPI management tab and the Performance dashboard to measure the supplier performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-domain.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -42,14 +43,14 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
     A record is created for the new performance domain.
 
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 
 **Related topics**  
 
 
-[Create KPI units](create-kpi-units.md)
+[Create KPI units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-units.md)
 
-[Create manual KPI templates](../task/create-kpi-template-slo.md)
+[Create manual KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-template-slo.md)
 
-[Create KPIs by adding suppliers to a KPI template](../task/add-supplier-kpi-template.md)
+[Create KPIs by adding suppliers to a KPI template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-kpi-template.md)
 

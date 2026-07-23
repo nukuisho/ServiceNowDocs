@@ -2,6 +2,7 @@
 title: View your organization's knowledge articles from the Retail portal
 description: View the knowledge articles that were posted by your organization directly from the Retail portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-portal-view-knowledge-articles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: Store associate, Store manager, Regional manager
 
 2.  Find and select the knowledge article that you want to review.
 
-    -   In the **Search Knowledge** field, enter the keywords to search for an article and select the Search icon \(![search icon.](../image/search_icon.png)\).
+    -   In the **Search Knowledge** field, enter the keywords to search for an article and select the Search icon \(\[Omitted image "search\_icon.png"\] Alt text: search icon.\).
     -   Select an article from the **Top Rated Articles** or **Most Viewed Articles** lists.
     -   From the Categories list, filter the articles by selecting a category.
 

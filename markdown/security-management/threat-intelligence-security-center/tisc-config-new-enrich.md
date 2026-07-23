@@ -2,6 +2,7 @@
 title: Configure new enrichment
 description: Set up threat intelligence enrichment integrations to automatically gather additional context about observables, search for sightings, or perform threat lookups from external security vendors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-config-new-enrich.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -25,13 +26,13 @@ Role required: sn\_sec\_tisc.admin
 
 2.  Select the **Integrations** icon.
 
-    ![Configure new enrichment from All Integrations view](../image/enrich-all-integrations.png)In the **All Integrations** section, select the **Configure new enrichment** action.
+    \[Omitted image "enrich-all-integrations.png"\] Alt text: Configure new enrichment from All Integrations viewIn the **All Integrations** section, select the **Configure new enrichment** action.
 
 3.  Choose an enrichment type from the Configure new enrichment dialog.
 
     The Configure new enrichment dialog displays three enrichment types: Observable Enrichment, Sighting Search, and Threat Lookup.
 
-    ![Configure the enrichment type](../image/enrich-popup-observables.png)
+    \[Omitted image "enrich-popup-observables.png"\] Alt text: Configure the enrichment type
 
 4.  From the enrichment types, select your preferred option and select **Next**.
 
@@ -108,10 +109,10 @@ Unique description for the new enrichment integration.
     **Note:** You can also enable, disable, or delete an enrichment integration using the Actions menu on the integration tile.
 
 
-**Parent Topic:**[TISC Enrichment integrations](../concept/tisc-enrichment-integrations.md)
+**Parent Topic:**[TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md)
 
 **Related topics**  
 
 
-[TISC Security Tools integrations](../concept/tisc-edr-integrations.md)
+[TISC Security Tools integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-edr-integrations.md)
 

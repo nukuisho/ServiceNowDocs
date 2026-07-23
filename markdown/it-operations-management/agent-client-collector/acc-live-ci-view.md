@@ -2,6 +2,7 @@
 title: View live CI data with Agent Client Collector
 description: View live data for incident-related CIs through Agent Client Collector for information that can help resolve the incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-live-ci-view.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -33,7 +34,7 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the Lists icon \(![Lists icon](../image/lists-icon.png)\).
+2.  Select the Lists icon \(\[Omitted image "lists-icon.png"\] Alt text: Lists icon\).
 
 3.  Select **Incidents** &gt; **All**.
 
@@ -107,7 +108,7 @@ Users logged in to the CI. Whether this data is visible depends on your OS privi
 **Related topics**  
 
 
-[View live CI data logs](acc-live-ci-view-logs.md)
+[View live CI data logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-live-ci-view-logs.md)
 
-[Assign a problematic CI to its incident to view live CI data](acc-live-ci-view-assign-ci.md)
+[Assign a CI to an incident to view live CI data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-live-ci-view-assign-ci.md)
 

@@ -2,6 +2,7 @@
 title: Configure stacked view for the Activity stream
 description: Configure a stacked view option for journal fields in the Activity stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-activity-stream-general.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: admin
 
 2.  Add the **glide.ui.activity.journal.stacked** system property.
 
-    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set the Value to **true**.
 

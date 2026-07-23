@@ -2,6 +2,7 @@
 title: Threat Intelligence Security Center Catalog
 description: The Threat Intelligence Security Center Catalog is a curated list of Threat Intelligence feeds and enrichment integrations available in the application. You can enable them after adding the required information and schedule the feed to automatically ingest Threat Intelligence data on a set frequency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/threat-intelligence-security-center-catalogue.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -22,7 +23,7 @@ Role required:
 -   sn\_sec\_tisc.admin \(create/update\)
 -   sn\_sec\_tisc.analyst \(read\)
 
-![TISC Catalog](../image/tisc-catolog.png)
+\[Omitted image "tisc-catolog.png"\] Alt text: TISC Catalog
 
 **Note:** The cards on the catalog are differentiated by their label at the top of the card: **Threat Feed/Enrichment**.
 
@@ -55,11 +56,11 @@ Refresh list
 
 </td><td>
 
-Use the refresh icon ![Refresh](../image/enrich-refresh-icon.png) to refresh the list.
+Use the refresh icon \[Omitted image "enrich-refresh-icon.png"\] Alt text: Refresh to refresh the list.
 
 </td></tr><tr><td>
 
-![Sort](../image/enrich-sort-icon.png)
+\[Omitted image "enrich-sort-icon.png"\] Alt text: Sort
 
 </td><td>
 
@@ -77,12 +78,12 @@ Search in catalog
 Use this action to search for feeds and integrations based on the name and description within the catalog.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integrate](integrating-threat-intelligence-security-center.md)
+</table>**Parent Topic:**[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/integrating-threat-intelligence-security-center.md)
 
 **Related topics**  
 
 
-[Threat Intelligence Feeds](threat-intelligence-feeds.md)
+[Threat Intelligence Feeds]()
 
-[TISC Integrations](tisc-integrations.md)
+[TISC Integrations]()
 

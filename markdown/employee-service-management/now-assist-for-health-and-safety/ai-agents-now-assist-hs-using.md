@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for Health and Safety
 description: Use the Health and Safety agentic workflow collection to complete tasks autonomously through the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-using.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety

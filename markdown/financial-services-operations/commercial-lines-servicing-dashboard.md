@@ -2,6 +2,7 @@
 title: Commercial Lines Servicing dashboard
 description: With the Commercial Lines Servicing dashboard, you can get an insight into how your team and business are performing for the personal policy service requests that were received for your insurance services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/commercial-lines-servicing-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ The Commercial Lines Servicing dashboard enables you to monitor the status of th
 
 ## Access the Commercial Lines Servicing dashboard
 
-To access the Commercial Lines Servicing dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Commercial Lines Servicing dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon.\).
 
 Alternatively, you can navigate to **All** &gt; **Commercial Lines Servicing** &gt; **Analytics**.
 
@@ -115,5 +116,5 @@ Needs to be able to customize views.
 -   Policy Reject Reason
 -   Policy Service
 
-**Parent Topic:**[Implementing Platform Analytics solutions](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
 

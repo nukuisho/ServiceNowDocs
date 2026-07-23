@@ -2,9 +2,10 @@
 title: Delete an Operational Sustainability Management dashboard
 description: You can delete a dashboard that is no longer useful. The Analytics Center invokes the Workflow Studio to remove the dashboard from your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/delete-an-esg-dashboard.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -23,9 +24,9 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Analytics dashboard**.
 
-2.  Select the Analytics dashboard icon ![](../images/dashboard-icon.png) and then select the dashboard that you want to delete.
+2.  Select the Analytics dashboard icon \[Omitted image "dashboard-icon.png"\] Alt text: and then select the dashboard that you want to delete.
 
-3.  From the More actions menu ![](../images/more-menu.png), select**Delete**.
+3.  From the More actions menu \[Omitted image "more-menu.png"\] Alt text:, select**Delete**.
 
 4.  Confirm the deletion.
 
@@ -33,8 +34,8 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
     1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
     2.  Find the plugin using the filter criteria and search bar.
-    3.  Select the More actions icon ![](../images/more-menu.png) and choose **Repair**.
+    3.  Select the More actions icon \[Omitted image "more-menu.png"\] Alt text: and choose **Repair**.
     4.  Select **Repair** in the Activate Plugin window.
 
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

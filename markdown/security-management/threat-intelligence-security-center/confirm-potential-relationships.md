@@ -2,13 +2,14 @@
 title: Confirm Potential Relationships from Related Records
 description: Confirm the relationships between the two SDOs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/confirm-potential-relationships.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+reading_time_minutes: 1
+breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Confirm Potential Relationships from Related Records
@@ -39,31 +40,31 @@ Role required: sn\_sec\_tisc.analyst
 
 8.  Click **Confirm Relationships** button to confirm the relationships between the objects.
 
-    **Note:** For more information, see[Relationships Objects](../concept/relationship-objects.md) and [Potential Relationships](../concept/potential-relationships.md).
+    **Note:** For more information, see[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/relationship-objects.md) and [Potential Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/potential-relationships.md).
 
-    ![Related Records-Potential Relationships](../image/tisc-confirm-relationships-related-records.png)
+    \[Omitted image "tisc-confirm-relationships-related-records.png"\] Alt text: Related Records-Potential Relationships
 
 9.  Click **Delete** to delete the associated observables.
 
-    For information on how the potential relationships and relationships are established between the SDOs, see [Potential Relationships](../concept/potential-relationships.md) and [Relationships Objects](../concept/relationship-objects.md).
+    For information on how the potential relationships and relationships are established between the SDOs, see [Potential Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/potential-relationships.md) and [Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/relationship-objects.md).
 
 
-**Parent Topic:**[Threat Intelligence Security Center Library](../concept/threat-intelligence-security-center-library.md)
+**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 
 
-[Understanding the Data Model](../reference/understanding-the-data-model.md)
+[TISC Data Model]()
 
-[TISC Library Objects form view](../concept/tisc-library-home-page-view.md)
+[TISC Library Objects form view]()
 
-[TISC Library Repository](../concept/tisc-ioc.md)
+[TISC Library Repository]()
 
-[Access Vulnerability Downstream actions](../concept/downstream-actions-from-the-vulnerability-form-view.md)
+[Access Vulnerability Downstream actions]()
 
-[Deleting threat intelligence library records](tisc-delete-lib-records.md)
+[Deleting threat intelligence library records]()
 
-[Export intelligence data](tisc-export-observables.md)
+[Export intelligence data]()
 
-[Automated Correlation](../concept/automated-correlation-rules.md)
+[Automated Correlation]()
 

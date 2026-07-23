@@ -2,6 +2,7 @@
 title: Custom UI test steps
 description: Test customized user interfaces such as UI pages and UI macros by retrieving their HTML and JavaScript page components and identifying the test actions they support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/custom-ui-test-steps.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -43,7 +44,7 @@ Testable page components consist of standard HTML and JavaScript with these char
 
 -   **Are accessible to the Page Inspector**
 
-    Testable page components must return results when viewed from the [Page Inspector](atf-page-inspector.md). Test designers can use the Page Inspector to identify the testable components of a page.
+    Testable page components must return results when viewed from the [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md). Test designers can use the Page Inspector to identify the testable components of a page.
 
 
 Examples of testable page components include these UI elements.
@@ -102,7 +103,7 @@ Automated Test Framework allows UI developers to specify a data type to use duri
 -   Date Time
 -   Reference
 
-See [Override component data type](../task/override-component-data-type.md) for more information.
+See [Override component data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/override-component-data-type.md) for more information.
 
 ## Clickable page components
 
@@ -147,7 +148,7 @@ Follow these design considerations when testing custom UI pages and page compone
 
 -   **Use HTML attributes to override page component testing properties**
 
-    Change the testing properties of a particular page component using HTML attributes that are specific to Automated Test Framework. See [Override component test actions](../task/develop-testable-components.md#).
+    Change the testing properties of a particular page component using HTML attributes that are specific to Automated Test Framework. See [Override component test actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/develop-testable-components.md).
 
 -   **Retrieve page components again when you move tests to another instance**
 
@@ -158,7 +159,7 @@ Follow these design considerations when testing custom UI pages and page compone
 
 You can use the list of retrieved components to design custom UI test steps. For example, suppose that you want to test reviewing and commenting on a Knowledge Base article. A Knowledge Base article contains several page components that require custom UI steps to test.
 
-![Page displaying KB0011110 "ServiceNow Secure Coding guide for Instance developers"](../image/atf-example-custom-ui-kb-article.png "Example Knowledge article page")
+\[Omitted image "atf-example-custom-ui-kb-article.png"\] Alt text: Page displaying KB0011110 "ServiceNow Secure Coding guide for Instance developers"
 
 For example, these page components require custom UI test steps.
 
@@ -176,13 +177,13 @@ These steps demonstrate custom UI testing on a Knowledge Base article. The examp
 6.  **Click Component \(Custom UI\)**. Click the component: 'Button &lt;button&gt;: Comment'.
 7.  **Assert Text on Page \(Custom UI\)**. Assert that the text 'Update with actual article rather than URL to article elsewhere.' is on the page.
 
-![Screenshot displaying example test with seven test steps.](../image/atf-example-kb-test-steps-enlarged.png "Example test steps for a knowledge base article test")
+\[Omitted image "atf-example-kb-test-steps-enlarged.png"\] Alt text: Screenshot displaying example test with seven test steps.
 
 ## Custom UI component version and order
 
 When you select a component in any of the custom UI test steps, the Custom UI version might show up. If there are multiple duplicate components, the order of the components show up.
 
-![Image showing order for duplicate components](../image/atf-version-order.png)
+\[Omitted image "atf-version-order.png"\] Alt text: Image showing order for duplicate components
 
 **Note:**
 
@@ -206,28 +207,28 @@ Identify your component using the label path included in the **Page area** colum
 
 If a component has the `sn-atf-area` attribute, the **Page area** column displays the `sn-atf-area` value. If the `sn-atf-area` attribute is not present, the label path for that component is shown in the Page area column.
 
-![Image showing label path of the component](../image/atf-label-path.png)
+\[Omitted image "atf-label-path.png"\] Alt text: Image showing label path of the component
 
 **Note:** If you have multiple, identically named **Label** values, the label path helps you identify the correct component. If a component doesn't have an `sn-atf-area` attribute or a label path, the value is displayed as default.
 
-![Image showing default value of components](../image/atf-default.png)
+\[Omitted image "atf-default.png"\] Alt text: Image showing default value of components
 
 When you select the required component from the list and click **Submit**, the description of the test step also gets updated with more details.
 
-![Image showing an updated description of a submitted test step](../image/atf-description.png)
+\[Omitted image "atf-description.png"\] Alt text: Image showing an updated description of a submitted test step
 
--   **[Page Inspector](atf-page-inspector.md)**  
+-   **[Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md)**  
 Identify the HTML and JavaScript page components in your user interfaces that are available for custom UI testing. Enable automated testing by ensuring that your user interfaces only contain testable page components.
--   **[Enable and use the page inspector](../task/enable-page-inspector.md)**  
+-   **[Enable and use the page inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/enable-page-inspector.md)**  
 Enable a developer setting to inspect UI pages that open within the platform. Use the Manual Page Inspector to inspect pages that open in a new tab, such as Service Portal pages.
--   **[Create a custom UI test](../task/create-custom-ui-test.md)**  
+-   **[Create a custom UI test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/create-custom-ui-test.md)**  
 Test components in custom UI pages.
--   **[Override component test actions](../task/develop-testable-components.md#)**  
+-   **[Override component test actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/develop-testable-components.md)**  
 Change the testing properties of a particular page component using HTML attributes that are specific to Automated Test Framework.
--   **[Override component data type](../task/override-component-data-type.md)**  
+-   **[Override component data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/override-component-data-type.md)**  
 Use the `sn-atf-data-type` and `sn-atf-data-type-params` attributes to override the type of field displayed in a Set Component Value test step.
--   **[Select2 functionalities in ATF](atf-select2.md)**  
+-   **[Select2 functionalities in ATF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-select2.md)**  
 Use the Select2 component to search and select your option from a drop-down menu easily.
 
-**Parent Topic:**[UI test steps](ui-test-steps.md)
+**Parent Topic:**[UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/ui-test-steps.md)
 

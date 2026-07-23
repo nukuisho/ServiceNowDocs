@@ -2,6 +2,7 @@
 title: Get started with dynamic inputs
 description: Create a sample action that illustrates using all available types of dynamic inputs in a flow.Create the aliases, connections, and credentials needed to connect to your local instance.Create a custom data gathering action to fetch a list of table names from the Table API.Create a data gathering action to get a list of fields from a table.Create a data gathering action to add a reference type dynamic input.Create a custom action to test dynamic inputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/getting-started-dynamic-input.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,39 +22,39 @@ Role required: action\_designer or admin
 
 ## Procedure
 
-1.  [Create credential and connection records for your instance](getting-started-dynamic-input.md#).
+1.  [Create credential and connection records for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md).
 
     This connection &amp; credential alias will provide the base URL and user account needed to configure the REST steps of your data gathering actions.
 
-2.  [Create a data gathering action to get table names](getting-started-dynamic-input.md#).
+2.  [Create a data gathering action to get table names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md).
 
     This data gathering action will provide JSON data for dynamic choice inputs.
 
-3.  [Create a data gathering action to get field names](getting-started-dynamic-input.md#).
+3.  [Create a data gathering action to get field names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md).
 
     This data gathering action provides JSON data for dynamic template inputs.
 
-4.  [Create a data gathering action to add dynamic inputs](getting-started-dynamic-input.md#).
+4.  [Create a data gathering action to add dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md).
 
     This data gathering action provides JSON data to create arbitrary dynamic inputs.
 
-5.  [Create a custom action to test dynamic inputs](getting-started-dynamic-input.md#).
+5.  [Create a custom action to test dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-input.md).
 
     This custom action illustrates different types of dynamic inputs.
 
 
-**Parent Topic:**[Dynamic inputs](../concept/dynamic-inputs.md)
+**Parent Topic:**[Dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-inputs.md)
 
 **Related topics**  
 
 
-[Create a data gathering action for a dynamic choice](create-data-gathering-action-dynamic-choice.md)
+[Create a data gathering action for a dynamic choice]()
 
-[Create a data gathering action for a dynamic template](create-data-gathering-action-dynamic-template.md)
+[Create a data gathering action for a dynamic template]()
 
-[Create a data gathering action for a dynamic inputs type input](create-data-gathering-action-dynamic-inputs.md)
+[Create a data gathering action for a dynamic inputs type input]()
 
-[Dynamic input configuration options](../reference/dynamic-input-options.md)
+[Dynamic input configuration options]()
 
 ## Create credential and connection records for your instance
 
@@ -126,11 +127,11 @@ Role required: action\_designer or admin
 
 This data gathering action consists of these elements.
 
--   A REST step to gather table names from the REST [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md)
+-   A REST step to gather table names from the REST [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md)
 -   A script step to construct a JSON payload from the REST step's Response Body
 -   An action output variable named `output` to store table name and value pairs as a JSON document
 
-This custom action uses a REST API call to duplicate the functionality of the ServiceNow core [Look Up Record action](../reference/lookup-record-flow-designer.md) and [Look Up Records action](../reference/lookup-records-flow-designer.md). Typically, you do not need to create custom actions to perform basic record operations. This action illustrates working with the REST and Script steps to gather table data for dynamic inputs.
+This custom action uses a REST API call to duplicate the functionality of the ServiceNow core [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) and [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-records-flow-designer.md). Typically, you do not need to create custom actions to perform basic record operations. This action illustrates working with the REST and Script steps to gather table data for dynamic inputs.
 
 ### Procedure
 
@@ -146,9 +147,9 @@ This custom action uses a REST API call to duplicate the functionality of the Se
 
     3.  Select **Submit**.
 
-    ![Example action properties created from step 2](../images/create-dga-tables-01.png)
+    \[Omitted image "create-dga-tables-01.png"\] Alt text: Example action properties created from step 2
 
-4.  In the Action Outline under the Inputs section, select the add a new step icon \(![Add a new step icon](../images/add-new-step-icon.png)\).
+4.  In the Action Outline under the Inputs section, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: Add a new step icon\).
 
 5.  From the **Integrations** section, select the **REST** step, and enter these field values.
 
@@ -174,7 +175,7 @@ Connection Alias
 
 </td><td>
 
-Select the alias you created earlier, or select the Create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md).
+Select the alias you created earlier, or select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).
 
 </td></tr><tr><td>
 
@@ -201,15 +202,15 @@ HTTP Method
 Enter `GET`
 
 </td></tr></tbody>
-</table>    ![Example REST step configuration from steps 3 and 4](../images/create-dga-tables-02-rest-step.png)
+</table>    \[Omitted image "create-dga-tables-02-rest-step.png"\] Alt text: Example REST step configuration from steps 3 and 4
 
-6.  In the Action Outline under your REST step, select the Add a new step icon \(![New step icon](../images/add-new-step-icon.png)\), and select the **Script** step.
+6.  In the Action Outline under your REST step, select the Add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: New step icon\), and select the **Script** step.
 
     1.  In the Input Variables section, select **Create Variable**.
 
     2.  In the **Name** field, enter `payload`.
 
-    3.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **REST Step** &gt; **Response Body**.
+    3.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **REST Step** &gt; **Response Body**.
 
     4.  In the **Script** field, enter the following code.
 
@@ -234,7 +235,7 @@ Enter `GET`
 
     7.  In the **Type** field, select `JSON`.
 
-    ![Example Script step configuration from step 5](../images/create-dga-tables-03-script-step.png)
+    \[Omitted image "create-dga-tables-03-script-step.png"\] Alt text: Example Script step configuration from step 5
 
 7.  In the Action Outline, select **Outputs**.
 
@@ -246,11 +247,11 @@ Enter `GET`
 
     4.  Select **Exit Edit Mode**.
 
-    5.  Next to the **Value**, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **Script step** &gt; **tables**.
+    5.  Next to the **Value**, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Script step** &gt; **tables**.
 
-    ![Example action output configuration from step 6](../images/create-dga-tables-04-outputs.png)
+    \[Omitted image "create-dga-tables-04-outputs.png"\] Alt text: Example action output configuration from step 6
 
-8.  In the Action header, select **Save** and then select **Test** to [test the action](test-action.md).
+8.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
 
     1.  Select **Run Test**.
 
@@ -365,7 +366,7 @@ Enter `GET`
         }
         ```
 
-    ![Example action execution details from step 7](../images/create-dga-tables-06-execution-details.png)
+    \[Omitted image "create-dga-tables-06-execution-details.png"\] Alt text: Example action execution details from step 7
 
 9.  In the Action header, select **Publish** to make this action available to other flows and actions within the Global scope.
 
@@ -382,11 +383,11 @@ Role required: action\_designer or admin
 
 This data gathering action consists of these elements.
 
--   A REST step to gather fields from the REST [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md)
+-   A REST step to gather fields from the REST [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md)
 -   A script step to construct a JSON payload from the REST step's Response Body
 -   An action output variable named `output` to store field name and value pairs as a JSON document
 
-This custom action uses a REST API call to duplicate the functionality of the ServiceNow core [Look Up Record action](../reference/lookup-record-flow-designer.md) and [Look Up Records action](../reference/lookup-records-flow-designer.md). Typically, you do not need to create custom actions to perform basic record operations. This action illustrates working with the REST and Script steps to gather field data for dynamic inputs.
+This custom action uses a REST API call to duplicate the functionality of the ServiceNow core [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) and [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-records-flow-designer.md). Typically, you do not need to create custom actions to perform basic record operations. This action illustrates working with the REST and Script steps to gather field data for dynamic inputs.
 
 ### Procedure
 
@@ -402,7 +403,7 @@ This custom action uses a REST API call to duplicate the functionality of the Se
 
     3.  Select **Submit**.
 
-    ![Example action properties from step 2](../images/create-dga-fields-01-action-properties.png)
+    \[Omitted image "create-dga-fields-01-action-properties.png"\] Alt text: Example action properties from step 2
 
 4.  From the Action Outline, select **Inputs**.
 
@@ -418,9 +419,9 @@ This custom action uses a REST API call to duplicate the functionality of the Se
 
     6.  For **Default value**, enter `incident`.
 
-    ![Example input configuration from step 3](../images/create-dga-fields-02-inputs.png)
+    \[Omitted image "create-dga-fields-02-inputs.png"\] Alt text: Example input configuration from step 3
 
-5.  In the Action Outline under the REST step, select the Add a new step icon \(![New step icon](../images/add-new-step-icon.png)\).
+5.  In the Action Outline under the REST step, select the Add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: New step icon\).
 
 6.  From the **Integrations** section, select the **Script** step, and enter these field values.
 
@@ -428,7 +429,7 @@ This custom action uses a REST API call to duplicate the functionality of the Se
 
     2.  In the **Name** field, enter `table`.
 
-    3.  Next to the **Value**, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **Action** &gt; **Table**.
+    3.  Next to the **Value**, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Action** &gt; **Table**.
 
     4.  In the **Script** field, enter the following code.
 
@@ -451,9 +452,9 @@ This custom action uses a REST API call to duplicate the functionality of the Se
 
     7.  In the **Type** field, select **String**.
 
-    ![Example Script step configuration from step 5](../images/create-dga-fields-02-script-input-default-value.png)
+    \[Omitted image "create-dga-fields-02-script-input-default-value.png"\] Alt text: Example Script step configuration from step 5
 
-7.  In the Action Outline under the Inputs section, select the Add a new step icon \(![New step icon](../images/add-new-step-icon.png)\).
+7.  In the Action Outline under the Inputs section, select the Add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: New step icon\).
 
 8.  From the **Integrations** section, select the **REST** step, and enter these field values.
 
@@ -479,7 +480,7 @@ Connection Alias
 
 </td><td>
 
-Select the alias you created earlier, or select the Create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md).
+Select the alias you created earlier, or select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-https-connection.md).**Note:** The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-information.md) and [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md).
 
 </td></tr><tr><td>
 
@@ -495,7 +496,7 @@ Resource Path
 
 </td><td>
 
-Enter `api/now/table/` and then select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\). Select **Script step** &gt; **Table**.
+Enter `api/now/table/` and then select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\). Select **Script step** &gt; **Table**.
 
 </td></tr><tr><td>
 
@@ -516,9 +517,9 @@ Add this query parameter to make the REST API only return one record.-   **Name*
 
 
 </td></tr></tbody>
-</table>    ![Example REST step configuration from step 7](../images/create-dga-fields-03-rest-step.png)
+</table>    \[Omitted image "create-dga-fields-03-rest-step.png"\] Alt text: Example REST step configuration from step 7
 
-9.  In the Action Outline under the REST step, select the Add a new step icon \(![New step icon](../images/add-new-step-icon.png)\).
+9.  In the Action Outline under the REST step, select the Add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: New step icon\).
 
 10. From the **Integrations** section, select the **Script** step, and enter these field values.
 
@@ -526,7 +527,7 @@ Add this query parameter to make the REST API only return one record.-   **Name*
 
     2.  In the **Name** field, enter `payload`.
 
-    3.  Next to the **Value**, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **REST Step** &gt; **Response Body**.
+    3.  Next to the **Value**, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **REST Step** &gt; **Response Body**.
 
     4.  In the **Script** field, enter the following code.
 
@@ -554,7 +555,7 @@ Add this query parameter to make the REST API only return one record.-   **Name*
 
     7.  In the **Type** field, select **JSON**.
 
-    ![Example Script step configuration from step 9](../images/create-dga-fields-04-script-step.png)
+    \[Omitted image "create-dga-fields-04-script-step.png"\] Alt text: Example Script step configuration from step 9
 
 11. In the Action Outline, select **Outputs**.
 
@@ -566,11 +567,11 @@ Add this query parameter to make the REST API only return one record.-   **Name*
 
     4.  Select **Exit Edit Mode**.
 
-    5.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and then select **Script step** &gt; **fields**.
+    5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and then select **Script step** &gt; **fields**.
 
-    ![Example output configuration from step 8](../images/create-dga-fields-05-outputs.png)
+    \[Omitted image "create-dga-fields-05-outputs.png"\] Alt text: Example output configuration from step 8
 
-12. In the Action header, select **Save** and then select **Test** to [test the action](test-action.md).
+12. In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, in the **Table** field, enter `incident`.
 
@@ -627,7 +628,7 @@ Add this query parameter to make the REST API only return one record.-   **Name*
           }
         ```
 
-    ![Example action execution details from step 9](../images/create-dga-fields-07-execution-details.png)
+    \[Omitted image "create-dga-fields-07-execution-details.png"\] Alt text: Example action execution details from step 9
 
 13. In the Action header, click **Publish** to make this action available to other actions within the Global scope.
 
@@ -648,7 +649,7 @@ This data gathering action includes these elements.
 -   A script step to construct two dynamic inputs as a JSON object
 -   An action output variable named `output` to store the dynamic inputs
 
-This custom action uses a reference type input to duplicate the functionality of the ServiceNow core [Look Up Record action](../reference/lookup-record-flow-designer.md) and [Look Up Records action](../reference/lookup-records-flow-designer.md). Generally, you don’t need to create custom actions to perform basic record operations. This action illustrates working with the Script steps to gather field data for dynamic inputs.
+This custom action uses a reference type input to duplicate the functionality of the ServiceNow core [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) and [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-records-flow-designer.md). Generally, you don’t need to create custom actions to perform basic record operations. This action illustrates working with the Script steps to gather field data for dynamic inputs.
 
 ### Procedure
 
@@ -664,7 +665,7 @@ This custom action uses a reference type input to duplicate the functionality of
 
     3.  Select **Submit**.
 
-    ![Example action properties from step 2](../images/create-dga-dynamic-01-action-properties.png)
+    \[Omitted image "create-dga-dynamic-01-action-properties.png"\] Alt text: Example action properties from step 2
 
 4.  From the Action Outline, select **Inputs**.
 
@@ -674,13 +675,13 @@ This custom action uses a reference type input to duplicate the functionality of
 
     3.  In the **Type** field, select **String**.
 
-    4.  Select the Toggle Advanced Inputs icon \(![Toggle advanced input icon](../images/icon-toggle-advanced-input.png)\).
+    4.  Select the Toggle Advanced Inputs icon \(\[Omitted image "icon-toggle-advanced-input.png"\] Alt text: Toggle advanced input icon\).
 
     5.  In the **Default value** field, enter `sys_user`.
 
-    ![Example action input configuration from step 3](../images/create-dga-dynamic-02-inputs.png)
+    \[Omitted image "create-dga-dynamic-02-inputs.png"\] Alt text: Example action input configuration from step 3
 
-5.  In the Action Outline under Inputs, select the Add a new step icon \(![New step icon](../images/add-new-step-icon.png)\).
+5.  In the Action Outline under Inputs, select the Add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: New step icon\).
 
 6.  From the **Integrations** section, select the **Script** step, and enter these field values.
 
@@ -688,7 +689,7 @@ This custom action uses a reference type input to duplicate the functionality of
 
     2.  In the **Name** field, enter `table`.
 
-    3.  Next to the **Value**, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **Inputs** &gt; **Table**.
+    3.  Next to the **Value**, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Inputs** &gt; **Table**.
 
     4.  In the **Script** field, enter the following code.
 
@@ -731,7 +732,7 @@ This custom action uses a reference type input to duplicate the functionality of
 
     7.  In the **Type** field, select **JSON**.
 
-    ![Example script step configuration from steps 4 through 5](../images/create-dga-dynamic-03-script-step.png)
+    \[Omitted image "create-dga-dynamic-03-script-step.png"\] Alt text: Example script step configuration from steps 4 through 5
 
 7.  In the Action Outline, select **Outputs**.
 
@@ -743,11 +744,11 @@ This custom action uses a reference type input to duplicate the functionality of
 
     4.  Select **Exit Edit Mode**.
 
-    5.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and then select **Script step** &gt; **data**.
+    5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and then select **Script step** &gt; **data**.
 
-    ![Example output configuration from step 6](../images/create-dga-dynamic-04-outputs.png)
+    \[Omitted image "create-dga-dynamic-04-outputs.png"\] Alt text: Example output configuration from step 6
 
-8.  In the Action header, select **Save** and then select **Test** to [test the action](test-action.md).
+8.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
 
     1.  Select **Run Test**.
 
@@ -768,7 +769,7 @@ This custom action uses a reference type input to duplicate the functionality of
         }
         ```
 
-    ![Example action execution details from step 7](../images/create-dga-dynamic-06-execution-details.png)
+    \[Omitted image "create-dga-dynamic-06-execution-details.png"\] Alt text: Example action execution details from step 7
 
 9.  In the Action header, select **Publish** to make this action available to other actions within the Global scope.
 
@@ -783,13 +784,13 @@ Role required: action\_designer or admin
 
 ### About this task
 
-This helper action duplicates the functionality of the [Create Record step](../reference/create-record-action-designer.md) to illustrate gathering data from a REST step. Generally, you use dynamic inputs for integrations to third-party systems and data.
+This helper action duplicates the functionality of the [Create Record step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-record-action-designer.md) to illustrate gathering data from a REST step. Generally, you use dynamic inputs for integrations to third-party systems and data.
 
 This custom action includes these elements.
 
 -   An input of type Dynamic Choice to select a table
 -   An input of type Dynamic Template to select and set field values
--   A script step to create a record from the [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   A script step to create a record from the 
 -   An action output variable named `output` to store the sys\_id of the record created
 
 ### Procedure
@@ -806,7 +807,7 @@ This custom action includes these elements.
 
     3.  Select **Submit**.
 
-    ![Example action properties configuration from step 2](../images/create-custom-action-01-action-properties.png)
+    \[Omitted image "create-custom-action-01-action-properties.png"\] Alt text: Example action properties configuration from step 2
 
 4.  In the Action Outline, select **Inputs**.
 
@@ -848,9 +849,9 @@ This custom action includes these elements.
 
     19. Leave the **Table** field blank to use the default value of sys\_user provided by the data gathering action.
 
-    ![example inputs configuration from step 3](../images/create-custom-action-02-inputs.png)
+    \[Omitted image "create-custom-action-02-inputs.png"\] Alt text: example inputs configuration from step 3
 
-5.  In the Action Outline under the Inputs section, select the Add a new step icon \(![New step icon](../images/add-new-step-icon.png)\).
+5.  In the Action Outline under the Inputs section, select the Add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: New step icon\).
 
 6.  From the **Integrations** section, select the **Script** step, and enter these field values.
 
@@ -858,19 +859,19 @@ This custom action includes these elements.
 
     2.  In the **Name** field, enter `table`.
 
-    3.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **Inputs** &gt; **Table**.
+    3.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Inputs** &gt; **Table**.
 
     4.  Select **Create Variable** to create another input variable.
 
     5.  In the **Name** field, enter `fields`.
 
-    6.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **Inputs** &gt; **Fields**.
+    6.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Inputs** &gt; **Fields**.
 
     7.  Select **Create Variable** to create another input variable.
 
     8.  In the **Name** field, enter `payload`.
 
-    9.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and select **Inputs** &gt; **Dynamic Input**.
+    9.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and select **Inputs** &gt; **Dynamic Input**.
 
     10. In the **Script** field, enter the following code.
 
@@ -894,7 +895,7 @@ This custom action includes these elements.
 
     13. In the **Type** field, select **Document ID**.
 
-    ![Example Script step configuration from steps 4 through 5](../images/create-custom-action-03-script-step.png)
+    \[Omitted image "create-custom-action-03-script-step.png"\] Alt text: Example Script step configuration from steps 4 through 5
 
 7.  In the Action Outline, select **Outputs**.
 
@@ -906,11 +907,11 @@ This custom action includes these elements.
 
     4.  Select **Exit Edit Mode**.
 
-    5.  Next to the **Value** field, select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\) and then select **Script step** &gt; **record**.
+    5.  Next to the **Value** field, select the data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Data pill picker\) and then select **Script step** &gt; **record**.
 
-    ![Example outputs configuration from step 6](../images/create-custom-action-04-outputs.png)
+    \[Omitted image "create-custom-action-04-outputs.png"\] Alt text: Example outputs configuration from step 6
 
-8.  In the Action header, select **Save** and then select **Test** to [test the action](test-action.md).
+8.  In the Action header, select **Save** and then select **Test** to [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
 
     1.  On the Test Action screen, in the **Table** input, select any dynamically generated table choice option.
 
@@ -926,13 +927,13 @@ This custom action includes these elements.
 
     4.  Select **Run Test**.
 
-        **Note:** Records you create from the Table API bypass data policies and required fields normally related with record creation. This action is for illustration purposes only. Use the [Create Record step](../reference/create-record-action-designer.md) instead to create records with standard protections and validations.
+        **Note:** Records you create from the Table API bypass data policies and required fields normally related with record creation. This action is for illustration purposes only. Use the [Create Record step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-record-action-designer.md) instead to create records with standard protections and validations.
 
     5.  View the action's execution details.
 
         You can use the Record Created output to verify that the runtime values for `Table` and `Field` match the test values you entered.
 
-    ![Example action execution details from step 7](../images/create-custom-action-06-execution-details.png)
+    \[Omitted image "create-custom-action-06-execution-details.png"\] Alt text: Example action execution details from step 7
 
 9.  In the Action header, select **Publish** to make this action available to flows within the Global scope.
 
@@ -941,5 +942,5 @@ This custom action includes these elements.
 
 You can add this action to a flow in Workflow Studio. This sample action dynamically generates a list of tables and related fields in your instance whose values that you can assign during flow design.
 
-![Example flow using the Create Record from Dynamic Inputs action](../images/example-flow-using-create-record-dynamic-inputs.png)
+\[Omitted image "example-flow-using-create-record-dynamic-inputs.png"\] Alt text: Example flow using the Create Record from Dynamic Inputs action
 

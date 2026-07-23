@@ -2,6 +2,7 @@
 title: Using Playbooks for Customer Service Management
 description: Customer service agents can use playbooks to complete the tasks and activities that are needed to resolve specific types of cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbooks-using.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,18 +27,18 @@ Several features are available to agents when using a playbook, depending on the
 
 | | |
 |---|---|
-|[Create a record using a playbook](../task/csm-playbook-create-record.md)|If a playbook is configured to use the record generator feature, customer service agents can create a record using a playbook activity.|
-|[Filter playbook activities](../task/csm-playbook-filter-activities.md)|Filter the activities in playbook stages by the selected user or activity state.|
-|[Using the activity stream in the contextual side panel](csm-playbooks-using-activity-stream.md)|Customer service agents can access the activity stream in the contextual side panel to communicate with requesters and make internal notes about the work done on a record.|
-|[Viewing dynamic related records in the contextual side panel](csm-playbooks-viewing-rel-records.md)|Customer service agents can view dynamic related records that dynamically change based on the context of the current record or playbook activity.|
-|[Viewing ribbon information in the contextual side panel](csm-playbooks-viewing-ribbon-info.md)|Customer service agents can view ribbon information in the contextual side panel, including the case overview and timeline, Customer 360, and SLAs.|
-|[Add an optional activity](using-customized-playbook-experience-for-customer-service-management.md)|Add optional activities to different stages in a playbook as needed. For example, a customer may want to schedule an appointment to visit a location.|
-|[Summarize a case](case-summarization-in-process-page.md)|Use the Now Assist for CSM case summarization skill to summarize the case details and display this information on the case record.|
+|[Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-create-record.md)|If a playbook is configured to use the record generator feature, customer service agents can create a record using a playbook activity.|
+|[Filter playbook activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-filter-activities.md)|Filter the activities in playbook stages by the selected user or activity state.|
+|[Using the activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using-activity-stream.md)|Customer service agents can access the activity stream in the contextual side panel to communicate with requesters and make internal notes about the work done on a record.|
+|[Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)|Customer service agents can view dynamic related records that dynamically change based on the context of the current record or playbook activity.|
+|[Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)|Customer service agents can view ribbon information in the contextual side panel, including the case overview and timeline, Customer 360, and SLAs.|
+|[Add an optional activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-customized-playbook-experience-for-customer-service-management.md)|Add optional activities to different stages in a playbook as needed. For example, a customer may want to schedule an appointment to visit a location.|
+|[Summarize a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-summarization-in-process-page.md)|Use the Now Assist for CSM case summarization skill to summarize the case details and display this information on the case record.|
 
 **Related topics**  
 
 
-[Playbooks in Customer Service Management](setting-up-csm-playbooks.md)
+[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)
 
-[Configure Playbooks for Customer Service Management](csm-playbooks-configuring.md)
+[Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-configuring.md)
 

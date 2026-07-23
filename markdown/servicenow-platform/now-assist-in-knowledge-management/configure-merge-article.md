@@ -2,6 +2,7 @@
 title: Configure Now Assist skills for merging articles
 description: To merge the duplicate knowledge articles, activate Now Assist skills for merging the duplicate articles. Once configured, these skills enable the system to merge duplicate articles effectively, ensuring consistent and streamlined content management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/configure-merge-article.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -30,10 +31,10 @@ Role required: admin
 
 Verify that the skills display an **Active** or **Deactivated** status based on your selection. Once activated, you can merge duplicate articles.
 
-**Parent Topic:**[Configuring Now Assist in Knowledge Management](../concept/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 
 **Related topics**  
 
 
-[Merge duplicate articles](merge-duplicate-articles.md)
+[Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/merge-duplicate-articles.md)
 

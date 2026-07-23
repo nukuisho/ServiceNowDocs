@@ -2,9 +2,10 @@
 title: Available patches and hotfixes
 description: The Australia family includes patches and hotfixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/available-versions.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Learn about the Australia release, Australia release notes]
 ---
@@ -13,20 +14,21 @@ breadcrumb: [Learn about the Australia release, Australia release notes]
 
 The Australia family includes patches and hotfixes.
 
-**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](upgrades/reference/upgrade.md).
+**Important:** For more information about how to upgrade an instance, see [ServiceNow upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md).
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
 **Note:** This ServiceNow AI Platform® major family release is now available in ServiceNow's Regulated Market environments. For more information about services available in isolated environments, see [KB0743854](https://support.servicenow.com/kb_view.do?sysparm_article=KB0743854).
 
-## Q2 2026 Patching Program Targets
+## Q3 2026 Patching Program Targets
 
 Targets are subject to change prior to patching. Target versions change only if absolutely necessary.
 
 |Releases|Patch target option|Release notes|
 |--------|-------------------|-------------|
-|Zurich|[Zurich Patch 7a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2935961)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
-|Yokohama|[Yokohama Patch 12 Hotfix 1a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2935652)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
+|Australia|[Australia Patch 2 Hotfix 3a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3135839)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
+|Zurich|[Zurich Patch 10 Hotfix 2](https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-10-hf-2.html)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
+|Yokohama|[Yokohama Patch 13 Hotfix 3](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3081672)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
 
 ## Available versions
 
@@ -50,7 +52,155 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
-[Australia Patch 2](quality/australia-patch-2.md)
+[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)
+
+ [Australia Patch 4 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3126028)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/07/09
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 3 Hotfix 2](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3137130)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/06
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 3 Hotfix 1](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3104013)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/20
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+
+ [Australia Patch 3 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3035030)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/06/16
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 3a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3135839)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/03
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 3](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3137328)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/07/06
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 2a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3108234)
+
+</td><td>
+
+Security patch
+
+</td><td>
+
+2026/06/23
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 2](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3101088)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/06/19
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2-hf-1.md)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/05/27
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
  [Australia Patch 2 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2977251)
 
@@ -64,11 +214,11 @@ Patch
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
-[Australia Patch 1](quality/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 
  [Australia Patch 1 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2797601)
 
@@ -86,9 +236,9 @@ Available to Early Availability customers
 
 </td></tr><tr><td>
 
-[Australia security and notable fixes](quality/australia-security-notables.md)
+[Australia security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-security-notables.md)
 
- [All other Australia fixes](quality/australia-all-other-fixes.md)
+ [All other Australia fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-all-other-fixes.md)
 
 </td><td>
 
@@ -118,18 +268,24 @@ For the latest MetricBase on-premise release notes, refer to [KB0748185](https:/
 
 ## Ancillary software releases
 
-For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **[Australia Patch 2](quality/australia-patch-2.md)**  
+-   **[Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-4.md)**  
+The Australia Patch 4 release contains important problem fixes.
+-   **[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)**  
+The Australia Patch 3 release contains important problem fixes.
+-   **[Australia Patch 2 Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2-hf-1.md)**  
+The Australia Patch 2 Hotfix 1 release contains fixes to these problems.
+-   **[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)**  
 The Australia Patch 2 release contains important problem fixes.
--   **[Australia Patch 1](quality/australia-patch-1.md)**  
+-   **[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)**  
 The Australia Patch 1 release contains important problem fixes.
--   **[Australia EA Hotfix 1](quality/australia-patch-0-hf-1-PO.md)**  
+-   **[Australia EA Hotfix 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-0-hf-1-PO.md)**  
 The Australia EA Hotfix 1 release contains fixes to these problems.
--   **[Australia security and notable fixes](quality/australia-security-notables.md)**  
+-   **[Australia security and notable fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-security-notables.md)**  
 The Australia release contains important problem fixes.
--   **[All other Australia fixes](quality/australia-all-other-fixes.md)**  
+-   **[All other Australia fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-all-other-fixes.md)**  
 The Australia release contains important problem fixes.
 
-**Parent Topic:**[Learn about the Australia release](concept/rn-learn-landing-page.md)
+**Parent Topic:**[Learn about the Australia release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/rn-learn-landing-page.md)
 

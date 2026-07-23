@@ -2,6 +2,7 @@
 title: Request translations for surveys
 description: Request translations for surveys to localize them into one or more languages. Localization requested items that are created for the selected surveys in all the selected languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/request-translations-for-surveys.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,20 +33,20 @@ Role required: localization\_requestor
     Localization requested items are created for the selected surveys in all the selected languages. A success message with a link to the list of requested surveys is displayed. You can click the link to see the list.
 
 
-**Parent Topic:**[Survey responses and results](../concept/c_SurveyResults.md)
+**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md)
 
 **Related topics**  
 
 
-[View results for all surveys](t_ViewResultsForAllSurveys.md)
+[View results for all surveys]()
 
-[View the results for a survey](t_ViewResultsForASpecificSurvey.md)
+[View the results for a survey]()
 
-[View a survey scorecard](t_ViewAScorecard.md)
+[View a survey scorecard]()
 
-[Export a quiz scorecard as an image](../../assessments/task/t_ExportAQuizScorecard.md)
+[Export a quiz scorecard as an image]()
 
-[Edit translations for surveys](edit-translations-for-surveys.md)
+[Edit translations for surveys]()
 
-[Survey responses in a database view](../concept/survey-result-database-view.md)
+[Survey responses in a database view]()
 

@@ -2,6 +2,7 @@
 title: Requesting sandboxes
 description: Developers generally have admin rights on the non-production instance where Developer Sandboxes are allocated, and can thus allocate a sandbox to themselves.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dsb-requesting-sandboxes.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -21,5 +22,5 @@ However, if you don't have admin rights and need a sandbox, you should contact y
 
 The ServiceNow admin in your company can help you with things like activating plugins, kicking off upgrades, unlocking accounts, updating user permissions, and much more.
 
-How to get help from your admin 
+\[Omitted video\] Description: How to get help from your admin
 

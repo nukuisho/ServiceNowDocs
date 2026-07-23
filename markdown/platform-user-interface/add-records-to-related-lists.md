@@ -2,6 +2,7 @@
 title: Add records to a related list
 description: Add records to a related list to provide information related to the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-records-to-related-lists.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ For example, an open record documents a power outage in one location. When there
 
 **Note:** Not all workspaces or related lists have the **Add** button available. The **Add** must be added by your administrator.
 
-![Add related list](../image/y-add-related-list.png)
+\[Omitted image "y-add-related-list.png"\] Alt text: Add related list
 
 ## Procedure
 
@@ -41,7 +42,7 @@ For example, an open record documents a power outage in one location. When there
 
     A dialog box with a list of records opens.
 
-    ![Add records dialog box](../../configurable-workspace/image/list-related-dialog-box.png)
+    \[Omitted image "list-related-dialog-box.png"\] Alt text: Add records dialog box
 
 5.  Select the records that you want to add to the related list.
 

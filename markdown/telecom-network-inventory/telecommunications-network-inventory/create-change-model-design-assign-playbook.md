@@ -2,6 +2,7 @@
 title: Create a Change Model for Design and Assign function
 description: Create a Change model and add the model states and model state transitions. You can use this Change model to configure a Design and Assign function.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-change-model-design-assign-playbook.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -74,7 +75,7 @@ The change request is approved.
 
 The change request is closed.
 
-You can also add a new model state to the Change model based on the requirements of your Design and Assign function. To learn more, see [add multi-layer model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddANewState.md).
+You can also add a new model state to the Change model based on the requirements of your Design and Assign function. To learn more, see add multi-layer model states.
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Option to enable this state as the initial state for your model. This field is a
 </td></tr></tbody>
 </table>7.  To save the state and return to the Change Model form, select **Submit**.
 
-8.  To add a transition between the states, select the display/hide hierarchical lists icon \(![Hide/display hierarchical Lists Icon](../image/icon-display-hide-hierarchial.png)\) for the model state that you want to apply the transition to.
+8.  To add a transition between the states, select the display/hide hierarchical lists icon \(\[Omitted image "icon-display-hide-hierarchial.png"\] Alt text: Hide/display hierarchical Lists Icon\) for the model state that you want to apply the transition to.
 
     The Model State Transitions context menu appears.
 
@@ -112,18 +113,16 @@ A Change model is created with the model states and model state transitions.
 
 ## What to do next
 
-Create a record producer to configure an activity in the playbook. To learn more, see [Create a record producer for the Design and Assign function](create-record-producer-design-assign-playbook.md).
+Create a record producer to configure an activity in the playbook. To learn more, see [Create a record producer for the Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-record-producer-design-assign-playbook.md).
 
-**Parent Topic:**[Configuring Design and Assign function for your network services](../concept/configure-playbooks-design-assign-function.md)
+**Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
 **Related topics**  
 
 
-[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md)
+[bundle-itsm.create-a-change-model]
 
-[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md)
+[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
-[Configuring Design and Assign function for your network services](../concept/configure-playbooks-design-assign-function.md)
-
-[Configure a Design and Assign function example](../concept/configure-design-assign-playbook-use-case.md)
+[Configure a Design and Assign function example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-design-assign-playbook-use-case.md)
 

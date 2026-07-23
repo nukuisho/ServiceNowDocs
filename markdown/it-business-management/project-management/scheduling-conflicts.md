@@ -2,6 +2,7 @@
 title: Schedule conflicts between project tasks
 description: Scheduling conflict helps you to identify project tasks that are not honoring dependencies. A scheduling conflict occurs when one project task prevents other task from starting on the specified date because of dependencies or constraint types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/scheduling-conflicts.html
 release: australia
 product: Project Management
 classification: project-management
@@ -37,37 +38,35 @@ If you want the task to honor the dependency and adjust the start accordingly, c
 When a scheduling conflict is identified, you can identify such tasks in the planning console.
 
 -   The client-side planning console displays a pop-up message with an option to proceed with the conflict or cancel the action. If you proceed with the conflict, the constraint type is applied or date is changed appropriately to the next feasible date.
--   The calendar icon \(![Calendar icon](../image/calendar-icon.png)\) on the client side planning console changes to red \(![Conflict icon](../image/pc-task-dep-icon.png)\) to indicate the conflict.
--   The calendar icon on the server side planning console changes to red \(![Conflict icon](../image/pc-task-dep-icon.png)\) to indicate the conflict.
+-   The calendar icon \(\[Omitted image "calendar-icon.png"\] Alt text: Calendar icon\) on the client side planning console changes to red \(\[Omitted image "pc-task-dep-icon.png"\] Alt text: Conflict icon\) to indicate the conflict.
+-   The calendar icon on the server side planning console changes to red \(\[Omitted image "pc-task-dep-icon.png"\] Alt text: Conflict icon\) to indicate the conflict.
 
-**Parent Topic:**[Basics of Project Management](c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
 
-[Parent-child rollup task calculations](c_ParentChildRollupTaskCalcs.md)
+[Parent-child rollup task calculations]()
 
-[Project tasks](../task/t_CreateAProjectTask.md)
+[Project tasks]()
 
-[Change requests and project tasks](c_ChangeRequestsAndProjectTasks.md)
+[Change requests and project tasks]()
 
-[Project task checklists](c_project-task-checklists.md)
+[Project task checklists]()
 
-[Task resources](c_TaskResources.md)
+[Task resources]()
 
-[Project and project task states](project-and-project-task-states.md)
+[Project and project task states]()
 
-[Composite Fields](pm-composite-fields.md)
+[Composite Fields]()
 
-[Cost plan breakdown](cost-plan-breakdown.md#)
+[Cost plan breakdown]()
 
-[Actual project costs](actual-project-costs.md)
+[Actual project costs]()
 
-[Types of external dependencies](external-dependency-types.md)
+[Types of external dependencies]()
 
-[Project and portfolio funding](../../project-portfolio-suite-with-financials/concept/c_ProjectAndPortfolioFunding.md)
+[Project and portfolio funding]()
 
-[Project scheduling in Project Management](project-scheduling.md)
-
-[Task constraints](task-constraints-project-management.md)
+[Project scheduling in Project Management]()
 

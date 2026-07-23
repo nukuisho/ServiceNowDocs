@@ -2,6 +2,7 @@
 title: Components installed with Care Team Operations for Environmental Services
 description: Several types of components such as tables, user roles, and business rules are installed when you activate the Care Team Operations for Environmental Services plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-21"
@@ -39,7 +40,7 @@ Admin
 
 </td><td>
 
-Configures organizations and team structure for Care Team Operations for Environmental Services.Configures all application setup data for Care Team Operations for Environmental Services.
+Configures all application setup data for Care Team Operations for Environmental Services.
 
 </td></tr><tr><td>
 
@@ -51,7 +52,7 @@ Case viewer
 
 </td><td>
 
-Can view EVS cases and all HCLS foundation data.Views EVS cases and all HCLS foundation data.
+Views EVS cases and all HCLS foundation data.
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Environmental Services support agent
 
 </td><td>
 
-Can view/resolve all cases under their assignment group, track cases, and fulfill cases.Views and resolves EVS cases assigned to their teams.
+Views and resolves EVS cases assigned to their teams.
 
 </td></tr><tr><td>
 
@@ -71,11 +72,11 @@ sn\_cto\_evs.loc\_contributor
 
 </td><td>
 
-Location contributor roleLocation contributor
+Location contributor
 
 </td><td>
 
-Can report cases, respond to cases, track cases at the business location, and view cases under their team.Creates EVS cases and reports, views, tracks, and responds to EVS cases.**Note:** This role is automatically inherited into the Care Team Member role when the Care Team Operations for Environmental Services plugin is installed.
+Creates EVS cases and reports, views, tracks, and responds to EVS cases.**Note:** This role is automatically inherited into the Care Team Member role when the Care Team Operations for Environmental Services plugin is installed.
 
 </td></tr><tr><td>
 
@@ -83,11 +84,11 @@ sn\_cto\_evs.loc\_manager
 
 </td><td>
 
-Environmental services support department managerLocation manager
+Location manager
 
 </td><td>
 
-Monitors the tasks within their organizations.Views and resolves EVS cases assigned to their teams as a location manager.
+Views and resolves EVS cases assigned to their teams as a location manager.
 
 </td></tr></tbody>
 </table>|Name|Description|

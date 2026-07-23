@@ -2,6 +2,7 @@
 title: View event rules
 description: You can view all event rules on the Event Rules list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMViewEventRule.html
 release: australia
 product: Event Management
 classification: event-management
@@ -18,6 +19,10 @@ You can view all event rules on the Event Rules list.
 ## Before you begin
 
 Role required: evt\_mgmt\_admin
+
+## About this task
+
+To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
 
 ## Procedure
 
@@ -75,10 +80,10 @@ Update date and time for the rule.
 </table>    **Note:** You can filter the Event Rule list to display the required subset of the information. However, if you create a favorite link after filtering, when the link is clicked the Event Rule list does not display the correct filter.
 
 
-**Parent Topic:**[Event rules](../concept/create-event-rules.md)
+**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-event-rules.md)
 
 **Related topics**  
 
 
-[View events](t_EMManageEvent.md)
+[View events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMManageEvent.md)
 

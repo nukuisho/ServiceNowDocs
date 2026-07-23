@@ -2,12 +2,13 @@
 title: MID Server dashboard
 description: The MID Server dashboard is a central place for MID Server users to monitor ongoing operations. The dashboard consists of reports and gauges that display information from the MID Server Status table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/c\_MIDServerDashboard.html
 release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -24,29 +25,31 @@ The MID Server dashboard is a central place for MID Server users to monitor ongo
 
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** and use the enhanced dashboard.
 
+**Note:** To access the MID Server Dashboard, the user must have the **mid\_server** or **admin** role. The Discovery Admin Workspace requires the **discovery\_admin** role. Group-based access follows standard ServiceNow role inheritance; ensure users in the group have the appropriate role assigned. For role setup, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md)
+
 ## MID Server Overview tab
 
 The Overview tab provides graphs showing the status of MID Servers, including any validation issues or pending upgrades and jobs. The tab also displays which MID Servers by capability.
 
-![MID Server overview tab.](../image/mid-dashboard-overview.png)
+\[Omitted image "mid-dashboard-overview.png"\] Alt text: MID Server overview tab.
 
 ## MID Server Performance tab
 
 The Performance tab displays information relating to the MID Server CPU and memory usage, including the life-cycle event history.
 
-![Performance tab layout.](../image/mid-dashboard-performance.png)
+\[Omitted image "mid-dashboard-performance.png"\] Alt text: Performance tab layout.
 
 ## MID Server Custom performance tab
 
 The Custom performance tab enables users to set custom MID Server selection criteria to show particular MID Servers in a select time frame.
 
-![Custom performance tab.](../image/mid-dashboard-custom.png)
+\[Omitted image "mid-dashboard-custom.png"\] Alt text: Custom performance tab.
 
 ## MID Server status gauge
 
 The MID Server Status gauge on the dashboard displays basic information about each MID Server. This information comes from the MID Server Status \[ecc\_agent\_status\] table.
 
-![The MID Server Dashboard gauge](../image/MidServerDashbardGauge.png "MID Server Dashboard gauge")
+\[Omitted image "MidServerDashbardGauge.png"\] Alt text: The MID Server Dashboard gauge
 
 If the version is not compatible, the MID Server status is not changed to **Down** in the MID Server dashboard. So it might still appear to be processing commands when it actually is not doing so. You must check the MID Server **Version** on the dashboard.
 
@@ -54,7 +57,7 @@ See [KB0535181](https://support.servicenow.com/kb_view.do?sysparm_article=KB0535
 
 The icons in the **Version** column indicates the following:
 
--   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](../task/t_UpgradeTheMIDServerManually.md) and verify that it is not pinned to an older version with the [mid.version.override](../reference/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
+-   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_UpgradeTheMIDServerManually.md) and verify that it is not pinned to an older version with the [mid.version.override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
 -   **Yellow**: Compatible, but an upgrade is recommended. This indicates that the MID Server version belongs to the same family as the instance, but not the same version.
 -   **Green**: Compatible. No upgrade necessary.
 -   **Gray**: Incompatible. The instance cannot detect the version.
@@ -97,7 +100,7 @@ Validated
 
 </td><td>
 
-Whether or not the MID Server was [validated](../task/t_ValidateAMIDServer.md).
+Whether or not the MID Server was [validated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +108,7 @@ Max memory used %
 
 </td><td>
 
-The highest percent usage of memory on the system that hosts the MID Server, in the configured sampling interval. The default interval is 30 minutes, but this value is user configurable. See [MID Server resource threshold alerts](../reference/mid-resource-threshold-alerts.md) for details.
+The highest percent usage of memory on the system that hosts the MID Server, in the configured sampling interval. The default interval is 30 minutes, but this value is user configurable. See [MID Server resource threshold alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-resource-threshold-alerts.md) for details.
 
 </td></tr><tr><td>
 
@@ -113,7 +116,7 @@ Mean CPU used %
 
 </td><td>
 
-The average percent usage of CPU on the system that hosts the MID Server, in the configured sampling interval. The default interval is 30 minutes, but this value is user configurable. See [MID Server resource threshold alerts](../reference/mid-resource-threshold-alerts.md) for details.
+The average percent usage of CPU on the system that hosts the MID Server, in the configured sampling interval. The default interval is 30 minutes, but this value is user configurable. See [MID Server resource threshold alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-resource-threshold-alerts.md) for details.
 
 </td></tr><tr><td>
 
@@ -137,7 +140,7 @@ Version
 
 </td><td>
 
-The version of the MID Server. An icon indicates the validity of the MID Server:-   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](../task/t_UpgradeTheMIDServerManually.md) and verify that it is not pinned to an older version with the [mid.version.override](../reference/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
+The version of the MID Server. An icon indicates the validity of the MID Server:-   **Red**: Incompatible. The MID Server and instance do not belong to the same release. You must [upgrade the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_UpgradeTheMIDServerManually.md) and verify that it is not pinned to an older version with the [mid.version.override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-version-selection.md) property. The MID Server will not be upgraded until the parameter is cleared.
 -   **Yellow**: Compatible, but an upgrade is recommended. This indicates that the MID Server version belongs to the same family as the instance, but not the same version.
 -   **Green**: Compatible. No upgrade necessary.
 -   **Gray**: Incompatible. The instance cannot detect the version.
@@ -148,42 +151,42 @@ User
 
 </td><td>
 
-The login name of the user. An icon indicates the validity of the user:-   **Red**: Incompatible. The user does not have the[mid\_server role](../task/t_SetupMIDServerRole.md#) or the user does not match the value in the [mid.instance.username parameter](../task/t_SetupMIDServerRole.md#) \(in the `config.xml` configuration file\). Reconfigure the MID Server user and [verify that it works](../task/t_SetupMIDServerRole.md#).
+The login name of the user. An icon indicates the validity of the user:-   **Red**: Incompatible. The user does not have the[mid\_server role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) or the user does not match the value in the [mid.instance.username parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) \(in the `config.xml` configuration file\). Reconfigure the MID Server user and [verify that it works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
 -   **Green**: Compatible. The user has the mid\_server role and matches the user in the configuration file.
 
- **Note:** The user can also have any of the SOAP roles that the [mid\_server role](../task/t_SetupMIDServerRole.md#) inherits.
+ **Note:** The user can also have any of the SOAP roles that the [mid\_server role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md) inherits.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MID Server reference](mid-server-reference-information.md)
+</table>**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
 
-[MID Server system requirements](../reference/r_MIDServerSystemRequirements.md)
+[MID Server system requirements]()
 
-[MID Server upgrades](c_UpgradeAndTestMIDServer.md)
+[MID Server upgrades]()
 
-[Resolving MID Server issues](../reference/r_MIDServerTroubleshooting.md)
+[Resolving MID Server issues]()
 
-[MID Server properties](../reference/r_MIDServerProperties.md#)
+[MID Server properties]()
 
-[MID Server parameters](../reference/mid-server-parameters.md#)
+[MID Server parameters]()
 
-[MID Server Configuration Parameter settings and priority](../reference/mid-config-param-priority.md)
+[MID Server Configuration Parameter settings and priority]()
 
-[MID Server File Cleaner](mid_file_cleaner.md)
+[MID Server File Cleaner]()
 
-[MID Server protected records and reserved characters](../reference/mid-server-reserved-characters.md)
+[MID Server protected records and reserved characters]()
 
-[MID Server privileged commands](c_PrivilegedCommandsForMIDServer.md#)
+[MID Server privileged commands]()
 
-[MIDSystem methods](../reference/r_MIDSystemMethods.md)
+[MIDSystem methods]()
 
-[Manually start, stop, and restart a MID Server](../task/t_InstallMIDServerAsWinService.md)
+[Manually start, stop, and restart a MID Server]()
 
-[MID Server heartbeat](../reference/r_MIDServerHeartbeat.md)
+[MID Server heartbeat]()
 
-[Set the MID Server JVM memory size](../task/t_MIDServerOptionalConfiguration.md)
+[Set the MID Server JVM memory size]()
 
-[Pause the MID Server](../task/t_PauseTheMIDServer.md#)
+[Pause the MID Server]()
 

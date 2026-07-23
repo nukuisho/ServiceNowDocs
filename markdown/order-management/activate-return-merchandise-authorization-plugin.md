@@ -2,6 +2,7 @@
 title: Activate the Return Merchandise Authorization plugin
 description: If you have the admin role, you can activate the RMA Case Management plugin \(com.sn\_csm\_rma\_case\). The plugin enables you to manage and triage return cases for customer products and services, addressing returns, replacements, and repair use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/activate-return-merchandise-authorization-plugin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +35,7 @@ The following items are installed with RMA Case Management:
 -   Tables
 -   Roles
 
-For more information, see [Return Merchandise Authorization Case Management](../reference/return-merchandise-authorization-case-management-reference.md).
+For more information, see [Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/return-merchandise-authorization-case-management-reference.md).
 
 ## Procedure
 
@@ -48,6 +49,13 @@ For more information, see [Return Merchandise Authorization Case Management](../
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
+
+**Related topics**  
+
+
+[Return Merchandise Authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/return-merchandise-authorization.md)
+
+[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-operations.md)
 

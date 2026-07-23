@@ -2,6 +2,7 @@
 title: Create or edit a CI relationship
 description: Use the relationship editor to view, create, or modify CI relationships. You can open the relationship editor from the CI Relations formatter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CreateCIRelationship.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,7 @@ Use the relationship editor to view, create, or modify CI relationships. You can
 
 ## About this task
 
-As an alternative to the CI relationship editor, [Unified Map](../concept/cmdb-workspace-unified-map.md) in the [CMDB Workspace store app](../concept/cmdb-workspace.md)or in [Service Graph Workspace store app](../concept/sg-workspace.md) provides the latest functionality for editing CI relationships. For more information, see [Edit relationships in Unified Map](unified-map-edit-connection.md).
+As an alternative to the CI relationship editor, [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/cmdb-workspace-unified-map.md) in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or in [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md) provides the latest functionality for editing CI relationships. For more information, see [Edit relationships in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-edit-connection.md).
 
 ## Before you begin
 
@@ -28,7 +29,7 @@ Role required:
 
     -   If inactive \(default\): sn\_cmdb\_editor, asset, or itil
     -   If active: sn\_cmdb\_editor, asset, or itil, and snc\_platform\_rest\_api\_access
-    For more information, see [CI relationship security](../concept/c_CIRelationshipSecurity.md), [REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md), and [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
+    For more information, see [CI relationship security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationshipSecurity.md), [REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_RESTAPI.md), and [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_TableAPI.md).
 
 
 ## About this task
@@ -51,7 +52,7 @@ The relationship editor operates differently, depending on whether you check the
 
 2.  To use suggested relationships, first select a relationship type, and then select one or more CIs to be the child CIs in the relationship:
 
-    ![Create a new relationship using suggested relationships.](../image/RelationshipEditorwithSuggestedRelationships.png)
+    \[Omitted image "RelationshipEditorwithSuggestedRelationships.png"\] Alt text: Create a new relationship using suggested relationships.
 
     1.  Select **Use suggested relationship**.
 
@@ -79,7 +80,7 @@ The relationship editor operates differently, depending on whether you check the
 
 3.  To not use suggested relationships, first select one or more CIs to be the child CIs in the relationship, and then select the relationship type:
 
-    ![Create a relationship without using suggested relationships.](../image/RelationshipEditornoSuggestedRelationships.png)
+    \[Omitted image "RelationshipEditornoSuggestedRelationships.png"\] Alt text: Create a relationship without using suggested relationships.
 
     1.  Clear **Use suggested relationship**.
 
@@ -100,14 +101,14 @@ The relationship editor operates differently, depending on whether you check the
         Only after you enter all the information that is necessary for creating the relationship, these buttons light up indicating that there are pending updates that require saving.
 
 
-**Parent Topic:**[CI relationship editor](../concept/c_RelationshipEditor.md)
+**Parent Topic:**[CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md)
 
 **Related topics**  
 
 
-[Suggested class relationships](../reference/r_SuggestedRelationshipModel.md)
+[Suggested class relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_SuggestedRelationshipModel.md)
 
-[CI relationships in the CMDB](../concept/c_CIRelationships.md)
+[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 
-[CI relationship security](../concept/c_CIRelationshipSecurity.md)
+[CI relationship security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationshipSecurity.md)
 

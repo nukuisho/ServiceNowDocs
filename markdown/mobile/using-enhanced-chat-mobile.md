@@ -2,6 +2,7 @@
 title: Using enhanced chat on mobile
 description: Enhanced Chat on mobile offers a dynamic conversational support experience that integrates powerful AI-driven search and chat capabilities. You can seamlessly switch between multiple conversations, receive synthesized responses with inline citations, and access both knowledge articles and catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/using-enhanced-chat-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,14 +19,14 @@ Enhanced Chat on mobile offers a dynamic conversational support experience that 
 
 To begin using standard chat, open your organization's support portal or application on your mobile device. From here, you have two ways to open enhanced chat:
 
--   Tap the Now Assist icon \(![](../image/na-va-icon-home.png)\) on your mobile home page to open a chat window.
+-   Tap the Now Assist icon \(\[Omitted image "na-va-icon-home.png"\] Alt text:\) on your mobile home page to open a chat window.
 -   Enter your request into the home page search bar to initiate a conversation, automatically opening the Virtual Agent chat interface.
 
-Depending on your organization’s configuration, the search bar on your mobile support portal can expand into a full-page chat experience. If full-page chat isn’t enabled, the search bar remains in its standard form, providing quick search capabilities without navigating away from your current view. For information on configuring full-page search, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+Depending on your organization’s configuration, the search bar on your mobile support portal can expand into a full-page chat experience. If full-page chat isn’t enabled, the search bar remains in its standard form, providing quick search capabilities without navigating away from your current view. For information on configuring full-page search, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 ## Chatting with the Virtual Agent
 
-![request asking virtual agent about how to book travel](../image/na-va-enhanced-chat-2.png "Enhanced chat")
+\[Omitted image "na-va-enhanced-chat-2.png"\] Alt text: request asking virtual agent about how to book travel
 
 Enhanced chat combines chat and search capabilities in one. When using the search bar, regular search results appear in addition to the option to direct your query to the Now Assist Virtual Agent.
 
@@ -37,11 +38,11 @@ If your request is unclear or ambiguous, the agent will prompt you with clarifyi
 
 ## Suggested actions
 
-![suggestions to check leave balance, block calendar, and notify teammates](../image/na-va-suggested-actions-enhanced.png "Suggested actions in enhanced chat")
+\[Omitted image "na-va-suggested-actions-enhanced.png"\] Alt text: suggestions to check leave balance, block calendar, and notify teammates
 
 Suggested actions provide you with next steps you can take related to your Virtual Agent conversation. After completing a chat topic or request, these suggestions appear under a **Here's what you can do next** header. Selecting a suggested action initiates it directly in the same conversation, carrying over any relevant details such as your name.
 
-For more information on configuration, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md)
+For more information on configuration, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md)
 
 ## Knowledge base citations
 
@@ -60,35 +61,35 @@ If external search sources have been configured by your organization, you can se
 -   ServiceNow documentation
 -   Slack
 
-Sources display with icons that indicate the type of record type each source is, such as a table, PDF, incident report, and so on For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
+Sources display with icons that indicate the type of record type each source is, such as a table, PDF, incident report, and so on For more information about external content connections, see [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
 
 ## Doc QnA
 
-![Now Assist summary of an attached PDF](../image/na-doc-qna.png "Mobile Doc QnA")
+\[Omitted image "na-doc-qna.png"\] Alt text: Now Assist summary of an attached PDF
 
 Doc QnA enables you to upload documents to your Virtual Agent conversation. Now Assist can then generate a summary or answer questions using the document you provided.
 
 The assistant can analyze file formats including text and image files such as PDF, Word \(.doc, .docx\), JPEG, and PNG. The maximum file size of a file is 5 megabytes \(MB\).
 
-To attach a file to your conversation, tap the plus icon \(![](../image/na-doc-qna-icon.png)\) in your search bar.
+To attach a file to your conversation, tap the plus icon \(\[Omitted image "na-doc-qna-icon.png"\] Alt text:\) in your search bar.
 
 ## ServiceNow AI Lens
 
-![now assist generating troubleshooting steps based on an image](../image/na-lens.png "ServiceNow Lens for mobile")
+\[Omitted image "na-lens.png"\] Alt text: now assist generating troubleshooting steps based on an image
 
 ServiceNow AI Lens leverages generative AI to scan, extract, and interpret data from your mobile device.
 
 When you start a new Virtual Agent chat, select **Show all my options** to view the option to open ServiceNow AI Lens. Now Assist then gives you the option to choose an existing image or open your camera app to take a new photo. Once an image is selected, Now Assist allows you to input additional directions for how the image should be analyzed.
 
-For more information, see [ServiceNow AI Lens for mobile](servicenow-lens-mobile.md).
+For more information, see [ServiceNow AI Lens for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/servicenow-lens-mobile.md).
 
 ## Web search mode
 
-![Virtual Agent displaying internet search results](../image/na-web-search.png "Mobile web search mode")
+\[Omitted image "na-web-search.png"\] Alt text: Virtual Agent displaying internet search results
 
-Web search mode in Now Assist enables you to search the internet directly from within your chat, displaying external results rather than internal company information. Select the Start web search mode icon \(![](../image/na-web-search-icon.png)\) to enter web search mode.
+Web search mode in Now Assist enables you to search the internet directly from within your chat, displaying external results rather than internal company information. Select the Start web search mode icon \(\[Omitted image "na-web-search-icon.png"\] Alt text:\) to enter web search mode.
 
-While active, all user queries are answered using internet search results, and a banner shows that web search mode is enabled. The identifying banner disappears once web search mode is ended. For additional information, see [Using Now Assist web search on mobile](using-na-web-search-mobile.md).
+While active, all user queries are answered using internet search results, and a banner shows that web search mode is enabled. The identifying banner disappears once web search mode is ended. For additional information, see [Using Now Assist web search on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-na-web-search-mobile.md).
 
 ## Feedback and additional support
 
@@ -98,21 +99,21 @@ If you find that your issue can’t be resolved through the Virtual Agent alone,
 
 ## Push notifications
 
-![Virtual Agent push notifications on a phone locked screen](../image/na-va-push-notification.png "Virtual Agent push notifications")
+\[Omitted image "na-va-push-notification.png"\] Alt text: Virtual Agent push notifications on a phone locked screen
 
 When progress has been made on a request submitted via Virtual Agent, you’ll receive a push notification. Tapping the notification opens the corresponding Virtual Agent chat in your mobile app.
 
 ## People citations
 
-![User asking Now Assist for information on an employee named Alisa](../image/na-va-people-citations-enhanced.png "People citations in standard chat")
+\[Omitted image "na-va-people-citations-enhanced.png"\] Alt text: User asking Now Assist for information on an employee named Alisa
 
 You can find information about people in your organization if you have Knowledge Graph activated. The system displays up to three possible matches, with inline citations and a Sources section for more details. Selecting a person's name takes you to their user profile, while selecting the numbered citation shows a popover with details like manager, location, email, teams, phone, and shared files.
 
 ## Additional resources
 
-For more detailed information on all of standard chat’s specific skills, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
+For more detailed information on all of standard chat’s specific skills, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-enhanced-chat.md).
 
-For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+For information on configuring Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
-**Parent Topic:**[Using Now Assist for Mobile](using-now-assist-mobile.md)
+**Parent Topic:**[Using Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-now-assist-mobile.md)
 

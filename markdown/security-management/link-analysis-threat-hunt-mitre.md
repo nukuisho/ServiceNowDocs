@@ -2,6 +2,7 @@
 title: Perform link analysis and threat hunting using MITRE-ATT&amp;CK specific filters
 description: Correlate and perform link analysis of observables, security incidents, and MITRE-ATT&amp;CK related information so that your organization can start hunting for threats.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/link-analysis-threat-hunt-mitre.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,27 +42,27 @@ After you associate the security incidents with MITRE-ATT&amp;CK information, yo
 
     For example, if you want to review that a configuration item \(CI\) is compromised, you select a CI. You then correlate the CI with techniques that are present by adding a MITRE-ATT&amp;CK Technique ID. You can then continue to build your filter criteria to correlate the information and for threat hunting.
 
-    ![MITRE filter conditions for threat analysis.](../image/mitre-filter-conditions.png)
+    \[Omitted image "mitre-filter-conditions.png"\] Alt text: MITRE filter conditions for threat analysis.
 
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](../concept/mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
 
 **Related topics**  
 
 
-[Associate MITRE-ATT&amp;CK information with security incidents](associate-mitre-with-sir.md#)
+[Associate MITRE-ATT&amp;CK information with security incidents]()
 
-[Associate MITRE-ATT&amp;CK information with observables](associate-mitre-observables.md)
+[Associate MITRE-ATT&amp;CK information with observables]()
 
-[Associate MITRE-ATT&amp;CK information with security case](../../threat-intelligence-case-management/task/associate-mitre-att-ck-information-with-security-case-management.md)
+[Associate MITRE-ATT&amp;CK information with security case]()
 
-[Rollup MITRE-ATT&amp;CK information using Threat Lookup results](rollup-threat-lookup-results.md)
+[Rollup MITRE-ATT&amp;CK information using Threat Lookup results]()
 
-[Rollup MITRE-ATT&amp;CK information from detection rules](rollup-mitre-attack-information-detection-rules.md)
+[Rollup MITRE-ATT&amp;CK information from detection rules]()
 
-[Rollup MITRE-ATT&amp;CK information from child security incidents](rollup-mitre-att-ck-information-from-child-security-incidents.md)
+[Rollup MITRE-ATT&amp;CK information from child security incidents]()
 
-[MITRE-ATT&amp;CK heat map and navigator](../concept/mitre-att-ck-heatmap-and-navigator.md#)
+[MITRE-ATT&amp;CK heat map and navigator]()
 
-[Using the MITRE-ATT&amp;CK dashboard](../concept/mitre-dashboards.md#)
+[Using the MITRE-ATT&amp;CK dashboard]()
 

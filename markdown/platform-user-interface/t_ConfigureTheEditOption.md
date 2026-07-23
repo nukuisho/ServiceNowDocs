@@ -2,6 +2,7 @@
 title: Configure the edit option
 description: You can configure the edit option that allows users to add records to related lists in forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfigureTheEditOption.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +35,7 @@ The **Edit** button is available for related lists that represent many-to-many a
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_qwf_wjx_5t"><tbody><tr><td id="d115616e126">
+<table id="choicetable_qwf_wjx_5t"><tbody><tr><td id="d115939e126">
 
 **Show the Edit option**
 
@@ -42,7 +43,7 @@ The **Edit** button is available for related lists that represent many-to-many a
 
 Clear the **Omit edit button** check box.
 
-</td></tr><tr><td id="d115616e138">
+</td></tr><tr><td id="d115939e138">
 
 **Hide the Edit option**
 
@@ -50,7 +51,7 @@ Clear the **Omit edit button** check box.
 
 Select the **Omit edit button** check box.
 
-</td></tr><tr><td id="d115616e150">
+</td></tr><tr><td id="d115939e150">
 
 **Show the Edit option if the check box is cleared and the button does not appear.**
 
@@ -69,25 +70,25 @@ Click **Enable Edit**.
 
     4.  In the Reference Specification section, select the **Reference floats** check box.
 
-        ![Reference floats check box](../image/ReferenceFloatsBox.png)
+        \[Omitted image "ReferenceFloatsBox.png"\] Alt text: Reference floats check box
 
 5.  Click **Update**.
 
 
-**Parent Topic:**[Related lists](../concept/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 
 
-[Select or create records in a related list](t_SelectRelatedRecords.md)
+[Select or create records in a related list]()
 
-[Configure when a related list loads](t_ConfigureWhenARelatedListLoads.md)
+[Configure when a related list loads]()
 
-[Create a default filter for a related list](t_CreateADefaultFilter.md)
+[Create a default filter for a related list]()
 
-[Create defined related lists](../../../administer/form-administration/task/t_CreateDefinedRelatedLists.md)
+[Create defined related lists]()
 
-[Add fields to selections in a related list](../../../administer/form-administration/task/t_AddingFieldsToARelatedList.md)
+[Add fields to selections in a related list]()
 
-[Create a default filter for list selector records](../../../administer/form-administration/task/t_CreateDefaultRelatedRecSecFilter.md)
+[Create a default filter for list selector records]()
 

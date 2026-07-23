@@ -2,6 +2,7 @@
 title: Declarative actions glossary
 description: Refer to this glossary for definitions to terminology associated with declarative actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/declarative-actions-glossary.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -517,7 +518,7 @@ Requires you to have create access to view the action.Default: false
 
 </td></tr><tr><td>
 
-Requires delete access-l
+Requires delete access
 
 </td><td>
 

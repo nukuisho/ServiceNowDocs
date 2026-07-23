@@ -2,6 +2,7 @@
 title: Add decision nodes to a sequence
 description: Activate the next stage in the playbook based on the outcome of the previous stage by adding decision nodes while creating or updating a sequence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/add-decision-nodes-sequences.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Activate the next stage in the playbook based on the outcome of the previous sta
 
 **Note:** Decision-based stages and the demo data are available only starting with Playbook version 28.3 on the Zurich release. The sample Lead nurturing tele-sales sequence available with the demo data shows how to configure a decision-based, telesales sequence with the schedule call activity.
 
-Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](grant-delegated-developer-permissions.md).
+Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/grant-delegated-developer-permissions.md).
 
 Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
@@ -27,15 +28,15 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Sequences** &gt; **All Sequences**.
 
 4.  Select a sequence that you're creating or updating.
 
-5.  In the sequence diagram, hover over the object that you want to insert a decision activity next to, and select the ![](../../../reuse/icons/product-icons/circle-plus-fill-24.svg) icon to add an activity.
+5.  In the sequence diagram, hover over the object that you want to insert a decision activity next to, and select the \[Omitted image "circle-plus-fill-24.svg"\] Alt text: icon to add an activity.
 
-6.  Select the Add a decision icon ![](../image/diamond-icon.png).
+6.  Select the Add a decision icon \[Omitted image "diamond-icon.png"\] Alt text:.
 
     A decision is added with two branches and the Decision properties side panel opens for configuration.
 
@@ -43,7 +44,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
     For example, if you want the agent accessing the workflow to wait two days before calling the prospective lead or customer again, you would set Duration type to **Explicit duration** and set **Days** to `2`.
 
-    For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
+    For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/start-with-delay-properties.md).
 
 8.  Under the Branches tab, expand New branch and enter a unique name for the branch in the **Branch label** field.
 
@@ -51,19 +52,19 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
     For example, to execute the branch when the outcome of the previous call attempt was unsuccessful, you would set the condition **\[Schedule call &gt; Output &gt; State\]****\[is\]****\[Cancelled\]**.
 
-    For more information, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-a-decision-activity.md).
+    For more information, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-a-decision-activity.md).
 
 10. Select **Save and close**.
 
 
 ## What to do next
 
-Add a stage for the new branch you created earlier, and repeat the steps to add more activities as needed. For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-stage.md).
+Add a stage for the new branch you created earlier, and repeat the steps to add more activities as needed. For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/add-configure-stage.md).
 
-**Parent Topic:**[Create a customer engagement sequence](create-customer-engagement-sequence.md)
+**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-customer-engagement-sequence.md)
 
 **Related topics**  
 
 
-[Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-stage.md)
+[Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-decision-stage.md)
 

@@ -2,6 +2,7 @@
 title: Lists module
 description: The Lists module is a common dashboard that contains lists for the application tables and custom lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/wsd-lists-module.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -15,7 +16,7 @@ breadcrumb: [Explore, Workplace Central, Workplace Service Delivery, Employee Se
 
 The Lists module is a common dashboard that contains lists for the application tables and custom lists.
 
-![Workplace Central lists dashboard with the Cases Overview - All Cases list selected.](../images/wsd-central-lists-dashboard.png)
+\[Omitted image "wsd-central-lists-dashboard.png"\] Alt text: Workplace Central lists dashboard with the Cases Overview - All Cases list selected.
 
 ## Lists tab
 
@@ -23,43 +24,45 @@ The Lists tab contains all the tables that are installed with your Workplace Ser
 
 For more information about the lists, you can refer to the documentation of the relevant application.
 
--   [Workplace Analytics](workplace-analytics.md)
--   [Scenario Planning](scenario-planning.md)
--   [Schedule Planning](schedule-planning.md)
--   [Space assistance](space-assistance.md)
--   [Event Planner](event-planner.md)
--   [Move Management](move-mgmt.md)
--   [Case management](case-management-workspace.md)
--   [Kiosk Indoor Mapping](kiosk-indoor-mapping.md)
+-   [Workplace Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-analytics.md)
+-   [Scenario Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/scenario-planning.md)
+-   [Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/schedule-planning.md)
+-   [Space assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/space-assistance.md)
+-   [Event Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/event-planner.md)
+-   [Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-mgmt.md)
+-   [Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/case-management-workspace.md)
+-   [Kiosk Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/kiosk-indoor-mapping.md)
+
+**Note:** The Facility Assets and Facility Models lists are available in Workplace Central when the Enterprise Asset Management plugin is installed. However, the New button on these lists is visible only when the logged-in user has the corresponding side roles for assets and models.
 
 ## My lists tab
 
 The My lists tab contains custom lists that you have created on Workplace Central. You can create a custom list by using an existing Workplace Central list, or by using a system table that you have access to. You can also organize your custom lists by selecting the **Reorder** option.
 
-For more information about creating custom lists, see [Creating custom lists on Workplace Central](creating-custom-lists-wsd.md).
+For more information about creating custom lists, see [Creating custom lists on Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/creating-custom-lists-wsd.md).
 
-**Parent Topic:**[Explore Workplace Central](workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 
 
-[Workplace Analytics](workplace-analytics.md)
+[Workplace Analytics]()
 
-[Space Planning](space-planning.md)
+[Space Planning]()
 
-[Space Optimization](space-optimization.md)
+[Space Optimization]()
 
-[Scenario Planning](scenario-planning.md)
+[Scenario Planning]()
 
-[Schedule Planning](schedule-planning.md)
+[Schedule Planning]()
 
-[Space assistance](space-assistance.md)
+[Space assistance]()
 
-[Event Planner](event-planner.md)
+[Event Planner]()
 
-[Move Management](move-mgmt.md)
+[Move Management]()
 
-[Case management](case-management-workspace.md)
+[Case management]()
 
-[Kiosk Indoor Mapping](kiosk-indoor-mapping.md)
+[Kiosk Indoor Mapping]()
 

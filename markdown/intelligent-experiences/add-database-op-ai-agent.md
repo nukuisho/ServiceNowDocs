@@ -2,9 +2,10 @@
 title: Add a record operation to an AI agent
 description: Add a record operation to an AI agent in AI Agent Studio to create, update, look up, or delete records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-database-op-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---
@@ -69,7 +70,7 @@ Inputs
 -   **Description**: Description of the input to give the LLM context.
 -   **Value override**: Value for the input. If you leave it blank, generative AI fills in the value for you.
 
-**Note:** If the agent uses multiple tools, you can choose to use another tool's output as an input value override. Select the data picker icon \(![Data picker icon.](../image/data-picker-icon.png)\) to review the available options.
+**Note:** If the agent uses multiple tools, you can choose to use another tool's output as an input value override. Select the data picker icon \(\[Omitted image "data-picker-icon.png"\] Alt text: Data picker icon.\) to review the available options.
 
 </td></tr><tr><td>
 

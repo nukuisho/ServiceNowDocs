@@ -2,11 +2,12 @@
 title: Run fix scripts to update Contract Management Pro
 description: Manually run fix scripts after you have installed the demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/run-fix-scripts-update-contract-management-pro.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrate with Contract Management Pro, Configuring Quote Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Integrate with Contract Management Pro, Configuring Quote Management - Basic, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Run fix scripts to update Contract Management Pro

@@ -2,6 +2,7 @@
 title: Create a forecast comparison graph
 description: Create a forecast comparison graph to compare the different outcomes based on specific interventions or changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-forecast-comparison.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,5 +33,5 @@ Role required: sn\_esg.program\_manager
     A graph has been generated showing the data for each analysis record that you selected.
 
 
-**Parent Topic:**[Set up analysis contexts and analyses](../concept/set-up-scenarios.md)
+**Parent Topic:**[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-scenarios.md)
 

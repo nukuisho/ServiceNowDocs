@@ -36,7 +36,7 @@ You can't modify the trigger type and the table.
 
 5.  Update any of the trigger conditions or the advanced options.
 
-    **Note:** If a user has modified the advanced options while using the trigger, any modifications that you make to these options doesn't affect the user's modified settings. To view the field descriptions for the trigger forms, see [Create a saved record-based trigger](create-saved-trigger.md).
+    **Note:** If a user has modified the advanced options while using the trigger, any modifications that you make to these options doesn't affect the user's modified settings. To view the field descriptions for the trigger forms, see [Create a saved record-based trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-saved-trigger.md).
 
 6.  Select **Publish**.
 
@@ -44,14 +44,14 @@ You can't modify the trigger type and the table.
 
 8.  If the updated trigger definitions aren't valid for a flow, detach the trigger from the flow.
 
-    For instructions on how to detach a trigger, see [Detach a saved trigger from a flow](detach-saved-trigger.md).
+    For instructions on how to detach a trigger, see [Detach a saved trigger from a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/detach-saved-trigger.md).
 
-9.  Update the trigger properties, such as the trigger name, by selecting the More Actions menu icon \(![Option to select more actions menu.](../images/triggers-more-actions.png)\) and then selecting **Properties**.
+9.  Update the trigger properties, such as the trigger name, by selecting the More Actions menu icon \(\[Omitted image "triggers-more-actions.png"\] Alt text: Option to select more actions menu.\) and then selecting **Properties**.
 
 10. On the Trigger properties pop-up window, update the properties as needed and select **Update**.
 
 11. Make the updated trigger available by selecting **Publish**.
 
 
-**Parent Topic:**[Building triggers](../concept/building-triggers.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
 

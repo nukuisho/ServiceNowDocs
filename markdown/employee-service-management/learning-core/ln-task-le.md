@@ -2,6 +2,7 @@
 title: Create a learning task
 description: Assign a learning task to an employee that can be completed from the To-dos page in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/ln-task-le.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -23,29 +24,29 @@ Role required: sn\_lc.task\_creator
 
 1.  Navigate to **Learning** &gt; **Tasks** &gt; **Learning Tasks**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Learning task form](../reference/learning-task-form.md).
+    For a description of the field values, see [Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-task-form.md).
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing course and catalog content](manage-ln-content.md)
+**Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-ln-content.md)
 
 **Related topics**  
 
 
-[Create a course catalog](create-course-catalog.md)
+[Create a course catalog]()
 
-[Create a content collection](create-course-collection.md)
+[Create a content collection]()
 
-[Create internal learning content](create-ln-cnt.md)
+[Create internal learning content]()
 
-[View external learning content](create-ln-extcnt.md)
+[View external learning content]()
 
-[Create a learning library](create-ln-ctg.md)
+[Create a learning library]()
 
-[Learning task form](../reference/learning-task-form.md)
+[Learning task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-task-form.md)
 

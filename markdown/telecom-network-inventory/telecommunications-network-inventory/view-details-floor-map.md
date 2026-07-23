@@ -2,6 +2,7 @@
 title: View details of floor map
 description: Use the floor map in the Telecommunications Network Inventory application to view placement of network assets on a datacenter floor and their details such as asset specific and operational data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -35,7 +36,7 @@ Use the floor map to view the following:
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the blue hub icon ![Blue Hub Icon.](../image/icon-blue-hub.png).
+2.  Select the blue hub icon \[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon..
 
     The Network viewer window is displayed.
 
@@ -47,15 +48,15 @@ Use the floor map to view the following:
 
 5.  View the details of the floor map by performing the following actions on the map pane.
 
-<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d44180e140">
+<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d45806e140">
 
 Action
 
-</th><th align="left" id="d44180e143">
+</th><th align="left" id="d45806e143">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d44180e149">
+</th></tr></thead><tbody><tr><td id="d45806e149">
 
 **View the details of floor**
 
@@ -97,7 +98,7 @@ Available count of interfaces on the floor
 
 Count of logical connections and power circuits related to datacenter
 
-</td></tr><tr><td id="d44180e242">
+</td></tr><tr><td id="d45806e242">
 
 **View the details of a place**
 
@@ -105,18 +106,18 @@ Count of logical connections and power circuits related to datacenter
 
 Select a place on the map pane. The selected place is highlighted on map pane. You can view the place details on the details pane. If the place is mapped to a Configuration Item \(CI\), then you can see the CI-specific details.
 
-</td></tr><tr><td id="d44180e254">
+</td></tr><tr><td id="d45806e254">
 
 **View the alert information**
 
 </td><td>
 
-Select the alert icon \(![Alert Icon.](../image/icon-alert-floor-map.png)\) on a place in the map pane. On the details pane, you can view the following information about the CI that is mapped on that place.-   Active alerts
+Select the alert icon \(\[Omitted image "icon-alert-floor-map.png"\] Alt text: Alert Icon.\) on a place in the map pane. On the details pane, you can view the following information about the CI that is mapped on that place.-   Active alerts
 -   Active events
 -   Active change requests
-You can also select the green lightening bolt icon \(![Green Lightening Bolt Icon.](../image/icon-green-lightening-bolt.png)\) to view the alert information.
+You can also select the green lightening bolt icon \(\[Omitted image "icon-green-lightening-bolt.png"\] Alt text: Green Lightening Bolt Icon.\) to view the alert information.
 
-</td></tr><tr><td id="d44180e287">
+</td></tr><tr><td id="d45806e287">
 
 **Visualize a rack**
 
@@ -126,7 +127,7 @@ Select a rack CI on the map pane. The Rack view opens. Do the following on the R
 -   To view the back of the rack, select **View rear panel**.
 
 
-</td></tr><tr><td id="d44180e311">
+</td></tr><tr><td id="d45806e311">
 
 **View floor and rack health information**
 
@@ -144,9 +145,9 @@ Select an empty space on the map pane to view the following floor health informa
 -   Temperature
 -   Power usage
 -   Humidity
- Select the more option icon \(![More Options Icon.](../image/icon-more-option.png)\) in the health section, and select **Open metrics** to view the metric values.
+ Select the more option icon \(\[Omitted image "icon-more-option.png"\] Alt text: More Options Icon.\) in the health section, and select **Open metrics** to view the metric values.
 
-</td></tr><tr><td id="d44180e366">
+</td></tr><tr><td id="d45806e366">
 
 **View operational metrics**
 
@@ -173,7 +174,7 @@ Overlays on a floor map are visual indicators displayed directly on a datacenter
 -   If no metric data available, system shows an error message **No metrics found for the specified duration**.
  To deselect overlay, select **None** in the **View By** field.
 
-</td></tr><tr><td id="d44180e467">
+</td></tr><tr><td id="d45806e467">
 
 **View floor map related to a company account**
 
@@ -181,24 +182,24 @@ Overlays on a floor map are visual indicators displayed directly on a datacenter
 
 In the **Filter By Accounts** field, select an account. The map highlights the CIs related to that company account in bluish green color. CIs related to other accounts are grayed out. You can also select more than one account.
 
-</td></tr><tr><td id="d44180e482">
+</td></tr><tr><td id="d45806e482">
 
 **Open a record from details pane**
 
 </td><td>
 
-1.  On the details pane, select the more options icon \(![More Options Icon.](../image/icon-more-option.png)\) of a card. The card can be a place, CI, incident, alert, or change request.
+1.  On the details pane, select the more options icon \(\[Omitted image "icon-more-option.png"\] Alt text: More Options Icon.\) of a card. The card can be a place, CI, incident, alert, or change request.
 2.  Select **Open record**.
  The corresponding record opens. To open a rack record, you can also select **Open rack** on the Rack view.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Floor map](../concept/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 
 **Related topics**  
 
 
-[Floor map](../concept/visualization-floor-maps.md)
+[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
 
-[Configuring overlays on floor map](../concept/configure-overlays-floor-map.md)
+[Configuring overlays on floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)
 

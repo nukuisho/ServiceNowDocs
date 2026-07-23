@@ -2,6 +2,7 @@
 title: Types of data sources in Proactive Prompts
 description: Data sources are the different type of data retrieving methods from data tables in Proactive Prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-data-source.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -65,21 +66,21 @@ Performance Analytics Indicator
 
 </td><td>
 
-Uses the data collected by the Performance Analytics job for the selected indicator and breakdown. For example, this type of table can be used to prompt the manager about number of open incidents.**Note:** The Performance Analytics job must be run to process the data. For more information, see [Activate Performance Analytics jobs](../task/activae-pa-indicator-jobs-sdb.md).
+Uses the data collected by the Performance Analytics job for the selected indicator and breakdown. For example, this type of table can be used to prompt the manager about number of open incidents.**Note:** The Performance Analytics job must be run to process the data. For more information, see [Activate Performance Analytics jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activae-pa-indicator-jobs-sdb.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Proactive Prompts](proactive-prompts-reference.md)
+</table>**Parent Topic:**[Reference for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Proactive Prompts](proactive-prompts-components.md)
+[Components installed with Proactive Prompts]()
 
-[Tokens in Proactive Prompts](proactive-prompts-tokens.md)
+[Tokens in Proactive Prompts]()
 
-[Actions and action groups in Proactive Prompts](proactive-prompts-actions.md)
+[Actions and action groups in Proactive Prompts]()
 
-[Signal data source form](proactive-prompts-signal-datasource-form.md)
+[Signal data source form]()
 
-[Signal configuration form](proactive-prompts-create-signal-form.md)
+[Signal configuration form]()
 

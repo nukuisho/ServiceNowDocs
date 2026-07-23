@@ -2,6 +2,7 @@
 title: Start a Sidebar discussion on the Mobile Agent application
 description: Create and view Sidebar discussions on the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/start-sidebar-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -19,7 +20,7 @@ Create and view Sidebar discussions on the Mobile Agent application.
 
 Role required: wm\_agent
 
-Ensure the Sidebar for Field Service Management plugin \(com.sn\_fsm\_sidebar\) is activated. For more information, see [Activate Sidebar for the Field Service Mobile Agent application](activate-sidebar-mobile.md).
+Ensure the Sidebar for Field Service Management plugin \(com.sn\_fsm\_sidebar\) is activated. For more information, see [Activate Sidebar for the Field Service Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-sidebar-mobile.md).
 
 ## About this task
 
@@ -29,9 +30,9 @@ Create and view Sidebar discussions on the Mobile Agent application. You can cre
 
 1.  Navigate to a work order task.
 
-2.  Tap the **Sidebar**![Sidebar icon.](../image/icon-sidebar-record-mobile.png) icon.
+2.  Tap the **Sidebar**\[Omitted image "icon-sidebar-record-mobile.png"\] Alt text: Sidebar icon. icon.
 
-3.  Tap the **Create Sidebar discussion** ![Create Sidebar discussion icon.](../image/icon-sidebar-create-mobile.png) icon.
+3.  Tap the **Create Sidebar discussion** \[Omitted image "icon-sidebar-create-mobile.png"\] Alt text: Create Sidebar discussion icon. icon.
 
 4.  On the form, fill in the fields.
 
@@ -52,5 +53,5 @@ Participants can view and reply to the discussion. The discussion can be accesse
 **Related topics**  
 
 
-[Summarize a Sidebar discussion on the ServiceNow Agent application](na-fsm-summarize-sidebar-platform.md#)
+[Summarize a Sidebar discussion on the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/na-fsm-summarize-sidebar-platform.md)
 

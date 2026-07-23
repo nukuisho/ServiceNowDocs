@@ -2,6 +2,7 @@
 title: Mobile experience for Field Service Management
 description: Manage your field service tasks from anywhere using the Field Service Management mobile application. When not connected to the internet, you can still plan, work on, and complete tasks. Your mobile device will sync with the information when it next connects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-fsm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,67 +16,67 @@ Manage your field service tasks from anywhere using the Field Service Management
 
 The Field Service Management mobile application runs on the ServiceNow mobile platform.
 
-![Infographic with a smartphone and a list of functions for FSM Mobile. For the text description, refer to the following table.](../image/FSM-mobile-infographic.png)
+\[Omitted image "FSM-mobile-infographic.png"\] Alt text: Infographic with a smartphone and a list of functions for FSM Mobile. For the text description, refer to the following table.
 
 <table id="table_ovl_pb3_z3b"><tbody><tr><td align="left">
 
-![](../../../reuse/icons/brand-icons/bus-automated-testing-framework.svg) Manage your tasks
+\[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Manage your tasks
 
 </td><td align="left">
 
-[Prioritizing on ServiceNow Agent](manage-field-service-tasks-mobile.md) -   Plan your tasks
+[Prioritizing on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/manage-field-service-tasks-mobile.md) -   Plan your tasks
 -   Plan your schedule
 -   Start work
 
 </td></tr><tr><td align="left">
 
-![](../../../reuse/icons/brand-icons/bus-asset.svg)Manage assets
+\[Omitted image "bus-asset.svg"\] Alt text:Manage assets
 
 </td><td align="left">
 
-[Setting up inventory and asset management](setting-up-inventory-and-asset-management.md)-   Procure assets
+[Setting up inventory and asset management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/setting-up-inventory-and-asset-management.md)-   Procure assets
 -   Receive assets using Mobile app
 
 </td></tr><tr><td align="left">
 
-![](../../../reuse/icons/brand-icons/bus-events.svg) Optimize your schedule
+\[Omitted image "bus-events.svg"\] Alt text: Optimize your schedule
 
 </td><td align="left">
 
-[Find the quickest way to complete assigned jobs](../task/optimize-task-route-mobile.md) -   Find optimal routes for executing tasks in multiple locations
+[Find the quickest way to complete assigned jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/optimize-task-route-mobile.md) -   Find optimal routes for executing tasks in multiple locations
 -   Navigate to task locations using the task map
 
 </td></tr><tr><td align="left">
 
-![](../../../reuse/icons/brand-icons/bus-manager.svg) Manage tasks and technicians
+\[Omitted image "bus-manager.svg"\] Alt text: Manage tasks and technicians
 
 </td><td align="left">
 
-[Field Service Manager Mobile](manager-mobile-app.md) -   Update tasks from anywhere
+[Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/manager-mobile-app.md) -   Update tasks from anywhere
 -   Manage your team from your mobile device
 
 </td></tr><tr><td align="left">
 
-![](../../../reuse/icons/brand-icons/bus-3-person.svg) Stay connected with the team
+\[Omitted image "bus-3-person.svg"\] Alt text: Stay connected with the team
 
 </td><td align="left">
 
-[Start a Sidebar discussion on the Mobile Agent application](../task/start-sidebar-mobile.md) -   Call customers directly from the app if more information is needed
+[Start a Sidebar discussion on the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/start-sidebar-mobile.md) -   Call customers directly from the app if more information is needed
 -   Connect with peers by calling or sending them a text message
 
 </td></tr><tr><td align="left">
 
-![](../../../reuse/icons/brand-icons/bus-employee-document-management.svg) Find helpful information
+\[Omitted image "bus-employee-document-management.svg"\] Alt text: Find helpful information
 
 </td><td align="left">
 
-[Knowledge articles on ServiceNow Agent](access-information-you-need-mobile.md#) -   Search through knowledge base articles for assistance
+[Knowledge articles on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/access-information-you-need-mobile.md) -   Search through knowledge base articles for assistance
 -   Verify when your team members are on-site and whether they are on schedule to complete their tasks
 
 </td></tr></tbody>
-</table>When [offline](work-offline-fieldservice-mobile.md#), you can still execute assigned tasks, manage assets, access your schedule, track the time stamp of updated tasks, and close work orders and work order tasks. The data for tasks performed offline is stored on your device and synchronized when the device goes online.
+</table>When [offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-offline-fieldservice-mobile.md), you can still execute assigned tasks, manage assets, access your schedule, track the time stamp of updated tasks, and close work orders and work order tasks. The data for tasks performed offline is stored on your device and synchronized when the device goes online.
 
-Watch this four-minute video for a demonstration of the ServiceNow Field Service mobile application for managing field service tasks. Field Sertvice Management Mobile experience
+Watch this four-minute video for a demonstration of the ServiceNow Field Service mobile application for managing field service tasks.
 
 ## Empower technicians with an optimized mobile application
 
@@ -92,11 +93,11 @@ Field Service Manager Mobile gives Field Service managers the ability to manage 
 **Related topics**  
 
 
-[Configure the Now Mobile Agent application](../task/configure-field-service-mobile.md)
+[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-field-service-mobile.md)
 
-[Completing work on the ServiceNow Agent mobile application](Use-mobile-app-fsm.md)
+[Completing work on the ServiceNow Agent mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Use-mobile-app-fsm.md)
 
-[Activate Field Service Manager Mobile](../task/activate-manager-mobile.md)
+[Activate Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-manager-mobile.md)
 
-[Field Service Manager Mobile](manager-mobile-app.md)
+[Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/manager-mobile-app.md)
 

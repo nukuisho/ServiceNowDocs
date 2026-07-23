@@ -2,6 +2,7 @@
 title: Add adhoc approvers to an HR case
 description: Provide your agents with the flexibility to add adhoc approvers to a case that is part of an HR service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-adhoc-approver.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -17,7 +18,7 @@ Provide your agents with the flexibility to add adhoc approvers to a case that i
 
 ## Before you begin
 
-For example, in certain scenarios where in an employee's requests falls outside the bounds of the standard process or the agent needs to take an additional approval, an HR agent might need to request an adhoc approval before proceeding with its fulfillment.
+For example, in certain scenarios where in an employee's requests falls outside the bounds of the standard process or the agent needs to take an additional approval, an HR agent might be required to request an adhoc approval before proceeding with its fulfillment.
 
 Role required: sn\_hr\_core.case\_writer
 
@@ -27,7 +28,7 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Open the case that is assigned to you.
 
-3.  Click **More actions** and select **Add an approval**.
+3.  Select **More actions** and select **Add an approval**.
 
     **Note:**
 
@@ -87,6 +88,6 @@ Additional Comments
 Any other information that you want to share with the approvers.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 

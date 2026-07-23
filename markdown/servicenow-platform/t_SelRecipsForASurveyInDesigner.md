@@ -2,6 +2,7 @@
 title: Select recipients for a survey in the Survey Designer
 description: You can assign survey users while designing or modifying the survey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_SelRecipsForASurveyInDesigner.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,16 +29,16 @@ Role required: admin or survey\_admin
 4.  Click **Save**.
 
 
-**Parent Topic:**[Survey users and groups](../concept/c_SurveyUsersAndGroups.md)
+**Parent Topic:**[Survey users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyUsersAndGroups.md)
 
 **Related topics**  
 
 
-[Create a survey user group](t_CreatingSurveyUserGroups.md)
+[Create a survey user group]()
 
-[Designate a survey user](t_SurveyDefinitionForm.md)
+[Designate a survey user]()
 
-[Designate or remove multiple survey users at one time](t_SurveyCategoryForm.md)
+[Designate or remove multiple survey users at one time]()
 
-[Allow recipients to retake a survey](t_AllowRecipientsToRetakeASurvey.md)
+[Allow recipients to retake a survey]()
 

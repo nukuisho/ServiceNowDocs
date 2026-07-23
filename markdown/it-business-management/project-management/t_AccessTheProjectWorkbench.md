@@ -2,6 +2,7 @@
 title: Access the project workbench
 description: Access the project workbench from the Project form or from the application navigator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_AccessTheProjectWorkbench.html
 release: australia
 product: Project Management
 classification: project-management
@@ -23,26 +24,26 @@ Role required: it\_project\_manager
 
 -   Access the project workbench in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d278574e62">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d282810e62">
 
 Option
 
-</th><th align="left" id="d278574e65">
+</th><th align="left" id="d282810e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d278574e71">
+</th></tr></thead><tbody><tr><td id="d282810e71">
 
 **From Planning Console**
 
 </td><td>
 
-1.  Open a project record in [project workspace](access-the-project-workspace.md).
+1.  Open a project record in [project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-the-project-workspace.md).
 2.  Select the **Planning** tab.
 3.  Select the **Planning Console** selection arrow on the banner and select **Project Workbench**.
 
 
-</td></tr><tr><td id="d278574e108">
+</td></tr><tr><td id="d282810e108">
 
 **From a project record**
 
@@ -56,16 +57,16 @@ Steps
 </table>    **Note:** If the project workbench opens with no associated sys\_id or an incorrect sys\_id, an error message appears. Select a project from the project choice list in project workspace banner.
 
 
-**Parent Topic:**[Using Project workbench - Legacy](../concept/c_ProjectWorkbench.md)
+**Parent Topic:**[Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectWorkbench.md)
 
 **Related topics**  
 
 
-[Components of project workbench](../concept/components-project-workbench.md)
+[Components of project workbench]()
 
-[Project calculation](../concept/c_ProjectWorkbenchProjectCalc.md)
+[Project calculation]()
 
-[Managing Project workbench](../concept/c_UsingProjectWorkbench.md)
+[Managing Project workbench]()
 
-[Using Project workbench - Legacy](../concept/c_ProjectWorkbench.md)
+[Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectWorkbench.md)
 

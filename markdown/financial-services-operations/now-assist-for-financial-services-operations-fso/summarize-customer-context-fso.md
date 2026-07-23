@@ -1,7 +1,8 @@
 ---
-title: Summarize customer interaction context in the Interaction page
-description: The customer interaction context summary skill is used in the Interaction page. It automatically generates a structured summary of customer service interactions, helping banking service representatives quickly understand customer context and interaction history.
+title: Summarize banking customer interaction context in the Interaction page
+description: The Customer Interaction Context Summary skill is used in the Interaction page. It automatically generates a structured summary of customer service interactions, helping banking service representatives quickly understand customer context and interaction history.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-customer-context-fso.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -11,13 +12,13 @@ reading_time_minutes: 2
 breadcrumb: [Use generative AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
 ---
 
-# Summarize customer interaction context in the Interaction page
+# Summarize banking customer interaction context in the Interaction page
 
-The customer interaction context summary skill is used in the Interaction page. It automatically generates a structured summary of customer service interactions, helping banking service representatives quickly understand customer context and interaction history.
+The Customer Interaction Context Summary skill is used in the Interaction page. It automatically generates a structured summary of customer service interactions, helping banking service representatives quickly understand customer context and interaction history.
 
 ## Before you begin
 
-This skill uses indexed sources for AI search that requires configuration after install. For more information, see [Configure AI indexing for Agentic Contact Center for Banking](../../fso-front-office-banking/task/configure-ai-indexing-fso-contact-center.md).
+This skill uses indexed sources for AI search that requires configuration after install. For more information, see [Configure AI indexing for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-ai-indexing-fso-contact-center.md).
 
 Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
@@ -27,7 +28,7 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
 The customer interaction context summary skill provides a structured, context-aware summary of a customer service interaction in the Interaction page as part of Agentic Contact Center for Banking.
 
-![Customer context summary panel showing customer information, contact reason, related cases, and related products with balances.](../../fso-front-office-banking/images/agentic-contact-center-interaction-context-summary.png)
+\[Omitted image "agentic-contact-center-interaction-context-summary.png"\] Alt text: Customer context summary panel showing customer information, contact reason, related cases, and related products with balances.
 
 ## Procedure
 
@@ -43,50 +44,50 @@ The customer interaction context summary skill provides a structured, context-aw
 
 3.  After the summary is generated, you can perform additional actions.
 
-<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d54410e150">
+<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d56371e150">
 
 Option
 
-</th><th align="left" id="d54410e153">
+</th><th align="left" id="d56371e153">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d54410e159">
+</th></tr></thead><tbody><tr><td id="d56371e159">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think the summary was helpful, select the helpful icon \(![](../../customer-service-management/image/icon-helpful.png)\). If you think the summary wasn't helpful, select the not helpful icon \(![](../../customer-service-management/image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help improve future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you think the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text:\). If you think the summary wasn't helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text:\).This feedback improves the generative AI model and can help improve future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d54410e180">
+</td></tr><tr><td id="d56371e180">
 
 **View the information about the case summary**
 
 </td><td>
 
-To review details about the summary, select the more info icon \(![](../../customer-service-management/image/icon-more-info.png)\).
+To review details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text:\).
 
-</td></tr><tr><td id="d54410e194">
+</td></tr><tr><td id="d56371e194">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the expand card icon \(![](../../customer-service-management/image/icon-expand.png)\) or the collapse card icon \(![](../../customer-service-management/image/icon-collapse.png)\) to see more details or fewer summary details.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text:\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text:\) to see more details or fewer summary details.
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
-Engage with an AI agent to get further analysis and suggested responses for this interaction. For more information, see [Request AI agent support in the Interaction page](request-ai-agent-interaction-workspace.md).
+Engage with an AI agent to get further analysis and suggested responses for this interaction. For more information, see [Request AI agent support in the Interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/request-ai-agent-interaction-workspace.md).
 
-**Parent Topic:**[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](../../fso-common/concept/using-now-assist-for-financial-services-operations-fso.md)
+**Parent Topic:**[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
 
 **Related topics**  
 
 
-[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](../../fso-common/concept/using-now-assist-for-financial-services-operations-fso.md)
+[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
 
-[Configure customer interaction context summary skill in Now Assist for FSO](configure-customer-contextual-summarization-fso.md)
+[Configure banking customer interaction context summary skill in Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-customer-contextual-summarization-fso.md)
 

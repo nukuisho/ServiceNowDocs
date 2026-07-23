@@ -2,6 +2,7 @@
 title: Clone a store plan
 description: Clone an existing store plan to create a new store plan that includes the items, conditions, and hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-clone-store-plan.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +27,7 @@ The cloned store plan includes the store plan items.
 **Note:**
 
 -   The Clone button is disabled if more than one store plan is selected.
--   The clone option is available only for HQ details, HQ task details, store case details, and store task details. The clone option is not available for affected retail stores or scheduled store plans.
+-   The clone option is available only for HQ details, HQ task details, store case details, and store task details. The clone option is not available for affected retail stores or scheduled store plans and questionnaires.
 
 ## Procedure
 
@@ -44,5 +45,5 @@ The cloned store plan includes the store plan items.
 
 The system creates a copy of the selected Store plan and opens the cloned store plan in a new tab.
 
-**Parent Topic:**[Manage store plans](rahi-retail-manage-store-plans.md)
+**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plans.md)
 

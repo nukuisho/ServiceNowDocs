@@ -2,6 +2,7 @@
 title: Send a document version for approval
 description: Add a single or multiple reviewers and approvers for the document approval and review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/send-document-approval.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -19,7 +20,7 @@ Add a single or multiple reviewers and approvers for the document approval and r
 
 Role required: none
 
-For more information, see [Document approval and publish process](../concept/document-review-approval.md)
+For more information, see [Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md)
 
 ## Procedure
 
@@ -27,7 +28,7 @@ For more information, see [Document approval and publish process](../concept/doc
 
 2.  Select the documents icon from the left side panel to display the list of all document files and folders.
 
-3.  Go to the document card, select the vertical ellipse ![Translation-indicator icon](../../../administer/dynamic-translation/image/Ellipses.png).
+3.  Go to the document card, select the vertical ellipse \[Omitted image "Ellipses.png"\] Alt text: Translation-indicator icon.
 
 4.  Select **Send for approval** to add reviewer and approver names.
 
@@ -47,12 +48,12 @@ For more information, see [Document approval and publish process](../concept/doc
 
 12. From the same the document card, select **Track Versions**.
 
-13. Select the submit icon ![image.icon-submit] to submit the document version for approval.
+13. Select the submit icon \[Omitted image "image.icon-submit"\] Alt text: submit icon to submit the document version for approval.
 
-14. Once the document version is approved, select the publish icon ![image.icon-publish] to publish the version.
+14. Once the document version is approved, select the publish icon \[Omitted image "image.icon-publish"\] Alt text: publish icon to publish the version.
 
 15. Select **View more details** to view all details for the document.
 
 
-**Parent Topic:**[Document Management in Workspace](../concept/document-management-workspace.md)
+**Parent Topic:**[Document Management in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-management-workspace.md)
 

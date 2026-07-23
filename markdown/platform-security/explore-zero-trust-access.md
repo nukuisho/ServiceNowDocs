@@ -2,6 +2,7 @@
 title: Explore Zero Trust Access
 description: Zero Trust Access \(ZTA\) is a security model that assumes that no user or device is trusted by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/explore-zero-trust-access.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,11 +20,9 @@ ZTA ensures that all access to applications and data is granted on a least privi
 
 ServiceNow Zero Trust - Policy Based Session Access \(Session Access\) enables organizations to dynamically reduce user privilege in a web session based on a variety of factors, including IP address, location, authentication method, user’s role, group, user having MFA and attributes shared by the Identity Provider \(IDP\). This can help protect organizations from unauthorized access and data breaches, even when high-privileged users access applications from untrusted devices or locations.
 
-Zero Trust - Policy Based Session Access
-
 It enables the security admins to reduce or limit user access in a session based on IP address, location, Identity Provider attributes, and user attributes using adaptive authentication policies.
 
-![Zero Trust Access and Adaptive Authentication](../images/session-access-aa.png)
+\[Omitted image "session-access-aa.png"\] Alt text: Zero Trust Access and Adaptive Authentication
 
 **Note:**
 
@@ -42,7 +41,7 @@ It enables the security admins to reduce or limit user access in a session based
 Following are some of the use cases of Zero Trust Access:
 
 -   Reduce privileges based on the risk associated with the session. For example, a fulfiller role user logging from outside the trusted network can be configured to have only the requester role for the session.
--   Reduce access based on IDP response for a user session, if the user is using an untrusted device. For more information, see [Configure Identity Provider attribute for Session Access](../task/configure-idp-session-access.md).
+-   Reduce access based on IDP response for a user session, if the user is using an untrusted device. For more information, see [Configure Identity Provider attribute for Session Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-idp-session-access.md).
 
 This role relegation ensures that the user doesn’t have any other existing privileges in a session. When the user is logging in from a trusted network, all the existing privileges are assigned for a session.
 

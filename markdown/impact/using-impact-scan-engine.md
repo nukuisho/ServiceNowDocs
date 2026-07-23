@@ -1,15 +1,16 @@
 ---
-title: Running on-demand scans
+title: Run on-demand scans
 description: You can initiate some scan types on-demand to run whenever they are required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/using-impact-scan-engine.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Scan Engine, Platform Health, Using Impact, Impact]
+reading_time_minutes: 2
+breadcrumb: [Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
-# Running on-demand scans
+# Run on-demand scans
 
 You can initiate some scan types on-demand to run whenever they are required.
 
@@ -62,12 +63,23 @@ Scan your ServiceNow instance for findings. These scans return the findings and 
 
 Scans are initiated in different ways. They run using the Scan Engine properties you configured.
 
-For more information, see [Configure Scan Engine properties](configure-scan-engine-properties.md) and [Configure definition properties](../reference/additional-scan-engine-properties.md).
+For more information, see [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md) and [Configure definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/additional-scan-engine-properties.md).
+
+-   **[Initiate application scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiating-on-demand-scans-scan-engine.md)**  
+Scan applications to identify definition findings before publishing to the application repository. Application scans give insight into health scores, the number of findings, and the total impact of findings within your custom applications. 
+-   **[Initiate update set scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-update-set-scans.md)**  
+You can scan open update sets for findings to get insights into what you are importing and exporting across your environments. 
+-   **[Initiate instance scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-instance-scans.md)**  
+You can scan your ServiceNow instance for findings.
+-   **[Initiate limited definition scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-limited-def-scans.md)**  
+You can scan individual definitions or suites of definitions on-demand.
+
+**Parent Topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md)
 
 **Related topics**  
 
 
-[Full and delta instance scan initiation](../concept/scan-engine-parallel-processing.md)
+[Full and delta instance scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-parallel-processing.md)
 
-[scan-engine-parallel-processing-task.md](scan-engine-parallel-processing-task.md)
+[Initiate and manage scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-manage-scan-engine.md)
 

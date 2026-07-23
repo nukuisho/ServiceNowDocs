@@ -2,6 +2,7 @@
 title: Run Enrichment Actions within a case
 description: Use this section to understand how enrichments actions are performed on case\(s\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/run-enrichment-results.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -47,27 +48,33 @@ Role required: sn\_sec\_tisc.admin
 
     **Note:** Once the execution initiated or completed, a work notes is posted on the activity stream of the form view.
 
-    ![Enrichment actions](../image/tisc-observables-enrichments.png)
+    \[Omitted image "tisc-observables-enrichments.png"\] Alt text: Enrichment actions
 
 
-**Parent Topic:**[Threat Analyst Workbench](../concept/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 
 
-[Workbench Overview](../concept/workbench-overview.md)
+[Workbench Overview]()
 
-[Creating cases using Threat Analyst Workbench](../concept/create-cases-using-threat-analyst-workbench.md)
+[Creating cases using Threat Analyst Workbench]()
 
-[Creating case task using Threat Analyst Workbench](tisc-create-case-task.md)
+[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
 
-[Working with Investigation Canvas](../concept/tisc-investigation-canvases.md)
+[Creating case task using Threat Analyst Workbench]()
 
-[Add artifacts to case\(s\) or case task\(s\)](add-artifacts-to-a-case-s.md)
+[Working with Investigation Canvas]()
 
-[View Case Reports](view-case-reports.md)
+[Add artifacts to case\(s\) or case task\(s\)]()
 
-[Create a security incident from a TISC case](tisc-create-si-case.md)
+[Generate a Case Report using generative AI]()
 
-[Upload Secure File Attachments](secure-file-attachments.md)
+[Generate a Case Report using a template]()
+
+[Create a security incident from a TISC case]()
+
+[Upload Secure File Attachments]()
+
+[Using playbooks]()
 

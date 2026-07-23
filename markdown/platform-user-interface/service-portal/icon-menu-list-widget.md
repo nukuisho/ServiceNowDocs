@@ -2,6 +2,7 @@
 title: Icon menu list widget
 description: A simple list with a glyph icon next to each link. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/icon-menu-list-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -17,7 +18,7 @@ A simple list with a glyph icon next to each link. You can use this base system 
 
 Configure the icon information using the Menu Items related list.
 
-![Icon Menu list widget with icons for profile, group information, and credit card information](../image/WidgetIconMenuList.png "Icon Menu list widget")
+\[Omitted image "WidgetIconMenuList.png"\] Alt text: Icon Menu list widget with icons for profile, group information, and credit card information
 
 1.  From the instance options for the icon menu list widget, under Related Lists, click **Menu Items**.
 2.  Click **New**.
@@ -34,14 +35,14 @@ Configure the icon information using the Menu Items related list.
 |Condition|Determines what conditions are required for menu items to show in the header. For more information on what conditions to use in the **Condition** field, see [Create a UI Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md) [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).|
 |Glyph|Icon that you want to display in the icon menu list widget.|
 
-**Parent Topic:**[Example widgets](sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

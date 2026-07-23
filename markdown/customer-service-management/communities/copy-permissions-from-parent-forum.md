@@ -2,6 +2,7 @@
 title: Copy permissions from a parent forum
 description: You can copy permissions from a parent forum to a child forum.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/copy-permissions-from-parent-forum.html
 release: australia
 product: Communities
 classification: communities
@@ -34,12 +35,12 @@ Role required: sn\_communities.forum\_admin
 
 Configure the forum users and permissions as required.
 
-**Parent Topic:**[Create a forum permission](create-forum-permission.md)
+**Parent Topic:**[Create a forum permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-forum-permission.md)
 
 **Related topics**  
 
 
-[Copy permissions from a forum](copy-permissions-from-another-forum.md)
+[Copy permissions from a forum]()
 
-[Debug user permissions](debug-user-permissions.md)
+[Debug user permissions]()
 

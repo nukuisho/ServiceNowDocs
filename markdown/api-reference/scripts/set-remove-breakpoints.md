@@ -2,6 +2,7 @@
 title: Set or remove breakpoints
 description: Set breakpoints or conditional breakpoints to pause scripts at specific lines, and remove breakpoints when you are done debugging them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/set-remove-breakpoints.html
 release: australia
 product: Scripts
 classification: scripts
@@ -53,7 +54,7 @@ Breakpoints belong to the developer who sets them. Developers must set and remov
 
     The Script Debugger pauses the script on the first line containing a breakpoint, and the system displays a confirmation window.
 
-    ![ServiceNow script debugger](../image/start-debugging-confirmation.png)
+    \[Omitted image "start-debugging-confirmation.png"\] Alt text: ServiceNow script debugger
 
 5.  Click **Start Debugging**.
 
@@ -62,10 +63,10 @@ Breakpoints belong to the developer who sets them. Developers must set and remov
 6.  When debugging is complete, remove breakpoints from the script.
 
 
-**Parent Topic:**[Script Debugger and Session Log](../concept/script-debugger.md)
+**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
 
 **Related topics**  
 
 
-[Script Debugger step-through and console controls](../reference/step-through-controls.md)
+[Script Debugger step-through and console controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/step-through-controls.md)
 

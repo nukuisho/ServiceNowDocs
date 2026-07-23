@@ -2,6 +2,7 @@
 title: Performance Analytics widgets on Service Portal
 description: You can show Performance Analytics indicators and breakdowns using Service Portal.You can activate the Performance Analytics and Reporting - Service Portal Widgets plugin \(com.snc.pa.sp.widget\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/service-portal-pa-widget.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +18,7 @@ You can show Performance Analytics indicators and breakdowns using Service Porta
 
 When you edit a portal, add the **Performance Analytics** widget. Use the widget options to select an existing Performance Analytics widget to show on the portal and whether to show its title.
 
-![Performance Analytics widget opened in the Service Portal Designer](../image/service-portal-pa-widget2.png "Performance Analytics widget")
+\[Omitted image "service-portal-pa-widget2.png"\] Alt text: Performance Analytics widget opened in the Service Portal Designer
 
 ## Security requirements for viewing widgets
 
@@ -39,11 +40,11 @@ Upgraded instances cannot automatically follow the rules introduced in Quebec be
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md)
+[Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md)
 
-[Reports on Service Portal](../../reporting/concept/service-portal-reporting-widget.md#)
+[Reports on Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/service-portal-reporting-widget.md)
 
-[Performance Analytics widgets](c_Widgets.md)
+[Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Widgets.md)
 
 ## Activate the Performance Analytics and Reporting - Service Portal Widgets plugin
 
@@ -86,7 +87,7 @@ Core Service Portal functionality.
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  

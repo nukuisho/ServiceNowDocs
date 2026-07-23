@@ -2,6 +2,7 @@
 title: Retrieve journal entries using direct web services
 description: To get the contents of a journal field, make a second soap request against the sys\_journal\_field table to pull the appropriate journal records back for the record in question.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/retrieving-journal-entries.html
 release: australia
 product: Web Services
 classification: web-services
@@ -28,20 +29,20 @@ To retrieve the journal entries, you will first need to query the incident for i
 <soapenv:Envelope xmlns:soapenv= "http://schemas.xmlsoap.org/soap/envelope/" xmlns:sys= "http://www.service-now.com/sys_journal_field" ><soapenv:Header /><soapenv:Body><sys:getRecords><element>comments</element><element_id>9d385017c611228701d22104cc95c371</element_id></sys:getRecords></soapenv:Body></soapenv:Envelope>
 ```
 
-**Parent Topic:**[Direct web services](c_DirectWebServices.md)
+**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md)
 
 **Related topics**  
 
 
-[Use forms to limit or extend the query response](using-forms-limit-extend-query-resp.md)
+[Use forms to limit or extend the query response]()
 
-[Return the display value for reference variables](return-display-reference-variables.md)
+[Return the display value for reference variables]()
 
-[Clear values from a target instance](clearing-values-target.md)
+[Clear values from a target instance]()
 
-[Retrieve choice fields using direct web services](retrieving-choice-fields-direct-ws.md)
+[Retrieve choice fields using direct web services]()
 
-[Persist an HTTP session across all SOAP calls](persist-session-all-soap-calls.md)
+[Persist an HTTP session across all SOAP calls]()
 
-[SOAP direct web service API functions](../../web-services-apis/reference/r_DirectWebServiceAPIFunctions.md)
+[SOAP direct web service API functions]()
 

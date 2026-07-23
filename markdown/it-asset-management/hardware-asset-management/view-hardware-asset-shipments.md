@@ -2,13 +2,14 @@
 title: View hardware asset shipment details
 description: View all hardware asset shipment details in a single place in the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-hardware-asset-shipments.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Track shipments using the integration framework, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View hardware asset shipment details
@@ -21,7 +22,7 @@ Role required: inventory\_user \(read\) or inventory\_admin
 
 ## About this task
 
-The Shipment list shows all the shipment records initiated by the shipment tasks of various flows. For details, see [Task closures that create shipment records](../reference/shipment-record-sources.md).
+The Shipment list shows all the shipment records initiated by the shipment tasks of various flows. For details, see [Task closures that create shipment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/shipment-record-sources.md).
 
 A shipment record is created automatically whenever a shipment task of a flow or process is closed.
 
@@ -179,26 +180,26 @@ Option that indicates whether the shipment record is stale. This option is read-
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Track shipments using the integration framework](../concept/tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 
 
-[Creating an integration script include for third-party carrier applications](../concept/creating-integration-script-include-ham.md)
+[Creating an integration script include for third-party carrier applications]()
 
-[Connect your ServiceNow instance with a shipping carrier application](associate-shipping-carrier-int-profile.md)
+[Connect your ServiceNow instance with a shipping carrier application]()
 
-[Remove a shipping carrier from an integration profile](remove-shipping-carrier.md)
+[Remove a shipping carrier from an integration profile]()
 
-[Create a carrier integration profile](create-carrier-integration-profile.md)
+[Create a carrier integration profile]()
 
-[View the carrier integration profile details](view-integration-profiles.md)
+[View the carrier integration profile details]()
 
-[Test the integration with the carrier API](test-carrier-api-integration.md)
+[Test the integration with the carrier API]()
 
-[Create a shipping carrier record](create-shipping-carrier.md)
+[Create a shipping carrier record]()
 
-[Stale shipments](../concept/stale-shipments.md)
+[Stale shipments]()
 
-[Track a hardware asset shipment](track-hardware-asset-shipments.md)
+[Track a hardware asset shipment]()
 

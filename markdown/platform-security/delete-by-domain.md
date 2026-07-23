@@ -2,6 +2,7 @@
 title: Delete by domain
 description: Clean up inactive leaf level domains in the domain hierarchy with a controlled and automated tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/delete-by-domain.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

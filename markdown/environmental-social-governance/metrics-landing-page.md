@@ -2,6 +2,7 @@
 title: Metrics landing page
 description: The metrics landing page offers an overview of all your metrics and metric definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/metrics-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,7 +19,7 @@ The metrics landing page provides a consolidated view of all your metrics and me
 -   sn\_esg.metrics\_manager
 -   sn\_esg.program\_manager
 
-You can launch the metrics landing page using the metrics icon \(![Metrics icon](../image/metrics-landing-page.png)\).
+You can launch the metrics landing page using the metrics icon \(\[Omitted image "metrics-landing-page.png"\] Alt text: Metrics icon\).
 
 The landing page displays the following sections:
 
@@ -35,9 +36,9 @@ The Overview section shows the data for the manual metrics in the following tile
 -   Number of metrics awaiting approval for the metric data tasks: Number of metric data tasks that have not been approved.
 -   Number of metrics rejected: Number of metric data tasks that have been rejected.
 
-When you select a tile, the data on the page is filtered. You can also filter the data that is visible using the reporting classification filters that are provided. The options displayed for the reporting classification filter can be configured by the users. For more information on how to configure the options, refer to [Create a grouping for metric definitions](../../esg-management-reporting/task/create-a-classification-choice.md).
+When you select a tile, the data on the page is filtered. You can also filter the data that is visible using the reporting classification filters that are provided. The options displayed for the reporting classification filter can be configured by the users. For more information on how to configure the options, refer to [Create a grouping for metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-classification-choice.md).
 
-The data displayed on this page is always the latest data.
+The data displayed on this page is the latest data.
 
 ## Aggregated metric data
 

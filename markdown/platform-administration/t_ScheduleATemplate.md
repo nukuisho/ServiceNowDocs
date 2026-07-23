@@ -2,6 +2,7 @@
 title: Schedule record creation from a template
 description: You can create and schedule a scheduled job to create records based on a template. For example, you can regularly create a populated task record to perform a weekly backup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ScheduleATemplate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: admin
 
 3.  Click **Schedule**.
 
-    The [Scheduled Entity Generation](../../reference-pages/task/t_ScheduleTheGenerationOfAnEntity.md) form appears.
+    The [Scheduled Entity Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleTheGenerationOfAnEntity.md) form appears.
 
 4.  In the **Run** choice list, select how frequently to create a record.
 
@@ -34,22 +35,22 @@ Role required: admin
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Using form templates](../concept/c_Templates.md)
+**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md)
 
 **Related topics**  
 
 
-[Create a template using the Template form](t_CreateATemplateUsingTheTmplForm.md)
+[Create a template using the Template form]()
 
-[Create templates for related task records](create-templates-for-related-task-records.md)
+[Create templates for related task records]()
 
-[Create a template by saving a form](t_SaveAFormAsATemplateInUI16OrUI15.md)
+[Create a template by saving a form]()
 
-[Create a module for a template](t_CreateAModuleForATemplate.md)
+[Create a module for a template]()
 
-[Template bar](../concept/template-bar.md)
+[Template bar]()
 
-[Toggle the template bar](t_ToggleTheTemplateBar.md)
+[Toggle the template bar]()
 
-[Scripted templates](../reference/r_ScriptedTemplates.md)
+[Scripted templates]()
 

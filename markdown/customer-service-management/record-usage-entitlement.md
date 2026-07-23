@@ -2,6 +2,7 @@
 title: Record the usage on the entitlement
 description: Record the consumption or usages made out of the total characteristic quantities allotted for an entitlement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/record-usage-entitlement.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,15 +26,15 @@ When an entitlement moves to the Active state, usage records are created. You ca
 
 1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
 
-<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d309112e63">
+<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d318648e63">
 
 Interface
 
-</th><th align="left" id="d309112e66">
+</th><th align="left" id="d318648e66">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d309112e72">
+</th></tr></thead><tbody><tr><td id="d318648e72">
 
 **Platform interface**
 
@@ -41,7 +42,7 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements** &gt; **Customer Contracts**.
 
-</td></tr><tr><td id="d309112e96">
+</td></tr><tr><td id="d318648e96">
 
 **CSM Configurable Workspace**
 
@@ -54,15 +55,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Record the usage on an entitlement.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d309112e148">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d318648e148">
 
 From
 
-</th><th align="left" id="d309112e151">
+</th><th align="left" id="d318648e151">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d309112e157">
+</th></tr></thead><tbody><tr><td id="d318648e157">
 
 **Customer Contracts**
 
@@ -74,7 +75,7 @@ Do this
 4.  From the Entitlement Usages related list, open the usage record.
 
 
-</td></tr><tr><td id="d309112e181">
+</td></tr><tr><td id="d318648e181">
 
 **Entitlements**
 

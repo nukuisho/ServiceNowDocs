@@ -2,11 +2,12 @@
 title: Real-time prevention monitoring for Scan Engine
 description: Real-time prevention monitoring is a Scan Engine feature that actively monitors records as they are created or modified, displaying finding messages in real time when saving records in any instance where the Scan Engine is installed and activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/real-time-prevention-monitoring-combined.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-13"
 reading_time_minutes: 3
-breadcrumb: [Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent and resolve technical debt, Platform Health, Using Impact, Impact]
 ---
 
 # Real-time prevention monitoring for Scan Engine
@@ -20,7 +21,7 @@ Real-time prevention monitoring provides the following capabilities:
 -   **Guided resolution:** Provides details such as line numbers, impact levels, and steps to resolve found issues.
 -   **Governance:** Supports exception workflows and links to supporting documentation for compliance.
 
-**Note:** Real-time prevention monitoring must be enabled on the Scan Engine properties page for this feature to function. For more information, refer to [Configure Scan Engine properties](../task/configure-scan-engine-properties.md).
+**Note:** Real-time prevention monitoring must be enabled on the Scan Engine properties page for this feature to function. For more information, refer to [Configure real-time scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-real-time-scanning-properties.md).
 
 ## Finding levels
 
@@ -63,7 +64,7 @@ Red
 </td><td>
 
 -   Prevents users from saving the record unless they resolve the issue or provide an exception reason.
--   For more information, refer to [Submit exceptions for the Scan Engine findings](submitting-exception-reasons-scan-engine.md).
+-   For more information, refer to [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/submitting-exception-reasons-scan-engine.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +94,7 @@ Displays an informational message without blocking saves or creating finding rec
 </td></tr></tbody>
 </table>**Note:** Depending on the level of the definition, users may be required to fix a finding before saving a record.
 
-## Finding information window
+## Findings data
 
 When a finding is detected, an information window displays. The fields shown depend on the severity of the finding.
 
@@ -161,7 +162,7 @@ Impact
 Using the information provided in the finding window, you can do one of the following:
 
 -   Correct the issue. If the issue is corrected, the Scan Engine will not return a new finding notice.
--   For Recommend level findings, submit an exception reason, then select **Update**. See [Submit exceptions for the Scan Engine findings](submitting-exception-reasons-scan-engine.md).
+-   For Recommend level findings, submit an exception reason, then select **Update**. See [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/submitting-exception-reasons-scan-engine.md).
 
 ## Configuration
 
@@ -169,5 +170,5 @@ Real-time messaging enforcement can be disabled on the Scan Engine properties pa
 
 Visibility of real-time messaging can also be configured to limit which users receive finding notifications. You can restrict messaging to a specific group if necessary.
 
-For more information, refer to [Configure Scan Engine properties](../task/configure-scan-engine-properties.md).
+For more information, refer to [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md).
 

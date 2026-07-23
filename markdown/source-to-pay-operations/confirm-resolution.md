@@ -2,6 +2,7 @@
 title: Confirm a resolution for a purchase order exception
 description: Confirm a resolution for a purchase order exception. You can close the purchase order exception when all necessary actions are complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/confirm-resolution.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,10 +33,15 @@ Role required: sn\_poem\_core.operational\_buyer
 
 6.  Select **Submit**.
 
+    The purchase order exception is marked as closed.
 
-## Result
 
-The purchase order exception is marked as closed.
+**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
 
-**Parent Topic:**[Resolving purchase order exceptions](../concept/resolving-purchase-order-exceptions.md)
+**Related topics**  
+
+
+[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-po-exception-task.md)
+
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
 

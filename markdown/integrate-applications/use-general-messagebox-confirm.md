@@ -2,11 +2,12 @@
 title: Use the Confirm component
 description: Set a confirmation message that is shown in a dialog box requiring user inputs by using the Confirm component in the RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-messagebox-confirm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [General, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [General, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the Confirm component
@@ -21,7 +22,7 @@ Role required: none
 
 The Confirm component is used as part of an Attended Robot automation. Use this component to request a confirmation from the user as a response to a user action. For example, request user inputs on whether the user wants to save a file.
 
-To configure the properties, see [Properties of Confirm components](../reference/Properties-general-components.md#confirm-components).
+To configure the properties, see [Properties of Confirm components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ To configure the properties, see [Properties of Confirm components](../reference
 
 2.  Drag the Confirm component to the Design surface.
 
-3.  To provide inputs to the parameters, see [Configure port properties](configure-input-port-properties.md).
+3.  To provide inputs to the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Confirm component to the corresponding ports of the other components as described in the following table.
 
@@ -109,5 +110,5 @@ Not applicable
 </table>5.  To test the component, right-click the component bar and click **Run From Here**.
 
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
 

@@ -2,6 +2,7 @@
 title: Configure your Password Reset process to auto-enroll users
 description: To simplify management, many organizations auto-enroll users in the Password Reset program. Every base-system verification type enables you to specify automatic enrollment for your process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/configure-auto-enroll-for-pwd-reset.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -29,7 +30,7 @@ To enable automatic enrollment, you configure settings for the verification type
 
 2.  Click the verification type for the verification that your Password Reset process uses.
 
-    The verification type for each base-system verification is identified in [Password Reset verifications](../../login/concept/c_PWRVerifications.md).
+    The verification type for each base-system verification is identified in [Password Reset verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_PWRVerifications.md).
 
 3.  On the **Verification Types** page, specify the following settings:
 
@@ -57,34 +58,34 @@ Automatic enrollment
 
 </td><td>
 
-Select the check box to auto-enroll users. **Note:** If **Automatic enrollment** is not selected, then you must provide an enrollment UI macro and enrollment processor script as described in [Create a custom Password Reset verification type](../../login/task/create-verification-type.md).
+Select the check box to auto-enroll users. **Note:** If **Automatic enrollment** is not selected, then you must provide an enrollment UI macro and enrollment processor script as described in [Create a custom Password Reset verification type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/create-verification-type.md).
 
 </td></tr></tbody>
 </table>4.  Repeat the procedure for all verifications that your Password Reset process uses.
 
 
-**Parent Topic:**[Configure your Password Reset process](../../login/task/t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 
 
-[Calculating the security score for password reset process](../../login/reference/pwd-reset-process-recommend.md)
+[Calculating the security score for password reset process]()
 
-[Configure password expiration reminder](../../login/task/password-reset-expiration-setup.md)
+[Configure password expiration reminder]()
 
-[Credential stores for Password Reset](../../login/concept/c_CredentialStores.md)
+[Credential stores for Password Reset]()
 
-[Password Reset verifications](../../login/concept/c_PWRVerifications.md)
+[Password Reset verifications]()
 
-[Enable users to enroll for Password Reset](configure-user-enroll-for-pwd-reset.md)
+[Enable users to enroll for Password Reset]()
 
-[Configure Password Reset properties](../../login/task/t_SetPwdResetProps.md)
+[Configure Password Reset properties]()
 
-[Send email to remind users to enroll for Password Reset](../../login/task/config-pwd-reset-enroll-reminder.md)
+[Send email to remind users to enroll for Password Reset]()
 
-[Configure the required strength for passwords](../../login/task/config-pwd-strength-rqmts.md)
+[Configure the required strength for passwords]()
 
-[Specify lockout for failed login attempts](t_LockoutForFailedLogins.md)
+[Specify lockout for failed login attempts]()
 
-[Configure Google reCAPTCHA for the password reset process](../../login/task/t_ConfigureGoogleRecaptcha.md)
+[Configure Google reCAPTCHA for the password reset process]()
 

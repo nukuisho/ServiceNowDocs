@@ -2,6 +2,7 @@
 title: Manage project stories in the project workbench
 description: If Project Portfolio Management and Agile Development 2.0 are activated, the project manager can manage the stories in a project from the project workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ManageProjStoriesProjWorkbench.html
 release: australia
 product: Project Management
 classification: project-management
@@ -27,7 +28,7 @@ Manage stories in your project using the **Manage Stories** option in the Projec
 
 ## Procedure
 
-1.  In the project workbench header, select the options icon \(![Options icon](../image/more_options_icon.png)\) and then select **Manage Stories**.
+1.  In the project workbench header, select the options icon \(\[Omitted image "more\_options\_icon.png"\] Alt text: Options icon\) and then select **Manage Stories**.
 
     The Backlog section of the Agile Board opens in a new tab.
 
@@ -38,18 +39,18 @@ Manage stories in your project using the **Manage Stories** option in the Projec
 4.  Select **Update** or **Submit**.
 
 
-**Parent Topic:**[Managing Project workbench](../concept/c_UsingProjectWorkbench.md)
+**Parent Topic:**[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
 
 **Related topics**  
 
 
-[Open a project in the project workbench](t_OpenAProjectInTheProjectWorkbench.md)
+[Open a project in the project workbench]()
 
-[Create a project task in the project workbench](t_CreateProjTaskProjWorkbench.md)
+[Create a project task in the project workbench]()
 
-[Create a story in the project workbench](t_CreateAStoryInTheProjectWorkbench.md)
+[Create a story in the project workbench]()
 
-[Create a test case in the project workbench](t_CreateTestCaseProjWorkbench.md)
+[Create a test case in the project workbench]()
 
-[Managing Project workbench](../concept/c_UsingProjectWorkbench.md)
+[Managing Project workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_UsingProjectWorkbench.md)
 

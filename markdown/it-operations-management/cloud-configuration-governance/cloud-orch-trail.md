@@ -2,6 +2,7 @@
 title: The Cloud Orchestration Trail
 description: The Cloud Orchestration Trail is an activity log for all cloud resource activity on the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-orch-trail.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,7 +18,7 @@ The Cloud Orchestration Trail is an activity log for all cloud resource activity
 
 ## Cloud Orchestration Trail contents
 
-![The Cloud Orchestration Trail form](../image/cloud-orch-trail.png "Cloud orchestration trail form")
+\[Omitted image "cloud-orch-trail.png"\] Alt text: The Cloud Orchestration Trail form
 
 <table id="table_ewy_tll_3z"><thead><tr><th>
 
@@ -188,10 +189,10 @@ You can configure the Cloud Orchestration Trail form to show the **Step** field 
 |Submit Form|Catalog Item|Catalog Item Request|
 |Validate Inputs|BP DSL Validator|Cloud Orchestration|
 
-See [Use Cloud Root Cause Analysis reports](../task/use-cloud-root-call-analysis.md) for instructions on how to access reports related to the Cloud Orchestration Trail.
+See [Use Cloud Root Cause Analysis reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/use-cloud-root-call-analysis.md) for instructions on how to access reports related to the Cloud Orchestration Trail.
 
 **Related topics**  
 
 
-[The Cloud API Trail](cloud-api-trail.md#)
+[The Cloud API Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-api-trail.md)
 

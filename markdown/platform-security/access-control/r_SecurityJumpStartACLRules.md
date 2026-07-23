@@ -2,13 +2,14 @@
 title: Security jump-start - ACL rules plugin
 description: The Security jump-start access control level \(ACL Rules\) plugin is installed automatically on all new instances. Use this plugin to quickly secure multiple system tables and expedite the production launch process for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/r\_SecurityJumpStartACLRules.html
 release: australia
 product: Access Control
 classification: access-control
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Explore Access Control Lists, Access Control List Rules, Access Management]
+breadcrumb: [Explore Access Control Lists, Access Control Lists, Access Management]
 ---
 
 # Security jump-start - ACL rules plugin
@@ -128,5 +129,5 @@ The following ACLs are included in this plugin. Select the icon in a header row 
 |`sys_user_role_contains`|write|admin role required to write to Contained Role records|
 |`sys_user_token`|RWCD|admin role required to read/write/create/delete User Token records|
 
-**Note:** To learn more about this plugin, see [Enable security jump start plugin \(ACL Rules\)](../../security-center/reference/sc-security-jump-start-plugin-acl-rules.md) in Instance Security Hardening Settings.
+**Note:** To learn more about this plugin, see [Enable security jump start plugin \(ACL Rules\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-security-jump-start-plugin-acl-rules.md) in Instance Security Hardening Settings.
 

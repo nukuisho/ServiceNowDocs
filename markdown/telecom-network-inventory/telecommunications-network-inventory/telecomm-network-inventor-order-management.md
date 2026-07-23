@@ -2,11 +2,12 @@
 title: Telecommunications Network Inventory and Order Management for Telecommunications and Media
 description: With the Order Management for Telecommunications and Media \(OMT\) application, you can manage all your product and service orders from one place. These product orders are divided into service orders that are further divided into resource orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/telecomm-network-inventor-order-management.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Integrate, Telecommunications Network Inventory]
 ---
@@ -42,8 +43,8 @@ You must ensure that these conditions are met:
 
 To create a change request, an admin must perform the following tasks for an order task that needs the network inventory actions:
 
-1.  Create a record producer. To learn more, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
-2.  Create a change model. To learn more, see [Create a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md).
+1.  Create a record producer. To learn more, see Create a record producer.
+2.  Create a change model. To learn more, see Create a change model.
 
     By default, the Telecommunications Network Inventory application provides the change models that are described in the following table.
 
@@ -56,10 +57,8 @@ To create a change request, an admin must perform the following tasks for an ord
 
     The states are New, Implement, Review, and Closed for the earlier change models. By default, all new change model states are set as New.
 
-3.  Create a decision entry in the decision table provided by the Telecommunications Network Inventory application. See [Order Management for Telecommunications integration](../task/decision_table_for_tni_omt_integration.md) to learn how to create an entry.
+3.  Create a decision entry in the decision table provided by the Telecommunications Network Inventory application. See [Order Management for Telecommunications integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/decision_table_for_tni_omt_integration.md) to learn how to create an entry.
 
-
-![TNI-OMT Integration for creating a change task. For the text description, refer to the workflow steps that follow.](../image/omt-tni-integration-flow.png)
 
 The workflow for creating a change task using TNI-OMT integration is as follows:
 
@@ -75,7 +74,7 @@ The workflow for creating a change task using TNI-OMT integration is as follows:
 
 An inventory agent can open, verify, implement, and close the assigned change tasks. After implemented, the created CIs are added under the **Affected CIs** tab. The work notes of the order task are updated when the order task is closed.
 
-As a result, the Order Management for Telecommunications and Media application fetches the list of the affected CIs and creates an install base item to relate the product order to the CI. To learn more, see [Configuring order fulfillment in Order Management for Telecommunications, Media, and Technology](https://servicenow.com/docs/bundle/utah-technology/page/product/tmt-order-mgt/concept/order-mgt-configuring.html).
+As a result, the Order Management for Telecommunications and Media application fetches the list of the affected CIs and creates an install base item to relate the product order to the CI. To learn more, see [Configuring order fulfillment in Order Management for Telecommunications, Media, and Technology](https://www.servicenow.com/docs/bundle/utah-technology/page/product/tmt-order-mgt/concept/order-mgt-configuring.html).
 
 **Note:**
 
@@ -85,10 +84,10 @@ As a result, the Order Management for Telecommunications and Media application f
     -   In the Order Management for Telecommunications and Media application, the SD-WAN product has an Allocate and Install CPE task that triggers an equipment creation change request to the Telecommunications Network Inventory application.
     -   The Telecommunications Network Inventory application has demo data that you can use to create equipment, provision a link aggregation group \(LAG\), automate a Gigabyte Passive Optical Network \(GPON\) broadband, and fiber wise mobility infra as Telecommunications Network Inventory workflows.
 
-**Parent Topic:**[Integrating Telecommunications Network Inventory with other applications](integrating-telecommunications-network-inventory--applications.md)
+**Parent Topic:**[Integrating Telecommunications Network Inventory with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/integrating-telecommunications-network-inventory--applications.md)
 
 **Related topics**  
 
 
-[Telecommunications Network Inventory integration with Hardware Asset Management](integration-with-hardware-asset-management.md)
+[Telecommunications Network Inventory integration with Hardware Asset Management]()
 

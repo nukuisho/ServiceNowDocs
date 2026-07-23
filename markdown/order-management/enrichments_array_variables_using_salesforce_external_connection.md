@@ -2,11 +2,12 @@
 title: Passing array variables using Salesforce external connection
 description: You must use single quote strings when making a SOQL query to Salesforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/enrichments\_array\_variables\_using\_salesforce\_external\_connection.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Passing array variables using Salesforce external connection
@@ -45,7 +46,7 @@ const response = Salesforce.<yourExternalConnectionVariableName>(inputs);
 **Related topics**  
 
 
-[Using external connections with OAuth support](using-external-connections-with-oauth-support.md)
+[Set up External connections for configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/external-connections.md)
 
-[Passing data from Salesforce to CPQ fields](enrichments_on_pass_data_from_salesforce_to_logik_io_fields.md)
+[Passing data from Salesforce to ServiceNow CPQ fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments_on_pass_data_from_salesforce_to_logik_io_fields.md)
 

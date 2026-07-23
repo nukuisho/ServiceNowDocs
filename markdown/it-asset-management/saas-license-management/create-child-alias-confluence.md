@@ -2,13 +2,14 @@
 title: Create a child alias to set up multiple Confluence Cloud integration profiles
 description: Create a child alias to set up multiple Confluence Cloud integration profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-child-alias-confluence.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a child alias to set up multiple Confluence Cloud integration profiles
@@ -23,7 +24,7 @@ Role required: sam\_integrator
 
 1.  Create a Confluence Cloud integration profile.
 
-    For more information about creating an integration profile, see [Integrating with Confluence Cloud](../concept/integrate-with-confluence-cloud.md#).
+    For more information about creating an integration profile, see [Integrating with Confluence Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md).
 
 2.  Open the connection &amp; credential record set on the integration profile.
 
@@ -61,42 +62,42 @@ Role required: sam\_integrator
 14. Select **Save** and publish the integration profile.
 
 
-**Parent Topic:**[SaaS License Management](../concept/sam-subscription-management.md)
+**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 
 
-[Request SaaS License Management](request-saas-license-management.md)
+[Request SaaS License Management]()
 
-[SaaS License Management setup for large companies](../concept/saas-setup-large-companies.md)
+[SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard](../concept/saas-overview-dashboard.md)
+[SaaS Overview dashboard]()
 
-[Integrate with SaaS applications](../concept/create-integration-profile.md)
+[Integrate with SaaS applications]()
 
-[Integrate with SSO providers](../concept/saas-sso-integration.md)
+[Integrate with SSO providers]()
 
-[Playbook for SaaS integrations](../concept/playbook-saas-integrations.md)
+[Playbook for SaaS integrations]()
 
-[Viewing your SaaS and SSO subscriptions](../concept/usage-summary-saas.md)
+[Viewing your SaaS and SSO subscriptions]()
 
-[Review a software reclamation rule](add-reclamation-rule-sub.md)
+[Review a software reclamation rule]()
 
-[Reclaiming user subscriptions](../concept/reclaiming-user-subscriptions-saas.md)
+[Reclaiming user subscriptions]()
 
-[Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md)
+[Create a child alias to set up multiple integration profiles]()
 
-[Create a child alias to set up multiple Cisco Webex integration profiles](create-child-alias-webex.md)
+[Create a child alias to set up multiple Cisco Webex integration profiles]()
 
-[Create a child alias to set up multiple Jira integration profiles](create-child-alias-jira.md)
+[Create a child alias to set up multiple Jira integration profiles]()
 
-[Associate a user with subscription records](map-user-data.md)
+[Associate a user with subscription records]()
 
-[Disconnect SSO apps](disconnect-azure-ad-apps.md)
+[Disconnect SSO apps]()
 
-[Delete an integration profile](../concept/delete-saas-integration.md)
+[Delete an integration profile]()
 
-[Subscription identifiers for SaaS and SSO applications](../concept/subscription-identifiers.md#)
+[Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications](../concept/subscription-exclusions.md#)
+[Subscription exclusions for SaaS and SSO applications]()
 

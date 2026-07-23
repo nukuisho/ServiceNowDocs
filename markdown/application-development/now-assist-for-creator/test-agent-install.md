@@ -2,13 +2,14 @@
 title: Install ATF troubleshooting agent
 description: Install the Now Assist for Creator application from the ServiceNow Store to get the ATF troubleshooting agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/test-agent-install.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Install ATF troubleshooting agent
@@ -19,6 +20,11 @@ Install the Now Assist for Creator application from the ServiceNow Store to get 
 
 -   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   The default model provider for ATF troubleshooting agent is Anthropic Claude on AWS.
+
+Ensure that the following applications are installed:
+
+-   Build Agent: See [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-build-agent.md) for more information.
+-   ATF Test Generator and Cloud Runner: Install the [ATF Test Generator and Cloud Runner](https://store.servicenow.com/store/app/e4292f6e1be06a50a85b16db234bcbc3) store application from ServiceNow store. You also need to set up the cloud user for seamless execution from the Build Agent interface. See [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-intro.md) and [Set up cloud user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-configure.md) for more information.
 
 Role required: admin
 
@@ -36,12 +42,12 @@ Role required: admin
 
     1.  Navigate to **Admin** &gt; **Now Assist Admin**.
 
-    2.  Go to the **Now Assist Skills** tab and select **Creator**.![ATF troubleshooting agent is listed as Now Assist for Creator skills.](../images/atf-troubleshooting-agent.png)
+    2.  Go to the **Now Assist Skills** tab and select **Creator**.\[Omitted image "atf-troubleshooting-agent.png"\] Alt text: ATF troubleshooting agent is listed as Now Assist for Creator skills.
 
     3.  Select **Turn on** to enable the skill.
 
     The skill is enabled for all users.
 
 
-**Parent Topic:**[ATF troubleshooting agent](../reference/atf-troubleshooting-agent-landing-page.md)
+**Parent Topic:**[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)
 

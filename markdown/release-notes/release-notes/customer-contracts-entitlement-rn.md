@@ -41,6 +41,10 @@ See [Customer Contracts and Entitlements](https://raw.githubusercontent.com/Serv
 
     Reduce processing time for large-scale renewals by enabling asynchronous processing for contract renewal workflows across quotes, orders, and opportunities.
 
+-   **Early renewal and termination of ramped contract lines**
+
+    Enables users to process early renewals and early terminations on contract lines that have ramps.
+
 
 ## Activation information
 
@@ -60,7 +64,7 @@ Customer Contracts and Entitlements is a ServiceNow AI Platform feature that is 
 
     ServiceNow® Install Base Management is used to capture a customer’s use or purchase of a product across any industry with the Customer Service Management application.
 
--   **[Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)**
+-   **Next Experience UI Builder**
 
     ServiceNow® Next Experience UI Builder is a low-code web user interface builder that enables developers to build pages for workspace and portal web-based experiences. Use the base system and custom web components to build your pages.
 
@@ -77,5 +81,5 @@ Customer Contracts and Entitlements is a ServiceNow AI Platform feature that is 
     ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents use to find, research, and resolve issues. CSM Configurable Workspace and CSM Agent Workspace are customer service-specific implementations that provide tools to tier 1 agents used to respond to customers and resolve cases.
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
 

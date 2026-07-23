@@ -2,6 +2,7 @@
 title: Linking an existing case from Investigation Canvas
 description: Use this section to link an existing case from the investigation canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-link-existing-case-canvas.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -39,21 +40,21 @@ Role required: sn\_sec\_tisc.analyst
 
 7.  Select a case ID from the list to associate the case to an investigation canvas.
 
-    ![Link an existing case from investigation canvas.](../image/tisc-link-an-existing-case-from-canvas.png)
+    \[Omitted image "tisc-link-an-existing-case-from-canvas.png"\] Alt text: Link an existing case from investigation canvas.
 
     A confirmation message is displayed confirming that the case is linked successfully.
 
-    **Note:** In case if no case is available for linking to the Investigation Canvas, you can create a new case to initiate and organize your investigation context. For more information on how to create a new case, see [Creating a Case and Linking from Investigation Canvas](tisc-link-case.md)
+    **Note:** In case if no case is available for linking to the Investigation Canvas, you can create a new case to initiate and organize your investigation context. For more information on how to create a new case, see [Creating a Case and Linking from Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-link-case.md)
 
     .
 
 8.  To remove a linked case, select the **Unlink** button.
 
 
-**Parent Topic:**[Working with Investigation Canvas](../concept/tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 
 **Related topics**  
 
 
-[Creating an investigation canvas](tisc-create-canvas.md)
+[Creating an investigation canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-canvas.md)
 

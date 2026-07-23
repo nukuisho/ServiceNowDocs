@@ -2,6 +2,7 @@
 title: Define cross-scope access to an application resource
 description: Track cross-scope requests for access to an application resource and approve or deny requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/set-RCA-level.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ If you enable application administration for the target application, only applic
 
 Role required: admin or application admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](../concept/ACL-access-checks.md) and [Delegated development and deployment](../concept/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Role required: admin or application admin
 
 3.  Select the appropriate access level in the **Caller Access** field.
 
-<table id="choicetable_h1t_jtg_n1b"><tbody><tr><td id="d158602e128">
+<table id="choicetable_h1t_jtg_n1b"><tbody><tr><td id="d155017e128">
 
 **None**
 
@@ -43,7 +44,7 @@ Role required: admin or application admin
 
 Cross-scope calls to the resource are approved or denied based on the value of the **Accessible from** field.
 
-</td></tr><tr><td id="d158602e140">
+</td></tr><tr><td id="d155017e140">
 
 **Caller Restriction**
 
@@ -51,7 +52,7 @@ Cross-scope calls to the resource are approved or denied based on the value of t
 
 Calls to the resource must be manually approved. Access requests are tracked in the Restricted Caller Access table with a status of Requested.
 
-</td></tr><tr><td id="d158602e149">
+</td></tr><tr><td id="d155017e149">
 
 **Caller Tracking**
 
@@ -77,5 +78,5 @@ Calls to the resource are automatically approved. Calls are tracked in the Restr
     Once a calling source is allowed, all subsequent calls are allowed.
 
 
-**Parent Topic:**[Restricted caller access privilege settings](../concept/restricted-caller-access-privilege.md)
+**Parent Topic:**[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md)
 

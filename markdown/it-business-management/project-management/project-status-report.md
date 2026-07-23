@@ -2,6 +2,7 @@
 title: View project status reports
 description: Project status reports provide the most recent, at-a-glance progress of a project displayed in several categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-status-report.html
 release: australia
 product: Project Management
 classification: project-management
@@ -31,15 +32,15 @@ The project status report shows snapshot status of RIDAC \(Risk, Issues, Decisio
 
 1.  Open a project status report.
 
-<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d58364e74">
+<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d60409e74">
 
 Option
 
-</th><th align="left" id="d58364e77">
+</th><th align="left" id="d60409e77">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d58364e83">
+</th></tr></thead><tbody><tr><td id="d60409e83">
 
 **From project workspace**
 
@@ -51,7 +52,7 @@ Steps
 4.  Select a status report from the list to view its contents.
 
 
-</td></tr><tr><td id="d58364e119">
+</td></tr><tr><td id="d60409e119">
 
 **From project record**
 
@@ -63,7 +64,7 @@ Steps
 4.  Select a status report from the list.
 
 
-</td></tr><tr><td id="d58364e161">
+</td></tr><tr><td id="d60409e161">
 
 **From Project Status form**
 
@@ -78,9 +79,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>    **Note:** You can also open a project status report from the portfolio workbench. Open a portfolio in the portfolio workbench and select Track portfolio. Right-click a project in the **Timeline View** and select **Status Report** from the context menu.
-
-2.  Review project status in the following sections.
+</table>2.  Review project status in the following sections.
 
 <table id="table_status_report_project"><thead><tr><th>
 
@@ -114,7 +113,7 @@ Provides a general overview about the project such as:-   **Project Name**: Name
 
 -   **Planned Cost in Project Currency**: Estimated cost of the project in project currency.
 -   **Actual Cost in Project Currency**: Cost of the project in project currency.
-**Note:** The above fields appear when you enable the PPM Standard Multicurrency plugin \(com.snc.ppm\_multicurrency\) and switch to the Project Currency view. For more information, see [Multi-currency in project financials](../../project-portfolio-suite-with-financials/concept/multicurrency-pps.md).
+**Note:** The above fields appear when you enable the PPM Standard Multicurrency plugin \(com.snc.ppm\_multicurrency\) and switch to the Project Currency view. For more information, see [Multi-currency in project financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/multicurrency-pps.md).
 
 </td></tr><tr><td>
 
@@ -133,7 +132,7 @@ Cost \(Planned vs. Actual\) chart
 
 </td><td>
 
-If you have enabled the Project Currency view, then the Cost in Project Currency \(Planned vs. Actual\) section provides information about the actual cost versus the planned cost in project currency.This information is rolled up from the [cost plan](t_CreateAProjectCostPlan.md) for the project.
+If you have enabled the Project Currency view, then the Cost in Project Currency \(Planned vs. Actual\) section provides information about the actual cost versus the planned cost in project currency.This information is rolled up from the [cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md) for the project.
 
 -   **Planned**: Approved cost for the project.
 -   **Actual**: Actual cost for the project is derived from the expense line created for the project cost plan and from the time cards created for the project.
@@ -145,7 +144,7 @@ Resource \(Allocated vs. Actual\) chart
 
 </td><td>
 
-Provides information about the actual resource hours used versus the allocated hours. This information is rolled up from the [resource plan](../../resource-management/task/t_CreateResourcePlanProjectTask.md) for the project.-   **Allocated**: Resource hours that have been allocated to execute the project.
+Provides information about the actual resource hours used versus the allocated hours. This information is rolled up from the [resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) for the project.-   **Allocated**: Resource hours that have been allocated to execute the project.
 -   **Actual**: The actual time spent is taken from the processed time cards created for the project.
 
 
@@ -165,7 +164,7 @@ Status History
 
 </td><td>
 
-Provides the trend of overall health, schedule, cost, resources, and scope of the project. The Status reports can have maximum 9 entries in the status history tab. This information is populated up from the last 9 [status report](t_CreateAProjectStatusReport.md) created for the project.
+Provides the trend of overall health, schedule, cost, resources, and scope of the project. The Status reports can have maximum 9 entries in the status history tab. This information is populated up from the last 9 [status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectStatusReport.md) created for the project.
 
  **Date**: Status date of the status reports. The color indicators signify the status of the project on these dates.
 
@@ -175,7 +174,7 @@ Key Milestones
 
 </td><td>
 
-Provides information about key milestones in the project. This information is populated from the [project tasks](t_CreateATaskFromAProject.md) identified as key milestones.-   **Pending**: List of key milestone tasks in the Pending, Open, and Work in Progress state.
+Provides information about key milestones in the project. This information is populated from the [project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateATaskFromAProject.md) identified as key milestones.-   **Pending**: List of key milestone tasks in the Pending, Open, and Work in Progress state.
 -   **Completed**: List of key milestone tasks in the Closed state.
 
 
@@ -195,7 +194,7 @@ Provides information about risks concerning the project. This information is rol
 -   State
 -   Assigned to
 -   Due date
- For more information, see [Add risks for a project](add-risks-for-project.md).
+ For more information, see [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-risks-for-project.md).
 
 </td></tr><tr><td>
 
@@ -212,7 +211,7 @@ Provides information about issues included in the project. This information is r
 -   State
 -   Assigned to
 -   Due date
- For more information, see [Add issues for a project](add-issues-for-project.md).
+ For more information, see [Add issues for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-issues-for-project.md).
 
 </td></tr><tr><td>
 
@@ -230,7 +229,7 @@ Provides information about decisions included in the project. This information i
 -   State
 -   Assigned to
 -   Due date
- For more information, see [Add decisions for a project](add-decisions-for-project.md)
+ For more information, see [Add decisions for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-decisions-for-project.md)
 
 </td></tr><tr><td>
 
@@ -248,7 +247,7 @@ Provides information about action items for the project. This information is rol
 -   Approval
 -   Assigned to
 -   Due date
- For more information, see [Add actions for a project](add-actions-for-project.md).
+ For more information, see [Add actions for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-actions-for-project.md).
 
 </td></tr><tr><td>
 
@@ -256,7 +255,7 @@ Request Changes
 
 </td><td>
 
-Provides information about a [change request](create-project-change-request.md) for the project. This information is rolled up from the change requests created for the project.-   **Pending**: List of project change requests in the Pending, Open, and Work in Progress state.
+Provides information about a [change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-project-change-request.md) for the project. This information is rolled up from the change requests created for the project.-   **Pending**: List of project change requests in the Pending, Open, and Work in Progress state.
 -   **Completed**: List of project change requests in the Closed state.
  The following information from the Request Change record is displayed:
 
@@ -267,14 +266,14 @@ Provides information about a [change request](create-project-change-request.md) 
 -   Approval
 -   Assigned to
 -   Due date
- For more information, see [Create a request change](create-project-change-request.md).
+ For more information, see [Create a request change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-project-change-request.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a project status report](t_CreateAProjectStatusReport.md)
+**Parent Topic:**[Create a project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectStatusReport.md)
 
 **Related topics**  
 
 
-[Create a project status report](t_CreateAProjectStatusReport.md)
+[Create a project status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectStatusReport.md)
 

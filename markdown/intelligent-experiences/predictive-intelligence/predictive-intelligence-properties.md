@@ -2,6 +2,7 @@
 title: Predictive Intelligence properties
 description: The properties for Predictive Intelligence control certain parameters of its machine-learning solutions, solution training process, and caching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intelligence-properties.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -190,16 +191,16 @@ Sets the maximum number of records you can include in a cluster. -   Type: Integ
 |Maximum number of artifacts cached \(in MB\)|glide.cache.size.ml\_object\_cache|
 |Artifact cache compression scheme|glide.platform\_ml.artifact.cache\_compression\_scheme|
 
-**Parent Topic:**[Predictive Intelligence references](reference-predictive-intelligence.md)
+**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
 
 **Related topics**  
 
 
-[Domain separation and Predictive Intelligence](../concept/domain-separation-predictive-intelligence.md)
+[Domain separation and Predictive Intelligence]()
 
-[Data Encryption in Predictive Intelligence](predictive-intelligence-encryption.md)
+[Data Encryption in Predictive Intelligence]()
 
-[Predictive Intelligence language support](../concept/predictive-intelligence-localization.md)
+[Predictive Intelligence language support]()
 
-[Predictive Intelligence roles](predictive-intelligence-roles.md#)
+[Predictive Intelligence roles]()
 

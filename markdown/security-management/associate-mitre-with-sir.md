@@ -2,6 +2,7 @@
 title: Associate MITRE-ATT&amp;CK information with security incidents
 description: Associate the MITRE-ATT&amp;CK tactics and techniques to the security incident for better security incident and threat analysis.You can now associate MITRE-ATT&amp;CK tactics and techniques to the closed security incidents for better security incident and threat analysis.You can use the MITRE-ATT&amp;CK card to see the MITRE-ATT&amp;CK related information in a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/associate-mitre-with-sir.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_si.analyst
 
 Add the MITRE-ATT&amp;CK tactics and techniques information to the security incident so that you can correlate your security incident and threat information for better analysis. For example, your organization may be receiving tactics, techniques, and procedures \(TTP\)-related information from your third-party sources, such as Threat Intelligence reports or other sources outside of the Security Incident Response. You then add this information back to SIR for better correlation and threat analysis.
 
-You can choose to roll up the MITRE-ATT&amp;CK information automatically from the threat lookup auto-extraction results, from observables, or from a child security incident to a security incident. For automatic roll up to security incidents, [enable the system property](configure-mitre-att-ck-properties.md). Alternatively, you can roll up the information manually for each individual threat lookup or [observable](associate-mitre-observables.md).
+You can choose to roll up the MITRE-ATT&amp;CK information automatically from the threat lookup auto-extraction results, from observables, or from a child security incident to a security incident. For automatic roll up to security incidents, [enable the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-att-ck-properties.md). Alternatively, you can roll up the information manually for each individual threat lookup or [observable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/associate-mitre-observables.md).
 
 ## Procedure
 
@@ -35,11 +36,9 @@ You can choose to roll up the MITRE-ATT&amp;CK information automatically from th
 
     This illustration shows how to navigate to the related list and look for Associate MITRE-ATT&amp;CK Technique, review the source Enterprise ATT&amp;CK, add a tactic Impact, and add a technique System Shutdown/Reboot.
 
-    Associate MITRE information with security incident![Associate MITRE information with security incident.]()
-
 4.  Select **Source**.
 
-    **Note:** Only the [collections](setup-mitre-profile.md) and [matrices](view-mitre-collection.md) that have been activated appear in the source list.
+    **Note:** Only the [collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/setup-mitre-profile.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-mitre-collection.md) that have been activated appear in the source list.
 
     The tactics and techniques that are associated with the source are available for selection. You can also associate multiple sources.
 
@@ -57,32 +56,30 @@ You can choose to roll up the MITRE-ATT&amp;CK information automatically from th
 
 The MITRE-ATT&amp;CK information is associated with the security incident. You can now view the associated information in the **MITRE ATT&amp;CK Card**.
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](../concept/mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
 
 **Related topics**  
 
 
-[Associate MITRE-ATT&amp;CK information with observables](associate-mitre-observables.md)
+[Associate MITRE-ATT&amp;CK information with observables]()
 
-[Associate MITRE-ATT&amp;CK information with security case](../../threat-intelligence-case-management/task/associate-mitre-att-ck-information-with-security-case-management.md)
+[Associate MITRE-ATT&amp;CK information with security case]()
 
-[Rollup MITRE-ATT&amp;CK information using Threat Lookup results](rollup-threat-lookup-results.md)
+[Rollup MITRE-ATT&amp;CK information using Threat Lookup results]()
 
-[Rollup MITRE-ATT&amp;CK information from detection rules](rollup-mitre-attack-information-detection-rules.md)
+[Rollup MITRE-ATT&amp;CK information from detection rules]()
 
-[Rollup MITRE-ATT&amp;CK information from child security incidents](rollup-mitre-att-ck-information-from-child-security-incidents.md)
+[Rollup MITRE-ATT&amp;CK information from child security incidents]()
 
-[Perform link analysis and threat hunting using MITRE-ATT&amp;CK specific filters](link-analysis-threat-hunt-mitre.md)
+[Perform link analysis and threat hunting using MITRE-ATT&amp;CK specific filters]()
 
-[MITRE-ATT&amp;CK heat map and navigator](../concept/mitre-att-ck-heatmap-and-navigator.md#)
+[MITRE-ATT&amp;CK heat map and navigator]()
 
-[Using the MITRE-ATT&amp;CK dashboard](../concept/mitre-dashboards.md#)
+[Using the MITRE-ATT&amp;CK dashboard]()
 
 ## Associate MITRE-ATT&amp;CK information with closed security incidents
 
 You can now associate MITRE-ATT&amp;CK tactics and techniques to the closed security incidents for better security incident and threat analysis.
-
-Associate MITRE information with security incident![Associate MITRE information with security incident.]()
 
 ## Using the MITRE-ATT&amp;CK Card to see related information in a security incident
 
@@ -93,8 +90,6 @@ After the information is rolled up from a threat lookup, an observable, or a SIE
 -   Navigator view: This view, which is similar to the MITRE-ATT&amp;CK navigator, shows all the techniques that have been manually added or rolled up from the observable or threat lookup tables. **Show origin of techniques** displays the source of the technique if it has been manually rolled up or through a Source. **Show ID** displays the technique ID.
 
     The following illustration shows how to navigate to the **MITRE ATT&amp;CK Card** navigator view. By clicking any of the available links, the information opens in the Threat Intelligence module.
-
-    MITRE ATT&amp;CK Card: Navigator view and List view![MITRE ATT&CK Card: Navigator view and List view]()
 
 -   List view: This view shows the data in a list or table format. You can see all the data that is spread across different tables and groups in this view.
 

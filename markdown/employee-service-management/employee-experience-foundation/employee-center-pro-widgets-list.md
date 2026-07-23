@@ -2,6 +2,7 @@
 title: Employee Center Pro widgets
 description: You can use base system widgets as-is in the portal or clone them to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-center-pro-widgets-list.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,6 +22,8 @@ You can use base system widgets as-is in the portal or clone them to suit your o
 |------|---|-----------|
 |App Launcher|app-launcher|Appears on the home page to provide one-click access to recently-used applications and favorites.|
 |Organization Chart \(EC\)|org\_chart|Displays the employees organization chart, the relationships to other employees, and more.|
+|View As Search|view-as-search| |
+|View As Search Results|view-as-search-results| |
 |Web Applications|web\_applications|Provides one-click access to applications assigned to the user.|
 
 ## Content Publishing widgets
@@ -71,7 +74,7 @@ cd-content-experience
 
 </td><td>
 
-Delivers targeted, actionable communications to employees. For more information, see [Creating campaigns](../concept/ecpro-campaigns.md).
+Delivers targeted, actionable communications to employees. For more information, see [Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 
 </td></tr><tr><td>
 
@@ -310,7 +313,7 @@ Shows portal content with content type of Banner. Generally used to show informa
 |Employee Profile Overview|employee-profile-overview|Displays the employee profile overview.|
 |Public Profile Visibility|public\_profile\_visibility|Shows the visibility setting for the profile. You can modify the visibility settings based on your needs.|
 
-For more information, see [Employee profile](../concept/employee-profile-portal.md).
+For more information, see [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md).
 
 ## Employee Center Pro Kiosk widgets
 
@@ -323,52 +326,52 @@ For more information, see [Employee profile](../concept/employee-profile-portal.
 |Timeoff Accrual Balance - Home Page|timeoff-accrual-balance-home-page|Shows the time off and leave balances home page.|
 |Preferences|preferences|Shows the user preferences such as accessibility and language.|
 
-For more information, see [Employee Center Pro Kiosk](../concept/deskless-kiosk-overview.md).
+For more information, see [Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md).
 
-For more information on configuring widgets, see [Customize Employee Center Pro Kiosk widgets](../concept/emp-center-topic-inst-options.md).
+For more information on configuring widgets, see [Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md).
 
-**Parent Topic:**[Employee Center Pro reference](emp-center-pro-reference.md)
+**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 
 
-[Block content form](block-content-form.md)
+[Block content form]()
 
-[Campaign overview and Campaign analytics dashboards](../concept/ecpro-content-automation-content-pack.md)
+[Campaign overview and Campaign analytics dashboards]()
 
-[Components installed with Employee Center Pro](components-installed-with-employee-center-pro-1.md)
+[Components installed with Employee Center Pro]()
 
-[Components installed with Content engagement](installed-content-engagement.md)
+[Components installed with Content engagement]()
 
-[Components installed with Content Experiences](installed-with-content-auto.md)
+[Components installed with Content Experiences]()
 
-[Components installed with Content Publishing](installed-with-content-delivery.md)
+[Components installed with Content Publishing]()
 
-[Components installed with Content Governance](ec-installed-content-governance.md)
+[Components installed with Content Governance]()
 
-[Components installed with Content Analytics](ecpro-installed-content-analytics-1.md)
+[Components installed with Content Analytics]()
 
-[Content Analytics dashboards](../concept/content-analytics-dashboards.md)
+[Content Analytics dashboards]()
 
-[Content engagement dashboard](../concept/ec-pro-content-engagement-dashboard.md)
+[Content engagement dashboard]()
 
-[Content Library Overview dashboard](../concept/content-library-overview-dashboard.md)
+[Content Library Overview dashboard]()
 
-[Feedback configuration form](ex-feedback-new-record.md)
+[Feedback configuration form]()
 
-[Feedback definition form](fdbck-dfnition-record.md)
+[Feedback definition form]()
 
-[Link content form](link-content-form.md)
+[Link content form]()
 
-[Notification content form](notification-content-form.md)
+[Notification content form]()
 
-[Properties installed with Content Experiences](properties-installed-with-content-auto.md)
+[Properties installed with Content Experiences]()
 
-[Properties installed with Content Governance](properties-installed-content-governance.md)
+[Properties installed with Content Governance]()
 
-[Properties installed with Content Publishing](properties-with-content-delivery.md)
+[Properties installed with Content Publishing]()
 
-[Standard banner and icon sizes](ec-portal-images-size.md)
+[Standard banner and icon sizes]()
 
-[To-do content form](to-do-content-form.md)
+[To-do content form]()
 

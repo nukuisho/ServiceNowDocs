@@ -2,6 +2,7 @@
 title: Activate a system property to generate a certificate of completion
 description: As a contract configurator, activate a system property to generate a certificate of completion for electronically signed contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +19,7 @@ As a contract configurator, activate a system property to generate a certificate
 
 ## Before you begin
 
-You must have configured an electronic signature provider. For more information, see [Configure an e-signature provider](cncore-integrate-esign.md).
+You must have configured an electronic signature provider. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
 
 Role required: admin
 
@@ -34,7 +35,7 @@ The certificate of completion provided by Docusign or Adobe Acrobat Sign include
 
 2.  In the **Name** column, search for the `sn_cm_core.enable_executed_contract_audit_certificate` property.
 
-    ![Audit certificate property for executed contracts.](../image/cmpro-audit-certificate.png "Audit certificate property")
+    \[Omitted image "cmpro-audit-certificate.png"\] Alt text: Audit certificate property for executed contracts.
 
 3.  Select the property.
 
@@ -49,26 +50,28 @@ The certificate of completion provided by Docusign or Adobe Acrobat Sign include
 
 A certificate of completion will be generated for all electronically signed contracts.
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](../concept/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace](../concept/cncore-conf-cntrct-wrkspc.md)
+[Configuring Contract Workspace]()
 
-[Configure signature pause duration when modifying signatories](cncore-pause-sig-property.md)
+[Configure signature pause duration when modifying signatories]()
 
-[Auto-populate the start date and end date for contract requests](cncore-conf-start-end-date-for-cntrcts.md)
+[Auto-populate the start date and end date for contract requests]()
 
-[Enable users to view email details in activity stream](cncore-enbl-user-email-astream.md)
+[Enable signatory roles]()
 
-[Enable keyword search for contract templates](cncore-enable-search-cont-tmplts.md)
+[Enable users to view email details in activity stream]()
 
-[Configuring contract summarization for Contract Management Pro](cmpro-conf-cntr-summary.md)
+[Enable keyword search for contract templates]()
 
-[Configure conditions to send reminder notifications for expiring contracts](cncore-config-rem-exp-cont.md)
+[Configuring contract summarization for Contract Management Pro]()
 
-[Copy fields from parent request to amendment request](cncore-cpy-fld-parent-amedreq.md)
+[Configure conditions to send reminder notifications for expiring contracts]()
 
-[Manage notifications in Contract Management Pro](../concept/cmpro-manage-notifications.md)
+[Copy fields from parent request to amendment request]()
+
+[Manage notifications in Contract Management Pro]()
 

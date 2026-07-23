@@ -2,11 +2,12 @@
 title: Create and publish a product offering version
 description: Create and publish a version of an existing product offering in a Published state so that you can offer an improved version of it in your product catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-publish-product-offering-version-somt.html
 release: australia
 topic_type: task
 last_updated: "2026-04-07"
 reading_time_minutes: 2
-breadcrumb: [Creating and publishing product offering versions, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Product offering versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create and publish a product offering version
@@ -15,7 +16,7 @@ Create and publish a version of an existing product offering in a Published stat
 
 ## Before you begin
 
-Before you can create a version of a product offering, an initial base version of the product offering must exist and already be published. The type of information that you supply for a new version is the same as what you entered for an initial base version, but with certain differences. To learn more, see [Create and publish your product offerings to a catalog](create-product-offerings-somt.md).
+Before you can create a version of a product offering, an initial base version of the product offering must exist and already be published. The type of information that you supply for a new version is the same as what you entered for an initial base version, but with certain differences. To learn more, see [Create and publish your product offerings to a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-product-offerings-somt.md).
 
 Role required: sn\_prd\_pm.product-catalog\_manager
 
@@ -29,25 +30,25 @@ Role required: sn\_prd\_pm.product-catalog\_manager
 
     The manner in which you create a version of a product offering is similar to how you created its initial version with the following exceptions.
 
-    **Note:** For information about the remaining field descriptions, see [Product Offering Versions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-product-offering-form.md)
+    **Note:** For information about the remaining field descriptions, see 
 
 4.  To reflect the engineering changes that were made to the physical product, update the product offering version:
 
     1.  To update the characteristics that are associated with your product offering, use the Product Offering Characteristics related list.
     2.  To update the product visuals for your versioned product offering, use the Product Visuals related lists.
-    3.  **Note:** To learn more, see [Create and publish your product offerings to a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-product-offerings.md).
+    3.  **Note:** To learn more, see .
 
 5.  When you finish creating the product offering version, do one of the following actions.
 
-<table id="choicetable_product_offering"><thead><tr><th align="left" id="d27700e134">
+<table id="choicetable_product_offering"><thead><tr><th align="left" id="d28954e138">
 
 Action
 
-</th><th align="left" id="d27700e137">
+</th><th align="left" id="d28954e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d27700e143">
+</th></tr></thead><tbody><tr><td id="d28954e147">
 
 **Publish**
 
@@ -57,7 +58,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d27700e161">
+</td></tr><tr><td id="d28954e165">
 
 **Update**
 
@@ -65,7 +66,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d27700e170">
+</td></tr><tr><td id="d28954e174">
 
 **Copy**
 

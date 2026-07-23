@@ -2,6 +2,7 @@
 title: Append to Flow Variables flow logic
 description: Append a value to one or more array of objects flow variables. Use flow data to generate values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/append-to-flow-variables-flow-logic.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -55,48 +56,48 @@ Use these general guidelines when using the Append to Flow Variables flow logic.
 
 ## Build an array of incident objects
 
-![The Append to Flow Variables flow logic is configured to append values to the incidents flow variable. The Sys ID and short description are set from two other flow variables.](../images/example-append-to-flow-variables-01.png)
+\[Omitted image "example-append-to-flow-variables-01.png"\] Alt text: The Append to Flow Variables flow logic is configured to append values to the incidents flow variable. The Sys ID and short description are set from two other flow variables.
 
 In this example, a subflow looks up incidents where the category is Network. For each network incident, the subflow sets the value of the incident Sys ID and incident short description in a subflow variable. The subflow then appends these values to the array of objects subflow variable. The subflow then provides the array of objects as a subflow output.
 
-![JSON output of the incidents array of objects showing five entries in the array.](../images/example-append-to-flow-variables-04.png)
+\[Omitted image "example-append-to-flow-variables-04.png"\] Alt text: JSON output of the incidents array of objects showing five entries in the array.
 
 The subflow execution details show that the output value of the incidents array of objects.
 
-**Parent Topic:**[Workflow Studio flow logic](../concept/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 
 
-[Assign subflow outputs flow logic](../concept/flow-logic-assign-subflow-outputs.md)
+[Assign subflow outputs flow logic]()
 
-[Call a workflow flow logic](../concept/flow-logic-call-workflow.md)
+[Call a workflow flow logic]()
 
-[Do the following until flow logic](../concept/flow-logic-do-until.md)
+[Do the following until flow logic]()
 
-[Do the following in parallel flow logic](../concept/flow-logic-do-following-in-parallel.md)
+[Do the following in parallel flow logic]()
 
-[Dynamic flows flow logic](../concept/flow-logic-dynamic-flow.md)
+[Dynamic flows flow logic]()
 
-[End Flow flow logic](../concept/flow-logic-end-action.md)
+[End Flow flow logic]()
 
-[Exit Loop flow logic](exit-loop-flow-logic.md)
+[Exit Loop flow logic]()
 
-[For Each flow logic](../concept/flow-logic-for-each.md)
+[For Each flow logic]()
 
-[Get Flow Outputs flow logic](get-flow-outputs-flow-logic.md)
+[Get Flow Outputs flow logic]()
 
-[Go back to flow logic](go-back-to-flow-logic.md)
+[Go back to flow logic]()
 
-[If flow logic](../concept/flow-logic-if.md)
+[If flow logic]()
 
-[Make a decision flow logic](../concept/flow-logic-make-decision.md)
+[Make a decision flow logic]()
 
-[Set Flow Variables flow logic](../concept/flow-logic-set-flow-variables.md)
+[Set Flow Variables flow logic]()
 
-[Skip Iteration flow logic](skip-iteration-flow-logic.md)
+[Skip Iteration flow logic]()
 
-[Try flow logic](../concept/flow-logic-try.md)
+[Try flow logic]()
 
-[Wait for a duration flow logic](../concept/flow-logic-wait-for-a-duration.md)
+[Wait for a duration flow logic]()
 

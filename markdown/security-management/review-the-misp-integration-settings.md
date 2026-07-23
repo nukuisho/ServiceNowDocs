@@ -2,6 +2,7 @@
 title: Review the MISP integration settings
 description: Review the MISP integration for Security Operations settings and modify the default system properties to suit your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/review-the-misp-integration-settings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -116,8 +117,8 @@ Rollup of MITRE-ATT&amp;CK information from the MISP observable enrichment resul
 </td></tr></tbody>
 </table>    **Note:**
 
-    -   To use the MITRE™ technique extraction features in MISP, you must [enable the MITRE-ATT&amp;CK feature in the Threat Intelligence module](../../threat-intelligence/reference/get-started-with-mitre.md).
-    -   The MISP integration for Security Operations introduces two base system MITRE-ATT&amp;CK technique extraction rules for MISP - MISP galaxies and MISP tags. For more information on auto-extraction rules in MITRE-ATT&amp;CK, see [auto-extract technique rules for importing MITRE-ATT&amp;CK information](../../threat-intelligence/concept/auto-extract-technique-rules.md#).
+    -   To use the MITRE™ technique extraction features in MISP, you must [enable the MITRE-ATT&amp;CK feature in the Threat Intelligence module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-started-with-mitre.md).
+    -   The MISP integration for Security Operations introduces two base system MITRE-ATT&amp;CK technique extraction rules for MISP - MISP galaxies and MISP tags. For more information on auto-extraction rules in MITRE-ATT&amp;CK, see [auto-extract technique rules for importing MITRE-ATT&amp;CK information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/auto-extract-technique-rules.md).
 3.  Click **Save**.
 
 
@@ -125,26 +126,26 @@ Rollup of MITRE-ATT&amp;CK information from the MISP observable enrichment resul
 
 Your modified integration settings are saved and applied.
 
-**Parent Topic:**[MISP administration](../concept/misp-administration.md)
+**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
 
 **Related topics**  
 
 
-[Getting started with MISP integration for Security Operations](../reference/get-started-with-misp-integration-for-security-operations.md)
+[Getting started with MISP integration for Security Operations]()
 
-[Install and configure the MISP integration for Security Operations](install-and-configure-misp.md)
+[Install and configure the MISP integration for Security Operations]()
 
-[Configure MISP sighting searches](configure-sightings-search.md)
+[Configure MISP sighting searches]()
 
-[Configure how an automatic event is created](configure-automatic-event-creation-profile.md#)
+[Configure how an automatic event is created]()
 
-[MISP event data](../concept/misp-event-data.md)
+[MISP event data]()
 
-[Associated MISP events](../reference/associated-misp-events.md)
+[Associated MISP events]()
 
-[MISP user information](../reference/misp-user-information.md)
+[MISP user information]()
 
-[Domain separation and MISP](../reference/domain-separation-and-misp.md)
+[Domain separation and MISP]()
 
-[Troubleshooting MISP integration](../reference/troubleshooting-misp-integration.md)
+[Troubleshooting MISP integration]()
 

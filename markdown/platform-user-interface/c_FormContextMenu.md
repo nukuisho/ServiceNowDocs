@@ -2,6 +2,7 @@
 title: Form context menu
 description: The form context menu provides controls based on the table and user access rights. Administrators can customize some of the options available on a context menu using UI actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_FormContextMenu.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Forms in the classic environment, Working in the classic environmen
 
 The form context menu provides controls based on the table and user access rights. Administrators can customize some of the options available on a context menu using UI actions.
 
-Access the form context menu by clicking an icon beside the form title or by right-clicking the form header \(![Context menu icon](../image/UI14FormContextMenu.png)\).
+Access the form context menu by clicking an icon beside the form title or by right-clicking the form header \(\[Omitted image "UI14FormContextMenu.png"\] Alt text: Context menu icon\).
 
 The form context menu includes the following options.
 
@@ -24,9 +25,9 @@ The form context menu includes the following options.
 |Save|Saves changes without leaving the form view.|
 |Related actions|Provides standard actions in the form context menu for some tables, such as **Add to Visual Task Board** or **Create Change** in incident.|
 |Insert|Saves the data as a new record and returns to the previously viewed page.|
-|Insert and Stay|Saves and displays the new record. For more information about inserting records, see [Edit a form](../task/t_EditingInForms.md#).|
+|Insert and Stay|Saves and displays the new record. For more information about inserting records, see [Edit a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditingInForms.md).|
 |Configure|Provides administrative functions, such as configuring forms.|
-|Export|Exports data to PDF. Administrators can also export to XML. For more information, see [Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ExportData.md).|
+|Export|Exports data to PDF. Administrators can also export to XML. For more information, see [Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ExportData.md).|
 |View|Changes fields to a predefined layout. Switching views submits the form, which saves all changes. Administrators can customize views.|
 |Create Favorite|\(Core UI only\) Adds the current record to your favorites list, represented by a star icon on the tab.|
 |Copy URL|Copies to the clipboard the URL for the form view of the record. Follow browser instructions if browser security measures restrict this function.|
@@ -35,7 +36,7 @@ The form context menu includes the following options.
 |History|Administrators only. Displays audit history for the record, which must be enabled for the table. For more information, see [Enable auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md).|
 |Reload Form|Reloads information from the database to refresh the form view.|
 
-**Parent Topic:**[Forms in the classic environment](c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
 
 **Related topics**  
 

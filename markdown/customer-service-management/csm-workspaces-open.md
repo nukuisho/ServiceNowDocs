@@ -2,6 +2,7 @@
 title: Open CSM Configurable Workspace
 description: Open CSM Configurable Workspace so that you can work on customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspaces-open.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

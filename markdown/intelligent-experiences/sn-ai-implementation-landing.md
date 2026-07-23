@@ -2,6 +2,7 @@
 title: ServiceNow AI implementation
 description: Getting ready to implement Now Assist is more than just installing plugins—it’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will ensure your data is ready, your applications are prepared, and your organization's AI policy is in alignment with your implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-implementation-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -17,40 +18,40 @@ Getting ready to implement Now Assist is more than just installing plugins—it�
 
 <table id="table_vhh_f41_zgc" class="nav-card presentation"><tbody><tr><td>
 
-[Now Assist overview![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the applications and features that make up the Now Assist experience.](sn-ai-impl-overview-tools.md)
+[Now Assist overview\[Omitted image "bus-explore.svg"\] Alt text:Learn about the applications and features that make up the Now Assist experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-overview-tools.md)
 
 </td><td>
 
-[AI governance![](../../../reuse/icons/brand-icons/bus-business-management.svg)Learn about the importance of AI governance to ensure responsible use, regulatory compliance, and alignment with enterprise goals.](sn-ai-impl-governance.md)
+[AI governance\[Omitted image "bus-business-management.svg"\] Alt text:Learn about the importance of AI governance to ensure responsible use, regulatory compliance, and alignment with enterprise goals.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-governance.md)
 
 </td><td>
 
-[Data readiness![](../../../reuse/icons/brand-icons/bus-database.svg)Learn how to prepare your instance data for Now Assist.](sn-ai-impl-data-readiness.md)
+[Data readiness\[Omitted image "bus-database.svg"\] Alt text:Learn how to prepare your instance data for Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-data-readiness.md)
 
 </td></tr><tr><td>
 
-[Application readiness![](../../../reuse/icons/brand-icons/bus-management-console.svg)Ensure that your instance is ready to take advantage of Now Assist by preparing Platform applications.](sn-ai-impl-app-readiness.md)
+[Application readiness\[Omitted image "bus-management-console.svg"\] Alt text:Ensure that your instance is ready to take advantage of Now Assist by preparing Platform applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-app-readiness.md)
 
 </td><td>
 
-[Resolve common issues![](../../../reuse/icons/brand-icons/bus-root-cause-issue-resolution.svg)Address issues or gaps in your Now Assist configuration.](../../now-assist-admin/reference/now-assist-install-config-checklist.md)
+[Resolve common issues\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:Address issues or gaps in your Now Assist configuration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-install-config-checklist.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](ai-native-sku-overview.md).
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Additional implementation information is available on [Now Create](https://learning.servicenow.com/nowcreate).
 
-For additional Now Assist resources, see [Additional resources for AI products and solutions](../../general/reference/ai-additional-resources.md).
+For additional Now Assist resources, see [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-additional-resources.md).
 
 **Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## AI limitations
@@ -63,5 +64,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](../../now-assist-admin/task/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

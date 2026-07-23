@@ -2,6 +2,7 @@
 title: Review an order orchestration plan
 description: Track the progress of an order in the fulfillment process by reviewing the orchestration plan for the order, its order line items, and domain product, service, or resource orders. By using the order orchestration UI, you can easily identify and resolve any delays or fallouts so that you can do the order fulfillment process more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/review-order-fulfillment-orchestration-plan.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,13 +27,13 @@ By using the order orchestration UI, you can perform the following actions:
 -   Determine the current state of the associated order line items, domain orders, and order tasks.
 -   Identify any order delays or fallouts in the order fulfillment process, and resolve them on time.
 
-To learn more, see [Using the order orchestration UI](../concept/orchestration-plans-for-order-fulfillment.md).
+To learn more, see [Using the order orchestration UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/orchestration-plans-for-order-fulfillment.md).
 
 ## Procedure
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders**.
 
@@ -42,15 +43,15 @@ To learn more, see [Using the order orchestration UI](../concept/orchestration-p
 
 5.  Access the order orchestration UI for a selected order, order line item, or domain order by performing the respective task from the following table.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d45872e133">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d50468e133">
 
 Task
 
-</th><th align="left" id="d45872e136">
+</th><th align="left" id="d50468e136">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45872e142">
+</th></tr></thead><tbody><tr><td id="d50468e142">
 
 **Review the orchestration plan for an entire customer order**
 
@@ -58,7 +59,7 @@ Description
 
 In the Customer Order form, under Order breakdowns, select **View order orchestration**.
 
-</td></tr><tr><td id="d45872e154">
+</td></tr><tr><td id="d50468e154">
 
 **Review the orchestration plan for a customer order line item**
 
@@ -68,7 +69,7 @@ In the Customer Order form, under Order breakdowns, select **View order orchestr
 2.  Select the **Order Orchestration** tab.
 
 
-</td></tr><tr><td id="d45872e178">
+</td></tr><tr><td id="d50468e178">
 
 **Review the orchestration plan for a domain order associated with a customer order line item**
 
@@ -153,20 +154,20 @@ System-assigned domain product or order task number.
 
 Current state of the domain product or order task. To learn more, see:
 
-    -   [Customer order states](../reference/order-mgt-state-values.md)
-    -   [Service order states](../reference/service-order-mgt-state-values.md)
+    -   [Customer order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-state-values.md)
+    -   [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/service-order-mgt-state-values.md)
 
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
-[Review and close fulfillment tasks](order-mgt-customer-order-tasks.md)
+[Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-tasks.md)
 
-**Parent Topic:**[Order fulfillment](../concept/reviewing-orchestration-plans-order-fulfillment.md)
+**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
 
 **Related topics**  
 
 
-[View an order timeline](view-order-timelines.md)
+[View an order timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-order-timelines.md)
 

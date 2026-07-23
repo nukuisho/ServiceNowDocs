@@ -2,12 +2,13 @@
 title: Closing tasks on Mobile Agent
 description: A work order is automatically closed when all work order tasks associated with it have been closed.Close a work order task as complete or as incomplete with optionally a follow-on task to complete.Respond to a task that was sent back to you for review. Update the work order task with the requested details and submit the task back to reviewer.Receive a digital signature and confirmation from a customer that a work order has been completed.Enable customers to digitally sign and confirm a work order on the Mobile Agent application after it has been closed.Cancel a work order if it is no longer needed or suspend a work order if you want to work on it later.Record a break from a work order task on Mobile Agent if you are unable to continue the work for any reason. You can resume the work order task when you start working on it again. The system automatically tracks and calculates the actual time taken to complete the task even though you worked at different intervals.Record the duration for executing a task using the Mobile Agent application.Record incidental expenses associated with your business travel through the Mobile Agent application to execute work order tasks.Edit or delete your logged incidentals from WOT forms or from My Incidentals applets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/close-wo-wot-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
@@ -37,23 +38,28 @@ Role required: wm\_agent
 
 5.  Either close the task after work is complete or close it with a follow-on task pending.
 
-<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d71447e163">
+<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d73001e163">
 
 To
 
-</th><th align="left" id="d71447e166">
+</th><th align="left" id="d73001e166">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d71447e172">
+</th></tr></thead><tbody><tr><td id="d73001e172">
 
 **Close a work order task after work has been completed**
 
 </td><td>
 
-Select **Close Complete**.**Note:** Your **Work agent status** is automatically updated as On Shift to indicate that you are available to work on another task.
+1.  Select **Close Complete**.
+2.  In the **Close Complete** page, select **Closure Note**.
+3.  Provide the work completion details.
+4.  Select **Done** to save the details.
+5.  Automatically create and route a new work order task when the current task is closed as complete by turning on the **Has follow-on task** option.
+ **Note:** Your **Work agent status** is automatically updated as On Shift to indicate that you are available to work on another task.
 
-</td></tr><tr><td id="d71447e190">
+</td></tr><tr><td id="d73001e223">
 
 **Close a work order task as incomplete**
 
@@ -79,7 +85,7 @@ A clone of the work order task set to **Draft** state is created and the origina
 </td></tr></tbody>
 </table>6.  Generate a signed PDF summary for the work order task by tapping **Preview Work Summary**.
 
-    The PDF summary captures the details of the task, and the responses submitted in the smart assessment questionnaire along with the score. For more information, see [Enable PDF summaries at work order task level](../task/enable-pdf-summary.md).
+    The PDF summary captures the details of the task, and the responses submitted in the smart assessment questionnaire along with the score. For more information, see [Enable PDF summaries at work order task level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/enable-pdf-summary.md). For more information on assessment scoring, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scoring-in-assessments.md)
 
 
 ### Result
@@ -89,9 +95,9 @@ When all work order tasks associated with a work order are closed, the work orde
 **Related topics**  
 
 
-[Closing work orders](../../planning-and-policy/concept/c_CloseAWorkOrder.md)
+[Closing work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_CloseAWorkOrder.md)
 
-[System properties](../../planning-and-policy/reference/r_InstalledWithFSM.md)
+[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_InstalledWithFSM.md)
 
 ## Respond to a reviewed work order task
 
@@ -99,13 +105,13 @@ Respond to a task that was sent back to you for review. Update the work order ta
 
 ### Before you begin
 
-Ensure that the Field Service Quality Management plugin is active. For more information, see [Activate Field Service Quality Management](../task/activate-quality-mgmt.md).
+Ensure that the Field Service Quality Management plugin is active. For more information, see [Activate Field Service Quality Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/activate-quality-mgmt.md).
 
 Role required: wm\_agent
 
 ### About this task
 
-When you close a work order task, the task is sent to a reviewer. The reviewer can either mark the task as complete or request more information. For more information, see [Review a task](../task/review-send-task-back.md). You will receive a notification about the work order task that needs review.
+When you close a work order task, the task is sent to a reviewer. The reviewer can either mark the task as complete or request more information. For more information, see [Review a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/review-send-task-back.md). You will receive a notification about the work order task that needs review.
 
 ### Procedure
 
@@ -125,7 +131,7 @@ When you close a work order task, the task is sent to a reviewer. The reviewer c
 
     1.  Navigate to **Questionnaires** &gt; **Completed**.
 
-    2.  Tap the Retake icon ![](../image/retake-questionnaire.png).
+    2.  Tap the Retake icon \[Omitted image "retake-questionnaire.png"\] Alt text:.
 
     3.  Edit the responses.
 
@@ -150,7 +156,7 @@ Receive a digital signature and confirmation from a customer that a work order h
 
 The **Sign and Confirm** button must be enabled to receive digital confirmation from a customer after a work order is closed.
 
-The signed PDF summaries capability must be enabled to generate a work order summary and get the customer signature on the work order after it has been closed. For more information on enabling the PDF summaries capability, see [Signed PDF summaries for closed work orders](work-order-sign-and-confirm-pdf.md#).
+The signed PDF summaries capability must be enabled to generate a work order summary and get the customer signature on the work order after it has been closed. For more information on enabling the PDF summaries capability, see [Signed PDF summaries for closed work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-order-sign-and-confirm-pdf.md).
 
 When all work order tasks associated with the work order are closed, the work order is automatically closed.
 
@@ -203,15 +209,15 @@ Role required: admin
 
 5.  Do one of the following to enable the **Sign and Confirm** button.
 
-<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d71447e871">
+<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d73001e907">
 
 To
 
-</th><th align="left" id="d71447e874">
+</th><th align="left" id="d73001e910">
 
 Complete these steps
 
-</th></tr></thead><tbody><tr><td id="d71447e880">
+</th></tr></thead><tbody><tr><td id="d73001e916">
 
 **Enable the Sign and confirm option to display when you swipe a work order from a list**
 
@@ -222,7 +228,7 @@ Complete these steps
 3.  Select the **Button Instances belonging to Master Item** tab.
 
 
-</td></tr><tr><td id="d71447e910">
+</td></tr><tr><td id="d73001e946">
 
 **Enable the Sign and confirm option to display when you open a work order form**
 
@@ -264,7 +270,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 6.  Select the work order to view the details.
 
-7.  Tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon and cancel or suspend the work order.
+7.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and cancel or suspend the work order.
 
     -   To cancel the work order, select **Cancel Work Order**.
     -   To suspend the work order:
@@ -334,7 +340,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 4.  Select a work order task to record the time.
 
-5.  Tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select **Record Time**.
+5.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **Record Time**.
 
 6.  Select the desired items from any of the following fields:
 

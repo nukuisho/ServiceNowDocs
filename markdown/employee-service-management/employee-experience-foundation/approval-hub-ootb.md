@@ -2,6 +2,7 @@
 title: Approvals experience reference
 description: Use the following reference information for better approval experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/approval-hub-ootb.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -22,7 +23,7 @@ Use the following default task configurations available for approvals.
 -   Request with **sysapproval** as reference column and **sc\_request** as reference table.
 -   Requested item with **sysapproval** as reference column and **sc\_req\_item** as reference table.
 
-You can customize the task configurations to suit your requirements. The data model is an extension to the Employee Center **To-do configuration** as a related list. Follow the instructions [Enable task configuration for approvals](../task/approval-hub-to-dos-page-filters.md) about configuring the approval experience. For more information on how to configure approvals, see [Approvals hub](../concept/approval-hub-intro.md).
+You can customize the task configurations to suit your requirements. The data model is an extension to the Employee Center **To-do configuration** as a related list. Follow the instructions [Enable task configuration for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.md) about configuring the approval experience. For more information on how to configure approvals, see [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
 
 **Note:** A user must have the approval\_user or business\_stakeholder role to approve IT requests \(not applicable to other requests such as HR approvals\) on Employee Centre. Role validation has not been implemented in Core UI16 because modifying ACLs in UI16 might have broader implications at the NowPlatform level.
 
@@ -58,7 +59,7 @@ Use the following information for SAP Concur integration.
 
 Use the following information for Workday integration.
 
--   Workday uses RAAS reports to send data to external system. For more information on RAAS and field-level info about leaves, timesheets, compensation, job change, job requisition, or leave of absence, see [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
+-   Workday uses RAAS reports to send data to external system. For more information on RAAS and field-level info about leaves, timesheets, compensation, job change, job requisition, or leave of absence, see [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workday-hr-spoke.md).
 -   Only the open requests are displayed on the approvers **My tasks** page.
 -   Approval and rejection actions are performed using an **Integration System User \(ISU\)**. ISU is a virtual user \(and not an actual user\) which helps in the safe-keeping of approver credentials. With the use of ISU, approval and rejection records protect the sensitive data according to your configuration in Workday. For example,
     -   When John Doe, the approver enters time sheet approved as comment, the comment shown as `John Doe(john.doe@acme.com): Time sheet approved`.
@@ -77,9 +78,9 @@ Use the following information for Workday integration.
     -   WorkdayApprovalToDosHelperUtilsSNC: Provides functions for Workday approvals.
 -   Ensure you configure the right user controls and privileges for Compensation Change and Spend Authorization use cases. Only the authorized users can view the sensitive records and data from Workday.
 -   For data protection, use the default purge policy to delete data more often. By default, data purge happens after in 30 days.
--   Ensure only the HR administrator \[sn\_hr\_core.admin\] has access to the sensitive information as explained in [Remove HR Administrator role from IT System Administrators](../../human-resources/task/t_HRRemoveAdminRole.md).
+-   Ensure only the HR administrator \[sn\_hr\_core.admin\] has access to the sensitive information as explained in [Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md).
 
-For more information on how to configure approvals, see [Approvals hub](../concept/approval-hub-intro.md).
+For more information on how to configure approvals, see [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
 
 ## Approvals on mobile
 
@@ -89,7 +90,7 @@ To disable the feature change the value of this sys\_property: sn\_me\_todos.all
 
 ## OOTB action group use
 
-Use the out-of-the-box **Approvals action group** to display the actions such as **Approve** and **Reject**. For more information, see [Action framework](../concept/action-group-framework.md).
+Use the out-of-the-box **Approvals action group** to display the actions such as **Approve** and **Reject**. For more information, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md).
 
 **Note:** For actions to appear in my items widget, you can add the OOTB **Approvals action group** from **All** &gt; **Employee Center** &gt; **Administration** &gt; **To-dos Configurations**, click an existing to-dos configuration, navigate to the **To-do Configuration Details** record, and use the OOTB action group under **Fields Mapping**.
 
@@ -98,66 +99,66 @@ Use the out-of-the-box **Approvals action group** to display the actions such as
 -   Click the URLs for additional information and context.
 -   Allow BUs to add non-task tables easily to the list in the To-dos or Task configuration reference tables by passing non-task tables as an array in the **Scripted Extension Points**. **sn\_hr\_sp.TodoNonTaskTables**, and **sn\_ex\_sp.RefNonTaskTables**.
 
-**Parent Topic:**[Employee Center reference](emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
 
-[Activity Configuration form](ec-activity-configuration-form.md)
+[Activity Configuration form]()
 
-[Activity Configuration Detail form](activity-configuration-detail-form.md)
+[Activity Configuration Detail form]()
 
-[Connected Content form](connected-content-form.md)
+[Connected Content form]()
 
-[Default Employee Profile Header Configuration record](default-profile-header.md)
+[Default Employee Profile Header Configuration record]()
 
-[Employee Center widgets](../concept/employee-center-widgets-list.md)
+[Employee Center widgets]()
 
-[Employee Profile form](employee-profile-fieldconfig.md)
+[Employee Profile form]()
 
-[Employee Profile Header Configuration form](profile-header-config-form.md)
+[Employee Profile Header Configuration form]()
 
-[Employee Profile portal configuration form](profile-portal-config-form.md)
+[Employee Profile portal configuration form]()
 
-[Employee Profile upgrade scenarios](emp-profile-upgrade.md)
+[Employee Profile upgrade scenarios]()
 
-[Enhanced Requests Experience forms](req-concept-ec.md)
+[Enhanced Requests Experience forms]()
 
-[External Link form](external-link-form.md)
+[External Link form]()
 
-[Featured Content form](featured-content-form.md)
+[Featured Content form]()
 
-[Footer form](ec-footer-form.md)
+[Footer form]()
 
-[Footer Menus form](ec-footer-menus.md)
+[Footer Menus form]()
 
-[Guided Self-Service reference](gss-guided-self-service-reference-info.md)
+[Guided Self-Service reference]()
 
-[Menu Item form](menu-item-form.md)
+[Menu Item form]()
 
-[Overview section form](profile-overview-section-form.md)
+[Overview section form]()
 
-[Portal notification configuration form](portal-notif-config-form.md)
+[Portal notification configuration form]()
 
-[Portal notification content form](notif-content-form.md)
+[Portal notification content form]()
 
-[Trigger conditions form](notif-trigger-form.md)
+[Trigger conditions form]()
 
-[Quick Link form](ec-quick-link-form.md)
+[Quick Link form]()
 
-[Tab widget mapping form](tab-widget-mapping-form.md)
+[Tab widget mapping form]()
 
-[Taxonomy form](taxonomy-form.md)
+[Taxonomy form]()
 
-[Topic form](topic-form.md)
+[Topic form]()
 
-[User Criteria form](ec-user-criteria-form.md)
+[User Criteria form]()
 
-[User Criteria output](user-criteria-output.md)
+[User Criteria output]()
 
-[Schedule appointment form](schedule-appointment-form.md)
+[Schedule appointment form]()
 
-[Location Consent form](location-consent-form.md)
+[Location Consent form]()
 
-[Website configuration form](config-website-form.md)
+[Website configuration form]()
 

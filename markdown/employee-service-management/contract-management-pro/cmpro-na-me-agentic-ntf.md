@@ -2,6 +2,7 @@
 title: Enable notifications for AI extracted metadata and obligations
 description: Enable the email notifications for metadata extraction and obligation extraction to notify users when metadata extraction and obligation extraction are complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-me-agentic-ntf.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -33,7 +34,7 @@ The **AgenticAIMetadata extraction - Completed** and **AgenticAIObligationExtrac
 
     -   To activate notifications for metadata extraction, select **AgenticAIMetadata extraction - Completed**.
     -   To activate notifications for obligation extraction, select **AgenticAIObligationExtractionCompleted**.
-    ![Notifications for metadata extraction and obligation extraction.](../image/cmpro-agentic-ai-notf.png "Agentic AI notifications")
+    \[Omitted image "cmpro-agentic-ai-notf.png"\] Alt text: Notifications for metadata extraction and obligation extraction.
 
 4.  On the Notification form, select the **Active** check box.
 
@@ -42,16 +43,16 @@ The **AgenticAIMetadata extraction - Completed** and **AgenticAIObligationExtrac
 
 ## What to do next
 
-[Configure the workspace URL for contract metadata extraction notifications](cncore-config-ext-wrkspc-email.md)
+[Configure the workspace URL for contract metadata extraction notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.md)
 
-**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](../concept/cmpro-conf-agentic-workflow.md)
+**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
 
 **Related topics**  
 
 
-[Activate business rules for the Manage contract repository agentic workflow](conf-repository-agentic-ai.md)
+[Activate business rules for the Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/conf-repository-agentic-ai.md)
 
-[Set the default notice period for the Manage contract repository agentic workflow](conf-sys-prop-default-np.md)
+[Set the default notice period for the Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/conf-sys-prop-default-np.md)
 
-[Update the contracts AI agents handler script include](cmpro-script-includ-agenticAI.md)
+[Update the contracts AI agents handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.md)
 

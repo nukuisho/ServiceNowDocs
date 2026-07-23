@@ -2,6 +2,7 @@
 title: Configure a declarative action with the Now Assist icon
 description: Configure a declarative action button with the Now Assist icon \(\) and hover animation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-da-buttons-now-assist-icon.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -12,17 +13,17 @@ breadcrumb: [Configure action buttons, Declarative actions, Administer, Configur
 
 # Configure a declarative action with the Now Assist icon
 
-Configure a declarative action button with the Now Assist icon \(![](../../../common/image/icon-ai-sparkle.png)\) and hover animation.
+Configure a declarative action button with the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\]\) and hover animation.
 
 ## Before you begin
 
-Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](../concept/creating-declarative-actions.md).
+Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/creating-declarative-actions.md).
 
 Role required: admin
 
 ## About this task
 
-The Now Assist icon \(![](../../../common/image/icon-ai-sparkle.png)\) with hover animation is supported for buttons and split buttons. If the action falls into the overflow or acts as a subitem in a split button, the hover animation doesn't work.
+The Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\]\) with hover animation is supported for buttons and split buttons. If the action falls into the overflow or acts as a subitem in a split button, the hover animation doesn't work.
 
 ## Procedure
 
@@ -30,9 +31,9 @@ The Now Assist icon \(![](../../../common/image/icon-ai-sparkle.png)\) with hove
 
 2.  From the Action Assignment list, select an action.
 
-3.  In the Icon field, selecting **ai-sparkle-fill** to add the Now Assist icon \(![](../../../common/image/icon-ai-sparkle.png)\).
+3.  In the Icon field, selecting **ai-sparkle-fill** to add the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\]\).
 
-    **Important:** For adding the Now Assist icon \(![](../../../common/image/icon-ai-sparkle.png)\) to a form action, find the Icon field by first selecting a layout item from the Layout Items related list.
+    **Important:** For adding the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\]\) to a form action, find the Icon field by first selecting a layout item from the Layout Items related list.
 
     Layout items control how declarative actions appear relative to other actions in a table layout. If your action is associated with multiple layouts, you might see multiple entries.
 

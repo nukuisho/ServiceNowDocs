@@ -2,6 +2,7 @@
 title: Activity Configuration Detail form
 description: Use the Activity Configuration Detail form to specify which records you want to retrieve from a table when certain conditions are met for a basic activity configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/activity-configuration-detail-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -103,7 +104,7 @@ Section that displays the fields corresponding to the table that you selected in
 -   **Field 2**
 -   **Action group**
 
-When you select **Action group**, you can perform actions right from the my active items section itself. For more information on action groups, see [Action framework](../concept/action-group-framework.md).
+When you select **Action group**, you can perform actions right from the my active items section itself. For more information on action groups, see [Action framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/action-group-framework.md).
 
 This section appears only when **Basic** is selected from the **Activity card mapping** field.
 
@@ -116,66 +117,66 @@ Advanced Card View
 In the Card mapping script section, add a JSON script to retrieve records from a table based on the on-screen example. This section appears only when **Scripted** is selected from the **Activity card mapping** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
 
-[Activity Configuration form](ec-activity-configuration-form.md)
+[Activity Configuration form]()
 
-[Approvals experience reference](approval-hub-ootb.md)
+[Approvals experience reference]()
 
-[Connected Content form](connected-content-form.md)
+[Connected Content form]()
 
-[Default Employee Profile Header Configuration record](default-profile-header.md)
+[Default Employee Profile Header Configuration record]()
 
-[Employee Center widgets](../concept/employee-center-widgets-list.md)
+[Employee Center widgets]()
 
-[Employee Profile form](employee-profile-fieldconfig.md)
+[Employee Profile form]()
 
-[Employee Profile Header Configuration form](profile-header-config-form.md)
+[Employee Profile Header Configuration form]()
 
-[Employee Profile portal configuration form](profile-portal-config-form.md)
+[Employee Profile portal configuration form]()
 
-[Employee Profile upgrade scenarios](emp-profile-upgrade.md)
+[Employee Profile upgrade scenarios]()
 
-[Enhanced Requests Experience forms](req-concept-ec.md)
+[Enhanced Requests Experience forms]()
 
-[External Link form](external-link-form.md)
+[External Link form]()
 
-[Featured Content form](featured-content-form.md)
+[Featured Content form]()
 
-[Footer form](ec-footer-form.md)
+[Footer form]()
 
-[Footer Menus form](ec-footer-menus.md)
+[Footer Menus form]()
 
-[Guided Self-Service reference](gss-guided-self-service-reference-info.md)
+[Guided Self-Service reference]()
 
-[Menu Item form](menu-item-form.md)
+[Menu Item form]()
 
-[Overview section form](profile-overview-section-form.md)
+[Overview section form]()
 
-[Portal notification configuration form](portal-notif-config-form.md)
+[Portal notification configuration form]()
 
-[Portal notification content form](notif-content-form.md)
+[Portal notification content form]()
 
-[Trigger conditions form](notif-trigger-form.md)
+[Trigger conditions form]()
 
-[Quick Link form](ec-quick-link-form.md)
+[Quick Link form]()
 
-[Tab widget mapping form](tab-widget-mapping-form.md)
+[Tab widget mapping form]()
 
-[Taxonomy form](taxonomy-form.md)
+[Taxonomy form]()
 
-[Topic form](topic-form.md)
+[Topic form]()
 
-[User Criteria form](ec-user-criteria-form.md)
+[User Criteria form]()
 
-[User Criteria output](user-criteria-output.md)
+[User Criteria output]()
 
-[Schedule appointment form](schedule-appointment-form.md)
+[Schedule appointment form]()
 
-[Location Consent form](location-consent-form.md)
+[Location Consent form]()
 
-[Website configuration form](config-website-form.md)
+[Website configuration form]()
 

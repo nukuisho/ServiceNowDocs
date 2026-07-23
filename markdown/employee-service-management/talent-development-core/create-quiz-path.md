@@ -2,6 +2,7 @@
 title: Add exams to a learning path from Career Assessment
 description: Create internal learning content to add exams as content items within a learning path from Career Assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/create-quiz-path.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -27,21 +28,21 @@ Role required: sn\_lc.catalog\_manager
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Learning internal content form](learning-internal-content-form-ca.md).
+    For a description of the field values, see [Learning internal content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/learning-internal-content-form-ca.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Using Career Assessment](using-exam-engine.md)
+**Parent Topic:**[Using Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/using-exam-engine.md)
 
 **Related topics**  
 
 
-[Create exam catalogs](../task/create-exam-catalog.md)
+[Create exam catalogs]()
 
-[Create an exam](../task/create-exam.md)
+[Create an exam]()
 
-[View an exam instance](../task/view-exam-instance.md)
+[View an exam instance]()
 
-[Learning internal content form](learning-internal-content-form-ca.md)
+[Learning internal content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/learning-internal-content-form-ca.md)
 

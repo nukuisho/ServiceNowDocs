@@ -2,6 +2,7 @@
 title: Manually run a supplier document configuration
 description: Run a supplier document configuration to enable supplier managers, supplier owners, and supplier contacts to immediately upload the required documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -33,15 +34,15 @@ The supplier document configuration is configured to run based on the run condit
 
 1.  Do one of the following.
 
-<table><thead><tr><th align="left" id="d110203e98">
+<table><thead><tr><th align="left" id="d72089e98">
 
 To
 
-</th><th align="left" id="d110203e101">
+</th><th align="left" id="d72089e101">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d110203e107">
+</th></tr></thead><tbody><tr><td id="d72089e107">
 
 **Run a document configuration from the Platform UI**
 
@@ -49,34 +50,34 @@ Do This
 
 Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Administration** &gt; **Document Configuration**
 
-</td></tr><tr><td id="d110203e131">
+</td></tr><tr><td id="d72089e131">
 
 **Run a document configuration from the Source-to-Pay Workspace**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and navigate to **Lists** &gt; **Administration** &gt; **Document Configuration**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Administration** &gt; **Document Configuration**.
 
 
 </td></tr></tbody>
 </table>2.  Select the document configuration that you want to run.
 
-3.  Select **Execute Now**.![Selected button for running the document configuration manually.](../image/run-doc-config-manually.png)
+3.  Select **Execute Now**.\[Omitted image "run-doc-config-manually.png"\] Alt text: Selected button for running the document configuration manually.
 
 
-**Parent Topic:**[Supplier Document Management](../concept/supp-doc-mgmt-overview.md)
+**Parent Topic:**[Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md)
 
 **Related topics**  
 
 
-[Create a supplier document configuration](create-doc-config.md)
+[Create a supplier document configuration]()
 
-[Uploading supplier documents](../concept/upload-doc-about.md)
+[Uploading supplier documents]()
 
-[Configure document expiration monitoring attributes](configure-document-expiration-monitoring-attributes.md)
+[Configure document expiration monitoring attributes]()
 
-[Create a supplier document configuration](create-doc-config.md)
+[Create a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.md)
 
-[Uploading supplier documents](../concept/upload-doc-about.md)
+[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)
 

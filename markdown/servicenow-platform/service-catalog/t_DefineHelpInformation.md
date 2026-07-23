@@ -2,6 +2,7 @@
 title: Define help information for a service catalog variable
 description: Enter help information for a variable to help users determine what info they must provide for a service catalog variable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_DefineHelpInformation.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -21,8 +22,6 @@ Role required: admin
 
 ## About this task
 
-Demonstrates these options to provide help text for service catalog item variables: tooltips, help text, instructions \(HTML help text\), and example text.
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintain Items** and click the catalog item with the variable that you want to provide help for.
@@ -41,15 +40,15 @@ Demonstrates these options to provide help text for service catalog item variabl
 
     **Note:** The **Help** and **Help text** fields do not support HTML tags.
 
-    ![screenshot for help text](../image/DefineHelpInfoG.png "Example of help information")
+    \[Omitted image "DefineHelpInfoG.png"\] Alt text: screenshot for help text
 
 
-**Parent Topic:**[Create a service catalog variable](t_CreateAVariableForACatalogItem.md)
+**Parent Topic:**[Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md)
 
 **Related topics**  
 
 
-[Service Catalog variable attributes](../reference/variable-attributes.md)
+[Service Catalog variable attributes]()
 
-[Define a question choice for a variable](define-question-choice-var.md)
+[Define a question choice for a variable]()
 

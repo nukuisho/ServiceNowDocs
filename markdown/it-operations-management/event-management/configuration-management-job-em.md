@@ -1,7 +1,8 @@
 ---
 title: Periodically run an event forwarding job
-description: Schedule an event forwarding job to periodically send events to all target instances with active event forwarding configurations when the monitoring source can't send events to multiple target instances.
+description: Activate the event forwarding job to periodically send events to all target instances with active event forwarding configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configuration-management-job-em.html
 release: australia
 product: Event Management
 classification: event-management
@@ -13,7 +14,7 @@ breadcrumb: [Event forwarding, Configuring Event Management, Event Management, I
 
 # Periodically run an event forwarding job
 
-Schedule an event forwarding job to periodically send events to all target instances with active event forwarding configurations when the monitoring source can't send events to multiple target instances.
+Activate the event forwarding job to periodically send events to all target instances with active event forwarding configurations.
 
 ## Before you begin
 
@@ -21,7 +22,9 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-You can customize the **event-forwarding** job behavior through related system properties. For more information, see [Event forwarding properties](../reference/event-forwarding-properties-em.md).
+Event forwarding requires both an active event forwarding configuration record and an active **Event Management - Event Forwarding Job** scheduled job.
+
+You can customize the **event-forwarding** job behavior through related system properties. For more information, see [Event forwarding properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-forwarding-properties-em.md).
 
 **Note:** To minimize the performance impact, the scheduled job sends events not older than the latest hour when it ran for the first time after setting up event forwarding.
 

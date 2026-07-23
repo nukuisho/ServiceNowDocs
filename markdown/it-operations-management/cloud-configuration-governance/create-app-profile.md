@@ -2,6 +2,7 @@
 title: Create an application profile
 description: An application profile specifies application software to install on newly-provisioned resources. Users can select applications when they request a stack. Use application profiles when you integrate with configuration management \(continuous delivery\) providers such as Ansible playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-app-profile.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -24,7 +25,7 @@ An application profile specifies application software to install on newly-provis
 
 This example shows an application profile mapping for a Tomcat server on Ansible.
 
-![An example profile](../image/application-profile-mapping-example.png)
+\[Omitted image "application-profile-mapping-example.png"\] Alt text: An example profile
 
 ## Procedure
 
@@ -32,7 +33,7 @@ This example shows an application profile mapping for a Tomcat server on Ansible
 
 2.  In the **Profiles** list, select **Application Profile** and then click **New**.
 
-    ![Application profile](../image/application-profile.png)
+    \[Omitted image "application-profile.png"\] Alt text: Application profile
 
 3.  Enter a unique and descriptive **Name** and **Description** for the profile and then click **Submit**.
 
@@ -70,11 +71,11 @@ Select a template that the profile should be mapped to. If you ran Discovery on 
 
  The resource type associated with an application profile is `sn_cmp_application_template`.
 
- Click the reference icon \(![Reference icon](../../../common/image/icon-reference.png)\) to view the details of the template.
+ Click the reference icon \(\[Omitted image "icon-reference.png"\] Alt text: Reference icon\) to view the details of the template.
 
  To create a new template:
 
-1.  Click the reference icon \(![Reference icon](../../../common/image/icon-reference.png)\) to open the Application Templates list.
+1.  Click the reference icon \(\[Omitted image "icon-reference.png"\] Alt text: Reference icon\) to open the Application Templates list.
 2.  Click **New** and then fill in the Application Template form:
  -   **Name**: Enter a descriptive name for the template.
 -   **Template ID**: Enter an ID to use for the template.
@@ -90,5 +91,5 @@ Select a template that the profile should be mapped to. If you ran Discovery on 
 **Related topics**  
 
 
-[Discover all datacenters in a service account on-demand](../../cloud-management-v2-setup/task/disco-datacntrs-in-srv-acct-1.md)
+[Discover all datacenters in a service account on-demand]()
 

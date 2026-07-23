@@ -2,6 +2,7 @@
 title: Use Now Assist for Supplier Lifecycle Operations \(SLO\) in a Virtual Agent chat
 description: Use the conversational interface of Now Assist for Supplier Lifecycle Operations \(SLO\) to request contextually relevant generative AI capabilities through a Virtual Agent chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-va.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -71,18 +72,18 @@ You can also select **Show all my options** to access the following predefined t
 
 ## Additional Information
 
-Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes supplier contacts more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
+Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes supplier contacts more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md).
 
-As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see . Now Assist in Virtual Agent Analytics calculates the conversation deflection rate that is based on the resolution status associated with Now Assist query responses. For more information, see .
+As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. Now Assist in Virtual Agent Analytics calculates the conversation deflection rate that is based on the resolution status associated with Now Assist query responses. For more information, see .
 
-For detailed information on Now Assist in Virtual Agent in general, and Now Assist for SLO in particular, see [Explore Now Assist for Supplier Lifecycle Operations \(SLO\)](now-assist-slo-exploring.md).
+For detailed information on Now Assist in Virtual Agent in general, and Now Assist for SLO in particular, see [Explore Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-exploring.md).
 
-For information on configuring Now Assist for SLO, see [Configure Now Assist for Supplier Lifecycle Operations \(SLO\)](../task/now-assist-slo-configuring.md).
+For information on configuring Now Assist for SLO, see [Configure Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md).
 
 **Related topics**  
 
 
-[Use Now Assist for Supplier Lifecycle Operations \(SLO\)](now-assist-slo-using.md)
+[Use Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
 
-[Summarize a case by using Now Assist for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace](../task/now-assist-slo-summarize-case.md)
+[Summarize a case by using Now Assist for Supplier Lifecycle Operations \(SLO\) in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.md)
 

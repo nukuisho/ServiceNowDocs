@@ -2,6 +2,7 @@
 title: Integrating ServiceNow Voice with Virtual Agent
 description: ServiceNow Voice with Virtual Agent allows you to use the ServiceNow Virtual Agent conversation as an IVR \(Interactive Voice Response\) in phone and to use the existing ServiceNow Advanced Work Assignment to find an agent in case of an escalation and allows agents to work in ServiceNow Workspace to manage the incoming cases on the queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/integrate-voice-va.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ To use our pre-built adapter connector with ServiceNow Voice with Virtual Agent,
 -   **Calling and routing**
     -   Make outbound calls via click to call or via auto-connecting the Omnichannel Callback feature.
 
-        For more information, see [Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-ivr.md).
+        For more information, see [Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-va-ivr.md).
 
     -   Transfer to external phone number using the Amazon Connect Softphone.
     -   Skills-based call assignment using the Advanced Work Assignment.
@@ -54,10 +55,10 @@ The following example workflow shows the use of ServiceNow Voice for Virtual Age
     **Note:** This step in the flow applies only when the caller is an existing customer.
 
 
-**Parent Topic:**[Integrating Voice with other applications](integrate-ccc-other-apps.md)
+**Parent Topic:**[Integrating Voice with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-ccc-other-apps.md)
 
 **Related topics**  
 
 
-[Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ivr-voice.md)
+[Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-ivr-voice.md)
 

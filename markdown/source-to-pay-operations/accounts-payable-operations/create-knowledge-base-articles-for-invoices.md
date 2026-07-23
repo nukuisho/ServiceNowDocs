@@ -2,12 +2,14 @@
 title: Create a knowledge base article about invoice
 description: Create a knowledge base article to share invoice information and policies with your employees and suppliers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-knowledge-base-articles-for-invoices.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice management, supplier, AP specialist]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -57,32 +59,32 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist
 -   Track the progress of your article from **My Knowledge Articles**.
 -   Manage the article workflows, such as reviewing, publishing, updating, or retiring the article.
 
-**Parent Topic:**[Use Accounts Payable Operations](../concept/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Invoice case categories and subcategories](../concept/working-with-cases.md)
+[Invoice case categories and subcategories]()
 
-[Using Invoice Case Management](../concept/use-invoice-case-mgmt.md)
+[Using Invoice Case Management]()
 
-[Using Accounts Payable Invoice Processing](../concept/use-ap-invoice-processing.md)
+[Using Accounts Payable Invoice Processing]()
 
-[Advanced Work Assignment in Accounts Payable Operations](../concept/advanced-work-assignment.md)
+[Advanced Work Assignment in Accounts Payable Operations]()
 
-[Configure Advanced Work Assignment for Accounts Payable Operations](configure-advanced-work-assignment-for-apo.md)
+[Configure Advanced Work Assignment for Accounts Payable Operations]()
 
-[Using Advanced Work Assignment for Accounts Payable Operations](../concept/using-awa-for-apo.md)
+[Using Advanced Work Assignment for Accounts Payable Operations]()
 
-[Working with Advanced Work Assignment](working-with-advanved-work-assignment.md)
+[Working with Advanced Work Assignment]()
 
-[Interaction management in Accounts Payable Operations](../concept/interaction-record.md)
+[Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace](../concept/email-composer-apm-workspace.md)
+[Composing emails with predefined content from the Source-to-Pay Workspace]()
 
-[Universal Request in Accounts Payable Operations](../concept/universal-request-in-apo.md)
+[Universal Request in Accounts Payable Operations]()
 
-[Playbook for updating the invoice primary data](../concept/playbooks.md)
+[Playbook for updating the invoice primary data]()
 
-[Using Supplier Collaboration Portal in APO](../concept/using-supplier-collaboration-portal.md)
+[Using Supplier Collaboration Portal in APO]()
 

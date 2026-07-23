@@ -2,6 +2,7 @@
 title: Generate an email response for supplier cases
 description: Generate an email response for supplier cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/generate-email-response-for-supplier-case.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ Generate an email response for supplier cases.
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_supplier\_gen\_ai.now\_assist\_fulfiller and sn\_slm.fulfiller
 
@@ -29,7 +30,7 @@ The Email response for supplier case skill uses supplier case details such as ca
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon ![List icon.](../image/cases-list-icon.png).
+2.  Select the list icon \[Omitted image "cases-list-icon.png"\] Alt text: List icon..
 
 3.  Go to **All work** &gt; **Cases**.
 
@@ -41,9 +42,9 @@ The Email response for supplier case skill uses supplier case details such as ca
 
 6.  Select anywhere within the email body textbox.
 
-7.  Generate an email draft by selecting the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png).
+7.  Generate an email draft by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\].
 
-    ![Generated email draft for a supplier case.](../image/slo-email-generation-supplier-case.png)
+    \[Omitted image "slo-email-generation-supplier-case.png"\] Alt text: Generated email draft for a supplier case.
 
 8.  Select **Insert**.
 
@@ -51,9 +52,9 @@ The Email response for supplier case skill uses supplier case details such as ca
 
     1.  Select the required content.
 
-    2.  Select the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png).
+    2.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
 
-10. Apply templates by selecting the template icon![](../../finance-case-management/image/apply-template-icon.png).
+10. Apply templates by selecting the template icon\[Omitted image "apply-template-icon.png"\].
 
 
 ## Result
@@ -63,9 +64,9 @@ An AI generated email draft is created.
 **Related topics**  
 
 
-[Generate an email response for supplier tasks](generate-email-response-for-supplier-tasks.md)
+[Generate an email response for supplier tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/generate-email-response-for-supplier-tasks.md)
 
-[Automate supplier case creation from emails](../concept/automated-supplier-case-creation-from-emails.md)
+[Automate supplier case creation from emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/automated-supplier-case-creation-from-emails.md)
 
-[Analyze sentiments in supplier cases](slo-analyze-sentiments.md)
+[Analyze sentiments in supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/slo-analyze-sentiments.md)
 

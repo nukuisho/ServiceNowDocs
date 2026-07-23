@@ -2,10 +2,11 @@
 title: ServiceNow product tiers
 description: ServiceNow structures its products and packages in three tiers — Foundation, Advanced, and Prime. Each tier incorporates AI and builds progressively on the previous one with additional AI capabilities, agents, and governance tools.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-native-sku-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 6
 keywords: [AI native, Foundation, Advanced, Prime, AI tiers, ITSM, CSM, HRSD, Industry]
 breadcrumb: [Enable AI experiences]
 ---
@@ -43,27 +44,27 @@ All supported product lines offer these three tiers that include the features li
 
 Every offering has a set of platform-level AI capabilities powering the skills, agents, and governance experience across all product lines.
 
--   **[Now Assist](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/now-assist-platform/concept/exploring-now-assist-platform.html)**
+-   **[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)**
 
-    Now Assist is the generative AI experience embedded throughout the ServiceNow AI Platform, delivering skills such as incident summarization, sentiment analysis, reply generation, and case resolution assistance. Now Assist skills are available at every tier, across [ITSM](https://docs.servicenow.com/bundle/zurich-release-notes/page/release-notes/it-service-management/now-assist-for-itsm-rn.html), CSM, HRSD, and industry solutions. For a full overview of the Now Assist panel and administration tools, see [Now Assist panel](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/now-assist-platform/concept/now-assist-panel-overview.html).
+    Now Assist is the generative AI experience embedded throughout the ServiceNow AI Platform, delivering skills such as incident summarization, sentiment analysis, reply generation, and case resolution assistance. Now Assist skills are available at every tier, across ITSM, CSM, HRSD, and industry solutions. For a full overview of the Now Assist panel and administration tools, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
--   **[Now Assist AI agents](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/now-assist-ai-agents/concept/exploring-ai-agents.html)**
+-   **[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)**
 
-    Now Assist AI agents extend generative AI into autonomous agentic workflows. Using [AI Agent Studio](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/now-assist-ai-agents/concept/ai-agent-studio.html), administrators can configure out-of-the-box agents at Foundation and Advanced tiers, or build net-new agents from natural language instructions at the Prime tier.
+    Now Assist AI agents extend generative AI into autonomous agentic workflows. Using [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md), administrators can configure out-of-the-box agents at Foundation and Advanced tiers, or build net-new agents from natural language instructions at the Prime tier.
 
 -   **AI Agent Fabric**
 
     AI Agent Fabric is the communication layer that enables ServiceNow AI agents to collaborate with each other and with third-party AI systems using open protocols — including Agent-to-Agent \(A2A\) and Model Context Protocol \(MCP\). Foundation and Advanced tiers include A2A outbound connectivity; Prime adds inbound MCP Server capability, enabling external platforms to invoke ServiceNow agents directly. For implementation details, see [Enable MCP and A2A for your agentic workflows](https://www.servicenow.com/community/now-assist-articles/enable-mcp-and-a2a-for-your-agentic-workflows-with-faqs-updated/ta-p/3373907).
 
--   **[AI Control Tower](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/ai-governance-workspace/concept/ai-governance-landing.html)**
+-   **AI Control Tower**
 
-    AI Control Tower is embedded at every tier, providing centralized governance, lifecycle management, and real-time visibility across all AI assets — whether built natively on ServiceNow or sourced from external vendors. At Foundation and Advanced, AI Control Tower discovers and manages ServiceNow AI assets; Prime extends full management and assist metering to external AI assets as well. For configuration guidance, see [Exploring AI Control Tower](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/ai-governance-workspace/concept/exploring-ai-control-tower.html) and [Configure AI Control Tower](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/ai-governance-workspace/concept/configuring-ai-governance.html).
+    AI Control Tower is embedded at every tier, providing centralized governance, lifecycle management, and real-time visibility across all AI assets — whether built natively on ServiceNow or sourced from external vendors. At Foundation and Advanced, AI Control Tower discovers and manages ServiceNow AI assets; Prime extends full management and assist metering to external AI assets as well. For configuration guidance, see [Exploring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.md) and [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/configuring-ai-governance.md).
 
--   **[Workflow Data Fabric](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/workflow-data-fabric/concept/workflow-data-fabric-landing.html)**
+-   **Workflow Data Fabric**
 
-    Workflow Data Fabric grounds AI agents in real enterprise data by connecting any application, database, or system to the ServiceNow AI Platform — without requiring data to be moved or replicated. WDF Foundation, including [Integration Hub](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/integration-hub/concept/integration-hub-landing.html), [Robotic Process Automation Hub](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/rpa-hub/concept/rpa-hub-landing.html), [Automation Center](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/automation-center/concept/automation-center-landing.html), and [Data Catalog](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/data-catalog/concept/data-catalog-landing.html), is embedded in every tier edition. WDF Advanced, adding [Zero Copy Connectors](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/zero-copy/concept/zero-copy-connectors-landing.html) and [Stream Connect](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/stream-connect/concept/stream-connect-landing.html), is available as a paid upgrade.
+    Workflow Data Fabric grounds AI agents in real enterprise data by connecting any application, database, or system to the ServiceNow AI Platform — without requiring data to be moved or replicated. WDF Foundation, including Integration Hub, Robotic Process Automation Hub, Automation Center, and Data Catalog, is embedded in every tier edition. WDF Advanced, adding Zero Copy Connectors and Stream Connect, is available as a paid upgrade.
 
--   **[RaptorDB](https://docs.servicenow.com/bundle/zurich-platform-administration/page/administer/raptor-db/concept/raptor-db-landing.html)**
+-   **RaptorDB**
 
     RaptorDB is the next-generation ServiceNow database, purpose-built to deliver the performance and scale that AI-native workloads demand. RaptorDB Standard underpins every tier edition with improved response times and optimized query performance; RaptorDB Professional unlocks ultra-scale analytics, enhanced column-store capabilities, and advanced instance topology support for organizations running the most demanding generative AI and machine-scale data use cases.
 
@@ -76,21 +77,21 @@ Every offering has a set of platform-level AI capabilities powering the skills, 
 
 To begin implementing the capabilities offered at each tier on your instance, see the following resources.
 
--   [Now Assist overview](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/now-assist-platform/concept/exploring-now-assist-platform.html) — Learn about the applications and features that make up the Now Assist experience.
--   [AI governance](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/ai-governance-workspace/concept/ai-governance-landing.html) — Learn about the importance of AI governance to ensure responsible use, regulatory compliance, and alignment with enterprise goals.
--   [Data readiness](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/now-assist-platform/concept/now-assist-data-readiness.html) — Learn how to prepare your instance data for Now Assist.
+-   [Now Assist overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md) — Learn about the applications and features that make up the Now Assist experience.
+-   AI governance — Learn about the importance of AI governance to ensure responsible use, regulatory compliance, and alignment with enterprise goals.
+-   Data readiness — Learn how to prepare your instance data for Now Assist.
 
 ## Related ServiceNow applications and features
 
--   [Now Assist panel](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/now-assist-platform/concept/now-assist-panel-overview.html)
--   [Exploring Now Assist](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/now-assist-platform/concept/exploring-now-assist-platform.html)
--   [AI Agent Studio](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/now-assist-ai-agents/concept/ai-agent-studio.html)
--   [AI Control Tower](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/ai-governance-workspace/concept/ai-governance-landing.html)
--   [AI Control Tower Home](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/ai-governance-workspace/concept/ai-control-tower-home-page.html)
--   [Exploring AI Control Tower](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/ai-governance-workspace/concept/exploring-ai-control-tower.html)
--   [AI Control Tower dashboard](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/ai-governance-workspace/concept/ai-governance.html)
--   [AI Control Tower release notes](https://docs.servicenow.com/bundle/zurich-release-notes/page/release-notes/analytics-intelligence-reporting/ai-control-tower-rn.html)
--   [Workflow Data Fabric](https://docs.servicenow.com/bundle/zurich-intelligent-experiences/page/administer/workflow-data-fabric/concept/workflow-data-fabric-landing.html)
--   [RaptorDB](https://docs.servicenow.com/bundle/zurich-platform-administration/page/administer/raptor-db/concept/raptor-db-landing.html)
--   [Now Assist for ITSM release notes](https://docs.servicenow.com/bundle/zurich-release-notes/page/release-notes/it-service-management/now-assist-for-itsm-rn.html)
+-   [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
+-   [Exploring Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-platform.md)
+-   [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md)
+-   AI Control Tower
+-   [AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-home-page.md)
+-   [Exploring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.md)
+-   [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-governance.md)
+-   AI Control Tower release notes
+-   Workflow Data Fabric
+-   RaptorDB
+-   Now Assist for ITSM release notes
 

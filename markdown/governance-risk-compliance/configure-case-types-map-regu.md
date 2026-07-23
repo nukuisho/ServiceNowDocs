@@ -2,10 +2,11 @@
 title: Map regulations to the entities
 description: Map single or multiple regulations with the entity linked to an incident or security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-case-types-map-regu.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configure, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -21,13 +22,15 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
 The Digital Resilience Incident Case module in the Operational Resilience Workspace lists all Digital Resilience Incident Cases associated with an incident or security incident. A new Regulation Mappings related list, now available in each Digital Resilience Incident Case record, displays the relationships between entities related to the cases and their corresponding regulations.
 
+Each regulation mapped to an entity drives the action task workflow for that case. When a regulation is added or updated for a Digital Resilience Incident Reporting case, the 'Action task automation for regulation addition' and 'Action task automation on regulation updates' flows run. These flows read the action task configuration of the matching Regulatory Body Management Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile\] record and automatically create the required action tasks \(Regulatory reporting assessment of IT incidents, DRI Initial/Intermediate/Final reports\) with the assignment groups, due dates, repeat intervals, and termination conditions defined in those templates. For details on the action task templates, see [Set up action task templates in Regulatory agency profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-action-task-templates.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Digital Resilience Incident Reporting** &gt; **Digital Resilience Incident Case Type** and open the desired case record.
 
     The Digital Resilience Incident Case record is displayed.
 
-    ![Digital Resilience Incident Case record.](../image/dri-case-record.png)
+    \[Omitted image "dri-case-record.png"\] Alt text: Digital Resilience Incident Case record.
 
     It contains the following tabs for the record:
 
@@ -55,9 +58,13 @@ The Digital Resilience Incident Case module in the Operational Resilience Worksp
         |Regulation|Regulation that is mapped to the entity associated with the case, for example, Digital Operational Resilience Act.|
         |Record type|Digital Resilience Incident Case record. This field is auto-filled.|
 
-        The example illustrates mapping the Acer entity to the 'Digital Operational Resilience Act' \(a single regulation\). However, entities can also be mapped to multiple regulations.
+        The example illustrates mapping the Acer entity to the 'Digital Operational Resilience Act' \(a single regulation\).
 
-        ![Mapping an entity to a single regulation.](../image/reg-mapping-new-record-regulations-added.png)
+        After this mapping is saved, the regulation appears on the case and triggers the corresponding action tasks based on the regulation's action task configuration. If the same case is mapped to multiple regulations, a separate set of action tasks \(and therefore separate Initial/Intermediate/Final reports\) is generated per regulation.
+
+        \[Omitted image "reg-mapping-new-record-regulations-added.png"\] Alt text: Mapping an entity to a single regulation.
+
+        Entities can also be mapped to multiple regulations.
 
 3.  To add a subtype for the case, navigate to the Subtypes related list and select **New**.
 
@@ -65,7 +72,7 @@ The Digital Resilience Incident Case module in the Operational Resilience Worksp
 
         The following example shows a Subtypes record.
 
-        ![Subtypes record.](../image/casetype-subtype-new-record.png)
+        \[Omitted image "casetype-subtype-new-record.png"\] Alt text: Subtypes record.
 
     2.  To mark the record as active, set the Active option.
 
@@ -77,7 +84,7 @@ The Digital Resilience Incident Case module in the Operational Resilience Worksp
 
         The following example shows a Rules record.
 
-        ![Rules record.](../image/casetype-viewrule-sample-record.png)
+        \[Omitted image "casetype-viewrule-sample-record.png"\] Alt text: Rules record.
 
     2.  Set the Active flag.
 
@@ -93,7 +100,7 @@ The Digital Resilience Incident Case module in the Operational Resilience Worksp
 
     The following example shows an Assignment rules record.
 
-    ![Assignment rules record.](../image/casetype-assignrule-sample-record.png)
+    \[Omitted image "casetype-assignrule-sample-record.png"\] Alt text: Assignment rules record.
 
     1.  Add the name of the rule and set the Active flag.
 
@@ -115,7 +122,7 @@ The Digital Resilience Incident Case module in the Operational Resilience Worksp
 
     The following example shows a Jurisdictions location record.
 
-    ![Jurisdictions record.](../image/casetype-Juris-sample-record.png)
+    \[Omitted image "casetype-Juris-sample-record.png"\] Alt text: Jurisdictions record.
 
     1.  Add Name, City, Zip code, State, country, Phone, Latitude, Longitude details.
 
@@ -127,7 +134,7 @@ The Digital Resilience Incident Case module in the Operational Resilience Worksp
 
     The following example shows a Record type area configuration record.
 
-    ![Area configs record.](../image/casetype-areatype-sample-record.png)
+    \[Omitted image "casetype-areatype-sample-record.png"\] Alt text: Area configs record.
 
     1.  Set its order and Active flag.
 
@@ -143,5 +150,5 @@ The Digital Resilience Incident Case module in the Operational Resilience Worksp
 **Related topics**  
 
 
-[Complete action tasks and report incidents associated with regulations](work-on-action-tasks.md)
+[Complete action tasks and report incidents associated with regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/work-on-action-tasks.md)
 

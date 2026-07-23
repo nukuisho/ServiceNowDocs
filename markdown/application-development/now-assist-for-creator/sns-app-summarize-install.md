@@ -2,6 +2,7 @@
 title: Install Now Assist for app summary generation
 description: Install the Now Assist for Creator application so that you can use app summary generation for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/sns-app-summarize-install.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configuring, App summary generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configuring, App summary generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Install Now Assist for app summary generation
@@ -51,7 +52,7 @@ Role required: admin
 
 Grant the admin and now.assist.creator roles, or the sn\_g\_app\_creator.app\_creator and now.assist.creator roles, to each user that you want to summarize apps.
 
-To summarize an app, see [Summarize the contents of an app in ServiceNow Studio](../../servicenow-studio/task/summarize-an-app-in-servicenow-studio.md).
+To summarize an app, see [Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/summarize-an-app-in-servicenow-studio.md).
 
-**Parent Topic:**[Configuring Now Assist for app summary generation](../concept/sns-config-now-assis-app-summarize.md)
+**Parent Topic:**[Configuring Now Assist for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-config-now-assis-app-summarize.md)
 

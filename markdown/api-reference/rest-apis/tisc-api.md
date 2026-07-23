@@ -2,6 +2,7 @@
 title: TISC API
 description: The TISC API provides endpoints to add and retrieve threat intelligence data in the Threat Intelligence Security Center \(TISC\) application.Adds observable source records to the Threat Intelligence Security Center \(TISC\) application.Retrieves observables data, including relationships between observables and other threat intelligence data such as Structured Threat Information Expression \(STIX\) objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/tisc-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -21,21 +22,21 @@ This API can also be used to enrich SIEM alerts with threat intelligence context
 
 This API requires the Threat Intelligence Security Center application, which is available on the ServiceNow Store.
 
-For additional information about TISC, see [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md).
+For additional information about TISC, see [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tisc-landing-page.md).
 
 This API runs in the `sn_sec_tisc` namespace.
 
 The current version of this API is `v1`.
 
-For information about API authentication, see the REST API security section in [REST APIs](c_RESTAPI.md).
+For information about API authentication, see the REST API security section in [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## TISC API - POST /sn\_sec\_tisc/threat\_intel\_data/add\_observables
 
 Adds observable source records to the Threat Intelligence Security Center \(TISC\) application.
 
-The [observable source records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-observables-source-records.md) are created in the Observable Source \[sn\_sec\_tisc\_observable\_source\] table and are processed through de-duplication and aggregation in the [TISC data flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-data-processing-functional-flow.md).
+The [observable source records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tisc-observables-source-records.md) are created in the Observable Source \[sn\_sec\_tisc\_observable\_source\] table and are processed through de-duplication and aggregation in the [TISC data flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tisc-data-processing-functional-flow.md).
 
 **Note:** Observable source records can't be directly updated using this endpoint. Only new records can be created. Therefore, even if only a few fields require an update, all fields must still be included in the request.
 
@@ -47,7 +48,7 @@ Versioned URL: `/api/sn_sec_tisc/{api_version}/threat_intel_data/add_observables
 
 Default URL: `/api/sn_sec_tisc/threat_intel_data/add_observables`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -270,7 +271,7 @@ Stored in: Sources provided in the request body are added to the API Integration
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -283,7 +284,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_gcj_124_xbc"><thead><tr><th>
 
@@ -1955,7 +1956,7 @@ Versioned URL: `/api/sn_sec_tisc/{api_version}/threat_intel_data/observables`
 
 Default URL: `/api/sn_sec_tisc/threat_intel_data/observables`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2565,7 +2566,7 @@ Default: Empty array \(no relationships returned\)
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2578,7 +2579,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

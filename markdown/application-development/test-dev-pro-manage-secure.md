@@ -2,6 +2,7 @@
 title: Secure apps with pro-code tools
 description: Secure your ServiceNow apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-pro-manage-secure.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,27 +16,27 @@ Secure your ServiceNow apps.
 
 <table id="table_fck_nq2_2vb" class="nav-card"><tbody><tr><td>
 
-[App Engine Studio roles and permissions ![App Engine Studio roles and permissions.](../image/icon-roles.png) Control who is permitted to use or edit your apps.](../../app-engine-studio/concept/add-security.md)
+[App Engine Studio roles and permissions \[Omitted image "icon-roles.png"\] Alt text: App Engine Studio roles and permissions. Control who is permitted to use or edit your apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md)
 
 </td><td>
 
-[Edge Encryption ![Edge Encryption.](../image/BUS_64px_Security_YG.png) Encrypt sensitive data on your company premises before sending it over the Internet.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-encryption.md)
+[Edge Encryption \[Omitted image "BUS\_64px\_Security\_YG.png"\] Alt text: Edge Encryption. Encrypt sensitive data on your company premises before sending it over the Internet.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption.md)
 
 </td><td>
 
-[UI Policies ![UI Policies.](../image/icon-log.png) Dynamically change the behavior of information on a form and control custom process flows for tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md)
+[UI Policies \[Omitted image "icon-log.png"\] Alt text: UI Policies. Dynamically change the behavior of information on a form and control custom process flows for tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md)
 
 </td></tr><tr><td>
 
-[Roles ![Roles.](../image/icon-roles-screen.png) Control access to features and capabilities in applications and modules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
+[Roles \[Omitted image "icon-roles-screen.png"\] Alt text: Roles. Control access to features and capabilities in applications and modules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md)
 
 </td><td>
 
-[Access Control ![Access Control.](../image/icon-access-control.png) Control which Customer Service and Support employees can access your instance, and when.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNCAccessControl.md)
+[Access Control \[Omitted image "icon-access-control.png"\] Alt text: Access Control. Control which Customer Service and Support employees can access your instance, and when.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNCAccessControl.md)
 
 </td><td>
 
-[Users and Groups ![Users and Groups.](../image/icon-users-groups.png) Manage the individuals who can access your instance by defining them as users in the system.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_UserAdministration.md)
+[Users and Groups \[Omitted image "icon-users-groups.png"\] Alt text: Users and Groups. Manage the individuals who can access your instance by defining them as users in the system.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UserAdministration.md)
 
 </td></tr></tbody>
 </table>

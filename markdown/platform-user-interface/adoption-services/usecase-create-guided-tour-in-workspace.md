@@ -2,11 +2,12 @@
 title: Create a guided tour to show incident generation in Workspace
 description: Use the Guided Tour Designer to create a tour that explains how to generate an incident in Workspace.To enable your newly created guided tour to work on any sys\_id, you must manually update the route parameters. This is also essential for enabling the Take a Tour option in the Help Center.Use the Guided Tour Designer to add an introductions, steps, and conclusion to your tour.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/usecase-create-guided-tour-in-workspace.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Guided Tour Designer use case, Use Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -95,7 +96,7 @@ Start with this setup, and if you have steps with IDs, change them to: \{"url":"
     A guided tour is created.
 
 
-**Parent Topic:**[Guided Tour Designer use case](../concept/guided-tour-designer-use-case.md)
+**Parent Topic:**[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)
 
 ## Update the Route Parameters
 
@@ -105,7 +106,7 @@ Perform the following steps:
 
 1.  In the Guided Tour Designer list view, choose the tour you want to update.
 
-2.  In the editable form, change the **Route Parameters** and set the value of the parameter **isDynamic** to **True**.![Set the value of the parameter isDynamic to True](../image/gtd-isdynamic-true.png)
+2.  In the editable form, change the **Route Parameters** and set the value of the parameter **isDynamic** to **True**.\[Omitted image "gtd-isdynamic-true.png"\] Alt text: Set the value of the parameter isDynamic to True
 
     This update enables your guided tour across different sys-ids and activates the **Take a Tour** option in Help Center.
 
@@ -120,7 +121,7 @@ In the Guided Tour Designer, add the following steps to the tour:
 
     Add an introduction that outlines the steps in the guided tour and describes the milestone you achieve when all actions are completed.
 
-    ![Guided Tours callout introduction.](../image/guided-tours-create-incident.png)
+    \[Omitted image "guided-tours-create-incident.png"\] Alt text: Guided Tours callout introduction.
 
 -   **Callouts**
 
@@ -138,25 +139,25 @@ In the Guided Tour Designer, add the following steps to the tour:
 
     For example, the trigger can be configured to advance after the user selects the **Next** button.
 
-    ![Guided tours callout steps.](../image/guided-tour-incident-steps.png)
+    \[Omitted image "guided-tour-incident-steps.png"\] Alt text: Guided tours callout steps.
 
 -   **Conclusion**
 
     At the end of the tour, add a conclusion indicating that the tour is complete. This is a great opportunity to encourage users to explore other tours or provide follow-up information on what to do next.
 
-    ![Guided tour callout conclusion.](../image/guided-tour-conclusion.png)
+    \[Omitted image "guided-tour-conclusion.png"\] Alt text: Guided tour callout conclusion.
 
 
 After you have created your tour, preview it to confirm that it displays correctly and guides the user effectively before submitting it.
 
 The guided tour is created and listed in the Help Center.
 
-Users can access a guided tour by navigating to a page that has one. For more information, see [Start a guided tour](../concept/accessing-guided-tours.md#).
+Users can access a guided tour by navigating to a page that has one. For more information, see [Start a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/accessing-guided-tours.md).
 
 **Related topics**  
 
 
-[Create Guided Tours](add-guided-tour.md)
+[Create Guided Tours]()
 
-[Edit Guided Tours](edit-guided-tour.md)
+[Edit Guided Tours]()
 

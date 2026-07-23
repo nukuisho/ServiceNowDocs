@@ -2,11 +2,12 @@
 title: Create an implementation record
 description: Track the progress of a partner or customer implementing a product or a service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-imp-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Create an implementation record
@@ -21,7 +22,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin, sn\_acct\_lc.
 
 1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
 
-2.  Navigate to the **Customer Success** &gt; **All Implementation Records** and select **New**.
+2.  Navigate to the **Customer Success Management** &gt; **All Implementation Records** and select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -265,13 +266,13 @@ Enter any additional information in the Close notes field.
 
 8.  Expand the Implementation Records item to view the list of implementation records associated with the engagement.
 
-    ![Related Items: Implementation Record](../image/related-items-imp-rec.jpg)
+    \[Omitted image "related-items-imp-rec.jpg"\] Alt text: Related Items: Implementation Record
 
     You can do the following:
 
     -   Select **Create** to create implementation record.
     -   Select **View all** to view all the implementation records associated with the engagement. The list of records is displayed on a separate page.
-    -   Select the ![](../../../reuse/icons/product-icons/open-link-right-outline-24.svg) to open and edit the implementation record.
+    -   Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to open and edit the implementation record.
 
-**Parent Topic:**[Customer success](../concept/account-lifecycle-config-cust-success.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

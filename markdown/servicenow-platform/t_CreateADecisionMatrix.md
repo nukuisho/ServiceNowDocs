@@ -2,6 +2,7 @@
 title: Create a decision matrix
 description: The name and labels on a decision matrix are closely linked to the categories you choose for the axes. For that reason, first select the metric type and define the X and Y axes before you fill in other fields on the Decision Matrix form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateADecisionMatrix.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,11 +34,11 @@ Role required: assessment\_admin or admin
 
     Each axis can represent a single category or multiple categories. You must specify at least one category per axis in order for the decision matrix to render properly. The available categories are limited to those associated to the metric type selected. To avoid confusion, always update the text for the axis and quadrant labels after editing or adding metric categories to an axis.
 
-    ![Decision matrix axes](../images/DecisionMatrixAxes.png "Decision matrix axes")
+    \[Omitted image "DecisionMatrixAxes.png"\] Alt text: Decision matrix axes
 
 6.  Fill in the remaining fields on the Decision Matrix form and save the record.
 
-    ![Decision Matrix form](../images/DecisionMatrixForm.png)
+    \[Omitted image "DecisionMatrixForm.png"\] Alt text: Decision Matrix form
 
     **Note:** For color fields, either HTML color names or hexidecimal \(hex\) values are acceptable. For hex values, the \# character is optional. Values are not case-sensitive. For example, all of the following values are valid: LightGray, lightgray, \#D3D3D3, d3d3d3.
 
@@ -163,7 +164,7 @@ Highlight item color
 
 </td><td>
 
-Color of highlighted plotted items. When you view a decision matrix from an assessable record's scorecard, the assessable record plotted item appears in the highlight color. Specify a highlight color that is different than the **Plotted item color**.![Highlight item color](../images/HighlightItemVsPlottedItemColor.png)
+Color of highlighted plotted items. When you view a decision matrix from an assessable record's scorecard, the assessable record plotted item appears in the highlight color. Specify a highlight color that is different than the **Plotted item color**.\[Omitted image "HighlightItemVsPlottedItemColor.png"\] Alt text: Highlight item color
 
 </td></tr><tr><td>
 
@@ -219,8 +220,8 @@ Lists categories that define the Y-axis of the decision matrix.
 
 </td></tr></tbody>
 </table>
--   **[Decision matrixes](../reference/r_AdministerDecisionMatrixes.md)**  
+-   **[Decision matrixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AdministerDecisionMatrixes.md)**  
 Assessment results obtained by questionnaires and scripted metrics can be mapped to decision matrixes.
 
-**Parent Topic:**[Assessment administrator tasks](../concept/c_AssessmentProcess.md)
+**Parent Topic:**[Assessment administrator tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentProcess.md)
 

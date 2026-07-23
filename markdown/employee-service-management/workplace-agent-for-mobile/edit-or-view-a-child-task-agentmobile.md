@@ -2,13 +2,14 @@
 title: Edit or view a child task
 description: View or update a task whenever you want to get the details or update the progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/edit-or-view-a-child-task-agentmobile.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use Workplace Agent for mobile, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Use, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Edit or view a child task
@@ -19,7 +20,7 @@ View or update a task whenever you want to get the details or update the progres
 
 Verify that you have installed the required plugins.
 
-Refer to [Workplace Agent for mobile - Key features, actions, and case details](../reference/workplace-agent-mob-key-features-workstats-casedetailspage.md) for detailed information of all the actions available.
+Refer to [Workplace Agent for mobile - Key features, actions, and case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.md) for detailed information of all the actions available.
 
 Role required: sn\_wsd\_case.workplace\_agent
 
@@ -43,7 +44,7 @@ Role required: sn\_wsd\_case.workplace\_agent
 
     The task details page opens separately.
 
-5.  To go to the location specified in the task, select the Location icon \(![Location icon.](../images/wsdagentmob-locationicon.png)\).
+5.  To go to the location specified in the task, select the Location icon \(\[Omitted image "wsdagentmob-locationicon.png"\] Alt text: Location icon.\).
 
     The map opens. Select **Get directions** to know the directions.
 
@@ -63,13 +64,13 @@ Role required: sn\_wsd\_case.workplace\_agent
 
     2.  To add a comment, select **Add Comment**.
 
-    3.  To attach a file, select ![Attach file icon.](../images/wsdagentmob-attachfile.png).
+    3.  To attach a file, select \[Omitted image "wsdagentmob-attachfile.png"\] Alt text: Attach file icon..
 
-    4.  To attach photos, select ![Attach photo icon.](../images/wsdagentmob-attachpic.png).
+    4.  To attach photos, select \[Omitted image "wsdagentmob-attachpic.png"\] Alt text: Attach photo icon..
 
-    5.  To take a photo or video, select ![Attach photo or video icon.](../images/wsdagentmob-uploadpic.png).
+    5.  To take a photo or video, select \[Omitted image "wsdagentmob-uploadpic.png"\] Alt text: Attach photo or video icon..
 
-8.  To perform other actions, select the ![](../images/actions.png) icon on the top-right of the header and do the following:
+8.  To perform other actions, select the \[Omitted image "actions.png"\] Alt text: icon on the top-right of the header and do the following:
 
     1.  To update the checklist of the task, select **Update checklist**.
 
@@ -93,30 +94,30 @@ Role required: sn\_wsd\_case.workplace\_agent
     4.  To view, add, or edit the attachments, select **View attachments**.
 
         1.  On the Attachment page, view the list of attachments.
-        2.  To edit an attachment, select the ![Edit icon.](../images/wsdagentmob-editattach.png) icon.
-        3.  To delete an attachment, select the ![Delete icon.](../images/wsdagentmob-deleteicon.png) icon.
+        2.  To edit an attachment, select the \[Omitted image "wsdagentmob-editattach.png"\] Alt text: Edit icon. icon.
+        3.  To delete an attachment, select the \[Omitted image "wsdagentmob-deleteicon.png"\] Alt text: Delete icon. icon.
         4.  To preview an image, select the image directly.
-9.  To save the task for quick reference, select the ![Quick reference icon.](../images/wsdagentmob-saveicon.png) icon.
+9.  To save the task for quick reference, select the \[Omitted image "wsdagentmob-saveicon.png"\] Alt text: Quick reference icon. icon.
 
     The task is saved in the **Saved** tab. You can view the task at any time from this tab directly.
 
 
-**Parent Topic:**[Use Workplace Agent for mobile](../concept/use-workplace-agent-mobile.md)
+**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
 
 **Related topics**  
 
 
-[Manage workplace cases and tasks](manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.md)
+[Manage workplace cases and tasks]()
 
-[Edit or view case details on the Workplace Agent for mobile app](edit-or-view-case-details-agentmobile.md)
+[Edit or view case details on the Workplace Agent for mobile app]()
 
-[Print workplace cases](print-workplace-cases-mobile.md)
+[Print workplace cases]()
 
-[Print workplace tasks](print-workplace-tasks-mobile.md)
+[Print workplace tasks]()
 
-[Create a child task](create-a-child-task-agentmobile.md)
+[Create a child task]()
 
-[Create a workplace case on behalf of an employee through Workplace Agent for mobile](create-agentcase-mobile.md)
+[Create a workplace case on behalf of an employee through Workplace Agent for mobile]()
 
-[Offline mode](offline-mode.md)
+[Offline mode]()
 

@@ -2,6 +2,7 @@
 title: Mobile voice search
 description: Find items, articles, and people using native speech recognition from an app on their mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-voice-search.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,29 +18,29 @@ Find items, articles, and people using native speech recognition from an app on 
 
 <table id="table_occ_jby_xjb"><tbody><tr><td>
 
-![Applet launcher with search bar and voice search.](../image/voice-search-1.png)
+\[Omitted image "voice-search-1.png"\] Alt text: Applet launcher with search bar and voice search.
 
 </td><td>
 
-Take advantage of the speech recognition feature of your mobile device. Use voice search by tapping the microphone icon \(![Microphone icon](../image/mic-icon.png)\) that appears on the right side of a search bar. Use your device's voice recognition interface to record your search query, which is then converted to text and entered as the search query in your app.
+Take advantage of the speech recognition feature of your mobile device. Use voice search by tapping the microphone icon \(\[Omitted image "mic-icon.png"\] Alt text: Microphone icon\) that appears on the right side of a search bar. Use your device's voice recognition interface to record your search query, which is then converted to text and entered as the search query in your app.
 
  The first time you use the voice search feature, your mobile device may prompt you to allow your ServiceNow app to record audio.
 
- **Note:** Your administrator must enable this feature. For details on enabling voice search on your instance, see [Enable voice search](../../mobile-employee/task/turn-on-voice-search.md).
+ **Note:** Your administrator must enable this feature. For details on enabling voice search on your instance, see [Enable voice search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/turn-on-voice-search.md).
 
 </td></tr></tbody>
 </table>The first time you use the voice search feature, your mobile device may prompt you to allow your ServiceNow app to record audio.
 
 <table id="table_djq_phy_xjb"><tbody><tr><td>
 
-![Prompt to allow audio recording for Android.](../image/mobile-allow-record.png)
+\[Omitted image "mobile-allow-record.png"\] Alt text: Prompt to allow audio recording for Android.
 
 </td><td>
 
-![Prompt to allow audio recording for iOS.](../image/mobile-allow-record-ios.png)
+\[Omitted image "mobile-allow-record-ios.png"\] Alt text: Prompt to allow audio recording for iOS.
 
 </td></tr></tbody>
-</table>If you deny this permission, you cannot use the voice search feature. The microphone icon changes to a disabled microphone icon \(![Disabled microphone icon](../image/no-mic.png)\).
+</table>If you deny this permission, you cannot use the voice search feature. The microphone icon changes to a disabled microphone icon \(\[Omitted image "no-mic.png"\] Alt text: Disabled microphone icon\).
 
 ## Third-party data usage
 

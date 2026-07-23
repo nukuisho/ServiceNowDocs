@@ -2,6 +2,7 @@
 title: Roles required for Engagement project planning for Project Portfolio Management
 description: The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement, and provides planning features that could be used for resource planning, cost planning, and so on, from the engagement project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/Engagement-project-roles-ppm.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -37,7 +38,7 @@ Resource planning
 
 </td><td>
 
-As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace. For more information, refer to [Create and manage resource plans for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/manage-resources-for-project.md)
+As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace. For more information, refer to [Create and manage resource plans for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/manage-resources-for-project.md)
 
 </td><td>
 
@@ -50,7 +51,7 @@ Cost planning
 
 </td><td>
 
-Project cost plans capture the costs of projects. Create a cost plan to specify the unit cost of a cost type for a fiscal period. For more information, refer to [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md)
+Project cost plans capture the costs of projects. Create a cost plan to specify the unit cost of a cost type for a fiscal period. For more information, refer to [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateAProjectCostPlan.md)
 
 </td><td>
 
@@ -71,10 +72,10 @@ Users can enter the project budget, move projects, calculate completion estimate
 -   Users need project\_manager role to be able to calculate completion estimates, and move project. If a user role is being added manually, use the it\_project\_manager role instead of project\_manager role.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Audit Management reference](audit-management-reference.md)
+</table>**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-reference.md)
 
 **Related topics**  
 
 
-[Roles required for Advanced planning capability](roles-for-audit-and-ppm.md)
+[Roles required for Advanced planning capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.md)
 

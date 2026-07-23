@@ -2,6 +2,7 @@
 title: Hide or show a layer in the CAD editor
 description: Hide or display a layer while you’re editing and updating layers in the CAD Editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/show-a-layer.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -25,21 +26,21 @@ Role required: admin
 
 2.  Navigate to **Autocad layers**.
 
-3.  Select a layer and select the toggle off visibility icon ![Toggle off visibility icon.](../images/wsd-toggle-off-visibility-icon.png)\).
+3.  Select a layer and select the toggle off visibility icon \[Omitted image "wsd-toggle-off-visibility-icon.png"\] Alt text: Toggle off visibility icon.\).
 
 4.  The layer is hidden and doesn’t appear on the CAD Editor preview.
 
     For example: Room A. Room A isn’t displayed for a selected layer.
 
-5.  To show a layer, select the toggle on visibility icon \(![Toggle on visibility icon.](../images/wsd-autocad-toggle-on-visibility-icon.png)\) option.
+5.  To show a layer, select the toggle on visibility icon \(\[Omitted image "wsd-autocad-toggle-on-visibility-icon.png"\] Alt text: Toggle on visibility icon.\) option.
 
 
-**Parent Topic:**[Configure CAD objects using the CAD Editor tab](../concept/cad-editor-v2-ovw.md)
+**Parent Topic:**[Configure CAD objects using the CAD Editor tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/cad-editor-v2-ovw.md)
 
 **Related topics**  
 
 
-[Isolate a layer in the CAD editor](isolate-layer.md)
+[Isolate a layer in the CAD editor]()
 
-[Drawing and editing tools in the CAD editor](../concept/editing-tools-cad-editor.md)
+[Drawing and editing tools in the CAD editor]()
 

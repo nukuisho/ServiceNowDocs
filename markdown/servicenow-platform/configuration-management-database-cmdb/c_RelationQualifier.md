@@ -2,6 +2,7 @@
 title: Relation qualifier
 description: A relation qualifier, which is a CI of the Qualifier \[cmdb\_ci\_qualifier\] type, stores important information about the CI relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_RelationQualifier.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -24,24 +25,24 @@ For example, for a relationship between a parent CI and a child CI, you can add 
 
 For this relationship, there is a parent CI and a child CI, and a relation qualifier of type **cmdb\_ci\_qualifier\_trafficbased**.
 
-For information about usage of relation qualifiers in the identification process, see [Identification rules](c_IdentificationRules.md).
+For information about usage of relation qualifiers in the identification process, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md).
 
-**Parent Topic:**[CI relationships in the CMDB](c_CIRelationships.md)
+**Parent Topic:**[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 
 **Related topics**  
 
 
-[Suggested class relationships](../reference/r_SuggestedRelationshipModel.md)
+[Suggested class relationships]()
 
-[Add a suggested relationship](../task/t_AddANewSuggestedRelationship.md)
+[Add a suggested relationship]()
 
-[Relationship governance rules](relationship-governance.md)
+[Relationship governance rules]()
 
-[CI relations formatter](c_CIRelationsFormatterNG.md)
+[CI relations formatter]()
 
-[CI relationship editor](c_RelationshipEditor.md)
+[CI relationship editor]()
 
-[CI relationship security](c_CIRelationshipSecurity.md)
+[CI relationship security]()
 
-[Create a CI relation rollup](../task/t_CreateACIRelationRollup.md)
+[Create a CI relation rollup]()
 

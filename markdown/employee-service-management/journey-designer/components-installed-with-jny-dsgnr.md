@@ -2,6 +2,7 @@
 title: Components installed with Journey designer
 description: Several types of components install with the activation of the Journey designer application, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/components-installed-with-jny-dsgnr.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -95,9 +96,9 @@ sn\_hr\_core.case\_reader
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md).
--   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
--   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+-   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddARoleToAnExistingRole.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 ## Modules with Role
 
@@ -285,5 +286,5 @@ Not Available For \[sn\_jny\_m2m\_journey\_config\_user\_criteria\_no\]
 List users that met the criteria not to be added to a recommended course.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer reference](jny-dsnr-reference.md)
+</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsnr-reference.md)
 

@@ -2,6 +2,7 @@
 title: Trigger a UI interaction from a declarative action
 description: Trigger a UI interaction from a declarative action to extend a page without taking ownership.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-da-ui-interactions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,8 +18,8 @@ Trigger a UI interaction from a declarative action to extend a page without taki
 
 Complete the following actions:
 
-1.  Create a UI interaction in UI Builder. For instructions, see [Create a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-ui-interaction-show-alert.md).
-2.  Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](../concept/creating-declarative-actions.md).
+1.  Create a UI interaction in UI Builder. For instructions, see [Create a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-ui-interaction-show-alert.md).
+2.  Create a declarative action and add the button to a workspace. For instructions, see [Creating declarative action buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/creating-declarative-actions.md).
 
 Role required:
 
@@ -42,7 +43,7 @@ A UI interaction defines what you want to happen, and how you apply a UI interac
 
 A UI interaction can be used instead of a UXF client action to simplify configuration since there's no need to configure add-on event mapping on a corresponding UI Builder page.
 
-For a detailed overview of UI interactions, see [UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md).
+For a detailed overview of UI interactions, see [UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/uib-ui-interactions.md).
 
 ## Procedure
 
@@ -58,7 +59,7 @@ For a detailed overview of UI interactions, see [UI interactions](https://raw.gi
 
     A new field named UI interaction appears.
 
-    ![UI interaction field](../image/da-ui-interaction-field.png)
+    \[Omitted image "da-ui-interaction-field.png"\] Alt text: UI interaction field
 
 4.  In the UI interaction field, select a UI interaction.
 
@@ -70,7 +71,7 @@ For a detailed overview of UI interactions, see [UI interactions](https://raw.gi
 
     For example, a UI interaction to create a new record may require you to define an input for the table of the new record.
 
-    ![Configure inputs dialog box](../image/da-configure-inputs.png)
+    \[Omitted image "da-configure-inputs.png"\] Alt text: Configure inputs dialog box
 
 5.  To define a static value for an input, enter a specified value.
 
@@ -78,7 +79,7 @@ For a detailed overview of UI interactions, see [UI interactions](https://raw.gi
 
 6.  Define a dynamic value for an input.
 
-    1.  Select the data icon \(![data icon](../image/da-data-icon.png)\).
+    1.  Select the data icon \(\[Omitted image "da-data-icon.png"\] Alt text: data icon\).
 
     2.  Enter a value encapsulated by double opening and closing braces.
 

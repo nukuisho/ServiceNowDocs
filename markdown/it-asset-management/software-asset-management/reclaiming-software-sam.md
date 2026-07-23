@@ -2,13 +2,14 @@
 title: Reclaim software
 description: Optimize your environment by reclaiming or removing installed software that is not being used or used infrequently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/reclaiming-software-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reclaim software
@@ -23,7 +24,7 @@ Role required: sam\_admin
 
 Reclaiming software involves a workflow to remove software for a user. You can reclaim software for multiple reasons such as low usage, optimization generated due to consolidation, or overlapping subscriptions. The reclamation process can be managed manually through the creation of tasks or automatically using the Client Software Distribution \(CSD 2.0\) capabilities.
 
-You can select **Show Workflow** at any point of time in the reclamation workflow to see the current stage the workflow is in. For information on CSD 2.0, see [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md).
+You can select **Show Workflow** at any point of time in the reclamation workflow to see the current stage the workflow is in. For information on CSD 2.0, see [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/csd-app-2.md).
 
 Starting from the Australia release, the reclamation workflow can also be completed using the Software Reclamation Flow in the Flow Designer application along with additional error handling functionality.
 
@@ -75,8 +76,13 @@ Starting from the Australia release, the reclamation workflow can also be comple
     1.  The state of the removal candidate record changes to **Awaiting Revocation**.
     2.  Based on the scenarios mentioned in the above note, software removal takes place.
 
-        **Note:** For removal candidates that are grouped into low usage or overlapping justifications, you do not need to manually remove subscriptions as auto reclamation is performed for these two justifications. Fore more information on justifications, see [Software installation optimization and removal](../concept/c_SAMOptimization.md).
+        **Note:** For removal candidates that are grouped into low usage or overlapping justifications, you do not need to manually remove subscriptions as auto reclamation is performed for these two justifications. Fore more information on justifications, see [Software installation optimization and removal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOptimization.md).
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+
+**Related topics**  
+
+
+[Publisher details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-publisher-details.md)
 

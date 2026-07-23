@@ -2,11 +2,12 @@
 title: Invoice staging table
 description: The invoice staging \[sn\_ap\_ic\_invoice\_stage\] table temporarily stores the header-level invoice data from Document Intelligence before it is transferred to the invoice record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/invoice-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Inbound staging tables for Accounts Payable Operations, Inbound staging tables, Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -63,22 +64,22 @@ The following table lists the fields for the invoice inbound \[sn\_ap\_ic\_invoi
 |Recipient email address|string|Email address that will receive the invoice.|
 |Related invoice|reference|Reference to the invoice record created from this staging record.|
 
-**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](../concept/inbound-staging-tables-for-apo.md)
+**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/inbound-staging-tables-for-apo.md)
 
 **Related topics**  
 
 
-[Invoice import inbound staging table](../../source-to-pay-integrations/reference/inbound-invoice-import-staging-table.md)
+[Invoice import inbound staging table]()
 
-[Import error staging table](import-error-staging-table.md)
+[Import error staging table]()
 
-[Invoice line import inbound staging table](../../source-to-pay-integrations/reference/inbound-invoice-line-staging-table.md)
+[Invoice line import inbound staging table]()
 
-[Invoice payment detail import inbound table](invoice-payment-detail-staging-table.md)
+[Invoice payment detail import inbound table]()
 
-[Organization tax details inbound staging table](../../source-to-pay-integrations/reference/slo-org-tax-details-inbound-table.md)
+[Organization tax details inbound staging table]()
 
-[Invoice tax line staging table](../../source-to-pay-operations/reference/inbound-invoice-tax-line-staging-table-apo.md)
+[Invoice tax line staging table]()
 
-[Invoice line stage table](invoice-line-staging-table.md)
+[Invoice line stage table]()
 

@@ -2,6 +2,7 @@
 title: Configure groups for Health and Safety
 description: Configure user groups for Health and Safety for assignment of safety records. You can assign roles to groups to provide access to all group members or assign roles to individual users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/configure-groups-health-and-safety.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -44,34 +45,34 @@ These groups are available for assignment.
     -   To review an existing group, open the group that you want to configure.
 3.  On the form, fill in the fields.
 
-    For detailed instructions and field descriptions, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
+    For detailed instructions and field descriptions, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
 
 4.  Select **Submit** or **Update**.
 
 
 ## What to do next
 
--   Assign roles to the group. For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+-   Assign roles to the group. For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
 -   Add users to the group.
 
-**Parent Topic:**[Setting up Health and Safety Core](../../hs-core/concept/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 
 
-[Install Health and Safety Core](../../hs-core/task/install-hs-core.md)
+[Install Health and Safety Core]()
 
-[Workplace location data](configure-hs-workplace-location-data.md)
+[Workplace location data]()
 
-[Enable a Health and Safety table for configuring report field mapping](enable-hs-table-report-field-mapping.md)
+[Enable a Health and Safety table for configuring report field mapping]()
 
-[Create a safety report field mapping for generating reports](create-safety-report-field-mapping.md)
+[Create a safety report field mapping for generating reports]()
 
-[Configure scheduled job to generate frequency rates](configure-job-generate-frequency-rates.md)
+[Configure scheduled job to generate frequency rates]()
 
-[Assign Health and Safety profile to a user](assign-hs-profile-user.md)
+[Assign Health and Safety profile to a user]()
 
-[Add a Health and Safety visitor](hs-add-health-safety-visitor.md)
+[Add a Health and Safety visitor]()
 
-[Migrate existing safety documents to the Document library](../../hs-core/task/hs-migrate-sync-existing-safety-document-docs-library.md)
+[Migrate existing safety documents to the Document library]()
 

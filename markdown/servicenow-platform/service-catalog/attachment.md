@@ -2,6 +2,7 @@
 title: Attachment
 description: When submitting a catalog item request, this variable lets you upload an attachment for a question of the item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/attachment.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -15,7 +16,7 @@ breadcrumb: [Types of service catalog variables, Service catalog variables, Serv
 
 When submitting a catalog item request, this variable lets you upload an attachment for a question of the item.
 
-After you upload the attachment, you can also download, update, and delete it. Even when fulfilling the request, you can download, update, and delete the attachment in a requested item or catalog task. You can specify restrictions for file size and extensions using the **max\_file\_size** and **allowed\_extensions** variable attributes. For information on these variable attributes, see [Service Catalog variable attributes](variable-attributes.md).
+After you upload the attachment, you can also download, update, and delete it. Even when fulfilling the request, you can download, update, and delete the attachment in a requested item or catalog task. You can specify restrictions for file size and extensions using the **max\_file\_size** and **allowed\_extensions** variable attributes. For information on these variable attributes, see [Service Catalog variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variable-attributes.md).
 
 **Important:**
 
@@ -54,62 +55,62 @@ If the system-wide anti-virus check is enabled, the anti-virus check is performe
 -   This variable is available in condition builder
 -   For this variable, item variable assignment is not supported in order guide.
 
-![The Attachment variable](../image/AttachmentVariable.png "Attachment variable")
+\[Omitted image "AttachmentVariable.png"\] Alt text: The Attachment variable
 
-**Parent Topic:**[Types of service catalog variables](r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
 
-[Break](break.md)
+[Break]()
 
-[Check box](check-box.md)
+[Check box]()
 
-[Container start, container split, and container end](contain-start-split-end.md)
+[Container start, container split, and container end]()
 
-[Date, Date and time, and Duration](date.md)
+[Date, Date and time, and Duration]()
 
-[Email](email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
 
-[HTML](html.md)
+[HTML]()
 
-[IP Address](ip-address.md)
+[IP Address]()
 
-[Label](label.md)
+[Label]()
 
-[List collector](list-collector.md)
+[List collector]()
 
-[Lookup multiple choice](lookup-multiple-choice.md)
+[Lookup multiple choice]()
 
-[Lookup select box](lookup-select-box.md)
+[Lookup select box]()
 
-[Custom and Custom with label](custom.md)
+[Custom and Custom with label]()
 
-[Masked](masked.md)
+[Masked]()
 
-[Multi-line text](multi-line.md)
+[Multi-line text]()
 
-[Multiple choice](multiple-choice.md)
+[Multiple choice]()
 
-[Numeric scale](numeric-scale.md)
+[Numeric scale]()
 
-[Reference](reference.md)
+[Reference]()
 
-[Requested for](requested-for.md)
+[Requested for]()
 
-[Rich Text Label](rich-text-label.md)
+[Rich Text Label]()
 
-[Select box](select-box.md)
+[Select box]()
 
-[Single-line text](single-line-text.md)
+[Single-line text]()
 
-[UI page](ui-page.md)
+[UI page]()
 
-[URL](url.md)
+[URL]()
 
-[Wide single-line text](wide-single-line-text.md)
+[Wide single-line text]()
 
-[Yes/No](yes-no.md)
+[Yes/No]()
 
-[Variable support in various channels](variables-availability.md)
+[Variable support in various channels]()
 

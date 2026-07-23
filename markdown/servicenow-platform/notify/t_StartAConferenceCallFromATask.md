@@ -2,6 +2,7 @@
 title: Start a conference call from a task
 description: Use Notify to start conference calls from a task record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_StartAConferenceCallFromATask.html
 release: australia
 product: Notify
 classification: notify
@@ -36,12 +37,12 @@ Use **glide.enable.notify\_on\_task** property to enable Notify integration for 
     Any conference call records created from a task are associated with that task. You can view associated conference calls from the task record in the **Conference calls** related list. You may need to configure the form to add the related list.
 
 
-**Parent Topic:**[Using Notify with tasks](../concept/c_NotifyOnTask.md)
+**Parent Topic:**[Using Notify with tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyOnTask.md)
 
 **Related topics**  
 
 
-[Manage conference calls on task](manage-conf-call.md)
+[Manage conference calls on task]()
 
-[Send an SMS alert from a task](t_SendAnSMSFromATask.md)
+[Send an SMS alert from a task]()
 

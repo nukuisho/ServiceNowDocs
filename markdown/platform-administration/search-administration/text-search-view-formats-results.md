@@ -2,6 +2,7 @@
 title: Text search views control format of global search results for tables
 description: The text\_search view for a table determines how global search displays results from that table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/text-search-view-formats-results.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -17,9 +18,9 @@ The text\_search view for a table determines how global search displays results 
 
 Results displayed by global search include multiple elements. For each search result, the system populates these elements with values of fields included in the table's text\_search list view.
 
-![Sample search result listing in Next Experience UI showing title, field list, and description.](../image/search-result-format-polaris-ui.png "Sample search result listing in Next Experience UI")
+\[Omitted image "search-result-format-polaris-ui.png"\] Alt text: Sample search result listing in Next Experience UI showing title, field list, and description.
 
-![Sample search result listing in Core UI showing title, field list, and description.](../image/jakarta-search-result-formatting.png "Sample search result listing in Core UI")
+\[Omitted image "jakarta-search-result-formatting.png"\] Alt text: Sample search result listing in Core UI showing title, field list, and description.
 
 <table id="table_ypr_txk_rz"><thead><tr><th>
 
@@ -72,31 +73,31 @@ Global search uses the first string field in the table's text\_search list view 
 </td></tr></tbody>
 </table>By default, the system uses the text\_search list view for a table to format global text search results for that table. If a text\_search view doesn't exist for the table, the system instead formats search results using the table's default form view. Implementers can specify which view the system uses to format search results by modifying the value of the **glide.ui.text\_search.view** system property.
 
--   **[Default display fields for global search tables](../reference/global-search-default-tables.md)**  
+-   **[Default display fields for global search tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/global-search-default-tables.md)**  
 Multiple tables are enabled for global search in the base system. Each global search table has its own set of fields included in the table's default text\_search list view. The system uses fields from this view to format global search results from these tables.
 
-**Parent Topic:**[Global search finds records from multiple tables](c_GlobalTextSearch.md)
+**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
 
 **Related topics**  
 
 
-[Global search displays a page of matching results](global-search-polaris-ui.md#)
+[Global search displays a page of matching results]()
 
-[Search settings filter and group global search results by table](search-settings-filter-group-table.md#)
+[Search settings filter and group global search results by table]()
 
-[Global search displays exact matching records](exact-matches-global-search.md#)
+[Global search displays exact matching records]()
 
-[Global search displays your most recent search queries and results in Next Experience UI](global-search-recent-queries-results.md)
+[Global search displays your most recent search queries and results in Next Experience UI]()
 
-[Set global text search properties](../task/set-global-text-search-properties.md)
+[Set global text search properties]()
 
-[Set the preview limit for global or workspace search in Next Experience UI](../task/set-app-preview-limit-polaris-ui.md)
+[Set the preview limit for global or workspace search in Next Experience UI]()
 
-[Hide per-table search result counts in Next Experience UI](../task/hide-result-counts-polaris-ui.md)
+[Hide per-table search result counts in Next Experience UI]()
 
-[Add a workspace application to the Unified Navigation search context menu](../task/add-app-search-context-polaris-ui.md)
+[Add a workspace application to the Unified Navigation search context menu]()
 
-[Global text search suggestions](../reference/r_GlobalTextSearchSuggestions.md)
+[Global text search suggestions]()
 
 [Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-delete-view.md)
 

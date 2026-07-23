@@ -2,6 +2,7 @@
 title: Set up Now Assist in the portal case form
 description: Configure the Now Assist in portal case form to minimize case creation when a resolution already exists in the current knowledge base or external sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/set-up-now-assist-in-the-portal-case-form.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -16,7 +17,7 @@ breadcrumb: [Configure, Now Assist for CSM, Customer Service Management]
 
 Configure the Now Assist in portal case form to minimize case creation when a resolution already exists in the current knowledge base or external sources.
 
-Configure Now Assist in portal case form 
+\[Omitted video\] Description: Configure Now Assist in portal case form
 
 ## Before you begin
 
@@ -110,5 +111,5 @@ The Now Assist Case in form portal is now configured and available for use.
 **Related topics**  
 
 
-[Using Now Assist in portal case form](../concept/using-ai-search-with-q-a-within-the-portal-form.md)
+[Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
 

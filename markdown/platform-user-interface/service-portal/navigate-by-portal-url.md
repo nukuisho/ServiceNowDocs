@@ -2,6 +2,7 @@
 title: Page navigation in Service Portal by URL
 description: You can navigate to a portal or a page in Service Portal using a URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/navigate-by-portal-url.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -61,7 +62,7 @@ keywords
 
 Human readable keywords that improve search engine optimization \(SEO\) and click-through rates for public pages. Human readable URLs also help users understand what to expect on a page for public and non-public pages. For example, `https://<instance>/kb/en/faq/what-is-a-cookie?id=kb_article_view&sysparm_article=KB0000007`.
 
- For more information, see [Add human readable keywords to page URLs](../task/add-human-readable-keywords-page-urls.md).
+ For more information, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Additional parameters are required by some pages to load dynamic content by look
 </td></tr></tbody>
 </table>For example, the URL for a public knowledge base page in Spanish in Service Portal could be `https://<instance>/sp/es/faq/what-is-a-cookie?id=kb_article&sys_id=KB0000007`.
 
-**Note:** If you use article versioning with the Knowledge Management - Service Portal \(com.snc.knowledge\_serviceportal\) plugin, you must add the article version number to the URL to open a knowledge article in the base system or knowledge portals. For example, instead of accessing an article using the URL `https://<instance>/sp?id=kb_article&sys_id=KB0000005`, you must include the article version number: `https://<instance>/sp?id=kb_article&sys_id=KB0000005%20V1.0`. To learn more, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md).
+**Note:** If you use article versioning with the Knowledge Management - Service Portal \(com.snc.knowledge\_serviceportal\) plugin, you must add the article version number to the URL to open a knowledge article in the base system or knowledge portals. For example, instead of accessing an article using the URL `https://<instance>/sp?id=kb_article&sys_id=KB0000005`, you must include the article version number: `https://<instance>/sp?id=kb_article&sys_id=KB0000005%20V1.0`. To learn more, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/article-versioning.md).
 
 ## Referencing a page ID
 
@@ -102,10 +103,10 @@ Widgets and widget instance options reference Service Portal pages using the pag
 <div><a href="?id=sc_home">${Order something...}</a></div>
 ```
 
-**Parent Topic:**[Understanding Service Portal](sp-what-to-know.md)
+**Parent Topic:**[Understanding Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-what-to-know.md)
 
 **Related topics**  
 
 
-[Add human readable keywords to page URLs](../task/add-human-readable-keywords-page-urls.md)
+[Add human readable keywords to page URLs]()
 

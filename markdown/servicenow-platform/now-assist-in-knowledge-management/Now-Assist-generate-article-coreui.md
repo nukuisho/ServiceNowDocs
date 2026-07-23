@@ -2,6 +2,7 @@
 title: Generate a Knowledge article from the classic environment with Now Assist
 description: As an author or an agent, generate new Knowledge articles using Now Assist on tasks within the classic environment.As an author, generate new Knowledge articles using Now Assist on tasks within the classic environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-coreui.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -41,16 +42,27 @@ Role required: author or agent
 
 3.  In the Use Al to draft this article? modal, select **Yes, draft with Now Assist**.
 
-    ![Enable Now Assist in the workspace for KB article generation.](../image/now-assist-kb-dialog-box.png)
+    \[Omitted image "now-assist-kb-dialog-box.png"\] Alt text: Enable Now Assist in the workspace for KB article generation.
 
 4.  Select up to five additional relevant cases in the new modal, powered by generative AI, to generate the article and select **Continue with selected tasks**.
 
-    ![Select up to five additional relevant cases in the new modal to generate the article.](../../customer-service-management/image/now-assist-kb--multiple-similar-cases.png)
+    \[Omitted image "now-assist-kb--multiple-similar-cases.png"\] Alt text: Select up to five additional relevant cases in the new modal to generate the article.
 
     The article appears in a new tab with a unique ID number for the article.
 
 
-**Parent Topic:**[Using Now Assist in Knowledge Management](../concept/using-now-assist-in-km.md)
+**Parent Topic:**[Using Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+
+**Related topics**  
+
+
+[Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)
+
+[Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md)
+
+[Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/gen-kb-now-assisthr.md)
+
+[Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/na-fsm-generate-kb-article.md)
 
 ## Generate article in classic environment for authors
 
@@ -70,7 +82,7 @@ Role required: author
 
 4.  In the Search for tasks to draft this article modal, select the up to five task types and enter the keywords or task number to find similar cases.
 
-    ![Use selected tasks to generate article.](../image/NA-KB-coreui-author.png)
+    \[Omitted image "NA-KB-coreui-author.png"\] Alt text: Use selected tasks to generate article.
 
 5.  Select **Use selected tasks to help draft new article** to generate the article.
 

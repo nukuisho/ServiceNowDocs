@@ -2,9 +2,10 @@
 title: Resolve an incident
 description: Help your live agents resolve an incident faster with Now Assist AI agents by using the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/resolve-incident-aia.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Examples of using AI agents, Now Assist AI agents, Enable AI experiences]
 ---
@@ -13,7 +14,7 @@ breadcrumb: [Examples of using AI agents, Now Assist AI agents, Enable AI experi
 
 Help your live agents resolve an incident faster with Now Assist AI agents by using the Now Assist panel.
 
-Description of resolving a request with AI agents and the behind the scenes of how AI agents work 
+\[Omitted video\] Description: Description of resolving a request with AI agents and the behind the scenes of how AI agents work
 
 ## Before you begin
 
@@ -27,7 +28,7 @@ Role required: none
 
     **Note:** You can select the banner and directly go to the conversation on the Now Assist panel to complete the task.
 
-2.  Open the Now Assist panel by using the Now Assist ![Now Assist icon.](../../now-assist-platform/images/wwna-icon.png) icon.
+2.  Open the Now Assist panel by using the Now Assist \[Omitted image "wwna-icon.png"\] Alt text: Now Assist icon. icon.
 
     Now Assist provides the resolution steps for the incident.
 

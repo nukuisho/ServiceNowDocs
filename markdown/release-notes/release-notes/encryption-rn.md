@@ -49,7 +49,7 @@ See [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aus
 
 ## Activation information
 
-Platform Encryption is available with activation of the com.glide.encryption.external\_kms, which requires a separate subscription. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/encryption-sku.md).
+Platform Encryption is available with activation of the com.glide.encryption.external\_kms, which requires a separate subscription. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/encryption-sku.md).
 
 ## Plugin information
 
@@ -59,8 +59,8 @@ Platform Encryption is available with activation of the com.glide.encryption.ext
 
     -   Column Level Encryption \(com.glide.encryption\): Planned for deprecation in the C release. Activate the Field Encryption Starter or Field Encryption Enterprise plugins instead.
     -   Column Level Encryption Enterprise\(com.glide.now.platform.encryption\): Planned for deprecation in July 2031. Activate the Field Encryption Starter or Field Encryption Enterprise instead.
-    -   [Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md) \(com.glide.edgeencryption\): Planned for deprecation in December 2028.Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
-    -   [Edge Encryption Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md) \(com.glide.edgeencryption.core\): Planned for deprecation in December 2028. Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
+    -   [Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_EdgeEncryptionOverview.md) \(com.glide.edgeencryption\): Planned for deprecation in December 2028.Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
+    -   [Edge Encryption Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_EdgeEncryptionOverview.md) \(com.glide.edgeencryption.core\): Planned for deprecation in December 2028. Use Platform Encryption instead. For more information, see the [Edge Encryption End of Renewal \[KB2007685\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article on the Now Support Knowledge Base.
 
-**Parent Topic:**[ServiceNow AI Platform security release notes](now-platform-security-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-security-rn-landing.md)
 

@@ -2,6 +2,7 @@
 title: Use email templates in the mini email composer
 description: Quickly compose emails for common issues by selecting an email template in the record view instead of manually drafting an email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/compose-emails-with-email-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,11 +24,11 @@ Role required: email\_composer
 
 2.  Open the mini email composer by selecting the **Email** tab under the Compose panel.
 
-3.  From the email footer, select the Apply templates icon \(![Apply templates icon](../image/x-apply-templates-icon.png)\).
+3.  From the email footer, select the Apply templates icon \(\[Omitted image "x-apply-templates-icon.png"\] Alt text: Apply templates icon\).
 
     A modal opens with different types of templates.
 
-    ![Apply templates modal](../image/xs2-email-templates-tab.png)
+    \[Omitted image "xs2-email-templates-tab.png"\] Alt text: Apply templates modal
 
 4.  Select the **Email templates** tab.
 

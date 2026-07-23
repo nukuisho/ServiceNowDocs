@@ -2,6 +2,7 @@
 title: Perform actions on nodes in a Dependency Views map
 description: You can view various related items for the nodes in a Dependency Views map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_PerformActionsOnNGBSMMap.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -27,7 +28,7 @@ If the node is a collapsed node or represents a cluster, the incidents, problems
 
 1.  Navigate to **All** &gt; **Dependency Views** &gt; **View Map**.
 
-2.  Click the Node menu icon ![Node menu](../image/DependencyViewDropMenu.png) next to a node or right-click a node on the map to access the following menu items:
+2.  Click the Node menu icon \[Omitted image "DependencyViewDropMenu.png"\] Alt text: Node menu next to a node or right-click a node on the map to access the following menu items:
 
 <table id="table_NodeMenu"><tbody><tr><td>
 
@@ -111,22 +112,22 @@ Starting at the selected icon, loads the next level of the map, past the setting
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Dependency Views](../topic/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 
 
-[View a Dependency Views map](t_AccessNGBSM.md)
+[View a Dependency Views map]()
 
-[Save or load a Dependency Views map](t_SaveLoadMapView.md)
+[Save or load a Dependency Views map]()
 
-[Delete a saved Dependency Views map view](t_DeleteSavedMapView.md)
+[Delete a saved Dependency Views map view]()
 
-[Change the layout of Dependency Views map](t_ChangeLayoutNGBSMMap.md)
+[Change the layout of Dependency Views map]()
 
-[Filter the view of a Dependency Views map](t_FilterViewNGBSMMap.md)
+[Filter the view of a Dependency Views map]()
 
-[Export a Dependency Views map](t_ExportAnNGBSMMap.md)
+[Export a Dependency Views map]()
 
-[View collapsed nodes in a Dependency Views map](t_ViewCollapsedNodesInNGBSM.md)
+[View collapsed nodes in a Dependency Views map]()
 

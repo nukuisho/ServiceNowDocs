@@ -2,6 +2,7 @@
 title: Manage a business contact or related party from an Application
 description: Additional business contacts can be edited or removed by a government service agent before a license or permit case reaches the Process stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-multi-party-remove-business-contact.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,7 +31,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 4.  Navigate to the **Add related parties** activity in the Intake stage of License and Permit Playbook.
 
-5.  Select the delete icon ![delete icon](../image/psds-lpr-trash-icon.png) next to the business contact you want to delete, or the edit icon ![edit icon](../image/edit-icon.png) next to the business contact you want to edit.
+5.  Select the delete icon \[Omitted image "psds-lpr-trash-icon.png"\] Alt text: delete icon next to the business contact you want to delete, or the edit icon \[Omitted image "edit-icon.png"\] Alt text: edit icon next to the business contact you want to edit.
 
 6.  Select **Save** once you’re finished editing the related party information.
 

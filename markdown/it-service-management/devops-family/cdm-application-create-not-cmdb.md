@@ -2,6 +2,7 @@
 title: Create a CDM application that generates a new service in the CMDB
 description: Generate a new service \(an application service, application model, or dynamic CI group \[infrastructure application type\]\) in the CMDB\) and create a CDM application as the container for the config data for the service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-application-create-not-cmdb.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,19 +18,19 @@ Generate a new service \(an application service, application model, or dynamic C
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: CDM Admin \[sn\_cdm.cdm\_admin\]
 
 ## About this task
 
-For the application, you specify the number of deployables to generate and the SDLC environment that the deployables represent. When you upload existing config data into the application, the system maps the data as `[name:value]` pairs \(config data items — CDIs\) in the appropriate node in the data structure of the CDM application. For an overview of the process of preparing a new application to receive config data, see [Preparing an application for config data upload](../concept/cdm-prep-app-for-upload.md).
+For the application, you specify the number of deployables to generate and the SDLC environment that the deployables represent. When you upload existing config data into the application, the system maps the data as `[name:value]` pairs \(config data items — CDIs\) in the appropriate node in the data structure of the CDM application. For an overview of the process of preparing a new application to receive config data, see [Preparing an application for config data upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-prep-app-for-upload.md).
 
 ## Procedure
 
-1.  Select the **Applications** icon \(![Applications icon](../image/icon-applications-nav.png)\) to open the Create new application page and then select **New application**.
+1.  Select the **Applications** icon \(\[Omitted image "icon-applications-nav.png"\] Alt text: Applications icon\) to open the Create new application page and then select **New application**.
 
-    ![Choose how to create the new CDM application](../image/cdm-create-new-app-page.png)
+    \[Omitted image "cdm-create-new-app-page.png"\] Alt text: Choose how to create the new CDM application
 
 2.  On the **Overview** tab for the new CDM application, fill in additional application details that further identify the service in the CDM.
 
@@ -151,15 +152,15 @@ Service in the CMDB that the deployable is associated with. Select a service in 
 </td></tr></tbody>
 </table>6.  Click **Next** to view the list of deployables on the **Edit deployables** tab.
 
-    ![Choose how to create the new CDM application](../image/cdm-edit-deployables-tab.png)
+    \[Omitted image "cdm-edit-deployables-tab.png"\] Alt text: Choose how to create the new CDM application
 
 
 ## What to do next
 
-The application is not yet structured to accept config data, so the next step is to add the data structure. See [Add the nodes that will contain config data to a new CDM application](cdm-data-structure-add-for-upload.md).
+The application is not yet structured to accept config data, so the next step is to add the data structure. See [Add the nodes that will contain config data to a new CDM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-structure-add-for-upload.md).
 
 **Related topics**  
 
 
-[CDM data model](../reference/cdm-data-model.md)
+[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-model.md)
 

@@ -2,6 +2,7 @@
 title: Example denying all runtime access to a table
 description: You can prevent script API and web service calls from other application scopes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ExampleDenyingAllRuntimeAccess.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,11 +25,11 @@ Typically, this is to prevent any other application from creating or modifying d
 |**Can delete**|Disabled|
 |**Allow access to this table via web services**|Disabled|
 
-![Application access settings](../image/DenyingAllRuntimeAccess.png "Limiting runtime access to this application scope only")
+\[Omitted image "DenyingAllRuntimeAccess.png"\] Alt text: Application access settings
 
 The following diagram illustrates the effect of denying other application scopes access to application tables from script API and web service calls.
 
-![Effects of denying all runtime access to application tables](../image/EffectsOfDenyAllRuntimeAccess.png "Deny all runtime access permissions to application tables")
+\[Omitted image "EffectsOfDenyAllRuntimeAccess.png"\] Alt text: Effects of denying all runtime access to application tables
 
-**Parent Topic:**[Runtime access to applications tables](c_RuntimeAccessToAppTables.md)
+**Parent Topic:**[Runtime access to applications tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_RuntimeAccessToAppTables.md)
 

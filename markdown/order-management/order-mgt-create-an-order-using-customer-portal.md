@@ -2,6 +2,7 @@
 title: Create orders from the Business Portal
 description: Browse products in a product catalog and create orders in Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-create-an-order-using-customer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_customerservice.customer
 
 The following illustration describes the process to create orders from the Business Portal:
 
-![Infographic showing how customers can create orders from the Business Portal.](../image/som-self-service-order-checkout.svg "Self-service order checkout process")
+\[Omitted image "som-self-service-order-checkout.svg"\] Alt text: Infographic showing how customers can create orders from the Business Portal.
 
 ## Procedure
 
@@ -43,7 +44,7 @@ The following illustration describes the process to create orders from the Busin
 
 3.  Review the cart contents.
 
-    1.  Select the Cart icon ![](../image/icon-shopping-cart-1.png).
+    1.  Select the Cart icon \[Omitted image "icon-shopping-cart-1.png"\] Alt text:.
 
         The information listed in the following table is displayed.
 
@@ -57,9 +58,9 @@ The following illustration describes the process to create orders from the Busin
         |Cumulative monthly price|Total cost of a product and its child items, if any, over a month.|
         |Cumulative one time price|One-time price of the product and its child items, if any.|
 
-    2.  If you need to modify the quantity or customization for a product in the cart, select the Edit icon ![](../../../reuse/icons/product-icons/pencil-outline-24.svg) and modify the details.
+    2.  If you need to modify the quantity or customization for a product in the cart, select the Edit icon \[Omitted image "pencil-outline-24.svg"\] Alt text: and modify the details.
 
-    3.  If you want to delete an item, select the Delete icon ![](../../../common/image/Form_DeleteIcon.png).
+    3.  If you want to delete an item, select the Delete icon \[Omitted image "Form\_DeleteIcon.png"\] Alt text:.
 
 4.  Add instructions for your order in the **Instructions** field.
 
@@ -75,7 +76,7 @@ The following illustration describes the process to create orders from the Busin
 
         The terms and conditions are fetched from the Sales Cart Terms and Conditions Default document template.
 
-    3.  On the Shipping details page, review the shipping and billing addresses and modify them if necessary by selecting the Edit icon ![](../../../reuse/icons/product-icons/pencil-outline-24.svg).
+    3.  On the Shipping details page, review the shipping and billing addresses and modify them if necessary by selecting the Edit icon \[Omitted image "pencil-outline-24.svg"\] Alt text:.
 
         **Note:** The address that you specify while checking out is only used for that order. It doesn't change your stored address in the seller's system.
 
@@ -91,7 +92,7 @@ The order is created and you're redirected to the Order details page. You can vi
 **Related topics**  
 
 
-[View an order on the Business Portal](order-mgt-view-order-using-customer-portal.md)
+[View an order on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-view-order-using-customer-portal.md)
 
-[Modify terms and conditions for the sales cart](modify-terms-conditions-sales-cart.md)
+[Modify terms and conditions for the sales cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/modify-terms-conditions-sales-cart.md)
 

@@ -2,6 +2,7 @@
 title: Implement instance upgrade activities on a sub-prod instance
 description: Implement the instance upgrade tasks for a successful upgrade on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-implement-instance-upgrade.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -41,7 +42,7 @@ Role required: admin
 
         **Note:** It is recommended to pre-stage your schema changes which accelerates the actual upgrade process. By default, it is scheduled one week prior to the upgrade. During this time, no scheduled upgrade can process. The schema alter process can't start after the scheduled upgrade.
 
-        ![Screenshot showing schema alters](../image/um-pre-stage-schema-alters.png)
+        \[Omitted image "um-pre-stage-schema-alters.png"\] Alt text: Screenshot showing schema alters
 
         You can see the start time of the scheduled schema alters. Select **Reschedule Schema Alters** to update the scheduled time for schema alters.
 
@@ -50,12 +51,12 @@ Role required: admin
 2.  Select **Mark as complete** when the upgrade process completes.
 
 
-**Parent Topic:**[Access guided upgrade on a non-production instance](um-guided-tour-implement.md)
+**Parent Topic:**[Access guided upgrade on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement.md)
 
 **Related topics**  
 
 
-[Implement pre-upgrade activities on a non-prod instance](um-pre-upgrade-activities.md)
+[Implement pre-upgrade activities on a non-prod instance]()
 
-[Implement post-upgrade activities on a non-prod instance](um-post-upgrade-activities.md)
+[Implement post-upgrade activities on a non-prod instance]()
 

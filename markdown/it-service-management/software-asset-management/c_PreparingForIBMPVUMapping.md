@@ -2,13 +2,14 @@
 title: IBM PVU mapping preparation for the legacy IBM PVU Process Pack
 description: Most IBM PVU mapping and license checking for the legacy IBM PVU Process Pack is managed automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_PreparingForIBMPVUMapping.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Legacy IBM PVU Process Pack, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Legacy IBM PVU Process Pack, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # IBM PVU mapping preparation for the legacy IBM PVU Process Pack
@@ -23,7 +24,7 @@ The important fields describing the processor on the configuration item form are
 -   CPU count
 -   CPU core count
 
-![PVU configuration item](../image/PVUConfigurationItem.png "PVU configuration item")
+\[Omitted image "PVUConfigurationItem.png"\] Alt text: PVU configuration item
 
 This CPU data is often added accurately when the CMDB is populated with information. If the fields contain incorrect information, manually edit the fields on the configuration item form.
 
@@ -37,7 +38,7 @@ The mapping between the configuration item form fields and processor definition 
 
 The key field on the Software Model form is **License type**. For any software licenses you want to track with IBM PVU, open the corresponding software model form and select the **Per installation - IBM PVU** license type.
 
-![PVU software model](../image/PVUSoftwareModel.png "PVU software model")
+\[Omitted image "PVUSoftwareModel.png"\] Alt text: PVU software model
 
-**Parent Topic:**[Legacy IBM PVU Process Pack](c_IBMPVUProcessPack.md)
+**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
 

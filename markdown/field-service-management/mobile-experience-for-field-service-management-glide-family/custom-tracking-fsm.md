@@ -2,6 +2,7 @@
 title: Action-based location tracking for Field Service Management example
 description: Make updates to action-based location tracking for more accurate tracking of an agent’s location. That way you can make scheduling adjustments on the fly if you see they’re location is farther away than anticipated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/custom-tracking-fsm.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -17,7 +18,7 @@ Make updates to action-based location tracking for more accurate tracking of an 
 
 ## Before you begin
 
-Configuring action-based location tracking 
+\[Omitted video\] Description: Configuring action-based location tracking
 
 Role required: admin
 
@@ -43,7 +44,7 @@ The wm\_agent role is required for tracking. This must be applied to the agent i
 
 4.  Open the **Location Tracking** tab.
 
-5.  Select the Preview this record icon ![Preview this record](../image/preview-record.png) on the Tracking Properties line.
+5.  Select the Preview this record icon \[Omitted image "preview-record.png"\] Alt text: Preview this record on the Tracking Properties line.
 
 6.  Select **Open Record**.
 

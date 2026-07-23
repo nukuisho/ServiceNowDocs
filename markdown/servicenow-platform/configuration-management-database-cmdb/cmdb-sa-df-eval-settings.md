@@ -2,6 +2,7 @@
 title: Evaluate CMDB settings for Data Foundations
 description: Identify and evaluate settings including CMDB reconciliation rules, CI creation business rules, and CMDB Data Manager policies that support data quality and life cycle management for your principal classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-eval-settings.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -37,15 +38,15 @@ Role required: sn\_cmdb\_admin
 
 5.  Evaluate each setting that requires attention and use the available actions to open the related configuration pages and make updates.
 
-<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d262887e147">
+<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d273009e147">
 
 Action
 
-</th><th align="left" id="d262887e150">
+</th><th align="left" id="d273009e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d262887e156">
+</th></tr></thead><tbody><tr><td id="d273009e156">
 
 **Manage policies**
 
@@ -53,7 +54,7 @@ Description
 
 Opens the Data Manager overview page where you can create or update life cycle policies \(archive, attestation, certification, delete, retire\) for your principal classes.
 
-</td></tr><tr><td id="d262887e165">
+</td></tr><tr><td id="d273009e165">
 
 **Create policy**
 
@@ -61,7 +62,7 @@ Opens the Data Manager overview page where you can create or update life cycle p
 
 Opens the New policy form to create a policy for a principal class. The **Create policy** action is available in the policy summary dialog box displayed after selecting the policy coverage count in the **Classes with active policies** column within the Review Data Manager policies section.
 
-</td></tr><tr><td id="d262887e182">
+</td></tr><tr><td id="d273009e182">
 
 **View attributes**
 
@@ -69,7 +70,7 @@ Opens the New policy form to create a policy for a principal class. The **Create
 
 Opens the CI class attributes list to review and manage custom attributes for your principal classes. Use this action to identify classes with more than 10 active custom attributes.
 
-</td></tr><tr><td id="d262887e191">
+</td></tr><tr><td id="d273009e191">
 
 **Configure property**
 
@@ -77,7 +78,7 @@ Opens the CI class attributes list to review and manage custom attributes for yo
 
 Opens the system property configuration page to enable or disable CI creation from assets using IRE for applicable principal classes.
 
-</td></tr><tr><td id="d262887e201">
+</td></tr><tr><td id="d273009e201">
 
 **CI Class Manager**
 
@@ -88,11 +89,11 @@ Opens CI Class Manager to add the **Managed by group** field to CI classes that 
 </td></tr></tbody>
 </table>    **Tip:** Select **Learn more** next to a setting to open a related help topic in a new browser tab or window with additional details about that setting.
 
-6.  To view any updated configuration status on the **Settings** tab, select the refresh icon ![](../../api-insights/image/refresh-list.png).
+6.  To view any updated configuration status on the **Settings** tab, select the refresh icon \[Omitted image "refresh-list.png"\] Alt text:.
 
 
 **Related topics**  
 
 
-[Administer CMDB Data Manager](../../configuration-management/concept/administer-data-manager.md)
+[Administer CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/administer-data-manager.md)
 

@@ -2,13 +2,14 @@
 title: Add NLU to an existing keyword topic
 description: Create and map an NLU model group and intent for the topic from Assistant Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-nlu-existing-keyword-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Creating a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Creating a Virtual Agent topic, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Add NLU to an existing keyword topic
@@ -17,7 +18,7 @@ Create and map an NLU model group and intent for the topic from Assistant Design
 
 ## Before you begin
 
-[Configure NLU on the instance in Virtual Agent General Settings](configure-nlu-settings.md).
+[Configure NLU on the instance in Virtual Agent General Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -55,7 +56,7 @@ Role required: virtual\_agent\_admin or admin
 
 8.  Select the **NLU Intent** tab, and then add utterances and associate entities with them.
 
-    For more information about adding utterances, see [Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-intent.md). For more information about defining entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/entities.md).
+    For more information about adding utterances, see [Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-nlu-intent.md). For more information about defining entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/entities.md).
 
 9.  Make any other changes on the **Flow** tab, such as associating entities with a node or adding entities as input variables for the topic.
 
@@ -66,5 +67,5 @@ Role required: virtual\_agent\_admin or admin
 
 The modified topic is in the inactive state until you publish it.
 
-**Parent Topic:**[Creating a Virtual Agent topic](create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

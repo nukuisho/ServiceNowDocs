@@ -2,6 +2,7 @@
 title: Create synonym dictionaries
 description: You can create synonym dictionaries to expand Zing text searches with additional search keywords.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/create-synonym-dictionaries.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -55,16 +56,16 @@ By default, the system provides a sample Zing synonym dictionary called **Exampl
     A message indicates that publication of your synonym dictionaries has been scheduled. Refresh the page to see whether publication is complete. The dictionary is published when its state changes from **Draft** to **Published**.
 
 
-**Parent Topic:**[Zing can expand search results with synonyms](../concept/search-synonyms-expand-results.md)
+**Parent Topic:**[Zing can expand search results with synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-synonyms-expand-results.md)
 
 **Related topics**  
 
 
-[Enable search synonyms](enable-text-index-synonyms.md)
+[Enable search synonyms]()
 
-[Select synonym dictionaries for a table](select-synonym-dictionaries.md)
+[Select synonym dictionaries for a table]()
 
-[Disable synonyms for a table](disable-synonyms-for-a-table.md)
+[Disable synonyms for a table]()
 
-[Debug synonym searches](debug-synonym-searches.md)
+[Debug synonym searches]()
 

@@ -2,9 +2,10 @@
 title: Delete an AI agent
 description: Delete an AI agent from AI Agent Studio if you no longer need it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/delete-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---

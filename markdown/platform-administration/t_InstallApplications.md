@@ -2,6 +2,7 @@
 title: Install a ServiceNow Store application
 description: Install an application that you purchased from the ServiceNow Store to make it available on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_InstallApplications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ Legacy Application Manager is being deprecated. Starting with Australia patch 1,
 
 A known issue affects the use of bookmarks to access the Legacy Application Manager before Australia patch 1. For details about possible issues with accessing the Legacy Application Manager, see the [Deprecated Classic App Manager URL usage causes issues on instances running ZP5 / YP10 and above \[KB2804238\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2804238) article in the Now Support knowledge base.
 
-A new Application Manager experience is available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all applications, plugins, installed applications, and available updates. For more information, see [Application Manager](../../../administer/application-manager/concept/application-manager.md).
+A new Application Manager experience is available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all applications, plugins, installed applications, and available updates. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md).
 
 Role required: admin, sn\_appclient.app\_client\_company\_installer \(can only install applications that match the instance company\), or sn\_appclient.app\_client\_user
 
@@ -32,7 +33,7 @@ Role required: admin, sn\_appclient.app\_client\_company\_installer \(can only i
 
 Applications that you purchase from the ServiceNow Store are added to the Application Manager automatically. You must install the application from the Application Manager to activate it in an instance.
 
-To install an application that you published to the ServiceNow application repository, follow the steps in [Install an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/install-app-from-repo.md) instead.
+To install an application that you published to the ServiceNow application repository, follow the steps in [Install an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-app-from-repo.md) instead.
 
 ## Procedure
 
@@ -42,7 +43,7 @@ To install an application that you published to the ServiceNow application repos
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -59,12 +60,12 @@ To install an application that you published to the ServiceNow application repos
 7.  Click **Go to Subscription Management** to map the installed application to a subscription.
 
 
-**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/using-legacy-application-manager.md)
 
 **Related topics**  
 
 
-[Install customizations from an application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/install-customizations-from-app-repo.md)
+[Install customizations from an application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-customizations-from-app-repo.md)
 
-[System-managed developer and deployment roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/delegated_deployment_user_roles.md)
+[System-managed developer and deployment roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated_deployment_user_roles.md)
 

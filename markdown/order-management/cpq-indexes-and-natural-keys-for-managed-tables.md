@@ -2,20 +2,21 @@
 title: Indexes and natural keys for managed tables
 description: Use indexes and natural keys to improve rule engine performance and speed up table lookups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-indexes-and-natural-keys-for-managed-tables.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure the Matrix Loader, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure the Matrix Loader, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Indexes and natural keys for managed tables
 
 Use indexes and natural keys to improve rule engine performance and speed up table lookups.
 
-CPQ supports the integration of natural keys and indexes for faster table lookups and heightened rules engine performance.
+ServiceNow CPQ supports the integration of natural keys and indexes for faster table lookups and heightened rules engine performance.
 
-This enhancement to CPQ's table management system introduces compatibility with up to three natural keys per table and the addition of two indexed columns.
+This enhancement to ServiceNow CPQ's table management system introduces compatibility with up to three natural keys per table and the addition of two indexed columns.
 
 -   A natural key provides a means of unique identification for data in a table.
 -   Indexed columns quickly locate data without having to search every row in the table every time the table is accessed.
@@ -26,21 +27,21 @@ Lookup functions that reference a column in their SELECT clause can benefit from
 
 These features can be added to a column by editing the table schema. \(The schema editor opens automatically when you create a new table.\)
 
-![Tables list](../images/cpq-tables-edit-schema.png)
+\[Omitted image "cpq-tables-edit-schema.png"\] Alt text: Tables list
 
-![Edit table schema screen](../images/cpq-tables-edit-table-schema.png)
+\[Omitted image "cpq-tables-edit-table-schema.png"\] Alt text: Edit table schema screen
 
 Because all natural keys are also indexed, checking the column does not allow the user to also check the Indexed column.
 
-![Column details](../images/cpq-tables-column-options.png)
+\[Omitted image "cpq-tables-column-options.png"\] Alt text: Column details
 
 When the Natural Key column is checked, a keys icon displays in the table.
 
-![Enrichment test](../images/cpq-tables-keys-icon.png)
+\[Omitted image "cpq-tables-keys-icon.png"\] Alt text: Enrichment test
 
 Another icon indicates which columns are indexed.
 
-![columns list](../images/cpq-tables-indexed-column-icon.png)
+\[Omitted image "cpq-tables-indexed-column-icon.png"\] Alt text: columns list
 
 Since natural keys act as unique identifiers in the table, internal validation makes sure that each column in the table is unique.
 
@@ -59,7 +60,7 @@ Some factors associated with natural keys and Indexes might hamper table import.
 **Related topics**  
 
 
-[Minimizing table queries](table_queries.md)
+[Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/table_queries.md)
 
-[The lookup function: commands and syntax](cpq-the-lookup-function-commands-and-syntax.md)
+[The lookup function: commands and syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

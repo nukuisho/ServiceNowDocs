@@ -2,6 +2,7 @@
 title: Components installed with Journey Accelerator
 description: Several types of components install with the activation of the Journey Accelerator application, including user roles and tables. There are also dependencies on other features or apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/components-installed-with-journey-accelerator.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -73,9 +74,9 @@ none
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md).
--   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
--   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+-   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddARoleToAnExistingRole.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 ## Tables installed
 
@@ -94,7 +95,7 @@ none
 |Journey Accelerator Task Template \[sn\_ja\_task\_template\]|Contains details about Journey Accelerator task templates.|
 |Journey Accelerator Task Template for Stage Config \[sn\_ja\_m2m\_stage\_task\_temp\]|Used to maintain the relationship of task templates to Journey Accelerator task templates.|
 
-For more information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
+For more information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md).
 
-**Parent Topic:**[Journey Accelerator reference](ja-reference.md)
+**Parent Topic:**[Journey Accelerator reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-reference.md)
 

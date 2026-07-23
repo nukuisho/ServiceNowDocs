@@ -2,6 +2,7 @@
 title: Working with Event planner
 description: Monitor all the reservations created in your organization from a single workspace. Create a reservation, open a reservation, schedule a reservation to another time or move to another location. Open the Location directory portal from the Event planner home and the Scheduled view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/working-with-event-planner.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -15,39 +16,39 @@ breadcrumb: [Use, Workplace Central, Workplace Service Delivery, Employee Servic
 
 Monitor all the reservations created in your organization from a single workspace. Create a reservation, open a reservation, schedule a reservation to another time or move to another location. Open the Location directory portal from the Event planner home and the Scheduled view.
 
--   **[Track reservations using the Event planner](../task/view-reservation-details-in-the-event-planner.md)**  
+-   **[Track reservations using the Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-reservation-details-in-the-event-planner.md)**  
 As a reservation planner and a reservation viewer, the Event planner enables you to monitor the reservations that are requested in your workplace.
--   **[View reservation details in the event planner](../task/view-a-rsv-in-the-event-planner.md)**  
+-   **[View reservation details in the event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-a-rsv-in-the-event-planner.md)**  
 Check details of a reservation created in your workplace.
--   **[Edit a reservation using the event planner](../task/edit-a-reservation-using-the-event-planner.md)**  
+-   **[Edit a reservation using the event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/edit-a-reservation-using-the-event-planner.md)**  
 As a reservation planner, edit a reservation directly using the event planner.
--   **[Working with schedule view](../task/working-with-schedule-view.md)**  
+-   **[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-view.md)**  
 You can check any reservations created in your workplace and also make changes using the schedule view of the event planner.
--   **[Print reservation details](../task/print-reservation-details.md)**  
+-   **[Print reservation details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/print-reservation-details.md)**  
 Print the details of a reservation created in your workplace.
--   **[Cancel a reservation from the Event planner](../task/cancel-a-reservation-from-the-event-planner.md)**  
+-   **[Cancel a reservation from the Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/cancel-a-reservation-from-the-event-planner.md)**  
 As a reservation planner, the Event planner enables you to cancel a reservation at any time.
--   **[Open and view Location directory from Event Planner](../task/open-location-directory-eventplanner.md)**  
+-   **[Open and view Location directory from Event Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/open-location-directory-eventplanner.md)**  
 Open and view the location directory portal from the Event planner home page and the Scheduled view.
 
-**Parent Topic:**[Use Workplace Central](use-workplace-central.md)
+**Parent Topic:**[Use Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/use-workplace-central.md)
 
 **Related topics**  
 
 
-[Creating custom lists on Workplace Central](creating-custom-lists-wsd.md)
+[Creating custom lists on Workplace Central]()
 
-[Working with Space Planning](working-with-space-planning.md)
+[Working with Space Planning]()
 
-[Working with Space Optimization](working-with-space-optimization.md)
+[Working with Space Optimization]()
 
-[Working with Schedule Planning](working-with-schedule-planning.md)
+[Working with Schedule Planning]()
 
-[Working with Workplace Analytics](working-with-workplace-analytics.md)
+[Working with Workplace Analytics]()
 
-[Working with Move management](working-with-move-management.md)
+[Working with Move management]()
 
-[Working with Case management](working-with-case-management.md)
+[Working with Case management]()
 
-[Working with Kiosk Indoor Mapping](working-kiosk-ind-map.md)
+[Working with Kiosk Indoor Mapping]()
 

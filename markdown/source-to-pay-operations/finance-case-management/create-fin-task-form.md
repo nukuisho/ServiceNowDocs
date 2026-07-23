@@ -2,6 +2,7 @@
 title: Create a finance task form
 description: Use the Create New Finance task form to provide details about the finance task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/create-fin-task-form.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -93,18 +94,18 @@ Description
 Detailed description about the task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Finance Case Management Reference](fin-case-mgmt-reference.md)
+</table>**Parent Topic:**[Finance Case Management Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/fin-case-mgmt-reference.md)
 
 **Related topics**  
 
 
-[Create a finance case form](create-fin-inquiry-form.md)
+[Create a finance case form]()
 
-[Interaction form](details-tab-fin-ops-interaction.md)
+[Interaction form]()
 
-[Create new interaction related record form](create-interaction-related-record-form.md)
+[Create new interaction related record form]()
 
-[Email notifications from Finance Case Management](../concept/email-notifications-fin-case-mgmt.md)
+[Email notifications from Finance Case Management]()
 
-[Create knowledge base article form](create-kb-form.md)
+[Create knowledge base article form]()
 

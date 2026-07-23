@@ -2,6 +2,7 @@
 title: Network topology
 description: The topology in the Telecommunications Network Inventory application graphically displays how the different elements in a network such as equipment, connections, and interfaces are organized and connected to one another. By using a topology, you get a bird's eye view to the network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/visualization-of-topology.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -21,7 +22,7 @@ The network topology is a visual representation of the network elements such as 
 
 The following example shows a topology in the Telecommunications Network Inventory application.
 
-![View of a topology with search box, map pane, details pane, and zoom option.](../image/topology-diaram.png "Network topology")
+\[Omitted image "topology-diaram.png"\] Alt text: View of a topology with search box, map pane, details pane, and zoom option.
 
 You can view the topology in the Network Viewer window in the Telecommunications Network Inventory workspace. The Network Viewer window contains the following:
 
@@ -41,13 +42,13 @@ You can perform the following actions in the map pane:
 
 -   Hover over a node to highlight the connections that are associated with the node.
 -   Select one among the topologies to highlight the elements associated with it.
--   Select the refresh icon \(![Refresh Icon](../image/icon-refresh.png)\) to reload the map and return it to its initial view.
--   Select the fit to screen icon \(![Fit to screen Icon](../../../common/image/icon-fit-to-screen.png)\) to adjust the topology to the size of the map pane.
+-   Select the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh Icon\) to reload the map and return it to its initial view.
+-   Select the fit to screen icon \(\[Omitted image "icon-fit-to-screen.png"\] Alt text: Fit to screen Icon\) to adjust the topology to the size of the map pane.
 -   Use the zoom controls to zoom in and out of the map.
 
 ## Details pane
 
-The details pane shows the related information about the topology, node, or connection that you’re selected. You can select the info icon \(![Info icon](../image/icon-info.png) \) to view the details pane. Initially the details pane shows the related information about the topology record. If you select a node, then the details pane shows the related information about that node. If you select an empty space on the map pane, the details pane shows related information about the topologies that are opened.
+The details pane shows the related information about the topology, node, or connection that you’re selected. You can select the info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon \) to view the details pane. Initially the details pane shows the related information about the topology record. If you select a node, then the details pane shows the related information about that node. If you select an empty space on the map pane, the details pane shows related information about the topologies that are opened.
 
 You can also select **View Details** in the details pane to redirect to the corresponding CI record.
 
@@ -56,15 +57,15 @@ You can also select **View Details** in the details pane to redirect to the corr
 You can access the network topology in the Telecommunications Network Inventory workspace as follows:
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
-2.  Select the network visualization icon \(![Blue Hub Icon.](../image/icon-blue-hub.png)\).
+2.  Select the network visualization icon \(\[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon.\).
 3.  Select the **Topology** tab.
 
-To learn more about how to create and view a topology in the Telecommunications Network Inventory application, see [Network topology](using-network-topology.md).
+To learn more about how to create and view a topology in the Telecommunications Network Inventory application, see [Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md).
 
 **Related topics**  
 
 
-[Data model](uses-for-network-inventory-data.md)
+[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
 
-[Network topology](using-network-topology.md)
+[Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md)
 

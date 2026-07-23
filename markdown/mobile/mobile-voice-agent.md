@@ -2,6 +2,7 @@
 title: Mobile AI Voice Agent
 description: The Mobile AI Voice Agent feature extends ServiceNow's voice agent capabilities to mobile devices, allowing users to receive automated support through natural voice conversations instead of text-based chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-voice-agent.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Exploring Now Assist, Now Assist for Mobile, Mobile Platform]
 
 The Mobile AI Voice Agent feature extends ServiceNow®'s voice agent capabilities to mobile devices, allowing users to receive automated support through natural voice conversations instead of text-based chat.
 
-![image.ai-voice]
+\[Omitted image "ai-voice.png"\] Alt text: Voice Agent asking user for voice input.
 
 The Mobile AI Voice Agent provides two primary interaction models depending on your configuration. When a virtual agent is configured, users access the voice agent through a wave icon that launches the Virtual Agent interface with voice capabilities.
 

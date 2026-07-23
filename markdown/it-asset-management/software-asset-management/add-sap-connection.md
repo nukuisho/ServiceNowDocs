@@ -2,13 +2,14 @@
 title: Establish an SAP connection using basic authentication
 description: After you have deployed the Advanced Business Application Programming \(ABAP\) program in your SAP system, create a connection profile to establish a connection between your SAP system and your ServiceNow instance using basic authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/add-sap-connection.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Establish an SAP connection using basic authentication
@@ -17,7 +18,7 @@ After you have deployed the Advanced Business Application Programming \(ABAP\) p
 
 ## Before you begin
 
-Before establishing a connection between SAP and your ServiceNow instance, check if your SAP system network is accessible to external applications like ServiceNow. If external connections are blocked, you can install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
+Before establishing a connection between SAP and your ServiceNow instance, check if your SAP system network is accessible to external applications like ServiceNow. If external connections are blocked, you can install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md).
 
 If you already have a MID Server installed in the network and connected to your ServiceNow instance, this SAP connection automatically uses it.
 
@@ -61,7 +62,7 @@ Connection type
 
 Values include:-   Basic Auth
 -   OAuth 2.0
-**Important:** The Basic Auth authentication method is planned for deprecation by SAP. You should use the OAuth 2.0 authentication for a secure and compliant integration. For more information, see [Establish an SAP connection using OAuth 2.0](add-sap-connection-oauth.md).
+**Important:** The Basic Auth authentication method is planned for deprecation by SAP. You should use the OAuth 2.0 authentication for a secure and compliant integration. For more information, see [Establish an SAP connection using OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-sap-connection-oauth.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,9 @@ WSDL
 
 </td><td>
 
-Web Service Description Language \(WSDL\) URL from the SOA manager that includes an IP address that is used to connect to the SAP system.**Note:** Don’t change the SAP WSDL name. The WSDL service definition name must be /NOW/SAMP and the service binding name must be NOW\_SAMP. The only WSDL name that can be changed is the WSDL generation name.
+Web Service Description Language \(WSDL\) URL from the SOA manager that includes an IP address that is used to connect to the SAP system.This is same value that you generated in the [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-wsdl-sap-service.md) procedure.
+
+**Note:** Don’t change the SAP WSDL name. The WSDL service definition name must be /NOW/SAMP and the service binding name must be NOW\_SAMP. The only WSDL name that can be changed is the WSDL generation name.
 
 </td></tr><tr><td>
 
@@ -264,38 +267,38 @@ Controls the data pull from SAP for user transaction activity data.
 
 You can start creating software models and entitlements.
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](../concept/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
 
-[Tables installed with the SAP publisher pack](../concept/component-installed-sap-plugin.md)
+[Tables installed with the SAP publisher pack]()
 
-[Deploy the ABAP program for SAP](import-abap-program-sap.md)
+[Set up SAP integration to establish a connection with SAP]()
 
-[Establish an SAP connection using OAuth 2.0](add-sap-connection-oauth.md)
+[Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP](create-entitlement-sap.md)
+[Create entitlements for SAP]()
 
-[Create software models for SAP](add-software-model-sap.md)
+[Create software models for SAP]()
 
-[Create a custom SAP named user type](create-named-user.md)
+[Create a custom SAP named user type]()
 
-[Map a role to a named user type](create-named-user-type-role-mapping.md)
+[Map a role to a named user type]()
 
-[Create custom SAP price lists](create-sap-pricelist.md)
+[Create custom SAP price lists]()
 
-[Import custom SAP named user types](import-custom-sap-named-user-type.md)
+[Import custom SAP named user types]()
 
-[Import custom SAP price lists](import-custom-sap-price-list.md)
+[Import custom SAP price lists]()
 
-[SAP USMM-based optimization](../concept/usmm-optimization.md)
+[SAP USMM-based optimization]()
 
-[User transaction activity for named user types](../concept/sap-named-user-transaction-activity.md)
+[User transaction activity for named user types]()
 
-[Self-declaring SAP engine license usage](../concept/self-declaring-sap-engine-usage.md)
+[Self-declaring SAP engine license usage]()
 
-[Software Publisher Analytics dashboard for SAP in Software Asset Management classic](../reference/dashboard-sap.md)
+[Software Publisher Analytics dashboard for SAP in Software Asset Management classic]()
 
-[Publisher overview for SAP in the Software Asset Workspace](../reference/publisher-overview-sap.md)
+[Publisher overview for SAP in the Software Asset Workspace]()
 

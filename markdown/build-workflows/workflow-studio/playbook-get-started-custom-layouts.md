@@ -2,6 +2,7 @@
 title: Customize a playbook in UI Builder
 description: Use UI Builder pages and modular components for custom playbook layouts to customize the end user's Playbook Experience in a configurable workspace, Service Portal page, or mobile web page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-get-started-custom-layouts.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -17,14 +18,14 @@ Use UI Builder pages and modular components for custom playbook layouts to custo
 
 ## Before you begin
 
--   If you don't have a playbook to apply custom layouts to, build a playbook. To learn more, see [Building Playbooks](../../process-automation-designer/concept/building-a-process.md).
+-   If you don't have a playbook to apply custom layouts to, build a playbook. To learn more, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md).
 -   Install the latest version of the Playbook Experience and Playbook Experience Component apps from the ServiceNow Store. See [Playbook Experience apps](https://store.servicenow.com/sn_appstore_store.do#!/store/product/e4cecaf0db2be81079279ee4db9619f2).
 
 Role required: ui\_builder\_admin, admin
 
 ## About this task
 
-After creating a UI Builder page, you can customize Playbook Experience pages to your needs. Page templates include controllers that can be used with component presets, including the playbook templates. See [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/controllers.md) for more information.
+After creating a UI Builder page, you can customize Playbook Experience pages to your needs. Page templates include controllers that can be used with component presets, including the playbook templates. See  for more information.
 
 ## Procedure
 
@@ -32,18 +33,18 @@ After creating a UI Builder page, you can customize Playbook Experience pages to
 
 2.  Open the **UI Builder** experience that you want to work in, or create a new experience.
 
-    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see[Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md)
+    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see Configure how users interact with your applications in UI Builder
 
 3.  In your **UI Builder** experience, you can:
 
-    -   [Create a page from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md),
-    -   [create a page from a **Standard record** template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md),
+    -   Create a page from scratch,
+    -   create a page from a **Standard record** template,
     -   or create a page from a Playbook Experience template.
     Using a Playbook Experience template speeds up the development process, because the Playbook Custom Layout UI Controller and components are already added to every page, including record generators as of version 25.2. The controller automatically populates all the provided components with data.
 
     **Note:** You can still create and add custom components when you use a template.
 
-    ![Select a playbook template.](../image/playbook-select-template.png)
+    \[Omitted image "playbook-templates.png"\] Alt text: Customizable Playbook templates in UI Builder.
 
 4.  If you're using a Playbook Experience template, **Create** your page.
 
@@ -157,7 +158,7 @@ Conditions that determine when the page variant is shown.
 
 5.  If you used the **Standard record** template or created your page from scratch, add the Playbook Custom Layout UI Controller to the page.
 
-    1.  From the bottom corner of your new page, select the data icon \(![Data icon.](../image/playbook-data-resource-icon.png)\)
+    1.  From the bottom corner of your new page, select the data icon \(\[Omitted image "playbook-data-resource-icon.png"\] Alt text: Data icon.\)
 
     2.  Select **+ Add**.
 
@@ -175,7 +176,7 @@ Conditions that determine when the page variant is shown.
 
     2.  Make sure the **sysID** test value is set to **-1**, and select **Apply**.
 
-        ![Test values for your playbook experience, with the table and sysID.](../image/playbook-sysID-update.png)
+        \[Omitted image "playbook-sysID-update.png"\] Alt text: Test values for your playbook experience, with the table and sysID.
 
         A record generator form is available when you open the preview. You should be able to test the record generator form and confirm that new records are created.
 
@@ -276,11 +277,11 @@ Optional context ID of selected activity for deep linking
 
     11. Select the preset for this component from the Playbook Custom Layout UI Controller, and click **Save** in the upper right corner.
 
-        ![Choose a preset for the component.](../image/playbook-stage-picker.png)
+        \[Omitted image "playbook-stage-picker.png"\] Alt text: Choose a preset for the component.
 
         A confirmation message is displayed, and the component inputs and events under the **Events** tab in the stage picker panel is auto-populated.
 
-        ![Component configuration.](../image/playbook-stage-picker-confirm.png)
+        \[Omitted image "playbook-stage-picker-confirm.png"\] Alt text: Component configuration.
 
     12. To add the **Playbook Activity Viewer**, find your **Resizable panes**component in the component tree, and select **+ Add component** under **right**.
 
@@ -302,5 +303,5 @@ Optional context ID of selected activity for deep linking
 **Related topics**  
 
 
-[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)
 

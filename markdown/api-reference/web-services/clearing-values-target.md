@@ -2,6 +2,7 @@
 title: Clear values from a target instance
 description: You can pass an empty value through a SOAP parameter to clear the respective value in the target instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/clearing-values-target.html
 release: australia
 product: Web Services
 classification: web-services
@@ -33,20 +34,20 @@ In the above example,
 -   `<assignment_group>value</assignment_group>` changes the value in the **Assignment group** field to the value specified in the SOAP request.
 -   `<category></category>` clears the value in the **Category** field.
 
-**Parent Topic:**[Direct web services](c_DirectWebServices.md)
+**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md)
 
 **Related topics**  
 
 
-[Use forms to limit or extend the query response](using-forms-limit-extend-query-resp.md)
+[Use forms to limit or extend the query response]()
 
-[Return the display value for reference variables](return-display-reference-variables.md)
+[Return the display value for reference variables]()
 
-[Retrieve journal entries using direct web services](retrieving-journal-entries.md)
+[Retrieve journal entries using direct web services]()
 
-[Retrieve choice fields using direct web services](retrieving-choice-fields-direct-ws.md)
+[Retrieve choice fields using direct web services]()
 
-[Persist an HTTP session across all SOAP calls](persist-session-all-soap-calls.md)
+[Persist an HTTP session across all SOAP calls]()
 
-[SOAP direct web service API functions](../../web-services-apis/reference/r_DirectWebServiceAPIFunctions.md)
+[SOAP direct web service API functions]()
 

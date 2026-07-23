@@ -2,6 +2,7 @@
 title: Using Guided Tours in Document Templates
 description: Use Guided Tours in Document Templates to get instructions on how to create a document template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/guided-tours-doc-temp.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Role required: sn\_doc.admin or sn\_doc.writer
 
 ## About this task
 
-Guided Tours help train and onboard users within the workspace. Each tour is designed to provide an overview, guide you through a task, or complete a process. If needed, administrators can create more tours. For more information, see [Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tours.md).
+Guided Tours help train and onboard users within the workspace. Each tour is designed to provide an overview, guide you through a task, or complete a process. If needed, administrators can create more tours. For more information, see [Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-tours.md).
 
 When you visit a page that has a guided tour for the first time, a welcome screen appears. You can choose to either begin the tour or skip the tour. The tour can be revisited from the Help Center menu.
 
@@ -35,9 +36,9 @@ When you visit a page that has a guided tour for the first time, a welcome scree
 
     -   **HTML Document Template**
     -   **PDF Document Template**
-4.  Select the **Show help** icon \(![Show help icon](../../wsd-indoor-mapping/images/help_question_mark_icon.png)\).​
+4.  Select the **Show help** icon \(\[Omitted image "help\_question\_mark\_icon.png"\] Alt text: Show help icon\).​
 
-5.  Select the **Pin Help Center menu** icon ![Pin Help Center menu](../image/pol-nav-pin.png) to pin the Help Center side panel on the page.
+5.  Select the **Pin Help Center menu** icon \[Omitted image "pol-nav-pin.png"\] Alt text: Pin Help Center menu to pin the Help Center side panel on the page.
 
 6.  Select **Take a Tour**​.
 
@@ -48,14 +49,14 @@ When you visit a page that has a guided tour for the first time, a welcome scree
 8.  Select **Done** after the tour is ended​.
 
 
-**Parent Topic:**[Using Document Templates](../concept/using-doc-templates.md)
+**Parent Topic:**[Using Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-doc-templates.md)
 
 **Related topics**  
 
 
-[Using Document Templates: HR Service Delivery](../concept/understanding-doc-templates.md)
+[Using Document Templates: HR Service Delivery]()
 
-[Using Document Templates: Custom use case](doc-temp-gen.md)
+[Using Document Templates: Custom use case]()
 
-[Working on a document task](work-doctemp-tasks.md)
+[Working on a document task]()
 

@@ -2,6 +2,7 @@
 title: Follow a record in Connect
 description: You can follow a record in Connect Chat to track activity as it happens, in a familiar chat interface. When you follow a record, you become a member of a record conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_StartARecordConversation.html
 release: australia
 product: Connect
 classification: connect
@@ -37,7 +38,7 @@ Any record conversation you create in Connect becomes a record feed in Live Feed
 
 2.  Do one of the following actions.
 
-<table id="choicetable_dbk_2s2_wt"><tbody><tr><td id="d450799e94">
+<table id="choicetable_dbk_2s2_wt"><tbody><tr><td id="d464116e94">
 
 **Follow the record**
 
@@ -47,7 +48,7 @@ In the form header, click **Follow**.
 
  The system adds you as a member of the record conversation, but does not open the conversation. You can open the conversation from the Connect sidebar.
 
-</td></tr><tr><td id="d450799e112">
+</td></tr><tr><td id="d464116e112">
 
 **Follow the record and open a chat mini window**
 
@@ -57,7 +58,7 @@ In the form header, click **Follow**.
 2.  Select **Open Connect Mini**.
  The system adds you as a member of the record conversation and opens it in a Connect mini window.
 
-</td></tr><tr><td id="d450799e139">
+</td></tr><tr><td id="d464116e139">
 
 **Follow the record and open the Connect workspace**
 
@@ -74,7 +75,7 @@ In the form header, click **Follow**.
 
     Any comments or work notes added to the record appear in the record conversation. Likewise, comments and work notes you add to the conversation appear on the record.
 
-    1.  In the record conversation, by the text entry field, click the message type icon \(![Message type icon](../image/IconMessageType.png)\).
+    1.  In the record conversation, by the text entry field, click the message type icon \(\[Omitted image "IconMessageType.png"\] Alt text: Message type icon\).
 
     2.  Select **Comment** or **Work Note**.
 
@@ -87,10 +88,10 @@ In the form header, click **Follow**.
 
 ## What to do next
 
-[Edit your notification settings](t_EditNotifRecAConv.md) for the record conversation.
+[Edit your notification settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_EditNotifRecAConv.md) for the record conversation.
 
 **Related topics**  
 
 
-[Live Feed Core UI](../../live-feed/concept/c_GetStartedWithLiveFeed.md)
+[Live Feed Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_GetStartedWithLiveFeed.md)
 

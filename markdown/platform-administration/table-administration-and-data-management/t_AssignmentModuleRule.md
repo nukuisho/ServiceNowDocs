@@ -2,6 +2,7 @@
 title: Create an assignment rule
 description: Automatically assign a record according to one or more conditions in an assignment rule. Assignment rules are designed to run at the time you open a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_AssignmentModuleRule.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -139,24 +140,24 @@ The order in which the assignment rule is processed. If assignment rules conflic
 
 In this example, the condition statement automatically assigns any incident opened in the Network category to the system administrator in the Network assignment group.
 
-![Applies To](../image/Assignment.png "Applies To")
+\[Omitted image "Assignment.png"\] Alt text: Applies To
 
-![Assign To](../image/assignment-assign-to.png "Assign To")
+\[Omitted image "assignment-assign-to.png"\] Alt text: Assign To
 
-**Parent Topic:**[Defining assignment rules](../concept/c_DefineAssignmentRules.md)
+**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
 
 **Related topics**  
 
 
-[Assignment rules module](../concept/c_AssignmentRulesModule.md)
+[Assignment rules module]()
 
-[Data lookup rules](../concept/c_DataLookupRules.md)
+[Data lookup rules]()
 
-[Precedence between data lookup, assignment, and business rules](../concept/c_PrecBetweenAssignmentAndBusRules.md)
+[Precedence between data lookup, assignment, and business rules]()
 
-[Workflow assignments](../concept/c_WorkflowAssignments.md)
+[Workflow assignments]()
 
-[Baseline assignment rules example](../reference/r_BaselineAssignmentRulesExample.md)
+[Baseline assignment rules example]()
 
-[Create an assignment data lookup rule](t_DataLookupRule.md)
+[Create an assignment data lookup rule]()
 

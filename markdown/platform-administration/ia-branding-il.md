@@ -2,18 +2,19 @@
 title: Branding
 description: Build the theme and experiences to reflect your brand's values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-branding-il.html
 release: australia
 topic_type: reference
 last_updated: "2025-12-04"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Branding
 
 Build the theme and experiences to reflect your brand's values.
 
-![Image showing the Branding page](../image/ia-branding.png)
+\[Omitted image "ia-branding.png"\] Alt text: Image showing the Branding page
 
 You can see the following information on the Branding page:
 
@@ -23,5 +24,5 @@ You can see the following information on the Branding page:
 
 See [Branding and theming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migration-branding-theming.md) for more information.
 
-**Parent Topic:**[Platform module configuration in Now Assist for Setup](ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

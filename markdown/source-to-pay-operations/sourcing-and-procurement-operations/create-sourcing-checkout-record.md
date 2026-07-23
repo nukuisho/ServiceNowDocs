@@ -2,13 +2,14 @@
 title: Create sourcing checkout record
 description: Create a custom checkout to use for sourcing requests for a specific product, product model, or product category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-sourcing-checkout-record.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Sourcing checkout, Setting up primary data Shopping, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing checkout, Set up master data, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create sourcing checkout record
@@ -67,14 +68,14 @@ Utilize record producers to create a custom set of questions to ask Shoppers dur
 8.  Select **Review and Submit**.
 
 
-**Parent Topic:**[Sourcing checkout](../concept/sourcing-checkout.md)
+**Parent Topic:**[Sourcing checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-checkout.md)
 
 **Related topics**  
 
 
-[Configure sourcing checkout](configure-sourcing-checkout.md)
+[Configure sourcing checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-sourcing-checkout.md)
 
-[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
+[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md)
 
-[Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md)
+[Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md)
 

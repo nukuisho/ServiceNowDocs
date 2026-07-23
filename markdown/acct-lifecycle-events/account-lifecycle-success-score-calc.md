@@ -2,11 +2,12 @@
 title: Measure success rate
 description: Measure and track the effectiveness and completion of success objectives and outcomes within a project or engagement with success scores and success rates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-score-calc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a success blueprint, Create a success blueprint template, Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Measure success rate
@@ -18,7 +19,7 @@ Measure and track the effectiveness and completion of success objectives and out
 When a success outcome has been completed, you can close the record, update the status, and verify the values in the success outcome template.
 
 1.  Navigate to the `Success blueprint` tab on the Engagement page.
-2.  Select an objective and then select the ![](../../../reuse/icons/product-icons/open-link-right-outline-24.svg) icon to drill down to the Success Objective page.
+2.  Select an objective and then select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the Success Objective page.
 3.  Select a Success outcome from the list and select **Edit** to drill down to the Success Outcome page.
 4.  Update the State field to `Closed`.
 5.  Select the Closure code from the drop down list:
@@ -49,5 +50,5 @@ The success objective template rate is the average of the scores of all the asso
 
 In this case, the success score or the average is 60%.
 
-**Parent Topic:**[Create a success blueprint](../task/account-lifecycle-create-blueprint.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

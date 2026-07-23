@@ -2,13 +2,14 @@
 title: Generate insights for a goal in Strategic Planning Workspace using Now Assist for SPM
 description: Review AI-generated insights to identify at-risk goals, assess forecasted statuses, and act on recommendations before goals fall off track.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-insights-for-goal.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
 # Generate insights for a goal in Strategic Planning Workspace using Now Assist for SPM
@@ -17,7 +18,7 @@ Review AI-generated insights to identify at-risk goals, assess forecasted status
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_apw\_advanced.spw\_goal\_user and \(sn\_align\_core.apw\_user or sn\_gf.goal\_admin\)
 
@@ -33,7 +34,7 @@ The skill analyzes the real-time data — including check-in patterns, comments,
 
 **Note:** Only the owner or contributors of the goal can generate insights for the goal.
 
-![Generate goal insights in Strategic Planning Workspace using Goal insights skill.](../images/generate-goal-insights.gif)
+\[Omitted image "generate-goal-insights.gif"\] Alt text: Generate goal insights in Strategic Planning Workspace using Goal insights skill.
 
 **Note:** If the Goal insights generation job is enabled, it automatically generates insights for each goal based on the job's run frequency. Before manually regenerating, check the timestamp on the goal insights summary card to confirm when insights were last generated — regenerating unnecessarily increases token consumption. You can also view the last generated insights in the **AI rationale** column of the goal list. If goal or target data has changed since the last run, select the refresh icon on the goal insights summary card to regenerate the insights.
 
@@ -54,12 +55,12 @@ The skill analyzes the real-time data — including check-in patterns, comments,
 5.  Review AI-generated insights to identify risk, assess forecasted statuses, and act on recommendations before goals fall off track.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
 **Related topics**  
 
 
-[Update the progress of an automated target](../../spw-goals/task/update-progress-of-target-agf-apw.md)
+[Update the progress of an automated target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-progress-of-target-agf-apw.md)
 
-[Update the progress of a manual target](../../spw-goals/task/update-progress-of-target-egm.md)
+[Update the progress of a manual target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-progress-of-target-egm.md)
 

@@ -2,6 +2,7 @@
 title: Set in-office days
 description: As an employee, using the Workplace Service Portal and the Employee Center, you can set your presence at the office.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/set-in-office-days.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -23,15 +24,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the employee presence dashboard from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d762957e57">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d777441e57">
 
 Location
 
-</th><th align="left" id="d762957e60">
+</th><th align="left" id="d777441e60">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d762957e66">
+</th></tr></thead><tbody><tr><td id="d777441e66">
 
 **Workplace Service Portal**
 
@@ -51,7 +52,7 @@ The portal homepage opens.
 3.  Select **Employee Presence**.
 
 
-</td></tr><tr><td id="d762957e136">
+</td></tr><tr><td id="d777441e136">
 
 **Employee Center**
 
@@ -77,25 +78,25 @@ The portal homepage opens.
 
 5.  You can also add a co-worker as your collaborator and view on what days they’re present in the office.
 
-    For more information, refer to [Add a collaborator](add-a-collaborator.md).
+    For more information, refer to [Add a collaborator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/add-a-collaborator.md).
 
 
 ## Result
 
-You have set your in-office days. At any time, you can modify your selection, for more information, refer to [Update your in-office days](update-your-in-office-days.md).
+You have set your in-office days. At any time, you can modify your selection, for more information, refer to [Update your in-office days](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/update-your-in-office-days.md).
 
-**Parent Topic:**[Set Employee Presence](../concept/use-workplace-concierge.md)
+**Parent Topic:**[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 
 **Related topics**  
 
 
-[Add a collaborator](add-a-collaborator.md)
+[Add a collaborator]()
 
-[Update your in-office days](update-your-in-office-days.md)
+[Update your in-office days]()
 
-[Remove a collaborator](remove-a-collaborator.md)
+[Remove a collaborator]()
 
-[Update your in-office days as exceptions](update-in-office-days-exceptions.md)
+[Update your in-office days as exceptions]()
 
-[Managing presence privacy settings](../concept/manage-presence-privacy-settings.md#)
+[Managing presence privacy settings]()
 

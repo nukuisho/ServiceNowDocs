@@ -2,6 +2,7 @@
 title: Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill
 description: If you have the sn\_nowassist\_admin.nsa\_admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/cust-now-assist-spo-skill.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
 keywords: [Now Assist for SPO skills, Customize a Now Assist for Sourcing and Procurement Operations skill]
-breadcrumb: [Configure, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Configure, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill
@@ -32,15 +33,15 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 3.  Create a copy of a skill and customize the input fields.
 
-    1.  On the skills card that you want to copy, select the More actions icon \(![More actions icon.](../image/more_vertical_icon.png)\)..
+    1.  On the skills card that you want to copy, select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\)..
 
-    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(![More actions icon.](../image/more_vertical_icon.png)\), and then select **Make copy**.
+    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\), and then select **Make copy**.
 
         The copied skill opens and a guided setup leads you through the configuration of the general details, input, prompt, availability, display, review, and activation of the customized skill. If you complete the entire walk-through, the skill is activated.
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](../reference/input-triggers-now-assist-spo.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md).
 
     1.  Enter a name and description for the skill.
 
@@ -58,7 +59,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         Add multiple base input fields, as necessary.
 
-        ![Choose input screen.](../image/na-choose-input-spo.png "Choose input step")
+        \[Omitted image "na-choose-input-spo.png"\] Alt text: Choose input screen.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -173,7 +174,7 @@ Requester SR closed
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
+            Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).
 
             **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
@@ -194,10 +195,12 @@ Requester SR closed
     -   Sourcing event
     -   Purchase order
 
-**Parent Topic:**[Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](configure-now-assist-for-spo.md)
+**Parent Topic:**[Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
 **Related topics**  
 
 
-[Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](../reference/input-triggers-now-assist-spo.md)
+[Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)]()
+
+[Activate the Spend categorization agent]()
 

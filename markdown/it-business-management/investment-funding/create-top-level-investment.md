@@ -2,6 +2,7 @@
 title: Create a top-level investment
 description: Create a top-level investment for the investment entity record for which you want to receive and allocate funds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/create-top-level-investment.html
 release: australia
 product: Investment Funding
 classification: investment-funding
@@ -21,13 +22,13 @@ Role required: sn\_invst\_pln\_v2.investment\_planner
 
 ## About this task
 
-A top-level investment does not have a source investment or source investment entity. Once created, a top-level investment cannot be converted to a normal investment later.
+A top-level investment does not have a source investment or source investment entity. Once created, a top-level investment can't be converted to a normal investment later.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Investment Funding** &gt; **Top level Investments**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -78,16 +79,16 @@ Top investment
 Option that indicates that this is a top-level investment. This setting cannot be changed.
 
 </td></tr></tbody>
-</table>4.  Click **Create**.
+</table>4.  Select **Create**.
 
 
 ## What to do next
 
--   [Fund a top-level investment](add-fund-top-investment.md) to meet the business goals.
--   [Create a business case](add-business-case.md) to define the business need of the investment.
+-   [Fund a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/add-fund-top-investment.md) to meet the business goals.
+-   [Create a business case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/add-business-case.md) to define the business need of the investment.
 
--   **[Fund a top-level investment](add-fund-top-investment.md)**  
+-   **[Fund a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/add-fund-top-investment.md)**  
 Allocate funds to a top-level investment so that the investment owner can distribute funds further.
 
-**Parent Topic:**[Investment Funding](../concept/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
 

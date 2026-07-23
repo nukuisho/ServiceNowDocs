@@ -12,8 +12,6 @@ reading_time_minutes: 1
 
 Create a sample flow with a trigger and base system actions that requires an approval.
 
-Introduction to spokes, setting up an application, granting access, creating a flow, setting up an ATF test, and publishing the flow.
-
 Watch this 3:34-minute video for an introduction to using Workflow Studio.
 
 ## Before you begin
@@ -72,5 +70,5 @@ To understand basic flows, create an expense approval flow. This flow:
 
 ## What to do next
 
-Transform the Ask for Approval action into a reusable action using Workflow Studio. Actions enable flow designers to add complex actions to multiple flows with minimal configuration. See [Getting started with actions](getting-started-action.md).
+Transform the Ask for Approval action into a reusable action using Workflow Studio. Actions enable flow designers to add complex actions to multiple flows with minimal configuration. See [Getting started with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-action.md).
 

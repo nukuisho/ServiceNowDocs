@@ -2,13 +2,14 @@
 title: View RSS Feeds
 description: A threat intelligence feed is a real-time, continuous data stream that gathers information related to cyber risks or threats. RSS Feeds provides an easy way to stay up to date with your favorite security blogs or latest cyber security news.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/define-rss-feeds.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-26"
 reading_time_minutes: 7
-breadcrumb: [TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # View RSS Feeds
@@ -182,38 +183,38 @@ Use the **Related Records** section to view the detailed information about objec
 
 **Related Records Actions:**
 
-Use **Link** and **Unlink** to associate or remove associations between existing records without creating records. For more information, see [Link Threat Intel Related Records](link-threat-intel-releated-records.md).
+Use **Link** and **Unlink** to associate or remove associations between existing records without creating records. For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
 
-**Parent Topic:**[TISC Library Repository](../concept/tisc-ioc.md)
+**Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ioc.md)
 
 **Related topics**  
 
 
-[Observables](../concept/observables.md)
+[Observables]()
 
-[Indicators](../concept/indicator.md)
+[Indicators]()
 
-[Threat Entities](../concept/tisc-threat-entities.md)
+[Threat Entities]()
 
-[Other Objects](../concept/tisc-other-objects.md)
+[Other Objects]()
 
-[Vulnerability Artifacts](../concept/vulnerability.md)
+[Vulnerability Artifacts]()
 
-[Working with Reports in TISC](../concept/tisc-reports-lib-view.md)
+[Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository](../concept/tisc-mitre-att-ck-framework-overview.md)
+[MITRE-ATT&amp;CK Repository]()
 
-[Relationships Objects](../concept/relationship-objects.md)
+[Relationships Objects]()
 
-[Potential Relationships](../concept/potential-relationships.md)
+[Potential Relationships]()
 
-[Vulnerability relationship mapping](../concept/tisc-vul-relationship-map.md)
+[Vulnerability relationship mapping]()
 
-[Define Vulnerability](define-vulnerability.md)
+[Define Vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-vulnerability.md)
 
-[Create a CWE record](tisc-create-cwe-record.md)
+[Create a CWE record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-cwe-record.md)
 
-[Create a Product](tisc-create-product.md)
+[Create a Product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-product.md)
 
-[Create Remediations](tisc-create-remediation-record.md)
+[Create Remediations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-remediation-record.md)
 

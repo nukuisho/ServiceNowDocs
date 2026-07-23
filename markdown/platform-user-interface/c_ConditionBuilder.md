@@ -2,6 +2,7 @@
 title: Condition builder
 description: A condition builder constructs a condition statement with a series of contextually generated fields. Condition builders are used in many operations, such as creating filters, administering surveys, and administering access control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_ConditionBuilder.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ A condition consists of three parts:
 
 The conditions display lists in Core UI as a breadcrumb, summarizing what you have selected.
 
-![Condition builder breadcrumb list in Core UI.](../image/condition-builder-breadcrumb.png)
+\[Omitted image "condition-builder-breadcrumb.png"\] Alt text: Condition builder breadcrumb list in Core UI.
 
 **Note:** The condition builder breadcrumb in Core UI list view can be truncated depending on the values of two system properties:
 
@@ -36,27 +37,27 @@ For more information, see [KB1962280](https://support.servicenow.com/kb?id=kb_ar
 
 You can add a dependent condition by clicking **AND** or **OR** next to the condition. You can add a top-level condition by clicking **AND** or **OR** on the condition builder toolbar in addition to the conditions. You can remove a condition by clicking the delete icon \(X\) next to the condition.
 
-![Example AND condition.](../image/ExampleConditionActiveIsTrueAndCallerIsNotEmpty.png "Example AND condition in filter")
+\[Omitted image "ExampleConditionActiveIsTrueAndCallerIsNotEmpty.png"\] Alt text: Example AND condition.
 
 For an example of a scripted filter see the KB article [Creating dynamic JavaScript filters in reports](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0746219).
 
--   **[Filtering on empty fields](../task/t_FilteringOnEmptyFields.md)**  
+-   **[Filtering on empty fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_FilteringOnEmptyFields.md)**  
 Most filter operations do not return empty fields in their result set. You can create a filter that displays records with an empty field value in addition to records that match the initial filter conditions.
--   **[Values for date/time fields](c_ValuesForDateTimeFields.md#)**  
+-   **[Values for date/time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ValuesForDateTimeFields.md)**  
 When you filter on fields of type date/time, such as the **Created** field on any task record, several time-related options are available, such as **Today**, **This week**, **Last 3 months**, and so on.
--   **[Comparing field values](../../../administer/navigation-and-ui/reference/r_ComparingFieldValues.md)**  
+-   **[Comparing field values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_ComparingFieldValues.md)**  
 Field comparison allows users to evaluate equality between fields on the same table or on related tables by using operators in the condition builder.
 
-**Parent Topic:**[Create a condition statement using the condition builder](../task/create-cond-state-using-cond-build.md)
+**Parent Topic:**[Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md)
 
 **Related topics**  
 
 
-[Operators available for filters and queries](../reference/r_OpAvailableFiltersQueries.md)
+[Operators available for filters and queries]()
 
-[OR conditions](../../using-lists/concept/c_UsingORConditions.md)
+[OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingORConditions.md)
 
-[Filters](../../using-lists/concept/c_Filters.md)
+[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md)
 
-[Dot-walking to data in related tables](../../navigation/concept/c_DotWalking.md)
+[Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md)
 

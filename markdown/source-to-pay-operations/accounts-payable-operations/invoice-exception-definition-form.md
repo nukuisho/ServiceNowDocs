@@ -1,19 +1,21 @@
 ---
 title: Invoice exception definition form
-description: Use the Invoice exception definition form to provide details about the new invoice exception definition.
+description: Field descriptions for the Invoice exception definition form used to create and configure invoice exception definitions in Accounts Payable Invoice Processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-exception-definition-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice exception]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice exception definition form
 
-Use the Invoice exception definition form to provide details about the new invoice exception definition.
+Field descriptions for the Invoice exception definition form used to create and configure invoice exception definitions in Accounts Payable Invoice Processing.
 
 <table id="table_acw_lsh_ywb"><thead><tr><th>
 
@@ -106,38 +108,38 @@ Subflow
 Subflow that is run to determine if the exception exists for a given invoice.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Accounts Payable Operations reference](acc-pay-reference.md)
+</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 
 
-[Accounts Payable Operations properties](acc-pay-properties.md)
+[Accounts Payable Operations properties]()
 
-[Create New Invoice Line form](create-invoice-line-form.md)
+[Create New Invoice Line form]()
 
-[Create invoice cost allocation form](create-invoice-cost-allocation-form.md)
+[Create invoice cost allocation form]()
 
-[Outbound cost allocation staging table](outbound-cost-allocation-table.md)
+[Outbound cost allocation staging table]()
 
-[Distribution set form](distribution-set-form.md)
+[Distribution set form]()
 
-[Create New Invoice case form](create-new-ap-case-form.md)
+[Create New Invoice case form]()
 
-[Create New Invoice task form](create-apm-task-form.md)
+[Create New Invoice task form]()
 
-[Invoice processing case form](invoice-processing-case-form.md)
+[Invoice processing case form]()
 
-[Tax lines](create-tax-lines-apo.md)
+[Tax lines]()
 
-[Invoice exception form](exception-form-fields.md)
+[Invoice exception form]()
 
-[Request Help form](ur-request-help-form.md)
+[Request Help form]()
 
-[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+[Data required for invoice processing]()
 
-[Approval Rule form](new-approval-rule-form.md)
+[Approval Rule form]()
 
-[Approval Plan form](approval-plan-form.md)
+[Approval Plan form]()
 
-[Accounts Payable Operations glossary](../concept/apo-glossary.md#)
+[Accounts Payable Operations glossary]()
 

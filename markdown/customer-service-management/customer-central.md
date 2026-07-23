@@ -2,6 +2,7 @@
 title: Customer Central
 description: Customer Central provides customer service agents with all the information about the customer in one central place. It enables them to quickly zoom in on the customer issues and provide efficient and supportive service to their customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-central.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,19 +16,19 @@ Customer Central provides customer service agents with all the information about
 
 Customer service agents or location agents can view customer central on the interaction, case, account, contact, or consumer records in CSM Configurable Workspace in the form of two views: Customer Information and Customer History.
 
-Starting with the Yokohama release, the [Customer History component](customer-central.md#section_i2b_kpt_ydc) displays customer activity information on some record pages in CSM Configurable Workspace.
+Starting with the Yokohama release, the [Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md) displays customer activity information on some record pages in CSM Configurable Workspace.
 
 ## Customer Information view
 
 The Customer Information view displays key information about the customer and a view of all recent customer touch points with the service organization. It contains a number of predefined lists, records, reports, and report groups that are highly configurable, or you can create your own. You can also configure the number of days to display the data for.
 
-![Customer Information tab displaying customer contact information and recent engagements with the customer, including chat interactions, high priority, and recent cases and phone calls.](../image/customer-information.jpg)
+\[Omitted image "customer-information.jpg"\] Alt text: Customer Information tab displaying customer contact information and recent engagements with the customer, including chat interactions, high priority, and recent cases and phone calls.
 
 ## Customer History view
 
-The Customer History view displays all the recent customer touch points with the service organization in the form of an activity feed. If the [Enable facets check box](customer-history-component-features.md) is selected in UI Builder, facets appear on the left-hand side. Otherwise, a filter icon is displayed. The data in the activity feed is displayed based on the facet or filter you select. It contains a number of predefined categories and activities that are highly configurable, or you can create your own. You can also select a date range to display the data for.
+The Customer History view displays all the recent customer touch points with the service organization in the form of an activity feed. If the [Enable facets check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-history-component-features.md) is selected in UI Builder, facets appear on the left-hand side. Otherwise, a filter icon is displayed. The data in the activity feed is displayed based on the facet or filter you select. It contains a number of predefined categories and activities that are highly configurable, or you can create your own. You can also select a date range to display the data for.
 
-![Customer History tab listing different categories of customer engagement activities and the activity feed details for a selected facet.](../image/customer-activity.png)
+\[Omitted image "customer-activity.png"\] Alt text: Customer History tab listing different categories of customer engagement activities and the activity feed details for a selected facet.
 
 ## Chat summarization
 
@@ -42,22 +43,22 @@ This feature has the following dependencies:
 
 When these plugins are not installed or the chat summary is unavailable, agents can see the entire conversation transcript to access the chat history.
 
-![Chat summary of conversation between the agent and customer is displayed in the activity feed of the Customer History tab.](../image/customer-activity-chat-summary.png)
+\[Omitted image "customer-activity-chat-summary.png"\] Alt text: Chat summary of conversation between the agent and customer is displayed in the activity feed of the Customer History tab.
 
 ## Customer History component
 
 The Customer History component displays customer, consumer, or account history information, depending on the field selections on the interaction record. This component displays the information previously displayed in the Customer Activity tab.
 
-![Customer History component with search bar, filter, and facets](../image/cust-central-history-component.png)
+\[Omitted image "cust-central-history-component.png"\] Alt text: Customer History component with search bar, filter, and facets
 
 The Customer History component includes the Customer tab. This tab displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab includes a search field, filter, and date range selector that agents can use to find specific information in the history.
 
 The Customer History component is available on the following record pages in CSM Configurable Workspace:
 
--   [Front-line case page](csm-front-line-case-page.md): Appears in the contextual side panel.
--   [CSM voice interaction record page](csm-native-voice-record-page.md): Appears in the left pane.
+-   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md): Appears in the contextual side panel.
+-   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md): Appears in the left pane.
 
-Users with the system administrator role can add this component to a record page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) and [configure the component properties](customer-central-configuration.md).
+Users with the system administrator role can add this component to a record page in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) and [configure the component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central-configuration.md).
 
 The Customer History component can be configured to display a **Call Transcript** tab. This tab displays the text of the live call transcript when a conversation record is present for the interaction.
 
@@ -70,8 +71,8 @@ The Call transcript tab is visible to users if configured in the provider applic
 
 For more information about the Customer history component, see the following topics:
 
--   [Customer History component features](customer-history-component-features.md)
--   [Configuring the Customer History component](customer-central-configuration.md)
+-   [Customer History component features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-history-component-features.md)
+-   [Configuring the Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central-configuration.md)
 -   [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades)
 
 ## Customer Central plugin
@@ -82,12 +83,12 @@ Starting with the Yokohama release, the Customer Central application \(com.sn\_c
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 **Related topics**  
 
 
-[Configure Customer Central](../task/configure-customer-central.md)
+[Configure Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-central.md)
 
-[Use Customer Central](../task/use-customer-central.md)
+[Use Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-customer-central.md)
 

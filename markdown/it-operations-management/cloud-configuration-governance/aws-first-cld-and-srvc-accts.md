@@ -2,6 +2,7 @@
 title: Set up a cloud account and service account for AWS
 description: A service account is a secure record on your instance that stores the credential and access information for your provider account. Discovery uses the information to access your provider account to get data on each resource in each specified datacenter. A cloud account is the logical representation in Cloud Provisioning and Governance of all or part of your managed cloud infrastructure. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -26,7 +27,7 @@ Role required: none
 
 When you finish the Day-1 setup process, your cloud account might look like this:
 
-![Structure of a cloud account on Day 1](../image/cloud-acct-day-1.png "Structure of a cloud account on Day 1")
+\[Omitted image "cloud-acct-day-1.png"\] Alt text: Structure of a cloud account on Day 1
 
 ## Procedure
 
@@ -67,7 +68,7 @@ Account ID
 
 12-digit user account number. Expand the list under the AWS account name on the AWS Management Console to view the number.**Important:** In the **Account ID** field, remove the hyphen characters \(-\) from the number.
 
- ![Determine the IAM user account number to fill in the Account ID field](../image/aws-account-id.png "IAM user account number")
+ \[Omitted image "aws-account-id.png"\] Alt text: Determine the IAM user account number to fill in the Account ID field
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ Discovery credentials
 
 The credentials needed for ServiceNow applications to access this account. You may configure this field at a later stage, while configuring access to AWS accounts.
 
- -   If you [configured AWS credentials at ServiceNow AI Platform](../../it-operations-management/task/aws-create-creds-cloud-mgt.md) , select the magnifying glass icon, and then select the name of the relevant AWS credential.
+ -   If you [configured AWS credentials at ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-creds-cloud-mgt.md) , select the magnifying glass icon, and then select the name of the relevant AWS credential.
 -   To use other AWS accounts to access this account, leave the field blank. For example, you don't need to specify the AWS credentials for accounts assuming IAM roles or member accounts using their management account for access.
 
 
@@ -131,7 +132,7 @@ Is master account
 
 Management account flag.It appears when you select **AWS datacenter** from the Datacenter Type drop-down. Select the check box to associate the AWS service account with the management account. Select this check box only for accounts that you previously configured in the AWS Management Console as management accounts with some member accounts belonging to them. See the [AWS documentation](https://aws.amazon.com/documentation/) for information on AWS Organizations.
 
-**Note:** You will need to setup the correct permission in AWS or the Organization role for a standard credential. For more information, see [Control AWS access and permissions using policies](../../it-operations-management/task/aws-create-user-policy-cloud-mgt.md).
+**Note:** You will need to setup the correct permission in AWS or the Organization role for a standard credential. For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 
 </td></tr><tr><td>
 
@@ -158,8 +159,8 @@ Name of the trusted account. Configure this field only for accounts that don't u
 
     The following lists appear:
 
-    -   **Resources**: Cloud resources for the current datacenter. Run Discovery to populate the CMDB for the datacenter and populate the tab. See [Discover all datacenters in a service account on-demand](disco-datacntrs-in-srv-acct-1.md).
-    -   **Capacity Limits**: Limits on virtual CPUs, virtual networks, storage volume size, and other services. See [Set capacity limits on user requests for resources](set-capacity-limits-cloud-mgt-1.md).
+    -   **Resources**: Cloud resources for the current datacenter. Run Discovery to populate the CMDB for the datacenter and populate the tab. See [Discover all datacenters in a service account on-demand]().
+    -   **Capacity Limits**: Limits on virtual CPUs, virtual networks, storage volume size, and other services. See [Set capacity limits on user requests for resources]().
     -   **Discovery Log**: The process creates a log record for each action associated with a discovery status.
 
 ## What to do next
@@ -170,7 +171,7 @@ Name of the trusted account. Configure this field only for accounts that don't u
 **Related topics**  
 
 
-[Set up an additional cloud account](add-cloud-account-cloud-mgt.md)
+[Set up an additional cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-cloud-account-cloud-mgt.md)
 
-[Add an AWS service account to the cloud account](aws-add-service-account-cloud-mgt.md)
+[Add an AWS service account to the cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/aws-add-service-account-cloud-mgt.md)
 

@@ -2,6 +2,7 @@
 title: Create a custom knowledge homepage
 description: As a system administrator, you can create a module allowing users to open a knowledge homepage for a specific knowledge base or category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_CreateACustomKnowledgeHomepage.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -21,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-**Note:** This topic creates a legacy v3 knowledge homepage. You can create a portal homepage and configure it to get a new look and feel. For information, see [Configure the Knowledge Management Service Portal](../concept/knowledge-management-service-portal.md).
+**Note:** This topic creates a legacy v3 knowledge homepage. You can create a portal homepage and configure it to get a new look and feel. For information, see [Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management-service-portal.md).
 
 ## Procedure
 
-1.  In the application navigator, point to the application name and click the edit application icon \(![Edit Application icon](../image/edit-app.png)\).
+1.  In the application navigator, point to the application name and click the edit application icon .
 
 2.  In the **Modules** related list click **New**.
 
@@ -35,7 +36,7 @@ Role required: admin
 
 5.  In the **Arguments** field, append one or more of the following values to `$knowledge.do#/search?`.
 
-<table id="choicetable_c4x_2q1_5r"><tbody><tr><td id="d436831e121">
+<table id="choicetable_c4x_2q1_5r"><tbody><tr><td id="d450023e115">
 
 **sysparm\_kb=&lt;knowledge base sys\_id&gt;**
 
@@ -45,7 +46,7 @@ Enter the sys\_id of a knowledge base to show knowledge articles from that knowl
 
  If the specified knowledge base does not exist, the default knowledge homepage appears when accessing the custom homepage module.
 
-</td></tr><tr><td id="d436831e136">
+</td></tr><tr><td id="d450023e130">
 
 **sysparm\_category=&lt;knowledge category sys\_id&gt;**
 
@@ -57,7 +58,7 @@ Enter the sys\_id of a knowledge category to show knowledge articles from that c
 
 **Note:** The category passed in this parameter must belong to the knowledge base passed in the **sysparm\_kb** parameter.
 
-</td></tr><tr><td id="d436831e156">
+</td></tr><tr><td id="d450023e150">
 
 **sysparm\_order=&lt;view\_count, last\_modified, or relevancy&gt;**
 
@@ -69,12 +70,14 @@ Enter the default sort order for articles to appear in.
 </table>
 ## Example
 
-**Parent Topic:**[Configuring Knowledge Management](../concept/configuring-knowledge-management.md)
+To create a homepage for a Facilities knowledge base with a **sys\_id** of d582764047022100158b949b6c9a7145 and sorting by last modified date, enter `$knowledge.do#/search?sysparm_kb=d582764047022100158b949b6c9a7145&sysparm_order=last_modified` in the **Arguments** field on the Module form.
+
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 
 **Related topics**  
 
 
-[Configuring Knowledge Management](../concept/configuring-knowledge-management.md)
+[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 
-[I18N - Knowledge internationalization](../concept/c_I18NKMInternational.md)
+[I18N - Knowledge internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_I18NKMInternational.md)
 

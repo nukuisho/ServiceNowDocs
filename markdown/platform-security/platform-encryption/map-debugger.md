@@ -2,6 +2,7 @@
 title: Module access policy debugger
 description: Use the module access policy debugger to review logging information and understand why your users are or aren’t granted access to an encryption context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/map-debugger.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -19,7 +20,7 @@ Module access policies \(MAPs\) define instance-level controls for access to cry
 
 This flowchart shows how your instance evaluates requests for access to a cryptographic module.
 
-![Flowchart showing the how access to cryptographic modules are evaluated](../image/map-eval-flowchart.png)
+\[Omitted image "map-eval-flowchart.png"\] Alt text: Flowchart showing the how access to cryptographic modules are evaluated
 
 ## Control access to the debug logs
 
@@ -35,9 +36,9 @@ When you’re finished debugging, you can disable the logging messages by naviga
 
 After enabling debugging, navigate to a page that triggers a MAP evaluation to view the MAP debug logs. Debug messages appear at the bottom of the page.
 
-**Tip:** You can use impersonation to troubleshoot access for other users. For details on impersonation, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md). To view the debug logs from the perspective of another user, make sure that your module access policies with the **role** type have the **Impersonation** field set as **true**.
+**Tip:** You can use impersonation to troubleshoot access for other users. For details on impersonation, see [Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ImpersonateAUser.md). To view the debug logs from the perspective of another user, make sure that your module access policies with the **role** type have the **Impersonation** field set as **true**.
 
-![Example debug output](../image/map-debug-logging-1.png)
+\[Omitted image "map-debug-logging-1.png"\] Alt text: Example debug output
 
 In this example, a caller invokes two access requests to the `global.fuji` cryptographic module. A symmetric encryption, which is granted, and a symmetric decryption, which was denied.
 
@@ -53,42 +54,42 @@ Each line starts with an icon that indicates its message type.
 
 |Icon|Message type|
 |----|------------|
-|![Informational icon](../image/map-vis-icon-1.png)|Informational message|
-|![MAP grant access icon](../image/map-vis-icon-2.png)|Module access policy grants access|
-|![MAP deny access icon](../image/map-vis-icon-3.png)|Module access policy denies access|
-|![Caller grant access icon](../image/map-vis-icon-4.png)|Caller is granted access|
-|![Caller deny access icon](../image/map-vis-icon-5.png)|Caller is denied access|
-|![No MAP icon](../image/map-vis-icon-6.png)|No module access policy to evaluate|
+|\[Omitted image "map-vis-icon-1.png"\] Alt text: Informational icon|Informational message|
+|\[Omitted image "map-vis-icon-2.png"\] Alt text: MAP grant access icon|Module access policy grants access|
+|\[Omitted image "map-vis-icon-3.png"\] Alt text: MAP deny access icon|Module access policy denies access|
+|\[Omitted image "map-vis-icon-4.png"\] Alt text: Caller grant access icon|Caller is granted access|
+|\[Omitted image "map-vis-icon-5.png"\] Alt text: Caller deny access icon|Caller is denied access|
+|\[Omitted image "map-vis-icon-6.png"\] Alt text: No MAP icon|No module access policy to evaluate|
 
 ## Debug log examples
 
 -   **Access granted message**
 
-    ![Debugging output for granted access](../image/map-vis-example-1.png)
+    \[Omitted image "map-vis-example-1.png"\] Alt text: Debugging output for granted access
 
 -   **Access denied message**
 
-    ![Debugging output for denied access](../image/map-vis-example-2.png)
+    \[Omitted image "map-vis-example-2.png"\] Alt text: Debugging output for denied access
 
 -   **Access denied \(No module access policies to evaluate**
 
-    ![Debugging output for denied access due to no MAP policies](../image/map-vis-example-3.png)
+    \[Omitted image "map-vis-example-3.png"\] Alt text: Debugging output for denied access due to no MAP policies
 
 -   **Access denied \(insufficient privileges\)**
 
-    ![Debugging output for denied access due to insufficient privileges](../image/map-vis-example-4.png)
+    \[Omitted image "map-vis-example-4.png"\] Alt text: Debugging output for denied access due to insufficient privileges
 
 
-**Parent Topic:**[Key Management Framework Reference](understanding-kmf.md)
+**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md)
 
 **Related topics**  
 
 
-[Key Management Framework key life-cycle states](../reference/key-life-cycle-states.md)
+[Key Management Framework key life-cycle states]()
 
-[Roles installed with Key Management Framework](../reference/kmf-roles.md#)
+[Roles installed with Key Management Framework]()
 
-[Module access policy visualization](map-vis-concept.md)
+[Module access policy visualization]()
 
-[Encryption and Key Management subscription bundle](../../encryption/reference/encryption-sku.md)
+[Encryption and Key Management subscription bundle]()
 

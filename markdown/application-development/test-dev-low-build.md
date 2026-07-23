@@ -2,6 +2,7 @@
 title: Build apps with low-code and no-code tools
 description: Use the ServiceNow platform to build apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-low-build.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,15 +16,15 @@ Use the ServiceNow platform to build apps.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Creator Studio![](../image/icon-aes.png) Build request-fulfill apps with no coding experience required.](../../creator-studio/concept/creator-studio-landing.md)
+[Creator Studio\[Omitted image "icon-aes.png"\] Build request-fulfill apps with no coding experience required.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-landing.md)
 
 </td><td>
 
-[AES ![](../image/icon-aes.png) Build apps in a structured environment for fast development and deployment.](../../app-engine-studio/concept/aes-overview.md)
+[AES \[Omitted image "icon-aes.png"\] Build apps in a structured environment for fast development and deployment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md)
 
 </td><td>
 
-[Mobile App Builder ![](../image/icon-mobile-app-builder.png) Build ServiceNow mobile applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md)
+[Mobile App Builder \[Omitted image "icon-mobile-app-builder.png"\] Build ServiceNow mobile applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Data types for assessments
 description: Metric data types have functions that depend on the method that you select.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_DataTypes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -49,7 +50,7 @@ Assessment
 
 On questionnaires, users select a check box next to a statement or leave it cleared.
 
-![Check box](../../survey-administration/image/CheckboxDataType.png "Check box")
+\[Omitted image "CheckboxDataType.png"\] Alt text: Check box
 
  Set the **Scale definition** field to **High** if a selected check box equates to a good score.
 
@@ -63,7 +64,7 @@ Assessment
 
 </td><td>
 
-On questionnaires, users select a value from a list of custom answer options. Create a metric definition for each answer option.![Choice](../images/ChoiceDataType.png "Choice")
+On questionnaires, users select a value from a list of custom answer options. Create a metric definition for each answer option.\[Omitted image "ChoiceDataType.png"\] Alt text: Choice
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Assessment
 
 </td><td>
 
-On questionnaires, users select a date.![Date](../images/DateDataType.png "Date")
+On questionnaires, users select a date.\[Omitted image "DateDataType.png"\] Alt text: Date
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Assessment
 
 </td><td>
 
-On questionnaires, users select a date and time.![Date/Time](../images/DateTimeDataType.png "Date/Time")
+On questionnaires, users select a date and time.\[Omitted image "DateTimeDataType.png"\] Alt text: Date/Time
 
 </td></tr><tr><td>
 
@@ -113,7 +114,7 @@ Assessment
 
 On questionnaires, users select a value from a custom scale of answer options. Create a metric definition for each answer option, which is represented by a radio button on the scale. A Likert scale metric that evaluates an application's ease of use might have the metric definitions **Easy**, **Average**, and **Difficult**.If you want to reuse a series of answer options for multiple metrics, create a metric template and use the Template data type instead of the Likert Scale data type.
 
-![Likert Scale](../images/LikertScaleDataType.png "Likert Scale")
+\[Omitted image "LikertScaleDataType.png"\] Alt text: Likert Scale
 
 </td></tr><tr><td>
 
@@ -125,9 +126,9 @@ Assessment, Script
 
 </td><td>
 
-**Assessment**: On questionnaires, users enter a number. ![Number](../images/NumberAssessmentDataType.png "Number")
+**Assessment**: On questionnaires, users enter a number. \[Omitted image "NumberAssessmentDataType.png"\] Alt text: Number
 
- **Script**: When the script runs, the system populates the **Actual value** and **Scaled value** fields on the [Metric Result](../task/t_ViewAMetricResult.md) form with the appropriate values from the *actual\_result* and *scaled\_result* variables in the metric script.
+ **Script**: When the script runs, the system populates the **Actual value** and **Scaled value** fields on the [Metric Result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAMetricResult.md) form with the appropriate values from the *actual\_result* and *scaled\_result* variables in the metric script.
 
 </td></tr><tr><td>
 
@@ -141,7 +142,7 @@ Assessment, Script
 
 **Assessment** On questionnaires, users enter a number.
 
-![Percentage](../images/PercentageAssessmentDataType.png "Percentage")
+\[Omitted image "PercentageAssessmentDataType.png"\] Alt text: Percentage
 
  **Script** When the script runs, the system populates the **Actual value** and **Scaled value** fields on the Metric Result form with the appropriate values from the *actual\_result* and *scaled\_result* variables in the metric script.
 
@@ -157,11 +158,11 @@ Assessment
 
 On questionnaires, users enter text. The size of the string field depends on the String option you select:
 
-![String](../../survey-administration/image/StringSingleLineDataType.png "String")
+\[Omitted image "StringSingleLineDataType.png"\] Alt text: String
 
- ![String single line wide data type](../../survey-administration/image/StringSingleLineWideDataType.png "String single line wide data type")
+ \[Omitted image "StringSingleLineWideDataType.png"\] Alt text: String single line wide data type
 
- ![Additional comments](../../survey-administration/image/StringMultilineDataType.png "Additional comments")
+ \[Omitted image "StringMultilineDataType.png"\] Alt text: Additional comments
 
 </td></tr><tr><td>
 
@@ -187,19 +188,19 @@ Assessment
 
 On questionnaires, users select **Yes** or **No** from a list.
 
- ![Yes/No](../images/YesNoDataType.png "Yes/No")
+ \[Omitted image "YesNoDataType.png"\] Alt text: Yes/No
 
  Set the **Scale definition** field to **High** if selecting **Yes** equates to a better score.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assessments reference](assessment-reference.md)
+</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessment-reference.md)
 
 **Related topics**  
 
 
-[Assessment metrics](../concept/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
 
-[Create an assessment metric definition](../task/t_CreateAMetricDefinition.md)
+[Create an assessment metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetricDefinition.md)
 
-[Update a metric minimum and maximum value to match a template](../task/t_UpdAMetrMinMaxValToMatchATmplate.md)
+[Update a metric minimum and maximum value to match a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_UpdAMetrMinMaxValToMatchATmplate.md)
 

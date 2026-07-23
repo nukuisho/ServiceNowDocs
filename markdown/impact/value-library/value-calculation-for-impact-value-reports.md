@@ -2,22 +2,23 @@
 title: Value calculation for Impact Value Reports
 description: You can use value calculation for measurable business impact and track value using metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/value-library/value-calculation-for-impact-value-reports.html
 release: australia
 product: Value Library
 classification: value-library
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Value reports, Value management, Using Impact, Impact]
+breadcrumb: [Track your business ROI, Value management, Using Impact, Impact]
 ---
 
 # Value calculation for Impact Value Reports
 
 You can use value calculation for measurable business impact and track value using metrics.
 
-Value calculation translates operational performance into measurable business impact—typically in monetary terms. Each business objective is linked to specific outcomes tracked through defined metrics. These metrics include a baseline \(reference\), goal, and current quarterly values.
+Value calculation translates operational performance into measurable business impact typically in monetary terms. Each business objective is linked to specific outcomes tracked through defined metrics. These metrics include a baseline \(reference\), goal, and current quarterly values.
 
-## Tracking your progress
+## Track your progress
 
 Business objectives are your high-level business goals. To help measure your achievement toward that goal, each objective is connected to several measurable outcomes. The outcomes are in turn tied to metrics that record your progress from quarter to quarter.
 

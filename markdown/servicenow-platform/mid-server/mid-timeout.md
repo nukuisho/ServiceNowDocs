@@ -2,6 +2,7 @@
 title: MID Server Governance
 description: Improve MID Server security by setting an automatic timeout to invalidate and shut down inactive MID Servers. You can enable this feature and set the inactivity timeout period globally and for each MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-timeout.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -57,36 +58,36 @@ The auto-invalidated state of a MID Server can be cleared by selecting the **Cle
 
 The purpose is a text field that the customer can update at any point to indicate the intended usage for the MID Server. This field is purely descriptive and has no further interactions.
 
-**Parent Topic:**[Securing and encrypting MID Server data](mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[MID Server certificate check policies](mid-security-checks.md)
+[MID Server certificate check policies]()
 
-[Encrypt or decrypt MID Server configuration file values](../task/mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server authentication credentials and SOAP requests](mid-authentication-soap-requests.md#)
+[MID Server authentication credentials and SOAP requests]()
 
-[MID Server unified key store](mid-unified-keystore.md#)
+[MID Server unified key store]()
 
-[Enable MID Server mutual authentication](../task/install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication]()
 
-[MID Server Azure Key Vault integration](../task/mid-azure-key-vault-integration.md#)
+[MID Server Azure Key Vault integration]()
 
-[MID Server command audit log](mid-audit-log.md)
+[MID Server command audit log]()
 
-[Rekey a MID Server](../task/t_RekeyAMIDServer.md)
+[Rekey a MID Server]()
 
-[Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#)
+[Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server](../task/mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
+[MID Server SSH cryptographic algorithms]()
 
-[Attach a script file to a file synchronized MID Server](../task/mid-server-script-attach.md#)
+[Attach a script file to a file synchronized MID Server]()
 
-[MID Server FIPS Enforced Mode](mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 

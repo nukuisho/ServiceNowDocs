@@ -2,11 +2,12 @@
 title: Attachment quarantine policies
 description: Manage policies that automatically isolate suspicious attachments for security review and analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/attachment-quarantine-policies.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Real time protection, Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -15,9 +16,11 @@ breadcrumb: [Real time protection, Data privacy, Data Privacy, Platform Privacy]
 
 Manage policies that automatically isolate suspicious attachments for security review and analysis.
 
-## About this task
+## Before you begin
 
 Role required: data\_privacy\_admin and admin
+
+## About this task
 
 To create attachment quarantine policies, perform the following procedure:
 
@@ -66,7 +69,7 @@ View scan findings
 
 </td><td>
 
-View the findings specific to the quarantine scan policy, including links to flagged attachments and their status.**Note:** To work with the findings themselves, including the release of quarantined attachments, refer to [Attachment scan findings](../task/attachment-findings.md).
+View the findings specific to the quarantine scan policy, including links to flagged attachments and their status.**Note:** To work with the findings themselves, including the release of quarantined attachments, refer to [Attachment scan findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/attachment-findings.md).
 
 </td></tr><tr><td>
 
@@ -77,4 +80,8 @@ View policy details
 View the configuration of the attachment quarantine policy. You can also toggle the **Active** button to turn the policy on or off.
 
 </td></tr></tbody>
-</table>
+</table>**Important:** Currently, two known limitations exist for quarantined attachments:
+
+-   Hyperlinks for quarantined attachments may still be clicked by users. In this case, the attachment will not download, and the user will a receive a message that the file contains sensitive data.
+-   In the Workspace UI, users may still be able to click quarantined attachments in the Activity Stream of the record.
+

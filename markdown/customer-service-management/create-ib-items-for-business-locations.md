@@ -2,6 +2,7 @@
 title: Create and manage install base items for a business location
 description: As a staff member with the location agent role, create and manage install base items for your business locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-ib-items-for-business-locations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,5 +49,5 @@ Staff members with the sn\_customerservice\_manager role, create install base it
 **Related topics**  
 
 
-[Create an install base item](create-install-base-item.md)
+[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-install-base-item.md)
 

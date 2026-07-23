@@ -2,6 +2,7 @@
 title: Test a Windows Management Instrumentation credential encrypted with Secrets Management
 description: Verify that your Windows Management Instrumentation \(WMI\) credential is encrypted with Secrets Management and use an Integration Hub workflow to complete end-to-end testing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-8.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,15 +18,15 @@ Verify that your Windows Management Instrumentation \(WMI\) credential is encryp
 
 Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.cryptographic\_manager
 
--   Integration Hub Enterprise must be active on your instance. For details, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-integrationhub.md).
--   You must have a configured secrets group on your instance. See steps 1 through 3 listed in [Configuring client accessible secrets](../concept/client-access-secret-landing.md).
--   You must have a configured credential encrypted with Secrets Management. See steps 1 through 9 listed in [Create credentials and test credential encryption](client-access-example-4.md).
+-   Integration Hub Enterprise must be active on your instance. For details, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-integrationhub.md).
+-   You must have a configured secrets group on your instance. See steps 1 through 3 listed in [Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md).
+-   You must have a configured credential encrypted with Secrets Management. See steps 1 through 9 listed in [Create credentials and test credential encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-4.md).
 
 ## Procedure
 
 1.  Confirm that the desired MID Server is associated with the Secret Group.
 
-    Open the Secret Group with Criteria \[sn\_sm\_criteria\_secret\_group\] record, and look for your MID Server in the **Secret Group – Identity Group Members** list. If your MID Server isn’t associated with a group see [Create a secret group with criteria](client-access-example-3.md).
+    Open the Secret Group with Criteria \[sn\_sm\_criteria\_secret\_group\] record, and look for your MID Server in the **Secret Group – Identity Group Members** list. If your MID Server isn’t associated with a group see [Create a secret group with criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-example-3.md).
 
 2.  Confirm that the credential is encrypted with Secrets Management.
 
@@ -33,13 +34,13 @@ Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.crypt
 
     2.  Open your credential record.
 
-        Verify that you have a credential alias listed in the **Credential alias** field. If you have not created one already, see [Create a Connection &amp; Credential alias](../../../product/credentials/task/connection-alias.md).
+        Verify that you have a credential alias listed in the **Credential alias** field. If you have not created one already, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
     3.  Select and hold \(or right-click\) the header of your credentials record, and select **Show XML** from the list.
 
     4.  In the XML view of the record, find the password and confirm that the value starts with `□□□A□□`.
 
-        ![XML view of a credential alias record](../images/XML-view.png)
+        \[Omitted image "XML-view.png"\] Alt text: XML view of a credential alias record
 
 3.  Create a testing workflow in Workflow Studio.
 
@@ -63,7 +64,7 @@ Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.crypt
 
     3.  For the condition, select **Name is**, followed by the name of your MID Server.
 
-    ![Look up Record step configuration](../images/test_flow_example.png)
+    \[Omitted image "test\_flow\_example.png"\] Alt text: Look up Record step configuration
 
     **Important:** Make sure that the selected MID Server is the same as the one associated with the secret group.
 
@@ -142,7 +143,7 @@ Remoting Type
 Select **Run on a MID Server or have your script establish a remote session**
 
 </td></tr></tbody>
-</table>    ![PowerShell step configuration](../images/test_flow_example_2.png)
+</table>    \[Omitted image "test\_flow\_example\_2.png"\] Alt text: PowerShell step configuration
 
 6.  Create a script for your test action.
 
@@ -158,7 +159,7 @@ Select **Run on a MID Server or have your script establish a remote session**
 
     3.  Select the **Save** button to save your action.
 
-    ![Script configuration for the PowerShell step](../images/test_flow_example_3.png)
+    \[Omitted image "test\_flow\_example\_3.png"\] Alt text: Script configuration for the PowerShell step
 
 7.  Select the **Test** button to test your action.
 
@@ -166,8 +167,8 @@ Select **Run on a MID Server or have your script establish a remote session**
 
 9.  Verify that a test file has been created on the host server in the file path you provided in the script.
 
-    ![Test file within a host server's file system](../images/test_flow_example_4.png)
+    \[Omitted image "test\_flow\_example\_4.png"\] Alt text: Test file within a host server's file system
 
 
-**Parent Topic:**[Configuring client accessible secrets](../concept/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
 

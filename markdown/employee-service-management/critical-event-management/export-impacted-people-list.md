@@ -2,13 +2,14 @@
 title: Export an impacted people list
 description: Export an impacted people list as a PDF, CSV, JSON, or Microsoft Excel file in Critical Event Management and either download or email the file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/export-impacted-people-list.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing impacted people, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage impacted people, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Export an impacted people list
@@ -48,20 +49,20 @@ Role required: sn\_critical.agent
 8.  Select **Export**.
 
 
-**Parent Topic:**[Managing impacted people](../concept/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 
 
-[Generate impacted people list](generate-impacted-people-list.md)
+[Generate impacted people list]()
 
-[Add a person manually to the impacted people list](add-person-manually-to-impacted-people.md)
+[Add a person manually to the impacted people list]()
 
-[View an impacted person record](view-impacted-person-record.md)
+[View an impacted person record]()
 
-[Mark the status of impacted people as an agent](mark-status-of-impacted-people.md)
+[Mark the status of impacted people as an agent]()
 
-[View notifications received](view-notifications-received.md)
+[View notifications received]()
 
-[Conduct a roll call as an on-site responder](conduct-roll-call.md)
+[Conduct a roll call as an on-site responder]()
 

@@ -2,13 +2,14 @@
 title: Additional details record producer - Mapping Variable types and limitations
 description: When you create a record producer to configure additional details on a reservation form, the variables types and column type must be set differently. In case of reservations, the record producer supports only a few UI policies and client scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/custom-fields-record-producer-mapping-variable-type-conditions.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Workplace Reservation Management references, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Additional details record producer - Mapping Variable types and limitations
@@ -81,22 +82,22 @@ In the Workplace Reservation \(sn\_wsd\_rsv\_reservation\) table, Columns relate
 -   The columns in the table are created to only store the data.
 -   The **Max length** field is considered to save the data with **Max length**.
 
-**Parent Topic:**[Workplace Reservation Management references](../concept/rsv-mgmt-references.md)
+**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Reservation Management](components-installed-with-wsd-reservation-mgmt.md)
+[Components installed with Workplace Reservation Management]()
 
-[Properties installed with Workplace Reservation Management](properties-installed-with-wsd-reservation-mgmt.md)
+[Properties installed with Workplace Reservation Management]()
 
-[Workplace Reservation Management - Field descriptions](../concept/workplace-reservation-management-field-descriptions.md)
+[Workplace Reservation Management - Field descriptions]()
 
-[Proximity calculation when browsing near a person](proximity-calculation-for-browse-near-person.md)
+[Proximity calculation when browsing near a person]()
 
-[Reservable module derivation logic for Space details](../concept/reservation-logic-for-myfavorites-space-details.md)
+[Reservable module derivation logic for Space details]()
 
-[Mobile push notifications for workplace reservations](reservation-push-notifications.md)
+[Mobile push notifications for workplace reservations]()
 
-[Location privacy settings and impact](location-privacy-settings-and-impact.md)
+[Location privacy settings and impact]()
 

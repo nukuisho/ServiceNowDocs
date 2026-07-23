@@ -2,6 +2,7 @@
 title: Manage customer registration requests from Business Portal
 description: Users with the customer administrator role can approve or reject registration requests that customers submit from the business portal.Approve a registration request from a user that was submitted from the business portal with a valid registration code.Reject a registration request from a user that was submitted from Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-cust-registration-requests-business-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +17,7 @@ Users with the customer administrator role can approve or reject registration re
 **Related topics**  
 
 
-[Customer contact self-registration on Business Portal](c_Business-PortalSelfRegistration.md)
+[Customer contact self-registration on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_Business-PortalSelfRegistration.md)
 
 ## Approve a registration request with a valid registration code on Business Portal
 
@@ -41,6 +42,13 @@ Role required: sn\_customerservice.customer\_admin
     A user account is created and an email is sent to the contact’s email address with a user ID and temporary password. The user is also assigned these roles: sn\_esm\_user and snc\_external.
 
 
+**Related topics**  
+
+
+[Reject a registration request]()
+
+[Manage customer registration requests from Business Portal]()
+
 ## Reject a registration request
 
 Reject a registration request from a user that was submitted from Business Portal.
@@ -63,4 +71,11 @@ Role required: sn\_customerservice.customer\_admin
 
     A rejection email is sent to the requester’s email address.
 
+
+**Related topics**  
+
+
+[Approve a registration request with a valid registration code on Business Portal]()
+
+[Manage customer registration requests from Business Portal]()
 

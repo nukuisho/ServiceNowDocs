@@ -2,6 +2,7 @@
 title: Components installed with Document Management
 description: Several types of components are installed with activation of the Document Management plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/installed-with-doc-mgmt.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -190,14 +191,14 @@ Stores the permalink and expiration date for the document.
 </td></tr></tbody>
 </table>**Note:** The Documents \[ds\_document\] and Versions \[ds\_document\_version\] tables can be extended.
 
-**Parent Topic:**[References](../concept/reference-document-management.md)
+**Parent Topic:**[References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/reference-document-management.md)
 
 **Related topics**  
 
 
-[Document Management roles](document-management-roles.md#)
+[Document Management roles]()
 
-[Domain separation and Document Management](../concept/domain-separation-document-services.md)
+[Domain separation and Document Management]()
 
-[Granular admin roles in Document Management](granular-admin-roles-dms.md)
+[Granular admin roles in Document Management]()
 

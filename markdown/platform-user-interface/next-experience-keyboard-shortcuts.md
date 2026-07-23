@@ -2,11 +2,12 @@
 title: Next Experience keyboard shortcuts
 description: You can use keyboard shortcuts to quickly perform common actions in the user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-keyboard-shortcuts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Next Experience keyboard shortcuts
@@ -15,17 +16,17 @@ You can use keyboard shortcuts to quickly perform common actions in the user int
 
 The keyboard shortcuts that display in the modal are specific to the screen you’re viewing. Keyboard shortcuts depend on the browser and operating system that you’re using. The Linux operating system is not currently supported.
 
-To enable keyboard shortcuts for your instance, see [Configure Next Experience accessibility preferences](../../../get-started/servicenow-overview/task/next-experience-accessibility-preferences.md).
+To enable keyboard shortcuts for your instance, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
 
-To customize the Next Experience keyboard shortcuts for your instance, see [Customize the Next Experience keyboard shortcuts](../../../administer/navigation-and-ui/task/customize-keyboard-shortcuts.md).
+To customize the Next Experience keyboard shortcuts for your instance, see [Customize Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/customize-keyboard-shortcuts.md).
 
 Learn more about Next Experience keyboard shortcuts from the following tutorial:
 
-Next Experience keyboard shortcuts 
+\[Omitted video\] Description: Next Experience keyboard shortcuts
 
 The keyboard shortcut modal contains a search field which searches available keyboard shortcuts specific to the screen you're viewing. The available shortcuts are grouped by category: Page Action, Page Navigation, Global Navigation, and General.
 
-![Keyboard shortcut modal.](../../../get-started/servicenow-overview/image/pol-keyboard-shortcut-modal.png "Keyboard shortcut modal")
+\[Omitted image "pol-keyboard-shortcut-modal.png"\] Alt text: Keyboard shortcut modal.
 
 ## Common Next Experience keyboard shortcuts
 
@@ -157,7 +158,7 @@ Option+Shift+a
 
 </td></tr><tr><td>
 
-Now Assist menu \(voice input mode\)**Note:** Availability of voice input mode in the Now Assist menu is controlled by a user preference. For more information, see [Configure Next Experience accessibility preferences](../../../get-started/servicenow-overview/task/next-experience-accessibility-preferences.md).
+Now Assist menu \(voice input mode\)**Note:** Availability of voice input mode in the Now Assist menu is controlled by a user preference. For more information, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
 
 </td><td>
 

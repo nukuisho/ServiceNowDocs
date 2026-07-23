@@ -2,12 +2,14 @@
 title: Customize recipient list for Major Incident Management updates
 description: Customize the base system recipient list for Major Incident Management updates based on application usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/recipient-lists-for-mim.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [recipient lists, major incident management \(mim\), mim notifications, customize recipient list, targeted communications]
 breadcrumb: [Desktop Assistant notifications, Desktop Assistant, Digital End-User Experience, IT Service Management]
 ---
 

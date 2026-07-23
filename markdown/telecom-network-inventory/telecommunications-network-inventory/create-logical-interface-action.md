@@ -2,6 +2,7 @@
 title: Create Logical Interface function
 description: The Create Logical Interface function enables you to create logical interfaces in the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-logical-interface-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -45,7 +46,7 @@ Parent Interface
 
 </td><td>
 
-Parent network interface record to create the relationship with a logical interface. Click the add icon \(![Add icon](../image/add-icon-1.png)\) to add an interface.
+Parent network interface record to create the relationship with a logical interface. Click the add icon \(\[Omitted image "add-icon-1.png"\] Alt text: Add icon\) to add an interface.
 
 </td><td>
 
@@ -160,7 +161,7 @@ Option to ensure that each parent interface must only have one child interface.
 True/False
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
+</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -170,30 +171,30 @@ The following table lists the information about the function output.
 |----|-----------|---------|
 |Result Id|Returns a glide record of the logical interface.|Record|
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 
 
-[Allocate Free Number function](allocate-free-number-action.md)
+[Allocate Free Number function]()
 
-[Create CI From Template function](add-card-action.md)
+[Create CI From Template function]()
 
-[Cascade Update function](cascade-update-action.md)
+[Cascade Update function]()
 
-[Create and Assign Range/Single Number function](create-assign-range-single-number-function.md)
+[Create and Assign Range/Single Number function]()
 
-[Create Logical Connection function](create-logical-connection-action.md)
+[Create Logical Connection function]()
 
-[Create Physical Connection function](create-physical-connection-action.md)
+[Create Physical Connection function]()
 
-[Create IP subnetwork function](create_ip_subnetwork.md)
+[Create IP subnetwork function]()
 
-[CIDR to IP range function](cidr_to_ip_range.md)
+[CIDR to IP range function]()
 
-[Get Interface Summary function](get-interface-summary-action.md)
+[Get Interface Summary function]()
 
-[Lookup Next Hub function](lookup-next-hub-action.md)
+[Lookup Next Hub function]()
 
-[Path Search function](path-compute-action.md)
+[Path Search function]()
 

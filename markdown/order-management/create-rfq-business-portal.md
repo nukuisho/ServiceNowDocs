@@ -2,6 +2,7 @@
 title: Submit a request for quote from the Business Portal
 description: Browse products and submit a request for quote \(RFQ\) based on your budget and pricing preferences for those products directly through the Business Portal, eliminating the need to engage a sales agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-rfq-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,23 +38,23 @@ Role required: sn\_customerservice.customer
 
 3.  Review the cart contents.
 
-    1.  Select the Cart icon ![](../image/icon-shopping-cart-1.png).
+    1.  Select the Cart icon \[Omitted image "icon-shopping-cart-1.png"\] Alt text:.
 
         The information listed in the following table is displayed.
 
         |Field|Description|
         |-----|-----------|
         |Number|Unique cart ID.|
-        |State|State of the cart. For more information, see [Request for quote \(RFQ\) states](../reference/rfq-states.md).|
+        |State|State of the cart. For more information, see [Request for quote \(RFQ\) states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rfq-states.md).|
         |Created|Cart creation timestamp.|
         |Qty|Product quantity.|
         |Unit list price|Price of a single unit of product or service before adjustments.|
         |Cumulative monthly price|Total cost of a product and its child items, if any, over a month.|
         |Cumulative one time price|One-time price of the product and its child items, if any.|
 
-    2.  If you need to modify the quantity or customization for a product in the cart, select the Edit icon ![](../../../reuse/icons/product-icons/pencil-outline-24.svg) and modify the details.
+    2.  If you need to modify the quantity or customization for a product in the cart, select the Edit icon \[Omitted image "pencil-outline-24.svg"\] Alt text: and modify the details.
 
-    3.  If you want to delete an item, select the Delete icon ![](../../../common/image/Form_DeleteIcon.png).
+    3.  If you want to delete an item, select the Delete icon \[Omitted image "Form\_DeleteIcon.png"\] Alt text:.
 
 4.  Create the Request for quote.
 
@@ -75,7 +76,7 @@ Role required: sn\_customerservice.customer
 
     5.  Specify a cumulative target price to propose the total amount you'd like to pay for each top-level product.
 
-        1.  Select the Edit icon![](../../../reuse/icons/product-icons/pencil-outline-24.svg).
+        1.  Select the Edit icon\[Omitted image "pencil-outline-24.svg"\] Alt text:.
         2.  In the **Cumulative target price** field, enter a value.
         3.  Select **Update**.
 5.  Verify the details on the Review page.
@@ -91,10 +92,10 @@ The RFQ is submitted for further processing and you're redirected to the Request
 
 ## What to do next
 
-View the quote details on the Business Portal after the sales agent reviews and generates a quote for your request. For more information, see [View requests for quotes \(RFQs\) on the Business Portal](view-rfq-business-portal.md).
+View the quote details on the Business Portal after the sales agent reviews and generates a quote for your request. For more information, see [View requests for quotes \(RFQs\) on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-rfq-business-portal.md).
 
 **Related topics**  
 
 
-[View quotes from the Business Portal](view-quotes-business-portal.md)
+[View quotes from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-quotes-business-portal.md)
 

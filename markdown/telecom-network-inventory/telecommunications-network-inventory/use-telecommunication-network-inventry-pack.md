@@ -2,6 +2,7 @@
 title: Use an attribute pack in the CI record
 description: Use an attribute pack to capture the attributes that you define for a configuration item \(CI\) record in the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/use-telecommunication-network-inventry-pack.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -23,7 +24,7 @@ Role required: sn\_ni\_core.inventory\_agent
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then open a new inventory class.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then open a new inventory class.
 
 3.  Select **New**.
 
@@ -38,12 +39,12 @@ The attribute pack tables are added on the **Packs** tab.
 
 ## What to do next
 
-You can update the fields in the pack table that you’ve added. To learn more, see [Review and update a pack for a CI record](review-update-pack-table.md).
+You can update the fields in the pack table that you’ve added. To learn more, see [Review and update a pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/review-update-pack-table.md).
 
-**Parent Topic:**[Attribute pack for CI records](../concept/using-pack-table-ci-record.md)
+**Parent Topic:**[Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md)
 
 **Related topics**  
 
 
-[Review and update a pack for a CI record](review-update-pack-table.md)
+[Review and update a pack for a CI record]()
 

@@ -1,47 +1,81 @@
 ---
-title: About Log Analytics alert rules
-description: Health Log Analytics \(HLA\) detects anomalies automatically by learning from your log data. However, automatic detection doesn’t work equally well for all log types. Some logs need a custom alert rule to generate alerts reliably.
+title: Alert rules in Health Log Analytics
+description: Health Log Analytics \(HLA\) detects anomalies automatically by learning from your log data. However, some log types require a custom alert rule to generate alerts reliably.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-custom-alert-rules.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
 last_updated: "2026-03-15"
 reading_time_minutes: 2
-keywords: [Health Log Analytics, HLA, alert rule, custom alert rules, log analytics alerts, anomaly detection, automatic detection, log patterns, lively logs, sparse logs, stopped logs, probability-based method, high-frequency logs, low-frequency logs, periodic logs, critical conditions, machine learning, too little data, pattern]
-breadcrumb: [Use alert rules to control when HLA generates alerts, Controlling alert generation, prioritization, and anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
+keywords: [Health Log Analytics, HLA, alert rule, custom alert rules, log analytics alerts, anomaly detection, automatic detection, log patterns, lively logs, sparse logs, stopped logs, probability-based method, high-frequency logs, low-frequency logs, periodic logs, critical conditions, machine learning, not enough data, too little data, pattern]
+breadcrumb: [Use custom alert rules, Controlling alert generation, prioritization, and anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# About Log Analytics alert rules
+# Alert rules in Health Log Analytics
 
-Health Log Analytics \(HLA\) detects anomalies automatically by learning from your log data. However, automatic detection doesn’t work equally well for all log types. Some logs need a custom alert rule to generate alerts reliably.
+Health Log Analytics \(HLA\) detects anomalies automatically by learning from your log data. However, some log types require a custom alert rule to generate alerts reliably.
 
-HLA sorts incoming log patterns into three groups: Lively, sparse, and stopped. It uses different detection logic for each group. Infrequent logs are treated as sparse. For sparse logs, HLA uses a probability-based method instead of standard anomaly scoring. It does so by design: Using standard scoring on a log that shows up only now and then would give unreliable results. However, as a result, logs with too little data might not generate alerts, because the HLA engine doesn’t have enough to establish a normal pattern.
+You can use custom alert rules to specify the metric, threshold, and alert properties for generating alerts that HLA might not detect automatically.
 
-## When to use a custom alert rule
+## Anomaly detection logic by log pattern
 
-Use a custom alert rule when your log data isn’t generating alerts automatically.
+HLA classifies incoming logs into three patterns before applying anomaly detection. This classification determines which detection logic is used.
+
+<table id="table_nbj_4vy_djc"><thead><tr><th>
+
+Pattern
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Lively
+
+</td><td>
+
+Logs arrive frequently and consistently: at least once in 20 seconds. For example, an application writes hundreds of log entries per hour. The ML Engine has enough volume to build a reliable baseline, so it applies standard anomaly scoring to detect deviations.
+
+</td></tr><tr><td>
+
+Sparse
+
+</td><td>
+
+Logs arrive infrequently or irregularly: less than once in 1 minute \(60 seconds\). For example, a batch job runs every night and writes a small number of log entries. Standard anomaly scoring would produce unreliable results here, so the ML Engine applies probability distribution analysis instead. Sparse logs might not generate alerts if the volume is too low to establish a baseline.
+
+</td></tr><tr><td>
+
+Stopped
+
+</td><td>
+
+Logs have not arrived for more than the configured period. Default is 5 minutes \(300 seconds\). To modify the default value, update the HLA system property `detective.resolution.signal_dead`.For a log stream to be alerted as stopped or dead it must first be considered alive by running continuously for a minimum period of time. You can set this time in the HLA system property `detective.alive_period_seconds_for_signal_dead`.
+
+For information about setting and changing HLA system properties, see [Configure global Health Log Analytics system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-system-properties-configure.md).
+
+</td></tr></tbody>
+</table>## When to create custom alert rules
+
+-   For high-frequency logs with a lively log pattern, there is no need for a custom rule. However, you can add a rule to generate alerts under specific conditions.
+-   For low-frequency logs with a sparse log pattern, the system might not generate alerts automatically. If these logs should still generate alerts, define a custom alert rule.
+-   For known critical conditions that HLA might not flag automatically, define a custom rule. For example, if a specific log message indicates that a critical service has failed, define a rule that generates an alert every time that message appears.
 
 |Scenario|ML detection|Custom rule|
 |--------|------------|-----------|
-|High-frequency logs with changing patterns|Sufficient|Optional|
+|High-frequency logs with a lively log pattern|Likely sufficient|Optional|
 |Low-frequency or periodic logs|Unreliable|Suggested|
-|Known critical conditions|Not applicable|Required|
-
-## Examples
-
-The following examples show how the type of log data determines whether a custom alert rule is needed.
-
--   High-frequency logs: An application writes hundreds of log entries per hour. HLA builds a reliable pattern quickly and alerts when behavior changes. A custom rule isn’t required, but you may add one to alert on a specific condition.
--   Infrequent logs: A batch job runs every night and writes a small number of log entries. HLA can’t build a reliable pattern from so little data. Define a custom rule to verify alerts are generated when the job fails or behaves unexpectedly.
--   Known critical conditions: A specific error code must never appear in your logs. HLA might not flag it automatically. Define a custom rule that generates an alert every time that error code appears.
+|Known critical conditions|Insufficient|Required|
 
 **Related topics**  
 
 
-[Define a Log Analytics alert rule in Health Log Analytics](../../health-log-analytics-operator/task/hla-op-alert-rule-add-sow.md)
+[Define a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-rule-add-sow.md)
 
-[Change a Log Analytics alert rule in Health Log Analytics](../../health-log-analytics-operator/task/hla-op-defined-alert-modify-sow.md)
+[Change a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-defined-alert-modify-sow.md)
 
-[Delete a Log Analytics alert rule in Health Log Analytics](../../health-log-analytics-operator/task/hla-op-defined-alert-delete-sow.md)
+[Delete a custom Log Analytics alert rule in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-defined-alert-delete-sow.md)
 

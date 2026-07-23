@@ -2,6 +2,7 @@
 title: Review an app
 description: Use your Now Support credentials to log in to the ServiceNow Store and leave a review on any app or integration you have used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/review-an-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,9 +26,9 @@ Role required: None
 
 You can review an app after your organization buys or trials it. App reviews provide valuable feedback about what you like and what possible updates you want to see in the future.
 
-The ability to review apps is not currently available to federal customers.
+Reviews left on an application only show up in the environment where the review was made. For example, reviews made from the commercial ServiceNow Store are only visible on the commercial ServiceNow Store. Reviews made from a regulated regional or federal instance of the ServiceNow Store are only visible to users in the same instance of the ServiceNow Store.
 
-**Note:** Your company is visible in any reviews that you leave while logged in to the ServiceNow Store.
+**Note:** Your company is visible in any reviews that you leave while logged in to the ServiceNow Storeunless your organization uses an isolated federal or regional instance. If your company uses an isolated federal or regional instance, "Verified ServiceNow Customer" is displayed instead.
 
 ## Procedure
 
@@ -48,7 +49,7 @@ The ability to review apps is not currently available to federal customers.
 
 ## Result
 
-Your name, company, comment, and rating are visible in the Rating and reviews section of the app details.
+For commercial customers, your company, review, and rating are visible in a review posted to the app listing details. For customers using a federal or regulated ServiceNow Store instance, only the rating and review fields are made visible.
 
-**Parent Topic:**[Reviewing apps](../concept/reviewing-apps.md)
+**Parent Topic:**[Reviewing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/reviewing-apps.md)
 

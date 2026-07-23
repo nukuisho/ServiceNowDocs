@@ -1,17 +1,18 @@
 ---
-title: Run and verify import for Nokia Altiplano Service Graph Connector
+title: Run and verify a Nokia Altiplano import
 description: Manually execute a configured import schedule for the Nokia Altiplano Service Graph Connector. You can also execute the import to validate the connector setup, run ad-hoc imports, or test newly configured connection aliases. This task helps ensure that data from Altiplano is successfully imported or updated in the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-nokia-altiplano-service-graph-connector.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use, Telecommunications Service Operations Management]
+breadcrumb: [Run SGC imports, Use, Telecommunications Service Operations Management]
 ---
 
-# Run and verify import for Nokia Altiplano Service Graph Connector
+# Run and verify a Nokia Altiplano import
 
 Manually execute a configured import schedule for the Nokia Altiplano Service Graph Connector. You can also execute the import to validate the connector setup, run ad-hoc imports, or test newly configured connection aliases. This task helps ensure that data from Altiplano is successfully imported or updated in the CMDB.
 
@@ -29,7 +30,7 @@ You can either enable the import schedules to run automatically based on their d
 
 The following screenshot helps you understand the scheduled data import process and displays the executions in the form of import sets.
 
-![Scheduled data import screen of Nokia Altiplano bulk discovery and the list of executions.](../images/scheduled-data-import.png)
+\[Omitted image "scheduled-data-import.png"\] Alt text: Scheduled data import screen of Nokia Altiplano bulk discovery and the list of executions.
 
 ## Procedure
 
@@ -70,12 +71,12 @@ Example: After executing the import schedule:
 -   If **Concurrent Import** option is enabled in the import schedule, you’ll see records in the **Concurrent Import Set** table instead of the standard Import Set table.
 -   Each concurrent job creates its own import set and log entry. The structure of the execution records remains the same.
 
-**Parent Topic:**[Using Telecommunications Service Operations Management](../concept/using-tsom.md)
+**Parent Topic:**[Using Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/using-tsom.md)
 
 **Related topics**  
 
 
-[Configure Nokia Altiplano service graph connector](../concept/configuring-service-graph-connector-nokia-altiplano.md)
+[Configure Nokia Altiplano service graph connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-service-graph-connector-nokia-altiplano.md)
 
-[Telecom Discovery via Nokia Altiplano](../concept/service-graph-connector-for-nokia-altiplano.md#)
+[Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
 

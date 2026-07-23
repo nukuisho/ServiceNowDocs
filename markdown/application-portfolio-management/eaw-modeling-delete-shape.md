@@ -2,6 +2,7 @@
 title: Delete a shape
 description: Delete a shape and all of its relationships from a diagram.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-delete-shape.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(![Enterprise Modeling and Visualization](../../image/eaw-image/modeling/icon-modeling-logo.png)\).
+2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Enterprise Modeling and Visualization\).
 
 3.  Select an existing diagram from the Diagrams page.
 
@@ -31,7 +32,7 @@ Role required: sn\_apm.apm\_user
 
 5.  Select a shape in the diagram.
 
-6.  From the More Actions menu \(![More actions menu](../../image/eaw-image/eaw-icon-menu.png)\), select the **Delete shape from canvas**.
+6.  From the More Actions menu \(\[Omitted image "eaw-icon-menu.png"\] Alt text: More actions menu\), select the **Delete shape from canvas**.
 
 7.  Confirm the deletion.
 
@@ -40,36 +41,36 @@ Role required: sn\_apm.apm\_user
 
 The selected shape gets deleted from the canvas or from the model.
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](../../concept/eaw-concept/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
 **Related topics**  
 
 
-[Shapes to create a modeling diagram](../../reference/eaw-reference/eaw-modeling-shapes.md)
+[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-shapes.md)
 
-[Create a diagram for a business capability map](eaw-modeling-bc-map.md)
+[Create a diagram for a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bc-map.md)
 
-[Update a business capability map](eaw-modeling-update-bc-map.md)
+[Update a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-update-bc-map.md)
 
-[Add a business capability or business application to the capability map](eaw-modeling-bcmap-add-bc-ba.md)
+[Add capabilities or applications to a capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)
 
-[Create diagram for a business hierarchy map](eaw-modeling-ba-map.md)
+[Create diagram for a business hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-ba-map.md)
 
-[Update a business application hierarchy map](eaw-modeling-update-ba-map.md)
+[Update a business application hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-update-ba-map.md)
 
-[Add related records in the modeling diagram](eaw-modeling-add-related-records.md)
+[Add related records in the modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-add-related-records.md)
 
-[ArchiMate shapes support in the Enterprise Modeling and Visualization](../../concept/eaw-concept/eaw-modeling-archimate.md)
+[ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-archimate.md)
 
-[Share a modeling diagram](eaw-modeling-share-diagram.md)
+[Share a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-share-diagram.md)
 
-[Commit diagram changes](eaw-modeling-sync-diagram-servicenow.md)
+[Commit diagram changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-sync-diagram-servicenow.md)
 
-[Save as a new version](eaw-modeling-save-as-new.md)
+[Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-save-as-new.md)
 
-[Duplicate a modeling diagram](eaw-modeling-duplicate.md)
+[Duplicate a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-duplicate.md)
 
-[Submit a modeling diagram for approval](eaw-modeling-submit-for-approval.md)
+[Submit a modeling diagram for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-submit-for-approval.md)
 
-[Synchronize a shape to the database](eaw-modeling-sync-shape.md)
+[Synchronize a shape to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-sync-shape.md)
 

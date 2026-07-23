@@ -2,11 +2,12 @@
 title: Assign an attended user or group to an attended bot process
 description: Assign an attended user or group to an attended bot process in RPA Hub, so that your user or group can access and execute this automation on Windows machines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/assign-rda-users-botprocess.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Adding details for your bot process, Configuring a bot process record, Use, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Adding details for your bot process, Configuring a bot process record, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Assign an attended user or group to an attended bot process
@@ -15,7 +16,7 @@ Assign an attended user or group to an attended bot process in RPA Hub, so that 
 
 ## Before you begin
 
-Do this task only when you select the **Process Type** field as **Attended** on the Bot process configuration form, while creating a bot process. You can't perform this task unless you select that field. For more information, see [Configuring a bot process record in RPA Hub](../concept/create-botprocess.md), [Bot process configuration form in RPA Hub](create-botprocess-config.md#), and [Bot Process form in RPA Hub](select-botprocess.md#).
+Do this task only when you select the **Process Type** field as **Attended** on the Bot process configuration form, while creating a bot process. You can't perform this task unless you select that field. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md), [Bot process configuration form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess-config.md), and [Bot Process form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/select-botprocess.md).
 
 Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_support\_user, or sn\_rpa\_fdn.rpa\_admin
 
@@ -27,7 +28,7 @@ Assign users or groups to an attended bot process. You must assign only those us
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **Bot Process**.
 
@@ -46,10 +47,10 @@ Assign users or groups to an attended bot process. You must assign only those us
 7.  Select **Save**.
 
 
-**Parent Topic:**[Adding details to your bot process in RPA Hub](../concept/post-req-bot-process-rpa.md)
+**Parent Topic:**[Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/post-req-bot-process-rpa.md)
 
 **Related topics**  
 
 
-[Workflow Studio actions and subflow in RPA Hub](../reference/rpa-hub-actions.md)
+[Workflow Studio actions and subflow in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-actions.md)
 

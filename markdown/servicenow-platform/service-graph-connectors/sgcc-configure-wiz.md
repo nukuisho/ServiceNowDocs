@@ -2,6 +2,7 @@
 title: Configure Service Graph Connector for Wiz using SGC Central
 description: Set up scheduled import jobs to pull in data from a Wiz project into your Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgcc-configure-wiz.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,14 +18,14 @@ Set up scheduled import jobs to pull in data from a Wiz project into your Config
 
 ## Before you begin
 
--   Install Service Graph Connector for Wiz version 1.3.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
+-   Install Service Graph Connector for Wiz version 1.3.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 -   You must obtain the OAuth credentials associated with the Wiz service account and make a note of the following details:
 
     -   Client ID
     -   Client secret
     -   OAuth token URL
     -   Connection URL
-    For more information, see [Set up the Wiz environment](../../configuration-management/task/sgc-cmdb-wiz-setup.md).
+    For more information, see [Set up the Wiz environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-setup.md).
 
 -   You must have the following permissions for the Wiz service account:
     -   read:resources
@@ -39,13 +40,13 @@ Role required: The following table shows the roles required for each stage of th
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
 
 ## Procedure
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon ![](../image/icon-sgc-central.png) to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  On the Overview page, select **Create connection**.
 
@@ -57,7 +58,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 4.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required when configuring the connector for the first time only. See [Perform initial setup tasks when creating a connection in SGC Central](sgcc-first-time-setup.md).
+    **Note:** This step is required when configuring the connector for the first time only. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
 
 5.  Enter connection details and test the API connection for importing Wiz data.
 
@@ -101,7 +102,7 @@ Client ID
 
 </td><td>
 
-Client ID of your Wiz application as described in [Before you begin](sgcc-configure-wiz.md#task-prereq).
+Client ID of your Wiz application as described in [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-wiz.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Client secret
 
 </td><td>
 
-Client secret of your Wiz application as described in [Before you begin](sgcc-configure-wiz.md#task-prereq).
+Client secret of your Wiz application as described in [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-wiz.md).
 
 </td></tr><tr><td>
 
@@ -169,7 +170,7 @@ List of project IDs for which the resources are excluded only when the **Project
 
     3.  Select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select **Save**.
 
@@ -197,13 +198,13 @@ Select **View all connections** to review the connection details. The created co
 **Related topics**  
 
 
-[Service Graph Connector for Wiz](../../configuration-management/concept/sgc-cmdb-integration-wiz.md)
+[Service Graph Connector for Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-wiz.md)
 
-[Target tables for storing Service Graph Connector for Wiz data](../../configuration-management/reference/sgc-cmdb-wiz-classes.md)
+[Target tables for storing Service Graph Connector for Wiz data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-classes.md)
 
-[Service Graph Connector for Wiz properties](../../configuration-management/reference/sgc-cmdb-wiz-props.md)
+[Service Graph Connector for Wiz properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-props.md)
 
-[Supported Wiz types](../../configuration-management/reference/sgc-cmdb-wiz-types.md)
+[Supported Wiz types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-types.md)
 
-[Accessing the connection details of Service Graph Connector for Wiz](../../configuration-management/concept/sgc-cmdb-wiz-conn.md#)
+[Accessing the connection details of Service Graph Connector for Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-conn.md)
 

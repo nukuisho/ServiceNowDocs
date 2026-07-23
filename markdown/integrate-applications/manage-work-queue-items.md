@@ -2,12 +2,13 @@
 title: Manage your work items in RPA Hub
 description: Manage your work items more efficiently in RPA Hub. You can view your work items, mark them as complete, and reassign a work item.Use the Work item form to view more details of the executed work items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/manage-work-queue-items.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [mark as sensitive data rpa hub]
-breadcrumb: [Work items, Use, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Work items, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Manage your work items in RPA Hub
@@ -16,7 +17,7 @@ Manage your work items more efficiently in RPA Hub. You can view your work items
 
 ## Before you begin
 
-Create a queue. For more information, see [Create a queue in RPA Hub](create-queue.md).
+Create a queue. For more information, see [Create a queue in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-queue.md).
 
 Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_business\_user, sn\_rpa\_fdn.rpa\_support\_user, or sn\_rpa\_fdn.rpa\_admin
 
@@ -24,7 +25,7 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_business\_user, sn
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **Queues**.
 
@@ -36,7 +37,7 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_business\_user, sn
 
 Option
 
-</th><th align="left" id="d474012e137">
+</th><th align="left" id="d476824e137">
 
 Action
 
@@ -80,12 +81,12 @@ Roles required to reassign a failed or a success work item: RPA developer, RPA r
 7.  In the **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
 
 
-**Parent Topic:**[Work items in RPA Hub](../concept/work-items-rpa-hub.md)
+**Parent Topic:**[Work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/work-items-rpa-hub.md)
 
 **Related topics**  
 
 
-[Queue implementation in RPA Hub](../concept/queues-implement-rpa.md)
+[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md)
 
 [View Audit History](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md)
 
@@ -315,9 +316,9 @@ Transaction logs for the selected work item.
 </table>**Related topics**  
 
 
-[Queue form in RPA Hub](../reference/queue-form.md)
+[Queue form in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queue-form.md)
 
-[Using auto-retry functionality for your failed work items in RPA Hub](../concept/auto-retry-wqi-rpa.md)
+[Using auto-retry functionality for your failed work items in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/auto-retry-wqi-rpa.md)
 
-[Queue implementation in RPA Hub](../concept/queues-implement-rpa.md)
+[Queue implementation in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/queues-implement-rpa.md)
 

@@ -2,6 +2,7 @@
 title: Sales CRM for Telecommunications PSR catalog
 description: The Sales CRM for Telecommunications Product, Service, and Resource \(PSR\) catalog is a unified catalog that defines all required entities in a single location, based on the TM Forum \(TMF\) Shared Information and Data \(SID\) model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-psr-catalog.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-23"
@@ -17,7 +18,7 @@ The Sales CRM for Telecommunications PSR catalog consolidates product, service, 
 
 Because the catalog defines and maps all necessary entities in one place, you don't need explicit entity-to-entity API mapping or separate product data harmonization across sales and service catalogs.
 
-![Sales CRM for Telecommunications PSR catalog](../image/somt-psr-catalog.jpg)
+\[Omitted image "somt-psr-catalog.jpg"\] Alt text: Sales CRM for Telecommunications PSR catalog
 
 ## PSR catalog hierarchy
 

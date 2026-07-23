@@ -2,13 +2,14 @@
 title: Import custom SAP price lists
 description: Import custom SAP price lists into your ServiceNow instance so that you can track and manage SAP licenses based on the contracts that are specific to your SAP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/import-custom-sap-price-list.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Import custom SAP price lists
@@ -65,7 +66,7 @@ Do you want to create an Excel template to enter data?
 
 </td><td>
 
-Option to generate the Microsoft Excel spreadsheet template that you can use to insert or update data in the SAP Custom Price List Data \[imp\_samp\_sap\_custom\_price\_list\] table. Enable this option only if you didn’t already download the spreadsheet template in [step 1](import-custom-sap-price-list.md#dl-template).
+Option to generate the Microsoft Excel spreadsheet template that you can use to insert or update data in the SAP Custom Price List Data \[imp\_samp\_sap\_custom\_price\_list\] table. Enable this option only if you didn’t already download the spreadsheet template in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-custom-sap-price-list.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -144,38 +145,38 @@ Microsoft Excel spreadsheet that contains the data that you want to insert or up
     7.  Repeat steps d to f for each custom named user type that you want to add.
 
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](../concept/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
 
-[Tables installed with the SAP publisher pack](../concept/component-installed-sap-plugin.md)
+[Tables installed with the SAP publisher pack]()
 
-[Deploy the ABAP program for SAP](import-abap-program-sap.md)
+[Set up SAP integration to establish a connection with SAP]()
 
-[Establish an SAP connection using basic authentication](add-sap-connection.md)
+[Establish an SAP connection using basic authentication]()
 
-[Establish an SAP connection using OAuth 2.0](add-sap-connection-oauth.md)
+[Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP](create-entitlement-sap.md)
+[Create entitlements for SAP]()
 
-[Create software models for SAP](add-software-model-sap.md)
+[Create software models for SAP]()
 
-[Create a custom SAP named user type](create-named-user.md)
+[Create a custom SAP named user type]()
 
-[Map a role to a named user type](create-named-user-type-role-mapping.md)
+[Map a role to a named user type]()
 
-[Create custom SAP price lists](create-sap-pricelist.md)
+[Create custom SAP price lists]()
 
-[Import custom SAP named user types](import-custom-sap-named-user-type.md)
+[Import custom SAP named user types]()
 
-[SAP USMM-based optimization](../concept/usmm-optimization.md)
+[SAP USMM-based optimization]()
 
-[User transaction activity for named user types](../concept/sap-named-user-transaction-activity.md)
+[User transaction activity for named user types]()
 
-[Self-declaring SAP engine license usage](../concept/self-declaring-sap-engine-usage.md)
+[Self-declaring SAP engine license usage]()
 
-[Software Publisher Analytics dashboard for SAP in Software Asset Management classic](../reference/dashboard-sap.md)
+[Software Publisher Analytics dashboard for SAP in Software Asset Management classic]()
 
-[Publisher overview for SAP in the Software Asset Workspace](../reference/publisher-overview-sap.md)
+[Publisher overview for SAP in the Software Asset Workspace]()
 

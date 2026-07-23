@@ -2,6 +2,7 @@
 title: Break
 description: The break variable displays a horizontal line across the form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/break.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -17,62 +18,62 @@ The break variable displays a horizontal line across the form.
 
 This line is a formatting element that does not collect data.
 
-![A break variable](../image/VariableBreakG.png "Example: break variable")
+\[Omitted image "VariableBreakG.png"\] Alt text: A break variable
 
-**Parent Topic:**[Types of service catalog variables](r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
 
-[Attachment](attachment.md)
+[Attachment]()
 
-[Check box](check-box.md)
+[Check box]()
 
-[Container start, container split, and container end](contain-start-split-end.md)
+[Container start, container split, and container end]()
 
-[Date, Date and time, and Duration](date.md)
+[Date, Date and time, and Duration]()
 
-[Email](email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
 
-[HTML](html.md)
+[HTML]()
 
-[IP Address](ip-address.md)
+[IP Address]()
 
-[Label](label.md)
+[Label]()
 
-[List collector](list-collector.md)
+[List collector]()
 
-[Lookup multiple choice](lookup-multiple-choice.md)
+[Lookup multiple choice]()
 
-[Lookup select box](lookup-select-box.md)
+[Lookup select box]()
 
-[Custom and Custom with label](custom.md)
+[Custom and Custom with label]()
 
-[Masked](masked.md)
+[Masked]()
 
-[Multi-line text](multi-line.md)
+[Multi-line text]()
 
-[Multiple choice](multiple-choice.md)
+[Multiple choice]()
 
-[Numeric scale](numeric-scale.md)
+[Numeric scale]()
 
-[Reference](reference.md)
+[Reference]()
 
-[Requested for](requested-for.md)
+[Requested for]()
 
-[Rich Text Label](rich-text-label.md)
+[Rich Text Label]()
 
-[Select box](select-box.md)
+[Select box]()
 
-[Single-line text](single-line-text.md)
+[Single-line text]()
 
-[UI page](ui-page.md)
+[UI page]()
 
-[URL](url.md)
+[URL]()
 
-[Wide single-line text](wide-single-line-text.md)
+[Wide single-line text]()
 
-[Yes/No](yes-no.md)
+[Yes/No]()
 
-[Variable support in various channels](variables-availability.md)
+[Variable support in various channels]()
 

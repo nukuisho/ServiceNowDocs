@@ -2,6 +2,7 @@
 title: Activating the Hermes Messaging Service
 description: The Hermes Messaging Service is enabled when the Glide Hermes Message Queue plugin \(com.glide.hermes\) is activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -24,14 +25,16 @@ This plugin isn't activated directly. Instead, the plugin is activated by any of
 
 **Note:** Stream Connect requires Workflow Data Fabric and Stream Connect subscriptions. For more information, see [https://www.servicenow.com/products/automation-engine.html](https://www.servicenow.com/products/automation-engine.html).
 
-**Parent Topic:**[Configuring Hermes Messaging Service](configuring-hermes-messaging-service.md)
+**Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
 
 **Related topics**  
 
 
-[Set up a secure connection to the Hermes Messaging Service](../task/set-up-secure-connection-to-hermes.md)
+[Set up a secure connection to the Hermes Messaging Service]()
 
-[Revoke a Hermes certificate](../task/revoke-certificate.md)
+[Revoke a Hermes certificate]()
 
-[Restricting access to Hermes](restricting-access-hermes-topics.md)
+[Restricting access to Hermes]()
+
+[Enable encryption at rest for a Hermes topic]()
 

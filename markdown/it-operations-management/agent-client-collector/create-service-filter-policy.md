@@ -2,13 +2,14 @@
 title: Create a service filter for a policy
 description: Configure a service filter so that the policy monitors only those services that match the filter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-service-filter-policy.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a new ACC policy, Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Create an ACC policy, Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Create a service filter for a policy
@@ -35,7 +36,7 @@ Role required: agent\_client\_collector\_admin
 
     The **Application Service filter** section appears.
 
-    ![Application service filter section](../image/app-service-filter.png "Application Service filter section")
+    \[Omitted image "app-service-filter.png"\] Alt text: Application service filter section
 
 5.  Configure conditions in the fields and select **Save** at the bottom of the page.
 

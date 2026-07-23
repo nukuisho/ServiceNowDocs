@@ -2,6 +2,7 @@
 title: Send notifications for daily health verification
 description: Use Emergency Outreach to notify users to report their daily health status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/send-daily-health-verif-notif-outreach.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -17,7 +18,7 @@ Use Emergency Outreach to notify users to report their daily health status.
 
 ## Before you begin
 
-Users must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md).
+Users must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
 Note the following requirements to be able to send and receive SMS notifications:
 
@@ -26,7 +27,7 @@ Note the following requirements to be able to send and receive SMS notifications
 -   The Notify plug-in and the Notify-Twilio Direct driver must be enabled.
 -   The Label for your number in **Notify** &gt; **Messages** must be set to **Outreach**.
 
-For more information on configuring Notify and the Notify-Twilio Direct driver, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
+For more information on configuring Notify and the Notify-Twilio Direct driver, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-landing-page.md).
 
 Role required: sn\_imt\_checkin.checkin\_admin or admin
 
@@ -42,15 +43,15 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 4.  On the **When to run** tab, specify when the outreach should be sent.
 
-<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d188912e166">
+<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d192571e166">
 
 Option
 
-</th><th align="left" id="d188912e169">
+</th><th align="left" id="d192571e169">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d188912e175">
+</th></tr></thead><tbody><tr><td id="d192571e175">
 
 **To send the notification on demand**
 
@@ -58,7 +59,7 @@ Action
 
 Keep the default **Mode** value of **None**. The outreach is sent when you select **Send Notification**.
 
-</td></tr><tr><td id="d188912e193">
+</td></tr><tr><td id="d192571e193">
 
 **To schedule the notification**
 
@@ -83,15 +84,15 @@ The outreach messages reference a send time based on the time zone of the user s
 
 5.  Identify who will receive the outreach notification through either the Emergency Outreach or Safe Workplace application.
 
-<table id="choicetable_mxq_4sk_jmb"><thead><tr><th align="left" id="d188912e300">
+<table id="choicetable_mxq_4sk_jmb"><thead><tr><th align="left" id="d192571e300">
 
 App
 
-</th><th align="left" id="d188912e303">
+</th><th align="left" id="d192571e303">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d188912e309">
+</th></tr></thead><tbody><tr><td id="d192571e309">
 
 **Emergency Outreach standalone**
 
@@ -99,7 +100,7 @@ Action
 
 On the Select targeted audience tab, select the combination of users to send the outreach notification to. Choose from user lists, groups, departments, locations, or other search filters such as building, cost center, or country code.
 
-</td></tr><tr><td id="d188912e324">
+</td></tr><tr><td id="d192571e324">
 
 **Safe Workplace**
 
@@ -116,15 +117,15 @@ On the Safe Workplace **Audience** tab, select the name of the audience to send 
 
 8.  On the **Content configuration** tab, specify how to send the outreach notification.
 
-<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d188912e381">
+<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d192571e381">
 
 Option
 
-</th><th align="left" id="d188912e384">
+</th><th align="left" id="d192571e384">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d188912e390">
+</th></tr></thead><tbody><tr><td id="d192571e390">
 
 **Disable the email notification**
 
@@ -132,15 +133,15 @@ Action
 
 Clear the **Email** check box.
 
-</td></tr><tr><td id="d188912e402">
+</td></tr><tr><td id="d192571e402">
 
 **Select a different notification**
 
 </td><td>
 
-Click the lookup icon \(![Click icon to look up a notification](../../contact-tracing/image/icon-lookup.png)\) and select **Daily Health Verification**.
+Click the lookup icon \(\[Omitted image "icon-lookup.png"\] Alt text: Click icon to look up a notification\) and select **Daily Health Verification**.
 
-</td></tr><tr><td id="d188912e421">
+</td></tr><tr><td id="d192571e421">
 
 **Review and edit the introductory message**
 
@@ -148,7 +149,7 @@ Click the lookup icon \(![Click icon to look up a notification](../../contact-tr
 
 Modify the subject and body. The notification includes the link to the daily health verification form that the user can submit in the instance or mobile app.
 
-</td></tr><tr><td id="d188912e433">
+</td></tr><tr><td id="d192571e433">
 
 **Send a mobile push notification**
 
@@ -161,7 +162,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 2.  Modify the push message text as desired.
  Push notifications use the ServiceNow Request Application notification device. When mobile application is registered to an instance, this notification device is automatically created in the user's notification preferences. Ensure that this device is active for the users that you want to receive the push notification.
 
-</td></tr><tr><td id="d188912e463">
+</td></tr><tr><td id="d192571e463">
 
 **Send an SMS notification**
 
@@ -177,7 +178,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 
  SMS reply options are dynamically populated from the Response Options table \[sn\_imt\_checkin\_response\_option\].
 
-</td></tr><tr><td id="d188912e504">
+</td></tr><tr><td id="d192571e504">
 
 **Use a custom notification channel**
 
@@ -199,16 +200,16 @@ Review the daily health verification acknowledgements. Resend the notification t
 
 For example, say you send the daily health notification to Zane from August 1 to August 10. If Zane uses the link in the notification sent on August 4, then the acknowledgement status for Zane is updated in the notification sent on August 10.
 
-**Parent Topic:**[Emergency Outreach](../concept/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md)
 
 **Related topics**  
 
 
-[Add a Safe Workplace audience for Emergency Outreach](add-sw-audience-outreach.md)
+[Add a Safe Workplace audience for Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/add-sw-audience-outreach.md)
 
-[Send an Outreach notification for the daily contact log](../../contact-tracing/task/send-outreach-notif-daily-log.md)
+[Send an Outreach notification for the daily contact log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/send-outreach-notif-daily-log.md)
 
-[Send an Emergency Outreach notification for employee privacy consents in Contact Tracing](../../contact-tracing/task/send-outreach-notif-privacy.md)
+[Send an Emergency Outreach notification for employee privacy consents in Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/send-outreach-notif-privacy.md)
 
-[Send a readiness survey and view responses](send-eo-outreach-survey.md)
+[Send a readiness survey and view responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/send-eo-outreach-survey.md)
 

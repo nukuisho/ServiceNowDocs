@@ -2,6 +2,7 @@
 title: Customize Employee Center portal theme
 description: A theme is a collection of one or more style sheets \(CSS files\) that define a consistent look for a set of pages. Customize the default portal theme to apply your own theme to suit your branding and improve the visual design of the portal pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/customize-theme.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -41,7 +42,7 @@ Employee Center application ships a default **EC theme** that has the best visua
 
     3.  Edit the **CSS variables** field to customize the text and the background colors of your portal.
 
-        For a description of the field values to create a portal theme, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CustomCSS.md).
+        For a description of the field values to create a portal theme, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CustomCSS.md).
 
 4.  Navigate to **Service Portal** &gt; **Portals** &gt; **Employee Center**, click **Try it** to preview Employee Center.
 
@@ -51,9 +52,9 @@ Employee Center application ships a default **EC theme** that has the best visua
 **Related topics**  
 
 
-[Configure Employee Center Pro Kiosk](deskless-kiosk-config.md)
+[Configure Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-config.md)
 
-[Enhanced chat in Employee Center](../concept/nass-now-assissist-self-service.md)
+[Enhanced chat in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/nass-now-assissist-self-service.md)
 
-[Configure portal branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_BrandingEditor.md)
+[Configure portal branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_BrandingEditor.md)
 

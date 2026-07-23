@@ -6,20 +6,21 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [ATS integration, applicant tracking system, integrate ATS, hiring workflow, recruitment integration]
 ---
 
 # Integrate with your ATS
 
 Integrate your Hiring Experiences environment with your preferred ATS to create a seamless hiring workflow.
 
--   **[Send job requisitions to the ATS](../task/send-a-job-requisition-to-the-ats.md)**  
+-   **[Send job requisitions to the ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/send-a-job-requisition-to-the-ats.md)**  
 Send the job requisitions to your integrated ATS to get posted on the job boards.
--   **[Upload job requisitions using import sets](../task/upload-reqs-with-import-sets.md)**  
+-   **[Upload job requisitions using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/upload-reqs-with-import-sets.md)**  
 Bring all your historic job requisition data from your ATS to your ServiceNow instance with the import sets.
--   **[Receive application and applicant data from ATS](receive-application-data-ta.md)**  
+-   **[Receive application and applicant data from ATS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/receive-application-data-ta.md)**  
 Import the application and applicant details from your integrated ATS into the system for processing.
--   **[Upload job applications using import sets](../task/upload-applcatin-with-import-sets.md)**  
+-   **[Upload job applications using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/upload-applcatin-with-import-sets.md)**  
 Upload job application data from your ATS to your ServiceNow instance at regular intervals using import sets.
 
-**Parent Topic:**[Integrations for Hiring Experiences](integrate-with-talent-acquisition.md)
+**Parent Topic:**[Integrations for Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-with-talent-acquisition.md)
 

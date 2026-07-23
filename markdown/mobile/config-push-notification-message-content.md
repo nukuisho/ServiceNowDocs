@@ -2,6 +2,7 @@
 title: Configure push notification message content
 description: Configure push notification message content and select which mobile application receives notifications. You can configure critical alert notifications, customize the message appearance, and determine the deep link used when users tap the notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/config-push-notification-message-content.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Configure push notification message content and select which mobile application 
 
 ## Before you begin
 
-To configure push notification message content, you must generate a deep link using the mobile deep link generator. For more information, see [Deep linking for mobile](../concept/deep-link-mobile.md).
+To configure push notification message content, you must generate a deep link using the mobile deep link generator. For more information, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
 
 Role required: admin
 
@@ -32,7 +33,7 @@ Push notification message content supports up to three additional fields. If the
 
 **Note:** The text slots are fixed on the mobile app, so you cannot change their location or size. Each slot maps to a `Status`, `Identifier`, and `Description` within the JSON object in the push notification message content script.
 
-Mobile UI styles are also available for additional fields. For more information around styling, see [Mobile UI styles](../concept/mobile-ui-styles.md).
+Mobile UI styles are also available for additional fields. For more information around styling, see [Mobile UI styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-styles.md).
 
 ## Procedure
 
@@ -77,7 +78,7 @@ Push Message Generation
 The script block that contains the notification link. In the script block, the JSON object must return a link and a `Link` key must exist. The key should have a corresponding deep link value generated through the mobile deep link generator.
 
 </td></tr></tbody>
-</table>    This example shows the completed form and a JSON object with the appropriate `Link` key and a corresponding deep link value.![Push Message Content form with all of the fields completed and an example deep link indicated by Link key.](../image/mobile-push-content-deep-link-sample.png)
+</table>    This example shows the completed form and a JSON object with the appropriate `Link` key and a corresponding deep link value.\[Omitted image "mobile-push-content-deep-link-sample.png"\] Alt text: Push Message Content form with all of the fields completed and an example deep link indicated by Link key.
 
 4.  Add additional fields to the notification content, such as a text slot.
 
@@ -145,7 +146,7 @@ The script block that contains the notification link. In the script block, the J
 
     If you don't add a customized notification title, the notification displays the default mobile app name.
 
-    ![Image showing the difference between a standard notification message title that displays the mobile app name and a custom title that describes the notification.](../image/mob-cust-not-tit-with-callout.png)
+    \[Omitted image "mob-cust-not-tit-with-callout.png"\] Alt text: Image showing the difference between a standard notification message title that displays the mobile app name and a custom title that describes the notification.
 
     In the **Push Message Generation** script block, add the following example code in the `json` section:
 
@@ -194,7 +195,7 @@ You created a push notification message content record that contains a deep link
 
 ## What to do next
 
-After configuring push notification message content, it must be paired with a push notification message record. For more information on configuring a push notification message, see [Configure a push notification message](configure-push-notification-message.md).
+After configuring push notification message content, it must be paired with a push notification message record. For more information on configuring a push notification message, see [Configure a push notification message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-push-notification-message.md).
 
-**Parent Topic:**[Mobile push notification components](../concept/configure-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-push-notifications.md)
 

@@ -2,9 +2,10 @@
 title: General shapes
 description: The general shapes section provides basic design elements that can be used to construct diagrams. By inserting icons such as arrows, circles, and text boxes, you can visually represent concepts, relationships, and processes in a clear and structured manner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-general-shapes.html
 release: australia
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -19,26 +20,26 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 
 |Shape|Name|
 |-----|----|
-|![Actor](../../image/eaw-image/modeling/icon-actor.png)|Actor|
-|![Arrow](../../image/eaw-image/modeling/icon-arrow.png)|Arrow|
-|![Chevron](../../image/eaw-image/modeling/icon-chevron.png)|Chevron|
-|![Circle](../../image/eaw-image/modeling/icon-circle.png)|Circle|
-|![Cylinder](../../image/eaw-image/modeling/icon-cylinder.png)|Cylinder|
-|![Diamond](../../image/eaw-image/modeling/icon-diamond.png)|Diamond|
-|![Double ended arrow](../../image/eaw-image/modeling/icon-double-ended-arrow.png)|Double ended arrow|
-|![Eight pointed star](../../image/eaw-image/modeling/icon-eight-pointed-star.png)|Eight pointed star|
-|![Five pointed star](../../image/eaw-image/modeling/icon-five-pointed-star.png)|Five pointed star|
-|![Half eclipse](../../image/eaw-image/modeling/icon-half-eclipse.png)|Half eclipse|
-|![Junction](../../image/eaw-image/modeling/icon-junction.png)|Junction|
-|![Octagon](../../image/eaw-image/modeling/icon-octagon.png)|Octagon|
-|![Parallelogram](../../image/eaw-image/modeling/icon-parallelogram.png)|Parallelogram|
-|![Pentagon](../../image/eaw-image/modeling/icon-pentagon.png)|Pentagon|
-|![Rectangle](../../image/eaw-image/modeling/icon-rectangle.png)|Rectangle|
-|![Speech bubble](../../image/eaw-image/modeling/icon-speech-bubble.png)|Speech bubble|
-|![Square](../../image/eaw-image/modeling/icon-square.png)|Square|
-|![Sticky note](../../image/eaw-image/modeling/icon-sticky-note.png)|Sticky note|
-|![Text box](../../image/eaw-image/modeling/icon-text-box.png)|Text box|
-|![Triangle](../../image/eaw-image/modeling/icon-triangle.png)|Triangle|
+|\[Omitted image "icon-actor.png"\] Alt text: Actor|Actor|
+|\[Omitted image "icon-arrow.png"\] Alt text: Arrow|Arrow|
+|\[Omitted image "icon-chevron.png"\] Alt text: Chevron|Chevron|
+|\[Omitted image "icon-circle.png"\] Alt text: Circle|Circle|
+|\[Omitted image "icon-cylinder.png"\] Alt text: Cylinder|Cylinder|
+|\[Omitted image "icon-diamond.png"\] Alt text: Diamond|Diamond|
+|\[Omitted image "icon-double-ended-arrow.png"\] Alt text: Double ended arrow|Double ended arrow|
+|\[Omitted image "icon-eight-pointed-star.png"\] Alt text: Eight pointed star|Eight pointed star|
+|\[Omitted image "icon-five-pointed-star.png"\] Alt text: Five pointed star|Five pointed star|
+|\[Omitted image "icon-half-eclipse.png"\] Alt text: Half eclipse|Half eclipse|
+|\[Omitted image "icon-junction.png"\] Alt text: Junction|Junction|
+|\[Omitted image "icon-octagon.png"\] Alt text: Octagon|Octagon|
+|\[Omitted image "icon-parallelogram.png"\] Alt text: Parallelogram|Parallelogram|
+|\[Omitted image "icon-pentagon.png"\] Alt text: Pentagon|Pentagon|
+|\[Omitted image "icon-rectangle.png"\] Alt text: Rectangle|Rectangle|
+|\[Omitted image "icon-speech-bubble.png"\] Alt text: Speech bubble|Speech bubble|
+|\[Omitted image "icon-square.png"\] Alt text: Square|Square|
+|\[Omitted image "icon-sticky-note.png"\] Alt text: Sticky note|Sticky note|
+|\[Omitted image "icon-text-box.png"\] Alt text: Text box|Text box|
+|\[Omitted image "icon-triangle.png"\] Alt text: Triangle|Triangle|
 
-**Parent Topic:**[Shapes to create a modeling diagram](eaw-modeling-shapes.md)
+**Parent Topic:**[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-shapes.md)
 

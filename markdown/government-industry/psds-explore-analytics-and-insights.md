@@ -2,6 +2,7 @@
 title: Exploring Analytics and insights for Public Sector Digital Services
 description: Use the Performance Analytics applications for Public Sector Digital Services to report your constituent service performance and effectiveness. You can use the predefined key performance indicators \(KPIs\) and preconfigured role-based dashboards for monitoring your service processes. These analytics enable you to align your organizational goals across all roles, from executive to manager to agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-explore-analytics-and-insights.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ By using the preconfigured Performance Analytics dashboards, you can provide you
 
 The following example shows a Performance Analytics dashboard with citizen service trends and how efficient government cases were handled that month.
 
-![Constituent Services Overview tab that displays indicators and reports for constituent cases represented by various graphs and tiles.](../image/constituent-service-overview-dboard-new.png "Public Sector Digital Services Constituent Services dashboard")
+\[Omitted image "constituent-service-overview-dboard-new.png"\] Alt text: Constituent Services Overview tab that displays indicators and reports for constituent cases represented by various graphs and tiles.
 
-To learn more about the Performance Analytics solutions, see [Analytics and Reporting Solutions for Public Sector Digital Services](../../../use/application-content-packs/concept/psds-content-pack.md).
+To learn more about the Performance Analytics solutions, see [Analytics and Reporting Solutions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-content-pack.md).
 

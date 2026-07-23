@@ -2,6 +2,7 @@
 title: Project export to Microsoft Project
 description: If you are using Microsoft Project to manage project activities, you can export a project to Microsoft Project \(mpp\) file, an XML file, or a CSV file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_ProjectExportToMicrosoftProject.html
 release: australia
 product: Project Management
 classification: project-management
@@ -39,23 +40,23 @@ If tasks in your project contain any of the supported constraints, then the cons
 
 **Note:** Shadow tasks and external dependencies are not exported when you export the project data.
 
--   **[Export project data](../task/t_ExportAProjectWithTheProjectForm.md)**  
+-   **[Export project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_ExportAProjectWithTheProjectForm.md)**  
 Export the project data using the Export module, Project form, or Planning Console. Save the export file to a folder on your system in the Microsoft Project \(MPP\), XML, or CSV format.
 
-**Parent Topic:**[Importing and exporting projects](c_ProjectImportAndExport.md)
+**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 
 **Related topics**  
 
 
-[Project field mapping](../reference/r_ProjectFieldMapping.md)
+[Project field mapping]()
 
-[Create custom field mapping for Microsoft Project file import](../task/map-custom-fields-msp-project.md)
+[Create custom field mapping for Microsoft Project import]()
 
-[Project import from Microsoft Project](project-import-msp.md)
+[Project import from Microsoft Project]()
 
-[Import project tasks for multiple projects](../task/import-project-tasks-multiple-projects.md)
+[Import project tasks for multiple projects]()
 
-[Calendars and schedules- Limitations](c_CalendarsAndSchedules.md)
+[Calendars and schedules- Limitations]()
 
-[Importing and exporting projects](c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 

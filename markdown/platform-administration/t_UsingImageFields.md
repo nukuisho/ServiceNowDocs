@@ -2,6 +2,7 @@
 title: Image field type
 description: Image fields enable you to add images to forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_UsingImageFields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ You can add a new image field.
 
 2.  Create a new field with the **Type** set to **Image**.
 
-    For instructions, see [Add and customize a field in a table](t_CreatingNewFields.md).
+    For instructions, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
 
 3.  Add the new field to the form and save your customization.
 
@@ -44,10 +45,10 @@ You can add a new image field.
 
 ## Result
 
-![Picture displayed in image field](../image/PhotoField.png)
+\[Omitted image "PhotoField.png"\] Alt text: Picture displayed in image field
 
 **Related topics**  
 
 
-[Configuring the form layout](../../form-administration/concept/configure-form-layout.md#)
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
 

@@ -2,6 +2,7 @@
 title: Summarize a Sidebar discussion by using Now Assist for HRSD
 description: Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the Now Assist for HR Service Delivery \(HRSD\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/sidebar-discussion-nahr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -17,7 +18,7 @@ Generate a summary of the Sidebar discussions between agents, requesters, and su
 
 ## Before you begin
 
-[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md).
+[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
 Role required: sn\_hr\_core.case\_writer
 
@@ -31,7 +32,7 @@ You can do these actions by using Sidebar discussion summarization:
 
 **Note:** The Sidebar discussion summarization skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
@@ -49,19 +50,19 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
     3.  Select **Start Discussion**.
 
-3.  Generate a summary of the Sidebar discussion during the conversation either by using the Summarize quick action \(enter `/Summarize` in the Active sidebar discussion window\), or by selecting the quick action icon ![Quick action icon.](../image/now-assist-sidebar-lightning-bolt-icon.png).
+3.  Generate a summary of the Sidebar discussion during the conversation either by using the Summarize quick action \(enter `/Summarize` in the Active sidebar discussion window\), or by selecting the quick action icon \[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: Quick action icon..
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d577932e236">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d589633e233">
 
 Option
 
-</th><th align="left" id="d577932e239">
+</th><th align="left" id="d589633e236">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d577932e245">
+</th></tr></thead><tbody><tr><td id="d589633e242">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -72,48 +73,48 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d577932e272">
+</td></tr><tr><td id="d589633e269">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you'd like to provide feedback, select either the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\) or the not helpful icon ![Not helpful icon.](../image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you'd like to provide feedback, select either the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\) or the not helpful icon \[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\) in Agent Workspace](../concept/use-now-assist-hr.md)
+**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)](now-assist-hrsd-chat.md)
+[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)]()
 
-[Generate a chat reply recommendation by using Now Assist for HRSD](chat-recommendations-nahr.md)
+[Generate a chat reply recommendation by using Now Assist for HRSD]()
 
-[Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD](gen-kb-now-assisthr.md)
+[Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD]()
 
-[Generate a knowledge article from multiple cases](gen-kb-now-assisthr-multi-case.md)
+[Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation using Now Assist for HRSD](email-recommendation-nahr.md)
+[Generate an email reply recommendation using Now Assist for HRSD]()
 
-[Summarize an HR case using Now Assist for HRSD](now-assist-hrsd-summarize-case.md)
+[Summarize an HR case using Now Assist for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD](now-assist-hrsd-res-note.md)
+[Generate resolution notes using Now Assist for HRSD]()
 
-[View employee summary reports](../../td-leader-hub/task/employee-summary-lh.md)
+[View employee summary reports]()
 
-[Summarize actions while transferring an HR case](tcase-now-assist-hr.md)
+[Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD](na-kb-graph.md)
+[Use Knowledge Graph in Now Assist for HRSD]()
 
-[Use Now Assist for HR - Galileo Inside to answer HR-related questions](use-galileo-inside.md)
+[Use Now Assist for HR - Galileo Inside to answer HR-related questions]()
 
-[Use the Now Assist panel in HR Agent Workspace](now-assist-panel-hr.md)
+[Use the Now Assist panel in HR Agent Workspace]()
 
-[Submit an HR request with Gen AI Virtual Agent](use-genai-hrsd.md)
+[Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](../concept/integ-now-assist-hrsd.md)
+[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)](analyze-sentiments-now-assist.md)
+[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
 

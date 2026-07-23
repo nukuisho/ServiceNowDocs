@@ -2,12 +2,13 @@
 title: Set up prioritized intraday optimization with matching rules
 description: Configure prioritized intraday optimization to use matching rules that narrow job assignment decisions. Matching rules deliver focused, efficient job recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/set-up-prioritized-intraday-optimization-with-matching-rules.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Optimization for prioritized events, Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
@@ -17,9 +18,9 @@ Configure prioritized intraday optimization to use matching rules that narrow jo
 
 ## Before you begin
 
-Matching rules for prioritized intraday optimization require [Territory-Based Optimization](territory-based-optimization.md) to be enabled. Configurations using assignment groups don’t support matching rules.
+Matching rules for prioritized intraday optimization require [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md) to be enabled. Configurations using assignment groups don’t support matching rules.
 
-Install the Field Service Management Demo Data \[com.snc.work\_management.demo\] plugin to access example matching rules. For more information see, [Activate Field Service Management](../../planning-and-policy/task/t_ActivateFieldServiceManagement.md).
+Install the Field Service Management Demo Data \[com.snc.work\_management.demo\] plugin to access example matching rules. For more information see, [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ActivateFieldServiceManagement.md).
 
 Role required: wm\_admin
 
@@ -56,19 +57,27 @@ You can use these example matching rules or create your own.
 
 7.  Move qualifiers from the **Collection** list to the **Qualifiers** list and select **Save**.
 
-8.  Set **Enable prioritized event optimization** to **True**.
+8.  In the **Qualifiers** tab, set the**Enable prioritized event optimization** field to **True** for each qualifier.
 
-9.  Add matching rules to your configuration:
+9.  Set the **Enable matching rules** field to **True** for each qualifier that should use matching rules.
+
+    When False, the optimization engine uses default filters, affected tasks and technicians.
+
+10. Enter a **Maximum search radius** value.
+
+11. Set the **Distance unit** field to **Miles** or **Kilometers** for each qualifier.
+
+12. Add matching rules to your configuration:
 
     -   To enable existing matching rules, continue to step 10.
-    -   To create your own matching rules, select **Save**, then see [Create matching rules for intraday events](create-matching-rules-for-intraday-events.md).
-10. In the **Matching Rules** tab, select **Edit**.
+    -   To create your own matching rules, select **Save**, then see [Create matching rules for intraday events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-matching-rules-for-intraday-events.md).
+13. In the **Matching Rules** tab, select **Edit**.
 
-11. Move the desired matching rules from the **Collection** list to the **Matching Rules** list and select **Save**.
+14. Move the desired matching rules from the **Collection** list to the **Matching Rules** list and select **Save**.
 
-12. Select **Update**.
+15. Select **Update**.
 
-13. Choose which event types use matching rules.
+16. Choose which event types use matching rules.
 
     1.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Intraday Optimization** &gt; **Event Types**.
 
@@ -82,7 +91,7 @@ When intraday optimization runs for the selected qualifier and detects an event 
 **Related topics**  
 
 
-[Activate intraday optimization](activate-intraday-optimization.md)
+[Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-intraday-optimization.md)
 
-[Configure intraday optimization](configure-intraday-optimization.md)
+[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
 

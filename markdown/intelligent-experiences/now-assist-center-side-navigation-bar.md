@@ -2,6 +2,7 @@
 title: Side navigation bar
 description: The side navigation bar provides access to Now Assist applications and features integrated with Now Assist Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-side-navigation-bar.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-25"
@@ -16,7 +17,7 @@ The side navigation bar provides access to Now Assist applications and features 
 
 Select an item in the navigation bar to open it in a workspace tab.
 
-![Selection from the side navigation bar in Now Assist Center.](../image/now-assist-center-navigation-bar-select.png "Side navigation bar")
+\[Omitted image "now-assist-center-navigation-bar-select-2.png"\] Alt text: Selection from the side navigation bar in Now Assist Center.
 
 The side navigation bar includes the following options:
 
@@ -38,7 +39,7 @@ Home
 
 </td><td>
 
-![Home option in the side navigation bar.](../image/icon-now-assist-center-nav-home.png)
+\[Omitted image "icon-now-assist-center-nav-home.png"\] Alt text: Home option in the side navigation bar.
 
 </td><td>
 
@@ -50,7 +51,7 @@ Asset inventory
 
 </td><td>
 
-![Asset inventory option in the side navigation bar.](../image/icon-now-assist-center-nav-assets.png)
+\[Omitted image "icon-now-assist-center-nav-assets.png"\] Alt text: Asset inventory option in the side navigation bar.
 
 </td><td>
 
@@ -64,7 +65,7 @@ Data
 
 </td><td>
 
-![Data option in the side navigation bar.](../image/icon-now-assist-center-nav-data.png)
+\[Omitted image "icon-now-assist-center-nav-data.png"\] Alt text: Data option in the side navigation bar.
 
 </td><td>
 
@@ -72,11 +73,23 @@ The data page allows you to use Now Assist Data Kit in the Now Assist Center wor
 
 </td></tr><tr><td>
 
+AI readiness assessment
+
+</td><td>
+
+\[Omitted image "icon-now-assist-center-nav-readiness.png"\] Alt text: AI readiness assessment option in the side navigation bar.
+
+</td><td>
+
+The AI readiness assessment page provides a general assessment summary and a list of AI readiness assessments based on your instance data.
+
+</td></tr><tr><td>
+
 Admin
 
 </td><td>
 
-![Admin option in the side navigation bar.](../image/icon-now-assist-center-nav-admin.png)
+\[Omitted image "icon-now-assist-center-nav-admin.png"\] Alt text: Admin option in the side navigation bar.
 
 </td><td>
 
@@ -90,14 +103,14 @@ Monitor
 
 </td><td>
 
-![Monitor option in the side navigation bar.](../image/icon-now-assist-center-nav-monitor.png)
+\[Omitted image "icon-now-assist-center-nav-monitor.png"\] Alt text: Monitor option in the side navigation bar.
 
 </td><td>
 
 The monitor page shows usage, performance, and adoption metrics for your AI solutions.
 
 </td></tr></tbody>
-</table>For more information, see [Using other Now Assist applications and features from Now Assist Center](now-assist-center-using-other-applications.md).
+</table>For more information, see [Using other Now Assist applications and features from Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-other-applications.md).
 
-**Parent Topic:**[Now Assist Center workspace](now-assist-center-workspace.md)
+**Parent Topic:**[Now Assist Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Install Universal Request for SLO
 description: Install the Universal Request for Source-to-Pay Operations \[sn\_fsc\_ur\_common\] plugin to use the Universal Request feature in SLO.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/install-universal-request.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -31,31 +32,31 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for Universal Request for Source-to-Pay Operations.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Components installed with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/installed-with-ur.md).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Components installed with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/installed-with-ur.md).
 
 
-**Parent Topic:**[Configure Supplier Lifecycle Operations](../concept/config-supp-mgmt.md)
+**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
 
 **Related topics**  
 
 
-[Install Supplier Case Management](install-supp-mgmt.md)
+[Install Supplier Case Management]()
 
-[Install Supplier Collaboration Portal](install-supp-central.md)
+[Install Supplier Collaboration Portal]()
 
-[Install Supplier Operations](install-supplier-ops.md)
+[Install Supplier Operations]()
 
-[Install Supplier Payment Optimization](install-supp-payment-opt.md)
+[Install Supplier Payment Optimization]()
 
-[Supplier Document Management](../concept/supp-doc-mgmt-overview.md)
+[Supplier Document Management]()
 
-[Configure the document template for the Sign document action type for supplier task](configure-pdf-template-sign-doc-task.md)
+[Configure the document template for the Sign document action type for supplier task]()
 
-[Advanced Work Assignment for Supplier Lifecycle Operations](../concept/supplier-awa.md)
+[Advanced Work Assignment for Supplier Lifecycle Operations]()
 
-[Enable M2M mapping between supplier contact and suppliers](enable-m2m-supplier-contacts.md)
+[Enable M2M mapping between supplier contact and suppliers]()
 
-[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+[Configure Supplier Relationship and Performance Management]()
 
-[Configure smart assessments](../concept/configure-smart-assessments.md)
+[Configure smart assessments]()
 

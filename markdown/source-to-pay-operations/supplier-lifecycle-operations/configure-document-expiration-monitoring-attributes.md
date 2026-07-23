@@ -2,6 +2,7 @@
 title: Configure document expiration monitoring attributes
 description: Configure document attributes such as grace period, lead time, and reminder frequency to manage document that are near or past their original expiry date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/configure-document-expiration-monitoring-attributes.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -39,7 +40,7 @@ Grace period
 
 </td><td>
 
-Additional time allotted to complete the document upload task after the initial due date is past. The default duration for this attribute is 30 days.**Note:** A supplier case is created once the grace period elapses. For more information, see [Case playbook for specific supplier case types](../concept/gen-playbook-cases.md).
+Additional time allotted to complete the document upload task after the initial due date is past. The default duration for this attribute is 30 days.**Note:** A supplier case is created once the grace period elapses. For more information, see [Case playbook for specific supplier case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/gen-playbook-cases.md).
 
 </td></tr><tr><td>
 
@@ -63,14 +64,14 @@ The number of days before the document expiry date when a document upload task i
 3.  Select **Save**.
 
 
-**Parent Topic:**[Supplier Document Management](../concept/supp-doc-mgmt-overview.md)
+**Parent Topic:**[Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md)
 
 **Related topics**  
 
 
-[Create a supplier document configuration](create-doc-config.md)
+[Create a supplier document configuration]()
 
-[Manually run a supplier document configuration](run-doc-config.md)
+[Manually run a supplier document configuration]()
 
-[Uploading supplier documents](../concept/upload-doc-about.md)
+[Uploading supplier documents]()
 

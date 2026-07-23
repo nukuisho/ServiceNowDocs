@@ -2,6 +2,7 @@
 title: Summarize a chat conversation using Now Assist for Public Sector Digital Services \(PSDS\)
 description: Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer using the chat summarization skill in Now Assist for Public Sector Digital Services \(PSDS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-summarize-chat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,11 +43,11 @@ Role required: admin
 
 2.  In CSM Configurable Workspace, open a chat from your inbox.
 
-    The chat summarization skill automatically creates an inline summary in the Active Chat window. This summary includes the constituent’s issue, the interaction with the Virtual Agent, and any actions the constituent has taken before engaging with a live agent. This summary appears in the Active Chat window and is identified by the Now Assist icon \(![Now assist icon.](../../../common/image/icon-ai-sparkle.png)\) and the **AI chat summary** label.
+    The chat summarization skill automatically creates an inline summary in the Active Chat window. This summary includes the constituent’s issue, the interaction with the Virtual Agent, and any actions the constituent has taken before engaging with a live agent. This summary appears in the Active Chat window and is identified by the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon.\) and the **AI chat summary** label.
 
-    ![AI-generated chat summaries for an interaction.](../image/chat-handoff-na-psds.png)
+    \[Omitted image "chat-handoff-na-psds.png"\] Alt text: AI-generated chat summaries for an interaction.
 
-3.  Provide feedback for the chat summary by selecting the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\) or not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\) on the summary card.
+3.  Provide feedback for the chat summary by selecting the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\) or not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\) on the summary card.
 
     This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
@@ -60,7 +61,7 @@ Role required: admin
 
 6.  If Live Agent to Live Agent handoff is enabled, transfer a chat to another agent after accepting an incoming chat with the following steps:
 
-    1.  Select the Transfer to Agent icon ![Transfer to agent icon](../../../reuse/icons/product-icons/user-transfer-fill-24.svg)to transfer the interaction to another agent.
+    1.  Select the Transfer to Agent icon \[Omitted image "user-transfer-fill-24.svg"\] Alt text: Transfer to agent iconto transfer the interaction to another agent.
 
     2.  Select the name of another live agent.
 

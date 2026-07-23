@@ -2,13 +2,14 @@
 title: Roles in Now Assist for Playbooks
 description: The following roles are installed for use with the Now Assist for Creator playbook generation skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/playbook-assist-roles.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Playbook generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Playbook generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Roles in Now Assist for Playbooks
@@ -40,5 +41,5 @@ Create playbook outlines with placeholder activities by using AI-powered playboo
     None
 
 
-**Parent Topic:**[Playbook generation](../concept/playbook-assist-landing.md)
+**Parent Topic:**[Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist-landing.md)
 

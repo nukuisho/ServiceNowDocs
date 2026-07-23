@@ -2,13 +2,14 @@
 title: Software Component Model table
 description: The Software Component Model \[cmdb\_software\_component\_model\] table stores component model records that serves industries and use cases across different solutions on the ServiceNow Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-component-model-table.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Component Model table
@@ -53,5 +54,5 @@ The following are some considerations to keep in mind for discovery models:
 -   Model deletion or modification: If you delete or modify a software component model, the system won't recreate it from the original discovery model.
 -   Manual re-normalization: When a discovery model is manually normalized with new values, the existing software component model remains as is. The system creates a new software component model only if one does not already exist.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

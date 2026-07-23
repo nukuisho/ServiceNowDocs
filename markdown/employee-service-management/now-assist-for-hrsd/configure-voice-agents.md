@@ -2,6 +2,7 @@
 title: Configure HR AI voice agents
 description: Enable employees to complete tasks, resolve issues, and access information through a conversational experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/configure-voice-agents.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -35,19 +36,19 @@ Install the following plugins:
 
     2.  Filter the agents by `Application is HR AI Voice Agents`.
 
-    For more information on the HR-specific agents, see [HR AI voice agents](../concept/now-assist-hrsd-voice-ai-agents.md).
+    For more information on the HR-specific agents, see [HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md).
 
 3.  For the following AI voice agents, perform these additional configuration steps.
 
-<table id="choicetable_skr_2cp_3hc"><thead><tr><th align="left" id="d609100e125">
+<table id="choicetable_skr_2cp_3hc"><thead><tr><th align="left" id="d621009e125">
 
 AI agent
 
-</th><th align="left" id="d609100e128">
+</th><th align="left" id="d621009e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d609100e134">
+</th></tr></thead><tbody><tr><td id="d621009e134">
 
 **HR Case assistant**
 
@@ -58,7 +59,7 @@ Steps
 3.  Select **Index selected tables**.
 
 
-</td></tr><tr><td id="d609100e176">
+</td></tr><tr><td id="d621009e176">
 
 **Employee Details Updater, Holiday Calendar, Retrieve Worker Profile, Time off Requester**
 
@@ -70,21 +71,21 @@ Steps
     -   sn\_hr\_integr\_fw \(3.8.1 or later\)
     -   sn\_hr\_oracle\_adv \(1.2.1 or later\)
     -   com.glide.hub.integrations.enterprise
-2.  Follow the steps to [Set up the Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-the-oracle-hcm-spoke.md)
+2.  Follow the steps to [Set up the Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-the-oracle-hcm-spoke.md)
 
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
-Test the execution of the HR AI Voice agents by calling the telephony number to verify that the agent functions the way you expect. For more information, see [Test a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/test-a-voice-assistant.md).
+Test the execution of the HR AI Voice agents by calling the telephony number to verify that the agent functions the way you expect. For more information, see [Test a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/test-a-voice-assistant.md).
 
-Assign roles to admins and users to grant them access to Voice features. See [Components installed with voice](../reference/components-installed-voice-agents.md).
+Assign roles to admins and users to grant them access to Voice features. See [Components installed with voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/components-installed-voice-agents.md).
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md)
+**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[HR AI voice agents](../concept/now-assist-hrsd-voice-ai-agents.md)
+[HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-voice-ai-agents.md)
 

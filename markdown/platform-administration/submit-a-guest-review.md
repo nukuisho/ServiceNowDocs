@@ -1,7 +1,8 @@
 ---
 title: Submit a guest review
-description: Submit a guest review to leave feedback on an app or integration if you don't have a ServiceNow Store account or want to leave an anonymous review.
+description: Submit a guest review to leave feedback on an app or integration if you aren't logged in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/submit-a-guest-review.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -12,7 +13,7 @@ breadcrumb: [Reviewing apps, ServiceNow Store, Administering applications, Get s
 
 # Submit a guest review
 
-Submit a guest review to leave feedback on an app or integration if you don't have a ServiceNow Store account or want to leave an anonymous review.
+Submit a guest review to leave feedback on an app or integration if you aren't logged in.
 
 ## Before you begin
 
@@ -20,7 +21,7 @@ Role required: None
 
 ## About this task
 
-The ability to review apps is not currently available to federal customers.
+Reviews left on an application only show up in the environment where the review was made. For example, reviews made from the commercial ServiceNow Store are only visible on the commercial ServiceNow Store. Reviews made from a regulated regional or federal instance of the ServiceNow Store are only visible to users in the same instance of the ServiceNow Store.
 
 ## Procedure
 
@@ -32,14 +33,14 @@ The ability to review apps is not currently available to federal customers.
 
 4.  On the guest review form, fill in the fields.
 
-    For a description of the field values, see [Guest review form fields](../reference/guest-review-form-fields.md).
+    For a description of the field values, see [Guest review form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/guest-review-form-fields.md).
 
 5.  Select **Submit**.
 
 
 ## Result
 
-The name, company, comment, and rating that you entered into the Guest review form are visible in the review posted to the app listing details.
+For commercial customers, your company, review, and rating are visible in a review posted to the app listing details. For customers using a federal or regulated ServiceNow Store instance, only the rating and review fields are made visible.
 
-**Parent Topic:**[Reviewing apps](../concept/reviewing-apps.md)
+**Parent Topic:**[Reviewing apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/reviewing-apps.md)
 

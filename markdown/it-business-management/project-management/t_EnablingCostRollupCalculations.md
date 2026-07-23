@@ -2,6 +2,7 @@
 title: Enable cost rollup calculations
 description: Enable rollup calculations from the project properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_EnablingCostRollupCalculations.html
 release: australia
 product: Project Management
 classification: project-management
@@ -32,14 +33,14 @@ Role required: it\_project\_manager
 
 Rollup values are read-only on forms. Point to the icon beside the field for a tooltip message.
 
-![Tooltip message](../image/Rollup_popup.png "Tooltip")
+\[Omitted image "Rollup\_popup.png"\] Alt text: Tooltip message
 
-**Parent Topic:**[Create a project cost plan](t_CreateAProjectCostPlan.md)
+**Parent Topic:**[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md)
 
 **Related topics**  
 
 
-[Create a project cost plan](t_CreateAProjectCostPlan.md)
+[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md)
 
-[Update a cost plan breakdown](update-cost-plan-breakdown.md)
+[Update a cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-cost-plan-breakdown.md)
 

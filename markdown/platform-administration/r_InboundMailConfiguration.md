@@ -2,6 +2,7 @@
 title: Inbound email configuration
 description: The Inbound Email Configuration section of the Email Properties page contains properties to control inbound email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_InboundMailConfiguration.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -111,16 +112,16 @@ Comma-separated list of trusted domains for which the instance automatically cre
 -   Learn More:Enabling Automatic User Creation
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email properties](../concept/c_EmailProperties.md)
+</table>**Parent Topic:**[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailProperties.md)
 
 **Related topics**  
 
 
-[Outbound email configuration](r_OutboundMailConfiguration.md)
+[Outbound email configuration]()
 
-[Email image filtering properties](../../notification/concept/email-image-filters.md)
+[Email image filtering properties]()
 
-[Email digest properties](../../notification/concept/email-digest-properties.md)
+[Email digest properties]()
 
-[Advanced email properties](r_AdditionalProperties.md)
+[Advanced email properties]()
 

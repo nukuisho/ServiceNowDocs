@@ -2,6 +2,7 @@
 title: Activate Customer Central for viewing profile information
 description: Install Customer Central using Customer Service Guided Setup so that agents can have a complete view of constituent, business, or agency information in Public Sector Digital Services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/public-sector-enable-customer-central.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +38,5 @@ Customer Central displays all the touchpoints that a constituent, business, or a
     You can perform other changes to this layout, as needed. For more information, see [Configure the Customer Information view using the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cust-central-configure-info-tab.md).
 
 
-**Parent Topic:**[Set up the CSM Configurable Workspace for Public Sector Digital Services](../concept/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the CSM Configurable Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/setting-up-csm-fsm.md)
 

@@ -2,6 +2,7 @@
 title: Advanced Work Assignment roles
 description: Advanced Work Assignment \(AWA\) is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-roles.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

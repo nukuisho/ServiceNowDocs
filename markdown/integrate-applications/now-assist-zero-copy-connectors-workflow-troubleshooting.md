@@ -2,6 +2,7 @@
 title: Now Assist for Zero Copy Connector workflow troubleshooting
 description: Use generative AI logs and Workflow Studio to troubleshoot issues with Now Assist for Zero Copy Connector agentic workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-zero-copy-connectors-workflow-troubleshooting.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,8 +27,8 @@ A second option is to enable a system property and use Workflow Studio. The com.
 3.  Check that the **Value** is set to **True**.
 4.  After the property is enabled, use Workflow Studio to check executions.
 
-    ![Workflow studio operations tab, with two executions highlighted.](../images/erp-data-explorer-workflow6.png)
+    \[Omitted image "erp-data-explorer-workflow6.png"\] Alt text: Workflow studio operations tab, with two executions highlighted.
 
-    For more information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
+    For more information, see .
 
 

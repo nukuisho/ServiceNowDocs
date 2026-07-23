@@ -2,6 +2,7 @@
 title: Add staff members to an external business location
 description: Add users as staff members to an external business location to support accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-user-external-bus-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

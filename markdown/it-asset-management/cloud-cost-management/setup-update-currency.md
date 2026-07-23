@@ -2,13 +2,14 @@
 title: Set up or update preferred currency options
 description: Set up or update the preferred currency options for your cloud cost and usage data to gain reporting flexibility. These currency options become available for Cloud Cost Management users to choose from.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/setup-update-currency.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Set up or update preferred currency options
@@ -31,7 +32,7 @@ Setting up currency options enables Cloud Cost Management users to choose from t
 
 2.  Select a currency code from the **Currency Option 1** drop-down list
 
-    ![Multi-currency setup in the Cloud Cost Management Workspace](../image/multicurrency-setup.png "Multi-currency setup")
+    \[Omitted image "multicurrency-setup.png"\] Alt text: Multi-currency setup in the Cloud Cost Management Workspace
 
 3.  Select the **Active** check box for **Currency Option 1** to activate the currency.
 
@@ -50,5 +51,8 @@ Setting up currency options enables Cloud Cost Management users to choose from t
 
 After the **Status** field changes to Ready, the selected currencies become available for selection in the **Currency preference** list on the Operations view.
 
-**Parent Topic:**[Using Cloud Cost Management](../concept/using-cloud-insights.md)
+-   **[Choose preferred currency for cost and usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/choose-pref-currency.md)**  
+Choose your preferred currency from the available options that will be shown for all the billing and usage data. The currency that you choose becomes the display currency on all the dashboard widgets, recommendations \(rightsizing, business hours, unused resources, reservation/savings plan\), budgets, and billing data.
+
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

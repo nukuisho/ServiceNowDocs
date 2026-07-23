@@ -2,6 +2,7 @@
 title: OAuth 2.0 credentials for GitHub Apps - JWT
 description: Perform the following steps to integrate your GitHub Apps using the JWT bearer token.Create a custom GitHub App from your GitHub account to enable OAuth 2.0 authentication with your ServiceNow instance.Generate a Java KeyStore \(JKS\) certificate for the JWT authentication.Enable the JWT Bearer Grant token authentication by attaching the valid GitHub Java KeyStore \(JKS\) certificate to your ServiceNow instance.Create a JSON Web Token \(JWT\) signing key to assign to your GitHub Java KeyStore certificate.Add a JSON Web Token \(JWT\) provider to your ServiceNow instance for GitHub.Use the information generated during GitHub App account configuration to register GitHub as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create a credential record to the GitHub App provider previously created to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-github-apps-oath-jwt.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -60,7 +61,7 @@ Complete these steps from your GitHub account. See [Building GitHub Apps](https:
     1.  Navigate to the connected tool's tool record page.
     2.  Select **Configure GitHub App**, then select **Auto configure with existing token**.
 
-        ![Auto configure with existing token.](../image/github-jwt-config-01.png)
+        \[Omitted image "github-jwt-config-01.png"\] Alt text: Auto configure with existing token.
 
     This configures the Webhook URL of the GitHub App automatically.
 
@@ -232,7 +233,7 @@ Role required: admin
     |Key store password|Password associated with the certificate \(hint: the destination KeyStore password previously created\).|
     |Short description|Summary about the certificate.|
 
-4.  Select the attachments icon \(![Attachments icon](../image/dev-ops-attachments-icon.png)\) and attach a JKS certificate.
+4.  Select the attachments icon \(\[Omitted image "dev-ops-attachments-icon.png"\] Alt text: Attachments icon\) and attach a JKS certificate.
 
 5.  Select **Validate Stores/Certificates**.
 
@@ -377,7 +378,7 @@ For the installation id, go to Install App section in your GitHub App configurat
 </td></tr></tbody>
 </table>5.  Leave the rest of the form fields as default.
 
-    ![Application Registry form](../image/github-oauth-jwt-app-registries.png)
+    \[Omitted image "github-oauth-jwt-app-registries.png"\] Alt text: Application Registry form
 
 6.  Right-click the form header, and select **Save**.
 
@@ -391,7 +392,7 @@ For the installation id, go to Install App section in your GitHub App configurat
 
 11. Ensure the **Result** field is set to **Track** and save the changes.
 
-    ![Form that shows the result field is set to track.](../image/github-oauth-provider.png)
+    \[Omitted image "github-oauth-provider.png"\] Alt text: Form that shows the result field is set to track.
 
 
 ## Create a credential record for GitHub App provider \(JWT\)
@@ -428,9 +429,9 @@ Role required: admin, sn\_devops.admin
 **Related topics**  
 
 
-[GitHub Actions configurations](github-actions-integration-with-devops.md#)
+[GitHub Actions configurations]()
 
-[ServiceNow DevOps custom actions from GitHub marketplace](servicenow-devops-custom-actions-from-github-marketplace.md#)
+[ServiceNow DevOps custom actions from GitHub marketplace]()
 
-[GitHub Deployment Gates for ServiceNow DevOps Change](github-deployment-gate-for-servicenow-devops-change.md)
+[GitHub Deployment Gates for ServiceNow DevOps Change]()
 

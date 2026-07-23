@@ -2,6 +2,7 @@
 title: Create a program status report
 description: Create a program status report periodically to view a status rollup of the projects in the program. When you create a status report, the status for different aspects of the program is rolled up from the project status reports of all projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/program-management/create-program-status-report.html
 release: australia
 product: Program Management
 classification: program-management
@@ -109,21 +110,21 @@ System-generated ID number for the status report with a configurable prefix.
 
 5.  Select a different status color to override the rolled-up color for various aspects of the program or select **None** if you do not want the status of an aspect to appear in the program status report.
 
-    Selecting **None** displays a grey X icon \(![None icon](../image/none_icon.png)\) for that program aspect on the program status report.
+    Selecting **None** displays a grey X icon \(\[Omitted image "none\_icon.png"\] Alt text: None icon\) for that program aspect on the program status report.
 
     The override color that you set is not retained from one report to next. When the next program status report is generated, it takes the color from the associated projects.
 
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Create a program to manage projects and demands](t_CreateAProgram.md)
+**Parent Topic:**[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_CreateAProgram.md)
 
 **Related topics**  
 
 
-[Create a program task](t_CreateAProgramTask.md)
+[Create a program task]()
 
-[Allocate budget to a program](allocate-budget-to-program.md)
+[Allocate budget to a program]()
 
-[View program status reports](view-program-status-report.md)
+[View program status reports]()
 

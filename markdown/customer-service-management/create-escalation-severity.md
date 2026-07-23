@@ -2,11 +2,12 @@
 title: Create a case or account escalation severity
 description: The escalation severity defines the type of escalation and the color used to represent the cases and accounts of this escalation severity in the user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-escalation-severity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure escalation management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure escalation management, Case and account escalation, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a case or account escalation severity

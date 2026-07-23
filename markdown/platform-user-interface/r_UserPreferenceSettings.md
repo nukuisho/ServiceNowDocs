@@ -2,6 +2,7 @@
 title: User preference settings
 description: User preferences primarily track the way individual users interact with various features so that new sessions activate the user's last settings. For example, user preferences track whether the user activates the tabbed or scrolling interface for multi-section forms. Other user preference records enable users with the admin role to adjust certain feature settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/r\_UserPreferenceSettings.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -294,7 +295,7 @@ Admin or User
 
 </td><td>
 
-Indicates whether the JavaScript editor and formatting controls are enabled or disabled for the user. The JavaScript editor icon \(![JavaScript editor icon](../image/jscript-icon.png)\) and formatting controls are available only in instances where the Syntax Editor plugin is active. This record updates automatically when a user clicks the icon to enable or disable script editing. For more information, see [JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SyntaxEditor.md).**True** = enable script editor.
+Indicates whether the JavaScript editor and formatting controls are enabled or disabled for the user. The JavaScript editor icon \(\[Omitted image "jscript-icon.png"\] Alt text: JavaScript editor icon\) and formatting controls are available only in instances where the Syntax Editor plugin is active. This record updates automatically when a user clicks the icon to enable or disable script editing. For more information, see [JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SyntaxEditor.md).**True** = enable script editor.
 
  **False** = disable script editor.
 
@@ -316,7 +317,7 @@ Admin or User
 
 </td><td>
 
-Determines whether the response time information is expanded or collapsed at the bottom of a list or form. This record updates automatically whenever the user clicks the response time indicator icon ![Clock indicator icon](../image/clock.png) at the bottom of a v2 list or form.**True** = expand the response time information.
+Determines whether the response time information is expanded or collapsed at the bottom of a list or form. This record updates automatically whenever the user clicks the response time indicator icon \[Omitted image "clock.png"\] Alt text: Clock indicator icon at the bottom of a v2 list or form.**True** = expand the response time information.
 
  **False** = collapse the response time information.
 
@@ -338,7 +339,7 @@ Admin or User
 
 </td><td>
 
-Indicates which dashboard appears when a user first logs in to the instance or clicks the homepage icon \(![Homepage icon](../image/HomeIcon.png)\). The value indicates the sys\_id of the selected dashboard.**Type**: **String**
+Indicates which dashboard appears when a user first logs in to the instance or clicks the homepage icon \(\[Omitted image "HomeIcon.png"\] Alt text: Homepage icon\). The value indicates the sys\_id of the selected dashboard.**Type**: **String**
 
  **Default value**: **None**
 
@@ -374,7 +375,7 @@ Admin or User
 
 </td><td>
 
-Indicates what action opens the list editor in List v2. This record updates automatically when the user personalizes any v2 list and changes the **Double click to edit** setting. For more information, see [List editor administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/r_AdministeringTheListEditor.md) . This preference does not apply to v3 lists. Single-click list editing is not supported in List v3.**True** = open the list editor when the user double-clicks a field in a v2 list.
+Indicates what action opens the list editor in List v2. This record updates automatically when the user personalizes any v2 list and changes the **Double click to edit** setting. For more information, see [List editor administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringTheListEditor.md) . This preference does not apply to v3 lists. Single-click list editing is not supported in List v3.**True** = open the list editor when the user double-clicks a field in a v2 list.
 
  **False** = open the list editor when the user single-clicks a field in a v2 list.
 
@@ -396,7 +397,7 @@ Admin or User
 
 </td><td>
 
-Indicates whether the list editor is available for editing fields directly in a list. This record updates automatically when the user personalizes any list \(gear icon \(![Gear icon](../image/GearIconUI14.png)\) above the first column in the list\) and changes the **Enable list edit** setting. This preference doesn't apply to v3 lists.**True** = enable use of the list editor.
+Indicates whether the list editor is available for editing fields directly in a list. This record updates automatically when the user personalizes any list \(gear icon \(\[Omitted image "GearIconUI14.png"\] Alt text: Gear icon\) above the first column in the list\) and changes the **Enable list edit** setting. This preference doesn't apply to v3 lists.**True** = enable use of the list editor.
 
  **False** = disable use of the list editor.
 
@@ -490,7 +491,7 @@ Admin or User
 
 </td><td>
 
-Indicates which user interface appears on the user's Android mobile device. This record updates automatically each time the user clicks the gear icon \(![Gear icon](../image/GearIconUI14.png)\) above the mobile homepage to display the full desktop interface, or clicks the cell phone icon in the welcome bar to display the mobile interface. **True** = display the full desktop interface on Android mobile devices.
+Indicates which user interface appears on the user's Android mobile device. This record updates automatically each time the user clicks the gear icon \(\[Omitted image "GearIconUI14.png"\] Alt text: Gear icon\) above the mobile homepage to display the full desktop interface, or clicks the cell phone icon in the welcome bar to display the mobile interface. **True** = display the full desktop interface on Android mobile devices.
 
  **False** = display the mobile interface on Android mobile devices.
 
@@ -512,7 +513,7 @@ Admin or User
 
 </td><td>
 
-Indicates which user interface appears on the user's iPhone mobile device. This record updates automatically each time the user clicks the gear icon \(![Gear icon](../image/GearIconUI14.png)\) above the mobile homepage to display the full desktop interface or clicks the cell phone icon in the welcome bar to display the mobile interface. **True** = display the full desktop interface on an iPhone mobile device.
+Indicates which user interface appears on the user's iPhone mobile device. This record updates automatically each time the user clicks the gear icon \(\[Omitted image "GearIconUI14.png"\] Alt text: Gear icon\) above the mobile homepage to display the full desktop interface or clicks the cell phone icon in the welcome bar to display the mobile interface. **True** = display the full desktop interface on an iPhone mobile device.
 
  **False** = display the mobile user interface on an iPhone mobile device.
 
@@ -574,7 +575,7 @@ User Only
 
 </td><td>
 
-**DO NOT MODIFY.** Shows who the administrator most recently impersonated. For more information, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ImpersonateAUser.md).**Type**: **String**
+**DO NOT MODIFY.** Shows who the administrator most recently impersonated. For more information, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ImpersonateAUser.md).**Type**: **String**
 
  **Default value**: **None**
 
@@ -718,7 +719,7 @@ Admin or User
 
 </td><td>
 
-Indicates whether the task record should be returned by a global text search in which the search text exactly matches a task number. This record updates automatically when a user clicks the **Search tips and preferences** link on the search results page and changes the **Return task record if searching for exact number** setting. For more information, see [Global text search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md).**True** = return the task record. A link is provided for full search results.
+Indicates whether the task record should be returned by a global text search in which the search text exactly matches a task number. This record updates automatically when a user clicks the **Search tips and preferences** link on the search results page and changes the **Return task record if searching for exact number** setting. For more information, see [Global text search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_GlobalTextSearch.md).**True** = return the task record. A link is provided for full search results.
 
  **False** = return full search results, even if the search term matches a task number.
 
@@ -859,12 +860,12 @@ Indicates whether users see UI15 or Core UI \(UI16\). The Core UI plugin \[com.g
  **Default value**: **True**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[User preferences](../concept/c_UserPreferences.md)
+</table>**Parent Topic:**[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
 
 **Related topics**  
 
 
-[Turn off the Next Experience welcome screen after upgrading your instance](../task/remove-welcome-splash-screen.md)
+[Turn off the Next Experience welcome screen after upgrading your instance]()
 
-[Configure available keyboard shortcuts](../task/configure-keyboard-shortcuts.md)
+[Configure available keyboard shortcuts]()
 

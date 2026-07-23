@@ -2,6 +2,7 @@
 title: Restrict the CODE tag in journal fields
 description: You can prevent journal fields from rendering HTML code by disabling support for the \[code\] tag.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_RestrictTheCODETagInJrnalFlds.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

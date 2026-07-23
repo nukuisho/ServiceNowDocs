@@ -5,7 +5,8 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
+keywords: [Talent Acquisition overview, hiring journey, talent portal, retain talent, hiring automation, hiring experiences]
 ---
 
 # Exploring Hiring Experiences
@@ -30,12 +31,12 @@ The Hiring Experiences suite consists of the following applications that work to
 
 | | |
 |---|---|
-|[Hiring tab](hiring-landing.md)|The Hiring tab is a centralized hub for hiring managers, designed to facilitate efficient stakeholder collaboration and drive a streamlined and effective hiring process.|
-|[Recruitment Workspace](recruitment-workspace-landing.md)|The Recruitment workspace centralizes job requisition tracking, boosts hiring efficiency, enhances applicant engagement, and enables recruiters to take smarter decisions with talent insights.|
-|[Interview Management](interview-management-landing.md)|The Interview management application simplifies and optimizes the interview process through structured workflows, flexible scheduling options, automated reminders, and streamlined feedback collection, enabling faster and more collaborative hiring.|
-|[Applicant Center](applicant-center-landing.md)|Applicant Center offers a streamlined and tailored experience for applicants through a dedicated portal, enhancing their overall recruitment experience.|
-|[Talent Profile](talent-profile-landing.md)|Talent profile provides an aggregated view of internal and external talent types, enabling quicker hiring decisions by consolidating information on applicants, employees, contingent workers, and alumni in one place.|
-|[Opportunity Marketplace](../../egd-oppt-mrktplc/concept/egd-oppt-mrktplc-landing.md)|Opportunity Marketplace provides employees an intuitive experience to explore career opportunities.|
+|[Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hiring-landing.md)|The Hiring tab is a centralized hub for hiring managers, designed to facilitate efficient stakeholder collaboration and drive a streamlined and effective hiring process.|
+|[Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-landing.md)|The Recruitment workspace centralizes job requisition tracking, boosts hiring efficiency, enhances applicant engagement, and enables recruiters to take smarter decisions with talent insights.|
+|[Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/interview-management-landing.md)|The Interview management application simplifies and optimizes the interview process through structured workflows, flexible scheduling options, automated reminders, and streamlined feedback collection, enabling faster and more collaborative hiring.|
+|[Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/applicant-center-landing.md)|Applicant Center offers a streamlined and tailored experience for applicants through a dedicated portal, enhancing their overall recruitment experience.|
+|[Talent Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/talent-profile-landing.md)|Talent profile provides an aggregated view of internal and external talent types, enabling quicker hiring decisions by consolidating information on applicants, employees, contingent workers, and alumni in one place.|
+|[Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-landing.md)|Opportunity Marketplace provides employees an intuitive experience to explore career opportunities.|
 
 ## Hiring Experiences users
 
@@ -50,7 +51,7 @@ The Hiring Experiences suite consists of the following applications that work to
 
 The infographic displays the different roles that the Hiring Experiences suite caters to.
 
-![Infographic summarises the key benefits of each personas within the Hiring Experiences suite - Hiring manager, recruiter, interviewer, and applicant.](../images/exploring-benefit-ta-Nov24.png "Hiring Experiences benefit summary")
+\[Omitted image "exploring-benefit-ta-Nov24.png"\] Alt text: Infographic summarises the key benefits of each personas within the Hiring Experiences suite - Hiring manager, recruiter, interviewer, and applicant.
 
 1.  The hiring managers can request job openings, track jobs, collaborate with recruiters, view applications, and so on.
 2.  The recruiters can manage job requisition, view applications, collaborate with hiring managers and applications, schedule and manage interviews.
@@ -63,13 +64,13 @@ Hiring Experiences is designed for intelligent and optimized workflows and exper
 
 To learn more about configuring and using Hiring Experiences, see:
 
--   [Configuring Hiring Experiences](config-frmwrk-ta.md)
--   [Integrations for Hiring Experiences](integrate-with-talent-acquisition.md)
--   [Hiring Experiences reference](../reference/reference-frmwrk-ta.md)
--   [Hiring tab](hiring-landing.md)
--   [Recruitment Workspace](recruitment-workspace-landing.md)
--   [Interview Management](interview-management-landing.md)
--   [Applicant Center](applicant-center-landing.md)
--   [Opportunity Marketplace](../../egd-oppt-mrktplc/concept/egd-oppt-mrktplc-landing.md)
--   [Talent Profile](talent-profile-landing.md)
+-   [Configuring Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-frmwrk-ta.md)
+-   [Integrations for Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-with-talent-acquisition.md)
+-   [Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
+-   [Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hiring-landing.md)
+-   [Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-landing.md)
+-   [Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/interview-management-landing.md)
+-   [Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/applicant-center-landing.md)
+-   [Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-landing.md)
+-   [Talent Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/talent-profile-landing.md)
 

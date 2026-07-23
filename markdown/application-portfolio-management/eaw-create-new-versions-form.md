@@ -1,7 +1,8 @@
 ---
-title: Create new architectural artifact version form
+title: Create architectural artifact version form
 description: Create new versions of architectural artifacts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-new-versions-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new architectural artifact version form
+# Create architectural artifact version form
 
 Create new versions of architectural artifacts.
 
@@ -57,14 +58,14 @@ Attachments
 Select the attachment that you want to add to the new architectural artifact. This field is only available when you select **Attachment** in the **File type** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
 [eaw-add-an-architectural-artifact-version]
 
-[Exploring architectural decision records \(ADR\)](../../concept/eaw-concept/eaw-managing-arch-decision-records.md)
+[Exploring architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-arch-decision-records.md)
 
-[Add or edit an architectural decision record \(ADR\)](../../task/eaw-task/eaw-create-edit-adr.md)
+[Add or edit an architectural decision record \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-edit-adr.md)
 

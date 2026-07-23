@@ -2,6 +2,7 @@
 title: Publish a publication
 description: Automatically publish a publication with an optional email notification to send to customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/target-comm-publish-publications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,5 +41,5 @@ When creating a publication, you can also include an optional email notification
     **Note:**
 
     -   If the system administrator has configured a UI action, you can use this UI action for manually publishing the publication.
-    -   For more info, see [Email templates](https://servicenow.com/docs/bundle/washingtondc-platform-administration/page/administer/notification/concept/c_EmailTemplates.html).
+    -   For more info, see [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md).
 

@@ -2,6 +2,7 @@
 title: HR Service Delivery integration with Microsoft Teams and Microsoft 365
 description: HR Service Delivery integration with Microsoft Teams extends the Now Virtual Agent integration with Microsoft Teams to enable employees to more effectively request and receive service from within Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/sn-ms-teams-hr.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,7 +16,7 @@ breadcrumb: [Integration for Employee Experience, Explore, ServiceNow for Micros
 
 HR Service Delivery integration with Microsoft Teams extends the Now Virtual Agent integration with Microsoft Teams to enable employees to more effectively request and receive service from within Microsoft Teams.
 
-The HR Service Delivery integration with Microsoft Teams application extends the [Now Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) integration and includes the following additional capabilities:
+The HR Service Delivery integration with Microsoft Teams application extends the [Now Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md) integration and includes the following additional capabilities:
 
 -   Actionable notifications – for approval and comments on tickets. Users can take action on the notifications from within Microsoft Teams.
 
@@ -61,21 +62,21 @@ The HR Service Delivery integration with Microsoft Teams application extends the
 
 You must perform the following activities to integrate HR Service Delivery with Microsoft Teams in ServiceNow instance:
 
-1.  [Install HR Service Delivery integration with Microsoft Teams application](../task/install-hr-ms-teams-plugin.md)
-2.  [Setting up the ServiceNow instance for Microsoft Teams integration](setup-tenants.md)
+1.  [Install HR Service Delivery integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-hr-ms-teams-plugin.md)
+2.  [Setting up the ServiceNow instance for Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-tenants.md)
 
-To configure HR Service Delivery integration with Microsoft Teams in ServiceNow instance, see [Configure HR Service Delivery integration with Microsoft Teams](sn-ms-teams-config-hr.md).
+To configure HR Service Delivery integration with Microsoft Teams in ServiceNow instance, see [Configure HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-teams-config-hr.md).
 
-To manage HR Service Delivery integration with Microsoft Teams in ServiceNow instance, see [Customize HR Service Delivery integration with Microsoft Teams](customize-sn-ms-teams-hr.md).
+To manage HR Service Delivery integration with Microsoft Teams in ServiceNow instance, see [Customize HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/customize-sn-ms-teams-hr.md).
 
-To use HR Service Delivery integration with Microsoft Teams in ServiceNow instance, see [Use ITSM and HRSD integrations with Microsoft Teams](user-sn-ms-teams.md).
+To use HR Service Delivery integration with Microsoft Teams in ServiceNow instance, see [Use ITSM and HRSD integrations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/user-sn-ms-teams.md).
 
-**Parent Topic:**[Explore Microsoft Teams and Microsoft 365 integration for Employee Experience](c_employee_experience.md)
+**Parent Topic:**[Explore Microsoft Teams and Microsoft 365 integration for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_experience.md)
 
 **Related topics**  
 
 
-[IT Service Management integration with Microsoft Teams and Microsoft 365](sn-ms-teams.md)
+[IT Service Management integration with Microsoft Teams and Microsoft 365]()
 
-[Universal Request integration with Microsoft Teams](sn-ms-teams-ur.md)
+[Universal Request integration with Microsoft Teams]()
 

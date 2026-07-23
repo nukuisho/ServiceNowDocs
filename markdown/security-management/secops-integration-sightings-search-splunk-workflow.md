@@ -2,6 +2,7 @@
 title: Security Operations Integration - Splunk Sightings Search Flow
 description: Security Operations - Splunk Sightings Search flow is the implementation for the Splunk integration launched by the Security Operations Integration - Sightings Search flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/secops-integration-sightings-search-splunk-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,9 +16,9 @@ breadcrumb: [Security Operations Integration - Sightings Search Flow, Create sig
 
 Role required: sn\_si\_analyst
 
-![Flow Designer for Security Incident Response integration - Splunk Sighting Search](../image/splunk-sighting-search-integration.png "Splunk Sightings Search")
+\[Omitted image "splunk-sighting-search-integration.png"\] Alt text: Flow Designer for Security Incident Response integration - Splunk Sighting Search
 
-Activities specific to this flow are described here. For more information on other activities, see [Common Security Operations integration flows and orchestration activities](../../security-operations-common/concept/common-wf-activities.md).
+Activities specific to this flow are described here. For more information on other activities, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
 
-**Parent Topic:**[Security Operations Integration - Sightings Search Flow](../task/secops-integration-sightings-search-workflow.md)
+**Parent Topic:**[Security Operations Integration - Sightings Search Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-sightings-search-workflow.md)
 

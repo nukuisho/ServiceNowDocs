@@ -2,6 +2,7 @@
 title: Email metrics
 description: Analyze your email metrics to look for anomalous behaviors that are related to the incoming emails to your instance. For example, if the metrics indicate a spike in spam emails from specific domains, you can define inbound actions that prevent their delivery to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-sec-center-email-metrics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -53,7 +54,7 @@ Untrusted Incoming Email
 
 </td><td>
 
-Number of incoming emails to the instance for the calendar day from email domains designated as untrusted. You can designate untrusted or trusted email domains in the Untrusted And Trusted Domain form so that you can track your inbound emails that are sent from them. To learn how to designate untrusted or trusted email domains, see [Designate email domains as untrusted or trusted](../task/designate-untrusted-trusted-email-domains.md).
+Number of incoming emails to the instance for the calendar day from email domains designated as untrusted. You can designate untrusted or trusted email domains in the Untrusted And Trusted Domain form so that you can track your inbound emails that are sent from them. To learn how to designate untrusted or trusted email domains, see [Designate email domains as untrusted or trusted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/designate-untrusted-trusted-email-domains.md).
 
 </td></tr></tbody>
 </table>After you click an email metric, you can learn about the possible email security issues in your instance by clicking one of the following:
@@ -66,8 +67,8 @@ Number of incoming emails to the instance for the calendar day from email domain
 
 **Note:** The email metrics apply only to your incoming emails to the instance. The metrics do not apply to the normal traffic that is processed through your enterprise-wide email servers. To learn about defining inbound actions and how they impact the processing of your inbound emails, see [Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_InboundEmailActions.md).
 
--   **[Designate email domains as untrusted or trusted](../task/designate-untrusted-trusted-email-domains.md)**  
+-   **[Designate email domains as untrusted or trusted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/designate-untrusted-trusted-email-domains.md)**  
 Designate specific email domains as untrusted or trusted so that you can monitor the metrics for incoming emails from these sources in your instance.
 
-**Parent Topic:**[Monitor instance metrics](monitoring-user-email-antivirus-metrics.md)
+**Parent Topic:**[Monitor instance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/monitoring-user-email-antivirus-metrics.md)
 

@@ -2,6 +2,7 @@
 title: Script includes installed with Facilities Visualization Workbench
 description: Script includes are used to store JavaScript that runs on the server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_ScriptIncInstallWFacVisWorkbench.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,5 +25,5 @@ Facilities visualization workbench adds the following script includes.
 |FacilitiesMapFilterUtils|Utility for map filtering capabilities|
 |FacilitiesConstants|List of constants used in Facilities Management and Facilities Visualization Workbench|
 
-**Parent Topic:**[Installed with Facilities Visualization Workbench](r_InstallWFacVisWorkbench.md)
+**Parent Topic:**[Installed with Facilities Visualization Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWFacVisWorkbench.md)
 

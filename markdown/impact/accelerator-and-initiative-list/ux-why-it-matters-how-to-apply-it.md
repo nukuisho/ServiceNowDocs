@@ -1,23 +1,26 @@
 ---
 title: UX: Build a Foundation for Better Experiences
-description: This accelerator takes examples directly from the Impact customer’s instance to develop their understanding of User Experience \(UX\) and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
+description: This Accelerator takes examples directly from the Impact customer’s instance to develop their understanding of User Experience \(UX\) and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-why-it-matters-how-to-apply-it.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Build a Foundation for Better Experiences
 
-This accelerator takes examples directly from the Impact customer’s instance to develop their understanding of User Experience \(UX\) and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
+This Accelerator takes examples directly from the Impact customer’s instance to develop their understanding of User Experience \(UX\) and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
 
 ## Accelerator overview
 
 UX: Build a Foundation for Better Experiences helps Impact customers develop the foundational skills to start considering the needs of their users as part of their ongoing ServiceNow implementation process. By developing this capability and mindset, customers can unlock the full potential of the platform, improve productivity, enhance user satisfaction, and boost operational efficiency.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Platform Governance\), Advanced and Total Packages.
 
@@ -58,6 +61,8 @@ One or more customer resources are requested. The specific number of resources p
 -   Assessment of customer’s UX maturity
 -   Description of common user profiles
 -   Overview of customer’s intended goals and motivations for prioritizing user experience
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

@@ -2,9 +2,10 @@
 title: Example: Use AI agents to automatically enter data into the shipping management app
 description: As a shipping coordinator, enter shipping details automatically from Excel to the Shipping Management app by triggering AI agents that use desktop action tools from the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/example-use-shipping-ai-agent-ad.html
 release: australia
 topic_type: task
-last_updated: "2025-11-20"
+last_updated: "2026-05-25"
 reading_time_minutes: 5
 breadcrumb: [Execute desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
@@ -17,8 +18,8 @@ As a shipping coordinator, enter shipping details automatically from Excel to th
 
 To access the AI Desktop Actions functionality, perform the following steps:
 
--   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](configure-agentic-desktop.md).
--   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer](download-agentic-desktop-installer.md).
+-   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
+-   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 Confirm that the following system requirements are met:
 
@@ -27,17 +28,17 @@ Confirm that the following system requirements are met:
 -   No extended monitors are connected.
 -   Remote Desktop must be enabled on your machine and your account must be granted Remote Desktop access permissions before you start using the AI Desktop Actions Execution workspace.
 -   Theme must match between the systems used for recording and execution.
--   Confirm that your firewall allows bidirectional traffic between the AI Desktop Actions application and your ServiceNow instance on the following ports:
-    -   Port 80 for HTTP and WebSocket \(`ws://`\) traffic
-    -   Port 443 for HTTPS and encrypted WebSocket \(`wss://`\) traffic
+-   Confirm that your firewall allows bidirectional traffic between the AI Desktop Actions application and your ServiceNow instance on the port 80 for HTTP and port 443 for HTTPs.
 
-        If your organization uses non-standard ports for HTTP or HTTPS, confirm the correct ports with your IT administrator before proceeding.
+    If your organization uses non-standard ports for HTTP or HTTPS, confirm the correct ports with your IT administrator before proceeding.
 
--   Confirm that you have registered the `snada://` custom URI protocol to enable the browser to launch the AI Desktop Actions application.
+    You must have full permissions to create and use system I/O communication pipes.
+
+-   If applicable, confirm that the `snada://` custom URI protocol is registered to launch the AI Desktop Actions application in the browser.
 
 **Note:** Screen resolution and scaling must be the same between the systems used for recording and execution of desktop actions that are created prior to AI Desktop Actions v1.0.1.
 
-Familiarize yourself with the AI Desktop Actions Execution workspace. For more information, see [AI Desktop Actions Execution workspace](../concept/agentic-desktop-excution-workspace.md).
+Familiarize yourself with the AI Desktop Actions Execution workspace. For more information, see [AI Desktop Actions Execution workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md).
 
 Role required: now\_assist\_panel\_user
 
@@ -45,7 +46,7 @@ Role required: now\_assist\_panel\_user
 
 AI agents use desktop actions that are designed in the AI Desktop Actions Design workspace as tools. When an AI agent is triggered from the Now Assist panel, it determines which desktop actions it can use to perform the automation. Once triggered, the automation is executed in the desktop-in-desktop mode within the AI Desktop Actions Execution workspace.
 
-![AI Desktop Actions Execution workspace displaying "Listening for instructions" message for desktop session activation.](../image/execution-workspace-ready-ad.png "Execution workspace waiting for instruction from AI Agent Studio")
+\[Omitted image "execution-workspace-ready-ad.png"\] Alt text: AI Desktop Actions Execution workspace displaying "Listening for instructions" message for desktop session activation.
 
 **Note:**
 
@@ -59,7 +60,7 @@ To avoid conflicts, do not run the AI Desktop Actions Execution workspace and RP
 
     **Note:** You can select the banner and directly go to the conversation on the Now Assist panel to complete the task.
 
-2.  Open the Now Assist panel by using the Now Assist ![Now Assist icon.](../../../administer/now-assist-platform/images/wwna-icon.png) icon.
+2.  Open the Now Assist panel by using the Now Assist \[Omitted image "wwna-icon.png"\] Alt text: Now Assist icon. icon.
 
     Now Assist provides the resolution steps for the incident.
 
@@ -77,34 +78,42 @@ On AI Desktop Actions Execution workspace
 
 </th></tr></thead><tbody><tr><td>
 
-An AI agent is triggered from the Now Assist panel to complete your request in the Execution workspace.
+The AI agent is triggered and starts preparing a plan.
 
 </td><td>
 
-The Execution workspace is launched.
+The Execution workspace launches. The AI agent logs in. If this is the first time you launch the Execution workspace using AI agents, enter your Windows Security credentials when prompted.
 
 </td></tr><tr><td>
 
-The AI agent prepares a plan and shows which desktop actions it uses for the execution.
+The agent shows which desktop actions it uses for the execution.
 
 </td><td>
-
-AI agent logs in to the AI Desktop Actions Execution workspace.If it’s the first time you launch the Execution workspace using AI agents, you must enter the Windows Security credentials.
 
 The Execution workspace waits for instructions from AI Agent Studio.
 
 </td></tr><tr><td>
 
-The AI agent shows the steps as it executes them in the panel.The outcome of execution is shown in the Now Assist panel.
+The AI agent shows each step as it executes them.
 
 </td><td>
 
-Once the plan is received, the AI agent starts executing the automation in the Execution workspace. **Note:** If any pop up is blocking the automation from running, step in to clear the pop up so that AI agent can proceed with the execution.
+The AI agent performs the tasks in the Execution workspace that shows the execution status. For more information, see [Execution statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-excution-workspace.md).
 
-The AI agent performs the tasks same as a human would. The Execution workspace shows the status of the execution. For more information, see [Execution statuses](../concept/agentic-desktop-excution-workspace.md#ad-execution-status).
+</td></tr><tr><td>
+
+The outcome of the execution is shown in the Now Assist panel.
+
+</td><td>
+
+The Execution workspace returns to the ready state.
 
 </td></tr></tbody>
-</table>5.  Interact with the automation when your inputs are required.
+</table>    **Note:** If a pop-up window blocks the automation, select **Step in** to clear it, then select **Step out** to return control to the agent.
+
+    During execution, the agent uses the values configured for each input. Values can come from two sources: static values set during design time, or mapped parameter records. If you also specify values for inputs configured for parameters in the agent instructions or in the Now Assist panel, the mapped parameter values override them.
+
+5.  Interact with the automation when your inputs are required.
 
     -   **Step in**: take control whenever human inputs are required
     -   **Step out**: give the control back to the AI agent.
@@ -112,15 +121,15 @@ The AI agent performs the tasks same as a human would. The Execution workspace s
 
 6.  Use the smart sizing options to enable your desktop executions automatically adapt to your display.
 
-<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d107828e431">
+<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d118126e432">
 
 Option
 
-</th><th align="left" id="d107828e434">
+</th><th align="left" id="d118126e435">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d107828e440">
+</th></tr></thead><tbody><tr><td id="d118126e441">
 
 **Fit to window**
 
@@ -128,7 +137,7 @@ Description
 
 Scales the execution screen to fit within the display area of the Execution workspace. The entire screen is visible without scrolling.Shortcut: `ctrl+shift+w`
 
-</td></tr><tr><td id="d107828e453">
+</td></tr><tr><td id="d118126e454">
 
 **Original resolution**
 
@@ -144,5 +153,5 @@ If the desktop session isn't sized correctly and mouse actions aren't working as
 
 `Ctrl + Shift + D`: Resize to actual desktop view.
 
-**Parent Topic:**[Examples of executing desktop actions using AI agents](../concept/use-agentic-desktop.md)
+**Parent Topic:**[Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
 

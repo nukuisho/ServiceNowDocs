@@ -2,6 +2,7 @@
 title: Confirm installation of AI Agent Advisor
 description: Confirm the installation of the AI Agent Advisor application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/set-up-ai-agent-advisor.html
 release: australia
 topic_type: task
 last_updated: "2026-04-15"
@@ -16,7 +17,7 @@ Confirm the installation of the AI Agent Advisor application.
 
 ## Before you begin
 
-All required plugins must be installed before attempting to run AI Agent Advisor. For a list of dependencies, see [Supporting information for AI Agent Advisor](../concept/supporting-information-ai-agent-advisor.md).
+All required plugins must be installed before attempting to run AI Agent Advisor. For a list of dependencies, see [Supporting information for AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/supporting-information-ai-agent-advisor.md).
 
 Role required: AI Agent Advisor admin \[sn\_agent\_miner.app\_admin\]
 
@@ -68,10 +69,10 @@ Follow these steps to confirm the installation of the AI Agent Advisor plugin.
 
 The AI Agent Advisor application is installed and available to the appropriate user roles.
 
-**Parent Topic:**[Configuring AI Agent Advisor](../concept/configuring-ai-agent-advisor.md)
+**Parent Topic:**[Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agent-advisor.md)
 
 **Related topics**  
 
 
-[Set up automation discovery for AI Agent Advisor](now-assist-center-set-up-automation-discovery.md)
+[Set up automation opportunity discovery for AI Agent Advisor]()
 

@@ -2,6 +2,7 @@
 title: Run Telecom Discrepancy audit
 description: The Telecom Discrepancy Audit validates the integrity of configuration items \(CIs\) and relationships across your telecom inventory using the CMDB Compliance framework.The following example illustrates how the audit works in a scenario.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/run-audits.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -36,7 +37,7 @@ The Telecom Discrepancy Audit works in two phases:
     **Note:** Each failed audit creates a Follow-On Task for manual or automated remediation, confirming telecom CMDB data stays aligned with the network state.
 
 
-The following screenshot helps you understand the Telecom Discrepancy Audit.![The user interface of the telecom discrepancy audit.](../images/telecom-discrepancy-audit.png)
+The following screenshot helps you understand the Telecom Discrepancy Audit.\[Omitted image "telecom-discrepancy-audit.png"\] Alt text: The user interface of the telecom discrepancy audit.
 
 ## Procedure
 
@@ -66,14 +67,14 @@ Review audit results
 
 Example use case: The configured filters can be used for different discovery sources. For example, the Nokia Altiplano. When running the audit manually, you can select the appropriate filter to validate only those CIs discovered by that specific source—confirming targeted and efficient auditing.
 
-**Parent Topic:**[Using Telecommunications Service Operations Management](../concept/using-tsom.md)
+**Parent Topic:**[Using Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/using-tsom.md)
 
 **Related topics**  
 
 
-[Configure filter for audit](configure-certification-filter-for-audit.md)
+[Configure filter for audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-certification-filter-for-audit.md)
 
-[Example for Telecom Discrepancy Audit and Remediation](run-audits.md#)
+[Example for Telecom Discrepancy Audit and Remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/run-audits.md)
 
 ## Example for Telecom Discrepancy Audit and Remediation
 
@@ -139,13 +140,13 @@ After remediation:
 **Related topics**  
 
 
-[Telecom Discrepancy Identification and Reconciliation](../concept/exploring-telecom-reconciliation.md)
+[Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/exploring-telecom-reconciliation.md)
 
-[Discrepancy identification – types of discrepancies](../concept/discrepancy-identification-types-of-discrepancies.md)
+[Discrepancy identification – types of discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/discrepancy-identification-types-of-discrepancies.md)
 
-[System components installed with Telecom Discrepancy Identification &amp; Reconciliation](../concept/system-properties-affecting-telecom-discrepancy-identification-reconciliation.md)
+[Telecom discrepancy identification and reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/system-properties-affecting-telecom-discrepancy-identification-reconciliation.md)
 
-[Activate Telecom Discrepancy Identification and Reconciliation](configure-telecom-reconciliation.md)
+[Activate Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.md)
 
 [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
 

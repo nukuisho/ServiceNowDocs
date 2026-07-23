@@ -2,11 +2,12 @@
 title: Use the OpenFileDialog component
 description: Open a file dialog from where you can open a file using the OpenFileDialog component in the RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-dialogs-openfiledialog.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Dialogs, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Dialogs, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the OpenFileDialog component
@@ -21,7 +22,7 @@ Role required: none
 
 By default, the OpenFileDialog component opens the last file dialog you had opened. You can change the file dialog location and the type of file you want to open by specifying the location and the file type.
 
-There are properties that you configure for the OpenFileDialog component. For more information, see [Dialog component properties](../reference/dialog-component-properties.md).
+There are properties that you configure for the OpenFileDialog component. For more information, see [Dialog component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/dialog-component-properties.md).
 
 ## Procedure
 
@@ -37,7 +38,7 @@ There are properties that you configure for the OpenFileDialog component. For mo
 
     The Result \(Boolean\) and FileName \(String\) returns the Boolean response to whether you had opened a file and the file name and path respectively.
 
-6.  To configure the input ports, see [Configure port properties](configure-input-port-properties.md).
+6.  To configure the input ports, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 7.  Connect the data and control ports of OpenFileDialog to the corresponding ports of other components.
 
@@ -53,5 +54,5 @@ There are properties that you configure for the OpenFileDialog component. For mo
 8.  To test the component, click **Run** under the **DESIGN** tab.
 
 
-**Parent Topic:**[Dialogs](../concept/dialogs.md)
+**Parent Topic:**[Dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/dialogs.md)
 

@@ -2,6 +2,7 @@
 title: Workplace Central Event planner
 description: The Workplace Central Event planner is a one-stop workspace where you can check all the reservations requested in your organization at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/event-planner-key-features-actions-views.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -188,13 +189,13 @@ The schedule view opens a time-line view displaying all the workplace locations 
 
     You can select the reservation to view details such as the reservation start and end time, duration, subtype, status, and services requested if there are any.
 
-    -   You can also view further details of the reservations on the side panel by selecting the Open side panel icon \(![Open side panel icon.](../images/evnt-plnnr-opensidepanelicon.png)\).
+    -   You can also view further details of the reservations on the side panel by selecting the Open side panel icon \(\[Omitted image "evnt-plnnr-opensidepanelicon.png"\] Alt text: Open side panel icon.\).
     -   To open the reservation and view it on the portal, you can select the **Open reservation** option. The reservation is displayed in Employee Center by default. If you want the reservation to open on a custom portal instead of Employee Center, you must perform the following actions:
         1.  Navigate to **System Definitions** &gt; **Script includes**.
         2.  Search and open **WPCoreUtils**.
         3.  In the **Script** field, override `getCommonPortalSuffix` function to get the common portal suffix.
         4.  Click **Update**.
-    -   You can also select the Show \(![Show icon.](../images/evnt-plnnr-showrsvdetails-icon.png)\) icon to get a detailed view of the reservation. The side panel displays the reservation-related details such as the location, start and end time, current state, synchronization state, reservation subject and services requested. As a reservation planner, you can also cancel the reservation using the **Cancel reservation** option.
+    -   You can also select the Show \(\[Omitted image "evnt-plnnr-showrsvdetails-icon.png"\] Alt text: Show icon.\) icon to get a detailed view of the reservation. The side panel displays the reservation-related details such as the location, start and end time, current state, synchronization state, reservation subject and services requested. As a reservation planner, you can also cancel the reservation using the **Cancel reservation** option.
     -   You can also move the reservation to another time or to another location by dragging the bar of the reservation.
 -   **Last updated sub source**
     -   When a reservation is updated from the Contextual side panel, the last updated sub source is updated as **Workplace Event Planner**.
@@ -244,40 +245,40 @@ From the reservation details page, you can also open the reservation to view it 
 
 As a reservation planner, you can cancel a reservation if necessary using the **Cancel reservation** option.
 
-**Parent Topic:**[Workplace Central reference](../concept/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Central](components-installed-with-workplace-central.md)
+[Components installed with Workplace Central]()
 
-[Space Optimization - Key features and actions](space-optmization-features-and-actions-.md)
+[Space Optimization - Key features and actions]()
 
-[Scenario and Building - Views, states, settings, and key features](scenario-planning-views-actions-keyfeatures-.md)
+[Scenario and Building - Views, states, settings, and key features]()
 
-[Space request approvals, states, actions, and key features](space-request-states-and-view.md)
+[Space request approvals, states, actions, and key features]()
 
-[Move management key features and actions](move-mgmt-views-states-actions.md)
+[Move management key features and actions]()
 
-[Case Management - Key features, Actions &amp; Case details](case-management-key-features-actions-case-details.md)
+[Case Management - Key features, Actions &amp; Case details]()
 
-[Schedule Plan details form](schedule-plan-details-form.md)
+[Schedule Plan details form]()
 
-[Scenario details form](scenario-details-form.md)
+[Scenario details form]()
 
-[Space Deployment Plan](space-deployment-plan.md)
+[Space Deployment Plan]()
 
-[User Deployment Plan](user-deployment-plan.md)
+[User Deployment Plan]()
 
-[Excel column lengths for move projects](move-excel-char-limit.md)
+[Excel column lengths for move projects]()
 
-[Move conflicts for projects created via Excel upload](excel-upload-conflicts.md)
+[Move conflicts for projects created via Excel upload]()
 
-[Workplace Central troubleshooting](workplace-central-troubleshooting.md)
+[Workplace Central troubleshooting]()
 
-[Workplace Task form - Space Assignment task](workplace-task-space-assignment.md)
+[Workplace Task form - Space Assignment task]()
 
-[Neighborhood User Assignment Rule form](user-assignment-rule-form.md)
+[Neighborhood User Assignment Rule form]()
 
-[User Workplace Profile form](user-workplace-profile-form.md)
+[User Workplace Profile form]()
 

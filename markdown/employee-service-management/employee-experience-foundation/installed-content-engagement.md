@@ -2,6 +2,7 @@
 title: Components installed with Content engagement
 description: Several types of components are installed with activation of the Content engagement plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/installed-content-engagement.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Several types of components are installed with activation of the Content engagem
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
-For more information about tables, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
+For more information about tables, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md).
 
 ## Roles installed
 
@@ -47,49 +48,61 @@ Configures the reactions
 
 None
 
+</td></tr><tr><td>
+
+Engagement Moderator \[sn\_ce.moderator\]
+
+</td><td>
+
+Responds to reported comments such as by deleting the comment
+
+</td><td>
+
+None
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 
 
-[Block content form](block-content-form.md)
+[Block content form]()
 
-[Campaign overview and Campaign analytics dashboards](../concept/ecpro-content-automation-content-pack.md)
+[Campaign overview and Campaign analytics dashboards]()
 
-[Components installed with Employee Center Pro](components-installed-with-employee-center-pro-1.md)
+[Components installed with Employee Center Pro]()
 
-[Components installed with Content Experiences](installed-with-content-auto.md)
+[Components installed with Content Experiences]()
 
-[Components installed with Content Publishing](installed-with-content-delivery.md)
+[Components installed with Content Publishing]()
 
-[Components installed with Content Governance](ec-installed-content-governance.md)
+[Components installed with Content Governance]()
 
-[Components installed with Content Analytics](ecpro-installed-content-analytics-1.md)
+[Components installed with Content Analytics]()
 
-[Content Analytics dashboards](../concept/content-analytics-dashboards.md)
+[Content Analytics dashboards]()
 
-[Content engagement dashboard](../concept/ec-pro-content-engagement-dashboard.md)
+[Content engagement dashboard]()
 
-[Content Library Overview dashboard](../concept/content-library-overview-dashboard.md)
+[Content Library Overview dashboard]()
 
-[Employee Center Pro widgets](employee-center-pro-widgets-list.md)
+[Employee Center Pro widgets]()
 
-[Feedback configuration form](ex-feedback-new-record.md)
+[Feedback configuration form]()
 
-[Feedback definition form](fdbck-dfnition-record.md)
+[Feedback definition form]()
 
-[Link content form](link-content-form.md)
+[Link content form]()
 
-[Notification content form](notification-content-form.md)
+[Notification content form]()
 
-[Properties installed with Content Experiences](properties-installed-with-content-auto.md)
+[Properties installed with Content Experiences]()
 
-[Properties installed with Content Governance](properties-installed-content-governance.md)
+[Properties installed with Content Governance]()
 
-[Properties installed with Content Publishing](properties-with-content-delivery.md)
+[Properties installed with Content Publishing]()
 
-[Standard banner and icon sizes](ec-portal-images-size.md)
+[Standard banner and icon sizes]()
 
-[To-do content form](to-do-content-form.md)
+[To-do content form]()
 

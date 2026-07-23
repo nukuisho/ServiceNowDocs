@@ -2,6 +2,7 @@
 title: Kiosk Indoor Mapping
 description: Enhance visitor and employee experiences by providing indoor maps in kiosks across your workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/kiosk-indoor-mapping.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -49,34 +50,34 @@ You must install the following plugins to use the Kiosk Indoor Mapping module.
 -   Workplace Services Kiosk
 -   Workplace Indoor Mapping
 
-You can install the plugins from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). You can also visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information of all the released apps, see the [ServiceNow Store release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+You can install the plugins from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). You can also visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information of all the released apps, see the [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 To access the Kiosk Indoor Mapping module, navigate to **All** &gt; **Workplace Central**, then select the **Kiosk Indoor Mapping** module in the workspace.
 
-![Kiosk Indoor Mapping Module on Workplace Central. Kiosk indoor mapping configurations list and Features configurations list are displayed.](../images/kiosk-indoor-mapping-dashboard.png)
+\[Omitted image "kiosk-indoor-mapping-dashboard.png"\] Alt text: Kiosk Indoor Mapping Module on Workplace Central. Kiosk indoor mapping configurations list and Features configurations list are displayed.
 
-**Parent Topic:**[Explore Workplace Central](workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 
 
-[Lists module](wsd-lists-module.md)
+[Lists module]()
 
-[Workplace Analytics](workplace-analytics.md)
+[Workplace Analytics]()
 
-[Space Planning](space-planning.md)
+[Space Planning]()
 
-[Space Optimization](space-optimization.md)
+[Space Optimization]()
 
-[Scenario Planning](scenario-planning.md)
+[Scenario Planning]()
 
-[Schedule Planning](schedule-planning.md)
+[Schedule Planning]()
 
-[Space assistance](space-assistance.md)
+[Space assistance]()
 
-[Event Planner](event-planner.md)
+[Event Planner]()
 
-[Move Management](move-mgmt.md)
+[Move Management]()
 
-[Case management](case-management-workspace.md)
+[Case management]()
 

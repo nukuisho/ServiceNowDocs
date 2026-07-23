@@ -2,6 +2,7 @@
 title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection service test and repair agentic workflow
 description: Use the service test and repair agentic workflow to run the test groups that are mapped to a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-service-test-repair-agentic-workflow.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

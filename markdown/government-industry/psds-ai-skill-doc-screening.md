@@ -2,6 +2,7 @@
 title: Document Screening Al Skill for Public Sector Digital Services
 description: Document Screening Al Skill is an Al-powered capability powered by NowAssist for Document Intelligence and available through Now Assist for PSDS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ai-skill-doc-screening.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ The Document Screening Skill uses Al-driven document intelligence. Key capabilit
 -   Ul Integration: Validation results are displayed directly next to each uploaded document, allowing human agents to confirm or dispute the classification.
 -   Al-Assisted Message Composition: Agents can quickly generate messages requesting corrected documents, which are reprocessed automatically upon re-upload.
 
-For more information on Document Intelligence, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
+For more information on Document Intelligence, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md).
 
 The Document Screening Skill delivers measurable value across agencies: Reduced manual effort by eliminating repetitive document checks, Faster application processing and reduced case backlogs, Improved accuracy and consistency in document validation, Lower operational risk from missed or incorrect documentation, Higher agent productivity, allowing staff to focus on complex case work.
 
@@ -51,5 +52,5 @@ There are 6 stages of Document Verifications
 -   Pre-Flagged : Flagged by AI
 -   Screening failed by AI : System unable to process documents
 
-For more information on how to activate and customize \(what\) of the Document screening skill, see [Activate the Document screening Al skill in Now Assist for PSDS](psds-ai-skills-doc-screening-activate.md).
+For more information on how to activate and customize \(what\) of the Document screening skill, see [Activate the Document screening Al skill in Now Assist for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-ai-skills-doc-screening-activate.md).
 

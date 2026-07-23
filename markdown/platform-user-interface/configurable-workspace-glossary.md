@@ -2,10 +2,12 @@
 title: Configurable Workspace glossary
 description: Learn about the terms and concepts used in Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configurable-workspace-glossary.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
+keywords: [dashboard]
 breadcrumb: [Reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -51,7 +53,7 @@ A column of content that relates to the main content of the page. For example, y
 
 ## dashboard
 
-A collection of visualizations grouped into a single location.
+A canvas for organizing and sharing data visually. Dashboards contain data visualizations, filters, and other visual elements. Users can share dashboards with other users, groups, or roles to create a shared view of data.
 
 ## declarative actions
 

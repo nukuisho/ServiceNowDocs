@@ -2,6 +2,7 @@
 title: Create maintenance rules
 description: Use maintenance rules to mark CIs in maintenance status. When in maintenance status, these CIs are excluded from impact calculation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-maintenance-rule.html
 release: australia
 product: Event Management
 classification: event-management
@@ -161,13 +162,13 @@ Example of a maintenance rule using a CMDB table.
 
 Assume that a company defines a CI as being in maintenance when the Operational Status of the CI is either **Repair in Progress** or **DR Standby**.
 
-![Event Management rule](../image/create-maintenance-rule-example.jpeg)
+\[Omitted image "create-maintenance-rule-example.jpeg"\] Alt text: Event Management rule
 
 Example of a maintenance rule using a table other than CMDB.
 
 Assume that a company uses Incident records to track maintenance. Any maintenance request is translated to an incident when it has a description that starts with “Performing maintenance on CI”. As long as the status of such an incident is open, this status indicates that the maintenance is in progress. For the **CI field name** field, specify a CI name from the table that was chosen, in this case **Incident**.
 
-![Event Management table](../image/create-maintenance-rule-not-cmdb.png)
+\[Omitted image "create-maintenance-rule-not-cmdb.png"\] Alt text: Event Management table
 
 Example of a maintenance rule that uses the advanced script feature.
 
@@ -185,14 +186,14 @@ The return value for this example script is a text string that represents an arr
 
 You can use this script as an example to prepare your own customized script.
 
-![Event Management script](../image/maintenance-rule-script.png)
+\[Omitted image "maintenance-rule-script.png"\] Alt text: Event Management script
 
-**Parent Topic:**[Manage and monitor alerts](../concept/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlert.md)
 
 **Related topics**  
 
 
-[How alerts work with CIs in maintenance](../concept/c_EMHowImpactTree.md)
+[How alerts work with CIs in maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMHowImpactTree.md)
 
-[Place an alert into maintenance](t_EMPutAnAlertIntoMaintenance.md)
+[Place an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMPutAnAlertIntoMaintenance.md)
 

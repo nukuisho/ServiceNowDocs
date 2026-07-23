@@ -2,6 +2,7 @@
 title: Configure your investment metrics as widgets
 description: Configure investment metrics based on your business requirements. These metrics appear as widgets on the Investment Portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/configure-investment-metrics.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -27,21 +28,21 @@ Role required: pps\_admin
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Portal board widget form](../reference/portal-board-widget-form.md).
+    For more information, see [Portal board widget form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/portal-board-widget-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Investment Portal](../concept/investment-portal.md)
+**Parent Topic:**[Investment Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/investment-portal.md)
 
 **Related topics**  
 
 
-[View all your investment boards in one location](../concept/my-investments-tabs.md)
+[View all your investment boards in one location]()
 
-[Create an investment board](create-an-investment-report.md)
+[Create an investment board]()
 
-[Track your key investments](use-investment-portal.md)
+[Track your key investments]()
 
-[Investment Portal](../concept/investment-portal.md)
+[Investment Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/investment-portal.md)
 

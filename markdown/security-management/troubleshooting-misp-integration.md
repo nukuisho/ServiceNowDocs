@@ -2,6 +2,7 @@
 title: Troubleshooting MISP integration
 description: This section covers important troubleshooting tips that can help you resolve common issues you can encounter when setting up or running MISP integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/troubleshooting-misp-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,28 +16,28 @@ This section covers important troubleshooting tips that can help you resolve com
 
 ## SSL issues
 
-When connecting through the MISP integration, ensure that you’ve installed a valid CA certificate on the MISP server, which hasn’t expired. You can import RSA or your own certificates into the platform and ensure that the common name of the certificate matches the host name. For more information, see [Install and configure the MISP integration for Security Operations](../task/install-and-configure-misp.md) and [MISP user roles and permissions](misp-user-roles-and-permissions.md).
+When connecting through the MISP integration, ensure that you’ve installed a valid CA certificate on the MISP server, which hasn’t expired. You can import RSA or your own certificates into the platform and ensure that the common name of the certificate matches the host name. For more information, see [Install and configure the MISP integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/install-and-configure-misp.md) and [MISP user roles and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md).
 
-**Parent Topic:**[MISP administration](../concept/misp-administration.md)
+**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
 
 **Related topics**  
 
 
-[Getting started with MISP integration for Security Operations](get-started-with-misp-integration-for-security-operations.md)
+[Getting started with MISP integration for Security Operations]()
 
-[Install and configure the MISP integration for Security Operations](../task/install-and-configure-misp.md)
+[Install and configure the MISP integration for Security Operations]()
 
-[Review the MISP integration settings](../task/review-the-misp-integration-settings.md)
+[Review the MISP integration settings]()
 
-[Configure MISP sighting searches](../task/configure-sightings-search.md)
+[Configure MISP sighting searches]()
 
-[Configure how an automatic event is created](../task/configure-automatic-event-creation-profile.md#)
+[Configure how an automatic event is created]()
 
-[MISP event data](../concept/misp-event-data.md)
+[MISP event data]()
 
-[Associated MISP events](associated-misp-events.md)
+[Associated MISP events]()
 
-[MISP user information](misp-user-information.md)
+[MISP user information]()
 
-[Domain separation and MISP](domain-separation-and-misp.md)
+[Domain separation and MISP]()
 

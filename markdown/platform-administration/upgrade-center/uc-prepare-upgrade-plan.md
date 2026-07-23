@@ -2,6 +2,7 @@
 title: Prepare to upgrade with Upgrade Plan
 description: Prepare your instance upgrade with Upgrade Plan by determining all the applications and plugins are ready to be implemented in the upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-prepare-upgrade-plan.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -39,7 +40,7 @@ Role required: admin
 
 4.  Apply an existing upgrade plan to an instance anytime, without being limited to during upgrades only.
 
-    You can now also export the upgrade plan in a batch install format by using the **Export** button. See [CI/CD - POST /sn\_cicd/app/batch/install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-api.md) for more information.
+    You can now also export the upgrade plan in a batch install format by using the **Export** button. See [CI/CD - POST /sn\_cicd/app/batch/install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cicd-api.md) for more information.
 
 5.  Select **Reinstall** to reinstall the failed items in an upgrade plan, after the upgrade completes.
 
@@ -52,19 +53,19 @@ Role required: admin
     **Note:** This step is applicable only if you have any error items in the upgrade plan.
 
 
--   **[Preview Upgrade Plan](uc-preview-upgrade-plan.md)**  
+-   **[Preview Upgrade Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-preview-upgrade-plan.md)**  
 Preview your upgrade plan before being implemented in the upgrades. Once the upgrade plan is installed, it auto generates the preview of the upgrade plan.
 
-**Parent Topic:**[Preparing your upgrade plan](../concept/uc-prepare-up.md)
+**Parent Topic:**[Preparing your upgrade plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-prepare-up.md)
 
 **Related topics**  
 
 
-[Building your Upgrade Plan](uc-building-upgrade-plan.md)
+[Building your Upgrade Plan]()
 
-[Refreshing your Upgrade Plan](uc-refreshing-upgrade-plan.md)
+[Refreshing your Upgrade Plan]()
 
-[Installing your Upgrade Plan](uc-installing-upgrade-plan.md)
+[Installing your Upgrade Plan]()
 
-[Apply Upgrade Plan on your upgrade](uc-apply-upgrade-plan.md)
+[Apply Upgrade Plan on your upgrade]()
 

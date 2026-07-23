@@ -2,6 +2,7 @@
 title: Use the Core UI navigator
 description: Everyone can collapse and expand the navigator, work with favorites, and view navigation history in Core UI.You can collapse or expand information in the application navigator to display only what you want to see.You can add, edit, or delete favorites for frequently accessed items in the application navigator.In Core UI, you can view your navigation history in the application navigator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/ui16-navigator-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 Complete any of the following tasks to work with the navigator in Core UI.
 
-**Parent Topic:**[Core UI application navigator](../../../use/navigation/concept/c_UI16ApplicationNavigator.md)
+**Parent Topic:**[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UI16ApplicationNavigator.md)
 
 ## Collapse or expand information in the Core UI application navigator
 
@@ -35,7 +36,7 @@ Role required: none
 
 1.  Perform one of the following actions.
 
-<table id="choicetable_ah3_rs3_ks"><tbody><tr><td id="d122418e143">
+<table id="choicetable_ah3_rs3_ks"><tbody><tr><td id="d122668e143">
 
 **Collapse or expand an application or application section**
 
@@ -43,15 +44,15 @@ Role required: none
 
 Click the application or application section label.
 
-</td></tr><tr><td id="d122418e152">
+</td></tr><tr><td id="d122668e152">
 
 **Collapse or expand all applications**
 
 </td><td>
 
-Double-click the all applications tab icon \(![All applications tab icon](../image/IconUI16AllApplications.png)\).
+Double-click the all applications tab icon \(\[Omitted image "IconUI16AllApplications.png"\] Alt text: All applications tab icon\).
 
-</td></tr><tr><td id="d122418e167">
+</td></tr><tr><td id="d122668e167">
 
 **Collapse or expand the application navigator**
 
@@ -60,7 +61,7 @@ Double-click the all applications tab icon \(![All applications tab icon](../ima
 Click the arrow icon at the bottom of the application navigator. In the collapsed view, the application navigator displays favorites only. Click the filter icon or the arrow icon in the collapsed view to expand the application navigator.
 
 </td></tr></tbody>
-</table>    ![The collapsed view of the application navigator displays favorites only](../image/UI16CollapsedApplicationNavigator.png "Collapsed navigator")
+</table>    \[Omitted image "UI16CollapsedApplicationNavigator.png"\] Alt text: The collapsed view of the application navigator displays favorites only
 
 
 ## Add or edit favorites in Core UI
@@ -75,7 +76,7 @@ Role required: none
 
 Items you add as favorites appear in the favorites tab of the application navigator, represented by a star icon.
 
-![Core UI favorites in the application navigator favorites tab](../../../use/navigation/image/UI16Favorites.png)
+\[Omitted image "UI16Favorites.png"\] Alt text: Core UI favorites in the application navigator favorites tab
 
 Favorites also appear in the collapsed view of the application navigator as icons.
 
@@ -83,7 +84,7 @@ Favorites also appear in the collapsed view of the application navigator as icon
 
 1.  Add a favorite in one of the following ways.
 
-<table id="choicetable_wqh_2yx_pt"><tbody><tr><td id="d122418e289">
+<table id="choicetable_wqh_2yx_pt"><tbody><tr><td id="d122668e289">
 
 **Add a module as a favorite**
 
@@ -91,7 +92,7 @@ Favorites also appear in the collapsed view of the application navigator as icon
 
 In the application navigator, click the star icon by a module.
 
-</td></tr><tr><td id="d122418e298">
+</td></tr><tr><td id="d122668e298">
 
 **Add all the modules under an application as favorites**
 
@@ -99,19 +100,19 @@ In the application navigator, click the star icon by a module.
 
 In the application navigator, click the star icon by an application.
 
-</td></tr><tr><td id="d122418e307">
+</td></tr><tr><td id="d122668e307">
 
 **Add a list as a favorite using the list context menu**
 
 </td><td>
 
 1.  Open a list.
-2.  Click the list context menu icon \(![List context menu icon](../image/MenuIconUI14.png)\) by the list title.
+2.  Click the list context menu icon \(\[Omitted image "MenuIconUI14.png"\] Alt text: List context menu icon\) by the list title.
 3.  Select **Create Favorite**.
 4.  In the flyout, edit the name and icon as needed.
 
 
-</td></tr><tr><td id="d122418e340">
+</td></tr><tr><td id="d122668e340">
 
 **Add a list as a favorite by dragging and dropping**
 
@@ -121,19 +122,19 @@ In the application navigator, click the star icon by an application.
 2.  Drag a breadcrumb to the **Favorites** tab of the application navigator.
 
 
-</td></tr><tr><td id="d122418e361">
+</td></tr><tr><td id="d122668e361">
 
 **Add a record as a favorite using the form context menu**
 
 </td><td>
 
 1.  Open a record.
-2.  Click the form context menu icon \(![Form context menu icon](../image/MenuIconUI14.png)\) by the form title.
+2.  Click the form context menu icon \(\[Omitted image "MenuIconUI14.png"\] Alt text: Form context menu icon\) by the form title.
 3.  Select **Create Favorite**.
 4.  In the flyout, edit the name and icon as needed.
 
 
-</td></tr><tr><td id="d122418e395">
+</td></tr><tr><td id="d122668e395">
 
 **Add a record as a favorite by dragging and dropping**
 
@@ -143,7 +144,7 @@ In the application navigator, click the star icon by an application.
 2.  Drag the record title to the **Favorites** tab of the application navigator.
 
 
-</td></tr><tr><td id="d122418e416">
+</td></tr><tr><td id="d122668e416">
 
 **Add a different type of link as a favorite**
 
@@ -154,7 +155,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 -   Reports
  **Note:** You may not be able to create bookmarks with other types of links.
 
-</td></tr><tr><td id="d122418e443">
+</td></tr><tr><td id="d122668e443">
 
 **Add a knowledge base article as a favorite**
 
@@ -173,7 +174,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 
 2.  To edit or delete a favorite, complete any of the following actions.
 
-<table id="choicetable_zxc_mcg_qs"><tbody><tr><td id="d122418e491">
+<table id="choicetable_zxc_mcg_qs"><tbody><tr><td id="d122668e491">
 
 **Reorder favorites in the list**
 
@@ -184,7 +185,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 3.  Click **Done** or **Edit Favorites**.
 
 
-</td></tr><tr><td id="d122418e521">
+</td></tr><tr><td id="d122668e521">
 
 **Customize the name or icon for a favorite**
 
@@ -196,14 +197,14 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 4.  Click **Done** or **Edit Favorites**.
 
 
-</td></tr><tr><td id="d122418e554">
+</td></tr><tr><td id="d122668e554">
 
 **Delete a favorite**
 
 </td><td>
 
 1.  Point to the favorite.
-2.  Click the remove favorite icon \(![Remove Favorite icon](../image/RemoveFavoriteIcon.png)\).
+2.  Click the remove favorite icon \(\[Omitted image "RemoveFavoriteIcon.png"\] Alt text: Remove Favorite icon\).
 
 
 </td></tr></tbody>
@@ -220,7 +221,7 @@ Role required: none
 
 Items you have accessed recently appear in the history tab of the application navigator, which is represented by a clock icon. Items appear in chronological order from most to least recently accessed.
 
-![History tab](../../../use/navigation/image/UI16YourHistory.png "History tab")
+\[Omitted image "UI16YourHistory.png"\] Alt text: History tab
 
 History entries are stored in the Navigator History \[sys\_ui\_navigator\_history\] table. The system creates history entries for many types of content, including lists, records, and dashboards. Some content types are not tracked in the history, such as UI pages and other non-standard interfaces.
 

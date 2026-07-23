@@ -2,6 +2,7 @@
 title: AI-driven regulatory alert summarization skill
 description: The AI-driven summarization feature is designed to provide concise, AI-driven overviews of regulatory alerts directly within the regulatory alert record in the Compliance Workspace. It offers contextual information, including important dates, regulatory authority details, and key changes, helping users to better respond to new alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/regulatory-alert-summarization.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -21,7 +22,7 @@ You can quickly learn the details of a regulatory alert from the record summariz
 
 **Note:** Only users with the sn\_grc\_comp\_genai.reg\_change\_ai\_user role are able to see the option to create a summary for a regulatory alert. This role must be manually assigned to an RCM user.
 
-To understand how you can summarize a regulatory alert, refer to [Activate the Regulatory alert summarization skill](../task/summarize-a-regulatory-alert.md) and [Generate a regulatory alert summary](../task/create-a-summary-of-a-reg-alert.md).
+To understand how you can summarize a regulatory alert, refer to [Activate the Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/summarize-a-regulatory-alert.md) and [Generate a regulatory alert summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-a-summary-of-a-reg-alert.md).
 
 ## Benefits of summarizing a regulatory alert
 
@@ -81,12 +82,12 @@ Penalties or Fines
 Any incurred penalties or fines related to the regulatory alert if relevant.**Note:** If no information is available, the generated summary displays “**No specific information available for penalty or fines and so on"**.
 
 </td></tr></tbody>
-</table>**Note:** Summaries are generated based on the prompts set during the configuration of the summarization skill. For more information on generating summaries, see [Generate a regulatory alert summary](../task/create-a-summary-of-a-reg-alert.md).
+</table>**Note:** Summaries are generated based on the prompts set during the configuration of the summarization skill. For more information on generating summaries, see [Generate a regulatory alert summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-a-summary-of-a-reg-alert.md).
 
 **Related topics**  
 
 
-[Activate the Regulatory alert summarization skill](../task/summarize-a-regulatory-alert.md)
+[Activate the Regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/summarize-a-regulatory-alert.md)
 
-[Generate a regulatory alert summary](../task/create-a-summary-of-a-reg-alert.md)
+[Generate a regulatory alert summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-a-summary-of-a-reg-alert.md)
 

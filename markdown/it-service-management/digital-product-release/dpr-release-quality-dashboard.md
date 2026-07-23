@@ -2,6 +2,7 @@
 title: Release Quality dashboard
 description: The Release Quality dashboard provides insights into the quality of a release based on the software quality scan summaries and test summaries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-release-quality-dashboard.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -23,15 +24,15 @@ The software quality scan summaries give an overview of the code, highlighting a
 
 The data displayed on the **Quality** tab is pulled from the pipeline execution, task execution, and their associated test summaries and software quality summaries. You must configure pipelines through the external tools configuration before you can see the metrics from various data sources on the Release Quality dashboard.
 
-For more information, see [Integrate external tools from Digital Product Release Workspace](../task/dpr-integrate-external-tool.md).
+For more information, see [Integrate external tools from Digital Product Release Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-integrate-external-tool.md).
 
 ## Access the Release Quality dashboard
 
-To open the Release Quality dashboard, navigate to **Workspaces** &gt; **Digital Product Release Workspace**. Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\) and then select a release from the Releases list. Select the **Quality** tab on the release record.
+To open the Release Quality dashboard, navigate to **Workspaces** &gt; **Digital Product Release Workspace**. Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\) and then select a release from the Releases list. Select the **Quality** tab on the release record.
 
 **Note:** The **Quality** tab only appears for ongoing releases.
 
-![Animated gif showing Build, Artifact, and Package tabs on the Release Quality dashboard.](../image/dpr-quality-dashboard.gif "Build, Artifact, and Package tabs on the Release Quality dashboard")
+\[Omitted image "dpr-quality-dashboard.gif"\] Alt text: Animated gif showing Build, Artifact, and Package tabs on the Release Quality dashboard.
 
 ## Data in Quality metrics
 
@@ -45,7 +46,7 @@ The data on the Quality dashboard is organized into two sections to summarize th
 
 -   **Artifact**: This option shows all the artifacts data from the sn\_devops\_artifact table.
 
-    The **Artifact version** list shows all the artifact versions generated within the past 30 days for the artifact. If the artifact's **Use latest version** option is selected, the semantic versions are listed. For more information on the artifact version, see [Manage artifacts in a release](../task/dpr-work-release-artifact.md).
+    The **Artifact version** list shows all the artifact versions generated within the past 30 days for the artifact. If the artifact's **Use latest version** option is selected, the semantic versions are listed. For more information on the artifact version, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
 -   **Package**: This option shows all the artifact versions associated with the latest package. The artifact version data comes from the sn\_devops\_m2m\_artifact\_version\_package table and the package data comes from the sn\_devops\_package table. However, if a package is marked as a release candidate, that package is used even if it's not the latest.
 
@@ -71,7 +72,7 @@ Vulnerabilities
 
 Total number of security vulnerabilities for the selected build.This data comes from the **Vulnerabilities** category in the Software Quality Scan Details.
 
-Use the **VulnerabilitiesTypeMapping** system property to normalize each type of vulnerability, mapping the custom values with the standard values. For more information, see [Digital Product Release properties](../reference/digital-product-release-properties.md#prop_vulnerabilities).
+Use the **VulnerabilitiesTypeMapping** system property to normalize each type of vulnerability, mapping the custom values with the standard values. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 </td></tr><tr><td>
 
@@ -113,16 +114,16 @@ Total number of code smells and total number of technical debts and duplications
     |Performance tests|Total number of performance tests run across all task executions in a pipeline execution, including number of tests passed, failed, skipped, and blocked.|
 
 
-**Parent Topic:**[Digital Product Release dashboards](dpr-dashboard-release.md)
+**Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-dashboard-release.md)
 
 **Related topics**  
 
 
-[Release Overview dashboard](dpr-release-overview-dashboard.md)
+[Release Overview dashboard]()
 
-[Release dashboard for a multi-product release](dpr-release-dashboard-multi.md)
+[Release dashboard for a multi-product release]()
 
-[Release Overview dashboard for a multi-product release](dpr-release-overview-dashboard-multi.md)
+[Release Overview dashboard for a multi-product release]()
 
-[Quality metrics dashboard](../../enterprise-dev-ops/concept/devops-insights-dboard-ws.md#)
+[Quality metrics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-insights-dboard-ws.md)
 

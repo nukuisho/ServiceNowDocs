@@ -2,13 +2,14 @@
 title: Validate legacy IBM PVU Process Pack requirements for associating software installations with PVU mappings
 description: Meet the recommended requirements to ensure that you receive the highest quality results with PVU mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_ReqAssocSWInstToPVUMapping.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Legacy IBM PVU Process Pack, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Legacy IBM PVU Process Pack, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Validate legacy IBM PVU Process Pack requirements for associating software installations with PVU mappings
@@ -27,18 +28,18 @@ Role required: admin
 
     Check that the added CPU information is correct.
 
-3.  [Activate](t_ActivatingTheIBMPVUProcessPack.md) the Software Asset Management plugin - IBM PVU Process Pack plugin.
+3.  [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_ActivatingTheIBMPVUProcessPack.md) the Software Asset Management plugin - IBM PVU Process Pack plugin.
 
     This also activates the Software Asset Management plugin if it is not already active.
 
-4.  [Refresh processor definitions.](t_RefreshProcessorDefinitions.md)
+4.  [Refresh processor definitions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_RefreshProcessorDefinitions.md)
 
-5.  Ensure that the [software models](t_ManagingSoftwareModels.md) you want to manage with IBM PVU licensing have the correct license type: **Per installation - IBM PVU**.
+5.  Ensure that the [software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_ManagingSoftwareModels.md) you want to manage with IBM PVU licensing have the correct license type: **Per installation - IBM PVU**.
 
-6.  [Create software counters](t_UseSWCountersCalcIBMPVULice.md) to calculate IBM PVU licenses.
+6.  [Create software counters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_UseSWCountersCalcIBMPVULice.md) to calculate IBM PVU licenses.
 
 7.  Count licenses to determine compliance with IBM PVU guidelines.
 
 
-**Parent Topic:**[Legacy IBM PVU Process Pack](../concept/c_IBMPVUProcessPack.md)
+**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
 

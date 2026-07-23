@@ -2,6 +2,7 @@
 title: Copy a report
 description: Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/copy-report.html
 release: australia
 product: Reporting
 classification: reporting
@@ -28,7 +29,7 @@ If you save a global report as a group or personal report, the platform copies t
 -   If you open a personal report and save it as a group or global report, only the security state is changed. The report itself is not copied.
 -   When you select **Insert and Stay** to copy a report, sharing settings are not copied to the new report.
 
-This topic refers to Reporting in the Core UI. If your instance is a new Australia instance or migrated to Platform Analytics experience, see [Duplicate a visualization in the Visualization Designer](duplicate-dv-ac.md).
+This topic refers to Reporting in the Core UI. If your instance is a new Australia instance or migrated to Platform Analytics experience, see [Duplicate a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-dv-ac.md).
 
 ## Procedure
 
@@ -38,7 +39,7 @@ This topic refers to Reporting in the Core UI. If your instance is a new Austral
 
 3.  On the report's form, select **View Report**.
 
-4.  Select the arrow next to the **Save** button or next to the Share icon \(![Share icon](../../dashboards/image/icon-share-db.png)\).
+4.  Select the arrow next to the **Save** button or next to the Share icon \(\[Omitted image "icon-share-db.png"\] Alt text: Share icon\).
 
     If you have permission to change the report, you see the **Save** button. You only see the arrow if you don't have permission to change the original report.
 
@@ -46,23 +47,23 @@ This topic refers to Reporting in the Core UI. If your instance is a new Austral
 
     |With the Save button|Without the Save button|
     |--------------------|-----------------------|
-    |![Save menu with Insert and Stay selected.](../image/copy-report-with-save-button.png)|![Arrow menu with Insert and Stay selected.](../image/copy-report-without-save-button.png)|
+    |\[Omitted image "copy-report-with-save-button.png"\] Alt text: Save menu with Insert and Stay selected.|\[Omitted image "copy-report-without-save-button.png"\] Alt text: Arrow menu with Insert and Stay selected.|
 
     The Insert and Stay action creates a copy of the report that you can modify.
 
 6.  Modify the report.
 
-    See [Report types](../reference/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 7.  Change the report visibility.
 
-    In the upper right side of the report form, click the **Sharing** icon \(![](../../../common/image/Form_ShareIcon.png)\) and select **Share**.
+    In the upper right side of the report form, click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text:\) and select **Share**.
 
 
-**Parent Topic:**[Using reporting](../concept/c_GenerateReports.md)
+**Parent Topic:**[Using reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_GenerateReports.md)
 
 **Related topics**  
 
 
-[Share a Core UI report](t_ShareASetting.md)
+[Share a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ShareASetting.md)
 

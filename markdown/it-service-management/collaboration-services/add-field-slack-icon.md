@@ -2,6 +2,7 @@
 title: Set up slack for a user or group
 description: Set up slack from an incident to communicate and work together in channels with a user or a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/add-field-slack-icon.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-To enable slack for the **Assignment group** field, ensure you have set up a slack channel for that group. For more information, refer [Associate existing slack channel with a group](setup-slack-assign-grp.md).
+To enable slack for the **Assignment group** field, ensure you have set up a slack channel for that group. For more information, refer [Associate existing slack channel with a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/setup-slack-assign-grp.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ To enable slack for the **Assignment group** field, ensure you have set up a sla
 
 2.  Import the update set file.
 
-    For more information, refer [Import an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md).
+    For more information, refer [Import an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_SaveAnUpdateSetAsAnXMLFile.md).
 
 3.  Navigate to **System Definition** &gt; **Fix Scripts**.
 
@@ -50,5 +51,5 @@ To enable slack for the **Assignment group** field, ensure you have set up a sla
 **Related topics**  
 
 
-[Open slack from an incident](open-slack-from-inci.md)
+[Open slack from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/open-slack-from-inci.md)
 

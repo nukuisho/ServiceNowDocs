@@ -2,12 +2,13 @@
 title: Creating cases using Threat Analyst Workbench
 description: Cases are used to track information about a campaign or threat actor threatening your organization. After a case is created, you can add artifacts that allow you to review and analyze all related information from a single case or case task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -150,7 +151,7 @@ Enforce Restriction
 
 </td><td>
 
-Select this check box to modify members of allowed group and allowed members. For more information, see [Enforced Restrictions for case\(s\)](../task/tisc-enforced-restrictions.md).
+Select this check box to modify members of allowed group and allowed members. For more information, see [Enforced Restrictions for case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enforced-restrictions.md).
 
 </td></tr></tbody>
 </table>6.  Fill in the fields on the Insights section, as appropriate.
@@ -168,34 +169,40 @@ Select this check box to modify members of allowed group and allowed members. Fo
 
     **Note:** If you are importing and processing data from Case Management, then a unique is associated to the import record.
 
-    ![Import intelligence-Case Management](../image/tisc-import-intelligence-case-management.png)
+    \[Omitted image "tisc-import-intelligence-case-management.png"\] Alt text: Import intelligence-Case Management
 
 
--   **[Enforced Restrictions for case\(s\)](../task/tisc-enforced-restrictions.md)**  
+-   **[Enforced Restrictions for case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enforced-restrictions.md)**  
 Use this feature to restrict a case and provide list of groups and users who can access it.
--   **[Associate MITRE Techniques to a Case](../task/tisc-associate-mitre-technique.md)**  
+-   **[Associate MITRE Techniques to a Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-associate-mitre-technique.md)**  
 Associate one or more MITRE technique to a case.
--   **[Roll up of MITRE technique associations](../task/tisc-mitre-roll-up.md)**  
+-   **[Roll up of MITRE technique associations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-roll-up.md)**  
 Roll up of MITRE technique associations from observables, indicators, objects, and security incidents which are linked or unlinked from a case record.
 
-**Parent Topic:**[Threat Analyst Workbench](threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 
 
-[Workbench Overview](workbench-overview.md)
+[Workbench Overview]()
 
-[Creating case task using Threat Analyst Workbench](../task/tisc-create-case-task.md)
+[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
 
-[Working with Investigation Canvas](tisc-investigation-canvases.md)
+[Creating case task using Threat Analyst Workbench]()
 
-[Add artifacts to case\(s\) or case task\(s\)](../task/add-artifacts-to-a-case-s.md)
+[Working with Investigation Canvas]()
 
-[Run Enrichment Actions within a case](../task/run-enrichment-results.md)
+[Add artifacts to case\(s\) or case task\(s\)]()
 
-[View Case Reports](../task/view-case-reports.md)
+[Run Enrichment Actions within a case]()
 
-[Create a security incident from a TISC case](../task/tisc-create-si-case.md)
+[Generate a Case Report using generative AI]()
 
-[Upload Secure File Attachments](../task/secure-file-attachments.md)
+[Generate a Case Report using a template]()
+
+[Create a security incident from a TISC case]()
+
+[Upload Secure File Attachments]()
+
+[Using playbooks]()
 

@@ -2,6 +2,7 @@
 title: Create catalog domains
 description: Organize data assets by creating hierarchical domain structures that represent business areas, departments, or data categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-domains-dc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -13,6 +14,8 @@ breadcrumb: [Governing the Data Catalog, Data Catalog, Workflow Data Fabric]
 
 Organize data assets by creating hierarchical domain structures that represent business areas, departments, or data categories.
 
+\[Omitted video\] Description: Create and manage catalog domains
+
 ## Before you begin
 
 Role required: Data Steward \(df\_data \_ steward\)
@@ -21,7 +24,7 @@ Role required: Data Steward \(df\_data \_ steward\)
 
 Catalog domains help you organize data assets into logical groupings based on business areas, departments, or data types. Domains provide a hierarchical classification system that makes it easier for users to discover and navigate related data assets.
 
-You can create root domains at the top level and subdomains \(child domains\) under existing domains to build multi-level organizational structures that reflect your business taxonomy. ![View list of domains](../image/dc-domain-manager.png)
+You can create root domains at the top level and subdomains \(child domains\) under existing domains to build multi-level organizational structures that reflect your business taxonomy. \[Omitted image "dc-domain-manager.png"\] Alt text: View list of domains
 
 ## Procedure
 
@@ -59,7 +62,7 @@ You can create root domains at the top level and subdomains \(child domains\) un
 
 ## What to do next
 
-After creating domain, apply them to data assets in the Domains field of the Classification section when editing a data asset. For details, see [Update a data asset](update-data-asset.md).
+After creating domain, apply them to data assets in the Domains field of the Classification section when editing a data asset. For details, see [Update a data asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/update-data-asset.md).
 
-**Parent Topic:**[Governing the Data Catalog](../concept/manage-data-catalog.md)
+**Parent Topic:**[Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md)
 

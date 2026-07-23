@@ -2,6 +2,7 @@
 title: Create a test for a story
 description: Create a test from the Sprint Tracking view to automatically link it to a story and track whether the story meets its acceptance criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/create-test-plan-for-story-agile2.html
 release: australia
 product: Test Management
 classification: test-management
@@ -37,7 +38,7 @@ Create a test, add steps to the test, and create and maintain different versions
 
 5.  To link an existing test to a story instead of creating a new one, open the story record from the sprint list and locate the **Tests** related list to add the pre-existing test.
 
-    To create a standalone test to link later, see [Create a test in Test Management 2.0](create-test2.md).
+    To create a standalone test to link later, see [Create a test in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/create-test2.md).
 
 6.  In the form, fill in the fields:
 
@@ -106,7 +107,7 @@ Run
 
 </td><td>
 
-Button used to run steps, which is displayed only when the test is in the **Ready** state. See [Run your tests from the List view](run-test-plan-within-agile2.md).
+Button used to run steps, which is displayed only when the test is in the **Ready** state. See [Run your tests from the List view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/run-test-plan-within-agile2.md).
 
 </td></tr><tr><td>
 
@@ -142,7 +143,7 @@ Button used to delete the test version.
 
 </td></tr><tr><td>
 
-Change step order \(![Change step order icon](../../sdlc-scrum/image/draganddropicon.png)\)
+Change step order \(\[Omitted image "draganddropicon.png"\] Alt text: Change step order icon\)
 
 </td><td>
 
@@ -158,7 +159,7 @@ Check box used to mark a test step for verification.
 
 </td></tr><tr><td>
 
-Delete a test step \(![Delete a test step icon](../images/deleteteststep.png)\)
+Delete a test step \(\[Omitted image "deleteteststep.png"\] Alt text: Delete a test step icon\)
 
 </td><td>
 
@@ -178,10 +179,10 @@ View information in the following related lists:
 
 Tests created through this workflow are automatically linked to the story. To confirm the link, open the story record and locate the **Tests** related list, which displays all tests associated with that story.
 
-**Parent Topic:**[Sprint testing](../concept/sprint-testing.md)
+**Parent Topic:**[Sprint testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/sprint-testing.md)
 
 **Related topics**  
 
 
-[Run your tests from the List view](run-test-plan-within-agile2.md)
+[Run your tests from the List view]()
 

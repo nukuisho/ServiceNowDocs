@@ -2,6 +2,7 @@
 title: Managing AI agents in Assistant Designer
 description: View AI agents created in AI Agent Studio through Assistant Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -9,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 3
 keywords: [Virtual Agent, Designer, AI Agents]
-breadcrumb: [Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Managing AI agents in Assistant Designer
@@ -18,7 +19,7 @@ View AI agents created in AI Agent Studio through Assistant Designer.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](../reference/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 **Role required**: virtual\_agent\_admin
 
@@ -28,7 +29,7 @@ When you select an AI agent, it opens in AI Agent Studio. AI agents currently ca
 
 Select the **AI agents** option to see all the AI agents activated for Assistant Designer.
 
-![AI agents in Assistant Designer's Asset library.](../images/vad-ai-agent.png)
+\[Omitted image "vad-ai-agent.png"\] Alt text: AI agents in Assistant Designer's Asset library.
 
 |Column|Description|
 |------|-----------|
@@ -39,7 +40,7 @@ Select the **AI agents** option to see all the AI agents activated for Assistant
 |Last modified|Time when the AI agent was last modified.|
 |Description|Description of the AI agent.|
 
-Use the row actions icon \( ![](../images/kebab-menu.png)\) to work with visibility settings for **Promoted**, **Discoverable**, **Visible**, and **Active**:
+Use the row actions icon \( \[Omitted image "kebab-menu.png"\] Alt text:\) to work with visibility settings for **Promoted**, **Discoverable**, **Visible**, and **Active**:
 
 <table id="table_fsb_pt1_cfc"><thead><tr><th>
 
@@ -99,18 +100,18 @@ Delete option for AI agent is inactive in Assistant Designer. The AI agent can o
 
     -   Activate the **Allow** toggle switch.
     -   Under **Choose chat assistants**, select the assistants where the AI agent becomes discoverable.
-    ![Virtual Agent card in an AI agent.](../images/va-card-ai-agent.png)
+    \[Omitted image "va-card-ai-agent.png"\] Alt text: Virtual Agent card in an AI agent.
 
 
 For detailed information about creating AI agents, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
--   **[Using AI agents in Virtual Agent topics](../../now-assist-skill-kit/reference/ai-agent-custom-skill.md)**  
+-   **[Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md)**  
 Use an AI agent custom skill to have it perform a task passed to it, such as compiling info on a KB article.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 
 **Related topics**  
 
 
-[Agentic conversations in Virtual Agent](agentic-conversations-vad.md)
+[Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/agentic-conversations-vad.md)
 

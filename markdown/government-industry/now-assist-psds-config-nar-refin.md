@@ -2,6 +2,7 @@
 title: Configure the Investigative case narrative refinement skill in Now Assist for Public Sector Digital Services \(PSDS\)
 description: Activate and customize the Investigative case narrative refinement skill in the Now Assist for Public Sector Digital Services \(PSDS\) application so that investigators can use the generative AI skills in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-config-nar-refin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-04"
@@ -19,11 +20,11 @@ The Investigative Case Management Case narrative refinement skill helps investig
 
 ## Before you begin
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
+**Important:** Some generative AI skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
 
 -   **New customers**
 
-    When you install a Now Assist product, designated skills, agents, or agentic workflows are turned on automatically.
+    When you install an AI product, designated generative AI skills, AI agents, or agentic workflows are turned on automatically.
 
 -   **Existing customers who are upgrading \(starting with Australia Patch 4\)**
 
@@ -31,12 +32,14 @@ The Investigative Case Management Case narrative refinement skill helps investig
 
     An AI asset is turned on if:
 
-    -   The Now Assist plugin is installed, but the asset was never turned on.
+    -   The AI plugin is installed, but the asset was never turned on.
     -   An admin has never adjusted roles for the skill.
     An AI asset is not turned on if:
 
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
+
+For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Confirm that the following applications and plugins are installed:
 
@@ -55,22 +58,22 @@ The Investigative Case Management Case narrative refinement skill helps investig
 
 3.  Select **ICM Case Narrative**.
 
-4.  Select the more actions \(![](../image/more-actions-na-psds.png)\) icon for that record, and select **Activate** or **Deactivate**.
+4.  Select the more actions \(\[Omitted image "more-actions-na-psds.png"\]\) icon for that record, and select **Activate** or **Deactivate**.
 
     **Note:** This configuration is Activated by Default.
 
-    ![Case narrative refinement Al skill configuration list that displays the skill already activated.](../image/psds-cns-configure.png)
+    \[Omitted image "psds-cns-configure.png"\] Alt text: Case narrative refinement Al skill configuration list that displays the skill already activated.
 
 5.  To edit the configurations of this skill, select **Edit Configurations**.
 
 6.  In the workflow side panel, select Configure Experience.
 
-    Here, you can change the default actions for the skill when the AI sparkle icon \(![](../../../common/image/icon-ai-sparkle.png)\) context menu is selected in the case narrative field. You can also add and configure tones as necessary for the case narrative output. Tones such as Casual, Formal, Shorten and Elaborate are selected by default.
+    Here, you can change the default actions for the skill when the AI sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\]\) context menu is selected in the case narrative field. You can also add and configure tones as necessary for the case narrative output. Tones such as Casual, Formal, Shorten and Elaborate are selected by default.
 
 7.  Select **Save and Continue** whenever prompted.
 
 8.  Verify that the skill is activated and configured by going to an Investigative case narrative field and opening the Now Assist Context menu.
 
-    ![Case narrative refinement Al skill is active.](../image/psds-narrative-skill-activated.png)
+    \[Omitted image "psds-narrative-skill-activated.png"\] Alt text: Case narrative refinement Al skill is active.
 
 

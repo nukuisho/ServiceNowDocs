@@ -2,6 +2,7 @@
 title: Set up a load balancing behavior
 description: When multiple MID Servers are configured to scan the same protocol, you can set up load balancing behavior to automatically balance the work between MID Servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_SetUpLoadBalDiscoBehavr.html
 release: australia
 product: Discovery
 classification: discovery
@@ -51,7 +52,7 @@ For example, an organization has 50 remote locations, varying in size from 10 de
     |Active|Select this check box to enable this behavior.|
     |Match criteria|Leave the default criteria of Any.|
 
-    ![Discovery functionality](../image/FunctionalityLoadBalance.png "Discovery Functionality Form")
+    \[Omitted image "FunctionalityLoadBalance.png"\] Alt text: Discovery functionality
 
 3.  Create Functionality Criteria.
 
@@ -78,7 +79,7 @@ For example, an organization has 50 remote locations, varying in size from 10 de
     |Functionality|Select All except Windows \(no WMI\) from the list. This functionality causes the MID Server to scan all remaining protocols after Discovery has run the WMI scans.|
     |MID Servers|Enter the name of the MID Server that scans all remaining devices. To enable automatic load balancing, add an additional MID Server in this field.|
 
-5.  Create a [Discovery schedule](t_CreateADiscoverySchedule.md#) for each time zone and name the behavior you created.
+5.  Create a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) for each time zone and name the behavior you created.
 
     1.  Navigate to **Discovery** &gt; **Discovery Schedules** and select **New** in the record list.
 
@@ -88,7 +89,7 @@ For example, an organization has 50 remote locations, varying in size from 10 de
 
         **Warning:** If this option isn't selected, the required value for the next step may not be available.
 
-    4.  Select the search icon ![](../../health-log-analytics-operator/image/icon-search-sow.png) and choose the behavior to use.
+    4.  Select the search icon \[Omitted image "icon-search-sow.png"\] Alt text: and choose the behavior to use.
 
         In this example, select LoadBalanced.
 
@@ -100,17 +101,17 @@ For example, an organization has 50 remote locations, varying in size from 10 de
 
     8.  Create additional schedules for each time zone or region in the network and select the same behavior.
 
-    ![Discovery Schedule](../image/DiscoverySchedule.png "Discovery Schedule")
+    \[Omitted image "DiscoverySchedule.png"\] Alt text: Discovery Schedule
 
 
-**Parent Topic:**[Discovery behaviors](../concept/c_DiscoveryBehaviors.md)
+**Parent Topic:**[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
 
 **Related topics**  
 
 
-[Create a Discovery behavior](create-disco-behavior.md)
+[Create a Discovery behavior]()
 
-[Examples of Discovery behavior functionalities](../reference/r_DefineTheFunctionalities.md)
+[Examples of Discovery behavior functionalities]()
 
-[Discovery behavior example: access an ACL protected SNMP device](t_AccessAnACLProtectedSNMPDevice.md)
+[Access an ACL-protected SNMP device]()
 

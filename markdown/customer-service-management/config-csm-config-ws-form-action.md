@@ -2,6 +2,7 @@
 title: Set up a form action in CSM Configurable Workspace
 description: Create a form action that links to a UI action so that you can use the UI action in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-config-ws-form-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-18"
@@ -29,15 +30,15 @@ In order to use UI actions in CSM Configurable Workspace, each UI action must ha
 
 3.  Fill in the following fields on the Action Assignment form.
 
-<table id="choicetable_zhx_pfj_q3c"><thead><tr><th align="left" id="d181870e101">
+<table id="choicetable_zhx_pfj_q3c"><thead><tr><th align="left" id="d186664e101">
 
 Field
 
-</th><th align="left" id="d181870e104">
+</th><th align="left" id="d186664e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d181870e110">
+</th></tr></thead><tbody><tr><td id="d186664e110">
 
 **Action label**
 
@@ -45,7 +46,7 @@ Description
 
 The name of the action. For example, Create or Save.
 
-</td></tr><tr><td id="d181870e119">
+</td></tr><tr><td id="d186664e119">
 
 **Action name**
 
@@ -53,7 +54,7 @@ The name of the action. For example, Create or Save.
 
 This field populates automatically with the action label in all lowercase and with spaces replaced with underscores.
 
-</td></tr><tr><td id="d181870e128">
+</td></tr><tr><td id="d186664e128">
 
 **Implemented as**
 
@@ -64,7 +65,7 @@ Select one of the following:-   Server Script: Applies the action to the server 
 -   Client Script: Applies the action to the web browser as JavaScript.
 
 
-</td></tr><tr><td id="d181870e148">
+</td></tr><tr><td id="d186664e148">
 
 **Table**
 
@@ -72,7 +73,7 @@ Select one of the following:-   Server Script: Applies the action to the server 
 
 Select a table for the action button to appear on.
 
-</td></tr><tr><td id="d181870e158">
+</td></tr><tr><td id="d186664e158">
 
 **View**
 

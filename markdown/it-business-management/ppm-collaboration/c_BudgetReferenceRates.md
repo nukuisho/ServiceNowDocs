@@ -2,6 +2,7 @@
 title: Currencies and budget reference rates
 description: The support for use of multiple currencies provides conversions for budget items in different currencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/c\_BudgetReferenceRates.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -17,7 +18,7 @@ The support for use of multiple currencies provides conversions for budget items
 
 ## Currency support
 
-The application can use a base currency, also called the reporting currency that you [specify with system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency-properties.md). You can also specify other currencies for budgets and budget items.
+The application can use a base currency, also called the reporting currency that you [specify with system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-properties.md). You can also specify other currencies for budgets and budget items.
 
 <table id="table_ygy_xz2_2t"><thead><tr><th>
 
@@ -58,10 +59,10 @@ Budget reference rates are exchange rates between currencies. Each reference rat
 
 **Note:** Currency support is for budgets only. You cannot create allocations in multiple currencies.
 
-**Parent Topic:**[PPM Standard \(Project Portfolio Management\)](../../project-portfolio-suite-with-financials/concept/c_ProjectPortfolioSuiteWithFinancials.md)
+**Parent Topic:**[PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md)
 
 **Related topics**  
 
 
-[Activate Investment Funding for projects and demands](../../investment-funding/task/activate-investment-funding-ppm.md)
+[Activate Investment Funding for projects and demands]()
 

@@ -2,6 +2,7 @@
 title: Use response templates in Service Request Playbook
 description: Respond to cases by using the response templates in the contextual side panel in CSM Configurable Workspace. Good templates save you time by eliminating repetitive work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/use-response-templates-psds.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,13 +20,13 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 ## About this task
 
-Selecting the response templates icon ![Response template icon.](../image/response-template-icon.png) shows the reusable messages that you can copy and paste into cases and case tasks. For information on how to create response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
+Selecting the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. shows the reusable messages that you can copy and paste into cases and case tasks. For information on how to create response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
 ## Procedure
 
 1.  In the CSM Configurable Workspace, open a service request task.
 
-2.  In the contextual side panel, select the response templates icon ![Response template icon.](../image/response-template-icon.png) to display a list of the available templates.
+2.  In the contextual side panel, select the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. to display a list of the available templates.
 
 3.  In the Response Templates side panel, search for a template.
 

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 ---
 
 # Purchase Order Management release notes
@@ -14,7 +14,12 @@ The ServiceNow® Purchase Order Management application helps you identify, track
 
 ## Purchase Order Management highlights for the Australia release
 
-[Australia Patch 1](../quality/australia-patch-1.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+
+-   Support for purchase order confirmation data.
+-   Enhancements to the automatic purchase order exception creation from email workflow.
+
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 
 -   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
@@ -65,6 +70,16 @@ See [Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/Ser
     Use the Define PO exception mitigation strategy agentic workflow to identify and execute mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 
 
+-   **[Support for purchase order confirmation data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/master-data-tables-for-pom.md)**
+
+    Purchase order confirmation and confirmation line tables are available by default when you install the Purchase Order Management plugin, enabling import of this information from external systems. These tables capture supplier acknowledgment and provide buyers visibility into order execution readiness. Note: Integration with external systems is not provided by default.
+
+
+-   **[Enhancements to the automatic purchase order exception creation from email workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/convert-emails-to-exceptions.md)**
+
+    The Create purchase order exception from email workflow is enhanced to automatically identify purchase order lines when the email contains an ERP PO and PO line ID instead of just a ServiceNow PO line ID. The workflow also supports additional languages \(French, Canadian French, German, Japanese, and Dutch\) for emails. These enhancements help in improving supplier communication and reducing manual intervention.
+
+
 ## UI changes
 
 -   **[Changes in the purchase order exception page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-details.md)**
@@ -76,7 +91,7 @@ See [Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/Ser
 
 ## Activation information
 
-Install Purchase Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Purchase Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -99,10 +114,10 @@ Install Purchase Order Management by requesting it from the ServiceNow Store. Vi
     ServiceNow® Source-to-Pay Operations unifies sourcing, procurement, and payments into a single experience. It automates transaction processes, integrates with ERP systems, and accelerates implementation, enabling teams to optimize spend, reduce risk, and achieve their organizational ESG goals through sustainable sourcing.
 
 
--   **[Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-landing-page.md)**
+-   **[Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supp-mgmt-landing-page.md)**
 
     ServiceNow® Supplier Lifecycle Operations empowers suppliers with self-service to simplify operations and improve productivity. You can effectively collaborate with suppliers, manage supplier relationships, monitor risk, compliance, and performance across the supplier life cycle.
 
 
-**Parent Topic:**[Source-to-Pay Operations release notes](source-to-pay-operations-rn-landing.md)
+**Parent Topic:**[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/source-to-pay-operations-rn-landing.md)
 

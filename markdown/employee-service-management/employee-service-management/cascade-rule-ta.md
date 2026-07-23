@@ -6,6 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [cascade rules, data cleanup, delete job requisition, related data deletion, cascade cleanup]
 ---
 
 # Cascade rules for cleaning data
@@ -20,5 +21,5 @@ Cascade rules determine a thorough cleanup of the outdated data and its related 
 |A job application is deleted.|All extracted skills associated with the job application are deleted.|
 |A job application is deleted.|All the details from the applicant profile are deleted.|
 
-**Parent Topic:**[Modify purge policies to clean up data](../task/set-up-purge-pollicies-ta.md)
+**Parent Topic:**[Modify purge policies to clean up data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-purge-pollicies-ta.md)
 

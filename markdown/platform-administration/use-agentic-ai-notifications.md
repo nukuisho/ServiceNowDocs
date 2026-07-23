@@ -2,6 +2,7 @@
 title: Use email agentic workflow
 description: Use email agentic workflow to intelligently analyze inbound emails, extract information, perform necessary actions, and draft responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/use-agentic-ai-notifications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,7 +31,7 @@ Available AI agents
 
 </th></tr></thead><tbody><tr><td>
 
-[Intent to action](../concept/email-agentic-workflow.md)
+[Intent to action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-agentic-workflow.md)
 
 </td><td>
 

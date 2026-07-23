@@ -2,6 +2,7 @@
 title: Address items that requires attention
 description: Learn how to review and manage items that need your attention, such as expiring articles, flagged content, and feedback tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/using-requires-attention.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +48,5 @@ You can track and resolve to pending tasks efficiently from the **Requires Atten
 **Related topics**  
 
 
-[Requires attention](../concept/exploring-requires-attention.md)
+[Requires attention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

@@ -2,9 +2,10 @@
 title: Normal values
 description: A normal value replaces similar but ambiguous field values with one standard value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_WhatFieldNormalizationDoes.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

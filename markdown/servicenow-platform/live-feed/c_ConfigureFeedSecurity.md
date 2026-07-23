@@ -2,6 +2,7 @@
 title: Security configuration for document feeds
 description: Document feeds honor the access control rules \(ACLs\) for the associated record. Users can only view messages on the document feed if they have access to the same information on the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_ConfigureFeedSecurity.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -22,18 +23,18 @@ Consider the following examples:
 
 **Note:** Access control rules are only checked when a user first accesses the document feed. After users view the feed, an administrator must remove them manually to change their access.
 
-**Parent Topic:**[Document feeds](c_DocumentFeeds.md)
+**Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_DocumentFeeds.md)
 
 **Related topics**  
 
 
-[Add a Live Feed UI action on a table](../task/t_AddALiveFeedUIActionOnATable.md)
+[Add a Live Feed UI action on a table]()
 
-[Configure document feeds](../task/t_ConfigureDocumentFeeds.md)
+[Configure document feeds]()
 
-[Disable a record feed](../task/t_DisableARecordFeed.md)
+[Disable a record feed]()
 
-[Disable a document feed](../task/t_DisableADocumentFeed.md)
+[Disable a document feed]()
 
-[Business rule installed with Live Feed Document](../reference/r_InstalledComponents.md)
+[Business rule installed with Live Feed Document]()
 

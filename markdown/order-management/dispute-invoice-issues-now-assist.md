@@ -2,12 +2,13 @@
 title: Dispute invoice issues using Now Assist Virtual Assistant
 description: Dispute invoice issues such as quantity discrepancies in a guided conversational flow using Now Assist Virtual Assistant from the Business Portal, without needing to contact support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/dispute-invoice-issues-now-assist.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-18"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Now Assist for Order Management]
+breadcrumb: [Use, Now Assist for Order Management, Sales Customer Relationship Management]
 ---
 
 # Dispute invoice issues using Now Assist Virtual Assistant
@@ -34,7 +35,7 @@ If you express dissatisfaction or explicitly request human assistance at any poi
 
 1.  Log in to the Business Portal.
 
-2.  Launch the Now Assist chat panel by selecting the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png).
+2.  Launch the Now Assist chat panel by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
 
     Now Assist uses the context of the current page to tailor its responses and offer support. For example, launching it from an invoice details page offers help in the context of that invoice.
 
@@ -68,8 +69,25 @@ If you express dissatisfaction or explicitly request human assistance at any poi
     The AI agent validates the dispute by triggering an ATP API call. Depending on the outcome, one of the following happens:
 
     -   Validated: An invoice case is created with the state set to Work in Progress and the agent presents resolution options for the quantity discrepancy. You also receive an email notification with the case details.
-    -   Not validated: The agent notifies you that the dispute could not be confirmed and prompts you to try a different invoice. If you disagree with the outcome, you can request to chat with a human agent.
-8.  If the dispute is validated, select a resolution option for the quantity discrepancy.
+    -   Not validated: The agent notifies you that the dispute could not be confirmed. If you disagree with the outcome, you can request to chat with a human agent.
+8.  If the dispute is not validated, select one of the following options.
+
+    -   Upload a delivery note as additional proof of your claim.
+    -   Connect with a live agent for further assistance.
+9.  If you opted to upload a delivery note, upload the document when prompted.
+
+    Supported formats include PDF, JPG, and PNG. The maximum file size is 5 MB.
+
+    The AI agent uses extracts the following details from the uploaded document:
+
+    -   Invoice number
+    -   Order number, if available
+    -   Description
+    -   Product offer or sold product
+    -   Quantity
+    The AI agent compares the received quantity on the delivery note against the invoiced quantity.
+
+10. If the dispute is validated, select a resolution option for the quantity discrepancy.
 
     |Option|Description|
     |------|-----------|
@@ -85,10 +103,10 @@ If you express dissatisfaction or explicitly request human assistance at any poi
 
 When the dispute is resolved, an email notification is sent to you with a summary and a hyperlink to the case.
 
-**Parent Topic:**[Using Now Assist for Order Management](../concept/now-assist-order-management-using.md)
+**Parent Topic:**[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-management-using.md)
 
 **Related topics**  
 
 
-[Resolve invoice disputes using agentic workflow](resolve-invoice-case-now-assist-agent.md)
+[Resolve invoice disputes using agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/resolve-invoice-case-now-assist-agent.md)
 

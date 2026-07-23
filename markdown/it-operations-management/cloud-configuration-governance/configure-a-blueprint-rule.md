@@ -2,6 +2,7 @@
 title: Configure a blueprint rule
 description: Configure a rule that contains actions the system can take on blueprint attributes.Configure the condition on a blueprint form event rule that determines when the actions in the rule can run. Conditions are optional.Configure actions that the system runs when blueprint form attribute actions or event actions are triggered. You can configure actions like making a field mandatory, showing or hiding a field, or automatically populating a field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -25,7 +26,7 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 2.  On the **Catalog** tab, click the operation, such as the provision operation, that contains the attribute.
 
-    ![Provision operation](../image/provision-operation-blueprint.png)
+    \[Omitted image "provision-operation-blueprint.png"\] Alt text: Provision operation
 
 3.  In the Variable Sets related list on the Cloud Catalog Item form, click the name of the variable set that contains the variable.
 
@@ -65,22 +66,22 @@ Enter a number that tells the system which record to evaluate first in relation 
 
 This example rule is based on the **CloudAccount** property and contains an action that tells the system to update the list of locations when the user changes the cloud account.
 
-![An example blueprint rule](../image/blueprint-rule.png "Example blueprint rule")
+\[Omitted image "blueprint-rule.png"\] Alt text: An example blueprint rule
 
 ## What to do next
 
-Configure an optional [condition](configure-a-blueprint-rule.md#) and a mandatory [action](configure-a-blueprint-rule.md#).
+Configure an optional [condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md) and a mandatory [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md).
 
-**Parent Topic:**[Build a Cloud Provisioning blueprint](create-blueprint-cmp.md)
+**Parent Topic:**[Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
 
 **Related topics**  
 
 
-[Add a resource operation to the execution plan](add-resource-operation-cmp.md)
+[Add a resource operation to the execution plan]()
 
-[Execute blueprint operations in parallel](execute-blueprint-operations-parallel.md)
+[Execute blueprint operations in parallel]()
 
-[Blueprint attributes](../reference/blueprint-attributes.md)
+[Blueprint attributes]()
 
 ## Configure a blueprint rule condition
 
@@ -92,7 +93,7 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 ### Procedure
 
-1.  Open a [rule for a variable](configure-a-blueprint-rule.md#) on a blueprint.
+1.  Open a [rule for a variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md) on a blueprint.
 
 2.  On the Conditions related list, click **New**.
 
@@ -166,11 +167,11 @@ Keep the status active to have the system process the condition. Change the stat
 
 This example condition applies when the user selects the AWS Datacenter for the Logical\_Datacenter property, which is a field on the catalog item form:
 
-![Example blueprint condition](../image/blueprint-condition.png "Example blueprint condition")
+\[Omitted image "blueprint-condition.png"\] Alt text: Example blueprint condition
 
 ### What to do next
 
-[Configure a blueprint action](configure-a-blueprint-rule.md#).
+[Configure a blueprint action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md).
 
 ## Configure a blueprint action
 
@@ -208,13 +209,13 @@ Action Type
 
 </td><td>
 
-Select an action type: -   **Reload**:
--   **Show**:
--   **Hide**:
--   **MakeMandatory**:
--   **MakeNonMandatory**:
--   **TriggerChangeEvent**:
--   **SetValue**:
+Select an action type: -   **Reload**: Select a variable to reload
+-   **Show**: Select a variable to make visible.
+-   **Hide**: Select a variable to hide.
+-   **MakeMandatory**: Select a variable to make mandatory.
+-   **MakeNonMandatory**: Select a variable to make optional.
+-   **TriggerChangeEvent**: Select a variable on which to trigger a change event. All rules on the selected variable are triggered.
+-   **SetValue**: Set the value of a variable.
 
 
 </td></tr><tr><td>
@@ -236,7 +237,7 @@ Target Field
 
 </td><td>
 
-Enter the name of the field on the form that the action applies to. For example, if you selected **TriggerChangeEvent** for the action type, the value of the field changes when something changes on the form, as specified in the [blueprint rule](configure-a-blueprint-rule.md#).
+Enter the name of the field on the form that the action applies to. For example, if you selected **TriggerChangeEvent** for the action type, the value of the field changes when something changes on the form, as specified in the [blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md).
 
 </td></tr><tr><td>
 
@@ -266,11 +267,11 @@ Enter a number that tells the system which record to evaluate first in relation 
 
 ### Example
 
-This example action applies to the [blueprint rule example](configure-a-blueprint-rule.md#), which is based on the CloudAccount attribute. The action tells the system to update the list of locations when the user changes the cloud account.
+This example action applies to the [blueprint rule example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md), which is based on the CloudAccount attribute. The action tells the system to update the list of locations when the user changes the cloud account.
 
-![Configuring a blueprint action](../image/blueprint-action.png "Example blueprint action")
+\[Omitted image "blueprint-action.png"\] Alt text: Configuring a blueprint action
 
 ### What to do next
 
-[Publish a blueprint as a cloud catalog item](catalog-item-from-blueprint-cmp.md).
+[Publish a blueprint as a cloud catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/catalog-item-from-blueprint-cmp.md).
 

@@ -2,6 +2,7 @@
 title: Recent selections
 description: Reference fields store a list of each user's recent selections to enable you to quickly select past values when filling in a reference field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_RecentSelections.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,11 +21,11 @@ By default, the system stores up to 15 selections from a reference field for eac
 -   The system doesn't store recent selections for Service Catalog reference variables.
 -   Recent selections aren't available in the Service Portal or mobile user interfaces.
 
-![An empty reference field to the User table displaying a list of two recent user selections: Beth Anglin and Eric Shroeder.](../image/RecentSelections.png "Recent selections")
+\[Omitted image "RecentSelections.png"\] Alt text: An empty reference field to the User table displaying a list of two recent user selections: Beth Anglin and Eric Shroeder.
 
 The system uses auto-complete to filter the list of recent selections to match the values that you enter.
 
-![A partially-filled in reference field to the User table displaying a filtered list of users whose names begin with the letter B.](../image/RecentSelectionsFiltered.png "Recent selections filtered")
+\[Omitted image "RecentSelectionsFiltered.png"\] Alt text: A partially-filled in reference field to the User table displaying a filtered list of users whose names begin with the letter B.
 
 The system adds a Recent Selection record whenever you insert or update a reference field value. Administrators can control the number of recent selections the system displays with the **glide.xmlhttp.max\_choices** system property. Setting the property to zero disables recent selections.
 
@@ -36,5 +37,5 @@ The system adds a Recent Selection record whenever you insert or update a refere
 **Related topics**  
 
 
-[Available system properties](../../reference-pages/reference/r_AvailableSystemProperties.md#)
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
 

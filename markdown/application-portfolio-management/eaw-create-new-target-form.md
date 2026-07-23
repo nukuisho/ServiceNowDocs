@@ -1,7 +1,8 @@
 ---
-title: Create new target form
-description: Use the Create new target form to create a quantitative or qualitative target for your goal.
+title: Create target form
+description: Use the Create target form to create a quantitative or qualitative target for your goal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-new-target-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,9 +10,9 @@ reading_time_minutes: 3
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new target form
+# Create target form
 
-Use the Create new target form to create a quantitative or qualitative target for your goal.
+Use the Create target form to create a quantitative or qualitative target for your goal.
 
 <table id="table_eh1_4f1_ybc"><thead><tr><th>
 
@@ -205,14 +206,14 @@ Review date
 The date on which the target is to be reviewed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Exploring goals](../../concept/eaw-concept/eaw-goals.md)
+[Exploring goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-goals.md)
 
-[Add a quantitative target to a goal](../../task/eaw-task/eaw-add-a-quantitative-target-to-a-goal.md)
+[Add a quantitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-a-quantitative-target-to-a-goal.md)
 
-[Add a qualitative target to a goal](../../task/eaw-task/eaw-add-a-qualitative-target-to-a-goal.md)
+[Add a qualitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-a-qualitative-target-to-a-goal.md)
 

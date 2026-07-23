@@ -2,11 +2,12 @@
 title: Saved flow triggers
 description: Save a set of trigger definitions as a reusable trigger. Enable flow authors to select the saved trigger from some or all application flows. Specify whether flow authors can see the trigger details or add conditions to the trigger.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/saved-flow-triggers.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -27,7 +28,7 @@ Save flow triggers to gain these benefits:
 
 The Workflow Studio home page displays a **Triggers** option in the list of available components and the list of new components.
 
-![Interface for the configure the trigger with numbered callouts for specific UI elements. For a description of the UI elements, see the list in the following text.](../images/trigger-definition.png "Screen to create a record based trigger")
+\[Omitted image "trigger-definition.png"\] Alt text: Interface for the configure the trigger with numbered callouts for specific UI elements. For a description of the UI elements, see the list in the following text.
 
 A Workflow Studio **Create trigger** tab consists of these elements:
 
@@ -51,7 +52,7 @@ A Workflow Studio **Create trigger** tab consists of these elements:
 
     Select the trigger type and table from the available options.
 
-    For more information about trigger types, see [Workflow Studio flow trigger types](../reference/flow-triggers.md).
+    For more information about trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
     **Note:** Starting in the Yokohama release, only the record-based triggers are supported for saved flow triggers.
 
@@ -71,14 +72,14 @@ A Workflow Studio **Create trigger** tab consists of these elements:
 
         |Option|Description|
         |------|-----------|
-        |Only Run for Non-Interactive Session|Flow that is triggered only in non-interactive sessions. See [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md).|
+        |Only Run for Non-Interactive Session|Flow that is triggered only in non-interactive sessions. See [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_NonInteractiveSessions.md).|
         |Only Run for User Interactive Session|Flow that is triggered only in interactive sessions.|
         |Run for Both Interactive and Non-Interactive Sessions|Flow that is triggered in all sessions.|
 
         |Option|Description|
         |------|-----------|
-        |Do not run if triggered by the following users|Flow that doesn't trigger for a selected list of users. Select the Add User icon \(![Add User Icon](../images/icon-select-users.png)\) to add users to the list.|
-        |Only run if triggered by the following users|Flow that triggers only for a selected list of users. Select the Add User icon \(![Add User Icon](../images/icon-select-users.png)\) to add users to the list.|
+        |Do not run if triggered by the following users|Flow that doesn't trigger for a selected list of users. Select the Add User icon \(\[Omitted image "icon-select-users.png"\] Alt text: Add User Icon\) to add users to the list.|
+        |Only run if triggered by the following users|Flow that triggers only for a selected list of users. Select the Add User icon \(\[Omitted image "icon-select-users.png"\] Alt text: Add User Icon\) to add users to the list.|
         |Run for any user|Flow that runs for any user.|
 
         |Option|Description|
@@ -121,9 +122,9 @@ Flow that runs synchronously in the current session. Use this option to provide 
 **Related topics**  
 
 
-[Create a saved record-based trigger](../task/create-saved-trigger.md)
+[Create a saved record-based trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-saved-trigger.md)
 
-[Edit a saved trigger](../task/edit-saved-trigger.md)
+[Edit a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/edit-saved-trigger.md)
 
-[Delete a saved trigger](../task/delete-saved-trigger.md)
+[Delete a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/delete-saved-trigger.md)
 

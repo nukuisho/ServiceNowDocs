@@ -2,6 +2,7 @@
 title: Configure Code Signing Enterprise on your protected instance
 description: Turn on and configure Code Signing on your protected instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/cse-ppi-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Roles required:
 -   security\_admin
 -   codesigning\_admin
 
-    **Note:** The codesigning\_admin role can be assigned using the process detailed in [Assign the Code Signing Administrator Role](cse-assign-roles.md).
+    **Note:** The codesigning\_admin role can be assigned using the process detailed in [Assign the Code Signing Administrator Role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cse-assign-roles.md).
 
 -   sn\_kmf.cryptographic\_manager
 
@@ -76,7 +77,5 @@ Roles required:
 
 Signature validation is now being enforced on your production instance. You can verify successful completion by looking at your system properties. Look for the **com.snc.kmf.signature.validation.flag** property on the System Properties \[sys\_property\] table, and verify that it has a value of **true**. Verify that the **com.snc.kmf.signature.validation.certificate\_trust** property doesn’t have an empty value.
 
-![Property values verifying that signature validation is now being enforced](../image/cse-verify.png)
-
-**Parent Topic:**[Configuring Code Signing](../concept/config-code-signing.md)
+\[Omitted image "cse-verify.png"\] Alt text: Property values verifying that signature validation is now being enforced
 

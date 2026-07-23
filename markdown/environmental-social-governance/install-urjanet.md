@@ -1,7 +1,8 @@
 ---
 title: Install Operational Sustainability Integration with Urjanet
-description: You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
+description: You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/install-urjanet.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,7 +12,7 @@ breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) 
 
 # Install Operational Sustainability Integration with Urjanet
 
-You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Operational Sustainability Integration with Urjanet application \(sn\_esg\_urjanet\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they aren't already installed.
 
 ## Before you begin
 
@@ -30,7 +31,7 @@ The following items are installed with Operational Sustainability Integration wi
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](../reference/components-installed-with-esg.md).
+For more information, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/components-installed-with-esg.md).
 
 ## Procedure
 
@@ -40,7 +41,7 @@ For more information, see [Components installed with Operational Sustainability 
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    In the list next to the **Install** button, the versions that are available to you are displayed.
+    In the list next to the **Install** button, the versions that are available to you're displayed.
 
 3.  Select a version from the list and select **Install**.
 
@@ -55,5 +56,5 @@ For more information, see [Components installed with Operational Sustainability 
 6.  Select **Install**.
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](../concept/integrating-esg-management-with-urjanet.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrating-esg-management-with-urjanet.md)
 

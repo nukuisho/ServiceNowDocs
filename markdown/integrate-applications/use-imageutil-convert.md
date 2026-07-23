@@ -2,11 +2,12 @@
 title: Use the Convert component
 description: Convert the format of an image to a different format by using the Convert component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-imageutil-convert.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Image Utilities, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Image Utilities, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the Convert component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Convert component. For more information about these properties, see [Properties of the Image Utilities components](../reference/util-imageutil-prop.md).
+You can configure the properties for the Convert component. For more information about these properties, see [Properties of the Image Utilities components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-imageutil-prop.md).
 
 ## Procedure
 
@@ -27,7 +28,7 @@ You can configure the properties for the Convert component. For more information
 
 2.  Drag the Convert component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Convert component to the corresponding ports of the other components as described in the following table.
 
@@ -73,7 +74,7 @@ Takes the new image format from a previously executed component.Double click thi
 
 For example, select Png.
 
-![Image format options such as png, jpg.](../image/imageformat-options-convert-rpa.png "Image format options")
+\[Omitted image "imageformat-options-convert-rpa.png"\] Alt text: Image format options such as png, jpg.
 
 </td><td>
 
@@ -91,7 +92,7 @@ Return
 
 Returns the image that is converted to the specified format.You can additionally add the Save component from Image Utilities to save the converted image to a different filepath.
 
-![Read file path from ReadFromFile component, convert that image format using Convert component, and save it using Save component.](../image/convert-image-utlities-rpa.png "Convert component using other components")
+\[Omitted image "convert-image-utlities-rpa.png"\] Alt text: Read file path from ReadFromFile component, convert that image format using Convert component, and save it using Save component.
 
 </td><td>
 
@@ -105,5 +106,5 @@ Bitmap
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Image Utilities](../concept/image-utilities.md)
+**Parent Topic:**[Image Utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/image-utilities.md)
 

@@ -2,6 +2,7 @@
 title: Download an architectural artifact version
 description: Download a version of an architectural artifact that has the file type defined as Attachment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-download-artifact-version.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,9 +26,9 @@ Downloading and storing different versions of architectural artifacts helps in m
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon ![Portfolio icon](../../image/portfolio-icon.png).
+2.  Open the Portfolio List view by selecting the Portfolio icon \[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Information Portfolio**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Information Portfolio**.
 
 4.  Select **Architectural Artifacts**.
 
@@ -35,7 +36,7 @@ Downloading and storing different versions of architectural artifacts helps in m
 
 6.  Select **Artifact versions**.
 
-    ![Architectural versions tab displaying the list of available architectural artifact versions.](../../image/eaw-image/architectural-artifact-tab-related-list.png)
+    \[Omitted image "architectural-artifact-tab-related-list.png"\] Alt text: Architectural versions tab displaying the list of available architectural artifact versions.
 
 7.  In the **Version** column, select the architectural artifact version that you want to download the data for.
 
@@ -44,26 +45,26 @@ Downloading and storing different versions of architectural artifacts helps in m
     The architectural artifact is downloaded to your local drive.
 
 
-**Parent Topic:**[Manage architectural artifacts](../../concept/eaw-concept/eaw-manage-arch-artifacts.md)
+**Parent Topic:**[Manage architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-arch-artifacts.md)
 
 **Related topics**  
 
 
-[Manage access to architectural artifacts](eaw-manage-access-to-architectural-artifacts.md)
+[Manage access to architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-access-to-architectural-artifacts.md)
 
-[Create or edit an architectural artifact from Portfolio page](eaw-create-architectural-artifact.md)
+[Create or edit an architectural artifact from Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-architectural-artifact.md)
 
-[Delete an architectural artifact version](eaw-delete-an-architectural-artifact-version.md)
+[Delete an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-delete-an-architectural-artifact-version.md)
 
-[Add a related entity to an architectural artifact](eaw-add-a-related-entity-to-an-architectural-artifact.md)
+[Add a related entity to an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-a-related-entity-to-an-architectural-artifact.md)
 
 [eaw-add-an-architectural-artifact-version]
 
-[Request approval for an architectural artifact of type URL or Attachment](eaw-req-approval-artifact-version.md)
+[Request approval for an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-req-approval-artifact-version.md)
 
-[Share an architectural artifact with users or groups](eaw-share--archi-artft-with-users-groups.md)
+[Share an architectural artifact with users or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-share--archi-artft-with-users-groups.md)
 
-[View all architectural artifact categories](eaw-view-arch-art-categories.md)
+[View all architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-arch-art-categories.md)
 
-[View all architectural artifacts](eaw-view-all-architectural-artifacts.md)
+[View all architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-architectural-artifacts.md)
 

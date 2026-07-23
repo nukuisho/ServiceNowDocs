@@ -1,7 +1,8 @@
 ---
 title: Accept or reject a case solution from the Consumer Portal
-description: Accept or reject a proposed case solution from the Consumer Portal.
+description: When an agent proposes a solution to your case, accept or reject it from the Consumer Portal to close or reopen the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/resolve-cases-on-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,7 +12,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Accept or reject a case solution from the Consumer Portal
 
-Accept or reject a proposed case solution from the Consumer Portal.
+When an agent proposes a solution to your case, accept or reject it from the Consumer Portal to close or reopen the case.
 
 ## Before you begin
 
@@ -33,7 +34,7 @@ When an agent proposes a solution, buttons to accept or reject it appear in the 
 
 5.  Select one of the following from **Actions**.
 
-<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d187859e128">
+<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d192792e128">
 
 **Accept Solution**
 
@@ -41,7 +42,7 @@ When an agent proposes a solution, buttons to accept or reject it appear in the 
 
 Accepts the solution proposed by the agent and changes the case state to **Closed**.
 
-</td></tr><tr><td id="d187859e140">
+</td></tr><tr><td id="d192792e140">
 
 **Reject Solution**
 
@@ -51,3 +52,8 @@ Rejects the solution proposed by the agent after entering the reason for rejecti
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[View cases and tasks from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-on-consumer-portal.md)
+

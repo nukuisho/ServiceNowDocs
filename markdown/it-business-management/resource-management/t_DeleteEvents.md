@@ -2,6 +2,7 @@
 title: Delete events
 description: You can delete events you created at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_DeleteEvents.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -42,16 +43,16 @@ You can’t delete any events added to your calendar by a resource manager.
 
 When you delete a calender event, the resource aggregate daily, weekly, and monthly tables are updated accordingly. The resource aggregate daily table isn’t enabled by default. To generate daily aggregates and store them in this table, create the **com.snc.resource\_management.generate\_daily\_aggregates** property and set the value to true.
 
-**Parent Topic:**[My Calendar](../concept/c_MyCalendar.md)
+**Parent Topic:**[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_MyCalendar.md)
 
 **Related topics**  
 
 
-[Add events to your calendar](t_AddEventsToYourCalendar.md)
+[Add events to your calendar]()
 
-[Create repeatable events](t_CreateRepeatableEvents.md)
+[Create repeatable events]()
 
-[View a user calendar](t_ViewAUserCalendar.md)
+[View a user calendar]()
 
-[Add events to a user calendar](t_AddEventsToAUserCalendar.md)
+[Add events to a user calendar]()
 

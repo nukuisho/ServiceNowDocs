@@ -2,6 +2,7 @@
 title: Scheduled jobs for TPM in the EA Workspace
 description: Several types of scheduled jobs are added for Technology Portfolio Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-tpm-scheduled-jobs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -48,14 +49,14 @@ Populate TRM technical debts in the EA Workspace
 Updates the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table with the latest technical debt data for your software products that is available in the TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\] table.**Note:** The Populate TRM technical debts in the EA Workspace scheduled job will be available only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate the Technology Portfolio Management \(TPM\) plugin](../../task/eaw-task/eaw-install-tpm.md)
+</table>**Parent Topic:**[Activate the Technology Portfolio Management \(TPM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
 
 **Related topics**  
 
 
-[Run a scheduled job to update TRM technical debt data in EA Workspace](../../task/eaw-task/eaw-run-job-trm-tech-debts.md)
+[Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
 
-[Update TPM data for a business application or application service](../../task/eaw-task/update-tpm-data.md)
+[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md)
 
-[Restart Populate TPM Discovered Technologies and Lifecycles scheduled job](../../task/eaw-task/eaw-restart-tpm-scheduled-job.md)
+[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 

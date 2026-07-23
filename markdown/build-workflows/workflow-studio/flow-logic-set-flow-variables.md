@@ -2,6 +2,7 @@
 title: Set Flow Variables flow logic
 description: Assign a value to one or more flow variables, which store flow data as data pills. Access flow variable values by referring to their data pill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-set-flow-variables.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows
 
 Assign a value to one or more flow variables, which store flow data as data pills. Access flow variable values by referring to their data pill.
 
-**Important:** This flow logic sets values for flow variables that have already been created. For instructions on creating flow variables, see [Create a flow variable](../task/create-flow-variables.md).
+**Important:** This flow logic sets values for flow variables that have already been created. For instructions on creating flow variables, see [Create a flow variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-variables.md).
 
 ## Inputs
 
@@ -43,7 +44,7 @@ Data
 
 Value for the variable. Enter a string value, input a script, or use a data pill. Variable values can reference any data pill from earlier in the flow, including other variables. If you set variable values by reference to other data pills, you must maintain the order of the variable assignments. The referenced value must always come before the variable that uses the referenced value. Changing the order may produce null values. To assign an empty value, leave this field empty.**Note:** Flow variable values are set in the order in which they're assigned from top to bottom. If you set the value of the same variable multiple times, the flow only uses the last value set.
 
-To enter a script, select the **Toggle scripting on for \[variable\]** icon. Enter your script in the script editor. For more information about inline scripting, see [Inline scripts](inline-scripts.md).
+To enter a script, select the **Toggle scripting on for \[variable\]** icon. Enter your script in the script editor. For more information about inline scripting, see [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md).
 
 </td></tr></tbody>
 </table>## Outputs
@@ -58,11 +59,11 @@ Flow variables store flow data as data pills of a specific data type. You can ac
 
 In this example, the flow checks the category of an incident record. If the category is network, a flow variable is used to store the record number.
 
-![Use a data pill value to set a flow variable.](../images/set-flow-variables-flow-logic.png)
+\[Omitted image "set-flow-variables-flow-logic.png"\] Alt text: Use a data pill value to set a flow variable.
 
 Later in the flow, the Send Email action uses the incident number flow variable as part of the email subject and body.
 
-![Send Email action that uses the Flow Variable incident number in both the subject and body of the email.](../images/example-use-flow-variable-in-send-email.png)
+\[Omitted image "example-use-flow-variable-in-send-email.png"\] Alt text: Send Email action that uses the Flow Variable incident number in both the subject and body of the email.
 
 ## Set the incident number variable value using a script
 
@@ -80,48 +81,48 @@ var incNumber = fd_data.trigger.current.number;
 return incNumber;
 ```
 
-![Use a script to set a flow variable.](../images/flow-logic-set-flow-variables-script.png)
+\[Omitted image "flow-logic-set-flow-variables-script.png"\] Alt text: Use a script to set a flow variable.
 
 ## Execution details
 
-![Example execution details of setting a flow variable with a data pill.](../images/set-flow-variables-execution-details.png "Execution details for set the incident number variable value to a data pill value")
+\[Omitted image "set-flow-variables-execution-details.png"\] Alt text: Example execution details of setting a flow variable with a data pill.
 
-![Example execution details of setting a flow variable with a script.](../images/flow-logic-set-flow-variables-script-execution-details.png "Execution details for set the incident number variable value using a script") ![Example execution details of setting a flow variable with an inline script.]( "Execution details for set the incident number variable value using a script")
+\[Omitted image "flow-logic-set-flow-variables-script-execution-details.png"\] Alt text: Example execution details of setting a flow variable with a script. \[Omitted image ""\] Alt text: Example execution details of setting a flow variable with an inline script.
 
-**Parent Topic:**[Workflow Studio flow logic](flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 
 
-[Append to Flow Variables flow logic](../reference/append-to-flow-variables-flow-logic.md)
+[Append to Flow Variables flow logic]()
 
-[Assign subflow outputs flow logic](flow-logic-assign-subflow-outputs.md)
+[Assign subflow outputs flow logic]()
 
-[Call a workflow flow logic](flow-logic-call-workflow.md)
+[Call a workflow flow logic]()
 
-[Do the following until flow logic](flow-logic-do-until.md)
+[Do the following until flow logic]()
 
-[Do the following in parallel flow logic](flow-logic-do-following-in-parallel.md)
+[Do the following in parallel flow logic]()
 
-[Dynamic flows flow logic](flow-logic-dynamic-flow.md)
+[Dynamic flows flow logic]()
 
-[End Flow flow logic](flow-logic-end-action.md)
+[End Flow flow logic]()
 
-[Exit Loop flow logic](../reference/exit-loop-flow-logic.md)
+[Exit Loop flow logic]()
 
-[For Each flow logic](flow-logic-for-each.md)
+[For Each flow logic]()
 
-[Get Flow Outputs flow logic](../reference/get-flow-outputs-flow-logic.md)
+[Get Flow Outputs flow logic]()
 
-[Go back to flow logic](../reference/go-back-to-flow-logic.md)
+[Go back to flow logic]()
 
-[If flow logic](flow-logic-if.md)
+[If flow logic]()
 
-[Make a decision flow logic](flow-logic-make-decision.md)
+[Make a decision flow logic]()
 
-[Skip Iteration flow logic](../reference/skip-iteration-flow-logic.md)
+[Skip Iteration flow logic]()
 
-[Try flow logic](flow-logic-try.md)
+[Try flow logic]()
 
-[Wait for a duration flow logic](flow-logic-wait-for-a-duration.md)
+[Wait for a duration flow logic]()
 

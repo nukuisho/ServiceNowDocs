@@ -2,6 +2,7 @@
 title: Customer success
 description: Learn how your organization can use the customer success solution to engage with your customers, mitigate risks by running success plays, and identify opportunities for expansion and renewals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-use-cust-success.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,26 +16,22 @@ Learn how your organization can use the customer success solution to engage with
 
 **Important:** Account Lifecycle Events has been renamed to Customer Success Management in Zurich.
 
--   **[Success report dashboard overview](account-lifecycle-success-report-overview.md)**  
-The success report dashboard enables customer success managers to oversee and manage the overall customer portfolio.
--   **[Success portfolio dashboard](account-lifecycle-success-landing.md)**  
-Get an overall view of your success portfolio including your engagements, account status, escalations, and risks.
--   **[Risk portfolio dashboard](account-lifecycle-risk-portfolio.md)**  
-Get an overall view of all active risks, top risk categories, and the risk scope of all engagements with which you’re associated.
--   **[Engagement home page](account-lifecycle-view-engage.md)**  
-This page provides detailed information of an engagement including internal and external stakeholders, upcoming touchpoints, initiatives, and blueprints.
--   **[View product usage and capability data](account-lifecycle-prod-cap-usage.md)**  
-View the product usage and capability data for a specific sold product over a period of time.
--   **[View a product adoption roadmap](account-lifecycle-view-par-roadmap.md)**  
-View and organize products or capabilities into lanes to create a visual adoption plan for customer engagements.
--   **[View customer success cases in the CSM portal](../task/account-lifecycle-view-customer-success-portal.md)**  
+-   **[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-dashboards.md)**  
+Monitor engagement health, portfolio performance, and risk trends using the customer success dashboards.
+-   **[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)**  
+Create and manage customer engagements, success blueprints, touchpoints, risk signals, and success plays throughout the customer success journey.
+-   **[Manage customer success playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.md)**  
+Use the customer success playbooks to manage planned and unplanned activities during an engagement. Configure the structure of these playbooks, including their stages and activities, use the Playbook builder.
+-   **[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)**  
+Track how customers use your products and plan their adoption journey using product capability records and adoption roadmaps.
+-   **[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)**  
+Plan, log, and track customer interactions throughout the engagement lifecycle using touchpoint records.
+-   **[View customer success cases in the CSM portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-customer-success-portal.md)**  
 View the customer success case records or case task records on the Customer Service Management \(CSM\) portal.
--   **[Touchpoint home page](account-lifecycle-touchpoint-home.md)**  
-During the engagement lifecycle, customer success agents schedule regular touchpoints with customers to evaluate progress, provide feedback, and offer guidance.
--   **[View related items](account-lifecycle-cust-success-related-items.md)**  
+-   **[View related items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-cust-success-related-items.md)**  
 The Related Items component provides access to related lists associated with engagements, customer plays, and internal plays
--   **[AI search with Recommended Actions](account-lifecycle-ai-search.md)**  
-Use AI search with Recommended Actions to create contexts and search for relevant records.
+-   **[AI search with recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-ai-search.md)**  
+Use AI search with recommended actions to create contexts and search for relevant records.
 
-**Parent Topic:**[Use Customer Success Management](../reference/account-lifecycle-customer-success-landing-page.md)
+**Parent Topic:**[Use Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.md)
 

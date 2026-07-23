@@ -2,6 +2,7 @@
 title: Color variable support for icons
 description: Learn how to use color variables to change theming in your mobile map screens
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-mobile-icons.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,13 +20,13 @@ Mobile icons have a **Set appearance** section used to define the appearance of 
 
  Using this style you can define any color variable from the UX Theme Properties \[sys\_ux\_theme\_property\] table. For a list available variables see the color design guide below.
 
- For details on creating map screens, see [Configure an icon UI section](../task/sg-ui-section-config-navig.md).
+ For details on creating map screens, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-navig.md).
 
- For details on creating icons in mobile, see [Mobile icons](sg-mobile-icon.md).
+ For details on creating icons in mobile, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
 
 </td><td>
 
-![Color variable used in an icon](../image/color-var-example-4.png)
+\[Omitted image "color-var-example-4.png"\] Alt text: Color variable used in an icon
 
 </td></tr></tbody>
 </table>## Mobile icon color guide
@@ -61,7 +62,7 @@ Critical
 
 </td><td>
 
-![Critical mobile icons](../image/icon-colors/icons-mobile-critical.png)
+\[Omitted image "icons-mobile-critical.png"\] Alt text: Critical mobile icons
 
 </td><td>
 
@@ -80,7 +81,7 @@ High
 
 </td><td>
 
-![High mobile icons](../image/icon-colors/icons-mobile-high.png)
+\[Omitted image "icons-mobile-high.png"\] Alt text: High mobile icons
 
 </td><td>
 
@@ -99,7 +100,7 @@ Warning
 
 </td><td>
 
-![Warning mobile icons](../image/icon-colors/icons-mobile-warning.png)
+\[Omitted image "icons-mobile-warning.png"\] Alt text: Warning mobile icons
 
 </td><td>
 
@@ -118,7 +119,7 @@ Moderate
 
 </td><td>
 
-![Moderate mobile icons](../image/icon-colors/icons-mobile-moderate.png)
+\[Omitted image "icons-mobile-moderate.png"\] Alt text: Moderate mobile icons
 
 </td><td>
 
@@ -137,7 +138,7 @@ Info
 
 </td><td>
 
-![Info mobile icons](../image/icon-colors/icons-mobile-info.png)
+\[Omitted image "icons-mobile-info.png"\] Alt text: Info mobile icons
 
 </td><td>
 
@@ -156,7 +157,7 @@ Positive
 
 </td><td>
 
-![Positive mobile icons](../image/icon-colors/icons-mobile-positive.png)
+\[Omitted image "icons-mobile-positive.png"\] Alt text: Positive mobile icons
 
 </td><td>
 
@@ -175,7 +176,7 @@ Low
 
 </td><td>
 
-![Low mobile icons](../image/icon-colors/icons-mobile-low.png)
+\[Omitted image "icons-mobile-low.png"\] Alt text: Low mobile icons
 
 </td><td>
 
@@ -207,7 +208,7 @@ Blue
 
 </td><td>
 
-![Blue mobile icons](../image/icon-colors/icons-mobile-blue.png)
+\[Omitted image "icons-mobile-blue.png"\] Alt text: Blue mobile icons
 
 </td><td>
 
@@ -222,7 +223,7 @@ Brown
 
 </td><td>
 
-![Brown mobile icons](../image/icon-colors/icons-mobile-brown.png)
+\[Omitted image "icons-mobile-brown.png"\] Alt text: Brown mobile icons
 
 </td><td>
 
@@ -237,7 +238,7 @@ Gray
 
 </td><td>
 
-![Gray mobile icons](../image/icon-colors/icons-mobile-gray.png)
+\[Omitted image "icons-mobile-gray.png"\] Alt text: Gray mobile icons
 
 </td><td>
 
@@ -252,7 +253,7 @@ Green
 
 </td><td>
 
-![Green mobile icons](../image/icon-colors/icons-mobile-green.png)
+\[Omitted image "icons-mobile-green.png"\] Alt text: Green mobile icons
 
 </td><td>
 
@@ -267,7 +268,7 @@ Green-Yellow
 
 </td><td>
 
-![Green-yellow mobile icons](../image/icon-colors/icons-mobile-green-yellow.png)
+\[Omitted image "icons-mobile-green-yellow.png"\] Alt text: Green-yellow mobile icons
 
 </td><td>
 
@@ -282,7 +283,7 @@ Magenta
 
 </td><td>
 
-![Magenta mobile icons](../image/icon-colors/icons-mobile-magenta.png)
+\[Omitted image "icons-mobile-magenta.png"\] Alt text: Magenta mobile icons
 
 </td><td>
 
@@ -297,7 +298,7 @@ Orange
 
 </td><td>
 
-![Orange mobile icons](../image/icon-colors/icons-mobile-orange.png)
+\[Omitted image "icons-mobile-orange.png"\] Alt text: Orange mobile icons
 
 </td><td>
 
@@ -312,7 +313,7 @@ Pink
 
 </td><td>
 
-![Pink mobile icons](../image/icon-colors/icons-mobile-pink.png)
+\[Omitted image "icons-mobile-pink.png"\] Alt text: Pink mobile icons
 
 </td><td>
 
@@ -327,7 +328,7 @@ Purple
 
 </td><td>
 
-![Purple mobile icons](../image/icon-colors/icons-mobile-purple.png)
+\[Omitted image "icons-mobile-purple.png"\] Alt text: Purple mobile icons
 
 </td><td>
 
@@ -342,7 +343,7 @@ Teal
 
 </td><td>
 
-![Teal mobile icons](../image/icon-colors/icons-mobile-teal.png)
+\[Omitted image "icons-mobile-teal.png"\] Alt text: Teal mobile icons
 
 </td><td>
 
@@ -357,7 +358,7 @@ Yellow
 
 </td><td>
 
-![Yellow mobile icons](../image/icon-colors/icons-mobile-yellow.png)
+\[Omitted image "icons-mobile-yellow.png"\] Alt text: Yellow mobile icons
 
 </td><td>
 

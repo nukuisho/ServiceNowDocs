@@ -2,6 +2,7 @@
 title: Service portal configuration for ShoppingHub
 description: As an admin, you can configure your service portal such that shoppers who are on the portal can quickly access ShoppingHub and even view purchasing and approval to-dos assigned to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/service-portal-configuration-for-shoppinghub.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,54 +18,56 @@ As an admin, you can configure your service portal such that shoppers who are on
 
 You can perform these configurations:
 
--   [Add a ShoppingHub Navbar link](../task/add-shoppinghub-navbar-link.md)
--   [Add a ShoppingHub icon link](../task/add-shoppinghub-icon-link.md)
--   [Add a ShoppingHub widget](../task/add-shoppinghub-widget-service-portal.md)
--   [Verify and update search sources](../task/review-update-search-sources.md)
+-   [Add a ShoppingHub Navbar link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/add-shoppinghub-navbar-link.md)
+-   [Add a ShoppingHub icon link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/add-shoppinghub-icon-link.md)
+-   [Add a ShoppingHub widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/add-shoppinghub-widget-service-portal.md)
+-   [Verify and update search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/review-update-search-sources.md)
 
--   **[Add a Shopping Hub Navbar link to your service portal](../task/add-shoppinghub-navbar-link.md)**  
+-   **[Add a Shopping Hub Navbar link to your service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/add-shoppinghub-navbar-link.md)**  
 You can add a Shopping Hub Navbar link to your service portal header menu so that shoppers can navigate from the service portal to the Shopping Hub portal with a single select.
--   **[Add a Shopping Hub icon link to your service portal](../task/add-shoppinghub-icon-link.md)**  
+-   **[Add a Shopping Hub icon link to your service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/add-shoppinghub-icon-link.md)**  
 You can add a Shopping Hub icon link to your service portal icons menu so that shoppers can navigate from the service portal to the Shopping Hub portal with a single select.
--   **[Add a Shopping Hub widget to your service portal](../task/add-shoppinghub-widget-service-portal.md)**  
+-   **[Add a Shopping Hub widget to your service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/add-shoppinghub-widget-service-portal.md)**  
 You can add a Shopping Hub widget to your service portal so that shoppers can view the purchasing to-dos assigned to them from the service portal before getting redirected to work on them in the Shopping Hub portal.
--   **[Verify and update search sources on your service portal](../task/review-update-search-sources.md)**  
+-   **[Verify and update search sources on your service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/review-update-search-sources.md)**  
 You can verify the search sources on your service portal and update them, as required, so that the required data is queried seamlessly from the respective instance tables.
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](configuring-spo.md)
+**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
-[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+[Install Sourcing and Procurement Operations]()
 
-[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+[Setting up primary data for ShoppingHub]()
 
-[Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md)
+[Configure punchout for third-party site purchases]()
 
-[Configuring work prioritization](configuring-work-prioritization.md)
+[Configuring work prioritization]()
 
-[Add a new button in Shopping Hub](../task/add-new-button-shoppinghub.md)
+[Add a button in Shopping Hub]()
 
-[Customize your top suppliers on Shopping Hub](../task/customize-top-suppliers.md)
+[Customize your top suppliers on Shopping Hub]()
 
-[Configure conditions for merging purchase requisitions](../task/config-pr-merge.md)
+[Configure conditions for merging purchase requisitions]()
 
-[Install ShoppingHub Mobile](../task/install-shoppinghub-mobile.md)
+[Install ShoppingHub Mobile]()
 
-[Advanced Work Assignment for Source-to-Pay Operations](awa-spo.md)
+[Advanced Work Assignment for Source-to-Pay Operations]()
 
-[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+[Install Universal Request for Sourcing and Procurement Operations]()
 
-[Application plugin installation sequence in Sourcing and Procurement Operations](../reference/application-plugin-list.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 
-[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
 
-[Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md)
+[Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 
-[Customize your top suppliers on Shopping Hub](../task/customize-top-suppliers.md)
+[Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md)
 
-[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+[Customize your top suppliers on Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/customize-top-suppliers.md)
 
-[My purchases on Shopping Hub](my-purchases.md)
+[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
+
+[My purchases on Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/my-purchases.md)
 

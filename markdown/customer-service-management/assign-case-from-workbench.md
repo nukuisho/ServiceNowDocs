@@ -2,11 +2,12 @@
 title: Assign a case from the assignment workbench
 description: Users with the customer service manager role can assign a case to an agent from the assignment workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/assign-case-from-workbench.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Agent management, Use, Customer Service Management]
+breadcrumb: [Assignment workbench overview, Agent management, Use, Customer Service Management]
 ---
 
 # Assign a case from the assignment workbench
@@ -25,7 +26,7 @@ Role required: sn\_customerservice\_manager
 
 1.  Open a customer service case.
 
-2.  Select the Find Agents icon \(![Find Agents icon.](../image/FindAgentsIcon.png)\) next to the **Assigned to** field to open the assignment workbench.
+2.  Select the Find Agents icon \(\[Omitted image "FindAgentsIcon.png"\] Alt text: Find Agents icon.\) next to the **Assigned to** field to open the assignment workbench.
 
     If the case has an **Assignment group**, the agents from that group are listed on the workbench. If the case doesn’t have an assigned group, no agents are displayed.
 
@@ -53,5 +54,5 @@ Role required: sn\_customerservice\_manager
 **Related topics**  
 
 
-[Assignment workbench overview](../concept/case-assignment-workbench.md)
+[Assignment workbench overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-assignment-workbench.md)
 

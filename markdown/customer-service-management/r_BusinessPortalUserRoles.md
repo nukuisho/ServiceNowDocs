@@ -2,6 +2,7 @@
 title: Business Portal user roles
 description: Different roles allow customers to create and edit cases and manage users from the Business portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_BusinessPortalUserRoles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -89,5 +90,5 @@ Partner administrator \[sn\_customerservice.partner\_admin\]
 </table>**Related topics**  
 
 
-[Customer Service Portal user roles](r_CustomerServicePortalUserRoles.md)
+[Customer Service Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustomerServicePortalUserRoles.md)
 

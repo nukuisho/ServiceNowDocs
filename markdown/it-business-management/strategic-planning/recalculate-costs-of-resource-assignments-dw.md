@@ -2,13 +2,14 @@
 title: Recalculate costs of resource assignments of a demand
 description: Recalculate the costs of all active resource assignments of a demand whenever the hourly rates change in the associated rate model. This feature helps keep the plan costs are up to date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/recalculate-costs-of-resource-assignments-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create and manage resource assignments, Manage demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Create resource assignments, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Recalculate costs of resource assignments of a demand
@@ -26,7 +27,7 @@ Role required: it\_demand\_manager
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
@@ -36,7 +37,7 @@ Role required: it\_demand\_manager
 
 4.  Select the resource assignment record that you want to recalculate the costs for.
 
-5.  Select the More Actions option and select **Recalculate Resource Cost**.![Use the Recalculate Resource Cost button to recalculate the costs of a resource.](../images/recalculate-resource-cost-button.png)
+5.  Select the More Actions option and select **Recalculate Resource Cost**.\[Omitted image "recalculate-resource-cost-button.png"\] Alt text: Use the Recalculate Resource Cost button to recalculate the costs of a resource.
 
 6.  On the Recalculate Resource Cost form, fill in the fields.
 
@@ -67,7 +68,7 @@ End date of the time period for which the costs are recalculated.By default, the
 </td></tr></tbody>
 </table>7.  Select **OK**.
 
-    **Note:** Alternatively, you can recalculate the resource costs using the **Estimate resource requirements** playbook activity. For more information, see [Use Playbooks](use-playbooks-in-dw.md).
+    **Note:** Alternatively, you can recalculate the resource costs using the **Estimate resource requirements** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 
 ## Result
@@ -79,9 +80,7 @@ End date of the time period for which the costs are recalculated.By default, the
 **Related topics**  
 
 
-[Use Playbooks](use-playbooks-in-dw.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
 
-[Demand default playbook stages and activities](../reference/demand-default-playbook-stages.md)
-
-[Create resource assignment form](../reference/create-resource-assignment-form-dw.md)
+[Create resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-resource-assignment-form-dw.md)
 

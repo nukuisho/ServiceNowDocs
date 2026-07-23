@@ -2,9 +2,10 @@
 title: Look up and verify a contact or consumer
 description: An agent can look up contact or consumer information from a saved interaction record, review and confirm the information, and then populate the information on the interaction record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/lookup-verify-contact-consumer.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
@@ -25,7 +26,7 @@ Agents can search for information such as name, phone number, email address, cas
 
 1.  Open CSM Configurable Workspace.
 
-2.  In the contextual side panel, click the Contact Verify icon \(![Verify contact icon.](../image/config-ws-lookup-verify-contact.png)\) or the Consumer Verify icon \(![Verify consumer icon.](../image/config-ws-lookup-verify-consumer.png)\) to access the lookup and verify feature.
+2.  In the contextual side panel, select the Contact Verify icon or the Consumer Verify icon to access the lookup and verify feature.
 
 3.  In the **Verify Contact** or **Verify Consumer** fields, enter information such as the first few letters of a first or last name or the first few digits of a phone or case number.
 
@@ -37,7 +38,7 @@ Agents can search for information such as name, phone number, email address, cas
 
     This action displays information about the selected contact or consumer in a verification card. If the information is not correct, repeat steps 2 through 4.
 
-5.  Click **Verify** to confirm the selected contact or consumer.
+5.  Select **Verify** to confirm the selected contact or consumer.
 
     This action does the following:
 
@@ -45,11 +46,11 @@ Agents can search for information such as name, phone number, email address, cas
     -   Enables the **Verified** check box.
 6.  You can look up and verify another contact or consumer by repeating steps 2 through 4 and entering different search information.
 
-7.  Click **Save** to save the interaction record and refresh the related lists.
+7.  Select **Save** to save the interaction record and refresh the related lists.
 
 
 **Related topics**  
 
 
-[Lookup and verify](../concept/lookup-and-verify-overview.md)
+[Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-and-verify-overview.md)
 

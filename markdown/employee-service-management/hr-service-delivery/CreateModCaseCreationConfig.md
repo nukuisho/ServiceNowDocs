@@ -2,12 +2,13 @@
 title: Configure how HR cases are created
 description: Modify how search results for an employee appear and configure the default HR case creation form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/CreateModCaseCreationConfig.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [case creation configuration]
 breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -30,7 +31,7 @@ HR case creation has multiple steps:
 
 Using the **Case Creation Configuration** form you can control the information returned from a search and the required fields when creating an initial HR case.
 
-**Note:** Zing text search is used to search on indexed fields in the User \[sys\_user\], HR Profile \[sn\_hr\_core\_profile\], and HR Case \[sn\_hr\_core\_case\] tables. Refer to [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md).
+**Note:** Zing text search is used to search on indexed fields in the User \[sys\_user\], HR Profile \[sn\_hr\_core\_profile\], and HR Case \[sn\_hr\_core\_case\] tables. Refer to [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ZingTextSearch.md).
 
 ## Procedure
 
@@ -103,7 +104,7 @@ Links
 
 </td><td>
 
-A URL link configured in **Link Generator**. See [Link generator for HR Service Delivery](../concept/HRLinkGenerator.md).
+A URL link configured in **Link Generator**. See [Link generator for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/HRLinkGenerator.md).
 
 </td></tr><tr><td>
 
@@ -112,6 +113,22 @@ User field
 </td><td>
 
 Read-only field that determines which users are displayed for a search the information displayed about them.
+
+</td></tr><tr><td>
+
+Allow skipping verification
+
+</td><td>
+
+Option for providing the ability to enter or skip the employee name or case number when creating an HR case. For more information, see [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/search-hr-case.md).For example, if your company receives a complaint from an external individual or an anonymous user, providing this option enables an HR agent to create a case without having to enter an employee name or case number.
+
+</td></tr><tr><td>
+
+Search tables
+
+</td><td>
+
+Displays the tables searched when looking up an employee.
 
 </td></tr><tr><td>
 
@@ -127,11 +144,19 @@ Option for providing the ability to enter a partial name to return search result
 
 </td></tr><tr><td>
 
-Allow skipping verification
+Priority table name
 
 </td><td>
 
-Option for providing the ability to enter or skip the employee name or case number when creating an HR case. For more information, see [Create an HR case](search-hr-case.md).For example, if your company receives a complaint from an external individual or an anonymous user, providing this option enables an HR agent to create a case without having to enter an employee name or case number.
+Option to prioritize employee search results by table when creating a case. The selected table's results display first.**Note:** This field applies only when the **Force partial search** option is enabled.
+
+</td></tr><tr><td>
+
+Priority column
+
+</td><td>
+
+Option to prioritize employee search results by table and column when creating a case. The selected table and column results display first.**Note:** This field applies only when the **Force partial search** option is enabled.
 
 </td></tr></tbody>
 </table>4.  In the **Case Search** related list, modify the default search parameters when searching by case number.
@@ -222,12 +247,12 @@ Determines the fields that appear on the bottom of the CDS. The base system conf
 </td></tr></tbody>
 </table>7.  In the **Case Creation Service Configurations** section, configure the HR case creation form for individual HR services.
 
-    For more information, see [Configure the HR case creation form for an HR service](configure-case-creation-form-for-hr-service.md).
+    For more information, see [Configure the HR case creation form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-case-creation-form-for-hr-service.md).
 
 8.  Save your modifications.
 
     -   To save the modifications and remain on the form, click **Save**.
     -   To save the modifications and exit from the form, click **Update**.
 
-**Parent Topic:**[HR Administration](../concept/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

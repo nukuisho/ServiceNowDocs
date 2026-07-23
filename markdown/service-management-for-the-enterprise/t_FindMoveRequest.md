@@ -2,6 +2,7 @@
 title: Find a move request
 description: Facilities and move staff can locate and manage move requests from the Moves tab within the workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_FindMoveRequest.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,23 +28,23 @@ The Move tab is only visible when the Facilities Move Management plugin \(com.sn
 
 2.  To help narrow your search results, you can select the campus, building, and floor number for your search.
 
-    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](../reference/r_WorkbenchConfiguration.md).
+    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
 
-    ![Campus and floor selection](../image/CampusFloorSelection.png)
+    \[Omitted image "CampusFloorSelection.png"\] Alt text: Campus and floor selection
 
-    By default, facilities administrators can see all move requests for the selected level displayed in the right side pane. Yellow pins \(![move request icon](../image/MoveRequestPin.png)\) depict those request locations on the floor plan.
+    By default, facilities administrators can see all move requests for the selected level displayed in the right side pane. Yellow pins \(\[Omitted image "MoveRequestPin.png"\] Alt text: move request icon\) depict those request locations on the floor plan.
 
 3.  Continue with one of the following options.
 
-<table id="choicetable_WorkbenchAccess"><thead><tr><th align="left" id="d31100e130">
+<table id="choicetable_WorkbenchAccess"><thead><tr><th align="left" id="d31384e130">
 
 Option
 
-</th><th align="left" id="d31100e133">
+</th><th align="left" id="d31384e133">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d31100e139">
+</th></tr></thead><tbody><tr><td id="d31384e139">
 
 **To see all move requests assigned to you**
 
@@ -51,7 +52,7 @@ Action
 
 Select **Assigned to me** check box.
 
-</td></tr><tr><td id="d31100e151">
+</td></tr><tr><td id="d31384e151">
 
 **To search for a move request**
 
@@ -69,15 +70,15 @@ Select **Assigned to me** check box.
     -   Other Campuses
 4.  Continue with one of the following options.
 
-<table id="choicetable_swj_2jx_mt"><thead><tr><th align="left" id="d31100e193">
+<table id="choicetable_swj_2jx_mt"><thead><tr><th align="left" id="d31384e193">
 
 Option
 
-</th><th align="left" id="d31100e196">
+</th><th align="left" id="d31384e196">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d31100e202">
+</th></tr></thead><tbody><tr><td id="d31384e202">
 
 **To see move request details**
 
@@ -85,26 +86,26 @@ Action
 
 Click the move request number.
 
-</td></tr><tr><td id="d31100e211">
+</td></tr><tr><td id="d31384e211">
 
 **To edit the From or To space**
 
 </td><td>
 
-1.  Click the edit \(![edit icon](../image/EditIcon.png)\) icon beside the **From:** or **To:** field.
+1.  Click the edit \(\[Omitted image "EditIcon.png"\] Alt text: edit icon\) icon beside the **From:** or **To:** field.
 2.  Click a space on the floor plan to change its location.
-3.  Click the save \(![save icon](../image/SaveIcon.png)\) icon.
+3.  Click the save \(\[Omitted image "SaveIcon.png"\] Alt text: save icon\) icon.
 
 
-</td></tr><tr><td id="d31100e250">
+</td></tr><tr><td id="d31384e250">
 
 **To see the location on the floor plan**
 
 </td><td>
 
-Click the pin \(![pin icon](../image/PinIcon.png)\) icon.
+Click the pin \(\[Omitted image "PinIcon.png"\] Alt text: pin icon\) icon.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Facilities Workbench](../concept/c_FacilitiesWorkbench.md)
+**Parent Topic:**[Facilities Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_FacilitiesWorkbench.md)
 

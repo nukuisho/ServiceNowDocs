@@ -2,6 +2,7 @@
 title: CSS for right-to-left languages in portals
 description: You can control the generation of CSS for right-to-left languages using a variety of methods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/css-directives-right-to-left-languages.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -41,5 +42,5 @@ transform: rotate(45deg) translateY(5px) #{"/*rtl:ignore*/"};
 }
 ```
 
-**Parent Topic:**[Styling for right-to-left languages in portals](styling-right-to-left-languages.md)
+**Parent Topic:**[Styling for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/styling-right-to-left-languages.md)
 

@@ -1,49 +1,51 @@
 ---
 title: Using Invoice Case Management
-description: Agents can use Invoice Case Management to manage and work on invoice inquiry cases raised by employees and suppliers to resolve issues related to invoices.
+description: Manage and resolve invoice inquiry cases raised by employees and suppliers using Invoice Case Management to address invoice-related issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice management, supplier, invoice case management]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Using Invoice Case Management
 
-Agents can use Invoice Case Management to manage and work on invoice inquiry cases raised by employees and suppliers to resolve issues related to invoices.
+Manage and resolve invoice inquiry cases raised by employees and suppliers using Invoice Case Management to address invoice-related issues.
 
--   **[Invoice inquiry cases](work-with-inquiry-cases.md)**  
-Invoice inquiry cases help you resolve invoice-related issues raised by the suppliers or employees.
+-   **[Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md)**  
+Invoice inquiry cases help resolve invoice-related issues raised by suppliers or employees through structured case workflows.
 
-**Parent Topic:**[Use Accounts Payable Operations](use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Create a knowledge base article about invoice](../task/create-knowledge-base-articles-for-invoices.md)
+[Create a knowledge base article about invoice]()
 
-[Invoice case categories and subcategories](working-with-cases.md)
+[Invoice case categories and subcategories]()
 
-[Using Accounts Payable Invoice Processing](use-ap-invoice-processing.md)
+[Using Accounts Payable Invoice Processing]()
 
-[Advanced Work Assignment in Accounts Payable Operations](advanced-work-assignment.md)
+[Advanced Work Assignment in Accounts Payable Operations]()
 
-[Configure Advanced Work Assignment for Accounts Payable Operations](../task/configure-advanced-work-assignment-for-apo.md)
+[Configure Advanced Work Assignment for Accounts Payable Operations]()
 
-[Using Advanced Work Assignment for Accounts Payable Operations](using-awa-for-apo.md)
+[Using Advanced Work Assignment for Accounts Payable Operations]()
 
-[Working with Advanced Work Assignment](../task/working-with-advanved-work-assignment.md)
+[Working with Advanced Work Assignment]()
 
-[Interaction management in Accounts Payable Operations](interaction-record.md)
+[Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace](email-composer-apm-workspace.md)
+[Composing emails with predefined content from the Source-to-Pay Workspace]()
 
-[Universal Request in Accounts Payable Operations](universal-request-in-apo.md)
+[Universal Request in Accounts Payable Operations]()
 
-[Playbook for updating the invoice primary data](playbooks.md)
+[Playbook for updating the invoice primary data]()
 
-[Using Supplier Collaboration Portal in APO](using-supplier-collaboration-portal.md)
+[Using Supplier Collaboration Portal in APO]()
 

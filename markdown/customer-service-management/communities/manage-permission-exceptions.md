@@ -2,6 +2,7 @@
 title: Create a permission exception
 description: Create a permission exception for users who require specific permissions for a forum.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/manage-permission-exceptions.html
 release: australia
 product: Communities
 classification: communities
@@ -44,12 +45,12 @@ Permission exception records are created for users who require specific permissi
     A permission exception is created and added to the list of **Permission Exceptions** on the forum.
 
 
-**Parent Topic:**[Create a permission](create-permission.md)
+**Parent Topic:**[Create a permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-permission.md)
 
 **Related topics**  
 
 
-[Add access types to a permission](define-access-type-permission.md)
+[Add access types to a permission]()
 
-[Add content types to a permission](add-content-types-permission.md)
+[Add content types to a permission]()
 

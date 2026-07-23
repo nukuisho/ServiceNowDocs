@@ -2,6 +2,7 @@
 title: Configure Get Related Machines from Defender Capability in Microsoft Defender for Endpoint
 description: Get the list of related machines of specific observables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-related-machines-defender-capability-ms-defender.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -31,11 +32,9 @@ You can retrieve the list of machines that have accessed the particular observab
 
 2.  Select the security incident that you want to review with the Microsoft Defender for Endpoint information.
 
-    ![Get Related Machines from Defender capability implementation](../image/get_related_machines.png "Get Related Machines from Defender")
+3.  In the Related links section, select **Show IoC**.
 
-3.  In the Related links section, click **Show IoC**.
-
-4.  Click the Associated Observables related list.
+4.  Select the Associated Observables related list.
 
 5.  Select the associated observables.
 
@@ -48,20 +47,20 @@ You can retrieve the list of machines that have accessed the particular observab
 9.  View the automation activities of the execution, and validate them.
 
 
-**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](../concept/additional-configurations-in-defender.md)
+**Parent Topic:**[Additional Configurations in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 **Related topics**  
 
 
-[Configure Isolate Host capability in Microsoft Defender for Endpoint](isolate-host-ms-defender-for-endpoint.md)
+[Configure Isolate Host capability in Microsoft Defender for Endpoint]()
 
-[Configure Remove Host Isolation capability in Microsoft Defender for Endpoint](remove-isolation-ms-defender-for-endpoint.md)
+[Configure Remove Host Isolation capability in Microsoft Defender for Endpoint]()
 
-[Configure Run Antivirus Scan capability in Microsoft Defender for Endpoint](run-antivirus-scan-capability-ms-defender.md)
+[Configure Run Antivirus Scan capability in Microsoft Defender for Endpoint]()
 
-[Configure Restrict App Execution capability in Microsoft Defender for Endpoint](restrict-app-execution-capability-ms-defender.md)
+[Configure Restrict App Execution capability in Microsoft Defender for Endpoint]()
 
-[Configure Remove App Restriction capability in Microsoft Defender for Endpoint](remove-app-restriction-capability-ms-defender.md)
+[Configure Remove App Restriction capability in Microsoft Defender for Endpoint]()
 
-[Configure Stop and Quarantine File capability in Microsoft Defender for Endpoint](stop-and-quarantine-file-capability.md)
+[Configure Stop and Quarantine File capability in Microsoft Defender for Endpoint]()
 

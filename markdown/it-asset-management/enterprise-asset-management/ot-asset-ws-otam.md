@@ -2,13 +2,14 @@
 title: OT Asset Workspace
 description: The OT Asset Workspace is the intuitive and streamlined user interface of the OT Asset Management application to manage your Operational Technology \(OT\) and Operational Equipment \(OE\) assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/ot-asset-ws-otam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 13
-breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # OT Asset Workspace
@@ -207,10 +208,10 @@ View information related to normalization of models.
 
 **Note:** The **Custom firmware UNSPSC**, **Custom firmware products**, **Custom firmware versions**, and **Custom firmware CPE** tabs are available only in the OT Asset Workspace. For more information on these tabs, refer to the following topics:
 
--   [Create a custom United Nations Standard Products and Services Code \(UNSPSC\) classification for firmware in your operational technology \(OT\) assets](../task/create-custom-unspsc-classification-firmware-ot-assets.md)
--   [Create a custom firmware product for your operational technology \(OT\) assets](../task/create-custom-firmware-product-ot-assets.md)
--   [Create a custom firmware version for your operational technology \(OT\) assets](../task/create-custom-firmware-version-ot-assets.md)
--   [Create a custom Common Platform Enumeration \(CPE\) mapping for firmware in your operational technology \(OT\) assets](../task/create-custom-firmware-cpe-mapping.md)
+-   [Create a custom United Nations Standard Products and Services Code \(UNSPSC\) classification for firmware in your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-unspsc-classification-firmware-ot-assets.md)
+-   [Create a custom firmware product for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-product-ot-assets.md)
+-   [Create a custom firmware version for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-version-ot-assets.md)
+-   [Create a custom Common Platform Enumeration \(CPE\) mapping for firmware in your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-cpe-mapping.md)
 
 </td></tr><tr><td>
 
@@ -237,47 +238,47 @@ You can publish hardware models, more than once, to the enterprise catalog using
 
 Hardware models and OT hardware assets are also integrated into the following Enterprise Asset Management flows:
 
--   [Asset request](../task/create-eam-assetrequest.md)
--   [Asset refresh](../task/request-eam-assetrefresh.md)
+-   [Asset request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-assetrequest.md)
+-   [Asset refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/request-eam-assetrefresh.md)
 -   Stock order
--   [Single and multi-asset onboarding](onboarding-multi-asset-from-ws.md)
--   [Return Merchandise Authorization \(RMA\)](requesting-return-merchandise-authorization-enterprise-assets.md)
--   [Repair](manage-repair-of-defective-eam-assets.md)
--   [Disposal](../task/create-eamdisposal-order.md)
--   [Bulk import](overview-bulk-import-eam.md)
+-   [Single and multi-asset onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md)
+-   [Return Merchandise Authorization \(RMA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/requesting-return-merchandise-authorization-enterprise-assets.md)
+-   [Repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-repair-of-defective-eam-assets.md)
+-   [Disposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamdisposal-order.md)
+-   [Bulk import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.md)
 
     **Note:**
 
     Starting with the Zurich release, the bulk import templates include the **OT entity** and **Parent asset attribute** columns. When the OT Asset Management application is activated, you can bulk import hardware assets and models in both the Enterprise Asset Workspace and the OT Asset Workspace only if the OT entity column is marked as **TRUE**. With the **Parent asset attribute** field, you can choose to identify the parent of a child asset using either the Asset tag, Serial number, or MAC address.
 
-    To view instructions for bulk importing assets, select the Bulk import instructions icon ![](../image/bulk-imp-instructions-icon.png) on the contextual side bar.
+    To view instructions for bulk importing assets, select the Bulk import instructions icon \[Omitted image "bulk-imp-instructions-icon.png"\] Alt text: on the contextual side bar.
 
--   [Asset reclamation](enterprise-asset-reclamation.md)
+-   [Asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-reclamation.md)
 
     **Note:** When a reclamation request for an OT hardware asset is created in the OT Asset Workspace, a hardware reclamation request line is generated and displayed in the **Hardware Asset Reclamation Lines** tab.
 
--   [Advanced shipment notification \(ASN\)](../task/asn-eam.md)
+-   [Advanced shipment notification \(ASN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asn-eam.md)
 
     **Note:** Starting with the Zurich release, the Download template for Advanced Shipment Notification includes the **OT entity** column. When this column is set to **TRUE** for hardware models, it creates OT hardware assets in the OT Asset Workspace.
 
--   [Asset audits](../task/audit-eam-assetinventory.md)
--   [Total Cost of Ownership \(TCO\) for enterprise assets](confifure-eam-asset-tco.md)
+-   [Asset audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.md)
+-   [Total Cost of Ownership \(TCO\) for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 
     **Note:** You can create a TCO report using a hardware model as a benchmark model, by selecting **Hardware** in the Report table field and then selecting the required hardware model in the **Benchmark model** field.
 
--   [Lease contract](managing-expiring-contracts-leased-assets.md)
+-   [Lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)
 
     **Note:** The **Begin lease-end process** option is available if the contract includes OT hardware assets.
 
--   [Risk](managing-eam-risk-scores.md)
+-   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 
     **Note:** The Enterprise asset risk heat map in the OT asset estate view and the Enterprise model risk heat map in the OT model management view also include hardware models with OT entity flag set to **TRUE**.
 
--   [Asset resale](../task/enterprise-asset-resale-flow.md)
--   [Loaner](../task/request-eam-assetloaner-request.md)
--   [Move orders](managing-enterprise-asset-move-orders.md)
--   [Recall](managing-recalled-enterprise-assets.md)
--   [Stock rule](../task/create-eamstockrules.md)
+-   [Asset resale](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-resale-flow.md)
+-   [Loaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/request-eam-assetloaner-request.md)
+-   [Move orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-move-orders.md)
+-   [Recall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-recalled-enterprise-assets.md)
+-   [Stock rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamstockrules.md)
 
     **Note:** The **OT stock rule** check box on the stock rule form indicates whether the stock rule was created in the OT Asset Workspace.
 
@@ -290,7 +291,7 @@ Furthermore, you can generate maintenance plans and work orders for OT hardware 
 
 All OT hardware assets are automatically tagged as an OT entity. When an OT hardware asset is sourced from an existing stockroom via a transfer order or from the local stockroom, the asset is automatically tagged as an OT entity. Similarly, during the receiving process of OT hardware assets procured via a purchase order, the asset is automatically tagged as an OT entity. The **OT entity** field appears in the Hardware asset form in OT asset estate view and is selected by default for all OT hardware assets.
 
-You can evaluate how effectively your assets are functioning and being used through the reports based on asset key performance indicators in the **Asset performance** tab of the **Asset analytics** view. The asset performance report is also available on the contextual sidebar of the asset record, displayed by selecting the Asset availability and related KPIs icon ![](../image/asset-kpi-icon.png).
+You can evaluate how effectively your assets are functioning and being used through the reports based on asset key performance indicators in the **Asset performance** tab of the **Asset analytics** view. The asset performance report is also available on the contextual sidebar of the asset record, displayed by selecting the Asset availability and related KPIs icon \[Omitted image "asset-kpi-icon.png"\] Alt text:.
 
 You can receive assets from any workﬂow directly at the stockroom using the unified receiving functionality in the OT asset Asset Workspace. You can receive assets in any of the following ways:
 
@@ -315,20 +316,20 @@ Consumables can be created in the OT Asset Workspace for hardware models, OT har
 
 Any consumable model that you create in the OT Asset Workspace, has the consumable model category.
 
-**Parent Topic:**[OT Asset Management](ot-asset-management.md)
+**Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-asset-management.md)
 
 **Related topics**  
 
 
-[OT Asset Management licensing](licensing-ot-asset-management.md)
+[OT Asset Management licensing]()
 
-[Install OT Asset Management](../task/install-otam.md)
+[Install OT Asset Management]()
 
-[Installed with OT Asset Management](../reference/installed-with-otam.md)
+[Installed with OT Asset Management]()
 
-[Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets](asset-ci-sync-ot-assets.md)
+[Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets]()
 
-[OT Asset Workspace roles](../reference/ot-workspace-roles.md)
+[OT Asset Workspace roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-workspace-roles.md)
 
-[Enterprise Asset Workspace](using-eam-workspace.md)
+[Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/using-eam-workspace.md)
 

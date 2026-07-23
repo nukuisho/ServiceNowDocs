@@ -2,6 +2,7 @@
 title: Filter software results using an encoded query in TPM
 description: Filter out unwanted software products and reduce the number of results to skip unwanted software and their lifecycles to be shown in the Lifecycle Timeline view of a business application. By default, the TPM picks licensable software. Use this encoded query when you want TPM to include other software \(non-licensable\) and filter the result.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/use-tpm-encoded-query.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ The TPM can track technology lifecycles for both licensable and non-licensable s
 
     4.  Right-click at the end of the filter breadcrumb and select **Copy query** from the context menu.
 
-        For example: \[discovery\_model.norm\_product.product\_type=child\] ![Copy query](../../image/eaw-image/eaw-tpm-encod-query-copy.png)
+        For example: \[discovery\_model.norm\_product.product\_type=child\] \[Omitted image "eaw-tpm-encod-query-copy.png"\] Alt text: Copy query
 
 2.  Navigate to the System Property \[sys\_properties\] table list view.
 
@@ -62,24 +63,24 @@ The TPM can track technology lifecycles for both licensable and non-licensable s
 
 The technologies and lifecycle values are updated in the TPM Discovered Technologies \[sn\_apm\_tpm\_discovered\_technology\_list\] table.
 
-**Parent Topic:**[Working with Technology Portfolio Management \(TPM\) in EA Workspace](../../concept/eaw-concept/eaw-work-with-tpm.md)
+**Parent Topic:**[Working with Technology Portfolio Management \(TPM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-tpm.md)
 
 **Related topics**  
 
 
-[Update TPM data for a business application or application service](update-tpm-data.md)
+[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md)
 
-[Restart Populate TPM Discovered Technologies and Lifecycles scheduled job](eaw-restart-tpm-scheduled-job.md)
+[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 
-[View technology lifecycle details](eaw-view-tech-lifecycle.md)
+[View technology lifecycle details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tech-lifecycle.md)
 
-[View TPM risk details](eaw-view-tech-risk.md)
+[View TPM risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tech-risk.md)
 
-[Update the system property to gather software products from a CMDB table](eaw-update-system-property-gather-software-cmdb.md)
+[Update the system property to gather software products from a CMDB table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md)
 
-[View technology portfolio audit risk details](eaw-view-audit-risk-details.md)
+[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
 
-[Update verification status of TPM audit details](../eaw-update-verif-status.md)
+[Update verification status of TPM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-update-verif-status.md)
 
-[View TPM logs](eaw-view-tpm-logs.md)
+[View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tpm-logs.md)
 

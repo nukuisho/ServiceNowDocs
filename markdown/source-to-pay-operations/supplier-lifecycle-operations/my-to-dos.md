@@ -2,6 +2,7 @@
 title: Viewing supplier contact tasks from the Supplier Collaboration Portal
 description: View the tasks that are assigned to you and other supplier contacts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/my-to-dos.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -36,7 +37,7 @@ To open the My To-dos page, do one of the following on the Supplier Collaboratio
 -   \(If you are a primary contact\) In the Supplier Collaboration Portal header, select **Tasks** and then select **My Tasks.**
 -   In the My active items widget, select **Tasks**.
 
-![My To-dos page.](../image/task-todo-sc.png "My To-dos page")
+\[Omitted image "task-todo-sc.png"\] Alt text: My To-dos page.
 
 The My To-dos page has the following tabs:
 
@@ -49,7 +50,7 @@ Selecting a to-do displays the following tabs in the To-dos summary section:
 
     **Note:** The information displayed on this tab varies depending on the task type.
 
--   **Activity:** Displays a chronological record of the updates made to the to-do since it was created. To add your comments to the activity stream, select **Post**. Click the Add attachments icon \(![Add attachments icon.](../image/attachments-icon.png)\) to add attachments, such as documents and image files, to the to-do.
+-   **Activity:** Displays a chronological record of the updates made to the to-do since it was created. To add your comments to the activity stream, select **Post**. Click the Add attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Add attachments icon.\) to add attachments, such as documents and image files, to the to-do.
 
 ## Viewing all the tasks
 
@@ -59,7 +60,7 @@ To open the Supplier Task List page, in the Supplier Collaboration Portal header
 
 **Note:** The **All Tasks** option is available only to the primary supplier contact and the supplier administrator.
 
-![Supplier Task List page.](../image/supp-task-list-page.png "Supplier Task List page")
+\[Omitted image "supp-task-list-page.png"\] Alt text: Supplier Task List page.
 
 On the Supplier Task List page, you can do one of the following:
 
@@ -70,39 +71,39 @@ On the Supplier Task List page, you can do one of the following:
 
 On the Supplier Task List page, select the link to a task to view details about that task.
 
--   **[Approve or reject a task](../task/approve-reject-task.md)**  
+-   **[Approve or reject a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/approve-reject-task.md)**  
 Review the tasks that are assigned to you and approve or reject them.
 
-**Parent Topic:**[Using Supplier Collaboration Portal](use-supp-central.md)
+**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 
 **Related topics**  
 
 
-[Invite a member to access the Supplier Collaboration Portal](../task/invite-member-supp-portal.md)
+[Invite a member to access the Supplier Collaboration Portal]()
 
-[Supplier contact self-registration](supp-contact-self-reg.md)
+[Supplier contact self-registration]()
 
-[Managing supplier contacts from the Supplier Collaboration Portal](managing-contacts-scp.md)
+[Managing supplier contacts from the Supplier Collaboration Portal]()
 
-[Raising requests from the Supplier Collaboration Portal](supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal]()
 
-[View or update your user profile from the Supplier Collaboration Portal](../task/view-update-supp-profile.md)
+[View or update your user profile from the Supplier Collaboration Portal]()
 
-[View all your requests from the Supplier Collaboration Portal](../task/view-supp-case-sc.md)
+[View all your requests from the Supplier Collaboration Portal]()
 
-[View supplier locations from the Supplier Collaboration Portal](../task/view-supp-loc-supp-central.md)
+[View supplier locations from the Supplier Collaboration Portal]()
 
-[View supplier payment information from the Supplier Collaboration Portal](../task/view-bank-info-supp-central.md)
+[View supplier payment information from the Supplier Collaboration Portal]()
 
-[Start a chat session from the Supplier Collaboration Portal](../task/start-chat-portal.md)
+[Start a chat session from the Supplier Collaboration Portal]()
 
-[Manage documents from the Supplier Collaboration Portal](../task/upload-doc-portal.md)
+[Manage documents from the Supplier Collaboration Portal]()
 
-[Complete a risk assessment from the Supplier Collaboration Portal](../task/complete-risk-assessments.md)
+[Complete a risk assessment from the Supplier Collaboration Portal]()
 
-[Create a Universal Request from the Supplier Collaboration Portal](create-universal-request.md)
+[Create a Universal Request from the Supplier Collaboration Portal]()
 
-[Approve or reject a task](../task/approve-reject-task.md)
+[Approve or reject a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/approve-reject-task.md)
 
-[Raising requests from the Supplier Collaboration Portal](supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 

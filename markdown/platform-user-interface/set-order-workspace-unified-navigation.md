@@ -1,7 +1,8 @@
 ---
 title: Set the order of your workspaces in the Unified Navigation Workspaces menu
-description: Set the order of your workspaces and control how they appear in the Unified Navigation Workspaces menu.
+description: Control the display order of workspaces in the Unified Navigation Workspaces menu by setting a numerical order value on each workspace record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-order-workspace-unified-navigation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,21 +12,21 @@ breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure
 
 # Set the order of your workspaces in the Unified Navigation Workspaces menu
 
-Set the order of your workspaces and control how they appear in the Unified Navigation Workspaces menu.
+Control the display order of workspaces in the Unified Navigation Workspaces menu by setting a numerical order value on each workspace record.
 
 ## Before you begin
 
-To enable ordering of your workspaces, you must create a system property **glide.ui.next\_experience.workspace\_sorting** and set the value to **Order**. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+Before starting, create the system property **glide.ui.next\_experience.workspace\_sorting** and set the value to **Order**. For more information, see [Add a property using the system properties list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  In the filter navigator field, enter `sys_ux_registry_m2m_category_list.do` and press **Enter**.
+1.  In the filter navigator field, enter `sys_ux_registry_m2m_category_list.do` and press Enter.
 
-    The UX Application Category M2Ms table appears. This table is used to store the association between an application and the experience category.
+    The UX Application Category M2Ms table appears. This table stores the association between an application and the experience category.
 
-2.  Select the Preview record icon ![](../image/next-exp-preview-record.png) for the workspace that you want to order.
+2.  Select the Preview record icon \[Omitted image "next-exp-preview-record.png"\] Alt text: for the workspace that you want to order.
 
 3.  Select **Open Record** to open the UX Application Category M2M form.
 
@@ -36,5 +37,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring the Next Experience UI](../concept/next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
 

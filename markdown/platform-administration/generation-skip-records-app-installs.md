@@ -2,6 +2,7 @@
 title: Skipped records that occur during application installation
 description: Some records may be skipped when you make local updates to global or scoped applications. Skipped records can occur either when you modify the metadata records in the instance to which you're deploying or when you apply an update set. Depending on the deployment model you use and the state of applicable properties, you may risk "skipped records," which are generated in the sys\_upgrade\_history\_log. Learn what to expect on your instance when you upgrade an application using various different methods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/generation-skip-records-app-installs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -77,7 +78,7 @@ Global
 
 Application changes applied and skipped records are generated only when a superior claim is found.
 
- For details, see [Review skipped records using related lists](../../../administer/upgrade-center/task/uc-access-rl.md#).
+ For details, see [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-access-rl.md).
 
 </td></tr><tr><td>
 
@@ -148,11 +149,11 @@ For example, if you changed the schema of your application by deleting a table o
 
 When there is no property for com.glide.apps.include\_my\_schema, it defaults to False. However, since the Orlando release, new instances have a default entry in the table to set it as True.
 
-![Flow chart](../image/skipped-records-flowchart.png)
+\[Omitted image "skipped-records-flowchart.png"\] Alt text: Flow chart
 
 ## Claims
 
-Claims apply to global applications and application-customizations. In global applications, claims allow the system to choose a record deterministically should the same file be included in multiple applications. If you see a superior claim, an upgrade history log for the skipped record is created to identify a conflicting claim status. For details, see [Review skipped records using related lists](../../../administer/upgrade-center/task/uc-access-rl.md#).
+Claims apply to global applications and application-customizations. In global applications, claims allow the system to choose a record deterministically should the same file be included in multiple applications. If you see a superior claim, an upgrade history log for the skipped record is created to identify a conflicting claim status. For details, see [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-access-rl.md).
 
-**Parent Topic:**[Installation considerations](../concept/install-considerations.md)
+**Parent Topic:**[Installation considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-considerations.md)
 

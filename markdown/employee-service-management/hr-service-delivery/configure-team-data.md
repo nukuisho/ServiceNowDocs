@@ -2,6 +2,7 @@
 title: Configure team data
 description: Configure team data that you want to display on employee cards and modal in the Team members tab in Your team menu. Team data configurations are required to support column configurations and filter configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-team-data.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -111,28 +112,28 @@ Option to add a script to retrieve the preferred records. This option allows you
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Manager Hub](set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 
 
-[RCA approvals for Manager Hub](run-rca-mh.md)
+[RCA approvals for Manager Hub]()
 
-[Activate a scheduled job](../reference/activate-sj-mh.md)
+[Activate a scheduled job]()
 
-[Configure important dates](configure-imp-dates.md)
+[Configure important dates]()
 
-[Configure team requests](configure-team-requests.md)
+[Configure team requests]()
 
-[Configure team column data](configure-team-columndata.md)
+[Configure team column data]()
 
-[Configure team filters](configure-team-filter.md)
+[Configure team filters]()
 
-[Set up View as Direct Reports](../../employee-center/task/view-direct-reportee.md)
+[Set up View as Direct Reports]()
 
-[Configure daily stats](configure-daily-stats.md)
+[Configure daily stats]()
 
-[Configure to do mappings](use-to-do-map.md)
+[Configure to do mappings]()
 
-[Configure widgets](configure-team-insights.md)
+[Configure widgets]()
 

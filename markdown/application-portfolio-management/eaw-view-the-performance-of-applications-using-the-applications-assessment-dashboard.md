@@ -1,7 +1,8 @@
 ---
-title: View the performance of applications using the Application Assessments dashboard
+title: View application performance in Application Assessments dashboard
 description: Use the Application Assessments dashboard to view overview reports on the performance of the business applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with Dashboards, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# View the performance of applications using the Application Assessments dashboard
+# View application performance in Application Assessments dashboard
 
 Use the Application Assessments dashboard to view overview reports on the performance of the business applications.
 
@@ -23,23 +24,23 @@ Role required: sn\_apm.apm\_analyst
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Enterprise Architecture Workspace Dashboard page by selecting the application dashboard icon \(![Application dashboard icon.](../../../product/application-portfolio-management/image/eaw-image/eaw-dashboard-icon.png)\).
+2.  Open the Enterprise Architecture Workspace Dashboard page by selecting the application dashboard icon \(\[Omitted image "eaw-dashboard-icon.png"\] Alt text: Application dashboard icon.\).
 
-3.  Open the Application Assessments dashboard page after selecting the change dashboard icon \(![Change dashboard icon.](../../../product/application-portfolio-management/image/eaw-image/change-dashboard-icon.png)\) and then select **Application Assessments**.
+3.  Open the Application Assessments dashboard page after selecting the change dashboard icon \(\[Omitted image "change-dashboard-icon.png"\] Alt text: Change dashboard icon.\) and then select **Application Assessments**.
 
-    ![Enterprise Architecture Dashboard page with the change dashboard icon highlighted.](../../../product/application-portfolio-management/image/eaw-image/eaw-change-dashboard-icon.png)
+    \[Omitted image "eaw-change-dashboard-icon.png"\] Alt text: Enterprise Architecture Dashboard page with the change dashboard icon highlighted.
 
 4.  Filter the data in the spline charts by selecting options from the **Application category**, **Business process**, and **Business unit** lists.
 
     **Note:** By default, scores for all applications are displayed in the widgets. You can select an application name to hide their score.
 
 
-**Parent Topic:**[Working with Dashboards](../../../product/application-portfolio-management/concept/eaw-concept/eaw-work-with-dashboards.md)
+**Parent Topic:**[Working with Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-dashboards.md)
 
 **Related topics**  
 
 
-[Explore the Application Assessments dashboard](../concept/eaw-working-with-the-applications-assessment-dashboard.md)
+[Explore the Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-working-with-the-applications-assessment-dashboard.md)
 
-[Monitor performance in Application 360 dashboard](eaw-monitor-performance-in-application-360-dashboard.md)
+[Monitor performance in Application 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-monitor-performance-in-application-360-dashboard.md)
 

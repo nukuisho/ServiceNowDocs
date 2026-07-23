@@ -2,6 +2,7 @@
 title: Request a clone
 description: Request a clone to copy data from a production instance to a non-production instance or to copy data between non-production instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_StartAClone.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,9 +20,9 @@ Role required: clone\_admin on the source instance; clone\_admin and soap on the
 
 **Note:**
 
-Configure your target instance before requesting your clone. See [Register target instance \(legacy\)](t_CreateACloneTarget.md).
+Configure your target instance before requesting your clone. See [Register target instance \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateACloneTarget.md).
 
-Configure a clone profile. See [Create a custom clone profile](configure-clone-profile.md).
+Configure a clone profile. See [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-clone-profile.md).
 
 For self-hosted customer instances that use an Oracle database, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0563847](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0563847).
 
@@ -85,7 +86,7 @@ Clone Scheduled Start time
 
 </td><td>
 
-The start time to begin cloning your instance. See [Schedule recurring clones](schedule-cloning.md).**Note:** You may schedule multiple clones to the same target instance as long as they are scheduled at least five days apart. If two clone requests for the same target fall within a five day window, the system will return an error to prevent overlap. If a time you need is unavailable, check for any scheduled maintenance, upgrades, or existing clone requests affecting the relevant instances.
+The start time to begin cloning your instance. See [Schedule recurring clones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/schedule-cloning.md).**Note:** You may schedule multiple clones to the same target instance as long as they are scheduled at least five days apart. If two clone requests for the same target fall within a five day window, the system will return an error to prevent overlap. If a time you need is unavailable, check for any scheduled maintenance, upgrades, or existing clone requests affecting the relevant instances.
 
 </td></tr><tr><td>
 
@@ -98,11 +99,11 @@ The start time to begin cloning your instance. See [Schedule recurring clones](s
 The email or emails to be notified of the clone process and clone completion.
 
 </td></tr></tbody>
-</table>3.  Select the hyperlinked number under each item in the definitions section to review your exclusions, preservers, and cleanup scripts.![Clone definitions numbers.](../image/clone-definitions-numbers.png)
+</table>3.  Select the hyperlinked number under each item in the definitions section to review your exclusions, preservers, and cleanup scripts.\[Omitted image "clone-definitions-numbers.png"\] Alt text: Clone definitions numbers.
 
 4.  Select the options to configure for your clone.
 
-    **Note:** For information on all available options see [Clone options](../reference/clone-options.md). For information on general guidelines to expedite your clone request see [General guidelines for optimizing your clone duration](../reference/clone-duration-optimization.md).
+    **Note:** For information on all available options see [Clone options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-options.md). For information on general guidelines to expedite your clone request see [General guidelines for optimizing your clone duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-duration-optimization.md).
 
 5.  Select **Continue**.
 

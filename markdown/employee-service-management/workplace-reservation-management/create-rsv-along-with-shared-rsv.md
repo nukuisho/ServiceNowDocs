@@ -2,6 +2,7 @@
 title: Create a reservation along with a shared reservation
 description: Reserve a workplace near to your co-worker using their shared reservation details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-rsv-along-with-shared-rsv.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -29,7 +30,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
     The Reservation portal is opened with pre-filled details as per your co-worker's reservation. You can select a suitable workplace by yourself.
 
-    For more information on how to make a reservation on the Reservation portal, refer to [Create a reservation](create-reservation-request-1.md).
+    For more information on how to make a reservation on the Reservation portal, refer to [Create a reservation]().
 
 4.  To automatically reserve the most suitable and nearby space to your co-worker, select **Reserve a space for me**.
 
@@ -38,40 +39,40 @@ Role required: sn\_wsd\_core.workplace\_user
     **Note:** This option is unavailable for multi-reservation.
 
 
-**Parent Topic:**[Reserve workplace items](../concept/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 
 
-[Create a reservation](create-reservation-request-1.md)
+[Create a reservation]()
 
-[Add invitees as collaborators and create a reservation](add-colleagues-rsv-search.md)
+[Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations](recurring-reservations.md)
+[Auto-resolve recurring reservations]()
 
-[Set a location as favorite using the Space details page](set-a-location-as-favorite.md)
+[Set a location as favorite using the Space details page]()
 
-[Reserve a space near your colleague](browse-near-person-rsv.md)
+[Reserve a space near your colleague]()
 
-[Create a multi-day reservation](create-multi-day-reservation.md)
+[Create a multi-day reservation]()
 
-[Create multi-building reservations](create-multi-building-reservation.md)
+[Create multi-building reservations]()
 
-[Create neighborhood reservations](create-neighborhood-reservations.md)
+[Create neighborhood reservations]()
 
-[Create reservation for multiple workplace items](create-reservation-for-multiple-wrkplceitems-1.md)
+[Create reservation for multiple workplace items]()
 
-[Enable shift-based reservation](enable-shift-based-reservation.md)
+[Enable shift-based reservation]()
 
-[Create a reservation including a virtual meeting link](Create-reservation-with-virtual-meeting.md)
+[Create a reservation including a virtual meeting link]()
 
-[Create a shift reservation](create-a-shift-reservation.md)
+[Create a shift reservation]()
 
-[Create a group reservation](create-group-reservation.md)
+[Create a group reservation]()
 
-[Share, modify, or cancel a reservation](modify-cancel-res-request.md)
+[Share, modify, or cancel a reservation]()
 
-[Reserve a workplace using the Quick Reservation widget](reserve-workplace-for-a-time-slot.md)
+[Reserve a workplace using the Quick Reservation widget]()
 
-[Download an iCalendar for a reservation](generate-ical.md)
+[Download an iCalendar for a reservation]()
 

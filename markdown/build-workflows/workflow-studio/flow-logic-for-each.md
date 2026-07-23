@@ -2,6 +2,7 @@
 title: For Each flow logic
 description: Apply one or more actions to each record in a list of records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-for-each.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ The **For Each** flow logic applies one or more actions to a list of records. Th
 
 **Note:** When you set a data pill value from inside a For each item branch of flow logic, the data pill value is only available to other actions in the same branch. Referencing a data pill value that was set inside a For each branch from outside of the flow logic branch produces a null value.
 
-Iterating over a large number of records can be resource intensive, especially when the For Each logic block includes complex actions for each iteration. To avoid performance issues, turn off reporting using the **com.snc.process\_flow.reporting.level** system property. For more information, see [Workflow Studio flow system properties](../reference/flow-designer-system-properties.md).
+Iterating over a large number of records can be resource intensive, especially when the For Each logic block includes complex actions for each iteration. To avoid performance issues, turn off reporting using the **com.snc.process\_flow.reporting.level** system property. For more information, see [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
 
 ## Inputs
 
@@ -27,7 +28,7 @@ Iterating over a large number of records can be resource intensive, especially w
 
     Data type: **Records**
 
-    List of Sys ID values or Records data pill specifying the records to process in sequence. You can use a Look Up Records action to generate a list of records. For more information, see [Look Up Records action](../reference/lookup-records-flow-designer.md).
+    List of Sys ID values or Records data pill specifying the records to process in sequence. You can use a Look Up Records action to generate a list of records. For more information, see [Look Up Records action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-records-flow-designer.md).
 
     **Note:** If you want to process items in a particular order, you must first sort the items in this input in advance. For example, use the Order by option to sort the results of a Look Up Records action.
 
@@ -40,16 +41,16 @@ Iterating over a large number of records can be resource intensive, especially w
 
     Current record in the loop.
 
-    **Note:** By default, all flow loops only store execution details for the first and last iterations of a loop. To report on all iterations of a loop, create a flow execution setting record for each flow that you want to collect loop execution details. For more information about flow execution settings, see [Flow execution settings](flow-execution-settings.md).
+    **Note:** By default, all flow loops only store execution details for the first and last iterations of a loop. To report on all iterations of a loop, create a flow execution setting record for each flow that you want to collect loop execution details. For more information about flow execution settings, see [Flow execution settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-settings.md).
 
 
 ## Send an email for each configuration item potentially affected by a change
 
-![Configuration of the For Each flow logic using a list of Configuration Item records](../images/example-for-each-flow-logic.png)
+\[Omitted image "example-for-each-flow-logic.png"\] Alt text: Configuration of the For Each flow logic using a list of Configuration Item records
 
 This example flow starts when a change request record is created. The flow uses a Look Up Records action to find Configuration Item records assigned to the requester of the change request. The flow uses For Each flow logic to send an email about each configuration that might be affected by the change request. The output of the Look Up Records action contains the list of records to process.
 
-![Flow execution details of the For Each flow logic](../images/example-for-each-flow-logic-execution-details.png)
+\[Omitted image "example-for-each-flow-logic-execution-details.png"\] Alt text: Flow execution details of the For Each flow logic
 
 The flow execution details show the configuration item record used for each iteration of the loop.
 
@@ -67,43 +68,43 @@ Use these general guidelines with a For Each flow logic.
 
 -   **Avoid nested For Each loops**
 
-    Avoid nested For Each loops that process many records. Nested loops may cause the flow to run until it is stopped by the flow transaction quota rule, which prevents flows from running longer than an hour. For more information about transaction quotas, see [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/c_TransactionQuotas.md).
+    Avoid nested For Each loops that process many records. Nested loops may cause the flow to run until it is stopped by the flow transaction quota rule, which prevents flows from running longer than an hour. For more information about transaction quotas, see [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TransactionQuotas.md).
 
 
-**Parent Topic:**[Workflow Studio flow logic](flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 
 
-[Append to Flow Variables flow logic](../reference/append-to-flow-variables-flow-logic.md)
+[Append to Flow Variables flow logic]()
 
-[Assign subflow outputs flow logic](flow-logic-assign-subflow-outputs.md)
+[Assign subflow outputs flow logic]()
 
-[Call a workflow flow logic](flow-logic-call-workflow.md)
+[Call a workflow flow logic]()
 
-[Do the following until flow logic](flow-logic-do-until.md)
+[Do the following until flow logic]()
 
-[Do the following in parallel flow logic](flow-logic-do-following-in-parallel.md)
+[Do the following in parallel flow logic]()
 
-[Dynamic flows flow logic](flow-logic-dynamic-flow.md)
+[Dynamic flows flow logic]()
 
-[End Flow flow logic](flow-logic-end-action.md)
+[End Flow flow logic]()
 
-[Exit Loop flow logic](../reference/exit-loop-flow-logic.md)
+[Exit Loop flow logic]()
 
-[Get Flow Outputs flow logic](../reference/get-flow-outputs-flow-logic.md)
+[Get Flow Outputs flow logic]()
 
-[Go back to flow logic](../reference/go-back-to-flow-logic.md)
+[Go back to flow logic]()
 
-[If flow logic](flow-logic-if.md)
+[If flow logic]()
 
-[Make a decision flow logic](flow-logic-make-decision.md)
+[Make a decision flow logic]()
 
-[Set Flow Variables flow logic](flow-logic-set-flow-variables.md)
+[Set Flow Variables flow logic]()
 
-[Skip Iteration flow logic](../reference/skip-iteration-flow-logic.md)
+[Skip Iteration flow logic]()
 
-[Try flow logic](flow-logic-try.md)
+[Try flow logic]()
 
-[Wait for a duration flow logic](flow-logic-wait-for-a-duration.md)
+[Wait for a duration flow logic]()
 

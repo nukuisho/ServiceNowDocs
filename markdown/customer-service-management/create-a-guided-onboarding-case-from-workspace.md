@@ -2,6 +2,7 @@
 title: Creating a guided onboarding case from CSM Configurable Workspace
 description: An agent can create a case for a contact or a consumer when the contact or consumer reaches out through a phone call, email, or chat from the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-a-guided-onboarding-case-from-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ Let's see how an agent creates a case from Playbooks for Portals. The agent does
 
 The following diagram shows how an agent creates a case.
 
-![Steps that an agent follows in creating a case. Refer to the workflow steps that preceded this diagram.](../image/playbook-agent-create-case.png "Agent creates a case")
+\[Omitted image "playbook-agent-create-case.png"\] Alt text: Steps that an agent follows in creating a case. Refer to the workflow steps that preceded this diagram.
 
 ## Processing a case
 
@@ -49,12 +50,12 @@ Let's see how an agent processes a case from Playbooks for Portals. The agent do
 
 The following diagram shows how an agent processes a case.
 
-![Steps that an agent follows in processing a case. Refer to the workflow steps that preceded this diagram.](../image/Playbook-agent-process-case.png "Agent processes a case")
+\[Omitted image "Playbook-agent-process-case.png"\] Alt text: Steps that an agent follows in processing a case. Refer to the workflow steps that preceded this diagram.
 
 **Related topics**  
 
 
-[Create an onboarding request from the service catalog](../task/create-an-onboarding-request-from-catalog.md)
+[Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-request-from-catalog.md)
 
-[Creating an onboarding case with Playbooks for Portals](create-an-onboarding-case-with-portal-playbook.md)
+[Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
 

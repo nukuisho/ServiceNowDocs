@@ -2,6 +2,7 @@
 title: Export a Dependency Views map
 description: Export a Dependency Views map to an image in PNG format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_ExportAnNGBSMMap.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -27,7 +28,7 @@ Role required: sn\_cmdb\_admin or admin
 
     The exported image displays the current view of the map.
 
-3.  Click the view menu icon \(![View Menu.](../image/MenuIcon.png)\).
+3.  Click the view menu icon \(\[Omitted image "MenuIcon.png"\] Alt text: View Menu.\).
 
 4.  Click **Export Image**.
 
@@ -38,22 +39,22 @@ Role required: sn\_cmdb\_admin or admin
 6.  Click the "X" button to close the **Export Image** window.
 
 
-**Parent Topic:**[Use Dependency Views](../topic/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 
 
-[View a Dependency Views map](t_AccessNGBSM.md)
+[View a Dependency Views map]()
 
-[Save or load a Dependency Views map](t_SaveLoadMapView.md)
+[Save or load a Dependency Views map]()
 
-[Delete a saved Dependency Views map view](t_DeleteSavedMapView.md)
+[Delete a saved Dependency Views map view]()
 
-[Change the layout of Dependency Views map](t_ChangeLayoutNGBSMMap.md)
+[Change the layout of Dependency Views map]()
 
-[Filter the view of a Dependency Views map](t_FilterViewNGBSMMap.md)
+[Filter the view of a Dependency Views map]()
 
-[Perform actions on nodes in a Dependency Views map](t_PerformActionsOnNGBSMMap.md)
+[Perform actions on nodes in a Dependency Views map]()
 
-[View collapsed nodes in a Dependency Views map](t_ViewCollapsedNodesInNGBSM.md)
+[View collapsed nodes in a Dependency Views map]()
 

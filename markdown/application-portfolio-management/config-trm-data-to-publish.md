@@ -1,7 +1,8 @@
 ---
-title: Create a new configuration to publish TRM data
+title: Create a configuration to publish TRM data
 description: Define configuration for a Technology Reference Model \(TRM\) catalog that can be published to the knowledge base article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/config-trm-data-to-publish.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create a new configuration to publish TRM data
+# Create a configuration to publish TRM data
 
 Define configuration for a Technology Reference Model \(TRM\) catalog that can be published to the knowledge base article.
 
@@ -27,9 +28,9 @@ Publishing a TRM catalog involves creating a publishing configuration in the Pub
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon ![Setup icon](../../image/eaw-image/setup-icon.png).
+2.  Open the Setup page by selecting the Setup icon \[Omitted image "setup-icon.png"\] Alt text: Setup icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Publishing Center**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Publishing Center**.
 
 4.  Select **All**.
 
@@ -37,7 +38,7 @@ Publishing a TRM catalog involves creating a publishing configuration in the Pub
 
 6.  On the form, fill in the fields.
 
-    For field information, see [Create new publishing configuration form](../../reference/eaw-reference/create-pub-config-form.md).
+    For field information, see [Create publishing configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-pub-config-form.md).
 
 7.  Select **Save**.
 
@@ -50,27 +51,27 @@ Publishing a TRM catalog involves creating a publishing configuration in the Pub
 
 When you create a new TRM publishing configuration, the system automatically creates default publishing components. The following related records are created automatically:
 
--   **Article configurations**- For TRM, this tab displays the Software and Hardware product links along with display fields to appear on the knowledge base. By default, system displays the article configuration and content configuration for the product to be published. You can open the links to modify the article configuration and life cycle configuration. For more details, see [Edit a published TRM catalog configuration](modify-trm-cat-pub-config.md).
+-   **Article configurations**- For TRM, this tab displays the Software and Hardware product links along with display fields to appear on the knowledge base. By default, system displays the article configuration and content configuration for the product to be published. You can open the links to modify the article configuration and life cycle configuration. For more details, see [Edit a published TRM catalog configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/modify-trm-cat-pub-config.md).
 -   **Portals**- displays associated portals, where the knowledge base is published. You can associate a new knowledge base to the service portal. For more details, see Associate a portal to the knowledge base.
 
     **Note:** You can see this tab only when you have the Service Portal admin \(sp\_admin\) role assigned to you.
 
--   **Run logs**- displays the publishing status. You can also open the run log link and article configuration links to see all details for the published catalog. For more details, see [View publishing status and run log](view-run-log.md).
+-   **Run logs**- displays the publishing status. You can also open the run log link and article configuration links to see all details for the published catalog. For more details, see [View publishing status and run log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-run-log.md).
 
-**Parent Topic:**[Working with the publishing center](../../concept/eaw-concept/working-with-publishing-center.md)
+**Parent Topic:**[Working with the publishing center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/working-with-publishing-center.md)
 
 **Related topics**  
 
 
-[Edit a published TRM catalog configuration](modify-trm-cat-pub-config.md)
+[Edit a published TRM catalog configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/modify-trm-cat-pub-config.md)
 
-[Associate a portal with a knowledge base](associate-portal-to-trm-cat.md)
+[Associate a portal with a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/associate-portal-to-trm-cat.md)
 
-[Publish a TRM catalog to the knowledge base](publish-trm-cat-to-kb.md)
+[Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/publish-trm-cat-to-kb.md)
 
-[View publishing status and run log](view-run-log.md)
+[View publishing status and run log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-run-log.md)
 
-[Access the published TRM catalog knowledge base](access-the-published-kb.md)
+[Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/access-the-published-kb.md)
 
-[Understanding the publishing results and knowledge base output](../../reference/eaw-reference/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/understand-publishing-output.md)
 

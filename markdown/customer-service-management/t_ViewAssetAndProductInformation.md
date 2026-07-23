@@ -2,6 +2,7 @@
 title: View asset information from the Customer Service Portal
 description: View a list of assets for the current user's account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ViewAssetAndProductInformation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 2.  Click one of the following to view more information.
 
-<table id="choicetable_jwd_kgq_ft"><tbody><tr><td id="d80359e93">
+<table id="choicetable_jwd_kgq_ft"><tbody><tr><td id="d82457e93">
 
 **__Display name__**
 
@@ -33,7 +34,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 Displays the asset information.
 
-</td></tr><tr><td id="d80359e105">
+</td></tr><tr><td id="d82457e105">
 
 **__Account__**
 
@@ -41,7 +42,7 @@ Displays the asset information.
 
 Displays the account information.
 
-</td></tr><tr><td id="d80359e117">
+</td></tr><tr><td id="d82457e117">
 
 **__Model category__**
 
@@ -52,4 +53,11 @@ Displays the product model information for this asset.
 </td></tr></tbody>
 </table>3.  Click the Back button to return to the list of assets.
 
+
+**Related topics**  
+
+
+[View product information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-info-csp.md)
+
+[Create a product case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustPortal.md)
 

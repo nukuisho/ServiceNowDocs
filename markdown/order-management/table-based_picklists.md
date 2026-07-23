@@ -2,11 +2,12 @@
 title: Table-based picklists
 description: A table-based picklist lets an administrator query and retrieve data from managed tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/table-based\_picklists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure picklist extensions, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure picklist extensions, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Table-based picklists
@@ -31,7 +32,7 @@ Scenario 1:
 |Banana|banana|
 |Chayote|chayote|
 
-CPQ removes the second instance of Banana \[banana\], presenting the user with three picklist options.
+ServiceNow CPQ removes the second instance of Banana \[banana\], presenting the user with three picklist options.
 
 Scenario 2:
 
@@ -42,7 +43,7 @@ Scenario 2:
 |Banana|banana2|
 |Chayote|chayote|
 
-In this scenario, CPQ retrieves picklist options with four unique values. Unfortunately, two values, “banana” and “banana2” share the same label, “Banana”. The app cannot determine which value is best for label, “Banana”. Therefore, the user will be presented with a total of four options, two labeled “Banana”. Administrators must mind their managed tables data to avoid this poor end-user experience.
+In this scenario, ServiceNow CPQ retrieves picklist options with four unique values. Unfortunately, two values, “banana” and “banana2” share the same label, “Banana”. The app cannot determine which value is best for label, “Banana”. Therefore, the user will be presented with a total of four options, two labeled “Banana”. Administrators must mind their managed tables data to avoid this poor end-user experience.
 
 Scenario 3:
 
@@ -53,7 +54,7 @@ Scenario 3:
 |Banana2|banana|
 |Chayote|chayote|
 
-When duplicate values are returned from a managed table, CPQ displays the label associated with the first occurrence of the value. All other labels associated with that value are eliminated and are not displayed as picklist options to the end-user.
+When duplicate values are returned from a managed table, ServiceNow CPQ displays the label associated with the first occurrence of the value. All other labels associated with that value are eliminated and are not displayed as picklist options to the end-user.
 
 If the referenced table returns a row with no data contained in the label or value, the application will ignore the entry, and the record will not be presented to the end-user as a picklist option.
 
@@ -62,5 +63,5 @@ If the referenced table returns a row with no data contained in the label or val
 **Related topics**  
 
 
-[Picklists and picklist extensions in rules](cpq-picklists-and-picklist-extensions-in-rules.md)
+[Picklists and picklist extensions in rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-picklists-and-picklist-extensions-in-rules.md)
 

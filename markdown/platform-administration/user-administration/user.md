@@ -2,13 +2,14 @@
 title: The User record
 description: Learn about user records and their use within the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/user.html
 release: australia
 product: User Administration
 classification: user-administration
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Exploring user admin, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # The User record
@@ -19,7 +20,7 @@ Learn about user records and their use within the ServiceNow AI Platform.
 
 User records establish a relationship between an individual and your ServiceNow instance. User records consist of a user name, a password, and information relating to the individual, such as contact information, location, and job title.
 
-![A sample user record.](../image/user-record.png "User record")
+\[Omitted image "user-record.png"\] Alt text: A sample user record.
 
 User records are stored in the Users \[sys\_user\] table.
 
@@ -29,7 +30,7 @@ User records are associated with records on several other tables to control perm
 
 -   **Roles**
 
-    Roles control access to features and capabilities in applications and modules. For more information on roles, see [Managing roles](ua-creating-roles.md).
+    Roles control access to features and capabilities in applications and modules. For more information on roles, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
     **Note:**
 
@@ -37,19 +38,19 @@ User records are associated with records on several other tables to control perm
 
 -   **Groups**
 
-    A group is a set of users who share a common purpose. Users assigned to groups are automatically assigned to all roles associated with that group. For more details, see [Creating groups](ua-creating-groups.md) and [Managing roles](ua-creating-roles.md).
+    A group is a set of users who share a common purpose. Users assigned to groups are automatically assigned to all roles associated with that group. For more details, see [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-groups.md) and [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
 
 -   **Delegates**
 
-    In addition to role and group assignments, users can be assigned as delegates, giving them permission to act with the same permissions as a delegator user. See [Delegating roles](c_DelegateRoles.md) for more information on delegation.
+    In addition to role and group assignments, users can be assigned as delegates, giving them permission to act with the same permissions as a delegator user. See [Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md) for more information on delegation.
 
 -   **Skills**
 
-    Use skill management to associate users with their areas of training and expertise. For more information on skill management, see [Skill Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md).
+    Use skill management to associate users with their areas of training and expertise. For more information on skill management, see [Skill Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management.md).
 
 -   **Subscriptions**
 
-    Administrators use subscriptions to control which users have access to purchased subscriptions on their instances. Details on subscription management can be found at [Subscription Management](../../subscription-management/reference/subscription-management-landing-page-v2.md).
+    Administrators use subscriptions to control which users have access to purchased subscriptions on their instances. Details on subscription management can be found at [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md).
 
 -   **User preferences**
 
@@ -60,7 +61,7 @@ User records are associated with records on several other tables to control perm
 
 You can set your preferred date and time formatting through the User record. If you don't specify a preference in these fields, the system applies default formatting.
 
-The Date format field appears in the User record by default and can be modified without specific permissions. However, the Time format field must be added to the User record by revealing additional form fields. For instructions on showing or hiding form fields, see [Configuring the form layout](../../form-administration/concept/configure-form-layout.md#). If you can't modify form fields, contact your organization's user administrator to update your time format preferences.
+The Date format field appears in the User record by default and can be modified without specific permissions. However, the Time format field must be added to the User record by revealing additional form fields. For instructions on showing or hiding form fields, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md). If you can't modify form fields, contact your organization's user administrator to update your time format preferences.
 
 The Date and time format field in **User Menu** &gt; **Preferences** &gt; **Language &amp; Region** extends the options you select in the Date format and Time format fields of your User record. For more information, see [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md). Timezone settings automatically sync between the User record and your preferences.
 

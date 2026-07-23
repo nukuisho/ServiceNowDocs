@@ -2,6 +2,7 @@
 title: Explicit Roles
 description: You can give both internal users and external users access to your instance. However, you might not want both types of users to have the same level of access. To provide added security, every user must have at least one role so that the instance can distinguish between internal and external users.Activate Explicit Roles by requesting the Explicit Roles plugin \(com.glide.explicit\_roles\) through the Now Support Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/explicit-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -53,9 +54,9 @@ When the Explicit Roles plugin is activated:
 -   To restrict access to processors to internal users, the plugin automatically assigns the snc\_internal role to the **\*** ACL with a **Type** of **processor**.
 -   External users must obtain, at minimum, the snc\_external role to access the instance. This role must be manually granted to external users. Access to records is granted through ACLs.
 
-Do not move system update sets among instances with and without the Explicit Roles plugin enabled. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+Do not move system update sets among instances with and without the Explicit Roles plugin enabled. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
 
-**Note:** This plugin also requires the [Contextual Security Manager](../../roles/reference/r_ContextualSecurity.md) plugin.
+**Note:** This plugin also requires the [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/r_ContextualSecurity.md) plugin.
 
 ## glide.security.explicit\_roles.do\_not\_fix behavior
 
@@ -394,7 +395,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 

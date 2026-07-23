@@ -2,6 +2,7 @@
 title: Configure list record count to load in the background
 description: Configure lists created from large tables to load the list record count in the background.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/fetch-list-record-count-asynchronously.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Add a system property named **glide.ui.fetch.list.record.count.asynchronously**.
 
-    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set the Value to **true**.
 

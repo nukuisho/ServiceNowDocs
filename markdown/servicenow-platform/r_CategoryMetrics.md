@@ -2,6 +2,7 @@
 title: Assessment scorecard category metrics
 description: The Category Metrics view displays the weighted average results for each metric within a category. Use this view to learn how individual metrics affect the overall rating for the category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_CategoryMetrics.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,24 +16,24 @@ The Category Metrics view displays the weighted average results for each metric 
 
 Select a metric category from the choice list to display the chart.
 
-![](../images/ScorecardCategoryMetrics.png "Scorecard category metrics")
+\[Omitted image "ScorecardCategoryMetrics.png"\] Alt text:
 
-**Parent Topic:**[View an assessment scorecard](../task/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 
 
-[Create a link to a scorecard](../task/t_CreateALinkToAScorecard.md)
+[Create a link to a scorecard]()
 
-[Assessment scorecard averages](r_Averages.md)
+[Assessment scorecard averages]()
 
-[Assessment scorecard categories](r_Categories.md)
+[Assessment scorecard categories]()
 
-[Assessment scorecard head-to-head compare view](r_HeadToHeadCompare.md)
+[Assessment scorecard head-to-head compare view]()
 
-[Assessment scorecard history](r_History.md)
+[Assessment scorecard history]()
 
-[Live feed view of assessable records](r_LiveFeed.md)
+[Live feed view of assessable records]()
 
-[Assessment scorecard ratings](r_Ratings.md)
+[Assessment scorecard ratings]()
 

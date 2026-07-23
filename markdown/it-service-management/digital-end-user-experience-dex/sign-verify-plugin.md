@@ -2,12 +2,14 @@
 title: Sign and verify an ACC plugin
 description: Create a self-signed certificate for an Agent Client Collector \(ACC\) plugin and verify the signature to enable validation of the signed plugin on endpoint devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/sign-verify-plugin.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-09"
 reading_time_minutes: 1
+keywords: [sign acc plugin, verify plugin signature, self signed certificate, openssl, plugin validation, sign and verify plugin]
 breadcrumb: [Creating and executing a PowerShell script-based remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 
@@ -96,12 +98,12 @@ Role required: admin
     -   Distribute the certificate to agent devices using a device management utility such as Jamf or Microsoft Intune.
 11. Add the certificate to the agent trust store.
 
-    For more information, see [Add a self-signed certificate to your operating system's truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/add-certificate-trust-store.md).
+    For more information, see [Add a self-signed certificate to the OS truststore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/add-certificate-trust-store.md).
 
 12. Upload the signed ACC plugin to the ServiceNow instance.
 
-    For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-edit-assets.md).
+    For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-edit-assets.md).
 
 
-**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](../concept/remedial-actions-ps.md)
+**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)
 

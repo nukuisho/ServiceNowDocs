@@ -2,12 +2,13 @@
 title: Workbench Overview
 description: The Workbench Overview page consists of the Case Tasks and Cases that are under Threat Analysts and their team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/workbench-overview.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -23,7 +24,7 @@ After the case is created, the analysts will then assign the case tasks to other
 
 There are various widgets present under each filter grouped by priority, status, and case type which are in the threat analysts’ queues and threat analysts team's queue.
 
-![Workbench Overview](../image/tisc-workbench-overview.png)
+\[Omitted image "tisc-workbench-overview.png"\] Alt text: Workbench Overview
 
 When filters are applied on the widgets, the bottom half of the overview page is populated with the corresponding cases or case tasks presented as list items. In order to remove the applied filters, click on **Reset Filters** to reset it to the original view.
 
@@ -35,24 +36,30 @@ Using this page, the threat analysts and admins can view their work, teams work,
 
 You can also view cases and case tasks directly from the Workbench Overview that are assigned to you. By default, the case view is displayed, you can use the dropdown and select the case tasks if you want to view the case tasks by priority and status.
 
-**Parent Topic:**[Threat Analyst Workbench](threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 
 
-[Creating cases using Threat Analyst Workbench](create-cases-using-threat-analyst-workbench.md)
+[Creating cases using Threat Analyst Workbench]()
 
-[Creating case task using Threat Analyst Workbench](../task/tisc-create-case-task.md)
+[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
 
-[Working with Investigation Canvas](tisc-investigation-canvases.md)
+[Creating case task using Threat Analyst Workbench]()
 
-[Add artifacts to case\(s\) or case task\(s\)](../task/add-artifacts-to-a-case-s.md)
+[Working with Investigation Canvas]()
 
-[Run Enrichment Actions within a case](../task/run-enrichment-results.md)
+[Add artifacts to case\(s\) or case task\(s\)]()
 
-[View Case Reports](../task/view-case-reports.md)
+[Run Enrichment Actions within a case]()
 
-[Create a security incident from a TISC case](../task/tisc-create-si-case.md)
+[Generate a Case Report using generative AI]()
 
-[Upload Secure File Attachments](../task/secure-file-attachments.md)
+[Generate a Case Report using a template]()
+
+[Create a security incident from a TISC case]()
+
+[Upload Secure File Attachments]()
+
+[Using playbooks]()
 

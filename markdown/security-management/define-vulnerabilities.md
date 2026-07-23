@@ -2,6 +2,7 @@
 title: Define vulnerabilities
 description: Define vulnerability as a weakness or defect in a software or hardware component that attackers exploit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/define-vulnerabilities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -131,5 +132,5 @@ Tools
 Lists legitimate software that is used by threat actors to perform attacks associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Vulnerabilities](../concept/vulnerabilities.md)
+</table>**Parent Topic:**[Vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerabilities.md)
 

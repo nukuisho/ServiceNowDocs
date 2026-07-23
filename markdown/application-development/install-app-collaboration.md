@@ -2,6 +2,7 @@
 title: Install the app collaboration application
 description: Install the app collaboration application so that you can view the collaboration feature in the UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/install-app-collaboration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Click the search icon \(![Search](../../../common/image/List_SearchIcon.png)\) in the middle of the screen to search for the application collaboration application.
+2.  Click the search icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Search\) in the middle of the screen to search for the application collaboration application.
 
 3.  Click **Install**.
 

@@ -2,6 +2,7 @@
 title: Configure Password Reset properties
 description: You can specify properties that configure the Password Reset experience for end users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_SetPwdResetProps.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -29,33 +30,33 @@ For example, you would not want to allow 100 attempts for users to verify their 
 
 1.  Navigate to **All** &gt; **Password Reset** &gt; **Properties**.
 
-    For information about the Password Reset properties, see [Password Reset global properties](../reference/password-reset-global-properties.md).
+    For information about the Password Reset properties, see [Password Reset global properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-global-properties.md).
 
 2.  Update settings as needed and then click **Save**.
 
 
-**Parent Topic:**[Configure your Password Reset process](t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 
 
-[Calculating the security score for password reset process](../reference/pwd-reset-process-recommend.md)
+[Calculating the security score for password reset process]()
 
-[Configure password expiration reminder](password-reset-expiration-setup.md)
+[Configure password expiration reminder]()
 
-[Credential stores for Password Reset](../concept/c_CredentialStores.md)
+[Credential stores for Password Reset]()
 
-[Password Reset verifications](../concept/c_PWRVerifications.md)
+[Password Reset verifications]()
 
-[Configure your Password Reset process to auto-enroll users](../../security/task/configure-auto-enroll-for-pwd-reset.md)
+[Configure your Password Reset process to auto-enroll users]()
 
-[Enable users to enroll for Password Reset](../../security/task/configure-user-enroll-for-pwd-reset.md)
+[Enable users to enroll for Password Reset]()
 
-[Send email to remind users to enroll for Password Reset](config-pwd-reset-enroll-reminder.md)
+[Send email to remind users to enroll for Password Reset]()
 
-[Configure the required strength for passwords](config-pwd-strength-rqmts.md)
+[Configure the required strength for passwords]()
 
-[Specify lockout for failed login attempts](../../security/task/t_LockoutForFailedLogins.md)
+[Specify lockout for failed login attempts]()
 
-[Configure Google reCAPTCHA for the password reset process](t_ConfigureGoogleRecaptcha.md)
+[Configure Google reCAPTCHA for the password reset process]()
 

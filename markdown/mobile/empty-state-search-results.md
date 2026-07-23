@@ -2,6 +2,7 @@
 title: Configure an empty state for search results
 description: Configure a customized empty state for search results to provide users with information and actions to help improve their search criteria. This information will replace the default empty state that is provided for search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/empty-state-search-results.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +21,7 @@ You should have an empty state for the following situations:
 -   When a search for a term does not produce any results.
 -   When a search using a navigation tab does not produce any results.
 
-For more information, see [Configure an empty state](empty-state-default.md).
+For more information, see [Configure an empty state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/empty-state-default.md).
 
 Role required: admin
 
@@ -75,7 +76,7 @@ Role required: admin
     3.  Select **Save**.
     The mobile card with the image and static text might look like this:
 
-    ![Mobile Card Builder empty state template](../image/empty-state-in-mcb.png)
+    \[Omitted image "empty-state-in-mcb.png"\] Alt text: Mobile Card Builder empty state template
 
 10. Select the **Action** placeholder on the card, which adds a button to the screen, and then perform the following configurations:
 

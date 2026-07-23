@@ -19,27 +19,37 @@ The ServiceNow® Document Services application provides a broad range of service
 -   Manage documents quickly and get complete visibility across all entity-level folders and business records in a single unified view.
 -   Streamline operations with drag-and-drop uploads and direct cloud integration, allowing file management through quick actions directly from file cards.
 -   Enhanced control provides teams with real-time visibility over the document life cycle via in-line metadata editing, automatic version tracking, granular permissions, and embedded workflow assignments on the file card.
+-   Enable Smart Document Skill across all tables by default, removing the need for manual configuration.
 
-See [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-services-landing-page.md) for more information.
+See [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-services-landing-page.md) for more information.
 
 ## New in the Australia release
 
--   **[Document Management components in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-management-workspace.md)**
+-   **[Document Management components in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-workspace.md)**
 
     Organize, access, and collaborate on files efficiently with unified Document Management in Workspace through intuitive folder structures, streamlined cloud integration, one-click actions, and embedded workflows.
 
--   **[Granular admin roles required to secure the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/granular-admin-roles-dms.md)**
+-   **[Granular admin roles required to secure the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/granular-admin-roles-dms.md)**
 
     Enable developers and administrators to complete administrative configuration tasks for Document Services without requiring the full admin role.
+
+
+## Changed in this release
+
+-   **[Smart documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md)**
+
+    Use Smart Document skill across all tables.
+
+    Existing configurations remain unchanged during upgrade, including those on specific tables or when the feature is disabled.
 
 
 ## Activation information
 
 Document Services is a ServiceNow AI Platform feature that is active by default.
 
-Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/activate-doc-mgmt-plugin.md).
+Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-doc-mgmt-plugin.md).
 
-Multi Provider Document Services Framework must be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/mp-document-services-framework-landing.md). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Multi Provider Document Services Framework must be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mp-document-services-framework-landing.md). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](now-platform-capabilities-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
 

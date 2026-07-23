@@ -2,6 +2,7 @@
 title: Apply aliases
 description: After testing, aliases can be normalized in all new records or in existing records when they are updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ApplyAliases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

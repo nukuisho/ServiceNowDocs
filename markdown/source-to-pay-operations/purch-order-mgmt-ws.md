@@ -2,10 +2,11 @@
 title: Source-to-Pay Workspace
 description: The Purchase Order Management page in the Source-to-Pay Workspace enables you to manage and work on tasks related to purchase order exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/purch-order-mgmt-ws.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [source-to-pay workspace, purchase order management landing page]
 breadcrumb: [Explore, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -22,11 +23,11 @@ The Source-to-Pay Workspace provides a Purchase Order Management dashboard and t
 
 The Source-to-Pay Workspace includes a landing page and a list view that enables you to work on various aspects of the purchase order exception management process.
 
-For more information about Purchase Order Management landing page, see [POM landing page](purch-order-mgmt-tab-s2pws.md).
+For more information about Purchase Order Management landing page, see [POM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/purch-order-mgmt-tab-s2pws.md).
 
-For more information about Purchase Order Management list view, see [POM list page](pom-list-page.md).
+For more information about Purchase Order Management list view, see [POM list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/pom-list-page.md).
 
-For more information about the Source-to-Pay Workspace, see [Source-to-Pay Workspace](../../source-to-pay-operations/concept/source-to-pay-ws-overview.md).
+For more information about the Source-to-Pay Workspace, see [Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.md).
 
 ## End user and roles
 
@@ -38,12 +39,21 @@ For more information about the Source-to-Pay Workspace, see [Source-to-Pay Works
 |Purchase order management collaborator: View assigned purchase order exceptions and tasks.|sn\_poem\_core.collaborator|
 |Fulfiller for Now Assist for POM: Role assigned to an operational buyer to access Now Assist for Purchase Order Management \(POM\).|sn\_poem\_gen\_ai\_now\_assist\_fulfiller|
 
--   **[View a purchase order exception](../task/view-purch-order-exception.md)**  
+-   **[View a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-purch-order-exception.md)**  
 As an Operational Buyer, view a purchase order exception in the Purchase Order Management landing page for further processing.
--   **[Purchase order exception Details page](purch-order-exception-details.md)**  
+-   **[Purchase order exception Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-details.md)**  
 The Details page is displayed when you select the link of a purchase order exception.
--   **[View a purchase order exception task](../task/view-po-exception-task.md)**  
+-   **[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-po-exception-task.md)**  
 View the purchase order exception record in Source-to-Pay Workspace to take action on your assigned task.
 
-**Parent Topic:**[Explore Purchase Order Management](explore-purch-order-mgmt.md)
+**Parent Topic:**[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
+
+**Related topics**  
+
+
+[Source-to-Pay Operations workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/exploring-source-to-pay-operations.md)
+
+[POM landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/purch-order-mgmt-tab-s2pws.md)
+
+[POM list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/pom-list-page.md)
 

@@ -2,6 +2,7 @@
 title: Integer values for default choice lists
 description: Choice provide four default values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_IntValsForDfltChoiceList.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

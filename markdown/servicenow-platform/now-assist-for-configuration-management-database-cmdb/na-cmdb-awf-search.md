@@ -1,7 +1,8 @@
 ---
 title: Use Now Assist to search the CMDB
-description: The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
+description: The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CIs of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -13,7 +14,7 @@ breadcrumb: [Use agentic workflows, Now Assist for Configuration Management Data
 
 # Use Now Assist to search the CMDB
 
-The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
+The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CIs of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
 
 ## Before you begin
 
@@ -35,7 +36,7 @@ The Search CMDB agentic workflow can perform the following types of search:
 
 ## Procedure
 
-1.  On the CMDB Workspace or in any form or list view, select the Now Assist icon ![](../../../administer/virtual-agent/images/icon-now-assist-sparkle.png).
+1.  On the CMDB Workspace or in any form or list view, select the Now Assist icon \[Omitted image "icon-now-assist-sparkle.png"\].
 
 2.  Start a Now Assist query with "`Search the CMDB for`" and then enter the search criteria as described in the next step.
 
@@ -49,37 +50,37 @@ The Search CMDB agentic workflow can perform the following types of search:
 
 5.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d72478e233">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d76225e233">
 
 Option
 
-</th><th align="left" id="d72478e236">
+</th><th align="left" id="d76225e236">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d72478e242">
+</th></tr></thead><tbody><tr><td id="d76225e242">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the response was helpful, select thumbs-up ![](../../configuration-management/image/icon-thumbs-up.png). If you think that it wasn’t helpful, select thumbs-down ![](../../configuration-management/image/icon-thumbs-down.png).This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d72478e257">
+</td></tr><tr><td id="d76225e257">
 
 **Copy the summary**
 
 </td><td>
 
-Select the copy to clipboard icon ![](../../configuration-management/image/icon-clipboard.png) to use the response information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d72478e268">
+</td></tr><tr><td id="d76225e268">
 
 **Refresh the summary**
 
 </td><td>
 
-If you think that data might have changed after you viewed the response, select the redo icon ![](../../configuration-management/image/icon-redo.png) to refresh the response information.
+If you think that data might have changed after you viewed the response, select the redo icon \[Omitted image "icon-redo.png"\] to refresh the response information.
 
 </td></tr></tbody>
 </table>
@@ -89,5 +90,5 @@ If fewer than five search results are returned, they are summarized. If more res
 
 To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
-**Parent Topic:**[Using agentic workflows in Now Assist for CMDB](../../configuration-management/concept/now-assist-cmdb-using.md)
+**Parent Topic:**[Using agentic workflows in Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 

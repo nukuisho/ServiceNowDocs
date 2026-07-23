@@ -2,12 +2,13 @@
 title: Set a threshold to suppress alert generation
 description: The event threshold is the rate upon which Event Management generates an alert. Receiving multiple events for a device over a short interval may warrant creating an alert, as the condition may be serious. However, receiving events over a longer interval may indicate a less serious situation which would not warrant creating an alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMISetThresholdEvent.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -85,6 +86,8 @@ In this scenario, an alert is generated since in all events the elapsed time is 
 -   When configuring an event rule to create or close alerts according to a threshold, events that arrive at the same second, as determined by the **time\_of\_event** field, are skipped. This occurs because these events are considered to be duplicates.
 -   When threshold conditions are configured, alerts close when the **Close Alert Operator** condition is met, and not when an event is received with **Severity = Clear** or **Resolution state = Closing**.
 
+To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Event Rules**.
@@ -136,16 +139,16 @@ To create an alert when a specific event occurs 5 times in 10 minutes with a met
 6.  In the **Over** field, specify `600` \(10 \* 60 seconds\).
 7.  Click **Save** or **Submit**.
 
-**Parent Topic:**[Event rules](../concept/create-event-rules.md)
+**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-event-rules.md)
 
 **Related topics**  
 
 
-[Create or edit an event rule](create-or-edit-event-rule.md)
+[Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-or-edit-event-rule.md)
 
-[Use event input information](../concept/event-input-information.md)
+[Use event input information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-input-information.md)
 
-[Configure an event rule to customize alert content](t_EMComposeOuput.md)
+[Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMComposeOuput.md)
 
-[Filter the events that an event rule applies to](t_EMCreateFilter.md)
+[Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateFilter.md)
 

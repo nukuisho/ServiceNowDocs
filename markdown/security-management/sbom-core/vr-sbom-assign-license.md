@@ -2,13 +2,14 @@
 title: Resolve licenses to components in the Software Bill of Materials Workspace
 description: Resolve \(assign\) classified licenses to specific components with the Component License Resolution feature. Assign licenses to components with missing information or incorrect license information or create new licenses so your overall license compliance can be calculated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-assign-license.html
 release: australia
 product: SBOM Core
 classification: sbom-core
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Classifying licenses and resolving component licenses in the Software Bill of Materials workspace, Use, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Classifying licenses and resolving component licenses in the Software Bill of Materials workspace, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
 
 # Resolve licenses to components in the Software Bill of Materials Workspace
@@ -44,15 +45,15 @@ Role required: sn\_sbom\_response.licenseresolver
 
 3.  Choose one to resolve a license.
 
-<table id="choicetable_b3f_2f1_zcc"><thead><tr><th align="left" id="d417056e180">
+<table id="choicetable_b3f_2f1_zcc"><thead><tr><th align="left" id="d424484e176">
 
 Option
 
-</th><th align="left" id="d417056e183">
+</th><th align="left" id="d424484e179">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d417056e189">
+</th></tr></thead><tbody><tr><td id="d424484e185">
 
 **Assign an existing license to a component.**
 
@@ -69,7 +70,7 @@ Description
 9.  Refresh the page to update it.
 
 
-</td></tr><tr><td id="d417056e235">
+</td></tr><tr><td id="d424484e231">
 
 **Change a license for a component that already has one.**
 
@@ -85,7 +86,7 @@ You might choose this option if you determine a license has been incorrectly ass
 6.  Refresh the page to update it.
 
 
-</td></tr><tr><td id="d417056e275">
+</td></tr><tr><td id="d424484e271">
 
 **Create a license.**
 
@@ -108,7 +109,7 @@ You might use this option if you know a specific license is used in your organiz
 8.  Select **Save**. This license is added to your database, is displayed on the License Classification page, and can now be detected on components during SBOM uploads.
 
 
-</td></tr><tr><td id="d417056e345">
+</td></tr><tr><td id="d424484e341">
 
 **Upload multiple licenses and classifications.**
 

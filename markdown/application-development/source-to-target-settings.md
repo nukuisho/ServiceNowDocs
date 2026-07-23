@@ -2,6 +2,7 @@
 title: Source-to-target settings
 description: Allow or deny access of a specific application resource in a source scope to a specific application resource in a target scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/source-to-target-settings.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Allow or deny access of a specific application resource in a source scope to a s
 
 This setting combination is a one-to-one relationship. For example, you can specify that a specific business rule in source Scope A can access a specific application resource, such as a business rule, table, script include or event, in a target scope.
 
-![Restricted caller access source-to-target setting](../image/Rcap-source-to-target.png)
+\[Omitted image "Rcap-source-to-target.png"\] Alt text: Restricted caller access source-to-target setting
 
 Enter the following field settings for Source-to-Target restricted caller access.
 
@@ -27,5 +28,5 @@ Enter the following field settings for Source-to-Target restricted caller access
 |Target Scope|Scope of the requested resource that contains the target application resources that the source application resource requests access to.|
 |Target Type|Type of requested resource. Select the specific application resource \(for example, business rule, Script Include, event\) the source application resource requests access to.|
 
-**Parent Topic:**[Set the application scope, application resource, and event access](../task/scope-resource-access.md)
+**Parent Topic:**[Set the application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/scope-resource-access.md)
 

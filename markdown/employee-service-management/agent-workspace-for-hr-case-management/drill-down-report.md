@@ -2,6 +2,7 @@
 title: Enable a detailed data display within a report
 description: Enable users to visualize a subset of report data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/drill-down-report.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -31,11 +32,11 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
 5.  Turn on the **Enable drilldown** option.
 
-    ![Drilldown toggle switch](../image/enable-drilldown.png)
+    \[Omitted image "enable-drilldown.png"\] Alt text: Configuration panel showing Enable drilldown toggle switch turned on for data visualization component
 
 6.  In the Events panel, select **+Add event handler** to map the data that is displayed when the user drills down on the report.
 
-    ![Event handler](../image/event-handler.png)
+    \[Omitted image "event-handler.png"\] Alt text: Events panel with Add event handler button for mapping drilldown data display
 
 7.  In the **Search item** field, enter `Open cases - simple list page`.
 
@@ -46,14 +47,14 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 10. Select **Save**.
 
 
-**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](../concept/uib-aws.md)
+**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/uib-aws.md)
 
 **Related topics**  
 
 
-[Create a landing page variant](configure-report-aws.md)
+[Create a landing page variant]()
 
-[Configure quick links in Agent Workspace for HR Case Management](quick-links-aws.md)
+[Configure quick links in Agent Workspace for HR Case Management]()
 
-[Reorder the navigation pane modules in HR Agent Workspace](reorder-pane-modules-aws.md)
+[Reorder the navigation pane modules in HR Agent Workspace]()
 

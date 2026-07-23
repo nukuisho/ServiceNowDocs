@@ -2,6 +2,7 @@
 title: Connect a predefined data fabric table to an external data source
 description: Connect a data fabric table included with an application to an external data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/map-application-table-external-zcc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +35,7 @@ You can fetch data from an external source using an application's data fabric ta
 
 3.  Connect the table to an external data source.
 
-    1.  Select the More Actions icon \(![More actions icon](../../../administer/integrationhub/images/more-actions-menu-icon.png)\), and select **Change connection**.
+    1.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Change connection**.
 
     2.  On the Select a connection page, select the established connection provided by the connection admin.
 
@@ -59,5 +60,5 @@ You can fetch data from an external source using an application's data fabric ta
 
 The data fabric table is connected to the data source that you selected, with the field mapping you defined. Application users can access data from the data source in real time as if it's stored locally on the instance.
 
-**Parent Topic:**[Accessing real-time data in applications](../concept/mapping-application-tables-zcc.md)
+**Parent Topic:**[Accessing real-time data in applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mapping-application-tables-zcc.md)
 

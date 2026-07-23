@@ -2,6 +2,7 @@
 title: Enable SMS delivery with the email client
 description: Give users the option to send an email client message as an SMS text message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_EnableTheSMSDeliveryOption.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,14 +33,14 @@ Role required: admin
 
 In the email client, user can select to send the message as an SMS text message.
 
-![Email client SMS delivery](../image/sms-delivery.png "Email client SMS delivery")
+\[Omitted image "sms-delivery.png"\] Alt text: Email client SMS delivery
 
 If the recipient doesn't have a registered SMS device, the email client sends the message to the primary email device.
 
-**Parent Topic:**[Configure email client](../concept/configuring-email-client.md)
+**Parent Topic:**[Configure email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-email-client.md)
 
 **Related topics**  
 
 
-[Add a system property](../../reference-pages/reference/r_AvailableSystemProperties.md#)
+[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 

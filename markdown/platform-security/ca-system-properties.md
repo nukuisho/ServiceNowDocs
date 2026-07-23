@@ -2,6 +2,7 @@
 title: System properties
 description: Use system properties to enable and customize continuous authentication \(CA\) to meet your zero trust access security requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ca-system-properties.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Use system properties to enable and customize continuous authentication \(CA\) t
 
 To access the properties page, navigate to **All** &gt; **Continuous Authentication**, select **Properties** tab.
 
-![CA System Properties](../images/ca-system-properties.png)
+\[Omitted image "ca-system-properties.png"\] Alt text: CA System Properties
 
 Following are the different system properties for CA:
 
@@ -114,11 +115,11 @@ Specify the no of days after which the CA policies are deleted.
 **Related topics**  
 
 
-[Exploring Continuous Authentication](explore-continuous-auth.md)
+[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-continuous-auth.md)
 
-[Policies](ca-policies.md)
+[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-policies.md)
 
-[Metrics](ca-metrics.md)
+[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-metrics.md)
 
-[Pre-work for Continuous Authentication](pre-work-ca.md)
+[Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/pre-work-ca.md)
 

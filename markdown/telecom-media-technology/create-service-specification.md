@@ -2,11 +2,12 @@
 title: Create and publish service specifications
 description: Create and publish a base version of a service specification. A service specification defines all the service options that apply to a customer-facing product you sell, and designates how to fulfill these options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-service-specification.html
 release: australia
 topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 5
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create and publish service specifications
@@ -16,7 +17,7 @@ Create and publish a base version of a service specification. A service specific
 ## Before you begin
 
 -   Create the characteristics and characteristic options for your product offerings
--   [Create and associate specification categories with model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-associate-specification-categories.md)
+-   
 
 Role required: sn\_prd\_pm.product\_catalog\_manager
 
@@ -294,7 +295,7 @@ Specification Relationships
 
 </td><td>
 
-[Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](create-specification-relationships-somt.md).
+[Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-specification-relationships-somt.md).
 
 </td></tr><tr><td>
 
@@ -302,20 +303,20 @@ Versions
 
 </td><td>
 
-[Create another version of the specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-publishing-new-versions-specifications.md).
+Create another version of the specification.
 
 </td></tr></tbody>
 </table>5.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d21589e586">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d22101e585">
 
 Action
 
-</th><th align="left" id="d21589e589">
+</th><th align="left" id="d22101e588">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d21589e595">
+</th></tr></thead><tbody><tr><td id="d22101e594">
 
 **Publish**
 
@@ -325,7 +326,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d21589e613">
+</td></tr><tr><td id="d22101e612">
 
 **Update**
 
@@ -333,7 +334,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d21589e622">
+</td></tr><tr><td id="d22101e621">
 
 **Copy**
 

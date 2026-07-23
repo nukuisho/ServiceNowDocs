@@ -2,6 +2,7 @@
 title: Cancel a resource plan
 description: If a resource plan is no longer needed, you can cancel it which also cancels its past and future allocations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_CancelAResourcePlan.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -23,7 +24,7 @@ Role required: resource\_user, resource\_manager
 
 ## About this task
 
-Project and demand managers can also [cancel resource plans from a project, project task, planning console, or demand](cancel-resource-plan-from-project-or-demand.md).
+Project and demand managers can also [cancel resource plans from a project, project task, planning console, or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.md).
 
 ## Procedure
 
@@ -45,45 +46,45 @@ If you want to make changes and use the plan again, edit a canceled plan. To mov
 
 **Note:** The state of a resource plan can be changed back from Cancelled to Planning, only if it has no past allocations.
 
--   **[Cancel a resource plan from a project, planning console, or demand record](cancel-resource-plan-from-project-or-demand.md)**  
+-   **[Cancel a resource plan from a project or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/cancel-resource-plan-from-project-or-demand.md)**  
 If a project or a project task is marked Closed, the project manager can cancel the associated future resource plans. Similarly, the demand manager can cancel the future resource plans for a Closed or Deferred demand.
 
-**Parent Topic:**[Resource plans](../concept/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
 
-[Create a resource plan](t_CreateResourcePlanProjectTask.md)
+[Create a resource plan]()
 
-[Use Resource Finder to analyze resource availability](create-resource-plan-with-finder.md)
+[Use Resource Finder to analyze resource availability]()
 
-[Create an operational resource plan](create-operational-plan.md)
+[Create an operational resource plan]()
 
-[Request resources](t_RequestResourcePlanApproval.md)
+[Request resources]()
 
-[Confirm a resource plan](confirm-resource-plan.md)
+[Confirm a resource plan]()
 
-[Confirm and allocate a resource plan](confirm-allocate-resource-plan.md)
+[Confirm and allocate a resource plan]()
 
-[Request a change to a resource plan](t_RequestAChangeToAResourcePlan.md)
+[Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand](recalculate-resource-costs.md)
+[Recalculate costs of a resource plan]()
 
-[Update cost plan related to a resource plan](t_UpdateRelatedCostPlan.md)
+[Update cost plan related to a resource plan]()
 
-[Complete a resource plan](t_CloseAResourcePlan.md)
+[Complete an allocated resource plan]()
 
-[Delete a resource plan](t_DeleteAResourcePlan.md)
+[Delete a resource plan]()
 
-[Extend a resource plan](extend-resource-plan.md)
+[Extend a resource plan]()
 
-[Request extension of an allocated resource plan](request-extension-allocated-resource-plan.md)
+[Request extension of an allocated resource plan]()
 
-[Allocate resources for the extended period](allocate-resources-for-extended-period.md)
+[Allocate resources for the extended period]()
 
-[Reduce the duration of a resource plan](reduce-resource-plan.md)
+[Reduce the duration of a resource plan]()
 
-[Time zones in resource plans](../concept/c_TimeZonesInResourcePlans.md)
+[Time zones in resource plans]()
 
-[Associate a time card with a resource plan](t_AssocATimeCardWithAResourcePlan.md)
+[Associate a time card with a resource plan]()
 

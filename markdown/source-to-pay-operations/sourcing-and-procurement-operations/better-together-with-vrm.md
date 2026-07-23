@@ -2,6 +2,7 @@
 title: Sourcing and Procurement Operations integration with Third-party Risk Management
 description: Leverage relevant supplier risk assessment capabilities by integrating Sourcing and Procurement Operations with Third-party Risk Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/better-together-with-vrm.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -46,7 +47,7 @@ When you create a new supplier record in the Supplier table, a new vendor record
 
 Tiering and risk assessments on a vendor can be created on the vendor record in the Third-party Risk Management application. These assessments are made visible in the Supplier table as related lists, to validate any supplier in Sourcing and Procurement Operations. A procurement specialist, containing the Vendor Assessment Reviewer role can read any vendor risk assessment data.
 
-For information, see [Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/third-party-risk-mgt-landing-page.md).
+For information, see [Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-mgt-landing-page.md).
 
 ## Valid supplier risk assessment
 
@@ -68,7 +69,7 @@ The existing Conduct a Supplier Risk Assessment case is enhanced such that:
 -   The GRC group contains the Purchasing Task Owner role, with visibility and access to the case.
 -   The case has a related list of the risk assessments, both valid and expired, for better visibility.
 
-## Creating a new Conduct a Supplier Tiering Assessment case
+## Creating a Conduct a Supplier Tiering Assessment case
 
 A new Conduct a Supplier Tiering Assessment case can be created in either of these methods, and assigned to the manager of the GRC group:
 
@@ -84,30 +85,30 @@ If the sourcing request gets converted to a purchase request, the case is availa
 
 **Note:** All tiering assessments for a supplier are displayed in related lists.
 
-For more information on sourcing requests, purchasing tasks, and procurement cases, see [Sourcing request](../reference/sourcing-request.md) and [Purchasing tasks and procurement cases](../reference/purchasing-tasks.md).
+For more information on sourcing requests, purchasing tasks, and procurement cases, see [Sourcing request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-request.md) and [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management](spo-itam-better-together.md)
+[Sourcing and Procurement Operations integration with Asset Management]()
 
-[Sourcing and Procurement Operations integration with Employee Center](employee-center-integration-psm.md)
+[Sourcing and Procurement Operations integration with Employee Center]()
 
-[Sourcing and Procurement Operations integration with third-party sourcing solutions](psm-integration-third-party-sourcing.md)
+[Sourcing and Procurement Operations integration with third-party sourcing solutions]()
 
-[Sourcing and Procurement Operations integration with Project Management](integration-psm-ppm.md)
+[Sourcing and Procurement Operations integration with Project Management]()
 
-[Sourcing and Procurement Operations integration with Celonis](integration-psm-celonis.md)
+[Sourcing and Procurement Operations integration with Celonis]()
 
-[Sourcing and Procurement Operations integration with Field Service Management](integration-psm-fsm.md)
+[Sourcing and Procurement Operations integration with Field Service Management]()
 
-[Source-to-Pay Operations integration with Contract Management Pro](integration-spo-cmpro.md)
+[Source-to-Pay Operations integration with Contract Management Pro]()
 
-[ERP source validation on Sourcing and Procurement Operations objects](../reference/erp-source-val-spo-objects.md)
+[ERP source validation on Sourcing and Procurement Operations objects]()
 
-[SpendInt APIs](spendint-api.md)
+[SpendInt APIs]()
 
-[Procurement File Transfer Framework](procurement-file-transfer-framework.md)
+[Procurement File Transfer Framework]()
 

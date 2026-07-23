@@ -2,6 +2,7 @@
 title: Add a Health and Safety visitor
 description: Create a record for a Health and Safety visitor so that they can be easily referenced in the Visitor field on related records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/hs-add-health-safety-visitor.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -27,7 +28,7 @@ A visitor is a person from outside the organization who came to visit the site.
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the configuration icon \(![Configuration icon](../../hs-risk-management/image/icon-config.png)\).
+2.  Select the configuration icon \(\[Omitted image "icon-config.png"\] Alt text: Configuration icon\).
 
 3.  In the **Configuration** tab, select **Health and safety visitors** and then **All**.
 
@@ -51,7 +52,7 @@ A visitor is a person from outside the organization who came to visit the site.
 
 7.  Assign the Health and Safety user profile to the visitor record.
 
-    For more information, see [Assign Health and Safety profile to a user](assign-hs-profile-user.md).
+    For more information, see [Assign Health and Safety profile to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/assign-hs-profile-user.md).
 
     **Note:** Only a visitor with the assigned Health and Safety profile is available to select in the **Visitor** field on a form.
 
@@ -65,24 +66,24 @@ A visitor is a person from outside the organization who came to visit the site.
 -   The visitor's Health and Safety user profile is saved in the Health and Safety profile \[sn\_ohs\_im\_health\_and\_safety\_profile\] table.
 -   The visitor is available to be referenced in the **Visitor** field on Health and Safety records such as safety incidents that the visitor is involved in.
 
-**Parent Topic:**[Setting up Health and Safety Core](../../hs-core/concept/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 
 
-[Install Health and Safety Core](../../hs-core/task/install-hs-core.md)
+[Install Health and Safety Core]()
 
-[Workplace location data](configure-hs-workplace-location-data.md)
+[Workplace location data]()
 
-[Enable a Health and Safety table for configuring report field mapping](enable-hs-table-report-field-mapping.md)
+[Enable a Health and Safety table for configuring report field mapping]()
 
-[Create a safety report field mapping for generating reports](create-safety-report-field-mapping.md)
+[Create a safety report field mapping for generating reports]()
 
-[Configure groups for Health and Safety](configure-groups-health-and-safety.md)
+[Configure groups for Health and Safety]()
 
-[Configure scheduled job to generate frequency rates](configure-job-generate-frequency-rates.md)
+[Configure scheduled job to generate frequency rates]()
 
-[Assign Health and Safety profile to a user](assign-hs-profile-user.md)
+[Assign Health and Safety profile to a user]()
 
-[Migrate existing safety documents to the Document library](../../hs-core/task/hs-migrate-sync-existing-safety-document-docs-library.md)
+[Migrate existing safety documents to the Document library]()
 

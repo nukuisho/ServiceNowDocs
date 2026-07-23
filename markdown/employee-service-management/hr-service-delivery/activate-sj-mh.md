@@ -2,6 +2,7 @@
 title: Activate a scheduled job
 description: Activate and run the Add Manager Hub user role scheduled job to assign the Manager Hub user role to new people managers. When the scheduled job runs, it considers delta changes and assigns the Manager Hub user role to new managers only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/activate-sj-mh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Activate and run the Add Manager Hub user role scheduled job to assign the Manag
 
 ## Before you begin
 
--   Role required: admin
+-   Role required: sn\_mh.admin
 -   An administrator must review the criteria before assigning the Manager Hub user role to managers. Default criteria: The manager field of sys\_user table is considered for assigning the Manager Hub user role.
 
 ## Procedure
@@ -33,28 +34,28 @@ Activate and run the Add Manager Hub user role scheduled job to assign the Manag
 5.  Click **Update**.
 
 
-**Parent Topic:**[Configure Manager Hub](../task/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 
 
-[RCA approvals for Manager Hub](../task/run-rca-mh.md)
+[RCA approvals for Manager Hub]()
 
-[Configure important dates](../task/configure-imp-dates.md)
+[Configure important dates]()
 
-[Configure team requests](../task/configure-team-requests.md)
+[Configure team requests]()
 
-[Configure team data](../task/configure-team-data.md)
+[Configure team data]()
 
-[Configure team column data](../task/configure-team-columndata.md)
+[Configure team column data]()
 
-[Configure team filters](../task/configure-team-filter.md)
+[Configure team filters]()
 
-[Set up View as Direct Reports](../../employee-center/task/view-direct-reportee.md)
+[Set up View as Direct Reports]()
 
-[Configure daily stats](../task/configure-daily-stats.md)
+[Configure daily stats]()
 
-[Configure to do mappings](../task/use-to-do-map.md)
+[Configure to do mappings]()
 
-[Configure widgets](../task/configure-team-insights.md)
+[Configure widgets]()
 

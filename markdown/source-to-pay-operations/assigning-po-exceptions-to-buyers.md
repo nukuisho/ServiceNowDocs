@@ -2,6 +2,7 @@
 title: Assigning purchase order exceptions to buyers
 description: Use queues in Advanced Work Assignment to assign purchase order exceptions to the appropriate buyer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/assigning-po-exceptions-to-buyers.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,23 +15,25 @@ breadcrumb: [Configure, Purchase Order Management, Source-to-Pay Operations, Fin
 
 Use queues in Advanced Work Assignment to assign purchase order exceptions to the appropriate buyer.
 
-You can leverage the following default queues:
+You can use the following default queues:
 
 -   **Critical priority purchase order exceptions**
 -   **Moderate priority purchase order exceptions**
 
 These queues are preconfigured to assign purchase order exceptions depending on their level of criticality.
 
-Modify these existing queues or create a queue by selecting the purchase order exceptions channel. For information on configuring a queue, see [Configure the Sourcing and Procurement Operations queues](../../sourcing-procurement-operations/task/configure-awa-spo-queues.md).
+Modify these existing queues or create a queue by selecting the purchase order exceptions channel. For information on configuring a queue, see [Configure the Sourcing and Procurement Operations queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-awa-spo-queues.md).
 
-**Parent Topic:**[Configure Purchase Order Management](configure-purch-order-mgmt.md)
+**Parent Topic:**[Configure Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/configure-purch-order-mgmt.md)
 
 **Related topics**  
 
 
-[Install Purchase Order Management](../task/install-purch-order-mgmt.md)
+[Install Purchase Order Management]()
 
-[Assigning priority to a purchase order](assigning-priority-to-po.md)
+[Assigning priority to a purchase order]()
 
-[Domain separation and Purchase Order Management](domain-separation-pom.md)
+[Domain separation and Purchase Order Management]()
+
+[Configure the Sourcing and Procurement Operations queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-awa-spo-queues.md)
 

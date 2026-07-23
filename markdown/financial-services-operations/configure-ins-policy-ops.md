@@ -2,6 +2,7 @@
 title: Configure Personal Lines Servicing
 description: Review the components that are installed with the Personal Lines Servicing application and modify as needed for your organization's business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-ins-policy-ops.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Review the components that are installed with the Personal Lines Servicing appli
 
 ## Before you begin
 
-Make sure that the Personal Lines Servicing application is installed. For more information, see [Install Personal Lines Servicing](install-ins-policy-ops.md).
+Make sure that the Personal Lines Servicing application is installed. For more information, see [Install Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/install-ins-policy-ops.md).
 
 Role required: sn\_ins\_policy\_b2c.admin or admin
 
@@ -23,101 +24,101 @@ Role required: sn\_ins\_policy\_b2c.admin or admin
 
 1.  Import your financial accounts, financial products, financial institutions, and transactions data into ServiceNow tables.
 
-    For more information, see [Import your financial data using import sets](../../fso-common/task/import-financial-accounts-products-institutions.md).
+    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/import-financial-accounts-products-institutions.md).
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d131012e123">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d136033e123">
 
 Task
 
-</th><th align="left" id="d131012e126">
+</th><th align="left" id="d136033e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d131012e135">
+</th></tr></thead><tbody><tr><td id="d136033e135">
 
 **Configure service definitions**
 
 </td><td>
 
-[Configure service definitions](../../fso-common/task/configure-service-definitions.md) to enable unique flows and views for policy service case and task. You should configure service definitions for:-   Personal Lines Servicing
+[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-service-definitions.md) to enable unique flows and views for policy service case and task. You should configure service definitions for:-   Personal Lines Servicing
 -   Insurance Underwriting Operations
 
 
-</td></tr><tr><td id="d131012e168">
+</td></tr><tr><td id="d136033e168">
 
 **Configure record producers**
 
 </td><td>
 
-[Create or modify record producers](../../fso-common/task/create-modify-record-producers-fso-apps.md) to define request forms.
+[Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/create-modify-record-producers-fso-apps.md) to define request forms.
 
-</td></tr><tr><td id="d131012e188">
+</td></tr><tr><td id="d136033e188">
 
 **Create flows**
 
 </td><td>
 
-[Create flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
+[Create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d131012e210">
+</td></tr><tr><td id="d136033e210">
 
 **Configure playbooks**
 
 </td><td>
 
-[Edit or create a new playbook](../../fso-common/task/configure-playbooks-fso-apps.md) using Playbooks.
+[Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d131012e232">
+</td></tr><tr><td id="d136033e232">
 
 **Configure CSM Configurable Workspace**
 
 </td><td>
 
-[Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
+[Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
 
-</td></tr><tr><td id="d131012e259">
+</td></tr><tr><td id="d136033e259">
 
 **Modify interceptors and workspace record type selectors**
 
 </td><td>
 
-[Modify interceptors and workspace record type selectors](../../fso-common/concept/configure-request-types-fso.md) to configure policy request types.
+[Modify interceptors and workspace record type selectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-request-types-fso.md) to configure policy request types.
 
-</td></tr><tr><td id="d131012e278">
+</td></tr><tr><td id="d136033e278">
 
 **Configure user groups**
 
 </td><td>
 
-[Configure user groups](../../fso-common/task/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
+[Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d131012e297">
+</td></tr><tr><td id="d136033e297">
 
 **Configure assignment rules**
 
 </td><td>
 
-[Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
+[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d131012e314">
+</td></tr><tr><td id="d136033e314">
 
 **Configure Service Level Agreements \(SLAs\)**
 
 </td><td>
 
-[Configure the installed SLAs](../../fso-common/task/configure-sla-definitions-fso-cases.md) to configure SLA timings for policy service cases and tasks.
+[Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for policy service cases and tasks.
 
-</td></tr><tr><td id="d131012e333">
+</td></tr><tr><td id="d136033e333">
 
 **Configure Document Processor**
 
 </td><td>
 
-[Configure Document Processor](../../fso-common/concept/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.
+[Configure Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Personal Lines Servicing](../concept/fso-ins-personal-policy-ops-landing-page.md)
+**Parent Topic:**[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)
 

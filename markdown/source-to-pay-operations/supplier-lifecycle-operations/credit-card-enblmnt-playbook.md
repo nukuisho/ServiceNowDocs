@@ -2,6 +2,7 @@
 title: Supplier credit card enablement playbook
 description: Source-to-Pay Workspace includes a playbook to complete the supplier cases for initiating credit card acceptance requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/credit-card-enblmnt-playbook.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,7 +16,7 @@ breadcrumb: [Using Supplier Payment Optimization, Use, Supplier Lifecycle Operat
 
 Source-to-Pay Workspace includes a playbook to complete the supplier cases for initiating credit card acceptance requests.
 
-The Supplier credit card enablement playbook provides step-by-step guidance for completing the request. The playbook includes a customized supplier case flow including reviewing the case by checking the propensity score, creating the credit card acceptance task for the supplier contact, and notifying the supplier through email. Once the supplier contact accepts the credit card as the payment method, the case can be closed. For more information, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+The Supplier credit card enablement playbook provides step-by-step guidance for completing the request. The playbook includes a customized supplier case flow including reviewing the case by checking the propensity score, creating the credit card acceptance task for the supplier contact, and notifying the supplier through email. Once the supplier contact accepts the credit card as the payment method, the case can be closed. For more information, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
 
 ## Supplier credit card enablement playbook stages and activities
 
@@ -51,7 +52,7 @@ As a supplier manager or fulfiller, you can assign the case to a different perso
     -   Select **Save** to save your changes.
     -   Select **Start work** to start working on the case.
 
- ![Supplier credit card enablement playbook assign and review step.](../image/credit-card-playbook1.png)
+ \[Omitted image "credit-card-playbook1.png"\] Alt text: Supplier credit card enablement playbook assign and review step.
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ Review supplier propensity score
 
 </td><td>
 
-As a supplier manager or fulfiller, you can approve or cancel the case after reviewing the propensity score available for this supplier.![Supplier credit card enablement playbook review propensity score step.](../image/credit-card-playbook2.png)
+As a supplier manager or fulfiller, you can approve or cancel the case after reviewing the propensity score available for this supplier.\[Omitted image "credit-card-playbook2.png"\] Alt text: Supplier credit card enablement playbook review propensity score step.
 
 </td></tr><tr><td rowspan="2">
 
@@ -71,7 +72,7 @@ Create credit card acceptance task
 
 </td><td>
 
-A draft email appears with pre-populated data in the **To** and **Subject** fields. The email body is pre-populated with the relevant text informing them about the benefits of accepting credit card payments. Ensure that the email template remains editable.![Supplier credit card enablement playbook review propensity score step.](../image/credit-card-playbook3.png)
+A draft email appears with pre-populated data in the **To** and **Subject** fields. The email body is pre-populated with the relevant text informing them about the benefits of accepting credit card payments. Ensure that the email template remains editable.\[Omitted image "credit-card-playbook3.png"\] Alt text: Supplier credit card enablement playbook review propensity score step.
 
 **Note:** Do not modify the task button, as any changes may cause the link to stop functioning.
 
@@ -93,7 +94,7 @@ Check the status
 
 </td><td>
 
-The supplier contact reviews and approves the credit card acceptance request from the Supplier Collaboration Portal after providing the terminal ID and uploading the bank account proof document.![Supplier accepts or rejects credit card request from Collaboration portal](../image/supplier-accept-cc.png)
+The supplier contact reviews and approves the credit card acceptance request from the Supplier Collaboration Portal after providing the terminal ID and uploading the bank account proof document.\[Omitted image "supplier-accept-cc.png"\] Alt text: Supplier accepts or rejects credit card request from Collaboration portal
 
 </td></tr><tr><td>
 
@@ -105,19 +106,19 @@ Close case
 
 </td><td>
 
-You can select **Mark complete** and **Complete case** to close the request. Updates the case to Closed Completed.![Supplier credit card enablement playbook review propensity score step.](../image/credit-card-playbook4.png)
+You can select **Mark complete** and **Complete case** to close the request. Updates the case to Closed Completed.\[Omitted image "credit-card-playbook4.png"\] Alt text: Supplier credit card enablement playbook review propensity score step.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Supplier Payment Optimization](using-supp-payment-opt.md)
+</table>**Parent Topic:**[Using Supplier Payment Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supp-payment-opt.md)
 
 **Related topics**  
 
 
-[Manage supplier cases from the Source-to-Pay Workspace](managing-cases.md)
+[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
 
-[Configure due dates for supplier cases](../task/configure-case-due-date.md)
+[Configure due dates for supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-case-due-date.md)
 
-[Playbook for updating the supplier primary data](primary-playbook-cases.md)
+[Playbook for updating the supplier primary data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/primary-playbook-cases.md)
 
-[Create a case on behalf of a supplier from the Source-to-Pay Workspace](../task/create-new-supplier-case.md)
+[Create a case on behalf of a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-supplier-case.md)
 

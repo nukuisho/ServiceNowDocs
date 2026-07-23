@@ -2,6 +2,7 @@
 title: MID Server privileged commands
 description: To discover certain information on a host server, the MID Server must run SSH commands with higher privileges. The platform provides default privileged commands for the MID Server to use and the ability to add additional commands to the system.Configure J2SSH and ServiceNow SSH to prevent long running commands using sudo from failing when the MID Server disconnects.Add a new privileged command to the Privileged Command \[privileged\_command\] table that is available to your MID Servers.You can configure the MID Server to use specific commands in a defined order.You can create a special configuration for the pbrun privileged command that allows it to run as a profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/c\_PrivilegedCommandsForMIDServer.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -24,7 +25,7 @@ To discover certain information on a host server, the MID Server must run SSH co
 
 **Important:** You can edit supported privileged commands, but do not delete them.
 
-For a list of possible SSH commands requiring root privileges, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+For a list of possible SSH commands requiring root privileges, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
 
 <table id="table_zgn_3wb_dt"><thead><tr><th>
 
@@ -76,38 +77,38 @@ dzdo
 -   Discovery does not support any other `dzdo –` options, but Discovery supports password authentication for dzdo.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MID Server reference](mid-server-reference-information.md)
+</table>**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
 
-[MID Server system requirements](../reference/r_MIDServerSystemRequirements.md)
+[MID Server system requirements]()
 
-[MID Server upgrades](c_UpgradeAndTestMIDServer.md)
+[MID Server upgrades]()
 
-[Resolving MID Server issues](../reference/r_MIDServerTroubleshooting.md)
+[Resolving MID Server issues]()
 
-[MID Server dashboard](c_MIDServerDashboard.md)
+[MID Server dashboard]()
 
-[MID Server properties](../reference/r_MIDServerProperties.md#)
+[MID Server properties]()
 
-[MID Server parameters](../reference/mid-server-parameters.md#)
+[MID Server parameters]()
 
-[MID Server Configuration Parameter settings and priority](../reference/mid-config-param-priority.md)
+[MID Server Configuration Parameter settings and priority]()
 
-[MID Server File Cleaner](mid_file_cleaner.md)
+[MID Server File Cleaner]()
 
-[MID Server protected records and reserved characters](../reference/mid-server-reserved-characters.md)
+[MID Server protected records and reserved characters]()
 
-[MIDSystem methods](../reference/r_MIDSystemMethods.md)
+[MIDSystem methods]()
 
-[Manually start, stop, and restart a MID Server](../task/t_InstallMIDServerAsWinService.md)
+[Manually start, stop, and restart a MID Server]()
 
-[MID Server heartbeat](../reference/r_MIDServerHeartbeat.md)
+[MID Server heartbeat]()
 
-[Set the MID Server JVM memory size](../task/t_MIDServerOptionalConfiguration.md)
+[Set the MID Server JVM memory size]()
 
-[Pause the MID Server](../task/t_PauseTheMIDServer.md#)
+[Pause the MID Server]()
 
 ## Long-running commands with sudo
 
@@ -177,7 +178,7 @@ Role required: admin
 
 3.  Click the menu icon in the header bar and select **View** &gt; **Advanced** from the context menu.
 
-    ![Selecting the Advanced view](../image/MIDServerAdvancedView.png "Selecting the Advanced view")
+    \[Omitted image "MIDServerAdvancedView.png"\] Alt text: Selecting the Advanced view
 
 4.  In the **Privileged Command** related list, click **Edit**.
 
@@ -185,7 +186,7 @@ Role required: admin
 
     The default order of privileged commands is 100, but you can change the order as necessary. The privileged command with the smallest order number is tried first.
 
-    ![List of privileged commands to use for a MID Server](../image/MIDSelectPrivilegedCommand.png "List of privileged commands to use for a MID Server")
+    \[Omitted image "MIDSelectPrivilegedCommand.png"\] Alt text: List of privileged commands to use for a MID Server
 
 
 ## Create a pbrun profile privileged command
@@ -217,5 +218,5 @@ Of all the privileged commands, only the **pbrun** command can be configured to 
 
 ### What to do next
 
-Return to [Configuring MID Servers](c_MIDServerConfiguration.md).
+Return to [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
 

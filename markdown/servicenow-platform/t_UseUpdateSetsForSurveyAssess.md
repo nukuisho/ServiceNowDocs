@@ -2,6 +2,7 @@
 title: Use update sets for surveys and assessments
 description: Use an update set to capture changes to surveys and assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_UseUpdateSetsForSurveyAssess.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin or survey\_admin
 
 1.  Create an update set and use it to make changes on a development instance.
 
-    **Note:** For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+    **Note:** For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
 
     When developing surveys and assessments, use an update set to capture the changes and move them from a development instance to a production instance. Once an update set is created and marked current, all of the updates to the following tables are recorded in the update set.
 
@@ -37,7 +38,7 @@ Role required: admin or survey\_admin
     -   Assessment Category Users \[asmt\_m2m\_category\_user\]: survey users
     -   Trigger Conditions \[asmt\_condition\]
 
-**Parent Topic:**[Sharing surveys](../concept/c_SurveyInportAndExport.md)
+**Parent Topic:**[Sharing surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyInportAndExport.md)
 
-**Parent Topic:**[Metric types and assessable records](../../assessments/concept/c_MetricTypesAndAssessableRecords.md)
+**Parent Topic:**[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MetricTypesAndAssessableRecords.md)
 

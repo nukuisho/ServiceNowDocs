@@ -2,6 +2,7 @@
 title: Override a dynamic choice
 description: Make a choice appear differently in a specific dynamic namespace by creating a dynamic choice override.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/override-dynamic-choice.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,5 +48,5 @@ The choice is overridden in the dynamic namespace that you selected in **Within 
 
 ## An override is defined for the LED choice. In the Smartphones category, the choice appears as microLED
 
-![A dynamic choice override is defined on the LED choice. When LED is used in the Smartphones dynamic category, it appears as microLED.](../image/dynamic-choice-override-example.png)
+\[Omitted image "dynamic-choice-override-example.png"\] Alt text: A dynamic choice override is defined on the LED choice. When LED is used in the Smartphones dynamic category, it appears as microLED.
 

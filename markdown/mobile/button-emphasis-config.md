@@ -2,6 +2,7 @@
 title: Configure button emphasis according to function location
 description: Configure button emphasis in different locations within your mobile app to help users identify the type of functions they can activate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/button-emphasis-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,11 +18,11 @@ Configure button emphasis in different locations within your mobile app to help 
 
 Role required: admin
 
-**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](../concept/explore-ne-theming.md).
+**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
 
 ## About this task
 
-Button emphasis configuration is performed in web-based UI. For more information, see [Associate a function with a location in the app](../reference/sg-studio-button-instances.md). Starting from San Diego additional colors are included in the release, and button emphasis is supported in additional locations. These colors are configured in the web-based UI for the listed screen locations.
+Button emphasis configuration is performed in web-based UI. For more information, see [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md). Starting from San Diego additional colors are included in the release, and button emphasis is supported in additional locations. These colors are configured in the web-based UI for the listed screen locations.
 
 ## Procedure
 
@@ -33,15 +34,15 @@ Button emphasis configuration is performed in web-based UI. For more information
 
 4.  Select a button emphasis for the chosen function location type.
 
-<table id="choicetable_gy3_yrp_3sb"><thead><tr><th align="left" id="d109181e119">
+<table id="choicetable_gy3_yrp_3sb"><thead><tr><th align="left" id="d110207e119">
 
 Function location
 
-</th><th align="left" id="d109181e122">
+</th><th align="left" id="d110207e122">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d109181e128">
+</th></tr></thead><tbody><tr><td id="d110207e128">
 
 **Swipe action**
 
@@ -56,7 +57,7 @@ Action
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d109181e178">
+</td></tr><tr><td id="d110207e178">
 
 **Top menu action or Quick action function**
 
@@ -71,7 +72,7 @@ Action
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d109181e227">
+</td></tr><tr><td id="d110207e227">
 
 **Footer function or Media section**
 
@@ -85,7 +86,7 @@ Action
 3.  Configure the other fields in the table as required.
 4.  Select **Submit**.
 
-![Button emphasis options for footer functions.](../image/button-emphasis-footer.png "Button emphasis options for footer functions")
+\[Omitted image "button-emphasis-footer.png"\] Alt text: Button emphasis options for footer functions.
 
 </td></tr></tbody>
 </table>

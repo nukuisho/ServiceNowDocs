@@ -2,11 +2,13 @@
 title: Now Assist for Order Management
 description: Use the ServiceNow Now Assist for Order Management application to improve agent and customer productivity and efficiency in their respective workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/now-assist-order-management.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+breadcrumb: [Sales Customer Relationship Management]
 ---
 
 # Now Assist for Order Management
@@ -19,24 +21,24 @@ Select a tile to learn how you can use AI capabilities in order management and s
 
 <table id="table_stf_ydj_fhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for Order Management](explore-now-assist-for-order-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-now-assist-for-order-management.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for Order Management application to get started](now-assist-for-order-management-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Order Management application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-for-order-management-configuring.md)
 
 </td><td>
 
-[Use Now Assist for Order Management generative AI![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use generative AI capabilities offered by Now Assist for Order Management](now-assist-order-management-using.md)
+[Use Now Assist for Order Management generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-management-using.md)
 
 </td></tr></tbody>
 </table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 **Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
@@ -56,11 +58,4 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
-
--   **[Exploring Now Assist for Order Management](explore-now-assist-for-order-management.md)**  
-With the Now Assist for Order Management application, you can use generative AI to summarize complex orders involving multiple products, services, and fulfillment tasks for faster, more accurate decision-making and improved customer responsiveness.
--   **[Configuring Now Assist for Order Management](now-assist-for-order-management-configuring.md)**  
-If you have the admin role, you can configure the Now Assist for Order Management application so that your agents can use the generative AI skills in the CSM/FSM Configurable Workspace and Business Portal.
--   **[Using Now Assist for Order Management](now-assist-order-management-using.md)**  
-Use agents in an agentic workflow or as standalone agents to achieve specific automated outcomes.
 

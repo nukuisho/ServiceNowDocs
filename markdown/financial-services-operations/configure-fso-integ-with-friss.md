@@ -2,6 +2,7 @@
 title: Configure Financial Services Operations Integration with FRISS
 description: Select and configure the Financial Services Operations Integration with FRISS subflows to obtain the fraud score for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-fso-integ-with-friss.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,15 +32,15 @@ In this procedure, you can select either the **Look up Claim Fraud Score via Spo
 
 3.  Depending on which subflow option you select, complete the following actions.
 
-<table id="choicetable_ldc_fz3_zwb"><thead><tr><th align="left" id="d121403e108">
+<table id="choicetable_ldc_fz3_zwb"><thead><tr><th align="left" id="d126244e108">
 
 Option
 
-</th><th align="left" id="d121403e111">
+</th><th align="left" id="d126244e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121403e117">
+</th></tr></thead><tbody><tr><td id="d126244e117">
 
 **Look up Claim Fraud Score**
 
@@ -49,7 +50,7 @@ Description
 2.  From the list of saved subflows, look for the **Look up Claim Fraud Score** option and open it.
 
 
-</td></tr><tr><td id="d121403e144">
+</td></tr><tr><td id="d126244e144">
 
 **Look up Claim Fraud Score via Spoke selector**
 
@@ -75,5 +76,5 @@ Description
     The Execution Details open.
 
 
-**Parent Topic:**[Financial Services Operations Integration with FRISS](../concept/fso-integration-with-friss-overview.md)
+**Parent Topic:**[Financial Services Operations Integration with FRISS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-friss-overview.md)
 

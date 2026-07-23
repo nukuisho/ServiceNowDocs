@@ -2,6 +2,7 @@
 title: Activate Sales CRM for Telecommunications
 description: Activate the Sales CRM for Telecommunications plugin for Sales CRM for Telecommunications if you have the admin role. The application includes demo data and activate related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/activate-somt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-31"
@@ -27,7 +28,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you can't find the application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

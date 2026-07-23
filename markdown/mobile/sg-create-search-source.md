@@ -2,6 +2,7 @@
 title: Create a search source
 description: Create a search source to define what records can be found in your search bar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-create-search-source.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +37,7 @@ In these steps, you create the search source to define what search results your 
     |Table|The table for this search source.|
     |Conditions|Conditions under which a record from the selected table appears in search results. For example, if you select &lt;Active&gt;&lt;is&gt;&lt;true&gt;, only active records appear in your search results.|
 
-    A search source configured for the User \[sys\_user\] table.![Search source for the User, sys_user, table example.](../image/example-search-source.png)
+    A search source configured for the User \[sys\_user\] table.\[Omitted image "example-search-source.png"\] Alt text: Search source for the User, sys\_user, table example.
 
 4.  Select **Save**.
 
@@ -45,5 +46,5 @@ In these steps, you create the search source to define what search results your 
     Note that additional search sources can impact the performance of your searches.
 
 
-**Parent Topic:**[Configure search criteria](../concept/sg-create-custom-search.md)
+**Parent Topic:**[Configure search criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-create-custom-search.md)
 

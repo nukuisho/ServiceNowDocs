@@ -2,11 +2,12 @@
 title: ServiceNow MCP Registry
 description: Model Context Protocol \(MCP\) enables AI agents to connect to external systems and perform the required actions without any human intervention. ServiceNow MCP Registry is a private registry where large language models \(LLMs\), AI agents, and teams discover and connect to approved MCP servers, finding the best tool for every business problem, governed at every step. With these configurations, you can use any generative AI assistant to perform the required actions in ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/mcp-registry.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Connect, Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [Connect, Workflow Data Fabric]
 ---
 
 # ServiceNow MCP Registry
@@ -35,5 +36,5 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Application version
 
-This is the initial release of the ServiceNow MCP Registry application.
+ServiceNow MCP Registry v1.0.2 is the latest application version.
 

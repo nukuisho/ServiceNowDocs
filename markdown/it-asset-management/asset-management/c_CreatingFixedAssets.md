@@ -2,13 +2,14 @@
 title: Create fixed assets
 description: Fixed assets are containers that can hold multiple assets. Fixed assets are commonly tracked at the corporate level by a finance or accounting department, but may contain IT assets such as hardware and software.You can calculate depreciation for a fixed asset using a choice of depreciation schedules. Calculating depreciation for a fixed asset can help IT coordinate with the corporate fixed asset system to report correct valuation and book value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/c\_CreatingFixedAssets.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Create fixed assets
@@ -41,26 +42,24 @@ To sum the residual values of all assets in a fixed asset:
     The ServiceNow platform calculates the**Residual Value**, **Total cost,** and **Total depreciation** based on information in the **Financial** and **Depreciation** sections on the individual asset records.
 
 
-**Parent Topic:**[Using Asset Management](using-asset-management.md)
+**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 
 
-[Mobile app for Hardware Asset Management](../../../administer/mobile-my-asset/concept/mobile-my-asset.md)
+[Work with Asset and CI]()
 
-[Work with Asset and CI](../../hardware-asset-management/concept/work-with-asset-ci.md)
+[Manage various assets through asset classes]()
 
-[Manage various assets through asset classes](c_AssetClasses.md)
+[Consumables life cycle]()
 
-[Consumables life cycle](c_FollowLifeCycleConsumbl.md)
+[Stockrooms]()
 
-[Stockrooms](c_Stockrooms.md)
+[Manage pre-allocated assets]()
 
-[Manage pre-allocated assets](../../hardware-asset-management/concept/manage-preallocated-asset.md)
+[Manage transfer order]()
 
-[Manage transfer order](manage-transfer-orders.md)
-
-[Use Organization Management](../reference/org-mgmt.md#)
+[Use Organization Management]()
 
 ## Use depreciation with fixed assets
 

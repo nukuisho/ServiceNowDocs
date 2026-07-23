@@ -2,6 +2,7 @@
 title: Get Interface Summary function
 description: The Get Interface Summary function enables you to retrieve all the network interface records that are associated with the input. You can use this function to automatically get the details of the available interface, connected interface, and the physical connection of the equipment in the Telecommunications Network Inventory application when you use Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/get-interface-summary-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -155,7 +156,7 @@ Option to return the type of output when multiple records are found. You can sel
 Choice
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
+</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -175,34 +176,34 @@ If the input is passed as Equipment-1 as shown in the following example where Po
 -   Connected Interfaces - Port-2 and Port-3
 -   physical Connections - PC-1 and PC-2
 
-![Infographic displaying the connections from the Get Interface Summary action. For the text description, refer to the example description that follows.](../image/get-interface-summary-example.png)
+\[Omitted image "get-interface-summary-example.png"\] Alt text: Infographic displaying the connections from the Get Interface Summary action. For the text description, refer to the example description that follows.
 
 If you select **If multiple records are found action** as **Return only the first record**, it returns Port-1, Port-2, and PC-1, respectively.
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 
 
-[Allocate Free Number function](allocate-free-number-action.md)
+[Allocate Free Number function]()
 
-[Create CI From Template function](add-card-action.md)
+[Create CI From Template function]()
 
-[Cascade Update function](cascade-update-action.md)
+[Cascade Update function]()
 
-[Create and Assign Range/Single Number function](create-assign-range-single-number-function.md)
+[Create and Assign Range/Single Number function]()
 
-[Create Logical Interface function](create-logical-interface-action.md)
+[Create Logical Interface function]()
 
-[Create Logical Connection function](create-logical-connection-action.md)
+[Create Logical Connection function]()
 
-[Create Physical Connection function](create-physical-connection-action.md)
+[Create Physical Connection function]()
 
-[Create IP subnetwork function](create_ip_subnetwork.md)
+[Create IP subnetwork function]()
 
-[CIDR to IP range function](cidr_to_ip_range.md)
+[CIDR to IP range function]()
 
-[Lookup Next Hub function](lookup-next-hub-action.md)
+[Lookup Next Hub function]()
 
-[Path Search function](path-compute-action.md)
+[Path Search function]()
 

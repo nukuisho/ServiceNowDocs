@@ -2,6 +2,7 @@
 title: Excluded tables in Instance Data Replication
 description: You can't replicate certain tables in Instance Data Replication \(IDR\). Child tables of tables in the exclusion list are also excluded.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/IDR-excluded-tables.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -40,18 +41,18 @@ Tables to avoid replicating:
 
 If you determine the CMDB tables must be replicated, you must use conditions to constrain the count of replicated records and ensure all required columns are included in the replication set.
 
-**Parent Topic:**[Instance Data Replication reference](../concept/reference-instance-data-replication.md)
+**Parent Topic:**[Instance Data Replication reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/reference-instance-data-replication.md)
 
 **Related topics**  
 
 
-[Data privacy in Instance Data Replication](../concept/data-privacy-consumers-idr.md)
+[Data privacy in Instance Data Replication]()
 
-[Adapter descriptions for Instance Data Replication](adapter-descriptions.md)
+[Adapter descriptions for Instance Data Replication]()
 
-[Domain separation and IDR](instance-data-replication-domain-separation.md)
+[Domain separation and IDR]()
 
-[Instance Data Replication system properties](instance-data-replication-properties.md)
+[Instance Data Replication system properties]()
 
-[Instance Data Replication roles](instance-data-replication-roles.md#)
+[Instance Data Replication roles]()
 

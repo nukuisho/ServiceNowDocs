@@ -2,6 +2,7 @@
 title: Add an existing business application to a Technology Reference Model product
 description: You can add existing business application to Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-existing-ba-to-trm-product.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,11 +22,11 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon ![Technology portfolio icon](../../image/eaw-image/technology-portfolio-icon.png).
+2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon \[Omitted image "technology-portfolio-icon.png"\] Alt text: Technology portfolio icon.
 
-3.  In the **TRM catalog** tab, select **TRM product list** from the View list.![TRM view list drop-down list.](../../image/eaw-image/trm-product-view-dropdown.png)
+3.  In the **TRM catalog** tab, select **TRM product list** from the View list.\[Omitted image "trm-product-view-dropdown.png"\] Alt text: TRM view list drop-down list.
 
-4.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to the TRM product that you want to add existing business applications to.
+4.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to the TRM product that you want to add existing business applications to.
 
 5.  Select the TRM product.
 
@@ -42,16 +43,16 @@ Role required: sn\_apm.apm\_user
 
 The existing business application is added to the TRM product.
 
-**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](../../concept/eaw-concept/eaw-work-with-trm.md)
+**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
 
 **Related topics**  
 
 
-[Manage the Technology Reference Model in Enterprise Architecture Workspace](../../concept/eaw-concept/eaw-managing-the-technology-portfolio.md)
+[Manage the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 
-[Exploring business applications](../../concept/eaw-concept/eaw-manage-business-applications.md)
+[Exploring business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-applications.md)
 
-[Working with Technology Reference Model \(TRM\) in EA Workspace](../../concept/eaw-concept/eaw-work-with-trm.md)
+[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
 
-[Working with an application portfolio](../../concept/eaw-concept/eaw-work-with-application-portfolio.md)
+[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)
 

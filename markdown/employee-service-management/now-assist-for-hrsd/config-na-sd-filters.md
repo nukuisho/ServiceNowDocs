@@ -2,6 +2,7 @@
 title: Configure sensitivity detection
 description: Configure sensitivity detection in the Now Assist for HR Service Delivery \(HRSD\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -29,31 +30,31 @@ Configurations are available on the Now Assist Admin Panel settings as part of N
 
 ## Procedure
 
-1.  Navigate to the **Now Assist Admin Panel** and select the **Settings** tab. ![Access to Now Assist Admin Panel and Settings tab](../image/sd-na-admin-panel-settings.png)
+1.  Navigate to the **Now Assist Admin Panel** and select the **Settings** tab. \[Omitted image "sd-na-admin-panel-settings.png"\] Alt text: Access to Now Assist Admin Panel and Settings tab
 
-2.  Select **Now Assist Guardian** and select **Filters**.![Filters tab view that lists the existing filters](../image/sd-na-admin-panel-filters.png)
+2.  Select **Now Assist Guardian** and select **Filters**.\[Omitted image "sd-na-admin-panel-filters.png"\] Alt text: Filters tab view that lists the existing filters
 
-    Filter configurations include the ability to **Edit** or **Deactivate** a filter. Only **sn\_hr\_gen\_ai.admin** can **Edit** or **Deactivate**.![Shows the ability to Edit or Deactivate a filter from the list](../image/sd-na-admin-panel-editdeact.png)
+    Filter configurations include the ability to **Edit** or **Deactivate** a filter. Only **sn\_hr\_gen\_ai.admin** can **Edit** or **Deactivate**.\[Omitted image "sd-na-admin-panel-editdeact.png"\] Alt text: Shows the ability to Edit or Deactivate a filter from the list
 
-3.  Select **General Details** tab to configure the filter details.![Shows the ability to add filter type and description details](../image/sd-na-admin-panel-generaldetails.png)
+3.  Select **General Details** tab to configure the filter details.\[Omitted image "sd-na-admin-panel-generaldetails.png"\] Alt text: Shows the ability to add filter type and description details
 
-4.  Select **Sample phrases** tab to add phrases that apply to filters.![Shows the ability to add new and edit existing sample phrases](../image/sd-na-admin-panel-newphrase.png)
+4.  Select **Sample phrases** tab to add phrases that apply to filters.\[Omitted image "sd-na-admin-panel-newphrase.png"\] Alt text: Shows the ability to add new and edit existing sample phrases
 
     **Note:** The ability to edit and update existing filters is available. There is a maximum of 10 phrases that can be generated.
 
-5.  Select **Applicability** to choose what filters apply to active virtual agents.![Shows the ability to add virtual agents to sensitive phrases](../image/sd-na-admin-panel-applicability.png)
+5.  Select **Applicability** to choose what filters apply to active virtual agents.\[Omitted image "sd-na-admin-panel-applicability.png"\] Alt text: Shows the ability to add virtual agents to sensitive phrases
 
 
 ## Result
 
 When an employee enters one of the configured sensitive phrases, the virtual agent offers to either redirect the employee to a live agent, create a case, or if the virtual agent incorrectly identifies a sensitive topic, the employee can select to proceed with the interaction.
 
-**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md)
+**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
 [bundle-platai.now-assist-guardian]
 
-[Sensitivity detection filters mapping](../reference/reference-sd-info-values.md)
+[Sensitivity detection filters mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.md)
 

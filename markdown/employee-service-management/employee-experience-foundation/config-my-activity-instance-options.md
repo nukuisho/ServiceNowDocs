@@ -2,6 +2,7 @@
 title: Modify Active items widget display
 description: You can configure the instance options to control the appearance of the widget, such as the title, number of topics, display size, and border color.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-my-activity-instance-options.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,7 +32,7 @@ Role required: sp\_admin or admin
 
 2.  Press and hold the control key, right-click the widget, and then select **Instance Options**.
 
-    ![instance options](../images/my-active-instance-opts.png "My items instance options")
+    \[Omitted image "my-active-instance-opts.png"\] Alt text: instance options
 
 3.  Update the following options:
 
@@ -43,7 +44,7 @@ Role required: sp\_admin or admin
 
             **Note:** Ensure you mark the activity name such as **Tasks** as Primary = true and select **Single** from instance options.
 
-    ![My active items widget showing the summary view at the top and the list view at the bottom of the widget.](../images/my-active-items-widget.png "My active items widget items")
+    \[Omitted image "my-active-items-widget.png"\] Alt text: My active items widget showing the summary view at the top and the list view at the bottom of the widget.
 
 4.  Click **Save**.
 
@@ -57,5 +58,5 @@ Role required: sp\_admin or admin
 **Related topics**  
 
 
-[My active items widget configuration](../concept/my-activity-config.md)
+[My active items widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/my-activity-config.md)
 

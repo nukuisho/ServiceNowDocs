@@ -1,18 +1,20 @@
 ---
 title: Now Assist in Platform Analytics release notes
-description: Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through Generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
+description: Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 ---
 
 # Now Assist in Platform Analytics release notes
 
-Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through Generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
+Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
 
 ## Now Assist in Platform Analytics highlights for the Australia release
+
+The following highlights are specific to AI Data Explorer, which relies on Query Generation in the back end.
 
 -   AI-Generated Insights: Ask questions in natural language and see them turned into documented insights and visualizations. AI guides your analysis and suggests follow-up questions to deepen your exploration. Switch between two powerful modes, Standard analysis and Extended analysis, to uncover hidden insights.
 -   Integration with External Data: Extend supported data sources and enable seamless integration with external systems through Data Fabric tables to gain more complete insights across the company’s diverse data.
@@ -26,6 +28,19 @@ See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/Service
 
 ## Changed in this release
 
+-   **[Query indicator data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer-implementation-checklist.md)**
+
+    Get scores from automated indicators in your AI Data Explorer explorations. Only classic automated indicators, not Data snapshots, are supported.
+
+
+-   **[Explorations not available from visualization or list for unsupported scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-now-assist-explorer.md)**
+
+    You can't open AI Data Explorer from a data visualization or list that shows data from a protected scope that is not supported.
+
+-   **[Improvements to generated segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)**
+    -   The names of automatically generated segments now include both the module name and the name of the application it belongs to.
+    -   Improved logic to join conditions for segments generated from reports and report sources. More complex conditions such as global OR are now supported.
+
 -   **[Explore data from protected scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-aide-secure-scope-apps.md)**
 
     Provide access to protected application scopes to AI Data Explorer and Query Generation, and you can use data from those application tables in explorations. \(Query Generation bundle 5.2\)
@@ -37,6 +52,11 @@ See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/Service
     -   More segments are passed to the LLM to increase the chance of the correct segment getting selected. Twelve segments are passed instead of three.
     -   Segments longer than 2000 characters are dropped to prevent context window bloat.
     \(Query Generation bundle 5.2\)
+
+-   **[Query Generation support for Glide Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-unsupported-field-types.md)**
+
+    Query Generation now supports Glide List fields on tables.
+
 
 -   **[Customize semantic metadata in configuration tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-semantic-metadata.md)**
 
@@ -56,12 +76,17 @@ See [Now Assist in Platform Analytics](https://raw.githubusercontent.com/Service
 
     Manual segments are re-ranked to take priority over automatically generated segments.
 
-    Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments are not supported for indicator sources or modules on domain-separated instances.
+    Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments aren't supported for modules on domain-separated instances.
 
 
 ## Activation information
 
-Now Assist applications for Platform Analytics are either included by default or you can install them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Now Assist applications for Platform Analytics are either included by default or you can install them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+## Accessibility information
+
+-   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
+-   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
 
 ## Related ServiceNow applications and features
 
@@ -70,7 +95,7 @@ Now Assist applications for Platform Analytics are either included by default or
     Details of the data visualizations, filters, and dashboards that Now Assist for Platform Analytics skills generate.
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](../now-assist/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 
-**Parent Topic:**[Platform Analytics release notes](analytics-intel-report-rn-landing.md)
+**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
 

@@ -2,6 +2,7 @@
 title: Apply Upgrade Plan on your upgrade
 description: Apply the selected upgrade plan to your instance upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-apply-upgrade-plan.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -25,7 +26,7 @@ Role required: admin
 
     If the upgrade plan has been implemented on the ongoing upgrade, the Review upgrade plan link shows up on the Target version card.
 
-    See Upgrade Plan background operations section in [Upgrade Plan overview](../concept/uc-upgrade-plan.md) for more information.
+    See Upgrade Plan background operations section in [Upgrade Plan overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-upgrade-plan.md) for more information.
 
 2.  Check on the date and time of the implemented upgrade plan in the Upgrade duration card once the upgrade completes.
 
@@ -40,22 +41,22 @@ Role required: admin
 
 4.  Click **Review upgrade plan** on the Upgrade duration card if you want to check the summary of your upgrade plan history.
 
-    ![Upgrade Plan History screen.](../image/uc-upgrade-plan-history.png)
+    \[Omitted image "uc-upgrade-plan-history.png"\] Alt text: Upgrade Plan History screen.
 
 
--   **[Review skipped records with upgrade plan](uc-review-skipped-records-upgrade-plan.md)**  
+-   **[Review skipped records with upgrade plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-review-skipped-records-upgrade-plan.md)**  
 Review the skipped records after the completion of the upgrade.
 
-**Parent Topic:**[Preparing your upgrade plan](../concept/uc-prepare-up.md)
+**Parent Topic:**[Preparing your upgrade plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-prepare-up.md)
 
 **Related topics**  
 
 
-[Building your Upgrade Plan](uc-building-upgrade-plan.md)
+[Building your Upgrade Plan]()
 
-[Refreshing your Upgrade Plan](uc-refreshing-upgrade-plan.md)
+[Refreshing your Upgrade Plan]()
 
-[Installing your Upgrade Plan](uc-installing-upgrade-plan.md)
+[Installing your Upgrade Plan]()
 
-[Prepare to upgrade with Upgrade Plan](uc-prepare-upgrade-plan.md)
+[Prepare to upgrade with Upgrade Plan]()
 

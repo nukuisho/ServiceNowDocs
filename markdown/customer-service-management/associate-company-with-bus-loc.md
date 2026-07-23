@@ -2,6 +2,7 @@
 title: Adding and associating company records with a business location
 description: Create a company record and associate it to an internal or an external business location.Associate your company records with a business location to enhance service organization data model adoption across different industry verticals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-company-with-bus-loc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,8 +16,8 @@ Create a company record and associate it to an internal or an external business 
 
 |Task|Description|
 |----|-----------|
-|[Add a new company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddANewCompany.md)|Create a company record that represents vendors, manufacturers, or customers with whom you do business.|
-|[Associate company records with a business location](associate-company-with-bus-loc.md#)|Associate company records with a business location to indicate that a business location is a company.|
+|[Add a new company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddANewCompany.md)|Create a company record that represents vendors, manufacturers, or customers with whom you do business.|
+|[Associate company records with a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-company-with-bus-loc.md)|Associate company records with a business location to indicate that a business location is a company.|
 
 ## Associate company records with a business location
 
@@ -24,7 +25,7 @@ Associate your company records with a business location to enhance service organ
 
 ### Before you begin
 
-Add the **Company** field to an internal or an external business location form using the form layout. For more information, see [Add fields to a form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/add-form-fields.md).
+Add the **Company** field to an internal or an external business location form using the form layout. For more information, see [Add fields to a form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-form-fields.md).
 
 Role required: admin, user\_admin
 

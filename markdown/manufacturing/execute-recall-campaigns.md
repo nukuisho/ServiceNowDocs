@@ -2,6 +2,7 @@
 title: Create recall corrective actions using Now Assist for Manufacturing Commercial Operations \(MCO\)
 description: Create recall corrective actions AI agent extracts the information available in the repair documents. The AI agent identifies and collects all relevant data contained within the repair documents and generates the corrective action and the corresponding charges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/execute-recall-campaigns.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 2.  Create a recall campaign record.
 
-3.  Select the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png) to launch the Now Assist panel.
+3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to launch the Now Assist panel.
 
 4.  Submit a request to initiate a corrective action.
 
@@ -45,7 +46,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 **Related topics**  
 
 
-[Create a campaign](../../mftg-manufacturing/concept/mco-rc-my-campaigns.md)
+[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-rc-my-campaigns.md)
 
 [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md)
 

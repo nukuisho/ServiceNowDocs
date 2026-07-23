@@ -2,6 +2,7 @@
 title: Configuring Session Access role
 description: Configure Session Access to reduce user access in a session based on IP, location, Identity Provider attributes, and user attributes using adaptive authentication policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-session-access-role.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -101,8 +102,8 @@ Choose the roles from the Group List that you want to remove or limit to the use
 
     -   In **Remove Roles**, the users from the configured countries with the selected roles no longer have those roles for the session.
     -   In **Limit To Roles**, the users from the configured countries with the selected roles only have those roles for the session.
-    ![Configure Session Access Role](../images/configure-session-access-role.png)
+    \[Omitted image "configure-session-access-role.png"\] Alt text: Configure Session Access Role
 
-    To know more about how to remove or limit roles for a session explained with a sample use-case, see [Tutorial: Use Zero Trust Access](use-zero-trust-access.md).
+    To know more about how to remove or limit roles for a session explained with a sample use-case, see [Tutorial: Use Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-zero-trust-access.md).
 
 

@@ -2,6 +2,7 @@
 title: Get Sensor ID Flow Action
 description: The Get Sensor ID flow action gathers sensor identifiers to use in the flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/get-sensor-id-activity.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -45,7 +46,7 @@ The output variables contain data that can be used in subsequent activities.
 |Array Element type|API variables.|
 |sensor\_detail|Description of the Carbon Black sensor in JSON format.|
 
-**Parent Topic:**[Security Operations Carbon Black Integration - Get Running Processes Flow](../concept/secops-integration-cb-get-running-processes-workflow.md)
+**Parent Topic:**[Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-cb-get-running-processes-workflow.md)
 
-**Parent Topic:**[Security Operations Carbon Black Integration - Isolate Host Flow](../task/secops-integration-cb-isolate-host-workflow.md)
+**Parent Topic:**[Security Operations Carbon Black Integration - Isolate Host Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-cb-isolate-host-workflow.md)
 

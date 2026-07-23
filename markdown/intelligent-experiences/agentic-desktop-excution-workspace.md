@@ -2,6 +2,7 @@
 title: AI Desktop Actions Execution workspace
 description: Execution workspace enables you to test, run, and monitor your desktop actions. It enables you to observe how your automations interact with desktop applications, including handling situations where human input is needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/agentic-desktop-excution-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-17"
@@ -26,9 +27,9 @@ This session acts as a virtual environment where the automations run in isolatio
 
 To avoid conflicts, do not run the AI Desktop Actions Execution workspace and RPA Attended Desktop mode at the same time.
 
-![AI Desktop Actions Execution workspace displaying "Listening for instructions" message for desktop session activation.](../image/execution-workspace-ready-ad.png "Execution workspace before executing automation")
+\[Omitted image "execution-workspace-ready-ad.png"\] Alt text: AI Desktop Actions Execution workspace displaying "Listening for instructions" message for desktop session activation.
 
-![AI Desktop Actions showing the Shipping Management app with fields on a Windows 10 background.](../image/execution-workspace-ad.png "Execution workspace running the automation")
+\[Omitted image "execution-workspace-ad.png"\] Alt text: AI Desktop Actions showing the Shipping Management app with fields on a Windows 10 background.
 
 ## Execution workspace features
 
@@ -121,7 +122,7 @@ Automation execution is canceled. The user canceled the execution manually.
 </table>**Related topics**  
 
 
-[Example: Use AI agents to process badge-related requests automatically](../task/example-use-badging-ai-agent-ad.md)
+[Example: Use AI agents to process badge-related requests automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-badging-ai-agent-ad.md)
 
-[Example: Use AI agents to automatically enter data into the shipping management app](../task/example-use-shipping-ai-agent-ad.md)
+[Example: Use AI agents to automatically enter data into the shipping management app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-shipping-ai-agent-ad.md)
 

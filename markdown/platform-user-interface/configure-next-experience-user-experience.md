@@ -2,12 +2,13 @@
 title: Configure Next Experience user experience preferences
 description: Configure your user experience preferences for your Next Experience instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-next-experience-user-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [user experience, user experience preference, next experience user experience]
-breadcrumb: [Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience user experience preferences
@@ -24,7 +25,7 @@ Role required: none
 
 2.  Select the preference that you want.
 
-    **Note:** The preferences that are described in the following table might not be available to all users. The items that appear are determined by the user access and the customizations from your administrator.
+    **Note:** The preferences that are described in the following table might not be available to all users. Availability depends on the roles and permissions assigned to the user, as well as UI customizations configured by an administrator.
 
 <table id="table_qdf_52m_wbc"><thead><tr><th>
 
@@ -36,15 +37,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![Current start page.](../../../get-started/servicenow-overview/image/current-start-page.png)
+\[Omitted image "current-start-page.png"\] Alt text: Current start page.
 
 </td><td>
 
-Start page that appears when users log in to their Next Experience instances. For more information on start page options, see [Configure a user-selected start page](configure-user-selected-start-page-preference.md).
+Start page that appears when users log in to their Next Experience instances. For more information on start page options, see [Configure a user-selected start page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-selected-start-page-preference.md).
 
 </td></tr><tr><td>
 
-![Enable Analytics.](../image/enable-analytics.png)
+\[Omitted image "enable-analytics.png"\] Alt text: Enable Analytics.
 
 </td><td>
 
@@ -52,7 +53,7 @@ Option that lets you turn on or off usage analytics tracking on your Next Experi
 
 </td></tr><tr><td>
 
-![Turn off Next Experience.](../image/turn-off-next-experience.png)
+\[Omitted image "turn-off-next-experience.png"\] Alt text: Turn off Next Experience.
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Assign Security Incidents
 description: Assign security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/assign-security-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: sn\_si.basic
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
 
-2.  Click the list \(![list icon](../image/listview-icon.png)\) icon.
+2.  Click the list \(\[Omitted image "listview-icon.png"\] Alt text: list icon\) icon.
 
 3.  Click **Lists**.
 
@@ -39,27 +40,27 @@ Role required: sn\_si.basic
 
 8.  Click **Save**.
 
-    ![Security incident- Assign](../image/assign-security-incident.png "Assign one or more Security Incidents")
+    \[Omitted image "assign-security-incident.png"\] Alt text: Security incident- Assign
 
 
-**Parent Topic:**[List view in SIR Workspace](setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 
 
-[Personalize a list](personalize-a-list.md)
+[Personalize a list]()
 
-[Apply quick filters on Security Incidents and Response Tasks lists](use-quick-filters-for-security-incidents.md)
+[Apply quick filters on Security Incidents and Response Tasks lists]()
 
-[Close multiple security incidents](../task/close-multiple-incidents-sir.md)
+[Close multiple security incidents]()
 
-[Assign Response Tasks](../task/assign_response_tasks.md)
+[Assign Response Tasks]()
 
-[Report Phish Email](../task/report-phish-email.md)
+[Report Phish Email]()
 
-[Working with quick filters](configure-quick-filters.md)
+[Working with quick filters]()
 
-[Export Security Incidents or Response Tasks](export-security-incidents-or-response-tasks.md)
+[Export Security Incidents or Response Tasks]()
 
-[Manage Shift Handover records](manage-shift-handover-records.md)
+[Manage Shift Handover records]()
 

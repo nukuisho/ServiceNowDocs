@@ -2,6 +2,7 @@
 title: Create a question in the survey designer
 description: You can create multiple questions for each category in the survey designer, but each question can only be associated with one category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateQuestSurveyDesigr.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ The data type that you select for each question determines how it can be answere
 
 3.  On the Properties form, fill in the fields.
 
-    For a description of the field values, see [Properties form](../reference/properties-form-survey-designer.md).
+    For a description of the field values, see [Properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/properties-form-survey-designer.md).
 
 4.  To create any special conditions that must be met before the question appears on the survey, click the Dependency tab.
 
@@ -58,26 +59,26 @@ The data type that you select for each question determines how it can be answere
 10. To delete a question, click the **X** icon in its title bar.
 
 
-**Parent Topic:**[Survey designer](../concept/c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
 
 **Related topics**  
 
 
-[Survey designer elements](../concept/c_SurveyDesignerElements.md)
+[Survey designer elements]()
 
-[Configure a survey in the survey designer](t_ConfigSurveyInSurveyDesgnr.md)
+[Configure a survey in the survey designer]()
 
-[Survey categories](../concept/c_SurveyCategory.md)
+[Survey categories]()
 
-[Survey question data types](../reference/r_SurveyQuestionDataTypes.md)
+[Survey question data types]()
 
-[Create custom metric type](create-custom-templates-questions.md)
+[Create custom metric type]()
 
-[Edit a survey in the survey designer](t_EditASurveyInTheSurveyDesigner.md)
+[Edit a survey in the survey designer]()
 
-[Configure category weights for a survey](t_ConfigCatWeightsForSurvey.md)
+[Configure category weights for a survey]()
 
-[Survey question template](../concept/c_SurveyQuestionTemplate.md)
+[Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestionTemplate.md)
 
-[Create a survey designer template question](t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateASurveyDesignerTemplateQ.md)
 

@@ -2,6 +2,7 @@
 title: Configuring the form layout
 description: Administrators or users with the personalize\_form role can configure the form and related list layout.Configure form layout to change what appears on the form. You can perform tasks like changing what fields are visible, embedding lists, and adding sections and annotations.You can configure related lists to appear on forms and in hierarchical lists.Highlight form elements by displaying blocks of colored text or separators between form elements.Users can toggle annotations on a form in Core UI . The glide.ui.show\_annotations user preference controls the visibility of annotations for each user.Create sections on forms to help group related fields together.Change the place where fields split on a form by moving the split section indicators.Tabbed forms offer a useful way to make forms and related lists take up less space by reducing the scrolling that must be done to navigate the form.You can embed lists within a form. When a list is embedded in a form, any changes made to the contents of the list are saved when the form is saved.You can configure the indicator for customer updates, which are changes that update sets, scripts, service catalog items, and other configuration tables track.Add a chart to a form to show your users graphical data related to the form. For example, you could show an incident SLA-related chart on the Incident form so your users can see how well service level agreements are being met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-form-layout.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure
 
 Administrators or users with the personalize\_form role can configure the form and related list layout.
 
-**Important:** Try configuring your forms with Form Builder instead. Form Builder has all of the Form Designer and Form Layout options. It also has other robust features that help you configure each aspect of the form. For more information, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/access-form-builder.md).
+**Important:** Try configuring your forms with Form Builder instead. Form Builder has all of the Form Designer and Form Layout options. It also has other robust features that help you configure each aspect of the form. For more information, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-form-builder.md).
 
 ## Show or hide fields on a form
 
@@ -27,15 +28,15 @@ Role required: personalize\_form
 
 1.  Navigate to a form.
 
-2.  Select the form context menu icon \(![Context menu icon](../image/ContextMenu.png)\) and select **Configure** &gt; **Form Layout**.
+2.  Select the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: Context menu icon\) and select **Configure** &gt; **Form Layout**.
 
 3.  Move the fields that you want to be visible from the Available list to the Selected list, and reorder them as needed within the Selected list.
 
     Available items that appear in green followed by a plus \(+\) sign represent related tables. To access fields on these tables, use dot-walking.
 
-    ![Configure the form](../image/ConfigureFormScreen.png)
+    \[Omitted image "ConfigureFormScreen.png"\] Alt text: Configure the form
 
-    In Core UI, Form Layout is not responsible for the order of the Additional Comments and Work Notes fields. For more information on how to determine the order of these fields, see [Customize activities](c_ActivityFormatter.md#).
+    In Core UI, Form Layout is not responsible for the order of the Additional Comments and Work Notes fields. For more information on how to determine the order of these fields, see [Customize activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md).
 
 4.  Select **Save**.
 
@@ -44,7 +45,7 @@ Role required: personalize\_form
 
 ### What to do next
 
-Through form configuration, you can also add new fields to the form, which creates columns to the table that underlies the form. See [Add and customize a field in a table](../../field-administration/task/t_CreatingNewFields.md) for more information.
+Through form configuration, you can also add new fields to the form, which creates columns to the table that underlies the form. See [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md) for more information.
 
 ## Add a related list to a form
 
@@ -62,7 +63,7 @@ Related lists display records in another table that have a relationship with the
 
 1.  Navigate to a form.
 
-2.  Select the form context menu icon \(![Context menu icon](../../../use/using-lists/image/list-control-menu.png)\), and select **Configure** &gt; **Related Lists**.
+2.  Select the form context menu icon \(\[Omitted image "list-control-menu.png"\] Alt text: Context menu icon\), and select **Configure** &gt; **Related Lists**.
 
 3.  Move the related list you want to display from the Available list to the Related list.
 
@@ -83,7 +84,7 @@ Role required: personalize\_form
 
 1.  Navigate to a form.
 
-2.  Select the form context menu icon \(![Context menu icon](../../../use/using-lists/image/list-control-menu.png)\) and select **Configure** &gt; **Form Layout**.
+2.  Select the form context menu icon \(\[Omitted image "list-control-menu.png"\] Alt text: Context menu icon\) and select **Configure** &gt; **Form Layout**.
 
 3.  Under **Form view and section**, select a section.
 
@@ -91,7 +92,7 @@ Role required: personalize\_form
 
     The Annotation Details section displays.
 
-    ![Annotation details](../image/AnnotationDetails.png)
+    \[Omitted image "AnnotationDetails.png"\] Alt text: Annotation details
 
 5.  In the Selected list, move the **\* Annotation** item above the field you want to annotate.
 
@@ -99,7 +100,7 @@ Role required: personalize\_form
 
     The available types of annotations include **Info Box Blue**, **Info Box Red**, **Line Separator** \(any text you add appears beneath the line\), **Section Details**, **Section Separator**, and **Text**.
 
-    ![Form annotation types](../../workspace/image/form-annotations.png)
+    \[Omitted image "form-annotations.png"\] Alt text: Form annotation types
 
 7.  Select either **Plain Text** or **HTML** for the data type, and enter the annotation in the text box.
 
@@ -122,10 +123,15 @@ Role required: none
 
 1.  Navigate to a form.
 
-2.  Select the more options icon \(![More options icon](../image/IconUI16MoreOptions.png)\) to see the annotations icon.
+2.  Select the more options icon \(\[Omitted image "IconUI16MoreOptions.png"\] Alt text: More options icon\) to see the annotations icon.
 
     The icon is light gray and cannot be toggled when no annotations are available.
 
+
+**Related topics**  
+
+
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
 
 ## Create a form section
 
@@ -139,17 +145,17 @@ Role required: form\_admin
 
 Users can expand or collapse form sections to show or hide the fields they need. If you have tabs enabled, each form section appears on a separate tab. The default Change Request form is an example of a form with multiple sections as shown in the following image.
 
-![Change request form sections listed in tabs](../image/ChangeFormSections.png "Change Request form sections")
+\[Omitted image "ChangeFormSections.png"\] Alt text: Change request form sections listed in tabs
 
 ### Procedure
 
 1.  Navigate to a form.
 
-2.  Select the form context menu icon \(![Context menu icon](../image/ContextMenu.png)\) and select **Configure** &gt; **Form Layout**.
+2.  Select the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: Context menu icon\) and select **Configure** &gt; **Form Layout**.
 
 3.  In the **Form view and section** area \(below the Available list\), select **New...** from the **Section** list.
 
-    ![The Form view and section area with the New... option highlighted.](../image/new-form-section.png)
+    \[Omitted image "new-form-section.png"\] Alt text: The Form view and section area with the New... option highlighted.
 
 4.  In the **Section caption** field, enter a title for the new section, and then select **OK**.
 
@@ -170,6 +176,11 @@ Users can expand or collapse form sections to show or hide the fields they need.
     3.  Select the check box beside the form section to delete, and then select **Delete** from the **Actions on selected rows** menu.
     4.  Select **OK** to confirm the deletion.
 
+**Related topics**  
+
+
+[Configure items on forms or in lists using a slushbucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseSlushbuckets.md)
+
 ## Move form splits
 
 Change the place where fields split on a form by moving the split section indicators.
@@ -182,7 +193,7 @@ Role required: admin
 
 1.  Navigate to a form.
 
-2.  Select the form context menu icon \(![Form context menu icon](../../../use/using-lists/image/list-control-menu.png)\) and select **Configure** &gt; **Form Layout**.
+2.  Select the form context menu icon \(\[Omitted image "list-control-menu.png"\] Alt text: Form context menu icon\) and select **Configure** &gt; **Form Layout**.
 
 3.  Within the Selected list, move any of the following split section indicators using the up and down arrows:
 
@@ -202,7 +213,7 @@ Role required: personalize\_form
 
 ### About this task
 
-![Change request with tabbed forms](../image/TabbedForms.png "Tabbed forms")
+\[Omitted image "TabbedForms.png"\] Alt text: Change request with tabbed forms
 
 Form sections and related lists are tabbed separately, each with their own tab line. A user always sees the first form section. All sections after that can be tabbed.
 
@@ -210,12 +221,17 @@ Tabbed forms are enabled by default for new instances. A system user preference 
 
 ### Procedure
 
-1.  Select the **User Menu \(![User menu icon](../../../get-started/servicenow-overview/image/pol-user-menu.png)\)** &gt; **Preferences** &gt; **Display**
+1.  Select the **User Menu \(\[Omitted image "pol-user-menu.png"\] Alt text: User menu icon\)** &gt; **Preferences** &gt; **Display**
 
 2.  Adjust the **Organize form sections and related lists into tabs in classic forms** toggle switch to turn the preference on or off.
 
 3.  Close the dialog box.
 
+
+**Related topics**  
+
+
+[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
 
 ## Embed a list within a form
 
@@ -247,8 +263,13 @@ You can also modify embedded list controls, such as the name of the related list
 
     Lists adjust to fit the frames of the adjacent fields.
 
-    ![An embedded list of approvers on the Change Request form](../image/ListEmbeddedInAForm.png)
+    \[Omitted image "ListEmbeddedInAForm.png"\] Alt text: An embedded list of approvers on the Change Request form
 
+
+**Related topics**  
+
+
+[Configure list control settings for the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigListEditorControlSettings.md)
 
 ## Configure customer updates indicator
 
@@ -260,7 +281,7 @@ Role required: admin
 
 ### About this task
 
-The customer updates indicator icon \(![Customer updates indicator icon](../image/CustomerUpdateIndicator.png)\) may appear on the header of forms that have customer updates. Clicking the customer updates indicator opens the update set records for the item.
+The customer updates indicator icon \(\[Omitted image "CustomerUpdateIndicator.png"\] Alt text: Customer updates indicator icon\) may appear on the header of forms that have customer updates. Clicking the customer updates indicator opens the update set records for the item.
 
 You can configure this indicator to appear for all or for specific administrators using the **owned\_by\_indicator.form** user preference.
 
@@ -270,7 +291,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d334240e1177">
+<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d341836e1212">
 
 **Enable the indicator for all administrators**
 
@@ -278,7 +299,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 Set the **owned\_by\_indicator.form** preference to **true**.
 
-</td></tr><tr><td id="d334240e1192">
+</td></tr><tr><td id="d341836e1227">
 
 **Enable the indicator for an individual administrator**
 
@@ -311,7 +332,7 @@ Role required: personalize\_form
 
 2.  Select the form you want to configure.
 
-3.  Click the form context menu icon \(![Form context menu icon](../../../use/using-lists/image/list-control-menu.png)\) and select **Configure** &gt; **Form Layout**.
+3.  Click the form context menu icon \(\[Omitted image "list-control-menu.png"\] Alt text: Form context menu icon\) and select **Configure** &gt; **Form Layout**.
 
 4.  Using the slushbucket, select **\* Chart**.
 

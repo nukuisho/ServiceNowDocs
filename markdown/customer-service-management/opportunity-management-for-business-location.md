@@ -2,6 +2,7 @@
 title: Opportunity Management for business location
 description: Integrate Service Model Foundation with Opportunity Management for Business Locations to support channel sales.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/opportunity-management-for-business-location.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -46,7 +47,7 @@ The Opportunity Related Channel Partner \[sn\_bus\_org\_opptym\_related\_busines
 **Related topics**  
 
 
-[Roles and responsibilities](personas-roles-and-tables-post-integration-oppMgmt.md)
+[Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/personas-roles-and-tables-post-integration-oppMgmt.md)
 
-[Activate Opportunity Management for Business Locations](../task/activate-opportunity-management-for-business-locations.md)
+[Activate Opportunity Management for Business Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-opportunity-management-for-business-locations.md)
 

@@ -1,7 +1,8 @@
 ---
-title: Configure display of other work item types in EAP Backlog and Planning board
+title: Configure display of other work item types in EAP
 description: Enable viewing different work item types in the Backlog and Planning board pages for EAP teams such as Portfolio, Solution Train, Agile Release Train, or Agile Team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Configure display of other work item types in EAP Backlog and Planning board
+# Configure display of other work item types in EAP
 
 Enable viewing different work item types in the Backlog and Planning board pages for EAP teams such as Portfolio, Solution Train, Agile Release Train, or Agile Team.
 
@@ -33,17 +34,17 @@ This task provides guidance on updating the **Planning work types** or **Backlog
 
 2.  Select a configuration that you need to update the work item type selections for.
 
-    s![List of Enterprise agile configurations.](../images/eap-team-level-config-01.jpg)
+    s\[Omitted image "eap-team-level-config-01.jpg"\] Alt text: List of Enterprise agile configurations.
 
 3.  In the Enterprise agile configuration details related list, select the team level that you want to update.
 
-    ![Enterprise agile configuration form for Full Configuration highlighting the Enterprise agile configuration details related list.](../images/eap-team-level-config-02.jpg)
+    \[Omitted image "eap-team-level-config-02.jpg"\] Alt text: Enterprise agile configuration form for Full Configuration highlighting the Enterprise agile configuration details related list.
 
 4.  Update the work types in the following fields.
 
     -   **Backlog work types** to enable viewing multiple work item types in the Backlog page.
     -   **Planning work types** to enable viewing multiple work item types in the Planning board page.
-    ![Enterprise agile configuration detail form highlighting the Backlog work types and Planning work types fields.](../images/eap-team-level-config-03.jpg)
+    \[Omitted image "eap-team-level-config-03.jpg"\] Alt text: Enterprise agile configuration detail form highlighting the Backlog work types and Planning work types fields.
 
 5.  Select **Update** to save your changes to the form.
 
@@ -53,7 +54,7 @@ This task provides guidance on updating the **Planning work types** or **Backlog
 **Related topics**  
 
 
-[Manage team backlog in EAP](../concept/using-eap.md)
+[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 
-[Perform PI planning in EAP](../concept/pi-planning-eap.md)
+[Perform PI planning in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
 

@@ -2,6 +2,7 @@
 title: Create a quote from an opportunity line item
 description: Create a quote from the selected line items in an opportunity record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-create-quote-line-items.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **List** view ![](../../../reuse/icons/product-icons/list-outline-24.svg) and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with and select the **Line Items** tab.
 
@@ -30,7 +31,14 @@ Role required: sales\_agent
 
 ## What to do next
 
-To learn more about using the Quote Management workspace, see [Using Quote Management](quote-mgmt-using.md).
+To learn more about using the Quote Management workspace, see [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md).
 
-**Parent Topic:**[Create a quote from an opportunity](opportunity-management-create-quote.md)
+**Parent Topic:**[Create a quote from an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-quote.md)
+
+**Related topics**  
+
+
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

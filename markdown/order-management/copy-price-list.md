@@ -2,6 +2,7 @@
 title: Copy a price list
 description: Duplicate a published price list and its associated price list lines, attribute adjustments, and decision tables. You can copy a price list, update the pricing in the copied price list if needed, then publish it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/copy-price-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Price Lists**.
 

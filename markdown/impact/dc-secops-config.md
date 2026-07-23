@@ -2,11 +2,12 @@
 title: Configure Data Collection for SecOps
 description: Configure Data Collection for SecOps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-secops-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for SecOps, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for SecOps, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Configure Data Collection for SecOps
@@ -29,6 +30,8 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 2.  Enter the data point in the relevant month cell.
 
-    ![Example with Mar 2024 cell selected.](../image/dct_config_secops.png)
+    \[Omitted image "dct\_config\_secops.png"\] Alt text: Example with Mar 2024 cell selected.
 
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-secops.md)
 

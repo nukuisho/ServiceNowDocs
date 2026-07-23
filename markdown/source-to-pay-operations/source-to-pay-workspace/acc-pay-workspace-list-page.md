@@ -1,21 +1,23 @@
 ---
 title: APO list page
-description: As an agent, view and work with the primary data, all the invoice inquiry cases, including the cases that are assigned to you. As an Account Payable Specialist, you can view and work with the primary data, all the invoice processing cases, your assigned cases and tasks, invoices, and invoice exceptions.
+description: Use the Source-to-Pay Workspace list view to access invoice cases, primary data, tasks, exceptions, and invoices assigned to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-list-page.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice exception, invoice processing, invoice inquiry case]
 breadcrumb: [Source-to-Pay Workspace list page, Explore, Workspace, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # APO list page
 
-As an agent, view and work with the primary data, all the invoice inquiry cases, including the cases that are assigned to you. As an Account Payable Specialist, you can view and work with the primary data, all the invoice processing cases, your assigned cases and tasks, invoices, and invoice exceptions.
+Use the Source-to-Pay Workspace list view to access invoice cases, primary data, tasks, exceptions, and invoices assigned to you.
 
-Select the list icon \(\)![List icon in the Source-to-Pay Workspace](../image/case-list-icon.png) to open the List page in the Source-to-Pay Workspace.
+Select the list icon \(\)\[Omitted image "case-list-icon.png"\] Alt text: List icon in the Source-to-Pay Workspace to open the List page in the Source-to-Pay Workspace.
 
 You can select each module and sub-module to view the details in a list. Under **Lists**, you can do the following:
 
@@ -70,14 +72,14 @@ As an agent, you have access to the following modules and sub-modules:
     -   Invoices
     -   Payment terms
 
-**Parent Topic:**[Source-to-Pay Workspace list page](../../source-to-pay-operations/concept/source-to-pay-list-page.md)
+**Parent Topic:**[Source-to-Pay Workspace list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-list-page.md)
 
 **Related topics**  
 
 
-[SPO list page](../../sourcing-procurement-operations/concept/procurement-specialist-list-page.md)
+[SPO list page]()
 
-[SLO list page](../../supplier-lifecycle-operations/concept/supp-workspace-list-page.md)
+[SLO list page]()
 
-[POM list page](../../purchase-order-management/concept/pom-list-page.md)
+[POM list page]()
 

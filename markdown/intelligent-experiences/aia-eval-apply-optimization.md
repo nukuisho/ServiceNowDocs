@@ -2,6 +2,7 @@
 title: Apply optimizations to agentic AI assets and reevaluate
 description: Review and accept system-generated recommendations to improve agent quality based on detected issues. Apply optimizations before triggering a re-evaluation to confirm that changes resolved the failures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aia-eval-apply-optimization.html
 release: australia
 topic_type: task
 last_updated: "2026-03-18"
@@ -41,7 +42,7 @@ If you are already in the flow for identifying issues, skip to step 6.
 
 4.  Select an issue to review.
 
-5.  [Go over the issue](aia-eval-review-issues.md), including [analyzing issue traces](aia-eval-analyze-traces.md).
+5.  [Go over the issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-eval-review-issues.md), including [analyzing issue traces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-eval-analyze-traces.md).
 
 6.  Select issues to optimize, then select **Start optimization**.
 
@@ -57,7 +58,7 @@ If you are already in the flow for identifying issues, skip to step 6.
 
     If you want to make edits to the suggested texts, you can toggle **Edit mode** to enter your own text or change the contents of the generated text.
 
-    To open the tool or agentic AI asset in AI Agent Studio, select the open link ![](../../../reuse/icons/product-icons/open-link-right-outline-24.svg) icon. The associated agentic AI asset opens in a new browser tab.
+    To open the tool or agentic AI asset in AI Agent Studio, select the open link \[Omitted image "open-link-right-outline-24.svg"\] icon. The associated agentic AI asset opens in a new browser tab.
 
     You can see the issues that the optimization is trying to address by selecting **Contributing issues**. You can select an issue to review all of the details, including the root cause analysis.
 
@@ -80,5 +81,5 @@ A new evaluation run begins with any changes you applied to the agentic AI asset
 
 ## What to do next
 
-You can [track and monitor your agentic evaluation](track-aia-eval-progress.md) while the reevaluation is in-progress. After the evaluation is complete, you can review and compare the results against the original evaluation and make further optimizations if necessary.
+You can [track and monitor your agentic evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/track-aia-eval-progress.md) while the reevaluation is in-progress. After the evaluation is complete, you can review and compare the results against the original evaluation and make further optimizations if necessary.
 

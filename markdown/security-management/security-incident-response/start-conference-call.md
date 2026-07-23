@@ -2,6 +2,7 @@
 title: Start a conference call
 description: Start a conference call from a task or a major security by inviting one or more users to join a conference call. The conference call would start only when at least two participants join.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/start-conference-call.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ Make sure you’ve done the following on the ServiceNow® instance:
 -   Installed the Notify UI Components for Configurable Workspaces app.
 -   Installed and activated the Visual Task Board plugin \(com.devsnc.snb\_vtb\).
 
-For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
+For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md).
 
 ## About this task
 
@@ -43,11 +44,11 @@ The call participants can include the following:
 
 3.  Select the **Start a conference call** action.
 
-4.  You can also start a conference call by selecting the ![Conference call](../image/msim-conf-call-icon.png) icon on the right-context menu and selecting the + icon.
+4.  You can also start a conference call by selecting the \[Omitted image "msim-conf-call-icon.png"\] Alt text: Conference call icon on the right-context menu and selecting the + icon.
 
     The Start conference call pop-up appears.
 
-    ![MSIM Conference call option on the major security incident](../image/msim-conf-call.png "MSIM Conference call")
+    \[Omitted image "msim-conf-call.png"\] Alt text: MSIM Conference call option on the major security incident
 
 5.  In the Conference bridge field, choose a **Conference bridge** that you want to connect from.
 
@@ -63,7 +64,7 @@ The call participants can include the following:
 
     **Note:** Make sure the participants that you select have a valid email address.
 
-    ![Steps to start a conference call for the major security incident](../image/msim-start-conf-call.png "Start a conference call")
+    \[Omitted image "msim-start-conf-call.png"\] Alt text: Steps to start a conference call for the major security incident
 
 8.  After selecting the participants, provide a brief description of the reason for starting the conference call in the Description field.
 
@@ -82,20 +83,20 @@ The call participants can include the following:
     When the final participant leaves the conference, the conference call ends or select **End call** to end the conference call.
 
 
-**Parent Topic:**[Major Security Incident Management Conference Call Integration](../concept/integrate-msim-conference-calls.md)
+**Parent Topic:**[Major Security Incident Management Conference Call Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conference-calls.md)
 
 **Related topics**  
 
 
-[Add participants to a conference call](add-participants-conference-call.md)
+[Add participants to a conference call]()
 
-[Mute participants in a conference call](mute-unmute-participants.md)
+[Mute participants in a conference call]()
 
-[View conference call details](view-conference-call-details.md)
+[View conference call details]()
 
-[Integrate MSIM Conference Calls with Microsoft Teams](../concept/integrate-msim-conf-call-ms-teams.md)
+[Integrate MSIM Conference Calls with Microsoft Teams]()
 
-[Integrate MSIM Conference Calls with Zoom](../concept/integrate-msim-conf-calls-zoom.md)
+[Integrate MSIM Conference Calls with Zoom]()
 
-[Integrate MSIM Conference Calls with Cisco Webex](../concept/integrate-msim-conf-calls-webex.md)
+[Integrate MSIM Conference Calls with Cisco Webex]()
 

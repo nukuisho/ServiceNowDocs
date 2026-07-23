@@ -2,6 +2,7 @@
 title: Run the fix script to enable M2M mapping
 description: Run the fix script to enable M2M mapping between supplier contact and suppliers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -68,7 +69,7 @@ gs.info("Enabled M2M supplier support: " + m2mEnableUtil.enableM2MSupplierSuppor
 ```
 
 </td></tr></tbody>
-</table>    ![Fix script details page](../image/run-fix-script.png)
+</table>    \[Omitted image "run-fix-script.png"\] Alt text: Fix script details page
 
 4.  Save and select **Run Fix Script**.
 
@@ -79,12 +80,12 @@ gs.info("Enabled M2M supplier support: " + m2mEnableUtil.enableM2MSupplierSuppor
 
 Verify if the version record is created for `M2MSupplierSupportUtil script include`.
 
-**Parent Topic:**[Enable M2M mapping between supplier contact and suppliers](enable-m2m-supplier-contacts.md)
+**Parent Topic:**[Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md)
 
 **Related topics**  
 
 
-[Verify version record](verify-version-record.md)
+[Verify version record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/verify-version-record.md)
 
-[Remove the unique constraint from Email Domain](remove-unique-constraint.md)
+[Remove the unique constraint from Email Domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-unique-constraint.md)
 

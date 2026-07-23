@@ -2,6 +2,7 @@
 title: Block migration of specific artifacts
 description: Before you perform full migration, you can flag artifacts to be excluded from the migration process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-block-specific.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,7 +29,7 @@ Role required: admin.
     |sys\_ui\_hp\_publisher.list|Interactive filters|
     |pa\_dashboards.list|Responsive dashboards|
 
-2.  Select the **Personalize List** icon ![Edit columns icon](../../dashboards/image/icon-cogwheel-ac.png) to add columns to the list.
+2.  Select the **Personalize List** icon \[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon to add columns to the list.
 
 3.  Move **Do not migrate in bulk** to the **Selected** column.
 
@@ -38,7 +39,7 @@ Role required: admin.
 
 5.  If you can’t change the flag, edit the list control for the column.
 
-    1.  Hover over the **Do not migrate in bulk** column title and expand the **Column options** \(![Column options](../image/column-options.png)\).
+    1.  Hover over the **Do not migrate in bulk** column title and expand the **Column options** \(\[Omitted image "column-options.png"\] Alt text: Column options\).
 
     2.  Select **Configure** &gt; **List Control**.
 
@@ -55,5 +56,5 @@ When you perform a full data migration, the selected artifacts are excluded. You
 
 ## What to do next
 
-Navigate to **All** &gt; **Performance Analytics** &gt; **Migration Center** to proceed with migrating the other artifacts on your instance. For more information, see [Perform full data migration](data-migration-perform.md).
+Navigate to **All** &gt; **Performance Analytics** &gt; **Migration Center** to proceed with migrating the other artifacts on your instance. For more information, see [Perform full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-perform.md).
 

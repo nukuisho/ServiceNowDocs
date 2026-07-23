@@ -2,6 +2,7 @@
 title: Create supplier case from Universal Request
 description: Routing agents can create a supplier case from the Source-to-Pay Workspace to resolve a Universal Request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-case.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -14,6 +15,8 @@ breadcrumb: [Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, 
 # Create supplier case from Universal Request
 
 Routing agents can create a supplier case from the Source-to-Pay Workspace to resolve a Universal Request.
+
+\[Omitted video\] Description: Creating supplier cases from Universal Requests.
 
 ## Before you begin
 
@@ -41,39 +44,39 @@ You must have the following plugin installed: Universal Request for Source-to-Pa
 
 8.  To request assistance from other departments in resolving the Universal Request simultaneously, select **Create Associated Ticket**.
 
-    For more information on creating associated tickets, see [Create associated ticket for primary ticket of UR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/create-associated-ticket.md).
+    For more information on creating associated tickets, see [Create associated ticket for primary ticket of UR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-associated-ticket.md).
 
 
 ## Result
 
 The supplier case number appears in the **Primary Ticket** field of the Universal Request record. It also appears in the **Associated Tickets** list of the Universal Request record.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](../concept/use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 
 
-[Create a supplier from the Source-to-Pay Workspace](new-supplier.md)
+[Create a supplier from the Source-to-Pay Workspace]()
 
-[Manage supplier details](../concept/supp-ws-details-page.md)
+[Manage supplier details]()
 
-[Manage internal stakeholders](../concept/manage-internal-stakeholders.md)
+[Manage internal stakeholders]()
 
-[Manage supplier contacts from the Source-to-Pay Workspace](../concept/managing-contacts-smw.md)
+[Manage supplier contacts from the Source-to-Pay Workspace]()
 
-[Manage supplier cases from the Source-to-Pay Workspace](../concept/managing-cases.md)
+[Manage supplier cases from the Source-to-Pay Workspace]()
 
-[Manage supplier tasks from the Source-to-Pay Workspace](../concept/managing-tasks.md)
+[Manage supplier tasks from the Source-to-Pay Workspace]()
 
-[Offboard a supplier from the Source-to-Pay Workspace](offboard-supplier.md)
+[Offboard a supplier from the Source-to-Pay Workspace]()
 
-[Accept an incoming chat request from the Source-to-Pay Workspace](accept-chat-supp-ws.md)
+[Accept an incoming chat request from the Source-to-Pay Workspace]()
 
-[Interaction Management in Supplier Lifecycle Operations](../concept/interaction-mgmt-supplier-mgr-ws.md)
+[Interaction Management in Supplier Lifecycle Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace](../concept/email-composer-slm-workspace.md)
+[Composing emails with predefined content from the Source-to-Pay Workspace]()
 
-[Overall supplier dashboard](../concept/overall-supplier-db.md)
+[Overall supplier dashboard]()
 
-[Emails view for supplier managers](enabling-emails-view-for-contacts.md)
+[Emails view for supplier managers]()
 

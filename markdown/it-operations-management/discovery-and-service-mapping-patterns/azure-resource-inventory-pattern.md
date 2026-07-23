@@ -2,6 +2,7 @@
 title: Microsoft Azure resource inventory discovery
 description: The ServiceNow Discovery application uses the Azure Resource Inventory \(LP\) pattern to find resources available through Azure that don’t have a dedicated pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/azure-resource-inventory-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -19,13 +20,13 @@ You can discover up to 10 thousand resources using the Azure Resource Inventory 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   **Azure service principal**
 
-    Verify the Azure service principal is configured. For more information, see [Discovery for Microsoft Azure](../../discovery/concept/azure-cloud-discovery.md)
+    Verify the Azure service principal is configured. For more information, see [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-cloud-discovery.md)
 
 -   **Privileges**
 
@@ -45,7 +46,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create a Cloud Discovery schedule**
 
-    Create a schedule for the relevant Azure service account as described in [Create Discovery schedules for cloud resources](../../discovery/concept/discovery-manager.md#)
+    Create a schedule for the relevant Azure service account as described in [Create Discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-manager.md)
 
 -   **Fine-tune Azure inventory discovery using the Resource Inclusion List**
 
@@ -85,9 +86,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     5.  For the referenced field, select **Configuration Item**.
     6.  For the criterion attributes, add **Key** and **Value**.
 
-        You may need to click the lock icon ![Lock icon](../../event-management/image/lock-icon.png) to view and change the criterion attributes.
+        You may need to click the lock icon \[Omitted image "lock-icon.png"\] Alt text: Lock icon to view and change the criterion attributes.
 
-    ![Related entry form](../image/related-entry.png)
+    \[Omitted image "related-entry.png"\] Alt text: Related entry form
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -132,7 +133,7 @@ Hosted on:Hosts
 Azure datacenter \[cmdb\_ci\_azure\_datacenter\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](azure-cloud-discovery-patterns.md)
+</table>**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 
 **Related topics**  
 

@@ -2,6 +2,7 @@
 title: KPI Data table
 description: The KPI \[sn\_kpi\_data\] table stores the collected data for all the KPIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/kpi-data-table.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -40,12 +41,12 @@ The KPI Data \[sn\_kpi\_data\] table contains the following fields.
 |Is overridden|Boolean|Indicates whether the data is overridden.|
 |Justification|String|Reason for overriding the data.|
 
-**Parent Topic:**[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](primary-data-tables-srpm.md)
+**Parent Topic:**[Primary data tables for Supplier Relationship and Performance Management \(SRPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/primary-data-tables-srpm.md)
 
 **Related topics**  
 
 
-[Create KPIs without using KPI template](../task/create-kpis.md)
+[Create KPIs without using KPI template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpis.md)
 
-[Create KPIs by adding suppliers to a KPI template](../task/add-supplier-kpi-template.md)
+[Create KPIs by adding suppliers to a KPI template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-kpi-template.md)
 

@@ -2,6 +2,7 @@
 title: Overview help pages
 description: The overview help feature included with the base system displays slides with introductory information on new features offered in the ServiceNow platform. An administrator can hide the option from the help menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/overview-help-pages.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ The overview help feature included with the base system displays slides with int
 
 To learn about the latest features in your version, click the **What's New** link in the Core UI help sidebar.
 
-![Overview help link](../image/WhatsNewLink.png "Overview help link")
+\[Omitted image "WhatsNewLink.png"\] Alt text: Overview help link
 
 The Overview Help Page \[sys\_ui\_overview\_help\] table contains the records for each panel that appears, including images, icons, descriptions, and condition statements that control display. By default, the instance displays panels describing notable features of the current release, but users can modify this page to display panels for customized features in their own instance and then define who can see these panels.
 
@@ -31,12 +32,12 @@ Administrators can hide the What's New option using a system property.
 
 To find the property, type `sys_properties.list` in the application navigator. Find the **glide.product.show\_what\_is\_new** property and change the value to **false**.
 
-![Help panel open with the What's New option hidden](../image/WhatsNewHidden.png "What's New option hidden")
+\[Omitted image "WhatsNewHidden.png"\] Alt text: Help panel open with the What's New option hidden
 
--   **[Create custom overview help](../task/create-custom-overview-help-pages.md)**  
+-   **[Create custom overview help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-custom-overview-help-pages.md)**  
 You can edit existing overview help pages to display your own custom panels to selected users.
--   **[Example of adding a panel to an existing overview help page](../task/example-add-slide-to-existing-page.md)**  
+-   **[Example of adding a panel to an existing overview help page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/example-add-slide-to-existing-page.md)**  
 This example adds panels to the existing overview help page that display only for users with specific roles and when a specific plugin is activated.
 
-**Parent Topic:**[User interface configuration](../../core-configuration/concept/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

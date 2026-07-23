@@ -2,6 +2,7 @@
 title: Builder library
 description: The ServiceNow AI Platform provides a robust set of builder tools that enable you to quickly develop applications for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/builder-library-table.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Use case\(s\)
 
 </th></tr></thead><tbody><tr><td>
 
-[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
+[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-designer-overview.md)
 
 </td><td>
 
@@ -43,7 +44,7 @@ Determine a customer discount rate for a product given two inputs \(number of un
 
 </td></tr><tr><td>
 
-[Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-template.md)
+[Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-template.md)
 
 </td><td>
 
@@ -57,7 +58,7 @@ Create a flow template to use as the basis for all request approvals within an I
 
 </td></tr><tr><td>
 
-[Integration with Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-pa.md)
+[Integration with Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/integrate-pa.md)
 
 </td><td>
 
@@ -99,7 +100,7 @@ Create cards for launcher screen record sections, calendar screens, form screens
 
 </td></tr><tr><td>
 
-[NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/model-management-phases.md)
+[NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/model-management-phases.md)
 
 </td><td>
 
@@ -127,7 +128,7 @@ Configure the ability for users to ask natural language questions and be shown t
 
 </td></tr><tr><td>
 
-[Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-landing-page.md)
+[Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-landing-page.md)
 
 </td><td>
 
@@ -141,7 +142,7 @@ Show the number of open incidents at an organization that also displays the prio
 
 </td></tr><tr><td>
 
-[Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md)
+[Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-portal.md)
 
 </td><td>
 
@@ -155,7 +156,7 @@ Configure a mobile-friendly experience for a company's employees to engage with 
 
 </td></tr><tr><td>
 
-[Table Builder](../../../administer/form-builder/concept/tb-landing-page.md)
+[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)
 
 </td><td>
 
@@ -183,7 +184,7 @@ Configure a dark theme for your company's brand that makes use of a primary colo
 
 </td></tr><tr><td>
 
-[UI Builder](../../../administer/ui-builder/concept/ui-builder-overview.md)
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
 
 </td><td>
 
@@ -197,7 +198,7 @@ Create a new standard record page variant to show specific incident records, edi
 
 </td></tr><tr><td>
 
-[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
 
 </td><td>
 
@@ -211,7 +212,7 @@ Create and configure a conversation flow that enables end users to see the statu
 
 </td></tr><tr><td>
 
-[Workspace Builder](../../workspace-builder/concept/using-workspace-builder.md)
+[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/using-workspace-builder.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Resource event modifications
 description: Resource events that aren’t part of a resource plan can be modified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/c\_ModifyAResourceEvent.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -19,17 +20,17 @@ You can only modify events you created for yourself in the "My Calendar" module.
 
 Resource managers can modify an event that is part of a resource plan by deleting the event and creating a one. For example, a resource manager allocates a resource to a task on a resource plan and then wants to change the task work type to Phone Call. The resource manager must delete the event and then create another event with the work type set to Phone Call.
 
--   **[Modify a resource event that is part of a resource plan](../task/t_ModifyResourceEvntPartResPlan.md)**  
+-   **[Modify a resource event in a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_ModifyResourceEvntPartResPlan.md)**  
 You can modify a resource event that is part of a resource plan.
 
-**Parent Topic:**[Resource events](c_ResourceEvents.md)
+**Parent Topic:**[Resource events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceEvents.md)
 
 **Related topics**  
 
 
-[Resource events and schedules](../reference/r_ResourceEventsAndSchedules.md)
+[Resource events and schedules]()
 
-[Modify a self-created resource event](../task/t_ModifyASelfCreatedResourceEvent.md)
+[Modify a self-created resource event]()
 
-[Change the resource event color](../task/t_ChangeTheResourceEventColor.md)
+[Change the resource event color]()
 

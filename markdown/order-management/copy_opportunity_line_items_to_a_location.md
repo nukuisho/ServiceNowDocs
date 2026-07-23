@@ -2,9 +2,10 @@
 title: Copy opportunity line items to a location
 description: Duplicate existing line items to another location using Copy on the Line items tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/copy\_opportunity\_line\_items\_to\_a\_location.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -19,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **List**![](../../../reuse/icons/product-icons/list-outline-24.svg) view and select **Opportunity-All**.
+1.  Navigate to the **List**\[Omitted image "list-outline-24.svg"\] Alt text: view and select **Opportunity-All**.
 
 2.  From the **Opportunity List** view, select the opportunity you want to work with and select the **Line Items** tab.
 
@@ -29,15 +30,15 @@ Role required: sales\_agent
 
 5.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d128163e99">
+<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d143335e99">
 
 Option
 
-</th><th align="left" id="d128163e102">
+</th><th align="left" id="d143335e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128163e108">
+</th></tr></thead><tbody><tr><td id="d143335e108">
 
 **Keep original location**
 
@@ -45,7 +46,7 @@ Description
 
 New line items for the selected opportunity are created and the source location is retained.
 
-</td></tr><tr><td id="d128163e117">
+</td></tr><tr><td id="d143335e117">
 
 **Choose new location**
 
@@ -61,5 +62,12 @@ This copies the line items to a new location.In the **Service location** filter,
 6.  Select **Copy**.
 
 
-**Parent Topic:**[Location-based transactions for Opportunity Management](../concept/location_based_transactions_for_opportunity.md)
+**Parent Topic:**[Location-based transactions for Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/location_based_transactions_for_opportunity.md)
+
+**Related topics**  
+
+
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

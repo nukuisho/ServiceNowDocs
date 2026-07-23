@@ -2,11 +2,12 @@
 title: Life-cycle stage statuses \(LLCS\) of a package in RPA Hub
 description: The State transition of a package guides you through the stages of its life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/lifecycle-stages-package.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Package and package version, Use, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Package and package version, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Life-cycle stage statuses \(LLCS\) of a package in RPA Hub
@@ -48,10 +49,10 @@ Package is inactive. After you retire a package, you can't change the stage.
  When you retire a package, the package versions that are associated with this package are also retired.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Package and package version in RPA Hub](../concept/package-version-rpa-hub.md)
+</table>**Parent Topic:**[Package and package version in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/package-version-rpa-hub.md)
 
 **Related topics**  
 
 
-[Create a package to assign to a bot process](../task/create-package.md#)
+[Create a package to assign to a bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-package.md)
 

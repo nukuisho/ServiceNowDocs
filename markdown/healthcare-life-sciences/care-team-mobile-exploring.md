@@ -2,6 +2,7 @@
 title: Exploring Care Team Mobile
 description: Discover how to use the Care Team Mobile application to create requests for care team support departments from the convenience of your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/care-team-mobile-exploring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,7 +41,7 @@ Care Team Mobile requires Healthcare Operations Core and can be used with the fo
 
 ## Care Team Mobile workflow
 
-![An example workflow for Care Team Mobile wherein a care team member requests a linen change and a support agent fulfills it.](../image/cto-mobile-workflow.png)
+\[Omitted image "cto-mobile-workflow.png"\] Alt text: An example workflow for Care Team Mobile wherein a care team member requests a linen change and a support agent fulfills it.
 
 1.  An administrator installs Care Team Mobile on the care team's mobile devices alongside all relevant Care Team Operations applications.
 2.  A nurse notices that a room needs a linen change and creates a request for the Environmental Services department using Care Team Mobile with the Care Team for Environmental Services plugin installed.
@@ -51,14 +52,14 @@ Care Team Mobile requires Healthcare Operations Core and can be used with the fo
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Create support requests based on installed Healthcare Operations case types directly from your mobile device.|[Create support requests using Care Team Mobile](cto-mobile-create-requests.md)|Nurse, Nurse Assistant, Unit Secretary|
-|Scan tags on medical equipment and be redirected to the asset's record, where you can view its history, status, and associated cases.|[Asset Scan in Care Team Mobile](cto-mobile-asset-scan.md)|Nurse, Nurse Assistant, Unit Secretary|
-|View requests for specific locations, such as patient rooms or supply closets, and access relevant details and preconfigured workflows for reporting issues like sanitation requests or facility repairs.|[Browse locations in Care Team Mobile](cto-mobile-browse-locations.md)|Nurse, Nurse Assistant, Unit Secretary|
+|Create support requests based on installed Healthcare Operations case types directly from your mobile device.|[Create support requests using Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-mobile-create-requests.md)|Nurse, Nurse Assistant, Unit Secretary|
+|Scan tags on medical equipment and be redirected to the asset's record, where you can view its history, status, and associated cases.|[Asset Scan in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-mobile-asset-scan.md)|Nurse, Nurse Assistant, Unit Secretary|
+|View requests for specific locations, such as patient rooms or supply closets, and access relevant details and preconfigured workflows for reporting issues like sanitation requests or facility repairs.|[Browse locations in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-mobile-browse-locations.md)|Nurse, Nurse Assistant, Unit Secretary|
 
 ## What to explore next
 
 To learn more about configuring and using Care Team Mobile, see:
 
--   [Configure Care Team Mobile](care-team-mobile-configuring.md)
--   [Create support requests using Care Team Mobile](cto-mobile-create-requests.md)
+-   [Configure Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/care-team-mobile-configuring.md)
+-   [Create support requests using Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-mobile-create-requests.md)
 

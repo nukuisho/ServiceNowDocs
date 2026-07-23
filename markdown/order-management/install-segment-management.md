@@ -2,11 +2,12 @@
 title: Install Segment Management
 description: Install the Segment Management plugin \(com.snc.segment\_mgmt\), along with the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/install-segment-management.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Configure Segment Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure Segment Management, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Segment Management
@@ -44,15 +45,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d33327e131">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d35502e131">
 
 Demo data install task
 
-</th><th align="left" id="d33327e134">
+</th><th align="left" id="d35502e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33327e140">
+</th></tr></thead><tbody><tr><td id="d35502e140">
 
 **If demo data is available and you want to install it**
 
@@ -62,7 +63,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d33327e170">
+</td></tr><tr><td id="d35502e170">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -80,14 +81,12 @@ Load the demo data after installing Segment Management.1.  Install Segment Manag
 
 You have successfully installed the Segment Management \(com.snc.segment\_mgmt\) application. You can now set up the data model and configure different roles.
 
-**Parent Topic:**[Configure Segment Management](../concept/configure-segment-management.md)
+**Parent Topic:**[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-segment-management.md)
 
 **Related topics**  
 
 
-[Configure Segment Management](../concept/configure-segment-management.md)
+[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-segment-management.md)
 
-[Segment Management](../concept/segment-management.md)
-
-[Data model for Segment Management](../concept/data-model-for-segment-management.md)
+[Data model for Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-segment-management.md)
 

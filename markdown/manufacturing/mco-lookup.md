@@ -2,11 +2,12 @@
 title: Look up an asset or claim by its serial number
 description: Look up the serial number of the asset or claims details in the dealer portal. View the item for recall and sales promotion claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-lookup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Dealer management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Look up an asset or claim by its serial number

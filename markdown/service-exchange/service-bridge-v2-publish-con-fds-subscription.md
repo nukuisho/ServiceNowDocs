@@ -2,13 +2,14 @@
 title: Publish an outbound FDS subscription as a consumer
 description: Publish the foundation data sync \(FDS\) subscription to complete the foundation data sync after the provider configures and accepts the subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-publish-con-fds-subscription.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring outbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Configure outbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Publish an outbound FDS subscription as a consumer
@@ -49,9 +50,9 @@ The foundation data subscription is now active. Data is synchronized to the prov
 **Related topics**  
 
 
-[Foundation data sync](../concept/service-bridge-v2-explore-foundation-data-sync.md)
+[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
 
-[Configuring outbound foundation data sync as consumers](../concept/using-provider-bound-fds-consumer.md)
+[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/using-provider-bound-fds-consumer.md)
 
-[Configuring inbound foundation data sync as providers](../concept/service-bridge-v2-configure-inboun-fds-providers.md)
+[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
 

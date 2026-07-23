@@ -16,7 +16,7 @@ The CRM portfolio is built on a layered data architecture where each tier inheri
 
 The CRM portfolio is organized into four tiers.
 
-![Architecture that shows the Now platform as the bottom layer, with CRM foundation components, Customer Workflows, and Industry Workflows.](../image/crm-product-architecture-ai-platform.png "CRM product architecture")
+\[Omitted image "crm-product-architecture-ai-platform.png"\] Alt text: Architecture that shows the Now platform as the bottom layer, with CRM foundation components, Customer Workflows, and Industry Workflows.
 
 At the base, the Now Platform provides the core tables, AI capabilities, and engines that every ServiceNow product inherits. Above that, the CRM Foundation defines the shared data objects \(Customer, Organization, Territory, Product, and Pricing\) along with shared engines and the transactional objects \(Opportunity, Quote, Order, Install Base, Contract, Case, Work Order\) that all CRM products use. The Customer Workflows tier delivers the three core CRM products at the same level: Sales CRM, Customer Service Management \(CSM\), and Field Service Management \(FSM\). At the top, Industry Workflows provide preconfigured solutions for verticals including Telecom, Technology, Financial Services, Public Sector, Healthcare, Retail, and Manufacturing.
 

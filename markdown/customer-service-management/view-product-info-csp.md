@@ -2,6 +2,7 @@
 title: View product information from the Customer Service Portal
 description: View a list of products to track the products or services sold to your account and manage your services using service catalogs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-product-info-csp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,4 +54,11 @@ If product catalog items have been set up in your instance, you can use the **Se
 
 6.  View all catalog items associated to sold products and request additional services, as required.
 
+
+**Related topics**  
+
+
+[View asset information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewAssetAndProductInformation.md)
+
+[Create a product case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustPortal.md)
 

@@ -2,9 +2,10 @@
 title: Components installed with Lead Management
 description: Several types of components are installed with activation of the Lead Management plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-lead-management.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-06-09"
 reading_time_minutes: 1
 breadcrumb: [Lead Management reference, Lead and opportunity management, Reference, Sales Customer Relationship Management]
 ---
@@ -49,7 +50,9 @@ Lead integrator have access to call the REST APIs of lead.
 
 </td><td>
 
-sn\_lead\_mgmt\_core.lead\_writer
+-   sn\_crm\_touchpoint.touchpoint\_writer
+-   sn\_lead\_mgmt\_core.lead\_writer
+-   sn\_meeting\_mgmt.meeting\_creator
 
 </td></tr><tr><td>
 
@@ -87,6 +90,8 @@ Lead agent can perform CRUD operations on Lead and related tables.
 
 -   sn\_customerservice.csm\_workspace\_user
 -   sn\_lead\_mgmt\_core.lead\_writer
+-   sn\_meeting\_mgmt.meeting\_creator
+-   sn\_crm\_touchpoint.touchpoint\_writer
 
 </td></tr><tr><td>
 
@@ -98,6 +103,7 @@ An admin role created to give create, update, read, and delete access on lead ta
 
 </td><td>
 
+-   sn\_crm\_touchpoint.admin
 -   sn\_lead\_mgmt\_core.lead\_agent
 -   sn\_lead\_mgmt\_core.lead\_integrator
 
@@ -168,5 +174,5 @@ Lead
 Prospective customers who have expressed their interest through various channels, such as website forms, social media, or events.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lead Management reference](../concept/lead-management-reference.md)
+</table>**Parent Topic:**[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-reference.md)
 

@@ -2,10 +2,11 @@
 title: Tables and Flows installed with Public Sector Digital Services Core
 description: This section describes the tables and flows installed with the Public Sector Digital Services Core application and shows how they store and manage information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-core-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Core, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -73,7 +74,7 @@ Contains profiles of businesses interacting with government agencies, documentin
 
 </td><td>
 
-N/A
+None
 
 </td></tr><tr><td>
 
@@ -85,7 +86,7 @@ Contains information about new business registration requests.
 
 </td><td>
 
-N/A
+None
 
 </td></tr><tr><td>
 
@@ -110,6 +111,18 @@ Contains information about service evaluation tasks.
 </td><td>
 
 Government Service Task \(sn\_gsm\_government\_service\_task\)
+
+</td></tr><tr><td>
+
+Task Document Verification Task Mapping\[sn\_gsm\_task\_gvt\_mapping\]
+
+</td><td>
+
+Maps case tasks created for document resubmission requests to the specific Document Verification Tasks that initiated them. Enables tracking and association of flagged documents back to the case task that triggered the resubmission request, supporting cases where multiple documents are flagged for different reasons.
+
+</td><td>
+
+None
 
 </td></tr></tbody>
 </table>## Flows installed
@@ -155,5 +168,5 @@ Resolve blocked by record if user information is provided for Government case\[r
 Removes the blocked by record if the case task is closed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Core Data Model](psds-data-model-core.md)
+</table>**Parent Topic:**[Public Sector Digital Services Core Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-core.md)
 

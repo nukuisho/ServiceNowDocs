@@ -2,13 +2,14 @@
 title: Use case: Summarize a client script using Now Assist
 description: Understand and edit client scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/use-case-client-script-summarization.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Use case, Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use case, Use, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Use case: Summarize a client script using Now Assist
@@ -29,7 +30,7 @@ With Client script summarization, the developer can select any client script in 
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](../task/install-ui-generation.md) and [Grant UI Builder admin role](../task/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/grant-ui-builder-admin-role.md).
 
 ## Configuration steps
 
@@ -55,12 +56,12 @@ Perform the following steps to use the Client script summarization skill:
 
 The developer quickly comprehends the purpose and functionality of the client scripts, whereas manually reading and interpreting the code would take several hours. This knowledge enables the developer to confidently plan and implement updates without the risk of introducing unintended regressions.
 
-**Parent Topic:**[UI Generation use cases](../task/ui-generation-use-cases.md)
+**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ui-generation-use-cases.md)
 
 **Related topics**  
 
 
-[Client script summarization](client-script-summarization.md)
+[Client script summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/client-script-summarization.md)
 
-[Summarize a client script using Now Assist](../task/client-script-summarization-generation.md)
+[Summarize a client script using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/client-script-summarization-generation.md)
 

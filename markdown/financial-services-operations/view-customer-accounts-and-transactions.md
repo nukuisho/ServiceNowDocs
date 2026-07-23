@@ -2,10 +2,12 @@
 title: View customer accounts and transactions in Agentic Contact Center for Banking
 description: Review a customer's financial summary, account holdings, and account details in the Customer 360 page to understand the customer's overall position with the bank before or during an interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/view-customer-accounts-and-transactions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [banking customer 360 view customer accounts, banking customer 360 view customer transactions, banking customer 360 financial summary, banking customer 360 account holdings, banking customer 360 total deposit, banking customer 360 total available credit, banking customer 360 total money owed, banking customer 360 account details, banking customer 360 transaction history, customer 360 page]
 breadcrumb: [Use, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -36,19 +38,19 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
     The transactions are presented in a list, showing the description, posting date time, amount, and transaction type.
 
-    ![Customer 360 overview showing deposit, credit, and debt summaries with account transactions.](../images/agentic-contact-center-banking-c360-overview.png)
+    \[Omitted image "agentic-contact-center-banking-c360-overview.png"\] Alt text: Customer 360 overview showing deposit, credit, and debt summaries with account transactions.
 
 
-**Parent Topic:**[Financial Services](../../fso-common/concept/fso-overview.md)
+**Parent Topic:**[Using Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-agentic-contact-center-for-banking.md)
 
 **Related topics**  
 
 
-[Customer 360 page for Agentic Contact Center for Banking](../concept/customer-360-agentic-contact-center-for-banking.md)
+[Customer 360 page for Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/customer-360-agentic-contact-center-for-banking.md)
 
-[View customer cases in Agentic Contact Center for Banking](view-cases.md)
+[View customer cases in Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/view-cases.md)
 
-[Summarize a customer profile in the Customer 360 page](../../fso-now-assist/task/summarize-customer-profile-fso.md)
+[Summarize a banking customer profile in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-customer-profile-fso.md)
 
-[Generate customer insights in the Customer 360 page](../../fso-now-assist/task/generate-customer-insights-customer-360-workspace.md)
+[Generate customer insights in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/generate-customer-insights-customer-360-workspace.md)
 

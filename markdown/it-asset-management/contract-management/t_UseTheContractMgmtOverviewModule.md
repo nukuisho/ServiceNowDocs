@@ -2,13 +2,14 @@
 title: Use the Asset Contract Overview module
 description: You can view information about your contract status in the Contract Management Overview module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_UseTheContractMgmtOverviewModule.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contract Management, IT Asset Management]
+breadcrumb: [Contract Management, Common applications, Asset Management]
 ---
 
 # Use the Asset Contract Overview module
@@ -31,21 +32,21 @@ Because the Contract Management Overview module is a type of homepage, you can a
 
     For example, click any of the colored bars in the **Contract Expenditure by Type** bar chart to see detailed information.
 
-    ![Contract Management Overview module](../image/contract-management-overview.png)
+    \[Omitted image "contract-management-overview.png"\] Alt text: Contract Management Overview module
 
 
-**Parent Topic:**[Contract Management](../concept/c_ContractManagement.md)
+**Parent Topic:**[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_ContractManagement.md)
 
 **Related topics**  
 
 
-[Components installed with Contract Management](../reference/r_ComponentsInstalledWContractMgmt.md)
+[Components installed with Contract Management]()
 
-[Contract approval flow](../concept/contract-approval-workflow.md)
+[Contract approval flow]()
 
-[Contract Management use](../concept/c_UseContractManagement.md)
+[Contract Management use]()
 
-[Condition check definitions](../concept/c_UseConditionCheckDefinitions.md)
+[Condition check definitions]()
 
-[Domain separation and Contract Management](../concept/domain-separation-contract-mgmt.md)
+[Domain separation and Contract Management]()
 

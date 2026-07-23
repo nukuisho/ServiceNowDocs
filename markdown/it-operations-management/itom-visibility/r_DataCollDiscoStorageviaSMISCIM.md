@@ -2,6 +2,7 @@
 title: Storage Discovery via SMI-S and CIM
 description: Discovery can explore storage devices that contain a Storage Management Initiative Specification \(SMI-S\) provider that is a specialized Common Information Model \(CIM\) server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoStorageviaSMISCIM.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -35,12 +36,16 @@ Discovery collects information about storage area networks \(SAN\) and network-a
 -   One or more CIM server per storage vendor.
 -   NAS and SAN systems from major vendors such as EMC, Hitachi, HP, and NetApp. SAN storage devices must use FC.
 -   FC switches from major vendors such as Brocade and Cisco.
--   The [CIM credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CIMCredentialsForm.md) must be available for SMI-S configuration. The CIM credentials can be different than the credentials for the system hosting the CIM server.
+-   The [CIM credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CIMCredentialsForm.md) must be available for SMI-S configuration. The CIM credentials can be different than the credentials for the system hosting the CIM server.
 -   Ensure that SMI-S is enabled for your storage product.
 -   Ensure the connectivity between the MID Server and CIM server.
 -   New CIM credentials need to be configured in the instance. CIM server credentials could be different from the system hosting the prerequisite CIM server.
 
 **Note:** Because the SMI-S Provider caches storage device information, the Discovery query to the provider does not affect storage device performance.
+
+## SMI-S Discovery architecture
+
+\[Omitted image "SMI-S\_DiscoveryDiagram.png"\] Alt text: SMI-S Discovery
 
 ## CIM architecture
 
@@ -52,6 +57,9 @@ The following components are part of CIM:
 
 -   Common Information Model \(CIM\): CIM allows multiple parties to exchange information about managed elements. CIM represents these managed elements and the management information, while providing the mechanism to actively control and manage the elements.
 -   Storage Management Initiative Specification \(SMI-S\): SMI-S is a standard of use that describes methods for storage discovery on the vendor's side. ServiceNow uses SMI-S to determine how to discover CIM. SMI-S is based on the Common Information Model \(CIM\) and the Web-Based Enterprise Management \(WBEM\) standards, which define management functionality via HTTP. The main objective of SMI-S is to enable management of dissimilar storage products. ServiceNow supports SMI-S version 1.4 or higher.
+
+    \[Omitted image "CIMSMISStandardDiagram.png"\] Alt text: CIM SMI-S Standard Diagram
+
 -   Web-Based Enterprise Management \(WBEM\): WBEM defines a particular implementation of CIM, including protocols for discovering and accessing each CIM implementation.
 -   Service Location Protocol \(SLP\): SLP is an ad hoc protocol for retrieving and associating configuration information about CIM servers, such as default paths, capabilities, and the exact interop namespace. Discovery retrieves the interop namespace of a CIM server via SLP and passes that information to the CIM Classify probe. SLP, referred to here as the SLP server, uses service agents \(SA\) to gather and disseminate information about a CIM server on a subnet. A subnet can have multiple service agents.
 
@@ -65,12 +73,20 @@ The following components are part of CIM:
     -   pg\_interop
     If you’re using multiple storage vendors with custom namespaces not specified as one of the defaults, add the new namespaces to the comma-separated list in this property. If you intend to continue using any of the default namespaces, make sure to include them in the property.
 
+    \[Omitted image "CIMAgentsDiagram.png"\] Alt text: CIM Agents Diagram
+
 
 ## SLP and WBEM support
 
 SLP is required for CIM Discovery as it is part of the Storage Management Initiative Specification \(SMI-S\) stack. Some storage devices may support the WBEM protocol, but may not support SLP.
 
 You can manually register the WBEM services on SLP using a common Linux tool like **slptool**. This tool has a command line interface that you can use to make SLPv2 User Agent \(UA\) requests, which usually come with the SLP daemon package. To register a service, provide a URL and list of attributes. An example can be extracted from a working SLP server by using the same tool.
+
+## Storage Discovery table schema
+
+This diagram displays the disk hierarchical schema for storage Discovery.
+
+\[Omitted image "StorageSchemaFuji.png"\] Alt text: Disk hierarchical schema
 
 ## Storage Discovery tables and probes
 
@@ -109,14 +125,14 @@ These probes are available but not currently used:
 -   SMI - Array - Ports
 -   SMI - Array - Volumes
 
--   **[Discovery of storage area networks \(SAN\)](storage-area-networks.md)**  
+-   **[Discovery of storage area networks \(SAN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/storage-area-networks.md)**  
 Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches, and creates specific references between the tables in the SAN schema.
--   **[How CIM Discovery works](r_HowCIMDiscoveryWorks.md)**  
+-   **[How CIM Discovery works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_HowCIMDiscoveryWorks.md)**  
 This is the processing flow for classifying Common Information Model \(CIM\) storage systems.
--   **[Configure SMI-S Provider for storage Discovery](../task/t_ConfigDiscoForStandaloneStorage.md)**  
+-   **[Configure SMI-S Provider for storage Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/t_ConfigDiscoForStandaloneStorage.md)**  
 Use this procedure for configuring a standalone storage device with the required SMI-S Provider for Discovery.
--   **[Data collected by Discovery on storage devices](r_DataCollDiscoStorageDevices.md)**  
+-   **[Data collected by Discovery on storage devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoStorageDevices.md)**  
 Discovery identifies and classifies information about storage devices.
 
-**Parent Topic:**[Storage discovery](../concept/c_Storage.md)
+**Parent Topic:**[Storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Storage.md)
 

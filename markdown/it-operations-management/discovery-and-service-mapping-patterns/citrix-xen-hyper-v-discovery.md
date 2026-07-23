@@ -2,6 +2,7 @@
 title: Citrix Xen Hyper-V Discovery
 description: ServiceNow Discovery uses the Citrix Xen Hyper-V pattern to find and map instances. Discover these resources by installing the pattern applications from the ServiceNow Store and add Citrix Xen Hyper-V to the Linux Server Pattern’s Extension Section.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/citrix-xen-hyper-v-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -19,7 +20,7 @@ Use the Xen \(XE\) and \(XL\) commands to discover Citrix Xen Hyper-V, its compo
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -36,11 +37,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create SSH credentials with access to the target Linux host**
 
-    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
+    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md)
 
 -   **Create an extension section after the Linux Server pattern**
 
-    Create an extension section after the Linux Server pattern and associate the **Citrix Xen HyperV** pattern to be triggered after the execution of the Linux Server discovery pattern. For more information on creating extension sections, see [Enhance patterns without changing their identification sections](../task/modify-pattern-using-extensions.md).
+    Create an extension section after the Linux Server pattern and associate the **Citrix Xen HyperV** pattern to be triggered after the execution of the Linux Server discovery pattern. For more information on creating extension sections, see [Enhance patterns without modifying identification sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/modify-pattern-using-extensions.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -323,5 +324,5 @@ Relationships created by Citrix Xen Hyper-V Discovery
 |cmdb\_ci\_hyper\_v\_server|Define resources for :: Gets resources from|cmdb\_ci\_hyper\_v\_resource\_pool|
 |cmdb\_ci\_hyper\_v\_instance|Registered on :: Has registered|cmdb\_ci\_hyper\_v\_server|
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

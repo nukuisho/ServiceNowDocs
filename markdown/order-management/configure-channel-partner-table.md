@@ -2,11 +2,12 @@
 title: Configure Channel Partner table
 description: With the Partner Relationship Management application, you can use the channel partner \[sn\_prm\_channel\_partner\] table to manage and store information related to channel partners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-channel-partner-table.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Data model for PRM, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Data model for PRM, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Channel Partner table
@@ -29,10 +30,17 @@ The channel partner \[sn\_prm\_channel\_partner\] table is an extension of Exter
 
 3.  On the form, fill in the fields.
 
-    To learn more about the fields on the channel partner table and their descriptions, see [Channel partner table fields](../reference/channel-partner-table-fields.md).
+    To learn more about the fields on the channel partner table and their descriptions, see [Channel partner table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/channel-partner-table-fields.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Data model for Partner Relationship Management](../concept/data-model-for-partner-relationship-management.md)
+**Parent Topic:**[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/data-model-for-partner-relationship-management.md)
+
+**Related topics**  
+
+
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
 

@@ -2,6 +2,7 @@
 title: Create a serverless schedule for Fortinet firewall REST-based discovery
 description: Create a serverless discovery schedule to discover Fortinet firewalls and FortiGate Virtual Domains \(VDOMs\) through REST-based discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-fortinet.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,7 +19,7 @@ Create a serverless discovery schedule to discover Fortinet firewalls and FortiG
 ## Before you begin
 
 -   Verify you have the IP address for the Fortinet firewall device.
--   Create an alias for the API key credential. For more information, see [Create an alias for the API key credential for Fortinet firewall REST-based discovery](create-alias-api-key-cred-fortinet.md).
+-   Create an alias for the API key credential. For more information, see [Create an alias for the API key credential for Fortinet firewall REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-alias-api-key-cred-fortinet.md).
 
 Role required: discovery\_admin
 
@@ -79,5 +80,5 @@ Either execute discovery immediately by selecting **Discover now** or wait until
 **Related topics**  
 
 
-[Fortinet firewall and FortiGate VDOM REST-based discovery](../reference/fortinet-fw-vdoms-rest-discovery.md)
+[Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md)
 

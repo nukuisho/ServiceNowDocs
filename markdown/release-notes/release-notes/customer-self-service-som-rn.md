@@ -4,8 +4,8 @@ description: The ServiceNow Business Portal application enables your B2B custome
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-05-21"
+reading_time_minutes: 8
 ---
 
 # Customer self-service for Sales Customer Relationship Management release notes
@@ -14,19 +14,25 @@ The ServiceNow® Business Portal application enables your B2B customers to place
 
 ## Business Portal highlights for the Australia release
 
-[Australia Patch 2](../quality/australia-patch-2.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
 
--   Resume and submit invoice cases in draft state.
--   Review invoice case line details relevant to how your case was created.
+-   Enable business-to-business \(B2B\) customers to request quantity changes and shipping location updates for their existing orders, in addition to expedited delivery, through AI-powered chat and voice assistants.
+-   Provide customers with an automatically generated quote when a quantity-change request exceeds the configured price threshold.
+-   Provide customers an option to upload a delivery note during invoice case creation so that the invoice dispute intake assistant AI agent can instantly validate quantity disputes.
 
-[Australia Patch 1](../quality/australia-patch-1.md)
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
--   Enable business-to-business \(B2B\) customers to create invoice dispute cases through AI-powered chat and voice assistants that guide them through conversational dispute intake on the Business Portal.
+-   Enable customers to resume and submit invoice cases in draft state.
+-   Review invoice case line details that are relevant to how your case was created.
+
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
+
+-   Enable customers to create invoice dispute cases through AI-powered chat and voice assistants that guide them through conversational dispute intake on the Business Portal.
 -   Provide uninterrupted handoff to human agents to support complex use cases, with full conversation context transferred to the CSM/FSM Configurable Workspace.
 
 Australia Early Availability
 
--   Enable business-to-business \(B2B\) customers to create invoice dispute cases for quantity, pricing, or date discrepancies through an intuitive playbook experience.
+-   Enable customers to create invoice dispute cases for quantity, pricing, or date discrepancies through an intuitive playbook experience.
 -   Enable customers to view invoices and invoice details directly from the Business Portal, providing transparency into billing information.
 -   Provide customers with visibility into invoice case status, resolution steps, and associated invoice lines to track dispute progress.
 
@@ -36,18 +42,29 @@ See [Customer self-service for Sales Customer Relationship Management](https://r
 
 ## New in the Australia release
 
-[Australia Patch 2](../quality/australia-patch-2.md)
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+
+-   **[Delivery note upload for quantity dispute validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md)**
+
+    Provide customers an option to upload a delivery note during invoice case creation so that the invoice dispute intake assistant AI agent can instantly validate quantity disputes and resolve the issue without human intervention.
+
+-   **[Automated email notifications for order cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-case-email-notifications.md)**
+
+    Keep your customers informed by sending automated emails when the manage order operations AI agent opens an order case from a Business Portal chat conversation and when the case is closed with a successful resolution. The closure email includes the resolution details, and the quote details when a quote was generated for the case. Order cases that are created through the voice channel don't trigger email notifications.
+
+
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
 
 -   **[Resume and submit invoice cases in draft state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/resume-invoice-case-creation.md)**
 
-    Pick up an invoice case where you left off by resuming draft invoice cases from the Business Portal. Use the Process tab on the Standard Ticket page to continue editing invoice case and invoice case line disputes, then submit for further processing.
+    Enable customers to resume working on an invoice case that they couldn't finish submitting in a previous session. They can use the Process tab on the Standard Ticket page to continue editing invoice case and invoice case line disputes, then submit for further processing.
 
 -   **[Context-aware invoice case line list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/invoice-case-header-list-view.md)**
 
-    Review invoice case line details that are relevant to how your case was created. The Business Portal displays request source-aware columns in the invoice case line list view, showing specific details when a case is raised for a single invoice or when it spans multiple invoices.
+    Enable customers to review invoice case line details that are relevant to how their case was created. The Business Portal displays request source-aware columns in the invoice case line list view, showing specific details when a case is raised for a single invoice or when it spans multiple invoices.
 
 
-[Australia Patch 1](../quality/australia-patch-1.md)
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 
 -   **[AI-powered invoice case management for customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/dispute-invoice-issues-now-assist.md)**
 
@@ -85,9 +102,49 @@ Australia Early Availability
     Enable your customers to view and track invoice cases on the Business Portal, reducing support inquiries and keeping them informed on dispute resolution progress.
 
 
+## Changed in this release
+
+[Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-3.md)
+
+-   **[Order exception support for quantity and shipping location requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/request-order-changes-now-assist.md)**
+
+    Enable customers to request quantity changes and shipping location updates for existing orders, in addition to expedited delivery, through the chat assistant on the Business Portal.
+
+-   **[Voice assistant intake for order exception requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-mgmt-voice-aiagent.md)**
+
+    Enable customers to submit expedite, quantity, and shipping location requests through the voice assistant. The voice assistant captures the request and creates an order case for the order case agent to resolve it in the CSM Configurable Workspace.
+
+-   **[Scripted extension points for order exception checks and quote thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-atp-api-call.md)**
+
+    Provide administrators pluggable scripted extension points so they can integrate the chat assistant with their inventory, ERP, and quote systems for delivery availability, quantity validation, shipping location validation, and quote threshold evaluation.
+
+-   **[Consolidated extension point for order exception feasibility checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-atp-api-call.md)**
+
+    Provide a single scripted extension point \(sn\_ord\_ops\_aias.orderExceptionCheckEP\) for the manage order operations chat assistant to validate delivery availability, quantity, and shipping location feasibility for order exception requests. This extension point replaces sn\_ord\_ops\_aias.orderExpeditionCheckEP, which previously handled only available-to-promise \(ATP\) checks for expedited delivery.
+
+-   **[Account and contact populated on interaction records for order exception chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-interactions-on-order-case.md)**
+
+    Provide live agents with the customer's account and contact details on the interaction record when an order exception chat is handed off from the Business Portal. The Account and Contact fields are auto-populated on the interaction record during the virtual assistant conversation, so the live agent immediately sees the customer context, and the chat summarization feature can summarize the conversation by using those details.
+
+-   **[AI-generated chat summary for live agent handoff](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/resolve-invoice-case-now-assist-agent.md)**
+
+    Provide human agents with an AI-generated summary of the customer's prior virtual assistant conversation at the point of live agent handoff, replacing the full conversation history to accelerate context understanding and improve agent productivity.
+
+-   **[Order line quantity validation for invoice disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-invoice-quantity-check-ep.md)**
+
+    Provide the invoice dispute support assistant AI with an additional validation source for quantity disputes by checking order line quantities when sold product records are unavailable, supporting scenarios such as new orders, non-serialized products, and consumable services. The assistant auto-approves eligible disputes and escalates to a human agent only when order data is ambiguous or missing.
+
+
+[Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-2.md)
+
+-   **[Chat recommendations and quick actions in Active Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/resolve-invoice-case-now-assist-agent.md)**
+
+    Enable live agents to generate AI-recommended responses in Active Chat within the CSM/FSM Configurable Workspace, then review, optionally edit, and insert the response into the conversation. Agents can also use quick actions to perform common tasks such as creating cases, searching knowledge articles, summarizing chat conversations, and transferring chats directly from the Active Chat interface.
+
+
 ## Activation information
 
-The Business Portal application \(sn\_b2b\_portal\) is automatically installed when you install the Customer Service Portal \(sn\_csm\_portal\). Install the Customer Service Portal by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+The Business Portal application \(sn\_b2b\_portal\) is automatically installed when you install the Customer Service Portal \(sn\_csm\_portal\). Install the Customer Service Portal by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -95,7 +152,7 @@ The Business Portal application \(sn\_b2b\_portal\) is automatically installed w
 
     The following plugins are new in Australia:
 
-    -   [Australia Patch 1](../quality/australia-patch-1.md)
+    -   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)
 
         Manage Invoice Operations \(com.sn\_inv\_ops\_aias\): Delivers AI-powered assistants that handle invoice dispute intake directly from the portal, resolves eligible cases autonomously, and seamlessly escalates to a human agent when needed. In the workspace, it continues to assist human agents by providing relevant insights and actions to accelerate invoice case resolution.
 
@@ -116,5 +173,5 @@ The Business Portal application \(sn\_b2b\_portal\) is automatically installed w
     Use the ServiceNow® Now Assist for Order Management application to improve agent and customer productivity and efficiency in their respective workflows.
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
 

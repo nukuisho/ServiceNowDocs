@@ -2,6 +2,7 @@
 title: Config parameters for model config in classification
 description: Customize the training behavior of your classification solution by passing in a dictionary of parameters in JSON format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intel-config-parameters-classification.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -56,7 +57,7 @@ Alternatively, you can use a script to add these parameters. For the format to u
 
 The setting appears as a row on the **Advanced Solution Setting** tab on your solution's form.
 
-![On the Solution Definition form, in the Advanced Solutions Settings tab, config parameters is highlighted.](../images/predictive-intel-config-parameters-classificationZ1.png)
+\[Omitted image "predictive-intel-config-parameters-classificationZ1.png"\] Alt text: On the Solution Definition form, in the Advanced Solutions Settings tab, config parameters is highlighted.
 
 ## What to do next
 
@@ -127,12 +128,12 @@ JSON example:
               }
 ```
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](../concept/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Using Machine Learning APIs](../concept/using-ml-apis.md#)
+[Using Machine Learning APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md)
 
-[Create and train a classification solution](create-solution-definition.md)
+[Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 

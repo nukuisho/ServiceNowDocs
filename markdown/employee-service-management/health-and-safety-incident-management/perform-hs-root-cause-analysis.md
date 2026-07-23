@@ -2,13 +2,14 @@
 title: Perform root cause analysis for a safety incident
 description: Perform a root cause analysis \(RCA\) for a safety incident as you go through its investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/perform-hs-root-cause-analysis.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Work on a safety incident, Manage incidents and observations, Manage incidents, observations, and anonymous safety concerns, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Work on a safety incident, Manage incidents and observations, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Perform root cause analysis for a safety incident
@@ -54,5 +55,5 @@ The root cause analysis is listed in the Root cause analysis section of the acti
 
 Add a corrective or preventive action based on your root cause analysis.
 
-**Parent Topic:**[Work on a safety incident](work-hs-incident-observation.md)
+**Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
 

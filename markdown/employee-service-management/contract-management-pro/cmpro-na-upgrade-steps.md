@@ -2,6 +2,7 @@
 title: Post-upgrade steps for Now Assist in Contract Management
 description: If you are upgrading to Now Assist in Contract Management from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-upgrade-steps.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -28,7 +29,7 @@ Role required: admin
 
 3.  In the script, add the use case ids that you want to migrate to the Now Assist Admin console.
 
-    ![Use case ids added tn the script box of the fix script.](../image/cmpro-na-upgrade-script.png "Post-upgrade fix script for Now Assist in Contract Management")
+    \[Omitted image "cmpro-na-upgrade-script.png"\] Alt text: Use case ids added tn the script box of the fix script.
 
 4.  Select **Run Fix Script**.
 
@@ -37,24 +38,24 @@ Role required: admin
 
 Your customized use cases are migrated to the Now Assist Admin console.
 
-**Parent Topic:**[Configure Now Assist in Contract Management](confg-na-in-cmpro.md)
+**Parent Topic:**[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
 
-[Configure data permissions for Now Assist skills](cmpro-conf-roles-skills.md)
+[Configure data permissions for Now Assist skills]()
 
-[Select large language models for use cases in Now Assist in Contract Management](cmpro-na-manage-llm.md)
+[Select large language models for use cases in Now Assist in Contract Management]()
 
-[Configuring contract metadata extraction](cncore-conf-metadata-extraction.md)
+[Configuring contract metadata extraction]()
 
-[Configuring contract analysis](../concept/cmpro-conf-contract-analysis.md)
+[Configuring contract analysis]()
 
-[Configuring contract obligation extraction](cncore-conf-obligation-extraction.md)
+[Configuring contract obligation extraction]()
 
-[Configuring agentic workflows in Now Assist in Contract Management](../concept/cmpro-conf-agentic-workflow.md)
+[Configuring agentic workflows in Now Assist in Contract Management]()
 
-[Configuring contract metadata extraction](cncore-conf-metadata-extraction.md)
+[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
-[Configuring contract analysis](../concept/cmpro-conf-contract-analysis.md)
+[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
 

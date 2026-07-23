@@ -2,6 +2,7 @@
 title: Install the GC Dashboard
 description: For a general counsel, this dashboard provides transparency into legal service delivery and operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-gc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -57,6 +58,6 @@ Application plugins:
 
         Assign the user role sn\_lsd\_dashboard.gc\_dashboard\_user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-user-administration.md).
 
 

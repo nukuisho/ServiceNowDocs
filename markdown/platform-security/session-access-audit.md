@@ -2,6 +2,7 @@
 title: Session Access Audits
 description: The Session Access Audits displays the Session Access logs and information related to a user's session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/session-access-audit.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ The Session Access audit displays audit information as follows:
 
 **Note:** Use the `glide.authenticate.session_access.log_audit_event` property to populate the audit information.
 
-![Session Access Audits](../images/session-access-audit.png)
+\[Omitted image "session-access-audit.png"\] Alt text: Session Access Audits
 
 |Field|Description|
 |-----|-----------|

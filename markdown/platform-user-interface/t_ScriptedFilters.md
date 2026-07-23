@@ -2,6 +2,7 @@
 title: Create scripted filters
 description: The condition builder alone cannot create some filters, such as displaying a record set that depends on an unrelated table. If you know JavaScript, you can create JavaScript functions for use in advanced filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ScriptedFilters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,14 +59,14 @@ function myFunction(){
 }
 ```
 
-**Parent Topic:**[Filter admin functions](../concept/filter-admin-functions.md)
+**Parent Topic:**[Filter admin functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/filter-admin-functions.md)
 
 **Related topics**  
 
 
-[Create and edit filters](t_EditingSavedFilters.md)
+[Create and edit filters]()
 
-[Delete filters](t_DeletingFilters.md)
+[Delete filters]()
 
-[Create a dynamic filter option](t_DynamicFilterOptions.md)
+[Create a dynamic filter option]()
 

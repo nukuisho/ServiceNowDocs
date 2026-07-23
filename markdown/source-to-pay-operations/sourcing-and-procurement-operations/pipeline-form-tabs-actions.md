@@ -2,6 +2,7 @@
 title: Pipeline project record tabs and UI actions
 description: View project financial details, add existing procurement objects to pipeline projects, or create new procurement objects from the Pipeline project record form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-form-tabs-actions.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ View project financial details, add existing procurement objects to pipeline pro
 
 ## Pipeline project record form
 
-![Pipeline project record form tabs and UI actions](../image/pipeline-record-page.png "Pipeline project record form")
+\[Omitted image "pipeline-record-page.png"\] Alt text: Pipeline project record form tabs and UI actions
 
 The following table provides descriptions of the available tabs and UI actions in the Pipeline project record form.
 
@@ -126,20 +127,22 @@ Use this drop-down list to create new objects for the pipeline project. Availabl
 -   New contract
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Procurement Operations reference](spo-reference.md)
+</table>**Parent Topic:**[Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
 
 **Related topics**  
 
 
-[Base system procurement case type reference](base-system-procurement-case-types.md)
+[Base system procurement case type reference]()
 
-[Create New Pipeline Project form](create-pipeline-project-form.md)
+[Create New Pipeline Project form]()
 
-[Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md)
+[Savings opportunity fields]()
 
-[SPO and ITAM data model mappings](../concept/itam-spo-data-model.md)
+[Purchase requisition, purchase order, and sourcing request states]()
 
-[Domain separation and Sourcing and Procurement Operations](../concept/psm-domain-separation.md)
+[SPO and ITAM data model mappings]()
 
-[Sourcing and Procurement Operations glossary](../concept/spo-glossary.md#)
+[Domain separation and Sourcing and Procurement Operations]()
+
+[Sourcing and Procurement Operations glossary]()
 

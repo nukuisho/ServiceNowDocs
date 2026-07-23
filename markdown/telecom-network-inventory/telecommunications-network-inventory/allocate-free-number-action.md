@@ -2,6 +2,7 @@
 title: Allocate Free Number function
 description: The Allocate Free Number function enables you to assign free numbers from the Telecommunications Network Inventory number record. You use this function to allocate a quantity of numbers from a specified range to add against the configuration item \(CI\) in a number element.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/allocate-free-number-action.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -111,7 +112,7 @@ Option to return the consecutive free numbers.
 True/False
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
+</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -125,30 +126,30 @@ The following table lists the information about the function output.
 
 Consider that a VLAN has 1–4096 as the number range and 1–1000, 1001–2500, and 2510–4096 are the subranges. If you give the count as 4, the function returns the list of inventory number records for 2501, 2502, 2503, and 2504. These numbers are free in the VLAN number range.
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 
 
-[Create CI From Template function](add-card-action.md)
+[Create CI From Template function]()
 
-[Cascade Update function](cascade-update-action.md)
+[Cascade Update function]()
 
-[Create and Assign Range/Single Number function](create-assign-range-single-number-function.md)
+[Create and Assign Range/Single Number function]()
 
-[Create Logical Interface function](create-logical-interface-action.md)
+[Create Logical Interface function]()
 
-[Create Logical Connection function](create-logical-connection-action.md)
+[Create Logical Connection function]()
 
-[Create Physical Connection function](create-physical-connection-action.md)
+[Create Physical Connection function]()
 
-[Create IP subnetwork function](create_ip_subnetwork.md)
+[Create IP subnetwork function]()
 
-[CIDR to IP range function](cidr_to_ip_range.md)
+[CIDR to IP range function]()
 
-[Get Interface Summary function](get-interface-summary-action.md)
+[Get Interface Summary function]()
 
-[Lookup Next Hub function](lookup-next-hub-action.md)
+[Lookup Next Hub function]()
 
-[Path Search function](path-compute-action.md)
+[Path Search function]()
 

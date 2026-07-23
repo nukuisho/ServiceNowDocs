@@ -2,13 +2,14 @@
 title: Bulk close asset repair tasks in the Hardware Asset Workspace
 description: Complete and close multiple repair tasks at one go to process a repair order with multiple repair order lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/bulk-close-repair-tasks-ham-ws.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Fulfill repair orders in the Hardware Asset Workspace, Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Fulfill repair orders manually, Repair order fulfillment in the Hardware Asset Workspace, Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Bulk close asset repair tasks in the Hardware Asset Workspace
@@ -65,20 +66,20 @@ You can bulk close only similar asset repair tasks that are in the Open state. H
 
 All the selected repair tasks are closed with the same task result and Work notes.
 
-**Parent Topic:**[Fulfill repair orders in the Hardware Asset Workspace](../concept/fulfill-ham-repair-orders-ws.md)
+**Parent Topic:**[Fulfill repair orders in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/fulfill-ham-repair-orders-ws.md)
 
 **Related topics**  
 
 
-[View open repair orders for your stockroom in the Hardware Asset Workspace](view-open-repair-orders-stockroom-ham.md)
+[View open repair orders for your stockroom in the Hardware Asset Workspace]()
 
-[Troubleshoot assets requested for repair in the Hardware Asset Workspace](troubleshoot-ham-assets-for-repair.md)
+[Troubleshoot assets requested for repair in the Hardware Asset Workspace]()
 
-[Complete the repair asset task in the Hardware Asset Workspace](repair-ham-assets-ws.md)
+[Complete the repair asset task in the Hardware Asset Workspace]()
 
-[Evaluate the repaired asset in the Hardware Asset Workspace](evaluate-repaired-ham-asset-ws.md)
+[Evaluate the repaired asset in the Hardware Asset Workspace]()
 
-[Cancel a repair order in the Hardware Asset Workspace](cancel-repair-orders-ham-ws.md)
+[Cancel a repair order in the Hardware Asset Workspace]()
 
-[Cancel a repair order line in the Hardware Asset Workspace](cancel-repair-order-line-ham-ws.md)
+[Cancel a repair order line in the Hardware Asset Workspace]()
 

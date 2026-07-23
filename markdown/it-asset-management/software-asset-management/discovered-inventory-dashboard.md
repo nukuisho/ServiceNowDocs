@@ -2,13 +2,14 @@
 title: Discovered inventory dashboard
 description: View your licensable discovered software and devices on the Discovered inventory dashboard in the Software asset analytics view of Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/discovered-inventory-dashboard.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Software asset analytics view, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Software asset analytics view, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Discovered inventory dashboard
@@ -21,7 +22,7 @@ You can filter the count of installations based on a publisher or product. Selec
 
 You can access the Discovered inventory dashboard by navigating to **Workspaces** &gt; **Software Asset Workspace** &gt; **Software asset analytics** &gt; **Discovered inventory**.
 
-![Discovered inventory dashboard view](../image/discovered-inventory-workspace.png "Discovered inventory dashboard")
+\[Omitted image "discovered-inventory-workspace.png"\] Alt text: Discovered inventory dashboard view
 
 <table id="table_eqb_mjt_s1c"><thead><tr><th>
 
@@ -45,7 +46,7 @@ Software Installation \[cmdb\_sam\_sw\_install\]
 
 </td><td>
 
-Number of normalized and not normalized installs. For more information on normalized installations, see [Normalization statuses](../reference/normalization-status.md).
+Number of normalized and not normalized installs. For more information on normalized installations, see [Normalization statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/normalization-status.md).
 
 </td></tr><tr><td>
 

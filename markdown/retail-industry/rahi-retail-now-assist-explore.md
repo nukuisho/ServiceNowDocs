@@ -2,6 +2,7 @@
 title: Explore Now Assist for Retail Service Management \(RSM\)
 description: Now Assist for Retail Service Management \(RSM\) streamlines store inquiries and service requests by leveraging generative AI to deliver accurate, context-aware responses. It enhances collaboration between store teams and HQ teams. It drives faster resolutions, improves customer experiences, and enables smarter retail service management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-now-assist-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

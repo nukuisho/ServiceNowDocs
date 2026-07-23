@@ -2,11 +2,12 @@
 title: Associate risk signals
 description: Use this option to associate a risk signal with an internal play or a success case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-risk\_signal\_solution.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Risk portfolio dashboard, Customer success, Use, Customer Success Management]
+breadcrumb: [Risk portfolio dashboard, Dashboards, Customer success, Use, Customer Success Management]
 ---
 
 # Associate risk signals
@@ -76,5 +77,5 @@ Select the risk signal for which the solution is being associated.
     This enables you to track the risk and view the proposed solutions to address the risk.
 
 
-**Parent Topic:**[Risk portfolio dashboard](../concept/account-lifecycle-risk-portfolio.md)
+**Parent Topic:**[Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-risk-portfolio.md)
 

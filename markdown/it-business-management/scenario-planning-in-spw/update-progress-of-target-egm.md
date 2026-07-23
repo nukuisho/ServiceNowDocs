@@ -2,6 +2,7 @@
 title: Update the progress of a manual target
 description: Update the progress of a target when its status is changed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/update-progress-of-target-egm.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -27,15 +28,15 @@ Role required: sn\_apw\_advanced.spw\_goal\_user and sn\_align\_core.apw\_user
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d124451e61">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d126507e61">
 
 Option
 
-</th><th align="left" id="d124451e64">
+</th><th align="left" id="d126507e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d124451e70">
+</th></tr></thead><tbody><tr><td id="d126507e70">
 
 **From the Goals and targets tab**
 
@@ -56,7 +57,7 @@ The Check-in actuals window is displayed.
 
 \(For targets with no breakdowns\) In the Actual to date column, double click the cell for the target.
 
-</td></tr><tr><td id="d124451e123">
+</td></tr><tr><td id="d126507e123">
 
 **From the Target side panel**
 
@@ -69,7 +70,7 @@ The Check-in actuals window is displayed.
 
 The Target side panel opens with the **Details** tab.
 
-</td></tr><tr><td id="d124451e167">
+</td></tr><tr><td id="d126507e167">
 
 **From the Targets tab**
 
@@ -89,19 +90,19 @@ The Goal side panel opens with the **Details** tab.
 </td></tr></tbody>
 </table>2.  On the form, update the **Actuals to date** or **Actual** field and add a business justification in the **Remark** field.
 
-    For a description of the field values, see [Target form](../reference/target-form-egm.md).
+    For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md).
 
 3.  Select either **Update** or **Save**.
 
 
 ## Result
 
-After the **Actuals to date** field is updated, the progress value for the target and its goal is auto-updated. For information on how the progress value is calculated, see [progress value calculation](../../alignment-planner-workspace/concept/progress-value-calculation-egm.md). For information on how the progress value is calculated for a target that has target breakdowns, see [Target breakdowns in Strategic Planning](../concept/target-breakdowns.md).
+After the **Actuals to date** field is updated, the progress value for the target and its goal is auto-updated. For information on how the progress value is calculated, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.md). For information on how the progress value is calculated for a target that has target breakdowns, see [Target breakdowns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-breakdowns.md).
 
 **Related topics**  
 
 
-[Update the actual value of a target breakdown](update-the-actual-value-of-a-target-breakdown.md)
+[Update the actual value of a target breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-the-actual-value-of-a-target-breakdown.md)
 
-[Update the progress of an automated target](update-progress-of-target-agf-apw.md)
+[Update the progress of an automated target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-progress-of-target-agf-apw.md)
 

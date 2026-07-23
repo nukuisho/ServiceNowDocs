@@ -2,6 +2,7 @@
 title: Set up business objects for sales process records
 description: Create the business objects necessary for sales process managers to create sales process records using these entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-business-object-group-define-entity-relationship.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: Business object writer \[sn\_bo\_core.business\_object\_writer\]
 
 ## About this task
 
-Video showing the steps to set up business objects 
+\[Omitted video\] Description: Video showing the steps to set up business objects
 
 ## Procedure
 
@@ -81,7 +82,7 @@ Video showing the steps to set up business objects
 
     2.  Under the Business Object Group Members related list, select **New**.
 
-    3.  Select the business object type you want to add using the Lookup list icon ![](../../../reuse/icons/product-icons/magnifying-glass-outline-24.svg).
+    3.  Select the business object type you want to add using the Lookup list icon \[Omitted image "magnifying-glass-outline-24.svg"\] Alt text:.
 
     4.  Select **Submit**.
 
@@ -89,4 +90,11 @@ Video showing the steps to set up business objects
 ## Result
 
 Business object group and business object types are available in Business process and Business entity lists respectively in the Create new sales process record form in the CSM Configurable Workspace.
+
+**Related topics**  
+
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
+
+[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
 

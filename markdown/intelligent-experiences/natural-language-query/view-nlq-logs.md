@@ -2,6 +2,7 @@
 title: View NLQ logs
 description: Review NLQ logs to see how the system has handled your users' plain-language requests. Use log records from attempted requests to expand NLQ synonyms or shortcuts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/view-nlq-logs.html
 release: australia
 product: Natural Language Query
 classification: natural-language-query
@@ -31,25 +32,25 @@ Every natural language query is logged in the **NLQ Query Logs** table \[nlq\_qu
 
 1.  Navigate to **All** &gt; **NLQ** &gt; **Logs**.
 
-    ![NLQ Query Logs list.](../images/view-nlq-logsT1.png)
+    \[Omitted image "view-nlq-logsT1.png"\] Alt text: NLQ Query Logs list.
 
 2.  Select the value in the **Utterance** column to open the full log entry.
 
-    ![Gif of a full NLQ log entry.](../images/view-nlq-logsW2.gif)
+    \[Omitted image "view-nlq-logsW2.gif"\] Alt text: Gif of a full NLQ log entry.
 
 
 ## What to do next
 
-Based on your users' attempted queries, consider adding more [synonyms](create-nlq-synonym.md) or [shortcuts](create-nlq-shortcut.md).
+Based on your users' attempted queries, consider adding more [synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/create-nlq-synonym.md) or [shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/create-nlq-shortcut.md).
 
-**Parent Topic:**[Configuring NLQ](../concept/configuring-nlq.md)
+**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
 
 **Related topics**  
 
 
-[Create an NLQ synonym](create-nlq-synonym.md)
+[Create an NLQ synonym]()
 
-[Create an NLQ shortcut](create-nlq-shortcut.md)
+[Create an NLQ shortcut]()
 
-[View NLQ Table Guesser logs](view-nlq-table-guesser-logs.md)
+[View NLQ Table Guesser logs]()
 

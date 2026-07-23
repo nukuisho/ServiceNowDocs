@@ -2,6 +2,7 @@
 title: Work on a group life insurance underwriting task
 description: An underwriter can work on a group life insurance underwriting task to evaluate the policy request and analyze risks for an insurance policy customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-group-life-insurance-underwriting-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,11 +26,11 @@ The configured workflow automatically generates an underwriting task for an unde
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the underwriting task list.
 
-<table><tbody><tr><td id="d54832e88">
+<table><tbody><tr><td id="d56781e88">
 
 **From the Group Life Underwriting task list**
 
@@ -50,15 +51,15 @@ The configured workflow automatically generates an underwriting task for an unde
 
 6.  Close the task from the underwriting task form.
 
-<table><thead><tr><th align="left" id="d54832e169">
+<table><thead><tr><th align="left" id="d56781e169">
 
 Underwriting task
 
-</th><th align="left" id="d54832e172">
+</th><th align="left" id="d56781e172">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d54832e178">
+</th></tr></thead><tbody><tr><td id="d56781e178">
 
 **To review coverage change**
 
@@ -68,7 +69,7 @@ To close the task:-   In the case playbook, click **Mark complete**.
 -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d54832e205">
+</td></tr><tr><td id="d56781e205">
 
 **To submit a review**
 

@@ -2,6 +2,7 @@
 title: Activate Content Experiences
 description: You can activate the Content Experiences \[sn\_ca\] plugin if you have the admin role to deliver targeted content and campaigns to keep employees informed and engaged. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/activate-content-automation-plugin.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,15 +36,15 @@ Content Experiences plugin activates these related plugins if they are not alrea
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  
 
 
-[Components installed with Content Experiences](../reference/installed-with-content-auto.md)
+[Components installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/installed-with-content-auto.md)
 
-[Properties installed with Content Experiences](../reference/properties-installed-with-content-auto.md)
+[Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md)
 
-[Creating campaigns](../concept/ecpro-campaigns.md)
+[Creating campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 

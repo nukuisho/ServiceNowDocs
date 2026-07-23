@@ -2,6 +2,7 @@
 title: Initial setup for Enterprise Graph schema in production instance
 description: Setup and use Enterprise Graph Schema, a unified knowledge graph schema, that captures all the ServiceNow and third party tables and their connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/initial-setup-for-enterprise-graph-schema.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph
@@ -23,7 +24,7 @@ If you have already completed the setup in sub-production instance, you can impo
 
 Assuming that you have completed the setup in sub-production instance, do the following to complete the initial setup in production instance:
 
--   Create an integration user, in the sub-production instance. For more information, see [https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/users-and-groups/task/t\_CreateAUser.html](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html)
+-   Create an integration user, in the sub-production instance. For more information, see 
 -   Verify if the descriptions are generated in sub-production instance.
 -   Use the following procedure to:
     -   Import the data into production.
@@ -36,21 +37,21 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
 
-    ![image.connection-and-credntials-page]
+    \[Omitted image "image.connection-and-credntials-page"\] Alt text: Connection and credentials navigation
 
 2.  Open the record with name **Description\_Connector**.
 
 3.  Select **Create New Connection &amp; Credential** from the related links section.
 
-    ![image.connection-and-credentials-aliases]
+    \[Omitted image "image.connection-and-credentials-aliases"\] Alt text: Create connection and credentials aliases
 
 4.  Enter the required details in the **Create Connection &amp; Credential** form.
 
-    ![image.create-connection-and-credntials]
+    \[Omitted image "image.create-connection-and-credntials"\] Alt text: Create connection and credentials form
 
 5.  Add the user name and password that was used, while creating the new user.
 
-    See [https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/users-and-groups/task/t\_CreateAUser.html](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html) for more information.
+    See  for more information.
 
 6.  Navigate to **All** &gt; **System Import Sets** &gt; **Administration** &gt; **Data Sources**.
 
@@ -62,23 +63,23 @@ Role required: admin
     -   KG Column Picker Description.
     -   KG Table Picker Description.
     -   KG Triplet Picker Description.
-    ![Picker description options](../Images/choice-tables-kg.png)
+    \[Omitted image "choice-tables-kg.png"\] Alt text: Picker description options
 
 8.  Open one of the displayed table and select **Load All Records** from the Related links section.
 
-    Ensure the data is loaded.![image.table-picker-kg]
+    Ensure the data is loaded.\[Omitted image "image.table-picker-kg"\] Alt text: KG Table picker
 
 9.  Navigate to **System Import Sets** &gt; **Advanced** &gt; **Import Sets**, once the data is loaded.
 
-    For detailed information, see import set documentation [https://www.servicenow.com/docs/bundle/yokohama-integrate-applications/page/administer/import-sets/reference/import-sets-landing-page.html](https://www.servicenow.com/docs/bundle/yokohama-integrate-applications/page/administer/import-sets/reference/import-sets-landing-page.html)![image.import-set-kg]
+    For detailed information, see import set documentation \[Omitted image "image.import-set-kg"\] Alt text: Import set
 
 10. Open the import set and select **Transform** from the Related links section.
 
-    For detailed information, see Transform map documentation [https://www.servicenow.com/docs/bundle/yokohama-integrate-applications/page/script/server-scripting/concept/c\_CreatingNewTransformMaps.html](https://www.servicenow.com/docs/bundle/yokohama-integrate-applications/page/script/server-scripting/concept/c_CreatingNewTransformMaps.html)
+    For detailed information, see Transform map documentation 
 
 11. Select **Transform** to complete the transformation.
 
-    ![image.transform-page-kg]
+    \[Omitted image "image.transform-page-kg"\] Alt text: Transform option
 
 12. Navigate to the selected table and verify if the data is loaded.
 

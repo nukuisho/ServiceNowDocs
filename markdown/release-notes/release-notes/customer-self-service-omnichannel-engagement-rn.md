@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 14
 ---
 
 # Self-service and omnichannel engagement for CSM release notes
@@ -14,19 +14,19 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
 ## Self-service and omnichannel applications for CSM highlights for the Australia release
 
+-   Set up SSO for the Amazon Connect CCaaS integration using a SAML-compatible identity provider. Agents can access the Contact Control Panel without separate credentials.
 -   Enhance B2C consumer support through ServiceNow AI Platform self-service capabilities with the Consumer Portal.
 -   Embed components into external websites to provide users with access to the self-service capabilities on the ServiceNow AI Platform.
--   Reduce manual documentation and maintain consistency by using Now Assist to auto-generate wrap up codes and summaries from transcripts.
--   Enable agents to initiate outbound email interactions from contact or consumer records, with configurable automated reminders to end users, enabling proactive customer engagement and comprehensive email tracking. Improve reporting reliability and compliance with configurable wrap‑up codes for CCaaS and AWA‑routed email interactions.
+-   Support agent efficiency by automatically linking email replies on closed interactions to open cases, generating AI summaries on demand, and enabling CCaaS or AWA-routed transfers.
 -   Schedule, reschedule, and cancel native callbacks from Agent Workspace across all omnichannel interactions \(chat, voice, email, and messaging\) and cases without switching to external tools or applications.
 
-See [Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/omnichannels-communicating-customers.md), [Self-service for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/self-service-options-csm-customers.md), and [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md) for more information.
+See , [Self-service for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/self-service-options-csm-customers.md), and [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md) for more information.
 
 **Important:** Self-service and omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md)**
+-   **[Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-web-embeddables.md)**
 
     Embed ServiceNow components into any third-party website or web application to extend the ServiceNow AI Platform capabilities. You can use a library of default configurable components or create custom components.
 
@@ -51,10 +51,10 @@ See [Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/au
 
 -   **[Agent help request for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-help-request-for-voice-calls.md)**
 
-    Empower agents to request supervisor assistance during calls by selecting the **Help Request** button. Agents can specify reasons why they are calling for help to provide more context to the supervisor before the supervisor responds, and receive notifications when supervisors coach or join. All help request data is captured for reporting for data-driven coaching. Some other key features include the following:
+    Agents can request supervisor assistance during active calls using the **Help Request** button, specify a reason to give supervisors context before they respond, and receive notifications when supervisors coach or join. All help request data is captured for reporting to support data-driven coaching. Additional agent workflow enhancements include:
 
-    -   Configure phone directory to show or hide Agents, Queues, or External tabs based on CCaaS provider settings. Agents see tabs enabled by the CCaaS provider, preventing transfers to unsupported numbers.
-    -   While handling a customer call, agents can now see accurate availability status for other agents, supporting informed transfer decisions. Agent availability status updates in the transfer list and phone directory in real-time during call transfers.
+    -   Configure the phone directory to show or hide the Agents, Queues, or External tabs based on CCaaS provider settings, preventing transfers to unsupported numbers.
+    -   During active calls, agents can view real-time availability status for other agents in the transfer list and phone directory, supporting more informed transfer decisions.
 -   **[Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)**
 
     Automatically suggest a wrap-up code and generate an interaction summary based on conversation transcripts by using Now Assist, which reduces manual documentation time and contributes to consistent record-keeping. Choose automatic or agent-initiated generation to fit your workflow.
@@ -84,25 +84,51 @@ See [Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/au
 
     The new capabilities for outbound interactions initiated by agents through email are:
 
-    -   Initiate outbound email interactions from contact or consumer records by selecting email addresses or using the Compose Email UI option, opening a modeless email composer with the recipient's email address auto populated.
+    -   Initiate outbound email interactions from contact or consumer records by selecting email addresses or using the Compose Email UI option, opening a modeless email composer with the recipient's email address auto-populated.
     -   Automatic creation of Work‑In‑Progress \(WIP\) outbound email interactions when agents initiate an email to a customer.
     -   Preserve email drafts when agents navigate away, and automatically close interactions that show no sent or received email activity and contain only unsent drafts within a rolling 30‑day period. Any agent activity on the draft resets the 30‑day window.
     -   Consolidate multiple agent‑initiated drafts into a single, unified interaction within service workflows, with ownership assigned to the sending agent. You can optionally configure the system to create separate interactions for each draft for the same contact.
     -   Configurable reminder windows for sending automated reminder emails when customers don’t respond.
     -   Customer response notifications on the ongoing tab and interaction linking in contact or consumer related lists for seamless conversation tracking.
--   **[Email interaction feature: Transfer Email Interactions routed by CCaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-email-interaction-page.md)**
+-   **[Email interaction feature: Transfer Email Interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-email-interaction-page.md)**
 
-    Transfer CCaaS‑routed email interactions to another agent or queue, improving accurate handoff and workload distribution.
+    Transfer CCaaS or AWA-routed email interactions to another queue or agent. When transferring to a queue, corresponding routing rules apply automatically. When transferring to a specific agent, the interaction is directly assigned.
+
+-   **[Email interaction feature: Email reply routing and summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-email-interaction-page.md)**
+
+    The new capabilities for smart email routing and summarization are:
+
+    -   Receive customer email replies on the correct open case or interaction automatically, with ServiceNow Otto® selecting the best-matching case when multiple open cases exist.
+    -   Get AI summaries automatically on transfer and on demand, reducing the need to read the full email thread.
+    -   See summaries instantly on page refresh without re-running AI, and refresh with one click when new activity arrives on the interaction.
+    **Note:** Check your entitlements to determine whether you have access to summarization and AI-based context matching.
+
+-   **[Usage insights for call events enabled using Interaction Controls Component \(ICC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/usage-insight-for-icc-enabled-call-events.md)**
+
+    Monitor call events from ICC enabled agent sessions for the customer, in **Usage Insights** available under **Platform Analytics**. View, filter, and inspect event payloads for actions such as muting, recording, and coaching session initiation. To enable tracking, turn on the Analytics toggle in the agent's profile preferences and add the agent's **sys\_id** to the **sn\_openframe.logger.enabled.users** system property.
+
+-   **[Amazon Connect SSO integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/amazon-connect-sso-integration-with-servicenow.md)**
+
+    Configure Single Sign-On \(SSO\) between ServiceNow and Amazon Connect by adding the identity provider SSO URL to the Amazon Connect instance configuration. When a Security Assertion Markup Language \(SAML\) compatible identity provider is configured, agents signed in to ServiceNow can access Amazon Connect in the Contact Control Panel \(CCP\) without separate credentials.
+
+-   **[Call Wrap-Up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-agent-wrap-up-during-active-call.md)**
+
+    Initiate the wrap-up process before a call ends using the **Open Wrap-Up** button in the ICC enabled Active Call window. Agents can enter wrap-up codes and notes in real time, and minimize or expand the wrap-up modal as needed to maintain context during the call. Enable this feature for your CCaaS integration.
+
+-   **[Implement the overflow menu for active calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/implement-overflow-menu-icc.md)**
+
+    Access primary call controls, such as Recording, Hold, Mute, Transfer, and Help Request, directly on the active call interface. When controls exceed five or the available display width, additional CCaaS-defined actions are available through an overflow menu.
 
 
 ## UI changes
 
--   **[Agent help request for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-help-request-for-voice-calls.md)**
+-   **[Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md)**
 
-    The following UI components have been added to the Global Call window in the agent CSM Configurable Workspace when making outbound calls from a keypad or phone directory:
+    The following UI components are available in the Active Call window, enabled via ICC in the CSM Configurable Workspace:
 
     -   A **Help Request** button to seek supervisor assistance during an active call.
-    -   A **Cancel Help Request** button to cancel a submitted help request at any time during the active call.
+    -   A **Cancel Help Request** or **End Help Request** button to cancel and end a submitted help request at any time during the active call.
+    -   An overflow menu icon \(ellipsis\) to access secondary call control buttons when the number of controls exceeds five or when the available display width is exceeded.
 -   **[Using the interaction and case page for callback request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-pages-templates.md)**
 
     The following UI components have been added on the interaction and case pages:
@@ -119,27 +145,50 @@ See [Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/au
 
     -   A **Compose Email** UI option to contact and consumer records for initiating outbound email interactions from these records.
     -   Clickable email addresses to contact and consumer records to open the email composer with the recipient address automatically inserted.
-    -   A **Transfer Email** option with list of available agents and queues has been added for CCaaS‑routed email interactions, enabling agents to transfer the interaction to the selected queues or agents.
+    -   A **Transfer Email** option with list of available agents and queues has been added for AWA or CCaaS‑routed email interactions, enabling agents to transfer the interaction to the selected queues or agents.
     -   A unified wrap‑up dialog has been added to provide a single closure experience for email interactions routed through AWA or CCaaS.
+    -   A **Summarize** button on the email interaction page to trigger an AI summary of the full conversation.
+    -   A Refresh Summary icon on the summary card to manually re-trigger summarization at any point.
+    -   Feedback icons and copy icon on the summary card to indicate whether the summary is helpful and to copy the summary text.
+-   **[Call Wrap-Up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-agent-wrap-up-during-active-call.md)**
+
+    Manage wrap-up during active calls using new UI components in the Active Call window in the CSM Configurable Workspace:
+
+    -   An **Open Wrap-Up** button to initiate the wrap-up process during an active call.
+    -   **Minimize** and **Expand** controls on the wrap-up modal to manage screen space while remaining on the call.
 
 ## Changed in this release
 
--   **[Customer Service Portal Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.md)**
+-   **[Customer Service Portal Base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-service-portals.md)**
 
     Starting with the Australia release, the Customer Service Portal Base plugin \(com.snc.csm\_portal\_base\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Customer Service Portal Base store app. This change improves packaging, versioning, and deployment flexibility for implementations that require portal framework, responsive design, case management, knowledge integration, and community features. The store app also includes email integration, translation support, attachment handling, and mobile enhancements.
 
--   **[Subscriptions and Activity Feed Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/actsub-api.md)**
+-   **Subscriptions and Activity Feed Framework**
 
     Starting with the Australia release, the Subscriptions and Activity Feed Framework plugin \(com.snc.subscriptions\_activity\_feed\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Subscriptions and Activity Feed Framework store app. This change improves packaging, versioning, and deployment flexibility for implementations that require subscription framework, activity tracking, notification preferences, or context management.
 
--   **[Walk-Up for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-experience.md)**
+-   **[Walk-Up for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-walkup-experience.md)**
 
     Starting with the Australia release, the Walk-up for CSM plugin \(com.snc.walkup\_for\_csm\) has been migrated to the App Store as a standalone application. Future enhancements are delivered through the Walk-up for CSM store app. This change improves packaging, versioning, and deployment flexibility for implementations that require subscription framework, activity tracking, notification preferences, or context management.
+
+-   **[Walk-up Check-in on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/walkup-checkin-businessportal.md)**
+
+    Initiate a walk-up check-in directly from the Business Portal home page without navigating away from the landing experience.
+
+-   **[Portal Data List widget JSON parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-datalist-widget-data-json.md)**
+
+    Generate dynamic record view URLs with the Data List widget. Portal admins can configure the target record context, parent table, child table, or reference table and the portal builds the URL with the relevant parameters to render the correct record view at runtime.
+
+-   **[Portal Object widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/port-object-inst-options.md)**
+
+    Adds a Dynamic portal object instance option to the Portal Object widget \(turned off by default\). When turned on, the widget reads the extended table, record ID, and view from URL parameters and derives the card title, image field, summary view fields, and detail view from the view definition on the extended table without requiring static configuration in the widget instance.
 
 
 ## Activation information
 
-Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+Check your entitlements to determine whether you have access to AI email summarization and AI-based context matching for multi-case linking. For details, see [Activate email interaction summarization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-email-summarization-csm.md) and [Activate contextual email matching for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-contextual-email-matching-csm.md).
 
 ## Plugin information
 
@@ -148,9 +197,9 @@ Install self-service and omnichannel applications, such as OpenFrame and Interac
     The following plugins are new in the Australia release:
 
     -   Customer Service integration with Social Media Store \(sn\_cs\_social\_host\): The Customer Service integration with Social Media app enables agents to select Social as the communication channel and add a social profile to the Case form. Any communication with customers or consumers that takes place through social media is recorded on the Case form in the Social Logs related list. For more information, see [Social media communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/social-media-integration.md)
-    -   Web Components for Customers \(sn\_cx\_components\): The plugin adds Case create and Case view Web Embeddables components to your ServiceNow instance. You can clone and configure them, and embed on your third-party website. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
-    -   Web Embeddable Core \(sn\_embeddable\_core\): This plugin enables you to create, edit, clone, delete, and organize components into modules, groups, and instances. Each instance can be configured with a live preview. It also provides tools to manage CORS rules for secure integration. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
-    -   Web Components for Guest \(sn\_guest\_component\): This plugin enables guest user access to Knowledge article view and Catalog item Web Embeddables components on third-party websites. It allows unauthenticated users to view public knowledge articles and submit catalog items without logging in. You can configure access controls to determine which content is publicly accessible. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.md).
+    -   Web Components for Customers \(sn\_cx\_components\): The plugin adds Case create and Case view Web Embeddables components to your ServiceNow instance. You can clone and configure them, and embed on your third-party website. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/act-web-embeddables.md).
+    -   Web Embeddable Core \(sn\_embeddable\_core\): This plugin enables you to create, edit, clone, delete, and organize components into modules, groups, and instances. Each instance can be configured with a live preview. It also provides tools to manage CORS rules for secure integration. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/act-web-embeddables.md).
+    -   Web Components for Guest \(sn\_guest\_component\): This plugin enables guest user access to Knowledge article view and Catalog item Web Embeddables components on third-party websites. It allows unauthenticated users to view public knowledge articles and submit catalog items without logging in. You can configure access controls to determine which content is publicly accessible. For more information, see [Activate Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/act-web-embeddables.md).
 -   **Plugins planned for deprecation**
 
     These plugins are planned for deprecation in the C release. Beginning with the Australia release, these plugins will be migrated to store applications. Upgrade your instance to Australia release version and the store applications will be automatically installed:
@@ -162,7 +211,11 @@ Install self-service and omnichannel applications, such as OpenFrame and Interac
 
 ## Browser requirements
 
-Starting with the Australia release, self-service and omnichannel application don't support Internet Explorer. For more information, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Starting with the Australia release, self-service and omnichannel application don't support Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
+
+## Accessibility information
+
+CSM Engagement Messenger now supports reflow, allowing content to be zoomed up to 400% in a browser without loss of content or functionality. Page layouts automatically transform into a vertical, stacked view at 400% zoom. This update benefits users with low vision and those working across varied devices and environments.
 
 ## Related ServiceNow applications and features
 
@@ -170,7 +223,7 @@ Starting with the Australia release, self-service and omnichannel application do
 
     The Field Service Management application helps you manage work orders and related tasks, resources, skills, assets, and locations. Assign work order tasks and dispatch agents to a customer location to perform field work.
 
--   **[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)**
+-   **[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management.md)**
 
     From the Customer Service Portal and Consumer Service Portal, enable your customers to search for shared information using the Knowledge Management application. Customer service agents can use knowledge content to help resolve cases.
 
@@ -179,5 +232,5 @@ Starting with the Australia release, self-service and omnichannel application do
     The following IT Service Management applications can integrate with Customer Service Management: [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-incident.md), [Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-problem.md), [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-change.md), and [Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-sm-request.md). With these integrations, you can create incident, problem, change, and request records from customer service cases. Customers can also submit requests from the Customer Service Portal.
 
 
-**Parent Topic:**[Customer Service Management release notes](customer-service-mgmt-rn-landing.md)
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 

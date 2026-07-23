@@ -1,7 +1,8 @@
 ---
 title: Generating forms with Now Assist
-description: Learn how the Now Assist in Creator application helps you to create forms for you in Creator Studio.
+description: Learn how Now Assist for Creator helps you to create forms for you in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-text-to-form.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -13,7 +14,7 @@ breadcrumb: [Forms in apps, Build apps, Creator Studio, Building no-code applica
 
 # Generating forms with Now Assist
 
-Learn how the Now Assist in Creator application helps you to create forms for you in Creator Studio.
+Learn how Now Assist for Creator helps you to create forms for you in Creator Studio.
 
 ## Now Assist in Creator Studio overview
 
@@ -23,9 +24,11 @@ The application uses the Now Assist for Creator skills, such as Catalog item gen
 
 **Note:** You must be assigned the now.assist.creator role to create the forms using Now Assist.
 
+Forms generated with Now Assist appear with an AI icon \[Omitted image "crs-ai-banner-logo.png"\] Alt text: in the application banner.
+
 ## Now Assist in Creator Studio benefits
 
-The benefits of using Now Assist to generate forms in Creator Studio are below:
+The benefits of using Now Assist to generate forms in Creator Studio include the following:
 
 -   Forms of your choice are created quickly with just a direction.
 -   If you provide more details about your form while writing the direction, Now Assist can generate the form specifically to meet your needs.
@@ -35,9 +38,9 @@ The benefits of using Now Assist to generate forms in Creator Studio are below:
 
 **Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## AI limitations
@@ -52,5 +55,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-**Parent Topic:**[Working with forms in Creator Studio](creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
 

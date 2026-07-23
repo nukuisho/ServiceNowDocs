@@ -2,12 +2,13 @@
 title: Work item hierarchy for EAP teams
 description: View and manage the complete work item hierarchy across your portfolio configurations directly from the Hierarchy tab in the Enterprise Agile Planning \(EAP\) workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/eap-hierarchy-tab.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-07-07"
+reading_time_minutes: 6
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -19,7 +20,7 @@ Agile teams may often struggle to understand how their day-to-day work rolls up 
 
 The Hierarchy tab in Enterprise Agile Planning \(EAP\) provides a unified view of work items across all levels of your portfolio structure, from high-level epics down to individual stories. This hierarchical display of work updates dynamically based on your selected portfolio configuration, giving team members immediate visibility into how their work contributes to broader objectives.
 
-![Hierarchy tab of a Portfolio in Enterprise Agile Planning, in which the first Epic is expanded to show its child items Capability, Feature, and Stories in their hierarchy.](../images/eap-hierarchy.png "Hierarchy tab of a Portfolio in Enterprise Agile Planning")
+\[Omitted image "eap-hierarchy.png"\] Alt text: Hierarchy tab of a Portfolio in Enterprise Agile Planning, in which the first Epic is expanded to show its child items Capability, Feature, and Stories in their hierarchy.
 
 ## When to use
 
@@ -39,7 +40,7 @@ If you only need to track work items at a single level \(for example, just stori
 
 -   **For scrum masters**
 
-    Understand cross-team dependencies at a glance, facilitate conversations about work that spans multiple agile teams, and help team members see how their sprint commitments connect to release-level objectives.
+    Facilitate conversations about work that spans multiple agile teams and help team members see how their sprint commitments connect to release-level objectives.
 
 -   **For agile team members**
 
@@ -54,12 +55,29 @@ If you only need to track work items at a single level \(for example, just stori
 
 -   **Context-sensitive navigation**
 
-    The hierarchy automatically adjusts based on your selected portfolio configuration. Selecting a Solution Train displays only the epics, capabilities, features, and stories relevant to that configuration.
+    When a team is selected, hierarchy view displays all the work that the selected team or its child teams contribute towards.
 
 -   **On-demand expansion**
 
     Child work items load only when you expand a parent item. This approach keeps the interface responsive, as you only retrieve the data you need.
 
+-   **Live hierarchy updates**
+
+    When you create a work item, it appears in the hierarchy immediately. You don't need to refresh the page or leave the Hierarchy tab to confirm that your new item landed in the right place.
+
+    -   A new top-level item appears alongside the existing top-level items for the selected portfolio configuration.
+    -   A new child item appears under its parent when that parent is expanded in your current view.
+    -   If the parent is collapsed or isn't loaded in your current view, the new item isn't displayed until you expand that parent.
+    -   If a filter is active and the new item doesn't match the filter, the item isn't displayed in your current view. A confirmation message provides a link to open the new item directly.
+-   **Refresh with state preservation**
+
+    Selecting **Refresh** reloads the data in the Hierarchy grid without collapsing your expanded rows or losing your scroll position.
+
+    -   Rows that were deleted since your last refresh are removed without an error.
+    -   New child items that were added since your last refresh appear under their expanded parent.
+    -   Expanded rows stay expanded when you switch tabs or switch teams and return to the Hierarchy tab.
+    -   Applying or removing a filter collapses all expanded rows. Refreshing while a filter is applied retains the expansion state.
+    -   If the grid displays more than 100 non-root items or more than 100 stories, selecting Refresh shows a confirmation dialog before collapsing all rows. Select **Cancel** to keep your current view unchanged.
 -   **Interactive filters**
 
     Filter the hierarchy by work item type using the Filters option. Filtering enables you to focus on the work items that you need and are relevant for you.
@@ -68,7 +86,7 @@ If you only need to track work items at a single level \(for example, just stori
 
 -   **Personalized column display**
 
-    Customize which columns appear in the hierarchy grid and adjust column widths to match your workflow. Your preferences persist across sessions, so you see your configured view each time you return. For more information, see [Personalize column layout of Hierarchy in EAP](../task/personalize-column-layout-of-hierarchy-in-eap.md).
+    Customize which columns appear in the hierarchy grid and adjust column widths to match your workflow. Your preferences persist across sessions, so you see your configured view each time you return. For more information, see [Personalize column layout of Hierarchy in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/personalize-column-layout-of-hierarchy-in-eap.md).
 
 -   **Direct record access**
 
@@ -96,11 +114,15 @@ If you only need to track work items at a single level \(for example, just stori
 
     For optimal performance, the hierarchy initially loads only the top 100 work items at each level, ordered by global rank. If your portfolio contains more than 100 top-level work items, use filters to narrow your view to the relevant subset.
 
-    If you want to change this default number, work with your admin to create a **sn\_apw\_advanced.eap\_hierarchy\_items\_limit** system property. For more information, see [Modify display limit in Hierarchy tab of EAP](../task/hierarchy-display-limit-eap.md).
+    If you want to change this default number, work with your admin to create a **sn\_apw\_advanced.eap\_hierarchy\_items\_limit** system property. For more information, see [Modify display limit in Hierarchy tab of EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/hierarchy-display-limit-eap.md).
 
 -   **Enabling the Hierarchy view**
 
-    The Hierarchy tab requires your admin to enable it through the **sn\_apw\_advanced.enable\_hierarchy\_view** system property. See [Enable Hierarchy tab in EAP](../task/hierarchy-enable-eap.md).
+    The Hierarchy tab requires your admin to enable it through the **sn\_apw\_advanced.enable\_hierarchy\_view** system property. See [Enable Hierarchy tab in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/hierarchy-enable-eap.md).
+
+-   **Form view fields and page load performance**
+
+    When fields are added to the Hierarchy form view of a work item, all data for that work item type loads on page load. This data load occurs regardless of which columns are selected to display in the Hierarchy. Adding many fields to the form view may increase Hierarchy page load time. For more information, see [Create or update form views for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.md).
 
 
 ## Getting started

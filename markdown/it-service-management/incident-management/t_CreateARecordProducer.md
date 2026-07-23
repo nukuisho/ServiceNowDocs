@@ -2,6 +2,7 @@
 title: Create a record producer to log incidents
 description: Create record producers to log incidents directly from Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_CreateARecordProducer.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -29,7 +30,7 @@ The following example demonstrates how to create a record producer to request a 
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
-2.  Select **New** and complete the steps in [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md) using the following information:
+2.  Select **New** and complete the steps in [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md) using the following information:
 
     |Field|Entry|
     |-----|-----|
@@ -42,7 +43,7 @@ The following example demonstrates how to create a record producer to request a 
     |Catalogs|Service Catalog|
     |Category|Can We Help You?|
 
-    ![Record producer](../image/record-producer.png)
+    \[Omitted image "record-producer.png"\] Alt text: Record producer
 
 3.  Right-click on the form header and from the context menu select **Save**.
 
@@ -61,7 +62,7 @@ The following example demonstrates how to create a record producer to request a 
     |Type Specifications|
     |Reference|IP Router \[cmdb\_ci\_ip\_router\]|
 
-    ![Variables related list](../image/record-producer2.png)
+    \[Omitted image "record-producer2.png"\] Alt text: Variables related list
 
 6.  Select **Submit**.
 
@@ -70,14 +71,14 @@ The following example demonstrates how to create a record producer to request a 
     In Service Catalog, the new catalog item appears and any user can select it.
 
 
-**Parent Topic:**[Incident templates and record producers](../concept/incident-templates-record-producers.md)
+**Parent Topic:**[Incident templates and record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-templates-record-producers.md)
 
 **Related topics**  
 
 
-[Create incident template](t_CreateAnIncidentTemplate.md)
+[Create incident template]()
 
-[Create a module that uses incident template](t_UseATemplateFromAModule.md)
+[Create a module that uses incident template]()
 
-[Create a record producer using a template](t_CreateRecProducWithTempl.md)
+[Create a record producer using a template]()
 

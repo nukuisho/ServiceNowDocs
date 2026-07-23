@@ -2,6 +2,7 @@
 title: IT Discovery for Operational Technology \(OT\) Networks
 description: You can use the IT Discovery for Operational Technology \(OT\) Networks function to discover IT class OT devices. These devices are located in designated Purdue levels within your Industrial Control System \(ICS\) networks. IT class items include switches, routers, and computers that exist both in data centers and in your factories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/discovery-for-operational-technology.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ You can use the IT Discovery for Operational Technology \(OT\) Networks function
 
 The IT Discovery for OT Networks process operates in a manner that is similar to the standard Discovery processes.
 
-![Targeted Purdue levels in standard and Operational Technology Discovery.](../image/OT-discovery-targeted-zones.png "Targeted Purdue levels in standard and IT Discovery for OT Networks Discovery")
+\[Omitted image "ot-discovery-targeted-zones.svg"\] Alt text:
 
 Standard Discovery processing in the ServiceNow AI Platform® normally takes place in the following Purdue levels in your enterprise:
 
@@ -41,7 +42,7 @@ You typically run IT Discovery for OT Networks in the DMZ \(or IDMZ, Purdue Leve
 
 **Note:** To avoid the possibility of disrupting your industrial operations, you should not run Discovery processes against Purdue levels 0 through 2 in your ICS networks.
 
-![IT Discovery for OT Network processing.](../image/ot-discovery-schedule-processing.png "IT Discovery for OT Networks processing")
+\[Omitted image "ot-discovery-schedule-processing.svg"\] Alt text:
 
 When you run an OT discovery schedule, it performs the following processing:
 
@@ -49,19 +50,19 @@ When you run an OT discovery schedule, it performs the following processing:
 2.  When it completes discovery of a configuration item \(CI\), it internally triggers a \(discovery.device.complete\) event. This logic checks if an OT entity \(cmdb\_ot\_entity\) record exists for it in the Configuration Management Database \(CMDB\).
     -   If one exists, and any related attributes have changed for the discovered item, it updates the OT Entities that are related to that CI.
     -   If one does not exist, it creates one for it.
-3.  In addition to the location attribute, it also pushes the defined attributes from the OT discovery schedule to the CI and to the related OT entity records.
+3.  And the location attribute, it also pushes the defined attributes from the OT discovery schedule to the CI and to the related OT entity records.
 4.  It also creates OT entity records for the applications installed on discovered OT devices. To view the applications that have OT entity records created through IT Discovery for OT Networks, navigate to the Industrial Workspace list view and open the **Applications** list under **Operational Technology \(OT\)**.
 
 **Related topics**  
 
 
-[Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md)
+[Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md)
 
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
+[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md)
 
-[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-discovery.md)
+[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r-discovery.md)
 
-[Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoProcessFlows.md)
+[Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_DiscoProcessFlows.md)
 
-[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
+[Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_CreateADiscoverySchedule.md)
 

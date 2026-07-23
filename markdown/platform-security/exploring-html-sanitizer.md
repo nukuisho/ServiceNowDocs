@@ -2,6 +2,7 @@
 title: Exploring HTML sanitizer
 description: Remove unwanted code and protect against security concerns such as cross-site scripting attacks by sanitizing HTML markup in HTML fields and translated HTML fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-html-sanitizer.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,11 +36,11 @@ For example:
 <a href="https://community.servicenow.com/community">ServiceNow Community</a>
 ```
 
-**Note:** To learn more about the **glide.html.sanitize\_all\_fields** property that controls use of the HTML sanitizer, see [Enable HTML Sanitizer \[Updated in Security Center 1.3\]](../../security-center/reference/sc-html-sanitizer.md) in Instance Security Hardening Settings.
+**Note:** To learn more about the **glide.html.sanitize\_all\_fields** property that controls use of the HTML sanitizer, see [Enable HTML Sanitizer \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-html-sanitizer.md) in Instance Security Hardening Settings.
 
 ## Configure urlAttributes and the protocols
 
-You can configure urlAttributes and their protocols in the **HTMLSanitizer** script include. For example:
+You can configure urlAttributes and their protocols in the **HTMLSanitizerConfig** script include. In the script include, `HTML_WHITELIST` configures the inclusion list and `HTML_BLACKLIST` configures the exclusion list. For example:
 
 ```
 HTML_WHITELIST : {
@@ -72,7 +73,7 @@ BUILTIN_HTML_WHITELIST :{
  
     a:{ attribute:["href","nohref","name","shape"]},
  
-    img:{ attribute:["src","name","alt","border","hspace","vspace","align","height","width"},
+    img:{ attribute:["src","name","alt","border","hspace","vspace","align","height","width"]},
  
     table:{ attribute:["border","cellpadding","cellspacing","bgcolor","background","align","no resize","height","width","summary","frame","rules"]},
  
@@ -94,7 +95,7 @@ BUILTIN_HTML_WHITELIST :{
  
     p:{attribute:["align"]},
  
-    style:{attributeValuePattern:{"type":"text/css"}}
+    style:{attributeValuePattern:{"type":"text/css"}},
  
     canvas:{ attribute:["height","width"]},
  

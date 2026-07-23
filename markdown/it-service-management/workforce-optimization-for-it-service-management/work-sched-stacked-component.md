@@ -2,6 +2,7 @@
 title: Configure a display type component for a Work scheduler card
 description: Add the Label value stacked display work item fields within the card.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/work-sched-stacked-component.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -33,26 +34,26 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     1.  In the Alignment menu, select **Horizontal-equal**.
     2.  In the Size menu, select **Small**.
-    3.  Hover over **Items**and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+    3.  Hover over **Items**and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
     4.  In the **Items** menu, enter **@state.cardProps.content**.
     5.  In the **Item min, width** field, enter `75 px`.
     6.  Enable **Wrap text** and **Truncated** options.
     7.  Click **Save**.
-    Here's a demo on how to configure a display type component for a Work scheduler card.Configure a display type component for a Work Scheduler card
+    Here's a demo on how to configure a display type component for a Work scheduler card.
 
 
 ## What to do next
 
-[Configure an avatar component for Work scheduler](work-sched-avatar-component.md)
+[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-avatar-component.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-itsm.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md)
 
-**Previous topic:**[Configure a Work scheduler card heading component](work-sched-card-based-header.md)
+**Previous topic:**[Configure a Work scheduler card heading component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-header.md)
 
-**Next topic:**[Configure an avatar component for Work scheduler](work-sched-avatar-component.md)
+**Next topic:**[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-avatar-component.md)
 
 **Related topics**  
 
 
-[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-workspace-settings.md)
+[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-workspace-settings.md)
 

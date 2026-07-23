@@ -2,6 +2,7 @@
 title: Provide feedback for a knowledge article in the Now Mobile Information applet
 description: You can contribute to feedback on knowledge articles by rating an article, marking an article as helpful or not helpful, and posting and replying to comments for an article in the Now Mobile Information applet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/respond-evaluate-articles.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -18,6 +19,8 @@ You can contribute to feedback on knowledge articles by rating an article, marki
 ## Before you begin
 
 You can specify user criteria for an article to control which users can read the article. If no user criteria is defined for an article, all users can read the article.
+
+Role required: none
 
 ## Procedure
 
@@ -49,7 +52,7 @@ Mark an article as helpful or unhelpful
 
 </td><td>
 
-Tap the helpful icon \(![Helpful icon](../image/KnowledgeHelpful.png)\) or the not helpful icon \(![Not helpful icon](../image/KnowledgeNotHelpful.png)\).
+Tap the helpful icon or the not helpful icon.
 
 </td></tr><tr><td>
 
@@ -73,7 +76,7 @@ Like a comment on the article
 
 </td><td>
 
-Underneath a comment, tap the like icon \(![Like icon](../image/like-comment-now-mobile.png)\).
+Underneath a comment, tap the like icon
 
 </td></tr><tr><td>
 
@@ -81,7 +84,7 @@ Reply to a comment on the article
 
 </td><td>
 
-Underneath a comment, tap the reply icon \(![Reply icon](../image/reply-comment-now-mobile.png)\), enter your comment in the text box that appears, and then tap **Submit**.
+Underneath a comment, tap the reply icon , enter your comment in the text box that appears, and then tap **Submit**.
 
 </td></tr><tr><td>
 
@@ -89,7 +92,7 @@ Delete any previous comments or replies you posted earlier
 
 </td><td>
 
-Go to a comment or reply, and then tap the delete icon \(![Delete icon](../image/delete-comment-now-mobile.png)\). If a message appears, tap **OK**. Only users who have posted the comment, knowledge administrators, and knowledge owners can delete a comment.
+Go to a comment or reply, and then tap the delete icon . If a message appears, tap **OK**. Only users who have posted the comment, knowledge administrators, and knowledge owners can delete a comment.
 
 </td></tr><tr><td>
 
@@ -101,12 +104,12 @@ View files, if available, attached to a comment. To view a file, tap the file na
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Mobile for Knowledge Management](../concept/mobile-experience-for-km.md)
+**Parent Topic:**[Using Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/mobile-experience-for-km.md)
 
 **Related topics**  
 
 
-[View an article in the Now Mobile Information applet](view-article-now-mobile.md)
+[View an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-now-mobile.md)
 
-[Control access at the knowledge article level through user criteria](t_SelectUCArticle.md)
+[Control access at the knowledge article level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
 

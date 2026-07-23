@@ -2,6 +2,7 @@
 title: Navigating the Usage Insights for Web Embeddable application
 description: Learn how to navigate the Usage Insights application to view telemetry data for Web Embeddables. Access user analytics dashboards that display metrics organized by module and page to understand component user interactions across your external websites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-user-analytics.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -34,7 +35,7 @@ When you launch Usage Insights it displays three tabs based on the selected All 
     This tab enables you to filter and view tracked user interactions for your Web Embeddables components embedded on third-party websites.
 
 
-![Dashboard displaying insights from overview, dashboard, and events tabs.](../image/we-analytics.gif "Web Embeddables dashboard overview")
+\[Omitted image "we-analytics.gif"\] Alt text: Dashboard displaying insights from overview, dashboard, and events tabs.
 
 ## Metrics across the Web Embeddables module
 
@@ -42,7 +43,7 @@ The Overview tab provides key insights into user activity and engagement for you
 
 Select your module from the All Applications from the applications list to see these metrics simultaneously.
 
-![Usage Insights Overview dashboard displays key engagement metrics for Web Embeddables modules with filters for date range, user type, user activity, and more.](../image/we-overview-analytics.png)
+\[Omitted image "we-overview-analytics.png"\] Alt text: Usage Insights Overview dashboard displays key engagement metrics for Web Embeddables modules with filters for date range, user type, user activity, and more.
 
 <table id="table_csm_base_entities"><thead><tr><th>
 
@@ -91,7 +92,7 @@ Filters
 
 </td><td>
 
-Default filters you can use to limit the data, including Date Range, User type, and location. Use the **Add Filter** option to add more filters to the page. For more information, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/filter-user-list.md).
+Default filters you can use to limit the data, including Date Range, User type, and location. Use the **Add Filter** option to add more filters to the page. For more information, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-user-list.md).
 
 </td></tr><tr><td>
 
@@ -189,10 +190,10 @@ You can view basic application usage and event details for all applications with
 
 |Module|Description|
 |------|-----------|
-|Retention|Visualize new users and their rates of return and periods between visits. For more information, see [User retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-retention-analytics.md).|
-|Cohort analysis|Create and analyze custom cohorts or groups of users separated from other users by similar traits or actions. Analyze how many users perform specific sequences of actions, and how often they return to perform specified actions over a given time. For more information, see [Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-cohorts.md).|
-|Conversion funnel|Create funnel reports to analyze user completion rates for a specific task. View conversion rates, the number of users progressing from one step to the next and the average time for users to advance to each step and complete the funnel. For more information, see[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md).|
-|Navigation paths|Visualize users' journeys through your application, discovering the most and least popular paths. For more information, see [Navigation paths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-navigation-paths.md).|
+|Retention|Visualize new users and their rates of return and periods between visits. For more information, see [User retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-retention-analytics.md).|
+|Cohort analysis|Create and analyze custom cohorts or groups of users separated from other users by similar traits or actions. Analyze how many users perform specific sequences of actions, and how often they return to perform specified actions over a given time. For more information, see [Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/uxa-cohorts.md).|
+|Conversion funnel|Create funnel reports to analyze user completion rates for a specific task. View conversion rates, the number of users progressing from one step to the next and the average time for users to advance to each step and complete the funnel. For more information, see[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/funnel-reports-uxa.md).|
+|Navigation paths|Visualize users' journeys through your application, discovering the most and least popular paths. For more information, see [Navigation paths](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-navigation-paths.md).|
 
 |Module| |
 |------|---|
@@ -207,7 +208,7 @@ When you launch Usage Insights, it gives you an option to select the module from
 
 The Events tab enables you to filter a list of tracked user interactions captured by all Web Embeddables components across enabled Usage Insights applications. It displays a list of user interactions such as name of component events, total occurrences, active users, and event type. You can also export the data.
 
-In the Events search bar, enter `[WE]` to filter and display only Web Embeddables components in the list. This prefix identifies all embedded components tracked by Usage Insights and makes it easy to isolate Web Embeddables components from other application events. To narrow your search to a specific component, enter `[WE]` followed by the component name.![Usage Insights Events page shows Web Embeddables component events list with search functionality, displaying event names, total occurrences, active users, and configurable filters for analysis.](../image/WE-events-dashboard.png)
+In the Events search bar, enter `[WE]` to filter and display only Web Embeddables components in the list. This prefix identifies all embedded components tracked by Usage Insights and makes it easy to isolate Web Embeddables components from other application events. To narrow your search to a specific component, enter `[WE]` followed by the component name.\[Omitted image "WE-events-dashboard.png"\] Alt text: Usage Insights Events page shows Web Embeddables component events list with search functionality, displaying event names, total occurrences, active users, and configurable filters for analysis.
 
 ## Event view of a component
 
@@ -273,16 +274,16 @@ The global code generated for Web Embeddables includes key identifiers that enab
 
 ## Enable Usage Insights
 
-Usage Insights is enabled by default for Web Embeddables. When you create a module, it registers with Usage Insights and begins to track component events. Sometimes it can take several hours for the module to get registered. This automatic registration ensures that usage data collection starts from the moment of deployment and allows you to monitor user interactions without additional configuration. For more information, see [Enable Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/enable-user-experience-analytics.md).
+Usage Insights is enabled by default for Web Embeddables. When you create a module, it registers with Usage Insights and begins to track component events. Sometimes it can take several hours for the module to get registered. This automatic registration ensures that usage data collection starts from the moment of deployment and allows you to monitor user interactions without additional configuration. For more information, see [Enable Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-user-experience-analytics.md).
 
 You can also turn off the module by navigating to **Platform Analytics Administration** &gt; **Usage Insights Apps** &gt; **Settings**. Search and select your module, and uncheck the **Active** checkbox.
 
 ## User consent for Usage Insights advanced tracking
 
-Users can opt in or opt out of Usage Insights advanced tracking at any time through their user preferences. This setting gives users control over the collection of detailed interaction data, such as clicks, page views, and component usage patterns. For more information, see [User privacy, tracking, and user consent management in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-track-options.md).
+Users can opt in or opt out of Usage Insights advanced tracking at any time through their user preferences. This setting gives users control over the collection of detailed interaction data, such as clicks, page views, and component usage patterns. For more information, see [User privacy, tracking, and user consent management in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-track-options.md).
 
 **Related topics**  
 
 
-[Web Embeddables component events](../reference/we-events-detail.md)
+[Web Embeddables component events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/we-events-detail.md)
 

@@ -2,12 +2,13 @@
 title: Testing what you built
 description: Test Agent generates test coverage for code created by Build Agent, executes tests, and performs root cause analysis on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-testing.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-30"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Testing what you built
@@ -16,7 +17,7 @@ Test Agent generates test coverage for code created by Build Agent, executes tes
 
 Test Agent extends Build Agent by making every build safe before release. After Build Agent produces code changes in a development instance, Test Agent consumes the same prompt and code context to author functional Automated Test Framework \(ATF\) tests, execute those tests, and triage any failures automatically.
 
-For complete documentation on using Test Agent, see [Test Agent](../../../administer/test-agent/reference/test-agent-landing-page.md).
+For complete documentation on using Test Agent, see [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-landing-page.md).
 
 When a test fails, Test Agent performs a root cause analysis \(RCA\) and either auto-applies safe fixes or surfaces actionable guidance in the chat panel so you can resolve the issue without leaving ServiceNow Studio or the ServiceNow IDE.
 
@@ -73,5 +74,5 @@ Test Agent is available in the following environments and scopes:
 
 **Note:** Test execution requires the ATF Test Generator and Cloud Runner app to be installed and a cloud user set up. See here for more details: https://www.servicenow.com/docs/r/zurich/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-intro.html
 
-**Parent Topic:**[Use Build Agent](../tasks/use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
 

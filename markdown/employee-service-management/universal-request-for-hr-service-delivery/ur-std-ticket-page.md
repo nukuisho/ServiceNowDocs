@@ -2,11 +2,12 @@
 title: Standard Ticket page for Universal Request
 description: The Universal Request standard ticket page enables requesters to view the details of their universal requests from the Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-std-ticket-page.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configuring Universal Request, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
@@ -24,7 +25,7 @@ A requester can view the aggregated and simplified view of the UR activity and a
 
 The Standard ticket page configuration for UR tickets enables you to determine what you want to display as a view. By default, a Universal Request Standard Ticket configuration is available that you can use and customize. Information displayed in different sections of a standard ticket page depends on the individual request type.
 
-**Note:** If you are upgrading from a previous release and want to use the Standard Ticket page for your department, ensure that you enable the **Page Route map** in Service Portal. For more information, see [Enable the page route map for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/config-pageroutemap-stpage.md).
+**Note:** If you are upgrading from a previous release and want to use the Standard Ticket page for your department, ensure that you enable the **Page Route map** in Service Portal. For more information, see [Enable the page route map for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-pageroutemap-stpage.md).
 
 <table id="table_cv4_kmd_gdb"><thead><tr><th>
 
@@ -145,13 +146,13 @@ Displays the activity and attachments from UR, and all the previously associated
 
 When a user clicks to view the Standard Ticket page from a department ticket that was previously a primary ticket of the UR, then the Standard Ticket configuration validates and displays a message asking the user to open the latest page that displays only the activity streams and attachments. The following image displays the message containing a link to open the latest activity stream.
 
--   **[Configure Standard Ticket page for Universal Request](../task/config-standard-ticket.md)**  
+-   **[Configure Standard Ticket page for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-standard-ticket.md)**  
 Use the Standard ticket page configuration for Universal Request to provide a consistent layout across all tickets raised and associated.
 
-**Parent Topic:**[Configuring Universal Request](configure-ur.md)
+**Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
 
 **Related topics**  
 
 
-[Configure Standard Ticket page for Universal Request](../task/config-standard-ticket.md)
+[Configure Standard Ticket page for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-standard-ticket.md)
 

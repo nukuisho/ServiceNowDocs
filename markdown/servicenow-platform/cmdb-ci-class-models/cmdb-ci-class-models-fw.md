@@ -2,6 +2,7 @@
 title: Firewall extension classes
 description: The CMDB CI Class Models app adds or updates classes for firewall devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-fw.html
 release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -17,23 +18,23 @@ The CMDB CI Class Models app adds or updates classes for firewall devices.
 
 CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the [full release notes for all CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufE1FMlVTSFREVDc3S0hTfDMzNDcxMjV8U1VCU0NSSVBUSU9OU3xoSw).
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Firewalls
 
 A firewall is a network security system that, based on security policies, monitors and controls incoming and outgoing network traffic. Firewalls typically form a barrier between an internal network and an untrusted external network such as the internet. It usually consists of security policies that help secure an organization from external threats and cyberattacks. Firewall vendors might provide a centralized firewall manager to manage many firewall devices and the security policies residing on them. For example, Panorama™ is the centralized management system for Palo Alto Networks firewalls.
 
-![Firewall extension classes integrated with the CMDB class hierarchy.](../image/cmdb-ci-class-model-fw-palo-alto-cisco.png "Firewall extension classes integrated with the CMDB class hierarchy (CMDB CI Class Models: Release 1.11.0)")
+\[Omitted image "cmdb-ci-class-model-fw-palo-alto-cisco.png"\] Alt text: Firewall extension classes integrated with the CMDB class hierarchy.
 
-![Firewall extension classes integrated with the CMDB class hierarchy.](../image/cmdb_ci_class_model_fw.png "Firewall extension classes integrated with the CMDB class hierarchy (CMDB CI Class Models: Release 1.10.0)")
+\[Omitted image "cmdb\_ci\_class\_model\_fw.png"\] Alt text: Firewall extension classes integrated with the CMDB class hierarchy.
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models app adds or updates.See the class columns table for further details about the columns added for each class. CMDB CI Class Models: Release 1.10.0 adds or updates the following classes for the discovery of network firewall devices. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+This section lists the classes that the CMDB CI Class Models app adds or updates.See the class columns table for further details about the columns added for each class. CMDB CI Class Models: Release 1.10.0 adds or updates the following classes for the discovery of network firewall devices. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_kbv_s5d_dlb"><thead><tr><th>
 
@@ -93,7 +94,7 @@ Network Interface \[cmdb\_ci\_ni\_interface\]
 
 </td><td>
 
-Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md).
+Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/fortinet-fw-vdoms-rest-discovery.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +106,7 @@ Firewall Security Policy \[cmdb\_ci\_firewall\_sec\_policy\]
 
 </td><td>
 
-Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md).
+Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/fortinet-fw-vdoms-rest-discovery.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ IP Firewall \[cmdb\_ci\_ip\_firewall\]
 
 </td><td>
 
-Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md).
+Discovered by the Next Generation Fortinet Network Firewall - REST pattern. See [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/fortinet-fw-vdoms-rest-discovery.md).
 
 </td></tr><tr><td>
 
@@ -277,5 +278,5 @@ CMDB CI Class Models: Release 1.12.0 adds no columns to the existing classes.
 **Related topics**  
 
 
-[CMDB schema model](c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

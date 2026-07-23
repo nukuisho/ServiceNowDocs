@@ -2,13 +2,14 @@
 title: Locate and pick the hardware assets in your stockroom using the Mobile Agent application
 description: Locate a hardware asset placed in a specific aisle and space in the stockroom by using indoor maps. After locating the asset, pick and drop off the asset to another location within the stockroom using the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/locate-and-pick-hardware-asset-using-mobile-app.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage hardware asset pick tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage hardware asset pick tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Locate and pick the hardware assets in your stockroom using the Mobile Agent application
@@ -33,8 +34,8 @@ Role required: inventory\_user
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon ![Filter icon](../../enterprise-asset-management/image/filter-mobile-task-eam.png) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon ![Filter icon](../../enterprise-asset-management/image/filter-mobile-task-eam.png), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon, tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the Asset pick task for which you have started work.
 
 6.  To locate the hardware asset in the stockroom, on the **Details** tab, tap **Locate**.
@@ -73,12 +74,12 @@ Role required: inventory\_user
     -   The **Location** field of the asset is updated with the drop off location only if you have specified the drop off location.
     -   The Hardware Asset request flow and Hardware Refresh request flow proceed to the next stage.
 
-**Parent Topic:**[Manage hardware asset pick tasks using the Mobile Agent application](../concept/manage-asset-pick-task-ham-mobile-app.md)
+**Parent Topic:**[Manage hardware asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-pick-task-ham-mobile-app.md)
 
 **Related topics**  
 
 
-[Start working on a hardware asset pick task using the Mobile Agent application](start-work-pick-task-mobile-ham.md)
+[Start working on a hardware asset pick task using the Mobile Agent application]()
 
-[Record time worked on a hardware asset pick task using the Mobile Agent application](../concept/record-time-pick-task-mobile-agent-ham.md)
+[Record time worked on a hardware asset pick task using the Mobile Agent application]()
 

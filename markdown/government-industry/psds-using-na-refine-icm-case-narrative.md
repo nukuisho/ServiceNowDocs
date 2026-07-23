@@ -2,6 +2,7 @@
 title: Refine an investigative case narrative using the Now Assist for PSDS Investigative case narrative refinement skill
 description: Review text and surface gaps, inconsistencies, and tone issues before a case narrative is submitted for supervisory review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-na-refine-icm-case-narrative.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,9 +30,9 @@ Role required: admin
 
 4.  In the Case Narrative field, highlight some or all of the case narrative text.
 
-    The AI sparkle icon \(![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)\) should automatically appear.
+    The AI sparkle icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon\) should automatically appear.
 
-5.  Select the AI sparkle icon \(![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)\) and select one of the following
+5.  Select the AI sparkle icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: sparkle icon\) and select one of the following
 
     |Case narrative refinement skill options|Action|
     |---------------------------------------|------|
@@ -39,7 +40,7 @@ Role required: admin
     |**Elaborate**|Expand, enhance, and refine existing narrative text using case context and activity.|
     |**Shorten**|Condense, summarize, or rephrase long narrative text into a shorter, more concise version.|
 
-    ![case narrative refinement skill view](../image/psds-narrative-skill-activated.png)
+    \[Omitted image "psds-narrative-skill-activated.png"\] Alt text: case narrative refinement skill view
 
 6.  Upon selection of the tone, the skill will open a modal with the refined text, and you have the option to insert or reject the suggestion.
 

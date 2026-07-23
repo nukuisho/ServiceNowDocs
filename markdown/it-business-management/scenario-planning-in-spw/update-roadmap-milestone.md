@@ -2,6 +2,7 @@
 title: Update a roadmap milestone
 description: Update or delete the milestones that you added to your portfolio plan or free-form roadmap so that they reflect any change of plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/update-roadmap-milestone.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -18,7 +19,7 @@ Update or delete the milestones that you added to your portfolio plan or free-fo
 
 ## Before you begin
 
-[Add milestones for a roadmap](create-milestones-on-roadmap.md).
+[Add milestones for a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -26,15 +27,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d90983e99">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d93397e99">
 
 Roadmap type
 
-</th><th align="left" id="d90983e102">
+</th><th align="left" id="d93397e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d90983e108">
+</th></tr></thead><tbody><tr><td id="d93397e108">
 
 **Portfolio plan roadmap**
 
@@ -44,7 +45,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d90983e129">
+</td></tr><tr><td id="d93397e129">
 
 **Free-form roadmap**
 
@@ -55,7 +56,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 </td></tr></tbody>
 </table>2.  To reschedule a milestone, you can drag and drop it at a timeline area of your choice.
 
-    ![GIF showing the drag and drop of a milestone in the milestone bar.](../images/reschedule-milestone.gif)
+    \[Omitted image "reschedule-milestone.gif"\] Alt text: GIF showing the drag and drop of a milestone in the milestone bar.
 
     If you want to update other details or delete the milestone, proceed with the following steps.
 
@@ -67,17 +68,17 @@ From the Free-form Roadmaps tab, select a roadmap.
 
     -   To update, edit the field details and click **Save**.
 
-        For information on the form fields, see [Roadmap configuration form](../reference/roadmap-preference-form.md).
+        For information on the form fields, see [Roadmap configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/roadmap-preference-form.md).
 
     -   To delete the milestone, click **Delete.**
 
         Select **OK** to confirm.
 
 
-**Parent Topic:**[Add milestones for a roadmap](create-milestones-on-roadmap.md)
+**Parent Topic:**[Add milestones for a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md)
 
 **Related topics**  
 
 
-[Customizing milestones display on roadmap in Strategic Planning Workspace](../../alignment-planner-workspace/concept/personalizing-the-milestones-display-on-the-roadmap.md)
+[Customizing milestones display on roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.md)
 

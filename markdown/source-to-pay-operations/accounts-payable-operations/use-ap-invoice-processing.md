@@ -1,63 +1,65 @@
 ---
 title: Using Accounts Payable Invoice Processing
-description: Accounts Payable Specialists can use the Accounts Payable Invoice Processing application to manage and work on invoice processing cases to perform end-to-end invoice processing, from invoice ingestion to approval.
+description: Accounts Payable Invoice Processing enables specialists to manage invoice processing cases and perform end-to-end invoice processing from ingestion through approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice approval, invoice processing, invoice ingestion, AP case, invoice processing, invoice ingestion, AP case, invoice ingestion, AP case, AP case]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Using Accounts Payable Invoice Processing
 
-Accounts Payable Specialists can use the Accounts Payable Invoice Processing application to manage and work on invoice processing cases to perform end-to-end invoice processing, from invoice ingestion to approval.
+Accounts Payable Invoice Processing enables specialists to manage invoice processing cases and perform end-to-end invoice processing from ingestion through approval.
 
--   **[Invoice ingestion using Application programming interface \(API\)](invoice-ingestion-using-api.md)**  
-The invoice ingestion API enables customers to ingest bulk AP invoices from external systems such as supplier billing systems, buyer network, and OCR solutions, supplier networks into APO. The supported payload formats are cXML, JSON and XML.
--   **[Rules based engine](rules-based-engine.md)**  
-The rule based engine maps the invoice line with purchase order line using fields such as unit price, delivered unit price, exact description, exact amount and amount round off.
--   **[Work with invoices](work-with-invoices.md)**  
-Invoices are generated for a payment against a purchase order. The Accounts Payable Specialist \[sn\_ap\_apm.accounts\_payable\_specialist\] can access all the invoices and take required actions to process the invoices in Source-to-Pay Workspace.
--   **[Invoice processing cases](working-with-ingestion-cases.md)**  
-Typically, Accounts Payable Operations integration with Document Intelligence automatically creates the invoice processing case by extracting data from the invoice that you receive as an attachment via email. However, the Accounts Payable Specialist may need to manually create a new invoice or update details of a partially created invoice in situations where the automated invoice creation process encounters issues or is not available.
--   **[Invoice exceptions](work-with-invoice-exceptions.md)**  
-Invoice exceptions are issues that are identified in an invoice during invoice processing.
--   **[Tolerance Rules and Variances for invoices](tolerance-rules-and-variance.md)**  
+-   **[Invoice ingestion using the AP Invoice API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-ingestion-using-api.md)**  
+The AP Invoice API enables bulk import of AP invoices from external systems, such as supplier billing platforms and OCR solutions, into Accounts Payable Operations using cXML, JSON, or XML.
+-   **[Rules based engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/rules-based-engine.md)**  
+The rule-based engine maps the invoice line to purchase order lines using fields such as unit price, delivered unit price, exact description, exact amount and amount round off.
+-   **[Invoice processing overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md)**  
+Invoices are generated for payments against purchase orders and processed through automated and manual workflows, with Accounts Payable specialists managing them from creation through approval.
+-   **[Invoice processing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.md)**  
+Learn how Accounts Payable Operations integration with Document Intelligence creates invoice processing cases automatically from email attachments and how to manage cases that require manual creation. Verify whether the invoice data is complete and accurate.
+-   **[Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md)**  
+Invoice exceptions are discrepancies identified during invoice processing that must be resolved before payment, such as missing information, tax variances, or supplier issues.
+-   **[Tolerance Rules and Variances for invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.md)**  
 Tolerance rules define the limits set on an invoice to determine the permissible amount of variance that can be applied to an invoice before the invoice total exceeds the tolerance limit.
--   **[Invoice approvals](invoice-approvals.md)**  
-Invoices with the No exceptions found status are eligible for approval.
--   **[View invoice documents in the Source-to-Pay Workspace](../task/view-invoice-attachment.md)**  
-View the invoice documents directly in the Source-to-Pay Workspace using Document Viewer without having to download them.
+-   **[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)**  
+Invoice approvals in Accounts Payable Operations route invoices with no exceptions to approvers based on configured approval rules and track invoices through pending approval and approved states.
+-   **[View invoice documents in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-invoice-attachment.md)**  
+View invoice documents directly in the Source-to-Pay Workspace using Document Viewer without downloading them.
 
-**Parent Topic:**[Use Accounts Payable Operations](use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Create a knowledge base article about invoice](../task/create-knowledge-base-articles-for-invoices.md)
+[Create a knowledge base article about invoice]()
 
-[Invoice case categories and subcategories](working-with-cases.md)
+[Invoice case categories and subcategories]()
 
-[Using Invoice Case Management](use-invoice-case-mgmt.md)
+[Using Invoice Case Management]()
 
-[Advanced Work Assignment in Accounts Payable Operations](advanced-work-assignment.md)
+[Advanced Work Assignment in Accounts Payable Operations]()
 
-[Configure Advanced Work Assignment for Accounts Payable Operations](../task/configure-advanced-work-assignment-for-apo.md)
+[Configure Advanced Work Assignment for Accounts Payable Operations]()
 
-[Using Advanced Work Assignment for Accounts Payable Operations](using-awa-for-apo.md)
+[Using Advanced Work Assignment for Accounts Payable Operations]()
 
-[Working with Advanced Work Assignment](../task/working-with-advanved-work-assignment.md)
+[Working with Advanced Work Assignment]()
 
-[Interaction management in Accounts Payable Operations](interaction-record.md)
+[Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace](email-composer-apm-workspace.md)
+[Composing emails with predefined content from the Source-to-Pay Workspace]()
 
-[Universal Request in Accounts Payable Operations](universal-request-in-apo.md)
+[Universal Request in Accounts Payable Operations]()
 
-[Playbook for updating the invoice primary data](playbooks.md)
+[Playbook for updating the invoice primary data]()
 
-[Using Supplier Collaboration Portal in APO](using-supplier-collaboration-portal.md)
+[Using Supplier Collaboration Portal in APO]()
 

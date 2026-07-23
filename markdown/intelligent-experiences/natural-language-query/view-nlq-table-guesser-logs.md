@@ -2,6 +2,7 @@
 title: View NLQ Table Guesser logs
 description: Use the Table Guesser logs to review the CMDB tables that were picked by NLQ in response to plain-language queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/view-nlq-table-guesser-logs.html
 release: australia
 product: Natural Language Query
 classification: natural-language-query
@@ -33,7 +34,7 @@ Review these logs to troubleshoot which CMDB tables were inferred by NLQ.
 
 1.  Navigate to **All** &gt; **NLQ** &gt; **Table Guesser Logs**.
 
-2.  Select the personalize list icon \(![personalize list icon](../../../common/image/List_PersonalizeListIcon.png)\) to display the columns **Matched words to table names** and **Confidence scores**.![The list view of the NLQ Table Guesser Query Logs module with some example rows.](../images/view-nlq-table-guesser-logs010V.png)
+2.  Select the personalize list icon \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: personalize list icon\) to display the columns **Matched words to table names** and **Confidence scores**.\[Omitted image "view-nlq-table-guesser-logs010V.png"\] Alt text: The list view of the NLQ Table Guesser Query Logs module with some example rows.
 
     The **Utterance** column shows the user's natural language query.
 
@@ -44,16 +45,16 @@ Review these logs to troubleshoot which CMDB tables were inferred by NLQ.
 
 ## What to do next
 
-For more information on CMDB queries, see [Exploring CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md).
+For more information on CMDB queries, see .
 
-**Parent Topic:**[Configuring NLQ](../concept/configuring-nlq.md)
+**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
 
 **Related topics**  
 
 
-[Create an NLQ synonym](create-nlq-synonym.md)
+[Create an NLQ synonym]()
 
-[Create an NLQ shortcut](create-nlq-shortcut.md)
+[Create an NLQ shortcut]()
 
-[View NLQ logs](view-nlq-logs.md)
+[View NLQ logs]()
 

@@ -69,5 +69,5 @@ Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the 
     The Opportunity Management application provides sales agents and account executives with product recommendations for customers based on a needs analysis. Seamlessly convert sales opportunities to quotes when the customer is ready.
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
 

@@ -2,6 +2,7 @@
 title: Create an Apache Hive connection
 description: Establish a zero copy connection to an Apache Hive data warehouse in Zero Copy Connector Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-apache-hive-connection-zcc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,15 +48,15 @@ Work with your data source admin to create a connection to Apache Hive. For addi
 
 4.  Configure the metastore that you want to use with Apache Hive.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d575098e243">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d582253e243">
 
 Option
 
-</th><th align="left" id="d575098e246">
+</th><th align="left" id="d582253e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d575098e252">
+</th></tr></thead><tbody><tr><td id="d582253e252">
 
 **Hive Thrift**
 
@@ -69,7 +70,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d575098e287">
+</td></tr><tr><td id="d582253e287">
 
 **AWS Glue**
 
@@ -90,7 +91,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

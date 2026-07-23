@@ -1,19 +1,21 @@
 ---
 title: Approval Rule form
-description: Use the Approval Rule form to provide details about the new approval rule.
+description: Use the Approval Rule form when creating or configuring an approval rule to generate and route invoice or purchase order approvals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/new-approval-rule-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, finance automation]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Approval Rule form
 
-Use the Approval Rule form to provide details about the new approval rule.
+Use the Approval Rule form when creating or configuring an approval rule to generate and route invoice or purchase order approvals.
 
 <table id="table_lsd_kd5_4wb"><thead><tr><th>
 
@@ -77,7 +79,7 @@ The type of approval rule that determines how approval plans are generated and r
 -   Managerial Hierarchy
 -   Specified Users or Groups
 
-Depending on the rule type that you select, the associated fields appear. For more information, see [Approval rule types](invoice-approval-rule-types.md).
+Depending on the rule type that you select, the associated fields appear. For more information, see [Approval rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approval-rule-types.md).
 
 </td></tr><tr><td>
 
@@ -104,38 +106,38 @@ Approval trigger conditions
 Conditions based on the approving object that determine the conditions under which an approval plan is created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Accounts Payable Operations reference](acc-pay-reference.md)
+</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 
 
-[Accounts Payable Operations properties](acc-pay-properties.md)
+[Accounts Payable Operations properties]()
 
-[Create New Invoice Line form](create-invoice-line-form.md)
+[Create New Invoice Line form]()
 
-[Create invoice cost allocation form](create-invoice-cost-allocation-form.md)
+[Create invoice cost allocation form]()
 
-[Outbound cost allocation staging table](outbound-cost-allocation-table.md)
+[Outbound cost allocation staging table]()
 
-[Distribution set form](distribution-set-form.md)
+[Distribution set form]()
 
-[Create New Invoice case form](create-new-ap-case-form.md)
+[Create New Invoice case form]()
 
-[Create New Invoice task form](create-apm-task-form.md)
+[Create New Invoice task form]()
 
-[Invoice processing case form](invoice-processing-case-form.md)
+[Invoice processing case form]()
 
-[Tax lines](create-tax-lines-apo.md)
+[Tax lines]()
 
-[Invoice exception form](exception-form-fields.md)
+[Invoice exception form]()
 
-[Request Help form](ur-request-help-form.md)
+[Request Help form]()
 
-[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+[Data required for invoice processing]()
 
-[Invoice exception definition form](invoice-exception-definition-form.md)
+[Invoice exception definition form]()
 
-[Approval Plan form](approval-plan-form.md)
+[Approval Plan form]()
 
-[Accounts Payable Operations glossary](../concept/apo-glossary.md#)
+[Accounts Payable Operations glossary]()
 

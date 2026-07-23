@@ -2,11 +2,12 @@
 title: View maintenance requests in RPA Hub
 description: After a scheduled maintenance event card is accepted or rejected on the robot calendar, a maintenance request is created for tracking.Use the Maintenance request form to track the status of the scheduled maintenance \(SM\) days on the robot calendar. After a scheduled maintenance event card is accepted or rejected on the robot calendar by an RPA release manager or an admin, then a maintenance request is created for tracking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/view-mr-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Monitor, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Monitor, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # View maintenance requests in RPA Hub
@@ -23,21 +24,21 @@ Role required: sn\_rpa\_fdn.rpa\_business\_user, sn\_rpa\_fdn.rpa\_support\_user
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Monitor**, select **Maintenance Requests**.
 
 4.  Open a maintenance request to view the details.
 
 
-**Parent Topic:**[Monitoring automations](../concept/monitoring-automations-rpa.md)
+**Parent Topic:**[Monitoring automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/monitoring-automations-rpa.md)
 
 **Related topics**  
 
 
-[Manage scheduled maintenance days in RPA Hub](manage-sm-request-rpa.md)
+[Manage scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-sm-request-rpa.md)
 
-[Scheduled maintenance days in RPA Hub](../concept/sm-days-rpa.md)
+[Scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sm-days-rpa.md)
 
 ## Maintenance request form in RPA Hub
 
@@ -92,7 +93,7 @@ State
 State of the maintenance request:-   **Pending** - An MR is created when you accept the associated SM event card.
 -   **In Progress** - When the planned start date begins, the MR is executed. The life cycle stage status of the configuration item \(robot or bot process\) moves to In Maintenance state.
 -   **Complete** - When the MR completes execution of the configuration item \(robot or bot process\). When the associated CR is closed, then the life cycle stage status of the Configuration Item \(CI\) moves to Published state.
--   **Canceled** - When an MR is canceled. For more information about canceling an MR, see [Scheduled maintenance days in RPA Hub](../concept/sm-days-rpa.md) and [Manage scheduled maintenance days in RPA Hub](manage-sm-request-rpa.md).
+-   **Canceled** - When an MR is canceled. For more information about canceling an MR, see [Scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sm-days-rpa.md) and [Manage scheduled maintenance days in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-sm-request-rpa.md).
 -   **Failed** - When a CI \(robot or bot process\) fails due to any issue.
 
 When the system tries to update the CI to either in Published or In Maintenance, but unable to update. Then the MR fails.

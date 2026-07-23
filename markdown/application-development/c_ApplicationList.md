@@ -2,6 +2,7 @@
 title: Application list
 description: The applications list allows application developers to view and select applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationList.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Application developers can use the applications list to open a custom applicatio
 
 Administrators have the following options from the applications list.
 
-![Sample list of applications](../image/ApplicationsPage.png "Sample list of applications")
+\[Omitted image "ApplicationsPage.png"\] Alt text: Sample list of applications
 
 <table id="table_xsx_fcc_t5"><thead><tr><th>
 

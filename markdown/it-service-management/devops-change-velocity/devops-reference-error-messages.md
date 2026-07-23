@@ -2,6 +2,7 @@
 title: Common errors in DevOps Change Velocity
 description: Identify the root cause of errors that occur in DevOps Change Velocity, and see the corresponding steps that might resolve them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-reference-error-messages.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -175,18 +176,18 @@ This error occurs only for custom tool integrations.
  1.  Navigate to **All &gt; Process Automation &gt; Flow Designer**.
 2.  In the Flow Designer page, select the **Subflows** tab.
 3.  Open the **DevOps Demo Validate Subflow** record from the list.
-4.  From the Actions section, open the **DevOps Demo Validate Action** record by selecting the Open action in Action Designer \(![Open action in Action Designer icon](../image/openactionfdicon.png)\) icon.
-5.  Select **More Actions menu &gt; Copy Action**.![Copy action dialog box](../image/validate-action-copy-dialog.png)
+4.  From the Actions section, open the **DevOps Demo Validate Action** record by selecting the Open action in Action Designer \(\[Omitted image "openactionfdicon.png"\] Alt text: Open action in Action Designer icon\) icon.
+5.  Select **More Actions menu &gt; Copy Action**.\[Omitted image "validate-action-copy-dialog.png"\] Alt text: Copy action dialog box
 6.  Enter a new name for the action and select the application as **DevOps Integrations**, and select **Copy**.
 7.  In the copied action, select **Inputs &gt; REST step**.
-8.  In the Request Details section, enter resource path of your custom tool in the **Resource Path** field.![Validate action screen](../image/validate-action-copy.png)
+8.  In the Request Details section, enter resource path of your custom tool in the **Resource Path** field.\[Omitted image "validate-action-copy.png"\] Alt text: Validate action screen
 9.  Enter the API version of your custom tool in the **Query Parameters** field.
 10. Save the changes.
 11. Publish the action by selecting **Publish**.
 12. Navigate back to the **DevOps Demo Validate Subflow** record.
 13. Select **More Actions menu &gt; Copy Subflow**.
 14. Enter a new name for the subflow and select the application as **DevOps Integrations**, and select **Copy**.
-15. In the copied subflow, delete the **DevOps Demo Validate Action** action and add the action you created in step 11.![Add new action record](../image/validate-add-action.png)
+15. In the copied subflow, delete the **DevOps Demo Validate Action** action and add the action you created in step 11.\[Omitted image "validate-add-action.png"\] Alt text: Add new action record
     1.  In the **Action** field, select the action you created in step 11.
     2.  In the **aliasGR** field, select the Connection &amp; Credential Alias record from the **Data &gt; Lookup records** section.
     3.  In the **apiversion** field, select the api version from the **Data &gt; Subflow Inputs** section.
@@ -194,9 +195,9 @@ This error occurs only for custom tool integrations.
 16. Publish the subflow by selecting **Publish**.
 17. Navigate to **DevOps &gt; Integrations &gt; Integration Capabilities** and create a record with the **Validate** action.
 
-For more information, see [Create a DevOps tool integration](../task/set-up-dev-ops-integrations.md).
+For more information, see [Create a DevOps tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/set-up-dev-ops-integrations.md).
 
-![Integration Capabilities related tab](../image/validate-associate-subflow.png)
+\[Omitted image "validate-associate-subflow.png"\] Alt text: Integration Capabilities related tab
 
 18. Associate the subflow you created in step 16 with the integration capability record.
 
@@ -256,7 +257,7 @@ Unexpected behaviour from remote host: Circular redirect to 'https://bitbucket.o
 
 </td><td>
 
-This error might occur if you try to connect to a BitBucket Cloud instance. BitBucket Cloud is not supported. You must use a BitBucket Server instance to connect to ServiceNow DevOps. Connect to your BitBucket instance via an MID server. A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
+This error might occur if you try to connect to a BitBucket Cloud instance. BitBucket Cloud is not supported. You must use a BitBucket Server instance to connect to ServiceNow DevOps. Connect to your BitBucket instance via an MID server. A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerSelector.md)
 
 </td></tr><tr><td>
 
@@ -284,7 +285,7 @@ This section lists the steps required to resolve tool permission errors when you
 
     -   Select **Continue** to progress to the next step in the playbook.
     -   If errors show up in the result, try again by selecting **Refresh**.
-    -   If the error persists, update the [Tool permission check timeout per record \(in milliseconds\)](devops-reference-error-messages.md#toolchecktimeoutproperty) property and try again.
+    -   If the error persists, update the [Tool permission check timeout per record \(in milliseconds\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md) property and try again.
 -   **Tool permission check timeout property**
 
     During the tool connection process, the system performs permission validations in the foreground, and restricts the tool connection page. For every permission validation, a REST API call is made to external tools to evaluate the availability of the permission. The REST API response time may vary based on your network settings. To avoid delays, you can specify how long the system should wait to get a response from an external tool before marking the permission as an error. You can specify this time using the **Tool permission check timeout per record \(in milliseconds\)** property **\(sn\_devops.permission\_check\_timeout\)**. If you find that some of the permission checks are resulting in an error, try increasing the timeout value, and select **Refresh** in the Permissions pop-up.
@@ -308,8 +309,8 @@ Authorization credentials are either invalid or do not have the minimum required
 
 </td><td>
 
--   Verify if your third-party tool credentials have the required scopes. If you are using the workspace UI, you can navigate to the tool record, and select **More actions \(![More actions icon](../../itsm-workspace/image/more-actions-icon.png)\) &gt; Check credential permissions** to know about the required permissions.
--   Verify if you have entered the correct username/password for your third-party tool. If you are using the workspace UI, and you want to update your tool credentials, then navigate to the tool record, and select **More actions \(![More actions icon](../../itsm-workspace/image/more-actions-icon.png)\) &gt; Check credential permissions**. For more information on updating credentials, see [Update third-party tool credentials in DevOps Change Velocity](../task/update-third-party-tool-credentials-in-devops-change-velocity.md).
+-   Verify if your third-party tool credentials have the required scopes. If you are using the workspace UI, you can navigate to the tool record, and select **More actions \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) &gt; Check credential permissions** to know about the required permissions.
+-   Verify if you have entered the correct username/password for your third-party tool. If you are using the workspace UI, and you want to update your tool credentials, then navigate to the tool record, and select **More actions \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) &gt; Check credential permissions**. For more information on updating credentials, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
 
 </td></tr><tr><td>
 
@@ -334,7 +335,7 @@ Authorization credentials do not have the minimum required permissions.
 
 </td><td>
 
-Verify if your third-party tool credentials have the required scopes. If you are using the workspace UI, you can navigate to the tool record, and select **More actions \(![More actions icon](../../itsm-workspace/image/more-actions-icon.png)\) &gt; Check credential permissions** to know about the required permissions.
+Verify if your third-party tool credentials have the required scopes. If you are using the workspace UI, you can navigate to the tool record, and select **More actions \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) &gt; Check credential permissions** to know about the required permissions.
 
 </td></tr><tr><td>
 
@@ -368,7 +369,7 @@ Your credentials does not have the required scopes.
 
 </td><td>
 
-Verify if your third-party tool credentials have the required scopes. If you are using the workspace UI, you can navigate to the tool record, and select **More actions \(![More actions icon](../../itsm-workspace/image/more-actions-icon.png)\) &gt; Check credential permissions** to know about the required permissions.
+Verify if your third-party tool credentials have the required scopes. If you are using the workspace UI, you can navigate to the tool record, and select **More actions \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) &gt; Check credential permissions** to know about the required permissions.
 
 </td></tr></tbody>
 </table>## Change request
@@ -488,7 +489,7 @@ Update the **Retry Errored Inbound Events** scheduled job to retry processing in
 -   Update the errors or exceptions list to specify exceptions that you want to retry event processing for.
 -   Modify the default **Maximum Retry** count.
 
-For more information, see [Retry errored inbound events](../task/config-retry-schedule-job-inbound.md)
+For more information, see [Retry errored inbound events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-retry-schedule-job-inbound.md)
 
 </td></tr><tr><td>
 
@@ -500,7 +501,7 @@ Pipeline execution in ServiceNow DevOps does not move forward and waits indefini
 
 For all SonarQube steps in code quality scans, the user must create SonarQube tool in the ServiceNow DevOps instance.
 
- For more information, see [SonarQube integration with DevOps Change Velocity](../concept/sonarqube-devops-integration-devops.md)
+ For more information, see [SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md)
 
 </td></tr><tr><td>
 
@@ -511,5 +512,5 @@ Pipeline UI displays broken links between stages.
 Navigate to **Task Executions** and ensure that the Upstream executions column has the appropriate upstream link references.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DevOps Change Velocity reference](devops-change-velocity-reference.md)
+</table>**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 

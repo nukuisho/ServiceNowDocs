@@ -2,6 +2,7 @@
 title: Predictive Intelligence for Project Management
 description: The Predictive Intelligence for Project Management capability uses machine-learning algorithms to search and display similar projects while defining a new project using the project form. You can also search for existing projects and compare similar projects for project planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/predictive-intelligence-for-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -35,7 +36,7 @@ Activate the following plugins before using the Predictive Intelligence Workbenc
 
 ## Solution definitions for Predictive Intelligence for Project Management
 
-The solution definition for Predictive Intelligence for Project Management capability is available in the Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md) and [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/c_ContextualSearch.md).
+The solution definition for Predictive Intelligence for Project Management capability is available in the Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md) and [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ContextualSearch.md).
 
 <table id="table_bdh_nzs_kbc"><thead><tr><th>
 
@@ -69,9 +70,9 @@ View similar projects based on the **Project Name** and **Description** fields. 
 </table>**Related topics**  
 
 
-[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)
 
-[Train the similarity solution for Project Management to find similar projects](../task/train-similarity-solution-pm.md)
+[Train the similarity solution for Project Management to find similar projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/train-similarity-solution-pm.md)
 
-[Starting a project](../task/t_CreateAProject.md)
+[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
 

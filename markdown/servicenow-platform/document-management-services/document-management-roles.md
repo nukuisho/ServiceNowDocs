@@ -2,6 +2,7 @@
 title: Document Management roles
 description: Document Management is installed with these roles.Provides Create, Read, Update, and Delete access to the document. Admin users have access to List and List Entries modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/document-management-roles.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -17,16 +18,16 @@ Document Management is installed with these roles.
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[References](../concept/reference-document-management.md)
+**Parent Topic:**[References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/reference-document-management.md)
 
 **Related topics**  
 
 
-[Components installed with Document Management](installed-with-doc-mgmt.md)
+[Components installed with Document Management]()
 
-[Domain separation and Document Management](../concept/domain-separation-document-services.md)
+[Domain separation and Document Management]()
 
-[Granular admin roles in Document Management](granular-admin-roles-dms.md)
+[Granular admin roles in Document Management]()
 
 ## Administrator \[platform\_document\_management\_admin\]
 

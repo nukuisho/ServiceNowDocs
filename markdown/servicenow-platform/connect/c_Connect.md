@@ -2,6 +2,7 @@
 title: Connect
 description: ServiceNow Connect is a real-time messaging platform that connects you to your coworkers, bypassing email and static documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/c\_Connect.html
 release: australia
 product: Connect
 classification: connect
@@ -33,33 +34,33 @@ Core UI is required to use Connect.
 **Explore**
 
  -   [Upgrade to New York](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
--   [Connect interface](c_connect-interface.md)
--   [Connect Chat](c_Collaboration.md)
--   [Connect Support](c_ConnectSupport.md)
+-   [Connect interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_connect-interface.md)
+-   [Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_Collaboration.md)
+-   [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectSupport.md)
 
 </td><td>
 
 **Set up**
 
- -   [Activate Connect](../task/t_ActivateConnect.md#)
--   [Activate Connect Support](../task/t_ActivateConnectSupport.md#)
--   [Supported browsers for Connect Chat](../reference/r_SupportedBrowsersForConnect.md)
+ -   [Activate Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_ActivateConnect.md)
+-   [Activate Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_ActivateConnectSupport.md)
+-   [Supported browsers for Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/r_SupportedBrowsersForConnect.md)
 
 </td><td>
 
 **Administer**
 
- -   [Properties for Connect](../reference/r_PropertiesForConnect.md)
--   [Connect actions](../task/t_AdministerConnectActions.md)
--   [Configure the fields on a record card in Connect](../task/configure-card-fields-connect.md)
--   [Properties for Connect Support](../reference/r_PropertiesForConnectSupport.md)
+ -   [Properties for Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/r_PropertiesForConnect.md)
+-   [Connect actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_AdministerConnectActions.md)
+-   [Configure the fields on a record card in Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/configure-card-fields-connect.md)
+-   [Properties for Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/r_PropertiesForConnectSupport.md)
 
 </td></tr><tr><td>
 
 **Use**
 
- -   [Start a direct or group conversation](../task/t_StartAConversation.md)
--   [Follow a record in Connect](../task/t_StartARecordConversation.md)
+ -   [Start a direct or group conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_StartAConversation.md)
+-   [Follow a record in Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_StartARecordConversation.md)
 -   
 
 

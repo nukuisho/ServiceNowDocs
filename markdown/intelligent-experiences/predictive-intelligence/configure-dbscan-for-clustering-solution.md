@@ -2,6 +2,7 @@
 title: Configure DBSCAN for a clustering solution
 description: Consider applying the Density Based Spatial Clustering of Applications with Noise \(DBSCAN\) algorithm to your clustering solution. DBSCAN is available as an alternative to the default clustering algorithm, k-means.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-dbscan-for-clustering-solution.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -36,11 +37,11 @@ In this example scenario, you apply DBSCAN to a clustering solution.
 
     In this example scenario, you use an Incidents clustering solution definition form.
 
-    ![An example clustering solution definition on which you apply the DBSCAN parameter.](../images/configure-dbscan-clustering1.png)
+    \[Omitted image "configure-dbscan-clustering1.png"\] Alt text: An example clustering solution definition on which you apply the DBSCAN parameter.
 
 3.  On the Advanced Solution Settings tab in the Related Links section of the form, select **Solution Parameters** from the picker, then click **New**.
 
-    ![How to select the Solution Parameters option for creating the parameter.](../images/tf-idf-similarity-solution2.png)
+    \[Omitted image "tf-idf-similarity-solution2.png"\] Alt text: How to select the Solution Parameters option for creating the parameter.
 
 4.  Create a parameter record.
 
@@ -48,25 +49,25 @@ In this example scenario, you apply DBSCAN to a clustering solution.
 
     2.  In the ML Solution Parameters screen, select **Use DBSCAN algo for clustering**.
 
-        ![How to create the parameter record by selecting the Search button and then selecting the DBSCAN key's Short Description.](../images/configure-dbscan-clustering3.png)
+        \[Omitted image "configure-dbscan-clustering3.png"\] Alt text: How to create the parameter record by selecting the Search button and then selecting the DBSCAN key's Short Description.
 
 5.  Select **Submit**.
 
     The Advanced Solution Setting record appears. The field **User Inputs** is grayed out because it does not apply to this algorithm.
 
-    ![How to create a Solution Parameter record you create from the values you just assigned.](../images/configure-dbscan-clustering4.png)
+    \[Omitted image "configure-dbscan-clustering4.png"\] Alt text: How to create a Solution Parameter record you create from the values you just assigned.
 
 6.  Select **Submit**.
 
     **Result:** DBSCAN is configured for your clustering solution. Its solution parameter appears on the Advanced Solution Settings tab of your clustering solution definition form.
 
-    ![When you submit the record you created, the DBSCAN solution parameter appears on your clustering solution definition form.](../images/configure-dbscan-clustering5.png)
+    \[Omitted image "configure-dbscan-clustering5.png"\] Alt text: When you submit the record you created, the DBSCAN solution parameter appears on your clustering solution definition form.
 
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](../concept/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Create and train a clustering solution](create-clustering-solution.md)
+[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
 

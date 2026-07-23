@@ -2,6 +2,7 @@
 title: Ticket Attachments widget
 description: Use the attachment widget to attach items to tickets. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/ticket-attachment-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -17,7 +18,7 @@ Use the attachment widget to attach items to tickets. You can use this base syst
 
 Attachments should be less than 24MB. You can drag files into the Attachments widget to add them to a record.
 
-![Ticket Attachments widget](../image/WidgetTicketAttachments.png "Ticket Attachments widget")
+\[Omitted image "WidgetTicketAttachments.png"\] Alt text: Ticket Attachments widget
 
 ## Instance options
 
@@ -26,14 +27,14 @@ Attachments should be less than 24MB. You can drag files into the Attachments wi
 |Record ID|The ID number of the record for the attachment.|
 |Record table|Limit the records users can add an attachment to by adding a table to the attachment widget. Users can then only add attachments if they are in a record for that table.|
 
-**Parent Topic:**[Example widgets](sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

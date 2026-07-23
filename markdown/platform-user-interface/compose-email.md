@@ -2,6 +2,7 @@
 title: Send emails from the full email composer
 description: Create and send an email from a separate workspace tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/compose-email.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,11 +22,11 @@ Role required: email\_composer
 
 1.  Open a Workspace record in your instance.
 
-2.  Open the full email composer by selecting the More actions icon \(![More actions icon](../image/x-more-actions-icon.png)\) from the record view, and then select **Compose Email**.
+2.  Open the full email composer by selecting the More actions icon \(\[Omitted image "x-more-actions-icon.png"\] Alt text: More actions icon\) from the record view, and then select **Compose Email**.
 
     An email draft opens in a new workspace tab.
 
-    ![Full email composer](../image/y-full-composer.png)
+    \[Omitted image "y-full-composer.png"\] Alt text: Full email composer
 
 3.  If available, complete the **Reply To** or **From** field.
 
@@ -37,16 +38,16 @@ Role required: email\_composer
 
 5.  In the **Subject** field, enter a subject line.
 
-6.  Hide the email header including all recipient fields by selecting the chevron icon \(![Chevron icon](../image/x-chevron-icon.png)\).
+6.  Hide the email header including all recipient fields by selecting the chevron icon \(\[Omitted image "x-chevron-icon.png"\] Alt text: Chevron icon\).
 
 7.  Create the email body.
 
-    You can insert a quick message in the email body. For more information, see [Insert a quick message from the full email composer](add-quick-message.md).
+    You can insert a quick message in the email body. For more information, see [Insert a quick message from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-quick-message.md).
 
-    You can attach a file to the email. For more information, see [Add a file to an email from the full email composer](add-email-attachment.md)
+    You can attach a file to the email. For more information, see [Add a file to an email from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-email-attachment.md)
 
 8.  Select **Send**.
 
-    Drafts save automatically after a set number of seconds. For more information on finding email drafts, see [Review email drafts from the full email composer](review-draft-emails.md).
+    Drafts save automatically after a set number of seconds. For more information on finding email drafts, see [Review email drafts from the full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/review-draft-emails.md).
 
 

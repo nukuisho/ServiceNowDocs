@@ -2,11 +2,12 @@
 title: Ask Now Assist for Workflow Data Fabric \(WDF\) for recommendations
 description: Find guidance on setting up integrations, understand the advantages of different integration tools, and get links to sources of information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/ask-now-assist-for-recommendation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Workflow Data Fabric \(WDF\), Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [Configure, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
 # Ask Now Assist for Workflow Data Fabric \(WDF\) for recommendations
@@ -21,24 +22,26 @@ Role required: df\_data\_steward, connection\_admin, wdf\_operator, wdf\_builder
 
 1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
 
-2.  On the landing page, enter your question in the Now Assist search field ![](../../now-assist-zero-copy-connector/images/now-assist-sparkle-icon-dark.png).
+2.  On the landing page, enter your question in the Now Assist search field \[Omitted image "now-assist-sparkle-icon-dark.png"\] Alt text:.
 
-    Ask for information in plain language. For example, `How can I connect to Jira`.
+    You can also use the Now Assist panel embedded in the top-right corner of the Workflow Data Fabric \(WDF\) home page header.
 
-    If specific applications have data available that you want to use, enter the application name and get relevant links. For example, `MySQL`.
+3.  Enter your question in plain language.
 
-    ![Screenshot showing the search field on the Workflow Data Fabric landing page.](../image/wdf-na-search-field.png)
+    For example, `How can I connect to Jira`. If specific applications have data available that you want to use, enter the application name and get relevant links. For example, `MySQL`.
 
-3.  Select source links to see more information about a topic.
+    \[Omitted image "wdf-na-search-field.png"\] Alt text: Screenshot showing the search field on the Workflow Data Fabric landing page.
 
-    **Note:** You can access support information and toggle audio notifications from the Support and setting icon ![](../image/wdf-na-support-icon.png).
+4.  Select source links to see more information about a topic.
+
+    **Note:** You can access support information and toggle audio notifications from the Support and setting icon \[Omitted image "wdf-na-support-icon.png"\] Alt text:.
 
 
 ## Result
 
 Now Assist for Workflow Data Fabric \(WDF\) provides the information that you requested, including alternatives, sources, and a summary.
 
-![Screenshot showing query and the Now Assist response.](../image/wdf-na-request-1.png)
+\[Omitted image "wdf-na-request-1.png"\] Alt text: Screenshot showing query and the Now Assist response.
 
 ## Search documents across cloud drives
 
@@ -56,8 +59,12 @@ I want to generate incidents in ServiceNow automatically when critical events ar
 
 Customer data exists across Salesforce, SAP, and internal databases. We need a unified view for support and operations without syncing everything into a single system.
 
+## Search the data catalog
+
+The support team is investigating customer churn. It wants to find data assets in the Data Catalog that hold subscription and cancellation records, along with the related glossary terms.
+
 **Related topics**  
 
 
-[oneExtend LLM skill](../concept/recommendation-skill.md)
+[oneExtend LLM skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/recommendation-skill.md)
 

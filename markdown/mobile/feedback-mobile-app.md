@@ -2,6 +2,7 @@
 title: Mobile app feedback
 description: Learn how to provide feedback regarding your ServiceNow in-app experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/feedback-mobile-app.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ After completing three successful actions, the mobile app displays a prompt aski
 
 </td><td>
 
-![Display of mobile app feedback question.](../image/feedback.png)
+\[Omitted image "feedback.png"\] Alt text: Display of mobile app feedback question.
 
 </td></tr><tr><td>
 
@@ -35,7 +36,7 @@ If you are satisfied with the in-app experience, tap **Yes** to open the review 
 
 </td><td>
 
-![Review page in the mobile store.](../image/feedback-yes.png)
+\[Omitted image "feedback-yes.png"\] Alt text: Review page in the mobile store.
 
 </td></tr><tr><td>
 
@@ -43,7 +44,7 @@ If you are not satisfied with the in-app experience, tap **Not really**. A messa
 
 </td><td>
 
-![Message displayed in mobile app when "not really" selection is made.](../image/feedback-not-really.png)
+\[Omitted image "feedback-not-really.png"\] Alt text: Message displayed in mobile app when "not really" selection is made.
 
 </td></tr><tr><td>
 
@@ -51,7 +52,7 @@ If you want to provide feedback at any time, tap **Settings** from the navigatio
 
 </td><td>
 
-![Display when selecting the Give feedback option in Settings.](../image/feedback-via-settings.png)
+\[Omitted image "feedback-via-settings.png"\] Alt text: Display when selecting the Give feedback option in Settings.
 
 </td></tr></tbody>
 </table>

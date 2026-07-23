@@ -2,6 +2,7 @@
 title: Cross-channel favorites
 description: Cross-channel favorites capability provides quick access to the content the employees use frequently and offers extensibility for BUs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/app-launcher-usability.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,7 +32,7 @@ Employees can see the favorites icon on the following types of pages or sections
 -   My applications widget
 -   Recommended for you widget
 
-You can set up the favorite card details and use the default favorite icon ![default favorite icon default without selection](../images/myfav-no-selection.jpg) to bookmark content as your favorites. When your employees mark content as favorites, the favorite icon appearance changes to ![default favorite icon default with selection](../images/myfav-selection.jpg).
+You can set up the favorite card details and use the default favorite icon \[Omitted image "myfav-no-selection.jpg"\] Alt text: default favorite icon default without selection to bookmark content as your favorites. When your employees mark content as favorites, the favorite icon appearance changes to \[Omitted image "myfav-selection.jpg"\] Alt text: default favorite icon default with selection.
 
 **Note:** To change the icon, go to **Service Portal** &gt; **Portals** &gt; **Employee Center** &gt; **Quick start configuration**, and update the icon.
 
@@ -57,7 +58,7 @@ To fix issues with alphabetical sort order of favorites, see [KB1348001](https:/
 
 You can configure user permissions such as **Available for** and **Not Available for**. When the favorite topic is not marked available for the user, the topic isn't visible from **My Favorites** and on the favorites widget.
 
-For more information, see [Enable user criteria for topics](../task/enable-user-criteria-topics.md).
+For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
 
 ## Favorites troubleshooting
 
@@ -72,7 +73,7 @@ Follow these steps to troubleshoot issues with **Favorites**:
 **Related topics**  
 
 
-[Configure favorites option](../task/web-configure-favorites-admin.md)
+[Configure favorites option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-admin.md)
 
-[Manage favorites](../task/web-configure-favorites-employee.md)
+[Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-employee.md)
 

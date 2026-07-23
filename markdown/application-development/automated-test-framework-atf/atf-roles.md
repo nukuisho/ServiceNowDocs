@@ -2,6 +2,7 @@
 title: Automated Test Framework roles
 description: Automated Test Framework is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-roles.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -133,5 +134,5 @@ View or set the basic or mutual authentication needed for REST endpoints that re
     None.
 
 
-**Parent Topic:**[Automated Test Framework \(ATF\) reference](../concept/atf-ref-overview.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-ref-overview.md)
 

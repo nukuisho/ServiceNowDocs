@@ -2,6 +2,7 @@
 title: Assign a theme to your mobile application
 description: After you configure a mobile theme that reflects your company identity, you can assign the theme to your mobile applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/assign-theme-to-mobile-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ After you configure a mobile theme that reflects your company identity, you can 
 
 Role required: admin
 
-**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](../concept/explore-ne-theming.md).
+**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Role required: admin
 
 5.  Scroll down to locate the Client Theme section, select **Choose**, and then select the desired mobile app theme record.
 
-    For information about creating a mobile theme, see [Create a theme for your mobile applications](sg-configure-theme.md).
+    For information about creating a mobile theme, see [Create a theme for your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-theme.md).
 
 6.  Select **Save**.
 

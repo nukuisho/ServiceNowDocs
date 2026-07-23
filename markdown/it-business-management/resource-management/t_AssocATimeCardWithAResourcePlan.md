@@ -2,6 +2,7 @@
 title: Associate a time card with a resource plan
 description: If one resource is allocated to identically named tasks in two resource plans, use the following procedure to specify the resource plan the time card should be allocated to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_AssocATimeCardWithAResourcePlan.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -21,7 +22,7 @@ Role required: resource\_manager
 
 ## About this task
 
--   A resource plan can be associated with a time card only if the resource plan contains [hard allocations](../reference/r_AllocatingResources.md) for the user.
+-   A resource plan can be associated with a time card only if the resource plan contains [hard allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md) for the user.
 -   If a resource plan isn’t associated manually to a time card, then a resource plan is auto-associated. The auto-association is done based on the selected **Task** in the time card.
 
 ## Procedure
@@ -36,47 +37,47 @@ Role required: resource\_manager
 
     Only resource plans that contain the selected task are listed.
 
-    ![Screenshot for a time card configured with Resource Plan](../image/ResourceCostsTimeCard.png "Time Card with Resource Plan")
+    \[Omitted image "ResourceCostsTimeCard.png"\] Alt text: Screenshot for a time card configured with Resource Plan
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Resource plans](../concept/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
 
-[Create a resource plan](t_CreateResourcePlanProjectTask.md)
+[Create a resource plan]()
 
-[Use Resource Finder to analyze resource availability](create-resource-plan-with-finder.md)
+[Use Resource Finder to analyze resource availability]()
 
-[Create an operational resource plan](create-operational-plan.md)
+[Create an operational resource plan]()
 
-[Request resources](t_RequestResourcePlanApproval.md)
+[Request resources]()
 
-[Confirm a resource plan](confirm-resource-plan.md)
+[Confirm a resource plan]()
 
-[Confirm and allocate a resource plan](confirm-allocate-resource-plan.md)
+[Confirm and allocate a resource plan]()
 
-[Request a change to a resource plan](t_RequestAChangeToAResourcePlan.md)
+[Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand](recalculate-resource-costs.md)
+[Recalculate costs of a resource plan]()
 
-[Update cost plan related to a resource plan](t_UpdateRelatedCostPlan.md)
+[Update cost plan related to a resource plan]()
 
-[Complete a resource plan](t_CloseAResourcePlan.md)
+[Complete an allocated resource plan]()
 
-[Cancel a resource plan](t_CancelAResourcePlan.md)
+[Cancel a resource plan]()
 
-[Delete a resource plan](t_DeleteAResourcePlan.md)
+[Delete a resource plan]()
 
-[Extend a resource plan](extend-resource-plan.md)
+[Extend a resource plan]()
 
-[Request extension of an allocated resource plan](request-extension-allocated-resource-plan.md)
+[Request extension of an allocated resource plan]()
 
-[Allocate resources for the extended period](allocate-resources-for-extended-period.md)
+[Allocate resources for the extended period]()
 
-[Reduce the duration of a resource plan](reduce-resource-plan.md)
+[Reduce the duration of a resource plan]()
 
-[Time zones in resource plans](../concept/c_TimeZonesInResourcePlans.md)
+[Time zones in resource plans]()
 

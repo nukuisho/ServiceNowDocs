@@ -2,6 +2,7 @@
 title: Location forms
 description: The Location forms enable you to create locations hierarchy to track and manage your network assets.The Location form enables you to create, review and modify the location details for a network asset.The Location form \(parent\) enables you to create, review and modify the parent location details for a network asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-location-forms.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Telecommunications Network Inventory]
 
 The Location forms enable you to create locations hierarchy to track and manage your network assets.
 
-**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 ## Location form
 
@@ -83,7 +84,7 @@ Contact
 
 </td><td>
 
-Name of the contact, if any, at this location. To select a contact, click the search icon \(![Search icon.](../image/search.png)\).
+Name of the contact, if any, at this location. To select a contact, click the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\).
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Parent
 
 </td><td>
 
-Parent location, if any, for this location. Click the search icon \(![Search icon.](../image/search.png)\) and select a location number that you already created. Using this field enables you to create a hierarchy of locations.
+Parent location, if any, for this location. Click the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a location number that you already created. Using this field enables you to create a hierarchy of locations.
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ Longitude of the location in decimal degrees.
 </table>**Related topics**  
 
 
-[6910616cfeec459a9e107f2dc838f3f3b508f6ea.dita](../task/define-tni-locations.md)
+[1364cf968f9d77022f95a095981a18e979c26f54.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)
 
 ## Location form - Parent
 
@@ -149,7 +150,7 @@ Parent
 
 </td><td>
 
-Parent location, if any, for this location. Click the search icon \(![Search icon](../image/search.png)\) and select a location number that you already created. Using this field enables you to create a hierarchy of locations.
+Parent location, if any, for this location. Click the search icon \(\[Omitted image "search.png"\] Alt text: Search icon\) and select a location number that you already created. Using this field enables you to create a hierarchy of locations.
 
 </td></tr><tr><td>
 

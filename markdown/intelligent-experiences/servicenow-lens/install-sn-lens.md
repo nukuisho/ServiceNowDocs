@@ -2,6 +2,7 @@
 title: Configure ServiceNow AI Lens
 description: If you have the admin role, you can enable the ServiceNow AI Lens application \(sn\_ai\_lens\) to extract and comprehend data for various workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/install-sn-lens.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -19,14 +20,17 @@ If you have the admin role, you can enable the ServiceNow AI Lens application \(
 
 To get started with ServiceNow AI Lens, you must have:
 
--   A ServiceNow Pro Plus or Enterprise Plus license.
--   An instance on Yokohama Patch 6+ or Zurich Patch 1+.
+-   Your ServiceNow® subscription must include access to Now Assist capabilities.
+-   An instance running a supported ServiceNow release. ServiceNow AI Lens is supported on the following versions \(N-2 family releases\):
+    -   Australia Patch 1+ or later
+    -   Zurich Patch 1+ or later
+    -   Yokohama Patch 6+ or later
 
 Role required: admin
 
 ## About this task
 
-ServiceNow AI Lens isn’t a standalone application that you can install directly. To enable ServiceNow AI Lens on your instance, you must install other Now Assist applications, such as Now Assist for IT Service Management \(ITSM\) or Now Assist for Customer Service Management \(CSM\).
+ServiceNow AI Lens isn’t a standalone store application that you can install directly. To enable ServiceNow AI Lens on your instance, you must install other Now Assist applications, such as Now Assist for IT Service Management \(ITSM\) or Now Assist for Customer Service Management \(CSM\).
 
 -   Review the [ServiceNow AI Lens](https://store.servicenow.com/sn_appstore_store.do#!/store/application/2527a8af90db9e10f877653916085448/1.0.0) application listing in ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Refer to the [Now Assist Overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/sn-assist-overview.pdf) to see the prebuilt skills that exist and are currently available for purchase in ServiceNow Now Assist packages and to review the number of assists consumed.
@@ -39,7 +43,7 @@ The following items are installed with ServiceNow AI Lens:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with ServiceNow AI Lens](../reference/components-installed-sn-lens.md).
+For more information, see [Components installed with ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/components-installed-sn-lens.md).
 
 ## Procedure
 
@@ -64,5 +68,5 @@ The ServiceNow AI Lens and ServiceNow AI Lens Core applications are installed.
 
 ## What to do next
 
-Turn on the ServiceNow AI Lens skill to extract, comprehend, and synthesize visual data to optimize your workflows. For more information, see [Activate the ServiceNow AI Lens skill](activate-lens-skill.md).
+Turn on the ServiceNow AI Lens skill to extract, comprehend, and synthesize visual data to optimize your workflows. For more information, see [Activate the ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/activate-lens-skill.md).
 

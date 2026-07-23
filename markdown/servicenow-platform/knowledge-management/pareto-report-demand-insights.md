@@ -2,6 +2,7 @@
 title: Pareto chart for Knowledge Demand Insights
 description: The Pareto chart for Knowledge Demand Insights enables you to visualize candidate knowledge gaps and prioritize the order in which knowledge gaps should be resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/pareto-report-demand-insights.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -27,18 +28,18 @@ The following information is available in the Pareto chart for Knowledge Demand 
 
 The following figure displays a Pareto chart for identifying candidate knowledge gaps for incidents.
 
-![Pareto report for Knowledge Demand Insights for incidents](../image/example-demand-insights-incidents.png)
+\[Omitted image "example-demand-insights-incidents.png"\] Alt text: Pareto report for Knowledge Demand Insights for incidents
 
-**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](analytics-and-reporting-solutions-for-knowlege-management.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/analytics-and-reporting-solutions-for-knowlege-management.md)
 
 **Related topics**  
 
 
-[Demand Insights for Cases dashboard](demand-insights-cases-dashboard.md)
+[Demand Insights for Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/demand-insights-cases-dashboard.md)
 
-[Demand Insights for Incidents dashboard](demand-insights-incidents-dashboard.md)
+[Demand Insights for Incidents dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/demand-insights-incidents-dashboard.md)
 
-[Demand Insights for HR Cases dashboard](demand-insights-hrcases-dashboard.md)
+[Demand Insights for HR Cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/demand-insights-hrcases-dashboard.md)
 
-[Knowledge demand insights](knowledge-demand-insights.md)
+[Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-demand-insights.md)
 

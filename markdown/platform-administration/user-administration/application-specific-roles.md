@@ -2,6 +2,7 @@
 title: Application specific roles
 description: Applications you install on your instance may include additional roles. Follow the links in this section to see roles installed along with applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/application-specific-roles.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -121,7 +122,7 @@ Case and Knowledge Management
 
 </td><td>
 
-[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md)
+[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-case-and-knowledge-management.md)
 
 </td></tr><tr><td>
 
@@ -133,7 +134,7 @@ HR Service Delivery
 
 </td><td>
 
-[Setting up your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-configure.md)
+[Setting up your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/asc-configure.md)
 
 </td></tr><tr><td>
 
@@ -145,7 +146,7 @@ HR Service Delivery
 
 </td><td>
 
-[Reference for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-doc-templates.md)
+[Reference for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/reference-doc-templates.md)
 
 </td></tr><tr><td>
 
@@ -181,7 +182,7 @@ Journey Designer
 
 </td><td>
 
-[Components installed with Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/components-installed-with-journey-accelerator.md)
+[Components installed with Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-journey-accelerator.md)
 
 </td></tr><tr><td>
 
@@ -193,7 +194,7 @@ Manager Hub
 
 </td><td>
 
-[Components installed with Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/installed-with-managerhub.md)
+[Components installed with Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/installed-with-managerhub.md)
 
 </td></tr><tr><td>
 
@@ -205,7 +206,7 @@ Workplace Case Management
 
 </td><td>
 
-[Components installed with Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/components-installed-with-workplace-case-mgmt.md)
+[Components installed with Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-workplace-case-mgmt.md)
 
 </td></tr><tr><td>
 
@@ -217,7 +218,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/components-installed-with-workplace-calendar-syncn.md)
+[Components installed with Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-workplace-calendar-syncn.md)
 
 </td></tr><tr><td>
 
@@ -229,7 +230,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/components-installed-with-workplace-case-mgmt.md)
+[Components installed with Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-workplace-case-mgmt.md)
 
 </td></tr><tr><td>
 
@@ -241,7 +242,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/components-installed-with-workplace-safety-mgmt-hr.md)
+[Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-workplace-safety-mgmt-hr.md)
 
 </td></tr><tr><td>
 
@@ -265,7 +266,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/components-installed-with-wsd-reservations-outlookaddin.md)
+[Components installed with Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-wsd-reservations-outlookaddin.md)
 
 </td></tr><tr><td>
 
@@ -277,7 +278,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/components-installed-with-wsd-reservation-mgmt.md)
+[Components installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-wsd-reservation-mgmt.md)
 
 </td></tr><tr><td>
 
@@ -289,7 +290,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/components-installed-with-wsd-space-mgmt.md)
+[Components installed with Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-wsd-space-mgmt.md)
 
 </td></tr><tr><td>
 
@@ -313,7 +314,7 @@ Workplace Service Delivery
 
 </td><td>
 
-[Components installed with Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/components-installed-with-workplace-visitor-mgmt.md)
+[Components installed with Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-workplace-visitor-mgmt.md)
 
 </td></tr><tr><td>
 
@@ -349,7 +350,7 @@ Audit Management
 
 </td><td>
 
-[Components installed with Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/r_InstallWAudit.md)
+[Components installed with Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_InstallWAudit.md)
 
 </td></tr><tr><td>
 
@@ -385,7 +386,7 @@ Privacy Management
 
 </td><td>
 
-[Roles installed with Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/roles-installed-prm.md)
+[Roles installed with Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/roles-installed-prm.md)
 
 </td></tr><tr><td>
 
@@ -397,7 +398,7 @@ Risk Management
 
 </td><td>
 
-[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md)
+[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_InstallWRisk.md)
 
 </td></tr><tr><td>
 
@@ -409,7 +410,7 @@ Healthcare and Life Sciences Service Management Core
 
 </td><td>
 
-[Components installed with Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-components-installed-serv-mgmt.md)
+[Components installed with Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-components-installed-serv-mgmt.md)
 
 </td></tr><tr><td>
 
@@ -445,7 +446,7 @@ Model Management
 
 </td><td>
 
-[Installed with Model Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/installed-with-model-management.md)
+[Installed with Model Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/installed-with-model-management.md)
 
 </td></tr><tr><td>
 
@@ -457,7 +458,7 @@ Product Catalog
 
 </td><td>
 
-[Roles installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/r_RolesProductCatalog.md)
+[Roles installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_RolesProductCatalog.md)
 
 </td></tr><tr><td>
 
@@ -481,7 +482,7 @@ Event Management
 
 </td><td>
 
-[Components installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md)
+[Components installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/r_InstalledWithEventManagement.md)
 
 </td></tr><tr><td>
 
@@ -493,7 +494,7 @@ Advanced Work Assignment
 
 </td><td>
 
-[Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/installed-with-awa.md)
+[Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/installed-with-awa.md)
 
 </td></tr><tr><td>
 
@@ -505,7 +506,7 @@ AI Search
 
 </td><td>
 
-[Components installed with AI Search](../../ai-search/reference/components-installed-ais.md#)
+[Components installed with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/components-installed-ais.md)
 
 </td></tr><tr><td>
 
@@ -529,7 +530,7 @@ Automation Center
 
 </td><td>
 
-[Components installed with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/components-installed-with-automation-center.md)
+[Components installed with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/components-installed-with-automation-center.md)
 
 </td></tr><tr><td>
 
@@ -541,7 +542,7 @@ Client Software Distribution 2.0
 
 </td><td>
 
-[Components installed with](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-installed.md)
+[Components installed with](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/csd2-installed.md)
 
 </td></tr><tr><td>
 
@@ -565,7 +566,7 @@ Document Intelligence
 
 </td><td>
 
-[Document Intelligence roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-user-roles.md)
+[Document Intelligence roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-user-roles.md)
 
 </td></tr><tr><td>
 
@@ -577,7 +578,7 @@ Interaction Management
 
 </td><td>
 
-[Components installed with Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/components-installed-with-interaction-management.md)
+[Components installed with Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/components-installed-with-interaction-management.md)
 
 </td></tr><tr><td>
 
@@ -589,7 +590,7 @@ Live Feed
 
 </td><td>
 
-[User roles installed with Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_UserRolesInstalledWithLiveFeed.md)
+[User roles installed with Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_UserRolesInstalledWithLiveFeed.md)
 
 </td></tr><tr><td>
 
@@ -601,7 +602,7 @@ Notify
 
 </td><td>
 
-[Roles installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/r_NotifyRoles.md)
+[Roles installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_NotifyRoles.md)
 
 </td></tr><tr><td>
 
@@ -613,7 +614,7 @@ Orchestration \(Legacy\)
 
 </td><td>
 
-[Installed with Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r_InstalledWithOrchestrationROI.md)
+[Installed with Orchestration ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_InstalledWithOrchestrationROI.md)
 
 </td></tr><tr><td>
 
@@ -649,7 +650,7 @@ Build Workflows
 
 </td><td>
 
-[User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md)
+[User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/user-access-flow-designer.md)
 
 </td></tr><tr><td>
 
@@ -697,7 +698,7 @@ State Model
 
 </td><td>
 
-[Installed with State Model](../../state-model/reference/installed-state-model.md#)
+[Installed with State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/state-management/installed-state-model.md)
 
 </td></tr><tr><td>
 
@@ -721,7 +722,7 @@ Performance Analytics
 
 </td><td>
 
-[Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_PARoles.md)
+[Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/r_PARoles.md)
 
 </td></tr><tr><td>
 
@@ -733,7 +734,7 @@ Process Mining
 
 </td><td>
 
-[Components installed with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/components-installed.md)
+[Components installed with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/components-installed.md)
 
 </td></tr><tr><td>
 
@@ -745,7 +746,7 @@ Reporting
 
 </td><td>
 
-[Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-roles.md)
+[Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-roles.md)
 
 </td></tr><tr><td>
 
@@ -757,7 +758,7 @@ Usage Insights
 
 </td><td>
 
-[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
+[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/components-installed-user-exp-analytics.md)
 
 </td></tr><tr><td>
 
@@ -781,7 +782,7 @@ Change Management
 
 </td><td>
 
-[Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-cm-itsm-roles.md)
+[Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/installed-with-cm-itsm-roles.md)
 
 </td></tr><tr><td>
 
@@ -793,7 +794,7 @@ Continual Improvement Management
 
 </td><td>
 
-[Continual Improvement Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-roles.md)
+[Continual Improvement Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-roles.md)
 
 </td></tr><tr><td>
 
@@ -805,7 +806,7 @@ Contract Management
 
 </td><td>
 
-[User roles installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/r_UserRolesIWContractMgmt.md)
+[User roles installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_UserRolesIWContractMgmt.md)
 
 </td></tr><tr><td>
 
@@ -817,7 +818,7 @@ Digital Portfolio Management
 
 </td><td>
 
-[Roles for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-roles.md)
+[Roles for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpm-roles.md)
 
 </td></tr><tr><td>
 
@@ -829,7 +830,7 @@ Employee Center
 
 </td><td>
 
-[Employee Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-personas.md)
+[Employee Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emp-center-personas.md)
 
 </td></tr><tr><td>
 
@@ -841,7 +842,7 @@ Expense Line
 
 </td><td>
 
-[Components installed with Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/r_InstalledWithExpenseLine.md)
+[Components installed with Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_InstalledWithExpenseLine.md)
 
 </td></tr><tr><td>
 
@@ -877,7 +878,7 @@ Incident Management
 
 </td><td>
 
-[Components installed with ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/inci-roles-instld-itsm-roles.md)
+[Components installed with ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/inci-roles-instld-itsm-roles.md)
 
 </td></tr><tr><td>
 
@@ -901,7 +902,7 @@ Knowledge Management
 
 </td><td>
 
-[Knowledge Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeRoles.md)
+[Knowledge Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeRoles.md)
 
 </td></tr><tr><td>
 
@@ -913,7 +914,7 @@ Performance Analytics
 
 </td><td>
 
-[Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_PARoles.md)
+[Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/r_PARoles.md)
 
 </td></tr><tr><td>
 
@@ -925,7 +926,7 @@ Planned Maintenance
 
 </td><td>
 
-[Installed with SM Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/r_InstallWServMgmtPlanMaint.md)
+[Installed with SM Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_InstallWServMgmtPlanMaint.md)
 
 </td></tr><tr><td>
 
@@ -937,7 +938,7 @@ Problem Management
 
 </td><td>
 
-[Components installed with Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/installed-with-madrid-best-prac.md)
+[Components installed with Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/installed-with-madrid-best-prac.md)
 
 </td></tr><tr><td>
 
@@ -949,7 +950,7 @@ Procurement
 
 </td><td>
 
-[User roles installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/r_UserRolesProcurement.md)
+[User roles installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_UserRolesProcurement.md)
 
 </td></tr><tr><td>
 
@@ -961,7 +962,7 @@ Request Management
 
 </td><td>
 
-[Request ITSM Roles - Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-itsm-roles-rm.md)
+[Request ITSM Roles - Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-itsm-roles-rm.md)
 
 </td></tr><tr><td>
 
@@ -973,7 +974,7 @@ Service Builder
 
 </td><td>
 
-[Roles installed with Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder/service-builder-roles.md)
+[Roles installed with Service Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-builder-roles.md)
 
 </td></tr><tr><td>
 
@@ -985,7 +986,7 @@ Service Operations Workspace
 
 </td><td>
 
-[Components installed with Service Operations Workspace ITSM Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-with-sow.md)
+[Components installed with Service Operations Workspace ITSM Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/components-installed-with-sow.md)
 
 </td></tr><tr><td>
 
@@ -997,7 +998,7 @@ Service Operations Workspace
 
 </td><td>
 
-[Components installed with Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-investigate.md)
+[Components installed with Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/components-installed-investigate.md)
 
 </td></tr><tr><td>
 
@@ -1009,7 +1010,7 @@ Service Operations Workspace
 
 </td><td>
 
-[Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md)
+[Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/components-installed-mecm-adapter.md)
 
 </td></tr><tr><td>
 
@@ -1021,7 +1022,7 @@ Service Operations Workspace
 
 </td><td>
 
-[Components installed with Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-with-remediation-fw.md)
+[Components installed with Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/components-installed-with-remediation-fw.md)
 
 </td></tr><tr><td>
 
@@ -1033,7 +1034,7 @@ Service Operations Workspace
 
 </td><td>
 
-[Components installed with Metrics and CI Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-metrics-ci-action-fw.md)
+[Components installed with Metrics and CI Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/components-installed-metrics-ci-action-fw.md)
 
 </td></tr><tr><td>
 
@@ -1045,7 +1046,7 @@ Service Level Management
 
 </td><td>
 
-[Installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/r_InstalledWithServiceLevelMgmt.md)
+[Installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_InstalledWithServiceLevelMgmt.md)
 
 </td></tr><tr><td>
 
@@ -1093,7 +1094,7 @@ Walk-up Experience
 
 </td><td>
 
-[Components installed with Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/installed-with-walkup-experience.md)
+[Components installed with Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/installed-with-walkup-experience.md)
 
 </td></tr><tr><td>
 
@@ -1105,7 +1106,7 @@ Workforce Optimization
 
 </td><td>
 
-[Components installed with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/components-installed.md)
+[Components installed with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/components-installed.md)
 
 </td></tr><tr><td>
 
@@ -1117,7 +1118,7 @@ Security Incident Response
 
 </td><td>
 
-[Components installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/installed-with-sir.md)
+[Components installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/installed-with-sir.md)
 
 </td></tr><tr><td>
 
@@ -1141,7 +1142,7 @@ Vulnerability Response
 
 </td><td>
 
-[Components installed with Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/installed-with-vr.md)
+[Components installed with Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/installed-with-vr.md)
 
 </td></tr><tr><td>
 
@@ -1213,7 +1214,7 @@ Investment Funding
 
 </td><td>
 
-[Components installed with Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/installed-with-investment-funding.md)
+[Components installed with Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/installed-with-investment-funding.md)
 
 </td></tr><tr><td>
 
@@ -1225,7 +1226,7 @@ Project Portfolio Management
 
 </td><td>
 
-[Components installed with Project Portfolio Management \(PPM\) Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
+[Components installed with Project Portfolio Management \(PPM\) Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
 
 </td></tr><tr><td>
 
@@ -1237,7 +1238,7 @@ Scrum Programs
 
 </td><td>
 
-[Components installed with Scrum Programs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/installed-with-scrum-programs.md)
+[Components installed with Scrum Programs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/installed-with-scrum-programs.md)
 
 </td></tr><tr><td>
 
@@ -1249,8 +1250,8 @@ Teamspaces
 
 </td><td>
 
-[Installed with teamspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithTeamspaces.md)
+[Installed with teamspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_InstalledWithTeamspaces.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Base system roles](r_BaseSystemRoles.md)
+</table>**Parent Topic:**[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
 

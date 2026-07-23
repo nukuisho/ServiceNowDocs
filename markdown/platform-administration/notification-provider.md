@@ -2,6 +2,7 @@
 title: Provider notification
 description: Send notifications directly to recipients via the provider on supported channels. Notifications can be simple messages for review, or actionable messages with buttons that users can select to perform certain actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/notification-provider.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -56,7 +57,7 @@ Enable provider admins to define an actionable notification and send it to users
 
 **Note:** A notification should either have Common Content or Provider Content in order to be delivered to the recipients.
 
-All the above-mentioned capabilities are applicable only for [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) and [Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) providers.
+All the above-mentioned capabilities are applicable only for [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md) and [Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) providers.
 
-**Parent Topic:**[Exploring provider notification](../reference/exploring-provider-notification.md)
+**Parent Topic:**[Exploring provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-provider-notification.md)
 

@@ -2,6 +2,7 @@
 title: Create a reservation including a virtual meeting link
 description: Enable employees who are located outside the office to join a reservation by using a virtual meeting link. A virtual meeting link is created for an employee selected in "On behalf of".
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/Create-reservation-with-virtual-meeting.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -17,7 +18,7 @@ Enable employees who are located outside the office to join a reservation by usi
 
 ## Before you begin
 
-**Note:** You can create a virtual meeting link only if your administrator has enabled the virtual meeting configuration. For more information, see [Configure a reservable purpose](configure-reservable-purpose.md) and [Create a reservation](create-reservation-request-1.md).
+**Note:** You can create a virtual meeting link only if your administrator has enabled the virtual meeting configuration. For more information, see [Configure a reservable purpose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-reservable-purpose.md) and [Create a reservation]().
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -25,15 +26,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_oxk_tfj_zsb"><thead><tr><th align="left" id="d172693e68">
+<table id="choicetable_oxk_tfj_zsb"><thead><tr><th align="left" id="d175530e68">
 
 Location
 
-</th><th align="left" id="d172693e71">
+</th><th align="left" id="d175530e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d172693e77">
+</th></tr></thead><tbody><tr><td id="d175530e77">
 
 **From application navigator**
 
@@ -41,7 +42,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d172693e98">
+</td></tr><tr><td id="d175530e98">
 
 **Employee Center**
 
@@ -78,7 +79,7 @@ Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Rese
 
     **Note:** While browsing near a person, if there are any private spaces, then they are not displayed in the search result.
 
-    **Note:** You can switch between the **Card view** tab and **Schedule view** tab to review the availability of workplace items. If your company uploads floor maps, view the maps using Mappedin or Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](../../workplace-space-mapping/concept/wsm-mappedin-admin.md).
+    **Note:** You can switch between the **Card view** tab and **Schedule view** tab to review the availability of workplace items. If your company uploads floor maps, view the maps using Mappedin or Indoor Mapping. For more information on how to use floor maps, refer to [Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-admin.md).
 
 5.  Sort the workplace items in alphabetical order or by using a filter with the **Show filter** option.
 
@@ -217,40 +218,40 @@ To view the reservation recording, go to Reservation summary of the reservation 
 
 -   **Any other virtual meeting providers**: The meeting link is added in the **Location** field of the email containing the meeting invite.
 
-**Parent Topic:**[Reserve workplace items](../concept/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 
 
-[Create a reservation](create-reservation-request-1.md)
+[Create a reservation]()
 
-[Add invitees as collaborators and create a reservation](add-colleagues-rsv-search.md)
+[Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations](recurring-reservations.md)
+[Auto-resolve recurring reservations]()
 
-[Set a location as favorite using the Space details page](set-a-location-as-favorite.md)
+[Set a location as favorite using the Space details page]()
 
-[Reserve a space near your colleague](browse-near-person-rsv.md)
+[Reserve a space near your colleague]()
 
-[Create a multi-day reservation](create-multi-day-reservation.md)
+[Create a multi-day reservation]()
 
-[Create multi-building reservations](create-multi-building-reservation.md)
+[Create multi-building reservations]()
 
-[Create neighborhood reservations](create-neighborhood-reservations.md)
+[Create neighborhood reservations]()
 
-[Create reservation for multiple workplace items](create-reservation-for-multiple-wrkplceitems-1.md)
+[Create reservation for multiple workplace items]()
 
-[Enable shift-based reservation](enable-shift-based-reservation.md)
+[Enable shift-based reservation]()
 
-[Create a reservation along with a shared reservation](create-rsv-along-with-shared-rsv.md)
+[Create a reservation along with a shared reservation]()
 
-[Create a shift reservation](create-a-shift-reservation.md)
+[Create a shift reservation]()
 
-[Create a group reservation](create-group-reservation.md)
+[Create a group reservation]()
 
-[Share, modify, or cancel a reservation](modify-cancel-res-request.md)
+[Share, modify, or cancel a reservation]()
 
-[Reserve a workplace using the Quick Reservation widget](reserve-workplace-for-a-time-slot.md)
+[Reserve a workplace using the Quick Reservation widget]()
 
-[Download an iCalendar for a reservation](generate-ical.md)
+[Download an iCalendar for a reservation]()
 

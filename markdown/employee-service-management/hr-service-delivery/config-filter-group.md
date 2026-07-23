@@ -2,6 +2,7 @@
 title: Default configurations for filter groups
 description: Predefined set of filter group configurations are available to use after you have activated Manager Hub from ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-filter-group.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,34 +25,34 @@ Predefined set of filter group configurations are available to use after you hav
 
 For more details, navigate to **All** &gt; **Manager Hub** &gt; **Administration** &gt; **Team Filter Configuration**.
 
-**Parent Topic:**[Reference for Manager Hub](../reference/reference-manager-hub.md)
+**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 
 
-[Components installed with Manager Hub](../reference/installed-with-managerhub.md)
+[Components installed with Manager Hub]()
 
-[Campaign configurations for Manager Hub](manager-hub-campaign.md)
+[Campaign configurations for Manager Hub]()
 
-[Default configurations for important dates](manager-hub-imp-dates.md)
+[Default configurations for important dates]()
 
-[Default configurations for team requests](manager-hub-team-requests.md)
+[Default configurations for team requests]()
 
-[Default configurations for team data](team-data-config.md)
+[Default configurations for team data]()
 
-[Default configurations for team column data](config-team-column.md)
+[Default configurations for team column data]()
 
-[Default configurations for daily stats](config-daily-stats.md)
+[Default configurations for daily stats]()
 
-[Default configurations for To do's](manager-hub-todos.md)
+[Default configurations for To do's]()
 
-[Default proactive prompts for Manager Hub](prompts-mh.md)
+[Default proactive prompts for Manager Hub]()
 
-[Use the View menu icon in Manager Hub](../reference/view-menu.md)
+[Use the View menu icon in Manager Hub]()
 
-[Assign learning form](../reference/assign-learning-form.md)
+[Assign learning form]()
 
-[Create a conversation form](../reference/create-conversation-form.md)
+[Create a conversation form]()
 
-[Schedule a conversation form](../reference/schedule-conversation-form.md)
+[Schedule a conversation form]()
 

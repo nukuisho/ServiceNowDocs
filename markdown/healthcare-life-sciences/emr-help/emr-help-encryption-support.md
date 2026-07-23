@@ -2,6 +2,7 @@
 title: Encryption options in EMR Help
 description: EMR Help provides encryption support to secure sensitive information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-help-encryption-support.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -19,8 +20,8 @@ Encryption prevents unauthorized users from viewing sensitive EMR system data.
 
 The following encryption options on the ServiceNow AI Platform are supported in the EMR Help application:
 
--   [Column Level Encryption](emr-help-encryption-support.md#section_v2g_g2x_cpb)
--   [Column Level Encryption Enterprise](emr-help-encryption-support.md#section_htr_f2x_cpb)
+-   [Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help-encryption-support.md)
+-   [Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help-encryption-support.md)
 
 ## Column Level Encryption
 
@@ -38,5 +39,5 @@ Beginning with the Quebec release, the migration of keys and encrypted data from
 
 **Note:** Existing customers on the Paris release must contact ServiceNow Customer Support to migrate keys and encrypted data from Encryption Support to Column Level Encryption Enterprise.
 
-**Parent Topic:**[EMR Help reference](../reference/emr-reference.md)
+**Parent Topic:**[EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-reference.md)
 

@@ -2,6 +2,7 @@
 title: Using generative AI in Now Assist for Manufacturing Commercial Operations \(MCO\)
 description: If you have an agent role, you can summarize the report details with the Now Assist for Manufacturing Commercial Operations \(MCO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-use-generative-ai-skills.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

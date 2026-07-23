@@ -2,6 +2,7 @@
 title: Add or edit a TRM phase
 description: Define your own TRM phase for the TRM products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-trm-phase.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,9 +28,9 @@ The color and shape of a phase are used to represent the phase of the TRM produc
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon ![Setup icon](../../image/eaw-image/setup-icon.png).
+2.  Open the Setup page by selecting the Setup icon \[Omitted image "setup-icon.png"\] Alt text: Setup icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **TRM Phases**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **TRM Phases**.
 
 4.  Select **All**.
 
@@ -46,17 +47,17 @@ The color and shape of a phase are used to represent the phase of the TRM produc
     -   To update details of an existing TRM phase, select the TRM phase.
 6.  On the form, fill in the fields.
 
-    For field information, see [TRM Phase form](../../reference/eaw-reference/eaw-trm-phase-form.md).
+    For field information, see [TRM Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-trm-phase-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure TRM phases](../../concept/eaw-concept/eaw-setup-trm-phases.md)
+**Parent Topic:**[Configure TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-trm-phases.md)
 
 **Related topics**  
 
 
-[View all TRM phases](eaw-view-all-trm-phases.md)
+[View all TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-trm-phases.md)
 
-[Working with Technology Reference Model \(TRM\) in EA Workspace](../../concept/eaw-concept/eaw-work-with-trm.md)
+[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
 

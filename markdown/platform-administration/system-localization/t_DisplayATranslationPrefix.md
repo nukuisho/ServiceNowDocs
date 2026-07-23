@@ -2,6 +2,7 @@
 title: Debug translations
 description: Show which UI strings are translatable and their translation table to debug translations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_DisplayATranslationPrefix.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -45,7 +46,7 @@ Translation prefixes map to translation tables as follows.
     -   To enable prefixes for the current user session, navigate to **All** &gt; **System Localization** &gt; **Enable I18N Debugging**.
     -   To enable prefixes for all sessions, navigate to **All** &gt; **System Properties** &gt; **System Localization** and set **Display translation prefix on translatable strings** to **Yes**.
 
-        ![Translation property.](../image/TranslationProperty.png)
+        \[Omitted image "TranslationProperty.png"\] Alt text: Translation property.
 
 2.  Refresh the page or change your user language to one of the non-English languages installed on your instance to see the prefixes.
 
@@ -54,7 +55,7 @@ Translation prefixes map to translation tables as follows.
 
 When enabled, translation prefixes appear before translatable UI strings.
 
-![The application navigator with MSG and TRF prefixes for the navigator and application strings.](../image/translation-prefix.png)
+\[Omitted image "translation-prefix.png"\] Alt text: The application navigator with MSG and TRF prefixes for the navigator and application strings.
 
 ## What to do next
 
@@ -66,5 +67,5 @@ When you are done debugging, disable the translation prefixes.
 **Related topics**  
 
 
-[System Localization properties](../reference/set-localization-props.md)
+[System Localization properties]()
 

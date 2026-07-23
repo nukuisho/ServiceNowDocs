@@ -2,6 +2,7 @@
 title: Create quick filters for Security Incidents and Response Tasks lists
 description: Create quick filters to create reusable, predefined filters that appear on the security incidents and response tasks list pages enabling security analysts to filter the list items without adding the filter conditions each time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-quick-filters-for-security-incidents.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -44,28 +45,30 @@ Role required: sn\_si.admin
 
 The newly created filter is saved and appears on the Filter page.
 
-**Parent Topic:**[Configuring SIR Workspace](../reference/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 
 
-[Set up view of SIR Records](../concept/set-up-view-of-sir-records.md)
+[Set up view of SIR Records]()
 
-[Configure SI design time investigation](../concept/configure-investigation-canvas-records.md)
+[Configure SI design time investigation]()
 
-[SIR Workspace Related Records](../concept/sir-records.md#)
+[SIR Workspace Related Records]()
 
-[Define the new Risk Score Calculator Rules](define-risk-score-calculator-rules-sir.md)
+[Define the new Risk Score Calculator Rules]()
 
-[Configure Shift Handover](../concept/config-shift-handover.md)
+[Configure Shift Handover]()
 
-[Security Incident Response conference call integration](../concept/sir-conf-call-capability.md)
+[Security Incident Response conference call integration]()
 
-[Configure report templates in Security Incident Response](../concept/daily-status-sir.md)
+[Configure report templates in Security Incident Response]()
 
-[On-Call scheduling in Security Incident Response](../concept/on-call-schedule-sir.md)
+[On-Call scheduling in Security Incident Response]()
 
-[Category management in Security Incident Response](../concept/category-management-sir.md)
+[Category management in Security Incident Response]()
 
-[View and update Security Incident Response system properties](../concept/view-update-sirw-system-properties.md)
+[View and update Security Incident Response system properties]()
+
+[Timeline in Security Incident Response Workspace]()
 

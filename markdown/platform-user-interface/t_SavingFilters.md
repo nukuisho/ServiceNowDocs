@@ -2,6 +2,7 @@
 title: Save and use filters in a list view
 description: Depending on your access rights, you may save filters for everyone, a user group, or yourself. You can apply saved filters and edit or delete them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_SavingFilters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,19 +22,19 @@ Role required: varies depending on action. See procedure.
 
 ## Procedure
 
-1.  Navigate to a list and create or modify a filter as described in [Create a filter in List](t_CreatingFilters.md).
+1.  Navigate to a list and create or modify a filter as described in [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md).
 
 2.  Select **Save...**.
 
     Additional options for saving the filter display.
 
-    ![Save filter options](../image/save_filters.png)
+    \[Omitted image "save\_filters.png"\] Alt text: Save filter options
 
 3.  Enter a name for the filter in the **Save as:** field.
 
 4.  Select one of the following visibility options.
 
-<table id="choicetable_v1q_3x2_pv"><tbody><tr><td id="d55523e109">
+<table id="choicetable_v1q_3x2_pv"><tbody><tr><td id="d56034e109">
 
 **Me**
 
@@ -41,7 +42,7 @@ Role required: varies depending on action. See procedure.
 
 Creates a personal filter, which only you can access. If you don’t have Write access to the User field, this option isn't available. See your administrator for more information.
 
-</td></tr><tr><td id="d55523e121">
+</td></tr><tr><td id="d56034e121">
 
 **Everyone**
 
@@ -49,7 +50,7 @@ Creates a personal filter, which only you can access. If you don’t have Write 
 
 Creates a global filter, which all users can access. This option is available to users with the filter\_global role.
 
-</td></tr><tr><td id="d55523e130">
+</td></tr><tr><td id="d56034e130">
 
 **Group**
 
@@ -60,13 +61,13 @@ Creates a group filter, which only members of the user group you select can acce
 </td></tr></tbody>
 </table>5.  Select **Save**.
 
-6.  To use your saved filter, return to the list, select the List control menu \(![](../image/list-control-menu.png)\), and select your filter from the Filters submenu.
+6.  To use your saved filter, return to the list, select the List control menu \(\[Omitted image "list-control-menu.png"\]\), and select your filter from the Filters submenu.
 
-7.  To edit or delete your personal filters, return to the list, select the List control menu \(![](../image/list-control-menu.png)\), and select **Edit personal filters** from the Filters menu.
+7.  To edit or delete your personal filters, return to the list, select the List control menu \(\[Omitted image "list-control-menu.png"\]\), and select **Edit personal filters** from the Filters menu.
 
     1.  Review the Filters list and select the title of the filter to edit.
 
-        If no results display, select the Show/hide filter icon \(![](../image/show-hide-filters.png)\) and remove any applied filters.
+        If no results display, select the Show/hide filter icon \(\[Omitted image "show-hide-filters.png"\]\) and remove any applied filters.
 
     2.  Update the filter title or add or remove conditions.
 
@@ -75,5 +76,5 @@ Creates a group filter, which only members of the user group you select can acce
     4.  If you edited the filter, select **Update**.
 
 
-**Parent Topic:**[Filters and breadcrumbs](../concept/c_UsingFiltersAndBreadcrumbs.md)
+**Parent Topic:**[Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md)
 

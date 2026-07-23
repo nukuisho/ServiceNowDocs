@@ -2,6 +2,7 @@
 title: Configure multi-module encrypted field configurations
 description: Create an encrypted field configuration that uses more than one encryption module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/multi-module-fe-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Create an encrypted field configuration that uses more than one encryption modul
 
 Role required: security\_admin, sn\_kmf.cryptographic\_manager or sn\_kmf.admin
 
-You must have a configured field encryption module with a ServiceNow or customer-supplied key. If you have not yet configured a module, see [Configure Field Encryption modules](configure-fe-modules.md).
+You must have a configured field encryption module with a ServiceNow or customer-supplied key. If you have not yet configured a module, see [Configure Field Encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-fe-modules.md).
 
 ## About this task
 
@@ -37,11 +38,11 @@ Note these limitations on multi-module encrypted field configuration before proc
 
 2.  Confirm that you have the field encryption modules you want to use created.
 
-    If you have not done so, see [Configure Field Encryption modules](configure-fe-modules.md).
+    If you have not done so, see [Configure Field Encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-fe-modules.md).
 
 3.  Confirm that each of your modules has a module access policy.
 
-    If you have not done so, see [Configure module access policies for Field Encryption](maps-for-fe.md).
+    If you have not done so, see [Configure module access policies for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/maps-for-fe.md).
 
 4.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience** &gt; **Configurations**.
 
@@ -77,7 +78,7 @@ After the record is saved, and the **Active** field is enabled, new data created
     2.  The short description for the incident record created by User B is encrypted with the key for field encryption module B.
 5.  Users with the HR and Sales roles have access to incidents. Only a user with the HR role can decrypt and view the short description for those incidents created by User A \(who had the HR Role\). Only users with the Sales role can decrypt and view the short descriptions for those incidents created by User B \(who has the Sales role\).
 
-![Shows a diagram of multiple modules.](../../key-management-framework/image/MultipleModules.png)
+\[Omitted image "MultipleModules.png"\] Alt text: Shows a diagram of multiple modules.
 
-**Parent Topic:**[Configuring Field Encryption](../concept/configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
 

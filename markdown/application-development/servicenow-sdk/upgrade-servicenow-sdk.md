@@ -2,6 +2,7 @@
 title: Upgrade the ServiceNow SDK
 description: Upgrade to the latest version of the ServiceNow SDK for use with instances beginning with the Washington DC release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/upgrade-servicenow-sdk.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -30,15 +31,15 @@ Role required: admin
 
 1.  Complete the following steps depending on whether you're updating a global installation of the ServiceNow SDK or the version used by an application.
 
-<table id="choicetable_q2z_4ms_mgc"><thead><tr><th align="left" id="d297282e86">
+<table id="choicetable_q2z_4ms_mgc"><thead><tr><th align="left" id="d292370e86">
 
 Option
 
-</th><th align="left" id="d297282e89">
+</th><th align="left" id="d292370e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d297282e95">
+</th></tr></thead><tbody><tr><td id="d292370e95">
 
 **Application package**
 
@@ -69,7 +70,7 @@ cd <path/to/directory>
 now-sdk -v
     ```
 
-</td></tr><tr><td id="d297282e146">
+</td></tr><tr><td id="d292370e146">
 
 **Global package**
 
@@ -98,16 +99,16 @@ now-sdk -v
 </table>
 ## What to do next
 
-Install the ServiceNow Fluent Language server to get language processing and validation for ServiceNow Fluent in Visual Studio Code. For more information, see [Install the ServiceNow Fluent Language server in Visual Studio Code](install-fluent-language-extension-vs-code.md).
+Install the ServiceNow Fluent Language server to get language processing and validation for ServiceNow Fluent in Visual Studio Code. For more information, see [Install the ServiceNow Fluent Language server in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/install-fluent-language-extension-vs-code.md).
 
-Use the ServiceNow SDK to authenticate to a ServiceNow instance. For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](../concept/authenticate-instance-now-sdk.md).
+Use the ServiceNow SDK to authenticate to a ServiceNow instance. For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
 
-**Parent Topic:**[Configuring the ServiceNow SDK](../concept/configuring-servicenow-sdk.md)
+**Parent Topic:**[Configuring the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/configuring-servicenow-sdk.md)
 
 **Related topics**  
 
 
-[Install the ServiceNow SDK in an application](install-servicenow-sdk.md)
+[Install the ServiceNow SDK in an application]()
 
-[Install the ServiceNow Fluent Language server in Visual Studio Code](install-fluent-language-extension-vs-code.md)
+[Install the ServiceNow Fluent Language server in Visual Studio Code]()
 

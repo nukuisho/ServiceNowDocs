@@ -2,9 +2,10 @@
 title: Register a deal on Partner portal
 description: Register a deal on the Partner portal to update its state and trigger the end-to-end life cycle of the deal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/register-a-deal-partner-portal.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---
@@ -23,11 +24,11 @@ Role required: sn\_prm\_dr.deal\_reg\_ui
 
 2.  From the portal header, select **Requests**.
 
-3.  From the drop-down, select **Submit a request** &gt; **Register a deal**.![Deal registration playbook on partner portal](../image/portal-playbook-deal-reg.png)
+3.  From the drop-down, select **Submit a request** &gt; **Register a deal**.\[Omitted image "portal-playbook-deal-reg.png"\] Alt text: Deal registration playbook on partner portal
 
 4.  On the **Create New Deal Registration** screen, enter the required information on the **Deal registration information** form.
 
-    To learn more about the fields on this form, see [Deal registration table fields](../reference/deal-registration-table-fields.md).
+    To learn more about the fields on this form, see [Deal registration table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-table-fields.md).
 
 5.  On the **Deal registration type** screen, select the preferred deal registration type.
 
@@ -35,7 +36,7 @@ Role required: sn\_prm\_dr.deal\_reg\_ui
 
 6.  On the **Customer information** screen, select an existing account or create an account or consumer.
 
-    To create an account, select **Can't find account details?** and fill in the fields. To learn more about the fields, see [Deal registration table fields](../reference/deal-registration-table-fields.md).
+    To create an account, select **Can't find account details?** and fill in the fields. To learn more about the fields, see [Deal registration table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/deal-registration-table-fields.md).
 
 7.  On the **Product offerings** screen, select the list of product offerings that the customer is interested in.
 
@@ -47,7 +48,7 @@ Role required: sn\_prm\_dr.deal\_reg\_ui
 
 9.  Select **Review** to review all the details and select **Submit**.
 
-    As an agent you can update the status of the field on the **CSM/FSM Configurable Workspace**. To learn more, see [Update deal registration record](update-deal-registration-record.md).
+    As an agent you can update the status of the field on the **CSM/FSM Configurable Workspace**. To learn more, see [Update deal registration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/update-deal-registration-record.md).
 
 
 ## Result
@@ -56,10 +57,12 @@ A deal registration is created with an associated account, a channel partner, an
 
 **Note:** Select **Actions** from the details page to edit or delete the deal registration. You can only delete deal registrations that are in the **Draft** state.
 
-**Parent Topic:**[Using Partner Relationship Management](../concept/using-partner-relationship-management.md)
+**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
 
 **Related topics**  
 
 
-[Update deal registration record](update-deal-registration-record.md)
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-partner-relationship-management.md)
+
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
 

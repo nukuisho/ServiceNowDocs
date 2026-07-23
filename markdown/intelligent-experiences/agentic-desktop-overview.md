@@ -2,6 +2,7 @@
 title: AI Desktop Actions Design workspace
 description: The Design workspace is an interactive environment within AI Desktop Actions that enables you to create desktop actions by recording and configuring user interactions with desktop applications. The workspace provides a visual canvas where you can design multi-screen automation workflows that capture business processes across different applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/agentic-desktop-overview.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-09"
@@ -24,7 +25,7 @@ You don’t open the Execution workspace directly. It launches automatically whe
 
 The home page provides an intuitive interface to help you quickly create, track, and manage your desktop actions. You can easily find and manage your existing desktop actions and monitor their status.
 
-![AI Desktop Actions home page with Create desktop action UI action, search and filter options, and cards of existing desktop actions.](../image/home-page-actions-ad.png "AI Desktop Actions home page")
+\[Omitted image "home-page-actions-ad.png"\] Alt text: AI Desktop Actions home page with Create desktop action UI action, search and filter options, and cards of existing desktop actions.
 
 When you log in to AI Desktop Actions, the home page is the first screen you see. The home page lets you interact with various functionalities.
 
@@ -59,11 +60,21 @@ When you log in to AI Desktop Actions, the home page is the first screen you see
     A dedicated section enables you to view your profile information, access product documentation, and check the product version.
 
 
+## What AI generates after recording
+
+When you use record with AI option, AI badge, AI analysis retry option, and screen context are shows in the properties panel for each screen. If you aren't satisfied with the results, you can regenerate anchors and screen context by selecting **Retry** \[Omitted image "icon-retry.png"\] Alt text:.
+
+\[Omitted image "ad-screen-ai-tag.png"\] Alt text: AI badge, retry option, and screen context for screens in the properties panel.
+
+An AI badge appears for each anchor generated using AI.
+
+\[Omitted image "ad-anchor-ai-tag.png"\] Alt text: AI badge for anchors in the properties panel.
+
 ## AI Desktop Actions Design tab
 
 The Design workspace provides a no-code environment for creating, managing, and testing your desktop actions. You can either auto-capture or manually record a series of steps you perform on your computer, such as clicking buttons, entering text, selecting from drop-down, or interacting with different applications. You can then save this sequence as a reusable desktop action.
 
-![AI Desktop Actions Design tab that shows interface elements like Design, Details tabs, Screens and steps panel, and a captured currency converter screen with numbered annotations.](../image/design-tab-overview-ad.png "Design tab")
+\[Omitted image "design-tab-overview-ad.png"\] Alt text: AI Desktop Actions Design tab that shows interface elements like Design, Details tabs, Screens and steps panel, and a captured currency converter screen with numbered annotations.
 
 <table id="table_dqh_1bz_ghc"><thead><tr><th>
 
@@ -111,7 +122,7 @@ Enables you to add details to your desktop actions, such as name, description, a
 
 </td><td>
 
-Shows all the captured screens and added anchors and steps in a sequence the desktop action must perform them. You can drag and move these items to change the order. You can also run a screen-level test by selecting the Run screen test icon ![](../image/icon-video-play-ad.png).
+Shows all the captured screens and added anchors and steps in a sequence the desktop action must perform them. You can drag and move these items to change the order. You can also run a screen-level test by selecting the Run screen test icon \[Omitted image "icon-video-play-ad.png"\].
 
 </td></tr><tr><td>
 
@@ -148,7 +159,7 @@ Captured screen
 
 </td><td>
 
-The application screen that you captured.You can delete any screen by selecting the **Delete** icon ![](../image/ad-delete-icon.png) from the Screens and steps panel.
+The application screen that you captured.You can delete any screen by selecting the **Delete** icon \[Omitted image "ad-delete-icon.png"\] Alt text: from the Screens and steps panel.
 
 </td></tr><tr><td>
 
@@ -160,7 +171,7 @@ The application screen that you captured.You can delete any screen by selecting 
 
 </td><td>
 
-An anchor is a reference point on the screen that helps the automation identify and interact with a nearby UI elements. During execution, the system uses computer vision to locate the anchor and then identifies the UI elements at a related distance from the anchor. Anchors improve the stability and accuracy of steps when the target element’s location may shift or when the UI layout varies across sessions.You can delete any anchor by selecting the **Delete** icon ![](../image/ad-delete-icon.png).
+An anchor is a reference point on the screen that helps the automation identify and interact with a nearby UI elements. During execution, the system uses computer vision to locate the anchor and then identifies the UI elements at a related distance from the anchor. Anchors improve the stability and accuracy of steps when the target element’s location may shift or when the UI layout varies across sessions.You can delete any anchor by selecting the **Delete** icon \[Omitted image "ad-delete-icon.png"\] Alt text:.
 
 </td></tr><tr><td>
 
@@ -185,7 +196,7 @@ A step in your automation. The following types of steps are supported:**Inputs**
 -   Get Table
 -   OCR Read Text
 
-You can add a step by selecting the **Add step** icon ![](../../../reuse/icons/product-icons/circle-plus-outline-24.svg) from the Step control menu. You can delete any step by selecting the **Delete** icon ![](../image/ad-delete-icon.png).
+You can add a step by selecting the **Add step** icon \[Omitted image "circle-plus-outline-24.svg"\] from the Step control menu. You can delete any step by selecting the **Delete** icon \[Omitted image "ad-delete-icon.png"\] Alt text:.
 
 </td></tr><tr><td>
 
@@ -241,15 +252,15 @@ Screen capture options
 </table>**Related topics**  
 
 
-[Defined path desktop actions in AI Desktop Actions](desktop-actions-designer-workspace-ad.md)
+[Defined path desktop actions in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
 
-[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](../task/auto-create-desktop-action-ad.md)
+[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md)
 
-[Automate repetitive tasks by manually capturing steps in AI Desktop Actions](../task/manual-create-desktop-action-ad.md)
+[Extend a desktop action by manually capturing steps in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manual-create-desktop-action-ad.md)
 
-[Example: Automate badge request management using AI Desktop Actions](example-badging-magmt-concept-ad.md#)
+[Example: Automate badge request management using AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-badging-magmt-concept-ad.md)
 
-[Example: Automate shipping management tasks using AI Desktop Actions](example-shipping-magmt-concept-ad.md#)
+[Example: Automate shipping management tasks using AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-shipping-magmt-concept-ad.md)
 
-[Screen, anchor, and step properties in AI Desktop Actions](../reference/screen-anchor-and-action-properties-ad.md)
+[Screen, anchor, and step properties in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/screen-anchor-and-action-properties-ad.md)
 

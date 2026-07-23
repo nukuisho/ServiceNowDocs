@@ -2,6 +2,7 @@
 title: Make a decision flow logic
 description: You can use the decision table branching logic in situations where multiple conditional paths are required, as an alternative to nested If, Else If, or Else flow logic. For example, if you want to determine what kind of car insurance you need, you can add inputs such as your age, accident history, and car model to the decision table to determine a level of insurance coverage. This logic can save you time and present a more readable format than nested if conditions or switch case statements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-make-decision.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows
 
 You can use the decision table branching logic in situations where multiple conditional paths are required, as an alternative to nested If, Else If, or Else flow logic. For example, if you want to determine what kind of car insurance you need, you can add inputs such as your age, accident history, and car model to the decision table to determine a level of insurance coverage. This logic can save you time and present a more readable format than nested if conditions or switch case statements.
 
-The **Make a decision** flow logic requires that you create an external decision table for its branch paths. Each decision table answer produces a separate branch path within your flow. Decision tables accept any number of inputs and support any number of decisions. You can configure the Make a decision flow logic to return a single or multiple answers and to display the answers as branch paths or record data pills. For more information on decision tables, see [Exploring Decision Tables](../../decision-table/concept/decision-designer-overview.md).
+The **Make a decision** flow logic requires that you create an external decision table for its branch paths. Each decision table answer produces a separate branch path within your flow. Decision tables accept any number of inputs and support any number of decisions. You can configure the Make a decision flow logic to return a single or multiple answers and to display the answers as branch paths or record data pills. For more information on decision tables, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md).
 
 **Note:**
 
@@ -47,7 +48,7 @@ Decision Table
 
 </td><td>
 
-Reference to a decision table \[sys\_decision\] record. This record provides the decision input answers that are available to the flow. To create a new decision table, select the create new record icon \(![Create new record icon](../images/add-record-button.png)\).
+Reference to a decision table \[sys\_decision\] record. This record provides the decision input answers that are available to the flow. To create a new decision table, select the create new record icon \(\[Omitted image "add-record-button.png"\] Alt text: Create new record icon\).
 
 </td></tr><tr><td>
 
@@ -106,11 +107,11 @@ List of Decision Input \[sys\_decision\_input\] records that are associated with
 
 In this example, the flow uses a decision from the **Insurance Coverage** decision table, which an administrator had configured to determine the insurance coverage that was based on three inputs. The flow displays all the inputs that were used by the decision table. These inputs can be entered manually, or by dragging data pills into the inputs from the data panel on the right side of the screen. Below this section, the branches for each answer are shown in the decision table.
 
-![Make a decision flow logic.](../images/example-make-decision-1.png)
+\[Omitted image "example-make-decision-1.png"\] Alt text: Make a decision flow logic.
 
 ## Execution details
 
-![Example execution details for the make a decision flow logic.](../images/ex-details-make-decision.png "Make a decision flow execution details")
+\[Omitted image "ex-details-make-decision.png"\] Alt text: Example execution details for the make a decision flow logic.
 
 The **Flow execution details** tab provides runtime information about the flow logic.
 
@@ -118,40 +119,40 @@ The **Flow execution details** tab provides runtime information about the flow l
 2.  The action shows details about the decision table configuration and inputs.
 3.  Each possible answer for the decision table is represented as a branch. The state field indicates whether the branch was evaluated and the evaluation result. This section also displays details about the actions that are taken within a branch. Branches that evaluate to true are highlighted in green.
 
-**Parent Topic:**[Workflow Studio flow logic](flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 
 
-[Append to Flow Variables flow logic](../reference/append-to-flow-variables-flow-logic.md)
+[Append to Flow Variables flow logic]()
 
-[Assign subflow outputs flow logic](flow-logic-assign-subflow-outputs.md)
+[Assign subflow outputs flow logic]()
 
-[Call a workflow flow logic](flow-logic-call-workflow.md)
+[Call a workflow flow logic]()
 
-[Do the following until flow logic](flow-logic-do-until.md)
+[Do the following until flow logic]()
 
-[Do the following in parallel flow logic](flow-logic-do-following-in-parallel.md)
+[Do the following in parallel flow logic]()
 
-[Dynamic flows flow logic](flow-logic-dynamic-flow.md)
+[Dynamic flows flow logic]()
 
-[End Flow flow logic](flow-logic-end-action.md)
+[End Flow flow logic]()
 
-[Exit Loop flow logic](../reference/exit-loop-flow-logic.md)
+[Exit Loop flow logic]()
 
-[For Each flow logic](flow-logic-for-each.md)
+[For Each flow logic]()
 
-[Get Flow Outputs flow logic](../reference/get-flow-outputs-flow-logic.md)
+[Get Flow Outputs flow logic]()
 
-[Go back to flow logic](../reference/go-back-to-flow-logic.md)
+[Go back to flow logic]()
 
-[If flow logic](flow-logic-if.md)
+[If flow logic]()
 
-[Set Flow Variables flow logic](flow-logic-set-flow-variables.md)
+[Set Flow Variables flow logic]()
 
-[Skip Iteration flow logic](../reference/skip-iteration-flow-logic.md)
+[Skip Iteration flow logic]()
 
-[Try flow logic](flow-logic-try.md)
+[Try flow logic]()
 
-[Wait for a duration flow logic](flow-logic-wait-for-a-duration.md)
+[Wait for a duration flow logic]()
 

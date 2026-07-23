@@ -2,11 +2,12 @@
 title: Use the String component
 description: Generate a random string by using the String component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-random-string.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Random, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Random, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the String component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the String component. For more information about these properties, see [Properties of the Random components](../reference/properties-random-component.md).
+You can configure the properties for the String component. For more information about these properties, see [Properties of the Random components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-random-component.md).
 
 ## Procedure
 
@@ -39,5 +40,5 @@ You can configure the properties for the String component. For more information 
 4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Random](../concept/random.md)
+**Parent Topic:**[Random](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/random.md)
 

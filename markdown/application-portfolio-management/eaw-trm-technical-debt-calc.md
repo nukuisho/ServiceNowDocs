@@ -2,6 +2,7 @@
 title: TRM Technical Debt calculation in Enterprise Architecture Workspace
 description: A TRM technical debt indicates the unapproved usage of a software. The technical debts table \[sn\_apm\_trm\_standards\_technical\_debt\], displays the TRM products and associated business applications details, and the reason for the technical debt.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-technical-debt-calc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,5 +43,5 @@ Technical debts are created at two levels if any of the following conditions are
         -   The edition of TRM lifecycle matching with edition for software discovery model \[cmdb\_sam\_sw\_discovery\_model\] AND
         -   Phase start date &lt;= Today's date &lt;=phase end date.
 
-**Parent Topic:**[Manage the Technology Reference Model in Enterprise Architecture Workspace](eaw-managing-the-technology-portfolio.md)
+**Parent Topic:**[Manage the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 

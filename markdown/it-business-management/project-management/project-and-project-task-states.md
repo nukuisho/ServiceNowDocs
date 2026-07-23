@@ -2,6 +2,7 @@
 title: Project and project task states
 description: In the base system, the states in project and project task inherit the states in Task table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-and-project-task-states.html
 release: australia
 product: Project Management
 classification: project-management
@@ -26,7 +27,7 @@ The states are grouped into different categories as shown below:
 |4|Closed Incomplete|Closed|
 |7|Closed Skipped|Closed|
 
-The category information for the states is declared in [dictionary override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md) of State column in Planned task \(`planned_task`\) table in **Attributes** field. Planned task is the parent table for project and project task tables.
+The category information for the states is declared in [dictionary override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryOverrides.md) of State column in Planned task \(`planned_task`\) table in **Attributes** field. Planned task is the parent table for project and project task tables.
 
 The start and end dates are displayed based on the project or task status:
 
@@ -34,38 +35,36 @@ The start and end dates are displayed based on the project or task status:
 -   Open/Work in Progress: Actual start date is displayed.
 -   Closed: Actual end date is displayed.
 
-**Parent Topic:**[Basics of Project Management](c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
 
-[Parent-child rollup task calculations](c_ParentChildRollupTaskCalcs.md)
+[Parent-child rollup task calculations]()
 
-[Project tasks](../task/t_CreateAProjectTask.md)
+[Project tasks]()
 
-[Schedule conflicts between project tasks](scheduling-conflicts.md)
+[Schedule conflicts between project tasks]()
 
-[Change requests and project tasks](c_ChangeRequestsAndProjectTasks.md)
+[Change requests and project tasks]()
 
-[Project task checklists](c_project-task-checklists.md)
+[Project task checklists]()
 
-[Task resources](c_TaskResources.md)
+[Task resources]()
 
-[Composite Fields](pm-composite-fields.md)
+[Composite Fields]()
 
-[Cost plan breakdown](cost-plan-breakdown.md#)
+[Cost plan breakdown]()
 
-[Actual project costs](actual-project-costs.md)
+[Actual project costs]()
 
-[Types of external dependencies](external-dependency-types.md)
+[Types of external dependencies]()
 
-[Project and portfolio funding](../../project-portfolio-suite-with-financials/concept/c_ProjectAndPortfolioFunding.md)
+[Project and portfolio funding]()
 
-[Project scheduling in Project Management](project-scheduling.md)
+[Project scheduling in Project Management]()
 
-[Task constraints](task-constraints-project-management.md)
+[View default project and project task state categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/view-default-project-task-states.md)
 
-[View default project and project task state categories](../task/view-default-project-task-states.md)
-
-[Customize a state for project or project task](../task/customize-project-task-states.md)
+[Customize a state for project or project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/customize-project-task-states.md)
 

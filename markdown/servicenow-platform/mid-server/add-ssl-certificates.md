@@ -2,6 +2,7 @@
 title: Add SSL certificates for the MID Server
 description: Configure the MID Server to connect to a source over SSL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/add-ssl-certificates.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -29,7 +30,7 @@ Role required: admin
 You can add certificates to the MID Server to communicate over SSL/TLS in one of two ways:
 
 -   Add certificates directly to the bundled JRE TrustStore file, using the following procedure.
--   Specify a different TrustStore file for the MID Server to use. For more information, see [Specify an external TrustStore for the MID Server](mid-external-truststore.md).
+-   Specify a different TrustStore file for the MID Server to use. For more information, see [Specify an external TrustStore for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-external-truststore.md).
 
 Review both methods to evaluate which best meets your needs.
 
@@ -42,7 +43,7 @@ During MID upgrade the bundled TrustStore is overwritten. The MID Server attempt
     -   X.509 certificates
     -   Any certificate present in the source, but not the destination TrustStore
 
-Certificates that do not meet the criteria are overwritten. Alternatively, you can specify an external TrustStore file which is unaffected by MID Server upgrades. For more information, see [Specify an external TrustStore for the MID Server](mid-external-truststore.md)
+Certificates that do not meet the criteria are overwritten. Alternatively, you can specify an external TrustStore file which is unaffected by MID Server upgrades. For more information, see [Specify an external TrustStore for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-external-truststore.md)
 
 In Rome and later families, the migration strategy utilized during upgrade is configurable via the MID Server configuration parameter **mid.truststore.migration.strategy**. It can take the following values:
 
@@ -51,6 +52,8 @@ In Rome and later families, the migration strategy utilized during upgrade is co
 -   **do\_not\_migrate**: disables the TrustStore migration during upgrade, though a backup of the original TrustStore is made in the event of overwrite
 
 During this migration process, a backup of the original and upgrade TrustStores are made and stored in the agent’s work directory: `…\agent\work\truststore_migration\<time epoch seconds>\`. The original TrustStore is renamed to `cacerts_before` and the upgrade TrustStore is renamed to `cacerts_from_upgrade`.
+
+When switching to an external TrustStore, import all certificates from the bundled TrustStore into it. The MID Server might fail to start if a required certificate is missing from the new TrustStore.
 
 ## Procedure
 
@@ -64,41 +67,45 @@ During this migration process, a backup of the original and upgrade TrustStores 
 
     For example, you might enter: `keytool -import -alias MyCA -file "C:\myca.cer" -keystore "C:\Mid Server\agent\jre\lib\security\cacerts"`
 
-    **Note:** The keytool prompts you for a certificate password. If the certificate is for a CA, the keytool also asks whether to trust the certificate authority. To add a certificate to an instance, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md).
+    **Note:**
+
+    The keytool utility prompts you for the TrustStore password. The default password for the MID Server bundled JRE TrustStore `cacerts` is `changeit`. If the default password has been changed, enter the current password. Don't change the TrustStore password unless your security policy requires it.
+
+    If the certificate is for a CA, the keytool also asks whether to trust the certificate authority. To add a certificate to an instance, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md).
 
 3.  Display a list of the current certificates by running the command: `keytool.exe -list -keystore "C:\Mid Server\agent\jre\lib\security\cacerts"`
 
 
-**Parent Topic:**[Securing and encrypting MID Server data](../concept/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[MID Server certificate check policies](../concept/mid-security-checks.md)
+[MID Server certificate check policies]()
 
-[Encrypt or decrypt MID Server configuration file values](mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server authentication credentials and SOAP requests](../concept/mid-authentication-soap-requests.md#)
+[MID Server authentication credentials and SOAP requests]()
 
-[MID Server unified key store](../concept/mid-unified-keystore.md#)
+[MID Server unified key store]()
 
-[Enable MID Server mutual authentication](install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication]()
 
-[MID Server Azure Key Vault integration](mid-azure-key-vault-integration.md#)
+[MID Server Azure Key Vault integration]()
 
-[MID Server command audit log](../concept/mid-audit-log.md)
+[MID Server command audit log]()
 
-[Rekey a MID Server](t_RekeyAMIDServer.md)
+[Rekey a MID Server]()
 
-[Specify an external TrustStore for the MID Server](mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
+[MID Server SSH cryptographic algorithms]()
 
-[Attach a script file to a file synchronized MID Server](mid-server-script-attach.md#)
+[Attach a script file to a file synchronized MID Server]()
 
-[MID Server FIPS Enforced Mode](../concept/mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 
-[MID Server Governance](../concept/mid-timeout.md)
+[MID Server Governance]()
 

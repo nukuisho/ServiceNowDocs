@@ -2,6 +2,7 @@
 title: Using UI policies
 description: UI policies dynamically change the behavior of information on a form and control custom process flows for tasks.Create a UI policy to define custom process flows for tasks.Create a UI policy to implement controls in the Incident form when the state changes to Resolved.Any scripts you create for UI policies run on the client side.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAUIPolicy.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ You can also use client scripts to perform all of these actions, but for faster 
 
 Create a UI policy to define custom process flows for tasks.
 
-Adding a UI Policy
+\[Omitted video\] Description: Adding a UI Policy
 
 ### Before you begin
 
@@ -267,6 +268,11 @@ Changes the form view to the default or advanced view. The fields change based o
 </table>5.  Click **Submit**.
 
 
+**Related topics**  
+
+
+[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md)
+
 ## Example: creating a UI policy
 
 Create a UI policy to implement controls in the Incident form when the state changes to **Resolved**.
@@ -333,5 +339,5 @@ alert('You changed the "Incident state" to Resolved. Please enter your comments 
 }
 ```
 
-Service catalog UI policies control the behavior of catalog item forms. Service catalog UI policies can be applied to a catalog item or a variable set. For more information about using UI policies for service catalog items, see [Service catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogUIPolicy.md)
+Service catalog UI policies control the behavior of catalog item forms. Service catalog UI policies can be applied to a catalog item or a variable set. For more information about using UI policies for service catalog items, see [Service catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogUIPolicy.md)
 

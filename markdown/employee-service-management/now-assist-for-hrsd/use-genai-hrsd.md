@@ -2,6 +2,7 @@
 title: Submit an HR request with Gen AI Virtual Agent
 description: Place an HR request using the conversational and streamlined experience offered by Gen AI Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/use-genai-hrsd.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -31,45 +32,45 @@ Role required: None
 
     For certain catalog items, KB articles are provided for assistance, for some catalog items you will be directed to a different page to place the request, and for certain catalog items Gen AI Virtual Agent creates an HR case for you.
 
-    ![KB article Gen AI assistance](../image/article-kb.png "Example: Gen AI Virtual Agent assistance with a KB article")
+    \[Omitted image "article-kb.png"\] Alt text: KB article Gen AI assistance
 
-    ![Dental request Gen AI assistance](../image/catalog-item-request.png "Example: Gen AI Virtual Agent assistance in placing a Dental inquiry request")
+    \[Omitted image "catalog-item-request.png"\] Alt text: Dental request Gen AI assistance
 
-    ![Catalog item Gen AI request](../image/hr-case.png "Example: Gen AI Virtual Agent assistance in creating an HR case after requesting a catalog item")
+    \[Omitted image "hr-case.png"\] Alt text: Catalog item Gen AI request
 
 
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\) in Agent Workspace](../concept/use-now-assist-hr.md)
+**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)](now-assist-hrsd-chat.md)
+[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using Now Assist for HRSD](sidebar-discussion-nahr.md)
+[Summarize a Sidebar discussion by using Now Assist for HRSD]()
 
-[Generate a chat reply recommendation by using Now Assist for HRSD](chat-recommendations-nahr.md)
+[Generate a chat reply recommendation by using Now Assist for HRSD]()
 
-[Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD](gen-kb-now-assisthr.md)
+[Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD]()
 
-[Generate a knowledge article from multiple cases](gen-kb-now-assisthr-multi-case.md)
+[Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation using Now Assist for HRSD](email-recommendation-nahr.md)
+[Generate an email reply recommendation using Now Assist for HRSD]()
 
-[Summarize an HR case using Now Assist for HRSD](now-assist-hrsd-summarize-case.md)
+[Summarize an HR case using Now Assist for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD](now-assist-hrsd-res-note.md)
+[Generate resolution notes using Now Assist for HRSD]()
 
-[View employee summary reports](../../td-leader-hub/task/employee-summary-lh.md)
+[View employee summary reports]()
 
-[Summarize actions while transferring an HR case](tcase-now-assist-hr.md)
+[Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD](na-kb-graph.md)
+[Use Knowledge Graph in Now Assist for HRSD]()
 
-[Use Now Assist for HR - Galileo Inside to answer HR-related questions](use-galileo-inside.md)
+[Use Now Assist for HR - Galileo Inside to answer HR-related questions]()
 
-[Use the Now Assist panel in HR Agent Workspace](now-assist-panel-hr.md)
+[Use the Now Assist panel in HR Agent Workspace]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](../concept/integ-now-assist-hrsd.md)
+[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)](analyze-sentiments-now-assist.md)
+[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
 

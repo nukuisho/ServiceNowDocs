@@ -2,6 +2,7 @@
 title: Grouped lists
 description: Grouping aggregates a list by a field and displays the record count per group. Grouping can help you find data quickly by organizing and providing a summary of search or filter results.You can find information by grouping a list by a particular field. After grouping items in a list, several options let you focus on a particular group or set of groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_GroupedLists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,13 +16,13 @@ Grouping aggregates a list by a field and displays the record count per group. G
 
 For example, this picture shows active incidents grouped by caller.
 
-![List grouped by caller](../image/GroupList.png "List grouped by caller")
+\[Omitted image "GroupList.png"\] Alt text: List grouped by caller
 
 -   Groups are named for the values of the field selected for grouping. For example, if you group by the assigned user, each group is a user's name.
 -   The record count for each group appears next to the group name.
 -   The total number of items in the list \(all groups combined\) appears near the paging controls in the list. This total displays only when the list is grouped on a field.
 
-**Parent Topic:**[Lists in the classic environment](c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
 
 ## Use a grouped list
 
@@ -39,19 +40,19 @@ Role required: none
     -   Right-click the column name and select **Group By**. To remove a grouping, select **Ungroup**.
     For example, this picture shows active incidents grouped by caller.
 
-    ![List grouped by caller.](../image/GroupList.png "Group by")
+    \[Omitted image "GroupList.png"\] Alt text: List grouped by caller.
 
 2.  Use any of the following actions to expand the groups.
 
-<table id="choicetable_rlj_z3z_pv"><tbody><tr><td id="d89055e182">
+<table id="choicetable_rlj_z3z_pv"><tbody><tr><td id="d89511e182">
 
 **To expand or collapse a group**
 
 </td><td>
 
-Click the arrow \(![Arrow icon](../image/Arrow.png)\) next to the group name.
+Click the arrow \(\[Omitted image "Arrow.png"\] Alt text: Arrow icon\) next to the group name.
 
-</td></tr><tr><td id="d89055e197">
+</td></tr><tr><td id="d89511e197">
 
 **To expand or collapse all groups**
 
@@ -59,7 +60,7 @@ Click the arrow \(![Arrow icon](../image/Arrow.png)\) next to the group name.
 
 Click the arrow at the top of the list.
 
-</td></tr><tr><td id="d89055e206">
+</td></tr><tr><td id="d89511e206">
 
 **To open the full list for a group**
 
@@ -67,7 +68,7 @@ Click the arrow at the top of the list.
 
 Click the group name.
 
-</td></tr><tr><td id="d89055e215">
+</td></tr><tr><td id="d89511e215">
 
 **To see all records for a given group**
 

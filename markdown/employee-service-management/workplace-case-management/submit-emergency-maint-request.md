@@ -2,6 +2,7 @@
 title: Submit an emergency maintenance request
 description: Submit an emergency maintenance request for a meeting room.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/submit-emergency-maint-request.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -38,41 +39,41 @@ Role required: sn\_wsd\_core.workplace\_user
 
 4.  Select **Submit**.
 
-    A workplace case is created and it is assigned automatically to the Workplace Event Planners assignment group. It is then assigned manually to a user in the Workplace Event Planners assignment group. For more information, see [View emergency maintenance case details](view-emergency-maint-case.md).
+    A workplace case is created and it is assigned automatically to the Workplace Event Planners assignment group. It is then assigned manually to a user in the Workplace Event Planners assignment group. For more information, see [View emergency maintenance case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/view-emergency-maint-case.md).
 
-    When the emergency maintenance request case is assigned to a orkplace Event Planners assignment group, the AI agentic workflow **Manage temporary space closures** is triggered. The team of AI agents block a workspace location for maintenance. AI agents create a record in the sn\_wsd\_core\_block\_location table for blocking a location. If there are any impacted reservations for a blocked location, AI agents move any existing reservations to a new location.For more information, see [Manage temporary space closures agentic workflow](../../now-assist-wsd/concept/maintenance-meeting-room-agent-ai.md).
+    When the emergency maintenance request case is assigned to a orkplace Event Planners assignment group, the AI agentic workflow **Manage temporary space closures** is triggered. The team of AI agents block a workspace location for maintenance. AI agents create a record in the sn\_wsd\_core\_block\_location table for blocking a location. If there are any impacted reservations for a blocked location, AI agents move any existing reservations to a new location.For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
 
 
-**Parent Topic:**[Requesting a workplace service](../concept/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 
 
-[Reconfigure an office space](Reconfig-office-space-1.md)
+[Reconfigure an office space]()
 
-[Raise help request for a workplace inquiry](submit-gen-workplace-serv-req.md)
+[Raise help request for a workplace inquiry]()
 
-[Raise a move request for a space change](../../workplace-move-mgmt/task/request-desk-change.md)
+[Raise a move request for a space change]()
 
-[Request furniture for a space](request-furniture.md)
+[Request furniture for a space]()
 
-[Raise a space assistance request](../../workplace-space-management/task/raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Submit a maintenance request](submit-a-maintenance-request.md)
+[Submit a maintenance request]()
 
-[Submit a catering request](submit-a-catering-request.md)
+[Submit a catering request]()
 
-[Submit heating and cooling request](submit-heating-and-cooling-request.md)
+[Submit heating and cooling request]()
 
-[Submit a badge request](submit-a-badge-request.md)
+[Submit a badge request]()
 
-[Submit a tech support request](submit-a-tech-support-request.md)
+[Submit a tech support request]()
 
-[Submit a cleaning request](submit-a-cleaning-request.md)
+[Submit a cleaning request]()
 
-[Submit an equipment request](submit-a-equipment-request.md)
+[Submit an equipment request]()
 
-[Edit a workplace request](edit-workplace-request.md)
+[Edit a workplace request]()
 
-[Submit a change event request for a reservation](submit-change-event-reservation.md)
+[Submit a change event request for a reservation]()
 

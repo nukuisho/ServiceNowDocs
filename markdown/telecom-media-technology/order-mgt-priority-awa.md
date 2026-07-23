@@ -2,11 +2,12 @@
 title: Order routing based on priority using Advanced Work Assignment
 description: AWA can be used to automatically route customer orders based on priority to specific agent categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-priority-awa.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Calculating the order priority, Configuring order priority and routing, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Calculate order priority, Order priority and routing, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Order routing based on priority using Advanced Work Assignment
@@ -17,7 +18,7 @@ Use AWA to automatically assign work items \(order tasks\) to your agents based 
 
 **Note:** All fulfillment agents must have the AWA agent \(awa\_agent\) role.
 
-![Infographic displaying the routing orders process using AWA. For the image description, refer to the text that follows.](../../tmt-order-mgt/image/order-mgt-awa.png)
+\[Omitted image "order-mgt-awa.png"\] Alt text: Infographic displaying the routing orders process using AWA. For the image description, refer to the text that follows.
 
 The following configurations are required for AWA:
 
@@ -29,5 +30,5 @@ The following configurations are required for AWA:
 -   Agent availability: States that indicate agent presence and whether the agent is available for work or is busy or offline. AWA uses the agent availability state to determine if an agent is able to receive work.
 -   Inbox layout: A configuration tied to a service channel that defines which fields of a record representing a work item are shown in agent inboxes. A layout defines what the agent sees in Agent Workspace. The Default Order Layout is available with the base system and can be used as a reference to create a new layout.
 
-For more details, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md)
+For more details, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md)
 

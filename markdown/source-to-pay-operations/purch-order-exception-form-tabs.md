@@ -2,6 +2,7 @@
 title: Purchase order exception form tabs
 description: The Purchase order exception form includes tabs that store exception information, which an Operational Buyer can use to perform related tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/purch-order-exception-form-tabs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -49,5 +50,12 @@ Exception tasks
 Follow-up actions that are created from this exception. For example, supplier cases, universal requests, exception tasks, purchase order revisions, and approvals.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Purchase order exception form](purch-order-exception-form.md)
+</table>**Parent Topic:**[Purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-form.md)
+
+**Related topics**  
+
+
+[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)
+
+[Purchase order exception Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-details.md)
 

@@ -2,6 +2,7 @@
 title: Enable or disable impersonation in mobile apps
 description: Learn how to enable or disable impersonation in your ServiceNow mobile apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-impersonate-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,28 +22,28 @@ Role required: admin or impersonator
 
 ## Procedure
 
-1.  In your ServiceNow mobile app, tap the **Settings** \(![Settings icon](../image/settings.png)\) tab in the navigation bar.
+1.  In your ServiceNow mobile app, tap the **Settings** \(\[Omitted image "settings.png"\] Alt text: Settings icon\) tab in the navigation bar.
 
-    **Note:** If you do not see a **Settings** tab, tap **More** \(![More icon](../image/mobile-more-icon.png)\) and then tap **Settings** from the list.
+    **Note:** If you do not see a **Settings** tab, tap **More** \(\[Omitted image "mobile-more-icon.png"\] Alt text: More icon\) and then tap **Settings** from the list.
 
 2.  In the settings screen, tap the user card.
 
-    ![User card on the settings screen](../image/mobile-imperson-1.png)
+    \[Omitted image "mobile-imperson-1.png"\] Alt text: User card on the settings screen
 
 3.  At the bottom on the screen, tap **Impersonate user**.
 
-    ![Impersonate user option in the settings screen](../image/mobile-imperson-2.png)
+    \[Omitted image "mobile-imperson-2.png"\] Alt text: Impersonate user option in the settings screen
 
 4.  Select a user to impersonate in the **Select User** list.
 
-    ![Select user list form impersonation](../image/mobile-imperson-3.png)
+    \[Omitted image "mobile-imperson-3.png"\] Alt text: Select user list form impersonation
 
     You are now impersonating the selected user. A banner appears at the top of the screen to indicate which user you are impersonating.
 
 5.  To end impersonation, return to the settings screen, tap the user card, and tap **End Impersonation**.
 
-    ![End impersonation option in the settings screen.](../image/mobile-imperson-4.png)
+    \[Omitted image "mobile-imperson-4.png"\] Alt text: End impersonation option in the settings screen.
 
 
-**Parent Topic:**[Mobile impersonation](../concept/mobile-impersonation.md)
+**Parent Topic:**[Mobile impersonation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-impersonation.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 10
 ---
 
 # Data Management for CSM release notes
@@ -74,6 +74,26 @@ See [Data management for Customer Service Management](https://raw.githubusercont
 
     Billing Account support on Sold Products to give agents immediate financial context, streamline billing‑related case resolution, and improve billing accuracy and transparency for customers and enterprises.
 
+-   **[Business Organization Self Contributor persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-roles.md)**
+
+    Create and track service cases for themselves, and for sold products and install base items at a business location that are assigned to them, using the Business Organization Self Contributor \[sn\_bus\_loc.business\_org\_self\_contributor\] role. This role is available to frontline, field, and location-based workers. A new Buyer Organization Member field on the sold product and install base item lets managers associate these records with specific members.
+
+-   **[Hierarchy-scoped access for business organization members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-assign-responsibilities.md)**
+
+    Grant business organization members hierarchy-scoped access across child locations with administrator or manager-controlled exclusions using a new organization hierarchy responsibility, Organization Hierarchy Contributor \[org\_hierarchy\_contributor\]. Two new fields control the scope: Excluded Locations on the assignment, and Restricted on the business location.
+
+-   **[Create Return Merchandise Authorization case lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-return-merchandise-authorization-case-lines.md)**
+
+    Enable agents to initiate return requests directly from sold product records along with install base items. Return cases automatically map order and product details to the case, giving users an end-to-end visibility into their returns and reducing processing times.
+
+-   **[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/proactive-service-operations.md)**
+
+    Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scope role \(sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator\) role.
+
+-   **[How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-asset-CI-IBI-sync-options.md)**
+
+    Configure a model category as a product instance to enable the system to synchronize the life cycle values between asset and install base item using the life cycle stage and life cycle state status values.
+
 
 ## Changed in this release
 
@@ -131,6 +151,16 @@ See [Data management for Customer Service Management](https://raw.githubusercont
     **Note:** The entity name changes are available in the Business Location 5.2.0 store app.
 
 
+-   **Use hierarchical list view for sold products**
+
+    Visualize the structure of a customer's sold products and product inventories as an expandable hierarchy directly on the account workspace.
+
+
+-   **Modify action limited to parent sold products**
+
+    Perform the **Modify** action for only root sold products.The **Modify** action is inactive for child sold products across the list view, detail view, and hierarchical list.
+
+
 ## Deprecated features
 
 -   As part of the CAM Declarative Responsibility Framework enhancements, the following legacy fields have been marked deprecated:
@@ -150,7 +180,7 @@ Sales Customer Relationship Management is a ServiceNow AI Platform feature that 
 
 -   **Changed plugins**
 
-    The following plugins are moved to store:
+    The following plugins are moved to store. The Customer Service Household \(com.snc.household\) plugin has been renamed to Customer Household Data Model \(com.snc.household\).
 
     -   CSM Contributor User \(com.snc.csm\_contributor\_user\)
     -   Outsourced Customer Service \(com.snc.csm\_ocs\)
@@ -164,18 +194,14 @@ Sales Customer Relationship Management is a ServiceNow AI Platform feature that 
 
     -   CSM Contributor User \(com.snc.csm\_contributor\_user\)
     -   Service Organization \(com.snc.service\_organization\)
--   **Renamed plugins**
-
-    The Customer Service Household \(com.snc.household\) plugin has been renamed to Customer Household Data Model \(com.snc.household\) in the Australia release.
-
 
 ## Browser requirements
 
-Starting with the Australia release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Starting with the Australia release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 ## Related ServiceNow applications and features
 
--   **[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/servicenow-communities.md)**
+-   **[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/servicenow-communities.md)**
 
     From the Customer Service Portal and Consumer Service Portal, you can enable your customers to connect, engage, and collaborate by using the ServiceNow® Communities application. Customer Service agents can create cases from community discussion threads and resolve cases with the community content.
 
@@ -199,5 +225,5 @@ Starting with the Australia release, data management for Customer Service Manage
     The Sales Customer Relationship Management applications enable you to manage the product sales and order fulfillment life cycles in your organization. It includes pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales engagement.
 
 
-**Parent Topic:**[Customer Service Management release notes](customer-service-mgmt-rn-landing.md)
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 

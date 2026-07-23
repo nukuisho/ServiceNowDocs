@@ -2,6 +2,7 @@
 title: Criteria for matching email to inbound actions
 description: Default conditions of active inbound actions are used to manage incoming email. Inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/inbound-action-type-criteria.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,11 +14,11 @@ breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core
 
 Default conditions of active inbound actions are used to manage incoming email. Inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers
 
-![Flowchart showing how inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers](../image/inbound-email-action-type.png "Default matching criteria")
+\[Omitted image "inbound-email-action-type.png"\] Alt text: Flowchart showing how inbound email actions are classified as forwards, reply, or new based on subject line, record matching, and email headers
 
 If you customize or deactivate the default inbound actions, the conditions of the active inbound actions are checked. If an inbound action with matching conditions cannot be found, the state is set to Processed.
 
-![Flowchart showing how inbound emails are processed when default inbound email actions are enabled or when an email matches an active inbound email action](../image/processing-email-no-matching-inbound-action.png "Custom matching criteria")
+\[Omitted image "processing-email-no-matching-inbound-action.png"\] Alt text: Flowchart showing how inbound emails are processed when default inbound email actions are enabled or when an email matches an active inbound email action
 
 <table id="table_axb_pk4_m4"><thead><tr><th>
 
@@ -92,5 +93,5 @@ Create new record
 </td></tr></tbody>
 </table>If more than one inbound action is available for a particular type of email, the instance uses the Table field to match the email to a particular table. If there is also more than one action for the inbound action's table, the instance uses the **Order** field to determine the order in which the actions run.
 
-**Parent Topic:**[Inbound email actions](actions-inbound-email.md)
+**Parent Topic:**[Inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/actions-inbound-email.md)
 

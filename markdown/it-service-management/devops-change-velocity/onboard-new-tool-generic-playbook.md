@@ -2,6 +2,7 @@
 title: Onboard a new tool using DevOps generic playbook
 description: DevOps Change has a pre-build playbook setup for users to configure a new tool. Custom tool integrations can be created using the guided playbook experience in the DevOps Change Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-new-tool-generic-playbook.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -15,7 +16,7 @@ breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 
 DevOps Change has a pre-build playbook setup for users to configure a new tool. Custom tool integrations can be created using the guided playbook experience in the DevOps Change Workspace.
 
-Playbooks provide end users with a visual, task-oriented guide with the steps to complete a process, ensuring a consistent experience for tool onboarding. For detailed information about playbooks, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+Playbooks provide end users with a visual, task-oriented guide with the steps to complete a process, ensuring a consistent experience for tool onboarding. For detailed information about playbooks, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
 
 Perform the following steps to onboard your custom tool using the DevOps generic playbook.
 
@@ -38,7 +39,7 @@ The Generic playbook consists of the following stages and each stage has its rel
     3.  Associate \(This activity is for the Orchestration tools to associate pipeline steps\)
 3.  Summary
 
-This is how a playbook with multiple capabilities looks like:![Playbook with multiple capabilities.](../image/generic-pb-onboard1.png)
+This is how a playbook with multiple capabilities looks like:\[Omitted image "generic-pb-onboard1.png"\] Alt text: Playbook with multiple capabilities.
 
 ## 2. Configure Activity Definitions
 
@@ -51,13 +52,13 @@ Each Activity in a playbook is associated to an activity definition. DevOps has 
 -   DevOps Associate Services AD
 -   DevOps Summary AD
 
-For more information, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) and [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+For more information, see [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) and [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
 
 The DevOps table **sn\_devops\_capability\_activity\_mapping** has been created to maintain associations between Activity definitions and capabilities. This table configuration is used to dynamically render the stages and activities for a tool. You can update the conditions as needed to either enable or disable a particular activity for a tool.
 
-![The Tool Capability Activity Mappings table.](../image/generic-pb-onboard2.png)
+\[Omitted image "generic-pb-onboard2.png"\] Alt text: The Tool Capability Activity Mappings table.
 
-For example, tools like GitLab and JFrog don’t support data import. So you don't require the Data Import activity for such tools. In that case, you must add the logic in the condition column to return false for these types of tools. See the following image as a reference:![Example where data import logic is false.](../image/generic-pb-onboard3.png)
+For example, tools like GitLab and JFrog don’t support data import. So you don't require the Data Import activity for such tools. In that case, you must add the logic in the condition column to return false for these types of tools. See the following image as a reference:\[Omitted image "generic-pb-onboard3.png"\] Alt text: Example where data import logic is false.
 
 ## 3. Configure Activity UI for the Activity Definition
 
@@ -65,20 +66,20 @@ Playbook Activity UIs define the experience type and UI template rendered to use
 
 DevOps has the following AUIs for Create Tool activity. Except this, all other activity definitions have only one Activity UI.
 
-![DevOps AUIs.](../image/generic-pb-onboard4.png)
+\[Omitted image "generic-pb-onboard4.png"\] Alt text: DevOps AUIs.
 
 You can configure any one of the Activity UI based on the requirement.
 
-Identify the required activity UI and add your tool in the condition builder so that the UI gets effected in the playbook for the tool.![Override playbook activity.](../image/generic-pb-onboard5.png)
+Identify the required activity UI and add your tool in the condition builder so that the UI gets effected in the playbook for the tool.\[Omitted image "generic-pb-onboard5.png"\] Alt text: Override playbook activity.
 
 **Result**
 
 After completing these steps, your tool can be onboarded using the DevOps generic playbook.
 
-**Parent Topic:**[Managing DevOps Change Velocity](../concept/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 
 **Related topics**  
 
 
-[Integrating DevOps Change Velocity with third party tools](../concept/integrating-devops-change-with-third-party-tools.md)
+[Integrating DevOps Change Velocity with third party tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integrating-devops-change-with-third-party-tools.md)
 

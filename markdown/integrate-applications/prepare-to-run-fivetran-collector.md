@@ -2,6 +2,7 @@
 title: Prepare to run the Fivetran collector
 description: Create a Fivetran API key before running the collector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-fivetran-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,5 +33,5 @@ The collector authenticates using a Fivetran API key. The API key owner must hav
     You need these credentials when configuring the collector.
 
 
-**Parent Topic:**[Fivetran metadata collector](../concept/fivetran-metadata-collector.md)
+**Parent Topic:**[Fivetran metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/fivetran-metadata-collector.md)
 

@@ -2,13 +2,14 @@
 title: Create a Health and Safety incident in Critical Event Management
 description: Report a Health and Safety incident through the Related records Related Item in Critical Event Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/create-hs-incident.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing related records in a critical event, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage related records, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Create a Health and Safety incident in Critical Event Management
@@ -38,12 +39,12 @@ Role required: sn\_ohs\_im.incident\_reader, sn\_ohs\_im.incident\_writer, and s
 7.  Complete the **Report an incident** playbook.
 
 
-**Parent Topic:**[Managing related records in a critical event](../concept/manage-related-records.md)
+**Parent Topic:**[Managing related records in a critical event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-related-records.md)
 
 **Related topics**  
 
 
-[Relate a child critical event](create-child-crtical-event.md)
+[Relate a child critical event]()
 
-[View sent notifications for a critical event](view-sent-notifications.md)
+[View sent notifications for a critical event]()
 

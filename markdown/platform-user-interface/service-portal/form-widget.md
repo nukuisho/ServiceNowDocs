@@ -2,6 +2,7 @@
 title: Form widget
 description: The form widget is a platform form within the Service Portal UI with a few differences. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/form-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -15,7 +16,7 @@ breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring 
 
 The form widget is a platform form within the Service Portal UI with a few differences. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-![Form widget in the shape of the portal form](../image/WidgetForm.png "Form widget")
+\[Omitted image "WidgetForm.png"\] Alt text: Form widget in the shape of the portal form
 
 ## URL Parameters
 
@@ -43,7 +44,7 @@ Sys\_id for the record to be displayed.
 
 </td><td>
 
-Table for the record to be displayed.The form widget validates access to the table by checking for the necessary cross-scope privileges when fetching data from the table. To turn off validating cross-scope privileges, you can set the **glide.service\_portal.enforce\_cross\_scope\_check\_in\_form** system property to false. For more information, see [Service Portal properties](properties-service-portal.md).
+Table for the record to be displayed.The form widget validates access to the table by checking for the necessary cross-scope privileges when fetching data from the table. To turn off validating cross-scope privileges, you can set the **glide.service\_portal.enforce\_cross\_scope\_check\_in\_form** system property to false. For more information, see [Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/properties-service-portal.md).
 
 </td></tr><tr><td>
 
@@ -62,16 +63,16 @@ View used to display the record.
 
 ## Scripting
 
-Not all client scripts are supported in the Service Portal. To understand how client scripts interact with forms in the Service Portal, see [Service Portal and client scripts](unsupported_client_scripts.md) and [Supported client script types and APIs](../reference/client-script-reference.md).
+Not all client scripts are supported in the Service Portal. To understand how client scripts interact with forms in the Service Portal, see [Service Portal and client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/unsupported_client_scripts.md) and [Supported client script types and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/client-script-reference.md).
 
-**Parent Topic:**[Example widgets](sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

@@ -2,6 +2,7 @@
 title: SLA timeline
 description: The SLA timeline is a feature of the Service Level Management application. The SLA timeline detail helps you understand the progress of an SLA. The timeline provides detailed insight to the task updates which triggered stage changes during the life cycle of a task SLA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_SLATimeline.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -26,7 +27,7 @@ The SLA timeline detail helps you to:
 
 Role required: itil, sla\_admin, sla\_manager
 
-![SLA Timeline](../image/SLATimeline.png "SLA Timeline")
+\[Omitted image "SLATimeline.png"\] Alt text: SLA Timeline
 
 <table id="table_a4l_zcr_xy"><thead><tr><th>
 
@@ -74,7 +75,7 @@ Specifies the business time that is remaining by which the SLA task must be comp
 
 </td><td>
 
-![SLA filter icon](../image/SLAFilter.png)
+\[Omitted image "SLAFilter.png"\] Alt text: SLA filter icon
 
 </td><td>
 
@@ -91,7 +92,7 @@ Enables filtering of the data displayed by the SLA timeline . You can filter dat
 
 </td><td>
 
-![Task Record Picker](../image/SLATaskRecordPicker.png)
+\[Omitted image "SLATaskRecordPicker.png"\] Alt text: Task Record Picker
 
 </td><td>
 
@@ -103,7 +104,7 @@ Lets you view detailed information about the task when you click the information
 
 </td><td>
 
-![Zoom In/Out](../image/SLAZoom.png)
+\[Omitted image "SLAZoom.png"\] Alt text: Zoom In/Out
 
 </td><td>
 
@@ -121,7 +122,7 @@ For IE and EDGE:
 
 </td><td>
 
-![SLA Legend List](../image/SLALegendList.png)
+\[Omitted image "SLALegendList.png"\] Alt text: SLA Legend List
 
 </td><td>
 
@@ -148,7 +149,7 @@ The legend provides the following categories.-   **Shapes**
 
 </td><td>
 
-![SLA Configuration Toggle Button](../image/SLAConfigurationToggle.png)
+\[Omitted image "SLAConfigurationToggle.png"\] Alt text: SLA Configuration Toggle Button
 
 </td><td>
 
@@ -160,7 +161,7 @@ Provides a toggle to show and hide task updates that did not cause an SLA stage.
 
 </td><td>
 
-![Refresh](../image/SLARefresh.png)
+\[Omitted image "SLARefresh.png"\] Alt text: Refresh
 
 </td><td>
 
@@ -194,32 +195,32 @@ Displays the details of a task SLA, depending on where you click the timeline. *
 -   **Duration**: Displays the duration of the current out of schedule selection.
 -   **Total out of schedule duration**: Displays the total out-ofschedule hours until the end of the current selection.
 
- **Note:** Click ![Left Carousel in SLA Timeline](../image/SLALeftCarousel.png) and ![Right Carousel in SLA Timeline](../image/SLARightCarousel.png) to navigate to the left and right task update in the details section.
+ **Note:** Click \[Omitted image "SLALeftCarousel.png"\] Alt text: Left Carousel in SLA Timeline and \[Omitted image "SLARightCarousel.png"\] Alt text: Right Carousel in SLA Timeline to navigate to the left and right task update in the details section.
 
 </td></tr></tbody>
 </table>**Note:**
 
 The SLA timeline receives information about the task from the audit history and refers to the current SLA definition to pull data for the SLA timeline. The SLA timeline displays task SLA information as though the SLA repair is already executed, irrespective of whether it is executed or not.
 
--   **[Understand why an SLA did not trigger as expected](why-sla-did-not-trigger.md)**  
+-   **[Understand why an SLA did not trigger as expected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/why-sla-did-not-trigger.md)**  
 Describes the conditions when an SLA might not trigger as expected.
--   **[Use SLA timeline to determine business schedule](sla-timeline-determines-bus-schedule.md)**  
+-   **[Use SLA timeline to determine business schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-timeline-determines-bus-schedule.md)**  
 This example demonstrates how to use the SLA timeline to determine the business schedules and business percentage time related to a task SLA.
--   **[Use SLA timeline to understand SLA stage change](understand-sla-stage-change.md)**  
+-   **[Use SLA timeline to understand SLA stage change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/understand-sla-stage-change.md)**  
 Describes how you can understand SLA stage changes using SLA timeline.
--   **[Use SLA Timeline to validate a new SLA definition](validate-new-sla-definition.md)**  
+-   **[Use SLA Timeline to validate a new SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/validate-new-sla-definition.md)**  
 When a new SLA Definition is created the SLA Timeline can be used to see how the SLA will behave against existing task records.
 
-**Parent Topic:**[Service Level Management reference](service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
 
 **Related topics**  
 
 
-[Use SLA timeline to determine business schedule](sla-timeline-determines-bus-schedule.md)
+[Use SLA timeline to determine business schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-timeline-determines-bus-schedule.md)
 
-[Use SLA timeline to understand SLA stage change](understand-sla-stage-change.md)
+[Use SLA timeline to understand SLA stage change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/understand-sla-stage-change.md)
 
-[Use SLA Timeline to validate a new SLA definition](validate-new-sla-definition.md)
+[Use SLA Timeline to validate a new SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/validate-new-sla-definition.md)
 
-[Understand why an SLA did not trigger as expected](why-sla-did-not-trigger.md)
+[Understand why an SLA did not trigger as expected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/why-sla-did-not-trigger.md)
 

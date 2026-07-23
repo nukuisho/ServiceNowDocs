@@ -2,13 +2,14 @@
 title: Configure Microsoft Azure in normal mode
 description: Set up a normal mode authentication with Microsoft Azure to connect Microsoft Exchange Online with Workplace Calendar Synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/authenticate-mxexchange-with-azure.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a normal mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create a normal mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure Microsoft Azure in normal mode
@@ -93,18 +94,18 @@ The Microsoft Exchange Online is set up with Microsoft Azure.
 
 Configure resources Microsoft Exchange Online in the calendar. For more information, refer to [https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes](https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-resource-mailboxes).
 
-**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](../concept/create-connection-with-msex-in-normal-mode.md)
+**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
 
 **Related topics**  
 
 
-[Create a connection with Microsoft Exchange Online spoke](create-connection-with-msspoke.md)
+[Create a connection with Microsoft Exchange Online spoke]()
 
-[Set up OAuth connection with Microsoft Exchange Online](setup-connectivity-with-msexchange-for-calendar-sync.md)
+[Set up OAuth connection with Microsoft Exchange Online]()
 
-[Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections](create-connection-and-credential-alias-for-msexchange-.md)
+[Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections]()
 
-[Create your own connection and credential alias for Microsoft Exchange Online](create-own-connection-and-credential-alias-normalmode.md)
+[Create your own connection and credential alias for Microsoft Exchange Online]()
 
-[Configure Microsoft Exchange Online calendar provider](configure-xsex-calendar-provider-in-normal-mode.md)
+[Configure Microsoft Exchange Online calendar provider]()
 

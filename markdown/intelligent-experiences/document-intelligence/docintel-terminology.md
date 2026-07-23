@@ -2,6 +2,7 @@
 title: Document Intelligence terminology
 description: Before getting started with Document Intelligence \(DocIntel\), it's important to understand some key concepts used in the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/docintel-terminology.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Document Intelligence, Enable AI experiences]
 
 Before getting started with Document Intelligence \(DocIntel\), it's important to understand some key concepts used in the application.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Updated terminology
 
@@ -32,34 +33,34 @@ As of Document Intelligence v2.3, DocIntel features include updated terminology.
 |Fully automated|Straight through processing|
 |Use case|Task definition|
 
-**Parent Topic:**[Document Intelligence references](../reference/docintel-references.md)
+**Parent Topic:**[Document Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/docintel-references.md)
 
 **Related topics**  
 
 
-[Components installed with Document Intelligence](../reference/installed-with-document-intelligence.md)
+[Components installed with Document Intelligence]()
 
-[Confidence scores](docintel-confidence-scores.md)
+[Confidence scores]()
 
-[Data extraction modes](../reference/data-extraction-modes.md)
+[Data extraction modes]()
 
-[Data normalization](data-normalization.md)
+[Data normalization]()
 
-[Document field statuses](../reference/docintel-field-statuses.md)
+[Document field statuses]()
 
-[Document Intelligence forms](../reference/document-intelligence-forms.md)
+[Document Intelligence forms]()
 
-[Document Intelligence properties](../reference/document-intelligence-properties.md)
+[Document Intelligence properties]()
 
-[Document Intelligence roles](../reference/document-intelligence-user-roles.md#)
+[Document Intelligence roles]()
 
-[Document task statuses](../reference/docintel-task-statuses.md)
+[Document task statuses]()
 
-[Domain separation and Document Intelligence](../reference/domain-separation-and-doc-intel.md)
+[Domain separation and Document Intelligence]()
 
-[Languages supported by Document Intelligence](languages-supported-by-document-intelligence.md)
+[Languages supported by Document Intelligence]()
 
-[Limitations in Document Intelligence](../reference/hard-limits-in-doc-intel.md)
+[Limitations in Document Intelligence]()
 
 ## classification
 

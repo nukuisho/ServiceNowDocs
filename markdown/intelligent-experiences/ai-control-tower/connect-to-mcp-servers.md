@@ -1,7 +1,8 @@
 ---
-title: Connect to MCP servers Via AI Gateway
+title: Connecting to MCP Servers
 description: Explore examples of connecting to an MCP servers via AI Gateway.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/connect-to-mcp-servers.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -11,7 +12,12 @@ reading_time_minutes: 1
 breadcrumb: [AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Connect to MCP servers Via AI Gateway
+# Connecting to MCP Servers
 
 Explore examples of connecting to an MCP servers via AI Gateway.
+
+Explore two examples of connecting MCP servers.
+
+-   [Connecting with Microsoft Copilot Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+-   [Connecting with AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

@@ -2,6 +2,7 @@
 title: Request post-sale change orders
 description: Learn how to create orders for disconnecting, suspending, resuming products or services and changing specifications, characteristics, or service location for orders after an initial order has been fulfilled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-macd-orders.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_order\
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All** or **Service Orders** &gt; **All** to create a product or service order respectively.
 
@@ -122,7 +123,7 @@ Channel partner
 
     2.  Enter suspension start and end dates for suspend requests and select **Suspend**.
 
-        If you do not specify a date, the suspension is effective immediately. For more information, see [Suspend and resume products and services](../concept/order-mgt-suspend-resume-action.md).
+        If you do not specify a date, the suspension is effective immediately. For more information, see [Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-suspend-resume-action.md).
 
 10. Review the order lines by selecting the **Order Line Items** tab.
 
@@ -133,10 +134,10 @@ Channel partner
     The order state changes to New and is available for approval.
 
 
-**Parent Topic:**[Managing post-fulfillment order changes](../concept/managing-orders.md)
+**Parent Topic:**[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/managing-orders.md)
 
 **Related topics**  
 
 
-[Suspend and resume products and services](../concept/order-mgt-suspend-resume-action.md)
+[Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-suspend-resume-action.md)
 

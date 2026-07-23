@@ -2,6 +2,7 @@
 title: Activate the Report a GRC issue AI agent
 description: Configure and activate the report a GRC issue AI agent to guide employees in reporting GRC issues from the Employee Center with clarity and context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/activate-the-issue-submission-ai-agent.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -30,7 +31,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin.
 
 3.  From the list of available AI agents, select **Report a GRC issue**.
 
-    ![The Report a GRC issue AI agent page.](../../grc-common-workspace/image/report-a-grc-issue.png)
+    \[Omitted image "report-a-grc-issue.png"\] Alt text: The Report a GRC issue AI agent page.
 
 4.  Select the Define the specialty section, review the fields, and confirm that the AI agent meets your requirements.
 
@@ -66,7 +67,7 @@ If activation fails, check roles and skill configuration.
 **Related topics**  
 
 
-[Post activation indexing and customization](../task/post-activation-indexing-and-customization_0.md)
+[Post activation indexing and customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/post-activation-indexing-and-customization_0.md)
 
-[Report a GRC issue](../task/report-a-grc-issue.md)
+[Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/report-a-grc-issue.md)
 

@@ -2,6 +2,7 @@
 title: Automating seat assignment for new hires
 description: Use HR Service Delivery and Workplace Service Delivery to automatically assign a seat for the new hires in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/auto-assign-new-hires.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -23,11 +24,11 @@ To use the automated seat assignment feature, you must install plugins in the fo
 
 1.  Install the Journey designer plugin along with its demo data.
 
-    For more information about installing Journey designer, see [Installation and configuration overview](../../human-resources/concept/jny-inst-config-overview.md).
+    For more information about installing Journey designer, see [Installation and configuration overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-inst-config-overview.md).
 
 2.  Install the Workplace Space Management plugin along with its demo data.
 
-    For more information about installing Workplace Space Management, see [Install Workplace Space Management](../../workplace-space-management/task/install-workplace-space-mgmt.md).
+    For more information about installing Workplace Space Management, see [Install Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/install-workplace-space-mgmt.md).
 
 3.  Configure a value for the **sn\_wsd\_core.ALLOCATION\_TYPE** property.
 
@@ -37,16 +38,16 @@ To use the automated seat assignment feature, you must install plugins in the fo
 
 4.  Install the Workplace Case Management plugin.
 
-    For more information about installing Workplace Case Management, see [Install Workplace Case Management](../task/install-workplace-case-mgmt.md).
+    For more information about installing Workplace Case Management, see [Install Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/install-workplace-case-mgmt.md).
 
 
 **Note:** If you have earlier versions of the plugins installed, update the Journey designer plugin and reinstall the demo data. Then update the Workplace Space Management plugin and reinstall the demo data.
 
 ## Process overview
 
-1.  An HR manager or journey owner initiates an onboarding journey for a new employee. For more information about creating a journey, see [Create a journey](../../human-resources/task/jny-dsgnr-create-journey.md).
-2.  The hiring manager fills in basic information about the employee. For more information about journey view for a manager, see [Journey view for a manager](../../human-resources/concept/manager-journeys-view.md).
-3.  When the pre-boarding lifecycle event starts, the system creates a workplace case with the service `Workplace Location Assignment`. For more information about the Workplace Location Assignment service, see [Workplace Location Assignment service](../reference/location-assignment-service.md).
+1.  An HR manager or journey owner initiates an onboarding journey for a new employee. For more information about creating a journey, see [Create a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-create-journey.md).
+2.  The hiring manager fills in basic information about the employee. For more information about journey view for a manager, see [Journey view for a manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/manager-journeys-view.md).
+3.  When the pre-boarding lifecycle event starts, the system creates a workplace case with the service `Workplace Location Assignment`. For more information about the Workplace Location Assignment service, see [Workplace Location Assignment service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/location-assignment-service.md).
 
     The employee and their manager can view the status of the workplace case from the Journeys page on the Employee Center.
 
@@ -62,40 +63,40 @@ To use the automated seat assignment feature, you must install plugins in the fo
 
 5.  After the space is assigned to the profile, the system sends an email to the employee and their manager with the location details.
 
-**Parent Topic:**[Configuring Workplace Case Management](workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Case Management](../task/install-workplace-case-mgmt.md)
+[Install Workplace Case Management]()
 
-[Create a Workplace case template](../task/wsd-case-template.md)
+[Create a Workplace case template]()
 
-[Create a Workplace task template](../task/wsd-task-template.md)
+[Create a Workplace task template]()
 
-[Smart Assessment for Workplace Case and Task](../task/smart-assessment-for-workplace-case-and-task.md)
+[Smart Assessment for Workplace Case and Task]()
 
-[Configure Approval options](../task/config-approval-optns.md)
+[Configure Approval options]()
 
-[Configure a Record producer](../task/wsd-create-record-producer.md)
+[Configure a Record producer]()
 
-[Configuring a record producer for request edit](config-case-edit-rp.md)
+[Configuring a record producer for request edit]()
 
-[Configuring a record producer for reservation](config-reservation-rp.md)
+[Configuring a record producer for reservation]()
 
-[Create an SLA Definition](../task/create-sla-defn-case-mgmt.md)
+[Create an SLA Definition]()
 
-[Create a Workplace service](../task/create-workplace-service.md)
+[Create a Workplace service]()
 
-[Add a workplace service item to a workplace service](../task/add-workplace-service-items.md)
+[Add a workplace service item to a workplace service]()
 
-[Create a workplace template configuration](../task/create-workplace-template-confguration.md)
+[Create a workplace template configuration]()
 
-[Create a workplace field mapping](../task/create-workplace-field-mapping.md)
+[Create a workplace field mapping]()
 
-[Configure an escalation rule](../task/configure-escalation-rule.md)
+[Configure an escalation rule]()
 
-[Add Fulfillment instructions](../task/add-fulfillment-instructions.md)
+[Add Fulfillment instructions]()
 
-[Group similar workplace cases under a parent case](../task/group-similar-workplace-cases.md)
+[Group similar workplace cases under a parent case]()
 

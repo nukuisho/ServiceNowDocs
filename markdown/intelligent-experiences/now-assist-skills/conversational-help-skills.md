@@ -2,6 +2,7 @@
 title: Now Assist Conversational Help
 description: This skill uses Generative AI application capabilities to provide answers to the questions on the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/conversational-help-skills.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills
@@ -15,7 +16,7 @@ breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI a
 
 This skill uses Generative AI application capabilities to provide answers to the questions on the Now Assist panel.
 
-Now Assist Conversational Help overview
+\[Omitted video\] Description: Now Assist Conversational Help overview
 
 **Important:** Starting with the Australia release, Conversational Help Skills is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base.
 
@@ -23,11 +24,11 @@ You can install the External Content Connectors Application Suite from the [Serv
 
 and use NAp Synthesized Search with ServiceNow Docs.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 The Now Assist Conversational Help skill displays as **Get Help** on the Now Assist panel.
 
-**Note:** The Get Help feature is available as a part of Now Assist entitlements and no new subscription is required. The feature is enabled by default and you can turn it off in the Now Assist Admin **Settings**. The ServiceNow Now LLM Service \(Large Language Model\) is the default model provider for this Now Assist skill to retrieve precise answers to the users' questions.
+**Note:** The Get Help feature is available as a part of Now Assist entitlements and no new subscription is required. The feature is enabled by default and you can turn it off in the Now Assist Admin **Settings**.
 
 ## How Conversational Help works
 
@@ -56,7 +57,7 @@ The Now LLM retrieves the most relevant result from [https://www.servicenow.com/
 
 **Note:** Effective from this release, the query will retrieve results based exclusively on the release version of the user's current instance. This enhancement is integrated into the query process to ensure the delivery of precise results that reflect the latest updates and features.
 
-![Now Assist Conversational Help skill](../image/na-conversational-help-skills.png)
+\[Omitted image "na-conversational-help-skills.png"\] Alt text: Now Assist Conversational Help skill
 
-For more information, see [Fetch end points in Now Assist Conversational Help skills](../reference/fetch-end-points-in-conversational-help-skill.md).
+For more information, see [Fetch end points in Now Assist Conversational Help skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/fetch-end-points-in-conversational-help-skill.md).
 

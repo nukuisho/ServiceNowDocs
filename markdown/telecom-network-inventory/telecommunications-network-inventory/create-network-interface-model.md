@@ -2,6 +2,7 @@
 title: Create a network interface model
 description: Create a network interface model in the Telecommunications Network Inventory application to define the physical characteristics data of the network interface as per the product recommendations of the manufacturer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-network-interface-model.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,7 +28,7 @@ When you create a network interface model, it creates the model record in the Ne
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon..](../image/ni-workspace-list-icon.png)\), and then go to **Inventory Models** &gt; **Interface Models**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon..\), and then go to **Inventory Models** &gt; **Interface Models**.
 
 3.  Select **New**.
 
@@ -55,7 +56,7 @@ Manufacturer
 
 </td><td>
 
-Name of the network asset's manufacturer. Select the search icon \(![Search icon.](../image/search.png)\) and select a manufacturer code. To learn more, see [Create manufacturer and vendor codes](add-company-designate-manufacturer-tni.md).
+Name of the network asset's manufacturer. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a manufacturer code. To learn more, see [Create manufacturer and vendor codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/add-company-designate-manufacturer-tni.md).
 
 </td></tr><tr><td>
 
@@ -68,11 +69,11 @@ Name of the network interface model. The ServiceNow AI Platform uses this name t
 </td></tr></tbody>
 </table>5.  On the **Details** tab, fill in the General section.
 
-    **Note:** To learn more about the fields, see [Inventory Model form - General](../reference/tni-model-form-general.md).
+    **Note:** To learn more about the fields, see [Inventory Model form - General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-general.md).
 
 6.  Under the **Details** tab, on the form, fill in the fields.
 
-    **Note:** To learn more about the fields, see [Network Interface Model form - Information tab](../reference/network-interface-model-form-information-tab.md).
+    **Note:** To learn more about the fields, see [Network Interface Model form - Information tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/network-interface-model-form-information-tab.md).
 
 7.  To add the compatible network interface models, select **Add Compatible**.
 
@@ -86,19 +87,19 @@ Name of the network interface model. The ServiceNow AI Platform uses this name t
 
     **Note:** In the classic environment, this function is available only for administrators.
 
-9.  To add the attachments, such as graphics or documents, select the attachment icon \(![Attachment icon.](../image/attachments-icon.png)\) in the right panel.
+9.  To add the attachments, such as graphics or documents, select the attachment icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon.\) in the right panel.
 
 10. Select **Save**.
 
-    The related tabs appear on the form. You can view or modify the tabs information. To learn more about the related tabs, see [Inventory models additional tabs](../reference/additional-tabs-of-inventory-models.md).
+    The related tabs appear on the form. You can view or modify the tabs information. To learn more about the related tabs, see [Inventory models additional tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/additional-tabs-of-inventory-models.md).
 
-11. To delete a model, select the options icon \(![Options icon.](../image/options-icon.png)\) next to the **Save** button, and select **Delete**.
+11. To delete a model, select the options icon \(\[Omitted image "options-icon.png"\] Alt text: Options icon.\) next to the **Save** button, and select **Delete**.
 
 
-**Parent Topic:**[Create inventory models](../concept/creating-your-inventory-models.md)
+**Parent Topic:**[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 
 **Related topics**  
 
 
-[Network inventory models](../concept/using-inventory-models-tni.md)
+[Network inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.md)
 

@@ -2,6 +2,7 @@
 title: Update a conditions field to use condition builder v2
 description: In Core UI, you can update a conditions field to display the version 2 condition builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-condition-builder.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 You add a dictionary attribute to the Conditions field to enable condition builder version 2 \(v2\).
 
-![Condition builder v2 on Approval Rules form](../image/condition-builder-v2.png "Condition builder v2 enabled on a form")
+\[Omitted image "condition-builder-v2.png"\] Alt text: Condition builder v2 on Approval Rules form
 
 ## Procedure
 

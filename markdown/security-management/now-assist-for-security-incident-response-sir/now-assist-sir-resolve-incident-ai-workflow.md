@@ -2,6 +2,7 @@
 title: Security Incident Response AI agent collection Resolve security incident agentic workflow
 description: Chat with an AI agent in the Now Assist panel to help you create a resolution plan for a security incident and to resolve it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/now-assist-sir-resolve-incident-ai-workflow.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir

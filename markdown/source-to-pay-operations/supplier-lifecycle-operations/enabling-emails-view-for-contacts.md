@@ -2,6 +2,7 @@
 title: Emails view for supplier managers
 description: Supplier managers can access all emails including system-triggered emails, inbound replies, and error emails from the Source-to-Pay Workspace at case, task, and supplier levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/enabling-emails-view-for-contacts.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -50,32 +51,32 @@ To enable email summarization, set the default model for the One Extend capabili
 
 **Note:** Email summarization is not available for supplier records.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](../concept/use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 
 
-[Create a supplier from the Source-to-Pay Workspace](new-supplier.md)
+[Create a supplier from the Source-to-Pay Workspace]()
 
-[Manage supplier details](../concept/supp-ws-details-page.md)
+[Manage supplier details]()
 
-[Manage internal stakeholders](../concept/manage-internal-stakeholders.md)
+[Manage internal stakeholders]()
 
-[Manage supplier contacts from the Source-to-Pay Workspace](../concept/managing-contacts-smw.md)
+[Manage supplier contacts from the Source-to-Pay Workspace]()
 
-[Manage supplier cases from the Source-to-Pay Workspace](../concept/managing-cases.md)
+[Manage supplier cases from the Source-to-Pay Workspace]()
 
-[Manage supplier tasks from the Source-to-Pay Workspace](../concept/managing-tasks.md)
+[Manage supplier tasks from the Source-to-Pay Workspace]()
 
-[Offboard a supplier from the Source-to-Pay Workspace](offboard-supplier.md)
+[Offboard a supplier from the Source-to-Pay Workspace]()
 
-[Accept an incoming chat request from the Source-to-Pay Workspace](accept-chat-supp-ws.md)
+[Accept an incoming chat request from the Source-to-Pay Workspace]()
 
-[Interaction Management in Supplier Lifecycle Operations](../concept/interaction-mgmt-supplier-mgr-ws.md)
+[Interaction Management in Supplier Lifecycle Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace](../concept/email-composer-slm-workspace.md)
+[Composing emails with predefined content from the Source-to-Pay Workspace]()
 
-[Overall supplier dashboard](../concept/overall-supplier-db.md)
+[Overall supplier dashboard]()
 
-[Create supplier case from Universal Request](create-supplier-case.md)
+[Create supplier case from Universal Request]()
 

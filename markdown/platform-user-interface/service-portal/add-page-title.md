@@ -2,6 +2,7 @@
 title: Add dynamic titles to a page
 description: Create variables to generate descriptive titles depending on the content loaded into a page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/add-page-title.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -118,7 +119,7 @@ Field from the table defined in the **Table** field. This field is used to gener
 
     Variables with same name aren't supported and won't be created multiple times. Each variable should be unique.
 
-    ![A completed dynamic page title variables form that populates the page title with a user's title.](../image/dynamic-var.png)
+    \[Omitted image "dynamic-var.png"\] Alt text: A completed dynamic page title variables form that populates the page title with a user's title.
 
     In this example, the value of the Title field in the User \[sys\_user\] table populates the page title. The `%title` variable must also be defined in the **Dynamic page title** field in the page record.
 
@@ -129,10 +130,10 @@ Field from the table defined in the **Table** field. This field is used to gener
 
 When the page loads, the record defined in the URL query parameter displays. The field defined in **Table field** determines the title of the page.
 
-**Parent Topic:**[Improving search engine optimization for portals](../concept/seo-sp.md)
+**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 

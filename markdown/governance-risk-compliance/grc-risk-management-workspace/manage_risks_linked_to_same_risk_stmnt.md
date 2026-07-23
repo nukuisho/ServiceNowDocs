@@ -2,6 +2,7 @@
 title: Manage risks linked to the same risk statement
 description: You can create and associate multiple risks to the same risk statement and entity combination. This association benefits the risk managers and the entity owners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/manage\_risks\_linked\_to\_same\_risk\_stmnt.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -21,14 +22,14 @@ This feature benefits the risk manager as it allows the risk managers to define 
 
 To understand this feature, see the following image and consider the example. Most customers have risk statements defined until Corruption. Anything lower than Corruption such as accepting a bribe is defined as a risk as it is difficult to harmonize these risks across the organization. This feature of linking multiple risks to the same risk statement and entity enables customers to prevent the creation of orphan risks with no one acting on them.
 
-![Risk statement and risk creation hierarchy](../image/risk_stmnt_hieracrchy.png "New risk statement hierarchy")
+\[Omitted image "risk\_stmnt\_hieracrchy.png"\] Alt text: Risk statement and risk creation hierarchy
 
-**Parent Topic:**[Manage risks, risk statements, and risk frameworks](../reference/r_RiskRegister.md)
+**Parent Topic:**[Manage risks, risk statements, and risk frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_RiskRegister.md)
 
 **Related topics**  
 
 
-[Workflow of a risk using Advanced Risk](risk-lifecycle-using-advanced-risk.md)
+[Workflow of a risk using Advanced Risk]()
 
-[Risk hierarchy and scoring](../reference/risk-hierarchy-scoring.md)
+[Risk hierarchy and scoring]()
 

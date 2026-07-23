@@ -2,6 +2,7 @@
 title: Configure attributes for input form screen variables
 description: Use screen variables to collect information from the user automatically or define default information. Variables can include information like user IDs and GPS coordinates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/param-screen-config-variables.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Use screen variables to collect information from the user automatically or defin
 
 ## Before you begin
 
-You must create an input form screen before you create variables and attributes. For information about creating an input form screen, see [Configure an input form screen](parameter-screen-config.md).
+You must create an input form screen before you create variables and attributes. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
 
 Role required: admin
 
@@ -94,7 +95,7 @@ Enter the static data defined by the administrator. Use this attribute if you ha
 
     2.  Navigate back to the input form screen node in the left navigation menu.
 
-    3.  On the input form screen form, select the options menu icon ![Options menu icon.](../image/mab-option-menu.png) in the upper right corner of the form in Mobile App Builder, and select **Open in platform**.
+    3.  On the input form screen form, select the options menu icon \[Omitted image "mab-option-menu.png"\] Alt text: Options menu icon. in the upper right corner of the form in Mobile App Builder, and select **Open in platform**.
 
     4.  Select the **Variables** tab.
 
@@ -136,7 +137,7 @@ Script
 Enter this attribute name for Scripted variables.**Note:** Enter the attribute name exactly. It is case-sensitive.
 
 </td></tr></tbody>
-</table>    8.  After entering the attribute name, select the check \(![Check icon.](../image/green-check-mark.png)\) to save the attribute.
+</table>    8.  After entering the attribute name, select the check \(\[Omitted image "green-check-mark.png"\] Alt text: Check icon.\) to save the attribute.
 
     9.  Double-click the field under Value and add the appropriate value for the attribute you are configuring as described in the following table.
 
@@ -145,7 +146,7 @@ Enter this attribute name for Scripted variables.**Note:** Enter the attribute n
         |ContextField|Enter the field name from the parent screen whose contents you want to populate the input form screen field.|
         |Script|Paste the JavaScript code that auto-fills the input form screen field. For example, you can pre-fill a building number based on an end user's profile when making a reservation.|
 
-    10. Select the check icon \(![Check icon.](../image/green-check-mark.png)\) to save attribute.
+    10. Select the check icon \(\[Omitted image "green-check-mark.png"\] Alt text: Check icon.\) to save attribute.
 
     11. Select **Update**.
 
@@ -158,5 +159,5 @@ Enter this attribute name for Scripted variables.**Note:** Enter the attribute n
 
 ## What to do next
 
-After you have created your input form screen variables, you can map these variables to input form screen inputs or action items. For details on this process, see [Configure an action item](sg-studio-create-action-item.md).
+After you have created your input form screen variables, you can map these variables to input form screen inputs or action items. For details on this process, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
 

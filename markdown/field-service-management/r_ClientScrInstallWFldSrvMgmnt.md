@@ -2,6 +2,7 @@
 title: Client scripts installed with Field Service Management
 description: Client scripts are added with Field Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/r\_ClientScrInstallWFldSrvMgmnt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -47,7 +48,7 @@ Expense Line\[fm\_expense\_line\]
 
 </td><td>
 
-Automatically populates the short description of expense lines with the work order short description when expense lines are manually created from work orders. [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md) must be activated.
+Automatically populates the short description of expense lines with the work order short description when expense lines are manually created from work orders. [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_CostManagement.md) must be activated.
 
 </td></tr><tr><td>
 
@@ -110,5 +111,5 @@ Asset Usage \[sm\_asset\_usage\]
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Field Service Management](r_InstalledWithFSM.md)
+</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_InstalledWithFSM.md)
 

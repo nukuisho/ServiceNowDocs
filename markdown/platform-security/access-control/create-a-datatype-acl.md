@@ -2,13 +2,14 @@
 title: Create a datatype ACL
 description: Learn how to create a datatype ACL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/create-a-datatype-acl.html
 release: australia
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-23"
 reading_time_minutes: 1
-breadcrumb: [Datatype ACL, ACL rule types, Explore Access Control Lists, Access Control List Rules, Access Management]
+breadcrumb: [Datatype ACL, ACL types, Explore Access Control Lists, Access Control Lists, Access Management]
 ---
 
 # Create a datatype ACL
@@ -21,11 +22,11 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Security** &gt; **Access Controls**.
+1.  Navigate to **All** &gt; **System Security** &gt; **Access Control \(ACL\)**.
 
 2.  Select the **New** button.
 
-3.  Select the **Change mode** icon![Mode icon](../image/acl-mode-icon.png) near the **Name** field
+3.  Select the **Change mode** icon\[Omitted image "acl-mode-icon.png"\] Alt text: Mode icon near the **Name** field
 
 4.  Enter your dataype in the form of `*.[User Datatype]` in the **Name** field.
 
@@ -33,12 +34,12 @@ Role required: admin
 
 6.  Fill in any additional details on the **Create an ACL** form.
 
-    See [Configure an ACL rule](t_CreateAnACLRule.md) for additional information.
+    See [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md) for additional information.
 
 7.  Select **Submit**.
 
 8.  Verify the security rules for the ACL in the popup **Verify Security Rules** window.
 
-    ![An example verify security rules.](../image/acl-datatype-verify.png "Example of Verify Security Rules")
+    \[Omitted image "acl-datatype-verify.png"\] Alt text: An example verifying security rules.
 
 

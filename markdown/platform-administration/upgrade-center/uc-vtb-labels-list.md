@@ -2,6 +2,7 @@
 title: Upgrade Center VTB Labels list
 description: The Upgrade Center VTB Labels list under Administration module shows all the labels in the Upgrade Visual Task Board \(VTB\). You can also change the color of the existing labels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-vtb-labels-list.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -19,16 +20,16 @@ If you want to change the color of an existing label, navigate to **Upgrade Cent
 
 **Note:** If you update the color of an existing label, the change will not be reflected in the current version upgrade related board. The change will be seen only from the next version upgrade.
 
-![Image showing where color of a label can be changed](../image/uc-label-color.png)
+\[Omitted image "uc-label-color.png"\] Alt text: Image showing where color of a label can be changed
 
-**Parent Topic:**[Upgrade Center references](uc-reference.md)
+**Parent Topic:**[Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-reference.md)
 
 **Related topics**  
 
 
-[Upgrade Center properties](uc-properties.md)
+[Upgrade Center properties]()
 
-[Default skipped rules](../concept/uc-default-skipped-rules.md)
+[Default skipped rules]()
 
-[Upgrade Center roles](uc-roles.md)
+[Upgrade Center roles]()
 

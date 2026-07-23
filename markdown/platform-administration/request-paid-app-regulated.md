@@ -2,6 +2,7 @@
 title: Request a paid app for a regulated environment
 description: Request to buy a paid app from a federal or regional ServiceNow Store instance to make that app available on your regulated instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/request-paid-app-regulated.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,67 +22,47 @@ Role required: none
 
 1.  Access the federal or regional ServiceNow Store instance that corresponds to your regulated environment.
 
-    For more information, see [Access the ServiceNow Store for a regulated environment](access-regulated-store.md).
+    For more information, see [Access the ServiceNow Store for a regulated environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/access-regulated-store.md).
 
 2.  Find and select a paid app or integration.
 
 3.  Conduct a security review to verify that the app or integration meets the requirements for your regulated instance.
 
-4.  Request to purchase the app from its listing details on the ServiceNow Store according to whether the app is provided by ServiceNow or a partner.
+4.  Request to purchase a license for the application or integration.
 
-<table id="choicetable_i4g_g5b_cgc"><thead><tr><th align="left" id="d279504e109">
+    -   If the application is provided by ServiceNow, select **Request license**.
+    -   If the application is provided by a partner and requires approval, select **Request purchase**.
+    If your request is approved, a sales representative or your account executive contacts you by email to process your purchase. Approval is granted at the provider's discretion.
 
-App provider
+    For questions about an application provided by ServiceNow, contact your account executive. For questions about an application provided by a partner, contact the partner directly.
 
-</th><th align="left" id="d279504e112">
-
-Procedure
-
-</th></tr></thead><tbody><tr><td id="d279504e118">
-
-**ServiceNow**
-
-</td><td>
-
-1.  \(Optional\) If the app requires approval, select **Request App**.
-
-You receive an emailed notification informing you whether your request is approved. After a request is approved, you can return to listing details on your federal or regional instance of the ServiceNow Store to complete procurement.
-
-For additional assistance with purchase requests, you can contact your sales representative or Customer Service and Support.
-
-2.  Select **Request License**.
-
-
-</td></tr><tr><td id="d279504e158">
-
-**Partner**
-
-</td><td>
-
-1.  Select **Request App**.
-
-You receive an emailed notification informing you whether your request is approved. If you have additional questions about the request, contact the seller directly using the information provided in their seller profile.
-
-2.  
-
-</td></tr></tbody>
-</table>    If your purchase request is approved, a sales representative contacts you by email to complete the purchase and procurement.
-
-5.  Follow the emailed instructions to complete the purchaseand make the application available for installation.
+5.  Follow the emailed instructions to complete the purchase.
 
     **Note:** It can take up to two business days for the application to become available in the Application Manager after final license confirmation.
+
+6.  If the application displays the "App Terms Not Accepted" state indicator in the Application Manager, accept the custom terms and conditions from the ServiceNow Store.
+
+    For more information about application state indicators, see [Application state indicators in Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/app-mgr-state-indicators.md).
+
+    1.  From the application listing details in the ServiceNow Store, select **Accept Terms**.
+
+    2.  Download and review the custom terms and conditions.
+
+    3.  Select the option to agree to the terms and conditions.
+
+    4.  Select **Accept**.
 
 
 ## Result
 
-The application is available to install within two business days. If the application still can't be installed after two business days, contact Now Support for assistance.
+Confirmation emails for the application and any dependencies that were procured are sent to the email address associated with your ServiceNow Store account. For information about configuring which email address receives notifications for this application, see [Configure ServiceNow Store application notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-store-notifications.md).
 
-Confirmation emails for the application and any dependencies that were procured are sent to the email address associated with your ServiceNow Store account. For information about configuring which email address receives notifications for this application, see [Configure ServiceNow Store application notification preferences](configure-store-notifications.md).
+The application is available to install within two business days. If the application still can't be installed after two business days, contact Now Support for assistance.
 
 ## What to do next
 
 Install the app on compatible production or non-production instances, based on whether you have a hosted or on-premise instance:
 
--   If your instance is in a hosted regulated environment, install the app using the Application Manager. For more information, see [Install an application or plugin](../../../build/applications/task/installing-applications-in-application-manager.md).
--   If your instance is in an on-premise environment, download the encrypted app file from your federal or regional instance of the ServiceNow Store and upload the file to your instance. For more information, see [Getting apps as an on-premise customer](../concept/getting-apps-on-prem.md)
+-   If your instance is in a hosted environment, install the app using the Application Manager. For more information, see [Install an application or plugin]().
+-   If your instance is in an on-premise environment, download the encrypted app file from your federal or regional instance of the ServiceNow Store and upload the file to your instance. For more information, see [Getting apps as an on-premise customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-on-prem.md)
 

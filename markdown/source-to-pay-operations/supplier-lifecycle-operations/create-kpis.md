@@ -2,6 +2,7 @@
 title: Create KPIs without using KPI template
 description: You can add new KPIs for a supplier without using the existing KPI templates. Adding new KPIs directly generates the corresponding KPI templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-kpis.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,9 +24,9 @@ Role required: sn\_kpi.admin
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and navigate to **Lists** &gt; **Performance management** &gt; **KPIs**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Performance management** &gt; **KPIs**.
 
-3.  Select **New**.![Selected option to create a new KPI.](../image/create-kpi-without-template.png)
+3.  Select **New**.\[Omitted image "create-kpi-without-template.png"\] Alt text: Selected option to create a new KPI.
 
 4.  On the Create New KPI form, fill in the fields.
 
@@ -284,12 +285,12 @@ This KPI is activated only when the following conditions are met:
 -   You must have access to the data tables for extracting data for automated KPIs.
 -   If the automated KPI collection fails to extract data, manual KPI data collection tasks are created and assigned to the supplier manager.
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 
 **Related topics**  
 
 
-[Create KPIs by adding suppliers to a KPI template](add-supplier-kpi-template.md)
+[Create KPIs by adding suppliers to a KPI template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-kpi-template.md)
 
-[Create KPI units](../concept/create-kpi-units.md)
+[Create KPI units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-units.md)
 

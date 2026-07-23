@@ -2,6 +2,7 @@
 title: Configure input form pages
 description: Create input form pages to enable users to view data over multiple organized pages, rather than scrolling through a long list of entries. Input form pages host data from inputs and sections. You control the layout of the pages, and which inputs and sections belong to each page of the input form screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/parameter-screen-page-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Create input form pages to enable users to view data over multiple organized pag
 
 ## Before you begin
 
-You must create an input form screen that contains inputs before you create pages. For information about creating an input form screen and inputs, see [Configure an input form screen](parameter-screen-config.md) and [Configure input form screen inputs](param-screen-config-inputs.md).
+You must create an input form screen that contains inputs before you create pages. For information about creating an input form screen and inputs, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md) and [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-inputs.md).
 
 Role required: admin
 
@@ -103,5 +104,5 @@ Whether the input form screen page is active. Inactive pages do not appear on th
 
 An input form screen can contain any number of pages. Each page can comprise inputs and reusable sections.
 
-![Input form screen displaying two pages containing inputs and sections.](../image/input-form-screen-pages.png)
+\[Omitted image "input-form-screen-pages.png"\] Alt text: Input form screen displaying two pages containing inputs and sections.
 

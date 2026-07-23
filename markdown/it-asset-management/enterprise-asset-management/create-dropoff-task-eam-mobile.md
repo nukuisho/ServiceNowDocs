@@ -2,13 +2,14 @@
 title: Create a Drop off task for enterprise assets using the Mobile Agent application
 description: Create a Drop off task using the Mobile Agent to return the enterprise assets in your personal stockroom to any other warehouse stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-dropoff-task-eam-mobile.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage Drop off tasks, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage Drop off tasks, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a Drop off task for enterprise assets using the Mobile Agent application
@@ -29,7 +30,7 @@ Role required: sn\_eam.asset\_technician
 
     -   **My group task**
     -   **My Tasks** with the list of tasks assigned to you
-3.  In the My group task section, tap the **Create Drop Off Task** ![](../image/create-drop-off-icon.png) icon.
+3.  In the My group task section, tap the **Create Drop Off Task** \[Omitted image "create-drop-off-icon.png"\] Alt text: icon.
 
 4.  On the Get Drop-Off Task Details screen, fill in the schedule details to create the drop off task.
 
@@ -45,15 +46,15 @@ Role required: sn\_eam.asset\_technician
 
     You can only add enterprise assets that are in your personal stockroom and that aren't reserved and aren't part of any workflows.
 
-<table id="choicetable_p5z_d2w_tfc"><thead><tr><th align="left" id="d197555e158">
+<table id="choicetable_p5z_d2w_tfc"><thead><tr><th align="left" id="d277290e158">
 
 UI option
 
-</th><th align="left" id="d197555e161">
+</th><th align="left" id="d277290e161">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d197555e167">
+</th></tr></thead><tbody><tr><td id="d277290e167">
 
 **Add assets button**
 
@@ -66,7 +67,7 @@ Action
 3.  Tap **Submit**.
 
 
-</td></tr><tr><td id="d197555e208">
+</td></tr><tr><td id="d277290e208">
 
 **Assets tab**
 

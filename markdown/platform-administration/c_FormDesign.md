@@ -2,6 +2,7 @@
 title: Using the form designer
 description: Administrators or users with the personalize\_form role can use the form design feature to quickly create new or change existing form views.You can move fields to and from the form workspace to display the fields on the form.Use annotations to provide instructions or additional information about fields on a form.Move sections to and from the form layout to display or remove the sections on the form.Use formatters to add information from macros or previously scripted UI elements to a form.You can add a field to a form and the associated table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_FormDesign.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,23 +14,23 @@ breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure
 
 Administrators or users with the personalize\_form role can use the form design feature to quickly create new or change existing form views.
 
-**Important:** Starting with the Australia release, form designer is being prepared for future deprecation. Try configuring your forms with Form Builder instead. Form Builder has all of the Form Designer and Form Layout options. It also has other robust features that help you configure each aspect of the form. For more information, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/access-form-builder.md).
+**Important:** Starting with the Australia release, form designer is being prepared for future deprecation. Try configuring your forms with Form Builder instead. Form Builder has all of the Form Designer and Form Layout options. It also has other robust features that help you configure each aspect of the form. For more information, see [Accessing Form Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-form-builder.md).
 
 With form design, you can accomplish the same tasks that you can with form layout in a graphical tool called the form designer. You can also access field properties and add information from macros or previously scripted UI elements.
 
 Form design is an alternative to configuring forms that combines several configuration options into one tool. It is available by default for new instances and requires Core UI . Administrators who upgrade from a previous version must activate the Form Designer \(com.glide.ui.ng.fd\) plugin to use the feature.
 
-Access Form Designer by opening an existing form, selecting the Additional actions icon \(![Additional actions icon](../../contextual-search/image/additional-actions.png)\), and then navigating to **Configure** &gt; **Form Design**.
+Access Form Designer by opening an existing form, selecting the Additional actions icon \(\[Omitted image "additional-actions.png"\] Alt text: Additional actions icon\), and then navigating to **Configure** &gt; **Form Design**.
 
-![Callout for the location of the Form Designer application using the additional actions menu on a form.](../image/access-form-designer.png "Accessing Form Designer from an existing form")
+\[Omitted image "access-form-designer.png"\] Alt text: Callout for the location of the Form Designer application using the additional actions menu on a form.
 
-![Parts of the form design](../image/UiFormDesign02.png "Parts of the UI form design interface")
+\[Omitted image "UiFormDesign02.png"\] Alt text: Parts of the form design
 
 -   **The page header**
 
     The page header displays the current table and view being designed. Each form is tied to a unique table and view combination. For example, there can only be one form for the incident table default view. Select a different view to modify different form layouts for a table.
 
-    ![Parts of the header](../image/UiFormDesignHeader02.png)
+    \[Omitted image "UiFormDesignHeader02.png"\] Alt text: Parts of the header
 
 -   **The field navigator**
 
@@ -38,17 +39,17 @@ Access Form Designer by opening an existing form, selecting the Additional actio
     -   **Filter**: Allows text search on the currently selected tab.
     -   **Fields**: Displays a list of existing fields you can add to the current form.
     -   **Field Types**: Displays a list of field types you can add to the current form. Adding a field type to the form layout creates fields in the selected table when the form layout is saved.
-    ![Parts of the field navigator](../image/UiFormDesignFieldNav02.png)
+    \[Omitted image "UiFormDesignFieldNav02.png"\] Alt text: Parts of the field navigator
 
     Field properties are accessed by clicking the gear icon that appears when you point to a field in the form layout.
 
-    ![Field properties](../image/UiFormDesignFieldProps02.png)
+    \[Omitted image "UiFormDesignFieldProps02.png"\] Alt text: Field properties
 
 -   **Form layout**
 
     The form layout displays a separate cell for each field, section, annotation, UI element, and related list that is on the form. Each cell has an identifying label and a handle icon to aid in selecting and moving it. The location of the cell in the form layout represents its relative position on the form. Only fields visible on the form layout are displayed on a form.
 
-    ![Form layout](../image/UiFormDesignFormWorkspace02.png "Form layout")
+    \[Omitted image "UiFormDesignFormWorkspace02.png"\] Alt text: Form layout
 
 
 ## Show or hide fields with the form designer
@@ -105,6 +106,11 @@ Role required: personalize\_form
 7.  Click **Save**.
 
 
+**Related topics**  
+
+
+[Administering form annotations]()
+
 ## Add a new section with the form designer
 
 Move sections to and from the form layout to display or remove the sections on the form.
@@ -139,7 +145,7 @@ By default, the first section on a form is always a read-only section displaying
 
     The following GIF shows how you would use form designer to add and then delete a form section.
 
-    ![Form designer example.](../image/form-design-example.gif)
+    \[Omitted image "form-design-example.gif"\] Alt text: Form designer example.
 
 
 ## Add a formatter with the form designer
@@ -195,4 +201,9 @@ Use the filter to quickly find field types in the field navigator.
 
 7.  Click **Save**.
 
+
+**Related topics**  
+
+
+[Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DataDictionaryTables.md)
 

@@ -2,11 +2,12 @@
 title: Configuration file tracking
 description: The horizontal discovery process can find configuration files that belong to certain applications and add those configuration files to the CMDB. You can track the changes to these files by comparing them to previous versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/tracked-config-files.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 7
 breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -21,7 +22,7 @@ The horizontal discovery process can find configuration files that belong to cer
 
 -   **CI type**
 
-    All applications and hosts in your organization must have a corresponding configuration item \(CI\) type, which is necessary for discovering and processing applications and hosts correctly. In a base system, many CI types have configuration file paths defined for them. You can add new or modify existing definitions for tracking configuration files. See [Modify tracking changes in configuration files](../task/track-configuration-files.md) for instructions.
+    All applications and hosts in your organization must have a corresponding configuration item \(CI\) type, which is necessary for discovering and processing applications and hosts correctly. In a base system, many CI types have configuration file paths defined for them. You can add new or modify existing definitions for tracking configuration files. See [Modify tracking changes in configuration files]() for instructions.
 
 -   **Patterns**
 
@@ -44,11 +45,11 @@ Both dependency maps and service instance maps display tracked configuration fil
 
 For example, this IIS web server contains three tracked configuration files:
 
-![CI containing racked configuration files](../image/tracked-config-file.png)
+\[Omitted image "tracked-config-file.png"\] Alt text: CI containing racked configuration files
 
 Sometimes you organize CI types as a main CI type and its related CI types. On a service instance map, Service Mapping shows changes to configuration files of related CIs for the main CIs in inclusions. In inclusions, the system treats applications hosted on a server as independent objects. For example, the Tomcat WAR CI appears separate from its host, the Tomcat CIs. In this case, Service Mapping shows changes to configuration files of Tomcat WAR when you select Tomcat. In addition, Service Mapping displays changes to configuration files of the hardware server hosting inclusions. In this example, it is a Linux server:
 
-![Map showing an inclusion with a host](../../service-mapping/image/MapInclusionTomcat.png "Map showing an inclusion with a host")
+\[Omitted image "MapInclusionTomcat.png"\] Alt text: Map showing an inclusion with a host
 
 ## Deletion strategy
 
@@ -76,7 +77,7 @@ File path of tracked file
 
 </th></tr></thead><tbody><tr><td>
 
-[Apache Server](../reference/r_DataCollDiscoApacheWebServers.md#)
+[Apache Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoApacheWebServers.md)
 
 </td><td>
 
@@ -92,7 +93,7 @@ Apache Web Server \[cmdb\_ci\_apache\_web\_server\]
 
 </td></tr><tr><td>
 
-[MySQL Server](c_MySQLDiscovery.md)
+[MySQL Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_MySQLDiscovery.md)
 
 </td><td>
 
@@ -108,7 +109,7 @@ MySQL Instance \[cmdb\_ci\_db\_mysql\_instance\]
 
 </td></tr><tr><td rowspan="2">
 
-[Microsoft IIS Server](../reference/r_DataCollDiscoMicrosoftIISServers.md)
+[Microsoft IIS Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoMicrosoftIISServers.md)
 
 </td><td rowspan="2">
 
@@ -132,7 +133,7 @@ IIS Virtual Directory \[cmdb\_ci\_iisdirectory\]
 
 </td></tr><tr><td rowspan="2">
 
-[TIBCO BusinessWorks and EMS](../../service-mapping/concept/mapping-services-tibco.md#)
+[TIBCO BusinessWorks and EMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/mapping-services-tibco.md)
 
 </td><td>
 
@@ -160,7 +161,7 @@ Tibco Enterprise Message Service \[cmdb\_ci\_appl\_tibco\_message\]
 
 </td></tr><tr><td rowspan="4">
 
-[Oracle](c_OracleDatabaseDiscovery.md)
+[Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_OracleDatabaseDiscovery.md)
 
 </td><td rowspan="2">
 
@@ -204,7 +205,7 @@ Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]
 
 </td></tr><tr><td rowspan="2">
 
-[Tomcat](../reference/r_DataCollDiscoTomcatServers.md)
+[Tomcat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTomcatServers.md)
 
 </td><td rowspan="2">
 
@@ -228,7 +229,7 @@ Tomcat WAR \[cmdb\_ci\_app\_server\_tomcat\_war\]
 
 </td></tr><tr><td rowspan="2">
 
-[WMB](../reference/r_IBMWMB.md)
+[WMB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_IBMWMB.md)
 
 </td><td>
 
@@ -256,7 +257,7 @@ IBM WebSphere Message Broker \[cmdb\_ci\_appl\_ibm\_wmb\]
 
 </td></tr><tr><td rowspan="2">
 
-[WMQ](../reference/r-IBMWebsphereMQ.md)
+[WMQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r-IBMWebsphereMQ.md)
 
 </td><td>
 
@@ -287,14 +288,14 @@ IBM MQ Manager \[cmdb\_ci\_appl\_ibm\_wmq\]
 
 1.  Enable configuration file tracking by setting the `glide.discovery.enable_file_tracking` Discovery property to true.
 
-    You can also configure other properties to control the size and number of tracked configuration files, the time window during which changes to configuration files are tracked for a given version, and the number of changes allowed on a configuration file during that time window. See [Discovery properties](../reference/r_DiscoveryProperties.md) for details.
+    You can also configure other properties to control the size and number of tracked configuration files, the time window during which changes to configuration files are tracked for a given version, and the number of changes allowed on a configuration file during that time window. See [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md) for details.
 
 2.  To prevent unauthorized access to the sensitive information from configuration files, perform the following steps:
     1.  Ensure that access control rules \(ACL\) are placed on the Tracked Configuration file table \[cmdb\_ci\_config\_file\_tracked\]. Only allow authorized users to view this table or uncheck the **Save Content** setting.
     2.  Ensuring that the tracked\_file\_reader role that controls access to configuration file data is assigned to correct users and user groups. By default, the itil role contains the tracked\_file\_reader role giving all users with the itil role access to the configuration file information.
-3.  Verify that the Horizontal Discovery probe is active on the classifier for the software that you want to discovery. If not, you can enable it, specify the pattern, and then disable the other probes. See [Add the Horizontal Pattern probe to a classifier](c-UsingPatternsForHorizontalDiscovery.md#) for instructions.
-4.  [Add or modify tracked file definitions](../task/track-configuration-files.md) to change the CI type or file path.
-5.  [Set the tracked files deletion strategy](../task/set-config-file-deletion-strategy.md) to specify what you want to do with tracked configuration file CI records when pattern discovery can no longer find them.
-6.  [Run horizontal discovery](../task/t_CreateADiscoverySchedule.md#) on the hosts that are running the applications you want to discover with patterns, open the application CI record, and check the Tracked Configuration Files related list.
-7.  [Compare two versions](../../service-mapping/task/compare-configuration-files.md) of tracked CI configuration files to see the actual changes made to them.
+3.  Verify that the Horizontal Discovery probe is active on the classifier for the software that you want to discovery. If not, you can enable it, specify the pattern, and then disable the other probes. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
+4.  [Add or modify tracked file definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/track-configuration-files.md) to change the CI type or file path.
+5.  [Set the tracked files deletion strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-config-file-deletion-strategy.md) to specify what you want to do with tracked configuration file CI records when pattern discovery can no longer find them.
+6.  [Run horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) on the hosts that are running the applications you want to discover with patterns, open the application CI record, and check the Tracked Configuration Files related list.
+7.  [Compare two versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/compare-configuration-files.md) of tracked CI configuration files to see the actual changes made to them.
 

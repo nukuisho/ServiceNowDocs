@@ -2,6 +2,7 @@
 title: Capture initiator details form
 description: The Capture initiator details form enables you to collect the complaint requester details for an Alternative Dispute Resolution \(ADR\) case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/capture-initiator-details-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -136,5 +137,5 @@ Reference number related to your complaint.
 </table>**Related topics**  
 
 
-[Create an Alternative Dispute Resolution case](../task/create-adr-case-record.md)
+[Create an Alternative Dispute Resolution case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-adr-case-record.md)
 

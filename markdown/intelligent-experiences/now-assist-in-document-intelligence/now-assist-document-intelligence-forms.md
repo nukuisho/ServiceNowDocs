@@ -2,6 +2,7 @@
 title: Now Assist in Document Intelligence forms
 description: Use forms to view and update Now Assist in Document Intelligence information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-forms.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -16,31 +17,31 @@ breadcrumb: [Reference, Now Assist in Document Intelligence, Enable AI experienc
 
 Use forms to view and update Now Assist in Document Intelligence information.
 
--   **[Question form for use case setup](document-qna-single-field-form.md)**  
+-   **[Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-qna-single-field-form.md)**  
 The Question form enables you to define a question you want to ask about the document.
--   **[Field form for use case setup](document-extraction-single-field-form.md)**  
+-   **[Field form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-extraction-single-field-form.md)**  
 The Field form enables you to define a single field for extraction.
--   **[Table form for use case setup](document-extraction-table-form.md)**  
+-   **[Table form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-extraction-table-form.md)**  
 The Table form enables you to define a table for extraction.
 
-**Parent Topic:**[Now Assist in Document Intelligence reference](now-assist-in-document-intelligence-reference.md)
+**Parent Topic:**[Now Assist in Document Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-in-document-intelligence-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Now Assist in Document Intelligence](now-assist-docintel-components.md)
+[Components installed with Now Assist in Document Intelligence]()
 
-[Data extraction modes in Now Assist in Document Intelligence](data-extraction-modes-now-assist-document-intelligence.md)
+[Data extraction modes in Now Assist in Document Intelligence]()
 
-[Document and visual insights AI agent](document-and-visual-insights-ai-agent.md)
+[Document and visual insights AI agent]()
 
-[Document Intelligence tool for Now Assist Skill Kit](document-visual-intelligence-skill-kit-tool.md)
+[Document Intelligence tool for Now Assist Skill Kit]()
 
-[Field types in Now Assist in Document Intelligence](now-assist-document-intelligence-field-types.md)
+[Field types in Now Assist in Document Intelligence]()
 
-[Limitations in Now Assist in Document Intelligence](now-assist-document-intelligence-limitations.md)
+[Limitations in Now Assist in Document Intelligence]()
 
-[Large language models used by Now Assist in Document Intelligence](llms-now-assist-document-intelligence.md)
+[Large language models used by Now Assist in Document Intelligence]()
 
-[Languages supported by Now Assist in Document Intelligence](languages-supported-now-assist-document-intelligence.md)
+[Languages supported by Now Assist in Document Intelligence]()
 

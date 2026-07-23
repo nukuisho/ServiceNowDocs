@@ -2,9 +2,10 @@
 title: Member registration form
 description: Use the member registration form on the Partner portal to register members to a partner organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/member-registration-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -75,15 +76,15 @@ Role type
 
 </td><td>
 
-Type of role that is assigned to a member, whether Partner Manager or Partner Associate.To learn more about the roles installed with PRM, see [Roles and components of Partner Relationship Management](../concept/roles-and-components-of-partner-relationship-management.md).
+Type of role that is assigned to a member, whether Partner Manager or Partner Associate.To learn more about the roles installed with PRM, see [Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/roles-and-components-of-partner-relationship-management.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Partner Relationship Management reference](partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
 
 **Related topics**  
 
 
-[Using Partner Relationship Management](../concept/using-partner-relationship-management.md)
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
 
-[Register a member on Partner portal](../task/register-a-member-on-partner-portal.md)
+[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-a-member-on-partner-portal.md)
 

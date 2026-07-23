@@ -2,6 +2,7 @@
 title: Align with your brand by using the Unified Navigation component
 description: Align your experience more closely with your brand by editing the Unified Navigation component and its subcomponents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/edit-unified-navigation-component.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ The Unified Navigation component is made up of several subcomponents that you mu
 
 2.  From the Page drop-down list, select the Editor page view.
 
-    ![View of the Editor page.](../image/tb-editor-page-view.png "Editor page view")
+    \[Omitted image "tb-editor-page-view.png"\] Alt text: View of the Editor page.
 
 3.  From the Theme drop-down list, select the theme that you want to edit the Unified Navigation component for.
 
@@ -37,21 +38,21 @@ The Unified Navigation component is made up of several subcomponents that you mu
 
 5.  Select the **Editing** tab.
 
-    ![Component styles Editing tab.](../image/tb-editing-tab.png)
+    \[Omitted image "tb-editing-tab.png"\] Alt text: Component styles Editing tab.
 
 6.  Filter the list to view the Unified Navigation component.
 
-    1.  Select the Filter icon \(![](../image/tb-filter-icon.png)\).
+    1.  Select the Filter icon \(\[Omitted image "tb-filter-icon.png"\] Alt text:\).
 
     2.  Expand the Navigation category and select the Unified Navigation component.
 
-        ![Unified Navigation component selected from filter list.](../image/tb-filter-list-unified-nav.png "Unified Navigation component")
+        \[Omitted image "tb-filter-list-unified-nav.png"\] Alt text: Unified Navigation component selected from filter list.
 
 7.  Access the Component Editor where you can style various aspects of the Unified Navigation component by using one of the two ways listed:
 
     -   Double-click the Unified Navigation component tile.
     -   From the Unified Navigation editing panel, select **Style subcomponents**.
-    ![Unified Navigation component editing panel including the Style subcomponents button.](../image/tb-unified-nav-editing-panel.png "Unified Navigation editing panel")
+    \[Omitted image "tb-unified-nav-editing-panel.png"\] Alt text: Unified Navigation component editing panel including the Style subcomponents button.
 
 8.  Select the **Header** or **Menu** tile to open the configurable styles panel where you can edit the available theme hooks.
 
@@ -59,13 +60,13 @@ The Unified Navigation component is made up of several subcomponents that you mu
 
     **Note:** After you save the changes to any of the color hooks, a Remove override symbol appears. Select the Remove override symbol to revert your changes to the original auto-generated colors.
 
-    ![Remove override symbol.](../image/tb-color-undo.png)
+    \[Omitted image "tb-color-undo.png"\] Alt text: Remove override symbol.
 
 9.  Double-click the **Header** or **Menu** tile or select **Style subcomponents** to edit the available subcomponents.
 
     A Subcomponent is a smaller piece of a larger component. For example, the Unified Navigation Header or Menu subcomponent is a smaller piece of the Unified Navigation component. An interaction describes the different ways the component or subcomponent behaves. For example, the Default or Hover interactions are interactions of the Menu Trigger subcomponent.
 
-    ![Unified Navigation Header subcomponent editing option.](../image/tb-unified-nav-header.png "Unified Navigation Header subcomponent editing options")
+    \[Omitted image "tb-unified-nav-header.png"\] Alt text: Unified Navigation Header subcomponent editing option.
 
 10. Continue editing each subcomponent and interaction until you complete styling the Unified Navigation component.
 
@@ -77,14 +78,14 @@ The Unified Navigation component is made up of several subcomponents that you mu
 
     For example, when editing the Menu subcomponent, after you select **Component config**, you can select the specific menu that you want to edit from the Type drop-down list. After you select the desired menu, all available subcomponents for that particular menu are listed.
 
-    ![Component config menu with the History menu selected.](../image/tb-component-config.png "Component config menu")
+    \[Omitted image "tb-component-config.png"\] Alt text: Component config menu with the History menu selected.
 
 12. To return to a previous component editing screen, select one of the breadcrumb links.
 
-    ![Component editing breadcrumb navigation.](../image/tb-un-component-breadcrumb.png "Component editing breadcrumb navigation")
+    \[Omitted image "tb-un-component-breadcrumb.png"\] Alt text: Component editing breadcrumb navigation.
 
 
 ## Result
 
-If your theme is published, your Unified Navigation edits will be visible to users who have your theme applied upon refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](tb-apply-theme.md).
+If your theme is published, your Unified Navigation edits will be visible to users who have your theme applied upon refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
 

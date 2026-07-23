@@ -2,13 +2,14 @@
 title: Jumpstart Your Task Intelligence
 description: The Jumpstart Your Task Intelligence Accelerator provides a demonstration of the possibilities and capabilities of Task Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-task-intelligence.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Task Intelligence
@@ -17,9 +18,11 @@ The Jumpstart Your Task Intelligence Accelerator provides a demonstration of the
 
 ## Accelerator Overview
 
-Jumpstart Your Task Intelligence enables customers to leverage Task Intelligence to infuse machine learning into customer case management  processes to significantly enhance customer &amp; agent experience. ​ This Accelerator provides an overview of the art of the possible with Task Intelligence, including an applied demonstration of capabilities , as well as leading practices on getting started. For more information on Task Intelligence, see [Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/task-intelligence.md).
+Jumpstart Your Task Intelligence enables customers to leverage Task Intelligence to infuse machine learning into customer case management  processes to significantly enhance customer &amp; agent experience. ​ This Accelerator provides an overview of the art of the possible with Task Intelligence, including an applied demonstration of capabilities , as well as leading practices on getting started. For more information on Task Intelligence, see .
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

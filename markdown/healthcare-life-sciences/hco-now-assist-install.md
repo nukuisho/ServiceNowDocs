@@ -2,6 +2,7 @@
 title: Install Now Assist for Care Team Operations
 description: Install the Now Assist for Care Team Operations application \[sn\_cto\_now\_assist\].
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,6 +17,8 @@ Install the Now Assist for Care Team Operations application \[sn\_cto\_now\_assi
 ## Before you begin
 
 Role required: admin
+
+**Note:** Now Assist for Care Team Operations capabilities require HCLS Prime or HCLS Advanced scoped applications.
 
 ## Procedure
 

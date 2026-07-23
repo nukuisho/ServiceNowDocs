@@ -2,6 +2,7 @@
 title: GRC: Metrics
 description: The ServiceNow GRC: Metrics application enables organizations to track their goals and targets, collect data, and report data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/metrics-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,19 +16,19 @@ The ServiceNow® GRC: Metrics application enables organizations to track their g
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../common/image/icon-explore.png) Learn about how Metrics administrators use the GRC: Metrics application for tracking their goals.](esg-metrics.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how Metrics administrators use the GRC: Metrics application for tracking their goals.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-metrics.md)
 
 </td><td>
 
-[Configure ![](../../../common/image/icon-set-up.png) Configure your GRC: Metrics application.](configuring-grc-metrics.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure your GRC: Metrics application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
 
 </td><td>
 
-[Use ![](../../../common/image/icon-workspace.png) Use the GRC: Metrics application for tasks such as creating metric definitions, providing data for metrics, managing your integrations, and so on.](using-grc-metrics.md)
+[Use \[Omitted image "icon-workspace.png"\] Alt text: Use the GRC: Metrics application for tasks such as creating metric definitions, providing data for metrics, managing your integrations, and so on.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/using-grc-metrics.md)
 
 </td></tr><tr><td>
 
-[Reference ![](../../../common/image/icon-reference.png) Get details about components like fields, tables, roles, and properties installed with GRC: Metrics.](../../esg-management-reporting/concept/reference-data-esg.md)
+[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components like fields, tables, roles, and properties installed with GRC: Metrics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/reference-data-esg.md)
 
 </td><td>
 

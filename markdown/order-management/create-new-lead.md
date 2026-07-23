@@ -2,6 +2,7 @@
 title: Create a lead
 description: Create a lead in the Lead Management application by entering the details, such as customer name, sales stage, lead type, score, and source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-lead.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and select **New**.
 
@@ -95,7 +96,7 @@ Stage
 
 </td><td>
 
-Current stage of the lead in the sales lifecycle. Options include:-   New
+Current stage of the lead in the sales lifecycle. The available options are:-   New
 -   Contacted
 -   Nurturing
 -   Qualified
@@ -108,7 +109,7 @@ Lead Source
 
 </td><td>
 
-Channel or origin through which the lead was acquired. Options include: -   Inbound Phone
+Channel or origin through which the lead was acquired. The available options are: -   Inbound Phone
 -   Inbound Web
 -   Partner Referral
 -   3rd Party Referral
@@ -127,12 +128,19 @@ Channel or origin through which the lead was acquired. Options include: -   Inbo
 
     A message confirms that the lead was created. To continue working on the lead, select the link in the message.
 
-5.  Select **Refresh** ![](../../tmt-telecom-network-inventory/image/icon-refresh.png) to see the new lead in the list.
+5.  Select **Refresh** \[Omitted image "icon-refresh.png"\] Alt text: to see the new lead in the list.
 
 
 ## What to do next
 
-Start adding more information to your lead. To learn more, see [Add and view the details of a lead](lead-management-details-tab.md).
+Start adding more information to your lead. To learn more, see [Add and view the details of a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-details-tab.md).
 
-**Parent Topic:**[Using Lead Management](../concept/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+
+**Related topics**  
+
+
+[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
 

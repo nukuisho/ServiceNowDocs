@@ -2,6 +2,7 @@
 title: Audit logging
 description: The following logging tracks logins and activity by ServiceNow employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_AuditLogging.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ The following logging tracks logins and activity by ServiceNow employees.
 
 <table id="table_fcs_45s_2r"><tbody><tr><td>
 
-[Event Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/event-logs-2.md)
+[Event Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/event-logs-2.md)
 
 </td><td>
 
@@ -23,7 +24,7 @@ The event logs show all ServiceNow logins to a customer instance.
 
 </td></tr><tr><td>
 
-[Transaction logs](../../time/reference/r_TransactionLogs.md)
+[Transaction logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_TransactionLogs.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Manage Integration
 description: Choose the preferred integration type for configuring the available model providers. There are two ways to configure a model provider in Now Assist Admin. You can either select Original Equipment Manufacturer \(OEM\) or Bring Your Own Key \(BYOK\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/manage-integration.html
 release: australia
 topic_type: task
 last_updated: "2025-10-24"
@@ -31,10 +32,10 @@ With **Bring Your Own Key \(BYOK\)** option, you can apply your own license key 
 
 4.  Select the integration type for the providers that allow such a configuration.
 
-    ![Manage Integration](../image/na-admin-manage-integration.png)
+    \[Omitted image "na-admin-manage-integration.png"\] Alt text: Manage Integration
 
     You can find the providers that allow BYOK type integration only, under **Non Managed integration** section.
 
 
-**Parent Topic:**[Manage AI models](manage-large-language-models.md)
+**Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md)
 

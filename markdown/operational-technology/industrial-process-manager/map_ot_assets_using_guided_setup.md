@@ -2,6 +2,7 @@
 title: Configure Automated Mapping of OT devices using guided setup
 description: Use the Industrial Process Manager guided setup to automatically map OT devices to the ISA equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/map\_ot\_assets\_using\_guided\_setup.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -33,15 +34,15 @@ If you have the admin role, you can use the Industrial Process Manager Guided Se
 
 4.  Select the following task tabs, then select **Configure** to complete the configuration tasks.
 
-<table><thead><tr><th align="left" id="d93192e103">
+<table><thead><tr><th align="left" id="d95653e103">
 
 Task
 
-</th><th align="left" id="d93192e106">
+</th><th align="left" id="d95653e106">
 
 Purpose
 
-</th></tr></thead><tbody><tr><td id="d93192e112">
+</th></tr></thead><tbody><tr><td id="d95653e112">
 
 **Import OT Subnets**
 
@@ -49,7 +50,7 @@ Purpose
 
 Upload a spreadsheet of OT subnets to import subnets from network management platforms.
 
-</td></tr><tr><td id="d93192e121">
+</td></tr><tr><td id="d95653e121">
 
 **Add Sites**
 
@@ -57,7 +58,7 @@ Upload a spreadsheet of OT subnets to import subnets from network management pla
 
 Add a site to each OT subnet so that OT devices with IP addresses matched with the OT subnet record can be mapped to that site automatically.
 
-</td></tr><tr><td id="d93192e130">
+</td></tr><tr><td id="d95653e130">
 
 **Add Equipment Model Entities**
 
@@ -65,7 +66,7 @@ Add a site to each OT subnet so that OT devices with IP addresses matched with t
 
 Add an equipment model entity to the OT subnet record to automatically associate an OT device with the equipment model entity.
 
-</td></tr><tr><td id="d93192e139">
+</td></tr><tr><td id="d95653e139">
 
 **Select Discovery Source\(s\)**
 
@@ -75,7 +76,7 @@ Configure the following OT subnet-mapping system properties to limit the discove
 -   sn\_otsm.map\_all\_ot\_devices.discovery\_sources
 
 
-</td></tr><tr><td id="d93192e158">
+</td></tr><tr><td id="d95653e158">
 
 **Test Mappings**
 
@@ -83,7 +84,7 @@ Configure the following OT subnet-mapping system properties to limit the discove
 
 Validate assigned mappings of individual OT devices, individual OT subnets, multiple selected OT subnets, or all active OT subnets.
 
-</td></tr><tr><td id="d93192e167">
+</td></tr><tr><td id="d95653e167">
 
 **Activate and Schedule**
 
@@ -95,12 +96,12 @@ Activate the scheduled flows to run scheduled mapping of all OT devices regularl
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 
 **Related topics**  
 
 
-[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md)
+[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md)
 
-[Automated Mapping Across Zone-based IP Network Groups](automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

@@ -2,6 +2,7 @@
 title: Create a Workplace task template
 description: A Task template simplifies the process of creating tasks in Workplace Case Management by populating fields automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/wsd-task-template.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -23,7 +24,7 @@ Role required: sn\_wsd\_case.admin or sn\_wsd\_case.manager
 
 Create a task template for use when creating a workplace service.
 
-**Note:** Administrators may use task assignment rules to control the automatic assignment of workplace tasks as long as the task template is not already assigning a person or group to the task. For more information on assignment rules, see [Define assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md).
+**Note:** Administrators may use task assignment rules to control the automatic assignment of workplace tasks as long as the task template is not already assigning a person or group to the task. For more information on assignment rules, see [Define assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DefineAssignmentRules.md).
 
 ## Procedure
 
@@ -44,40 +45,40 @@ Create a task template for use when creating a workplace service.
 
 The task template is created. You can use this template for Workplace services.
 
-**Parent Topic:**[Configuring Workplace Case Management](../concept/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Case Management](install-workplace-case-mgmt.md)
+[Install Workplace Case Management]()
 
-[Create a Workplace case template](wsd-case-template.md)
+[Create a Workplace case template]()
 
-[Smart Assessment for Workplace Case and Task](smart-assessment-for-workplace-case-and-task.md)
+[Smart Assessment for Workplace Case and Task]()
 
-[Automating seat assignment for new hires](../concept/auto-assign-new-hires.md)
+[Automating seat assignment for new hires]()
 
-[Configure Approval options](config-approval-optns.md)
+[Configure Approval options]()
 
-[Configure a Record producer](wsd-create-record-producer.md)
+[Configure a Record producer]()
 
-[Configuring a record producer for request edit](../concept/config-case-edit-rp.md)
+[Configuring a record producer for request edit]()
 
-[Configuring a record producer for reservation](../concept/config-reservation-rp.md)
+[Configuring a record producer for reservation]()
 
-[Create an SLA Definition](create-sla-defn-case-mgmt.md)
+[Create an SLA Definition]()
 
-[Create a Workplace service](create-workplace-service.md)
+[Create a Workplace service]()
 
-[Add a workplace service item to a workplace service](add-workplace-service-items.md)
+[Add a workplace service item to a workplace service]()
 
-[Create a workplace template configuration](create-workplace-template-confguration.md)
+[Create a workplace template configuration]()
 
-[Create a workplace field mapping](create-workplace-field-mapping.md)
+[Create a workplace field mapping]()
 
-[Configure an escalation rule](configure-escalation-rule.md)
+[Configure an escalation rule]()
 
-[Add Fulfillment instructions](add-fulfillment-instructions.md)
+[Add Fulfillment instructions]()
 
-[Group similar workplace cases under a parent case](group-similar-workplace-cases.md)
+[Group similar workplace cases under a parent case]()
 

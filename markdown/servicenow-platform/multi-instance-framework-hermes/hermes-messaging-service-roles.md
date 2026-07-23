@@ -2,12 +2,13 @@
 title: Hermes Messaging Service roles
 description: Hermes Messaging Service is installed with these roles.Enables users to view topics and namespaces in HermesEnables users to access the Hermes Messaging Service Topic Inspector.Enables users to manage the integration with Apache Kafka, including topics and settings related to Kafka subscriptions.Enables users to manage Kafka namespace definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-roles.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -17,18 +18,20 @@ Hermes Messaging Service is installed with these roles.
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Hermes Messaging Service reference](../concept/hermes-messaging-service-reference.md)
+**Parent Topic:**[Hermes Messaging Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-reference.md)
 
 **Related topics**  
 
 
-[Hermes Messaging Service components](../concept/hermes-messaging-service-components.md)
+[Hermes Messaging Service components]()
 
-[Hermes Messaging Service security model](../concept/hermes-messaging-service-security-model.md)
+[Hermes Messaging Service security model]()
 
-[Hermes Messaging Service system properties](hermes-messaging-service-properties.md)
+[Hermes Messaging Service system properties]()
 
-[Hermes Messaging Service domain separation](hermes-messaging-service-domain-separation.md)
+[Hermes background jobs]()
+
+[Hermes Messaging Service domain separation]()
 
 ## Hermes Messaging Service viewer \[hermes\_viewer\]
 

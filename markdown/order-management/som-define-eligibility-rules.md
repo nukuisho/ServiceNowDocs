@@ -2,9 +2,10 @@
 title: Define product eligibility rules in a product eligibility matrix
 description: Define product eligibility rules by using the Product Offering Catalog Eligibility, Product Offering Category Eligibility, or Product Offering Eligibility Matrix.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-define-eligibility-rules.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configuring product offer eligibility, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -15,7 +16,7 @@ Define product eligibility rules by using the Product Offering Catalog Eligibili
 
 ## Before you begin
 
-[Create the rule entity filters](som-create-rule-entity-filter.md) and define any new [custom context variables](som-create-context-variable.md) needed to define the eligibility rules.
+[Create the rule entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-rule-entity-filter.md) and define any new [custom context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-context-variable.md) needed to define the eligibility rules.
 
 Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
 
@@ -65,4 +66,11 @@ The November 2024 release provides Version 2 of the product eligibility matrices
 
     The filtered product entity \(product catalog, category, or offering\) is displayed or hidden to sales and order agents, depending on the filter.
 
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

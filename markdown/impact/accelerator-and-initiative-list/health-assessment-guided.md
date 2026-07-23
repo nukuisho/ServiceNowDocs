@@ -2,13 +2,14 @@
 title: Health Assessment – Guided
 description: The Health Assessment-Guided Accelerator provides an insight into your ServiceNow instance health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/health-assessment-guided.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Health Assessment – Guided
@@ -18,6 +19,10 @@ The Health Assessment-Guided Accelerator provides an insight into your ServiceNo
 ## Accelerator Overview
 
 Health Assessment- Guided provides Impact Guided Customers with a technical analysis of their ServiceNow instance health via HealthScan, as well as guidance on how to interpret the findings. It aims to help you understand how your instance aligns to leading practices and recommendations on how to improve instance health.
+
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\) packages.
 
 ## What You Get
 

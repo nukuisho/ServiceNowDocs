@@ -2,6 +2,7 @@
 title: Plugins activated with Customer Service Management
 description: The Customer Service plugin activates several related plugins, if they aren’t already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/plugins-activated-with-csm.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

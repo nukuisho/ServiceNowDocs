@@ -2,6 +2,7 @@
 title: Apply template to an existing project
 description: Apply one or multiple project templates to an existing project from the project form or Planning Console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/apply-multiple-templates-prj.html
 release: australia
 product: Project Management
 classification: project-management
@@ -31,15 +32,15 @@ When applying a template to a project, the project state is set to the default s
 
 1.  Apply project template to an existing project from any of the following locations.
 
-<table id="choicetable_fl1_dqc_mlb"><thead><tr><th align="left" id="d274362e67">
+<table id="choicetable_fl1_dqc_mlb"><thead><tr><th align="left" id="d278627e67">
 
 Location
 
-</th><th align="left" id="d274362e70">
+</th><th align="left" id="d278627e70">
 
 Step
 
-</th></tr></thead><tbody><tr><td id="d274362e76">
+</th></tr></thead><tbody><tr><td id="d278627e76">
 
 **From Project form**
 
@@ -52,7 +53,7 @@ Step
     -   If there are tasks or subprojects, select the **Apply Template** related link.
 
 
-</td></tr><tr><td id="d274362e126">
+</td></tr><tr><td id="d278627e126">
 
 **From Planning Console**
 
@@ -61,7 +62,7 @@ Step
 1.  Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **All**.
 2.  Open the project to which you want to apply project template.
 3.  In the Project form, select the **Planning Console** related link.
-4.  In the Planning Console, select the more actions icon \(![More actions icon](../image/elipsis_icon.png)\) and select **Apply Template** option.
+4.  In the Planning Console, select the more actions icon \(\[Omitted image "elipsis\_icon.png"\] Alt text: More actions icon\) and select **Apply Template** option.
 
 
 </td></tr></tbody>
@@ -74,18 +75,18 @@ Step
     Tasks from the template are added at the end of the last task.
 
 
-**Parent Topic:**[Applying templates to projects](../concept/c_ProjectTemplates.md)
+**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
 
 **Related topics**  
 
 
-[Create a project template](t_ViewAProjectTemplateForm.md)
+[Create a project template]()
 
-[Add an attachment to a project template](t_AddAnAttachmentToAProjectTemplate.md)
+[Add an attachment to a project template]()
 
-[Apply a template on the Project form](t_ApplyATemplateFromTheProjectForm.md)
+[Apply a template on the Project form]()
 
-[Apply template to a blank project in project workspace](t_ApplyTempProjWorkbench.md)
+[Apply template to a blank project in project workspace]()
 
-[Project template configuration](../concept/c_ProjectTemplateConfiguration.md)
+[Project template configuration]()
 

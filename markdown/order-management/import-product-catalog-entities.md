@@ -2,10 +2,11 @@
 title: Import product catalog entities
 description: Import product catalog entities by using the ServiceNow Platform import function.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/import-product-catalog-entities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -15,7 +16,7 @@ Import product catalog entities by using the ServiceNow Platform import function
 
 ## Before you begin
 
-The application scope must be set to Product Catalog Management core. You can change the application scope using the application picker ![](../../../reuse/icons/product-icons/globe-outline-24.svg) in the Unified Navigation bar.
+The application scope must be set to Product Catalog Management core. You can change the application scope using the application picker \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation bar.
 
 Role required: product\_catalog\_admin
 
@@ -35,7 +36,7 @@ You import certain product catalog entities to your target instance in the follo
 
     The Catalog Import Data Source window opens.
 
-3.  Attach the JSON file by selecting the **Attachments** ![](../../../reuse/icons/product-icons/paperclip-fill-24.svg) icon.
+3.  Attach the JSON file by selecting the **Attachments** \[Omitted image "paperclip-fill-24.svg"\] Alt text: icon.
 
 4.  Select **Choose file** and select the file you want to import.
 
@@ -63,6 +64,13 @@ You import certain product catalog entities to your target instance in the follo
 
 ## What to do next
 
--   [View export job status](view-export-job-status.md)
--   [View import job status](view-import-job-status.md)
+-   [View export job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-export-job-status.md)
+-   [View import job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-import-job-status.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

@@ -2,11 +2,12 @@
 title: Update contract template mappings
 description: Update template mappings to pre-fill information that's placed in the contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-template-mapping.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-03"
 reading_time_minutes: 2
 breadcrumb: [Create contract template by manually adding content controls, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -154,19 +155,19 @@ The script configuring the mapping between fields and record producer variables.
 </td></tr></tbody>
 </table>6.  Select **Update**.
 
-    ![Update template mappings](../image/cmpro-template-map-update.png "Template mappings")
+    \[Omitted image "cmpro-template-map-update.png"\] Alt text: Update template mappings
 
 
-**Parent Topic:**[Create contract template by manually adding content controls](../concept/cncore-setup-ct-manual.md)
+**Parent Topic:**[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)
 
 **Related topics**  
 
 
-[Add content controls in a Microsoft Word document](cncore-word-doc-tmplt-contls.md)
+[Add content controls in a Microsoft Word document]()
 
-[Create a contract template](cncore-create-contract-template.md)
+[Create a contract template]()
 
-[Create and configure participants](cncore-add-participants.md)
+[Create and configure participants]()
 
-[Classify and map imported clauses](cncore-import-clauses.md)
+[Classify and map imported clauses]()
 

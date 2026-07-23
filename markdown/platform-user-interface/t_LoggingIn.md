@@ -2,6 +2,7 @@
 title: Log in to an instance
 description: Each ServiceNow instance has a unique, secure web address. The base URL for each instance has the default format: https://&lt;instancename&gt;.service-now.com.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_LoggingIn.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-Users log in to the instance from a web browser. Administrators can [associate a custom URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/custom-url.md), such as support.myurl.com, that resolves to point to instancename.service-now.com.
+Users log in to the instance from a web browser. Administrators can [associate a custom URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/custom-url.md), such as support.myurl.com, that resolves to point to instancename.service-now.com.
 
 **Note:** ServiceNow does not support any other methodologies to associate a custom or vanity URL. If you have a custom or vanity URL associated with an instance prior to the Madrid release, contact Support.
 
@@ -33,10 +34,10 @@ Users log in to the instance from a web browser. Administrators can [associate a
 
 3.  Select the **Remember Me** check box to remain logged in until you manually log out.
 
-    The administrator can enable or disable this option. For more information, see [Change settings for the Remember me check box and cookie](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_ChSetRemMeChkbxCookie.md).
+    The administrator can enable or disable this option. For more information, see [Change settings for the Remember me check box and cookie](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ChSetRemMeChkbxCookie.md).
 
 4.  Press the Enter key or click **Login**.
 
 
-**Parent Topic:**[Common UI elements](../../common-ui-elements/topic/p_CommonUIElements.md)
+**Parent Topic:**[Common UI elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_CommonUIElements.md)
 

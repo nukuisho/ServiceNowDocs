@@ -2,12 +2,13 @@
 title: Anomaly insights
 description: The reference topic gives additional information for anomaly charts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/addl-inf-io-anomaly.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-30"
-reading_time_minutes: 4
+reading_time_minutes: 6
 keywords: [Anomaly details]
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance monitoring and performance metrics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Anomaly insights
@@ -344,14 +345,46 @@ Max
     -   Default chart metric values will not match with anomaly chart metric values for node-level metrics, because the default chart aggregates at the node level whereas the anomaly chart aggregates at the instance level. Note that the aggregation type \(Max\) remains the same across both charts for these metrics.
     -   Anomaly chart data is available for a maximum of 28 days from the current date.
 
-**Parent Topic:**[Overview of Instance Observer metrics](../concept/instance-observer-ovr-metric.md)
+**Parent Topic:**[Instance monitoring and performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-ovr-metric.md)
 
 **Related topics**  
 
 
-[Instance Data Replication](instance-observer-metrics.md)
+[Feature availability based on package]()
 
-[Instance Observer reports overview](i-o-reports.md)
+[Auriga Intelligent Alert report]()
 
-[Feature availability based on package](io-feature-availability.md)
+[Transaction or response metrics]()
+
+[Database performance metrics]()
+
+[Semaphores performance metrics]()
+
+[Event queues performance metrics]()
+
+[ECC Queue performance metrics]()
+
+[Email performance metrics]()
+
+[Scheduler performance metrics]()
+
+[Job details performance metrics]()
+
+[Node health performance metrics]()
+
+[Host health performance metrics]()
+
+[Standby replication Lag]()
+
+[Pool Replication Lag]()
+
+[Chat details performance metrics]()
+
+[Cluster details performance metrics]()
+
+[Load balancer performance metrics]()
+
+[User information metrics]()
+
+[Instance Data Replication]()
 

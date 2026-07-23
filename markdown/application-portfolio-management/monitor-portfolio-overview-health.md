@@ -2,6 +2,7 @@
 title: Portfolio overview and health
 description: Get an overview of your profile and monitor your portfolio health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/monitor-portfolio-overview-health.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +26,6 @@ The following cards are displayed:
 -   Business Applications with High Risk
 -   Business Applications with Low Score: Number of business applications with low score for a quarterly fiscal period.
 -   Business Applications with TRM technical debt: Number of business applications that aren’t aligned with the TRM phases and standards.
--   Business Applications by Install Type
 
 Use the following filters to narrow down the results for Portfolio and Health sections:
 
@@ -64,5 +64,5 @@ The following cards are displayed only when the Digital Integration Management p
 
 **Note:** You can zoom on this page or any of the child pages to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
 

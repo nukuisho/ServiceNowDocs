@@ -1,21 +1,23 @@
 ---
 title: Composing emails with predefined content from the Source-to-Pay Workspace
-description: Insert predefined content into the message body of emails that you send from the email client in the Source-to-Pay Workspace.
+description: Insert predefined email content in the Source-to-Pay Workspace email client to send consistent, professional responses to invoice inquiries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, Accounts Payable Operations,, Accounts Payable Workspace, email ingestion, invoice automation]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Composing emails with predefined content from the Source-to-Pay Workspace
 
-Insert predefined content into the message body of emails that you send from the email client in the Source-to-Pay Workspace.
+Insert predefined email content in the Source-to-Pay Workspace email client to send consistent, professional responses to invoice inquiries.
 
-You can use this feature to compose and send emails directly from an invoice case. To open the email client, select **Compose Email** from the more actions icon \(![More actions](../../supplier-lifecycle-operations/image/more-actions-icon.png)\) from an invoice case. A draft email appears with pre-populated data in the **To** and **Subject** fields.
+You can use this feature to compose and send emails directly from an invoice case. To open the email client, select **Compose Email** from the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions\) from an invoice case. A draft email appears with pre-populated data in the **To** and **Subject** fields.
 
 The **To** field is auto-populated with the following information:
 
@@ -38,35 +40,35 @@ Open the response template that you want to use for your email and select **Copy
 
 For more information on how to work with response templates, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
--   **[Communicate using emails from the Source-to-Pay Workspace](../task/send-emails-apm-ws.md)**  
-Compose and send emails directly from an invoice inquiry case or an invoice processing case in the Source-to-Pay Workspace.
+-   **[Communicate using emails from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/send-emails-apm-ws.md)**  
+Compose and send emails directly from an invoice inquiry case or an invoice processing case in the Source-to-Pay Workspace to communicate with suppliers and stakeholders.
 
-**Parent Topic:**[Use Accounts Payable Operations](use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Create a knowledge base article about invoice](../task/create-knowledge-base-articles-for-invoices.md)
+[Create a knowledge base article about invoice]()
 
-[Invoice case categories and subcategories](working-with-cases.md)
+[Invoice case categories and subcategories]()
 
-[Using Invoice Case Management](use-invoice-case-mgmt.md)
+[Using Invoice Case Management]()
 
-[Using Accounts Payable Invoice Processing](use-ap-invoice-processing.md)
+[Using Accounts Payable Invoice Processing]()
 
-[Advanced Work Assignment in Accounts Payable Operations](advanced-work-assignment.md)
+[Advanced Work Assignment in Accounts Payable Operations]()
 
-[Configure Advanced Work Assignment for Accounts Payable Operations](../task/configure-advanced-work-assignment-for-apo.md)
+[Configure Advanced Work Assignment for Accounts Payable Operations]()
 
-[Using Advanced Work Assignment for Accounts Payable Operations](using-awa-for-apo.md)
+[Using Advanced Work Assignment for Accounts Payable Operations]()
 
-[Working with Advanced Work Assignment](../task/working-with-advanved-work-assignment.md)
+[Working with Advanced Work Assignment]()
 
-[Interaction management in Accounts Payable Operations](interaction-record.md)
+[Interaction management in Accounts Payable Operations]()
 
-[Universal Request in Accounts Payable Operations](universal-request-in-apo.md)
+[Universal Request in Accounts Payable Operations]()
 
-[Playbook for updating the invoice primary data](playbooks.md)
+[Playbook for updating the invoice primary data]()
 
-[Using Supplier Collaboration Portal in APO](using-supplier-collaboration-portal.md)
+[Using Supplier Collaboration Portal in APO]()
 

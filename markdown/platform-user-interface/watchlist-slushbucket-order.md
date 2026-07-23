@@ -2,6 +2,7 @@
 title: Configure order buttons on the watch list slushbucket
 description: When you add multiple users to a glide\_list, such as a watch list, the slushbucket does not display the order buttons for the list of selected members. You can set a dictionary attribute to display the order buttons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/watchlist-slushbucket-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,11 +22,11 @@ Role required: admin
 
 The slushbucket opens when the user clicks the add/remove multiple users icon.
 
-![Add/remove multiple users icon opens the slushbucket](../image/add-multiple-users-icon.png)
+\[Omitted image "add-multiple-users-icon.png"\] Alt text: Add/remove multiple users icon opens the slushbucket
 
 By default, the order buttons on the right are not displayed. Follow the procedure to display the order buttons.
 
-![Display the order buttons](../image/glidelist-slushbucket-order-buttons.png)
+\[Omitted image "glidelist-slushbucket-order-buttons.png"\] Alt text: Display the order buttons
 
 ## Procedure
 
@@ -40,10 +41,10 @@ By default, the order buttons on the right are not displayed. Follow the procedu
 5.  Click **Update**.
 
 
-**Parent Topic:**[Configure email notifications for watch lists](t_ConfigNotifications4WatchLists.md)
+**Parent Topic:**[Configure email notifications for watch lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigNotifications4WatchLists.md)
 
 **Related topics**  
 
 
-[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
+[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md)
 

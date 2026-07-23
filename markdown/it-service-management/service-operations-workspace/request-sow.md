@@ -2,6 +2,7 @@
 title: Request Management in Service Operations Workspace
 description: Service Operations Workspace for Request Management integrates the platform functionality for tier 1 agents into a multi-tab interface that helps agents efficiently manage multiple incidents, catalog requests, and catalog tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/request-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,7 +18,7 @@ Service Operations Workspace for Request Management integrates the platform func
 
 As an agent, you can create a catalog request in Service Operations Workspace to initiate a catalog request flow from a different IT Service Management flow. For example, from an incident flow, you can create a request, and associate the request with the incident to help track requests associated with an incident and vice versa. You can also work on catalog tasks and update the state of the tasks, and manage approvals of requests and requested items.
 
-The Service Operations Workspace ITSM Applications application \(sn-sow-itsm-cont\) that automatically installs the Request Management for Service Operations Workspace \(sn\_sow\_req\) application should be installed for the Request Management flows in Service Operations Workspace. For more information, see [Getting started with Service Operations Workspace for ITSM](getting-started-sow.md).
+The Service Operations Workspace ITSM Applications application \(sn-sow-itsm-cont\) that automatically installs the Request Management for Service Operations Workspace \(sn\_sow\_req\) application should be installed for the Request Management flows in Service Operations Workspace. For more information, see [Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/getting-started-sow.md).
 
 ## Request Management categories in Service Operations Workspace
 
@@ -45,27 +46,27 @@ You can also view the **Requested for** and **Opened by** cards in catalog task 
 
 You can change the view of any Service Operations Workspace form by customizing the Service Operations Workspace view from the corresponding Request Management form in the ServiceNow AI Platform UI.
 
--   **[Create a catalog request in Service Operations Workspace](../task/create-catalog-request-sow.md)**  
+-   **[Create a catalog request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-catalog-request-sow.md)**  
 Create a catalog request in Service Operations Workspace to initiate a catalog request flow from a different IT Service Management flow. For example, from an incident flow, you can create a request and associate the request with the incident to help track requests associated with an incident and vice versa.
--   **[View and approve records in Service Operations Workspace](../task/view-approvals-sow.md)**  
+-   **[View and approve records in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-approvals-sow.md)**  
 Access the My Approvals in SOW to manage the approval requests for change, request, catalog task, and requested item.
 
-**Parent Topic:**[Operating IT services in your organization](enhancing-services-operations-in-organization.md)
+**Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 
 **Related topics**  
 
 
-[Play a guided tour in Service Operations Workspace](../task/play-guided-tour-sow.md)
+[Play a guided tour in Service Operations Workspace]()
 
-[Add a user-specific quick link on the ITSM landing page](../task/add-quick-link.md)
+[Add a user-specific quick link on the ITSM landing page]()
 
-[Create a list in Service Operations Workspace](../task/create-list-sow.md)
+[]()
 
-[Live Agent chat in Service Operations Workspace](configure-liveagent-sow.md)
+[Live Agent chat in Service Operations Workspace]()
 
-[Interaction Management in Service Operations Workspace](interaction-sow.md)
+[Interaction Management in Service Operations Workspace]()
 
-[Incident Management in Service Operations Workspace](incident-sow.md)
+[Incident Management in Service Operations Workspace]()
 
-[Change Management in Service Operations Workspace](change-sow.md)
+[Change Management in Service Operations Workspace]()
 

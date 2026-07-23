@@ -2,6 +2,7 @@
 title: Getting started with Service Operations Workspace for ITSM
 description: Quickly understand how you can implement the essential setup to get started with Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/getting-started-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -35,18 +36,18 @@ If you're setting up a new instance starting Australia, the SOW ITSM Application
 
 It provides effortless and quick access to manage most configurations in Service Operations Workspace for IT Service Management \(ITSM\). It also provides centralized control of the instance to admins.
 
-Overview of SOW Admin Center 
+\[Omitted video\] Description: Overview of SOW Admin Center
 
-![SOW Admin Center](../image/sow-admin-console.png)
+\[Omitted image "sow-admin-console.png"\] Alt text: SOW Admin Center
 
 **Related topics**  
 
 
-[Roles in Service Operations Workspace for ITSM](../reference/roles-in-sow.md)
+[Roles in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/roles-in-sow.md)
 
-[Users in Service Operations Workspace for ITSM](../reference/users-sow-itsm.md)
+[Users in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/users-sow-itsm.md)
 
-[Access controls in Service Operations Workspace for ITSM](access-controls-sow-itsm.md)
+[Access controls in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/access-controls-sow-itsm.md)
 
-[Landing page redirection in Service Operations Workspace for ITSM](landing-page-redirection-sow-itsm.md)
+[Landing page redirection in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-redirection-sow-itsm.md)
 

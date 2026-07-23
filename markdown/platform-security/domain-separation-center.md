@@ -2,6 +2,7 @@
 title: Domain Separation Center
 description: Audit your domains regularly to reveal problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/domain-separation-center.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ The Domain Separation Center is a dashboard where you can schedule and configure
 
 The Domain Separation Center provides many audits. You cannot create your own. You can, however, configure how often they run. Audits run on all of the domains stored in the domain\_audit\_definition table.
 
-![Domain separation center dashboard](../image/domain-separation-center-landing-page.png)
+\[Omitted image "domain-separation-center-landing-page.png"\] Alt text: Domain separation center dashboard
 
 ## Configure audits
 

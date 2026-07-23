@@ -2,11 +2,12 @@
 title: Use the JsonArrayToArray component
 description: Convert a JSON object to an array of objects using the JsonArrayToArray component in the RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-json-jsonArrayToArray.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [JSON, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [JSON, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the JsonArrayToArray component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties for the JsonArrayToArray component, see [Properties of the JSON utilities](../reference/properties-utilities-json.md).
+To configure the properties for the JsonArrayToArray component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-utilities-json.md).
 
 ## Procedure
 
@@ -59,7 +60,7 @@ To configure the properties for the JsonArrayToArray component, see [Properties 
      
     ```
 
-6.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+6.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 7.  Connect the data and control ports of the JsonArrayToArray component to the corresponding ports of the other components as described in the following table and image.
 
@@ -112,7 +113,7 @@ Object\[\]
 Used to return an array of JObjects. Each JObject has the same set of properties with different values for each property.To modify the details of a JObject, iterate over the JObjects in the array returned until the criteria is met.
 
 </td></tr></tbody>
-</table>    ![JsonArrayToArray component extracts data from the script in the Variable component.](../image/json-array-to-array-rpa.png "JsonArrayToArray component with Variable component")
+</table>    \[Omitted image "json-array-to-array-rpa.png"\] Alt text: JsonArrayToArray component extracts data from the script in the Variable component.
 
 8.  To test the component, right-click the component bar and then click **Run From Here**.
 
@@ -121,7 +122,7 @@ Used to return an array of JObjects. Each JObject has the same set of properties
 
 ## JsonArrayToArray component with Variable component
 
-![Data preview of the JsonArrayToArray component after execution.](../image/json-arraytoarray-data-preview-rpa.png)
+\[Omitted image "json-arraytoarray-data-preview-rpa.png"\] Alt text: Data preview of the JsonArrayToArray component after execution.
 
-**Parent Topic:**[JSON](../concept/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/json.md)
 

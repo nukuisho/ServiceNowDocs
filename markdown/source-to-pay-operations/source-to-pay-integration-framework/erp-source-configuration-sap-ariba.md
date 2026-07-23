@@ -2,6 +2,7 @@
 title: ERP source configuration for SAP Ariba
 description: Configure your Source-to-Pay \(S2P\) instance to support inbound and outbound integration with your ERP system. This integration configuration enables you to post purchase order, receipt, invoice, and download primary data automatically from the ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-source-configuration-sap-ariba.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -41,7 +42,7 @@ To configure the ERP Source for SAP Ariba, perform the following steps:
 1.  Define the ERP source that you want to integrate with the SAP Ariba integration.
 2.  Create a basic authentication profile that can be used for the web service integration with SAP Ariba
 3.  Register the SAP Ariba integration username and password to create the authentication profile and associate it to service maps.
-4.  Define the source configuration for ERP source. The ERP source configuration determines the ERP source to which your ERP system connects. For more information, see [Define ERP source configuration for SAP Ariba](../task/define-erp-source-sap-ariba.md).
+4.  Define the source configuration for ERP source. The ERP source configuration determines the ERP source to which your ERP system connects. For more information, see [Define ERP source configuration for SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-sap-ariba.md).
 5.  Configure service maps for the following entities:
     -   **Legal Entities**
 
@@ -84,18 +85,18 @@ To configure the ERP Source for SAP Ariba, perform the following steps:
         Set up subflows for the source configuration to lookup invoices from SAP Ariba.
 
 
-![ERP Source Configuration for SAP Ariba](../../source-to-pay-operations/image/sap-ariba-source-config.png "ERP Source Configuration for SAP Ariba")
+\[Omitted image "sap-ariba-source-config.png"\] Alt text: ERP Source Configuration for SAP Ariba
 
 You have configured the ERP source for SAP Ariba.
 
-**Parent Topic:**[Configure the Source-to-Pay integration with SAP Ariba](configuring-source-to-pay-sap-ariba-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-ariba-integration.md)
 
 **Related topics**  
 
 
-[Define ERP source configuration for SAP Ariba](../task/define-erp-source-sap-ariba.md)
+[Define ERP source configuration for SAP Ariba]()
 
-[Configure integration services for SAP Ariba](configure-service-maps-sap-ariba.md)
+[Configure integration services for SAP Ariba]()
 
-[Look up primary data in SAP Ariba](look-up-primary-data-sap-ariba.md)
+[Look up primary data in SAP Ariba]()
 

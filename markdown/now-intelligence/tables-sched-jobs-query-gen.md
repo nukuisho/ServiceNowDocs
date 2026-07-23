@@ -2,6 +2,7 @@
 title: Roles, tables, and scheduled jobs included with Query Generation
 description: Several types of components are installed with Query Generation, including tables and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/tables-sched-jobs-query-gen.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -175,7 +176,7 @@ AI Search Indexed Sources\[ais\_datasource\]
 
 </td><td>
 
-Records on this table reflect what content users can search on. The content can be tables on the instance or external tables. You have the necessary indexed sources by default. The sn\_query\_gen.admin role or higher is necessary to edit this table. The most likely use case is if the system cannot find the correct table and not all the indexed queries are fully applied. For more information, see [Common AI Data Explorer issues and fixes](../../ai-data-explorer/concept/ai-data-explorer-troubleshooting.md).
+Records on this table reflect what content users can search on. The content can be tables on the instance or external tables. You have the necessary indexed sources by default. The sn\_query\_gen.admin role or higher is necessary to edit this table. The most likely use case is if the system cannot find the correct table and not all the indexed queries are fully applied. For more information, see [Common AI Data Explorer issues and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ai-data-explorer-troubleshooting.md).
 
 </td></tr><tr><td>
 
@@ -183,7 +184,7 @@ Logs\[sn\_query\_gen\_log\]
 
 </td><td>
 
-A log of every call to Query Generation. For more information, see [Query Generation logs](../reference/query-generation-logs.md).
+A log of every call to Query Generation. For more information, see [Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation-logs.md).
 
 </td></tr><tr><td>
 
@@ -191,7 +192,7 @@ Semantic table configurations\[sn\_query\_gen\_table\_config\]
 
 </td><td>
 
-List of tables that Query Generation can search, whether semantic generation is enabled for that table, and whether child tables are included. Admins can create, edit, and delete these records. For more information, see [Add a table to the semantic data layer](../task/add-table-semantic-layer.md#).
+List of tables that Query Generation can search, whether semantic generation is enabled for that table, and whether child tables are included. Admins can create, edit, and delete these records. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-table-semantic-layer.md).
 
 </td></tr><tr><td>
 
@@ -199,8 +200,8 @@ Semantic column configurations\[sn\_query\_gen\_column\_config\]
 
 </td><td>
 
-Records for setting the domain, active status, and custom semantic descriptions and usage instructions for table columns. Must reference a table in sn\_query\_gen\_table\_config. For more information, see [Customize column descriptions and usage instructions](../../ai-data-explorer/task/customize-column-descriptions.md).
+Records for setting the domain, active status, and custom semantic descriptions and usage instructions for table columns. Must reference a table in sn\_query\_gen\_table\_config. For more information, see [Customize column descriptions and usage instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-column-descriptions.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Query Generation reference](query-generation-reference.md)
+</table>**Parent Topic:**[Query Generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation-reference.md)
 

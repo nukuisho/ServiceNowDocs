@@ -26,13 +26,13 @@ Role required: trigger\_designer, flow\_designer, or admin
 
 4.  Select the More Actions menu icon, then select **Associated objects**.
 
-    ![Option to view the flows that are using the trigger.](../images/detach-a-trgger.png)
+    \[Omitted image "detach-a-trgger.png"\] Alt text: Option to view the flows that are using the trigger.
 
 5.  From the list of flows that are using the trigger, select the flow that you want to detach.
 
 6.  In the **Trigger** drop-down list, select the trigger name.
 
-7.  Select the **Detach saved trigger** icon ![Detach saved trigger from a flow.](../images/detach-flow-trigger.png).
+7.  Select the **Detach saved trigger** icon \[Omitted image "detach-flow-trigger.png"\] Alt text: Detach saved trigger from a flow..
 
 8.  On the confirmation window, select **Detach**.
 
@@ -43,5 +43,5 @@ Role required: trigger\_designer, flow\_designer, or admin
 10. Save the flow by clicking the save icon.
 
 
-**Parent Topic:**[Building triggers](../concept/building-triggers.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
 

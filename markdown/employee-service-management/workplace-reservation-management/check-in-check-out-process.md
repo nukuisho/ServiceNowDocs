@@ -2,13 +2,14 @@
 title: Manage check-in and check-out reservations
 description: Reservation check in and check- out reminders are managed through the Check-in and check out reminder scheduled jobs
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/check-in-check-out-process.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Manage check-in and check-out reservations
@@ -20,7 +21,7 @@ The following properties are being used in this scheduled job:
 -   sn\_wsd\_rsv.time\_before\_check\_in\_out\_reminder
 -   sn\_wsd\_rsv.time\_when\_reservation\_cancelled\_without\_check\_in
 
-Ensure check-in is required on the Reservable module at the space level. For more information, see [Configure a reservable module](../task/config-reservable-module.md).
+Ensure check-in is required on the Reservable module at the space level. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 -   This can be enforced through the Reservable Module property value **Override check-in policy**” on the Reservable Module to **always require check-in**
 -   This can be managed at the space level. Space is indicated as check-in required. Set **Override check-in policy** on the Reservable Module to **no override**.
@@ -134,48 +135,48 @@ If the reservation is checked in, employee receives an email notification.
     The daily scheduled job **Reservation daily tasks** closes all reservations at the end of the office working hours. Reservation may be closed the day after. The check-in state for reservations that are checked-in is indicated as **no\_check\_out**.
 
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Reservation Management](../task/install-wsd-reservation-mgmt.md)
+[Install Workplace Reservation Management]()
 
-[Add a workplace space for reservation](../task/add-reservable-items.md)
+[Add a workplace space for reservation]()
 
-[Add a workplace room for reservation](../task/add-workplace-rooms.md)
+[Add a workplace room for reservation]()
 
-[Configure a reservable module](../task/config-reservable-module.md)
+[Configure a reservable module]()
 
-[Assign spaces to an area](../task/add-neighbourhood-spaces-to-an-area.md)
+[Assign spaces to an area]()
 
-[Create a standard service](../task/add-standard-services.md)
+[Create a standard service]()
 
-[Create a flexible service](../task/add-flexible-service.md)
+[Create a flexible service]()
 
-[Create a workplace service to provide an extra service for a reservation](../task/create-workplace-service-to-provide-extra-service.md)
+[Create a workplace service to provide an extra service for a reservation]()
 
-[Create a reservable view](../task/create-a-reservable-view.md)
+[Create a reservable view]()
 
-[Create a user criteria record](../task/create-user-criteria.md)
+[Create a user criteria record]()
 
-[Configure a reservable purpose](../task/configure-reservable-purpose.md)
+[Configure a reservable purpose]()
 
-[Create a quick reservation time slot](../task/add-reservable-time-slots.md)
+[Create a quick reservation time slot]()
 
-[Configure virtual meeting providers](../task/configure-virtual-meeting-providers.md)
+[Configure virtual meeting providers]()
 
-[Configure Microsoft Teams as virtual meeting provider](../task/configure-msteams-as-virtual-meeting-provider.md)
+[Configure Microsoft Teams as virtual meeting provider]()
 
-[Connect Workplace Reservation Management with Microsoft Teams](../task/connect-rsv-mgmt-with-teams.md)
+[Connect Workplace Reservation Management with Microsoft Teams]()
 
-[Connect Workplace Reservation Management with Zoom](../task/connect-rsv-mtm-with-zoom.md)
+[Connect Workplace Reservation Management with Zoom]()
 
-[Display permanent seat assignments on floor maps](../task/display-permanent-seats-on-maps.md)
+[Display permanent seat assignments on floor maps]()
 
-[Display name of the person reserving a space](../task/displayname-person-booking-rsv.md)
+[Display name of the person reserving a space]()
 
-[Configure automatic check-in for reserved spaces](configure-rsv-check-in.md)
+[Configure automatic check-in for reserved spaces]()
 
-[Configure reservation multi-day settings in Reservable Module](rsv-config-rsv-mod-value.md)
+[Configure reservation multi-day settings in Reservable Module]()
 

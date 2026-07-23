@@ -2,13 +2,14 @@
 title: Create content configurations for CAM
 description: Define the data that you want to view or fetch, whether it's a list of records or an aggregation when creating an ATO artifacts. For example, specify if you want to see a list of closed POA&amp;M or the list of system elements. A maximum of 200 records can be fetched from any table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-create-content-configurations.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring ATO artifacts report templates, CAM reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Configuring ATO artifacts report templates, Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Create content configurations for CAM
@@ -53,5 +54,5 @@ Role required: sn\_grc\_doc\_design.admin and sn\_irm\_cont\_auth.admin
 9.  Select **Update**.
 
 
-**Parent Topic:**[Configuring ATO artifacts report templates](cam-configure-word-based-template.md)
+**Parent Topic:**[Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
 

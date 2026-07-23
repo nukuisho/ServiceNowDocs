@@ -2,6 +2,7 @@
 title: Edit the label of Submit button for a record producer
 description: For a record producer submission experience that you can relate to, edit the label of the Submit button.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/edit-recprdcr-submit-label.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -40,22 +41,22 @@ Role required: admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Request experience in Now Mobile](../concept/now-mobile-catalog.md)
+**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md)
 
 **Related topics**  
 
 
-[Configure catalogs](../../../administer/mobile-employee/task/configure-catalog.md)
+[Configure catalogs]()
 
-[Browse catalog items using the catalog hierarchy](now-mob-browse-cat-item-catalog.md)
+[Browse catalog items using the catalog hierarchy]()
 
-[Submit and track a request](../../../administer/mobile-employee/task/order-item.md)
+[Submit and track a request]()
 
-[Create a quick action in your mobile applications](../../../administer/mobile-employee/task/sc-quick-action.md)
+[Create a quick action in your mobile applications]()
 
-[Enable notifications in Now Mobile](enable-notification-mobile.md)
+[Enable notifications in Now Mobile]()
 
-[Enable the cart in Now Mobile](enable-cart-mobile.md)
+[Enable the cart in Now Mobile]()
 
-[Configure Now Mobile properties](config-now-mob-properties.md)
+[Configure Now Mobile properties]()
 

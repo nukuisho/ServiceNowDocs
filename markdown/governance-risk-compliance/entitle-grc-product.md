@@ -2,6 +2,7 @@
 title: Get entitlement for a GRC product or application
 description: The first step in installing an application is to verify that the application or the product and its associated applications have valid ServiceNow entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/entitle-grc-product.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Individuals performing entitlement must have a Now Support account and have perm
 
 1.  Navigate to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
-    ![ServiceNow Store Certified Apps screen](../../security-incident-response/image/store.png)
+    \[Omitted image "store.png"\] Alt text: ServiceNow Store Certified Apps screen
 
 2.  Click **Login** and log in using your HI credentials.
 
@@ -33,7 +34,7 @@ Individuals performing entitlement must have a Now Support account and have perm
 
     Integrations and other types of content are shown on the **Certified Apps** tab.
 
-    ![GRC applications on the ServiceNow Store](../image/grc-bearded-guy.png)
+    \[Omitted image "grc-bearded-guy.png"\] Alt text: GRC applications on the ServiceNow Store
 
     **Note:** For the sake of this example, assume you are acquiring entitlement for the Risk Management product.
 
@@ -41,23 +42,23 @@ Individuals performing entitlement must have a Now Support account and have perm
 
     All applications associated with the product you are entitling are listed. When you have obtained entitlement to the core product, the applications listed under it are also entitled.
 
-    ![Risk Management products](../image/risk-mgmt-product-list.png)
+    \[Omitted image "risk-mgmt-product-list.png"\] Alt text: Risk Management products
 
 5.  Click **Opt-in** to verify that you have entitlement to the product and the applications listed.
 
-    You are prompted to read and accept the ServiceNow terms and conditions. ![Terms and Conditions](../../security-incident-response/image/terms-conditions.png)
+    You are prompted to read and accept the ServiceNow terms and conditions. \[Omitted image "terms-conditions.png"\] Alt text: Terms and Conditions
 
 6.  Select the check box and click **Accept**.
 
 7.  Notice that a check mark appears next to the product name and the Manage Entitlements button appears.
 
-    ![Manage entitlements for Risk Management](../image/risk-manage-entitlement.png)
+    \[Omitted image "risk-manage-entitlement.png"\] Alt text: Manage entitlements for Risk Management
 
     The check mark indicates that you have subscribed to the product and its associated applications. It is time to manage your entitlements. This is a one-time process for this product and any other products you want to install in the future.
 
 8.  Click **Manage Entitlements** to change the instances affected by the applications to which you are entitled.
 
-    ![Managing entitlements for your company](../image/grc-manage-entitlement-dialog.png)
+    \[Omitted image "grc-manage-entitlement-dialog.png"\] Alt text: Managing entitlements for your company
 
 9.  After you have agreed to the ServiceNow Terms and Conditions and managed entitlements, you can entitle other products by clicking the plus sign \(+\) next to the product name.
 

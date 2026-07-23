@@ -2,9 +2,10 @@
 title: Configure Now Assist data overflow processing
 description: Configure where Now Assist data is processed during periods of high traffic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-na-data-overflow.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Data sharing and processes, Now Assist Admin Settings, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
 ---
@@ -32,5 +33,5 @@ By default, Now Assist data is handled in ServiceNow datacenters. During periods
     Instances are opted in by default. You can change this setting at any time.
 
 
-**Parent Topic:**[Data sharing and processes](../concept/now-assist-data-sharing-and-processes.md)
+**Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-sharing-and-processes.md)
 

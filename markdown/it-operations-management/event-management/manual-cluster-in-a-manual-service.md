@@ -2,6 +2,7 @@
 title: Configuring CIs in a manual service as a manual cluster
 description: Configure or modify a CI as a specific CI or a generic CI class in a manual service \(that was not discovered automatically\) as a manually defined cluster. A manual cluster delivers redundancy capabilities in the cluster and provides continued operations or services of the entire cluster in case of failure of one or more CIs in that cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/manual-cluster-in-a-manual-service.html
 release: australia
 product: Event Management
 classification: event-management
@@ -29,15 +30,15 @@ In a service map, you can configure or modify a specific CI or a generic CI clas
 
 **Note:** Visual representation of a manual cluster may differ from the visual representation of a cluster that is discovered automatically.
 
--   **[Configure a manual cluster](../task/configure-manual-cluster.md)**  
+-   **[Configure a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manual-cluster.md)**  
 Provide redundancy capabilities of an entire cluster in case of failure of one or more CIs in that cluster. By viewing the relative impact of a cluster member on the cluster information, you can better understand the source of alerts and take remediation steps.
--   **[Modify a manual cluster](../task/modify-a-manual-cluster.md)**  
+-   **[Modify a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/modify-a-manual-cluster.md)**  
 Modify an existing manual cluster by changing the service, the specific CI, the generic CI class, or the description in case of an incorrect initial configuration, changes in the network, or other issues.
 
-**Parent Topic:**[Application services in Event Management](application-service-event-management.md)
+**Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/application-service-event-management.md)
 
 **Related topics**  
 
 
-[Alert impact calculation](c_EMImpactCalculation.md)
+[Alert impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMImpactCalculation.md)
 

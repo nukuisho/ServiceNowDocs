@@ -2,6 +2,7 @@
 title: Guest review form fields
 description: A description of the fields on the Guest review form in the ServiceNow Store, as well as which fields are publicly visible after the review is published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/guest-review-form-fields.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,102 +14,15 @@ breadcrumb: [Reference, ServiceNow Store, Administering applications, Get starte
 
 A description of the fields on the Guest review form in the ServiceNow Store, as well as which fields are publicly visible after the review is published.
 
-<table id="table_fjb_2t5_bdc"><thead><tr><th>
+|Field|Description|Visibility|
+|-----|-----------|----------|
+|Version|Version number of the app you're reviewing.|Not publicly visible.|
+|First Name|First or given name.|Not publicly visible.|
+|Last Name|Last or family name.|Not publicly visible.|
+|Email|Your email address.|Not publicly visible.|
+|Company|Name of your company or organization.|Publicly visiblefor commercial customers. Replaced with "Verified ServiceNow Customer" for customers using a regulated ServiceNow Store instance.|
+|Review|Feedback about the app. Your feedback could include whether you recommend the app, how user-friendly it is, features you'd like to see added in the future, and so on.|Publicly visible.|
+|Rating|Number of stars out of five, where a five-star rating is the highest and a one-star rating is the lowest.|Publicly visible.|
 
-Field
-
-</th><th>
-
-Description
-
-</th><th>
-
-Visibility
-
-</th></tr></thead><tbody><tr><td>
-
-Version
-
-</td><td>
-
-Version number of the app you're reviewing.
-
-</td><td>
-
-Not publicly visible.
-
-</td></tr><tr><td>
-
-First Name
-
-</td><td>
-
-First or given name.
-
-</td><td>
-
-Publicly visible.**Tip:** If you want to leave an anonymous review, enter `Anonymous`.
-
-</td></tr><tr><td>
-
-Last Name
-
-</td><td>
-
-Last or family name.
-
-</td><td>
-
-Publicly visible.**Tip:** If you want to leave an anonymous review, enter `User`.
-
-</td></tr><tr><td>
-
-Email
-
-</td><td>
-
-Your email address.
-
-</td><td>
-
-Not publicly visible.
-
-</td></tr><tr><td>
-
-Company
-
-</td><td>
-
-Name of your company or organization.
-
-</td><td>
-
-Publicly visible.
-
-</td></tr><tr><td>
-
-Review
-
-</td><td>
-
-Feedback about the app. Your feedback could include whether you recommend the app, how user-friendly it is, features you'd like to see added in the future, and so on.
-
-</td><td>
-
-Publicly visible.
-
-</td></tr><tr><td>
-
-Rating
-
-</td><td>
-
-Number of stars out of five, where a five-star rating is the highest and a one-star rating is the lowest.
-
-</td><td>
-
-Publicly visible.
-
-</td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Store reference](store-reference.md)
+**Parent Topic:**[ServiceNow Store reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/store-reference.md)
 

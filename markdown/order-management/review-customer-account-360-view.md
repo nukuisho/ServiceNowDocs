@@ -2,10 +2,11 @@
 title: Review an account using the 360 View
 description: Review a customer or partner's account by using the 360 View in the Order Management application. You can track the service contracts of your customers or partners. You can also view customer and service orders, cases, products, and equipment to see how you can improve your customer service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/review-customer-account-360-view.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Reviewing customer or partner accounts, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -21,7 +22,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 1.  Navigate to **All** &gt; **Customer Order Management** &gt; **Workspace** &gt; **Configurable Workspace Home**.
 
-2.  From the **Configurable Workspace Lists** tab ![](../../../reuse/icons/product-icons/list-outline-24.svg), select **Customer**, and then select **Accounts**.
+2.  From the **Configurable Workspace Lists** tab \[Omitted image "list-outline-24.svg"\] Alt text:, select **Customer**, and then select **Accounts**.
 
 3.  In the Accounts list, select a customer account.
 
@@ -123,8 +124,8 @@ State
 
 </td><td>
 
-State of the product or service order. To learn more, see these two topics:-   [Customer order states](../reference/order-mgt-state-values.md)
--   [Service order states](../reference/service-order-mgt-state-values.md).
+State of the product or service order. To learn more, see these two topics:-   [Customer order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-state-values.md)
+-   [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/service-order-mgt-state-values.md).
 
 
 </td></tr></tbody>
@@ -272,5 +273,12 @@ Name of the customer contact that is associated with the order. To view the deta
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Reviewing customer or partner accounts](../concept/reviewing-customer-accounts.md)
+**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-customer-accounts.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

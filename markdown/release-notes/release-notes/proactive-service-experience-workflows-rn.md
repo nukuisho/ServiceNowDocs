@@ -14,32 +14,47 @@ The ServiceNow® Product Support for Technology helps your technical support tea
 
 ## Product Support for Technology highlights for the Australia release
 
+Australia Early Availability
+
 -   Use analytics dashboards on the Service Delivery Overview page to improve usability and operational visibility.
 -   Use the customer impact tab to improve operational clarity, reduce navigation time, and manage the Proactive Service Experience Workflows \(PSEW\) processes.
 
-See [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md) for more information.
+See [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/assurance-workflows.md) for more information.
 
 **Important:** Product Support for Technology is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.md)**
+Australia Early Availability
+
+-   **[Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/account-360-analytics-dashboard.md)**
 
     Use Service Delivery Overview L1 menu to access the analytics dashboards. The Service Delivery Overview enables you to access charts and summary data on metrics such as proactive cases, account escalations, SLAs, channels used, core KPIs, and more. The Service Delivery Overview page is available in Service Operations Workspace in all releases. For CSM/FSM Configurable Workspace, it is available only in the Zurich and Australia releases.
 
--   **[Enhancing customer impact visibility for PSEW processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/enhance-customer-impact-visibility-psew-process.md)**
+-   **[Enhancing customer impact visibility for PSEW processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/enhance-customer-impact-visibility-psew-process.md)**
 
     Use the customer impact tab in the incident, change, and problem case records. This tab shows key metrics and insights across customer accounts, reactive cases, and install base items. It improves visibility and streamline decision-making during PSEW processes. You can also generate proactive cases and communicate with customers or consumers.
 
 
 ## UI changes
 
--   **[Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.md)**
+Australia Early Availability
+
+-   **[Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/account-360-analytics-dashboard.md)**
 
     The Service Delivery Overview L1 menu is added to the Service Operations Workspace and CSM/FSM Configurable Workspace.
 
 
+## Changed in this release
+
+-   **[Now LLM service deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
 ## Removed in this release
+
+Australia Early Availability
 
 -   The **Analytics** tab is removed from the customer account view.
 -   The **Notify Customers** UI action is removed from the case record.
@@ -54,18 +69,18 @@ Install Product Support for Technology and Proactive Service Experience Workflow
 
     The ServiceNow® Field Service Management application helps organizations manage work tasks performed on location. Match tasks to agents based on skills, geographic territory assignments, and available inventory. Agents can record details on assigned tasks like completion status, travel time to jobs, and time spent.
 
--   **[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagement.md)**
+-   **[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_IncidentManagement.md)**
 
     ServiceNow® Incident Management restores normal service operation while minimizing the impact to business operations and maintaining quality. You can record an incident and track it through the entire incident life cycle until service is restored and the issue is resolved.
 
--   **[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)**
+-   **[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)**
 
     The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to the business operations.
 
--   **[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md)**
+-   **[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md)**
 
     ServiceNow® Process Mining helps analysts and process owners quickly analyze and optimize their business processes. Create automated business process flows from your data that enable you to monitor and more quickly discover inefficiencies in your processes.
 
 
-**Parent Topic:**[Telecommunications, Media, and Technology release notes](technology-industry-rn-landing.md)
+**Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/technology-industry-rn-landing.md)
 

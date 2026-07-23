@@ -2,6 +2,7 @@
 title: z/OS discovery
 description: Discovery and Service Mapping Patterns finds computers running the z/OS operating system using the IBM zOS Server pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/zOS-discovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -17,7 +18,7 @@ Discovery and Service Mapping Patterns finds computers running the z/OS operatin
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -52,7 +53,7 @@ The IBM zOS Server pattern performs infrastructure-level discovery for z/OS serv
     -   Ability to run REXX scripts
 -   **Create SSH credentials**
 
-    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -161,14 +162,14 @@ Management IP address used for discovery connection.
 |Serial Number \[cmdb\_serial\_number\]|References|IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|
 |File System \[cmdb\_ci\_file\_system\]|References|IBM zOS server \[cmdb\_ci\_ibm\_zos\_server\]|
 
-**Parent Topic:**[Operating systems discovery](c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
 
 **Related topics**  
 
 
-[IBM Db2 on Linux database discovery](../../service-mapping/reference/ibm-db2-linux-discovery.md)
+[IBM Db2 on Linux database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-db2-linux-discovery.md)
 
-[IBM MQ discovery](../reference/r-IBMWebsphereMQ.md)
+[IBM MQ discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r-IBMWebsphereMQ.md)
 
-[IBM WebSphere Application Server discovery using patterns](../../service-mapping/reference/ibm-websphere-server-pattern.md)
+[IBM WebSphere Application Server discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-websphere-server-pattern.md)
 

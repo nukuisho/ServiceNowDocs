@@ -2,6 +2,7 @@
 title: Discovery and SCCM together
 description: Use these guidelines to avoid common issues when you use Discovery and System Center Configuration Manager \(SCCM\) together.When Discovery and SCCM are both enabled on a system, the software records found through both tools could overwrite each other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryAndSCCMTogether.html
 release: australia
 product: Discovery
 classification: discovery
@@ -23,7 +24,7 @@ When Software Asset Management is not enabled, software installation records are
 
 ## Overview of Service Graph connector for Microsoft SCCM
 
-Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into your ServiceNow instance. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) for more details.
+Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into your ServiceNow instance. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-sccm.md) for more details.
 
 **Note:** If you upgrade your instance to a version of the ServiceNow AI Platform that does not provide support for your version of SCCM, you can continue to use that version. However, all new instances require the use of a supported SCCM version.
 
@@ -65,5 +66,5 @@ To determine how software data is collected, configure the **glide.discovery.sof
 
 ### What to do next
 
-Use these Discovery properties to avoid software data discrepancy between Discovery and SCCM: **glide.discovery.enable.software\_simplify** and **glide.discovery.enable.software\_simplify\_sccm**. See [Discovery properties](../reference/r_DiscoveryProperties.md) for more information.
+Use these Discovery properties to avoid software data discrepancy between Discovery and SCCM: **glide.discovery.enable.software\_simplify** and **glide.discovery.enable.software\_simplify\_sccm**. See [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md) for more information.
 

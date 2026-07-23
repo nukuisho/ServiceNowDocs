@@ -2,6 +2,7 @@
 title: Improved query performance with direct field population in CI tables
 description: The Populate Service Account and LDC IN CMDB scheduled job populates the Service Account and Logical Datacenter fields in cloud configuration item \(CI\) tables, and the Virtual Machine Object field in the Hardware \[cmdb\_ci\_hardware\] table. This direct population reduces query complexity and improves query performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -20,9 +21,9 @@ Cloud Service Account \(such as AWS Account, Azure Subscription, or GCP Project\
 
 Starting with the Discovery and Service Mapping Patterns version 1.30.2, you can enable a feature that denormalizes cloud CI tables by populating the **Service Account** \[cloud\_service\_account\] and **Logical Datacenter** \[logical\_datacenter\] fields directly in cloud CI tables. The scheduled job also references tables extended from the Virtual Machine Object \[cmdb\_ci\_vm\_object\] table via the Virtual Machine Object reference field in the Hardware \[cmdb\_ci\_hardware\] table. Populating these fields directly reduces the need for complex joins, supporting more efficient queries for reporting, analytics, and operational workflows involving cloud resources. After you enable this feature, Discovery populates these fields for both existing and newly discovered CIs.
 
-![Comparison between complex multi-table joins without the feature versus direct field access with the feature](../image/multi-joins-vs-direct-fields.png "Query process with and without field population")
+\[Omitted image "multi-joins-vs-direct-fields.png"\] Alt text: Comparison between complex multi-table joins without the feature versus direct field access with the feature
 
-For information about enabling this feature, see [Enable direct field population for query performance](../task/populate-service-account-ldc-fields.md).
+For information about enabling this feature, see [Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md).
 
 ## Supported Cloud CI tables
 
@@ -59,21 +60,21 @@ The following virtual machine tables are referenced in the Virtual Machine Objec
 |Windows Server|cmdb\_ci\_win\_server|
 |Linux Server|cmdb\_ci\_linux\_server|
 
--   **[Enable direct field population for query performance](../task/populate-service-account-ldc-fields.md)**  
+-   **[Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md)**  
 Populate Service Account, Logical Datacenter, and Virtual Machine Object fields in configuration item \(CI\) tables to improve query performance.
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Discover datacenters only for new cloud accounts](../task/discover-datacenter-only-new-account.md)
+**Previous topic:**[Discover datacenters only for new cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/discover-datacenter-only-new-account.md)
 
-**Next topic:**[Enable direct field population for query performance](../task/populate-service-account-ldc-fields.md)
+**Next topic:**[Enable direct field population for query performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.md)
 
 **Related topics**  
 
 
-[Available cloud discovery patterns](available-patterns-cloud.md)
+[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 
-[Linux discovery](../../discovery/reference/r_DataCollDiscoLinuxComputers.md)
+[Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md)
 
-[Windows discovery](../../discovery/reference/r_DataCollDiscoWindowsComputers.md)
+[Windows discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md)
 

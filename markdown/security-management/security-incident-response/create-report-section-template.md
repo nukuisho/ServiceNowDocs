@@ -2,6 +2,7 @@
 title: Create a Report Section Template
 description: A report can further be divided into various sections. Use the Report section to break down the report into multiple sections and reorganize them in order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-report-section-template.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -33,19 +34,19 @@ Role required: sn\_msi.workspace\_manager
 
     The new report section page displays.
 
-    ![Sample Report section template](../image/msim-status-section.png "Create a Report section template") ![]( "Create a Report section template")
+    \[Omitted image "msim-status-section.png"\] Alt text: Sample Report section template \[Omitted image ""\] Alt text:
 
 5.  On the Report section template form, fill in the fields.
 
-<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d175110e125">
+<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d178639e121">
 
 Field
 
-</th><th align="left" id="d175110e128">
+</th><th align="left" id="d178639e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d175110e134">
+</th></tr></thead><tbody><tr><td id="d178639e130">
 
 **Name**
 
@@ -53,7 +54,7 @@ Description
 
 Name of the Report template section. For example, Summary.
 
-</td></tr><tr><td id="d175110e143">
+</td></tr><tr><td id="d178639e139">
 
 **Table**
 
@@ -61,7 +62,7 @@ Name of the Report template section. For example, Summary.
 
 Name of the report template table.
 
-</td></tr><tr><td id="d175110e152">
+</td></tr><tr><td id="d178639e148">
 
 **Active**
 
@@ -69,7 +70,7 @@ Name of the report template table.
 
 Select the check box to create a report section for the selected template in the MSIM workspace.**Note:** If the check box is unselected, the MSI Manager can’t create a report section for this template in the MSIM workspace.
 
-</td></tr><tr><td id="d175110e164">
+</td></tr><tr><td id="d178639e160">
 
 **MSI report template**
 
@@ -77,7 +78,7 @@ Select the check box to create a report section for the selected template in the
 
 The MSI Report Template name for which the report is divided into sections.
 
-</td></tr><tr><td id="d175110e174">
+</td></tr><tr><td id="d178639e170">
 
 **Order**
 
@@ -85,7 +86,7 @@ The MSI Report Template name for which the report is divided into sections.
 
 The order in which the report sections will be rendered.
 
-</td></tr><tr><td id="d175110e183">
+</td></tr><tr><td id="d178639e179">
 
 **Icon**
 
@@ -93,7 +94,7 @@ The order in which the report sections will be rendered.
 
 Use the icon to display system icons in the report.
 
-</td></tr><tr><td id="d175110e192">
+</td></tr><tr><td id="d178639e188">
 
 **Hint**
 
@@ -101,7 +102,7 @@ Use the icon to display system icons in the report.
 
 Use the hint text to guide the report creation. Within the report, the hint text is displayed under the section title.
 
-</td></tr><tr><td id="d175110e201">
+</td></tr><tr><td id="d178639e197">
 
 **Editor - Body**
 
@@ -113,16 +114,16 @@ Define the template section body. You can define the section body by selecting t
 </table>6.  Save and **Submit** the new report template section.
 
 
-**Parent Topic:**[Configure Major Security Incident status reports](../concept/manage-status-reports-for-major-security-incident-management.md)
+**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 
 **Related topics**  
 
 
-[Create a Report Template](create-report-template.md)
+[Create a Report Template]()
 
-[Create a Report Subsection Template](create-report-subsection-template.md)
+[Create a Report Subsection Template]()
 
-[Create Report Subsection Element template](create-report-subsection-element-template.md)
+[Create Report Subsection Element template]()
 
-[Add system properties](../concept/adding-system-properties-to-your-status-reports.md)
+[Add system properties]()
 

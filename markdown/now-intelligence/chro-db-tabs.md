@@ -2,6 +2,7 @@
 title: Chief Human Resources Officer Dashboard tabs
 description: Organizing insights into these five pillars promotes CHRO focus on both operational stability and long-term innovation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/chro-db-tabs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ The strategic pillars of the **Operations** tab show metrics related to employee
 |Satisfaction|Satisfaction of employees as reflected in case surveys|
 |Relations|Employee relations as reflected by SLA data|
 
-![](../image/chro-db-ops-tab.png)
+\[Omitted image "chro-db-ops-tab.png"\] Alt text:
 
 The Operations tab has five strategic pillars:
 
@@ -75,7 +76,7 @@ The strategic pillars of the **People** tab show metrics related to taking care 
 |Empower|Answers the question, 'How well are we empowering our people?'|
 |Reward|Answers the question, 'How well are we recognizing and rewarding our people?'|
 
-![Chief Human Resources dashboard example showing the five pillars Grow, Develop, Diversify, Empower, and Reward](../image/chro-db-people-tab.png)
+\[Omitted image "chro-db-people-tab.png"\] Alt text: Chief Human Resources dashboard example showing the five pillars Grow, Develop, Diversify, Empower, and Reward
 
 -   **Purpose**
 

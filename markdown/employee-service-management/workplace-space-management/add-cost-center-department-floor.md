@@ -2,6 +2,7 @@
 title: Allocate a cost center, department, or workplace entity
 description: Assign either a cost center, department, or workplace entity to a workplace location. Manage space consumptions, expenses, workplace assignments, and reservations based on an employee cost center, department, or workplace entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/add-cost-center-department-floor.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -149,38 +150,40 @@ You can assign the allocation to the child locations such as areas, rooms, and s
 
 **Note:** For time-bound allocations, only the dates are considered for allocation.
 
-**Parent Topic:**[Managing workplace locations](../concept/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 
 
-[Add a campus](add-a-campus.md)
+[Add a campus]()
 
-[Add a building using Workplace Space Management](add-new-building-1.md)
+[Add a building using Workplace Space Management]()
 
-[Add a floor using Workplace Space Management](add-a-floor-1.md)
+[Add a floor using Workplace Space Management]()
 
-[Add an area using Workplace Space Management](add-an-area.md)
+[Add an area using Workplace Space Management]()
 
-[Add a room using Workplace Space Management](add-a-room.md)
+[Add a room using Workplace Space Management]()
 
-[Add a space using Workplace Space Management](add-a-space.md)
+[Add a space using Workplace Space Management]()
 
-[Configure a workspace or desk as flexible or permanent](assign-a-flex-perm-space.md)
+[Configure a workspace or desk as flexible or permanent]()
 
-[Update the measurement details of a workplace location](update-measurement-details-of-workplace-location.md)
+[Update the measurement details of a workplace location]()
 
-[Change the status of a workplace location](change-active-status-of-workplace-location.md)
+[Change the status of a workplace location]()
 
-[Configure a BOMA type](configure-a-boma-type.md)
+[Configure a BOMA type]()
 
-[Map a space type with BOMA type](map-a-space-type-with-boma-type.md)
+[Map a space type with BOMA type]()
 
-[Create a Space Recommender rule](create-a-space-recommender-rule.md)
+[Create a Space Recommender rule]()
 
-[Raise a space assistance request](raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Create a view-by configuration](create-view-by-config.md)
+[Create a view-by configuration]()
 
-[Reviewing allocation changes](../concept/reviewing-allocation-changes.md)
+[Create a KPI Configuration]()
+
+[Reviewing allocation changes]()
 

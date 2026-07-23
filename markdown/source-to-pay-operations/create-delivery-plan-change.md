@@ -2,10 +2,11 @@
 title: Delivery plan change form
 description: Use the Delivery plan change form to provide deviations from a plan and create an exception.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/create-delivery-plan-change.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [delivery plan change, purchase order exception, PO exception]
 breadcrumb: [Reference, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -113,12 +114,16 @@ Proposed delivery date
 Revised delivery date.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Purchase Order Management reference](purchase-order-mgmt-reference.md)
+</table>**Parent Topic:**[Purchase Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-reference.md)
 
 **Related topics**  
 
 
-[Purchase order exception form](purch-order-exception-form.md)
+[Purchase order exception form]()
 
-[Create new purchase order exception form](create-new-poe-form.md)
+[Create new purchase order exception form]()
+
+[Master data tables for Purchase Order Management]()
+
+[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)
 

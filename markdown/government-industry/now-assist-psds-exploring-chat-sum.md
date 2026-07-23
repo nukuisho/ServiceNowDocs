@@ -2,6 +2,7 @@
 title: Chat summarization in Now Assist for Public Sector Digital Services \(PSDS\)
 description: Use the chat summarization feature in Now Assist to automatically generate summaries of chat conversations in Virtual Agent. The chat summary enables an agent to quickly gain an understanding of the interaction without reading the entire transcript of the conversation, and saves your requester from having to repeat the same information they provided to the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-exploring-chat-sum.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -12,8 +13,6 @@ breadcrumb: [Generative AI skills, Explore, Now Assist for PSDS, Public Sector D
 # Chat summarization in Now Assist for Public Sector Digital Services \(PSDS\)
 
 Use the chat summarization feature in Now Assist to automatically generate summaries of chat conversations in Virtual Agent. The chat summary enables an agent to quickly gain an understanding of the interaction without reading the entire transcript of the conversation, and saves your requester from having to repeat the same information they provided to the Virtual Agent.
-
-Summarize a chat with Now Assist for Customer Service Management
 
 The chat summarization skill generates a condensed version of the conversation between live agents or between a requester and Virtual Agent. A chat summarization is auto-generated when:
 
@@ -26,5 +25,5 @@ In the playbook Interaction record, Chat Summary and Short Description fields ar
 
 When a chat summary is generated, it is automatically added to the **Chat summary** field on the Interaction record. An agent can modify and save the information in the **Chat summary** field.
 
-![Chat summarization in Now Assist for PSDS](../image/chat-handoff-na-psds.png "Chat summarization in Now Assist for PSDS")
+\[Omitted image "chat-handoff-na-psds.png"\] Alt text: Chat summarization in Now Assist for PSDS
 

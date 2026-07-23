@@ -2,6 +2,7 @@
 title: Communities roles
 description: Ensure that users can perform all necessary actions by assigning roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-roles.html
 release: australia
 product: Communities
 classification: communities
@@ -148,18 +149,18 @@ A community user who can create a customer service case from a community discuss
 Communities Portal
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communities references](communitie-references.md)
+</table>**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communitie-references.md)
 
 **Related topics**  
 
 
-[Quick start tests for Communities](../../../administer/atf-quick-start-tests/reference/quick-start-tests-communities.md)
+[Quick start tests for Communities]()
 
-[Properties installed with Communities](communities-properties.md)
+[Properties installed with Communities]()
 
-[Forum form fields](forum-form-fields.md)
+[Forum form fields]()
 
-[Video Configurations form fields](video-configurations-form-fields.md)
+[Video Configurations form fields]()
 
-[Topic form fields](topic-form-fields.md)
+[Topic form fields]()
 

@@ -2,11 +2,12 @@
 title: Configure Next Experience debugging preferences
 description: Debug your Next Experience instance to detect and remove existing and potential errors in your Next Experience components and scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-debugging-preferences.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience debugging preferences
@@ -53,7 +54,7 @@ Automated Test Framework Page Inspector
 
 </td><td>
 
-Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-page-inspector.md).
+Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-page-inspector.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Video Configurations form fields
 description: Set fields on the form to configure video sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/video-configurations-form-fields.html
 release: australia
 product: Communities
 classification: communities
@@ -56,20 +57,20 @@ Widget
 A widget to render the videos from the source. Enter `Communities render video`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communities references](communitie-references.md)
+</table>**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communitie-references.md)
 
 **Related topics**  
 
 
-[Quick start tests for Communities](../../../administer/atf-quick-start-tests/reference/quick-start-tests-communities.md)
+[Quick start tests for Communities]()
 
-[Properties installed with Communities](communities-properties.md)
+[Properties installed with Communities]()
 
-[Communities roles](communities-roles.md)
+[Communities roles]()
 
-[Forum form fields](forum-form-fields.md)
+[Forum form fields]()
 
-[Topic form fields](topic-form-fields.md)
+[Topic form fields]()
 
-[Configure video sources for a community](../../customer-service-management/task/create-video-configuration.md)
+[Configure video sources for a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-video-configuration.md)
 

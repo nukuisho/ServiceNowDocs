@@ -2,6 +2,7 @@
 title: Remove a dependency from a work item in CWM
 description: Unlink a relationship between work items in Collaborative Work Management \(CWM\) when it is no longer relevant or was added incorrectly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/remove-a-dependency-from-a-work-item-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -36,7 +37,7 @@ Relationships are removed from the **Relationships** tab on the work item form. 
 
 5.  Select the remove icon on the relationship card you want to remove.
 
-    ![The Relationships tab showing a relationship card with the remove option highlighted.](../images/cwm-relationships-remove-prereq.png)
+    \[Omitted image "cwm-relationships-remove-prereq.png"\] Alt text: The Relationships tab showing a relationship card with the remove option highlighted.
 
 
 ## Result
@@ -45,14 +46,14 @@ The relationship is removed from both work items.
 
 ## What to do next
 
-To add a new relationship, see [Add a dependency to a work item in CWM](add-a-dependency-to-a-work-item-cwm.md).
+To add a new relationship, see [Add a dependency to a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-a-dependency-to-a-work-item-cwm.md).
 
-**Parent Topic:**[Task dependencies and relationships in CWM](../concept/managing-task-dependencies-relationships-cwm.md)
+**Parent Topic:**[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
 
 **Related topics**  
 
 
-[Task dependencies and relationships in CWM](../concept/managing-task-dependencies-relationships-cwm.md)
+[Task dependencies and relationships in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/managing-task-dependencies-relationships-cwm.md)
 
-[Add a dependency to a work item in CWM](add-a-dependency-to-a-work-item-cwm.md)
+[Add a dependency to a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-a-dependency-to-a-work-item-cwm.md)
 

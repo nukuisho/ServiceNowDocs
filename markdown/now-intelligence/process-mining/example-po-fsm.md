@@ -2,6 +2,7 @@
 title: Content pack for Field Service Management
 description: Analyze a process for work order tasks and identify bottlenecks to minimize delays in the work flow for a better customer experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/example-po-fsm.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -29,17 +30,17 @@ You would analyze the work order process flow and suggest ways to improve the pr
 
     You observe that most of the tasks are related to installation.
 
-5.  Add notes to the project by selecting the notes icon \(![notes icon](../image/notes-icon.png)\) and submit an analysis.
+5.  Add notes to the project by selecting the notes icon \(\[Omitted image "notes-icon.png"\] Alt text: notes icon\) and submit an analysis.
 
     In your notes, you suggest review the reason for higher dispatch time in the installation tasks.
 
 
-![Example: Process Mining Analyst workbench for FSM](../image/example-po-fsm1.png "Process Mining for field service work order tasks")
+\[Omitted image "example-po-fsm1.png"\] Alt text: Example: Process Mining Analyst workbench for FSM
 
-**Parent Topic:**[Activate content packs](../task/activate-po-content-pack.md)
+**Parent Topic:**[Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activate-po-content-pack.md)
 
 **Related topics**  
 
 
-[Process Mining for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/process-opt-fsm.md)
+[Process Mining for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/process-opt-fsm.md)
 

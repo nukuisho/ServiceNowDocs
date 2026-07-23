@@ -2,6 +2,7 @@
 title: Add or edit a campus
 description: A campus represents the top level in the organization space, and contains buildings and map sets. Details include its location, manager, gross area, and usable area. Occupancy and utilization metrics are calculated using these details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_AddOrEditACampus.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,15 +24,15 @@ Role required: admin
 
 2.  Continue with one of the following options.
 
-<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d22599e99">
+<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d22253e99">
 
 Option
 
-</th><th align="left" id="d22599e102">
+</th><th align="left" id="d22253e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d22599e108">
+</th></tr></thead><tbody><tr><td id="d22253e108">
 
 **To add a campus manually**
 
@@ -40,16 +41,16 @@ Action
 -   Click **New**.
 
 
-</td></tr><tr><td id="d22599e126">
+</td></tr><tr><td id="d22253e126">
 
 **To add a campus using a map set**
 
 </td><td>
 
--   [Process GeoJSON map files](t_ProcessMapFiles.md)
+-   [Process GeoJSON map files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ProcessMapFiles.md)
 
 
-</td></tr><tr><td id="d22599e146">
+</td></tr><tr><td id="d22253e146">
 
 **To edit the details of the campus**
 
@@ -68,7 +69,7 @@ Action
     |Location|Select from the location hierarchy.|
     |Gross area|The total floor space of a campus. Includes unusable space or excluded areas.|
     |Usable area|The total useable area of a campus. Excludes unusable space or excluded areas.|
-    |Assignable area|Indicates a space roll-up calculation. See [Space roll up calculations](../concept/c_SpaceRollupCalculations.md).|
+    |Assignable area|Indicates a space roll-up calculation. See [Space roll up calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_SpaceRollupCalculations.md).|
     |Area unit|Select the unit used for defining the space size: square feet or square meters.|
     |Current occupancy|Displays the number of users currently associated with the space. The calculation is generated using business rules on the Associated User \[m2m\_fm\_user\_to\_space\] table.|
     |Max occupancy|Enter the maximum capacity of users for this space. This value is intended for reporting purposes.|
@@ -78,15 +79,15 @@ Action
 
 4.  Continue with one of the following options.
 
-<table id="choicetable_zlc_rp4_ht"><thead><tr><th align="left" id="d22599e330">
+<table id="choicetable_zlc_rp4_ht"><thead><tr><th align="left" id="d22253e330">
 
 Option
 
-</th><th align="left" id="d22599e333">
+</th><th align="left" id="d22253e333">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d22599e339">
+</th></tr></thead><tbody><tr><td id="d22253e339">
 
 **To add the campus**
 
@@ -95,7 +96,7 @@ Action
 -   Click **Submit**.
 
 
-</td></tr><tr><td id="d22599e357">
+</td></tr><tr><td id="d22253e357">
 
 **To update the campus details**
 
@@ -106,10 +107,10 @@ Action
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Customer-created maps](../reference/r_Manually-builtMaps.md)
+**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_Manually-builtMaps.md)
 
 **Related topics**  
 
 
-[Space roll up calculations](../concept/c_SpaceRollupCalculations.md)
+[Space roll up calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_SpaceRollupCalculations.md)
 

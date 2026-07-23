@@ -2,6 +2,7 @@
 title: Exploring business applications
 description: A business application is software used by business users to perform a business function. Classify the applications to maintain an inventory and consolidate the business applications. Analyze, assess, and evaluate the applications across various dimensions and determine the action that you can take for each application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-manage-business-applications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Exploring the application portfolio, Exploring Portfolio list view,
 
 A business application is software used by business users to perform a business function. Classify the applications to maintain an inventory and consolidate the business applications. Analyze, assess, and evaluate the applications across various dimensions and determine the action that you can take for each application.
 
-You can record the details of a business application manually or import the list of applications from a spreadsheet or a third-party tool. To [import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md), define a data source and transform map, and run or schedule an import.
+You can record the details of a business application manually or import the list of applications from a spreadsheet or a third-party tool. To [import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_ImportDataUsingImportSets.md), define a data source and transform map, and run or schedule an import.
 
 ## Assessment of Business applications
 
@@ -30,36 +31,36 @@ The architecture type values help in the following business cases:
 
 For example, you can create a business application record for the ServiceNow® platform. Then, create individual business application records such as Enterprise Architecture, Financial Management, and Project Portfolio Management and associate these applications to the ServiceNow® platform. The distinction between the records whether it’s a business application running on a host or a platform hosting the applications lies in the **Architecture type** values of platform application and platform host.
 
-**Parent Topic:**[Exploring the application portfolio](eaw-app-portfolio.md)
+**Parent Topic:**[Exploring the application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-app-portfolio.md)
 
 **Related topics**  
 
 
-[View all business applications](../../task/eaw-task/view-all-business-apps.md)
+[View all business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-all-business-apps.md)
 
-[Add or edit a business application](../../task/eaw-task/eaw-create-business-app.md)
+[Add or edit a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-business-app.md)
 
-[View business capabilities associated with a business application](../../task/eaw-task/eaw-view-business-capabilities-assoc-with-ba.md)
+[View business capabilities for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-business-capabilities-assoc-with-ba.md)
 
-[Add an existing business capability to a business application](../../task/eaw-task/eaw-add-existing-business-capability-to-ba.md)
+[Add a business capability to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-existing-business-capability-to-ba.md)
 
-[Remove business capabilities associated with a business application](../../task/eaw-task/eaw-unassign-business-capabilities-from-ba.md)
+[Remove business capabilities from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-business-capabilities-from-ba.md)
 
-[Create a Lucidchart diagram for a business application in the EA Workspace](../../task/eaw-task/eaw-create-lucid-diagram-ba.md)
+[Create a Lucidchart diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
 
-[Open business application form in Core UI from EA Workspace](../../task/eaw-task/view-ba-form-in-coreui.md)
+[Open business application form in Core UI from EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-ba-form-in-coreui.md)
 
-[View a unified map for a business application](../../task/eaw-task/eaw-open-map-ba.md)
+[View a unified map for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-open-map-ba.md)
 
-[View roadmap of a business application](../../task/eaw-task/eaw-view-roadmap-ba.md)
+[View roadmap of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-roadmap-ba.md)
 
-[Manage information objects of a business application in EA Workspace](../../task/eaw-task/eaw-associate-info-obj-ba.md)
+[Manage information objects in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-associate-info-obj-ba.md)
 
-[View architectural artifacts associated with a business application](../../task/eaw-task/eaw-view-archi-artfct-assoc-with-ba.md)
+[View architectural artifacts for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-archi-artfct-assoc-with-ba.md)
 
-[Create an architectural artifact and associate it with a business application](../../task/eaw-task/eaw-assoicate-artifact-ba.md)
+[Associate an architectural artifact with a business app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-ba.md)
 
-[Add an existing architectural artifact to a business application](../../task/eaw-task/eaw-add--existing-archi-artfct-to-a-ba.md)
+[Add an architectural artifact to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add--existing-archi-artfct-to-a-ba.md)
 
-[Remove architectural artifacts associated with a business application](../../task/eaw-task/eaw-unassign-archi-artfct-assoc-ba.md)
+[Remove architectural artifacts from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-archi-artfct-assoc-ba.md)
 

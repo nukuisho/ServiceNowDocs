@@ -2,11 +2,12 @@
 title: Review move conflicts
 description: You can review the reason behind a move request conflict and decide how to resolve the conflict.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/review-conflicts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Managing Workplace Move Management requests, Workplace Move Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Move Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Review move conflicts
@@ -25,18 +26,18 @@ The different types of conflicts are as follows:
 
 You can also customize the list of validations that you want to run on a move request. You can add validations or change existing validations in the **WSDMoveRequestValidations** script include.
 
-**Parent Topic:**[Managing Workplace Move Management requests](../concept/workplace-mov-mgmt-setup.md)
+**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-mov-mgmt-setup.md)
 
 **Related topics**  
 
 
-[Create a move request on behalf of an employee](../task/request-desk-change-for-employee-1.md)
+[Create a move request on behalf of an employee]()
 
-[Raise a move request for a space change](../task/request-desk-change.md)
+[Raise a move request for a space change]()
 
-[Update a move request workplace service](../task/update-move-request-workplace-service.md)
+[Update a move request workplace service]()
 
-[Update a move-related workplace service record producer](../task/view-move-request-record-producer.md)
+[Update a move-related workplace service record producer]()
 
-[Create a move-related knowledge base article](../task/create-move-related-kb-article.md)
+[Create a move-related knowledge base article]()
 

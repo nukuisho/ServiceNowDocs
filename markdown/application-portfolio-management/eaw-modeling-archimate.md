@@ -2,6 +2,7 @@
 title: ArchiMate shapes support in the Enterprise Modeling and Visualization
 description: ArchiMate shapes are industry-standard elements used by enterprise architects to create diagrams that represent relationships across different domains of an enterprise. ArchiMate is a registered trademark of The Open Group. Enterprise Modeling and Visualization supports ArchiMate shapes along with General and Enterprise Architecture shapes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-archimate.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,14 +38,14 @@ ArchiMate shapes are internally associated with the ServiceNow CSDM elements. Th
 
 Following are the relationship types for the ArchiMate shapes. Use these arrows to define the relationship between the ArchiMate shapes in a modeling diagram.
 
-![ArchiMate relationship type](../../image/eaw-image/modeling/archimate-relationship-type.png)
+\[Omitted image "archimate-relationship-type.png"\] Alt text: ArchiMate relationship type
 
-**Parent Topic:**[Exploring Enterprise Modeling and Visualization in the EA Workspace](eaw-modeling.md)
+**Parent Topic:**[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md)
 
 **Related topics**  
 
 
-[ArchiMate shapes](../../reference/eaw-reference/eaw-modeling-archimate-shapes.md)
+[ArchiMate shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-archimate-shapes.md)
 
-[Create diagram using ArchiMate shapes and add relationships](../../task/eaw-task/eaw-modeling-create-diagram-archimate.md)
+[Create diagram using ArchiMate shapes and add relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-create-diagram-archimate.md)
 

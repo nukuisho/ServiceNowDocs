@@ -2,6 +2,7 @@
 title: Hardening compliance score trend
 description: View the trends of your hardening compliance score over time in a chart or table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/score-trend.html
 release: australia
 product: Security Center
 classification: security-center
@@ -15,7 +16,7 @@ breadcrumb: [Security hardening, Security configuration console, Security Center
 
 View the trends of your hardening compliance score over time in a chart or table.
 
-See trends in your compliance score over time. Use the date picker to select a time range to analyze to gain insights into the data by applying performance analytics functionality such as targets, thresholds, and KPIs.![hardening compliance score chart UI](../images/hardening-compliance-score-trend.png)
+See trends in your compliance score over time. Use the date picker to select a time range to analyze to gain insights into the data by applying performance analytics functionality such as targets, thresholds, and KPIs.\[Omitted image "hardening-compliance-score-trend.png"\] Alt text: hardening compliance score chart UI
 
 ## Compliance score chart
 
@@ -27,15 +28,15 @@ Use the **Chart options** button to specify what information to analyze and how 
 
     -   **Target**
 
-        Goals your organization wants to achieve. See [Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md).
+        Goals your organization wants to achieve. See [Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-targets.md).
 
     -   **Threshold**
 
-        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See [Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-threshold.md).
+        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See [Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-threshold.md).
 
     -   **Forecast**
 
-        Describes the ability to forecast future scores based on past behavior. See [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ForecastingData.md).
+        Describes the ability to forecast future scores based on past behavior. See [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_ForecastingData.md).
 
     -   **Trend**
 
@@ -78,8 +79,8 @@ Use the **Chart options** button to specify what information to analyze and how 
 
 The All Records table displays the date on which the compliance scores were collected, the score percentages, and the number of non-compliant settings. You can use this table as another option to analyze the security posture of your instance over time.
 
--   **[Increase hardening compliance score](../task/increase-hardening-comp-score.md)**  
+-   **[Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/increase-hardening-comp-score.md)**  
 Increase your hardening compliance score by ensuring that the hardening settings are compliant with the system's recommendations.
 
-**Parent Topic:**[Security hardening](sc-hardening.md)
+**Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-hardening.md)
 

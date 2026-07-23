@@ -2,12 +2,14 @@
 title: Follow up on a report from the Anonymous Reporting Center
 description: After you submit an anonymous report, save the Report key and Report number. Use these reference numbers to follow up or address comments on your case anonymously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/follow-up-anonymously.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [follow up anonymous report, anonymous report center, track AI case anonymously, report key]
 breadcrumb: [Report an AI case anonymously, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -31,15 +33,15 @@ After you submitted your anonymous AI case, the system generated a report number
 
 2.  Access the Anonymous report center using one of these options.
 
-<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d369481e103">
+<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d390943e112">
 
 Option
 
-</th><th align="left" id="d369481e106">
+</th><th align="left" id="d390943e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d369481e112">
+</th></tr></thead><tbody><tr><td id="d390943e121">
 
 **Direct portal access**
 
@@ -49,7 +51,7 @@ Description
 2.  Select **Submit a report anonymously**.
 
 
-</td></tr><tr><td id="d369481e136">
+</td></tr><tr><td id="d390943e145">
 
 **Employee center access**
 
@@ -83,14 +85,14 @@ Description
 
 Use the report to add new information or to respond to investigator comments.
 
-**Parent Topic:**[Report an AI case anonymously](report-ai-case-anon.md)
+**Parent Topic:**[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
 **Related topics**  
 
 
-[Report an AI case anonymously](report-ai-case-anon.md)
+[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
-[Anonymous Reporting Center](../../grc-common/concept/grc-anonymous-reporting-center.md)
+[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 
-[AI cases and inquiries](../concept/airc-cases-inquiries.md)
+[AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
 

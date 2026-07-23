@@ -2,6 +2,7 @@
 title: Reset a demand to Draft state
 description: A demand can be moved back to the Draft state, if necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/reset-demand-to-draft-state.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -46,32 +47,32 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 -   All the score values in **Assessment Data** tab are reset to default.
 -   All active assessments for the demand are canceled. New assessments are triggered when the demand moves to the Screening state and if the **Assessment Required** field on the demand form is set to true.
 
-**Parent Topic:**[Use Demand Management](../reference/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 
 
-[Assess demands](../concept/c_AssessingDemands.md)
+[Assess demands]()
 
-[Create a demand](t_CreatingDemands.md)
+[Create a demand]()
 
-[View demands](t_ViewDemands.md)
+[View demands]()
 
-[Add details to demands](../concept/c_EnhancingDemands.md)
+[Add details to demands]()
 
-[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](../concept/ridac-entries-for-demand.md)
+[RIDACs records for a demand]()
 
-[Delete demands](t_DeletingDemands.md)
+[Delete demands]()
 
-[Move and resize a demand](t_MoveAndResizeADemand.md)
+[Move and resize a demand]()
 
-[Train the similarity solution for Demand Management to find similar demands](train-similarity-solution-dm.md)
+[Train the similarity solution for Demand Management to find similar demands]()
 
-[PPM PIWB template - Find similar demands](../../itbm-PI-workbench/task/ppm-piwb-demand.md)
+[PPM PIWB template - Find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](identify-similar-demands.md)
+[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
 
-[Summarize demands with demand summarization skill](demand-summary-demand-classic.md)
+[Summarize demands with demand summarization skill]()
 
-[Associate AI systems with demands](associate-ai-systems-with-demands.md)
+[Associate AI systems with demands]()
 

@@ -2,6 +2,7 @@
 title: Resolve or close a change task
 description: When you implement the change task, you can close the task from the Mobile Agent mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/mobile-resolve-changetask.html
 release: australia
 product: Change Management
 classification: change-management
@@ -30,12 +31,12 @@ Role required: itil or sn\_change\_write
 4.  Tap **Close task**.
 
 
-**Parent Topic:**[Get started with Change Management mobile tasks](getting-started-with-changetasks.md)
+**Parent Topic:**[Get started with Change Management mobile tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/getting-started-with-changetasks.md)
 
 **Related topics**  
 
 
-[View change tasks](mobile-view-changetask.md)
+[View change tasks]()
 
-[Add comments to your change tasks](mobile-add-comment-changetask.md)
+[Add comments to your change tasks]()
 

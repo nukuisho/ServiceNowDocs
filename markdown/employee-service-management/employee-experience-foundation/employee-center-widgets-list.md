@@ -2,6 +2,7 @@
 title: Employee Center widgets
 description: You can use base system widgets as-is in the portal or clone them to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-center-widgets-list.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -132,66 +133,66 @@ Highlights the most relevant content for the employee. It is based on popularity
 admin, sp\_admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](../reference/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
 
-[Activity Configuration form](../reference/ec-activity-configuration-form.md)
+[Activity Configuration form]()
 
-[Activity Configuration Detail form](../reference/activity-configuration-detail-form.md)
+[Activity Configuration Detail form]()
 
-[Approvals experience reference](../reference/approval-hub-ootb.md)
+[Approvals experience reference]()
 
-[Connected Content form](../reference/connected-content-form.md)
+[Connected Content form]()
 
-[Default Employee Profile Header Configuration record](../reference/default-profile-header.md)
+[Default Employee Profile Header Configuration record]()
 
-[Employee Profile form](../reference/employee-profile-fieldconfig.md)
+[Employee Profile form]()
 
-[Employee Profile Header Configuration form](../reference/profile-header-config-form.md)
+[Employee Profile Header Configuration form]()
 
-[Employee Profile portal configuration form](../reference/profile-portal-config-form.md)
+[Employee Profile portal configuration form]()
 
-[Employee Profile upgrade scenarios](../reference/emp-profile-upgrade.md)
+[Employee Profile upgrade scenarios]()
 
-[Enhanced Requests Experience forms](../reference/req-concept-ec.md)
+[Enhanced Requests Experience forms]()
 
-[External Link form](../reference/external-link-form.md)
+[External Link form]()
 
-[Featured Content form](../reference/featured-content-form.md)
+[Featured Content form]()
 
-[Footer form](../reference/ec-footer-form.md)
+[Footer form]()
 
-[Footer Menus form](../reference/ec-footer-menus.md)
+[Footer Menus form]()
 
-[Guided Self-Service reference](../reference/gss-guided-self-service-reference-info.md)
+[Guided Self-Service reference]()
 
-[Menu Item form](../reference/menu-item-form.md)
+[Menu Item form]()
 
-[Overview section form](../reference/profile-overview-section-form.md)
+[Overview section form]()
 
-[Portal notification configuration form](../reference/portal-notif-config-form.md)
+[Portal notification configuration form]()
 
-[Portal notification content form](../reference/notif-content-form.md)
+[Portal notification content form]()
 
-[Trigger conditions form](../reference/notif-trigger-form.md)
+[Trigger conditions form]()
 
-[Quick Link form](../reference/ec-quick-link-form.md)
+[Quick Link form]()
 
-[Tab widget mapping form](../reference/tab-widget-mapping-form.md)
+[Tab widget mapping form]()
 
-[Taxonomy form](../reference/taxonomy-form.md)
+[Taxonomy form]()
 
-[Topic form](../reference/topic-form.md)
+[Topic form]()
 
-[User Criteria form](../reference/ec-user-criteria-form.md)
+[User Criteria form]()
 
-[User Criteria output](../reference/user-criteria-output.md)
+[User Criteria output]()
 
-[Schedule appointment form](../reference/schedule-appointment-form.md)
+[Schedule appointment form]()
 
-[Location Consent form](../reference/location-consent-form.md)
+[Location Consent form]()
 
-[Website configuration form](../reference/config-website-form.md)
+[Website configuration form]()
 

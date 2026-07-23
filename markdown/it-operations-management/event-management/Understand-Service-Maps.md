@@ -2,6 +2,7 @@
 title: Understand Service Maps
 description: Service maps show active alerts for CIs and the relationships between CIs. By viewing this information, you can better understand the source of alerts and take remediation steps. The service map is available for all application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/Understand-Service-Maps.html
 release: australia
 product: Event Management
 classification: event-management
@@ -38,7 +39,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-\(![Application server icon.](../image/EventManagementAppSvrIcon.png)\)
+\(\[Omitted image "EventManagementAppSvrIcon.png"\] Alt text: Application server icon.\)
 
 </td><td>
 
@@ -46,7 +47,7 @@ Represents applications such as Microsoft IIS or SQL servers.
 
 </td></tr><tr><td>
 
-\(![Call server icon.](../image/EventManagementCallCntrIcon.png)\)
+\(\[Omitted image "EventManagementCallCntrIcon.png"\] Alt text: Call server icon.\)
 
 </td><td>
 
@@ -54,7 +55,7 @@ Represents physical and VM computers and servers.
 
 </td></tr><tr><td>
 
-\(![Entry point icon.](../image/EventManagementEntryPtIcon.png)\)
+\(\[Omitted image "EventManagementEntryPtIcon.png"\] Alt text: Entry point icon.\)
 
 </td><td>
 
@@ -62,7 +63,7 @@ Represents the network starting point. For example, Layer 3 devices appear towar
 
 </td></tr><tr><td>
 
-\(![Redundancy box icon.](../image/EM_RedundancyArrowIcon.png)\)
+\(\[Omitted image "EM\_RedundancyArrowIcon.png"\] Alt text: Redundancy box icon.\)
 
 </td><td>
 
@@ -70,7 +71,7 @@ Shows the number of redundant CIs.
 
 </td></tr><tr><td>
 
-\(![Load balancer icon.](../image/EventManagementLBIcon.png)\)
+\(\[Omitted image "EventManagementLBIcon.png"\] Alt text: Load balancer icon.\)
 
 </td><td>
 
@@ -78,7 +79,7 @@ Shows the workload between machines.
 
 </td></tr><tr><td>
 
-\(![Gray connector icon.](../image/EventManagementArrow.png)\)
+\(\[Omitted image "EventManagementArrow.png"\] Alt text: Gray connector icon.\)
 
 </td><td>
 
@@ -86,7 +87,7 @@ The gray connector shows a relationship between CIs.
 
 </td></tr><tr><td>
 
-\(![CI with no active alerts box icon.](../image/EventManagementUnselectBoxNoSeverityIcon.png)\)
+\(\[Omitted image "EventManagementUnselectBoxNoSeverityIcon.png"\] Alt text: CI with no active alerts box icon.\)
 
 </td><td>
 
@@ -94,7 +95,7 @@ Each CI with no active alerts box represents a network CI. A gray box represents
 
 </td></tr><tr><td>
 
-\(![Redundancy box icon.](../image/EMRedundancyBoxIcon.png)\)
+\(\[Omitted image "EMRedundancyBoxIcon.png"\] Alt text: Redundancy box icon.\)
 
 </td><td>
 
@@ -102,7 +103,7 @@ Hides multiple CIs that are designated as redundant.
 
 </td></tr><tr><td>
 
-\(![Box with orange severity color icon.](../image/EventManagementUnselectBoxIcon.png)\)
+\(\[Omitted image "EventManagementUnselectBoxIcon.png"\] Alt text: Box with orange severity color icon.\)
 
 </td><td>
 
@@ -115,7 +116,7 @@ An impacted CI displays the color that represents the severity of the alert asso
 
 </td></tr><tr><td>
 
-\(![Storage icon.](../image/EventManagementStorageIcon.png)\)
+\(\[Omitted image "EventManagementStorageIcon.png"\] Alt text: Storage icon.\)
 
 </td><td>
 
@@ -123,7 +124,7 @@ Represents a fiber channel, hard drives, or other data storage devices.
 
 </td></tr><tr><td>
 
-\(![Web server icon.](../image/EventManagementWebSvcIcon.png)\)
+\(\[Omitted image "EventManagementWebSvcIcon.png"\] Alt text: Web server icon.\)
 
 </td><td>
 
@@ -135,7 +136,7 @@ Represents related web services for the network such as NGINX or JBoss web serve
 **Related topics**  
 
 
-[Alert impact calculation](c_EMImpactCalculation.md)
+[Alert impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMImpactCalculation.md)
 
-[View an alert impact on CIs in a service map](../task/t_EMViewTopology.md)
+[View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewTopology.md)
 

@@ -1,15 +1,16 @@
 ---
-title: Instance Observer reports overview
+title: IO reports
 description: Reports in Instance Observer offer insights into the health of the instances, tracks database growth, and encryption status. The reports help you to analyze trends, and to schedule, download, and share these reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/i-o-reports.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-17"
 reading_time_minutes: 4
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Instance Observer reports overview
+# IO reports
 
 Reports in Instance Observer offer insights into the health of the instances, tracks database growth, and encryption status. The reports help you to analyze trends, and to schedule, download, and share these reports.
 
@@ -53,8 +54,8 @@ Reports in Instance Observer offer insights into the health of the instances, tr
         Provides a quick glimpse of key health indicators for the last 30-days.
 
         -   Slow Transaction Count Average is calculated based on any transactions that ran for more than 4.5 seconds per day averaged over 30 days.
-        -   Slow Queries Count Average is calculated based on any queries that ran for more than 1 second per day averaged over 30-days
-        -   Long running jobs Count Average is calculated based on any jobs that ran for more than 60 minutes day averaged over 30-days
+        -   Slow Queries Count Average is calculated based on any queries that ran for more than 1 second per day averaged over 30-days.
+        -   Long running jobs Count Average is calculated based on any jobs that ran for more than 60 minutes day averaged over 30-days.
     -   **Top 10 slow transactions**
 
         Provides a quick glance at your most sluggish 10 transactions.
@@ -88,7 +89,7 @@ This report provides users with the ability to create a report on the database g
 
 **Note:** If shards are not configured, then the chart for database size will not display any shards database. The table growth is sorted in descending order by the highest table size.
 
-For more information on reports, see [Instance performance telemetry reports](instance-observer-reporting.md).
+For more information on reports, see [Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-reporting.md).
 
 ## URL for graphs
 
@@ -97,14 +98,8 @@ For more information on reports, see [Instance performance telemetry reports](in
 -   IO is supported on Google Chrome and Mozilla Firefox and the links are valid on these browsers. You must log in to the respective browser to view the shared URL.
 -   There is a limitation with sharing the URL for Triage — both the sender and recipient must have the same instance enabled in their accounts.
 
-**Parent Topic:**[Overview of Instance Observer metrics](../concept/instance-observer-ovr-metric.md)
+-   **[Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-reporting.md)**  
+Quickly generate reports to download and share with your business stakeholders, making  organizations faster, smarter, and better in their  instance performance management.
 
-**Related topics**  
-
-
-[Instance Data Replication](instance-observer-metrics.md)
-
-[Anomaly insights](addl-inf-io-anomaly.md)
-
-[Feature availability based on package](io-feature-availability.md)
+**Parent Topic:**[Monitor instance performance with IO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

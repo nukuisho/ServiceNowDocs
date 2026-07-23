@@ -2,6 +2,7 @@
 title: Configure a Process Mining map on a dashboard
 description: Map the different states that are part of your process and the transitions between those states. See which states the objects of the process are in and the speed with which they change state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-po-map.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Map the different states that are part of your process and the transitions betwe
 
 ## Before you begin
 
-You should be familiar with Process Mining and Process projects. For more information, see [Process Mining](../../../administer/process-mining/concept/process-mining.md).
+You should be familiar with Process Mining and Process projects. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md).
 
 The relevant Process project must already exist.
 
@@ -25,13 +26,13 @@ Role required: sn\_process\_optimization\_analyst
 
 The Process Mining Map component enables users to visualize how a process is being executed for a particular data set that is being analyzed. For example, you can show users the number of records for a specific date range, business area, and region.
 
-This component offers similar content on any dashboard that you get from process maps in the Process Mining Workspace. For more information about process maps, see [Process details page](../../../administer/process-mining/concept/project-view-screen.md).
+This component offers similar content on any dashboard that you get from process maps in the Process Mining Workspace. For more information about process maps, see [Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-view-screen.md).
 
 ## Procedure
 
 1.  Create a dashboard, or navigate to a dashboard that you are allowed to edit.
 
-    For more information, see [Create a dashboard with the in-line editor](../../dashboards/task/create-db-in-ac.md).
+    For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md).
 
 2.  Select **Edit** to enter editing mode.
 
@@ -47,11 +48,11 @@ This component offers similar content on any dashboard that you get from process
 
 6.  For the map to follow filters on the dashboard, select **Follow filters**.
 
-    For more information, see [Applying filters to Process Mining maps](../concept/applying-filters-to-process-optimization-maps.md).
+    For more information, see [Applying filters to Process Mining maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/applying-filters-to-process-optimization-maps.md).
 
 7.  Set the percentage of connections to show.
 
-    Connections are lines that show how the subjects of the mapped process change states. These lines end in arrows to show the direction of the change. They also have boxes that show the number of records that followed that path and the average time they spent in the earlier state before moving. For example, if a box in the middle of a connection says 505/5d, ![Details box in the middle of a connection](../image/po-map-connection-detail.png) 505 records have followed this change in state, and the average time in the earlier state was 5 days.
+    Connections are lines that show how the subjects of the mapped process change states. These lines end in arrows to show the direction of the change. They also have boxes that show the number of records that followed that path and the average time they spent in the earlier state before moving. For example, if a box in the middle of a connection says 505/5d, \[Omitted image "po-map-connection-detail.png"\] Alt text: Details box in the middle of a connection 505 records have followed this change in state, and the average time in the earlier state was 5 days.
 
     The most frequent changes are shown first. So if you accept the default 20%, only the 20% most frequent changes between states are shown. Too low a number results in too little data being shown on the map. Too high a number turns the map into a mass of spaghetti, with many rare changes between states that you might not care about.
 
@@ -63,23 +64,23 @@ This component offers similar content on any dashboard that you get from process
 
     When **Case follow simulation** is active, the solid lines of the connections are replaced by moving dashed lines. The speed at which the dashes move represents the speed at which objects move from one state to the next. The thickness of the dashes shows the relative amounts of traffic.
 
-    ![Process Mining map animated to show process flow speed](../image/po-map-animation.gif)
+    \[Omitted image "po-map-animation.gif"\] Alt text: Process Mining map animated to show process flow speed
 
 10. Specify the header and border settings, such as the title and description.
 
 
 ## What to do next
 
-Outside of editing mode, a user can expand the settings ![Cogwheel](../../performance-analytics/image/Cogwheel.png) on the map. In these settings, they can adjust the connection and activities percentages and turn animation on and off.
+Outside of editing mode, a user can expand the settings \[Omitted image "Cogwheel.png"\] Alt text: Cogwheel on the map. In these settings, they can adjust the connection and activities percentages and turn animation on and off.
 
-![A user adjusting map configuration settings on the fly](../image/po-map-adjust-runtime.gif)
+\[Omitted image "po-map-adjust-runtime.gif"\] Alt text: A user adjusting map configuration settings on the fly
 
 **Related topics**  
 
 
-[Process Mining](../../../administer/process-mining/concept/process-mining.md)
+[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md)
 
-[Analyst workbench page](../../../administer/process-mining/concept/analyst-workbench-dashboard.md)
+[Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md)
 
-[Refining a process map](../../../administer/process-mining/concept/analyze-data.md)
+[Refining a process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-data.md)
 

@@ -2,6 +2,7 @@
 title: Configure a survey in the Connect chat support
 description: Enable a user to take a survey after chatting with a support agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/take-survey-connect-chat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,28 +43,28 @@ Role required: admin or survey\_admin
     **Note:** The survey URL displayed after a connect chat is not a clickable link in the Virtual Agent chat widget. Copy and paste the URL to access the survey.
 
 
-**Parent Topic:**[Survey distribution](../concept/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 
 
-[Email notifications for surveys](../concept/email-notification-for-surveys.md)
+[Email notifications for surveys]()
 
-[Send survey invitations to users](t_SendSurveyInvitationsToUsers.md)
+[Send survey invitations to users]()
 
-[Define a recipients list for surveys](define-recipient-list.md)
+[Define a recipients list for surveys]()
 
-[Add a recipients list to a survey](add-recipient-list-survey.md)
+[Add a recipients list to a survey]()
 
-[Embed a survey within the Outlook email client](embed-survey-in-outlook-email.md)
+[Embed a survey within the Outlook email client]()
 
-[Enable localization for a survey](enable-localization-survey.md)
+[Enable localization for a survey]()
 
-[Survey URLs](../concept/c_SurveyURLs.md)
+[Survey URLs]()
 
-[Create a survey module](t_CreatingASurveyModule.md)
+[Create a survey module]()
 
-[Sharing surveys](../concept/c_SurveyInportAndExport.md)
+[Sharing surveys]()
 
-[Monitor incoming Connect Support conversations](../../../use/collaboration/task/t_MonitorIncomingConnectSupport.md)
+[Monitor incoming Connect Support conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_MonitorIncomingConnectSupport.md)
 

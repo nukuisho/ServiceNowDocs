@@ -2,6 +2,7 @@
 title: Supporting information for AI Desktop Actions
 description: Get a quick overview of the important information that is related to the AI Desktop Actions application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/supporting-info-agentic-desktop.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-02"
@@ -15,11 +16,11 @@ Get a quick overview of the important information that is related to the AI Desk
 
 ## Supported versions
 
-AI Desktop Actions is supported from Zurich Patch 4, and support for adaptive desktop actions is added from Zurich Patch 9.
+Support for adaptive desktop actions is added from Australia Patch 2.
 
 ## Supported user interfaces
 
-To design and run AI-powered desktop actions using Now Assist AI agents, install the AI Desktop Actions application. For more information, see [Configure AI Desktop Actions](../task/configure-agentic-desktop.md).
+To design and run AI-powered desktop actions using Now Assist AI agents, install the AI Desktop Actions application. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
 
 ## Licensing requirements
 

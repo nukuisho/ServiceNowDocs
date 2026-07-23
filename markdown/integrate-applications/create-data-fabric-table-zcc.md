@@ -2,6 +2,7 @@
 title: Create a data fabric table
 description: Retrieve data from an internal or external source by creating a data fabric table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-data-fabric-table-zcc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -72,9 +73,9 @@ Note the following restrictions:
         -   Type: record
         -   Operation: data\_fabric
         -   Name: User \[sys\_user\]
-        For details on creating a record ACL rule, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
+        For details on creating a record ACL rule, see [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
 
-    -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectTheDisplayValue.md).
+    -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See .
     1.  Identify the column that represents the same records in both tables.
 
     2.  In the Type column, change the column type to **Reference**.
@@ -96,5 +97,5 @@ Note the following restrictions:
 
 The data fabric table is created and connected to a data source. Data consumers can access the data fabric table and its data just like any physical table on the instance.
 
-**Parent Topic:**[Managing data fabric tables](../concept/managing-data-fabric-tables-zcc.md)
+**Parent Topic:**[Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/managing-data-fabric-tables-zcc.md)
 

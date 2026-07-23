@@ -2,13 +2,14 @@
 title: Add details of the enterprise assets to an onboarding order
 description: Specify the details of the enterprise assets that you want to onboard through an onboarding order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-eam-assets-onboard-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Add details of the enterprise assets to an onboarding order
@@ -37,7 +38,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
     -   **RFID tag**
     -   **MAC address**
     -   **Additional info**
-6.  For each asset that you want to onboard, select the Add Row icon ![](../../hardware-asset-management/image/add-aisle-icon.png) and enter the asset details.
+6.  For each asset that you want to onboard, select the Add Row icon \[Omitted image "add-aisle-icon.png"\] Alt text: and enter the asset details.
 
 7.  Select **OK**.
 
@@ -53,10 +54,10 @@ Role required: sn\_eam.enterprise\_asset\_technician
 -   The stage of the onboarding order changes to Review.
 -   A Multi-asset onboarding task is created and displayed in the **Onboard Asset Tasks** tab.
 
-**Parent Topic:**[Onboarding multiple enterprise assets in the Enterprise Asset Workspace](../concept/onboarding-multi-asset-from-ws.md)
+**Parent Topic:**[Onboarding multiple enterprise assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md)
 
 **Related topics**  
 
 
-[Create an onboarding order for enterprise assets in the Enterprise Asset Workspace](onboard-eam-assets-workspace.md)
+[Create an onboarding order for enterprise assets in the Enterprise Asset Workspace]()
 

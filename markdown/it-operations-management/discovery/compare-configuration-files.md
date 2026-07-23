@@ -2,6 +2,7 @@
 title: Compare versions of CI configuration files
 description: You can compare two versions of tracked CI configuration files to see the actual changes made to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/compare-configuration-files.html
 release: australia
 product: Discovery
 classification: discovery
@@ -17,7 +18,7 @@ You can compare two versions of tracked CI configuration files to see the actual
 
 ## Before you begin
 
-If Discovery and Service Mapping don’t track a configuration file you want to track, perform advanced configuration as described in [Modify tracking changes in configuration files](../../discovery/task/track-configuration-files.md).
+If Discovery and Service Mapping don’t track a configuration file you want to track, perform advanced configuration as described in [Modify tracking changes in configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/track-configuration-files.md).
 
 Role required: one of the following roles.
 
@@ -34,15 +35,15 @@ Changes to configuration files are associated with CIs to which these files belo
 
 1.  Compare two versions of the CI configuration file from Service Mapping or Discovery.
 
-<table id="choicetable_c2k_pxd_bhc"><thead><tr><th align="left" id="d265955e145">
+<table id="choicetable_c2k_pxd_bhc"><thead><tr><th align="left" id="d279614e145">
 
 Product
 
-</th><th align="left" id="d265955e148">
+</th><th align="left" id="d279614e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d265955e154">
+</th></tr></thead><tbody><tr><td id="d279614e154">
 
 **Service Mapping**
 
@@ -54,13 +55,13 @@ Steps
 
 **Important:** The name of the change must be **File Modified**.
 
-![Change record for a modified configuration file.](../image/ChangesTabFileModified.png)
+\[Omitted image "ChangesTabFileModified.png"\] Alt text: Change record for a modified configuration file.
 
 4.  Select and hold \(or right-click\) the change record for the modified CI configuration file, and select **View Change in Tracked File Content**.
 
 The Tracked Configuration File Comparison tab opens, displaying the most recent and the previous versions of the configuration file.
 
-</td></tr><tr><td id="d265955e218">
+</td></tr><tr><td id="d279614e218">
 
 **Discovery**
 
@@ -86,11 +87,11 @@ The Tracked Configuration File Comparison tab opens, displaying the configuratio
     -   Purple — Updated line
     -   Pink — New line
     -   Gray — Deleted line
-3.  Navigate between the changes using the Next difference icon ![](../../discovery/image/next-difference-icon.png) and the Previous difference icon ![](../../discovery/image/previous-difference-icon.png).
+3.  Navigate between the changes using the Next difference icon \[Omitted image "next-difference-icon.png"\] Alt text: and the Previous difference icon \[Omitted image "previous-difference-icon.png"\] Alt text:.
 
 
 **Related topics**  
 
 
-[Tracked Configuration file form](../reference/tracked-configuration-file-form.md)
+[Tracked Configuration file form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/tracked-configuration-file-form.md)
 

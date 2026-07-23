@@ -2,13 +2,14 @@
 title: Create a contract rate card
 description: You can create rate cards to track contract expenses. Rate cards help to record and allocate costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_ContractRateCardsAndExpenseLines.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Create a contract rate card
@@ -37,38 +38,38 @@ Consider the following case: an organization has a contract with a third-party c
 
 4.  On the Contract Rate Card form, fill in the fields.
 
-    For a description of the field values, see [Contract Rate Card form](../reference/ContractRateCardForm.md).
+    For a description of the field values, see [Contract Rate Card form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/ContractRateCardForm.md).
 
 5.  Click **Submit**.
 
 
--   **[Contract Rate Card form](../reference/ContractRateCardForm.md)**  
+-   **[Contract Rate Card form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/ContractRateCardForm.md)**  
 The Contract rate card form enables you to generate expense lines for recurring expenses automatically by providing detailed price information for a contract. There can be multiple rate cards for the same contract.
--   **[Create a new expense line](t_CreatingANewExpenseLine.md)**  
+-   **[Create a new expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_CreatingANewExpenseLine.md)**  
 Typically, expense lines are automatically generated based on assets or users, but you can create a new expense line manually if needed.
--   **[Generating expense lines based on assets or users](t_GenExpnsLinOnAssetsUsers.md)**  
+-   **[Generating expense lines based on assets or users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_GenExpnsLinOnAssetsUsers.md)**  
 An expense line is an expense amount at a given point in time and the record that incurred or generated the expense. You can generate expense lines based on assets or users assigned to the contract.
--   **[View contract expense lines](t_ViewingContractExpenseLines.md)**  
+-   **[View contract expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_ViewingContractExpenseLines.md)**  
 Use the **Expense Lines** related list or tab to view and audit all the expenses recorded for a given contract.
 
-**Parent Topic:**[Contracts](../concept/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 
 
-[Create a contract](t_CreateAContract.md)
+[Create a contract]()
 
-[Adjust a contract](t_AdjustAContract.md)
+[Adjust a contract]()
 
-[Verify contract administrator assignment for notification](t_SendAContractNotification.md)
+[Verify contract administrator assignment for notification]()
 
-[Send the contract for approval](t_SendTheContractForApproval.md)
+[Send the contract for approval]()
 
-[Terms and conditions](../concept/c_TermsAndConditions.md)
+[Terms and conditions]()
 
-[Monitor a contract](t_MonitoringContracts.md)
+[Monitor a contract]()
 
-[Allocating expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_AllocatingExpenses.md)
+[Allocating expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_AllocatingExpenses.md)
 
-[Use business services with expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_UseBusinessServicesWithExpenses.md)
+[Use business services with expenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/c_UseBusinessServicesWithExpenses.md)
 

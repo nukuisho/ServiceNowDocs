@@ -2,6 +2,7 @@
 title: Using the Signing Tool
 description: Learn how to use the Signing Tool to sign supported records in ServiceNow applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/use-sa-signing-tool.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,8 +65,6 @@ To perform these steps, you must have the following:
     -   In the ServiceNow-App-1 directory, two records created: `sys_certificate.xml` and `sn_kmf_record_signature.xml`.
 5.  Import the updated application back into your instance by applying remote changes in Studio.
 
-    For more information, see [Legacy - Apply remote changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/t_ApplyRemoteChanges.md).
+    For more information, see .
 
-
-**Parent Topic:**[Standalone signing tool](../concept/sa-code-signing-tool.md)
 

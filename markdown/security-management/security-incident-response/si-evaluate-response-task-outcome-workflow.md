@@ -2,6 +2,7 @@
 title: Security Incident - Evaluate response task outcome workflow
 description: Security Incident - Evaluate Response task outcome workflow determines the task to use, invokes a chosen workflow and evaluation script based on the outcome evaluator record provided as input to the chosen workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/si-evaluate-response-task-outcome-workflow.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -33,19 +34,19 @@ This workflow runs at the same time as the create task activity to be evaluated.
     -   Should Run Workflow
     -   Parallel Flow Launcher Launch Capability Workflow
     -   Create Evaluation Event
-    ![Security Incident Evaluate Response Outcome workflow diagram](../image/EvaluateResponseOutcomeWorkflow.png "Evaluate response task outcome")
+    \[Omitted image "EvaluateResponseOutcomeWorkflow.png"\] Alt text: Security Incident Evaluate Response Outcome workflow diagram
 
 
-**Parent Topic:**[Security Incident Response Orchestration workflows and activities](../concept/sec-inc-resp-orchestration-workflows.md)
+**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
 
 **Related topics**  
 
 
-[Create Lookup Request for IoC Changes workflow](t_CreateScanRequestforIoCChanges.md)
+[Create Lookup Request for IoC Changes workflow]()
 
-[Security Incident Response- Get Network Statistics flow](obtain-network-statistics-workflow.md)
+[Security Incident Response- Get Network Statistics flow]()
 
-[Security Incident Response - Get Running Services workflow](get-running-services-workflow.md)
+[Security Incident Response - Get Running Services workflow]()
 
-[Run procdump flow](../concept/invoke_procdump.md)
+[Run procdump flow]()
 

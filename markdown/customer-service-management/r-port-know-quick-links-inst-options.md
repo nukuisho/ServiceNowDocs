@@ -2,6 +2,7 @@
 title: Portal Knowledge Quick Links widget instance options form
 description: The instance options enable you to configure the Portal Knowledge Quick Links widget on a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r-port-know-quick-links-inst-options.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -185,7 +186,7 @@ The article page that opens when the article card is accessed.By default, this f
 </table>**Related topics**  
 
 
-[Portal Knowledge Quick Links widget](../concept/portal-know-quick-links-widget.md)
+[Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-know-quick-links-widget.md)
 
-[Add and configure the Portal Knowledge Quick Links widget](../task/config-portal-know-quick-links-widget-inst-optns.md)
+[Add and configure the Portal Knowledge Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-know-quick-links-widget-inst-optns.md)
 

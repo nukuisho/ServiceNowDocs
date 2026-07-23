@@ -2,6 +2,7 @@
 title: Use the Employee Center topic pages
 description: The Employee Center topic pages contain the breadcrumbs widget, topic header widget, sub-topic widget, and the topic content widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-topic-use.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ The Employee Center topic pages contain the breadcrumbs widget, topic header wid
 
 The breadcrumbs widget displays information about the pages you navigated to open the current page. For example, from the home page if you click **HR**, and then click **Benefits**, and then click **Health and Wellness**, the breadcrumbs widget shows **Home &gt; HR &gt; Benefits &gt; Health and Wellness**.
 
-![The breadcrumbs widget shows the navigation path from the Home page to the Health and Wellness page.](../images/breadcrumbs-widget.png "Breadcrumbs widget")
+\[Omitted image "breadcrumbs-widget.png"\] Alt text: The breadcrumbs widget shows the navigation path from the Home page to the Health and Wellness page.
 
 Click a page name on the breadcrumbs widget to navigate to that page. For example, to return to the home page, click **Home**.
 
@@ -29,27 +30,27 @@ The topic header widget displays the parent topics. Select a topic from the mega
 
 **Note:** If you schedule Styled or Banner content to the Content Experiences widget on the emp\_taxonomy\_topic page, the original topic banner image does not display for the topics on the schedule.
 
-For more information on creating and scheduling content, see [Creating employee communications](ec-publish-content.md).
+For more information on creating and scheduling content, see [Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md).
 
-![Topic header widget showing the HR topic.](../images/topic-widget.png "Topic header widget")
+\[Omitted image "topic-widget.png"\] Alt text: Topic header widget showing the HR topic.
 
-You can modify the widget display by configuring the instance options. For more information, see [Modify the topic header widget display](../task/config-topic-widget.md).
+You can modify the widget display by configuring the instance options. For more information, see [Modify the topic header widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-topic-widget.md).
 
 ## Sub-topics widget
 
 The sub-topics widget displays all the child topics of the parent topic. The sub-topic widget displays only those child topics that have connected content.
 
-![Sub-topics widget showing the child topics of the HR parent topic.](../images/subtopics-widget.png "Sub-topics widget")
+\[Omitted image "subtopics-widget.png"\] Alt text: Sub-topics widget showing the child topics of the HR parent topic.
 
 The sub-topics widget shows only six child topics by default. If the parent topic has more child topics, click **View all** to view all the child topics and click the one you want to open.
 
-You can modify the widget display by configuring the instance options. For more information, see [Modify the sub-topics widget display](../task/config-child-topic-widget.md).
+You can modify the widget display by configuring the instance options. For more information, see [Modify the sub-topics widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-child-topic-widget.md).
 
 ## Topic content widget
 
 The topic content widget displays the knowledge articles and requests associated with the topic.
 
-![Topic content widget showing connected content of the Browse HR topic, including the available options.](../images/browse-topic-widget.png "Topic content widget")
+\[Omitted image "browse-topic-widget.png"\] Alt text: Topic content widget showing connected content of the Browse HR topic, including the available options.
 
 The topic content widget has the following options.
 
@@ -113,7 +114,7 @@ Use search on the topic pages that allows you to browse content with its spell c
 
 ## Search by the topic facets
 
-Narrow your search with hierarchical filters for topics and sub-topics on the global search. Choose single or multiple topic levels or facet levels to get specific search results. For more information, see [Improved search functionality](topic-facets.md).
+Narrow your search with hierarchical filters for topics and sub-topics on the global search. Choose single or multiple topic levels or facet levels to get specific search results. For more information, see [Improved search functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/topic-facets.md).
 
 ## Learning content on the topic pages
 
@@ -121,42 +122,44 @@ Use learning content as one of the connected content types, available on the top
 
 The Unified Browse widget has **Courses** as an addition to the **Filter by** listed options.
 
-![The Filter by field listed options has All, Articles, Requests, and Courses.](../images/topic-page-courses.jpg "Filter by options")
+\[Omitted image "topic-page-courses.jpg"\] Alt text: The Filter by field listed options has All, Articles, Requests, and Courses.
 
-You can modify the widget display by configuring the widget instance options. For more information, see [Modify the topic content widget display](../task/config-topic-content-widget.md).
+You can modify the widget display by configuring the widget instance options. For more information, see [Modify the topic content widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-topic-content-widget.md).
 
-**Parent Topic:**[Using Employee Center](using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
 
-[Topic managers and contributors for topic page management](topic-managers-and-contributors-for-topic-page-management.md)
+[Topic managers and contributors for topic page management]()
 
-[Use the My To-dos page](../task/ec-to-dos-use.md)
+[Use the My To-dos page]()
 
-[Use approval experience](../task/ec-to-dos-use-approval-hub.md)
+[Use approval experience]()
 
-[Manage approvals from Microsoft Teams](../../sn-teams/task/va-concur.md)
+[Manage approvals from Microsoft Teams]()
 
-[Manage approvals from a Microsoft Outlook email](../../sn-ms-outlook/task/oam-concur.md)
+[Manage approvals from a Microsoft Outlook email]()
 
-[Task filters on My tasks](configurable-filters-experience.md)
+[Task filters on My tasks]()
 
-[View the Recommended for you content](rfy-employee.md)
+[View the Recommended for you content]()
 
-[Use Employee Center from Zoom](../task/zoom-create-email-notification.md)
+[Use Employee Center from Zoom]()
 
-[View employee profile](update-employee-profile.md)
+[View employee profile]()
 
-[Use Personalized Answers](using-personalized-search-on-employee-center.md)
+[Use Employee Profile with HR Service Delivery]()
 
-[Employee Profile org chart widget](../task/view-org-chart.md)
+[Use Personalized Answers]()
 
-[RTL support for Employee Center](ec-rtl-language-support.md)
+[Employee Profile org chart widget]()
 
-[Manage favorites](../task/web-configure-favorites-employee.md)
+[RTL support for Employee Center]()
 
-[Access applications from App Launcher](web-application-employee.md)
+[Manage favorites]()
 
-[Use Guided Self-Service](gss-guided-self-service-homepage.md)
+[Access applications from App Launcher]()
+
+[Use Guided Self-Service]()
 

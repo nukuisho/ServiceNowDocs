@@ -2,6 +2,7 @@
 title: Configure an Action for legal services on the Standard ticket page
 description: Add or modify an Action and its functionality on the Standard ticket page for a legal request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/configure-action-legal-request-lsp.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -18,8 +19,8 @@ Add or modify an Action and its functionality on the Standard ticket page for a 
 ## Before you begin
 
 -   Review the configuration of the script include, scripted extension points and service portal widgets for legal services installed with the Legal Service Delivery apps.
--   The Actions is one of the sections of a standard ticket page of the Service Portal, so get familiar with the [Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/standard-ticket-page.md) and [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md).
--   For more information about configuring service portal widgets, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
+-   The Actions is one of the sections of a standard ticket page of the Service Portal, so get familiar with the [Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/standard-ticket-page.md) and [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md).
+-   For more information about configuring service portal widgets, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md).
 -   For more information about using and customizing the script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
 -   Ensure that you've set the application scope to Legal Request Management.
 
@@ -77,5 +78,5 @@ The base system `DefaultLegalTicketActions` script provides the configuration of
     4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Legal Request Management](../concept/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
 

@@ -2,6 +2,7 @@
 title: Example 2: Common Inputs: Sighting Search
 description: The example below demonstrates the common inputs capability action.Add common run time inputs that apply for all the selected implementations as applicable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/common-inputs.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,14 +24,14 @@ You can perform **Run Sighting Search** related integration capabilities action 
     **Note:** You can also navigate to the **Related Records** tab on the workspace to perform the integrations capabilities action.
 
 
-**Parent Topic:**[Unified Experience examples](../concept/unified-expereince-example.md)
+**Parent Topic:**[Unified Experience examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/unified-expereince-example.md)
 
 **Related topics**  
 
 
-[Example 1: Select implementations: Threat Lookup](example-1-select-implementations-threat-lookup.md)
+[Example 1: Select implementations: Threat Lookup]()
 
-[Example 3: Add specific runtime details inputs to an implementation: Run Additional Actions](example-3-add-specific-runtime-details-inputs.md#)
+[Example 3: Add specific runtime details inputs to an implementation: Run Additional Actions]()
 
 ## Add common inputs to an implementation
 
@@ -52,7 +53,7 @@ The available implementations are listed. Select the implementation\(s\), after 
 
     The investigation tab with the entry points lists is displayed.
 
-    ![Investigation tab of workspace](../image/example1.png)
+    \[Omitted image "example1.png"\] Alt text: Investigation tab of workspace
 
 4.  Select the associated observable from the entry point lists.
 
@@ -60,7 +61,7 @@ The available implementations are listed. Select the implementation\(s\), after 
 
     **Note:** You can select an implementation to perform a sighting search for the selected observables, or by selecting multiple implementations.
 
-    ![Run Threat Lookup](../image/example1-run-threat-lookup.png "Run Threat Lookup")
+    \[Omitted image "example1-run-threat-lookup.png"\] Alt text: Run Threat Lookup
 
 5.  Select any observable check box that you wish to perform the threat lookup.
 
@@ -68,7 +69,7 @@ The available implementations are listed. Select the implementation\(s\), after 
 
     The Run Sighting Search Implementations modal dialogue box is displayed.
 
-    ![An example that shows on how to add common runtime inputs by selecting Sightings Search capability](../image/example2-run-sighting-search.png "An example that shows on how to add common runtime inputs by selecting Sightings Search capability")
+    \[Omitted image "example2-run-sighting-search.png"\] Alt text: An example that shows on how to add common runtime inputs by selecting Sightings Search capability
 
 7.  Select one or more implementations from the list.
 
@@ -80,7 +81,7 @@ The available implementations are listed. Select the implementation\(s\), after 
 
 10. Click **Submit**.
 
-    ![Sighting search execution is under process](../image/sighting-search-request.png)
+    \[Omitted image "sighting-search-request.png"\] Alt text: Sighting search execution is under process
 
     After the selected records are submitted, a message is displayed that the Sighting search is being requested. Once the implementation is processed in the backend, the results are displayed in the **Sightings Search Results** related list section. Also, the respective implementation activity processing status is displayed in the **Activity** section.
 

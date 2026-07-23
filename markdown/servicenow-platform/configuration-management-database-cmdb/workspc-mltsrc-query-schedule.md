@@ -2,6 +2,7 @@
 title: Schedule a CMDB 360 query for a report
 description: Set up a schedule to regularly query for CMDB 360 data. Use scheduled queries to provide CMDB 360 data to reports you create, which can provide insight into how discovery sources populate the CMDB and the reliability of those discovery sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-schedule.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -19,7 +20,7 @@ Set up a schedule to regularly query for CMDB 360 data. Use scheduled queries to
 
 Ensure that you run the CMDB 360 query at least once.
 
-To access CMDB 360 in Service Graph Workspace, you must first switch from CMDB Workspace to Service Graph Workspace. For more information, see [Service Graph Workspace store app](../concept/sg-workspace.md).
+To access CMDB 360 in Service Graph Workspace, you must first switch from CMDB Workspace to Service Graph Workspace. For more information, see [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md).
 
 Role required: sn\_cmdb\_user and either cmdb\_ms\_admin or cmdb\_ms\_editor.
 
@@ -46,14 +47,14 @@ Role required: sn\_cmdb\_user and either cmdb\_ms\_admin or cmdb\_ms\_editor.
 
 ## What to do next
 
-Create a CMDB 360 report to integrate CMDB 360 query results with platform [Reporting capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-landing-page.md). Each run of the query automatically updates the generated report.
+Create a CMDB 360 report to integrate CMDB 360 query results with platform [Reporting capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting-landing-page.md). Each run of the query automatically updates the generated report.
 
 **Related topics**  
 
 
-[Create a Get Records query](workspc-mltsrc-query-get-records.md)
+[Create a Get Records query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-get-records.md)
 
-[Create a Find Gap query](workspc-mltsrc-query-find-gap.md)
+[Create a Find Gap query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.md)
 
-[Create a Compare Attribute Values query](workspc-mltsrc-query-comp-attr-value.md)
+[Create a Compare Attribute Values query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.md)
 

@@ -2,6 +2,7 @@
 title: Create repeatable events
 description: Events can be set to repeat on a regular schedule, such as every day, week, or month.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_CreateRepeatableEvents.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -31,25 +32,25 @@ You can create events even if the timeslot is booked by some other event.
 
 3.  On the New event form, fill the fields.
 
-    For a description of the field names, see [New event form](../reference/new-event-form.md).
+    For a description of the field names, see [New event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/new-event-form.md).
 
-    ![A repeating task](../image/RepeatingTask.png)
+    \[Omitted image "RepeatingTask.png"\] Alt text: A repeating task
 
     **Note:** Dates in the When and To field should the same.
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[My Calendar](../concept/c_MyCalendar.md)
+**Parent Topic:**[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_MyCalendar.md)
 
 **Related topics**  
 
 
-[Add events to your calendar](t_AddEventsToYourCalendar.md)
+[Add events to your calendar]()
 
-[View a user calendar](t_ViewAUserCalendar.md)
+[View a user calendar]()
 
-[Add events to a user calendar](t_AddEventsToAUserCalendar.md)
+[Add events to a user calendar]()
 
-[Delete events](t_DeleteEvents.md)
+[Delete events]()
 

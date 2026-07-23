@@ -2,6 +2,7 @@
 title: Create a case for supplier credit card enablement
 description: Create a supplier case to request for the credit card information from a supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-credit-card-enblmnt-case.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -35,9 +36,9 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
     In the **Case type** field, select **Credit card enablement**.
 
-    ![Credit card enablement case form](../image/create-credit-card-case.png)
+    \[Omitted image "create-credit-card-case.png"\] Alt text: Credit card enablement case form
 
-    For more information about the form fields and descriptions, see [Create New Supplier Case form](../reference/new-supplier-case.md).
+    For more information about the form fields and descriptions, see [Create New Supplier Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier-case.md).
 
 4.  Select **Save**.
 
@@ -54,18 +55,18 @@ The case is created in the **Open** state.
 
 After you submit the case, a playbook for this supplier case opens.
 
-For more information, see [Supplier credit card enablement playbook](../concept/credit-card-enblmnt-playbook.md).
+For more information, see [Supplier credit card enablement playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/credit-card-enblmnt-playbook.md).
 
-**Parent Topic:**[Using Supplier Payment Optimization](../concept/using-supp-payment-opt.md)
+**Parent Topic:**[Using Supplier Payment Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supp-payment-opt.md)
 
 **Related topics**  
 
 
-[Using Supplier Payment Optimization](../concept/using-supp-payment-opt.md)
+[Using Supplier Payment Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supp-payment-opt.md)
 
-[View the Payment Optimization dashboard](view-payment-opt-db.md)
+[View the Payment Optimization dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-payment-opt-db.md)
 
-[Case playbook for specific supplier case types](../concept/gen-playbook-cases.md)
+[Case playbook for specific supplier case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/gen-playbook-cases.md)
 
-[Estimate savings using the saving estimator tool](estimate-savings.md)
+[Estimate savings using the saving estimator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/estimate-savings.md)
 

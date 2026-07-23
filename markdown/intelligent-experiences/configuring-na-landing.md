@@ -2,9 +2,10 @@
 title: Configuring Now Assist Admin features
 description: Use the Now Assist Admin console to activate the various Now Assist applications and skills that you’re entitled to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configuring-na-landing.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Admin, HRSD, HR Service Delivery, Creator]
 breadcrumb: [Now Assist, Enable AI experiences]
@@ -20,18 +21,20 @@ Install and activate the plugins, turn on the Now Assist panel, and view the acc
 
 The following example shows the Settings page with four available plugins to install, including Now Assist for HRSD and Now Assist for Creator.
 
-![Now Assist settings page that lets you install plugins, activate the Now Assist panel, and view account details.](../image/config-now-assist-1.png "Now Assist Admin settings page")
+\[Omitted image "config-now-assist-1.png"\] Alt text: Now Assist settings page that lets you install plugins, activate the Now Assist panel, and view account details.
 
--   **[Install Now Assist plugins](../task/install-now-assist-feature-plugins.md)**  
+-   **[Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)**  
 Install Now Assist plugins to enable generative AI on your instance.
--   **[Activate the Now Assist panel standard chat](../task/activate-now-assist-panel.md)**  
-Activate the Now Assist panel standard chat to enable your agents to use Now Assist skills, such as task summarization or navigation, in a side panel on the user interface.
--   **[Activate Now Assist panel enhanced chat](../../now-assist-platform/task/now-assist-panel-enhanced-activate.md)**  
+-   **[Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)**  
+Activate the Now Assist panel standard chat to enable your agents to use Now Assist skills, in a side panel on the user interface.
+-   **[Activate Now Assist panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md)**  
 Activate the Now Assist panel enhanced chat to enable your agents to use Now Assist skills, such as task summarization or navigation, in a side panel on the user interface.
--   **[Activate Now Assist panel assistants](../../now-assist-platform/task/now-assist-panel-activate-assistant.md)**  
+-   **[Activate Now Assist panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-activate-assistant.md)**  
 You must activate Now Assist panel assistants before using them.
--   **[Enable voice input for Now Assist panel](../task/enable-voice-input-for-now-assist-panel.md)**  
+-   **[Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md)**  
 Give users the option to use their voice when interacting with the Now Assist panel to make the panel more accessible. Voice input enables you to use the panel without needing to use a keyboard.
+-   **[Configure disambiguation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nava-configure-disambiguation-manually.md)**  
+Configure the disambiguation property that controls when the assistant asks clarifying questions before responding to a Now Assist in Virtual Agent or Now Assist panel user request.
 
-**Parent Topic:**[Now Assist](../../now-assist-platform/concept/platform-now-assist-landing.md)
+**Parent Topic:**[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 

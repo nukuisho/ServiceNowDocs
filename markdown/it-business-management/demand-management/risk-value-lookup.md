@@ -1,7 +1,8 @@
 ---
-title: Configure a custom Risk rank and Risk value for a demand
+title: Configure a custom Risk rank and Risk value
 description: Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/risk-value-lookup.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Add risks for a demand, RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Configure a custom Risk rank and Risk value for a demand
+# Configure a custom Risk rank and Risk value
 
 Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 
@@ -40,7 +41,7 @@ For example, a risk might have high probability and medium impact but you might 
 -   Probability Number = 1
 -   Risk Value = 3 Low
 
-The following image illustrates a Risk form.![Risk rank and risk value in the Risk form](../image/risk-value-form-color.png)
+The following image illustrates a Risk form.\[Omitted image "risk-value-form-color.png"\] Alt text: Risk rank and risk value in the Risk form
 
 ## Procedure
 
@@ -50,10 +51,10 @@ The following image illustrates a Risk form.![Risk rank and risk value in the Ri
 
 3.  On the risk value matcher form, fill in the fields.
 
-    For a description of the field names, see [Risk value matcher form](../reference/risk-value-matcher-form.md).
+    For a description of the field names, see [Risk value matcher form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/risk-value-matcher-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Add risks for a demand](add-risks-for-demand.md)
+**Parent Topic:**[Add risks for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/add-risks-for-demand.md)
 

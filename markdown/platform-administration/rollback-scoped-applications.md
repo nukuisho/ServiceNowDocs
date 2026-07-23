@@ -2,6 +2,7 @@
 title: Roll back an application
 description: As an administrator, you can roll back the last installation of a selected application. When you roll back an application, you remove all code, table, and file updates from the initial installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/rollback-scoped-applications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +17,7 @@ As an administrator, you can roll back the last installation of a selected appli
 ## Before you begin
 
 -   Publish one or more applications to the application repository.
--   The selected application must have been installed in the application repository or the application store. See [Install a ServiceNow Store application](t_InstallApplications.md).
+-   The selected application must have been installed in the application repository or the application store. See [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
 Role required: admin
 
@@ -24,7 +25,7 @@ Role required: admin
 
 You can roll back the last installation or upgrade of all applications that are installed from the application store or repository. Rolling back an installation enables you to make needed changes to artifacts associated with an application before you publish and install it again.
 
-**Note:** This rollback does not affect the global application record. To remove the global application record, you must instead perform an uninstall of the application. See [Uninstall an application](t_UninstallApplications.md).
+**Note:** This rollback does not affect the global application record. To remove the global application record, you must instead perform an uninstall of the application. See [Uninstall an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_UninstallApplications.md).
 
 ## Procedure
 
@@ -37,10 +38,10 @@ You can roll back the last installation or upgrade of all applications that are 
 4.  In the custom application record, click the **Rollback** related link.
 
 
-**Parent Topic:**[Rolling back and removing applications](../concept/c_RemovingApplications.md)
+**Parent Topic:**[Rolling back and removing applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_RemovingApplications.md)
 
 **Related topics**  
 
 
-[Uninstall an application](t_UninstallApplications.md)
+[Uninstall an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_UninstallApplications.md)
 

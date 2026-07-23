@@ -2,6 +2,7 @@
 title: Associate an interaction record to a supplier case
 description: Associate an interaction record to a supplier case if your interaction is related to an existing supplier case in Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/associate-interaction-supplier-case.dita.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,17 +24,17 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the List icon \(![List icon.](../image/cases-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **All work** &gt; **Interactions**
 
 4.  In the Number column, select the link to an interaction that you want to associate with a supplier case.
 
-5.  Select More Actions ![More actions icon.](../image/more-actions-icon.png) and then select **Associate record**.
+5.  Select More Actions \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. and then select **Associate record**.
 
     The Create New Interaction Related Record form appears in a new tab.
 
-6.  In the **Supplier case** field, search for and select a supplier case that you want to associate with the interaction.![Associate record pop-up window.](../image/associate-interaction-supplier-case.png)
+6.  In the **Supplier case** field, search for and select a supplier case that you want to associate with the interaction.\[Omitted image "associate-interaction-supplier-case.png"\] Alt text: Associate record pop-up window.
 
 7.  Select **Save**.
 
@@ -42,12 +43,12 @@ Role required: admin
 
 The interaction record is linked to the supplier case.
 
-**Parent Topic:**[Interaction Management in Supplier Lifecycle Operations](../concept/interaction-mgmt-supplier-mgr-ws.md)
+**Parent Topic:**[Interaction Management in Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/interaction-mgmt-supplier-mgr-ws.md)
 
 **Related topics**  
 
 
-[Interaction Management in Supplier Lifecycle Operations](../concept/interaction-mgmt-supplier-mgr-ws.md)
+[Interaction Management in Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/interaction-mgmt-supplier-mgr-ws.md)
 
-[View or create an interaction for a supplier](create-new-interaction.md)
+[View or create an interaction for a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-interaction.md)
 

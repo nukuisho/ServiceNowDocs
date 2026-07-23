@@ -2,6 +2,7 @@
 title: Stream Connect alerting
 description: Receive alerts and alert notifications for Stream Connect integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-alert.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -26,11 +27,11 @@ Stream Connect uses both event-type alerts and threshold alerts. Each type of al
 -   Threshold alerts are created when a value transitions from below the threshold to at or above the threshold. For example, when the lag on a topic goes beyond a certain number of messages, or the processing time of the messages in a topic is above a specified value. When a threshold alert decreases from at or above a threshold to below it, the active flag on the alert is set to false. Threshold alerts are detected through scheduled monitoring, where a scheduled job runs scripted checks on Stream Connect integrations. An alert is generated for thresholds that meet the alert configuration specified by the alerting properties.
 
 
-For a list and description of the alerts, or to configure alerting properties, see [Stream Connect Alerting properties](../reference/sc-alert-properties.md). You must have the Kafka Admin role to view or modify alerting properties.
+For a list and description of the alerts, or to configure alerting properties, see [Stream Connect Alerting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sc-alert-properties.md). You must have the Kafka Admin role to view or modify alerting properties.
 
 ## Alert table
 
-When an alert is triggered for the first time, an Alert \[sys\_sc\_alert\] record is added to the Stream Connect Alerts \[sys\_sc\_alerts\] table. If the same alert is triggered again, and the original alert record is still active, the record’s **Last Detections \[last\_detection\]** field is updated. If the original alert record is not active, a new record is added to the alerts table. An alert record is deactivated when the alert has not been triggered for a specified amount of time. This time interval varies depending on the type of alert and can be modified in the [Stream Connect Alerting properties](../reference/sc-alert-properties.md) UI.
+When an alert is triggered for the first time, an Alert \[sys\_sc\_alert\] record is added to the Stream Connect Alerts \[sys\_sc\_alerts\] table. If the same alert is triggered again, and the original alert record is still active, the record’s **Last Detections \[last\_detection\]** field is updated. If the original alert record is not active, a new record is added to the alerts table. An alert record is deactivated when the alert has not been triggered for a specified amount of time. This time interval varies depending on the type of alert and can be modified in the [Stream Connect Alerting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sc-alert-properties.md) UI.
 
 The Stream Connect alerts table shows if an alert is active and the alert's severity level, type, and updated date. It also displays:
 
@@ -59,7 +60,7 @@ Administrators can configure notification settings based on alert types, user pr
 -   Stream Connect Alert - WARNING
 -   Stream Connect Alert - CRITICAL
 
-You can opt in to different levels using the standard system notification capabilities on the platform. Administrators can also configure notification debounce settings, including the time interval and criteria for consolidating alerts. For notification details, see [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md).
+You can opt in to different levels using the standard system notification capabilities on the platform. Administrators can also configure notification debounce settings, including the time interval and criteria for consolidating alerts. For notification details, see .
 
 Notifications are sent to users who are members of the Stream Connect Alert Notifications group. The Stream Connect Alert Notifications group members inherit the Stream Connect Alert Viewer role so that everyone who receives notifications can use the link in the notification to see the alert record.
 
@@ -82,8 +83,8 @@ The domain used to look up properties is the domain of the topic or consumer. Th
 
 Stream Connect alerting requires the ServiceNow Stream Connect Alerting \[com.glide.hub.stream\_connect.alerting\] plugin. This plugin is automatically activated when the ServiceNow Stream Connect Installer\[com.glide.hub.stream\_connect.installer\] plugin is activated.
 
--   **[Stream Connect Alerting properties](../reference/sc-alert-properties.md)**  
+-   **[Stream Connect Alerting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sc-alert-properties.md)**  
 Specify alert properties and how alerts are managed in Stream Connect.
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

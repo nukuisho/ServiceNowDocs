@@ -2,11 +2,12 @@
 title: Create a checklist template
 description: Agents workspace enables the manufacturer to create a checklist for verification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-checklist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [My promotions, Sales promotion management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a checklist template
@@ -33,7 +34,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
         **Note:** These checklist items are displayed on the case line.
 
-    -   To delete a checklist item, select ![Delete](../../../common/image/icon-delete-trashcan.png)
+    -   To delete a checklist item, select \[Omitted image "icon-delete-trashcan.png"\] Alt text: Delete
 5.  Select **Create**.
 
 
@@ -48,10 +49,8 @@ To duplicate a checklist, do the following:
 1.  Select **Edit checklist**.
 2.  Select **Duplicate**.
 
-**Parent Topic:**[My promotions](mco-my-promotions.md)
-
 **Related topics**  
 
 
-[Create a checklist template](mco-checklist-template.md)
+[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-checklist-template.md)
 

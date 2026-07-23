@@ -2,13 +2,14 @@
 title: Install OT Asset Management
 description: You can install the OT Asset Management application \(com.sn\_otam\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-otam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Install OT Asset Management
@@ -29,7 +30,7 @@ The following items are installed with OT Asset Management:
 -   Store applications
 -   Roles
 
-For more information, see [Installed with OT Asset Management](../reference/installed-with-otam.md).
+For more information, see [Installed with OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/installed-with-otam.md).
 
 ## Procedure
 
@@ -54,16 +55,16 @@ For more information, see [Installed with OT Asset Management](../reference/inst
 6.  Select **Install**.
 
 
-**Parent Topic:**[OT Asset Management](../concept/ot-asset-management.md)
+**Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/ot-asset-management.md)
 
 **Related topics**  
 
 
-[OT Asset Management licensing](../concept/licensing-ot-asset-management.md)
+[OT Asset Management licensing]()
 
-[Installed with OT Asset Management](../reference/installed-with-otam.md)
+[Installed with OT Asset Management]()
 
-[OT Asset Workspace](../concept/ot-asset-ws-otam.md)
+[OT Asset Workspace]()
 
-[Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets](../concept/asset-ci-sync-ot-assets.md)
+[Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets]()
 

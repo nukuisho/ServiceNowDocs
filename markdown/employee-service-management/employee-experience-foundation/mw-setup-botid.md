@@ -2,6 +2,7 @@
 title: Configure bot ID and AI assistant
 description: Specify the bot ID to configure Moveworks AI assistant on Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mw-setup-botid.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,9 +40,9 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
 
 3.  Specify the initialization options in JSON format for Moveworks integration.
 
-    ![Example for illustration purpose only, Embedded AI Assistant setup for Moveworks](../images/mw-embed-ai-botid.png "Example: Embedded AI Assistant setup for Moveworks")
+    \[Omitted image "mw-embed-ai-botid.png"\] Alt text: Example for illustration purpose only, Embedded AI Assistant setup for Moveworks
 
-    You can configure initialization options according to your requirement. For example, for custom width and height,
+    You can configure initialization options, for example, To adjust width and height
 
     ```
     
@@ -54,11 +55,11 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
     
     ```
 
-    For complete configuration with branding,
+    For complete configuration with branding
 
     ```
     
-    {
+    {"integrationId":"securitytest5"
     "styles": {
        "bottom": "30px",
        "right": "30px",
@@ -71,6 +72,10 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
     }
     ```
 
+    **Note:**
+
+    The integrationId value must match the connector name on the Moveworks side for [authentication steps](https://help.moveworks.com/ai-assistant/ai-assistant-web-surfaces/moveworks-for-web/moveworks-for-web-installation-servicenow#installation-steps).
+
 4.  Select **Save configuration**.
 
 
@@ -82,12 +87,12 @@ The Moveworks application is ready for use. You can access the features and func
 
 You can perform the following actions:
 
--   Verify the Moveworks chatbot visibility from **All** &gt; **Self-Service** &gt; **Employee Center** portal. For more information, see [Use Moveworks on employee portal](../concept/mw-employee-chat-ui.md).
+-   Verify the Moveworks chatbot visibility from **All** &gt; **Self-Service** &gt; **Employee Center** portal. For more information, see [Use Moveworks on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md).
 -   Test basic functionality by invoking the assistant and asking a sample question.
 -   Check system properties and verify that all Moveworks specific properties are configured properly.
 
 **Related topics**  
 
 
-[Moveworks for Employee Center reference](../reference/mw-ec-integration-reference.md)
+[Moveworks for Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
 

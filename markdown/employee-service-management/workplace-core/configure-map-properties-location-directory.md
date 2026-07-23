@@ -2,6 +2,7 @@
 title: Configure map properties for Location Directory
 description: Configure map properties to enable reservation states, occupancy states, display permanent seat assignments, or auto-refresh time interval for showing the latest reservation and occupancy information on the map. Show or hide neighborhoods on the Location directory by using a map property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/configure-map-properties-location-directory.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Configure the map properties for the Location directory.
 
-    For more information about the map properties, see [Properties installed with Workplace Space Mapping](../../workplace-space-mapping/reference/wsd-space-mapping-properties.md).
+    For more information about the map properties, see [Properties installed with Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsd-space-mapping-properties.md).
 
 3.  Select **Save**.
 
@@ -40,12 +41,12 @@ Role required: admin
     3.  Set the value of the property to **true** and save the record.
 
 
-**Parent Topic:**[Manage workplace activities and services with Location directory](../concept/location-directory.md)
+**Parent Topic:**[Manage workplace activities and services with Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 **Related topics**  
 
 
-[Work with the Map view on the Location Directory](wsd-map-view-loc-directiory.md)
+[Work with the Map view on the Location Directory]()
 
-[Work with the Card view on the Location directory](wsd-card-view-loc-directory.md)
+[Work with the Card view on the Location directory]()
 

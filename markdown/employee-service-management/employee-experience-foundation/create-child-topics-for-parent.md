@@ -2,6 +2,7 @@
 title: Create a child topic
 description: Create child topics for the parent topic in the taxonomy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-child-topics-for-parent.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,13 +28,13 @@ User criteria required: Taxonomy Manager, Taxonomy Contributor, Topic Manager, T
 
 2.  Click and open the parent topic to which you want to add a child topic.
 
-    ![Associating topic to the related tabs](../images/associate-topics-tabs.png "Child topics tab")
+    \[Omitted image "associate-topics-tabs.png"\] Alt text: Associating topic to the related tabs
 
 3.  On the **Child Topics** tab, click **New**.
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields and description, see [Topic form](../reference/topic-form.md).
+    For more information on the fields and description, see [Topic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/topic-form.md).
 
 5.  Click **Submit**.
 
@@ -41,5 +42,5 @@ User criteria required: Taxonomy Manager, Taxonomy Contributor, Topic Manager, T
 **Related topics**  
 
 
-[Associate connected content to a topic](associate-content-to-topics.md)
+[Associate connected content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/associate-content-to-topics.md)
 

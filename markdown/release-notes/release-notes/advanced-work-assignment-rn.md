@@ -16,26 +16,26 @@ The ServiceNow® Advanced Work Assignment \(AWA\) application automatically assi
 
 Use AWA with non-task and non-interaction tables such as leads, opportunities, orders, and quotes.
 
-See [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md) for more information.
+See [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-application-landing-page.md) for more information.
 
 ## New in the Australia release
 
--   **[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md)**
+-   **[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-application-landing-page.md)**
 
     Configure routing for non-task and non-interaction tables such as leads, opportunities, orders, and quotes in AWA.
 
--   **[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md)**
+-   **[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-application-landing-page.md)**
 
     Use telephone-style transfer workflows in AWA to enable warm transfers where agents consult privately before merging calls with the customer.
 
 
 ## Activation information
 
-AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-activate.md).
+AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-activate.md).
 
 ## Browser requirements
 
-Advanced Work Assignment doesn’t support mobile devices or Microsoft Edge browsers. Instead, use Microsoft Edge - Chromium or one of the other supported browsers that are listed in [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Advanced Work Assignment doesn’t support mobile devices or Microsoft Edge browsers. Instead, use Microsoft Edge - Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 ## Related ServiceNow applications and features
 
@@ -44,5 +44,5 @@ Advanced Work Assignment doesn’t support mobile devices or Microsoft Edge brow
     The Now Assist application uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 
 
-**Parent Topic:**[Conversational Interfaces release notes](conversational-interfaces-rn-landing.md)
+**Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/conversational-interfaces-rn-landing.md)
 

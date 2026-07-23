@@ -2,11 +2,12 @@
 title: Handle errors in RPA Desktop Design Studio
 description: Handle errors at the component level and activity level in RPA Desktop Design Studio. You can use the Error Handler option to handle the errors that occur during an automation execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/error-handling-rpa-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Handle errors in RPA Desktop Design Studio
@@ -15,9 +16,9 @@ Handle errors at the component level and activity level in RPA Desktop Design St
 
 ## Before you begin
 
-Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](configure-components.md).
+Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-components.md).
 
-Create an activity. For more information, see [Create and use an activity in RPA Desktop Design Studio](configure-activity-rpa-studio.md).
+Create an activity. For more information, see [Create an activity manually in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-activity-rpa-studio.md).
 
 Role required: none
 
@@ -25,15 +26,15 @@ Role required: none
 
 1.  In the RPA Desktop Design Studio, select one of the following options to handle errors either at a component level or at an activity level.
 
-<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d573392e89">
+<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d580440e89">
 
 Option
 
-</th><th align="left" id="d573392e92">
+</th><th align="left" id="d580440e92">
 
 Action and description
 
-</th></tr></thead><tbody><tr><td id="d573392e98">
+</th></tr></thead><tbody><tr><td id="d580440e98">
 
 **To handle errors at a component level**
 
@@ -41,7 +42,7 @@ Action and description
 
 On the Design surface, right-click the component title bar and select **Error Handler** to open the ERROR HANDLER dialog box.
 
-</td></tr><tr><td id="d573392e110">
+</td></tr><tr><td id="d580440e110">
 
 **To handle errors at an activity level**
 
@@ -104,5 +105,5 @@ Retries the execution of the component where the error occurs.After selecting th
 </table>3.  Click **OK**.
 
 
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
 

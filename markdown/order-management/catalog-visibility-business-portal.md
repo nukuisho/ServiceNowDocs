@@ -2,6 +2,7 @@
 title: Configuring product catalog visibility on the Business Portal
 description: Only authorized customers can view the product catalog on the Business Portal by default. After setting up your product catalog and pricing, use the CustomerPortalCatalogAccessUtil script include to extend catalog visibility to additional users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/catalog-visibility-business-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-17"
@@ -17,5 +18,12 @@ When customers access the Business Portal, the product catalog is visible by def
 
 To grant product catalog visibility to other users, use the CustomerPortalCatalogAccessUtil script to extend access to those users. Navigate to **All** &gt; **Activity Subscriptions** &gt; **Administration** &gt; **Script Includes**. In the **Name** column, search for CustomerPortalCatalogAccessUtil.
 
-You must also set up your product catalog and configure pricing to help ensure that the correct products and prices are available to customers on the portal. For more information, see [Configuring product offerings and catalogs](som-managing-product-catalogs.md) and [Configuring product pricing](som-managing-product-pricing.md).
+You must also set up your product catalog and configure pricing to help ensure that the correct products and prices are available to customers on the portal. For more information, see [Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-catalogs.md) and [Configuring product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-pricing.md).
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+
+[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 

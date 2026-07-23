@@ -2,6 +2,7 @@
 title: Create promotion type
 description: As a OEM or manufacturer, create a sales promotion type that is applicable to a specific set of promotions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/create-promotion-type.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,11 +20,15 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Setup** &gt; **Promotion Types**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
 
-2.  Select **New**.
+2.  Select the List icon.
 
-3.  On the form, fill in the fields.
+3.  Navigate to **Sales Promotion Setup** &gt; **Promotion Types**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_lmd_qm4_4fc"><thead><tr><th>
 
@@ -47,7 +52,7 @@ Input set
 
 </td><td>
 
-MCO input set. This field contains a set of questionnaires. To create an input set, see [Create promotion questionnaire](mco-create-input-set.md).
+MCO input set. This field contains a set of questionnaires. To create an input set, see [Create promotion questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-input-set.md).
 
 </td></tr><tr><td>
 
@@ -58,6 +63,6 @@ Description
 Short description of the sales promotion type.
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>6.  Select **Save**.
 
 

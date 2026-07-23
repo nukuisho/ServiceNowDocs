@@ -2,6 +2,7 @@
 title: Rollup MITRE-ATT&amp;CK information using Threat Lookup results
 description: If you have not enabled automatic rollup of MITRE-ATT&amp;CK information, you can do this manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/rollup-threat-lookup-results.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from Threat Lookup results](configure-mitre-att-ck-properties.md) to security incident, then the information is automatically rolled up. If you have not enabled automatic rollup, you can do this manually.
+If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from Threat Lookup results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-att-ck-properties.md) to security incident, then the information is automatically rolled up. If you have not enabled automatic rollup, you can do this manually.
 
 ## Procedure
 
@@ -35,29 +36,29 @@ If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from Thre
 
 5.  Click **Reload** to confirm the changes.
 
-    The following illustration shows how to select an observable and roll up the Threat Lookup results to the security incident.![Manually rollup threat lookup results.](../image/mitre-rollup-threat-lookup.gif)
+    The following illustration shows how to select an observable and roll up the Threat Lookup results to the security incident.\[Omitted image "mitre-rollup-threat-lookup.gif"\] Alt text: Manually rollup threat lookup results.
 
     You can view the MITRE-ATT&amp;CK Card to confirm that the Threat Lookup results have been rolledup to the security incident.
 
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](../concept/mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
 
 **Related topics**  
 
 
-[Associate MITRE-ATT&amp;CK information with security incidents](associate-mitre-with-sir.md#)
+[Associate MITRE-ATT&amp;CK information with security incidents]()
 
-[Associate MITRE-ATT&amp;CK information with observables](associate-mitre-observables.md)
+[Associate MITRE-ATT&amp;CK information with observables]()
 
-[Associate MITRE-ATT&amp;CK information with security case](../../threat-intelligence-case-management/task/associate-mitre-att-ck-information-with-security-case-management.md)
+[Associate MITRE-ATT&amp;CK information with security case]()
 
-[Rollup MITRE-ATT&amp;CK information from detection rules](rollup-mitre-attack-information-detection-rules.md)
+[Rollup MITRE-ATT&amp;CK information from detection rules]()
 
-[Rollup MITRE-ATT&amp;CK information from child security incidents](rollup-mitre-att-ck-information-from-child-security-incidents.md)
+[Rollup MITRE-ATT&amp;CK information from child security incidents]()
 
-[Perform link analysis and threat hunting using MITRE-ATT&amp;CK specific filters](link-analysis-threat-hunt-mitre.md)
+[Perform link analysis and threat hunting using MITRE-ATT&amp;CK specific filters]()
 
-[MITRE-ATT&amp;CK heat map and navigator](../concept/mitre-att-ck-heatmap-and-navigator.md#)
+[MITRE-ATT&amp;CK heat map and navigator]()
 
-[Using the MITRE-ATT&amp;CK dashboard](../concept/mitre-dashboards.md#)
+[Using the MITRE-ATT&amp;CK dashboard]()
 

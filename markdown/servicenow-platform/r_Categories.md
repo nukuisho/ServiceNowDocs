@@ -2,6 +2,7 @@
 title: Assessment scorecard categories
 description: The Categories view displays a bar chart showing the average ratings for each category in the selected time interval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_Categories.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,24 +20,24 @@ Select from these reporting periods:
 -   Last 3 Months
 -   Last 12 Months
 
-![Scorecard categories](../images/ScorecardCategories.png "Scorecard categories")
+\[Omitted image "ScorecardCategories.png"\] Alt text: Scorecard categories
 
-**Parent Topic:**[View an assessment scorecard](../task/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 
 
-[Create a link to a scorecard](../task/t_CreateALinkToAScorecard.md)
+[Create a link to a scorecard]()
 
-[Assessment scorecard averages](r_Averages.md)
+[Assessment scorecard averages]()
 
-[Assessment scorecard category metrics](r_CategoryMetrics.md)
+[Assessment scorecard category metrics]()
 
-[Assessment scorecard head-to-head compare view](r_HeadToHeadCompare.md)
+[Assessment scorecard head-to-head compare view]()
 
-[Assessment scorecard history](r_History.md)
+[Assessment scorecard history]()
 
-[Live feed view of assessable records](r_LiveFeed.md)
+[Live feed view of assessable records]()
 
-[Assessment scorecard ratings](r_Ratings.md)
+[Assessment scorecard ratings]()
 

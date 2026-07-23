@@ -2,6 +2,7 @@
 title: Define user criteria status as active or inactive
 description: Learn how to define a user criteria component's status as active or inactive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/user-criteria-active-inactive.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ Role required: admin
 
 4.  Locate the record that contains the user criteria definition by using the menu panel, and then open the record.
 
-5.  Select the more button \(![Mobile App Builder more menu.](../image/mab-option-menu.png)\) and select the **Open in platform** option, to open the web-based UI.
+5.  Select the more button \(\[Omitted image "mab-option-menu.png"\] Alt text: Mobile App Builder more menu.\) and select the **Open in platform** option, to open the web-based UI.
 
 6.  In the **User criteria mappings** area of the selected component, in the **Active** column select a user criteria whose active definition you want to change.
 
@@ -46,5 +47,5 @@ Role required: admin
 9.  Select and hold \(or right-click\) in the header and select **Save** from the menu.
 
 
-**Parent Topic:**[User criteria permissions in mobile apps](../concept/user-criteria-permissions.md)
+**Parent Topic:**[User criteria permissions in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/user-criteria-permissions.md)
 

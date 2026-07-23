@@ -2,6 +2,7 @@
 title: Manage consumer access to replication data in Instance Data Replication
 description: Approve a consumer's request to access replication data in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/approve-consumer.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -50,27 +51,27 @@ You can review consumer access requests for all of your producer replication set
         **Note:** You can change the Consumer Approval Status to Denied to prevent the consumer from receiving the replicated data.
 
 
--   **[Revoke access to replicated data for Instance Data Replication](revoke-consumer-sets.md)**  
+-   **[Revoke access to replicated data for Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/revoke-consumer-sets.md)**  
 Revoke a consumer's access to replicated data if you believe that consumer instance should no longer receive data in Instance Data Replication \(IDR\).
--   **[Restore access to replication data for Instance Data Replication](restore-access.md)**  
+-   **[Restore access to replication data for Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/restore-access.md)**  
 Restore Instance Data Replication \(IDR\) access to replicated data by sending a request to the producer replication set admin.
 
-**Parent Topic:**[Administering Instance Data Replication](../concept/administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 
 
-[Comparing replicated data between instances in Instance Data Replication](../concept/comparing-replicated-data.md)
+[Comparing replicated data between instances in Instance Data Replication]()
 
-[Deploying a replication configuration from one instance to another in Instance Data Replication](../concept/copying-replication-configuration.md)
+[Deploying a replication configuration from one instance to another in Instance Data Replication]()
 
-[Cloning options with Instance Data Replication](../concept/cloning-with-instance-data-replicaton.md)
+[Cloning options with Instance Data Replication]()
 
-[Monitoring replication status in Instance Data Replication](../concept/instance-data-replication-dashboard.md)
+[Monitoring replication status in Instance Data Replication]()
 
-[Monitoring queues in Instance Data Replication](../concept/idr-queue-dashboard.md)
+[Monitoring queues in Instance Data Replication]()
 
-[Avoiding insert and update errors in Instance Data Replication](../concept/preventing-insert-update-errors.md)
+[Avoiding insert and update errors in Instance Data Replication]()
 
-[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+[Resolving data replication errors in Instance Data Replication]()
 

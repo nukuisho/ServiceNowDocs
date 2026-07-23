@@ -2,9 +2,10 @@
 title: Share an Operational Sustainability Management dashboard
 description: Share a dashboard with other users, groups, or roles to create a shared view of data that you can use to collaborate. You can grant viewing permissions or both viewing and editing permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/share-an-esg-dashboard.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -31,9 +32,9 @@ Only admins can see roles in the Sharing panel.
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Analytics dashboard**.
 
-2.  Select the Analytics dashboard icon ![](../images/dashboard-icon.png) and then select the dashboard you want to share.
+2.  Select the Analytics dashboard icon \[Omitted image "dashboard-icon.png"\] Alt text: and then select the dashboard you want to share.
 
-3.  Select the More actions icon ![](../images/more-menu.png) and select **Share**.
+3.  Select the More actions icon \[Omitted image "more-menu.png"\] Alt text: and select **Share**.
 
 4.  Enter the names of one or more users, groups, or roles you want to share the dashboard with.
 
@@ -45,7 +46,7 @@ Only admins can see roles in the Sharing panel.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d24261e123">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d24554e123">
 
 **Add as viewer**
 
@@ -53,7 +54,7 @@ Only admins can see roles in the Sharing panel.
 
 Grant only viewing permissions to the users, groups, or roles you’re sharing the dashboard with. They can’t edit it.
 
-</td></tr><tr><td id="d24261e132">
+</td></tr><tr><td id="d24554e132">
 
 **Add as editor**
 
@@ -68,8 +69,8 @@ Grant editing permissions to the users, groups, or roles you’re sharing the da
 
 8.  Select **Confirm**.
 
-9.  Select the View dashboard details icon ![](../images/details-icon.png) to view who the dashboard has been shared with and where it’s visible.
+9.  Select the View dashboard details icon \[Omitted image "details-icon.png"\] Alt text: to view who the dashboard has been shared with and where it’s visible.
 
 
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

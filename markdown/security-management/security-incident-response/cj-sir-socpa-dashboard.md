@@ -2,12 +2,13 @@
 title: Security Operations Efficiency dashboard
 description: Security operations center \(SOC\) managers can view overall efficiency metrics and measure the individual performance of the SOC team members in the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/cj-sir-socpa-dashboard.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Security Incident Response Platform Analytics Solutions, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -19,17 +20,9 @@ The SOC manager can use the Performance Analytics dashboard to improve efficienc
 
 ## Analyst Efficiency tab
 
-![Performance Analytics SOC Efficiency dashboard: Analyst Efficiency tab](../image/cj-sir-soc-analyst.png)
+\[Omitted image "cj-sir-soc-analyst.png"\] Alt text: Performance Analytics SOC Efficiency dashboard: Analyst Efficiency tab
 
-Click any of the indicators to drill down for further details. For example, click the indicator in the Average security incidents worked per analyst section. ![Analyst Efficiency: Overview](../image/cj-sir-soc-analyst-1.png)
-
-The graph shows that the number of open security incidents have increased from 0 in March to over 40 in May. Notice the data displayed in the header:
-
--   Trend indicator: Shows the change in number of open incidents in the latest time period for which the data has been collected. This chart shows data for the period March 2019 to May 2019 and the number of open incidents has increased by 19 in the month of May. Analyst efficiency is better if the number of open incidents has decreased over a period of time.
--   No. of scores: The period for which the data has been collected \(March to May 2019\).
--   Sum: The number of new open incidents for the period between March and May.
--   Change: The number of new open incidents between March and April.
--   Average: The average number of open incidents per analyst for the selected period.
+Select any of the indicators to drill down for further details. For example, select the indicator in the Average security incidents worked per analyst section.
 
 |Indicator|Description|
 |---------|-----------|
@@ -43,8 +36,6 @@ The graph shows that the number of open security incidents have increased from 0
 |Security incident resolution time|The average number of days taken to resolve security incidents during the specified period. Select an option from the Breakdown list to view the security incident resolution time for each analyst, security group, priority, and so on. The formula used to show the result in days is `([[Summed duration of closed security incidents > Security Incident Category = Malicious code activity > Security Assigned To = John Ashby / By month AVG +]] / [[Number of closed security incidents > Security Incident Category = Malicious code activity > Security Assigned To = John Ashby / By month AVG +]]) / 24`|
 
 ## Detection and Response Effectiveness tab
-
-![Performance Analytics SOC Efficiency dashboard: Detection and Response Effectiveness tab](../image/cj-sir-soc-detect.png)
 
 <table id="table_hr2_cbs_vhb"><thead><tr><th>
 
@@ -121,8 +112,6 @@ The total number of closed security incidents in the specified period and the av
 </td></tr></tbody>
 </table>## Incident Risk Score Analysis tab
 
-![Performance Analytics dashboard: Incident Risk Score Analysis tab](../image/cj-sir-soc-riskscore.png)
-
 |Indicator|Description|
 |---------|-----------|
 |Total risk exposure analysis|Total number of open incidents in each risk category \(low, moderate, and critical\) in the specified period. You can also compare the number of incidents in the different risk categories between two months.|
@@ -131,20 +120,18 @@ The total number of closed security incidents in the specified period and the av
 
 ## Security Incident Stage Analysis tab
 
-![Performance Analytics SOC dashboard: Security Incident Stage Analysis tab](../image/cj-sir-soc-stage.png)
+You can see the number of open incidents on a specific day and the status \(analysis, draft, contain, eradicate, recover, or review\) of these incidents. On each stage, you can view average age, affected CIs, response tasks, and so on. Select a link to view additional details or the breakdown of these incidents.
 
-You can see the number of open incidents on a specific day and the status \(analysis, draft, contain, eradicate, recover, or review\) of these incidents. On each stage, you can view average age, affected CIs, response tasks, and so on. Click on a link to view additional details or the breakdown of these incidents.
-
-**Parent Topic:**[Security Incident Response Platform Analytics Solutions](../../../use/dashboards/application-content-packs/security-incident-content-pack.md)
+**Parent Topic:**[Security Incident Response Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-content-pack.md)
 
 **Related topics**  
 
 
-[CISO dashboard](../../../use/dashboards/application-content-packs/ciso-dashboard.md)
+[CISO dashboard]()
 
-[Security Incident Management Premium dashboard](../../../use/dashboards/application-content-packs/si-mgmt-premium-dashboard.md)
+[Security Incident Management Premium dashboard]()
 
-[Security Incident Management dashboard](../../../use/dashboards/application-content-packs/security-incident-mgmt-dashboard.md)
+[Security Incident Management dashboard]()
 
-[Security Incident Explorer dashboard](../../../use/dashboards/application-content-packs/si-explorer-dashboard.md)
+[Security Incident Explorer dashboard]()
 

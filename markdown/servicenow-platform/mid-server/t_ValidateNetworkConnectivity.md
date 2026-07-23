@@ -2,13 +2,14 @@
 title: Test MID Server connectivity
 description: Confirm that the MID Server host is able to communicate with the instance. Resolve any issues with the network connectivity such as conflicts with firewalls, access control lists, and routing errors. Successful communication is necessary for automatic upgrades.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_ValidateNetworkConnectivity.html
 release: australia
 product: MID Server
 classification: mid-server
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+reading_time_minutes: 4
+breadcrumb: [Installing the MID Server with manual or guided setup, Installing the MID Server, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Test MID Server connectivity
@@ -50,7 +51,7 @@ The computer that hosts the MID Server must be able to access one of these URLs 
 6.  Verify that the MID Server service is running on the host:
 
     -   Windows: In the Windows Services console, locate the **ServiceNow \[MID Server name\]** and confirm that each MID Server has the **Started Status** value.
-    -   Linux: Ensure that the `agent0.log.0.lck` appears in the `/servicenow/ MID Server name]/agent` folder.
+    -   Linux: Ensure that the `agent0.log.0.lck` appears in the `/servicenow/[MID Server name]/agent/logs` folder.
 7.  After each MID Server restart, open the `agent0.log.0` and address all error messages.
 
 8.  From the ServiceNow instance, navigate to **MID Server** &gt; **Servers**.
@@ -62,5 +63,5 @@ The computer that hosts the MID Server must be able to access one of these URLs 
 
 ## What to do next
 
-This concludes the installation of a single MID Server. If necessary, continue to [deploy multiple MID Servers from a single host](t_InstallMultplMIDSvrOnASingleSys.md#) in your network. Otherwise, begin [configuring your MID Server](../concept/c_MIDServerConfiguration.md).
+This concludes the installation of a single MID Server. If necessary, continue to [deploy multiple MID Servers from a single host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallMultplMIDSvrOnASingleSys.md) in your network. Otherwise, begin [configuring your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
 

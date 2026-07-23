@@ -2,13 +2,14 @@
 title: Assign a group task to yourself using the Mobile Agent application
 description: Claim tasks to work on from the tasks assigned to your assignment group through the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/pick-task-from-assignment-group.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Assign a group task to yourself using the Mobile Agent application
@@ -39,34 +40,34 @@ Role required:
 
 The assigned task is shown in your My Tasks list.
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 
 
-[View your tasks using the Mobile Agent application](track-tasks-using-mobile-agent-app.md)
+[View your tasks using the Mobile Agent application]()
 
-[Start working on tasks using the Mobile Agent application](start-work-mobile-agent-eam.md)
+[Start working on tasks using the Mobile Agent application]()
 
-[Record time worked on a task using the Mobile Agent application](../concept/record-time-mobile-agent-app.md)
+[Record time worked on a task using the Mobile Agent application]()
 
-[Initiate a request to source parts for work order tasks using the Mobile Agent application](source-parts-mobile-agent.md)
+[Initiate a request to source parts for work order tasks using the Mobile Agent application]()
 
-[Close a Pick Up Asset task using the Mobile Agent application](pickup-asset-task-mobile-agent.md)
+[Close a Pick Up Asset task using the Mobile Agent application]()
 
-[Take action on an enterprise asset using the Mobile Agent application](complete-work-order-mobile-agent.md)
+[Take action on an enterprise asset using the Mobile Agent application]()
 
-[Close a work order for an enterprise asset using the Mobile Agent application](close-workorder-mobile-app-eam.md)
+[Close a work order for an enterprise asset using the Mobile Agent application]()
 
-[Create a checklist for work order tasks using the Mobile Agent application](manage-work-orders-using-checklist.md)
+[Create a checklist for work order tasks using the Mobile Agent application]()
 
-[View knowledge articles related to work order tasks in the Mobile Agent application](view-knowledge-articles-mobile-agent.md)
+[View knowledge articles related to work order tasks in the Mobile Agent application]()
 
-[Create work notes about the work order tasks using the Mobile Agent application](create-worknote-mobile-agent.md)
+[Create work notes about the work order tasks using the Mobile Agent application]()
 
-[Set enterprise assets to the shutdown state using the Mobile Agent application](shutdown-assets-eam-mobile.md)
+[Set enterprise assets to the shutdown state using the Mobile Agent application]()
 
-[Start up enterprise assets after maintenance activities using the Mobile Agent application](startup-assets-eam-mobile.md)
+[Start up enterprise assets after maintenance activities using the Mobile Agent application]()
 
-[Move enterprise assets to maintenance state using the Mobile Agent application](move-assets-maintenance-mobile.md)
+[Move enterprise assets to maintenance state using the Mobile Agent application]()
 

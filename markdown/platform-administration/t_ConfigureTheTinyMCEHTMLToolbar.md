@@ -2,6 +2,7 @@
 title: Configure the HTML toolbar
 description: Configure which buttons are available on the HTML toolbar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConfigureTheTinyMCEHTMLToolbar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  Update the toolbar options for your preferred HTML field editor.
 
-<table id="choicetable_twl_kgd_rxb"><tbody><tr><td id="d145319e57">
+<table id="choicetable_twl_kgd_rxb"><tbody><tr><td id="d149382e57">
 
 **htmlArea toolbar**
 
@@ -32,7 +33,7 @@ Role required: admin
 3.  Select the **glide.ui.html.toolbar** property.
 
 
-</td></tr><tr><td id="d145319e90">
+</td></tr><tr><td id="d149382e90">
 
 **TinyMCE**
 
@@ -44,7 +45,7 @@ Role required: admin
 
 
 </td></tr></tbody>
-</table>2.  In the **Value** field, enter or remove buttons for each toolbar as a comma-separated list without spaces.
+</table>2.  In the **Value** field, enter or remove buttons for each toolbar as a space-separated list without commas.
 
     For the TinyMCE toolbar, all the toolbar buttons mentioned in the TinyMCE button options table are available in the **glide.ui.html.editor.toolbar.valid\_buttons**. You can choose from the list found there and add it to the System properties \[sys\_properties\] **glide.ui.html.editor.toolbar**. Use a vertical bar \("\|"\) to add a section separator.
 
@@ -216,5 +217,5 @@ Extended functions
 
 ## What to do next
 
-See [Change the TinyMCE default toolbar](../../workspace/concept/tinymce.md#) for more detailed information.
+See [Change the TinyMCE default toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/tinymce.md) for more detailed information.
 

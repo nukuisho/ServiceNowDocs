@@ -1,25 +1,26 @@
 ---
-title: Tool comparison for vibe coding and AI-assisted development
-description: Compare ServiceNow development tools to select the right approach for your vibe coding and AI-assisted development needs.
+title: Tool comparison for agentic development
+description: Compare ServiceNow development tools to select the right approach for your agentic development needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-tool-comparison.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-05"
 reading_time_minutes: 3
-keywords: [vibe coding, AI-assisted development, tool comparison, development tools, artificial intelligence, application development, workflow comparison, development workflow, AI agents, code generation]
+keywords: [agentic development, tool comparison, development tools, artificial intelligence, application development, workflow comparison, development workflow, AI agents, code generation]
 audience: developer
-breadcrumb: [Explore, Vibe coding and AI-assisted development, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Tool comparison for vibe coding and AI-assisted development
+# Tool comparison for agentic development
 
-Compare ServiceNow development tools to select the right approach for your vibe coding and AI-assisted development needs.
+Compare ServiceNow development tools to select the right approach for your agentic development needs.
 
-The ServiceNow AI Platform provides multiple tools for vibe coding and AI-assisted development. Each tool serves different use cases, skill levels, and development philosophies. Use this comparison to select the appropriate tool for your project.
+The ServiceNow AI Platform provides multiple tools for agentic development. Each tool serves different use cases, skill levels, and development philosophies. Use this comparison to select the appropriate tool for your project.
 
 ## Tool comparison matrix
 
-The following table shows a general comparison of vibe coding and ServiceNow AI-assisted development tools.
+The following table shows a general comparison of ServiceNow agentic development tools.
 
 <table id="table_m32_1h2_f3c"><thead><tr><th>
 
@@ -91,7 +92,7 @@ Medium
 
 </td><td>
 
-Catalog items, record producers, order guidesFor a list of included generative, development, and summarization skills, see [AI-assisted app creation with Now Assist for Creator](vibe-code-now-assist-creator.md).
+Catalog items, record producers, order guidesFor a list of included generative, development, and summarization skills, see [AI-assisted app creation with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vibe-code-now-assist-creator.md).
 
 </td><td>
 
@@ -124,7 +125,7 @@ Declarative TypeScript framework that enables AI to communicate with the Service
 </td></tr></tbody>
 </table>## Workflow comparison
 
-The following table compares workflows for ServiceNow AI-assisted development tools.
+The following table compares workflows for ServiceNow agentic development tools.
 
 <table id="table_tv1_xk2_f3c"><thead><tr><th>
 
@@ -228,17 +229,17 @@ Standard Service Catalog item publication workflow
 </td></tr></tbody>
 </table>## Tool access
 
-The following table shows how to access ServiceNow AI-assisted development tools.
+The following table shows how to access ServiceNow agentic development tools.
 
 |Tool|Access method|
 |----|-------------|
 |Build Agent|Chat panel in ServiceNow Studio or ServiceNow IDE|
 |Now Assist for Creator|Embedded in Service Catalog and Workflow Studio|
-|ServiceNow SDK|Local VS Code or ServiceNow IDE with ServiceNow Fluent SDK|
+|ServiceNow SDK|Local VS Code or the ServiceNow IDE with ServiceNow Fluent SDK|
 
 ## Performance and scalability considerations
 
-The following table shows performance and scaling considerations for ServiceNow AI-assisted development tools.
+The following table shows performance and scaling considerations for ServiceNow agentic development tools.
 
 |Tool|Best performance for|Limitations|
 |----|--------------------|-----------|

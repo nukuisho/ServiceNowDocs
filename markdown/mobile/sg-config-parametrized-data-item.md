@@ -2,6 +2,7 @@
 title: Configure a parametrized data item
 description: Configure a parametrized data item to filter and view just the relevant data according to the selected parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-config-parametrized-data-item.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +40,7 @@ Use the included examples to create a data item that allows users to open an inc
 
 5.  Complete the Properties and Data sections as needed.
 
-    For more information about creating a data item, see [Configure a standard data item](sg-studio-create-data-item.md). For example, create a data item for open incidents.
+    For more information about creating a data item, see [Configure a standard data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-data-item.md). For example, create a data item for open incidents.
 
     **Note:** To configure the Condition section you must first complete and save the parameter configuration.
 
@@ -63,11 +64,11 @@ Use the included examples to create a data item that allows users to open an inc
 
 10. In the Data item form, in the Condition section, add a query condition for your parameter.
 
-    The condition field should match the parameter for which you are querying the database. For example, if you are creating a data item to query the Priority field, create a condition for `Priority is {{*priority*}}`. Make sure that you select the parameter that you created by selecting the search icon \( ![Search icon in Mobile App Builder](../image/mab-search-icon.png)\) in the condition builder.
+    The condition field should match the parameter for which you are querying the database. For example, if you are creating a data item to query the Priority field, create a condition for `Priority is {{*priority*}}`. Make sure that you select the parameter that you created by selecting the search icon \( \[Omitted image "mab-search-icon.png"\] Alt text: Search icon in Mobile App Builder\) in the condition builder.
 
 
 
-    ![Mobile App Builder data item form showing paramerterized data configuration.](../image/mab-data-item-form.png)
+    \[Omitted image "mab-data-item-form.png"\] Alt text: Mobile App Builder data item form showing paramerterized data configuration.
 
     **Note:** Mobile App Builder indicates that an item is a parameter with curly brackets **\{\{…\}\}**.
 
@@ -76,5 +77,5 @@ Use the included examples to create a data item that allows users to open an inc
 
 ## What to do next
 
-After you create a data item, assign it to a screen. Data items with parameters require additional configuration in the screen. For more information on assigning a data item with parameters to a screen, see [Assign a data item with parameters to a list screen](sg-assign-param-data-item-screen.md).
+After you create a data item, assign it to a screen. Data items with parameters require additional configuration in the screen. For more information on assigning a data item with parameters to a screen, see [Assign a data item with parameters to a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-assign-param-data-item-screen.md).
 

@@ -2,6 +2,7 @@
 title: Set the location of a notification toast banner
 description: A toast message provides simple feedback about an operation in a small pop-up. Choose which corner of the screen that you would like your notification toast message banners to appear in for the purpose of improving usability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-notifcation-toast-banner-location-preference.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  In your instance, select the **User Menu** ![Next experience user menu.](../../../get-started/servicenow-overview/image/pol-user-menu.png).
+1.  In your instance, select the **User Menu** \[Omitted image "pol-user-menu.png"\] Alt text: Next experience user menu..
 
 2.  From the user menu list, select **Preferences**.
 
@@ -27,7 +28,7 @@ Role required: admin
 
 4.  Select the **Next Experience** tab.
 
-    ![Next Experience notification preferences](../image/tb-next-exp-notifs.png "Next Experience notification preferences")
+    \[Omitted image "tb-next-exp-notifs.png"\] Alt text: Next Experience notification preferences
 
 5.  In **Notification toast banner location**, choose your preferred location for banners:
 
@@ -38,5 +39,5 @@ Role required: admin
     **Note:** The default location is in the top right of your instance. If the banner doesn't appear in the expected location, try refreshing your browser.
 
 
-**Parent Topic:**[Configuring Next Experience themes and preferences](config-next-experience-themes-prefs.md)
+**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
 

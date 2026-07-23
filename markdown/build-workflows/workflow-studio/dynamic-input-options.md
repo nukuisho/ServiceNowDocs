@@ -2,6 +2,7 @@
 title: Dynamic input configuration options
 description: Use these options to configure dynamic inputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/dynamic-input-options.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -126,16 +127,16 @@ Select the data gathering action to generate choice list values. For example, an
 |Default Value|Select a field and field value to use as a default for the action.|
 |Action|Select the data gathering action to generate record template values. For example, an action that displays the fields of a third-party record or service.|
 
-**Parent Topic:**[Dynamic inputs](../concept/dynamic-inputs.md)
+**Parent Topic:**[Dynamic inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-inputs.md)
 
 **Related topics**  
 
 
-[Get started with dynamic inputs](../task/getting-started-dynamic-input.md#)
+[Get started with dynamic inputs]()
 
-[Create a data gathering action for a dynamic choice](../task/create-data-gathering-action-dynamic-choice.md)
+[Create a data gathering action for a dynamic choice]()
 
-[Create a data gathering action for a dynamic template](../task/create-data-gathering-action-dynamic-template.md)
+[Create a data gathering action for a dynamic template]()
 
-[Create a data gathering action for a dynamic inputs type input](../task/create-data-gathering-action-dynamic-inputs.md)
+[Create a data gathering action for a dynamic inputs type input]()
 

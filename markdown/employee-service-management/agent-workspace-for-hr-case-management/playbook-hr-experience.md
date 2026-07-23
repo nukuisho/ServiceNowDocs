@@ -2,6 +2,7 @@
 title: HR Playbook Experience
 description: Use Playbook Experiences to select the playbook your company uses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-experience.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -53,6 +54,4 @@ A Playbook experience is tied to Playbook Configurations and Playbook Activity O
 
     -   Render a component \(Add Approvers or Close Complete\).
     -   Update the record \(change its state\).
-
-To make changes to the default configurations, see Update playbook experience configurations.
 

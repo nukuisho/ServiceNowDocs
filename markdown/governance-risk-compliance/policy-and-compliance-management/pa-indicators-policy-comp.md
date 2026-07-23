@@ -2,6 +2,7 @@
 title: Monitor controls using GRC Performance Analytics Indicators
 description: You can link Policy and Compliance Management content and items to Performance Analytics indicators, breakdowns, and thresholds. You can associate Performance Analytics indicators with control objectives and controls to view scorecards and trends and analyze current conditions and trends.The GRC: Performance Analytics Integration plugin provides an integration between Performance Analytics and the Risk Management and Policy and Compliance Management applications. This plugin provides more insight into organizational risk and compliance performance.You can associate Performance Analytics indicators with risk statements and policy statements to analyze trends related to the risk or policy.You can associate Performance Analytics indicators with risks and controls to analyze trends related to the entity that risk or control belongs to.You can update all the items belonging to a GRC content record so each item is individually related to the PA indicator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/pa-indicators-policy-comp.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -17,7 +18,7 @@ You can link Policy and Compliance Management content and items to Performance A
 
 The risks and controls associated with a PA indicator or PA indicator/breakdown/element automatically monitor any PA threshold with the same PA indicator or PA indicator, breakdown, or element relationship. Any PA threshold breach is reported at the risk or control and Performance Analytics indicators relationship level within a breach counter.
 
-![Performance analytics integration overview.](../../grc-common/image/pa-integration.png)
+\[Omitted image "pa-integration.png"\] Alt text: Performance analytics integration overview.
 
 ## PA threshold breach impact
 
@@ -34,7 +35,7 @@ There are two reports for the reporting of breaches:
 -   Risk PA Indicator Breaches
 -   Control PA Indicator Breaches
 
-**Parent Topic:**[Classic UI for Policy and Control Management](using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 
 ## Activate GRC: Performance Analytics Integration
 
@@ -60,7 +61,7 @@ This plugin includes demo data and activates related plugins if they are not alr
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 ### What to do next
@@ -70,7 +71,7 @@ After activating the GRC: Performance Analytics Integration plugin on an instanc
 **Related topics**  
 
 
-[List of plugins](../../grc-common/task/activate-grc-pa-prem-integ.md)
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 ## Associate a PA indicator with a risk statement or control objective
 

@@ -2,6 +2,7 @@
 title: Automate generation and distribution of a report
 description: Generate and distribute scheduled reports via email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/schedule-report.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -19,7 +20,7 @@ Generate and distribute scheduled reports via email.
 
 Roles required: system\_scheduler\_admin
 
-A user with the report\_scheduler role can also create a scheduled report through a different navigation path. For more information, see [Schedule emails of Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_ScheduleAReport.md).
+A user with the report\_scheduler role can also create a scheduled report through a different navigation path. For more information, see [Schedule emails of Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_ScheduleAReport.md).
 
 ## About this task
 
@@ -62,7 +63,7 @@ Report
 
 </td><td>
 
-Reference to the report you are scheduling. You can use the Search icon ![Search icon](../../search-administration/image/SearchIcon.png) to locate the report.**Note:** Automatic email support is not available for Calendar, Map, and Single Score reports.
+Reference to the report you are scheduling. You can use the Search icon \[Omitted image "SearchIcon.png"\] Alt text: Search icon to locate the report.**Note:** Automatic email support is not available for Calendar, Map, and Single Score reports.
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run since that is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](../../time/concept/business-calendars.md) and [Define business calendar entries](../../time/task/define-business-calendar-entries.md#).
+To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
 
 </td></tr><tr><td>
 
@@ -319,7 +320,7 @@ Include with
 
 </td><td>
 
-One or more additional reports to include with the email. It is not possible to order the reports within the email. You can use the Search icon ![Search icon](../../search-administration/image/SearchIcon.png) to locate the additional reports.
+One or more additional reports to include with the email. It is not possible to order the reports within the email. You can use the Search icon \[Omitted image "SearchIcon.png"\] Alt text: Search icon to locate the additional reports.
 
 </td></tr><tr><td>
 
@@ -353,16 +354,16 @@ Shows when **Page size** is set to **Custom**. For non-standard paper sizes, mul
 
 To edit the scheduled email of a report job, open the job from the Scheduled Jobs list. To stop scheduled emails of a report, delete the relevant job's row from the Scheduled Jobs list.
 
-**Parent Topic:**[Create a scheduled job](../../time/task/t_CreateAScheduledJob.md)
+**Parent Topic:**[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
 **Related topics**  
 
 
-[Advanced options for scheduled jobs](../../time/task/advanced-options-for-scheduled-jobs.md)
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
 
-[Create a scheduled job](../../time/task/t_CreateAScheduledJob.md)
+[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 
-[Personalize the system date format](../../time/task/t_PersonalizeTheSystemDateFormat.md)
+[Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemDateFormat.md)
 
-[Set a system time zone](../../time/task/t_SetASystemTimeZone.md)
+[Set a system time zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_SetASystemTimeZone.md)
 

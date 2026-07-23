@@ -2,6 +2,7 @@
 title: Add subscription pricing to an order
 description: Add contract pricing to an order or order line items including start and end dates in Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/add-subscription-pricing-to-an-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,17 +26,17 @@ In an order, you can set the contract start date and end date, or you can enter 
 
 Subscription pricing can be added at the order header level or at the order line item level.
 
-See [Subscription revenue metrics](../concept/som-subscription-pricing.md) for more information about how contract pricing works.
+See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-subscription-pricing.md) for more information about how contract pricing works.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Orders** &gt; **All**
 
 3.  Select the order that you’re working with.
 
-4.  Select the More Actions icon ![](../image/icon-three-dot-menu.png) and select **Order details**.
+4.  Select the More Actions icon \[Omitted image "icon-three-dot-menu.png"\] Alt text: and select **Order details**.
 
 5.  In the **Order Details** tab, add a **Contract start date** and a **Contract end date**.
 
@@ -54,5 +55,5 @@ See [Subscription revenue metrics](../concept/som-subscription-pricing.md) for m
 **Related topics**  
 
 
-[Order details page - Dates fields](../reference/field-descriptions-customer-orders.md#)
+[Order details page - Dates fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-customer-orders.md)
 

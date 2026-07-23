@@ -2,6 +2,7 @@
 title: Threat groupings
 description: A Threat Groupings object explicitly asserts that the referenced STIX Objects have a shared context. Threat groupings applies for STIX 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-groupings.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,57 +20,57 @@ A Threat Groupings object could also be used to assert that the referenced STIX 
 
 The Threat Grouping SDO contains a list of references to SDOs, SCOs, and SROs, along with an explicit statement of the context shared by the content, a textual description, and the name of the grouping.
 
--   **[Define threat groupings](../task/define-threat-groupings.md)**  
+-   **[Define threat groupings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-threat-groupings.md)**  
 Define threat groupings as objects that have a shared context.
 
-**Parent Topic:**[IoC Repository](ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
 
 **Related topics**  
 
 
-[Attack modes and methods](c_AttackModeMethod.md)
+[Attack modes and methods]()
 
-[Indicators of compromise](c_IoCs.md)
+[Indicators of compromise]()
 
-[Observables](c_Observables.md)
+[Observables]()
 
-[Attack patterns](attack-patterns.md)
+[Attack patterns]()
 
-[Campaigns](threat-intelligence-campaigns.md)
+[Campaigns]()
 
-[Course of actions](threat-intelligence-course-actions.md)
+[Course of actions]()
 
-[Identities](threat-intelligence-identities.md)
+[Identities]()
 
-[Infrastructure](threat-intelligence-infrastructure.md)
+[Infrastructure]()
 
-[Intrusion set](threat-intelligence-intrusion-sets.md)
+[Intrusion set]()
 
-[Locations](threat-intelligence-locations.md)
+[Locations]()
 
-[Malware](threat-intelligence-malware.md)
+[Malware]()
 
-[Malware analysis](threat-intelligence-malware-analysis.md)
+[Malware analysis]()
 
-[Observed data](threat-intelligence-observed-data.md)
+[Observed data]()
 
-[Threat actors](threat-actors.md)
+[Threat actors]()
 
-[Marking definitions](marking-definitions.md)
+[Marking definitions]()
 
-[Threat notes](threat-intelligence-threat-notes.md)
+[Threat notes]()
 
-[Threat opinions](threat-opinions.md)
+[Threat opinions]()
 
-[Threat reports](threat-reports.md)
+[Threat reports]()
 
-[Sightings](indicator-sightings.md)
+[Sightings]()
 
-[Tools](tools.md)
+[Tools]()
 
-[Vulnerabilities](vulnerabilities.md)
+[Vulnerabilities]()
 
-[Relationships](stix-relationships.md)
+[Relationships]()
 
-[STIX Visualizer](stix-visualizer.md)
+[STIX Visualizer]()
 

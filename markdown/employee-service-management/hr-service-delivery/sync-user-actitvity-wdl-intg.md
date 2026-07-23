@@ -2,6 +2,7 @@
 title: View user activity for Workday Learning
 description: All user activity data is shipped along with HR Service Delivery Integration with Workday Learning. However, if you want to view or edit the user activity details, you can edit the respective subflow and then edit the respective record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/sync-user-actitvity-wdl-intg.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,17 +28,17 @@ Role required: sn\_lrn\_workday.admin
 
 3.  On the form, edit the fields.
 
-    For a description of the field values, see [Edit a record in HR Service Delivery Integration with Workday Learning](../reference/sync-user-activity-form.md).
+    For a description of the field values, see [Edit a record in HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/sync-user-activity-form.md).
 
 
-**Parent Topic:**[Using HR Service Delivery Integration with Workday Learning](../concept/using-workday-learning-intg.md)
+**Parent Topic:**[Using HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-workday-learning-intg.md)
 
 **Related topics**  
 
 
-[View track approval for Workday Learning](track-approval-adl-intg.md)
+[View track approval for Workday Learning]()
 
-[Use transform maps](../concept/use-transform-maps-wd-learning.md)
+[Use transform maps]()
 
-[Import set tables in HR Service Delivery Integration with Workday Learning](../concept/import-set-tables.md)
+[Import set tables in HR Service Delivery Integration with Workday Learning]()
 

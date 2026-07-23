@@ -2,6 +2,7 @@
 title: View a safety register document in the Now Mobile app
 description: View safety register documents for hazardous material on your mobile device using the ServiceNow Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/access-safety-register-docs-mobile.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -42,5 +43,5 @@ All Safety Data Sheets \(SDSs\) that are added to the safety registers through t
 5.  Tap the safety register document to open it.
 
 
-**Parent Topic:**[Mobile experience for Health and Safety](../concept/hs-health-safety-mobile.md)
+**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 

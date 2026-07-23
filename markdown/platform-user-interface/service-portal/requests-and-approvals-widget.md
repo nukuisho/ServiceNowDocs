@@ -2,6 +2,7 @@
 title: Requests and Approvals widget
 description: Allow a user to refer to their open requests and approvals in the Service Catalog. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/requests-and-approvals-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -21,11 +22,11 @@ The Requests and Approvals widgets includes two tabs: **My Requests** and **My A
 
 A user opens the My Requests tab to see data from the Task \[task\] table. If the user has opened any task record, such as an incident or a change request, the record is displayed in the widget.
 
-![My Requests tab](../image/requests-and-approvals.png)
+\[Omitted image "requests-and-approvals.png"\] Alt text: My Requests tab
 
 A user opens the My Approvals tab to see data from the Approvals \[sysapproval\_approver\] table. If the user has been assigned to approve a request, the approval record is displayed in the widget.
 
-![My Approvals tab](../image/requests-and-approvals2.png)
+\[Omitted image "requests-and-approvals2.png"\] Alt text: My Approvals tab
 
 If the user doesn't have any open requests or approvals, the widget remains hidden on the page.
 
@@ -33,46 +34,46 @@ If the user doesn't have any open requests or approvals, the widget remains hidd
 
 The Requests and Approvals widget doesn't include instance options.
 
-**Parent Topic:**[Service Catalog widgets](sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
 
-[Catalog Content widget](catalog-content-widget.md)
+[Catalog Content widget]()
 
-[Catalog Homepage Search widget](cat-homepage-search-widget.md)
+[Catalog Homepage Search widget]()
 
-[Recent &amp; Popular Items widget](recent-and-popular-items-widget.md)
+[Recent &amp; Popular Items widget]()
 
-[Request Fields widget](request-fields-widget.md)
+[Request Fields widget]()
 
-[Requested Items widget](requested-items-widget.md)
+[Requested Items widget]()
 
-[SC Catalog Item widget](sc-catalog-item-widget.md)
+[SC Catalog Item widget]()
 
-[SC Categories widget](sc-categories-widget.md)
+[SC Categories widget]()
 
-[SC Category Page widget](sc-category-page-widget.md)
+[SC Category Page widget]()
 
-[SC Order Guide widget](sc-order-guide-widget.md)
+[SC Order Guide widget]()
 
-[SC Popular Items widget](sc-popular-items.md)
+[SC Popular Items widget]()
 
-[SC Save Bundles widget](save-bundles-widget.md)
+[SC Save Bundles widget]()
 
-[SC Saved Carts widget](saved-cart-widget.md)
+[SC Saved Carts widget]()
 
-[SC Scroll to top widget](sc-scroll-to-top.md)
+[SC Scroll to top widget]()
 
-[SC Shopping Cart widget](sc-shopping-cart.md)
+[SC Shopping Cart widget]()
 
-[SP Variable Editor widget](variable-editor-widget.md)
+[SP Variable Editor widget]()
 
-[SC Wish List Cart widget](sc-wish-list.md)
+[SC Wish List Cart widget]()
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

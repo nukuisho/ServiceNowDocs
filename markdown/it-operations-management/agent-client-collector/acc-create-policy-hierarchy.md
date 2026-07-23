@@ -2,13 +2,14 @@
 title: Create a policy hierarchy
 description: Policies are attached to groups of related CIs. If you have a subgroup of related CIs, you can attach a new policy to the subgroup using a policy hierarchy, without creating the new policy from scratch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-create-policy-hierarchy.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a new ACC policy, Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Create an ACC policy, Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Create a policy hierarchy

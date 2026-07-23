@@ -2,6 +2,7 @@
 title: Create Enrich automation
 description: Alert enrichment involves transforming raw events from monitoring tools into a standard format, aiding automated grouping and response. This includes extracting fields from lengthy alert payloads or composing them into a standardized format. Additionally, you can create tags, which are metadata added to alerts for easier filtering and grouping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -21,7 +22,7 @@ Role required: evt\_mgmt\_admin, evt\_team\_operator, or srm\_responder
 
 ## About this task
 
-Extracting takes values from event payload fields and places them in alert output fields, while composing combines multiple alert fields into one. For more information, see [Extracting and composing alert fields](../concept/extract-compose-fields.md).
+Extracting takes values from event payload fields and places them in alert output fields, while composing combines multiple alert fields into one. For more information, see [Extracting and composing alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/extract-compose-fields.md).
 
 For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better teams support. Event rules offer a few advanced features like thresholds and CI identification using IRE that are not yet available in enrich automations. Admins may also enrich alerts with event field mapping rules. Changing alert values creates an event field mapping rule with the mapping type **Map field and transform value \(Single field\)**. This rule is linked to the event rule and runs simultaneously, allowing for streamlined mapping and transformation of event data to enrich alerts.
 
@@ -29,7 +30,7 @@ For users familiar with the classic Event Management experience, enrich automati
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../../health-log-analytics-admin/image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -37,7 +38,7 @@ For users familiar with the classic Event Management experience, enrich automati
 
     The Enrich alerts page is displayed.
 
-    ![Enrich automation page](../image/enrich-automation-page.png)
+    \[Omitted image "enrich-automation-page.png"\] Alt text: Enrich automation page
 
 4.  Select **Create automation**.
 
@@ -65,7 +66,7 @@ For users familiar with the classic Event Management experience, enrich automati
 
         **Note:** Select **Load past events** to view previous events when creating the automation.
 
-        ![Enrich rule page where you can provide automation name, set conditions and actions.](../image/enrich-automation-conditions.png)
+        \[Omitted image "enrich-automation-conditions.png"\] Alt text: Enrich rule page where you can provide automation name, set conditions and actions.
 
 7.  In the **Then, apply the following actions** section, select the automation actions that will be triggered by this automation.
 
@@ -75,15 +76,15 @@ For users familiar with the classic Event Management experience, enrich automati
     -   **Copy or compose fields**: Merges various alert fields, tags and text to generate a composed alert output.
     -   **Change alert values**: Maps the current value of alert fields to specified new values.
     -   **Improve configuration item \(CI\) identification**: Identifies CIs other than a host for better alert grouping, team assignment, and service health.
-<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d199368e268">
+<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d211050e268">
 
 Option
 
-</th><th align="left" id="d199368e271">
+</th><th align="left" id="d211050e271">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d199368e277">
+</th></tr></thead><tbody><tr><td id="d211050e277">
 
 **__Extract alert fields__**
 
@@ -92,7 +93,7 @@ Action
 1.  Enable the **Extract fields** toggle switch.
 2.  From the **Extract from field** menu, select a value. The menu displays the standard event fields, additional info, and tags. The field value is then displayed. You can also manually enter a field name that is not displayed and add your own value.
 
-The example source events pane displays a sample of recent events in your system. If no events are displayed, you may create an event, see [Create or edit an event rule](../../event-management/task/create-or-edit-event-rule.md).
+The example source events pane displays a sample of recent events in your system. If no events are displayed, you may create an event, see [Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-or-edit-event-rule.md).
 
 3.  In the **Regular expression** field, create a regular expression to extract the value that you want to extract.
 
@@ -104,17 +105,17 @@ If you want to add an alert tag, select the **Set as a tag** check box.
 
 **Tip:** Create alert tags that can be shared across sources for easier filtering and grouping, such as the out-of-the-box tags.
 
-![Extract alert fields](../image/sow-extract-alert-fields.png)
+\[Omitted image "sow-extract-alert-fields.png"\] Alt text: Extract alert fields
 
 5.  Select **Preview multiple events** to verify that the regular expression \(regex\) is general-purpose enough to correctly extract values across many examples.
 
 **Note:** This option is available only when example source events are available and matched with the regex filter.
 
-![Preview extracted values from multiple events](../image/sow-preview-multiple-events.png)
+\[Omitted image "sow-preview-multiple-events.png"\] Alt text: Preview extracted values from multiple events
 
  To include additional fields for extraction, select **+ Add fields**.
 
-</td></tr><tr><td id="d199368e379">
+</td></tr><tr><td id="d211050e379">
 
 **__Copy or compose fields__**
 
@@ -128,11 +129,11 @@ For easier grouping, you can select a tag from the menu. If you want to use the 
 
 **Tip:** Create alert tags that can be shared across sources for easier filtering and grouping, such as the out-of-the-box tags.
 
-![Compose alert fields](../image/sow-compose-alert.png)
+\[Omitted image "sow-compose-alert.png"\] Alt text: Compose alert fields
 
  To create additional alert data compositions, select **+ Add fields**.
 
-</td></tr><tr><td id="d199368e447">
+</td></tr><tr><td id="d211050e447">
 
 **__Change alert values__**
 
@@ -145,9 +146,9 @@ For easier grouping, you can select a tag from the menu. If you want to use the 
 
 To add more field values, select **+ Add value** and to add more fields to map, select **+ Add field to map**.
 
-![Change values of a field to a format that is easier to read, filter, and group.](../image/sow-change-alert-values.png)
+\[Omitted image "sow-change-alert-values.png"\] Alt text: Change values of a field to a format that is easier to read, filter, and group.
 
-</td></tr><tr><td id="d199368e503">
+</td></tr><tr><td id="d211050e503">
 
 **Improve configuration item \(CI\) identification**
 
@@ -159,7 +160,7 @@ This option allows you to change how alerts are bound or linked to a Configurati
 
  You may enable this action to improve the CI identification for other types of CIs such as processes or service instances. The system searches for a matching CI in the appropriate CMDB table based on the selected CI type. For example, if you select VMware Virtual Machine Instance as the CI class, the system searches for a matching record in the \[cmdb\_ci\_vmware\_instance\] table using details from the event rule record, specifically the **Additional info** fields.
 
- ![Improve configuration item (CI) identification section](../image/enrich_automation_ci_identification.png)
+ \[Omitted image "enrich\_automation\_ci\_identification.png"\] Alt text: Improve configuration item \(CI\) identification section
 
  1.  Enable the **Improve configuration item \(CI\) identification** toggle switch.
 2.  **Select which CI class you’d like to identify**: In the **CI class** field, specify the CI class for which the event’s node field is evaluated during CI identification. This determines the type of CI the system attempts to identify first.
@@ -180,30 +181,30 @@ Based on the selected CI class, the system recommends whether you should conside
     -   Use all matching additional info fields: Select this check box to use all matching fields from the event’s Additional Info for CI identification instead of mapping individual fields.
 5.  **+ Add fallback**: Add fallback CI class and field mappings to define alternate identification logic. If the primary configuration does not identify a CI, the system evaluates each fallback in order until it finds a match.
 
-Ensure that the **Node** field in the alert is populated correctly to identify a host CI. The CI you are identifying must have a [runs on](../../event-management/task/t_EMBindApplication.md) relationship to the host CI or be [mapped to the host](../../event-management/task/ci-device-binding.md).
+Ensure that the **Node** field in the alert is populated correctly to identify a host CI. The CI you are identifying must have a [runs on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMBindApplication.md) relationship to the host CI or be [mapped to the host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-device-binding.md).
 
 6.  Ensure that at least one CI attribute is present in the **Additional info** field of the alert.
 
-For instructions on how to populate these fields, see [Set additional info fields to match CI attribute format](set-addi-info-field-match-ci-attribute.md). The system attempts to match values from the **Additional info** field of the alert with the CI table. If a match is found, the alert is bound to the corresponding CI.
+For instructions on how to populate these fields, see [Set additional info fields to match CI attribute format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/set-addi-info-field-match-ci-attribute.md). The system attempts to match values from the **Additional info** field of the alert with the CI table. If a match is found, the alert is bound to the corresponding CI.
 
 7.  Select **Test CI identification** to test the CI identification on sample events.
 
-After successful CI identification, the system displays a message with the relevant details.![CI identification is successful](../image/enrich_automation_ci_binding_success.png)
+After successful CI identification, the system displays a message with the relevant details.\[Omitted image "enrich\_automation\_ci\_binding\_success.png"\] Alt text: CI identification is successful
 
-If CI identification fails, the system shows a message explaining the details.![CI identification failed](../image/enrich_automation_ci_binding_failed.png)
+If CI identification fails, the system shows a message explaining the details.\[Omitted image "enrich\_automation\_ci\_binding\_failed.png"\] Alt text: CI identification failed
 
- For more information on CI binding, see [Binding alerts to CIs](../../event-management/concept/ci-binding-alert.md).
+ For more information on CI binding, see [Binding alerts to CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-binding-alert.md).
 
 </td></tr></tbody>
 </table>8.  In the **And finally** section, to continue running other enrichment automations with same filter conditions after this automation is executed, select **Run other enrich alert automations**.
 
-    ![Option to select whether you want to run other enrich alert automations.](../image/enrich-run-other-automation.png)
+    \[Omitted image "enrich-run-other-automation.png"\] Alt text: Option to select whether you want to run other enrich alert automations.
 
     If you select **Don't run other enrich alert automations**, additional automations of this type will stop running after this automation is executed once. If the automation is managed by an administrator, it will stop running administrator-owned automations but will continue to run automations owned by other assignment groups.
 
 9.  In the **Automation details** section, provide an order and automation description.
 
-    ![Enrich automation details section](../image/enrich-automation-details.png)
+    \[Omitted image "enrich-automation-details.png"\] Alt text: Enrich automation details section
 
     1.  In the **Order** field, enter the automation order.
 
@@ -221,10 +222,10 @@ If CI identification fails, the system shows a message explaining the details.![
 
 ## What to do next
 
-You can manage alerts more effectively by grouping similar alerts together with the help of [Create Group automation](group-alert-sow-itom.md).
+You can manage alerts more effectively by grouping similar alerts together with the help of [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
 
 **Related topics**  
 
 
-[Extracting and composing alert fields](../concept/extract-compose-fields.md)
+[Extracting and composing alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/extract-compose-fields.md)
 

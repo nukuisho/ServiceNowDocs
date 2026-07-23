@@ -18,8 +18,8 @@ The ServiceNow® Workforce Optimization for HR simplifies the daily routine of H
 
     The following plugins are planned for deprecation in a future release:
 
-    Workforce Optimization for HR \(com.sn\_hr\_wfo\): Planned for deprecation in July 2027. There is no replacement for this application.
+    Workforce Optimization for HR \(com.sn\_hr\_wfo\): Planned for deprecation in July 2027. There is no replacement for this application as of now.
 
 
-**Parent Topic:**[HR Service Delivery release notes](hr-service-delivery-landing.md)
+**Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md)
 

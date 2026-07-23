@@ -2,6 +2,7 @@
 title: Integrate Legal Matter Management with the Legal Tracker application
 description: Learn more about the integration through a sample workflow and review the benefits it can provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/explore-legal-tracker.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -19,7 +20,7 @@ Legal Tracker is a third-party application for legal operations including matter
 
 By integrating Legal Matter Management with Legal Tracker, you can engage with outside counsel by automatically creating a matter in Legal Tracker. You can also track the outside counsel engagement spends.
 
-Video providing an overview of Legal Matter Management with Legal Tracker integration that enables engagement with outside cousnel. Approximately two and half minutes long. 
+\[Omitted video\] Description: Video providing an overview of Legal Matter Management with Legal Tracker integration that enables engagement with outside cousnel. Approximately two and half minutes long.
 
 ## Benefits of integration with Legal Tracker
 
@@ -50,6 +51,6 @@ The benefits of integration are:
 
 To integrate Legal Matter Management with Legal Tracker, complete the following actions:
 
--   Install the Legal Tracker spoke. For more information, see [Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/legal-tracker-spoke.md) Spoke.
--   Configure Legal Tracker integration. For more information, see [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](configurations-for-legal-tracker-integration.md).
+-   Install the Legal Tracker spoke. For more information, see [Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/legal-tracker-spoke.md) Spoke.
+-   Configure Legal Tracker integration. For more information, see [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md).
 

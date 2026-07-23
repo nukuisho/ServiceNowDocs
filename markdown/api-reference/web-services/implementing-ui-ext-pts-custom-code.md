@@ -2,6 +2,7 @@
 title: Registering custom UI macros against the UI extension points
 description: Register custom UI macros against a selected UI extension point in the application code.Create a custom UI macro and code when you register it against a selected UI extension point.Review the listing of custom UI macros that are registered against a UI extension point. Extension instances indicate the application scope in which registered custom UI macros are used and provides a link to each. You can also activate or inactive an extension instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/implementing-ui-ext-pts-custom-code.html
 release: australia
 product: Web Services
 classification: web-services
@@ -17,7 +18,7 @@ Register custom UI macros against a selected UI extension point in the applicati
 
 By registering custom UI macros, you create an extension instance record that links the UI extension point definition to its implementation in the custom UI macro.
 
-**Parent Topic:**[Using UI extension points in server-side UI macros](ui-extension-points.md)
+**Parent Topic:**[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)
 
 ## Register a custom UI macro
 
@@ -27,7 +28,7 @@ Create a custom UI macro and code when you register it against a selected UI ext
 
 Role required: application-specific developer, application-specific admin, or admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
 
 ### Procedure
 
@@ -37,13 +38,13 @@ Role required: application-specific developer, application-specific admin, or ad
 
     **Note:** This listing includes UI extension points that you created and any pre-defined UI extension points that are embedded in ServiceNow AI Platform functions \(for example, Customer Service Management and Field Service Management\).
 
-    To learn more about functions that contain pre-defined extension points, see the Related Topics links in [Using extension points to extend application functionality](extension-points.md).
+    To learn more about functions that contain pre-defined extension points, see the Related Topics links in [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 3.  In the UI Extension Point record, click the **Create Implementation** related link to create a new custom UI macro and register it against the selected UI extension point.
 
 4.  In the UI Macro form, create the custom code.
 
-    To learn more about creating UI macros, see [UI macros](../../../script/server-scripting/concept/c_UIMacros.md#).
+    To learn more about creating UI macros, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md).
 
 5.  Click **Update**.
 
@@ -60,7 +61,7 @@ Review the listing of custom UI macros that are registered against a UI extensio
 
 Role required: admin or the specific role for the developer or administrator of the application
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
 
 ### Procedure
 
@@ -85,7 +86,7 @@ Role required: admin or the specific role for the developer or administrator of 
 **Related topics**  
 
 
-[UI macros](../../../script/server-scripting/concept/c_UIMacros.md#)
+[UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md)
 
-[Using extension points to extend application functionality](extension-points.md)
+[Using extension points to extend application functionality]()
 

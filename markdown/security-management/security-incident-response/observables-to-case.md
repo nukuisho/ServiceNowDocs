@@ -2,6 +2,7 @@
 title: Add observables to TISC Case
 description: Add observables to TISC case records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/observables-to-case.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -47,9 +48,9 @@ Role required: sn\_si.analyst, sn\_sec\_tisc.case\_write
 
 8.  Select the case\(s\) from the **Add to Case** dialog box.
 
-    ![Add to TISC Case.](../image/tisc-add2-case-modal.png)
+    \[Omitted image "tisc-add2-case-modal.png"\] Alt text: Add to TISC Case.
 
-    **Note:** Create a new TISC case if there no case records. For more information on how to create case\(s\), see [Creating cases using Threat Analyst Workbench](../concept/create-cases-using-threat-analyst-workbench.md).
+    **Note:** Create a new TISC case if there no case records. For more information on how to create case\(s\), see [Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md).
 
 9.  Click **Add**.
 
@@ -62,20 +63,20 @@ Role required: sn\_si.analyst, sn\_sec\_tisc.case\_write
 
 You have successfully send the observables data to Threat Intelligence Security Center case management.
 
-**Parent Topic:**[Send data from SIR Workspace to TISC](../concept/send-sir-to-tisc.md)
+**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
 
 **Related topics**  
 
 
-[System properties to send data](../reference/tisc-integrations-system-properties.md)
+[System properties to send data]()
 
-[Add security incident to TISC case](add-incident-to-case.md)
+[Add security incident to TISC case]()
 
-[Send Observables to TISC](tisc-context-in-sir-workspace.md)
+[Send Observables to TISC]()
 
-[Send Threat Lookup to TISC](send-threat-lookup-to-tisc.md)
+[Send Threat Lookup to TISC]()
 
-[Send Sighting Search to TISC](send-sighting-search-to-tisc.md)
+[Send Sighting Search to TISC]()
 
-[Send Observable Enrichment to TISC](send-observable-enrichment-to-tisc.md)
+[Send Observable Enrichment to TISC]()
 

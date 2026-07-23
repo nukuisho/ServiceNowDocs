@@ -2,6 +2,7 @@
 title: Create a PIN for a mobile app
 description: Create a PIN for your mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/config-app-pin-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Role required: admin
 
 5.  When prompted Enter a 6 digit PIN for your app.
 
-    ![App PIN.](../image/app-pin.png)
+    \[Omitted image "app-pin.png"\] Alt text: App PIN.
 
 6.  When prompted, re-enter the same 6 digit PIN.
 
@@ -38,5 +39,5 @@ Role required: admin
 7.  Enable **Unlock with Fingerprint Sensor** to use your device's fingerprint biometric security instead of your PIN.
 
 
-**Parent Topic:**[App PIN settings for mobile](../concept/mobile-app-pin-settings.md)
+**Parent Topic:**[App PIN settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-app-pin-settings.md)
 

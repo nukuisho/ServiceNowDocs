@@ -2,6 +2,7 @@
 title: Service definition transfer from one instance to another
 description: Save time and effort by exporting definitions of service instances from the source instance and importing these definitions into the target instance. You can use this method to copy definitions of service instances only of the discovered type.Create an import set containing definitions of services. You use this import set to import service definitions into another instance.Import definitions of application services from the source instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/transfer-service-definitions.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -39,7 +40,7 @@ The system uses the Sys ID \[sys\_id\] attribute to identify services on the sou
 -   If the same name is used for different services on the source and target instances, the system does not import service definitions.
 -   You cannot export manual services. Likewise, you cannot export manually added entry points. When importing definitions of a service containing manual entry points, the system does not make any changes to the entry points.
 
-![Exporting service definitions.](../image/ExportService.png "Exporting service definitions flow")
+\[Omitted image "ExportService.png"\] Alt text: Exporting service definitions.
 
 When transferring service definitions between instances, imported service instances and service groups are assigned to the user's domain.
 
@@ -47,18 +48,18 @@ By default, the system assigns **Non-operational** status to application service
 
 A service definition transfer deploys the standard import set feature available on the ServiceNow AI Platform. When you export service definitions on the source instance, the system creates a JSON file containing exported data. When you copy service definitions into the target instance, you import the data from this JSON file, which becomes an import set.
 
-**Parent Topic:**[Application service completion](advanced-business-service-definitions.md)
+**Parent Topic:**[Application service completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/advanced-business-service-definitions.md)
 
 **Related topics**  
 
 
-[Define criticality for application services](../task/define-criticality-for-business-services.md)
+[Define criticality for application services]()
 
-[Group application services](../task/organizing_services-into-groups.md)
+[Group application services]()
 
-[Control user access to application services](../task/control-user-access-to-business-services.md)
+[Control user access to application services]()
 
-[Schedule a top-down discovery by Service Mapping](../task/t_CreateDiscoSchedForCITypes.md)
+[Schedule a top-down discovery by Service Mapping]()
 
 ## Export service definitions
 
@@ -72,13 +73,13 @@ Create an import set containing definitions of services. You use this import set
 
 -   Verify that the source and the target instances are on the same ServiceNow release.
 -   Open the source instance from which you want to copy service definitions.
--   If necessary, fine-tune the import set creation by modifying relevant properties under **Service Mapping** &gt; **Administration** &gt; **Properties**. For more information, see [Components installed with Service Mapping](../reference/components-installed-with-service-mapping.md).
+-   If necessary, fine-tune the import set creation by modifying relevant properties under **Service Mapping** &gt; **Administration** &gt; **Properties**. For more information, see [Components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping.md).
 
 Role required: service\_mapping\_admin
 
 ### Procedure
 
-1.  If the instance uses domain separation and you have access to the global domain, select the domain to which the service instance belongs from the domain picker \(![Domain picker](../image/DomainPicker.png)\).
+1.  If the instance uses domain separation and you have access to the global domain, select the domain to which the service instance belongs from the domain picker \(\[Omitted image "DomainPicker.png"\] Alt text: Domain picker\).
 
     The selected domain must be a domain without any child domains.
 
@@ -106,7 +107,7 @@ Role required: import\_admin
 
 ### Procedure
 
-1.  If the instance uses domain separation and you have access to the global domain, select the domain to which the service instance belongs from the domain picker \(![Domain picker](../image/DomainPicker.png)\).
+1.  If the instance uses domain separation and you have access to the global domain, select the domain to which the service instance belongs from the domain picker \(\[Omitted image "DomainPicker.png"\] Alt text: Domain picker\).
 
     The selected domain must be a domain without any child domains.
 

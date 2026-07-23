@@ -2,6 +2,7 @@
 title: Personal Lines Claims dashboard
 description: With the Personal Lines Claims dashboard, you can get an insight into how your team and business are performing for the claim service requests that were received for your personal lines policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/personal-lines-claims.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ The Personal Lines Claims dashboard enables you to monitor the status of the cla
 
 **Important:** Platform Analytics Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-To access the Personal Lines Claims dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Personal Lines Claims dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon.\).
 
 You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
 
@@ -117,5 +118,5 @@ Needs to be able to customize views.
 -   Product
 -   SLA percentage
 
-**Parent Topic:**[Implementing Platform Analytics solutions](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
 

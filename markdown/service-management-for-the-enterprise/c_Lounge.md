@@ -2,6 +2,7 @@
 title: Lounge
 description: When a facilities administrator sets up a move scenario without specifying the destination building or floor, the users are moved to the lounge.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/c\_Lounge.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Plan a move scenario, Enterprise move scenarios, Move planning tool
 
 When a facilities administrator sets up a move scenario without specifying the destination building or floor, the users are moved to the lounge.
 
-![In this figure, the Lounge shows four users needing a destination on the campus.](../image/Lounge.png "Move Planning Tool Lounge")
+\[Omitted image "Lounge.png"\] Alt text: In this figure, the Lounge shows four users needing a destination on the campus.
 
-**Parent Topic:**[Plan a move scenario](../task/t_PlanScenarioMPT.md)
+**Parent Topic:**[Plan a move scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_PlanScenarioMPT.md)
 

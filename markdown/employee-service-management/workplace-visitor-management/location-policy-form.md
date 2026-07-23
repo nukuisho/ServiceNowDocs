@@ -2,6 +2,7 @@
 title: Location Policy form
 description: Use the location policy form to assign a visitor policy to a workplace location, apply the policy to internal/external visitors and configure whether the policies require signatures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/location-policy-form.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -25,24 +26,24 @@ Use the location policy form to assign a visitor policy to a workplace location,
 |Required for external|Option to enable the policy for external visitors.|
 |Require signature for external|Option to enable signatures for external visitors to acknowledge the policy. The visitor signature is stored in the visitor policy confirmation record.|
 
-**Parent Topic:**[Workplace Visitor Management references](../concept/workplace-visitor-mgmt-references.md)
+**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Visitor Management](components-installed-with-workplace-visitor-mgmt.md)
+[Components installed with Workplace Visitor Management]()
 
-[Properties installed with Workplace Visitor Management](properties-installed-with-workplace-visitor-mgmt.md)
+[Properties installed with Workplace Visitor Management]()
 
-[Kiosk Check-in Flow Configuration form](kiosk-check-in-config-form.md)
+[Kiosk Check-in Flow Configuration form]()
 
-[Kiosk Check-out Flow Configuration form](kiosk-check-out-config-form.md)
+[Kiosk Check-out Flow Configuration form]()
 
-[Kiosk Page Configuration form](kiosk-page-config-form.md)
+[Kiosk Page Configuration form]()
 
-[Kiosk Page Customizations](kiosk-page-customizations.md)
+[Kiosk Page Customizations]()
 
-[New visit form](new-visit-form.md)
+[New visit form]()
 
-[Additional requirement form](additional-req-form.md)
+[Additional requirement form]()
 

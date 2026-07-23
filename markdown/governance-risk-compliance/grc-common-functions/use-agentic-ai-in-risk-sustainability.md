@@ -2,6 +2,7 @@
 title: Use agentic AI in Now Assist for Integrated Risk Management \(IRM\)
 description: Use agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -26,9 +27,9 @@ For more information on language support, see [Multilingual service for Now Assi
 
 **Note:**
 
--   You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+-   You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
--   For the Now LLM Service updates, see [Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md).
+-   For the Now LLM Service updates, see [Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Security implementation considerations
 
@@ -51,5 +52,5 @@ Looking for an AI agent?
 
 -   There may be AI agents installed with the Now Assist application that aren’t used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md)
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
--   For information on the standalone Now Assist for IRM AI agents, see [Standalone AI Agents in Now Assist for Integrated Risk Management \(IRM\)](standalone-ai-agents-in-risk-sustainability.md).
+-   For information on the standalone Now Assist for IRM AI agents, see [Standalone AI Agents in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/standalone-ai-agents-in-risk-sustainability.md).
 

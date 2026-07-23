@@ -1,7 +1,8 @@
 ---
-title: Deploy Operational Technology \(OT\) Discovery
-description: Consider deployment options for your Discovery Console for Operational Technology \(OT\) components.
+title: Deploy Operational Technology Discovery
+description: Consider deployment options for your Operational Technology Discovery components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/deploy-ot-discovery-devices-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-24"
@@ -9,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Deploy Operational Technology \(OT\) Discovery
+# Deploy Operational Technology Discovery
 
-Consider deployment options for your Discovery Console for Operational Technology \(OT\) components.
+Consider deployment options for your Operational Technology Discovery components.
 
 ## Where to start
 
@@ -19,27 +20,33 @@ You can use the links to explore, configure, and learn more about deploying Oper
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-Deploy![](../../../reuse/icons/brand-icons/bus-explore.svg)
+Architecture\[Omitted image "BUS\_64px\_3-Buildings\_YG.png"\] Alt text:
 
- [Before deploying Operational Technology \(OT\) Discovery](before-ot-deployment.md)
+ [Architectural considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/architect-considerations.md)
 
 </td><td>
 
-Get started![](../../../reuse/icons/brand-icons/bus-sdlc.svg)
+Decisions\[Omitted image "BUS\_64px\_Service-Portal\_YG.png"\] Alt text:
 
- [Get started with OT Discovery components](get-started-ot-deployment.md)
+ [Before deploying Operational Technology Discovery \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/before-ot-deployment.md)
 
 </td></tr><tr><td>
 
-Communicate![](../../operational-technology-management/image/Workflow_Icon_Standard.png)
+Communicate\[Omitted image "BUS\_64px\_Workflow\_YG.png"\] Alt text:
 
- [Enabling OT Discovery component communications](communications.md)
+ [OT Discovery communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/communications.md)
 
 </td><td>
 
-Architecture![](../images/IND_64px_Factory-Worker_YG.png)
+Deploy\[Omitted image "BUS\_64px\_Release\_YG.png"\] Alt text:
 
- [Discovery for Operational Technology \(OT\) deployment scenarios](deployment-scenarios.md)
+ [OT Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md)
+
+</td></tr><tr><td colspan="2">
+
+Resources\[Omitted image "IND\_64px\_Shopping-Cart\_YG.svg"\] Alt text:
+
+ [OT Discovery System Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-system-resources.md)
 
 </td></tr></tbody>
 </table>

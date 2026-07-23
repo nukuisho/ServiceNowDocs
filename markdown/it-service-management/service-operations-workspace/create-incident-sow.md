@@ -2,6 +2,7 @@
 title: Create an incident in Service Operations Workspace
 description: Track the investigation, possible solutions, and resolution of a problem for a customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-incident-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,26 +24,26 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d234317e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d240067e52">
 
 Option
 
-</th><th align="left" id="d234317e55">
+</th><th align="left" id="d240067e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234317e61">
+</th></tr></thead><tbody><tr><td id="d240067e61">
 
 **From the List menu**
 
 </td><td>
 
-1.  From the primary navigation, click the list icon \(![List icon](../../itsm-manager-workspace/image/lists_icon.png)\).
-2.  Click the add icon \(![add icon](../image/add-icon.png)\) next to the **List** tab.
+1.  From the primary navigation, click the list icon \(\[Omitted image "lists\_icon.png"\] Alt text: List icon\).
+2.  Click the add icon \(\[Omitted image "add-icon.png"\] Alt text: add icon\) next to the **List** tab.
 3.  Click **New Incident**.
 
 
-</td></tr><tr><td id="d234317e100">
+</td></tr><tr><td id="d240067e100">
 
 **From an incident list**
 
@@ -60,7 +61,7 @@ Description
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d234317e140">
+</td></tr><tr><td id="d240067e140">
 
 **From an interaction**
 
@@ -281,24 +282,24 @@ Associated change request that prompted the creation of the incident.
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Incident Management in Service Operations Workspace](../concept/incident-sow.md)
+**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md)
 
 **Related topics**  
 
 
-[View and update incident information on the Overview tab in SOW](view-update-inc-overview-tab.md)
+[View and update incident information on the Overview tab]()
 
-[Viewing incident record information using the Contextual side panel](../concept/view-inc-record-info-contextual-sidepanel.md)
+[Viewing incident record information using the Contextual side panel]()
 
-[Work on an incident list page in Service Operations Workspace](work-incident-list-page-sow.md)
+[Work on an incident list page in Service Operations Workspace]()
 
-[Work on an incident record in Service Operations Workspace](work-on-incident-sow.md)
+[Work on an incident record in Service Operations Workspace]()
 
-[Remedial actions using Playbook](../concept/remedial-actions-playbook.md)
+[Remedial actions using Playbook]()
 
-[Close resolved incident](close-resolved-incident-sow.md)
+[Close resolved incident]()
 
-[Reopen an incident in Service Operations Workspace](reopen-incident-sow.md)
+[Reopen an incident in Service Operations Workspace]()
 
-[Incident Management in Service Operations Workspace reference](../concept/sow-im-reference.md)
+[Incident Management in Service Operations Workspace reference]()
 

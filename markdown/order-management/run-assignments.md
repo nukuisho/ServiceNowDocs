@@ -2,6 +2,7 @@
 title: Run Assignments
 description: Run sales territory assignments to assign CRM entities to the most eligible territory. Each territory is checked against its own or cascaded territory conditions related to the CRM entity.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/run-assignments.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,4 +40,11 @@ Role required: sales territory admin
 ## Result
 
 Sales Territory Management is assigned in the CRM entities. All the Sales Territory admins will receive an email notification when the job is completed. The selected sources entities are assigned to a territory if they fulfill the territory conditions.
+
+**Related topics**  
+
+
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md)
 

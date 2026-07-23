@@ -2,10 +2,11 @@
 title: Personal lists
 description: You can create personal lists to customize which columns appear and the order in which they appear. Personal lists modify a specific list view according to your individual preferences.You can personalize a specific list view based on your individual preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_PersonalLists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -13,9 +14,14 @@ breadcrumb: [Lists in the classic environment, Working in the classic environmen
 
 You can create personal lists to customize which columns appear and the order in which they appear. Personal lists modify a specific list view according to your individual preferences.
 
-Personal list customizations don’t affect what other users see in their lists. Administrators can [manage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_AdministeringPersonalLists.md) the personal lists function.
+Personal list customizations don’t affect what other users see in their lists. Administrators can [manage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AdministeringPersonalLists.md) the personal lists function.
 
-**Parent Topic:**[Lists in the classic environment](c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
+
+**Related topics**  
+
+
+[View management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md)
 
 ## Personalize a list
 
@@ -29,11 +35,11 @@ Role required: personalize\_list or admin
 
 1.  Open the list.
 
-2.  Select the personalize list icon \(![Personalize list icon](../image/PersonalizeListIcon.png)\) in the right corner.
+2.  Select the personalize list icon \(\[Omitted image "PersonalizeListIcon.png"\] Alt text: Personalize list icon\) in the right corner.
 
 3.  Select the columns and the desired order.
 
-    ![Personalize list columns](../image/PersonalizeListColumns.png)
+    \[Omitted image "PersonalizeListColumns.png"\] Alt text: Personalize list columns
 
     **Note:**
 
@@ -43,15 +49,15 @@ Role required: personalize\_list or admin
 
     **Note:** These options apply to all lists, not just the view you’re personalizing.
 
-<table id="choicetable_qgk_vbz_3r"><tbody><tr><td id="d44033e171">
+<table id="choicetable_qgk_vbz_3r"><tbody><tr><td id="d44486e181">
 
 **Display long text on more than one line**
 
 </td><td>
 
-Select the **Wrap column text** check box. Clear the check box to display text on one line.In Core UI, this option is also available in the **Lists** section of the [system settings](../../../administer/navigation-and-ui/reference/r_UI16BannerFrame.md).
+Select the **Wrap column text** check box. Clear the check box to display text on one line.In Core UI, this option is also available in the **Lists** section of the [system settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_UI16BannerFrame.md).
 
-</td></tr><tr><td id="d44033e202">
+</td></tr><tr><td id="d44486e212">
 
 **Condense the vertical space between rows**
 
@@ -59,7 +65,7 @@ Select the **Wrap column text** check box. Clear the check box to display text o
 
 Select the **Compact rows** check box. Clear the check box to use standard row spacing.
 
-</td></tr><tr><td id="d44033e214">
+</td></tr><tr><td id="d44486e224">
 
 **Highlight list rows as the cursor passes over them**
 
@@ -67,20 +73,20 @@ Select the **Compact rows** check box. Clear the check box to use standard row s
 
 Select the **Active row highlighting** check box. Clear the check box to restore the static, alternate row highlighting.
 
-</td></tr><tr><td id="d44033e226">
+</td></tr><tr><td id="d44486e236">
 
 **Use updated field status indicators**
 
 </td><td>
 
-Select the **Modern cell coloring** check box.In Core UI, this option is also available in the **Lists** section of the [system settings](../../../administer/navigation-and-ui/reference/r_UI16BannerFrame.md).
+Select the **Modern cell coloring** check box.In Core UI, this option is also available in the **Lists** section of the [system settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_UI16BannerFrame.md).
 
 </td></tr></tbody>
 </table>5.  Select list editing options \(requires you to configure the list editor\).
 
     **Note:** These options apply to all lists, not just the view you’re personalizing.
 
-<table id="choicetable_ofx_lcz_3r"><tbody><tr><td id="d44033e272">
+<table id="choicetable_ofx_lcz_3r"><tbody><tr><td id="d44486e282">
 
 **Allow the list editor to open for the list**
 
@@ -88,7 +94,7 @@ Select the **Modern cell coloring** check box.In Core UI, this option is also av
 
 Select the **Enable list edit** check box. Clear the check box to prevent the list editor from opening for the list.
 
-</td></tr><tr><td id="d44033e284">
+</td></tr><tr><td id="d44486e294">
 
 **Open the list editor with a double-click**
 
@@ -105,4 +111,13 @@ Select the **Double click to edit** check box. Clear the check box to open the l
 ### What to do next
 
 To reset a list to the default layout, select the personalize list icon and select the **Reset to column defaults** button.
+
+**Related topics**  
+
+
+[Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseSlushbuckets.md)
+
+[Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceField.md)
+
+[List editor administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AdministeringTheListEditor.md)
 

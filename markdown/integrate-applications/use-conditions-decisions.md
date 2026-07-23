@@ -2,11 +2,12 @@
 title: Use the Decision component
 description: Automate the decision-making process by using the Decision component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-conditions-decisions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Conditions, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Conditions, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the Decision component
@@ -15,7 +16,7 @@ Automate the decision-making process by using the Decision component in RPA Desk
 
 Watch this video to learn how to use the Decision component.
 
-How to use the Decision component 
+\[Omitted video\] Description: How to use the Decision component
 
 ## Before you begin
 
@@ -25,9 +26,9 @@ Role required: none
 
 You can specify a conditional expression in the component. If the expression contains any parameters, they appear as input ports. If the expression is correct based on the inputs provided, then the True Output Port takes control. Else, the False Output port takes control and executes the automation.
 
-For defining conditions, the Decision component provides many functions, operators, and expressions. For more information, see [Functions, data types, and operators](../reference/conditions-decision-func-opr.md).
+For defining conditions, the Decision component provides many functions, operators, and expressions. For more information, see [Functions, data types, and operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions-decision-func-opr.md).
 
-To configure the properties for the Decision component, see [Properties of the Conditions components](../reference/conditions-properties.md).
+To configure the properties for the Decision component, see [Properties of the Conditions components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions-properties.md).
 
 ## Procedure
 
@@ -35,13 +36,13 @@ To configure the properties for the Decision component, see [Properties of the C
 
 2.  Drag the Decision component to the Design surface.
 
-3.  Double-click the field under the DECISION component bar.![Enable the Decision component field.](../image/decision-enable-field.png)
+3.  Double-click the field under the DECISION component bar.\[Omitted image "decision-enable-field.png"\] Alt text: Enable the Decision component field.
 
 4.  Enter the condition in the field, such as a=5 where "a" is the parameter.
 
     A Data In port is dynamically created.
 
-5.  To enter a value in the Data In field, see [Configure port properties](configure-input-port-properties.md).
+5.  To enter a value in the Data In field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 6.  Connect the data and control ports of the Decision component to the corresponding ports of the other components.
 
@@ -54,7 +55,7 @@ To configure the properties for the Decision component, see [Properties of the C
 
 ## Accept an input and match with a condition
 
-In the DECISION component, a conditional expression "i=10" is set. Since "i" is the parameter, an input port is dynamically created in the component. The Variable \([Create and use a variable in RPA Desktop Design Studio](configure-variables-rpa-studio.md)\) component provides the input "5" to the Decision component which is False. Hence, the False Output port takes control and the Show \([Use the Show component](use-general-messagebox-show.md)\) component shows the message "False." ![Use of the Decision component](../image/Decision.PNG)
+In the DECISION component, a conditional expression "i=10" is set. Since "i" is the parameter, an input port is dynamically created in the component. The Variable \([Create and use a variable in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-variables-rpa-studio.md)\) component provides the input "5" to the Decision component which is False. Hence, the False Output port takes control and the Show \([Use the Show component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-general-messagebox-show.md)\) component shows the message "False." \[Omitted image "Decision.PNG"\] Alt text: Use of the Decision component
 
-**Parent Topic:**[Conditions](../concept/conditions-components.md)
+**Parent Topic:**[Conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/conditions-components.md)
 

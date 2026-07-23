@@ -2,6 +2,7 @@
 title: Create an alias for the API key credential for Fortinet firewall REST-based discovery
 description: Create an alias and add it to an API key credential to discover Fortinet firewalls and FortiGate Virtual Domains \(VDOMs\) through REST-based discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-alias-api-key-cred-fortinet.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -17,7 +18,7 @@ Create an alias and add it to an API key credential to discover Fortinet firewal
 
 ## Before you begin
 
-Create an API Token in Fortinet. For more information, see the [Create API Token](../reference/fortinet-fw-vdoms-rest-discovery.md#create-fortinet-api-token) prerequisite in [Fortinet firewall and FortiGate VDOM REST-based discovery](../reference/fortinet-fw-vdoms-rest-discovery.md).
+Create an API Token in Fortinet. For more information, see the [Create API Token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md) prerequisite in [Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md).
 
 Role required: discovery\_admin
 
@@ -47,15 +48,15 @@ Role required: discovery\_admin
 
     6.  Select **Submit**.
 
-        For more information about API Key Credentials form fields, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/API-key-credential-form.md).
+        For more information about API Key Credentials form fields, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/API-key-credential-form.md).
 
 
 ## What to do next
 
-Create a serverless schedule for Fortinet Firewall REST-based discovery. For more information, see [Create a serverless schedule for Fortinet firewall REST-based discovery](create-serverless-schedule-fortinet.md).
+Create a serverless schedule for Fortinet Firewall REST-based discovery. For more information, see [Create a serverless schedule for Fortinet firewall REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-fortinet.md).
 
 **Related topics**  
 
 
-[Fortinet firewall and FortiGate VDOM REST-based discovery](../reference/fortinet-fw-vdoms-rest-discovery.md)
+[Fortinet firewall and FortiGate VDOM REST-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-vdoms-rest-discovery.md)
 

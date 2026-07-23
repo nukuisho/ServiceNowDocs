@@ -1,36 +1,31 @@
 ---
-title: Customer success
-description: After an onboarding case has been created, you can configure and set up customer success by creating engagements, configuring success plays, and setting up the success initiative record.
+title: Configure customer success
+description: Customer success capabilities help you monitor and manage the health of customer accounts throughout their lifecycle. Configure these capabilities to track engagements, identify risks, and support retention goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-config-cust-success.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer Success Management, Customer Success Management]
+breadcrumb: [Configure, Customer Success Management]
 ---
 
-# Customer success
+# Configure customer success
 
-After an onboarding case has been created, you can configure and set up customer success by creating engagements, configuring success plays, and setting up the success initiative record.
+Customer success capabilities help you monitor and manage the health of customer accounts throughout their lifecycle. Configure these capabilities to track engagements, identify risks, and support retention goals.
 
--   **[Basic customer success setup](account-lifecycle-basic-config.md)**  
+-   **[Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-basic-config.md)**  
 Define the basic customer success components
--   **[Manage customer success playbooks](account-lifecycle-manage-cust-succ-playbooks.md)**  
-Create playbooks to define planned and unplanned activities during the engagement lifecycle.
--   **[Create a product capability](../task/account-lifecycle-create-prod-cap.md)**  
-Create a product capability record and associate with one or more capability usage records.
--   **[Create a product adoption roadmap](../task/account-lifecycle-create-par-roadmap.md)**  
-Create a product adoption roadmap that guides customers through optimal product adoption to achieve maximum business value.
--   **[Create a product adoption roadmap template](../task/account-lifecycle-create-par-roadmap-temp.md)**  
-Create a template that defines a pre-configured adoption strategy with products or capabilities organized into lanes, that can be customized as needed.
--   **[Manage engagements](account-lifecycle-manage-engagement.md)**  
-Configure metrics to calculate the health and risk score for an engagement.
--   **[Create a success blueprint template](../task/account-lifecycle-create-blueprint-template.md)**  
-Create a success blueprint template with predefined success objectives and outcomes.
--   **[Create an implementation record](../task/account-lifecycle-create-imp-record.md)**  
-Track the progress of a partner or customer implementing a product or a service.
--   **[Enable integration with Microsoft Dynamics CRM](account-lifecycle-crm-integration.md)**  
+-   **[Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engagement.md)**  
+Configure engagement health scores, risk definitions, and the color banding table to monitor and visualize the health and risk of engagements.
+-   **[Configure success blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-success-blueprints.md)**  
+Configure success blueprint templates and the supporting elements that customer success managers use to define how success is measured for an engagement.
+-   **[Configure product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-prod-cap.md)**  
+Configure product capabilities, adoption roadmap templates, and capability usage tracking to measure how customers use your products.
+-   **[Configure Zoom and touchpoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-zoom-int.md)**  
+Integrate Zoom with touchpoint records to schedule virtual meetings and generate AI-powered meeting summaries.
+-   **[Enable integration with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-crm-integration.md)**  
 Integrating your ServiceNow instance with the Microsoft Dynamics CRM platform enables seamless data exchange and process synchronization between the two platforms. This integration is done through the Microsoft Dynamics CRM spoke.
 
-**Parent Topic:**[Configure Customer Success Management](account-lifecycle-events-landing-page.md)
+**Parent Topic:**[Configure Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing-page.md)
 

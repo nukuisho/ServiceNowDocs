@@ -2,6 +2,7 @@
 title: Create an allocation rule
 description: Expense allocation rules enable you to associate expenses with an item, such as a user, group, or department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/t\_CreateAnAllocationRule.html
 release: australia
 product: Expense Line
 classification: expense-line
@@ -17,7 +18,7 @@ Expense allocation rules enable you to associate expenses with an item, such as 
 
 ## Before you begin
 
-To use expense allocation rules, activate [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md).
+To use expense allocation rules, activate [Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_CostManagement.md).
 
 Role required: admin, financial\_mgmt\_admin, or financial\_mgmt\_user
 
@@ -49,20 +50,20 @@ Role required: admin, financial\_mgmt\_admin, or financial\_mgmt\_user
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Expense lines and expense allocations](../concept/c_ExpenseLinesAndAllocations.md)
+**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
 
 **Related topics**  
 
 
-[Automatic expense line creation](../concept/c_CreateExpenseLinesAutomatically.md)
+[Automatic expense line creation]()
 
-[Create expense lines manually](t_CreateExpenseLinesManually.md)
+[Create expense lines manually]()
 
-[Delete an expense line](t_DeleteAnExpenseLine.md)
+[Delete an expense line]()
 
-[Create a sample allocation rule](t_SampleAllocationRule.md)
+[Create a sample allocation rule]()
 
-[Use a scripted allocation](t_UseAScriptedAllocation.md)
+[Use a scripted allocation]()
 
 [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)
 

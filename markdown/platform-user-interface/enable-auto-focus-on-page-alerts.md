@@ -2,18 +2,19 @@
 title: Enable auto-focus on page alerts preference
 description: Learn more about the Enable auto-focus on page alerts accessibility preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-auto-focus-on-page-alerts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure accessibility preferences, Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure accessibility preferences, Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Enable auto-focus on page alerts preference
 
 Learn more about the Enable auto-focus on page alerts accessibility preference.
 
-![Enable auto-focus on page alerts accessibility preference.](../image/pol-pref-auto-focus.png)
+\[Omitted image "pol-pref-auto-focus.png"\] Alt text: Enable auto-focus on page alerts accessibility preference.
 
 The purpose of this preference is to ensure alerts are immediately accessible by automatically moving keyboard focus to them when they appear.
 

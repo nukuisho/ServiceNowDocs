@@ -2,6 +2,7 @@
 title: Survey scorecard question results
 description: The Question Results filter displays the result of all questions or an individual question using charts or lists. For the String, Attachment, Date, Date/time, Reference, and Ranking data types, the results are displayed in the list view. The results of all other data types are displayed in the pie chart view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_SurveyScorecardQuestionResults.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ The Question Results filter displays the result of all questions or an individua
 
 ## Pie chart
 
-The pie chart shows question results for all data types other than those that are displayed in the list view. See [Survey question data types](r_SurveyQuestionDataTypes.md).
+The pie chart shows question results for all data types other than those that are displayed in the list view. See [Survey question data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyQuestionDataTypes.md).
 
 -   Checkbox.
 -   Boolean.
@@ -51,18 +52,18 @@ When a user submits a survey, three records \(one for each Timeframe\) will be c
 
 Now if a second user submits in December month of 2023, which falls under same Quarter 3, as above scenario. Then only a single record is created for Monthly Time frame.
 
-![Survey scorecard question results - pie chart](../image/SurveyScorecardQuestionPie.png "Survey scorecard question results - pie chart")
+\[Omitted image "SurveyScorecardQuestionPie.png"\] Alt text: Survey scorecard question results - pie chart
 
-**Parent Topic:**[View a survey scorecard](../task/t_ViewAScorecard.md)
+**Parent Topic:**[View a survey scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAScorecard.md)
 
 **Related topics**  
 
 
-[Survey scorecard category results](r_SurveyScorecardCategoryResults.md)
+[Survey scorecard category results]()
 
-[Survey scorecard average ratings](r_SurveyScorecardAverageRatings.md)
+[Survey scorecard average ratings]()
 
-[Survey scorecard history](r_SurveyScorecardHistory.md)
+[Survey scorecard history]()
 
-[Export a survey scorecard as an image](../task/t_ExportAScorecardAsAnImage.md)
+[Export a survey scorecard as an image]()
 

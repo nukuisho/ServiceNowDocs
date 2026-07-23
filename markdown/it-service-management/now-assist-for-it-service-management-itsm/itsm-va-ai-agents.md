@@ -2,6 +2,7 @@
 title: Agentic AI in the Virtual Agent application
 description: Use AI agents in Virtual Agent to autonomously resolve tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/itsm-va-ai-agents.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -32,7 +33,7 @@ To activate, in the **Select channels and status** screen:
 -   In the **Chat assistants** field, select **Now Assist in Virtual Agent \(default\)** to use the AI agent from the Virtual Agent.
 -   In the **Activation status** section, enable the **This AI agent is active** button.
 
-![image.now-assist-demo-password-reset-agent1]![image.now-assist-demo-password-reset-agent2]
+\[Omitted image "image.now-assist-demo-password-reset-agent1"\] Alt text: Demo password reset agent- enable Engage via Virtual Agent assistants\[Omitted image "image.now-assist-demo-password-reset-agent2"\] Alt text: Demo password reset agent- enable the agent
 
-The DEMO Password reset agent uses the ESC Portal Default Search Profile. ![image.itsm-demo-pw-reset-agent-search-profile]
+The DEMO Password reset agent uses the ESC Portal Default Search Profile. \[Omitted image "image.itsm-demo-pw-reset-agent-search-profile"\] Alt text: ESC Portal Default Search Profile
 

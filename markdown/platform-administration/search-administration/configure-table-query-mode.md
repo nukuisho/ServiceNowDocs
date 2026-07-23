@@ -2,6 +2,7 @@
 title: Change the query mode of an indexed table
 description: Set the query mode to specify whether searches on an indexed table must match all or only some of the search terms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/configure-table-query-mode.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -17,7 +18,7 @@ Set the query mode to specify whether searches on an indexed table must match al
 
 ## Before you begin
 
-To change the query mode of an indexed table, a text index must be present for the table. Make sure that text indexing is enabled for the table before changing the query mode. See [Configure a table for indexing and searching](configure-single-table-for-indexing.md#).
+To change the query mode of an indexed table, a text index must be present for the table. Make sure that text indexing is enabled for the table before changing the query mode. See [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
 
 Role required: ts\_admin or admin
 
@@ -33,7 +34,7 @@ Once a table is indexed, the data within the table can be searched through the g
 
 3.  Use the combo box to select a **Default query mode**.
 
-<table id="choicetable_rjr_4mz_yy"><tbody><tr><td id="d115067e103">
+<table id="choicetable_rjr_4mz_yy"><tbody><tr><td id="d117787e103">
 
 **Default**
 
@@ -41,7 +42,7 @@ Once a table is indexed, the data within the table can be searched through the g
 
 The default query mode for a table is an AND query.
 
-</td></tr><tr><td id="d115067e112">
+</td></tr><tr><td id="d117787e112">
 
 **AND**
 
@@ -49,7 +50,7 @@ The default query mode for a table is an AND query.
 
 Matches all search terms.
 
-</td></tr><tr><td id="d115067e121">
+</td></tr><tr><td id="d117787e121">
 
 **OR**
 
@@ -57,7 +58,7 @@ Matches all search terms.
 
 Matches one or more search terms.
 
-</td></tr><tr><td id="d115067e130">
+</td></tr><tr><td id="d117787e130">
 
 **AND\_OR**
 
@@ -156,32 +157,32 @@ Multiple conditional specifications separated by commas. In this example: if the
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Zing indexes words](../concept/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 
 
-[Zing indexes punctuation as part of some words](../concept/c_PunctuationForSearchResults.md)
+[Zing indexes punctuation as part of some words]()
 
-[Zing indexes some HTML elements](../concept/c_SearchingHTMLContent.md)
+[Zing indexes some HTML elements]()
 
-[Configure a table for indexing and searching](configure-single-table-for-indexing.md#)
+[Configure a table for indexing and searching]()
 
-[Configure a text index group to search across multiple tables](index-multiple-tables.md)
+[Configure a text index group to search across multiple tables]()
 
-[Zing index and search dictionary attributes](../reference/index-attributes.md)
+[Zing index and search dictionary attributes]()
 
-[Regenerate a text index for a table](t_RegenerateATextIndexForATable.md)
+[Regenerate a text index for a table]()
 
-[Remove an index](t_RemoveAnIndex.md)
+[Remove an index]()
 
-[Remove an index for a specific field](t_RemoveAnIndexForASpecificField.md)
+[Remove an index for a specific field]()
 
-[Remove the text index for a child table](remove-index-child-table.md)
+[Remove the text index for a child table]()
 
-[Enable indexing of text in multi-row variable sets](index-text-multi-row-variable-sets.md)
+[Enable indexing of text in multi-row variable sets]()
 
-[Text indexing statistics and status](../reference/r_ViewTextIndexingStatsAndStatus.md)
+[Text indexing statistics and status]()
 
-[Configure tables to use the Japanese tokenizer](configure-tables-japanese-tokenizer.md)
+[Configure tables to use the Japanese tokenizer]()
 

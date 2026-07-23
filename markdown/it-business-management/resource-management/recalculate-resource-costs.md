@@ -1,7 +1,8 @@
 ---
-title: Recalculate costs of a resource plan of a project or demand
+title: Recalculate costs of a resource plan
 description: Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/recalculate-resource-costs.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -11,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Recalculate costs of a resource plan of a project or demand
+# Recalculate costs of a resource plan
 
 Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
 
@@ -26,7 +27,7 @@ Role required: resource\_manager
 
 ## About this task
 
-To update the costs of all the resource plans of a project or demand in one go, you can use the **Recalculate Resource Costs** option from the [project form](../../project-management/task/recalculate-resource-costs-of-a-project.md) or [demand form](../../planning-and-policy/task/recalculate-resource-costs-of-a-demand.md).
+To update the costs of all the resource plans of a project or demand in one go, you can use the **Recalculate Resource Costs** option from the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) or [demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.md).
 
 ## Procedure
 
@@ -55,42 +56,42 @@ To update the costs of all the resource plans of a project or demand in one go, 
 -   Updates the recalculated resource costs on the respective cost fields on the resource plan form and the **Resource Plans** related list of the associated project or demand.
 -   Reflects the revised values on the respective cost fields of associated project or demand.
 
-**Parent Topic:**[Resource plans](../concept/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
 
-[Create a resource plan](t_CreateResourcePlanProjectTask.md)
+[Create a resource plan]()
 
-[Use Resource Finder to analyze resource availability](create-resource-plan-with-finder.md)
+[Use Resource Finder to analyze resource availability]()
 
-[Create an operational resource plan](create-operational-plan.md)
+[Create an operational resource plan]()
 
-[Request resources](t_RequestResourcePlanApproval.md)
+[Request resources]()
 
-[Confirm a resource plan](confirm-resource-plan.md)
+[Confirm a resource plan]()
 
-[Confirm and allocate a resource plan](confirm-allocate-resource-plan.md)
+[Confirm and allocate a resource plan]()
 
-[Request a change to a resource plan](t_RequestAChangeToAResourcePlan.md)
+[Request a change to a resource plan]()
 
-[Update cost plan related to a resource plan](t_UpdateRelatedCostPlan.md)
+[Update cost plan related to a resource plan]()
 
-[Complete a resource plan](t_CloseAResourcePlan.md)
+[Complete an allocated resource plan]()
 
-[Cancel a resource plan](t_CancelAResourcePlan.md)
+[Cancel a resource plan]()
 
-[Delete a resource plan](t_DeleteAResourcePlan.md)
+[Delete a resource plan]()
 
-[Extend a resource plan](extend-resource-plan.md)
+[Extend a resource plan]()
 
-[Request extension of an allocated resource plan](request-extension-allocated-resource-plan.md)
+[Request extension of an allocated resource plan]()
 
-[Allocate resources for the extended period](allocate-resources-for-extended-period.md)
+[Allocate resources for the extended period]()
 
-[Reduce the duration of a resource plan](reduce-resource-plan.md)
+[Reduce the duration of a resource plan]()
 
-[Time zones in resource plans](../concept/c_TimeZonesInResourcePlans.md)
+[Time zones in resource plans]()
 
-[Associate a time card with a resource plan](t_AssocATimeCardWithAResourcePlan.md)
+[Associate a time card with a resource plan]()
 

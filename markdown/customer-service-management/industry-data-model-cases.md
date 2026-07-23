@@ -2,6 +2,7 @@
 title: Service Model Foundation cases
 description: Location agents and location consumer agents at a business location can create cases for accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/industry-data-model-cases.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -42,7 +43,7 @@ Cases for a business location are added to the Cases related list on the interna
 -   When a case is created, the service organization on the case is the service organization of the user who creates the case.
 -   When a case is assigned to an agent, the service organization on the case is updated to the service organization of the assigned agent.
 
-**Note:** Only external staff with the location agent can act as fulfillers. For more information, see [External business location \(EBL\) as a fulfiller](../concept/ebl-as-a-fulfiller.md).
+**Note:** Only external staff with the location agent can act as fulfillers. For more information, see [External business location \(EBL\) as a fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ebl-as-a-fulfiller.md).
 
 |Consumer type|Case access|
 |-------------|-----------|

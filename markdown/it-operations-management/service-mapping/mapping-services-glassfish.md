@@ -1,7 +1,8 @@
 ---
-title: Mapping application services containing Oracle GlassFish Servers
+title: Application services with Oracle GlassFish Servers
 description: Service Mapping can discover application services containing Oracle GlassFish Servers.Map an service instance containing an Oracle GlassFish Server correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/mapping-services-glassfish.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -11,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Mapping application services containing Oracle GlassFish Servers
+# Application services with Oracle GlassFish Servers
 
 Service Mapping can discover application services containing Oracle GlassFish Servers.
 
@@ -43,7 +44,7 @@ Pattern \(or probe if indicated\)
 
 </th></tr></thead><tbody><tr id="glassfish-supported-app"><td>
 
-[Oracle GlassFish Server](mapping-services-glassfish.md#)
+[Oracle GlassFish Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/mapping-services-glassfish.md)
 
 </td><td>
 
@@ -102,7 +103,7 @@ Horizontal and top-down
 GlassFish WAR
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Map a single application service using classic Service Mapping](../task/t_DefineNewBusinessService.md)
+</table>**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 
 ## Map application services containing Oracle GlassFish Servers
 
@@ -110,9 +111,9 @@ Map an service instance containing an Oracle GlassFish Server correctly.
 
 ### Before you begin
 
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
--   \(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/enable-winRM-MID-servers.md).
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
+-   \(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+-   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
 
 Role required: service\_mapping\_admin
 
@@ -220,7 +221,7 @@ Free text comment to provide information on the endpoint.This field appears when
 
     2.  Review the application service map and make sure that the service layout is as in the following example.
 
-        ![Application service including a GlassFish server.](../image/GlassFish-components.png)
+        \[Omitted image "GlassFish-components.png"\] Alt text: Application service including a GlassFish server.
 
     In addition, verify that the GlassFish Server CIs are inclusions, each of which contains a WAR file.
 

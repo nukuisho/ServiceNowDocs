@@ -2,6 +2,7 @@
 title: Configure an e-signature provider
 description: Configure an electronic signature provider to enable users to sign contract documents electronically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-integrate-esign.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,19 +18,19 @@ Configure an electronic signature provider to enable users to sign contract docu
 
 ## About this task
 
-The following video walks you through the process of configuring your e-signature provider for Contract Management Pro.Video explaining how to configure e-signature provider for Contract Management Pro, approximately two minutes long. 
+The following video walks you through the process of configuring your e-signature provider for Contract Management Pro.\[Omitted video\] Description: Video explaining how to configure e-signature provider for Contract Management Pro, approximately two minutes long.
 
 ## Before you begin
 
 Ensure that the administrator has installed and set up spokes in Integration Hub for the electronic signature providers that you want to configure.
 
--   **[Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/adobe-sign-spoke.md) v2.8.0 or later version**
+-   **[Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/adobe-sign-spoke.md) v2.8.0 or later version**
 
-    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see [Synchronize Adobe Acrobat Sign group with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-adobe-sign.md).
+    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see [Synchronize Adobe Acrobat Sign group with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-adobe-sign.md).
 
--   **[DocuSign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/docusign-spoke.md) v4.1.x or later version**
+-   **[DocuSign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/docusign-spoke.md) v4.1.x or later version**
 
-    For more information on the setup and creating the Docusign account, see [Set up Docusign eSignature spoke using authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
+    For more information on the setup and creating the Docusign account, see [Set up Docusign eSignature spoke using authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-docusign-authorization-code.md).
 
 
 Role required: sn\_cm\_core.contract\_config
@@ -44,7 +45,7 @@ Role required: sn\_cm\_core.contract\_config
     -   To modify an existing external app configuration, open the external app configuration from the list.
 3.  On the Contract Integration Type page, click the **Electronic Signature** link.
 
-    ![Electronic signature form](../image/cmpro-electronic-signature.png "E-signature configuration form")
+    \[Omitted image "cmpro-electronic-signature.png"\] Alt text: Electronic signature form
 
 4.  On the form, fill in the fields.
 
@@ -158,12 +159,12 @@ The conﬁguration for the electronic signature is ready to be used for signing 
 
 **Note:** \(Optional\) You can view, edit, and delete the record.
 
-For information on configuring external storage, see [Configure an external storage system](cncore-integrate-ext-storage.md).
+For information on configuring external storage, see [Configure an external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.md).
 
-**Parent Topic:**[Configuring external applications for Contract Management Pro](../concept/cncore-set-ext-app-config.md)
+**Parent Topic:**[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
 
 **Related topics**  
 
 
-[Configure an external storage system](cncore-integrate-ext-storage.md)
+[Configure an external storage system]()
 

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Hermes Messaging Service release notes
@@ -17,35 +17,45 @@ The ServiceNow® Hermes Messaging Service application enables you to integrate y
 -   Create more Hermes topics for specific events or integrations with an expanded topic limit.
 -   View granular usage metrics in the Hermes Usage Dashboard.
 -   Restrict access to the Hermes cluster based on the client IP address.
+-   Manage Hermes configuration properties and background jobs from the Hermes Settings page.
+-   Protect message data on broker disks with encryption at rest, with support for customer-supplied keys.
 
-See [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md) for more information.
+See [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service.md) for more information.
 
 ## New in the Australia release
 
--   **[Expanded topic limits in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/exploring-hermes-messaging-service.md)**
+-   **[Expanded topic limits in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/exploring-hermes-messaging-service.md)**
 
     Create more topics in Hermes with an increased topic limit. The total number of partitions across all topics can't exceed 960.
 
--   **[Hermes Usage Dashboard improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/monitoring-data-usage-hermes.md)**
+-   **[Hermes Usage Dashboard improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/monitoring-data-usage-hermes.md)**
 
     View Hermes data usage by source, including the total number of bytes received and bytes sent over time, in the Hermes Usage Dashboard.
 
--   **[Access restrictions by IP address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/restricting-access-hermes-topics.md)**
+-   **[Access restrictions by IP address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/restricting-access-hermes-topics.md)**
 
     Restrict access to Hermes by enabling IP address access control rules.
 
--   **[View-only role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-roles.md)**
+-   **[View-only role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service-roles.md)**
 
     Enable administrators to view topics and namespaces in Hermes by granting the hermes\_viewer role instead of the full admin role.
+
+-   **[Hermes Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c-hermes-settings.md)**
+
+    Enable maintenance users and administrators to view and modify Hermes configuration properties and manage background jobs directly from the Hermes Settings page.
+
+-   **Encryption at rest for Hermes topics**
+
+    Protect message data stored on broker disks by enabling encryption at rest on individual Hermes topics. Choose between ServiceNow-managed keys or customer-supplied keys using the Bring Your Own Key \(BYOK\) model.
 
 
 ## Activation information
 
-Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or the installation of the Log Export Service application. For details, see [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or the installation of the Log Export Service application. For details, see [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service-activation.md).
 
 ## Related ServiceNow applications and features
 
--   **[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)**
+-   **[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stream-connect-apache-kafka.md)**
 
     Produce Apache Kafka messages from your ServiceNow instance using Workflow Studio and then consume the messages in an external application. You can also produce Apache Kafka messages from an external application and then consume the messages in your ServiceNow instance using a variety of consumers with Stream Connect.
 
@@ -53,10 +63,10 @@ Hermes Messaging Service is a ServiceNow AI Platform feature that is available w
 
     Export log data securely to your external data lake for reporting, auditing, or regulatory purposes using Hermes Messaging Service with the Log Export Service.
 
--   **[Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md)**
+-   **[Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication.md)**
 
     Improve the performance and processing efficiency of Instance Data Replication by upgrading the replication sets that you created before the Washington DC release to use Hermes Messaging Service.
 
 
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](now-platform-capabilities-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
 

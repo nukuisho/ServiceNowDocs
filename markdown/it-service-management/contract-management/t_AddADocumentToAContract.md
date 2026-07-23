@@ -2,13 +2,14 @@
 title: Add a document to a contract
 description: Contracts can be associated with documents. Linking a contract to related documents helps keep all relevant information about a contract together and easily accessible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_AddADocumentToAContract.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Add a document to a contract
@@ -31,24 +32,24 @@ Role required: admin, contract\_manager\(core UI and Hardware Asset Workspace on
 3.  Add a document to the contract.
 
     -   If you are using the core UI, use the following steps:
-        1.  Click the Manage Attachments ![Manage Attachments icon.](../../vendor-manager-workspace/image/attachments-icon.png)icon on the form header.
+        1.  Click the Manage Attachments \[Omitted image "attachments-icon.png"\] Alt text: Manage Attachments icon.icon on the form header.
 
         2.  In the Attachments dialog box, click **Choose file** to search for and select the document that you want to add to the contract.
 
     -   If you are using the Hardware Asset Workspaceor Enterprise Asset Workspace, use the following steps:
-        1.  Click the Attachment \(![Attachment icon](../../vendor-manager-workspace/image/attachments-icon.png)\) icon on the sidebar of the contract record.
+        1.  Click the Attachment \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon\) icon on the sidebar of the contract record.
         2.  In the Attachments window, click **Select** to search for and select the document that you want to add to the contract.
 
-**Parent Topic:**[Create a contract](t_CreateAContract.md)
+**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_CreateAContract.md)
 
 **Related topics**  
 
 
-[Create a software maintenance contract example](t_UseCaseCreateSWMaintContract.md)
+[Create a software maintenance contract example]()
 
-[Add an asset to a contract](t_AddAnAssetToAContract.md)
+[Add an asset to a contract]()
 
-[Add a user to a contract](t_AddAUserToAContract.md)
+[Add a user to a contract]()
 
-[Add a configuration item to a contract](t_AddAConfigurationItemToAContract.md)
+[Add a configuration item to a contract]()
 

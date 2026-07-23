@@ -2,6 +2,7 @@
 title: Instance Security Center
 description: Monitor the compliance level of instance security controls, view security event monitoring metrics, and configure and maintain instance security settings all from within the Instance Security Center. The Instance Security Center consolidates several key security components into a single control console that helps you detect, protect, and respond to instance-based security events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-center.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,13 +18,13 @@ Monitor the compliance level of instance security controls, view security event 
 
 Instance Security Center \(ISC\) has reached the end of sales as of September 2024, and is no longer supported or available for new activation.
 
-ServiceNow Security Center \(SSC\) is the recommended solution going forward. For more information, see [Instance Security Center to ServiceNow Security Center migration](../../security-center/concept/instance-security-center-to-security-center-migration.md).
+ServiceNow Security Center \(SSC\) is the recommended solution going forward. For more information, see [Instance Security Center to ServiceNow Security Center migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-center-to-security-center-migration.md).
 
 ## Instance Security Center components
 
 To access the Instance Security Center, navigate to **System Security** &gt; **Instance Security Center** or the System Administration homepage.
 
-![Instance security center homepage](../image/instance-security-center.png)
+\[Omitted image "instance-security-center.png"\] Alt text: Instance security center homepage
 
 The Instance Security Center homepage contains the following security components:
 
@@ -120,7 +121,7 @@ The banner background colors indicate the relative severity of the messages.
 |Dark gray|Non-critical warning message.|
 |Blue|General information message.|
 
-To collapse or minimize the text content in the banner, select ![Collapse/expand banner](../image/Inst_sec_center_banner_collapse_expand.png). To maximize the text content, select it again.
+To collapse or minimize the text content in the banner, select \[Omitted image "Inst\_sec\_center\_banner\_collapse\_expand.png"\] Alt text: Collapse/expand banner. To maximize the text content, select it again.
 
 -   When you use the Instance Security Center again, the text content appeared as collapsed or expanded, depending on how you used it during your previous session.
 -   If the text content itself changes, it appears as maximized for all users.
@@ -142,7 +143,7 @@ Use the event ribbon to view key security event monitoring metrics for the curre
 -   To manually scroll through the metrics, select the right or left arrow keys.
 -   To configure the event ribbon, select **Edit**.
 
-To learn more about the event ribbon and how to configure it, see [Monitor security events](instance-sec-center-event-ribbon.md) and [Configure the security event ribbon](../task/instance-sec-center-configure-event-ribbon.md).
+To learn more about the event ribbon and how to configure it, see [Monitor security events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-event-ribbon.md) and [Configure the security event ribbon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-configure-event-ribbon.md).
 
 ## Daily compliance score
 
@@ -150,10 +151,10 @@ The Daily Compliance Score section contains the **Daily Compliance Score**, **Se
 
 You use the Daily Compliance Score to gauge how healthy your instance is from a security standpoint.
 
-The Daily Compliance Score is a percentage score. It is based on how compliant the current settings of your instance security properties are with the compliance values published in the [Hardening settings](../../security-center/reference/security-hardening-settings.md).
+The Daily Compliance Score is a percentage score. It is based on how compliant the current settings of your instance security properties are with the compliance values published in the [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
 
--   To learn more about Daily Compliance Score calculations, and how hardening settings impact it, see [Check the daily compliance score and configure security property settings](instance-sec-center-hardening.md).
--   The **Refresh** button enables an administrator to instantly recalculate the Daily Compliance Score. To learn more, see [How Daily Compliance score, trend, and graph data is refreshed](how-daily-compl-score-trend-date-refreshed.md).
+-   To learn more about Daily Compliance Score calculations, and how hardening settings impact it, see [Check the daily compliance score and configure security property settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-hardening.md).
+-   The **Refresh** button enables an administrator to instantly recalculate the Daily Compliance Score. To learn more, see [How Daily Compliance score, trend, and graph data is refreshed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/how-daily-compl-score-trend-date-refreshed.md).
 
 ## Hardening
 
@@ -163,15 +164,15 @@ Use this process to adjust the specific security configuration properties that a
 2.  Specify whether you want to view all or only recommended security controls. Then, select the category you want to work in.
 3.  Set each security configuration property in the selected category. Click **More Info** to view detailed information for a property.
 
-To learn more about hardening and optimizing security configuration properties to further increase compliance, see [Adjust instance security settings to increase compliance](../task/update-security-hardening-params.md).
+To learn more about hardening and optimizing security configuration properties to further increase compliance, see [Adjust instance security settings to increase compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/update-security-hardening-params.md).
 
-To learn more about how trend and graph data is refreshed, see [How Daily Compliance score, trend, and graph data is refreshed](how-daily-compl-score-trend-date-refreshed.md).
+To learn more about how trend and graph data is refreshed, see [How Daily Compliance score, trend, and graph data is refreshed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/how-daily-compl-score-trend-date-refreshed.md).
 
 ## Auditor
 
 Run the Auditor to scan your instance and find incorrect security definitions. It provides findings you can correct to help improve the security posture of your instance.
 
-To access the Auditor page, select the **Auditor** tile or the **Auditor** link. To learn more, see [Scan for incorrect security definitions](scan-for-incorrect-security-definitions.md).
+To access the Auditor page, select the **Auditor** tile or the **Auditor** link. To learn more, see [Scan for incorrect security definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/scan-for-incorrect-security-definitions.md).
 
 ## Session management
 
@@ -198,13 +199,13 @@ User
 
 </td><td>
 
-Name of the user associated with this login session. -   To locate a specific user session, select the spotlight search icon \( ![Search](../image/Search.png)\) to search by user, user agent keyword, or IP address.
+Name of the user associated with this login session. -   To locate a specific user session, select the spotlight search icon \( \[Omitted image "Search.png"\] Alt text: Search\) to search by user, user agent keyword, or IP address.
 
 For example, if you want to find all current logins from a specific type of browser, enter the browser name as a keyword into the **User Agent** field.
 
 -   Click a user name to access the user profile record. You can modify the user profile only if you have an assigned admin role.
 
-**Note:** To learn more about user profiles, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
+**Note:** To learn more about user profiles, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md).
 
 
 </td></tr><tr><td>
@@ -213,7 +214,7 @@ MFA
 
 </td><td>
 
-Check box indicating if Multi-factor Authentication \(MFA\) is enabled for the logged in user. To learn more about MFA, see [Multi-factor authentication](../../../integrate/authentication/concept/mfa-landing.md).
+Check box indicating if Multi-factor Authentication \(MFA\) is enabled for the logged in user. To learn more about MFA, see [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-landing.md).
 
 </td></tr><tr><td>
 
@@ -301,7 +302,7 @@ Antivirus
 Security metrics that are associated with antivirus event activity in the instance. To access the Antivirus Metrics page, select the **Antivirus** tile or select the **Metrics** link, and then select **Antivirus**.
 
 </td></tr></tbody>
-</table>**Note:** To learn more about monitoring each type of metric, see [Monitor instance metrics](monitoring-user-email-antivirus-metrics.md).
+</table>**Note:** To learn more about monitoring each type of metric, see [Monitor instance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/monitoring-user-email-antivirus-metrics.md).
 
 ## Resources
 
@@ -324,7 +325,7 @@ Recommended Guidelines
 
 </td><td>
 
-Access to recommended security guidelines, including the [Hardening settings](../../security-center/reference/security-hardening-settings.md) and [Secure Coding Guide](https://support.servicenow.com) \[KB0623354\] articles.
+Access to recommended security guidelines, including the [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md) and [Secure Coding Guide](https://support.servicenow.com) \[KB0623354\] articles.
 
 </td></tr><tr><td>
 
@@ -340,11 +341,11 @@ Access to security-related resources in the Knowledge Base, including:-   Custom
 </table>
 ## Security notifications
 
-A notifications bell icon \(![Notification icon](../image/Inst_sec_center_notif_bell_icon.png)\) appears in the Instance Security Center, with a count total of unread security notifications. Notifications persist and are included in this count until you mark them as read.
+A notifications bell icon \(\[Omitted image "Inst\_sec\_center\_notif\_bell\_icon.png"\] Alt text: Notification icon\) appears in the Instance Security Center, with a count total of unread security notifications. Notifications persist and are included in this count until you mark them as read.
 
 1.  Click the bell icon to view the first five unread security notifications.
 
-    A notification appears when **Admin Login**, **Admin Unlocked**, **Failed Login**, **High Privilege Role**, **Impersonation**, **Security Elevation**, and **Weekly Digest** events take place in your instance. To learn more about these security events, see [Monitor security events](instance-sec-center-event-ribbon.md).
+    A notification appears when **Admin Login**, **Admin Unlocked**, **Failed Login**, **High Privilege Role**, **Impersonation**, **Security Elevation**, and **Weekly Digest** events take place in your instance. To learn more about these security events, see [Monitor security events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-event-ribbon.md).
 
 2.  To view detailed information for a specific security event, select the notification.
 
@@ -354,7 +355,7 @@ A notifications bell icon \(![Notification icon](../image/Inst_sec_center_notif_
     -   To view detailed information for a specific security event, select the notification.
     -   To mark all listed notifications as read, select **Mark All as Read**.
 
-**Note:** As an administrator, you can also configure preferences for sending specific types of notifications for each type of security event. To learn more, see [Set preferences for security event notifications](../task/enable-notification-preferences.md).
+**Note:** As an administrator, you can also configure preferences for sending specific types of notifications for each type of security event. To learn more, see [Set preferences for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/enable-notification-preferences.md).
 
 ## Tours
 
@@ -417,7 +418,7 @@ The Virtual Agent is a platform for providing user assistance through conversati
 
 With the associated plugins installed, administrators can access the Virtual Agent and Natural Language Understanding \(NLU\) functions by selecting the Virtual Agent icon:
 
-![Virtual Agent icon](../image/instance-sec-center-virtual-agent.png)
+\[Omitted image "instance-sec-center-virtual-agent.png"\] Alt text: Virtual Agent icon
 
 It enables you to perform the following tasks:
 
@@ -431,21 +432,21 @@ It enables you to perform the following tasks:
 
 **Note:** To learn more about how to use and activate the Virtual Agent, see:
 
--   [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
--   [Activate the ISC Virtual Agent interface](../task/activating-virtual-agent-interface.md)
+-   [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md)
+-   [Activate the ISC Virtual Agent interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activating-virtual-agent-interface.md)
 
--   **[Instance Security Center to ServiceNow Security Center migration](../../security-center/concept/instance-security-center-to-security-center-migration.md)**  
+-   **[Instance Security Center to ServiceNow Security Center migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-center-to-security-center-migration.md)**  
 Learn the key differences when migrating from Instance Security Center \(ISC\) to ServiceNow Security Center \(SSC\).
--   **[Monitor security events](instance-sec-center-event-ribbon.md)**  
+-   **[Monitor security events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-event-ribbon.md)**  
 Analyze the event metrics in your instance so that you can identify and prevent potential security events.
--   **[Check the daily compliance score and configure security property settings](instance-sec-center-hardening.md)**  
+-   **[Check the daily compliance score and configure security property settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-hardening.md)**  
 Review the Daily Compliance Score metric and security configuration properties to see if your instance complies with the suggested security requirements. You can affect the daily compliance score by updating non-compliant security properties in the Hardening Compliance Configurations page.
--   **[Scan for incorrect security definitions](scan-for-incorrect-security-definitions.md)**  
+-   **[Scan for incorrect security definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/scan-for-incorrect-security-definitions.md)**  
 Run the Auditor to scan your instance and find incorrect security definitions. It provides findings you can correct to help improve the security posture of your instance.
--   **[Monitor instance metrics](monitoring-user-email-antivirus-metrics.md)**  
+-   **[Monitor instance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/monitoring-user-email-antivirus-metrics.md)**  
 Monitor user, export, authentication, email, and antivirus metrics for your instance. For example, you can monitor your email security by checking metrics for spam, external emails, and inbound emails from untrusted and trusted domains for your instance. Analyze these metrics to look for anomalous security behaviors that are related to activities that take place in your instance.
--   **[Activate the ISC Virtual Agent interface](../task/activating-virtual-agent-interface.md)**  
+-   **[Activate the ISC Virtual Agent interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activating-virtual-agent-interface.md)**  
 If you have the admin role, you can activate the ISC Virtual Agent Conversations plugin \(com.glide.isc\_virtualagent\). Activating this plugin installs the Virtual Agent and Natural Language Understanding \(NLU content packs, providing Virtual Agent access from the Instance Security Center.
 
-**Parent Topic:**[Platform Security](../../general/concept/platsec-sublanding.md)
+**Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-sublanding.md)
 

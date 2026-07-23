@@ -1,17 +1,18 @@
 ---
-title: Configuring CPQ for SalesForce RLM
-description: Install and configure the Salesforce Revenue Lifecycle Management package for CPQ \(v0.3 or later\).
+title: Configuring ServiceNow CPQ for SalesForce RLM
+description: Install and configure the Salesforce Revenue Lifecycle Management package for ServiceNow CPQ \(v0.3 or later\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/setup\_logik\_io\_configuration\_for\_salesforce\_rlm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 13
-breadcrumb: [CPQ with other apps, Integrate, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Configuring CPQ for SalesForce RLM
+# Configuring ServiceNow CPQ for SalesForce RLM
 
-Install and configure the Salesforce Revenue Lifecycle Management package for CPQ \(v0.3 or later\).
+Install and configure the Salesforce Revenue Lifecycle Management package for ServiceNow CPQ \(v0.3 or later\).
 
 ## Prerequisites
 
@@ -28,14 +29,14 @@ Salesforce \(SF\) environment:
 Note that Salesforce Development states that its RLM and CPQ apps are incompatible. Therefore, follow these steps:
 
 -   Uninstall the CPQ app, if it is installed.
--   Uninstall any Salesforce CPQ for CPQ package that may be installed on the Salesforce environment.
--   If the CPQ environment previously had a Salesforce Subscription Management for CPQ package installed on it, this must be uninstalled. Some Subscription Management package elements conflict with the elements installed by the Salesforce Revenue Lifecycle Management for CPQ package.
+-   Uninstall any Salesforce CPQ for ServiceNow CPQ package that may be installed on the Salesforce environment.
+-   If the ServiceNow CPQ environment previously had a Salesforce Subscription Management for ServiceNow CPQ package installed on it, this must be uninstalled. Some Subscription Management package elements conflict with the elements installed by the Salesforce Revenue Lifecycle Management for ServiceNow CPQ package.
 
-CPQ base package: Salesforce for Logik Base package v2.2, or greater installed.
+ServiceNow CPQ base package: Salesforce for CPQ Base package v2.2, or greater installed.
 
-## Set up CPQ Configuration for SalesForce RLM
+## Set up ServiceNow CPQ Configuration for SalesForce RLM
 
-This guide walks you through the installation and setup of the Salesforce Revenue Lifecycle Management package for CPQ v0.3 or later. \(This guide does not discuss NGP setup. It will be added in a later version.\)
+This guide walks you through the installation and setup of the Salesforce Revenue Lifecycle Management package for ServiceNow CPQ v0.3 or later. \(This guide does not discuss NGP setup. It will be added in a later version.\)
 
 As the current package is unmanaged, you will be required to uninstall v0.3 to install future releases of this package.
 
@@ -47,7 +48,7 @@ As the current package is unmanaged, you will be required to uninstall v0.3 to i
     -   Selling Model Type: "One Time"
     -   Status: "Active"
 
-        ![Product selling model screen](../images/cpq-product-selling-model-details.png)
+        \[Omitted image "cpq-product-selling-model-details.png"\] Alt text: Product selling model screen
 
 3.  Setup → Object Manager → Price Book Entry → Page Layouts → "Price Book Entry Layout": Add "Product Selling Model" field to the layout
 4.  Setup → Object Manager → Product → Page Layouts → "Product Layout": Add the following fields to the layout
@@ -147,13 +148,13 @@ As the current package is unmanaged, you will be required to uninstall v0.3 to i
 11. Return to the related list of the new "Server Rack Specifications" attribute category you created, and in its related list, under "Attributes", click "Assign" and add the "Load Capacity" attribute to it.
 12. App Launcher → Product Catalog Management → Product Classifications → "Server Racks" → "Attributes" tab: Click "Assign" → "Assign individual attributes" → add the "Load Capacity" attribute.
 
-    ![Load capacity screen](../images/cpq-logik-config-for-sf-rlm-38.png)
+    \[Omitted image "cpq-logik-config-for-sf-rlm-38.png"\] Alt text: Load capacity screen
 
-    ![Service rack specification](../images/cpq-logik-config-for-sf-rlm-39.png)
+    \[Omitted image "cpq-logik-config-for-sf-rlm-39.png"\] Alt text: Service rack specification
 
-    ![Server racks](../images/cpq-logik-config-for-sf-rlm-40.png)
+    \[Omitted image "cpq-logik-config-for-sf-rlm-40.png"\] Alt text: Server racks
 
-    ![Price book entry](../images/cpq-logik-config-for-sf-rlm-41.png)
+    \[Omitted image "cpq-logik-config-for-sf-rlm-41.png"\] Alt text: Price book entry
 
 
 ## Salesforce Transaction Line Editor Setup
@@ -163,11 +164,11 @@ A Lightning Web Component is available to perform configure/reconfigure and view
 1.  App Launcher → Sales → Quotes → open a quote.
 2.  Press the gear icon on the top-right corner of the page and select "Edit Page".
 
-    ![Salesforce Transaction Line Editor Setup](../images/cpq-edit-page.png)
+    \[Omitted image "cpq-edit-page.png"\] Alt text: Salesforce Transaction Line Editor Setup
 
 3.  From left menu, drag Transaction Line Editor component onto the layout.
 
-    ![Transaction components](../images/cpq-transaction-line-editor.png)
+    \[Omitted image "cpq-transaction-line-editor.png"\] Alt text: Transaction components
 
 4.  Save and Activate.
 
@@ -180,7 +181,7 @@ Instead of assigning a Configurator at the org level, a new object determines wh
 
 If there are multiple config flows being used, the flow can be assigned to individual products or product classifications through the Related records.
 
-![SMC configuration](../images/cpq-product-configuration-flows.png)
+\[Omitted image "cpq-product-configuration-flows.png"\] Alt text: SMC configuration
 
 ## Salesforce Product Discovery Setup
 
@@ -190,36 +191,39 @@ Configure from Quote: With Product Discovery, products can be configured before 
 2.  Press the gear icon on the top-right corner of the page and select "Edit Object".
 3.  Go to Page Layouts; for the layouts being used, add the “Browse Catalog” action to the layout and save.
 
-![Setup menu](../images/cpq-edit-object.png)
+\[Omitted image "cpq-edit-object.png"\] Alt text: Setup menu
 
 Configure from account is not currently supported. In the future, the user will be able to configure without reference to a quote. For instance, this could be used to launch product discovery from the account page.
 
 1.  From a Catalog page, open the Admin gears and click “Edit Page”.
 2.  Under Components, search for and add the "Product List Page Component" onto the page.
 
-    ![Product list components](../images/cpq-logik-config-for-sf-rlm-46.png)
+    \[Omitted image "cpq-logik-config-for-sf-rlm-46.png"\] Alt text: Product list components
 
 3.  Save, and if needed, Activate and assign as default.
 
-## CPQ Webhook Setup
+## ServiceNow CPQ Webhook Setup
 
-1.  If Webhooks are not enabled on your CPQ environment, create a Support case and request Webhooks be turned on in the environment.
-2.  When Webhooks are enabled, navigate to CPQ Admin Home → Utilities → Webhooks, and create a new Webhook with the following settings:
+1.  If Webhooks are not enabled on your ServiceNow CPQ environment, create a Support case and request Webhooks be turned on in the environment.
+
+    To create a support case, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
+
+2.  When Webhooks are enabled, navigate to ServiceNow CPQ Admin Home → Utilities → Webhooks, and create a new Webhook with the following settings:
 
     -   Integration Type: Salesforce
     -   Async: false
     -   Content: Either "All" or "BOM and System Fields"
     -   BOM Types: "sales" \(others can optionally be added, but "sales" is required\)
-    ![Webhook screen](../images/cpq-webhook-setup.png)
+    \[Omitted image "cpq-webhook-setup.png"\] Alt text: Webhook screen
 
 
-## CPQ Product Selling Models Setup
+## ServiceNow CPQ Product Selling Models Setup
 
 In a product action, pricing fields for Revenue Lifecycle Management can be set, similar to extended info. These are available in both simple and advanced product actions.
 
 Example of simple product action setup:
 
-![Product selling models setup](../images/cpq-product-selling-models-setup.png)
+\[Omitted image "cpq-product-selling-models-setup.png"\] Alt text: Product selling models setup
 
 Available pricing map \(ProductList.pricing\) fields are:
 
@@ -231,7 +235,7 @@ Assuming Product Selling Models have been created in Salesforce, the productSell
 
 Example productSellingModelId based on this image would be "Term\_Defined\_TermDefined\_1\_Months\_2023\_03\_02"
 
-![Product Selling models](../images/cpq-product-selling-models-setup-example.png)
+\[Omitted image "cpq-product-selling-models-setup-example.png"\] Alt text: Product Selling models
 
 ## Salesforce: Enable Context Service
 
@@ -245,7 +249,7 @@ Example productSellingModelId based on this image would be "Term\_Defined\_TermD
     2.  Populate the new Context Definition and Save.
     3.  Go to the Custom Definitions tab. Open the dropdown menu for the newly created Context Definition and press 'Activate'.
 
-![Context definitions](../images/cpq-enable-context-service.png)
+\[Omitted image "cpq-enable-context-service.png"\] Alt text: Context definitions
 
 ## Salesforce: Enable Business Rules Engine \(BRE\) for Qualification
 
@@ -413,7 +417,7 @@ Inspect the Output JSON to see if your product returns. "IsQualified" will be "n
 
 ## Troubleshooting
 
-Issue: The CPQ blueprint was loaded into the RLM org, but no products show in the product catalog during quoting.
+Issue: The ServiceNow CPQ blueprint was loaded into the RLM org, but no products show in the product catalog during quoting.
 
 Diagnosis: This could mean that there's an issue with the Product Discovery settings \(see the [Salesforce: Enable Context Service](https://docs.google.com/document/d/10MqNVlW4X5ikoLvYTH3NeBhQO7mDq6rUUt3bsP428Ig/edit#heading%3Dh.t6hdyrii25c4) section and beyond\).
 
@@ -424,7 +428,7 @@ Diagnosis: This could mean that there's an issue with the Product Discovery sett
 
 Issue: At runtime, the user receives the following error in RLM: `System.IllegalArgumentException: Looks like you don't have access to the place quote service. Salesforce Customer Support can help with that`
 
-Diagnosis: This is a permission set issue. Make sure that the following three RLM permission sets are assigned to the integration user that facilitates the CPQ integration.
+Diagnosis: This is a permission set issue. Make sure that the following three RLM permission sets are assigned to the integration user that facilitates the ServiceNow CPQ integration.
 
 -   Product Catalog Management Designer
 -   ProductAndPriceConfiguration API

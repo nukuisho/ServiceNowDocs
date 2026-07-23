@@ -2,11 +2,12 @@
 title: Create a skill project in RPA Desktop Design Studio
 description: Create a skill automation project in RPA Desktop Design Studio that can be reused in other automations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-skill-project.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Build, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Create a skill project in RPA Desktop Design Studio
@@ -15,7 +16,7 @@ Create a skill automation project in RPA Desktop Design Studio that can be reuse
 
 ## Before you begin
 
-Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](set-up-rpa-studio.md).
+Set up the RPA Desktop Design Studio application and add the ServiceNow instance details. For more information, see [Set up RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-rpa-studio.md).
 
 Role required: none
 
@@ -29,7 +30,7 @@ A skill automation is a reusable component. You can build a skill so that you ca
 
 2.  Select **Create Skill**.
 
-    ![Create Skill automation button.](../image/skill-automation-button.png "Create Skill automation button")
+    \[Omitted image "skill-automation-button.png"\] Alt text: Create Skill automation button.
 
 3.  In the **Name** field, enter the name of the skill automation project.
 
@@ -42,14 +43,14 @@ A skill automation is a reusable component. You can build a skill so that you ca
 6.  Select **Create**.
 
 
-**Parent Topic:**[Building automations](../concept/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md)
 
 **Related topics**  
 
 
-[Create an automation project manually](create-automation-project.md)
+[Create an automation project manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-project.md)
 
-[Create an automation project from a template](create-automation-with-template.md)
+[Create an automation project from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-with-template.md)
 
-[Create an automation with Now Assist](create-automation-now-assist.md)
+[Create an automation with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-automation-now-assist.md)
 

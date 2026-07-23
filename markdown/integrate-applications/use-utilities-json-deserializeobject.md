@@ -2,11 +2,12 @@
 title: Use the DeserializeObject component
 description: Convert a string containing JSON data to a JSON object by using the DeserializeObject component in RPA Desktop Design Studio. You can also extract specific properties from the JSON object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-json-deserializeobject.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [JSON, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [JSON, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the DeserializeObject component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties for the DeserializeObject component, see [Properties of the JSON utilities](../reference/properties-utilities-json.md).
+To configure the properties for the DeserializeObject component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-utilities-json.md).
 
 ## Procedure
 
@@ -29,9 +30,9 @@ To configure the properties for the DeserializeObject component, see [Properties
 
 3.  To specify the required property name in the JSON object that you want to extract, do the following steps.
 
-    1.  Click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
+    1.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
 
-    2.  Click the add property icon \(![Add properties icon.](../image/add-image-icon.png)\).
+    2.  Click the add property icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add properties icon.\).
 
     3.  Enter a property name.
 
@@ -41,7 +42,7 @@ To configure the properties for the DeserializeObject component, see [Properties
 
     5.  Click **OK**.
 
-4.  To configure the input field, see [Configure port properties](configure-input-port-properties.md).
+4.  To configure the input field, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 5.  Connect the data and control ports of the DeserializeObject component to the corresponding ports of the other components as described in the following table.
 
@@ -115,9 +116,9 @@ Returns the value of the key from the string.This appears when additional proper
 
 ## Convert a string to a JSON object
 
-![Convert string to object.](../image/Deserialize_example.PNG)
+\[Omitted image "Deserialize\_example.PNG"\] Alt text: Convert string to object.
 
 In this example, the ReadFromExcel component reads data from an Excel document and passes to the SerializeObject component. The SerializeObject component converts the data to string and passes to the DeserializeObject component. The DeserializeObject component converts the string to the JSON object. The items in the Excel document traverses from first to last in the For Each component and passes the item to the GetProperties component. The GetProperties component returns the name of the component and passes the name of the item to the Show component. The item is shown in a message box.
 
-**Parent Topic:**[JSON](../concept/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/json.md)
 

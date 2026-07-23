@@ -2,6 +2,7 @@
 title: View all data domains
 description: You can view the list of all data domains in the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-data-domains.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,17 +25,17 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon ![Portfolio icon](../../image/portfolio-icon.png).
+2.  Open the Portfolio List view by selecting the Portfolio icon \[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Information Portfolio**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Information Portfolio**.
 
 4.  Select **Data Domains**.
 
 
-**Parent Topic:**[Manage data domains](../../concept/eaw-concept/eaw-manage-data-domains.md)
+**Parent Topic:**[Manage data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-data-domains.md)
 
 **Related topics**  
 
 
-[Add or edit a data domain from the Portfolio page](eaw-add-or-edit-a-data-domain-from-the-portfolio-page.md)
+[Add or edit a data domain from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-data-domain-from-the-portfolio-page.md)
 

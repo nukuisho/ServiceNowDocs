@@ -2,6 +2,7 @@
 title: Create a dashboard in the Findings view page
 description: As a vulnerability manager and analyst, create a configured dashboard using the visualization library widgets, and use the active widgets to drill down to specific findings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-dashboard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -49,5 +50,5 @@ Roles required:
 7.  To update the dashboard, select the **Edit filter** icon.
 
 
-**Parent Topic:**[Using Unified Security Exposure Management](../../security-exposure-management-workspace/concept/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
 

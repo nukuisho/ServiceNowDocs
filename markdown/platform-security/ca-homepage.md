@@ -2,6 +2,7 @@
 title: Continuous Authentication \(CA\)
 description: ServiceNow's continuous authentication enables you to reverify and authenticate a user if they access resources that are protected by you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ca-homepage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,27 +16,27 @@ ServiceNow's continuous authentication enables you to reverify and authenticate 
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore![Explore](../../../common/image/icon-explore.png)](explore-continuous-auth.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-continuous-auth.md)
 
- [Learn the features and business value of Continuous Authentication.](explore-continuous-auth.md)
+ [Learn the features and business value of Continuous Authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-continuous-auth.md)
 
 </td><td>
 
-[Activate![Use](../../../common/image/icon-set-up.png)](../task/activate-continuous-authentication.md)
+[Activate\[Omitted image "icon-set-up.png"\] Alt text: Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-continuous-authentication.md)
 
- [Understand how to Activate Continuous Authentication.](../task/activate-continuous-authentication.md)
+ [Understand how to Activate Continuous Authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-continuous-authentication.md)
 
 </td></tr><tr><td>
 
-[Configure![Configure](../../../common/image/icon-manage.png)](../task/configure-ca.md)
+[Configure\[Omitted image "icon-manage.png"\] Alt text: Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-ca.md)
 
- [Configure Continuous Authentication.](../task/configure-ca.md)
+ [Configure Continuous Authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-ca.md)
 
 </td><td>
 
-[Reference - Properties![Reference](../../../common/image/icon-reference.png)](ca-system-properties.md)
+[Reference - Properties\[Omitted image "icon-reference.png"\] Alt text: Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-system-properties.md)
 
- [Know about the properties in Continuous Authentication.](ca-system-properties.md)
+ [Know about the properties in Continuous Authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-system-properties.md)
 
 </td></tr></tbody>
 </table>

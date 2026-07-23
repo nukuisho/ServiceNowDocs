@@ -2,11 +2,12 @@
 title: Use the Now component
 description: Get the current date and time of the system as part of an automation Workflow by using the component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-datetime-now.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [DateTime, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [DateTime, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the Now component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the component. For more information about these properties, see [Properties of the DateTime components](../reference/util-datetime-prop.md).
+You can configure the properties for the component. For more information about these properties, see [Properties of the DateTime components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-datetime-prop.md).
 
 ## Procedure
 
@@ -81,5 +82,5 @@ No. Connecting the port is optional.
 </table>4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[DateTime](../concept/datetime-utility.md)
+**Parent Topic:**[DateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/datetime-utility.md)
 

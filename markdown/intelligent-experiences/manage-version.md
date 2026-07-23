@@ -2,6 +2,7 @@
 title: Manage version
 description: Manage the version of the model providers across skills and instance levels. You can change and update versions for the out-of-box and custom skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/manage-version.html
 release: australia
 topic_type: task
 last_updated: "2025-10-24"
@@ -17,7 +18,7 @@ Manage the version of the model providers across skills and instance levels. You
 
 Role required: admin
 
-See [Default and target model version](../reference/default-and-target-model-model-version.md) to know more about default and target model versions.
+See [Default and target model version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/default-and-target-model-model-version.md) to know more about default and target model versions.
 
 ## Procedure
 
@@ -33,7 +34,7 @@ See [Default and target model version](../reference/default-and-target-model-mod
 
 5.  Identify your use case and key factors to choose the model that best fits your needs.
 
-    ![Manage model versions](../image/na-admin-manage-versions-instance.png)
+    \[Omitted image "na-admin-manage-versions-instance.png"\] Alt text: Manage model versions
 
 6.  View or update the model version instantly under the **Overview** tab.
 
@@ -43,7 +44,7 @@ See [Default and target model version](../reference/default-and-target-model-mod
 
 8.  Select **Instance level configuration** to manage the model provider version for the skill across the instance.
 
-    ![Manage version at instance level](../image/na-admin-manage-versions-instance-level.png)
+    \[Omitted image "na-admin-manage-versions-instance-level.png"\] Alt text: Manage version at instance level
 
     1.  Select **Out-of-box skills** to set the target model version against the current version of the applicable model providers, for the default skills.
 
@@ -55,7 +56,7 @@ See [Default and target model version](../reference/default-and-target-model-mod
 
 9.  Select **Skills** to manage the model provider version at the skill level.
 
-    ![Manage version at skill level](../image/na-admin-manage-versions-skill-level.png)
+    \[Omitted image "na-admin-manage-versions-skill-level.png"\] Alt text: Manage version at skill level
 
     1.  Search or select the skills you wish to refresh the model version for, and the applicable model provider.
 
@@ -66,5 +67,5 @@ See [Default and target model version](../reference/default-and-target-model-mod
     4.  Select **Update model version for skills** to override ServiceNow shipped mappings or create a new default and target model versions mapping, at the skill level.
 
 
-**Parent Topic:**[Manage AI models](manage-large-language-models.md)
+**Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md)
 

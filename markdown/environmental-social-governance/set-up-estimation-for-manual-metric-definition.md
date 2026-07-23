@@ -2,6 +2,7 @@
 title: Set up estimation for manual metric definition
 description: Enable or disable the estimation property to enable the use of estimated data when actual data is unavailable, using either pre-defined or custom methods in manual metric definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/set-up-estimation-for-manual-metric-definition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,5 +33,5 @@ Role required: admin
     Based on your selected settings, the estimation property is configured in your system.
 
 
-**Parent Topic:**[Create a manual metric definition](create-manual-metric-definition.md)
+**Parent Topic:**[Create a manual metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-manual-metric-definition.md)
 

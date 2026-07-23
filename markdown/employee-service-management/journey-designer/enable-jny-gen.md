@@ -2,6 +2,7 @@
 title: Enable the Now Assist Journey generation skill
 description: Enable the Journey generation skill in Now Assist for HRSD using the Now Assist Admin console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/enable-jny-gen.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -48,5 +49,5 @@ Role required: sn\_jny.admin, sn\_nowassist\_admin.nsa\_admin
 9.  Complete the configuration by selecting **Activate**.
 
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

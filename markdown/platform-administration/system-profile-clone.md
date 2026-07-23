@@ -2,6 +2,7 @@
 title: Create a custom clone profile \(legacy\)
 description: Clone profiles enable you to set up exclusions, preservers, and cleanup scripts for specific clone scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-profile-clone.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ If you leave the clone profile field empty when requesting a clone, the system u
 
 3.  Fill in the form.
 
-    For field information, see [Clone options](clone-options.md).
+    For field information, see [Clone options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-options.md).
 
 4.  Select **Submit**.
 

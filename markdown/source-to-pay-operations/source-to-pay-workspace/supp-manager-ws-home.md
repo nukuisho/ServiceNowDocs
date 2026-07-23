@@ -2,6 +2,7 @@
 title: SLO landing page
 description: As a supplier manager, view a snapshot of your assigned supplier cases and tasks and take actions to resolve them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/supp-manager-ws-home.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -17,7 +18,7 @@ As a supplier manager, view a snapshot of your assigned supplier cases and tasks
 
 As a Supplier Manager \[sn\_slm.manager\] or Supplier Fulfiller \[sn\_slm.fulfiller\], you can use the landing page to create a new case, task, and supplier. You can also manage suppliers, view cases and tasks that are assigned to you.
 
-For a detailed analysis on each component, select the respective widget or chart. Select the Refresh icon \( ![Refresh icon.](../image/refresh-icon.png)\) to view the latest data. Select the Edit columns icon \(![Edit columns icon.](../image/edit-columns-icon.png)\) to add or remove columns in the list and to display the columns in the order you choose.
+For a detailed analysis on each component, select the respective widget or chart. Select the Refresh icon \( \[Omitted image "refresh-icon.png"\] Alt text: Refresh icon.\) to view the latest data. Select the Edit columns icon \(\[Omitted image "edit-columns-icon.png"\] Alt text: Edit columns icon.\) to add or remove columns in the list and to display the columns in the order you choose.
 
 ## Components in the Source-to-Pay Workspace
 
@@ -352,16 +353,16 @@ Create task
 </td></tr></tbody>
 </table>## Configure your workspace landing page
 
-You can configure the landing page using UI Builder, define different audiences for the landing page, and even add, remove, or modify the different content, if you want. However, it’s recommended that you create a duplicate of the landing page before modifying it. For detailed information on how to configure using UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+You can configure the landing page using UI Builder, define different audiences for the landing page, and even add, remove, or modify the different content, if you want. However, it’s recommended that you create a duplicate of the landing page before modifying it. For detailed information on how to configure using UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-page.md).
 
-**Parent Topic:**[Source-to-Pay Workspace landing page](../../source-to-pay-operations/concept/source-to-pay-ws-landing-page.md)
+**Parent Topic:**[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)
 
 **Related topics**  
 
 
-[SPO landing page](../../sourcing-procurement-operations/concept/procurement-workspace-landing-page.md)
+[SPO landing page]()
 
-[APO landing page](../../accounts-payable-operations/concept/acc-pay-workspace-landing-page.md)
+[APO landing page]()
 
-[POM landing page](../../purchase-order-management/concept/purch-order-mgmt-tab-s2pws.md)
+[POM landing page]()
 

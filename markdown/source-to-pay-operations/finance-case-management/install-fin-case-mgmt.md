@@ -2,6 +2,7 @@
 title: Install Finance Case Management
 description: Install the Finance Case Management application \(sn\_fin\_ops\) if you have the admin role. The application includes demo data and installs related ServiceNow Store Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/install-fin-case-mgmt.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -39,7 +40,7 @@ The Finance Case Management application \(sn\_fin\_ops\) installs the following 
 
 1.  Navigate to **All** &gt; **Application Manager**.
 
-    ![Menu path to Application Manager](../image/fin-case-mgmt-installation.png)
+    \[Omitted image "fin-case-mgmt-installation.png"\] Alt text: Menu path to Application Manager
 
 2.  Find the Finance Case Management application \(sn\_fin\_ops\) using the filter criteria and search bar.
 
@@ -59,16 +60,16 @@ The Finance Case Management application \(sn\_fin\_ops\) installs the following 
 
 6.  Select **Install**.
 
-    Select the **Installed** tab and see the installed application and dependent plugins.![List of installed application and dependent plugins](../image/fin-case-mgmt-installed-apps.png)
+    Select the **Installed** tab and see the installed application and dependent plugins.\[Omitted image "fin-case-mgmt-installed-apps.png"\] Alt text: List of installed application and dependent plugins
 
 
--   **[Components installed with Finance Case Management](../reference/installed-with-fin-ops.md)**  
+-   **[Components installed with Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/installed-with-fin-ops.md)**  
 Several types of components are installed with the activation of the Finance Case Management plugin, including roles, flows, and tables.
 
-**Parent Topic:**[Configure Finance Case Management](../concept/config-fin-case-mgmt.md)
+**Parent Topic:**[Configure Finance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/config-fin-case-mgmt.md)
 
 **Related topics**  
 
 
-[Configure Finance Operations Workspace](../concept/configuring-fin-ops-ws.md)
+[Configure Finance Operations Workspace]()
 

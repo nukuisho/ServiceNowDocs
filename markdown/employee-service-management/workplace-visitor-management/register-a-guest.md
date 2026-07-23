@@ -2,6 +2,7 @@
 title: Make a visitor registration
 description: Pre-plan your visitor or off-site colleagues visit. Specify their visit details like date, time, location, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/register-a-guest.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -17,7 +18,7 @@ Pre-plan your visitor or off-site colleagues visit. Specify their visit details 
 
 ## Before you begin
 
-**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates, and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
+**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates, and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/associate-portal-catalog.md).
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -234,7 +235,7 @@ The colleague's license plate details.
 
 8.  In the **Notification preferences** section, select the channel to be notified on when the visitor checks into the building.
 
-    You can link the Virtual Agent with other channels like Microsoft Teams or Slack. For more information, see [Integrating Virtual Agent with other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md).
+    You can link the Virtual Agent with other channels like Microsoft Teams or Slack. For more information, see [Integrating Virtual Agent with other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/integrate-virtual-agent.md).
 
 9.  Select **Submit**.
 
@@ -243,7 +244,7 @@ The colleague's license plate details.
 
 Your visitor registration is submitted and you can view your requests. The details about the visit are sent to the visitor's email address. The visitors also receive a reminder email with the invite code on the day before the registered date. For recurring invitations, only one email is sent for the visit details, but reminder emails are sent a day before every visit.
 
-If any visitor policies are applicable for the visit, the email sent to the visitor contains options to accept or decline the policies. If the visitor declines the policies in the email, they can still accept them while checking in through the Workplace Services Kiosk. For more information about the kiosk check-in process, see [Check in using an invite](../../workplace-services-kiosk/task/visitor-check-in.md).
+If any visitor policies are applicable for the visit, the email sent to the visitor contains options to accept or decline the policies. If the visitor declines the policies in the email, they can still accept them while checking in through the Workplace Services Kiosk. For more information about the kiosk check-in process, see [Check in using an invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/visitor-check-in.md).
 
 ## What to do next
 
@@ -256,14 +257,14 @@ You can check the details of your request. You can also edit or cancel the reque
 -   On the request details screen, you can cancel a request by selecting **Cancel Request**.
 -   You can search for registered visitors in the **Visitors list** using the search option.
 
-**Parent Topic:**[Registering a visitor](../concept/registerring-a-visitor.md)
+**Parent Topic:**[Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/registerring-a-visitor.md)
 
 **Related topics**  
 
 
-[Use the host portal](use-host-portal.md)
+[Use the host portal]()
 
-[Adding visitors](../concept/adding-visitors.md#)
+[Adding visitors]()
 
-[Review visitor policies](review-visitor-policies.md)
+[Review visitor policies]()
 

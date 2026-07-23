@@ -2,11 +2,12 @@
 title: Unit of Measure inbound staging table
 description: The Third Party Unit \[sn\_fcms\_intg\_imp\_uom\] staging table temporarily stores important data on third party units before this data is sent to the primary table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/unit-measure-inbound-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 5
 breadcrumb: [Inbound staging tables Sourcing Procurement, Inbound staging tables, Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -22,80 +23,80 @@ The Third Party Unit \[sn\_fcms\_intg\_imp\_uom\] staging table temporarily stor
 |ERP Source|String|ERP source used by the organization.|
 |Set|Reference|Reference to an external data source for importing data.|
 
-**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](../concept/spo-inbound-staging-tables.md)
+**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-inbound-staging-tables.md)
 
 **Related topics**  
 
 
-[CMDB Model Category Stage inbound staging table](spo-prod-cate-inbound-table.md)
+[CMDB Model Category Stage inbound staging table]()
 
-[CMDB Service Model Stage inbound staging table](spo-serv-mod-inbound-table.md)
+[CMDB Service Model Stage inbound staging table]()
 
-[CMN Location Stage inbound staging table](spo-loc-inbound-table.md)
+[CMN Location Stage inbound staging table]()
 
-[Catalog Import staging table](catalog-import-staging-table.md)
+[Catalog Import staging table]()
 
-[Catalog Error staging table](catalog-error.md)
+[Catalog Error staging table]()
 
-[Cost Center Stage inbound staging table](spo-cost-center-inbound-table.md)
+[Cost Center Stage inbound staging table]()
 
-[Department Stage inbound staging table](spo-dept-inbound-table.md)
+[Department Stage inbound staging table]()
 
-[ERP Plant Address Mapping Stage inbound staging table](spo-erp-plant-address-inbound-table.md)
+[ERP Plant Address Mapping Stage inbound staging table]()
 
-[FX Currency Stage inbound staging table](spo-fx-currency-inbound-table.md)
+[FX Currency Stage inbound staging table]()
 
-[FX Rate Stage inbound staging table](spo-fx-rate-inbound-table.md)
+[FX Rate Stage inbound staging table]()
 
-[Fixed asset details stage inbound table](fixed-asset-details-stage-inbound-table.md)
+[Fixed asset details stage inbound table]()
 
-[GL Account Stage inbound staging table](spo-gl-account-inbound-table.md)
+[GL Account Stage inbound staging table]()
 
-[Import Availability Updates inbound staging table](spo-import-avail-inbound-table.md)
+[Import Availability Updates inbound staging table]()
 
-[Availability Error staging table](availability-error-staging-table.md)
+[Availability Error staging table]()
 
-[Cost Allocation inbound staging table \(Deprecated\)](spo-cost-alloc-inbound-table.md)
+[Cost Allocation inbound staging table \(Deprecated\)]()
 
-[Invoice inbound staging table](spo-inbound-invoice-table.md)
+[Invoice inbound staging table]()
 
-[Purchase Order inbound staging table](spo-inbound-pur-order-table.md)
+[Purchase Order inbound staging table]()
 
-[Purchase Order Line inbound staging table](spo-inbound-pol-table.md)
+[Purchase Order Line inbound staging table]()
 
-[Receipt inbound staging table](spo-inbound-receipt-table.md)
+[Receipt inbound staging table]()
 
-[Legal Entity Stage inbound staging table](spo-legal-entity-inbound-table.md)
+[Legal Entity Stage inbound staging table]()
 
-[Office Location Stage inbound staging table](spo-office-loc-inbound-table.md)
+[Office Location Stage inbound staging table]()
 
-[Order Acknowledgement staging table](order-acknowledgement-staging-table.md)
+[Order Acknowledgement staging table]()
 
-[Order Acknowledgement Error staging table](order-acknowledgement-error.md)
+[Order Acknowledgement Error staging table]()
 
-[Payment Terms Stage inbound staging table](spo-pay-terms-inbound-table.md)
+[Payment Terms Stage inbound staging table]()
 
-[Price Import staging table](price-import-staging-table.md)
+[Price Import staging table]()
 
-[Price Error outbound staging table](price-error-staging-table.md)
+[Price Error outbound staging table]()
 
-[Product Model Stage inbound staging table](spo-prod-mod-inbound-table.md)
+[Product Model Stage inbound staging table]()
 
-[Purchase Entity Stage inbound staging table](spo-purch-entity-inbound-table.md)
+[Purchase Entity Stage inbound staging table]()
 
-[Purchase Line Stage inbound staging table](spo-purch-line-stage-inbound-table.md)
+[Purchase Line Stage inbound staging table]()
 
-[Purchase Requisition staging table](purchase-requisition-staging-table.md)
+[Purchase Requisition staging table]()
 
-[Spend Shipment Import inbound staging table](spend-shipment-import-inbound-table.md)
+[Spend Shipment Import inbound staging table]()
 
-[Shipment Error staging table](shipment-error-staging-table.md)
+[Shipment Error staging table]()
 
-[Supplier Product Stage inbound staging table](spo-supp-prod-inbound-table.md)
+[Supplier Product Stage inbound staging table]()
 
-[Third Party Sourcing Registration staging table](third-party-sourcing-registration-staging-table.md)
+[Third Party Sourcing Registration staging table]()
 
-[Third Party Unit Mapping staging table](third-party-unit-mapping-staging-table.md)
+[Third Party Unit Mapping staging table]()
 
-[Third Party Unit staging table](third-party-unit-staging-table.md)
+[Third Party Unit staging table]()
 

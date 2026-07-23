@@ -2,13 +2,14 @@
 title: Manage workplace cases and tasks
 description: Track the workplace cases and tasks that are assigned to you and your assignment group. Know the number of cases that are open, critical, and breached at any time. View the details of the case and perform an action accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Use Workplace Agent for mobile, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Use, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Manage workplace cases and tasks
@@ -25,7 +26,7 @@ Role required: sn\_wsd\_case.workplace\_agent
 
 The ServiceNow Agent - Workplace Agent for mobile application enables you to manage the workplace cases and tasks that are assigned to you on the go without the need of a desktop or laptop. You can manage any type of workplace cases such as regular workplace case, maintenance case, move case, space configuration case and reservation case. The application provides you with a category-based display where you can quickly access the works assigned to you and to your assignment group easily. The **Work view** of the application displays your work, your group work, and unassigned work.
 
-For detailed information about the available features, refer to [Workplace Agent for mobile - Key features, actions, and case details](../reference/workplace-agent-mob-key-features-workstats-casedetailspage.md).
+For detailed information about the available features, refer to [Workplace Agent for mobile - Key features, actions, and case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.md).
 
 ## Procedure
 
@@ -35,15 +36,15 @@ For detailed information about the available features, refer to [Workplace Agent
 
 2.  On the **Work view** page, depending on what cases or tasks you want to check, you can choose from the following options.
 
-<table id="choicetable_zky_4xr_51c"><thead><tr><th align="left" id="d726485e100">
+<table id="choicetable_zky_4xr_51c"><thead><tr><th align="left" id="d740213e100">
 
 Section
 
-</th><th align="left" id="d726485e103">
+</th><th align="left" id="d740213e103">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d726485e109">
+</th></tr></thead><tbody><tr><td id="d740213e109">
 
 **My work overview**
 
@@ -56,7 +57,7 @@ Check the reports of workplace cases that are assigned to you. Select from the f
 -   Select **All**to view all the cases irrespective of their status.
  The details of the cases are displayed when you select the card. You can further select the case to view the case details in a separate page.
 
-</td></tr><tr><td id="d726485e151">
+</td></tr><tr><td id="d740213e151">
 
 **My work**
 
@@ -65,11 +66,11 @@ Check the reports of workplace cases that are assigned to you. Select from the f
 -   Swipe right through the section to view the details of all the cases and tasks that are assigned to you.
 -   To view the details in a list, select the **See all** option.
 -   You can select the case details card to open the details in a separate page and perform any action. On the page, use the filter to view cases and tasks separately.
-    1.  Select the Filter icon \(![](../images/filter.png)\).
+    1.  Select the Filter icon \(\[Omitted image "filter.png"\] Alt text:\).
     2.  To apply a filter on the workplace cases, select **Workplace case**.
 
 
-</td></tr><tr><td id="d726485e189">
+</td></tr><tr><td id="d740213e189">
 
 **Group work**
 
@@ -84,7 +85,7 @@ Go to the **Group work** section to view the cases and tasks assigned to the ass
 -   **Open unassigned**: Select this open to view both cases and tasks that are unassigned.
 
 
-</td></tr><tr><td id="d726485e228">
+</td></tr><tr><td id="d740213e228">
 
 **Unassigned work**
 
@@ -116,22 +117,22 @@ Go to the **Unassigned work** section to view the details of all the cases and t
 6.  To log out or make any profile-related settings, select the **Settings** tab at the bottom.
 
 
-**Parent Topic:**[Use Workplace Agent for mobile](../concept/use-workplace-agent-mobile.md)
+**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
 
 **Related topics**  
 
 
-[Edit or view case details on the Workplace Agent for mobile app](edit-or-view-case-details-agentmobile.md)
+[Edit or view case details on the Workplace Agent for mobile app]()
 
-[Print workplace cases](print-workplace-cases-mobile.md)
+[Print workplace cases]()
 
-[Print workplace tasks](print-workplace-tasks-mobile.md)
+[Print workplace tasks]()
 
-[Create a child task](create-a-child-task-agentmobile.md)
+[Create a child task]()
 
-[Create a workplace case on behalf of an employee through Workplace Agent for mobile](create-agentcase-mobile.md)
+[Create a workplace case on behalf of an employee through Workplace Agent for mobile]()
 
-[Edit or view a child task](edit-or-view-a-child-task-agentmobile.md)
+[Edit or view a child task]()
 
-[Offline mode](offline-mode.md)
+[Offline mode]()
 

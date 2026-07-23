@@ -2,6 +2,7 @@
 title: Configure the workspace URL for contract metadata extraction notifications
 description: Configure an extension point to update the workspace URL in email notifications, so that users can navigate to the correct workspace and view the extracted metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -31,9 +32,9 @@ Role required: admin
 
 5.  On the Script Include form, fill in the fields.
 
-    ![Script for workspace URL in metadata extraction email notification.](../image/cmpro-me-workspace-url.png "Extension point for workspace URL")
+    \[Omitted image "cmpro-me-workspace-url.png"\] Alt text: Script for workspace URL in metadata extraction email notification.
 
-    For a description of the field values, see [Scripted Extension Point form fields](../../legal-request-management/reference/scripted-extension-point-form-fields.md).
+    For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
 6.  In the **Script** field, update the script to define the parent record’s table and specify the workspace URL to be included in the email notifications.
 
@@ -46,20 +47,20 @@ Role required: admin
 
 The configured workspace URL appears in the metadata extraction email notification.
 
-For more information on enabling the notification for contract metadata extraction, see [Enable notification for contract metadata extraction](cncore-config-notf-na-metadata.md).
+For more information on enabling the notification for contract metadata extraction, see [Enable notification for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-notf-na-metadata.md).
 
-**Parent Topic:**[Configuring contract metadata extraction](cncore-conf-metadata-extraction.md)
+**Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
 **Related topics**  
 
 
-[Create use cases for contract metadata extraction](cmpro-na-usecase-me.md)
+[Create use cases for contract metadata extraction]()
 
-[Map a use case for contract metadata extraction](cmpro-na-usecase-mappings-me.md)
+[Map a use case for contract metadata extraction]()
 
-[Configure system properties for contract metadata extraction](cncore-conf-sys-prop-na.md)
+[Configure system properties for contract metadata extraction]()
 
-[Enable notification for contract metadata extraction](cncore-config-notf-na-metadata.md)
+[Enable notification for contract metadata extraction]()
 
-[Configure an extension point to add contract metadata](config-ext-pt-to-add-metadata.md)
+[Configure an extension point to add contract metadata]()
 

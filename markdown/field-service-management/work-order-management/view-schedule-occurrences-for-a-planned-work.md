@@ -2,6 +2,7 @@
 title: View schedule occurrences for a planned work
 description: A Schedule occurrence represents a single instance when a work order is expected to be created. Schedule occurrences are automatically created when a schedule is created or updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-schedule-occurrences-for-a-planned-work.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -19,7 +20,7 @@ A Schedule occurrence represents a single instance when a work order is expected
 
 Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
-You must have configured a work schedule and attached a template to it. For more information see, [Configure a work schedule](configure-work-plan.md).
+You must have configured a work schedule and attached a template to it. For more information see, [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-work-plan.md).
 
 ## About this task
 
@@ -27,7 +28,7 @@ A schedule occurrence in Planned Work Management is a particular event within a 
 
 For duration-based schedules \(**Trigger** in the work schedule is **Duration**\), the schedule occurrences are created immediately when a work schedule is configured.
 
-For meter-based schedules \(**Trigger** in the work schedule is **Duration**\), the schedule occurrences are created only when the meter threshold is reached.
+For meter-based schedules \(**Trigger** in the work schedule is **Meter**\), the schedule occurrences are created only when the meter threshold is reached.
 
 Schedule occurrences are numbered sequentially based on the creation order. Upon configuring the schedule, schedule occurrences with **Pending** state are created for the next immediate maintenance work required. Once the work orders for these schedule occurrences are created, the state is updated to **Scheduled** and new schedule occurrences for the next maintenance is generated.
 

@@ -2,6 +2,7 @@
 title: Generate an email reply recommendation using Now Assist for HRSD
 description: Generate an email reply that is based on the case and email context by using the Now Assist icon. With email reply recommendations, agents can create quick emails or responses, helping minimize errors and ramp up productivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/email-recommendation-nahr.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -17,9 +18,9 @@ Generate an email reply that is based on the case and email context by using the
 
 ## Before you begin
 
-[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md).
+[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
-Role required: admin
+Role required: sn\_hr\_gen\_ai.admin
 
 ## About this task
 
@@ -32,7 +33,7 @@ An agent can do these actions by using the Now Assist icon:
 
 **Note:** The email reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
@@ -42,50 +43,50 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d200553e154">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d204420e151">
 
 Method
 
-</th><th align="left" id="d200553e157">
+</th><th align="left" id="d204420e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d200553e163">
+</th></tr></thead><tbody><tr><td id="d204420e160">
 
 **Compose email from More actions**
 
 </td><td>
 
 1.  Select **Compose email**.
-2.  Write six or more words and then select the words that you just wrote to see the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png)
-3.  Select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png) to generate a response.
+2.  Write six or more words and then select the words that you just wrote to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
+3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to generate a response.
 4.  Select **Refine** to shorten or elaborate the content.
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d200553e214">
+</td></tr><tr><td id="d204420e211">
 
 **Compose an email from Activity stream**
 
 </td><td>
 
 1.  In the activity stream, select an existing email that you want to reply to.
-2.  Position your cursor within the email message window to see the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png).
-3.  Select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png) to receive a recommendation that is based on the existing context.
+2.  Position your cursor within the email message window to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
+3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to receive a recommendation that is based on the existing context.
 
 
 </td></tr></tbody>
-</table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png).
+</table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d200553e265">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d204420e262">
 
 Email message window
 
-</th><th align="left" id="d200553e268">
+</th><th align="left" id="d204420e265">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d200553e277">
+</th></tr></thead><tbody><tr><td id="d204420e274">
 
 **Typed response**
 
@@ -95,7 +96,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d200553e294">
+</td></tr><tr><td id="d204420e291">
 
 **Left blank**
 
@@ -103,7 +104,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d200553e303">
+</td></tr><tr><td id="d204420e300">
 
 **Use template**
 
@@ -119,38 +120,38 @@ Shows email template recommendations while composing an email.
 6.  Select **Send Email** or discard the draft if you don’t like the recommendation.
 
 
-**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\) in Agent Workspace](../concept/use-now-assist-hr.md)
+**Parent Topic:**[Use Now Assist for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)](now-assist-hrsd-chat.md)
+[Summarize a chat conversation using Now Assist for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using Now Assist for HRSD](sidebar-discussion-nahr.md)
+[Summarize a Sidebar discussion by using Now Assist for HRSD]()
 
-[Generate a chat reply recommendation by using Now Assist for HRSD](chat-recommendations-nahr.md)
+[Generate a chat reply recommendation by using Now Assist for HRSD]()
 
-[Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD](gen-kb-now-assisthr.md)
+[Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD]()
 
-[Generate a knowledge article from multiple cases](gen-kb-now-assisthr-multi-case.md)
+[Generate a knowledge article from multiple cases]()
 
-[Summarize an HR case using Now Assist for HRSD](now-assist-hrsd-summarize-case.md)
+[Summarize an HR case using Now Assist for HRSD]()
 
-[Generate resolution notes using Now Assist for HRSD](now-assist-hrsd-res-note.md)
+[Generate resolution notes using Now Assist for HRSD]()
 
-[View employee summary reports](../../td-leader-hub/task/employee-summary-lh.md)
+[View employee summary reports]()
 
-[Summarize actions while transferring an HR case](tcase-now-assist-hr.md)
+[Summarize actions while transferring an HR case]()
 
-[Use Knowledge Graph in Now Assist for HRSD](na-kb-graph.md)
+[Use Knowledge Graph in Now Assist for HRSD]()
 
-[Use Now Assist for HR - Galileo Inside to answer HR-related questions](use-galileo-inside.md)
+[Use Now Assist for HR - Galileo Inside to answer HR-related questions]()
 
-[Use the Now Assist panel in HR Agent Workspace](now-assist-panel-hr.md)
+[Use the Now Assist panel in HR Agent Workspace]()
 
-[Submit an HR request with Gen AI Virtual Agent](use-genai-hrsd.md)
+[Submit an HR request with Gen AI Virtual Agent]()
 
-[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](../concept/integ-now-assist-hrsd.md)
+[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)](analyze-sentiments-now-assist.md)
+[Analyze sentiments in Now Assist for HR Service Delivery \(HRSD\)]()
 

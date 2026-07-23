@@ -2,6 +2,7 @@
 title: Order types in Sales Customer Relationship Management
 description: Customer orders and service orders are the two main type of sales orders in ServiceNow Order Management. Learn about their differences and how to select an appropriate order type for your use case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-order-types.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -150,7 +151,7 @@ When you approve a captured service order for fulfillment, the post-approval dec
 -   The resource order manages the resources required to fulfill the services that the customer is requesting.
 -   These domain orders manage the fulfillment of the requested service orders.
 
-To learn more, see [Order decomposition](order-mgt-order-decomposition.md).
+To learn more, see [Order decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-order-decomposition.md).
 
 ## Order types for service orders
 
@@ -164,5 +165,5 @@ Service qualification request orders with fulfillment type as Qualify can only b
 **Related topics**  
 
 
-[Service qualification requests](order-mgt-tsq-about.md)
+[Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-about.md)
 

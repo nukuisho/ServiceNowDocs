@@ -2,6 +2,7 @@
 title: Add background check packages for the Sterling service
 description: Add one or more background check packages to your instance so they can be accessed when a request for a background check by Sterling is made. For example, you can add a package for a background check only and a package for both a background check and drug screening.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/background-check-package-for-sterling.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -47,14 +48,14 @@ Role required: sn\_hr\_integrations.admin
 
 .
 
-**Parent Topic:**[Integrating with the Sterling Talent Solutions service](../concept/integrate-with-sterling-service.md)
+**Parent Topic:**[Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)
 
-**Previous topic:**[Verify integration for the Sterling service](verify-base-integration-for-sterling.md)
+**Previous topic:**[Verify integration for the Sterling service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/verify-base-integration-for-sterling.md)
 
-**Next topic:**[Integrating with the DocuSign service](../concept/docusign-integration-for-hr.md)
+**Next topic:**[Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)
 
 **Related topics**  
 
 
-[Provide source credentials for the Sterling service](hr-integrations-sources-sterling.md)
+[Provide source credentials for the Sterling service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-sources-sterling.md)
 

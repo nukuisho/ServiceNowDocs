@@ -2,6 +2,7 @@
 title: Visual Task Board \(VTB\) Spoke
 description: Provides VTB actions for flow designers to manage the boards, lanes, cards, board members, and assignees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/vtb-actions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -302,10 +303,10 @@ Card record
 N/A
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Spokes](../concept/spokes.md)
+</table>**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
 
 **Related topics**  
 
 
-[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
+[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_VisualTaskBoards.md)
 

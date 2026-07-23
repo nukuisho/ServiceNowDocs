@@ -2,10 +2,11 @@
 title: Now Assist for Enterprise Architecture \(EA\) access roles
 description: The following roles help you to configure and use each Now Assist for Enterprise Architecture \(EA\) skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/sn-otto-access-roles.html
 release: australia
 topic_type: reference
-last_updated: "2026-04-17"
-reading_time_minutes: 8
+last_updated: "2026-06-09"
+reading_time_minutes: 10
 breadcrumb: [Configure, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
@@ -27,6 +28,8 @@ Access to Now Assist for Enterprise Architecture \(EA\) skills is controlled by 
 |Generate insights for EA Workspace dashboard widgets \(AI Data Explorer\)|now\_assist\_explorer\_admin or higher|sn\_apm.apm\_user or sn\_apm.apm\_read; now\_assist\_explorer\_user|
 |Register a business application using conversational experience|admin|None \(any authenticated user\)|
 |Register a digital integration using conversational experience|admin|None \(any authenticated user\)|
+|Generate an enterprise architecture diagram from an uploaded image; review AI-generated shapes in split-screen mode; accept or discard low-confidence shape replacements; accept all shapes and publish the diagram to draft|admin|sn\_apm.apm\_user|
+|Ask natural language questions about the EA portfolio using the Enterprise Architecture Explorer Query Agent|admin|sn\_apm.apm\_user|
 
 ## Configuration
 
@@ -66,7 +69,7 @@ Activate and configure all Now Assist for EA skills from the Now Assist Admin co
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -94,7 +97,7 @@ Configure skill availability conditions \(always available or custom conditions\
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -122,7 +125,7 @@ Configure role-based access to individual skills
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -150,7 +153,7 @@ Define and configure custom parameters for the business application insights pro
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -178,7 +181,7 @@ Activate and configure conversational experience skills for registering business
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -206,7 +209,7 @@ Configure Query Generation skills \(Analytics query generation and Analytics hid
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -238,7 +241,7 @@ Activate and configure AI Data Explorer skills \(Analytics exploration, Explorat
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -266,7 +269,7 @@ Configure AI Search for dashboard insight generation
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -331,7 +334,7 @@ Generate a Now Assist summary of an ADR document from the Artifact content tab
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -359,7 +362,7 @@ Elaborate selected text in an ADR document
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -387,7 +390,7 @@ Shorten selected text in an ADR document
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -415,7 +418,7 @@ Summarize selected text in an ADR document
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -443,7 +446,7 @@ Use the Refine button to further elaborate or shorten generated content
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -471,7 +474,7 @@ Insert generated content into the ADR record; copy generated summary text
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -503,7 +506,7 @@ Use the ADR summarization skill
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -560,7 +563,7 @@ Generate insights from the business application details page
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -588,7 +591,7 @@ Generate context-aware insights from the Business Portfolio page \(capability co
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -616,7 +619,7 @@ Generate context-aware insights from the Application Rationalization bubble char
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -644,7 +647,7 @@ Generate context-aware insights from the Application Rationalization list view \
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -672,7 +675,7 @@ View insights in a side panel wherever business application details are shown
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -700,7 +703,7 @@ Refresh generated insights after updating business application data
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -728,7 +731,7 @@ Provide thumbs up or thumbs down feedback on generated insights
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -789,11 +792,11 @@ Select two diagram versions to compare from the Compare versions pop-up window
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -817,11 +820,11 @@ View the AI-generated executive summary of changes between two diagram versions
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -845,11 +848,11 @@ View a breakdown of shapes, entities, and relationships that have been added, mo
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -873,11 +876,11 @@ View visual canvas highlights \(new shapes and lines in green, modified in yello
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -901,11 +904,11 @@ Change the diagram versions and regenerate the comparison summary
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -929,11 +932,11 @@ Refresh the summary after changing the primary diagram version
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -957,11 +960,11 @@ Copy the generated change summary; provide helpful or not helpful feedback
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1018,7 +1021,7 @@ Elaborate or shorten text in the Description field of a business application
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1046,7 +1049,7 @@ Elaborate or shorten text in the Description field of a business capability, bus
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1074,7 +1077,7 @@ Generate reasoning content for the Reasoning field \(Planned Disposition section
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1102,7 +1105,7 @@ Elaborate or shorten existing text in the Reasoning field
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1163,15 +1166,15 @@ Use the Explore with AI icon on any supported dashboard widget to open the AI Da
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1191,15 +1194,15 @@ Ask natural language questions about data from a single dashboard widget
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1219,15 +1222,15 @@ Perform trend analysis queries \(for example, how application counts changed ove
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1247,15 +1250,15 @@ Perform comparative queries \(for example, application counts across different t
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1275,15 +1278,15 @@ Perform specific metric queries \(for example, which application family is most 
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1303,15 +1306,15 @@ Use Standard analysis or Extended analysis mode
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1331,15 +1334,15 @@ Add the widget data to an exploration for Now Assist to generate its own insight
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1359,15 +1362,15 @@ Define a goal to improve the quality of generated insights; ask follow-up questi
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
@@ -1387,19 +1390,365 @@ Summarize generated insights; share, duplicate, or delete generated insights
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
-![Yes](../../application-portfolio-management/image/eaw-image/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
 Requires EA Workspace role AND now\_assist\_explorer\_user.
+
+</td></tr></tbody>
+</table>## Generate enterprise architecture diagram skill
+
+The Generate enterprise architecture diagram skill uses an AI agent to create Enterprise Modeling and Visualization diagrams from an uploaded image. After the diagram is generated, you can review the result in split-screen mode, where shapes with a low confidence are highlighted for review. You can accept or replace individual low-confidence shapes, then publish the diagram or discard it entirely.
+
+<table id="table_section_diagram_from_image"><thead><tr><th>
+
+Capability
+
+</th><th align="center">
+
+admin
+
+</th><th align="center">
+
+now\_assist\_explorer\_admin
+
+</th><th align="center">
+
+sn\_apm.apm\_user
+
+</th><th align="center">
+
+sn\_apm.apm\_read
+
+</th><th align="center">
+
+now\_assist\_explorer\_user
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+Activate and configure the Generate enterprise architecture diagram skill
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Upload an image and invoke the skill to generate an enterprise architecture diagram via the Now Assist panel
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Review the AI-generated diagram in split-screen mode, with the uploaded image displayed alongside the generated diagram canvas
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Identify and replace low-confidence shapes highlighted on the diagram canvas; accept an individual shape replacement to remove the highlight and reduce the low-confidence count
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Select Accept All to accept all shape replacements and move the diagram to draft state
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Select Discard to delete the AI-generated diagram, including the artifact, version, attachment, and diagram instance
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+A confirmation dialog is shown before the diagram is deleted.
+
+</td></tr></tbody>
+</table>## Enterprise Architecture Explorer Query Agent
+
+The Enterprise Architecture Explorer query agent is an agentic Now Assist skill that answers natural language questions about EA portfolio data, including business applications, capabilities, value streams, technology standards, and information objects. The agent is accessed from the Now Assist panel in Enterprise Architecture Workspace.
+
+<table id="table_section_ea_query_agent"><thead><tr><th>
+
+Capability
+
+</th><th align="center">
+
+admin
+
+</th><th align="center">
+
+now\_assist\_explorer\_admin
+
+</th><th align="center">
+
+sn\_apm.apm\_user
+
+</th><th align="center">
+
+sn\_apm.apm\_read
+
+</th><th align="center">
+
+now\_assist\_explorer\_user
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+Ask natural language questions about EA portfolio data using the Now Assist panel in Enterprise Architecture Workspace
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Query EA data across business applications, capabilities, value streams, TRM, information objects, and technical debt; query TCO on non-BA entities \(capabilities, information objects, value streams, application services, and business services\) by rolling up through associated business applications
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Apply multiple filter conditions and compare trends in a single question
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Ask follow-up questions within the same session without restating context; select suggested follow-up questions generated by the agent
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Conversational experience \(Virtual Agent\)
@@ -1575,18 +1924,20 @@ Review and modify the auto-populated form fields before submission
 No role required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](../task/configure-now-assist-ea.md)
+</table>**Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
 **Related topics**  
 
 
-[Configure Now Assist for Enterprise Architecture \(EA\)](../task/configure-now-assist-ea.md)
+[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
-[Configure AI Data Explorer and Query Generation skills](../task/configure-ai-data-explr-qry-genr-skills.md)
+[Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)
 
-[Now Assist for Enterprise Architecture \(EA\)](../concept/now-assist-ea.md)
+[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)
 
-[Enterprise Architecture Workspace access roles](../../application-portfolio-management/reference/eaw-reference/eaw-access-roles.md)
+[Enterprise Architecture Workspace access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-access-roles.md)
 
-[Enterprise Architecture AI agent generate enterprise architecture diagram agentic workflow](../concept/now-assist-aiagents-ea-diagramming-usecase.md)
+[Enterprise Architecture AI agent diagramming agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md)
+
+[Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-qna-overview.md)
 

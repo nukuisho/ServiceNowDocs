@@ -2,13 +2,14 @@
 title: Branch a Virtual Agent conversation with a Decision utility
 description: Your conversations may need to branch depending on end user input or choices. Use the Decision utility to branch the conversation when certain conditions are met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-decision-utility-va-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Creating a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Creating a Virtual Agent topic, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Branch a Virtual Agent conversation with a Decision utility
@@ -17,7 +18,7 @@ Your conversations may need to branch depending on end user input or choices. Us
 
 ## Before you begin
 
-For more information about the Decision utility, see [Decision utility](../reference/va-decision.md).
+For more information about the Decision utility, see [Decision utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-decision.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -73,5 +74,5 @@ Expression logic to specify a condition for following this branch in the convers
 8.  When you're finished with the topic, click **Save** in the topic header bar.
 
 
-**Parent Topic:**[Creating a Virtual Agent topic](create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

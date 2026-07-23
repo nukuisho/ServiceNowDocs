@@ -2,6 +2,7 @@
 title: Integrate Major Security Incident Management with Microsoft SharePoint
 description: Integrate your Microsoft SharePoint with Major Security Incident Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/integrate-msim-sharepoint.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -15,21 +16,21 @@ breadcrumb: [Integrate, Major Security Incident Management, Security Incident Re
 
 Integrate your Microsoft SharePoint with Major Security Incident Management.
 
--   **[Register a new application at Azure portal for SharePoint connections](../../security-incident-response/task/create-azure-app-msim.md)**  
+-   **[Register a new application at Azure portal for SharePoint connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-azure-app-msim.md)**  
 Register a new application at Azure portal for Microsoft SharePoint integration.
--   **[Use certificates for authentication](../../security-incident-response/task/use-certificate-auth-msim.md)**  
+-   **[Use certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-certificate-auth-msim.md)**  
 Request an access token with a certificate credential.
--   **[Configure Microsoft SharePoint with Major Security Incident Management](../task/config-sharepoint-msim.md)**  
+-   **[Configure Microsoft SharePoint with Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/config-sharepoint-msim.md)**  
 Set up Major Security Incident Management with Microsoft SharePoint connection.
 
-**Parent Topic:**[Integrating Major Security Incident Management](integrate-with-other-applications.md)
+**Parent Topic:**[Integrating Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-with-other-applications.md)
 
 **Related topics**  
 
 
-[Integrate Major Security Incident Management with Microsoft Teams](integrate-teams-msim.md)
+[Integrate Major Security Incident Management with Microsoft Teams]()
 
-[Establish MS Teams Graph connection on ServiceNow AI Platform](../../security-incident-response/task/msim-micorsoft-team-requirements.md)
+[Establish MS Teams Graph connection on ServiceNow AI Platform]()
 
-[Major Security Incident Management Conference Call Integration](integrate-msim-conference-calls.md)
+[Major Security Incident Management Conference Call Integration]()
 

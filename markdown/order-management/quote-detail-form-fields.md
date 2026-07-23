@@ -2,11 +2,12 @@
 title: Quote details forms
 description: Use Quote details forms to capture, view, and manage all key information about a quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/quote-detail-form-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-21"
 reading_time_minutes: 6
-breadcrumb: [Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Quote details forms
@@ -51,7 +52,7 @@ Options that reflect the quote status.-   Draft - The default state of a quote t
 -   Expired - Shows that the quote is beyond its expiration date. Reset the expiration date to make the quote active again.
 -   Canceled - Use this state to show that the quote is canceled.
 -   Closed - Shows that the quote is closed.
--   Completed - Shows that the quote is completed. When a quote is set to **Completed**, the quote can be used to create an order. For more info, see [Convert quotes into orders](../task/quote-management-customer-orders-tab.md).
+-   Completed - Shows that the quote is completed. When a quote is set to **Completed**, the quote can be used to create an order. For more info, see [Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-customer-orders-tab.md).
 
 </td></tr><tr><td>
 
@@ -193,8 +194,8 @@ Consolidated quote
 Indicates the quote is generated after consolidating multiple contracts, contract lines, or source opportunities into a single unified commercial offer.
 
 </td></tr></tbody>
-</table>| | |
-|---|---|
+</table>|Field|Description|
+|-----|-----------|
 |Currency|The currency for the price matches the currency stated in the account information.|
 |Renewal adjustment basis|Specifies the price reference used to calculate renewal pricing adjustments, such as contracted price or price list.|
 |Price list|The Standard Price List field is the default price list for the product catalogs referenced in the quote.|
@@ -204,11 +205,11 @@ Indicates the quote is generated after consolidating multiple contracts, contrac
 
 <table id="table_hxc_skx_m3c"><thead><tr><th>
 
- 
+Field
 
 </th><th>
 
- 
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -251,8 +252,8 @@ Total net new amount
 Sum of the cumulative net price for all root quote lines with Line Type = Net New. This value represents incremental revenue generated from new products or services only.
 
 </td></tr></tbody>
-</table>| | |
-|---|---|
+</table>|Field|Description|
+|-----|-----------|
 |Quote date|Date from which the quote is considered valid. This date is used as the reference point for quote lifecycle and pricing calculations.|
 |Contract start date|Date on which the contract associated with the quote becomes effective. This date is used to calculate subscription pricing, term, and contract end date.|
 |Expiration date|Date after which the quote is no longer valid. This date defines the offer validity period and is used on generated quote and order documents.|
@@ -262,8 +263,8 @@ Sum of the cumulative net price for all root quote lines with Line Type = Net Ne
 |Quote Document Details|Contains information used when generating the quote document, such as dates, pricing, and validity details displayed on the document sent to the customer.|
 |Auto-renew contract|Indicates whether the contract is enabled for automatic renewal. When selected, the system automatically generates renewal opportunities and renewal quotes based on configurable rules before the contract end date.|
 
-| | |
-|---|---|
+|Field|Description|
+|-----|-----------|
 |Billing address same as shipping|Indicates whether the billing address is the same as the shipping address. When enabled, billing address fields are automatically populated from the shipping address.|
 |Shipping location|Reference to the shipping location associated with the quote. This location identifies where products or services are delivered.|
 |Shipping street|Street address of the shipping location.|
@@ -278,10 +279,10 @@ Sum of the cumulative net price for all root quote lines with Line Type = Net Ne
 |Billing country|Country of the billing address.|
 |Billing Zip/Postal code|ZIP or postal code of the billing address.|
 
-| | |
-|---|---|
+|Field|Description|
+|-----|-----------|
 |Work notes|Internal notes used to record behind‑the‑scenes information related to the quote, such as negotiation details, pricing decisions, or internal follow‑ups. Work notes are intended for internal users only and are included in the quote activity history.|
 |Additional comments|Free‑form comments used to capture customer‑facing or general information related to the quote. Additional comments can be used to communicate updates or clarifications and are visible to a broader audience, depending on access permissions.|
 
-**Parent Topic:**[Configure, price, quote reference](../concept/reference-cpq.md)
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-reference.md)
 

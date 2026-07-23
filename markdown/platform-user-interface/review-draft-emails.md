@@ -2,6 +2,7 @@
 title: Review email drafts from the full email composer
 description: View emails saved for later or create a new email while saving your current draft automatically from the full email composer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/review-draft-emails.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,15 +22,15 @@ Role required: workspace\_user
 
 1.  Open a Workspace record in your instance.
 
-2.  Open the full email composer by selecting the More actions icon \(![More actions icon](../image/x-more-actions-icon.png)\) from the record view, and then select **Compose Email**.
+2.  Open the full email composer by selecting the More actions icon \(\[Omitted image "x-more-actions-icon.png"\] Alt text: More actions icon\) from the record view, and then select **Compose Email**.
 
 3.  **Note:** Instead of a button to save email drafts manually, drafts save automatically.
 
-    Access your drafts by selecting the drafts icon \(![Drafts icon](../image/x-mini-drafts-icon.png)\) from the email footer.
+    Access your drafts by selecting the drafts icon \(\[Omitted image "x-mini-drafts-icon.png"\] Alt text: Drafts icon\) from the email footer.
 
     A modal opens with a list of actions and email drafts.
 
-    ![View drafts modal](../image/xs2-drafts-modal.png)
+    \[Omitted image "xs2-drafts-modal.png"\] Alt text: View drafts modal
 
 4.  Select an action or recent draft.
 

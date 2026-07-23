@@ -2,6 +2,7 @@
 title: Set the preview limit for global or workspace search in Next Experience UI
 description: Override the default limit of 5 preview results per search source on the Next Experience UI search results page for global or workspace search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/set-app-preview-limit-polaris-ui.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -46,26 +47,26 @@ The preview limit for a search application specifies how many preview results ca
 
 The search results page for global or workspace search displays preview results up to the new limit for each search source.
 
-**Parent Topic:**[Global search finds records from multiple tables](../concept/c_GlobalTextSearch.md)
+**Parent Topic:**[Global search finds records from multiple tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_GlobalTextSearch.md)
 
 **Related topics**  
 
 
-[Global search displays a page of matching results](../concept/global-search-polaris-ui.md#)
+[Global search displays a page of matching results]()
 
-[Text search views control format of global search results for tables](../concept/text-search-view-formats-results.md)
+[Text search views control format of global search results for tables]()
 
-[Search settings filter and group global search results by table](../concept/search-settings-filter-group-table.md#)
+[Search settings filter and group global search results by table]()
 
-[Global search displays exact matching records](../concept/exact-matches-global-search.md#)
+[Global search displays exact matching records]()
 
-[Global search displays your most recent search queries and results in Next Experience UI](../concept/global-search-recent-queries-results.md)
+[Global search displays your most recent search queries and results in Next Experience UI]()
 
-[Set global text search properties](set-global-text-search-properties.md)
+[Set global text search properties]()
 
-[Hide per-table search result counts in Next Experience UI](hide-result-counts-polaris-ui.md)
+[Hide per-table search result counts in Next Experience UI]()
 
-[Add a workspace application to the Unified Navigation search context menu](add-app-search-context-polaris-ui.md)
+[Add a workspace application to the Unified Navigation search context menu]()
 
-[Global text search suggestions](../reference/r_GlobalTextSearchSuggestions.md)
+[Global text search suggestions]()
 

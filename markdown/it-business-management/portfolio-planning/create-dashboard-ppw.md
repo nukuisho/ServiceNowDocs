@@ -2,11 +2,12 @@
 title: Create a dashboard
 description: In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can use the available elements in the inline editor to create different types of widgets as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-dashboard-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Use dashboards, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -29,7 +30,7 @@ Dashboards consolidate data from multiple sources into a single, easily digestib
 
     By default, the Execution Dashboard appears on the Dashboards page.
 
-2.  From the dashboard header, select the More actions icon \(![More actions icon in the portfolio plan header.](../../alignment-planner-workspace/images/more-actions.png)\) and then select **Create new**.
+2.  From the dashboard header, select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon in the portfolio plan header.\) and then select **Create new**.
 
 3.  On the New dashboard window, fill the details.
 
@@ -42,21 +43,21 @@ Dashboards consolidate data from multiple sources into a single, easily digestib
 
 ## What to do next
 
-Edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. For more information, see [Edit a dashboard](edit-dashboard-ppw.md).
+Edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. For more information, see [Edit a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/edit-dashboard-ppw.md).
 
--   **[Edit a dashboard](edit-dashboard-ppw.md)**  
+-   **[Edit a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/edit-dashboard-ppw.md)**  
 Customize or edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. If the dashboard has been shared, any changes you make are applied globally.
 
-**Parent Topic:**[Using dashboards in Portfolio Planning](../concept/using-dashboards-in-ppw.md)
+**Parent Topic:**[Using dashboards in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/using-dashboards-in-ppw.md)
 
 **Related topics**  
 
 
-[View a dashboard in Portfolio Planning Workspace](view-dashboard-ppw.md)
+[View a dashboard in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/view-dashboard-ppw.md)
 
-[Duplicate a dashboard](copy-dashboard-ppw.md)
+[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/copy-dashboard-ppw.md)
 
-[Share a dashboard](share-dashboard-ppw.md)
+[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/share-dashboard-ppw.md)
 
-[Add a Platform Analytics dashboard](add-platform-dashboard-to-ppw.md)
+[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-platform-dashboard-to-ppw.md)
 

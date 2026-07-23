@@ -2,9 +2,10 @@
 title: Exploring AI Agent Advisor
 description: AI Agent Advisor automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-ai-agent-advisor.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-15"
+last_updated: "2026-06-06"
 reading_time_minutes: 2
 keywords: [explore]
 breadcrumb: [AI Agent Advisor, Enable AI experiences]
@@ -59,6 +60,10 @@ AI practitioners building and deploying custom AI solutions across ServiceNow wo
 </td></tr></tbody>
 </table>## AI Agent Advisor workflow
 
+The following diagram shows the AI Agent Advisor workflow.
+
+\[Omitted image "mmasset0022026-ai-agent-advisor-workflow.png"\] Alt text: AI Agent Advisor workflow and activities.
+
 AI Agent Advisor operates through three sequential phases:
 
 -   **Mine**
@@ -76,7 +81,7 @@ AI Agent Advisor operates through three sequential phases:
     When no existing agent is a strong match for a resolution step, the system generates a new AI agent tailored to that specific problem.
 
 
-The result is a prioritized list of automation opportunities. Each opportunity displays the estimated time savings, estimated return on investment \(ROI\), number of related requests, number of matched AI assets, and proposed resolution steps. AI Agent Advisor generates the resolution steps using the data from existing records on your instance. You can use this list to decide which opportunities to act on first.
+The result is a prioritized list of automation opportunities. Each opportunity displays the estimated time and cost savings, number of records analyzed, and available AI assets. AI Agent Advisor generates the resolution steps using the data from existing records on your instance. You can use this list to decide which opportunities to act on first.
 
 ## AI Agent Advisor benefits
 
@@ -100,7 +105,7 @@ Quickly discover automation opportunities for your instance. AI Agent Advisor an
 
 </td><td>
 
-[Automation discovery with AI Agent Advisor](now-assist-center-using-ai-agent-advisor.md)
+[Automation discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)
 
 </td><td>
 
@@ -112,7 +117,7 @@ Matches identified automation opportunities to existing AI agents on the platfor
 
 </td><td>
 
-[AI agent matching and automated deployment](../task/activate-automation-opportunity-now-assist-center.md)
+[AI agent matching and automated deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-automation-opportunity-now-assist-center.md)
 
 </td><td>
 
@@ -125,7 +130,7 @@ Now Assist administrator
 
 To learn more about configuring and using AI Agent Advisor, see:
 
--   [Configuring AI Agent Advisor](configuring-ai-agent-advisor.md)
--   [Using AI Agent Advisor](using-ai-agent-advisor.md)
--   [AI Agent Advisor reference](ai-agent-advisor-reference.md)
+-   [Configuring AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-ai-agent-advisor.md)
+-   [Using AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-ai-agent-advisor.md)
+-   [AI Agent Advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-advisor-reference.md)
 

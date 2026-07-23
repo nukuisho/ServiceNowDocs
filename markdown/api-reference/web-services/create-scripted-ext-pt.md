@@ -2,6 +2,7 @@
 title: Create a scripted extension point
 description: Create a scripted extension point that can be placed in a script include in the base application code. By placing the scripted extension point, you designate the specific location in the application code where data or objects can be sent to a customization and where data is returned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/create-scripted-ext-pt.html
 release: australia
 product: Web Services
 classification: web-services
@@ -19,7 +20,7 @@ Create a scripted extension point that can be placed in a script include in the 
 
 Role required: You must have the specific role for the developer or administrator of the application, or you must have the admin role.
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ACL-access-checks.md) and [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -47,5 +48,5 @@ By creating a good definition, you provide a structure for the extensions.
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Creating and adding a scripted extension point](../concept/impl-scripted-ext-pts-base-code.md)
+**Parent Topic:**[Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md)
 

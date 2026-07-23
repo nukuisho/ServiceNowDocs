@@ -2,6 +2,7 @@
 title: Webhook Triggers
 description: Webhook triggers are used to filter the threat intelligence entities that needs to be tracked for any event changes such as Create, Update, and Delete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-triggers.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -29,15 +30,15 @@ Role required: sn\_sec\_tisc.admin
 
 3.  Click **New**.
 
-<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d44902e97">
+<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d45555e93">
 
 Field
 
-</th><th align="left" id="d44902e100">
+</th><th align="left" id="d45555e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44902e106">
+</th></tr></thead><tbody><tr><td id="d45555e102">
 
 **Name**
 
@@ -45,7 +46,7 @@ Description
 
 Enter a webhook trigger name.
 
-</td></tr><tr><td id="d44902e115">
+</td></tr><tr><td id="d45555e111">
 
 **Description**
 
@@ -53,7 +54,7 @@ Enter a webhook trigger name.
 
 Add the description of the webhook trigger.
 
-</td></tr><tr><td id="d44902e124">
+</td></tr><tr><td id="d45555e120">
 
 **Table**
 
@@ -61,7 +62,7 @@ Add the description of the webhook trigger.
 
 Select the table for the webhook trigger.
 
-</td></tr><tr><td id="d44902e133">
+</td></tr><tr><td id="d45555e129">
 
 **Trigger Type**
 
@@ -75,7 +76,7 @@ These are the list of fields on the record for which the update event needs to b
 
 **Delete**: If the **Trigger Type: Delete** then the Exclusion Fields is not visible.
 
-</td></tr><tr><td id="d44902e170">
+</td></tr><tr><td id="d45555e166">
 
 **Exclusion Fields**
 
@@ -83,7 +84,7 @@ These are the list of fields on the record for which the update event needs to b
 
 These are the set of fields which are excluded from the webhook trigger payload.
 
-</td></tr><tr><td id="d44902e179">
+</td></tr><tr><td id="d45555e175">
 
 **Filter Conditions**
 
@@ -400,12 +401,12 @@ This is available only for UPDATE trigger type. It specifies the list of trigger
     |Vulnerability|severity|Severity|
 
 
-**Parent Topic:**[Working with Webhooks](tisc-webhooks.md)
+**Parent Topic:**[Working with Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-webhooks.md)
 
 **Related topics**  
 
 
-[System properties for Webhooks](tisc-sysprops-retry.md)
+[System properties for Webhooks]()
 
-[Configure webhooks](setup-webhooks.md)
+[Configure webhooks]()
 

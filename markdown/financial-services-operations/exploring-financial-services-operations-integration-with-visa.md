@@ -2,6 +2,7 @@
 title: Exploring Financial Services Operations Integration with Visa
 description: Learn how you can use the Financial Services Operations Integration with Visa application to seamlessly connect with dispute workflows and manage dispute resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/exploring-financial-services-operations-integration-with-visa.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ You can use the following subflows to the Visa spoke actions:
 -   Initiate dispute from transaction or case
 -   Submit dispute questionnaire
 
-For more information on setting up the integration to invoke Visa APIs for the Visa card dispute processs, see [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-visa-spoke.md).
+For more information on setting up the integration to invoke Visa APIs for the Visa card dispute processs, see [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-visa-spoke.md).
 
 ## Workflow
 
@@ -43,5 +44,5 @@ Integrating Financial Services Operations card dispute flow with the Visa spoke 
 **Related topics**  
 
 
-[Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/visa-spoke.md)
+[Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/visa-spoke.md)
 

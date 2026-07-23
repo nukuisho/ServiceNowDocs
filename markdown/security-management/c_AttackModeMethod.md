@@ -2,6 +2,7 @@
 title: Attack modes and methods
 description: Attack modes and methods, sometimes referred to as Tactics, Techniques, and Procedures \(TTPs\), are representations of how cyber adversaries behave. They characterize what these adversaries do and how they do it, in increasing levels of detail. Attack modes and methods apply for STIX 1.1.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/c\_AttackModeMethod.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,63 +18,63 @@ For example, an attack mode/method might be to use malware to steal credit card 
 
 Attack modes and methods apply for STIX 1.1.
 
--   **[Define an attack mode/method](../task/t_AddAttackModeMethod.md)**  
+-   **[Define an attack mode/method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_AddAttackModeMethod.md)**  
 Attack modes and methods are imported with STIX data, but you can add new modes/methods, as needed.
--   **[Add an IoC to an attack mode/method](../task/t_AddIoCToAttackMode.md)**  
+-   **[Add an IoC to an attack mode/method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_AddIoCToAttackMode.md)**  
 In addition to importing indicators as STIX data, you can add IoCs to an attack mode/method manually.
--   **[Add a related attack mode method](../task/t_AddRelatedAttackMode.md)**  
+-   **[Add a related attack mode method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_AddRelatedAttackMode.md)**  
 In addition to importing attack modes/methods as STIX data, you can add related attack modes/methods manually.
--   **[Add associated task to an attack mode/method](../task/t_AddAssociatedTaskToAttackMode.md)**  
+-   **[Add associated task to an attack mode/method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_AddAssociatedTaskToAttackMode.md)**  
 In addition to importing associated tasks \(such as changes and incidents\) as STIX data, you can add them to an attack mode/method manually.
 
-**Parent Topic:**[IoC Repository](ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
 
 **Related topics**  
 
 
-[Indicators of compromise](c_IoCs.md)
+[Indicators of compromise]()
 
-[Observables](c_Observables.md)
+[Observables]()
 
-[Attack patterns](attack-patterns.md)
+[Attack patterns]()
 
-[Campaigns](threat-intelligence-campaigns.md)
+[Campaigns]()
 
-[Course of actions](threat-intelligence-course-actions.md)
+[Course of actions]()
 
-[Identities](threat-intelligence-identities.md)
+[Identities]()
 
-[Infrastructure](threat-intelligence-infrastructure.md)
+[Infrastructure]()
 
-[Intrusion set](threat-intelligence-intrusion-sets.md)
+[Intrusion set]()
 
-[Locations](threat-intelligence-locations.md)
+[Locations]()
 
-[Malware](threat-intelligence-malware.md)
+[Malware]()
 
-[Malware analysis](threat-intelligence-malware-analysis.md)
+[Malware analysis]()
 
-[Observed data](threat-intelligence-observed-data.md)
+[Observed data]()
 
-[Threat actors](threat-actors.md)
+[Threat actors]()
 
-[Threat groupings](threat-groupings.md)
+[Threat groupings]()
 
-[Marking definitions](marking-definitions.md)
+[Marking definitions]()
 
-[Threat notes](threat-intelligence-threat-notes.md)
+[Threat notes]()
 
-[Threat opinions](threat-opinions.md)
+[Threat opinions]()
 
-[Threat reports](threat-reports.md)
+[Threat reports]()
 
-[Sightings](indicator-sightings.md)
+[Sightings]()
 
-[Tools](tools.md)
+[Tools]()
 
-[Vulnerabilities](vulnerabilities.md)
+[Vulnerabilities]()
 
-[Relationships](stix-relationships.md)
+[Relationships]()
 
-[STIX Visualizer](stix-visualizer.md)
+[STIX Visualizer]()
 

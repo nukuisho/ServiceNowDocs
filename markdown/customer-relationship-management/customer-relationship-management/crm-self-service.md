@@ -14,15 +14,15 @@ The self service applications give customers, consumers, and partners the tools 
 
 ## In this section
 
--   **[Self-service portals](crm-self-service-portals.md)**
+-   **[Self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-self-service-portals.md)**
 
     Understand how the Customer Service Portal, Consumer Service Portal, and Business Portal provide configurable self-service environments for B2B customers, B2C consumers, and organizations that need a richer out-of-the-box portal experience.
 
--   **[Omnichannel](crm-omnichannel.md)**
+-   **[Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-omnichannel.md)**
 
     Understand how CRM connects customers and agents across multiple communication channels, including email, chat, telephony, and messaging, within a single unified service experience.
 
--   **[Web embeddables](crm-web-embeddables.md)**
+-   **[Web embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-web-embeddables.md)**
 
     Understand how web embeddable components allow organizations to surface ServiceNow CRM capabilities, such as case submission, knowledge search, and virtual agent, directly within external websites and digital properties.
 

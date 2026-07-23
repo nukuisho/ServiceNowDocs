@@ -2,6 +2,7 @@
 title: Usage Insights data sources for data visualizations
 description: You can show metrics related to Usage Insights in a data visualization component. The available metrics depend on the visualization type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/uxa-data-sources.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -175,19 +176,19 @@ Time series: Number of active or new users in the date range
 
     You can view your funnel directly from Platform Analytics. When you create a new dashboard in Platform Analytics, select **add new element** and then **Usage Insights Funnel**.
 
-    ![View Usage Insights funnel in Platform Analytics](../../../administer/user-exp-analytics/image/uxa-view-funnnel-pa.png)
+    \[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: View Usage Insights funnel in Platform Analytics
 
 
-**Parent Topic:**[Selecting data sources for data visualizations](selecting-data-sources.md)
+**Parent Topic:**[Selecting data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/selecting-data-sources.md)
 
 **Related topics**  
 
 
-[Select a table data source for a data visualization](../task/select-table-data-source.md)
+[Select a table data source for a data visualization]()
 
-[Select an indicator data source for a data visualization](../task/select-indicator-data-source.md)
+[Select an indicator data source for a data visualization]()
 
-[Select a Workflow Data Fabric data source for a data visualization](../task/select-wdf-data-source.md)
+[Select a Workflow Data Fabric data source for a data visualization]()
 
-[Multiple data sources](../../par-for-workspace/reference/multiple-data-sources.md#)
+[Multiple data sources]()
 

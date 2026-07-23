@@ -2,6 +2,7 @@
 title: Create an order in Order Management
 description: Create a product or service order for an account or consumer in Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-product-order.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_order\
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All**.
 
@@ -120,12 +121,12 @@ The order is started and the product catalog opens.
 
 ## What to do next
 
-Browse the product catalog and add products and services to the order. For more information, see [Add products or services to an order in Order Management](som-add-products-services-to-orders.md).
+Browse the product catalog and add products and services to the order. For more information, see [Add products or services to an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-add-products-services-to-orders.md).
 
 **Related topics**  
 
 
-[Order types in Sales Customer Relationship Management](../concept/som-order-types.md)
+[Order types in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-order-types.md)
 
-[Action types for customer and service orders](../concept/order-mgt-customer-order-types.md)
+[Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md)
 

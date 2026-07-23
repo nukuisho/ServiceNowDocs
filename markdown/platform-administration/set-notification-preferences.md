@@ -2,6 +2,7 @@
 title: Set notification preferences
 description: View, enable, and disable general settings for notification preferences, and delivery channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/set-notification-preferences.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,15 +28,15 @@ Role required: none
 
 3.  Set global notification preferences.
 
-<table id="choicetable_rgl_1dh_vvb"><thead><tr><th align="left" id="d127813e91">
+<table id="choicetable_rgl_1dh_vvb"><thead><tr><th align="left" id="d131070e91">
 
 Option
 
-</th><th align="left" id="d127813e94">
+</th><th align="left" id="d131070e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d127813e100">
+</th></tr></thead><tbody><tr><td id="d131070e100">
 
 **Allow Notifications**
 
@@ -43,7 +44,7 @@ Description
 
 Enable or disable all notifications.
 
-</td></tr><tr><td id="d127813e109">
+</td></tr><tr><td id="d131070e109">
 
 **Advanced Preferences**
 
@@ -51,7 +52,7 @@ Enable or disable all notifications.
 
 Customize notification preferences for system notifications, custom notifications, and delivery channels.
 
-</td></tr><tr><td id="d127813e118">
+</td></tr><tr><td id="d131070e118">
 
 **System notifications**
 
@@ -59,7 +60,7 @@ Customize notification preferences for system notifications, custom notification
 
 Enable or disable system notification categories, for example, Approval or Connect notifications.
 
-</td></tr><tr><td id="d127813e130">
+</td></tr><tr><td id="d131070e130">
 
 **Custom notifications**
 
@@ -67,7 +68,7 @@ Enable or disable system notification categories, for example, Approval or Conne
 
 Enable or disable custom notifications.
 
-</td></tr><tr><td id="d127813e140">
+</td></tr><tr><td id="d131070e140">
 
 **Delivery Channels**
 
@@ -77,5 +78,5 @@ Enable or disable individual delivery channels.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](../concept/advanced-notification-prefrences.md)
+**Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-notification-prefrences.md)
 

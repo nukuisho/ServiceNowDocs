@@ -2,6 +2,7 @@
 title: Components installed with ICW integration with Health and Safety
 description: Components are installed with activation of the application. This includes tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/components-installed-with-icw-health-and-safety-integration.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -33,7 +34,7 @@ Contains roles
 
 User
 
- \[sn\_icw.user\]
+ \[sn\_icw.safety\_incident\_user\]
 
 </td><td>
 
@@ -60,10 +61,10 @@ Can permanently delete safety incidents
 sn\_ohs\_im.incident\_manager
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ICW Health and Safety Integration reference](icw-health-and-safety-integration-reference.md)
+</table>**Parent Topic:**[ICW Health and Safety Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/icw-health-and-safety-integration-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.md)
+[Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-hs-incident-mgmt.md)
 

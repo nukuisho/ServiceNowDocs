@@ -2,6 +2,7 @@
 title: Configure Sales Agreement Management
 description: Use the Sales Agreement Management application to create sales agreements between a buyer and a seller for future transactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-sales-agreement-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -60,9 +61,9 @@ This plugin provides workflow to create and manage sales agreements.
 
 
 </td></tr></tbody>
-</table>For more information on the installed roles and tables, see [Components installed with Sales Agreement Management](../reference/components-installed-sales-agreement.md). To view sales agreements from an account, you must manually configure the sales agreement related list on the Account form.
+</table>For more information on the installed roles and tables, see [Components installed with Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-agreement.md). To view sales agreements from an account, you must manually configure the sales agreement related list on the Account form.
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

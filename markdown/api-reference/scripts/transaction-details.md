@@ -2,6 +2,7 @@
 title: Transaction details
 description: The Script Debugger displays transaction details for the current paused user session.The Script Debugger provides a standard set of transaction details for developers to debug and troubleshoot scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/transaction-details.html
 release: australia
 product: Scripts
 classification: scripts
@@ -17,7 +18,7 @@ The Script Debugger displays transaction details for the current paused user ses
 
 Transaction details are available in a dedicated resizeable section underneath the Call Stack on the bottom left of the Script Debugger.
 
-![Transaction details](../image/sd_transaction_details.png "Example transaction details")
+\[Omitted image "sd\_transaction\_details.png"\] Alt text: Transaction details
 
 The Script Debugger only displays transaction details when it pauses on a script. Developers can use transaction details to:
 
@@ -26,12 +27,12 @@ The Script Debugger only displays transaction details when it pauses on a script
 -   Inspect network information about the current transaction.
 -   Inspect the user and session ID that initiated the debug transaction.
 
-**Parent Topic:**[Script Debugger user interface](../reference/parts-script-debugger-interface.md)
+**Parent Topic:**[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/parts-script-debugger-interface.md)
 
 **Related topics**  
 
 
-[Available transaction details](transaction-details.md#)
+[Available transaction details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/transaction-details.md)
 
 ## Available transaction details
 
@@ -60,5 +61,5 @@ The Script Debugger provides a standard set of transaction details for developer
 **Related topics**  
 
 
-[Transaction details](transaction-details.md#)
+[Transaction details]()
 

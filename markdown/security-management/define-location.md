@@ -2,6 +2,7 @@
 title: Define Location
 description: Define a geographic location to provide more context to other SDOs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/define-location.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,15 +26,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d208305e84">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d211946e80">
 
 Field
 
-</th><th align="left" id="d208305e87">
+</th><th align="left" id="d211946e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d208305e93">
+</th></tr></thead><tbody><tr><td id="d211946e89">
 
 **Name**
 
@@ -41,7 +42,7 @@ Description
 
 Enter a descriptive name to identify the location.
 
-</td></tr><tr><td id="d208305e102">
+</td></tr><tr><td id="d211946e98">
 
 **Street Address**
 
@@ -49,7 +50,7 @@ Enter a descriptive name to identify the location.
 
 The street address that this location describes. This property includes all aspects or parts of the street address.
 
-</td></tr><tr><td id="d208305e111">
+</td></tr><tr><td id="d211946e107">
 
 **City**
 
@@ -57,7 +58,7 @@ The street address that this location describes. This property includes all aspe
 
 The city that this location is in.
 
-</td></tr><tr><td id="d208305e120">
+</td></tr><tr><td id="d211946e116">
 
 **Postal Code**
 
@@ -65,7 +66,7 @@ The city that this location is in.
 
 The postal code that this location is in.
 
-</td></tr><tr><td id="d208305e130">
+</td></tr><tr><td id="d211946e126">
 
 **Region**
 
@@ -73,7 +74,7 @@ The postal code that this location is in.
 
 The region that this location is in.
 
-</td></tr><tr><td id="d208305e139">
+</td></tr><tr><td id="d211946e135">
 
 **Country**
 
@@ -81,7 +82,7 @@ The region that this location is in.
 
 The country that this location is in.
 
-</td></tr><tr><td id="d208305e148">
+</td></tr><tr><td id="d211946e144">
 
 **Latitude**
 
@@ -89,7 +90,7 @@ The country that this location is in.
 
 The latitude of the Location in decimal degrees. Positive numbers describe latitudes north of the equator, and negative numbers describe latitudes south of the equator. The value of this property must be from -90.0 through 90.0 respectively.
 
-</td></tr><tr><td id="d208305e160">
+</td></tr><tr><td id="d211946e156">
 
 **Longitude**
 
@@ -97,7 +98,7 @@ The latitude of the Location in decimal degrees. Positive numbers describe latit
 
 The longitude of the location in decimal degrees. Positive numbers describe longitudes east of the prime meridian and negative numbers describe longitudes west of the prime meridian. The value of this property must be from -180.0 through 180.0, inclusive.
 
-</td></tr><tr><td id="d208305e172">
+</td></tr><tr><td id="d211946e168">
 
 **Source**
 
@@ -105,7 +106,7 @@ The longitude of the location in decimal degrees. Positive numbers describe long
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d208305e181">
+</td></tr><tr><td id="d211946e177">
 
 **Description**
 
@@ -113,7 +114,7 @@ Specifies the threat source from which this record is created.
 
 A description that provides more details and context about the intrusion set, potentially including its purpose and its key characteristics.
 
-</td></tr><tr><td id="d208305e191">
+</td></tr><tr><td id="d211946e187">
 
 **Source ID**
 
@@ -121,7 +122,7 @@ A description that provides more details and context about the intrusion set, po
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d208305e200">
+</td></tr><tr><td id="d211946e196">
 
 **Created Time in Source**
 
@@ -129,7 +130,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d208305e209">
+</td></tr><tr><td id="d211946e205">
 
 **Modified Time in Source**
 
@@ -234,5 +235,5 @@ Tools
 Lists legitimate software that is used by threat actors to perform attacks associated with this object.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Locations](../concept/threat-intelligence-locations.md)
+</table>**Parent Topic:**[Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-locations.md)
 

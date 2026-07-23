@@ -2,6 +2,7 @@
 title: Explore Investigation Canvas
 description: The primary objective of the investigation canvas is to present the necessary security incident data in one common place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/explore-investigation-in-sir-workspace.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ The following are a few key entry points that are provisioned for the security a
 -   Associated Phish Emails
 -   Email Search
 
-You can also configure entry points by adding, modifying, or removing the entry points. For more information, see [Configure SI design time investigation](configure-investigation-canvas-records.md).
+You can also configure entry points by adding, modifying, or removing the entry points. For more information, see [Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md).
 
 On the **Investigation** tab, the entry point table acts as the parent table. All the tables that hold the results of an orchestration action performed on the parent table are presented as children table within the entry point.
 
@@ -37,7 +38,7 @@ The security analyst can perform all the orchestration actions on the Associated
 
 The **Investigation** tab provides you a work notes field to add any comments and post it. You can also use the **Email** option, to send email to the necessary stakeholders.
 
-The list of children table under an entry point is also configurable. For more information, see [Configure SI design time investigation](configure-investigation-canvas-records.md).
+The list of children table under an entry point is also configurable. For more information, see [Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md).
 
 The following is a detailed example of an entry point \(Associated Observable\) that are configured and provisioned within the base system:
 
@@ -45,7 +46,7 @@ The following is a detailed example of an entry point \(Associated Observable\) 
 
     Here the parent table is also **Associated Observable**.
 
-    ![Entry points](../image/entry-points.png "Entry Point List Configs")
+    \[Omitted image "entry-points.png"\] Alt text: Entry points
 
 2.  Select one or more observables from the parent table.
 3.  Run the desired capability.
@@ -58,20 +59,20 @@ The following is a detailed example of an entry point \(Associated Observable\) 
 
     **Note:** You can view the results using filters by results, select either **All results** or **Latest Results**. By default, the latest results are displayed. If there are multiple implementations \(of integrations\), then the latest results according to the implementation are shown.
 
-    In addition, you can filter the results **by associated related lists** which are the children table results. By default, all the configured children table related lists are displayed. For more information, see [Configure SI design time investigation](configure-investigation-canvas-records.md). However, you can choose to select only those children tables that are required.
+    In addition, you can filter the results **by associated related lists** which are the children table results. By default, all the configured children table related lists are displayed. For more information, see [Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md). However, you can choose to select only those children tables that are required.
 
-    ![View associated info.](../image/sirw-explore-investigation-view-info.png)
+    \[Omitted image "sirw-explore-investigation-view-info.png"\] Alt text: View associated info.
 
 5.  Select **View Associated Info** to view all the associated children table data in one place. However you can close the related lists view by selecting **Close View** button. Once you close the view, you can only see the observables parent table as earlier.
 6.  Select **Expand all** upward direction icon within the **Viewing available associated info** results table to expand all the related lists children table data.
 
-    ![Expand all option view.](../image/sirw-expanded-view-associated-info-observables.png)
+    \[Omitted image "sirw-expanded-view-associated-info-observables.png"\] Alt text: Expand all option view.
 
 7.  Select **Collapse all** downward direction icon to collapse all the related lists children table data.
 
     **Note:** The banner on top of the associated info section that contains all the children table data shows how many observable related information is presented to the user. For example, initially if you select two observables and select **View Associated Info**, the banner shows, **Viewing available associated info for 2 Associated Observables.**. If you select one more observable, the banner says that the information is outdated. Select **View Associated Info** again to fetch the latest data.
 
-    ![Associated observables results outdated](../image/outdated-info.png)
+    \[Omitted image "outdated-info.png"\] Alt text: Associated observables results outdated
 
     Select the observable to open the parent table record form in a different tab with a more detailed view of the selected record. All the associated children table data of that particular selected record is also presented under the **Associated info** section.
 
@@ -83,13 +84,13 @@ The following is a detailed example of an entry point \(Associated Observable\) 
 
 8.  Select **Expand all** to expand all the related lists children table. By default, all the children are expanded.
 
-    ![Entry point expanded view](../image/expand-all-info.png "Expanded view of the observables")
+    \[Omitted image "expand-all-info.png"\] Alt text: Entry point expanded view
 
 
-**Parent Topic:**[SIR Workspace Investigation Canvas](security-incident-response-investigation-canvas.md)
+**Parent Topic:**[SIR Workspace Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-response-investigation-canvas.md)
 
 **Related topics**  
 
 
-[Configure SI design time investigation](configure-investigation-canvas-records.md)
+[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)
 

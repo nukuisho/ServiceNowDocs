@@ -1,7 +1,8 @@
 ---
-title: Form field information
+title: Forms
 description: Field information for forms used in Next Experience for Demand Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/form-field-information-ppwdita.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Form field information
+# Forms
 
 Field information for forms used in Next Experience for Demand Management.
 

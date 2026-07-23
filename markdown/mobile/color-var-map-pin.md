@@ -2,6 +2,7 @@
 title: Color variable support for map icons
 description: Learn how to use color variables to change theming in your mobile map icons
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-map-pin.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,11 +20,11 @@ Map screens have a **Pin Color** section with a **Pin color variable** field to 
 
  Using this field you can define any color variable from the UX Theme Properties \[sys\_ux\_theme\_property\] table. For a list available variables see the color design guide below.
 
- For details on creating icon UI sections, see [Configure an icon UI section](../task/sg-ui-section-config-navig.md).
+ For details on creating icon UI sections, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-navig.md).
 
 </td><td>
 
-![Pin color showing the color labeled as Primary 1.](../image/color-var-example-3.png)
+\[Omitted image "color-var-example-3.png"\] Alt text: Pin color showing the color labeled as Primary 1.
 
 </td></tr></tbody>
 </table>## Color design guide for map pins
@@ -46,7 +47,7 @@ Primary
 
 </td><td>
 
-![Primary mobile pin](../image/icon-colors/icon-map-pin-primary.png)
+\[Omitted image "icon-map-pin-primary.png"\] Alt text: Primary mobile pin
 
 </td><td>
 
@@ -65,7 +66,7 @@ Secondary
 
 </td><td>
 
-![Secondary mobile pin](../image/icon-colors/icon-map-pin-secondary.png)
+\[Omitted image "icon-map-pin-secondary.png"\] Alt text: Secondary mobile pin
 
 </td><td>
 
@@ -84,7 +85,7 @@ Tertiary
 
 </td><td>
 
-![Tertiary mobile pin](../image/icon-colors/icon-map-pin-tertiary.png)
+\[Omitted image "icon-map-pin-tertiary.png"\] Alt text: Tertiary mobile pin
 
 </td><td>
 
@@ -103,7 +104,7 @@ Brand
 
 </td><td>
 
-![Brand mobile pin](../image/icon-colors/icon-map-pin-brand.png)
+\[Omitted image "icon-map-pin-brand.png"\] Alt text: Brand mobile pin
 
 </td><td>
 

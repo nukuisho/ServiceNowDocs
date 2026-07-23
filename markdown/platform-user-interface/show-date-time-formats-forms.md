@@ -2,18 +2,19 @@
 title: Show date and time formats on forms preference
 description: Learn more about the Show date and time formats on forms accessibility preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/show-date-time-formats-forms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure accessibility preferences, Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure accessibility preferences, Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Show date and time formats on forms preference
 
 Learn more about the Show date and time formats on forms accessibility preference.
 
-![Show date and time formats on forms accessibility preference.](../image/coral-pref-date-time.png)
+\[Omitted image "coral-pref-date-time.png"\] Alt text: Show date and time formats on forms accessibility preference.
 
 The purpose of this preference is to provide clear and consistent date and time information.
 
@@ -64,13 +65,13 @@ Deactivated
 
 Date and time fields display the format in parentheses. For example, Date \(YYYY-MM-DD\).
 
-![Due date form field with Show date and time formats on forms preference turned on.](../image/a11y-pref-date-time-off.png)
+\[Omitted image "a11y-pref-date-time-off.png"\] Alt text: Due date form field with Show date and time formats on forms preference turned on.
 
 </td><td>
 
 Date and time fields do not display the format.
 
-![Due date form field with Show date and time formats on forms preference turned off.](../image/a11y-pref-date-time-on.png)
+\[Omitted image "a11y-pref-date-time-on.png"\] Alt text: Due date form field with Show date and time formats on forms preference turned off.
 
 </td></tr></tbody>
 </table>

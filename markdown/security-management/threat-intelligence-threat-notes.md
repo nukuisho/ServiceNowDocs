@@ -2,6 +2,7 @@
 title: Threat notes
 description: A Threat Note conveys informative text to provide additional analysis not contained in the STIX Objects, Marking Definition objects, or Language Content objects which the Note relates to. Threat notes applies for STIX 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-threat-notes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,57 +18,57 @@ For example, an analyst may add a Note to a Campaign object created by another o
 
 Notes are usually created by human analysts and are composed of human-oriented text, they contain an extra property to capture the author that created the Note.
 
--   **[Define threat notes](../task/define-threat-notes.md)**  
+-   **[Define threat notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-threat-notes.md)**  
 Define threat notes that convey information to provide further context or analysis that is not available in existing objects.
 
-**Parent Topic:**[IoC Repository](ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
 
 **Related topics**  
 
 
-[Attack modes and methods](c_AttackModeMethod.md)
+[Attack modes and methods]()
 
-[Indicators of compromise](c_IoCs.md)
+[Indicators of compromise]()
 
-[Observables](c_Observables.md)
+[Observables]()
 
-[Attack patterns](attack-patterns.md)
+[Attack patterns]()
 
-[Campaigns](threat-intelligence-campaigns.md)
+[Campaigns]()
 
-[Course of actions](threat-intelligence-course-actions.md)
+[Course of actions]()
 
-[Identities](threat-intelligence-identities.md)
+[Identities]()
 
-[Infrastructure](threat-intelligence-infrastructure.md)
+[Infrastructure]()
 
-[Intrusion set](threat-intelligence-intrusion-sets.md)
+[Intrusion set]()
 
-[Locations](threat-intelligence-locations.md)
+[Locations]()
 
-[Malware](threat-intelligence-malware.md)
+[Malware]()
 
-[Malware analysis](threat-intelligence-malware-analysis.md)
+[Malware analysis]()
 
-[Observed data](threat-intelligence-observed-data.md)
+[Observed data]()
 
-[Threat actors](threat-actors.md)
+[Threat actors]()
 
-[Threat groupings](threat-groupings.md)
+[Threat groupings]()
 
-[Marking definitions](marking-definitions.md)
+[Marking definitions]()
 
-[Threat opinions](threat-opinions.md)
+[Threat opinions]()
 
-[Threat reports](threat-reports.md)
+[Threat reports]()
 
-[Sightings](indicator-sightings.md)
+[Sightings]()
 
-[Tools](tools.md)
+[Tools]()
 
-[Vulnerabilities](vulnerabilities.md)
+[Vulnerabilities]()
 
-[Relationships](stix-relationships.md)
+[Relationships]()
 
-[STIX Visualizer](stix-visualizer.md)
+[STIX Visualizer]()
 

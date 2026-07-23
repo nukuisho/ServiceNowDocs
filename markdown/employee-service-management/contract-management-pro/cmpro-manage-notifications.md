@@ -2,6 +2,7 @@
 title: Manage notifications in Contract Management Pro
 description: Configure the notifications in Contract Management Pro.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-manage-notifications.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -15,33 +16,35 @@ breadcrumb: [Configure additional features in CM Pro, Configure, Contract Manage
 
 Configure the notifications in Contract Management Pro.
 
--   **[Configure Obligation Management notifications](../task/cncore-config-ob-mgmt-notf.md)**  
+-   **[Configure Obligation Management notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-ob-mgmt-notf.md)**  
 Activate Obligation Management notifications to notify users when an obligation task is created, assigned, submitted, approved, or rejected.
--   **[Configure email notifications for approval workflow in Contract Management Pro](../task/cmpro-send-receive-email-notification-admin.md)**  
+-   **[Configure email notifications for approval workflow in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-send-receive-email-notification-admin.md)**  
 Activate the notifications for Contract Management Pro to notify users when approval for contract revision is initiated, approved, rejected, or cancelled.
--   **[Configure extension point for notifications](../task/cmpro-configure-action-extension-point-email-notification-admin.md)**  
+-   **[Configure extension point for notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-configure-action-extension-point-email-notification-admin.md)**  
 Add or modify an Action and its functionality on the Standard ticket page for a contract request.
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace](cncore-conf-cntrct-wrkspc.md)
+[Configuring Contract Workspace]()
 
-[Configure signature pause duration when modifying signatories](../task/cncore-pause-sig-property.md)
+[Configure signature pause duration when modifying signatories]()
 
-[Auto-populate the start date and end date for contract requests](../task/cncore-conf-start-end-date-for-cntrcts.md)
+[Auto-populate the start date and end date for contract requests]()
 
-[Activate a system property to generate a certificate of completion](../task/cncore-config-system-prop-COC.md)
+[Enable signatory roles]()
 
-[Enable users to view email details in activity stream](../task/cncore-enbl-user-email-astream.md)
+[Activate a system property to generate a certificate of completion]()
 
-[Enable keyword search for contract templates](../task/cncore-enable-search-cont-tmplts.md)
+[Enable users to view email details in activity stream]()
 
-[Configuring contract summarization for Contract Management Pro](../task/cmpro-conf-cntr-summary.md)
+[Enable keyword search for contract templates]()
 
-[Configure conditions to send reminder notifications for expiring contracts](../task/cncore-config-rem-exp-cont.md)
+[Configuring contract summarization for Contract Management Pro]()
 
-[Copy fields from parent request to amendment request](../task/cncore-cpy-fld-parent-amedreq.md)
+[Configure conditions to send reminder notifications for expiring contracts]()
+
+[Copy fields from parent request to amendment request]()
 

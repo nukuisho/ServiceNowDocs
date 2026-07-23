@@ -2,6 +2,7 @@
 title: Relationships between configuration records
 description: The Application File Types table defines parent-child relationships between configuration records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/c\_RelationshipsBetweenConfigRecs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,5 +25,5 @@ For example, consider the parent-child relationships for a UI policy.
 -   UI policy actions have a parent UI policy and a grandparent application table.
 -   The UI policy actions and the UI policy are all descendants of the application table.
 
-![Relationships in a sample configuration record](../image/SampleConfigurationRecordRelationships.png "Sample configuration record relationships")
+\[Omitted image "SampleConfigurationRecordRelationships.png"\] Alt text: Relationships in a sample configuration record
 

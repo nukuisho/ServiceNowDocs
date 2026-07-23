@@ -2,6 +2,7 @@
 title: Enable SEO for localized versions of a portal page
 description: Allow users to discover portal pages in their preferred language by adding hreflang tags.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/seo-header-tags.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -29,7 +30,7 @@ Role required: sp\_admin or admin
 
     Selecting this check box causes the **SEO script** field to appear. By default, the system uses the SPSEOHeaderTags script include. You can use a different script include by updating this field.
 
-    !["Use SEO script" and "SEO script" fields on the Page form](../image/seo-script.png)
+    \[Omitted image "seo-script.png"\] Alt text: "Use SEO script" and "SEO script" fields on the Page form
 
 3.  Click **Update**.
 
@@ -46,12 +47,12 @@ To specify a canonical URL for the page, update the `generateCanonicalURL` funct
 
 To specify custom header tags for the page, update the `generateCustomTagsForSEO` function in the script include.
 
-For an example of inserting custom SEO tags into the knowledge article view page, see [Configure custom SEO tags for canonical URLs and localized knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-seo-knowledge.md).
+For an example of inserting custom SEO tags into the knowledge article view page, see [Configure custom SEO tags for canonical URLs and localized knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-seo-knowledge.md).
 
-**Parent Topic:**[Improving search engine optimization for portals](../concept/seo-sp.md)
+**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 

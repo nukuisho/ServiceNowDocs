@@ -2,6 +2,7 @@
 title: Field types in Now Assist in Document Intelligence
 description: The field type specifies the information that is retrieved from a document with Now Assist in Document Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-field-types.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -18,7 +19,7 @@ The field type specifies the information that is retrieved from a document with 
 
 The following field types are available to administrators when configuring fields for use cases.
 
-**Note:** Some field types convert the extracted value into a standard format. For more information, see [Data normalization](../concept/data-normalization.md).
+**Note:** Some field types convert the extracted value into a standard format. For more information, see [Data normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/data-normalization.md).
 
 <table id="table_nql_cxs_12c"><thead><tr><th>
 
@@ -38,7 +39,7 @@ Holds a true/false value. In document Q&amp;A questions, the value is displayed 
 
  This field type is available for questions defined in the use case setup.
 
- ![Boolean question field type.](../image/docintel-na-field-question.png)
+ \[Omitted image "docintel-na-field-question.png"\] Alt text: Boolean question field type.
 
 </td></tr><tr><td>
 
@@ -50,7 +51,7 @@ Date, displayed in the date format extracted from the document.
 
  This field type is available for fields and tables defined in the use case setup.
 
- ![Date field type.](../image/docintel-na-field-date.png)
+ \[Omitted image "docintel-na-field-date.png"\] Alt text: Date field type.
 
 </td></tr><tr><td>
 
@@ -62,7 +63,7 @@ A number with up to two decimal places \(for example, 12.5 or 12.55\).
 
  This field type is available for fields and tables defined in the use case setup.
 
- ![Decimal field type.](../image/docintel-na-field-decimal.png)
+ \[Omitted image "docintel-na-field-decimal.png"\] Alt text: Decimal field type.
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ A number with up to seven decimal places \(for example, 12.0 to 12.0000000\).
 
  This field type is available for fields and tables defined in the use case setup.
 
- ![Float field type.](../image/docintel-na-field-float.png)
+ \[Omitted image "docintel-na-field-float.png"\] Alt text: Float field type.
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Whole number \(for example, 12\).
 
  This field type is available for fields and tables defined in the use case setup.
 
- ![Integer field type.](../image/docintel-na-field-integer.png)
+ \[Omitted image "docintel-na-field-integer.png"\] Alt text: Integer field type.
 
 </td></tr><tr><td>
 
@@ -100,7 +101,7 @@ A reference field stores a reference to a field on another table. For example, t
 
  This field type is available for fields and tables defined in the use case setup.
 
- ![Reference field type.](../image/docintel-na-field-reference.png)
+ \[Omitted image "docintel-na-field-reference.png"\] Alt text: Reference field type.
 
 </td></tr><tr><td>
 
@@ -112,27 +113,27 @@ Text field.
 
  This field type is available for fields, tables, and questions defined in the use case setup.
 
- ![Text field type.](../image/docintel-na-field-text.png)
+ \[Omitted image "docintel-na-field-text.png"\] Alt text: Text field type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist in Document Intelligence reference](now-assist-in-document-intelligence-reference.md)
+</table>**Parent Topic:**[Now Assist in Document Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-in-document-intelligence-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Now Assist in Document Intelligence](now-assist-docintel-components.md)
+[Components installed with Now Assist in Document Intelligence]()
 
-[Data extraction modes in Now Assist in Document Intelligence](data-extraction-modes-now-assist-document-intelligence.md)
+[Data extraction modes in Now Assist in Document Intelligence]()
 
-[Document and visual insights AI agent](document-and-visual-insights-ai-agent.md)
+[Document and visual insights AI agent]()
 
-[Document Intelligence tool for Now Assist Skill Kit](document-visual-intelligence-skill-kit-tool.md)
+[Document Intelligence tool for Now Assist Skill Kit]()
 
-[Now Assist in Document Intelligence forms](now-assist-document-intelligence-forms.md)
+[Now Assist in Document Intelligence forms]()
 
-[Limitations in Now Assist in Document Intelligence](now-assist-document-intelligence-limitations.md)
+[Limitations in Now Assist in Document Intelligence]()
 
-[Large language models used by Now Assist in Document Intelligence](llms-now-assist-document-intelligence.md)
+[Large language models used by Now Assist in Document Intelligence]()
 
-[Languages supported by Now Assist in Document Intelligence](languages-supported-now-assist-document-intelligence.md)
+[Languages supported by Now Assist in Document Intelligence]()
 

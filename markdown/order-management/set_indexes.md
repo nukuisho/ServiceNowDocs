@@ -2,11 +2,12 @@
 title: Using set indexes
 description: Watch a video that demonstrates how to use set indexes to drive a product rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/set\_indexes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure sets, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure sets, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Using set indexes
@@ -19,10 +20,10 @@ Sets automatically create a set index field \(`set.{{setName}}.index`\). Using t
 
 The following video demonstrates set indexes and how to use them to drive a product rule.
 
-[Set indexes in CPQ](https://www.youtube.com/watch?v=QmkQUIXguK8)
+[Set indexes in ServiceNow CPQ](https://www.youtube.com/watch?v=QmkQUIXguK8)
 
 **Related topics**  
 
 
-[Hiding the set grid and field grid indexes](how_to_hide_the_setfield_grid_index.md)
+[Hiding the set grid and field grid indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/how_to_hide_the_setfield_grid_index.md)
 

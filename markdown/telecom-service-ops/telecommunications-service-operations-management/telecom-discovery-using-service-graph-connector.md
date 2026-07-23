@@ -2,13 +2,14 @@
 title: Indirect Discovery using Service Graph Connectors
 description: ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) enables you to seamlessly integrate network infrastructure data from external management systems, such as EMS, NMS, and SDN Controllers, into the Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-service-graph-connector.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Telecom Discovery, Explore, Telecommunications Service Operations Management]
+breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
 # Indirect Discovery using Service Graph Connectors
@@ -58,7 +59,7 @@ MID Server
 
 </td><td>
 
-Acts as a secure bridge between your ServiceNow instance and the external network system. For more information, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md).
+Acts as a secure bridge between your ServiceNow instance and the external network system. For more information, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrationhub-etl.md).
 
 </td></tr><tr><td>
 
@@ -66,7 +67,7 @@ IntegrationHub ETL \(3.2\)
 
 </td><td>
 
-Provides a guided UI for creating, testing, and managing ETL transform maps.For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+Provides a guided UI for creating, testing, and managing ETL transform maps.For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ Robust Transform Engine \(RTE\)
 
 </td><td>
 
-Transforms staged source data into CMDB-compliant records using defined ETL logic. For more information, see [Create a robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-robust-import-set-transformer.md).
+Transforms staged source data into CMDB-compliant records using defined ETL logic. For more information, see [Create a robust import set transformer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-robust-import-set-transformer.md).
 
 </td></tr><tr><td>
 
@@ -82,7 +83,7 @@ Identification and Reconciliation Engine \(IRE\)
 
 </td><td>
 
-Ensures data consistency and prevents duplicates by identifying and reconciling CIs.For more information, see the [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
+Ensures data consistency and prevents duplicates by identifying and reconciling CIs.For more information, see the [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CMDBIdentifyandReconcile.md).
 
 </td></tr><tr><td>
 
@@ -98,6 +99,7 @@ Stores structured, accurate telecom infrastructure data for visibility and downs
 -   Nokia Altiplano SGC \(sn\_sgc\_altiplano\_connector\): Integrates with the Nokia Altiplano Access Network SDN Controller via REST APIs.
 -   Cisco Meraki SGC \(sn\_sgc\_meraki\_connector\): Integrates with the Cisco Meraki Dashboard via REST APIs.
 -   Fortinet SGC \(sn\_sgc\_fortinet\_connector\): Integrates with FortiManager via REST APIs.
+-   Arista VeloCloud SGC \(sn\_sgc\_velocloud\_connector\): Integrates with VeloCloud Orchestrator via REST APIs.
 
 **Note:** The connector can coexist with IT and Cloud Service Graph Connectors \(e.g., for servers, monitoring tools, IoT, etc.\).
 
@@ -134,9 +136,9 @@ As a result, the discovered CI is in both the cmdb\_ci and tni\_entity tables.
 **Related topics**  
 
 
-[Telecom Discovery via Nokia Altiplano](service-graph-connector-for-nokia-altiplano.md#)
+[Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
 
-[Telecom Discovery via Cisco Meraki SD-WAN](telecom-discovery-via-cisco-meraki.md)
+[Telecom Discovery via Cisco Meraki SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-cisco-meraki.md)
 
-[Telecom Discovery via Fortinet SD-WAN](telecom-discovery-via-fortinet.md)
+[Telecom Discovery via Fortinet SD-WAN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-fortinet.md)
 

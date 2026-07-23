@@ -2,10 +2,11 @@
 title: Differences Between Audit and History Sets
 description: The Audit \[sys\_audit\], History Sets \[sys\_history\_set\], and History \[sys\_history\_line\] tables store the same data, but they serve different purposes and manage data differently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_DiffBtwnAuditHistSets.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-06-03"
+reading_time_minutes: 2
 breadcrumb: [Knowing about History sets, Auditing]
 ---
 
@@ -28,7 +29,7 @@ The History Set \[sys\_history\_set\] table identifies which particular records 
 The system limits History Set and History records by:
 
 -   Having the table cleaner delete History Set records that have not been updated in 30 days.
--   Using table rotation to rotate between four History tables every seven days. The system drops History records that are older than 28 days.
+-   Using table rotation to rotate between four History tables every seven days. Because the platform truncates the leading table when rotation occurs, the maximum available retention period is 21 days, not 28. One of the four tables is always in the process of being cleared in preparation for the next rotation.
 
 Should someone need historical information again at a later date, the system can regenerate it from auditing source records.
 

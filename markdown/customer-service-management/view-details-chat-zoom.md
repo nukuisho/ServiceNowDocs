@@ -2,11 +2,12 @@
 title: View details for Zoom meetings initiated from chats
 description: View details for a Zoom meeting initiated from a chat by accessing the associated interaction record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-details-chat-zoom.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Using Chat Zoom Connector, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using Chat Zoom Connector, Customer communication, Use, Customer Service Management]
 ---
 
 # View details for Zoom meetings initiated from chats
@@ -19,7 +20,7 @@ Role required: sn\_customerservice\_manager
 
 ## About this task
 
-This task provides steps for a user with the sn\_customerservice\_manager role to access Zoom meeting details from an interaction record. For information about how users with other Notify roles view Zoom meeting details, see [Using Chat Zoom Connector](../concept/using-chat-zoom-connector.md).
+This task provides steps for a user with the sn\_customerservice\_manager role to access Zoom meeting details from an interaction record. For information about how users with other Notify roles view Zoom meeting details, see [Using Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-chat-zoom-connector.md).
 
 ## Procedure
 
@@ -102,7 +103,7 @@ Channel Metadata Record
 
 Number of the Notify conference call. This field is automatically set to a conference call number associated with this meeting and stored in the Notify Conference Calls \[notify\_conference\_call\] table.
 
- **Note:** To view more details such as the meeting URL and participant details, click the preview this record icon \(![Preview this record icon.](../image/preview-record.png)\) for this field.
+ **Note:** To view more details such as the meeting URL and participant details, click the preview this record icon \(\[Omitted image "preview-record.png"\] Alt text: Preview this record icon.\) for this field.
 
  You may need to configure the form to add this field. For more information, see [Configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
@@ -152,5 +153,5 @@ Short description of the interaction. **Note:** The short description field is e
 </table>**Related topics**  
 
 
-[Initiate Zoom meetings from chats](initiate-chat-zoom.md)
+[Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/initiate-chat-zoom.md)
 

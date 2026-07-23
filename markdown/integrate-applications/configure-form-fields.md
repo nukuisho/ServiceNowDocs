@@ -2,11 +2,12 @@
 title: Configure the form fields for the Form Renderer element
 description: Configure the form fields in the Form Renderer element while you are building an attended automation form in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-form-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create an attended automation form in RPA Desktop Design Studio, Build, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Create an attended automation form in RPA Desktop Design Studio, Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Configure the form fields for the Form Renderer element
@@ -15,9 +16,9 @@ Configure the form fields in the Form Renderer element while you are building an
 
 ## Before you begin
 
-Create an attended automation form in RPA Desktop Design Studio. For more information, see [Create an attended automation form in RPA Desktop Design Studio](create-rda-form.md).
+Create an attended automation form in RPA Desktop Design Studio. For more information, see [Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-rda-form.md).
 
-Ensure that your attended automation form contains a Form Renderer element. For more information, see [Form designer for building attended automation forms](../concept/form-designer-overview.md).
+Ensure that your attended automation form contains a Form Renderer element. For more information, see [Form designer for building attended automation forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-designer-overview.md).
 
 Role required: none
 
@@ -31,7 +32,7 @@ The Form Renderer element helps you to build forms quickly with the available co
 
 2.  Right-click the Form Renderer element and select **Configure** to configure the form fields.
 
-3.  In the CONFIGURE FORM FIELDS dialog box, click the add icon \(![Add icon.](../image/add-icon-configure-form-fields.png)\) to add a new **Field** tab.
+3.  In the CONFIGURE FORM FIELDS dialog box, click the add icon \(\[Omitted image "add-icon-configure-form-fields.png"\] Alt text: Add icon.\) to add a new **Field** tab.
 
 4.  In the Fields section, expand a Field option and fill in the following details:
 
@@ -117,7 +118,7 @@ Help link URL for the field.This field appears only when **Link** is selected fr
 
 7.  To delete a field, do the following actions:
 
-    1.  Expand the field option that you want to delete and click the delete icon \(![Delete icon.](../image/delete-icon-configure-form-fields.png)\).
+    1.  Expand the field option that you want to delete and click the delete icon \(\[Omitted image "delete-icon-configure-form-fields.png"\] Alt text: Delete icon.\).
 
     2.  In the Confirmation dialog box, click **Yes**.
 
@@ -178,12 +179,12 @@ Option for enabling pop-up windows inside the form.
 </table>9.  Click **OK**.
 
 
-**Parent Topic:**[Create an attended automation form in RPA Desktop Design Studio](create-rda-form.md)
+**Parent Topic:**[Create an attended automation form in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-rda-form.md)
 
 **Related topics**  
 
 
-[Form designer for building attended automation forms](../concept/form-designer-overview.md)
+[Form designer for building attended automation forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-designer-overview.md)
 
-[Methods and events of the Form Renderer element](../reference/form-control-formreneder.md)
+[Methods and events of the Form Renderer element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/form-control-formreneder.md)
 

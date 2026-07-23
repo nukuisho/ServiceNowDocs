@@ -2,6 +2,7 @@
 title: General guidelines for a navigation bar
 description: When creating a navigation bar, keep these general guidelines in mind for usability and a good user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/guidelines-navigation-bar.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,14 +15,14 @@ breadcrumb: [Navigation bar, Mobile app components, Building mobile apps, Mobile
 When creating a navigation bar, keep these general guidelines in mind for usability and a good user experience.
 
 -   **Number of tabs**
-    -   The navigation bar displays up to five tabs. When there are more than five tabs an overflow tab, known as the more tab, \(![More icon.](../image/more-icon.png)\) is added.
+    -   The navigation bar displays up to five tabs. When there are more than five tabs an overflow tab, known as the more tab, \(\[Omitted image "more-icon.png"\] Alt text: More icon.\) is added.
     -   Try to limit your navigation bar to five tabs, so that all the tabs are visible at all times.
 -   **Tab types**
     -   By default, the navigation bar contains Settings and Notification tabs. Removing these tabs is possible, but might prevent your users from accessing important information and features of the app.
     -   Rather than removing the Setting and Notification tabs, consider changing the order in which they appear in the navigation bar.
     -   The Settings, Notifications, and Saved tabs navigate to specific pages, so only one of each tab is required. You can use multiple screen and launcher screen tabs, however it's suggested that you use no more than five tabs.
 -   **Display specific tabs to specified users**
-    -   Apply user criteria permissions, so users only view tabs relevant to their work. For more information, see [User criteria permissions in mobile apps](user-criteria-permissions.md).
+    -   Apply user criteria permissions, so users only view tabs relevant to their work. For more information, see [User criteria permissions in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/user-criteria-permissions.md).
     -   You should have the Settings and Navigation tabs available to users.
 -   **Tab names**
     -   Give your navigation tabs a descriptive name that provides context. Avoid generic names like Home or Apps.

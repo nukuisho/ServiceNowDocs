@@ -2,11 +2,12 @@
 title: Service Portal vs Workspace
 description: Understand the similarities and differences between a Service Portal and a Workspace on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/dev-get-start-service-portal-vs-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [User interface and experiences, Getting Started guide for developers, Building applications]
+breadcrumb: [User interface and experiences, Standard app development, Getting Started guide for developers, Building applications]
 ---
 
 # Service Portal vs Workspace
@@ -39,5 +40,5 @@ Understand the similarities and differences between a Service Portal and a Works
 |Analytics|Portal usage analytics and optional AI Search|Embedded analytics, KPIs, and agent assist features|
 |Upgrade path|Migrate to Employee Center for an updated taxonomy|Move from classic Agent Workspace to Configurable Workspaces|
 
-**Parent Topic:**[User interface and experiences](dev-get-start-ui-and-experience.md)
+**Parent Topic:**[User interface and experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/dev-get-start-ui-and-experience.md)
 

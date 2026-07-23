@@ -2,11 +2,12 @@
 title: Identity management integrations
 description: Manage access and user profile by integrating with Identity providers and LDAP directories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-integrations-il.html
 release: australia
 topic_type: reference
 last_updated: "2025-12-05"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Identity management integrations
@@ -15,7 +16,7 @@ Manage access and user profile by integrating with Identity providers and LDAP d
 
 ## Single sign-on \(SSO\)
 
-![](../image/ia-sso.png)
+\[Omitted image "ia-sso.png"\] Alt text:
 
 SSO simplifies secure multi-system access using one set of credentials.
 
@@ -31,11 +32,11 @@ Once the plugin is installed, the existing SSO providers show up. Select the Ide
 
 ## Lightweight directory access protocol \(LDAP\)
 
-![](../image/ia-ldap.png)
+\[Omitted image "ia-ldap.png"\] Alt text:
 
 LDAP syncs user and group data to centralize authentication and access control.
 
 On selecting LDAP on the left hand side panel, the gallery of the existing LDAP servers shows up. Select **Add an LDAP server** to create a new LDAP server.
 
-**Parent Topic:**[Platform module configuration in Now Assist for Setup](ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

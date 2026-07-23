@@ -2,6 +2,7 @@
 title: Configure chat recommendation
 description: Use the guided setup in the Now Assist Admin console to configure chat recommendation by defining triggers, specifying inputs, setting the display location, and activating the feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-chat-reply-recommendation-in-now-assist\_0.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -15,7 +16,7 @@ breadcrumb: [Activate Now Assist Skills, Configure, Now Assist for CSM, Customer
 
 Use the guided setup in the Now Assist Admin console to configure chat recommendation by defining triggers, specifying inputs, setting the display location, and activating the feature.
 
-Configure chat recommendation skill 
+\[Omitted video\] Description: Configure chat recommendation skill
 
 ## Before you begin
 

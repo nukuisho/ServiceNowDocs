@@ -2,6 +2,7 @@
 title: Using the Consumer Portal
 description: The Consumer Portal is a web interface that your company can use to provide information and support to consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-consumer-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -163,10 +164,10 @@ Contains important links, contact information, and legal details for easy access
 </td></tr></tbody>
 </table>## Customizing the Consumer Portal
 
-To customize this portal, navigate to **Service Portal** &gt; **Portals** and select **Consumer Portal**. For details about creating a custom interface, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md).
+To customize this portal, navigate to **Service Portal** &gt; **Portals** and select **Consumer Portal**. For details about creating a custom interface, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md).
 
 **Related topics**  
 
 
-[Portal usage calculation](../reference/csm-portal-user-sessions-timeouts.md)
+[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

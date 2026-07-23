@@ -2,6 +2,7 @@
 title: Configure the security event ribbon
 description: Configure the security event ribbon on the Instance Security Center homepage to include only those events that are relevant for tracking instance security in your operations. You can also change the order in which the security event tiles appear on the ribbon.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-sec-center-configure-event-ribbon.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,13 +25,13 @@ The security event ribbon is initially populated with a full set of standard sec
 -   For example, if you suspect that security issues are due to the actions of internal personnel, include the Admin Logins, Admin Users added, and Security Elevations event indicators.
 -   These indicators monitor how many times users with admin roles attempted to log in and, if admin users were added, what attempts were made to elevate security roles.
 
-**Note:** To learn about the types of security events that appear in the event ribbon, see [Monitor security events](../concept/instance-sec-center-event-ribbon.md).
+**Note:** To learn about the types of security events that appear in the event ribbon, see [Monitor security events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-event-ribbon.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Instance Security Center**.
 
-2.  In the event ribbon, click **Edit** \(![Events ribbon Edit button](../image/isc-events-ribbon-edit.png)\).
+2.  In the event ribbon, click **Edit** \(\[Omitted image "isc-events-ribbon-edit.png"\] Alt text: Events ribbon Edit button\).
 
     On the Edit Events form, the **Selected** column contains the events that are already listed.
 
@@ -47,10 +48,10 @@ The security event ribbon is initially populated with a full set of standard sec
 5.  Click **Save**.
 
 
-**Parent Topic:**[Monitor security events](../concept/instance-sec-center-event-ribbon.md)
+**Parent Topic:**[Monitor security events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-event-ribbon.md)
 
 **Related topics**  
 
 
-[Instance Security Center](../concept/instance-security-center.md)
+[Instance Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-center.md)
 

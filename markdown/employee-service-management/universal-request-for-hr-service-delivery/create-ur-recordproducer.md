@@ -2,6 +2,7 @@
 title: Configure a catalog item or record producer to create a universal request
 description: Create a universal request along with a requested item or task-based record to provide unified ticketing experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/create-ur-recordproducer.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -28,9 +29,9 @@ A universal request is not created for the following scenarios:
 -   Cart with multiple catalog items is checked out
 -   Order guide is submitted
 
-For information on creating a catalog item, see [Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md).
+For information on creating a catalog item, see [Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefineACatalogItem.md).
 
-For information on creating a record producer, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md).
+For information on creating a record producer, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md).
 
 ## Procedure
 
@@ -62,22 +63,22 @@ Requires Additional Review
 
 </td><td>
 
-Option to automatically select the **Needs resolution review** check box on the corresponding universal request. For information about the universal request fields, see [Universal Request form](../../universal-request/reference/new-ur-record-form.md).The **Requires Additional Review** field appears only when the **UR certified/enabled item** check box is selected.
+Option to automatically select the **Needs resolution review** check box on the corresponding universal request. For information about the universal request fields, see [Universal Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/new-ur-record-form.md).The **Requires Additional Review** field appears only when the **UR certified/enabled item** check box is selected.
 
 </td></tr></tbody>
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[Unified ticket experience setting](../../universal-request/concept/unified-ticket-experience.md)
+**Parent Topic:**[Unified ticket experience setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/unified-ticket-experience.md)
 
 **Related topics**  
 
 
-[Create universal request automatically for department tickets via other channels](../../universal-request/task/autocreate-ur-from-interactionrecord-WS.md)
+[Create universal request automatically for department tickets via other channels]()
 
-[Email notification preferences for your service](../../universal-request/concept/ur-customize-email-notifcations.md)
+[Email notification preferences for your service]()
 
-[Automatically create universal request from an inbound email](../../universal-request/concept/create-ur-from-inbound-email.md)
+[Automatically create universal request from an inbound email]()
 
-[Service Catalog configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/ur-catalog-config.md)
+[Service Catalog configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ur-catalog-config.md)
 

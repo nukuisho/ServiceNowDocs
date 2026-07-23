@@ -2,6 +2,7 @@
 title: Predictive Intelligence roles
 description: Predictive Intelligence is installed with these roles.Can create, read, write or delete the ml\_predictor\_results table and the ml\_predictor\_results\_task table.Can create, read, write or delete the ml\_label\_candidate table.Can read the ml\_predictor\_results table and the ml\_predictor\_results\_task table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intelligence-roles.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -17,18 +18,18 @@ Predictive Intelligence is installed with these roles.
 
 To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Predictive Intelligence references](reference-predictive-intelligence.md)
+**Parent Topic:**[Predictive Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/reference-predictive-intelligence.md)
 
 **Related topics**  
 
 
-[Domain separation and Predictive Intelligence](../concept/domain-separation-predictive-intelligence.md)
+[Domain separation and Predictive Intelligence]()
 
-[Data Encryption in Predictive Intelligence](predictive-intelligence-encryption.md)
+[Data Encryption in Predictive Intelligence]()
 
-[Predictive Intelligence language support](../concept/predictive-intelligence-localization.md)
+[Predictive Intelligence language support]()
 
-[Predictive Intelligence properties](predictive-intelligence-properties.md)
+[Predictive Intelligence properties]()
 
 ## ML Admin \[ml\_admin\]
 

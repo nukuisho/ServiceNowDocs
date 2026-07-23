@@ -2,13 +2,14 @@
 title: Create a product catalog item
 description: Create hardware and software product catalog items to include in the product catalog and the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/t\_CreateAProductCatalogItem.html
 release: australia
 product: Product Catalog
 classification: product-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Product catalog items, Product Catalog, Asset Management, IT Service Management]
+breadcrumb: [Product catalog items, Product Catalog, Asset Management common applications, IT Service Management]
 ---
 
 # Create a product catalog item
@@ -21,7 +22,7 @@ Role required: catalog\_admin
 
 ## About this task
 
-You must [activate](t_ActivateAProductCatalogItem.md) the items separately before they appear in the product catalog or service catalog.
+You must [activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_ActivateAProductCatalogItem.md) the items separately before they appear in the product catalog or service catalog.
 
 ## Procedure
 
@@ -292,27 +293,27 @@ Vendor catalog items associated with this item. Vendor catalog items allow you t
 </td></tr></tbody>
 </table>    Hardware catalog item record with an icon and picture of the item.
 
-    ![Hardware catalog item for a laser printer](../image/HardwareCatalogItem.png "Hardware catalog item")
+    \[Omitted image "HardwareCatalogItem.png"\] Alt text: Hardware catalog item for a laser printer
 
 4.  Select **Try It** to preview the item as it appears in the service catalog.
 
 5.  Select **Submit** or **Update**.
 
 
-**Parent Topic:**[Product catalog items](../concept/c_ManagingProductCatalogItems.md)
+**Parent Topic:**[Product catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_ManagingProductCatalogItems.md)
 
 **Related topics**  
 
 
-[Activate a product catalog item](t_ActivateAProductCatalogItem.md)
+[Activate a product catalog item]()
 
-[Deactivate a product catalog item](t_DeactivateAProductCatalogItem.md)
+[Deactivate a product catalog item]()
 
-[Import a Product Catalog item](migrate-product-catalog-item.md)
+[Import a Product Catalog item]()
 
-[Create a vendor catalog item](t_CreateAVendorCatalogItem.md)
+[Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/t_CreateAVendorCatalogItem.md)
 
-[Create an execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAnExecutionPlan.md)
+[Create an execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAnExecutionPlan.md)
 
-[Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariables.md)
+[Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ServiceCatalogVariables.md)
 

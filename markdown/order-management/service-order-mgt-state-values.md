@@ -2,6 +2,7 @@
 title: Service order states
 description: Use the State fields on the Order Management forms to determine the current processing state for the service order and to perform certain types of order actions, such as canceling an external service order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/service-order-mgt-state-values.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Use the State fields on the Order Management forms to determine the current proc
 
 The following flowchart illustrates how customer and service order state processing works.
 
-![Infographic showing the customer order and service order processing workflow. For the text description, refer to the Service Order form states section.](../image/add-order-states.svg "Customer and service order state processing")
+\[Omitted image "add-order-states.svg"\] Alt text: Infographic showing the customer order and service order processing workflow. For the text description, refer to the Service Order form states section.
 
 ## Service Order form states
 
@@ -35,7 +36,7 @@ Draft
 
 </td><td>
 
-Service order that is still in the capture stage or the manual entry of the service order is not complete. The data capture phase is when your instance is capturing full service order details from the TMF641. **Note:** The Service Order Open API is a ServiceNow implementation of the TMForum TMF641 Service Ordering Open API specification. To learn more, see [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/service-order-open-api.md).
+Service order that is still in the capture stage or the manual entry of the service order is not complete. The data capture phase is when your instance is capturing full service order details from the TMF641. **Note:** The Service Order Open API is a ServiceNow implementation of the TMForum TMF641 Service Ordering Open API specification. To learn more, see [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md).
 
  In this case, Draft is a system-assigned state.
 
@@ -95,7 +96,7 @@ In progress
 
 </td><td>
 
-Service order that has been approved and is being actively worked on. To learn more, see [Review and close fulfillment tasks](../task/order-mgt-customer-order-tasks.md).
+Service order that has been approved and is being actively worked on. To learn more, see [Review and close fulfillment tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-tasks.md).
 
 </td></tr><tr><td>
 
@@ -159,8 +160,8 @@ All associated service order line items are complete. **Note:** After your agent
 </td></tr></tbody>
 </table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled service order states, see
 
--   [Managing inflight order changes and cancellation requests](../concept/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](../concept/key-inflight-order-change-cancellation-request-fields.md#)
+-   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
+-   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/key-inflight-order-change-cancellation-request-fields.md)
 
 ## Order Line Item form states
 
@@ -307,8 +308,8 @@ Service order line item and all associated and external service order tasks that
 </td></tr></tbody>
 </table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled service order line item states, see
 
--   [Managing inflight order changes and cancellation requests](../concept/inflight-order-change-mgt-overview.md)
--   [Key inflight order change and cancellation request fields](../concept/key-inflight-order-change-cancellation-request-fields.md#)
+-   [Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
+-   [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/key-inflight-order-change-cancellation-request-fields.md)
 
 ## Order task form states
 
@@ -395,5 +396,5 @@ Draft
 Order task that is still in the capture stage or the manual entry of the order task is not complete.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
 

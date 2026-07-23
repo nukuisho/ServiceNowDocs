@@ -2,6 +2,7 @@
 title: Add or edit a space
 description: Spaces are assigned to floors or levels, and can be cubicles, conference rooms, restrooms, gymnasiums, elevators, parking spaces, and so on. Spaces are assigned users and assets, and have the most data defined.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_AddOrEditASpace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,34 +26,12 @@ Role required: admin
 
 2.  Continue with one of the following options.
 
-<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d28222e101">
+    |Option|Action|
+    |------|------|
+    |**To add a space**|Select **New**. The Facility Space interceptor page displays. Select the type of space you are creating.\[Omitted image "SpaceInterceptor.png"\] Alt text: Facility Space interceptor page displays list of space types.|
+    |**To edit the details of a space**|Select the name of the floor or level you want to edit.|
 
-Option
-
-</th><th align="left" id="d28222e104">
-
-Action
-
-</th></tr></thead><tbody><tr><td id="d28222e110">
-
-**To add a space**
-
-</td><td>
-
--   Click **New**. The Facility Space interceptor page displays. Select the type of space you are creating.![Facility Space interceptor page displays list of space types.](../image/SpaceInterceptor.png)
-
-
-</td></tr><tr><td id="d28222e133">
-
-**To edit the details of a space**
-
-</td><td>
-
--   Click the name of the floor or level you want to edit.
-
-
-</td></tr></tbody>
-</table>3.  Fill in the fields on the form, as appropriate.
+3.  Fill in the fields on the form, as appropriate.
 
 <table id="table_wdh_p14_r4"><thead><tr><th>
 
@@ -112,7 +91,7 @@ Area unit
 
 Select the unit used for defining the space size: square feet or square meters.
 
- **Note:** The **Area unit** assigned to all spaces must be consistent for the rollup calculations to work properly. See [Space roll up calculations](../concept/c_SpaceRollupCalculations.md).
+ **Note:** The **Area unit** assigned to all spaces must be consistent for the rollup calculations to work properly. See [Space roll up calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_SpaceRollupCalculations.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +99,7 @@ Cost center
 
 </td><td>
 
-Select the cost center for the space. Cost centers are defined in IT Cost Management and require activation of cost management. For more information, see [Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/t_ActivatingCostManagement.md). This field is a reference to \[cmn\_cost\_center\] table for charge backs reasons.
+Select the cost center for the space. Cost centers are defined in IT Cost Management and require activation of cost management. For more information, see [Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_ActivatingCostManagement.md). This field is a reference to \[cmn\_cost\_center\] table for charge backs reasons.
 
 </td></tr><tr><td>
 
@@ -184,7 +163,7 @@ Occupiable
 
 </td><td>
 
-Select this check box if the space can be occupied. See [Space roll up calculations](../concept/c_SpaceRollupCalculations.md).
+Select this check box if the space can be occupied. See [Space roll up calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_SpaceRollupCalculations.md).
 
 </td></tr></tbody>
 </table>4.  Use the **Associated Users** and **Assets** related lists to view or add users and assets to the space.
@@ -193,33 +172,11 @@ Select this check box if the space can be occupied. See [Space roll up calculati
 
 6.  Continue with one of the following options.
 
-<table id="choicetable_zlc_rp4_ht"><thead><tr><th align="left" id="d28222e433">
-
-Option
-
-</th><th align="left" id="d28222e436">
-
-Action
-
-</th></tr></thead><tbody><tr><td id="d28222e442">
-
-**To add the space**
-
-</td><td>
-
--   Click **Submit**.
+    |Option|Action|
+    |------|------|
+    |**To add the space**|Select **Submit**.|
+    |**To update the space details**|Select **Update**.|
 
 
-</td></tr><tr><td id="d28222e460">
-
-**To update the space details**
-
-</td><td>
-
--   Click **Update**.
-
-
-</td></tr></tbody>
-</table>
-**Parent Topic:**[Customer-created maps](../reference/r_Manually-builtMaps.md)
+**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_Manually-builtMaps.md)
 

@@ -2,11 +2,12 @@
 title: Define domain order attribute mappings
 description: Create rules-driven attribute mappings to define the relationships and associations between and among product, service, and resource specifications, and how attribute values propagate between these mappings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/domain-order-attribute-somt.html
 release: australia
 topic_type: task
 last_updated: "2026-04-06"
 reading_time_minutes: 4
-breadcrumb: [Defining attribute mapping, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Defining attribute mapping, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Define domain order attribute mappings
@@ -27,13 +28,13 @@ Attribute propagation enables you to define attribute mappings by setting mappin
 -   Select different characteristics and characteristic options in the source and target specifications, including complex characteristics.
 -   Select a higher-level specification and lower-level specification, or a lower-level specification and a higher-level specification, in a product offering.
 
-**Note:** If you create specification relationships and accompanying decomposition rules, the ServiceNow AI Platform performs the required validations when you attempt to create attribute mappings. These validations ensure that your attribute mappings are unique and don’t adversely impact existing decomposition rules. To learn more about specification relationships and decomposition rules, see [Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](create-specification-relationships-somt.md).
+**Note:** If you create specification relationships and accompanying decomposition rules, the ServiceNow AI Platform performs the required validations when you attempt to create attribute mappings. These validations ensure that your attribute mappings are unique and don’t adversely impact existing decomposition rules. To learn more about specification relationships and decomposition rules, see [Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-specification-relationships-somt.md).
 
 If a decomposition rule depends on an attribute-mapping rule, the order decomposition process isn’t able to decompose the order because it’s waiting for the attribute-mapping rule to provide the characteristic value that is required for order decomposition. The following warning appears when you save a decomposition or an attribute-mapping rule that would cause a dependent relationship with an adverse impact:`Attribute mapping rule impacts decomposition rule in {0} specification for {1} characteristic. Update this record to eliminate this rule dependency.`
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Specifications** and select a specification type.
 
@@ -53,7 +54,7 @@ If a decomposition rule depends on an attribute-mapping rule, the order decompos
     |Field|Description|
     |-----|-----------|
     |Number|System-generated attribute mapping number.|
-    |Target specification|Target specification that you are associating with the selected source specification and related source characteristics, and source characteristic options.|
+    |Target specification|Target specification that you're associating with the selected source specification and related source characteristics, and source characteristic options.|
     |Target rule|Name of the target rule, displayed after you create the mapping rules.|
     |Source rule|Name of the source rule, displayed after you create the mapping rules.|
     |Source specification|Source specification that contains the source characteristics and characteristic options to associate with the selected target specification, characteristics, and characteristic options. Based on your selection, this field auto populates the **Available columns** section with the characteristics of your selected product, service, or resource specification.|

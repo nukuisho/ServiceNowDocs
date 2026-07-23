@@ -2,6 +2,7 @@
 title: Security Operations Integration - CI Enrichment flow
 description: The Security Operations Integration - CI Enrichment flow allows you to enrich data in configuration items \(CI\) associated with a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/secops-integ-enrich-ci-wf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,18 +27,18 @@ This flow is triggered from Security Incident Response in two ways.
 
 Either method then allows you to specify which implementations to be used to enrich the selected CIs. The associated implementation flows are executed to perform the enrichment.
 
-**Note:** The base system does not include an implementation flow for this capability. To enrich CIs, you must create your own implementation [flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md).
+**Note:** The base system does not include an implementation flow for this capability. To enrich CIs, you must create your own implementation [flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md).
 
-![Security Operations Integration - CI Enrichment flow](../image/enrich-ci-flow.png "CI Enrichment")
+\[Omitted image "enrich-ci-flow.png"\] Alt text: Security Operations Integration - CI Enrichment flow
 
-Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](../../security-operations-common/concept/common-wf-activities.md).
+Actions specific to this flow are described here. For more information on other actions, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
 
 The flow process actions include:
 
--   [Execution Tracking - Begin Flow Action](../../security-operations-common/concept/execution-tracking-begin.md)
--   [Security Operations Integration - CI Enrichment flow](secops-integ-enrich-ci-wf.md)
--   [Capability Execution Tracking- No Impls action](../reference/execution-tracking-noimpls-activity.md)
--   [Get Supported Security Capabilities action](../reference/get-supported-security-capabilities-activity.md)
+-   [Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-begin.md)
+-   [Security Operations Integration - CI Enrichment flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integ-enrich-ci-wf.md)
+-   [Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-noimpls-activity.md)
+-   [Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-supported-security-capabilities-activity.md)
 
-**Parent Topic:**[Security Operations Integration- Enrich CI capability](../../security-operations-common/concept/enrich-ci-capability.md)
+**Parent Topic:**[Security Operations Integration- Enrich CI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrich-ci-capability.md)
 

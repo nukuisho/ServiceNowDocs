@@ -2,13 +2,14 @@
 title: Track asset location using indoor maps
 description: Locate and track the consumables and hardware, bundle, and pallet assets in your organization by using indoor maps. Indoor maps provide an interactive interface that enables you to visualize the location of your assets within your campuses, buildings, floors, and places.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/track-asset-location-using-indoor-maps.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Track asset location using indoor maps
@@ -21,11 +22,11 @@ To be able to use indoor maps in Hardware Asset Workspace, make sure you fulfill
 
 -   You should explicitly install Indoor Mapping for Assets \(com.sn\_ima\) application from the ServiceNow® Store. When you install this application, Indoor Mapping \(sn\_map\_core\) and Indoor Mapping component \(sn\_map\_component\) are also installed.
 
-    **Note:** To be able to view demo data for indoor maps, you must reinstall demo data after you install the Indoor Mapping for Assets application. For more information, see [Add or repair demo data for applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-install-repair-app-plugin.md).
+    **Note:** To be able to view demo data for indoor maps, you must reinstall demo data after you install the Indoor Mapping for Assets application. For more information, see [Add or repair demo data for applications and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/jny-dsgnr-install-repair-app-plugin.md).
 
 -   Set the **com.sn\_ham.indoormap.enabled** asset parameter to **true** on your ServiceNow instance.
 
--   Set up your indoor maps: You can design indoor maps using Map Studio. For more information, see [Configure Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/configure-ind-mapping.md).
+-   Set up your indoor maps: You can design indoor maps using Map Studio. For more information, see [Configure Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-ind-mapping.md).
 
     **Note:** When you install indoor maps using the entitlement to the Hardware Asset Management license, you can use only the PNG floor map files in the Map Studio. You can’t import the files that are in AutoCAD or Raster file format. To use AutoCAD or Raster files, you should have entitlement to Workplace Service Delivery.
 
@@ -39,7 +40,7 @@ To be able to use indoor maps in Hardware Asset Workspace, make sure you fulfill
 
     To view the newly created locations within the Hardware Asset Management application, make sure to synchronize the newly created locations from Map Studio to the Location \[cmn\_location\] table.
 
-    You can associate the locations created in Map Studio with pre-existing records or new records in the Location \[cmn\_location\] table. For more information, see [Synchronize Indoor Mapping map data with CMN location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/sync-ind-mapping-cmn-location.md).
+    You can associate the locations created in Map Studio with pre-existing records or new records in the Location \[cmn\_location\] table. For more information, see [Synchronize Indoor Mapping map data with CMN location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sync-ind-mapping-cmn-location.md).
 
 
 Role required: admin or asset
@@ -66,68 +67,72 @@ Role required: admin or asset
     2.  Select the values for the **Department**, **User**, or **Model category** filters in the Filter by dialog box.
 
 
-**Parent Topic:**[Using Hardware Asset Management](../concept/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
 
-[Manage asset bundles from your inventory](create-bundled-assets.md)
+[Work with hardware normalization]()
 
-[Manage your inventory through pallet assets](../concept/pallets-for-inventory-management.md)
+[Manage asset bundles from your inventory]()
 
-[Manage loaner assets](manage-loaner-asset.md)
+[Manage your inventory through pallet assets]()
 
-[Donate assets to charity organizations](../concept/donate-asset-to-charity-organizations.md)
+[Manage loaner assets]()
 
-[Use Advanced Shipment Notification](advanced-shipment-notification.md)
+[Donate assets to charity organizations]()
 
-[Manage RMA requests](../concept/manage-rma-req.md)
+[Use Advanced Shipment Notification]()
 
-[Create an inventory stock order request](create-inventory-stock-order.md)
+[Manage RMA requests]()
 
-[Create a disposal order](create-disposal-order.md)
+[Create an inventory stock order request]()
 
-[Use a hardware asset request flow](hardware-request-flow.md)
+[Create a disposal order]()
 
-[Audit hardware asset inventory](../concept/ham-inventory-audit.md)
+[Fulfilling hardware asset requests]()
 
-[Request a Hardware Asset Refresh](hardware-asset-refresh.md#)
+[Audit hardware asset inventory]()
 
-[Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md)
+[Request a Hardware Asset Refresh]()
 
-[Reclaim hardware assets](../concept/manage-asset-reclaim.md)
+[Manage your expiring contracts for leased hardware assets]()
 
-[View RFID information of assets](view-rfid-info.md)
+[Reclaim hardware assets]()
 
-[Manage the lifecycle of hardware models with calculated lifecycle templates](../concept/manage-ham-lifecycle-temp.md)
+[View RFID information of assets]()
 
-[Receive asset warranty details from Lenovo](../concept/receive-warranty-details-lenovo.md)
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
-[Manage stockrooms](../concept/manage-your-stockrooms.md)
+[Create an internal lifecycle in the Hardware Asset Workspace]()
 
-[Track shipments using the integration framework](../concept/tracking-shipments-using-integration-framework.md)
+[Receive asset warranty details from Lenovo]()
 
-[Assess performance of Hardware Asset Management](../concept/suc-goal-act-hw.md)
+[Manage stockrooms]()
 
-[Manage refresh of assets using Zero Touch Refresh](../concept/refresh-hardware-uisng-ztr.md)
+[Track shipments using the integration framework]()
 
-[Configure the Total Cost of Ownership of assets](../concept/configure-ham-tco.md)
+[Assess performance of Hardware Asset Management]()
 
-[Manage Hardware Asset Management subscriptions](../concept/managing-ham-subscriptions.md)
+[Manage refresh of assets using Zero Touch Refresh]()
 
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](../concept/manage-repair-of-defective-ham-assets.md)
+[Configure the Total Cost of Ownership of assets]()
 
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](../concept/manage-asset-picking-stockroom-ham-ws.md)
+[Manage Hardware Asset Management subscriptions]()
 
-[Manage hardware asset tasks using the Mobile Agent application](../concept/manage-hardware-asset-tasks-mobile-agent.md)
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
 
-[Manage asset put away using the Hardware Asset Workspace](../concept/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
 
-[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+[Manage hardware asset tasks using the Mobile Agent application]()
 
-[Acknowledge receipt of assets on the Employee Center portal](receive-assets-employee-center.md)
+[Manage asset put away using the Hardware Asset Workspace]()
 
-[Update associated Decision tables for HAM flows](trigger-flow-ham.md)
+[Audit your hardware assets by using Asset Attestation]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
 

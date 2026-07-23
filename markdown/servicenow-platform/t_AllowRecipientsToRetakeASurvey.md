@@ -2,6 +2,7 @@
 title: Allow recipients to retake a survey
 description: You can configure a survey to allow recipients to resubmit their answers as many times as they like, up to the survey's due date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_AllowRecipientsToRetakeASurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,16 +37,16 @@ Results are not calculated for the survey until the configured duration has elap
 4.  Click **Update**.
 
 
-**Parent Topic:**[Survey users and groups](../concept/c_SurveyUsersAndGroups.md)
+**Parent Topic:**[Survey users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyUsersAndGroups.md)
 
 **Related topics**  
 
 
-[Create a survey user group](t_CreatingSurveyUserGroups.md)
+[Create a survey user group]()
 
-[Select recipients for a survey in the Survey Designer](t_SelRecipsForASurveyInDesigner.md)
+[Select recipients for a survey in the Survey Designer]()
 
-[Designate a survey user](t_SurveyDefinitionForm.md)
+[Designate a survey user]()
 
-[Designate or remove multiple survey users at one time](t_SurveyCategoryForm.md)
+[Designate or remove multiple survey users at one time]()
 

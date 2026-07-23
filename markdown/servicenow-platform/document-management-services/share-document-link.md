@@ -2,6 +2,7 @@
 title: Share a document link
 description: Create and control document sharing based on classification for shared links with public access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/share-document-link.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -37,29 +38,29 @@ The **Share document** button is visible only when the document has a valid defa
 
     **Note:** If a classification that was previously allowed for permalink creation becomes restricted then a new permalink cannot be created for documents if the classification is changed to restricted. But existing permalinks will continue to function until they have reached their expiry date or are explicitly deleted.
 
-5.  Select the copy link icon \(![Copy link icon.](../image/icon-copy.png)\) to copy and share the document link to download the document.
+5.  Select the copy link icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy link icon.\) to copy and share the document link to download the document.
 
     **Important:** The permalink generated can be accessed publicly irrespective of the document classification.
 
 6.  Select **Done**.
 
 
-**Parent Topic:**[Document repository](../concept/doc-mgt-view-documents-repo.md)
+**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
 **Related topics**  
 
 
-[Create a document record](create-new-doc.md)
+[Create a document record]()
 
-[Document versions](../concept/document-mgt-versions.md)
+[Document versions]()
 
-[Download a document](downloading-a-document.md)
+[Download a document]()
 
-[Modify a shared link access](modify-access-shared-link.md)
+[Modify a shared link access]()
 
-[Configure document permissions](../concept/document-configuration.md)
+[Configure document permissions]()
 
-[Delete a document link](delete-document-link.md)
+[Delete a document link]()
 
-[Delete documents](delete-a-doc.md)
+[Delete documents]()
 

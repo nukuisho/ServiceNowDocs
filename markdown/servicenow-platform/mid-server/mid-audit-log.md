@@ -2,6 +2,7 @@
 title: MID Server command audit log
 description: The command audit log records the commands run by the MID Server for the Discovery application. Review the commands to check for anomalies or errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-audit-log.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -26,7 +27,7 @@ The command audit log records the commands run by the MID Server for the Discove
 
 The MID Server audit log is enabled with the MID Server property **mid.log.command\_audit.enable**, which is set to false by default. Add the property in the **MID Server Properties** table \[ecc\_agent\_property\_list.do\]. Once enabled, the MID Server command audit logs are accessed in the instance by navigating to **MID Server** &gt; **Command Audit Logs** \[ecc\_agent\_command\_audit\_log\_list.do\]. To see or change this table, the user must have the role **agent\_security\_admin**.
 
-![Typical data in the MID Server command audit logs.](../image/mid-audit-logs.png)
+\[Omitted image "mid-audit-logs.png"\] Alt text: Typical data in the MID Server command audit logs.
 
 ## Data recorded in the command audit logs
 
@@ -36,40 +37,40 @@ When a probe, such as a WMIRunner, runs a command with multiple WMI fields then 
 
 The command audit log reports the execution status as either a success or failure. The record entry is a success if the command was run, or a failure if it was unable to run. The command audit log does not consider the result of the command being run. For example, a command which runs but fails gather data is still listed in the execution status as a success.
 
-Discovery supports JEA profiles for WinRM. The MID Server command audit log records the JEA profile of the discovery command, if it is available. See [Microsoft Just Enough Administration \(JEA\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/microsoft-jea-discovery.md) for more information on JEA profiles.
+Discovery supports JEA profiles for WinRM. The MID Server command audit log records the JEA profile of the discovery command, if it is available. See [Microsoft Just Enough Administration \(JEA\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/microsoft-jea-discovery.md) for more information on JEA profiles.
 
 By default, the table is rotated every seven days. For more information, see [Table Rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md).
 
-**Parent Topic:**[Securing and encrypting MID Server data](mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[MID Server certificate check policies](mid-security-checks.md)
+[MID Server certificate check policies]()
 
-[Encrypt or decrypt MID Server configuration file values](../task/mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server authentication credentials and SOAP requests](mid-authentication-soap-requests.md#)
+[MID Server authentication credentials and SOAP requests]()
 
-[MID Server unified key store](mid-unified-keystore.md#)
+[MID Server unified key store]()
 
-[Enable MID Server mutual authentication](../task/install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication]()
 
-[MID Server Azure Key Vault integration](../task/mid-azure-key-vault-integration.md#)
+[MID Server Azure Key Vault integration]()
 
-[Rekey a MID Server](../task/t_RekeyAMIDServer.md)
+[Rekey a MID Server]()
 
-[Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#)
+[Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server](../task/mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
+[MID Server SSH cryptographic algorithms]()
 
-[Attach a script file to a file synchronized MID Server](../task/mid-server-script-attach.md#)
+[Attach a script file to a file synchronized MID Server]()
 
-[MID Server FIPS Enforced Mode](mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 
-[MID Server Governance](mid-timeout.md)
+[MID Server Governance]()
 

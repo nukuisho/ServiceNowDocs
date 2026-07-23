@@ -2,6 +2,7 @@
 title: Showing multiple elements separately or aggregated
 description: When you select multiple elements on a dashboard, widgets that follow these elements can show their values either separately or as an aggregate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/multi-element-select-indicator-views.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -15,9 +16,9 @@ breadcrumb: [Using breakdowns on dashboards, Indicator breakdowns, Configure fun
 
 When you select multiple elements on a dashboard, widgets that follow these elements can show their values either separately or as an aggregate.
 
-On a widget form, use the **Show multiple elements as** field to set whether multiple elements are shown separately or as an aggregate. Widgets with the view type **Separate** show a different value for each [breakdown element](../../performance-analytics/concept/performance-analytics-glossary.md#) selected. Widgets with the view type **Aggregate** show a single value that represents the aggregated value of all selected breakdown elements.
+On a widget form, use the **Show multiple elements as** field to set whether multiple elements are shown separately or as an aggregate. Widgets with the view type **Separate** show a different value for each [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) selected. Widgets with the view type **Aggregate** show a single value that represents the aggregated value of all selected breakdown elements.
 
-The widget type logically determines whether an aggregated view, a separate view, or both are available. Also, [formula indicators](../../performance-analytics/concept/performance-analytics-glossary.md#) support the aggregated view only when the aggregated view is explicitly enabled on the indicator record. For example, a Score widget can only show an aggregated view. Without aggregated views being enabled, a Score widget for a formula indicator cannot be filtered on multiple elements. In this case, the **Show multiple element as** field displays **Not available** and is grayed out. For more information, see the section [Indicators that support an aggregate of multiple elements](multi-element-select-indicator-views.md#section_evw_cjx_4hb).
+The widget type logically determines whether an aggregated view, a separate view, or both are available. Also, [formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) support the aggregated view only when the aggregated view is explicitly enabled on the indicator record. For example, a Score widget can only show an aggregated view. Without aggregated views being enabled, a Score widget for a formula indicator cannot be filtered on multiple elements. In this case, the **Show multiple element as** field displays **Not available** and is grayed out. For more information, see the section [Indicators that support an aggregate of multiple elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
 
 ## Widget support of aggregate and separate views
 
@@ -38,7 +39,7 @@ The following indicators support the aggregated view:
 
 -   Manual indicators
 -   External indicators that do not use `SQL AVG()` or `SQL COUNT(DISTINCT...)` in their SQL statement
--   Formula indicators that have aggregate element views enabled on their indicator records. For more information, see the entry on the **Allow aggregation of multiple breakdown element scores** field on the Other tab in [Create a formula indicator](../../performance-analytics/task/t_CreateAFormulaIndicator.md).
+-   Formula indicators that have aggregate element views enabled on their indicator records. For more information, see the entry on the **Allow aggregation of multiple breakdown element scores** field on the Other tab in [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
 
 **Important:**
 
@@ -70,30 +71,30 @@ When a user selects breakdown elements on a breakdown dashboard, the breakdown a
 -   The widget does not follow elements.
 -   The widget indicators do not support the selected breakdown elements.
 
-![Caption for a time series widget showing indicator names and display labels appended with the breakdown and element names.](../../performance-analytics/image/widget-indicator-labels-separate.png "Names and labels for widget indicators with multiple elements selected, separate view")
+\[Omitted image "widget-indicator-labels-separate.png"\] Alt text: Caption for a time series widget showing indicator names and display labels appended with the breakdown and element names.
 
-![Caption for a time series widget showing indicator names and display labels appended with the breakdown and element name except for where the indicator does not support the aggregate view.](../../performance-analytics/image/widget-indicator-labels-aggregate.png "Names and labels for widget indicators with multiple elements selected, aggregate view")
+\[Omitted image "widget-indicator-labels-aggregate.png"\] Alt text: Caption for a time series widget showing indicator names and display labels appended with the breakdown and element name except for where the indicator does not support the aggregate view.
 
 ## Open incidents with aggregate and separate values for multiple elements
 
-Consider a breakdown dashboard with the Incident.Category breakdown source and the three elements Inquiry/Help, Network, and Software selected.![Breakdown dashboard with Incident.Category elements Inquiry/Help, Software, and Network selected.](../../performance-analytics/image/breakdown-dashboard-3-elements.png)
+Consider a breakdown dashboard with the Incident.Category breakdown source and the three elements Inquiry/Help, Network, and Software selected.\[Omitted image "breakdown-dashboard-3-elements.png"\] Alt text: Breakdown dashboard with Incident.Category elements Inquiry/Help, Software, and Network selected.
 
-The dashboard contains a time series widget called Open Incidents. This widget shows the Number of Open Incidents indicator, which has the Count aggregate. The widget follows the elements that are selected on the dashboard. Therefore, the widget can show multiple elements selected on the dashboard either separately or as an aggregate value. The **Show multiple elements as** field is set to **Separate**. ![Widget configuration set to show multiple elements separately](../../performance-analytics/image/show-multi-elements-separate.png)
+The dashboard contains a time series widget called Open Incidents. This widget shows the Number of Open Incidents indicator, which has the Count aggregate. The widget follows the elements that are selected on the dashboard. Therefore, the widget can show multiple elements selected on the dashboard either separately or as an aggregate value. The **Show multiple elements as** field is set to **Separate**. \[Omitted image "show-multi-elements-separate.png"\] Alt text: Widget configuration set to show multiple elements separately
 
-On the dashboard, a separate column is shown for each of the three selected elements for each day. ![Widget showing separate scores for each selected breakdown element](../../performance-analytics/image/separate-multiple-elements.png)
+On the dashboard, a separate column is shown for each of the three selected elements for each day. \[Omitted image "separate-multiple-elements.png"\] Alt text: Widget showing separate scores for each selected breakdown element
 
-With the **Show multiple elements as** field set to **Aggregate,** a single, aggregate score is shown for the three selected elements. ![Column visualization with a single aggregate score shown for all selected elements](../../performance-analytics/image/aggregate-multiple-elements.png)
+With the **Show multiple elements as** field set to **Aggregate,** a single, aggregate score is shown for the three selected elements. \[Omitted image "aggregate-multiple-elements.png"\] Alt text: Column visualization with a single aggregate score shown for all selected elements
 
-**Parent Topic:**[Using breakdowns on dashboards](../../performance-analytics/concept/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 
 
-[Add breakdown sources to a dashboard](../task/t_ExistingBreakdownDashboard.md)
+[Add breakdown sources to a dashboard]()
 
-[Configure widgets for breakdown dashboards](../../performance-analytics/task/set-up-widgets-for-breakdown-dashboards.md)
+[Configure widgets for breakdown dashboards]()
 
-[Same breakdown on widget and dashboard](../../performance-analytics/concept/same-breakdown-widget-dashboard.md)
+[Same breakdown on widget and dashboard]()
 
-[Showing breakdown relations on dashboards](../../performance-analytics/concept/c_ShowBkdwnRltnsWdgts.md)
+[Showing breakdown relations on dashboards]()
 

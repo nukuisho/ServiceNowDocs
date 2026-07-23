@@ -1,17 +1,18 @@
 ---
 title: Blueprint, configurable product, and field UI
-description: View a list of updates and changes made in April 202\(3\)
+description: View a list of updates and changes made in April 2023.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/blueprint\_configurable\_product\_and\_field.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Blueprint, configurable product, and field UI
 
-View a list of updates and changes made in April 202\(3\)
+View a list of updates and changes made in April 2023.
 
 Improvements in Admin usability and readability. No changes in functionality.
 
@@ -27,11 +28,11 @@ Support for creating sets in the New Field dialog.
 
 ## Updated blueprint UI
 
-The relationship between the CPQ items and the blueprint can now be easily accessed via the tiles in the left column and the number of associated items is visible at a glance.
+The relationship between the ServiceNow CPQ items and the blueprint can now be easily accessed via the tiles in the left column and the number of associated items is visible at a glance.
 
 Each tile displays the appropriate UI for its object on the right of the screen.
 
-![Blueprint screen](../images/cpq-2023-release-notes-1.png)
+\[Omitted image "cpq-2023-release-notes-1.png"\] Alt text: Blueprint screen
 
 \(1\) Edit: The blueprint variable name is displayed in parentheses. The blueprint name and description can be edited by clicking the pencil icon.
 
@@ -51,7 +52,7 @@ Each tile displays the appropriate UI for its object on the right of the screen.
 
 In the updated UI for blueprints and configurable products, the navigation and editing experience has changed. When clicking a field or a rule, an editing page slides into the page instead of a dialog appearing. Additionally, there are now breadcrumbs for navigation and context.
 
-![Navigation screen](../images/cpq-2023-release-notes-2.png)
+\[Omitted image "cpq-2023-release-notes-2.png"\] Alt text: Navigation screen
 
 \(1\) Navigation breadcrumb: Breadcrumb links are placed on the header to help maintain context and provide navigation.
 
@@ -63,7 +64,7 @@ In the updated UI for blueprints and configurable products, the navigation and e
 
 Field association to blueprints has also received a makeover. From the blueprint UI, with the Associated Fields tile selected, click the **Associate Fields** button to launch the new panel experience.
 
-![Updated field Association in blueprints](../images/cpq-2023-release-notes-3.png)
+\[Omitted image "cpq-2023-release-notes-3.png"\] Alt text: Updated field Association in blueprints
 
 \(1\) Filter Categories: Fields can be filtered to “Standard” or “Sets” using the drop-down menu. The filter applies to both the results list and the selected list.
 
@@ -77,13 +78,13 @@ Field association to blueprints has also received a makeover. From the blueprint
 
 Depending on the size of the browser window, you may see a stacked view of the Results \(1, below\) and Selected \(2\) field lists. The functionality remains the same.
 
-![Associate additional fields](../images/cpq-2023-release-notes-4.png)
+\[Omitted image "cpq-2023-release-notes-4.png"\] Alt text: Associate additional fields
 
 ## Updated configurable product UI
 
 The configurable product UI has also received an update, to align with the blueprint UI and utilize the updated field UI.
 
-![Updated configurable product UI](../images/cpq-2023-release-notes-5.png)
+\[Omitted image "cpq-2023-release-notes-5.png"\] Alt text: Updated configurable product UI
 
 Similar to the blueprint UI, tiles on the left control what is displayed on the right.
 
@@ -101,7 +102,7 @@ Similar to the blueprint UI, tiles on the left control what is displayed on the 
 
 The updated field UI provides a unified view of fields and sets and is also used in the update blueprint and configurable products UI.
 
-![Updated field UI](../images/cpq-2023-release-notes-6.png)
+\[Omitted image "cpq-2023-release-notes-6.png"\] Alt text: Updated field UI
 
 Fields are now grouped into three types: Standard, Sets, and System. By default the “Standard” section is open.
 
@@ -115,7 +116,7 @@ Fields are now grouped into three types: Standard, Sets, and System. By default 
 
 With the inclusion of sets in the field UI, the display of sets has also been updated.
 
-![Updated field UI](../images/cpq-2023-release-notes-7.png)
+\[Omitted image "cpq-2023-release-notes-7.png"\] Alt text: Updated field UI
 
 \(1\) Set grouping section: an expanded view of all sets.
 
@@ -125,7 +126,7 @@ With the inclusion of sets in the field UI, the display of sets has also been up
 
 The New Field window provides a unified way to create both standard field types and sets.
 
-![Updated field UI](../images/cpq-2023-release-notes-8.png)
+\[Omitted image "cpq-2023-release-notes-8.png"\] Alt text: Updated field UI
 
 Field types can be selected by either picking the appropriate tile or by using the arrows to scroll through the display examples.
 

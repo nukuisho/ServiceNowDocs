@@ -2,6 +2,7 @@
 title: Image icons
 description: Use image icons on navigation bars and tab bars. Image icons are not font-type icons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/image-icons.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,62 +14,62 @@ breadcrumb: [Mobile icon reference, Mobile icons, Mobile styles, Mobile app comp
 
 Use image icons on navigation bars and tab bars. Image icons are not font-type icons.
 
-**Important:** Image icons can also be used in the icon UI section of a launcher screen. For more information, see [Adding images to an icon section](../task/add-image-icon-section.md).
+**Important:** Image icons can also be used in the icon UI section of a launcher screen. For more information, see [Adding images to an icon section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/add-image-icon-section.md).
 
 ## Usage example
 
-![Screen example](../image/mab-icon-image-example.png "Image icon examples")
+\[Omitted image "mab-icon-image-example.png"\] Alt text: Screen example
 
 ## Image icons
 
 |Name|Release introduced|Icon image|Right-to-left icon image|
 |----|------------------|----------|------------------------|
 |Icons added in the New York release|
-|Bag Solid|New York|![Bag Solid example](../image/mab-icon-image-bag-sol.png)| |
-|Notifications Solid|New York|![Notifications Solid example](../image/mab-icon-image-notif-sol.png)| |
-|Calendar Solid|New York|![Calendar Solid example](../image/mab-icon-image-calend-sol.png)| |
-|Cart Solid|New York|![Cart Solid example](../image/mab-icon-image-cart-sol.png)|![Reversed Cart Solid example](../image/mab-icon-image-cart-sol-rtl.png)|
-|Chart Bar Solid|New York|![Chart Bar Solid example](../image/mab-icon-image-chrtbar-sol.png)| |
-|Clock Solid|New York|![Clock Solid example](../image/mab-icon-image-clock-sol.png)| |
-|Comment Solid|New York|![Comment Solid example](../image/mab-icon-image-comment-sol.png)| |
-|File Solid|New York|![File Solid example](../image/mab-icon-image-file-sol.png)| |
-|Group Solid|New York|![Group Solid example](../image/mab-icon-image-grp-sol.png)| |
-|Hardware Solid|New York|![Hardware Solid example](../image/mab-icon-image-hdwr-sol.png)| |
-|Heart Solid|New York|![Heart Solid example](../image/mab-icon-image-heart-sol.png)| |
-|Home Solid|New York|![Home Solid example](../image/mab-icon-image-home-sol.png)| |
-|Knowledge Solid|New York|![Knowledge Solid](../image/mab-icon-image-knowl-sol.png)| |
-|Map Solid|New York|![Map Solid example](../image/mab-icon-image-map-sol.png)| |
-|Megaphone Solid|New York|![Megaphone Solid example](../image/mab-icon-image-megafon-sol.png)|![Reversed Megaphone Solid example](../image/mab-icon-image-megafon-sol-rtl.png)|
-|Request Solid|New York|![Request Solid example](../image/mab-icon-image-req-sol.png)| |
-|Settings Solid|New York|![Settings Solid example](../image/mab-icon-image-settings-sol.png)| |
-|Star Solid|New York|![Star Solid example](../image/mab-icon-image-star-sol.png)| |
-|User Solid|New York|![User Solid example](../image/mab-icon-image-user-sol.png)| |
-|Wrench Solid|New York|![Wrench Solid example](../image/mab-icon-image-wrench-sol.png)| |
+|Bag Solid|New York|\[Omitted image "mab-icon-image-bag-sol.png"\] Alt text: Bag Solid example| |
+|Notifications Solid|New York|\[Omitted image "mab-icon-image-notif-sol.png"\] Alt text: Notifications Solid example| |
+|Calendar Solid|New York|\[Omitted image "mab-icon-image-calend-sol.png"\] Alt text: Calendar Solid example| |
+|Cart Solid|New York|\[Omitted image "mab-icon-image-cart-sol.png"\] Alt text: Cart Solid example|\[Omitted image "mab-icon-image-cart-sol-rtl.png"\] Alt text: Reversed Cart Solid example|
+|Chart Bar Solid|New York|\[Omitted image "mab-icon-image-chrtbar-sol.png"\] Alt text: Chart Bar Solid example| |
+|Clock Solid|New York|\[Omitted image "mab-icon-image-clock-sol.png"\] Alt text: Clock Solid example| |
+|Comment Solid|New York|\[Omitted image "mab-icon-image-comment-sol.png"\] Alt text: Comment Solid example| |
+|File Solid|New York|\[Omitted image "mab-icon-image-file-sol.png"\] Alt text: File Solid example| |
+|Group Solid|New York|\[Omitted image "mab-icon-image-grp-sol.png"\] Alt text: Group Solid example| |
+|Hardware Solid|New York|\[Omitted image "mab-icon-image-hdwr-sol.png"\] Alt text: Hardware Solid example| |
+|Heart Solid|New York|\[Omitted image "mab-icon-image-heart-sol.png"\] Alt text: Heart Solid example| |
+|Home Solid|New York|\[Omitted image "mab-icon-image-home-sol.png"\] Alt text: Home Solid example| |
+|Knowledge Solid|New York|\[Omitted image "mab-icon-image-knowl-sol.png"\] Alt text: Knowledge Solid| |
+|Map Solid|New York|\[Omitted image "mab-icon-image-map-sol.png"\] Alt text: Map Solid example| |
+|Megaphone Solid|New York|\[Omitted image "mab-icon-image-megafon-sol.png"\] Alt text: Megaphone Solid example|\[Omitted image "mab-icon-image-megafon-sol-rtl.png"\] Alt text: Reversed Megaphone Solid example|
+|Request Solid|New York|\[Omitted image "mab-icon-image-req-sol.png"\] Alt text: Request Solid example| |
+|Settings Solid|New York|\[Omitted image "mab-icon-image-settings-sol.png"\] Alt text: Settings Solid example| |
+|Star Solid|New York|\[Omitted image "mab-icon-image-star-sol.png"\] Alt text: Star Solid example| |
+|User Solid|New York|\[Omitted image "mab-icon-image-user-sol.png"\] Alt text: User Solid example| |
+|Wrench Solid|New York|\[Omitted image "mab-icon-image-wrench-sol.png"\] Alt text: Wrench Solid example| |
 |Icons added in the Orlando release|
-|Agile Solid|Orlando|![Agile Solid example](../image/mab-icon-image-agile-sol.png)| |
-|Clipboard Exclamation Solid|Orlando|![Clipboard Exclamation Solid example](../image/mab-icon-image-clpbrd-x-sol.png)| |
-|Inventory Solid|Orlando|![Inventory Solid example](../image/mab-icon-image-invent-sol.png)| |
-|Project Status Solid|Orlando|![Project Status example](../image/mab-icon-image-projstus-sol.png)| |
+|Agile Solid|Orlando|\[Omitted image "mab-icon-image-agile-sol.png"\] Alt text: Agile Solid example| |
+|Clipboard Exclamation Solid|Orlando|\[Omitted image "mab-icon-image-clpbrd-x-sol.png"\] Alt text: Clipboard Exclamation Solid example| |
+|Inventory Solid|Orlando|\[Omitted image "mab-icon-image-invent-sol.png"\] Alt text: Inventory Solid example| |
+|Project Status Solid|Orlando|\[Omitted image "mab-icon-image-projstus-sol.png"\] Alt text: Project Status example| |
 |Icon added in the Paris release|
-|Clipboard Lines Solid|Paris|![Clipboard Lines Solid example](../image/mab-icon-image-clipbrd-lns-sol.png)| |
+|Clipboard Lines Solid|Paris|\[Omitted image "mab-icon-image-clipbrd-lns-sol.png"\] Alt text: Clipboard Lines Solid example| |
 |Icon added in the Quebec release|
-|Bookmark Solid|Quebec|![Bookmark Solid example](../image/mab-icon-image-bkmrk-sol.png)| |
+|Bookmark Solid|Quebec|\[Omitted image "mab-icon-image-bkmrk-sol.png"\] Alt text: Bookmark Solid example| |
 |Icons added in the Rome release|
-|Explore Solid|Rome|![Explore Solid example](../image/mab-icon-image-explor-sol.png)| |
-|Today Solid|Rome|![Today Solid example](../image/mab-icon-image-today-sol.png)| |
-|Support Solid|Rome|![Support Solid example](../image/mab-icon-image-sup-sol.png)| |
+|Explore Solid|Rome|\[Omitted image "mab-icon-image-explor-sol.png"\] Alt text: Explore Solid example| |
+|Today Solid|Rome|\[Omitted image "mab-icon-image-today-sol.png"\] Alt text: Today Solid example| |
+|Support Solid|Rome|\[Omitted image "mab-icon-image-sup-sol.png"\] Alt text: Support Solid example| |
 |Icons added in the Washington DC release|
-|News Center Solid|Washington DC|![News Center Solid example](../image/mab-icon-image-newsctrsol-.png)| |
-|Marketplace|Washington DC|![Marketplace example](../image/mab-icon-image-mktplac.png)| |
+|News Center Solid|Washington DC|\[Omitted image "mab-icon-image-newsctrsol-.png"\] Alt text: News Center Solid example| |
+|Marketplace|Washington DC|\[Omitted image "mab-icon-image-mktplac.png"\] Alt text: Marketplace example| |
 |Icons added in the Xanadu release|
-|Emoji-Smile Solid|Xanadu|![Emoji-Smile Solid example](../image/mab-icon-image-emojismilsol.png)| |
-|Enterprise-Asset-Management Solid|Xanadu|![Enterprise-Asset-Management Solid](../image/mab-icon-image-entassmansol.png)| |
-|Ongoing Solid|Xanadu|![Ongoing Solid example](../image/mab-icon-image-ongoingsol.png)| |
-|Tree Solid|Xanadu|![Tree Solid example](../image/mab-icon-image-treesol.png)| |
+|Emoji-Smile Solid|Xanadu|\[Omitted image "mab-icon-image-emojismilsol.png"\] Alt text: Emoji-Smile Solid example| |
+|Enterprise-Asset-Management Solid|Xanadu|\[Omitted image "mab-icon-image-entassmansol.png"\] Alt text: Enterprise-Asset-Management Solid| |
+|Ongoing Solid|Xanadu|\[Omitted image "mab-icon-image-ongoingsol.png"\] Alt text: Ongoing Solid example| |
+|Tree Solid|Xanadu|\[Omitted image "mab-icon-image-treesol.png"\] Alt text: Tree Solid example| |
 |Icon added in the Yokohama release|
-|Score-List|Yokohama|![Score-List example](../image/mab-icon-image-scorlst.png)|![Score-List R-to-L example](../image/mab-icon-image-scorlstr2l.png)|
+|Score-List|Yokohama|\[Omitted image "mab-icon-image-scorlst.png"\] Alt text: Score-List example|\[Omitted image "mab-icon-image-scorlstr2l.png"\] Alt text: Score-List R-to-L example|
 |Icon added in the Zurich release|
-|Building|Zurich|![Building example](../image/mab-icon-image-bldg.png)| |
+|Building|Zurich|\[Omitted image "mab-icon-image-bldg.png"\] Alt text: Building example| |
 
-**Parent Topic:**[Mobile icon reference](../concept/mobile-icon-reference.md)
+**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md)
 

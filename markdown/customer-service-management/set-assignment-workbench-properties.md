@@ -2,6 +2,7 @@
 title: Configure assignment workbench properties
 description: Configure the properties related to the assignment workbench display.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/set-assignment-workbench-properties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: admin
 
 2.  Set the following properties, as needed.
 
-<table id="choicetable_v3v_fd1_cv"><tbody><tr><td id="d66098e85">
+<table id="choicetable_v3v_fd1_cv"><tbody><tr><td id="d67634e85">
 
 **Title for the macro button __assignment\_workbench.find.agents.title__**
 
@@ -31,7 +32,7 @@ Role required: admin
 
 Creates the title for the macro button on the task form. The default is **Find Agents**.
 
-</td></tr><tr><td id="d66098e100">
+</td></tr><tr><td id="d67634e100">
 
 **When enabled opens the assignment workbench in a new window __assignment\_workbench.new.window__**
 
@@ -39,7 +40,7 @@ Creates the title for the macro button on the task form. The default is **Find A
 
 Opens the assignment workbench in a new window. The default is **False**.
 
-</td></tr><tr><td id="d66098e115">
+</td></tr><tr><td id="d67634e115">
 
 **Number of agents per page __assignment\_workbench\_no\_of\_agents__**
 

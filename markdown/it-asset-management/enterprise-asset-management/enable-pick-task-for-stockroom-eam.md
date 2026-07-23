@@ -2,13 +2,14 @@
 title: Enable the Asset pick task for your stockroom in the Enterprise Asset Workspace
 description: Enable the Asset pick task for your stockroom so that the task is automatically added to Standard Enterprise Asset requests, Enterprise Asset Refresh requests, and Sourcing workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/enable-pick-task-for-stockroom-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage enterprise asset picking, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage enterprise asset picking, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Enable the Asset pick task for your stockroom in the Enterprise Asset Workspace
@@ -32,12 +33,12 @@ Role required: inventory\_user
 5.  Select **Save**.
 
 
-**Parent Topic:**[Manage enterprise asset picking within your stockrooms](../concept/manage-asset-picking-stockroom-eam-ws.md)
+**Parent Topic:**[Manage enterprise asset picking within your stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
 
 **Related topics**  
 
 
-[Add aisles and spaces to a stockroom in the Enterprise Asset Workspace](add-aisle-space-stockroom-eam-ws.md)
+[Add aisles and spaces to a stockroom in the Enterprise Asset Workspace]()
 
-[View the open enterprise asset pick tasks for your stockroom](view-open-pick-tasks-eam.md)
+[View the open enterprise asset pick tasks for your stockroom]()
 

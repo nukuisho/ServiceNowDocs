@@ -2,6 +2,7 @@
 title: Playbook capabilities
 description: The capabilities provided by playbooks enable agents to quickly resolve customer issues. These capabilities work together to provide agents with a better overall experience when using playbooks to resolve customer issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-case-playbooks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Customer service agents can create a record using a playbook instead of a record
 
  For example, an agent can create a case and gather the necessary information about the customer and the issue as the first activity in the playbook.
 
- For more information about configuring this feature, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-record-generator-overview.md).
+ For more information about configuring this feature, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-record-generator-overview.md).
 
 </td></tr><tr><td>
 
@@ -62,10 +63,10 @@ Playbooks can display the following information in the contextual side panel:
 
  For more information, see:
 
--   [Using the activity stream in the contextual side panel](csm-playbooks-using-activity-stream.md)
--   [Viewing ribbon information in the contextual side panel](csm-playbooks-viewing-ribbon-info.md)
--   [Viewing related records in the contextual side panel](csm-playbooks-viewing-rel-records.md)
--   [Related Items](csm-playbook-related-items-component.md)
+-   [Using the activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using-activity-stream.md)
+-   [Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
+-   [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)
+-   [Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-related-items-component.md)
 -   [Administering Activity stream for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-activity-stream-configurable-workspace.md)
 
 </td></tr><tr><td>
@@ -76,7 +77,7 @@ Use the contextual side panel to display dynamic related records
 
 Display records in the contextual side panel that dynamically change based on the context of the current record or playbook activity.
 
- For more information, see [Dynamic related records](csm-contextual-related-records.md).
+ For more information, see [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-contextual-related-records.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Identities
 description: Identities represent actual individuals, organizations, or groups \(ACME, Inc.\) and classes of individuals, systems, or groups \(the finance sector\). Identities apply for STIX 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-identities.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,57 +16,57 @@ Identities represent actual individuals, organizations, or groups \(ACME, Inc.\)
 
 The Identity SDO can capture basic identifying information, contact information, and the sectors that the Identity belongs to. Identity represents targets of attacks, information sources, object creators, and threat actor identities.
 
--   **[Define identities](../task/define-identities.md)**  
+-   **[Define identities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-identities.md)**  
 Define identities who represent actual individuals, organizations, or groups.
 
-**Parent Topic:**[IoC Repository](ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
 
 **Related topics**  
 
 
-[Attack modes and methods](c_AttackModeMethod.md)
+[Attack modes and methods]()
 
-[Indicators of compromise](c_IoCs.md)
+[Indicators of compromise]()
 
-[Observables](c_Observables.md)
+[Observables]()
 
-[Attack patterns](attack-patterns.md)
+[Attack patterns]()
 
-[Campaigns](threat-intelligence-campaigns.md)
+[Campaigns]()
 
-[Course of actions](threat-intelligence-course-actions.md)
+[Course of actions]()
 
-[Infrastructure](threat-intelligence-infrastructure.md)
+[Infrastructure]()
 
-[Intrusion set](threat-intelligence-intrusion-sets.md)
+[Intrusion set]()
 
-[Locations](threat-intelligence-locations.md)
+[Locations]()
 
-[Malware](threat-intelligence-malware.md)
+[Malware]()
 
-[Malware analysis](threat-intelligence-malware-analysis.md)
+[Malware analysis]()
 
-[Observed data](threat-intelligence-observed-data.md)
+[Observed data]()
 
-[Threat actors](threat-actors.md)
+[Threat actors]()
 
-[Threat groupings](threat-groupings.md)
+[Threat groupings]()
 
-[Marking definitions](marking-definitions.md)
+[Marking definitions]()
 
-[Threat notes](threat-intelligence-threat-notes.md)
+[Threat notes]()
 
-[Threat opinions](threat-opinions.md)
+[Threat opinions]()
 
-[Threat reports](threat-reports.md)
+[Threat reports]()
 
-[Sightings](indicator-sightings.md)
+[Sightings]()
 
-[Tools](tools.md)
+[Tools]()
 
-[Vulnerabilities](vulnerabilities.md)
+[Vulnerabilities]()
 
-[Relationships](stix-relationships.md)
+[Relationships]()
 
-[STIX Visualizer](stix-visualizer.md)
+[STIX Visualizer]()
 

@@ -2,11 +2,12 @@
 title: Reprocess Auto Query results
 description: On the Settings page, the Reprocess tab is available to reprocess Auto Query results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/reprocess-tab-results.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Reprocess Auto Query results
@@ -33,7 +34,7 @@ Start time
 
 </td><td>
 
-Default: 12:00 AM UTC
+Default: 12:00 a.m. UTC
 
 </td></tr><tr><td>
 
@@ -88,5 +89,5 @@ Yes / No
 </td></tr></tbody>
 </table>After upgrading to a new query driver version, enable the Reprocess schedule to reevaluate recent scan results using improved logic.
 
-![Settings>Reprocess tab](../images/reprocess-tab-edit.png)
+\[Omitted image "reprocess-tab-edit.png"\] Alt text: Settings&gt;Reprocess tab
 

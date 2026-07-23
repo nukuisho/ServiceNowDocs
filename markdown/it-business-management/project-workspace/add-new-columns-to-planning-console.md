@@ -1,17 +1,18 @@
 ---
-title: Add new columns to the planning page
+title: Add columns to the planning page
 description: Display new columns on the planning page of the new project workspace so that your project managers can view custom fields for the project tasks on the planning page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/add-new-columns-to-planning-console.html
 release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Personalize the planning page view in Project Workspace, Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Personalize the planning page view in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Add new columns to the planning page
+# Add columns to the planning page
 
 Display new columns on the planning page of the new project workspace so that your project managers can view custom fields for the project tasks on the planning page.
 
@@ -35,7 +36,7 @@ The project tasks displayed in the planning page of the new project workspace sh
 
 3.  Add the necessary columns to the list.
 
-    1.  Select the Personalize list icon \(![Personalize list icon.](../image/personalize-list-icon-pw.png)\).
+    1.  Select the Personalize list icon \(\[Omitted image "personalize-list-icon-pw.png"\] Alt text: Personalize list icon.\).
 
     2.  Move the required fields from Available to Selected.
 
@@ -46,5 +47,5 @@ The project tasks displayed in the planning page of the new project workspace sh
 
 The Project Workspace view of the pm\_project\_task table is updated according to your changes. The planning page of the new project workspace reflects these changes.
 
-**Parent Topic:**[Personalize the planning page view in Project Workspace](personalize-planning-console-in-project-workspace.md)
+**Parent Topic:**[Personalize the planning page view in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.md)
 

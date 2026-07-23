@@ -2,6 +2,7 @@
 title: Return excluded security artifacts to a case
 description: After you have excluded artifacts from a list in a case, you can return them to the case you can continue to work on them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/include-artifacts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,23 +30,23 @@ Role required: sn\_ti.case\_user\_write
 
 4.  Click the Artifact Filter drop-down list and select **Excluded Artifacts**.
 
-    ![Excluded Artifacts list](../image/exclude-filter.png)
+    \[Omitted image "exclude-filter.png"\] Alt text: Excluded Artifacts list
 
 5.  Select one or more artifact records that you want to return to the Include list.
 
 6.  From the **Actions on selected items** drop-down list, select **Include**.
 
-    ![Select artifacts and return them to the Include list](../image/re-include-artifacts.png)
+    \[Omitted image "re-include-artifacts.png"\] Alt text: Select artifacts and return them to the Include list
 
 7.  Click **Include** in the confirmation box.
 
     The selected artifacts are removed from the list of excluded artifacts and returned to the list of artifacts included in the case.
 
 
-**Parent Topic:**[Security artifact exclusion and inclusion](../concept/artifact-inclusion-exclusion.md)
+**Parent Topic:**[Security artifact exclusion and inclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/artifact-inclusion-exclusion.md)
 
 **Related topics**  
 
 
-[Exclude security artifacts from a case](exclude-records.md)
+[Exclude security artifacts from a case]()
 

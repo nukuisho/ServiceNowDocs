@@ -1,19 +1,21 @@
 ---
 title: Create New Invoice case form
-description: Use the Create New Invoice case form to provide details about the Invoice case.
+description: Field descriptions for the Create New Invoice case form, organized by section, for creating and managing invoice cases in Accounts Payable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice automation, invoice management, AP automation]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create New Invoice case form
 
-Use the Create New Invoice case form to provide details about the Invoice case.
+Field descriptions for the Create New Invoice case form, organized by section, for creating and managing invoice cases in Accounts Payable.
 
 <table id="table_ozd_1mj_lvb"><thead><tr><th>
 
@@ -188,43 +190,43 @@ Closed
 Whether the case is closed or not.
 
 </td></tr></tbody>
-</table>-   **[Invoice case form tabs](inquiry-case-related-list.md)**  
-The Invoice case form includes tabs that store invoice case information that an agent can use to perform related tasks.
--   **[Invoice status messages](invoice-status.md)**  
-Invoice-related status messages are displayed in the Accounts Payable Operations application.
+</table>-   **[Invoice case form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inquiry-case-related-list.md)**  
+Descriptions of the tabs on the Invoice case form, including case details, tasks, service level agreements, emails, and related cases.
+-   **[Invoice status messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-status.md)**  
+Reference information for invoice status messages and the conditions that trigger each status during invoice processing in Accounts Payable Operations.
 
-**Parent Topic:**[Accounts Payable Operations reference](acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 
 
-[Accounts Payable Operations properties](acc-pay-properties.md)
+[Accounts Payable Operations properties]()
 
-[Create New Invoice Line form](create-invoice-line-form.md)
+[Create New Invoice Line form]()
 
-[Create invoice cost allocation form](create-invoice-cost-allocation-form.md)
+[Create invoice cost allocation form]()
 
-[Outbound cost allocation staging table](outbound-cost-allocation-table.md)
+[Outbound cost allocation staging table]()
 
-[Distribution set form](distribution-set-form.md)
+[Distribution set form]()
 
-[Create New Invoice task form](create-apm-task-form.md)
+[Create New Invoice task form]()
 
-[Invoice processing case form](invoice-processing-case-form.md)
+[Invoice processing case form]()
 
-[Tax lines](create-tax-lines-apo.md)
+[Tax lines]()
 
-[Invoice exception form](exception-form-fields.md)
+[Invoice exception form]()
 
-[Request Help form](ur-request-help-form.md)
+[Request Help form]()
 
-[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+[Data required for invoice processing]()
 
-[Invoice exception definition form](invoice-exception-definition-form.md)
+[Invoice exception definition form]()
 
-[Approval Rule form](new-approval-rule-form.md)
+[Approval Rule form]()
 
-[Approval Plan form](approval-plan-form.md)
+[Approval Plan form]()
 
-[Accounts Payable Operations glossary](../concept/apo-glossary.md#)
+[Accounts Payable Operations glossary]()
 

@@ -2,6 +2,7 @@
 title: Using Service Request Playbooks
 description: If you're a government service agent or manager, you can use the Service Request Playbook for Public Sector Digital Services to manage and resolve requests for services like park maintenance, broken stop signs, or other types of community issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-sr-playbooks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -50,7 +51,7 @@ The process-based playbook layout shows the following features:
 
 -   Related records in the contextual side panel supported by the dynamic related records component.
 
-![Agent workspace view of the playbook lifecycle, case record information, and service request details, shown in process-based activity view. For the text description, refer to the Playbook components table.](../image/service-request-process-based-layout.png "Playbook layout with the Process-based experience view")
+\[Omitted image "service-request-process-based-layout.png"\] Alt text: Agent workspace view of the playbook lifecycle, case record information, and service request details, shown in process-based activity view. For the text description, refer to the Playbook components table.
 
 The following table shows the components that you can see in the Service Request Playbook process-based workspace.
 
@@ -103,7 +104,7 @@ Contextual side panel
 -   Includes the tabs that you can use to display the following types of information:
     -   Case or case task activity stream.
     -   Ribbon information such as the case overview, customer details, timeline, and service level agreements \(SLAs\).
-    -   Dynamic related records. For more information, see [Dynamic related records](psds-playbook-viewing-rel-records.md).
+    -   Dynamic related records. For more information, see [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-playbook-viewing-rel-records.md).
 
 </td></tr><tr><td>
 

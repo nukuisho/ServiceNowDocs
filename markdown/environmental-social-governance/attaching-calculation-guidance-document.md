@@ -2,6 +2,7 @@
 title: Attaching calculation guidance document
 description: Attach the Calculation Guidance PDF to the designated emission calculation guidelines table record to enable the carbon calculations agentic workflow. The agent relies on this document to extract calculation methods, formulas, and category details for automated metric definition creation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/attaching-calculation-guidance-document.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ Role required: sn\_esg.admin
     |Domain|Domain in which the table is being created. This field is automatically set.|
     |Description|Description of the document. This field is automatically set.|
 
-6.  Select ![](../../../reuse/icons/product-icons/paperclip-outline-24.svg) option.
+6.  Select \[Omitted image "paperclip-outline-24.svg"\] option.
 
 7.  In the **Attachments** pop-up, select **Choose file**.
 
@@ -44,5 +45,5 @@ Role required: sn\_esg.admin
 9.  Close the pop-up and select **Submit**.
 
 
-**Parent Topic:**[Activate carbon calculations agentic workflow](activate-carbon-calculations-agentic-workflow.md)
+**Parent Topic:**[Activate carbon calculations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-carbon-calculations-agentic-workflow.md)
 

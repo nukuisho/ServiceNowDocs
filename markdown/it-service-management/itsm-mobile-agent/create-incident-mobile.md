@@ -2,11 +2,12 @@
 title: Create an incident from app landing page
 description: Create an incident directly from your agent mobile app landing page with a single tap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/create-incident-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
 ---
@@ -21,7 +22,7 @@ Role required: itil, sn\_incident\_write, or admin
 
 ## Procedure
 
-1.  On your agent mobile app landing page, click on the ![Create incident icon](../image/create-incident-shortcut-2.png)to create an incident directly from the landing screen.
+1.  On your agent mobile app landing page, select the \[Omitted image "create-incident-shortcut.jpg"\] Alt text: create incident shortcutto create an incident directly from the landing screen.
 
 2.  Fill in the fields.
 

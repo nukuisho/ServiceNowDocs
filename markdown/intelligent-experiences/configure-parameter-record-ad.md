@@ -1,25 +1,95 @@
 ---
-title: Enable AI agents to securely access SSH parameters in AI Desktop Actions
-description: Enable AI agents to securely access credentials, such as usernames and passwords, through Desktop Action Parameter records. This approach protects sensitive values during desktop action execution without exposing them in agent instructions.Create a Parameter record with a name that you can reference in your instructions so the AI agent can securely sign in to the SSH server and execute commands.Create Parameter Value records for storing the actual username and password values so that AI agents can securely connect to the SSH server.
+title: Enable AI agents to securely access parameters in AI Desktop Actions
+description: Enable AI agents to securely access stored values, such as credentials and other input data, through Desktop Action Parameter records. Parameters protect sensitive values and provide dynamic inputs to desktop actions during agent execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-parameter-record-ad.html
 release: australia
 topic_type: concept
-last_updated: "2026-02-16"
-reading_time_minutes: 3
+last_updated: "2026-05-25"
+reading_time_minutes: 4
 breadcrumb: [Defined desktop actions, Configure, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Enable AI agents to securely access SSH parameters in AI Desktop Actions
+# Enable AI agents to securely access parameters in AI Desktop Actions
 
-Enable AI agents to securely access credentials, such as usernames and passwords, through Desktop Action Parameter records. This approach protects sensitive values during desktop action execution without exposing them in agent instructions.
+Enable AI agents to securely access stored values, such as credentials and other input data, through Desktop Action Parameter records. Parameters protect sensitive values and provide dynamic inputs to desktop actions during agent execution.
 
-**Note:** Currently, Parameter and Parameter Value records are only supported for SSH connector, background task desktop actions.
+Only users with the sn\_aia.admin role can create Parameter records. Parameter records store the names of values that an AI agent accesses during desktop action execution. A separate Parameter record is required for each distinct value.
 
-Only the users with the sn\_aia.admin role can create Parameter records for various parameters that the AI agent securely accesses during desktop action execution. To store both a username and a password, the AIA admin must create two separate Parameter records, one for the username "un\_username\_group" and one for the password "un\_password\_group".
+## Parameter record settings
 
-Then, users with the sn\_aia.admin or now\_assist\_panel\_user role can create Parameter Value records under the Parameter record to store the values. For example, under the "un\_username\_group" Parameter record, users can create a Parameter Value record to store usernames and under the "un\_password\_group" Parameter record, users can create a Parameter Value record to store passwords. Only one Parameter Value record can be created per user for each Parameter record. If multiple users need to trigger the same AI agent, each user must create a Parameter Value record for their own credentials.
+Each Parameter record includes two fields that control how parameter values are stored and retrieved at execution time.
 
-You can create Parameter records only for username and password. For any other SSH parameters, provide the values either in the agent instructions or in your instructions in the Now Assist panel.
+<table id="table_rgx_bfn_3jc"><thead><tr><th>
+
+Setting
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Shared - selected
+
+</td><td>
+
+Makes the parameter available to all users. When selected, only one Parameter Value record can be created under the parameter, and only a user with the sn\_aia.admin role can create it. During execution, the agent always uses the single Parameter Value record regardless of which user triggered the agent.For example, use this setting for a service account or shared API key that all agents use to connect to the same system.
+
+</td></tr><tr><td>
+
+Shared - not selected
+
+</td><td>
+
+Enables multiple users with the sn\_aia.admin or now\_assist\_panel\_user role to create Parameter Value records under the Parameter record to store values. Only one Parameter Value record can be created per user for each Parameter record. If multiple users must trigger the same AI agent, each user must create a Parameter Value record for their own credentials or inputs.
+
+ During execution, the agent retrieves the Parameter Value record that belongs to the user who triggered the agent.
+
+ For example, use this setting when each user connects with their own credentials, such as individual usernames and passwords for an internal application.
+
+</td></tr><tr><td>
+
+Mark As Sensitive
+
+</td><td>
+
+Encrypts values of all associated Parameter Value records. The agent decrypts the value at execution time. When not selected, values are passed to the agent as plain text.For example, enable this setting for passwords, API keys, or any value that should not be visible in plain text in the instance.
+
+</td></tr></tbody>
+</table>**Important:**
+
+The **Shared** and **Mark As Sensitive** fields can only be edited when there are no associated Parameter Value records.
+
+## Map parameters to inputs of on-screen task desktop action
+
+In the Design workspace of the AI Desktop Actions application, you can select the **Use parameter** check box for desktop action inputs that must retrieve values from the parameter records during execution.\[Omitted image "ad-use-parameters-check.png"\] Alt text: Use parameter property in the AI Desktop Actions application.
+
+In AI Agent Studio, when you add a desktop action tool that contains inputs configured for parameters, the **Map parameters** section appears in the modal. Each input configured for a parameter is listed by step name and description, with a **Parameter record** drop-down. \[Omitted image "ad-map-parameters-aia.png"\] Alt text: Map parameters section in the desktop action tool modal.
+
+The following rules apply to parameter mapping:
+
+-   All inputs configured for parameters must be mapped to a Parameter record before the desktop action can be saved.
+-   The same Parameter record can be mapped to multiple inputs.
+-   Each input can only be mapped to one Parameter record.
+
+**Note:** If you specify values for inputs configured for parameters in the agent instructions or in the Now Assist panel, the mapped parameter values override them.
+
+**Important:**
+
+If you update a desktop action in AI Desktop Actions client application after mapping its inputs in AI Agent Studio, the agent continues to use the previous mapping until you reopen the tool configuration and save it again.
+
+If you rename an input in the desktop action, the agent treats it as a new input and the existing mapping for that input is removed. You must remap the renamed input before the desktop action can be saved.
+
+## SSH parameter example
+
+**Note:**
+
+The following example applies to SSH connector, background task desktop actions. For on-screen task desktop actions, parameter values are supplied through the **Map parameters** section in AI Agent Studio and aren't referenced in agent instructions.
+
+Only users with the sn\_aia.admin role can create Parameter records for SSH desktop actions. To store both a username and a password, the AIA admin must create two separate Parameter records, one for the username \(for example, `un_username_group`\) and one for the password \(for example, `un_password_group`\).
+
+Users with the sn\_aia.admin or now\_assist\_panel\_user role can then create Parameter Value records under each Parameter record to store the values. Only one Parameter Value record can be created per user for each Parameter record.
 
 ## AI Agent instructions during execution
 
@@ -33,98 +103,12 @@ The following example shows how an AI agent instruction can reference stored par
 
 **Note:** When triggering an AI agent, explicitly specify in your instructions whether the credentials are provided directly or stored in Parameter records. If Parameter records are used, clarify that the record names are for reference only and that the agent must retrieve the username and password from those records.
 
-Ensure that you use the exact names of the Parameter records. Parameter record names are case sensitive. For example, "UserName" and "username" are treated as different values.
+Verify that you use the exact names of the Parameter records. Parameter record names are case sensitive. For example, "UserName" and "username" are treated as different values.
 
-**Parent Topic:**[Configuring AI Desktop Actions for defined path desktop actions](ad-defined-path-da.md)
-
-## Create Parameter records for SSH credentials
-
-Create a Parameter record with a name that you can reference in your instructions so the AI agent can securely sign in to the SSH server and execute commands.
-
-### Before you begin
-
-Perform this task in the ServiceNow instance.
-
-Ensure that you have an active SSH server.
-
-Role required: sn\_aia.admin
-
-### Procedure
-
-1.  Navigate to **All** &gt; **AI Desktop Actions** &gt; **Desktop Action Parameters**.
-
-2.  Select **New** to create a Parameter record.
-
-3.  Enter the name and description.
-
-    For example, un\_username\_group or un\_password\_group
-
-4.  Select **Submit**.
+**Related topics**  
 
 
-## Store username and password values in the Parameter Value records
+[Create a Desktop action parameter record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuration-ssh-username-password-ad.md)
 
-Create Parameter Value records for storing the actual username and password values so that AI agents can securely connect to the SSH server.
-
-### Before you begin
-
-Perform this task in the ServiceNow instance.
-
-Role required: sn\_aia.admin or now\_assist\_panel\_user
-
-### Procedure
-
-1.  Navigate to **All** &gt; **AI Desktop Actions** &gt; **Desktop Action Parameters**.
-
-2.  Select a Parameter record from the list.
-
-3.  Create a parameter value record.
-
-    1.  In the Desktop action parameter values related list, select **New**.
-
-    2.  Fill in the following fields.
-
-<table id="table_wl1_zbw_h3c"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Unique name for this Parameter Value record that stores user name or password.
-
-</td></tr><tr><td>
-
-User
-
-</td><td>
-
-Read-only. Name of the user who creates this record.**Note:** Only user with the sn\_aia.admin role can edit this field and assign this record to any other user.
-
-</td></tr><tr><td>
-
-Is sensitive
-
-</td><td>
-
-Option to encrypt the value
-
-</td></tr><tr><td>
-
-Value
-
-</td><td>
-
-Value such as user name or password for connecting to the SSH server.
-
-</td></tr></tbody>
-</table>    3.  Select **Submit**.
-
+[Create a parameter value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-parameter-value-record.md)
 

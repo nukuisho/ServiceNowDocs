@@ -2,13 +2,14 @@
 title: UI Builder Agent
 description: The UI Builder Agent is a Now Assist AI agent that assists low-code developers working in UI Builder by responding to questions, information requests, and page editing instructions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/uib-builder-agent-concept.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
-breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # UI Builder Agent
@@ -50,7 +51,7 @@ The UI Builder agent provides the following features:
     This feature enables you to modify and enhance your page. You can apply different layouts, such as a single row or a three-column format. You can add and configure components, such as buttons with labels and links that direct users to external websites. You can also update the styling of your page, such as changing the background color.
 
 
-To configure the features, see [Configure UI Builder Agent](../task/configure-ui-builder-agent.md#). To use the features, see [Using UI Builder agent](using-ui-builder-agent.md#).
+To configure the features, see [Configure UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/configure-ui-builder-agent.md). To use the features, see [Using UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-ui-builder-agent.md).
 
 ## Activation overview
 
@@ -61,12 +62,12 @@ Enabling the UI Builder Agent involves the following high-level steps:
 3.  Turn on the Now Assist panel in Now Assist Admin.
 4.  Add a display experience to the Now Assist Panel - Platform \(default\) assistant, request AI Search activation, and activate the assistant in Assistant Designer.
 
-**Parent Topic:**[Exploring UI generation](exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-ui-generation.md)
 
 **Related topics**  
 
 
-[Using UI Builder agent](using-ui-builder-agent.md#)
+[Using UI Builder agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-ui-builder-agent.md)
 
-[Use case: Using UI Builder Agent](use-case-ui-builder-agent.md)
+[Use case: Using UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/use-case-ui-builder-agent.md)
 

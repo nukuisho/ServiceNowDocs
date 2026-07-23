@@ -2,6 +2,7 @@
 title: Telecom Assurance
 description: Telecom assurance monitors network performance, detects faults, and maintains service quality. ServiceNow Telecommunications Service Operations Management software is integrated with existing monitoring tools to consolidate alerts into a single platform, delivering AI-driven insights and automated workflows from fault detection to resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-assurance.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -23,5 +24,11 @@ Some key components of ServiceNow AI Platform® Telecommunications Service Opera
 **Related topics**  
 
 
-[Configure Telecom Assurance](set-up-fault-management.md)
+[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+
+[Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom.md)
+
+[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/operational-metrics.md)
+
+[Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap.md)
 

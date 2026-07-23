@@ -2,6 +2,7 @@
 title: Performance Analytics terms
 description: Performance Analytics uses terms and concepts that can differ from industry norms due to the unique nature of the ServiceNow platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/performance-analytics-glossary.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -26,9 +27,9 @@ An automated indicator uses an indicator source as its data set. The indicator s
 **Related topics**  
 
 
-[indicator \(KPI\)](performance-analytics-glossary.md#)
+[indicator \(KPI\)]()
 
-[database view](performance-analytics-glossary.md#)
+[database view]()
 
 ## breakdown
 
@@ -37,9 +38,9 @@ A grouping or a filter of indicator scores that is based on a qualitative attrib
 **Related topics**  
 
 
-[breakdown element](performance-analytics-glossary.md#)
+[breakdown element]()
 
-[indicator \(KPI\)](performance-analytics-glossary.md#)
+[indicator \(KPI\)]()
 
 ## breakdown element
 
@@ -48,11 +49,15 @@ The values for a breakdown. For example, the Priority breakdown may have the ele
 **Related topics**  
 
 
-[breakdown](performance-analytics-glossary.md#)
+[breakdown]()
 
 ## breakdown mapping
 
 A breakdown mapping specifies the relationships between breakdowns and indicator sources. A breakdown mapping references either a field on the indicator source or a script that queries the indicator source.
+
+## breakdown relations
+
+Navigation paths for viewing breakdown scores, by moving from one breakdown element to another breakdown element. Breakdown relations can be between the elements of different breakdowns, or they can be within a hierarchical structure of elements in the same breakdown.
 
 ## breakdown source
 
@@ -61,11 +66,11 @@ A set of records from a table or database view that constitute the unique values
 **Related topics**  
 
 
-[breakdown](performance-analytics-glossary.md#)
+[breakdown]()
 
-[breakdown element](performance-analytics-glossary.md#)
+[breakdown element]()
 
-[bucket group](performance-analytics-glossary.md#)
+[bucket group]()
 
 ## bucket group
 

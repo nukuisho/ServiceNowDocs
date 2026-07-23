@@ -2,9 +2,10 @@
 title: Activate a plugin on a personal developer instance
 description: You can test a plugin on your personal developer instance \(PDI\) before launching it in a production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/activate-plugin-pdi.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Activate a plugin, ServiceNow plugins, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -15,7 +16,7 @@ You can test a plugin on your personal developer instance \(PDI\) before launchi
 
 ## Before you begin
 
-Request a PDI on the [ServiceNow® Developer Site](https://developer.servicenow.com/).
+Request a PDI on the .
 
 Role required: admin
 
@@ -23,7 +24,7 @@ Role required: admin
 
 If a plugin isn't active by default on a PDI, you can activate the plugin without requesting or purchasing it.
 
-To activate a plugin on a PDI, use the All Applications page on your instance. If the plugin isn't available on the All Applications page, activate it from the [ServiceNow® Developer Site](https://developer.servicenow.com/).
+To activate a plugin on a PDI, use the All Applications page on your instance. If the plugin isn't available on the All Applications page, activate it from the .
 
 **Note:** Some plugins aren't available for activation on PDIs.
 
@@ -47,7 +48,7 @@ All Applications page
 
 In your PDI, navigate to **System Applications** &gt; **All Available Applications** &gt; **All**. Find the plugin and then activate it.
 
- For more information on using the All Applications page, see [Activate a plugin](t_ActivateAPlugin.md).
+ For more information on using the All Applications page, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Developer Site
 
 </td><td>
 
-1.  Sign in to the [ServiceNow® Developer Site](https://developer.servicenow.com/).
+1.  Sign in to the .
 2.  On the home page, select **Manage my instance**.
 3.  In the **Plugins for your instance** section, filter for plugins that are not activated.
 4.  Hover over the plugin you want to install, and select one of the activation options.

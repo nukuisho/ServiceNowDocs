@@ -2,6 +2,7 @@
 title: Create a quote from an opportunity
 description: Create a quote directly from an opportunity as a sales agent or with integrated roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-create-quote.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: sales\_agent
 
 1.  Navigate to the **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  From the **List** view ![](../../../reuse/icons/product-icons/list-outline-24.svg), select **Opportunity - All**.
+2.  From the **List** view \[Omitted image "list-outline-24.svg"\] Alt text:, select **Opportunity - All**.
 
 3.  Select the desired opportunity.
 
@@ -32,8 +33,15 @@ Role required: sales\_agent
     If users with integrated roles create quotes then the channel partners and the related channel partners are copied to the newly created quotes. All the created quotes can be viewed on the **Quotes** tab. For details about integrated roles, see [Integration with Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/integration-with-sales-and-order-management.md).
 
 
--   **[Create a quote from an opportunity line item](opportunity-management-create-quote-line-items.md)**  
+-   **[Create a quote from an opportunity line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-create-quote-line-items.md)**  
 Create a quote from the selected line items in an opportunity record.
 
-**Parent Topic:**[Using Opportunity Management](opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+**Related topics**  
+
+
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

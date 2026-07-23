@@ -2,6 +2,7 @@
 title: Related information
 description: Find more information about the Operational Technology \(OT\) extension classes and related applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-request-management/oper-tech-request-management-related-information.html
 release: australia
 product: Operational Technology Request Management
 classification: operational-technology-request-management
@@ -19,14 +20,14 @@ Find more information about the Operational Technology \(OT\) extension classes 
 
 The extension classes help you understand how Operational Technology Management works with the Configuration Management Database \(CMDB\).
 
--   **[Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md)**
+-   **[Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md)**
 
     The CMDB updates classes for OT.
 
 
 ## Related applications
 
--   **[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/c_RequestManagement.md)**
+-   **[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_RequestManagement.md)**
 
     Request Management allows catalog items to be requested and fulfilled based on defined flows.
 
@@ -35,5 +36,5 @@ The extension classes help you understand how Operational Technology Management 
     The ServiceNow IT Service Management application enables engineers to resolve OT device and production process issues quickly.
 
 
-**Parent Topic:**[Operational Technology Request Management reference](../concept/operational-technology-request-management-reference.md)
+**Parent Topic:**[Operational Technology Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/operational-technology-request-management-reference.md)
 

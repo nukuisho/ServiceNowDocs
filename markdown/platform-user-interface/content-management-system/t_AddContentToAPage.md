@@ -2,6 +2,7 @@
 title: Add content to a page
 description: After you define the page settings, set the content of the page by adding content blocks. Setting content blocks is similar to how you add content to homepages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_AddContentToAPage.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -19,7 +20,7 @@ After you define the page settings, set the content of the page by adding conten
 
 Role required: content\_admin or admin
 
-**Note:** Do not add any type of report, such as a calendar, to iFrames. For more information on adding a report directly onto a page without using iFrames, see [Embedding reports in Jelly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_EmbeddingReportsInJelly.md).
+**Note:** Do not add any type of report, such as a calendar, to iFrames. For more information on adding a report directly onto a page without using iFrames, see [Embedding reports in Jelly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_EmbeddingReportsInJelly.md).
 
 ## Procedure
 
@@ -34,10 +35,10 @@ Role required: content\_admin or admin
     Create content blocks by adding one of the content blocks named **\*New \[block type\]** to the page.
 
 
-**Parent Topic:**[Content pages in CMS](../concept/c_ContentPages.md)
+**Parent Topic:**[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentPages.md)
 
 **Related topics**  
 
 
-[Content blocks](../concept/c_ContentBlocks.md)
+[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)
 

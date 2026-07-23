@@ -2,6 +2,7 @@
 title: Reviewer Service Portal
 description: Enable merit reviewers to track, score, and monitor grant proposals via a dedicated Reviewer Service portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-rsp-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ The Reviewer Service Portal experience begins on the portal homepage, where meri
 
 This example shows the default home page for a merit reviewer using the Public Sector Digital Services Reviewer Service Portal.
 
-![Different interaction options on the Constituent view. For more information, refer to the text that follows.](../image/public-sector-reviewer-service-portal.png)
+\[Omitted image "public-sector-reviewer-service-portal.png"\] Alt text: Different interaction options on the Constituent view. For more information, refer to the text that follows.
 
 Merit reviewers can do the following tasks in the Reviewer Service Portal:
 
@@ -33,5 +34,5 @@ Merit reviewers can do the following tasks in the Reviewer Service Portal:
 -   Provide comments for rationale, strengths, or concerns about their evaluation of the proposal.
 -   Submit or decline a review along with justifications.
 
-For more information on how to use the Reviewer Service Portal, see [Using the Reviewer Service Portal in Public Sector Digital Services](psds-gmp-using-merit-review-portal-agent.md).
+For more information on how to use the Reviewer Service Portal, see [Using the Reviewer Service Portal in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-merit-review-portal-agent.md).
 

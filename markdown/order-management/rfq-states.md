@@ -2,6 +2,7 @@
 title: Request for quote \(RFQ\) states
 description: An RFQ can move through different states during its life cycle after being submitted by the customer based on agent activity in the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/rfq-states.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,5 +21,5 @@ An RFQ can move through different states during its life cycle after being submi
 |Completed|Completed|Agent has converted the RFQ to a quote in the CSM Configurable Workspace and has changed the status of the RFQ record to Pending Customer Acceptance.|
 |Canceled|Canceled|Agent has manually changed the status of the RFQ to Canceled.|
 
-**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](som-business-portal-reference.md)
+**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-business-portal-reference.md)
 

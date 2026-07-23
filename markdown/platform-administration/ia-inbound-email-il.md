@@ -2,11 +2,12 @@
 title: Inbound email
 description: Use the inbound email to receive and process incoming emails from external systems or users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-inbound-email-il.html
 release: australia
 topic_type: reference
 last_updated: "2025-12-05"
-reading_time_minutes: 2
-breadcrumb: [Platform module configuration, Configure, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+reading_time_minutes: 3
+breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Inbound email
@@ -15,9 +16,15 @@ Use the inbound email to receive and process incoming emails from external syste
 
 ## Accounts
 
-![Image showing inbound accounts](../image/ia-inbound-accounts.png)
+\[Omitted image "ia-inbound-accounts.png"\] Alt text: Image showing inbound accounts
 
-Use Accounts to process inbound emails from external sources and users. On selecting Accounts under Inbound email, a list of existing accounts shows up. Select **Add an account** to create a new account.
+Use Accounts to process inbound emails from external sources and users.
+
+1.  Navigate to **Inbound email** &gt; **Accounts**. A list of existing accounts shows up.
+2.  To create an account, select **Add an account**.
+3.  Select **ServiceNow account** or **Gmail** and select **Next**.
+4.  For Gmail, fill the Application registry form and select **Next**. For information about configuring an OAuth OIDC provider, see [Configure an OAuth OIDC provider for accepting third-party token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/add-OIDC-entity.md).
+5.  Fill the form with email account information.
 
 <table id="table_scf_btj_nhc"><thead><tr><th>
 
@@ -89,7 +96,6 @@ Type of secure connection. Choose a setting:-   None: No secure protocol is used
 
 Selecting a less secure protocol like STARTTLS or None may expose your data. To better ensure the security of data in your email server, select SSL/TLS.
 
-
 </td></tr><tr><td>
 
 Port
@@ -115,13 +121,13 @@ Enable Debug Logging
 Option to create node logs for the raw data that is exchanged with the email server. You can review the node logs by navigating to **System Logs** &gt; **Utilities** &gt; **Node Log File Browser**.
 
 </td></tr></tbody>
-</table>Select **Export** to export the accounts on to an Excel, CSV, JSON or PDF. You can then select the delivery type either through download or email.
+</table>6.  Select **Export** to export the accounts on to an Excel, CSV, JSON or PDF. You can then select the delivery type either through download or email.
 
 ## Properties
 
 Manage the behavior of incoming emails with Properties.
 
-![Image showing inbound properties](../image/ia-inbound-properties.png)
+\[Omitted image "ia-inbound-properties.png"\] Alt text: Image showing inbound properties
 
 -   Inbound sending and delivery options: You can enable receiving emails and can also enable auto-create users from trusted domains
 -   Inbound recognition and trusted domains: You can setup conditions for the following:
@@ -135,7 +141,7 @@ Manage the behavior of incoming emails with Properties.
 
 Email actions determine how and when the system responds to service requests. On selecting Actions under Inbound email, a list of existing actions shows up. Select **Add an action** to create a new action.
 
-![image.ia-actions]
+\[Omitted image "image.ia-actions"\] Alt text: Image showing actions
 
 |Field|Description|
 |-----|-----------|
@@ -145,7 +151,7 @@ Email actions determine how and when the system responds to service requests. On
 |Action type|Type of the action. Select the type of action the instance takes. Select **Record Action** to modify a record in the instance, or select **Reply Email** to have the instance send an email back to the source of the inbound email.|
 |Stop processing|Optional checkbox to help prevent the system from running additional inbound email actions after this action runs.|
 
-See [Inbound email configuration](../../reference-pages/reference/r_InboundMailConfiguration.md) for more information.
+See [Inbound email configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_InboundMailConfiguration.md) for more information.
 
-**Parent Topic:**[Platform module configuration in Now Assist for Setup](ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

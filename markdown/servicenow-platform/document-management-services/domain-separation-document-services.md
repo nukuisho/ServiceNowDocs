@@ -2,6 +2,7 @@
 title: Domain separation and Document Management
 description: Domain separation is supported for Document Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/domain-separation-document-services.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -62,16 +63,16 @@ If a document contains references and if the owner of the document is changed an
 
 For example, if the document owner, User A \(Domain: D1\) is changed to User B \(Domain: D2\) and User B does not have access to the target record of the reference table, User B might not be able to see the reference record.
 
-**Parent Topic:**[References](reference-document-management.md)
+**Parent Topic:**[References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/reference-document-management.md)
 
 **Related topics**  
 
 
-[Components installed with Document Management](../reference/installed-with-doc-mgmt.md)
+[Components installed with Document Management]()
 
-[Document Management roles](../reference/document-management-roles.md#)
+[Document Management roles]()
 
-[Granular admin roles in Document Management](../reference/granular-admin-roles-dms.md)
+[Granular admin roles in Document Management]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

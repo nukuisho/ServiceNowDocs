@@ -2,18 +2,19 @@
 title: Install Workplace Reservation Management
 description: Install the Workplace Reservation Management application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/install-wsd-reservation-mgmt.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Reservation Management
 
-Install the Workplace Reservation Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Workplace Reservation Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -37,7 +38,7 @@ Activate the Workplace Service Delivery - Core plugin \(sn\_wsd\_core\) of minim
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from ServiceNow store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
@@ -54,50 +55,50 @@ Activate the Workplace Service Delivery - Core plugin \(sn\_wsd\_core\) of minim
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](../concept/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 
 
-[Add a workplace space for reservation](add-reservable-items.md)
+[Add a workplace space for reservation]()
 
-[Add a workplace room for reservation](add-workplace-rooms.md)
+[Add a workplace room for reservation]()
 
-[Configure a reservable module](config-reservable-module.md)
+[Configure a reservable module]()
 
-[Assign spaces to an area](add-neighbourhood-spaces-to-an-area.md)
+[Assign spaces to an area]()
 
-[Create a standard service](add-standard-services.md)
+[Create a standard service]()
 
-[Create a flexible service](add-flexible-service.md)
+[Create a flexible service]()
 
-[Create a workplace service to provide an extra service for a reservation](create-workplace-service-to-provide-extra-service.md)
+[Create a workplace service to provide an extra service for a reservation]()
 
-[Create a reservable view](create-a-reservable-view.md)
+[Create a reservable view]()
 
-[Create a user criteria record](create-user-criteria.md)
+[Create a user criteria record]()
 
-[Configure a reservable purpose](configure-reservable-purpose.md)
+[Configure a reservable purpose]()
 
-[Create a quick reservation time slot](add-reservable-time-slots.md)
+[Create a quick reservation time slot]()
 
-[Configure virtual meeting providers](configure-virtual-meeting-providers.md)
+[Configure virtual meeting providers]()
 
-[Configure Microsoft Teams as virtual meeting provider](configure-msteams-as-virtual-meeting-provider.md)
+[Configure Microsoft Teams as virtual meeting provider]()
 
-[Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md)
+[Connect Workplace Reservation Management with Microsoft Teams]()
 
-[Connect Workplace Reservation Management with Zoom](connect-rsv-mtm-with-zoom.md)
+[Connect Workplace Reservation Management with Zoom]()
 
-[Display permanent seat assignments on floor maps](display-permanent-seats-on-maps.md)
+[Display permanent seat assignments on floor maps]()
 
-[Display name of the person reserving a space](displayname-person-booking-rsv.md)
+[Display name of the person reserving a space]()
 
-[Manage check-in and check-out reservations](../concept/check-in-check-out-process.md)
+[Manage check-in and check-out reservations]()
 
-[Configure automatic check-in for reserved spaces](../concept/configure-rsv-check-in.md)
+[Configure automatic check-in for reserved spaces]()
 
-[Configure reservation multi-day settings in Reservable Module](../concept/rsv-config-rsv-mod-value.md)
+[Configure reservation multi-day settings in Reservable Module]()
 
 [List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

@@ -2,6 +2,7 @@
 title: Creating a new role group through the Skills Workspace
 description: Add a new role group in the Skills Workspace to create a category of roles in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/create-new-role-group.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -27,7 +28,7 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 1.  Navigate to **All** &gt; **Skills Workspace**.
 
-2.  Select the Lists icon \(![Lists icon](../../../common/image/icon-list.png)\).
+2.  Select the Lists icon \(\[Omitted image "icon-list.png"\] Alt text: Lists icon\).
 
 3.  Go to **Job architecture** &gt; **Role groups**.
 
@@ -35,15 +36,15 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 5.  Either create your role group manually or by copying data from an existing group.
 
-<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d398725e127">
+<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d406750e127">
 
 Method
 
-</th><th align="left" id="d398725e130">
+</th><th align="left" id="d406750e130">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d398725e136">
+</th></tr></thead><tbody><tr><td id="d406750e136">
 
 **Manually**
 
@@ -54,7 +55,7 @@ Actions
 3.  Select **Save and continue**.
 
 
-</td></tr><tr><td id="d398725e172">
+</td></tr><tr><td id="d406750e172">
 
 **Copy the data from an existing role group**
 
@@ -97,7 +98,7 @@ Actions
     3.  Add more role groups either by selecting the role group directly or from suggested role groups.
 
         -   To add a role group directly, select **Add group** and provide details about the role group.
-        -   To add a role group from suggestions, select the Recommendations icon \(![Recommendations icon](../image/skills-recommendations-icon.png)\) and select **Add** on the role group.
+        -   To add a role group from suggestions, select the Recommendations icon \(\[Omitted image "skills-recommendations-icon.png"\] Alt text: Recommendations icon\) and select **Add** on the role group.
 10. Select **Submit**.
 
     **Note:** A new role group is created with all the data.
@@ -105,16 +106,16 @@ Actions
 
 ## Result
 
-The new role group is opened in form view starting with the Skills matrix. You can see all the skills and role levels related to the role group. You can add more skills to the role group after it is created if necessary. For more information, see [Add more skills to a role group](adding-skills-with-skills-matrix.md).
+The new role group is opened in form view starting with the Skills matrix. You can see all the skills and role levels related to the role group. You can add more skills to the role group after it is created if necessary. For more information, see [Add more skills to a role group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/adding-skills-with-skills-matrix.md).
 
-**Parent Topic:**[Working with job architecture](../concept/job-architecture-working.md)
+**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/job-architecture-working.md)
 
 **Related topics**  
 
 
-[Add more skills to a role group](adding-skills-with-skills-matrix.md)
+[Add more skills to a role group]()
 
-[Edit skills and proficiencies in the Skills Matrix](edit-skills-with-skills-matrix.md)
+[Edit skills and proficiencies in the Skills Matrix]()
 
-[Create related role groups](related-role-groups.md)
+[Create related role groups]()
 

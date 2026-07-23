@@ -2,6 +2,7 @@
 title: Comparing replicated data between instances in Instance Data Replication
 description: Find missing or mismatched records by comparing replication data between instances in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/comparing-replicated-data.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -178,27 +179,27 @@ All replication sets, but not unidirectional replication sets
 -   Journal fields are excluded from the comparison due to the potential size of their content.
 -   Sys Audit \[sys\_audit\] table records are excluded from the comparison.
 
--   **[Find missing or mismatched records in Instance Data Replication](../task/compare-replicated-data.md)**  
+-   **[Find missing or mismatched records in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/compare-replicated-data.md)**  
 Find records missing from the consumer instance or mismatched records after data has been replicated by creating a data comparison request in Instance Data Replication \(IDR\).
--   **[Reseed missing or mismatched records in Instance Data Replication](../task/fix-replicated-data.md)**  
+-   **[Reseed missing or mismatched records in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/fix-replicated-data.md)**  
 Synchronize data between instances by reseeding records missing from the consumer instance or mismatched records between the producer and consumer instance in Instance Data Replication \(IDR\).
 
-**Parent Topic:**[Administering Instance Data Replication](administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 
 
-[Manage consumer access to replication data in Instance Data Replication](../task/approve-consumer.md)
+[Manage consumer access to replication data in Instance Data Replication]()
 
-[Deploying a replication configuration from one instance to another in Instance Data Replication](copying-replication-configuration.md)
+[Deploying a replication configuration from one instance to another in Instance Data Replication]()
 
-[Cloning options with Instance Data Replication](cloning-with-instance-data-replicaton.md)
+[Cloning options with Instance Data Replication]()
 
-[Monitoring replication status in Instance Data Replication](instance-data-replication-dashboard.md)
+[Monitoring replication status in Instance Data Replication]()
 
-[Monitoring queues in Instance Data Replication](idr-queue-dashboard.md)
+[Monitoring queues in Instance Data Replication]()
 
-[Avoiding insert and update errors in Instance Data Replication](preventing-insert-update-errors.md)
+[Avoiding insert and update errors in Instance Data Replication]()
 
-[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+[Resolving data replication errors in Instance Data Replication]()
 

@@ -2,6 +2,7 @@
 title: Remove others label
 description: Reduce noise in your classification model and enhance predictive accuracy by removing records with the label "others" from training data. These are records with a distribution frequency of under one percent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intel-remove-others-label.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -51,7 +52,7 @@ In JSON format:
 
 5.  In the **Solution Parameters** field, search for `Remove others label`, then select **Submit** to save your update.
 
-    ![On the Advanced Solution Setting form, in the Solution Parameters field, Remove others label is selected.](../images/predictive-intel-remove-others-labelZ1.png)
+    \[Omitted image "predictive-intel-remove-others-labelZ1.png"\] Alt text: On the Advanced Solution Setting form, in the Solution Parameters field, Remove others label is selected.
 
 
 ## Result
@@ -62,12 +63,12 @@ The setting appears as a row on the **Advanced Solution Setting** tab on your so
 
 Retrain your solution.
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](../concept/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Using Machine Learning APIs](../concept/using-ml-apis.md#)
+[Using Machine Learning APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md)
 
-[Create and train a classification solution](create-solution-definition.md)
+[Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 

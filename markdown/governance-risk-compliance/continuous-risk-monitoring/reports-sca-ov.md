@@ -2,13 +2,14 @@
 title: SCA Overview dashboard
 description: The SCA Overview dashboard enables you to view and manage control assessments as they occur.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/reports-sca-ov.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Analytics and Reporting Solutions for CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Analytics and Reporting, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # SCA Overview dashboard
@@ -24,8 +25,6 @@ Users with the following roles can access the dashboard:
 -   Security Control Assessor \(sn\_irm\_cont\_auth.sec\_control\_assessor\)
 
 To open the dashboard, navigate to **All** &gt; **Continuous Authorization &amp; Monitoring** &gt; **Analytics Dashboards** &gt; **SCA Overview**.
-
-![SCA Overview dashboard displaying the different reports.](../image/cam-sca-overview.png)
 
 ## Reports on the SCA Overview dashboard
 

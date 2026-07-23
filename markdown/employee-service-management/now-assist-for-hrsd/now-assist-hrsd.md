@@ -2,6 +2,7 @@
 title: Now Assist for HR Service Delivery \(HRSD\)
 description: Use the ServiceNow Now Assist for HR Service Delivery \(HRSD\) application to summarize the case information, generate resolution notes, and summarize the chat information for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your requesters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -19,23 +20,23 @@ Use the ServiceNow® Now Assist for HR Service Delivery \(HRSD\) application to 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about the generative AI skills and capabilities offered by Now Assist for HRSD](explore-now-assist-hr.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the generative AI skills and capabilities offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/explore-now-assist-hr.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure the application to get started](../task/configure-now-assist-hr.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-task-list.svg) Provide higher levels of service by using the generative AI skills and capabilities that are offered by Now Assist for HRSD](use-now-assist-hr.md)
+[Use \[Omitted image "bus-task-list.svg"\] Alt text: Provide higher levels of service by using the generative AI skills and capabilities that are offered by Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 </td></tr><tr><td>
 
-[Use Agent Collection![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use the AI agent use cases in Now Assist for HR Service Delivery \(HRSD\)](now-assist-hrsd-ai-agents-use-cases.md)
+[Use Agent Collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components such as fields, tables, and properties.](../reference/reference-now-assist-hrsd.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
 
 </td><td>
 
@@ -44,9 +45,9 @@ Use the ServiceNow® Now Assist for HR Service Delivery \(HRSD\) application to 
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help

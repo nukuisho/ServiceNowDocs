@@ -2,6 +2,7 @@
 title: Defer load in Employee Center
 description: Learn more about the heavy-load and high-traffic scenarios and ways to optimize the user experience and portal performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-load-expe-defer-load.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,7 +16,7 @@ breadcrumb: [Portal performance optimization, Admin configurations, Configuring 
 
 Learn more about the heavy-load and high-traffic scenarios and ways to optimize the user experience and portal performance.
 
-The Service Portal Designer **Defer widget loading** option helps configure the widgets load in a skeleton view. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md). The key benefits are:
+The Service Portal Designer **Defer widget loading** option helps configure the widgets load in a skeleton view. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_ConfigureAPage.md). The key benefits are:
 
 -   Improve performance and reduce initial load times.
 -   Enhance the user experience with skeleton loaders.
@@ -26,5 +27,5 @@ The Service Portal Designer **Defer widget loading** option helps configure the 
 **Related topics**  
 
 
-[Modify homepage banner instance for high-traffic](../task/config-defer-load-widget-instance-options.md)
+[Modify homepage banner instance for high-traffic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-defer-load-widget-instance-options.md)
 

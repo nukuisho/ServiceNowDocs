@@ -2,13 +2,14 @@
 title: Approve or reject an Asset Donation Order
 description: As an asset manager, review and then approve or reject an Asset Donation Order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/approve-reject-asset-donation-order.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Donate assets to charity organizations, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Donate assets to charity organizations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Approve or reject an Asset Donation Order
@@ -36,14 +37,14 @@ Role required: asset
         The **State** of the order changes to **Rejected**.
 
 
-**Parent Topic:**[Donate assets to charity organizations](../concept/donate-asset-to-charity-organizations.md)
+**Parent Topic:**[Donate assets to charity organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.md)
 
 **Related topics**  
 
 
-[Create an Asset Donation Order](create-asset-donation-order.md)
+[Create an Asset Donation Order]()
 
-[Process an Asset Donation Order](process-asset-donation-order.md)
+[Process an Asset Donation Order]()
 
-[Add a charity organization for donating assets](add-charity-org.md)
+[Add a charity organization for donating assets]()
 

@@ -2,6 +2,7 @@
 title: Explore generating or exporting dashboards and visualizations in the Now Assist panel
 description: Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/exploring-analytics-assist.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -36,7 +37,7 @@ The now\_assist\_panel\_user role is required to use the dashboard and visualiza
 
 ## Activation
 
-The data visualization generation and dashboard and visualization export skills are included with Workflow Data Fabric applications from the ServiceNow Store. You have to activate the skills after installation. For more information, see [Configuring Now Assist panel skills for Platform Analytics](configuring-now-ass-skills-pa.md).
+The data visualization generation and dashboard and visualization export skills are included with Workflow Data Fabric applications from the ServiceNow Store. You have to activate the skills after installation. For more information, see [Configuring Now Assist panel skills for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-now-ass-skills-pa.md).
 
 ## Supported user interfaces
 
@@ -44,9 +45,9 @@ Access the data visualization generation skill by starting a conversation in the
 
 Similarly, access the dashboard and visualization export skill by starting a conversation in the Now Assist panel and asking to export a specific visualization or dashboard.
 
-![Query asking Now Assist to show all indicators that have not been resolved for over 30 days.](../image/nowass-dv-intro.png "Asking Now Assist for a data visualization")
+\[Omitted image "nowass-dv-intro.png"\] Alt text: Query asking Now Assist to show all indicators that have not been resolved for over 30 days.
 
-![Result of the query showing a list of indicators.](../image/nowass-dv-list.png "Example of a generated data visualization")
+\[Omitted image "nowass-dv-list.png"\] Alt text: Result of the query showing a list of indicators.
 
-**Parent Topic:**[Generate or export dashboards and data visualizations in the Now Assist panel](../reference/analytics-assist-landing-page.md)
+**Parent Topic:**[Generate or export dashboards and data visualizations in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-assist-landing-page.md)
 

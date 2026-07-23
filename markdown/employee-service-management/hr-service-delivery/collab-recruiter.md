@@ -2,12 +2,14 @@
 title: Collaborate with the recruiter
 description: Collaborate with the recruiter for the job requisition on the activity stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/collab-recruiter.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [collaborate with recruiter, activity stream, recruiter comments, requisition collaboration, message recruiter]
 breadcrumb: [Use, Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -34,5 +36,5 @@ Role required: sn\_ta\_hiring\_core.hiring\_manager
 
 The recruiter receives an email notification with the details of the comment.
 
-**Parent Topic:**[Using Hiring](../concept/use-hiring.md)
+**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
 

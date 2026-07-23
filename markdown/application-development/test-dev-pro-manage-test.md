@@ -2,6 +2,7 @@
 title: Test apps with pro-code tools
 description: Test your ServiceNow apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-pro-manage-test.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,31 +16,31 @@ Test your ServiceNow apps.
 
 <table id="table_fck_nq2_2vb" class="nav-card"><tbody><tr><td>
 
-[Automated Test Framework ![Automated Test Framework.](../image/icon-atf.png) Create and run automated tests to confirm that your instance works after making a change.](../../../administer/auto-test-framework/concept/automated-test-framework.md)
+[Automated Test Framework \[Omitted image "icon-atf.png"\] Alt text: Automated Test Framework. Create and run automated tests to confirm that your instance works after making a change.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework.md)
 
 </td><td>
 
-[Test Management ![Test Management.](../image/icon-test.png) Streamline the management of testing processes to help you deliver software products more efficiently and with fewer errors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/test-management-overview.md)
+[Test Management \[Omitted image "icon-test.png"\] Alt text: Test Management. Streamline the management of testing processes to help you deliver software products more efficiently and with fewer errors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management-overview.md)
 
 </td><td>
 
-[Script Debugger ![Script Debugger.](../image/icon-debugger.png) Debug scripts using session logs and ServiceNow AI Platform debugging tools such as a walk-through script debugger and error messages that display in the UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
+[Script Debugger \[Omitted image "icon-debugger.png"\] Alt text: Script Debugger. Debug scripts using session logs and ServiceNow AI Platform debugging tools such as a walk-through script debugger and error messages that display in the UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
 
 </td></tr><tr><td>
 
-[Script Tracer ![Script tracer.](../image/icon-now-cli.png) Filter your debugging search to quickly narrow down script problems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-tracer.md)
+[Script Tracer \[Omitted image "icon-now-cli.png"\] Alt text: Script tracer. Filter your debugging search to quickly narrow down script problems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-tracer.md)
 
 </td><td>
 
-[Session Log ![Session Log.](../image/icon-log.png) View and download the session log for business rules, script includes, and a custom UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
+[Session Log \[Omitted image "icon-log.png"\] Alt text: Session Log. View and download the session log for business rules, script includes, and a custom UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
 
 </td><td>
 
-[User impersonation ![User impersonation.](../image/icon-user.png) Impersonate other authenticated users for testing purposes and view impersonation logs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_ImpersonateAUserInUI16.md)
+[User impersonation \[Omitted image "icon-user.png"\] Alt text: User impersonation. Impersonate other authenticated users for testing purposes and view impersonation logs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ImpersonateAUserInUI16.md)
 
 </td></tr><tr><td>
 
-[NOW Command Line Interface \(CLI\) ![NOW Command Line Interface.](../image/icon-now-cli.png) Perform instance operations from your local system with a command-line interface.](../../servicenow-cli/concept/servicenow-cli.md)
+[NOW Command Line Interface \(CLI\) \[Omitted image "icon-now-cli.png"\] Alt text: NOW Command Line Interface. Perform instance operations from your local system with a command-line interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/servicenow-cli.md)
 
 </td><td>
 

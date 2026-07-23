@@ -2,6 +2,7 @@
 title: Knowledge article states
 description: Knowledge article versions can be in one of several states as it progresses through the creation cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-article-states.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -15,7 +16,7 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 Knowledge article versions can be in one of several states as it progresses through the creation cycle.
 
-**Note:** You need to activate the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) and set the **glide.knowman.versioning.enabled** system property to `true`. For more information, [Activate the Knowledge Management Advanced plugin](../task/activate-knowledge-advanced-plugin.md) and [Article versioning properties](../reference/r_KnowledgeProperties.md#).
+**Note:** You need to activate the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) and set the **glide.knowman.versioning.enabled** system property to `true`. For more information, [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md) and [Article versioning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 <table id="table_trn_kgl_yy"><thead><tr><th>
 
@@ -79,11 +80,14 @@ Outdated
 
 </td><td>
 
-A more recent version of the article has been published. End users can read published articles as well as the outdated versions.
+One of the following occurs:-   A more recent version of the article is published.
+-   An article reaches and moves past its valid to date.
+
+End users can read published articles as well as the outdated versions.
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Knowledge access controls](user-access-knowledge.md)
+[Knowledge access controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md)
 

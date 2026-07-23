@@ -2,6 +2,7 @@
 title: Clustered application discovery on Windows
 description: A process and its corresponding resource information can be used to determine whether the process is a clustered process.To detect Windows clustered applications, create a process classifier for that CI type.In the second step, relate the process classifier to the information that is in the Windows Cluster resources table.The value field defines two JavaScript objects, called resourceType and isMatch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_ClusteredAppDiscoveryOnWindows.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,7 +20,7 @@ The **Microsoft SQL Server** process classifier that comes with your instance id
 
 To detect Windows clustered applications with Discovery, you create a process classifier that detects whether a process is a clustered process. Perform the following steps:
 
-**Parent Topic:**[Software discovery](c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
 
 ## Create a classifier for clustered processes
 
@@ -39,7 +40,7 @@ Role required: discovery\_admin
 
 4.  Click **Submit**.
 
-    ![Process Classification form](../image/ProcessClassificationForm2.png "Process Classification form")
+    \[Omitted image "ProcessClassificationForm2.png"\] Alt text: Process Classification form
 
 <table id="table_xf2_wcr_dr"><thead><tr><th>
 
@@ -122,7 +123,7 @@ Role required: admin
 
 ### About this task
 
-The [Windows Cluster](../reference/r_WindowsServerClusterDiscovery.md) resources table is cmdb\_ci\_win\_cluster\_resource. This relationship is built through JavaScript.
+The [Windows Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_WindowsServerClusterDiscovery.md) resources table is cmdb\_ci\_win\_cluster\_resource. This relationship is built through JavaScript.
 
 ### Procedure
 
@@ -139,7 +140,7 @@ The [Windows Cluster](../reference/r_WindowsServerClusterDiscovery.md) resources
     |Name|Select a unique name.|
     |Application|Select **Global**.|
     |Type|Enter **Cluster**.|
-    |Value|This field defines two JavaScript objects, called resourceType and isMatch. For more information, see [Populate the Value field on the Classifier Parameter form](c_ClusteredAppDiscoveryOnWindows.md#).|
+    |Value|This field defines two JavaScript objects, called resourceType and isMatch. For more information, see [Populate the Value field on the Classifier Parameter form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_ClusteredAppDiscoveryOnWindows.md).|
 
 5.  Select **Submit**.
 
@@ -154,13 +155,13 @@ Role required: admin
 
 ### About this task
 
-The resourceType value refers to the Resource Type column in the Windows Cluster Resources table \[cmdb\_ci\_win\_cluster\_resource\]. The resourceType value can not be empty or null.
+The resourceType value refers to the Resource Type column in the Windows Cluster Resources table \[cmdb\_ci\_win\_cluster\_resource\]. The resourceType value can't be empty or null.
 
 ### Procedure
 
 1.  Navigate to a Windows cluster page to access the Windows Cluster Resources table.
 
-2.  Click the **Windows Cluster Resources** tab.
+2.  Select the **Windows Cluster Resources** tab.
 
 
 ### Example
@@ -188,7 +189,7 @@ isMatch: function(process, resource) {
 }
 ```
 
-The following script indicates that if if there is a resource of type SQL Server, and the application name is equal to the resource name, then the process is classified as a clustered application.
+The following script indicates that if there is a resource of type SQL Server, and the application name is equal to the resource name, then the process is classified as a clustered application.
 
 ```
 resourceType: "SQL Server" 
@@ -198,9 +199,5 @@ isMatch: function(process, resource) {
 }
 ```
 
-If there are multiple matches to the resourceType condition, the matching function is called multiple times. For the following resourceType example, the matching function is called twice because there are two entries that have **Physical Disk** in the **Resource Type** column in the sample Windows Cluster Resources table.
-
-```
-resourceType: "Physical Disk" 
-```
+If there are multiple matches to the resourceType condition, the matching function is called multiple times. For example, if there are two entries with the same resource type \(such as Physical Disk\), the matching function runs twice—once for each matching entry \(for example, Cluster Disk 1 and Cluster Disk 2\).
 

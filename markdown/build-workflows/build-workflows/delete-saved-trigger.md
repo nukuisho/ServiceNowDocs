@@ -16,7 +16,7 @@ Delete a saved trigger that you no longer need.
 
 Role required: trigger\_designer, flow\_designer, or admin
 
-The trigger must be detached from any of the flows that are using the trigger. For information about detaching a saved trigger, see [Detach a saved trigger from a flow](detach-saved-trigger.md).
+The trigger must be detached from any of the flows that are using the trigger. For information about detaching a saved trigger, see [Detach a saved trigger from a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/detach-saved-trigger.md).
 
 ## Procedure
 
@@ -26,12 +26,12 @@ The trigger must be detached from any of the flows that are using the trigger. F
 
 3.  Select the trigger that you want to delete.
 
-4.  From the More Actions menu \(![Option to select the more actions menu.](../images/triggers-more-actions.png)\), select **Delete**.
+4.  From the More Actions menu \(\[Omitted image "triggers-more-actions.png"\] Alt text: Option to select the more actions menu.\), select **Delete**.
 
 5.  If the trigger was attached to any flows, then from the list of flows that are using the trigger, detach the trigger by selecting the flows from the list and selecting **Detach**.
 
 6.  On the pop-up window, select **Delete**.
 
 
-**Parent Topic:**[Building triggers](../concept/building-triggers.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
 

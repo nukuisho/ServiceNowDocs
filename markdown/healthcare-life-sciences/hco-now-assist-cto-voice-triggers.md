@@ -2,6 +2,7 @@
 title: Configure Care Team Operations Case Creation Voice AI agent triggers
 description: Change the trigger phrases used to call on the Care Team Operations Case Creation Voice AI agent via phone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-cto-voice-triggers.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"

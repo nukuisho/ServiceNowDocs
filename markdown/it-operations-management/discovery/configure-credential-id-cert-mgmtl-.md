@@ -1,7 +1,8 @@
 ---
-title: Configure Credential Identifier for Certificate Management credential type
+title: Configure IDs for Certificate Management credentials
 description: Ensure unique identification and effective management of credentials by configuring credential identifier for Certificate Inventory and Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-credential-id-cert-mgmtl-.html
 release: australia
 product: Discovery
 classification: discovery
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure Credential Identifier for Certificate Management credential type
+# Configure IDs for Certificate Management credentials
 
 Ensure unique identification and effective management of credentials by configuring credential identifier for Certificate Inventory and Management.
 

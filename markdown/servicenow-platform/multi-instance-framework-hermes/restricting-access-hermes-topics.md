@@ -2,6 +2,7 @@
 title: Restricting access to Hermes
 description: Restrict access to Hermes by IP address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/restricting-access-hermes-topics.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -19,19 +20,21 @@ You can filter client access to the Hermes cluster using the IP Address Access C
 
 To enable IP address filtering in the Hermes cluster, you must submit a request to Customer Service and Support.
 
-For details on configuring access rules in the IP Address Access Control module, see [IP Address Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_AccessControl.md).
+For details on configuring access rules in the IP Address Access Control module, see [IP Address Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_AccessControl.md).
 
--   **[Create an alert for unauthorized access](../task/create-alert-notification-hermes.md)**  
+-   **[Create an alert for unauthorized access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/create-alert-notification-hermes.md)**  
 Receive a notification when an attempt to access Hermes is received from an unauthorized IP address.
 
-**Parent Topic:**[Configuring Hermes Messaging Service](configuring-hermes-messaging-service.md)
+**Parent Topic:**[Configuring Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
 
 **Related topics**  
 
 
-[Activating the Hermes Messaging Service](hermes-messaging-service-activation.md)
+[Activating the Hermes Messaging Service]()
 
-[Set up a secure connection to the Hermes Messaging Service](../task/set-up-secure-connection-to-hermes.md)
+[Set up a secure connection to the Hermes Messaging Service]()
 
-[Revoke a Hermes certificate](../task/revoke-certificate.md)
+[Revoke a Hermes certificate]()
+
+[Enable encryption at rest for a Hermes topic]()
 

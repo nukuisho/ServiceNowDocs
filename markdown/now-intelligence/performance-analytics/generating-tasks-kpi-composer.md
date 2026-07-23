@@ -2,6 +2,7 @@
 title: Generating tasks in KPI Composer
 description: For each KPI Composer artifact in your project, you can generate a task to create an equivalent Performance Analytics element. All tasks are created with one action. The tasks are assigned automatically to the responsible group for implementing analytics.Assign the tasks in a KPI Composer project to a group. By default, tasks are assigned to the Analytics Implementers assignment group. You can add users and groups to this group, or you can select a different assignment group.Generate tasks for all sufficiently defined KPI Composer artifacts with a single action.KPI Composer tasks are defined in Task Definition \[sn\_kpi\_composer\_task\_definition\] records. When you generate tasks, you create these records or update their statuses.KPI Composer tasks utilize flows created with the ServiceNow AI Platform Flow Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/generating-tasks-kpi-composer.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -28,9 +29,9 @@ Tasks can be generated to create the following Performance Analytics and Reporti
 
 **Important:** To generate a task to create an element, the associated KPI Composer artifact definition must include all the required information. For example, to generate a task to create a breakdown or an automated indicator, the Name and the Facts Table must be specified in their definitions.
 
-![Definition of the Priority breakdown showing Name and Facts Table values.](../image/kpi-comp-required-bkdown-info.png "Definition of the Priority breakdown showing required information for tasks")
+\[Omitted image "kpi-comp-required-bkdown-info.png"\] Alt text: Definition of the Priority breakdown showing Name and Facts Table values.
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
 
 ## Assign KPI Composer tasks
 
@@ -44,7 +45,7 @@ Role required: sn\_kpi\_composer.user, sn\_kpi\_composer.admin, admin
 
 All tasks in a KPI Composer project are assigned to the same assignment group. After you generate tasks, the group handles them through its normal workflow.
 
-By default, tasks are assigned to the Analytics Implementers group, which is provided with KPI Composer. This group includes the pa\_admin role by default. Any users whom you add to this group are granted this role. Access this group from **User administration** &gt; **Groups**, or follow the **Analytics Implementers** link on the Tasks tile in the Review tab. You need the user\_admin role to edit this group. For more information about adding and removing users from this group, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
+By default, tasks are assigned to the Analytics Implementers group, which is provided with KPI Composer. This group includes the pa\_admin role by default. Any users whom you add to this group are granted this role. Access this group from **User administration** &gt; **Groups**, or follow the **Analytics Implementers** link on the Tasks tile in the Review tab. You need the user\_admin role to edit this group. For more information about adding and removing users from this group, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
 
 To change the assignment group, follow this procedure:
 
@@ -58,7 +59,7 @@ To change the assignment group, follow this procedure:
 
 4.  Find and select the **Clear** icon next to the name of the current assignment group.
 
-    ![Tasks tile in the Review tab of a KPI Composer project with the cursor on the Clear icon.](../image/kpi-comp-clear-asgmt-group.png)
+    \[Omitted image "kpi-comp-clear-asgmt-group.png"\] Alt text: Tasks tile in the Review tab of a KPI Composer project with the cursor on the Clear icon.
 
 5.  Confirm that you want to clear the assignment group.
 
@@ -66,7 +67,7 @@ To change the assignment group, follow this procedure:
 
     KPI Composer gives you a list of predicted matches.
 
-    ![Typing part of the name of an assignment group and being offered matches.](../image/kpi-comp-new-assgmt-group.png)
+    \[Omitted image "kpi-comp-new-assgmt-group.png"\] Alt text: Typing part of the name of an assignment group and being offered matches.
 
 7.  Select a group.
 
@@ -159,7 +160,7 @@ When you run the task generator, it determines the status of all tasks. Task gen
 4.  If the linked element exists and the status was previously set to OK, was the artifact definition subsequently updated? If so, the status is Update.
 5.  Otherwise, if the linked element exists, the status is OK.
 
-![Logic of the task generation job resulting in a task definition record status of: Deleted, Incomplete, Create, OK, or Update.](../image/kpi-comp-task-definition.png)
+\[Omitted image "kpi-comp-task-definition.png"\] Alt text: Logic of the task generation job resulting in a task definition record status of: Deleted, Incomplete, Create, OK, or Update.
 
 ### Artifact update tracking
 
@@ -216,9 +217,9 @@ You can modify either of these flows in the Flow Designer. However, rather than 
 
 The following diagrams summarize the provided flows:
 
-![KPI Composer - Analytics Task Flow.](../image/kpi-comp-analytics-task-flow.png)
+\[Omitted image "kpi-comp-analytics-task-flow.png"\] Alt text: KPI Composer - Analytics Task Flow.
 
-![KPI Composer - Task Definition flow](../image/kpi-comp-task-def-flow.png)
+\[Omitted image "kpi-comp-task-def-flow.png"\] Alt text: KPI Composer - Task Definition flow
 
 **Related topics**  
 

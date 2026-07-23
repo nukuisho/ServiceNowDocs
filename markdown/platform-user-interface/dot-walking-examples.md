@@ -2,6 +2,7 @@
 title: Dot-walking examples
 description: Access fields on a related table from a form, list, or script by dot-walking. This topic includes examples of the different ways that you can dot-walk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/dot-walking-examples.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,21 +20,21 @@ You can dot-walk to related fields in a list, such as the field list in a filter
 
 When you open the list of fields that you want to filter, you see the list of available Incident table fields. The reference fields are followed by the related fields. For example, **Caller** is followed by **Caller** &gt; **User fields**, which means that **Caller** is a reference field, and the related fields are user fields on the **Caller** record.
 
-![The Caller > User fields option.](../image/dotwalking1-ne.png)
+\[Omitted image "dotwalking1-ne.png"\] Alt text: The Caller &gt; User fields option.
 
 If the related fields are not present in the list, select **Show Related Fields** at the bottom of the list. When you select **Show Related Fields**, the menu reloads to display related fields.
 
-![The Show Related Fields option.](../image/dotwalking5-ne.png)
+\[Omitted image "dotwalking5-ne.png"\] Alt text: The Show Related Fields option.
 
 When you select a related field, the menu reloads with the fields of the related table. For example, when you select **Company** under **Caller → User fields**, the field then becomes **Caller.Company**Each selected reference is stored at the top of the fields menu, and the number of dots preceding the field label indicate how many dots from the initial record the user has reached.
 
 The following example image shows that the user is at **Incident.Caller.Company**. You can return to higher levels in the hierarchy by selecting fields located at the top of the menu. For instance, selecting **Incident fields** returns to the list of incident fields.
 
-![Dot-walked fields.](../image/dotwalking4-ne.png)
+\[Omitted image "dotwalking4-ne.png"\] Alt text: Dot-walked fields.
 
 The related fields can be removed by selecting **Remove Related Fields** at the bottom of the list.
 
-![The Remove Related Fields option.](../image/dotwalking6-ne.png)
+\[Omitted image "dotwalking6-ne.png"\] Alt text: The Remove Related Fields option.
 
 ## Condition builders
 
@@ -49,13 +50,13 @@ When selecting a list of fields from a list collector \(for example, when you're
 
 To see which fields are reference fields and can be dot-walked, look for fields with a plus symbol.
 
-![Reference fields](../image/Dotwalking7.png)
+\[Omitted image "Dotwalking7.png"\] Alt text: Reference fields
 
-Once a reference field is highlighted, the expand icon \(![Expand icon](../image/expand-icon.png)\) appears above the add icon.
+Once a reference field is highlighted, the expand icon \(\[Omitted image "expand-icon.png"\] Alt text: Expand icon\) appears above the add icon.
 
 Selecting the expand icon opens the list of fields from the related list in the **Available** pane. The following example shows that the **Assigned to** fields were selected. The previous lists of fields appear at the top of the list.
 
-![Lists of fields](../image/Dotwalking9.png)
+\[Omitted image "Dotwalking9.png"\] Alt text: Lists of fields
 
 Once the field is added to the **Selected** pane, it appears with its full dot-walked syntax. \(For example, **Assigned to.Active**\).
 
@@ -126,7 +127,7 @@ The tree picker interface has an expandable, hierarchical view that you can use 
 -   Members of a certain group. For example, you would use a tree picker to look up a user in the Service Desk group.
 -   Reference elements for any hierarchical table. A hierarchical table is any table that has a parent field pointing back at itself. The Group \[sys\_user\_group\] table, for example, would be considered a hierarchical table because certain groups are children of parent groups.
 
-**Note:** You can configure the tree picker to pick up to 1,000 nodes when you configure the **glide.ui.group\_heirarchy.max\_nodes** property. To set the property, open the [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md) for the field, and add `tree_picker=true` to the **Attributes** field. If there are multiple attributes, use a comma to separate them without any spaces between.
+**Note:** You can configure the tree picker to pick up to 1,000 nodes when you configure the **glide.ui.group\_heirarchy.max\_nodes** property. To set the property, open the [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DictionaryAttributes.md) for the field, and add `tree_picker=true` to the **Attributes** field. If there are multiple attributes, use a comma to separate them without any spaces between.
 
-**Parent Topic:**[Dot-walking to data in related tables](../concept/c_DotWalking.md)
+**Parent Topic:**[Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md)
 

@@ -2,6 +2,7 @@
 title: Cancel workplace contract in Core UI
 description: Cancel an active contract if it is no longer relevant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/cancel-lease-contract.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -34,12 +35,12 @@ Role required: sn\_wsd\_la.manager or sn\_wsd\_la.admin
 
 The contract state changes to Canceled.
 
-**Parent Topic:**[Manage workplace contracts from Core UI](../concept/manage-contracts-from-core-ui.md)
+**Parent Topic:**[Manage workplace contracts from Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/manage-contracts-from-core-ui.md)
 
 **Related topics**  
 
 
-[Renew workplace contract in Core UI](renew-lease-workplace-contracts.md)
+[Renew workplace contract in Core UI]()
 
-[Adjust workplace contract in Core UI](adjust-lease-contract.md)
+[Adjust workplace contract in Core UI]()
 

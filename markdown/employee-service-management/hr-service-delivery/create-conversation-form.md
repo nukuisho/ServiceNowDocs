@@ -2,6 +2,7 @@
 title: Create a conversation form
 description: Use the Create a conversation form to schedule a conversation with an employee when the Microsoft Outlook integration isn’t enabled for Manager Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-conversation-form.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -80,34 +81,34 @@ Cancel
 Close this conversation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Manager Hub](reference-manager-hub.md)
+</table>**Parent Topic:**[Reference for Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-manager-hub.md)
 
 **Related topics**  
 
 
-[Components installed with Manager Hub](installed-with-managerhub.md)
+[Components installed with Manager Hub]()
 
-[Campaign configurations for Manager Hub](../concept/manager-hub-campaign.md)
+[Campaign configurations for Manager Hub]()
 
-[Default configurations for important dates](../concept/manager-hub-imp-dates.md)
+[Default configurations for important dates]()
 
-[Default configurations for team requests](../concept/manager-hub-team-requests.md)
+[Default configurations for team requests]()
 
-[Default configurations for team data](../concept/team-data-config.md)
+[Default configurations for team data]()
 
-[Default configurations for team column data](../concept/config-team-column.md)
+[Default configurations for team column data]()
 
-[Default configurations for filter groups](../concept/config-filter-group.md)
+[Default configurations for filter groups]()
 
-[Default configurations for daily stats](../concept/config-daily-stats.md)
+[Default configurations for daily stats]()
 
-[Default configurations for To do's](../concept/manager-hub-todos.md)
+[Default configurations for To do's]()
 
-[Default proactive prompts for Manager Hub](../concept/prompts-mh.md)
+[Default proactive prompts for Manager Hub]()
 
-[Use the View menu icon in Manager Hub](view-menu.md)
+[Use the View menu icon in Manager Hub]()
 
-[Assign learning form](assign-learning-form.md)
+[Assign learning form]()
 
-[Schedule a conversation form](schedule-conversation-form.md)
+[Schedule a conversation form]()
 

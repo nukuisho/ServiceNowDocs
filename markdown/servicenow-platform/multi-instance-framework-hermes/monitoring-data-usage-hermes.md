@@ -2,6 +2,7 @@
 title: Monitoring data usage in Hermes
 description: Monitor data usage in Hermes over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/monitoring-data-usage-hermes.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -25,7 +26,7 @@ Usage data is calculated by aggregating the size of all messages sent to the clu
 -   Visualize data usage over time for all topics or a single topic.
 -   Compare data usage for topics that belong to an application.
 
-![Hermes Metrics Dashboard.](../images/hermes-usage-dashboard.png "Hermes Usage Dashboard")
+\[Omitted image "hermes-usage-dashboard.png"\] Alt text: Hermes Metrics Dashboard.
 
 ## Required roles
 
@@ -91,16 +92,18 @@ Topics with the prefix \[Internal\] are for applications used only by ServiceNow
 
 **Note:** When **All** is selected for both the Application ID and Hermes Topic, the Topic Usage Data table displays two roll-up rows: one for external topics \(\*All Topics\*\) and one for internal topics \(\[Internal\]\*All Topics\*\).
 
-**Parent Topic:**[Administering Hermes Messaging Service](hermes-messaging-service-administration.md)
+**Parent Topic:**[Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
 
 **Related topics**  
 
 
-[Check the status of and connection to the Hermes Kafka cluster](../task/run-hermes-messaging-service-diagnostics.md)
+[Managing Hermes settings]()
 
-[Tracking message usage in Hermes](tracking-hermes-messaging-service-usage.md)
+[Check the status of and connection to the Hermes Kafka cluster]()
 
-[Cloning with Hermes Messaging Service enabled](cloning-with-hermes-messaging-service.md)
+[Tracking message usage in Hermes]()
 
-[View Hermes Messaging Service log messages](../task/view-hermes-log-messages.md)
+[Cloning with Hermes Messaging Service enabled]()
+
+[View Hermes Messaging Service log messages]()
 

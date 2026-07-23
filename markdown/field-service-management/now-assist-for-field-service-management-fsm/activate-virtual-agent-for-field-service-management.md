@@ -2,6 +2,7 @@
 title: Create an Assistant for Field Service Management
 description: Set up a Now Assist in Virtual Agent to help Field Service technicians summarize work order tasks and find relevant Knowledge Base articles to complete their tasks efficiently from the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/activate-virtual-agent-for-field-service-management.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -39,7 +40,7 @@ To set up and control who has access to the AI agents and the workflows they man
 
 3.  Review each of the seven guided setup steps:
 
-    All of the guided setup steps are preconfigured. No changes are required to complete the setup.![Overview page of the guided setup](../image/nava-for-fsm.png)
+    All of the guided setup steps are preconfigured. No changes are required to complete the setup.\[Omitted image "nava-for-fsm.png"\] Alt text: Overview page of the guided setup
 
     |Guided Setup Steps|Description|
     |------------------|-----------|

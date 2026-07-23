@@ -2,6 +2,7 @@
 title: OAuth client APIs
 description: The OAuth client API provides methods to request and revoke OAuth tokens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_OAuthClientAPIs.html
 release: australia
 product: Authentication
 classification: authentication

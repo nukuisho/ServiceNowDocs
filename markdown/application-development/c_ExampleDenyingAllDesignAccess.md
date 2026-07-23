@@ -2,6 +2,7 @@
 title: Example denying all design access to a table
 description: You can prevent other application scopes from creating configuration records on application data tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ExampleDenyingAllDesignAccess.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,11 +26,11 @@ Typically, this is to prevent any other applications from changing the functiona
 |**Allow access to this table via web services**|Disabled|
 |**Allow configuration**|Disabled|
 
-![Limiting design-time access to this application scope only](../image/DenyingAllRuntimeAccess.png "Limiting design-time access to this application scope only")
+\[Omitted image "DenyingAllRuntimeAccess.png"\] Alt text: Limiting design-time access to this application scope only
 
 The following diagram illustrates the effect of denying other application scopes the ability to create configuration records.
 
-![Limiting design access to this application scope only](../image/EffectsOfDenyAllDesignTimeAccess.png "Limiting design access to this application scope only")
+\[Omitted image "EffectsOfDenyAllDesignTimeAccess.png"\] Alt text: Limiting design access to this application scope only
 
-**Parent Topic:**[Design-time access to application tables](c_DesignTimeAccessToAppTables.md)
+**Parent Topic:**[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DesignTimeAccessToAppTables.md)
 

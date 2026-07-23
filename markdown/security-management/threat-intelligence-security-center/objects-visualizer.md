@@ -2,20 +2,21 @@
 title: View details in Visualizer
 description: Using the Visualizer, you can view the relationships between objects, observables and indicators which provides context for you to further investigate. The Visualizer uses colors and icons to illustrate various information about the objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/objects-visualizer.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Observables, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # View details in Visualizer
 
 Using the Visualizer, you can view the relationships between objects, observables and indicators which provides context for you to further investigate. The Visualizer uses colors and icons to illustrate various information about the objects.
 
-![Objects Visualizer](../image/tisc-visualizer.png)
+\[Omitted image "tisc-visualizer.png"\] Alt text: Objects Visualizer
 
 You can do the following:
 
@@ -26,8 +27,8 @@ You can do the following:
 
 -   You can also click on the pop out icon to view the graph in a much larger window.
 
--   **[Link node actions in Relationship Graph](../task/tisc-link-nodes.md)**  
-Add new related records to link the nodes.
+-   **[Link nodes in the Relationship Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-link-nodes.md)**  
+Use Relationship Graph to link the nodes. Use filters to select specific nodes to investigate.
 
-**Parent Topic:**[Observables](observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/observables.md)
 

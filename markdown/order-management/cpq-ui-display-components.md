@@ -1,17 +1,18 @@
 ---
 title: UI display components
-description: View examples of picklist, text, and number fields as they appear to end users in the CPQ UI.
+description: View examples of picklist, text, and number fields as they appear to end users in the ServiceNow CPQ UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-ui-display-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-16"
 reading_time_minutes: 2
-breadcrumb: [CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # UI display components
 
-View examples of picklist, text, and number fields as they appear to end users in the CPQ UI.
+View examples of picklist, text, and number fields as they appear to end users in the ServiceNow CPQ UI.
 
 ## Picklist fields
 
@@ -41,7 +42,7 @@ Notes
 
 </td><td>
 
-![Radio buttons in horizontal direction](../images/cpq_display-components-radio-buttons.png)
+\[Omitted image "cpq\_display-components-radio-buttons.png"\] Alt text: Radio buttons in horizontal direction
 
 </td><td>
 
@@ -57,7 +58,7 @@ Single-select
 
 </td><td>
 
-![Radio buttons in vertical direction](../images/cpq_display-components-vertical-radio.png)
+\[Omitted image "cpq\_display-components-vertical-radio.png"\] Alt text: Radio buttons in vertical direction
 
 </td><td>
 
@@ -73,7 +74,7 @@ Single-select
 
 </td><td>
 
-![Options](../images/cpq_display-components-radio.png)
+\[Omitted image "cpq\_display-components-radio.png"\] Alt text: Options
 
 </td><td>
 
@@ -89,7 +90,7 @@ Single-select
 
 </td><td>
 
-![Check boxes in horizontal direction](../images/cpq_display-components-checkbox.png)
+\[Omitted image "cpq\_display-components-checkbox.png"\] Alt text: Check boxes in horizontal direction
 
 </td><td>
 
@@ -105,7 +106,7 @@ Multi-select
 
 </td><td>
 
-![Check boxes in vertical direction](../images/cpq_display-components-vertical-checkbox.png)
+\[Omitted image "cpq\_display-components-vertical-checkbox.png"\] Alt text: Check boxes in vertical direction
 
 </td><td>
 
@@ -121,7 +122,7 @@ Multi-select
 
 </td><td>
 
-![Picklist with multiple options](../images/cpq_display-components-picklist.png)![Picklist with a single option](../images/cpq_display-components-picklist-2.png)
+\[Omitted image "cpq\_display-components-picklist.png"\] Alt text: Picklist with multiple options\[Omitted image "cpq\_display-components-picklist-2.png"\] Alt text: Picklist with a single option
 
 </td><td>
 
@@ -137,7 +138,7 @@ Single-select; includes combo box for filtering
 
 </td><td>
 
-![Basic picklist](../images/cpq_display-components-basic-picklist.png)![Basic picklist with a single option](../images/cpq_display-components-basic-picklist-2.png)
+\[Omitted image "cpq\_display-components-basic-picklist.png"\] Alt text: Basic picklist\[Omitted image "cpq\_display-components-basic-picklist-2.png"\] Alt text: Basic picklist with a single option
 
 </td><td>
 
@@ -153,7 +154,7 @@ Single-select; selection only; no combo box for filtering
 
 </td><td>
 
-![Multi select picklist](../images/cpq_display-components-multiselect-picklist.png)![Multiple options](../images/cpq_display-components-multiselect-picklist-2.png)![Multiselect - picklist](../images/cpq_display-components-multiselect-picklist-3.png)
+\[Omitted image "cpq\_display-components-multiselect-picklist.png"\] Alt text: Multi select picklist\[Omitted image "cpq\_display-components-multiselect-picklist-2.png"\] Alt text: Multiple options\[Omitted image "cpq\_display-components-multiselect-picklist-3.png"\] Alt text: Multiselect - picklist
 
 </td><td>
 
@@ -169,7 +170,7 @@ Multi-select; includes combo box for filtering
 
 </td><td>
 
-![Visual picker options](../images/cpq_display-components-visual-picker.png)
+\[Omitted image "cpq\_display-components-visual-picker.png"\] Alt text: Visual picker options
 
 </td><td>
 
@@ -185,7 +186,7 @@ Single-select using images
 
 </td><td>
 
-![Visual pickers to select multiple options](../images/cpq_display-components-multiselect-visual-picker.png)
+\[Omitted image "cpq\_display-components-multiselect-visual-picker.png"\] Alt text: Visual pickers to select multiple options
 
 </td><td>
 
@@ -201,7 +202,7 @@ Multi-select using images
 
 </td><td>
 
-![Extended picklist](../images/cpq_display-components-extended-picklist-1.png)![ERP application image](../images/cpq_display-components-extended-picklist-2.png)
+\[Omitted image "cpq\_display-components-extended-picklist-1.png"\] Alt text: Extended picklist\[Omitted image "cpq\_display-components-extended-picklist-2.png"\] Alt text: ERP application image
 
 </td><td>
 
@@ -217,7 +218,7 @@ Single-select using images; picklist extension; includes combo box for filtering
 
 </td><td>
 
-![MultiSelectExtendedPicklistappearing as a list](../images/cpq_display-components-multiselect-extended-picklist-1.png)![MultiSelectExtendedPicklist appearing as different options](../images/cpq_display-components-multiselect-extended-picklist-2.png)
+\[Omitted image "cpq\_display-components-multiselect-extended-picklist-1.png"\] Alt text: MultiSelectExtendedPicklistappearing as a list\[Omitted image "cpq\_display-components-multiselect-extended-picklist-2.png"\] Alt text: MultiSelectExtendedPicklist appearing as different options
 
 </td><td>
 
@@ -237,7 +238,7 @@ Multi-select using images; picklist extension; includes combo box for filtering
 
 </td><td>
 
-![ExtendedPicklistDisplayOnly](../images/cpq_display-components-extended-picklist-display-only.png)
+\[Omitted image "cpq\_display-components-extended-picklist-display-only.png"\] Alt text: ExtendedPicklistDisplayOnly
 
 </td><td>
 
@@ -257,7 +258,7 @@ Single-select using images; picklist extension; includes combo box for filtering
 
 </td><td>
 
-![MultiSelectExtendedPicklistDisplayOnly](../images/cpq_display-components-multiselect-extended-picklist-display-only.png)
+\[Omitted image "cpq\_display-components-multiselect-extended-picklist-display-only.png"\] Alt text: MultiSelectExtendedPicklistDisplayOnly
 
 </td><td>
 
@@ -277,7 +278,7 @@ Multi-select using images; picklist extension; includes combo box for filtering
 
 </td><td>
 
-![SingleSelectPicklistGrid](../images/cpq_display-components-single-select-picklist-grid.png)
+\[Omitted image "cpq\_display-components-single-select-picklist-grid.png"\] Alt text: SingleSelectPicklistGrid
 
 </td><td>
 
@@ -297,7 +298,7 @@ Single-select using images; picklist extension
 
 </td><td>
 
-![MultiSelectPicklistGrid](../images/cpq_display-components-multiselect-picklist-grid.png)
+\[Omitted image "cpq\_display-components-multiselect-picklist-grid.png"\] Alt text: MultiSelectPicklistGrid
 
 </td><td>
 
@@ -327,7 +328,7 @@ Multi-select using images; picklist extension
 
 </td><td>
 
-![SingleSelectProductPickerGrid](../images/cpq_display-components-single-select-product-picker-grid.png)
+\[Omitted image "cpq\_display-components-single-select-product-picker-grid.png"\] Alt text: SingleSelectProductPickerGrid
 
 </td><td>
 
@@ -357,7 +358,7 @@ Single-select using images; product picker
 
 </td><td>
 
-![MultiSelectProductPickerGrid](../images/cpq_display-components-multiselect-product-picker-grid.png)
+\[Omitted image "cpq\_display-components-multiselect-product-picker-grid.png"\] Alt text: MultiSelectProductPickerGrid
 
 </td><td>
 
@@ -374,7 +375,7 @@ Multi-select using images; product picker
 
 </td><td>
 
-![VisualProductPicker](../images/cpq_display-components-visual-product-picker.png)
+\[Omitted image "cpq\_display-components-visual-product-picker.png"\] Alt text: VisualProductPicker
 
 </td><td>
 
@@ -391,7 +392,7 @@ Single-select using images; product picker
 
 </td><td>
 
-![MultiSelectVisualProductPicker](../images/cpq_display-components-multiselect-visual-product-picker.png)
+\[Omitted image "cpq\_display-components-multiselect-visual-product-picker.png"\] Alt text: MultiSelectVisualProductPicker
 
 </td><td>
 
@@ -402,12 +403,12 @@ Multi-select using images; product picker
 
 |Name|Options|Appearance|Notes|
 |----|-------|----------|-----|
-|**Text**| |![Text field](../images/cpq_display-components-text.png)| |
-|**TextArea**| |![TextArea](../images/cpq_display-components-text-area.png)| |
-|**ReadOnlyText**| |![ReadOnlyText](../images/cpq_display-components-read-only-text.png)|Supports markdown formatting, including links and inserting content from other fields|
-|**Date**| |![Calendar](../images/cpq_display-components-date.png)| |
-|**FormattedNumber**| |![Formatted number field](../images/cpq_display-components-formatted-number.png)|Supports units before or after number, displayed within the input|
-|**LocationLookup**| |![Lookup selection list](../images/cpq_display-components-location-lookup.png)|Accesses Google API and returns location data, which can be inserted into specified fields|
+|**Text**| |\[Omitted image "cpq\_display-components-text.png"\] Alt text: Text field| |
+|**TextArea**| |\[Omitted image "cpq\_display-components-text-area.png"\] Alt text: TextArea| |
+|**ReadOnlyText**| |\[Omitted image "cpq\_display-components-read-only-text.png"\] Alt text: ReadOnlyText|Supports markdown formatting, including links and inserting content from other fields|
+|**Date**| |\[Omitted image "cpq\_display-components-date.png"\] Alt text: Calendar| |
+|**FormattedNumber**| |\[Omitted image "cpq\_display-components-formatted-number.png"\] Alt text: Formatted number field|Supports units before or after number, displayed within the input|
+|**LocationLookup**| |\[Omitted image "cpq\_display-components-location-lookup.png"\] Alt text: Lookup selection list|Accesses Google API and returns location data, which can be inserted into specified fields|
 
 ## Number fields
 
@@ -439,7 +440,7 @@ Minimum and maximum values; step size
 
 </td><td>
 
-![NUmber field](../images/cpq_display-components-number.png)
+\[Omitted image "cpq\_display-components-number.png"\] Alt text: NUmber field
 
 </td><td>
 
@@ -457,7 +458,7 @@ Minimum and maximum values; step size
 
 </td><td>
 
-![Slider](../images/cpq_display-components-slider.png)
+\[Omitted image "cpq\_display-components-slider.png"\] Alt text: Slider
 
 </td><td>
 
@@ -473,7 +474,7 @@ Button label
 
 </td><td>
 
-![Number with Submit](../images/cpq_display-components-number-with-submit.png)
+\[Omitted image "cpq\_display-components-number-with-submit.png"\] Alt text: Number with Submit
 
 </td><td>
 
@@ -484,7 +485,7 @@ Button label
 
 |Name|Options|Appearance|Notes|
 |----|-------|----------|-----|
-|**Boolean**|Labels for true and false states|![Boolean field](../images/cpq_display-components-boolean.png)| |
+|**Boolean**|Labels for true and false states|\[Omitted image "cpq\_display-components-boolean.png"\] Alt text: Boolean field| |
 
-**Parent Topic:**[CPQ reference](servicenow-cpq-reference.md)
+**Parent Topic:**[ServiceNow CPQ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

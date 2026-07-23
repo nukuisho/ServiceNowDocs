@@ -2,6 +2,7 @@
 title: Set up the Next Experience email client in the Core UI
 description: Access email features from the Next Experience in the Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-next-experience-email-client-core-ui.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ The **glide.ui.load\_seismic\_email\_client** system property provides access to
 
 There's two places you can access the Next Experience email client from the Core UI.
 
--   Access the email client from the More Actions menu \(![More Actions icon](../image/x-more-actions-icon.png)\).
+-   Access the email client from the More Actions menu \(\[Omitted image "x-more-actions-icon.png"\] Alt text: More Actions icon\).
 -   Access the email client from an Activity stream email card by selecting **Reply**, **Reply All**, or **Forward**.
 
 The Next Experience email client provides these features in the Core UI.
@@ -46,12 +47,12 @@ These Core UI email client features aren’t available after enabling the Next E
 
 2.  Add a system property named **glide.ui.load\_seismic\_email\_client**.
 
-    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set the Value field to **true**.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Forms in the classic environment](../../../use/using-forms/concept/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
 

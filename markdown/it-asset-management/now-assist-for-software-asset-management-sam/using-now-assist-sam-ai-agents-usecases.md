@@ -2,13 +2,14 @@
 title: Using agentic workflows in Now Assist for SAM
 description: Use the Now Assist for SAM AI agent collection to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.html
 release: australia
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Using agentic workflows in Now Assist for SAM
@@ -39,6 +40,7 @@ Fulfill a software asset request by either allocating the available entitlements
 
 -   Software entitlement allocation AI agent
 -   Purchase order creation AI agent
+-   Microsoft license assignment AI agent
 
 </td></tr><tr><td>
 
@@ -75,12 +77,12 @@ Activate the trigger to invoke the agentic workflow automatically. If you prefer
 
 There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
--   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow](now-assist-sam-fulfill-sw-asset-requests-workflow.md)**  
+-   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-fulfill-sw-asset-requests-workflow.md)**  
 Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.
--   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to evaluate software removal candidate agentic workflow](now-assist-sam-evaluate-removal-candidate-workflow.md)**  
+-   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to evaluate software removal candidate agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-evaluate-removal-candidate-workflow.md)**  
 Use the Evaluate software removal candidate agentic workflow to assess installed or subscription-based software for potential removal by analyzing their usage over a specified period and determining the total number eligible for removal. After user confirmation, the workflow proceeds to reclaim the eligible software, effectively removing them.
--   **[now-assist-sam-create-software-reclamation-rule-workflow.md](now-assist-sam-create-software-reclamation-rule-workflow.md)**  
+-   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to create software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-create-software-reclamation-rule-workflow.md)**  
+Use the Create software reclamation rule agentic workflow to automatically create reclamation rules by identifying software products that lack reclamation rules but are viable candidates.
 
-
-**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](now-assist-sam.md)
+**Parent Topic:**[Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)
 

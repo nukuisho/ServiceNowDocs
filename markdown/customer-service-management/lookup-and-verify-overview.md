@@ -2,6 +2,7 @@
 title: Lookup and verify
 description: The lookup and verify feature enables customer service agents to quickly look up contacts or consumers using information such as the name, phone number, or record number.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/lookup-and-verify-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +21,7 @@ This feature simplifies the process of looking up and verifying contact or consu
 
 **Note:** If this information has already been verified, such as through a customer portal login or authentication by Virtual Agent or by an IVR, the **Verified** check box on the interaction record is checked.
 
-Agents can access the search window on the interaction record by selecting the Verify Contact icon \(![Verify contact icon.](../image/config-ws-lookup-verify-contact.png)\) or the Verify Consumer icon \(![Verify consumer icon.](../image/config-ws-lookup-verify-consumer.png)\) in the contextual side panel.
+Agents can access the search window on the interaction record by selecting the Verify Contact icon \(\[Omitted image "config-ws-lookup-verify-contact.png"\] Alt text: Verify contact icon.\) or the Verify Consumer icon \(\[Omitted image "config-ws-lookup-verify-consumer.png"\] Alt text: Verify consumer icon.\) in the contextual side panel.
 
 Agents can perform a type-ahead search across multiple configurable fields such as name, phone number, email address, and record number. From the search results list, agents can select a result to display detailed information for the contact or consumer in a verification card. Once verified, the system adds the information to the interaction record and checks the **Verified** check box.
 
@@ -72,5 +73,5 @@ The lookup and verify feature uses the following tables:
 **Related topics**  
 
 
-[Look up and verify a contact or consumer](../task/lookup-verify-contact-consumer.md)
+[Look up and verify a contact or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/lookup-verify-contact-consumer.md)
 

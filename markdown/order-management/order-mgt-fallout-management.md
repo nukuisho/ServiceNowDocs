@@ -2,6 +2,7 @@
 title: Fallout Management data model
 description: Manage and fix the processing issues that occur during the fulfillment of a customer or service order. With Fallout Management, you can identify the order processing exceptions and create a fallout record to investigate and resolve the underlying processing issue. Fallout Management enables a customer or service order to continue until it's completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-fallout-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -108,9 +109,9 @@ Activity
 
 Listing of the processing activities and changes in the field values that have taken place for the fallout record. To expand, collapse, or filter by activity stream:
 
--   Select the activity stream filter icon ![](../image/activity-stream-filter.png) to filter by post types, field changes, or flagged items.
--   Select the search icon ![](../image/field-search.png) to search the required information in the activity stream.
--   Select the sort descending icon ![](../../../reuse/icons/product-icons/sort-descending-outline-24.svg) to sort the activity from oldest to newest or select the sort ascending icon ![](../../../reuse/icons/product-icons/sort-ascending-fill-24.svg) for the opposite action.
+-   Select the activity stream filter icon \[Omitted image "activity-stream-filter.png"\] Alt text: to filter by post types, field changes, or flagged items.
+-   Select the search icon \[Omitted image "field-search.png"\] Alt text: to search the required information in the activity stream.
+-   Select the sort descending icon \[Omitted image "sort-descending-outline-24.svg"\] Alt text: to sort the activity from oldest to newest or select the sort ascending icon \[Omitted image "sort-ascending-fill-24.svg"\] Alt text: for the opposite action.
 
 </td></tr><tr><td>
 
@@ -121,18 +122,18 @@ Attachments
 File attachments for the fallout record. Select **Browse** to add the file as an attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](../reference/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
 
 **Related topics**  
 
 
-[Managing order fallout](fallout-management-overview.md)
+[Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fallout-management-overview.md)
 
-[Creating automated fallout records](creating-automated-manual-fallout-records.md)
+[Creating automated fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-automated-manual-fallout-records.md)
 
 [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md)
 
-[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
+[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flows.md)
 
-[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
+[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md)
 

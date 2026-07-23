@@ -2,13 +2,14 @@
 title: Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)
 description: Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Explore Now Assist Sourcing Procurement, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Explore, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)
@@ -107,12 +108,12 @@ Activate the applications in the following order:
 3.  Now Assist for FSC Common \(sn\_fsc\_genai\)
 4.  Now Assist for Sourcing and Procurement Operations \(SPO\) \(sn\_spend\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](../task/configure-now-assist-for-spo.md).
+For more information, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 
-**Parent Topic:**[Explore Now Assist for Sourcing and Procurement Operations \(SPO\)](now-assist-spo-exploring.md)
+**Parent Topic:**[Explore Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md)
 
 **Related topics**  
 
 
-[Automatically assign categories during SR and PR creation](automatically-assign-categories.md)
+[Automatically assign categories during SR and PR creation]()
 

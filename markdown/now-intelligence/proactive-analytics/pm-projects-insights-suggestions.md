@@ -2,6 +2,7 @@
 title: Creating Process Mining projects from Proactive Analytics suggestions
 description: If you are using Proactive analytics with Process Mining, Proactive analytics can suggest new Process Mining projects. A single click from a suggestion creates and runs the project.If your instance meets the requirements, you can create Process Mining projects from Suggestions cards in your Insights panel. Such projects generate their own insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/proactive-analytics/pm-projects-insights-suggestions.html
 release: australia
 product: Proactive Analytics
 classification: proactive-analytics
@@ -28,17 +29,17 @@ The feature works through a scheduled job, PA Indicator Recommendations. This jo
 ## Requirements for the suggestions to be created
 
 -   The facts tables for the relevant indicators must be set up to generate audit logs. For more information, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md).
--   A process configuration must exist for the facts tables of the relevant indicators. For more information, see [Create process configuration using Classic view](../../../administer/process-mining/task/create-process-config.md).
--   A template project with table configurations specific to the facts table of the indicators should exist. To create such a project, see [Create a project or template using Project Builder](../../../administer/process-mining/task/define-workflow-model.md).
+-   A process configuration must exist for the facts tables of the relevant indicators. For more information, see [Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-process-config.md).
+-   A template project with table configurations specific to the facts table of the indicators should exist. To create such a project, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md).
 
 ## Requirements for insights to be created from the new project
 
-Automated finding definitions must exist within the relevant process configurations, to ensure that the indicators are linked through the **Impacted KPIs** field. For more information, see [Configuring improvement opportunities](../../../administer/process-mining/concept/configuring-finding-definitions.md).
+Automated finding definitions must exist within the relevant process configurations, to ensure that the indicators are linked through the **Impacted KPIs** field. For more information, see [Configuring improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/configuring-finding-definitions.md).
 
 **Related topics**  
 
 
-[Dashboards in Platform Analytics](analytics-center-dashboards.md)
+[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md)
 
 ## Create a process mining project from a suggestion
 
@@ -60,11 +61,11 @@ Role required: sn\_process\_optimization\_analyst
 
 4.  Open the Suggestions tab and review the suggestions.
 
-    ![Suggestions tab in the Insights panel, showing a suggestion.](../image/insights-suggestions.png)
+    \[Omitted image "insights-suggestions.png"\] Alt text: Suggestions tab in the Insights panel, showing a suggestion.
 
 5.  In each suggestion, select all the indicators for which you want to create Process Mining projects.
 
-    ![Suggestion card with an indicator selected.](../image/insights-selected-suggestions.png)
+    \[Omitted image "insights-selected-suggestions.png"\] Alt text: Suggestion card with an indicator selected.
 
 6.  Start the process analysis.
 
@@ -73,9 +74,9 @@ Role required: sn\_process\_optimization\_analyst
 
 The system generates and runs the Process Mining project. You can follow the progress in the Suggestion card. When the process is complete, the Suggestion provides a link to any insights that the project created.
 
-![Suggestion card showing that the suggested project has been run.](../image/insights-promin-project-complete.png)
+\[Omitted image "insights-promin-project-complete.png"\] Alt text: Suggestion card showing that the suggested project has been run.
 
 If you select **See insights**, you see the cards for the insights that the project created. From such an insight card, you can open the Process Mining Analyst Workbench for the project.
 
-![Insights card generated from Process Mining project created from a suggestion.](../image/insights-promin-generated.png)
+\[Omitted image "insights-promin-generated.png"\] Alt text: Insights card generated from Process Mining project created from a suggestion.
 

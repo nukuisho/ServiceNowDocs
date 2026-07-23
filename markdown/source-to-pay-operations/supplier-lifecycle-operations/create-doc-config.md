@@ -2,6 +2,7 @@
 title: Create a supplier document configuration
 description: Create a supplier document configuration to define when to run the configuration, who can view the upload request and upload the documents, and whether to send notifications when documents are uploaded or have expired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-doc-config.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,7 +16,7 @@ breadcrumb: [Supplier Document Management, Configure, Supplier Lifecycle Operati
 
 Create a supplier document configuration to define when to run the configuration, who can view the upload request and upload the documents, and whether to send notifications when documents are uploaded or have expired.
 
-Create a supplier document configuration 
+\[Omitted video\] Description: Create a supplier document configuration
 
 ## Before you begin
 
@@ -25,15 +26,15 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 1.  Do one of the following.
 
-<table id="choicetable_ur2_ykv_dvb"><thead><tr><th align="left" id="d89685e70">
+<table id="choicetable_ur2_ykv_dvb"><thead><tr><th align="left" id="d61467e70">
 
 To
 
-</th><th align="left" id="d89685e73">
+</th><th align="left" id="d61467e73">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d89685e79">
+</th></tr></thead><tbody><tr><td id="d61467e79">
 
 **Create a document configuration from the Platform UI**
 
@@ -41,14 +42,14 @@ Do This
 
 Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Administration** &gt; **Document Configuration**
 
-</td></tr><tr><td id="d89685e103">
+</td></tr><tr><td id="d61467e103">
 
 **Create a document configuration from the Source-to-Pay Workspace**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and navigate to **Lists** &gt; **Administration** &gt; **Document Configuration**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Administration** &gt; **Document Configuration**.
 
 
 </td></tr></tbody>
@@ -64,7 +65,7 @@ Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Administration
     |Active|Option to decide if this configuration is in use.|
     |Description|A brief description of the configuration.|
 
-4.  Select the **Run condition** tab and fill in the fields.![Selected Run condition tab.](../image/supplier-document-config-run-condition.png)
+4.  Select the **Run condition** tab and fill in the fields.\[Omitted image "supplier-document-config-run-condition.png"\] Alt text: Selected Run condition tab.
 
 <table id="table_cy1_twr_z5b"><thead><tr><th>
 
@@ -82,7 +83,7 @@ When to run
 
 When you want the configuration to run. The choices are:-   **On demand**: The configuration runs when you select **Execute Now** on the Supplier Document Configuration form.
 
-You can use this option to run the configuration immediately without waiting for the other run conditions to be met. For more information, see [Manually run a supplier document configuration](run-doc-config.md).
+You can use this option to run the configuration immediately without waiting for the other run conditions to be met. For more information, see [Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md).
 
 -   **When supplier record inserted**: The configuration runs when a new supplier record is created.
 -   **When supplier record updated**: The configuration runs when an existing supplier record is updated.
@@ -106,7 +107,7 @@ Advanced
 Option to use a script to specify when the configuration is run.
 
 </td></tr></tbody>
-</table>5.  Select the **Upload preferences** tab and fill in the fields.![Selectd Upload preferences tab.](../image/supplier-document-config-upload-preferences.png)
+</table>5.  Select the **Upload preferences** tab and fill in the fields.\[Omitted image "supplier-document-config-upload-preferences.png"\] Alt text: Selectd Upload preferences tab.
 
 <table id="table_wg2_5wr_z5b"><thead><tr><th>
 
@@ -124,7 +125,7 @@ Required from
 
 Specify who must upload the document. The choices are:-   **Anyone**: Requires any one of the supplier contacts to upload the required document. With this option, the supplier contact can upload a document from the Document widget on the My Company page of the Supplier Collaboration Portal.
 
-For more information, see [Manage documents from the Supplier Collaboration Portal](upload-doc-portal.md).
+For more information, see [Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md).
 
 -   **Everyone**: Requires each supplier contact to upload the required document.
 
@@ -135,10 +136,10 @@ With this option, the supplier contact can upload the document from either of th
     -   ****Documents widget on the My Company page
     -   Upload Document task on the My To-dos page
 
-For more information, see [Manage documents from the Supplier Collaboration Portal](upload-doc-portal.md).
+For more information, see [Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md).
 
 </td></tr></tbody>
-</table>6.  Select the **Manage access** tab and fill in the fields.![Selected Manage access tab.](../image/supplier-document-config-manage-access.png)
+</table>6.  Select the **Manage access** tab and fill in the fields.\[Omitted image "supplier-document-config-manage-access.png"\] Alt text: Selected Manage access tab.
 
     |Field|Description|
     |-----|-----------|
@@ -148,7 +149,7 @@ For more information, see [Manage documents from the Supplier Collaboration Port
 
     **Note:** On the **Manage access** tab, assign access to users or user groups based on the user criteria permissions.
 
-7.  Select the **Notification** tab and fill in the fields.![Selected Notification tab.](../image/supplier-document-config-notification.png)
+7.  Select the **Notification** tab and fill in the fields.\[Omitted image "supplier-document-config-notification.png"\] Alt text: Selected Notification tab.
 
 <table id="table_p13_ywr_z5b"><thead><tr><th>
 
@@ -204,7 +205,7 @@ The user that you want to notify when the document expires.This field becomes av
     **Note:** If you want to create a supplier document type from the Source-to-Pay Workspace, do the following:
 
     1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
-    2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and navigate to **Lists** &gt; **Administration** &gt; **Document Configuration**.
+    2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Administration** &gt; **Document Configuration**.
     3.  Open a supplier document configuration, select the **Supplier Document Types** tab, and then select **New**.
 10. On the form, fill in the fields.
 
@@ -270,7 +271,7 @@ Template
 
 </td><td>
 
-Option that enables you to attach a template that specifies the expected format of the document to upload.Select the Manage Attachments icon \(![Add attachments icon.](../image/attachments-icon.png)\) to attach a template.
+Option that enables you to attach a template that specifies the expected format of the document to upload.Select the Manage Attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Add attachments icon.\) to attach a template.
 
 </td></tr><tr><td>
 
@@ -288,18 +289,18 @@ A brief description of the document type.
 12. Select **Submit**.
 
 
-**Parent Topic:**[Supplier Document Management](../concept/supp-doc-mgmt-overview.md)
+**Parent Topic:**[Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md)
 
 **Related topics**  
 
 
-[Manually run a supplier document configuration](run-doc-config.md)
+[Manually run a supplier document configuration]()
 
-[Uploading supplier documents](../concept/upload-doc-about.md)
+[Uploading supplier documents]()
 
-[Configure document expiration monitoring attributes](configure-document-expiration-monitoring-attributes.md)
+[Configure document expiration monitoring attributes]()
 
-[Manually run a supplier document configuration](run-doc-config.md)
+[Manually run a supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-doc-config.md)
 
-[Uploading supplier documents](../concept/upload-doc-about.md)
+[Uploading supplier documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-about.md)
 

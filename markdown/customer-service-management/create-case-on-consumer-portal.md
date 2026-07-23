@@ -1,7 +1,8 @@
 ---
 title: Get product help from the Consumer Portal
-description: Create cases from the Consumer Portal using the consumer role.
+description: Submit a case from the Consumer Portal to get help with a product question or issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-on-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,7 +12,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Get product help from the Consumer Portal
 
-Create cases from the Consumer Portal using the consumer role.
+Submit a case from the Consumer Portal to get help with a product question or issue.
 
 ## Before you begin
 
@@ -82,4 +83,11 @@ Detailed description of the issue.**Note:** When you start entering the subject,
 ## Result
 
 The new case is created and added to the Cases list. To view the case, select the link in the case creation message or select **Requests** &gt; **View submitted requests** &gt; **View cases and tasks** from the portal header, and then select the case number.
+
+**Related topics**  
+
+
+[View cases and tasks from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-cases-on-consumer-portal.md)
+
+[Chat with an agent from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-chat-agent-on-consumer-portal.md)
 

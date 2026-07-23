@@ -2,6 +2,7 @@
 title: Knowledge articles in Care Team Mobile
 description: Browse and view relevant knowledge articles directly within Care Team Mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-mobile-knowledge-articles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Explore, Care Team Mobile, Healthcare Operations, Healthcare and Li
 
 Browse and view relevant knowledge articles directly within Care Team Mobile.
 
-![Knowledge articles in Care Team Mobile.](../image/hcls-cto-mobile-knowledge-articles.png)
+\[Omitted image "hcls-cto-mobile-knowledge-articles.png"\] Alt text: Knowledge articles in Care Team Mobile.
 
 Select **Articles** to view knowledge articles organized by categories.
 

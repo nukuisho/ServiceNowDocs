@@ -2,6 +2,7 @@
 title: Create a checklist template
 description: Create a checklist template. Manufacturers can use the checklist template to create checklists for verification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-checklist-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,11 +20,15 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Setup** &gt; **Checklist Template**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
 
-2.  Select **New**.
+2.  Select the List icon.
 
-3.  On the form, fill in the fields.
+3.  Navigate to **Sales Promotion Setup** &gt; **Checklist Template**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
     |Field|Definition|
     |-----|----------|
@@ -32,11 +37,11 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
     |Template|Template JSON that has name and order for each checklist.|
     |Name|Template name.|
 
-4.  Select **Save**.
+6.  Select **Save**.
 
 
 **Related topics**  
 
 
-[Create a checklist template](mco-create-checklist.md)
+[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-checklist.md)
 

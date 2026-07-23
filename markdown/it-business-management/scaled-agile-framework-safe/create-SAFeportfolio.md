@@ -2,6 +2,7 @@
 title: Define a portfolio
 description: From SAFe, define a portfolio which is a group of ARTs working towards a single solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/create-SAFeportfolio.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -36,15 +37,15 @@ Role required: sn\_portfolio\_safe.safe\_portfolio\_user
 
 ## What to do next
 
--   [Define an Agile Release Train](create-SAFeprogram.md)
--   [Define an epic in SAFe](create-SAFeepic.md)
+-   [Define an Agile Release Train](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeprogram.md)
+-   [Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md)
 
-**Parent Topic:**[Portfolio SAFe](../concept/portfolio-overview.md)
+**Parent Topic:**[Portfolio SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/portfolio-overview.md)
 
 **Related topics**  
 
 
-[Components installed with Portfolio SAFe](../reference/installed-with-portfolioSAFe.md)
+[Components installed with Portfolio SAFe]()
 
-[SAFe Board—Portfolio level](../concept/portfolio-tabs.md)
+[SAFe Board—Portfolio level]()
 

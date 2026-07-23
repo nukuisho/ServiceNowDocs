@@ -2,10 +2,11 @@
 title: Create an AI voice assistant
 description: Create an AI voice assistant to enable natural, conversational voice interactions between users and AI voice agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-an-ai-voice-service.html
 release: australia
 topic_type: task
-last_updated: "2025-04-21"
-reading_time_minutes: 7
+last_updated: "2026-06-08"
+reading_time_minutes: 11
 breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
 ---
 
@@ -17,7 +18,7 @@ Create an AI voice assistant to enable natural, conversational voice interaction
 
 Role required: virtual\_agent\_admin or admin
 
-Set up your preferred user identification and authentication methods to allow access to AI voice agents. See [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md) for more information.
+Set up your preferred user identification and authentication methods to allow access to AI voice agents. See  for more information.
 
 ## About this task
 
@@ -29,11 +30,11 @@ An AI voice assistant enables natural, conversational voice interactions between
 
 2.  Select **Voice-only** option in the Create an assistant window and select **Continue**.
 
-    ![Voice-only option for creating voice assistant](../image/ai-voice-assistant-voice-only-option.png "Voice-only option in Create assistant")
+    \[Omitted image "ai-voice-assistant-voice-only-option.png"\] Alt text: Voice-only option selected in the Create an assistant dialog, showing voice mode as the channel type for the new assistant.
 
 3.  Add basic details of the assistant.
 
-    ![Basic details form for creating voice assistant](../image/ai-voice-assistant-basic-details.png "Basic details form")
+    \[Omitted image "ai-voice-assistant-basic-details.png"\] Alt text: Basic details form with Name, Description, and Tags fields for configuring the voice assistant identity and analytics tracking.
 
     1.  On the form, fill in the fields.
 
@@ -71,24 +72,24 @@ Tags
 
 </td><td>
 
-Add tags to track analytics for the voice assistant. For example: HR Business UnitTags do not affect the functionality of the AI voice agent or the end user experience.
+Add tags to track analytics for the voice assistant. For example, HR.Adding or removing tags will apply the changes immediately. These will be tracked in analytics.
 
 </td></tr></tbody>
 </table>    2.  Select **Save and continue**.
 
-        You’re directed to the AI Agents page.
+        You’re directed to the AI agents page.
 
 4.  Add one or more AI voice agents to the voice assistant by selecting **Add from library** and select **Save and continue**.
 
-    **Note:** Add at least one AI voice agent to the voice assistant. The voice assistant uses the AI voice agents to execute AI instructions. You can select an existing agent or select **Create** to create one. See [Create an AI voice agent](create-a-voice-enabled-ai-agent.md) for more information.
+    **Note:** Adding AI agents is optional. If no AI agents are added, you can add them later by editing this assistant. The assistant will be inactive. Select **Add from library** to add an existing agent, or select **Create** to create a new one. See [Create an AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-a-voice-enabled-ai-agent.md) for more information.
 
 5.  Select a voice personality.
 
-    ![Voice personality selection for creating voice assistant](../image/ai-voice-assistant-voice-personality.png "Voice personality selection")
+    \[Omitted image "ai-voice-assistant-voice-personality.png"\] Alt text: Voice personality step showing primary language selection, welcome message, secondary languages, and voice persona options in a two-panel layout.
 
-    1.  Select the language your assistant will use as the default speaking language for interacting with the callers.
+    1.  Select the primary language your assistant will use for interacting with callers.
 
-        You can select from the following languages:
+        You can configure a primary language and up to three secondary languages. You can select from the following languages:
 
         -   English
         -   German
@@ -105,37 +106,63 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
         -   Mexican Spanish
         -   Thai
         -   Hindi
-        See [Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/multi-lingual-support-for-voice-assistants.md) for more information.
+        -   Danish
+        -   Russian
+        -   Turkish
+        -   Polish
+        -   Swedish
+        -   Norwegian
+        -   Australian English
+        -   Irish English
+        See  for more information.
 
     2.  Add a personalized welcome message to greet the callers calling into the voice assistant.
 
-    3.  Select a voice persona that best suits the conversational experience that you want to deliver through the voice assistant.
+    3.  On the **Voice persona** tab, select a voice persona that best suits the conversational experience that you want to deliver through the voice assistant.
 
         Preview the voice samples to determine the appropriate voice and tone. All AI voice agents connected to the voice assistants share the same voice.
 
-    4.  Select **Save and continue**.
+    4.  Select **+ Add language** to add secondary languages.
 
-        You’re directed to the Authentication page.
+        For each secondary language, select the corresponding voice persona. The order of secondary languages reflects the caller experience during language selection.
+
+    5.  On the **Pronunciation dictionary** tab, add custom pronunciations for domain-specific or company-specific terms.
+
+        \[Omitted image "ai-voice-assistant-pronunciation-dictionary.png"\] Alt text: Pronunciation dictionary tab showing dictionary entries with Word and Phoneme columns, and an Add entry button.
+
+        Select **Add entry** and provide the word or phrase and its pronunciation in either phonetic spelling or phoneme format. Pronunciation entries are specific to the selected language and are applied during voice interactions.
+
+    6.  Select **Save and continue**.
+
+        You’re directed to the Communication channels page.
 
 6.  Set up communication channels for the user to interact with the assistant.
 
-    You can set up telephony provider, mobile app, or both as communication channels. At least one communication channel needs to be set up to activate the voice assistant.
+    Select a **Provider application** to deploy this voice assistant to. This field is required for all communication channel types.
 
-    1.  Integrate a telephony provider to connect to the voice assistant.
+    Configure at least one communication channel to activate the voice assistant.
 
-        For more information, see [Integrating voice assistant with CCaaS provider](../concept/integrating-voice-service-with-ccaas-providers.md).
+    \[Omitted image "ai-voice-assistant-telephony-provider.png"\] Alt text: Communication channels step with Telephony provider tab selected, showing SIP channel type, Genesys provider, Transfer number, Transfer method, SIP Trunk information, and x-snc-param fields.
 
-    2.  Configure your voice assistant to be accessible through mobile app voice launcher function.
+    1.  Select the **Telephony provider** tab to connect the voice assistant to a phone network.
 
-        For more information, see [Integrate voice assistant with mobile app voice launcher](integrate-voice-assistant-with-mobile-app-voice-launcher.md)
+        Select a communication channel type from the **Communication channel** dropdown, then select a CCaaS provider and configure the required fields. For more information, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
+
+    2.  Select the **Web Real-Time Communication \(WebRTC\)** tab to connect the voice assistant to mobile and external applications.
+
+        Select **Mobile applications** to configure ServiceNow applications such as chat launcher functions, voice launcher functions, and prominent action button overrides. You can also configure external applications. For more information, see [Integrate voice assistant with mobile app voice launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.md).
+
+    3.  Select **Save and continue**.
+
+        You're directed to the Caller verification page.
 
 7.  Identify and authenticate the caller.
 
     Authentication settings apply only to telephony provider communication channel. If you have selected only mobile communication channel, skip this step.
 
-    ![Authentication method selection for creating voice assistant](../image/ai-voice-assistant-authentication.png "Authentication method selection")
+    \[Omitted image "ai-voice-assistant-authentication.png"\] Alt text: Caller verification step with Identification methods, Authentication methods with First and Second factor options, and Advanced options section.
 
-    Identification and authentication factors must be configured at the platform level, where you define which tables and columns the system should use for both identification and authentication. After the factors are defined, they appear here as selectable options for your voice agent configuration. For more information, see [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md).
+    Identification and authentication factors must be configured at the platform level, where you define which tables and columns the system should use for both identification and authentication. After the factors are defined, they appear here as selectable options for your voice agent configuration. For more information, see .
 
     1.  Select the method used to identify the caller when the call begins.
 
@@ -160,17 +187,32 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
         -   SMS verification code
         -   Authenticator app time-based One Time Password \(TOTP\)
         -   Soft PIN
+        -   Email one-time password \(OTP\)
         Select from the following **Second factor** authentication methods.
 
-        **Note:** The option selected as the First factor is not available in the Second factor dropdown. KBA authentication, for example, employee security questions, requires you to configure the questions and response fields at platform level and explicitly map them to the voice assistant before they can be selected here. To ensure secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See [Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/knowledge-based-authentication.md) for more information.
+        Numeric authentication factors such as SMS verification code, Authenticator app time-based One Time Password \(TOTP\), and Soft PIN support voice input. Callers can respond verbally instead of using the keypad. Voice input for each factor can be configured at platform level and scoped per voice service. See  for more information.
 
-    4.  Select **Save and continue**.
+        **Note:** The option selected as the First factor is not available in the Second factor dropdown. KBA authentication, for example, employee security questions, requires questions to be configured at platform level with the **Channel** field set to **Voice** and the **Type** field set to **Identification**, **Authentication**, or both. Questions configured this way automatically appear in Assistant Designer for selection. Explicit service mapping is not required.
+
+        Base system questions are available out of the box for the voice channel at both the identification and authentication levels and are ready to use without additional configuration.
+
+        For secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See  for more information.
+
+        KBA now also supports external authentication. The caller's system ID and their spoken response are passed to a verification script, which checks the answer against an external system and returns a true or false result. Optionally, context from earlier responses in the same session can be passed to the script. Configure external authentication scripts at platform level.
+
+        Email OTP authentication requires platform-level configuration before it can be selected here. Configure the email field and source table in the Email OTP configuration screen. By default, the email address is sourced from the sys\_user table. The source table must reference the sys\_user table, and the selected column must be an email field. Email OTP configuration can be scoped to a specific voice service. See  for more information.
+
+    4.  Enable the **Authenticate at the start of the call** option to prompt callers for authentication or identification details before the voice assistant responds to any request.
+
+        When enabled, every caller is prompted to complete authentication or identification at the start of the call, regardless of which AI voice agent handles the interaction.
+
+    5.  Select **Save and continue**.
 
         You’re directed to the Safeguards page.
 
 8.  Set up safeguards to create a secure and seamless experience for users interacting with the assistant.
 
-    ![Safeguards selection for creating voice assistants](../image/ai-voice-assistant-safeguards.png "Safeguards selection")
+    \[Omitted image "ai-voice-assistant-safeguards.png"\] Alt text: Safeguards step with Fallback behavior options for telephony and Call constraints showing Max call duration and Inactivity timeout fields.
 
     1.  Set fallback options to route the call to a live agent or create a ticket.
 
@@ -184,19 +226,36 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
         -   **Generate a ticket with record producer** option. When selected, this option creates a ticket for further tracking.
 
-            **Note:** If you choose to use generating a ticket with record producer as the fallback option, you must keep the fields in the record producer simple and short to optimize the user experience for both the communication channels. For example, a short description, description, and an optional field for the callback number should suffice. You can also enable the **Require authentication** option which ensures only confirmed employees are able to generate tickets.
+            **Note:** If you choose to use generating a ticket with record producer as the fallback option, you must keep the fields in the record producer simple and short to optimize the user experience for both the communication channels. For example, a short description, description, and an optional field for the callback number should suffice. You can also enable the **Require authentication** option, which restricts ticket creation to authenticated employees.
 
     2.  Set the time limits for call duration and reprompting users after inactivity.
 
-        -   Set Max call duration to trigger fallback behavior when the call reaches this limit.
-        -   Set the duration of inactivity after which the user is reprompted for a response. If there's still no response, the call is disconnected. You can set upto 60 seconds.
-9.  Review your voice assistant configuration.
+        -   Set Max call duration to trigger fallback behavior when the call reaches this limit. You can set up to 10 minutes.
+        -   Set the duration of inactivity after which the user is reprompted for a response. If there's still no response, the call is disconnected. You can set up to 300 seconds. The default is 60 seconds.
+    3.  Select **Save and continue**.
+
+        You're directed to the Advanced settings page.
+
+9.  Configure advanced settings for the voice assistant.
+
+    Advanced settings let you configure supplementary features for the voice assistant.
+
+    1.  In the **Noise cancellation** section, select the level of background noise cancellation intensity.
+
+        Noise cancellation reduces background noise from the caller's side so the voice agent can better hear them. Select from the following levels:
+
+        -   **Low**: Picks up even the quietest background noises. Use in quiet environments where background sounds such as TV or music may be present.
+        -   **Medium** \(default\): Picks up somewhat quiet background noises. Use in environments with moderate background noise, such as public places or areas with normal talking.
+        -   **High**: Picks up only the loudest background noises. Use in very noisy environments such as construction sites or areas with loud background speech.
+    2.  Select **Save and continue**.
+
+        You're directed to the Review page.
+
+10. Review your voice assistant configuration.
 
     You can change the configuration later.
 
-    ![Review configuration page for voice assistants](../image/ai-voice-assistant-review.png "Review configuration")
-
-10. Select **Save and activate** to complete the configuration steps or review a previous step by selecting **Back**.
+11. Select **Save and activate** to complete the configuration steps or review a previous step by selecting **Back**.
 
     Activating the assistant also activates any inactive AI agents associated with it.The following conditions must be met in order to activate the assistant. If any of these conditions are not met, select **Save and close** to return later.
 
@@ -207,5 +266,5 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
 ## What to do next
 
-Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See [AI voice agent transcript and logs tables](voice-agent-reference.md#section_vvs_s1f_nhc) for information on the tables containing transcript and logs.
+Test the execution of your AI voice agent by manually calling in the telephony number to see if the AI voice agent functions the way you defined it. Review the transcript and logs for troubleshooting and improving the conversational experience of users. See [AI voice agent transcript and logs tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/voice-agent-reference.md) for information on the tables containing transcript and logs.
 

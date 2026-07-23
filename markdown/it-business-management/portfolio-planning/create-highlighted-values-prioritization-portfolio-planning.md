@@ -1,7 +1,8 @@
 ---
-title: Create new highlighted values for Prioritization columns in Portfolio Planning
+title: Create highlighted values for Prioritization columns in Portfolio Planning
 description: Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-highlighted-values-prioritization-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -12,13 +13,13 @@ keywords: [alignment planner workspace, portfolio planning workspace, portfolio 
 breadcrumb: [Customizing highlighted fields, Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create new highlighted values for Prioritization columns in Portfolio Planning
+# Create highlighted values for Prioritization columns in Portfolio Planning
 
 Customize the fields to be highlighted on the Prioritization page of a portfolio plan according to your planning manager's needs.
 
 ## Before you begin
 
-[Modify Script Includes for Prioritization page in Portfolio Planning](modify-script-includes-prioritization-page-portfolio-planning.md).
+[Modify Script Includes for Prioritization page in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/modify-script-includes-prioritization-page-portfolio-planning.md).
 
 Role required: admin
 
@@ -30,7 +31,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Highlighted Value form](../reference/highlighted-value-form-portfolio-planning.md).
+    For field information, see [Highlighted Value form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/highlighted-value-form-portfolio-planning.md).
 
 4.  Save the form.
 
@@ -40,7 +41,7 @@ Role required: admin
 
     2.  On the form, fill in the fields.
 
-        For field, information, see [Highlighted Value Condition form](../reference/highlighted-value-condition-form-portfolio-planning.md).
+        For field, information, see [Highlighted Value Condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/highlighted-value-condition-form-portfolio-planning.md).
 
     3.  Select **Submit**.
 
@@ -51,5 +52,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Customizing highlighted fields on prioritization tab of Portfolio Planning workspace](../concept/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
+**Parent Topic:**[Highlighted fields on the Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customizing-highlighted-fields-prioritization-page-portfolio-planning-workspace.md)
 

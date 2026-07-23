@@ -2,6 +2,7 @@
 title: Execution Tracking - Begin Flow Action
 description: The Execution Tracking - Begin flow action starts the auditing process for a Security Operations Integration flow that operates on observables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/execution-tracking-begin.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -101,8 +102,8 @@ The output variables contain data that can be used in subsequent actions.
 |--------|-----------|
 |capabilityExecutionId|System identifier of the audit record.|
 
--   [Get Supported Security Capabilities action](../../security-operations-integrations/reference/get-supported-security-capabilities-activity.md)
--   [Capability Execution Tracking- No Impls action](../../security-operations-integrations/reference/execution-tracking-noimpls-activity.md)
+-   [Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-supported-security-capabilities-activity.md)
+-   [Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-noimpls-activity.md)
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
 

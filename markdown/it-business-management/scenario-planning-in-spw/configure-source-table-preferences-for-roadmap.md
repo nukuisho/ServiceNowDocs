@@ -1,7 +1,8 @@
 ---
-title: Customize the planning item display preferences for Prioritization and Roadmap
+title: Customize planning item display preferences for roadmaps
 description: Update the default display configuration of planning item attributes in Prioritization, portfolio plan Roadmap, and Free-form roadmap pages so that data relevant to you is displayed in Strategic Planning Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -12,13 +13,13 @@ keywords: [alignment planner workspace, portfolio planning workspace, portfolio 
 breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Customize the planning item display preferences for Prioritization and Roadmap
+# Customize planning item display preferences for roadmaps
 
 Update the default display configuration of planning item attributes in Prioritization, portfolio plan Roadmap, and Free-form roadmap pages so that data relevant to you is displayed in Strategic Planning Workspace.
 
 ## Before you begin
 
-[Install Strategic Planning](../../alignment-planner-workspace/task/install-alignment-planner-workspace.md).
+[Install Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/install-alignment-planner-workspace.md).
 
 Role required: sn\_align\_core.apw\_admin
 
@@ -83,10 +84,10 @@ Rank configuration
 
 3.  Edit the required fields.
 
-    For field information, see [Portfolio plan configuration form](../../alignment-planner-workspace/reference/portfolio-plan-configuration-form.md).
+    For field information, see [Portfolio plan configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/portfolio-plan-configuration-form.md).
 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Prioritization display settings in Strategic Planning](../../spw-prioritization/concept/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
+**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
 

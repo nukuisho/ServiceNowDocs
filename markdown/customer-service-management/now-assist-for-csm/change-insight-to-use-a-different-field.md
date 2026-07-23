@@ -2,6 +2,7 @@
 title: Change an insight to use a different field for trending topics
 description: Change the field used in a trending topics insight to display data from a different field, such as changing from Assignment Group to Consumer or Product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -34,7 +35,7 @@ The different UI Builder Component names for Trending topics dashboard are OOB T
 
     For example, open **OOB Trending Topics Dashboard**. Make a clone if needed.
 
-3.  Select **Insight Carousel Item 1** and [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/duplicate-components.md) it.
+3.  Select **Insight Carousel Item 1** and [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/duplicate-components.md) it.
 
     Drag the newly duplicated component to reorder as needed.
 
@@ -48,9 +49,9 @@ The different UI Builder Component names for Trending topics dashboard are OOB T
 **Related topics**  
 
 
-[Add a new filter](add-a-new-filter.md)
+[Add a new filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
 
-[Change graph visualization](change-graph-visualization.md)
+[Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
 
-[Configure trending topics dashboard](configure-trending-topics-dashboard.md)
+[Configure trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-trending-topics-dashboard.md)
 

@@ -1,7 +1,8 @@
 ---
 title: Install the Operational Sustainability Integration with Concur
-description: You can install the Operational Sustainability Integration with Concur application \(sn\_esg\_concur\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: You can install the Operational Sustainability Integration with Concur application \(sn\_esg\_concur\) if you have the admin role. The application includes demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/install-the-esg-integration-with-concur.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,11 +12,12 @@ breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) 
 
 # Install the Operational Sustainability Integration with Concur
 
-You can install the Operational Sustainability Integration with Concur application \(sn\_esg\_concur\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Operational Sustainability Integration with Concur application \(sn\_esg\_concur\) if you have the admin role. The application includes demo data.
 
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+-   Ensure that SAP Concur Spoke \(sn\_sap\_concur\_spok\) is installed from the ServiceNow Store before you install this application.
 
 Role required: admin
 
@@ -50,5 +52,5 @@ The following items are installed with Operational Sustainability Integration wi
 6.  Select **Install**.
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](../concept/integrate-esg-with-concur.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/integrate-esg-with-concur.md)
 

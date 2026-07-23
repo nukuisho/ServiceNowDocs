@@ -2,6 +2,7 @@
 title: Customize a card size for a record section
 description: Customize the size of cards in a record section if the default options do not suit your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-ui-section-config-custom-card.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Role required: admin
 
 3.  Select a listed record section.
 
-4.  From the **Card size** field, select the reference lookup icon \(![Reference lookup icon.](../image/reference-lookup-icon.png)\).
+4.  From the **Card size** field, select the reference lookup icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference lookup icon.\).
 
 5.  In the Card sizes form, select **New**.
 

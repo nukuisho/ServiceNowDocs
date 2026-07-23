@@ -2,11 +2,12 @@
 title: Tutorial: set up an external knowledge base search source
 description: Define an advanced search source to return data from any source on the Internet. To understand the power of search sources, follow this tutorial to set up an external knowledge base search source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/search-sp-advanced-ext-kb.html
 release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Define a search source, Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -125,11 +126,11 @@ In this integration, you will:
 
 Test the external search in your portal. Results display under the name field value defined in step three.
 
-![An external search source in the search page](../image/external-search-source-result.png)
+\[Omitted image "external-search-source-result.png"\] Alt text: An external search source in the search page
 
 Each search result opens in the external site defined in the search page template.
 
-![A single search result from the external search source](../image/ext-knowledge-result.png)
+\[Omitted image "ext-knowledge-result.png"\] Alt text: A single search result from the external search source
 
-**Parent Topic:**[Define a search source](add-table-search-source.md)
+**Parent Topic:**[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-table-search-source.md)
 

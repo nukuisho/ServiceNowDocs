@@ -1,7 +1,8 @@
 ---
-title: Create new architectural artifact form
+title: Create architectural artifact form
 description: Architectural artifacts describe a system, solution, or state of an enterprise. The architectural artifacts in the Enterprise Architecture Workspace enable Enterprise Architects to create and manage the artifacts used in their organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-new-arch-artifact-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new architectural artifact form
+# Create architectural artifact form
 
 Architectural artifacts describe a system, solution, or state of an enterprise. The architectural artifacts in the Enterprise Architecture Workspace enable Enterprise Architects to create and manage the artifacts used in their organization.
 
-## Create new architectural artifact form fields
+## Create architectural artifact form fields
 
 |Field|Description|
 |-----|-----------|
@@ -58,10 +59,12 @@ Option to provide access to share documents with other users and groups. You can
 -   Group Permissions
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Associate an Architectural Artifact to a TRM product](../../task/eaw-task/eaw-assoicate-artifact-trm-prod.md)
+[Create or edit an architectural artifact from Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-architectural-artifact.md)
+
+[Associate an Architectural Artifact to a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-trm-prod.md)
 

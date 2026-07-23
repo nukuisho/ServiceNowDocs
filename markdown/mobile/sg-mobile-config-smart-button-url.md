@@ -2,10 +2,11 @@
 title: Configure a smart button using a parametrized URL
 description: Use parametrization to include record specific information in your smart buttons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-config-smart-button-url.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Smart button functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
@@ -21,7 +22,7 @@ Role required: admin
 
 This example demonstrates how parameters are used to improve the functionality of smart buttons. In this case, the smart button provides a link to a list of knowledge articles. The button uses the short description of the current incident as the search criteria for the knowledge article list.
 
-Watch this two-minute video to learn how to find a relative link in your ServiceNow instance.Demonstrates how to find relative links in a ServiceNow instance
+Watch this two-minute video to learn how to find a relative link in your ServiceNow instance.
 
 ## Procedure
 

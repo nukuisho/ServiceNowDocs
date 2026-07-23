@@ -2,12 +2,14 @@
 title: Deactivate DEX alert grouping
 description: Deactivate DEX alert grouping to enable individual alert visibility, aiding in detailed analysis and targeted response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/deactivate-alert-group.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
+keywords: [deactivate alert grouping, alert correlation rule, individual alert visibility, alert grouping]
 breadcrumb: [DEX Alerts, Configure, Digital End-User Experience, IT Service Management]
 ---
 
@@ -23,15 +25,15 @@ Role required: sn\_dex.admin
 
 1.  Perform one of the following options.
 
-<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d121209e44">
+<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d124149e58">
 
 Options
 
-</th><th align="left" id="d121209e47">
+</th><th align="left" id="d124149e61">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d121209e53">
+</th></tr></thead><tbody><tr><td id="d124149e67">
 
 **System Properties table \[sys\_properties\]**
 
@@ -39,7 +41,7 @@ Actions
 
 Open the property **sn\_dex.alert.correlation\_rule.device.period** and in the **Value** field, enter 0.
 
-</td></tr><tr><td id="d121209e68">
+</td></tr><tr><td id="d124149e82">
 
 **Alert Correlation Rules**
 

@@ -2,6 +2,7 @@
 title: Configuring Sales Territory Management​
 description: Learn how to configure the features and components that help distribute accounts, consumers, leads, and opportunities to manage sales territories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-sales-territory-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -49,7 +50,7 @@ com.sn\_sales\_territory
 </table>**Related information**  
 
 
-[Using Sales Territory Management​](../task/use-sales-territory-management.md)
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
 
-[Components installed with Sales Territory Management​](../reference/components-installed-sales-territory-management.md)
+[Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-territory-management.md)
 

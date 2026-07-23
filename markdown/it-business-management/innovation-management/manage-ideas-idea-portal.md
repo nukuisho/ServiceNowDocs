@@ -2,6 +2,7 @@
 title: Manage ideas
 description: Learn about the actions of the manage ideas form. Review the idea details and then choose which action to perform on the idea.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/manage-ideas-idea-portal.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -67,10 +68,10 @@ Remove an idea from the database when it is no longer relevant or is set to old.
 -   Select **Delete**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Innovation Management](form-field-information-for-innovation-management.md)
+</table>**Parent Topic:**[Form field information for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/form-field-information-for-innovation-management.md)
 
 **Related topics**  
 
 
-[Manage ideas](../task/manage-ideas.md)
+[Manage ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/manage-ideas.md)
 

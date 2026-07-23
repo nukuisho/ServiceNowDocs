@@ -2,13 +2,14 @@
 title: Associate monetary and non-monetary benefit plans
 description: Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/associate-benefit-plans-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Manage financials for demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+reading_time_minutes: 1
+breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Associate monetary and non-monetary benefit plans
@@ -29,7 +30,7 @@ You can associate a monetary benefit plan with a non-monetary benefit plan and v
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
@@ -45,19 +46,17 @@ You can associate a monetary benefit plan with a non-monetary benefit plan and v
 
     The selected benefit plan is associated with this benefit plan.
 
-    **Note:** Alternatively, you can associate benefit plans with each other from the **Benefit estimate** playbook activity. For more information, see [Use Playbooks](use-playbooks-in-dw.md).
+    **Note:** Alternatively, you can associate benefit plans with each other from the **Benefit estimate** playbook activity. For more information, see [Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 
 **Related topics**  
 
 
-[Use Playbooks](use-playbooks-in-dw.md)
+[Use Playbook in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/use-playbooks-in-dw.md)
 
-[Demand default playbook stages and activities](../reference/demand-default-playbook-stages.md)
+[Create benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-monetary-benefit-plan-for-dw.md)
 
-[Create and manage benefit plans](create-monetary-benefit-plan-for-dw.md)
+[Monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/monetary-benefit-plan-form-dw.md)
 
-[Monetary benefit plan form](../reference/monetary-benefit-plan-form-dw.md)
-
-[Non-monetary benefit plan form](../reference/non-monetary-benefit-plan-form-dw.md)
+[Non-monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/non-monetary-benefit-plan-form-dw.md)
 

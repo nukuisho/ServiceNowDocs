@@ -2,6 +2,7 @@
 title: Optimizing Sales Customer Relationship Management through Contract Lifecycle Automation
 description: Sales Customer Relationship Management integration with Contract Management Pro enables seamless integration between sales professionals and legal teams by enabling sales agents to create legal sales contracts from a quote.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-som-better-together.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,30 +26,30 @@ The integration provides the following benefits:
 -   Boost legal team productivity: Utilize common contract processes like review and signature to boost productivity.
 -   Reduce manual review work by using generative AI: Use AI to identify missing and non-standard clauses for reducing manual review work
 
-|Feature|Sales and order management|Contract management pro|All applications together|
-|-------|--------------------------|-----------------------|-------------------------|
-|Product Catalog Management|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Pricing Management|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Lead Management|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Opportunity Management|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Sales Forecasting|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Quote Management|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Order Management|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Order to cash operations|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Post Sales Support|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Sales Customer Relationship Management workflows \(lead-to-cash core\)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Customer Life Cycle Management Workflows|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Contract lifecycle management|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Contract document authoring|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Obligation Management|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Contract document Analysis using generative AI|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Contract document metadata extraction using generative AI|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
+|Feature|Sales CRM|Contract management pro|All applications together|
+|-------|---------|-----------------------|-------------------------|
+|Product Catalog Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Pricing Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Lead Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Opportunity Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Sales Forecasting|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Quote Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Order Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Order to cash operations|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Post Sales Support|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Sales Customer Relationship Management workflows \(lead-to-cash core\)|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Customer Life Cycle Management Workflows|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Contract lifecycle management|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Contract document authoring|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Obligation Management|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Contract document Analysis using generative AI|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Contract document metadata extraction using generative AI|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 
 ## Workflow for Sales Customer Relationship Management
 
 The following figure shows an example workflow of how an sales agent, sales operation specialist, and a contract fulfiller can use these applications to streamline collaboration with legal teams, enabling them to execute contracting tasks within the lead-to-cash workflow. It also provides sales operation professionals with full visibility into contract progress, reducing delays and improving operational transparency.
 
-![SOM - CM Pro workflow](../image/mmassest0021242-SOM-CMPro-workflow.png "Sales Customer Relationship Management and Contract Management Pro workflow")
+\[Omitted image "mmassest0021242-SOM-CMPro-workflow.png"\] Alt text: Sales CRM - Contract Management Pro workflow
 
 In this workflow:
 
@@ -76,7 +77,7 @@ The following roles are required to initiate, view, and manage contract executio
 ## Requirements for integrating Sales Customer Relationship Management and Contract Management Pro
 
 1.  [Install Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-quote-management.md).
-2.  [Install Contract Management Pro](../task/cncore-install-cmpro.md).
+2.  [Install Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-install-cmpro.md).
 3.  [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-integrate-contract-management.md).
 
 For more information, see [Quote Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-int-contracts-pro.md).
@@ -87,37 +88,37 @@ Get started with initiating contract request by completing these tasks:
 
 1.  [Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-configuring.md).
 2.  Configure Contract Management Pro
-    -   **[Create a contract type](../task/cncore-create-contract-type.md)**
+    -   **[Create a contract type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-contract-type.md)**
 
         Create a contract type for defining different types of contract requests and associate it to a contract model.
 
         Role:contract administrator.
 
-    -   **[Configure templates for a contract and amendment request in Contract Management Pro](cncore-document-templates.md)**
+    -   **[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-document-templates.md)**
 
         Create a contract template of type .docx that can be used when submitting a contract request to generate a standard contract with predefined content.
 
         Role:contract configurator.
 
-    -   **[Configure dynamic clauses for contract templates](cncore-clause-and-cv.md)**
+    -   **[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)**
 
         Enable dynamic customized content in contract templates through clauses that contain clause variations for preset conditions.
 
         Role:contract configurator.
 
-    -   **[Define an internal signatory rule](../task/cncore-define-internal-signers-rule.md)**
+    -   **[Define an internal signatory rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.md)**
 
         Define a user as an internal signatory rule so that the signer can be added to a contract template to automatically add to the contract document for a request.
 
         Role:contract configurator.
 
-    -   **[Create document template categories](../task/cncore-create-doc-tmplt-cat.md)**
+    -   **[Create document template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-doc-tmplt-cat.md)**
 
         Create document template categories to easily identify similar documents and find the correct document template more easily.
 
         Role:contract configurator.
 
-    -   **[Create a contract configuration](../task/cncore-contract-config.md)**
+    -   **[Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contract-config.md)**
 
         Define the contract repository where the contracts will be stored and map the data to be added to the contract document.
 

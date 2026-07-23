@@ -1,7 +1,8 @@
 ---
 title: Configure ServiceNow Store application notification preferences
-description: You can set notification preferences for each application you've procured and each trial you've requested. By default, notifications are sent to the email address associated with your Now Support account.
+description: You can set notification preferences for each application you have procured and each trial you have requested. By default, notifications are sent to the email address associated with your Now Support account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-store-notifications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,7 +12,7 @@ breadcrumb: [Configure, ServiceNow Store, Administering applications, Get starte
 
 # Configure ServiceNow Store application notification preferences
 
-You can set notification preferences for each application you've procured and each trial you've requested. By default, notifications are sent to the email address associated with your Now Support account.
+You can set notification preferences for each application you have procured and each trial you have requested. By default, notifications are sent to the email address associated with your Now Support account.
 
 ## Before you begin
 
@@ -29,6 +30,6 @@ Role required: none
 
 5.  Select **Manage Notifications**.
 
-6.  Select the edit icon ![](../../../reuse/icons/product-icons/pencil-outline-24.svg) to change which email address receives application notifications.
+6.  Select the edit icon \[Omitted image "pencil-outline-24.svg"\] Alt text: to change which email address receives application notifications.
 
 

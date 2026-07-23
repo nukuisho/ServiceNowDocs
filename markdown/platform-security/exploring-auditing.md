@@ -2,6 +2,7 @@
 title: Exploring Auditing
 description: Track record changes on auditing-enabled tables. By default, the system tracks changes to the incident, change, and problem tables, among others.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-auditing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,8 +18,8 @@ Enabling auditing tracks the creation, update, and deletion of all records in th
 
 Auditing information is kept in these tables:
 
--   The [Audit](../../security/concept/c_UnderstandingTheSysAuditTable.md#) table.
--   The [Knowing about History sets](../../security/concept/c_HistorySets.md) table.
+-   The [Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_UnderstandingTheSysAuditTable.md) table.
+-   The [Knowing about History sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistorySets.md) table.
 
 **Warning:** Auditing system tables that receive a large amount of traffic, such as workflow Contexts \[wf\_context\] or Event Management Alerts \[em\_alert\], can impact performance. For this reason, you can’t audit the em\_alert table as a whole. Instead, audit selected fields of interest. Set **audit=true** on both the em\_alert table and the selected fields. Try to audit as few fields as possible.
 
@@ -43,7 +44,7 @@ The system audits deletions from a list when it **audit** is selected on the tab
 
 `glide.db.audit.ignore.delete = sys_mutex,sys_db_cache,sys_lucene_block,sys_lucene_file,sys_lucene_directory,sys_user_preference,sys_audit,sc_cart,sc_cart_item,sys_trigger,wf_context,wf_activity,wf_condition,wf_executing,wf_history,wf_log,wf_transition,wf_transition_history, cmdb_ci_windows_service, cmdb_sam_sw_install, cmdb_software_instance, cmdb_sam_sw_usage, sam_sw_counter_detail`
 
-To learn more about adding system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+To learn more about adding system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 It is to be noted that by default, the audit deletes are enabled whether the record is deleted from the form view, list view, or through a script/scheduled job.
 
@@ -81,12 +82,12 @@ Auditing excludes the following information:
 
 ## Auditing a table
 
-For instructions on how to audit a table, see [Configuring auditing for a table](../../security/task/t_EnableAuditingForATable.md).
+For instructions on how to audit a table, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_EnableAuditingForATable.md).
 
 By default, the system tracks all fields in an audited table. You can audit a subset of fields in a table in one of two ways:
 
--   You can enable auditing for the entire table, then exclude those fields you don’t want to include. It’s appropriate when you want to audit most, but not all, fields, and is referred to as an exclusion listing. For more information, see [Exclude a field from being audited \(exclusion listing\)](../../security/task/t_ExcludeAFieldFromBeingAudited.md).
--   You can enable auditing for the table, but only for specified fields. It’s appropriate when you want to audit only a small number of the table's fields and is referred to as an inclusion listing. For information on how to include a field using an inclusion listing, see [Include a table field in auditing \(inclusion listing\)](../../security/task/security-whitelist-audit-field.md).
+-   You can enable auditing for the entire table, then exclude those fields you don’t want to include. It’s appropriate when you want to audit most, but not all, fields, and is referred to as an exclusion listing. For more information, see [Exclude a field from being audited \(exclusion listing\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ExcludeAFieldFromBeingAudited.md).
+-   You can enable auditing for the table, but only for specified fields. It’s appropriate when you want to audit only a small number of the table's fields and is referred to as an inclusion listing. For information on how to include a field using an inclusion listing, see [Include a table field in auditing \(inclusion listing\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-whitelist-audit-field.md).
 
 ## Non-cancellable audit records
 

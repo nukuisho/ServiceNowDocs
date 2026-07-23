@@ -2,6 +2,7 @@
 title: Legacy survey migration
 description: Users with the survey\_admin role can migrate legacy survey data to create copies of legacy surveys and their related records in assessment tables. The Survey Management application, which is built on the assessment engine, is available as an alternative to legacy surveys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_MigrateSurveys.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -32,49 +33,49 @@ Legacy survey conditions are not migrated and must be recreated as trigger condi
     -   Survey Wizard \(ID: com.glideapp.survey\_wizard\)
 -   Survey wizards cannot be migrated.
 
--   **[Migrate a legacy survey](../task/t_MigrateALegacySurvey.md)**  
+-   **[Migrate a legacy survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_MigrateALegacySurvey.md)**  
 Migrate a legacy survey and its related records to take advantage of a more powerful feature set.
--   **[Survey question migration](../reference/r_SurveyQuestionMigration.md)**  
+-   **[Survey question migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyQuestionMigration.md)**  
 Before you migrate a legacy survey, understand that some legacy survey questions cannot be migrated due to incompatible question types.
--   **[Migrated components](../reference/r_MigratedComponents.md)**  
+-   **[Migrated components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MigratedComponents.md)**  
 When you migrate a survey, the system maps records from survey tables to assessment tables.
--   **[Migrated question review](../reference/r_ReviewMigratedQuestions.md)**  
+-   **[Migrated question review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_ReviewMigratedQuestions.md)**  
 To maintain accurate result calculations, you may need to make minor adjustments to some of the migrated survey records to ensure results are calculated correctly.
 
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](../task/view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](../task/t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Survey users and groups](c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Copy a survey](../task/copy-survey.md)
+[Copy a survey]()
 
-[Publish a survey](../task/t_PublishASurvey.md)
+[Publish a survey]()
 
-[Customize the appearance of a survey](../task/t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Survey definitions](c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Create a survey designer template question](../task/t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Sentiment analysis for surveys](sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 

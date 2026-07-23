@@ -2,6 +2,7 @@
 title: Survey responses in a database view
 description: You can view survey responses in a database view for reporting purposes. For each survey instance, you can view the instance as a single row and the answers to each survey question \(metric\) in the corresponding columns. Analyze the responses easily and, if you want, export the survey responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/survey-result-database-view.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,20 +28,20 @@ The database view can show the start date, due date, expiry date, and completed 
 
 **Note:** Any change or update to survey configuration or metadata \(For example, addition or deletion of a new metric or category\) might affect the database view. In such cases, an event \(survey.results\_view.updated\) is generated so that users can take necessary actions to synchronize the data.
 
-**Parent Topic:**[Survey responses and results](c_SurveyResults.md)
+**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md)
 
 **Related topics**  
 
 
-[View results for all surveys](../task/t_ViewResultsForAllSurveys.md)
+[View results for all surveys]()
 
-[View the results for a survey](../task/t_ViewResultsForASpecificSurvey.md)
+[View the results for a survey]()
 
-[View a survey scorecard](../task/t_ViewAScorecard.md)
+[View a survey scorecard]()
 
-[Export a quiz scorecard as an image](../../assessments/task/t_ExportAQuizScorecard.md)
+[Export a quiz scorecard as an image]()
 
-[Request translations for surveys](../task/request-translations-for-surveys.md)
+[Request translations for surveys]()
 
-[Edit translations for surveys](../task/edit-translations-for-surveys.md)
+[Edit translations for surveys]()
 

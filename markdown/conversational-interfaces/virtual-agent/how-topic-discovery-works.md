@@ -2,6 +2,7 @@
 title: Natural Language Understanding topic discovery logic in Virtual Agent
 description: Understand how Virtual Agent returns intents and how it selects which intents to show to the user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/how-topic-discovery-works.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -9,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [NLU, Virtual agent]
-breadcrumb: [Debug a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Debug a Virtual Agent topic, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Natural Language Understanding topic discovery logic in Virtual Agent
@@ -41,7 +42,7 @@ Virtual Agent sends a prediction request to the NLU provider. The request contai
 
 If no matches are found but backup keywords are enabled \(the **com.glide.cs.nlu.keywords.enabled** property is **true**\), Virtual Agent searches for a topic based on keywords.
 
-![Topic discovery flow chart showing the process Virtual Agent uses to deliver a topic to the user.](../images/va-topic-discovery-logic.png "Virtual Agent topic discovery logic")
+\[Omitted image "va-topic-discovery-logic.png"\] Alt text: Topic discovery flow chart showing the process Virtual Agent uses to deliver a topic to the user.
 
 ## Virtual Agent NLU confidence scores
 
@@ -81,12 +82,12 @@ While a topic is running, the requester can enter an utterance or phrase that re
 5.  The NLU predictor returns Intent B, and Virtual Agent sees that Topic B is bound to Intent B.
 6.  Virtual Agent switches the conversation to Topic B, which then presents information to the requester about their incidents.
 
-![Topic discovery flow chart that shows the process Virtual Agent uses to change topics in the middle of a conversation.](../images/va-midtopic-discovery-logic.png "Virtual Agent mid-topic discovery logic")
+\[Omitted image "va-midtopic-discovery-logic.png"\] Alt text: Topic discovery flow chart that shows the process Virtual Agent uses to change topics in the middle of a conversation.
 
-**Parent Topic:**[Debug a Virtual Agent topic](../reference/virtual-agent-troubleshooting-guide.md)
+**Parent Topic:**[Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md)
 
 **Related topics**  
 
 
-[Resolve Natural Language Understanding \(NLU\) topic discovery issues](../reference/va-topic-discovery-issues.md)
+[Resolve Natural Language Understanding \(NLU\) topic discovery issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-topic-discovery-issues.md)
 

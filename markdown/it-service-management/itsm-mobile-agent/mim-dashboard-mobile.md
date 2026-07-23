@@ -2,6 +2,7 @@
 title: Major incident dashboard
 description: Review major incident information at a glance on your mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/mim-dashboard-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -17,7 +18,7 @@ Review major incident information at a glance on your mobile.
 
 The dashboard in the Major incidents application provides the information about the count of major incidents, mean time to identify an incident as a major incident and mean time to resolve.
 
-![MIM dashboard](../image/itsm-ma-major-incident.png)
+\[Omitted image "itsm-ma-major-incident.png"\] Alt text: MIM dashboard
 
 Tap on any of the areas to open a detailed graphical representation of the associated information. You can also scroll left or right on the screen to view information pertaining to a different day or a week.
 

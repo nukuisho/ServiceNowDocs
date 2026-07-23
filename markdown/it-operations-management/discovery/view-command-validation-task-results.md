@@ -2,6 +2,7 @@
 title: View command validation task results in pattern-based discovery
 description: View the results of command validation tasks to verify you have the correct credentials and permissions to run pattern-based discovery successfully.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/view-command-validation-task-results.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,7 +19,7 @@ View the results of command validation tasks to verify you have the correct cred
 ## Before you begin
 
 -   Verify that Pattern Designer Enhancements \(sn\_itom\_pde\) is installed.
--   Verify that a command validation task has been created. For more information, see [Validate commands used in pattern-based discovery](../../it-operations-management/task/validate-discovery-commands.md).
+-   Verify that a command validation task has been created. For more information, see [Validate commands used in pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/validate-discovery-commands.md).
 
 Role required: One of the following.
 
@@ -52,7 +53,7 @@ If you're using the discovery\_admin role and a command fails, follow the remedi
 
 1.  Select the **Open suggestions to troubleshoot failure** link.
 
-    ![Open suggestions to troubleshoot failure](../../it-operations-management/image/pde-command-validation-task-result-suggestion.png)
+    \[Omitted image "pde-command-validation-task-result-suggestion.png"\] Alt text: Open suggestions to troubleshoot failure
 
 2.  Follow the instructions in the **Steps to Remediate** window.
 
@@ -61,9 +62,9 @@ If you're using the discovery\_admin role and a command fails, follow the remedi
 **Related topics**  
 
 
-[Command Validation Tasks form for pattern-based discovery](../../it-operations-management/reference/command-validation-reference.md)
+[Command Validation Tasks form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/command-validation-reference.md)
 
-[Discovery commands for probes and patterns](../concept/discovery-command-probe-pattern.md)
+[Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
 
-[Command List form for pattern-based discovery](../../it-operations-management/reference/commands-list-discovery.md)
+[Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/commands-list-discovery.md)
 

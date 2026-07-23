@@ -2,13 +2,14 @@
 title: Subscription exclusions for SaaS and SSO applications
 description: Define subscription exclusions for your SaaS and SSO applications to optimize your licensing costs by keeping the excluded subscriptions out of license cost calculations.Define exclusions for your subscription identifiers to keep them excluded from the Software Asset Management application's license calculations. Subscription identifiers uniquely identify your SaaS and SSO applications.Define exclusions for certain user subscriptions to keep them excluded from the Software Asset Management application's license calculations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/subscription-exclusions.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Subscription exclusions for SaaS and SSO applications
@@ -19,44 +20,44 @@ You can keep certain low-value and high-volume user subscriptions from being cha
 
 **Important:** Identifier-based exclusions are specific to individual subscription profile types, whereas User-based exclusions apply across all SaaS integration profiles.
 
-**Parent Topic:**[SaaS License Management](sam-subscription-management.md)
+**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 
 
-[Request SaaS License Management](../task/request-saas-license-management.md)
+[Request SaaS License Management]()
 
-[SaaS License Management setup for large companies](saas-setup-large-companies.md)
+[SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard](saas-overview-dashboard.md)
+[SaaS Overview dashboard]()
 
-[Integrate with SaaS applications](create-integration-profile.md)
+[Integrate with SaaS applications]()
 
-[Integrate with SSO providers](saas-sso-integration.md)
+[Integrate with SSO providers]()
 
-[Playbook for SaaS integrations](playbook-saas-integrations.md)
+[Playbook for SaaS integrations]()
 
-[Viewing your SaaS and SSO subscriptions](usage-summary-saas.md)
+[Viewing your SaaS and SSO subscriptions]()
 
-[Review a software reclamation rule](../task/add-reclamation-rule-sub.md)
+[Review a software reclamation rule]()
 
-[Reclaiming user subscriptions](reclaiming-user-subscriptions-saas.md)
+[Reclaiming user subscriptions]()
 
-[Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md)
+[Create a child alias to set up multiple integration profiles]()
 
-[Create a child alias to set up multiple Cisco Webex integration profiles](../task/create-child-alias-webex.md)
+[Create a child alias to set up multiple Cisco Webex integration profiles]()
 
-[Create a child alias to set up multiple Confluence Cloud integration profiles](../task/create-child-alias-confluence.md)
+[Create a child alias to set up multiple Confluence Cloud integration profiles]()
 
-[Create a child alias to set up multiple Jira integration profiles](../task/create-child-alias-jira.md)
+[Create a child alias to set up multiple Jira integration profiles]()
 
-[Associate a user with subscription records](../task/map-user-data.md)
+[Associate a user with subscription records]()
 
-[Disconnect SSO apps](../task/disconnect-azure-ad-apps.md)
+[Disconnect SSO apps]()
 
-[Delete an integration profile](delete-saas-integration.md)
+[Delete an integration profile]()
 
-[Subscription identifiers for SaaS and SSO applications](subscription-identifiers.md#)
+[Subscription identifiers for SaaS and SSO applications]()
 
 ## Define identifier-based exclusions for SaaS and SSO applications
 

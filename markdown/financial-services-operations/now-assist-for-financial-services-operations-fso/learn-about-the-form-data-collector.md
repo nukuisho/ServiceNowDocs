@@ -2,13 +2,14 @@
 title: Form Data Collector
 description: Learn about the Form Data Collector. This application is used to assist with populating case form fields during a customer's interaction with a Virtual Agent chatbot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/learn-about-the-form-data-collector.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Explore, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Supporting information for Now Assist for FSO, Reference, Now Assist for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # Form Data Collector
@@ -47,7 +48,7 @@ To view the Form Data Collector flow:
         -   Choice
         -   Glide list
         -   Reference
-    2.  Using the Form Data Collector capability, call Now LLM to determine if the question can be answered using the conversation history, or if a new question should be asked to the customer.
+    2.  Using the Form Data Collector capability, call the large language model \(LLM\) to determine if the question can be answered using the conversation history, or if a new question should be asked to the customer.
 
 <table id="table_pct_dkm_b2c"><tbody><tr><td>
 
@@ -63,7 +64,7 @@ Question cannot be answered using conversation history
 
 </td><td>
 
-Generate a question in a conversational format using Now LLM and present it to the customer.
+Generate a question in a conversational format using the LLM and present it to the customer.
 
 </td></tr></tbody>
 </table>4.  When there are no more fields, the flow returns the response output and the record field value pair.
@@ -91,4 +92,6 @@ The Form Data Collector in Disputes intake via Virtual Agent will bypass the fol
 -   Do you see an extra transaction related to your original purchase?
 -   Did you make this transaction while commuting?
 -   What best describes your billing issue?
+
+**Parent Topic:**[Supporting information for Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/supporting-information-for-now-assist-for-financial-services-operations-fso.md)
 

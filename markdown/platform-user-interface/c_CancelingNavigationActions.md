@@ -2,6 +2,7 @@
 title: Navigation action cancellation
 description: The Request Manager allows users to cancel any navigation action they select from the application navigator by clicking another application navigator link. System properties work with settings for the table to allow navigation action cancellation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_CancelingNavigationActions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ One of the following conditions must be true for the Request Manager to cancel a
 
 The Request Manager uses the following workflow to determine whether to cancel a transaction.
 
-![Workflow diagram of the cancellation flow](../image/Cancelation_workflow.png "Cancel navigation actions")
+\[Omitted image "Cancelation\_workflow.png"\] Alt text: Workflow diagram of the cancellation flow
 
 <table id="table_fn3_kkq_n4"><thead><tr><th>
 
@@ -80,10 +81,10 @@ There are three use cases where administrators can control user cancellation act
 2.  A user clicks a module that displays read-only data, such as a report \(`sys_report_template.do?sysparm=sysid`\), and while waiting for the module to load decides to navigate to another module, such as the list of open incidents \(`incident_list.do`\). The system properties **glide.request\_manager.cancel\_other\_transaction** and **glide.request\_manager.always\_cancel** control this use case.
 3.  A user starts typing a query in a reference field, such as entering `PRB` in the related Problem field and while waiting for the auto-completer to display results, decides to enter more information, such as `PRB000`. The system properties **glide.request\_manager.cancel\_other\_transaction** and **glide.request\_manager.cancel\_reference\_completer** control this use case.
 
--   **[Add sites to the always cancel list](../task/t_AddSitesAlwaysCancelWhiteList.md)**  
+-   **[Add sites to the always cancel list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddSitesAlwaysCancelWhiteList.md)**  
 You can add UI pages or other links to the always cancel list so that users can cancel actions on these pages by navigating to another module or link.
--   **[Prevent users from canceling module transactions](../task/t_PrevUsersCancelModTrans.md)**  
+-   **[Prevent users from canceling module transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PrevUsersCancelModTrans.md)**  
 You can explicitly prevent users from canceling the activity of a module by updating the module definition.
 
-**Parent Topic:**[User interface configuration](../../core-configuration/concept/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

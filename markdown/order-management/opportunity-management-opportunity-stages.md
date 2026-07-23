@@ -2,6 +2,7 @@
 title: Create opportunity stages
 description: Create sales cycle stages for an opportunity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-opportunity-stages.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,4 +37,11 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_setup\_writer
 
     The sales cycle stage has now been created for the opportunity.
 
+
+**Related topics**  
+
+
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

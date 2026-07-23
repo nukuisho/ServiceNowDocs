@@ -2,6 +2,7 @@
 title: Document Intelligence properties
 description: Document Intelligence \(DocIntel\) system properties control the behavior of the Document Intelligence application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/document-intelligence-properties.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -15,13 +16,13 @@ breadcrumb: [Reference, Document Intelligence, Enable AI experiences]
 
 Document Intelligence \(DocIntel\) system properties control the behavior of the Document Intelligence application.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 The DocIntel Manager \(sn\_docintel.manager\) can modify the system properties for DocIntel.
 
 **Note:**
 
-Document Intelligence 3.0 includes new and updated system properties. For more detail about the upgrade, see [Upgrade to Document Intelligence 3.0 or later from version 2.4 or earlier](upgrade-to-document-intelligence-3-0.md).
+Document Intelligence 3.0 includes new and updated system properties. For more detail about the upgrade, see [Upgrade to Document Intelligence 3.0 or later from version 2.4 or earlier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/upgrade-to-document-intelligence-3-0.md).
 
 ## Document Intelligence 2.4- system properties
 
@@ -351,32 +352,32 @@ Allowed: true, false
  Default: true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Document Intelligence references](docintel-references.md)
+</table>**Parent Topic:**[Document Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/docintel-references.md)
 
 **Related topics**  
 
 
-[Components installed with Document Intelligence](installed-with-document-intelligence.md)
+[Components installed with Document Intelligence]()
 
-[Confidence scores](../concept/docintel-confidence-scores.md)
+[Confidence scores]()
 
-[Data extraction modes](data-extraction-modes.md)
+[Data extraction modes]()
 
-[Data normalization](../concept/data-normalization.md)
+[Data normalization]()
 
-[Document field statuses](docintel-field-statuses.md)
+[Document field statuses]()
 
-[Document Intelligence forms](document-intelligence-forms.md)
+[Document Intelligence forms]()
 
-[Document Intelligence roles](document-intelligence-user-roles.md#)
+[Document Intelligence roles]()
 
-[Document Intelligence terminology](../concept/docintel-terminology.md#)
+[Document Intelligence terminology]()
 
-[Document task statuses](docintel-task-statuses.md)
+[Document task statuses]()
 
-[Domain separation and Document Intelligence](domain-separation-and-doc-intel.md)
+[Domain separation and Document Intelligence]()
 
-[Languages supported by Document Intelligence](../concept/languages-supported-by-document-intelligence.md)
+[Languages supported by Document Intelligence]()
 
-[Limitations in Document Intelligence](hard-limits-in-doc-intel.md)
+[Limitations in Document Intelligence]()
 

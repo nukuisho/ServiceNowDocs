@@ -2,6 +2,7 @@
 title: Configure Service Portal Approval Configuration record
 description: Configure the Service Portal Approval Configuration record to make the Approval assistance AI agent and Approval Info Record widget work better for your specific use case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-approval-assistance-ai-agent.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -25,7 +26,7 @@ The Approval Configuration record controls two aspects of the approval experienc
 
 -   **Display experience**
 
-    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see [Platform Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-approval-aia.md) and [Approval Info Record widget](../concept/approval-info-record-widget.md).
+    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see [Platform Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-approval-aia.md) and [Approval Info Record widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/approval-info-record-widget.md).
 
 -   **AI behavior**
 
@@ -140,7 +141,7 @@ KB search fields define which fields from the configured table are used to build
 
 ## Configuring search sources for checklist generation
 
-In addition to KB articles, the approval checklist can draw from third-party sources such as Microsoft SharePoint, Google Drive, or a custom internal table. To enable third-party sources, configure the third-party application as a search source linked to your portal search profile. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md).
+In addition to KB articles, the approval checklist can draw from third-party sources such as Microsoft SharePoint, Google Drive, or a custom internal table. To enable third-party sources, configure the third-party application as a search source linked to your portal search profile. For more information, see [Defining search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md).
 
 After the search source is configured, add the search profile and search source to the following system property: sn\_na\_req\_agent.approval\_checklist.search\_profile\_sources.
 
@@ -158,7 +159,7 @@ Configure fields and AI behavior for a table that goes through the approval work
 
 3.  Select the **Display Fields Configuration** tab.
 
-4.  Select **Display fields**.![Approval Display fields.](../image/aia-choose-display-fields.png)
+4.  Select **Display fields**.\[Omitted image "aia-choose-display-fields.png"\] Alt text: Approval Display fields.
 
 5.  Move the display fields from the **Available** list to the **Selected** list.
 
@@ -176,12 +177,12 @@ Configure fields and AI behavior for a table that goes through the approval work
     |**Never**|No records show for an approval checklist.|
     |**Conditionally**|Set conditions that the records must meet to generate the approval checklist. For example: **Short description** &gt; **starts with** &gt; **Tuition reimbursement**.|
 
-9.  Select **KB search fields**. ![Select KB search fields to show the available and selection fields.](../image/aia-choose-checklist-kb.png)
+9.  Select **KB search fields**. \[Omitted image "aia-choose-checklist-kb.png"\] Alt text: Select KB search fields to show the available and selection fields.
 
-10. Move KB search fields from the **Available** list to the **Selected** list.![Approval checklist and KB search fields.](../image/aia-choose-checklist-kb-fields.png)
+10. Move KB search fields from the **Available** list to the **Selected** list.\[Omitted image "aia-choose-checklist-kb-fields.png"\] Alt text: Approval checklist and KB search fields.
 
 11. Select **Update**.
 
 
-**Parent Topic:**[Configuring Service Portal](../concept/configuring-service-portal.md)
+**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configuring-service-portal.md)
 

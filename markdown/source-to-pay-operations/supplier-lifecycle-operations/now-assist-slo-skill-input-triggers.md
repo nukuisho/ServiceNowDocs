@@ -2,6 +2,7 @@
 title: Configure skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)
 description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -113,7 +114,7 @@ Base input fields
 </table>**Related topics**  
 
 
-[Customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill for Case summarization](../task/now-assist-slo-cust-skill.md)
+[Customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill for Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-cust-skill.md)
 
-[Customize Now Assist for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat](../task/cust-now-assist-slo-va.md)
+[Customize Now Assist for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/cust-now-assist-slo-va.md)
 

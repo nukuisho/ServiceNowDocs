@@ -2,6 +2,7 @@
 title: Create New Documents form
 description: Use the Create New Documents form to provide details about the new document you want to create.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-new-doc-form.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Supplier Lifecycle Operations, Finance and Supply Chain]
 
 Use the Create New Documents form to provide details about the new document you want to create.
 
-The Create New Documents form contains the Documents and Access Settings sections. For more information about document access settings, see [Document security and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-access-settings.md).
+The Create New Documents form contains the Documents and Access Settings sections. For more information about document access settings, see [Document security and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-access-settings.md).
 
 <table id="table_ff3_ksw_dvb"><thead><tr><th>
 
@@ -120,34 +121,34 @@ The document version that is used for document download.
  By default, the latest version is the default version.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Supplier Lifecycle Operations reference](supp-mgmt-reference.md)
+</table>**Parent Topic:**[Supplier Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
 
 **Related topics**  
 
 
-[Create New Supplier Case form](new-supplier-case.md)
+[Create New Supplier Case form]()
 
-[Create new task form](create-new-supplier-task-form.md)
+[Create new task form]()
 
-[Add New Location form](supplier-location-form.md)
+[Add New Location form]()
 
-[Update banking details form](update-supp-banking-form.md)
+[Update banking details form]()
 
-[Update profile details form](update-supp-profile-form.md)
+[Update profile details form]()
 
-[Onboard a Supplier form](onboard-supp-form.md)
+[Onboard a Supplier form]()
 
-[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+[Primary data tables for Supplier Lifecycle Operations]()
 
-[Domain separation and Supplier Lifecycle Operations](../concept/supplier-domain-separation.md)
+[Domain separation and Supplier Lifecycle Operations]()
 
-[Supplier Lifecycle Operations data model](slo-data-model.md)
+[Supplier Lifecycle Operations data model]()
 
-[Supplier Relationship and Performance Management reference](../concept/supplier-relationship-and-performance-management-reference.md)
+[Supplier Relationship and Performance Management reference]()
 
-[Supplier Payment Optimization reference](../concept/supp-payment-opt-ref.md)
+[Supplier Payment Optimization reference]()
 
-[Supplier Lifecycle Operations glossary](../concept/slo-glossary.md#)
+[Supplier Lifecycle Operations glossary]()
 
-[Manage documents from the Source-to-Pay Workspace](../task/upload-doc-ws.md)
+[Manage documents from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-ws.md)
 

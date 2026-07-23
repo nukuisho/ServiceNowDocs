@@ -2,6 +2,7 @@
 title: Add interface card templates to the slot templates
 description: In the equipment inventory template that you created in the Network Inventory Workspace Lists view, use the Related Templates tab to add the interface cards to the selected slots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/adding-interface-card-slots.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -19,11 +20,11 @@ In the equipment inventory template that you created in the Network Inventory Wo
 
 In the **Related Templates** tab, select the slot that you want to add the interface card to.
 
-![Related Template view of the 7450 ESS-1 template with list of slots.](../image/inventory-template-7450ESS1-slots.png "Equipment inventory template with all associated slots")
+\[Omitted image "inventory-template-7450ESS1-slots.png"\] Alt text: Related Template view of the 7450 ESS-1 template with list of slots.
 
 When the slot record appears, in the **Related Templates** tab, click **New**. Create an inventory template for the associated interface card.
 
-![Details view of associated interface card template with field information.](../image/inventory-template-card-compatibilities-ess.png "Inventory template for the associated interface card")
+\[Omitted image "inventory-template-card-compatibilities-ess.png"\] Alt text: Details view of associated interface card template with field information.
 
 1.  In the **Name** field, enter a name for the interface card.
 2.  In the **Inventory model** field, the associated network interface cards according to the specified slot-to-interface card model relationship. If there is an associated inventory model, you can select one as needed.
@@ -33,22 +34,22 @@ When the slot record appears, in the **Related Templates** tab, click **New**. C
 
 The following example shows the inventory template for the slot with an associated interface card.
 
-![Related Template view of slot 1 with the associated interface card.](../image/inventory-template-network-slot1-card-compatibilites-ess.png "Slot with associated interface card")
+\[Omitted image "inventory-template-network-slot1-card-compatibilites-ess.png"\] Alt text: Related Template view of slot 1 with the associated interface card.
 
 If the card model has a Slot Occupied attribute, and its value is greater than 1, a **Slot Occupied** field appears on the form. It ensures that you are able to identify that when this card is instantiated, other slots are also attached it. By using this field, you can indicate if the other slots that are attached to that piece of equipment are compatible to the network interface that you are selecting.
 
 ## What's next
 
-Next, add subslots to the network interface template. To learn more, see [Add subslot templates to the interface card template](adding-subslots-network-interface-template.md).
+Next, add subslots to the network interface template. To learn more, see [Add subslot templates to the interface card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/adding-subslots-network-interface-template.md).
 
-**Parent Topic:**[Create inventory template relationship](creating-inventory-templates-telco-equipment.md)
+**Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
 
-**Previous topic:**[Add a network interface to the equipment template](adding-interface-cards-associated-equipment-model.md)
+**Previous topic:**[Add a network interface to the equipment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/adding-interface-cards-associated-equipment-model.md)
 
-**Next topic:**[Add subslot templates to the interface card template](adding-subslots-network-interface-template.md)
+**Next topic:**[Add subslot templates to the interface card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/adding-subslots-network-interface-template.md)
 
 **Related topics**  
 
 
-[Create inventory template for network asset instantiation](preparing-inv-templates-network-asset-generation.md)
+[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 

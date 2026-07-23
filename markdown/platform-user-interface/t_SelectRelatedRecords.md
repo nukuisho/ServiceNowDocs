@@ -2,6 +2,7 @@
 title: Select or create records in a related list
 description: When a form contains a related list, such as the Incidents related list in the problem form, you can select existing records or add new ones in the related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_SelectRelatedRecords.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,20 +45,20 @@ Role required: none
         The new record is added to the related table and to the related list of the record.
 
 
-**Parent Topic:**[Related lists](../concept/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 
 
-[Configure when a related list loads](t_ConfigureWhenARelatedListLoads.md)
+[Configure when a related list loads]()
 
-[Create a default filter for a related list](t_CreateADefaultFilter.md)
+[Create a default filter for a related list]()
 
-[Configure the edit option](t_ConfigureTheEditOption.md)
+[Configure the edit option]()
 
-[Create defined related lists](../../../administer/form-administration/task/t_CreateDefinedRelatedLists.md)
+[Create defined related lists]()
 
-[Add fields to selections in a related list](../../../administer/form-administration/task/t_AddingFieldsToARelatedList.md)
+[Add fields to selections in a related list]()
 
-[Create a default filter for list selector records](../../../administer/form-administration/task/t_CreateDefaultRelatedRecSecFilter.md)
+[Create a default filter for list selector records]()
 

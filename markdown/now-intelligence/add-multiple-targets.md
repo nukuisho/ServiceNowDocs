@@ -2,6 +2,7 @@
 title: Add a target to multiple breakdown elements in KPI Details
 description: Select multiple breakdown elements in the KPI Details target configuration panel. Add the same target to each element. This target can be an improvement on a baseline instead of an absolute value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-multiple-targets.html
 release: australia
 topic_type: task
 last_updated: "2023-08-03"
@@ -25,19 +26,19 @@ Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin
 
 1.  Open KPI Details for an indicator.
 
-2.  Click the target icon \(![](../image/target-icon.png)\).
+2.  Click the target icon \(\[Omitted image "target-icon.png"\]\).
 
     The **Targets** panel opens.
 
 3.  Click the cogwheel to open the **Targets Configuration** page.
 
-    ![Targets panel top showing config cogwheel.](../image/kpi-details-target-config-cogwheel.png)
+    \[Omitted image "kpi-details-target-config-cogwheel.png"\] Alt text: Targets panel top showing config cogwheel.
 
     The **Targets configuration** view opens.
 
 4.  Select **Add targets to breakdowns**.
 
-    ![The Add Targets to Breakdowns button in the Targets Configuration view.](../image/kpi-details-targets-add-2-breakdowns.png)
+    \[Omitted image "kpi-details-targets-add-2-breakdowns.png"\] Alt text: The Add Targets to Breakdowns button in the Targets Configuration view.
 
     The **Add targets to breakdown elements** dialog opens.
 
@@ -47,13 +48,13 @@ Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin
 
     **Tip:** If you have many elements to scroll through, sort or filter on a value in any of the columns. You can also click **Filter** and use the condition builder to narrow down the selection.
 
-7.  Set targets for the elements as described in Step [7](edit-multiple-targets.md#step_new-target) in [Edit multiple targets in KPI Details](edit-multiple-targets.md).
+7.  Set targets for the elements as described in Step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-multiple-targets.md) in [Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-multiple-targets.md).
 
 8.  Set a start date, when the targets come into effect, and a review date.
 
 9.  If you are calculating the targets from an average or a previous score, and you don't want the new targets to be above or below certain values, set minimum and maximum values.
 
-    In this dialog, a minimum value of 4 is set. No maximum value is set.![Completed dialog for adding targets to multiple breakdown elements, with a minimum value set.](../image/kpi-details-multiple-targets.png)
+    In this dialog, a minimum value of 4 is set. No maximum value is set.\[Omitted image "kpi-details-multiple-targets.png"\] Alt text: Completed dialog for adding targets to multiple breakdown elements, with a minimum value set.
 
 10. Select **Add**.
 
@@ -66,19 +67,19 @@ Batch target creation happens asynchronously. You might see a progress bar.
 
 Starting February 11, your company began tracking open incidents for each assignment group. By the end of the month, the number of open incidents assigned to your top 4 groups had varied from 18 to 60. The trends also were highly variable.
 
-![Open incidents for each of the 4 top assignment groups for February.](../image/kpi-details-targets-assgroups.png)
+\[Omitted image "kpi-details-targets-assgroups.png"\] Alt text: Open incidents for each of the 4 top assignment groups for February.
 
 You would like consistent improvement across these four groups. Therefore, you want to set them targets that are equivalent despite the differences in absolute values. You also want to set the targets together. To achieve this aim, you open the **Targets configuration** view and click **Add targets to breakdowns**.
 
-![The Add Targets to Breakdowns button in the Targets Configuration view.](../image/kpi-details-targets-add-2-breakdowns.png)
+\[Omitted image "kpi-details-targets-add-2-breakdowns.png"\] Alt text: The Add Targets to Breakdowns button in the Targets Configuration view.
 
 You select the Assignment group breakdown.
 
-![Selecting the Assignment Group breakdown in the Add target to breakdown element dialog.](../image/kpi-details-targets-select-breakdown.png)
+\[Omitted image "kpi-details-targets-select-breakdown.png"\] Alt text: Selecting the Assignment Group breakdown in the Add target to breakdown element dialog.
 
 You get a list of the elements of the Assignment Group breakdown. There are many elements. The four elements you are looking for all have "Support" in the name, so you filter the **Name** column on "Support."
 
-![Filtering elements for those with "Support" in the name.](../image/kpi-details-targets-filter-name.png)
+\[Omitted image "kpi-details-targets-filter-name.png"\] Alt text: Filtering elements for those with "Support" in the name.
 
 The filter reduces the number of elements to browse to 9, from which you easily select the 4 that you want and click **Next**.
 
@@ -88,15 +89,15 @@ Calculations can be made on the existing target or on an average score over a ti
 
 You can set the target either as a unit number improvement on the average score, such as 3 or 4.5, or as a percentage improvement. The scores are close enough that you could probably use a unit number. However, you decide to set the target as a percentage improvement on the average score.
 
-![Selecting a percent change to the average score as the basis for the targets of multiple breakdowns.](../image/kpi-details-targets-select-baseline.png)
+\[Omitted image "kpi-details-targets-select-baseline.png"\] Alt text: Selecting a percent change to the average score as the basis for the targets of multiple breakdowns.
 
 You take the average score from February 11 until February 28. You think 5% is a good improvement target for the next month, so you set the targets to begin March 1 and to review them March 31. You don't think you want to constrain the target values within a range, so you don't set maximum or minimum values.
 
-![Selecting the percentage value, the time range over which to calculate the average score, and the start and review dates of targets you are adding for multiple breakdowns.](../image/kpi-details-targets-select-pct-dates.png)
+\[Omitted image "kpi-details-targets-select-pct-dates.png"\] Alt text: Selecting the percentage value, the time range over which to calculate the average score, and the start and review dates of targets you are adding for multiple breakdowns.
 
 After you click **Add** and dismiss the success message, you see the four targets that you created.
 
-![The targets you just created for 4 elements showing in the Targets Configuration list.](../image/kpi-details-targets-new-targets.png)
+\[Omitted image "kpi-details-targets-new-targets.png"\] Alt text: The targets you just created for 4 elements showing in the Targets Configuration list.
 
 Here is a table with the targets you created and their values. All targets take effect on 1 March and are scheduled for review on 31 March.
 
@@ -107,18 +108,18 @@ Here is a table with the targets you created and their values. All targets take 
 |Assignment Group: Technical Services Support|50|
 |Assignment Group: Financial Systems Support|43|
 
-**Parent Topic:**[Indicator targets and thresholds in KPI Details](../concept/kpi-details-targets.md)
+**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)
 
 **Related topics**  
 
 
-[Create a target in KPI Details](create-kpi-details-targets.md)
+[Create a target in KPI Details]()
 
-[Edit multiple targets in KPI Details](edit-multiple-targets.md)
+[Edit multiple targets in KPI Details]()
 
-[Subscribe users to Data snapshots indicator target](subscribe-users-to-ds-target.md)
+[Subscribe users to Data snapshots indicator target]()
 
-[Create, modify, or delete a threshold in KPI Details](add-mod-pers-tar-thresh-kpi-details.md)
+[Create, modify, or delete a threshold in KPI Details]()
 
-[Responsibility for indicator targets](../concept/responsibiity-targets-kpi-details.md#)
+[Responsibility for indicator targets]()
 

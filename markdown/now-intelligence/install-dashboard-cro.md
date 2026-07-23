@@ -2,6 +2,7 @@
 title: Install the Chief Risk Officer Dashboard
 description: The CRO Dashboard provides a single pane glass view of end-to-end Governance, Risk and Compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-cro.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,6 +62,6 @@ Application plugins:
 
         Assign the user role sn\_cro\_dashboard.user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-user-administration.md).
 
 

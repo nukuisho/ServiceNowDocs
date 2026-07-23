@@ -2,6 +2,7 @@
 title: Add meta tags to a public page
 description: Improve the searchability of Service Portal pages by adding meta tags. You can add the meta name and description attributes to a page, define the robots attribute, or create dynamic meta tags for pages that load record data based on a URL parameter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/seo-tags.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -82,7 +83,7 @@ The HTML meta description attribute. If **ROBOTS** is defined in the **Name** fi
  Alternatively, you can pass a variable into this field based on record data. For example, you can define a `%description` variable in this field, and create a content variable to populate the content tag with record data.
 
 </td></tr></tbody>
-</table>    ![A competed meta tag form for the sc_home page.](../image/add-tag.png)
+</table>    \[Omitted image "add-tag.png"\] Alt text: A competed meta tag form for the sc\_home page.
 
 7.  Click **Submit**.
 
@@ -106,7 +107,7 @@ The HTML meta description attribute. If **ROBOTS** is defined in the **Name** fi
         |More than one URL parameter variable|Populates the content tag with the values defined in the associated content variables records.|`%description %price`|
         |Static value and a URL parameter variable|Populates the content tag with a static value and the associated content variables record.|`Catalog item: %description`|
 
-        ![A Meta Tag form that uses a variable in the Content field.](../image/content-var.png)
+        \[Omitted image "content-var.png"\] Alt text: A Meta Tag form that uses a variable in the Content field.
 
     2.  In the **Content variables** related list, click **New**.
 
@@ -178,14 +179,14 @@ Table field
 
 </td><td>
 
-Select a field from the table defined in the **Table** field. This field is used to generate the value of the content tag.**Important:** To support SEO, ensure that the referenced table field is public. For more information on granting access to a table field, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
+Select a field from the table defined in the **Table** field. This field is used to generate the value of the content tag.**Important:** To support SEO, ensure that the referenced table field is public. For more information on granting access to a table field, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
 
 </td></tr></tbody>
 </table>        If more than one content variables match a variable defined in the **Content** field of the meta tag record, the record with the earliest Created date is used.
 
     4.  Click **Submit**.
 
-        ![A competed content variable form that populates the description tag with the value of a sys_id parameter.](../image/new-content-var.png)
+        \[Omitted image "new-content-var.png"\] Alt text: A competed content variable form that populates the description tag with the value of a sys\_id parameter.
 
     The content tag loads record data. For example:
 
@@ -194,10 +195,10 @@ Select a field from the table defined in the **Table** field. This field is used
     ```
 
 
-**Parent Topic:**[Improving search engine optimization for portals](../concept/seo-sp.md)
+**Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/seo-sp.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 

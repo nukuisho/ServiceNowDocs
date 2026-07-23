@@ -2,6 +2,7 @@
 title: Diagnostics Feature form
 description: Learn about the fields of diagnostics feature form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/diagnostics-feature-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -17,11 +18,11 @@ Learn about the fields of diagnostics feature form.
 
 |Field|Description|
 |-----|-----------|
-|Name|Name of the diagnostic feature. This name appears in the application to which the diagnostic feature belongs.![Diagnostic feature name in application](../image/diagnostic_feature_name.png)|
+|Name|Name of the diagnostic feature. This name appears in the application to which the diagnostic feature belongs.\[Omitted image "diagnostic\_feature\_name.png"\] Alt text: Diagnostic feature name in application|
 |Active|Option for activating the diagnostic feature.|
 |Application|Search for and select the application with which you want to associate this diagnostic feature.|
 |Roles|User roles that allow access to the diagnostic feature.|
-|Description|Details of the scans in the diagnostic feature. The description is displayed in the application to which the diagnostic feature belongs.![Diagnostics feature description on the application page](../image/app_diagnostic_description.png)|
+|Description|Details of the scans in the diagnostic feature. The description is displayed in the application to which the diagnostic feature belongs.\[Omitted image "app\_diagnostic\_description.png"\] Alt text: Diagnostics feature description on the application page|
 
 <table id="table_a5g_2lr_wjb"><thead><tr><th>
 
@@ -67,5 +68,5 @@ An identifier for the user input condition. If a user specifies multiple conditi
 </table>**Related topics**  
 
 
-[Create and add diagnostic features](../task/add-diagnostic-feature.md)
+[Create and add diagnostic features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-diagnostic-feature.md)
 

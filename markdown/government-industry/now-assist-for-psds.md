@@ -2,6 +2,7 @@
 title: Now Assist for Public Sector Digital Services \(PSDS\)
 description: With the Now Assist for Public Sector Digital Services \(PSDS\) application, your agents can use generative AI to summarize the details and comment activity of each public service case to get the context of the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-for-psds.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,15 +19,15 @@ With the Now Assist for Public Sector Digital Services \(PSDS\) application, you
 
 <table id="table_zzm_tc2_kbc" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for Public Sector Digital Services \(PSDS\).](../concept/now-assist-psds-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-exploring.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for Public Sector Digital Services \(PSDS\) application.](../concept/now-assist-psds-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Public Sector Digital Services \(PSDS\) application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use generative AI capabilities offered by Now Assist for Public Sector Digital Services \(PSDS\).](../concept/now-assist-psds-using.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Public Sector Digital Services \(PSDS\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-using.md)
 
 </td></tr><tr><td>
 
@@ -34,7 +35,7 @@ With the Now Assist for Public Sector Digital Services \(PSDS\) application, you
 
 </td><td>
 
-[Use Public Sector Digital Services AI agent collection ![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use agentic workflows in Public Sector Digital Services.](now-assist-psds-agentic-ai.md)
+[Use Public Sector Digital Services AI agent collection \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Public Sector Digital Services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-agentic-ai.md)
 
 </td><td>
 
@@ -43,9 +44,9 @@ With the Now Assist for Public Sector Digital Services \(PSDS\) application, you
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help

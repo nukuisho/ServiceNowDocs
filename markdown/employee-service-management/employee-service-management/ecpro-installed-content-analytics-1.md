@@ -225,48 +225,48 @@ Stores analytics related to page referrals.
 
 **Note:** A new **Enable Tracking** field has been introduced to content notifications, designed specifically for email content. Existing notification records will have this field disabled by default, in line with prior system settings and by default, existing email content will have tracking turned off. However, for new email notification contents, the **Enable Tracking**option will be available for your selection and will be automatically enabled on new record creation. This feature provides greater flexibility, allowing you to determine whether tracking should be applied to specific email content record.
 
-**Parent Topic:**[Employee Center Pro reference](emp-center-pro-reference.md)
+**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 
 
-[Block content form](block-content-form.md)
+[Block content form]()
 
-[Campaign overview and Campaign analytics dashboards](../concept/ecpro-content-automation-content-pack.md)
+[Campaign overview and Campaign analytics dashboards]()
 
-[Components installed with Employee Center Pro](components-installed-with-employee-center-pro-1.md)
+[Components installed with Employee Center Pro]()
 
-[Components installed with Content engagement](installed-content-engagement.md)
+[Components installed with Content engagement]()
 
-[Components installed with Content Experiences](installed-with-content-auto.md)
+[Components installed with Content Experiences]()
 
-[Components installed with Content Publishing](installed-with-content-delivery.md)
+[Components installed with Content Publishing]()
 
-[Components installed with Content Governance](ec-installed-content-governance.md)
+[Components installed with Content Governance]()
 
-[Content Analytics dashboards](../concept/content-analytics-dashboards.md)
+[Content Analytics dashboards]()
 
-[Content engagement dashboard](../concept/ec-pro-content-engagement-dashboard.md)
+[Content engagement dashboard]()
 
-[Content Library Overview dashboard](../concept/content-library-overview-dashboard.md)
+[Content Library Overview dashboard]()
 
-[Employee Center Pro widgets](employee-center-pro-widgets-list.md)
+[Employee Center Pro widgets]()
 
-[Feedback configuration form](ex-feedback-new-record.md)
+[Feedback configuration form]()
 
-[Feedback definition form](fdbck-dfnition-record.md)
+[Feedback definition form]()
 
-[Link content form](link-content-form.md)
+[Link content form]()
 
-[Notification content form](notification-content-form.md)
+[Notification content form]()
 
-[Properties installed with Content Experiences](properties-installed-with-content-auto.md)
+[Properties installed with Content Experiences]()
 
-[Properties installed with Content Governance](properties-installed-content-governance.md)
+[Properties installed with Content Governance]()
 
-[Properties installed with Content Publishing](properties-with-content-delivery.md)
+[Properties installed with Content Publishing]()
 
-[Standard banner and icon sizes](ec-portal-images-size.md)
+[Standard banner and icon sizes]()
 
-[To-do content form](to-do-content-form.md)
+[To-do content form]()
 

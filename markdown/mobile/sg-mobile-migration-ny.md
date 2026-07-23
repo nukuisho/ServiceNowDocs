@@ -2,6 +2,7 @@
 title: Mobile migration from Madrid to New York and later releases
 description: Migrate your mobile applications in New York or later releases to take advantage of the improved features and continue editing within Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-migration-ny.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -34,9 +35,9 @@ During the upgrade from Madrid to New York or later releases, the instance updat
     Adds the settings tabs \[sys\_sg\_settings\_tab\] table. Records on this table represent a tab for settings on each navigation bar.
 
 
-![New elements introduced in the upgrade to New York](../image/upgrade-table-changes.png)
+\[Omitted image "upgrade-table-changes.png"\] Alt text: New elements introduced in the upgrade to New York
 
-This upgrade includes new features such as application launchers and a configurable navigation bar. Any unmodified base system mobile applications installed on your instance are automatically updated to work with the new design, and can be used with Studio right away. For more detail on the mobile hierarchy used in New York and later, see [Mobile hierarchy](mobile-hierarchy.md).
+This upgrade includes new features such as application launchers and a configurable navigation bar. Any unmodified base system mobile applications installed on your instance are automatically updated to work with the new design, and can be used with Studio right away. For more detail on the mobile hierarchy used in New York and later, see [Mobile hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-hierarchy.md).
 
 Modified base system applications, and applications that you have created in Madrid will continue to work after the upgrade. These applications will not be configurable in Studio until after you have run the mobile migration script.
 
@@ -69,15 +70,15 @@ After an upgrade, consider the following information to confirm that your mobile
 
 This script converts your custom applications and any modified base system application to the new mobile schema available in the New York release. The script only changes the current scope when it runs. If you have more than one scoped mobile application, you must run the script for each scope.
 
-After an upgrade, the option to run the migration script appears when you first access a custom application, or a base system application that you have modified. For example, when opening a modified or custom applet record. You can also see the migration prompt when accessing the applet picker in Studio by browsing to **Mobile Studio** &gt; **Applets** and clicking the pop-out icon \(![Pop out icon](../image/IconPopOut.png)\). The migration prompt displays if any of the applets shown the picker require migration.
+After an upgrade, the option to run the migration script appears when you first access a custom application, or a base system application that you have modified. For example, when opening a modified or custom applet record. You can also see the migration prompt when accessing the applet picker in Studio by browsing to **Mobile Studio** &gt; **Applets** and clicking the pop-out icon \(\[Omitted image "IconPopOut.png"\] Alt text: Pop out icon\). The migration prompt displays if any of the applets shown the picker require migration.
 
-![Mobile migration script prompt](../image/migration-script-prompt.png)
+\[Omitted image "migration-script-prompt.png"\] Alt text: Mobile migration script prompt
 
 After the script completes, you may be prompted to resolve collisions detected by the migration process. Collisions are records created by ServiceNow that you have modified, and are not automatically upgraded. Collisions can only occur when you have modified a base system application before your upgrade to New York or later releases.
 
-![Mobile migration collision prompt](../image/migration-collision-prompt.png)
+\[Omitted image "migration-collision-prompt.png"\] Alt text: Mobile migration collision prompt
 
-Click the **View Collisions** to resolve these collisions. For detail on this process, see [Resolve common issues in mobile migration script results](../reference/ny-migration.md).
+Click the **View Collisions** to resolve these collisions. For detail on this process, see [Resolve common issues in mobile migration script results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/ny-migration.md).
 
 ## Changes made by the mobile migration script
 
@@ -87,7 +88,7 @@ Click **Migrate** to start the migration script for the current scope. The migra
 
     The legacy Madrid schema used mobile applications and folders to organize your applets. The Now Mobile schema, uses applet launcher screens, which are divided into UI sections. Applet launcher is accessed by tapping on tabs in the navigation bar which appears at the bottom of your app screens.
 
-    ![Changes to applications in the New York schema.](../image/application-migration.png "Changes to applications in the New York schema")
+    \[Omitted image "application-migration.png"\] Alt text: Changes to applications in the New York schema.
 
     The migration script creates an applet launcher for each mobile application record. The script converts each folder in the original mobile application to a new horizontal icon section within that applet launcher. The script then creates an icon in the icon section for each applet with the folder. Hidden screens do not appear in the icon section. The script then adds a tab to the navigation bar for each of the new applet launchers.
 
@@ -95,9 +96,9 @@ Click **Migrate** to start the migration script for the current scope. The migra
 
     After migration, the script removes the legacy Folder \[sys\_sg\_folder\] and Mobile Application \[sys\_sg\_application\] records.
 
-    ![Madrid applications converted to New York icon sections and icons.](../image/ny-application-conversion.png)
+    \[Omitted image "ny-application-conversion.png"\] Alt text: Madrid applications converted to New York icon sections and icons.
 
-    For more detail on the navigation bar, applet launchers and their UI sections, see [Navigation bar](sg-mobile-tab-bar.md), and [Launcher screens](sg-mobile-applet-launcher.md).
+    For more detail on the navigation bar, applet launchers and their UI sections, see [Navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-tab-bar.md), and [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md).
 
 -   **Form migration**
 
@@ -113,7 +114,7 @@ Click **Migrate** to start the migration script for the current scope. The migra
 
 -   **Item streams and Item configurations**
 
-    ![Components of the Native Client.](../image/mobile-hierarchy-callout-2.png)
+    \[Omitted image "mobile-hierarchy-callout-2.png"\] Alt text: Components of the Native Client.
 
     The migration script creates an item stream \[sys\_sg\_item\_stream\] record for each screen in the scoped application. The original data item record associated with the legacy application changes to associate with the new item stream record. The script creates time span item stream \[sys\_sg\_time\_span\_item\_stream\] records for each calendar screen, and location item stream \[sys\_sg\_location\_item\_stream\] records for map screens. These two tables extend from the item stream table, but are used specifically for these screen types.
 
@@ -158,10 +159,10 @@ Click **Migrate** to start the migration script for the current scope. The migra
 
 For more information on the migration process, see the Mobile Migration Guide for New York on the ServiceNow community site. [https://community.servicenow.com/community?id=community\_article&amp;sys\_id=f5121a33dba7f788fff8a345ca961957](https://community.servicenow.com/community?id=community_article&sys_id=f5121a33dba7f788fff8a345ca961957)
 
--   **[Run the mobile migration script](../task/sg-mobile-migration-script.md)**  
+-   **[Run the mobile migration script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-migration-script.md)**  
 Run the mobile migration script to convert Madrid mobile applications you have created or modified to use the new mobile hierarchy.
--   **[Resolve common issues in mobile migration script results](../reference/ny-migration.md)**  
+-   **[Resolve common issues in mobile migration script results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/ny-migration.md)**  
 Find solutions to common issues after running the mobile migration script.
 
-**Parent Topic:**[Mobile plugins and upgrades](plugins-upgrades.md)
+**Parent Topic:**[Mobile plugins and upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/plugins-upgrades.md)
 

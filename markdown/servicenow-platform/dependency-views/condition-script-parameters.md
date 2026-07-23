@@ -2,6 +2,7 @@
 title: Condition and script parameters for menu actions
 description: You can use the following condition and script parameters for menu actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/condition-script-parameters.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -55,22 +56,22 @@ Menu action scripts are executed on the client when a user clicks the menu optio
 |item.location\_name|The full address of the location, such as 4616 Clairemont Drive, North Clairemont, San Diego CA.|
 |item.manufacturer\_id|The sys\_id of the CI's manufacturer.|
 
-**Parent Topic:**[Administer Dependency Views](../topic/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 
 
-[Create or modify map indicators](../task/t_CreateModifyNGBSMMapIndicators.md)
+[Create or modify map indicators]()
 
-[Create or modify map icons](../task/t_CreateModifyNGBSMMapIcons.md)
+[Create or modify map icons]()
 
-[Create a predefined filter](../task/create-predefined-filter.md)
+[Create a predefined filter]()
 
-[Set a predefined filter as default](../task/set-predefined-filter-default.md)
+[Set a predefined filter as default]()
 
-[Create or modify Map Related Items](../task/t_CreateModifyNGBSMMapRelatedItems.md)
+[Create or modify Map Related Items]()
 
-[Create or modify Dependency Views menu actions](../task/t_CreateModifyNGBSMMenuActions.md)
+[Create or modify Dependency Views menu actions]()
 
-[Create or edit a dependency type](../task/t_CreateMapScript.md)
+[Create or edit a dependency type]()
 

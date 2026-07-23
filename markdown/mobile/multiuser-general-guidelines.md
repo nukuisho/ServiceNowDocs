@@ -2,10 +2,11 @@
 title: General Guidelines for multiple users using a shared device
 description: When configuring the setup for multiple users using a shared device, keep these general guidelines in mind for usability and a good user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/multiuser-general-guidelines.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-30"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Multiple users on a shared device, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -27,7 +28,7 @@ When configuring the setup for multiple users using a shared device, keep these 
 
 -   **Pre-loginand device sharing compatibility**
 
-    The shared device and pre-login \(branded landing page\) features are designed for different personas and cannot work in parallel. If the pre-login feature is configured, the device sharing option is hidden.
+    The shared device and pre-login \(branded landing page\) features are designed for different personas and cannot work in parallel. If the pre-login feature is configured, the device sharing option is hidden. For more information, see [Branded landing page for a single instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/branded-landing-page.md).
 
     If the pre-login feature is configured on an instance after a device is already in shared mode, existing shared devices are not impacted. However, any new devices connecting to that instance cannot be used in shared mode.
 
@@ -56,13 +57,13 @@ When configuring the setup for multiple users using a shared device, keep these 
 
 -   **MAM app configuration**
 
-    Changes to either the **SNDefaultInstanceURL** or **SNDefaultInstanceName** properties in the MAM app configuration will not take effect once the application is converted to shared device mode. For more information, see [AppConfig for Mobile Apps](appconfig.md).
+    Changes to either the **SNDefaultInstanceURL** or **SNDefaultInstanceName** properties in the MAM app configuration will not take effect once the application is converted to shared device mode. For more information, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md).
 
     **Note:** When using MAM/MDM with the multi-user feature, only the policies of the user who first authenticates into MAM/MDM are applied, even after the app is converted to shared mode.
 
 -   **SSO and shared devices**
 
-    When using SSO login with a shared device, you must set the **SingleLogoutRequest** service URL. For more information, see Set the SingleLogoutRequest service URL.
+    When using SSO login with a shared device, you must set the **SingleLogoutRequest** service URL. For more information, see [Set the SingleLogoutRequest service URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_SetTheSingleLogoutRequestSvcURL.md).
 
 -   **Reverting to non-shared mode**
 

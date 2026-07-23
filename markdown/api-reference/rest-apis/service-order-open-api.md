@@ -2,12 +2,13 @@
 title: Service Order Open API
 description: The Service Order Open API provides endpoints that enable a standardized mechanism for placing service orders.Retrieves all service orders.Retrieves a specified service order.Updates the specified service order.Cancels the specified service order.Creates, updates, or deletes a service order or line item.Updates the fulfillment state for the specified domain order records in the Outbound Request \[sn\_tmt\_core\_outbound\_request\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/service-order-open-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 70
+reading_time_minutes: 73
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -17,7 +18,7 @@ The Service Order Open API provides endpoints that enable a standardized mechani
 
 This API is a ServiceNow® implementation of the TM Forum Service Ordering Management API specification. This implementation is based on the [TMF641 Service Ordering Management API User Guide v4.1.1](https://www.tmforum.org/resources/specifications/tmf641-service-ordering-management-api-user-guide-v4-1-1/), March 2021. The Service Order Open API is conformance certified by TM Forum
 
-![TMF conformance logo](../image/tmf-conformance.png)
+\[Omitted image "tmf-conformance.png"\] Alt text: TMF conformance logo
 
 To access this API, the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin must be activated. For more information, see [Install Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-install-providers.md). For information about Order Management tables and roles, see [Components installed with Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-with-order-management.md).
 
@@ -25,9 +26,9 @@ This API is provided within the `sn_tmf_api` namespace.
 
 The calling user must have the sn\_ind\_tmt\_orm.order\_integrator role.
 
-This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Service Order Open API Developer Guide](../../guides/telecom/concept/service-order_dev-guide.md#).
+This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Service Order Open API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/service-order_dev-guide.md).
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Service Order Open API – GET /sn\_tmf\_api/order/serviceOrder
 
@@ -108,7 +109,7 @@ Default: All states returned.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -160,7 +161,7 @@ For paginated queries, this header specifies the total number of records availab
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_abf_sn5_4sb"><thead><tr><th>
 
@@ -260,7 +261,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array
+Optional. List of additional notes made by the customer when ordering. Data type: Array
 
 ```
 "note": [
@@ -327,7 +328,7 @@ relatedParty
 
 </td><td>
 
-List of contacts for the order.Data type: Array of Objects
+Optional. List of contacts for the order.Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -384,7 +385,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -392,7 +393,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -400,7 +401,9 @@ serviceOrderItem
 
 </td><td>
 
-List of line items in the service order and their associated action. ```
+Required. List of line items in the service order and their associated action. Data type: Array
+
+```
 "serviceOrderItem:" [
   {
     "action": "String",
@@ -408,7 +411,7 @@ List of line items in the service order and their associated action. ```
     "committedDueDate": "String",
     "externalProductInventory": [Array],
     "id": "String",
-    "orderRelationship": [Array],
+    "serviceOrderItemRelationship": [Array],
     "quantity": "Number",
     "place": {Object},   
     "ponr": Boolean,
@@ -421,15 +424,13 @@ List of line items in the service order and their associated action. ```
 ]
 ```
 
- Data type: Array
-
 </td></tr><tr><td>
 
 serviceOrderItem.action
 
 </td><td>
 
-Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md).
+Required. Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md).
 
 Data type: String
 
@@ -449,7 +450,7 @@ serviceOrderItem.committedDueDate
 
 </td><td>
 
-Date and time when the action must be performed on the order line item.
+Optional. Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -459,7 +460,7 @@ serviceOrderItem.externalProductInventory
 
 </td><td>
 
-List of external IDs mapped to the product inventories created for the order. Data type: Array of Objects
+Conditional. List of external IDs mapped to the product inventories created for the order. If supplied, each entry requires **externalProductInventoryId**.Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -483,18 +484,18 @@ serviceOrderItem.id
 
 </td><td>
 
-Unique identifier of the line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
+Required. Unique identifier of the line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship
+serviceOrderItem.serviceOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array
 
 ```
-"orderRelationship:" [
+"serviceOrderItemRelationship:" [
   {
     "id": "String",
     "relationshipType": "String"
@@ -504,19 +505,19 @@ List of the relationships between order line items. Data type: Array
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship.id
+serviceOrderItem.serviceOrderItemRelationship.id
 
 </td><td>
 
-Unique identifier of the related line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
+Required. Unique identifier of the related line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship.relationshipType
+serviceOrderItem.serviceOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -540,7 +541,7 @@ serviceOrderItem.place
 
 </td><td>
 
-Map of the locations on which to install the service.Data type: Object
+Optional. Map of the locations on which to install the service. Requires **serviceOrderItem.place.id** if present.Data type: Object
 
 ```
 "place:" {
@@ -555,7 +556,7 @@ serviceOrderItem.place.id
 
 </td><td>
 
-Sys\_id of the associated location record in the Location \[cmn\_location\] table. When employing the change action on a product order item \(via the**productOrderItem.action** parameter\), updating the request with a new place sys\_id creates a move order, where the order is not changed but is fulfilled in a new location. Data type: String
+Optional. Sys\_id of the associated location record in the Location \[cmn\_location\] table. When employing the change action on a product order item \(via the**productOrderItem.action** parameter\), updating the request with a new place sys\_id creates a move order, where the order is not changed but is fulfilled in a new location. Data type: String
 
 </td></tr><tr><td>
 
@@ -586,7 +587,7 @@ serviceOrderItem.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array
+Optional. List of contacts for line items. Data type: Array
 
  ```
 "relatedParty:" [
@@ -624,7 +625,7 @@ serviceOrderItem.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -666,7 +667,7 @@ serviceOrderItem.service
 
 </td><td>
 
-Description of the instance details of the service purchased by the customer. Data type: Object
+Required. Required. Description of the instance details of the service purchased by the customer. Data type: Object
 
  ```
 "service:" {
@@ -685,7 +686,7 @@ serviceOrderItem.service.serviceCharacteristic
 
 </td><td>
 
-List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
+Conditional. If supplied, each entry requires **serviceOrderItem.service.serviceCharacteristic**. List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
 
  Data type: Array of Objects
 
@@ -776,7 +777,7 @@ serviceOrderItem.service.serviceSpecification
 
 </td><td>
 
-Description of the service specification associated with the service. Data type: Object
+Conditional. When supplied, **serviceSpecification.id** is required. Description of the service specification associated with the service. Data type: Object
 
  ```
 "serviceSpecification:" {
@@ -795,7 +796,7 @@ serviceOrderItem.service.serviceSpecification.id
 
 </td><td>
 
-Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
+Required when **serviceSpecification** is present. Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -1045,7 +1046,7 @@ Table: Order \[sn\_ind\_tmt\_orm\_order\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1057,7 +1058,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_n5s_hjm_gqb"><thead><tr><th>
 
@@ -1180,7 +1181,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array
+Optional. List of additional notes made by the customer when ordering. Data type: Array
 
 ```
 "note": [
@@ -1247,7 +1248,7 @@ relatedParty
 
 </td><td>
 
-List of contacts for the order.Data type: Array of Objects
+Optional. List of contacts for the order.Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -1266,7 +1267,7 @@ relatedParty.id
 
 </td><td>
 
-Sys\_id or external\_id of the account, customer contact, or consumer associated with the order. Located in the Account \[customer\_account\], Contact \[customer\_contact\] table, or Consumer \[csm\_consumer\] table. Data type: String
+Required. Sys\_id or external\_id of the account, customer contact, or consumer associated with the order. Located in the Account \[customer\_account\], Contact \[customer\_contact\] table, or Consumer \[csm\_consumer\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -1282,7 +1283,7 @@ relatedParty.@referredType
 
 </td><td>
 
-Type of customer. Possible values:
+Required. Type of customer. Possible values:
 
 -   Consumer
 -   Customer
@@ -1304,7 +1305,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -1312,15 +1313,15 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
-serviceOrderItem
+re
 
 </td><td>
 
-List of line items in the service order and their associated action. Data type: Array
+Required. List of line items in the service order and their associated action. Data type: Array
 
 ```
 "serviceOrderItem:" [
@@ -1330,7 +1331,7 @@ List of line items in the service order and their associated action. Data type: 
     "committedDueDate": "String",
     "externalProductInventory": [Array],
     "id": "String",
-    "orderRelationship": [Array],
+    "serviceOrderItemRelationship": [Array],
     "quantity": "Number",
     "place": {Object},   
     "ponr": Boolean,
@@ -1349,7 +1350,7 @@ serviceOrderItem.action
 
 </td><td>
 
-Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md)
+Required. Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. For details, see [Action types for customer and service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-customer-order-types.md)
 
 Data type: String
 
@@ -1369,7 +1370,7 @@ serviceOrderItem.committedDueDate
 
 </td><td>
 
-Date and time when the action must be performed on the order line item.
+Optional. Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -1379,7 +1380,7 @@ serviceOrderItem.externalProductInventory
 
 </td><td>
 
-List of external IDs mapped to the product inventories created for the order. Data type: Array of Objects
+Conditional. List of external IDs mapped to the product inventories created for the order. If supplied, each entry requires **externalProductInventoryId**.Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -1403,18 +1404,18 @@ serviceOrderItem.id
 
 </td><td>
 
-Unique identifier of the line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
+Required. Unique identifier of the line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship
+serviceOrderItem.serviceOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array of Objects
 
 ```
-"orderRelationship:" [
+"serviceOrderItemRelationship:" [
   {
     "id": "String",
     "relationshipType": "String"
@@ -1424,19 +1425,19 @@ List of the relationships between order line items. Data type: Array of Objects
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship.id
+serviceOrderItem.serviceOrderItemRelationship.id
 
 </td><td>
 
-Unique identifier of the related line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
+Required. Unique identifier of the related line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship.relationshipType
+serviceOrderItem.serviceOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -1460,7 +1461,7 @@ serviceOrderItem.place
 
 </td><td>
 
-Map of the locations on which to install the service.Data type: Object
+Optional. Map of the locations on which to install the service. Requires **serviceOrderItem.place.id** if present.Data type: Object
 
 ```
 "place:" {
@@ -1504,7 +1505,7 @@ serviceOrderItem.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array
+Optional. List of contacts for line items. Data type: Array
 
 ```
 "relatedParty:" {
@@ -1540,7 +1541,7 @@ serviceOrderItem.relatedParty.id
 
 </td><td>
 
-Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
+Required. Sys\_id of the line item contact associated with the order line item. Located in the Order Line Item Contact \[sn\_ind\_tmt\_orm\_order\_line\_item\_contact\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -1582,7 +1583,7 @@ serviceOrderItem.service
 
 </td><td>
 
-Description of the instance details of the service purchased by the customer. Data type: Object
+Required. Description of the instance details of the service purchased by the customer. Data type: Object
 
 ```
 "service:" {
@@ -1601,7 +1602,7 @@ serviceOrderItem.service.serviceCharacteristic
 
 </td><td>
 
-List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
+Conditional. If supplied, each entry requires **serviceOrderItem.service.serviceCharacteristic**. List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
 
 Data type: Array
 
@@ -1615,6 +1616,24 @@ Data type: Array
   }
 ]
 ```
+
+</td></tr><tr><td>
+
+serviceOrderItem.service.serviceCharacteristic.name
+
+</td><td>
+
+Required for each characteristic entry. Name of the characteristic record to associated with the service. Located in the Characteristic \[sn\_prd\_pm\_characteristic\] table. Data type: String
+
+Table/field updated: sn\_ind\_tmt\_orm\_order\_characteristic\_value/characteristics
+
+</td></tr><tr><td>
+
+serviceOrderItem.service.serviceCharacteristic.previousValue
+
+</td><td>
+
+Previous characteristic option values if the update is for change order. The request is a change order if the **serviceOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
 
 </td></tr><tr><td>
 
@@ -1692,7 +1711,7 @@ serviceOrderItem.service.serviceSpecification
 
 </td><td>
 
-Description of the service specification associated with the service. Data type: Object
+Conditional. When supplied, **serviceSpecification.id** is required. Description of the service specification associated with the service. Data type: Object
 
 ```
 "serviceSpecification:" {
@@ -1711,7 +1730,7 @@ serviceOrderItem.service.serviceSpecification.id
 
 </td><td>
 
-Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
+Required when **serviceSpecification** is present. Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -1998,11 +2017,19 @@ Stored in: The committed\_due\_date field of the sn\_ind\_tmt\_orm\_order table.
 
 </td></tr><tr><td>
 
+description
+
+</td><td>
+
+Optional. Brief details about the given service order.Data type: String
+
+</td></tr><tr><td>
+
 externalId
 
 </td><td>
 
-Unique order number for the external service order. Data type: String
+Optional. Unique order number for the external service order. Data type: String
 
 Table/field updated: sn\_ind\_tmt\_orm\_order
 
@@ -2012,7 +2039,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
 ```
 "note": [
@@ -2081,7 +2108,7 @@ relatedParty.@referredType
 
 </td><td>
 
-Type of customer. Possible values:
+Required. Type of customer. Possible values:
 
 -   Consumer
 -   Customer
@@ -2103,7 +2130,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 Stored in: The expected\_end\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -2115,7 +2142,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 Stored in: The expected\_start\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -2137,7 +2164,7 @@ Required. List of line items in the service order and their associated action. D
     "committedDueDate": "String",
     "externalProductInventory": [Array],
     "id": "String",
-    "orderRelationship": [Array],
+    "serviceOrderItemRelationship": [Array],
     "place": {Object},
     "quantity": "Number",
     "relatedParty": {Object},
@@ -2156,7 +2183,7 @@ serviceOrderItem.action
 
 </td><td>
 
-Required. Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. Possible values:
+Required. Required. Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. Possible values:
 
 -   add
 -   change
@@ -2199,7 +2226,7 @@ serviceOrderItem.externalProductInventory
 
 </td><td>
 
-List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
+Conditional. If supplied, each entry requires **externalProductInventoryId**. List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -2233,14 +2260,14 @@ Table/field updated: sn\_ind\_tmt\_orm\_order\_line\_item/external\_id
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship
+serviceOrderItem.serviceOrderItemRelationship
 
 </td><td>
 
-Required. List of relationships between order line items.Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**.Data type: Array of Objects
 
 ```
-"orderRelationship:" [
+"serviceOrderItemRelationship:" [
   {
     "id": "String",
     "relationshipType": "String"
@@ -2252,7 +2279,7 @@ Table/field updated: sn\_ind\_tmt\_orm\_order\_line\_item
 
 </td></tr><tr id="productOrderItemRelationship_id-row-tmf622"><td>
 
-serviceOrderItem.orderRelationship.id
+serviceOrderItem.serviceOrderItemRelationship.id
 
 </td><td>
 
@@ -2262,11 +2289,11 @@ Table/field updated: sn\_ind\_tmt\_orm\_order\_line\_item/parent\_line\_item or 
 
 </td></tr><tr id="productOrderItemRelationship_relType-row-tmf622"><td>
 
-serviceOrderItem.orderRelationship.relationshipType
+serviceOrderItem.serviceOrderItemRelationship.relationshipType
 
 </td><td>
 
-Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -2282,7 +2309,7 @@ serviceOrderItem.place
 
 </td><td>
 
-Map of the locations on which to install the service.Data type: Object
+Optional. Map of the locations on which to install the service. Requires **serviceOrderItem.place.id** if present.Data type: Object
 
 ```
 "place:" {
@@ -2329,7 +2356,7 @@ serviceOrderItem.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array
+Optional. List of contacts for line items. Data type: Array
 
 ```
 "relatedParty:" {
@@ -2426,7 +2453,7 @@ serviceOrderItem.service.serviceCharacteristic
 
 </td><td>
 
-List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
+Conditional. If supplied, each entry requires **serviceOrderItem.service.serviceCharacteristic**. List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
 
 Data type: Array
 
@@ -2447,7 +2474,7 @@ serviceOrderItem.service.serviceCharacteristic.name
 
 </td><td>
 
-Name of the characteristic record to associated with the service. Located in the Characteristic \[sn\_prd\_pm\_characteristic\] table. Data type: String
+Required for each characteristic entry. Name of the characteristic record to associated with the service. Located in the Characteristic \[sn\_prd\_pm\_characteristic\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -2496,7 +2523,7 @@ serviceOrderItem.service.serviceSpecification
 
 </td><td>
 
-Required. Description of the service specification associated with the service. **Note:** Change orders \(**serviceOrderItem.action** is `change`\) are processed differently based on the value of the **sn\_ind\_tmt\_orm.allowSpecVersionUpdateInChangeOrder** system property.
+Required. Conditional. When supplied, **serviceSpecification.id** is required. Description of the service specification associated with the service. **Note:** Change orders \(**serviceOrderItem.action** is `change`\) are processed differently based on the value of the **sn\_ind\_tmt\_orm.allowSpecVersionUpdateInChangeOrder** system property.
 
 -   When the property is set to true \(default\), if the service is a different version than indicated in the order, the service is automatically upgraded to the version in the order by changing the referenced service specification. This allows the order to be successfully processed.
 -   When the property is set to false, if the service is a different version than indicated in the order, the order fails due to the version mismatch.
@@ -2519,7 +2546,7 @@ serviceOrderItem.service.serviceSpecification.id
 
 </td><td>
 
-Required. Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
+Required. Required when **serviceSpecification** is present. Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -2556,7 +2583,7 @@ Part of the TMF Open API standard. This value is always `ServiceOrder`. This inf
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2569,7 +2596,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_xfv_2vk_5rb"><thead><tr><th>
 
@@ -2652,7 +2679,7 @@ committedDueDate
 
 </td><td>
 
-Date and time when the action must be performed on the order.
+Optional. Date and time when the action must be performed on the order.
 
 This value must be the same as or later than the **committedDueDate** values for each order line item.
 
@@ -2690,7 +2717,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array
+Optional. List of additional notes made by the customer when ordering. Data type: Array
 
 ```
 "note": [
@@ -2726,7 +2753,7 @@ relatedParty
 
 </td><td>
 
-List of contacts for the order.Data type: Array of Objects
+Optional. List of contacts for the order.Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -2783,7 +2810,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -2791,7 +2818,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -2799,7 +2826,7 @@ serviceOrderItem
 
 </td><td>
 
-List of line items in the service order and their associated action. Data type: Array
+Required. List of line items in the service order and their associated action. Data type: Array
 
 ```
 "serviceOrderItem:" [
@@ -2809,7 +2836,7 @@ List of line items in the service order and their associated action. Data type: 
     "committedDueDate": "String",
     "externalProductInventory": [Array],
     "id": "String",
-    "orderRelationship": [Array],
+    "serviceOrderItemRelationship": [Array],
     "place": {Object},
     "quantity": "Number",
     "relatedParty": {Object},
@@ -2826,7 +2853,7 @@ serviceOrderItem.action
 
 </td><td>
 
-Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. Possible values:
+Required. Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. Possible values:
 
 -   add
 -   change
@@ -2852,7 +2879,7 @@ serviceOrderItem.committedDueDate
 
 </td><td>
 
-Date and time when the action must be performed on the order line item.
+Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -2862,7 +2889,7 @@ serviceOrderItem.externalProductInventory
 
 </td><td>
 
-List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
+Conditional. If supplied, each entry requires **externalProductInventoryId**. List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -2892,14 +2919,14 @@ Unique identifier of the line item. Located in the sn\_ind\_tmt\_orm\_external\_
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship
+serviceOrderItem.serviceOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array
 
 ```
-"orderRelationship:" [
+"serviceOrderItemRelationship:" [
   {
     "id": "String",
     "relationshipType": "String"
@@ -2909,19 +2936,19 @@ List of the relationships between order line items. Data type: Array
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship.id
+serviceOrderItem.serviceOrderItemRelationship.id
 
 </td><td>
 
-Unique identifier of the related line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
+Required. Unique identifier of the related line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship.relationshipType
+serviceOrderItem.serviceOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -2937,7 +2964,7 @@ serviceOrderItem.place
 
 </td><td>
 
-Map of the locations on which to install the service.Data type: Object
+Optional. Map of the locations on which to install the service. Requires **serviceOrderItem.place.id** if present.Data type: Object
 
 ```
 "place:" {
@@ -2976,7 +3003,7 @@ serviceOrderItem.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array
+Optional. List of contacts for line items. Data type: Array
 
 ```
 "relatedParty:" {
@@ -3045,7 +3072,7 @@ serviceOrderItem.service
 
 </td><td>
 
-Description of the instance details of the service purchased by the customer. Data type: Object
+Required. Description of the instance details of the service purchased by the customer. Data type: Object
 
 ```
 "service:" {
@@ -3071,7 +3098,7 @@ serviceOrderItem.service.serviceCharacteristic
 
 </td><td>
 
-List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
+Conditional. If supplied, each entry requires **serviceOrderItem.service.serviceCharacteristic**. List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
 
 Data type: Array
 
@@ -3092,7 +3119,7 @@ serviceOrderItem.service.serviceCharacteristic.name
 
 </td><td>
 
-Name of the characteristic record to associated with the service. Located in the Characteristic \[sn\_prd\_pm\_characteristic\] table. Data type: String
+Required for each characteristic entry. Name of the characteristic record to associated with the service. Located in the Characteristic \[sn\_prd\_pm\_characteristic\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -3141,7 +3168,7 @@ serviceOrderItem.service.serviceSpecification
 
 </td><td>
 
-Description of the service specification associated with the service. Data type: Object
+Conditional. When supplied, **serviceSpecification.id** is required. Description of the service specification associated with the service. Data type: Object
 
 ```
 "serviceSpecification:" {
@@ -3157,7 +3184,7 @@ serviceOrderItem.service.serviceSpecification.id
 
 </td><td>
 
-Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
+Required when **serviceSpecification** is present. Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -3493,7 +3520,7 @@ requestedCancellationDate
 
 </td><td>
 
-Date to cancel the order.Data type: String
+Optional. Date to cancel the order.Data type: String
 
 Default: Blank string
 
@@ -3510,7 +3537,7 @@ Default: Blank string
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -3523,7 +3550,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -3733,11 +3760,26 @@ Data type: String
 
 </td></tr><tr><td>
 
+disableCharValueValidation
+
+</td><td>
+
+Flag that indicates how to control characteristic value validation behavior for choice-type characteristics.Valid values:
+
+-   true: Validation is disabled and `characteristic_option_value` is set directly from the request payload without generating work notes.
+-   false: Validates characteristic values against allowed choices and adds a work note to the record for any invalid value.
+
+Default: false
+
+The system property, `sn_ind_tmt_orm.disableCharValueValidation`, allows you to revert to pre-fix behavior when needed. The property isn't shipped by default. To disable validation, create a system property named s`n_ind_tmt_orm.disableCharValueValidation` and set the value to `true`. When disabled, the value is set directly from the request payload and no work notes are generated.
+
+</td></tr><tr><td>
+
 externalId
 
 </td><td>
 
-Unique order number for the external service order. Data type: String
+Optional. Unique order number for the external service order. Data type: String
 
 Table/field updated: sn\_ind\_tmt\_orm\_order
 
@@ -3757,7 +3799,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array of Objects
+Optional. List of additional notes made by the customer when ordering. Data type: Array of Objects
 
 ```
 "note": [
@@ -3799,7 +3841,7 @@ relatedParty
 
 </td><td>
 
-List of contacts for the order. Each contact is an object in the array. The request must list at least one item which contains customer account or consumer account information.Data type: Array
+Optional. List of contacts for the order. Each contact is an object in the array. The request must list at least one item which contains customer account or consumer account information.Data type: Array
 
 ```
 "relatedParty": [
@@ -3838,7 +3880,7 @@ relatedParty.@referredType
 
 </td><td>
 
-Type of customer. Possible values:
+Required. Type of customer. Possible values:
 
 -   Customer
 -   CustomerContact
@@ -3860,7 +3902,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 Stored in: The expected\_end\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -3872,7 +3914,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 Stored in: The expected\_start\_date field of the sn\_ind\_tmt\_orm\_order table.
 
@@ -3894,7 +3936,7 @@ Required. List of line items in the service order and their associated action. D
     "committedDueDate": "String",
     "externalProductInventory": [Array],
     "id": "String",
-    "orderRelationship": [Array],
+    "serviceOrderItemRelationship": [Array],
     "place": {Object},
     "quantity": "Number",
     "relatedParty": {Object},
@@ -3913,7 +3955,7 @@ serviceOrderItem.action
 
 </td><td>
 
-Required. Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. Possible values:
+Required. Required. Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. Possible values:
 
 -   add
 -   change
@@ -3946,7 +3988,7 @@ serviceOrderItem.committedDueDate
 
 </td><td>
 
-Date and time when the action must be performed on the order line item.
+Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -3958,7 +4000,7 @@ serviceOrderItem.externalProductInventory
 
 </td><td>
 
-External IDs to map to the product inventories created for the order.Data type: Array of Objects
+Conditional. If supplied, each entry requires **externalProductInventoryId**. External IDs to map to the product inventories created for the order.Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -3990,14 +4032,14 @@ Table/field updated: sn\_ind\_tmt\_orm\_order\_line\_item/external\_id
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship
+serviceOrderItem.serviceOrderItemRelationship
 
 </td><td>
 
-Required. List of relationships between order line items.Data type: Array of Objects
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**.Data type: Array of Objects
 
 ```
-"orderRelationship:" [
+"serviceOrderItemRelationship:" [
   {
     "id": "String",
     "relationshipType": "String"
@@ -4009,7 +4051,7 @@ Table/field updated: sn\_ind\_tmt\_orm\_order\_line\_item
 
 </td></tr><tr id="productOrderItemRelationship_id-row-tmf622"><td>
 
-serviceOrderItem.orderRelationship.id
+serviceOrderItem.serviceOrderItemRelationship.id
 
 </td><td>
 
@@ -4019,11 +4061,11 @@ Table/field updated: sn\_ind\_tmt\_orm\_order\_line\_item/parent\_line\_item or 
 
 </td></tr><tr id="productOrderItemRelationship_relType-row-tmf622"><td>
 
-serviceOrderItem.orderRelationship.relationshipType
+serviceOrderItem.serviceOrderItemRelationship.relationshipType
 
 </td><td>
 
-Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -4039,7 +4081,7 @@ serviceOrderItem.place
 
 </td><td>
 
-Map of the locations on which to install the service.Data type: Object
+Optional. Map of the locations on which to install the service. Requires **serviceOrderItem.place.id** if present.Data type: Object
 
 ```
 "place:" {
@@ -4088,7 +4130,7 @@ serviceOrderItem.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array
+Optional. List of contacts for line items. Data type: Array
 
  ```
 "relatedParty:" {
@@ -4185,7 +4227,7 @@ serviceOrderItem.service.serviceCharacteristic
 
 </td><td>
 
-List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
+Conditional. If supplied, each entry requires **serviceOrderItem.service.serviceCharacteristic**. List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
 
  Data type: Array
 
@@ -4206,7 +4248,7 @@ serviceOrderItem.service.serviceCharacteristic.name
 
 </td><td>
 
-Name of the characteristic record to associated with the service. Located in the Characteristic \[sn\_prd\_pm\_characteristic\] table. Data type: String
+Required for each characteristic entry. Name of the characteristic record to associated with the service. Located in the Characteristic \[sn\_prd\_pm\_characteristic\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -4292,7 +4334,7 @@ serviceOrderItem.service.serviceSpecification
 
 </td><td>
 
-Required. Description of the service specification associated with the service. **Note:** Change orders \(**serviceOrderItem.action** is `change`\) are processed differently based on the value of the **sn\_ind\_tmt\_orm.allowSpecVersionUpdateInChangeOrder** system property.
+Conditional. When supplied, **serviceSpecification.id** is required. Description of the service specification associated with the service. **Note:** Change orders \(**serviceOrderItem.action** is `change`\) are processed differently based on the value of the **sn\_ind\_tmt\_orm.allowSpecVersionUpdateInChangeOrder** system property.
 
 -   When the property is set to true \(default\), if the service is a different version than indicated in the order, the service is automatically upgraded to the version in the order by changing the referenced service specification. This allows the order to be successfully processed.
 -   When the property is set to false, if the service is a different version than indicated in the order, the order fails due to the version mismatch.
@@ -4317,7 +4359,7 @@ serviceOrderItem.service.serviceSpecification.id
 
 </td><td>
 
-Required. Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
+Required when **serviceSpecification** is present. Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -4374,7 +4416,7 @@ Part of the TMF Open API standard. This value is always `ServiceOrder`. This inf
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -4386,7 +4428,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_kmf_3jm_gqb"><thead><tr><th>
 
@@ -4508,7 +4550,7 @@ note
 
 </td><td>
 
-List of additional notes made by the customer when ordering. Data type: Array
+Optional. List of additional notes made by the customer when ordering. Data type: Array
 
 ```
 "note": [
@@ -4560,7 +4602,7 @@ relatedParty
 
 </td><td>
 
-List of contacts for the order.Data type: Array of Objects
+Optional. List of contacts for the order.Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -4617,7 +4659,7 @@ requestedCompletionDate
 
 </td><td>
 
-Delivery date requested by the customer. Data type: String
+Optional. Delivery date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -4625,7 +4667,7 @@ requestedStartDate
 
 </td><td>
 
-Order start date requested by the customer. Data type: String
+Optional. Order start date requested by the customer. Data type: String
 
 </td></tr><tr><td>
 
@@ -4633,7 +4675,7 @@ serviceOrderItem
 
 </td><td>
 
-List of line items in the service order and their associated action. Data type: Array
+Required. List of line items in the service order and their associated action. Data type: Array
 
 ```
 "serviceOrderItem:" [
@@ -4643,7 +4685,7 @@ List of line items in the service order and their associated action. Data type: 
     "committedDueDate": "String",
     "externalProductInventory": [Array],
     "id": "String",
-    "orderRelationship": [Array],
+    "serviceOrderItemRelationship": [Array],
     "place": {Object},
     "quantity": "Number",
     "relatedParty": {Object},
@@ -4660,7 +4702,7 @@ serviceOrderItem.action
 
 </td><td>
 
-Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. Possible values:
+Required. Action to perform on the service order item. Possible actions are defined on the Choice List tab in the Action Dictionary Entry field of the sn\_ind\_tmt\_orm\_order\_line\_item table. Possible values:
 
 -   add
 -   change
@@ -4689,7 +4731,7 @@ serviceOrderItem.committedDueDate
 
 </td><td>
 
-Date and time when the action must be performed on the order line item.
+Optional. Date and time when the action must be performed on the order line item.
 
 Data type: String
 
@@ -4699,7 +4741,7 @@ serviceOrderItem.externalProductInventory
 
 </td><td>
 
-List of external IDs mapped to the product inventories created for the order. Data type: Array of Objects
+Conditional. List of external IDs mapped to the product inventories created for the order. If supplied, each entry requires **externalProductInventoryId**.Data type: Array of Objects
 
 ```
 "externalProductInventory": [
@@ -4727,14 +4769,14 @@ Unique identifier of the line item. Located in the sn\_ind\_tmt\_orm\_external\_
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship
+serviceOrderItem.serviceOrderItemRelationship
 
 </td><td>
 
-List of the relationships between order line items. Data type: Array
+Conditional. Item-level relationships. If supplied, each entry requires an **id** and **relationshipType**. Data type: Array
 
 ```
-"orderRelationship:" [
+"serviceOrderItemRelationship:" [
   {
     "id": "String",
     "relationshipType": "String"
@@ -4744,19 +4786,19 @@ List of the relationships between order line items. Data type: Array
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship.id
+serviceOrderItem.serviceOrderItemRelationship.id
 
 </td><td>
 
-Unique identifier of the related line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
+Required. Unique identifier of the related line item. Located in the sn\_ind\_tmt\_orm\_external\_id field of the Order Line Item \[sn\_ind\_tmt\_orm\_order\_line\_item\] table. Data type: String
 
 </td></tr><tr><td>
 
-serviceOrderItem.orderRelationship.relationshipType
+serviceOrderItem.serviceOrderItemRelationship.relationshipType
 
 </td><td>
 
-Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
+Required. Type of relationship between the two line items. This information is used to identify the relationship hierarchy. Possible values:
 
 -   HasChild
 -   HasParent
@@ -4772,7 +4814,7 @@ serviceOrderItem.place
 
 </td><td>
 
-Map of the locations on which to install the service.Data type: Object
+Optional. Map of the locations on which to install the service. Requires **serviceOrderItem.place.id** if present.Data type: Object
 
 ```
 "place:" {
@@ -4811,7 +4853,7 @@ serviceOrderItem.relatedParty
 
 </td><td>
 
-List of contacts for line items. Data type: Array
+Optional. List of contacts for line items. Data type: Array
 
 ```
 "relatedParty:" {
@@ -4880,7 +4922,7 @@ serviceOrderItem.service
 
 </td><td>
 
-Description of the instance details of the service purchased by the customer. Data type: Object
+Required. Description of the instance details of the service purchased by the customer. Data type: Object
 
 ```
 "service:" {
@@ -4906,7 +4948,7 @@ serviceOrderItem.service.serviceCharacteristic
 
 </td><td>
 
-List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
+Conditional. If supplied, each entry requires **serviceOrderItem.service.serviceCharacteristic**. List that describes the characteristics of the associated service. Only service characteristics with a current **value** different from the **previousValue** are returned.
 
 Data type: Array
 
@@ -4927,7 +4969,7 @@ serviceOrderItem.service.serviceCharacteristic.name
 
 </td><td>
 
-Name of the characteristic record to associated with the service. Located in the Characteristic \[sn\_prd\_pm\_characteristic\] table. Data type: String
+Required for each characteristic entry. Name of the characteristic record to associated with the service. Located in the Characteristic \[sn\_prd\_pm\_characteristic\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -5013,7 +5055,7 @@ serviceOrderItem.service.serviceSpecification
 
 </td><td>
 
-Description of the service specification associated with the service. Data type: Object
+Conditional. When supplied, **serviceSpecification.id** is required. Description of the service specification associated with the service. Data type: Object
 
 ```
 "serviceSpecification:" {
@@ -5032,7 +5074,7 @@ serviceOrderItem.service.serviceSpecification.id
 
 </td><td>
 
-Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
+Required when **serviceSpecification** is present. Initial\_version or external\_id of the service specification. The initial\_version is the sys\_id of the first version of the specification. Located in the sys\_id or external\_id field of the Service Specification \[sn\_prd\_pm\_service\_specification\] table. Data type: String
 
 </td></tr><tr><td>
 
@@ -5777,13 +5819,28 @@ externalId
 
 </td><td>
 
-Required. Outbound request identifier of the domain orders record sent for fulfillment.Data type: String
+Optional. Outbound request identifier of the domain orders record sent for fulfillment.Data type: String
 
 Table: In the request\_id field in the Outbound Request \[sn\_tmt\_core\_outbound\_request\] table.
 
 </td></tr><tr><td>
 
-ServiceOrderItem
+disableCharValueValidation
+
+</td><td>
+
+Flag that indicates how to control characteristic value validation behavior for choice-type characteristics.Valid values:
+
+-   true: Validation is disabled and `characteristic_option_value` is set directly from the request payload without generating work notes.
+-   false: Validates characteristic values against allowed choices and adds a work note to the record for any invalid value.
+
+Default: false
+
+To disable validation, create a system property named `sn_ind_tmt_orm.disableCharValueValidation` and set the value to `true`. When disabled, the value is set directly from the request payload and no work notes are generated. The property isn't shipped by default.
+
+</td></tr><tr><td>
+
+serviceOrderItem
 
 </td><td>
 
@@ -5800,7 +5857,7 @@ Required. List of domain orders whose external fulfillment state needs to be upd
 
 </td></tr><tr><td>
 
-ServiceOrderItem.id
+serviceOrderItem.id
 
 </td><td>
 
@@ -5810,7 +5867,7 @@ Table: Domain Order \[sn\_ind\_tmt\_orm\_domain\_order\]
 
 </td></tr><tr><td>
 
-ServiceOrderItem.state
+serviceOrderItem.state
 
 </td><td>
 
@@ -5825,7 +5882,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -5838,7 +5895,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -5922,7 +5979,7 @@ Default: Blank string
 
 </td></tr><tr><td>
 
-ServiceOrderItem
+serviceOrderItem
 
 </td><td>
 
@@ -5939,7 +5996,7 @@ List of domain orders whose external fulfillment state needs to be updated. Data
 
 </td></tr><tr><td>
 
-ServiceOrderItem.id
+serviceOrderItem.id
 
 </td><td>
 
@@ -5949,7 +6006,7 @@ Table: Domain Order \[sn\_ind\_tmt\_orm\_domain\_order\]
 
 </td></tr><tr><td>
 
-ServiceOrderItem.state
+serviceOrderItem.state
 
 </td><td>
 

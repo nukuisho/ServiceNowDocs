@@ -2,11 +2,12 @@
 title: Evaluate a prompt
 description: Use the Now Assist Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---
@@ -70,7 +71,7 @@ Create a dataset from a data collection
 
 
 </td></tr></tbody>
-</table>6.  Select the add icon ![add icon](../image/icon-nask-add.png) for **Evaluation Runs**.
+</table>6.  Select the add icon \[Omitted image "icon-nask-add.png"\] Alt text: add icon for **Evaluation Runs**.
 
 7.  Give the evaluation run a name and description.
 
@@ -107,27 +108,27 @@ Create a dataset from a data collection
 
     3.  Expand the prompt and read the result.
 
-    4.  Select the thumbs up or thumbs down icon ![human evaluation thumbs up or thumbs down icon](../image/icon-nask-thumbs.png) to give your evaluation.
+    4.  Select the thumbs up or thumbs down icon \[Omitted image "icon-nask-thumbs.png"\] Alt text: human evaluation thumbs up or thumbs down icon to give your evaluation.
 
     5.  Add more information and select **Submit**.
 
 
-**Parent Topic:**[Using Now Assist Skill Kit](../concept/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 
 
-[Create a skill](create-new-skill.md)
+[Create a skill]()
 
-[Create a prompt](create-prompt-template.md)
+[Create a prompt]()
 
-[Use prompt assistance](use-prompt-assistance.md)
+[Use prompt assistance]()
 
-[Test a prompt](test-prompt-template.md)
+[Test a prompt]()
 
-[Finalize and publish a skill](publish-skill.md)
+[Finalize and publish a skill]()
 
-[Activate a skill](activate-skill.md)
+[Activate a skill]()
 
-[Call a custom skill from a script](call-custom-skill-from-script.md)
+[Call a custom skill from a script]()
 

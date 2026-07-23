@@ -2,6 +2,7 @@
 title: Course of actions
 description: A course of action is an action taken either to prevent an attack or to respond to an attack that is in progress. Course of actions apply for STIX 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-course-actions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,57 +18,57 @@ Course of actions describes technical or automated responses \(applying patches,
 
 For example, a course of action to mitigate a vulnerability could describe applying the patch that fixes it.
 
--   **[Define a course of action](../task/define-course-action.md)**  
+-   **[Define a course of action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-course-action.md)**  
 Define a course of action to prevent an attack or to respond to an attack that is in progress.
 
-**Parent Topic:**[IoC Repository](ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
 
 **Related topics**  
 
 
-[Attack modes and methods](c_AttackModeMethod.md)
+[Attack modes and methods]()
 
-[Indicators of compromise](c_IoCs.md)
+[Indicators of compromise]()
 
-[Observables](c_Observables.md)
+[Observables]()
 
-[Attack patterns](attack-patterns.md)
+[Attack patterns]()
 
-[Campaigns](threat-intelligence-campaigns.md)
+[Campaigns]()
 
-[Identities](threat-intelligence-identities.md)
+[Identities]()
 
-[Infrastructure](threat-intelligence-infrastructure.md)
+[Infrastructure]()
 
-[Intrusion set](threat-intelligence-intrusion-sets.md)
+[Intrusion set]()
 
-[Locations](threat-intelligence-locations.md)
+[Locations]()
 
-[Malware](threat-intelligence-malware.md)
+[Malware]()
 
-[Malware analysis](threat-intelligence-malware-analysis.md)
+[Malware analysis]()
 
-[Observed data](threat-intelligence-observed-data.md)
+[Observed data]()
 
-[Threat actors](threat-actors.md)
+[Threat actors]()
 
-[Threat groupings](threat-groupings.md)
+[Threat groupings]()
 
-[Marking definitions](marking-definitions.md)
+[Marking definitions]()
 
-[Threat notes](threat-intelligence-threat-notes.md)
+[Threat notes]()
 
-[Threat opinions](threat-opinions.md)
+[Threat opinions]()
 
-[Threat reports](threat-reports.md)
+[Threat reports]()
 
-[Sightings](indicator-sightings.md)
+[Sightings]()
 
-[Tools](tools.md)
+[Tools]()
 
-[Vulnerabilities](vulnerabilities.md)
+[Vulnerabilities]()
 
-[Relationships](stix-relationships.md)
+[Relationships]()
 
-[STIX Visualizer](stix-visualizer.md)
+[STIX Visualizer]()
 

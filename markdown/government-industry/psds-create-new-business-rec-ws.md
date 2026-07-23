@@ -2,6 +2,7 @@
 title: Create a business record in CSM Configurable Workspace
 description: If you're a government service agent, create a business record in CSM Configurable Workspace directly from a service request, interaction, or case when an incident is reported by a constituent, business, or business contact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-create-new-business-rec-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 1.  Navigate to the CSM Configurable Workspace and select **lnteractions** &gt; **All**.
 
-2.  Select the interaction number to open an existing interaction record, or select the new icon ![New icon.](../image/new-icon.png) to create an interaction.
+2.  Select the interaction number to open an existing interaction record, or select the new icon \[Omitted image "new-icon.png"\] Alt text: New icon. to create an interaction.
 
 3.  Select the interaction type and assign the interaction to a user.
 
@@ -31,7 +32,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 6.  Select **Create Business** and fill in the fields.
 
-    For more information on the fields, see [Business Profile form](../reference/business-profile-form.md).
+    For more information on the fields, see [Business Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/business-profile-form.md).
 
 7.  Select **Submit**.
 

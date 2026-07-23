@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Employee Center Pro
 description: Guidance for setting up Now Assist for Employee Center Pro.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/na-emp-cente-pro-configuring.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,23 +19,23 @@ Guidance for setting up Now Assist for Employee Center Pro.
 
 In the links below, Now Assist for Employee Center Pro features are organized into categories, each with its own landing page to help guide users through the configuration process.
 
--   [Content Engagement](../../employee-center/concept/ec-content-engagement.md)
+-   [Content Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
 
     Content engagement enhances news articles by providing users with a way to comment and react to articles and for managers to measure the effectiveness of their content using engagement metrics.
 
--   [Creating employee communications](../../employee-center/concept/ec-publish-content.md)
+-   [Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md)
 
     Content Publishing offers robust communications creation tools that enable you to create, manage, and publish a variety of content types including portal content, notifications, mobile content, and tasks.
 
--   [Enterprise Service Management Integrations Framework](../../human-resources/concept/hr-integrations-framework.md)
+-   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-framework.md)
 
     The ServiceNow Enterprise Service Management Integrations Framework application contains common components that can be used for integrating your ServiceNow application with third-party systems.
 
--   [Outlook Actionable Messages](../../sn-ms-outlook/reference/sn-ms-outlook-reference.md)
+-   [Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-outlook-reference.md)
 
     Outlook actionable messages plugin enables users to respond to the survey from within the Microsoft Outlook application.
 
--   [Configuring Now Assist settings and features](../../now-assist-uex/concept/now-assisit-employee-exp.md)
+-   [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
 
     Use the Now Assist Admin console to activate the various Now Assist applications and skills that you’re entitled to.
 
@@ -44,9 +45,9 @@ In the links below, Now Assist for Employee Center Pro features are organized in
 **Related topics**  
 
 
-[Employee Center Pro](../../employee-center/concept/employee-center-pro-landing.md)
+[Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-pro-landing.md)
 
 [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md)
+[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md)
 

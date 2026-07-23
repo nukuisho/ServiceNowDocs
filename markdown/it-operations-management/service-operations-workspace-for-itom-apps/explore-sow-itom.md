@@ -2,6 +2,7 @@
 title: Exploring Service Operations Workspace for ITOM
 description: Discover how Service Operations Workspace for ITOM streamlines the entire life cycle of alerts, including alert generation, notification, grouping, analysis, investigation, resolution, and closure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/explore-sow-itom.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -18,30 +19,30 @@ Discover how Service Operations Workspace for ITOM streamlines the entire life c
 
 ## Overview of Service Operations Workspace
 
-Service Operations Workspace for ITOM provides powerful AIOps Experience capabilities, namely the Express List, Integrations Launchpad, [Alert Automation](sow-itom-alert-automation.md), and AIOps Dashboards, each delivering unique value.
+Service Operations Workspace for ITOM provides powerful AIOps Experience capabilities, namely the Express List, Integrations Launchpad, [Alert Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.md), and AIOps Dashboards, each delivering unique value.
 
--   **[Express List](express-list.md)**
+-   **[Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/express-list.md)**
 
     Express List revolutionizes alert management by providing a consolidated platform for efficient triage, root cause analysis \(RCA\), and alert remediation. With real-time updates, dynamic filtering, and an intuitive preview pane, users can effortlessly manage their alert workflows and take immediate action with unparalleled ease and speed.
 
--   **[Integrations Launchpad](integrations-launchpad.md)**
+-   **[Integrations Launchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.md)**
 
     Integrations Launchpad offers a hub of seamless connections to various external tools and services, simplifying the onboarding of new data sources. This streamlines the integration process, allowing users to effortlessly leverage their existing ITOM ecosystem within the ServiceNow platform. The Integrations Launchpad enhances data exchange and cross-platform collaboration, boosting efficiency and productivity.
 
--   **[Alert Automation](sow-itom-alert-automation.md)**
+-   **[Alert Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.md)**
 
     Alert automation provides crucial support as organizations navigate complex IT infrastructures and rising data volumes. Manual alert handling is error-prone and inefficient, underscoring the need for automated systems. By disregarding irrelevant or false-positive alerts through ignore alert automation, and by using alert enrichment, grouping, and response, these systems streamline alert response, reduce human error, and ensure consistent, timely actions.
 
--   **[AIOps Dashboards](aiops-dashboards-sow-itom.md)**
+-   **[AIOps Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/aiops-dashboards-sow-itom.md)**
 
     AIOps Dashboards provide comprehensive visualizations of critical operational data and insights. Users can monitor key performance indicators \(KPIs\), track service health, and gain valuable context on the overall IT environment. These customizable dashboards empower users with actionable insights, facilitating data-driven decision-making and ensuring proactive responses to potential issues.
 
 
 When setting up the Service Operations Workspace, it's crucial to configure both IT Operations Management \(ITOM\) for managing alerts and IT Service Management \(ITSM\) for resolving incidents and delivering services. This integrated setup ensures access to the full range of features, facilitating comprehensive management of IT operations and service quality.
 
-For more information, see [Exploring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/explore-sow.md).
+For more information, see [Exploring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/explore-sow.md).
 
-![Service Operations Workspace overview](../image/final-sow-overview.png)
+\[Omitted image "final-sow-overview.png"\] Alt text: Service Operations Workspace overview
 
 ## Operator experience in Service Operations Workspace
 

@@ -2,6 +2,7 @@
 title: Use a flow or subflow in Coupa \(outbound\)
 description: A flow or subflow can be executed in Coupa using the Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/use-flow-or-subflow-coupa.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -29,7 +30,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
 4.  Select the required flow from the list.
 
-    ![Overview of the Award Purchase flow](../../source-to-pay-operations/image/coupa-integration-use-flow.png "Award Purchase flow")
+    \[Omitted image "coupa-integration-use-flow.png"\] Alt text: Overview of the Award Purchase flow
 
 5.  In the **Trigger** field, specify the time and interval at which you want to run the scheduled flow automatically.
 
@@ -42,14 +43,14 @@ Role required: sn\_fcms\_intg.integration\_user
 
 The flow or subflow gets executed.
 
-**Parent Topic:**[Use Source-to-Pay integration with Coupa](../concept/using-source-to-pay-coupa-integration.md)
+**Parent Topic:**[Use Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/using-source-to-pay-coupa-integration.md)
 
 **Related topics**  
 
 
-[Trigger a flow or subflow in Coupa](manually-trigger-subflows-coupa.md)
+[Trigger a flow or subflow in Coupa]()
 
-[View the execution status of a flow](view-executed-flow-status.md)
+[View the execution status of a flow]()
 
-[Copy a flow or subflow in Coupa](copy-flow-or-subflow-coupa.md)
+[Copy a flow or subflow in Coupa]()
 

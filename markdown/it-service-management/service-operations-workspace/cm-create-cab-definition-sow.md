@@ -2,6 +2,7 @@
 title: Create a Change Advisory Board \(CAB\) definition
 description: Create a Change Advisory Board \(CAB\) definition in Service Operations Workspace to set up recurring CAB meetings for reviewing and authorizing change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/cm-create-cab-definition-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -24,7 +25,7 @@ Role required: sn\_change\_cab.cab\_manager
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/sow-list.png)\).
+2.  Select the list icon \(\[Omitted image "sow-list.png"\] Alt text: List icon.\).
 
 3.  In the **Change Advisory Board**, select **My CAB Definitions** or **All CAB Definitions**.
 
@@ -332,22 +333,22 @@ If the schedule entry is scheduled to repeat, specifies an end date until which 
 
 You can modify CAB meeting details and send meeting requests to attendees. You can also manage agendas by reviewing or adding agenda items to each of the CAB meetings.
 
-**Parent Topic:**[Change Management in Service Operations Workspace](../concept/change-sow.md)
+**Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/change-sow.md)
 
 **Related topics**  
 
 
-[Create a change request in Service Operations Workspace](create-change-sow.md)
+[Create a change request in Service Operations Workspace]()
 
-[Work on a change request in Service Operations Workspace](work-on-change-sow.md)
+[Work on a change request in Service Operations Workspace]()
 
-[Standard change catalog](../concept/standard-change-catalog-sow.md)
+[Standard change catalog]()
 
-[Create a change task in Service Operations Workspace](create-change-task-sow.md)
+[Create a change task in Service Operations Workspace]()
 
-[Work on a change task in Service Operations Workspace](work-on-change-task-sow.md)
+[Work on a change task in Service Operations Workspace]()
 
-[Create a CAB meeting](cm-create-cab-meeting-sow.md)
+[Create a CAB meeting]()
 
-[Conduct a CAB meeting in the CAB workbench](cm-manage-cab-meeting-workbench-sow.md)
+[Conduct a CAB meeting in the CAB workbench]()
 

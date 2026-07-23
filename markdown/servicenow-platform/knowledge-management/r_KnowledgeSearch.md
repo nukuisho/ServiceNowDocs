@@ -2,6 +2,7 @@
 title: Search using Knowledge Management v3
 description: Search for knowledge articles from the knowledge homepage using the search bar on the Knowledge Management v3 homepage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/r\_KnowledgeSearch.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -27,7 +28,7 @@ Search results include only articles and questions you are authorized to read. T
 
 Sort knowledge content by relevancy, most recent update, or number of views.
 
-Filter results using the check boxes that appear. Filtering options appear depending on the search text.Knowledge homepage; browsing and searching for articles; viewing articles, providing feedback; posting questions; importing/creating articles
+Filter results using the check boxes that appear. Filtering options appear depending on the search text.
 
 <table id="table_p1c_md5_1r"><thead><tr><th>
 
@@ -83,12 +84,12 @@ The multi-language search feature is available when more than one supported lang
 </td></tr></tbody>
 </table>**Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
-**Parent Topic:**[Using the homepage of Knowledge Management v3](../concept/c_KnowledgeHomepage.md)
+**Parent Topic:**[Using the homepage of Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_KnowledgeHomepage.md)
 
 **Related topics**  
 
 
-[Knowledge Management properties](r_KnowledgeProperties.md#)
+[Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
 

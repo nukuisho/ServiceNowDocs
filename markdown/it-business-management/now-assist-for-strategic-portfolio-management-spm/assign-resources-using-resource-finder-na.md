@@ -2,13 +2,14 @@
 title: Assign a resource using AI resource finder
 description: Use AI resource finder to identify and assign a resource to an unassigned resource assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/assign-resources-using-resource-finder-na.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2026-04-21"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
 # Assign a resource using AI resource finder
@@ -41,9 +42,9 @@ AI resource finder helps resource and project managers identify the best-fit res
 
 3.  Create a unassigned resource assignment by selecting **Add resource** and selecting an attribute.
 
-4.  From unassigned tasks pane, select the context menu row \(![3 vertical dots denoting the row context menu.](../../spw-financials/images/row-context-menu-icon.png)\) for any task and select **Resource finder**.
+4.  From unassigned tasks pane, select the context menu row \(\[Omitted image "row-context-menu-icon.png"\] Alt text: 3 vertical dots denoting the row context menu.\) for any task and select **Resource finder**.
 
-    ![Resource-finder-modal.](../images/resource-finder-modal.png)
+    \[Omitted image "resource-finder-modal.png"\] Alt text: Resource-finder-modal.
 
 5.  From Resource finder modal, select **Show monthly availability** toggle or weekly.
 
@@ -51,10 +52,10 @@ AI resource finder helps resource and project managers identify the best-fit res
 
 7.  From Assign resources modal, review the allocations and distributions and select **Assign**.
 
-    ![assign-resources](../images/assign-resources-ai.png)
+    \[Omitted image "assign-resources-ai.png"\] Alt text: assign-resources
 
     The resource is assigned to the task.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 

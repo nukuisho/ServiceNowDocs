@@ -2,6 +2,7 @@
 title: Activate the GRC case summarization skill
 description: Activate the GRC case summarization skill from the Now Assist Admin console to generate AI-powered summaries of privacy and compliance case records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/activate-grc-case-summarization-skill.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -19,7 +20,7 @@ Activate the **GRC case summarization** skill from the Now Assist Admin console 
 
 Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
-**Note:** The skill is turned on by default if you have Now Assist for IRM or Now Assist for Privacy Management installed. The skill is automatically available to appropriate role users for the applications. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Note:** The skill is turned on by default if you have Now Assist for IRM or Now Assist for Privacy Management installed. The skill is automatically available to appropriate role users for the applications. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
 4.  Review the skill configuration details on each tab, and select **Save and continue**.
 
-    For a description of each skill configuration tab, see [GRC case summarization configuration fields](../reference/grc-case-summarization-config-tabs.md).
+    For a description of each skill configuration tab, see [GRC case summarization configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-case-summarization-config-tabs.md).
 
 5.  On the **Review and activate** tab, verify the full configuration and select **Activate**.
 
@@ -46,12 +47,12 @@ Role required: sn\_nowassist\_admin.nsa\_admin and sn\_nowassist\_admin.user
 
 ## What to do next
 
-You can edit the skill configurations from the Now Assist Admin console after activation. For instructions, refer to [Customize a Now Assist for Integrated Risk Management \(IRM\) skill](../../grc-common/concept/customize-a-skill.md).
+You can edit the skill configurations from the Now Assist Admin console after activation. For instructions, refer to [Customize a Now Assist for Integrated Risk Management \(IRM\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/customize-a-skill.md).
 
 **Related topics**  
 
 
-[Summarize a compliance case using the GRC case summarization skill](summarize-compliance-case.md)
+[Summarize a compliance case using the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/summarize-compliance-case.md)
 
-[Summarize a privacy case using the GRC case summarization skill](../../grc-privacy-management/task/summarize-privacy-case.md)
+[Summarize a privacy case using the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/summarize-privacy-case.md)
 

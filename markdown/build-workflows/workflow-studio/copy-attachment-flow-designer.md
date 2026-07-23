@@ -2,6 +2,7 @@
 title: Copy Attachment action
 description: Copies an attachment from the Attachments \[sys\_attachment\] table to a target record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/copy-attachment-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -27,13 +28,13 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Data type: **Record**
 
-    Attachment record containing the attachment you want to copy. You can either manually select a record from the Attachment \[sys\_attachment\] table or look up the attachment record. You can use the [Look Up Attachment action](lookup-attachment-flow-designer.md) to provide one or more Sys ID values of attachments with a given file name in a specific source record. If you use the Look Up Attachment action, you must also use a [Look Up Record action](lookup-record-flow-designer.md) to convert the Sys ID value returned by the Look Up Attachment action into a usable record data pill. See the example section for an illustration of converting the Sys ID output of the Look Up Attachment action into a record data pill.
+    Attachment record containing the attachment you want to copy. You can either manually select a record from the Attachment \[sys\_attachment\] table or look up the attachment record. You can use the [Look Up Attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-attachment-flow-designer.md) to provide one or more Sys ID values of attachments with a given file name in a specific source record. If you use the Look Up Attachment action, you must also use a [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) to convert the Sys ID value returned by the Look Up Attachment action into a usable record data pill. See the example section for an illustration of converting the Sys ID output of the Look Up Attachment action into a record data pill.
 
 -   **Target Record**
 
     Data type: **Record**
 
-    Record where you want to add a copy of the attachment. You can use the [Look Up Record action](lookup-record-flow-designer.md) to find an appropriate target record.
+    Record where you want to add a copy of the attachment. You can use the [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) to find an appropriate target record.
 
 -   **Table**
 
@@ -48,21 +49,21 @@ This action has no outputs.
 
 ## Copy attachments from incident records to a problem records
 
-![Look Up Record action configured to return a record data pill from a Look Up Attachment action Sys ID output.](../images/example-look-up-attachment-action-02.png)
+\[Omitted image "example-look-up-attachment-action-02.png"\] Alt text: Look Up Record action configured to return a record data pill from a Look Up Attachment action Sys ID output.
 
 This example copies attachments from the trigger incident record into an associated problem record. This example assumes that there is only one source attachment to copy. If you need to copy multiple attachments, add a For Each flow logic. The flow first uses the Look Up Attachment action to find the attachment within the trigger incident. The Sys ID value of produced by this action is used as an input in the Look Up Record action in step 3. The flow next looks up a problem record associated with the incident record.
 
-![Configuration of the Copy Attachment action using the outputs of two Look Up Record actions.](../images/example-copy-attachment-action.png)
+\[Omitted image "example-copy-attachment-action.png"\] Alt text: Configuration of the Copy Attachment action using the outputs of two Look Up Record actions.
 
 In this example, the Source Attachment Record input gets its value from the Look Up Record action for the Attachment \[sys\_attachment\] table, because you can't use the string output of the Look Up Attachment action directly. The Target Record input gets its value from the Look Up Record action for the Problem \[problem\] table. The Table input inherits its value from the Target Record data pill.
 
-![Execution details of flow step 3 Look Up Record for the Attachment table. The Record output links to the Attachment record.](../images/example-look-up-attachment-execution-details-02.png)
+\[Omitted image "example-look-up-attachment-execution-details-02.png"\] Alt text: Execution details of flow step 3 Look Up Record for the Attachment table. The Record output links to the Attachment record.
 
 The execution details for flow step 3 show that the Look Up Record action has found a specific attachment record. This record is used as the input for flow step 4 Copy Attachment.
 
-![Execution details for flow step 4 Copy Attachment. The step completed successfully.](../images/example-copy-attachment-action-execution-details.png)
+\[Omitted image "example-copy-attachment-action-execution-details.png"\] Alt text: Execution details for flow step 4 Copy Attachment. The step completed successfully.
 
 The execution details for flow step 4 show that both input values use the output data pills of Look Up Record actions. The Source Attachment Record input uses the data pill from flow step 3, and its runtime value is a specific Attachment record. The Target Record input uses the data pill from flow step 2, and its runtime value is a specific problem record.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

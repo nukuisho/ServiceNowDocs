@@ -2,6 +2,7 @@
 title: Integration with Continual Improvement Management
 description: Integrating with the ServiceNow Continual Improvement Management application enables you to create a request once you have identified an improvement opportunity.Launch Process Mining from the CIM workbench to analyze the existing process and find new opportunities for improvement.Understand how you can create or track an improvement request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/integrate-with-continuous-i.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -27,16 +28,16 @@ From Continual Improvement Management: Launch the Process Mining Analyst workben
 
 Integration with Continual Improvement Management doesn’t add any additional roles to the Process Mining roles. To enable Continual Improvement Management features, you must add the agent\_workspace\_user role to the users who need this capability.
 
-**Parent Topic:**[Integrating Process Mining](integrating-process-mining.md)
+**Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrating-process-mining.md)
 
 **Related topics**  
 
 
-[Example of Continual Improvement Management using Process Mining](integrate-with-continuous-i.md#)
+[Example of Continual Improvement Management using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrate-with-continuous-i.md)
 
-[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-landing-page.md)
+[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/cim-landing-page.md)
 
-[Request Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/request-cim.md)
+[Request Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-cim.md)
 
 ## Launch Process Mining from CIM
 
@@ -52,15 +53,15 @@ Activate the Continual Improvement Management plugin \(com.sn\_cim\) and the Pro
 
 1.  Navigate to the **Process Mining** workbench in any one of the following ways.
 
-<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d103536e231">
+<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d105278e231">
 
 From where
 
-</th><th align="left" id="d103536e234">
+</th><th align="left" id="d105278e234">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d103536e240">
+</th></tr></thead><tbody><tr><td id="d105278e240">
 
 **Continual Improvement Workbench**
 
@@ -70,9 +71,9 @@ Steps
 2.  On the **Continual Improvement Workbench** page header, select **Go to****Process Mining**.
 3.  Analyze the existing project or create a new Process Mining project definition for assessment.
 
-**Note:** For more information, refer to [Create a project or template using Project Builder](../task/define-workflow-model.md).
+**Note:** For more information, refer to [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md).
 
-</td></tr><tr><td id="d103536e291">
+</td></tr><tr><td id="d105278e291">
 
 **Improvement Initiative**
 
@@ -92,6 +93,4 @@ Understand how you can create or track an improvement request.
 As an improvement manager, you use your Continual Improvement Management Workbench dashboard daily to view operational work and initiatives in progress. You have an open initiative to optimize the incident process and reduce the mean time to resolve \(MTTR\).
 
 From the initiative form, you select **Go to Process Mining**. The action navigates you to a generated project in the Process Mining Analyst workbench showing cases that were closed in the last three months.
-
-Make Continual Improvement part of your routine through integration with Process Mining
 

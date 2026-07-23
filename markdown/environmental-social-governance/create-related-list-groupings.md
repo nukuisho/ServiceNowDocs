@@ -2,6 +2,7 @@
 title: Create related list groupings
 description: Simplify the groupings of related lists on a record page and customize them to your specific needs, assigning meaningful names in the process. This configuration enhances readability and user experience when interacting with the forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-related-list-groupings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -176,7 +177,7 @@ The path of the UX screen. This option appears only when the **Type** field cont
 
 ## Result
 
-The following figure shows grouped related lists.![How related lists are grouped on a form after configuration.](../images/related-list-groups.png)
+The following figure shows grouped related lists.\[Omitted image "related-list-groups.png"\] Alt text: How related lists are grouped on a form after configuration.
 
-**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](../concept/configuring-esg.md)
+**Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-esg.md)
 

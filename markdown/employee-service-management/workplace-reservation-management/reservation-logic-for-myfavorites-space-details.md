@@ -2,13 +2,14 @@
 title: Reservable module derivation logic for Space details
 description: While selecting a reservable module from the Space details page, system identifies the reservable module based on the derivation logic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/reservation-logic-for-myfavorites-space-details.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Workplace Reservation Management references, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Reservable module derivation logic for Space details
@@ -33,24 +34,24 @@ The same selection criteria for reservation modules is applied in this case as w
 -   If **Recurring** is allowed for multiple modules, system checks for and assigns the reservable modules where **Allows all day** reservation is allowed.
 -   If **Recurring** is allowed and **All day** is also set, then, system selects a reservable module where **All day** is not mandatory.
 
-For more information, see [Configure a reservable module](../task/config-reservable-module.md).
+For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
-**Parent Topic:**[Workplace Reservation Management references](rsv-mgmt-references.md)
+**Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Reservation Management](../reference/components-installed-with-wsd-reservation-mgmt.md)
+[Components installed with Workplace Reservation Management]()
 
-[Properties installed with Workplace Reservation Management](../reference/properties-installed-with-wsd-reservation-mgmt.md)
+[Properties installed with Workplace Reservation Management]()
 
-[Workplace Reservation Management - Field descriptions](workplace-reservation-management-field-descriptions.md)
+[Workplace Reservation Management - Field descriptions]()
 
-[Proximity calculation when browsing near a person](../reference/proximity-calculation-for-browse-near-person.md)
+[Proximity calculation when browsing near a person]()
 
-[Mobile push notifications for workplace reservations](../reference/reservation-push-notifications.md)
+[Mobile push notifications for workplace reservations]()
 
-[Location privacy settings and impact](../reference/location-privacy-settings-and-impact.md)
+[Location privacy settings and impact]()
 
-[Additional details record producer - Mapping Variable types and limitations](../reference/custom-fields-record-producer-mapping-variable-type-conditions.md)
+[Additional details record producer - Mapping Variable types and limitations]()
 

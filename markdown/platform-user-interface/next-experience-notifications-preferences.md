@@ -2,12 +2,13 @@
 title: Configure Next Experience notification preferences
 description: Set up how you receive in-product and system notifications in Next Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-notifications-preferences.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [next experience notification, notification preferences]
-breadcrumb: [Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience notification preferences
@@ -26,15 +27,15 @@ Role required: none
 
 3.  Configure your preferences for system notifications outside of the platform.
 
-<table id="choicetable_wgv_zk1_cwb"><thead><tr><th align="left" id="d117723e103">
+<table id="choicetable_wgv_zk1_cwb"><thead><tr><th align="left" id="d118038e103">
 
 Option
 
-</th><th align="left" id="d117723e106">
+</th><th align="left" id="d118038e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d117723e112">
+</th></tr></thead><tbody><tr><td id="d118038e112">
 
 **Allow Notifications**
 
@@ -42,7 +43,7 @@ Description
 
 Enable or disable all notifications.
 
-</td></tr><tr><td id="d117723e121">
+</td></tr><tr><td id="d118038e121">
 
 **Advanced Preferences**
 
@@ -50,7 +51,7 @@ Enable or disable all notifications.
 
 Customize notification preferences for system notifications, custom notifications, and delivery channels.
 
-</td></tr><tr><td id="d117723e130">
+</td></tr><tr><td id="d118038e130">
 
 **System notifications**
 
@@ -58,7 +59,7 @@ Customize notification preferences for system notifications, custom notification
 
 Enable or disable system notification categories, for example, Approval or Connect notifications.
 
-</td></tr><tr><td id="d117723e142">
+</td></tr><tr><td id="d118038e142">
 
 **Custom notifications**
 
@@ -66,7 +67,7 @@ Enable or disable system notification categories, for example, Approval or Conne
 
 Enable or disable custom notifications.
 
-</td></tr><tr><td id="d117723e152">
+</td></tr><tr><td id="d118038e152">
 
 **Delivery Channels**
 
@@ -83,8 +84,8 @@ Enable or disable individual delivery channels.
 
     |Option|Description|
     |------|-----------|
-    |**![Show banners](../image/pol-pref-banners.png)**|Enables notification banners to display in your workspace.|
-    |**![Show badge count](../image/pol-pref-badge.png)**|Displays a badge count of notifications.|
-    |**![Notification toast banner location](../image/pol-pref-banner-location.png)**|The location on the screen where notification banners display.|
+    |**\[Omitted image "pol-pref-banners.png"\] Alt text: Show banners**|Enables notification banners to display in your workspace.|
+    |**\[Omitted image "pol-pref-badge.png"\] Alt text: Show badge count**|Displays a badge count of notifications.|
+    |**\[Omitted image "pol-pref-banner-location.png"\] Alt text: Notification toast banner location**|The location on the screen where notification banners display.|
 
 

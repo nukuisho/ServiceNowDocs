@@ -2,6 +2,7 @@
 title: How Document Intelligence for Customer Service works
 description: Document Intelligence for Customer Service performs a series of steps to extract relevant information from email and case attachments and add that information to fields on the case record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-docintel-how-it-works.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Document Intelligence for Customer Service performs a series of steps to extract
 
 ## Use cases
 
-A use case, previously known as a task definition, is a template that is used to define the structure of a type of document you want to process. A use case is made up of the use case record and its related fields, field groups, integrations, flows, and all the related machine learning \(ML\) models. For more information, see [Set up document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/set-up-document-extraction-use-cases.md).
+A use case, previously known as a task definition, is a template that is used to define the structure of a type of document you want to process. A use case is made up of the use case record and its related fields, field groups, integrations, flows, and all the related machine learning \(ML\) models. For more information, see [Set up document extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-document-extraction-use-cases.md).
 
 <table id="table_cdv_trj_h5b"><thead><tr><th>
 
@@ -119,7 +120,7 @@ DocIntel extracts the data for all fields and processes the document task if the
 </td></tr></tbody>
 </table>## Extraction labels
 
-In CSM Configurable Workspace, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(![AI icon](../../../common/image/icon-ai-sparkle.png)\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
+In CSM Configurable Workspace, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI icon\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
 
 In Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with the message `Predicted from DocIntel`.
 
@@ -128,7 +129,7 @@ In Core UI, the fields on the Case form that contain Document Intelligence predi
 
 ## Predicted field values
 
-In CSM Configurable Workspace, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(![AI icon](../../../common/image/icon-ai-sparkle.png)\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
+In CSM Configurable Workspace, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI icon\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
 
 In Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with the message `Predicted from DocIntel`.
 
@@ -160,12 +161,12 @@ If yes, the feature:
 -   If the extraction mode in the use case is set to Fully automated, the extracted values are added to the case.
 -   If the extraction mode is set to Autofill or Recommendation, the agent can validate the extracted values in the Document Intelligence workspace.
 
-The agent can open a case and review the predicted fields or review the prediction task by selecting **Review in DocIntel** and opening the [Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/doc-intel-workspace.md) interface in a separate tab. From this interface, agents can:
+The agent can open a case and review the predicted fields or review the prediction task by selecting **Review in DocIntel** and opening the [Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/doc-intel-workspace.md) interface in a separate tab. From this interface, agents can:
 
 -   Review each predicted field.
 -   Confirm correctly predicted values.
 -   Update incorrect or missing values.
 -   Submit the changes.
 
-**Parent Topic:**[Document Intelligence for Customer Service](csm-document-intelligence.md)
+**Parent Topic:**[Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-document-intelligence.md)
 

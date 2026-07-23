@@ -2,6 +2,7 @@
 title: Transfer a workplace case created from a universal request
 description: Transfer a workplace case back to the Universal Request, to another department, or to another service. You can transfer the request with or without providing a resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/transfer-a-workplace-case-created-from-a-universal-request.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -79,14 +80,14 @@ Option to copy the comments and attachments of this case while transferring. The
 
 The case is transferred to the selected department.
 
-**Parent Topic:**[Workplace Service Delivery integration with Universal Request](../concept/wsd-intergration-with-universal-request.md)
+**Parent Topic:**[Workplace Service Delivery integration with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-intergration-with-universal-request.md)
 
 **Related topics**  
 
 
-[Configure a workplace service record producer as a Universal Request](configure-workplace-service-record-prod-as-universal-req.md)
+[Configure a workplace service record producer as a Universal Request]()
 
-[Create a workplace case from Universal Request](create-workplace-case-from-universal-req.md)
+[Create a workplace case from Universal Request]()
 
-[Work on a workplace case from a Universal Request](work-on-workplace-case-of-universal-req.md)
+[Work on a workplace case from a Universal Request]()
 

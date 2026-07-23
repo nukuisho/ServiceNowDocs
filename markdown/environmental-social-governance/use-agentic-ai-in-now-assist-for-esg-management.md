@@ -2,6 +2,7 @@
 title: Use agentic AI in Now Assist for Operational Sustainability \(formerly ESG\)
 description: Use agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,7 +49,7 @@ Accelerate carbon reporting with AI-powered calculations, validation, and insigh
 
 **Note:**
 
--   -   For the Now LLM Service updates, see [Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md).
+-   -   For the Now LLM Service updates, see [Now LLM Service updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Security implementation considerations
 
@@ -65,8 +66,8 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 -   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 -   Azure OpenAI is recommended for Now Assist for Operational Sustainability agentic workflows.
 
--   **[Generate Scope 3 carbon calculations](../task/generate-carbon-calculcations-for-metrics.md)**  
+-   **[Generate Scope 3 carbon calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/generate-carbon-calculcations-for-metrics.md)**  
 Use the AI-driven workflow to create calculated metric definitions \(CMD\) for Scope 3 carbon emissions. The workflow employs conversational agents and integrated tools to guide methodology selection, map metrics, and simplify sustainability reporting with accuracy and efficiency.
 
-**Parent Topic:**[Now Assist for Operational Sustainability \(formerly ESG\)](now-assist-for-esg.md)
+**Parent Topic:**[Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/now-assist-for-esg.md)
 

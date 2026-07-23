@@ -2,6 +2,7 @@
 title: Manage content capabilities
 description: Handle all the necessary aspects of document and knowledge base management for your enterprise with several ServiceNow products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/manage-content.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,15 +16,15 @@ Handle all the necessary aspects of document and knowledge base management for y
 
 <table id="table_oyp_mhr_r5b" class="nav-card"><tbody><tr><td>
 
-[Document Services ![](../../../reuse/icons/brand-icons/bus-documentation.svg) Create, maintain, and update your documents with this suite of products available for your instance.](../../../product/document-services/reference/document-services-landing-page.md)
+[Document Services \[Omitted image "bus-documentation.svg"\] Alt text: Create, maintain, and update your documents with this suite of products available for your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-services-landing-page.md)
 
 </td><td>
 
-[Knowledge Management ![](../../../reuse/icons/brand-icons/bus-knowledge-management.svg) Create and share knowledge articles, and provide information for user self-help and troubleshooting.](../../../product/knowledge-management/concept/knowledge-management.md)
+[Knowledge Management \[Omitted image "bus-knowledge-management.svg"\] Alt text: Create and share knowledge articles, and provide information for user self-help and troubleshooting.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
 
 </td><td>
 
-[Response templates ![](../../../reuse/icons/brand-icons/bus-anomaly-detection.svg) Leverage reusable text to display standard chat response messages to requesters in Agent Chat.](../../../product/human-resources/concept/response-templates-templated-snippets.md)
+[Response templates \[Omitted image "bus-anomaly-detection.svg"\] Alt text: Leverage reusable text to display standard chat response messages to requesters in Agent Chat.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md)
 
 </td></tr></tbody>
 </table>## Document Services

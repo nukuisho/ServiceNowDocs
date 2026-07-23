@@ -1,7 +1,8 @@
 ---
 title: View household members
-description: View household members to track member details in the Consumer Portal.
+description: View the list of members in your household from the Consumer Portal to see their details and manage household accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-houesehold-members.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,7 +12,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # View household members
 
-View household members to track member details in the Consumer Portal.
+View the list of members in your household from the Consumer Portal to see their details and manage household accounts.
 
 ## Before you begin
 
@@ -19,7 +20,11 @@ Install Customer Household Data Model \(com.snc.household\) app from [ServiceNow
 
 Role required: sn\_customerservice.consumer
 
-**Note:** You must be a householdHead to view household members. For details, see [Add consumers to a household](add-consumer-to-household.md).
+**Note:** You must be a householdHead to view household members. For details, see [Add consumers to a household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-consumer-to-household.md).
+
+## About this task
+
+A household groups related consumers under a single account. Viewing household members lets you see who is associated with your household and access their individual details. Only the household head can view this list.
 
 ## Procedure
 
@@ -35,7 +40,7 @@ You can view the list of household members. Select any record to view details.
 **Related topics**  
 
 
-[Configuring households](../concept/configure-households.md)
+[Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-households.md)
 
-[Consumer Service Portal changes](../reference/industry-data-model-portal-changes.md)
+[Consumer Service Portal changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/industry-data-model-portal-changes.md)
 

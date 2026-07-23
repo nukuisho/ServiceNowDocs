@@ -2,6 +2,7 @@
 title: Define security controls for an agentic workflow
 description: In the guided setup for an agentic workflow, define security controls for who can access the agentic workflow and what data the agentic workflow has access to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-sec-controls-aw.html
 release: australia
 topic_type: task
 last_updated: "2025-11-23"
@@ -21,7 +22,7 @@ Role required: sn\_aia.admin
 
 The **Define security controls** step is divided into two parts: **Define user access** and **Define data access**. The former creates an access control list \(ACL\) that determines which users can discover or invoke the agentic workflow. The latter defines the data that the agentic workflow has access to once it’s invoked.
 
-See [Security for AI agents](../concept/aia-security-implementation.md) for more information about creating ACLs and user identities for security for agentic workflows.
+See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for agentic workflows.
 
 ## Procedure
 
@@ -34,7 +35,7 @@ See [Security for AI agents](../concept/aia-security-implementation.md) for more
     -   Public
     If you select **Users with specified roles**, you can select exactly which roles can access the agentic workflow. Agentic workflows installed with Now Assist applications and their AI agents might require you to include specific roles. To learn which roles they need, consult the documentation for the AI agent or the agentic workflow that uses the AI agent.
 
-    ![Define user access for an agentic workflow](../image/def-user-access-aw.png)
+    \[Omitted image "def-user-access-aw.png"\] Alt text: Define user access for an agentic workflow
 
 2.  Select **Save and continue** to move to the next step.
 
@@ -44,7 +45,7 @@ See [Security for AI agents](../concept/aia-security-implementation.md) for more
 
     The two options are **Dynamic user** and **AI user**. The dynamic user is the user invoking the agentic workflow. An AI user is a dedicated user that has its own specified roles that allow access, which could be more than the dynamic user.
 
-    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md). Select **AI user** as the identity type.
+    If you do not have an AI user but want to use the **AI user** identity, you need to create a new record on the User table. See Create a user. Select **AI user** as the identity type.
 
     If you select **Dynamic user**, you can select the **Approved roles** that the AI agent runs with. By default, an AI agent runs as a dynamic user and has the roles of the invoking user. Select the approved roles to limit the data access that an AI agent could have. Role masking must be applied for all AI agents and agentic workflows set to run as dynamic users.
 
@@ -54,7 +55,7 @@ See [Security for AI agents](../concept/aia-security-implementation.md) for more
 
     If you select **AI user**, the list of roles that the AI user has is displayed.
 
-    ![Define data access for an agentic workflow](../image/def-data-access-aw.png)
+    \[Omitted image "def-data-access-aw.png"\] Alt text: Define data access for an agentic workflow
 
 
 ## Result
@@ -63,5 +64,5 @@ You have created an ACL that determines who can discover and access your agentic
 
 ## What to do next
 
-Select **Save and continue** to move to the next step, [Adding a trigger](add-trigger-aw.md). Adding a trigger is optional. You can also skip to the final step, [Select channels and access](channels-access-aw.md).
+Select **Save and continue** to move to the next step, [Adding a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-trigger-aw.md). Adding a trigger is optional. You can also skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/channels-access-aw.md).
 

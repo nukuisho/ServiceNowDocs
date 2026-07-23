@@ -2,13 +2,14 @@
 title: Configure AI Search for the Customer and Consumer Service Portals
 description: You must configure the Customer and Consumer Service Portals to use AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config\_AI\_search\_csm\_csp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer and Consumer Service Portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure AI Search for the Customer and Consumer Service Portals
@@ -49,4 +50,9 @@ AI Search is inactive by default and you must enable it by updating the portal r
 
 7.  Navigate to **Page Route Maps** and enable the **CSM AI Search Home Page** route map for CSM and **CSP AI Search Home Page** for CSP as they’re inactive by default.
 
+
+**Related topics**  
+
+
+[Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
 

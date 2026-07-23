@@ -2,6 +2,7 @@
 title: Update a purchase order to accept supplier changes
 description: After an exception is assigned to you, check the impacted purchase order and accept the supplier suggested changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accept-supplier-changes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,16 +29,25 @@ Role required: sn\_poem\_core.operational\_buyer
 
 4.  From the **Address exception** list, select **Update impacted order**.
 
-    ![Update an impacted purchase order to address the exception](../image/pom-update-impacted-order.png)
+    \[Omitted image "pom-update-impacted-order.png"\] Alt text: Update an impacted purchase order to address the exception
 
 5.  Select **Accept supplier proposal as is**.
 
-    ![Accept supplier suggested changes to the order](../image/pom-update-order-options.png)
+    \[Omitted image "pom-update-order-options.png"\] Alt text: Accept supplier suggested changes to the order
 
 
 ## Result
 
 The supplier proposed changes to the quantity or delivery date, or both are updated in the purchase order. This purchase order revision can then be routed for approval.
 
-**Parent Topic:**[Resolving purchase order exceptions](../concept/resolving-purchase-order-exceptions.md)
+**Parent Topic:**[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+**Related topics**  
+
+
+[Confirm a resolution for a purchase order exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/confirm-resolution.md)
+
+[View a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/view-po-exception-task.md)
+
+[Create and assign a purchase order exception task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assign-a-poe-task-to-a-collaborator.md)
 

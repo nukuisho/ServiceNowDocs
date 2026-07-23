@@ -2,6 +2,7 @@
 title: Discovery patterns used by ITOM Visibility
 description: Service Mapping and Discovery use patterns in their discovery process that cover most industry standard network devices and applications. You can customize these patterns and create new ones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/c\_MappingPatternsCustomization.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -34,7 +35,7 @@ For discovering devices that act as hosts for applications, Service Mapping reli
 
 Patterns of all types are stored in the Discovery Patterns \[sa\_pattern\] table.
 
-Discovery uses a combination of probes and patterns. For more information, see [Horizontal discovery process flow with probes and sensors](../../discovery/concept/c_DiscoProcessFlows.md).
+Discovery uses a combination of probes and patterns. For more information, see [Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoProcessFlows.md).
 
 ## Correlation between pattern and CI type
 
@@ -42,13 +43,13 @@ Patterns are assigned to the CI types that they serve to discover. If necessary,
 
 For the top-down discovery performed by Service Mapping, each application pattern serves to discover only the main CI type.
 
-![During top-down discovery, a pattern discovers only the main CI type.](../image/PatternTopDownDiscovery.png "Main CI type discovery during top-down discovery")
+\[Omitted image "PatternTopDownDiscovery.png"\] Alt text: During top-down discovery, a pattern discovers only the main CI type.
 
 However, Service Mapping usually uses more than one pattern to discover the same CI type, because a CI type can use different protocols, operating systems, entry points, and so on.
 
 Unlike top-down discovery, the process of horizontal discovery uses each pattern to discover a main CI type with all related CI types.
 
-![During horizontal discovery, a pattern discovers the main CI type and all related CI types.](../image/PatternHorizontalDiscovery.png "Discovery of main and related CI types during horizontal discovery")
+\[Omitted image "PatternHorizontalDiscovery.png"\] Alt text: During horizontal discovery, a pattern discovers the main CI type and all related CI types.
 
 ## Why install patterns from the ServiceNow Store
 
@@ -78,9 +79,9 @@ You can customize patterns in the following cases:
 
 When you customize a pattern, you actually create a copy of the original preconfigured pattern. While Service Mapping or Discovery use the customized version, the original version isn’t deleted. When you download an update of the pattern from the ServiceNow Store, the original pattern is updated, not the customized copy of it.
 
-![A customized copy of a pattern is not updated.](../image/CustomizedPatternUpdate.png "Exclusion of a customized pattern from an upgrade")
+\[Omitted image "CustomizedPatternUpdate.png"\] Alt text: A customized copy of a pattern is not updated.
 
-If at some point you want to abandon the customized pattern and start using the updated original pattern, you can revert to the original pattern as described in [Choose the pattern version](../task/t_ChoosePatternVersionPatDef.md).
+If at some point you want to abandon the customized pattern and start using the updated original pattern, you can revert to the original pattern as described in [Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md).
 
 ## Patterns users
 
@@ -134,7 +135,7 @@ The pde\_viewer role can view the following tables only:
 -   Pattern Shared Library Mapping \[pd\_pattern\_to\_shared\_library\_mapping\]
 -   Temporary Variable Mappings \[pd\_temp\_variable\_value\_mapping\]
 
-For more information, see [Discovery commands for probes and patterns](../../discovery/concept/discovery-command-probe-pattern.md).
+For more information, see [Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md).
 
 </td></tr><tr><td>
 
@@ -161,7 +162,7 @@ Patterns belong to domains. By default, all preconfigured patterns are assigned 
 
 You can create patterns for specific domains. In that case, the new pattern is used only for this domain and doesn’t exist in any other domains. If you customize an existing pattern in the global domain and assign it to a specific domain, you create a copy of the global pattern. The original global pattern is still used for all other domains except for the domain that has the customized version of this pattern. Likewise, if you customize the pattern belonging to the global domain, the change affects all domains except for the one that uses a customized copy of this pattern.
 
-![Patterns may be domain-specific or global.](../image/DomSepPatterns.png "Global or domain-specific patterns")
+\[Omitted image "DomSepPatterns.png"\] Alt text: Patterns may be domain-specific or global.
 
 ## Pattern creation or modification flow
 
@@ -169,59 +170,63 @@ Typically, you maintain two ServiceNow instances in your organization: for produ
 
 If you’re creating a pattern for applications and devices that aren’t supported in the ITOM Visibility global content application, start from creating CI types for them.
 
-![Flow describing pattern creation and modification](../image/PatternCreationFlow.png "Pattern creation flow")
+\[Omitted image "PatternCreationFlow.png"\] Alt text: Flow describing pattern creation and modification
 
-1.  [Available on-premise discovery patterns](available-patterns.md)  
+1.  [Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)  
 ITOM Visibility comes with an extensive library of patterns.
-2.  [Available cloud discovery patterns](available-patterns-cloud.md)  
+2.  [Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)  
 ITOM Visibility comes with an extensive library of patterns that can discover your cloud environment: AWS, Azure, GCP, IBM, and OCI.
-3.  [Configuring Pattern Designer and related applications](../reference/configuring-pattern-designer-plugins.md)  
+3.  [Configuring Pattern Designer and related applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configuring-pattern-designer-plugins.md)  
 Install the latest available versions of the ServiceNow applications to use the latest discovery patterns.
-4.  [Create CI types for Service Mapping and Discovery](../task/t_CreateCITypeForSM.md)  
+4.  [Create CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md)  
 Create CI types \(or CI classes\) for applications and devices, which Service Mapping and Discovery do not support by default.
-5.  [Create entry point types for Service Mapping](../task/t_CreateEntryPoint.md)  
+5.  [Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md)  
 An entry point is a point where clients access a service instance. Service Mapping starts the mapping process for every application service from the entry point you define for it. Service Mapping includes a wide range of preconfigured entry point types that cover most commonly used applications. If your organization uses a less known or proprietary application that does not have a corresponding entry point type in Service Mapping, you must create it.
-6.  [Create or customize patterns](../task/t_CreatePatternPatDef.md)  
+6.  [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md)  
 Create or modify a discovery pattern and define its basic attributes.
-7.  [Discover related items together with the main CI](../task/add-related-cis-to-the-main-ci-pattern.md)  
+7.  [Discover related items together with the main CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/add-related-cis-to-the-main-ci-pattern.md)  
 Add related items to the patterns to perform horizontal discovery of configuration items with all their related items: CIs or non-CIs, like ports or serial numbers.
-8.  [Enhance patterns without changing their identification sections](../task/modify-pattern-using-extensions.md)  
+8.  [Enhance patterns without modifying identification sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/modify-pattern-using-extensions.md)  
 Enable patterns to search for additional attributes and modify pattern discovery logic defined in identification sections by using extension sections. Each extension section contains a preconfigured set of discovery steps referred to as a shared library.
-9.  [Fine-tune patterns using traffic-based discovery](../task/connection-section-traffic-based.md)  
+9.  [Fine-tune patterns using traffic-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/connection-section-traffic-based.md)  
 As an alternative to customizing the pattern from the Pattern Designer side, improve existing patterns so that Service Mapping can use them to find configuration item \(CI\) connections previously found using traffic-based discovery.
-10. [Finalize a pattern](../task/t_FinalizePatternPatDef.md)  
+10. [Finalize a pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_FinalizePatternPatDef.md)  
 After you finish defining your pattern, make it ready for use by Service Mapping and Discovery.
-11. [Copy patterns from one instance to another](../task/export-patterns.md)  
+11. [Copy patterns from one instance to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/export-patterns.md)  
 To copy patterns from one instance to another, create an update set containing new or modified patterns with their related items in your development instance. Then, import the update set into your production instance.
-12. [Choose the pattern version](../task/t_ChoosePatternVersionPatDef.md)  
+12. [Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md)  
 Every time you modify and save a pattern, you create a version of this pattern. Choose which pattern version Service Mapping and Discovery use for discovery.
-13. [Activate a disabled pattern](../task/activate-disabled-pattern.md)  
+13. [Activate a disabled pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/activate-disabled-pattern.md)  
 If you want to use a pattern for discovery that's disabled by default, activate it manually.
-14. [Discover datacenters only for new cloud accounts](../task/discover-datacenter-only-new-account.md)  
+14. [Discover datacenters only for new cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/discover-datacenter-only-new-account.md)  
 If you have multiple cloud accounts and datacenters in AWS and Azure, you can discover datacenters for new cloud accounts only, instead of refreshing the entire list.
-15. [Improved query performance with direct field population in CI tables](query-service-account-ldc-fields.md)  
+15. [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)  
 The **Populate Service Account and LDC IN CMDB** scheduled job populates the Service Account and Logical Datacenter fields in cloud configuration item \(CI\) tables, and the Virtual Machine Object field in the Hardware \[cmdb\_ci\_hardware\] table. This direct population reduces query complexity and improves query performance.
+16. [Server CI population during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/server-ci-cloud-discovery.md)  
+Cloud discovery can populate Server CIs without running IP-based discovery, reducing discovery time in large environments.
+17. [Enable Oracle Wallet authentication for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)  
+Enable Oracle Wallet authentication to use credentials stored on the target server during Oracle database discovery on UNIX systems.
 
-**Parent Topic:**[ITOM Visibility](../../it-operations-management/reference/itom-visibility-landing-page.md)
+**Parent Topic:**[ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
 
 **Related topics**  
 
 
-[Detailed information on products discovered by ITOM Visibility](../reference/r_SupportedApplications.md)
+[Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md)
 
-[Class diagrams and class attributes for key CMDB classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
+[Class diagrams and class attributes for key CMDB classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ConfigurationManagementDatabase.md)
 
-[Description of key CMDB tables in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md)
+[Description of key CMDB tables in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-tables-details.md)
 
-[CMDB CI Class Models: ServiceNow Store app that adds class models that extend the base CMDB class hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)
+[CMDB CI Class Models: ServiceNow Store app that adds class models that extend the base CMDB class hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models.md)
 
-[Information about the various options for populating the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_OptionsToPopulateCMDB.md)
+[Information about the various options for populating the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_OptionsToPopulateCMDB.md)
 
-[ServiceNow Store apps that provide pre-defined Service Graph connectors for importing and integrating common third-party data into CMDB classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-third-party-integrations.md)
+[ServiceNow Store apps that provide pre-defined Service Graph connectors for importing and integrating common third-party data into CMDB classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-third-party-integrations.md)
 
 [KB0747679: Pre/Post Processing Scripts for patterns](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0747679)
 
-[Application patterns for the Agent Client Collector](../../agent-client-collector/concept/application-patterns-acc.md)
+[Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/application-patterns-acc.md)
 
-[Certificate Inventory and Management patterns](../../discovery/reference/cert-invt-mgmt-patterns.md)
+[Certificate Inventory and Management patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-patterns.md)
 

@@ -2,12 +2,14 @@
 title: Create a job requisition as a hiring manager
 description: Request for a job requisition for a vacancy you want to fill in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/request-req-hm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [create job requisition, request job opening, hiring manager requisition, new job request, raise requisition]
 breadcrumb: [Use, Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -27,7 +29,7 @@ Role required: sn\_ta\_hiring\_core.hiring\_manager
 
 3.  On the new job opening request form, fill in the fields.
 
-    For a description of the field values, see [Job requisition form](../reference/new-job-form.md).
+    For a description of the field values, see [Job requisition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/new-job-form.md).
 
 4.  Select save or submit.
 
@@ -40,15 +42,15 @@ Role required: sn\_ta\_hiring\_core.hiring\_manager
 
     **Note:**
 
-    When a job request is created by a hiring manager, the recruiter can see the open request on the overview page of the Recruitment Workspace. For more information, see [Get overview of recruitment workload](../concept/recruitment-workspace-oveview.md).
+    When a job request is created by a hiring manager, the recruiter can see the open request on the overview page of the Recruitment Workspace. For more information, see [Get overview of recruitment workload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-oveview.md).
 
 
 ## Result
 
 A job requisition is created and in New state.
 
--   **[Use Now Assist to open a job requisition](request-req-hm-now-assist.md)**  
+-   **[Use Now Assist to open a job requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/request-req-hm-now-assist.md)**  
 Use Now Assist in Virtual Agent to create or duplicate a job requisition for a vacancy that you want to fill in your organization.
 
-**Parent Topic:**[Using Hiring](../concept/use-hiring.md)
+**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
 

@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP system list field descriptions
 description: The Create new system form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information on connection details for the ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-system-list-descriptions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,7 +17,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Cop
 
 The Create new system form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information on connection details for the ERP system.
 
-For process details, see [View a list of Zero Copy Connector for ERP systems](../task/view-and-monitor-erp-systems-health.md).
+For process details, see [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-monitor-erp-systems-health.md).
 
 <table id="table_xn1_4kd_5xb"><thead><tr><th>
 
@@ -50,8 +51,8 @@ Retrieval status
 
 When the system is first set up and connects to the SAP system, metadata is retrieved.-   BAPI/RFC: For BAPI, a list of functions available to call on the system are collected. For RFC, a check is done to determine the tables available on the database.
 -   Table: The tables from the database are retrieved.
--   Odata: The models available on the HTTP protocol are retrieved.
+-   Odata: The models are retrieved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

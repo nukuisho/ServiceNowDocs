@@ -2,13 +2,14 @@
 title: Create an AI-generated experience
 description: Use Now Assist in UI Builder to generate a multi-page experience from a natural language description of what you want to build.After Now Assist generates an experience, review the read-only preview to verify the proposed configuration before saving and opening the experience in UI Builder.After saving an AI-generated experience, open it in a browser to confirm that all pages, navigation, charts, and record links are functioning correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/generate-ui.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Create an AI-generated experience
@@ -17,7 +18,7 @@ Use Now Assist in UI Builder to generate a multi-page experience from a natural 
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](install-ui-generation.md) and [Grant UI Builder admin role](grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/grant-ui-builder-admin-role.md).
 
 Role required: ui\_builder\_admin
 
@@ -29,7 +30,7 @@ You can access the experience generation feature from the UI Builder homepage. Y
 
 1.  In the application navigator, navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-    ![UI Builder Home page.](../image/ui-generation-landing.png "UI Builder Home page")
+    \[Omitted image "ui-generation-landing.png"\] Alt text: UI Builder Home page.
 
 2.  Select **Create** in the upper-right corner of the page.
 
@@ -41,7 +42,7 @@ You can access the experience generation feature from the UI Builder homepage. Y
 
     The Experience Generation interface opens. The interface is split into two panels: a left panel containing the **Now Assist directions** input field, and a right panel that displays guidance on what information to provide.
 
-    ![Create an experience form.](../image/ui-generation-create.png "Create an experience form")
+    \[Omitted image "ui-generation-create.png"\] Alt text: Create an experience form.
 
 5.  In the **Now Assist directions** field, type a description of the experience you want to create.
 
@@ -72,14 +73,14 @@ You can access the experience generation feature from the UI Builder homepage. Y
 
 The experience preview appears in the right panel. It displays the proposed experience name, navigation type, page structure, chart parameters, and a live data sample from the identified ServiceNow table. The **Regenerate preview** and **Save and edit experience** buttons are set to active.
 
-**Parent Topic:**[Using UI generation](../concept/using-ui-generation.md)
+**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-ui-generation.md)
 
 **Related topics**  
 
 
-[Experience Generation](../concept/concept-experience-generation.md)
+[Experience Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/concept-experience-generation.md)
 
-[Use case: Create an AI-generated experience](../concept/use-case-experience-generation.md)
+[Use case: Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/use-case-experience-generation.md)
 
 ## Review and save an experience preview
 

@@ -2,6 +2,7 @@
 title: How Daily Compliance score, trend, and graph data is refreshed
 description: Trend and graph data in the Instance Security Center is updated after the performance analytics job executes at 02:00 local time. It appears in the Daily Compliance Score tile, in the Event ribbon tiles, and in the KPI Details page detail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/how-daily-compl-score-trend-date-refreshed.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,9 +20,9 @@ The \[AppSec\] Daily Data Management job is a regularly scheduled job that runs 
     -   If you entered a valid user into the **Run As** field, the job continues processing. A valid user is one that is not locked out of the instance and has an assigned admin role.
     -   If you entered an invalid user, an error message appears above the rotating security banner in the Instance Security Center.
 
-        **Note:** To learn more about updating the assigned user when running scheduled jobs, see [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md).
+        **Note:** To learn more about updating the assigned user when running scheduled jobs, see [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/t_CreatASchedDataCollJob.md).
 
-2.  Executes business logic to set the compliance state for the security properties you configure in the Hardening Compliance Configuration page. To learn more, see [Check the daily compliance score and configure security property settings](instance-sec-center-hardening.md).
+2.  Executes business logic to set the compliance state for the security properties you configure in the Hardening Compliance Configuration page. To learn more, see [Check the daily compliance score and configure security property settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-hardening.md).
 3.  Runs the \[PA AppSec\] Daily Data Collection performance analytics job to collect compliance data and update the Daily Compliance Score.
 
 ## Manually refreshing the Daily Compliance Score
@@ -36,5 +37,5 @@ Alternately, if you have an assigned admin role, you can refresh and recalculate
 
 **Note:** When you perform an upgrade \(for example, from London to Australia\), the Instance Security Center \(ISC\) plugin is automatically activated. A supplied fix script automatically assigns a custom user without any assigned roles.
 
-**Parent Topic:**[Check the daily compliance score and configure security property settings](instance-sec-center-hardening.md)
+**Parent Topic:**[Check the daily compliance score and configure security property settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-hardening.md)
 

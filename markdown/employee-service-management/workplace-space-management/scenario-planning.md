@@ -2,6 +2,7 @@
 title: Scenario Planning
 description: Manage space allocations in your workplace in the most efficient way using the Space optimization scenario planning feature. Adjust your existing space allocations, floor arrangements, and employee seating plan by creating a scenario and deploying it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/scenario-planning.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -17,7 +18,7 @@ Manage space allocations in your workplace in the most efficient way using the S
 
 ## Overview of Scenario Planning
 
-The Workplace Central is like a central homepage where you can monitor all your workplace-related tasks. The Workplace Central provides you the Space optimization module that enables you to create scenarios using a stack plan and view the plan on the floor map. Using the Space optimization module, as a space planner you can perform several actions related to scenarios such as creating a scenario, monitoring the number of scenarios created and more. For more information about the Space optimization module, refer to [Space Optimization](space-optimization.md).
+The Workplace Central is like a central homepage where you can monitor all your workplace-related tasks. The Workplace Central provides you the Space optimization module that enables you to create scenarios using a stack plan and view the plan on the floor map. Using the Space optimization module, as a space planner you can perform several actions related to scenarios such as creating a scenario, monitoring the number of scenarios created and more. For more information about the Space optimization module, refer to [Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/space-optimization.md).
 
 Space Optimization enables you to perform scenario planning using a stack plan and a floor map. Scenario planning enables you to create multiple versions of a building with different space allocations until you finalize the best plan. You can share a scenario between multiple stake holders and deploy the best plan to the production.
 
@@ -30,7 +31,7 @@ To create a scenario using the space optimization feature, you must install the 
 -   Workplace Move Management
 -   Workplace Indoor Mapping
 
-Install the plugins from the from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html)..
+Install the plugins from the from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html)..
 
 Using the Space optimization module you can create scenarios for a single building or multiple buildings. You can perform the following actions while working with a scenario:
 
@@ -50,36 +51,32 @@ Using the Space optimization module you can create scenarios for a single buildi
     **Note:** Ensure that you have installed Indoor Mapping to visualize and reserve spaces using floor maps.
 
 
-**Parent Topic:**[Exploring Workplace Space Management](../../workplace-space-management/concept/explore_wsm.md)
+**Parent Topic:**[Exploring Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/explore_wsm.md)
 
-**Parent Topic:**[Explore Workplace Central](workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 
 
-[Space Optimization](space-optimization.md)
+[Space Optimization]()
 
-[Schedule Planning](schedule-planning.md)
+[Schedule Planning]()
 
-[Allocation - types, setting, and impact](../../workplace-space-management/reference/setting-an-allocation-and-its-impact.md)
+[Allocation - types, setting, and impact]()
 
-[Lists module](wsd-lists-module.md)
+[Lists module]()
 
-[Workplace Analytics](workplace-analytics.md)
+[Workplace Analytics]()
 
-[Space Planning](space-planning.md)
+[Space Planning]()
 
-[Space Optimization](space-optimization.md)
+[Space assistance]()
 
-[Schedule Planning](schedule-planning.md)
+[Event Planner]()
 
-[Space assistance](space-assistance.md)
+[Move Management]()
 
-[Event Planner](event-planner.md)
+[Case management]()
 
-[Move Management](move-mgmt.md)
-
-[Case management](case-management-workspace.md)
-
-[Kiosk Indoor Mapping](kiosk-indoor-mapping.md)
+[Kiosk Indoor Mapping]()
 

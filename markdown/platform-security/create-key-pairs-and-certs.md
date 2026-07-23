@@ -2,6 +2,7 @@
 title: Create Code Signing key pairs and certificates
 description: Create two key pairs to signed certificates to establish trust between your protected and trusted instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/create-key-pairs-and-certs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -49,6 +50,4 @@ RSASSA\_PKCS1\_V1\_5\_SHA\_512
 </table>## Certificate specifications
 
 Certificates must be signed by a public certificate authority.
-
-**Parent Topic:**[Configuring Code Signing](../concept/config-code-signing.md)
 

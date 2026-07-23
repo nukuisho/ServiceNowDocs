@@ -2,6 +2,7 @@
 title: Inventory number allocation fields
 description: The inventory number allocation fields enables you to describe the details for LAG, VLAN, IP address, and telephone number records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/inventory-number-allocation-fields.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -29,7 +30,7 @@ Telephone number
 
 </td><td>
 
-Telephone number that conforms with the e164 naming convention. For more information, see [E.164 phone number field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md).
+Telephone number that conforms with the e164 naming convention. For more information, see .
 
 </td></tr><tr><td>
 
@@ -221,10 +222,10 @@ Service
 Type of service.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Inventory number allocation](../concept/vlan_or_lag_number_management.md)
+[Inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/vlan_or_lag_number_management.md)
 

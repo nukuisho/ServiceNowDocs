@@ -2,13 +2,14 @@
 title: Approve or reject a workplace contract in Core UI
 description: As a lease administrator or manager, you can approve or reject a workplace contract after it is submitted for review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/approve-lease-contract.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with Workplace Lease Administration from the Core UI, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Working with Workplace Lease Administration from the Core UI, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Approve or reject a workplace contract in Core UI
@@ -44,12 +45,12 @@ Role required: sn\_wsd\_la.manager or sn\_wsd\_la.admin
 -   If the contract has a substate of Approved, the system changes the state to Active and removes the Substate value.
 -   When a contract with a state of Draft and a start date set to a date in the past is approved, the State value is automatically set to Active and the Substate value is left empty.
 
-**Parent Topic:**[Working with Workplace Lease Administration from the Core UI](../concept/use-lease-admin-core-ui.md)
+**Parent Topic:**[Working with Workplace Lease Administration from the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/use-lease-admin-core-ui.md)
 
 **Related topics**  
 
 
-[Create workplace contracts in Core UI](create-lease-contracts.md)
+[Create workplace contracts in Core UI]()
 
-[Submit workplace contract for review in Core UI](submit-lease-contract-review.md)
+[Submit workplace contract for review in Core UI]()
 

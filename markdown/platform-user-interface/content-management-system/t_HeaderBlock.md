@@ -2,6 +2,7 @@
 title: Configure a header block
 description: A header block is a visual element placed at the top of pages. It provides a place for branding and other important site-wide functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_HeaderBlock.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -188,26 +189,26 @@ Select the chat queue that users access by clicking the **Help Desk Chat** butto
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Types of content blocks](../reference/r_TypesOfContentBlocks.md)
+**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
 
 **Related topics**  
 
 
-[Create a navigation menu block](t_CreateNavigationMenuBlock.md)
+[Create a navigation menu block]()
 
-[Configure dynamic blocks](t_CreateADynamicBlock.md)
+[Configure dynamic blocks]()
 
-[Customize the list block](t_DefineTheListBlock.md)
+[Customize the list block]()
 
-[Configure a static HTML block](t_StaticHTMLBlock.md)
+[Configure a static HTML block]()
 
-[Configure Flash movie blocks](t_FlashMovieBlock.md)
+[Configure Flash movie blocks]()
 
-[Configure content links](t_ConfigureContentLinks.md)
+[Configure content links]()
 
-[Configure iFrames](t_IFrame.md)
+[Configure iFrames]()
 
-[Configure a detailed content block](t_DetailedContentBlock.md)
+[Configure a detailed content block]()
 
-[Configure a content block](t_CreateAContentBlock.md)
+[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
 

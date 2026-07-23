@@ -2,6 +2,7 @@
 title: Create a record producer for visitor management
 description: Make visitor-related services available to employees as a self-service option. Create a record producer to display these services as catalog items in the Workplace Services catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/create-rec-prodcr-visit-mgmt.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -103,7 +104,7 @@ Select this option to enable users to expand help for all questions.
 
     Variables collect information from the user, and are used to ask questions and map answers to fields.
 
-    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md).
+    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_VariableTypes.md).
 
 7.  Click **Submit**.
 
@@ -112,22 +113,22 @@ Select this option to enable users to expand help for all questions.
 
 The record producer is created.
 
-**Parent Topic:**[Configuring Workplace Visitor Management](../concept/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 
 
-[Install Workplace Visitor Management](install-workplace-visitor-mgmt.md)
+[Install Workplace Visitor Management]()
 
-[Create a visitor policy](create-visitor-policy.md)
+[Create a visitor policy]()
 
-[Configure a visitor type](configure-visitor-type.md)
+[Configure a visitor type]()
 
-[Configure visit requirements](configure-visit-requirements.md)
+[Configure visit requirements]()
 
-[Create a visitor badge template](create-visitor-badge-template.md)
+[Create a visitor badge template]()
 
-[Configuring Workplace Visitor Management for Workplace Services Kiosk](../concept/config-visitor-for-kiosk.md)
+[Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 
-[Quick start test for Workplace Visitor Management](../../../administer/atf-quick-start-tests/reference/quick-start-tests-wsd-visitor-mgmt.md)
+[Quick start test for Workplace Visitor Management]()
 

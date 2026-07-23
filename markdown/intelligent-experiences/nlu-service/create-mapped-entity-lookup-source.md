@@ -2,6 +2,7 @@
 title: Create a mapped entity
 description: Create an entity mapped to a vocabulary source, or to a list of values you manually create for the entity. Mapped entities can help provide multiple values the model can use as context when interpreting utterances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-mapped-entity-lookup-source.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -56,7 +57,7 @@ In this example procedure, you create a mapped entity for urgency.
 
 7.  Select **Create New Entity.**
 
-    ![Create new entity button in the entity window in the utterances tab.](../images/create-mapped-entityT1.png)
+    \[Omitted image "create-mapped-entityT1.png"\] Alt text: Create new entity button in the entity window in the utterances tab.
 
 8.  On the form, configure the fields.
 
@@ -116,13 +117,13 @@ Values used to provide context for the model.
     -   **Model availability**: Select the check box
     -   **Source:** **Use this if you have a table or list to refer to where the actual values and values they're mapped to are stored**
     -   **Mapped value for the entity**: `high, medium, low`.
-    ![Create a new entity window for a mapped entity.](../images/create-mapped-entityT2.png)
+    \[Omitted image "create-mapped-entityT2.png"\] Alt text: Create a new entity window for a mapped entity.
 
 9.  Click **Save**.
 
     **Result:** Your mapped entity saves. The entity appears on the **Associated entities** tab. Now the model can leverage machine learning and use the values provided to identify possible values.
 
-    ![Entity window with a mapped entity with multiple values.](../images/create-mapped-entityT3.png)
+    \[Omitted image "create-mapped-entityT3.png"\] Alt text: Entity window with a mapped entity with multiple values.
 
 
 ## What to do next
@@ -132,7 +133,7 @@ You can create a mapped entity using a vocabulary source to use the values in th
 **Related topics**  
 
 
-[Create a table vocabulary source](create-table-lookup-source.md)
+[Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-table-lookup-source.md)
 
-[Create a list vocabulary source](create-static-list-source.md)
+[Create a list vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-static-list-source.md)
 

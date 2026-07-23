@@ -2,6 +2,7 @@
 title: Domain separation in Now Assist for Customer Service Management \(CSM\)
 description: Domain separation allows users to separate data, processes, and administrative tasks into logical groupings known as domains. Domain separation enables users to independently manage skill configurations, data visibility, and other settings within each domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/domain-separation-in-now-assist-for-csm.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -32,5 +33,5 @@ Do the following task to set up domain separation:
 
 -   Domain separation setup and administration. See [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md).
 -   Benefits of domain separation. See [Benefits of domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-advantages-dom-sep.md).
--   Domain separation and Customer Service Management \(CSM\). See [Domain separation and Customer Service Management](domain-separation-customer-service.md).
+-   Domain separation and Customer Service Management \(CSM\). See [Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md).
 

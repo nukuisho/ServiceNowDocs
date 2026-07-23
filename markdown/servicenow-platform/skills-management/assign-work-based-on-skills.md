@@ -2,6 +2,7 @@
 title: Qualify and rank users based on skills and skill levels
 description: Rank users so that you can select the right users based on skills needed to complete tasks. Qualify users to work on tasks such as case, work order task, or chat interaction based on the number of skills and skill levels required to work on those tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/assign-work-based-on-skills.html
 release: australia
 product: Skills Management
 classification: skills-management
@@ -23,7 +24,7 @@ Role required: skill\_admin
 
 Use the [UserSkillAnalyzer API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/UserSkillAnalyzerAPI.md) to analyze the skills and skill levels of users and the [UserSkillRanking API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/UserSkillRankingAPI.md) to rank and assign them to tasks. For example, when you use the Field Service Management application to assign agents to tasks, you can analyze and rank them based on their skills and skill levels using these APIs and use dynamic scheduling to assign them to tasks.
 
-**Note:** You must add the Matching Skill Level Gap for Dynamic Scheduling criterion to the task filter to rank agents assessed based on skill gaps. For more information on adding this criterion, see [Create a task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).
+**Note:** You must add the Matching Skill Level Gap for Dynamic Scheduling criterion to the task filter to rank agents assessed based on skill gaps. For more information on adding this criterion, see [Create a task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/create-dynamic-scheduling-config.md).
 
 ## Procedure
 
@@ -46,7 +47,7 @@ Use the [UserSkillAnalyzer API](https://raw.githubusercontent.com/ServiceNow/Ser
     The API retrieves a list of qualified users based on matching and mandatory skills and skill levels.
 
 
-**Parent Topic:**[Routing work items to agents based on skills](../concept/skill-based-routing.md)
+**Parent Topic:**[Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skill-based-routing.md)
 
 **Related topics**  
 

@@ -2,11 +2,12 @@
 title: Add connection details
 description: Configure the connection details for the integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/add-connection-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Add a integration, Use, LLM-powered SIR integration builder, Security Operations]
+breadcrumb: [Add an integration, Use SIR Integration Builder, LLM-powered SIR integration builder, Security Operations]
 ---
 
 # Add connection details
@@ -24,13 +25,13 @@ Role required: sn\_si\_int\_kit.integration\_creator
 2.  Select **Alias type**.
 
     -   Create new alias
-        1.  Enter a **Alias name**.
+        1.  Enter an **Alias name**.
         2.  Select the template from the **Alias template** list.
         3.  Select **Create alias**.
 
-            You can test the alias using the ![](../images/browse.png) icon added to **Alias name**.
+            You can test the alias using the \[Omitted image "browse.png"\] Alt text: icon added to **Alias name**.
 
-            ![Create connection alias.](../images/connection-details.png)
+            \[Omitted image "connection-details.png"\] Alt text: Create connection alias.
 
     -   Choose from existing alias
         1.  Select an existing alias.
@@ -39,7 +40,7 @@ Role required: sn\_si\_int\_kit.integration\_creator
 
 4.  Select an existing **Connection**, or select **Create new** to create a connection.
 
-    1.  Enter a **Name** for the new connection in the HTTPs Connection pop-up.
+    1.  Enter a **Name** for the new connection in the HTTPS Connection pop-up.
 
     2.  Select **Credential** for your connection.
 
@@ -49,13 +50,13 @@ Role required: sn\_si\_int\_kit.integration\_creator
 
     4.  Select **Submit**.
 
-        ![HTTP connection details.](../images/httpconnection.png)
+        \[Omitted image "httpconnection.png"\] Alt text: HTTP connection details.
 
     5.  Close the pop-up.
 
     6.  Select the **Connection**.
 
-        The connection details are displayed. You can verify the connection credentials using the ![](../images/browse.png) icon.
+        The connection details are displayed. You can verify the connection credentials using the \[Omitted image "browse.png"\] Alt text: icon.
 
 5.  Select **Save changes**.
 

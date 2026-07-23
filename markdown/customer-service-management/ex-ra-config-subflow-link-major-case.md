@@ -2,6 +2,7 @@
 title: Configuring a subflow for the guidance action automation
 description: Configure a subflow that you can use in a guidance to automatically link the proposed major case to the current case on a click of an action button.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-ra-config-subflow-link-major-case.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Example: Link the similar major case to the current case, Example c
 
 Configure a subflow that you can use in a guidance to automatically link the proposed major case to the current case on a click of an action button.
 
-Configure and publish a subflow with the following inputs and action. For more information, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
+Configure and publish a subflow with the following inputs and action. For more information, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md).
 
 <table id="table_wxq_2dr_pzb"><thead><tr><th>
 
@@ -65,5 +66,5 @@ Update Record
 Update case record action to add the major case as the parent case to the current case.
 
 </td></tr></tbody>
-</table>![Subflow action that is configured to add the major case as a parent case to the current case.](../image/ex-ra-similar-major-case-subflow.png)
+</table>\[Omitted image "ex-ra-similar-major-case-subflow.png"\] Alt text: Subflow action that is configured to add the major case as a parent case to the current case.
 

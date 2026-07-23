@@ -2,6 +2,7 @@
 title: Add an attachment to a project template
 description: Attach a file to a project template just as you can attach a file to a project or task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_AddAnAttachmentToAProjectTemplate.html
 release: australia
 product: Project Management
 classification: project-management
@@ -38,18 +39,18 @@ Role required: it\_project\_manager
     The selected file appears in the Attachments related list.
 
 
-**Parent Topic:**[Applying templates to projects](../concept/c_ProjectTemplates.md)
+**Parent Topic:**[Applying templates to projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTemplates.md)
 
 **Related topics**  
 
 
-[Create a project template](t_ViewAProjectTemplateForm.md)
+[Create a project template]()
 
-[Apply a template on the Project form](t_ApplyATemplateFromTheProjectForm.md)
+[Apply a template on the Project form]()
 
-[Apply template to an existing project](apply-multiple-templates-prj.md)
+[Apply template to an existing project]()
 
-[Apply template to a blank project in project workspace](t_ApplyTempProjWorkbench.md)
+[Apply template to a blank project in project workspace]()
 
-[Project template configuration](../concept/c_ProjectTemplateConfiguration.md)
+[Project template configuration]()
 

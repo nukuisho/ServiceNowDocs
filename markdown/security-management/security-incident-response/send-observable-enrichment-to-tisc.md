@@ -2,6 +2,7 @@
 title: Send Observable Enrichment to TISC
 description: Using this feature the security analyst can push the sighting search data from SIR to TISC. Using the TISC Context, the analyst can check if the sighting search data is present in TISC, if not the security analyst can push the data whenever required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/send-observable-enrichment-to-tisc.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -26,12 +27,12 @@ Role required: sn\_si.analyst
     **Note:**
 
     -   You can also navigate to the **Investigation** tab, and navigate to the **Entry Points Lists** section displayed on the left side of the page and select **Associated Observables** to perform the push operation.
-    -   On the **Investigation** tab, click **View Associated Info** to view all the associated threat lookup, sighting search, and enrichment data for the selected observable. For more information, see [Explore Investigation Canvas](../../secops-analyst-workspace/concept/explore-investigation-in-sir-workspace.md).
+    -   On the **Investigation** tab, click **View Associated Info** to view all the associated threat lookup, sighting search, and enrichment data for the selected observable. For more information, see [Explore Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/explore-investigation-in-sir-workspace.md).
 2.  Select **Observable Enrichment** &gt; **Observable Enrichment Results** to perform the push operation and manually push the data into TISC.
 
 3.  Select one or more observable record to perform **Send Results to TISC** operation to push the data.
 
-    ![Send Observable enrichment to TISC](../image/tisc-observable-enrichment-sir.png)
+    \[Omitted image "tisc-observable-enrichment-sir.png"\] Alt text: Send Observable enrichment to TISC
 
 4.  Click **Send Results to TISC**.
 
@@ -41,7 +42,7 @@ Role required: sn\_si.analyst
     -   Once the observable push operation is performed, then an information message is displayed that `Observable 0.0.0.0 is successfully pushed to TISC. It may take sometime to convert to reflect in TISC context tab`.
 5.  Select **TISC Context**.
 
-    ![Observable Enrichment Results](../image/tisc-context-observables-enrichment-results.png)
+    \[Omitted image "tisc-context-observables-enrichment-results.png"\] Alt text: Observable Enrichment Results
 
     **Note:** :
 
@@ -55,23 +56,23 @@ Role required: sn\_si.analyst
 
 7.  Click on any observable enrichment results record to view the record in the form view, which also shows the push or **Ingestion Type** \(automatic or manual\) and **Source** will be Threat Intelligence Security Center.
 
-    ![Observable Enrichment Results](../image/tisc-observable-enrichment-result.png)
+    \[Omitted image "tisc-observable-enrichment-result.png"\] Alt text: Observable Enrichment Results
 
 
-**Parent Topic:**[Send data from SIR Workspace to TISC](../concept/send-sir-to-tisc.md)
+**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
 
 **Related topics**  
 
 
-[System properties to send data](../reference/tisc-integrations-system-properties.md)
+[System properties to send data]()
 
-[Add security incident to TISC case](add-incident-to-case.md)
+[Add security incident to TISC case]()
 
-[Add observables to TISC Case](observables-to-case.md)
+[Add observables to TISC Case]()
 
-[Send Observables to TISC](tisc-context-in-sir-workspace.md)
+[Send Observables to TISC]()
 
-[Send Threat Lookup to TISC](send-threat-lookup-to-tisc.md)
+[Send Threat Lookup to TISC]()
 
-[Send Sighting Search to TISC](send-sighting-search-to-tisc.md)
+[Send Sighting Search to TISC]()
 

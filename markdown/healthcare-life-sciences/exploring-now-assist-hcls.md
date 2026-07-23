@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Care Team Operations
 description: Use ServiceNowNow Assist for Care Team Operations to create support requests for service departments conversationally through Virtual Agent on Care Team Mobile or Care Team Portal or via phone using Voice AI agent capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/exploring-now-assist-hcls.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +17,7 @@ Use ServiceNow®Now Assist for Care Team Operations to create support requests f
 
 ## Request care team assistance agentic workflow
 
-![Conversational abilities of Virtual Agent leveraged to create a support request for Care Team Operations users.](../image/hco-now-assist-request-care-team-assistance.png)
+\[Omitted image "hco-now-assist-request-care-team-assistance.png"\] Alt text: Conversational abilities of Virtual Agent leveraged to create a support request for Care Team Operations users.
 
 The Request care team assistance agentic workflow enables care teams to create support requests using the conversational abilities of Now Assist in Virtual Agent from directly within Care Team Portal or Care Team Mobile.
 
@@ -54,6 +55,6 @@ The Care Team Operations Case Creation Voice AI Agent enables care team members 
 
 To learn more about configuring and using Now Assist for Care Team Operations, see:
 
--   [Configuring Now Assist for Care Team Operations](configuring-now-assist-hcls.md)
--   [Using Agentic AI in Now Assist for Care Team Operations](hcls-agentic-ai-use-cases.md)
+-   [Configuring Now Assist for Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/configuring-now-assist-hcls.md)
+-   [Using Agentic AI in Now Assist for Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-agentic-ai-use-cases.md)
 

@@ -2,6 +2,7 @@
 title: Create a theme using Now Assist
 description: Use Now Assist to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-theme-now-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,8 +18,8 @@ Use Now Assist to generate themes from your brand image or brand guidelines. Thi
 
 This feature requires:
 
--   Now Assist for Creator installed. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
--   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the Now Assist panel](turn-on-theme-creation-workflow.md).
+-   Now Assist for Creator installed. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md)
+-   A theme creation workflow enabled in AI Agent Studio. See [Turn on theme creation workflow for use in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/turn-on-theme-creation-workflow.md).
 -   Now Assist panel turned on. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Roles required:
@@ -30,19 +31,19 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
 ## Procedure
 
-1.  Select the Now Assist sparkle icon ![](../../../get-started/servicenow-overview/image/icon-now-assist.png) to display the Now Assist panel.
+1.  Select the Now Assist sparkle icon \[Omitted image "icon-now-assist.png"\] to display the Now Assist panel.
 
 2.  In the chat window, enter `Create a theme`.
 
     This triggers the AI-enabled Theme Builder workflow.
 
-    ![Now Assist panel with Create a theme entered into the chat window.](../image/tb-nap-chat-window.png "Now Assist panel")
+    \[Omitted image "tb-nap-chat-window.png"\] Alt text: Now Assist panel with Create a theme entered into the chat window.
 
 3.  Select **Yes** when prompted to proceed.
 
 4.  Select **Show** to open the theme creation wizard.
 
-    ![Theme Builder Show button highlighted.](../image/tb-nap-show-button.png "Launch theme creation wizard")
+    \[Omitted image "tb-nap-show-button.png"\] Alt text: Theme Builder Show button highlighted.
 
 5.  Enter your theme name and a description, then select **Next**.
 
@@ -53,13 +54,13 @@ For information on granular roles, see [Granular admin roles](https://raw.github
     |**Upload brand image or brand guidelines PDF**|AI automatically extracts a color palette from your image or brand guidelines PDF.|
     |**Select __Handpick my colors__**|Manually choose your theme colors|
 
-    ![Theme Creation wizard showing the option to upload an image or PDF file or handpick colors to generate a color palette.](../image/tb-nap-wizard-flow-2-ap2.png "Generate theme colors using AI or manual selection")
+    \[Omitted image "tb-nap-wizard-flow-2-ap2.png"\] Alt text: Theme Creation wizard showing the option to upload an image or PDF file or handpick colors to generate a color palette.
 
 7.  If you chose to upload a brand image or brand guidelines file, generate your theme colors using AI.
 
     1.  Upload your brand image or brand guidelines file.
 
-        Supported formats for image files are JPEG, JPG, PNG, and SVG with a maximum size of 20 MB. Supported formats for brand guidelines are PDF with a maximum size of 20 MB. ![Theme Creation wizard showing a brand image uploaded to generate a color palette using AI.](../image/tb-nap-wizard-upload-image.png)
+        Supported formats for image files are JPEG, JPG, PNG, and SVG with a maximum size of 20 MB. Supported formats for brand guidelines are PDF with a maximum size of 20 MB. \[Omitted image "tb-nap-wizard-upload-image.png"\] Alt text: Theme Creation wizard showing a brand image uploaded to generate a color palette using AI.
 
     2.  Select **Generate Palette**.
 
@@ -69,7 +70,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
         **Note:** The AI detects up to eight colors from your image, with the two most dominant pre-selected as the primary and secondary. Any additional detected colors are suggested as available options that you can swap in as needed.
 
-        ![Theme Creation wizard showing primary and secondary colors with a color selector for adjusting the primary palette.](../image/tb-nap-wizard-flow-manage-colors.png)
+        \[Omitted image "tb-nap-wizard-flow-manage-colors.png"\] Alt text: Theme Creation wizard showing primary and secondary colors with a color selector for adjusting the primary palette.
 
     5.  Choose a new color from the color selector and select **Apply**.
 
@@ -81,7 +82,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
     1.  Select the Primary tile and choose your brand’s primary color from the color selector or enter a value using HEX, RGB, or HSL.
 
-        ![Your brand's primary color](../image/tb-select-primary-color.png "Your brand's primary color")
+        \[Omitted image "tb-select-primary-color.png"\] Alt text: Your brand's primary color
 
     2.  After you identify the primary color of your brand, select **Apply**.
 
@@ -103,7 +104,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
 12. Review your selections and make any changes, if needed.
 
-    ![Final review screen showing theme information, brand colors, and a preview before creating the theme.](../image/tb-nap-wizard-flow-summary.png "Theme details and final preview before creation")
+    \[Omitted image "tb-nap-wizard-flow-summary.png"\] Alt text: Final review screen showing theme information, brand colors, and a preview before creating the theme.
 
 13. Select **Create theme**.
 
@@ -118,7 +119,7 @@ Your theme is saved as a draft in Theme Builder and appears in the Unpublished s
 
 ## What to do next
 
-Customize and publish your theme in Theme Builder. See [Manage or edit a theme with Theme Builder](tb-edit-theme.md)\[Publish a theme\] and [Publish your themes with Theme Builder](tb-apply-theme.md).
+Customize and publish your theme in Theme Builder. See [Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md)\[Publish a theme\] and [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Theme creation with AI](../concept/theme-creation-with-ai.md)
+**Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)
 

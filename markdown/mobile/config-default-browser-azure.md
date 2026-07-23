@@ -2,6 +2,7 @@
 title: Configure the default authentication browser for ServiceNow mobile apps in Microsoft Azure
 description: Learn how to configure the default authentication browser for your ServiceNow mobile apps managed by Microsoft Azure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/config-default-browser-azure.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: Microsoft Intune admin
 
 2.  In the menu on the left side of the screen, navigate to **Apps**.
 
-    ![Microsoft Endpoint Manager admin center menu showing the 'Apps' option.](../image/intune-mdm-config-select-apps.png)
+    \[Omitted image "intune-mdm-config-select-apps.png"\] Alt text: Microsoft Endpoint Manager admin center menu showing the 'Apps' option.
 
 3.  In the menu on the left side of the screen, select **App configuration policies**.
 
@@ -33,7 +34,7 @@ Role required: Microsoft Intune admin
 
 5.  To the right of the **Settings** header, click **Edit**.
 
-    ![Microsoft Endpoint Manager admin center shwoing where you can edit the app config properties.](../image/intune-mdm-config-def-browser.png)
+    \[Omitted image "intune-mdm-config-def-browser.png"\] Alt text: Microsoft Endpoint Manager admin center shwoing where you can edit the app config properties.
 
 6.  In the **General configuration settings** section, add the following **Name** and **Value** entries:
 
@@ -59,7 +60,7 @@ SNAuthenticationBrowseriOS
 
 </td><td>
 
-Enter the value for the browser to use for apps on iOS mobile devices. For more information and a list of values, see [AppConfig for Mobile Apps](../reference/appconfig.md)
+Enter the value for the browser to use for apps on iOS mobile devices. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md)
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ SNAuthenticationBrowserAndroid
 
 </td><td>
 
-Enter the value for the browser to use for apps on Android mobile devices. For more information and a list of values, see [AppConfig for Mobile Apps](../reference/appconfig.md)
+Enter the value for the browser to use for apps on Android mobile devices. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md)
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ SNBlockInstanceCreate
 
 </td><td>
 
-Enter the value to prevent end users from creating connections to new instances for managed mobile apps. For more information and a list of values, see [AppConfig for Mobile Apps](../reference/appconfig.md).
+Enter the value to prevent end users from creating connections to new instances for managed mobile apps. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md).
 
 </td></tr><tr><td>
 
@@ -83,13 +84,13 @@ SNBlockMultiInstance
 
 </td><td>
 
-Enter the value to prevent end users from logging in to multiple instances simultaneously. For more information and a list of values, see [AppConfig for Mobile Apps](../reference/appconfig.md).
+Enter the value to prevent end users from logging in to multiple instances simultaneously. For more information and a list of values, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md).
 
 </td></tr></tbody>
-</table>    ![Edit app configuration policy window in Microsoft Endpoint Manager admin center.](../image/azure-edit-policy.png)
+</table>    \[Omitted image "azure-edit-policy.png"\] Alt text: Edit app configuration policy window in Microsoft Endpoint Manager admin center.
 
 7.  Select **Review + save**
 
 
-**Parent Topic:**[Intune mobile device management \(MDM\)](../concept/intune-mdm.md)
+**Parent Topic:**[Intune mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/intune-mdm.md)
 

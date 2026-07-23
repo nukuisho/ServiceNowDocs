@@ -2,6 +2,7 @@
 title: Use the Hardware Vulnerability Assessment menu in the Industrial Workspace
 description: Use the Hardware Vulnerability Assessment menu to view and track all the firmware vulnerability assessments in your OT environment. Also, in the HVA menu you can view the vulnerable items that are created based on the firmware vulnerability assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/using-hva-tabs-.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -25,13 +26,13 @@ The Hardware Vulnerability Assessment menu provides information of all vulnerabi
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Industrial Workspace** &gt; **Hardware Vulnerability Assessment. Select the menu icon \(![Menu icon.](../image/hva-menu.png)\)**.
+1.  Navigate to **Workspaces** &gt; **Industrial Workspace** &gt; **Hardware Vulnerability Assessment. Select the menu icon \(\[Omitted image "icon-hva-menu.png"\] Alt text:\)**.
 
 2.  Perform the following actions on the **Fully matched assessments**, **Partially matched assessments**, **Vulnerable Items**, **Ignored assessments**, and **Awaiting Normalization** tabs as needed:
 
-    1.  Choose additional columns and view them for more information regarding the assessment by selecting the update pPersonalized list icon \(![Update Personalized List.](../image/update-personalized-list.png)\).
-    2.  Update thethe displayed list of assessments by selecting the refresh icon \( ![Refresh icon](../image/refresh-icon.png)\).
-    3.  View assessment information in the tab according to the additional filter conditions that you select from the filter list icon \(![Filter list icon](../../mftg-manufacturing-process-mgr/image/filter-list-icon.png)\) icon.
+    1.  Select More Actions icon \(\[Omitted image "more-actions.png"\] Alt text:\) and then select **Personalized fields**. Choose additional columns and view them for more information regarding the assessment.
+    2.  Update the displayed list of assessments by selecting the refresh icon \( \[Omitted image "icon-refresh.png"\] Alt text:\).
+    3.  View assessment information in the tab according to the additional filter conditions that you select from the filter list icon \(\[Omitted image "filter-list-icon.png"\] Alt text: Filter list icon\) icon.
     4.  Perform a quick filtration of assessments by selecting **Choose Filters**.
 3.  View the assessment records by selecting the **Fully matched assessments** and **Partially matched assessments** tabs.
 
@@ -50,15 +51,15 @@ The Hardware Vulnerability Assessment menu provides information of all vulnerabi
     -   **New**
     -   **Match not found**
     -   **Publisher normalized**
-    **Important:** Enable the Opt-in feature in Enterprise Asset Management, which enables OT devices to be available for normalization. For more information, see [Opt-in to Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/optin-cs-eam.md).
+    **Important:** Enable the Opt-in feature in Enterprise Asset Management, which enables OT devices to be available for normalization. For more information, see [Opt-in to the Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/optin-cs-eam.md).
 
 
-**Parent Topic:**[Using the Industrial Workspace](../../operational-technology-management/concept/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 
 **Related topics**  
 
 
-[Operational Technology Hardware Vulnerability Assessment](../concept/understanding-hwd-vuln-assessment.md)
+[Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)
 
-[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](configure-hva-using-guided-setup.md)
+[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 

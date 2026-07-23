@@ -2,6 +2,7 @@
 title: Create a technical dashboard in UI Builder
 description: Follow the Technical Editor option to create a dashboard using UI Builder. In UI Builder, you can use a wider range of features than the inline editor, including scripting and data binding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-tech-db-in-ac.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +17,7 @@ Follow the Technical Editor option to create a dashboard using UI Builder. In UI
 
 ## Before you begin
 
-Creating dashboards in UI Builder is recommended for developers. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+Creating dashboards in UI Builder is recommended for developers. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
 
 It isn’t possible to edit the dashboard's details in the Analytics Overview when you create a dashboard in the Technical Editor. However, you can share a technical dashboard from the Analytics Overview.
 
@@ -36,7 +37,7 @@ The technical editor lets you add any UI Builder component to your dashboard. Yo
 
 3.  Choose **Technical editor**.
 
-    ![Create new technical dashboard modal](../image/tech-editor-create-modal.png)
+    \[Omitted image "tech-editor-create-modal.png"\] Alt text: Create new technical dashboard modal
 
     **Warning:** Do not try to create dashboards directly in the Advanced Dashboards experience on the UI Builder. Always begin in runtime from the Platform Analytics library. When you begin the technical dashboard in the library, it has an automatic connection to the par\_dashboards table and is listed in the Dashboard overview component.
 
@@ -54,29 +55,29 @@ The technical editor lets you add any UI Builder component to your dashboard. Yo
 
     Layouts organize container content in patterns.
 
-    -   Choose **Grid** to specify the number of rows and columns in the selected container. For more information, see [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/css-grid-uib.md).
-    -   Choose **Flexbox** for more flexibility in the layouts between containers. For more information, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/flexbox-uib.md).
+    -   Choose **Grid** to specify the number of rows and columns in the selected container. For more information, see [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/css-grid-uib.md).
+    -   Choose **Flexbox** for more flexibility in the layouts between containers. For more information, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flexbox-uib.md).
 8.  Add a component to the container.
 
     Select it from the **Components** menu on the left or click the Add content \(**+**\) icon in the staging area.
 
     The **Configure** panel on the right enables you to configure the component you’ve chosen.
 
-    ![Component menu in UI Builder.](../../par-for-workspace/image/dashboard-add-component.png)
+    \[Omitted image "dashboard-add-component.png"\] Alt text: Component menu in UI Builder.
 
 9.  Add more containers, components, and configurations.
 
-10. If you have added a data visualization component and you want viewers to drill down to a more detailed data view from that component, follow the instructions in [Add a drilldown event to a data visualization on a technical dashboard](add-custom-drilldown-event.md).
+10. If you have added a data visualization component and you want viewers to drill down to a more detailed data view from that component, follow the instructions in [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-custom-drilldown-event.md).
 
 11. Click **Save** at any time to save the changes you've made to the dashboard.
 
 
-**Parent Topic:**[Technical dashboards](../../performance-analytics/concept/technical-dashboards.md)
+**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md)
 
 **Related topics**  
 
 
-[Data visualizations in Platform Analytics](../../performance-analytics/concept/analytics-center-data-visualizations.md)
+[Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md)
 
-[Filters in Platform Analytics](../../par-for-workspace/concept/interactive-filters-workspace.md)
+[Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters-workspace.md)
 

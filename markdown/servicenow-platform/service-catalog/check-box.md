@@ -2,6 +2,7 @@
 title: Check box
 description: The check box variable lets you enable and disable options by selecting and clearing it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/check-box.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -40,64 +41,64 @@ Under the **Type Specifications** tab, you can specify the price in different cu
 -   Fixed
 -   Multiple
 
-For information on the pricing models, see [Price fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/price-fields.md) .
+For information on the pricing models, see [Price fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/price-fields.md) .
 
-![A check box variable](../image/VariableCheckBoxG.png "Example: check box variable")
+\[Omitted image "VariableCheckBoxG.png"\] Alt text: A check box variable
 
-**Parent Topic:**[Types of service catalog variables](r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
 
-[Attachment](attachment.md)
+[Attachment]()
 
-[Break](break.md)
+[Break]()
 
-[Container start, container split, and container end](contain-start-split-end.md)
+[Container start, container split, and container end]()
 
-[Date, Date and time, and Duration](date.md)
+[Date, Date and time, and Duration]()
 
-[Email](email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
 
-[HTML](html.md)
+[HTML]()
 
-[IP Address](ip-address.md)
+[IP Address]()
 
-[Label](label.md)
+[Label]()
 
-[List collector](list-collector.md)
+[List collector]()
 
-[Lookup multiple choice](lookup-multiple-choice.md)
+[Lookup multiple choice]()
 
-[Lookup select box](lookup-select-box.md)
+[Lookup select box]()
 
-[Custom and Custom with label](custom.md)
+[Custom and Custom with label]()
 
-[Masked](masked.md)
+[Masked]()
 
-[Multi-line text](multi-line.md)
+[Multi-line text]()
 
-[Multiple choice](multiple-choice.md)
+[Multiple choice]()
 
-[Numeric scale](numeric-scale.md)
+[Numeric scale]()
 
-[Reference](reference.md)
+[Reference]()
 
-[Requested for](requested-for.md)
+[Requested for]()
 
-[Rich Text Label](rich-text-label.md)
+[Rich Text Label]()
 
-[Select box](select-box.md)
+[Select box]()
 
-[Single-line text](single-line-text.md)
+[Single-line text]()
 
-[UI page](ui-page.md)
+[UI page]()
 
-[URL](url.md)
+[URL]()
 
-[Wide single-line text](wide-single-line-text.md)
+[Wide single-line text]()
 
-[Yes/No](yes-no.md)
+[Yes/No]()
 
-[Variable support in various channels](variables-availability.md)
+[Variable support in various channels]()
 

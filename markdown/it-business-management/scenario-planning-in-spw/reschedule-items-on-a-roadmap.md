@@ -2,6 +2,7 @@
 title: Reschedule roadmap items
 description: Update the planned dates of your roadmap items to account for any changes in your scheduling priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/reschedule-items-on-a-roadmap.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -23,15 +24,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d53145e70">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d55214e70">
 
 Roadmap type
 
-</th><th align="left" id="d53145e73">
+</th><th align="left" id="d55214e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d53145e79">
+</th></tr></thead><tbody><tr><td id="d55214e79">
 
 **Portfolio plan roadmap**
 
@@ -41,7 +42,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d53145e100">
+</td></tr><tr><td id="d55214e100">
 
 **Free-form roadmap**
 
@@ -58,15 +59,15 @@ From the Free-form Roadmaps tab, select a roadmap.
     -   When the dates of a project are changed along the roadmap, the changes are updated in the project record in the Project \[pm\_project\] table.
 3.  To reschedule the roadmap item, drag and drop the item to a timeline area of your choice.
 
-    ![Update planned dates of a roadmap item.](../images/update-roadmap-item.gif)
+    \[Omitted image "update-roadmap-item.gif"\] Alt text: Update planned dates of a roadmap item.
 
 
-**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](../concept/roadmaps-in-alignment-planner-workspace.md)
+**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
 
 **Related topics**  
 
 
-[Add milestones for a roadmap](create-milestones-on-roadmap.md)
+[Add milestones for a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md)
 
-[Add milestones for roadmap items](create-planning-item-milestones.md)
+[Add milestones for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.md)
 

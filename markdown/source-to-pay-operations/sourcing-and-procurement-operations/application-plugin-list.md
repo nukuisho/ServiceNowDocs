@@ -2,13 +2,14 @@
 title: Application plugin installation sequence in Sourcing and Procurement Operations
 description: The following table lists the Sourcing and Procurement Operations \(SPO\) plugins, their installation sequence, high-level descriptions, and dependencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
-breadcrumb: [Install Sourcing and Procurement Operations, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+reading_time_minutes: 7
+breadcrumb: [Install Finance Common, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Application plugin installation sequence in Sourcing and Procurement Operations
@@ -39,7 +40,7 @@ Plugin dependencies
 
 </td><td>
 
-Finance Common Architecture\[sn\_fin\]
+Finance Common Architecture \[sn\_fin\]
 
 </td><td>
 
@@ -50,7 +51,6 @@ Maintains primary data such as Enterprise Resource Planning \(ERP\) sources, leg
 -   Finance Applications – Common Dependencies
 -   Fiscal Calendar
 -   Scoped Application Restricted Caller Access
--   Scoped Application Restricted Caller Access
 -   Insert Multiple web service
 -   Document Templates
 
@@ -60,7 +60,7 @@ Maintains primary data such as Enterprise Resource Planning \(ERP\) sources, leg
 
 </td><td>
 
-ERP Integration Framework\[sn\_fcms\_intg\]
+ERP Integration Framework \[sn\_fcms\_intg\]
 
 </td><td>
 
@@ -68,7 +68,7 @@ Provides integration support between the Platform and common ERP systems.
 
 </td><td>
 
--   Scope Application Restricted Caller Access
+-   Scoped Application Restricted Caller Access
 -   Insert Multiple Web Service
 
 </td></tr><tr><td>
@@ -77,7 +77,7 @@ Provides integration support between the Platform and common ERP systems.
 
 </td><td>
 
-Common Service Delivery\[sn\_spend\_sdc\]
+Common Service Delivery \[sn\_spend\_sdc\]
 
 </td><td>
 
@@ -95,7 +95,23 @@ Contains Finance Case, Finance Case Line, Finance Task, and Playbook status tabl
 
 </td><td>
 
-Procurement Case Management\[sn\_spend\_psd\]
+Source-to-Pay Workspace \[sn\_spend\_workspace\]
+
+</td><td>
+
+Provides a single environment for Procurement Specialists to work on purchase requisitions, sourcing requests, negotiations, procurement requests, and more.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+5
+
+</td><td>
+
+Procurement Case Management \[sn\_spend\_psd\]
 
 </td><td>
 
@@ -108,27 +124,28 @@ Enables all employees to request services from the procurement team, and the pro
 
 </td></tr><tr><td>
 
-5
-
-</td><td>
-
-Source-to-Pay Workspace\[sn\_spend\_workspace\]
-
-</td><td>
-
-Provides a single environment for Procurement Specialists to work on purchase requisitions, sourcing requests, negotiations, procurement requests, and more.
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
 6
 
 </td><td>
 
-Source-to-Pay Common Architecture\[sn\_shop\]
+Universal Request for Source-to-Pay Operations \[sn\_fsc\_ur\_common\]
+
+</td><td>
+
+Extends the Universal Request framework to source-to-pay operations, providing a common request-intake and handling layer for source-to-pay workflows.
+
+</td><td>
+
+-   Universal Request
+-   Procurement Case Management
+
+</td></tr><tr><td>
+
+7
+
+</td><td>
+
+Source-to-Pay Common Architecture \[sn\_shop\]
 
 </td><td>
 
@@ -146,11 +163,11 @@ Provides an architecture to store purchase orders, requisitions, sourcing reques
 
 </td></tr><tr><td>
 
-7
+8
 
 </td><td>
 
-Sourcing and Purchasing Automation\[sn\_pr\]
+Sourcing and Purchasing Automation \[sn\_pr\]
 
 </td><td>
 
@@ -163,11 +180,59 @@ Provides workflows and automation for sourcing requests, negotiations, and purch
 
 </td></tr><tr><td>
 
-8
+9
 
 </td><td>
 
-Shopping Hub\[sn\_spend\_uib\]
+Spend and Savings Management \[sn\_spend\_mgmt\]
+
+</td><td>
+
+Enables category managers to import and manage their organization's category taxonomy. By incorporating this taxonomy into the ServiceNow system, category managers can streamline procurement processes, track spending, and evaluate savings more effectively at the category level.
+
+</td><td>
+
+Sourcing and Purchasing Automation
+
+</td></tr><tr><td>
+
+10
+
+</td><td>
+
+Sourcing Pipeline Management \[sn\_spend\_pipeline\]
+
+</td><td>
+
+Provides a centralized framework for creating, tracking, and executing sourcing initiatives through pipeline projects. It enhances efficiency through automated workflows, improves visibility into project progress, and simplifies savings tracking and forecasting.
+
+</td><td>
+
+Spend and Savings Management
+
+</td></tr><tr><td>
+
+11
+
+</td><td>
+
+Purchase Order Management \[sn\_poem\_core\]
+
+</td><td>
+
+Enables operational buyers and suppliers to flag purchase order issues and resolve them efficiently.
+
+</td><td>
+
+Sourcing and Purchasing Automation
+
+</td></tr><tr><td>
+
+12
+
+</td><td>
+
+Shopping Hub \[sn\_spend\_uib\]
 
 </td><td>
 
@@ -178,14 +243,13 @@ Provides a streamlined, e-commerce like experience for employees to self-service
 -   Sourcing and Purchasing Automation
 -   Common UIB Wrapper Components
 
-
 </td></tr><tr><td>
 
-9
+13
 
 </td><td>
 
-Shopping Hub Mobile\[sn\_shop\_mobile\]
+Shopping Hub Mobile \[sn\_shop\_mobile\]
 
 </td><td>
 
@@ -199,11 +263,11 @@ Enables Shopping Hub and other employee experiences for procurement within the N
 
 </td></tr><tr><td>
 
-10
+14
 
 </td><td>
 
-Playbooks for Sourcing and Procurement Operations\[sn\_spend\_cp\]
+Playbooks for Sourcing and Procurement Operations \[sn\_spend\_cp\]
 
 </td><td>
 
@@ -216,11 +280,11 @@ Provides a set of prebuilt playbooks, workflows, and experiences for employees, 
 
 </td></tr><tr><td>
 
-11
+15
 
 </td><td>
 
-Virtual Agent for Sourcing and Procurement Operations\[sn\_shop\_va\]
+Virtual Agent for Sourcing and Procurement Operations \[sn\_shop\_va\]
 
 </td><td>
 
@@ -233,11 +297,11 @@ Provides preconfigured topics for sourcing and procurement within a conversation
 
 </td></tr><tr><td>
 
-12
+16
 
 </td><td>
 
-Natural Language Understanding Models for Sourcing and Procurement Operations\[sn\_spend\_nlu\]
+Natural Language Understanding Models for Sourcing and Procurement Operations \[sn\_spend\_nlu\]
 
 </td><td>
 
@@ -251,11 +315,11 @@ Provides Natural Language Understanding \(NLU\) models to enhance the virtual ag
 
 </td></tr><tr><td>
 
-13
+17
 
 </td><td>
 
-Source-to-Pay Integration Framework\[sn\_spend\_intg\]
+Source-to-Pay Integration Framework \[sn\_spend\_intg\]
 
 </td><td>
 
@@ -267,15 +331,15 @@ Source-to-Pay Common Architecture
 
 </td></tr><tr><td>
 
-14
+18
 
 </td><td>
 
-Procurement File Transfer Framework\[sn\_spend\_ftp\_intg\]
+Procurement File Transfer Framework \[sn\_spend\_ftp\_intg\]
 
 </td><td>
 
-Extends the Source-to-Pay Integration Framework with Secure File Transfer Protocol \(SFTP\) and File Transfer Protocol \(FTP\) functionality, designed for integrating with systems that don’t support Representational State Transfer \(REST\) or Simple Object Access Protocol \(SOAP\) based integration methods.
+Extends the Source-to-Pay Integration Framework with Secure File Transfer Protocol \(SFTP\) and File Transfer Protocol \(FTP\) functionality, designed for integrating with systems that don't support Representational State Transfer \(REST\) or Simple Object Access Protocol \(SOAP\) based integration methods.
 
 </td><td>
 
@@ -286,11 +350,11 @@ Extends the Source-to-Pay Integration Framework with Secure File Transfer Protoc
 
 </td></tr><tr><td>
 
-15
+19
 
 </td><td>
 
-Performance Analytics for Sourcing and Procurement Operations\[sn\_spend\_pa\]
+Performance Analytics for Sourcing and Procurement Operations \[sn\_spend\_pa\]
 
 </td><td>
 
@@ -303,11 +367,11 @@ Provides a set of preconfigured metrics and dashboards to assess spend, operatio
 
 </td></tr><tr><td>
 
-16
+20
 
 </td><td>
 
-Risk Assessments Integration for Sourcing and Procurement Operations\[sn\_spend\_vrm\]
+Risk Assessments Integration for Sourcing and Procurement Operations \[sn\_spend\_vrm\]
 
 </td><td>
 
@@ -320,11 +384,11 @@ Provides a set of capabilities to trigger risk assessments on a supplier during 
 
 </td></tr><tr><td>
 
-17
+21
 
 </td><td>
 
-Project Costing for Sourcing and Procurement Operations\[sn\_spend\_ppm\]
+Project Costing for Sourcing and Procurement Operations \[sn\_spend\_ppm\]
 
 </td><td>
 
@@ -337,15 +401,15 @@ Provides a set of capabilities to automate the calculation of planned versus act
 
 </td></tr><tr><td>
 
-18
+22
 
 </td><td>
 
-Source-to-Pay Operations with Contract Management Pro\[sn\_spend\_clm\]
+Source-to-Pay Operations with Contract Management Pro \[sn\_spend\_clm\]
 
 </td><td>
 
-Provides streamlined cross-team collaboration and enables legal professionals to run their contracting work within the sourcing and purchasing process.​ With this integration, procurement specialists can initiate contract requests manually throughout the sourcing and purchasing process.
+Provides streamlined cross-team collaboration and enables legal professionals to run their contracting work within the sourcing and purchasing process. With this integration, procurement specialists can initiate contract requests manually throughout the sourcing and purchasing process.
 
 </td><td>
 
@@ -354,28 +418,62 @@ Provides streamlined cross-team collaboration and enables legal professionals to
 
 </td></tr><tr><td>
 
-19
+23
 
 </td><td>
 
-Now Assist for Sourcing and Procurement Operations \(SPO\)\[sn\_spend\_gen\_ai\]
+Now Assist for FSC Common \[sn\_fsc\_genai\]
 
 </td><td>
 
-Uses procurement-related topics to route requesters to the appropriate intake channels, and then through conversation, helps to submit their requests.
+Enables fulfillers and requesters to quickly summarize cases, including procurement, supplier, and invoice records, to stay informed of progress and next steps.
+
+</td><td>
+
+Now Assist for Platform
+
+</td></tr><tr><td>
+
+24
+
+</td><td>
+
+Now Assist for Purchase Order Management \[sn\_poem\_gen\_ai\]
+
+</td><td>
+
+Supports purchase order management tasks, such as converting unstructured supplier emails into a prioritized list of exceptions and providing a conversational experience to mitigate purchase order exceptions.
+
+</td><td>
+
+-   Now Assist for FSC Common
+-   Purchase Order Management
+
+</td></tr><tr><td>
+
+25
+
+</td><td>
+
+Now Assist for Sourcing and Procurement Operations \(SPO\) \[sn\_spend\_gen\_ai\]
+
+</td><td>
+
+Guides requesters through a conversational experience for their procurement needs.
 
 </td><td>
 
 -   Now Assist for Platform
 -   Sourcing and Purchasing Automation
+-   Now Assist for FSC Common
 
 </td></tr><tr><td>
 
-20
+26
 
 </td><td>
 
-Advanced Work Assignment for Source-to-Pay Operations\[sn\_spend\_awa\]
+Advanced Work Assignment for Source-to-Pay Operations \[sn\_spend\_awa\]
 
 </td><td>
 
@@ -389,11 +487,11 @@ Provides configurations to support automatic routing, queuing, and assignment of
 
 </td></tr><tr><td>
 
-21
+27
 
 </td><td>
 
-Process Mining for Source-to-Pay Operations\[sn\_s2p\_mining\]
+Process Mining for Source-to-Pay Operations \[sn\_s2p\_mining\]
 
 </td><td>
 
@@ -405,11 +503,11 @@ Source-to-Pay Common Architecture
 
 </td></tr><tr><td>
 
-22
+28
 
 </td><td>
 
-Primary Data Integration with SAP\[sn\_sap\_data\_int\]
+Primary Data Integration with SAP \[sn\_sap\_data\_int\]
 
 </td><td>
 
@@ -428,11 +526,11 @@ Provides the ability to fetch entity data like legal entity, cost center, materi
 
 </td></tr><tr><td>
 
-23
+29
 
 </td><td>
 
-Sourcing and Procurement Operations Integration with SAP\[sn\_psm\_sap\_int\]
+Sourcing and Procurement Operations Integration with SAP \[sn\_psm\_sap\_int\]
 
 </td><td>
 
@@ -448,11 +546,11 @@ Provides the ability to send purchase orders, receipts, and returns created in S
 
 </td></tr><tr><td>
 
-24
+30
 
 </td><td>
 
-Procurement for Field Service Managementsn\_fsm\_psm\_mobile
+Procurement for Field Service Management \[sn\_fsm\_psm\_mobile\]
 
 </td><td>
 
@@ -465,18 +563,18 @@ Provides an integration with the Field Service Management application. With this
 -   Shopping Hub Mobile
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+</table>**Parent Topic:**[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 
 **Related topics**  
 
 
-[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 
-[Components installed with Sourcing and Procurement Operations](installed-with-FSC.md)
+[Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md)
 
-[Components installed with ERP Integration Framework](installed-with-FSC-ERP.md)
+[Components installed with ERP Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/installed-with-FSC-ERP.md)
 
-[Components installed with Finance Common Architecture](installed-with-finance-common.md)
+[Components installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/installed-with-finance-common.md)
 
-[Properties installed with Finance Common Architecture](properties-for-finance-common.md)
+[Properties installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/properties-for-finance-common.md)
 

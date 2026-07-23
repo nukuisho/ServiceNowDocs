@@ -2,6 +2,7 @@
 title: Remove a collaborator
 description: Remove an existing collaborator if you don’t want to know they routine anymore.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/remove-a-collaborator.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -23,11 +24,11 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the employee presence dashboard.
 
-    For more information, see the steps mentioned [here](set-in-office-days.md#choicetable_presence_dashboard).
+    For more information, see the steps mentioned [here](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/set-in-office-days.md).
 
 2.  On the Presence dashboard page, select **Manage your settings** to open the Add Routine window.
 
-3.  In the Collaborators section, under Selected Collaborators, remove a collaborator by selecting the Remove collaborator icon \(![Remove assignment icon.](../../workplace-central/images/remove-assignment.png)\).
+3.  In the Collaborators section, under Selected Collaborators, remove a collaborator by selecting the Remove collaborator icon \(\[Omitted image "remove-assignment.png"\] Alt text: Remove assignment icon.\).
 
 4.  In the confirmation window, select **Yes, remove**.
 
@@ -36,18 +37,18 @@ Role required: sn\_wsd\_core.workplace\_user
 
 The collaborator is removed from your routine.
 
-**Parent Topic:**[Set Employee Presence](../concept/use-workplace-concierge.md)
+**Parent Topic:**[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 
 **Related topics**  
 
 
-[Set in-office days](set-in-office-days.md)
+[Set in-office days]()
 
-[Add a collaborator](add-a-collaborator.md)
+[Add a collaborator]()
 
-[Update your in-office days](update-your-in-office-days.md)
+[Update your in-office days]()
 
-[Update your in-office days as exceptions](update-in-office-days-exceptions.md)
+[Update your in-office days as exceptions]()
 
-[Managing presence privacy settings](../concept/manage-presence-privacy-settings.md#)
+[Managing presence privacy settings]()
 

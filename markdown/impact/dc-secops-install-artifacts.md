@@ -2,11 +2,12 @@
 title: Review SecOps artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-secops-install-artifacts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Impact Value Management Data Collection Content Pack for SecOps, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for SecOps, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Review SecOps artifacts
@@ -71,4 +72,6 @@ The app contains the following artifacts for each of the above-specified artifac
 |Automated|Impact VM - \# of non critical \(P3, P4, P5\) vulnerable items this month|
 |Formula|Impact VM - Mean time to close SI \(days\)|
 |Automated|Impact VM - Summed duration of closed security incident|
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-secops.md)
 

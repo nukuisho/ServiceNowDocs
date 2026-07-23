@@ -2,6 +2,7 @@
 title: Now Assist for Code roles
 description: Understand the roles needed to use Now Assist for Code. These roles are created when Now Assist for Creator is installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/now-assist-code-roles.html
 release: australia
 product: Scripts
 classification: scripts
@@ -38,5 +39,5 @@ Manage the preferences and configurations for Now Assist for Code.
     None
 
 
-**Parent Topic:**[Now Assist for Code reference](../concept/now-assist-code-reference.md)
+**Parent Topic:**[Now Assist for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/now-assist-code-reference.md)
 

@@ -2,6 +2,7 @@
 title: Add a TRM product in Enterprise Architecture Workspace
 description: As an Enterprise Architect, you can add a new TRM product to the TRM library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-trm-prod-lifecycle.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,41 +24,41 @@ Role required: sn\_apm.apm\_analyst
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon ![Technology portfolio icon](../../image/eaw-image/technology-portfolio-icon.png).
+2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon \[Omitted image "technology-portfolio-icon.png"\] Alt text: Technology portfolio icon.
 
-3.  Select the TRM more actions icon ![TRM more actions icon](../../image/eaw-image/trm-more-actions-icon.png) next to **Request TRM product**.
+3.  Select the TRM more actions icon \[Omitted image "trm-more-actions-icon.png"\] Alt text: TRM more actions icon next to **Request TRM product**.
 
 4.  Select **Create TRM Product**.
 
 5.  On the form, fill in the fields.
 
-    For field information, see [Create new TRM product form](../../reference/eaw-reference/eaw-new-trm-prod-form.md).
+    For field information, see [Create TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-new-trm-prod-form.md).
 
 6.  Select **Create**.
 
 
-**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](../../concept/eaw-concept/eaw-work-with-trm.md)
+**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
 
 **Related topics**  
 
 
-[View TRM technical debts](view-trm-tech-debt.md)
+[View TRM technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-trm-tech-debt.md)
 
-[View all TRM phases](eaw-view-all-trm-phases.md)
+[View all TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-trm-phases.md)
 
-[View all TRM categories](view-all-trm-categories.md)
+[View all TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-all-trm-categories.md)
 
-[View all TRM products](eaw-view-all-trm-products.md)
+[View all TRM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-trm-products.md)
 
-[Run a scheduled job to update TRM technical debt data in EA Workspace](eaw-run-job-trm-tech-debts.md)
+[Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
 
-[Request a TRM product](eaw-request-a-trm-products.md)
+[Request a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-a-trm-products.md)
 
-[View all TRM products grouped by product category](eaw-view-all-trm-products-grouped-by-product-category.md)
+[View all TRM products grouped by product category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-trm-products-grouped-by-product-category.md)
 
-[Request a TRM product lifecycle](eaw-request-a-trm-product-lifecycle.md)
+[Request a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-request-a-trm-product-lifecycle.md)
 
-[Associate an Architectural Artifact to a TRM product](eaw-assoicate-artifact-trm-prod.md)
+[Associate an Architectural Artifact to a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-trm-prod.md)
 
-[Add a TRM product lifecycle](eaw-create-trm-prod-lifecycle-req.md)
+[Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
 

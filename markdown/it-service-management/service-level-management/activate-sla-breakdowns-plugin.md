@@ -2,6 +2,7 @@
 title: Activate SLA Breakdown definitions
 description: You can activate the SLA Breakdowns plugin \(com.snc.sla.breakdowns\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/activate-sla-breakdowns-plugin.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -54,22 +55,22 @@ Provides the core SLA functionality.SLA Definitions provide conditions to start,
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
--   **[Installed with SLA breakdown definitions](installed-with-sla-breakdowns.md#)**  
+-   **[Installed with SLA breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/installed-with-sla-breakdowns.md)**  
 Several types of components are installed with the SLA breakdown definitions.
 
-**Parent Topic:**[Service Level Management plugins](../concept/sla-plugins.md)
+**Parent Topic:**[Service Level Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/sla-plugins.md)
 
 **Related topics**  
 
 
-[Activate Service Level Management](../task/activate-sla-plugin.md)
+[Activate Service Level Management]()
 
-[Activate SLA timeline](../task/t_ActivateSLATimeline.md)
+[Activate SLA timeline]()
 
-[Activate Service Level Management - SLA Timer Config API](../task/activate-sla-timer-config-api.md)
+[Activate Service Level Management - SLA Timer Config API]()
 
 [List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

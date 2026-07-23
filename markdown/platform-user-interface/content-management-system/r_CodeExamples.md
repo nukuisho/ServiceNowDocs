@@ -2,6 +2,7 @@
 title: Content management and Jelly code examples
 description: Code examples
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/r\_CodeExamples.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -66,10 +67,10 @@ Code examples
     ```
 
 
-**Parent Topic:**[Content Management and the Apache Jelly engine](r_ContentManagementAndJelly.md)
+**Parent Topic:**[Content Management and the Apache Jelly engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_ContentManagementAndJelly.md)
 
 **Related topics**  
 
 
-[Content Management and the Apache Jelly engine](r_ContentManagementAndJelly.md)
+[Content Management and the Apache Jelly engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_ContentManagementAndJelly.md)
 

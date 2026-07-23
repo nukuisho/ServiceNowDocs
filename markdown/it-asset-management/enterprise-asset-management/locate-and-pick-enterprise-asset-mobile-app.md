@@ -2,13 +2,14 @@
 title: Locate and pick the enterprise assets in your stockroom using the Mobile Agent application
 description: Locate an enterprise asset placed in a specific aisle and space in the stockroom by using indoor maps. After locating the asset, pick and drop off the asset to another location within the stockroom using the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/locate-and-pick-enterprise-asset-mobile-app.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage enterprise asset pick tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage enterprise asset pick tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Locate and pick the enterprise assets in your stockroom using the Mobile Agent application
@@ -33,8 +34,8 @@ Role required: inventory\_user
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon ![](../image/filter-mobile-task-eam.png) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon ![](../image/filter-mobile-task-eam.png), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text: and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:, tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the Asset pick task for which you have started work.
 
 6.  To locate the enterprise asset in the stockroom, on the **Details** tab, tap **Locate**.

@@ -2,13 +2,14 @@
 title: Submit workplace contract for review in Core UI
 description: You can send a contract that is in Draft state for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/submit-lease-contract-review.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with Workplace Lease Administration from the Core UI, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Working with Workplace Lease Administration from the Core UI, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Submit workplace contract for review in Core UI
@@ -34,12 +35,12 @@ Role required: sn\_wsd\_la.manager or sn\_wsd\_la.admin
 
 An email message is sent to the selected approver and the contract substate changes to Under Review.
 
-**Parent Topic:**[Working with Workplace Lease Administration from the Core UI](../concept/use-lease-admin-core-ui.md)
+**Parent Topic:**[Working with Workplace Lease Administration from the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/use-lease-admin-core-ui.md)
 
 **Related topics**  
 
 
-[Create workplace contracts in Core UI](create-lease-contracts.md)
+[Create workplace contracts in Core UI]()
 
-[Approve or reject a workplace contract in Core UI](approve-lease-contract.md)
+[Approve or reject a workplace contract in Core UI]()
 

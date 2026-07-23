@@ -2,6 +2,7 @@
 title: Define exporters in DevOps Config
 description: Define exporters in DevOps Config to export config data from all or part of the data model as input for further deployment or provisioning activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-define-exporters.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ Define exporters in DevOps Config to export config data from all or part of the 
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: sn\_devops\_config.admin
 
@@ -27,7 +28,7 @@ Role required: sn\_devops\_config.admin
 
 2.  Select a default exporter or select **New** to create a custom exporter.
 
-    See [Create a custom exporter](../../configuration-data-management/task/cdm-exporter-create-custom.md) for details.
+    See [Create a custom exporter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-exporter-create-custom.md) for details.
 
 3.  Enter the exporter name and description and then click **Confirm**.
 
@@ -35,5 +36,5 @@ Role required: sn\_devops\_config.admin
 **Related topics**  
 
 
-[Default DevOps Config exporters](../reference/devops-config-default-exporters.md)
+[Default DevOps Config exporters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-default-exporters.md)
 

@@ -2,6 +2,7 @@
 title: Care Team Operations for Facilities
 description: Care Team Operations for Facilities contains the case types to report and fulfill facilities support issues in hospitals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-facilities-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -17,28 +18,28 @@ Care Team Operations for Facilities contains the case types to report and fulfil
 
 <table id="table_vhd_qkh_52c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how care teams use Care Team Operations for Facilities.](cto-facilities-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how care teams use Care Team Operations for Facilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-exploring.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation.](cto-facilities-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-configuring.md)
 
 </td><td>
 
-[Request![](../../../reuse/icons/brand-icons/bus-manage.svg)Create operational support requests for your Healthcare Facilities department.](cto-facilities-create-request.md)
+[Request\[Omitted image "bus-manage.svg"\] Alt text:Create operational support requests for your Healthcare Facilities department.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-create-request.md)
 
 </td></tr><tr><td>
 
-[Resolve![](../../../reuse/icons/brand-icons/bus-checkmark-circle.svg)Resolve support requests in the form of cases or work orders.](cto-facilities-fulfilling-requests.md)
+[Resolve\[Omitted image "bus-checkmark-circle.svg"\] Alt text:Resolve support requests in the form of cases or work orders.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-fulfilling-requests.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components like fields, tables, and properties.](cto-facilities-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-facilities-reference.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>
+</table>\[Omitted video\]
 

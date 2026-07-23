@@ -2,6 +2,7 @@
 title: Roles installed with Public Sector Digital Services
 description: The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, and establish different types of relationships between users. These roles control access to public sector data through UI-based features such as forms and lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/roles-installed-with-public-sector-digital-services.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Roles and personas help you to understand the different roles involved in Public
 
 Public Sector Digital Services supports users with the following basic job functions \(personas\). Personas are defined as the individual roles that perform different tasks in Public Sector Digital Services.
 
-The following graphic shows the most common personas used throughout Public Sector Digital Services. ![Common Public Sector Digital Services personas](../image/PSDS_user_personas.png)
+The following graphic shows the most common personas used throughout Public Sector Digital Services. \[Omitted image "PSDS\_user\_personas.png"\] Alt text: Common Public Sector Digital Services personas
 
 <table id="table_qcv_ktt_ytb"><thead><tr><th>
 
@@ -578,6 +579,8 @@ Enables business stakeholders to raise government service cases on behalf of cus
 </td></tr></tbody>
 </table>## Roles by Application
 
+**Note:** Service Request Playbook does not contain roles that are separate from Public Sector Digital Services Core.
+
 <table id="icm-Roles"><thead><tr><th>
 
 Role title \[name\]
@@ -795,7 +798,14 @@ Provides write access to all the events which the user has access to.
 sn\_gsm\_icm.event\_viewer
 
 </td></tr></tbody>
-</table><table id="gm-roles"><thead><tr><th>
+</table>|Role title \[name\]|Description|Contains roles|
+|-------------------|-----------|--------------|
+| | | |
+| | | |
+| | | |
+| | | |
+
+<table id="gm-roles"><thead><tr><th>
 
 Role title \[name\]
 
@@ -2721,5 +2731,5 @@ None
 </td></tr></tbody>
 </table>**Note:** Customers who have purchased a Public Sector Digital Services subscription can provide Business Stakeholder users with rights to actions listed under [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/business-stakeholder-for-csm.md).
 
-**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](installed-with-public-sector-digital-services-core.md)
+**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/installed-with-public-sector-digital-services-core.md)
 

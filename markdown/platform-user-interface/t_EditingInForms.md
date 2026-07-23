@@ -2,6 +2,7 @@
 title: Edit a form
 description: You can edit a record in the form view. You can also insert a record, apply a template, and cancel changes to the record.Insert provides a method for creating multiple similar items, such as email notifications, users, groups, or business rules.Your organization may use templates to help with frequently requested tasks. A template contains prepopulated fields that default when the template is selected.Cancel changes to a form by navigating away from the form without saving.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_EditingInForms.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,12 +32,12 @@ Role required: none
 
     -   Click **Submit** or **Update** to save changes and return to the previously viewed page.
     -   Right-click the form header and select **Save** to save changes without leaving form view.
-    On Core UI forms, fields update dynamically and display a field update icon ![Field update icon](../image/FieldUpdateIconU16.png) to indicate changes made by other users. You can point to the field update icon to see which user made the update. This dynamic indication helps to prevent users from accidentally overwriting each other's work.
+    On Core UI forms, fields update dynamically and display a field update icon \[Omitted image "FieldUpdateIconU16.png"\] Alt text: Field update icon to indicate changes made by other users. You can point to the field update icon to see which user made the update. This dynamic indication helps to prevent users from accidentally overwriting each other's work.
 
     **Note:** If you entered a different value from the value saved by the other user, the system does not update the field automatically. Change your value manually to match value entered by the other user. Otherwise, you overwrite the change when you save the record.
 
 
-**Parent Topic:**[Forms in the classic environment](../concept/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
 
 ## Insert a record
 
@@ -58,7 +59,7 @@ Administrators can enable the **Insert** function for task records. For more inf
 
 3.  Right-click the form header and select one of the following options.
 
-<table id="choicetable_sdh_h2c_br"><tbody><tr><td id="d140035e223">
+<table id="choicetable_sdh_h2c_br"><tbody><tr><td id="d140191e223">
 
 **Insert**
 
@@ -66,7 +67,7 @@ Administrators can enable the **Insert** function for task records. For more inf
 
 Saves the item as a new record and returns to the previously viewed page.
 
-</td></tr><tr><td id="d140035e232">
+</td></tr><tr><td id="d140191e232">
 
 **Insert and Stay**
 
@@ -75,7 +76,7 @@ Saves the item as a new record and returns to the previously viewed page.
 Saves and views the new record.
 
 </td></tr></tbody>
-</table>    ![Insert options](../image/InsertMenuItem.png)
+</table>    \[Omitted image "InsertMenuItem.png"\] Alt text: Insert options
 
 
 ## Apply a template in a form
@@ -92,7 +93,7 @@ Role required: none
 
 2.  Do the appropriate action for your version of the UI.
 
-    1.  Click the more options icon \(![More options icon](../image/IconUI16MoreOptions.png)\) in the form header.
+    1.  Click the more options icon \(\[Omitted image "IconUI16MoreOptions.png"\] Alt text: More options icon\) in the form header.
 
     2.  Select **Toggle Template Bar**.
 
@@ -108,6 +109,11 @@ Role required: none
 
 5.  Click **Submit** to create the record.
 
+
+**Related topics**  
+
+
+[Toggle the template bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ToggleTheTemplateBar.md)
 
 ## Cancel changes to a form
 

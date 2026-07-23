@@ -2,6 +2,7 @@
 title: Assign a contact to an asset from the customer portal
 description: Users with the customer administrator role can assign a contact to an asset from the customer portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_AssignContactToAssetCustAdmin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,4 +38,11 @@ Role required: sn\_customerservice.customer\_admin
 
     The contact is added to the **Asset Contacts** related list.
 
+
+**Related topics**  
+
+
+[View asset information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewAssetAndProductInformation.md)
+
+[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ManageUsersFromCustomerPortal.md)
 

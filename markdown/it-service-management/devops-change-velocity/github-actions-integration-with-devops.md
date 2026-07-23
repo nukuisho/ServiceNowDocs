@@ -2,11 +2,12 @@
 title: GitHub Actions configurations
 description: Configuration information on GitHub Actions, such as, secrets, workflows, and limitations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/github-actions-integration-with-devops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-04-20"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -19,40 +20,13 @@ Configuration information on GitHub Actions, such as, secrets, workflows, and li
 
 Create secrets \(credentials\) in GitHub repository or GitHub organization. Secrets are environment variables \(encrypted\) that you create in an organization or repository. These secrets are available to use in GitHub Actions workflows. For more information, see [Encrypted secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets).
 
-<table id="table_i1t_zt5_h5b"><thead><tr><th>
+|Secret|Description|
+|------|-----------|
+|SN\_INSTANCE\_URL|ServiceNow instance URL. For example, https://&lt;instance\_name&gt;.service-now.com.|
+|SN\_ORCHESTRATION\_TOOL\_ID|Sys\_id for the GitHub tool created in ServiceNow instance.|
+|SN\_DEVOPS\_INTEGRATION\_TOKEN|Secret token for the GitHub tool created in DevOps \(`devops-integration-token` parameter\). To access your secret token navigate to your GitHub tool record in ServiceNow \(**All &gt; Tools &gt; Orchestration Tools**\), and select **Copy token** in the Classic UI.|
 
-Secret
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-SN\_INSTANCE\_URL
-
-</td><td>
-
-ServiceNow instance URL. For example, https://&lt;instance\_name&gt;.service-now.com.
-
-</td></tr><tr><td>
-
-SN\_ORCHESTRATION\_TOOL\_ID
-
-</td><td>
-
-Sys\_id for the GitHub tool created in ServiceNow instance.
-
-</td></tr><tr><td>
-
-SN\_DEVOPS\_INTEGRATION\_TOKEN
-
-</td><td>
-
-Secret token for the GitHub tool created in DevOps \(`devops-integration-token` parameter\). To access your secret token navigate to your GitHub tool record in ServiceNow \(**All &gt; Tools &gt; Orchestration Tools**\), and select **Copy token** in the Classic UI.**Note:** The SN\_DEVOPS\_INTEGRATION\_TOKEN secret must be manually updated with the new token to ensure successful authentication.
-
-</td></tr></tbody>
-</table>## Workflows in the GitHub repository
+## Workflows in the GitHub repository
 
 Create a YAML file to define workflow configuration in your GitHub repository.
 
@@ -60,23 +34,23 @@ The following points must be considered while defining the workflow:
 
 -   All workflows of your repository must have either a .yml or .yaml file extension. All workflows must be under `.github/workflows` directory and follow the syntax defined in the [Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions).
 
-    ![Workflows in the GitHub Actions tab](../image/integration-with-github-actions-2.jpg)
+    \[Omitted image "integration-with-github-actions-2.jpg"\] Alt text: Workflows in the GitHub Actions tab
 
 -   The name of the workflow must match with the workflow file name.
 
-    ![Name of the worflow must match with the file name](../image/integration-with-github-actions-3.jpg)
+    \[Omitted image "integration-with-github-actions-3.jpg"\] Alt text: Name of the worflow must match with the file name
 
 -   The names of the workflows under **All workflows** on the **Actions** tab must match with the workflows saved under the `.github/workflows` directory of your repository.
 
-    ![Placement of workflow files in the Actions tab](../image/integration-with-github-actions-4.jpg)
+    \[Omitted image "integration-with-github-actions-4.jpg"\] Alt text: Placement of workflow files in the Actions tab
 
 -   A display name must be given for every job and must be unique for every job in the workflow. The job name must match with the stage name in the custom action.
 
-    ![Job name in custom action](../image/github-actions-jobname.png)
+    \[Omitted image "github-actions-jobname.png"\] Alt text: Job name in custom action
 
 -   Use the `workflow_dispatch` event to trigger a workflow manually.
 
-    ![Manually triggering a workflow using an event](../image/integration-with-github-actions-5.jpg)
+    \[Omitted image "integration-with-github-actions-5.jpg"\] Alt text: Manually triggering a workflow using an event
 
 
 ## GitHub Actions workflow run details in DevOps
@@ -106,7 +80,7 @@ Change requests created for GitHub jobs are re-used if the change requests are i
 
 For composite workflows where one workflow calls another workflow and the change step is in the child workflow, the **job-name** parameter for the change step must be of the format `job-name: '<parent-job-name> / <child-job-name>'`. Here the space before and after the forward slash \(/\) is mandatory.
 
-![Sample job-name parameter.](../image/gh-actions-rerun-eg.png "Example of a job-name parameter in the child workflow")
+\[Omitted image "gh-actions-rerun-eg.png"\] Alt text: Sample job-name parameter.
 
 ## GitHub Actions limitations for DevOps Change Velocity integration
 
@@ -122,10 +96,10 @@ For composite workflows where one workflow calls another workflow and the change
 -   Callback URL to pause and resume workflow run from the ServiceNow instance is supported only with GitHub Actions Deployment Gates feature. However, change creation is possible through both deployment gates and GitHub Custom Action.
 -   User who creates GitHub tool in the ServiceNow instance must be a reviewer to approve the workflow for GitHub Environments.
 
-**Parent Topic:**[GitHub integration with DevOps Change Velocity](github-integration-dev-ops.md)
+**Parent Topic:**[GitHub integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/github-integration-dev-ops.md)
 
 **Related topics**  
 
 
-[Configure webhooks in GitHub manually](../task/config-webhooks-github-manually.md)
+[Configure webhooks in GitHub manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-webhooks-github-manually.md)
 

@@ -2,13 +2,14 @@
 title: Configure Soft PIN
 description: Users are required to configure Soft PIN before it can be used for authentication with ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-soft-pin.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [SoftPIN authentication, Configure authentication factors, Authentication factors, Authentication, Access Management]
+breadcrumb: [Soft PIN authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Configure Soft PIN
@@ -19,7 +20,11 @@ Users are required to configure Soft PIN before it can be used for authenticatio
 
 Role required: none
 
-**Note:** Soft PIN enrollment is available to all users and is used exclusively for AI Voice Agent authentication.
+Perform the following:
+
+-   Administrator must enable Soft PIN on the instance before you can enroll.
+-   Install Now Assist for Platform `sn_genai_platform` for activating AI voice agents and set `glide.auth_factors.softpin.enrollment.enabled` property to `true`. To know more, see [Availability in Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/softpin-authentication.md).
+-   The user record must exist in the `sys_user` table.
 
 ## Procedure
 
@@ -27,17 +32,17 @@ Role required: none
 
     -   **Service Portal**: Go to your **User Profile** and select **Enroll Soft PIN**.
 
-        ![Soft PIN on the Service Portal](../images/softpin-3.png "Soft PIN on Service Portal")
+        \[Omitted image "softpin-3.png"\] Alt text: Soft PIN on the Service Portal
 
     -   **Platform UI**: Go to your **User Profile** and select **Enroll Soft PIN** under Related Links.
 
-        ![Soft PIN on the Platform UI](../images/softpin-1.png "Soft PIN on Platform UI")
+        \[Omitted image "softpin-1.png"\] Alt text: Soft PIN on the Platform UI
 
     -   **Navigation menu**: Select **All** &gt; **Authentication Factors** &gt; **Soft PIN** &gt; **Enroll**.
 
-        ![Soft PIN on the Navigation menu](../images/softpin-2.png "Soft PIN on Navigation menu")
+        \[Omitted image "softpin-2.png"\] Alt text: Soft PIN on the Navigation menu
 
-2.  Create a PIN that meets these requirements:
+2.  Specify a six-digit PIN that satisfies the enrollment rules:
 
     Rules for Soft PIN:
 
@@ -45,7 +50,7 @@ Role required: none
     -   No single digit must be repeated more than twice consecutively
     -   Don’t use ascending or descending numeric sequences longer than two digits
     -   Can’t reuse any of your previous five PINs
-    ![Soft PIN Enrollment](../images/configure-soft-pin.png "Soft PIN Enrollment")
+    \[Omitted image "configure-soft-pin.png"\] Alt text: Soft PIN Enrollment
 
 3.  Select **Submit**.
 
@@ -55,4 +60,16 @@ Role required: none
 You can use the submitted Soft PIN to authenticate various ServiceNow system or service. For example, AI voice service.
 
 **Note:** Users are eligible for Soft PIN enrollment only if their user ID is present in **sys\_user** table. If its missing, an enrollment failure message is displayed.
+
+-   **Update your Soft PIN**
+
+    To change your PIN, return to the enrollment page from any of the entry points before and enter a new PIN. The new PIN must satisfy the same rules and can't match any of your previous five PINs. Submitting a new PIN replaces the existing one immediately.
+
+
+**Related topics**  
+
+
+[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/softpin-authentication.md)
+
+[Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authentication-factors.md)
 

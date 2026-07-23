@@ -2,6 +2,7 @@
 title: Navigating the activity feed
 description: The activity feed provides a central place for community users to view information and interact. It lists the most recent activity in the community based on your network, posts, and subscriptions. You can reply, comment, and give feedback directly from the activity feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/navigating-activity-feed.html
 release: australia
 product: Communities
 classification: communities
@@ -23,38 +24,38 @@ The activity feed provides a central place for community users to view informati
 |Feedback|Provide feedback on content that you find useful. There are four supported types of content feedback: comment, upvote, helpful, and mark as correct answer.|
 |Reply|Reply to a question or another reply.|
 
-**Parent Topic:**[Using communities](using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 
 
-[Community homepage features for logged in users](c_communities-service-portal.md)
+[Community homepage features for logged in users]()
 
-[Navigating the forum homepage](forum-homepage.md)
+[Navigating the forum homepage]()
 
-[Community homepage features for non-logged in users](community-homepage-non-logged.md)
+[Community homepage features for non-logged in users]()
 
-[Self-register to a community](../task/register-community.md)
+[Self-register to a community]()
 
-[Search the community](../task/search.md)
+[Search the community]()
 
-[Use a community profile](../task/community-profile.md)
+[Use a community profile]()
 
-[Community subscriptions](c_communities-subscriptions.md)
+[Community subscriptions]()
 
-[Request membership to a forum](../task/request-membership-forum.md)
+[Request membership to a forum]()
 
-[Accept an invitation to join a forum](../task/accept-invitation-forum.md)
+[Accept an invitation to join a forum]()
 
-[Post and respond to content in the community](../task/post-respond-content.md)
+[Post and respond to content in the community]()
 
-[Report inappropriate community content](../task/report-content.md)
+[Report inappropriate community content]()
 
-[Add featured content in a community](../task/feature-community-content.md)
+[Add featured content in a community]()
 
-[Email a community user](../task/private-message-community-user.md)
+[Email a community user]()
 
-[View a list of questions and create a case](../task/case-mgmt-integration-view-list.md)
+[View a list of questions and create a case]()
 
-[Gamification](communities-gamification.md)
+[Gamification]()
 

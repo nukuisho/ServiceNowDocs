@@ -2,6 +2,7 @@
 title: Parallel testing
 description: Reduce test design time by running multiple tests and test suites in parallel. Design tests to run in parallel by avoiding resource conflicts and data dependencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/parallel-testing.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -41,20 +42,20 @@ Run multiple tests and test suites in parallel to reduce test design time. Avoid
 
 Prevent resource conflicts by running tests that create their own data. Tests that run with existing data prevent other tests that need the same data from running in parallel.
 
-**Note:** If you have two or more tests with resource conflicts, see [Mark tests as mutually exclusive](mutual-exclusion-rule.md#section_egk_ztm_thb) to create a mutual exclusion rule that prevents the tests from running in parallel.
+**Note:** If you have two or more tests with resource conflicts, see [Mark tests as mutually exclusive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/mutual-exclusion-rule.md) to create a mutual exclusion rule that prevents the tests from running in parallel.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](atf-test-type-testing.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-type-testing.md)
 
 **Related topics**  
 
 
-[Reusable tests](atf-reuse-tests.md)
+[Reusable tests]()
 
-[Mutually exclusive tests](mutual-exclusion-rule.md)
+[Mutually exclusive tests]()
 
-[Quick start tests](quick-start-tests.md)
+[Quick start tests]()
 
-[Accelerate ATF tests failure resolution](../task/atf-test-triage.md)
+[Accelerate ATF tests failure resolution]()
 
-[Performance profiling](atf-perf-prof.md#)
+[Performance profiling]()
 

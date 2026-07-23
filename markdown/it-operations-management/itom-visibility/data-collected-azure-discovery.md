@@ -2,6 +2,7 @@
 title: Data collected for Microsoft Azure Cloud Discovery
 description: Discovery collects information about cloud resources in Microsoft Azure datacenters. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/data-collected-azure-discovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -18,7 +19,7 @@ Discovery collects information about cloud resources in Microsoft Azure datacent
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -28,11 +29,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Visibility Content
 -   **Create Azure cloud credentials**
 
-    Create Microsoft Azure credentials that can access the Microsoft Azure account. For more information, see [Create Azure cloud credentials](../task/create-azure-cloud-credentials.md).
+    Create Microsoft Azure credentials that can access the Microsoft Azure account. For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-azure-cloud-credentials.md).
 
 -   **Configure a discovery schedule**
 
-    [Create a discovery schedule in Cloud Discovery Workspace](../task/cloud-operations-disco-create-schedule.md)
+    [Create a discovery schedule in Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-operations-disco-create-schedule.md)
 
 
 ## Verify the REST API Permissions
@@ -269,14 +270,16 @@ version**Note:** For NoSQL and MSSQL Managed Instances, the API responses for th
 
 </td></tr><tr><td>
 
-Category
+Category\*
 
 </td><td>
 
 category
 
 </td></tr></tbody>
-</table>|Label|Field Name|
+</table>\* Populated only by the Azure SQL Managed Instance license pattern extension. For more information, see the "Azure SQL Managed Instance license discovery" section in [Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md).
+
+|Label|Field Name|
 |-----|----------|
 |Name|name|
 |Install status|install\_status|
@@ -316,14 +319,14 @@ category
 |Provider|provider|
 |vCPUs|vcpus|
 
-**Parent Topic:**[Cloud resource discovery references](cloud-discovery-collected-data.md)
+**Parent Topic:**[Cloud resource discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/cloud-discovery-collected-data.md)
 
 **Related topics**  
 
 
-[Microsoft Azure Cloud discovery using patterns](../../service-mapping/reference/azure-cloud-discovery-patterns.md)
+[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 
-[Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-azure.md)
+[Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-azure.md)
 
-[Agent Client Collector Discovery](../../agent-client-collector/concept/acc-discovery.md)
+[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-discovery.md)
 

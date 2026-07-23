@@ -2,6 +2,7 @@
 title: Submit a delivery plan change request from a purchase order line
 description: Submit a delivery plan change request directly from a purchase order line in the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/submit-del-plan-chg-from-po-line.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,14 +41,19 @@ Role required: sn\_slm.contact
 
 7.  On the Delivery plan change form, fill in the fields.
 
-    For a description of the field values, see [Delivery plan change form](../reference/create-delivery-plan-change.md).
+    For a description of the field values, see [Delivery plan change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-delivery-plan-change.md).
 
 8.  Select **Submit**.
 
+    The application creates an exception and assigns it to the operational buyer.
 
-## Result
 
-The application creates an exception and assigns it to the operational buyer.
+**Parent Topic:**[Reporting delivery plan issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/reporting-delivery-plan-issues.md)
 
-**Parent Topic:**[Reporting delivery plan issues](../concept/reporting-delivery-plan-issues.md)
+**Related topics**  
+
+
+[Resolving purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/resolving-purchase-order-exceptions.md)
+
+[Delivery plan change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-delivery-plan-change.md)
 

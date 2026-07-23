@@ -2,6 +2,7 @@
 title: Configure chat summarization skill in Now Assist for Public Sector Digital Services \(PSDS\)
 description: Activate and configure the Now Assist for Public Sector Digital Services \(PSDS\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-customize-chat-summ.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ In the Now Assist for PSDS Admin Console, admins can:
 
 2.  In the dropdown, select **Customer** &gt; **PSDS**.
 
-    ![Now Assist Panel showing NA skills and features in PSDS](../image/now-assist-psds-panel.png)
+    \[Omitted image "now-assist-psds-panel.png"\] Alt text: Now Assist Panel showing NA skills and features in PSDS
 
 3.  On the Chat feature card, select **View Details**, then select **Chat Summarization** under Active Skills.
 
@@ -72,7 +73,7 @@ In the Now Assist for PSDS Admin Console, admins can:
 
 12. Review your choices and select **Activate** to complete the skill configuration.
 
-    ![Review and activate step for Now Assist chat summarization.](../image/chat-summarization-activate-now-assist-psds.png)
+    \[Omitted image "chat-summarization-activate-now-assist-psds.png"\] Alt text: Review and activate step for Now Assist chat summarization.
 
 
 ## Result

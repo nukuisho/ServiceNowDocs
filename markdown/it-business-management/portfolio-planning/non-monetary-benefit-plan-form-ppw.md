@@ -2,13 +2,14 @@
 title: Non-monetary benefit plan form
 description: The benefit plan form information is used to create monetary and non-monetary benefit plans for a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/non-monetary-benefit-plan-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Non-monetary benefit plan form

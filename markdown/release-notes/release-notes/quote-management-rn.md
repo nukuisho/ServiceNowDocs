@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 ---
 
 # Quote Management release notes
@@ -19,9 +19,11 @@ The ServiceNow® Quote Management enables your sales agents to generate and mana
 -   Improve quote data consistency by validating contract start and end dates across quote headers, parent lines, and child lines, preventing date conflicts during updates.
 -   Enable greater flexibility in managing amendment quotes by splitting active ramp segments into shorter intervals, adjusting quantities, and maintaining accurate line types throughout the quote life cycle.
 -   Enhance quote approval workflows with automated reminders, escalations, override capabilities, and ad-hoc approvals for greater control and accountability throughout the approval process.
--   [Australia Patch 1](../quality/australia-patch-1.md)Summarize a quote with Now Assist for immediate, comprehensive insights into quote details \(product, pricing, and terms\) to improve quote accuracy, help teams align, reduce manual review, catch issues early, and accelerate quote turnaround.
+-   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)Summarize a quote with Now Assist for immediate, comprehensive insights into quote details \(product, pricing, and terms\) to improve quote accuracy, help teams align, reduce manual review, catch issues early, and accelerate quote turnaround.
+-   Use a conversational AI agent to handle the full spectrum of quoting tasks, from simple line-item updates to complex multi-product configurations, through a single interface.
+-   Improve pricing accuracy on quotes by automatically adding, updating, and removing system-generated lines in response to pricing rule changes, without requiring manual edits.
 
-See [Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management.md) for more information.
+See  for more information.
 
 **Important:** Quote Management is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
@@ -50,7 +52,7 @@ See [Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     Capture the deal type \(Direct or Indirect deals\) and align it with different routes to market for consistency, compliance, and operational efficiency across systems and teams.
 
 
--   **[Australia Patch 1](../quality/australia-patch-1.md)[Summarize a quote using quote summarization with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/summarize-quote.md)**
+-   **[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md)[Summarize a quote using quote summarization with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/summarize-quote.md)**
 
     Generate a summary of a quote to:
 
@@ -60,6 +62,24 @@ See [Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     -   Highlight custom pricing, discounts, and negotiated changes made during the quoting process.
     -   Review the quote prior to sending it to the customer to confirm accuracy and completeness.
     -   Support internal handoffs by summarizing the quoted offer for internal teams.
+
+-   **Transaction Manager Quote AI Agent**
+
+    Use a conversational AI agent to manage quote-level operations directly in Transaction Manager. The agent handles a broad range of quoting tasks through a single interface:
+
+    -   Search for products and match them to your request, then delegate configuration to Config AI for configurable products.
+    -   Update line items and header fields, apply discounts, and trigger events.
+    -   Generate a visible execution plan before acting on complex requests, so you can see what will happen and why.
+    -   Run independent operations in parallel, so multiple configurations can complete simultaneously without blocking other changes.
+
+-   **Derived pricing on quotes**
+
+    Improve pricing accuracy by letting the system automatically manage derived quote lines based on pricing rule responses. When pricing rules are evaluated, the system handles line-level changes for you based on source product offer lines and their date ranges:
+
+    -   Adds new system-generated lines when pricing rules require them.
+    -   Updates existing derived lines when pricing conditions change.
+    -   Removes derived lines that no longer apply.
+    -   Restricts editing on system-generated lines to preserve pricing integrity.
 
 ## Changed in this release
 
@@ -80,11 +100,11 @@ See [Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     -   Add ad-hoc approvers to an approval request outside the configured approval workflow when additional review is needed.
     -   Override an approval to advance a quote when permitted by your organization's approval configuration.
 
-See [Advanced Approval Management release notes](advanced-approval-management-for-sales-rn.md) for more information.
+See [Advanced Approval Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/advanced-approval-management-for-sales-rn.md) for more information.
 
 ## Activation information
 
-Install Quote Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Quote Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
@@ -92,7 +112,7 @@ Install Quote Management by requesting it from the ServiceNow Store. Visit the [
 
     Submit customer quotes for approval and track approval status using approval workflows created in Advanced Approval Management.
 
--   **[CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
+-   **[ServiceNow CPQ Configurator - Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-servicenowcpq.md)**
 
     The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales Customer Relationship Management transactions, such as quotes and orders.
 
@@ -105,5 +125,5 @@ Install Quote Management by requesting it from the ServiceNow Store. Visit the [
     The Sales Agreement application captures the scope and conditions from a quote for future sales transactions, over a specified period between a buyer and a seller.
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
 

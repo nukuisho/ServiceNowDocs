@@ -2,6 +2,7 @@
 title: Approval assignment scripts
 description: This is a searchable version of the useful approval and assignment scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_UsefulApprovalAssignmentScripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -17,7 +18,7 @@ This is a searchable version of the useful approval and assignment scripts.
 
 **Warning:** The customization described here was developed for use in specific instances, and is not supported by Now Support. This method is provided as-is and should be tested thoroughly before implementation. Post all questions and comments regarding this customization to our community [forum](http://community.service-now.com/).
 
-For see [Viewing my approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/viewing-my-approvals.md).
+For see [Viewing my approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/viewing-my-approvals.md).
 
 -   **Assign a group for ESS requests**
 
@@ -168,8 +169,8 @@ For see [Viewing my approvals](https://raw.githubusercontent.com/ServiceNow/Serv
 
 -   **Custom approval UI macro**
 
-    For information on creating a custom approval UI macro, see [UI macros](../../server-scripting/concept/c_UIMacros.md#).
+    For information on creating a custom approval UI macro, see [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md).
 
 
-**Parent Topic:**[Field script use cases](r_UsefulFieldScripts.md)
+**Parent Topic:**[Field script use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UsefulFieldScripts.md)
 

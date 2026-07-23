@@ -2,6 +2,7 @@
 title: View a roadmap of a business capability
 description: View the roadmap of your business capabilities and align them with the organization's strategy. Creating a portfolio plan helps you plan, prioritize, and roadmap the work for your business capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-roadmap-bc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,19 +24,19 @@ Role required: sn\_apm.apm\_user and sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Business Capability Hierarchy page by selecting the business portfolio icon \(![Business Portfolio icon.](../../image/business-portfolio-icon.png)\).
+2.  Open the Business Capability Hierarchy page by selecting the business portfolio icon \(\[Omitted image "business-portfolio-icon.png"\] Alt text: Business Portfolio icon.\).
 
-3.  Select the row context menu icon \(![Row context menu icon.](../../../../common/image/icon-menu.png)\) and select **View roadmap**.
+3.  Select the row context menu icon \(\[Omitted image "icon-menu.png"\] Alt text: Row context menu icon.\) and select **View roadmap**.
 
     You’re navigated to the Planning page of the Strategic Planning Workspace. A temporary portfolio plan is created in the Strategic Planning Workspace with all the planning items that are associated with the business capability, sub-capabilities, and associated business applications.
 
     **Note:** The temporary portfolio plan is meant for preview purpose only. To plan, prioritize, and roadmap the work for your business capability, copy the temporary portfolio plan or create one.
 
-    ![Business capability roadmap in SPW](../../image/eaw-image/eaw-roadmap-ba.png)
+    \[Omitted image "eaw-roadmap-ba.png"\] Alt text: Business capability roadmap in SPW
 
 4.  Copy the portfolio plan for your business capability to plan, prioritize, and roadmap the work for your business capability.
 
-    1.  From the portfolio plan header, select the more actions icon \(![More actions menu in SPW](../../../alignment-planner-workspace/images/icon-more-actions.png)\) and then select **Copy portfolio plan**.
+    1.  From the portfolio plan header, select the more actions icon \(\[Omitted image "icon-more-actions.png"\] Alt text: More actions menu in SPW\) and then select **Copy portfolio plan**.
 
     2.  On the Copy portfolio plan window, fill in the details.
 
@@ -43,25 +44,25 @@ Role required: sn\_apm.apm\_user and sn\_align\_core.apw\_user
         2.  \(Optional\)  Grant access to the users of the portfolio plan by selecting the **Share with same users and groups ** option.
     3.  Select **Confirm**.
 
-    Alternatively, you can also create your own portfolio plan in the Strategic Planning Workspace \(SPW\) using the Business Capability lens. For more information, see [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
+    Alternatively, you can also create your own portfolio plan in the Strategic Planning Workspace \(SPW\) using the Business Capability lens. For more information, see [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 
-**Parent Topic:**[Working with the business portfolio module](../../concept/eaw-concept/eaw-work-with-business-portfolio-mod.md)
+**Parent Topic:**[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
 
 **Related topics**  
 
 
-[Add a business capability](../add-a-capability.md)
+[Add a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/add-a-capability.md)
 
-[Create a demand towards achievement of a capability](eaw-create-a-demand-towards-achievement-of-capability.md)
+[Create a demand towards achievement of a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-demand-towards-achievement-of-capability.md)
 
-[Update the hierarchy of a business capability](../update-hierarchy.md)
+[Update the hierarchy of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-hierarchy.md)
 
-[Create a sub-capability](eaw-create-sub-capability.md)
+[Create a sub-capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-sub-capability.md)
 
-[Assign a business application](../assign-a-business-application.md)
+[Assign a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/assign-a-business-application.md)
 
-[Unassign a business application from a capability](unassign-a-business-application-from-a-capability.md)
+[Unassign a business application from a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/unassign-a-business-application-from-a-capability.md)
 
-[Delete a capability from the hierarchy](../delete-a-capability.md)
+[Delete a capability from the hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/delete-a-capability.md)
 

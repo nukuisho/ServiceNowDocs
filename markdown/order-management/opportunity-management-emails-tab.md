@@ -2,9 +2,10 @@
 title: Compose emails
 description: Create an email to communicate to your customer the product information that meets their business requirements or the product demo as required by your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-emails-tab.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-09"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -19,9 +20,11 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to **List** view ![](../../../reuse/icons/product-icons/list-outline-24.svg)and select **Opportunity - All**.
+1.  Navigate to **List** view \[Omitted image "list-outline-24.svg"\] Alt text:and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with and select the **Emails** tab.
+
+    **Note:** The **Meetings** tab displays both meetings linked directly to the opportunity and meetings linked to the opportunity's touchpoints.
 
 3.  Select **Compose Email** button from the top right corner to start a new email or select an existing email to make changes.
 
@@ -39,5 +42,12 @@ Role required: sales\_agent
 5.  Select **Send email** to send the email or close the email form to save it in the **Draft Emails** tab.
 
 
-**Parent Topic:**[Using Opportunity Management](opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+**Related topics**  
+
+
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

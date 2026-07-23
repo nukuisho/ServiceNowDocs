@@ -2,6 +2,7 @@
 title: Create Lookup Request for IoC Changes workflow
 description: The Security Incident Response - Create Lookup Request for IoC Changes flow is triggered by a business rule to run automatically when an IoC is added or changed. Malware scans are triggered only when new data is entered and only the new data is scanned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_CreateScanRequestforIoCChanges.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -30,23 +31,23 @@ The **Security Incident Response - Create Lookup Request for IoC Changes** workf
 The Flow Designer actions include:
 
 -   Audit Log Enrichment
--   [Create IoC Lookup Request activity](../reference/r_CreateMalwareScanRequest.md)
+-   [Create IoC Lookup Request activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_CreateMalwareScanRequest.md)
 
-![Security Incident Response - Create Lookup Request for IoC Changes workflow diagram](../image/ScanRequest4IoChangesWorkflow.png "IoC Changes workflow")
+\[Omitted image "ScanRequest4IoChangesWorkflow.png"\] Alt text: Security Incident Response - Create Lookup Request for IoC Changes workflow diagram
 
--   **[Create IoC Lookup Request activity](../reference/r_CreateMalwareScanRequest.md)**  
+-   **[Create IoC Lookup Request activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_CreateMalwareScanRequest.md)**  
 The **Create IoC Lookup Request** activity can be used with any workflow to create a malware lookup request for added or modified IoC fields.
 
-**Parent Topic:**[Security Incident Response Orchestration workflows and activities](../concept/sec-inc-resp-orchestration-workflows.md)
+**Parent Topic:**[Security Incident Response Orchestration workflows and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sec-inc-resp-orchestration-workflows.md)
 
 **Related topics**  
 
 
-[Security Incident Response- Get Network Statistics flow](obtain-network-statistics-workflow.md)
+[Security Incident Response- Get Network Statistics flow]()
 
-[Security Incident Response - Get Running Services workflow](get-running-services-workflow.md)
+[Security Incident Response - Get Running Services workflow]()
 
-[Run procdump flow](../concept/invoke_procdump.md)
+[Run procdump flow]()
 
-[Security Incident - Evaluate response task outcome workflow](si-evaluate-response-task-outcome-workflow.md)
+[Security Incident - Evaluate response task outcome workflow]()
 

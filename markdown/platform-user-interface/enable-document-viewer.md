@@ -2,6 +2,7 @@
 title: Enable Document Viewer
 description: Enable Document Viewer to view documents directly rather than download them to view them in their native applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-document-viewer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,10 +45,10 @@ Document Viewer is enabled by default. Activate it at the instance level and the
     Document Viewer is enabled at the table level. Repeat this procedure for each table for which you want to enable Document Viewer.
 
 
-**Parent Topic:**[Document Viewer](../../../use/using-forms/concept/Documentviewer.md)
+**Parent Topic:**[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/Documentviewer.md)
 
 **Related topics**  
 
 
-[Disable Document Viewer](disable-doc-viewer.md)
+[Disable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/disable-doc-viewer.md)
 

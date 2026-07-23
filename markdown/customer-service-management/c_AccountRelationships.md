@@ -2,9 +2,10 @@
 title: Bi-directional account relationships
 description: A bi-directional account relationship is a relationship that exists between two accounts. You can create account relationships between two customer accounts or between a partner account and a customer account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_AccountRelationships.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-30"
 reading_time_minutes: 2
 breadcrumb: [Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -36,8 +37,6 @@ When creating an account relationship type, you define the following information
 -   The relationship between the source account and the target account.
 -   The reverse relationship between the source account and the target account.
 
-![Account Relationship form displaying an instance of the relationship between two accounts.](../image/CSMAccountRelationshipTypeForm.png "Account Relationship Type form")
-
 **Note:** One default account relationship type is provided for partner accounts.
 
 ## Account relationship records
@@ -55,8 +54,6 @@ View a relationship record from either account:
 -   The reverse relationship \(**Account To** &gt; **Account From**\) appears in the **Account Relationships** related list on the target account record.
 
 Select the account relationship record from either account to see the Account Relationship form.
-
-![Account Relationship Type form displaying various fields related to customer and partner accounts.](../image/CSMAccountRelationshipForm.png "Account Relationship form")
 
 You can also view account relationship records that use a specific account relationship type. This information appears as a related list on the Account Relationship Type form. This list shows the source account \(**Account From** field\) and the target account \(**Account To** field\) for each account relationship record.
 

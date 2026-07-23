@@ -2,6 +2,7 @@
 title: Computer Telephone demo integration with tasks
 description: The CTI Softphone component can be integrated with other task entities on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CTIIntegrationWithTasks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

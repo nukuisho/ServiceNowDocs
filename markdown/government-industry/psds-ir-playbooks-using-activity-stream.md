@@ -2,6 +2,7 @@
 title: Using the activity stream in Information Request Playbook
 description: You can access the activity stream in the contextual side panel in CSM Configurable Workspace after you create an information request record using the Information Request Playbook. The activity stream enables you to communicate with requesters and make internal notes about the work that is done on a record, making it easier to relay and track information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbooks-using-activity-stream.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ You can access the activity stream in the contextual side panel in CSM Configura
 
 You can use an activity stream to communicate with requesters and track information on a record. The activity stream updates when the current activity in the playbook is updated.
 
-You can access the activity stream by selecting the activity stream icon \(![Activity stream icon.](../image/contextual-side-panel-activity-stream.png)\) in the contextual side panel.
+You can access the activity stream by selecting the activity stream icon \(\[Omitted image "contextual-side-panel-activity-stream.jpg"\] Alt text: Activity stream icon.\) in the contextual side panel.
 
 ## Agent tasks in the activity stream
 
@@ -63,14 +64,14 @@ Filter or search posts
 
 </td><td>
 
-At the top of the Activity section, select the filter icon \(![Open filters icon.](../image/contextual-side-panel-filter-posts.png)\) to display the filter selections:
+At the top of the Activity section, select the filter icon \(\[Omitted image "contextual-side-panel-filter-posts.png"\] Alt text: Open filters icon.\) to display the filter selections:
 
 -   **Post types:** Select the types of posts to view, such as the work notes or attachments.
 -   **Field changes:** Select the fields that you want to view the posts for in only those fields.
 -   **Flagged:** Enable this button to view the posts that have been flagged as important.
 -   **Filter sets**: Select two or more filters in this list.
 
- Search all activity posts by selecting the search icon \(![Search bar icon.](../image/activity-stream-search-icon-psds.png)\).
+ Search all activity posts by selecting the search icon \(\[Omitted image "activity-stream-search-icon-psds.png"\] Alt text: Search bar icon.\).
 
 </td></tr><tr><td>
 
@@ -78,7 +79,7 @@ Sort posts
 
 </td><td>
 
-Sort the posts by the newest to the oldest or the oldest to the newest posts by selecting the sort icon \(![Sort icon.](../image/contextual-side-panel-sort-posts.png)\)
+Sort the posts by the newest to the oldest or the oldest to the newest posts by selecting the sort icon \(\[Omitted image "contextual-side-panel-sort-posts.png"\] Alt text: Sort icon.\)
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Expand and collapse posts
 
 </td><td>
 
-Expand and collapse posts by selecting the more options icon \(![More options icon.](../image/contextual-side-panel-more-options.png)\):-   **Expand all posts**: Expands the posts to view additional details.
+Expand and collapse posts by selecting the more options icon \(\[Omitted image "contextual-side-panel-more-options.png"\] Alt text: More options icon.\):-   **Expand all posts**: Expands the posts to view additional details.
 -   **Collapse all posts**: Returns the posts to their previous state.
 
 </td></tr></tbody>

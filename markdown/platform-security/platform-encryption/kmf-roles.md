@@ -2,11 +2,12 @@
 title: Roles installed with Key Management Framework
 description: The Key Management Framework \(KMF\) introduces specific roles for cryptographic module and key management-related configurations.Assigns roles to other users to perform operations around the ServiceNow Key Management Framework.Create, read, and update operations on cryptographic modules \(association of keys to cryptographic usage and algorithm configurations\) and module access policies. Also, KMF cryptographic managers can perform key management \(generate, rotate, revoke\) and life cycle operations.View cryptographic module information, key metadata, and life cycle-related details, as well as module access policy \(MAP\) information.Integrate Key Management Framework with external keystores or systems.Access part of the ServiceNow Key Management Framework key lifecycle: renewal, rotation, revocation.Assign KMF roles to admins, who in turn can assign other KMF roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/kmf-roles.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-20"
 reading_time_minutes: 4
 breadcrumb: [Key Management Framework Reference, Key Management Framework, Encryption]
 ---
@@ -17,24 +18,26 @@ The Key Management Framework \(KMF\) introduces specific roles for cryptographic
 
 **Important:**
 
-KMF roles are required to use the Key Management Framework. Users without KMF roles are not be able to access lists, tables and modules used to configure key management.
+KMF roles are required to use the Key Management Framework. Users without KMF roles are not able to access lists, tables, and modules used to configure key management.
 
-To assign the KMF admin role, you must have the admin, security\_admin, and sn\_kmf\_admin roles. Use the KMF admin role to assign other KMF roles. For details on assigning KMF roles, see [Assign Key Management Framework roles](../../encryption/task/assign-kmf-roles.md).
+To assign the KMF admin role, you must have the **admin**, **security\_admin**, and **sn\_kmf.admin** roles. Use the KMF admin role to assign other KMF roles. For details on assigning KMF roles, see [Assign Key Management Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/assign-kmf-roles.md).
 
-![KMF roles](../image/kmf-roles.png)
+The **sn\_kmf.admin** role is also required to modify any group record that includes the **sn\_kmf.cryptographic\_manager** role. This requirement applies to all updates to the group record, not only to role assignment operations.
 
-**Parent Topic:**[Key Management Framework Reference](../concept/understanding-kmf.md)
+\[Omitted image "kmf-roles.png"\] Alt text: KMF roles
+
+**Parent Topic:**[Key Management Framework Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/understanding-kmf.md)
 
 **Related topics**  
 
 
-[Key Management Framework key life-cycle states](key-life-cycle-states.md)
+[Key Management Framework key life-cycle states]()
 
-[Module access policy visualization](../concept/map-vis-concept.md)
+[Module access policy visualization]()
 
-[Module access policy debugger](../concept/map-debugger.md)
+[Module access policy debugger]()
 
-[Encryption and Key Management subscription bundle](../../encryption/reference/encryption-sku.md)
+[Encryption and Key Management subscription bundle]()
 
 ## KMF admin \[sn\_kmf.admin\]
 
@@ -56,7 +59,7 @@ None.
 
 **Important:** Avoid granting an admin role when more specialized roles are available.
 
--   This role is assigned via the process shown in [Assign Key Management Framework roles](../../encryption/task/assign-kmf-roles.md).
+-   This role is assigned via the process shown in [Assign Key Management Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/assign-kmf-roles.md).
 -   Users with this role must also have the admin and security\_admin
 -   You must have this role to assign  KMF roles, and in addition can perform all the capabilities of the KMF cryptographic manager.
 
@@ -148,7 +151,7 @@ Assign KMF roles to admins, who in turn can assign other KMF roles.
 
 Role required: admin and security\_admin
 
-You must elevate to the security\_admin role before assigning the KMF admin role. For instructions, see [Elevate to a privileged role](../../security/task/t_ElevateToAPrivilegedRole.md)
+You must elevate to the security\_admin role before assigning the KMF admin role. For instructions, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md)
 
 ### Procedure
 
@@ -164,7 +167,7 @@ You must elevate to the security\_admin role before assigning the KMF admin role
 
 5.  Select the user that you want to be KMF admin in the **Available Users** column and move them to the **Selected User\(s\)** column.
 
-    ![KMF admin role](../../encryption/image/kmf-admin-select-user.png)
+    \[Omitted image "kmf-admin-select-user.png"\] Alt text: KMF admin role
 
 6.  Select **Save**.
 
@@ -172,7 +175,7 @@ You must elevate to the security\_admin role before assigning the KMF admin role
 
     The user has the sn\_kmf.admin role in the **Roles** related list, and can assign other KMF roles.
 
-    ![KMF admin role in the Roles related list](../../encryption/image/sn-kmf-admin-role.png)
+    \[Omitted image "sn-kmf-admin-role.png"\] Alt text: KMF admin role in the Roles related list
 
 
 ### What to do next
@@ -182,6 +185,6 @@ If you have the KMF admin role, follow these steps for assigning other KMF roles
 1.  Navigate to **User Administration** &gt; **Users** and select the user you want to have another KMF role, such as KMF Cryptographic Manager.
 2.  In the Roles related list, select **Edit** and select the KMF roles you want to assign the users. All KMF roles start with `sn_kmf`.
 
-    ![Assigning other KMF roles](../../encryption/image/kmf-roles-assignments.png)
+    \[Omitted image "kmf-roles-assignments.png"\] Alt text: Assigning other KMF roles
 
 

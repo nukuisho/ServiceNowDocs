@@ -2,6 +2,7 @@
 title: MID Server system requirements
 description: Use these minimum system requirements to allocate resources for computers hosting MID Servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/r\_MIDServerSystemRequirements.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -53,7 +54,7 @@ MID Servers can be manually installed to any operating system with the ZIP file,
 
 ## Security requirements
 
-To meet high security standards, the MID Server performs x.509 certificate validation on HTTPS traffic when connecting to ServiceNow®. If a network appliance or proxy exists between the MID Server and the instance, that appliance needs to present a digital certificate signed by a trusted CA. If you are using a self-signed certificate or a certificate signed by an internal CA, import the certificate to the MID Server trust store. For more information on adding SSL certificates, see [Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#).
+To meet high security standards, the MID Server performs x.509 certificate validation on HTTPS traffic when connecting to ServiceNow®. If a network appliance or proxy exists between the MID Server and the instance, that appliance needs to present a digital certificate signed by a trusted CA. If you are using a self-signed certificate or a certificate signed by an internal CA, import the certificate to the MID Server trust store. For more information on adding SSL certificates, see [Add SSL certificates for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/add-ssl-certificates.md).
 
 ## OCSP connectivity requirements
 
@@ -68,13 +69,17 @@ In order to connect, the MID Server requires access to:
 -   http://ocsp.entrust.net
 -   http://ocsp.digicert.com \(or other CA OCSP Responder\)
 
+**Note:** OCSP responder URLs use HTTP by design, not HTTPS. Allow outbound HTTP traffic to these addresses so the MID Server can reach OCSP responder endpoints.
+
 While SSL/TLS certificates are always issued with an expiration date, there are certain circumstances in which a certificate must be revoked before it expires \(for example, if its associated private key may have been compromised\). Therefore, the current validity of a website’s certificate must always be checked by clients regardless of its expiry date.
 
 Clients fail a connection when they can’t check the revocation status of a certificate. Firewalls and proxy configurations may block calls to the OCSP Entrust and DigiCert servers, which prevents the MID Server from working. You may need to change your firewall permissions so that the OCSP traffic goes through. For more information and resolutions, see the HI Knowledge Base article [\[KB1216223\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1216223).
 
-## PowerShell requirements
+## PowerShell requirements \(Windows only\)
 
-The MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1. See Microsoft's documentation for more information about PowerShell requirements. To find your current PowerShell version using the instance, go to **ecc\_agent\_list.do**. Using the **Update Personalize List** gear icon, add **Host PowerShell Version** to the Selected column. Then sort the list of MID Servers by their PowerShell version to find outdated MID Servers. Alternatively, you can find the PowerShell version on the host machine by using the command **$Host.Version** in the host's PowerShell console. The PowerShell version is listed as PSVersion.
+On Windows hosts, the MID Server requires the minimum PowerShell version 3.0 and supports versions up to PowerShell 5.1, plus PowerShell 7. PowerShell 6 is not supported. In most cases, manually disable the PowerShell 7 Compatibility Mode. See Microsoft's documentation for more information about PowerShell requirements.
+
+To find your current PowerShell version using the instance, go to **ecc\_agent\_list.do**. Using the **Update Personalize List** gear icon, add **Host PowerShell Version** to the Selected column. Then sort the list of MID Servers by their PowerShell version to find outdated MID Servers. Alternatively, you can find the PowerShell version on the host machine by using the command **$Host.Version** in the host's PowerShell console. The PowerShell version is listed as PSVersion.
 
 ## Java version support
 
@@ -105,11 +110,11 @@ The MID Server installer includes the Tanuki Software Java Service Wrapper, vers
 
 ## Setting the JVM Memory size
 
-The MID Server installs with 1 GB of JVM memory. If the suggested memory size for your product is greater than 1 GB, see [Set the MID Server JVM memory size](../task/t_MIDServerOptionalConfiguration.md) for the procedure to override the default setting.
+The MID Server installs with 1 GB of JVM memory. If the suggested memory size for your product is greater than 1 GB, see [Set the MID Server JVM memory size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_MIDServerOptionalConfiguration.md) for the procedure to override the default setting.
 
 ## Deployment types
 
-System requirements for your instance are determined by the needs of the individual products you use that require a MID Server. Some applications, such as [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-configuration-preferences.md), have additional system requirements listed in their documentation.
+System requirements for your instance are determined by the needs of the individual products you use that require a MID Server. Some applications, such as [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/hla-configuration-preferences.md), have additional system requirements listed in their documentation.
 
 -   **Standard deployments**
 
@@ -165,7 +170,7 @@ As a result, there is no one size requirement that fits for all MID Server deplo
 
 -   **The impact of modifying number of MAX threads on MID Server CPU utilization**
 
-    Based on internal benchmarking, the following is sample data for MID Server CPU utilization while running Cloud Discovery for 10,000 servers.![The average CPU utilization and maximum processor queue length are improved with additional threads.](../image/mid-system-req-cpu-use.png)
+    Based on internal benchmarking, the following is sample data for MID Server CPU utilization while running Cloud Discovery for 10,000 servers.\[Omitted image "mid-system-req-cpu-use.png"\] Alt text: The average CPU utilization and maximum processor queue length are improved with additional threads.
 
     In these tests, the maximum CPU utilization was observed to be 100% independent of number of threads and OS. The average CPU utilization was observed to be proportional to number of threads. Increasing number of threads did not necessarily result in immediate CPU pressure. Increasing the number of threads from the default 25 to 50 did not create additional CPU pressure, as shown by the max processor queue length. However, increasing the max threads value to 100 caused a significant increase in processor queue length, indicating CPU pressure.
 
@@ -173,13 +178,13 @@ As a result, there is no one size requirement that fits for all MID Server deplo
 
     Running Discovery is a CPU intensive operation for MID Server. Deploying other applications or MID Servers on same host creates additional CPU pressure on the host. This pressure results in a performance impact for running applications, including the MID Server. The following examples are sample CPU utilization data points for MID Server with different load patterns:
 
-    **Dedicated host for a single MID Server:** the average CPU usage is 48%.![With a dedicated host for a single MID Server, the MID Server has an average CPU usage of 48%.](../image/mid-system-req-cpu-use-single.png)
+    **Dedicated host for a single MID Server:** the average CPU usage is 48%.\[Omitted image "mid-system-req-cpu-use-single.png"\] Alt text: With a dedicated host for a single MID Server, the MID Server has an average CPU usage of 48%.
 
-    **Host shared between a MID Server and another application with moderate load:** the average CPU usage is 77%.![With a host sharing resources between a MID Server and an application with moderate load, the average CPU usage is 77%.](../image/mid-system-req-cpu-use-moderate.png)
+    **Host shared between a MID Server and another application with moderate load:** the average CPU usage is 77%.\[Omitted image "mid-system-req-cpu-use-moderate.png"\] Alt text: With a host sharing resources between a MID Server and an application with moderate load, the average CPU usage is 77%.
 
     **Host shared between a MID Server and another application with heavy load:** the average CPU usage is 97%.
 
-    ![With a host sharing resources between a MID Server and an application with heavy load, the average CPU usage is 97%.](../image/mid-system-req-cpu-use-heavy.png)
+    \[Omitted image "mid-system-req-cpu-use-heavy.png"\] Alt text: With a host sharing resources between a MID Server and an application with heavy load, the average CPU usage is 97%.
 
 -   **Scaling up MID Server and its impact on MID Server CPU resource utilization**
 
@@ -222,45 +227,45 @@ As a result, there is no one size requirement that fits for all MID Server deplo
 98%
 
 </td></tr></tbody>
-</table>    **MID Server CPU utilization when deployed on a 4 CPU host:** ![The CPU utilization for a MID Server with a 4 CPU host.](../image/mid-system-req-cpu-use-4cpu.png)
+</table>    **MID Server CPU utilization when deployed on a 4 CPU host:** \[Omitted image "mid-system-req-cpu-use-4cpu.png"\] Alt text: The CPU utilization for a MID Server with a 4 CPU host.
 
-    **MID Server CPU utilization when deployed on an 8 CPU host:** ![The CPU utilization for a MID Server with an 8 CPU host.](../image/mid-system-req-cpu-use-8cpu.png)
+    **MID Server CPU utilization when deployed on an 8 CPU host:** \[Omitted image "mid-system-req-cpu-use-8cpu.png"\] Alt text: The CPU utilization for a MID Server with an 8 CPU host.
 
 
 ## Monitoring performance
 
-To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard](../concept/c_MIDServerDashboard.md).
+To ensure that the MID Server resource allocations are sufficient for your environment, monitor performance during peak periods of product execution from the [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDashboard.md).
 
-**Parent Topic:**[MID Server reference](../concept/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
 
-[MID Server upgrades](../concept/c_UpgradeAndTestMIDServer.md)
+[MID Server upgrades]()
 
-[Resolving MID Server issues](r_MIDServerTroubleshooting.md)
+[Resolving MID Server issues]()
 
-[MID Server dashboard](../concept/c_MIDServerDashboard.md)
+[MID Server dashboard]()
 
-[MID Server properties](r_MIDServerProperties.md#)
+[MID Server properties]()
 
-[MID Server parameters](mid-server-parameters.md#)
+[MID Server parameters]()
 
-[MID Server Configuration Parameter settings and priority](mid-config-param-priority.md)
+[MID Server Configuration Parameter settings and priority]()
 
-[MID Server File Cleaner](../concept/mid_file_cleaner.md)
+[MID Server File Cleaner]()
 
-[MID Server protected records and reserved characters](mid-server-reserved-characters.md)
+[MID Server protected records and reserved characters]()
 
-[MID Server privileged commands](../concept/c_PrivilegedCommandsForMIDServer.md#)
+[MID Server privileged commands]()
 
-[MIDSystem methods](r_MIDSystemMethods.md)
+[MIDSystem methods]()
 
-[Manually start, stop, and restart a MID Server](../task/t_InstallMIDServerAsWinService.md)
+[Manually start, stop, and restart a MID Server]()
 
-[MID Server heartbeat](r_MIDServerHeartbeat.md)
+[MID Server heartbeat]()
 
-[Set the MID Server JVM memory size](../task/t_MIDServerOptionalConfiguration.md)
+[Set the MID Server JVM memory size]()
 
-[Pause the MID Server](../task/t_PauseTheMIDServer.md#)
+[Pause the MID Server]()
 

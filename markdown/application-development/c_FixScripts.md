@@ -2,6 +2,7 @@
 title: Fix scripts
 description: A fix script is server-side JavaScript code that you run after an application is installed or upgraded.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/c\_FixScripts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,5 +18,5 @@ Include fix scripts to make changes that are necessary for the data integrity or
 
 Administrators can create, manage, and run fix scripts. Users with the script\_fix\_admin role can create and manage fix scripts but cannot run fix scripts.
 
-**Note:** An annotation with the following message shows up when you open an existing fix script or create a new fix script.![Image showing the annotation "Any customizations you make to the fix script will apply only when you manually run the script. Instance upgrades use the out of box fix script"](../image/uc-fixscript-annotation.png)
+**Note:** An annotation with the following message shows up when you open an existing fix script or create a new fix script.\[Omitted image "uc-fixscript-annotation.png"\] Alt text: Image showing the annotation "Any customizations you make to the fix script will apply only when you manually run the script. Instance upgrades use the out of box fix script"
 

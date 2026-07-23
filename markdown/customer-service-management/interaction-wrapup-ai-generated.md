@@ -2,6 +2,7 @@
 title: AI interaction wrap-up
 description: AI interaction wrap-up provides agents with AI assistance during the interaction wrap-up period. Use this feature to generate wrap-up content for interaction records, such as the wrap-up code and notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/interaction-wrapup-ai-generated.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,23 +14,23 @@ breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Or
 
 AI interaction wrap-up provides agents with AI assistance during the interaction wrap-up period. Use this feature to generate wrap-up content for interaction records, such as the wrap-up code and notes.
 
-The AI interaction wrap-up feature uses AI to generate wrap-up content for interaction records during the [wrap up period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md). This feature evaluates the text in the customer conversation to determine the wrap-up code and create the wrap-up notes.
+The AI interaction wrap-up feature uses AI to generate wrap-up content for interaction records during the [wrap up period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-wrap-up-state.md). This feature evaluates the text in the customer conversation to determine the wrap-up code and create the wrap-up notes.
 
 Agents can review and modify the AI-generated wrap-up content before submitting it. If there's insufficient context to determine a wrap-up code, the system uses the default wrap-up code.
 
-**Note:** The AI interaction wrap-up feature uses the Wrap Up Completion skill to generate the wrap-up content. For more information, see [Enable Now Assist to generate wrap up code and notes summary](../task/enable-ai-wrap-up-code-and-notes-summary-generation.md).
+**Note:** The AI interaction wrap-up feature uses the Wrap Up Completion skill to generate the wrap-up content. For more information, see [Enable Now Assist to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md).
 
 The AI interaction wrap-up feature is available for the following interaction record pages in CSM Configurable Workspace:
 
--   [CSM interaction record page](csm-interaction-record-page.md)
--   [CSM voice interaction record page](csm-native-voice-record-page.md)
--   [CSM centered chat interaction record page](csm-centered-chat-interaction-page.md)
+-   [CSM interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-interaction-record-page.md)
+-   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md)
+-   [CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-centered-chat-interaction-page.md)
 
 ## How it works
 
 The wrap-up period begins when either the agent or the customer ends a conversation on an interaction record. This moves the record to the Wrap Up state, starts the wrap-up period, and displays the Wrap up modeless dialog.
 
-![Wrap up modeless dialog with AI interaction wrap-up enabled includes auto populated fields and a message to check these fields for accuracy.](../image/wrap-up-modeless-dialog-with-ai.png "Wrap up modeless dialog with AI interaction wrap-up enabled")
+\[Omitted image "wrap-up-modeless-dialog-with-ai.png"\] Alt text: Wrap up modeless dialog with AI interaction wrap-up enabled includes auto populated fields and a message to check these fields for accuracy.
 
 The system auto-populates the **Wrap up code** and **Notes** fields with AI-generated content. After the fields are populated, the modal displays a message in a banner to check the AI-generated content for accuracy.
 
@@ -71,12 +72,12 @@ If an agent edits the **Notes** field, the **Insert AI notes** button replaces t
 
 ## Configuring AI interaction wrap-up
 
-1.  Enable the Wrap Up Completion skill. For more information, see [Enable Now Assist to generate wrap up code and notes summary](../task/enable-ai-wrap-up-code-and-notes-summary-generation.md).
+1.  Enable the Wrap Up Completion skill. For more information, see [Enable Now Assist to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md).
 2.  Enable the AI interaction fields in the AI form section on the desired interaction wrap-up configuration record:
 
     -   **Enable AI code**
     -   **Enable AI notes**
-    This feature can be configured for AI to determine the wrap-up code, generate the wrap-up notes, or both. For more information, see [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md).
+    This feature can be configured for AI to determine the wrap-up code, generate the wrap-up notes, or both. For more information, see [Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-interaction-wrap-up-config.md).
 
 3.  If desired, enable the **Use AI code as default** field.
 
@@ -95,11 +96,11 @@ To locate this property, navigate to **All** &gt; **System Properties** &gt; **A
 **Related topics**  
 
 
-[Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interaction-wrap-up-config.md)
+[Create an interaction wrap-up configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-interaction-wrap-up-config.md)
 
-[Create interaction wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/config-interaction-wrapup-codes.md)
+[Create interaction wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/config-interaction-wrapup-codes.md)
 
-[Enable interaction wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/enable-interaction-wrapup-codes.md)
+[Enable interaction wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-interaction-wrapup-codes.md)
 
-[Use AI to generate wrap up code and notes summary](ai-generated-wrap-up-codes-and-notes-summary.md)
+[Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md)
 

@@ -2,6 +2,7 @@
 title: Try flow logic
 description: Allow a flow to continue running when an error occurs within a flow logic block. Run a sequence of actions in response to errors within the flow logic block.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-try.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Allow a flow to continue running when an error occurs within a flow logic block.
 
 ## Inputs
 
-Try flow logic does not have field inputs. Instead, it displays a plus \(![Add Action, Flow Logic, or Subflow after Icon](../images/add-action-icon.png)\) icon that enables you to add a sequence of actions, flow logic, or subflows to attempt to run and evaluate for errors. You can add multiple items to a Try block. When an error occurs, the flow runs the sequence of actions, flow logic, or subflows within the error section of the flow logic block.
+Try flow logic does not have field inputs. Instead, it displays a plus \(\[Omitted image "add-action-icon.png"\] Alt text: Add Action, Flow Logic, or Subflow after Icon\) icon that enables you to add a sequence of actions, flow logic, or subflows to attempt to run and evaluate for errors. You can add multiple items to a Try block. When an error occurs, the flow runs the sequence of actions, flow logic, or subflows within the error section of the flow logic block.
 
 ## Outputs
 
@@ -27,11 +28,11 @@ This flow logic has no outputs, but the actions, flow logic, and subflows within
 
 In this example, the flow attempts to send one of three possible notifications when a critical priority network incident is created. The flow first tries to send an SMS message, and if that fails, it tries to send a Connect message. If the Connect message fails, it sends an email.
 
-![Example configuration of a Try flow logic block](../images/flow-logic-try-example.png "Try flow logic for multiple notification methods")
+\[Omitted image "flow-logic-try-example.png"\] Alt text: Example configuration of a Try flow logic block
 
 ## Execution details
 
-![Sample execution details of a Try flow logic block](../images/flow-logic-try-execution-details.png "Try flow logic execution details")
+\[Omitted image "flow-logic-try-execution-details.png"\] Alt text: Sample execution details of a Try flow logic block
 
 ## Flow and action error handling resources
 
@@ -42,40 +43,40 @@ For more information about using error handling in actions and flows, see the Se
 -   [Flow and Action Error Handling Level 3: Flow Error Handling - Workflow Automation CoE](https://www.servicenow.com/community/workflow-automation-articles/flow-and-action-error-handling-level-3-flow-error-handling/ta-p/2877970)
 -   [Flow and Action Error Handling Level 4: Good Practices and Summary - Workflow Automation CoE](https://www.servicenow.com/community/workflow-automation-articles/flow-and-action-error-handling-level-4-good-practices-and/ta-p/2877996)
 
-**Parent Topic:**[Workflow Studio flow logic](flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 
 
-[Append to Flow Variables flow logic](../reference/append-to-flow-variables-flow-logic.md)
+[Append to Flow Variables flow logic]()
 
-[Assign subflow outputs flow logic](flow-logic-assign-subflow-outputs.md)
+[Assign subflow outputs flow logic]()
 
-[Call a workflow flow logic](flow-logic-call-workflow.md)
+[Call a workflow flow logic]()
 
-[Do the following until flow logic](flow-logic-do-until.md)
+[Do the following until flow logic]()
 
-[Do the following in parallel flow logic](flow-logic-do-following-in-parallel.md)
+[Do the following in parallel flow logic]()
 
-[Dynamic flows flow logic](flow-logic-dynamic-flow.md)
+[Dynamic flows flow logic]()
 
-[End Flow flow logic](flow-logic-end-action.md)
+[End Flow flow logic]()
 
-[Exit Loop flow logic](../reference/exit-loop-flow-logic.md)
+[Exit Loop flow logic]()
 
-[For Each flow logic](flow-logic-for-each.md)
+[For Each flow logic]()
 
-[Get Flow Outputs flow logic](../reference/get-flow-outputs-flow-logic.md)
+[Get Flow Outputs flow logic]()
 
-[Go back to flow logic](../reference/go-back-to-flow-logic.md)
+[Go back to flow logic]()
 
-[If flow logic](flow-logic-if.md)
+[If flow logic]()
 
-[Make a decision flow logic](flow-logic-make-decision.md)
+[Make a decision flow logic]()
 
-[Set Flow Variables flow logic](flow-logic-set-flow-variables.md)
+[Set Flow Variables flow logic]()
 
-[Skip Iteration flow logic](../reference/skip-iteration-flow-logic.md)
+[Skip Iteration flow logic]()
 
-[Wait for a duration flow logic](flow-logic-wait-for-a-duration.md)
+[Wait for a duration flow logic]()
 

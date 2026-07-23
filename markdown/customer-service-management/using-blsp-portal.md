@@ -2,10 +2,11 @@
 title: Using the Business Location Service Portal
 description: Use the Business Location Service Portal \(BLSP\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external business locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-blsp-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
 
@@ -20,7 +21,7 @@ As a user with the sn\_customerservice.svc\_location\_manager, sn\_customerservi
 -   Submit cases against business locations, sold products, or install base items deployed at a service organization.
 -   Access Knowledge Base articles and engage with the community.
 
-![Landing page for Business Location Service Portal. For more information, refer to information that follows.](../image/patient-portal.png "Business Location Service Portal")
+\[Omitted image "patient-portal.png"\] Alt text: Landing page for Business Location Service Portal. For more information, refer to information that follows.
 
 From the Business Location Service Portal, you can access and use the following features:
 
@@ -62,7 +63,53 @@ Your Information
 
 </td><td>
 
-Navigate to business locations, sold products, install base items, projects, and customer orders.
+View the list:-   Business Organizations - Here, you can view the list of:
+    -   Details
+        -   Organization number
+        -   Organization name
+        -   Manager name
+        -   City
+        -   Street
+        -   Parent Organization
+    -   Related Actions
+        -   Create Case
+        -   Add Member
+    -   Business Organization Details
+        -   Cases Requested
+        -   Members
+        -   Products
+        -   Install Base
+        -   Child Business Organizations
+        -   Child Business Locations
+    -   Cases Requested
+-   Install Base- Here, you can view the list of:
+    -   Details
+        -   Name
+        -   Created
+        -   Buyer Organization
+        -   Buyer Organization Members
+    -   Related Actions
+        -   Create Case
+        -   Assign member
+
+**Note:** Only users assigned with the manager role within their respective buyer organization can assign members. Once assigned, the member is displayed in the Buyer organization member field. Confirm that the Buyer organization field is filled.
+
+    -   Affected Install Bases
+-   Products
+    -   Details
+        -   Product
+        -   Buyer Organization
+        -   Buyer Organization Member
+    -   Related Actions
+        -   Create Case
+        -   Assign member
+
+**Note:** Only users assigned with the manager role within their respective buyer organization can assign members. Once assigned, the member is displayed in the Buyer organization member field. Confirm that the Buyer organization field is filled.
+
+    -   Child Sold Products
+    -   Product Information
+    -   Cases
+    -   Install Base
 
 </td></tr><tr><td>
 
@@ -119,7 +166,7 @@ Provides access to the Community home page. You can use the community to ask que
 
 </td></tr><tr><td>
 
-My Business Locations
+My Business Organizations
 
 </td><td>
 
@@ -147,18 +194,18 @@ View a list of the most viewed articles.
 </td></tr></tbody>
 </table>Depending on the configuration set by your administrator, you can perform the following tasks from the Business Location Service Portal:
 
--   Register and assign staff members to a business location
--   Report cases on behalf of a business location
--   Report cases against sold products deployed at a business location
--   Report cases against install base items deployed at a business location
+-   Register and assign staff members to a business organization
+-   Report cases on behalf of a business organization
+-   Report cases against sold products deployed at a business organization
+-   Report cases against install base items deployed at a business organization
 -   Access knowledge base articles and frequently asked questions
 
 **Related topics**  
 
 
-[Add staff members to a business location in the Business Location Service Portal](../task/add-staff-memers-to-biz-location.md)
+[Add staff members to a business location in the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-staff-memers-to-biz-location.md)
 
-[Create cases for a business location in the Business Location Service Portal](../task/report-cases-on-behalf-of-biz-location.md)
+[Create cases for a business location in the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/report-cases-on-behalf-of-biz-location.md)
 
-[Track cases on the Business Location Service Portal](track-cases-for-blsp-portal.md)
+[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/track-cases-for-blsp-portal.md)
 

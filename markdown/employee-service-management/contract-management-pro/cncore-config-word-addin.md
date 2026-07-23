@@ -2,6 +2,7 @@
 title: Configure the Microsoft Word add-in for ServiceNow Contracts
 description: As an admin, configure the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-config-word-addin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -20,7 +21,7 @@ As an admin, configure the Microsoft Word add-in for ServiceNow Contracts.
 
 Microsoft Word add-in for ServiceNow Contracts will be installed when you install Contract Management Pro. You need to configure it to be available in the Microsoft Word as an add-in.
 
-The following video walks you through the process of configuring Microsoft Word add-in for ServiceNow Contracts on macOS.Video explaining the steps to configure Microsoft Word add-in for ServiceNow Contracts on macOS. 
+The following video walks you through the process of configuring Microsoft Word add-in for ServiceNow Contracts on macOS.\[Omitted video\] Description: Video explaining the steps to configure Microsoft Word add-in for ServiceNow Contracts on macOS.
 
 ## Before you begin
 
@@ -34,13 +35,13 @@ Role required: admin
 
 2.  From the Office Manifests list, select **ServiceNow Contracts**.
 
-    ![Microsoft Word add-in for Contract Management Pro.](../image/cmpro-office-add-in.png "Manifest file for ServiceNow Contracts")
+    \[Omitted image "cmpro-office-add-in.png"\] Alt text: Microsoft Word add-in for Contract Management Pro.
 
 3.  If your ServiceNow instance is configured with single sign-on \(SSO\) login, clear the **Login Page not Required** check box, right-click the form header, and then select **Save**.
 
 4.  Select **Download Manifest** to download the file.
 
-    ![Download Microsoft Word add-in manifest file.](../image/cmpro-manifest-file.png "Download manifest file")
+    \[Omitted image "cmpro-manifest-file.png"\] Alt text: Download Microsoft Word add-in manifest file.
 
 5.  If your ServiceNow instance is configured with single sign-on \(SSO\) login, update the manifest file.
 
@@ -63,15 +64,15 @@ Role required: admin
 
 6.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d579957e278">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d591786e278">
 
 System
 
-</th><th align="left" id="d579957e281">
+</th><th align="left" id="d591786e281">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d579957e287">
+</th></tr></thead><tbody><tr><td id="d591786e287">
 
 **macOS**
 
@@ -85,7 +86,7 @@ Steps
 6.  Navigate to the menu **Home**.
  **Note:** To connect to multiple instances using the Microsoft Word add-in, add the corresponding manifest files to the `wef` folder in your system and ensure that each manifest file contains a unique ID.
 
-</td></tr><tr><td id="d579957e352">
+</td></tr><tr><td id="d591786e352">
 
 **Windows**
 
@@ -102,7 +103,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d579957e411">
+</td></tr><tr><td id="d591786e411">
 
 **Microsoft Word Online**
 
@@ -128,5 +129,5 @@ The **ServiceNow Contracts** add-in is available on the Home ribbon. When you lo
 
 ## What to do next
 
-[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](../concept/cncore-setup-ct-add-in.md)
+[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
 

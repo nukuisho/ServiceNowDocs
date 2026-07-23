@@ -2,6 +2,7 @@
 title: Define or update a collection in an application
 description: Define or update a collection while working in a changeset of a application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-collection-define.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ Define or update a collection while working in a changeset of a application.
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_editor or cdm\_admin
 
@@ -27,19 +28,19 @@ Role required: cdm\_editor or cdm\_admin
 
 ## Procedure
 
-1.  To add a collection to the application: While working in a changeset, select the more actions icon \(![More actions icon.](../../site-reliability-ops/image/icon-actions-menu.png)\) for the **collection** node and select **Create collection**.
+1.  To add a collection to the application: While working in a changeset, select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for the **collection** node and select **Create collection**.
 
-2.  To edit individual data items, you can either work directly in the code or select the more actions icon \(![More actions icon.](../../site-reliability-ops/image/icon-actions-menu.png)\) for an item and select an action, as follows.
+2.  To edit individual data items, you can either work directly in the code or select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for an item and select an action, as follows.
 
-<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d405134e101">
+<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d411083e102">
 
 Selection
 
-</th><th align="left" id="d405134e104">
+</th><th align="left" id="d411083e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d405134e110">
+</th></tr></thead><tbody><tr><td id="d411083e111">
 
 **Create collection**
 
@@ -47,7 +48,7 @@ Action
 
 Add an individual component to the collection.
 
-</td></tr><tr><td id="d405134e119">
+</td></tr><tr><td id="d411083e120">
 
 **Create CDI**
 
@@ -62,7 +63,7 @@ Add an individual config data item \(CDI\) and value to the collection. See the 
 -   Overlay: A CDI that does not appear in any included component.
 
 
-</td></tr><tr><td id="d405134e152">
+</td></tr><tr><td id="d411083e153">
 
 **Inherit from collection**
 
@@ -78,7 +79,7 @@ Select **Remove inheritance** to remove the existing hereditary relationship fro
 -   There are more than the maximum number of collections in a chain. This number is 5 by default. Example: Collection1 is inherited by Collection2. Collection2 is inherited by Collection3. This chain of inheritance cannot continue to Collection6. You can change the valid chain length by editing the **sn\_cdm.max\_inheritance\_chain\_length** system property.
 
 
-</td></tr><tr><td id="d405134e184">
+</td></tr><tr><td id="d411083e185">
 
 **Include in deployables**
 
@@ -90,7 +91,7 @@ Include the selected collection in specified deployables.
 
  **Note:** Only deployables that do not currently include the collection appear in the list.
 
-</td></tr><tr><td id="d405134e218">
+</td></tr><tr><td id="d411083e219">
 
 **Rename**
 
@@ -98,7 +99,7 @@ Include the selected collection in specified deployables.
 
 Rename the selected collection.
 
-</td></tr><tr><td id="d405134e227">
+</td></tr><tr><td id="d411083e228">
 
 **Delete**
 
@@ -106,7 +107,7 @@ Rename the selected collection.
 
 Delete the selected collection.
 
-</td></tr><tr><td id="d405134e236">
+</td></tr><tr><td id="d411083e237">
 
 **Details**
 
@@ -114,7 +115,7 @@ Delete the selected collection.
 
 View the administrative information associated with the collection.
 
-</td></tr><tr><td id="d405134e245">
+</td></tr><tr><td id="d411083e246">
 
 **View relationships**
 
@@ -123,7 +124,7 @@ View the administrative information associated with the collection.
 View direct relationships with the node. Direct relationships are formed between nodes by inheritance or by being included.
 
 </td></tr></tbody>
-</table>3.  Add a CDI: Select the more actions icon \(![More actions icon.](../../site-reliability-ops/image/icon-actions-menu.png)\) for the item and select **Create CDI**.
+</table>3.  Add a CDI: Select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for the item and select **Create CDI**.
 
 <table id="table_h53_jmt_spb"><thead><tr><th>
 
@@ -193,17 +194,17 @@ Option to specify that the value of the CDI should be encrypted. This option app
 </td></tr></tbody>
 </table>4.  Add CDI settings that will override or overlay settings in collections.
 
-    For more information, see [Define or update a component](cdm-component-define.md).
+    For more information, see [Define or update a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-define.md).
 
 
 **Related topics**  
 
 
-[CDM data model](../reference/cdm-data-model.md)
+[CDM data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-data-model.md)
 
-[Viewing and editing config data](../concept/cdm-editing-config-data-changesets.md)
+[Viewing and editing config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-editing-config-data-changesets.md)
 
-[How encrypted data is handled](../concept/cdm-secrets-managing.md)
+[How encrypted data is handled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-secrets-managing.md)
 
-[Create or update a variable CDI](cdm-variables-crud.md)
+[Create or update a variable CDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-variables-crud.md)
 

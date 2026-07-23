@@ -2,6 +2,7 @@
 title: Associate business application
 description: Associate a business application with a JFrog project in the JFrog tool record to create an AppTrust application in JFrog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/associate-business-application.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -23,16 +24,16 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 ## Procedure
 
-1.  In the tool record, navigate to the **Projects** tab. ![Projects tab in JFrog tool record](../image/jfrog-projects-tab.png)
+1.  In the tool record, navigate to the **Projects** tab. \[Omitted image "jfrog-projects-tab.png"\] Alt text: Projects tab in JFrog tool record
 
 2.  Select a project.
 
-3.  In the Project page, select the **Business Applications** tab, and then select **Associate**. ![Business Applications tab in a JFrog project](../image/jfrog-business-applications.png)
+3.  In the Project page, select the **Business Applications** tab, and then select **Associate**. \[Omitted image "jfrog-business-applications.png"\] Alt text: Business Applications tab in a JFrog project
 
-4.  In the Associate dialog box, select the required business application, and select **Associate**. ![Associate business application dialog box](../image/jfrog-select-application.png)
+4.  In the Associate dialog box, select the required business application, and select **Associate**. \[Omitted image "jfrog-select-application.png"\] Alt text: Associate business application dialog box
 
     An AppTrust application is created in JFrog with the same name as the business application.
 
 
-**Parent Topic:**[Integration with JFrog AppTrust application](../concept/integration-with-jfrog-apptrust-application.md)
+**Parent Topic:**[Integration with JFrog AppTrust application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/integration-with-jfrog-apptrust-application.md)
 

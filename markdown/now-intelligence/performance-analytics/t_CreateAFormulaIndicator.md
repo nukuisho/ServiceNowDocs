@@ -2,6 +2,7 @@
 title: Create a formula indicator
 description: Calculate scores from the scores of one or more other indicators. Apply mathematical operations or a preset method, such as the method to calculate the gap between an indicator score and the indicator target.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreateAFormulaIndicator.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -36,10 +37,8 @@ The fields of a formula indicator are similar to the fields of an automated indi
 
 ## Procedure
 
-1.  Use one of the following navigation paths:
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Formula Indicators** and select **New**.
 
-    -   If you're on an upgraded instance that has not migrated to Platform Analytics, navigate to **All** &gt; **Performance Analytics** &gt; **Indicators** &gt; **Formula Indicators** and select **New**.
-    -   If you're on a new instance or have migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Formula Indicators** and select **New**.
 2.  In the **Name** field, give the indicator a descriptive name, such as Average duration of open incidents.
 
 3.  In the **Calendars** field, select either the standard calendar or a business or fiscal calendar group.
@@ -66,9 +65,9 @@ The fields of a formula indicator are similar to the fields of an automated indi
 
     1.  To use a calculated value in the formula, tap **Browse for a method** \(Repeatable\).
 
-        A dialog opens for you to insert a method from PAFormulaUtils\(\) into the formula. This API returns the calculated value for an indicator. For more information about using this API, see [Get analytics methods in formulas](get-indicator-analytics.md).
+        A dialog opens for you to insert a method from PAFormulaUtils\(\) into the formula. This API returns the calculated value for an indicator. For more information about using this API, see [Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/get-indicator-analytics.md).
 
-        ![List of descriptive labels of methods in the "Add a method to the formula" dialog box, with Get global target gap of the specified indicator" highlighted.](../image/formula-method-selector.png)
+        \[Omitted image "formula-method-selector.png"\] Alt text: List of descriptive labels of methods in the "Add a method to the formula" dialog box, with Get global target gap of the specified indicator" highlighted.
 
     2.  To put the score of an indicator in the formula, tap the **Browse for an indicator** link and fill in the dialog \(Repeatable\).
 
@@ -110,7 +109,7 @@ Allow breakdowns
 
 </td><td>
 
-Applies breakdowns that apply to the entire formula indicator, as opposed to individual indicators in the formula, to apply to this contributing indicator. Enabled by default. For more information, see [Prevent a contributing indicator in a formula from following breakdowns](../concept/c_ExcludingBreakdownsFromFormulas.md).Breakdowns are added to the entire formula through the **Manage breakdowns** dialog, available after the indicator is saved. See Step [11](t_CreateAFormulaIndicator.md#step_manage_breakdowns).
+Applies breakdowns that apply to the entire formula indicator, as opposed to individual indicators in the formula, to apply to this contributing indicator. Enabled by default. For more information, see [Prevent a contributing indicator in a formula from following breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ExcludingBreakdownsFromFormulas.md).Breakdowns are added to the entire formula through the **Manage breakdowns** dialog, available after the indicator is saved. See Step [11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
 
 </td></tr><tr><td>
 
@@ -118,10 +117,10 @@ Use in method
 
 </td><td>
 
-Returns a unique identifier instead of the score for this indicator. Select this box when you're specifying an indicator for a method in the formula. These methods get calculated values for the indicator from the Analytics Hub. For more information about using these methods, see [Get analytics methods in formulas](get-indicator-analytics.md).
+Returns a unique identifier instead of the score for this indicator. Select this box when you're specifying an indicator for a method in the formula. These methods get calculated values for the indicator from the Analytics Hub. For more information about using these methods, see [Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/get-indicator-analytics.md).
 
 </td></tr></tbody>
-</table>        You could add indicators manually. However, by using the **Browse for an indicator** function, you ensure that you have the proper notation for indicators and [breakdown elements](../concept/performance-analytics-glossary.md#).
+</table>        You could add indicators manually. However, by using the **Browse for an indicator** function, you ensure that you have the proper notation for indicators and [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
         After you save the formula indicator, the indicators in the formula appear in the **Contributing indicators** related list. If you included any formula indicators, their contributing indicators are also listed.
 
@@ -129,7 +128,7 @@ Returns a unique identifier instead of the score for this indicator. Select this
 
         Enter any operators or numbers to include in the formula. Use valid operator symbols, such as +, -, /, %, &gt;, &lt;. You can also add more indicators to the formula. For example, to calculate the average age of open incidents based on summed age of open incidents and number of open incidents, use the following formula: `[[Summed age of open incidents]] / [[Open incidents]] / 24`
 
-        To specify a data collection period in the formula, you can use the variables `score_start` and `score_end` to refer to the start and end of the data collection period, respectively. However, see the caveats in [Changes to score\_start/end because of different user time zones](../concept/time-zones-indicator-formulas.md).
+        To specify a data collection period in the formula, you can use the variables `score_start` and `score_end` to refer to the start and end of the data collection period, respectively. However, see the caveats in [Changes to score\_start/end because of different user time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/time-zones-indicator-formulas.md).
 
         **Warning:** Try not to use GlideRecords or GlideAggregates in Performance Analytics scripts or formula indicators. While sometimes you must use these operations to get what you want, they are expensive, potentially running hundreds of thousands of times. Be certain that no alternative exists before you use them.
 
@@ -163,7 +162,7 @@ Live group profile
 
 Live Group Profile \[live\_group\_profile\] record for a Live Feed group. Specify a group profile to cause that group to get notifications about this indicator.
 
- For more information about this social application on the ServiceNow AI Platform, see [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_GetStartedWithLiveFeed.md).
+ For more information about this social application on the ServiceNow AI Platform, see [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md).
 
 </td></tr><tr><td>
 
@@ -191,7 +190,7 @@ Apply time series to result
 
 </td><td>
 
-Applies a time series aggregation to the result of the calculation of the formula instead of to each component indicator before the result is calculated. This option applies to a time series selected for the indicator on a widget or on the Analytics Hub. If a default time series is specified for the indicator, this option also applies to that time series. For more information, see [Applying time series to result or to contributing indicators](../concept/apply-time-series-result-components.md).
+Applies a time series aggregation to the result of the calculation of the formula instead of to each component indicator before the result is calculated. This option applies to a time series selected for the indicator on a widget or on the Analytics Hub. If a default time series is specified for the indicator, this option also applies to that time series. For more information, see [Applying time series to result or to contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/apply-time-series-result-components.md).
 
 </td></tr><tr><td>
 
@@ -199,7 +198,7 @@ Allow formula component to be NULL
 
 </td><td>
 
-Has the formula calculated even when it contains a null score. Useful for troubleshooting. For more information, see [Detect indicators with no scores in a formula](detect-indicators-no-scores-formula.md).
+Has the formula calculated even when it contains a null score. Useful for troubleshooting. For more information, see [Detect indicators with no scores in a formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/detect-indicators-no-scores-formula.md).
 
 </td></tr><tr><td>
 
@@ -212,11 +211,11 @@ Enables widgets to show the summed score of multiple breakdown elements on this 
 </td></tr></tbody>
 </table>9.  In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
 
-    For more information, see [Performance Analytics scores forecasts](../concept/c_ForecastingData.md#).
+    For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 10. Expand the context menu and select **Save**.
 
-    ![Save option in the context menu](../image/auto-indicator-save.png)
+    \[Omitted image "auto-indicator-save.png"\] Alt text: Save option in the context menu
 
 11. To apply a breakdown to the entire formula indicator, press **Manage breakdowns** at the top of the page.
 
@@ -224,7 +223,7 @@ Enables widgets to show the summed score of multiple breakdown elements on this 
 
     **Note:** The system property **com.snc.pa.formula\_indicator\_valid\_breakdown** controls this behavior. By default, it is true. Changing it to false allows you to apply a breakdown to a formula indicator when at least one contributing indicator uses that breakdown. Attempts to view scores for unsupported breakdowns in a widget, the Analytics Hub, or KPI Details result in a warning message instead of a value.
 
-    You cannot select a breakdown element in the formula indicator record. The breakdown can only be used interactively, meaning on the Analytics Hub, KPI Details, appropriately configured data visualizations, and dashboards. For information about using the **Manage breakdowns** tool, see [Assign and map breakdowns](create-breakdown-mapping.md#).
+    You cannot select a breakdown element in the formula indicator record. The breakdown can only be used interactively, meaning on the Analytics Hub, KPI Details, appropriately configured data visualizations, and dashboards. For information about using the **Manage breakdowns** tool, see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-breakdown-mapping.md).
 
 
 ## Incident Backlog Growth
@@ -237,28 +236,28 @@ You need a new Backlog Growth KPI to measure the volume of outstanding incidents
 [[Number of new incident]] - [[Number of resolved incidents]]
 ```
 
-![Incident backlog growth indicator record.](../image/incident-backlog-growth.png)
+\[Omitted image "incident-backlog-growth.png"\] Alt text: Incident backlog growth indicator record.
 
 By turning on **Show in library**, you make the indicator visible in KPI Details. In the information panel on KPI Details, you can see the formula used in the indicator.
 
-![The Incident Backlog Growth indicator in KPI Details](../image/formula-indic-incident-bklog-growth.png)
+\[Omitted image "formula-indic-incident-bklog-growth.png"\] Alt text: The Incident Backlog Growth indicator in KPI Details
 
-**Parent Topic:**[Formula indicators](../concept/formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 
 
-[Get analytics methods in formulas](get-indicator-analytics.md)
+[Get analytics methods in formulas]()
 
-[Prevent a contributing indicator in a formula from following breakdowns](../concept/c_ExcludingBreakdownsFromFormulas.md)
+[Prevent a contributing indicator in a formula from following breakdowns]()
 
-[Breakdown matrices in formula indicators](../concept/bkdown-matrix-formula-indicators.md)
+[Breakdown matrices in formula indicators]()
 
-[Applying time series to result or to contributing indicators](../concept/apply-time-series-result-components.md)
+[Applying time series to result or to contributing indicators]()
 
-[Detect indicators with no scores in a formula](detect-indicators-no-scores-formula.md)
+[Detect indicators with no scores in a formula]()
 
-[Indexing multiple indicators in a formula](../concept/index-indicators.md)
+[Indexing multiple indicators in a formula]()
 
-[Changes to score\_start/end because of different user time zones](../concept/time-zones-indicator-formulas.md)
+[Changes to score\_start/end because of different user time zones]()
 

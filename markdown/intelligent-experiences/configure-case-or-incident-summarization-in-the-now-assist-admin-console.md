@@ -2,9 +2,10 @@
 title: Configure case or incident summarization in the Now Assist Admin console
 description: Configure case or incident summarization by using the guided setup in the Now Assist Admin console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Configure, Case, incident, record, summarization, Now Assist, guided setup, admin console, gen AI, generative AI]
 breadcrumb: [Make a copy of a Now Assist skill, Using Now Assist Admin, Now Assist, Enable AI experiences]
@@ -14,11 +15,11 @@ breadcrumb: [Make a copy of a Now Assist skill, Using Now Assist Admin, Now Assi
 
 Configure case or incident summarization by using the guided setup in the Now Assist Admin console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
 
-Prompt configurability in the Now Assist Admin console for setting up case/incident summarization skill copies 
+\[Omitted video\] Description: Prompt configurability in the Now Assist Admin console for setting up case/incident summarization skill copies
 
 ## Before you begin
 
-You can only customize the input data and prompt output for a copy of a record summarization skill. To learn more about making a skill copy, see [Make a copy of a Now Assist skill](make-a-copy-of-a-now-assist-skill.md). After you create a skill copy, you can learn the steps to complete the skill setup here.
+You can only customize the input data and prompt output for a copy of a record summarization skill. To learn more about making a skill copy, see [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md). After you create a skill copy, you can learn the steps to complete the skill setup here.
 
 Role required: nsa\_admin
 
@@ -48,39 +49,39 @@ By default, many settings for Now Assist record summarization are optimized for 
 
         Each base input table field requires a description. The description informs the large language model \(LLM\) what the field is for and how the information should be interpreted. The more information that you put in the description means that the model has more context for the data.
 
-        ![Choose an input template, add the base table input fields, and use the save template button to save your work.](../image/na-record-summarization-input1.png)
+        \[Omitted image "na-record-summarization-input1.png"\] Alt text: Choose an input template, add the base table input fields, and use the save template button to save your work.
 
     3.  Add or modify the rule conditions for the base table.
 
         The rule conditions determine when the input template is used. Record summarization is only available to the records that match the rule conditions of an input template.
 
-        ![Add rule conditions to the base input table.](../image/na-record-summarization-input2.png)
+        \[Omitted image "na-record-summarization-input2.png"\] Alt text: Add rule conditions to the base input table.
 
     4.  Add additional input data sources by selecting **New data source** and choosing either **Related Table** or **Activity: Email**.
 
         Each related table is configured with input fields and descriptions. More specific descriptions for related tables help provide more context to the LLM. Activity fields, such as Email, don't have input fields that you can configure.
 
-        ![Add additional input data sources such as related tables and activity fields.](../image/na-record-summarization-input3.png)
+        \[Omitted image "na-record-summarization-input3.png"\] Alt text: Add additional input data sources such as related tables and activity fields.
 
     5.  Add a filter condition to the related table.
 
         You can add more rule conditions to the related table. These rule conditions determine whether the data from the additional data source is incorporated into the summary. You can generate summaries on cases that don't match additional data source rule conditions as long as the base table rule conditions are met.
 
-        ![Add extra rule conditions to the related table.](../image/na-record-summarization-input4.png)
+        \[Omitted image "na-record-summarization-input4.png"\] Alt text: Add extra rule conditions to the related table.
 
 5.  Select **Save and continue**.
 
 6.  Choose prompt output sections to appear in summaries by moving a prompt section in the Available prompt sections list to the Final prompt sections list.
 
-    You can reorder sections by dragging the boxes in the Final prompt sections list. Some input templates have sections that are marked with the lock icon \(![Lock icon.](../image/na-lock-icon.png)\). These sections must appear in the final summary, but you can still reorder them with any sections you have added.
+    You can reorder sections by dragging the boxes in the Final prompt sections list. Some input templates have sections that are marked with the lock icon \(\[Omitted image "na-lock-icon.png"\] Alt text: Lock icon.\). These sections must appear in the final summary, but you can still reorder them with any sections you have added.
 
-    ![Add prompt output sections to the summary. The SLA has been added here.](../image/na-record-summarization-prompt1.png)
+    \[Omitted image "na-record-summarization-prompt1.png"\] Alt text: Add prompt output sections to the summary. The SLA has been added here.
 
 7.  In the Test response panel, select a record from the **Choose a record** field.
 
 8.  Generate a summary for the chosen record by selecting **Run Test**.
 
-    **Important:** Each time that you test your prompt output, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
+    **Important:** Each time that you test your prompt output, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, Monitoring Now Assist usage in Subscription Management.
 
     Running multiple tests with different records can help ensure that you're satisfied with the results.
 
@@ -100,7 +101,7 @@ By default, many settings for Now Assist record summarization are optimized for 
 
         For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](activate-now-assist-panel.md).
+    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
         For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 
@@ -117,7 +118,7 @@ Your customized version of case or incident summarization is active on the insta
 
 ## What to do next
 
-Analyze your skill performance on the Now Assist Admin console to help determine the success of the new version of the skill. Learn more about tracking Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
+Analyze your skill performance on the Now Assist Admin console to help determine the success of the new version of the skill. Learn more about tracking Now Assist usage at .
 
-**Parent Topic:**[Make a copy of a Now Assist skill](make-a-copy-of-a-now-assist-skill.md)
+**Parent Topic:**[Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
 

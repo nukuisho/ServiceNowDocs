@@ -2,6 +2,7 @@
 title: Public Sector Digital Services Grants Management Data Model
 description: This section outlines the Grants Management data model and the tables installed with the Grants Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-gm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,10 +16,10 @@ This section outlines the Grants Management data model and the tables installed 
 
 The following logical diagram shows the tables and their relationships within the Grants Management data model.
 
-![Public Sector Digital Services Grants Management Data Model](../image/psds-datamodel-grants.png "Grants Management Data Model")
+\[Omitted image "psds-datamodel-grants-q2-2026.png"\] Alt text: Public Sector Digital Services Grants Management Data Model
 
--   **[Tables installed with Grants Management](../reference/psds-data-model-gm-tables.md)**  
+-   **[Tables installed with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-gm-tables.md)**  
 This section describes the tables installed with the Grants Management application and shows how they store and manage information.
 
-**Parent Topic:**[Public Sector Digital Services Data Model](public-sector-digital-services-data-model.md)
+**Parent Topic:**[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services-data-model.md)
 

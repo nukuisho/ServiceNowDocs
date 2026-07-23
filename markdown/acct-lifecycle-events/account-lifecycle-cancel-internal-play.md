@@ -2,11 +2,12 @@
 title: Close or cancel an internal play
 description: You can close or cancel an internal play and all the related tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-cancel-internal-play.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create an internal play, Manage playbooks, Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Create an internal play, Manage playbooks, Customer success, Use, Customer Success Management]
 ---
 
 # Close or cancel an internal play
@@ -33,12 +34,12 @@ Role required: sn\_acct\_lc.customer\_success\_agent
 
 6.  Select **Yes** in the confirmation window to continue.
 
-    The internal play along with all associated child internal play tasks will be canceled or closed and the Progress is set to **Finished**.
+    The internal play along with all associated child internal play tasks will be canceled or closed and the Progress is set to **Canceled** or **Closed**.
 
     **Note:**
 
     -   Before you close an internal play, you must ensure that no associated child tasks are open. If an associated child task is still open, a warning message is displayed. You must first close or cancel the child tasks and then proceed with closing the internal play task.
     -   When you try to **Cancel** an internal play, you will see a confirmation message indicating that all child tasks will be canceled. Select **Yes** to continue and cancel the internal play.
 
-**Parent Topic:**[Create an internal play playbook](account-lifecycle-create-internal-play-playbook.md)
+**Parent Topic:**[Create an internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md)
 

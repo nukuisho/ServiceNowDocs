@@ -2,6 +2,7 @@
 title: Plan and execute recall campaign phases and sub-phases using Now Assist for Manufacturing Commercial Operations \(MCO\)
 description: Plan and execute recall campaign phases and sub-phases AI agent enables product recall campaigns to generate and manage phase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Plan and Execute Recall Campaign Phases AI agent generates and manages recall ca
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **Phases &amp; Sub-phases**.
 
-2.  Select the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png) to launch the Now Assist panel.
+2.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: to launch the Now Assist panel.
 
 3.  Submit a request to create phases for my recall campaign.
 
@@ -55,5 +56,5 @@ Plan and Execute Recall Campaign Phases AI agent generates and manages recall ca
 **Related topics**  
 
 
-[Recall a campaign phase](../../mftg-manufacturing/task/mco-recall-campaign-phases.md)
+[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-recall-campaign-phases.md)
 

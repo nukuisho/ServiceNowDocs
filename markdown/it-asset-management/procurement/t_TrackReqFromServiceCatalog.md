@@ -2,13 +2,14 @@
 title: Track a request from the service catalog
 description: The Procurement application lets you track a request that was ordered from the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_TrackReqFromServiceCatalog.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Procurement purchase order management for assets, Procurement, IT Asset Management]
+breadcrumb: [Procurement purchase order management for assets, Procurement, Common applications, Asset Management]
 ---
 
 # Track a request from the service catalog
@@ -38,16 +39,16 @@ Request REQ0000001: 4 items
     The **Requested Items** related list displays the items that were ordered. You can view the requested item, or view associated **Purchase Orders**, **Transfer Orders**, and **Assignments** on other related lists. A catalog task is automatically generated for each requested item to identify the source of the item, whether it must be purchased or transferred from a stockroom.
 
 
-**Parent Topic:**[Procurement purchase order management for assets](../concept/c_UseProcurement.md)
+**Parent Topic:**[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_UseProcurement.md)
 
 **Related topics**  
 
 
-[Cancel a request from the service catalog](t_CancelReqFromServCatalog.md)
+[Cancel a request from the service catalog]()
 
-[View and edit a catalog task](t_ViewAndEditACatalogTask.md)
+[View and edit a catalog task]()
 
-[Create a purchase order](t_CreateAPurchaseOrder.md)
+[Create a purchase order]()
 
-[Create an asset and reserve it for the requester](t_CreateAssetReserveForRequester.md)
+[Create an asset and reserve it for the requester]()
 

@@ -2,13 +2,14 @@
 title: Configure Microsoft Azure
 description: Set up a strict mode authentication with Microsoft Azure to connect Microsoft Exchange Online with Workplace Calendar Synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/auth-mxex-with-azure-strict-mode.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a strict mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create a strict mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure Microsoft Azure
@@ -89,22 +90,22 @@ Add strict mode permissions to synchronize Workplace Calendar Synchronization wi
 
 ## What to do next
 
-[Create a strict mode configuration in Microsoft Exchange Online](strict-mode-configuration-in-msex.md).
+[Create a strict mode configuration in Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/strict-mode-configuration-in-msex.md).
 
-**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](../concept/strict-mode-configurations-for-connection-with-msex.md)
+**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md)
 
 **Related topics**  
 
 
-[Create connection with Microsoft Exchange Online Spoke in strict mode](create-connection-with-msspoke-strict-mode.md)
+[Create connection with Microsoft Exchange Online Spoke in strict mode]()
 
-[Create a strict mode configuration in Microsoft Exchange Online](strict-mode-configuration-in-msex.md)
+[Create a strict mode configuration in Microsoft Exchange Online]()
 
-[Setup strict mode OAuth connectivity with Microsoft Exchange Online](setup-strict-mode-oauth-connectivity-with-msex.md)
+[Setup strict mode OAuth connectivity with Microsoft Exchange Online]()
 
-[Configure strict mode Connection and Credential alias for Microsoft Exchange Online](configure-strict-mode-connection-and-credential-alias-for-msex.md)
+[Configure strict mode Connection and Credential alias for Microsoft Exchange Online]()
 
-[Create your own credential and connection alias for strict mode](create-own-credential-and-connection-alias-for-strict-mode.md)
+[Create your own credential and connection alias for strict mode]()
 
-[Configure Microsoft Exchange Online calendar provider in strict mode](configure-msex-strict-mode-calendar-providers.md)
+[Configure Microsoft Exchange Online calendar provider in strict mode]()
 

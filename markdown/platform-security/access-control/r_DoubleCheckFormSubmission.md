@@ -2,13 +2,14 @@
 title: Double-check form submission
 description: When the system determines that a particular field \(such as task.number\) should not be written to by the current user, the system renders that field in a read-only mode, which is why the number field is not writable on most incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/r\_DoubleCheckFormSubmission.html
 release: australia
 product: Access Control
 classification: access-control
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contextual Security Manager, Access Control List Rules, Access Management]
+breadcrumb: [Contextual Security Manager, Access Control Lists, Access Management]
 ---
 
 # Double-check form submission

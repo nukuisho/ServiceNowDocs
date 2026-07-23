@@ -1,17 +1,18 @@
 ---
-title: AI agents in Now Assist for Setup
-description: Refer to the following information about the Platform AI agents in Now Assist for Setup.
+title: AI agents in Setup Hub
+description: Refer to the following information about the Platform AI agents in Setup Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-agents-platform.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-03"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# AI agents in Now Assist for Setup
+# AI agents in Setup Hub
 
-Refer to the following information about the Platform AI agents in Now Assist for Setup.
+Refer to the following information about the Platform AI agents in Setup Hub.
 
 **Note:** The **Configure with Now Assist** button appears only for console items that are backed by AI capabilities.
 
@@ -70,5 +71,5 @@ SSO Configuration Agent
 Automates Single Sign-On setup \(OIDC and SAML\) in ServiceNow using identity provider configuration data. Supports Q&amp;A and troubleshooting throughout the setup process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for Setup references](ia-reference.md)
+</table>**Parent Topic:**[Setup Hub references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
 

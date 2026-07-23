@@ -2,6 +2,7 @@
 title: System properties to send data
 description: Review the system properties for TISC integrations to combine with SIRW. You can configure these properties to control how both applications manages the integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/tisc-integrations-system-properties.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,20 +33,20 @@ The following lists shows the system properties for TISC - SIR integration:
 -   Push observables: Enable sn\_ti.automatic\_push\_observable\_to\_tisc this system property to push observables data automatically to TISC. If disabled, security analysts can still push the observables data manually.
 -   Push enrichment results: Enable sn\_ti.automatic\_push\_enichment\_results this system property to push enrichment results data automatically to TISC. If disabled, security analysts can still push the enrichment results data manually.
 
-**Parent Topic:**[Send data from SIR Workspace to TISC](../concept/send-sir-to-tisc.md)
+**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
 
 **Related topics**  
 
 
-[Add security incident to TISC case](../task/add-incident-to-case.md)
+[Add security incident to TISC case]()
 
-[Add observables to TISC Case](../task/observables-to-case.md)
+[Add observables to TISC Case]()
 
-[Send Observables to TISC](../task/tisc-context-in-sir-workspace.md)
+[Send Observables to TISC]()
 
-[Send Threat Lookup to TISC](../task/send-threat-lookup-to-tisc.md)
+[Send Threat Lookup to TISC]()
 
-[Send Sighting Search to TISC](../task/send-sighting-search-to-tisc.md)
+[Send Sighting Search to TISC]()
 
-[Send Observable Enrichment to TISC](../task/send-observable-enrichment-to-tisc.md)
+[Send Observable Enrichment to TISC]()
 

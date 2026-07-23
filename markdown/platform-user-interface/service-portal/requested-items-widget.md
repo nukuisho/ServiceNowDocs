@@ -2,6 +2,7 @@
 title: Requested Items widget
 description: Describes at what stage of the order a requested item is. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/requested-items-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -15,13 +16,13 @@ breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Conf
 
 Describes at what stage of the order a requested item is. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-You can define different workflows for items directly within the Service Catalog module. For more information on Service Catalog workflows, see [Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-fulfillment.md).
+You can define different workflows for items directly within the Service Catalog module. For more information on Service Catalog workflows, see [Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-fulfillment.md).
 
-![Requested Items widget](../image/WidgetRequestedItems.png "Requested Items widget")
+\[Omitted image "WidgetRequestedItems.png"\] Alt text: Requested Items widget
 
 ## Instance options
 
-![Requested Items instance options](../image/InstanceOptionsRequestedItems.png "Requested Items widget instance options")
+\[Omitted image "InstanceOptionsRequestedItems.png"\] Alt text: Requested Items instance options
 
 |Field|Description|
 |-----|-----------|
@@ -33,46 +34,46 @@ You can define different workflows for items directly within the Service Catalog
 |Link to this page|Page that opens when the user clicks an item|
 |Maximum entries|Max number of entries that appear in the list of requested items|
 
-**Parent Topic:**[Service Catalog widgets](sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
 
-[Catalog Content widget](catalog-content-widget.md)
+[Catalog Content widget]()
 
-[Catalog Homepage Search widget](cat-homepage-search-widget.md)
+[Catalog Homepage Search widget]()
 
-[Recent &amp; Popular Items widget](recent-and-popular-items-widget.md)
+[Recent &amp; Popular Items widget]()
 
-[Request Fields widget](request-fields-widget.md)
+[Request Fields widget]()
 
-[Requests and Approvals widget](requests-and-approvals-widget.md)
+[Requests and Approvals widget]()
 
-[SC Catalog Item widget](sc-catalog-item-widget.md)
+[SC Catalog Item widget]()
 
-[SC Categories widget](sc-categories-widget.md)
+[SC Categories widget]()
 
-[SC Category Page widget](sc-category-page-widget.md)
+[SC Category Page widget]()
 
-[SC Order Guide widget](sc-order-guide-widget.md)
+[SC Order Guide widget]()
 
-[SC Popular Items widget](sc-popular-items.md)
+[SC Popular Items widget]()
 
-[SC Save Bundles widget](save-bundles-widget.md)
+[SC Save Bundles widget]()
 
-[SC Saved Carts widget](saved-cart-widget.md)
+[SC Saved Carts widget]()
 
-[SC Scroll to top widget](sc-scroll-to-top.md)
+[SC Scroll to top widget]()
 
-[SC Shopping Cart widget](sc-shopping-cart.md)
+[SC Shopping Cart widget]()
 
-[SP Variable Editor widget](variable-editor-widget.md)
+[SP Variable Editor widget]()
 
-[SC Wish List Cart widget](sc-wish-list.md)
+[SC Wish List Cart widget]()
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

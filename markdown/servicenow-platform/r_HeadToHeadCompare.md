@@ -2,6 +2,7 @@
 title: Assessment scorecard head-to-head compare view
 description: The Head to Head Compare view allows you to compare the ratings of two assessable records of the same type. Select an assessable record from the choice list to compare against the current record's trailing twelve month \(TTM\) ratings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_HeadToHeadCompare.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ The Head to Head Compare view allows you to compare the ratings of two assessabl
 
 The Diff column displays the difference between each assessable record's most recent TTM ratings. By default, the system selects the first assessable record in the list when you open this view. The scorecard displays three years of ratings for the comparison record. All ratings are expressed as averages.
 
-![](../images/ScorecardHeadToHeadCompare.png "Scorecard head to head compare")
+\[Omitted image "ScorecardHeadToHeadCompare.png"\] Alt text:
 
 ## Overall Rating
 
@@ -33,26 +34,26 @@ In the following example, the calculation is
 (2.13 + 2.86 + 3.79 + 1.43 + 2.39 + 3.7) / 2 = 8.15
 ```
 
-![Assessment category result normalized values](../images/RatingWeight.png "Normalized values")
+\[Omitted image "RatingWeight.png"\] Alt text: Assessment category result normalized values
 
-![Overall rating on the group scorecard](../images/OverallRatingExample.png "Overall Rating on the group scorecard")
+\[Omitted image "OverallRatingExample.png"\] Alt text: Overall rating on the group scorecard
 
-**Parent Topic:**[View an assessment scorecard](../task/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 
 
-[Create a link to a scorecard](../task/t_CreateALinkToAScorecard.md)
+[Create a link to a scorecard]()
 
-[Assessment scorecard averages](r_Averages.md)
+[Assessment scorecard averages]()
 
-[Assessment scorecard categories](r_Categories.md)
+[Assessment scorecard categories]()
 
-[Assessment scorecard category metrics](r_CategoryMetrics.md)
+[Assessment scorecard category metrics]()
 
-[Assessment scorecard history](r_History.md)
+[Assessment scorecard history]()
 
-[Live feed view of assessable records](r_LiveFeed.md)
+[Live feed view of assessable records]()
 
-[Assessment scorecard ratings](r_Ratings.md)
+[Assessment scorecard ratings]()
 

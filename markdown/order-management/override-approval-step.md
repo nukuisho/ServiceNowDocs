@@ -2,11 +2,12 @@
 title: Override an approver
 description: Override the approver in an approval step if the approval is no longer required, to help prevent the approval workflow from being blocked.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/override-approval-step.html
 release: australia
 topic_type: task
 last_updated: "2026-03-23"
 reading_time_minutes: 1
-breadcrumb: [Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create an approval configuration, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Override an approver
@@ -25,7 +26,7 @@ As an approval admin with the approval request writer role, use this procedure t
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the ![](../../../reuse/icons/product-icons/list-outline-24.svg)List icon.
+2.  Select the \[Omitted image "list-outline-24.svg"\] Alt text:List icon.
 
 3.  Navigate to the approval request.
 

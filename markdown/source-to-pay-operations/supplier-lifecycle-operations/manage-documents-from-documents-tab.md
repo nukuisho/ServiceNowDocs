@@ -2,6 +2,7 @@
 title: Manage documents from Documents tab
 description: The Documents tab lets supplier contacts upload and manage documents without needing a supplier manager to initiate the process first. Supplier contacts can also manage document permissions from the Documents tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-documents-tab.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -29,15 +30,15 @@ Role required: sn\_slm.contact
 
 3.  Upload, download, maintain versions, or manage permissions for documents as follows.
 
-<table><thead><tr><th align="left" id="d188355e89">
+<table><thead><tr><th align="left" id="d207826e100">
 
 Action
 
-</th><th align="left" id="d188355e92">
+</th><th align="left" id="d207826e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d188355e98">
+</th></tr></thead><tbody><tr><td id="d207826e109">
 
 **Create a new document**
 
@@ -51,7 +52,7 @@ Use this option to upload documents without needing a supplier manager to initia
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d188355e133">
+</td></tr><tr><td id="d207826e144">
 
 **Upload a new version**
 
@@ -64,7 +65,7 @@ Use this option when you want to upload a new version of an existing document:1.
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d188355e171">
+</td></tr><tr><td id="d207826e182">
 
 **Manage document permissions**
 
@@ -78,7 +79,7 @@ Use this option to manage read and write permissions for a document.
 
 **Note:** The document owner and primary supplier contact are automatically granted read and write access. Secondary contacts are granted read access by default.
 
-</td></tr><tr><td id="d188355e200">
+</td></tr><tr><td id="d207826e211">
 
 **Download a document**
 
@@ -94,17 +95,17 @@ Download the latest or specific version of a document.
 
 
 </td></tr></tbody>
-</table>    ![Document details page.](../image/documents-tab-supp-collab.png)
+</table>    \[Omitted image "documents-tab-supp-collab.png"\] Alt text: Document details page.
 
 
-**Parent Topic:**[Manage documents from the Supplier Collaboration Portal](upload-doc-portal.md)
+**Parent Topic:**[Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md)
 
 **Related topics**  
 
 
-[Configure document expiration monitoring attributes](configure-document-expiration-monitoring-attributes.md)
+[Configure document expiration monitoring attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-document-expiration-monitoring-attributes.md)
 
-[Manage documents from My Company page](manage-documents-from-my-company.md)
+[Manage documents from My Company page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/manage-documents-from-my-company.md)
 
-[Upload document from My Tasks page](upload-document-from-my-tasks-page.md)
+[Upload document from My Tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-document-from-my-tasks-page.md)
 

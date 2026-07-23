@@ -2,13 +2,14 @@
 title: Create condition templates for condition attributes
 description: Create a condition template and associate the template to condition attributes for enterprise models and assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-condition-template-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Asset conditions, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Asset conditions, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create condition templates for condition attributes
@@ -67,10 +68,10 @@ Create condition templates before defining condition attributes on enterprise mo
     If you don’t publish the template, the template won’t be available in the condition template picker when creating condition attributes.
 
 
-**Parent Topic:**[Asset conditions in Enterprise Asset Management](../concept/asset-conditions-eam.md)
+**Parent Topic:**[Asset conditions in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-conditions-eam.md)
 
 **Related topics**  
 
 
-[Define condition attributes on enterprise models and assets](create-condition-attribute-eam.md)
+[Define condition attributes on enterprise models and assets]()
 

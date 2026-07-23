@@ -2,6 +2,7 @@
 title: Scoped knowledge bases
 description: To protect knowledge bases containing sensitive articles, use a scoped knowledge base. Even system administrators and knowledge administrators can't administer scoped knowledge bases unless explicitly authorized through user criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/scoped-knowledge-base-administration-lsd.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -28,9 +29,9 @@ To create a scoped knowledge base for an application, in addition to the knowled
 **Related topics**  
 
 
-[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md)
+[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-a-knowledgebase.md)
 
 [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md)
 
-[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
+[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SelectUserCriteria.md)
 

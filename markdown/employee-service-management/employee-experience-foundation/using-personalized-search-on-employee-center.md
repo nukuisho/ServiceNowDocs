@@ -2,6 +2,7 @@
 title: Use Personalized Answers
 description: Employees can use the AI-search enabled feature to seek information about their leave balance and more on the Employee Center search page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/using-personalized-search-on-employee-center.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,42 +22,44 @@ Personalized Answers- time off feature has location-specific data. The default t
 
 Employees can simply go to the Employee Center search page and look for their remaining paid time-off time. In addition to searching for all kinds of leave balances, the employees can search for information about types of leave. For example, an employee can search for 'how much sick leave do I have left' to see information pertaining to only sick leave.
 
-![Personalised answer result page showing leave balance.](../images/pto-ss.jpg "Personalized answer page for leave balance")
+\[Omitted image "pto-ss.jpg"\] Alt text: Personalised answer result page showing leave balance.
 
 Employee can quickly scan the remainder of leaves for the year and select **Request For Leaves** to apply for it. **View Policy** is entirely company-specific.
 
-**Parent Topic:**[Using Employee Center](using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
 
-[Use the Employee Center topic pages](ec-topic-use.md)
+[Use the Employee Center topic pages]()
 
-[Topic managers and contributors for topic page management](topic-managers-and-contributors-for-topic-page-management.md)
+[Topic managers and contributors for topic page management]()
 
-[Use the My To-dos page](../task/ec-to-dos-use.md)
+[Use the My To-dos page]()
 
-[Use approval experience](../task/ec-to-dos-use-approval-hub.md)
+[Use approval experience]()
 
-[Manage approvals from Microsoft Teams](../../sn-teams/task/va-concur.md)
+[Manage approvals from Microsoft Teams]()
 
-[Manage approvals from a Microsoft Outlook email](../../sn-ms-outlook/task/oam-concur.md)
+[Manage approvals from a Microsoft Outlook email]()
 
-[Task filters on My tasks](configurable-filters-experience.md)
+[Task filters on My tasks]()
 
-[View the Recommended for you content](rfy-employee.md)
+[View the Recommended for you content]()
 
-[Use Employee Center from Zoom](../task/zoom-create-email-notification.md)
+[Use Employee Center from Zoom]()
 
-[View employee profile](update-employee-profile.md)
+[View employee profile]()
 
-[Employee Profile org chart widget](../task/view-org-chart.md)
+[Use Employee Profile with HR Service Delivery]()
 
-[RTL support for Employee Center](ec-rtl-language-support.md)
+[Employee Profile org chart widget]()
 
-[Manage favorites](../task/web-configure-favorites-employee.md)
+[RTL support for Employee Center]()
 
-[Access applications from App Launcher](web-application-employee.md)
+[Manage favorites]()
 
-[Use Guided Self-Service](gss-guided-self-service-homepage.md)
+[Access applications from App Launcher]()
+
+[Use Guided Self-Service]()
 

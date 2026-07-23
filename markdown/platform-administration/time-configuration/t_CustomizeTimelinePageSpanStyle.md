@@ -2,6 +2,7 @@
 title: Customize the timeline page span style
 description: The Timeline Page Span Styles related list allows you to define conditional span styles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_CustomizeTimelinePageSpanStyle.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -35,5 +36,5 @@ The Timeline Page Span Styles related list allows you to define conditional span
     |Timeline page|Timeline page to which the span style applies. By default, the span applies to the current timeline.|
 
 
-**Parent Topic:**[Timeline pages](../concept/c_TimelinePages.md)
+**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md)
 

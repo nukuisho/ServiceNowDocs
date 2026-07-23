@@ -12,50 +12,48 @@ reading_time_minutes: 2
 
 The ServiceNow® Journey designer application enables employees and managers in your organization to initiate and manage journeys to drive employee engagement and productivity.
 
-Journey designer Getting started
-
 Journey designer uses Journey Accelerator and Lifecycle Events to create a unified journey experience for employees and managers in the Employee Center. Journeys offer a unique user experience. In the back-end, records are created using Journey designer, Journey Accelerator, and Lifecycle Events components to pull together a customized journey for employees.
 
 <table id="jny-dsgn-info-model-table" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn how Journey designer helps facilitate journey creation, management, and completion.](jny-dsgnr-explore.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn how Journey designer helps facilitate journey creation, management, and completion.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-explore.md)
 
 </td><td>
 
-[Install ![](../../../common/image/icon-install.png) Install the Journey designer app and its features.](jny-inst-config-overview.md)
+[Install \[Omitted image "icon-install.png"\] Alt text: Install the Journey designer app and its features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-inst-config-overview.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure Journey designer](jny-dsgnr-configuration.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Managers, mentors, and employees work with journeys from the Employee Center.](jny-working-with-journeys.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Managers, mentors, and employees work with journeys from the Employee Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-working-with-journeys.md)
 
 </td><td>
 
-[Integrate ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Extend Journey designer capabilities by integrating with other applications.](jny-integrations-1.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Journey designer capabilities by integrating with other applications.]()
 
 </td><td>
 
-[Journey plan configuration review and approval process ![](../../../reuse/icons/brand-icons/bus-1-1-meetings.svg) Create, manage, and use Journey designer plan configuration templates](jny-process-owners-maint.md)
+[Journey plan configuration review and approval process \[Omitted image "bus-1-1-meetings.svg"\] Alt text: Create, manage, and use Journey designer plan configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-process-owners-maint.md)
 
 </td></tr><tr><td>
 
-[Journeys on Now Mobile ![](../image/icon-hrsd-mobile.png)](journeys-mobile-now.md)
+[Journeys on Now Mobile \[Omitted image "icon-hrsd-mobile.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/journeys-mobile-now.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions ![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg) Monitor journey data in reports and dashboards.](../reference/jny-report-dashboards.md)
+[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Monitor journey data in reports and dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-report-dashboards.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like roles, fields, tables, and properties.](../reference/jny-dsnr-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like roles, fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsnr-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Additional resources
 

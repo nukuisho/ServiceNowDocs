@@ -2,6 +2,7 @@
 title: Define the agent criteria for Universal Task
 description: Define the criteria for an agent so that the agent can access the parent table for Universal Task. The default criteria is that agents must have write access to the parent table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/ut-config-extn-point-agent.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -31,16 +32,16 @@ By using an extension point, you can add more conditions for agents to qualify a
 
 3.  To create an extension point script that defines the agent criteria for your service, click **Create Implementations** in the related link.
 
-    To know more about extension points, see .
+    To know more about extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 4.  Specify the criteria for an agent to have access to the parent table.
 
     For example, you might want to ensure that the agent belongs to a specific assignment group in addition to having write access for the parent table.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Add a Task tab on the Standard Ticket page](config-stdtktpage-for-ut.md)
+**Previous topic:**[Add a Task tab on the Standard Ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-stdtktpage-for-ut.md)
 
-**Next topic:**[Configure Universal Task for your service](config-ut-for-service.md)
+**Next topic:**[Configure Universal Task for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-ut-for-service.md)
 

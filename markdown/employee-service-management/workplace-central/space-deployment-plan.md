@@ -2,6 +2,7 @@
 title: Space Deployment Plan
 description: A space deployment plan contains information about how the changes made in the scenario impact the building's spaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/space-deployment-plan.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -102,40 +103,40 @@ Workplace case
 Workplace case record that is created for allocation changes to the workplace location.Workplace cases are created after a scenario is deployed. The value in this column is empty for assignment type changes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](../concept/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Central](components-installed-with-workplace-central.md)
+[Components installed with Workplace Central]()
 
-[Space Optimization - Key features and actions](space-optmization-features-and-actions-.md)
+[Space Optimization - Key features and actions]()
 
-[Workplace Central Event planner](event-planner-key-features-actions-views.md)
+[Workplace Central Event planner]()
 
-[Scenario and Building - Views, states, settings, and key features](scenario-planning-views-actions-keyfeatures-.md)
+[Scenario and Building - Views, states, settings, and key features]()
 
-[Space request approvals, states, actions, and key features](space-request-states-and-view.md)
+[Space request approvals, states, actions, and key features]()
 
-[Move management key features and actions](move-mgmt-views-states-actions.md)
+[Move management key features and actions]()
 
-[Case Management - Key features, Actions &amp; Case details](case-management-key-features-actions-case-details.md)
+[Case Management - Key features, Actions &amp; Case details]()
 
-[Schedule Plan details form](schedule-plan-details-form.md)
+[Schedule Plan details form]()
 
-[Scenario details form](scenario-details-form.md)
+[Scenario details form]()
 
-[User Deployment Plan](user-deployment-plan.md)
+[User Deployment Plan]()
 
-[Excel column lengths for move projects](move-excel-char-limit.md)
+[Excel column lengths for move projects]()
 
-[Move conflicts for projects created via Excel upload](excel-upload-conflicts.md)
+[Move conflicts for projects created via Excel upload]()
 
-[Workplace Central troubleshooting](workplace-central-troubleshooting.md)
+[Workplace Central troubleshooting]()
 
-[Workplace Task form - Space Assignment task](workplace-task-space-assignment.md)
+[Workplace Task form - Space Assignment task]()
 
-[Neighborhood User Assignment Rule form](user-assignment-rule-form.md)
+[Neighborhood User Assignment Rule form]()
 
-[User Workplace Profile form](user-workplace-profile-form.md)
+[User Workplace Profile form]()
 

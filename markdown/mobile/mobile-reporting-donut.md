@@ -2,6 +2,7 @@
 title: Donut reports for mobile
 description: Learn to use donut reports for mobile, which enable you to see the portions and percentages between different priorities at a single glance. For example, a donut report showing open incidents by priority, enables you to see whether incident counts of different priorities are within acceptable ranges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-reporting-donut.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Using data visualizations, Mobile platform dashboards, Using the mo
 
 Learn to use donut reports for mobile, which enable you to see the portions and percentages between different priorities at a single glance. For example, a donut report showing open incidents by priority, enables you to see whether incident counts of different priorities are within acceptable ranges.
 
-**Note:** For information on how to configure donut reports, you need to create mobile dashboard previews within a launcher screen. For more information, see [Launcher screens](sg-mobile-applet-launcher.md) and [Mobile dashboard preview](mobile-dashboard-preview.md).
+**Note:** For information on how to configure donut reports, you need to create mobile dashboard previews within a launcher screen. For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-applet-launcher.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-dashboard-preview.md).
 
 <table id="simpletable_obp_wbz_21c"><tbody><tr><td>
 
@@ -21,13 +22,13 @@ To display a donut report, tap on the dashboard preview in a launcher screen. Al
 
  Tap on a donut segment to display in the header the number of records contained in that segment. Also displayed in the header is the percentage of records for that selected segment, compared to the remaining segment records within the chart.
 
- To list records related to the selected segment, tap the segment, then tap the navigation arrow \(![Button for specific records.](../image/button-specifc-records.png)\) in the chart header. Tap the list icon \(![Button to display all records.](../image/button-all-records.png)\) in the screen header, to display a list of all the records contained within the donut chart.
+ To list records related to the selected segment, tap the segment, then tap the navigation arrow \(\[Omitted image "button-specifc-records.png"\] Alt text: Button for specific records.\) in the chart header. Tap the list icon \(\[Omitted image "button-all-records.png"\] Alt text: Button to display all records.\) in the screen header, to display a list of all the records contained within the donut chart.
 
  Use the legend at the bottom of the chart to include or omit segments from the donut. As you add or remove filters, the data in the center of the donut report changes to correspond to the records currently displayed in the donut report.
 
 </td><td>
 
-![Section of a donut report.](../image/donut-report.png)
+\[Omitted image "donut-report.png"\] Alt text: Section of a donut report.
 
 </td></tr></tbody>
 </table>

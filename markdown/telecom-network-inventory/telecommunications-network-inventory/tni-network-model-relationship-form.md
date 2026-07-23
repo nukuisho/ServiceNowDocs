@@ -2,6 +2,7 @@
 title: Network Model Relationship fields
 description: The Network Model Relationship form enables you to create a network model relationship.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/tni-network-model-relationship-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -205,7 +206,7 @@ Root product model
 
 </td><td>
 
-Grandparent model of the interface card for compatibility. Either select the equipment model or the interface card model. Then, select the search icon \(![Search icon.](../image/search.png)\) and select a model. **Note:** This attribute is only visible for the **Slot to Interface card** relationship type.
+Grandparent model of the interface card for compatibility. Either select the equipment model or the interface card model. Then, select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a model. **Note:** This attribute is only visible for the **Slot to Interface card** relationship type.
 
 </td></tr><tr><td>
 
@@ -213,7 +214,7 @@ Parent product model
 
 </td><td>
 
-Product model that is the parent to the child product model. Select the search icon \(![Search icon.](../image/search.png)\) and select a model.**Note:** In the Rack-to-Slot relationship, the parent product model is the equipment holder model with the model category as Rack.
+Product model that is the parent to the child product model. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a model.**Note:** In the Rack-to-Slot relationship, the parent product model is the equipment holder model with the model category as Rack.
 
 </td></tr><tr><td>
 
@@ -221,7 +222,7 @@ Child product model
 
 </td><td>
 
-Product model that is the child to the parent product model. Select the search icon \(![Search icon.](../image/search.png)\) and select a model.**Note:** In the Rack to Slot relationship, the child product model is the equipment holder with model category as Slot.
+Product model that is the child to the parent product model. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a model.**Note:** In the Rack to Slot relationship, the child product model is the equipment holder with model category as Slot.
 
 </td></tr><tr><td>
 
@@ -252,10 +253,10 @@ Child bandwidth
 Bandwidth of the child product model.**Note:** This attribute is only visible for the **Logical Connection to Channel** relationship type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Define a network model relationship](../task/create-network-model-relationships.md)
+[Define a network model relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-network-model-relationships.md)
 

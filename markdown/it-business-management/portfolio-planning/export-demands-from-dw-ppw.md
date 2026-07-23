@@ -2,13 +2,14 @@
 title: Export demands
 description: Export demand records from the Next Experience for Demand Management to share data with stakeholders or perform further analysis outside the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/export-demands-from-dw-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Export demands
@@ -33,7 +34,7 @@ Role required: it\_demand\_manager
 
     The export file is created in the selected format.
 
-5.  Select the **Delivery Type** as Download or Email.![Fill in the export form to export the demands.](../../spw-demand/images/demand-export.png)
+5.  Select the **Delivery Type** as Download or Email.\[Omitted image "demand-export.png"\] Alt text: Fill in the export form to export the demands.
 
 6.  Provide your preferred email address if you selected Email as the delivery type.
 

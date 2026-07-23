@@ -2,6 +2,7 @@
 title: Create a release calendar
 description: Create a release calendar to define release readiness targets within it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-create-release-calendar.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -27,11 +28,11 @@ A release calendar provides you with a layout to manage and track release readin
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the release calendar icon \(![Release calendar icon.](../image/dpr-icon-rls-target.png)\).
+2.  Select the release calendar icon \(\[Omitted image "dpr-icon-rls-target.png"\] Alt text: Release calendar icon.\).
 
 3.  Create a release calendar or update an existing one.
 
-    -   To create a release calendar, select the release calendar actions button \(![Release calendar actions button.](../image/dpr-icon-more-actions-v.png)\), and then select **Create release calendar**.
+    -   To create a release calendar, select the release calendar actions button \(\[Omitted image "dpr-icon-more-actions-v.png"\] Alt text: Release calendar actions button.\), and then select **Create release calendar**.
     -   To modify an existing release calendar, open the release calendar from the drop-down list, select the release calendar actions button, and then select **Edit release calendar**.
 4.  In the dialog box, fill in the fields.
 
@@ -75,9 +76,9 @@ Exclusion schedules
 
 Schedules for blackouts, maintenance, or holidays are lists of dates for planned closures or business holidays.Add your organization's schedules to the release calendar to avoid having release targets scheduled on those dates.
 
-The blackouts and maintenance schedules are shown from the Schedule \[cmn\_schedule\] table. For more information, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md).
+The blackouts and maintenance schedules are shown from the Schedule \[cmn\_schedule\] table. For more information, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineASchedule.md).
 
-To include user-defined exclusion schedules under **Others** category, you can configure the system property **sn\_dpr.release\_calendar\_exclusions**. For more information, see [Digital Product Release properties](../reference/digital-product-release-properties.md).
+To include user-defined exclusion schedules under **Others** category, you can configure the system property **sn\_dpr.release\_calendar\_exclusions**. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 </td></tr></tbody>
 </table>5.  Save the release calendar.
@@ -89,17 +90,17 @@ To include user-defined exclusion schedules under **Others** category, you can c
 
 The release calendar is saved and displayed in the calendar layout. Events for the exclusion schedules that are added to the release calendar are shown on specific dates on the calendar.
 
-![Release calendar showing a monthly view with scheduled change requests, release targets, and schedules.](../image/dpr-release-calendar.png "Release calendar")
+\[Omitted image "dpr-release-calendar.png"\] Alt text: Release calendar showing a monthly view with scheduled change requests, release targets, and schedules.
 
 ## What to do next
 
-[Create a release readiness target](dpr-create-rls-readiness-target.md)
+[Create a release readiness target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-rls-readiness-target.md)
 
 **Note:** Release readiness target and Release target are used interchangeably. Both terms refer to the same concept - release readiness target date.
 
 You can perform the following tasks to manage and visualize your release activities:
 
--   Select an event \(release target, release, or change request\) from the release calendar to see a popover with the key details of the event. Select the edit icon \(![Edit icon.](../image/dpr-icon-edit.png)\) to view and edit the event record if you have the required roles.
+-   Select an event \(release target, release, or change request\) from the release calendar to see a popover with the key details of the event. Select the edit icon \(\[Omitted image "dpr-icon-edit.png"\] Alt text: Edit icon.\) to view and edit the event record if you have the required roles.
 -   Use the side panel to view all event details for the selected day, or search for an event.
 -   Use filters to view calendar entries by event type \(release target, release, change request\) or by exclusion schedules \(blackouts, holidays, maintenance\).
 -   Change the timezone to view events on the calendar for the selected timezone.
@@ -108,5 +109,5 @@ You can perform the following tasks to manage and visualize your release activit
 **Related topics**  
 
 
-[Digital Product Release - POST /sn\_dpr/digital\_product\_release/release\_calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/digital-product-release-api.md)
+[Digital Product Release - POST /sn\_dpr/digital\_product\_release/release\_calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/digital-product-release-api.md)
 

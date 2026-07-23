@@ -2,6 +2,7 @@
 title: Creating custom events
 description: Instrument trackable click-action events of your choice directly in the UI with no coding necessary. Tag DOM elements in Service Portal, Next Experience, CoreUI applications. Or derive new custom events from existing active events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/tagged-events.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -27,17 +28,17 @@ The visual tagging framework is a no-code, UI-based solution. It enables you to 
 
 1.  Navigate to the page in which you would like to track your click action.
 
-2.  In the Usage Insights page overlay panel, select **Instrumentation tab**&gt;**Start instrumentation**.![select instrumentation tab](../image/usage-insights-event-tagging-instrumentation-tab.png)
+2.  In the Usage Insights page overlay panel, select **Instrumentation tab**&gt;**Start instrumentation**.\[Omitted image "usage-insights-event-tagging-instrumentation-tab.png"\] Alt text: select instrumentation tab
 
-    If your page overlay tab isn't already open, you can find it in the main toolbar.![Page overlay tab](../image/usage-insights-event-tagging-page-overlay.png)
+    If your page overlay tab isn't already open, you can find it in the main toolbar.\[Omitted image "usage-insights-event-tagging-page-overlay.png"\] Alt text: Page overlay tab
 
     The page shifts to instrumentation mode and you can select the UI element that you want to tag, for example, buttons, links, tabs, or icons. Selecting each one shows you the name of the element and asks if you want to create an event for it or dismiss it. You can also see whether this element is already being tracked or not \(excluding cataloged events\).
 
-3.  If you want to create an event for an element you selected, select **Add instrumentation**.![Tag an event](../image/usage-insights-event-tagging-element-unique.png)
+3.  If you want to create an event for an element you selected, select **Add instrumentation**.\[Omitted image "usage-insights-event-tagging-element-unique.png"\] Alt text: Tag an event
 
     The Instrumentation tab then enables you to define the event name and description and displays the element’s properties \(ID, text, aria-label, DOM path\). You can add or edit event details and event properties to capture additional context. For example, element type, location in the DOM, and custom attributes. The instrumentation tab also displays a window telling you whether your event exists and isn’t unique. If you see this window, it's best not to create a duplicate, identical event.
 
-4.  Input the specifications you want and select **Save**.![Save and create an event](../image/usage-insights-event-tagging-event-creation.png)
+4.  Input the specifications you want and select **Save**.\[Omitted image "usage-insights-event-tagging-event-creation.png"\] Alt text: Save and create an event
 
     Now, the event is visually tagged and immediately available for tracking in Usage Insights. The overlay panel shows all currently tagged events on the page, including their status and occurrence counts. After approval, the tagged event becomes part of the official cataloged event set. The event is available for tracking in customer instances, promoting consistent adoption metrics and analytics coverage.
 
@@ -56,10 +57,10 @@ The visual tagging framework is a no-code, UI-based solution. It enables you to 
 
 **Note:** If you want to capture a user action not related to a click on your page \(for example, a Page View\), you can use the [SNAnalytics API](https://developer.servicenow.com/dev.do#!/reference/api/zurich/client/SNAnalyticsClientAPI).
 
-**Parent Topic:**[Using Usage Insights](../content-framework/concept/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
 
 **Related topics**  
 
 
-[Viewing events analytics](view-events.md#)
+[Viewing events analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-events.md)
 

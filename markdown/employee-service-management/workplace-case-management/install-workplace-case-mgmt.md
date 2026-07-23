@@ -2,6 +2,7 @@
 title: Install Workplace Case Management
 description: Install the Workplace Case Management application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/install-workplace-case-mgmt.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -13,7 +14,7 @@ breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, E
 
 # Install Workplace Case Management
 
-Install the Workplace Case Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Workplace Case Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -43,7 +44,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from ServiceNow store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
@@ -60,40 +61,40 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configuring Workplace Case Management](../concept/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
 
-[Create a Workplace case template](wsd-case-template.md)
+[Create a Workplace case template]()
 
-[Create a Workplace task template](wsd-task-template.md)
+[Create a Workplace task template]()
 
-[Smart Assessment for Workplace Case and Task](smart-assessment-for-workplace-case-and-task.md)
+[Smart Assessment for Workplace Case and Task]()
 
-[Automating seat assignment for new hires](../concept/auto-assign-new-hires.md)
+[Automating seat assignment for new hires]()
 
-[Configure Approval options](config-approval-optns.md)
+[Configure Approval options]()
 
-[Configure a Record producer](wsd-create-record-producer.md)
+[Configure a Record producer]()
 
-[Configuring a record producer for request edit](../concept/config-case-edit-rp.md)
+[Configuring a record producer for request edit]()
 
-[Configuring a record producer for reservation](../concept/config-reservation-rp.md)
+[Configuring a record producer for reservation]()
 
-[Create an SLA Definition](create-sla-defn-case-mgmt.md)
+[Create an SLA Definition]()
 
-[Create a Workplace service](create-workplace-service.md)
+[Create a Workplace service]()
 
-[Add a workplace service item to a workplace service](add-workplace-service-items.md)
+[Add a workplace service item to a workplace service]()
 
-[Create a workplace template configuration](create-workplace-template-confguration.md)
+[Create a workplace template configuration]()
 
-[Create a workplace field mapping](create-workplace-field-mapping.md)
+[Create a workplace field mapping]()
 
-[Configure an escalation rule](configure-escalation-rule.md)
+[Configure an escalation rule]()
 
-[Add Fulfillment instructions](add-fulfillment-instructions.md)
+[Add Fulfillment instructions]()
 
-[Group similar workplace cases under a parent case](group-similar-workplace-cases.md)
+[Group similar workplace cases under a parent case]()
 

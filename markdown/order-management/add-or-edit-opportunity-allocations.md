@@ -2,11 +2,12 @@
 title: Add or edit opportunity allocations
 description: Use the allocations configurator to add new allocation rows, edit existing ones, or split an allocation across multiple contributors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/add-or-edit-opportunity-allocations.html
 release: australia
 topic_type: task
-last_updated: "2026-03-30"
+last_updated: "2026-05-21"
 reading_time_minutes: 2
-breadcrumb: [Managing allocations, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Manage allocations, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add or edit opportunity allocations
@@ -23,7 +24,7 @@ The configurator displays active allocation types in the left pane. Each type sh
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Opportunity** &gt; **All**, open the opportunity record, and select the Allocations tab.
 
@@ -56,12 +57,19 @@ The configurator displays active allocation types in the left pane. Each type sh
 
 8.  Select **Save** to commit all changes across all allocation types.
 
-    **Note:** **Save** and **Discard changes** are only enabled when there are unsaved changes. If you navigate away with unsaved changes, you are prompted to save, discard, or continue editing.
+    **Note:**
 
+    -   **Save** and **Discard changes** are only enabled when there are unsaved changes. If you navigate away with unsaved changes, you are prompted to save, discard, or continue editing.
+    -   Select **Delete allocation** to delete the allocation.
     The allocation rows are saved. The Allocations tab count updates to reflect the new total.
 
-9.  Select **Delete allocation** to delete the allocation.
+
+**Parent Topic:**[Manage allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/manage-allocations.md)
+
+**Related topics**  
 
 
-**Parent Topic:**[Managing allocations](../concept/manage-allocations.md)
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

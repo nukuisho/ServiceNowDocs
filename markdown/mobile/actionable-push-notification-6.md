@@ -2,6 +2,7 @@
 title: Create a standard notification
 description: Create a standard notification on your instance using the platform notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/actionable-push-notification-6.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,9 +38,9 @@ Role required: admin
 
     1.  Click to display the **What to Send** tab.
 
-    2.  Click the lock icon \(![Lock icon](../image/lock-icon.png)\) next to the **Push Messages** field.
+    2.  Click the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon\) next to the **Push Messages** field.
 
-    3.  Click the reference icon \(![Reference icon](../image/reference-lookup-icon.png)\) to display the **Push Notification Messages** list.
+    3.  Click the reference icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference icon\) to display the **Push Notification Messages** list.
 
     4.  Click **New**.
 
@@ -59,5 +60,5 @@ Role required: admin
 5.  In the **Notification** form, click **Update**.
 
 
-**Parent Topic:**[Configure actionable push notifications](../concept/actionable-push-notification.md)
+**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
 

@@ -2,6 +2,7 @@
 title: SC Catalog Item widget
 description: Use this widget \(widget-sc-cat-item-v2\) to view the information about a catalog item and order the item. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-catalog-item-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -15,9 +16,9 @@ breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Conf
 
 Use this widget \(widget-sc-cat-item-v2\) to view the information about a catalog item and order the item. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-Configure [catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md) using the Service Catalog in the platform UI by navigating to **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintain Items**.
+Configure [catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_IntroductionToCatalogItems.md) using the Service Catalog in the platform UI by navigating to **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintain Items**.
 
-Catalog variables determine what information your users are allowed to select from, for example, color, size, or price. For more information on defining the variables for a catalog item, see [Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md).
+Catalog variables determine what information your users are allowed to select from, for example, color, size, or price. For more information on defining the variables for a catalog item, see [Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAVariableForACatalogItem.md).
 
 ## Instance options
 
@@ -99,48 +100,48 @@ For example, if you want to change the label to **Request**, press Ctrl+click on
 		}
 ```
 
-**Parent Topic:**[Service Catalog widgets](sc-widgets.md)
+**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
 
-[Catalog Content widget](catalog-content-widget.md)
+[Catalog Content widget]()
 
-[Catalog Homepage Search widget](cat-homepage-search-widget.md)
+[Catalog Homepage Search widget]()
 
-[Recent &amp; Popular Items widget](recent-and-popular-items-widget.md)
+[Recent &amp; Popular Items widget]()
 
-[Request Fields widget](request-fields-widget.md)
+[Request Fields widget]()
 
-[Requested Items widget](requested-items-widget.md)
+[Requested Items widget]()
 
-[Requests and Approvals widget](requests-and-approvals-widget.md)
+[Requests and Approvals widget]()
 
-[SC Categories widget](sc-categories-widget.md)
+[SC Categories widget]()
 
-[SC Category Page widget](sc-category-page-widget.md)
+[SC Category Page widget]()
 
-[SC Order Guide widget](sc-order-guide-widget.md)
+[SC Order Guide widget]()
 
-[SC Popular Items widget](sc-popular-items.md)
+[SC Popular Items widget]()
 
-[SC Save Bundles widget](save-bundles-widget.md)
+[SC Save Bundles widget]()
 
-[SC Saved Carts widget](saved-cart-widget.md)
+[SC Saved Carts widget]()
 
-[SC Scroll to top widget](sc-scroll-to-top.md)
+[SC Scroll to top widget]()
 
-[SC Shopping Cart widget](sc-shopping-cart.md)
+[SC Shopping Cart widget]()
 
-[SP Variable Editor widget](variable-editor-widget.md)
+[SP Variable Editor widget]()
 
-[SC Wish List Cart widget](sc-wish-list.md)
+[SC Wish List Cart widget]()
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 
-[Request a catalog item from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-cat-item-portal.md)
+[Request a catalog item from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/request-cat-item-portal.md)
 

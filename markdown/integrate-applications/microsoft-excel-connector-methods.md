@@ -2,11 +2,12 @@
 title: Microsoft Excel connector methods
 description: The Microsoft Excel connector methods perform various actions on Microsoft Excel documents. In an automation flow, the methods are connected with other methods and components. To use the methods, you must first expose them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/microsoft-excel-connector-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 32
-breadcrumb: [Microsoft Excel, Connectors, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Microsoft Excel, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Microsoft Excel connector methods
@@ -1700,5 +1701,5 @@ Writes a datatable provided in the Data parameter into a worksheet starting from
 |Data|Data that is written.|Data In|Data Table|
 |IncludeHeaders|Boolean value that Indicates whether to include headers when writing the data. The default value is set to True.|Data In|Boolean|
 
-**Parent Topic:**[Microsoft Excel](../concept/microsoft-excel-connector.md)
+**Parent Topic:**[Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-excel-connector.md)
 

@@ -2,6 +2,7 @@
 title: Reconfigure forms to use new components
 description: As an administrator, after installing Legal Simple Privacy reconfigure forms to use the new privacy assessment record producer, catalog category, and content taxonomy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-privacy/reconfigure-post-install-privacy.html
 release: australia
 product: Legal Simple Privacy
 classification: legal-simple-privacy
@@ -34,11 +35,11 @@ The privacy assessment legal request that was part of Legal Request Management h
 
     2.  From the list, select **Privacy Assessment**
 
-    3.  In the **Request record producer** field, select the Lookup using list icon \(![Lookup using list icon](../../legal-request-management/image/lookup-using-list.png)\)
+    3.  In the **Request record producer** field, select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\)
 
     4.  If you aren’t able to edit the form in the current application scope, select the word **here** in the message at the top of the page.
 
-    5.  In the record producers list, select the Show/hide filter icon \(![Show/hide filter icon](../image/LSD-filter-icon.png)\).
+    5.  In the record producers list, select the Show/hide filter icon \(\[Omitted image "LSD-filter-icon.png"\] Alt text: Show/hide filter icon\).
 
     6.  In the **choose field** field, select **Application**.
 
@@ -56,15 +57,15 @@ The privacy assessment legal request that was part of Legal Request Management h
 
     1.  In the navigation filter, enter `sc_cat_item_category.list`.
 
-    2.  In the Catalog item categories list, locate **Privacy Assessment** and select the Preview this record icon \(![Preview this record icon](../../human-resources/reference/images/icon-global-search.png)\).
+    2.  In the Catalog item categories list, locate **Privacy Assessment** and select the Preview this record icon \(\[Omitted image "icon-global-search.png"\] Alt text: Preview this record icon\).
 
     3.  Select **Open Record**.
 
-    4.  In the **Catalog item** field, select the Lookup using list icon \(![Lookup using list icon](../../legal-request-management/image/lookup-using-list.png)\).
+    4.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\).
 
         If you are unable to edit the record, select **here** in the access message at the top of the form.
 
-    5.  In the catalog items list, select the show/hide filter icon \(![Show/hide filter icon](../image/LSD-filter-icon.png)\).
+    5.  In the catalog items list, select the show/hide filter icon \(\[Omitted image "LSD-filter-icon.png"\] Alt text: Show/hide filter icon\).
 
     6.  In the **choose field** field, select **Application**.
 
@@ -84,9 +85,9 @@ The privacy assessment legal request that was part of Legal Request Management h
 
         The Connected Content Catalog Item: Privacy Assessment form is displayed.
 
-    2.  In the **Catalog item** field, select the Lookup using list icon \(![Lookup using list icon](../../legal-request-management/image/lookup-using-list.png)\).
+    2.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\).
 
-    3.  In the catalog items list, select the show/hide filter icon \(![Show/hide filter icon](../image/LSD-filter-icon.png)\).
+    3.  In the catalog items list, select the show/hide filter icon \(\[Omitted image "LSD-filter-icon.png"\] Alt text: Show/hide filter icon\).
 
     4.  In the **choose field** field, select **Application**.
 
@@ -101,10 +102,10 @@ The privacy assessment legal request that was part of Legal Request Management h
     9.  Select **Update**.
 
 
-**Parent Topic:**[Configure Legal Simple Privacy](../concept/setting-up-legal-simple-privacy.md)
+**Parent Topic:**[Configure Legal Simple Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-privacy/setting-up-legal-simple-privacy.md)
 
 **Related topics**  
 
 
-[Install Legal Simple Privacy](install-legal-simple-privacy.md)
+[Install Legal Simple Privacy]()
 

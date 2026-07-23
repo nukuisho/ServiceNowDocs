@@ -2,6 +2,7 @@
 title: Requesting content
 description: Content Governance provides multiple ways for employees to request content to be created for employee communications and for your company's content team to clarify the request and assign the request to team members.Employees that have access to the Employee Center Pro can request content to be developed for distribution to other employees.Employees who have access to Service Catalog can request content from the Service Catalog.The content team uses the Content Request form to create a content request when the original request was made verbally or through some other method outside of Content Governance. The Content Request form enables the content team to create a content request and then assign, track, review, approve, and publish content.Use the Content Request Item form to provide details on what type of content should be created from a content request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-gov-request.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,15 +20,15 @@ Once a content request has been created, Content Governance provides the ability
 
 There are several ways for your employees to request content to be created:
 
--   **[Employee Center Pro](ec-content-gov-request.md#)**
+-   **[Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md)**
 
     Employees can use the Content Request catalog item from the Employee Center Pro. Your company decides where on the Employee Center Pro it appears. Any employee that has access to Employee Center Pro can request content.
 
--   **[Service Catalog](ec-content-gov-request.md#)**
+-   **[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md)**
 
     Employees can request content from the Service Catalog similar to requesting content from the Employee Center Pro.
 
--   **[Content Request form](ec-content-gov-request.md#)**
+-   **[Content Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md)**
 
     Primarily used by the content team to create a content request when the original request was made verbally or through some other method. The **Content Request** form allows the content team to create the request, then track, review, approve, and publish the content that is created from the request.
 
@@ -40,7 +41,7 @@ Employees that have access to the Employee Center Pro can request content to be 
 
 Role required: none
 
-You can use unified taxonomy to link the request content to a topic so the request can be accessed from the Topic page. For more information, see [Unified Taxonomy for Employee Center](config-taxonomy.md).
+You can use unified taxonomy to link the request content to a topic so the request can be accessed from the Topic page. For more information, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
 ### Procedure
 
@@ -54,15 +55,15 @@ You can use unified taxonomy to link the request content to a topic so the reque
 
 3.  Fill in the fields on the **Content Request** form.
 
-<table id="choicetable_b4s_qgk_5tb"><thead><tr><th align="left" id="d187552e238">
+<table id="choicetable_b4s_qgk_5tb"><thead><tr><th align="left" id="d191214e238">
 
 Field
 
-</th><th align="left" id="d187552e241">
+</th><th align="left" id="d191214e241">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d187552e247">
+</th></tr></thead><tbody><tr><td id="d191214e247">
 
 **\*Please select the type of communication you'd like to schedule**
 
@@ -74,7 +75,7 @@ How you want your content to be communicated. Your choices are:-   Portal
 -   Other
 
 
-</td></tr><tr><td id="d187552e271">
+</td></tr><tr><td id="d191214e271">
 
 **\*What type of content do you need for your communication?**
 
@@ -106,15 +107,15 @@ The type of content you want communicated. The type of content depends on what t
 
 **Note:** The Content Manager should define what it means to select Other/Other. For example, it could be used for another type of personal communication like company chat.
 
-</td></tr><tr><td id="d187552e350">
+</td></tr><tr><td id="d191214e350">
 
 **What is your desired Topic page?**
 
 </td><td>
 
-Enter the topic page you want your content to appear in. This field only appears when you select **Topic Content Selection** from the **What type of content do you need for your communication** drop-down. For more information, see [Dynamic topic pages](dynamic-topic-page.md).
+Enter the topic page you want your content to appear in. This field only appears when you select **Topic Content Selection** from the **What type of content do you need for your communication** drop-down. For more information, see [Dynamic topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/dynamic-topic-page.md).
 
-</td></tr><tr><td id="d187552e372">
+</td></tr><tr><td id="d191214e372">
 
 **Which employees should see your communication?**
 
@@ -124,7 +125,7 @@ Who you want your content to be directed to.You can direct your content at all e
 
  You can also have your content and communication target specific employees, groups, divisions, specific roles, or job titles.
 
-</td></tr><tr><td id="d187552e388">
+</td></tr><tr><td id="d191214e388">
 
 **Start date**
 
@@ -132,7 +133,7 @@ Who you want your content to be directed to.You can direct your content at all e
 
 The date you want you content made available.
 
-</td></tr><tr><td id="d187552e397">
+</td></tr><tr><td id="d191214e397">
 
 **End date**
 
@@ -140,7 +141,7 @@ The date you want you content made available.
 
 The date you want your communication to stop.
 
-</td></tr><tr><td id="d187552e406">
+</td></tr><tr><td id="d191214e406">
 
 **What languages will you need the content translated into?**
 
@@ -148,7 +149,7 @@ The date you want your communication to stop.
 
 The language\(s\) you want your content to be created in and made available to your audience.**Note:** The available languages are dependent on what your company has installed.
 
-</td></tr><tr><td id="d187552e418">
+</td></tr><tr><td id="d191214e418">
 
 **Please add any additional reviewers required for your communication \(optional\)**
 
@@ -156,7 +157,7 @@ The language\(s\) you want your content to be created in and made available to y
 
 Click into the field and select people you want to review and approve the content that is created from your request.When approvals are required and the content request item is moved to the **In Review** state, the content request appears under **My tasks** for the reviewers and approvers. The content can be previewed, approved, or don't approve.
 
-</td></tr><tr><td id="d187552e436">
+</td></tr><tr><td id="d191214e436">
 
 **Please add any additional information about your communication \(optional\)**
 
@@ -164,7 +165,7 @@ Click into the field and select people you want to review and approve the conten
 
 Details that can clarify what you want included in the content you are requesting.
 
-</td></tr><tr><td id="d187552e445">
+</td></tr><tr><td id="d191214e445">
 
 **Please add a URL for your call to action button \(optional\)**
 
@@ -172,7 +173,7 @@ Details that can clarify what you want included in the content you are requestin
 
 A URL link you want your audience to select if you are requesting to-do, survey, or any type of action content.
 
-</td></tr><tr><td id="d187552e455">
+</td></tr><tr><td id="d191214e455">
 
 **Add attachments**
 
@@ -204,15 +205,15 @@ Role required: none
 
 3.  Fill in the fields on the **Content Request** form.
 
-<table id="choicetable_tsj_lv5_x5b"><thead><tr><th align="left" id="d187552e575">
+<table id="choicetable_tsj_lv5_x5b"><thead><tr><th align="left" id="d191214e575">
 
 Field
 
-</th><th align="left" id="d187552e578">
+</th><th align="left" id="d191214e578">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d187552e584">
+</th></tr></thead><tbody><tr><td id="d191214e584">
 
 **\*Please select the type of communication you'd like to schedule**
 
@@ -224,7 +225,7 @@ How you want your content to be communicated. Your choices are:-   Portal
 -   Other
 
 
-</td></tr><tr><td id="d187552e608">
+</td></tr><tr><td id="d191214e608">
 
 **\*What type of content do you need for your communication?**
 
@@ -253,13 +254,13 @@ The type of content you want communicated. The type of content depends on what t
 -   Email
 -   SMS Text
 
-**Note:** Requires integration with Notify. For more information, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
+**Note:** Requires integration with Notify. For more information, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-landing-page.md).
 
 -   Other
 
 **Note:** The Content Manager should define what it means to select Other/Other. For example, it could be used for another type of personal communication like company chat.
 
-</td></tr><tr><td id="d187552e699">
+</td></tr><tr><td id="d191214e699">
 
 **What is your desired Topic page?**
 
@@ -267,7 +268,7 @@ The type of content you want communicated. The type of content depends on what t
 
 Enter the topic page you want your content to appear in. This field only appears when you select **Topic Content Selection** from the **What type of content do you need for your communication** drop-down.For more information, see .
 
-</td></tr><tr><td id="d187552e717">
+</td></tr><tr><td id="d191214e717">
 
 **Which employees should see your communication?**
 
@@ -275,7 +276,7 @@ Enter the topic page you want your content to appear in. This field only appears
 
 Who you want your content to be directed to.
 
-</td></tr><tr><td id="d187552e727">
+</td></tr><tr><td id="d191214e727">
 
 **Start date**
 
@@ -283,7 +284,7 @@ Who you want your content to be directed to.
 
 The date you want you content made available.
 
-</td></tr><tr><td id="d187552e736">
+</td></tr><tr><td id="d191214e736">
 
 **End date**
 
@@ -291,7 +292,7 @@ The date you want you content made available.
 
 The date you want your communication to stop.
 
-</td></tr><tr><td id="d187552e745">
+</td></tr><tr><td id="d191214e745">
 
 **What languages will you need the content translated into?**
 
@@ -299,19 +300,19 @@ The date you want your communication to stop.
 
 The language\(s\) you want your content to be created in and made available to your audience.**Note:** The available languages are dependent on what your company has subscribed to.
 
-</td></tr><tr><td id="d187552e757">
+</td></tr><tr><td id="d191214e757">
 
 **Please add any additional reviewers required for your communication \(optional\)**
 
 </td><td>
 
-Select the **Lock** ![Lock icon](../../human-resources/image/icon-hr-unlock-add-parties.png) icon. Next, select the Lookup using list ![Lookup using list icon](../../human-resources/image/magnify-glass-outline-icon.png) icon.
+Select the **Lock** \[Omitted image "icon-hr-unlock-add-parties.png"\] Alt text: Lock icon icon. Next, select the Lookup using list \[Omitted image "magnify-glass-outline-icon.png"\] Alt text: Lookup using list icon icon.
 
  Select people you want to review the content that is created from your request.
 
  When approvals are required and the content request item is moved to the **In Review** state, the content request appears under **My tasks** for the reviewers and approvers. The content can be previewed, approved, or rejected.
 
-</td></tr><tr><td id="d187552e796">
+</td></tr><tr><td id="d191214e796">
 
 **Please add any additional information about your communication \(optional\)**
 
@@ -319,7 +320,7 @@ Select the **Lock** ![Lock icon](../../human-resources/image/icon-hr-unlock-add-
 
 Details that can clarify what you want included in the content you are requesting.
 
-</td></tr><tr><td id="d187552e805">
+</td></tr><tr><td id="d191214e805">
 
 **Please add a URL for your call to action button \(optional\)**
 
@@ -327,9 +328,9 @@ Details that can clarify what you want included in the content you are requestin
 
 A URL link you want your audience to select if you are requesting to-do, survey, or any type of action content.
 
-</td></tr><tr><td id="d187552e815">
+</td></tr><tr><td id="d191214e815">
 
-**![Manage Attachments icon](../../human-resources/image/attach-icon.png) Manage Attachments**
+**\[Omitted image "attach-icon.png"\] Alt text: Manage Attachments icon Manage Attachments**
 
 </td><td>
 
@@ -338,7 +339,7 @@ Any files that you want to be included in the content you are requesting.
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-    A content request number \(CONREQ prefix and sequential number\) is generated on the **Content Request** form. For more information, see [Request content using the Content Request form](ec-content-gov-request.md#).
+    A content request number \(CONREQ prefix and sequential number\) is generated on the **Content Request** form. For more information, see [Request content using the Content Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md).
 
 
 ## Request content using the Content Request form
@@ -359,15 +360,15 @@ The **Content Request** form can also be used by the content team to delegate wo
 
 2.  Fill in the fields of the Content Request form.
 
-<table id="choicetable_b4s_qgk_5tb"><thead><tr><th align="left" id="d187552e959">
+<table id="choicetable_b4s_qgk_5tb"><thead><tr><th align="left" id="d191214e959">
 
 Field
 
-</th><th align="left" id="d187552e962">
+</th><th align="left" id="d191214e962">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d187552e968">
+</th></tr></thead><tbody><tr><td id="d191214e968">
 
 **Number**
 
@@ -375,7 +376,7 @@ Description
 
 A unique number that identifies the content request. This field pre-fills the content request number and cannot be edited and has a CONREQ prefix followed by a sequential number.
 
-</td></tr><tr><td id="d187552e980">
+</td></tr><tr><td id="d191214e980">
 
 **Assigned to**
 
@@ -387,7 +388,7 @@ The person assigned to create the content from the content request.**Note:** Aft
 
  When you enter an Assigned to person, this person automatically appears as the Assigned to person in a Content Request Item. If you leave this field blank, the Assigned to person on a Content Request Item is also blank.
 
-</td></tr><tr><td id="d187552e998">
+</td></tr><tr><td id="d191214e998">
 
 **Assignment group**
 
@@ -395,11 +396,11 @@ The person assigned to create the content from the content request.**Note:** Aft
 
 The group assigned to create the content from the content request. If you select an assignment group, the Assigned to person must be a member or the selected group.
 
- **Note:** For more information, see [Manage ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-edit-ownership-group.md).
+ **Note:** For more information, see [Manage ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-edit-ownership-group.md).
 
  When you enter an assignment group in this field, it automatically appears in the **Assignment group** field for a Content Request Item. You can only enter members of that group to the **Assigned to** field for a Content Request Item.
 
-</td></tr><tr><td id="d187552e1026">
+</td></tr><tr><td id="d191214e1026">
 
 **Opened by**
 
@@ -407,7 +408,7 @@ The group assigned to create the content from the content request. If you select
 
 The person who is requesting the creation of content.
 
-</td></tr><tr><td id="d187552e1036">
+</td></tr><tr><td id="d191214e1036">
 
 **Priority**
 
@@ -420,7 +421,7 @@ The urgency associated with the content request. Your choices are:-   1- Critica
 -   5 - Planning
 
 
-</td></tr><tr><td id="d187552e1063">
+</td></tr><tr><td id="d191214e1063">
 
 **State**
 
@@ -435,7 +436,7 @@ The status of the content request.-   New
 -   Cancelled
 
 
-</td></tr><tr><td id="d187552e1097">
+</td></tr><tr><td id="d191214e1097">
 
 **Due date**
 
@@ -443,7 +444,7 @@ The status of the content request.-   New
 
 The date the request for content should be completed.
 
-</td></tr><tr><td id="d187552e1106">
+</td></tr><tr><td id="d191214e1106">
 
 **Short description**
 
@@ -451,7 +452,7 @@ The date the request for content should be completed.
 
 A short description of the content request. The text entered here appears by default in the short description for the content item.
 
-</td></tr><tr><td id="d187552e1115">
+</td></tr><tr><td id="d191214e1115">
 
 **Description**
 
@@ -459,7 +460,7 @@ A short description of the content request. The text entered here appears by def
 
 A longer description of the content request with more details.
 
-</td></tr><tr><td id="d187552e1124">
+</td></tr><tr><td id="d191214e1124">
 
 **Work notes**
 
@@ -467,7 +468,7 @@ A longer description of the content request with more details.
 
 Additional information about the content request.Work notes are useful if additional information is required from the requester.
 
-</td></tr><tr><td id="d187552e1137">
+</td></tr><tr><td id="d191214e1137">
 
 **Additional comments \(Customer visible\)**
 
@@ -480,7 +481,7 @@ You can choose to make this information visible to the requester by checking the
 
 3.  Select **Save** or **Submit**.
 
-    If you select **Save**, your information is saved and the **Content Request** form remains visible and the **Content Request Items** related list appears. For more information, see [Edit a content request item](ec-content-gov-request.md#). If you select **Submit**, the record is saved and you are returned to the **Content Requests** list.
+    If you select **Save**, your information is saved and the **Content Request** form remains visible and the **Content Request Items** related list appears. For more information, see [Edit a content request item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md). If you select **Submit**, the record is saved and you are returned to the **Content Requests** list.
 
     -   **Discuss**
 
@@ -507,7 +508,7 @@ You can also access the **Content Request Item** form by selecting a content req
 
 2.  Select the content request that contains the content request item you want to edit.
 
-    For more information, see [Request content using the Content Request form](ec-content-gov-request.md#) or [Request content from the Employee Center Pro](ec-content-gov-request.md#).
+    For more information, see [Request content using the Content Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md) or [Request content from the Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md).
 
 3.  Select the content request item from the **Content Request Items** related list.
 
@@ -515,15 +516,15 @@ You can also access the **Content Request Item** form by selecting a content req
 
 4.  Fill in the fields on the Content Request Item form.
 
-<table id="choicetable_apf_2vq_5tb"><thead><tr><th align="left" id="d187552e1364">
+<table id="choicetable_apf_2vq_5tb"><thead><tr><th align="left" id="d191214e1364">
 
 Fields
 
-</th><th align="left" id="d187552e1367">
+</th><th align="left" id="d191214e1367">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d187552e1373">
+</th></tr></thead><tbody><tr><td id="d191214e1373">
 
 **Number**
 
@@ -531,7 +532,7 @@ Description
 
 A unique number that identifies the content item associated with a content request.
 
-</td></tr><tr><td id="d187552e1382">
+</td></tr><tr><td id="d191214e1382">
 
 **Content Request**
 
@@ -539,17 +540,17 @@ A unique number that identifies the content item associated with a content reque
 
 A unique number that identifies the content request. This field pre-fills the content request number and cannot be edited and has a CONREQ prefix followed by a sequential number.
 
-</td></tr><tr><td id="d187552e1394">
+</td></tr><tr><td id="d191214e1394">
 
 **Content**
 
 </td><td>
 
-The name of the content to fulfill the content request. Select the **Lookup using list** icon \(![Lookup using list icon](../../human-resources/image/magnify-glass-outline-icon.png) and select the content that was created to fulfill the content request. For more information on creating content, see [Portal content](ec-streamline-content.md).Once content is selected and you fill in the required fields, you can save the content request item and schedule the content to be published. The **Schedule Content** related list appears after saving the record.
+The name of the content to fulfill the content request. Select the **Lookup using list** icon \(\[Omitted image "magnify-glass-outline-icon.png"\] Alt text: Lookup using list icon and select the content that was created to fulfill the content request. For more information on creating content, see [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md).Once content is selected and you fill in the required fields, you can save the content request item and schedule the content to be published. The **Schedule Content** related list appears after saving the record.
 
- For more information, see [Publishing content](ec-content-publishing-schedule.md).
+ For more information, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
 
-</td></tr><tr><td id="d187552e1441">
+</td></tr><tr><td id="d191214e1441">
 
 **Assigned to**
 
@@ -567,7 +568,7 @@ The person assigned to create the content from the content request.This field is
     -   When the **Assigned to** field is manually entered on the content request item. Entering an assigned to person on the content request item does not override the assigned to person on a content request.
 
 
-</td></tr><tr><td id="d187552e1498">
+</td></tr><tr><td id="d191214e1498">
 
 **Assignment group**
 
@@ -575,11 +576,11 @@ The person assigned to create the content from the content request.This field is
 
 The group assigned to create the content from the content request. If you select an assignment group, the Assigned to person must be a member or the selected group.
 
- **Note:** For more information, see [Manage ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-edit-ownership-group.md).
+ **Note:** For more information, see [Manage ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-edit-ownership-group.md).
 
  When an assignment group is entered in the **Assignment group** field for a Content Request, it automatically appears in this field.
 
-</td></tr><tr><td id="d187552e1523">
+</td></tr><tr><td id="d191214e1523">
 
 **Opened by**
 
@@ -587,7 +588,7 @@ The group assigned to create the content from the content request. If you select
 
 The person who is requesting the creation of content.**Note:** When the state of the content request item is changed to **In review**, the **Opened by** person receives a notification.
 
-</td></tr><tr><td id="d187552e1541">
+</td></tr><tr><td id="d191214e1541">
 
 **Due date**
 
@@ -595,7 +596,7 @@ The person who is requesting the creation of content.**Note:** When the state of
 
 The date the request for content should be completed.
 
-</td></tr><tr><td id="d187552e1550">
+</td></tr><tr><td id="d191214e1550">
 
 **Priority**
 
@@ -608,7 +609,7 @@ The urgency associated with the content request. Your choices are:-   1- Critica
 -   5 - Planning
 
 
-</td></tr><tr><td id="d187552e1577">
+</td></tr><tr><td id="d191214e1577">
 
 **State**
 
@@ -634,7 +635,7 @@ The status of the content request.-   Open
     -   All records associated to the content request item are retained and can still be reviewed after cancellation.
 
 
-</td></tr><tr><td id="d187552e1694">
+</td></tr><tr><td id="d191214e1694">
 
 **Short description**
 
@@ -642,7 +643,7 @@ The status of the content request.-   Open
 
 A short description of the content request. The text entered here appears by default in the short description for the content item.
 
-</td></tr><tr><td id="d187552e1704">
+</td></tr><tr><td id="d191214e1704">
 
 **Description**
 
@@ -650,7 +651,7 @@ A short description of the content request. The text entered here appears by def
 
 A longer description of the content request with more details.
 
-</td></tr><tr><td id="d187552e1713">
+</td></tr><tr><td id="d191214e1713">
 
 **Additional comments \(Customer visible\)**
 
@@ -665,7 +666,7 @@ You can choose to make this information visible to the requester by checking the
 
 6.  To schedule content, select **New** from the **Schedule Content** related list.
 
-    For more information on scheduling content, see [Publishing content](ec-content-publishing-schedule.md).
+    For more information on scheduling content, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
 
     -   **Approvers related list**
 
@@ -699,7 +700,7 @@ You can choose to make this information visible to the requester by checking the
 
         The **Create Content** button appears at the top of the **Content Request Item** form.
 
-        Selecting the **Create Content** button takes you to the **Content Library** form where you can select the type of content you want to create. For more information, see [Portal content](ec-streamline-content.md).
+        Selecting the **Create Content** button takes you to the **Content Library** form where you can select the type of content you want to create. For more information, see [Portal content]().
 
     -   **Edit Content**
 
@@ -707,7 +708,7 @@ You can choose to make this information visible to the requester by checking the
 
         The **Edit Content** button appears when there is content associated with the content request item and the **State** is **Work in Progress**.
 
-        This takes you to the content form. For more information on editing content, see [Portal content](ec-streamline-content.md).
+        This takes you to the content form. For more information on editing content, see [Portal content]().
 
     -   **Clone Content**
 
@@ -717,7 +718,7 @@ You can choose to make this information visible to the requester by checking the
 
         The **Clone Content** button appears when the **State** is **Work in Progress**.
 
-        Selecting the **Clone Content** button takes you to the content list where you can select content to clone. For more information on editing content, see [Portal content](ec-streamline-content.md).
+        Selecting the **Clone Content** button takes you to the content list where you can select content to clone. For more information on editing content, see [Portal content]().
 
     -   **View Content**
 
@@ -728,7 +729,7 @@ You can choose to make this information visible to the requester by checking the
         -   Published
         **Note:** When the content request item is in the above states, associated content cannot be edited or cloned.
 
-        For more information, see [Publishing content](ec-content-publishing-schedule.md).
+        For more information, see [Publishing content]().
 
     -   **Manage approvers**
 

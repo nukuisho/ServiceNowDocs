@@ -2,6 +2,7 @@
 title: View business application details
 description: View information about business applications that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the business application life-cycle phase information in tabs — Plan, Build, Run, Risk, and Info.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-business-apps-details.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -21,11 +22,11 @@ When viewing the business application details in DPM, the **Status** of each ite
 
 When viewing details of a business application that's retired, an alert banner along the top of the workspace informs you. In the list view, the **Life Cycle Stage** is **End of Life** and the **Life Cycle Stage Status** is **Retired**.
 
-**Important:** If your organization transitioned from the traditional Service Portfolio Management fields to the CSDM life-cycle fields, then the field names differ from this document. For more information, see [Apply the CSDM guidelines to Digital Portfolio Management](../reference/dpm-csdm.md).
+**Important:** If your organization transitioned from the traditional Service Portfolio Management fields to the CSDM life-cycle fields, then the field names differ from this document. For more information, see [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-csdm.md).
 
-Business application information is displayed in DPM via the Plan, Build, Run, Risk, and Info tabs. If your organization opts to inactivate one or more of the tabs, then the inactivated tabs aren't visible to you. For example, if your organization doesn't work on planning activities and they inactivate the Plan tab, then the Plan tab isn't visible for you. For more information on how Admins can hide or show tabs, see [Configure the Digital Portfolio Management experience](../task/dpm-configure-experience.md).
+Business application information is displayed in DPM via the Plan, Build, Run, Risk, and Info tabs. If your organization opts to inactivate one or more of the tabs, then the inactivated tabs aren't visible to you. For example, if your organization doesn't work on planning activities and they inactivate the Plan tab, then the Plan tab isn't visible for you. For more information on how Admins can hide or show tabs, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 
-Keep in mind that what you are able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](../reference/dpm-related-products.md) for the required installations and plugins to see each data element.
+Keep in mind that what you are able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installations and plugins to see each data element.
 
 **Note:** The Strategic Planning Workspace \(formerly known as Alignment Planner Workspace\) is a pro version. The Portfolio Planning Workspace is available for users with a Strategic Portfolio Management \(SPM\) standard license.
 
@@ -71,7 +72,7 @@ Total number of demands on the business application. The number of demands is in
 
  You can select a demand record to view its details, including tasks, stakeholders, requirements, risks, and more.
 
- You can also create demands on your service or service offerings. See [Create demand from Digital Portfolio Management](../task/dpm-create-demand-initiatives.md).
+ You can also create demands on your service or service offerings. See [Create demand from Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-demand-initiatives.md).
 
 </td></tr></tbody>
 </table>## Build tab
@@ -177,7 +178,7 @@ Current releases related to the business application. The number of current rele
 </td></tr></tbody>
 </table>## Build tab with DevOps enabled
 
-After a DPM Admin enables the DevOps system property, you can see the flow metrics and accelerate metrics on the Build tab. The epics, stories, sprints, and releases don't show when DevOps is enabled. For Admin instructions to turn on or off the DevOps system property, see [Configure the Digital Portfolio Management experience](../task/dpm-configure-experience.md).
+After a DPM Admin enables the DevOps system property, you can see the flow metrics and accelerate metrics on the Build tab. The epics, stories, sprints, and releases don't show when DevOps is enabled. For Admin instructions to turn on or off the DevOps system property, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 
 <table id="table_lpg_npv_5zb"><thead><tr><th>
 
@@ -291,7 +292,7 @@ Description
 
 </td><td>
 
-Performance details about the business application. You can select a card indicator in each section to view its details. Each indicator has an information icon \(![Information icon.](../image/information-icon.jpg)\) that when selected, provides a tooltip description for that indicator.
+Performance details about the business application. You can select a card indicator in each section to view its details. Each indicator has an information icon \(\[Omitted image "information-icon.jpg"\] Alt text: Information icon.\) that when selected, provides a tooltip description for that indicator.
 
  **Portfolio success metrics**
 
@@ -322,7 +323,7 @@ Key performance indicator \(KPI\) group breakdown grid that shows the lowest ord
 </td></tr></tbody>
 </table>## Run tab with DevOps enabled
 
-After a DPM Admin enables the DevOps system property, you can see the accelerate metrics on the Run tab. For Admin instructions to turn on or off the DevOps system property, see [Configure the Digital Portfolio Management experience](../task/dpm-configure-experience.md).
+After a DPM Admin enables the DevOps system property, you can see the accelerate metrics on the Run tab. For Admin instructions to turn on or off the DevOps system property, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 
 See [KB1637474](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637474) for more information about KPI results on DPM pages.
 
@@ -340,7 +341,7 @@ Description
 
 </td><td>
 
-Performance details about the business application. You can select a card indicator in each section to view its details. Each indicator has an information icon \(![Information icon.](../image/information-icon.jpg)\) that when selected, provides a tooltip description for that indicator.
+Performance details about the business application. You can select a card indicator in each section to view its details. Each indicator has an information icon \(\[Omitted image "information-icon.jpg"\] Alt text: Information icon.\) that when selected, provides a tooltip description for that indicator.
 
  **Portfolio success metrics**
 
@@ -523,14 +524,14 @@ Cards that show the number of the following additional information related to th
 
 The Needs attention panel includes the following icons for business applications:
 
--   Needs attention icon \(![Needs attention icon](../../../administer/on-call-scheduling/image/icon-information.png)\) to show or hide the Needs attention panel.
--   Contacts icon \(![Contacts icon.](../image/contacts.png)\) to view team members and teams for the record.
--   Attachments icon \(![Attachments icon.](../image/attachment.png)\) to view and add attachments to the record.
+-   Needs attention icon \(\[Omitted image "icon-information.png"\] Alt text: Needs attention icon\) to show or hide the Needs attention panel.
+-   Contacts icon \(\[Omitted image "contacts.png"\] Alt text: Contacts icon.\) to view team members and teams for the record.
+-   Attachments icon \(\[Omitted image "attachment.png"\] Alt text: Attachments icon.\) to view and add attachments to the record.
 
 **Related topics**  
 
 
-[Enterprise portfolios](dpm-enterprise-portfolios.md)
+[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)
 
-[Create enterprise portfolios in Digital Portfolio Management](../task/dpm-create-enterprise-portfolios.md)
+[Create enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolios.md)
 

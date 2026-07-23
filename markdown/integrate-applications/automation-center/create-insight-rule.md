@@ -2,13 +2,14 @@
 title: Create an insight rule
 description: Create an insight rule to generate custom insights for an automation business process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-insight-rule.html
 release: australia
 product: Automation Center
 classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Creating insights, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Create an insight rule
@@ -36,15 +37,10 @@ When an insight rule is processed, it generates an insight. Insights appear on t
 4.  Select **Submit**.
 
 
--   **[Create an insight trigger](create-insight-trigger.md)**  
-Create an active insight trigger so that you can run the related insight rule.
--   **[Write a script for an automation message variable](create-message-variable-auto-center.md)**  
-Write JavaScript code input for variables that are added in the message of an insight rule.
-
-**Parent Topic:**[Working with automations](../concept/automations.md)
+**Parent Topic:**[Creating insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-insights.md)
 
 **Related topics**  
 
 
-[Insight rule form](../reference/insight-rule-form.md)
+[Insight rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/insight-rule-form.md)
 

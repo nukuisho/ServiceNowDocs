@@ -2,6 +2,7 @@
 title: Metrics
 description: View the different metrics for continuous authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ca-metrics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,18 +25,18 @@ Following are the different KPI details that you can view for continuous authent
 |Failed step-up or re-authentication|KPI for the number of failed step-up \(MFA\) or re-authentication \(SSO\).|
 |No of times policies invoked|KPI for the total number of times CA policies invoked.|
 
-![CA Metrics page](../images/ca-metrics-page.png)
+\[Omitted image "ca-metrics-page.png"\] Alt text: CA Metrics page
 
 **Note:** The KPI details are displayed for 180 days. To view more than 180 days of historical data you must license **Performance Analytics**.
 
 **Related topics**  
 
 
-[Policies](ca-policies.md)
+[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-policies.md)
 
-[Metrics](ca-metrics.md)
+[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-metrics.md)
 
-[System properties](ca-system-properties.md)
+[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-system-properties.md)
 
-[Exploring Continuous Authentication](explore-continuous-auth.md)
+[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-continuous-auth.md)
 

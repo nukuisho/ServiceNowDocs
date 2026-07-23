@@ -2,6 +2,7 @@
 title: Create a Connect conversation from a Visual Task Board
 description: Create a Connect Chat conversation from a Visual Task Board to collaborate with board members and keep track of activity as it happens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ConversationVTB.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -29,17 +30,17 @@ When you create a conversation from a task board, all the board members become m
 
 2.  Open a task board.
 
-3.  In the board header, click the connect with board members icon \(![Connect with board members icon](../image/IconVTBConnectwithBoard.png)\).
+3.  In the board header, click the connect with board members icon \(\[Omitted image "IconVTBConnectwithBoard.png"\] Alt text: Connect with board members icon\).
 
     The system automatically opens a record conversation for the board. Each board member becomes a member of the conversation.
 
 
-**Parent Topic:**[Viewing and sharing Visual Task Boards](../../visual-task-boards/concept/viewing-sharing-vis-task-brds.md)
+**Parent Topic:**[Viewing and sharing Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/viewing-sharing-vis-task-brds.md)
 
 **Related topics**  
 
 
-[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_Collaboration.md)
+[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_Collaboration.md)
 
-[Visual Task Boards](../../visual-task-boards/concept/c_VisualTaskBoards.md)
+[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
 

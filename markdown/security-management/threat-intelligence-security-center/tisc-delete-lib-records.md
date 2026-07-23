@@ -2,13 +2,14 @@
 title: Deleting threat intelligence library records
 description: Delete threat intelligence library records such as observables, indicators, and objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-delete-lib-records.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Deleting threat intelligence library records
@@ -33,7 +34,7 @@ The following example procedure explains how to delete an observable record. You
 
     A confirmation message will appear to verify that you want to delete the aggregated record. If you also want to delete the source records and prevent re aggregation, select the **Delete Source Records** check box. This action will remove all the associated source records.
 
-    ![Delete library records](../image/tisc-delete-library-record.png)
+    \[Omitted image "tisc-delete-library-record.png"\] Alt text: Delete library records
 
 4.  Select **Delete**.
 
@@ -42,24 +43,24 @@ The following example procedure explains how to delete an observable record. You
 
 ## What to do next
 
-Refer to the section [Define an Observable](define-an-observable.md) to create a record.
+Refer to the section [Define an Observable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-an-observable.md) to create a record.
 
-**Parent Topic:**[Threat Intelligence Security Center Library](../concept/threat-intelligence-security-center-library.md)
+**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 
 
-[Understanding the Data Model](../reference/understanding-the-data-model.md)
+[TISC Data Model]()
 
-[TISC Library Objects form view](../concept/tisc-library-home-page-view.md)
+[TISC Library Objects form view]()
 
-[TISC Library Repository](../concept/tisc-ioc.md)
+[TISC Library Repository]()
 
-[Access Vulnerability Downstream actions](../concept/downstream-actions-from-the-vulnerability-form-view.md)
+[Access Vulnerability Downstream actions]()
 
-[Export intelligence data](tisc-export-observables.md)
+[Export intelligence data]()
 
-[Confirm Potential Relationships from Related Records](confirm-potential-relationships.md)
+[Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation](../concept/automated-correlation-rules.md)
+[Automated Correlation]()
 

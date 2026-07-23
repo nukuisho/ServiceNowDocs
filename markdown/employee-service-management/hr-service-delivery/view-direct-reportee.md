@@ -2,6 +2,7 @@
 title: Set up View as Direct Reports
 description: Set up View as Direct reports to help managers guide their team members by viewing articles as seen by their direct reports on the Manager Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/view-direct-reportee.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -41,45 +42,45 @@ Use the following procedure to customize the View as experience for your employe
 
 4.  To get a search engine experience, select **Primary** and select **Save**.
 
-    ![Primary view as provides a search bar along with the name of the direct report on top on the View articles as page.](../images/p-v-view-as.jpg "Primary view option on View articles as page")
+    \[Omitted image "p-v-view-as.jpg"\] Alt text: Primary view as provides a search bar along with the name of the direct report on top on the View articles as page.
 
 5.  To get a compact user experience, select **Secondary** and select **Save**.
 
-    ![Secondary view option has the search bar beside the chosen direct report list view on the View articles as page.](../images/s-v-view-as.jpg "Secondary View option on View articles as page")
+    \[Omitted image "s-v-view-as.jpg"\] Alt text: Secondary view option has the search bar beside the chosen direct report list view on the View articles as page.
 
 6.  Manage the number of Knowledge Base articles visible as a search result or add **Pagination** through the Search results **Instance options**.
 
     The default result is 15 articles.
 
-    ![The knowledge base search widget shows a number of articles on the View as page.](../images/search-results-view-as.jpg "Search results for View as feature")
+    \[Omitted image "search-results-view-as.jpg"\] Alt text: The knowledge base search widget shows a number of articles on the View as page.
 
 
 ## Result
 
 Set up the View as page experience, add pagination, and tweak the number of articles displayed as a search result to provide optimal user experience for a manager searching for Knowledge articles using the feature.
 
-**Parent Topic:**[Configure Manager Hub](../../human-resources/task/set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 
 
-[RCA approvals for Manager Hub](../../human-resources/task/run-rca-mh.md)
+[RCA approvals for Manager Hub]()
 
-[Activate a scheduled job](../../human-resources/reference/activate-sj-mh.md)
+[Activate a scheduled job]()
 
-[Configure important dates](../../human-resources/task/configure-imp-dates.md)
+[Configure important dates]()
 
-[Configure team requests](../../human-resources/task/configure-team-requests.md)
+[Configure team requests]()
 
-[Configure team data](../../human-resources/task/configure-team-data.md)
+[Configure team data]()
 
-[Configure team column data](../../human-resources/task/configure-team-columndata.md)
+[Configure team column data]()
 
-[Configure team filters](../../human-resources/task/configure-team-filter.md)
+[Configure team filters]()
 
-[Configure daily stats](../../human-resources/task/configure-daily-stats.md)
+[Configure daily stats]()
 
-[Configure to do mappings](../../human-resources/task/use-to-do-map.md)
+[Configure to do mappings]()
 
-[Configure widgets](../../human-resources/task/configure-team-insights.md)
+[Configure widgets]()
 

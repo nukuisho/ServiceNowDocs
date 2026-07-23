@@ -2,6 +2,7 @@
 title: Create an inventory template for cable models
 description: Create an inventory template for the cable models in the Telecommunications Network Inventory application. You can use this template to instantiate a cable record and related stand records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-inventory-tenplate-cable-models.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -19,32 +20,32 @@ Create an inventory template for the cable models in the Telecommunications Netw
 
 The following example shows an inventory template for a cable model.
 
-![Details view of a cable template with field information.](../image/cable-template.png "Inventory template for the card model")
+\[Omitted image "cable-template.png"\] Alt text: Details view of a cable template with field information.
 
 After saving the inventory record, it creates the related strand templates depending on the count mentioned in the network model relationship.
 
-![Related template view of ta cable template with field information.](../image/cable-template-related-template.png "Related strand templates of a cable template")
+\[Omitted image "cable-template-related-template.png"\] Alt text: Related template view of ta cable template with field information.
 
 The default naming pattern of a strand record is "Strand-+position". You can edit the **Name Pattern** field.
 
-![Details view of a strand template with field information.](../image/strand-template.png "Details of a strand template")
+\[Omitted image "strand-template.png"\] Alt text: Details view of a strand template with field information.
 
 ## What's next
 
-Use a cable template to instantiate cable and strand records using design and assign. To learn more, see [Create a cable record by using design and assign](../task/create-cable-record-using-design-assign.md).
+Use a cable template to instantiate cable and strand records using design and assign. To learn more, see [Create a cable record by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-cable-record-using-design-assign.md).
 
-**Parent Topic:**[Create inventory template relationship](creating-inventory-templates-telco-equipment.md)
+**Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
 
-**Previous topic:**[Add a network interface template to a child or daughter card template](adding-network-interface-template-child-daughter-card.md)
+**Previous topic:**[Add a network interface template to a child or daughter card template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/adding-network-interface-template-child-daughter-card.md)
 
-**Next topic:**[Create an inventory template for a logical composite](creating-inventory-template-logical-composite.md)
+**Next topic:**[Create an inventory template for a logical composite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-template-logical-composite.md)
 
 **Related topics**  
 
 
-[Create a cable model](../task/create-a-cable-model.md)
+[Create a cable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-a-cable-model.md)
 
-[Network inventory templates](using-templates-tni.md)
+[Network inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-templates-tni.md)
 
-[Modeling your workflow](telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 

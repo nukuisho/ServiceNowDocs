@@ -2,6 +2,7 @@
 title: Using location tracking for mobile
 description: Use location tracking so that you can keep a record of your location, either for a defined period of time or while you perform tasks .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-location.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -42,7 +43,7 @@ Depending on the administrator's configuration, one of the following location tr
 
 </td><td>
 
-![Settings page to enable location tracking on your app.](../image/location-tracking-enable.png "Enable location tracking on your app")
+\[Omitted image "location-tracking-enable.png"\] Alt text: Settings page to enable location tracking on your app.
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ Tap the **Manual tracking** option in the Location tracking screen. You have the
 
 </td><td>
 
-![Location tracking manual configuration option.](../image/location-tracking-manual.png "Location tracking manual configuration")
+\[Omitted image "location-tracking-manual.png"\] Alt text: Location tracking manual configuration option.
 
 </td></tr><tr><td>
 
@@ -68,9 +69,9 @@ Action-based location tracking starts and stops when you tap on the correspondin
 
 </td><td>
 
-![Location tracking action-based tracking option.](../image/location-tracking-action.png "Location tracking action-based option")
+\[Omitted image "location-tracking-action.png"\] Alt text: Location tracking action-based tracking option.
 
- ![Start and Stop buttons used in action-based location tracking.](../image/location-tracking-start-stop.png "Start and Stop buttons used in action-based location tracking")
+ \[Omitted image "location-tracking-start-stop.png"\] Alt text: Start and Stop buttons used in action-based location tracking.
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ If your administrator has enabled both options, you can select the tracking opti
 
 </td><td>
 
-![Location tracking screen with both options available.](../image/location-tracking-both.png "Location tracking screen with both options available")
+\[Omitted image "location-tracking-both.png"\] Alt text: Location tracking screen with both options available.
 
 </td></tr></tbody>
 </table>## Location tracking behavior in defined situations

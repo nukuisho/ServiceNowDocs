@@ -2,6 +2,7 @@
 title: Configure the Invoice processing case for Invoice email flow for disabling the Document Intelligence capability
 description: Configure the copied version of the Invoice processing case for Invoice email flow for disabling the Document Intelligence capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-invoice-email-disable-di.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -33,4 +34,15 @@ Role required: admin
 
 5.  Select **Activate**.
 
+
+## Result
+
+The Invoice processing case for Invoice email flow for disabling the Document Intelligence is configured successfully.
+
+**Related topics**  
+
+
+[Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-invoice-processing.md)
+
+[Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-docintel-integration.md)
 

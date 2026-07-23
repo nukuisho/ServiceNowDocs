@@ -2,6 +2,7 @@
 title: View Sightings Search Results
 description: You can review Sightings Search Results for internal and external malicious indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/view-sightings-search-results.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -62,10 +63,10 @@ Role required: sn\_si.analyst
     |Threat Shares|List of the threats shared with Trusted Security Circle.|
 
 
--   **[Share Sightings Search results](share-sightings-search-results.md)**  
+-   **[Share Sightings Search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/share-sightings-search-results.md)**  
 You can share local sightings details or results that are associated with a particular search with your Trusted Security Circle.
--   **[Share observables from a security incident](share-observable.md)**  
+-   **[Share observables from a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/share-observable.md)**  
 Observables can be shared from a security incident in Security Incident Response to members in your trusted circle.
 
-**Parent Topic:**[Create sightings search configuration records](../../security-incident-response/task/sightings-search-configurations.md)
+**Parent Topic:**[Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-search-configurations.md)
 

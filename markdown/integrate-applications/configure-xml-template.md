@@ -2,11 +2,12 @@
 title: Use the XmlTemplate component
 description: Create templates from existing XML or PDF documents by adding custom data or fields to the documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-xml-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Data Modellers, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Data Modellers, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the XmlTemplate component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-The XmlTemplate component also provides methods to work with the templates. To expose the methods, see [View the XmlTemplate methods](view-xmltemplate-methods.md).
+The XmlTemplate component also provides methods to work with the templates. To expose the methods, see [View the XmlTemplate methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-xmltemplate-methods.md).
 
 ## Procedure
 
@@ -33,13 +34,13 @@ The XmlTemplate component also provides methods to work with the templates. To e
 
 5.  Click **Configure**.
 
-6.  Under the **TEMPLATES** section, click the add templates icon \(![Add templates icon.](../image/add-image-icon.png)\).
+6.  Under the **TEMPLATES** section, click the add templates icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add templates icon.\).
 
 7.  Click the template added.
 
     A new template is by default named in the `Template<number>` format. You can rename it from the Name field in the PROPERTIES section on the XML TEMPLATE DESIGNER window.
 
-8.  To select an existing PDF or XML document, in the **XML/PDF File** field, click the Load XML or PDF File icon \(![Load XML or PDF File icon.](../image/folder-icon.png)\).
+8.  To select an existing PDF or XML document, in the **XML/PDF File** field, click the Load XML or PDF File icon \(\[Omitted image "folder-icon.png"\] Alt text: Load XML or PDF File icon.\).
 
 9.  Select the XML or PDF file from the local drive.
 
@@ -62,5 +63,5 @@ The XmlTemplate component also provides methods to work with the templates. To e
 14. Close the XML TEMPLATE DESIGNER window.
 
 
-**Parent Topic:**[Data Modellers](../concept/data-modellers.md)
+**Parent Topic:**[Data Modellers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-modellers.md)
 

@@ -2,13 +2,14 @@
 title: Use case: Generate a data binding and formula
 description: Automate data binding configuration without memorizing formula syntax.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/use-case-data-binding-generation.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Use case, Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use case, Use, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Use case: Generate a data binding and formula
@@ -29,7 +30,7 @@ With Data binding generation, the developer describes what they need in plain la
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](../task/install-ui-generation.md) and [Grant UI Builder admin role](../task/grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/grant-ui-builder-admin-role.md).
 
 ## Configuration steps
 
@@ -59,14 +60,14 @@ Perform the following steps to use Data binding generation:
 
 The developer sets up a dynamic binding quickly, without referring to the documentation. This eliminates syntax errors, enabling the developer to focus on experience design rather than writing formulas.
 
-**Parent Topic:**[UI Generation use cases](../task/ui-generation-use-cases.md)
+**Parent Topic:**[UI Generation use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ui-generation-use-cases.md)
 
 **Related topics**  
 
 
-[Data binding generation](concept-data-binding-generation.md)
+[Data binding generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/concept-data-binding-generation.md)
 
-[Generate a data binding and formula](../task/generate-data-bindings-and-formulas.md)
+[Generate a data binding and formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-data-bindings-and-formulas.md)
 
-[Natural language synonyms for formula operators](../reference/natural-language-synonyms-for-formula-operators.md)
+[Natural language synonyms for formula operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/natural-language-synonyms-for-formula-operators.md)
 

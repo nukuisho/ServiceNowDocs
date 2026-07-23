@@ -2,6 +2,7 @@
 title: Exploring the Financial Services Operations Integration with Jack Henry jXchange
 description: The Financial Services Operations Integration with Jack Henry jXchange application enables your agents to access the required system of record information so they can look up and verify your customer's financial and account information quickly. This integration also enables your organization to convert your end-to-end digital financial service processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/exploring-fso-integration-with-jha.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ The Financial Services Operations Integration with Jack Henry jXchange applicati
 
 The following diagram is a high-level overview of the design of the Jack Henry jXchange integration and the role that each layer plays in Financial Services Operations \(FSO\). The table that follows the diagram describes the different layers.
 
-![Diagram of a high-level overview of the design of the JHA integration and the role each layer plays in Financial Services Operations applications. For description of the layers, refer to the following table.](../image/jha-thirdparty-integ.png "Financial Services Operations Integration with Jack Henry jXchange")
+\[Omitted image "jha-thirdparty-integ.png"\] Alt text: Diagram of a high-level overview of the design of the JHA integration and the role each layer plays in Financial Services Operations applications. For description of the layers, refer to the following table.
 
 <table id="table_nwm_zkl_15b"><thead><tr><th>
 
@@ -62,5 +63,5 @@ Layer that includes the Jack Henry jXchange spoke plugin. This layer provides th
 -   Look up Financial Transactions Stream
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Operations Integration with Jack Henry jXchange](fso-integration-with-jha-integthub-landing-page.md)
+</table>**Parent Topic:**[Financial Services Operations Integration with Jack Henry jXchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-jha-integthub-landing-page.md)
 

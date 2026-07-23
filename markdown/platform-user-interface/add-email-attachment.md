@@ -2,6 +2,7 @@
 title: Add a file to an email from the full email composer
 description: Send a file from your computer or related record to a requester or agent from the full email composer by attaching it to an email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-email-attachment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,11 +22,11 @@ Role required: email\_composer
 
 1.  Open a Workspace record in your instance.
 
-2.  Open the full email composer by selecting the More actions icon \(![More actions icon](../image/x-more-actions-icon.png)\) from the record view, and then select **Compose Email**.
+2.  Open the full email composer by selecting the More actions icon \(\[Omitted image "x-more-actions-icon.png"\] Alt text: More actions icon\) from the record view, and then select **Compose Email**.
 
 3.  Attach a file from your computer.
 
-    1.  Select the Attach file icon \(![Attachment icon](../image/x-attachment-icon.png)\) from email footer.
+    1.  Select the Attach file icon \(\[Omitted image "x-attachment-icon.png"\] Alt text: Attachment icon\) from email footer.
 
     2.  Select **From computer**.
 
@@ -37,7 +38,7 @@ Role required: email\_composer
 
 4.  Attach a file from the related record.
 
-    1.  Select Attach file icon \(![Attachment icon](../image/x-attachment-icon.png)\) from the email footer.
+    1.  Select Attach file icon \(\[Omitted image "x-attachment-icon.png"\] Alt text: Attachment icon\) from the email footer.
 
     2.  Select **From record**.
 
@@ -48,7 +49,7 @@ Role required: email\_composer
 
 ## What to do next
 
-Optionally, you can hide or show attachments in your email drafts by selecting **Hide attachments** when not hidden and **Show attachments** when hidden. You can also perform additional actions by selecting the menu icon \(![Menu icon](../image/menu-icon.png)\) next to each attached file:
+Optionally, you can hide or show attachments in your email drafts by selecting **Hide attachments** when not hidden and **Show attachments** when hidden. You can also perform additional actions by selecting the menu icon \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) next to each attached file:
 
 -   **Download**: Download the file to your computer.
 -   **Rename**: Rename the attached file. Only the first 100 characters of a file name are displayed.

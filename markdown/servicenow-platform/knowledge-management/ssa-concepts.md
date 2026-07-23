@@ -2,6 +2,7 @@
 title: Self-Service Analytics concepts
 description: You can quantify your self-service effectiveness by measuring case deflections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/ssa-concepts.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -25,8 +26,8 @@ The system includes predefined configurations for the Self-Service Analytics fra
 
 Self-service analytics is based on the activity pattern associated with a deflection outcome. It consists of the following main components:
 
--   Activity pattern \(see [Activity pattern components](ssa-concepts.md#section_a22_kcl_rlb)\)
--   Deflection outcome \(see [Deflection outcome components](ssa-concepts.md#section_k4v_l52_tlb)\)
+-   Activity pattern \(see [Activity pattern components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md)\)
+-   Deflection outcome \(see [Deflection outcome components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md)\)
 
 ## Activity pattern components
 
@@ -38,7 +39,7 @@ Self-service analytics is based on the activity pattern associated with a deflec
 
 -   **Deflection outcome**
 
-    An activity pattern can lead to a deflection outcome. See [Deflection outcome components](ssa-concepts.md#section_k4v_l52_tlb).
+    An activity pattern can lead to a deflection outcome. See [Deflection outcome components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md).
 
 -   **Primary activity**
 
@@ -48,12 +49,8 @@ Self-service analytics is based on the activity pattern associated with a deflec
 
 -   **Pattern element group**
 
-    A logical combination of two pattern elements, pattern element group, or both and how many times the combination occurs. For more information, see [Pattern element group components](ssa-concepts.md#section_wkt_bq2_tlb).
+    A logical combination of two pattern elements, pattern element group, or both and how many times the combination occurs. For more information, see [Pattern element group components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/ssa-concepts.md).
 
-
-The following figure illustrates the components of the activity pattern Contacts: Case: Confirmed Deflection.
-
-![Components of the activity pattern Contacts: Case: Confirmed Deflection](../image/activity-pattern.png)
 
 ## Pattern element group components
 
@@ -95,10 +92,6 @@ The following figure illustrates the components of the activity pattern Contacts
     Example: The activity type Viewed knowledge article occurs when a user views a knowledge article.
 
 
-The following figure illustrates the components of the pattern element group Knowledge engagements once.
-
-![Components of the pattern element group Article content actions](../image/pattern-element.png)
-
 ## Activity context components
 
 -   **Activity context**
@@ -117,10 +110,6 @@ The following figure illustrates the components of the pattern element group Kno
 
     An activity group that has been added to a context.
 
-
-The following figure illustrates the components of the activity context Contact.
-
-![Components of the activity context Contact.](../image/activity-context.png)
 
 ## Deflection outcome components
 
@@ -158,10 +147,10 @@ The following figure illustrates the components of the activity context Contact.
     Associates deflection configuration with an activity pattern. A deflection pattern is implemented as a table.
 
 
-**Parent Topic:**[Self-Service Analytics](self-service-analytics.md)
+**Parent Topic:**[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/self-service-analytics.md)
 
 **Related topics**  
 
 
-[Configure Self-Service Analytics](../task/config-ssa.md)
+[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/config-ssa.md)
 

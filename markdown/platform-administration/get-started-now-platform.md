@@ -2,6 +2,7 @@
 title: Getting started on the ServiceNow AI Platform
 description: ServiceNow AI Platform is the exclusive ServiceNow platform. It provides a range of options to improve and automate your business processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/get-started-now-platform.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,19 +16,19 @@ ServiceNow AI Platform is the exclusive ServiceNow platform. It provides a range
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[How the ServiceNow AI Platform works ![](../../../reuse/icons/brand-icons/bus-whitepaper.svg) The ServiceNow AI Platform is the foundation of ServiceNow. It enables data to flow seamlessly across applications and existing systems.](how-now-platform-works.md)
+[How the ServiceNow AI Platform works \[Omitted image "bus-whitepaper.svg"\] Alt text: The ServiceNow AI Platform is the foundation of ServiceNow. It enables data to flow seamlessly across applications and existing systems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/how-now-platform-works.md)
 
 </td><td>
 
-[Basic system configuration ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Customize UI and forms, create a mobile experience, and adjust other settings in applications across the ServiceNow AI Platform.](../../core-configuration/concept/p_CoreConfigurationOverview.md)
+[Basic system configuration \[Omitted image "bus-sdlc.svg"\] Alt text: Customize UI and forms, create a mobile experience, and adjust other settings in applications across the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)
 
 </td></tr><tr><td>
 
-[Admin Center ![](../../../reuse/icons/brand-icons/bus-gender-neutral-leader-c-suite.svg) Admin Center provides a central hub for you to access platform capabilities, discover new applications, and get intelligent, actionable insights.](../../admin-center/concept/admin-center-intro.md)
+[Admin Center \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Admin Center provides a central hub for you to access platform capabilities, discover new applications, and get intelligent, actionable insights.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/admin-center-intro.md)
 
 </td><td>
 
-[Subscription Management ![](../../../reuse/icons/brand-icons/bus-learn.svg) With the ServiceNow® Subscription Management application, you can manage how your ServiceNow subscriptions are used on your instances.](../../subscription-management/reference/subscription-management-landing-page-v2.md)
+[Subscription Management \[Omitted image "bus-learn.svg"\] Alt text: With the ServiceNow® Subscription Management application, you can manage how your ServiceNow subscriptions are used on your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md)
 
 </td></tr></tbody>
 </table>## How the ServiceNow AI Platform works
@@ -46,20 +47,20 @@ Discover the capability of available applications and how to implement them to w
 
 Manage your ServiceNow subscriptions and how they’re used on your instances with Subscription Management. This app helps you allocate and monitor subscriptions, and display current subscriptions in your instance. Active management of user-based subscriptions and monitoring of capacity subscriptions lets you track usage and adjust allocation efficiently. Enabled by default, this management app means you can plan for subscription renewals with no added costs.
 
--   **[How the ServiceNow AI Platform works](how-now-platform-works.md)**  
-ServiceNow® offers a flexible, secure platform with a vast set of options, all following a single data model. Begin here to learn more about the platform.
--   **[Basic system configuration](../../core-configuration/concept/p_CoreConfigurationOverview.md)**  
+-   **[How the ServiceNow AI Platform works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/how-now-platform-works.md)**  
+The ServiceNow AI Platform is the unified foundation for every ServiceNow product, bringing together AI, data, workflows, and security on a single data model.
+-   **[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/p_CoreConfigurationOverview.md)**  
 Basic system configuration encompasses changes made to the platform as well as supporting applications. These changes can affect global settings as well as settings for particular applications.
--   **[Admin Center](../../admin-center/concept/admin-center-intro.md)**  
+-   **[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/admin-center-intro.md)**  
 Admin Center provides a central hub for platform owners and admins to access platform capabilities, discover new applications, and get intelligent, actionable insights.
--   **[Administering applications](../../../build/applications/reference/administering-applications.md)**  
+-   **[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/administering-applications.md)**  
 You can install, update, and remove applications without leaving your instance.
--   **[Now Assist for Setup](../../implementation-agent/concept/ia-landing.md)**  
-Now Assist for Setup provides a guided experience to install, configure, and deploy ServiceNow products. It automates installation, applies best-practice configurations, tracks progress, and packages changes for production, which reduces complexity, minimizes manual effort, and significantly shortens time to deployment.
--   **[Subscription Management](../../subscription-management/reference/subscription-management-landing-page-v2.md)**  
+-   **[Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md)**  
+The Setup Hub provides a unified, guided experience to set up, configure, and adopt ServiceNow products. It connects Admin Home, product hubs, and the Configuration Console into a single path from product activation to full configuration.
+-   **[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-landing-page-v2.md)**  
 Subscription Management enables you to proactively manage your subscriptions and monitor subscription usage on your instances.
--   **[Now Support administration](now-support-administration.md)**  
+-   **[Now Support administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-support-administration.md)**  
 The Now Support portal is where you can access self-help, get technical support, and manage your ServiceNow instances.
 
-**Parent Topic:**[Administer the ServiceNow AI Platform](intro-now-platform-landing.md)
+**Parent Topic:**[Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/intro-now-platform-landing.md)
 

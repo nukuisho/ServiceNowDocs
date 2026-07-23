@@ -2,6 +2,7 @@
 title: Application service readiness dashboard in configurable workspace
 description: Review the information on the dashboard to confirm that you’re ready to discover and map application services based on machine learning \(ML\). Service Mapping uses data processed by Predictive Intelligence to generate suggestions for traffic-based connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/readiness-dashboard-ml.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -19,7 +20,7 @@ The Application service readiness dashboard is part of Service Mapping Plus, ava
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Predictive Intelligence evaluates connections between application fingerprints, CIs, and processes, and ranks their relevancy. Service Mapping uses this information to create connections based on connection rules. It also generates connection suggestions for servers and load balancers for you to decide which connections to add or remove from the service instances.
 
@@ -31,7 +32,7 @@ service\_mapping\_admin
 
 ## Access the Application service readiness dashboard
 
-To open the dashboard, navigate to **Workspaces** &gt; **Service Mapping**. Then select the Application service readiness icon![application service readiness icon](../image/readiness-dashboard-navigation.png). ![Assessment dashboard](../image/readiness-dashboard.png)
+To open the dashboard, navigate to **Workspaces** &gt; **Service Mapping**. Then select the Application service readiness icon\[Omitted image "readiness-dashboard-navigation.png"\] Alt text: application service readiness icon. \[Omitted image "readiness-dashboard.png"\] Alt text: Assessment dashboard
 
 ## Reports
 
@@ -59,7 +60,7 @@ Mapping status of application service
 
 </td><td>
 
-A bar report![Bar report icon](../../../use/reporting/image/icon-bar-report-p.png)
+A bar report\[Omitted image "icon-bar-report-p.png"\] Alt text: Bar report icon
 
 </td><td>
 
@@ -67,7 +68,7 @@ ML-Related Service Status \[ml\_related\_service\_status\]
 
 </td><td>
 
-A bar report that provides the summary of ML-related issues in mapped application services. For detailed information, see [Mapping status of application services](readiness-dashboard-ml.md#section_kpj_npq_xrb).
+A bar report that provides the summary of ML-related issues in mapped application services. For detailed information, see [Mapping status of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/readiness-dashboard-ml.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Application fingerprints training status
 
 </td><td>
 
-A donut report![Donut report icon](../../../use/reporting/image/icon-donut-report-p.png)
+A donut report\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut report icon
 
 </td><td>
 
@@ -91,7 +92,7 @@ Traffic-based connection suggestions for existing discovered services
 
 </td><td>
 
-A donut report![Donut report icon](../../../use/reporting/image/icon-donut-report-p.png)
+A donut report\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut report icon
 
 </td><td>
 
@@ -194,18 +195,18 @@ Ensure that the **Status** of the **Service Mapping - Traffic Process to Process
 
 Review the list of service instances most affected by ML-related issues. The list of most affected services is available if the connection suggestions feature is enabled in your deployment. The list shows service names and the number of ML-related issues for each of them. It also indicates if the traffic-based feature is enabled for the services.
 
-**Parent Topic:**[Service Mapping reference](service-mapping-reference.md)
+**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 
 **Related topics**  
 
 
-[Learn about ADME probes](../../discovery/reference/r_DataCollDiscoTCPConnections.md)
+[Learn about ADME probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md)
 
-[Enable and configure discovery using ADME probes](../../discovery/reference/r_DiscoveryProperties.md)
+[Enable and configure discovery using ADME probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md)
 
-[Calibrate fingerprint-based discovery](../../discovery/concept/calibrate-process-based-discovery.md#)
+[Calibrate fingerprint-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md)
 
-[Ensure that the fingerprint-based discovery generates suggestions](../../discovery/concept/calibrate-process-based-discovery.md#)
+[Ensure that the fingerprint-based discovery generates suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/calibrate-process-based-discovery.md)
 
 [Troubleshooting guide for Service Mapping ML Connection Suggestions \[KB0963421\]](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0963421)
 

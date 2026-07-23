@@ -2,6 +2,7 @@
 title: Watermarks on notification emails
 description: By default, a unique watermark label will be generated at the bottom of each notification email to allow matching incoming email to existing records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_WorkingWithWatermarks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ The email watermark always begins with "**Ref:**" to identify the label as a wat
 -   An auto-numbered identifier — The numeric string identifying the source record, such as incident, problem, or change request.
 -   An underscore character followed by a random character string.
 
-![Randomized watermark format](../image/random-watermark-format.png "Randomized watermark example")
+\[Omitted image "random-watermark-format.png"\] Alt text: Randomized watermark format
 
 When inbound emails are processed, the system matches random watermarks to the appropriate source records.
 
@@ -38,41 +39,41 @@ Watermarks are always generated, but you can configure them as follows:
 -   Hide all email watermarks globally.
 -   Omit watermarks from individual email messages.
 
-If watermarks are omitted from email notifications, inbound email actions might not work properly. Without a watermark, the system processes inbound email messages as described in [Criteria for matching email to inbound actions](inbound-action-type-criteria.md).
+If watermarks are omitted from email notifications, inbound email actions might not work properly. Without a watermark, the system processes inbound email messages as described in [Criteria for matching email to inbound actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/inbound-action-type-criteria.md).
 
 **Note:** Email clients that use the plain text version of the email still show the watermark.
 
--   **[Create a custom watermark prefix for email notifications](../task/t_CreatingCustomWatermarkPrefixes.md)**  
+-   **[Create a custom watermark prefix for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingCustomWatermarkPrefixes.md)**  
 By default, email notifications use the watermark prefix **MSG**, but you can create a custom watermark prefix.
--   **[Omit an email notification watermark](../task/t_OmitWatermarksIndEmailNotif.md)**  
+-   **[Omit an email notification watermark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_OmitWatermarksIndEmailNotif.md)**  
 You can omit watermarks on email notifications if you do not want the instance to match the notification to an existing record.
--   **[Hide email watermarks globally](../task/t_HidingWatermarksGlobally.md)**  
+-   **[Hide email watermarks globally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_HidingWatermarksGlobally.md)**  
 Rather than omitting watermarks, it is possible to hide watermarks for global application using HTML markup.
 
-**Parent Topic:**[Email and SMS notifications](c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 
 
-[Create notification categories](../task/create-notification-categories.md)
+[Create notification categories]()
 
-[Create an email notification](../task/t_CreateANotification.md)
+[Create an email notification]()
 
-[Email notifications dashboard](email-notifications-dashboard.md)
+[Email notifications dashboard]()
 
-[Email diagnostics dashboard](email-diagnostics-dashboard.md)
+[Email diagnostics dashboard]()
 
-[Email templates](c_EmailTemplates.md)
+[Email templates]()
 
-[Email layouts](email-layouts.md)
+[Email layouts]()
 
-[Email retention](email-retention.md)
+[Email retention]()
 
-[Parse an email thread](../task/parse-email.md)
+[Parse an email thread]()
 
-[Email digests](email-digests.md)
+[Email digests]()
 
-[Domain separation and Notifications](domain-separation-notifications.md)
+[Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails](troubleshooting-notification-emails.md)
+[Email FAQs and troubleshooting notification emails]()
 

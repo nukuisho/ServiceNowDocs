@@ -1,36 +1,39 @@
 ---
 title: Success Readiness Assessment \(SRA\)
-description: This accelerator measures readiness and platform maturity of your ServiceNow platform.
+description: This Accelerator measures readiness and platform maturity of your ServiceNow platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/success-readiness-assessment.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Success Readiness Assessment \(SRA\)
 
-This accelerator measures readiness and platform maturity of your ServiceNow platform.
+This Accelerator measures readiness and platform maturity of your ServiceNow platform.
 
-## Overview
+## Accelerator Overview
 
 The Success Readiness Assessment \(SRA\) is a process designed to identify, target, and prescribe areas of improvement during the digital transformation journey with the ServiceNow platform.
 
 The SRA is composed of a series of interviews with a range of stakeholders used to solicit quantitative and qualitative customer feedback. These interviews produce trackable data that provides a baseline of information the Impact Squad can use when recommending improvement steps.
 
-**Note:** This Accelerator is available in the Advanced and Total Packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
 ## What You Get
 
--   **Introductory Customer Session \(up to 60 min\):**
+-   **Introductory Customer Session \(up to 1 hr\):**
     -   Provide an overview of the SRA and its importance
     -   Review the SRA process and deliverable
     -   Communicate expectation for Customer participation
     -   Request data and any other inputs
--   **Discovery Customer Sessions \(up to 90 min per interview\):**
+-   **Discovery Customer Sessions \(up to 1.5 hrs per interview\):**
 
     The SRA interviews are designed to:
 
@@ -38,7 +41,7 @@ The SRA is composed of a series of interviews with a range of stakeholders used 
     -   Identify where gaps exist that impact long-term success
     -   Pinpoint outlying areas to improve capacity and competency
     -   Build a baseline maturity score across thirteen focus areas
--   **SRA Read-out Session \(up to 90 minutes\):**
+-   **SRA Read-out Session \(up to 1.5 hrs\):**
 
     This session is designed to:
 

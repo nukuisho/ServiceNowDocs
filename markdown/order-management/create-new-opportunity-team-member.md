@@ -2,6 +2,7 @@
 title: Add a new opportunity team member
 description: Create an opportunity team member for a structured collaboration among multiple users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-opportunity-team-member.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: opportunity\_writer
 
 ## Procedure
 
-1.  Navigate to **List** view ![](../../../reuse/icons/product-icons/list-outline-24.svg) and select **Opportunity - All**.
+1.  Navigate to **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with and select the **Team** tab.
 
@@ -86,5 +87,12 @@ Enter work notes for reference.
     The Opportunity Team Member information is added to the main opportunity.
 
 
-**Parent Topic:**[Using Opportunity Management](../concept/opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+**Related topics**  
+
+
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

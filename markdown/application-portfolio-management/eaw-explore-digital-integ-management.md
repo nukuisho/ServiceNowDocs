@@ -2,6 +2,7 @@
 title: Exploring digital integration management in Enterprise Architecture Workspace
 description: Exploring digital integration management in Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-explore-digital-integ-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ The digital integration represents the integration between two business applicat
     -   Defined by the providing business application.
     -   Outlines a business application model for interacting with another application \(frequently an API\).
 
-An overview video on Digital integration management in Enterprise Architecture Workspace 
+\[Omitted video\] Description: An overview video on Digital integration management in Enterprise Architecture Workspace
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](../explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
 

@@ -2,6 +2,7 @@
 title: Activate calculation creation AI agent
 description: The calculation creation AI agent creates a calculated metric definition record using the formula passed in the input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/activate-calculation-creation-ai-agent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,5 +47,5 @@ Role required: sn\_nowassist\_admin.nsa\_admin
     9.  Select **Continue to Test Chat Response** to initiate the testing of the agentic workflow.
 
 
-**Parent Topic:**[Activate carbon calculations agentic workflow](activate-carbon-calculations-agentic-workflow.md)
+**Parent Topic:**[Activate carbon calculations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/activate-carbon-calculations-agentic-workflow.md)
 

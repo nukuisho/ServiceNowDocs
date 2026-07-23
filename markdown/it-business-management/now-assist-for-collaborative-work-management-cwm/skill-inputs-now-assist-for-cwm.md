@@ -2,6 +2,7 @@
 title: Skill inputs for Now Assist for Collaborative Work Management \(CWM\)
 description: Learn about the inputs of each skill of Now Assist for CWM. By configuring inputs for a skill, you can determine how and when a skill is used within the CWM workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-collaborative-work-management-cwm/skill-inputs-now-assist-for-cwm.html
 release: australia
 product: Now Assist for Collaborative Work Management \(CWM\)
 classification: now-assist-for-collaborative-work-management-cwm
@@ -63,5 +64,5 @@ Tag a story as a reference when it contains ideal acceptance criteria. These tag
 </table>**Related topics**  
 
 
-[Configure Now Assist for Collaborative Work Management \(CWM\)](../task/configure-now-assist-for-collaborative-work-management.md)
+[Configure Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md)
 

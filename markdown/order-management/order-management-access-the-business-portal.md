@@ -2,6 +2,7 @@
 title: Access the Business Portal
 description: Customers can access the Business Portal from their instance to browse products and create orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-management-access-the-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,4 +26,11 @@ Role required: sn\_customerservice.customer
 
     The Business Portals opens.
 
+
+**Related topics**  
+
+
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
 

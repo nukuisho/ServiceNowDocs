@@ -2,6 +2,7 @@
 title: Create a policy for Schedule Optimization
 description: Create policies to promote factors like the travel time and an agent's availability. Policies determine how to optimize an agent’s schedule based on defined objectives or constraints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-policies-schedule-optimization.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -21,9 +22,9 @@ Role required: wm\_admin
 
 ## About this task
 
-This video demonstrates how to create a policy for Schedule Optimization. 
+\[Omitted video\] Description: This video demonstrates how to create a policy for Schedule Optimization.
 
-A policy defines the rules and priorities that guide Schedule Optimization. Policies are built from objectives and constraints, which work together to determine how tasks are assigned to agents. Objectives control how tasks are prioritized during optimization, while constraints define the mandatory conditions an assignment group must meet to be considered for a task. See [Optimization Features](../reference/hard-soft-constraints.md) for the full list of objectives and constraints.
+A policy defines the rules and priorities that guide Schedule Optimization. Policies are built from objectives and constraints, which work together to determine how tasks are assigned to agents. Objectives control how tasks are prioritized during optimization, while constraints define the mandatory conditions an assignment group must meet to be considered for a task. See [Optimization Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/hard-soft-constraints.md) for the full list of objectives and constraints.
 
 You can use different policies for different batch or intraday configurations.
 
@@ -45,7 +46,7 @@ You can use different policies for different batch or intraday configurations.
 
     2.  Select **New**.
 
-    3.  In the **Optimization feature** field, select the Lookup using list icon \(![Lookup using list icon.](../../../common/image/List_SearchIcon.png)\) and select the constraint to add.
+    3.  In the **Optimization feature** field, select the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.\) and select the constraint to add.
 
     4.  Select **Submit**.
 
@@ -57,7 +58,7 @@ You can use different policies for different batch or intraday configurations.
 
     2.  Select **New**.
 
-    3.  In the **Optimization feature** field, select the Lookup using list icon \(![Lookup using list icon.](../../../common/image/List_SearchIcon.png)\) and select the objective to add.
+    3.  In the **Optimization feature** field, select the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.\) and select the objective to add.
 
     4.  Select **Submit**.
 
@@ -74,12 +75,12 @@ You have now created a schedule optimization policy.
 
 ## What to do next
 
-[Create a batch for Schedule Optimization](create-an-optimization-batch.md#).
+[Create a batch for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-an-optimization-batch.md).
 
 **Related topics**  
 
 
-[Add objectives to a policy](add-objective-sched-opt-policy.md)
+[Add objectives to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/add-objective-sched-opt-policy.md)
 
-[Add constraints to a policy](add-constraint-schedule-optimization-policy.md)
+[Add constraints to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/add-constraint-schedule-optimization-policy.md)
 

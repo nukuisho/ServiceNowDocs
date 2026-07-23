@@ -2,12 +2,13 @@
 title: Exploring Test Agent
 description: Test Agent autonomously manages end‑to‑end test authoring, execution, and troubleshooting from a single prompt.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-agent-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-21"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Test Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Exploring Test Agent
@@ -18,7 +19,7 @@ Test Agent autonomously manages end‑to‑end test authoring, execution, and tr
 
 By extending Build Agent, Test Agent uses the same prompt and code context to generate unit and functional ATF tests, run the tests, and automatically triage failures.
 
-![Gif showing test agent](../image/test-agent-new.gif)
+\[Omitted image "test-agent-new.gif"\] Alt text: Gif showing test agent
 
 Test Agent delivers the following measurable outcomes:
 
@@ -41,13 +42,13 @@ Test Agent has the following users.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|One-stop shop experience|[Author, execute, and troubleshoot tests with Test Agent](../task/test-agent-use.md)|admin|
+|One-stop shop experience|[Author, execute, and troubleshoot tests with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md)|admin|
 
 ## What to explore next
 
 To learn more about configuring and using Test Agent, see:
 
--   [Test Agent access](test-agent-access.md)
--   [Author, execute, and troubleshoot tests with Test Agent](../task/test-agent-use.md)
--   [Test Agent guidelines](test-agent-exceptions.md)
+-   [Test Agent access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-access.md)
+-   [Author, execute, and troubleshoot tests with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-use.md)
+-   [Test Agent guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-agent-exceptions.md)
 

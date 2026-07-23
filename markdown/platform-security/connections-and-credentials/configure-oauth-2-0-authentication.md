@@ -2,11 +2,12 @@
 title: Configure a connection to send OAuth request via the MID Server using external vault
 description: Configure a connection to send requests for OAuth 2.0 tokens to a third-party auth server via the MID Server. The MID Server adds OAuth 2.0 credentials \(Client ID and Client Secret\) from the CyberArk external vault, OAuth scope, and token URL from the instance to the request and sends them to the third-party auth server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/configure-oauth-2-0-authentication.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 12
 breadcrumb: [OAuth 2.0 authentication via MID Server using external credential storage, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -20,10 +21,10 @@ Configure a connection to send requests for OAuth 2.0 tokens to a third-party au
 Verify the following items.
 
 -   Confirm that you have subscribed to the ServiceNow IntegrationHub Standard Pack Installer. For more information, see [https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
--   You have created a JAR file that enables the MID Server to resolve credentials with the CyberArk external vault. See [Create a JAR file to resolve credentials](../concept/external_cred_storage_configuration.md#).
+-   You have created a JAR file that enables the MID Server to resolve credentials with the CyberArk external vault. See [Create a JAR file to resolve credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/external_cred_storage_configuration.md).
 -   You have imported the JAR file to the MID Server.
--   The MID Server is set up for CyberArk. See [Configure the MID Server for CyberArk AIM](t_ConfigureTheMIDServerForCyberArk.md).
--   OAuth 2.0 are configured on the CyberArk external storage. See [Configure OAuth 2.0 credentials on CyberArk](configure-oauth-2-0-credentials-on-cyberark.md).
+-   The MID Server is set up for CyberArk. See [Configure the MID Server for CyberArk AIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md).
+-   OAuth 2.0 are configured on the CyberArk external storage. See [Configure OAuth 2.0 credentials on CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-oauth-2-0-credentials-on-cyberark.md).
 
 Role required: none
 
@@ -43,7 +44,7 @@ You can configure the connection and credential with a configuration template or
 
     4.  Update the form, as required.
 
-        For example, you can provide the scope in the `oauth_entity_profile_scope` and `oauth_entity_scope` fields in the Default Data Template section. To learn to create a configuration template, see [Create a configuration template](create-template.md).
+        For example, you can provide the scope in the `oauth_entity_profile_scope` and `oauth_entity_scope` fields in the Default Data Template section. To learn to create a configuration template, see [Create a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-template.md).
 
     5.  Select **Submit**.
 
@@ -85,7 +86,7 @@ Parent Alias
 
 </td><td>
 
-Option to select the alias under which you're creating this connection and credential alias. The connection and credential alias that you're creating is a child alias. A child alias is listed under the **Child Aliases** tab on the parent connection and credential alias page.![Child alias under the Child Aliases tab.](../image/child-alias-location.png)
+Option to select the alias under which you're creating this connection and credential alias. The connection and credential alias that you're creating is a child alias. A child alias is listed under the **Child Aliases** tab on the parent connection and credential alias page.\[Omitted image "child-alias-location.png"\] Alt text: Child alias under the Child Aliases tab.
 
 </td></tr><tr><td>
 
@@ -111,7 +112,7 @@ Default Retry Policy
 
 </td><td>
 
-Retry policy for the alias. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/retry-policy.md).
+Retry policy for the alias. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/retry-policy.md).
 
 </td></tr><tr><td>
 
@@ -177,7 +178,7 @@ MID Selection
 Option to specify MID Configuration for Connection.-   **Specific MID Server**: Option to indicate a manual selection of a specific MID Server.
 -   **Auto-Select MID-Server**: Option to indicate that you want the MID Server automatically selected.
 -   **Specific MID Cluster**: Option to indicate a manual selection of a MID cluster of MID Servers.
-**Important:** Confirm that the MID Server you select resides on the same machine as the CyberArk AIM Client that is configured to access the CyberArk vault. See [Configure the CyberArk vault and install the AIM API](t_InstallCyberArkAIMAPI.md).
+**Important:** Confirm that the MID Server you select resides on the same machine as the CyberArk AIM Client that is configured to access the CyberArk vault. See [Configure the CyberArk vault and install the AIM API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_InstallCyberArkAIMAPI.md).
 
 </td></tr><tr><td>
 
@@ -209,9 +210,9 @@ Credential ID
 
 </td><td>
 
-Identifier for the CyberArk account that holds the Client ID and Client Secret details. To view the procedure to get the credential identifier, see [Configure OAuth 2.0 credentials on CyberArk](configure-oauth-2-0-credentials-on-cyberark.md).In the Credential ID field, enter an expression using one of these formats.
+Identifier for the CyberArk account that holds the Client ID and Client Secret details. To view the procedure to get the credential identifier, see [Configure OAuth 2.0 credentials on CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-oauth-2-0-credentials-on-cyberark.md).In the Credential ID field, enter an expression using one of these formats.
 
--   If all your credentials are in the same safe, configure this safe name in the MID Server `config.xml` file using the [ext.cred.safe\_name](t_ConfigureTheMIDServerForCyberArk.md) parameter, and then specify the credential ID by name only, as **&lt;credential ID&gt;**.
+-   If all your credentials are in the same safe, configure this safe name in the MID Server `config.xml` file using the [ext.cred.safe\_name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md) parameter, and then specify the credential ID by name only, as **&lt;credential ID&gt;**.
 -   To name credentials for a given platform that reside is a specific safe, define the credential ID as **&lt;safe&gt;:&lt;credential ID&gt;:&lt;platform ID&gt;**.
 -   If your credentials are in multiple safes, specify the credential ID in this format: **&lt;safe&gt;:&lt;credential ID&gt;**.
 
@@ -317,7 +318,7 @@ OAuth Entity Profile
 
 </td><td>
 
-Option to specify an OAuth entity profile that the credential uses. Select the OAuth entity profile you had created above. See [Configure an OAuth entity profile](configure-oauth-2-0-authentication.md#substeps_lsc_5wj_wbc).
+Option to specify an OAuth entity profile that the credential uses. Select the OAuth entity profile you had created above. See [Configure an OAuth entity profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-oauth-2-0-authentication.md).
 
 </td></tr><tr><td>
 
@@ -333,7 +334,7 @@ Credential ID
 
 </td><td>
 
-Option to specify credential identifier for the CyberArk account which holds Client ID and Client Secret. To view the procedure to get the credential identifier, see [Configure OAuth 2.0 credentials on CyberArk](configure-oauth-2-0-credentials-on-cyberark.md).
+Option to specify credential identifier for the CyberArk account which holds Client ID and Client Secret. To view the procedure to get the credential identifier, see [Configure OAuth 2.0 credentials on CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-oauth-2-0-credentials-on-cyberark.md).
 
 </td></tr><tr><td>
 
@@ -350,7 +351,7 @@ Option to specify the name of the external credential storage vault. Verify that
 
     13. Create a connection and credential alias.
 
-        To know the steps, see [Create a Connection &amp; Credential alias](connection-alias.md).
+        To know the steps, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
     14. Navigate to **All** &gt; **IntegrationHub** &gt; **Connections**.
 
@@ -447,7 +448,7 @@ MID Selection
 Option to specify one of the following options.-   Auto-Select MID Server: Selects from MID Servers based on MID Server criteria, regardless of whether they are members of a cluster.
 -   Specific MID Server: Manually select a MID Server.
 -   Specific MID Cluster: Automatic reassignment to another MID Server only selects from members of the specified cluster.
-**Important:** Confirm that the MID Server you select resides on the same machine as the CyberArk AIM Client that is configured to access the CyberArk vault. See [Configure the CyberArk vault and install the AIM API](t_InstallCyberArkAIMAPI.md).
+**Important:** Confirm that the MID Server you select resides on the same machine as the CyberArk AIM Client that is configured to access the CyberArk vault. See [Configure the CyberArk vault and install the AIM API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_InstallCyberArkAIMAPI.md).
 
 </td></tr><tr><td>
 
@@ -455,9 +456,9 @@ Capabilities
 
 </td><td>
 
-Option to select one or more MID Server capabilities. Capabilities define the specific functions of a MID Server within an IP address range, allowing an application to select the most appropriate MID Server. Select the MID capabilities icon \(![MID capabilities selection icon.](../image/mid-capabilities-selection.png)\) to select one or more capabilities. **Note:**
+Option to select one or more MID Server capabilities. Capabilities define the specific functions of a MID Server within an IP address range, allowing an application to select the most appropriate MID Server. Select the MID capabilities icon \(\[Omitted image "mid-capabilities-selection.png"\] Alt text: MID capabilities selection icon.\) to select one or more capabilities. **Note:**
 
--   Confirm that the MID Server you select resides on the same machine as the CyberArk AIM Client that is configured to access the CyberArk vault. See [Configure the CyberArk vault and install the AIM API](t_InstallCyberArkAIMAPI.md).
+-   Confirm that the MID Server you select resides on the same machine as the CyberArk AIM Client that is configured to access the CyberArk vault. See [Configure the CyberArk vault and install the AIM API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_InstallCyberArkAIMAPI.md).
 -   This option appears if you select **Auto-Select MID Server** in the MID Selection field.
 
 
@@ -496,10 +497,10 @@ Option to specify a MID application or accept the default application choice.**N
 
         The connection alias record appears.
 
-        ![OAuth 2.0 connection record is created.]( "OAuth 2.0 connection record is created")
+        \[Omitted image ""\] Alt text: OAuth 2.0 connection record is created.
 
-        ![OAuth 2.0 connection record is created.](../image/manual-connection-created.png)
+        \[Omitted image "manual-connection-created.png"\] Alt text: OAuth 2.0 connection record is created.
 
 
-**Parent Topic:**[OAuth 2.0 authentication via MID Server using external credential storage](../concept/oauth-2-0-support-in-external-credential.md)
+**Parent Topic:**[OAuth 2.0 authentication via MID Server using external credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-0-support-in-external-credential.md)
 

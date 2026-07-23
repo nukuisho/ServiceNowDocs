@@ -2,13 +2,14 @@
 title: Tables installed with Contract Management
 description: Tables are added with Contract Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/r\_TablesInstalledWContractMgmt.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Components installed with Contract Management, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Components installed with Contract Management, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Tables installed with Contract Management
@@ -96,5 +97,5 @@ Users Covered \[clm\_m2m\_contract\_user\]
 Lists the users covered by contracts.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Contract Management](r_ComponentsInstalledWContractMgmt.md)
+</table>**Parent Topic:**[Components installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/r_ComponentsInstalledWContractMgmt.md)
 

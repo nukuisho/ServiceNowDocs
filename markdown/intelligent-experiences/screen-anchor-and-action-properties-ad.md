@@ -2,9 +2,10 @@
 title: Screen, anchor, and step properties in AI Desktop Actions
 description: Learn about the properties of screens, anchors, and steps. There are multiple types of steps and each step type has distinct properties. You can update the properties to modify the behavior of the steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/screen-anchor-and-action-properties-ad.html
 release: australia
 topic_type: reference
-last_updated: "2025-11-11"
+last_updated: "2026-05-25"
 reading_time_minutes: 3
 breadcrumb: [Design defined-path desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
@@ -51,8 +52,8 @@ Learn about the properties of screens, anchors, and steps. There are multiple ty
     |Execution order|Order in which this step is executed when multiple steps are set up. This order is assigned when you add a step from the anchor. You can drag the step under its anchor at the desired order in the Screens and Steps panel.|
     |Type|Type of the step, such as Set Text, Get Text, Mouse Click.|
     |Description|Helpful description of this step.|
-    |X|Location of the green plus icon ![](../image/ad-green-plus-icon.png) along the X-axis relative to the anchor.|
-    |Y|Location of the green plus icon ![](../image/ad-green-plus-icon.png) along the Y-axis relative to the anchor.|
+    |X|Location of the green plus icon \[Omitted image "ad-green-plus-icon.png"\] Alt text: along the X-axis relative to the anchor.|
+    |Y|Location of the green plus icon \[Omitted image "ad-green-plus-icon.png"\] Alt text: along the Y-axis relative to the anchor.|
     |Delay before|Delay in seconds before the action is executed.|
     |Delay after|Delay in seconds after the action is executed.|
 
@@ -60,7 +61,8 @@ Learn about the properties of screens, anchors, and steps. There are multiple ty
 
     |Property|Description|
     |--------|-----------|
-    |Value|New text to set in the field.|
+    |Use parameter|Option to supply the value from a Desktop action parameter record mapped in AI Agent Studio. When selected, the Static value field is not used.|
+    |Static value|The text to enter in the field when Use parameter is not selected.|
 
 -   **Mouse Click**
 
@@ -97,7 +99,8 @@ Type of mouse click action to set for this step:-   Left click
     |Property|Description|
     |--------|-----------|
     |Clear existing value|Option to specify if the step clears the existing value on a field before setting the text.|
-    |Value|New text to set in the field.|
+    |Use parameter|Option to supply the value from a Desktop action parameter record mapped in AI Agent Studio. When selected, the Static value field is not used.|
+    |Static value|The text to enter in the field when Use parameter is not selected.|
     |Focus with mouse click|Option to use the mouse click to focus on the area in the application where the mouse inputs are passed.|
 
 -   **OCR Read Text**

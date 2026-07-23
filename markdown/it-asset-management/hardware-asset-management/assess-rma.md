@@ -2,13 +2,14 @@
 title: Assess the RMA asset
 description: Assess the Return Merchandise Authorization \(RMA\) asset using either an on-site or off-site assessment procedure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/assess-rma.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Managing RMA response orders for DaaS assets, Device as a Service, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Managing RMA response orders for DaaS assets, Device as a Service, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Assess the RMA asset
@@ -76,7 +77,7 @@ Asset
 
 </td><td>
 
-The asset that is selected while creating the associated RMA response order line.For more information, see [Create an RMA response order line](create-rma-response-order-line.md).
+The asset that is selected while creating the associated RMA response order line.For more information, see [Create an RMA response order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-rma-response-order-line.md).
 
 </td></tr><tr><td>
 
@@ -159,5 +160,5 @@ Notes about the task that are visible to all users within your organization.
 
 ## What to do next
 
-[Schedule a visit to the customer site](schedule-rma-daas.md) or [Ship the asset to the DaaS provider](ship-rma-asset.md)
+[Schedule a visit to the customer site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/schedule-rma-daas.md) or [Ship the asset to the DaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ship-rma-asset.md)
 

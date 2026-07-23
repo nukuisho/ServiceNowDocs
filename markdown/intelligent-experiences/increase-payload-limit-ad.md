@@ -2,9 +2,10 @@
 title: Increase payload limit through system properties in AI Desktop Actions
 description: By default, maximum 10 MB of file size is allowed in a scripted REST API request payload. Increase the payload limit to 15 MB by creating system properties in the global scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/increase-payload-limit-ad.html
 release: australia
 topic_type: task
-last_updated: "2026-02-02"
+last_updated: "2026-05-25"
 reading_time_minutes: 1
 breadcrumb: [Design defined-path desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
@@ -29,7 +30,7 @@ If you already have these properties configured for your instance, you can updat
 
 2.  In the filter navigator, enter `sys_properties.list`.
 
-3.  In the System Properties table, select **New** to add the glide.rest.max\_content\_length property.
+3.  In the System Properties table, select **New** to add the **glide.rest.max\_content\_length** property.
 
     1.  On the form, fill in the fields.
 
@@ -42,7 +43,7 @@ If you already have these properties configured for your instance, you can updat
 
     2.  Select **Submit**.
 
-4.  In the System Properties table, select **New** to add the glide.rest.scripted.max\_inbound\_content\_length\_mb property.
+4.  In the System Properties table, select **New** to add the **glide.rest.scripted.max\_inbound\_content\_length\_mb** property.
 
     1.  On the form, fill in the fields.
 

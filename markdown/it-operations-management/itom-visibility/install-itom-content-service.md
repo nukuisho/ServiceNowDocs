@@ -2,6 +2,7 @@
 title: Install ITOM Content Service
 description: Install the ITOM Content Service application \(sn\_smart\_content\) to manage and monitor the creation of configuration items based on application fingerprints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/install-itom-content-service.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -54,12 +55,12 @@ The following plugins are activated with ITOM Content Service:
 
 ## What to do next
 
-[Share data on ITOM Content Service](share-data-itom-content-service.md)
+[Share data on ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/share-data-itom-content-service.md)
 
 **Related topics**  
 
 
-[ITOM Content Service](../concept/discovery-content-services.md)
+[ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/discovery-content-services.md)
 
-[Discovery Admin Workspace](../concept/discovery-admin-workspace.md)
+[Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace.md)
 

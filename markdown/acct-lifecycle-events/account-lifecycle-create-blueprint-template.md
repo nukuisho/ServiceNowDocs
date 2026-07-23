@@ -1,37 +1,42 @@
 ---
-title: Create a success blueprint template
-description: Create a success blueprint template with predefined success objectives and outcomes.
+title: Define a success blueprint template
+description: Create a success blueprint template with predefined success objectives and outcomes for a product model that helps your organization scale its customer success operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-blueprint-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Success blueprints, Customer success, Configure, Customer Success Management]
 ---
 
-# Create a success blueprint template
+# Define a success blueprint template
 
-Create a success blueprint template with predefined success objectives and outcomes.
+Create a success blueprint template with predefined success objectives and outcomes for a product model that helps your organization scale its customer success operations.
 
 ## Before you begin
 
 -   Role required: sn\_acct\_lc.success\_template\_owner, sn\_acct\_lc.success\_template\_approver
 -   The **sn\_acct\_lc.enableApprovalForSuccessTemplate** system property must be set to **True**.
 
+## About this task
+
+A success blueprint template defines a reusable set of objectives and outcomes for a specific product. After a template is published, customer success managers can apply it when creating success blueprints for an engagement. See [Create a success blueprint from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-blueprint.md) for details.
+
 ## Procedure
 
 1.  Login as a user with the template owner \(sn\_acct\_lc.success\_template\_owner\) role.
 
-2.  Navigate to **All** &gt; **Customer Success** &gt; **Success Objective Templates**.
+2.  Navigate to **All** &gt; **Customer Success Management** &gt; **Success Objective Templates** and select **New**.
 
-3.  Enter a name and title for the template.
+3.  Enter a title and description for the template.
 
-4.  In the Product drop down list, from the CMDB model list, select the product for which this success objective will be applicable.
+4.  In the Product drop down list, select the product for which this success objective will be applicable.
 
 5.  In the Objective Framework section, you can do the following:
 
-    -   Select the `Mandatory` check box to set this as a required objective for your engagement.
-    -   Select the ![](../../../common/image/icon-lock.png) icon next to the Driver field to add the key drivers for this template. The drivers you select will be used to calculate the health and risk score for the associated product.
+    -   Select the `Mandatory` check box to set this as a required objective for this product model.
+    -   Select the \[Omitted image "icon-lock.png"\] Alt text: icon next to the Driver field to add the key drivers for this template.
     **Note:** If a success objective is marked as required, it’s automatically be selected when you create an engagement for the associated product.
 
 6.  Select **Save**.
@@ -54,10 +59,10 @@ Create a success blueprint template with predefined success objectives and outco
 11. Select **Publish** to publish the success outcome template and select **Update**.
 
     -   You can’t modify a success outcome template that is in the `Published` State.
-    -   Select **Cancel** to cancel a success outcome template that hasn’t been approved. You see a message indicating that all associated tasks will be canceled and any progress is lost. Select **Yes** if you no longer want to use this template.
+    -   Select **Delete** to cancel a success outcome template that hasn’t been approved. Select **Yes** if you no longer want to use this template.
 12. After you have created and published all the success outcome templates, select **Request for approval**.
 
-    ![Success Objective Template](../image/account-lifecycle-success-obj-temp.png)
+    \[Omitted image "account-lifecycle-success-obj-temp.png"\] Alt text: Success Objective Template
 
     **Note:**
 
@@ -77,7 +82,7 @@ To approve a success blueprint template request, follow these steps:
 2.  Navigate to **All** &gt; **Customer Success** &gt; **Success Objective Templates**.
 3.  Open the template with the `Waiting for approval` State.
 
-    ![Success Objective Template - Approve](../image/account-lifecycle-success-obj-temp-appr.png)
+    \[Omitted image "account-lifecycle-success-obj-temp-appr.png"\] Alt text: Success Objective Template - Approve
 
 4.  Select **Approve** to approve the template. The State is changed to `Approved`.
 
@@ -100,12 +105,9 @@ To configure the success initiatives decision table, follow these steps:
 2.  Select the **Success Initiative Blueprints** decision table.
 3.  In the Success initiative creation subflow column, add multiple subflows for the Success outcome template.
 
-    ![Success Initiative Blueprints.](../image/ale-success-initiative-blueprints.png)
+    \[Omitted image "ale-success-initiative-blueprints.png"\] Alt text: Success Initiative Blueprints.
 
 4.  Select **Save**.
 
--   **[Create a success blueprint](account-lifecycle-create-blueprint.md)**  
-Use this option to create a success blueprint to add success objectives and outcomes for the engagement.
-
-**Parent Topic:**[Customer success](../concept/account-lifecycle-config-cust-success.md)
+**Parent Topic:**[Configure success blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-success-blueprints.md)
 

@@ -2,6 +2,7 @@
 title: Configure Service Graph Connector for Tanium using SGC Central
 description: Set up scheduled import jobs to pull in Tanium data into your Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgcc-configure-tanium.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,13 +18,13 @@ Set up scheduled import jobs to pull in Tanium data into your Configuration Mana
 
 ## Before you begin
 
-Install Service Graph Connector for Tanium version 1.7.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
+Install Service Graph Connector for Tanium version 1.7.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 Role required: admin
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
 
 ## Procedure
 
@@ -39,7 +40,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 5.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](sgcc-first-time-setup.md).
+    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
 
 6.  Complete the prerequisites for setting up the Tanium environment.
 
@@ -143,7 +144,7 @@ Name of the MID Server used by the connector.This field appears only when the **
 
     1.  In the **Setup** stage of the playbook, select the **Select view** activity.
 
-    2.  In the **View** field, select the custom view you created on the Tanium instance in the [Prerequisites activity](sgcc-configure-tanium.md#prereq-activity).
+    2.  In the **View** field, select the custom view you created on the Tanium instance in the [Prerequisites activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-tanium.md).
 
     3.  Select **Continue**.
 
@@ -155,13 +156,13 @@ Name of the MID Server used by the connector.This field appears only when the **
 
     3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select **Save**.
 
         Alternatively, select **Execute Now** to execute the import schedule immediately.
 
-    5.  Repeat steps [10.b](sgcc-configure-tanium.md#parent) to [10.d](sgcc-configure-tanium.md#save) for the **_Connection name_ - SG-Tanium Hardware and Software** parent import schedule.
+    5.  Repeat steps [10.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-tanium.md) to [10.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-tanium.md) for the **_Connection name_ - SG-Tanium Hardware and Software** parent import schedule.
 
     6.  Select **Continue**.
 
@@ -175,9 +176,9 @@ Select **View all connections** to review the connection details. The configured
 **Related topics**  
 
 
-[Service Graph Connector for Tanium](../../configuration-management/concept/cmdb-integration-tanium.md)
+[Service Graph Connector for Tanium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-tanium.md)
 
-[CMDB classes targeted in Service Graph Connector for Tanium](../../configuration-management/reference/cmdb-tanium-classes.md)
+[CMDB classes targeted in Service Graph Connector for Tanium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-tanium-classes.md)
 
-[Accessing the connection details of Service Graph Connector for Tanium](../../configuration-management/concept/sgc-tanium-conn.md#)
+[Accessing the connection details of Service Graph Connector for Tanium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-tanium-conn.md)
 

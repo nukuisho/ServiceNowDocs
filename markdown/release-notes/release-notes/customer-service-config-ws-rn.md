@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 ---
 
 # Agent experience for CSM release notes
@@ -109,12 +109,21 @@ See [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/Se
 
     Enhance security, reduce over-privileged accounts, and enable flexible, task-focused permission management by assigning granular, feature-specific roles to replace broad admin access.
 
+-   **Knowledge article link insertion from Recommended Actions**
+
+    Selecting any of the three attach knowledge article options for work notes, comments, or email from the Recommended Actions panel now automatically switches to the relevant target tab, so the inserted link is immediately visible without manual navigation. Inserted links also now display the article title alongside the article number as a hyperlink, replacing the previous article-number-only display. This enhancement applies to the Front-line case page and CSM default record page.
+
+
+-   **Knowledge article link insertion from Recommended Actions on the Email Interaction record page**
+
+    Inserted knowledge article links from the Recommended Actions panel now display the article title alongside the article number as a hyperlink in the email body, replacing the previous article-number-only display. This enhancement applies to the Email Interaction record page.
+
 
 ## Activation information
 
 CSM Configurable Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-Install CSM Configurable Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install CSM Configurable Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -157,11 +166,11 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
 
     Use the Customer Service Management application to provide the service and support that your external customers need.
 
--   **[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)**
+-   **[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm.md)**
 
     Use the ServiceNow® Now Assist for CSM application to summarize customer chat conversations on interactions, summarize case details, and generate case resolution notes.
 
--   **[Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)**
+-   **Next Experience UI Builder**
 
     Next Experience UI Builder is a low-code web user interface builder that enables developers to build pages for workspace and portal web-based experiences. Use the base system and custom web components to build your pages.
 
@@ -170,5 +179,5 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
     ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents need to find, research, and resolve issues. CSM Configurable Workspace is a customer service-specific implementation that provides tier 1 agents with the tools that they need to respond to customers and to resolve cases.
 
 
-**Parent Topic:**[Customer Service Management release notes](customer-service-mgmt-rn-landing.md)
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 

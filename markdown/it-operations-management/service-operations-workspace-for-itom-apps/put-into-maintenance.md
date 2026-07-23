@@ -2,11 +2,12 @@
 title: Mute a CI's alerts in Express List
 description: Mute a CI's alerts in Express List to avoid alerts being issued when replacing or upgrading the CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/put-into-maintenance.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-22"
 reading_time_minutes: 1
 breadcrumb: [Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -25,11 +26,11 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon ![](../../event-management/image/express-list1.png).
+2.  From the navigation bar, select the Express list icon \[Omitted image "express-list1.png"\].
 
 3.  Select the alert row check box.
 
-    **Note:** You can perform the action on up to 1,000 alerts simultaneously by selecting the **Select All** check box in the Active alerts list. ![Select All check box.](../image/el-select-all.png)
+    **Note:** You can perform the action on up to 1,000 alerts simultaneously by selecting the **Select All** check box in the Active alerts list. \[Omitted image "el-select-all.png"\] Alt text: Select All check box.
 
 4.  From the **Close** drop-down list, select **Put in Maintenance**.
 
@@ -37,4 +38,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 ## Result
 
 Alerts are muted for the configuration items of that alert.
+
+**Note:** The maintenance timeframe isn't provided in the **Put in Maintenance** action. Alert maintenance status is calculated based on whether the related CI is currently in maintenance, such as during an active change request or through a maintenance rule. The **Maintenance Calculation** scheduled job updates associated alerts when the CI enters or exits maintenance.
 

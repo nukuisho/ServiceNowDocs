@@ -2,6 +2,7 @@
 title: Setting up a remote table integration
 description: This use case illustrates how an agent at a financial institution can access individual consumer, bank account, and transactional data that resides in a third-party external system. This integration methodology can apply across industries, such as integrating to a policy administration system in insurance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/setting-up-a-remote-table-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -53,7 +54,7 @@ Activate the remote tables plugin
 
 </td><td>
 
-The remote tables plugin must be enabled for the ServiceNow instance to support remote tables. For more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/activate-remote-tables-plugin.md).
+The remote tables plugin must be enabled for the ServiceNow instance to support remote tables. For more information, see [Activate the remote tables plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-remote-tables-plugin.md).
 
 </td></tr><tr><td>
 
@@ -135,7 +136,7 @@ The Lookup UXF Client action, included in the Financial Services Remote Tables p
 
 It’s available as part of the Remote table lookup application but requires integration with a field decorator or a declarative action.
 
-For more information on the FSO Look Up Client action, see [FSO Look Up Client action](../../../../product/fso-common/reference/fso-look-up-client-action.md).
+For more information on the FSO Look Up Client action, see [FSO Look Up Client action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-look-up-client-action.md).
 
 </td></tr><tr><td>
 

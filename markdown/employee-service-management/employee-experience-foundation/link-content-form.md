@@ -2,6 +2,7 @@
 title: Link content form
 description: Link content form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/link-content-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -47,7 +48,7 @@ To-do content
 
 The to-do content you want to reference to your link content.This field only appears when you select **To-do** from the **Type** field.
 
-**Note:** Use this field to reference your to-do content to a link that can be used in a banner or styled content. For more information, see [Creating to-do content](../concept/ecpro-content-to-dos.md).
+**Note:** Use this field to reference your to-do content to a link that can be used in a banner or styled content. For more information, see [Creating to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-to-dos.md).
 
 </td></tr><tr><td>
 
@@ -66,7 +67,7 @@ The type of link for the content.-   Video: Link is a video.
 
 -   Forums Link: Link to a Communities forum post. Only appears when Communities plugin \[com.sn\_communities\] is installed.
 
- **Note:** After link content is associated with Portal Content, the **Type** cannot be modified. See [Portal content](../concept/ec-streamline-content.md).
+ **Note:** After link content is associated with Portal Content, the **Type** cannot be modified. See [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
 </td></tr><tr><td>
 
@@ -88,7 +89,7 @@ Forum
 
 The forum in Communities you want the link to appear and share with members of the forum. Only appears when **Forums Link** is selected from **Type** and the Communities plugin \[com.sn\_communities\] is installed.
 
- For information on Communities, see [Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/servicenow-communities.md).
+ For information on Communities, see [Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/servicenow-communities.md).
 
 </td></tr><tr><td>
 
@@ -115,48 +116,48 @@ The list of posts from the topic or forum the link appears. For example:
  Only appears when **Forums Link** is selected from **Type** and the Communities plugin \[com.sn\_communities\] is installed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center Pro reference](emp-center-pro-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 
 
-[Block content form](block-content-form.md)
+[Block content form]()
 
-[Campaign overview and Campaign analytics dashboards](../concept/ecpro-content-automation-content-pack.md)
+[Campaign overview and Campaign analytics dashboards]()
 
-[Components installed with Employee Center Pro](components-installed-with-employee-center-pro-1.md)
+[Components installed with Employee Center Pro]()
 
-[Components installed with Content engagement](installed-content-engagement.md)
+[Components installed with Content engagement]()
 
-[Components installed with Content Experiences](installed-with-content-auto.md)
+[Components installed with Content Experiences]()
 
-[Components installed with Content Publishing](installed-with-content-delivery.md)
+[Components installed with Content Publishing]()
 
-[Components installed with Content Governance](ec-installed-content-governance.md)
+[Components installed with Content Governance]()
 
-[Components installed with Content Analytics](ecpro-installed-content-analytics-1.md)
+[Components installed with Content Analytics]()
 
-[Content Analytics dashboards](../concept/content-analytics-dashboards.md)
+[Content Analytics dashboards]()
 
-[Content engagement dashboard](../concept/ec-pro-content-engagement-dashboard.md)
+[Content engagement dashboard]()
 
-[Content Library Overview dashboard](../concept/content-library-overview-dashboard.md)
+[Content Library Overview dashboard]()
 
-[Employee Center Pro widgets](employee-center-pro-widgets-list.md)
+[Employee Center Pro widgets]()
 
-[Feedback configuration form](ex-feedback-new-record.md)
+[Feedback configuration form]()
 
-[Feedback definition form](fdbck-dfnition-record.md)
+[Feedback definition form]()
 
-[Notification content form](notification-content-form.md)
+[Notification content form]()
 
-[Properties installed with Content Experiences](properties-installed-with-content-auto.md)
+[Properties installed with Content Experiences]()
 
-[Properties installed with Content Governance](properties-installed-content-governance.md)
+[Properties installed with Content Governance]()
 
-[Properties installed with Content Publishing](properties-with-content-delivery.md)
+[Properties installed with Content Publishing]()
 
-[Standard banner and icon sizes](ec-portal-images-size.md)
+[Standard banner and icon sizes]()
 
-[To-do content form](to-do-content-form.md)
+[To-do content form]()
 

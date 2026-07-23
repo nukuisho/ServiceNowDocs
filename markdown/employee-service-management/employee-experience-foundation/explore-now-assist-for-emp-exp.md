@@ -2,6 +2,7 @@
 title: Explore Now Assist for Employee Experience
 description: With the Now Assist for Employee Experience application, your employees can use Now Assist in Virtual Agent to quickly check the status of their work through conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ With the Now Assist for Employee Experience application, your employees can use 
 
 Your employees can use the Now Assist in Virtual Agent, which is powered by generative AI chat capabilities, to engage in an interactive conversational experience. They can check the status of their tasks and approvals and also submit a catalog task.
 
-![Now Assist for Employee Experience welcome message.](../images/uex-nowassist-startmsg.png)
+\[Omitted image "uex-nowassist-startmsg.png"\] Alt text: Now Assist for Employee Experience welcome message.
 
 The Now Assist for Employee Experience enables your employees to check the following options:
 
@@ -53,7 +54,7 @@ The Now Assist for Employee Experience enables your employees to check the follo
 
 Use the Request, Requested item, and Case summarization skill for approvals to create useful summaries so that the approver users can understand the context quickly.
 
-For more information, see [Activate Now Assist for Employee Experience skills](../task/activate-now-assist-skills-uex.md).
+For more information, see [Activate Now Assist for Employee Experience skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-now-assist-skills-uex.md).
 
 ## Expanded Now Assist search
 
@@ -63,7 +64,7 @@ When you search on topic pages and expand the search, the default search changes
 
 Employees can check their latest company news and upcoming events. The AI Agent in the Now Assist in Virtual Agent displays a list of latest news and any planned events in the company.
 
-For more information about the AI agent, see [Company News &amp; Events AI Agent](check-company-newsevent-ai-agent-for-emp-exp.md).
+For more information about the AI agent, see [Company News &amp; Events AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/check-company-newsevent-ai-agent-for-emp-exp.md).
 
 ## Learn more about the Now Assist journey
 
@@ -80,10 +81,10 @@ For more information about an agentic workflow and activating the required compo
 -   [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent.md)
 -   [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md)
 
--   **[Supporting information for Now Assist for Employee Experience](supporting-info-for-now-assist-for-emp-expe.md)**  
+-   **[Supporting information for Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/supporting-info-for-now-assist-for-emp-expe.md)**  
 Get a quick overview of the key information related to the Now Assist for Employee Experience.
 
-**Parent Topic:**[Now Assist for Employee Experience](now-assisit-employee-exp.md)
+**Parent Topic:**[Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
 
 **Related topics**  
 

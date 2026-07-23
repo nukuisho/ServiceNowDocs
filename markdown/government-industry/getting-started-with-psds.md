@@ -2,6 +2,7 @@
 title: Getting started with Public Sector Digital Services
 description: Getting started.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/getting-started-with-psds.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,17 +24,17 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activate Public Sector Core](configure-psds-core.md)
+[Activate Public Sector Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-psds-core.md)
 
 </td><td>
 
 As an admin, activate the Public Sector Digital Services Core plugin. The PSDS Core application provides data models, workflows, and experiences that enable the development of public sector customized applications, which deliver digital services to the government constituents.
 
-This plugin includes demo data and activates related plugins. For information on the plugins activated with Public Sector Digital Services Core, see [Plugins installed with Public Sector Digital Services Core](../reference/plugins-installed-with-psds.md).
+This plugin includes demo data and activates related plugins. For information on the plugins activated with Public Sector Digital Services Core, see [Plugins installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/plugins-installed-with-psds.md).
 
 </td></tr><tr><td>
 
-[Plugins installed with Public Sector Digital Services Core](../reference/plugins-installed-with-psds.md)
+[Plugins installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/plugins-installed-with-psds.md)
 
 </td><td>
 
@@ -41,7 +42,7 @@ Review the list of plugins that are activated after installing and activating th
 
 </td></tr><tr><td>
 
-[Configure foundation data](configure-psds-foundation-data.md#)
+[Configure foundation data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/configure-psds-foundation-data.md)
 
 </td><td>
 

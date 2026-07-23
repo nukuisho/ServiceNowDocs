@@ -2,6 +2,7 @@
 title: Configure the HTML editor toolbar for journal fields
 description: Configure toolbar options for the HTML editor within journal input fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-html-editor-toolbar.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Role required: admin
 
     1.  Add a system property named **glide.ui.journal.html.plugins**.
 
-        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     2.  Select **Submit**.
 
@@ -35,7 +36,7 @@ Role required: admin
 
     1.  Add a system property named **glide.ui.journal.html.toolbar**.
 
-        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
     2.  Select **Submit**.
 

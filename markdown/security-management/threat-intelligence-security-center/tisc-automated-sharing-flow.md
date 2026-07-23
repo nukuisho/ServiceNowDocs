@@ -2,6 +2,7 @@
 title: Automated sharing of high-risk IOC's with trusted partners
 description: Learn how to automate sharing of high-risk IOC's with trusted partners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-automated-sharing-flow.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -77,31 +78,33 @@ Automated sharing of high-risk IOC's with trusted partners triggers only when:
 
 8.  End the flow for this sharing of high-risk IOCs with trusted partners.
 
-    ![Automated IOC Enrichment in TISC.](../image/tisc-automated-intel-share.png)
+    \[Omitted image "tisc-automated-intel-share.png"\] Alt text: Automated IOC Enrichment in TISC.
 
 
-**Parent Topic:**[Working with automated flows](../concept/tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 
 
-[Automated IOC Enrichment](tisc-ioc-enrichment.md)
+[Automated IOC Enrichment]()
 
-[Automatically add threat intelligence to a TAXII collection](tisc-taxii-automated-flow.md)
+[Automatically add threat intelligence to a TAXII collection]()
 
-[Create vulnerability assessment for zero day](tisc-create-vul-assess.md)
+[Create vulnerability assessment for zero day]()
 
-[Analyze, assess, and disseminate observables](tisc-disseminate-observables.md)
+[Analyze, assess, and disseminate observables]()
 
-[Analyze and assess threat IoC’s](tisc-analyze-ioc.md)
+[Analyze and assess threat IoC’s]()
 
-[Vulnerability Management Support](tisc-vul-mgmt.md)
+[Vulnerability Management Support]()
 
-[Zero-day vulnerability tracking](tisc-zero-vul.md)
+[Zero-day vulnerability tracking]()
 
-[Automated flows tables](../concept/tisc-flows-tables.md)
+[Automatic Threat Actor priority tagging]()
 
-[Automated Sharing of Outbound Intelligence Records](../concept/tisc-automated-outbound-intel-share.md)
+[Automated flows tables]()
 
-[Sharing of Outbound Intelligence Records from GUI](../concept/tisc-create-intel-records-lib.md)
+[Automated Sharing of Outbound Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-outbound-intel-share.md)
+
+[Sharing of Outbound Intelligence Records from GUI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-intel-records-lib.md)
 

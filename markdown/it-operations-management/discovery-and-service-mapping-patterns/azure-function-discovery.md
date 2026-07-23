@@ -2,6 +2,7 @@
 title: Microsoft Azure Functions discovery with Patterns
 description: The Discovery and Service Mapping Patterns application uses the Azure - Functions \(LP\) and Azure - Functions TD Patterns to discover Azure Functions apps and map them in the context of application services. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/azure-function-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,21 +19,21 @@ The Discovery and Service Mapping Patterns application uses the Azure - Function
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   **Azure Functions detailed information**
 
-    [Detailed information on products discovered by ITOM Visibility](../reference/r_SupportedApplications.md)
+    [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md)
 
 -   **Azure service account**
 
-    Configure the Azure service account. For more information, see [Set up a cloud account for Azure](../../cloud-management-v2-setup/task/azure-cloud-accts-cloud-mgt.md)
+    Configure the Azure service account. For more information, see [Set up a cloud account for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-cloud-accts-cloud-mgt.md)
 
 -   **Azure Principal credentials**
 
-    On the ServiceNow AI Platform, create a service account for cloud discovery. Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console. For more information see: [Create Azure cloud credentials](../../discovery/task/create-azure-cloud-credentials.md)
+    On the ServiceNow AI Platform, create a service account for cloud discovery. Set the account Id to the Azure Service Principal as it appears at the Microsoft Azure Console. For more information see: [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-azure-cloud-credentials.md)
 
 -   **Privileges**
 
@@ -40,11 +41,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Run Azure Cloud discovery**
 
-    For detailed information, see: [Discovery for Microsoft Azure](../../discovery/concept/azure-cloud-discovery.md)
+    For detailed information, see: [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-cloud-discovery.md)
 
 -   **Create discovery schedule**
 
-    [Create a discovery schedule in Cloud Discovery Workspace](../../discovery/task/cloud-operations-disco-create-schedule.md)
+    [Create a discovery schedule in Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-operations-disco-create-schedule.md)
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -79,10 +80,10 @@ Service Mapping can discover the following connections:
     **Note:** Service Mapping does not scan java classes/jars and binary files for possible information about outgoing HTTP connections of Azure Functions. If java classes/jars and binary files are the only source of information about some outgoing HTTP connections, Service Mapping does not find such HTTP connections.
 
 
-**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](../reference/azure-cloud-discovery-patterns.md)
+**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 
 **Related topics**  
 
 
-[Define a Cloud REST Query for cloud computing devices](../task/cloud-rest-query-pattern.md)
+[Define a Cloud REST Query for cloud computing devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/cloud-rest-query-pattern.md)
 

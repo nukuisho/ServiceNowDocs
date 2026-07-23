@@ -2,6 +2,7 @@
 title: ERP source validation on Sourcing and Procurement Operations objects
 description: Sourcing and Procurement Operations supports multi-ERP integration that enables you to use different ERP systems for different regions or lines of business, as required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/erp-source-val-spo-objects.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,28 +38,28 @@ Cost center and GL account values are restricted by the ERP source on the object
 
 If there’s any record with different ERP sources, then an integration error task is raised. This is an indicator for your fulfiller to correct the record before processing it further.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](../concept/integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management](../concept/spo-itam-better-together.md)
+[Sourcing and Procurement Operations integration with Asset Management]()
 
-[Sourcing and Procurement Operations integration with Employee Center](../concept/employee-center-integration-psm.md)
+[Sourcing and Procurement Operations integration with Employee Center]()
 
-[Sourcing and Procurement Operations integration with third-party sourcing solutions](../concept/psm-integration-third-party-sourcing.md)
+[Sourcing and Procurement Operations integration with third-party sourcing solutions]()
 
-[Sourcing and Procurement Operations integration with Third-party Risk Management](../concept/better-together-with-vrm.md)
+[Sourcing and Procurement Operations integration with Third-party Risk Management]()
 
-[Sourcing and Procurement Operations integration with Project Management](../concept/integration-psm-ppm.md)
+[Sourcing and Procurement Operations integration with Project Management]()
 
-[Sourcing and Procurement Operations integration with Celonis](../concept/integration-psm-celonis.md)
+[Sourcing and Procurement Operations integration with Celonis]()
 
-[Sourcing and Procurement Operations integration with Field Service Management](../concept/integration-psm-fsm.md)
+[Sourcing and Procurement Operations integration with Field Service Management]()
 
-[Source-to-Pay Operations integration with Contract Management Pro](../concept/integration-spo-cmpro.md)
+[Source-to-Pay Operations integration with Contract Management Pro]()
 
-[SpendInt APIs](../concept/spendint-api.md)
+[SpendInt APIs]()
 
-[Procurement File Transfer Framework](../concept/procurement-file-transfer-framework.md)
+[Procurement File Transfer Framework]()
 

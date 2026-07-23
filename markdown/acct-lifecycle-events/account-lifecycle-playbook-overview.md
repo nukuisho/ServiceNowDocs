@@ -2,6 +2,7 @@
 title: Account onboarding
 description: The account onboarding feature enables technology industry providers to define a structured, repeatable, onboarding experience. It enables collaboration, transparency, and insight for both internal staff members and external customers involved in the onboarding process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-playbook-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,5 +32,12 @@ The account onboarding workflow involves the following stages:
 -   The account onboarding playbook is launched.
 -   The case is managed by the onboarding manager who uses the playbook to manage the end-to-end workflow.
 
-![Account onboarding lifecycle](../image/account-lifecycle-workflow.png)
+-   **[Onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-onboard-playbook.md)**  
+The onboarding playbook has preconfigured activities to help bootstrap the creation of the onboarding experience.
+-   **[Onboarding case and case tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-case-case-tasks.md)**  
+The onboarding case is a central record that manages new customer account setup, activation, and subsequent updates like product additions, account modifications, and data maintenance.
+-   **[Data import and validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-data-import-valid.md)**  
+Use this feature to streamline the migration and onboarding of customer data into the ServiceNow AI Platform.
+
+**Parent Topic:**[Explore Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-explore.md)
 

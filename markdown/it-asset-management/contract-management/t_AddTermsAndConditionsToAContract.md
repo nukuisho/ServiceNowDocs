@@ -2,13 +2,14 @@
 title: Add terms and conditions to a contract
 description: After you create a terms and conditions record, add the record to a contract that is in the Awaiting Review, Rejected, Renewal Rejected, or Extension Rejected substate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_AddTermsAndConditionsToAContract.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Terms and conditions, Contracts, Contract Management use, Contract Management, IT Asset Management]
+breadcrumb: [Terms and conditions, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
 
 # Add terms and conditions to a contract
@@ -49,12 +50,12 @@ Terms and Conditions can only be added to a contract when it is being created. A
         2.  In the dialog box, select the check box for each term and condition that you want to add.
         3.  Click **Add**.
 
-**Parent Topic:**[Terms and conditions](../concept/c_TermsAndConditions.md)
+**Parent Topic:**[Terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/c_TermsAndConditions.md)
 
 **Related topics**  
 
 
-[Create a terms and conditions record](t_CreateATermsAndConditionsRecord.md)
+[Create a terms and conditions record]()
 
-[Build a terms and conditions document within a contract](t_BuildTandCDocWinContract.md)
+[Build a terms and conditions document within a contract]()
 

@@ -2,13 +2,14 @@
 title: Jumpstart Your AI Search
 description: This Accelerator provides guidance on enabling and configuring AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-ai-search.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your AI Search
@@ -19,7 +20,9 @@ This Accelerator provides guidance on enabling and configuring AI Search.
 
 Jumpstart Your AI Search provides Impact customers with an introduction to AI Search, a demonstration of features and performance via a temporary cloned  instance, and leading practices on getting started. It aims to enable you to enhance your end-users’ experiences by empowering them to find the information  they need when and where they need it.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 

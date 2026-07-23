@@ -2,6 +2,7 @@
 title: Using disjunctions in complex queries
 description: ServiceNow performs conjunction \(AND\) statements before disjunction \(OR\) statements in a query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_UseDisjunctionsInComplexQueries.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -81,14 +82,14 @@ ALL P1 incidents + only closed P2
 </td></tr></tbody>
 </table>Always use parentheses around OR conditions when combining them with AND conditions. This ensures your query returns the expected results.
 
-**Parent Topic:**[Working with database views for reporting](c_DatabaseViews.md)
+**Parent Topic:**[Working with database views for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md)
 
 **Related topics**  
 
 
-[Joining tables using database views](../task/c_CreatingDatabaseViews.md)
+[Joining tables using database views]()
 
-[Displaying function results in a database view](../task/displaying-function-results-in-a-database-view.md)
+[Displaying function results in a database view]()
 
-[Database views in the base system](../reference/r_DatabaseViewsInTheBaseSystem.md)
+[Database views in the base system]()
 

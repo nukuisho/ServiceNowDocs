@@ -2,11 +2,12 @@
 title: Use the GetProperties component
 description: Get the values of multiple properties from a JSON object by using the GetProperties component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-json-getproperties.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [JSON, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [JSON, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the GetProperties component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-To configure the properties of the GetProperties component, see [Properties of the JSON utilities](../reference/properties-utilities-json.md).
+To configure the properties of the GetProperties component, see [Properties of the JSON utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/properties-utilities-json.md).
 
 ## Procedure
 
@@ -40,9 +41,9 @@ To configure the properties of the GetProperties component, see [Properties of t
 
 4.  Drag the GetProperties component to the Design surface.
 
-5.  Click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
+5.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
 
-6.  Click the Add property icon \(![Add keys icon.](../image/add-image-icon.png)\).
+6.  Click the Add property icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add keys icon.\).
 
 7.  Enter a property name.
 
@@ -52,7 +53,7 @@ To configure the properties of the GetProperties component, see [Properties of t
 
 9.  Click **OK**.
 
-10. To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+10. To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 11. Connect the data and control ports of the GetProperties component to the corresponding ports of the other components as described in the following table.
 
@@ -138,5 +139,5 @@ Returns the values of the properties.If no property value is found, the port ret
 </table>12. To test the component, right-click the component bar and click **Run From Here**.
 
 
-**Parent Topic:**[JSON](../concept/json.md)
+**Parent Topic:**[JSON](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/json.md)
 

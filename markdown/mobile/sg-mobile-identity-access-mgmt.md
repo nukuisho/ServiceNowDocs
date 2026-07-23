@@ -2,6 +2,7 @@
 title: User authentication for ServiceNow mobile apps
 description: ServiceNow mobile apps support platform authentication using OAuth 2.0. Authentication mechanisms include multi provider SSO, MFA, LDAP, Local DB, and Digest.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-identity-access-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,27 +23,27 @@ The ServiceNow mobile apps use a new authentication methodology called AppAuth. 
 3.  The client then sends the authorization code in the Access Token Request as usual but includes the `code_verifier` secret generated in the previous steps.
 4.  The authorization server transforms `code_verifier` and compares it to `t(code_verifier)` from the previous steps. Access is denied if they are not equal.
 
-![Flow for the authentication process for logging in to a mobile app](../image/AppAuthArch.png "Abstract protocol flow")
+\[Omitted image "AppAuthArch.png"\] Alt text: Flow for the authentication process for logging in to a mobile app
 
 ## Single sign-on
 
 ServiceNow mobile apps require multi-provider single sign-on in order to use external authentication. The multi providers SSO plugin \[com.snc.integration.sso.multi.installer\] provides SAML authentication support. The login process \(AppAuth\) uses this plugin to redirect the user to the IDP \(SAML provider\) login page when using SAML.
 
-For more information on this plugin, see [External single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
+For more information on this plugin, see [External single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_MultipleProviderSingleSignOn.md).
 
-For more information on configuring multi provider SSO, see [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
+For more information on configuring multi provider SSO, see [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_MultipleProviderSingleSignOn.md).
 
 ## Multifactor authentication
 
 Users can access the instance via Multifactor Authentication using the MFA plugin \[com.snc.integration.multifactor.authentication\]. Users are directed to their login page after selecting their instance in a mobile app.
 
-![Multifactor login page in the Mobile Agent app.](../image/mobile-mfa-redirect.png "Multifactor login page in the Mobile Agent app")
+\[Omitted image "mobile-mfa-redirect.png"\] Alt text: Multifactor login page in the Mobile Agent app.
 
-For details on configuring Multi-factor Authentication, see [Multifactor authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-properties.md)
+For details on configuring Multi-factor Authentication, see [Multifactor authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/mfa-properties.md)
 
 ## LDAP
 
-Use LDAP authentication to access using LDAP credentials. The user sees the same login page as the local login \(DB based\) but the back end to the LDAP server deletes the authentication. For more information on LDAP configuration, see [Lightweight Directory Access Protocol integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegration.md).
+Use LDAP authentication to access using LDAP credentials. The user sees the same login page as the local login \(DB based\) but the back end to the LDAP server deletes the authentication. For more information on LDAP configuration, see [Lightweight Directory Access Protocol integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_LDAPIntegration.md).
 
 ## Local DB
 
@@ -53,5 +54,5 @@ The user name and password in the user record in the instance database.
 -   Kerberos
 -   Certificate-based authentication \(AppAuth’s external browser may solve for some certificate based mechanisms\)
 
-**Parent Topic:**[Identity and access management](sg-mobile-ID-access-mgmt.md)
+**Parent Topic:**[Identity and access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-ID-access-mgmt.md)
 

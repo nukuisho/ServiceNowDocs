@@ -2,12 +2,13 @@
 title: Source-to-Pay Workspace
 description: As a Procurement Specialist, you can easily complete your actionable tasks within the premises of an enhanced user experience with Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/procurement-specialist-workspace.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -67,28 +68,28 @@ Admin role for Canvas Core Application: View and make configuration changes to t
 canvas\_admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Explore Sourcing and Procurement Operations](exploring-spo.md)
+</table>**Parent Topic:**[Explore Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.md)
 
 **Related topics**  
 
 
-[Shopping Hub](shopping-hub-overview.md)
+[Shopping Hub]()
 
-[My purchases on Shopping Hub](my-purchases.md)
+[Shopping Hub Mobile]()
 
-[Shopping Hub Mobile](shoppinghub-mobile.md)
+[Performance Analytics for Sourcing and Procurement Operations]()
 
-[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
+[Sourcing and Purchasing Automation]()
 
-[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+[Procurement Case Management]()
 
-[Procurement Case Management](psd-overview.md)
+[Spend and Savings Management]()
 
-[Spend and Savings Management](spo-spend-mgmt.md)
+[Sourcing Pipeline Management]()
 
-[Sourcing Pipeline Management](spo-sourcing-pipeline-mgmt.md)
+[Understanding Punchout]()
 
-[Understanding Punchout](punchout-overview.md)
+[AI Search for Sourcing and Procurement Operations]()
 
-[AI Search for Sourcing and Procurement Operations](ai-search-sourcing-procurement-operations.md)
+[Universal Request in Sourcing and Procurement Operations]()
 

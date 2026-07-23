@@ -2,6 +2,7 @@
 title: Work on a policy service case
 description: Review a policy case for a policy service request and update its details to trigger its workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-commercial-policy-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Use the case playbook that provides the activities and tasks required to researc
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Policy Service Cases**, open the case list.
 
@@ -60,14 +61,14 @@ The case workflow triggers next tasks for underwriter and document agent and the
 
 Work on the tasks associated with the case to resolve it.
 
--   [Work on an insurance underwriting task](work-insurance-underwriting-task.md).
--   [Work on a document task to verify documents for a policy service case](work-document-task-ins-policy-ops.md).
+-   [Work on an insurance underwriting task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-insurance-underwriting-task.md).
+-   [Work on a document task to verify documents for a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-document-task-ins-policy-ops.md).
 -   Work on a policy service task.
 
--   **[Work on an insurance underwriting task](work-commercial-insurance-underwriting-task.md)**  
+-   **[Work on an insurance underwriting task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-commercial-insurance-underwriting-task.md)**  
 Work on a commercial insurance underwriting task to evaluate the policy request and analyze risks for an insurance policy customer.
--   **[Work on a document task to verify documents for a policy service case](work-document-task-commercial-policy.md)**  
+-   **[Work on a document task to verify documents for a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/work-document-task-commercial-policy.md)**  
 Work on a document task to manage and track documents \(inbound and outbound\) that are needed for a policy service case.
 
-**Parent Topic:**[Using Commercial Lines Servicing](../concept/using-financial-services-commercial-lines-servicing.md)
+**Parent Topic:**[Using Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/using-financial-services-commercial-lines-servicing.md)
 

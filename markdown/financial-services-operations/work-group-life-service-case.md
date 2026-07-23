@@ -2,6 +2,7 @@
 title: Work on a group life policy service case
 description: Work on a group life case to change or review member information, and complete the policy service request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/work-group-life-service-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Work on a group life case to change or review member information, and complete t
 
 Role required: sn\_ins\_group\_life.processor, sn\_ins\_group\_life.contributor, or sn\_ins\_group\_life.processor\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -31,7 +32,7 @@ Use the case playbook that provides the activities and tasks required to researc
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Group life service cases**, open the case list.
 
@@ -55,15 +56,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 8.  Close the task from the playbook activity or the task form.
 
-<table><thead><tr><th align="left" id="d115163e231">
+<table><thead><tr><th align="left" id="d119597e231">
 
 Policy task
 
-</th><th align="left" id="d115163e234">
+</th><th align="left" id="d119597e234">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d115163e240">
+</th></tr></thead><tbody><tr><td id="d119597e240">
 
 **To verify a change or a document**
 
@@ -73,7 +74,7 @@ Action
 -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d115163e267">
+</td></tr><tr><td id="d119597e267">
 
 **To submit a review**
 

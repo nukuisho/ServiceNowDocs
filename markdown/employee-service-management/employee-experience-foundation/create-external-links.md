@@ -2,6 +2,7 @@
 title: Create an external link
 description: Create external links to access external resources and content. When creating a quick link, you can select an external link as the content type to display in a topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-external-links.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,26 +28,26 @@ Role required: sp\_admin, taxonomy\_admin, or taxonomy\_manager
 
 3.  On the form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [External Link form](../reference/external-link-form.md).
+    For more information about the form fields and descriptions, see [External Link form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/external-link-form.md).
 
 4.  Click **Save** or **Submit**.
 
 
 ## What to do next
 
-If you click **Save**, the **Available For** and **Not Available For** tabs appear. For more information, see [Grant or restrict access to an external link](grant-restrict-external-link.md).
+If you click **Save**, the **Available For** and **Not Available For** tabs appear. For more information, see [Grant or restrict access to an external link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/grant-restrict-external-link.md).
 
--   **[Grant or restrict access to an external link](grant-restrict-external-link.md)**  
+-   **[Grant or restrict access to an external link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/grant-restrict-external-link.md)**  
 Control who can access external links by setting the user criteria, which allows access only to specific users, groups, roles, and more.
 
-**Parent Topic:**[Quick links](../concept/emp-center-quick-link-config.md)
+**Parent Topic:**[Quick links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-quick-link-config.md)
 
 **Related topics**  
 
 
-[Create a quick link](create-quick-links.md)
+[Create a quick link]()
 
-[Modify the Quick links widget display](config-quick-links-widget.md)
+[Modify the Quick links widget display]()
 
-[Create a quick link](create-quick-links.md)
+[Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-quick-links.md)
 

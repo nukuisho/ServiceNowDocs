@@ -2,6 +2,7 @@
 title: Using License and Permit Playbook
 description: If you're an license and permits case agent or manager, you can use the License and Permit Playbook for Public Sector Digital Services to manage and resolve requests for licenses and permits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-lp-playbooks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -52,7 +53,7 @@ The process-based playbook layout shows the following features:
 
 -   Related records in the contextual side panel supported by the dynamic related records component.
 
-![Agent workspace view of the License and Permit Playbook life cycle, case record information, and license request details, shown in the Process-based experience view.](../image/lp-request-process-based-layout.png "Playbook layout with the Process-based Experience view")
+\[Omitted image "lp-request-process-based-layout.png"\] Alt text: Agent workspace view of the License and Permit Playbook life cycle, case record information, and license request details, shown in the Process-based experience view.
 
 The following table shows the components that you can see in the License and Permit Playbook workspace.
 
@@ -105,7 +106,7 @@ Contextual side panel
 -   Includes the tabs that you can use to display the following types of information:
     -   Case or case task activity stream.
     -   Ribbon information such as the case overview, customer details, timeline, and service level agreements \(SLAs\).
-    -   Dynamic related records. For more information, see [Dynamic related records](psds-playbook-viewing-rel-records.md).
+    -   Dynamic related records. For more information, see [Dynamic related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-playbook-viewing-rel-records.md).
 
 </td></tr><tr><td>
 

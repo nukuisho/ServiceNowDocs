@@ -2,6 +2,7 @@
 title: Flows for SLA
 description: Use the flow actions to send SLA notifications when the duration specified in the SLA definition is crossed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/flows-for-sla.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -26,9 +27,9 @@ The **SLA Notification and Escalation flow** creates the events that send out no
 
 **Note:** This feature is available only in new instances starting with Orlando or a later release.
 
-For more information on SLA notifications, refer [SLA notifications](c_SLANotifications.md).
+For more information on SLA notifications, refer [SLA notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLANotifications.md).
 
-**Parent Topic:**[Service Level Management reference](service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
 
 **Related topics**  
 

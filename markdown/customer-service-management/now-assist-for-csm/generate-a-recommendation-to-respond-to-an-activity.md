@@ -2,6 +2,7 @@
 title: Generate activity stream responses
 description: Generate recommendations for work notes or comments in a case record using Now Assist and add them to enhance the quality of your interactions with the user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/generate-a-recommendation-to-respond-to-an-activity.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -29,7 +30,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice.consumer\_agent
 
     If you haven’t switched to the front line case page, you can also do the same actions in **Work notes** or **Comments** tabs.
 
-    1.  Select the Sparkle icon ![GenAI icon](../../../common/image/icon-ai-sparkle.png).
+    1.  Select the Sparkle icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: GenAI icon.
 
         The following four options appear:
 
@@ -48,10 +49,10 @@ Role required: sn\_customerservice\_agent or sn\_customerservice.consumer\_agent
 3.  Select **Insert**.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 **Related topics**  
 
 
-[Configure activity response generation](configure-activity-response-generation.md)
+[Configure activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-activity-response-generation.md)
 

@@ -2,6 +2,7 @@
 title: Forecasting planning and analysis
 description: You can use the forecast planning and analysis feature to simulate various scenarios. The forecast planning and analysis tools enable for the creation, saving, visualization, and comparison of multiple analyses, enabling better planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/scenario-analysis-forecast.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Explore, Operational Sustainability Management \(formerly Environme
 
 You can use the forecast planning and analysis feature to simulate various scenarios. The forecast planning and analysis tools enable for the creation, saving, visualization, and comparison of multiple analyses, enabling better planning.
 
-You can install Forecast planning analysis from the ServiceNow Store. After installation, you can navigate to Forecast planning analysis by selecting the list icon ![List icon.](../../../reuse/icons/product-icons/list-fill-24.svg).
+You can install Forecast planning analysis from the ServiceNow Store. After installation, you can navigate to Forecast planning analysis by selecting the list icon \[Omitted image "list-fill-24.svg"\] Alt text: List icon..
 
 ## Analysis contexts
 
@@ -31,13 +32,13 @@ After creating an analysis record, a standard forecast graph and adjustable para
 
 The following example shows a generated standard forecast.
 
-![Standard forecast. For the text description, refer to the text that preceded this example.](../images/standard-forecast.png "Example of importing a template")
+\[Omitted image "standard-forecast.png"\] Alt text: Standard forecast. For the text description, refer to the text that preceded this example.
 
 You can create forecast interventions, to explore different possible outcomes by updating input parameters. A graph is generated showing the standard forecast and the new adjusted forecast.
 
 The following example shows a generated standard and adjusted forecast.
 
-![Adjusted forecast. For the text description, refer to the text that preceded this example.](../images/adjusted-forecast.png "Example of importing a template")
+\[Omitted image "adjusted-forecast.png"\] Alt text: Adjusted forecast. For the text description, refer to the text that preceded this example.
 
 After creating and publishing multiple analyses and forecasts, you can compare the analyses and view a graph that captures the data for each analysis you select.
 
@@ -47,22 +48,22 @@ By comparing these analyses, you can better understand the potential impacts of 
 
 The following example shows a generated comparison graph for two different analyses.
 
-![Comparison of two analysis as a forecast graph. For the text description, refer to the text that preceded this example.](../images/forecast-comparison.png "Example of a Comparison")
+\[Omitted image "forecast-comparison.png"\] Alt text: Comparison of two analysis as a forecast graph. For the text description, refer to the text that preceded this example.
 
 **Note:** You can select up to five analysis records for comparison. If the selected analysis have adjusted values, those are plotted in the comparison. Otherwise, the standard forecast values are plotted.
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
 
 **Related topics**  
 
 
-[Set up analysis contexts and analyses](set-up-scenarios.md)
+[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-scenarios.md)
 
-[Create an analysis context](../task/create-an-analysis-context.md)
+[Create an analysis context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-analysis-context.md)
 
-[Create an analysis](../task/create-a-scenario-analysis.md)
+[Create an analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-scenario-analysis.md)
 
-[Adjust parameters](../task/create-a-forecast-intervention.md)
+[Adjust parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-forecast-intervention.md)
 
-[Create a forecast comparison graph](../task/create-forecast-comparison.md)
+[Create a forecast comparison graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-forecast-comparison.md)
 

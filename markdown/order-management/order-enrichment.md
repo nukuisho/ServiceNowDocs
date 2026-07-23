@@ -2,6 +2,7 @@
 title: Enriching orders in Order Management
 description: Order enrichment is a post-capture stage in the Order Management life cycle that enables fulfillment agents to gather additional information from customers for complex orders before submitting the order for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-enrichment.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,5 +45,12 @@ The fulfillment agent or manager can now approve or reject the order.
 
 ## Configuration requirements
 
-Order enrichment tasks are only created if the enrichment process is explicitly configured in the Order Enrichment Flow Policy in the decision tables for a product or service offering. This process ensures that enrichment is applied selectively and only when necessary. For more information, see [Configure order enrichment flows using Decision Tables](../task/configure-order-enrichment.md).
+Order enrichment tasks are only created if the enrichment process is explicitly configured in the Order Enrichment Flow Policy in the decision tables for a product or service offering. This process ensures that enrichment is applied selectively and only when necessary. For more information, see [Configure order enrichment flows using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-enrichment.md).
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

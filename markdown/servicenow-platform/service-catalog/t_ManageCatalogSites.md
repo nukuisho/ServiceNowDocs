@@ -2,6 +2,7 @@
 title: Manage catalogs in CMS sites
 description: When your organization uses the content management system \(CMS\) as well as Service Catalog, you can select which catalogs are supported within the CMS sites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ManageCatalogSites.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -31,7 +32,7 @@ Associating catalogs with sites ensures that users can always access an appropri
 
 3.  Click the reference icon beside the site name, and then click **Open Record**.
 
-    ![Screenshot for service catalog details](../image/ServiceCatalogDetailsCatalogSitesDetails.png "Service catalog details - catalog sites details")
+    \[Omitted image "ServiceCatalogDetailsCatalogSitesDetails.png"\] Alt text: Screenshot for service catalog details
 
 4.  Enter values in the fields, as appropriate.
 
@@ -44,12 +45,12 @@ Associating catalogs with sites ensures that users can always access an appropri
 5.  Click **Update**.
 
 
-**Parent Topic:**[Using the content management system with the service catalog](../topic/p_ConfigureContentManagementSystem.md)
+**Parent Topic:**[Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)
 
 **Related topics**  
 
 
-[Set up catalog portal pages](../concept/c_SettingCatalogPortalPages.md)
+[Set up catalog portal pages]()
 
-[Manage catalog portal pages](../concept/c_MultipleServiceCatalogs.md#)
+[Manage catalog portal pages]()
 

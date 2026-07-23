@@ -2,6 +2,7 @@
 title: Create or edit a certification template
 description: To create a certification template, follow these instructions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CertificationTemplateCreation.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,9 @@ To create a certification template, follow these instructions.
 
 ## Before you begin
 
-Activate the Certification Core plugin to enable the Compliance functionality. See [Compliance Activation](../concept/c_ActivatingCompliance.md) for details.
+Activate the Certification Core plugin to enable the Compliance functionality. See [Compliance Activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ActivatingCompliance.md) for details.
+
+Role required: certification\_admin
 
 ## Procedure
 
@@ -102,7 +105,7 @@ Activate the Certification Core plugin to enable the Compliance functionality. S
 
     Updating the template description does not create a new version.
 
-    **Note:** If you select a filter whose table is incompatible with the existing template conditions, the system displays a warning that the conditions cannot be applied. ![Error message reading,"Some template conditions are incompatible with the selected filter. Incompatible conditions will not be used for auditing."](../image/IncompatibleFilterWarning.png)
+    **Note:** If you select a filter whose table is incompatible with the existing template conditions, the system displays a warning that the conditions cannot be applied. \[Omitted image "IncompatibleFilterWarning.png"\] Alt text: Error message reading,"Some template conditions are incompatible with the selected filter. Incompatible conditions will not be used for auditing."
 
 11. Select **Update**.
 

@@ -2,13 +2,14 @@
 title: Configure Service Exchange for the Zero Touch request flow
 description: The Zero Touch request flow uses the Service Exchange application to connect providers with your ServiceNow instance to manage hardware asset requests submitted through the Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/service-bridge-for-ztreq.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Zero Touch request flow, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configure Service Exchange for the Zero Touch request flow

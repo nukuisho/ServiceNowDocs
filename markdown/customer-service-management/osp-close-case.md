@@ -2,6 +2,7 @@
 title: Close a case
 description: Users with OSP agent role can propose a solution to a case and close the assigned cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-close-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

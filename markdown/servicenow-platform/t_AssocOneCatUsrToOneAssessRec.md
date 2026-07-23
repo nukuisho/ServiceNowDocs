@@ -2,6 +2,7 @@
 title: Associate one category user to one assessable record
 description: Create a single stakeholder using the list in the Assessment Stakeholders module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_AssocOneCatUsrToOneAssessRec.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,20 +41,20 @@ The selected category user becomes a stakeholder for the selected assessable rec
 
 **Note:** Do not create stakeholders from category users and assessable records of different metric types.
 
-**Parent Topic:**[Category users and stakeholders](../reference/r_CategoryUsersAndStakeholders.md)
+**Parent Topic:**[Category users and stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CategoryUsersAndStakeholders.md)
 
 **Related topics**  
 
 
-[Category users and stakeholders](../reference/r_CategoryUsersAndStakeholders.md)
+[Category users and stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_CategoryUsersAndStakeholders.md)
 
-[Create a category user](t_CreateACategoryUser.md)
+[Create a category user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateACategoryUser.md)
 
-[Associate multiple category users to one assessable record](t_AssocMultCatUsrsToOneAssessRec.md)
+[Associate multiple category users to one assessable record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_AssocMultCatUsrsToOneAssessRec.md)
 
-[Associate multiple category users to multiple assessable records](t_AssocMultCatUsrsToMultAssessRecs.md)
+[Associate multiple category users to multiple assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_AssocMultCatUsrsToMultAssessRecs.md)
 
-[Delete a stakeholder for multiple assessable records](t_DelAStakeholderForMultAssessRecs.md)
+[Delete a stakeholder for multiple assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DelAStakeholderForMultAssessRecs.md)
 
-[Delete a stakeholder for one assessable record](t_DelAStakeholderForOneAssessRec.md)
+[Delete a stakeholder for one assessable record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DelAStakeholderForOneAssessRec.md)
 

@@ -2,9 +2,10 @@
 title: Import security tag rules
 description: You can import security tag rules from other tables in your deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-import-security-tag-rules.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Set up security tag groups and tags, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -21,11 +22,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Security Tags** &gt; **Tags**.
 
-2.  Choose or [create a security tag](../../security-operations-common/task/create-class-group-and-tags.md).
+2.  Choose or [create a security tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-class-group-and-tags.md).
 
 3.  Click the **Import security tag rules** related link.
 
-    ![Import security tag rules](../../security-operations-common/image/ImportSecTagRules.png)
+    \[Omitted image "ImportSecTagRules.png"\] Alt text: Import security tag rules
 
 4.  Fill in the fields on the form, as appropriate.
 
@@ -86,5 +87,5 @@ Upload a file with delimited values. The values are parsed into security tags.
 </table>5.  Click **Submit**
 
 
-**Parent Topic:**[Set up security tag groups and tags](sem-create-class-group-and-tags.md)
+**Parent Topic:**[Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-class-group-and-tags.md)
 

@@ -2,13 +2,14 @@
 title: Publisher overview for SAP in the Software Asset Workspace
 description: View license usage information related to SAP in the publisher overview for SAP in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/publisher-overview-sap.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Publisher overview for SAP in the Software Asset Workspace
@@ -19,7 +20,7 @@ From the Software Asset Workspace, access the SAP publisher overview by navigati
 
 Results are updated whenever a new reconciliation result is available.
 
-![SAP publisher overview.](../image/publisher-overview-sap.png)
+\[Omitted image "publisher-overview-sap.png"\] Alt text: SAP publisher overview.
 
 You can view a summary of your license usage information in the Summary section of the SAP publisher overview.
 
@@ -100,40 +101,40 @@ Potential indirect access \(transaction activity\)
 Total number of SAP users with indirect access to the SAP system based on user transaction activity.Users are given a score based on the amount of data received or sent by each connection.
 
 </td></tr></tbody>
-</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](workbench-publisherfields-workspace.md).
+</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](../concept/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
 
-[Tables installed with the SAP publisher pack](../concept/component-installed-sap-plugin.md)
+[Tables installed with the SAP publisher pack]()
 
-[Deploy the ABAP program for SAP](../task/import-abap-program-sap.md)
+[Set up SAP integration to establish a connection with SAP]()
 
-[Establish an SAP connection using basic authentication](../task/add-sap-connection.md)
+[Establish an SAP connection using basic authentication]()
 
-[Establish an SAP connection using OAuth 2.0](../task/add-sap-connection-oauth.md)
+[Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP](../task/create-entitlement-sap.md)
+[Create entitlements for SAP]()
 
-[Create software models for SAP](../task/add-software-model-sap.md)
+[Create software models for SAP]()
 
-[Create a custom SAP named user type](../task/create-named-user.md)
+[Create a custom SAP named user type]()
 
-[Map a role to a named user type](../task/create-named-user-type-role-mapping.md)
+[Map a role to a named user type]()
 
-[Create custom SAP price lists](../task/create-sap-pricelist.md)
+[Create custom SAP price lists]()
 
-[Import custom SAP named user types](../task/import-custom-sap-named-user-type.md)
+[Import custom SAP named user types]()
 
-[Import custom SAP price lists](../task/import-custom-sap-price-list.md)
+[Import custom SAP price lists]()
 
-[SAP USMM-based optimization](../concept/usmm-optimization.md)
+[SAP USMM-based optimization]()
 
-[User transaction activity for named user types](../concept/sap-named-user-transaction-activity.md)
+[User transaction activity for named user types]()
 
-[Self-declaring SAP engine license usage](../concept/self-declaring-sap-engine-usage.md)
+[Self-declaring SAP engine license usage]()
 
-[Software Publisher Analytics dashboard for SAP in Software Asset Management classic](dashboard-sap.md)
+[Software Publisher Analytics dashboard for SAP in Software Asset Management classic]()
 

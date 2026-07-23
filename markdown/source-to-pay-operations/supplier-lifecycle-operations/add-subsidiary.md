@@ -2,6 +2,7 @@
 title: Add a subsidiary for a supplier from the Source-to-Pay Workspace
 description: If a supplier has subsidiaries, you can add them to that supplier from the Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/add-subsidiary.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,7 +16,7 @@ breadcrumb: [Create a supplier, Using Source-to-Pay Workspace, Use, Supplier Lif
 
 If a supplier has subsidiaries, you can add them to that supplier from the Source-to-Pay Workspace.
 
-Procedure for adding a subsidiary to a supplier from the Source-to-Pay Workspace. 
+\[Omitted video\] Description: Procedure for adding a subsidiary to a supplier from the Source-to-Pay Workspace.
 
 ## Before you begin
 
@@ -42,12 +43,12 @@ The subsidiary is added and displayed on the **Subsidiaries** tab.
 
 When you add a subsidiary, the supplier you added it under becomes the parent entity of that subsidiary.
 
-**Parent Topic:**[Create a supplier from the Source-to-Pay Workspace](new-supplier.md)
+**Parent Topic:**[Create a supplier from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/new-supplier.md)
 
 **Related topics**  
 
 
-[Use the supplier onboarding playbook to onboard suppliers](../concept/use-playbooks-onboard-supp.md#)
+[Use the supplier onboarding playbook to onboard suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-playbooks-onboard-supp.md)
 
-[Perform risk assessment playbook](../concept/perform-risk-playbook.md)
+[Perform risk assessment playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/perform-risk-playbook.md)
 

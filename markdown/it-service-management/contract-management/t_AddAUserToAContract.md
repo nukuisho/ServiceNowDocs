@@ -2,13 +2,14 @@
 title: Add a user to a contract
 description: A contract can cover specific users. For example, you may use a contract to hire a group of temporary workers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_AddAUserToAContract.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Add a user to a contract
@@ -40,16 +41,16 @@ Role required: contract\_manager or admin
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Create a contract](t_CreateAContract.md)
+**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_CreateAContract.md)
 
 **Related topics**  
 
 
-[Create a software maintenance contract example](t_UseCaseCreateSWMaintContract.md)
+[Create a software maintenance contract example]()
 
-[Add an asset to a contract](t_AddAnAssetToAContract.md)
+[Add an asset to a contract]()
 
-[Add a configuration item to a contract](t_AddAConfigurationItemToAContract.md)
+[Add a configuration item to a contract]()
 
-[Add a document to a contract](t_AddADocumentToAContract.md)
+[Add a document to a contract]()
 

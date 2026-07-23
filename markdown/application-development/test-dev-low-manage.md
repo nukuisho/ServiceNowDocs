@@ -2,6 +2,7 @@
 title: Manage apps with low-code tools
 description: Manage your ServiceNow apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-low-manage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,27 +16,27 @@ Manage your ServiceNow apps.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Customize my apps ![Customize my apps.](../image/icon-erp.png) Customize your apps on the ServiceNow platform.](test-dev-low-manage-cust.md)
+[Customize my apps \[Omitted image "icon-erp.png"\] Alt text: Customize my apps. Customize your apps on the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-low-manage-cust.md)
 
 </td><td>
 
-[Automate my apps ![Automate my apps.](../image/icon-app-journey.png) Automate your ServiceNow applications.](test-dev-low-manage-auto.md)
+[Automate my apps \[Omitted image "icon-app-journey.png"\] Alt text: Automate my apps. Automate your ServiceNow applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-low-manage-auto.md)
 
 </td><td>
 
-[Secure my apps ![Secure my apps.](../image/icon-security.png) Secure your ServiceNow applications.](test-dev-low-manage-secure.md)
+[Secure my apps \[Omitted image "icon-security.png"\] Alt text: Secure my apps. Secure your ServiceNow applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-low-manage-secure.md)
 
 </td></tr><tr><td>
 
-[Test my apps ![Test my apps.](../image/icon-atf.png) Test your apps on the ServiceNow platform.](test-dev-low-manage-test.md)
+[Test my apps \[Omitted image "icon-atf.png"\] Alt text: Test my apps. Test your apps on the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-low-manage-test.md)
 
 </td><td>
 
-[Deploy my apps ![Deploy my apps.](../image/icon-submit.png) Deploy your apps with the ServiceNow platform.](test-dev-low-manage-deploy.md)
+[Deploy my apps \[Omitted image "icon-submit.png"\] Alt text: Deploy my apps. Deploy your apps with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-low-manage-deploy.md)
 
 </td><td>
 
-[Maintain my apps ![Maintain my apps.](../image/icon-workspace-builder.png) Maintain your apps on the ServiceNow platform.](test-dev-low-manage-maintain.md)
+[Maintain my apps \[Omitted image "icon-workspace-builder.png"\] Alt text: Maintain my apps. Maintain your apps on the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-low-manage-maintain.md)
 
 </td></tr></tbody>
 </table>

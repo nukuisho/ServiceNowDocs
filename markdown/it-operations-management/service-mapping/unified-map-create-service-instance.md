@@ -2,13 +2,14 @@
 title: Create a service instance from various data sources
 description: Search for mapped and unmapped services to unify. The flow is available using the Service Mapping workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/unified-map-create-service-instance.html
 release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-keywords: [Service Mapping Plus, ITOM]
+reading_time_minutes: 4
+keywords: [Service Mapping Plus, ITOM, CSDM, business context, business application]
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -18,7 +19,7 @@ Search for mapped and unmapped services to unify. The flow is available using th
 
 ## About this task
 
-[Multi-source service mapping](../concept/multi-source-service-mapping.md)
+[Multi-source service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/multi-source-service-mapping.md)
 
 ## Before you begin
 
@@ -40,7 +41,7 @@ Role required: service\_mapping\_admin
 
     1.  Fill in the basic details form.
 
-<table id="table_ld2_23x_13c"><thead><tr><th>
+<table><thead><tr><th>
 
 Field
 
@@ -56,7 +57,7 @@ Service instance name
 
 Enter a descriptive name for this service instance. For example: Payment processing.
 
- You will not be able to proceed unless you enter a value in this field.
+ You must enter a value to proceed.
 
 </td></tr><tr><td>
 
@@ -66,7 +67,7 @@ Support group
 
 Select the group responsible for supporting this service instance. For example: Application support.
 
- You won’t be able to proceed unless you enter a value in this field.
+ You must select a value to proceed.
 
 </td></tr><tr><td>
 
@@ -123,7 +124,56 @@ Provide a brief summary of what this service instance does. For example: Unified
 
     7.  Select **Next**
 
-    8.  Review the service details and select **Create**.
+5.  Enrich your service by linking it to its business context.
+
+    Provide the business and operational details that connect this service to the rest of your organization. These details help drive visibility and reporting.
+
+    1.  Set relationships and connect this service to its CSDM components.
+
+        All three fields are optional. Leaving any or all fields empty is valid and does not prevent you from proceeding to the next step.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Business application
+
+</td><td>
+
+Search for and select a business application. This field allows you to link your service instance to the business application it supports.
+
+ Single selection only. If you type text without selecting from the list, an error state appears \(red border\) and the **Next** button is disabled until you select a valid option or clear the field.
+
+</td></tr><tr><td>
+
+Parent service
+
+</td><td>
+
+Search for and select a parent application service. Use this field to establish hierarchical relationships and build logical context for your service instance.
+
+ Single selection only. If you type text without selecting from the list, an error state appears \(red border\) and the **Next** button is disabled until you select a valid option or clear the field.
+
+</td></tr><tr><td>
+
+Business service offerings
+
+</td><td>
+
+Business service offerings represent specific workflows or solutions that are delivered through business services.
+
+ Select one or more business service offerings. Multiple selections allowed. Selected offerings appear as removable tags.
+
+</td></tr></tbody>
+</table>    2.  Select **Next**.
+
+6.  Review the service details and select **Create**.
 
     When the process of creating the unified service is complete, the unified service map is displayed in the "Unified map" format. You can review the map using the CMDB Workspace, showing the complete consolidated view. It can take a few minutes for the map to load.
 
@@ -132,12 +182,12 @@ Provide a brief summary of what this service instance does. For example: Unified
     The unified service is created as non-operational by default. All selected unmapped services convert into non-operational mapped services.
 
 
-**Parent Topic:**[Using Service Mapping](../concept/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
 
 **Related topics**  
 
 
-[Edit a unified service](unified-map-edit-unified-service.md)
+[Edit a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-edit-unified-service.md)
 
-[Delete a unified service](unified-map-delete-unified-service.md)
+[Delete a unified service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/unified-map-delete-unified-service.md)
 

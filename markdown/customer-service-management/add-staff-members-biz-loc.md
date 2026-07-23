@@ -2,6 +2,7 @@
 title: Add staff members to a business location
 description: Add users as staff members to a business location so that they can support accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-staff-members-biz-loc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,13 +16,13 @@ Add users as staff members to a business location so that they can support accou
 
 |Task|Description|
 |----|-----------|
-|[Add staff members to an internal business location](../task/add-user-internal-bus-location.md)|Add internal users with the snc\_internal role as staff members to an internal business location.|
-|[Add staff members to an external business location](../task/add-user-external-bus-location.md)|Add both internal users with the snc\_internal role and external users with the snc\_external role as staff members to an external business location.|
+|[Add staff members to an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-user-internal-bus-location.md)|Add internal users with the snc\_internal role as staff members to an internal business location.|
+|[Add staff members to an external business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-user-external-bus-location.md)|Add both internal users with the snc\_internal role and external users with the snc\_external role as staff members to an external business location.|
 
 **Related topics**  
 
 
-[Add staff members to an internal business location](../task/add-user-internal-bus-location.md)
+[Add staff members to an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-user-internal-bus-location.md)
 
-[Add staff members to an external business location](../task/add-user-external-bus-location.md)
+[Add staff members to an external business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-user-external-bus-location.md)
 

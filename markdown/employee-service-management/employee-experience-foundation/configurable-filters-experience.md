@@ -2,6 +2,7 @@
 title: Task filters on My tasks
 description: Use the enhanced filters experience to manage and prioritize the tasks. Using the filters, employees and managers can have better visibility into the time-sensitive and business-critical tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configurable-filters-experience.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,47 +20,49 @@ With filters, Admins empower employees to search, filter, and narrow-down the de
 
 Use filters to easily filter, discover, and fulfill the tasks in a few clicks. Select these filters and see the records that meet the selected filter condition.
 
-![My tasks](../images/ec-filters-mytasks.png "Filter preferences on the my tasks page")
+\[Omitted image "ec-filters-mytasks.png"\] Alt text: My tasks
 
 -   Organize and view the tasks by different filters like Task type, Priority, Due date, My team approvals, and so on.
 -   Use the Task type filter to choose from Approvals, SAP Concur tasks, Workday tasks, Requests, and so on.
 -   Select, change, and remove filters to discover your tasks.
 -   Discover and fulfill the tasks such as on-boarding, approvals, and learning.
 
-For configuration steps, see [Configurable task filters](configurable-filters-experience-employee.md)
+For configuration steps, see [Configurable task filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configurable-filters-experience-employee.md)
 
-**Parent Topic:**[Using Employee Center](using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
 
-[Use the Employee Center topic pages](ec-topic-use.md)
+[Use the Employee Center topic pages]()
 
-[Topic managers and contributors for topic page management](topic-managers-and-contributors-for-topic-page-management.md)
+[Topic managers and contributors for topic page management]()
 
-[Use the My To-dos page](../task/ec-to-dos-use.md)
+[Use the My To-dos page]()
 
-[Use approval experience](../task/ec-to-dos-use-approval-hub.md)
+[Use approval experience]()
 
-[Manage approvals from Microsoft Teams](../../sn-teams/task/va-concur.md)
+[Manage approvals from Microsoft Teams]()
 
-[Manage approvals from a Microsoft Outlook email](../../sn-ms-outlook/task/oam-concur.md)
+[Manage approvals from a Microsoft Outlook email]()
 
-[View the Recommended for you content](rfy-employee.md)
+[View the Recommended for you content]()
 
-[Use Employee Center from Zoom](../task/zoom-create-email-notification.md)
+[Use Employee Center from Zoom]()
 
-[View employee profile](update-employee-profile.md)
+[View employee profile]()
 
-[Use Personalized Answers](using-personalized-search-on-employee-center.md)
+[Use Employee Profile with HR Service Delivery]()
 
-[Employee Profile org chart widget](../task/view-org-chart.md)
+[Use Personalized Answers]()
 
-[RTL support for Employee Center](ec-rtl-language-support.md)
+[Employee Profile org chart widget]()
 
-[Manage favorites](../task/web-configure-favorites-employee.md)
+[RTL support for Employee Center]()
 
-[Access applications from App Launcher](web-application-employee.md)
+[Manage favorites]()
 
-[Use Guided Self-Service](gss-guided-self-service-homepage.md)
+[Access applications from App Launcher]()
+
+[Use Guided Self-Service]()
 

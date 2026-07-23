@@ -2,6 +2,7 @@
 title: Add or edit diagram version details
 description: You can add or edit version-specific details for a diagram to improve change management and compliance. Adding diagram version details ensures better clarity between all stakeholders in the context of the diagram and timelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-or-edit-diagram-version-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,19 +22,19 @@ Role required: sn\_apm.apm\_user and Owner or Editor access to the artifact or d
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(![Enterprise Modeling and Visualization icon.](../../image/eaw-image/modeling/icon-modeling-logo.png)\).
+2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Enterprise Modeling and Visualization icon.\).
 
 3.  Select a diagram from the Diagrams page.
 
-4.  Select the View details icon \(![View details icon.](../../image/eaw-image/modeling/view-details-icon.png)\) next to the version drop-down.
+4.  Select the View details icon \(\[Omitted image "view-details-icon.png"\] Alt text: View details icon.\) next to the version drop-down.
 
 5.  To add or edit diagram version details, select **Edit**.
 
-    ![View details pop-up window with the Edit button highlighted.](../../image/eaw-image/modeling/version-details-edit-button.png)
+    \[Omitted image "version-details-edit-button.png"\] Alt text: View details pop-up window with the Edit button highlighted.
 
 6.  On the **Edit version detail** form, fill in the fields.
 
-    For field information, see [Edit version detail form](../../reference/eaw-reference/eaw-edit-version-detail-form.md).
+    For field information, see [Edit version detail form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-edit-version-detail-form.md).
 
 7.  Select **Save**.
 
@@ -42,10 +43,10 @@ Role required: sn\_apm.apm\_user and Owner or Editor access to the artifact or d
 
 The diagram version details are added. The diagrams List view shows details of the latest and approved versions.
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](../../concept/eaw-concept/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
 **Related topics**  
 
 
-[Exploring Enterprise Modeling and Visualization in the EA Workspace](../../concept/eaw-concept/eaw-modeling.md)
+[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md)
 

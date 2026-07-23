@@ -2,6 +2,7 @@
 title: Assess the status of an epic using Now Assist for Strategic Portfolio Management \(SPM\)
 description: Use the Epic status assessment skill to evaluate epic health across six risk dimensions in Enterprise Agile Planning \(EAP\). Now Assist returns a red, yellow, or green health status with plain-English reasoning, giving portfolio managers a consolidated view of epic risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/assess-epic-status-now-assist-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -18,7 +19,7 @@ Use the Epic status assessment skill to evaluate epic health across six risk dim
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -43,14 +44,14 @@ Role required: sn\_apw\_advanced.eap\_user
     -   Timeline: overdue dates, upcoming end dates, or missing date fields.
     -   Ownership: no epic owner assigned or stories with no assignee.
 
-**Parent Topic:**[Manage team backlog in EAP](../../spw-eap/concept/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
 **Related topics**  
 
 
-[Generate a story from an epic using Now Assist for SPM in EAP](generate-stories-quickly-for-eap-and-agile-2-0.md)
+[Generate a story from an epic using Now Assist for SPM in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)
 
-[Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)](eap-generate-acceptance-criteria-for-stories.md)
+[Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)
 

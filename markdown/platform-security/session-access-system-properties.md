@@ -2,6 +2,7 @@
 title: Zero Trust Access system properties
 description: Use system properties to enable and customize Zero Trust Access to meet your security requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/session-access-system-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Use system properties to enable and customize Zero Trust Access to meet your sec
 
 ## Properties
 
-![Zero Trust Access Properties](../images/session-access-system-properties.png)
+\[Omitted image "session-access-system-properties.png"\] Alt text: Zero Trust Access Properties
 
 <table id="table_vkg_2wf_twb"><thead><tr><th>
 

@@ -2,6 +2,7 @@
 title: Learning library form
 description: Use the learning library form to create a learning library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-library-form.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -72,22 +73,22 @@ Manager Access Restrict To
 Employees that the catalog is visible to or employees who can curate the items in the catalog.**Note:** This field appears only when **User criteria** is selected in the **Restrict Type** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Learning Core Reference](learning-core-reference.md)
+</table>**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Learning Core](learning-core-components-installed.md)
+[Components installed with Learning Core]()
 
-[Course catalog form](course-catalog-table.md)
+[Course catalog form]()
 
-[Learning task form](learning-task-form.md)
+[Learning task form]()
 
-[Life-cycle stages of a content collection in Learning Core](lifecycle-stages-collection.md)
+[Life-cycle stages of a content collection in Learning Core]()
 
-[Learning internal content form](learning-internal-content-form.md)
+[Learning internal content form]()
 
-[Learning External Contents form](learning-external-contents-form.md)
+[Learning External Contents form]()
 
-[Collection form](collection-form-lc.md)
+[Collection form]()
 

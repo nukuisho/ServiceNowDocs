@@ -2,6 +2,7 @@
 title: Create blackout and maintenance schedules in Change Management
 description: Use the Blackout and Maintenance windows to schedule a change. Blackout windows specify times during which normal change activity should not be scheduled. Maintenance windows specify times during which change requests should be scheduled. For example, create a blackout schedule for code freezes at the end of the year. blackout-maintenance-schedule
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_CreateBlkoutMaintSched.html
 release: australia
 product: Change Management
 classification: change-management
@@ -19,19 +20,19 @@ Use the Blackout and Maintenance windows to schedule a change. Blackout windows 
 
 Role required: itil\_admin or admin
 
-Ensure that the [Change Management - Collision Detector](t_ActivateConflictDetection.md) \(com.snc.change.collision\) plugin is activated.
+Ensure that the [Change Management - Collision Detector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateConflictDetection.md) \(com.snc.change.collision\) plugin is activated.
 
 ## About this task
 
-Conflict detection uses blackout and maintenance schedules to find potential scheduling conflicts for the configuration items \(CIs\) associated with a change request. When conflict detection runs, either automatically or by manual request, conflict detection determines if either type of defined schedule applies to the change request. If a potential conflict is identified, a warning message appears and conflicts are listed within the Conflict form section. View conflicts in the [Conflict calendar](../concept/change-conflict-calendar.md).
+Conflict detection uses blackout and maintenance schedules to find potential scheduling conflicts for the configuration items \(CIs\) associated with a change request. When conflict detection runs, either automatically or by manual request, conflict detection determines if either type of defined schedule applies to the change request. If a potential conflict is identified, a warning message appears and conflicts are listed within the Conflict form section. View conflicts in the [Conflict calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-conflict-calendar.md).
 
-**Note:** To use the business service as the source for a blackout or maintenance schedule, the business service must be converted to an application service. For instructions, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md). For information about application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+**Note:** To use the business service as the source for a blackout or maintenance schedule, the business service must be converted to an application service. For instructions, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/convert-bus-to-app-svc-intro.md). For information about application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md).
 
 ## Procedure
 
 1.  Create a blackout or maintenance schedule.
 
-<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d335717e97">
+<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d341459e97">
 
 **Create a blackout schedule**
 
@@ -41,7 +42,7 @@ Conflict detection uses blackout and maintenance schedules to find potential sch
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d335717e130">
+</td></tr><tr><td id="d341459e130">
 
 **Create a maintenance schedule**
 
@@ -123,7 +124,7 @@ Conditions to specify the CIs that the schedule applies to.This field does not a
 
     The Blackout Schedule \[cmn\_schedule\_blackout\] table extends the Condition Schedule \[cmn\_schedule\_condition\] table, which in turn extends the Schedule \[cmn\_schedule\] table. The Blackout Schedule table inherits the domain properties from the Schedule table which has the Domain and Domain path columns.
 
-    Because the Blackout schedule table uses the same Child Schedule and Schedule Entry tables as the Schedule table uses, the domain support is identical. The **domain\_master** attribute is used to derive the domain from a parent record. For more information, see [Domain support for schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/domain-support-for-schedules.md).
+    Because the Blackout schedule table uses the same Child Schedule and Schedule Entry tables as the Schedule table uses, the domain support is identical. The **domain\_master** attribute is used to derive the domain from a parent record. For more information, see [Domain support for schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-support-for-schedules.md).
 
 4.  Create one or more schedule entries by completing the following steps:
 
@@ -131,7 +132,7 @@ Conditions to specify the CIs that the schedule applies to.This field does not a
 
     2.  Enter a unique name and define the time during which you want to schedule the maintenance.
 
-        For more information about the schedule entries field, see [Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md).
+        For more information about the schedule entries field, see [Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ScheduleEntryFields.md).
 
     **Note:** To delete the schedule created, select **Delete**. If you delete a schedule, the child schedules and schedule entries associated with the schedule would be deleted automatically.
 
@@ -144,27 +145,27 @@ A blackout or maintenance schedule is created.
 
 Associate the configuration item with the maintenance schedule that is used in the change request.
 
--   **[Assign a maintenance schedule to configuration items](use-maintenance-schedule-management.md)**  
+-   **[Assign a maintenance schedule to configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/use-maintenance-schedule-management.md)**  
 You can review and determine the conflicts in a change schedule by assigning the maintenance schedules to configuration items \(CI\). After you assign a maintenance schedules to the CI, add the CI to the change request.
 
-**Parent Topic:**[Conflict detection](../concept/c_ConflictDetection.md)
+**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
 
 **Related topics**  
 
 
-[Detect change conflicts](configure-conflict-properties.md#)
+[Detect change conflicts]()
 
-[Configure a change request to monitor outside maintenance schedule conflicts](monitor-maintenance-schedule.md)
+[Configure a change request to monitor outside maintenance schedule conflicts]()
 
-[Conflict calendar](../concept/change-conflict-calendar.md)
+[Conflict calendar]()
 
-[Enable automatic change conflict detection](t_RunAutomatedConflictDetection.md)
+[Enable automatic change conflict detection]()
 
-[Detect conflicts manually and review conflict details](t_RunManualConflictDetection.md#)
+[Detect conflicts manually and review conflict details]()
 
-[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md)
+[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineASchedule.md)
 
-[Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md)
+[Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ScheduleEntryFields.md)
 
-[Parent and child schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ParentAndChildSchedules.md)
+[Parent and child schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ParentAndChildSchedules.md)
 

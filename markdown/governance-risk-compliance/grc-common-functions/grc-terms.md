@@ -2,6 +2,7 @@
 title: Governance, Risk, and Compliance application nomenclature updates and industry terminology
 description: The following terms are used within GRC applications and/or within the GRC industry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-terms.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -38,14 +39,6 @@ Starting with previous release, many terms within all the GRC core applications 
 |**Policy and Compliance**|**Policy Statement**|**Control Objective**|
 |**Risk**|**All Risks** &gt; **Statement** &gt; **field**|**My Risks** &gt; **Risk Statement** field|
 |**My Risks** &gt; **Statement** field|**My Risks** &gt; **Risk Statement** field|
-
-![indicator form showing the control/risk field](../../grc-policy-and-compliance/image/indicator-nomenclature.png "Indicator form updates")
-
-![indicator template form showing the control/risk field](../../grc-policy-and-compliance/image/indicator-template-nomenclature.png "Indicator Template form updates")
-
-![GRC issue record with the Details tab showing highlighted areas for Control Objective/Risk Statement and Control/Risk](../image/grc-issue-nomenclature.png "Issue form updates")
-
-![Risk record showing highlighted areas for Risk Statement field](../../grc-risk/image/risk-nomenclature.png "Risk record showing highlighted areas for Risk Statement field")
 
 ## Industry references
 
@@ -996,5 +989,5 @@ Uncertainty
 The state of being unable to completely predict, determine, or define something.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Common Governance, Risk, and Compliance features](../concept/common-grc-features.md)
+</table>**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

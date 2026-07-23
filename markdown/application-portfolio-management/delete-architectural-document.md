@@ -2,6 +2,7 @@
 title: Delete an architectural document
 description: Delete a draft version of an architectural document that you no longer require.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/delete-architectural-document.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,9 +24,9 @@ Role required: admin
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon ![Portfolio icon](../../image/portfolio-icon.png).
+2.  Open the Portfolio List view by selecting the Portfolio icon \[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Information Portfolio**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Information Portfolio**.
 
 4.  Select **Architectural Documents**.
 
@@ -40,12 +41,12 @@ Role required: admin
     The architectural document and its related records are deleted.
 
 
-**Parent Topic:**[Manage architectural documents](../../concept/eaw-concept/manage-arch-documents.md)
+**Parent Topic:**[Manage architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-arch-documents.md)
 
 **Related topics**  
 
 
-[View all architectural documents](view-architectural-documents.md)
+[View all architectural documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-architectural-documents.md)
 
-[Create a new architectural document](create-architectural-document.md)
+[Create an architectural document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-architectural-document.md)
 

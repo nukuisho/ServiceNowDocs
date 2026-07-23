@@ -2,6 +2,7 @@
 title: SQL API architecture
 description: The SQL API architecture demonstrates how the SQL API plugin integrates with the ServiceNow system to provide secure, read-only data access through industry-standard ODBC and JDBC drivers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/sql-api-architecture.html
 release: australia
 product: Web Services
 classification: web-services
@@ -23,7 +24,7 @@ The SQL API uses ServiceNow web services to provide a query-only interface. This
 
 The following diagram illustrates the high‑level architecture of how the SQL API connects external BI tools to ServiceNow tables via ODBC and JDBC drivers, while enforcing security and access controls.
 
-![Architecture diagram showing SQL API interaction with ServiceNow system components](../image/sql-api-architechture.png "SQL API Architecture diagram")
+\[Omitted image "sql-api-architechture.png"\] Alt text: Architecture diagram showing SQL API interaction with ServiceNow system components
 
 ## Key architectural components
 
@@ -47,7 +48,7 @@ The SQL API architecture consists of the following key components:
         3.  Auth + Role check
         4.  Encryption
     -   REST layer: There are separate dedicated services for each driver \(ODBC REST Service and JDBC REST Service\), both restricted to SELECT-only queries and rate limited, accessible only by the driver internally.
-    -   Database tier: Queries reach the Primary DB first \(read-only, used as fallback if no replica\), but are preferably routed to a Read Replica, which isolates BI workload from the primary database and handles all JDBC/ODBC SELECTs. You must configure a Read Replica to route the SQL API queries. For more information, see [Route SQL API calls to Read Replica](../task/routing-sql-api-calls-to-read-replica.md).
+    -   Database tier: Queries reach the Primary DB first \(read-only, used as fallback if no replica\), but are preferably routed to a Read Replica, which isolates BI workload from the primary database and handles all JDBC/ODBC SELECTs. You must configure a Read Replica to route the SQL API queries. For more information, see [Route SQL API calls to Read Replica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/routing-sql-api-calls-to-read-replica.md).
 
 ## How the architecture works
 
@@ -59,5 +60,5 @@ When you connect your BI tool to ServiceNow through the SQL API, the following p
 4.  The SQL API processes your queries through the security services layer, applying all security controls and access restrictions.
 5.  Query results are returned in standard tabular format, which your BI tool can visualize, analyze, or export.
 
-**Parent Topic:**[Getting started with ServiceNow SQL API](getting-started-with-servicenow-sql-api.md)
+**Parent Topic:**[Getting started with ServiceNow SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/getting-started-with-servicenow-sql-api.md)
 

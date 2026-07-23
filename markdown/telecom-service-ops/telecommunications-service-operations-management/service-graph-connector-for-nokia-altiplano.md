@@ -2,13 +2,14 @@
 title: Telecom Discovery via Nokia Altiplano
 description: The Service Graph Connector for Nokia Altiplano offers a telecom-aware integration that brings real-time network inventory from the Nokia Altiplano Access Network SDN Controller into your ServiceNow CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Explore, Telecommunications Service Operations Management]
+reading_time_minutes: 5
+breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
 # Telecom Discovery via Nokia Altiplano
@@ -25,13 +26,171 @@ Designed for service providers and telecom enterprises, this connector enables c
 -   Flexible discovery options: Choose how and when to run discovery based on your needs—whether it’s full bulk loads, targeted filtered discovery, or phased OLT-only imports. Apply custom filters by device IP or name.
 -   Multi-Instance support: Scale effortlessly by onboarding multiple Altiplano instances independently. Configure connection aliases and define import schedules per instance for complete operational flexibility.
 
-**Note:** Supported Nokia Altiplano Controller minimum version is 24.6. For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** Supported Nokia Altiplano Controller minimum version is 24.6. For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sgc-intro.md).
 
 ## Nokia Altiplano SGC Architecture
 
-The following infographic helps you understand the architecture of Nokia Altiplano service graph connector.
+The following table illustrates the architecture of Nokia Altiplano service graph connector.
 
-## Use cases
+<table><thead><tr><th>
+
+\#
+
+</th><th>
+
+Stage
+
+</th><th>
+
+Location
+
+</th><th>
+
+Components or sub-flow
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
+
+Source
+
+</td><td>
+
+Network/IT
+
+</td><td>
+
+Altiplano Controller \(REST\)
+
+</td><td>
+
+External system holding OLT and ONU data. REST is the active protocol for this connector.
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
+Altiplano data source \(custom script\)
+
+</td><td>
+
+MID Server
+
+</td><td>
+
+-   REST action \(get access token\)
+-   REST action \(get list of OLT devices\)
+-   REST sub-flow \(get OLT and its related ONUs, physical and logical details\)
+-   Bulk data source
+-   Filtering data source
+-   Filter devices list
+
+</td><td>
+
+REST actions run on the MID Server to get the access token from Altiplano, retrieve the list of devices for discovery, and get full device details \(OLT, ONU, physical, and logical\).
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+Import sets
+
+</td><td>
+
+ServiceNow instance
+
+</td><td>
+
+Altiplano import set
+
+</td><td>
+
+Imports data from external sources, triggered by *Scheduled Data Import*. The bulk data source pulls all Altiplano data; the filtering data source pulls only data for OLTs that match the filter criteria. *Use Connection* selects the Altiplano connection alias.
+
+ The import set includes:
+
+ -   OLT physical and logical
+-   ONU physical and logical
+-   Logical ports relationships
+-   Logical connections between OLTs and ONUs
+
+</td></tr><tr><td>
+
+4
+
+</td><td>
+
+IH-ETL RTE
+
+</td><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Clean, transform, enrich data
+-   Map to CMDB classes and add relationships
+-   Prepare payloads for IRE
+
+</td><td>
+
+Determines which classes are populated based on discovered data and models. Handles transform maps, references of models and BW, CI relationships, and CI references.
+
+</td></tr><tr><td>
+
+5
+
+</td><td>
+
+IRE
+
+</td><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   IRE rules execution
+-   CMDB integration
+
+</td><td>
+
+RTE output is automatically passed to the IRE as a payload. The IRE matches to existing CIs based on identification rules and creates new CIs if no match is found.
+
+</td></tr><tr><td>
+
+6
+
+</td><td>
+
+CMDB compliance
+
+</td><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Audit
+-   Follow-on tasks
+-   Remediation \(writes to CMDB and TNI\)
+
+</td><td>
+
+Detects CMDB discrepancies, such as relationship mismatches or CIs present in the CMDB but not discovered. Creates a discrepancy report. Resolves discrepancies automatically or manually through the remediation workflow.
+
+</td></tr></tbody>
+</table>## Use cases
 
 The following are examples on how you can use the Nokia Altiplano Service Graph Connector:
 
@@ -68,12 +227,12 @@ The following are examples on how you can use the Nokia Altiplano Service Graph 
 
 ## CMDB Integrations Dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. You can see metrics for all integration runs. You can filter the view to a specific integration, a specific time duration, or a specific integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. You can see metrics for all integration runs. You can filter the view to a specific integration, a specific time duration, or a specific integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-commons-for-cmdb.md).
 
 **Related topics**  
 
 
-[Configure Nokia Altiplano service graph connector](configuring-service-graph-connector-nokia-altiplano.md)
+[Configure Nokia Altiplano service graph connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-service-graph-connector-nokia-altiplano.md)
 
-[System components installed with Nokia Altiplano](../reference/properties-installed-with-nokia-altiplano.md)
+[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
 

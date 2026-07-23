@@ -2,11 +2,12 @@
 title: Configure offline mode properties for function instances
 description: Determine if the function instance available to users in online mode is also available in offline mode. This option gives you more control over how users manage their offline tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/config-offline-property-function-instance.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-09"
 reading_time_minutes: 1
-breadcrumb: [Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Supported functions, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure offline mode properties for function instances
@@ -15,7 +16,11 @@ Determine if the function instance available to users in online mode is also ava
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile-admin, admin
+
+## About this task
+
+Function instances define the location of the function within the screen. For example: the footer area, top menu, or on a specific field. Define whether a function instance is available in offline mode. By default, all button instances are available offline, but you can disable specific ones if needed.
 
 ## Procedure
 
@@ -29,15 +34,15 @@ Role required: admin
 
 3.  Select one of the following methods to access a function instance.
 
-<table><thead><tr><th align="left" id="d81930e92">
+<table><thead><tr><th align="left" id="d83018e98">
 
 Method
 
-</th><th align="left" id="d81930e95">
+</th><th align="left" id="d83018e101">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d81930e101">
+</th></tr></thead><tbody><tr><td id="d83018e107">
 
 **From an existing screen**
 
@@ -49,7 +54,7 @@ Procedure
 
 **Note:** The default value of the **Disable Offline** field is turned off.
 
-</td></tr><tr><td id="d81930e134">
+</td></tr><tr><td id="d83018e136">
 
 **From the function instance table**
 
@@ -65,5 +70,5 @@ Procedure
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Offline mode](../concept/mobile-offline-mode.md)
+**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/functions-offline.md)
 

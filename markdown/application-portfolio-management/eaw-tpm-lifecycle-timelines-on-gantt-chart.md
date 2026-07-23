@@ -2,6 +2,7 @@
 title: TPM lifecycle timelines on Gantt chart
 description: For Technology Portfolio Management \(TPM\), the business applications and their related application services \(associated hardware models and software products\) are displayed in a hierarchical structure. The corresponding timelines of the application services are displayed as bars on the Gantt chart.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-tpm-lifecycle-timelines-on-gantt-chart.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Gantt view of TPM and TRM lifecycle timelines, Exploring Enterprise
 
 For Technology Portfolio Management \(TPM\), the business applications and their related application services \(associated hardware models and software products\) are displayed in a hierarchical structure. The corresponding timelines of the application services are displayed as bars on the Gantt chart.
 
-![TPM view of the Gantt chart.](../../image/eaw-image/TPM-gantt-chart.png "TPM Gantt chart view")
+\[Omitted image "TPM-gantt-chart.png"\] Alt text: TPM view of the Gantt chart.
 
 **Note:** The lifecycle data for software products is displayed only when the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
 
@@ -53,7 +54,7 @@ Similarly, the TPM phase start date of the business application is considered as
 
 ## TPM risk calculation
 
-The TPM view also displays the upcoming TPM risks associated with any application services, based on their lifecycle dates. To calculate the risk associated with an application service, run the **Populate Technology Lifecycle Risks** scheduled job. For more details, see [Schedule a job to generate TPM technology risk](../../task/eaw-task/eaw-schedule-job-generate-tpm-risk.md). To learn more about technology lifecycle risk, see .
+The TPM view also displays the upcoming TPM risks associated with any application services, based on their lifecycle dates. To calculate the risk associated with an application service, run the **Populate Technology Lifecycle Risks** scheduled job. For more details, see [Schedule a job to generate TPM technology risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-schedule-job-generate-tpm-risk.md). To learn more about technology lifecycle risk, see .
 
 The hardware model and software product risk scores are derived from the TPM Technology Risk table \(sn\_apm\_tpm\_technology\_risk\). The risk values are rolled up to the application service level. The highest risk value of hardware models and software products associated with a single application service is considered the risk value of that application service. For example, application service A consists of two hardware models and three software products. The two hardware models have moderate risk while the two software products have low risk. However, one software product has high risk. In this scenario, the risk value of the application service is considered high.
 
@@ -65,16 +66,16 @@ The colors of the bars on the Gantt chart are based on their TPM phase. The TPM 
 
 |Color|TRM Phase|
 |-----|---------|
-|![Lavender color.](../../image/eaw-image/color-lavender.png)|End of support|
-|![Pink color.](../../image/eaw-image/color-pink.png)|End of extended support|
-|![Azalea color.](../../image/eaw-image/color-azalea.png)|End of life|
+|\[Omitted image "color-lavender.png"\] Alt text: Lavender color.|End of support|
+|\[Omitted image "color-pink.png"\] Alt text: Pink color.|End of extended support|
+|\[Omitted image "color-azalea.png"\] Alt text: Azalea color.|End of life|
 
-To see the colors associated with each TPM risk type in the Upcoming TPM risk column, select the legend button \(![Legend button.](../../image/eaw-image/legend-icon.png)\).
+To see the colors associated with each TPM risk type in the Upcoming TPM risk column, select the legend button \(\[Omitted image "legend-icon.png"\] Alt text: Legend button.\).
 
-**Parent Topic:**[Gantt view of TPM and TRM lifecycle timelines](eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
+**Parent Topic:**[Gantt view of TPM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
 
 **Related topics**  
 
 
-[View TPM and TRM lifecycle timelines on the Gantt chart](../../task/eaw-task/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
+[View TPM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
 

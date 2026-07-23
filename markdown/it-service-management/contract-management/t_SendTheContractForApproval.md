@@ -2,13 +2,14 @@
 title: Send the contract for approval
 description: You can send a contract that is in Draft state for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_SendTheContractForApproval.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Send the contract for approval
@@ -35,27 +36,27 @@ Role required: admin, contract\_manager\(core UI and Hardware Asset Workspace on
     An email message is sent to the selected approver and the contract **Substate** changes to **Under Review**.
 
 
--   **[Approve or reject a contract](t_ApproveOrRejectAContract.md)**  
+-   **[Approve or reject a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_ApproveOrRejectAContract.md)**  
 If you are the contract manager, you can approve or reject a contract.
--   **[View approval history on contracts](t_ObtainContractApproval.md)**  
+-   **[View approval history on contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_ObtainContractApproval.md)**  
 You can view the approval history for a contract in the Approval History related list on the Contract form.
 
-**Parent Topic:**[Contracts](../concept/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 
 
-[Create a contract](t_CreateAContract.md)
+[Create a contract]()
 
-[Adjust a contract](t_AdjustAContract.md)
+[Adjust a contract]()
 
-[Verify contract administrator assignment for notification](t_SendAContractNotification.md)
+[Verify contract administrator assignment for notification]()
 
-[Terms and conditions](../concept/c_TermsAndConditions.md)
+[Terms and conditions]()
 
-[Create a contract rate card](t_ContractRateCardsAndExpenseLines.md)
+[Create a contract rate card]()
 
-[Monitor a contract](t_MonitoringContracts.md)
+[Monitor a contract]()
 
-[Contract approval flow](../concept/contract-approval-workflow.md)
+[Contract approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/contract-approval-workflow.md)
 

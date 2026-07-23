@@ -2,12 +2,13 @@
 title: View information on supplier cases
 description: The Supplier Information tab shows details about the supplier and the supplier contact, a summary of all the open and overdue cases, and a list of all the cases by their priority.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supp-info-tab.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage supplier cases, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -15,7 +16,7 @@ breadcrumb: [Manage supplier cases, Using Source-to-Pay Workspace, Use, Supplier
 
 The **Supplier Information** tab shows details about the supplier and the supplier contact, a summary of all the open and overdue cases, and a list of all the cases by their priority.
 
-![Supplier Information tab.](../image/supp-info-tab.png "Supplier Information tab")
+\[Omitted image "supp-info-tab.png"\] Alt text: Supplier Information tab.
 
 ## Sections
 
@@ -207,5 +208,12 @@ Displays a list of cases by their priority, including case details, such as case
  In the Number column, select the link to the case to view more details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](managing-cases.md)
+</table>**Parent Topic:**[Manage supplier cases from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-cases.md)
+
+**Related topics**  
+
+
+[View information on supplier cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supp-info-tab.md)
+
+[Sidebar for supplier cases in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sidebar-smw.md)
 

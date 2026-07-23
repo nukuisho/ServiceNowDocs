@@ -1,20 +1,21 @@
 ---
 title: Customize Now Assist for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
-description: If you have the admin role, you can configure the Now Assist for Accounts Payable Operations \(APO\) application so that the supplier contacts can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+description: Configure the Now Assist virtual agent as an admin to enable supplier contacts to use generative AI skills in the Source-to-Pay Workspace and Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-va.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [generative AI, gen AI, genai, artificial intelligence]
+keywords: [generative AI, gen AI, genai, artificial intelligence, APO, Accounts Payable Operations, AI automation, Accounts Payable Workspace]
 breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Customize Now Assist for Accounts Payable Operations \(APO\) to use the Virtual Agent chat
 
-If you have the admin role, you can configure the Now Assist for Accounts Payable Operations \(APO\) application so that the supplier contacts can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+Configure the Now Assist virtual agent as an admin to enable supplier contacts to use generative AI skills in the Source-to-Pay Workspace and Core UI.
 
 ## Before you begin
 
@@ -28,7 +29,7 @@ Use the Now Assist Admin console to configure Now Assist for APO. This console c
 
 1.  Install the Now Assist for Accounts Payable Operations \(APO\) plugin \(com.snc.sn\_ap\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)](../../supplier-lifecycle-operations/concept/now-assist-slo-supporting-info.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-supporting-info.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 

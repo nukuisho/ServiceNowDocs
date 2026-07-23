@@ -2,6 +2,7 @@
 title: Activate the data visualization generation skill
 description: Give users generative AI capabilities for creating data visualizations from the Now Assist panel by activating the data visualization generation skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-analytics-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Give users generative AI capabilities for creating data visualizations from the 
 
 The data visualization generation skill is included in Generative AI Controller, which is in most Now Assist applications from the ServiceNow® Store.
 
-The Query Generation skills "analytics query generation," "analytics insight generation," "analytics hidden insight generation," and "analytics follow-up generation" are required. These skills are active by default. For more information, see [Query Generation skills](../task/enable-query-generation.md).
+The Query Generation skills "analytics query generation" and "analytics insight generation" are required. To support queries on indicator data, the Query Generation skill "analytics query generation for indicators" is required. These skills are active by default. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-query-generation.md).
 
 Role required: admin
 
@@ -29,7 +30,7 @@ Role required: admin
 
 3.  In Now Assist skills for Analytics, search for the data visualization generation skill.
 
-    ![Now Assist Skills tab of Now Assist Admin console, showing the Data visualization generation skill under Data and Analytics.](../image/nowass-data-viz-gen-skill.png)
+    \[Omitted image "nowass-data-viz-gen-skill.png"\] Alt text: Now Assist Skills tab of Now Assist Admin console, showing the Data visualization generation skill under Data and Analytics.
 
 4.  In the **Define access** page, you can add roles who can use this skill.
 
@@ -44,5 +45,5 @@ Role required: admin
 
 If the skill was successfully activated, the system notifies you.
 
-**Parent Topic:**[Configuring Now Assist panel skills for Platform Analytics](configuring-now-ass-skills-pa.md)
+**Parent Topic:**[Configuring Now Assist panel skills for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configuring-now-ass-skills-pa.md)
 

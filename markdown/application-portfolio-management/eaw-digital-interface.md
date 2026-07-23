@@ -2,6 +2,7 @@
 title: Exploring digital interfaces in Enterprise Architecture Workspace
 description: Manage all your digital interfaces from the Portfolio page of the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-digital-interface.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,24 +22,24 @@ The Digital Interfaces page displays a list of existing digital interfaces and t
 
 ## Digital Interfaces
 
-![Digital Interfaces in Enterprise Architecture Workspace](../../image/eaw-image/eaw-digital-interfaces.png)
+\[Omitted image "eaw-digital-interfaces.png"\] Alt text: Digital Interfaces in Enterprise Architecture Workspace
 
-**Parent Topic:**[Exploring the application portfolio](eaw-app-portfolio.md)
+**Parent Topic:**[Exploring the application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-app-portfolio.md)
 
 **Related topics**  
 
 
-[View all digital interfaces](../../task/eaw-task/eaw-view-all-dig-interfaces.md)
+[View all digital interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-dig-interfaces.md)
 
-[Add or edit a digital interface in the EA Workspace](../../task/eaw-task/eaw-create-digital-interface.md)
+[Add or edit a digital interface in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-digital-interface.md)
 
-[Connect a digital interface with the CMDB API in the EA Workspace](../../task/eaw-task/eaw-relate-dig-interface-api.md)
+[Connect a digital interface with the CMDB API in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-relate-dig-interface-api.md)
 
-[Manage architectural artifacts of a digital interface in EA Workspace](../../task/eaw-task/eaw-manage-artifacts-digital-interface.md)
+[Manage architectural artifacts of a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-artifacts-digital-interface.md)
 
-[Relate an SDLC component to a digital interface](../../task/eaw-task/eaw-dig-interface-add-sdlc-comp.md)
+[Relate an SDLC component to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-sdlc-comp.md)
 
-[Relate an information object to a digital interface](../../task/eaw-task/eaw-dig-interface-add-info-object.md)
+[Relate an information object to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-info-object.md)
 
-[Relate credentials to a digital interface](../../task/eaw-task/eaw-dig-interface-add-credential.md)
+[Relate credentials to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-credential.md)
 

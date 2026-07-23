@@ -2,6 +2,7 @@
 title: Configure TF-IDF for solutions
 description: Apply Term Frequency–Inverse Document Frequency \(TF-IDF\) encoding to classification, clustering, or similarity solutions for Predictive Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-tf-idf-classification-similarity.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -36,11 +37,11 @@ Predictive Intelligence uses paragraph vector word embedding by default in its c
 
     In this example scenario, you use a CMDB similarity definition form.
 
-    ![An example similarity solution definition on which you apply the TF-IDF parameter.](../images/tf-idf-similarity-solution1.png)
+    \[Omitted image "tf-idf-similarity-solution1.png"\] Alt text: An example similarity solution definition on which you apply the TF-IDF parameter.
 
 3.  On the Advanced Solution Settings tab in the Related Links section of the form, click **New**.
 
-    ![How to select the Solution Parameters option for creating the parameter.](../images/tf-idf-similarity-solution2.png)
+    \[Omitted image "tf-idf-similarity-solution2.png"\] Alt text: How to select the Solution Parameters option for creating the parameter.
 
 4.  Create a parameter record.
 
@@ -48,31 +49,31 @@ Predictive Intelligence uses paragraph vector word embedding by default in its c
 
     2.  In the ML Solution Parameters screen, select **Use tf-idf to generate vectors**.
 
-    ![How to create the parameter record by selecting the Search button, and then selecting the TF-IDF key Short Description.](../images/tf-idf-similarity-solution3.png)
+    \[Omitted image "tf-idf-similarity-solution3.png"\] Alt text: How to create the parameter record by selecting the Search button, and then selecting the TF-IDF key Short Description.
 
 5.  Click **Submit**.
 
     The Advanced Solution Setting record screen refreshes.
 
-    ![See the new Advanced Solution Setting record you created.](../images/tf-idf-similarity-solution5.png)
+    \[Omitted image "tf-idf-similarity-solution5.png"\] Alt text: See the new Advanced Solution Setting record you created.
 
 6.  Click **Submit**.
 
     **Result:** TF-IDF is configured for your similarity solution. Its solution parameter appears on the Advanced Solution Settings tab of your similarity definition form.
 
-    ![This image shows the Advanced Solution Setting record for TF-IDF.](../images/tf-idf-similarity-solution6.png)
+    \[Omitted image "tf-idf-similarity-solution6.png"\] Alt text: This image shows the Advanced Solution Setting record for TF-IDF.
 
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](../concept/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Create and train a classification solution](create-solution-definition.md)
+[Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 
-[Create and train a similarity solution](create-similarity-solution.md)
+[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md)
 
-[Create and train a regression solution](create-regression-solution.md)
+[Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-regression-solution.md)
 
-[Create and train a clustering solution](create-clustering-solution.md)
+[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
 

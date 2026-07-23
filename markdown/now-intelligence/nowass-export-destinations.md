@@ -2,6 +2,7 @@
 title: Export destinations
 description: When you export a dashboard or data visualization in the Now Assist panel, you have to specify the destination.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/nowass-export-destinations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,14 +24,14 @@ Specify recipients for an email. If you select scheduled email, also specify the
 
 **Note:** If you select **Download** and the export takes longer than 10 seconds, you receive the export as an email attachment instead of a download. Thus the export completes asynchronously, freeing up the Now Assist panel.
 
-**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](../task/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 
 
-[Supported export output types](nowass-supported-export-output.md)
+[Supported export output types]()
 
-[Limitations for exporting dashboards and visualizations](limitations-exporting-db-dv.md)
+[Limitations for exporting dashboards and visualizations]()
 
-[Export guidelines and examples](nowass-export-guidelines-examples.md)
+[Export guidelines and examples]()
 

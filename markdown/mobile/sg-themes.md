@@ -2,6 +2,7 @@
 title: Legacy mobile theming
 description: Use themes on your mobile applications so that your customers and employees can recognize your unique company identity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-themes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,19 +14,19 @@ breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 
 Use themes on your mobile applications so that your customers and employees can recognize your unique company identity.
 
-**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](explore-ne-theming.md).
+**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
 
 <table id="table_q5r_rks_jlb"><tbody><tr><td>
 
-![Examples of customized mobile app themes.](../image/themed-applet-example.pmg.png)
+\[Omitted image "themed-applet-example.pmg.png"\] Alt text: Examples of customized mobile app themes.
 
 </td><td>
 
 Use mobile themes to change the color scheme of your mobile apps. The colors for elements such as headers, links, buttons, and icons can be controlled using themes. You can configure each of your mobile apps with a unique theme.
 
- For details on creating a theme, see [Create a theme for your mobile applications](../task/sg-configure-theme.md).
+ For details on creating a theme, see [Create a theme for your mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-theme.md).
 
- To see how your selected theme colors affect the appearance of your mobile apps, see the [Mobile theme color guidelines](../reference/sg-theme-colors.md).
+ To see how your selected theme colors affect the appearance of your mobile apps, see the [Mobile theme color guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-theme-colors.md).
 
  **Note:** You can configure themes on your apps without custom branding.
 

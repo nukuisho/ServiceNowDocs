@@ -2,11 +2,12 @@
 title: Update a move-related workplace service record producer
 description: Update a move-related workplace service record producer. Link a workplace service to one or more record producers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/view-move-request-record-producer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing Workplace Move Management requests, Workplace Move Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Move Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Update a move-related workplace service record producer
@@ -36,7 +37,7 @@ After a workplace service is created, the service is linked to a record producer
     -   **Request an employee's desk change**
 3.  On the form, edit the fields that you want change.
 
-    For more information about each field on the form, see [Configure a Record producer](../../workplace-case-mgmt/task/wsd-create-record-producer.md).
+    For more information about each field on the form, see [Configure a Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/wsd-create-record-producer.md).
 
 4.  Click **Update**.
 
@@ -45,18 +46,18 @@ After a workplace service is created, the service is linked to a record producer
 
 The record producer is updated.
 
-**Parent Topic:**[Managing Workplace Move Management requests](../concept/workplace-mov-mgmt-setup.md)
+**Parent Topic:**[Managing Workplace Move Management requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-mov-mgmt-setup.md)
 
 **Related topics**  
 
 
-[Create a move request on behalf of an employee](request-desk-change-for-employee-1.md)
+[Create a move request on behalf of an employee]()
 
-[Raise a move request for a space change](request-desk-change.md)
+[Raise a move request for a space change]()
 
-[Update a move request workplace service](update-move-request-workplace-service.md)
+[Update a move request workplace service]()
 
-[Create a move-related knowledge base article](create-move-related-kb-article.md)
+[Create a move-related knowledge base article]()
 
-[Review move conflicts](../reference/review-conflicts.md)
+[Review move conflicts]()
 

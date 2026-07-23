@@ -2,6 +2,7 @@
 title: Configure CSM Configurable Workspace
 description: Review the CSM Configurable Workspace available with Financial Services Operations applications to see if it meets your business needs. You can customize its components, if needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-csm-workspace-fso-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

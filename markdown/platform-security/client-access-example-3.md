@@ -2,6 +2,7 @@
 title: Create a secret group with criteria
 description: Secret groups organize secrets and apply access policies at the group level. Associate a secret group with an identity group to control MID Server access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-3.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,7 +45,7 @@ Role required: admin, sn\_kmf.admin, sn\_secrets.admin
 
 7.  Select the **New** button.
 
-8.  Select the reference icon \(![reference button](../images/magnifying_glass.png)\) next to the **Identity group alias** field.
+8.  Select the reference icon \(\[Omitted image "magnifying\_glass.png"\] Alt text: reference button\) next to the **Identity group alias** field.
 
 9.  In the **Group Alias Name** field, enter a value.
 
@@ -88,7 +89,7 @@ Role required: admin, sn\_kmf.admin, sn\_secrets.admin
 
 21. In the **Secret Group – Identity Group** related list, select the **Created** field for the record on that list.
 
-    ![Created field in the Secret Group – Identity Group related list](../images/client-side-4.png)
+    \[Omitted image "client-side-4.png"\] Alt text: Created field in the Secret Group – Identity Group related list
 
     An **Identity group** record displays.
 
@@ -98,7 +99,7 @@ Role required: admin, sn\_kmf.admin, sn\_secrets.admin
 
 23. In the **Member table** field, select **MID Server \[ecc\_agent\]**.
 
-24. Select the reference icon \(![reference button](../images/magnifying_glass.png)\) next to the **Identity group member record** field, and select your MID Server.
+24. Select the reference icon \(\[Omitted image "magnifying\_glass.png"\] Alt text: reference button\) next to the **Identity group member record** field, and select your MID Server.
 
     **Note:** If you enable the **Include all records** check box, all MID Servers connected to your instance are added to the identity group.
 
@@ -113,5 +114,5 @@ Role required: admin, sn\_kmf.admin, sn\_secrets.admin
 29. Select **Update** to save the record.
 
 
-**Parent Topic:**[Configuring client accessible secrets](../concept/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
 

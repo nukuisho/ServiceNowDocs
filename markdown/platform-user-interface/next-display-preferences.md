@@ -2,12 +2,13 @@
 title: Configure Next Experience display preferences
 description: Configure Next Experience display preferences to achieve the UI that works best for you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-display-preferences.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [display preference, customize display]
-breadcrumb: [Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience display preferences
@@ -36,7 +37,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![Organize form sections and related lists into tabs in classic forms.](../image/pol-pref-organize-forms-lists.png)
+\[Omitted image "pol-pref-organize-forms-lists.png"\] Alt text: Organize form sections and related lists into tabs in classic forms.
 
 </td><td>
 
@@ -44,7 +45,7 @@ Displays forms and related lists in tabs so you can navigate directly to form se
 
 </td></tr><tr><td>
 
-![Put line breaks in lists.](../image/pol-pref-line-breaks.png)
+\[Omitted image "pol-pref-line-breaks.png"\] Alt text: Put line breaks in lists.
 
 </td><td>
 
@@ -52,7 +53,7 @@ Enables you to create a new line within the same list entry.
 
 </td></tr><tr><td>
 
-![Show ability to quick edit favorites](../image/pol-pref-quick-favorite.png)
+\[Omitted image "pol-pref-quick-favorite.png"\] Alt text: Show ability to quick edit favorites
 
 </td><td>
 
@@ -60,7 +61,7 @@ Enables the ability to edit the name and location of a favorite when adding it.
 
 </td></tr><tr><td>
 
-![Load related lists in classic forms.](../image/pol-pref-compact.png)
+\[Omitted image "pol-pref-compact.png"\] Alt text: Load related lists in classic forms.
 
 </td><td>
 
@@ -71,7 +72,7 @@ Loads related lists in classic forms at one of the following times:-   With the 
 
 </td></tr><tr><td>
 
-![Use compact spacing mode.](../image/pol-pref-help-tips.png)
+\[Omitted image "pol-pref-help-tips.png"\] Alt text: Use compact spacing mode.
 
 </td><td>
 
@@ -79,7 +80,7 @@ Optimizes the spacing between form fields, controls, and list rows and columns, 
 
 </td></tr><tr><td>
 
-![Show help tips on forms.](../image/pol-pref-help.png)
+\[Omitted image "pol-pref-help.png"\] Alt text: Show help tips on forms.
 
 </td><td>
 
@@ -87,7 +88,7 @@ Provides tooltips to use and configure features in the instance.
 
 </td></tr><tr><td>
 
-![Always show top navigation.](../image/pol-pref-top-navigation.png)
+\[Omitted image "pol-pref-top-navigation.png"\] Alt text: Always show top navigation.
 
 </td><td>
 
@@ -95,7 +96,7 @@ Sets persistent top navigation when opening a new window from the menu so you ca
 
 </td></tr><tr><td>
 
-![Show results from other menus when filtering menu items](../image/pol-pref-menu-filter.png)
+\[Omitted image "pol-pref-menu-filter.png"\] Alt text: Show results from other menus when filtering menu items
 
 </td><td>
 

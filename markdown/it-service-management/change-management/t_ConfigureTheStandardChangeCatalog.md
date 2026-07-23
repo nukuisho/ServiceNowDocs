@@ -2,11 +2,12 @@
 title: Configure standard change catalog properties
 description: Configure the standard change catalog through the standard change properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ConfigureTheStandardChangeCatalog.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Standard change catalog, Configure, Change Management, IT Service Management]
 ---
@@ -16,8 +17,6 @@ breadcrumb: [Standard change catalog, Configure, Change Management, IT Service M
 Configure the standard change catalog through the standard change properties.
 
 ## Before you begin
-
-The Change Management - Standard Change Catalog \[com.snc.change\_management.standard\_change\_catalog\] plugin must be activated.
 
 Role required: admin
 
@@ -151,14 +150,14 @@ Specify the fields whose values are copied to one or more change task templates 
 
 You can create a standard change catalog. By default, the basic Standard Change Proposal workflow sends approval records to members of the Change Management group and the members should verify and modify the records, as appropriate.
 
-**Parent Topic:**[Standard change catalog](../concept/c_StandardChangeCatalogPlugin.md)
+**Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
 
 **Related topics**  
 
 
-[Create a standard change task template](create-a-standard-change-task-template.md)
+[Create a standard change task template]()
 
-[Attach files to a standard change template](attach-files-change-templates.md)
+[Attach files to a standard change template]()
 
-[Modify or retire a standard change template](manage-standard-change-template.md)
+[Modify or retire a standard change template]()
 

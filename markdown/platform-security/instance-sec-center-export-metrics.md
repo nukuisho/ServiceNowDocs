@@ -2,6 +2,7 @@
 title: Export metrics
 description: Analyze export metrics to see what data is most commonly exported and which users export the most data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-sec-center-export-metrics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -38,7 +39,7 @@ Use the **Show** list to display exports within the last 24 hours or within the 
 
 </td><td>
 
-![Export metrics report interface](../image/isc-export-interface.png)
+\[Omitted image "isc-export-interface.png"\] Alt text: Export metrics report interface
 
 </td></tr></tbody>
 </table>## Export metrics reports
@@ -64,8 +65,8 @@ The export metrics page displays four reports.
 
 **Note:** Export metric reports only track export events. Exports from other sources, such as rest APIs or workflows are not tracked as part of this feature.
 
--   **[Export metrics settings](isc-export-metrics-settings.md)**  
+-   **[Export metrics settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/isc-export-metrics-settings.md)**  
 Use the configuration options in the Settings tab to narrow down reporting results.
 
-**Parent Topic:**[Monitor instance metrics](monitoring-user-email-antivirus-metrics.md)
+**Parent Topic:**[Monitor instance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/monitoring-user-email-antivirus-metrics.md)
 

@@ -2,6 +2,7 @@
 title: Document field statuses
 description: The following is a list of the statuses for fields in DocIntel document tasks. These statuses apply to fields for both document classification and data extraction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/docintel-field-statuses.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Document Intelligence, Enable AI experiences]
 
 The following is a list of the statuses for fields in DocIntel document tasks. These statuses apply to fields for both document classification and data extraction.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 <table id="table_tgt_czn_ncc"><thead><tr><th>
 
@@ -35,7 +36,7 @@ To complete
 
 </td><td>
 
-![To complete icon.](../image/icon-docintel-tocomplete.png)
+\[Omitted image "icon-docintel-tocomplete.png"\] Alt text: To complete icon.
 
 </td><td>
 
@@ -47,7 +48,7 @@ Completed
 
 </td><td>
 
-![Completed icon.](../image/icon-docintel-completed.png)
+\[Omitted image "icon-docintel-completed.png"\] Alt text: Completed icon.
 
 </td><td>
 
@@ -59,7 +60,7 @@ To review
 
 </td><td>
 
-![To review icon.](../image/icon-docintel-tocomplete.png)
+\[Omitted image "icon-docintel-tocomplete.png"\] Alt text: To review icon.
 
 </td><td>
 
@@ -71,7 +72,7 @@ Reviewed
 
 </td><td>
 
-![Reviewed icon.](../image/icon-docintel-completed.png)
+\[Omitted image "icon-docintel-completed.png"\] Alt text: Reviewed icon.
 
 </td><td>
 
@@ -83,7 +84,7 @@ In progress
 
 </td><td>
 
-![In progress icon.](../image/icon-docintel-inprogress.png)
+\[Omitted image "icon-docintel-inprogress.png"\] Alt text: In progress icon.
 
 </td><td>
 
@@ -95,7 +96,7 @@ Needs attention
 
 </td><td>
 
-![Needs attention icon.](../image/icon-docintel-warning.png)
+\[Omitted image "icon-docintel-warning.png"\] Alt text: Needs attention icon.
 
 </td><td>
 
@@ -106,32 +107,32 @@ The auto-filled field has triggered a warning. The causes for a warning include:
 -   An extracted value is ambiguous and should be verified.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Document Intelligence references](docintel-references.md)
+</table>**Parent Topic:**[Document Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/docintel-references.md)
 
 **Related topics**  
 
 
-[Components installed with Document Intelligence](installed-with-document-intelligence.md)
+[Components installed with Document Intelligence]()
 
-[Confidence scores](../concept/docintel-confidence-scores.md)
+[Confidence scores]()
 
-[Data extraction modes](data-extraction-modes.md)
+[Data extraction modes]()
 
-[Data normalization](../concept/data-normalization.md)
+[Data normalization]()
 
-[Document Intelligence forms](document-intelligence-forms.md)
+[Document Intelligence forms]()
 
-[Document Intelligence properties](document-intelligence-properties.md)
+[Document Intelligence properties]()
 
-[Document Intelligence roles](document-intelligence-user-roles.md#)
+[Document Intelligence roles]()
 
-[Document Intelligence terminology](../concept/docintel-terminology.md#)
+[Document Intelligence terminology]()
 
-[Document task statuses](docintel-task-statuses.md)
+[Document task statuses]()
 
-[Domain separation and Document Intelligence](domain-separation-and-doc-intel.md)
+[Domain separation and Document Intelligence]()
 
-[Languages supported by Document Intelligence](../concept/languages-supported-by-document-intelligence.md)
+[Languages supported by Document Intelligence]()
 
-[Limitations in Document Intelligence](hard-limits-in-doc-intel.md)
+[Limitations in Document Intelligence]()
 

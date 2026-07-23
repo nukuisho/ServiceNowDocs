@@ -2,6 +2,7 @@
 title: Add associated task to an attack mode/method
 description: In addition to importing associated tasks \(such as changes and incidents\) as STIX data, you can add them to an attack mode/method manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/t\_AddAssociatedTaskToAttackMode.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,14 +35,14 @@ Role required: sn\_ti.admin
 7.  Click **Save**.
 
 
-**Parent Topic:**[Attack modes and methods](../concept/c_AttackModeMethod.md)
+**Parent Topic:**[Attack modes and methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_AttackModeMethod.md)
 
 **Related topics**  
 
 
-[Define an attack mode/method](t_AddAttackModeMethod.md)
+[Define an attack mode/method]()
 
-[Add an IoC to an attack mode/method](t_AddIoCToAttackMode.md)
+[Add an IoC to an attack mode/method]()
 
-[Add a related attack mode method](t_AddRelatedAttackMode.md)
+[Add a related attack mode method]()
 

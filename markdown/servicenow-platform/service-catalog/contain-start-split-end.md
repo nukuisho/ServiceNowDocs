@@ -2,6 +2,7 @@
 title: Container start, container split, and container end
 description: The container start, container split, and container end variables define a layout for a container that can hold more variables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/contain-start-split-end.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -19,7 +20,7 @@ Use the container start and container end variables to define the start and end 
 
 A container layout can be split into two or three columns using the container split variable. By default, the split is calculated at the 50% mark.
 
-A container is similar to a [variable set](../concept/c_ServiceCatalogVariableSets.md). Unlike a variable set, containers can be used anywhere, including inside a variable set. Containers can also be nested inside each other.
+A container is similar to a [variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md). Unlike a variable set, containers can be used anywhere, including inside a variable set. Containers can also be nested inside each other.
 
 For more help with selecting the appropriate container type, see the [Determining if you are using the correct container variable \[KB0539982\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0539982) article in the HI Knowledge Base.
 
@@ -34,62 +35,62 @@ To reproduce the container shown in the following figure, enter the following se
 -   Select a **Layout** with 2 Columns Wide, alternating sides.
 -   Select the **Display title** check box to use a collapsible title bar.
 
-![A variable container](../image/VariableContainerG.png "Example: container variable")
+\[Omitted image "VariableContainerG.png"\] Alt text: A variable container
 
-**Parent Topic:**[Types of service catalog variables](r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
 
-[Attachment](attachment.md)
+[Attachment]()
 
-[Break](break.md)
+[Break]()
 
-[Check box](check-box.md)
+[Check box]()
 
-[Date, Date and time, and Duration](date.md)
+[Date, Date and time, and Duration]()
 
-[Email](email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
 
-[HTML](html.md)
+[HTML]()
 
-[IP Address](ip-address.md)
+[IP Address]()
 
-[Label](label.md)
+[Label]()
 
-[List collector](list-collector.md)
+[List collector]()
 
-[Lookup multiple choice](lookup-multiple-choice.md)
+[Lookup multiple choice]()
 
-[Lookup select box](lookup-select-box.md)
+[Lookup select box]()
 
-[Custom and Custom with label](custom.md)
+[Custom and Custom with label]()
 
-[Masked](masked.md)
+[Masked]()
 
-[Multi-line text](multi-line.md)
+[Multi-line text]()
 
-[Multiple choice](multiple-choice.md)
+[Multiple choice]()
 
-[Numeric scale](numeric-scale.md)
+[Numeric scale]()
 
-[Reference](reference.md)
+[Reference]()
 
-[Requested for](requested-for.md)
+[Requested for]()
 
-[Rich Text Label](rich-text-label.md)
+[Rich Text Label]()
 
-[Select box](select-box.md)
+[Select box]()
 
-[Single-line text](single-line-text.md)
+[Single-line text]()
 
-[UI page](ui-page.md)
+[UI page]()
 
-[URL](url.md)
+[URL]()
 
-[Wide single-line text](wide-single-line-text.md)
+[Wide single-line text]()
 
-[Yes/No](yes-no.md)
+[Yes/No]()
 
-[Variable support in various channels](variables-availability.md)
+[Variable support in various channels]()
 

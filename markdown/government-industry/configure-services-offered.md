@@ -1,7 +1,8 @@
 ---
-title: Configure the service catalog for a constituent, business, or agency
-description: Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal.
+title: Configure the portal service catalog for a constituent, business, or agency
+description: Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal or GOV.UK Design System Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/configure-services-offered.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -9,13 +10,13 @@ reading_time_minutes: 1
 breadcrumb: [Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the service catalog for a constituent, business, or agency
+# Configure the portal service catalog for a constituent, business, or agency
 
-Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal.
+Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal or GOV.UK Design System Service Portal.
 
 ## About this task
 
-For more information on creating and maintaining service catalogs, see [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
+For more information on creating and maintaining service catalogs, see [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog.md).
 
 ## Before you begin
 

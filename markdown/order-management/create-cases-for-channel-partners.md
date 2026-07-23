@@ -2,11 +2,12 @@
 title: Create cases for channel partners
 description: Create customer service cases for channel partners to manage customer queries and offer resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-cases-for-channel-partners.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---
 
 # Create cases for channel partners
@@ -21,7 +22,7 @@ Role required: sn\_prm.enterprise\_partner\_rel\_manager or sn\_prm.enterprise\_
 
 ## Procedure
 
-1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list ![](../../tmt-assurance-workflows/image/lists_icon-proactive.png) view.
+1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list \[Omitted image "lists\_icon-proactive.png"\] Alt text: view.
 
 2.  Select **Cases** from the Partner Relationship Management module.
 
@@ -34,5 +35,12 @@ Role required: sn\_prm.enterprise\_partner\_rel\_manager or sn\_prm.enterprise\_
 5.  Select **Save**.
 
 
-**Parent Topic:**[Partner Workspace](../concept/partner-workspace.md)
+**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+
+**Related topics**  
+
+
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
 

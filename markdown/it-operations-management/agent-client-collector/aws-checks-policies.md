@@ -2,13 +2,14 @@
 title: AWS Health Monitoring default checks and policies
 description: Agent Client Collector provides the following default checks and policies for AWS monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/aws-checks-policies.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Agent Client Collector Monitoring default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-M default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # AWS Health Monitoring default checks and policies
@@ -370,10 +371,10 @@ Batch size. Number of clusters to fetch metrics in parallel. \(Default value: 10
 `metrics-ecs-service.rb -r {{.labels.params_ci_region}} {{.labels.params_filter}} -f {{.labels.params_filter}} {{end}} {{.labels.params_batch_size}} -b {{.labels.params_filter}} {{end}}`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 
 **Related topics**  
 
 
-[AWS metrics](aws-metrics.md)
+[AWS metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/aws-metrics.md)
 

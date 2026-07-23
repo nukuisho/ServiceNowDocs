@@ -2,6 +2,7 @@
 title: Virtual grouping of nodes in a Dependency Views map
 description: To reduce the density on a map, Dependency Views automatically groups CIs of a similar CI type from the same level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/logical-grouping.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -31,10 +32,10 @@ A virtual node is connected to other nodes with a virtual link. A virtual link d
 
 Also, when using the node menu option **Load More**, virtual grouping is not applied at the newly loaded level even the criteria for virtual grouping is met.
 
-![An expanded virtual group displays its nodes and its child nodes.](../image/VGCollapsedandExpanded.png "An expanded virtual group")
+\[Omitted image "VGCollapsedandExpanded.png"\] Alt text: An expanded virtual group displays its nodes and its child nodes.
 
 **Related topics**  
 
 
-[Properties for Dependency Views](../reference/properties-dependency-views.md)
+[Properties for Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/properties-dependency-views.md)
 

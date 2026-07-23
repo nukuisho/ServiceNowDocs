@@ -2,6 +2,7 @@
 title: Enable localization for a survey
 description: Enable a survey user to take a survey in multiple languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/enable-localization-survey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,26 +43,26 @@ The plugin for the language that you want the survey to be available in should b
     -   The survey is available for survey users in the translated language.
     -   Users can change the language of the survey using the language picker.
 
-**Parent Topic:**[Survey distribution](../concept/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 
 
-[Email notifications for surveys](../concept/email-notification-for-surveys.md)
+[Email notifications for surveys]()
 
-[Send survey invitations to users](t_SendSurveyInvitationsToUsers.md)
+[Send survey invitations to users]()
 
-[Define a recipients list for surveys](define-recipient-list.md)
+[Define a recipients list for surveys]()
 
-[Add a recipients list to a survey](add-recipient-list-survey.md)
+[Add a recipients list to a survey]()
 
-[Embed a survey within the Outlook email client](embed-survey-in-outlook-email.md)
+[Embed a survey within the Outlook email client]()
 
-[Survey URLs](../concept/c_SurveyURLs.md)
+[Survey URLs]()
 
-[Create a survey module](t_CreatingASurveyModule.md)
+[Create a survey module]()
 
-[Sharing surveys](../concept/c_SurveyInportAndExport.md)
+[Sharing surveys]()
 
-[Configure a survey in the Connect chat support](take-survey-connect-chat.md)
+[Configure a survey in the Connect chat support]()
 

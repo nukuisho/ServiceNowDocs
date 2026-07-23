@@ -2,6 +2,7 @@
 title: Enterprise Architecture
 description: The ServiceNow Enterprise Architecture unites strategic and operational teams, enabling organizations to achieve their business objectives. It serves as a powerful decision engine, combining robust modeling with the management of business capabilities, application portfolios, information portfolios, and technology portfolios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/application-portfolio-management-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,31 +29,31 @@ Overcome these challenges, improve business functions in an efficient and smooth
 
 <table id="table_uw5_lxw_sjb"><tbody><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-workflow.svg)
+\[Omitted image "bus-workflow.svg"\] Alt text:
 
 </td><td>
 
-[Enterprise Modeling and Visualization](#section_rts_qj4_dwb)
+[Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
  Create diagrams and model the future state of your IT and its relationship to the business landscape.
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-project-manager.svg)
+\[Omitted image "bus-project-manager.svg"\] Alt text:
 
 </td><td>
 
-[Rationalization of business applications](#section_vsr_3l4_dwb)
+[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
  Rationalize all business applications in a category and decide whether to invest, sustain, migrate, or retire an application.
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)
+\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:
 
 </td><td>
 
-[Data Certification](#section_ckg_4gq_w3c)
+[Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
  Ensure the accuracy, completeness, and reliability of critical enterprise architecture data.
 
@@ -61,7 +62,7 @@ Overcome these challenges, improve business functions in an efficient and smooth
 
 Create diagrams and model the current and future state of your architecture and its relationship to the business landscape.
 
-![Modeling page](../image/eaw-image/modeling/modeling-home.png)
+\[Omitted image "modeling-home.png"\] Alt text: Modeling page
 
 Enterprise Modeling and Visualization in the Enterprise Architecture Workspace enables enterprise architects to:
 
@@ -88,7 +89,7 @@ Architecture Analyzer helps architects quickly assess complex landscapes and com
 
 Evaluate and rationalize business applications to support modernization and investment decisions.
 
-![Bubble chart view](../image/eaw-image/bubble-chart-view.png)![List view](../image/eaw-image/eaw-list-view.png)
+\[Omitted image "bubble-chart-view.png"\] Alt text: Bubble chart view\[Omitted image "eaw-list-view.png"\] Alt text: List view
 
 Application Rationalization enables you to:
 
@@ -131,19 +132,19 @@ Data certification helps maintain high‑quality data across architecture portfo
 
 ## Applications and features
 
--   [Enterprise Architecture Workspace](ea-workspace.md)
--   [Now Assist for Enterprise Architecture \(EA\)](../../now-assist-ea/concept/now-assist-ea.md)
--   [Managing requests, certifications, and assessments](manage-requests-certs-assessments.md)
--   [Exploring a business portfolio](manage-business-portfolio.md)
--   [Explore the Enterprise Architecture Workspace dashboard](../../../use/dashboards/concept/eaw-workspace-dashboard.md)
--   [Manage the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](eaw-concept/eaw-tpm.md)
--   [Exploring Enterprise Modeling and Visualization in the EA Workspace](eaw-concept/eaw-modeling.md)
--   [Gantt view of TPM and TRM lifecycle timelines](eaw-concept/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
--   [Rationalization of business applications](eaw-concept/eaw-rationalize-business-applications.md)
--   [Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](eaw-concept/eaw-app-tco.md)
+-   [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md)
+-   [Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)
+-   [Managing requests, certifications, and assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-requests-certs-assessments.md)
+-   [Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/manage-business-portfolio.md)
+-   [Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-workspace-dashboard.md)
+-   [Manage the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-tpm.md)
+-   [Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md)
+-   [Gantt view of TPM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
+-   [Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)
+-   [Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-app-tco.md)
 
--   **[Enterprise Architecture Workspace](ea-workspace.md)**  
+-   **[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/ea-workspace.md)**  
 The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise Architecture application. It provides an interactive user interface to enable enterprise architects to stay up to date with their tasks, get insights, and monitor the health of the portfolio from a single location.
--   **[Now Assist for Enterprise Architecture \(EA\)](../../now-assist-ea/concept/now-assist-ea.md)**  
+-   **[Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea.md)**  
 Use the ServiceNow® Now Assist for Enterprise Architecture \(EA\) application to summarize Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace Use the Architectural Decision Records \(ADR\) to explain your infrastructure. ADR is a type of artifact that helps you to understand the background of a specific architectural decision.
 

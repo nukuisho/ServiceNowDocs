@@ -2,6 +2,7 @@
 title: Using AI Data Explorer in Source-to-Pay Operations
 description: Use the AI Data Explorer in Source-to-Pay Operations to generate reports, visualizations, and data insights from APO, SPO and SLO workspace using natural language questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/using-ai-data-explorer-in-source-to-pay.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,9 +26,9 @@ The AI Data Explorer enables fulfillers and requesters to generate reports, visu
 
 1.  Navigate to **Workspaces** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
-    A list of options within the workspace is displayed. The List page displays **Explore with AI** option. As a fulfiller or a requester you can explore data insights through conversational analytics. You can ask specific questions in AI Data Explorer, to which it responds with summary, and suggested follow-up questions as shown below: ![AI Data Explorer](../../accounts-payable-operations/image/ai-data-explorer.png) For more information on the extended data analysis, data visualization in AI data explorer, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-explorer.md).
+    A list of options within the workspace is displayed. The List page displays **Explore with AI** option. As a fulfiller or a requester you can explore data insights through conversational analytics. You can ask specific questions in AI Data Explorer, to which it responds with summary, and suggested follow-up questions as shown below: \[Omitted image "ai-data-explorer.png"\] Alt text: AI Data Explorer For more information on the extended data analysis, data visualization in AI data explorer, see [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist-explorer.md).
 
     The AI-assisted, interactive exploration assists fulfillers in making data-driven decisions within the Source-to-Pay workspace.
 

@@ -2,6 +2,7 @@
 title: Manage risk assessment scheduler
 description: Create a risk assessment scheduler and assign it to the risk manager. A risk manager can then identify the entities and the risks within the entities for bulk initiation of risk assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-scheduler.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -26,12 +27,12 @@ Based on this information, the system automatically creates the risk assessment 
 
 The following figure shows the states, the descriptions, and the expected outcomes of each of the actions for the risk scheduler form:
 
-![The complete life cycle of the risk assessment scheduler](../image/risk_assessment_scheduler.png "Workflow and actions of the risk assessment scheduler")
+\[Omitted image "risk\_assessment\_scheduler.png"\] Alt text: The complete life cycle of the risk assessment scheduler
 
-**Parent Topic:**[Advanced Risk Assessment](advanced-risk-assessment.md)
+**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
 
 **Related topics**  
 
 
-[Schedule risk assessments in the Risk Workspace](../../grc-workspace-risk/task/schedule-risk-assessment-workspace.md)
+[Schedule risk assessments in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/schedule-risk-assessment-workspace.md)
 

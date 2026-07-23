@@ -2,11 +2,12 @@
 title: Use the SQL component
 description: Write custom SQL queries to perform various operations by using the SQL component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-general-sql.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [General, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [General, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the SQL component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the SQL component. For more information about these properties, see [Properties of the General components](../reference/Properties-general-components.md).
+You can configure the properties for the SQL component. For more information about these properties, see [Properties of the General components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/Properties-general-components.md).
 
 ## Procedure
 
@@ -27,13 +28,13 @@ You can configure the properties for the SQL component. For more information abo
 
 2.  Drag the SQL component to the Design surface.
 
-3.  Click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
+3.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
 
 4.  Under the SCRIPT \(SQL\) heading, write the custom SQL query.
 
 5.  To add a parameter to the query, do the following.
 
-    1.  Click the add parameter icon \(![Add parameter icon.](../image/add-image-icon.png)\).
+    1.  Click the add parameter icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add parameter icon.\).
 
     2.  Update the data type of the parameter.
 
@@ -43,7 +44,7 @@ You can configure the properties for the SQL component. For more information abo
 
 6.  Click **OK**.
 
-7.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+7.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 8.  To close the PORT PROPERTIES dialog, click **OK**.
 
@@ -153,5 +154,5 @@ Data Out
 11. To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[General](../concept/general-component.md)
+**Parent Topic:**[General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/general-component.md)
 

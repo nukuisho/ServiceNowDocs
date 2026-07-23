@@ -2,6 +2,7 @@
 title: Add Interaction Related Records to HR Agent workspace
 description: ServiceNow Voice for HR creates an interaction record for every call between an employee and an HR agent, which contain related lists of details relating to the employee and interaction. To maximize the full feature capability, add the Interaction record to the HR Agent workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/add-interaction-related-records.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,10 +32,10 @@ Role required: admin
 
 5.  Locate the **Interaction Related Record -&gt; Interaction** option and add it to the **Selected** list.
 
-    ![Select the HR Workspace view and the Interaction Related Record - Interaction option](../image/voice-related-list.png)
+    \[Omitted image "voice-related-list.png"\] Alt text: Select the HR Workspace view and the Interaction Related Record - Interaction option
 
 6.  Click **Save**.
 
 
-**Parent Topic:**[Integrating ServiceNow Voice for HR](../concept/integrate-voice-hr-agent.md)
+**Parent Topic:**[Integrating ServiceNow Voice for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrate-voice-hr-agent.md)
 

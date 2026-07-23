@@ -2,6 +2,7 @@
 title: Data source script examples
 description: Use data source scripts to map input values, descriptive elements, and input actions. Alternatively create a dedicated data source for each of these elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/data-source-script-examples.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ The data source script accepts two parameters: *valuesMapper* and *context*. The
 valuesMapper.addRecordMapping(UNIQUE_ELEMENT_IDENTIFIER, GLIDE_RECORD_INSTANCE, COLUMN_NAME);
 ```
 
-**Note:** All the scripts listed in this topic are configured within the data source record. For more information, see [Configure data sources](../task/data-sources-config.md).
+**Note:** All the scripts listed in this topic are configured within the data source record. For more information, see [Configure data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-sources-config.md).
 
 ## Default sample script
 

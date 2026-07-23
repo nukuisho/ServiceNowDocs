@@ -2,6 +2,7 @@
 title: Enable global search in your screen launcher
 description: Enable global search using the Zing search engine on your screen launcher, to give your users the ability to quickly find information within the defined search sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-configure-alp-search.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +35,7 @@ Role required: admin
     1.  Select **Choose**.
     2.  In the **Choose an item** dialog box, select **Homepage Search - Catalog, Knowledge, People**.
     3.  Select **Apply**.
-    ![Choose an item dialog box with Homepage Search - Catalog, Knowledge, People selected](../image/enabl-global-search-screen-launcher.png)
+    \[Omitted image "enabl-global-search-screen-launcher.png"\] Alt text: Choose an item dialog box with Homepage Search - Catalog, Knowledge, People selected
 
 5.  Select **Save** in the launcher screen form.
 

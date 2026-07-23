@@ -2,6 +2,7 @@
 title: Components installed with Essential SAFe
 description: Several types of components are installed with activation of the Agile - Scaled Agile Framework - Essential SAFe plugin \(com.snc.sdlc.safe\), including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/installed-with-EssentialSAFe.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -254,18 +255,18 @@ SAFe team predictability measure\[sn\_safe\_pi\_m2m\_group\]
 Stores the business value achieved per team from PI objectives which is used for team-level predictability measure data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Essential SAFe](../concept/essential-overview.md)
+</table>**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
 
 **Related topics**  
 
 
-[Quick start tests for Essential SAFe](../../../administer/atf-quick-start-tests/reference/quick-start-tests-essentialSAFe.md)
+[Quick start tests for Essential SAFe]()
 
-[SAFe entities](../concept/key-entities-SAFe.md)
+[SAFe entities]()
 
-[SAFe PI objectives](../concept/safe-pi-objectives.md)
+[SAFe PI objectives]()
 
-[SAFe Board — ART level](../concept/program-level-tabs.md)
+[SAFe Board — ART level]()
 
-[SAFe Board — Team level](../concept/team-level-tabs.md)
+[SAFe Board — Team level]()
 

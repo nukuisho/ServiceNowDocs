@@ -2,6 +2,7 @@
 title: Fix application service errors in bulk
 description: Service Mapping classifies errors by their root cause, for example, missing credentials or task timeout. For a fast and efficient process, fix errors belonging to the same category in bulk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/fix-bus-serv-errors-by-category.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -25,7 +26,7 @@ You can view errors by category, for example, **Configuration**, **Network**, an
 
 As part of the Service Mapping workflow, after you map application services in bulk, you can fix multiple application service errors in bulk \(as a group\).
 
-![Fixing errors in bulk as part of the Service Mapping workflow](../image/SMMapFlowFixBulk.png "Fixing errors in bulk workflow")
+\[Omitted image "SMMapFlowFixBulk.png"\] Alt text: Fixing errors in bulk as part of the Service Mapping workflow
 
 After performing initial mapping, Service Mapping rediscovers configuration items \(CIs\) regularly, constantly updating the list of errors. Discovery schedules define how often Service Mapping runs the discovery process for CIs. Service Mapping discovers only CIs belonging to application services with Operational status.
 
@@ -38,9 +39,9 @@ There may be discovery errors not assigned to any category:
 
 1.  Navigate to **All** &gt; **Service Mapping** &gt; **Home** and then click **Fix Your Services** in the **Fix** box.
 
-    The number in the **Fix** box indicates the number of affected service maps. Click **Update** \(![The Update button](../image/update-button.png)\) to update the display.
+    The number in the **Fix** box indicates the number of affected service maps. Click **Update** \(\[Omitted image "update-button.png"\] Alt text: The Update button\) to update the display.
 
-    **Note:** To [fix the errors for a particular service](fix-or-ignore-errors-business-service-map.md) instead, click **Manage Errors by Service**.
+    **Note:** To [fix the errors for a particular service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md) instead, click **Manage Errors by Service**.
 
 2.  If there are uncategorized errors, you can categorize them by service instance:
 
@@ -63,7 +64,7 @@ There may be discovery errors not assigned to any category:
     -   The Errors by Category page organizes errors by high, medium, and low impact on the services.
     -   For each impact category, errors are grouped into boxes by error code \(possibly the root cause\).
     -   If error tasks have been assigned, the task numbers appear in the box. Click a task to view details. Point to a task to view comments that the assigner might have added. A check mark indicates that a task is completed.
-    ![Errors that share identical error codes](../image/error-code-box.png)
+    \[Omitted image "error-code-box.png"\] Alt text: Errors that share identical error codes
 
 5.  To view the list of errors that share an error code, click the box.
 
@@ -71,7 +72,7 @@ There may be discovery errors not assigned to any category:
 
     In the example, **All patterns failed** is selected.
 
-    ![Review the suggested actions under Recommended Actions.](../image/error-list.png)
+    \[Omitted image "error-list.png"\] Alt text: Review the suggested actions under Recommended Actions.
 
 6.  Click an action in the **Action on All** section, or select errors and click an action in the **Action on Selected** section.
 
@@ -91,11 +92,11 @@ There may be discovery errors not assigned to any category:
 
     -   **Create a ServiceNow task**
 
-        Opens the ServiceNow Error task form in a pop-up window so you can create and assign a task for the selected errors. Sets the **Error Status** field in the error record as **Assigned**. For information on creating error tasks, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md) and [Create a task from an incident, problem, or change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateTaskIntPrblmChange.md).
+        Opens the ServiceNow Error task form in a pop-up window so you can create and assign a task for the selected errors. Sets the **Error Status** field in the error record as **Assigned**. For information on creating error tasks, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATable.md) and [Create a task from an incident, problem, or change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateTaskIntPrblmChange.md).
 
         **Note:** The **Mark as assigned** action also sets the **Error Status** field in the error record as **Assigned**.
 
-        ![Error task form](../image/error-task-popup.png)
+        \[Omitted image "error-task-popup.png"\] Alt text: Error task form
 
     -   **Retry Discovery**
 
@@ -118,26 +119,26 @@ There may be discovery errors not assigned to any category:
 8.  If you performed an action on a selection and the error was resolved, you can click **Resolve All** to apply the same action to all items in the list.
 
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](../concept/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 
 **Related topics**  
 
 
-[Map multiple application services suggested by classic Service Mapping](map-business-services-in-bulk.md)
+[Map multiple application services suggested by classic Service Mapping]()
 
-[Map application services using tags with classic Service Mapping](map-service-tag.md)
+[Map application services using tags with classic Service Mapping]()
 
-[Map multiple application services from a CSV file using classic Service Mapping](import-business-services-csv.md)
+[Map multiple application services from a CSV file using classic Service Mapping]()
 
-[Map a single application service using classic Service Mapping](t_DefineNewBusinessService.md)
+[Map a single application service using classic Service Mapping]()
 
-[Fix errors in individual application service maps](fix-or-ignore-errors-business-service-map.md)
+[Fix errors in individual application service maps]()
 
-[Review and approval of application service maps](business-service-approval.md)
+[Review and approval of application service maps]()
 
-[Fine-tune application services to implement owner requests](review-implement-business-service-maps.md)
+[Fine-tune application services to implement owner requests]()
 
-[Application service completion](../concept/advanced-business-service-definitions.md)
+[Application service completion]()
 
-[Application service analysis and maintenance using classic Service Mapping](../concept/c_SvcPlanningAndAnalysisUsingMaps.md)
+[Application service analysis and maintenance using classic Service Mapping]()
 

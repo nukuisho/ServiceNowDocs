@@ -2,13 +2,14 @@
 title: Determine and verify Adobe subscription information in your ServiceNow instance
 description: Determine the exact software subscription information to be pulled from the Adobe admin center and verify if the complete subscription information is pulled accurately to ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/verify-adobe-info.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Adobe Cloud, Software Asset Management publisher pack for Adobe, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Adobe Cloud, Software Asset Management publisher pack for Adobe, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Determine and verify Adobe subscription information in your ServiceNow instance

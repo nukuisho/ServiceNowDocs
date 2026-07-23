@@ -2,6 +2,7 @@
 title: Install Workflow Data Fabric Home store applications
 description: You can install Workflow Data Fabric store applications if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-workflow-data-fabric.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +23,15 @@ Role required: admin
 
 ## About this task
 
-Roles are installed with the Workflow Data Fabric Home store applications. For more information, see [Workflow Data Fabric Home roles](../reference/installed-with-workflow-data-fabric.md).
+The following items are installed with Workflow Data Fabric Home:
+
+-   Plugins
+-   Store applications
+-   Roles
+-   Scheduled jobs
+-   Tables
+
+For more information, see [Workflow Data Fabric Home roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/installed-with-workflow-data-fabric.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Request a new branded iOS app for private distribution
 description: Request, test, and publish a custom iOS app that has your unique company identity. Then make the app available for private distribution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/request-private-branded-ios-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Mobile Publishing enables you to request a branded iOS app that you can distribu
 
 Images that do not follow the guidelines listed below might appear cut off in your branded app as shown in this example.
 
-![Example icon with cut off logo and text](../image/cut-off-icon.png)
+\[Omitted image "cut-off-icon.png"\] Alt text: Example icon with cut off logo and text
 
 ## Procedure
 
@@ -61,9 +62,9 @@ App type
 
 Select either Now Mobile or Mobile Agent.
 
- For more information about these mobile apps, see [Now Mobile app](../concept/now-mobile-app.md) or [Mobile Agent app](../concept/mobile-experience.md) documentation.
+ For more information about these mobile apps, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/now-mobile-app.md) or [Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md) documentation.
 
- In the Washington DC release and later, select customers can use custom app types. For more information, see [Create custom-type mobile apps with Mobile Publishing](../concept/mob-pub-about-custom-apps.md).
+ In the Washington DC release and later, select customers can use custom app types. For more information, see [Create custom-type mobile apps with Mobile Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mob-pub-about-custom-apps.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +121,7 @@ Bundle ID
 
 Based on what you entered for the app name and app type, this field auto-populates with the Bundle ID.
 
- You can select the copy icon \(![Copy icon](../image/mob-pub-copy-icon.png)\) to copy this name to your system clipboard.
+ You can select the copy icon \(\[Omitted image "mob-pub-copy-icon.png"\] Alt text: Copy icon\) to copy this name to your system clipboard.
 
 </td></tr><tr><td>
 
@@ -128,7 +129,7 @@ Mobile Application Management \(MAM\)
 
 </td><td>
 
-Whether you want to use a MAM vendor with your apps. For more information, see [Mobile application management \(MAM\) integration](../concept/sg-mam.md).
+Whether you want to use a MAM vendor with your apps. For more information, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mam.md).
 
  To enable a MAM vendor, select the **Use Mobile Application Management** toggle.
 
@@ -174,7 +175,7 @@ URL where app users can view your custom privacy policy from the mobile app sett
 
 </td></tr><tr><td>
 
-iOS Universal links**Note:** If you selected **iOS and Android** for your **Operating System** in the **Add basic info** form, this configuration section is named **Deep links and Universal links**. For more information about deep links, see [Deep linking for mobile](../concept/deep-link-mobile.md).
+iOS Universal links**Note:** If you selected **iOS and Android** for your **Operating System** in the **Add basic info** form, this configuration section is named **Deep links and Universal links**. For more information about deep links, see [Deep linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile.md).
 
 </td><td>
 
@@ -186,7 +187,7 @@ This table shows all ServiceNow instances used for your organization that can be
 
 -   This functionality can only be edited when you submit a new branded app request or when you update a branded app.
 -   You must download the Apple App Site Association \(AASA\) JSON file after you submit this request and install the file on all instances in the URL list.
-To learn more about mobile deep links and universal links, see [Mobile URLs](../concept/mobile-urls.md).
+To learn more about mobile deep links and universal links, see [Mobile URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-urls.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -203,7 +204,7 @@ Turn on this toggle to build an instance URL into your branded app so end-users 
  **Note:**
 
 -   This instance URL can only be added when you submit a new branded app request or when you update a branded app.
--   Do not select this option if you are using AppConfig to pre-configure a default instance URL through an EMM suite or an embedded MAM SDK app. For more information, see [AppConfig for Mobile Apps](../reference/appconfig.md).
+-   Do not select this option if you are using AppConfig to pre-configure a default instance URL through an EMM suite or an embedded MAM SDK app. For more information, see [AppConfig for Mobile Apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/appconfig.md).
 
 
 </td></tr><tr><td>
@@ -326,14 +327,14 @@ iOS Universal Links
 
 Universal links enable users to follow links to content inside your app. The displayed URL is for the production instance where your app is hosted.
 
- -   To change the existing URL, select the edit icon \(![Pencil edit icon](../image/mob-pub-edit-icon.png)\), edit the URL, and then select **Save**.
+ -   To change the existing URL, select the edit icon \(\[Omitted image "mob-pub-edit-icon.png"\] Alt text: Pencil edit icon\), edit the URL, and then select **Save**.
 -   To add an additional URL, select **Add**, enter the URL, and then select **Save**.
  For more information about using universal links in Mobile Publishing, see [KB1273622](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1273622) in the ServiceNow Support knowledge base. You must log in to view this link content.
 
 </td></tr></tbody>
 </table>8.  Select **Next**.
 
-9.  If you selected **iOS and Android** in the **Operating System** field on the **Add basic info** form in Step 3 above, see Step 8 in [Request a new branded Android app for private distribution](request-private-branded-android-app.md) for information about filling out the **Set up for Android form**.
+9.  If you selected **iOS and Android** in the **Operating System** field on the **Add basic info** form in Step 3 above, see Step 8 in [Request a new branded Android app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/request-private-branded-android-app.md) for information about filling out the **Set up for Android form**.
 
     After you complete the optional Android configuration, return to Step 10 in this topic to complete your request for a private branded iOS app.
 
@@ -362,5 +363,5 @@ When it completes, you receive an email notification about the status of the bui
 
 **Note:** For private branded iOS apps that are managed by Microsoft Intune, you must get your Microsoft Entra ID administrator's consent. This can be done at any point during the build process, but must be done before distribution. For more information, see [Microsoft Entra ID App Registration Mandate for iOS Intune Mobile App - Mobile Publishing \(KB1640759\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1640759). \(You must have an account and log in to view this ServiceNow KB.\)
 
-After the build successfully completes and your app is ready for testing, see [Test and publish a new branded iOS app for private distribution](../concept/testpubnu-iosapp-privdist.md).
+After the build successfully completes and your app is ready for testing, see [Test and publish a new branded iOS app for private distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/testpubnu-iosapp-privdist.md).
 

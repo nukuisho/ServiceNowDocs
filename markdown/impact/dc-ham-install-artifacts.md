@@ -2,11 +2,12 @@
 title: Review HAM artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-ham-install-artifacts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for HAM, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for HAM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Review HAM artifacts
@@ -60,4 +61,6 @@ The app contains the following artifacts for each of the above-specified artifac
 |Manual|Impact VM - \# of employees: \# of HAM FTEs|
 |Manual|Impact VM - Legacy HAM systems annual run-rate|
 |Automated|Impact VM - \# of unplanned outages from HW issues this month|
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-ham.md)
 

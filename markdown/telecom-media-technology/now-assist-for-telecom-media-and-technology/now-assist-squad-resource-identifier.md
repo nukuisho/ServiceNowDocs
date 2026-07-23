@@ -2,6 +2,7 @@
 title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection Squad resource identifier agentic workflow
 description: Use a squad resource identifier agentic workflow to identify and recommend internal experts based on record under consideration, skill set, region, and real-time availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-squad-resource-identifier.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -46,7 +47,7 @@ To modify the Squad resource identifier agentic workflow, [Duplicate an agentic 
 
 The squad members assigned through the squad resource identifier workflow aren’t automatically granted customer success roles. An administrator must manually assign the appropriate role to enable record access.
 
-To assign customer success roles to users using the ServiceNow AI Platform user administration feature, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+To assign customer success roles to users using the ServiceNow AI Platform user administration feature, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 ## Squad resource identifier agentic workflow
 

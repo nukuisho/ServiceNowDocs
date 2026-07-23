@@ -2,12 +2,14 @@
 title: Configure inquiry resolution property
 description: Configure the inquiry resolution AI agent to extract data from KB articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-inquiry-resolution-property.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, AI agent, invoice automation]
 breadcrumb: [Inquiry resolution provider AI agent, Using AI agents in Now Assist for Accounts Payable Operations, Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -19,7 +21,7 @@ Configure the inquiry resolution AI agent to extract data from KB articles.
 
 Role required: admin
 
-![APO properties page](../image/apo-properties.png)
+\[Omitted image "apo-properties.png"\] Alt text: APO properties page
 
 ## Procedure
 
@@ -39,5 +41,5 @@ The AI agent uses the data from the specified KB article to resolve the inquiry 
 **Related topics**  
 
 
-[Set APO properties](set-apo-properties.md)
+[Set APO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/set-apo-properties.md)
 

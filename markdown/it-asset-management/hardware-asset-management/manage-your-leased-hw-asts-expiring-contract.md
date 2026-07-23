@@ -2,13 +2,14 @@
 title: Manage your expiring contracts for leased hardware assets
 description: Use the lease contract expiration flow and decide on what to do before your leased hardware asset contract expires. Get notifications about the lease contracts that are nearing their expiration dates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 8
-breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+reading_time_minutes: 9
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage your expiring contracts for leased hardware assets
@@ -23,7 +24,7 @@ Role required: contract\_manager
 
 When a lease contract is nearing its expiration, contract administrators and business owners are notified 90, 60, and 30 days before the expiration date. Getting these notifications early can help give them enough time to act and to avoid paying a penalty. You can customize the email notifications by navigating to **System Notification** &gt; **i** &gt; **Notification** &gt; **Lease contract threshold breached**.
 
-You can view a consolidated list of asset contracts that are expiring on the Hardware Asset Dashboard in the month, quarter, and year formats. For more information, see [Hardware Asset Dashboard](../../../use/dashboards/application-content-packs/hardware-asset-content-pack.md#).
+You can view a consolidated list of asset contracts that are expiring on the Hardware Asset Dashboard in the month, quarter, and year formats. For more information, see [Hardware Asset Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-asset-content-pack.md).
 
 **Note:**
 
@@ -31,7 +32,7 @@ When the Hardware Asset Management license is activated, the **Renew** UI button
 
 If an asset is associated with more than one lease contract, then the **Lease contract** field on the asset record reflects the most recently associated contract.
 
-There are readily available decision tables that you can use to customize the Lease Contract Expiration Flow, Leased Asset Buyout Flow, Leased Asset Extension Flow, and Leased Asset Return Flow. For more details, see [Hardware Asset Management flow customization](../concept/readily-available-dec-tables-ham.md).
+There are readily available decision tables that you can use to customize the Lease Contract Expiration Flow, Leased Asset Buyout Flow, Leased Asset Extension Flow, and Leased Asset Return Flow. For more details, see [Hardware Asset Management flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/readily-available-dec-tables-ham.md).
 
 With the lease contract expiration flow, the possible lease actions are buying out the leased asset, extending the lease agreement, or returning the asset or another like product.
 
@@ -49,7 +50,7 @@ With the lease contract expiration flow, the possible lease actions are buying o
 
     The **Begin Lease expiration process** related link is visible only in active contracts that have at least one asset covered.
 
-    You can't choose a lease action such as Buy out, return, and extend for an excluded lease asset. For more information, see [Hardware Asset Management license exclusion](../concept/ham-license-exclusion.md).
+    You can't choose a lease action such as Buy out, return, and extend for an excluded lease asset. For more information, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 
     The Leased Assets related list shows all the hardware assets that are covered in the lease contract.
 
@@ -73,79 +74,83 @@ Based on your selected action, the corresponding workflow is triggered and the a
 
 Based on what lease action you selected, perform any of the following:
 
--   [Return your leased hardware asset](return-your-leased-hardware-asset.md).
--   [Buy out your leased hardware asset](purchase-your-leased-hw-asset.md).
--   [Extend your lease contract](extend-your-lease-contract.md).
+-   [Return your leased hardware asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/return-your-leased-hardware-asset.md).
+-   [Buy out your leased hardware asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/purchase-your-leased-hw-asset.md).
+-   [Extend your lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/extend-your-lease-contract.md).
 
--   **[Return your leased hardware asset](return-your-leased-hardware-asset.md)**  
+-   **[Return your leased hardware asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/return-your-leased-hardware-asset.md)**  
 Return your hardware asset before the contract expires and avoid paying a penalty.
--   **[Buy out your leased hardware asset](purchase-your-leased-hw-asset.md)**  
+-   **[Buy out your leased hardware asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/purchase-your-leased-hw-asset.md)**  
 Buy out your leased hardware asset before the contract expires and avoid paying a penalty.
--   **[Extend your lease contract](extend-your-lease-contract.md)**  
+-   **[Extend your lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/extend-your-lease-contract.md)**  
 Extend your lease contract before the contract expires and avoid paying a penalty.
 
-**Parent Topic:**[Using Hardware Asset Management](../concept/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
 
-[Manage asset bundles from your inventory](create-bundled-assets.md)
+[Work with hardware normalization]()
 
-[Manage your inventory through pallet assets](../concept/pallets-for-inventory-management.md)
+[Manage asset bundles from your inventory]()
 
-[Manage loaner assets](manage-loaner-asset.md)
+[Manage your inventory through pallet assets]()
 
-[Donate assets to charity organizations](../concept/donate-asset-to-charity-organizations.md)
+[Manage loaner assets]()
 
-[Use Advanced Shipment Notification](advanced-shipment-notification.md)
+[Donate assets to charity organizations]()
 
-[Manage RMA requests](../concept/manage-rma-req.md)
+[Use Advanced Shipment Notification]()
 
-[Create an inventory stock order request](create-inventory-stock-order.md)
+[Manage RMA requests]()
 
-[Create a disposal order](create-disposal-order.md)
+[Create an inventory stock order request]()
 
-[Use a hardware asset request flow](hardware-request-flow.md)
+[Create a disposal order]()
 
-[Audit hardware asset inventory](../concept/ham-inventory-audit.md)
+[Fulfilling hardware asset requests]()
 
-[Request a Hardware Asset Refresh](hardware-asset-refresh.md#)
+[Audit hardware asset inventory]()
 
-[Reclaim hardware assets](../concept/manage-asset-reclaim.md)
+[Request a Hardware Asset Refresh]()
 
-[View RFID information of assets](view-rfid-info.md)
+[Reclaim hardware assets]()
 
-[Manage the lifecycle of hardware models with calculated lifecycle templates](../concept/manage-ham-lifecycle-temp.md)
+[View RFID information of assets]()
 
-[Receive asset warranty details from Lenovo](../concept/receive-warranty-details-lenovo.md)
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
-[Manage stockrooms](../concept/manage-your-stockrooms.md)
+[Create an internal lifecycle in the Hardware Asset Workspace]()
 
-[Track shipments using the integration framework](../concept/tracking-shipments-using-integration-framework.md)
+[Receive asset warranty details from Lenovo]()
 
-[Track asset location using indoor maps](track-asset-location-using-indoor-maps.md)
+[Manage stockrooms]()
 
-[Assess performance of Hardware Asset Management](../concept/suc-goal-act-hw.md)
+[Track shipments using the integration framework]()
 
-[Manage refresh of assets using Zero Touch Refresh](../concept/refresh-hardware-uisng-ztr.md)
+[Track asset location using indoor maps]()
 
-[Configure the Total Cost of Ownership of assets](../concept/configure-ham-tco.md)
+[Assess performance of Hardware Asset Management]()
 
-[Manage Hardware Asset Management subscriptions](../concept/managing-ham-subscriptions.md)
+[Manage refresh of assets using Zero Touch Refresh]()
 
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](../concept/manage-repair-of-defective-ham-assets.md)
+[Configure the Total Cost of Ownership of assets]()
 
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](../concept/manage-asset-picking-stockroom-ham-ws.md)
+[Manage Hardware Asset Management subscriptions]()
 
-[Manage hardware asset tasks using the Mobile Agent application](../concept/manage-hardware-asset-tasks-mobile-agent.md)
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
 
-[Manage asset put away using the Hardware Asset Workspace](../concept/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
 
-[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+[Manage hardware asset tasks using the Mobile Agent application]()
 
-[Acknowledge receipt of assets on the Employee Center portal](receive-assets-employee-center.md)
+[Manage asset put away using the Hardware Asset Workspace]()
 
-[Update associated Decision tables for HAM flows](trigger-flow-ham.md)
+[Audit your hardware assets by using Asset Attestation]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
 

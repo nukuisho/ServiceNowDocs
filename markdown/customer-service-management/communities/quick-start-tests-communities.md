@@ -2,6 +2,7 @@
 title: Quick start tests for Communities
 description: Validate that Communities still work after you make any configuration change, such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/quick-start-tests-communities.html
 release: australia
 product: Communities
 classification: communities
@@ -36,20 +37,20 @@ Communities quick start tests require activating the Customer Communities plugin
 |Post a video with 'Disable comment' option|Verify a video is posted with `Disable comments` option as selected.|Orlando|
 |Pin a video as Featured|Verify that a video is marked as featured by community administrator in the forum and community home page.|Orlando|
 
-**Parent Topic:**[Communities references](../../../product/customer-communities/reference/communitie-references.md)
+**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communitie-references.md)
 
 **Related topics**  
 
 
-[Properties installed with Communities](../../../product/customer-communities/reference/communities-properties.md)
+[Properties installed with Communities]()
 
-[Communities roles](../../../product/customer-communities/reference/communities-roles.md)
+[Communities roles]()
 
-[Forum form fields](../../../product/customer-communities/reference/forum-form-fields.md)
+[Forum form fields]()
 
-[Video Configurations form fields](../../../product/customer-communities/reference/video-configurations-form-fields.md)
+[Video Configurations form fields]()
 
-[Topic form fields](../../../product/customer-communities/reference/topic-form-fields.md)
+[Topic form fields]()
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
 

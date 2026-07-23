@@ -1,17 +1,18 @@
 ---
 title: Create a field using the Administration UI
-description: Learn how to create a field in the CPQ UI for use in Blueprint.
+description: Learn how to create a field in the ServiceNow CPQ UI for use in Blueprint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-a-field-using-the-administration-ui.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure fields, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure fields, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a field using the Administration UI
 
-Learn how to create a field in the CPQ UI for use in Blueprint.
+Learn how to create a field in the ServiceNow CPQ UI for use in Blueprint.
 
 ## Before you begin
 
@@ -19,13 +20,13 @@ Role required: Admin
 
 ## Procedure
 
-1.  In the CPQ navigation pane, click **Fields**.
+1.  In the ServiceNow CPQ navigation pane, click **Fields**.
 
-    ![Menu](../images/cpq-fields-menu-item.png)
+    \[Omitted image "cpq-fields-menu-item.png"\] Alt text: Menu
 
     The Fields administration page opens, listing the fields in the current environment.
 
-    ![Admin fields](../images/cpq-fields-list.png)
+    \[Omitted image "cpq-fields-list.png"\] Alt text: Admin fields
 
     To edit a field, click its name \(a\). To create a new field, click **+ New** \(b\).
 
@@ -33,7 +34,7 @@ Role required: Admin
 
 3.  In the New Field window, name the field and select a field type.
 
-    ![New field](../images/cpq-fields-new-field-dialog.png)
+    \[Omitted image "cpq-fields-new-field-dialog.png"\] Alt text: New field
 
     -   \(A\) Valid field names can be composed of up to 255 characters, including letters, numbers, spaces, and the following special characters: `{}[]()|\~`_^@?<=>;:/.-,+*ʼ&%$#”!`
     -   \(B\) The variable name is automatically populated. To set a different variable name, click the pencil icon. \(You cannot edit the variable name later.\) Valid field variable names consist of letters, numbers, and underscores. The first and last character must be a letter or number.
@@ -48,10 +49,10 @@ Role required: Admin
 
 ## What to do next
 
-[Associate a field with a blueprint](cpq-associate-field-with-a-blueprint.md)
+[Associate a field with a blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-associate-field-with-a-blueprint.md)
 
 **Related topics**  
 
 
-[Configure the Matrix Loader](cpq-using-the-matrix-loader.md)
+[Configure the Matrix Loader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-using-the-matrix-loader.md)
 

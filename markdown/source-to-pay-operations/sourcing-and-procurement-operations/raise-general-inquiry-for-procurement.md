@@ -2,13 +2,14 @@
 title: Raise a general inquiry for procurement
 description: As a shopper, raise an inquiry for any pre-existing purchase or for any other queries that you may have regarding any procurement function​​.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/raise-general-inquiry-for-procurement.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sourcing Procurement Operations integration Employee, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing and Procurement Operations and Employee Center integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Raise a general inquiry for procurement
@@ -74,5 +75,5 @@ Describe your query. Based on your input here, related search results are displa
 
 A procurement case of type Inquiry is created under **Procurement Cases** in Source-to-Pay Workspace, which is assigned to a fulfiller. The fulfiller can then help you with your inquiry.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](../concept/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

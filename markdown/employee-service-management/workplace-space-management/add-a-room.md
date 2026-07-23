@@ -2,6 +2,7 @@
 title: Add a room using Workplace Space Management
 description: Create a record for every room located in an area or a floor. Specify the size of the room. Assign the room to a cost center or a department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/add-a-room.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -55,7 +56,7 @@ Name
 
 Name of the room. Ensure that you enter a unique name. For example, use the location name `<location-name>-16` rather than just `16`.
 
-**Note:** Do not use duplicate names as it may affect the reservation process. If you change the name of a building after updating it, a message is displayed to show that the **Name** will be overwritten in the next synchronization process. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](../../wsd-indoor-mapping/task/synchronize-ind-mapping-wsd.md).
+**Note:** Do not use duplicate names as it may affect the reservation process. If you change the name of a building after updating it, a message is displayed to show that the **Name** will be overwritten in the next synchronization process. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 </td></tr><tr><td>
 
@@ -171,7 +172,7 @@ Space type
 
 </td><td>
 
-Type of the office space. To configure a new space type, see [Add a space type configuration](../../workplace-service-delivery/task/add-space-type-configuration-wsd.md).
+Type of the office space. To configure a new space type, see [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
 
 </td></tr><tr id="managed-by-group"><td>
 
@@ -219,18 +220,18 @@ Size Square Feet/Meters
 
 </td><td>
 
-Surface area computed in square feet or square meters.Ability to compute surface area automatically in square meters or square feet from the CAD polylines if polylines are defined as closed shapes or if a unit is set. For more information, see [Compute CAD file properties to extract space or room surface area](../../wsd-indoor-mapping/task/compute-cad-properties.md).
+Surface area computed in square feet or square meters.Ability to compute surface area automatically in square meters or square feet from the CAD polylines if polylines are defined as closed shapes or if a unit is set. For more information, see [Compute CAD file properties to extract space or room surface area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/compute-cad-properties.md).
 
 </td></tr></tbody>
 </table>6.  Select **Create QR code** to generate and print QR codes for this space.
 
 7.  Select **Unlink Space** to unlink a space from Indoor Mapping map provider.
 
-    For more information about how to link and synchronize Indoor Mapping map data objects with Workplace Indoor Mapping see, [Synchronize Indoor Mapping with Workplace Service Delivery](../../wsd-indoor-mapping/task/synchronize-ind-mapping-wsd.md).
+    For more information about how to link and synchronize Indoor Mapping map data objects with Workplace Indoor Mapping see, [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 8.  Select **Block location** to define a time period to block these locations for reservation.
 
-9.  To add an image, select the Additional Actions icon \(![Additional Actions to switch to the Workplace view.](../images/additionalactions-icon.png)\) to select **View** &gt; **Workplace**.
+9.  To add an image, select the Additional Actions icon \(\[Omitted image "additionalactions-icon.png"\] Alt text: Additional Actions to switch to the Workplace view.\) to select **View** &gt; **Workplace**.
 
     1.  Select the **Extra Information** tab.
 
@@ -245,40 +246,42 @@ The room is added to the area and room.
 
 ## What to do next
 
-You can add an allocation if there is none. For more information on how to add an allocation, see [Allocate a cost center, department, or workplace entity](add-cost-center-department-floor.md). In the procedure, select the Rooms module instead of the Floors module.
+You can add an allocation if there is none. For more information on how to add an allocation, see [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-cost-center-department-floor.md). In the procedure, select the Rooms module instead of the Floors module.
 
-**Parent Topic:**[Managing workplace locations](../concept/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 
 
-[Add a campus](add-a-campus.md)
+[Add a campus]()
 
-[Add a building using Workplace Space Management](add-new-building-1.md)
+[Add a building using Workplace Space Management]()
 
-[Add a floor using Workplace Space Management](add-a-floor-1.md)
+[Add a floor using Workplace Space Management]()
 
-[Add an area using Workplace Space Management](add-an-area.md)
+[Add an area using Workplace Space Management]()
 
-[Add a space using Workplace Space Management](add-a-space.md)
+[Add a space using Workplace Space Management]()
 
-[Allocate a cost center, department, or workplace entity](add-cost-center-department-floor.md)
+[Allocate a cost center, department, or workplace entity]()
 
-[Configure a workspace or desk as flexible or permanent](assign-a-flex-perm-space.md)
+[Configure a workspace or desk as flexible or permanent]()
 
-[Update the measurement details of a workplace location](update-measurement-details-of-workplace-location.md)
+[Update the measurement details of a workplace location]()
 
-[Change the status of a workplace location](change-active-status-of-workplace-location.md)
+[Change the status of a workplace location]()
 
-[Configure a BOMA type](configure-a-boma-type.md)
+[Configure a BOMA type]()
 
-[Map a space type with BOMA type](map-a-space-type-with-boma-type.md)
+[Map a space type with BOMA type]()
 
-[Create a Space Recommender rule](create-a-space-recommender-rule.md)
+[Create a Space Recommender rule]()
 
-[Raise a space assistance request](raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Create a view-by configuration](create-view-by-config.md)
+[Create a view-by configuration]()
 
-[Reviewing allocation changes](../concept/reviewing-allocation-changes.md)
+[Create a KPI Configuration]()
+
+[Reviewing allocation changes]()
 

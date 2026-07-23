@@ -2,6 +2,7 @@
 title: Prepare Circle of Trust certificates
 description: Create an update set in the trusted environment to export the trusted certificate to the production environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/create-updateset-nonprod.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Trusted instance
 
 1.  In the trusted environment, navigate to **sys\_certificate.list**.
 
-    ![X.509 certificates list](../../key-management-framework/image/sys_cert_list.png)
+    \[Omitted image "sys\_cert\_list.png"\] Alt text: X.509 certificates list
 
 2.  Open the most recently created X.509 Certificate that was generated with the type **Trust Store Cert**.
 
@@ -33,7 +34,7 @@ Trusted instance
 
 3.  Select **Export certificate to production**.
 
-    ![Export certificate to production button.](../../key-management-framework/image/export_cert-to-prod.png)
+    \[Omitted image "export\_cert-to-prod.png"\] Alt text: Export certificate to production button.
 
     A signature is created along with the certificate.
 
@@ -49,18 +50,16 @@ Trusted instance
 
     The update set includes the attachment for the signature record along with the entry of the signature in the table and the certificate.
 
-    ![Displays the contents of the update set.](../../key-management-framework/image/nonprod-updateset.png)
+    \[Omitted image "nonprod-updateset.png"\] Alt text: Displays the contents of the update set.
 
 7.  Select the **Export to XML** related link.
 
-    ![Export to XML related link.](../../key-management-framework/image/export-to-xml.png)
+    \[Omitted image "export-to-xml.png"\] Alt text: Export to XML related link.
 
 8.  Retrieve the update set in production.
 
-    See [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md) for details.
+    See [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RetrieveAnUpdateSet.md) for details.
 
     **Important:** Repeat these steps for your second key pair. Remember that there’s a key for both the cm\_code\_attest and cm\_code\_signing cryptographic modules.
 
-
-**Parent Topic:**[Configuring Code Signing](../concept/config-code-signing.md)
 

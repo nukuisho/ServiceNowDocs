@@ -2,6 +2,7 @@
 title: Download and install the Mobile SDK library
 description: Before you can create mobile applications that interact with your ServiceNow instance, you must first download and install the ServiceNow Mobile SDK Android library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-down-install-sdk.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -40,11 +41,11 @@ Before you start the download and installation process, ensure that your develop
 
     1.  In Android Studio IDE, select **File -&gt; New -&gt; Import Module**.
 
-        ![Android Studio IDE Import Module](../image/mobsdk-and-AS-import_mod.png)
+        \[Omitted image "mobsdk-and-AS-import\_mod.png"\] Alt text: Android Studio IDE Import Module
 
     2.  When prompted for the source path, select **nowsdk**.
 
-        ![Android Studio IDE select nowsdk](../image/mobsdk-and-AS-select-nowsdk.png)
+        \[Omitted image "mobsdk-and-AS-select-nowsdk.png"\] Alt text: Android Studio IDE select nowsdk
 
         As the project is imported, the IDE will report a build error.
 

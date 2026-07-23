@@ -2,6 +2,7 @@
 title: General properties for activity designer templates
 description: The following General Property fields are common to all activity designer templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/General-Flds-Templates.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -89,5 +90,5 @@ Description
 Detailed description of the activity.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create custom activities using custom activity designer templates](../task/create-custom-activities.md)
+</table>**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/create-custom-activities.md)
 

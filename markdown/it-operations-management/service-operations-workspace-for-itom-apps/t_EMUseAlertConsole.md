@@ -2,6 +2,7 @@
 title: Monitor incoming alerts
 description: You can monitor incoming alerts in Service Operations Workspace. You can also monitor and manage alerts in the Event Management interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/t\_EMUseAlertConsole.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -25,7 +26,7 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon ![](../image/express-list1.png).
+2.  From the navigation bar, select the Express list icon \[Omitted image "express-list1.png"\].
 
 3.  View the alert information.
 
@@ -125,7 +126,7 @@ Configuration item
 
 </td><td>
 
-JSON string that represents a configuration item. For example, \{"name":"SAP ORA01","type":"Oracle"\}. The CI identifier that generated the event appears in the **Additional information** field. This field has a maximum length of 1000. Click ![Dependency view icon](../image/alert-dependency-view-icon.png) to open the alert in dependency view.
+JSON string that represents a configuration item. For example, \{"name":"SAP ORA01","type":"Oracle"\}. The CI identifier that generated the event appears in the **Additional information** field. This field has a maximum length of 1000. Click \[Omitted image "alert-dependency-view-icon.png"\] Alt text: Dependency view icon to open the alert in dependency view.
 
 </td></tr><tr><td>
 
@@ -133,9 +134,9 @@ Impacted Services
 
 </td><td>
 
-Lists the services affected by this alert group. Select an impacted service to view its record.**Note:** You can access the Service Map in Service Operations Workspace directly from the impacted service form by selecting **Service Map**. The service map shows the impacted path of alerts, enabling you to quickly assess their effect on the service. For more information, see [View unified service map and the impact paths in Service Operations Workspace](../../service-operations-workspace-itom/task/view-impact-tree.md).
+Lists the services affected by this alert group. Select an impacted service to view its record.**Note:** You can access the Service Map in Service Operations Workspace directly from the impacted service form by selecting **Service Map**. The service map shows the impacted path of alerts, enabling you to quickly assess their effect on the service. For more information, see [View unified service map and the impact paths in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/view-impact-tree.md).
 
-![Service Map button on the impacted service form.](../../service-operations-workspace-itom/image/el-imp-service-open-map.png)el-imp-service-open-map.png
+\[Omitted image "el-imp-service-open-map.png"\] Alt text: Service Map button on the impacted service form.el-imp-service-open-map.png
 
 </td></tr><tr><td>
 
@@ -186,9 +187,9 @@ If Operational Intelligence is activated, you can right-click an alert and click
 **Related topics**  
 
 
-[Metric Intelligence](../../agent-client-collector/concept/operational-metrics.md)
+[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/operational-metrics.md)
 
-[View alert information](t_EMViewAlert.md)
+[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
 
-[Alert grouping types and creation methods](../concept/Alert-Groups.md)
+[Alert grouping types and creation methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/Alert-Groups.md)
 

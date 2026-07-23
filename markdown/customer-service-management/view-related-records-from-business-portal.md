@@ -2,6 +2,7 @@
 title: View cases and case tasks from the Business Portal
 description: View the list of cases and case task from the business portal to view its details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-related-records-from-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,4 +36,11 @@ If a case has one or more related records, a Related Records widget is displayed
 
 5.  Select the **X** in the upper corner to close the details window.
 
+
+**Related topics**  
+
+
+[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
+
+[Approve, change, or registration request from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/approve-request-from-business-portal.md)
 

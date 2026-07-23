@@ -2,6 +2,7 @@
 title: Configure Create stories agentic workflow with Now Assist for SPM
 description: Using the AI Agent Studio, you can review and edit the configuration of the Create stories agentic workflow to modify the workflow description, steps, and agents included.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/configure-create-stories-agentic-workflow-now-assist-for-spm.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -40,7 +41,7 @@ Role required: admin
     5.  From the Select channels and status section, choose the ways in which your users can access this agentic workflow. The default selection for Create stories workflow is the Now Assist panel.
 4.  Select **Save and test**.
 
-    The Create stories agentic workflow can only be tested in the Enterprise Agile Planning \(EAP\) workspace, from an epic or a feature record. To access EAP, navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Enterprise Agile Planning**. For more information on how to use this agentic workflow in EAP, see [Generate multiple stories at once in EAP using Now Assist for SPM](generate-stories-from-epics-now-assist-eap.md).
+    The Create stories agentic workflow can only be tested in the Enterprise Agile Planning \(EAP\) workspace, from an epic or a feature record. To access EAP, navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Enterprise Agile Planning**. For more information on how to use this agentic workflow in EAP, see [Generate multiple stories at once in EAP using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md).
 
     After testing the workflow, you can come back to AI Agent Studio to make any further changes.
 
@@ -52,7 +53,7 @@ Role required: admin
 
 [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 
-[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
 
-[Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](../concept/na-spm-task-monitoring-usecase.md)
+[Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/na-spm-task-monitoring-usecase.md)
 

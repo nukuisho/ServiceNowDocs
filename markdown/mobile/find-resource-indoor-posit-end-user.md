@@ -2,6 +2,7 @@
 title: Find resources with indoor positioning
 description: When indoor positioning is enabled on your device, you can get step-by-step interactive directions to resources in a building that has been mapped for this feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/find-resource-indoor-posit-end-user.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Role required: none
 
 3.  When you’ve located the resource, select **Get directions**.
 
-    ![Mobile app screen showing the 'Get directions' button](../image/ind-posit-select-get-directions.png)
+    \[Omitted image "ind-posit-select-get-directions.png"\] Alt text: Mobile app screen showing the 'Get directions' button
 
     The map shows where the person or resource is on the map. The mobile app prompts for whether the device can use your location.
 
@@ -39,21 +40,21 @@ Role required: none
 
     |Location option|Description|
     |---------------|-----------|
-    |Allow Once|Your location appears on the map with an icon \(![Blue dot indicating user's position on the indoor wayfinding map](../image/blue-dot-icon.png)\). This permission only lasts for this session. The next time you search for an asset or person, you're prompted to permit the mobile app to use your location again.|
-    |Allow While Using the App|Your location appears on the map with an icon \(![Blue dot indicating user's position on the indoor wayfinding map](../image/blue-dot-icon.png)\). This permission persists each time you use the app. The next time you search for an asset or person, you aren't prompted to permit the mobile app to use your location.|
+    |Allow Once|Your location appears on the map with an icon \(\[Omitted image "blue-dot-icon.png"\] Alt text: Blue dot indicating user's position on the indoor wayfinding map\). This permission only lasts for this session. The next time you search for an asset or person, you're prompted to permit the mobile app to use your location again.|
+    |Allow While Using the App|Your location appears on the map with an icon \(\[Omitted image "blue-dot-icon.png"\] Alt text: Blue dot indicating user's position on the indoor wayfinding map\). This permission persists each time you use the app. The next time you search for an asset or person, you aren't prompted to permit the mobile app to use your location.|
     |Don't Allow|No icon shows your location on the map.|
 
 5.  Depending on whether you allowed the mobile app to use your location, use the following steps.
 
-<table id="choicetable_sht_lj2_zvb"><thead><tr><th align="left" id="d103846e174">
+<table id="choicetable_sht_lj2_zvb"><thead><tr><th align="left" id="d104973e174">
 
 Option
 
-</th><th align="left" id="d103846e177">
+</th><th align="left" id="d104973e177">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d103846e183">
+</th></tr></thead><tbody><tr><td id="d104973e183">
 
 **If you allowed the mobile app to use your location**
 
@@ -67,7 +68,7 @@ Your path to the person or resource appears on the map.
 
 Follow the path and your position is updated automatically. Directions appear on the top banner, which indicate the way to turn \(left or right\) and if you must climb stairs. In addition, the distance, time left to travel to the resource, and expected arrival time also appear on your device. This information is updated in real time.
 
-</td></tr><tr><td id="d103846e215">
+</td></tr><tr><td id="d104973e215">
 
 **If you didn't allow the mobile app to use your location**
 

@@ -2,11 +2,12 @@
 title: Attended Configuration form in RPA Hub
 description: Use the Attended Configurations form to associate the table form, from where the automation must be initiated, associate the respective attended bot process, and other related conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/attended-config-form-rpa.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Embedded Task Automation \(ETA\), Use, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Embedded Task Automation \(ETA\), Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Attended Configuration form in RPA Hub
@@ -79,17 +80,17 @@ Within the **Condition** section, you can use the **+New condition set** to add 
 
 After you build a filter, select **Set**.
 
-![A selected filter condition to activate the UI action.](../image/automation-trigger-cond-rpa.png "Example: Selected filter condition to activate the UI action")
+\[Omitted image "automation-trigger-cond-rpa.png"\] Alt text: A selected filter condition to activate the UI action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](../concept/embedded-task-auto-rpa.md)
+</table>**Parent Topic:**[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md)
 
 **Related topics**  
 
 
-[Create an attended configuration record in RPA Hub](../task/create-attended-config-rpa.md)
+[Create an attended configuration record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-attended-config-rpa.md)
 
-[Embedded Task Automation \(ETA\) in RPA Hub](../concept/embedded-task-auto-rpa.md)
+[Embedded Task Automation \(ETA\) in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/embedded-task-auto-rpa.md)
 
-[List of steps for configuring embedded task automation](list-steps-eta-rpa.md)
+[List of steps for configuring embedded task automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/list-steps-eta-rpa.md)
 

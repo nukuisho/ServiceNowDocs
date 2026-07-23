@@ -2,6 +2,7 @@
 title: Using CSS Grid layouts to build a page
 description: Create a CSS Grid layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.Create a CSS Grid layout in UI Builder to build powerful pages in a low-code environment.Create a CSS Grid layout in UI Builder to build powerful pages so that you can customize with cascading style sheets \(CSS\) and can improve your performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/css-grid-uib.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -19,13 +20,13 @@ CSS Grid is the most powerful layout system in CSS. CSS Grid is built on top of 
 
 For example, you can have a grid with three columns and three rows to make a grid nine cells. You can place components inside these cells or make the component span multiple cells.
 
-![CSS Grid layout](../image/UIB-layout-css-grid.png "CSS Grid layout")
+\[Omitted image "UIB-layout-css-grid.png"\] Alt text: CSS Grid layout
 
-Customizing the layout of your page lets you take full advantage of CSS Grid so that you can achieve your overall page design. For more information, see [Organize components in UI Builder pages](work-layouts.md).
+Customizing the layout of your page lets you take full advantage of CSS Grid so that you can achieve your overall page design. For more information, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md).
 
 To find out more about CSS layouts within your UI Builder instance, you can find them in the \[sys\_uib\_template\] table.
 
-**Parent Topic:**[Organize components in UI Builder pages](work-layouts.md)
+**Parent Topic:**[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md)
 
 ## Create a CSS Grid layout with the new layout system
 
@@ -41,21 +42,21 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](../task/create-page.md).
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select the **+ Add content** button in the UI Builder stage.
 
 5.  Select **Grid** in the layouts tab.
 
-    ![Arrow pointing to the Grid option in the layouts tab of the toolbox.](../image/grid-select-toolbox.png)
+    \[Omitted image "grid-select-toolbox.png"\] Alt text: Arrow pointing to the Grid option in the layouts tab of the toolbox.
 
 6.  Select the **Styles** tab in the configuration panel.
 
 7.  In the **Layout** section, you should see **Grid** highlighted.
 
-    ![Arrow pointing to the Grid option in the configuration panel styles tab.](../image/grid-highlighted.png)
+    \[Omitted image "grid-highlighted.png"\] Alt text: Arrow pointing to the Grid option in the configuration panel styles tab.
 
 8.  In the **Layout** section of the styles tab, you can change the following:
 
@@ -103,9 +104,9 @@ Role required: admin
 
 11. Add components to your page.
 
-    See [Add and configure components](../task/add-components.md#) for more information.
+    See [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md) for more information.
 
-12. View and test your page by selecting ![Preview button that opens the page variant.](../image/preview-button.png).
+12. View and test your page by selecting \[Omitted image "preview-button.png"\] Alt text: Preview button that opens the page variant..
 
 
 ## Create a CSS Grid layout with the old layout system
@@ -126,31 +127,31 @@ In the following procedure, you learn how to use CSS Grid to modify your CSS to 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](../task/create-page.md) or open a page.
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) or open a page.
 
 4.  Click the **Layout** tab and choose the two-row by two-column layout.
 
-    ![Standard two row, two-column layout.](../image/UIB-layouts-custom-four-standard.png "Standard two-row, two-column layout")
+    \[Omitted image "UIB-layouts-custom-four-standard.png"\] Alt text: Standard two row, two-column layout.
 
 5.  Click **Edit layout code**.
 
-    ![Edit layout code option.](../image/UIB-layouts-context-menu.png "Edit the layout code")
+    \[Omitted image "UIB-layouts-context-menu.png"\] Alt text: Edit layout code option.
 
 6.  Expand the code editor so that you can easily view the CSS code.
 
-    ![Arrow pointing to the expand the code editor button.](../image/UIB-layouts-expand-edit-layout.png "Expand the code editor")
+    \[Omitted image "UIB-layouts-expand-edit-layout.png"\] Alt text: Arrow pointing to the expand the code editor button.
 
 7.  Add another slot to the layout by copying the CSS code for an existing slot.
 
     Copying the CSS code is easier than typing it into the layout.
 
-    ![Arrow pointing to copying the CSS code for a slot.](../image/UIB-layouts-copy-css-block.png "Copy the CSS code for a slot")
+    \[Omitted image "UIB-layouts-copy-css-block.png"\] Alt text: Arrow pointing to copying the CSS code for a slot.
 
 8.  Paste the CSS code below the code that you copied and change the **slotName** and **grid-area** to a unique value.
 
-    ![Pasting the CSS code.](../image/UIB-layouts-paste-css-block.png "Paste the CSS code")
+    \[Omitted image "UIB-layouts-paste-css-block.png"\] Alt text: Pasting the CSS code.
 
 9.  Modify the layout rules to include the new column and template area, as follows:
 
@@ -158,29 +159,29 @@ In the following procedure, you learn how to use CSS Grid to modify your CSS to 
 
     2.  Add a second `cell1` after `cell1`, and then add `cell5` after `cell4`.
 
-    ![Modifying the layout rules.](../image/UIB-layouts-modifyCSS.png "Modify the layout rules")
+    \[Omitted image "UIB-layouts-modifyCSS.png"\] Alt text: Modifying the layout rules.
 
     You can set many different configurations. In this example, there are the two resulting grids from two different grid template areas. The **"grid-template-areas"** property being modified is setting the CSS property of the same name. For more information, see [MDN grid-templates-areas](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas).
 
-    ![Grid template areas.](../image/UIB-layouts-grid-template-areas.png "Grid template areas")
+    \[Omitted image "UIB-layouts-grid-template-areas.png"\] Alt text: Grid template areas.
 
 10. Collapse the expanded view, and then click **Apply**.
 
-    ![Applying a layout change.](../image/UIB-layouts-click-apply.png "Apply a layout change")
+    \[Omitted image "UIB-layouts-click-apply.png"\] Alt text: Applying a layout change.
 
 
 ### Result
 
 The new CSS Grid layout shows that the new slot was added to the original two-row, two-column layout.
 
-![New custom layout.](../image/UIB-layouts-custom-finalview.png "New custom layout")
+\[Omitted image "UIB-layouts-custom-finalview.png"\] Alt text: New custom layout.
 
 Click **Reset to original** to reset the layout changes back to the original at any time.
 
-![Arrow pointing to reset to original option.](../image/UIB-layouts-reset-to-original.png "Reset a layout")
+\[Omitted image "UIB-layouts-reset-to-original.png"\] Alt text: Arrow pointing to reset to original option.
 
 **Related topics**  
 
 
-[Create a Flexbox layout with the old layout system](flexbox-uib.md#)
+[Create a Flexbox layout with the old layout system]()
 

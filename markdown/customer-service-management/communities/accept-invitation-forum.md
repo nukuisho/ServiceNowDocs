@@ -2,6 +2,7 @@
 title: Accept an invitation to join a forum
 description: An invitation to join a forum is sent as an email message. The method that you use to accept an invitation depends on whether you are a registered community user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/accept-invitation-forum.html
 release: australia
 product: Communities
 classification: communities
@@ -27,7 +28,7 @@ Role required: none
     -   If you are a registered community user but have not accepted the community Terms &amp; Conditions, a message appears to accept the Terms &amp; Conditions. The forum opens after you accept the Term &amp; Conditions.
 2.  If the login page appears, take one of the following actions.
 
-<table id="choicetable_d4c_x3c_t1b"><tbody><tr><td id="d62012e78">
+<table id="choicetable_d4c_x3c_t1b"><tbody><tr><td id="d63357e78">
 
 **If you are a registered user and not logged in.**
 
@@ -35,7 +36,7 @@ Role required: none
 
 Enter your login credentials to access the forum.
 
-</td></tr><tr><td id="d62012e87">
+</td></tr><tr><td id="d63357e87">
 
 **If you are not a registered user.**
 
@@ -51,38 +52,38 @@ Enter your login credentials to access the forum.
 </table>    Forum membership is auto-approved and you are subscribed to the forum. **Status** changes to **Leave Forum**.
 
 
-**Parent Topic:**[Using communities](../concept/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 
 
-[Community homepage features for logged in users](../concept/c_communities-service-portal.md)
+[Community homepage features for logged in users]()
 
-[Navigating the activity feed](../concept/navigating-activity-feed.md)
+[Navigating the activity feed]()
 
-[Navigating the forum homepage](../concept/forum-homepage.md)
+[Navigating the forum homepage]()
 
-[Community homepage features for non-logged in users](../concept/community-homepage-non-logged.md)
+[Community homepage features for non-logged in users]()
 
-[Self-register to a community](register-community.md)
+[Self-register to a community]()
 
-[Search the community](search.md)
+[Search the community]()
 
-[Use a community profile](community-profile.md)
+[Use a community profile]()
 
-[Community subscriptions](../concept/c_communities-subscriptions.md)
+[Community subscriptions]()
 
-[Request membership to a forum](request-membership-forum.md)
+[Request membership to a forum]()
 
-[Post and respond to content in the community](post-respond-content.md)
+[Post and respond to content in the community]()
 
-[Report inappropriate community content](report-content.md)
+[Report inappropriate community content]()
 
-[Add featured content in a community](feature-community-content.md)
+[Add featured content in a community]()
 
-[Email a community user](private-message-community-user.md)
+[Email a community user]()
 
-[View a list of questions and create a case](case-mgmt-integration-view-list.md)
+[View a list of questions and create a case]()
 
-[Gamification](../concept/communities-gamification.md)
+[Gamification]()
 

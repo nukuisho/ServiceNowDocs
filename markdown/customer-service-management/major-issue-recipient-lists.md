@@ -2,11 +2,12 @@
 title: Recipients lists
 description: Use recipients lists that contain account or consumer information to create the child cases for a major case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/major-issue-recipient-lists.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Major issue management overview, Administer, Customer Service Management]
+breadcrumb: [Major issue management overview, Manage cases, Use, Customer Service Management]
 ---
 
 # Recipients lists
@@ -19,7 +20,7 @@ Managers can change the recipients list before child cases are created. After ch
 
 ## Creating recipients lists
 
-Recipients lists are created using the [Targeted Communications](c_TargetedCommunications.md) application. With this application, managers can select the type of list to create and the method used to create the list: by uploading files, selecting dynamic conditions, or using scripts.
+Recipients lists are created using the [Targeted Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_TargetedCommunications.md) application. With this application, managers can select the type of list to create and the method used to create the list: by uploading files, selecting dynamic conditions, or using scripts.
 
 The Targeted Communications application creates several types of recipients lists, including accounts, contacts, consumers, and internal users. The recipients list for a major case must be of type accounts or consumers. Recipients lists are limited to one specific type and can’t contain mixed types, for example accounts and consumers.
 
@@ -49,5 +50,5 @@ Refresh a recipients list by selecting **Refresh Recipient List** on the Recipie
 **Related topics**  
 
 
-[Create a recipients list](../task/t_TargetCommCreateRecipientList.md)
+[Create a recipients list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_TargetCommCreateRecipientList.md)
 

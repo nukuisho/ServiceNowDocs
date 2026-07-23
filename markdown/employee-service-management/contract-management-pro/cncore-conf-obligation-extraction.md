@@ -2,6 +2,7 @@
 title: Configuring contract obligation extraction
 description: Configure and map use cases for the contract obligation extraction skill in the Now Assist Admin console to automatically extract key contractual obligations from signed contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -16,25 +17,25 @@ breadcrumb: [Configure, Now Assist in CM Pro, Contract Management Pro, Legal and
 
 Configure and map use cases for the contract obligation extraction skill in the Now Assist Admin console to automatically extract key contractual obligations from signed contracts.
 
--   **[Create use cases for contract obligation extraction](cmpro-na-use-case-obext.md)**  
+-   **[Create use cases for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.md)**  
 Create obligation extraction use cases to specify the types of key contractual obligation that you want Now Assist to detect and extract from contract documents.
--   **[Map a use case for contract obligation extraction](cmpro-na-map-usecase-obext.md)**  
+-   **[Map a use case for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-map-usecase-obext.md)**  
 Map a use case to specific tables, and define conditions to apply the use case for obligation extraction.
 
-**Parent Topic:**[Configure Now Assist in Contract Management](confg-na-in-cmpro.md)
+**Parent Topic:**[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
 
-[Configure data permissions for Now Assist skills](cmpro-conf-roles-skills.md)
+[Configure data permissions for Now Assist skills]()
 
-[Select large language models for use cases in Now Assist in Contract Management](cmpro-na-manage-llm.md)
+[Select large language models for use cases in Now Assist in Contract Management]()
 
-[Configuring contract metadata extraction](cncore-conf-metadata-extraction.md)
+[Configuring contract metadata extraction]()
 
-[Configuring contract analysis](../concept/cmpro-conf-contract-analysis.md)
+[Configuring contract analysis]()
 
-[Configuring agentic workflows in Now Assist in Contract Management](../concept/cmpro-conf-agentic-workflow.md)
+[Configuring agentic workflows in Now Assist in Contract Management]()
 
-[Post-upgrade steps for Now Assist in Contract Management](cmpro-na-upgrade-steps.md)
+[Post-upgrade steps for Now Assist in Contract Management]()
 

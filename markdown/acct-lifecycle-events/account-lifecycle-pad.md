@@ -2,23 +2,26 @@
 title: Configure the onboarding playbook activities
 description: Use Playbooks in Workflow Studio to configure the account onboarding playbook activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-pad.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Account onboarding, Customer Success Management, Customer Success Management]
+breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
 ---
 
 # Configure the onboarding playbook activities
 
 Use Playbooks in Workflow Studio to configure the account onboarding playbook activities.
 
-In Playbooks, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process. A stage is made up of many sequenced activities that are grouped in a logical way. You can add or create your own activity definitions, or delete an activity that is not required. For more details, see [Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-process-automation-designer.md).
+In Playbooks, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process. A stage is made up of many sequenced activities that are grouped in a logical way. You can add or create your own activity definitions, or delete an activity that is not required. For more details, see [Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-process-automation-designer.md).
 
-![Process Automation Designer: Account lifecycle onboarding](../image/account-lifecycle-pad.png)
+\[Omitted image "account-lifecycle-pad.png"\] Alt text: Process Automation Designer: Account lifecycle onboarding
 
--   **[Configure onboarding tasks in playbook](../task/account-lifecycle-configure-simple.md)**  
-You can configure customer success onboarding tasks in a playbook using the Process Automation Designer.
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure.md)
 
-**Parent Topic:**[Account onboarding](account-lifecycle-configure.md)
+**Related topics**  
+
+
+[Onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-onboard-playbook.md)
 

@@ -2,9 +2,10 @@
 title: Execution Tracking - Begin \(CIs\) Flow Action
 description: The Execution Tracking - Begin \(CIs\) flow action starts the auditing process for a Security Operations Integration flow that operates on configuration items \(CIs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/execution-tracking-begins-cis-activity.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integrations - Get Network Statistics flow, Security Operations Integration- Get Network Statistics capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -111,8 +112,8 @@ The output variables contain data that can be used in subsequent activities.
 
 The flow process actions include:
 
--   [Get Supported Security Capabilities action](get-supported-security-capabilities-activity.md)
--   [Capability Execution Tracking- No Impls action](execution-tracking-noimpls-activity.md)
+-   [Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/get-supported-security-capabilities-activity.md)
+-   [Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/execution-tracking-noimpls-activity.md)
 
-**Parent Topic:**[Security Operations Integrations - Get Network Statistics flow](../task/secops-integration-get-network-stats-workflow.md)
+**Parent Topic:**[Security Operations Integrations - Get Network Statistics flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-get-network-stats-workflow.md)
 

@@ -16,11 +16,11 @@ The ServiceNow® Notify application adds support for SMS and voice channels on t
 
 Use the Notify granular admin role to configure Notify features.
 
-See [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md) for more information.
+See [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify-landing-page.md) for more information.
 
 ## New in the Australia release
 
--   **[Granular admin roles in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/r_NotifyRoles.md)**
+-   **[Granular admin roles in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_NotifyRoles.md)**
 
     Configure the Notify application features using the granular Notify admin role \(notify\_setup\_admin\).
 
@@ -29,5 +29,5 @@ See [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/austral
 
 Notify is a ServiceNow AI Platform feature that is active by default.
 
-**Parent Topic:**[ServiceNow AI Platform capabilities release notes](now-platform-capabilities-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-capabilities-rn-landing.md)
 

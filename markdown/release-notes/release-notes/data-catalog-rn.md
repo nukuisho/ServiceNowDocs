@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-04-16"
-reading_time_minutes: 3
+reading_time_minutes: 5
 ---
 
 # Data Catalog release notes
@@ -38,7 +38,7 @@ See [Explore Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
     Define and manage business terms and associate them with data assets to establish a shared vocabulary across teams. Link glossary terms to catalog assets so that business and technical users understand the meaning and context of data using consistent, organization-approved definitions.
 
--   **Metadata collectors**
+-   **[Metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)**
 
     Automatically collect and synchronize metadata from external data platforms using metadata collectors. Collectors support 14+ platforms including Snowflake, BigQuery, Databricks, dbt Cloud, Tableau, Power BI, and Fivetran. Schedule collection runs or trigger them on demand to keep catalog content current as source systems evolve.
 
@@ -47,9 +47,51 @@ See [Explore Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceN
     Organize and classify data assets using tags and domains to reflect your organization's structure and governance policies. Apply tags to individual assets or in bulk. Group assets into domains to control visibility and delegate stewardship to responsible teams.
 
 
+## New in the release
+
+-   ****
+
+    Automatically collect and synchronize metadata from Amazon S3 using metadata collectors.
+
+-   ****
+
+    Automatically collect and synchronize metadata from Teradata using metadata collectors.
+
+-   **Data quality for data assets**
+
+    Review data quality information for table and column assets directly in the Data Catalog. The Overview tab surfaces a quality summary — overall status, rule count, passed rules, and last evaluation time — and the new Quality tab lists each rule with its source, asset type, category, status, and last run time. External data quality tools submit rule results through the Data Quality API.
+
+-   **Classifier field for columns**
+
+    View column-level classification directly from a data asset's Columns tab. The new Classifier field shows the classification assigned to each column by the ServiceNow collector, or displays null if classification hasn't run on the table. Access to this feature depends on your entitlements.
+
+-   **Email notifications for owner and steward assignments for data assets**
+
+    When you add or remove an owner or steward on a data asset, the system sends an email notification to that user.
+
+-   **[Clone metadata collector connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)**
+
+    Clone an existing metadata collector connection to create data source connection faster. When you clone a connection, the system copies the connection type, collection settings, filters, and advanced parameters to a new connection record with an auto-generated name. Sensitive information is not carried over. Update credentials and any other environment-specific details before activating the new connection.
+
+-   **[Data quality for data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-data-asset-details.md)**
+
+    Review data quality information for table and column assets, including the overall data quality status, the total number of rules, the number of passed rules, and any quality badges awarded to the resource. View each rule with its source, asset type, asset name, category, status, and last run time, and filter or search to locate a specific rule. External data quality tools submit rule results through the Data Quality API.
+
+-   **[Azure Data Factory metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/azure-data-factory-metadata-collector.md)**
+
+    Automatically collect and synchronize metadata from Azure Data Factory using metadata collectors.
+
+
+## Changed in the release
+
+-   **[ServiceNow metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/servicenow-metadata-collector.md)**
+
+    Control how the collector harvests metadata. Enable an API size limit to cap the volume of data retrieved per request, exclude Glide artifacts from harvesting, and harvest Platform Analytics artifacts.
+
+
 ## Activation information
 
-Install Data Catalog by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Data Catalog by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -73,10 +115,10 @@ Install Data Catalog by requesting it from the ServiceNow Store. Visit the [Serv
 
     The ServiceNow® Data Products application enables teams to define, publish, and share governed data products. Published data products are discoverable in Data Catalog, where consumers can find, evaluate, and request access to organizational data.
 
--   **[Mid server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)**
+-   **[Mid server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md)**
 
     The ServiceNow® MID Server provides secure bidirectional communication between your ServiceNow instance and external platforms. Metadata collectors use the MID Server to reach data sources in on-premises or private cloud environments not directly accessible from your instance.
 
 
-**Parent Topic:**[App development and low-code release notes](build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
 

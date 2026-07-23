@@ -2,6 +2,7 @@
 title: Indicators of compromise
 description: Indicators of Compromise \(IoC\) are artifacts observed on a network or operating system that are likely to indicate an intrusion. Typical IoCs are virus signatures and IP addresses, MD5 hashes of malware files or URLs, or domain names. IoC applies for STIX 1.1 and 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/c\_IoCs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,67 +20,67 @@ After IoCs have been identified in a process of incident response and computer f
 
 IoC applies for STIX 1.1 and 2.x.
 
--   **[View an IoC](../task/t_AddIoCs.md)**  
+-   **[View an IoC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_AddIoCs.md)**  
 IoCs, sometimes referred to as indicators, are most typically retrieved from a threat data source as STIX data. If needed, you can also create IoCs.
--   **[Add a related observable to an IoC](../task/t_AddObservToIoC.md)**  
+-   **[Add a related observable to an IoC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_AddObservToIoC.md)**  
 In addition to importing observables as STIX data, you can add related observables to an IoC manually.
--   **[Add a related attack mode/method to an IoC](../task/t_AddRelatedAttackModeToIoc.md)**  
+-   **[Add a related attack mode/method to an IoC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_AddRelatedAttackModeToIoc.md)**  
 In addition to importing related attack modes/methods as STIX data, you can add related attack modes/methods to an IoC manually.
--   **[Identify associated indicator types](../task/t_IdentifyAssociatedIndicatorTypes.md)**  
+-   **[Identify associated indicator types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_IdentifyAssociatedIndicatorTypes.md)**  
 If an IoC has no associated indicator types defined, it tracks all types of observables. However, if you associate one or more types of indicators to an IoC, it limits the types of observables that can be associated with the IoC.
--   **[Identify indicator sources](../task/t_IdentifyIndicatorSources.md)**  
+-   **[Identify indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_IdentifyIndicatorSources.md)**  
 Indicator sources are normally tracked automatically as part of the threat import process, but more sources can be manually added.
--   **[Add associated tasks to an IoC](../task/t_AddAssociatedTasksToIoC.md)**  
+-   **[Add associated tasks to an IoC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/t_AddAssociatedTasksToIoC.md)**  
 In addition to importing associated tasks \(such as changes and incidents\) as STIX data, you can add them to an IoC manually.
 
-**Parent Topic:**[IoC Repository](ioc-repository.md)
+**Parent Topic:**[IoC Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ioc-repository.md)
 
 **Related topics**  
 
 
-[Attack modes and methods](c_AttackModeMethod.md)
+[Attack modes and methods]()
 
-[Observables](c_Observables.md)
+[Observables]()
 
-[Attack patterns](attack-patterns.md)
+[Attack patterns]()
 
-[Campaigns](threat-intelligence-campaigns.md)
+[Campaigns]()
 
-[Course of actions](threat-intelligence-course-actions.md)
+[Course of actions]()
 
-[Identities](threat-intelligence-identities.md)
+[Identities]()
 
-[Infrastructure](threat-intelligence-infrastructure.md)
+[Infrastructure]()
 
-[Intrusion set](threat-intelligence-intrusion-sets.md)
+[Intrusion set]()
 
-[Locations](threat-intelligence-locations.md)
+[Locations]()
 
-[Malware](threat-intelligence-malware.md)
+[Malware]()
 
-[Malware analysis](threat-intelligence-malware-analysis.md)
+[Malware analysis]()
 
-[Observed data](threat-intelligence-observed-data.md)
+[Observed data]()
 
-[Threat actors](threat-actors.md)
+[Threat actors]()
 
-[Threat groupings](threat-groupings.md)
+[Threat groupings]()
 
-[Marking definitions](marking-definitions.md)
+[Marking definitions]()
 
-[Threat notes](threat-intelligence-threat-notes.md)
+[Threat notes]()
 
-[Threat opinions](threat-opinions.md)
+[Threat opinions]()
 
-[Threat reports](threat-reports.md)
+[Threat reports]()
 
-[Sightings](indicator-sightings.md)
+[Sightings]()
 
-[Tools](tools.md)
+[Tools]()
 
-[Vulnerabilities](vulnerabilities.md)
+[Vulnerabilities]()
 
-[Relationships](stix-relationships.md)
+[Relationships]()
 
-[STIX Visualizer](stix-visualizer.md)
+[STIX Visualizer]()
 

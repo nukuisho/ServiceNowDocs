@@ -1,21 +1,22 @@
 ---
-title: View the results letter for a grant program proposal
+title: View the results letter of a grant program proposal
 description: As an applicant in the Grants Management Portal, you can view the results letter \(and the merit review summary, where applicable\) of your submitted grants applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-view-results-letter.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Grants Management Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# View the results letter for a grant program proposal
+# View the results letter of a grant program proposal
 
 As an applicant in the Grants Management Portal, you can view the results letter \(and the merit review summary, where applicable\) of your submitted grants applications.
 
 ## Before you begin
 
-Role required: admin
+Role required: business contact
 
 ## Procedure
 
@@ -27,7 +28,7 @@ Role required: admin
 
 4.  Select the PDF file to view the results letter, and the merit review summary, where applicable.
 
-    ![Grants Management Portal Results tab as viewed by the applicant.](../image/psds_gmp_portal_results.png)
+    \[Omitted image "psds\_gmp\_portal\_results.png"\] Alt text: Grants Management Portal Results tab as viewed by the applicant.
 
     Here, you have the option to either decline or acknowledge the award by the date provided.
 

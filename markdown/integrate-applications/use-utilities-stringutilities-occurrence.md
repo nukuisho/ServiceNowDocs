@@ -2,11 +2,12 @@
 title: Use the Occurrence component
 description: Count how many times a character or word appears in a text body by using the Occurrence component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-utilities-stringutilities-occurrence.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [String utilities, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [String utilities, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the Occurrence component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the Occurrence component. For more information about these properties, see [Properties of the String Utilities components](../reference/util-stringutil-prop.md).
+You can configure the properties for the Occurrence component. For more information about these properties, see [Properties of the String Utilities components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-stringutil-prop.md).
 
 ## Procedure
 
@@ -27,7 +28,7 @@ You can configure the properties for the Occurrence component. For more informat
 
 2.  Drag the Occurrence component to the Design surface.
 
-3.  To configure the text fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the text fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the Occurrence component to the corresponding ports of the other components as described in the following table.
 
@@ -43,5 +44,5 @@ You can configure the properties for the Occurrence component. For more informat
 5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[String utilities](../concept/string-utilities.md)
+**Parent Topic:**[String utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/string-utilities.md)
 

@@ -2,6 +2,7 @@
 title: Exploring OT Manager Foundation
 description: The Operational Technology \(OT\) Manager Foundation plugin uses generative AI to help streamline processes in the Industrial Workspace related to your OT device data. You can search for OT devices with the OT Configuration Management Database \(CMDB\) search feature and use an agentic workflow to automate the OT device import process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/exploring-now-assist-for-otm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,5 +23,5 @@ With generative AI skills and agentic workflows, you can use the following featu
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-**Parent Topic:**[Operational Technology \(OT\) Manager Foundation](now-assist-for-otm-landing.md)
+**Parent Topic:**[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-landing.md)
 

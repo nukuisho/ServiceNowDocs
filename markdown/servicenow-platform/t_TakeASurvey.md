@@ -2,6 +2,7 @@
 title: Take a survey
 description: Take an assigned survey that appears in your assessment and survey queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_TakeASurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Each assessment or survey appears as a clickable card in the queue, which can be
 
 2.  Click the survey card to open the questionnaire.
 
-    If there is more than one survey category, click the collapse icon \(![Collapse icon](../../assessments/images/CollapseIcon.png)\) or expand icon \(![Expand icon](../../assessments/images/ExpandIcon.png)\) to hide or show the questions in the category.
+    If there is more than one survey category, click the collapse icon \(\[Omitted image "CollapseIcon.png"\] Alt text: Collapse icon\) or expand icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand icon\) to hide or show the questions in the category.
 
 3.  Answer each question to the best of your ability.
 
@@ -39,7 +40,7 @@ Each assessment or survey appears as a clickable card in the queue, which can be
 
 4.  Complete one of the following steps.
 
-<table id="choicetable_qrt_jms_nt"><tbody><tr><td id="d108137e127">
+<table id="choicetable_qrt_jms_nt"><tbody><tr><td id="d113882e127">
 
 **Save your responses without submitting them**
 
@@ -47,7 +48,7 @@ Each assessment or survey appears as a clickable card in the queue, which can be
 
 Click **Save**. You can close the questionnaire and access it later from your queue.**Note:** The system doesn't save the survey when there are invalid responses, such as a letter in a date field. You must enter valid responses or remove invalid responses before you can save the survey.
 
-</td></tr><tr><td id="d108137e142">
+</td></tr><tr><td id="d113882e142">
 
 **Submit the survey after answering all questions**
 
@@ -57,5 +58,5 @@ Click **Submit**. You can't return to the questionnaire after submitting. **Note
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Survey questionnaires](../concept/c_SurveyQuestionnairesForUsers.md)
+**Parent Topic:**[Survey questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestionnairesForUsers.md)
 

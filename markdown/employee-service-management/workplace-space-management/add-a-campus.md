@@ -2,12 +2,13 @@
 title: Add a campus
 description: A Workplace Service Delivery campus contains buildings, floors, areas, or spaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/add-a-campus.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -48,7 +49,7 @@ Name
 
 </td><td>
 
-Name of the campus. Ensure that you enter a unique name. **Note:** Do not use duplicate names because it may affect the reservation process. If you change the name of campus after updating it, a message is displayed to show that the **Name** will be overwritten in the next synchronization process. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](../../wsd-indoor-mapping/task/synchronize-ind-mapping-wsd.md).
+Name of the campus. Ensure that you enter a unique name. **Note:** Do not use duplicate names because it may affect the reservation process. If you change the name of campus after updating it, a message is displayed to show that the **Name** will be overwritten in the next synchronization process. For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ Region
 
 </td><td>
 
-Region where the campus is situated. Click![search icon](../../workplace-case-mgmt/image/search-icon.png) to search for a region.
+Region where the campus is situated. Click\[Omitted image "search-icon.png"\] Alt text: search icon to search for a region.
 
 </td></tr><tr><td>
 
@@ -72,7 +73,7 @@ Site
 
 </td><td>
 
-Campus site name. Click the search icon \(![search icon](../../workplace-case-mgmt/image/search-icon.png)\) to search for a site.
+Campus site name. Click the search icon \(\[Omitted image "search-icon.png"\] Alt text: search icon\) to search for a site.
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ Managed by group
 
 Group assigned to manage the campus.**Note:** If a Workplace Service Delivery campus is synchronized with Indoor Mapping campus and if new Indoor mapping objects are added, workplace user groups are notified to synchronize the latest changes in Indoor Mapping with Workplace Service Delivery.
 
-For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](../../wsd-indoor-mapping/task/synchronize-ind-mapping-wsd.md).
+For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 </td></tr><tr><td>
 
@@ -171,9 +172,9 @@ Search and select the Indoor Mapping campus that you want to integrate with Work
 
 6.  Click **Synchronize** to synchronize floors, areas, and spaces in a campus.
 
-    **Note:** **Time zone** of Workplace Service Delivery campus location is required to synchronize. Workplace reservation is created in a location timezone. For more information, see Indoor Mapping place types with Workplace Service Delivery space types, see [Synchronize Indoor Mapping with Workplace Service Delivery](../../wsd-indoor-mapping/task/synchronize-ind-mapping-wsd.md).
+    **Note:** **Time zone** of Workplace Service Delivery campus location is required to synchronize. Workplace reservation is created in a location timezone. For more information, see Indoor Mapping place types with Workplace Service Delivery space types, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
-7.  To add an Indoor map campus, select the Additional Actions icon \(![Additional Actions to switch to the Workplace view.](../images/additionalactions-icon.png)\) to select **View** &gt; **Workplace Indoor Mapping Campus**.
+7.  To add an Indoor map campus, select the Additional Actions icon \(\[Omitted image "additionalactions-icon.png"\] Alt text: Additional Actions to switch to the Workplace view.\) to select **View** &gt; **Workplace Indoor Mapping Campus**.
 
     1.  In the **Indoor map Campus** field, search for a campus and add it.
 
@@ -182,38 +183,40 @@ Search and select the Indoor Mapping campus that you want to integrate with Work
 9.  Building, floors, areas, and spaces available in a campus are listed.
 
 
-**Parent Topic:**[Managing workplace locations](../concept/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 
 
-[Add a building using Workplace Space Management](add-new-building-1.md)
+[Add a building using Workplace Space Management]()
 
-[Add a floor using Workplace Space Management](add-a-floor-1.md)
+[Add a floor using Workplace Space Management]()
 
-[Add an area using Workplace Space Management](add-an-area.md)
+[Add an area using Workplace Space Management]()
 
-[Add a room using Workplace Space Management](add-a-room.md)
+[Add a room using Workplace Space Management]()
 
-[Add a space using Workplace Space Management](add-a-space.md)
+[Add a space using Workplace Space Management]()
 
-[Allocate a cost center, department, or workplace entity](add-cost-center-department-floor.md)
+[Allocate a cost center, department, or workplace entity]()
 
-[Configure a workspace or desk as flexible or permanent](assign-a-flex-perm-space.md)
+[Configure a workspace or desk as flexible or permanent]()
 
-[Update the measurement details of a workplace location](update-measurement-details-of-workplace-location.md)
+[Update the measurement details of a workplace location]()
 
-[Change the status of a workplace location](change-active-status-of-workplace-location.md)
+[Change the status of a workplace location]()
 
-[Configure a BOMA type](configure-a-boma-type.md)
+[Configure a BOMA type]()
 
-[Map a space type with BOMA type](map-a-space-type-with-boma-type.md)
+[Map a space type with BOMA type]()
 
-[Create a Space Recommender rule](create-a-space-recommender-rule.md)
+[Create a Space Recommender rule]()
 
-[Raise a space assistance request](raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Create a view-by configuration](create-view-by-config.md)
+[Create a view-by configuration]()
 
-[Reviewing allocation changes](../concept/reviewing-allocation-changes.md)
+[Create a KPI Configuration]()
+
+[Reviewing allocation changes]()
 

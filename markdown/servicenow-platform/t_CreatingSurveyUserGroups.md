@@ -2,6 +2,7 @@
 title: Create a survey user group
 description: Survey user groups are groups that have the Type field set to survey and display only the information most relevant to surveys. You can assign survey groups or any user group to surveys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreatingSurveyUserGroups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,18 +45,18 @@ By default, the Survey Creators user group is available. When you add a user to 
     3.  Click **Save**.
 
 
-**Parent Topic:**[Survey users and groups](../concept/c_SurveyUsersAndGroups.md)
+**Parent Topic:**[Survey users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyUsersAndGroups.md)
 
 **Related topics**  
 
 
-[Select recipients for a survey in the Survey Designer](t_SelRecipsForASurveyInDesigner.md)
+[Select recipients for a survey in the Survey Designer]()
 
-[Designate a survey user](t_SurveyDefinitionForm.md)
+[Designate a survey user]()
 
-[Designate or remove multiple survey users at one time](t_SurveyCategoryForm.md)
+[Designate or remove multiple survey users at one time]()
 
-[Allow recipients to retake a survey](t_AllowRecipientsToRetakeASurvey.md)
+[Allow recipients to retake a survey]()
 
 [Create a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateAGroup.md)
 

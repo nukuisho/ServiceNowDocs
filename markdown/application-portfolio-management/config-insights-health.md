@@ -1,7 +1,8 @@
 ---
-title: Create and apply a new configuration for the Health or Insights section
+title: Configure the Health or Insights section
 description: Create configurations for the Health or Insights section and apply them as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/config-insights-health.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create and apply a new configuration for the Health or Insights section
+# Configure the Health or Insights section
 
 Create configurations for the Health or Insights section and apply them as needed.
 
@@ -228,5 +229,5 @@ Option to provide access to the selected users and user groups. Add users or gro
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Enterprise Architecture Workspace](../concept/eaw-concept/configure-eaw.md)
+**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-eaw.md)
 

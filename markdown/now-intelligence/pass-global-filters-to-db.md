@@ -2,6 +2,7 @@
 title: Pass global filters to the dashboard page template
 description: Global filters are sent to the dashboard to serve as filters for the visualizations within the dashboard. These filters are merged with existing filters in the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/pass-global-filters-to-db.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -60,20 +61,20 @@ Role required: admin
     ```
 
 
-**Parent Topic:**[Creating Platform Analytics pages in your own workspace](../../performance-analytics/concept/adding-analytics-center-to-ws.md)
+**Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/adding-analytics-center-to-ws.md)
 
 **Related topics**  
 
 
-[Create a Platform Analytics workspace from App Engine Studio](../../performance-analytics/concept/create-analytics-ws-aes.md)
+[Create a Platform Analytics workspace from App Engine Studio]()
 
-[Add Platform Analytics pages to a configurable workspace](../../performance-analytics/task/add-analytics-center-to-experience.md#)
+[Add Platform Analytics pages to a configurable workspace]()
 
-[Add a dashboard to a Dashboards page](../../performance-analytics/task/add-dashboard-to-workspace.md)
+[Add a dashboard to a Dashboards page]()
 
-[Configure custom redirection from a dashboard component](../../performance-analytics/task/config-custom-redirection-from-db.md)
+[Configure custom redirection from a dashboard component]()
 
-[Dashboard URL parameter delegation](../../../build/component-uib-setup/concept/dashboard-url-parameter-delegation.md#)
+[Dashboard URL parameter delegation]()
 
-[Configure dashboard data broker](../../../build/component-uib-setup/task/configure-dashboard-data-broker.md)
+[Configure dashboard data broker]()
 

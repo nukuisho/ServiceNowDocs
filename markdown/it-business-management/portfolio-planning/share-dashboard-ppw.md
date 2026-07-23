@@ -2,6 +2,7 @@
 title: Share a dashboard
 description: Share a dashboard with stakeholders, planning managers, portfolio managers, or product managers to provide visibility into work progress and foster collaboration. You can grant either view-only rights or both view and edit rights to a shared dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/share-dashboard-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -33,7 +34,7 @@ Users or groups you want to share the dashboard with must have the appropriate r
 
     The selected dashboard appears.
 
-3.  From the dashboard header, select the More actions icon \(![More actions icon in the portfolio plan header.](../../alignment-planner-workspace/images/more-actions.png)\) and then select **Share**.
+3.  From the dashboard header, select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon in the portfolio plan header.\) and then select **Share**.
 
 4.  On the Share Dashboard window, fill the details.
 
@@ -53,7 +54,7 @@ Users or groups you want to share the dashboard with must have the appropriate r
 
     4.  Select **Confirm**.
 
-    ![share dashboard in portfolio planning.](../../spw-dashboards/Images/share-dashboard-spw.gif)
+    \[Omitted image "share-dashboard-spw.gif"\] Alt text: share dashboard in portfolio planning.
 
 
 ## Result
@@ -64,16 +65,16 @@ The roles, groups, and users you have shared the dashboard with appears again wh
 
 You can change the rights of whom you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can share list for each user, group, or role.
 
-**Parent Topic:**[Using dashboards in Portfolio Planning](../concept/using-dashboards-in-ppw.md)
+**Parent Topic:**[Using dashboards in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/using-dashboards-in-ppw.md)
 
 **Related topics**  
 
 
-[View a dashboard in Portfolio Planning Workspace](view-dashboard-ppw.md)
+[View a dashboard in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/view-dashboard-ppw.md)
 
-[Create a dashboard](create-dashboard-ppw.md)
+[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-dashboard-ppw.md)
 
-[Duplicate a dashboard](copy-dashboard-ppw.md)
+[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/copy-dashboard-ppw.md)
 
-[Add a Platform Analytics dashboard](add-platform-dashboard-to-ppw.md)
+[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-platform-dashboard-to-ppw.md)
 

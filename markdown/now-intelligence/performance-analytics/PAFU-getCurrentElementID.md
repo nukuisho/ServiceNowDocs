@@ -2,6 +2,7 @@
 title: getCurrentElementID\(\)
 description: Returns the level 1 breakdown element identifier \(sys\_id\) from the indicator of the current formula. The sys\_id is returned dynamically, as the selection in the Analytics Hub changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/PAFU-getCurrentElementID.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -49,30 +50,30 @@ if(pa.getCurrentBreakdownID() == 'baec0752bf130100b96dac808c0739ed' && pa.getCur
 res;
 ```
 
-**Parent Topic:**[PAFormulaUtils API](../concept/PAFormulaUtils.md)
+**Parent Topic:**[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
 
 **Related topics**  
 
 
-[getChange\(String indicator, Object fromDate, Object toDate\)](PAFU-getChange_S_O_O.md)
+[getChange\(String indicator, Object fromDate, Object toDate\)]()
 
-[getChangePercentage\(String indicator, Object fromDate, Object toDate\)](PAFU-getChangePercentage_S_O_O.md)
+[getChangePercentage\(String indicator, Object fromDate, Object toDate\)]()
 
-[getCurrentAggregateID\(\)](PAFU-getCurrentAggregateID.md)
+[getCurrentAggregateID\(\)]()
 
-[getCurrentBreakdownID\(\)](PAFU-getCurrentBreakdownID.md)
+[getCurrentBreakdownID\(\)]()
 
-[getCurrentBreakdownLevel2ID\(\)](PAFU-getCurrentBreakdownLevel2ID.md)
+[getCurrentBreakdownLevel2ID\(\)]()
 
-[getCurrentElementLevel2ID\(\)](PAFU-getCurrentElementLevel2ID.md)
+[getCurrentElementLevel2ID\(\)]()
 
-[getGap\(String indicator, Object onDate\)](PAFU-getGap_S_O.md)
+[getGap\(String indicator, Object onDate\)]()
 
-[getGlobalTarget\(String indicator, Object onDate\)](PAFU-getGlobalTarget_S_O.md)
+[getGlobalTarget\(String indicator, Object onDate\)]()
 
-[getPersonalTarget\(String indicator, Object onDate\)](PAFU-getPersonalTarget_S_O.md)
+[getPersonalTarget\(String indicator, Object onDate\)]()
 
-[getScore\(String indicator, Object onDate\)](PAFU-getScore_S_O.md)
+[getScore\(String indicator, Object onDate\)]()
 
-[PAFormulaUtils API](../concept/PAFormulaUtils.md)
+[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
 

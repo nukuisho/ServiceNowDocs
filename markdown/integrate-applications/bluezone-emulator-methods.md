@@ -2,11 +2,12 @@
 title: Rocket BlueZone emulator methods
 description: Use the Rocket BlueZone emulator methods to perform various automation tasks on the Rocket BlueZone emulator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/bluezone-emulator-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Terminal connector methods, Terminal \(Mainframe\) connector, Connectors, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Terminal connector methods, Terminal \(Mainframe\) connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Rocket BlueZone emulator methods
@@ -21,9 +22,9 @@ Use screen-level methods to perform the automation tasks on the emulator screen.
 
 Returns the text that a field contains after it identifies the field by the row and column number that you specify. The row and column that you specify are the starting point of the field. The method identifies the whole field and then returns the text in the field. In the following example, `H` is the first letter and the starting point in the field and `Host OS :` is the complete text in the field.
 
-![Screen that shows the first letter in the field and the complete text in the field.](../image/terminal-connector-getfieldtext.png)
+\[Omitted image "terminal-connector-getfieldtext.png"\] Alt text: Screen that shows the first letter in the field and the complete text in the field.
 
-![The GetFieldText method with its parameters.](../image/terminal-conn-getfieldtext.png)
+\[Omitted image "terminal-conn-getfieldtext.png"\] Alt text: The GetFieldText method with its parameters.
 
 |Parameter|Description|Data port entry type|Data type|Default value|Mandatory|Notes|
 |---------|-----------|--------------------|---------|-------------|---------|-----|
@@ -35,9 +36,9 @@ Returns the text that a field contains after it identifies the field by the row 
 
 Returns the text in all the fields of a rectangular area that you define on the screen. You define an area by providing the starting and ending rows and column numbers. The method locates and identifies the first and the last fields and returns all the text in all the fields within that area. The following example shows the area that you defined.
 
-![Area that you defined to show the first cell of the first field and the last cell of the last field.](../image/gettextfromrectmethod.png)
+\[Omitted image "gettextfromrectmethod.png"\] Alt text: Area that you defined to show the first cell of the first field and the last cell of the last field.
 
-![GetTextFromRect method image.](../image/terminal-conn-gettextfromrect.png)
+\[Omitted image "terminal-conn-gettextfromrect.png"\] Alt text: GetTextFromRect method image.
 
 |Parameter|Description|Data port entry type|Data type|Default value|Mandatory|Notes|
 |---------|-----------|--------------------|---------|-------------|---------|-----|
@@ -51,7 +52,7 @@ Returns the text in all the fields of a rectangular area that you define on the 
 
 Verifies whether the emulator screen exists based on the screen match rule and can accept inputs from the user. After verification, the method returns the appropriate Boolean value.
 
-![IsCreated method.](../image/terminal-conn-iscreated.png)
+\[Omitted image "terminal-conn-iscreated.png"\] Alt text: IsCreated method.
 
 <table id="table_scg_qsc_51c"><thead><tr><th>
 
@@ -144,7 +145,7 @@ Returns the numbers of the row and column that holds the first character of the 
 
 **Note:** If you provide the text that spans multiple fields, the Row and Col ports return 0 because the method supports the text only from a single field.
 
-![SearchText method.](../image/terminal-conn-search-text.png)
+\[Omitted image "terminal-conn-search-text.png"\] Alt text: SearchText method.
 
 |Parameter|Description|Data port entry type|Data type|Default value|Mandatory|Notes|
 |---------|-----------|--------------------|---------|-------------|---------|-----|
@@ -156,7 +157,7 @@ Returns the numbers of the row and column that holds the first character of the 
 
 Simulates the keystrokes that you enter from the keyboard at the mouse device position on the emulator screen. For example, you can simulate the **&lt;enter&gt;** keystroke on the screen.
 
-![SendKeys method.](../image/terminal-conn-sendkeys.png)
+\[Omitted image "terminal-conn-sendkeys.png"\] Alt text: SendKeys method.
 
 <table id="table_qwx_cdc_w1c"><thead><tr><th>
 
@@ -219,7 +220,7 @@ Yes
 
 Simulates the keystrokes that is a secured string at the mouse device position on the emulator screen.
 
-![SendKeysSecure method.](../image/terminal-conn-sendkeyssecure.png)
+\[Omitted image "terminal-conn-sendkeyssecure.png"\] Alt text: SendKeysSecure method.
 
 <table id="table_ews_ps4_w1c"><thead><tr><th>
 
@@ -282,7 +283,7 @@ Yes
 
 Attempts to set the mouse device at the row and column number that you specify.
 
-![SetCursorPosition method.](../image/setcursorposition-method.png)
+\[Omitted image "setcursorposition-method.png"\] Alt text: SetCursorPosition method.
 
 |Parameter|Description|Data port entry type|Data type|Default value|Mandatory|Notes|
 |---------|-----------|--------------------|---------|-------------|---------|-----|
@@ -293,7 +294,7 @@ Attempts to set the mouse device at the row and column number that you specify.
 
 Waits for the duration that you specify while the connector uses the screen match rule to find whether the screen exists.
 
-![WaitForCreate method.](../image/waitforcreate-method.png)
+\[Omitted image "waitforcreate-method.png"\] Alt text: WaitForCreate method.
 
 <table id="table_trs_cwc_51c"><thead><tr><th>
 
@@ -414,9 +415,9 @@ Element-level methods perform automation tasks on the emulator screen elements t
 
 ## GetAsTable
 
-Returns the text that you captured as a data table object. Use this method when you capture the data from a screen as a table. However, you can also use the method for the data that you capture as a field. To learn how to capture the data as a table, see [Configure the IBM Personal Communications emulator](../task/pcomm-emulator.md).
+Returns the text that you captured as a data table object. Use this method when you capture the data from a screen as a table. However, you can also use the method for the data that you capture as a field. To learn how to capture the data as a table, see [Configure the IBM Personal Communications emulator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/pcomm-emulator.md).
 
-![GetAsTable method.](../image/GetAsTable-element-method.png)
+\[Omitted image "GetAsTable-element-method.png"\] Alt text: GetAsTable method.
 
 |Parameter|Description|Data port entry type|Data type|Default value|Mandatory|Notes|
 |---------|-----------|--------------------|---------|-------------|---------|-----|
@@ -426,7 +427,7 @@ Returns the text that you captured as a data table object. Use this method when 
 
 Returns the text in the field that you captured from the emulator screen. If you use this method for a table that you captured, it returns the text in the first field of the rectangle.
 
-![GetText method.](../image/gettext-element-method.png)
+\[Omitted image "gettext-element-method.png"\] Alt text: GetText method.
 
 |Parameter|Description|Data port entry type|Data type|Default value|Mandatory?|Notes|
 |---------|-----------|--------------------|---------|-------------|----------|-----|
@@ -436,7 +437,7 @@ Returns the text in the field that you captured from the emulator screen. If you
 
 Matches the rules and verifies whether the captured element exists.
 
-![IsCreated method.](../image/iscreated-element-method.png)
+\[Omitted image "iscreated-element-method.png"\] Alt text: IsCreated method.
 
 |Parameter|Description|Data port entry type|Data type|Default value|Mandatory|Notes|
 |---------|-----------|--------------------|---------|-------------|---------|-----|
@@ -446,7 +447,7 @@ Matches the rules and verifies whether the captured element exists.
 
 Attempts to set the text to the field.
 
-![SetText method.](../image/settext-element-method.png)
+\[Omitted image "settext-element-method.png"\] Alt text: SetText method.
 
 |Parameter|Description|Data port entry type|Data type|Default value|Mandatory|Notes|
 |---------|-----------|--------------------|---------|-------------|---------|-----|
@@ -456,12 +457,12 @@ Attempts to set the text to the field.
 
 Waits for the duration that you specify while the connector uses the match rule to find whether the element exists.
 
-![WaitForCreate method.](../image/waitforcreate-element-method.png)
+\[Omitted image "waitforcreate-element-method.png"\] Alt text: WaitForCreate method.
 
 |Parameter|Description|Data port entry type|Data type|Default value|Mandatory|Notes|
 |---------|-----------|--------------------|---------|-------------|---------|-----|
 |timeoutinSeconds|Option to provide the number of seconds for which the method waits while the connector uses the match rule to find whether the element exists.|Data In|Integer|30|Yes| |
 |Return|Returns the Boolean value depending on whether the element was found.|Data Out|Boolean|NA|NA| |
 
-**Parent Topic:**[Terminal connector methods](connectors-terminal-methods.md)
+**Parent Topic:**[Terminal connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-terminal-methods.md)
 

@@ -2,13 +2,14 @@
 title: Start a metadata extraction for a contract from Source-to-Pay Workspace
 description: Extract metadata from a signed contract attached in a contract repository record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/extract-metadata-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist Contract Management, Source-to-Pay Operations integration Contract Management, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Using Now Assist for Contract Management, Source-to-Pay Operations and Contract Management Pro integration, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Start a metadata extraction for a contract from Source-to-Pay Workspace
@@ -26,7 +27,7 @@ By default, the following use cases are available for Sourcing and Procurement O
 -   CM Pro - Contract Analysis
 -   CM Pro - Contract Metadata Extraction
 
-For more information, see [Contract metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md).
+For more information, see [Contract metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-metadata-extract-land.md).
 
 ## Procedure
 
@@ -45,16 +46,16 @@ For more information, see [Contract metadata extraction using Now Assist in Cont
 
 ## What to do next
 
-Review the metadata extracted from a contract and add it to the contract repository. For more information, see [Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-review-metatdata.md).
+Review the metadata extracted from a contract and add it to the contract repository. For more information, see [Work with extracted metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-review-metatdata.md).
 
-The Extraction results tab in the contract repository record displays the processed metadata and their statuses, indicating whether the metadata have been successfully added to the mapped fields in the contract repository. For more information, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md).
+The Extraction results tab in the contract repository record displays the processed metadata and their statuses, indicating whether the metadata have been successfully added to the mapped fields in the contract repository. For more information, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-metadata-ext-results.md).
 
-**Parent Topic:**[Using Now Assist for Contract Management in Sourcing and Procurement Operations](../concept/use-now-assist-cmpro-spo.md)
+**Parent Topic:**[Using Now Assist for Contract Management in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-now-assist-cmpro-spo.md)
 
 **Related topics**  
 
 
-[Enable Now Assist in Contract Management](activate-na-cmpro-spo.md)
+[Enable Now Assist in Contract Management]()
 
-[Analyze a contract document from Source-to-Pay Workspace](analyze-contract-spo.md)
+[Analyze a contract document from Source-to-Pay Workspace]()
 

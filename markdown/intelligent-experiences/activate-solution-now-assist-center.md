@@ -2,6 +2,7 @@
 title: Activate an actionable use case in Now Assist Center
 description: Activate a Now Assist solution from an actionable use case card on the Now Assist Center home page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/activate-solution-now-assist-center.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,9 +17,9 @@ Activate a Now Assist solution from an actionable use case card on the Now Assis
 
 ## Before you begin
 
-Now Assist panel must be enabled to activate the use cases. Actionable use cases work with the Now Assist panel to guide you through the setup in a chat conversation. For more information, see [Enable the Now Assist panel](now-assist-center-enable-now-assist-panel.md).
+Now Assist panel must be enabled to activate the use cases. Actionable use cases work with the Now Assist panel to guide you through the setup in a chat conversation. For more information, see [Enable the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
 
-Required plugins must be installed. For more information, see [Install and configure essential Now Assist plugins using Now Assist Center](install-configure-essential-now-assist-plugins.md).
+Required plugins must be installed. For more information, see [Install and configure essential Now Assist plugins using Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-configure-essential-now-assist-plugins.md).
 
 **Note:** If a card displays a Model provider not approved warning, the model provider for that skill has not been approved in AI Control Tower. Resolve this issue before attempting setup for the use case.
 
@@ -38,7 +39,7 @@ The actionable use cases section on the home page displays solution cards tailor
 
     Each card shows the use case name and a brief description of the AI solution.
 
-    ![Actionable use cases in Now Assist Center.](../image/now-assist-center-home-adoption-tasks.png "Actionable use cases")
+    \[Omitted image "now-assist-center-home-adoption-tasks-2.png"\] Alt text: Actionable use cases in Now Assist Center.
 
 3.  Select **Activate** on the card to begin.
 
@@ -63,12 +64,12 @@ After it is activated, the card disappears and the new solution appears under th
 
 ## What to do next
 
-To monitor the performance of the activated solution, review the Recently activated AI section on the home page. For more information, see [Monitor your recently activated Now Assist solution in Now Assist Center](monitor-now-assist-performance-now-assist-center.md).
+To monitor the performance of the activated solution, review the Recently activated AI section on the home page. For more information, see [Monitor your recently activated Now Assist solution in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/monitor-now-assist-performance-now-assist-center.md).
 
-**Parent Topic:**[Activating actionable use cases from Now Assist Center](../concept/now-assist-center-actionable-use-cases.md)
+**Parent Topic:**[Activating actionable use cases from Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-actionable-use-cases.md)
 
 **Related topics**  
 
 
-[Install and configure essential Now Assist plugins using Now Assist Center](install-configure-essential-now-assist-plugins.md)
+[Install and configure essential Now Assist plugins using Now Assist Center]()
 

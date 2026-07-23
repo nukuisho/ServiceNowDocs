@@ -2,6 +2,7 @@
 title: Associate AI systems with demands
 description: Add and manage AI system associations directly from the AI Associations tab in Demand Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/associate-ai-systems-with-demands.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -17,7 +18,7 @@ Add and manage AI system associations directly from the **AI Associations** tab 
 
 ## Before you begin
 
--   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.md).
+-   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activation-and-installation-of-ai-control-tower.md).
 -   The investment type of the demand is set to artificial intelligence.
 -   Role required: it\_demand\_user, it\_demand\_manager
 
@@ -33,7 +34,7 @@ You can select the impacted AI systems for the demand. If the required AI system
 
     -   Navigate to **All** &gt; **Demand** &gt; **Demands** &gt; **Create New**.
     -   Navigate to **All** &gt; **Demand** &gt; **Demands** &gt; **All** and select a demand.
-2.  Navigate to the **AI Associations** section of the demand form and fill in the fields.![AI Associations tab in a demand form.](../image/ai-associations-classic-dmn.png)
+2.  Navigate to the **AI Associations** section of the demand form and fill in the fields.\[Omitted image "ai-associations-classic-dmn.png"\] Alt text: AI Associations tab in a demand form.
 
     |Field|Description|
     |-----|-----------|
@@ -46,35 +47,35 @@ You can select the impacted AI systems for the demand. If the required AI system
 
     **Note:** This related link is available for users with the sn\_ai\_steward role.
 
-    For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-ai-system-assets.md).
+    For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
 
 
-**Parent Topic:**[Use Demand Management](../reference/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 
 
-[Assess demands](../concept/c_AssessingDemands.md)
+[Assess demands]()
 
-[Create a demand](t_CreatingDemands.md)
+[Create a demand]()
 
-[View demands](t_ViewDemands.md)
+[View demands]()
 
-[Add details to demands](../concept/c_EnhancingDemands.md)
+[Add details to demands]()
 
-[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](../concept/ridac-entries-for-demand.md)
+[RIDACs records for a demand]()
 
-[Reset a demand to Draft state](reset-demand-to-draft-state.md)
+[Reset a demand to Draft state]()
 
-[Delete demands](t_DeletingDemands.md)
+[Delete demands]()
 
-[Move and resize a demand](t_MoveAndResizeADemand.md)
+[Move and resize a demand]()
 
-[Train the similarity solution for Demand Management to find similar demands](train-similarity-solution-dm.md)
+[Train the similarity solution for Demand Management to find similar demands]()
 
-[PPM PIWB template - Find similar demands](../../itbm-PI-workbench/task/ppm-piwb-demand.md)
+[PPM PIWB template - Find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](identify-similar-demands.md)
+[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
 
-[Summarize demands with demand summarization skill](demand-summary-demand-classic.md)
+[Summarize demands with demand summarization skill]()
 

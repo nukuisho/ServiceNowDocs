@@ -2,11 +2,12 @@
 title: Assign or unassign impacted assets
 description: Create a impacted asset list and assign or unassign it to a phases or sub-phases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco\_assign\_unassign\_impacted\_assets.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Adding a sub-phase, Recall a campaign phase, Related lists for my campaigns, Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Adding a sub-phase, Recall a campaign phase, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Assign or unassign impacted assets
@@ -76,6 +77,4 @@ Install base item.
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
-
-**Parent Topic:**[Adding a sub-phase](mco_recall_campaign_phases.md)
 

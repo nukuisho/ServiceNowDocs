@@ -2,11 +2,12 @@
 title: Create a product adoption roadmap
 description: Create a product adoption roadmap that guides customers through optimal product adoption to achieve maximum business value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-par-roadmap.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Product adoption, Customer success, Use, Customer Success Management]
 ---
 
 # Create a product adoption roadmap
@@ -40,8 +41,8 @@ Use this task to create a visual roadmap that helps you communicate product adop
 6.  Specify how the roadmap is to be created:
 
     -   **From scratch**: Manually configure all roadmap settings and add products or capabilities.
-    -   **Template**: Use a pre-configured template that includes lanes, items, and phase field settings. Select a template from the **Template** drop down list and select **Finish**. The roadmap is created based on the pre-configured values defined in the template. See [Create a product adoption roadmap template](account-lifecycle-create-par-roadmap-temp.md) for details.
-    -   **Now Assist**: Generate a roadmap using Now Assist. See [Generate a product adoption roadmap using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-par-roadmap.md) for details.
+    -   **Template**: Use a pre-configured template that includes lanes, items, and phase field settings. Select a template from the **Template** drop down list and select **Finish**. The roadmap is created based on the pre-configured values defined in the template. See [Define a product adoption roadmap template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap-temp.md) for details.
+    -   **Now Assist**: Generate a roadmap using Now Assist. See [Generate a product adoption roadmap using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-generate-par-roadmap.md) for details.
 
         **Note:** The Now Assist option is displayed only if:
 
@@ -64,12 +65,12 @@ Use this task to create a visual roadmap that helps you communicate product adop
     -   Duplicate: Select **Duplicate map** to make a copy of the roadmap.
     -   Retire: Select **Retire** to archive the roadmap.
 
-**Parent Topic:**[Customer success](../concept/account-lifecycle-config-cust-success.md)
+**Parent Topic:**[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)
 
 **Related topics**  
 
 
-[View a product adoption roadmap](../concept/account-lifecycle-view-par-roadmap.md)
+[View a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-view-par-roadmap.md)
 
-[Product adoption roadmap](../concept/account-lifecycle-par-roadmap.md)
+[Product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-par-roadmap.md)
 

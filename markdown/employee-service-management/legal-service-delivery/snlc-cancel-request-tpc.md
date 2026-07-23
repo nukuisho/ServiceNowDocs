@@ -2,6 +2,7 @@
 title: Cancel a legal request
 description: Cancel a legal contract request if it is no longer necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-cancel-request-tpc.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -40,24 +41,26 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user, sn\_lg\_
 -   The Contract status changes to Contract cancelled.
 -   The document signature sent to signatories is canceled to block further signing. The signatories get an email notification that the legal request has been canceled.
 
-**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](../concept/snlc-use-sn-legal-cont-landing.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
 
 
-[Non-disclosure agreement requests](../concept/snlc-request-nda-1.md)
+[Non-disclosure agreement requests]()
 
-[Third-party contract review requests](../concept/snlc-request-third-party-contract-1.md)
+[Third-party contract review requests]()
 
-[Contract amendments](../concept/snlc-amend-req-landing.md)
+[Contract amendments]()
 
-[Linking parent-child contracts](../concept/snlc-linking-parent-child.md)
+[Linking parent-child contracts]()
 
-[Internal review overview](snlc-expert-review.md)
+[Internal review overview]()
 
-[View and download a signed contract document](snlc-preview-contract.md)
+[Signature workflow for a request]()
 
-[View contract requests](snlc-view-contract-requests.md)
+[View and download a signed contract document]()
 
-[Manage Contract Management Pro for Legal Service Delivery](../concept/snlc-manage-sn-legal-contracts.md)
+[View contract requests]()
+
+[Manage Contract Management Pro for Legal Service Delivery]()
 

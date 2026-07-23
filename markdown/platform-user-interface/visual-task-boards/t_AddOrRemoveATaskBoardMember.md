@@ -2,6 +2,7 @@
 title: Add or remove a Visual Task Board member
 description: You can add and remove task board members using the members tab of the activity stream. You can also promote assignees to board members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_AddOrRemoveATaskBoardMember.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -29,11 +30,11 @@ Only members of a task board can access the board. Any board member can add or r
 
 2.  Click the members tab.
 
-    ![Members tab](../image/MembersTab.png)
+    \[Omitted image "MembersTab.png"\] Alt text: Members tab
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_e3x_3n5_1r"><tbody><tr><td id="d95925e94">
+<table id="choicetable_e3x_3n5_1r"><tbody><tr><td id="d96530e94">
 
 **Add a member**
 
@@ -43,17 +44,17 @@ Only members of a task board can access the board. Any board member can add or r
 2.  Enter a user's name or select a user from the drop-down menu.
 
 
-</td></tr><tr><td id="d95925e118">
+</td></tr><tr><td id="d96530e118">
 
 **Remove a member**
 
 </td><td>
 
 1.  In the **Members** section, point to a user.
-2.  Click the remove icon \(![Remove user icon](../image/RemoveUserIcon.png)\).
+2.  Click the remove icon \(\[Omitted image "RemoveUserIcon.png"\] Alt text: Remove user icon\).
 
 
-</td></tr><tr><td id="d95925e145">
+</td></tr><tr><td id="d96530e145">
 
 **Promote an assignee to a member**
 
@@ -63,7 +64,7 @@ Only members of a task board can access the board. Any board member can add or r
 2.  Click the upward arrow icon.
 
 
-</td></tr><tr><td id="d95925e166">
+</td></tr><tr><td id="d96530e166">
 
 **Promote all assignees to members**
 
@@ -73,18 +74,18 @@ In the **Assignees** section, click **Promote All**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Creating Visual Task Boards](../concept/c_VisualTaskBoardUse.md)
+**Parent Topic:**[Creating Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardUse.md)
 
 **Related topics**  
 
 
-[Freeform Visual Task Boards](../concept/c_FreeformBoardTasks.md)
+[Freeform Visual Task Boards]()
 
-[Data driven Visual Task Boards](../concept/data-driven-tasks.md)
+[Data driven Visual Task Boards]()
 
-[Add a task to a flexible or guided Visual Task Board](t_AddATaskToAFlexibleOrGuidedBoard.md)
+[Add a task to a flexible or guided Visual Task Board]()
 
-[Add or modify Visual Task Board lanes](t_AddOrModifyALane.md)
+[Add or modify Visual Task Board lanes]()
 
-[Delete a Visual Task Board](t_DeleteATaskBoard.md)
+[Delete a Visual Task Board]()
 

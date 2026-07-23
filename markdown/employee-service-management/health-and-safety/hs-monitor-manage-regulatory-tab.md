@@ -2,6 +2,7 @@
 title: Monitor and manage the Regulatory list for a chemical substance
 description: Use the Regulatory tab on a chemical substance record to quickly assess regulatory conformance status, review regulations, and track upcoming and overdue regulatory obligations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-monitor-manage-regulatory-tab.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -25,13 +26,13 @@ The **Regulatory** tab provides a visual summary of a chemical substance’s reg
 
 The regulatory tab shows the conformance status through the regulatory list timeline, compliance, incoming, and overdue cards, and the regulations by regulatory list section.
 
-![regulatory tab in chemical substance record](../image/hs-regulatory-tab-chem-substance.png "Regulatory tab overview")
+\[Omitted image "hs-regulatory-tab-chem-substance.png"\] Alt text: regulatory tab in chemical substance record
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select **Environmental Management** \(![environmental management](../../hs-environmental-management/image/icon-hs-envt-mgmt.png)\) icon.
+2.  Select **Environmental Management** \(\[Omitted image "icon-hs-envt-mgmt.png"\] Alt text: environmental management\) icon.
 
 3.  In the **Chemical substance** list, select **All** and then open a record.
 
@@ -41,7 +42,7 @@ The regulatory tab shows the conformance status through the regulatory list time
 
 5.  To retrieve the latest regulatory data from the 3E server, select **Sync Regulatory list**.
 
-    For more information, see [Sync regulatory list regulations for a chemical substance](hs-sync-regulatory-list-chemical-substance.md).
+    For more information, see [Sync regulatory list regulations for a chemical substance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-sync-regulatory-list-chemical-substance.md).
 
 6.  Review the regulatory status and metrics using the following cards:
 
@@ -49,21 +50,62 @@ The regulatory tab shows the conformance status through the regulatory list time
     |-----|-----------|
     |Regulatory list timeline|Timeline that displays regulations organized by in-force date, spanning past and future dates. Regulation clusters appear as numbered icons on the timeline.|
     |Compliance|Chart showing the distribution of regulations by compliance status. The number inside the chart shows the total regulation count. Select a segment to drill down to a filtered list of regulations by that status.|
-    |Incoming|Count of regulations with an upcoming enforce date that have not yet been reviewed.|
-    |Overdue|Count of regulations whose enforce date has passed and that have not been marked as compliant.|
+    |Incoming|Count of regulations with an upcoming in-force date that have not yet been reviewed.|
+    |Overdue|Count of regulations whose in-force date has passed and that have not been marked as compliant.|
     |Regulations by Regulatory List|Regulations grouped by regulatory list.|
 
 7.  Use the filter and sort controls to refine the regulations displayed.
 
-    |Controls|Description|
-    |--------|-----------|
-    |Condition filter|One or more conditions to filter the regulations list. It displays the number of active conditions.|
-    |Sort by|Regulations list is sorted by the selected field.|
-    |Regulatory list|Regulations are grouped or filtered by regulatory list name.|
-    |New|Manually add a regulation record.|
-    |Refresh|Regulations list is re-queried to display the latest data.|
+<table id="table_j4s_kfx_bjc"><thead><tr><th>
 
-8.  Select a regulatory list group to expand it and view the individual regulation records it contains.
+Controls
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Condition filter
+
+</td><td>
+
+One or more conditions to filter the regulations list. It displays the number of active conditions.You can apply a predefined filter based on 3E regulatory topics for example, chemical control, hazard classification, inventories, and toxicology to display only regulations associated with that specific regulatory domain.
+
+</td></tr><tr><td>
+
+Sort by
+
+</td><td>
+
+Regulations list is sorted by the selected field.
+
+</td></tr><tr><td>
+
+Regulatory list
+
+</td><td>
+
+Regulations are grouped or filtered by regulatory list name.
+
+</td></tr><tr><td>
+
+New
+
+</td><td>
+
+Manually add a regulation record.
+
+</td></tr><tr><td>
+
+Refresh
+
+</td><td>
+
+Regulations list is re-queried to display the latest data.
+
+</td></tr></tbody>
+</table>8.  Select a regulatory list group to expand it and view the individual regulation records it contains.
 
     The expanded view displays columns like regulatory list, topic, numeric value, phrase text, text value, date value, UOM \(Unit of measurement\), parameter, sub-parameter, scope, country, and region.
 
@@ -76,5 +118,5 @@ The regulatory tab shows the conformance status through the regulatory list time
     When the regulatory list is retrieved from 3E, the **Compliance** field is set to **Non-compliant** by default.
 
 
-**Parent Topic:**[Chemical management](../../hs-environmental-management/concept/hs-using-chemical-management.md)
+**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-using-chemical-management.md)
 

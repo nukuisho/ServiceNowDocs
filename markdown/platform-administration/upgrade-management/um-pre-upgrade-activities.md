@@ -2,6 +2,7 @@
 title: Implement pre-upgrade activities on a non-prod instance
 description: Complete the pre-upgrade tasks for a successful upgrade experience on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-pre-upgrade-activities.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -39,16 +40,16 @@ Role required: admin
 
     -   No clone has been scheduled for this instance
 
-        ![](../image/um-clone-not-scheduled.png)
+        \[Omitted image "um-clone-not-scheduled.png"\] Alt text:
 
     -   Scheduled
     -   Running
 
-        ![](../image/um-clone-running.png)
+        \[Omitted image "um-clone-running.png"\] Alt text:
 
     -   Complete
 
-        ![](../image/um-clone-completed.png)
+        \[Omitted image "um-clone-completed.png"\] Alt text:
 
     **Note:** If the cloning process is in progress, the **Skip** and **Mark as complete** options are disabled.
 
@@ -88,11 +89,11 @@ Role required: admin
 
             You will see the following modal when you select Select upgrade plan. You can then select either one upgrade plan or multiple plans to be merged and applied to the current upgrade.
 
-            ![](../image/um-upgrade-plans-merge.jpeg)
+            \[Omitted image "um-upgrade-plans-merge.jpeg"\] Alt text:
 
             **Note:** The **Apply** option is visible only when you select one upgrade plan to be applied to the current upgrade.
 
-            ![](../image/um-upgrade-plans-apply.jpeg)
+            \[Omitted image "um-upgrade-plans-apply.jpeg"\] Alt text:
 
             **Note:** The **Merge and apply** option is visible only if you have selected multiple upgrade plans. The upgrade plan name changes as per the selection of upgrade plans.
 
@@ -105,7 +106,7 @@ Role required: admin
 
             If you select the **Create a plan** option again after creating a plan, you will see the following message.
 
-            ![](../image/um-override-upgrade-plan.png)
+            \[Omitted image "um-override-upgrade-plan.png"\] Alt text:
 
             **Note:** Only the most recent upgrade plan without any upgrade plan items is retained. For example, if the most recent upgrade plan is created without upgrade plan items, it automatically overrides any earlier upgrade plan that also doesn't have upgrade plan items. There can be more than one upgrade plan with upgrade plan items.
 
@@ -146,7 +147,7 @@ Role required: admin
     -   Upgrade test suites: The auto-generated regression tests in the Generate tests section are added here automatically when they are generated. You can also add more tests by selecting it from the Available test suites table section.
     -   Available test suites: Review the list of available test suites. You can also select the tests you want to add to the Upgrade test suites section. Only the selected tests are executed automatically after the upgrade.
 
-        ![Screenshot showing the available test suites](../image/um-available-test-suites.png)
+        \[Omitted image "um-available-test-suites.png"\] Alt text: Screenshot showing the available test suites
 
         **Note:** The available test suites are already successfully passed test suites.
 
@@ -180,13 +181,13 @@ Role required: admin
 
         Select **Dependent apps and plugins** to see the calculated list of all dependent applications and plugins for the Now Assist Suite applications list.
 
-        ![](../image/uc-dependent-apps.png)
+        \[Omitted image "uc-dependent-apps.png"\] Alt text:
 
         For example, if you have 5 applications in the selected version of Now Assist Suite, the Now assist suite dependencies modal lists only the dependencies of these 5 applications.
 
     -   Upgrade store applications
 
-        ![Screenshot showing upgrade store apps](../image/um-upgrade-store-apps.png)
+        \[Omitted image "um-upgrade-store-apps.png"\] Alt text: Screenshot showing upgrade store apps
 
         -   Application: Name of the application
         -   Current version: Current version of the application on the instance
@@ -219,14 +220,14 @@ Role required: admin
     -   Upgrade preview: You can view the current version and the previewing version of the upgrade in this section. You can also see if there is any upgrade been scheduled.
     -   Skipped record summary: You can view the following information.
 
-        ![Screenshot showing the skipped record summary](../image/um-skipped-record-summary.png)
+        \[Omitted image "um-skipped-record-summary.png"\] Alt text: Screenshot showing the skipped record summary
 
         -   Total records changed: Gives the total number of records that have changed since last upgrade. Select the Review changes link to see the list of records that have changed.
         -   Total skipped records: Shows the numbers of skipped records that have been resolved, total skipped records that need to be reviewed and the number of skipped records that have already been reviewed.
         -   Skipped records without tests: States the total number of skipped records that have tests. The Test linked link in the Skipped records section points to the list of tests of the skipped records that have associated tests.
     -   Predicted skipped records: Shows the total number of predicted skipped records
 
-        ![Screenshot showing the predicted skipped records list](../image/um-predicted-skipped-test-link.png)
+        \[Omitted image "um-predicted-skipped-test-link.png"\] Alt text: Screenshot showing the predicted skipped records list
 
         -   Name: Name of the skipped record
         -   Product: Name of the record that the skipped record belongs to
@@ -245,7 +246,7 @@ Role required: admin
 
         The skipped records matching the set conditions in the skipped record rules editor, perform the previously selected actions. Select **View latest upgrade history** to determine the actions and conditions to be set depending on the previous upgrades.
 
-        ![Screenshot showing the skipped record rules editor](../image/um-record-rule-editor.png)
+        \[Omitted image "um-record-rule-editor.png"\] Alt text: Screenshot showing the skipped record rules editor
 
         The skipped record rules shows the list of skipped record rules on the instance.
 
@@ -263,12 +264,12 @@ Role required: admin
     -   Ensure to review and update the list of skipped records after the upgrade.
     -   Once done with the reviewing of the skipped records, complete the next activities required in the pre-upgrade process.
 
-**Parent Topic:**[Access guided upgrade on a non-production instance](um-guided-tour-implement.md)
+**Parent Topic:**[Access guided upgrade on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement.md)
 
 **Related topics**  
 
 
-[Implement instance upgrade activities on a sub-prod instance](um-implement-instance-upgrade.md)
+[Implement instance upgrade activities on a sub-prod instance]()
 
-[Implement post-upgrade activities on a non-prod instance](um-post-upgrade-activities.md)
+[Implement post-upgrade activities on a non-prod instance]()
 

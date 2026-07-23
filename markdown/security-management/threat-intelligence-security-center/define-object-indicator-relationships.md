@@ -2,13 +2,14 @@
 title: Define object-indicator relationships
 description: Define relationships between the indicator object and other SDOs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/define-object-indicator-relationships.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Define object-indicator relationships
@@ -31,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d377654e102">
+<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d384444e98">
 
 Field
 
-</th><th align="left" id="d377654e105">
+</th><th align="left" id="d384444e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d377654e111">
+</th></tr></thead><tbody><tr><td id="d384444e107">
 
 **Indicator**
 
@@ -47,7 +48,7 @@ Description
 
 Select and define the indicator.
 
-</td></tr><tr><td id="d377654e120">
+</td></tr><tr><td id="d384444e116">
 
 **Object**
 
@@ -55,7 +56,7 @@ Select and define the indicator.
 
 Select and define the object.
 
-</td></tr><tr><td id="d377654e129">
+</td></tr><tr><td id="d384444e125">
 
 **Relationship Type**
 
@@ -67,7 +68,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d377654e148">
+</td></tr><tr><td id="d384444e144">
 
 **Start Time**
 
@@ -75,7 +76,7 @@ A description that provides more details and context about the relationship type
 
 Specifies the time when the relationship is created.
 
-</td></tr><tr><td id="d377654e158">
+</td></tr><tr><td id="d384444e154">
 
 **Stop Time**
 
@@ -83,7 +84,7 @@ Specifies the time when the relationship is created.
 
 Specifies the time when the relationship is stopped or removed.
 
-</td></tr><tr><td id="d377654e167">
+</td></tr><tr><td id="d384444e163">
 
 **Description**
 
@@ -95,5 +96,5 @@ A brief description about the object relationships.
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships Objects](../concept/relationship-objects.md)
+**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/relationship-objects.md)
 

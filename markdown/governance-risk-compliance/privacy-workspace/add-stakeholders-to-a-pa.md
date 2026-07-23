@@ -1,19 +1,20 @@
 ---
-title: Add key stakeholders and send privacy assessments
-description: Add key stakeholders to a processing activity to identify the key members who are responsible for processing the personal data within the processing activity. You can then send the respective privacy assessments to the stakeholders based on their responsibilities. For example, an entity owner is a key stakeholder for a processing activity.
+title: Add key stakeholders to a processing activity
+description: Add key stakeholders to a processing activity. Based on their role, users are assigned default processing activity privileges that control whether they can edit a processing activity, view it, or respond to its privacy assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Add key stakeholders and send privacy assessments
+# Add key stakeholders to a processing activity
 
-Add key stakeholders to a processing activity to identify the key members who are responsible for processing the personal data within the processing activity. You can then send the respective privacy assessments to the stakeholders based on their responsibilities. For example, an entity owner is a key stakeholder for a processing activity.
+Add key stakeholders to a processing activity. Based on their role, users are assigned default processing activity privileges that control whether they can edit a processing activity, view it, or respond to its privacy assessments.
 
 ## Before you begin
 
@@ -21,69 +22,59 @@ Role required: sn\_privacy.analyst
 
 ## About this task
 
-A processing activity can have multiple key stakeholders. While you can add or delete as many key stakeholders as you want, by default, the entity owner is one of the key stakeholders. All the stakeholders can respond to privacy assessments and some stakeholders can also edit the processing activity based on their privileges. Only users with the sn\_privacy.assessment\_responder and sn\_privacy.business\_user can be added as stakeholders. You can add key stakeholders only when the processing activity is either in the **Discover** or **Review** states.
+A processing activity can have multiple key stakeholders. By default, the entity owner is one of the key stakeholders.
+
+You can add key stakeholders only when the processing activity is either in the **Discover** or **Review** states.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace** &gt; **Processing activities** &gt; **All processing activities**.
+1.  Navigate to **Workspaces** &gt; **Privacy Workspace**.
 
-2.  Open the processing activity to which you want to add key stakeholders.
+2.  Select the List icon \[Omitted image "ListsIcon.jpg"\] Alt text:.
 
-3.  Click the Key stakeholders related list.
+3.  In the **Lists** tab, select **Processing activities** &gt; **All processing activities**
 
-4.  Click **Add**.
+4.  Open the processing activity to which you want to add key stakeholders.
 
-    1.  Select the stakeholders to add.
+5.  In the Key stakeholders related list, select **Add**.
 
-    2.  Click **Add**.
+    1.  Select the users to add.
 
-        The key stakeholders are added.
+    2.  Select **Add**.
 
-5.  To modify the privileges and responsibilities of a stakeholder, select the name of the stakeholder.
+    **Note:** If a user's role changes, a privacy analyst must manually update the user's processing activity privilege.
 
-6.  In the **Responsibility** field, provide the responsibilities of the stakeholder.
+6.  Modify the processing activity privilege of a key stakeholder.
 
-7.  In the **Processing activity privileges** field, select one of the following options.
+    If a user's role changes, a privacy analyst must manually update the user's processing activity privilege.
 
-<table id="choicetable_qyt_gy1_2sb"><thead><tr><th align="left" id="d95868e150">
+    1.  From the Key stakeholders related list of the processing activity, open the stakeholder record you want to modify.
 
-Option
+    2.  In the **Responsibility** field, enter the responsibilities for the stakeholder.
 
-</th><th align="left" id="d95868e153">
+    3.  In the **Processing activity privileges** field, set the stakeholder processing activity privilege.
 
-Result
+        The available options are:
 
-</th></tr></thead><tbody><tr><td id="d95868e159">
+        -   Respond to privacy assessments - Default privilege for stakeholders with the sn\_privacy.assessment\_responder or sn\_privacy.business\_user role.
+        -   Edit processing activity and respond to privacy assessments - Stakeholders must have the sn\_privacy-business\_role to be assigned this privilege by a privacy analyst or manager.
+        -   No privilege to respond to assessments - Default privilege for stakeholders with no privacy roles.
+        **Note:**
 
-**Respond to privacy assessments**
+        If you select an option that requires a role the stakeholder doesn't have, the application displays a validation message. Contact your system administrator to grant the necessary role, and then set the privilege again.
 
-</td><td>
-
-To enable the stakeholder only to respond to the privacy assessment.**Note:** When you choose this option, the role of the stakeholder changes to sn\_privacy.assessment\_responder
-
-</td></tr><tr><td id="d95868e171">
-
-**Edit processing activity and respond to privacy assessments**
-
-</td><td>
-
-To enable the stakeholder to edit and then respond to the privacy assessment.**Note:** When you choose this option, the role of the stakeholder changes to sn\_privacy.business\_user
-
-</td></tr></tbody>
-</table>8.  Click **Save**.
-
-9.  Return to the processing activity using the breadcrumb navigation.
-
-10. To send the privacy assessments to a stakeholder, click **Send privacy assessment**
-
-    1.  From the **Classification** field, select the type of assessment.
-
-    2.  From the **Assessment template** field, select the template you want to use.
-
-    3.  From the **User** field, select the user you want to send the assessment to.
-
-    4.  Click **Send**.
+    4.  Select **Save**.
 
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+## Result
+
+Selected stakeholders receive an email notification confirming they have been added as key stakeholders.
+
+## What to do next
+
+After the key stakeholders are defined, assign the processing activity to stakeholders with edit access. They can then review and update the related lists. See [Enable key stakeholders to update processing activities directly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md).
+
+Send privacy assessments to the stakeholders with the sn\_privacy.assessment\_responder or sn\_privacy.business\_user role who were added. See [Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md).
+
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

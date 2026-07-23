@@ -1,7 +1,8 @@
 ---
-title: Create new business capability form
+title: Create business capability form
 description: Business Capability is a common table used within the Enterprise Architecture application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-cap-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new business capability form
+# Create business capability form
 
 Business Capability is a common table used within the Enterprise Architecture application.
 
-## Create new business capability form fields
+## Create business capability form fields
 
 <table id="table_cpz_5cm_2yb"><thead><tr><th>
 
@@ -101,13 +102,13 @@ Description
 
 </td><td>
 
-A short description of the business capability.You can also elaborate or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](../../../now-assist-ea/task/elaborate-or-shorten-content-form-fields.md).
+A short description of the business capability.You can also elaborate or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add or edit a business capability from the Portfolio page](../../task/eaw-task/eaw-add-capability.md)
+[Add or edit a business capability from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-capability.md)
 

@@ -2,6 +2,7 @@
 title: Create contract-level KPIs from KPI management
 description: You can add contract-level KPIs for a supplier from the KPI management tab of the supplier page. Contract-level KPIs are defined under their respective supplier-level KPIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/add-contract-level-kpis.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -48,5 +49,12 @@ You can add contract-level KPIs only if you have installed the Sourcing and Purc
     -   All contract-level KPIs are defined under their respective supplier-level KPIs. If a supplier-level KPI doesn’t exist for a newly created contract-level KPI, a corresponding parent supplier-level KPI is also created.
     -   Aggregated values from contract-level KPIs must fall in the threshold ranges of their respective supplier-level KPIs. Therefore, supplier-level KPI thresholds must be defined for all possible aggregated values of contract-level KPIs, otherwise the KPI data won’t be generated.
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
+
+**Related topics**  
+
+
+[Create supplier-level KPIs from KPI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contract-level-kpis.md)
+
+[Create KPIs without using KPI template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpis.md)
 

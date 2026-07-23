@@ -2,6 +2,7 @@
 title: Sentiment analysis for surveys
 description: You can use sentiment analysis to determine whether user responses for a survey are considered positive, negative, or neutral.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sentiment-analysis.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -97,47 +98,47 @@ This formula ensures:
 
 Since the three confidence scores always sum to 1, this formula generates a consistent value in the range of -1 to 1, representing the full mix of sentiment information from the Azure API.
 
--   **[Configure a sentiment connector](../task/configure-sentiment-connector.md)**  
+-   **[Configure a sentiment connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-sentiment-connector.md)**  
 Specify the service URL and other configuration information for third party APIs that are used for sentiment analysis.
--   **[Sentiment analysis property](../reference/sentiment-analysis-properties.md)**  
+-   **[Sentiment analysis property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sentiment-analysis-properties.md)**  
 You can use the sentiment analysis property to customize the **Sentiment Analysis** module.
--   **[Sentiment analysis results](../reference/sentiment-analysis-results.md)**  
+-   **[Sentiment analysis results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sentiment-analysis-results.md)**  
 The sentiment analysis results view contains a bar chart that displays the percentage of positive, negative, and neutral results, along with the instance count for each category.
 
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](../task/view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](../task/t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Survey users and groups](c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Copy a survey](../task/copy-survey.md)
+[Copy a survey]()
 
-[Publish a survey](../task/t_PublishASurvey.md)
+[Publish a survey]()
 
-[Customize the appearance of a survey](../task/t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Survey definitions](c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Create a survey designer template question](../task/t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Surveys in Service Portal and the Now Mobile app](c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](c_MigrateSurveys.md)
+[Legacy survey migration]()
 

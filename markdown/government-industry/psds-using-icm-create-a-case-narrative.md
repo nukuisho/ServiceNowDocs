@@ -2,11 +2,12 @@
 title: Create an investigative case narrative in Investigative Case Management
 description: Add supporting details to the case narrative to organize ongoing updates and investigative context. Information from a police report, witness complaint, or lead may go in the case narrative in order to organize pertinent information into one place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-icm-create-a-case-narrative.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Create an investigative case narrative in Investigative Case Management
@@ -29,9 +30,9 @@ Role required: icm.investigator
 
 4.  In the Case Narrative field, enter the narrative details.
 
-    You can refine the text entered in this field using the Now Assist for PSDS Case Narrative refinement skill. For more information on this skill and how to use it, see [Refine an investigative case narrative using the Now Assist for PSDS Investigative case narrative refinement skill](psds-using-na-refine-icm-case-narrative.md).
+    You can refine the text entered in this field using the Now Assist for PSDS Case Narrative refinement skill. For more information on this skill and how to use it, see [Refine an investigative case narrative using the Now Assist for PSDS Investigative case narrative refinement skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-na-refine-icm-case-narrative.md).
 
-    ![case narrative refinement skill view](../image/psds-narrative-skill-activated.png)
+    \[Omitted image "psds-narrative-skill-activated.png"\] Alt text: case narrative refinement skill view
 
 5.  Select **Save**.
 
@@ -47,17 +48,17 @@ Add an entity to the case. For information on how to do this, see the following:
 **Related topics**  
 
 
-[Add an associated person to an Investigative case](../concept/psds-using-icm-add-entities.md#)
+[Add an associated person to an Investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-add-entities.md)
 
-[Add a location to an investigative case](../concept/psds-using-icm-add-entities.md#)
+[Add a location to an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-add-entities.md)
 
-[Add a related property to an investigative case](../concept/psds-using-icm-add-entities.md#)
+[Add a related property to an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-add-entities.md)
 
-[Add an associated event to an investigative case](../concept/psds-using-icm-add-entities.md#)
+[Add an associated event to an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-add-entities.md)
 
-[Add an associated vehicle to an investigative case](../concept/psds-using-icm-add-entities.md#)
+[Add an associated vehicle to an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-add-entities.md)
 
-[Add an associated organization to an investigative case](../concept/psds-using-icm-add-entities.md#)
+[Add an associated organization to an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-add-entities.md)
 
-[Add an associated firearm to an investigative case](../concept/psds-using-icm-add-entities.md#)
+[Add an associated firearm to an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-add-entities.md)
 

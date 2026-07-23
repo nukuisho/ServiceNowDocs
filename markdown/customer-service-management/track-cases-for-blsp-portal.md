@@ -2,6 +2,7 @@
 title: Track cases on the Business Location Service Portal
 description: Track cases on behalf of a business location against sold products deployed at a business location, or against installed base items deployed at a business location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-cases-for-blsp-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Create cases, Using the Business Location Service Portal, Customer 
 
 Track cases on behalf of a business location against sold products deployed at a business location, or against installed base items deployed at a business location.
 
-![Filter options for My Lists widget on the Business Location Service Portal.](../image/my-lists-widget.png "My Lists widget on the Business Location Service Portal")
+\[Omitted image "my-lists-widget.png"\] Alt text: Filter options for My Lists widget on the Business Location Service Portal.
 
 Depending on the roles assigned to the logged-in user, the widget displays the following filters.
 
@@ -31,5 +32,5 @@ Depending on the roles assigned to the logged-in user, the widget displays the f
 **Related topics**  
 
 
-[Using the Business Location Service Portal](using-blsp-portal.md)
+[Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-blsp-portal.md)
 

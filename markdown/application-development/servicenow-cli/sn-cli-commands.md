@@ -2,6 +2,7 @@
 title: ServiceNow CLI available commands
 description: Commands and command arguments available to the base system ServiceNow CLI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/sn-cli-commands.html
 release: australia
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -21,7 +22,7 @@ Use command arguments to set options for any CLI commands.
 
 -   **--help**
 
-    Provides help information for the specified command, which includes the description, supported arguments, and examples. For more information, see [Get help with ServiceNow CLI](../task/get-help.md).
+    Provides help information for the specified command, which includes the description, supported arguments, and examples. For more information, see [Get help with ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/get-help.md).
 
     ```
     $ snc --help
@@ -29,7 +30,7 @@ Use command arguments to set options for any CLI commands.
 
 -   **--debug**
 
-    provides debug logging output when executing a command. For more information, see [Get help with ServiceNow CLI](../task/get-help.md).
+    provides debug logging output when executing a command. For more information, see [Get help with ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/get-help.md).
 
     ```
     $ snc record delete --table incident --sysid 552c48888c033300964f4932b03eb092 --debug
@@ -37,7 +38,7 @@ Use command arguments to set options for any CLI commands.
 
 -   **--profile**
 
-    Specifies the named profile to use for a command. For more information, see [Configuring and managing your ServiceNow CLI connection profiles](../task/configure-profile.md).
+    Specifies the named profile to use for a command. For more information, see [Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/configure-profile.md).
 
     ```
     $ snc configure profile set --profile <profilename>
@@ -122,7 +123,7 @@ Use command arguments to set options for any CLI commands.
 
 ## Configure profile
 
-Create a connection profile to connect with your instance, view connection profiles, refresh your connection and available commands, or delete profiles you no longer need. For more information about configuring your profile, see [Configuring and managing your ServiceNow CLI connection profiles](../task/configure-profile.md).
+Create a connection profile to connect with your instance, view connection profiles, refresh your connection and available commands, or delete profiles you no longer need. For more information about configuring your profile, see [Configuring and managing your ServiceNow CLI connection profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/configure-profile.md).
 
 -   **Set up a default profile**
 
@@ -193,7 +194,7 @@ Create a connection profile to connect with your instance, view connection profi
 
 ## Perform record operations
 
-Create, read, update, delete, and query records in your instance using the ServiceNow CLI command-line tool. For more information about performing record operations, see [Perform record operations using ServiceNow CLI](../task/manage-records.md).
+Create, read, update, delete, and query records in your instance using the ServiceNow CLI command-line tool. For more information about performing record operations, see [Perform record operations using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/manage-records.md).
 
 -   **Create a record**
 
@@ -278,7 +279,7 @@ Create, read, update, delete, and query records in your instance using the Servi
 
 ## Work with extensions
 
-Add extensions to the ServiceNow CLI to load additional functionality and commands, update existing extensions, or remove extensions you no longer need. For more information, see [Manage ServiceNow CLI extensions](../task/find-extensions.md).
+Add extensions to the ServiceNow CLI to load additional functionality and commands, update existing extensions, or remove extensions you no longer need. For more information, see [Manage ServiceNow CLI extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/find-extensions.md).
 
 -   **Find available extensions**
 
@@ -355,7 +356,7 @@ scope
 
 </td><td>
 
-Suggested application scope to assign to this project and its components. If provided, the instance validates the name. Use the namespace identifier guidelines for application development on the instance. For more information, see [Application scope](../../applications/concept/c_ApplicationScope.md). Maximum: 18 characters.
+Suggested application scope to assign to this project and its components. If provided, the instance validates the name. Use the namespace identifier guidelines for application development on the instance. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md). Maximum: 18 characters.
 
  Case: snake case.
 
@@ -461,5 +462,5 @@ Deploys component changes and overwrites any existing component records. Default
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[ServiceNow CLI](../concept/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/servicenow-cli.md)
 

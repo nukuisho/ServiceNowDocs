@@ -2,6 +2,7 @@
 title: Activating Conversation Improvement Themes
 description: Activate the Conversation Improvement Themes application to analyze conversation quality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/conv-impr-themes-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

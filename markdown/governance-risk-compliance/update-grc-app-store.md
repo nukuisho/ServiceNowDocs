@@ -2,6 +2,7 @@
 title: Update a GRC application previously downloaded from the ServiceNow Store
 description: If you have previously downloaded an application from the ServiceNow Store and a new version is available, you can update it in your instance. When you update, the latest version of the application is installed from the application store along with the application package.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-grc-app-store.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-    ![System applications](../../security-incident-response/image/system-apps.png)
+    \[Omitted image "system-apps.png"\] Alt text: System applications
 
 2.  Search for the application you want to update.
 

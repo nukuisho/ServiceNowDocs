@@ -2,13 +2,14 @@
 title: View an impacted person record
 description: View and track the status of an impacted person's record as an agent in Critical Event Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/view-impacted-person-record.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing impacted people, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage impacted people, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # View an impacted person record
@@ -46,20 +47,20 @@ Role required: sn\_critical.agent
     The record also shows the activity stream and notifications.
 
 
-**Parent Topic:**[Managing impacted people](../concept/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 
 
-[Generate impacted people list](generate-impacted-people-list.md)
+[Generate impacted people list]()
 
-[Add a person manually to the impacted people list](add-person-manually-to-impacted-people.md)
+[Add a person manually to the impacted people list]()
 
-[Export an impacted people list](export-impacted-people-list.md)
+[Export an impacted people list]()
 
-[Mark the status of impacted people as an agent](mark-status-of-impacted-people.md)
+[Mark the status of impacted people as an agent]()
 
-[View notifications received](view-notifications-received.md)
+[View notifications received]()
 
-[Conduct a roll call as an on-site responder](conduct-roll-call.md)
+[Conduct a roll call as an on-site responder]()
 

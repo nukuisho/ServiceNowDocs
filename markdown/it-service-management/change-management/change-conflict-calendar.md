@@ -2,6 +2,7 @@
 title: Conflict calendar
 description: The conflict calendar graphically represents the potential scheduling conflicts for a change request. Conflicts are identified as active change requests, blackout schedules, and changes scheduled outside maintenance schedules. Use the Scheduling Assistant to resolve any schedule conflicts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-conflict-calendar.html
 release: australia
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Conflict detection, Configure, Change Management, IT Service Manage
 
 The conflict calendar graphically represents the potential scheduling conflicts for a change request. Conflicts are identified as active change requests, blackout schedules, and changes scheduled outside maintenance schedules. Use the **Scheduling Assistant** to resolve any schedule conflicts.
 
-![Conflict Calendar page with highlighted callouts. For the text descriptions, refer to the table that follows.](../image/change-req-conflict-calendar.png "Conflict calendar")
+\[Omitted image "change-req-conflict-calendar.png"\] Alt text: Conflict Calendar page with highlighted callouts. For the text descriptions, refer to the table that follows.
 
 <table id="table_cv4_kmd_gdb"><thead><tr><th>
 
@@ -39,7 +40,7 @@ Scheduling Assistant
 
 </td><td>
 
-Enables you to choose from the list of available time slots to resolve conflicts. For more information on resolving conflicts, see [Manage your change schedules and resolve conflicts](../task/use-conflict-calendar.md) [Manage your change schedules and resolve conflicts](../task/use-conflict-calendar.md)
+Enables you to choose from the list of available time slots to resolve conflicts. For more information on resolving conflicts, see [Manage your change schedules and resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/use-conflict-calendar.md) [Manage your change schedules and resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/use-conflict-calendar.md)
 
 </td></tr><tr><td>
 
@@ -138,21 +139,21 @@ Change request block
 Enables you to view the details of the change request.**Note:** Related changes section is displayed if other scheduled changes that potentially conflict with the change based on a schedule or assignment is detected. For example, if the same person is assigned to two or more changes at the same date and time, you can visually see the conflict and update one of the scheduled changes, as appropriate.
 
 </td></tr></tbody>
-</table>-   **[Manage your change schedules and resolve conflicts](../task/use-conflict-calendar.md)**  
+</table>-   **[Manage your change schedules and resolve conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/use-conflict-calendar.md)**  
 Prevent schedule conflicts by using the conflict calendar to manage your change schedule details, customize views, and resolve conflicts.
 
-**Parent Topic:**[Conflict detection](c_ConflictDetection.md)
+**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
 
 **Related topics**  
 
 
-[Detect change conflicts](../task/configure-conflict-properties.md#)
+[Detect change conflicts]()
 
-[Create blackout and maintenance schedules in Change Management](../task/t_CreateBlkoutMaintSched.md)
+[Create blackout and maintenance schedules in Change Management]()
 
-[Configure a change request to monitor outside maintenance schedule conflicts](../task/monitor-maintenance-schedule.md)
+[Configure a change request to monitor outside maintenance schedule conflicts]()
 
-[Enable automatic change conflict detection](../task/t_RunAutomatedConflictDetection.md)
+[Enable automatic change conflict detection]()
 
-[Detect conflicts manually and review conflict details](../task/t_RunManualConflictDetection.md#)
+[Detect conflicts manually and review conflict details]()
 

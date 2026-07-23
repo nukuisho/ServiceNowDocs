@@ -2,6 +2,7 @@
 title: Create a cost book line
 description: Create a cost book line that defines the unit cost for a product offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-cost-book-lines.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.price
 
 1.  In the CSM Configurable Workspace, access the cost book to which you're adding a cost book line.
 
-    1.  Select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+    1.  Select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
     2.  Navigate to **Prices** &gt; **Cost Books** and select the cost book.
 
@@ -91,7 +92,7 @@ Start date
 
 </td><td>
 
-Starting date and time that the cost book is effective. Select the Calendar icon ![](../image/field-calendar.png) to choose the start date and time, then select **OK**.
+Starting date and time that the cost book is effective. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the start date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ End date
 
 </td><td>
 
-Ending date and time of the cost book. After the ending time, the cost book is no longer active. Select the Calendar icon ![](../image/field-calendar.png) to choose the end date and time, then select **OK**.
+Ending date and time of the cost book. After the ending time, the cost book is no longer active. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the end date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -128,7 +129,7 @@ Frequency of recurring pricing:-   Monthly
 **Related topics**  
 
 
-[Copy a cost book](copy-cost-book.md)
+[Copy a cost book](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/copy-cost-book.md)
 
-[Control the default cost book on transaction header or header line](som-control-default-costbook.md)
+[Control the default cost book on transaction header or header line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-control-default-costbook.md)
 

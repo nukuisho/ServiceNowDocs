@@ -2,10 +2,11 @@
 title: Configure Now Assist for Operational Technology Service Management \(OTSM\)
 description: If you have the admin role, you can configure the Now Assist for Operational Technology Service Management \(OTSM\) application so that teams can use the generative AI capabilities in the Industrial Workspace for their Operational Technology \(OT\) incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/configuring-now-assist-otsm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Now Assist for OTSM, Operational Technology]
 ---
 
@@ -21,9 +22,9 @@ Role required: admin
 
 Use the Now Assist Admin console to configure Now Assist for OTSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
-**Note:** You can also set up AI Enhanced Recommended Actions for OTSM to use with Now Assist for OTSM. For more information, see [Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](../../ot-ai-enhanced-recommended-actions/task/set-up-ai-enhanced-ra-otsm.md).
+**Note:** You can also set up AI Enhanced Recommended Actions for OTSM to use with Now Assist for OTSM. For more information, see [Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/set-up-ai-enhanced-ra-otsm.md).
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -52,7 +53,7 @@ Gen AI skills for OT incident
 
 1.  Install the Now Assist for OTSM plugin \(sn\_otsm\_gen\_ai\).
 
-    -   For information about the application dependencies, see [Supporting information for Now Assist for Operational Technology Service Management \(OTSM\)](supporting-information-for-now-assist-otsm.md).
+    -   For information about the application dependencies, see [Supporting information for Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/supporting-information-for-now-assist-otsm.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin**.
 
@@ -66,7 +67,7 @@ Gen AI skills for OT incident
 
 6.  Select the inputs or triggers for the selected skill.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for Operational Technology Service Management \(OTSM\)](skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.md).
 
 7.  After you configure the inputs or triggers for the selected skill, select **Save and continue** to go to the next step.
 
@@ -89,12 +90,14 @@ Gen AI skills for OT incident
     Your skill is configured.
 
 
--   **[Supporting information for Now Assist for Operational Technology Service Management \(OTSM\)](supporting-information-for-now-assist-otsm.md)**  
+-   **[Supporting information for Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/supporting-information-for-now-assist-otsm.md)**  
 Get a quick overview of the important information that is related to the Now Assist for Operational Technology Service Management \(OTSM\) application.
--   **[Skill inputs and triggers for Now Assist for Operational Technology Service Management \(OTSM\)](skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.md)**  
+-   **[Skill inputs and triggers for Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.md)**  
 Get a quick overview of the skill inputs and triggers for Now Assist for Operational Technology Service Management \(OTSM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 
-**Parent Topic:**[Now Assist for Operational Technology Service Management \(OTSM\)](now-assist-for-operational-technology-service-management.md)
+**Parent Topic:**[Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-overview.md)
+
+**Parent Topic:**[Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)
 
 **Related topics**  
 

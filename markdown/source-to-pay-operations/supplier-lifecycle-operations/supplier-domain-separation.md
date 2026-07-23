@@ -2,6 +2,7 @@
 title: Domain separation and Supplier Lifecycle Operations
 description: If any conrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file. In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conref at the end that describes domain separation.Domain separation is unsupported for Supplier Lifecycle Operations . Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supplier-domain-separation.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -22,34 +23,34 @@ Domain separation is unsupported for Supplier Lifecycle Operations. Domain separ
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Supplier Lifecycle Operations reference](../reference/supp-mgmt-reference.md)
+**Parent Topic:**[Supplier Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
 
 **Related topics**  
 
 
-[Create New Supplier Case form](../reference/new-supplier-case.md)
+[Create New Supplier Case form]()
 
-[Create new task form](../reference/create-new-supplier-task-form.md)
+[Create new task form]()
 
-[Add New Location form](../reference/supplier-location-form.md)
+[Add New Location form]()
 
-[Update banking details form](../reference/update-supp-banking-form.md)
+[Update banking details form]()
 
-[Update profile details form](../reference/update-supp-profile-form.md)
+[Update profile details form]()
 
-[Onboard a Supplier form](../reference/onboard-supp-form.md)
+[Onboard a Supplier form]()
 
-[Create New Documents form](../reference/create-new-doc-form.md)
+[Create New Documents form]()
 
-[Primary data tables for Supplier Lifecycle Operations](../reference/slo-primary-data-tables.md)
+[Primary data tables for Supplier Lifecycle Operations]()
 
-[Supplier Lifecycle Operations data model](../reference/slo-data-model.md)
+[Supplier Lifecycle Operations data model]()
 
-[Supplier Relationship and Performance Management reference](supplier-relationship-and-performance-management-reference.md)
+[Supplier Relationship and Performance Management reference]()
 
-[Supplier Payment Optimization reference](supp-payment-opt-ref.md)
+[Supplier Payment Optimization reference]()
 
-[Supplier Lifecycle Operations glossary](slo-glossary.md#)
+[Supplier Lifecycle Operations glossary]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

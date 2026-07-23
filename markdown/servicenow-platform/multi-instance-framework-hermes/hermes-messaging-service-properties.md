@@ -2,6 +2,7 @@
 title: Hermes Messaging Service system properties
 description: These system properties control the behavior of the Hermes Messaging Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-properties.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -48,16 +49,18 @@ By default, identifiers in the **Keys** column are displayed as strings in UTF8.
 -   binary: display keys in base64
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hermes Messaging Service reference](../concept/hermes-messaging-service-reference.md)
+</table>**Parent Topic:**[Hermes Messaging Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-reference.md)
 
 **Related topics**  
 
 
-[Hermes Messaging Service components](../concept/hermes-messaging-service-components.md)
+[Hermes Messaging Service components]()
 
-[Hermes Messaging Service security model](../concept/hermes-messaging-service-security-model.md)
+[Hermes Messaging Service security model]()
 
-[Hermes Messaging Service roles](hermes-messaging-service-roles.md#)
+[Hermes background jobs]()
 
-[Hermes Messaging Service domain separation](hermes-messaging-service-domain-separation.md)
+[Hermes Messaging Service roles]()
+
+[Hermes Messaging Service domain separation]()
 

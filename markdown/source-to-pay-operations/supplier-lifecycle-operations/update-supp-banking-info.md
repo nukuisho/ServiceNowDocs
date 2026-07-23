@@ -2,6 +2,7 @@
 title: Update banking details using the supplier catalog
 description: Keep the banking information up to date to ensure timely payments without any delays.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-info.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -37,7 +38,7 @@ Role required: sn\_slm.contact
 
 5.  On the Update banking details form, fill in the fields.
 
-    If you are adding a new account, you can auto-populate the Bank name, Account holder name, and Account number fields by selecting the **Extract values from the attachment to auto-populate from fields** checkbox. For more information about the form fields and descriptions, see [Update banking details form](../reference/update-supp-banking-form.md) ![Selected option for adding a new account](../image/update-banking-details-supplier-collaboration-portal.png).
+    If you are adding a new account, you can auto-populate the Bank name, Account holder name, and Account number fields by selecting the **Extract values from the attachment to auto-populate from fields** checkbox. For more information about the form fields and descriptions, see [Update banking details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.md) \[Omitted image "update-banking-details-supplier-collaboration-portal.png"\] Alt text: Selected option for adding a new account.
 
 6.  Select **Submit**.
 
@@ -48,30 +49,30 @@ The application creates a case and assigns it to the supplier manager for review
 
 After the supplier manager approves the case, the banking details are updated in the supplier record.
 
-**Parent Topic:**[Raising requests from the Supplier Collaboration Portal](../concept/supp-catalog-req.md)
+**Parent Topic:**[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 
 **Related topics**  
 
 
-[Add or remove a supplier location using the supplier catalog](submit-add-remove-supploc.md)
+[Add or remove a supplier location using the supplier catalog]()
 
-[Add a supplier contact using the supplier catalog](enroll-contact-catalog.md)
+[Add a supplier contact using the supplier catalog]()
 
-[Remove a supplier contact using the supplier catalog](remove-contact-catalog.md)
+[Remove a supplier contact using the supplier catalog]()
 
-[Ask a question using the supplier catalog](submit-question.md)
+[Ask a question using the supplier catalog]()
 
-[Submit an idea using the supplier catalog](submit-idea.md)
+[Submit an idea using the supplier catalog]()
 
-[Submit an issue using the supplier catalog](submit-issue.md)
+[Submit an issue using the supplier catalog]()
 
-[Update company profile using the supplier catalog](update-supp-profile.md)
+[Update company profile using the supplier catalog]()
 
-[Request elevated access](request-elevated-access.md)
+[Request elevated access]()
 
-[Update default supplier](update-default-supplier.md)
+[Update default supplier]()
 
-[Request something else using the supplier catalog](submit-general-request.md)
+[Request something else using the supplier catalog]()
 
-[Raising requests from the Supplier Collaboration Portal](../concept/supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 

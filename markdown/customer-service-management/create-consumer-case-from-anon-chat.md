@@ -2,6 +2,7 @@
 title: Create a consumer case from an anonymous chat
 description: If an anonymous chat results in the need to create a consumer case, create the case directly from the conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-consumer-case-from-anon-chat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

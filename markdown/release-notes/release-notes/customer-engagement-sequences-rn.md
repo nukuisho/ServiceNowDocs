@@ -22,11 +22,11 @@ See [Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow
 
 ## Important information for upgrading Customer Engagement Sequences to Australia
 
-If you configured sequences with the Schedule call activity on a release before Zurich, the activity is now labeled **Schedule call - Deprecated** in the activity picker in Workflow Studio. Existing sequences continue to work, but the Call icon ![](../../reuse/icons/product-icons/phone-fill-24.svg) doesn't appear on the **Callback number** field on the Sequence Steps page during runtime. To enable the click-to-call capability, update the Customer Engagement Sequences application to use the new Schedule call activity.
+If you configured sequences with the Schedule call activity on a release before Zurich, the activity is now labeled **Schedule call - Deprecated** in the activity picker in Workflow Studio. Existing sequences continue to work, but the Call icon \[Omitted image "phone-fill-24.svg"\] Alt text: doesn't appear on the **Callback number** field on the Sequence Steps page during runtime. To enable the click-to-call capability, update the Customer Engagement Sequences application to use the new Schedule call activity.
 
 ## Activation information
 
-Install Customer Engagement Sequences by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Customer Engagement Sequences by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
 

@@ -2,10 +2,11 @@
 title: Sign the existing REST and SOAP messages
 description: Sign and validate the existing REST and SOAP messages by enabling the Code Signing in protected and trusted instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/rest-soap-code-sign.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [REST and SOAP Signing, Using Code Signing, Code Signing, Platform Security]
 ---
 
@@ -78,6 +79,4 @@ Role required: sn\_kmf.cryptographic\_manager
 
     A confirmation message is displayed mentioning that the records are signed.
 
-
-**Parent Topic:**[Sign the REST and SOAP messages in the production instance](cs-rest-soap.md)
 

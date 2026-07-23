@@ -2,6 +2,7 @@
 title: Add HQ task details
 description: Log the HQ task details to the new HQ communications store plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-add-hq-task-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,12 +46,12 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 
     The new HQ task added appears.
 
-    1.  Select ![](../../../common/image/Form_DeleteIcon.png) to delete the new HQ task.
+    1.  Select \[Omitted image "Form\_DeleteIcon.png"\] Alt text: to delete the new HQ task.
 
-    2.  Select ![](../image/icon-pencil-ac.png) to edit the HQ task details.
+    2.  Select \[Omitted image "icon-pencil-ac.png"\] Alt text: to edit the HQ task details.
 
     3.  Select **Continue** to go next step.
 
 
-**Parent Topic:**[Manage store plans to generate cases and tasks](rahi-retail-manage-store-plan-authoring.md)
+**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plan-authoring.md)
 

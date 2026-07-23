@@ -2,6 +2,7 @@
 title: Process a replacement request in playbook
 description: Use the procurement playbook to approve or reject replacement requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/playbook-replacement-request.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,19 +18,19 @@ Use the procurement playbook to approve or reject replacement requests.
 
 ## Before you begin
 
-Role required: sn\_spend\_psd.admin, agents, fulfillers
+Role required: sn\_spend\_psd.psd\_admin, agents, fulfillers
 
 ## About this task
 
 As an agent, you can view the requests, complete tasks across multiple workflow activities, and manage complex operations from a unified playbook. The playbook provides agents an automated way to visualize the overall process in a task-oriented format.
 
-![Process a replacement request in playbook](../image/pb-replacement-purchase.png)
+\[Omitted image "pb-replacement-purchase.png"\] Alt text: Process a replacement request in playbook
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Procurement Case Management** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the List icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\) and select **All work** &gt; **Cases**.
+2.  Select the List icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and select **All work** &gt; **Cases**.
 
 3.  Select the Replace a purchase case from the list for further processing.
 
@@ -146,28 +147,28 @@ Updates the case to Closed Completed.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](../concept/work-playbooks-spo.md)
+**Parent Topic:**[Working with SPO playbooks in the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-playbooks-spo.md)
 
 **Related topics**  
 
 
-[Process a purchase order edit in playbook](process-purchase-order.md)
+[Process a purchase order edit in playbook]()
 
-[Process a purchase requisition edit request in playbook](playbook-edit-request-flow.md)
+[Process a purchase requisition edit request in playbook]()
 
-[Process a return request in playbook](playbook-return-request.md)
+[Process a return request in playbook]()
 
-[Process an edit receipt request in playbook](playbook-process-edit-receipt.md)
+[Process an edit receipt request in playbook]()
 
-[Fulfilling request for copy of contract in playbook](../concept/fulfilling-request-for-contract.md)
+[Fulfilling request for copy of contract in playbook]()
 
-[Routing NDAs to suppliers](../concept/routing-ndas-to-suppliers.md)
+[Routing NDAs to suppliers]()
 
-[Verifying delivery addresses in playbook](../concept/delivery-address-in-playbook.md)
+[Verifying delivery addresses in playbook]()
 
-[Reviewing and updating general ledger details in playbook](../concept/general-ledger-details-in-playbook.md)
+[Reviewing and updating general ledger details in playbook]()
 
-[Sourcing intake guided experience with playbooks](../concept/sourcing-intake-guided-exp.md)
+[Sourcing intake guided experience with playbooks]()
 
-[Streamlining the supplier risk assessment workflow](../concept/simplify-risk-assessment-wf.md)
+[Streamlining the supplier risk assessment workflow]()
 

@@ -1,7 +1,8 @@
 ---
-title: Create new profile indicator form
+title: Create profile indicator form
 description: You can use indicators within many scoring profiles, which generate indicator scores unique to that scoring profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-new-profile-indicator-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new profile indicator form
+# Create profile indicator form
 
 You can use indicators within many scoring profiles, which generate indicator scores unique to that scoring profile.
 
-## Create new profile indicator form fields
+## Create profile indicator form fields
 
 <table id="table_eql_wth_tzb"><thead><tr><th>
 
@@ -74,5 +75,10 @@ Weightage
 Numeral value for the indicator. The weight provided in the application score profile for an indicator contributes to the total score of the application.All indicator weight within a scoring profile must add up to 100.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
+
+**Related topics**  
+
+
+[Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md)
 

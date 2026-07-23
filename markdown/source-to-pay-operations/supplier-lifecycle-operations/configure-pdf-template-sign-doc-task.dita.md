@@ -2,6 +2,7 @@
 title: Configure the document template for the Sign document action type for supplier task
 description: Create and configure the document template that enables you to collect e-signatures from multiple participants and generate a filled PDF document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/configure-pdf-template-sign-doc-task.dita.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -23,7 +24,7 @@ Role required: sn\_slm.admin
 
 Ensure that you've installed the Document Templates \[com.snc.document\_templates\] plugin.
 
-**Important:** When you create the supplier task of action type Sign document for the very first time, the supplier task is created; however, the document task is not created. Therefore, you cannot use the first Sign document task to upload PDF or HTML documents to get signatures. When you create the Sign document task for the first time, a set of restricted caller access \(RCA\) records are created that you must approve. Approving RCAs is a one-time activity. After you approve the RCAs, you can create and use subsequent Sign document supplier tasks except the first Sign document task. For more information about the approving the required RCAs, see [Approve application restricted caller access privileges for Sign document supplier task type](approve-sign-task-rca.md).
+**Important:** When you create the supplier task of action type Sign document for the very first time, the supplier task is created; however, the document task is not created. Therefore, you cannot use the first Sign document task to upload PDF or HTML documents to get signatures. When you create the Sign document task for the first time, a set of restricted caller access \(RCA\) records are created that you must approve. Approving RCAs is a one-time activity. After you approve the RCAs, you can create and use subsequent Sign document supplier tasks except the first Sign document task. For more information about the approving the required RCAs, see [Approve application restricted caller access privileges for Sign document supplier task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.md).
 
 **Important:** Starting from the May Store 2024 release, the supplier task of action type Sign document uses the document template \(PDF or HTML\). The E-signature template is used only for KB articles.
 
@@ -61,11 +62,11 @@ To configure an HTML document template:
 2.  In the **Table** field, select **Supplier Task \[sn\_slm\_task\]**.
 3.  On the form, fill in the fields.
 
-For a description of the field values, see [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
+For a description of the field values, see [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-HTML-doc-template.md).
 
 4.  Select **Submit** or **Save**.
-5.  Select the Participants related list to create participants for the PDF document template. For more information, see [Create participants for an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-participants.md.md).
-6.  Insert signatures in an HTML document template by selecting participants from the list. For more information, see [Insert signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/insert-signatures.md).
+5.  Select the Participants related list to create participants for the PDF document template. For more information, see [Create participants for an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-participants.md.md).
+6.  Insert signatures in an HTML document template by selecting participants from the list. For more information, see [Insert signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/insert-signatures.md).
 7.  Select **Publish**.
 
 
@@ -81,52 +82,52 @@ To configure a PDF document template:
 2.  In the **Table** field, select **Supplier Task \[sn\_slm\_task\]**.
 3.  On the form, fill in the fields.
 
-For a description of the field values, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-editable-pdf.md).
+For a description of the field values, see [Configure a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-editable-pdf.md).
 
 4.  Select **Submit** or **Save**.
 5.  Select the **Parse PDF** related link to automatically parse information on the PDF and store that information in the PDF Mapping table for reuse.
-6.  Select the Participants related list to create participants for the PDF document template. For more information, see [Create participants for a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-participant.md).
-7.  Select the Template Mappings related list to define the PDF field mappings. For more information, see [Define a PDF field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/edit-pdf-mappings.md).
+6.  Select the Participants related list to create participants for the PDF document template. For more information, see [Create participants for a PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-participant.md).
+7.  Select the Template Mappings related list to define the PDF field mappings. For more information, see [Define a PDF field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/edit-pdf-mappings.md).
 8.  Select the Mark signatures related list to choose participants and specify the area in the PDF document where you want to collect the signatures of those participants.
 
 **Note:** You can mark signatures only if you have defined participants and mapped users to those participants.
 
-For more information, see [Mark a signature block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/mark-signature-doctemp.md).
+For more information, see [Mark a signature block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mark-signature-doctemp.md).
 
 9.  Select **Publish**.
 
 
 </td></tr></tbody>
 </table>
--   **[Approve application restricted caller access privileges for Sign document supplier task type](approve-sign-task-rca.md)**  
+-   **[Approve application restricted caller access privileges for Sign document supplier task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.md)**  
 Approve restricted caller access \(RCA\) privileges after you create a supplier task of action type Sign document for the very first time so that you can create and use subsequent Sign document supplier tasks.
 
-**Parent Topic:**[Configure Supplier Lifecycle Operations](../concept/config-supp-mgmt.md)
+**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
 
 **Related topics**  
 
 
-[Install Supplier Case Management](install-supp-mgmt.md)
+[Install Supplier Case Management]()
 
-[Install Supplier Collaboration Portal](install-supp-central.md)
+[Install Supplier Collaboration Portal]()
 
-[Install Supplier Operations](install-supplier-ops.md)
+[Install Supplier Operations]()
 
-[Install Supplier Payment Optimization](install-supp-payment-opt.md)
+[Install Supplier Payment Optimization]()
 
-[Supplier Document Management](../concept/supp-doc-mgmt-overview.md)
+[Supplier Document Management]()
 
-[Advanced Work Assignment for Supplier Lifecycle Operations](../concept/supplier-awa.md)
+[Advanced Work Assignment for Supplier Lifecycle Operations]()
 
-[Enable M2M mapping between supplier contact and suppliers](enable-m2m-supplier-contacts.md)
+[Enable M2M mapping between supplier contact and suppliers]()
 
-[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+[Configure Supplier Relationship and Performance Management]()
 
-[Install Universal Request for SLO](install-universal-request.md)
+[Install Universal Request for SLO]()
 
-[Configure smart assessments](../concept/configure-smart-assessments.md)
+[Configure smart assessments]()
 
-[Approve application restricted caller access privileges for Sign document supplier task type](approve-sign-task-rca.md)
+[Approve application restricted caller access privileges for Sign document supplier task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/approve-sign-task-rca.md)
 
-[Supplier Document Management](../concept/supp-doc-mgmt-overview.md)
+[Supplier Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-doc-mgmt-overview.md)
 

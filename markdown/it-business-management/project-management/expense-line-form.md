@@ -2,6 +2,7 @@
 title: Expense line form
 description: Learn about the fields of expense line form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/expense-line-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -93,7 +94,7 @@ Cost type
 
 </td><td>
 
-Select the [cost type](../task/t_CreateAResourceTypeDefinition.md).
+Select the [cost type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAResourceTypeDefinition.md).
 
 </td></tr><tr><td>
 
@@ -129,5 +130,5 @@ Select the records for the sources of the expense line. These sources include:- 
 </table>**Related topics**  
 
 
-[Create an expense line](../task/t_CreateAExpenseLine.md)
+[Create an expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAExpenseLine.md)
 

@@ -2,6 +2,7 @@
 title: Configure the Platform Analytics Solution for Self-Service Analytics for Customer Service
 description: Run diagnostics, review and customize components, and start collecting data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ssa-solution-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ A ServiceNow AI Platform administrator must have installed the content pack plug
 
 ## Procedure
 
-1.  Run all diagnostics on all records, as described in [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/self-diagnostics.md).
+1.  Run all diagnostics on all records, as described in [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/self-diagnostics.md).
 
     These diagnostics can catch mismatches between the configuration of your Platform Analytics Solutions and your tables.
 
@@ -37,7 +38,7 @@ A ServiceNow AI Platform administrator must have installed the content pack plug
 
     1.  Filter the indicator sources on the dashboard name.
 
-        This screenshot shows the indicator sources filtered on the Self-Service Analytics dashboard from the Self Service Analytics for Customer Service Platform Analytics Solution. ![Indicator Sources tab showing the indicator sources and their details for the Self-Service Analytics dashboard.](../../../product/customer-service-management/image/pa-admin-console-indicator-sources.png)
+        This screenshot shows the indicator sources filtered on the Self-Service Analytics dashboard from the Self Service Analytics for Customer Service Platform Analytics Solution. \[Omitted image "pa-admin-console-indicator-sources.png"\] Alt text: Indicator Sources tab showing the indicator sources and their details for the Self-Service Analytics dashboard.
 
     2.  Review the facts table, conditions, and frequency of the indicator sources compared to the data structure on your own instance.
 
@@ -69,7 +70,7 @@ A ServiceNow AI Platform administrator must have installed the content pack plug
 **Related topics**  
 
 
-[Platform Analytics Solutions for Self-Service Analytics for Customer Service](../../dashboards/application-content-packs/ssa-cs-content-pack.md)
+[Platform Analytics Solutions for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-content-pack.md)
 
-[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/self-service-analytics.md)
+[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service-analytics.md)
 

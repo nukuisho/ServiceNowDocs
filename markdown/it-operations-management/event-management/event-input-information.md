@@ -2,12 +2,13 @@
 title: Use event input information
 description: The Event Input pane that is included in the steps to create an event rule provides a reference to the information that you can use when configuring an event rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/event-input-information.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -16,6 +17,8 @@ breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event
 The **Event Input** pane that is included in the steps to create an event rule provides a reference to the information that you can use when configuring an event rule.
 
 In the **Transform and compose alert output** pane, you can also drag the information into the required fields to customize alert content. The fields in the right-hand pane appear as a reference to which fields, expressions, and their values are available when working in the Event Rule designer. The fields that display in the Transform and compose alert output left-hand workarea become the fields in the generated alert form. In addition, you can define alert tags that are specific for customization.
+
+**Note:** To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
 
 ## General components and navigation
 
@@ -27,7 +30,7 @@ The Event Input pane consists of these sections:
 
 The Event Input pane displays in all Event Rule designer sections, except for the Event Rule Info section. The fields in the right-pane can be modified only in the Transform and compose alert output section. In all the other sections, the Event Input pane is read-only and available for reference purposes.
 
-**Note:** If **Accessibility enabled** ![Accessibility enabled](../image/accessibility-enabled.png) is selected in System Settings, standard edit mode is not available ![Standard edit mode icon](../image/standard-edit-mode-icon.png).
+**Note:** If **Accessibility enabled** \[Omitted image "accessibility-enabled.png"\] Alt text: Accessibility enabled is selected in System Settings, standard edit mode is not available \[Omitted image "standard-edit-mode-icon.png"\] Alt text: Standard edit mode icon.
 
 ## Edit modes
 
@@ -41,7 +44,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Standard edit mode ![Event Management icon](../image/transform-standard-mode.png)
+Standard edit mode \[Omitted image "transform-standard-mode.png"\] Alt text: Event Management icon
 
 </td><td>
 
@@ -49,7 +52,7 @@ Text selected in the left-hand workarea cannot be edited. Undo is not available.
 
 </td></tr><tr><td>
 
-Regex edit mode![Event Management icon](../image/transpose-regex-mode.png)
+Regex edit mode\[Omitted image "transpose-regex-mode.png"\] Alt text: Event Management icon
 
 </td><td>
 
@@ -69,7 +72,7 @@ The Expressions section is available only if an additional information field was
 1.  Click in a field in the **Event Input** pane to perform transformation actions.
 2.  Create an expression by transforming information and associating it with a field name. Either select a field name from the suggested list, or create a field name, as required.
 
-    ![Event Management rule expression](../image/event-rule-expression.png)
+    \[Omitted image "event-rule-expression.png"\] Alt text: Event Management rule expression
 
 3.  Click in a field in the **Event Input** pane. In the left-hand workarea, select the required information.
 
@@ -89,16 +92,16 @@ Controlling how fields appear:
 -   Use the em\_event\_rule\_order form to order the position of each field.
 -   Fields that are not in the exclusion list and also not part of the em\_event\_rule\_order table, still appear in the event rule designer, in the right-panel and in the **Transform and Compose Alert Output** tab.
 
-**Parent Topic:**[Event rules](create-event-rules.md)
+**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-event-rules.md)
 
 **Related topics**  
 
 
-[Create or edit an event rule](../task/create-or-edit-event-rule.md)
+[Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-or-edit-event-rule.md)
 
-[Configure an event rule to customize alert content](../task/t_EMComposeOuput.md)
+[Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMComposeOuput.md)
 
-[Filter the events that an event rule applies to](../task/t_EMCreateFilter.md)
+[Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateFilter.md)
 
-[Set a threshold to suppress alert generation](../task/t_EMISetThresholdEvent.md)
+[Set a threshold to suppress alert generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMISetThresholdEvent.md)
 

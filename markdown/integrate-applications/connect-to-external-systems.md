@@ -2,11 +2,12 @@
 title: Connect to external systems
 description: Connect Hub is a unified workspace for discovering, building, and managing integrations between ServiceNow and external systems. It consolidates discovery, configuration, and management into a single interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connect-to-external-systems.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [Workflow Data Fabric]
 ---
 
 # Connect to external systems
@@ -19,7 +20,7 @@ Connect Hub provides a consolidated interface to accomplish key integration task
 
 -   **Discover external systems and integration opportunities**
 
-    Explore available [external systems](../task/connecthub-create-external-systems.md#) and identify connection methods for over 200 third-party systems like MS Teams, Jira, and Snowflake.
+    Explore available [external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connecthub-create-external-systems.md) and identify connection methods for over 200 third-party systems like MS Teams, Jira, and Snowflake.
 
 -   **Build and manage connectors**
 
@@ -49,7 +50,11 @@ Connect Hub distinguishes between two fundamental integration concepts: connecto
 
 The relationship between connectors and connections follows a one-to-many pattern. A single connector supports multiple connection instances, enabling you to reuse integration logic across different environments or system instances while maintaining separate credentials and configurations for each. For example, you can have one Jira spoke connector but have three different connections: one each for development, staging, and production respectively.
 
+## Request apps on Store
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
+
 ## Application version
 
-Connect Hub v2.0.0 is th latest application version.
+Connect Hub v2.2.0 is the latest version.
 

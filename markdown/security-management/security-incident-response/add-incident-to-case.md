@@ -2,6 +2,7 @@
 title: Add security incident to TISC case
 description: Add security incidents to TISC case records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-incident-to-case.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: sn\_si.analyst, sn\_sec\_tisc.case\_write
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace** &gt; **Security Incidents** &gt; **All**.
 
-2.  Locate and open any specific security incident that you are investigating.
+2.  Locate and open any specific security incident that you're investigating.
 
     This can also be done by searching for the incident ID or browsing from Quick Filters section or filtering through incident state.
 
@@ -35,9 +36,9 @@ Role required: sn\_si.analyst, sn\_sec\_tisc.case\_write
 
 5.  Select the case\(s\) from the **Add to Case** dialog box.
 
-    ![Add to TISC Case Modal](../image/tisc-add2-case-modal.png)
+    \[Omitted image "tisc-add2-case-modal.png"\] Alt text: Add to TISC Case Modal
 
-    **Note:** Create a new TISC case if there no case records. For more information on how to create case\(s\), see [Creating cases using Threat Analyst Workbench](../concept/create-cases-using-threat-analyst-workbench.md).
+    **Note:** Create a new TISC case if there no case records. For more information on how to create case\(s\), see [Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md).
 
 6.  Click **Add**.
 
@@ -46,20 +47,20 @@ Role required: sn\_si.analyst, sn\_sec\_tisc.case\_write
     **Note:** To view the linked security incidents, click on the particular case record from the security incident **Activity** stream. By clicking on this will take you to the case record in TISC workspace and the security incidents will get added under **Artifacts** tab of the Case Management module.
 
 
-**Parent Topic:**[Send data from SIR Workspace to TISC](../concept/send-sir-to-tisc.md)
+**Parent Topic:**[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/send-sir-to-tisc.md)
 
 **Related topics**  
 
 
-[System properties to send data](../reference/tisc-integrations-system-properties.md)
+[System properties to send data]()
 
-[Add observables to TISC Case](observables-to-case.md)
+[Add observables to TISC Case]()
 
-[Send Observables to TISC](tisc-context-in-sir-workspace.md)
+[Send Observables to TISC]()
 
-[Send Threat Lookup to TISC](send-threat-lookup-to-tisc.md)
+[Send Threat Lookup to TISC]()
 
-[Send Sighting Search to TISC](send-sighting-search-to-tisc.md)
+[Send Sighting Search to TISC]()
 
-[Send Observable Enrichment to TISC](send-observable-enrichment-to-tisc.md)
+[Send Observable Enrichment to TISC]()
 

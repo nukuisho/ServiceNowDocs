@@ -2,6 +2,7 @@
 title: Incident management dashboard
 description: Dashboard providing a view into process metrics related to Open and Closed incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Platform Analytics KPIs and dashboards, Platform Analytics ITSM Das
 
 Dashboard providing a view into process metrics related to Open and Closed incidents.
 
-![Incident management dashboard](../../image/incident-management.png)
+\[Omitted image "incident-management.png"\] Alt text: Incident management dashboard
 
 |Data Visualization|Description|KPI \(Performance Analytics Indicator\)|
 |------------------|-----------|---------------------------------------|

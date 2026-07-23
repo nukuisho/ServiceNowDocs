@@ -2,6 +2,7 @@
 title: Legacy: IT Agent dashboard
 description: View the open incidents, problems, and requests that belong to you and your assignment groups through personalized reports. You can also see which incidents that belong to your assignment groups exceed the Spotlight threshold.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/it-agent-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,9 +14,9 @@ breadcrumb: [Legacy: Performance Analytics ITSM Dashboards, Platform Analytics I
 
 View the open incidents, problems, and requests that belong to you and your assignment groups through personalized reports. You can also see which incidents that belong to your assignment groups exceed the Spotlight threshold.
 
-Agents can use [IT Agent dashboard for Service Operations Workspace](../../../product/service-operations-workspace/concept/it-agent-dashboard-sow.md) to see their own and their team's assignments and set priorities.
+Agents can use [IT Agent dashboard for Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/it-agent-dashboard-sow.md) to see their own and their team's assignments and set priorities.
 
-![Animated tour of the IT Agent dashboard](../image/itsm-it-agent.gif "IT Agent dashboard")
+\[Omitted image "itsm-it-agent.gif"\] Alt text: Animated tour of the IT Agent dashboard
 
 ## End user and roles
 
@@ -43,7 +44,7 @@ Open unassigned incidents
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -55,7 +56,7 @@ Open requests
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -67,7 +68,7 @@ Critical incidents
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -79,7 +80,7 @@ My open problems - Heatmap
 
 </td><td>
 
-Heatmap![Heatmap icon](../../../reuse/reporting/image/pivot.svg "Heatmap icon")
+Heatmap\[Omitted image "pivot.svg"\] Alt text: Heatmap icon
 
 </td><td>
 
@@ -91,7 +92,7 @@ Incidents above Spotlight threshold
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -103,7 +104,7 @@ My open requests
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -115,7 +116,7 @@ My open incidents - Heatmap
 
 </td><td>
 
-Heatmap![Heatmap icon](../../../reuse/reporting/image/pivot.svg "Heatmap icon")
+Heatmap\[Omitted image "pivot.svg"\] Alt text: Heatmap icon
 
 </td><td>
 
@@ -127,7 +128,7 @@ Open incidents
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -139,7 +140,7 @@ Open incidents not updated in last 7 days
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -151,7 +152,7 @@ My open requests - Heatmap
 
 </td><td>
 
-Heatmap![Heatmap icon](../../../reuse/reporting/image/pivot.svg "Heatmap icon")
+Heatmap\[Omitted image "pivot.svg"\] Alt text: Heatmap icon
 
 </td><td>
 
@@ -163,7 +164,7 @@ Open problems
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -175,7 +176,7 @@ Spotlight incidents P1 - Critical
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -187,7 +188,7 @@ My open problems
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -199,7 +200,7 @@ Spotlight incidents - Unassigned
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -211,7 +212,7 @@ My open incidents
 
 </td><td>
 
-Single score![Single score icon](../../performance-analytics/image/single-score.png "Single score icon")
+Single score\[Omitted image "single-score.png"\] Alt text: Single score icon
 
 </td><td>
 
@@ -223,12 +224,12 @@ Incidents Spotlight - List
 
 </td><td>
 
-List![List icon](../../../reuse/reporting/image/score-list-tile.svg)
+List\[Omitted image "score-list-tile.svg"\] Alt text: List icon
 
 </td><td>
 
 A list of all incidents that one of your groups own and that exceed the Spotlight threshold
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](itsm-dashboards-content-pack.md)
+</table>**Parent Topic:**[Legacy: Performance Analytics ITSM Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-dashboards-content-pack.md)
 

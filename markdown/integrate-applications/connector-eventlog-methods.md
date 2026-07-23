@@ -2,11 +2,12 @@
 title: EventLog connector event and methods
 description: The Eventlog connector provides methods and an event to listen to events from sources and write them to the Microsoft Event Viewer as part of an automation. The methods and events have properties that you can update.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connector-eventlog-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Eventlog, Connectors, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Eventlog, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # EventLog connector event and methods
@@ -19,11 +20,11 @@ This is a predefined event that occurs when an entry is written to the event log
 
 -   **Event output**
 
-    [Type](parameters-eventlog-methods.md#parameter-input-write-type)
+    [Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/parameters-eventlog-methods.md)
 
-    [Source](parameters-eventlog-methods.md#parameter-input-write-source)
+    [Source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/parameters-eventlog-methods.md)
 
-    [Message](parameters-eventlog-methods.md#parameter-input-write-message)
+    [Message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/parameters-eventlog-methods.md)
 
 
 ## Write
@@ -32,11 +33,11 @@ Writes a warning, information, or error to the Microsoft Event Viewer, which inc
 
 -   **Inputs**
 
-    [Type](parameters-eventlog-methods.md#parameter-input-write-type)
+    [Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/parameters-eventlog-methods.md)
 
-    [Source](parameters-eventlog-methods.md#parameter-input-write-source)
+    [Source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/parameters-eventlog-methods.md)
 
-    [Message](parameters-eventlog-methods.md#parameter-input-write-message)
+    [Message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/parameters-eventlog-methods.md)
 
 
 ## Dispose
@@ -55,5 +56,5 @@ Discontinues listening to the events from the OnEntryWritten event.
 
 Provides as outputs the event type, descriptive message, and the source of the event.
 
-**Parent Topic:**[Eventlog](../concept/eventlog.md)
+**Parent Topic:**[Eventlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/eventlog.md)
 

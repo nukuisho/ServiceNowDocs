@@ -2,6 +2,7 @@
 title: Service Portal Config Overview widget
 description: The Service Portal Config Overview widget is the widget that appears on the sp\_config homepage. Use this widget to navigate Service Portal Configuration. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/config-overview-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -15,16 +16,16 @@ breadcrumb: [Service Portal configuration page widgets, Widget library, Using po
 
 The Service Portal Config Overview widget is the widget that appears on the sp\_config homepage. Use this widget to navigate Service Portal Configuration. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-![Service Portal Config Overview widget with Branding Editor, Designer, Page Editor, Widget Editor, and Get Help as tiled options](../image/WidgetSPConfigOverview.png "Service Portal Config Overview widget")
+\[Omitted image "WidgetSPConfigOverview.png"\] Alt text: Service Portal Config Overview widget with Branding Editor, Designer, Page Editor, Widget Editor, and Get Help as tiled options
 
-**Parent Topic:**[Service Portal configuration page widgets](sp-config-widgets.md)
+**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-config-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

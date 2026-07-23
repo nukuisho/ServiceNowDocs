@@ -2,6 +2,7 @@
 title: Configure Zing tag indexing for text search
 description: Zing text indexing is available for tags on records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfZingTagIndexTextSearch.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Zing text indexing is available for tags on records.
 
 ## Before you begin
 
-Text indexing must be enabled for the table that you want to index tags for. For instructions for this procedure, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
+Text indexing must be enabled for the table that you want to index tags for. For instructions for this procedure, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-single-table-for-indexing.md).
 
 Role required: admin
 
@@ -33,7 +34,7 @@ When you enable text indexing for a table's tags, Zing stores search data for th
 
 2.  In the Attributes related list, select **New**.
 
-3.  Select the Lookup using list icon \(![Lookup using list icon](../../../administer/ai-search/image/icon-lookup-using-list.png)\) to see all available attributes.
+3.  Select the Lookup using list icon \(\[Omitted image "icon-lookup-using-list.png"\] Alt text: Lookup using list icon\) to see all available attributes.
 
 4.  Select the **Text Index Tags** attribute \(**text\_index\_tags**\).
 
@@ -57,5 +58,5 @@ After you turn on text indexing for tags on a table, records on the table are re
 -   When you modify a tag, as long as fewer than 100 records are affected. If there are more records, you must manually reindex.
 -   When you manually reindex an entire table \(required after initial tag indexing setup\).
 
-**Parent Topic:**[Tags](../concept/c_Tags.md)
+**Parent Topic:**[Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md)
 

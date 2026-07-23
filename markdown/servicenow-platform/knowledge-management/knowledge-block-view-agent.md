@@ -2,6 +2,7 @@
 title: Knowledge block details displayed in Agent Workspace
 description: View the details of a knowledge block in Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-block-view-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -16,8 +17,6 @@ breadcrumb: [Knowledge blocks authoring in Agent Workspace, Using knowledge bloc
 View the details of a knowledge block in Agent Workspace.
 
 The knowledge block view page in Agent Workspace provides several details about a displayed block.
-
-![Knowledge block view page in Agent Workspace](../image/block-view-page-workspace.png "Sample knowledge block view page in Agent Workspace")
 
 <table id="table_tjh_2r4_jjb"><thead><tr><th>
 
@@ -100,11 +99,11 @@ Selected version of the knowledge block. This field appears when the article ver
 </table>**Related topics**  
 
 
-[View a knowledge block in Agent Workspace](../task/view-block-agent.md)
+[View a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-block-agent.md)
 
-[Create a knowledge block in Agent Workspace](../task/create-knowledge-block-workspace.md)
+[Create a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-block-workspace.md)
 
-[Edit a knowledge block in Agent Workspace](../task/edit-knowledge-block-workspace.md)
+[Edit a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-block-workspace.md)
 
-[Publish a knowledge block in Agent Workspace](../task/publish-block-agent.md)
+[Publish a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/publish-block-agent.md)
 

@@ -2,6 +2,7 @@
 title: Define an ERP source configuration for Coupa
 description: Define an ERP source configuration that specifies the Coupa ERP source to which the ERP system connects. Map the integration payload with the Coupa tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-coupa.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -41,7 +42,7 @@ Each ERP instance requires a unique ERP source configuration. For example, 10 ER
 
     1.  Select **here**.
 
-    2.  Select the list search icon \(![List search icon](../../../common/image/List_SearchIcon.png)\).
+    2.  Select the list search icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: List search icon\).
 
     3.  Look up the required ERP source for Coupa.
 
@@ -56,7 +57,7 @@ Each ERP instance requires a unique ERP source configuration. For example, 10 ER
         |Active|Option to activate the ERP source.|
         |Amount Precisions|Amount precision of the ERP source. For example, 2.|
 
-        ![Define a new ERP source configuration for Coupa](../../source-to-pay-operations/image/coupa-new-erp-source.png "Define a new ERP source configuration for Coupa")
+        \[Omitted image "coupa-new-erp-source.png"\] Alt text: Define a new ERP source configuration for Coupa
 
     6.  Select **Submit**.
 
@@ -72,16 +73,16 @@ By default, services mapping are provided for the Coupa base system. For other C
 -   Define service mappings manually for each integration service by accessing the Service Mappings related list. You can define element level mapping between Coupa table fields and payload elements.
 -   Map the users and corresponding ERP User IDs by accessing the ERP User Mappings related list.
 
-**Parent Topic:**[Configure Source-to-Pay integration with Coupa](../concept/configuring-source-to-pay-coupa-integration.md)
+**Parent Topic:**[Configure Source-to-Pay integration with Coupa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-coupa-integration.md)
 
 **Related topics**  
 
 
-[ERP Source Configuration for Coupa](../concept/erp-source-configuration-coupa.md)
+[ERP Source Configuration for Coupa]()
 
-[Configure integration services for Coupa](configure-integration-services-coupa.md)
+[Configure integration services for Coupa]()
 
-[Activate the schedule flows](activate-schedule-flows-coupa.md)
+[Activate the schedule flows]()
 
-[Looking up primary data in Coupa](../concept/look-up-primary-data-coupa.md)
+[Looking up primary data in Coupa]()
 

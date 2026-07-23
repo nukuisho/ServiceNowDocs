@@ -2,6 +2,7 @@
 title: Document task statuses
 description: The following is a list of the statuses for DocIntel document tasks. These statuses apply to tasks for both document classification and data extraction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/docintel-task-statuses.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Document Intelligence, Enable AI experiences]
 
 The following is a list of the statuses for DocIntel document tasks. These statuses apply to tasks for both document classification and data extraction.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 <table id="table_ft3_lss_rzb"><thead><tr><th>
 
@@ -66,32 +67,32 @@ Failed
 The task encountered an error during its processing and failed to process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Document Intelligence references](docintel-references.md)
+</table>**Parent Topic:**[Document Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/docintel-references.md)
 
 **Related topics**  
 
 
-[Components installed with Document Intelligence](installed-with-document-intelligence.md)
+[Components installed with Document Intelligence]()
 
-[Confidence scores](../concept/docintel-confidence-scores.md)
+[Confidence scores]()
 
-[Data extraction modes](data-extraction-modes.md)
+[Data extraction modes]()
 
-[Data normalization](../concept/data-normalization.md)
+[Data normalization]()
 
-[Document field statuses](docintel-field-statuses.md)
+[Document field statuses]()
 
-[Document Intelligence forms](document-intelligence-forms.md)
+[Document Intelligence forms]()
 
-[Document Intelligence properties](document-intelligence-properties.md)
+[Document Intelligence properties]()
 
-[Document Intelligence roles](document-intelligence-user-roles.md#)
+[Document Intelligence roles]()
 
-[Document Intelligence terminology](../concept/docintel-terminology.md#)
+[Document Intelligence terminology]()
 
-[Domain separation and Document Intelligence](domain-separation-and-doc-intel.md)
+[Domain separation and Document Intelligence]()
 
-[Languages supported by Document Intelligence](../concept/languages-supported-by-document-intelligence.md)
+[Languages supported by Document Intelligence]()
 
-[Limitations in Document Intelligence](hard-limits-in-doc-intel.md)
+[Limitations in Document Intelligence]()
 

@@ -2,6 +2,7 @@
 title: Sign the JDBC data source records in the protected instance
 description: Use update sets to sign and validate the JDBC data sources by enabling the code signing in protected and trusted instances.Use update sets to bring mass signing jobs to the protected instance.Use update sets to bring the signed update set to the protected instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-jdbc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,8 +21,6 @@ Use update sets to sign and validate the JDBC data sources by enabling the code 
 
 -   MID Server doesn't handle the file data sources and hence, these data sources are not code signed.
 -   LDAP data sources can't be code signed.
-
-**Parent Topic:**[Using Code Signing](using-code-signing.md)
 
 ## Sign existing data sources of the JDBC type
 
@@ -76,17 +75,17 @@ Role required: sn\_kmf.cryptographic\_manager
 
 1.  In the trusted instance, start an update set.
 
-    ![Start an update set.](../image/start-an-updtset.png)
+    \[Omitted image "start-an-updtset.png"\] Alt text: Start an update set.
 
 2.  In the trusted instance, create the required data sources.
 
-    ![Create a JDBC source.](../image/create-jdbc-ds.png)
+    \[Omitted image "create-jdbc-ds.png"\] Alt text: Create a JDBC source.
 
     The data sources are added to the update set.
 
 3.  In the trusted instance, change the state of the update set to **Complete** and click **Update**.
 
-    ![Mark the update set as Complete.](../image/complete-updtset.png)
+    \[Omitted image "complete-updtset.png"\] Alt text: Mark the update set as Complete.
 
 4.  In the trusted instance, sign the update set by creating an encryption job.
 
@@ -102,13 +101,13 @@ Role required: sn\_kmf.cryptographic\_manager
         |Type|Type of the encryption job. Select **Sign Update Set**.|
         |Table|Update set from which the records should be signed.|
 
-        ![](../image/jdbc-sign-updtset-new.png)
+        \[Omitted image "jdbc-sign-updtset-new.png"\] Alt text:
 
     4.  Click **Submit**.
 
     5.  Click **Start** to sign the update set.
 
-        ![Signed update set.](../image/updated-updtset.png)
+        \[Omitted image "updated-updtset.png"\] Alt text: Signed update set.
 
         -   **Summary** is updated that the records are signed.
         -   The update set is updated and includes the signature.

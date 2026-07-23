@@ -2,11 +2,12 @@
 title: Migrating from Classic Assessment Engine to Smart Assessment Engine
 description: Learn what changes when you migrate from the Classic Assessment Engine to the Smart Assessment Engine, including feature differences, limitations, and setup requirements. This overview can help you and your team evaluate the impact before enabling the new engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-sae.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-02"
 reading_time_minutes: 8
 breadcrumb: [Smart Assessment Engine assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -29,20 +30,20 @@ The TPRM SAE questionnaire template has the following limitations.
 
 -   All new assessments must use SAE questionnaire templates.
 -   Third-party risk assessors can no longer create issues from the View responses page. Issues generation rules can be used to create issues automatically.
--   Third-party risk assessors can no longer create comments on individual questions. They can only use the comment section at the questionnaire level.
 -   The signature feature isn’t supported.
 -   Automatic attachment of questionnaires to external assessments based on inherent risk questionnaire \(IRQ\) responses or IRQ-calculated risk tiers is currently not supported in Smart Assessment Engine.
 -   The following question types aren’t supported: percentage, ranking, image scale, and custom metric. You must either convert these question types to supported formats before migration or create new questions in the template designer after migration.
 
     **Note:** For the percentage and image scale question types, customers can use the Number type and Radio button type, respectively. Ranking and custom metric question types aren't supported. You must either convert these question types to supported formats before migration or create new questions in the template designer after migration.
 
+-   In the Third‑party portal,the Excel export option available for Classic assessments is not supported for SAE assessments.
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
 
-    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](../reference/tprm-migrate-asmnt-template-result.md) and [Create a TPRM SAE questionnaire or document request template](../task/create-sae-q-template.md).
+    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).
 
 -   The TPRM scoring migration proceeds only if there were no errors during the template migration. If there were errors, the TPRM scoring migration doesn’t occur.
 
-    For more information, see [Configure scoring for an assessment](../../assessment-engine/task/configure-scoring-for-assessments.md) and [Normalization in assessment](../../assessment-engine/concept/normalization-in-assessment.md).
+    For more information, see [Configure scoring for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.md) and [Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md).
 
 -   Event-driven management rules are the default option for scheduling assessments and replaces Repeating assessments.
 
@@ -64,7 +65,7 @@ After setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_e
     -   Smart Assessment Response Automation plugin \[com.sn\_smart\_resp\_auto\]
     -   Smart Assessment Scoring plugin \[com.sn\_smart\_scoring\]
 
-**Note:** For more information on these plugins, see [Configuring Smart Assessment Engine](../../assessment-engine/concept/smart-assessment-engine-cf-config.md) and [Smart assessment configuration](../../grc-vendor-risk-implementation/concept/tprm-sae-assessment-config.md).
+**Note:** For more information on these plugins, see [Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md) and [Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sae-assessment-config.md).
 
 ## Migration Overview
 
@@ -72,7 +73,7 @@ After setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_e
 
 The following diagram shows the questionnaire to TPRM SAE template migration workflow.
 
-![Questionnaire to TPRM SAE template migration workflow. For a text description, see the text that preceded and follows this diagram.](../image/tprm-q-to-sae-workflow.png "SAE migration workflow")
+\[Omitted image "tprm-q-to-sae-workflow.png"\] Alt text: Questionnaire to TPRM SAE template migration workflow. For a text description, see the text that preceded and follows this diagram.
 
 1.  Migrate templates either one by one or in bulk. After migration, all templates are in the Draft state by default.
 2.  Review each migrated questionnaire template individually to confirm that they’re accurate and complete.
@@ -85,7 +86,7 @@ The following diagram shows the questionnaire to TPRM SAE template migration wor
 
 4.  Review each assessment template to confirm it’s marked as Supports smart assessment. If an assessment template isn’t marked as Supports smart assessment, manually adding a new TPRM SAE questionnaire template to it updates its status.
 
-For more information, see [Migrate a template to an SAE template](../task/tprm-asmnt-tmplt-migrate-metrics-to.md), [Create a TPRM SAE questionnaire or document request template](../task/create-sae-q-template.md), [Create an external assessment template](../task/create-vendor-risk-assess-temp.md), and [Create an issue generation rule](../task/tprm-generate-issue-rule.md).
+For more information, see [Migrate a template to an SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-asmnt-tmplt-migrate-metrics-to.md), [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md), [Create an external assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-vendor-risk-assess-temp.md), and [Create an issue generation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-generate-issue-rule.md).
 
 ## Classic assessment engine to Smart Assessment Engine comparison
 
@@ -108,7 +109,7 @@ The following table shows the comparable features between the Classic assessment
 
 The following diagram shows the relationship between assessment templates and questionnaires after enabling SAE.
 
-![Assessment template impact after enabling SAE. For a text description, see the text that preceded and follows this diagram.](../image/tprm-assess-sae-workflow.png "Assessment templates post-upgrade")
+\[Omitted image "tprm-assess-sae-workflow.png"\] Alt text: Assessment template impact after enabling SAE. For a text description, see the text that preceded and follows this diagram.
 
 -   Before setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property, the following are used by default.
     -   Existing questionnaire templates
@@ -123,21 +124,21 @@ The following diagram shows the relationship between assessment templates and qu
 **Related topics**  
 
 
-[Smart assessment configuration](../../grc-vendor-risk-implementation/concept/tprm-sae-assessment-config.md)
+[Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-sae-assessment-config.md)
 
-[Migrate a template to an SAE template](../task/tprm-asmnt-tmplt-migrate-metrics-to.md)
+[Migrate a template to an SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-asmnt-tmplt-migrate-metrics-to.md)
 
-[Results of migrating a template to a TPRM SAE template](../reference/tprm-migrate-asmnt-template-result.md)
+[Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md)
 
-[How legacy metric types are migrated to sections in templates](../../assessment-engine/reference/sae-how-legacy-metrics-migrated.md)
+[How legacy metric types are migrated to sections in templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-how-legacy-metrics-migrated.md)
 
-[Create a TPRM SAE questionnaire or document request template](../task/create-sae-q-template.md)
+[Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md)
 
-[Add instructions and questions to an assessment template](../../assessment-engine/task/sae-asmnt-template-populate.md)
+[Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md)
 
-[Add reference information to an assessment template](../../assessment-engine/task/sae-asmnt-add-reference.md)
+[Add reference information to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-add-reference.md)
 
-[Scoring assessments](../../assessment-engine/concept/scoring-in-assessments.md)
+[Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md)
 
-[Normalization in assessment](../../assessment-engine/concept/normalization-in-assessment.md)
+[Normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/normalization-in-assessment.md)
 

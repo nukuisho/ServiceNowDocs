@@ -2,6 +2,7 @@
 title: Restrict file extensions
 description: Use the glide.ui.strict\_content\_types to restrict the image file extensions that appear in the UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/restrict-file-extensions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,12 +37,12 @@ Role required: admin
     **Note:** Any files that use a file extension that is not included in the list of values appear broken in the UI.
 
 
-**Parent Topic:**[Storing images in the database](../concept/c_StoringImagesInTheDatabase.md)
+**Parent Topic:**[Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md)
 
 **Related topics**  
 
 
-[Update an existing image](t_UpdatingAnExistingImage.md)
+[Update an existing image]()
 
-[Upload one or more images](upload-multiple-images.md)
+[Upload one or more images]()
 

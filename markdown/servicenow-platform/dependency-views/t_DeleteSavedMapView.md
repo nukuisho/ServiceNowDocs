@@ -2,6 +2,7 @@
 title: Delete a saved Dependency Views map view
 description: Use the Saved Views module to delete a previously saved view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_DeleteSavedMapView.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -28,22 +29,22 @@ Role required: sn\_cmdb\_admin or admin
 3.  Select **Delete** from the **Actions on selected rows** drop-down menu.
 
 
-**Parent Topic:**[Use Dependency Views](../topic/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 
 
-[View a Dependency Views map](t_AccessNGBSM.md)
+[View a Dependency Views map]()
 
-[Save or load a Dependency Views map](t_SaveLoadMapView.md)
+[Save or load a Dependency Views map]()
 
-[Change the layout of Dependency Views map](t_ChangeLayoutNGBSMMap.md)
+[Change the layout of Dependency Views map]()
 
-[Filter the view of a Dependency Views map](t_FilterViewNGBSMMap.md)
+[Filter the view of a Dependency Views map]()
 
-[Perform actions on nodes in a Dependency Views map](t_PerformActionsOnNGBSMMap.md)
+[Perform actions on nodes in a Dependency Views map]()
 
-[Export a Dependency Views map](t_ExportAnNGBSMMap.md)
+[Export a Dependency Views map]()
 
-[View collapsed nodes in a Dependency Views map](t_ViewCollapsedNodesInNGBSM.md)
+[View collapsed nodes in a Dependency Views map]()
 

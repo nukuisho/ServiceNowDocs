@@ -2,6 +2,7 @@
 title: Set up Employee Relations integration with Navex Ethicspoint
 description: Understand how to set up the Employee Relations integration with Navex Ethicspoint application for pulling and pushing employee relations case data from the Navex EthicsPoint system into the ServiceNow system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/set-up-navex.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,6 +18,8 @@ Understand how to set up the Employee Relations integration with Navex Ethicspoi
 
 ## Before you begin
 
+Ensure that a MID server is already configured and running.
+
 Role required: sn\_hr\_navex\_ep.admin
 
 ## Procedure
@@ -27,16 +30,16 @@ Role required: sn\_hr\_navex\_ep.admin
 
     Allow the Restricted Caller Access records with Status = **Requested** and Source Scope = **Employee Relations integration with Navex EthicsPoint**.
 
-3.  For better performance, index Source field: external\_id mapped to Target field: correlation\_id in [Transform maps](../reference/transform-maps-navex.md).
+3.  For better performance, index Source field: external\_id mapped to Target field: correlation\_id in [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/transform-maps-navex.md).
 
-    For more information, see [create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateCustomIndex.md).
+    For more information, see [create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateCustomIndex.md).
 
 4.  Set up Navex EthicsPoint spoke.
 
-    For more information, see [Set up Navex EthicsPoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/navex-ethics-spoke.md).
+    For more information, see [Set up Navex EthicsPoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/navex-ethics-spoke.md).
 
-5.  [Configure properties](prop-navex.md).
+5.  [Configure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/prop-navex.md).
 
-6.  [Map fields](map-fields-navex.md).
+6.  [Map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/map-fields-navex.md).
 
 

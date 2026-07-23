@@ -2,13 +2,14 @@
 title: Close an enterprise asset repair task using the Mobile Agent application
 description: Complete an assigned enterprise asset repair task and mark the task as closed using the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-repair-task-mobile-app-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage enterprise asset repair tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage enterprise asset repair tasks using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Close an enterprise asset repair task using the Mobile Agent application
@@ -39,23 +40,23 @@ You can close any task that belongs to the following task types:
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon \(![Filter icon](../image/filter-mobile-task-eam.png)\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon \(![Filter icon](../image/filter-mobile-task-eam.png)\), tap **Sort by**, and select the fields to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\), tap **Sort by**, and select the fields to sort your tasks.
 5.  Tap the repair task that you want to close.
 
 6.  On the **Details** tab of the repair task, tap **Close** .
 
 7.  On the Repair task input form screen, enter the result of your task.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d328006e168">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d185104e168">
 
 Task
 
-</th><th align="left" id="d328006e171">
+</th><th align="left" id="d185104e171">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d328006e177">
+</th></tr></thead><tbody><tr><td id="d185104e177">
 
 **Troubleshoot asset**
 
@@ -66,7 +67,7 @@ In the **Troubleshoot result** field, select any of the following:-   **Repairab
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d328006e203">
+</td></tr><tr><td id="d185104e203">
 
 **Repair asset**
 
@@ -77,7 +78,7 @@ In the **Repair result** field, select any of the following: -   **Repaired**
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d328006e229">
+</td></tr><tr><td id="d185104e229">
 
 **Evaluate asset**
 
@@ -97,12 +98,12 @@ In the **Evaluation result** field, select any of the following:-   **Redeployab
 
 The state of the repair task changes to Closed Complete.
 
-**Parent Topic:**[Manage enterprise asset repair tasks using the Mobile Agent application](../concept/repair-orders-mobile-agent-eam.md)
+**Parent Topic:**[Manage enterprise asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/repair-orders-mobile-agent-eam.md)
 
 **Related topics**  
 
 
-[Start working on a enterprise asset repair task using the Mobile Agent application](start-work-repair-task-mobile-eam.md)
+[Start working on a enterprise asset repair task using the Mobile Agent application]()
 
-[Record time worked on an enterprise asset repair task using the Mobile Agent application](../concept/record-time-worked-repair-task-mobile-agent-eam.md)
+[Record time worked on an enterprise asset repair task using the Mobile Agent application]()
 

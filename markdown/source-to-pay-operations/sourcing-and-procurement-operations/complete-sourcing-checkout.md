@@ -2,6 +2,7 @@
 title: Complete sourcing checkout
 description: As a shopper, you can request pricing or more information about a product or service in the Shopping Hub catalog that doesn’t have contractual pricing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/complete-sourcing-checkout.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -39,7 +40,7 @@ Share additional sourcing request info such as pricing details, budget, quotatio
 
     Information relevant to the product or service is displayed in the contextual side panel.
 
-    ![Request pricing or more information about a product in the Shopping Hub](../image/spo-request-pricing-shopping-hub.png)
+    \[Omitted image "spo-request-pricing-shopping-hub.png"\] Alt text: Request pricing or more information about a product in the Shopping Hub
 
 4.  Follow the on-screen workflow and specify the required information:
 
@@ -51,7 +52,7 @@ Share additional sourcing request info such as pricing details, budget, quotatio
 
     -   What project is this request for?
 
-        **Note:** This field is available only when you have the Procurement with Project Management \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](../concept/integration-psm-ppm.md).
+        **Note:** This field is available only when you have the Procurement with Project Management \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).
 
     -   Why do you need these products?
     -   Why do you need these services?
@@ -61,9 +62,9 @@ Share additional sourcing request info such as pricing details, budget, quotatio
 
         For more information on adding suppliers, see:
 
-        -   From Platform: [Add a supplier](create-supplier.md).
-        -   From the supplier catalog: [Add a supplier contact using the supplier catalog](../../supplier-lifecycle-operations/task/enroll-contact-catalog.md).
-        -   From Source-to-Pay Workspace: [Add a supplier contact from the Source-to-Pay Workspace](../../supplier-lifecycle-operations/task/add-supplier-contact.md).
+        -   From Platform: [Add a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier.md).
+        -   From the supplier catalog: [Add a supplier contact using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enroll-contact-catalog.md).
+        -   From Source-to-Pay Workspace: [Add a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.md).
     -   How much do you potentially need?
     -   When would you like this delivered? For products, select from these options.
         -   **As soon as possible** for the quickest delivery slot possible. This is calculated based on the product category of each selected product.
@@ -84,10 +85,10 @@ Share additional sourcing request info such as pricing details, budget, quotatio
 5.  Select **Submit Request**.
 
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 
 **Related topics**  
 
 
-[Order a product with quick checkout](order-a-product.md)
+[Order a product with quick checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.md)
 

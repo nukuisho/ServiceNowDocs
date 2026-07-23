@@ -2,6 +2,7 @@
 title: Service provider connector
 description: The service provider connector application is a reference design for creating a ServiceNow Store application for your customers to use to integrate with your systems. Service provider applications help you speed on-boarding and create standardized integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-service-connector.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +23,7 @@ When service providers \(vendors, suppliers, partners\) publish connectors, cust
 -   Workflows and catalog requests can be synchronized, with the customer’s processes and approvals preceding the provider’s processes, so customers can follow their own processes.
 -   Any data created or modified \(e.g. CIs\) for the customer on the provider’s instance can be synchronized back into the customer’s instance for their visibility and use in processes.
 
-![Service connector customer instances](../image/bp-service-connector-customer-instance.png)
+\[Omitted image "bp-service-connector-customer-instance.png"\] Alt text: Service connector customer instances
 
 ## Key features
 
@@ -116,7 +117,7 @@ Instance data replication \(IDR\)
 </td><td>
 
 When replication is the goal:-   Can be used for process integration, but can be too rigid depending on the complexity integration logic based on state transition
--   To learn more, see [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/instance-data-replication.md)
+-   To learn more, see [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication.md)
 
 </td></tr><tr><td>
 
@@ -125,7 +126,7 @@ IntegrationHub
 </td><td>
 
 When process integration is the goal:-   Easier to inject in the middle of a process, as part of complex or conditional step in the middle of a flow
--   To learn more, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)
+-   To learn more, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integrationhub.md)
 
 </td></tr><tr><td>
 
@@ -135,7 +136,7 @@ Global Work Queue \(Virtual\)
 
 When task federation is the goal, and storing data externally is not acceptable:-   Used where agents are working across multiple ServiceNow instances and need to see all open work assigned to them
 -   Rows returned should be limited to less than 1000
--   To learn more, see [Global work queue](global-queue.md)
+-   To learn more, see [Global work queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/global-queue.md)
 
 </td></tr><tr><td>
 
@@ -144,7 +145,7 @@ Remote Tables
 </td><td>
 
 When external data usage without storage is the goal:-   Used to connect an instance to third-party sources, or to another instance, to retrieve external data and optionally cache it in the memory. The data is treated as a table in the instance for read-only purposes such as group, sort, aggregate, and filter.
--   To learn more, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md)
+-   To learn more, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md)
 
 </td></tr><tr><td>
 
@@ -158,5 +159,5 @@ When process design is the goal-   Used for automating processes in a single des
 </td></tr></tbody>
 </table>Learn more about the [Service Connector proof of concept](https://support.servicenow.com/kb_view.do?sysparm_article=KB0817720) on the ServiceNow Knowledge site.
 
-**Parent Topic:**[Concepts for service providers](sp-concepts.md)
+**Parent Topic:**[Concepts for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sp-concepts.md)
 

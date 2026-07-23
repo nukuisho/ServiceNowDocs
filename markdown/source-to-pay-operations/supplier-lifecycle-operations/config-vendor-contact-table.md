@@ -2,6 +2,7 @@
 title: Configure the Vendor Contact table to send invitation emails during self-registration
 description: Configure the Vendor Contact \[vm\_vdr\_contact\] table to send invitation emails to supplier contacts during the self-registration process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/config-vendor-contact-table.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -29,17 +30,17 @@ Role required: admin
 
 4.  In the Name column, select **Vendor Contact Invited**.
 
-5.  On the **When to send** tab, add the condition: "Source is not supplier\_registration".![Condition added to send invitation emails to supplier contacts during the self-registration process.](../image/configure-vendor-contact-table-invitation.png)
+5.  On the **When to send** tab, add the condition: "Source is not supplier\_registration".\[Omitted image "configure-vendor-contact-table-invitation.png"\] Alt text: Condition added to send invitation emails to supplier contacts during the self-registration process.
 
 6.  From the form header, right-click and select **Save**.
 
 
-**Parent Topic:**[Configure self-registration for external users](config-reg-for-external-users-slm.md)
+**Parent Topic:**[Configure self-registration for external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-reg-for-external-users-slm.md)
 
 **Related topics**  
 
 
-[Configure system property to send registration emails to external users](sys-prop-reg-email.md)
+[Configure system property to send registration emails to external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/sys-prop-reg-email.md)
 
-[Enable notifications about self-registration errors](enable-supp-admin-emails.md)
+[Enable notifications about self-registration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-supp-admin-emails.md)
 

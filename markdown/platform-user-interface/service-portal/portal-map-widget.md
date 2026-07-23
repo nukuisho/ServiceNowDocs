@@ -2,6 +2,7 @@
 title: SP Portal Map widget
 description: The Portal Map widget displays your portal in a tree structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/portal-map-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -15,16 +16,16 @@ breadcrumb: [Service Portal configuration page widgets, Widget library, Using po
 
 The Portal Map widget displays your portal in a tree structure.
 
-![Service Portal index page tree structure](../image/WidgetPortalMap.png "SP Portal Map widget")
+\[Omitted image "WidgetPortalMap.png"\] Alt text: Service Portal index page tree structure
 
-**Parent Topic:**[Service Portal configuration page widgets](sp-config-widgets.md)
+**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-config-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

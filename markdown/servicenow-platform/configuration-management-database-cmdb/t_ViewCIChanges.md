@@ -2,6 +2,7 @@
 title: View the change history of application services in classic Service Mapping
 description: You can view the changes made to an application service as a whole and to the individual configuration items \(CIs\) comprising the service. Change history is useful for maintenance, planning, or troubleshooting procedures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_ViewCIChanges.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -27,27 +28,27 @@ Changes to configuration files are associated with CIs to which these files belo
 
 While you can see change records for a specific CI in the context of application services, you can also see detailed history of a specific CI separate from its service instance as described in [History Timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HistoryTimeline.md).
 
-If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see [Managing proposed changes](../../configuration-management/concept/c_ProposedChanges.md#).
+If the ServiceNow AI Platform is configured to validate changes, all changes are evaluated and rendered as valid or not. If a change is valid, its change record on the service instance map is marked as approved. For more information about configuring the platform for change validation, see [Managing proposed changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ProposedChanges.md).
 
 Changes to the service instance appear on the history timeline.
 
-![The history scale shows changes to the service instance.](../image/MapHistoryPointers.png)
+\[Omitted image "MapHistoryPointers.png"\] Alt text: The history scale shows changes to the service instance.
 
 The type of change mark depends on the nature of changes that it represents:
 
--   **Light gray balloon \(![Light grey balloon icon](../image/ChangeHistoryBalloonsLightGray.png)\)**
+-   **Light gray balloon \(\[Omitted image "ChangeHistoryBalloonsLightGray.png"\] Alt text: Light grey balloon icon\)**
 
     Unapproved change that does not influence the service instance behavior. For example, a change in a network path or adding a node to a cluster.
 
--   **Dark gray balloon \(![Dark gray balloon icon](../image/ChangeHistoryBalloonsDarkGray.png)\)**
+-   **Dark gray balloon \(\[Omitted image "ChangeHistoryBalloonsDarkGray.png"\] Alt text: Dark gray balloon icon\)**
 
     Unapproved change that changes the service instance behavior.
 
--   **Green balloon \(![Green balloon icon](../image/ChangeHistoryBalloonsGreen.png)\)**
+-   **Green balloon \(\[Omitted image "ChangeHistoryBalloonsGreen.png"\] Alt text: Green balloon icon\)**
 
     An approved change in deployments where the ServiceNow AI Platform is configured to validate changes.
 
--   **Double balloon \(![Green balloon icon](../image/ChangeHistoryBalloonsDouble.png)\)**
+-   **Double balloon \(\[Omitted image "ChangeHistoryBalloonsDouble.png"\] Alt text: Green balloon icon\)**
 
     Multiple separate changes that happened a short time from each other.
 
@@ -70,37 +71,37 @@ You can mark times on the history scale by creating baselines to quickly return 
 
 3.  On the history timeline, set the time range of changes that you want to view.
 
-<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d444805e301">
+<table id="choicetable_dnx_mtk_51b"><thead><tr><th align="left" id="d458026e301">
 
 Option
 
-</th><th align="left" id="d444805e304">
+</th><th align="left" id="d458026e304">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d444805e310">
+</th></tr></thead><tbody><tr><td id="d458026e310">
 
 **To set the time range of the history timeline**
 
 </td><td>
 
-Click the hour, day, week, or month icons.![Click Hours, Days, Weeks, or Months to set the time range of the history scale.](../image/MapHistoryTimeRangeIcons.png)
+Click the hour, day, week, or month icons.\[Omitted image "MapHistoryTimeRangeIcons.png"\] Alt text: Click Hours, Days, Weeks, or Months to set the time range of the history scale.
 
-</td></tr><tr><td id="d444805e325">
+</td></tr><tr><td id="d458026e325">
 
 **To increase or decrease the time range**
 
 </td><td>
 
-Click the zoom in and zoom out icons.![Click Zoom in and Zoom out to change the time range.](../image/MapHistoryPlusMinusIcons.png)
+Click the zoom in and zoom out icons.\[Omitted image "MapHistoryPlusMinusIcons.png"\] Alt text: Click Zoom in and Zoom out to change the time range.
 
-</td></tr><tr><td id="d444805e340">
+</td></tr><tr><td id="d458026e340">
 
 **To change the upper limit on your history range**
 
 </td><td>
 
-Click the history scale.![Click the history scale to mark the time which serves as the upper limit.](../image/MapHistoryMarkedPoint.png)
+Click the history scale.\[Omitted image "MapHistoryMarkedPoint.png"\] Alt text: Click the history scale to mark the time which serves as the upper limit.
 
  The time that serves as the upper limit appears above the history timeline.
 
@@ -108,7 +109,7 @@ Click the history scale.![Click the history scale to mark the time which serves 
 
 You cannot set the lower limit on your history range to a time before this service instance was created. This time is marked with the **IT Service Created** event on the history timeline.
 
-![The IT Service Created pointer on the History timeline.](../image/MapHistoryBSCreatedPointer.png)
+\[Omitted image "MapHistoryBSCreatedPointer.png"\] Alt text: The IT Service Created pointer on the History timeline.
 
 </td></tr></tbody>
 </table>    The map shows the history view of the service instance for the time you selected.
@@ -119,31 +120,31 @@ You cannot set the lower limit on your history range to a time before this servi
 
     1.  Click the **Compare** icon.
 
-        ![The Compare icon on the Map page.](../image/MapHistoryCompareIcon.png)
+        \[Omitted image "MapHistoryCompareIcon.png"\] Alt text: The Compare icon on the Map page.
 
     2.  Navigate to the time you want to mark as a baseline on the history scale.
 
     3.  Click **Set baseline**.
 
-        ![Click Set baseline.](../image/MapHistoryBaselineSet.png)
+        \[Omitted image "MapHistoryBaselineSet.png"\] Alt text: Click Set baseline.
 
     4.  Enter the name of the baseline and click **OK**.
 
         The new baseline appears as a button above the history scale and as a blue flag on the history scale.
 
-        ![The Baseline button and flag.](../image/MapHistoryBaselineFlag.png)
+        \[Omitted image "MapHistoryBaselineFlag.png"\] Alt text: The Baseline button and flag.
 
 5.  View the change history.
 
-<table id="choicetable_ky8_b2k_s5"><thead><tr><th align="left" id="d444805e477">
+<table id="choicetable_ky8_b2k_s5"><thead><tr><th align="left" id="d458026e477">
 
 Option
 
-</th><th align="left" id="d444805e480">
+</th><th align="left" id="d458026e480">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d444805e486">
+</th></tr></thead><tbody><tr><td id="d458026e486">
 
 **To see the CI responsible for a change record**
 
@@ -151,9 +152,9 @@ Action
 
 Select a change record on the **Changes** tab.The related CI is marked yellow in the map.
 
- ![View the CI responsible for a change record.](../image/MapChangesTabSelectRecord.png)
+ \[Omitted image "MapChangesTabSelectRecord.png"\] Alt text: View the CI responsible for a change record.
 
-</td></tr><tr><td id="d444805e508">
+</td></tr><tr><td id="d458026e508">
 
 **To see only change records related to a CI**
 
@@ -161,9 +162,9 @@ Select a change record on the **Changes** tab.The related CI is marked yellow in
 
 Select the required CI or the connection on the map.The **Changes** tab displays only change records related to the selected CI or connection.
 
- ![View only change records related to a CI.](../image/MapChangesTabSelectCI.png)
+ \[Omitted image "MapChangesTabSelectCI.png"\] Alt text: View only change records related to a CI.
 
-</td></tr><tr><td id="d444805e530">
+</td></tr><tr><td id="d458026e530">
 
 **To see the configuration file at the selected moment in the past**
 
@@ -174,7 +175,7 @@ Select the required CI or the connection on the map.The **Changes** tab displays
 
 The new tab opens displaying the content of the tracked configuration file at the selected time.
 
-</td></tr><tr><td id="d444805e556">
+</td></tr><tr><td id="d458026e556">
 
 **To see the network at the selected moment in the past**
 
@@ -190,17 +191,17 @@ The new tab opens displaying the network or storage path map for the time you se
 </td></tr></tbody>
 </table>6.  To exit the history view and see the current status of the service instance, click the current icon.
 
-    ![The graphic shows the current icon for exiting the history view.](../image/MapHistoryCurrentIcon.png)
+    \[Omitted image "MapHistoryCurrentIcon.png"\] Alt text: The graphic shows the current icon for exiting the history view.
 
 
 **Related topics**  
 
 
-[View an application service map in base system](../../configuration-management/task/app-service-map-base-system.md)
+[View an application service map in base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-map-base-system.md)
 
-[Compare two versions of an application service in classic Service Mapping](t_CompareBS.md)
+[Compare two versions of an application service in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CompareBS.md)
 
-[Modify tracking changes in configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/track-configuration-files.md)
+[Modify tracking changes in configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/track-configuration-files.md)
 
-[Fine-tune tracking changes for the change history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/exclude-changes-from-change-history.md)
+[Fine-tune tracking changes for the change history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exclude-changes-from-change-history.md)
 

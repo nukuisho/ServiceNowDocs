@@ -2,6 +2,7 @@
 title: Domain separation and Skills Management
 description: Domain separation is supported in the Skills Management app, and configured to apply to all features of the application. Separation of data is configured along with separation of logic and process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/domain-separation-skill-management.html
 release: australia
 product: Skills Management
 classification: skills-management

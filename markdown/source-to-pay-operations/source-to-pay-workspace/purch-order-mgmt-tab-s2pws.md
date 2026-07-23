@@ -2,6 +2,7 @@
 title: POM landing page
 description: As an operational buyer, use the Purchase Order Management \(POM\) landing page to view a snapshot of your assigned purchase exceptions and tasks and take actions to resolve them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/purch-order-mgmt-tab-s2pws.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -17,7 +18,7 @@ As an operational buyer, use the Purchase Order Management \(POM\) landing page 
 
 Open the Purchase Order Management landing page by navigating to **Workspaces** &gt; **Source-to-Pay Workspace**. Select the Purchase order management tab.
 
-When you open the Purchase Order Management, the home page is displayed by default. If you navigate away from the home page, you can select the home icon \(![Home icon](../../supplier-lifecycle-operations/image/home-icon.png)\) to return to the home page.
+When you open the Purchase Order Management, the home page is displayed by default. If you navigate away from the home page, you can select the home icon \(\[Omitted image "home-icon.png"\] Alt text: Home icon\) to return to the home page.
 
 ## Landing page view for an Operational Buyer
 
@@ -51,7 +52,7 @@ Widget
 
 View the exceptions that are assigned to you,sorted by priority and creation date.
 
- Up to four open exceptions are displayed in this section sorted by priority and creation, with exception sub-type, product model, impacted purchase order number, priority, and time lapsed since creation. Select **View Details** to view the purchase order exception details.
+ Up to four open exceptions are displayed, sorted by priority and creation, with exception sub-type, product model, impacted purchase order number, priority, and time lapsed since creation. Select **View Details** to view the purchase order exception details.
 
 </td></tr><tr><td>
 
@@ -150,14 +151,14 @@ Widget
 Displays the number of all exception tasks that are assigned to you. Select the exception tasks count link to view the list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Source-to-Pay Workspace landing page](../../source-to-pay-operations/concept/source-to-pay-ws-landing-page.md)
+</table>**Parent Topic:**[Source-to-Pay Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-landing-page.md)
 
 **Related topics**  
 
 
-[SPO landing page](../../sourcing-procurement-operations/concept/procurement-workspace-landing-page.md)
+[SPO landing page]()
 
-[SLO landing page](../../supplier-lifecycle-operations/concept/supp-manager-ws-home.md)
+[SLO landing page]()
 
-[APO landing page](../../accounts-payable-operations/concept/acc-pay-workspace-landing-page.md)
+[APO landing page]()
 

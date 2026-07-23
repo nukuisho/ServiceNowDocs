@@ -2,6 +2,7 @@
 title: Configure rules for incoming emails that create and assign cases
 description: Create your email-related business processes using Inbound Email Flows. After you receive an email on a specified support email address, you can define rules to create cases and assign the cases to specific teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-rules-incoming-emails-create-assign-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ The following example email flows are installed with the platform. These flows a
 **Related topics**  
 
 
-[Define rules to process incoming emails](../task/define-process-incoming-emails.md)
+[Define rules to process incoming emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/define-process-incoming-emails.md)
 
-[Activate Customer Service Management](../task/t_ActivateCustomerService.md)
+[Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md)
 

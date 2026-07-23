@@ -2,6 +2,7 @@
 title: Configure team requests
 description: Configure the type of team requests that you want to display on the Requests opened by your team widget in Manager Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-team-requests.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -139,28 +140,28 @@ Text that must appear when multiple requests are displayed.For example: $\{count
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Manager Hub](set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 
 
-[RCA approvals for Manager Hub](run-rca-mh.md)
+[RCA approvals for Manager Hub]()
 
-[Activate a scheduled job](../reference/activate-sj-mh.md)
+[Activate a scheduled job]()
 
-[Configure important dates](configure-imp-dates.md)
+[Configure important dates]()
 
-[Configure team data](configure-team-data.md)
+[Configure team data]()
 
-[Configure team column data](configure-team-columndata.md)
+[Configure team column data]()
 
-[Configure team filters](configure-team-filter.md)
+[Configure team filters]()
 
-[Set up View as Direct Reports](../../employee-center/task/view-direct-reportee.md)
+[Set up View as Direct Reports]()
 
-[Configure daily stats](configure-daily-stats.md)
+[Configure daily stats]()
 
-[Configure to do mappings](use-to-do-map.md)
+[Configure to do mappings]()
 
-[Configure widgets](configure-team-insights.md)
+[Configure widgets]()
 

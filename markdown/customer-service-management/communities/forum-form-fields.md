@@ -2,6 +2,7 @@
 title: Forum form fields
 description: Set fields on the form to create new forum or sub forum.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/forum-form-fields.html
 release: australia
 product: Communities
 classification: communities
@@ -96,22 +97,22 @@ Knowledge Base used for harvesting
 The knowledge base used for harvesting community discussions to knowledge articles.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communities references](communitie-references.md)
+</table>**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communitie-references.md)
 
 **Related topics**  
 
 
-[Quick start tests for Communities](../../../administer/atf-quick-start-tests/reference/quick-start-tests-communities.md)
+[Quick start tests for Communities]()
 
-[Properties installed with Communities](communities-properties.md)
+[Properties installed with Communities]()
 
-[Communities roles](communities-roles.md)
+[Communities roles]()
 
-[Video Configurations form fields](video-configurations-form-fields.md)
+[Video Configurations form fields]()
 
-[Topic form fields](topic-form-fields.md)
+[Topic form fields]()
 
-[Create a forum](../task/create-forum.md)
+[Create a forum](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-forum.md)
 
-[Create a sub forum](../task/create-sub-forum.md)
+[Create a sub forum](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-sub-forum.md)
 

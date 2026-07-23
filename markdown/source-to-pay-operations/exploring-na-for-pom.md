@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Purchase Order Management \(POM\)
 description: With the ServiceNow Now Assist for Purchase Order Management \(POM\) application, you can use generative AI to support purchase order management tasks such as converting unstructured supplier emails into a prioritized list of exceptions and providing a conversation-like experience to mitigate purchase order exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/exploring-na-for-pom.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -56,8 +57,8 @@ Helps buyers identify and execute exception mitigation strategies by analyzing d
 -   sn\_poem\_operational\_buyer
 
 </td></tr></tbody>
-</table>-   **[Supporting information for Now Assist for Purchase Order Management \(POM\)](supporting-information-na-pom.md)**  
+</table>-   **[Supporting information for Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supporting-information-na-pom.md)**  
 Get a quick overview of the important information that is related to the Now Assist for Purchase Order Management \(POM\) application.
 
-**Parent Topic:**[Now Assist for Purchase Order Management \(POM\)](now-assist-for-purch-order-magmt.md)
+**Parent Topic:**[Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-purch-order-magmt.md)
 

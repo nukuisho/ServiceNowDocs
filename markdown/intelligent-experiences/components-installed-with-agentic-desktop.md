@@ -2,10 +2,11 @@
 title: Components installed with AI Desktop Actions
 description: Several types of components are installed with activation of the sn\_desktop\_agents plugin, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/components-installed-with-agentic-desktop.html
 release: australia
 topic_type: reference
 last_updated: "2025-11-13"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, AI Desktop Actions, Enable AI experiences]
 ---
 
@@ -29,7 +30,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-AI Agent Admin \[sn\_aia.admin\]
+AI Agent Admin\[sn\_aia.admin\]
 
 </td><td>
 
@@ -47,7 +48,7 @@ Enables you to create, manage, and test desktop actions in AI Desktop Actions an
 
 </td></tr><tr><td>
 
-Now Assist panel user \[now\_assist\_panel\_user\]
+Now Assist panel user\[now\_assist\_panel\_user\]
 
 </td><td>
 
@@ -56,6 +57,19 @@ Enables you to trigger desktop actions from Now Assist panel and execute desktop
 </td><td>
 
 sn\_nowassist\_admin.user
+
+</td></tr><tr><td>
+
+Desktop action user\[sn\_desktop\_core.desktop\_action\_user\]
+
+</td><td>
+
+Enables you to create desktop actions using the **Record with AI** feature in AI Desktop Actions.
+
+</td><td>
+
+-   sn\_aia.admin
+-   sn\_nowassist\_admin.user
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -144,5 +158,55 @@ Now Assist AI web agents\[sn\_naa\]
 Contains system property, default AI agent and agentic workflow named Web Automation Agent and Web Automation respectively, and functionality to perform adaptive automation on web.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Desktop Actions reference](agentic-desktop-reference.md)
+</table>## System properties installed
+
+<table id="table_hkb_zvg_ljc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_desktop\_core.record\_with\_ai
+
+</td><td>
+
+Makes **Record with AI** the default recording option. Turn off this property to set the manual recorder as the default recording option.-   Type: true \| false
+-   Default: true
+
+</td></tr><tr><td>
+
+sn\_desktop\_core.max\_action\_events
+
+</td><td>
+
+Modifies the limit of maximum number of events processed during a single Desktop action execution in AI Desktop Actions.-   Type: Integer
+-   Default: 200
+
+</td></tr><tr><td>
+
+sn\_naa.allowed\_websites
+
+</td><td>
+
+Stores a list of websites that AI agents configured with adaptive desktop actions are permitted to open and perform tasks.Type: String
+
+</td></tr><tr><td>
+
+sn\_naa.keep\_tab\_open
+
+</td><td>
+
+Keeps the browser tabs that open during goal execution open after the goal completes.
+
+ If you update the value, select the **ServiceNow Web Automation** extension icon, and select **Save** on the confirmation message.
+
+ -   Type: true \| false
+-   Default: true
+
+</td></tr></tbody>
+</table>**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-reference.md)
 

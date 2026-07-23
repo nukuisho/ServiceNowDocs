@@ -2,13 +2,14 @@
 title: Configure an instance for migration
 description: Configure an instance to migrate your automations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/config-instance.html
 release: australia
 product: Automation Center
 classification: automation-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Migrate automations to ServiceNow RPA Hub, Migrating automations from UiPath to ServiceNow RPA Hub, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Migrate automations to ServiceNow RPA Hub, Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Configure an instance for migration
@@ -33,8 +34,8 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 5.  Select **Create New Connection &amp; Credentials**.
 
-    For more information about OAuth authorization in connections and credentials, see [Set up OAuth integration via MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-conn-alias-oauth-integration-via-mid-server.md).
+    For more information about OAuth authorization in connections and credentials, see [Set up OAuth integration via MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-conn-alias-oauth-integration-via-mid-server.md).
 
 
-**Parent Topic:**[Migrate automations to ServiceNow RPA Hub](../concept/migrate-automations.md)
+**Parent Topic:**[Migrate automations to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/migrate-automations.md)
 

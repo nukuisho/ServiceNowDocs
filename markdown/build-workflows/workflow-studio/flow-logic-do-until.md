@@ -2,6 +2,7 @@
 title: Do the following until flow logic
 description: Apply one or more actions repeatedly until an end condition is met. You can use the flow data to specify the end conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-do-until.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -44,50 +45,50 @@ This flow logic produces no outputs.
 
 In this example, the flow sends a daily email about the incident, until the incident is in a closed or canceled state. Inside the **Do the following** branch, there is a step for looking up the incident record.
 
-![Example Do the following until flow.](../images/do-until-example-1.png)
+\[Omitted image "do-until-example-1.png"\] Alt text: Example Do the following until flow.
 
 ## Execution details
 
-![Example execution details for a do until flow.](../images/ex-details-do-until.png "Execution details for Do the following until")
+\[Omitted image "ex-details-do-until.png"\] Alt text: Example execution details for a do until flow.
 
 1.  The header shows the state, start time, and runtime for the flow logic.
 2.  This flow logic can run actions or subflows multiple times until it's condition is met. Use the arrow icons to select an iteration and its values.
 3.  The Actions section shows details on the actions, flows, or subflows that are run during this loop iteration.
 
-**Parent Topic:**[Workflow Studio flow logic](flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 
 
-[Append to Flow Variables flow logic](../reference/append-to-flow-variables-flow-logic.md)
+[Append to Flow Variables flow logic]()
 
-[Assign subflow outputs flow logic](flow-logic-assign-subflow-outputs.md)
+[Assign subflow outputs flow logic]()
 
-[Call a workflow flow logic](flow-logic-call-workflow.md)
+[Call a workflow flow logic]()
 
-[Do the following in parallel flow logic](flow-logic-do-following-in-parallel.md)
+[Do the following in parallel flow logic]()
 
-[Dynamic flows flow logic](flow-logic-dynamic-flow.md)
+[Dynamic flows flow logic]()
 
-[End Flow flow logic](flow-logic-end-action.md)
+[End Flow flow logic]()
 
-[Exit Loop flow logic](../reference/exit-loop-flow-logic.md)
+[Exit Loop flow logic]()
 
-[For Each flow logic](flow-logic-for-each.md)
+[For Each flow logic]()
 
-[Get Flow Outputs flow logic](../reference/get-flow-outputs-flow-logic.md)
+[Get Flow Outputs flow logic]()
 
-[Go back to flow logic](../reference/go-back-to-flow-logic.md)
+[Go back to flow logic]()
 
-[If flow logic](flow-logic-if.md)
+[If flow logic]()
 
-[Make a decision flow logic](flow-logic-make-decision.md)
+[Make a decision flow logic]()
 
-[Set Flow Variables flow logic](flow-logic-set-flow-variables.md)
+[Set Flow Variables flow logic]()
 
-[Skip Iteration flow logic](../reference/skip-iteration-flow-logic.md)
+[Skip Iteration flow logic]()
 
-[Try flow logic](flow-logic-try.md)
+[Try flow logic]()
 
-[Wait for a duration flow logic](flow-logic-wait-for-a-duration.md)
+[Wait for a duration flow logic]()
 

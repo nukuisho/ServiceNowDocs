@@ -2,6 +2,7 @@
 title: Clear instance credentials in Visual Studio Code
 description: Clear the stored credentials of the current project from the system. User credentials \(instance URL, user name, password\) of a project are stored in the operating system credentials vault so that the user does not need to log in each time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/clear-credentials.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,16 +32,16 @@ Once you clear credentials from the current instance, the ServiceNow Extensions 
 
 2.  Choose **Now: Clear Credentials** from the command palette.
 
-    ![Clear Credentials command](../image/vscode-clear-credentials.png "Now: Clear credentials command")
+    \[Omitted image "vscode-clear-credentials.png"\] Alt text: Clear Credentials command
 
     The credentials of the current project are cleared.
 
 3.  Navigate to **Code** &gt; **Preferences** &gt; **Settings** &gt; **Workspace** &gt; **Extensions** &gt; **ServiceNow** to check whether the credentials and the instance URL have been deleted.
 
-    ![Navigation to clear credentials](../image/vscode-clearcredentials.png "Clear credentials")
+    \[Omitted image "vscode-clearcredentials.png"\] Alt text: Navigation to clear credentials
 
     **Note:** To re-enter your credentials, navigate to **Code** **Preferences** **Settings** **Workspace** **Extensions** **Now**. Enter your credentials in **Username** and **Password** fields.
 
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](../concept/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
 

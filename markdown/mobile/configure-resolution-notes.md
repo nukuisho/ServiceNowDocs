@@ -2,6 +2,7 @@
 title: Configure mobile resolution notes generation
 description: Generate the resolution notes that summarize work orders for mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/configure-resolution-notes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,22 +34,22 @@ Make sure that Now Assist is enabled in the instance. For more information, see 
 
     **Note:** The input form screen must have at least one **String** type input as this is where the summary text will be generated.
 
-4.  [Create a parameter action](../task/param-screen-config-actions.md).
+4.  [Create a parameter action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/param-screen-config-actions.md).
 
-5.  [Create a mobile UI rule](../task/create-mobile-ui-rule.md) with the **onUserAction** trigger type.
+5.  [Create a mobile UI rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mobile-ui-rule.md) with the **onUserAction** trigger type.
 
     This action is what will show up on the keyboard when a user clicks into an input field.
 
     **Note:** Parameter actions will only support triggering record summarization and will only appear when the input field is empty.
 
-6.  [Create a mobile UI rule action](../task/create-mobile-ui-rule-action.md) with the **Record Summarization** operation type.
+6.  [Create a mobile UI rule action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mobile-ui-rule-action.md) with the **Record Summarization** operation type.
 
 7.  Add a delete action using the **ShowDeleteAll** input attribute.
 
-    For more information, see [Input form screen attributes for inputs](../reference/parameter-screen-var-attr.md).
+    For more information, see [Input form screen attributes for inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-var-attr.md).
 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Now Assist for Mobile](configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
 

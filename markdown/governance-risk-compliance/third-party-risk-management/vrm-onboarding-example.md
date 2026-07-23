@@ -2,6 +2,7 @@
 title: Example: Onboarding a third party
 description: Acme, a large manufacturing company, is in the process of onboarding a new third party to supply critical components for their production line. To help ensure the third party's reliability and to mitigate potential risks, Acme starts a thorough third-party risk management onboarding process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/vrm-onboarding-example.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -27,7 +28,7 @@ This example illustrates a typical third-party onboarding flow in the TPRM appli
 
     After approval, the TPR manager selects **Start due diligence** to move the request into the due diligence workflow.
 
-    For more information, see [Requesting third-party risk due diligence](tprm-requesting-tpr-due-diligence.md) and [Request due diligence for a third-party engagement](../../grc-workspace-vrm/task/tprm-ws-request-dd-for-engagement.md).
+    For more information, see [Requesting third-party risk due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-requesting-tpr-due-diligence.md) and [Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.md).
 
 -   **Inherent Risk Questionnaire \(IRQ\) process**
 
@@ -37,7 +38,7 @@ This example illustrates a typical third-party onboarding flow in the TPRM appli
 
     The assessor answers the IRQ questions and submits the assessment to calculate the third party’s inherent risk level.
 
-    For more information, see [Assessing your third-party risk](tprm-assessing-tpr.md) and [Respond to an internal assessment](../../grc-workspace-vrm/task/tprm-irq-respond-to.md).
+    For more information, see [Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md) and [Respond to an internal assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-irq-respond-to.md).
 
 -   **Due diligence process: Compliance verification and data security and privacy assessment**
 
@@ -47,7 +48,7 @@ This example illustrates a typical third-party onboarding flow in the TPRM appli
 
     Third-party contacts receive and respond to questionnaires and document requests in the third-party portal.
 
-    For more information, see [Assessing your third-party risk](tprm-assessing-tpr.md), [Create an external assessment](../task/tprm-create-assessment.md), [Respond to a questionnaire for a third party or engagement](../task/tprm-respond-for-tp.md), and [Review responses to external questionnaires](../../grc-workspace-vrm/task/tprm-ws-assessment-rvw-response.md).
+    For more information, see [Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md), [Create an external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-assessment.md), [Respond to a questionnaire for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-respond-for-tp.md), and [Review responses to external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-assessment-rvw-response.md).
 
     **Note:** To streamline this step, Acme uses assessment templates, which group predefined questionnaire and document request templates for reuse.
 
@@ -59,7 +60,7 @@ This example illustrates a typical third-party onboarding flow in the TPRM appli
 
     The TPR contract negotiator reviews assessment findings and confirms that required contractual clauses are included in the third-party agreement.
 
-    For more information, see [Managing the contract risk process](tprm-ws-contract-risk-process.md) and [Accessing DD requests that are in the contract risk process](../../grc-workspace-vrm/concept/tprm-ws-dd-mgt-pg-contract-risk.md).
+    For more information, see [Managing the contract risk process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-contract-risk-process.md) and [Accessing DD requests that are in the contract risk process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-contract-risk.md).
 
 -   **Ongoing monitoring and review**
 
@@ -67,6 +68,6 @@ This example illustrates a typical third-party onboarding flow in the TPRM appli
 
     Stakeholders review ongoing assessments, monitoring results, and periodic reviews from the third-party record to track changes in risk posture.
 
-    For more information, see [Monitoring your third-party risk](tprm-monitoring-tpr.md).
+    For more information, see [Monitoring your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-monitoring-tpr.md).
 
 

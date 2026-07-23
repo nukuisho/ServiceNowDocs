@@ -2,6 +2,7 @@
 title: Edit a question in Catalog Builder
 description: Edit an existing question if you want to improve it by adding UI policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/edit-question-cat-builder.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -39,25 +40,25 @@ You can’t edit the questions that belong to single-row and multi-row variable 
 
 4.  Deactivate a question.
 
-    1.  Move to the question and select the deactivate icon \(![Deactivate icon.](../image/deactivate-quest.png)\).
+    1.  Move to the question and select the deactivate icon \(\[Omitted image "deactivate-quest.png"\] Alt text: Deactivate icon.\).
 
     2.  In the dialog box, select **Deactivate**.
 
 5.  Edit a question.
 
-    1.  Move to the question and select the edit icon \(![Edit icon.](../image/edit-quest-builder.png)\).
+    1.  Move to the question and select the edit icon \(\[Omitted image "edit-quest-builder.png"\] Alt text: Edit icon.\).
 
     2.  Make the required changes and select **Save**.
 
     **Note:** If you want to add UI policies to the question, use UI Policy tab to add them.
 
 
-**Parent Topic:**[Creating or editing catalog item template](create-cat-item-template-cat-builder.md)
+**Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
 
 **Related topics**  
 
 
-[Create UI policies in Catalog Builder](create-ui-policies-in-catalog-builder.md)
+[Create UI policies in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-ui-policies-in-catalog-builder.md)
 
-[UI policy form in Catalog Builder](ui-policy-form-in-catalog-builder.md)
+[UI policy form in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/ui-policy-form-in-catalog-builder.md)
 

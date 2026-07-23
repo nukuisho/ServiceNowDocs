@@ -2,6 +2,7 @@
 title: Create related role groups
 description: Create a connection between two different role groups in the Skills Workspace to enable a transition path for the employees to move across different role groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/related-role-groups.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -25,7 +26,7 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 1.  Navigate to **All** &gt; **Skills Workspace**.
 
-2.  Select the Lists icon \(![Lists icon](../../../common/image/icon-list.png)\).
+2.  Select the Lists icon \(\[Omitted image "icon-list.png"\] Alt text: Lists icon\).
 
 3.  Go to **Job architecture** &gt; **Role groups**.
 
@@ -35,21 +36,21 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 6.  Either create your related role group manually or by selecting from the recommendations.
 
-<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d215438e118">
+<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d220113e118">
 
 Method
 
-</th><th align="left" id="d215438e121">
+</th><th align="left" id="d220113e121">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d215438e127">
+</th></tr></thead><tbody><tr><td id="d220113e127">
 
 **Add from recommendations**
 
 </td><td>
 
-1.  Select the Recommendations icon \(![Recommendations icon](../image/skills-recommendations-icon.png)\) on the sidebar.
+1.  Select the Recommendations icon \(\[Omitted image "skills-recommendations-icon.png"\] Alt text: Recommendations icon\) on the sidebar.
 2.  Select **Link** on the role group.
 
 The linked role group and the value in the **From role group** field will create a related role group.
@@ -58,7 +59,7 @@ After linking, the role groups are not displayed in the recommendations list.
 
 **Note:** The recommendation panel is only displayed if data is available in the sn\_skills\_int\_role\_level\_m2m\_ind\_title table.
 
-</td></tr><tr><td id="d215438e163">
+</td></tr><tr><td id="d220113e163">
 
 **Manually**
 
@@ -83,14 +84,14 @@ The default value of the **From role group** field is the selected role group.
 
 A new relation between two role groups is created.
 
-**Parent Topic:**[Working with job architecture](../concept/job-architecture-working.md)
+**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/job-architecture-working.md)
 
 **Related topics**  
 
 
-[Creating a new role group through the Skills Workspace](create-new-role-group.md)
+[Creating a new role group through the Skills Workspace]()
 
-[Add more skills to a role group](adding-skills-with-skills-matrix.md)
+[Add more skills to a role group]()
 
-[Edit skills and proficiencies in the Skills Matrix](edit-skills-with-skills-matrix.md)
+[Edit skills and proficiencies in the Skills Matrix]()
 

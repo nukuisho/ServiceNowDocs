@@ -2,6 +2,7 @@
 title: MID Server protected records and reserved characters
 description: Some MID Server records cannot be altered. Certain special characters are pre-defined in XML and cannot be used in passwords.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-reserved-characters.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -81,36 +82,36 @@ For example, to specify the password as `test&` in the MID Server config.xml fil
 <parameter encrypt="true" name="mid.instance.password" value="test&amp;"/>
 ```
 
-**Parent Topic:**[MID Server reference](../concept/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
 
-[MID Server system requirements](r_MIDServerSystemRequirements.md)
+[MID Server system requirements]()
 
-[MID Server upgrades](../concept/c_UpgradeAndTestMIDServer.md)
+[MID Server upgrades]()
 
-[Resolving MID Server issues](r_MIDServerTroubleshooting.md)
+[Resolving MID Server issues]()
 
-[MID Server dashboard](../concept/c_MIDServerDashboard.md)
+[MID Server dashboard]()
 
-[MID Server properties](r_MIDServerProperties.md#)
+[MID Server properties]()
 
-[MID Server parameters](mid-server-parameters.md#)
+[MID Server parameters]()
 
-[MID Server Configuration Parameter settings and priority](mid-config-param-priority.md)
+[MID Server Configuration Parameter settings and priority]()
 
-[MID Server File Cleaner](../concept/mid_file_cleaner.md)
+[MID Server File Cleaner]()
 
-[MID Server privileged commands](../concept/c_PrivilegedCommandsForMIDServer.md#)
+[MID Server privileged commands]()
 
-[MIDSystem methods](r_MIDSystemMethods.md)
+[MIDSystem methods]()
 
-[Manually start, stop, and restart a MID Server](../task/t_InstallMIDServerAsWinService.md)
+[Manually start, stop, and restart a MID Server]()
 
-[MID Server heartbeat](r_MIDServerHeartbeat.md)
+[MID Server heartbeat]()
 
-[Set the MID Server JVM memory size](../task/t_MIDServerOptionalConfiguration.md)
+[Set the MID Server JVM memory size]()
 
-[Pause the MID Server](../task/t_PauseTheMIDServer.md#)
+[Pause the MID Server]()
 

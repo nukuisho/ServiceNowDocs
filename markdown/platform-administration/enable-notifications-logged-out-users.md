@@ -2,6 +2,7 @@
 title: Enable push notifications for logged-out users
 description: Enable push notifications for users when they're logged out to deliver timely critical updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/enable-notifications-logged-out-users.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,7 +67,7 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
 
-        After the Now Support maintenance window timeframe, the plugin will be installed on your instance.
+        After the Now Support maintenance window closes, the plugin will be installed on your instance.
 
     5.  Confirm the installation by viewing the applications listed in the **Installed** tab in the Application Manager.
 
@@ -76,7 +77,7 @@ The date and time to activate the plugin.
 
 4.  In the form, select the **Push to inactive users** check box.
 
-    If the **Push to inactive users** check box is not visible, configure the form layout. For more information, see [Configuring the form layout](../../form-administration/concept/configure-form-layout.md#).
+    If the **Push to inactive users** check box is not visible, configure the form layout. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 5.  Select **Update**.
 
@@ -97,24 +98,24 @@ The date and time to activate the plugin.
     4.  Select **Submit**.
 
 
-**Parent Topic:**[Push notifications](../concept/c_PushNotifications.md)
+**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md)
 
 **Related topics**  
 
 
-[Push notification system](../reference/r_PushMessageArchitecture.md)
+[Push notification system]()
 
-[Activate push notifications](t_ActivatePushNotifications.md)
+[Activate push notifications]()
 
-[Installed with push notifications](../reference/r_InstalledWithPushNotifications.md#)
+[Installed with push notifications]()
 
-[Push notification properties](../reference/r_PushNotificationProperties.md)
+[Push notification properties]()
 
-[Push notification setup with the ServiceNow mobile app](../reference/r_PushNotificationSetupSN.md)
+[Push notification setup with the ServiceNow mobile app]()
 
-[Push notification setup with a custom push application for ServiceNow mobile apps](../reference/r_PushNotificationSetupCustom.md)
+[Push notification setup with a custom push application for ServiceNow mobile apps]()
 
-[Requeue failed push notification messages](t_HandlingFailedPushMessages.md)
+[Requeue failed push notification messages]()
 
-[Push notification retention](../concept/push-notification-retention.md)
+[Push notification retention]()
 

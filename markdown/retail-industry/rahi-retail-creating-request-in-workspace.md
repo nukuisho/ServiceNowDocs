@@ -2,6 +2,7 @@
 title: Create and assign a retail customer complaint case in workspace
 description: Create and assign a retail customer complain case in Workspace on behalf of a customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-creating-request-in-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,15 +28,15 @@ The retail customer complaint case type enables customers to submit complaints a
 
 2.  Select **New** and fill in the information about the customer complaint.
 
-<table id="choicetable_wkg_1lc_ccc"><thead><tr><th align="left" id="d23447e102">
+<table id="choicetable_wkg_1lc_ccc"><thead><tr><th align="left" id="d24275e102">
 
 Fields
 
-</th><th align="left" id="d23447e105">
+</th><th align="left" id="d24275e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23447e113">
+</th></tr></thead><tbody><tr><td id="d24275e113">
 
 **Service**
 
@@ -43,7 +44,7 @@ Description
 
 Type of service request.
 
-</td></tr><tr><td id="d23447e123">
+</td></tr><tr><td id="d24275e123">
 
 **Customer name**
 
@@ -51,7 +52,7 @@ Type of service request.
 
 Name of the customer. **Note:** The name of the customer might not get registered in the system.
 
-</td></tr><tr><td id="d23447e134">
+</td></tr><tr><td id="d24275e134">
 
 **Customer email**
 
@@ -59,7 +60,7 @@ Name of the customer. **Note:** The name of the customer might not get registere
 
 Email address of the customer.
 
-</td></tr><tr><td id="d23447e145">
+</td></tr><tr><td id="d24275e145">
 
 **Priority**
 
@@ -67,7 +68,7 @@ Email address of the customer.
 
 Sequence in which this case must be resolved, based on the impact and urgency.
 
-</td></tr><tr><td id="d23447e156">
+</td></tr><tr><td id="d24275e156">
 
 **Assignment group**
 
@@ -75,7 +76,7 @@ Sequence in which this case must be resolved, based on the impact and urgency.
 
 Associated assignment group that is responsible for working on this request.
 
-</td></tr><tr><td id="d23447e168">
+</td></tr><tr><td id="d24275e168">
 
 **Reported Retail Organization**
 
@@ -83,7 +84,7 @@ Associated assignment group that is responsible for working on this request.
 
 Retail organization from which this request has been created.
 
-</td></tr><tr><td id="d23447e177">
+</td></tr><tr><td id="d24275e177">
 
 **Assigned to**
 
@@ -91,7 +92,7 @@ Retail organization from which this request has been created.
 
 Person who is responsible for working on this request.
 
-</td></tr><tr><td id="d23447e186">
+</td></tr><tr><td id="d24275e186">
 
 **Short description**
 
@@ -99,7 +100,7 @@ Person who is responsible for working on this request.
 
 Short description about this request.
 
-</td></tr><tr><td id="d23447e195">
+</td></tr><tr><td id="d24275e195">
 
 **Description**
 
@@ -115,5 +116,5 @@ Details about this request.
     **Note:** Select **Task** related list to view your existing tasks and select **New** to add a task.
 
 
-**Parent Topic:**[Manage customer complaints](rahi-retail-manage-customer-complaints.md)
+**Parent Topic:**[Manage customer complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-customer-complaints.md)
 

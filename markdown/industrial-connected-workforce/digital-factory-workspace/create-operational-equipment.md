@@ -2,6 +2,7 @@
 title: Create operational equipment
 description: Create operational equipment in the Digital Factory Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-operational-equipment.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -27,13 +28,9 @@ Role required: sn\_icw.admin
 
 3.  Select **Equipment** and then **New equipment**.
 
-    The following image shows an example of the Equipment tab on the operational equipment page.
-
-    ![Overview of equipment for the selected functional location with the highlighted Equipment tab](../image/equipment-tab.png)
-
 4.  On the Operational equipment form, fill in the fields.
 
-    For a description of the field values, see [Operational equipment form](../reference/operational-equipment-form.md).
+    For a description of the field values, see [Operational equipment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/operational-equipment-form.md).
 
 5.  Select **Save**.
 
@@ -42,5 +39,5 @@ Role required: sn\_icw.admin
 
 The new operational equipment is displayed in the list of equipment for the functional location or equipment model entity.
 
-**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](../concept/setting-up-prerequisites-digital-factory-workspace.md)
+**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
 

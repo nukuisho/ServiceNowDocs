@@ -2,6 +2,7 @@
 title: Migrated components
 description: When you migrate a survey, the system maps records from survey tables to assessment tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_MigratedComponents.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -69,14 +70,14 @@ Survey response \[survey\_response\]
 -   Category result \[asmt\_category\_result\], for system use only
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legacy survey migration](../concept/c_MigrateSurveys.md)
+</table>**Parent Topic:**[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MigrateSurveys.md)
 
 **Related topics**  
 
 
-[Migrate a legacy survey](../task/t_MigrateALegacySurvey.md)
+[Migrate a legacy survey]()
 
-[Survey question migration](r_SurveyQuestionMigration.md)
+[Survey question migration]()
 
-[Migrated question review](r_ReviewMigratedQuestions.md)
+[Migrated question review]()
 

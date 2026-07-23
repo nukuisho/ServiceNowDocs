@@ -1,19 +1,21 @@
 ---
 title: Distribution set form
-description: Create a distribution set to split cost allocations automatically for invoice lines.
+description: Field descriptions for the Distribution set form, organized by section, for configuring automatic cost allocation across invoice lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/distribution-set-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice management, cost allocation, GL coding, distribution set]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Distribution set form
 
-Create a distribution set to split cost allocations automatically for invoice lines.
+Field descriptions for the Distribution set form, organized by section, for configuring automatic cost allocation across invoice lines.
 
 |Field|Description|
 |-----|-----------|
@@ -33,38 +35,38 @@ Create a distribution set to split cost allocations automatically for invoice li
 |Cost center|Cost center for which the distribution set is applied.|
 |Allocation percentage|Percentage cost that is split across cost centers.|
 
-**Parent Topic:**[Accounts Payable Operations reference](acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 
 
-[Accounts Payable Operations properties](acc-pay-properties.md)
+[Accounts Payable Operations properties]()
 
-[Create New Invoice Line form](create-invoice-line-form.md)
+[Create New Invoice Line form]()
 
-[Create invoice cost allocation form](create-invoice-cost-allocation-form.md)
+[Create invoice cost allocation form]()
 
-[Outbound cost allocation staging table](outbound-cost-allocation-table.md)
+[Outbound cost allocation staging table]()
 
-[Create New Invoice case form](create-new-ap-case-form.md)
+[Create New Invoice case form]()
 
-[Create New Invoice task form](create-apm-task-form.md)
+[Create New Invoice task form]()
 
-[Invoice processing case form](invoice-processing-case-form.md)
+[Invoice processing case form]()
 
-[Tax lines](create-tax-lines-apo.md)
+[Tax lines]()
 
-[Invoice exception form](exception-form-fields.md)
+[Invoice exception form]()
 
-[Request Help form](ur-request-help-form.md)
+[Request Help form]()
 
-[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+[Data required for invoice processing]()
 
-[Invoice exception definition form](invoice-exception-definition-form.md)
+[Invoice exception definition form]()
 
-[Approval Rule form](new-approval-rule-form.md)
+[Approval Rule form]()
 
-[Approval Plan form](approval-plan-form.md)
+[Approval Plan form]()
 
-[Accounts Payable Operations glossary](../concept/apo-glossary.md#)
+[Accounts Payable Operations glossary]()
 

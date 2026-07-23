@@ -2,12 +2,13 @@
 title: Category management in Security Incident Response
 description: Configure security incident categories and subcategories for granular classification of incidents, which helps you accurately route security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/category-management-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -15,33 +16,35 @@ breadcrumb: [Configure, Security Incident Response Workspace, Security Incident 
 
 Configure security incident categories and subcategories for granular classification of incidents, which helps you accurately route security incidents.
 
--   **[Create a security incident category](../task/create-category-sir.md)**  
+-   **[Create a security incident category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-category-sir.md)**  
 Create a security incident category to use to classify security incidents in Security Incident Response Workspace.
--   **[Create a security incident subcategory](../task/create-subcategory-sir.md)**  
+-   **[Create a security incident subcategory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-subcategory-sir.md)**  
 Create subcategories for a category for a deeper classification of a security incident in Security Incident Response Workspace.
 
-**Parent Topic:**[Configuring SIR Workspace](../reference/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 
 
-[Set up view of SIR Records](set-up-view-of-sir-records.md)
+[Set up view of SIR Records]()
 
-[Configure SI design time investigation](configure-investigation-canvas-records.md)
+[Configure SI design time investigation]()
 
-[SIR Workspace Related Records](sir-records.md#)
+[SIR Workspace Related Records]()
 
-[Define the new Risk Score Calculator Rules](../task/define-risk-score-calculator-rules-sir.md)
+[Define the new Risk Score Calculator Rules]()
 
-[Configure Shift Handover](config-shift-handover.md)
+[Configure Shift Handover]()
 
-[Security Incident Response conference call integration](sir-conf-call-capability.md)
+[Security Incident Response conference call integration]()
 
-[Configure report templates in Security Incident Response](daily-status-sir.md)
+[Configure report templates in Security Incident Response]()
 
-[On-Call scheduling in Security Incident Response](on-call-schedule-sir.md)
+[On-Call scheduling in Security Incident Response]()
 
-[View and update Security Incident Response system properties](view-update-sirw-system-properties.md)
+[View and update Security Incident Response system properties]()
 
-[Create quick filters for Security Incidents and Response Tasks lists](../task/create-quick-filters-for-security-incidents.md)
+[Create quick filters for Security Incidents and Response Tasks lists]()
+
+[Timeline in Security Incident Response Workspace]()
 

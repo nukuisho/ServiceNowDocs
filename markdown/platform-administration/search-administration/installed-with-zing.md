@@ -2,6 +2,7 @@
 title: Installed with Zing
 description: Several types of components are installed with Zing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/installed-with-zing.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -82,7 +83,7 @@ System tables that support Zing. Extending or modifying these tables isn't recom
 
 |Scheduled job|Description|
 |-------------|-----------|
-|TS Search Stats|Compiles type-ahead suggestions each night. See [Update A Type-Ahead Suggestion](../task/t_UpdateATypeAheadSuggestion.md).|
+|TS Search Stats|Compiles type-ahead suggestions each night. See [Update A Type-Ahead Suggestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_UpdateATypeAheadSuggestion.md).|
 |TS Index Stats|Collects statistics and performs maintenance for text search and indexing. Runs nightly.|
 |text index events process|Collects statistics and performs maintenance for text search and indexing. Runs every 30 seconds.|
 |TS Chain Summary|Compiles search chain statistics each hour.|
@@ -91,35 +92,35 @@ System tables that support Zing. Extending or modifying these tables isn't recom
 |---------|-----------|
 |Regenerate Text Index|Displays the **Regenerate Text Index** link on Text Index forms.|
 
--   **[Zing roles](roles-zing.md#)**  
+-   **[Zing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/roles-zing.md)**  
 Zing is installed with these roles.
 
-**Parent Topic:**[Zing text indexing and search engine](../concept/c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 
 
-[Features of Zing text indexing and search engine](features-zing.md)
+[Features of Zing text indexing and search engine]()
 
-[Available search options](../concept/c_IntroductionToSearching.md)
+[Available search options]()
 
-[Global search finds records from multiple tables](../concept/c_GlobalTextSearch.md)
+[Global search finds records from multiple tables]()
 
-[Zing generates search results in four phases](../concept/c_SearchProcess.md)
+[Zing generates search results in four phases]()
 
-[Zing filters search results with access controls](../concept/zing-filters-search-results.md)
+[Zing filters search results with access controls]()
 
-[Zing computes document scores using three components](../concept/c_DocumentScoring.md)
+[Zing computes document scores using three components]()
 
-[Zing indexes words](../concept/zing-indexes-words.md)
+[Zing indexes words]()
 
-[Zing can include attachments in search results](../concept/c_SearchingForAttachments.md)
+[Zing can include attachments in search results]()
 
-[Zing removes stop words from queries](../concept/stop-words-removed-from-queries.md)
+[Zing removes stop words from queries]()
 
-[Zing matches derived words with stemming](../concept/stemming-matches-derived-words.md)
+[Zing matches derived words with stemming]()
 
-[Zing can expand search results with synonyms](../concept/search-synonyms-expand-results.md)
+[Zing can expand search results with synonyms]()
 
-[Zing displays search suggestions as users enter search terms](../concept/search-suggestions-zing.md)
+[Zing displays search suggestions as users enter search terms]()
 

@@ -2,6 +2,7 @@
 title: Domain assignments
 description: How you assign a domain impacts the value of the sys\_domain field. The assignments contain designs and business properties that affect how the application functions in each domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-assignment.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -27,58 +28,58 @@ The value of the **sys\_domain** field contains the domain that is assigned to t
 
 Make sure that your domain assignment strategies and designs are well documented and tested so that you are creating records as those strategies and designs are inserted into the correct domain. That way you can see that the properties of each domain should you need to duplicate or modify them.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 
 
-[Domain separation explained](../concept/bp-what-is-domain-separation.md)
+[Domain separation explained]()
 
-[Domain separation hierarchies](bp-domain-sep-hierarchies.md)
+[Domain separation hierarchies]()
 
-[Context and domain separation](../concept/bp-domain-sep-context.md)
+[Context and domain separation]()
 
-[Segregating and securing data with domain separation](bp-segregate-secure.md)
+[Segregating and securing data with domain separation]()
 
-[Alternatives to domain separation](bp-domain-separation-alternatives.md)
+[Alternatives to domain separation]()
 
-[Evaluating the need for domain separation](bp-evaluation-dom-sep.md)
+[Evaluating the need for domain separation]()
 
-[Benefits of domain separation](bp-advantages-dom-sep.md)
+[Benefits of domain separation]()
 
-[How a database query works with domain separation](../concept/bp-db-query-with-ds.md)
+[How a database query works with domain separation]()
 
-[Domain separation levels of support](bp-domain-levels.md)
+[Domain separation levels of support]()
 
-[Service provider reference architecture](bp-sp-reference-arch-ds.md)
+[Service provider reference architecture]()
 
-[Domain separation terms](bp-terms-conditions.md)
+[Domain separation terms]()
 
-[Domain-separate a custom table](bp-ds-custom-table.md)
+[Domain-separate a custom table]()
 
-[Customizing domain properties and themes](../concept/bp-domain-prop-themes.md)
+[Customizing domain properties and themes]()
 
-[Managing domain separation for specific uses](../concept/bp-emails-catalog-users.md)
+[Managing domain separation for specific uses]()
 
-[Configuring domain separation with the domain picker](../concept/bp-domain-picker-config-process.md)
+[Configuring domain separation with the domain picker]()
 
-[Domain separation performance considerations](../concept/bp-performance-considerations.md)
+[Domain separation performance considerations]()
 
-[Setting up domain hierarchies](../concept/bp-domain-hierarchy.md)
+[Setting up domain hierarchies]()
 
-[Checking domain logs for errors and warnings](../concept/bp-domain-logs.md)
+[Checking domain logs for errors and warnings]()
 
-[Importance of the Default domain](../concept/bp-default-domain.md)
+[Importance of the Default domain]()
 
-[Contains queries and domain access](../concept/bp-contains-domain-visibility.md)
+[Contains queries and domain access]()
 
-[Domain paths query method](../concept/bp-domain-query-method.md)
+[Domain paths query method]()
 
-[Slow queries and SQL debugging](../concept/bp-debug-sql.md)
+[Slow queries and SQL debugging]()
 
-[Before Query business rules](../concept/bp-before-query-business-rules.md)
+[Before Query business rules]()
 
-[Avoiding domain path in scripts](../concept/bp-no-domain-path-in-scripts.md)
+[Avoiding domain path in scripts]()
 
-[Domain separation and the Customer Service Management \(CSM\) plugin](../concept/bp-ds-and-csm.md)
+[Domain separation and the Customer Service Management \(CSM\) plugin]()
 

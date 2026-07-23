@@ -2,6 +2,7 @@
 title: Create a Next Experience style
 description: When you create or modify a Next Experience theme, you create and edit one or more styles. Styles include typefaces, colors, images, and shapes and forms. The new style records you create override the default Polaris or default Coral theme in Next Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/create-next-experience-style.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 When you edit Next Experience styles, you work in raw JSON code. Edit with care.
 
-You upload new typefaces or images in a separate process. See [Add Next Experience font and image assets](add-image-asset.md).
+You upload new typefaces or images in a separate process. See [Add Next Experience font and image assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-image-asset.md).
 
 ## Procedure
 
@@ -43,7 +44,7 @@ You upload new typefaces or images in a separate process. See [Add Next Experien
     
     ```
 
-4.  To save your work between steps, select the additional actions icon ![](../../workspace/image/hamburger-icon.png) and choose `Save`.
+4.  To save your work between steps, select the additional actions icon \[Omitted image "hamburger-icon.png"\] Alt text: and choose `Save`.
 
 5.  In the **Style** field, edit the JSON code to reflect the overrides you want the style to contain.
 
@@ -53,7 +54,7 @@ You upload new typefaces or images in a separate process. See [Add Next Experien
 
         The following example shows sample color overrides.
 
-        ![Style block with color overrides](../image/polaris-style-base-colors.png)
+        \[Omitted image "polaris-style-base-colors.png"\] Alt text: Style block with color overrides
 
     2.  Edit versions of the colors in the properties section of the JSON code.
 
@@ -61,20 +62,20 @@ You upload new typefaces or images in a separate process. See [Add Next Experien
 
         The following example shows sample shape overrides.
 
-        ![Style block with shape overrides](../image/polaris-style-base-shapes.png)
+        \[Omitted image "polaris-style-base-shapes.png"\] Alt text: Style block with shape overrides
 
 6.  Add fonts, images, and other theme assets.
 
-    For more information, see [Add Next Experience font and image assets](add-image-asset.md).
+    For more information, see [Add Next Experience font and image assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-image-asset.md).
 
 7.  If you have uploaded fonts, add or edit typefaces in the properties section of the JSON code and select **Update**.
 
-    ![Style block with color, shape, and font overrides](../image/polaris-style-colors-shapes-fonts.png)
+    \[Omitted image "polaris-style-colors-shapes-fonts.png"\] Alt text: Style block with color, shape, and font overrides
 
 
 ## Result
 
 The updated colors, shapes, and typefaces are visible in your theme.
 
-**Parent Topic:**[Configuring Next Experience themes and preferences](config-next-experience-themes-prefs.md)
+**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
 

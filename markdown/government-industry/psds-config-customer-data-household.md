@@ -2,6 +2,7 @@
 title: Configure households in Public Sector Digital Services
 description: The household entity represents a group of constituents that usually share a common address and use services as a group Service Model Foundation uses the household form to store details about a constituent household, including its members, their relationships, and any cases, entitlements, or contracts associated with them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-customer-data-household.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ A household is made up of constituents who have been added as members of that ho
 
 **Note:** A household has an address and constituents have their own addresses. These addresses don’t need to be the same to add a constituent or user as a member to a household.
 
-![Configuring households view in PSDS](../image/psds_config_households_view.png)
+\[Omitted image "psds\_config\_households\_view.png"\] Alt text: Configuring households view in PSDS
 
 Support complex constituent/household relationships. Resolve issues related to shared services faster with access to the entire household's account history. Provide easy and secure authorized access to identified persons for streamlined engagement. Assigning a specific agent for handling all issues for a given household.
 

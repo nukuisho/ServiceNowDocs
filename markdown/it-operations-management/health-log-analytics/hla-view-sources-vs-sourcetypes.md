@@ -1,7 +1,8 @@
 ---
-title: View the relationships between source types and log sources in Health Log Analytics
-description: Explore the many-to-many relationships between source types and log sources to help you optimize your data input mapping.
+title: Source type and log source relationships
+description: Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -12,13 +13,13 @@ keywords: [ServiceNow, Health Log Analytics, HLA, relationship, source type, log
 breadcrumb: [Log data auto-mapping and mapping, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# View the relationships between source types and log sources in Health Log Analytics
+# Source type and log source relationships
 
-Explore the many-to-many relationships between source types and log sources to help you optimize your data input mapping.
+Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
 
 ## Before you begin
 
-For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](../concept/hla-data-input-automapping.md).
+For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -46,5 +47,5 @@ Health Log Analytics uses source types to parse logs and utilizes log sources as
     **Note:** The displayed results are updated once a day. Results that are older than 24 hours are deleted automatically.
 
 
-**Parent Topic:**[Log data auto-mapping and mapping in Health Log Analytics](../concept/hla-data-input-automapping.md)
+**Parent Topic:**[Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
 

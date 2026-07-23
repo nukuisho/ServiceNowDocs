@@ -2,6 +2,7 @@
 title: Share a Core UI report
 description: Control which users and groups can see a report in their Reports list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_ShareASetting.html
 release: australia
 product: Reporting
 classification: reporting
@@ -20,7 +21,7 @@ Control which users and groups can see a report in their Reports list.
 
 Role required: report\_admin, report\_global, or report\_group.
 
-This topic refers to Reporting in the Core UI. If your instance is a Australia release or migrated to Platform Analytics experience, see [Share a data visualization in the Visualization Designer](share-dv-ac.md#).
+This topic refers to Reporting in the Core UI. If your instance is a Australia release or migrated to Platform Analytics experience, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-dv-ac.md).
 
 The following roles can share reports:
 
@@ -102,7 +103,7 @@ You can control who sees reports by making them:
 -   Visible to one or more specific users
 -   Visible to one or more specific groups
 
-**Note:** The permissions of a report can constrain the number of users or groups you can share a report with. For more information, see [Restrict report creation with an ACL rule](t_RestrictRepCreationWAnACLRule.md).
+**Note:** The permissions of a report can constrain the number of users or groups you can share a report with. For more information, see [Restrict report creation with an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_RestrictRepCreationWAnACLRule.md).
 
 It is not possible to grant edit rights on a report when you share it.
 
@@ -110,9 +111,9 @@ It is not possible to grant edit rights on a report when you share it.
 
 1.  Navigate to **All** &gt; **Reports** &gt; **View / Run** and select the report you want to control.
 
-    On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](../../dashboards/reference/differences-between-core-ui-ne-dbs.md).
+    On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
-2.  In the upper right side of the report form, click the **Sharing** icon \(![Sharing icon](../../../common/image/Form_ShareIcon.png)\) and select **Share**.
+2.  In the upper right side of the report form, click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Share**.
 
 3.  In the Sharing settings dialog box, fill in the fields and click **OK**.
 
@@ -160,23 +161,23 @@ Users
 Users who have permission to see the report.This field is available when the **Groups and Users** option is selected.
 
 </td></tr></tbody>
-</table>4.  Click the **Sharing** icon \(![Sharing icon](../../../common/image/Form_ShareIcon.png)\) and select **Add to Dashboard** or **Publish**.
+</table>4.  Click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Add to Dashboard** or **Publish**.
 
 5.  Share the dashboard or share the URL of the published report.
 
     You can share the URL of the published report with any user, role, or group with whom you have shared the report.
 
-    To publish a report, enable the property **glide.report.published\_reports.enabled**. For more information, see [\(Legacy\) Publish a report](t_PublishAReport.md#).
+    To publish a report, enable the property **glide.report.published\_reports.enabled**. For more information, see [\(Legacy\) Publish a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_PublishAReport.md).
 
     The people with whom you share the report must have rights to view the report data.
 
 
-**Parent Topic:**[Distribute reports](../concept/c_DistributeReports.md)
+**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_DistributeReports.md)
 
 **Related topics**  
 
 
-[Share a responsive dashboard](../../dashboards/task/t_ControlAccessToADashboard.md)
+[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 
-[Administering reports](../concept/c_AdminsteringReports.md)
+[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 

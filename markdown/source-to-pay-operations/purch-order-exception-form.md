@@ -2,10 +2,11 @@
 title: Purchase order exception form
 description: Use the purchase order exception form to view the information that an Operational Buyer can use to perform related tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/purch-order-exception-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [purchase order exception form, fields in purchase order exception form]
 breadcrumb: [Reference, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -145,15 +146,21 @@ Unit price
 Price per unit of the item.
 
 </td></tr></tbody>
-</table>-   **[Purchase order exception form tabs](purch-order-exception-form-tabs.md)**  
+</table>-   **[Purchase order exception form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purch-order-exception-form-tabs.md)**  
 The Purchase order exception form includes tabs that store exception information, which an Operational Buyer can use to perform related tasks.
 
-**Parent Topic:**[Purchase Order Management reference](purchase-order-mgmt-reference.md)
+**Parent Topic:**[Purchase Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/purchase-order-mgmt-reference.md)
 
 **Related topics**  
 
 
-[Delivery plan change form](create-delivery-plan-change.md)
+[Delivery plan change form]()
 
-[Create new purchase order exception form](create-new-poe-form.md)
+[Create new purchase order exception form]()
+
+[Master data tables for Purchase Order Management]()
+
+[Raise a delivery plan change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/raise-delivery-plan-chg-req.md)
+
+[Submit a delivery plan change request from a purchase order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/submit-del-plan-chg-from-po-line.md)
 

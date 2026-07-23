@@ -2,6 +2,7 @@
 title: Horizontal relationships between products
 description: By using a compatibility rule, you can define the horizontal relationships between your product, service, and resource specifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/horizontal-relationships.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,5 +22,12 @@ The compatibility rules include the horizontal relationships between your produc
 
 Let's look at an example of a horizontal relationship, such as the relationship between the Voice over Internet Protocol \(VoIP\) and an internet service. VoIP requires an active internet connection but VoIP and an internet service are defined in a different product hierarchy. With a horizontal relationship, you can define a relationship between VoIP and an internet service in the product catalog to support the order creation process for VoIP and to fulfill the order.
 
-**Parent Topic:**[Order fulfillment](reviewing-orchestration-plans-order-fulfillment.md)
+**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

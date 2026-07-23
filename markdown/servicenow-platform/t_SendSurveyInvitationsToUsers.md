@@ -2,6 +2,7 @@
 title: Send survey invitations to users
 description: You can send survey invitations using the Assign Survey or Send Invitations buttons on the Survey Definition form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_SendSurveyInvitationsToUsers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ Each of the buttons generates survey instances assigned to the appropriate users
 
 3.  Complete one of the following actions.
 
-<table id="choicetable_yzz_24g_45"><tbody><tr><td id="d615808e123">
+<table id="choicetable_yzz_24g_45"><tbody><tr><td id="d631753e123">
 
 **Assign a survey to users listed in the Survey Users related list**
 
@@ -45,7 +46,7 @@ Each of the buttons generates survey instances assigned to the appropriate users
 
 Click **Send invitations**.
 
-</td></tr><tr><td id="d615808e135">
+</td></tr><tr><td id="d631753e135">
 
 **Assign a survey to any user**
 
@@ -57,26 +58,26 @@ Click **Assign Survey** and select one or more users, and then click **OK**.
 </table>    The system creates a survey instance assigned to the user or users, assuming the user is eligible to receive a new survey instance. When you use the **Assign Survey** button, the selected user is not saved as a survey user.
 
 
-**Parent Topic:**[Survey distribution](../concept/c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 
 
-[Email notifications for surveys](../concept/email-notification-for-surveys.md)
+[Email notifications for surveys]()
 
-[Define a recipients list for surveys](define-recipient-list.md)
+[Define a recipients list for surveys]()
 
-[Add a recipients list to a survey](add-recipient-list-survey.md)
+[Add a recipients list to a survey]()
 
-[Embed a survey within the Outlook email client](embed-survey-in-outlook-email.md)
+[Embed a survey within the Outlook email client]()
 
-[Enable localization for a survey](enable-localization-survey.md)
+[Enable localization for a survey]()
 
-[Survey URLs](../concept/c_SurveyURLs.md)
+[Survey URLs]()
 
-[Create a survey module](t_CreatingASurveyModule.md)
+[Create a survey module]()
 
-[Sharing surveys](../concept/c_SurveyInportAndExport.md)
+[Sharing surveys]()
 
-[Configure a survey in the Connect chat support](take-survey-connect-chat.md)
+[Configure a survey in the Connect chat support]()
 

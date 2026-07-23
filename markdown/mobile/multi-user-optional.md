@@ -2,6 +2,7 @@
 title: Optional settings for multi-user configuration
 description: Use optional settings on a shared device to define how long users are allowed to remain inactive before being required to reenter their PIN. The default is 300 seconds. You also have the option define the maximum number of users permitted on a shared device. The default is 15 users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/multi-user-optional.html
 release: australia
 topic_type: task
 last_updated: "2026-04-29"
@@ -29,7 +30,7 @@ There are three optional settings that can be used when working with the multi-u
 
     **Note:** When enabling push notifications on a shared device, be aware that other users using the device may be able to view other users’ notifications and banners.
 
--   Set the maximum idle time before users are prompted to re-enter their PIN. The default is 300 seconds. This feature is described in the topic [PIN timeout](pin-timeout.md).
+-   Set the maximum idle time before users are prompted to re-enter their PIN. The default is 300 seconds. This feature is described in the topic [PIN timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/pin-timeout.md).
 
 ## Procedure
 

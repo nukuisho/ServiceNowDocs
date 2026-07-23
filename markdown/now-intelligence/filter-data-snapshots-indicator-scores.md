@@ -2,6 +2,7 @@
 title: Filter native Data snapshots indicator scores in KPI Details
 description: Filter native Data snapshots indicators by the fields on their Data snapshots sources. For fields that refer to tables with report hierarchies, roll up scores to the parent field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/filter-data-snapshots-indicator-scores.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,17 +20,17 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 ## Procedure
 
-1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](../../performance-analytics/task/view-kpi-details.md).
+1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-kpi-details.md).
 
-2.  In the sidebar of KPI Details, select the Filter icon. ![Filter icon highlighted on sidebar.](../image/kpi-details-filter-icon.png)
+2.  In the sidebar of KPI Details, select the Filter icon. \[Omitted image "kpi-details-filter-icon.png"\] Alt text: Filter icon highlighted on sidebar.
 
     You see a list of the currently available fields that can filter this indicator.
 
 3.  Change which fields can filter the indicator.
 
-    1.  Select ![Configure icon.](../../../common/image/Form_PersonalizeFormIcon.png) **Configure** at the beginning of the Filters panel.
+    1.  Select \[Omitted image "Form\_PersonalizeFormIcon.png"\] Alt text: Configure icon. **Configure** at the beginning of the Filters panel.
 
-        ![The Configure button at the beginning of the Filters panel.](../image/kpid-ds-configure-filters.png)
+        \[Omitted image "kpid-ds-configure-filters.png"\] Alt text: The Configure button at the beginning of the Filters panel.
 
     2.  Select and deselect fields that you can filter by.
 
@@ -49,11 +50,11 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
     Example: The Functional Location.Location filter follows the Location record hierarchy. In this hierarchy, the Packing Area - Amsterdam value has two children, Packaging Machine - Amsterdam and Packing Line - Amsterdam. With **Is in hierarchy** turned off, Packing Area - Amsterdam shows only its own count of 9 records, excluding the record counts of its children.
 
-    ![Filters in a hierarchy with Is in hierarchy turned off.](../image/kpid-filter-ds-hierarchy-off.png)
+    \[Omitted image "kpid-filter-ds-hierarchy-off.png"\] Alt text: Filters in a hierarchy with Is in hierarchy turned off.
 
     With **Is in hierarchy** turned on, Packing Area - Amsterdam shows a count of 22 records: its own 9 records, plus the 7 Packaging Machine - Amsterdam and the 6 Packing Line - Amsterdam records.
 
-    ![Filters in a hierarchy with Is in hierarchy turned on.](../image/kpid-filter-ds-hierarchy-on.png)
+    \[Omitted image "kpid-filter-ds-hierarchy-on.png"\] Alt text: Filters in a hierarchy with Is in hierarchy turned on.
 
 6.  In the **Sort by** menu, sort the elements by name, by the score for the selected date, or by the change from the previous date.
 
@@ -65,29 +66,29 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 8.  If you have selected multiple elements, select how to display the elements.
 
-    By default, the aggregate score is displayed. Select **Display as separate time series** to show each element separately. You can make a selection only in cases where both aggregate and separate score displays are possible. For more information, see [Aggregate score of multiple elements](apply-brkdowns-element-kpi-details.md#).
+    By default, the aggregate score is displayed. Select **Display as separate time series** to show each element separately. You can make a selection only in cases where both aggregate and separate score displays are possible. For more information, see [Aggregate score of multiple elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/apply-brkdowns-element-kpi-details.md).
 
 9.  Click **Apply**
 
 
-**Parent Topic:**[Examining indicators with KPI Details](../reference/kpi-details-components.md)
+**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
 
 **Related topics**  
 
 
-[View contributing indicators to a formula in KPI Details](../concept/view-formula-components.md)
+[View contributing indicators to a formula in KPI Details]()
 
-[Show, compare, create, and edit records in KPI Details](../concept/show-compare-edit-records.md#)
+[Show, compare, create, and edit records in KPI Details]()
 
-[Chart options in KPI Details](../reference/chart-options.md)
+[Chart options in KPI Details]()
 
-[Select time aggregation in KPI Details](select-time-series-aggregation.md)
+[Select time aggregation in KPI Details]()
 
-[Configure trend for a native Data snapshots indicator in KPI Details](configure-trend-ds-indicator.md)
+[Configure trend for a native Data snapshots indicator in KPI Details]()
 
-[Configure display properties for a Data snapshots indicator](configure-display-properties-ds-indicator.md)
+[Configure display properties for a Data snapshots indicator]()
 
-[Filter indicator scores by breakdown elements in KPI Details](apply-brkdowns-element-kpi-details.md#)
+[Filter indicator scores by breakdown elements in KPI Details]()
 
-[Access indicator record or scoresheet from KPI Details](access-indicator-record-scoresheet.md)
+[Access indicator record or scoresheet from KPI Details]()
 

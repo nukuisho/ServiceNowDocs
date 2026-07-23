@@ -2,6 +2,7 @@
 title: AI Desktop Actions
 description: ServiceNow AI Desktop Actions enables you to design, configure, and manage desktop actions that automate repetitive tasks in your desktop and web environment. AI agents can autonomously and semi-autonomously process instructions, generate execution plans, and run desktop actions across legacy systems, thick client applications, and web applications without APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/agentic-desktop-landing-page.html
 release: australia
 topic_type: reference
 last_updated: "2025-10-12"
@@ -21,53 +22,53 @@ ServiceNow® AI Desktop Actions enables you to design, configure, and manage des
 
 There are two types of desktop actions: defined path and adaptive path. Both enable AI agents to automate tasks on behalf of users, but they differ in how steps are designed and executed, what applications they support, and how they handle variation in the user interface.
 
--   **[Adaptive desktop actions for web-based tasks](../concept/web-agents-overview.md)**
+-   **[Defined desktop actions for desktop and web-based tasks \(deterministic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions.md)**
 
-    With adaptive path desktop actions, you describe what task you want to accomplish on web at a high level in the tool configuration. The AI agent processes the request, generates an execution plan, and dynamically determines the specific steps needed to complete the task.
-
-    Best for: Tasks that require flexibility, decision-making, or adaptation to changing UI elements.
-
--   **[Defined desktop actions for desktop and web-based tasks](../concept/desktop-actions.md)**
-
-    With defined path desktop actions, you record or capture a fixed sequence of steps in the AI Desktop Actions Windows application. The AI agent executes these predefined steps in order without deviation.
+    With defined path desktop actions, you record with AIor capture a fixed sequence of steps in the AI Desktop Actions Windows application. The AI agent executes these predefined steps in order without deviation.
 
     Best for: Repeatable tasks with consistent steps and predictable UI interactions.
 
+-   **[Adaptive desktop actions for web-based tasks \(probabilistic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/web-agents-overview.md)**
 
-For more information, see [When to use adaptive vs. defined path desktop actions](../concept/adaptive-vs-fixed-desktop-action.md).
+    With adaptive path desktop actions, you describe what task you want to accomplish at a high level in the tool configuration for web-based tasks. The web-based tasks include performing tasks on web applications or websites. The AI agent processes the request, generates an execution plan, and dynamically determines the specific steps needed to complete the task.
+
+    Best for: Tasks that require flexibility, decision-making, or adaptation to changing UI elements.
+
+
+For more information, see [When to use adaptive vs. defined path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/adaptive-vs-fixed-desktop-action.md).
 
 ## Get started
 
 <table id="table_l3z_3x3_ygc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about AI Desktop Actions concepts and features](../concept/explore-agentic-desktop.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about AI Desktop Actions concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/explore-agentic-desktop.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up AI Desktop Actions to automate desktop tasks](../task/configure-agentic-desktop.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up AI Desktop Actions to automate desktop tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md)
 
 </td><td>
 
-[Design![](../../../reuse/icons/brand-icons/bus-low-code-dev-tools.svg)Design automations for legacy applications that do not have APIs](../concept/desktop-actions-designer-workspace-ad.md)
+[Design\[Omitted image "bus-low-code-dev-tools.svg"\] Alt text:Design automations for legacy applications that do not have APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/desktop-actions-designer-workspace-ad.md)
 
 </td></tr><tr><td>
 
-[Create an AI agent![](../../../reuse/icons/brand-icons/bus-virtual-agent.svg)Create your own custom AI agents with advanced multi-agent reasoning frameworks](../concept/create-ai-agents-ad.md)
+[Create an AI agent\[Omitted image "bus-virtual-agent.svg"\] Alt text:Create your own custom AI agents with advanced multi-agent reasoning frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-agents-ad.md)
 
 </td><td>
 
-[Use ![](../../../administer/document-intelligence/image/icon-use-docintel.png) Use the AI Desktop Actions application to execute automations using AI agents.](../concept/use-agentic-desktop.md)
+[Use \[Omitted image "icon-use-docintel.png"\] Alt text: Use the AI Desktop Actions application to execute automations using AI agents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about the AI Desktop Actions properties and components](agentic-desktop-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about the AI Desktop Actions properties and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Helpful resources
@@ -86,7 +87,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](../../../administer/now-assist-admin/task/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](../../../administer/now-assist-platform/concept/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

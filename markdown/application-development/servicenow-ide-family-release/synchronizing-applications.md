@@ -2,6 +2,7 @@
 title: Synchronizing applications in the ServiceNow IDE
 description: Synchronizing an application in the ServiceNow IDE downloads and transforms application metadata into ServiceNow Fluent code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/synchronizing-applications.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -21,9 +22,9 @@ In the ServiceNow IDE, when metadata in an application is changed, you're prompt
 
 **Note:** If you ignore the notification to sync an application, you aren't prompted to do so again for the remainder of the session. If you try to install the application or refresh the browser, you are prompted to sync again.
 
-You can sync an application on demand from the Now SDK view \(![Now SDK](../image/servicenow-ide-sdk-icon.png)\) or from the command palette with the `Fluent: Sync Fluent App with changed metadata` command.
+You can sync an application on demand from the Now SDK view \(\[Omitted image "servicenow-ide-sdk-icon.png"\] Alt text: Now SDK\) or from the command palette with the `Fluent: Sync Fluent App with changed metadata` command.
 
-![The Sync command in the Now SDK view.](../image/servicenow-ide-sync.png)
+\[Omitted image "servicenow-ide-sync.png"\] Alt text: The Sync command in the Now SDK view.
 
 ## Synchronization process in the ServiceNow IDE
 
@@ -40,10 +41,10 @@ The following list explains the stages of the synchronization process for applic
     -   Only the changes made since the last time the application was synced are downloaded and transformed.
     -   Optionally, you can synchronize all metadata in the application with the `Fluent: Force Sync of Fluent App with all metadata` command from the command palette. Before running this command, you should stage any changes to retain them.
 
-**Parent Topic:**[Developing applications with the ServiceNow IDE](developing-applications-servicenow-ide.md)
+**Parent Topic:**[Developing applications with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/developing-applications-servicenow-ide.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](../../servicenow-sdk/concept/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
 

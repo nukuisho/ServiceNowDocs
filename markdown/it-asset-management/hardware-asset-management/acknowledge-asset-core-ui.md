@@ -2,13 +2,14 @@
 title: Acknowledge receipt of an asset through the Core UI
 description: As an employee, acknowledge receipt of the new asset that you received through a Zero Touch Refresh request through the Core UI on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/acknowledge-asset-core-ui.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Acknowledge receipt of an asset through the Core UI
@@ -34,18 +35,18 @@ Role required: none
 
 The state of the Receive asset task of the Zero Touch Refresh request changes to **Closed**.
 
-**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](../concept/refresh-hardware-uisng-ztr.md)
+**Parent Topic:**[Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md)
 
 **Related topics**  
 
 
-[Configure replacement models for a refresh model](create-replacement-model.md)
+[Configure replacement models for a refresh model]()
 
-[Request a hardware asset refresh through Zero Touch Refresh](create-zero-touch-refresh-request.md)
+[Request a hardware asset refresh through Zero Touch Refresh]()
 
-[Fulfill a Zero Touch Refresh Fulfillment Request](process-zero-touch-refresh-order.md)
+[Fulfill a Zero Touch Refresh Fulfillment Request]()
 
-[Process a Zero Touch Refresh request](process-zero-touch-asset-request.md)
+[Process a Zero Touch Refresh request]()
 
-[Acknowledge receipt of an asset on a mobile device](receive-assets-from-ztr.md)
+[Acknowledge receipt of an asset on a mobile device]()
 

@@ -2,6 +2,7 @@
 title: Link to Major Security Incident
 description: Link security incidents to a major security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/link-si-msi.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -53,12 +54,12 @@ The proposal is submitted and the following actions occur:
 -   The **Activity** section in the MSIM Workspace shows that the security incident has been added as a child security incident to the major security incident with a link.
 
 
-**Parent Topic:**[Propose, promote, and link incident records](../../security-incident-response/concept/promoting-sir-to-msim.md)
+**Parent Topic:**[Propose, promote, and link incident records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/promoting-sir-to-msim.md)
 
 **Related topics**  
 
 
-[Propose as a Major Security Incident](propose-as-msi.md)
+[Propose as a Major Security Incident]()
 
-[Promote to a Major Security Incident](promote-msi.md)
+[Promote to a Major Security Incident]()
 

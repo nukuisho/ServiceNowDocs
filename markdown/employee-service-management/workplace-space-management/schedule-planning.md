@@ -2,6 +2,7 @@
 title: Schedule Planning
 description: Manage space assignments to help employees head back to the office.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/schedule-planning.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -33,15 +34,15 @@ You must install the following plugins to use the Schedule Planner module:
 -   Workplace Central
 -   Workplace Space Management
 
-You can install the plugins from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). You can also visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information of all the released apps, see the [ServiceNow Store release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+You can install the plugins from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). You can also visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information of all the released apps, see the [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 **Important:** You must set a value for the **sn\_wsd\_core.ALLOCATION\_TYPE** property to enable schedule planning.
 
 To access the Schedule Planner, navigate to **All** &gt; **Workplace Central**, then select the **Schedule Planner** module in the workspace.
 
-![Schedule Planner dashboard with information about schedule plans, departments, users, and allocations.](../images/schedule-plan-dashboard.png)
+\[Omitted image "schedule-plan-dashboard.png"\] Alt text: Schedule Planner dashboard with information about schedule plans, departments, users, and allocations.
 
-As a project owner, you can view the created schedule plans, projects assigned to you, and the spaces and users assigned to the projects. You can create a schedule plan or edit existing schedule plans. For more information, see [Working with Schedule Planning](working-with-schedule-planning.md).
+As a project owner, you can view the created schedule plans, projects assigned to you, and the spaces and users assigned to the projects. You can create a schedule plan or edit existing schedule plans. For more information, see [Working with Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-planning.md).
 
 **Note:** A project owner can create schedule plans for the projects that are assigned to them. Projects can be assigned to a user from the following fields:
 
@@ -63,36 +64,32 @@ A schedule plan can be in one of the following states:
 
 **Note:** The **Complete the lapsed schedule plan** job runs every day to check which schedule plans have reached the end date and move them to the **Complete** state.
 
-**Parent Topic:**[Exploring Workplace Space Management](../../workplace-space-management/concept/explore_wsm.md)
+**Parent Topic:**[Exploring Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/explore_wsm.md)
 
-**Parent Topic:**[Explore Workplace Central](workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 
 
-[Space Optimization](space-optimization.md)
+[Space Optimization]()
 
-[Scenario Planning](scenario-planning.md)
+[Scenario Planning]()
 
-[Allocation - types, setting, and impact](../../workplace-space-management/reference/setting-an-allocation-and-its-impact.md)
+[Allocation - types, setting, and impact]()
 
-[Lists module](wsd-lists-module.md)
+[Lists module]()
 
-[Workplace Analytics](workplace-analytics.md)
+[Workplace Analytics]()
 
-[Space Planning](space-planning.md)
+[Space Planning]()
 
-[Space Optimization](space-optimization.md)
+[Space assistance]()
 
-[Scenario Planning](scenario-planning.md)
+[Event Planner]()
 
-[Space assistance](space-assistance.md)
+[Move Management]()
 
-[Event Planner](event-planner.md)
+[Case management]()
 
-[Move Management](move-mgmt.md)
-
-[Case management](case-management-workspace.md)
-
-[Kiosk Indoor Mapping](kiosk-indoor-mapping.md)
+[Kiosk Indoor Mapping]()
 

@@ -2,9 +2,10 @@
 title: Enable voice input for Now Assist panel
 description: Give users the option to use their voice when interacting with the Now Assist panel to make the panel more accessible. Voice input enables you to use the panel without needing to use a keyboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/enable-voice-input-for-now-assist-panel.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring Now Assist Admin features, Now Assist, Enable AI experiences]
 ---
@@ -15,9 +16,9 @@ Give users the option to use their voice when interacting with the Now Assist pa
 
 ## Before you begin
 
-**Note:** Voice input is automatically activated when the Now Assist panel is activated. As of the Zurich Patch 4 release, voice input is configured in [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md) and not with this option.
+**Note:** Voice input is automatically activated when the Now Assist panel is activated. As of the Zurich Patch 4 release, voice input is configured in  and not with this option.
 
-You must have installed at least one Now Assist application with a skill that uses the Now Assist panel. See [Now Assist panel](../../now-assist-platform/concept/now-assist-panel-overview.md) for more information about supported skills.
+You must have installed at least one Now Assist application with a skill that uses the Now Assist panel. See [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) for more information about supported skills.
 
 Role required: sn\_generative\_ai.nsa\_admin
 
@@ -44,5 +45,5 @@ The voice input feature is not supported in regulated markets.
 
 Users can choose whether they can use their voice to interact with the Now Assist panel in their Next Experience accessibility preferences.
 
-**Parent Topic:**[Configuring Now Assist Admin features](../concept/configuring-na-landing.md)
+**Parent Topic:**[Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 

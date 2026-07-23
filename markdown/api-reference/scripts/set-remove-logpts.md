@@ -2,6 +2,7 @@
 title: Set or remove logpoints
 description: Set breakpoints or conditional logpoints to log messages to the console at specific lines, and remove logpoints when you are done debugging them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/set-remove-logpts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -42,7 +43,7 @@ Logpoints belong to the developer who sets them. Developers must set and remove 
 
     **Note:** The script entered for the logpoint must have the same format as that of the script in GSLog and GSInfo script includes.
 
-3.  From the Syntax Editor toolbar, click the **Open Script Debugger** icon ![Script debugger icon](../image/script-debugger.png).
+3.  From the Syntax Editor toolbar, click the **Open Script Debugger** icon \[Omitted image "script-debugger.png"\] Alt text: Script debugger icon.
 
 4.  On the Script Debugger window, trigger the script.
 
@@ -55,5 +56,5 @@ Logpoints belong to the developer who sets them. Developers must set and remove 
 6.  When debugging is complete, remove logpoints from the script.
 
 
-**Parent Topic:**[Script Debugger and Session Log](../concept/script-debugger.md)
+**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
 

@@ -2,6 +2,7 @@
 title: Create a board
 description: Create boards that bring strategic priorities, goals, and targets together in one focused view, helping your organization stay aligned and drive measurable business outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-board-strategy.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -65,7 +66,7 @@ Select one or both options to determine what you want to track on the board:-   
 -   **Goals**: Enables you to select entities to track goals for, or filter the goals and targets that you want to view and track on the board. This option enables the Goals page on the board after creation.
 Selecting both **Strategy** and **Goals** options enables both Strategy and Goals pages on the board.
 
-![Create a board in strategy and goal for tracking both strategy and goals.](../image/create-board-strategy-goals-selection.png)
+\[Omitted image "create-board-strategy-goals-selection.png"\] Alt text: Create a board in strategy and goal for tracking both strategy and goals.
 
 </td></tr><tr><td>
 
@@ -96,7 +97,7 @@ Select Strategic plans or Strategic priorities option based on which you want to
 -   **Strategic Priorities**: Enables you to filter the strategic priorities that you want to view on the board and their associated strategic plans \(if any\).
 For example, you can filter the strategic priorities that are part of the strategic plan, Enterprise AI transmission.
 
-![Create a board in strategy and goal for tracking a strategic plan and its associated goals.](../image/create-board-strategic-plan-selection.gif)
+\[Omitted image "create-board-strategic-plan-selection.gif"\] Alt text: Create a board in strategy and goal for tracking a strategic plan and its associated goals.
 
 </td></tr><tr><td>
 
@@ -106,14 +107,14 @@ Filter conditions to show strategic plans / strategic priorities on the board
 
 Apply the filters to see the required records on the board.For example, you can further filter the strategic priorities that belong to the HR department.
 
-![Apply filters on the Strategy step for Strategic priorities.](../image/create-board-strategic-priorities-filter.gif)
+\[Omitted image "create-board-strategic-priorities-filter.gif"\] Alt text: Apply filters on the Strategy step for Strategic priorities.
 
 </td></tr></tbody>
 </table>    3.  On the **Filter Goals/Targets** step, select an entity type from the **Select an entity type** list, select the required entities, and then select **Create**.
 
         **Tip:** To narrow your focus, select **Advanced filter criteria** to apply additional filters on the goals or targets displayed on the board. For example, you can filter the goals associated with the Chatbot team.
 
-        ![Apply filters on the Goals/Targets step for team's goals.](../image/create-board-goal-filter-team.gif)
+        \[Omitted image "create-board-goal-filter-team.gif"\] Alt text: Apply filters on the Goals/Targets step for team's goals.
 
         You can use **Previous** and **Next** to navigate between the steps.
 
@@ -124,16 +125,16 @@ Apply the filters to see the required records on the board.For example, you can 
 
 The board is created and displays the Strategy page, Goals page, or both, depending on what you selected to track.
 
-**Parent Topic:**[Managing boards in Strategic Planning Workspace](../concept/managing-boards-strategy.md)
+**Parent Topic:**[Managing boards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/managing-boards-strategy.md)
 
 **Related topics**  
 
 
-[Create a strategic plan](create-strategic-plan-strategy.md)
+[Create a strategic plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-strategic-plan-strategy.md)
 
-[Create a strategic priority](create-strategic-priority-strategy.md)
+[Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-strategic-priority-strategy.md)
 
-[Create a goal](create-goal-strategy.md)
+[Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-goal-strategy.md)
 
-[Share a board](share-board-strategy.md)
+[Share a board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/share-board-strategy.md)
 

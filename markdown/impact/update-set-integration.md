@@ -1,34 +1,44 @@
 ---
-title: Update set integration
-description: Scans performed on update sets automatically sync from Developer to Production instances defined in My SN Instances once the update set scan is marked complete.
+title: Configure update set integration
+description: Configure the update set integration to automatically synchronize update set scan results from developer instances to the production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/update-set-integration.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-07"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Deployment and synchronization integrations, Configure Scan Engine integrations, Configuring Impact, Impact]
 ---
 
-# Update set integration
+# Configure update set integration
 
-Scans performed on update sets automatically sync from Developer to Production instances defined in **My SN Instances** once the update set scan is marked complete.
+Configure the update set integration to automatically synchronize update set scan results from developer instances to the production instance.
 
 ## Before you begin
 
+My SN Instances registration and authentication must be complete. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
+
 Role required: admin
-
-Register your instances.
-
-See [Register your instance](../task/register-your-instance.md).
 
 ## Procedure
 
 1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
-    For more information, see [Configure update set scanning properties](../task/update-set-scanning-properties.md).
+2.  Select the **Update set scanning** properties tab.
 
-2.  Select the **Update set scanning** properties tab, and then configure the settings.
+3.  Configure the integration settings.
 
-3.  Select **Enable update set summary scan synchronization** to automatically sync update set scans between instances.
+4.  Select **Enable update set summary scan synchronization** to automatically sync update set scan summaries between instances.
 
+
+## Result
+
+Update set scans completed on developer instances sync automatically to the Production instance.
+
+**Parent Topic:**[Deployment and synchronization integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/deployment-sync-integrations.md)
+
+**Related topics**  
+
+
+[Configure AES/AEMC integration properties]()
 

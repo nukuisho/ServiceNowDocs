@@ -1,17 +1,18 @@
 ---
 title: Add capability details
-description: Select the capabilities that you want to include to your integration.
+description: Select the capabilities that you want to include in your integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/choose-capabilities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Add a integration, Use, LLM-powered SIR integration builder, Security Operations]
+breadcrumb: [Add an integration, Use SIR Integration Builder, LLM-powered SIR integration builder, Security Operations]
 ---
 
 # Add capability details
 
-Select the capabilities that you want to include to your integration.
+Select the capabilities that you want to include in your integration.
 
 ## Before you begin
 
@@ -37,7 +38,7 @@ Role required: sn\_si\_int\_kit.integration\_creator
     -   Sandbox Submission
     -   Sighting Search
     -   Threat Lookup
-    ![Selected capabilities](../images/capability-details.png)
+    \[Omitted image "capability-details.png"\] Alt text: Selected capabilities
 
 2.  Select **Save changes**.
 

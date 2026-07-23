@@ -2,6 +2,7 @@
 title: Configure an email template with collapsed content
 description: Configure email templates with collapsed content by hiding it behind an ellipsis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-collapsible-email-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: email\_client\_admin
 
 2.  From the Email Client Templates list, select an email template or create a new one.
 
-    For instructions on creating an email template, see [Configure an email template](configure-email-templates.md).
+    For instructions on creating an email template, see [Configure an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-email-templates.md).
 
 3.  Select the **Content** tab.
 
@@ -50,5 +51,5 @@ The email template's content is hidden behind an ellipsis.
 
 **Note:** Once you expand collapsed content by selecting the ellipsis, it's not possible to collapse the content again.
 
-![Collapsed content behind and ellipsis](../image/y-email-collapse-content.png)
+\[Omitted image "y-email-collapse-content.png"\] Alt text: Collapsed content behind and ellipsis
 

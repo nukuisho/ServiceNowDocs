@@ -2,6 +2,7 @@
 title: Deactivate skills for Now Assist in Contract Management
 description: Deactivate the skills in Now Assist in Contract Management when they are not in use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-deactivate-na-skills.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -28,9 +29,9 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 3.  On the Contract Management Pro card, select **View details**.
 
-4.  On the tile of your skill that you want to deactivate, select **Deactivate skill** in the options menu \(![Options menu icon.](../image/cmpro-na-three-dot-icon.png)\).
+4.  On the tile of your skill that you want to deactivate, select **Deactivate skill** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
 
-    ![Active skills in Contract Management Pro.](../image/cmpro-na-active-skills.png "Active skills in Now Assist in Contract Management")
+    \[Omitted image "cmpro-na-active-skills.png"\] Alt text: Active skills in Contract Management Pro.
 
 5.  In the pop-up messages, select **Deactivate**.
 
@@ -39,18 +40,18 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 The skill is deactivated for Now Assist in Contract Management and displayed in the **All available Contract Management Pro skills** section.
 
-To reactivate the skill, select **Activate skill**. For more information, see [Configure Now Assist in Contract Management](confg-na-in-cmpro.md).
+To reactivate the skill, select **Activate skill**. For more information, see [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
-**Parent Topic:**[Managing skills for Now Assist in Contract Management](../concept/cmpro-manage-na-skills.md)
+**Parent Topic:**[Managing skills for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
 
 **Related topics**  
 
 
-[Manage use cases for Now Assist in Contract Management](../concept/cmpro-manage-use-cases.md)
+[Manage use cases for Now Assist in Contract Management]()
 
-[Manage use case mappings for Now Assist in Contract Management](cmpro-manage-use-case-map.md)
+[Manage use case mappings for Now Assist in Contract Management]()
 
-[Manage clause mappings for contract analysis](cmpro-manage-clause-mappings.md)
+[Manage clause mappings for contract analysis]()
 
-[Manage expected response mappings for contract analysis](cmpro-manage-expected-response.md)
+[Manage expected response mappings for contract analysis]()
 

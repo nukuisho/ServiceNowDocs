@@ -2,6 +2,7 @@
 title: Save changes in Mobile App Builder
 description: Save all the changes you make within the Mobile App Builder with a single action. There is no need to save each change individually before moving onto another screen or record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mab-save.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Save all the changes you make within the Mobile App Builder with a single action
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ For more information about the delegated developer role, see [Delegated developm
 
 3.  Make the necessary changes in the categories and their records.
 
-4.  Save all your changes to the database all at once by selecting the **Save** button \(![Save button.](../image/mab-button-save-bold.png)\).
+4.  Save all your changes to the database all at once by selecting the **Save** button \(\[Omitted image "mab-button-save-bold.png"\] Alt text: Save button.\).
 
     **Note:** Changes that you make are not saved to the database until you select the **Save** button. Mobile App Builder has several warning modals that display if you attempt to navigate away from a record with unsaved changes. For example, if you select the **Home** button, a warning message displays about unsaved changes.
 

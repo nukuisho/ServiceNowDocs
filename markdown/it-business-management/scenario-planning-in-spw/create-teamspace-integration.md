@@ -2,6 +2,7 @@
 title: Working with Teamspaces
 description: Strategic Planning can be integrated with Project Portfolio Management's Teamspaces to access and manage relevant projects and demands with the corresponding planning item records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-teamspace-integration.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -32,10 +33,10 @@ To integrate teamspaces with Strategic Planning records:
 1.  Create one alignment integration for all the teamspaces. On the alignment side, create extended tables to store individual teamspace table data \(like TSP1 Portfolio \[sn\_align\_core\_tsp1\_portfolio\], TSP1 Demand \[sn\_align\_core\_tsp1\_demand\], TSP2 Project \[sn\_align\_core\_tsp2\_project\], and so on\).
 2.  In the alignment integration, map the extended tables you have created in Step 1, to the respective teamspace tables \(like tsp1\_portfolio, tsp1\_demand, tsp2\_project, and so on\).
 
-![Strategic Planning with teamspaces.](../../apw-internal-integrations/images/for-teamspaces.png "Integration with Teamspaces")
+\[Omitted image "for-teamspaces.png"\] Alt text: Strategic Planning with teamspaces.
 
 **Related topics**  
 
 
-[Create a table map](../../apw-internal-integrations/task/create-custom-table-maps-for-custom-planning-items.md)
+[Create a table map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-custom-table-maps-for-custom-planning-items.md)
 

@@ -2,6 +2,7 @@
 title: Banner illustrations in Theme Builder
 description: Banner illustrations are used to increase user engagement or announce overall product experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/banners-in-tb.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ A banner illustration is applied to a web page when there is a need to visually 
 
 **Important:** Banner illustrations apply to Workspaces and are not supported in the Core UI.
 
-![Customer general banner illustration.](../image/tb-banner-illustration.png "Example of a default banner illustration")
+\[Omitted image "tb-banner-illustration.png"\] Alt text: Customer general banner illustration.
 
 ## Custom images
 
@@ -33,10 +34,10 @@ To override the default banner illustrations with custom images, upload each ima
 |Format|SVG|
 |File size limit|2 MB|
 
--   **[Configure colors for banner illustrations](../task/configure-banner-colors.md)**  
+-   **[Configure colors for banner illustrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-banner-colors.md)**  
 Configure and control the colors automatically applied to banner illustrations to keep your visual experience engaging while maintaining brand recognition.
--   **[Override banner illustrations with custom images](../task/override-banner-with-custom-images.md)**  
+-   **[Override banner illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/override-banner-with-custom-images.md)**  
 Modify or override the default banner illustrations with your own custom images to promote visual elements that reflect your company's branding.
 
-**Parent Topic:**[Working with Image styles](working-with-image-styles.md)
+**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-image-styles.md)
 

@@ -2,13 +2,14 @@
 title: Edit sourcing checkout record
 description: Edit the default sourcing checkout used for all sourcing requests or create a custom checkout for sourcing requests for a specific product, product model, or product category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/edit-sourcing-checkout-record.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sourcing checkout, Setting up primary data Shopping, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing checkout, Set up master data, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Edit sourcing checkout record
@@ -38,7 +39,7 @@ Use record producers to create a custom set of questions to ask shoppers during 
 
 4.  Select the **Questions** tab and add from the pre-configured questions.
 
-    See [Create sourcing checkout record](create-sourcing-checkout-record.md) for more information.
+    See [Create sourcing checkout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-sourcing-checkout-record.md) for more information.
 
 5.  Select the **Settings** tab and fill in the fields.
 
@@ -49,14 +50,14 @@ Use record producers to create a custom set of questions to ask shoppers during 
 
 Edits to an existing sourcing checkout are now complete.
 
-**Parent Topic:**[Sourcing checkout](../concept/sourcing-checkout.md)
+**Parent Topic:**[Sourcing checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-checkout.md)
 
 **Related topics**  
 
 
-[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
+[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md)
 
-[Create sourcing checkout record](create-sourcing-checkout-record.md)
+[Create sourcing checkout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-sourcing-checkout-record.md)
 
-[Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md)
+[Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md)
 

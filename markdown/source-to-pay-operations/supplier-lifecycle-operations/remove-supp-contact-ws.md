@@ -2,6 +2,7 @@
 title: Remove a supplier contact from the Source-to-Pay Workspace
 description: Remove non-essential supplier contacts for a supplier from the Source-to-Pay Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/remove-supp-contact-ws.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -39,7 +40,7 @@ Role required: sn\_slm.owner, sn\_slm.manager, sn\_slm.admin
 
     **Note:** A contact can be removed only when at least two contacts exist in the supplier contact list.
 
-7.  From the **Reassign tasks to** drop-down, select a contact to whom you want to reassign the tasks.![Remove supplier contacts dialog box for reassigning tasks.](../image/remove-supplier-contact.png)
+7.  From the **Reassign tasks to** drop-down, select a contact to whom you want to reassign the tasks.\[Omitted image "remove-supplier-contact.png"\] Alt text: Remove supplier contacts dialog box for reassigning tasks.
 
 8.  From the **Reassignment reason** drop-down, select the reason for reassignment.
 
@@ -50,14 +51,14 @@ Role required: sn\_slm.owner, sn\_slm.manager, sn\_slm.admin
 
 The contact is removed and all the tasks that were assigned to that contact are reassigned to the alternate contact.
 
-**Parent Topic:**[Manage supplier contacts from the Source-to-Pay Workspace](../concept/managing-contacts-smw.md)
+**Parent Topic:**[Manage supplier contacts from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-smw.md)
 
 **Related topics**  
 
 
-[Add a supplier contact from the Source-to-Pay Workspace](add-supplier-contact.md)
+[Add a supplier contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-contact.md)
 
-[Elevate a contact to the primary contact role from the Source-to-Pay Workspace](elevate-contact-ws.md)
+[Elevate a contact to the primary contact role from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/elevate-contact-ws.md)
 
-[Restrict the primary contact role for a contact from the Source-to-Pay Workspace](restrict-contact-ws.md)
+[Restrict the primary contact role for a contact from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/restrict-contact-ws.md)
 

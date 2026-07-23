@@ -2,13 +2,14 @@
 title: Activate Workforce Optimization for HR
 description: Workforce Optimization for HR solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Manager Workspace. Configurable Workspace \(sn\_hr\_wfo\_workspa\) plugin activates all other dependent plugins to enable users to access Scheduling, Coaching, and Teams applications in Workforce Optimization for HR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Workforce Optimization for HR
@@ -32,21 +33,21 @@ Role required: sn\_hr\_wfo.admin
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears:`Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>`
 
 
--   **[RCA approvals in Workforce Optimization for HR](../task/approve-rcas-script-wfo-hr.md)**  
+-   **[RCA approvals in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/approve-rcas-script-wfo-hr.md)**  
 After you install or upgrade to the latest Workforce Optimization for HR from ServiceNow Store, you might encounter Restricted Caller Access \(RCA\) approval messages.
 
-**Parent Topic:**[Configuring Workforce Optimization for HR](configure-wfo-hr.md)
+**Parent Topic:**[Configuring Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
 
 **Related topics**  
 
 
-[Workforce Optimization for HR Domain Separation](wfo-hr-domain-separation.md)
+[Workforce Optimization for HR Domain Separation]()
 
-[Setting up Scheduling for Workforce Optimization for HR](../task/setup-scheduling-wfo-hr.md)
+[Configure Scheduling for Workforce Optimization for HR]()
 
-[Setting up Teams in Workforce Optimization for HR](../task/setup-team-workforce-wfo-hr.md)
+[Configure Teams in Workforce Optimization for HR]()
 
-[Setting up Coaching in Workforce Optimization for HR](setup-coaching-wfo-hr.md)
+[Configure Coaching in Workforce Optimization for HR]()
 
-[Setting up Demand Forecast in Workforce Optimization for HR](setup-demand-forecast-wfo-hr.md)
+[Setting up Demand Forecast in Workforce Optimization for HR]()
 

@@ -2,12 +2,13 @@
 title: Create agentic workflows, agents, and skills
 description: Build custom agentic workflows, AI agents, and skills for your applications using automated generation tools with Build Agent. You can streamline development by creating the necessary instructions, tools, and access controls based on your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/create-custom-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-07"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Create agentic workflows, agents, and skills
@@ -16,40 +17,15 @@ Build custom agentic workflows, AI agents, and skills for your applications usin
 
 ## Before you begin
 
-If Now Assist for App Engine is not installed, then install it. For more information, see [Installing Now Assist for App Engine](../../app-engine-studio/task/install-now-assist-for-app-engine.md).
-
-Verify that you have access to ServiceNow Studio or the ServiceNow IDE.
-
-**Note:** Your licensing depending on whether you can work with agentic workflows, agents, and skills in Build Agent.
-
 Skills must be published before they can be used as a tool by another skill.
+
+**Note:** Check your entitlements to determine whether you have access to agentic workflows, agents, and skills in Build Agent.
 
 Role required: admin
 
 ## About this task
 
-Build Agent currently supports the following tool creation:
-
--   Skills:
-    -   WebSearch
-    -   Script - Inline
-    -   Script - Explicit
-    -   Now Assist Skill
-    -   FlowAction\*
-    -   SubFlow\*
--   Agents:
-    -   Subflow
-    -   Flow Action
-    -   WebSearch
-    -   Now Assist Skill
-    -   Record Operations
-    -   Script
-    -   Catalog Item
-    -   Conversational Topic
-
-\*You can only use FlowActions and Subflows that are already part of your app scope, as Build Agent reuses existing FlowActions and Subflows instead of creating new ones.
-
-Build Agent can recommend in-app agents tailored to specific application use cases.
+For details on creating agentic workflows, agents, and skills, see [Agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ba-about-creating-in-app-agents.md).
 
 ## Procedure
 
@@ -57,27 +33,35 @@ Build Agent can recommend in-app agents tailored to specific application use cas
 
     You can also open Build Agent in the ServiceNow IDE if you prefer a more code-centric experience.
 
-    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the corner of your browser. ![If Build Agent isn't open, open it from the status bar in the corner of your browser.](../../servicenow-studio/image/sn-studio-access-build-agent.png)
+    The Build Agent chat panel opens by default in new ServiceNow Studio sessions. If the panel isn't open, select **Open Build Agent** from the status bar in the lower corner of your browser. You can also select the Sparkle icon \[Omitted image "ba-sns-ai-sparkle.png"\] Alt text: in the application banner.
+
+    \[Omitted image "sn-studio-access-build-agent.png"\] Alt text: If Build Agent isn't open, open it from the status bar in the corner of your browser.
 
 2.  Select your application from the Build Agent chat panel drop-down list.
 
-3.  Enter a prompt describing the agentic workflow, agent, or skill that you want to create.
+3.  Prompt to add AI to your app in one of two ways.
 
-    For example:
+    -   Enter a prompt describing the agentic workflow, agent, or skill that you want to create. For example:
+        -   To create an agentic workflow: `Create an onboarding agentic workflow for contractors featuring three sequential AI agents:`
+            -   `Intake Agent: Validates requests, conducts online background checks, verifies budget, and calculates costs using web searches and scripts.`
+            -   `Background Check Agent: Assesses risk and performs tiered checks on identity, employment, credit, and references. Also verifies credentials and identifies necessary training.`
+            -   `Provisioning Agent: Evaluates access needs, assigns equipment, generates credentials, provisions system access, finds training resources, and sends welcome packages.`
+        -   To create an agent: `Create a Swag Fulfillment AI agent that can review and approve swag requests. The agent must review incoming swag requests, check inventory availability for all requested items, approve requests autonomously, update inventory, and request records when taking actions.`
+        -   To create a skill: `Create a summarization skill that summarizes travel requests and provides approval suggestions based on the company's travel policy.`
+        -   If you don't know what agents or skills you need: `Analyze my application. Review the tables, fields, business rules, and workflows. Identify the most repetitive manual tasks that fulfillers perform and suggest which ones could benefit from AI agent or skill.`
+    -   Select the **Add AI to my app** button and follow the prompts.
 
-    -   To create an agentic workflow: `Create an onboarding agentic workflow for contractors featuring three sequential AI agents:`
-        -   `Intake Agent: Validates requests, conducts online background checks, verifies budget, and calculates costs using web searches and scripts.`
-        -   `Background Check Agent: Assesses risk and performs tiered checks on identity, employment, credit, and references. Also verifies credentials and identifies necessary training.`
-        -   `Provisioning Agent: Evaluates access needs, assigns equipment, generates credentials, provisions system access, finds training resources, and sends welcome packages.`
-    -   To create an agent: `Create a Swag Fulfillment AI agent that can review and approve swag requests. The agent must review incoming swag requests, check inventory availability for all requested items, approve requests autonomously, update inventory, and request records when taking actions.`
-    -   To create a skill: `Create a summarization skill that summarizes travel requests and provides approval suggestions based on the company’s travel policy.`
-    Build Agent scans the application files, users, roles, permissions, and tables to endure that the requested skill or agent doesn't already exist. It then presents a plan that can include research, design, implementation, testing, and deployment phases. The plan can identify the key tools the agent needs, such as tools for checking inventory, updating requests, calculating costs, and logging decisions.
+        \[Omitted image "ba-add-ai-button.png"\] Alt text: Now Assist chat panel with the Add AI to button highlighted.
 
+        **Note:**
+
+        -   Depending on your licensing, the button may not be available.
+        -   You must be on Australia Patch 3 or higher for the button to appear.
 4.  Review and approve the plan by selecting **Approve plan**.
 
-    ![Five-step plan for creating a swag management application](../image/ba-add-skill-1.png "Plan to create a skill")
+    \[Omitted image "ba-add-skill-1.png"\] Alt text: Five-step plan for creating a swag management application
 
-    Build Agent starts creating the agentic workflow, agent or skill, along with its instructions, tools, access control lists \(ACLs\), and supporting scripts.
+    Build Agent starts creating the agentic workflow, agent, or skill, along with its instructions, tools, access control lists \(ACLs\), and supporting scripts.
 
 5.  When the build is complete, confirm the installation.
 
@@ -86,13 +70,14 @@ Build Agent can recommend in-app agents tailored to specific application use cas
 
 ## What to do next
 
--   If you have created an agentic workflow or agent, go to AI Agent Studio to review its properties, check triggers, and test it with the built-in tools.
+After Build Agent generates agents and skills, complete the following steps to move them from creation to production.
 
-    **Note:** The agent is published immediately. However, you must activate the associated triggers separately in AI Agent Studio.
+1.  Test each skill in Now Assist Skill Kit to validate prompt behavior against sample records and review output quality before publishing.
+2.  Test the agent in AI Agent Studio to validate the end-to-end workflow and confirm that tool invocations work correctly.
+3.  Activate triggers in AI Agent Studio. Triggers are not activated automatically and must be enabled separately after generation.
+4.  Deploy the custom app with its agents and skills as a standard update set.
 
--   If you have created a skill, use the Now Assist Skill Kit to test the agent with the built-in tools, make necessary changes, and publish the skill.
-
-**Parent Topic:**[Use Build Agent](use-build-agent.md)
+**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-build-agent.md)
 
 **Related topics**  
 
@@ -103,7 +88,7 @@ Build Agent can recommend in-app agents tailored to specific application use cas
 
 [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md)
 
-[Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/exploring-now-assist-skill-kit.md)
+[Exploring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md)
 
-[Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md)
+[Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-prompt-template.md)
 

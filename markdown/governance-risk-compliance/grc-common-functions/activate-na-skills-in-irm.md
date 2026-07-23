@@ -2,6 +2,7 @@
 title: Activate Now Assist skills in Now Assist for Integrated Risk Management \(IRM\)
 description: Activate a skill before you can use the generative AI capabilities for the Now Assist for Integrated Risk Management \(IRM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -18,7 +19,7 @@ Activate a skill before you can use the generative AI capabilities for the Now A
 
 ## Before you begin
 
-Install the Now Assist for IRM plugin \(sn\_irm\_gen\_ai\).
+Install the Enhanced Features for IRM Professional \(sn\_irm\_pro\_plus\) or Enhanced Features for IRM Enterprise \(sn\_irm\_ent\_plus\) plugin.
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
@@ -26,24 +27,20 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin**.
 
-2.  On the **Now Assist Skills** tab, under the **Technology** workflow group, select **IRM**.
+2.  Select the Now Assist Skills tab.
 
-3.  On the Now Assist skills for IRM page, activate a skill by selecting **Activate skill**.
+3.  Under Technology workflow, select **Risk &amp; Sustainability**.
 
-4.  Review the details of the skills on each tab, configure the skills, and select **Save and continue**.
+4.  Open the skill details by selecting **View details** on the skill card.
 
-    You can return to a previous step by using the **Back** button.
-
-5.  Review your choices and select **Activate**.
-
-    Your skill is configured.
+5.  Enable the skill by selecting **Activate skill**.
 
 
 ## What to do next
 
 You can perform the following actions on Now Assist skills if you have the sn\_generative\_ai.nsa\_admin role:
 
--   [Edit a Now Assist skill](https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-admin/task/edit-a-now-assist-skill.html).
--   [Make a copy of a Now Assist skill](https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-admin/task/make-a-copy-of-a-now-assist-skill.html).
--   [Troubleshoot a Now Assist skill](https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-admin/task/troubleshoot-a-now-assist-skill.html).
+-   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+-   [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+-   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md).
 

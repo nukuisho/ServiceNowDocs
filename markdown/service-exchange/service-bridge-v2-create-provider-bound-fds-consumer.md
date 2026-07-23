@@ -1,17 +1,18 @@
 ---
-title: Create and publish a provider-bound foundation data sync offering definition
+title: Create and publish a provider-bound FDS offering definition
 description: Create a foundation data sync \(FDS\) offering definition to inform your providers about the data you're ready to share.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-provider-bound-fds-consumer.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Configuring outbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Configure outbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
-# Create and publish a provider-bound foundation data sync offering definition
+# Create and publish a provider-bound FDS offering definition
 
 Create a foundation data sync \(FDS\) offering definition to inform your providers about the data you're ready to share.
 
@@ -27,7 +28,7 @@ As a consumer, you can create FDS offering definitions to share data with provid
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Service Exchange Consumer** &gt; **Administration** &gt; **FDS Offering Definitions**.
+1.  Navigate to **All** &gt; **Service ExchangeConsumer** &gt; **Administration** &gt; **FDS Offering Definitions**.
 
 2.  Select **New**.
 
@@ -91,33 +92,37 @@ Clear the **Auto publish FDS subscriptions** check box.
 
     2.  In the **Table name** field, select the table you want to share with your providers.
 
-    3.  In the **Outbound field**, select the table fields you want to share by selecting the lock icon and moving them from the **Available** to the **Selected** column.
+    3.  In the **Condition** field, add any condition you want to apply.
 
-    4.  If it isn’t already selected, select the **AccountSecure** check box to ensure data security.
+        Use the condition builder to specify criteria that determine which records from the selected table are included in the data sync.
+
+        For example, to sync only the published knowledge article, you can add condition where workflow is published.
+
+    4.  In the **Outbound fields**, select the table fields you want to share by selecting the lock icon and moving them from the **Available** to the **Selected** column.
+
+    5.  If it isn’t already selected, select the **AccountSecure** check box to ensure data security.
 
         When enabled, only records where the company field matches the connection company are synchronized. Clear this option to synchronize all records regardless of company.
 
         **AccountSecure** option is selected by default.
 
-    5.  If it isn’t already selected, select **Send attachment** check box to send attachment.
+    6.  If it isn’t already selected, select **Send attachments** check box to send attachments.
 
         When enabled, file attachments linked to records are included in the synchronization.
 
-        **Send attachment** option is selected by default.
+        **Send attachments** option is selected by default.
 
-    6.  If you selected a non-CMDB table, unlock the **Coalesce fields**, select the table fields you want share, and move them from the **Available** to the **Selected** column.
+    7.  If you selected a non-CMDB table, unlock the **Coalesce fields**, select the table fields you want share, and move them from the **Available** to the **Selected** column.
 
         Coalesce fields help identify unique records when synchronizing data between instances.
 
-    7.  If it isn’t already selected, for a non-CMDB table, select the **Maintain SysID** check box to preserve referential integrity.
+    8.  If it isn’t already selected, select the **Maintain SysID** check box to preserve referential integrity.
 
         When enabled, new records created in the destination instance maintain their original sys\_id. However, if an existing record is updated, the sys\_id may not be preserved.
 
         **Maintain SysID** option is selected by default for non-CMDB tables and not available for CMDB tables.
 
-    8.  If needed, add conditions to filter which records are shared with providers.
-
-        Use the condition builder to specify criteria that determine which records from the selected table are included in the data sync.
+        **Note:** Beginning with Service Exchange version 2.3.18, **Maintain SysID** is supported for both CMDB and non-CMDB tables.
 
     9.  Select **Save**.
 
@@ -131,7 +136,7 @@ Clear the **Auto publish FDS subscriptions** check box.
 
     2.  From the drop-down menu, choose a dependent item and select **Create Offering Item**.
 
-    3.  In the **Outbound field**, select the table fields you want to share by selecting the lock icon to unlock the field.
+    3.  In the **Outbound fields**, select the table fields you want to share by selecting the lock icon to unlock the field.
 
     4.  Select **Save**.
 
@@ -176,14 +181,14 @@ The FDS offering is now published. Providers can request foundation data based o
 
 ## What to do next
 
-[Acknowledge foundation data sync offering request.](service-bridge-v2-con-acknowledge-fds-request.md)
+[Acknowledge foundation data sync offering request.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-con-acknowledge-fds-request.md)
 
 **Related topics**  
 
 
-[Foundation data sync](../concept/service-bridge-v2-explore-foundation-data-sync.md)
+[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
 
-[Configuring outbound foundation data sync as consumers](../concept/using-provider-bound-fds-consumer.md)
+[Configure outbound foundation data sync as consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/using-provider-bound-fds-consumer.md)
 
-[Configuring inbound foundation data sync as providers](../concept/service-bridge-v2-configure-inboun-fds-providers.md)
+[Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)
 

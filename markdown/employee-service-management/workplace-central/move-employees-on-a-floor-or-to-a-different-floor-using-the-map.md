@@ -2,6 +2,7 @@
 title: Move employees on a floor or to a different floor using the map
 description: Using the building's Floor map view, move single or multiple employees on a floor or to a different floor. Assign or unassign a space to an employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/move-employees-on-a-floor-or-to-a-different-floor-using-the-map.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -33,7 +34,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
     The Workplace Analytics dashboard opens.
 
-2.  Select the **Space Optimization** icon \(![Space optimization icon.](../images/space-optimization-icon.png)\).
+2.  Select the **Space Optimization** icon \(\[Omitted image "space-optimization-icon.png"\] Alt text: Space optimization icon.\).
 
     The Space optimization dashboard opens.
 
@@ -53,7 +54,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
     The floor map displays user icons based on employee assignments.
 
-    ![Legend displaying user assignments on the floor map.](../images/movefloormap-userandmovecase.png)
+    \[Omitted image "movefloormap-userandmovecase.png"\] Alt text: Legend displaying user assignments on the floor map.
 
     On the map, spaces assigned to an employee, spaces with move cases, and selected spaces are displayed with the following icons:
 
@@ -61,13 +62,13 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
     You can also search for an employee to view their details.
 
-    You can select multiple users by drawing a circle \(lasso\) around them or by using the Shift key on the keyboard.Selected spaces are highlighted with the Selected employee icon \(![Selected employees icon.](../images/movefloormap-selected.png)\).
+    You can select multiple users by drawing a circle \(lasso\) around them or by using the Shift key on the keyboard.Selected spaces are highlighted with the Selected employee icon \(\[Omitted image "movefloormap-selected.png"\] Alt text: Selected employees icon.\).
 
     The details of the assigned employees are displayed on the **User profiles** panel.For the Neighborhood view by configuration, the neighborhood details are displayed on the user card. If there’s an ongoing move case, then move case details are displayed.
 
 8.  To view the details of the move case on a space, select the move case option on the space.
 
-    You can select multiple users by drawing a circle \(lasso\) around them or by using the Shift key on the keyboard.Selected spaces are highlighted with the Selected employee icon \(![Selected employees icon.](../images/movefloormap-selected.png)\).
+    You can select multiple users by drawing a circle \(lasso\) around them or by using the Shift key on the keyboard.Selected spaces are highlighted with the Selected employee icon \(\[Omitted image "movefloormap-selected.png"\] Alt text: Selected employees icon.\).
 
     The details of the incoming or outgoing move case are displayed on the **User profiles** panel. An incoming move case is tagged as **Incoming** and an outgoing move case is tagged as **Outgoing**. You can select the move case number to view the move case details on a separate tab.
 
@@ -148,7 +149,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
             From the list, select the user.
 
-        -   For an advanced search, select the Search users slider icon \(![User slider icon.](../images/movefloormap-searchuserslider.png)\).
+        -   For an advanced search, select the Search users slider icon \(\[Omitted image "movefloormap-searchuserslider.png"\] Alt text: User slider icon.\).
             1.  On the **Select users** window, search from a list of **System users** or **Workplace profiles**.
             2.  Select the employees and select **Select users**.
         The selected employees are added to the panel.
@@ -183,7 +184,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
     1.  Select and hold down the **Shift** key to draw a circle \(lasso\) or draw any freehand selection border around the spaces.
 
-        The selected spaces are marked with the selected icon ![Set to true icon.](../images/movefloormap-selected.png) icon. The employee details and the move cases on the selected spaces are displayed on the **User profiles** panel.
+        The selected spaces are marked with the selected icon \[Omitted image "movefloormap-selected.png"\] Alt text: Set to true icon. icon. The employee details and the move cases on the selected spaces are displayed on the **User profiles** panel.
 
     2.  On the panel, perform the steps 9, 10 and 11 accordingly.
 
@@ -196,10 +197,10 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
         To unassign an employee from the space, use the **Unassign** option.
 
 
-**Parent Topic:**[Map based space administration](../concept/map-based-space-administration.md)
+**Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/map-based-space-administration.md)
 
 **Related topics**  
 
 
-[Edit a building's spaces using a map](edit-space-details-for-buildings.md)
+[Edit a building's spaces using a map]()
 

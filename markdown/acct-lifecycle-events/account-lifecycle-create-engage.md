@@ -2,11 +2,12 @@
 title: Create an engagement
 description: Create an engagement record that centralizes all internal and external activities that are involved in the customer success journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-create-engage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Basic setup, Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Create an engagement
@@ -203,5 +204,5 @@ Any internal notes regarding this engagement.
 
 After you have created the engagement, you can create objectives, outcomes, touchpoints, and risk signals for the customer account associated with this engagement.
 
-**Parent Topic:**[Basic customer success setup](../concept/account-lifecycle-basic-config.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

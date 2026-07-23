@@ -2,6 +2,7 @@
 title: Quick start tests for Assessments and Surveys
 description: Validate that Assessments and Surveys still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/quick-start-tests-survey.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,10 +30,10 @@ Assessments and Surveys quick start tests require activating the Automated Test 
 |Assessment: Scale and Template support|Create, publish, and assign the assessment. Then take the assessment.|Rome|
 |Assessment: Basic test flow|Verify the basic flow of an assessment.|Orlando|
 
-**Parent Topic:**[Assessments and Surveys](../../assessments/concept/assessments-surveys-landing-page.md)
+**Parent Topic:**[Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessments-surveys-landing-page.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
 

@@ -2,11 +2,12 @@
 title: Manage plugins in RPA Desktop Design Studio
 description: Install, update, or remove plugins to design automations while you're creating unattended and attended automation projects in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/install-plugins-rpa-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Build, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Build, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Manage plugins in RPA Desktop Design Studio
@@ -41,7 +42,7 @@ Internet Explorer
 
 </td><td>
 
-A connector that enables automating web applications inside Microsoft Internet Explorer.For more information about the IE connector, see [IE connector](../concept/internet-explorer-connector.md).
+A connector that enables automating web applications inside Microsoft Internet Explorer.For more information about the IE connector, see [IE connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/internet-explorer-connector.md).
 
 </td></tr><tr><td>
 
@@ -49,7 +50,7 @@ SSH
 
 </td><td>
 
-Connector for interacting with server via Secure Shell \(SSH\).For more information about the SSH connector, see [Secure Shell \(SSH\) connector](../concept/ssh-connector.md).
+Connector for interacting with server via Secure Shell \(SSH\).For more information about the SSH connector, see [Secure Shell \(SSH\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ssh-connector.md).
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ FTP
 
 </td><td>
 
-Connector to transfer files between a client and server on a network.For more information about the FTP connector, see [FTP](../concept/ftp-connector.md).
+Connector to transfer files between a client and server on a network.For more information about the FTP connector, see [FTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ftp-connector.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Windows
 
 </td><td>
 
-Enables automation of Windows desktop applications.For more information about the Windows connector, see [Windows connector](../concept/windows-connector.md).
+Enables automation of Windows desktop applications.For more information about the Windows connector, see [Windows connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/windows-connector.md).
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ Barcode Reader
 
 </td><td>
 
-Provides barcode or QR code reading components.For more information about the Barcode connector, see [Use the ReadBarcode component](use-utilities-barcode-readbarcode.md).
+Provides barcode or QR code reading components.For more information about the Barcode connector, see [Use the ReadBarcode component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/use-utilities-barcode-readbarcode.md).
 
 </td></tr><tr><td>
 
@@ -89,7 +90,7 @@ Universal App Connector
 
 </td><td>
 
-Connector for interacting with Google Chrome, Edge, Java, and Windows based applications.For more information about the Universal App connector, see [Universal app connector](../concept/universal-app-connector.md).
+Connector for interacting with Google Chrome, Edge, Java, and Windows based applications.For more information about the Universal App connector, see [Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md).
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ Java
 
 </td><td>
 
-Connector for interacting with Java based applications.For more information about the Java connector, see [Configure the Java connector](configure-java-connector.md).
+Connector for interacting with Java based applications.For more information about the Java connector, see [Configure the Java connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-java-connector.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +114,7 @@ Scripting
 
 </td><td>
 
-A connector that enables developers to code in Python, VB.NET, C\#, and Javascript languages.For more information about the C\#, VB.NET, and Javascript connectors, see , [Configure the C\#.Net connector](configure-C-net-connector.md), [Configure the JavaScript connector](configure-javascript-connector.md), and [Configure the VB.Net connector](configure-vbnet-connector.md).
+A connector that enables developers to code in Python, VB.NET, C\#, and Javascript languages.For more information about the C\#, VB.NET, and Javascript connectors, see , [Configure the C\#.Net connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-C-net-connector.md), [Configure the JavaScript connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-javascript-connector.md), and [Configure the VB.Net connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-vbnet-connector.md).
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Terminal \(Mainframe\)
 
 </td><td>
 
-Connector that interacts with Mainframe applications through IBM Personal Communications \(PCOMM\) and Rocket BlueZone emulators.For more information about the Terminal connector, see [Configure the Terminal connector](../concept/configure-terminal-connector.md).
+Connector that interacts with Mainframe applications through IBM Personal Communications \(PCOMM\) and Rocket BlueZone emulators.For more information about the Terminal connector, see [Configure the Terminal connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-terminal-connector.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ Chromium
 
 </td><td>
 
-A connector that enables automating web applications inside Google Chrome or Microsoft Edge.For more information about the Chromium connector, see [Chromium connector](../concept/chrome-connector.md).
+A connector that enables automating web applications inside Google Chrome or Microsoft Edge.For more information about the Chromium connector, see [Chromium connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/chrome-connector.md).
 
 </td></tr><tr><td>
 
@@ -137,7 +138,7 @@ SAP
 
 </td><td>
 
-Connector for interacting with SAP applications.For more information about the SAP connector, see [Configure the SAP connector](configure-the-sap-connector.md).
+Connector for interacting with SAP applications.For more information about the SAP connector, see [Configure the SAP connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-the-sap-connector.md).
 
 </td></tr></tbody>
 </table>## Procedure
@@ -166,15 +167,15 @@ Connector for interacting with SAP applications.For more information about the S
 
 7.  Perform the following steps for more plugin options.
 
-<table id="choicetable_sx3_1wd_b2c"><thead><tr><th align="left" id="d550734e568">
+<table id="choicetable_sx3_1wd_b2c"><thead><tr><th align="left" id="d556969e568">
 
 Action
 
-</th><th align="left" id="d550734e571">
+</th><th align="left" id="d556969e571">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d550734e577">
+</th></tr></thead><tbody><tr><td id="d556969e577">
 
 **Update a plugin version**
 
@@ -188,7 +189,7 @@ Steps
 6.  Save, close and reopen the project to load the updated plugins to the current project.
 
 
-</td></tr><tr><td id="d550734e620">
+</td></tr><tr><td id="d556969e620">
 
 **Remove a plugin**
 
@@ -203,5 +204,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Building automations](../concept/rpa-studio-build.md)
+**Parent Topic:**[Building automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-build.md)
 

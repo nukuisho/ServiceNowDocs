@@ -2,6 +2,7 @@
 title: Configure a trigger condition for a survey
 description: Configure trigger conditions to specify when to send a particular survey and the persons to send it to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateATriggerCondition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,19 +28,19 @@ Role required: admin or survey\_admin or survey\_creator
 
 3.  On the Trigger Condition form, fill in the fields.
 
-    For a description of the field values, see [Trigger Condition form for surveys](../reference/trigger-condition-form.md).
+    For a description of the field values, see [Trigger Condition form for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/trigger-condition-form.md).
 
     You can also create a trigger condition directly from the survey creator. If you select **Certain users can take this survey, based on conditions** in the Survey User Access section, the Trigger Condition form opens automatically when you click **Save as Draft** or **Publish**.
 
 
 ## Example
 
-![Survey Trigger Condition form](../image/SurveyTriggerConditionForm.png "Survey Trigger Condition form")
+\[Omitted image "SurveyTriggerConditionForm.png"\] Alt text: Survey Trigger Condition form
 
-**Parent Topic:**[Survey trigger conditions](../concept/c_TriggerConditions.md)
+**Parent Topic:**[Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TriggerConditions.md)
 
 **Related topics**  
 
 
-[Schedule periods](../concept/c_SchedulePeriods.md)
+[Schedule periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SchedulePeriods.md)
 

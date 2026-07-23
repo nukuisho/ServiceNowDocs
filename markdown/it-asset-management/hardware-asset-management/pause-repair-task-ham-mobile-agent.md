@@ -2,13 +2,14 @@
 title: Pause a hardware asset repair task using the Mobile Agent application
 description: Record a break from a repair task for the hardware assets using the Mobile Agent application if you’re not continuing to work on it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/pause-repair-task-ham-mobile-agent.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Record time spent on asset repair task, Manage hardware asset repair tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Record time spent on asset repair task, Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Pause a hardware asset repair task using the Mobile Agent application
@@ -37,8 +38,8 @@ You can resume the task when you start working on it again. The system automatic
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon ![](../../enterprise-asset-management/image/filter-mobile-task-eam.png) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon \(![](../../enterprise-asset-management/image/filter-mobile-task-eam.png)\), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\]\), tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the task record that you want to pause.
 
 6.  On the **Details** tab, tap **Pause**.
@@ -52,10 +53,10 @@ You can resume the task when you start working on it again. The system automatic
 
 Each time you pause or resume work on the repair task, the actual time you worked on the task is automatically calculated. An entry for the time worked is created in the Time worked section of the Related tab.
 
-**Parent Topic:**[Record time worked on a hardware asset repair task using the Mobile Agent application](../concept/record-time-worked-mobile-agent-app-con.md)
+**Parent Topic:**[Record time worked on a hardware asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/record-time-worked-mobile-agent-app-con.md)
 
 **Related topics**  
 
 
-[Record time worked on a hardware asset repair task manually using the Mobile Agent application](record-time-ham-repair-mobile-agent.md)
+[Record time worked on a hardware asset repair task manually using the Mobile Agent application]()
 

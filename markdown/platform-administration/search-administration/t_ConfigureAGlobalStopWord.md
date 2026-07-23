@@ -2,6 +2,7 @@
 title: Configure a global stop word
 description: Configure stop words that shouldn't be indexed by the search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_ConfigureAGlobalStopWord.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -29,17 +30,17 @@ Role required: ts\_admin or admin
 
     You must regenerate indexes whenever words may be missing from an index. For example, if you delete, inactivate, or change an active global stop word, the word may be missing from the index. An after business rule checks these conditions and generates the notification message when index regeneration is necessary.
 
-    ![Notification to regenerate all indexes after removing a stop word.](../image/NotificationToRegenerateAllIndexes.png)
+    \[Omitted image "NotificationToRegenerateAllIndexes.png"\] Alt text: Notification to regenerate all indexes after removing a stop word.
 
 
-**Parent Topic:**[Zing removes stop words from queries](../concept/stop-words-removed-from-queries.md)
+**Parent Topic:**[Zing removes stop words from queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/stop-words-removed-from-queries.md)
 
 **Related topics**  
 
 
-[Configure a table-specific stop word](t_ConfigureATableSpecificStopWord.md)
+[Configure a table-specific stop word]()
 
-[Enable automatic stop words for a table](t_ConfigureAnAutomaticStopWord.md)
+[Enable automatic stop words for a table]()
 
-[Disable a stop word in Zing](disable-stop-word-zing.md)
+[Disable a stop word in Zing]()
 

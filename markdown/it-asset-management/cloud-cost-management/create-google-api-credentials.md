@@ -2,13 +2,14 @@
 title: Create Google API credentials
 description: To access data securely on your provider account, the Discovery process must be present with appropriate credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-google-api-credentials.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up access to Google Cloud billing and usage data, Configure Cloud Cost Management for Google Cloud, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Google Cloud billing and usage data, Configure Cloud Cost Management for Google Cloud, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Create Google API credentials
@@ -44,5 +45,5 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin
 **Related topics**  
 
 
-[Cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CloudManagementCredentialsForm.md)
+[Cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CloudManagementCredentialsForm.md)
 

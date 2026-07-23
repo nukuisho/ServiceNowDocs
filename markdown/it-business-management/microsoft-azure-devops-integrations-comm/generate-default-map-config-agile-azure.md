@@ -1,7 +1,8 @@
 ---
-title: Generate a default map configuration between Azure DevOps and Agile Development 2.0
+title: Generate default mapping between Azure DevOps and Agile Development 2.0
 description: Generate a default mapping for an Azure DevOps process type if you want to reset the existing map configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/generate-default-map-config-agile-azure.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -11,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
-# Generate a default map configuration between Azure DevOps and Agile Development 2.0
+# Generate default mapping between Azure DevOps and Agile Development 2.0
 
 Generate a default mapping for an Azure DevOps process type if you want to reset the existing map configuration.
 
 ## Before you begin
 
--   [Discover and import Azure DevOps projects](discover-import-azure-projects.md).
+-   [Discover and import Azure DevOps projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/discover-import-azure-projects.md).
 -   Role required: sn\_ado\_int.user
 
 ## About this task
@@ -47,10 +48,10 @@ If the table map does not exist for a work item in your Azure DevOps process, th
 
 Once the state of the Create mappings request changes to **Completed**, you can see that the **Mapping Config** field of this Azure DevOps process is populated. Also, you can see the default map configuration in the Table Maps related list of this process.
 
-**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](../concept/setting-up-agile-azure-integration.md)
+**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/setting-up-agile-azure-integration.md)
 
 **Related topics**  
 
 
-[Customizing your map configuration for Azure DevOps integration](../reference/customizing-map-config-agile-azure.md)
+[Customizing your map configuration for Microsoft Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
 

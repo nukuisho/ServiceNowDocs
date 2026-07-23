@@ -2,6 +2,7 @@
 title: Add security incidents to an existing case
 description: You can add security incidents to one or more existing cases. After the security incidents have been added to cases, you can use Security Case Management to analyze the data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/add-sec-inc-to-cases.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ You need to navigate to the security incidents you want to add to existing cases
 
     The **Add to Security Case** dialog box opens and displays the cases assigned to you.
 
-    ![Add a security incident to an existing case](../image/add-sec-inc-to-existing-case.png)
+    \[Omitted image "add-sec-inc-to-existing-case.png"\] Alt text: Add a security incident to an existing case
 
 4.  Select the cases into which you want to add the selected security incidents.
 
@@ -46,10 +47,10 @@ You need to navigate to the security incidents you want to add to existing cases
     A message indicates that the selected records have been added to the cases, along with a link to the cases in Security Case Management.
 
 
-**Parent Topic:**[Security incidents in cases](../concept/case-in-sir.md)
+**Parent Topic:**[Security incidents in cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/case-in-sir.md)
 
 **Related topics**  
 
 
-[Create a case from security incidents](create-cases-from-security-incidents.md)
+[Create a case from security incidents]()
 

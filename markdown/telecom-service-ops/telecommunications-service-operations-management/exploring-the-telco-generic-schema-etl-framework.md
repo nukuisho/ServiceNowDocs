@@ -2,13 +2,14 @@
 title: Telecom Discovery Builder framework
 description: The Telecom Discovery Builder framework ETL \(Extract, Transform, Load\) is a reusable and schema-aligned component delivered with the Telecommunications Service Operations Management \(TSOM\) Core application. It provides a consistent and extensible method for ingesting telecom inventory data into the ServiceNow configuration management database \(CMDB\) across multiple Service Graph Connectors \(SGCs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/exploring-the-telco-generic-schema-etl-framework.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Telecom Discovery, Explore, Telecommunications Service Operations Management]
+breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
 # Telecom Discovery Builder framework
@@ -25,7 +26,7 @@ Use the Telecom Discovery Builder framework when you want to do the following:
 
 -   Deploy a new Service Graph Connector in a telecom environment and want to avoid building the ETL from scratch.
 -   Maintain schema-aligned consistency across multiple connectors and platform instances.
--   Discovery payloads and CI relationships compliant with TNI \(Telecommunications Network Inventory\). For more information, see [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md).
+-   Discovery payloads and CI relationships compliant with TNI \(Telecommunications Network Inventory\). For more information, see [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecom-network-inventory.md).
 -   Work within an SGC \(Service Graph Connector\) application scope and want to customize ETL behavior without modifying core logic.
 -   Benefit from predefined mappings, validated JSON schema support, and a UI-driven configuration interface.
 
@@ -39,7 +40,7 @@ Use the Telecom Discovery Builder framework when you want to do the following:
 
 ## Key user roles
 
-The tsom\_visibility\_admin and tsom\_assurance\_admin roles provide granular access control across TSOM Visibility and Assurance application scopes, supporting stronger security and compliance in line with the Granular Admin directive.
+The tsom\_visibility\_admin and tsom\_assurance\_admin roles provide granular access control across TSOM Visibility and Assurance application scopes, supporting stronger security and compliance in line with the Granular admin directive.
 
 -   The tsom\_assurance\_admin role provides full operational and administrative access to TSOM Assurance application scopes.
 -   The tsom\_visibility\_admin role manages the operational tasks for the TSOM visibility application.
@@ -53,8 +54,8 @@ These roles control access to the TSOM Visibility and Assurance application scop
 |`sn_tsom_em_connect`\(Event Management Connectors\)|Include push connectors and connector definitions used to ingest alerts from external telecommunications network sources.|
 |`sn_tsom_patterns`\(Telecom Discovery Patterns \)|Include the MID Server and system IP Service properties.|
 |`sn_sgc_aliplano`\(Service Graph Connector for Nokia Altiplano\)|Includes the application properties.|
-|`sn_sgc_meraki`\(Service Graph Conenctor for Cisco Meraki\)|Includes the application properties.|
-|`sn_sgc_fortinet`\(Service Graph Connector for Fortinet\)|Includes the application properties.|
+|`sn_sgc_meraki`\(Service Graph Conenctor for Cisco Meraki Telco SD-WAN\)|Includes the application properties.|
+|`sn_sgc_fortinet`\(Service Graph Connector for Fortinet Telco SD-WAN\)|Includes the application properties.|
 
 The following table lists the roles contained in the tsom\_visibility\_admin role.
 
@@ -153,7 +154,7 @@ Benefits of the Telecom Discovery Builder framework ETL include:
 **Related topics**  
 
 
-[Configuring the Telecom Discovery Builder framework ETL in a connector](configuring-the-telco-generic-schema-etl.md)
+[Configure the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-the-telco-generic-schema-etl.md)
 
-[Extend TNI entity support for duplicated ETLs](../task/configuring-tni-entiry-support-for-duplicated-etls.md)
+[Extend TNI entity support for duplicated ETLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tni-entiry-support-for-duplicated-etls.md)
 

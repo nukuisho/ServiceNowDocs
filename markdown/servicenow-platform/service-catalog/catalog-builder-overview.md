@@ -2,6 +2,7 @@
 title: Catalog Builder overview
 description: The Catalog Builder experience enables you to delegate the creation and maintenance of catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/catalog-builder-overview.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -28,10 +29,10 @@ From the home page of the Catalog Builder, you can do the following:
 -   View catalog items that are recently updated
 -   View the configured content that describes the catalog building process in your organization.
 
-**Parent Topic:**[Exploring Service Catalog](../concept/exploring-service-catalog.md)
+**Parent Topic:**[Exploring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/exploring-service-catalog.md)
 
 **Related topics**  
 
 
-[Catalog Builder](../concept/catalog-builder.md)
+[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder.md)
 

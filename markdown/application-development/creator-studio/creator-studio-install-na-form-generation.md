@@ -2,6 +2,7 @@
 title: Install Now Assist for form generation in Creator Studio
 description: Install the Now Assist for Creator application from the ServiceNow Store to get Now Assist in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-install-na-form-generation.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -46,7 +47,7 @@ Role required: admin
 
 ## What to do next
 
-Grant the now.assist.creator role to the Creator Studio users to create forms using Now Assist in Creator Studio. To learn more, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md) and [Creator Studio roles and personas](../reference/roles-creator-studio.md).
+Grant the now.assist.creator role to the Creator Studio users to create forms using Now Assist in Creator Studio. To learn more, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md) and [Creator Studio roles and personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/roles-creator-studio.md).
 
-**Parent Topic:**[Configuring form generation in Creator Studio](../concept/creator-studio-configure-now-assist.md)
+**Parent Topic:**[Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-configure-now-assist.md)
 

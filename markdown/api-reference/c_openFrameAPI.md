@@ -2,12 +2,13 @@
 title: openFrameAPI - Client
 description: The openFrameAPI provides methods that interact with OpenFrame. OpenFrame is an omni-present frame that communication partners can use to integrate their systems into the ServiceNow platform.Returns the logged in agent’s current presence state.Hides the OpenFrame in the TopFrame.Initializes OpenFrame. This must be the first method that you call.Checks to see if the OpenFrame is visible in the TopFrame.Opens a custom URL in the UI16 interface.Opens a form URL.Opens a ServiceNow form with a child tab if invoked in a workspace or opens an entity if invoked in the UI16 interface.Opens a list URL in the UI16 interface.Sets the OpenFrame mode.Sets the OpenFrame height.Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.Defines icons in the OpenFrame header that are placed next to the close icon.Sets the presence indicator to display agent availability in a workspace.Sets the OpenFrame size.Sets the OpenFrame subtitle.Sets the OpenFrame title.Sets the OpenFrame's title icon.Displays an alert message.Sets the OpenFrame width.Makes the OpenFrame visible in the TopFrame.Subscribes to a specified event.Returns the OpenFrame API version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_openFrameAPI.html
 release: australia
 product: API Reference
 classification: api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 39
+reading_time_minutes: 43
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---
 
@@ -21,7 +22,7 @@ OpenFrame has two significant parts. One lives in the ServiceNow application \(r
 
 **Note:** To stay current with reference to the OpenFrame library, use the following resource URI: `https://[servicenow instance]/scripts/openframe/latest/openFrameAPI.min.js`.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## openFrameAPI - getAWAAgentPresence\(String success, String failure\)
 
@@ -686,6 +687,7 @@ Object
 Context data to set. Each context data type is a unique set of input data.Valid **Context** data objects:
 
 -   `activeCall`
+-   `activeConversation`
 -   `idleState`
 -   `offerContext`
 -   `searchTargetList`
@@ -738,7 +740,7 @@ Only used if the **activeCall.type** property is `callback`. Callback context in
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. callAttemptedByAgent
+activeCall.callbackContext.callAttemptedByAgent
 
 </td><td>
 
@@ -755,7 +757,7 @@ Default: False
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. callbackNumbers
+activeCall.callbackContext.callbackNumbers
 
 </td><td>
 
@@ -767,7 +769,7 @@ List of phone numbers provided as strings.
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. closeInEndTime
+activeCall.callbackContext.closeInEndTime
 
 </td><td>
 
@@ -779,7 +781,7 @@ Set only if **callAttemptedByAgent** is true. End time for callback in UTC forma
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. customerName
+activeCall.callbackContext.customerName
 
 </td><td>
 
@@ -791,7 +793,7 @@ Name of the customer.
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. dialInEndTime
+activeCall.callbackContext.dialInEndTime
 
 </td><td>
 
@@ -870,7 +872,7 @@ Object
 
 </td><td>
 
-Details about the capabilities that the current \(agent\) participant can perform during a call. The associated icons appear in the Active call component for the capabilities that are enabled.![Screen shot of Active call component with capabilities icons](../image/OF-active_call-capabilities.png)
+Details about the capabilities that the current \(agent\) participant can perform during a call. The associated icons appear in the Active call component for the capabilities that are enabled.\[Omitted image "OF-active\_call-capabilities.png"\] Alt text: Screen shot of Active call component with capabilities icons
 
 ```
 "capabilities": {
@@ -1660,7 +1662,7 @@ Boolean
 
 For agent use case only - only valid when the **activeCall.currentParticipant.actor** is "agent".Flag that indicates whether to display the **Wrap up** component once the call is complete.
 
-![Screen shot of Wrap up component](../image/OF-active_call-wrapup.png)
+\[Omitted image "OF-active\_call-wrapup.png"\] Alt text: Screen shot of Wrap up component
 
 Valid values:
 
@@ -1679,7 +1681,7 @@ String
 
 </td><td>
 
-State of the participant's call leg. Appears beneath the phone number in the **Active call** component.![Active call window showing state](../image/OF-active_call-state.png)
+State of the participant's call leg. Appears beneath the phone number in the **Active call** component.\[Omitted image "OF-active\_call-state.png"\] Alt text: Active call window showing state
 
 This can be any meaningful text, such as:
 
@@ -1705,6 +1707,171 @@ Type of call.Valid values:
 **Note:** If set, you must include the **activeCall.callbackContext** object details.
 
 -   voicemail
+
+</td></tr><tr><td>
+
+activeConversation
+
+</td><td>
+
+Array of Objects
+
+</td><td>
+
+Context details about an active conversation. Each object represents an ongoing messaging interaction.
+
+```
+"activeConversation": [
+ { 
+  "externalId": "String",
+  "nowRecordId": "String", 
+  "nowRecordTable": "String",  
+  "wrapUpRequired": Boolean 
+ }
+]
+```
+
+</td></tr><tr><td>
+
+activeConversation.nowRecordId
+
+</td><td>
+
+String
+
+</td><td>
+
+Required. Sys\_id of the active call record.Table: Interaction \[interaction\] Only supported option for base system.
+
+</td></tr><tr><td>
+
+activeConversation.nowRecordTable
+
+</td><td>
+
+String
+
+</td><td>
+
+Required. Table to which the active call belongs.Table: Interaction \[interaction\] Only supported option for base system.
+
+</td></tr><tr><td>
+
+activeConversation.wrapupRequired
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether to display the **Wrap up** component once the agent leaves the chat.Valid values:
+
+-   true: Display the Wrap up component once agent leaves the chat.
+-   false: Don't display the Wrap up component while agent leaving the chat.
+
+Default: false
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue
+
+</td><td>
+
+Object
+
+</td><td>
+
+Container for all outbound queue selection data and available queue options.```
+"outboundQueue": {
+ "currentSelectedQueue": {Object},
+ "targets": {Object}
+}
+```
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.currentSelectedQueue
+
+</td><td>
+
+Object
+
+</td><td>
+
+Represents the queue currently selected by the agent. Stores the agent's active queue choice.```
+"currentSelectedQueue": {
+      "label": "String",
+      "id": "String"
+    }
+```
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.currentSelectedQueue.id
+
+</td><td>
+
+String
+
+</td><td>
+
+Unique identifier for the currently selected queue. For example: `"queueId1"`.
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.currentSelectedQueue.label
+
+</td><td>
+
+String
+
+</td><td>
+
+Display name of the currently selected queue. For example: `"Account Support"`.
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.targets
+
+</td><td>
+
+Array of Objects
+
+</td><td>
+
+Array of queue objects representing all available queue options the agent can select from.```
+"targets": [
+ {
+  "label": "String",
+  "id": "String"
+ }
+]
+```
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.targets.id
+
+</td><td>
+
+String
+
+</td><td>
+
+Unique identifier for the queue option. For example: `"queueId2"`.
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.targets.label
+
+</td><td>
+
+String
+
+</td><td>
+
+Display name of the queue option. For example: `"Billing Support"`.
 
 </td></tr><tr><td>
 
@@ -1739,7 +1906,9 @@ Description of the current user's idle state capabilities.```
 "capability": {
   "globalContactSearch": Boolean,
   "logOut": Boolean,
-  "outBoundCall": Boolean
+  "outBoundCall": Boolean,
+  "phoneDirectory": Boolean,
+  "outboundQueueSelection": Boolean,
 }
 ```
 
@@ -1796,6 +1965,40 @@ Default: false
 
 </td></tr><tr><td>
 
+idleState.capability.outboundQueueSelection
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the outbound queue selection field should be enabled.Valid values:
+
+-   true: Display the outbound queue selection field while in the idle state.
+-   false: Don't display the outbound queue selection field while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
+idleState.capability.phoneDirectory
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the phone directory button should be enabled.Valid values:
+
+-   true: Display the phone directory button while in the idle state.
+-   false: Don't display the phone directory button while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
 idleState.​currentInboundId
 
 </td><td>
@@ -1827,7 +2030,7 @@ Details about the information message to display on the user's dial pad, such as
 
 In the following example, the **label** is **Selected queue:** and the **value** is **Customer Inquiries**. You can also just use either the **label** or the **value** parameter with **Selected queue: Customer Inquiries**.
 
-![Screen shot of dial pad with information message](../image/OF-dialpadInfoMessage.png)
+\[Omitted image "OF-dialpadInfoMessage.png"\] Alt text: Screen shot of dial pad with information message
 
 </td></tr><tr><td>
 
@@ -1865,8 +2068,9 @@ Object
 
 Details about the enable state of the buttons on the dial pad.```
 "enableState": {
-   "logOut": Boolean,
-   "outBoundCall": Boolean
+  "logOut": Boolean,
+  "outBoundCall": Boolean,
+  "outboundQueueSelection": Boolean
  }
 ```
 
@@ -1901,6 +2105,40 @@ Flag that indicates whether to enable the outbound call button in the UI while i
 
 -   true: Display the outbound call button while in the idle state.
 -   false: Don't display the outbound call button while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
+idleState.enableState.outboundQueueSelection
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the outbound queue selection field should be enabled.Valid values:
+
+-   true: Display the outbound queue selection field while in the idle state.
+-   false: Don't display the outbound queue selection field while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
+idleState.​enableState.phoneDirectory​
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates the phone directory button should be enabled.Valid values:
+
+-   true: Display the phone directory button while in the idle state.
+-   false: Don't display the phone directory button while in the idle state.
 
 Default: false
 
@@ -2386,7 +2624,7 @@ Object
 
 Details about the information to display in the transfer call control.The following is an example of a **Transfer call** control that contains a list of agents that the call can be transferred to. The screen shot shows what elements of the UI that each parameter in the **list.payload** controls.
 
-![Screen shot of Transfer call window showing parameter association](../image/OF-search_payload_parms.png)
+\[Omitted image "OF-search\_payload\_parms.png"\] Alt text: Screen shot of Transfer call window showing parameter association
 
 ```
 "payload": {
@@ -2585,7 +2823,7 @@ Array of Objects
 
 Details about the type of transfer supported for the specified **searchTargetList.targets.type**. This information appears when the user clicks the ellipse next to the target's name in the UI.
 
-![Transfer call component showing transfer types](../image/OF-transferSuptypes.png)
+\[Omitted image "OF-transferSuptypes.png"\] Alt text: Transfer call component showing transfer types
 
 For example, if only a consult type is supported for the current target type, say queue, this array will contain one object to denote the consult type of transfer.
 
@@ -2682,7 +2920,7 @@ String
 
 Type of context data to set. Valid values:
 
--   activeCall: Sets the context for the ongoing Active call component. When you pass this context type, you must also pass the `activeCall[]`**Context** parameter.
+-   activeCall: Sets the context for the ongoing Active call component. When you pass this context type, you must also pass the `activeCall[]` **Context** parameter.
 -   idleState: Sets the idle state capabilities for the current user. When this type is set, the idle state UI \(dial pad\) appears in OpenFrame. When you pass this context type, you must also pass the `<idleState>{}` JSON as the **Context** parameter.
 -   offerContext: Sets the current participant's offer context for resiliency. When you pass this context type, you must also pass the `offerContext{}` JSON as the **Context** parameter.
 -   searchTargetList: Sets the telephone directory context. When this type is set, it enables **Transfer call** on the Active call component. When you pass this context type, you must also pass the `searchTargetList[]` JSON as the **Context** parameter.
@@ -2710,7 +2948,7 @@ Error \(offerContext\)
 
 </td><td>
 
-Error messages associated with the **offerContext** object used for resiliency. To view these messages, use the [subscribe\(\)](c_openFrameAPI.md#) method to subscribe to **openframe\_awa\_client\_offer** event.Context values are represented as follows:
+Error messages associated with the **offerContext** object used for resiliency. To view these messages, use the [subscribe\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md) method to subscribe to **openframe\_awa\_client\_offer** event.Context values are represented as follows:
 
 1.  success
 2.  error
@@ -2918,15 +3156,19 @@ The following example shows how to set the idle state context.
 openFrameAPI.setICContext("idleState", {
   "capability": {
     "outBoundCall": true,
-    "logOut": true 
+    "logOut": true,
+    "phoneDirectory": true,
+    "outboundQueueSelection": true
   },
   "enableState": {
     "outBoundCall": true,
-    "logOut": true
+    "logOut": true,
+    "phoneDirectory": true,
+    "outboundQueueSelection": true
   },
   "dialpadInfoMessage": {
-    "label": "Info Message Label",
-    "value": "Info Message Value"
+    "label": "DialPadInfo_Label",
+    "value": "DialpadInfo_Value"
   },
   "currentInboundId": "1234"
 });
@@ -2962,7 +3204,7 @@ openFrameAPI.setICContext("searchTargetList",
                 {
                   "name": "John Jason",
                   "id": "agent1Id",
-                  "hasStats": true,
+                  "hasStats": "true",
                   "presence": "away",
                   "moreInfo": [
                     {
@@ -3040,10 +3282,10 @@ var callbackContext = {
       "currentParticipant": {
         "id": "agent1",
         "capabilities": {
-          "initiateCall": true,
-          "closeCallback": true,
-          "transfer": true,
-          "cancelCallbackTransferEligible": false,
+          "initiateCall": "true",
+          "closeCallback": "true",
+          "transfer": "true",
+          "cancelCallbackTransferEligible": "false",
           "callbackTransferStatus": ""
         }
       },
@@ -3092,6 +3334,120 @@ var offerContext = {
     }
   ]
 };
+```
+
+### Agent Selects a Support Queue using the agentSettings property
+
+The `setICContext("agentSettings")` method configures queue selection options for contact center agents in OpenFrame. The first example initializes the agent's environment by setting a default queue \("Account Support"\) and populating a dropdown menu with all available queue options.
+
+As the agent's assignment changes or they manually switch queues, the second example demonstrates how to update `currentSelectedQueue` to reflect the new selection, keeping the system synchronized with the agent's active queue. This allows the OpenFrame interface to display the correct queue context and route interactions to the appropriate team.
+
+```
+// Initialize agentSettings context with available queues
+openFrameAPI.setICContext("agentSettings", {
+  "outboundQueue": {
+    "currentSelectedQueue": {
+      "label": "Account Support",
+      "id": "queueId1"
+    },
+    "targets": [
+      {
+        "label": "Account Support",
+        "id": "queueId1"
+      },
+      {
+        "label": "Billing Support",
+        "id": "queueId2"
+      },
+      {
+        "label": "Hardware Support",
+        "id": "queueId3"
+      },
+      {
+        "label": "Product Support",
+        "id": "queueId4"
+      },
+      {
+        "label": "Sales Support",
+        "id": "queueId5"
+      }
+    ]
+  }
+});
+```
+
+In this example, the agent switches to Billing Support as the newly selected queue:
+
+```
+// Agent switches to Billing Support
+openFrameAPI.setICContext("agentSettings", {
+  "outboundQueue": {
+    "currentSelectedQueue": {
+      "label": "Billing Support",
+      "id": "queueId2"
+    },
+    "targets": [
+      // ... same targets array
+    ]
+  }
+});
+```
+
+### Setting Active Conversation Context
+
+Use case - When an agent receives an inbound interaction:
+
+-   The system identifies the ServiceNow interaction record and passes its record ID.
+-   The externalId stores any external system reference \(e.g., from a third-party contact center\).
+-   If the interaction requires post-call work, wrapUpRequired is set to true.
+-   The OpenFrame interface is synchronized with the active conversation context, allowing agents to access conversation history and interaction details.
+
+```
+// Initialize activeConversation context with the current interaction
+openFrameAPI.setICContext('activeConversation', {
+  'activeConversation': [
+    {
+      'nowRecordId': '74103990fbd98b10ff19fe5f3eefdc41',
+      'nowRecordTable': 'Interaction',
+      'externalId': 'externalId123',
+      'wrapUpRequired': true
+    }
+  ]
+});
+```
+
+Output:
+
+```
+{
+  'activeConversation': [
+    {
+      'nowRecordId': '74103990fbd98b10ff19fe5f3eefdc41',
+      'nowRecordTable': 'Interaction',
+      'externalId': 'externalId123',
+      'wrapUpRequired': true,
+      'status': 'active',
+      'timestamp': '2024-06-24T14:32:15Z'
+    }
+  ],
+  'success': true
+}
+```
+
+Update the interaction to a new conversation:
+
+```
+// Update to a new active conversation
+openFrameAPI.setICContext('activeConversation', {
+  'activeConversation': [
+    {
+      'nowRecordId': '85214001gce99c21gg30gf6g4ffgeeid52',
+      'nowRecordTable': 'Interaction',
+      'externalId': 'externalId456',
+      'wrapUpRequired': true
+    }
+  ]
+});
 ```
 
 ## openFrameAPI - setIcons\(Array icons\)
@@ -3422,6 +3778,10 @@ The event to subscribe to:-   interaction\_control\_action: Receives the interac
 -   openframe\_awa\_workitem\_accepted: Occurs when a work item is accepted by an agent.
 -   openframe\_awa\_workitem\_offered: Occurs when a work item is offered to an agent.
 -   openframe\_awa\_workitem\_rejected: Occurs when a work item is rejected by an agent.
+-   openframe\_awa\_workitem\_cancelled:
+    -   Occurs when a work item is cancelled by AWA.
+    -   Occurs when a Agent 1 transfers the phone call \(Blind or Consult\) to Agent 2 but Agent 2 rejects the transfer.
+    -   Occurs when an Agent 1 cancels the transfer before the Agent 2 picks up the transfer. Currently, cancellation is supported only for chats.
 -   openframe\_before\_destroy: Occurs before the TopFrame is unloaded.
 -   openframe\_collapse: Occurs when the collapse icon is selected on the OpenFrame header.
 -   openframe\_communication: Application-specific and can be customized.

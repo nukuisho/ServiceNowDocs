@@ -2,6 +2,7 @@
 title: Set up the Office Malicous File Detected playbook
 description: Use the following steps to set up the Office Malicous File Detected playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-office-malicous-file-detected.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,9 +33,7 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  You can create a copy of the Office 365 - Malicious File Detected playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, click the ![More actions menu](../image/more-action-menu.png) icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
-
-    ![Overview of the Office 365 - Malicious File Detected playbook](../image/playbook-office365.png "Office 365 - Malicious File Detected playbook")
+    To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
 4.  Activate the playbooks.
 
@@ -44,13 +43,11 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     This playbook is triggered and associated with the security incident when the **Category** is **Malicious code activity**.
 
-    ![Trigger condition for Office 365 - Malicious File Detected playbook.](../image/playbook-office365-trigger.png)
 
-
-**Parent Topic:**[Playbook for Office 365 - Malicious File Detected](../concept/playbook-office-malicious-file-detected-.md)
+**Parent Topic:**[Playbook for Office 365 - Malicious File Detected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-office-malicious-file-detected-.md)
 
 **Related topics**  
 
 
-[Use the Office 365 Malicious File Detected playbook](playbook-using-office-malicous-file-detected.md)
+[Use the Office 365 Malicious File Detected playbook]()
 

@@ -2,6 +2,7 @@
 title: Understanding PDIs
 description: PDIs require you to select a specific release and maintain consistent usage to avoid hibernation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/understanding\_pdis.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,17 +49,17 @@ ServiceNow® occasionally needs to perform maintenance on the underlying infrast
 
 When content is available for different releases, use the release selector to select a release. The server icon next to the release name identifies the release of your PDI. The bar under the release name identifies the selected release. When working on your PDI, be sure the content matches your PDI.
 
-![Select a release](../image/pdi-release-selector.png)
+\[Omitted image "pdi-release-selector.png"\] Alt text: Select a release
 
 If the content does not match your PDI release, click the release with the server icon to view the content that matches the release of your PDI.
 
-![Selected release](../image/pdi-release-selector-2.png)
+\[Omitted image "pdi-release-selector-2.png"\] Alt text: Selected release
 
 The selector only shows releases for which the current page of content is available except when the content is not available for your PDI release. When the content is not available for your PDI release, the PDI release is grayed out and cannot be selected.
 
-![Release content not available](../image/pdi-release-selector-3.png)
+\[Omitted image "pdi-release-selector-3.png"\] Alt text: Release content not available
 
-If your PDI is not on the latest release, follow the steps for [upgrading your PDI](../task/upgrading_your_pdi.md) to get the latest release.
+If your PDI is not on the latest release, follow the steps for [upgrading your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/upgrading_your_pdi.md) to get the latest release.
 
-**Parent Topic:**[Personal developer instance guide](personal_developer_instance_guide.md)
+**Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/personal_developer_instance_guide.md)
 

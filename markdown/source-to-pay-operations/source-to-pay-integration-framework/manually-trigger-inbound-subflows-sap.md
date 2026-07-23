@@ -2,11 +2,12 @@
 title: Manually execute flows or subflows in SAP \(Inbound\)
 description: You can manually trigger flows or subflows in SAP on demand. Follow these steps to manually trigger a flow or subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/manually-trigger-inbound-subflows-sap.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Configure, Source-to-Pay integration with SAP, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -29,7 +30,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
 3.  In the Integration Services list, select the subflows that you want to manually trigger.
 
-    ![Manually trigger flows or subflows in SAP (Inbound)](../../source-to-pay-operations/image/sap-integration-manual-trigger-flow.png "Manually trigger flows or subflows in SAP")
+    \[Omitted image "sap-integration-manual-trigger-flow.png"\] Alt text: Manually trigger flows or subflows in SAP \(Inbound\)
 
 4.  Select **Run job** to trigger the flow or subflow.
 
@@ -45,7 +46,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
     You can view the flows or subflows that you triggered.
 
-    ![View the list of Flows or subflows in Workflow Studio](../../source-to-pay-operations/image/sap-integration-manual-trigger-ws.png "Flows or subflows in Workflow Studio")
+    \[Omitted image "sap-integration-manual-trigger-ws.png"\] Alt text: View the list of Flows or subflows in Workflow Studio
 
 9.  You can use the trigger condition as a part of the base system to execute the flow or subflow.
 
@@ -54,18 +55,18 @@ Role required: sn\_fcms\_intg.integration\_user
     The flow or subflow gets executed.
 
 
-**Parent Topic:**[Configure the Source-to-Pay integration with SAP](../concept/configuring-source-to-pay-sap-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-integration.md)
 
 **Related topics**  
 
 
-[ERP Source Configuration for SAP](../concept/erp-source-configuration-sap.md)
+[ERP Source Configuration for SAP]()
 
-[Define ERP source configuration for SAP](define-erp-source-sap.md)
+[Define ERP source configuration for SAP]()
 
-[Configure integration services for SAP](configure-service-maps-sap.md)
+[Configure integration services for SAP]()
 
-[Look up primary data in SAP](../concept/look-up-primary-data-sap.md)
+[Look up primary data in SAP]()
 
-[Scheduled jobs to look up primary data in SAP](../concept/scheduled-jobs-to-primary-data-sap.md)
+[Scheduled jobs to look up primary data in SAP]()
 

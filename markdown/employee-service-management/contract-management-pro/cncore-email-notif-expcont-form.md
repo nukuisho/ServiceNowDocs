@@ -2,6 +2,7 @@
 title: Expiring Contracts Condition form fields
 description: The Expiring Contracts Condition form is used to create a rule or update an existing rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-email-notif-expcont-form.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -24,39 +25,41 @@ The Expiring Contracts Condition form is used to create a rule or update an exis
 |Compliant state|System field. Do not use.|
 |Order|Order in which the conditions are evaluated.|
 |Event name|Name of the event this condition triggers.|
-|Expiration Condition|Condition that must be true for the **Condition check** field to be set to this value. Add as many conditions as are needed. For more information on condition check, see [Define a condition check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_DefineAConditionCheck.md).|
+|Expiration Condition|Condition that must be true for the **Condition check** field to be set to this value. Add as many conditions as are needed. For more information on condition check, see [Define a condition check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/t_DefineAConditionCheck.md).|
 |Domain|Domain of the condition.|
 
-**Parent Topic:**[Contract Management Pro reference](../concept/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 
 
-[Components installed with Contract Management Pro](cncore-comp-ccore.md)
+[Components installed with Contract Management Pro]()
 
-[Components installed with Contract Workspace](cncore-comp-contract-workspace.md)
+[Components installed with Contract Workspace]()
 
-[Components installed with Analytics Pack for Contract Management Pro](cncore-comp-analytics-pack-cmpro.md)
+[Components installed with Analytics Pack for Contract Management Pro]()
 
-[Contract request State and Contract document status in Contract Management Pro](cncore-cr-state-status.md)
+[Contract request State and Contract document status in Contract Management Pro]()
 
-[Clause Variation form](cncore-cv-form.md)
+[Signatory roles]()
 
-[Contract Configuration form](cncore-contract-config-form.md)
+[Clause Variation form]()
 
-[Properties installed to configure expiry notifications](cncore-properties-installed.md)
+[Contract Configuration form]()
 
-[Properties installed to configure contracts integrations](cncore-properties.md)
+[Properties installed to configure expiry notifications]()
 
-[Action assignment form](cmpro-actn-assignment-form.md)
+[Properties installed to configure contracts integrations]()
 
-[UFX Add on Event mapping form](cmpro-ufx-event-map-form.md)
+[Action assignment form]()
 
-[Obligation form](cncore-obligation-form.md)
+[UFX Add on Event mapping form]()
 
-[Obligation Management notifications](cncore-ob-mgmt-notification.md)
+[Obligation form]()
 
-[Contract Management Pro glossary](../concept/contract-management-pro-glossary.md#)
+[Obligation Management notifications]()
 
-[Contract Management solutions](cmpro-cml-feature-compare.md)
+[Contract Management Pro glossary]()
+
+[Contract Management solutions]()
 

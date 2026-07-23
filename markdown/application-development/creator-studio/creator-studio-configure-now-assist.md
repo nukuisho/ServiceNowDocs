@@ -2,6 +2,7 @@
 title: Configuring form generation in Creator Studio
 description: Install and configure Now Assist for Creator in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-configure-now-assist.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -19,10 +20,10 @@ Install and configure Now Assist for Creator in Creator Studio.
 
 Along with the installation of Now Assist for Creator in Creator Studio application, you must enable the Catalog item generation skill and the app generation skill.
 
--   **[Install Now Assist for form generation in Creator Studio](../task/creator-studio-install-na-form-generation.md)**  
+-   **[Install Now Assist for form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-install-na-form-generation.md)**  
 Install the Now Assist for Creator application from the ServiceNow® Store to get Now Assist in Creator Studio.
 
-**Parent Topic:**[Configuring Creator Studio](configuring-creator-studio.md)
+**Parent Topic:**[Configuring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/configuring-creator-studio.md)
 
 **Related topics**  
 

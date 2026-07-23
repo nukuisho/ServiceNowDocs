@@ -2,13 +2,14 @@
 title: Create expense line form
 description: The expense line form information is used to create an expense line for your actual expenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-expense-line-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Create expense line form

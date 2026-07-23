@@ -2,6 +2,7 @@
 title: Space assistance
 description: As a space planner, assist your organization with space planning and their deployment. Work on space requests raised within the organization and implement the changes using the Space Optimization workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/space-assistance.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -27,28 +28,28 @@ The Workplace Central workspace enables you to manage the space requests submitt
 -   Check approval details of the request.
 -   View the respective space and user deployment plan and deploy it.
 
-**Parent Topic:**[Explore Workplace Central](workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 
 
-[Lists module](wsd-lists-module.md)
+[Lists module]()
 
-[Workplace Analytics](workplace-analytics.md)
+[Workplace Analytics]()
 
-[Space Planning](space-planning.md)
+[Space Planning]()
 
-[Space Optimization](space-optimization.md)
+[Space Optimization]()
 
-[Scenario Planning](scenario-planning.md)
+[Scenario Planning]()
 
-[Schedule Planning](schedule-planning.md)
+[Schedule Planning]()
 
-[Event Planner](event-planner.md)
+[Event Planner]()
 
-[Move Management](move-mgmt.md)
+[Move Management]()
 
-[Case management](case-management-workspace.md)
+[Case management]()
 
-[Kiosk Indoor Mapping](kiosk-indoor-mapping.md)
+[Kiosk Indoor Mapping]()
 

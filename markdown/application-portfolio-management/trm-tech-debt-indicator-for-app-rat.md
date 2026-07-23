@@ -2,6 +2,7 @@
 title: Tech debt indicator score for application rationalization
 description: The Technology Reference Model \(TRM\) Technical Debt indicator is a customizable application metric that evaluates the technical debt score for each Business Application. This score reflects the number of associated technologies that don’t comply with established TRM standards. It offers a clear and measurable value that can be leveraged across the Enterprise Architecture workspace for scoring, analysis, and visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/trm-tech-debt-indicator-for-app-rat.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -57,7 +58,7 @@ You must run the following scheduled jobs to populate the TPM and TRM data in EA
 
     **Note:** The data includes end of support date, end of extended support date, and end of life date for your software products and hardware models.
 
-    For instructions, see [Run a scheduled job to generate TPM lifecycle data](../../task/eaw-task/eaw-run-scheduled-job-update-tpm-data.md). For updating the TPM data for a selected business application, see [Update TPM data for a business application or application service](../../task/eaw-task/update-tpm-data.md).
+    For instructions, see [Run a scheduled job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md). For updating the TPM data for a selected business application, see [Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/update-tpm-data.md).
 
 -   Populate TRM technical debts in the EA Workspace
 
@@ -65,22 +66,22 @@ You must run the following scheduled jobs to populate the TPM and TRM data in EA
 
     **Note:** The Populate TRM technical debts in the EA Workspace scheduled job are available only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
 
-    For instructions, see [Run a scheduled job to update TRM technical debt data in EA Workspace](../../task/eaw-task/eaw-run-job-trm-tech-debts.md).
+    For instructions, see [Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
 
 
 ## Regenerate indicator score
 
-Update application indicator scores on-demand, to assess the application for a technical risk, and gather real-time insights, regenerate indicator score for the Technical Debt indicator from the **Setup** page.![Navigate to the Application indicators page from the Setup section](../../image/eaw-image/eaw-setup-app-ndicators.png)
+Update application indicator scores on-demand, to assess the application for a technical risk, and gather real-time insights, regenerate indicator score for the Technical Debt indicator from the **Setup** page.\[Omitted image "eaw-setup-app-ndicators.png"\] Alt text: Navigate to the Application indicators page from the Setup section
 
-Select the Technical Debt indicator from the list, then select the Regenerate indicator score.![Regenerate indicator score for Technical Debt indicator](../../image/eaw-image/eaw-regenerate-ind-score.png)
+Select the Technical Debt indicator from the list, then select the Regenerate indicator score.\[Omitted image "eaw-regenerate-ind-score.png"\] Alt text: Regenerate indicator score for Technical Debt indicator
 
 ## Technical Debt indicator score on the Application Rationalization List view page
 
-The Technical Debt indicator score is available as a column on the Application Rationalization List page. You can sort the applications by their score from highest to lowest debt.![Technical Debt column in the Application Rationalization page](../../image/eaw-image/eaw-tech-debt-on-app-rat-list.png)
+The Technical Debt indicator score is available as a column on the Application Rationalization List page. You can sort the applications by their score from highest to lowest debt.\[Omitted image "eaw-tech-debt-on-app-rat-list.png"\] Alt text: Technical Debt column in the Application Rationalization page
 
 ## Technical Debt indicator as bubble size on the Application Rationalization Bubble Chart page
 
-The Technical Debt indicator is listed in the Bubble Size list under the Settings of the Bubble Chart page. You can select the indicator to from the Bubble Size list to see its score for business applications in the X and Y axes and specify the bubble sizes.![Selecting Technical Debt score as a bubble size on the Bubble Chart page of the Application Rationalization](../../image/eaw-image/eaw-tech-debt-indicator-bubble-chart.png)
+The Technical Debt indicator is listed in the Bubble Size list under the Settings of the Bubble Chart page. You can select the indicator to from the Bubble Size list to see its score for business applications in the X and Y axes and specify the bubble sizes.\[Omitted image "eaw-tech-debt-indicator-bubble-chart.png"\] Alt text: Selecting Technical Debt score as a bubble size on the Bubble Chart page of the Application Rationalization
 
-**Parent Topic:**[Rationalization of business applications](../../concept/eaw-concept/eaw-rationalize-business-applications.md)
+**Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)
 

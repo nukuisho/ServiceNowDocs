@@ -2,6 +2,7 @@
 title: Schedule a full scan
 description: Create a schedule to regularly trigger a full scan even when you don’t have an active session. A schedule creates an established baseline for the health of the instance and provides a comparison to configuration and instance health over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-schedule-full-scan.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -56,28 +57,28 @@ Role required: admin
 
 A schedule to trigger a full scan regularly even without an active session is created.
 
-**Parent Topic:**[Using Instance Scan](../concept/hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 
 
-[Create a check](hs-create-health-check.md)
+[Create a check]()
 
-[Create a check suite](hc-create-check-suite.md)
+[Create a check suite]()
 
-[Executing a scan](../reference/hs-execute-scans.md)
+[Executing a scan]()
 
-[Schedule a suite scan](hc-schedule-suite-scan.md)
+[Schedule a suite scan]()
 
-[Monitoring a scan](hs-progress-status-full-scan.md)
+[Monitoring a scan]()
 
-[Parallel scans](../concept/hs-parallel-scan.md)
+[Parallel scans]()
 
-[Reviewing of scans](../reference/hs-review-scans.md)
+[Reviewing of scans]()
 
-[Queue your scan](hs-queue-scan.md)
+[Queue your scan]()
 
-[Cancel a scan](hs-cancel-scan.md)
+[Cancel a scan]()
 
-[Using the Instance Scan dashboard](hs-implement-dashboard.md)
+[Using the Instance Scan dashboard]()
 

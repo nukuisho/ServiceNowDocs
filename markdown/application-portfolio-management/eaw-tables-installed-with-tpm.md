@@ -2,6 +2,7 @@
 title: Tables installed with TPM in the EA Workspace
 description: Several types of tables are installed with Technology Portfolio Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-tables-installed-with-tpm.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -64,5 +65,5 @@ TPM Technology Risk \[sn\_apm\_tpm\_technology\_risk\]
 Stores the TPM technology risk information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate the Technology Portfolio Management \(TPM\) plugin](../../task/eaw-task/eaw-install-tpm.md)
+</table>**Parent Topic:**[Activate the Technology Portfolio Management \(TPM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-install-tpm.md)
 

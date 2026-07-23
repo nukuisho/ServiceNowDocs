@@ -2,6 +2,7 @@
 title: Install Enterprise Architecture Workspace
 description: Install the Enterprise Architecture Workspace application \(sn\_apm\_ws\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/install-ea-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Install the Enterprise Architecture Workspace application \(sn\_apm\_ws\) if you
 
 Role required: admin
 
-![Install Enterprise Architecture Workspace screen.](../image/eaw-image/eaw-install-app.png)
+\[Omitted image "eaw-install-app.png"\] Alt text: Install Enterprise Architecture Workspace screen.
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -48,14 +49,14 @@ Role required: admin
 6.  Select **Install**.
 
 
--   **[Enterprise Architecture Workspace access roles](../reference/eaw-reference/eaw-access-roles.md)**  
+-   **[Enterprise Architecture Workspace access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-access-roles.md)**  
 The following roles help you to configure and use the Enterprise Architecture Workspace application. After access has been granted to a role, all the groups or users assigned to the role are granted access. Roles can contain other roles, and any access granted to a role is granted to any other role that includes it.
--   **[Tables installed with Enterprise Architecture Workspace](../reference/eaw-reference/eaw-installed-tables.md)**  
+-   **[Tables installed with Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-installed-tables.md)**  
 The following tables are added with activation of Enterprise Architecture Workspace.
--   **[Granular admin role changes in Enterprise Architecture](../reference/eaw-reference/eaw-gran-admin-role-changes.md)**  
+-   **[Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-gran-admin-role-changes.md)**  
 Understand the transition from global admin usage to feature‑specific granular admin roles, outlining the intent, architectural principles, and governance expectations defined by the Granular Admin Directive.
--   **[Application plugin installation sequence for Enterprise Architecture Workspace](../reference/eaw-reference/eaw-plugin-activation-sequence.md)**  
-The following table provides the list of plugins for Enterprise Architecture Workspace, a high-level description of each plugin, and the dependencies that are required before installing each plugin.
+-   **[Application plugin installation sequence for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-plugin-activation-sequence.md)**  
+Activate the required plugins and optional add-ons in the correct order to confirm all Enterprise Architecture Workspace features are available on your instance.
 
-**Parent Topic:**[Configuring Enterprise Architecture Workspace](../concept/eaw-concept/configure-eaw.md)
+**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-eaw.md)
 

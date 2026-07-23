@@ -2,6 +2,7 @@
 title: Activate an AI Agent in Public Sector Digital Services AI Agent Collection
 description: Configure and activate standalone AI agents to perform various tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-activate-ai-agents.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

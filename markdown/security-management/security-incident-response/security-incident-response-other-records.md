@@ -2,6 +2,7 @@
 title: Security Incident Response Other Records
 description: This section displays the other records such as IT related records and email records. Under IT records, Incident, Change Request, Problem and Outages are displayed.Create an incident within a security incident.Link related multiple IT Service Management \(ITSM\) incidents, problems or change requests to a security incident.Create a problem task.Create a change request.Crete an outage from an incident to track the down time of a configuration item.As an analyst, you can compose emails directly from security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-response-other-records.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -17,34 +18,36 @@ This section displays the other records such as IT related records and email rec
 
 Under Email, Draft, Sent Emails and Received Emails are displayed.
 
-![Other Records tab](../image/other-records.png "Other Records")
+\[Omitted image "other-records.png"\] Alt text: Other Records tab
 
-**Parent Topic:**[Working with Security Incident Records](using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 
 
-[Security Incident Overview section](security-incident-overview.md)
+[Security Incident Overview section]()
 
-[Security Incident Details section](security-incident-details.md)
+[Security Incident Details section]()
 
-[SIR Workspace Orchestration](security-incident-response-workspace-orchestration-activities.md)
+[SIR Workspace Orchestration]()
 
-[Security Incident Response Tasks](security-incident-response-tasks.md)
+[Security Incident Response Tasks]()
 
-[Security Incident Response Post Incident Review](security-incident-response-post-incident-review.md)
+[Security Incident Response Post Incident Review]()
 
-[Update information in security incident related records](../task/edit-related-records-in-list.md)
+[Update information in security incident related records]()
 
-[TISC integration within SIR Workspace](../../secops-integration-threat-security-center/concept/tisc-sir-workspace.md)
+[TISC integration within SIR Workspace]()
 
-[Reports in Security Incident Response](report-templates-sir.md)
+[Reports in Security Incident Response]()
 
-[Collaborate using conference call or chat in Security Incident Response](collab-sir-call-chat.md)
+[Collaborate using conference call or chat in Security Incident Response]()
 
-[Viewing incident details with a relationship graph](sir-relationship-graph.md)
+[Viewing incident details with a relationship graph]()
 
-[MITRE attack and defend technique graph](mitre-attack-defend-graph-sir.md)
+[MITRE attack and defend technique graph]()
+
+[View and filter the incident timeline]()
 
 ## Create an incident
 
@@ -62,7 +65,7 @@ Role required: sn\_si.analyst.
 
 3.  Click **Create Incident**.
 
-    ![create incident](../image/create-incident.png)
+    \[Omitted image "create-incident.png"\] Alt text: create incident
 
 4.  Enter the details such as Configuration Item, Impact, Urgency, Location, Priority, and Short Description.
 
@@ -83,7 +86,7 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
 
-2.  Select the Security Incidents icon ![](../image/listview-icon.png).
+2.  Select the Security Incidents icon \[Omitted image "listview-icon.png"\] Alt text:.
 
 3.  Open the incident record.
 
@@ -185,7 +188,7 @@ Role required: sn\_si.analyst
 
 3.  Click the overflow and select **Compose Email**.
 
-    ![User Reported Phishing view: Compose Email section.](../image/compose-email-form-ui.png)
+    \[Omitted image "compose-email-form-ui.png"\] Alt text: User Reported Phishing view: Compose Email section.
 
 4.  Enter the **To** and **CC** field.
 
@@ -195,7 +198,7 @@ Role required: sn\_si.analyst
 
     The available quick messages are displayed. Select the message and click **Insert**. The messages gets inserted in the body of the email.
 
-    ![User Reported Phishing email.](../image/quick-message-insert.png)
+    \[Omitted image "quick-message-insert.png"\] Alt text: User Reported Phishing email.
 
 7.  Compose your email and click **Send Email**.
 
@@ -207,7 +210,7 @@ Role required: sn\_si.analyst
 
     2.  Search for **Quick Message \(sys\_email\_canned\_message\)** table.
 
-        ![System Definitions](../image/quick-messages-table.png)
+        \[Omitted image "quick-messages-table.png"\] Alt text: System Definitions
 
     3.  Go to **Related Links** &gt; **Show List**.
 
@@ -215,7 +218,7 @@ Role required: sn\_si.analyst
 
     5.  Enter the **Title**, **body of the message**, select the **Table: Security Incident \(sn\_si\_incident\)** and **Active** check box.
 
-        ![Quick message - New record.](../image/quick-msg-new-record.png)
+        \[Omitted image "quick-msg-new-record.png"\] Alt text: Quick message - New record.
 
     6.  Click **Submit**.
 
@@ -225,13 +228,13 @@ Role required: sn\_si.analyst
 
 9.  Select the **Response Template** and click **Copy to clipboard** and apply the template, if required.
 
-    ![Compose email template.](../image/emil-template.png) **How to configure Response Templates:**
+    \[Omitted image "emil-template.png"\] Alt text: Compose email template. **How to configure Response Templates:**
 
     1.  Navigate to **System Definitions** &gt; **Tables**.
 
     2.  Search for the **Response Template \(sn\_templated\_snip\_note\_template\)** table.
 
-        ![Response Template Table.](../image/response-template.png)
+        \[Omitted image "response-template.png"\] Alt text: Response Template Table.
 
     3.  Go to **Related Links** &gt; **Show List**.
 
@@ -239,7 +242,7 @@ Role required: sn\_si.analyst
 
     5.  Enter the **Name**, **Short Name**, select the **Table: Security Incident \(sn\_si\_incident\)** and **Template body**.
 
-        ![Response Template: record view.](../image/response-template-new-record.png)
+        \[Omitted image "response-template-new-record.png"\] Alt text: Response Template: record view.
 
     6.  Click **Submit**.
 

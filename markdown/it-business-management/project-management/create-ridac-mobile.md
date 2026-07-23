@@ -1,7 +1,8 @@
 ---
-title: Create RIDAC \(Risk, Issues, Decisions, Actions, and Request Changes\) records
+title: Create RIDAC records
 description: You can create Risk, Issues, Decisions, Actions, and Request Changes records for your project through the mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/create-ridac-mobile.html
 release: australia
 product: Project Management
 classification: project-management
@@ -11,7 +12,7 @@ reading_time_minutes: 3
 breadcrumb: [Manage status of your projects using Project Status application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create RIDAC \(Risk, Issues, Decisions, Actions, and Request Changes\) records
+# Create RIDAC records
 
 You can create Risk, Issues, Decisions, Actions, and Request Changes records for your project through the mobile app.
 
@@ -21,7 +22,7 @@ Role required: portfolio\_manager or project\_manager or project\_user
 
 ## About this task
 
-Analyze the impact of the risks on the project and create RIDAC records to track risks, issues, and their probable resolution for planning future projects. For more information see, [Adding RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](../concept/ridac-entries-for-project.md).
+Analyze the impact of the risks on the project and create RIDAC records to track risks, issues, and their probable resolution for planning future projects. For more information see, [Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ridac-entries-for-project.md).
 
 ## Procedure
 
@@ -35,32 +36,32 @@ Analyze the impact of the risks on the project and create RIDAC records to track
     -   In the **Critical Projects** or the **Project in Red** lists, tap on a project.
 3.  Create a RIDAC record using one of the following options.
 
-    -   Tap the more action icon \(![more option icon](../image/more_action_icon.png)\) and select one of the options:
+    -   Tap the more action icon \(\[Omitted image "more\_action\_icon.png"\] Alt text: more option icon\) and select one of the options:
         -   New Risk
         -   New Issue
         -   New Decision
         -   New Action
         -   New Request Changes
-    ![Create RIDAC.](../image/create-ridac.gif)
+    \[Omitted image "create-ridac.gif"\] Alt text: Create RIDAC.
 
 4.  Based on the option that you selected, fill in the fields on the form.
 
     |RIDAC record|Description|
     |------------|-----------|
-    |**New Risk**|Fill the fields on the Risk form. For more information, see [Add risks for a project](add-risks-for-project.md).|
-    |**New Issue**|Fill the fields on the Issue form. For more information, see [Add issues for a project](add-issues-for-project.md).|
-    |**New Decision**|Fill the fields on the Decision form. For more information, see [Add decisions for a project](add-decisions-for-project.md).|
-    |**New Action**|Fill the fields on the Action form. For more information, see [Add actions for a project](add-actions-for-project.md).|
-    |**New Request Changes**|Fill the fields on the Request Changes form. For more information, see [Create a request change](create-project-change-request.md).|
+    |**New Risk**|Fill the fields on the Risk form. For more information, see [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-risks-for-project.md).|
+    |**New Issue**|Fill the fields on the Issue form. For more information, see [Add issues for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-issues-for-project.md).|
+    |**New Decision**|Fill the fields on the Decision form. For more information, see [Add decisions for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-decisions-for-project.md).|
+    |**New Action**|Fill the fields on the Action form. For more information, see [Add actions for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-actions-for-project.md).|
+    |**New Request Changes**|Fill the fields on the Request Changes form. For more information, see [Create a request change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-project-change-request.md).|
 
 5.  Alternatively, open a RIDAC record and create a new RIDAC record.
 
     -   1.  Tap the **RIDAC** tab.
-2.  Tap the right arrow for a RIDAC record to view its details, tap the more action icon \(![more option icon](../image/more_action_icon.png)\), and then tap **New Risk**, **New Issue**, **New Decision**, **New Action**, or **New Request Changes** option based on the selected record.
+2.  Tap the right arrow for a RIDAC record to view its details, tap the more action icon \(\[Omitted image "more\_action\_icon.png"\] Alt text: more option icon\), and then tap **New Risk**, **New Issue**, **New Decision**, **New Action**, or **New Request Changes** option based on the selected record.
 3.  Fill in the fields on the form.
 
 **Related topics**  
 
 
-[Manage status of your projects using Project Status application](../concept/mobile-project-status.md)
+[Manage status of your projects using Project Status application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/mobile-project-status.md)
 

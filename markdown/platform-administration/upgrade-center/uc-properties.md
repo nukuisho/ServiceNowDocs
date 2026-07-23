@@ -2,6 +2,7 @@
 title: Upgrade Center properties
 description: On the properties form, you can set parameters that control how the system executes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-properties.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -78,14 +79,14 @@ Queries about the type of instance the user is configured. **glide.upgrade.plan.
 You must configure the instance either as a builder or a consumer. You must build the upgrade plan on a builder instance and implement it on a consumer instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Upgrade Center references](uc-reference.md)
+</table>**Parent Topic:**[Upgrade Center references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-reference.md)
 
 **Related topics**  
 
 
-[Upgrade Center VTB Labels list](uc-vtb-labels-list.md)
+[Upgrade Center VTB Labels list]()
 
-[Default skipped rules](../concept/uc-default-skipped-rules.md)
+[Default skipped rules]()
 
-[Upgrade Center roles](uc-roles.md)
+[Upgrade Center roles]()
 

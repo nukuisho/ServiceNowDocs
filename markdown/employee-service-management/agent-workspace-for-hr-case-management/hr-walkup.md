@@ -1,7 +1,8 @@
 ---
 title: HR Walk-up
-description: The HR Walk-up feature offers a convenient and efficient way for users to seek immediate assistance and support for their HR-related issues. With designated walk-up centers, users can seek in-person or remote assistance, report issues, and receive guidance from HR agents.Use HR walk-up to support HR requests raised by deskless workers.
+description: HR Walk-up enables employees to receive immediate in-person or remote support from HR agents at designated walk-up centers.Use HR walk-up to support HR requests raised by deskless workers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-walkup.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -13,17 +14,17 @@ breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace, HR S
 
 # HR Walk-up
 
-The HR Walk-up feature offers a convenient and efficient way for users to seek immediate assistance and support for their HR-related issues. With designated walk-up centers, users can seek in-person or remote assistance, report issues, and receive guidance from HR agents.
+HR Walk-up enables employees to receive immediate in-person or remote support from HR agents at designated walk-up centers.
 
 **Note:** The HR Walk-up feature is available when the Walk-up Experience \(com.snc.walkup\) and Employee Center Pro \(sn\_ex\_sp\_pro\) plugins are installed.
 
--   **[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-landing-page.md)**
+-   **[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walkup-experience-landing-page.md)**
 
     Walk-up Experience enhances user satisfaction and productivity by providing immediate and personalized support for IT-related needs.
 
     Every employee or a guest can check in and get support at an established walk-up service center.
 
--   **[Employee Center Pro Kiosk](../../employee-center/concept/deskless-kiosk-overview.md)**
+-   **[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)**
 
     Employee Center Pro Kiosk enables all deskless workers with simplified access to information and services for self-serve and improved productivity.
 
@@ -99,7 +100,7 @@ Use HR walk-up to support HR requests raised by deskless workers.
 
 -   Role required: sn\_hr\_core.case\_writer
 -   Verify that the Walk-up Experience \(com.snc.walkup\) and Employee Center Pro \(sn\_ex\_sp\_pro\) plugins are installed.
--   Employee must raise a walk-up appointment request. See [Plan your walk-up experience visit with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/plan-your-visit.md) for more information. Based on the service and location, the appointment is assigned to an HR agent.
+-   Employee must raise a walk-up appointment request. See [Plan your walk-up experience visit with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/plan-your-visit.md) for more information. Based on the service and location, the appointment is assigned to an HR agent.
 
 ### Procedure
 

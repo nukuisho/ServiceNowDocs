@@ -2,13 +2,14 @@
 title: Add roles to the group
 description: Add roles to groups that are mapped to a location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/add-group-roles.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure groups, Configuring, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Configure groups, Configure, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Add roles to the group
@@ -29,17 +30,17 @@ Role required: admin
 
 4.  Select the appropriate role from the list of roles.
 
-5.  Select ![Chevron right](../../../reuse/icons/product-icons/chevron-right-fill-24.svg) to add the role to the group.
+5.  Select \[Omitted image "chevron-right-fill-24.svg"\] Alt text: Chevron right to add the role to the group.
 
 
-**Parent Topic:**[Configure Critical Event Management groups](configure-critical-event-management-groups.md)
+**Parent Topic:**[Configure Critical Event Management groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-critical-event-management-groups.md)
 
 **Related topics**  
 
 
-[Add members to the group](add-members-group.md)
+[Add members to the group]()
 
-[Add roles to a member](add-member-roles.md)
+[Add roles to a member]()
 
-[Map on-site responder group with location](map-on-site-responder-group.md)
+[Map on-site responder group with location]()
 

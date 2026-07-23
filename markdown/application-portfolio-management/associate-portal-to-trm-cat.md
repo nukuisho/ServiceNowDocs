@@ -2,6 +2,7 @@
 title: Associate a portal with a knowledge base
 description: Create or update a portal mapping for your published catalog, set the order for the knowledge base. And make the record active or inactive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/associate-portal-to-trm-cat.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,9 +22,9 @@ Role required: sn\_apm.apm\_admin and sp\_admin
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon ![Setup icon](../../image/eaw-image/setup-icon.png).
+2.  Open the Setup page by selecting the Setup icon \[Omitted image "setup-icon.png"\] Alt text: Setup icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Publishing Center**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Publishing Center**.
 
 4.  Select **All**.
 
@@ -31,19 +32,19 @@ Role required: sn\_apm.apm\_admin and sp\_admin
 
 6.  On the form, fill in the fields.
 
-    For field information, see [Create a new portal knowledge base form](../../reference/eaw-reference/create-portal-kb.md).
+    For field information, see [Create a portal knowledge base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/create-portal-kb.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Working with the publishing center](../../concept/eaw-concept/working-with-publishing-center.md)
+**Parent Topic:**[Working with the publishing center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/working-with-publishing-center.md)
 
 **Related topics**  
 
 
-[Edit a published TRM catalog configuration](modify-trm-cat-pub-config.md)
+[Edit a published TRM catalog configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/modify-trm-cat-pub-config.md)
 
-[Publish a TRM catalog to the knowledge base](publish-trm-cat-to-kb.md)
+[Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/publish-trm-cat-to-kb.md)
 
-[Republish a TRM catalog after updates](republish-trm-cat.md)
+[Republish a TRM catalog after updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/republish-trm-cat.md)
 

@@ -2,12 +2,13 @@
 title: Cloning with Hermes Messaging Service enabled
 description: To clone your database from one instance to another successfully with Hermes enabled, you must ensure that certain Hermes tables are preserved and excluded. The list of tables in the preserve list should match those in the exclude list and vice versa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/cloning-with-hermes-messaging-service.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -79,16 +80,18 @@ Add the following Hermes tables to the Clone Exclude Tables list if they're miss
 -   sys\_kafka\_namespace
 -   sys\_kafka\_topic
 
-**Parent Topic:**[Administering Hermes Messaging Service](hermes-messaging-service-administration.md)
+**Parent Topic:**[Administering Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
 
 **Related topics**  
 
 
-[Check the status of and connection to the Hermes Kafka cluster](../task/run-hermes-messaging-service-diagnostics.md)
+[Managing Hermes settings]()
 
-[Monitoring data usage in Hermes](monitoring-data-usage-hermes.md)
+[Check the status of and connection to the Hermes Kafka cluster]()
 
-[Tracking message usage in Hermes](tracking-hermes-messaging-service-usage.md)
+[Monitoring data usage in Hermes]()
 
-[View Hermes Messaging Service log messages](../task/view-hermes-log-messages.md)
+[Tracking message usage in Hermes]()
+
+[View Hermes Messaging Service log messages]()
 

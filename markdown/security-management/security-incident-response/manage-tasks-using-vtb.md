@@ -2,6 +2,7 @@
 title: Manage tasks using the Visual Task Board
 description: Track and manage all the tasks associated with a major security incident using the Visual Task Board \(Kanban view\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manage-tasks-using-vtb.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -30,7 +31,7 @@ MSI Managers can create a task in the Visual Task Board using the following step
 3.  Choose the required major security incident record.
 4.  Select the **Tasks** tab.
 
-    ![Create a task using the Visual Task Board](../image/msim-tasks-create-kanban-view.png "Create a task using the Visual Task Board")
+    \[Omitted image "msim-tasks-create-kanban-view.png"\] Alt text: Create a task using the Visual Task Board
 
 5.  Select **Kanban view**, and choose **New task**.
 6.  On the form, fill in the fields.
@@ -273,7 +274,7 @@ Select the affected users by the task using the search option.
 
     Use the Activity section to add your work notes and comments, and post your activity privately and also add additional comments as required using the Compose section. Save the activity after you post your work notes and comments to view the added activity or worknotes in the Activity section.
 
-    ![Activity section on the Visual Task board](../image/msim-tasks-kanban-view-update.png "Activity section on the Visual Task board") ![]( "Activity section on the Visual Task board")
+    \[Omitted image "msim-tasks-kanban-view-update.png"\] Alt text: Activity section on the Visual Task board \[Omitted image ""\] Alt text:
 
     **Note:** Select the **Show more** details link to view the details of a specific security incident record, which is associated with that major security incident.
 
@@ -301,10 +302,10 @@ MSI Manager can delete a task in the Visual Task Board using following steps:
 
 7.  Select **Delete**.
 
-**Parent Topic:**[Manage tasks in a Major Security Incident](tasks-tab.md)
+**Parent Topic:**[Manage tasks in a Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/tasks-tab.md)
 
 **Related topics**  
 
 
-[Manage tasks using the List view](manage-tasks-using-list-view.md)
+[Manage tasks using the List view]()
 

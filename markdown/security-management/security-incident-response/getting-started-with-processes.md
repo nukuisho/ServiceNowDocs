@@ -2,6 +2,7 @@
 title: Prerequisites for the Playbooks
 description: You need the following roles and plugins to build the Playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/getting-started-with-processes.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,28 +26,28 @@ Role required: admin.
 -   Enable Security Operations spoke to access flows \[com.snc.secops.spoke\].
 -   Enterprise Security Case Management PAD Commons.
 
-Make sure that you have read the platform documentation on [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) and [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) before you start with this guide.
+Make sure that you have read the platform documentation on [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) and [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) before you start with this guide.
 
-**Parent Topic:**[Using SIR Workspace](../../secops-analyst-workspace/reference/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 
 
-[Working with Security Incident Records](../../secops-analyst-workspace/concept/using-analyst-workspace.md)
+[Working with Security Incident Records]()
 
-[Security Incident Playbook](../../secops-analyst-workspace/concept/security-incident-playbook.md#)
+[Security Incident Playbook]()
 
-[Rebuilding existing playbooks in Workflow Studio](rebuilding-existing-playbooks-on-pad.md)
+[Rebuilding existing playbooks in Workflow Studio]()
 
-[Activity Definitions](build-activities.md)
+[Activity Definitions]()
 
-[Sample Playbooks for SIR Workspace](sir-workspace-playbooks.md)
+[Sample Playbooks for SIR Workspace]()
 
-[Working with MSI Records](../../secops-analyst-workspace/concept/working-with-msi-records.md)
+[Working with MSI Records]()
 
-[Working with Form UI actions](../../secops-analyst-workspace/concept/enable_workspace_form_ui_actions.md)
+[Working with Form UI actions]()
 
-[Security Incident Closure workflow](../../secops-analyst-workspace/concept/security-incident-closure-workflow_0.md)
+[Security Incident Closure workflow]()
 
-[Handle security incidents using Advanced Work Assignment](../../secops-analyst-workspace/task/handle-incidents-using-awa.md)
+[Handle security incidents using Advanced Work Assignment]()
 

@@ -2,6 +2,7 @@
 title: Use the Personalize Form menu
 description: Use the Personalize Form menu to add or remove fields from your view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-personalize-form.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,13 +26,13 @@ Role required: workspace\_user
 
     The More form options list opens.
 
-    ![More form options personalize form.](../image/more-form-options-personalize-form.png)
+    \[Omitted image "more-form-options-personalize-form.png"\] Alt text: More form options personalize form.
 
 3.  Select **Personalize Form**.
 
     The Personalize Form dialog box opens.
 
-    ![Personalize form card.](../image/more-form-options-personalize-form-card.png)
+    \[Omitted image "more-form-options-personalize-form-card.png"\] Alt text: Personalize form card.
 
 4.  Select fields you want to view and deselect fields you don't want to view.
 

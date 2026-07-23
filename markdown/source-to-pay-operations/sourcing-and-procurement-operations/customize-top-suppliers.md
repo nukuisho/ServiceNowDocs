@@ -2,12 +2,13 @@
 title: Customize your top suppliers on Shopping Hub
 description: Personalize the list of suppliers to see on your Shopping Hub homepage. Update your list with the change in your preferences anytime.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/customize-top-suppliers.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -36,40 +37,42 @@ Role required: sn\_shop.shopper
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](../concept/configuring-spo.md)
+**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
-[Install Sourcing and Procurement Operations](activate-finance-spend-central.md)
+[Install Sourcing and Procurement Operations]()
 
-[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+[Setting up primary data for ShoppingHub]()
 
-[Configure punchout for third-party site purchases](configure-supplier-punchout.md)
+[Configure punchout for third-party site purchases]()
 
-[Configuring work prioritization](../concept/configuring-work-prioritization.md)
+[Configuring work prioritization]()
 
-[Add a new button in Shopping Hub](add-new-button-shoppinghub.md)
+[Add a button in Shopping Hub]()
 
-[Configure conditions for merging purchase requisitions](config-pr-merge.md)
+[Configure conditions for merging purchase requisitions]()
 
-[Service portal configuration for ShoppingHub](../concept/service-portal-configuration-for-shoppinghub.md)
+[Service portal configuration for ShoppingHub]()
 
-[Install ShoppingHub Mobile](install-shoppinghub-mobile.md)
+[Install ShoppingHub Mobile]()
 
-[Advanced Work Assignment for Source-to-Pay Operations](../concept/awa-spo.md)
+[Advanced Work Assignment for Source-to-Pay Operations]()
 
-[Install Sourcing and Procurement Operations](activate-finance-spend-central.md)
+[Install Universal Request for Sourcing and Procurement Operations]()
 
-[Application plugin installation sequence in Sourcing and Procurement Operations](../reference/application-plugin-list.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 
-[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
 
-[Service portal configuration for ShoppingHub](../concept/service-portal-configuration-for-shoppinghub.md)
+[Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 
-[Configure punchout for third-party site purchases](configure-supplier-punchout.md)
+[Service portal configuration for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/service-portal-configuration-for-shoppinghub.md)
 
-[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+[Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md)
 
-[My purchases on Shopping Hub](../concept/my-purchases.md)
+[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
+
+[My purchases on Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/my-purchases.md)
 

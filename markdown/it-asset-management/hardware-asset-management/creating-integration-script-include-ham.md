@@ -2,13 +2,14 @@
 title: Creating an integration script include for third-party carrier applications
 description: In order to integrate with a ServiceNow instance, a third-party carrier application must have a script include that extends the base class ITAMShipmentIntegration script on its ServiceNow instance to receive the shipment tracking number from the customer's ServiceNow instance and respond with the carrier-related details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/creating-integration-script-include-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Track shipments using the integration framework, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Creating an integration script include for third-party carrier applications
@@ -52,9 +53,9 @@ Consider the following when you create the script include:
 
 ## ITAMShipmentIntegration script include sample codes
 
-![ITAMShipmentIntegration script include with ITAM processResponse function](../image/script-incl-sample-carrier.png "Sample ITAMShipmentIntegration script include with the default processResponse function provided by the IT Asset Management application")
+\[Omitted image "script-incl-sample-carrier.png"\] Alt text: ITAMShipmentIntegration script include with ITAM processResponse function
 
-![ITAMShipmentIntegration script include with custom processResponse function](../image/script-incl-custom-carrier.png "Sample ITAMShipmentIntegration script include with custom processResponse function")
+\[Omitted image "script-incl-custom-carrier.png"\] Alt text: ITAMShipmentIntegration script include with custom processResponse function
 
 ## fetchShipmentInfo function
 
@@ -75,26 +76,26 @@ The processResponse function receives the response from the carrier API and upda
 
 You can either use the default processResponse function or define a custom logic to update the shipment records.
 
-**Parent Topic:**[Track shipments using the integration framework](tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 
 
-[Connect your ServiceNow instance with a shipping carrier application](../task/associate-shipping-carrier-int-profile.md)
+[Connect your ServiceNow instance with a shipping carrier application]()
 
-[Remove a shipping carrier from an integration profile](../task/remove-shipping-carrier.md)
+[Remove a shipping carrier from an integration profile]()
 
-[Create a carrier integration profile](../task/create-carrier-integration-profile.md)
+[Create a carrier integration profile]()
 
-[View the carrier integration profile details](../task/view-integration-profiles.md)
+[View the carrier integration profile details]()
 
-[Test the integration with the carrier API](../task/test-carrier-api-integration.md)
+[Test the integration with the carrier API]()
 
-[Create a shipping carrier record](../task/create-shipping-carrier.md)
+[Create a shipping carrier record]()
 
-[View hardware asset shipment details](../task/view-hardware-asset-shipments.md)
+[View hardware asset shipment details]()
 
-[Stale shipments](stale-shipments.md)
+[Stale shipments]()
 
-[Track a hardware asset shipment](../task/track-hardware-asset-shipments.md)
+[Track a hardware asset shipment]()
 

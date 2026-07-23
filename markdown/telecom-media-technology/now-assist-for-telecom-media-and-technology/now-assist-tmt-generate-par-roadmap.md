@@ -2,6 +2,7 @@
 title: Generate a product adoption roadmap using Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Generate a product adoption roadmap with products or capabilities organized into lanes based on engagement data and insights from similar engagements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-par-roadmap.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -53,7 +54,7 @@ Use Now Assist to generate a roadmap by analyzing the engagement's details inclu
     -   Arranges products or capabilities into lanes based on the patterns identified.
     You can view the steps in the Now Assist panel.
 
-    ![Product adoption roadmap using Now Assist steps](../image/now-assist-par-1.jpg)
+    \[Omitted image "now-assist-par-1.jpg"\] Alt text: Product adoption roadmap using Now Assist steps
 
 10. After the roadmap has been generated, you will see the following details in the Now Assist panel.
 
@@ -62,14 +63,14 @@ Use Now Assist to generate a roadmap by analyzing the engagement's details inclu
         **Note:** The roadmap is in a Draft state and you can make changes before you finalize it.
 
     -   A summary of the rearrangements logic and the organization of the lanes.
-    ![Product adoption roadmap Now Assist summary](../image/now-assist-par-2.jpg)
+    \[Omitted image "now-assist-par-2.jpg"\] Alt text: Product adoption roadmap Now Assist summary
 
     **Note:** You can also request an explanation of the rearrangement logic in the Now Assist panel.
 
 11. Review the generated roadmap, make any necessary adjustments by dragging items between lanes and select **Finalize roadmap**.
 
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-spm-using.md)
+**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 
 **Related topics**  
 

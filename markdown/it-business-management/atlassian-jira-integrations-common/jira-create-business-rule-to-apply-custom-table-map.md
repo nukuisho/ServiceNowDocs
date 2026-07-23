@@ -1,7 +1,8 @@
 ---
-title: Create a business rule to apply a custom Agile Development 2.0 table map configuration
+title: Apply custom table map configuration for Agile Development 2.0 and Jira
 description: Create a business rule to enable export from your new custom Agile Development 2.0 table map configuration to your Jira projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/jira-create-business-rule-to-apply-custom-table-map.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
 
-# Create a business rule to apply a custom Agile Development 2.0 table map configuration
+# Apply custom table map configuration for Agile Development 2.0 and Jira
 
 Create a business rule to enable export from your new custom Agile Development 2.0 table map configuration to your Jira projects.
 
@@ -29,7 +30,7 @@ After you create a custom table map for a single or multiple Jira projects, crea
 
 2.  From the list of available business rules, locate and open the Synch Story with Jira rule.
 
-3.  From the context menu \(![context menu icon](../../apw-internal-integrations/images/context-menu-icon.png)\), perform an Insert and Stay operation on this business rule.
+3.  From the context menu \(\[Omitted image "context-menu-icon.png"\] Alt text: context menu icon\), perform an Insert and Stay operation on this business rule.
 
     If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see [Allow insert options on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-form-administration.md).
 
@@ -63,5 +64,5 @@ Select the Agile Development 2.0 table for which you've created the custom map.F
 </table>5.  Click **Update**.
 
 
-**Parent Topic:**[Customizing map configuration for your Jira projects](../reference/custom-map-configuration.md)
+**Parent Topic:**[Customizing map configuration for your Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/custom-map-configuration.md)
 

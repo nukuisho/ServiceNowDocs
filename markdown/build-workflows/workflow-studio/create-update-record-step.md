@@ -2,6 +2,7 @@
 title: Create or Update Record step
 description: Create or update a record in a ServiceNow table using a single operation. Update a record that exists, or create a record using the values provided.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-update-record-step.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -46,7 +47,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     **Important:** The system does not support updating multiple journal fields such as the additional comments or work notes of a task record.
 
-    If adding the action to a subflow, you can [Create a template value input](../task/template-value.md). Dynamically set field values can trigger server-side validation rules but cannot trigger UI policies.
+    If adding the action to a subflow, you can [Create a template value input](). Dynamically set field values can trigger server-side validation rules but cannot trigger UI policies.
 
 -   **Determines uniqueness**
 
@@ -117,9 +118,9 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 ## Create or update a problem record
 
-![Configuration of the Create or update record step](../images/example-create-update-record-step.png)
+\[Omitted image "example-create-update-record-step.png"\] Alt text: Configuration of the Create or update record step
 
 This action has two inputs. There is a string input for a description, and a reference input for a User record. The Create or Update Record step uses these inputs to create or update a problem record. The Problem statement and Opened by fields determine uniqueness. When the input values match, the step performs an update operation instead of a create operation.
 
-**Parent Topic:**[Workflow Studio steps](../concept/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
 

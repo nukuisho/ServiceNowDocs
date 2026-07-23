@@ -2,6 +2,7 @@
 title: Define an audience for your variant
 description: An audience represents a group of users in your organization. You can define who can access this page variant by adding one or more predefined audiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/learn-by-example-define-audience.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -29,11 +30,11 @@ In the previous procedure, you created a page variant that can be viewed by anyo
 
 2.  Select the experience you created, expand a page and select **Default**.
 
-    ![Demo experience Editor page.](../image/audience-experience-view.png "Demo Experience")
+    \[Omitted image "audience-experience-view.png"\] Alt text: Demo experience Editor page.
 
 3.  Select the **Open menu** icon.
 
-    ![Open menu button.](../image/open-menu.png "Open menu")
+    \[Omitted image "open-menu.png"\] Alt text: Open menu button.
 
 4.  Select **Duplicate variant**.
 
@@ -41,7 +42,7 @@ In the previous procedure, you created a page variant that can be viewed by anyo
 
 6.  Select **+ Add** next to **Audiences**, and select the **Admin** audience.
 
-    ![Select the Admin audience.](../image/admin-audience.png "Select the Admin audience")
+    \[Omitted image "admin-audience.png"\] Alt text: Select the Admin audience.
 
 7.  Select **Create**.
 
@@ -52,18 +53,18 @@ In the previous procedure, you created a page variant that can be viewed by anyo
 
 Select the **Next topic** link to learn how to apply conditions to the variant so that the variant is visible only when the defined conditions are met.
 
-**Parent Topic:**[Learn UI Builder by example](../concept/learning-uib-by-example.md)
+**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib-by-example.md)
 
 **Related topics**  
 
 
-[Create a demo experience to explore UI Builder](learn-by-example-create-experience.md)
+[Create a demo experience to explore UI Builder]()
 
-[Create a blank page](learn-by-example-create-blank-page.md)
+[Create a blank page]()
 
-[Create a record page using a template](learn-by-example-create-page-with-template.md)
+[Create a record page using a template]()
 
-[Define conditions for your variant](learn-by-example-define-conditions.md)
+[Define conditions for your variant]()
 
-[Customize forms within a form component](learn-by-example-edit-form-component.md)
+[Customize forms within a form component]()
 

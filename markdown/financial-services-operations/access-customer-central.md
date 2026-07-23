@@ -2,6 +2,7 @@
 title: Access Customer Central
 description: Access Customer Central to get a quick overview of key customer information. This information helps you learn more about a customer who contacts support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/access-customer-central.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Use Customer Central to get a quick insight into key customer information. You c
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  On the **Lists** tab, select **Customer** or **Interaction**.
 

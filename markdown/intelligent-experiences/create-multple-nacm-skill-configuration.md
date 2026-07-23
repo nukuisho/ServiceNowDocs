@@ -2,6 +2,7 @@
 title: Create multiple Now Assist context menu skill configurations
 description: Create multiple Now Assist context menu configuration for the same field and table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-multple-nacm-skill-configuration.html
 release: australia
 topic_type: task
 last_updated: "2025-11-14"
@@ -80,5 +81,5 @@ Role required: admin
 13. Select **Preview** and **Done**.
 
 
-**Parent Topic:**[Use Now Assist context menu for custom skill deployment](use-now-assist-context-menu-for-custom-skill-deployment.md)
+**Parent Topic:**[Use Now Assist context menu for custom skill deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.md)
 

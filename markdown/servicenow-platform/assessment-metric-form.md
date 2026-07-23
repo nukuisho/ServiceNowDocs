@@ -2,6 +2,7 @@
 title: Assessment Metric form
 description: Description of the field values for the Assessment Metric form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/assessment-metric-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -236,7 +237,7 @@ Show Benchmarks
 Opens the Benchmarks Dashboard that provides visibility into your key performance indicators \(KPIs\) and trends.**Note:**
 
 -   This related link is available only for survey\_admin, assessment\_admin and survey\_reader with bm\_viewer role.
--   You must opt in to Benchmarks to view the dashboard. See [Enable Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/t_EnableBench.md)
+-   You must opt in to Benchmarks to view the dashboard. See Enable Benchmarks
 -   This is applicable only for a published survey.
 
 </td></tr><tr><td>
@@ -279,10 +280,10 @@ Improvement Initiatives
 Displays improvement initiatives associated with the survey.**Note:** This related list is available only when there is at least one improvement initiative record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assessments reference](assessment-reference.md)
+</table>**Parent Topic:**[Assessments reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/assessment-reference.md)
 
 **Related topics**  
 
 
-[Configure an assessment](../task/configure-assessment.md)
+[Configure an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-assessment.md)
 

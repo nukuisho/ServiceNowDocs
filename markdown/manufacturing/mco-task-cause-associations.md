@@ -2,11 +2,12 @@
 title: Associating a task cause
 description: Associate a cause to a RCA for the root cause analysis of the product non-conformance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-task-cause-associations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a root cause analysis, Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a root cause analysis, Product Non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Associating a task cause
@@ -72,6 +73,4 @@ Type of task cause.-   Possible
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
-
-**Parent Topic:**[Create a root cause analysis](mco-root-cause-analysis-task.md)
 

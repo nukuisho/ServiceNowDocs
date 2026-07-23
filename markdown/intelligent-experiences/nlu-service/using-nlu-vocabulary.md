@@ -2,6 +2,7 @@
 title: NLU vocabulary
 description: Use NLU vocabulary items to help the system recognize the various ways your users express their requests. Use vocabulary sources to help the system recognize objects in tables or lists, such as names of conference rooms or catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/using-nlu-vocabulary.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -19,7 +20,7 @@ Use NLU vocabulary items to help the system recognize the various ways your user
 
 Vocabulary helps your model with the various words and phrases that it may encounter from your users. Since humans are not computers, they may come up with different ways to say the same thing. For example, if one user inputs an acronym rather than the full phrase, the system might be able to predict the correct intent by using the context in the utterance. However, by defining the acronym with a vocabulary item, you raise the model's confidence level and capability to predict intents correctly.
 
-![The Build and train your model phase with the Vocabulary tab highlighted.](../images/using-nlu-vocabularyU2.png)
+\[Omitted image "using-nlu-vocabularyU2.png"\] Alt text: The Build and train your model phase with the Vocabulary tab highlighted.
 
 Vocabulary items cover the varying words or phrases that might appear in utterances. The vocabulary items are mapped to the synonyms that you provide, for intent prediction. This helps the system recognize the various ways your users express their requests, while at the same time ensuring the consistency, confidence, and accuracy of predictions.
 
@@ -43,7 +44,7 @@ Regular
 
 A word or phrase that is not commonly known, such as a business or industry specific term or acronym. Regular vocabulary is case insensitive, so all case variations will be captured by the vocabulary you create.
 
- See [Create a regular vocabulary item](../task/create-regular-vocabulary-item.md).
+ See [Create a regular vocabulary item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-regular-vocabulary-item.md).
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ Pattern
 
 A regular expression \(regex\) that can capture specific formats such as email addresses and phone numbers.
 
- See [Create a pattern vocabulary item](../task/create-pattern-vocabulary-item.md).
+ See [Create a pattern vocabulary item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-pattern-vocabulary-item.md).
 
 </td></tr></tbody>
 </table>## Vocabulary sources
@@ -67,7 +68,7 @@ Use vocabulary sources when your user utterances refer to objects in a set. The 
 
 For example, say you already have a list of all the conference rooms for your office. You can create a vocabulary source to reference that list rather than typing each conference room name into your intent's training utterances.
 
-To create vocabulary sources, refer to [Create a table vocabulary source](../task/create-table-lookup-source.md) and [Create a list vocabulary source](../task/create-static-list-source.md).
+To create vocabulary sources, refer to [Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-table-lookup-source.md) and [Create a list vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-static-list-source.md).
 
 ## Vocabulary usage in relation to an intent
 
@@ -107,7 +108,7 @@ Issue and Solution
 </td></tr></tbody>
 </table>Use a single word or short phrase as a synonym for best results. You can map multiple vocabulary items to one synonym. Do not map one vocabulary item to multiple synonyms.
 
-For more context and examples, see [Create an NLU intent](../task/create-nlu-intent.md).
+For more context and examples, see [Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-intent.md).
 
 ## A Regex example for a pattern vocabulary item
 
@@ -119,10 +120,10 @@ The regex pattern that you can use is `\bIT\b`. The `\b` is a word boundary mark
 
 Regex details: You can turn off case sensitivity in a pattern by using `(?i)`. You can end that mode by using a minus sign as in `(?-i)`. For example, `(?i)te(?-i)st` should match both test and TEst, but not teST or TEST.
 
-For more information, see [Using regular expressions in entities](using-regular-expressions-nlu.md).
+For more information, see [Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
 
 **Related topics**  
 
 
-[Create an NLU intent](../task/create-nlu-intent.md)
+[Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-nlu-intent.md)
 

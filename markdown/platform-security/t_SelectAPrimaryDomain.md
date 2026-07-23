@@ -2,6 +2,7 @@
 title: Select a primary domain
 description: The primary domain indicates the top-level domain in the domain map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_SelectAPrimaryDomain.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,6 +32,6 @@ The primary domain cannot have a parent domain and must have at least one child 
 
 4.  Click **Update**.
 
-    ![Selecting a primary domain](../image/Primary_domain.png)
+    \[Omitted image "Primary\_domain.png"\] Alt text: Selecting a primary domain
 
 

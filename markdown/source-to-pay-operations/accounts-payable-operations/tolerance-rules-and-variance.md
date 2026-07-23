@@ -2,12 +2,14 @@
 title: Tolerance Rules and Variances for invoices
 description: Tolerance rules define the limits set on an invoice to determine the permissible amount of variance that can be applied to an invoice before the invoice total exceeds the tolerance limit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tolerance-rules-and-variance.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice management, invoice tolerance, variance threshold]
 breadcrumb: [Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -30,31 +32,31 @@ Accounts Payable Operations supports the following tolerance types:
     **Note:** If tax amount variance for a tax line is within the tolerance range, then supplier tax amount will be copied over to final tax amount field by default.
 
 
--   **[Define an invoice tolerance type](../task/define-a-new-tolerance-type-definition.md)**  
-Define an invoice tolerance type that you can use in an exception definition.
--   **[Map invoice tolerance type with invoice exception definition](../task/map-invoice-tolerance-definition-with-tolerance-rule.md)**  
-Define a new tolerance type and map them with invoice exception definition of your choice to fulfill a goal.
--   **[Define an invoice tolerance rule](../task/define-a-new-tolerance-rule.md)**  
-Configure invoice tolerance rule definition for a tolerance type to be applied to invoices matching the invoice filter's conditions.
--   **[View tolerance form](../task/view-tolerance-form.md)**  
-Invoice processing cases with exceptions displays the associated **Tolerance details** at header level and **Variance details** at line level.
+-   **[Define an invoice tolerance type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-type-definition.md)**  
+Create tolerance types to define variance thresholds for use in exception definitions.
+-   **[Map invoice tolerance type with invoice exception definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/map-invoice-tolerance-definition-with-tolerance-rule.md)**  
+Map invoice tolerance type definitions with invoice exception definitions to apply custom tolerance thresholds to specific exception scenarios.
+-   **[Define an invoice tolerance rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/define-a-new-tolerance-rule.md)**  
+Create tolerance rules to define acceptable invoice variances based on tolerance types and invoice filters.
+-   **[View tolerance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-tolerance-form.md)**  
+View tolerance details at the header level and variance details at the line level for invoice processing cases with exceptions.
 
-**Parent Topic:**[Using Accounts Payable Invoice Processing](use-ap-invoice-processing.md)
+**Parent Topic:**[Using Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-ap-invoice-processing.md)
 
 **Related topics**  
 
 
-[Invoice ingestion using Application programming interface \(API\)](invoice-ingestion-using-api.md)
+[Invoice ingestion using the AP Invoice API]()
 
-[Rules based engine](rules-based-engine.md)
+[Rules based engine]()
 
-[Work with invoices](work-with-invoices.md)
+[Invoice processing overview]()
 
-[Invoice processing cases](working-with-ingestion-cases.md)
+[Invoice processing cases]()
 
-[Invoice exceptions](work-with-invoice-exceptions.md)
+[Invoice exceptions]()
 
-[Invoice approvals](invoice-approvals.md)
+[Invoice approvals]()
 
-[View invoice documents in the Source-to-Pay Workspace](../task/view-invoice-attachment.md)
+[View invoice documents in the Source-to-Pay Workspace]()
 

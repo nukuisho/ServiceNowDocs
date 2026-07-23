@@ -2,9 +2,10 @@
 title: Now Assist and Agentic AI glossary
 description: Learn about the terms and concepts used in Now Assist and Now Assist AI agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-glossary.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Enable AI experiences]
 ---

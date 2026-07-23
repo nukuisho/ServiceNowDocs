@@ -2,6 +2,7 @@
 title: Scripted REST APIs
 description: The scripted REST API feature allows application developers to build custom web service APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/c\_CustomWebServices.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -19,7 +20,7 @@ You can define service endpoints, query parameters, schemas,and headers for a sc
 
 Scripted REST APIs generally follow the REST architecture, but you can customize them to use different conventions. You define scripted REST APIs using the Scripted REST Service form found under **Scripted Web Services** → **Scripted REST APIs**.
 
-![Scripted REST service form](../image/scripted-REST-service-form-new.png "Scripted REST Service form")
+\[Omitted image "scripted-REST-service-form-new.png"\] Alt text: Scripted REST service form
 
 The following videos offer additional information about scripted REST APIs:
 
@@ -78,7 +79,7 @@ By default, all resources in an API support the following request and response f
 
 You can configure your scripted REST APIs with the necessary level of security. From public APIs/endpoints that don't require any security to highly secure APIs/endpoints that require user authentication with tight access control to all resources.
 
-Use the API access policy feature to control the authentication method for the APIs. For more information, see [API access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/api-access-policy.md).
+Use the API access policy feature to control the authentication method for the APIs. For more information, see [API access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/api-access-policy.md).
 
 ## Scripted REST API access controls
 
@@ -86,7 +87,7 @@ Access control lists \(ACLs\) define criteria, such as the roles needed and cond
 
 When defining a scripted REST API ACL, it must have the **Type** value **REST\_Endpoint**.
 
-For additional information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) and [Configure a scripted REST API resource to require an ACL](../task/t_WbSvcOpRqACL.md).
+For additional information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md) and [Configure a scripted REST API resource to require an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_WbSvcOpRqACL.md).
 
 ## Scripted REST API security matrix
 
@@ -126,18 +127,18 @@ The numeric status code, such as 404, is included in the response Status code he
 
 ## Automated Test Framework support
 
-The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework.md) \(ATF\) supports Inbound REST test steps. You can create automated tests for custom Inbound REST APIs that you create. Creating tests for your custom REST APIs simplifies upgrade testing, and makes it possible to verify that modifications to a REST API are backward compatible. See [Administering REST test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-administer-rest.md) and [ATF REST test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/rest-test-steps.md).
+The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework.md) \(ATF\) supports Inbound REST test steps. You can create automated tests for custom Inbound REST APIs that you create. Creating tests for your custom REST APIs simplifies upgrade testing, and makes it possible to verify that modifications to a REST API are backward compatible. See [Administering REST test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-administer-rest.md) and [ATF REST test step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/rest-test-steps.md).
 
 ## Developer training
 
 In the ServiceNow® Developer Site, you can find training for [Scripted REST APIs](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_rest_paris_scripted_rest_apis/app_store_learnv2_rest_paris_scripted_rest_api_objectives?v=paris).
 
--   **[Create a scripted REST API](../task/t_CreateAScriptedRESTService.md)**  
+-   **[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)**  
 Create a scripted REST API to define web service endpoints.
--   **[Scripted REST APIs good practices](../../../app-store/good_practices/scripted-rest/concept/scripted-rest-good-practices.md)**  
+-   **[Scripted REST APIs good practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/scripted-rest-good-practices.md)**  
 Follow these guidelines when designing and implementing scripted REST APIs.
--   **[Scripted REST API examples](c_ScriptedRESTAPIExamples.md)**  
+-   **[Scripted REST API examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_ScriptedRESTAPIExamples.md)**  
 Mutliple examples are available demonstrating how to create and use scripted REST APIs.
 
-**Parent Topic:**[REST APIs](../../inbound-rest/concept/c_RESTAPI.md)
+**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md)
 

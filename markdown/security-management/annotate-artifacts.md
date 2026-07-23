@@ -2,6 +2,7 @@
 title: Annotate security artifacts
 description: As you are analyzing a case, you can add annotations to any artifact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/annotate-artifacts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,29 +39,29 @@ Role required:
 
     2.  Click **Annotate**.
 
-        ![Add an annotation](../image/annotations.png)
+        \[Omitted image "annotations.png"\] Alt text: Add an annotation
 
     3.  Type the annotation and click **Annotate**.
 
         The annotation is added to the selected artifacts.
 
-5.  To view annotations for an artifact, click the View annotations \(![View Annotations](../image/annotation-icon.png)\) icon.
+5.  To view annotations for an artifact, click the View annotations \(\[Omitted image "annotation-icon.png"\] Alt text: View Annotations\) icon.
 
     The existing annotations appear in the Annotations dialog box.
 
-    ![Annotations dialog box](../image/annotations-dialog.png)
+    \[Omitted image "annotations-dialog.png"\] Alt text: Annotations dialog box
 
 6.  You can also enter a new annotation for the artifact in the **Security Annotation** box, and click **Annotate**.
 
 
-**Parent Topic:**[Security artifact analysis](../concept/sec-artifact-analysis.md)
+**Parent Topic:**[Security artifact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sec-artifact-analysis.md)
 
 **Related topics**  
 
 
-[Related details for case artifacts](../concept/related-details-for-case-artifacts.md)
+[Related details for case artifacts]()
 
-[Security artifact exclusion and inclusion](../concept/artifact-inclusion-exclusion.md)
+[Security artifact exclusion and inclusion]()
 
-[Search for security artifacts](search-for-artifacts.md)
+[Search for security artifacts]()
 

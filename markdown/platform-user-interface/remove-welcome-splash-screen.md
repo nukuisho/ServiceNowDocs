@@ -2,6 +2,7 @@
 title: Turn off the Next Experience welcome screen after upgrading your instance
 description: You can turn off the Next Experience welcome splash screen that appears in the Core UI after upgrading your instance by creating a user preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/remove-welcome-splash-screen.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,11 +28,11 @@ This welcome splash screen appears for admins only. It informs you about the Nex
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **User Preferences**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Enter the following values.
 
-<table id="choicetable_h1c_4hh_jw"><tbody><tr><td id="d147215e114">
+<table id="choicetable_h1c_4hh_jw"><tbody><tr><td id="d147330e120">
 
 **Description**
 
@@ -39,7 +40,7 @@ This welcome splash screen appears for admins only. It informs you about the Nex
 
 A description of the user preference. For example, `Remove the welcome splash screen.`
 
-</td></tr><tr><td id="d147215e126">
+</td></tr><tr><td id="d147330e132">
 
 **User**
 
@@ -49,9 +50,9 @@ The user that the splash screen is turned off for.
 
  To turn off the splash screen for all users, leave this field empty.
 
- To turn off the splash screen for specific users, user the search icon \(![Search image.](../image/SearchIcon.png)\) to find the user and select them in the search results.
+ To turn off the splash screen for specific users, user the search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search image.\) to find the user and select them in the search results.
 
-</td></tr><tr><td id="d147215e150">
+</td></tr><tr><td id="d147330e156">
 
 **Name**
 
@@ -59,9 +60,9 @@ The user that the splash screen is turned off for.
 
 User preference name. To turn off the welcome splash screen, enter the following name:
 
- `overview_help.visited.NextExperience`
+ `overview_help.visited.navui`
 
-</td></tr><tr><td id="d147215e166">
+</td></tr><tr><td id="d147330e172">
 
 **Value**
 
@@ -69,7 +70,7 @@ User preference name. To turn off the welcome splash screen, enter the following
 
 Enter `true` to enable this user preference, which turns off the welcome splash screen.
 
-</td></tr><tr><td id="d147215e178">
+</td></tr><tr><td id="d147330e184">
 
 **Type**
 
@@ -77,7 +78,7 @@ Enter `true` to enable this user preference, which turns off the welcome splash 
 
 Select **string**.
 
-</td></tr><tr><td id="d147215e191">
+</td></tr><tr><td id="d147330e197">
 
 **System**
 
@@ -86,19 +87,19 @@ Select **string**.
 Select this check box to apply this user preference system wide.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
     The welcome splash screen is marked as **Visited**. When the welcome splash screen is marked as **Visited**, the screen is turned off on your instance for specified users or all users depending on how you configured the **User** option.
 
     **Note:** In the User Preferences table, verify that there is only one user preference record where the **System** field and **Value** field is set to `true`.
 
 
-**Parent Topic:**[User preferences](../concept/c_UserPreferences.md)
+**Parent Topic:**[User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
 
 **Related topics**  
 
 
-[User preference settings](../reference/r_UserPreferenceSettings.md)
+[User preference settings]()
 
-[Configure available keyboard shortcuts](configure-keyboard-shortcuts.md)
+[Configure available keyboard shortcuts]()
 

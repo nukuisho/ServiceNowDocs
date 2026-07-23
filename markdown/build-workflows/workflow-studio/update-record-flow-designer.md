@@ -2,6 +2,7 @@
 title: Update Record action
 description: Update an existing record in a table. You can dynamically add and configure fields for the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/update-record-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -52,7 +53,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     The values of fields in the record to be updated. Select **Add field value** to display options to select a field and set a value. For example, to set the short description to a certain value, select **Short description** and set the desired value.
 
-    If adding the action to a subflow, you can [Create a template value input](../task/template-value.md).
+    If adding the action to a subflow, you can [Create a template value input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/template-value.md).
 
 
 ## Outputs
@@ -74,9 +75,9 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 ## Update trigger record
 
-![Sample flow containing an Update record action](../images/example-update-record-action.png)
+\[Omitted image "example-update-record-action.png"\] Alt text: Sample flow containing an Update record action
 
 In this example, the Update Record action updates values provided by the trigger problem record. The action updates both the Additional comments and Assignment group fields of a problem record.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

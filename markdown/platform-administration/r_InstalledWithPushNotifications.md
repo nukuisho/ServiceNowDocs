@@ -2,6 +2,7 @@
 title: Installed with push notifications
 description: Several types of components are installed with the push notifications plugins.These tables are installed with push notifications.These business rules are installed with push notifications.These outbound REST messages are installed with push notifications.These roles are installed with push notifications.These components are installed with push notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_InstalledWithPushNotifications.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,26 +14,26 @@ breadcrumb: [Push notifications, System notifications, Notifications, Configure 
 
 Several types of components are installed with the push notifications plugins.
 
-**Parent Topic:**[Push notifications](../concept/c_PushNotifications.md)
+**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md)
 
 **Related topics**  
 
 
-[Push notification system](r_PushMessageArchitecture.md)
+[Push notification system]()
 
-[Activate push notifications](../task/t_ActivatePushNotifications.md)
+[Activate push notifications]()
 
-[Enable push notifications for logged-out users](../task/enable-notifications-logged-out-users.md)
+[Enable push notifications for logged-out users]()
 
-[Push notification properties](r_PushNotificationProperties.md)
+[Push notification properties]()
 
-[Push notification setup with the ServiceNow mobile app](r_PushNotificationSetupSN.md)
+[Push notification setup with the ServiceNow mobile app]()
 
-[Push notification setup with a custom push application for ServiceNow mobile apps](r_PushNotificationSetupCustom.md)
+[Push notification setup with a custom push application for ServiceNow mobile apps]()
 
-[Requeue failed push notification messages](../task/t_HandlingFailedPushMessages.md)
+[Requeue failed push notification messages]()
 
-[Push notification retention](../concept/push-notification-retention.md)
+[Push notification retention]()
 
 ## Tables installed with push notifications
 

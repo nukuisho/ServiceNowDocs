@@ -2,13 +2,14 @@
 title: Workplace contract new record form
 description: As lease administrator and manager you can use the workplace contract new record form to create new lease contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/workplace-contract-form.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Workplace Lease Administration references, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Workplace contract new record form
@@ -321,14 +322,14 @@ Percentage increase or decrease in price of contract. A negative percentage indi
  You can specify a value for either **Cost adjustment** or **Cost adjustment percentage** but not both.
 
 </td></tr></tbody>
-</table>For detailed information on how to create workplace contract, see [Create workplace contracts in Core UI](../task/create-lease-contracts.md)
+</table>For detailed information on how to create workplace contract, see [Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
 
-**Parent Topic:**[Workplace Lease Administration references](../concept/workplace-lease-references.md)
+**Parent Topic:**[Workplace Lease Administration references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/workplace-lease-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Lease Administration](component-installed-lease-admin.md)
+[Components installed with Workplace Lease Administration]()
 
-[Scripts installed with Workplace Lease Administration](scripts-lease-admin.md)
+[Scripts installed with Workplace Lease Administration]()
 

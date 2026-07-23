@@ -2,6 +2,7 @@
 title: Pushing events to the instance using web service API
 description: You can use a web service interface, supported by ServiceNow, that operates on the JSON object as the data input and output format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/send-events-via-web-service.html
 release: australia
 product: Event Management
 classification: event-management
@@ -27,7 +28,7 @@ To insert records in the event \[em\_event\] table with a single call, use this 
 
 **Note:** Business rules on the event table are not invoked when this URL is used.
 
-Do not add additional fields to an event by adding a custom field to the event table \[em\_event\]. However, additional fields should be included in the **Additional information** \[additional\_info\] field of the event. For more information about how to include additional fields in events, see [Custom alert fields](../concept/populate-custom-alert-fields.md).
+Do not add additional fields to an event by adding a custom field to the event table \[em\_event\]. However, additional fields should be included in the **Additional information** \[additional\_info\] field of the event. For more information about how to include additional fields in events, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/populate-custom-alert-fields.md).
 
 The URL in the format: `http://<instancename>.service-now.com/em_event.do?JSONv2&sysparm_action=insertMultiple` is also supported in case you do want to activate Business rules. However, the performance of the first URL is superior.
 
@@ -176,7 +177,7 @@ additional\_info
 
 </td><td>
 
-This field is in JSON key/value format, and is meant to contain any information that might be of use to the user. It does not map to a pre-defined ServiceNow event field. Examples include IDs of objects in the event source, event priority \(if it is not the same as severity\), assignment group information, and so on. Values in the **Additional information** field of an Event that are not in JSON key/value format are normalized to JSON format when the event is processed.
+This field contains a JSON string \(stringified JSON\) with key/value pairs representing supplemental information not mapped to standard event fields. Examples include IDs of objects in the event source, event priority \(if different from severity\), and assignment group information. Values not already in JSON key/value format are normalized to stringified JSON when the event is processed.
 
 </td></tr><tr><td>
 
@@ -213,10 +214,7 @@ Optional – To indicate that an event has been resolved or no longer occurring,
           "type": "Disk space",
           "severity": "4",
           "description": "The disk D: on computer V-W2K8-abc.abc.com is running out of disk space. The value that exceeded the threshold is 38% free space.",
-          "additional_info": {
-            "scom-severity": "Medium",
-            "metric-value": "38",
-            "os_type": "Windows.Server.2008"
+          "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
           }
         },
         {
@@ -228,10 +226,7 @@ Optional – To indicate that an event has been resolved or no longer occurring,
           "type": "Database Storage",
           "severity": "3",
           "description": "High number of active connections for MSSQL-database-name running on name.of.node.com. Active connections exceed 5000.",
-          "additional_info": {
-            "scom-severity": "Medium",
-            "metric-value": "38",
-            "os_type": "Windows.Server.2008"
+          "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
           }
         }
       ]
@@ -256,10 +251,7 @@ Optional – To indicate that an event has been resolved or no longer occurring,
           "type": "Disk space",
           "severity": "4",
           "description": "The disk C: on computer V-W2K8-dfg.dfg.com is running out of disk space. The value that exceeded the threshold is 41% free space.",
-          "additional_info": {
-            "scom-severity": "Medium",
-            "metric-value": "38",
-            "os_type": "Windows.Server.2008"
+          "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
           }
         }
       ]
@@ -284,10 +276,7 @@ Optional – To indicate that an event has been resolved or no longer occurring,
             "type": "Disk space",
             "severity": "4",
             "description": "The disk C: on computer V-W2K8-dfg.dfg.com is running out of disk space. The value that exceeded the threshold is 41% free space.",
-            "additional_info": {
-              "scom-severity": "Medium",
-              "metric-value": "38",
-              "os_type": "Windows.Server.2008"
+            "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
             }
           }
         ]
@@ -299,5 +288,5 @@ Optional – To indicate that an event has been resolved or no longer occurring,
 **Related topics**  
 
 
-[Pushing events to the MID Server using web service API](../concept/event-collection-via-MID-using-push.md)
+[Pushing events to the MID Server using web service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-via-MID-using-push.md)
 

@@ -2,6 +2,7 @@
 title: Capability Execution Tracking - Complete Flow Action
 description: The Capability Execution Tracking - Complete flow action updates the audit record when the flow is complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/capability-execution-tracking-complete.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,7 +40,7 @@ Input variables determine the initial behavior of the flow action.
 
 There are no output variables.
 
-**Parent Topic:**[Security Operations Carbon Black Integration - Get Running Processes Flow](../../security-operations-integrations/concept/secops-integration-cb-get-running-processes-workflow.md)
+**Parent Topic:**[Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-cb-get-running-processes-workflow.md)
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
 

@@ -2,6 +2,7 @@
 title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection monitor engagement health agentic workflow
 description: Use the Monitor engagement health agentic workflow to monitor the health score of engagements and their associated metric data trends, and generate risk signals when a decline is detected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-monitor-health.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -26,7 +27,7 @@ You can view the risk signals and occurrences that have been created by navigati
 
 **Note:**
 
--   To run the agentic workflow as a scheduled job, you must activate the Monitor engagement health flow. See [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md) for details.
+-   To run the agentic workflow as a scheduled job, you must activate the Monitor engagement health flow. See [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-activate.md) for details.
 -   The agentic workflow monitors only the engagements for which **AI Health Monitor** flag has been enabled. Each customer success manager can enable a maximum of 10 engagements. For instructions on enabling this flag, see [Create an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-engage.md).
 -   By default, the health score of each individual metric is monitored. If you want to monitor only the overall health score across all engagements, update the **sn\_cust\_succ\_ai\_agent\_enable\_health\_monitor\_metrics** system property by following these steps:
     -   Navigate to **All** and enter **sys\_properties.LIST** in the search field.

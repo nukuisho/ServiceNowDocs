@@ -1,21 +1,22 @@
 ---
-title: Use case: Using Apex to call or test CPQ APIs
-description: Learn how to use Apex to call or to test CPQ APIs.
+title: Use case: Using Apex to call or test ServiceNow CPQ APIs
+description: Learn how to use Apex to call or to test ServiceNow CPQ APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_how\_to\_use\_apex\_to\_calltest\_logik\_apis.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use cases, Using CPQ, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Use case: Using Apex to call or test CPQ APIs
+# Use case: Using Apex to call or test ServiceNow CPQ APIs
 
-Learn how to use Apex to call or to test CPQ APIs.
+Learn how to use Apex to call or to test ServiceNow CPQ APIs.
 
-The easiest way to test Apex code for use of CPQ is through the developer console in SFDC.
+The easiest way to test Apex code for use of ServiceNow CPQ is through the developer console in SFDC.
 
-![User interface](../images/cpq-using-apex-developer-console.png)
+\[Omitted image "cpq-using-apex-developer-console.png"\] Alt text: User interface
 
 To test the script from in the console, the code must be wrapped in a larger class with the “exec” function. For example:
 
@@ -25,11 +26,11 @@ public class testGetConfig { public static void exec() {
 
 Save the code, and then in the Debug menu, click Execute Anonymous Window.
 
-![Debug menu](../images/cpq-using-apex-anonymous-window.png)
+\[Omitted image "cpq-using-apex-anonymous-window.png"\] Alt text: Debug menu
 
 In the execute anonymous window, execute the code `functionName.exec();`
 
-## Example Apex code to call a CPQ API
+## Example Apex code to call a ServiceNow CPQ API
 
 The following code is an example of an Apex class that will get information about a potential configuration:
 
@@ -56,5 +57,5 @@ httpRequest.setHeader('Origin', 'https://tenant.sector.logik.io/');
 
 This code would be executed as `testGetConfig.exec();`.
 
-**Parent Topic:**[Use cases](use-cases.md)
+**Parent Topic:**[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-cases.md)
 

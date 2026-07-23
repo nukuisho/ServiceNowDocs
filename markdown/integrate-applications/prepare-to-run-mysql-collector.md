@@ -2,6 +2,7 @@
 title: Prepare to run the MySQL collector
 description: Create a MySQL user and grant permissions before running the collector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/prepare-to-run-mysql-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,5 +44,5 @@ Configure a MySQL user with the minimum required permissions for metadata harves
     -   SHOW VIEW: View definition access
     -   EXECUTE: Stored procedure and function access
 
-**Parent Topic:**[MySQL metadata collector](../concept/mysql-metadata-collector.md)
+**Parent Topic:**[MySQL metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-metadata-collector.md)
 

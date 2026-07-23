@@ -2,9 +2,10 @@
 title: Duplicate an AI agent
 description: Duplicate an existing AI agent in AI Agent Studio so that you can save time by not having to manually configure or create AI agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/clone-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---
@@ -24,7 +25,7 @@ Duplicate the AI agents to do the following tasks:
 -   Duplicate the record.
 -   Disallow any AI agents with existing names.
 
-Custom columns, such as the Tools and Knowledge sources, Status, and a column with the Duplicate icon \(![Duplicate icon.](../image/ai-agents-clone-icon.png)\) are available for the AI agents list.
+Custom columns, such as the Tools and Knowledge sources, Status, and a column with the Duplicate icon \(\[Omitted image "ai-agents-clone-icon.png"\] Alt text: Duplicate icon.\) are available for the AI agents list.
 
 **Note:** The duplicated AI Agents use the same tools as the original agent and modifying the agent tools in the duplicated AI agent affects the agent tools in the original AI agent. To use the tools in a duplicated AI agent, you can either use the duplicated agent tools without making changes to them or add a new tool.”
 
@@ -36,12 +37,12 @@ Custom columns, such as the Tools and Knowledge sources, Status, and a column wi
 
     |Current location|Navigation option|
     |----------------|-----------------|
-    |**Manage agentic workflows and AI agents page**|On the AI agents list, select the duplicate icon \(![Duplicate icon.)](../image/ai-agents-clone-icon.png)\) for the AI agent that you would like to duplicate.|
-    |**AI agent form**|Open the AI agent that you want to duplicate, select the menu icon \(![Menu icon.](../image/three-dots-icon.png)\) next to **Exit** on the Describe and instruct form, and select **Duplicate**.|
+    |**Manage agentic workflows and AI agents page**|On the AI agents list, select the duplicate icon \(\[Omitted image "ai-agents-clone-icon.png"\] Alt text: Duplicate icon.\)\) for the AI agent that you would like to duplicate.|
+    |**AI agent form**|Open the AI agent that you want to duplicate, select the menu icon \(\[Omitted image "three-dots-icon.png"\] Alt text: Menu icon.\) next to **Exit** on the Describe and instruct form, and select **Duplicate**.|
 
     You see a confirmation message in a pop-up window.
 
-    ![Confirmation pop-up window that asks you to either duplicate the AI agent or cancel the action.](../image/clone-ai-agent-confirm.png)
+    \[Omitted image "clone-ai-agent-confirm.png"\] Alt text: Confirmation pop-up window that asks you to either duplicate the AI agent or cancel the action.
 
 3.  Create a copy of the AI agent with the same information from the original AI agent's record by selecting **Duplicate**.
 

@@ -2,6 +2,7 @@
 title: Create a data source similar to Telecom core data source
 description: Set up a schema-compliant data source in the connector’s application scope to simulate telecom data and ensure successful testing and validation of the Telecom Discovery Builder framework ETL before integrating with live device data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/create-a-data-source-similar-to-tsom-core-data-source.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -41,7 +42,7 @@ When to create a data source similar to the TSOM Core data source:
 -   When you want to run a test load using simulated or placeholder telecom data.
 -   When preparing the connector’s application scope for ingestion configuration.
 
-The following screenshot can help you understand to fill the field values while you create the data source.![Create data source user interface](../images/datasource.png)
+The following screenshot can help you understand to fill the field values while you create the data source.\[Omitted image "datasource.png"\] Alt text: Create data source user interface
 
 ## Procedure
 
@@ -55,7 +56,7 @@ The following screenshot can help you understand to fill the field values while 
 
 5.  On the form, fill in the fields
 
-    For more information, see [Create a Custom \(Load by Script\) type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-custom-type-data-source.md).
+    For more information, see [Create a Custom \(Load by Script\) type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-custom-type-data-source.md).
 
 6.  In the **Type** field, select **Custom \(Load by Script\)**.
 
@@ -86,7 +87,7 @@ After the data source is created and tested:
 **Related topics**  
 
 
-[Standardized JSON common data set to support all service graph connectors](../concept/overview-of-standardized-json-common-data-set.md)
+[Standardized JSON data set for service graph connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/overview-of-standardized-json-common-data-set.md)
 
-[Duplicate the Telecom Discovery Builder framework ETL into a connector scope](duplicate-the-generic-etl-to-use-a-specific-connector.md)
+[Duplicate the Telecom Discovery Builder ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/duplicate-the-generic-etl-to-use-a-specific-connector.md)
 

@@ -2,6 +2,7 @@
 title: Access Mobile App Builder and using the application scope selection screen
 description: Access the Mobile App Builder to start the process of creating workflows for your mobile apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mab-opening.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Access the Mobile App Builder to start the process of creating workflows for you
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## Procedure
 
@@ -29,15 +30,15 @@ For more information about the delegated developer role, see [Delegated developm
 
 2.  Perform one or all of the following actions from the application scope selection screen.
 
-<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d38943e106">
+<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d39809e106">
 
 Action
 
-</th><th align="left" id="d38943e109">
+</th><th align="left" id="d39809e109">
 
 Process
 
-</th></tr></thead><tbody><tr><td id="d38943e115">
+</th></tr></thead><tbody><tr><td id="d39809e115">
 
 **Access documentation**
 
@@ -45,7 +46,7 @@ Process
 
 Select **Go to product documentation** to get information about Mobile App Builder and how to use the tool.
 
-</td></tr><tr><td id="d38943e130">
+</td></tr><tr><td id="d39809e130">
 
 **Access Mobile Card Builder**
 
@@ -53,7 +54,7 @@ Select **Go to product documentation** to get information about Mobile App Build
 
 Select **Open Mobile Card Builder** to customize the appearance of the mobile cards you use within Mobile App Builder.
 
-</td></tr><tr><td id="d38943e148">
+</td></tr><tr><td id="d39809e148">
 
 **Select an application scope**
 
@@ -64,6 +65,6 @@ Choose an existing application scope to access its mobile records. The list disp
 
 
 </td></tr></tbody>
-</table>    ![Application scope selection screen of the Mobile App Builder.](../image/mab-home-page.png)
+</table>    \[Omitted image "mab-home-page.png"\] Alt text: Application scope selection screen of the Mobile App Builder.
 
 

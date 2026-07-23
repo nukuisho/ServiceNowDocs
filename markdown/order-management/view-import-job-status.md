@@ -2,6 +2,7 @@
 title: View import job status
 description: Check the status of an import job for product catalog or pricing entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/view-import-job-status.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,4 +30,11 @@ Role required: product\_catalog\_admin for catalog entities and sn\_csm\_pricing
     -   Loaded Data - View the newly imported data for catalog entities in the Catalog Import Data Source table \[sn\_prd\_pm\_catalog\_import\_data\_source\] or for pricing entities in the Pricing Import Data Source \[ sn\_csm\_pricing\_import\_data\_source\] or sn\_csm\_ctxrul\_mgt\_import\_data\_source staging tables.
     -   Run Robust Transform - Transforms a loaded import set using a robust transform.
     -   Import Log - Opens the import log.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

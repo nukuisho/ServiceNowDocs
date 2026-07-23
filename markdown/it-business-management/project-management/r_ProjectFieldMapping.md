@@ -2,6 +2,7 @@
 title: Project field mapping
 description: During an import, values from Microsoft Project overwrite fields in project records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/r\_ProjectFieldMapping.html
 release: australia
 product: Project Management
 classification: project-management
@@ -171,20 +172,20 @@ Resource Group
 Assignment Group
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Importing and exporting projects](../concept/c_ProjectImportAndExport.md)
+</table>**Parent Topic:**[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 
 **Related topics**  
 
 
-[Create custom field mapping for Microsoft Project file import](../task/map-custom-fields-msp-project.md)
+[Create custom field mapping for Microsoft Project import]()
 
-[Project import from Microsoft Project](../concept/project-import-msp.md)
+[Project import from Microsoft Project]()
 
-[Import project tasks for multiple projects](../task/import-project-tasks-multiple-projects.md)
+[Import project tasks for multiple projects]()
 
-[Project export to Microsoft Project](../concept/c_ProjectExportToMicrosoftProject.md)
+[Project export to Microsoft Project]()
 
-[Calendars and schedules- Limitations](../concept/c_CalendarsAndSchedules.md)
+[Calendars and schedules- Limitations]()
 
-[Importing and exporting projects](../concept/c_ProjectImportAndExport.md)
+[Importing and exporting projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectImportAndExport.md)
 

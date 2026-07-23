@@ -2,6 +2,7 @@
 title: MITRE-ATT&amp;CK heat map and navigator
 description: You can use the MITRE-ATT&amp;CK heat map and navigator for basic navigation and to visualize your overall technique detection coverage.Access the MITRE-ATT&amp;CK heat map and navigator so that you can visualize the matrix that enables you to use ATT&amp;CK.Custom views in the MITRE-ATT&amp;CK heat map and navigator help you to save and view your favorite filters the next time that you land on the heat map.Use the primary filters to filter techniques in the MITRE-ATT&amp;CK navigator. The information in the MITRE-ATT&amp;CK repository is available for selection.You can use a heat map with advanced filters to perform an analysis by correlating security incidents with MITRE-ATT&amp;CK information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/mitre-att-ck-heatmap-and-navigator.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,33 +16,33 @@ You can use the MITRE-ATT&amp;CK heat map and navigator for basic navigation and
 
 ## Overview of the MITRE-ATT&amp;CK heat map and navigator
 
-You can use the navigator with the primary filters for basic navigation and observation of ATT&amp;CK matrices. The heat map highlights the spectrum of the detection coverage including the blind spots where your organization does not have any coverage. This is available after you map the [technique detection coverage.](../task/map-technique-coverage.md)
+You can use the navigator with the primary filters for basic navigation and observation of ATT&amp;CK matrices. The heat map highlights the spectrum of the detection coverage including the blind spots where your organization does not have any coverage. This is available after you map the [technique detection coverage.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-technique-coverage.md)
 
 With the heat map and navigator, you can:
 
 -   Quickly and efficiently identify your organization's detection capabilities and highlight gaps in the technique detection coverage.
 -   Hunt for threats and perform correlation of threats using associated features.
 
-**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](mitre-att-ck-features.md)
+**Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-features.md)
 
 **Related topics**  
 
 
-[Associate MITRE-ATT&amp;CK information with security incidents](../task/associate-mitre-with-sir.md#)
+[Associate MITRE-ATT&amp;CK information with security incidents]()
 
-[Associate MITRE-ATT&amp;CK information with observables](../task/associate-mitre-observables.md)
+[Associate MITRE-ATT&amp;CK information with observables]()
 
-[Associate MITRE-ATT&amp;CK information with security case](../../threat-intelligence-case-management/task/associate-mitre-att-ck-information-with-security-case-management.md)
+[Associate MITRE-ATT&amp;CK information with security case]()
 
-[Rollup MITRE-ATT&amp;CK information using Threat Lookup results](../task/rollup-threat-lookup-results.md)
+[Rollup MITRE-ATT&amp;CK information using Threat Lookup results]()
 
-[Rollup MITRE-ATT&amp;CK information from detection rules](../task/rollup-mitre-attack-information-detection-rules.md)
+[Rollup MITRE-ATT&amp;CK information from detection rules]()
 
-[Rollup MITRE-ATT&amp;CK information from child security incidents](../task/rollup-mitre-att-ck-information-from-child-security-incidents.md)
+[Rollup MITRE-ATT&amp;CK information from child security incidents]()
 
-[Perform link analysis and threat hunting using MITRE-ATT&amp;CK specific filters](../task/link-analysis-threat-hunt-mitre.md)
+[Perform link analysis and threat hunting using MITRE-ATT&amp;CK specific filters]()
 
-[Using the MITRE-ATT&amp;CK dashboard](mitre-dashboards.md#)
+[Using the MITRE-ATT&amp;CK dashboard]()
 
 ## Access the MITRE-ATT&amp;CK heat map and navigator
 
@@ -63,21 +64,19 @@ You can review the heat map, use the filters to correlate, and perform link anal
 
 2.  Select the source to populate the heat map.
 
-    **Note:** Only the [collections](../task/setup-mitre-profile.md) and [matrices](../task/view-mitre-collection.md) that have been activated appear in the source list.
+    **Note:** Only the [collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/setup-mitre-profile.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-mitre-collection.md) that have been activated appear in the source list.
 
     In the following illustration, you see how to navigate to the heat map and navigator, and how to select the source, which is Enterprise ATT&amp;CK in this example.
 
-    Navigate to and select the source to populate the heat map
-
 3.  Use the search box to quickly find a particular tactic or technique by using its name or ID.
 
-    The following illustration shows how to search for a tactic, technique, or any information that is contained in them. Use search to drill down quickly to a specific tactic or technique.
+    The following illustration shows how to search for a tactic, technique, or any information that is contained in them.
 
-4.  Click **Filters** and select a filter from the [Primary](mitre-att-ck-heatmap-and-navigator.md#) or [Advanced](mitre-att-ck-heatmap-and-navigator.md#) filters.
+4.  Click **Filters** and select a filter from the [Primary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-heatmap-and-navigator.md) or [Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-heatmap-and-navigator.md) filters.
 
 5.  Click **Apply** and control the filters as follows:
 
-    -   To save your filters, [create a custom view](mitre-att-ck-heatmap-and-navigator.md#). You can create and save three [custom views](mitre-att-ck-heatmap-and-navigator.md#).
+    -   To save your filters, [create a custom view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-heatmap-and-navigator.md). You can create and save three [custom views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-heatmap-and-navigator.md).
     -   To remove the selected filters, click **Restore Default Filters** to load your default saved view.
     -   To clear all filters and your existing view, click **Clear all filters**.
     **Note:** The views that you save are specific for a user.
@@ -95,7 +94,7 @@ Custom views in the MITRE-ATT&amp;CK heat map and navigator help you to save and
 
 ### Create a view
 
-Once you select the required filters from the [Primary](mitre-att-ck-heatmap-and-navigator.md#) or [Advanced](mitre-att-ck-heatmap-and-navigator.md#) filters, click the ellipsis \(…\) button on the Filters header and select **Create a new view**. Enter the custom view name and **Save View**.
+Once you select the required filters from the [Primary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-heatmap-and-navigator.md) or [Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-heatmap-and-navigator.md) filters, click the ellipsis \(…\) button on the Filters header and select **Create a new view**. Enter the custom view name and **Save View**.
 
 ### Default views
 
@@ -103,13 +102,9 @@ Click **Save this as a default view** to directly load the view the next time th
 
 **Note:** If you are upgrading the Threat Intelligence plugin from an older version, then your existing default view from the old version appears as a custom view.
 
-Illustration shows how to create a custom view in the heatmap
-
 ### Update a view
 
-You can make updates to an existing custom view by modifying the required [Primary](mitre-att-ck-heatmap-and-navigator.md#) or [Advanced](mitre-att-ck-heatmap-and-navigator.md#) filters. Select a custom view, update the filters as required, and then click the ellipsis \(…\) button on the Filters header and select **Update view** to save the filters.
-
-This Ilustration shows how to update a custom view.
+You can make updates to an existing custom view by modifying the required [Primary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-heatmap-and-navigator.md) or [Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-heatmap-and-navigator.md) filters. Select a custom view, update the filters as required, and then click the ellipsis \(…\) button on the Filters header and select **Update view** to save the filters.
 
 ### Manage custom views
 
@@ -122,13 +117,9 @@ Click the ellipsis \(…\) button next to each custom view name to control the c
 -   Rename the custom view.
 -   Delete the custom view.
 
-This illustration shows how to manage custom views.
-
 ### Export a saved view
 
 To export the saved custom views to JSON files, click ellipsis \(…\) on the Filters header and select **Export saved views**. Click the download icon for the custom view you wish to download to your local computer.
-
-This illustration shows how to export custom views.
 
 ### Import a view
 
@@ -140,8 +131,6 @@ Review the following conditions when importing views:
 -   You can import only one view or file at a time.
 -   You cannot import if you already have three custom views in your filters. Delete a custom view and import a view.
 -   You cannot import a view with an existing custom view name. Rename a view before you import.
-
-This illustration shows how to import a view.
 
 ## Navigator with primary filters
 
@@ -198,7 +187,7 @@ Data sources that you are collecting in your environment and using to detect MIT
 </td></tr></tbody>
 </table>The following illustration shows all the primary filters available in the MITRE-ATT&amp;CK navigator.
 
-![Primary filters.](../image/mitre-primary-filters.png)
+\[Omitted image "mitre-primary-filters.png"\] Alt text: Primary filters.
 
 ## Using a heat map with primary and advanced features
 
@@ -208,24 +197,20 @@ You can use a heat map with advanced filters to perform an analysis by correlati
 
 You can view the MITRE-ATT&amp;CK technique IDs with the technique names when you select the **Display technique IDs** filter.
 
-View technique IDs on a heat map
-
 ### View relevant techniques by priority
 
 To filter the techniques based on their relevant priority in the navigator, select **Filter by technique relevant priority** filter and select the **Relevant Priority** from the menu. You can assign multiple priorities for filtering. You can also point to the techniques in the heat map to know the priority of the technique.
 
-The relevant priority information is based on the prioritization you have set in the [Techniques](../task/view-techniques.md) relevant priority field.
-
-This illustration shows filtering by relevant priority.
+The relevant priority information is based on the prioritization you have set in the [Techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-techniques.md) relevant priority field.
 
 ### View technique detection coverage
 
-To view the overall technique detection coverage in the heat map, select the **Display technique detection coverage** filter. The heat map highlights the visual spectrum of the detection coverage including the blind spots where you do not have any coverage. The base system scoring definition and the colors have been defined in the [technique detection coverage](../task/define-technique-coverage.md). The information has been auto-extracted from the overall technique detection coverage.
+To view the overall technique detection coverage in the heat map, select the **Display technique detection coverage** filter. The heat map highlights the visual spectrum of the detection coverage including the blind spots where you do not have any coverage. The base system scoring definition and the colors have been defined in the [technique detection coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-technique-coverage.md). The information has been auto-extracted from the overall technique detection coverage.
 
 For example, areas of the heat map that are marked in red indicate a lack of detection. Areas that are marked in blue indicate the presence of full detection capabilities. Areas that are marked in orange, yellow, and light blue reflect partial detection capabilities.
 
--   The color visualization is based on the [technique definition and color coding](../task/define-technique-coverage.md) that you define.
--   The coverage visualization is based on the [technique detection coverage mapping](../task/map-technique-coverage.md) that you define.
+-   The color visualization is based on the [technique definition and color coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-technique-coverage.md) that you define.
+-   The coverage visualization is based on the [technique detection coverage mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-technique-coverage.md) that you define.
 -   If you modify the base system coverage definition, the Coverage Type icons do not display with the techniques in the heat map.
 
     **Note:** The heat map works as expected when you modify the same fields as the base system's-defined technique detection coverage and coverage colors.
@@ -233,42 +218,36 @@ For example, areas of the heat map that are marked in red indicate a lack of det
 
 In this illustration, you see the technique detection coverage for all the techniques and sub-techniques and the coverage type with their colors and icons.
 
-Heat map technique detection coverage
-
 ### View technique mitigation coverage
 
-To view the overall technique mitigation coverage in the heat map, select the Display technique mitigation coverage filter. The heat map highlights the visual spectrum of the mitigation coverage including areas that you do not have any coverage. The mitigation coverage, colors, and percentage ranges have been defined in the [Mitigation Coverage Definition](../task/define-the-mitigation-coverage.md). The information is extracted from the [Overall Technique Mitigation Coverage](../task/map-your-mitigation-coverage-to-a-technique.md).
+To view the overall technique mitigation coverage in the heat map, select the Display technique mitigation coverage filter. The heat map highlights the visual spectrum of the mitigation coverage including areas that you do not have any coverage. The mitigation coverage, colors, and percentage ranges have been defined in the [Mitigation Coverage Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-the-mitigation-coverage.md). The information is extracted from the [Overall Technique Mitigation Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-your-mitigation-coverage-to-a-technique.md).
 
 For example, techniques highlighted in red indicate no mitigation coverage, orange indicates poor mitigate coverage, and blue indicate excellent mitigation coverage.
 
--   The color visualization is based on the [technique mitigation definition and color coding](../task/define-the-mitigation-coverage.md) that you define.
--   The coverage visualization is based on the [technique mitigation coverage mapping](../task/map-your-mitigation-coverage-to-a-technique.md) that you define.
+-   The color visualization is based on the [technique mitigation definition and color coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/define-the-mitigation-coverage.md) that you define.
+-   The coverage visualization is based on the [technique mitigation coverage mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/map-your-mitigation-coverage-to-a-technique.md) that you define.
 -   If you modify the base system mitigation coverage definition, the Mitigation Coverage Type icons do not display with the techniques in the heat map.
 
     **Note:** The heat map works as expected when you modify the same fields as the base system's-defined technique mitigation coverage and coverage colors.
 
 
-This illustration shows the technique mitigation coverage heatmap
-
 ### View detection and mitigation coverage
 
 You can use the technique detection and technique mitigation coverage filters together to gain an insight into the relevance of the technique detection and mitigate coverage for your organization.
 
-![This illustration shows how to use the detection and mitigation filter together.](../image/mitre-heatmap-detection-mitigation.gif)
-
-This illustration shows how to use the detection and mitigation filter together.
+\[Omitted image "mitre-heatmap-detection-mitigation.gif"\] Alt text: This illustration shows how to use the detection and mitigation filter together.
 
 ### View threat group
 
-To view the threat group to technique information on the heat map, select **Display threat group heat map**. You can measure the number of threat groups that are using a particular technique. The probability of an attack using a particular technique increases when you have a high number of attackers. The threat group ranges, and heat map colors have been defined in the [Threat Group-Technique Heat Map Definition](../task/threat-group-to-technique-heatmap-definition.md).
+To view the threat group to technique information on the heat map, select **Display threat group heat map**. You can measure the number of threat groups that are using a particular technique. The probability of an attack using a particular technique increases when you have a high number of attackers. The threat group ranges, and heat map colors have been defined in the [Threat Group-Technique Heat Map Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-group-to-technique-heatmap-definition.md).
 
--   The color visualization for the heat map and text is based on the [threat group to technique heatmap definition](../task/threat-group-to-technique-heatmap-definition.md).
--   The threat group range visualization is based on the [threat group to technique mapping](../task/review-threat-group-and-techniques-mapping.md).
--   You cannot use the **Display threat group heat map** filter when the technique detection coverage or technique mitigation coverage are enabled. This illustration shows the threat group information on the heat map.
+-   The color visualization for the heat map and text is based on the [threat group to technique heatmap definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-group-to-technique-heatmap-definition.md).
+-   The threat group range visualization is based on the [threat group to technique mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/review-threat-group-and-techniques-mapping.md).
+-   You cannot use the **Display threat group heat map** filter when the technique detection coverage or technique mitigation coverage are enabled.
 
 ### View Security incidents associated with technique
 
-To view the techniques that are frequently exploited in your organization and that have resulted in security incidents, click **Display security incident associated with technique**. You can view more information about each of the associated security incidents when you click the link that open in a new window for analysis. Security incidents associated with a technique.
+To view the techniques that are frequently exploited in your organization and that have resulted in security incidents, click **Display security incident associated with technique**. You can view more information about each of the associated security incidents when you click the link that open in a new window for analysis.
 
 -   Priority: Select **Security Incident Priority** to filter by the security incident priority.
 -   Date range: Select the **Security Incident Date Range** to filter security issues by the date range.
@@ -282,11 +261,11 @@ For example, when you turn on both filters, you can see that under the Defense E
 
 To view if you have the detection rules defined for a particular technique, click **Display detection rules**. You can also see each associated detection rule with their definition.
 
-This information is based on the [detection rules mapping](../task/create-detection-rules.md) that you have defined. View associated detection rules.
+This information is based on the [detection rules mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-detection-rules.md) that you have defined.
 
 ### View CVEs associated with technique
 
-To view the Common Vulnerabilities and Exposures \(CVE\) information that is associated with each of the techniques, click **Display CVEs associated with technique**. The CVE to technique information is based on the information available in the [CVE - Technique Mapping module](../task/manage-cve-and-technique-mapping.md). This provides you insight into known vulnerabilities and lets you know if adversaries can potentially exploit your organization.
+To view the Common Vulnerabilities and Exposures \(CVE\) information that is associated with each of the techniques, click **Display CVEs associated with technique**. The CVE to technique information is based on the information available in the [CVE - Technique Mapping module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/manage-cve-and-technique-mapping.md). This provides you insight into known vulnerabilities and lets you know if adversaries can potentially exploit your organization.
 
 **Important:** The heat map is enhanced to display only the relevant CVEs that is associated with the VITs
 
@@ -295,11 +274,11 @@ To view VITs associated with CVEs and techniques, select **Display VITs associat
 **Note:**
 
 -   The **Display CVEs associated with technique** is available only when the Vulnerability Response product is installed in your environment.
--   The VIT and CVE information is calculated based on the scheduled job you set in the [MITRE-ATT&amp;CK properties](../task/configure-mitre-att-ck-properties.md). The base system schedule job is set for 24 hours.
+-   The VIT and CVE information is calculated based on the scheduled job you set in the [MITRE-ATT&amp;CK properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-att-ck-properties.md). The base system schedule job is set for 24 hours.
 
 When you use this filter with the **Display security incident associated with technique** filter, you can learn if the known vulnerabilities have caused security incidents in your organization.
 
-You can view more information about each CVE to analyze if the CVE is relevant to your organization. To do so, view the vulnerability items. If vulnerability items are created, you can view more information about any associated CI information in the Vulnerability Response module. You can also review the severity and priority to make informed decisions. Review CVEs to make informed decisions.
+You can view more information about each CVE to analyze if the CVE is relevant to your organization. To do so, view the vulnerability items. If vulnerability items are created, you can view more information about any associated CI information in the Vulnerability Response module. You can also review the severity and priority to make informed decisions.
 
 ### Analyze Security Incidents
 
@@ -308,8 +287,6 @@ To analyze security incidents and review the techniques that are used by an adve
 This filter helps you to analyze a security incident. You can learn why the incident occurred, what techniques were exploited, if any known threat actors were involved, if the threat actors used a particular sequence for an attack, and so on. Because you can analyze multiple security incidents at the same time, you can correlate the information to see if they are related or if they are an isolated incident. If the security incidents are related and you observe a pattern, you can review their progress on the kill chain to stop the attack or to form a defense strategy for your organization.
 
 When you use the **Analyze Security Incidents** filter with primary filters, such as an **Adversary Group**, you can correlate if known adversaries are involved. For example, when multiple security incidents are being analyzed, the techniques that are associated with the security incidents are present in the form of a kill chain. As you overlap the information with the adversary, you will notice an overlap between the techniques that are associated with the security incident and the techniques that are associated with the adversary. Only the overlapped technique information is shown if both filters are enabled.
-
-Analyze security incidents
 
 ### Using overlay to analyze security incidents and adversary groups
 
@@ -325,5 +302,5 @@ Once you enable the overlay analyze filter, use the color palette to assign colo
 -   Adversary Group
 -   Overlay
 
-The following illustration shows that the adversary group APT18 is spread across multiple techniques and tactics in the kill chain. The analysis also shows that there are three techniques which overlay the adversary group and security incidents that you are tracking. This illustration shows the adversary and security incident overlay information.
+The following illustration shows that the adversary group APT18 is spread across multiple techniques and tactics in the kill chain. The analysis also shows that there are three techniques which overlay the adversary group and security incidents that you are tracking.
 

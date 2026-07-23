@@ -2,13 +2,14 @@
 title: Define condition attributes on enterprise models and assets
 description: Define the conditions to be inspected on enterprise models and assets throughout their life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-condition-attribute-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Asset conditions, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Asset conditions, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Define condition attributes on enterprise models and assets
@@ -169,10 +170,10 @@ Option that indicates if the condition attribute is active. Select this check bo
     The form closes and you’re automatically redirected to the new condition attribute record.
 
 
-**Parent Topic:**[Asset conditions in Enterprise Asset Management](../concept/asset-conditions-eam.md)
+**Parent Topic:**[Asset conditions in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-conditions-eam.md)
 
 **Related topics**  
 
 
-[Create condition templates for condition attributes](create-condition-template-eam.md)
+[Create condition templates for condition attributes]()
 

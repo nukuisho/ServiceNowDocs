@@ -1,19 +1,21 @@
 ---
 title: Create invoice cost allocation form
-description: Allocate invoice line cost across multiple cost centers.
+description: Field descriptions for the Create invoice cost allocation form used to distribute invoice line costs across cost centers and ledger accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice management, cost allocation, GL coding]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create invoice cost allocation form
 
-Allocate invoice line cost across multiple cost centers.
+Field descriptions for the Create invoice cost allocation form used to distribute invoice line costs across cost centers and ledger accounts.
 
 <table id="id_h2d_kbp_vcc"><thead><tr><th>
 
@@ -103,38 +105,38 @@ Ledger account
 Ledger account that incurs the cost of the allocated transaction amount.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Accounts Payable Operations reference](acc-pay-reference.md)
+</table>**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 
 
-[Accounts Payable Operations properties](acc-pay-properties.md)
+[Accounts Payable Operations properties]()
 
-[Create New Invoice Line form](create-invoice-line-form.md)
+[Create New Invoice Line form]()
 
-[Outbound cost allocation staging table](outbound-cost-allocation-table.md)
+[Outbound cost allocation staging table]()
 
-[Distribution set form](distribution-set-form.md)
+[Distribution set form]()
 
-[Create New Invoice case form](create-new-ap-case-form.md)
+[Create New Invoice case form]()
 
-[Create New Invoice task form](create-apm-task-form.md)
+[Create New Invoice task form]()
 
-[Invoice processing case form](invoice-processing-case-form.md)
+[Invoice processing case form]()
 
-[Tax lines](create-tax-lines-apo.md)
+[Tax lines]()
 
-[Invoice exception form](exception-form-fields.md)
+[Invoice exception form]()
 
-[Request Help form](ur-request-help-form.md)
+[Request Help form]()
 
-[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+[Data required for invoice processing]()
 
-[Invoice exception definition form](invoice-exception-definition-form.md)
+[Invoice exception definition form]()
 
-[Approval Rule form](new-approval-rule-form.md)
+[Approval Rule form]()
 
-[Approval Plan form](approval-plan-form.md)
+[Approval Plan form]()
 
-[Accounts Payable Operations glossary](../concept/apo-glossary.md#)
+[Accounts Payable Operations glossary]()
 

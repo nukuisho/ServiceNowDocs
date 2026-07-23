@@ -2,6 +2,7 @@
 title: Configure a background color for highlighted values
 description: Configure a background color for fields with highlighted values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-background-color-highlighted-values.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Configure a background color for fields with highlighted values.
 
 ## Before you begin
 
-Configure a highlighted value for a form header. For instructions, see [Configure a highlighted value](config-ws-highlight-value.md).
+Configure a highlighted value for a form header. For instructions, see [Configure a highlighted value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-ws-highlight-value.md).
 
 Role required: admin
 
@@ -59,5 +60,5 @@ The following fields don't support a background color for highlighted values:
 
 Fields with highlighted values display a background color.
 
-![Highlighted value with a background color](../image/form-highlighted-values-background-color.png)
+\[Omitted image "form-highlighted-values-background-color.png"\] Alt text: Highlighted value with a background color
 

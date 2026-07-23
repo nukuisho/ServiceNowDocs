@@ -2,9 +2,10 @@
 title: Browser requirements for all Australia features and products
 description: Cumulative release notes summary on browser requirements for Australia features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-browser-reqs.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-04"
+last_updated: "2026-06-12"
 reading_time_minutes: 3
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -61,7 +62,7 @@ Advanced Work Assignment \(AWA\)
 
 </td><td>
 
-Advanced Work Assignment doesn’t support mobile devices or Microsoft Edge browsers. Instead, use Microsoft Edge - Chromium or one of the other supported browsers that are listed in [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Advanced Work Assignment doesn’t support mobile devices or Microsoft Edge browsers. Instead, use Microsoft Edge - Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ Configurable Workspace
 
 </td><td>
 
-Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -85,7 +86,7 @@ Data Management for CSM
 
 </td><td>
 
-Starting with the Australia release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Starting with the Australia release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -93,15 +94,7 @@ Digital End-User Experience
 
 </td><td>
 
-Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.md).
-
-</td></tr><tr><td>
-
-Intelligence for CSM
-
-</td><td>
-
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
+Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/enable-dex-browser-extension.md).
 
 </td></tr><tr><td>
 
@@ -157,15 +150,7 @@ Now Assist for Legal Service Delivery \(LSD\)
 
 </td><td>
 
-To see the list of supported browsers for Now Assist for Legal Service Delivery \(LSD\), see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
-
-</td></tr><tr><td>
-
-Now Assist in Virtual Agent
-
-</td><td>
-
- 
+To see the list of supported browsers for Now Assist for Legal Service Delivery \(LSD\), see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -182,11 +167,19 @@ Policy and Compliance Management supports the latest public release and the two 
 
 </td></tr><tr><td>
 
+Predictive AI for CSM
+
+</td><td>
+
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
+
+</td></tr><tr><td>
+
 RPA Hub
 
 </td><td>
 
-ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -194,7 +187,7 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
-Starting with the Australia release, self-service and omnichannel application don't support Internet Explorer. For more information, see [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Starting with the Australia release, self-service and omnichannel application don't support Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -213,5 +206,5 @@ UI Builder
 Internet Explorer isn't supported for UI Builder
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Australia features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)
 

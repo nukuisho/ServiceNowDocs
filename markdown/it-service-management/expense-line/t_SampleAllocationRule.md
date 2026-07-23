@@ -2,6 +2,7 @@
 title: Create a sample allocation rule
 description: You can create a sample expense allocation rule that allocates the cost of an incident to the department of the caller.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/t\_SampleAllocationRule.html
 release: australia
 product: Expense Line
 classification: expense-line
@@ -42,20 +43,20 @@ Role required: admin, financial\_mgmt\_admin, or financial\_mgmt\_user
     After an incident expense line is created, the allocation rule processes the expense line and generates an expense allocation linking the expense and amount to the caller's department. The expense is stored in the **Target** field on the Expense Allocation record.
 
 
-**Parent Topic:**[Expense lines and expense allocations](../concept/c_ExpenseLinesAndAllocations.md)
+**Parent Topic:**[Expense lines and expense allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLinesAndAllocations.md)
 
 **Related topics**  
 
 
-[Create an allocation rule](t_CreateAnAllocationRule.md)
+[Create an allocation rule]()
 
-[Automatic expense line creation](../concept/c_CreateExpenseLinesAutomatically.md)
+[Automatic expense line creation]()
 
-[Create expense lines manually](t_CreateExpenseLinesManually.md)
+[Create expense lines manually]()
 
-[Delete an expense line](t_DeleteAnExpenseLine.md)
+[Delete an expense line]()
 
-[Use a scripted allocation](t_UseAScriptedAllocation.md)
+[Use a scripted allocation]()
 
-[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md)
+[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/r_CostManagement.md)
 

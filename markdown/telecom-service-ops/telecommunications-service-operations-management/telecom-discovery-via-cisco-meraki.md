@@ -2,13 +2,14 @@
 title: Telecom Discovery via Cisco Meraki SD-WAN
 description: The Service Graph Connector \(SGC\) for Cisco Meraki provides a cloud-based management platform that provides a visual representation of network traffic flow between services and applications, enabling centralized configuration, monitoring, and management. Network administrators can easily discover and map services, enforce security policies, and troubleshoot issues in real time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-via-cisco-meraki.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Explore, Telecommunications Service Operations Management]
+breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
 # Telecom Discovery via Cisco Meraki SD-WAN
@@ -23,7 +24,7 @@ The Cisco Meraki SGC provides visibility, control, and synchronization of physic
 -   Real-time synchronization: Ensures the Configuration Management Database \(CMDB\) is up to date with the latest CI information.
 -   Visualization: Provides a graphical representation of Cisco Meraki networks, device relationships, and dependencies through the Integration Hub ETL.
 
-**Note:** For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
+**Note:** For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sgc-intro.md).
 
 ## Cisco Meraki SGC Architecture
 
@@ -39,12 +40,12 @@ The Cisco Meraki architecture consists of the following key components:
 
 ## CMDB Integrations Dashboard
 
-The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. The dashboard displays metrics for all integration runs. You can filter the view to a specific integration, time duration, or integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. The dashboard displays metrics for all integration runs. You can filter the view to a specific integration, time duration, or integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-commons-for-cmdb.md).
 
 **Related topics**  
 
 
-[Configure Cisco Meraki Service Graph Connector](configuring-cisco-meraki-service-graph-connector.md)
+[Configure Cisco Meraki Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-cisco-meraki-service-graph-connector.md)
 
-[Run and verify an import schedule for Cisco Meraki SGC](../task/run-and-verify-import-for-cisco-meraki-sd-wan-service-graph-connector.md)
+[Run and verify an import schedule for Cisco Meraki SGC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-cisco-meraki-sd-wan-service-graph-connector.md)
 

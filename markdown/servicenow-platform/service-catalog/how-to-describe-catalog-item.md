@@ -2,6 +2,7 @@
 title: Suggestions to describe catalog items
 description: Now Assist uses the description that you write to generate a catalog item for you. If you're using Now Assist for creating a catalog item, use these suggestions to describe your catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/how-to-describe-catalog-item.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -29,16 +30,16 @@ Let's see an example. Specify the text in the prompt as "`Create a catalog item 
 
 ## Configuring auto-populate
 
-Using Now Assist, you can configure the value of a question to populate automatically whenever the value of another question of the reference type changes. For more information about auto-populate, see [Configure an auto-populate value for a question in Catalog Builder](../task/config-auto-populate-value-for-question-cat-builder.md#).
+Using Now Assist, you can configure the value of a question to populate automatically whenever the value of another question of the reference type changes. For more information about auto-populate, see [Configure an auto-populate value for a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/config-auto-populate-value-for-question-cat-builder.md).
 
 `Create a catalog item requesting for replacement of access card with the following questions: - Who is it for?: (The question type should be "Requested for") - Manager: (Reference type on the sys_user table. This field should auto-populate based on the value of the Requested for question.) - Upload your profile picture: (Attachment, mandatory)`
 
 After generating the catalog item, you can verify the **Auto-populate** tab. It's configured based on your text input.
 
-**Parent Topic:**[Catalog item generation reference](catalog-item-generation-reference.md)
+**Parent Topic:**[Catalog item generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 
 **Related topics**  
 
 
-[Creating a catalog item conversationally using Now Assist](../task/create-catalog-item-using-now-assist.md)
+[Creating a catalog item conversationally using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
 

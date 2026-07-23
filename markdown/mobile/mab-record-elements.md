@@ -2,6 +2,7 @@
 title: UI elements of the record screen
 description: Familiarize yourself with the various elements contained within a record screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mab-record-elements.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Function
 
 </th></tr></thead><tbody><tr><td>
 
-![Mobile App Builder home icon](../image/mab-button-home.png)
+\[Omitted image "mab-button-home.png"\] Alt text: Mobile App Builder home icon
 
 </td><td>
 
@@ -31,7 +32,7 @@ The home icon that you can use at any time to return to the categories screen.
 
 </td></tr><tr><td>
 
-![Mobile App Builder record indicator.](../image/mab-indicator-record.png)
+\[Omitted image "mab-indicator-record.png"\] Alt text: Mobile App Builder record indicator.
 
 </td><td>
 
@@ -39,7 +40,7 @@ A record indicator that displays the top-level record you are working in.
 
 </td></tr><tr><td>
 
-![Mobile App Builder application scope indicator.](../image/mab-application-scope-indicator.png)
+\[Omitted image "mab-application-scope-indicator.png"\] Alt text: Mobile App Builder application scope indicator.
 
 </td><td>
 
@@ -47,7 +48,7 @@ An application scope indicator that displays the application scope you are worki
 
 </td></tr><tr><td>
 
-![Mobile App Builder icon to access documentation](../image/mab-button-access-doc.png)
+\[Omitted image "mab-button-access-doc.png"\] Alt text: Mobile App Builder icon to access documentation
 
 </td><td>
 
@@ -60,15 +61,15 @@ A quick-reference icon that opens a menu of help options:-   **Record configurat
 
 </td></tr><tr><td>
 
-![Mobile App Builder save button highlighted.](../image/mab-button-save-bold.png)
+\[Omitted image "mab-button-save-bold.png"\] Alt text: Mobile App Builder save button highlighted.
 
 </td><td>
 
-The **Save** button is highlighted to show if there are any unsaved record changes anywhere in the record hierarchy. If no record changes exist, the button is inactive \(![Mobile App Builder save button not highlighted.](../image/mab-button-save-not-bold.png)\).
+The **Save** button is highlighted to show if there are any unsaved record changes anywhere in the record hierarchy. If no record changes exist, the button is inactive \(\[Omitted image "mab-button-save-not-bold.png"\] Alt text: Mobile App Builder save button not highlighted.\).
 
 </td></tr><tr><td>
 
-![Mobile App Builder more icon.](../image/mab-button-more.png)
+\[Omitted image "mab-button-more.png"\] Alt text: Mobile App Builder more icon.
 
 </td><td>
 

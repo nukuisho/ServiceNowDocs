@@ -2,6 +2,7 @@
 title: Guided Self-Service in Employee Center
 description: Empower employees with easier self-serve capabilities through guided experiences to improve productivity and efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -32,7 +33,7 @@ Using the Guided Self-Service, employees can self-serve with step-by-step assist
 -   Optimize the employee self-service capabilities for complex and high-volume topics.
 -   Streamline authoring for non-technical users with playbook designer usability enhancements
 
-![Guided Self-Service in Employee Center and its intuitive uses.](../images/gss-guided-self-service-overview.png "Guided Self-Service experiences")
+\[Omitted image "gss-guided-self-service-overview.png"\] Alt text: Guided Self-Service in Employee Center and its intuitive uses.
 
 Provide Guided Self-Service that caters to the frequent needs of employees. You can display Guided Self-Service as a widget on the home page or as a quick link or as a widget on topic pages.
 
@@ -56,18 +57,17 @@ Playbook provides a visual representation of step-by-step process involved in se
 
 Understand the basics of playbooks and workflow studio. Ensure you have working knowledge of the following processes:
 
--   [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)
--   [Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-process-automation-designer.md)
--   
--   [Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-processes.md)
--   [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
--   [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md)
--   [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md)
+-   [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md)
+-   [Playbook builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-process-automation-designer.md)
+-   [Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/getting-started-processes.md)
+-   [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md)
+-   [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-process-definition.md)
+-   [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/building-a-process.md)
 
 **Related topics**  
 
 
-[Guided Self-Service reference](../reference/gss-guided-self-service-reference-info.md)
+[Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md)
 
-[Use Guided Self-Service](gss-guided-self-service-homepage.md)
+[Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
 

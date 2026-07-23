@@ -2,9 +2,10 @@
 title: Add a Now Assist skill to an AI agent
 description: Add a generative AI skill to an AI agent in AI Agent Studio. You can customize the skills to meet the needs of your users in different workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-skill-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---
@@ -15,9 +16,9 @@ Add a generative AI skill to an AI agent in AI Agent Studio. You can customize t
 
 ## Before you begin
 
-If you want to add a custom skill to an AI agent, the skill must be published and activated on the Now Assist Admin console. For more information on deploying custom skills, see [Finalize and publish a custom skill](../../now-assist-skill-kit/task/publish-skill.md) and [Activate a custom skill](../../now-assist-skill-kit/task/activate-skill.md).
+If you want to add a custom skill to an AI agent, the skill must be published and activated on the Now Assist Admin console. For more information on deploying custom skills, see [Finalize and publish a custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md) and [Activate a custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
 
-When an AI agent uses a skill as a tool, the user the AI agent is running as must pass the ACL of the skill. Ensure that the security configurations for the skill are met by the AI agent and agentic workflow. For more information on setting skill-level ACLs, see [Configure access control lists for a skill](../../now-assist-skill-kit/task/nask-access-control.md).
+When an AI agent uses a skill as a tool, the user the AI agent is running as must pass the ACL of the skill. Ensure that the security configurations for the skill are met by the AI agent and agentic workflow. For more information on setting skill-level ACLs, see [Configure access control lists for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
 
 Role required: sn\_aia.admin
 
@@ -69,7 +70,7 @@ Inputs
 
 </td><td>
 
-Skill inputs. The values are filled in by the LLM at runtime unless you specify a value override.**Note:** If the agent uses multiple tools, you can choose to use another tool's output as an input value override. Select the data picker icon \(![Data picker icon.](../image/data-picker-icon.png)\) to review the available options.
+Skill inputs. The values are filled in by the LLM at runtime unless you specify a value override.**Note:** If the agent uses multiple tools, you can choose to use another tool's output as an input value override. Select the data picker icon \(\[Omitted image "data-picker-icon.png"\] Alt text: Data picker icon.\) to review the available options.
 
 </td></tr><tr><td>
 

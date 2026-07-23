@@ -2,6 +2,7 @@
 title: Role requirements for Field Encryption
 description: Learn about the roles required to configure Field Encryption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/fe-roles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,9 +19,9 @@ Managing requires the following roles. Since is based on the Key Management Fram
 -   Admin
 -   security\_admin
 -   sn\_kmf.admin
--   sn\_kmf.cryptographic manager
+-   sn\_kmf.cryptographic\_manager
 
-For complete details on details on roles, see [Roles installed with Key Management Framework](../../key-management-framework/reference/kmf-roles.md#).
+For complete details on details on roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/kmf-roles.md).
 
 ## Admin and Security Admin
 
@@ -35,7 +36,7 @@ Admins can elevate to Security admin using this procedure.
 
 ## KMF Admin
 
-Users with the Admin role can assign users to the KMF admin role using this process:
+Users with the Admin and sn\_kmf.admin roles can assign users to the KMF admin role using this process.
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Key Management Administration**.
 2.  From the **Available Users** list, move a user who needs the KMF Admin role over to the **Selected User\(s\)** list.
@@ -52,8 +53,8 @@ Use the following process to assign this role to a user.
 1.  Navigate to **All** &gt; **System Security** &gt; **Users**.
 2.  Select a user that needs to configure Field Encryption.
 3.  In the **Roles** related list, select **Edit**.
-4.  Search for `sn_kmf.cryptographic manager` and add the role the selected user.
+4.  Search for `sn_kmf.cryptographic_manager` and add the role the selected user.
 5.  Select **Save**.
 
-**Parent Topic:**[Configuring Field Encryption](configuring-column-level-encryption.md)
+**Parent Topic:**[Configuring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-column-level-encryption.md)
 

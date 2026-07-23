@@ -2,13 +2,14 @@
 title: Map enterprise roles to enterprise classes
 description: Gain additional access to model categories by mapping individual enterprise roles to additional enterprise classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/map-ent-roles-ent-classes.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Map enterprise roles to enterprise classes

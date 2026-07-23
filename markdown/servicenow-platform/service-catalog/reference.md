@@ -2,6 +2,7 @@
 title: Reference
 description: A reference variable references a record in another table. For example, a variable named point\_of\_contact references the User \[sys\_user\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/reference.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -15,7 +16,7 @@ breadcrumb: [Types of service catalog variables, Service catalog variables, Serv
 
 A reference variable references a record in another table. For example, a variable named point\_of\_contact references the User \[sys\_user\] table.
 
-For attributes supported by this variable, see [variable attributes](variable-attributes.md).
+For attributes supported by this variable, see [variable attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variable-attributes.md).
 
 Keep the following information in mind when you create a reference variable:
 
@@ -26,62 +27,62 @@ Keep the following information in mind when you create a reference variable:
 current.variables.<variable name>.getDisplayValue()
 ```
 
-![A reference variable](../image/VariableReferenceG.png "Example: reference variable")
+\[Omitted image "VariableReferenceG.png"\] Alt text: A reference variable
 
-**Parent Topic:**[Types of service catalog variables](r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
 
-[Attachment](attachment.md)
+[Attachment]()
 
-[Break](break.md)
+[Break]()
 
-[Check box](check-box.md)
+[Check box]()
 
-[Container start, container split, and container end](contain-start-split-end.md)
+[Container start, container split, and container end]()
 
-[Date, Date and time, and Duration](date.md)
+[Date, Date and time, and Duration]()
 
-[Email](email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
 
-[HTML](html.md)
+[HTML]()
 
-[IP Address](ip-address.md)
+[IP Address]()
 
-[Label](label.md)
+[Label]()
 
-[List collector](list-collector.md)
+[List collector]()
 
-[Lookup multiple choice](lookup-multiple-choice.md)
+[Lookup multiple choice]()
 
-[Lookup select box](lookup-select-box.md)
+[Lookup select box]()
 
-[Custom and Custom with label](custom.md)
+[Custom and Custom with label]()
 
-[Masked](masked.md)
+[Masked]()
 
-[Multi-line text](multi-line.md)
+[Multi-line text]()
 
-[Multiple choice](multiple-choice.md)
+[Multiple choice]()
 
-[Numeric scale](numeric-scale.md)
+[Numeric scale]()
 
-[Requested for](requested-for.md)
+[Requested for]()
 
-[Rich Text Label](rich-text-label.md)
+[Rich Text Label]()
 
-[Select box](select-box.md)
+[Select box]()
 
-[Single-line text](single-line-text.md)
+[Single-line text]()
 
-[UI page](ui-page.md)
+[UI page]()
 
-[URL](url.md)
+[URL]()
 
-[Wide single-line text](wide-single-line-text.md)
+[Wide single-line text]()
 
-[Yes/No](yes-no.md)
+[Yes/No]()
 
-[Variable support in various channels](variables-availability.md)
+[Variable support in various channels]()
 

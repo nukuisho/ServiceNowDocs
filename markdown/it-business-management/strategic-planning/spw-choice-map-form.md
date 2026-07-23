@@ -2,6 +2,7 @@
 title: Choice Map form
 description: Learn about the fields of the Choice Map form, which are used while creating a custom choice mapping configuration for SPW Jira Integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/spw-choice-map-form.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -56,10 +57,10 @@ Field Map
 Field Map record for which this choice mapping is created.This field is auto-populated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SPW Jira Integrations reference](spw-jira-integrations-reference.md)
+</table>**Parent Topic:**[SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
 
 **Related topics**  
 
 
-[Create custom choice mapping for SPW Jira integrations](../concept/custom-mapping-configuration-spw-jira.md#)
+[Create custom choice mapping for SPW Jira integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/custom-mapping-configuration-spw-jira.md)
 

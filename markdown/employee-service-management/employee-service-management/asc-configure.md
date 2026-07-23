@@ -90,7 +90,7 @@ Content Delivery manager \[sn\_cd.content\_manager\]
     -   Home page: asc\_home
     -   Main menu: Alumni Center Header
     -   Theme: Alumni Center Coral Theme
-    ![Service Portal configuration for Alumni Center](../image/alumni-service-portal-config.png)
+    \[Omitted image "alumni-service-portal-config.png"\] Alt text: Service Portal configuration for Alumni Center
 
 -   **Supported task types**
 
@@ -106,15 +106,15 @@ Content Delivery manager \[sn\_cd.content\_manager\]
     -   View video
 -   **Adding content**
 
-    The Alumni Center uses the same widgets as the HR Service Delivery Employee Center. For more information, see [Employee Center widget instance options](../../employee-center/concept/emp-center-topic-inst-options.md).
+    The Alumni Center uses the same widgets as the HR Service Delivery Employee Center. For more information, see [Employee Center widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md).
 
-    Use Content Publishing to add and display content to your Alumni Center. For more information, see [Content Publishing](../../employee-center/concept/ec-publish-content.md).
+    Use Content Publishing to add and display content to your Alumni Center. For more information, see [Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md).
 
-    To add content as part of a campaign, use **Content Automation**. For more information, see [Working on Campaigns](../../employee-center/concept/ecpro-campaigns.md).
+    To add content as part of a campaign, use **Content Automation**. For more information, see [Working on Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 
 -   **Load data**
 
-    To add alumni users in bulk, use **System Import Sets**. For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
+    To add alumni users in bulk, use **System Import Sets**. For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_ImportSetsKeyConcepts.md).
 
     At a minimum, the file you upload must have a header and the personal email for each alumnus.
 

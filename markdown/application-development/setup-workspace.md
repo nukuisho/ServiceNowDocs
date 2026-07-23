@@ -2,6 +2,7 @@
 title: Set up a workspace in VS Code
 description: Using the ServiceNow Extensions for VS Code, create a project work folder to use as a workspace for ServiceNow applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/setup-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Using the ServiceNow Extensions for VS Code, create a project work folder to use
 
 ## Before you begin
 
-[Activate the workspace](activate-servicenow-ext.md) to access the functionalities of ServiceNow Extensions for VS Code. Role required: admin
+[Activate the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/activate-servicenow-ext.md) to access the functionalities of ServiceNow Extensions for VS Code. Role required: admin
 
 ## Procedure
 
@@ -23,19 +24,19 @@ Using the ServiceNow Extensions for VS Code, create a project work folder to use
 
     You can also use a keyboard shortcut, Control+Shift+P on Windows or Command+Shift+P on MacOS, to open the command palette and choose **Now: Setup Now Workspace** from the list.
 
-    ![Setup Now workspace command](../image/vscode-setupworkspacenow.png "Setup Now Workspace command")
+    \[Omitted image "vscode-setupworkspacenow.png"\] Alt text: Setup Now workspace command
 
 2.  Do any of the following actions.
 
-<table id="choicetable_ctz_q3f_blb"><thead><tr><th align="left" id="d318695e99">
+<table id="choicetable_ctz_q3f_blb"><thead><tr><th align="left" id="d313867e99">
 
 Option
 
-</th><th align="left" id="d318695e102">
+</th><th align="left" id="d313867e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d318695e108">
+</th></tr></thead><tbody><tr><td id="d313867e108">
 
 **To set up a workspace from a new folder**
 
@@ -46,7 +47,7 @@ Description
 3.  Click **Create**.
 
 
-</td></tr><tr><td id="d318695e138">
+</td></tr><tr><td id="d313867e138">
 
 **To set up a workspace from an existing folder**
 
@@ -62,7 +63,7 @@ Description
 
 ## What to do next
 
-[Create a project](create-project.md) in your workspace. You can create multiple projects of different project types within a workspace.
+[Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-project.md) in your workspace. You can create multiple projects of different project types within a workspace.
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](../concept/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
 

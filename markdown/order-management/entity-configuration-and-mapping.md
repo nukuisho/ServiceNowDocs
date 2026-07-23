@@ -2,6 +2,7 @@
 title: Entity configuration and mapping
 description: Use the Entity Configuration tables and forms to configure and map an entity that defines a structure and transfers the data from the source entity to the target entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/entity-configuration-and-mapping.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -564,5 +565,12 @@ Script to customize the mappings.
 |sn\_l2c\_core\_viewer|Read access to all Lead to Cash Core tables|
 |sn\_l2c\_core.entity\_mapping\_viewer|View access to Lead to Cash Core entity mapping|
 
-**Note:** Add a user with the sn\_l2c\_core.admin role, who is responsible for configuring metadata for all Lead-to-Cash tables, as a Delegated Developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+**Note:** Add a user with the sn\_l2c\_core.admin role, who is responsible for configuring metadata for all Lead-to-Cash tables, as a Delegated Developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
+
+**Related topics**  
+
+
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-foundation.md)
+
+[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-to-cash.md)
 

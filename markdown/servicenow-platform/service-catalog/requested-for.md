@@ -2,6 +2,7 @@
 title: Requested for
 description: Before submitting a catalog item request, this variable helps you specify who this request can be submitted for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/requested-for.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -28,7 +29,7 @@ You should specify this information while answering catalog item questions.
 
 Using the **Enable also request for** field of the Requested For variable, you can request a catalog item for different users under one request.
 
-For information about delegated request experience, see [Delegated request experience](../concept/delegated-request-exp.md).
+For information about delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/delegated-request-exp.md).
 
 **Important:**
 
@@ -37,62 +38,62 @@ For information about delegated request experience, see [Delegated request exper
 -   This variable is not supported in a multi-row variable set.
 -   After the request is submitted, this variable value is visible in the variable editor and variable summarizer.
 
-![Screenshot for the Requested For variable](../image/ReqForVariable.png "Requested For variable")
+\[Omitted image "ReqForVariable.png"\] Alt text: Screenshot for the Requested For variable
 
-**Parent Topic:**[Types of service catalog variables](r_VariableTypes.md)
+**Parent Topic:**[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)
 
 **Related topics**  
 
 
-[Attachment](attachment.md)
+[Attachment]()
 
-[Break](break.md)
+[Break]()
 
-[Check box](check-box.md)
+[Check box]()
 
-[Container start, container split, and container end](contain-start-split-end.md)
+[Container start, container split, and container end]()
 
-[Date, Date and time, and Duration](date.md)
+[Date, Date and time, and Duration]()
 
-[Email](email.md)
+[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/email.md)
 
-[HTML](html.md)
+[HTML]()
 
-[IP Address](ip-address.md)
+[IP Address]()
 
-[Label](label.md)
+[Label]()
 
-[List collector](list-collector.md)
+[List collector]()
 
-[Lookup multiple choice](lookup-multiple-choice.md)
+[Lookup multiple choice]()
 
-[Lookup select box](lookup-select-box.md)
+[Lookup select box]()
 
-[Custom and Custom with label](custom.md)
+[Custom and Custom with label]()
 
-[Masked](masked.md)
+[Masked]()
 
-[Multi-line text](multi-line.md)
+[Multi-line text]()
 
-[Multiple choice](multiple-choice.md)
+[Multiple choice]()
 
-[Numeric scale](numeric-scale.md)
+[Numeric scale]()
 
-[Reference](reference.md)
+[Reference]()
 
-[Rich Text Label](rich-text-label.md)
+[Rich Text Label]()
 
-[Select box](select-box.md)
+[Select box]()
 
-[Single-line text](single-line-text.md)
+[Single-line text]()
 
-[UI page](ui-page.md)
+[UI page]()
 
-[URL](url.md)
+[URL]()
 
-[Wide single-line text](wide-single-line-text.md)
+[Wide single-line text]()
 
-[Yes/No](yes-no.md)
+[Yes/No]()
 
-[Variable support in various channels](variables-availability.md)
+[Variable support in various channels]()
 

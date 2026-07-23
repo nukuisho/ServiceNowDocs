@@ -2,6 +2,7 @@
 title: Estimate savings using the saving estimator tool
 description: The saving estimator tool is used to calculate potential savings from credit card payments. The tool uses default values and allows users to modify billing cycles and other parameters to create new estimates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/estimate-savings.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,7 +16,7 @@ breadcrumb: [Using Supplier Payment Optimization, Use, Supplier Lifecycle Operat
 
 The saving estimator tool is used to calculate potential savings from credit card payments. The tool uses default values and allows users to modify billing cycles and other parameters to create new estimates.
 
-Estimate savings using the saving estimator tool 
+\[Omitted video\] Description: Estimate savings using the saving estimator tool
 
 ## Before you begin
 
@@ -35,11 +36,11 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 5.  Select **Launch savings estimator** under the **Credit card savings estimator** section.
 
-    ![Launch savings estimator](../image/propensity-scorecard.png)
+    \[Omitted image "propensity-scorecard.png"\] Alt text: Launch savings estimator
 
     The **Virtual card value estimator** is displayed.
 
-    ![Virtual card value estimator](../image/estimator-tool.png)
+    \[Omitted image "estimator-tool.png"\] Alt text: Virtual card value estimator
 
     You can see the saving calculation formulas by selecting the **Estimator formula** tab.
 
@@ -49,7 +50,7 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
     The saving estimate is created and saved. You can select **View saved estimates** to view the list of saved estimates.
 
-    ![Saved estimates](../image/saved-estimates.png)
+    \[Omitted image "saved-estimates.png"\] Alt text: Saved estimates
 
     **Note:** You can modify the saved estimates as required.
 
@@ -58,12 +59,12 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 The potential savings from credit card payments are displayed.
 
-**Parent Topic:**[Using Supplier Payment Optimization](../concept/using-supp-payment-opt.md)
+**Parent Topic:**[Using Supplier Payment Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supp-payment-opt.md)
 
 **Related topics**  
 
 
-[Using Supplier Payment Optimization](../concept/using-supp-payment-opt.md)
+[Using Supplier Payment Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supp-payment-opt.md)
 
-[View the Payment Optimization dashboard](view-payment-opt-db.md)
+[View the Payment Optimization dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-payment-opt-db.md)
 

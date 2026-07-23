@@ -2,6 +2,7 @@
 title: Configure the note banner for translated emails
 description: Configure the content for a translated email note banner displayed at the top of the page to display a customized message to the recipient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/config-email-notification-banner.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,12 +33,12 @@ Role required: admin
     **Note:** If you want to disable the note banner, set the **glide.email.translation.dynamic.note.enabled** system property to false.
 
 
-**Parent Topic:**[Dynamic translation](../concept/dynamic-translation.md)
+**Parent Topic:**[Dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md)
 
 **Related topics**  
 
 
-[Enable dynamic translation](enable-email-notification-translation.md)
+[Enable dynamic translation]()
 
-[Enable dynamic translation for email notifications](enable-dynamic-translation.md)
+[Enable dynamic translation for email notifications]()
 

@@ -2,6 +2,7 @@
 title: Professional ID form
 description: Access, update, and validate the Professional ID details of a healthcare professional in the Professional ID form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-healthcare/hc-professional-profile.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -91,34 +92,34 @@ Country
 Country in which the Professional ID has been issued.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[HR Service Delivery for Healthcare reference](reference-hr-healthcare.md)
+</table>**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
 
 **Related topics**  
 
 
-[Installed with HR Service Delivery for Healthcare](installed-with-hr-hc.md)
+[Installed with HR Service Delivery for Healthcare]()
 
-[Healthcare professional profile form](hr-service-healthcare.md)
+[Healthcare professional profile form]()
 
-[Professional liability Insurances form](hr-prof-liab.md)
+[Professional liability Insurances form]()
 
-[Professional reference form](hr-professional-ref.md)
+[Professional reference form]()
 
-[Professional speciality form](hc-prof-spec.md)
+[Professional speciality form]()
 
-[Malpractice history form](hr-mal-his.md)
+[Malpractice history form]()
 
-[Education and Training form](hr-edu-tra.md)
+[Education and Training form]()
 
-[Practice location form](hr-prac-loc.md)
+[Practice location form]()
 
-[Employment history form](hr-emp-det.md)
+[Employment history form]()
 
-[Languages Spoken form](hr-emp-lan.md)
+[Languages Spoken form]()
 
-[Hospital Affiliations form](hr-hos-aff.md)
+[Hospital Affiliations form]()
 
-[Payers Enrollment form](hr-payer-en.md)
+[Payers Enrollment form]()
 
-[Healthcare Employee Onboarding form](hr-emp-onboarding.md)
+[Healthcare Employee Onboarding form]()
 

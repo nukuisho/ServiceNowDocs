@@ -2,6 +2,7 @@
 title: User self-registration
 description: The User Registration Request \[com.snc.user\_registration\] plugin provides the ability for unregistered users to request access to a ServiceNow instance. An administrator can activate the plugin.When a user submits a self-registration form, an admin can review and approve it.Admins can enable users to self-register. Enable automatic approval of such accounts to streamline user registration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/c\_UserRegistration.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -15,15 +16,13 @@ breadcrumb: [Creating users, Creating users, companies, departments, User admini
 
 The User Registration Request \[com.snc.user\_registration\] plugin provides the ability for unregistered users to request access to a ServiceNow instance. An administrator can activate the plugin.
 
-A user can request an account by navigating to the instance. If the plugin is installed, the following section is added to the welcome screen.
-
-![Welcome screen](../image/WelcomeScreen.png)
+A user can request an account by navigating to the instance. If the plugin is installed, a new section is added to the welcome screen to allow users to request a user account.
 
 The user can complete and submit the self-registration form, and see a confirmation that it was submitted. The user receives an email when the account is registered.
 
 **Note:** If the email address entered in the self-registration form is already in the system, the request is not submitted.
 
-**Parent Topic:**[Creating users](../../roles/concept/ua-creating-users.md)
+**Parent Topic:**[Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-users.md)
 
 ## Approve a self-registered user account
 

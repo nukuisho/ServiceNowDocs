@@ -2,13 +2,14 @@
 title: Verify contract administrator assignment for notification
 description: An event runs automatically each night to send reminders to contract administrators about contract expiration dates so they can renew or renegotiate the contract. You can verify that the right contract administrator is assigned to the contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_SendAContractNotification.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Verify contract administrator assignment for notification
@@ -44,24 +45,24 @@ A user with the admin role can edit the contract.expiration condition check that
     A single name can be specified.
 
 
-**Parent Topic:**[Contracts](../concept/c_Contracts.md)
+**Parent Topic:**[Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_Contracts.md)
 
 **Related topics**  
 
 
-[Create a contract](t_CreateAContract.md)
+[Create a contract]()
 
-[Adjust a contract](t_AdjustAContract.md)
+[Adjust a contract]()
 
-[Send the contract for approval](t_SendTheContractForApproval.md)
+[Send the contract for approval]()
 
-[Terms and conditions](../concept/c_TermsAndConditions.md)
+[Terms and conditions]()
 
-[Create a contract rate card](t_ContractRateCardsAndExpenseLines.md)
+[Create a contract rate card]()
 
-[Monitor a contract](t_MonitoringContracts.md)
+[Monitor a contract]()
 
-[Condition check definitions](../concept/c_UseConditionCheckDefinitions.md)
+[Condition check definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_UseConditionCheckDefinitions.md)
 
 [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 

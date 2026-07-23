@@ -2,6 +2,7 @@
 title: Access Mobile Card Builder within Mobile App Builder
 description: Access Mobile Card Builder without leaving Mobile App Builder. By selecting Open in Mobile Card Builder, you can create and edit personalized cards and card templates without needing to open a new browser tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mab-mcb-relationship.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Access Mobile Card Builder without leaving Mobile App Builder. By selecting Open
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+For more information about the delegated developer role, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DelegatedDevelopment.md).
 
 ## About this task
 
@@ -31,15 +32,15 @@ When using Mobile App Builder, you can access the Mobile Card Builder to edit ca
 
 2.  Access the Mobile Card Builder within the Mobile App Builder in one of the following ways.
 
-<table id="choicetable_wtv_bgm_pqb"><thead><tr><th align="left" id="d74718e119">
+<table id="choicetable_wtv_bgm_pqb"><thead><tr><th align="left" id="d75684e119">
 
 Location
 
-</th><th align="left" id="d74718e122">
+</th><th align="left" id="d75684e122">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d74718e128">
+</th></tr></thead><tbody><tr><td id="d75684e128">
 
 **From the Mobile App Builder home page**
 
@@ -47,7 +48,7 @@ Action
 
 Select **Open Mobile Card Builder** from the home page.
 
-</td></tr><tr><td id="d74718e143">
+</td></tr><tr><td id="d75684e143">
 
 **From the Mobile App Builder Cards and icons menu section**
 
@@ -64,13 +65,13 @@ The card or icon option that you selected is displayed.
 4.  Customize your card or icon by selecting the **Open in Mobile Card Builder** button.
 
 
-</td></tr><tr><td id="d74718e190">
+</td></tr><tr><td id="d75684e190">
 
 **From the Mobile App Builder configuration pane**
 
 </td><td>
 
-Select the **Open in Mobile Card Builder** button \(![Open in Mobile Card Builder button.](../image/mab-button-open-mcb.png)\). The button is displayed in the configuration panel for card, card template, icon, or legacy card records.
+Select the **Open in Mobile Card Builder** button \(\[Omitted image "mab-button-open-mcb.png"\] Alt text: Open in Mobile Card Builder button.\). The button is displayed in the configuration panel for card, card template, icon, or legacy card records.
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Correction actions form
 description: The Correction action form enables you to enter the correction action details for the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-correction-actions-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -142,5 +143,5 @@ Description
 Detailed description of the correction action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
 

@@ -2,6 +2,7 @@
 title: Collaborating with Spaces in CWM
 description: Create collaborative Spaces for teams to work together on projects, goals, or assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/cwm-spaces.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -25,7 +26,7 @@ CWM provides two kinds of Spaces: A personal Space that can be accessed only by 
 
     Use the Spaces menu to choose a different Space. The Spaces you are part of are sorted by alpha in the Spaces dropdown menu. Additionally, you can also choose to resize the navigation panel or collapse it altogether to increase the working area for your Boards or Docs.
 
-    ![CWM navigation panel.](../images/cwm-navigation-panel.png)
+    \[Omitted image "cwm-navigation-panel.png"\] Alt text: CWM navigation panel.
 
     When you expand or collapse the Spaces menu, it's saved as your user preference and will remain so until you change it.
 
@@ -35,7 +36,7 @@ CWM provides two kinds of Spaces: A personal Space that can be accessed only by 
 
     Also, the Search bar displays all the recent Spaces, Boards, and Docs that you've navigated to within the CWM workspace so that you can quickly select from the recent items without having to search for them again.
 
-    ![Quick search feature in CWM.](../images/cwm-search.png)
+    \[Omitted image "cwm-search.png"\] Alt text: Quick search feature in CWM.
 
 -   **Keyboard shortcuts**
 
@@ -64,7 +65,7 @@ Create more task Boards, docs, and organize them into folders to manage the work
 
     With the capability to connect to any record across the ServiceNow AI Platform, avoid the risk of having information scattered across multiple apps and missing unplanned tasks.
 
-    ![Spaces menu in CWM.](../images/cwm-spaces-navigation.png)
+    \[Omitted image "cwm-spaces-navigation.png"\] Alt text: Spaces menu in CWM.
 
 -   **Managing access in the Share permissions modal**
 
@@ -72,35 +73,35 @@ Create more task Boards, docs, and organize them into folders to manage the work
 
     -   People with Access section: Manage the access level of existing collaborators to Editor, Viewer, or Owner, or remove them from the Space.
     -   Pending Access section: Review requests from users and choose to grant or deny them access to your Space.
-    ![Share permissions modal of CWM.](../images/cwm-space-share-pending-access.png)
+    \[Omitted image "cwm-space-share-pending-access.png"\] Alt text: Share permissions modal of CWM.
 
 -   **Managing Space permissions for task assignees and other users**
 
     As a Space owner or editor, while assigning tasks to your team members, you can identify users who don’t have access to the workspace through a lock icon next to the user name. This icon is visible in the List view of the Board in the columns of type People such as **Assigned to**, **Additional Assignee**, and **Assignment group**.
 
-    ![Lock icon to indicate no access for a user.](../images/cwm-board-users-lock-icon.png)
+    \[Omitted image "cwm-board-users-lock-icon.png"\] Alt text: Lock icon to indicate no access for a user.
 
-    You can either use the workspace prompt to grant assignees Viewer access or choose to manage their access level later from the Share permissions modal. For more information on managing sharing permissions, see [Share a Space in CWM and manage sharing permissions](../task/share-space-in-cwm.md).
+    You can either use the workspace prompt to grant assignees Viewer access or choose to manage their access level later from the Share permissions modal. For more information on managing sharing permissions, see [Share a Space in CWM and manage sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/share-space-in-cwm.md).
 
-    ![Grant access to task assignees.](../images/cwm-board-grant-access-prompt.png)
+    \[Omitted image "cwm-board-grant-access-prompt.png"\] Alt text: Grant access to task assignees.
 
 -   **Requesting to elevate user access role to Editor**
 
     The Viewing mode indicator in the Board header indicates that you have only the Viewer role to the Space that you're in. As a Space viewer, you can send a request to Space owners and editors to request elevating your role to Editor by selecting the indicator.
 
-    ![Viewing mode indicator.](../images/cwm-viewing-mode.png)
+    \[Omitted image "cwm-viewing-mode.png"\] Alt text: Viewing mode indicator.
 
     Space owners and editors receive an email request from which they can choose to grant or deny access to the user.
 
 
 Using the following sections, get started with shared Spaces in the workspace.
 
--   **[Create a Space in CWM](../task/create-spaces-in-cwm.md)**  
+-   **[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-spaces-in-cwm.md)**  
 Create Spaces in Collaborative Work Management to enable cross-functional teams to come together and manage work tasks and documentation.
--   **[Share a Space in CWM and manage sharing permissions](../task/share-space-in-cwm.md)**  
+-   **[Share a Space in CWM and manage sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/share-space-in-cwm.md)**  
 Invite cross-team members to Collaborative Work Management Spaces to collaborate on tasks or projects. You can also manage permissions for users with existing access to your Space.
--   **[Create a folder in CWM](../task/create-a-folder-in-cwm.md)**  
+-   **[Create a folder in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-folder-in-cwm.md)**  
 Organize Boards and Docs of a Space into folders in Collaborative Work Management Workspace.
 
-**Parent Topic:**[Using Collaborative Work Management](using-collaborative-work-management.md)
+**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 

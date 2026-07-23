@@ -2,6 +2,7 @@
 title: HTTP Response Headers
 description: A response header is a simple name-value pair used in an HTTP response to provide additional information about page content or how the client should process it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/http-response-header.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +23,7 @@ When configuring response headers, you must look at the definition for the HTTP 
 -   For example, you configure an HTTP header for a specific page or all the pages with a Content-Security-Policy: frame-ancestors 'self' https://www.servicenow.com.
 -   When you invoke the page in a browser such as Chrome, you can review it in the Response Headers section of Chrome Developer Tools.
 
-    ![HTTP header with Content-Security-Policy: frame-ancestors 'self'](../image/CSP-frame-ancestors-Response-Header.png)
+    \[Omitted image "CSP-frame-ancestors-Response-Header.png"\] Alt text: HTTP header with Content-Security-Policy: frame-ancestors 'self'
 
 
 To learn more about how browsers handle a page with frame-ancestors, see [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors).
@@ -64,7 +65,7 @@ If the Internet Explorer request includes the referrer URL header:
 **Related topics**  
 
 
-[Control request and response content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_SpecifyContentType.md)
+[Control request and response content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_SpecifyContentType.md)
 
 [bundle-psec.cache-control-http-header-value]
 

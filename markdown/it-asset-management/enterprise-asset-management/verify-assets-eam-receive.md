@@ -2,13 +2,14 @@
 title: Verify the enterprise assets received through a Drop off task
 description: As an asset manager, confirm that you received the enterprise assets that were delivered to your stockroom and complete the Receive task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/verify-assets-eam-receive.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Delivering enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Delivering enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Verify the enterprise assets received through a Drop off task
@@ -46,14 +47,14 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 The state of the Receive task and its Drop off task changes to Closed Complete.
 
-**Parent Topic:**[Delivering enterprise assets in your personal stockroom through Drop off tasks](../concept/drop-off-receive-assets-eam.md)
+**Parent Topic:**[Delivering enterprise assets in your personal stockroom through Drop off tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/drop-off-receive-assets-eam.md)
 
 **Related topics**  
 
 
-[Create a Drop off task for enterprise assets](create-dropoff-task-eam.md)
+[Create a Drop off task for enterprise assets]()
 
-[Drop off enterprise assets at a stockroom](add-eam-assets-drop-off.md)
+[Drop off enterprise assets at a stockroom]()
 
-[Record time worked on Drop off and Receive tasks for enterprise assets](../concept/record-time-drop-receive.md)
+[Record time worked on Drop off and Receive tasks for enterprise assets]()
 

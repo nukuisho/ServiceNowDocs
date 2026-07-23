@@ -2,6 +2,7 @@
 title: Create group allocations
 description: Create group allocations to allocate licenses to all the members of the assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-group-allocations.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [group allocation, create group allocation]
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create group allocations
@@ -36,7 +37,7 @@ The SAM Manager can add a group allocation record for a software model with vali
 
 4.  On the Create New Group Allocations form, fill in the fields.
 
-    For a description of the field values, see [Group allocations fields](../reference/group-allocation-fields.md).
+    For a description of the field values, see [Group allocations fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/group-allocation-fields.md).
 
 5.  Select **Save**.
 
@@ -54,12 +55,12 @@ View the user allocations list by navigating to any of the following paths:
 -   Navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Licensing** &gt; **Software models** and select a software model record. Select the **User Allocations** tab.
 -   Navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Licensing** &gt; **Software models** and select a software model record. Select the **Software Entitlements** tab and select a software entitlement record. Select the **User Allocations** tab.
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 
 **Related topics**  
 
 
-[Allocating licenses to a user group](../concept/group-user-allocation.md)
+[Allocating licenses to a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/group-user-allocation.md)
 
-[Group allocations fields](../reference/group-allocation-fields.md)
+[Group allocations fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/group-allocation-fields.md)
 

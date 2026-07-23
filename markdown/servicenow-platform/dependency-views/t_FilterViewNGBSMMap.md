@@ -2,6 +2,7 @@
 title: Filter the view of a Dependency Views map
 description: Filter a Dependency Views map to display specific types or categories of configuration items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_FilterViewNGBSMMap.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -27,7 +28,7 @@ Use the filter panel to control which elements of the map are displayed and to s
 
 1.  Navigate to **All** &gt; **Dependency Views** &gt; **View Map**.
 
-2.  Click the Map settings icon ![Map Settings.](../image/dv-map-settings.png) to open map settings.
+2.  Click the Map settings icon \[Omitted image "dv-map-settings.png"\] Alt text: Map Settings. to open map settings.
 
 <table id="table_irc_3sy_dr"><thead><tr><th>
 
@@ -61,7 +62,7 @@ Apply previously saved custom settings to the current map.
 
 </td><td>
 
-Apply [previously defined filters](create-predefined-filter.md) consisting of configuration type, CI type, and relationship filters. You can [Set a predefined filter as default](set-predefined-filter-default.md).This filter is applied first, before any other filters \(such as **Filter CIs by Depth**\) are applied.
+Apply [previously defined filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/create-predefined-filter.md) consisting of configuration type, CI type, and relationship filters. You can [Set a predefined filter as default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/set-predefined-filter-default.md).This filter is applied first, before any other filters \(such as **Filter CIs by Depth**\) are applied.
 
 </td></tr><tr><td>
 
@@ -163,22 +164,22 @@ Designate what types of tasks display and get counted in the map.
 </table>3.  Click a filter strip to expand or collapse it, and to set filter items.
 
 
-**Parent Topic:**[Use Dependency Views](../topic/p_UseNGBSM.md)
+**Parent Topic:**[Use Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_UseNGBSM.md)
 
 **Related topics**  
 
 
-[View a Dependency Views map](t_AccessNGBSM.md)
+[View a Dependency Views map]()
 
-[Save or load a Dependency Views map](t_SaveLoadMapView.md)
+[Save or load a Dependency Views map]()
 
-[Delete a saved Dependency Views map view](t_DeleteSavedMapView.md)
+[Delete a saved Dependency Views map view]()
 
-[Change the layout of Dependency Views map](t_ChangeLayoutNGBSMMap.md)
+[Change the layout of Dependency Views map]()
 
-[Perform actions on nodes in a Dependency Views map](t_PerformActionsOnNGBSMMap.md)
+[Perform actions on nodes in a Dependency Views map]()
 
-[Export a Dependency Views map](t_ExportAnNGBSMMap.md)
+[Export a Dependency Views map]()
 
-[View collapsed nodes in a Dependency Views map](t_ViewCollapsedNodesInNGBSM.md)
+[View collapsed nodes in a Dependency Views map]()
 

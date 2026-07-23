@@ -2,6 +2,7 @@
 title: Disable keyboard shortcuts globally
 description: Keyboard shortcuts are enabled by default. You can disable all keyboard shortcuts globally or disable certain shortcuts using different user preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/disable-keyboard-shortcuts-globally.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Keyboard shortcuts are enabled by default. You can disable all keyboard shortcut
 
 Role required: admin
 
-For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](../reference/r_KeyboardShortcuts.md).
+For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md).
 
 ## Procedure
 
@@ -42,5 +43,5 @@ For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](../
     3.  Select **Update**.
 
 
-**Parent Topic:**[Core UI keyboard shortcuts](../reference/r_KeyboardShortcuts.md)
+**Parent Topic:**[Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_KeyboardShortcuts.md)
 

@@ -2,9 +2,10 @@
 title: Creating and resolving case tasks as a government service agent in CSM Configurable Workspace
 description: Service request case tasks in Public Sector Digital Services are automatically created and assigned to agents as each service request case moves through its life cycle. Government service agents can view and complete these case tasks \(or even create their own tasks\) in the CSM Configurable Workspace.View a list of the case tasks that are associated with a service request case, regardless of whether the case task was created automatically or manually, in the CSM Configurable Workspace.Manually create case tasks from information that you gathered from a service request case in CSM Configurable Workspace.Resolve a service request case in CSM Configurable Workspace. After all information has been added to the comments or work notes of a service request case task, you can mark the case task as resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gsp-resolving-case-tasks-agent.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [CSM Configurable Workspace, Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -56,7 +57,7 @@ When an agent creates a service request case task, the system uses information f
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields, see [Service Request Case Task form](../reference/service-request-case-form-new.md#).
+    For more information on the fields, see [Service Request Case Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/service-request-case-form-new.md).
 
 4.  Select **Save**.
 

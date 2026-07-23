@@ -2,6 +2,7 @@
 title: Create a bubble chart
 description: Assessment administrators can create bubble charts to compare the relative standing of assessable records in three metric categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_CreateBubbleCharts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ To create a bubble chart, navigate to **Assessments** &gt; **Admin** &gt; **Bubb
 
 **Note:** For color fields, either HTML [color names](http://www.w3.org/TR/css3-color/#svg-color) or [hexadecimal](http://www.w3schools.com/tags/ref_colorpicker.asp) \(hex\) values are acceptable. For hex values, the \# character is optional. Values are not case-sensitive. For example, all of the following values are valid: LightGray, lightgray, \#D3D3D3, d3d3d3.
 
-![Bubble chart](../image/BubbleChartForm.png "Bubble Chart form")
+\[Omitted image "BubbleChartForm.png"\] Alt text: Bubble chart
 
 <table id="table_klm_lsl_lt"><thead><tr><th>
 
@@ -105,5 +106,5 @@ Default
 Check box that enables \(selected\) or disables \(cleared\) the bubble chart as the default. There can be only one default bubble chart per metric type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[View a bubble chart for assessments](../task/t_view-bubble-chart-assessments.md)
+</table>**Parent Topic:**[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_view-bubble-chart-assessments.md)
 

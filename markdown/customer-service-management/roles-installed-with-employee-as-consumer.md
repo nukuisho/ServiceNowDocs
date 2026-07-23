@@ -2,6 +2,7 @@
 title: Roles installed with Employee as a Consumer
 description: Use different roles to establish the relationships between your users and entities. By using the Employee as a Consumer functionality within the Customer Service Management \(CSM\) application, your organization can support both requesters and supporters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/roles-installed-with-employee-as-consumer.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Earlier, the Consumer \(sn\_customerservice.consumer\) role automatically includ
 
 The following diagram shows the existing roles and the new roles that enable the Employee as a Consumer functionality.
 
-![Existing and new roles that enable the Employee as a Consumer functionality. For a detailed explanation of these roles, refer to the Roles and description table.](../image/unified-consumer.png "Existing and new roles")
+\[Omitted image "unified-consumer.png"\] Alt text: Existing and new roles that enable the Employee as a Consumer functionality. For a detailed explanation of these roles, refer to the Roles and description table.
 
 **Note:**
 
@@ -59,9 +60,9 @@ Supports consumers and runs parallel to the Consumer \(sn\_customerservice.consu
 </table>**Related topics**  
 
 
-[Configuring a user as a Unified Consumer](../concept/configuring-employee-as-a-consumer.md)
+[Configuring a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-employee-as-a-consumer.md)
 
-[Supported and unsupported roles and features](features-supp-and-unsupp-by-unified-consumer.md)
+[Supported and unsupported roles and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/features-supp-and-unsupp-by-unified-consumer.md)
 
-[Setting up a user as a Unified Consumer](../concept/setting-up-a-user.md)
+[Setting up a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-a-user.md)
 

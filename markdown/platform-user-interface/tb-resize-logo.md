@@ -2,6 +2,7 @@
 title: Resize a logo for your login screen
 description: After you have uploaded a logo for your login screen, you can resize the logo by creating and setting a system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-resize-logo.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,11 +24,11 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
 1.  In the Unified Navigation All menu, enter `sys_properties.list` and press **Enter**.
 
-    ![All menu.](../../../get-started/servicenow-overview/image/pol-nav-all-p.png "Unified Navigation All menu")
+    \[Omitted image "pol-nav-all-p.png"\] Alt text: All menu.
 
     The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
-2.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) called glide.ui.polaris.login.logo.height.
+2.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) called glide.ui.polaris.login.logo.height.
 
 3.  Set the system property **Value** to the maximum CSS height value for your logo.
 
@@ -46,5 +47,5 @@ For information on granular roles, see [Granular admin roles](https://raw.github
     At the next launch, your logo is resized based on how you configured the system property.
 
 
-**Parent Topic:**[Upload a new logo to your Theme Builder theme](tb-upload-logo.md)
+**Parent Topic:**[Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-upload-logo.md)
 

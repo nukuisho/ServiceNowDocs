@@ -2,6 +2,7 @@
 title: Domain separation and MetricBase
 description: Domain separation is supported in the MetricBase application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/domain-separation-metricbase.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -27,14 +28,14 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[MetricBase reference](reference-metricbase.md)
+**Parent Topic:**[MetricBase reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/reference-metricbase.md)
 
 **Related topics**  
 
 
-[Developer resources](developer-resources.md)
+[Developer resources]()
 
-[MetricBase roles](../reference/metricbase-roles.md#)
+[MetricBase roles]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

@@ -1,19 +1,21 @@
 ---
 title: Check for invoice exceptions on a single invoice
-description: Manually check for invoice exceptions on a single invoice so that you can resolve them.
+description: Manually check for exceptions on a single invoice in the Source-to-Pay Workspace when you want to identify and resolve issues before continuing to process the invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/identify-exceptions-manually.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice exception, AP specialist]
 breadcrumb: [Accounts Payable Specialist manual tasks, Work on an invoice processing case, Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Check for invoice exceptions on a single invoice
 
-Manually check for invoice exceptions on a single invoice so that you can resolve them.
+Manually check for exceptions on a single invoice in the Source-to-Pay Workspace when you want to identify and resolve issues before continuing to process the invoice.
 
 ## Before you begin
 
@@ -27,7 +29,7 @@ The **Check exceptions** option is available for all invoices that are in **Exce
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Navigate to **Lists** &gt; **Primary Data** &gt; **Invoices**.
 
@@ -41,7 +43,7 @@ The **Check exceptions** option is available for all invoices that are in **Exce
 
 6.  On the invoice processing case form, select **Check exceptions**.
 
-    ![Check exceptions](../image/apo-check-exception.png)
+    \[Omitted image "apo-check-exception.png"\] Alt text: Check exceptions
 
 7.  Select **Yes**.
 
@@ -50,22 +52,22 @@ The **Check exceptions** option is available for all invoices that are in **Exce
     -   If no exceptions are found on the invoice, the status of the invoice changes to No exceptions found.
     -   If exceptions are found on the invoice, the status of the invoice remains as Exceptions found.
 
-**Parent Topic:**[Accounts Payable Specialist manual tasks](../concept/aps-manual-tasks.md)
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 
 
-[View the invoice processing case associated with an invoice](view-invoice-case.md)
+[View the invoice processing case associated with an invoice]()
 
-[Review an invoice in Document Intelligence](review-invoice-docintel.md)
+[Review an invoice in Document Intelligence]()
 
-[Enter the missing required invoice information and submit an invoice](enter-missing-docintel.md)
+[Enter the missing required invoice information and submit an invoice]()
 
-[Confirm whether an invoice is a duplicate](confirm-duplicate-invoice.md)
+[Confirm whether an invoice is a duplicate]()
 
-[Convert invoice type](convert-invoice-case.md)
+[Convert invoice type]()
 
-[Reset an invoice to the Received status](reset-invoice-to-received.md)
+[Reset an invoice to the Received status]()
 
-[Start the processing for an invoice imported via integration with third-party applications](start-invoice-processing.md)
+[Start the processing for an invoice imported via integration with third-party applications]()
 

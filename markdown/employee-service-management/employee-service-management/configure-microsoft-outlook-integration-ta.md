@@ -6,6 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Microsoft Outlook integration, Outlook integration, meeting invites, calendar integration]
 ---
 
 # Configure Microsoft Outlook integration
@@ -20,7 +21,7 @@ Role required: admin
 
 1.  Set up the Microsoft Exchange Online spoke.
 
-    For more information, see [Microsoft Exchange Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-exch-online-spoke.md).
+    For more information, see [Microsoft Exchange Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/ms-exch-online-spoke.md).
 
 2.  In the navigation filter, enter `sys_properties.list`.
 
@@ -43,5 +44,5 @@ Role required: admin
 9.  Select **Update**.
 
 
-**Parent Topic:**[Integrations for Hiring Experiences](../concept/integrate-with-talent-acquisition.md)
+**Parent Topic:**[Integrations for Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-with-talent-acquisition.md)
 

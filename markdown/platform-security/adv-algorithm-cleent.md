@@ -2,6 +2,7 @@
 title: Configure advanced algorithms for Field Encryption Enterprise
 description: Create a cryptographic specification to define the algorithm for a cryptographic module. Customize the encryption specifications with advanced options that are available for Field Encryption Enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/adv-algorithm-cleent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: admin
 
 2.  Select **View module details** from the **Field Encryption overview** to open the module record you want to configure.
 
-3.  Select **Manage Specification Settings** in the **Cryptographic Specification** section.![Manage Specification Settings button.](../../encryption/image/fe-manage-spec-settings.png)
+3.  Select **Manage Specification Settings** in the **Cryptographic Specification** section.\[Omitted image "fe-manage-spec-settings.png"\] Alt text: Manage Specification Settings button.
 
 4.  Select **Back** to navigate to the **Algorithm Definition** tab.
 
@@ -102,20 +103,20 @@ Option to provide Integrity in GCM operation and does not apply for Field Encryp
 </td></tr></tbody>
 </table>6.  Click **Submit**.
 
-    The following example shows AES 256 CBC encryption. When Field Encryption Enterprise is active and the parent module is column\_level\_encryption, only Symmetric Data Encryption/Decryption AES 256 CBC applies as the crypto purpose. See [Cryptographic specification overview](../concept/cryptographic-purpose.md) for details.
+    The following example shows AES 256 CBC encryption. When Field Encryption Enterprise is active and the parent module is column\_level\_encryption, only Symmetric Data Encryption/Decryption AES 256 CBC applies as the crypto purpose. See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/cryptographic-purpose.md) for details.
 
-    ![Shows the AES 256 CBC encryption configuration options.](../../encryption/image/fe-crypto-module-def.png)
+    \[Omitted image "fe-crypto-module-def.png"\] Alt text: Shows the AES 256 CBC encryption configuration options.
 
 
 ## What to do next
 
 Perform one of the following operations:
 
--   Select an entry in the Key Lifecycle table to define key lifecycle behavior. See [Configure key lifecycle states](configure-key-lifecycle-states.md) for details to complete the lifecycle definition for the key.
+-   Select an entry in the Key Lifecycle table to define key lifecycle behavior. See [Configure key lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/configure-key-lifecycle-states.md) for details to complete the lifecycle definition for the key.
 -   Select **Next** to create a cryptographic key. See one of the following tasks for key generation:
-    -   [Generate a ServiceNow cryptographic key](generate_sn_key.md).
-    -   [Configure properties for customer-supplied keys](../../encryption/concept/customer-supplied-keys.md).
-    -   [Import the wrapping / unwrapping key pair](../concept/import-key-webservice-1.md#).
+    -   [Generate a ServiceNow cryptographic key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/generate_sn_key.md).
+    -   [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/customer-supplied-keys.md).
+    -   [Import the wrapping / unwrapping key pair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/import-key-webservice-1.md).
 
-**Parent Topic:**[Using Field Encryption](../../encryption/concept/using-column-level-encryption.md)
+**Parent Topic:**[Using Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-column-level-encryption.md)
 

@@ -2,6 +2,7 @@
 title: Managing presence privacy settings
 description: Manage whether employees can view your in-office presence by selecting your privacy settings.Manage your privacy settings from the Presence dashboard.Manage your privacy settings from the Employee Profile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/manage-presence-privacy-settings.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
@@ -17,20 +18,20 @@ Manage whether employees can view your in-office presence by selecting your priv
 
 If you set your presence to private, your routine is hidden from other employees, and you aren’t displayed as a collaborator on the Presence dashboard calendar.
 
-**Parent Topic:**[Set Employee Presence](use-workplace-concierge.md)
+**Parent Topic:**[Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 
 **Related topics**  
 
 
-[Set in-office days](../task/set-in-office-days.md)
+[Set in-office days]()
 
-[Add a collaborator](../task/add-a-collaborator.md)
+[Add a collaborator]()
 
-[Update your in-office days](../task/update-your-in-office-days.md)
+[Update your in-office days]()
 
-[Remove a collaborator](../task/remove-a-collaborator.md)
+[Remove a collaborator]()
 
-[Update your in-office days as exceptions](../task/update-in-office-days-exceptions.md)
+[Update your in-office days as exceptions]()
 
 ## Manage privacy settings from the Presence dashboard
 
@@ -44,7 +45,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the Presence dashboard.
 
-    For more information, see the steps mentioned [here](../task/set-in-office-days.md#choicetable_presence_dashboard).
+    For more information, see the steps mentioned [here](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/set-in-office-days.md).
 
 2.  On the Presence dashboard, open the Add Routine window by selecting **Manage your settings**.
 
@@ -63,7 +64,7 @@ Manage your privacy settings from the Employee Profile application.
 
 ### Before you begin
 
-An admin must opt in to Employee Profile. For more information, see [Opt in to the employee profile](../../employee-center/task/profile-opt-in.md).
+An admin must opt in to Employee Profile. For more information, see [Opt in to the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/profile-opt-in.md).
 
 Role required: sn\_wsd\_core.workplace\_user
 

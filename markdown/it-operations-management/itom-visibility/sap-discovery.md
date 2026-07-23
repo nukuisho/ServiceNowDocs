@@ -2,12 +2,13 @@
 title: SAP products discovery
 description: ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.Map a service instance containing an SAP application and verify that Service Mapping discovered all SAP components correctly.Fix basic discovery issues based on the symptoms and discovery messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/sap-discovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
@@ -17,9 +18,9 @@ ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA D
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-To learn about the SAP components and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](../reference/r_SupportedApplications.md).
+To learn about the SAP components and their versions that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 ## Prerequisites
 
@@ -32,9 +33,9 @@ To learn about the SAP components and their versions that you can discover, refe
     CMDB CI Class Models
 
 -   **Verify the configuration of the credentials**
-    -   \(If hosted on a UNIX server\) On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md) and [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md). The SSH credentials are used to create connections from SAP Central Instance \(CI\) to other applications and devices. In addition, provide the user elevated rights to be able to run commands requiring a privileged user: [Service Mapping commands requiring a privileged user](../reference/r_CommandsnCredentials.md).
-    -   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md) to create connections from SAP CI to other applications and devices.
-    -   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/enable-winRM-MID-servers.md).
+    -   \(If hosted on a UNIX server\) On the ServiceNow AI Platform, configure [applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md) and [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md). The SSH credentials are used to create connections from SAP Central Instance \(CI\) to other applications and devices. In addition, provide the user elevated rights to be able to run commands requiring a privileged user: [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md).
+    -   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md) to create connections from SAP CI to other applications and devices.
+    -   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-winRM-MID-servers.md).
     -   \(Optional for top-down discovery by Service Mapping\) Provide a user with permissions to run SOAP on RFC read table function.
     -   \(Optional for top-down discovery by Service Mapping\) If your organization deploys SAP Digital Business Services using web services and you want to map all connected services, perform the following actions:
         -   Configure applicative credentials for a user with permissions to access the following tables: CVERS, DBCONS, and RFCDES.
@@ -45,7 +46,7 @@ To learn about the SAP components and their versions that you can discover, refe
 
 -   **Verify the permissions to run Service Mapping commands**
 
-    [Service Mapping commands not requiring a privileged user](../reference/r_NonSudoCommands.md)
+    [Service Mapping commands not requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_NonSudoCommands.md)
 
 -   **Verify the user has the permissions to run the Patterns queries**
 
@@ -101,7 +102,7 @@ Disk Size
 </td></tr></tbody>
 </table>-   **Verify the configuration of the Discovery schedule**
 
-    For more information, see [Running discoveries in your network](../../discovery/concept/running-discoveries.md)
+    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md)
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -220,7 +221,7 @@ Service Mapping can map only one instance of ASCS per deployment.
 
 The SAP HANA DB Catalog pattern can only run on UNIX.
 
-**Parent Topic:**[Software discovery](../../discovery/concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
 
 ## Map application services containing SAP applications
 
@@ -274,11 +275,11 @@ Role required: service\_mapping\_admin
 
     2.  Review the application service map and make sure that the service layout is as in the following examples.
 
-        ![Check the result of mapping an application service containing SAP components.](../image/SAP-top-down-map.png)
+        \[Omitted image "SAP-top-down-map.png"\] Alt text: Check the result of mapping an application service containing SAP components.
 
     If the SAP environment integrates SAP components with Tibco services, you can expect this mapping result:
 
-    ![Check the result of mapping an application service containing SAP components integrated with Tibco services.](../image/SAP-with-Tibco-top-down-map.png)
+    \[Omitted image "SAP-with-Tibco-top-down-map.png"\] Alt text: Check the result of mapping an application service containing SAP components integrated with Tibco services.
 
 
 ## Troubleshoot application services containing SAP applications
@@ -309,9 +310,15 @@ Perform the following steps:
 
     4.  If necessary, fill in the required details and click **Connect**.
 2.  Click the **set variables** step under **Steps**.
-3.  Make sure that the regular expression includes `SYS`.
+3.  Make sure that the regular expression includes `SYS` as shown in the following figure.
+
+    \[Omitted image "SAP-ident-section-set-vars.png"\] Alt text: The set variables step containing SYS.
+
 4.  Click the **set install\_dir** step under **Steps**.
-5.  Make sure that the regular expression includes `sap`.
+5.  Make sure that the regular expression includes `sap` as shown in the following graphic.
+
+    \[Omitted image "SAP-ident-section-set-install-dir.png"\] Alt text: The set install\_dir step containing sap.
+
 
 ### Symptom
 
@@ -340,6 +347,9 @@ The pattern fails at the EVAL function for identifying the web service.
 5.  Pattern Designer opens showing the selected identification section.
 6.  Select the failed step on the right.
 7.  Verify that the function running on EVAL is `com.snc.sw.util.HttpInvokerUtil.post`.
+
+    \[Omitted image "EvalScriptEditorHttpInvokerUtil.png"\] Alt text: Checking the EVAL for the pattern step.
+
 8.  Try to map the application service again and check the result.
 
 ### Cause 2
@@ -385,7 +395,7 @@ MID Server cannot access this URL configured in the entry point of the service i
     2.  Open a browser.
     3.  Paste the URL into the browser address bar and press Enter.
     4.  If the page does not open, it means that there is a network issue, for example, there is a firewall that prevents the MID Server from accessing this URL.
-5.  Resolve the network issue and verify that the MID Server can access the URL as described in step [4](sap-discovery.md#VerifyingCredentials-networkIssues).
+5.  Resolve the network issue and verify that the MID Server can access the URL as described in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/sap-discovery.md).
 
 ### Cause 5
 
@@ -406,7 +416,7 @@ MID Server cannot access this URL configured in the entry point of the service i
         The page does not open, it means that the configured applicative credentials are incorrect.
 
 5.  Find out the right credentials.
-6.  Verify the new credentials as described in step [4](sap-discovery.md#CredetialVerif-IncorrectCredtials).
+6.  Verify the new credentials as described in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/sap-discovery.md).
 7.  If the page opens after you use the new credentials, configure these credentials as applicative credentials on the ServiceNow AI Platform.
 
 ### Cause 6
@@ -417,5 +427,5 @@ MID Server cannot access this URL configured in the entry point of the service i
 
 1.  Verify that the format of the entry point is the URL to the web service as described in the mapping procedure.
 2.  Check that the discovery log contains the following message: "Debug run railed: Test step failed. GROOVE\_CODE\_FAILURE: Missing applicative credentials for CI type &lt;name of the CI type&gt;".
-3.  Verify that you defined applicative credentials for the relevant CI according as described in [Map application services containing SAP applications](sap-discovery.md#).
+3.  Verify that you defined applicative credentials for the relevant CI according as described in [Map application services containing SAP applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/sap-discovery.md).
 

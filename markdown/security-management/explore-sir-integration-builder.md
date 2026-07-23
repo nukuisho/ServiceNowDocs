@@ -1,7 +1,8 @@
 ---
 title: Explore SIR Integration Builder
-description: SIR Integration Builder offers a guided experience to efficiently integrate new tools through a simplified workflow.
+description: SIR Integration Builder offers a guided experience to efficiently integrate new tools by simplifying the workflow and reducing complexity for users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/explore-sir-integration-builder.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -12,9 +13,9 @@ breadcrumb: [LLM-powered SIR integration builder, Security Operations]
 
 # Explore SIR Integration Builder
 
-SIR Integration Builder offers a guided experience to efficiently integrate new tools through a simplified workflow.
+SIR Integration Builder offers a guided experience to efficiently integrate new tools by simplifying the workflow and reducing complexity for users.
 
-SIR integration builder streamlines the process of integrating tools and platforms into the SOAR platform, minimizing manual effort.
+The ability to integrate tools and platforms into the SOAR platform efficiently is critical for operational resilience. Traditional integration often require weeks or months of manual coding and coordination, leading to delays and increased costs. The integration builder addresses these challenges by streamlining the process and minimizing manual effort.
 
 ## Benefits
 
@@ -22,7 +23,7 @@ The benefits of SIR Integration Builder are:
 
 -   Automatically generates integration code from a third-party tool’s public API documentation
 -   Provides a guided setup built on existing capabilities
--   Easy edit and maintenance of the auto code that is generated
+-   Easy editing and maintenance of auto-generated code
 
 ## Prerequisites
 

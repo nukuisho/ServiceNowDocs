@@ -1,7 +1,8 @@
 ---
-title: Create new TRM product lifecycle form
+title: Create TRM product lifecycle form
 description: Add a new lifecycle for a TRM product. It creates the record directly without sending a request for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-trm-prod-lifecycle-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new TRM product lifecycle form
+# Create TRM product lifecycle form
 
 Add a new lifecycle for a TRM product. It creates the record directly without sending a request for approval.
 
@@ -80,10 +81,10 @@ Description
 Description about the product lifecycle request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Add a TRM product lifecycle](../../task/eaw-task/eaw-create-trm-prod-lifecycle-req.md)
+[Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
 

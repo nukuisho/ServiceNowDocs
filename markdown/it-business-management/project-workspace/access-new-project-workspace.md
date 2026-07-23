@@ -1,23 +1,24 @@
 ---
-title: Access the new Project Workspace
+title: Access the Project Workspace
 description: Learn how to navigate to the new Project Workspace and open a project in the planning page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/access-new-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Access the new Project Workspace
+# Access the Project Workspace
 
 Learn how to navigate to the new Project Workspace and open a project in the planning page.
 
 ## Before you begin
 
-[Install Project Workspace](install-project-workspace.md).
+[Install Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/install-project-workspace.md).
 
 Role required: it\_project\_manager
 
@@ -31,14 +32,14 @@ Role required: it\_project\_manager
 
 3.  Select a project to open it in the planning page.
 
-    ![project-planning-page](../image/pw-planning-page.png)
+    \[Omitted image "pw-planning-page.png"\] Alt text: project-planning-page
 
     You can access and manage Planning, Details, Financials, RIDAC, Analytics, Docs, Status Reports, and Resources using the menu that appears when you select the Projects icon. This menu is also called as Level two \(L2\) menu.
 
 
 ## What to do next
 
-[Create a project from Project Workspace](create-project-from-project-workspace.md)
+[Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md)
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
 

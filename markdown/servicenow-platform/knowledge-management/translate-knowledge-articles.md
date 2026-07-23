@@ -1,7 +1,8 @@
 ---
-title: Translate multiple knowledge articles into different languages
+title: Translate multiple knowledge articles
 description: Translate multiple knowledge articles to localize your content into different locales.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/translate-knowledge-articles.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -11,14 +12,14 @@ reading_time_minutes: 1
 breadcrumb: [Use Bulk Translation for manual translation, Bulk Translation for knowledge articles, Use translation management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Translate multiple knowledge articles into different languages
+# Translate multiple knowledge articles
 
 Translate multiple knowledge articles to localize your content into different locales.
 
 ## Before you begin
 
--   [Add a custom Localization Framework setting to enable bulk translations](conf-lf-settings-manual-translations.md).
--   [Request bulk translations for multiple knowledge articles](bulk-translations-step.md).
+-   [Add a custom Localization Framework setting to enable bulk translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/conf-lf-settings-manual-translations.md).
+-   [Request bulk translations for multiple knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/bulk-translations-step.md).
 
 Role required: Localization fulfiller to fulfill translation request
 
@@ -26,7 +27,7 @@ Role required: Localization fulfiller to fulfill translation request
 
 1.  Navigate to **All** &gt; **Knowledge** &gt; **Knowledge Translations** &gt; **My translation request**.
 
-2.  On the Localization Request Items page, select the gear icon \(![Gear icon](../../../common/image/gear.png)\) to add the **Localization task** to your task list.
+2.  On the Localization Request Items page, select the gear icon to add the **Localization task** to your task list.
 
 3.  Open any localization task.
 
@@ -50,5 +51,5 @@ Role required: Localization fulfiller to fulfill translation request
 
 The selected articles are translated into the selected languages and marked as version 0.01. The articles can be accessed from the Knowledge \[kb\_knowledge\] table.
 
-**Parent Topic:**[Use Bulk Translation for manual translation](use-bts-manual-translation.md)
+**Parent Topic:**[Use Bulk Translation for manual translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-bts-manual-translation.md)
 

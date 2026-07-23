@@ -2,6 +2,7 @@
 title: Email FAQs and troubleshooting notification emails
 description: Logs and diagnostics are provided to help determine whether notification emails are being sent and received successfully, what any issues are, and who receives the email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/troubleshooting-notification-emails.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -61,8 +62,6 @@ Email not received by end user
 
 </td></tr></tbody>
 </table>## Email FAQs
-
-Email FAQs
 
 ## Troubleshooting resources
 
@@ -205,37 +204,37 @@ Retried emails type is set to **send-retry-backoff**.
 
 **Note:** Address validation errors that occur during the email delivery are handled differently. The type of email record is set to **send-retry-delayed** and the email delivery is retried in fixed intervals of 30 minutes until the lookback period is lapsed.
 
--   **[Email diagnostics](../../reference-pages/reference/r_MailDiagnostics.md)**  
+-   **[Email diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_MailDiagnostics.md)**  
 The Diagnostics and Connection page provides information on the current state of your email configuration. This page includes status on email properties, scheduled jobs, and email account connections that affect how your instance receives and sends email.
--   **[System email log and mailboxes](../../time/reference/r_EmailLogs.md)**  
+-   **[System email log and mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_EmailLogs.md)**  
 The system email log records all emails that the instance creates or receives. System mailboxes are filtered views of this log.
--   **[Message logs for individual emails](../reference/message-logs-individual-emails.md)**  
+-   **[Message logs for individual emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/message-logs-individual-emails.md)**  
 The email log entries for an individual notification email are accessible as a related list in the email record. The **Error string** field in the email record can provide additional information.
 
-**Parent Topic:**[Email and SMS notifications](c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 
 
-[Create notification categories](../task/create-notification-categories.md)
+[Create notification categories]()
 
-[Create an email notification](../task/t_CreateANotification.md)
+[Create an email notification]()
 
-[Email notifications dashboard](email-notifications-dashboard.md)
+[Email notifications dashboard]()
 
-[Email diagnostics dashboard](email-diagnostics-dashboard.md)
+[Email diagnostics dashboard]()
 
-[Email templates](c_EmailTemplates.md)
+[Email templates]()
 
-[Email layouts](email-layouts.md)
+[Email layouts]()
 
-[Email retention](email-retention.md)
+[Email retention]()
 
-[Watermarks on notification emails](c_WorkingWithWatermarks.md)
+[Watermarks on notification emails]()
 
-[Parse an email thread](../task/parse-email.md)
+[Parse an email thread]()
 
-[Email digests](email-digests.md)
+[Email digests]()
 
-[Domain separation and Notifications](domain-separation-notifications.md)
+[Domain separation and Notifications]()
 

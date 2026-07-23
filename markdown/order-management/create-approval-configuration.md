@@ -2,6 +2,7 @@
 title: Create an approval configuration
 description: Create an approval configuration for a Sales Customer Relationship Management entity, such as quotes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-approval-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-20"
@@ -29,13 +30,13 @@ An approval configuration is a container for the workflow elements that you defi
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Advanced Approvals** &gt; **All Approval Configurations**.
 
 4.  Select **New**.
 
-    On the Approval Configuration form, fill in the fields to create a configuration for an entity, such as quotes. For field descriptions, see the [Approval Configuration form](../reference/approval-configuration-form.md).
+    On the Approval Configuration form, fill in the fields to create a configuration for an entity, such as quotes. For field descriptions, see the [Approval Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/approval-configuration-form.md).
 
 5.  Select **Save**.
 
@@ -46,5 +47,5 @@ An approval configuration is a container for the workflow elements that you defi
 
 ## What to do next
 
-[Create conditions that trigger approval workflows](set-approval-trigger-conditions.md)
+[Create conditions that trigger approval workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/set-approval-trigger-conditions.md)
 

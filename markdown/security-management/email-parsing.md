@@ -2,6 +2,7 @@
 title: Security Operations email parsing
 description: Generate new Security Operations records from external detection systems using Email Parsing. This feature provides a method for integrating information from external tools such as malware detection, vulnerability detection, firewalls, threat intelligence, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/email-parsing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ External detection systems \(malware detectors, vulnerability, and so on\) can s
 
 For example, a malware detector could send you an email report about all systems within your network infected by one particular malware with information about the malware first, followed by a list of the systems affected.
 
-![Malicious email example](../image/EvilBunnyEmail.png "Sample malicious email")
+\[Omitted image "EvilBunnyEmail.png"\] Alt text: Malicious email example
 
 In this example, when the **Record Separator** is set within your **Email Transform** as **=================**, it splits the email into four sections that are evaluated separately. This creates a Security Incident for each of the three affected systems.
 
@@ -51,19 +52,19 @@ When parsing an email with a separator defined, records are only created for sec
 
 In this example, three records are created, even though there are four sections defined. The first section is a header, and it lacks anything specific to only one system. If any of the fields within the first section were filled in \(System, IP, or Status\), then a record would be created for that section, as well.
 
--   **[Create email parsers in Security Operations](../task/parsing-emails.md)**  
+-   **[Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/parsing-emails.md)**  
 Email Parsing creates Security Operations records from your email for security, vulnerability, and observables to expedite threat response and remediation.
--   **[Edit email records in Security Operations](../task/edit-email-records.md)**  
+-   **[Edit email records in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/edit-email-records.md)**  
 Edit transforms in your existing email event records.
 
-**Parent Topic:**[Security Operations email processing](email-processing.md)
+**Parent Topic:**[Security Operations email processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-processing.md)
 
 **Related topics**  
 
 
-[Create email parsers in Security Operations](../task/parsing-emails.md)
+[Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/parsing-emails.md)
 
-[Security Operations enrichment data mapping](enrichment-data-mapping.md)
+[Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/enrichment-data-mapping.md)
 
-[Security Operations field mapping](field-mapping.md)
+[Security Operations field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/field-mapping.md)
 

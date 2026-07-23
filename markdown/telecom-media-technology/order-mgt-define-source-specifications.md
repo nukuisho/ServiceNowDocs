@@ -2,11 +2,12 @@
 title: Define the source specifications in the compatibility rules
 description: Define a source specification in a compatibility rule so that you can create a horizontal relationship in your product catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgt-define-source-specifications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a compatibility rule, Configuring compatibility rules, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Create compatibility rule, Configuring compatibility rules, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Define the source specifications in the compatibility rules
@@ -15,7 +16,7 @@ Define a source specification in a compatibility rule so that you can create a h
 
 ## Before you begin
 
-Ensure that you have created a compatibility rule. To learn more, see [Create a compatibility rule](../../tmt-order-mgt/task/create-compatibility-rules.md).
+Ensure that you have created a compatibility rule. To learn more, see [Create a compatibility rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-compatibility-rules.md).
 
 Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm\_adv.catalog\_creator
 
@@ -71,5 +72,5 @@ Characteristic option to define the source specification in the compatibility ru
 
 ## What to do next
 
-[Create compatible records in compatibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-create-compatibles.md).
+.
 

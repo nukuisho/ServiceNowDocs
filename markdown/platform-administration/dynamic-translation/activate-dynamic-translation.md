@@ -2,12 +2,13 @@
 title: Activate Dynamic Translation
 description: Activate the Dynamic Translation plugin \(com.glide.dynamic\_translation\) to enable all the required APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/activate-dynamic-translation.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -104,13 +105,13 @@ Common utilities for translation features.
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Dynamic Translation](../concept/configuring-dynamic-translation.md)
+**Parent Topic:**[Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/configuring-dynamic-translation.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](../../plugins/reference/list-of-plugins.md#)
+[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

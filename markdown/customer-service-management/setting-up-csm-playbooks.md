@@ -2,6 +2,7 @@
 title: Playbooks in Customer Service Management
 description: Playbooks provide customer service agents with step-by-step guidance for resolving specific types of cases. Agents can follow a playbook in CSM Configurable Workspace and complete guided activities to resolve customer issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/setting-up-csm-playbooks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,11 +14,9 @@ breadcrumb: [Agent tools, Organize agent workspaces, Configure, Customer Service
 
 Playbooks provide customer service agents with step-by-step guidance for resolving specific types of cases. Agents can follow a playbook in CSM Configurable Workspace and complete guided activities to resolve customer issues.
 
-![Playbook with a horizontal stage picker that displays stages across the top of the record and activities in the currently selected stage along the side of the record.](../image/case-playbook-template-horizontal-stages.png "Playbook with horizontal stages")
-
 ## Playbook overview
 
-A [playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) is an end-to-end workflow that includes the stages, steps, and guidance to lead users through a business process. A playbook visualizes a workflow in a task-oriented view and guides users through sequences of tasks.
+A [playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) is an end-to-end workflow that includes the stages, steps, and guidance to lead users through a business process. A playbook visualizes a workflow in a task-oriented view and guides users through sequences of tasks.
 
 A playbook takes a workflow and breaks it into multiple stages. Each stage in a playbook includes a logical group of sequential activities for an agent to complete. Stages can also include automated activities, such as sending an email to a customer when a stage or activity is complete.
 
@@ -26,10 +25,10 @@ Playbooks include:
 -   A series of steps that a user must complete in order to achieve a particular goal and the necessary guidance for completing those steps.
 -   One or more stages, or groups of tasks, and sequences of activities within each stage.
 
-Playbooks are created in the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md) application. Pages that display playbooks in a workspace are created in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) application. Agents use playbooks in [CSM Configurable Workspace](csm-workspaces-configure.md) to complete activities. End users can also use playbooks from service portals to create requests and provide information. For more information, see the following sections in this topic:
+Playbooks are created in the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md) application. Pages that display playbooks in a workspace are created in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) application. Agents use playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md) to complete activities. End users can also use playbooks from service portals to create requests and provide information. For more information, see the following sections in this topic:
 
--   [Playbook users and tools](setting-up-csm-playbooks.md#section_lff_qpc_ybc)
--   [Configuring and configuring playbooks](setting-up-csm-playbooks.md#section_mvs_sqc_ybc)
+-   [Playbook users and tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)
+-   [Configuring and configuring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)
 
 ## Playbook users and tools
 
@@ -49,7 +48,7 @@ Playbook admin\[playbook.admin\]
 
 </td><td>
 
-Uses the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md) application to author, configure, and monitor playbooks.Workflow Studio is the design environment where playbook owners build playbooks.
+Uses the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md) application to author, configure, and monitor playbooks.Workflow Studio is the design environment where playbook owners build playbooks.
 
 </td></tr><tr><td>
 
@@ -57,7 +56,7 @@ Playbook experience admin\[playbook\_experience.admin\]
 
 </td><td>
 
-Uses the [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md) application to create playbook experience records. These records define how playbook activities appear within a playbook.
+Uses the [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md) application to create playbook experience records. These records define how playbook activities appear within a playbook.
 
 </td></tr><tr><td>
 
@@ -65,9 +64,9 @@ UI Builder admin\[ui\_builder\_admin\]
 
 </td><td>
 
-Uses the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) application to create or customize pages that display playbooks in [CSM Configurable Workspace](csm-workspaces-configure.md).UI Builder is a web user interface builder. Users with the UI Builder admin role use the tool to create pages, which are collections of components that make up a workspace user interface.
+Uses the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) application to create or customize pages that display playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspaces-configure.md).UI Builder is a web user interface builder. Users with the UI Builder admin role use the tool to create pages, which are collections of components that make up a workspace user interface.
 
-**Note:** [Playbook page templates](csm-playbook-templates.md) are available for UI Builder admins to use as a starting point for creating playbook pages.
+**Note:** [Playbook page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-templates.md) are available for UI Builder admins to use as a starting point for creating playbook pages.
 
 </td></tr><tr><td>
 
@@ -83,12 +82,12 @@ End user\[sn\_customerservice.customer\]
 
 </td><td>
 
-Uses playbooks create cases, provide requested information, and complete assigned tasks. For more information, see [Playbooks for portals](playbooks-for-portals.md).
+Uses playbooks create cases, provide requested information, and complete assigned tasks. For more information, see [Playbooks for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbooks-for-portals.md).
 
 </td></tr></tbody>
 </table>## Creating and configuring playbooks
 
-Creating and configuring a playbook involves different tools and applications. Playbooks are created using the Workflow Studio application. Some of the configuration for a playbook is performed in UI Builder as part of the playbook component configuration. Additional settings can be configured in the playbook experience record in the Core UI. These settings include selecting the playbook activity view and configuring playbook stage and activity visibility. For more information, see [Configure Playbooks for Customer Service Management](csm-playbooks-configuring.md).
+Creating and configuring a playbook involves different tools and applications. Playbooks are created using the Workflow Studio application. Some of the configuration for a playbook is performed in UI Builder as part of the playbook component configuration. Additional settings can be configured in the playbook experience record in the Core UI. These settings include selecting the playbook activity view and configuring playbook stage and activity visibility. For more information, see [Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-configuring.md).
 
 <table id="table_lwt_dbd_ybc"><thead><tr><th>
 
@@ -100,16 +99,16 @@ Tasks
 
 </th></tr></thead><tbody><tr><td>
 
-[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)
+[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md)
 
 </td><td>
 
-Workflow Studio is the design environment where playbook owners \(users with the playbook.admin role\) build playbooks. For more information, see the following topics:-   [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-workflow-studio.md)
--   [Getting started with Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-processes.md)
+Workflow Studio is the design environment where playbook owners \(users with the playbook.admin role\) build playbooks. For more information, see the following topics:-   [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-workflow-studio.md)
+-   [Getting started with Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/getting-started-processes.md)
 
 </td></tr><tr><td>
 
-[About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md)
+[About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md)
 
 </td><td>
 
@@ -120,7 +119,7 @@ The playbook experience record includes settings for the playbook stage and acti
 
 </td></tr><tr><td>
 
-[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md)
 
 </td><td>
 
@@ -140,18 +139,18 @@ A playbook includes multiple stages and each stage includes one or more activiti
 -   Mark an activity as complete and move to the next activity or stage.
 -   Complete the stages and activities necessary to resolve the case.
 
-For more information, see [Using Playbooks for Customer Service Management](csm-playbooks-using.md).
+For more information, see [Using Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using.md).
 
 ## Playbook applications
 
-Several applications are available that enable you to create and use playbooks with Customer Service Management. See [Playbook plugins](setting-up-csm-playbooks.md#section_qgq_ylk_llb) for detailed plugin and dependency information.
+Several applications are available that enable you to create and use playbooks with Customer Service Management. See [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md) for detailed plugin and dependency information.
 
 |Application|Description|
 |-----------|-----------|
 |Playbooks for Customer Service Management|Use this application to create or customize playbooks based on your individual business needs. Create playbooks that support case types or the base customer service case.|
-|[Case Playbook for Onboarding](csm-case-type-onboarding.md)|Use this application to manage the process for taking on new customers or enrolling customers in new products. An onboarding case captures the details of the new customer, including their selection of products and services.|
-|[Case Playbook for Complaints](csm-playbook-complaint-overview.md)|Use this application to manage the process for handling customer complaints. A complaint case captures the details of the problem reported by the customer and the expected resolution.|
-|[Case Playbook for Product Support](csm-playbook-product-support.md)|Use this application to guide agents through the steps that are needed to resolve product issues. A product support case captures information about the customer, the product, and the reported issue.|
+|[Case Playbook for Onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-onboarding.md)|Use this application to manage the process for taking on new customers or enrolling customers in new products. An onboarding case captures the details of the new customer, including their selection of products and services.|
+|[Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-complaint-overview.md)|Use this application to manage the process for handling customer complaints. A complaint case captures the details of the problem reported by the customer and the expected resolution.|
+|[Case Playbook for Product Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-product-support.md)|Use this application to guide agents through the steps that are needed to resolve product issues. A product support case captures information about the customer, the product, and the reported issue.|
 
 ## Playbook plugins
 
@@ -174,14 +173,14 @@ These playbooks require the following plugins:
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 **Related topics**  
 
 
-[Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md)
+[Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md)
 
-[Configure Playbooks for Customer Service Management](csm-playbooks-configuring.md)
+[Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-configuring.md)
 
-[Using Playbooks for Customer Service Management](csm-playbooks-using.md)
+[Using Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using.md)
 

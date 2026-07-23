@@ -2,6 +2,7 @@
 title: Healthcare EVS case overview
 description: Use the Healthcare EVS case \[sn\_cto\_evs\_case\] to create case types for environmental service support requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-evs-case-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Use the Healthcare EVS case \[sn\_cto\_evs\_case\] to create case types for envi
 
 ## Healthcare Environmental Services case overview
 
-![EVS case to work order flow.](../image/cto-evs-case.png)
+\[Omitted image "cto-evs-case.png"\] Alt text: EVS case to work order flow.
 
 If the Field Service Management \[com.snc.work\_management\] plugin is installed, Healthcare EVS cases automatically generate related work orders that are assigned to supporting agents with the fulfiller role. If this plugin isn’t installed, support agents must fulfill the case itself.
 
@@ -25,19 +26,19 @@ Any updates, comments, or status changes made to the work order reflects in the 
 
 ## Work order auto-creation
 
-![Work order auto-creation from EVS cases.](../image/cto-work-order-creation.png)
+\[Omitted image "cto-work-order-creation.png"\] Alt text: Work order auto-creation from EVS cases.
 
 Work orders are created automatically in synchronization with Healthcare EVS cases. All information from the Healthcare EVS case is carried over into the incident.
 
 ## Comment synchronization
 
-![EVS case comment synchronization.](../image/cto-evs-comment-sync.png)
+\[Omitted image "cto-evs-comment-sync.png"\] Alt text: EVS case comment synchronization.
 
 Comments on the Healthcare EVS case are viewable on the work order, and comments in the Compose panel of the work order are viewable on the Healthcare EVS case.
 
 ## State synchronization
 
-![EVS case state synchronization.](../image/cto-evs-state-sync.png)
+\[Omitted image "cto-evs-state-sync.png"\] Alt text: EVS case state synchronization.
 
 The state of both the work order and the healthcare case remains in synchronization throughout the entire fulfillment process. Use the Care Team Portal to track your case state in real time through viewing case details in the portal.
 

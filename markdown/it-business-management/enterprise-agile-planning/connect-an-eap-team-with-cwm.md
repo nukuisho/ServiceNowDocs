@@ -2,11 +2,12 @@
 title: Connect an EAP team with CWM
 description: Establish a connection to CWM by setting your EAP team's Agile tool to Collaborative Work Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/connect-an-eap-team-with-cwm.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-07"
 reading_time_minutes: 1
 breadcrumb: [Connect with CWM, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -31,7 +32,7 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 4.  Set the **Team agile tool** field to **Collaborative Work Management**.
 
-    ![Setting Team Agile tool to Collaborative Work Management for an EAP Team.](../images/eap-connect-cwm.png)
+    \[Omitted image "eap-connect-cwm.png"\] Alt text: Setting Team Agile tool to Collaborative Work Management for an EAP Team.
 
 5.  Select **Save**.
 
@@ -40,14 +41,15 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 -   Collaborative Work Management is displayed underneath this team in EAP.
 
-    ![EAP team connected to Collaborative Work Management.](../images/eap-cwm-connection.png)
+    \[Omitted image "eap-cwm-connection.png"\] Alt text: EAP team connected to Collaborative Work Management.
 
 -   A Space and Board are created for this team in Collaborative Work Management.
 
-    ![EAP team's Space and Board in CWM.](../images/eap-cwm-space-board.png)
+    \[Omitted image "eap-cwm-space-board.png"\] Alt text: EAP team's Space and Board in CWM.
 
+-   The Backlog and Hierarchy tabs remain available for this team in EAP, but the **Start Sprint** and **Complete Sprint** options are no longer available there. Start and complete sprints from the Collaborative Work Management Board instead.
 
 ## What to do next
 
-Navigate to **Workspaces** &gt; **Collaborative Work Management** to start managing this team's work. To learn more, see [Managing work using Boards in CWM](../../collab-work-mgmt/concept/cwm-boards.md) and [Sprint planning in CWM](../../collab-work-mgmt/concept/agile-sprint-planning-in-cwm.md).
+Navigate to **Workspaces** &gt; **Collaborative Work Management** to start managing this team's work. To learn more, see [Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md) and [Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md).
 

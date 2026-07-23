@@ -2,6 +2,7 @@
 title: Migrate budget of active projects to Next Experience
 description: Migrate the project budget to Next Experience to manage the financials using Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/fin-migrate-budget-project-ppm.html
 release: australia
 product: Project Management
 classification: project-management
@@ -25,15 +26,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d177642e85">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d180896e85">
 
 Choice
 
-</th><th align="left" id="d177642e88">
+</th><th align="left" id="d180896e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d177642e94">
+</th></tr></thead><tbody><tr><td id="d180896e94">
 
 **Using list actions**
 
@@ -44,7 +45,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d177642e124">
+</td></tr><tr><td id="d180896e124">
 
 **Using related links**
 
@@ -55,7 +56,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d177642e151">
+</td></tr><tr><td id="d180896e151">
 
 **Activate a scheduled job**
 
@@ -65,7 +66,7 @@ Description
 2.  Filter the Name field to locate the **Migrate budget for active demands and projects** scheduled job and open it.
 3.  Select **Active** and on the Scheduled Script Execution form, fill the fields.
 
-For a description of the field names, see [Scheduled Script Execution Form](../reference/scheduled-script-execution-form.md).
+For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
 
 4.  Select **Update**.
 
@@ -74,58 +75,54 @@ For a description of the field names, see [Scheduled Script Execution Form](../r
 </table>    **Note:** After migration, you won't be able to view the budget on Classic UI. You're encouraged to manage budget using the Financials in Next Experience.
 
 
-**Parent Topic:**[Starting a project](t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
 
-[Create a project task from a project](t_CreateATaskFromAProject.md)
+[Create a project task from a project]()
 
-[Create a parent-child relationship on the Project Task form](t_CreateParentChildRelationship.md)
+[Create a parent-child relationship on the Project Task form]()
 
-[Create a monetary benefit plan for a project](create-project-benefit-plan.md)
+[Create a monetary benefit plan for a project]()
 
-[Create a non-monetary benefit plan for a project](create-a-non-monetary-benefit-plan-for-a-project.md)
+[Create a non-monetary benefit plan for a project]()
 
-[Associate monetary and non-monetary benefit plans](associate-monetary-and-non-monetary-benefit-plans-project.md)
+[Associate monetary and non-monetary benefit plans]()
 
-[Create a project cost plan](t_CreateAProjectCostPlan.md)
+[Create a project cost plan]()
 
-[Recalculating costs of all resource plans in a project](recalculate-resource-costs-of-a-project.md)
+[Recalculating costs of all resource plans in a project]()
 
-[Create an expense line](t_CreateAExpenseLine.md)
+[Create an expense line]()
 
-[Create and manage waterfall projects](../../project-portfolio-suite/concept/c_CreateAndManageWaterfallProjects.md)
+[Create and manage waterfall projects]()
 
-[Schedule a project from a start date](schedule-a-project-pm.md)
+[Update a project]()
 
-[Apply or change a task constraint](change-task-constraint-project-management.md)
+[Copy a project]()
 
-[Update a project](t_UpdateAProjectInProgress.md)
+[Assign a project schedule]()
 
-[Copy a project](t_CopyAProject.md)
+[Create baseline of a project]()
 
-[Assign a project schedule](t_UseAProjectSchedule.md)
+[Create a milestone]()
 
-[Create baseline of a project](t_CreateAProjectBaseline.md)
+[Activate project task email notifications]()
 
-[Create a milestone](t_CreateMilestones.md)
+[Change the planned start date of a project]()
 
-[Activate project task email notifications](t_ActivateProjTaskEmailNot.md)
+[Create a cost type definition]()
 
-[Change the planned start date of a project](change-planned-start-date-of-project.md)
+[Costing add-on in Project Management]()
 
-[Create a cost type definition](t_CreateAResourceTypeDefinition.md)
+[Generate labor costs]()
 
-[Costing add-on in Project Management](../concept/c_ProjectManagementCostingAddOn.md)
+[Create a project status report]()
 
-[Generate labor costs](gen-cost-pln-prj-wrkspc.md)
+[Allocate budget to a project]()
 
-[Create a project status report](t_CreateAProjectStatusReport.md)
+[Migrate financial baselines of projects to Next Experience]()
 
-[Allocate budget to a project](allocate-budget-to-project.md)
-
-[Migrate financial baselines of projects to Next Experience](migrate-fin-baselines-projects.md)
-
-[Migrate financial baselines of projects to Next Experience](migrate-fin-baselines-projects.md)
+[Migrate financial baselines of projects to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/migrate-fin-baselines-projects.md)
 

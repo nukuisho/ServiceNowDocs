@@ -2,9 +2,10 @@
 title: Make a copy of a Now Assist skill
 description: The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings and configure the skill to fit your business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/make-a-copy-of-a-now-assist-skill.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Copy, Now Assist, skill, admin, features]
 breadcrumb: [Using Now Assist Admin, Now Assist, Enable AI experiences]
@@ -36,7 +37,7 @@ The skills that come with the Now Assist applications have default configuration
 
 3.  On the feature card that contains the default skill, select **View details**.
 
-4.  In the All available skills or Active skills section, select the more options icon ![More options icon.](../image/naa-more-options-icon.png) next to the skill that you want to make a copy of and select **Make a copy**.
+4.  In the All available skills or Active skills section, select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. next to the skill that you want to make a copy of and select **Make a copy**.
 
     **Note:** Only one version of a skill can be active at a time. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
 
@@ -49,12 +50,12 @@ A copy of the skill is generated and you're taken to the guided setup.
 
 ## What to do next
 
-Continue the steps in the guided setup to activate the skill. For more information, see [Activate a Now Assist skill](configure-a-now-assist-skill.md).
+Continue the steps in the guided setup to activate the skill. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
-If you're making a copy of the case or incident summarization skill and would like to learn more about your options, see the [documentation for configuring record summarization](configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
+If you're making a copy of the case or incident summarization skill and would like to learn more about your options, see the [documentation for configuring record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
 
--   **[Configure case or incident summarization in the Now Assist Admin console](configure-case-or-incident-summarization-in-the-now-assist-admin-console.md)**  
+-   **[Configure case or incident summarization in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md)**  
 Configure case or incident summarization by using the guided setup in the Now Assist Admin console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
 
-**Parent Topic:**[Using Now Assist Admin](../concept/using-now-assist-admin_0.md)
+**Parent Topic:**[Using Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
 

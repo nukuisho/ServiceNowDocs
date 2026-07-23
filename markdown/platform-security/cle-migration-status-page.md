@@ -2,6 +2,7 @@
 title: Field Encryption migration status page
 description: Use the migration status page to track the migration of encryption contexts to encryption modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/cle-migration-status-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Migrating to Field Encryption, Configuring Field Encryption, Field 
 
 Use the migration status page to track the migration of encryption contexts to encryption modules.
 
-![Encryption job status page](../image/encryption-job-status-page.png)
+\[Omitted image "encryption-job-status-page.png"\] Alt text: Encryption job status page
 
 The Field Encryption Migration page displays the status of the steps involved in migrating encryption contexts to encryption modules. Each of the three sections displays the status of a specific step in the process.
 
@@ -27,8 +28,8 @@ The page contains three cards representing the steps in the migration progress. 
 
 </td><td>
 
-![Encryption job status page](../image/encryption-job-status-page-2.png)
+\[Omitted image "encryption-job-status-page-2.png"\] Alt text: Encryption job status page
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Migrating to Field Encryption](../../now-platform-encryption/concept/migration-to-platform-encryption.md)
+</table>**Parent Topic:**[Migrating to Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/migration-to-platform-encryption.md)
 

@@ -2,11 +2,12 @@
 title: Semantic index configuration for indexed sources
 description: The AI Search generalized RAG \(Retrieval-Augmented Generation\) framework offers a streamlined way to configure semantic indexing settings for records indexed from ServiceNow AI Platform tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/semantic-index-cfg-ais.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-07-06"
 reading_time_minutes: 3
 breadcrumb: [Indexed sources, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -25,7 +26,7 @@ Each semantic index configuration includes the following elements:
 
     A reference to an existing indexed source with field values or attachments that you want indexed for semantic vector search.
 
-    For more information on indexed sources, see [Indexed sources in AI Search](indexed-sources-ais.md). To learn more about semantic vector search, see [Semantic vector search in AI Search](semantic-search-ais.md).
+    For more information on indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md). To learn more about semantic vector search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-search-ais.md).
 
 -   **Embedding models**
 
@@ -39,7 +40,7 @@ Each semantic index configuration includes the following elements:
 
     Chunking is the process of breaking text down into smaller portions \(called chunks\) during indexing. By chunking your content, AI Search reduces search load and improves context and relevancy for semantic vector matches.
 
-    The following image shows how a two-paragraph block of sample field value text might be broken into chunks for semantic indexing. As shown, chunks can contain multiple sentences and may span paragraph breaks found in the original text.![Two paragraphs of sample text and four multi-sentence text chunks identified when the text is semantically indexed.](../image/chunking-text-example.png)
+    The following image shows how a two-paragraph block of sample field value text might be broken into chunks for semantic indexing. As shown, chunks can contain multiple sentences and may span paragraph breaks found in the original text.\[Omitted image "chunking-text-example.png"\] Alt text: Two paragraphs of sample text and four multi-sentence text chunks identified when the text is semantically indexed.
 
 -   **Semantic index fields**
 
@@ -56,8 +57,10 @@ Semantic index configuration functionality is provided by the AI Search Semantic
 
 You can verify whether semantic index configuration is activated by navigating to **All** &gt; **AI Search** &gt; **AI Search Index** &gt; **Indexed Sources** and selecting an indexed source record. If you see the Semantic Index Configuration related list on the Indexed Source form, the plugin is activated.
 
--   **[Configure semantic indexing settings for an indexed source](../task/configure-semantic-indexing-ais.md)**  
+-   **[Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-semantic-indexing-ais.md)**  
 Specify the semantic indexing configuration settings you want to apply when AI Search indexes records from your indexed sources.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ais-rag.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ais-rag.md)**  
 
-**Parent Topic:**[Indexed sources in AI Search](indexed-sources-ais.md)
+
+**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md)
 

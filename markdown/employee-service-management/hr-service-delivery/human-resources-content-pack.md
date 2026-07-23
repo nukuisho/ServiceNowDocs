@@ -2,6 +2,7 @@
 title: HR Performance Analytics Dashboards
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/human-resources-content-pack.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,15 +24,15 @@ To enable the solution plugin, an admin can navigate to **System Definitions** &
 
 If you have Self-Service Analytics activated on an instance, you can add Self-Service analytics widgets to your Performance Analytics dashboards or a Service Portal. To obtain a ready-made set of indicators and breakdowns, activate the Self-Service Analytics PA \(**com.snc.pa.self\_service\_analytics**\) plugin. Find the Self-Service indicators through the Performance Analytics Admin Console, then create widgets and add them to your dashboard or portal. Also activate the \[SSA\] Self-Service Analytics data collection job.
 
--   **[Human Resources agent dashboard](human-resources-agent-dashboard.md)**  
+-   **[Human Resources agent dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/human-resources-agent-dashboard.md)**  
 The dashboard for HR Agents monitors caseloads to help stay on top of the backlog, enabling the HR Agent to provide a streamlined experience for the organization workforce.
--   **[Human Resources manager dashboard](human-resources-manager-dashboard.md)**  
+-   **[Human Resources manager dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/human-resources-manager-dashboard.md)**  
 The dashboard for HR Managers provides insights on how HR teams are meeting expectations. The HR Manager can measure and improve the influence of their team on meeting and exceeding workforce expectations.
 
-**Parent Topic:**[Performance Analytics for HR Service Delivery](../../../product/human-resources/concept/scoped-hr-performance-analytics.md)
+**Parent Topic:**[Performance Analytics for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/scoped-hr-performance-analytics.md)
 
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

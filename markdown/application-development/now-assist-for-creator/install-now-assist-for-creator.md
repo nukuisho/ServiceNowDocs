@@ -2,6 +2,7 @@
 title: Install Now Assist for Creator
 description: Install the Now Assist for Creator application to add generative AI functionality to your workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/install-now-assist-for-creator.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Now Assist for Creator, Install Now Assist for Creator]
-breadcrumb: [Configure, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Install Now Assist for Creator

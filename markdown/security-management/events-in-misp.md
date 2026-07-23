@@ -2,10 +2,11 @@
 title: Managing events in MISP
 description: You can create events in MISP automatically or manually from the ServiceNow AI Platform. You can also edit the event data in MISP from the ServiceNow AI Platform.You can verify the automatically created events after you configure the event creation profile in your ServiceNow AI Platform instance.Manually create events in MISP from the ServiceNow AI Platform to capture contextually related information represented as attributes and objects.Add attributes to an event, such as the type, category, and other contextual information about the event.Add tags in ServiceNow AI Platform MISP to classify events or attributes. You can use tagging globally to enable your classification or use tags locally when you don't want MISP events to be modified during your classification.Add or remove galaxies in ServiceNow AI Platform MISP so that you can classify these objects as a cluster in the MISP instance and attach them to MISP events or attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/events-in-misp.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 13
+reading_time_minutes: 12
 breadcrumb: [Using MISP to investigate and analyze threats, MISP integration for Security Operations, Threat Intelligence integrations, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -13,7 +14,7 @@ breadcrumb: [Using MISP to investigate and analyze threats, MISP integration for
 
 You can create events in MISP automatically or manually from the ServiceNow AI Platform. You can also edit the event data in MISP from the ServiceNow AI Platform.
 
-**Parent Topic:**[Using MISP to investigate and analyze threats](using-misp-to-detect-and-analyze-threats.md)
+**Parent Topic:**[Using MISP to investigate and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-misp-to-detect-and-analyze-threats.md)
 
 ## Verifying automatically created events in MISP
 
@@ -21,7 +22,7 @@ You can verify the automatically created events after you configure the event cr
 
 ### Automatic event creation profile
 
-[Configuring the automatic event creation profile](../task/configure-automatic-event-creation-profile.md#) is done by the sn\_si.admin or the sn\_ti.admin user roles in the **MISP Integration** &gt; **Automatic Event Creation Profiles** module.
+[Configuring the automatic event creation profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-automatic-event-creation-profile.md) is done by the sn\_si.admin or the sn\_ti.admin user roles in the **MISP Integration** &gt; **Automatic Event Creation Profiles** module.
 
 ### Viewing the MISP event data
 
@@ -29,15 +30,15 @@ You can view the created events in the following ways:
 
 -   View the work notes for the created events. You can view the event details in the ServiceNow AI Platform instance and also as it appears in the MISP server as shown in the following example.
 
-    ![View the work notes for created events.](../image/misp-event-creation-worknotes.png "Work notes for created events")
+    \[Omitted image "misp-event-creation-worknotes.png"\] Alt text: View the work notes for created events.
 
--   Click the [Associated MISP Events](../reference/associated-misp-events.md) related list. Here, you can view the event in relation to the security incident and the MISP resources as shown in the following example.
+-   Click the [Associated MISP Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/associated-misp-events.md) related list. Here, you can view the event in relation to the security incident and the MISP resources as shown in the following example.
 
-    ![View the list of associated events](../image/misp-associated-event-list.png "List of associated events")
+    \[Omitted image "misp-associated-event-list.png"\] Alt text: View the list of associated events
 
 -   View the MISP event data in the form view to review the detailed information about the MISP events as shown in the following example.
 
-    ![View the event data in the form view to see the detailed MISP event information.](../image/misp-event-data-form-view.png "Event data in the form view")
+    \[Omitted image "misp-event-data-form-view.png"\] Alt text: View the event data in the form view to see the detailed MISP event information.
 
 
 ## Manually create an event in MISP
@@ -46,7 +47,7 @@ Manually create events in MISP from the ServiceNow AI Platform to capture contex
 
 ### Before you begin
 
--   [Review the MISP user role and permissions](../reference/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
 -   Role required: sn\_sec\_misp.write
 
 ### Procedure
@@ -184,13 +185,13 @@ Option that allows you to add MISP tags to the events that are created from Serv
 
     The following example shows that by creating an event in MISP, you can view the results in the security incident. You also can view the work notes, the event in the ServiceNow AI Platform instance, and the event in the MISP server as shown in the following example.
 
-    ![Manually create an event in MISP from the ServiceNow AI Platform.](../image/misp-manual-event-creation.gif "Manually create an event in MISP from the ServiceNow AI Platform")
+    \[Omitted image "misp-manual-event-creation.gif"\] Alt text: Manually create an event in MISP from the ServiceNow AI Platform.
 
     You can view the results in the following ways:
 
     -   A success message appears at the top of the security incident page. You can view the event details in the ServiceNow AI Platform instance and also as it appears in the MISP server.
     -   In the work notes, you can view the success message with more details. You can also view the event details in the ServiceNow AI Platform instance and also as it appears in the MISP server.
-    -   In the [Associated MISP Events](../reference/associated-misp-events.md) related list, you can view the event in relation to the security incident and the MISP resources.
+    -   In the [Associated MISP Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/associated-misp-events.md) related list, you can view the event in relation to the security incident and the MISP resources.
 
 ## Add attributes to a MISP event
 
@@ -198,7 +199,7 @@ Add attributes to an event, such as the type, category, and other contextual inf
 
 ### Before you begin
 
--   [Review the MISP user role and permissions](../reference/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
 -   Verify that the event that you are adding or updating the attribute belongs to the same organization as the MISP user.
 -   Role required: sn\_sec\_misp.write
 
@@ -273,7 +274,7 @@ Comments that you add for the attributes.
 </td></tr></tbody>
 </table>    The following example shows that by navigating from the Associated MISP Events list, you can view the event record 5627 and add attributes to the event. The attributes include the value \(testdomain.com\), category as external analysis, type as domain. You can also enable IDS. The success message on the event record shows that the attribute is added to the event as shown in the following example.
 
-    ![Adding attribute to a MISP event.](../image/misp-add-attribute-to-event.gif "Add attribute to a MISP event")
+    \[Omitted image "misp-add-attribute-to-event.gif"\] Alt text: Adding attribute to a MISP event.
 
 5.  Click **Add Attribute to MISP Event**.
 
@@ -288,7 +289,7 @@ Add tags in ServiceNow AI Platform MISP to classify events or attributes. You ca
 
 ### Before you begin
 
--   [Review the MISP user role and permissions](../reference/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) for using the MISP bi-directional features.
 -   Verify that the event you are editing belongs to the same organization as the MISP user.
 -   Note that the tags and galaxies that are available to you are based on the MISP source and its distribution permissions.
 -   Role required: sn\_sec\_misp.write
@@ -466,7 +467,7 @@ Galaxies \(Global\)
 Galaxies that are available globally to be shared and synchronized with other MISP instances and sharing communities. When you add global galaxies, MISP you can modify events.
 
 </td></tr></tbody>
-</table>6.  To edit either a local or global tag, click the edit icon ![Edit icon.](../image/misp-edit-icon.png) in one of the following options:
+</table>6.  To edit either a local or global tag, click the edit icon \[Omitted image "misp-edit-icon.png"\] Alt text: Edit icon. in one of the following options:
 
 7.  -   **Tags \(Local\)**
 -   **Tags \(Global\)**
@@ -476,7 +477,7 @@ Galaxies that are available globally to be shared and synchronized with other MI
 
     The following example shows that by clicking the edit icon for the local tags, you can search and add the C3, Adware, C2, and Botnet 3101 tags, and update the MISP server with the tags. The confirmation message shows that all the tags are updated in MISP.
 
-    ![Updating tags to a MISP event.](../image/misp-add-tags-event.gif "Updating tags to MISP event")
+    \[Omitted image "misp-add-tags-event.gif"\] Alt text: Updating tags to a MISP event.
 
 10. Click **Reload Form** in the success message to view the changes in the record.
 
@@ -491,14 +492,14 @@ Add or remove galaxies in ServiceNow AI Platform MISP so that you can classify t
 
 ### Before you begin
 
--   [Review the MISP user role and permissions](../reference/misp-user-roles-and-permissions.md) required for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) required for using the MISP bi-directional features.
 -   To add local galaxies, the user who has configured the integration should belong to host organization of the corresponding MISP server.
 -   The tags and galaxies available to you are based on the MISP source and its distribution permissions.
 -   Role required: sn\_sec\_misp.write
 
 ### Procedure
 
-1.  Click the edit icon ![Edit icon.](../image/misp-edit-icon.png) in one of the following options.
+1.  Click the edit icon \[Omitted image "misp-edit-icon.png"\] Alt text: Edit icon. in one of the following options.
 
 2.  -   **Galaxies \(Local\)**
 -   **Galaxies \(Global\)**
@@ -508,7 +509,7 @@ Add or remove galaxies in ServiceNow AI Platform MISP so that you can classify t
 
     The following example shows how to click the edit icon for the local galaxies, select the deprecated namespace, select the Enterprise Attack - Attack Pattern galaxy, and add cluster information. After the galaxy information is updated, you can view the success message.
 
-    ![Updating galaxy information to MISP event.](../image/misp-add-galaxy-event.gif "Update galaxy information to MISP event")
+    \[Omitted image "misp-add-galaxy-event.gif"\] Alt text: Updating galaxy information to MISP event.
 
     The galaxies are updated successfully in the MISP server.
 

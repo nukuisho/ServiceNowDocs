@@ -2,11 +2,12 @@
 title: Set up inbound connections
 description: Inbound connections allow external systems to send data, events, or trigger actions in ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/set-up-inbound-connections.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Connections and Credentials, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [Connections and Credentials, Connect, Workflow Data Fabric]
 ---
 
 # Set up inbound connections

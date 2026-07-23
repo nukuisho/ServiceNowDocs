@@ -2,6 +2,7 @@
 title: IBM PowerHA SystemMirror for AIX discovery
 description: The ServiceNow Discovery application uses the IBM PowerHA Cluster \(HACMP\) pattern to find IBM PowerHA SystemMirror for AIX \(formerly HACMP\) high-availability clusters on AIX UNIX and Linux systems running on IBM platforms. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/ibm-powerha-hamcp-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -20,7 +21,7 @@ Discovery uses this pattern to run horizontal discovery.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -33,11 +34,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     1.  Navigate to **CI Classification** &gt; **UNIX**.
     2.  Select **AIX**.
     3.  In The **Triggers probes** tab, verify that the IBM PowerHA Cluster \(HACMP\) pattern is listed as an exploration that runs after the AIX Server pattern.
-    For more information on AIX Server discovery, see [AIX server discovery](../../discovery/reference/r_DataCollDiscoAIXComputers.md).
+    For more information on AIX Server discovery, see [AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md).
 
 -   **Verify server IP address or hostname**
 
-    Verify that the server IP address or hostname are used during discovery. For more information, see [Schedule a horizontal discovery](../../discovery/task/t_CreateADiscoverySchedule.md#).
+    Verify that the server IP address or hostname are used during discovery. For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 -   **Verify MID Server access**
 
@@ -126,7 +127,7 @@ On the Dependency Views map you can see all discovered cluster CIs in your organ
 
 In this example, UNIX Cluster Node represents a cluster of UNIX Clusters. UNIX Cluster Node gets resources from UNIX Cluster Resource and uses Cluster Virtual IP. UNIX Cluster Node contains three Cluster Resource Groups.
 
-![CIs and connections on a Dependency Views map](../image/ibm-hacmp-dependency-view.png "Dependency Views sample map")
+\[Omitted image "ibm-hacmp-dependency-view.png"\] Alt text: CIs and connections on a Dependency Views map
 
 ## CI relationships
 
@@ -144,5 +145,5 @@ These relationships are created to support IBM HACMP/PowerHA cluster discovery:
 |UNIX Cluster \[cmdb\_ci\_unix\_cluster\]|Contains::Contained by|Cluster Resource Group \[cmdb\_ci\_cluster\_resource\_group\]|
 |UNIX Cluster Node \[cmdb\_ci\_unix\_cluster\_node\]|Hosted on::Hosts|AIX Server \[cmdb\_ci\_aix\_server\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

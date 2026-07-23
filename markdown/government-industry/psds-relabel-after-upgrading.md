@@ -2,6 +2,7 @@
 title: Relabel CSM Configurable Workspace items after upgrade
 description: After you upgrade your instance for the first time, you can relabel certain items in the CSM Configurable Workspace for public sector use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-relabel-after-upgrading.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -72,5 +73,5 @@ Certain menus and menu items in the CSM Configurable Workspace are relabeled for
         In the **Title** field, change `Service Organization External Staff` to `External Staff`.
 
 
-**Parent Topic:**[Set up the CSM Configurable Workspace for Public Sector Digital Services](../concept/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the CSM Configurable Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/setting-up-csm-fsm.md)
 

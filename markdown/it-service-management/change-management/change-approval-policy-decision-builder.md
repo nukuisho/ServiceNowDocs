@@ -2,11 +2,12 @@
 title: Create a Change approval policy using decision builder
 description: Create a change approval policy using the Change approval policy decision builder to define the approvals that should be generated for your change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-approval-policy-decision-builder.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Creating change approval policies, Use, Change Management, IT Service Management]
 ---
@@ -18,8 +19,6 @@ Create a change approval policy using the Change approval policy decision builde
 ## Before you begin
 
 The Decision Builder \[sn\_decision\_design\] plugin must be installed.
-
-A change approval policy can be applied to a change request. An approval policy can contain multiple decisions allowing a single policy to handle every approval required for a change type. When a decision condition matches, the related approval definition is evaluated.
 
 Role required: admin or change\_manager
 
@@ -33,7 +32,7 @@ Role required: admin or change\_manager
 
 4.  In the **Execution** field, select an option to determine the approach to implement your decision.
 
-<table id="choicetable_dsq_35w_f5b"><tbody><tr><td id="d113127e102">
+<table id="choicetable_dsq_35w_f5b"><tbody><tr><td id="d116441e109">
 
 **First decision that matches**
 
@@ -41,7 +40,7 @@ Role required: admin or change\_manager
 
 Uses the first matching decision in ascending order of the value defined in the **Order** column of the **Decisions** list. The associated approval definition is applied.
 
-</td></tr><tr><td id="d113127e120">
+</td></tr><tr><td id="d116441e127">
 
 **Run all decisions that match**
 
@@ -184,5 +183,5 @@ Operator used to evaluate a user-specified value. A default operator is required
 
 A change approval policy is created and is evaluated on a change request that matches the defined condition.
 
-**Parent Topic:**[Creating change approval policies](../concept/using-change-approval-policies-cf.md)
+**Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-approval-policies-cf.md)
 

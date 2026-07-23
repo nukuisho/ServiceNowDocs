@@ -2,9 +2,10 @@
 title: Configure AI search for Now Assist for Public Sector Digital Services \(PSDS\)
 description: Activate the Now Assist in AI Search application to extract actionable Q&amp;A Genius Result answers from knowledge articles found in the Service Portal, Virtual Agent, Employee Center, and global searches using generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-configuring-ai-search-toggle.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Activate Now Assist skills, Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
 ---

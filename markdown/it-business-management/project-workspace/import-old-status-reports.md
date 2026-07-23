@@ -2,13 +2,14 @@
 title: Import old project status report to Project Workspace
 description: Migrate your old status reports from the classic Project Workspace to the new Project Workspace and optimize reporting process of your projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/import-old-status-reports.html
 release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a status report in Project Workspace, Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Import old project status report to Project Workspace
@@ -23,7 +24,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Status reports page of the project by selecting Status Reports from the list.
 
@@ -36,18 +37,18 @@ Role required: it\_pps\_admin, it\_project\_manager
     You can export a status report at the project level from the classic Project Workspace using the **Export status reports to Next Experience** link. You can export a status report at the record level using the **Export to Next Experience** link.
 
 
-**Parent Topic:**[Create a status report in Project Workspace](create-a-status-report-in-project-workspace.md)
+**Parent Topic:**[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 
 **Related topics**  
 
 
-[Add dynamic content to status report in Project Workspace](add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 
-[Create a status report template in Project Workspace](create-a-status-report-template-project-workspace.md)
+[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 
-[Update status report in Project Workspace](update-status-report-project-workspace.md)
+[Update status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-status-report-project-workspace.md)
 
-[Analyze the status report in Project Workspace](view-status-report-in-project-workspace.md)
+[Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-status-report-in-project-workspace.md)
 
-[Duplicate a status report in Project Workspace](duplicate-status-report-pw.md)
+[Duplicate a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/duplicate-status-report-pw.md)
 

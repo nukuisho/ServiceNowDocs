@@ -2,6 +2,7 @@
 title: Application services for Event Management operators
 description: As an Event Management operator, you need to understand what application services are.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-application-services.html
 release: australia
 product: Event Management
 classification: event-management
@@ -23,11 +24,11 @@ Lesson 1
 
 </td><td align="justify">
 
-![Overview events icon](../image/progress-complete2.png)
+\[Omitted image "progress-complete2.png"\] Alt text: Overview events icon
 
 </td><td>
 
-[An overview of events and alerts](operator-events-alerts.md)
+[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-events-alerts.md)
 
 </td></tr><tr><td>
 
@@ -35,7 +36,7 @@ Lesson 2
 
 </td><td align="justify">
 
-![Overview BS icon](../image/progress-wip.png)
+\[Omitted image "progress-wip.png"\] Alt text: Overview BS icon
 
 </td><td>
 
@@ -47,11 +48,11 @@ Lesson 3
 
 </td><td align="justify">
 
-![Operator icon](../image/progress-not-started.png)
+\[Omitted image "progress-not-started.png"\] Alt text: Operator icon
 
 </td><td>
 
-[Event Management operator workspaces](operator-user-interfaces.md)
+[Event Management operator workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-user-interfaces.md)
 
 </td></tr><tr><td>
 
@@ -59,18 +60,18 @@ Lesson 4
 
 </td><td align="justify">
 
-![What operators do icon](../image/progress-not-started.png)
+\[Omitted image "progress-not-started.png"\] Alt text: What operators do icon
 
 </td><td>
 
-[What operators do](operator-process.md)
+[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md)
 
 </td></tr></tbody>
 </table>An application service is a collection of components, such as network devices, computers, and applications that offer a service to your organization. The services can be something like an email system or a website that tracks orders or requests in a database. Your administrator should have already specified the application services in your ServiceNow instance.
 
 Each component that makes up an application service is referred to as a configuration item or CI. This service map provides a visual representation of an application service:
 
-![Service map](../image/operator-business-service.png "Service map")
+\[Omitted image "operator-business-service.png"\] Alt text: Service map
 
 In this example, you can see a Web Portal application service with these CIs:
 
@@ -91,7 +92,7 @@ Event Management classifies application services into the following types:
 
 -   **Application services**
 
-    An application service can consist of discovered services, manual services, or both. A discovered service is an application service that the [Service Mapping](../../service-mapping/reference/c_ServiceMappingOverview.md) application finds \(if your organization uses [Service Mapping](../../service-mapping/reference/c_ServiceMappingOverview.md)\). A manual service is an application service that your administrator configures by selecting and adding each CI and specifying the relationships between CIs.
+    An application service can consist of discovered services, manual services, or both. A discovered service is an application service that the [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md) application finds \(if your organization uses [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md)\). A manual service is an application service that your administrator configures by selecting and adding each CI and specifying the relationships between CIs.
 
 -   **Alert groups**
 
@@ -106,11 +107,11 @@ Later, when you learn how to use the Service Operations Workspace dashboard, you
 
 In this example, you can see how a **Major** alert on an Oracle database \(**PS ORA01**\) also causes a major alert on its parent CIs and on the Web portal application service itself.
 
-![Impact tree](../image/operator-dashboard-impact-tree.png "Impact tree")
+\[Omitted image "operator-dashboard-impact-tree.png"\] Alt text: Impact tree
 
 ## Continue the tutorial
 
-Proceed to the next lesson: [Event Management operator environment](operator-user-interfaces.md).
+Proceed to the next lesson: [Event Management operator environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-user-interfaces.md).
 
-**Parent Topic:**[Event Management Operator Tutorial](operator-guide-em.md)
+**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-guide-em.md)
 

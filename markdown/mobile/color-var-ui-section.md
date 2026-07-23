@@ -2,6 +2,7 @@
 title: Color variable support for icon UI sections
 description: Learn how to use color variables to change theming in your mobile icon UI sections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-ui-section.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -26,13 +27,13 @@ Icon UI sections have a **Color** section with two fields to control the foregro
 -   Icon section destination function \[sys\_sg\_navigation\_section\_destination\_button\]
 -   Icon section destination screen \[sys\_sg\_navigation\_section\_destination\_screen\]
 
- For details on creating these actions, see [Configure an icon UI section](../task/sg-ui-section-config-navig.md).
+ For details on creating these actions, see [Configure an icon UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-navig.md).
 
  You can define any color variable from the UX Theme Properties \[sys\_ux\_theme\_property\] table. For a list available variables see the color design guide below.
 
 </td><td>
 
-![Color variable used in an icon UI section](../image/color-var-example-2.png)
+\[Omitted image "color-var-example-2.png"\] Alt text: Color variable used in an icon UI section
 
 </td></tr></tbody>
 </table>## Mobile icon UI section color guide
@@ -72,11 +73,11 @@ Primary
 
 </td><td>
 
-![Primary icon color](../image/icon-colors/icon-color-primary.png)
+\[Omitted image "icon-color-primary.png"\] Alt text: Primary icon color
 
 </td><td>
 
-![Primary icon example](../image/icon-colors/icon-example-primary.png)
+\[Omitted image "icon-example-primary.png"\] Alt text: Primary icon example
 
 </td><td>
 
@@ -95,11 +96,11 @@ Critical
 
 </td><td>
 
-![Critical icon color](../image/icon-colors/icon-color-alert.png)
+\[Omitted image "icon-color-alert.png"\] Alt text: Critical icon color
 
 </td><td>
 
-![Critical icon example](../image/icon-colors/icon-example-critical.png)
+\[Omitted image "icon-example-critical.png"\] Alt text: Critical icon example
 
 </td><td>
 
@@ -118,11 +119,11 @@ High
 
 </td><td>
 
-![High icon color](../image/icon-colors/icon-color-high.png)
+\[Omitted image "icon-color-high.png"\] Alt text: High icon color
 
 </td><td>
 
-![High icon example](../image/icon-colors/icon-example-high.png)
+\[Omitted image "icon-example-high.png"\] Alt text: High icon example
 
 </td><td>
 
@@ -141,11 +142,11 @@ Warning
 
 </td><td>
 
-![Warning icon color](../image/icon-colors/icon-color-warning.png)
+\[Omitted image "icon-color-warning.png"\] Alt text: Warning icon color
 
 </td><td>
 
-![Warning icon example](../image/icon-colors/icon-example-warning.png)
+\[Omitted image "icon-example-warning.png"\] Alt text: Warning icon example
 
 </td><td>
 
@@ -164,11 +165,11 @@ Moderate
 
 </td><td>
 
-![Moderate icon color](../image/icon-colors/icon-color-moderate.png)
+\[Omitted image "icon-color-moderate.png"\] Alt text: Moderate icon color
 
 </td><td>
 
-![Moderate icon example](../image/icon-colors/icon-example-moderate.png)
+\[Omitted image "icon-example-moderate.png"\] Alt text: Moderate icon example
 
 </td><td>
 
@@ -187,11 +188,11 @@ Info
 
 </td><td>
 
-![Info icon color](../image/icon-colors/icon-color-info.png)
+\[Omitted image "icon-color-info.png"\] Alt text: Info icon color
 
 </td><td>
 
-![Info icon example](../image/icon-colors/icon-example-info.png)
+\[Omitted image "icon-example-info.png"\] Alt text: Info icon example
 
 </td><td>
 
@@ -210,11 +211,11 @@ Positive
 
 </td><td>
 
-![Positive icon color](../image/icon-colors/icon-color-positive.png)
+\[Omitted image "icon-color-positive.png"\] Alt text: Positive icon color
 
 </td><td>
 
-![Positive icon example](../image/icon-colors/icon-example-positive.png)
+\[Omitted image "icon-example-positive.png"\] Alt text: Positive icon example
 
 </td><td>
 
@@ -233,11 +234,11 @@ Low
 
 </td><td>
 
-![Low icon color](../image/icon-colors/icon-color-low.png)
+\[Omitted image "icon-color-low.png"\] Alt text: Low icon color
 
 </td><td>
 
-![Low icon example](../image/icon-colors/icon-example-low.png)
+\[Omitted image "icon-example-low.png"\] Alt text: Low icon example
 
 </td><td>
 
@@ -275,11 +276,11 @@ Blue
 
 </td><td>
 
-![Blue icon color](../image/icon-colors/icon-color-blue.png)
+\[Omitted image "icon-color-blue.png"\] Alt text: Blue icon color
 
 </td><td>
 
-![Blue icon example](../image/icon-colors/icon-example-blue.png)
+\[Omitted image "icon-example-blue.png"\] Alt text: Blue icon example
 
 </td><td>
 
@@ -294,11 +295,11 @@ Brown
 
 </td><td>
 
-![Brown icon color](../image/icon-colors/icon-color-brown.png)
+\[Omitted image "icon-color-brown.png"\] Alt text: Brown icon color
 
 </td><td>
 
-![](../image/icon-colors/icon-example-brown.png)
+\[Omitted image "icon-example-brown.png"\]
 
 </td><td>
 
@@ -313,11 +314,11 @@ Gray
 
 </td><td>
 
-![Gray icon color](../image/icon-colors/icon-color-gray.png)
+\[Omitted image "icon-color-gray.png"\] Alt text: Gray icon color
 
 </td><td>
 
-![Gray icon example](../image/icon-colors/icon-example-gray.png)
+\[Omitted image "icon-example-gray.png"\] Alt text: Gray icon example
 
 </td><td>
 
@@ -332,11 +333,11 @@ Green
 
 </td><td>
 
-![Green icon color](../image/icon-colors/icon-color-green.png)
+\[Omitted image "icon-color-green.png"\] Alt text: Green icon color
 
 </td><td>
 
-![Green icon example](../image/icon-colors/icon-example-green.png)
+\[Omitted image "icon-example-green.png"\] Alt text: Green icon example
 
 </td><td>
 
@@ -351,11 +352,11 @@ Green-Yellow
 
 </td><td>
 
-![Green-yellow icon color](../image/icon-colors/icon-color-green-yellow.png)
+\[Omitted image "icon-color-green-yellow.png"\] Alt text: Green-yellow icon color
 
 </td><td>
 
-![Green-yellow icon example](../image/icon-colors/icon-example-green-yellow.png)
+\[Omitted image "icon-example-green-yellow.png"\] Alt text: Green-yellow icon example
 
 </td><td>
 
@@ -370,11 +371,11 @@ Magenta
 
 </td><td>
 
-![Magenta icon color](../image/icon-colors/icon-color-magenta.png)
+\[Omitted image "icon-color-magenta.png"\] Alt text: Magenta icon color
 
 </td><td>
 
-![Magenta icon example](../image/icon-colors/icon-example-magenta.png)
+\[Omitted image "icon-example-magenta.png"\] Alt text: Magenta icon example
 
 </td><td>
 
@@ -389,11 +390,11 @@ Orange
 
 </td><td>
 
-![Orange icon color](../image/icon-colors/icon-color-orange.png)
+\[Omitted image "icon-color-orange.png"\] Alt text: Orange icon color
 
 </td><td>
 
-![Orange icon example](../image/icon-colors/icon-example-orange.png)
+\[Omitted image "icon-example-orange.png"\] Alt text: Orange icon example
 
 </td><td>
 
@@ -408,11 +409,11 @@ Pink
 
 </td><td>
 
-![Pink icon color](../image/icon-colors/icon-color-pink.png)
+\[Omitted image "icon-color-pink.png"\] Alt text: Pink icon color
 
 </td><td>
 
-![Pink icon example](../image/icon-colors/icon-example-pink.png)
+\[Omitted image "icon-example-pink.png"\] Alt text: Pink icon example
 
 </td><td>
 
@@ -427,11 +428,11 @@ Purple
 
 </td><td>
 
-![Purple icon color](../image/icon-colors/icon-color-purple.png)
+\[Omitted image "icon-color-purple.png"\] Alt text: Purple icon color
 
 </td><td>
 
-![Purple icon example](../image/icon-colors/icon-example-purple.png)
+\[Omitted image "icon-example-purple.png"\] Alt text: Purple icon example
 
 </td><td>
 
@@ -446,11 +447,11 @@ Teal
 
 </td><td>
 
-![Teal icon color](../image/icon-colors/icon-color-teal.png)
+\[Omitted image "icon-color-teal.png"\] Alt text: Teal icon color
 
 </td><td>
 
-![Teal icon example](../image/icon-colors/icon-example-teal.png)
+\[Omitted image "icon-example-teal.png"\] Alt text: Teal icon example
 
 </td><td>
 
@@ -465,11 +466,11 @@ Yellow
 
 </td><td>
 
-![Yellow icon color](../image/icon-colors/icon-color-yellow.png)
+\[Omitted image "icon-color-yellow.png"\] Alt text: Yellow icon color
 
 </td><td>
 
-![Yellow icon example](../image/icon-colors/icon-example-yellow.png)
+\[Omitted image "icon-example-yellow.png"\] Alt text: Yellow icon example
 
 </td><td>
 

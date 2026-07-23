@@ -2,13 +2,14 @@
 title: ACL control of function fields
 description: When evaluating access to a function field, in addition to checking access to the function field itself, the system also checks access to the function's contributing fields. Contributing fields are those used as the arguments in a given function definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/acl-function-fields.html
 release: australia
 product: Access Control
 classification: access-control
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Explore Access Control Lists, Access Control List Rules, Access Management]
+breadcrumb: [Explore Access Control Lists, Access Control Lists, Access Management]
 ---
 
 # ACL control of function fields

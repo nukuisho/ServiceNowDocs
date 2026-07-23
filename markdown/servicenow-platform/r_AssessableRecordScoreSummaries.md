@@ -2,6 +2,7 @@
 title: Assessable record score summaries
 description: Point to a bubble to display a score summary for the assessable record the bubble represents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_AssessableRecordScoreSummaries.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Point to a bubble to display a score summary for the assessable record the bubbl
 
 The summary displays the assessable record's average score for each category in the following order: X-axis category, Y-axis category, Z-axis category. The scores are based on data from the last 12 months.
 
-![Bubble chart score summary](../image/BubbleChartScoreSummary.png "Bubble chart score summary")
+\[Omitted image "BubbleChartScoreSummary.png"\] Alt text: Bubble chart score summary
 
-**Parent Topic:**[View a bubble chart for assessments](../task/t_view-bubble-chart-assessments.md)
+**Parent Topic:**[View a bubble chart for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_view-bubble-chart-assessments.md)
 

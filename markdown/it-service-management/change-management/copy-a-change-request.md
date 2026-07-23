@@ -2,11 +2,12 @@
 title: Copy a change request
 description: You can copy details of an active or canceled change request to a new change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/copy-a-change-request.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -35,37 +36,31 @@ New change tasks can be created when a change is copied. If your change record h
 
 1.  Navigate to **Change** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+2.  Open the change request that you want to copy.
 
-2.  Select the change request to be copied.
+3.  Edit values on the newly created change record, as appropriate.
 
-3.  Select the Additional Actions menu icon \(![](../../enterprise-dev-ops/image/additional-actions.png)\) and then select **Copy Change** to copy change request details.
-
-    A preview of the new change record appears with values from the original source change record.
-
-4.  Edit values on the newly created change record, as appropriate.
-
-5.  Click **Submit** to create a new change request record.
+4.  Select **Submit** to create a new change request record.
 
 
 ## What to do next
 
 After an existing change request is copied and a new one created. A user with ITIL role then reviews, approves, implements, and closes the change request as necessary.
 
-In addition, you can [associate CIs](../concept/c_AffectedCIsAndImpactedServices.md#) to the newly created change request.
+In addition, you can [associate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md) to the newly created change request.
 
-**Parent Topic:**[Create a change request](t_CreateAChange.md)
+**Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md)
 
 **Related topics**  
 
 
-[Create a change request from a configuration item \(CI\)](t_CreateAChangeFromACI.md)
+[Create a change request from a configuration item \(CI\)]()
 
-[Create a standard change request from the catalog](t_RaiseNewStdCngeFmTempl.md)
+[Create a standard change request from the catalog]()
 
-[Create a change task](create-a-change-task.md)
+[Create a change task]()
 
-[Unauthorized change request](../concept/unauthorized-change-request.md)
+[Unauthorized change request]()
 
-[Configure ability to copy a change request](configure-copy-change-request.md)
+[Configure ability to copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-copy-change-request.md)
 

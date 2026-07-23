@@ -1,15 +1,16 @@
 ---
-title: Full and delta instance scan initiation
+title: Full and delta instance scans
 description: The full and delta instance scan feature enables ServiceNow administrators and developers to initiate, monitor, and manage instance scans directly from the Scan Results list view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-parallel-processing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Scan Engine, Platform Health, Using Impact, Impact]
+reading_time_minutes: 4
+breadcrumb: [Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
-# Full and delta instance scan initiation
+# Full and delta instance scans
 
 The full and delta instance scan feature enables ServiceNow administrators and developers to initiate, monitor, and manage instance scans directly from the Scan Results list view.
 
@@ -33,8 +34,8 @@ Users gain visibility into whether their scan was initiated, queued, or blocked 
 Full and Delta scan supports update set scans and application scope scans. The Scan Engine enforces specific concurrency rules to protect instance performance and manage resource allocation:
 
 -   **First scan behavior:** If the instance does not have any prior full scan, selecting **Initiate Scan** triggers a Full Instance Scan. Consecutive scans will be Delta Instance Scans.
+-   **In-progress alerts:** If a scan is already in progress, attempting to initiate another scan displays an alert: "Cannot initiate a delta scan while another scan is in progress. Wait for the current scan to complete or use Force Full Scan to override."
 -   **Full Instance Scan blocking:** Only one Full Instance Scan can run at a time. The system prevents parallel full scans to avoid excessive resource load. Additional full scan requests are blocked with an alert message.
--   **In-progress alerts:** If a scan is already in progress, attempting to initiate another scan displays an alert: "Cannot initiate a delta scan while another scan is in progress. Please wait for the current scan to complete or use Force Full Scan to override."
 -   **Force Full Scan override:** Administrators can use the **Force Full Scan** button to cancel the current scan and immediately start a new Full Instance Scan. The current scan is cancelled automatically, and the new full scan is initiated.
 -   **Parallel scan allowance:** While certain scans run, Update Set Scans and Application Scans can still execute concurrently without blocking.
 -   **Scan status visibility:** Users can see scan states in real-time on the Scan Results list view, including "Getting ready," "Complete," and "Cancelled" status indicators.
@@ -43,9 +44,9 @@ Full and Delta scan supports update set scans and application scope scans. The S
 
 The system provides contextual notifications and visual indicators to keep users informed:
 
--   **Scan triggered message:** When a scan is successfully initiated, users see: "A new scan has been triggered and it will take a moment to reflect in the queue. Please refresh the page for the latest scan results."
--   **Scan in progress alert:** When attempting to initiate a scan while one is already running, an alert displays: "Cannot initiate a delta scan while another scan is in progress. Please wait for the current scan to complete or use Force Full Scan to override."
--   **Trigger Scan modal:** When using Force Full Scan while a Delta Scan is in progress, a confirmation modal appears with the title "Trigger Scan" and message: "A Delta Scan is currently in progress. Do you want to cancel the ongoing Delta Scan and start a Full Scan instead?" Users can select **OK** to proceed or **Cancel** to abort.
+-   **Scan triggered message:** When a scan is successfully initiated, users see: "A new scan has been triggered and it will take a moment to reflect in the queue. Refresh the page for the latest scan results."
+-   **Scan in progress alert:** When attempting to initiate a scan while one is already running, an alert displays: "Cannot initiate a delta scan while another scan is in progress. Wait for the current scan to complete or use Force Full Scan to override."
+-   **Trigger Scan modal:** When using Force Full Scan while a Delta Scan is in progress, a confirmation modal appears with the title "Trigger Scan" and message: "A Delta Scan is currently in progress. Do you want to cancel the ongoing Delta Scan and start a Full Scan instead?" Users can select **OK** to proceed or **Cancel** to terminate.
 -   **Real-time updates:** The Scan Results list view displays scan metadata including Number \(PSR\#\), Start Time, Scan Type \(Full Instance Scan, Delta Instance Scan, On Demand Instance Scan\), Status, and Scan Engine Score.
 
 **Note:** Users must refresh the page to see the latest scan status updates in the queue.
@@ -61,10 +62,12 @@ Scan initiation capabilities are determined by user roles:
 |Scan User|No scan initiation buttons \(view only\)|
 |Read User|No scan initiation buttons \(view only\)|
 
-**Note:** See [Roles installed with Impact](../reference/impact-roles.md) for additional information on user roles.
+**Note:** See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-roles.md) for additional information on user roles.
+
+**Parent Topic:**[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md)
 
 **Related topics**  
 
 
-[Initiating parallel scans](../task/scan-engine-parallel-processing-task.md)
+[Initiate and manage scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-manage-scan-engine.md)
 

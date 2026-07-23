@@ -2,6 +2,7 @@
 title: Set up a category
 description: A category represents a theme for evaluating a specific element of the quiz topic and contains questions pertaining to that theme.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_SetUpACategory.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,31 +22,31 @@ Role required: none
 
 When you create a quiz, the system creates a default category with the name of the quiz. You can use this category, modify it, or create additional categories as needed. Categories are records in the **Quiz view** of the Metric Category table.
 
-Categories have [weighting values](../concept/c_AssessmentMetrics.md) that contribute to the overall score for the quiz. By default, all categories are given a weighting value of 10. You can assign any weight to your categories. To have any results, a category must contain scored questions.
+Categories have [weighting values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md) that contribute to the overall score for the quiz. By default, all categories are given a weighting value of 10. You can assign any weight to your categories. To have any results, a category must contain scored questions.
 
 ## Procedure
 
 1.  You can create a new category or edit an existing one from the **Metric Categories** related list of a quiz record.
 
-    ![Metric categories related list](../images/Metric_Categories_Related_List.png)
+    \[Omitted image "Metric\_Categories\_Related\_List.png"\] Alt text: Metric categories related list
 
 
-**Parent Topic:**[Create quizzes with forms](../concept/c_CreateQuizzesWithForms.md)
+**Parent Topic:**[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
 
 **Related topics**  
 
 
-[Create quizzes with forms](../concept/c_CreateQuizzesWithForms.md)
+[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
 
-[Create a quiz](t_CreateaQuiz.md)
+[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
 
-[Select a user for a category](t_SelectAUserForACategory.md)
+[Select a user for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SelectAUserForACategory.md)
 
-[Data types for quizzes](../reference/r_AvailableDataTypes.md)
+[Data types for quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AvailableDataTypes.md)
 
-[Change the order of an answer](t_ChangeTheOrderOfAnAnswer.md)
+[Change the order of an answer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ChangeTheOrderOfAnAnswer.md)
 
-[Distribute a quiz](t_DistributeAQuiz.md)
+[Distribute a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DistributeAQuiz.md)
 
-[Modify a published quiz](t_ModifyAPublishedQuiz.md)
+[Modify a published quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifyAPublishedQuiz.md)
 

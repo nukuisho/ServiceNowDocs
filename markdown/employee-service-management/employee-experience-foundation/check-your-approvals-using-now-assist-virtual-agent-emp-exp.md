@@ -2,6 +2,7 @@
 title: Check your approvals by using Now Assist in Virtual Agent
 description: Check the approvals that are assigned to you by using the Now Assist in Virtual Agent AI chat window. By checking your approvals before you begin your tasks, you avoid working on tasks that weren't approved and focus on what needs to be done.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/check-your-approvals-using-now-assist-virtual-agent-emp-exp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,11 +34,11 @@ Role required: None
 
     To check your to-do approvals, you can enter instructions like `Show my approvals`, `Show my pending approvals`, or `Show me my approvals due today/due this week/due later/due soon`.
 
-    ![Now Assist for Employee Experience welcome message.](../images/uex-nowassist-startmsg.png)
+    \[Omitted image "uex-nowassist-startmsg.png"\] Alt text: Now Assist for Employee Experience welcome message.
 
 4.  View the list of approvals, under the To-do approvals, by selecting **Start**.
 
-    ![Now Assist in Virtual Agent To-do approvals](../images/uex-nowassist-showmyappr.png)
+    \[Omitted image "uex-nowassist-showmyappr.png"\] Alt text: Now Assist in Virtual Agent To-do approvals
 
 5.  View the list of pending approvals in detail by selecting **Task Center** in the response.
 
@@ -54,16 +55,16 @@ Role required: None
 10. End the chat by selecting **End chat**.
 
 
-**Parent Topic:**[Using Now Assist for Employee Experience](../concept/use-now-assist-for-emp-exp.md)
+**Parent Topic:**[Using Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
 
 **Related topics**  
 
 
-[Check your to-do tasks by using the Now Assist in Virtual Agent](check-todo-tasks-using-the-now-assist-virtual-agent.md)
+[Check your to-do tasks by using the Now Assist in Virtual Agent]()
 
-[Check company news and events](check-company-news-using-nowassist-va.md)
+[Check company news and events]()
 
-[View summarization for approvals](view-summarization-approvals.md)
+[View summarization for approvals]()
 
-[Manage approvals with Now Assist Approval Assistance AI agent](manage-approvals-with-approvals-agent.md)
+[Manage approvals with Now Assist Approval Assistance AI agent]()
 

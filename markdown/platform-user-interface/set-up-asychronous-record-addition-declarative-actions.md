@@ -2,6 +2,7 @@
 title: Configure modal background loading
 description: Configure a modal to load large selections of records added to a related list in the background.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-asychronous-record-addition-declarative-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -78,13 +79,13 @@ Declarative actions take higher precedence than system properties.
 
 When you select any number of records beyond the threshold, a notification informs you that the records will load in the background.
 
-![MRA notification 1](../image/y-mra-notification-1.png)
+\[Omitted image "y-mra-notification-1.png"\] Alt text: MRA notification 1
 
 When you add the selected records, the modal closes, and a notification confirms that the records are loading in the background.
 
-![MRA notification 2](../image/y-mra-notification-2.png)
+\[Omitted image "y-mra-notification-2.png"\] Alt text: MRA notification 2
 
 After the records are added, a notification informs you that the records were added successfully.
 
-![MRA notification 3](../image/y-mra-notification-3.png)
+\[Omitted image "y-mra-notification-3.png"\] Alt text: MRA notification 3
 

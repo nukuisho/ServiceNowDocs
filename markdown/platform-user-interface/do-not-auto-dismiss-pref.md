@@ -2,18 +2,19 @@
 title: Do not auto-dismiss page alerts preference
 description: Learn more about the Do not auto-dismiss page alerts accessibility preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/do-not-auto-dismiss-pref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure accessibility preferences, Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure accessibility preferences, Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Do not auto-dismiss page alerts preference
 
 Learn more about the Do not auto-dismiss page alerts accessibility preference.
 
-![Do not auto-dismiss page alerts accessibility preference.](../image/coral-pref-auto-dismiss.png)
+\[Omitted image "coral-pref-auto-dismiss.png"\] Alt text: Do not auto-dismiss page alerts accessibility preference.
 
 The purpose of this preference is to verify users are aware of critical information and can take necessary actions.
 

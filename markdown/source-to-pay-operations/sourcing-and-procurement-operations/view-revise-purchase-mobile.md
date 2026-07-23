@@ -2,6 +2,7 @@
 title: View and revise your purchase from your mobile device
 description: View all the purchases you made from your shopping account, view their status, and revise your purchases from your mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/view-revise-purchase-mobile.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -36,18 +37,18 @@ Role required: sn\_shop.shopper
     |**Revise purchase**|Tap the Actions icon to revise your purchase. On the **Revise purchase** screen, enter the revised quantity and delivery location, and tap the Next icon.|
 
 
-**Parent Topic:**[Using Shopping Hub Mobile](../concept/using-sh-mobile.md)
+**Parent Topic:**[Using Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-sh-mobile.md)
 
 **Related topics**  
 
 
-[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+[Shopper to-dos on your mobile]()
 
-[Display My Purchases on your mobile instance](display-my-purchases-on-mobile.md)
+[Display My Purchases on your mobile instance]()
 
-[Shopping Hub Mobile](../concept/shoppinghub-mobile.md)
+[Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-mobile.md)
 
-[My purchases on Shopping Hub](../concept/my-purchases.md)
+[My purchases on Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/my-purchases.md)
 
-[Display My Purchases on your mobile instance](display-my-purchases-on-mobile.md)
+[Display My Purchases on your mobile instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/display-my-purchases-on-mobile.md)
 

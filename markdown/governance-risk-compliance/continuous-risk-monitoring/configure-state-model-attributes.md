@@ -2,13 +2,14 @@
 title: Add existing attributes to a GRC workflow state
 description: Add existing Governance, Risk, and Compliance state model attributes to add special capabilities to workflow steps without custom code. Attributes control features like approval requirements, report generation, and Open Security Controls Assessment Language \(OSCAL\) file exports for specific workflow states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/configure-state-model-attributes.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [GRC state model configuration, CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [GRC state model configuration, CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Add existing attributes to a GRC workflow state
@@ -41,7 +42,7 @@ In addition, you get the following UI page attributes:
 -   Required Overlay Page: Displays the Overlays UI page
 -   Required Authorization Documents Page: Displays the Authorization Documents page
 
-**Note:** To configure state model attributes with the CAM specific attributes, perform the tasks in this topic. To create a new state model attribute, see [Create a new state model attribute](configure-new-state-model-attributes.md).
+**Note:** To configure state model attributes with the CAM specific attributes, perform the tasks in this topic. To create a new state model attribute, see [Create a new state model attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/configure-new-state-model-attributes.md).
 
 Role required: sn\_irm\_cont\_auth.admin
 

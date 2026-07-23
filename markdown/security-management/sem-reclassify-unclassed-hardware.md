@@ -2,6 +2,7 @@
 title: Reclassify unclassed hardware
 description: Reclassify unclassed hardware by updating the lookup rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-reclassify-unclassed-hardware.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -77,5 +78,5 @@ If the Identification and Reconciliation engine \(IRE\) is activated, the reclas
     **Note:** For Rapid7, the CI Lookup method is set to Field matching for FQDN and Hostname, which helps to prevent it from using the script.
 
 
-**Parent Topic:**[Using Unified Security Exposure Management](../../security-exposure-management-workspace/concept/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
 

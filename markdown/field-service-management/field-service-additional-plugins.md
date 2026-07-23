@@ -2,10 +2,11 @@
 title: Additional plugins for Field Service Management
 description: After Field Service Management is activated, you can activate additional plugins that provide demo data and enable a variety of features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-additional-plugins.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Activate, Configure, Field Service Management]
 ---
 
@@ -65,7 +66,7 @@ Field Services Integration with Project Management. This plugin activates the Pr
 
 </td></tr><tr><td>
 
-Field Service with Project Management Demo Data
+Field Service with Project Management Demo
 
 </td><td>
 
@@ -77,7 +78,7 @@ Demo plugin for the Field Services Integration with Project Management.
 
 </td></tr><tr><td>
 
-Field Service with Service Locations
+Field Service with Service Locations support
 
 </td><td>
 
@@ -101,7 +102,7 @@ Enables customers to receive SMS notification to know the status of their work o
 
 </td></tr><tr><td>
 
-Field Service - Contractor Management
+Field Service Contractor Management
 
 </td><td>
 
@@ -177,7 +178,7 @@ Field Service Virtual Agent Conversations
 
 </td><td>
 
-com.sn\_fsm.virtualagent
+sn\_fsm\_va
 
 </td><td>
 
@@ -265,11 +266,11 @@ com.snc.fsm\_advanced\_parts\_sourcing
 
 </td><td>
 
-Enables Field Service agents to request and source multiple parts. Agents can receive mobile notifications when part requests are raised by their peers. **Note:** This plugin installs several system components such as tables, business rules, and scripts. For more information, see [Advanced Part Sourcing components](advanced-part-souring-components.md).
+Enables Field Service agents to request and source multiple parts. Agents can receive mobile notifications when part requests are raised by their peers. **Note:** This plugin installs several system components such as tables, business rules, and scripts. For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-part-souring-components.md).
 
 </td></tr><tr><td>
 
-Template Management for Field Service Management
+Template Management for Field Service
 
 </td><td>
 
@@ -285,7 +286,7 @@ Customer Service Install Base Management
 
 </td><td>
 
-com.snc.install\_base
+sn\_install\_base
 
 </td><td>
 
@@ -297,7 +298,7 @@ Process Mining Content Pack for FSM
 
 </td><td>
 
-com.snc.fsm\_process\_optimization
+sn\_fsm\_po
 
 </td><td>
 
@@ -363,9 +364,45 @@ com.sn\_shn
 
 Enables users to quickly view important information about records.
 
+</td></tr><tr><td>
+
+Site Mapping for Field Service Management
+
+</td><td>
+
+sn\_fsm\_site\_map
+
+</td><td>
+
+Enables visual site maps within Field Service Management so agents and dispatchers can navigate locations within a facility.
+
+</td></tr><tr><td>
+
+Smart Assessment for Field Service Questionnaire
+
+</td><td>
+
+sn\_fsm\_smart\_asmt
+
+</td><td>
+
+Enables AI-powered smart assessments within field service questionnaires. Requires a separate subscription.
+
+</td></tr><tr><td>
+
+Sidebar for Field Service Mobile Agent
+
+</td><td>
+
+sn\_fsm\_sidebar
+
+</td><td>
+
+Activates the Sidebar AI feature on the Field Service Mobile Agent application.
+
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
 

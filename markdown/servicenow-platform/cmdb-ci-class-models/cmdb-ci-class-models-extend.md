@@ -2,6 +2,7 @@
 title: Extend classes and rules for third-party integrations
 description: Extend and update CMDB CI Class Models app classes and rules when using third-party integration tools.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-extend.html
 release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -17,7 +18,7 @@ Extend and update CMDB CI Class Models app classes and rules when using third-pa
 
 When using a third-party tool to integrate with ServiceNow apps, gaps can occur between the integration and different CIs. Some of the integrated tables and classes may be missing classes and rules that are not included with the CMDB CI Class Models store app.
 
-See the [full release notes for all CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufE1FMlVTSFREVDc3S0hTfDMzNDcxMjV8U1VCU0NSSVBUSU9OU3xoSw).
+See the release notes for all CMDB CI class models.
 
 This section lists the classes that the CMDB CI Class Models app adds or updates. The classes and rules in the following table enable you to add and extend the CMDB CI Class Models store app for integrations.
 
@@ -200,10 +201,10 @@ Related Entries \(cmdb\_related\_entry\):
 -   Referenced field: configuration\_item
 
 </td></tr></tbody>
-</table>For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+</table>For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 **Related topics**  
 
 
-[CMDB schema model](c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

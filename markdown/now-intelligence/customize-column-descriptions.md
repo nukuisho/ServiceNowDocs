@@ -2,6 +2,7 @@
 title: Customize column descriptions and usage instructions
 description: Create custom column descriptions and usage instructions in the Semantic Column Configuration table so that customizations can be transferred between instances via update sets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/customize-column-descriptions.html
 release: australia
 topic_type: task
 last_updated: "2026-04-17"
@@ -49,7 +50,7 @@ Use column configuration when you want to provide custom descriptions, add usage
 
 ## Result
 
-The custom column configuration is active and will be used by Query Generation when processing queries that involve this column. Because this customization is stored in the Semantic Column Configuration table, it can be included in an update set and transferred to other instances. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+The custom column configuration is active and will be used by Query Generation when processing queries that involve this column. Because this customization is stored in the Semantic Column Configuration table, it can be included in an update set and transferred to other instances. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets.md).
 
 ## Column configurations
 
@@ -65,5 +66,5 @@ The following examples show effective column descriptions and usage instructions
 
 Test your column configuration by asking questions that involve this field in Query Generation and verifying that the correct filters are generated.
 
-**Parent Topic:**[Customizing semantic metadata](../concept/customize-semantic-metadata.md)
+**Parent Topic:**[Customizing semantic metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/customize-semantic-metadata.md)
 

@@ -2,6 +2,7 @@
 title: Organization Chart widget
 description: The Organization Chart widget shows employees in a tree structure relative to their manager. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/org-chart-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -19,7 +20,7 @@ The Organization Chart widget shows employees in a tree structure relative to th
 
 In the text input field, enter or select a user to see their manager and subordinates. The widget uses information from the User \[sys\_user\] record to display the organization hierarchy relative to the selected user.
 
-![Organization Chart widget with David Loo selected and Bud Richman showing in the chart as David's manager. David is Alissa's manager.](../image/WidgetOrgChart.png)
+\[Omitted image "WidgetOrgChart.png"\] Alt text: Organization Chart widget with David Loo selected and Bud Richman showing in the chart as David's manager. David is Alissa's manager.
 
 Click a card to open the profile page for that user. To reconfigure the card link, change the **URL** or **Page** in the widget instance options.
 
@@ -72,7 +73,7 @@ User Background Color
 
 Color of the user card. Use color names or Hex codes. For example, you can enter `red` or `#ff0000`.
 
- ![User background color is red](../image/user-background-color.png)
+ \[Omitted image "user-background-color.png"\] Alt text: User background color is red
 
  The user background color is **lightblue** by default.
 
@@ -84,7 +85,7 @@ Node Background Color
 
 Color of cards that extend from the user card. Use color names or Hex codes. For example, you can enter `yellow` or `#ffff00`.
 
- ![Node background color is yellow](../image/node-background-color.png)
+ \[Omitted image "node-background-color.png"\] Alt text: Node background color is yellow
 
  The node background color is **azure** by default.
 
@@ -165,14 +166,14 @@ Portal page that opens when you click a card. Use the page ID.
  **Note:** The **URL** field overwrites the **Page** field. To specify a page rather than a URL, leave the **URL** field blank.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Example widgets](sp-example-widgets.md)
+</table>**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

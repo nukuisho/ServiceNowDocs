@@ -2,13 +2,14 @@
 title: Request SaaS License Management
 description: Request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) so that you can create and manage integrations with your SaaS and Single Sign-on \(SSO\) applications. You can use these integrations to track license usage and to reclaim unused licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/request-saas-license-management.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request SaaS License Management
@@ -17,7 +18,7 @@ Request the Software Asset Management - SaaS License Management plugin \(sn\_sam
 
 ## Before you begin
 
-Activate the ServiceNow Software Asset Management Professional plugin \(com.snc.samp\) on your ServiceNow instance. For more information on how to request and activate the Software Asset Management Professional plugin \(com.snc.samp\), see [Request Software Asset Management](t_RequSoftwareAssetMgmt.md).
+Activate the ServiceNow Software Asset Management Professional plugin \(com.snc.samp\) on your ServiceNow instance. For more information on how to request and activate the Software Asset Management Professional plugin \(com.snc.samp\), see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 Role required: admin
 
@@ -61,53 +62,53 @@ Install the plugin according to the instructions from the email.
 
 Navigate to **All** &gt; **Admin Center** &gt; **Application Manager**. On the Application Manager page, search for and select **Software Asset Management - SaaS License Management**.
 
-After the application is installed and ready for use, you can choose the required SaaS applications that you need by selecting **Install optional features** on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) page.
+After the application is installed and ready for use, you can choose the required SaaS applications that you need by selecting **Install optional features** on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md) page.
 
 You can see the primary features and the list of optional features that you can select in the Review Installation Details dialog box. If you haven't selected any optional features, you would get the base system features of this application.
 
-![SaaS License Management installation details review.](../image/review-saas-install-details.png)
+\[Omitted image "review-saas-install-details.png"\] Alt text: SaaS License Management installation details review.
 
 After you select the optional features, select **Install**. You can initiate or schedule the installation process by selecting **Install now** or **Install later**. View the installation progress and you’ll get a success message after the installation is complete.
 
--   **[Installed with SaaS License Management](../reference/installed-with-saas.md)**  
+-   **[Installed with SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/installed-with-saas.md)**  
 User roles and tables are installed with SaaS License Management. Demo data is available for the Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) plugin.
 
-**Parent Topic:**[SaaS License Management](../concept/sam-subscription-management.md)
+**Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/sam-subscription-management.md)
 
 **Related topics**  
 
 
-[SaaS License Management setup for large companies](../concept/saas-setup-large-companies.md)
+[SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard](../concept/saas-overview-dashboard.md)
+[SaaS Overview dashboard]()
 
-[Integrate with SaaS applications](../concept/create-integration-profile.md)
+[Integrate with SaaS applications]()
 
-[Integrate with SSO providers](../concept/saas-sso-integration.md)
+[Integrate with SSO providers]()
 
-[Playbook for SaaS integrations](../concept/playbook-saas-integrations.md)
+[Playbook for SaaS integrations]()
 
-[Viewing your SaaS and SSO subscriptions](../concept/usage-summary-saas.md)
+[Viewing your SaaS and SSO subscriptions]()
 
-[Review a software reclamation rule](add-reclamation-rule-sub.md)
+[Review a software reclamation rule]()
 
-[Reclaiming user subscriptions](../concept/reclaiming-user-subscriptions-saas.md)
+[Reclaiming user subscriptions]()
 
-[Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md)
+[Create a child alias to set up multiple integration profiles]()
 
-[Create a child alias to set up multiple Cisco Webex integration profiles](create-child-alias-webex.md)
+[Create a child alias to set up multiple Cisco Webex integration profiles]()
 
-[Create a child alias to set up multiple Confluence Cloud integration profiles](create-child-alias-confluence.md)
+[Create a child alias to set up multiple Confluence Cloud integration profiles]()
 
-[Create a child alias to set up multiple Jira integration profiles](create-child-alias-jira.md)
+[Create a child alias to set up multiple Jira integration profiles]()
 
-[Associate a user with subscription records](map-user-data.md)
+[Associate a user with subscription records]()
 
-[Disconnect SSO apps](disconnect-azure-ad-apps.md)
+[Disconnect SSO apps]()
 
-[Delete an integration profile](../concept/delete-saas-integration.md)
+[Delete an integration profile]()
 
-[Subscription identifiers for SaaS and SSO applications](../concept/subscription-identifiers.md#)
+[Subscription identifiers for SaaS and SSO applications]()
 
-[Subscription exclusions for SaaS and SSO applications](../concept/subscription-exclusions.md#)
+[Subscription exclusions for SaaS and SSO applications]()
 

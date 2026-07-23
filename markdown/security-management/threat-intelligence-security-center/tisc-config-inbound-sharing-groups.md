@@ -2,6 +2,7 @@
 title: Configuring Outbound Intel Sharing Groups
 description: Outbound Intel Sharing Groups allow you to combine multiple profiles and use them collectively when sharing data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-config-inbound-sharing-groups.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -58,20 +59,20 @@ Role required: sn\_sec\_tisc.admin
     **Note:** An information message is displayed indicating that the selected outbound intelligence profile\(s\) have been added or removed to this group. This message is displayed with the respect to the action either Add or Remove you select.
 
 
-**Parent Topic:**[Exploring Outbound Intel Sharing](../concept/tisc-outbound-intel-sharing.md)
+**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
 
 **Related topics**  
 
 
-[Configuring Outbound Intel Sharing Controls](tisc-outbound-sharing.md)
+[Configuring Outbound Intel Sharing Controls]()
 
-[Configuring Outbound Intel Data Exclusion Rule](tisc-outbound-data-exclusion.md)
+[Configuring Outbound Intel Data Exclusion Rule]()
 
-[Configuring Outbound Intel Sharing Profiles](tisc-outbound-sharing-profiles.md)
+[Configuring Outbound Intel Sharing Profiles]()
 
-[Defining Approval Rule for Outbound Intel](tisc-approval-outbound-intel.md)
+[Defining Approval Rule for Outbound Intel]()
 
-[Configuring Outbound Intel Sharing Templates](tisc-intel-sharing-templates.md)
+[Configuring Outbound Intel Sharing Templates]()
 
-[Working on the Redaction Library](tisc-redaction-library.md)
+[Working on the Redaction Library]()
 

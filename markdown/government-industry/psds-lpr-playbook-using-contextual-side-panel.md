@@ -2,6 +2,7 @@
 title: Using the contextual side panel in License and Permit Playbook
 description: The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-lpr-playbook-using-contextual-side-panel.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,15 +30,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Record information icon ![Record information icon](../../customer-service-management/image/contextual-side-panel-record-info.jpg)
+Record information icon \[Omitted image "contextual-side-panel-record-info.png"\] Alt text: Record information icon
 
 </td><td>
 
-Relevant information about a record. In License and Permit Playbook, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [Viewing the ribbon information in License and Permit Playbook](psds-lpr-playbook-viewing-ribbon.md).
+Relevant information about a record. In License and Permit Playbook, the ribbon displays the record information, constituent details, the case timeline, and the active and inactive service level agreements \(SLAs\). For more information on how to view information about the ribbon in playbooks, see [Viewing the ribbon information in License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-lpr-playbook-viewing-ribbon.md).
 
 </td></tr><tr><td>
 
-Activity stream icon ![Activity stream icon](../image/activity-stream-icon.png)
+Activity stream icon \[Omitted image "activity-stream-icon.png"\] Alt text: Activity stream icon
 
 </td><td>
 
@@ -45,7 +46,7 @@ Ability for you to communicate with requesters and make internal notes about the
 
 </td></tr><tr><td>
 
-Attachments icon \(![Attachments icon](../image/attachments-icon.png)\)
+Attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachments icon\)
 
 </td><td>
 
@@ -53,7 +54,7 @@ Ability for you to attach knowledge base content to a response to the requester 
 
 </td></tr><tr><td>
 
-Dynamic Related Records icon \(![Dynamic Related Records icon](../image/checklist-icon.png)\)
+Dynamic Related Records icon \(\[Omitted image "checklist-icon.png"\] Alt text: Dynamic Related Records icon\)
 
 </td><td>
 
@@ -61,7 +62,7 @@ Related records in the contextual side panel that dynamically change based on th
 
 </td></tr><tr><td>
 
-Email template icon \(![Email template icon](../image/email-template-icon.png)\)
+Email template icon \(\[Omitted image "email-template-icon.png"\] Alt text: Email template icon\)
 
 </td><td>
 
@@ -69,11 +70,11 @@ Reusable content for the subject line and message body of email notifications.
 
 </td></tr><tr><td>
 
-Template icon \(![Templates icon](../image/template-icon-2.png)\)
+Template icon \(\[Omitted image "template-icon-2.png"\] Alt text: Templates icon\)
 
 </td><td>
 
-Standard content that is related to resolving the issue. To create a template, select the template icon ![Create template icon.](../image/create-icon.png).
+Standard content that is related to resolving the issue. To create a template, select the template icon \[Omitted image "create-icon.png"\] Alt text: Create template icon..
 
 </td></tr></tbody>
 </table>

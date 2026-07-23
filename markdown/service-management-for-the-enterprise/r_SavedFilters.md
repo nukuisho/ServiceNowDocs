@@ -2,6 +2,7 @@
 title: Saved filters
 description: A saved filter allows advanced filtering when you want to highlight spaces, based on conditions not supported by a simple filter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_SavedFilters.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,14 +16,14 @@ A saved filter allows advanced filtering when you want to highlight spaces, base
 
 You can set a filter showing all the printers on a map and share that filter with other users. Private filters can be saved without sharing those filters with others.
 
-![Used to filter what you want to see on a facilities map.](../image/SavedFilter.png "Facilities map filter")
+\[Omitted image "SavedFilter.png"\] Alt text: Used to filter what you want to see on a facilities map.
 
-**Parent Topic:**[Map filters](r_MapFilters.md)
+**Parent Topic:**[Map filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_MapFilters.md)
 
 **Related topics**  
 
 
-[Simple filters](r_SimpleFilters.md)
+[Simple filters]()
 
-[Create a map filter in Facilities Service Management](../task/t_CreateAMapFilter.md)
+[Create a map filter in Facilities Service Management]()
 

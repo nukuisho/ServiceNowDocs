@@ -2,12 +2,13 @@
 title: Agent Client Collector check definition page
 description: The fields to be configured on the Check Definition page, when creating a check definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/check-definition-form.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
@@ -122,6 +123,14 @@ When upgrading to version 2.9.0, if this field is read-only, ensure that you dis
 
 </td></tr><tr><td>
 
+Interval-based scheduling
+
+</td><td>
+
+
+
+</td></tr><tr><td>
+
 Interval
 
 </td><td>
@@ -129,6 +138,26 @@ Interval
 The amount of time, in seconds, to wait between check executions.For example, a value of 60 means that the check runs every 60 seconds.
 
  Specified value must be an integer.
+
+</td></tr><tr><td>
+
+Cron-based scheduling
+
+</td><td>
+
+In the **How to send the check results** field, select the frequency with which check results are to be sent.-   When event severity changes \(default for event checks\)
+-   Always send check results \(default for non-event checks\)
+-   Do not send check results
+-   When the check results change
+-   \(Advanced\) Based on exit codes of the check: Send results only if the exit code is 240 \(OK\), 241 \(Warning\), or 242 \(Critical\). However, if the command output is empty, then even if one of these codes are part of the exit code, check results are not sent.
+
+</td></tr><tr><td>
+
+When to send the check results
+
+</td><td>
+
+
 
 </td></tr><tr><td>
 
@@ -177,10 +206,10 @@ Plugins
 Select the plugins to be associated with the check. Once this is done, the plugins download before the check executes.
 
 </td></tr></tbody>
-</table>-   **[Check definition form parameters tab](check-definition-parameters-tab.md)**  
+</table>-   **[Check definition form parameters tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/check-definition-parameters-tab.md)**  
 The Parameters tab definitions for the **Command** field on the check definition form.
--   **[Test check dialog box fields](test-check-dialog-box.md)**  
+-   **[Test check dialog box fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/test-check-dialog-box.md)**  
 The dialog box fields when testing a check definition.
 
-**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

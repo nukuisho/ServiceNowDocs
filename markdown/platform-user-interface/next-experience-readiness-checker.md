@@ -2,6 +2,7 @@
 title: Next Experience Readiness Checker
 description: The Next Experience Readiness Checker assists users with deciding whether to turn on Next Experience after an upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-readiness-checker.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ To access the Next Experience Readiness Checker, navigate to **Now Experience Fr
 
 ## Results
 
-![Next Experience Readiness Checker overview.](../image/next-exp-readiness-checker.png) The Next Experience Readiness Checker results section displays the application cards for each of the applications that are checked for compatibility with Next Experience. The applications that are checked are as follows.
+\[Omitted image "next-exp-readiness-checker.png"\] Alt text: Next Experience Readiness Checker overview. The Next Experience Readiness Checker results section displays the application cards for each of the applications that are checked for compatibility with Next Experience. The applications that are checked are as follows.
 
 -   Guided Tours
 -   Connect Chat
@@ -39,9 +40,9 @@ The Next Experience Readiness Checker tool calls out the current version of your
 
 **Note:** These section options are dynamic based on the current instance version that you’re running. If applications are available for your version, links to the documentation are provided.
 
-The compatibility scan examines your instance for usage of applications that aren’t compatible with Next Experience. Usages instances are displayed after running the scan, and shows the number of usages for each application. You can select the **View usage list** link to navigate to a list of the usage records for your application. You can perform list capabilities such as creating favorites or grouping records.![Next Experience Readiness Checker usage instances.](../image/next-exp-readiness-checker.png)
+The compatibility scan examines your instance for usage of applications that aren’t compatible with Next Experience. Usages instances are displayed after running the scan, and shows the number of usages for each application. You can select the **View usage list** link to navigate to a list of the usage records for your application. You can perform list capabilities such as creating favorites or grouping records.\[Omitted image "next-exp-readiness-checker.png"\] Alt text: Next Experience Readiness Checker usage instances.
 
 If there are no errors, select the **Turn on Next Experience** button to enable Next Experience.
 
-**Parent Topic:**[Configuring the Next Experience UI](next-experience-ui-admin.md)
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-ui-admin.md)
 

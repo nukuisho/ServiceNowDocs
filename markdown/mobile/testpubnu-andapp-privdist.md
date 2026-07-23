@@ -2,6 +2,7 @@
 title: Test and publish a new branded Android app for private distribution
 description: Learn the next steps to test and publish a new branded Android app for private distribution after you request it in Mobile Publishing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/testpubnu-andapp-privdist.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ After the build successfully completes and your app is ready for testing:
 2.  Select the card for your mobile app build request. The Request details page appears.
 3.  Select the **Android testing file** link and the APK file is downloaded to your local system for testing:
 
-    ![Mobile Publishing UI showing the Android .apk file download link](../image/mob-pub-apk-download-link.png)
+    \[Omitted image "mob-pub-apk-download-link.png"\] Alt text: Mobile Publishing UI showing the Android .apk file download link
 
 4.  Send the APK file to your testers via email so they can open the file on their Android device or in an emulator.
 
@@ -61,7 +62,7 @@ Once the status of your app is **Ready for testing**, you have 90 days to make s
 
 ## 4. Customize your app's workflows
 
-Use Mobile App Builder to customize your app. See [Mobile App Builder](mab-concept.md) for detailed information about how you can customize your branded app.
+Use Mobile App Builder to customize your app. See [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md) for detailed information about how you can customize your branded app.
 
 ## 5. Publish and distribute your app
 
@@ -82,5 +83,5 @@ After you have tested your app, set it up, and customize its workflows, you are 
 
 ## 6. Keep your app updated
 
-Update your app before you update your ServiceNow® family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](../reference/mobile-supported-devices.md).
+Update your app before you update your ServiceNow® family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-supported-devices.md).
 

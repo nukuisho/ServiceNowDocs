@@ -2,6 +2,7 @@
 title: Update a metric definition
 description: Update an existing metric definition to collect the new metrics. You can associate new goals, targets, and entities with the metric definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/update-automated-metric-definition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ You can use the same form for updating the automated metric definition, manual m
 
 3.  To update the metric definition Name field, do the following:
 
-    1.  Select the ![](../../../reuse/icons/product-icons/pencil-page-outline-24.svg) edit icon on the **Name** field.
+    1.  Select the \[Omitted image "pencil-page-outline-24.svg"\] edit icon on the **Name** field.
 
     2.  Update the metric definition name.
 
@@ -151,5 +152,5 @@ Details of the metric definition thresholds, such as threshold type, metric defi
 8.  To visually explore the 360° relationship view of the metric definition, select **360° view**.
 
 
-**Parent Topic:**[Configuring GRC: Metrics](../concept/configuring-grc-metrics.md)
+**Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configuring-grc-metrics.md)
 

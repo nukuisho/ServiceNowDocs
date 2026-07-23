@@ -2,6 +2,7 @@
 title: Architecture Overview
 description: Understand how Workflow Studio works within the ServiceNow AI Platform to activate, trigger, and process flows and actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-designer-arch-overview.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -27,15 +28,15 @@ Flow processing occurs in this sequence.
 4.  The system runs the process plan using the record that triggered the flow.
 5.  The system stores the execution details in a context record.
 
-![Flow processing diagram](../images/build-process-plan.png)
+\[Omitted image "build-process-plan.png"\] Alt text: Flow processing diagram
 
 -   **1. Process flow triggers and API calls**
 
-    Each time trigger conditions are met or an API directly calls a flow, Workflow Studio creates an event entry. The system processes triggers after database operations. To learn more, see [Execution order of scripts and engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_ExecutionOrderScriptsAndEngines.md). Typically, [How business rules work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md) and [Workflow engine operation order](../../using-workflows/concept/c_WorkflowEngineOperationOrder.md#) that run synchronously run before a triggered flow.
+    Each time trigger conditions are met or an API directly calls a flow, Workflow Studio creates an event entry. The system processes triggers after database operations. To learn more, see Execution order of scripts and engines. Typically, How business rules work and [Workflow engine operation order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowEngineOperationOrder.md) that run synchronously run before a triggered flow.
 
 -   **2. Process events in the queue**
 
-    Each flow event contains a reference to the flow to start and a reference to either the triggering record or the execution time. The system processes these events using [Events](../../platform-events/concept/events.md) where a scheduler periodically works through the current items in the event queue in the order in which they were added. Depending on what other events are in the queue, the system may not immediately start a flow. Flow designers should expect some lag time between when the trigger conditions occur and when the flow actually starts.
+    Each flow event contains a reference to the flow to start and a reference to either the triggering record or the execution time. The system processes these events using [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/events.md) where a scheduler periodically works through the current items in the event queue in the order in which they were added. Depending on what other events are in the queue, the system may not immediately start a flow. Flow designers should expect some lag time between when the trigger conditions occur and when the flow actually starts.
 
 -   **3. Build the process plan**
 
@@ -65,7 +66,7 @@ Flow processing occurs in this sequence.
     -   Flow configuration and runtime values
     Each time a flow runs, Workflow Studio adds an entry to the **Flow Executions** list. Each entry has its own context record and matching execution details page.
 
-    **Note:** A flow execution context runs in a single thread. However, there may be times when you want to run flows within separate contexts even though this may consume more of your instance's resources. To run subflows in separate flow contexts within the same flow, see [Dynamic flows](flow-logic-dynamic-flow.md).
+    **Note:** A flow execution context runs in a single thread. However, there may be times when you want to run flows within separate contexts even though this may consume more of your instance's resources. To run subflows in separate flow contexts within the same flow, see [Dynamic flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-dynamic-flow.md).
 
     A flow can have one of these outcome states.
 
@@ -108,7 +109,7 @@ Workflow Studio uses the flow or action status to describe the current state of 
 
     -   **Save** a subflow: Creates a draft of the subflow. If the subflow is modified after being published, the subflow moves into a draft state. Any active flows that use the subflow only run the published subflow.
     -   **Publish** a subflow: Enables you to activate a flow containing the subflow. Publishing adds the subflow to the list of available subflows in a flow.
-    ![Flow life cycle diagram](../images/flow-life-cycle.png)
+    \[Omitted image "flow-life-cycle.png"\] Alt text: Flow life cycle diagram
 
 -   **Action status**
 
@@ -123,7 +124,7 @@ Workflow Studio uses the flow or action status to describe the current state of 
 
     -   **Save** an action: Creates a draft of the action that is only available to flows when **Show draft actions** is enabled. If the action is modified after being published, the action moves into a draft state. Any active flows that use the action only run the published action.
     -   **Publish** an action: Enables you to activate a flow containing the action. Publishing adds the action to the list of available actions in a flow. Only actions in a published state run during flow execution.
-    ![Action life cycle diagram](../images/action-life-cycle.png)
+    \[Omitted image "action-life-cycle.png"\] Alt text: Action life cycle diagram
 
 
 ## Application development
@@ -141,18 +142,18 @@ Use standard ServiceNow AI Platform application development capabilities to crea
 
 Workflow Studio supports collision avoidance. Collision avoidance prevents a user from modifying an object that is being modified in a different update set. For example, User A is editing a flow in a particular update set. User B, who is working in a different update set, attempts to open the same flow. In this situation, the system detects a collision and alerts User B. User B can then choose to either **Cancel** or **Continue**. Selecting **Cancel** takes User B back to the Workflow Studio homepage. Selecting **Continue** opens the flow in read-only mode.
 
-For collision avoidance to work, both users must be in the same application scope, and it must be an application scope other than global. Additionally, the application being modified must be linked to source control. For more information, see [Collision avoidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/collision-avoidance.md).
+For collision avoidance to work, both users must be in the same application scope, and it must be an application scope other than global. Additionally, the application being modified must be linked to source control.
 
 ## Security
 
 Control access to Workflow Studio processes and records.
 
--   Administrators can grant users access to Workflow Studio flows by creating an application and assigning users as developers with the [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md) permission. Delegated development allows administrators to control whether flow designers can access features normally restricted to admin users such as assigning user roles, creating access controls, or creating scripts. For more information, see [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/developer-permissions.md).
+-   Administrators can grant users access to Workflow Studio flows by creating an application and assigning users as developers with the delegated development permission. Delegated development allows administrators to control whether flow designers can access features normally restricted to admin users such as assigning user roles, creating access controls, or creating scripts. For more information, see Developer permissions.
 -   Administrators can grant access to Workflow Studio flows by directly assigning users the flow\_designer user role, which includes the role to view flow execution details.
 
     **Warning:** Directly granting a user the flow\_designer role is equivalent to giving the user the admin role, because Workflow Studio can run flows as the System user, which has access to all tables and all database operations.
 
--   Flow and action designers can use standard [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md) to manage how their content interacts with other applications.
+-   Flow and action designers can use standard Application access settings to manage how their content interacts with other applications.
 
 ## Action limit
 
@@ -183,7 +184,7 @@ By default, the system stops triggering flow runs after the run count reaches th
 
 ## Flow and action testing
 
-Testing a flow bypasses the trigger conditions and immediately runs it. Testing a flow with a record-based trigger requires selecting a specific record to act as the trigger. Flow designers should generate appropriate sample records prior to testing. For more information about testing a flow, see [Test a flow](../task/flow-test.md).
+Testing a flow bypasses the trigger conditions and immediately runs it. Testing a flow with a record-based trigger requires selecting a specific record to act as the trigger. Flow designers should generate appropriate sample records prior to testing. For more information about testing a flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
 
 During the design phase, you can test unpublished actions by setting **Show draft actions** on the flow. If testing with draft actions, use these guidelines.
 

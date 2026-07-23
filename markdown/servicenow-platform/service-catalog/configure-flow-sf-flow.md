@@ -2,6 +2,7 @@
 title: Configure a step-based service fulfillment flow
 description: Define service fulfillment steps while creating a catalog item in Catalog Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configure-flow-sf-flow.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -63,7 +64,7 @@ If your organization has processes to be run before or after the service fulfill
 
     Ensure that the Service Fulfillment Steps base flow subflow is called from this flow.
 
-    For information about creating a flow with Service Catalog trigger type, see [Create a flow with a Service Catalog trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-sc-flow.md).
+    For information about creating a flow with Service Catalog trigger type, see [Create a flow with a Service Catalog trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-sc-flow.md).
 
 2.  Register the flow as service fulfillment flow.
 
@@ -82,5 +83,5 @@ If your organization has processes to be run before or after the service fulfill
     4.  Click **Submit**.
 
 
-**Parent Topic:**[Setting up the Catalog Builder](set-up-cat-builder.md)
+**Parent Topic:**[Setting up the Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/set-up-cat-builder.md)
 

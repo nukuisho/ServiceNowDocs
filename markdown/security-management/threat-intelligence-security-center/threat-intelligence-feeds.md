@@ -2,6 +2,7 @@
 title: Threat Intelligence Feeds
 description: Configure threat intelligence data sources to automatically import security indicators into your ServiceNow instance. Use feeds to keep threat data current and enhance security monitoring capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/threat-intelligence-feeds.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -25,7 +26,7 @@ You can enable and use feeds displayed as cards in the base system.
 
 To view feeds, navigate to **Workspaces** &gt; **Threat Intelligence Security Center** &gt; **Integrations** &gt; **Threat Intel Feeds** &gt; **All Feeds**.
 
-![Threat Intelligence Feeds](../image/tisc-all-feeds.png)
+\[Omitted image "tisc-all-feeds.png"\] Alt text: Threat Intelligence Feeds
 
 ## Actions on the All Feeds view
 
@@ -52,7 +53,7 @@ Filter feeds by current state using this drop-down menu. Available filter states
 
 </td></tr><tr><td>
 
-![Card view](../image/enrich-card-view.png)
+\[Omitted image "enrich-card-view.png"\] Alt text: Card view
 
 </td><td>
 
@@ -60,7 +61,7 @@ View all feeds as cards.
 
 </td></tr><tr><td>
 
-![List view](../image/enrich-list-view.png)
+\[Omitted image "enrich-list-view.png"\] Alt text: List view
 
 </td><td>
 
@@ -68,7 +69,7 @@ View all feeds as a list.
 
 </td></tr><tr><td>
 
-![Refresh](../image/enrich-refresh-icon.png)
+\[Omitted image "enrich-refresh-icon.png"\] Alt text: Refresh
 
 </td><td>
 
@@ -76,7 +77,7 @@ Refresh the page.
 
 </td></tr><tr><td>
 
-![Sort](../image/enrich-sort-icon.png)
+\[Omitted image "enrich-sort-icon.png"\] Alt text: Sort
 
 </td><td>
 
@@ -195,23 +196,23 @@ Feeds configured with custom parsers.**Note:** Only URLs, domains, file names, h
 </td></tr></tbody>
 </table>For configuration steps, refer to the respective topic for your feed type.
 
--   **[Configure a new threat intelligence feed](../task/tisc-new-data-source.md)**  
-Add external threat intelligence sources to your TISC environment. Configure feed parameters, authentication, scheduling, and data processing to automatically ingest threat indicators from various sources.
--   **[Configure Custom Field Mapping](../task/tisc-field-mapping.md)**  
+-   **[Configure a new threat intelligence feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-new-data-source.md)**  
+Configure a new threat intelligence feed.
+-   **[Configure Custom Field Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-field-mapping.md)**  
 Field Mapping allows you to configure how each field in a data feed such as Text, CSV or JSON is interpreted and assigned to the corresponding observable.
--   **[View Threat Intel Feeds](base-system-threat-intel-feeds.md)**  
+-   **[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)**  
 View threat intelligence feeds that automatically imports security data into your TISC ServiceNow instance. This enables real-time threat detection and response capabilities.
--   **[About STIX TAXII](threat-intelligence-security-center-feeds.md)**  
+-   **[About STIX TAXII](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-feeds.md)**  
 Structured Threat Information Expression \(STIX\) is a language and serialization format used to exchange cyberthreat intelligence \(CTI\). Trusted Automated Exchange of Intelligence Information \(TAXII\) is a protocol used to exchange cyberthreat intelligence \(CTI\) over HTTPS.
--   **[Duplicate threat intelligence feeds](../task/tisc-duplicate-feeds.md)**  
+-   **[Duplicate threat intelligence feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.md)**  
 Duplicate a threat feed to create an exact copy with all associated observables, indicators, and actors when you want to modify settings without affecting the original feed.
 
-**Parent Topic:**[Integrate](integrating-threat-intelligence-security-center.md)
+**Parent Topic:**[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/integrating-threat-intelligence-security-center.md)
 
 **Related topics**  
 
 
-[Threat Intelligence Security Center Catalog](threat-intelligence-security-center-catalogue.md)
+[Threat Intelligence Security Center Catalog]()
 
-[TISC Integrations](tisc-integrations.md)
+[TISC Integrations]()
 

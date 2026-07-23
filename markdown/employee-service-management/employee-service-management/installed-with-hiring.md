@@ -6,6 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Hiring Connector components, staging tables, installed components, connector tables]
 ---
 
 # Components installed with Hiring Connector
@@ -73,5 +74,5 @@ Profile link Staging\[sn\_ta\_connector\_profile\_link\_staging\]
 Gathers details of the profile link data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hiring Experiences reference](reference-frmwrk-ta.md)
+</table>**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
 

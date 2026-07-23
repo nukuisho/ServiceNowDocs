@@ -2,6 +2,7 @@
 title: Create a Next Experience Menu Application
 description: Create and configure application menus and modules directly within the All menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-create-menu-application.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **+**.
 
-    ![Arrow pointing the create menu icon in the all menu.](../image/neame-create-menu.png)
+    \[Omitted image "neame-create-menu.png"\] Alt text: Arrow pointing the create menu icon in the all menu.
 
 2.  On the form, fill in the fields.
 
@@ -46,10 +47,10 @@ Role required: admin
 
 Editing the modules you have added using the following links.
 
--   [Dashboard module](next-experience-dashboard-module.md)
--   [List module](next-experience-list-module.md)
--   [New record module](next-experience-new-record-module.md)
--   [Single record module](next-experience-single-record-module.md)
+-   [Dashboard module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-dashboard-module.md)
+-   [List module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-list-module.md)
+-   [New record module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-new-record-module.md)
+-   [Single record module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-single-record-module.md)
 
-**Parent Topic:**[Next Experience All Menu Editing](../concept/next-experience-all-menu-editing.md)
+**Parent Topic:**[Next Experience All Menu Editing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-all-menu-editing.md)
 

@@ -2,6 +2,7 @@
 title: Create a class profile of visible layers for classes
 description: Configure a class profile that specifies which layers should appear for a particular class: application, service instance, business, or infrastructure. For example, you can configure that the mapped application service \(service instance\) \[cmdb\_ci\_service\_discovered\] class should display only Service Mapping data and not infrastructure elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-config-class-profile.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -23,7 +24,7 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings do not affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
+These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings don't affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
 
 Class profiles let you configure the **Layers** filter. Several common classes such as the mapped application service \(service instance\) \[cmdb\_ci\_service\_discovered\] class are preconfigured with class profiles.
 
@@ -83,8 +84,8 @@ Orientation
 
 </td><td>
 
--   Vertical layout: Displays nodes in a vertical tree pattern: upstream relationships top and downstream bottom. This is the default layout for displaying mapped application services and service instances. In the toolbox, select the Vertical layout icon ![](../image/icon-um-vertical-layout.png).
--   Force layout: Displays nodes in a clustered arrangement around the home node, regardless of upstream or downstream relationships. In the toolbox, select the Force layout icon ![](../image/icon-um-force-layout.png).
+-   Vertical layout: Displays nodes in a vertical tree pattern: upstream relationships top and downstream bottom. This is the default layout for displaying mapped application services and service instances. In the toolbox, select the Vertical layout icon \[Omitted image "icon-um-vertical-layout.png"\].
+-   Force layout: Displays nodes in a clustered arrangement around the home node, regardless of upstream or downstream relationships. In the toolbox, select the Force layout icon \[Omitted image "icon-um-force-layout.png"\].
 
 
 </td></tr><tr><td>
@@ -106,13 +107,13 @@ Option to set the profile as available for use.
 </td></tr></tbody>
 </table>3.  Select **Submit** or **Update**.
 
-    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](../concept/administer-unified-map.md).
+    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md).
 
 
-**Parent Topic:**[Configuring Unified Map — admin settings](../concept/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md)
 
 **Related topics**  
 
 
-[Create or manage a user preset](unified-map-manage-preset-filter.md)
+[Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-manage-preset-filter.md)
 

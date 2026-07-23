@@ -1,7 +1,8 @@
 ---
-title: Activate Field Service Capacity console
+title: Activate Field Service Advanced Capacity and Reservations management
 description: You can activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -11,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---
 
-# ActivateField Service Capacity console
+# ActivateField Service Advanced Capacity and Reservations management
 
 You can activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) for Field Service Management if you have the admin role.
 
@@ -31,19 +32,11 @@ Role required: admin.
 
 The following components are installed with Field Service Advanced Capacity and Reservations Management plugin:
 
--   The Capacity Planner role \(fsm\_adv\_cap\_mgmt.wm\_capacity\_planner\) provides read, write, and create access to capacity-related tables, along with access to the Capacity Console.
--   Script Includes: The following table provides the list of script includes that are installed.
+-   Tables
+-   Script Includes
+-   Roles
 
-    |Name|Description|
-    |----|-----------|
-    |CapacityConsoleConstants|Aggregate all constants in one place for the Capacity Console. Customers can override constants from `CapacityConsoleConstantsSNC`.|
-    |CapacityConsoleConstantsSNC|Aggregate all constants in one place for the Capacity Console.|
-    |CapacityConsoleData|Contains all the business logic for the Capacity Console. Customers can override this logic using `CapacityConsoleDataSNC`.|
-    |CapacityConsoleDataSNC|Contains all the business logic for the Capacity Console.|
-    |CapacityConsoleUtil|Contains all utility functions for the Capacity Console.|
-    |CapacityConsoleUtilSNC|Contains all utility functions for the Capacity Console.|
-    |FSMCapacityAdvancedFilterDefinition|Custom implementation of all advanced filters used in the Capacity Console.|
-
+For more information, see [Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-capacity-components.md).
 
 **Note:** You can customize the Capacity Console by taking the reference from the SNC script includes.
 
@@ -59,13 +52,13 @@ The following components are installed with Field Service Advanced Capacity and 
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  
 
 
-[Capacity Console](../concept/capacity-console.md)
+[Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/capacity-console.md)
 
-[Using the Capacity Console](../concept/capacity-and-reservation-management-console.md)
+[Using the Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/capacity-and-reservation-management-console.md)
 

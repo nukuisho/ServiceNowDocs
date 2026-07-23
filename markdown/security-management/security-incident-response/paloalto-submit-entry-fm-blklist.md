@@ -2,6 +2,7 @@
 title: Submit EDL entries from the blocklist for Palo Alto Networks Next-Generation Firewall
 description: For observables determined to be malicious, and not associated with a specific ServiceNow AI Platform security incident, you submit External Dynamic List \(EDL\) entries from the blocklist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto-submit-entry-fm-blklist.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -27,11 +28,9 @@ When you want to block an observable that you have determined is malicious, or a
 
 1.  Navigate to **All** &gt; **Palo Alto Networks NGFW Integration** &gt; **Firewall EDL Entries**.
 
-    ![Firewall EDL Entries on the application navigator.](../image/edl-entries-list.png)
+2.  Select the **Firewall EDL Entries** module.
 
-2.  Click the **Firewall EDL Entries** module.
-
-3.  In the Palo Alto Networks Firewall External Dynamic List Entries list, click **New**.
+3.  In the Palo Alto Networks Firewall External Dynamic List Entries list, select **New**.
 
 4.  In the new record that is displayed, in the **Entry value** field, enter a value for your observable.
 
@@ -39,35 +38,29 @@ When you want to block an observable that you have determined is malicious, or a
 
     -   **The remaining fields on the form are completed automatically.**
 
-        A matching observable is found, and a message is displayed that a matching observable exists. Select the EDL you want to attach this entry to and click **Submit**. Select the EDL you want to attach this entry to prior to setting the Expiration period.
+        A matching observable is found, and a message is displayed that a matching observable exists. Select the EDL you want to attach this entry to and select **Submit**. Select the EDL you want to attach this entry to before setting the Expiration period.
 
     -   **A message is displayed that instructs you to complete the form.**
 
-        A matching observable has not been found, and you must complete the form. After you complete it, select the EDL you want to attach the observable to and click **Submit**. An observable record is created.
+        A matching observable has not been found, and you must complete the form. After you complete it, select the EDL you want to attach the observable to and select **Submit**. An observable record is created.
 
-    The following figure shows an example of an existing domain observable and how the fields are completed automatically.
+5.  Select the search icon to select the EDL you want to attach the entry to.
 
-    ![Matching observable exists.](../image/4-30-existing-obsv-url.png)
-
-5.  Click the search icon to select the EDL you want to attach the entry to.
-
-6.  Click **Submit**.
+6.  Select **Submit**.
 
     If you have email approval configured in your workflow, an approval email request is sent.
 
 7.  If a message is displayed that requests you to fill in the rest of the information manually, fill in the fields.
 
-    ![No matching observable exists.](../image/4-30-notexisting-obsv-url.png)
-
-<table id="choicetable_r4s_ryh_vdb"><thead><tr><th align="left" id="d326613e195">
+<table id="choicetable_r4s_ryh_vdb"><thead><tr><th align="left" id="d331765e154">
 
 Field
 
-</th><th align="left" id="d326613e198">
+</th><th align="left" id="d331765e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d326613e204">
+</th></tr></thead><tbody><tr><td id="d331765e163">
 
 **Observable type**
 
@@ -75,15 +68,15 @@ Description
 
 Observable type that is supported from the dialog.
 
-</td></tr><tr><td id="d326613e213">
+</td></tr><tr><td id="d331765e172">
 
 **EDL name**
 
 </td><td>
 
-EDL you want to attach the entry to. **Note:** Select the EDL want to attach the entry to prior to setting the Expiration period.
+EDL you want to attach the entry to. **Note:** Select the EDL want to attach the entry to before setting the Expiration period.
 
-</td></tr><tr><td id="d326613e225">
+</td></tr><tr><td id="d331765e184">
 
 **Enable override \(default is selected\)**
 
@@ -91,7 +84,7 @@ EDL you want to attach the entry to. **Note:** Select the EDL want to attach the
 
 Lookup result or source. When configured, permits you to enter a **Lookup result** and the source used to find the results. These fields are typically populated when a security incident record is created. In this case, there is no lookup result or source, and you fill in these fields in manually.
 
-</td></tr><tr><td id="d326613e237">
+</td></tr><tr><td id="d331765e196">
 
 **Lookup result**
 
@@ -99,7 +92,7 @@ Lookup result or source. When configured, permits you to enter a **Lookup result
 
 Select **Unknown** or **Malicious**.
 
-</td></tr><tr><td id="d326613e253">
+</td></tr><tr><td id="d331765e212">
 
 **Source**
 
@@ -107,7 +100,7 @@ Select **Unknown** or **Malicious**.
 
 Source that performs a threat lookup on the EDL entry, for example, ThreatCrowd, etc.
 
-</td></tr><tr><td id="d326613e262">
+</td></tr><tr><td id="d331765e221">
 
 **Expiration period**
 
@@ -120,23 +113,21 @@ The expiration period inherited from the EDL by default. You can override this v
  For example, if you enter `30` days at 2:01 PM on May 1, the EDL entry will expire at 2:01 PM on May 31.
 
 </td></tr></tbody>
-</table>8.  Click **Submit**.
+</table>8.  Select **Submit**.
 
     If you have changed the default expiration period of the EDL entry, a warning confirmation dialog box is displayed indicating that the period differs from the selected EDL.
 
-    ![Confirmation dialog box for expiration period.](../image/4-20-expiry-confirm-4-2.png)
-
 9.  Choose one option to configure the expiration period.
 
-<table id="choicetable_mrw_213_vdb"><thead><tr><th align="left" id="d326613e318">
+<table id="choicetable_mrw_213_vdb"><thead><tr><th align="left" id="d331765e268">
 
 Option
 
-</th><th align="left" id="d326613e321">
+</th><th align="left" id="d331765e271">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d326613e327">
+</th></tr></thead><tbody><tr><td id="d331765e277">
 
 **Yes**
 
@@ -144,18 +135,16 @@ Description
 
 Confirms your expiration override, saves the record, and returns you to the **Palo Alto Networks Firewall External Dynamic List Entries** list. If you have email approval configured in your workflow, an approval email request is sent.
 
-</td></tr><tr><td id="d326613e339">
+</td></tr><tr><td id="d331765e289">
 
 **No**
 
 </td><td>
 
-Cancels the override. At this point, you can change the value for the **Expiration period**.After changing the value, click **Submit** to return to the **Palo Alto Networks Firewall External Dynamic List Entries** list.
+Cancels the override. At this point, you can change the value for the **Expiration period**.After changing the value, select **Submit** to return to the **Palo Alto Networks Firewall External Dynamic List Entries** list.
 
 </td></tr></tbody>
 </table>10. If not displayed, navigate to the **Palo Alto Networks Firewall External Dynamic List Entries** list and note that the status for the entry is Pending.
-
-    ![Firewall EDL Entries list with pending entry.](../image/4-30-boston-entry-pending.png)
 
     The entry is now ready for approval.
 
@@ -164,14 +153,14 @@ Cancels the override. At this point, you can change the value for the **Expirati
 
 Approve EDL entries.
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](../concept/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Submit EDL entries from a security incident record for Palo Alto Networks Next-Generation Firewall](paloalto-submit-edl-snsi.md)
+**Previous topic:**[Submit EDL entries from a security incident record for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-submit-edl-snsi.md)
 
-**Next topic:**[Approve EDL entries for Palo Alto Networks Next-Generation Firewall](paloalto-apprv-edl-entries-sncr.md)
+**Next topic:**[Approve EDL entries for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-apprv-edl-entries-sncr.md)
 
 **Related topics**  
 
 
-[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](../reference/paloalto-edl-execptions.md)
+[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-edl-execptions.md)
 

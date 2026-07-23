@@ -2,9 +2,10 @@
 title: Add a web search to an AI agent
 description: Add a web search to an AI agent in AI Agent Studio using a third-party search API such as Microsoft Bing or Google.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-web-search-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---
@@ -72,7 +73,7 @@ Information for the search API to include in the web search. You can select valu
 -   **Number of results**: Total number of results acquired.
 -   **Search query**: Value to search for
 -   **Sites or domains**: Websites where you want to search.
-**Note:** If the agent uses multiple tools, you can choose to use another tool's output as an input value override. Select the data picker icon \(![Data picker icon.](../image/data-picker-icon.png)\) to review the available options.
+**Note:** If the agent uses multiple tools, you can choose to use another tool's output as an input value override. Select the data picker icon \(\[Omitted image "data-picker-icon.png"\] Alt text: Data picker icon.\) to review the available options.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Components installed with Purchase Order Management
 description: Several types of components are installed with the activation of the Purchase Order Management plugin, including roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/installed-with-purch-ord-mgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -40,7 +41,8 @@ Can access all the features and capabilities of the Purchase Order Management ap
 
 </td><td>
 
-sn\_shop.procurement\_administrator
+-   sn\_shop.procurement\_administrator
+-   sn\_poem\_core.operational\_buyer
 
 </td></tr><tr><td>
 
@@ -67,6 +69,18 @@ Can view purchase orders
 
 sn\_fin.procurement\_user
 
+</td></tr><tr><td>
+
+Purchase Order Management Collaborator \[sn\_poem\_core.collaborator\]
+
+</td><td>
+
+Can view, edit, and resolve assigned purchase order exception tasks
+
+</td><td>
+
+sn\_poem\_core.viewer
+
 </td></tr></tbody>
 </table>## Tables installed
 
@@ -75,8 +89,19 @@ The following tables are installed with Purchase Order Management.
 |Table|Description|
 |-----|-----------|
 |Purchase Order Exception Task \[sn\_poem\_exception\_task\]|Stores the purchase order exception tasks.|
-|Purchase Order Exception \[sn\_poem\_exception\]|Stores the purchase order exceptions.|
+|Purchase Order Exception \[sn\_poem\_exception\]|Stores the purchase order exception details.|
 |Purchase Order Exception Split Line \[sn\_poem\_exception\_split\_line\]|Stores the details of split lines when a supplier submits a purchase order exception.|
+|Purchase Order Confirmation \[sn\_poem\_po\_confirmation\]|Stores the purchase order confirmation details.|
+|Purchase Order Confirmation Line \[sn\_poem\_po\_confirmation\_line\]|Stores the details of purchase order confirmation lines.|
 
-**Parent Topic:**[Install Purchase Order Management](../task/install-purch-order-mgmt.md)
+**Parent Topic:**[Install Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/install-purch-order-mgmt.md)
+
+**Related topics**  
+
+
+[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
+
+[Assigning priority to a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assigning-priority-to-po.md)
+
+[Assigning purchase order exceptions to buyers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assigning-po-exceptions-to-buyers.md)
 

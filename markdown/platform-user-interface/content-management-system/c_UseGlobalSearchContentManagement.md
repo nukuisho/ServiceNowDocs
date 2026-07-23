@@ -2,6 +2,7 @@
 title: Global search in Content Management
 description: When you add global search to a CMS site, two different search result blocks can display, depending on the user role: global or no global.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_UseGlobalSearchContentManagement.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -24,7 +25,7 @@ The header search bar and the Search dynamic block in the base system both autom
 
 In order for the global search to work properly, it is important to ensure that the DEFAULT directs users to a working content page. If not, the results from the global search link back to the frame set, not to pages within the CMS site.
 
-**Note:** The global search is similar to the normal frame set user interface and ties to the same roles \([Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/set-global-text-search-properties.md)\).
+**Note:** The global search is similar to the normal frame set user interface and ties to the same roles \([Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/set-global-text-search-properties.md)\).
 
 ## Search Results \(Global\)
 
@@ -32,20 +33,20 @@ Before you use the **Search Results \(Global\)** dynamic block, define Configure
 
 The **Search Results \(No Global\)** dynamic block does not require any additional configuration.
 
-**Parent Topic:**[Content Management System](c_ContentManagementSystem.md)
+**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 **Related topics**  
 
 
-[Content Management design](c_ContentManagementPlanning.md)
+[Content Management design]()
 
-[Domain separation and the Content Management System](domain-separation-content-management.md)
+[Domain separation and the Content Management System]()
 
-[Configure Content Management sites](../task/t_CreateASite.md)
+[Configure Content Management sites]()
 
-[Content Management integration points](c_CMSIntegrationPoints.md)
+[Content Management integration points]()
 
-[Content Management testing](c_ContentManagementTesting.md)
+[Content Management testing]()
 
-[CMS translation](c_CMSTranslation.md#)
+[CMS translation]()
 

@@ -2,13 +2,14 @@
 title: Setup strict mode OAuth connectivity with Microsoft Exchange Online
 description: Create a strict mode app registry for Microsoft Exchange Online with ServiceNow instance for OAuth authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/setup-strict-mode-oauth-connectivity-with-msex.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-23"
 reading_time_minutes: 3
-breadcrumb: [Create a strict mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create a strict mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Setup strict mode OAuth connectivity with Microsoft Exchange Online
@@ -17,11 +18,11 @@ Create a strict mode app registry for Microsoft Exchange Online with ServiceNow 
 
 ## Before you begin
 
-[Configure Microsoft Azure](auth-mxex-with-azure-strict-mode.md).
+[Configure Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/auth-mxex-with-azure-strict-mode.md).
 
 Ensure that the application scope is set to **Microsoft Exchange Online Spoke**. Otherwise, do the following:
 
-1.  Select the Application scope icon \(![Application scope to set the scope of your application.](../image/application-scope-globe-icon.png)\) on the Employee Center homepage.
+1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope to set the scope of your application.\) on the Employee Center homepage.
 2.  In the drop- down, select the option consisting **Application scope:**.
 3.  In the filter navigator, search and select **Microsoft Exchange Online Spoke**.
 4.  Refresh the page.
@@ -85,7 +86,7 @@ Role required: admin
     2.  On the OAuth Entity Profile form, do the following:
 
         1.  In the OAuth Entity Profiles Scopes section, double-click **Insert a new row**.
-        2.  Select the Lookup icon \(![Lookup icon.](../../../common/image/List_SearchIcon.png)\).
+        2.  Select the Lookup icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup icon.\).
         3.  Select `Calendars.ReadWrite` that is assigned to the OAuth provider that you created in Step 6.
         4.  Repeat the previous steps and also add the following OAuth Entity Profiles Scopes created in Step 6:
             -   `Calendars.ReadWrite.Shared`
@@ -101,22 +102,22 @@ The strict mode OAuth registration is added for Microsoft Exchange Online with s
 
 Configure the connection and credential alias. You can configure the default alias or create your own alias.
 
-To configure the default alias, refer to [Configure strict mode Connection and Credential alias for Microsoft Exchange Online](configure-strict-mode-connection-and-credential-alias-for-msex.md).
+To configure the default alias, refer to [Configure strict mode Connection and Credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-strict-mode-connection-and-credential-alias-for-msex.md).
 
-**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](../concept/strict-mode-configurations-for-connection-with-msex.md)
+**Parent Topic:**[Create a strict mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/strict-mode-configurations-for-connection-with-msex.md)
 
 **Related topics**  
 
 
-[Configure Microsoft Azure](auth-mxex-with-azure-strict-mode.md)
+[Configure Microsoft Azure]()
 
-[Create connection with Microsoft Exchange Online Spoke in strict mode](create-connection-with-msspoke-strict-mode.md)
+[Create connection with Microsoft Exchange Online Spoke in strict mode]()
 
-[Create a strict mode configuration in Microsoft Exchange Online](strict-mode-configuration-in-msex.md)
+[Create a strict mode configuration in Microsoft Exchange Online]()
 
-[Configure strict mode Connection and Credential alias for Microsoft Exchange Online](configure-strict-mode-connection-and-credential-alias-for-msex.md)
+[Configure strict mode Connection and Credential alias for Microsoft Exchange Online]()
 
-[Create your own credential and connection alias for strict mode](create-own-credential-and-connection-alias-for-strict-mode.md)
+[Create your own credential and connection alias for strict mode]()
 
-[Configure Microsoft Exchange Online calendar provider in strict mode](configure-msex-strict-mode-calendar-providers.md)
+[Configure Microsoft Exchange Online calendar provider in strict mode]()
 

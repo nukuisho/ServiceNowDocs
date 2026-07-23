@@ -2,6 +2,7 @@
 title: Adding visitors
 description: Add a single visitor or upload a file with details of multiple visitors.Add a visitor by providing details like their name and email.Add multiple visitors by uploading a CSV or Excel file with the visitor details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/adding-visitors.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -15,16 +16,16 @@ breadcrumb: [Registering a visitor, Workplace Visitor Management, Workplace Serv
 
 Add a single visitor or upload a file with details of multiple visitors.
 
-**Parent Topic:**[Registering a visitor](registerring-a-visitor.md)
+**Parent Topic:**[Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/registerring-a-visitor.md)
 
 **Related topics**  
 
 
-[Use the host portal](../task/use-host-portal.md)
+[Use the host portal]()
 
-[Make a visitor registration](../task/register-a-guest.md)
+[Make a visitor registration]()
 
-[Review visitor policies](../task/review-visitor-policies.md)
+[Review visitor policies]()
 
 ## Add a visitor
 

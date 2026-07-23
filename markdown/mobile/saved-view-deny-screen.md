@@ -2,6 +2,7 @@
 title: Make saved views unavailable on specific pages
 description: You might want to remove the option for users to save specific views and screens for security or privacy reasons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/saved-view-deny-screen.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,9 +26,9 @@ Role required: admin
 
 3.  In the **Source Table** field, select `Screen [sys_sg_screen]`.
 
-4.  Select the reference lookup icon \(![Reference lookup icon.](../image/reference-lookup-icon.png)\) from the **Source** field.
+4.  Select the reference lookup icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference lookup icon.\) from the **Source** field.
 
-5.  In the **Select the document** screen, select the reference lookup icon \(![Reference lookup icon.](../image/reference-lookup-icon.png)\) within the **Document** field.
+5.  In the **Select the document** screen, select the reference lookup icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference lookup icon.\) within the **Document** field.
 
 6.  Select the screen on which you want the saved views icon not to display.
 

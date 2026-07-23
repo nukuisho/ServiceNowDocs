@@ -2,6 +2,7 @@
 title: Set up the Conversational SMS Integration with Twilio
 description: Integrate Twilio with Virtual Agent so that you can engage in SMS bot conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-twilio-adapter.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +33,7 @@ Before you can set up the Conversational SMS Integration with Twilio, complete t
     -   Twilio spoke
     -   Conversational SMS Service Channel
     -   Conversational SMS Integration with Twilio
-3.  [Set up Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-twilio.md)
+3.  [Set up Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/setup-twilio.md)
 4.  Ensure that the Conversational Custom Chat Integration plugin \(com.glide.cs.custom.adapter\) is active on your instance.
 
 Role required: external\_app\_install\_admin or va\_admin
@@ -112,7 +113,7 @@ Message auth that you created.
 </td></tr></tbody>
 </table>    3.  Click **Submit**.
 
-4.  In the Twilio Console, for the phone number that you specified in Step [3](configure-twilio-adapter.md#mess-prov-app), update the SMS incoming web-hook.
+4.  In the Twilio Console, for the phone number that you specified in Step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-twilio-adapter.md), update the SMS incoming web-hook.
 
     To update the web-hook, navigate to the phone number in your Twilio console: **Phone Numbers** &gt; **Manager** &gt; **Active numbers**. Click on the phone number and enter the following address in the Messaging web-hook field:
 
@@ -123,14 +124,14 @@ Message auth that you created.
 
 ## What to do next
 
-After you set up the Conversational SMS Integration with Twilio, you can create SMS conversation topics in Virtual Agent Designer. For more information on using the tool, see [Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md).
+After you set up the Conversational SMS Integration with Twilio, you can create SMS conversation topics in Virtual Agent Designer. For more information on using the tool, see [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
-**Parent Topic:**[Configuring Conversational SMS Integration with Twilio](../concept/configure-va-sms-twilio-app.md)
+**Parent Topic:**[Configuring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)
 
 **Related topics**  
 
 
-[Install Conversational SMS Integration with Twilio](install-sms-twilio.md)
+[Install Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/install-sms-twilio.md)
 
 [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md)
 

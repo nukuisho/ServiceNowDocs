@@ -2,6 +2,7 @@
 title: Health safety incident patterns assistant agentic workflow
 description: Use the Health safety incident patterns assistant agentic workflow to analyze Health and Safety incident patterns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis-agentic-workflow.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -24,7 +25,7 @@ The **Health safety incident patterns assistant** agentic workflow helps safety 
 -   Retrieve supporting evidence
 -   Recommend corrective actions within the dashboard or pattern-specific contexts.
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 This agentic workflow is automatically available to users with sn\_ohs\_im.manager, sn\_ohs\_im.admin, and sn\_ohs\_im.agent roles and can be used from the Now Assist panel.
 

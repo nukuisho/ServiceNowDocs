@@ -2,6 +2,7 @@
 title: Change the order of an answer
 description: By default, the order of answer options is established when a question is created with a data type of Choice or Likert Scale.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ChangeTheOrderOfAnAnswer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,13 +34,13 @@ The **Order** column is hidden in the base system.
 
     **Note:** The **Value** setting remain the same for each answer option after reorganization.
 
-    ![Quiz answer order](../images/Quiz_Answer_Order.png)
+    \[Omitted image "Quiz\_Answer\_Order.png"\] Alt text: Quiz answer order
 
 
-**Parent Topic:**[Create an assessment metric for a category](t_CreateAMetric.md)
+**Parent Topic:**[Create an assessment metric for a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateAMetric.md)
 
 **Related topics**  
 
 
-[Assessment metrics](../concept/c_AssessmentMetrics.md)
+[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_AssessmentMetrics.md)
 

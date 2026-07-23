@@ -2,6 +2,7 @@
 title: Configure per-user landing pages in Next Experience
 description: Users on new Next Experience instances see the Next Experience landing page. Users on upgraded instances see the landing pages that they had before, in the Next Experience UI. You can also configure user-specific landing pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-per-user-ui16-landing-page-in-next-experience.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Next Experience landing pages provide the information you need to start working.
 
 3.  In the **Name** field, enter `my_home_navigation_page`.
 
-4.  In the **User** field, select the search icon ![](../image/query-icon.png)and assign a user.
+4.  In the **User** field, select the search icon \[Omitted image "query-icon.png"\] Alt text:and assign a user.
 
     You can have multiple entries of this preference for different users.
 
@@ -39,7 +40,7 @@ Next Experience landing pages provide the information you need to start working.
 
     **Note:** When you copy the URL information, replace any HTML entities with their decoded values. For example, replace the entity `%24` with `$`.
 
-    ![User Preference my_home_navigation_page form with a VTB URL segment in the Value field](../image/set-indiv-ui16-landing.png)
+    \[Omitted image "set-indiv-ui16-landing.png"\] Alt text: User Preference my\_home\_navigation\_page form with a VTB URL segment in the Value field
 
 6.  Select **Update**.
 
@@ -48,5 +49,5 @@ Next Experience landing pages provide the information you need to start working.
 
 The user sees the specified landing page when they log on to ServiceNow® or when they select the company logo.
 
-**Parent Topic:**[Next Experience landing pages](../concept/next-experience-landing-pages.md)
+**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-pages.md)
 

@@ -2,6 +2,7 @@
 title: An overview of policy life cycle in Policy and Compliance Management
 description: Policies ensure compliance and reduce exposure to risks. A policy can be of any type – it can be a policy, procedure, standard, plan, checklist, framework, or template. Publishing a policy is within its approval process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/pc-policy-life-cycle-ovrvw.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -16,8 +17,6 @@ breadcrumb: [Structural overview, Explore, Policy and Compliance Management, Gov
 Policies ensure compliance and reduce exposure to risks. A policy can be of any type – it can be a policy, procedure, standard, plan, checklist, framework, or template. Publishing a policy is within its approval process.
 
 When you create a policy, it is in a Draft state, and all the required information about the policy are defined and captured in the record. The required information that you capture are the attributes that drive the process flow of the policy.
-
-![Process flow diagram of Policy and Compliance Management.](../image/process-flow-infograph-pol-comp.png)
 
 The life cycle of a policy record passes through different states. This is designed to understand where the record currently resides and to display its progress. Each state has a specific set of related activities before it moves to the next state. A policy may also move to the previous state, if required, which is configured and identified according to the current state.
 

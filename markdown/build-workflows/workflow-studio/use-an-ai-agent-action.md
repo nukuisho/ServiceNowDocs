@@ -2,6 +2,7 @@
 title: Use an AI agent action
 description: Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/use-an-ai-agent-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -103,21 +104,21 @@ You can use these outputs as inputs for other items.
 
 ## Use Incident resolution details AI agent
 
-![Demonstration flow that includes the Use an AI agent action and the Send Email action](../images/example-use-ai-agent-complete-flow.png)
+\[Omitted image "example-use-ai-agent-complete-flow.png"\] Alt text: Demonstration flow that includes the Use an AI agent action and the Send Email action
 
 This example requires installing the Now Assist for IT Service Management \(ITSM\) plugin and turning on the Resolution notes generation skill.
 
-![Sample input configuration of the Use an AI agent action](../images/example-use-ai-agent-inputs.png)
+\[Omitted image "example-use-ai-agent-inputs.png"\] Alt text: Sample input configuration of the Use an AI agent action
 
 In this example, the Use an AI agent action is configured to use the Incident resolution details AI agent in a supervised mode. The objective lists data that will help the AI understand the resolution of an incident.
 
-![](../images/example-use-ai-agent-wait-support-user.png)
+\[Omitted image "example-use-ai-agent-wait-support-user.png"\] Alt text:
 
 Since this example runs in supervised mode, the flow pauses until the support user interacts with the conversation generated in the Now Assist panel.
 
-![](../images/example-use-ai-agent-flow-completed.png)
+\[Omitted image "example-use-ai-agent-flow-completed.png"\] Alt text:
 
 After the support user provides the necessary response, the flow continues running the action and provides it output values. The flow uses these output values to send an email message.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

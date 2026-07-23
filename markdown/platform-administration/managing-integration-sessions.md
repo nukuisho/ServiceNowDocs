@@ -2,6 +2,7 @@
 title: Managing integration sessions
 description: Manage access to an instance by configuring how long integration sessions last before expiring.Secure your instance by enforcing a maximum time for sessions regardless of integration activity.Specify when to time out integration sessions after a period of inactivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/managing-integration-sessions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Manage access to an instance by configuring how long integration sessions last b
 
 Similar to user sessions, you can secure your instance by configuring when to time out an integration session after a period of inactivity and a maximum active session time. By default, integration session time out after five minutes of inactivity.
 
-**Parent Topic:**[Integration with third-party applications and data sources](c_IntegrateWThirdPartyAppsDataSrces.md)
+**Parent Topic:**[Integration with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntegrateWThirdPartyAppsDataSrces.md)
 
 ## Configure a maximum active time for integration sessions
 
@@ -28,6 +29,8 @@ Role required: admin
 ### About this task
 
 By default, sessions expire only after a period of inactivity. Enforcing a maximum active session time ends sessions regardless of if an integration has been active recently. The active session timeout should be greater than the value configured for the inactive session timeout. For example, if sessions are configured to time out after 30 minutes of inactivity, the active session timeout should be greater than 30 minutes.
+
+**Note:** Sharing a single service account across integrations and applications can prevent the system from enforcing maximum active session times. To resolve issues that keep sessions active, see the [Resolving Extended Session Duration and Performance Issues with Shared Service Accounts \[KB1770913\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1770913) article in the Now Support Knowledge Base.
 
 ### Procedure
 
@@ -62,7 +65,7 @@ Integrations are logged out of the instance after the time specified and their c
 **Related topics**  
 
 
-[Configure a maximum active time for user sessions](../../administer/user-sessions/concept/c_ManageUserSessions.md#)
+[Configure a maximum active time for user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ManageUserSessions.md)
 
 ## Modify integration session timeout after inactivity
 
@@ -97,5 +100,5 @@ By default, after one minute of inactivity, the platform ends an integration ses
 **Related topics**  
 
 
-[Modify user session timeout after inactivity](../../administer/user-sessions/concept/c_ManageUserSessions.md#)
+[Modify user session timeout after inactivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ManageUserSessions.md)
 

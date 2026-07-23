@@ -2,6 +2,7 @@
 title: Request for domain separation in Dynamic Translation
 description: Enable the support for the Dynamic Translation framework in domain-separated instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/activate-domainsep-dyn-transl.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -58,7 +59,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -78,12 +79,12 @@ Select the date and time to activate the plugin.
 
 ## What to do next
 
-For information about configuring domain separation in Dynamic Translation, see [Domain separation and Dynamic Translation](../concept/domain-sep-dynamic-translation.md).
+For information about configuring domain separation in Dynamic Translation, see [Domain separation and Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/domain-sep-dynamic-translation.md).
 
-**Parent Topic:**[Configuring Dynamic Translation](../concept/configuring-dynamic-translation.md)
+**Parent Topic:**[Configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/configuring-dynamic-translation.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](../../plugins/reference/list-of-plugins.md#)
+[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

@@ -2,6 +2,7 @@
 title: Examples for remediation task creation in the Security Exposure Management Workspace
 description: When you create remediation tasks manually in the Security Exposure Management Workspace, records are grouped into a remediation task based on the grouping criteria you select.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-create-remediation-task-examples.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -265,10 +266,10 @@ This remediation task contains the records that are assigned to **LDAP Admins** 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Unified Security Exposure Management](../concept/using-unified-security-exposure-management.md)
+**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/using-unified-security-exposure-management.md)
 
 **Related topics**  
 
 
-[Create a remediation task manually in the Security Exposure Management Workspace](../task/sem-create-remediation-task.md)
+[Create a remediation task manually in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-create-remediation-task.md)
 

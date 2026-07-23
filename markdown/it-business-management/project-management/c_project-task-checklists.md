@@ -2,6 +2,7 @@
 title: Project task checklists
 description: A project task checklist gives you the ability to track activities that must be completed on a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_project-task-checklists.html
 release: australia
 product: Project Management
 classification: project-management
@@ -23,38 +24,36 @@ Checklists, as well as tasks, are copied into a project template. You also have 
 
 **Note:** Checklists are available for any form that is based on a table extended from the Task table. Administrators can add or remove checklists as needed.
 
-**Parent Topic:**[Basics of Project Management](c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
 
-[Parent-child rollup task calculations](c_ParentChildRollupTaskCalcs.md)
+[Parent-child rollup task calculations]()
 
-[Project tasks](../task/t_CreateAProjectTask.md)
+[Project tasks]()
 
-[Schedule conflicts between project tasks](scheduling-conflicts.md)
+[Schedule conflicts between project tasks]()
 
-[Change requests and project tasks](c_ChangeRequestsAndProjectTasks.md)
+[Change requests and project tasks]()
 
-[Task resources](c_TaskResources.md)
+[Task resources]()
 
-[Project and project task states](project-and-project-task-states.md)
+[Project and project task states]()
 
-[Composite Fields](pm-composite-fields.md)
+[Composite Fields]()
 
-[Cost plan breakdown](cost-plan-breakdown.md#)
+[Cost plan breakdown]()
 
-[Actual project costs](actual-project-costs.md)
+[Actual project costs]()
 
-[Types of external dependencies](external-dependency-types.md)
+[Types of external dependencies]()
 
-[Project and portfolio funding](../../project-portfolio-suite-with-financials/concept/c_ProjectAndPortfolioFunding.md)
+[Project and portfolio funding]()
 
-[Project scheduling in Project Management](project-scheduling.md)
+[Project scheduling in Project Management]()
 
-[Task constraints](task-constraints-project-management.md)
+[Use a project task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectTaskChecklist.md)
 
-[Use a project task checklist](../task/t_CreateAProjectTaskChecklist.md)
-
-[Save a checklist as a template](../task/t_SaveAChecklistAsATemplate.md)
+[Save a checklist as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_SaveAChecklistAsATemplate.md)
 

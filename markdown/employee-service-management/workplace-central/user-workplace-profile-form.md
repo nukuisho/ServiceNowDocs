@@ -2,6 +2,7 @@
 title: User Workplace Profile form
 description: The User Workplace Profile form specifies details about an employee like their name, primary location, and allocation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/user-workplace-profile-form.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -61,7 +62,7 @@ Workplace entity
 
 </td><td>
 
-Workplace entity that the user must be allocated to.For more information about workplace entity, see [Configure Workplace entity and entity types](../../workplace-service-delivery/concept/workplace-entity.md).
+Workplace entity that the user must be allocated to.For more information about workplace entity, see [Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-entity.md).
 
 </td></tr><tr><td>
 
@@ -72,40 +73,40 @@ Enable employee location privacy
 Location privacy setting for the workplace profile. This field is automatically set to **None** and can't be edited.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Central reference](../concept/workplace-central-references.md)
+</table>**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Central](components-installed-with-workplace-central.md)
+[Components installed with Workplace Central]()
 
-[Space Optimization - Key features and actions](space-optmization-features-and-actions-.md)
+[Space Optimization - Key features and actions]()
 
-[Workplace Central Event planner](event-planner-key-features-actions-views.md)
+[Workplace Central Event planner]()
 
-[Scenario and Building - Views, states, settings, and key features](scenario-planning-views-actions-keyfeatures-.md)
+[Scenario and Building - Views, states, settings, and key features]()
 
-[Space request approvals, states, actions, and key features](space-request-states-and-view.md)
+[Space request approvals, states, actions, and key features]()
 
-[Move management key features and actions](move-mgmt-views-states-actions.md)
+[Move management key features and actions]()
 
-[Case Management - Key features, Actions &amp; Case details](case-management-key-features-actions-case-details.md)
+[Case Management - Key features, Actions &amp; Case details]()
 
-[Schedule Plan details form](schedule-plan-details-form.md)
+[Schedule Plan details form]()
 
-[Scenario details form](scenario-details-form.md)
+[Scenario details form]()
 
-[Space Deployment Plan](space-deployment-plan.md)
+[Space Deployment Plan]()
 
-[User Deployment Plan](user-deployment-plan.md)
+[User Deployment Plan]()
 
-[Excel column lengths for move projects](move-excel-char-limit.md)
+[Excel column lengths for move projects]()
 
-[Move conflicts for projects created via Excel upload](excel-upload-conflicts.md)
+[Move conflicts for projects created via Excel upload]()
 
-[Workplace Central troubleshooting](workplace-central-troubleshooting.md)
+[Workplace Central troubleshooting]()
 
-[Workplace Task form - Space Assignment task](workplace-task-space-assignment.md)
+[Workplace Task form - Space Assignment task]()
 
-[Neighborhood User Assignment Rule form](user-assignment-rule-form.md)
+[Neighborhood User Assignment Rule form]()
 

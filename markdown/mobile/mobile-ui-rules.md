@@ -2,6 +2,7 @@
 title: Mobile UI Rules
 description: Use Mobile UI rules to build rules that modify the mobile UI. These modifications can include hiding and displaying fields, making fields mandatory, performing field value calculations, and applying UI styles to different UI elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-ui-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,7 +27,7 @@ To modify the appearance of your mobile views and input form screens UI, you mus
     Each mobile UI rule uses mobile UI rule actions. These actions define the changes made to your target record. When you create an action, you select an operation, which defines the kind of change you want to make. You then define a value, which gives the rule more detail on the specifics of the change you're making.
 
 
-For more detail on the kinds of changes you can make with mobile UI rules, see the next section. For detailed steps on creating mobile UI rules and actions, see [Create a mobile UI rule](../task/create-mobile-ui-rule.md).
+For more detail on the kinds of changes you can make with mobile UI rules, see the next section. For detailed steps on creating mobile UI rules and actions, see [Create a mobile UI rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-mobile-ui-rule.md).
 
 ## Available mobile UI rule operations
 
@@ -38,7 +39,7 @@ Use calculations to quickly and accurately fill in field values based on calcula
 
 </td><td>
 
-![Demonstration of a UI rule performing a calculation.](../image/mobile-ui-rule-calc.png)
+\[Omitted image "mobile-ui-rule-calc.png"\] Alt text: Demonstration of a UI rule performing a calculation.
 
 </td></tr></tbody>
 </table>-   **Apply UI styling to mobile view elements**
@@ -49,7 +50,7 @@ Use mobile UI rules to apply UI styling to your screens. Using JSON code, you ca
 
 </td><td>
 
-![Example UI styles.](../image/ui-styles.png)
+\[Omitted image "ui-styles.png"\] Alt text: Example UI styles.
 
 </td></tr></tbody>
 </table>-   **Disable buttons**
@@ -60,7 +61,7 @@ Use mobile UI rules to conditionally disable buttons. De-clutter your interface 
 
 </td><td>
 
-![Disabled buttons in the mobile interface.](../image/disable_buttons-mobile.png)
+\[Omitted image "disable\_buttons-mobile.png"\] Alt text: Disabled buttons in the mobile interface.
 
 </td></tr></tbody>
 </table>-   **Hide or display inputs or mobile view elements**
@@ -71,7 +72,7 @@ Use mobile UI rules to control the visibility of your inputs or elements on your
 
 </td><td>
 
-![Fields made mandatory using screen UI policies.](../image/hide-disable-input.png)
+\[Omitted image "hide-disable-input.png"\] Alt text: Fields made mandatory using screen UI policies.
 
 </td></tr></tbody>
 </table>-   **Make inputs read-only or mandatory**
@@ -82,7 +83,7 @@ Make your inputs read-only or mandatory to control which inputs are required and
 
 </td><td>
 
-![Demonstration of a UI rule performing a calculation](../image/mobile-read-only.png)
+\[Omitted image "mobile-read-only.png"\] Alt text: Demonstration of a UI rule performing a calculation
 
 </td></tr></tbody>
 </table>

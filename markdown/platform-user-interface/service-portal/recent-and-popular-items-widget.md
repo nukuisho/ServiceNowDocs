@@ -2,6 +2,7 @@
 title: Recent &amp; Popular Items widget
 description: Allow a user to browse recent and popular catalog items. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/recent-and-popular-items-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -21,11 +22,11 @@ The Recent &amp; Popular Items widget includes two tabs: **My Recent Items** and
 
 A user opens the My Recent Items tab to see catalog items that they recently viewed or requested.
 
-![My Recent Items tab](../image/my-recent-items.png)
+\[Omitted image "my-recent-items.png"\] Alt text: My Recent Items tab
 
 A user opens the Popular Items tab to see catalog items that have been widely requested by other users.
 
-![Popular Items tab](../image/popular-items.png)
+\[Omitted image "popular-items.png"\] Alt text: Popular Items tab
 
 Each item card displays basic information about the catalog item, such as the item name, image, and price.
 
@@ -86,46 +87,46 @@ Criteria to qualify which catalog items are displayed in the My Recent Items tab
 -   **Request**: Display the catalog items that the user requested most recently.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog widgets](sc-widgets.md)
+</table>**Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-widgets.md)
 
 **Related topics**  
 
 
-[Catalog Content widget](catalog-content-widget.md)
+[Catalog Content widget]()
 
-[Catalog Homepage Search widget](cat-homepage-search-widget.md)
+[Catalog Homepage Search widget]()
 
-[Request Fields widget](request-fields-widget.md)
+[Request Fields widget]()
 
-[Requested Items widget](requested-items-widget.md)
+[Requested Items widget]()
 
-[Requests and Approvals widget](requests-and-approvals-widget.md)
+[Requests and Approvals widget]()
 
-[SC Catalog Item widget](sc-catalog-item-widget.md)
+[SC Catalog Item widget]()
 
-[SC Categories widget](sc-categories-widget.md)
+[SC Categories widget]()
 
-[SC Category Page widget](sc-category-page-widget.md)
+[SC Category Page widget]()
 
-[SC Order Guide widget](sc-order-guide-widget.md)
+[SC Order Guide widget]()
 
-[SC Popular Items widget](sc-popular-items.md)
+[SC Popular Items widget]()
 
-[SC Save Bundles widget](save-bundles-widget.md)
+[SC Save Bundles widget]()
 
-[SC Saved Carts widget](saved-cart-widget.md)
+[SC Saved Carts widget]()
 
-[SC Scroll to top widget](sc-scroll-to-top.md)
+[SC Scroll to top widget]()
 
-[SC Shopping Cart widget](sc-shopping-cart.md)
+[SC Shopping Cart widget]()
 
-[SP Variable Editor widget](variable-editor-widget.md)
+[SP Variable Editor widget]()
 
-[SC Wish List Cart widget](sc-wish-list.md)
+[SC Wish List Cart widget]()
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

@@ -2,6 +2,7 @@
 title: Run scheduled job to populate product offering categories
 description: After upgrading to the Zurich release and the Now Assist for Sales Force Automation \(SFA\) plugin is installed, run a scheduled job that generates the product offering categories for pre-existing product offerings in the product catalog with AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/run-scheduled-job-prod-offer-categories.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,4 +34,11 @@ Run the scheduled job called **Scheduled job to populate product\_offering\_cate
 ## What to do next
 
 Run the scheduled job to index the tables, publish the stop word dictionary, and publish search profiles.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

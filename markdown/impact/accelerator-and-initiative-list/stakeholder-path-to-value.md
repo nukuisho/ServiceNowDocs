@@ -2,13 +2,14 @@
 title: Stakeholder Path to Value
 description: The Stakeholder Path to Value Accelerator helps Impact customers accelerate the value creation through Stakeholder alignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/stakeholder-path-to-value.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Stakeholder Path to Value
@@ -23,7 +24,9 @@ This initiative focuses on understanding how critical applications are being use
 
 These insights are instrumental in uncovering customer motivations, identifying opportunities to boost adoption and automation, and guiding Impact support strategies that align with business priorities. When combined with usage data and metrics from other accelerator programs, these insights provide a comprehensive view of adoption and ROI.
 
-**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact  Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
 
 ## Prerequisites
 

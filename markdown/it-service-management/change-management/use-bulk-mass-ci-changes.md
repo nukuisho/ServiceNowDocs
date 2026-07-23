@@ -2,6 +2,7 @@
 title: Use Mass Update CI
 description: You can use the proposed changes in a change request to apply the same update to a set of CIs for a specific CI class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/use-bulk-mass-ci-changes.html
 release: australia
 product: Change Management
 classification: change-management
@@ -62,14 +63,14 @@ Role required: itil, sn\_change\_write, or admin
     **Note:** If you are using the Bulk CI Change without Mass Update CI feature, then the proposed changes are applied when the change request is closed.
 
 
-**Parent Topic:**[Process a change request](t_ProcessAChangeRequest.md)
+**Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
 
 **Related topics**  
 
 
-[Mass Update CI](../concept/bulk-ci-change.md)
+[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/bulk-ci-change.md)
 
-[Activate Change Management - Mass Update CI](t_ActivateChangeManagementBulkCI.md)
+[Activate Change Management - Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateChangeManagementBulkCI.md)
 
-[Create a change request](t_CreateAChange.md)
+[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md)
 

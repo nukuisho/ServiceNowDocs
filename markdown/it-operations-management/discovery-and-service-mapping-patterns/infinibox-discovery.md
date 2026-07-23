@@ -2,6 +2,7 @@
 title: InfiniBox Discovery
 description: ServiceNow Discovery uses the InfiniBox pattern to find and map instances. Discovering these resources requires installing the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/infinibox-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -21,7 +22,7 @@ The InfiniBox enterprise storage array delivers faster-than-all-flash performanc
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -48,21 +49,21 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
         ​​
 
-        ![Connection & Credential Aliases.](../image/connectionandcredentialaliases.png "Connection & Credential Aliases")
+        \[Omitted image "connectionandcredentialaliases.png"\] Alt text: Connection &amp; Credential Aliases.
 
 
-![Basic Auth Credentials.]()
+\[Omitted image ""\] Alt text: Basic Auth Credentials.
 
 Configure the credentials of the **Basic Auth** type and the credential Alias associated with the credential record.
 
 You can make the same configuration from the credential record form where you previously created the Credential alias. Associate the Connections and Credential Alias records respectively.
 
-![Basic Auth Credentials.](../image/basicauthcredentials.png "Basic Auth Credentials")
+\[Omitted image "basicauthcredentials.png"\] Alt text: Basic Auth Credentials.
 
 -   **Discovery schedule**
     1.  ​Create the Discovery schedule with the Serverless Discovery type.
 
-        ![Discovery Schedule.](../image/discoveryschedule.png)
+        \[Omitted image "discoveryschedule.png"\] Alt text: Discovery Schedule.
 
     2.  For the Discovery schedule with the Discover type of Serverless, configure the InfiniBox Storage System LP pattern within the Serverless Execution Patterns tab.
     3.  Set the Run Child Patterns to True.
@@ -70,13 +71,13 @@ You can make the same configuration from the credential record form where you pr
         This enables the system to trigger all the patterns associated Child Patterns with the InfiniBox Storage System \(LP\). This is necessary due to the Large Payload \(LP\) mechanism. This is used for the discovery of the InfiniBox storage system and all the corresponding CI types.
 
 
-![serverless execution patterns.](../image/serverlessexecutionpatterns.png)
+\[Omitted image "serverlessexecutionpatterns.png"\] Alt text: serverless execution patterns.
 
 Apply the values for **ip\_address** and **credential\_alias** from the Serverless Execution Pattern related section. These serve as input parameters for triggering the discovery schedule and the associated InfiniBox discovery pattern.
 
 Apply the IP Address of the InfiniBox system and the ID of the previously created Connections &amp; Credential Aliases record. These are related to the InfiniBox credential **Basic Auth** type record.
 
-![Serverless Execution Pattern.](../image/serverlessexecutionpattern.png "Serverless Execution Pattern")
+\[Omitted image "serverlessexecutionpattern.png"\] Alt text: Serverless Execution Pattern.
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -92,7 +93,7 @@ Apply the IP Address of the InfiniBox system and the ID of the previously create
 |physical\_capacity|The total physical capacity of the InfiniBox system in gigabytes.|
 |virtual\_capacity|The total virtual capacity of the InfiniBox system in gigabytes.|
 
-![Storage Server View Map.](../image/storageserverviewmap.png "Storage Server View Map")
+\[Omitted image "storageserverviewmap.png"\] Alt text: Storage Server View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -118,7 +119,7 @@ Apply the IP Address of the InfiniBox system and the ID of the previously create
 |model\_id|The model ID of the of fibre channel port.|
 |computer|The reference to any of the physical nodes part of the InfiniBox system.|
 
-![Fibre channel view map.](../image/fibrechannelportviewmap.png "Fibre channel view map")
+\[Omitted image "fibrechannelportviewmap.png"\] Alt text: Fibre channel view map.
 
 <table id="table_x43_j5j_2qb"><thead><tr><th>
 
@@ -161,7 +162,7 @@ manufacturer
 The vendor of the storage switch.
 
 </td></tr></tbody>
-</table>![Storage Switch View Map.](../image/storageswitchviewmap.png "Storage Switch View Map")
+</table>\[Omitted image "storageswitchviewmap.png"\] Alt text: Storage Switch View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -172,7 +173,7 @@ The vendor of the storage switch.
 |model\_id|The ethernet model ID of the network adapter.|
 |ip\_address|The IPv4 IP address associated with the ethernet network adapter.|
 
-![Network Adapter View Map.](../image/networkadaptorviewmap.png "Network Adapter View Map")
+\[Omitted image "networkadaptorviewmap.png"\] Alt text: Network Adapter View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -189,7 +190,7 @@ The vendor of the storage switch.
 |model\_id|The model of the InfiniBox Storage Node.|
 |ip\_address|The IPv4 IP address assigned to the InfiniBox Storage Node.|
 
-![Storage Node Element View Map.](../image/storagenodeviewmap.png "Storage Node Element View Map")
+\[Omitted image "storagenodeviewmap.png"\] Alt text: Storage Node Element View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -211,7 +212,7 @@ The vendor of the storage switch.
 |size|The total size of the storage volume in gigabytes|
 |provided\_by|The reference to the storage pool, to which the storage volume is associated.|
 
-![Storage Volume View Map.](../image/storagevolumeviewmap.png "Storage Volume View Map")
+\[Omitted image "storagevolumeviewmap.png"\] Alt text: Storage Volume View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -227,7 +228,7 @@ The vendor of the storage switch.
 |provisioning\_type|The type of provisioning of the storage volume snapshot.|
 |provided\_by|The reference to the storage pool, to which the storage volume is associated.|
 
-![Storage Volume Snapshot.](../image/snapshotstoragevolumeviewmap.png "Storage Volume Snapshot")
+\[Omitted image "snapshotstoragevolumeviewmap.png"\] Alt text: Storage Volume Snapshot.
 
 |Field|Description|
 |-----|-----------|
@@ -244,7 +245,7 @@ The vendor of the storage switch.
 |pool\_id|The ID of the storage pool.|
 |pool\_state|The state of the storage pool.|
 
-![Storage Pool View Map.](../image/storagepoolviewmap.png "Storage Pool View Map")
+\[Omitted image "storagepoolviewmap.png"\] Alt text: Storage Pool View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -260,7 +261,7 @@ The vendor of the storage switch.
 |provisioning\_type|The type of provisioning of the primary file system.|
 |provided\_by|The reference to the storage pool, to which the primary file system is associated.|
 
-![File System View Map.](../image/InfiniboxFileSystemviewmap.png "File System View Map")
+\[Omitted image "InfiniboxFileSystemviewmap.png"\] Alt text: File System View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -276,7 +277,7 @@ The vendor of the storage switch.
 |parent\_id|The ID of the primary file system, to which the snapshot file system is associated.|
 |provisioning\_type|The type of provisioning of the snapshot file system.|
 
-![File System Snapshot View Map.](../image/snapshotfilesystemviewmap.png "File System Snapshot View Map")
+\[Omitted image "snapshotfilesystemviewmap.png"\] Alt text: File System Snapshot View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -284,7 +285,7 @@ The vendor of the storage switch.
 |name|The name of the InfiniBox export entity, combination of id:EXPORT\_ID@EXPORT\_PATH.|
 |fileshare\_id|The ID of the export entity in the context of the InfiniBox system.|
 
-![Export View Map.](../image/exportviewmap.png "Export View Map")
+\[Omitted image "exportviewmap.png"\] Alt text: Export View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -297,7 +298,7 @@ The vendor of the storage switch.
 |pool\_id|The ID of the pool, to which the primary InfiniBox consistency group is associated.|
 |lock\_state|The lock state of the primary InfiniBox consistency group.|
 
-![Primary Consistency Group View Map.](../image/primaryconsistencygroupmap.png "Primary Consistency Group View Map")
+\[Omitted image "primaryconsistencygroupmap.png"\] Alt text: Primary Consistency Group View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -310,7 +311,7 @@ The vendor of the storage switch.
 |pool\_id|The ID of the pool, to which the snapshot InfiniBox consistency group is associated.|
 |lock\_state|The lock state of the snapshot InfiniBox consistency group.|
 
-![Snapshot Consistency Group View Map.](../image/snapshotconsistancygroupviewmap.png "Snapshot Consistency Group View Map")
+\[Omitted image "snapshotconsistancygroupviewmap.png"\] Alt text: Snapshot Consistency Group View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -332,7 +333,7 @@ The vendor of the storage switch.
 |local\_replica\_net\_space\_id|The local replica network space ID of the Infinibox storage system.​|
 |link\_replication\_type|The replication type of the link between the Infinibox storage systems.​|
 
-![Link View Map.](../image/linkviewmap.png "Link View Map")
+\[Omitted image "linkviewmap.png"\] Alt text: Link View Map.
 
 |Field|Description|
 |-----|-----------|
@@ -350,7 +351,7 @@ The vendor of the storage switch.
 |remote\_entity\_name ​|The name of the remote replicated entity in the context of the InfiniBox storage system.|
 |dataset\_type|The local dataset type in the context of the InfiniBox storage system.​|
 
-![Replica View Map.](../image/replicaviewmap.png "Replica View Map")
+\[Omitted image "replicaviewmap.png"\] Alt text: Replica View Map.
 
 ## CI Relationships
 
@@ -417,7 +418,7 @@ The vendor of the storage switch.
 |---|---------|---|
 |cmdb\_ci\_storage\_server|“Contains :: Contained by”|cmdb\_ci\_infinibox\_link|
 
-![infinibox class model.](../image/infinibox-class-model.png "Infinibox Class Model")
+\[Omitted image "infinibox-class-model.png"\] Alt text: infinibox class model.
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

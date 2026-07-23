@@ -2,6 +2,7 @@
 title: Post case review record states
 description: Post case review records can be in a number of different states as they are created, approved, and published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-digests-pcr-record-states.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

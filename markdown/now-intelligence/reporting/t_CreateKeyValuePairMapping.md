@@ -2,6 +2,7 @@
 title: Create a key-value pair mapping
 description: Key-value pair mappings transform data in the ServiceNow platform to a value that can be plotted on a map. Mappings are used during map source configuration when data requires transformation. Each mapping exists in a mapping group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_CreateKeyValuePairMapping.html
 release: australia
 product: Reporting
 classification: reporting
@@ -33,7 +34,7 @@ For example, the default mapping for United States of America maps key USA to `I
 
     Select the mapping group that corresponds to type of object that you want to create a mapping for. For example, if you are creating a mapping for field value United States, select the **Country mappings** group. Note that the Key and Map values in the row with the mapping aren't taken into account.
 
-    ![Location mappings table with Map Source Mapping column highlighted](../image/select-mapping.png "Select map source mapping")
+    \[Omitted image "select-mapping.png"\] Alt text: Location mappings table with Map Source Mapping column highlighted
 
 3.  Select **New**.
 
@@ -52,16 +53,16 @@ For example, the default mapping for United States of America maps key USA to `I
 
 Add the mapping to a report source, so it can be used to map data from that source to a map.
 
-**Parent Topic:**[Map report administration](../concept/c_AdministeringMapReports.md)
+**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdministeringMapReports.md)
 
 **Related topics**  
 
 
-[Map report objects](../concept/c_MapReportObjects.md)
+[Map report objects]()
 
-[Automatically generate a map source hierarchy](t_AutoGenerateMapSourceHierarchy.md)
+[Automatically generate a map source hierarchy]()
 
-[Customize a map source level](t_CustomizeAMapSourceLevel.md)
+[Customize a map source level]()
 
-[Create a map](t_CreateAMap.md#)
+[Create a map]()
 

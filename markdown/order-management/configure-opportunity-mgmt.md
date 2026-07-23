@@ -2,6 +2,7 @@
 title: Install and configure Opportunity Management
 description: Install the Opportunity Management application, which enables sales agents and account executives to get pre-sales product recommendations based on customer needs. You then assign the user roles and configure related features, such as needs analysis, used in Opportunity Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-opportunity-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Install Opportunity Management](../task/install-opportunity-management.md)
+[Install Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-opportunity-management.md)
 
 </td><td>
 
@@ -41,7 +42,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Assign user roles in Sales Customer Relationship Management applications](configure-SOM-roles.md)
+
 
 </td><td>
 
@@ -53,7 +54,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Configuring product offerings and catalogs](som-managing-product-catalogs.md)
+[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-managing-product-catalogs.md)
 
 </td><td>
 
@@ -65,11 +66,11 @@ Product catalog admin
 
 </td></tr><tr><td>
 
-[Configuring product pricing](../task/som-create-price-list-line.md)
+[Configuring product pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-price-list-line.md)
 
 </td><td>
 
-Define the [price lists](../task/som-create-price-list.md), pricing strategies, and other pricing features that you want to use, unless they've been previously defined.
+Define the [price lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-price-list.md), pricing strategies, and other pricing features that you want to use, unless they've been previously defined.
 
 </td><td>
 
@@ -77,7 +78,7 @@ Pricing admin
 
 </td></tr><tr><td>
 
-[Configure needs analysis](configuring-needs-analysis.md)
+[Configure needs analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-needs-analysis.md)
 
 </td><td>
 
@@ -89,7 +90,7 @@ Product catalog admin
 
 </td></tr><tr><td>
 
-[Configure location-based transactions](config-location-transaction.md)
+[Configure location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/config-location-transaction.md)
 
 </td><td>
 
@@ -101,7 +102,7 @@ Admin and product catalog admin
 
 </td></tr><tr><td>
 
-[Create opportunity stages](../task/opportunity-management-opportunity-stages.md)
+[Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-opportunity-stages.md)
 
 </td><td>
 
@@ -113,7 +114,7 @@ Opportunity setup writer
 
 </td></tr><tr><td>
 
-[Create a sales cycle for an opportunity](../task/opportunity-management-sales-cycle-types.md)
+[Create a sales cycle for an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-sales-cycle-types.md)
 
 </td><td>
 
@@ -125,7 +126,7 @@ Opportunity setup writer
 
 </td></tr><tr><td>
 
-[Associate a sales cycle with the opportunity stage](../task/opportunity-management-sales-cycle-stages.md)
+[Associate a sales cycle with the opportunity stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-sales-cycle-stages.md)
 
 </td><td>
 
@@ -135,5 +136,23 @@ Link one or multiple opportunity stages with a sales cycle.
 
 Opportunity setup writer
 
+</td></tr><tr><td>
+
+[Configure guided selling activities in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-guided-selling-exit-criteria.md)
+
+</td><td>
+
+Define mandatory exit criteria per opportunity stage to enforce process compliance and prevent stage advancement until required actions are complete.
+
+</td><td>
+
+Opportunity setup writer
+
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
+

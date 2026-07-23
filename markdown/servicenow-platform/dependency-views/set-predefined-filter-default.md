@@ -2,6 +2,7 @@
 title: Set a predefined filter as default
 description: You can set a custom predefined filter as the default predefined filter for viewing maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/set-predefined-filter-default.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -42,24 +43,24 @@ Role required: sn\_cmdb\_admin or admin
 
 In **Map Settings**, when you select the `Default` option for **Predefined Filters**, the custom predefined filter that was set, will be applied.
 
-**Parent Topic:**[Administer Dependency Views](../topic/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 
 
-[Create or modify map indicators](t_CreateModifyNGBSMMapIndicators.md)
+[Create or modify map indicators]()
 
-[Create or modify map icons](t_CreateModifyNGBSMMapIcons.md)
+[Create or modify map icons]()
 
-[Create a predefined filter](create-predefined-filter.md)
+[Create a predefined filter]()
 
-[Create or modify Map Related Items](t_CreateModifyNGBSMMapRelatedItems.md)
+[Create or modify Map Related Items]()
 
-[Create or modify Dependency Views menu actions](t_CreateModifyNGBSMMenuActions.md)
+[Create or modify Dependency Views menu actions]()
 
-[Condition and script parameters for menu actions](../reference/condition-script-parameters.md)
+[Condition and script parameters for menu actions]()
 
-[Create or edit a dependency type](t_CreateMapScript.md)
+[Create or edit a dependency type]()
 
-[Filter the view of a Dependency Views map](t_FilterViewNGBSMMap.md)
+[Filter the view of a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/t_FilterViewNGBSMMap.md)
 

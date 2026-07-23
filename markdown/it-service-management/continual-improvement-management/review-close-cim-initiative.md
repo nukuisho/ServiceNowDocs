@@ -2,11 +2,12 @@
 title: Review and close an improvement
 description: Once all tasks in each phase of the improvement have been completed, the Improvement Coordinator sets the improvement to review for the Improvement Manager to close.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/review-close-cim-initiative.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Managing improvements, Continual Improvement Management, IT Service Management]
 ---
@@ -44,7 +45,7 @@ Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
         The improvement is no longer shown in the Open Improvement Register list.
 
-    ![Closed process flow](../image/cim-closed.png)
+    \[Omitted image "cim-closed.png"\] Alt text: Closed process flow
 
 
 ## Close improvement
@@ -217,12 +218,12 @@ Work notes
 |State|\*Closed Complete|
 |Percent Complete|\*100|
 
-**Parent Topic:**[Managing improvements](../concept/cim-improvement-initiative-mgmt.md)
+**Parent Topic:**[Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
 
 **Related topics**  
 
 
-[Improvement field descriptions](../reference/cim-field-descriptions.md)
+[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
 
-[Applications integrated with Continual Improvement Management](../reference/cim-integration.md)
+[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-integration.md)
 

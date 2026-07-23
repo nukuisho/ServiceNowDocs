@@ -2,6 +2,7 @@
 title: Export quotes
 description: Export a list of all quotes in Quote Management and provide it to a customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-export-quotes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
@@ -40,5 +41,5 @@ Role required: sales\_agent
     The list of quotes is exported according to the parameters set.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

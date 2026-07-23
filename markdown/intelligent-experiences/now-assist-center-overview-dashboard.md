@@ -2,6 +2,7 @@
 title: Now Assist Center Overview dashboard
 description: Use the Now Assist Center Overview dashboard to monitor key metrics for AI asset activation, adoption, and usage across your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-overview-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-17"
@@ -20,13 +21,13 @@ The Now Assist Center Overview dashboard displays a summary of AI asset activati
 
 Use the **Date** filter at the top of the Overview dashboard to set the time range for all metrics on the page. The default time range is **Last 3 months**.
 
-![Now Assist Center Overview dashboard](../image/now-assist-center-monitor-overview.png "Now Assist Center Overview dashboard")
+\[Omitted image "now-assist-center-monitor-overview.png"\] Alt text: Now Assist Center Overview dashboard
 
 ## Activation
 
 The Activation section displays the current number of active AI assets and their trends over the selected time range.
 
-![Activation section of the Now Assist Center Overview dashboard, showing counts for active skills, assistants, and AI agents, and a trend line chart.](../image/now-assist-center-overview-activation.png "Activation section of the Now Assist Center Overview dashboard")
+\[Omitted image "now-assist-center-overview-activation.png"\] Alt text: Activation section of the Now Assist Center Overview dashboard, showing counts for active skills, assistants, and AI agents, and a trend line chart.
 
 -   **Active skills**
 
@@ -49,7 +50,7 @@ The Activation section displays the current number of active AI assets and their
 
 The **Adoption** section shows how users across departments are engaging with AI assets over the selected time range.
 
-![Adoption section of the Now Assist Center Overview dashboard, showing bar charts for users using skills, assistants, and AI agents by department, and a trend line chart by asset type.](../image/now-assist-center-overview-adoption.png "Adoption section of the Now Assist Center Overview dashboard")
+\[Omitted image "now-assist-center-overview-adoption.png"\] Alt text: Adoption section of the Now Assist Center Overview dashboard, showing bar charts for users using skills, assistants, and AI agents by department, and a trend line chart by asset type.
 
 -   **Number of users using skills**
 
@@ -72,7 +73,7 @@ The **Adoption** section shows how users across departments are engaging with AI
 
 The **Usage** section displays the total number of executions for each AI asset type, grouped by department and asset type, over the selected time range.
 
-![Usage section of the Now Assist Center Overview dashboard, showing execution counts for skills, assistants, and AI agents by department, and a trend line chart by asset type.](../image/now-assist-center-overview-usage.png "Usage section of the Now Assist Center Overview dashboard")
+\[Omitted image "now-assist-center-overview-usage.png"\] Alt text: Usage section of the Now Assist Center Overview dashboard, showing execution counts for skills, assistants, and AI agents by department, and a trend line chart by asset type.
 
 -   **Total number of skill executions**
 
@@ -91,5 +92,5 @@ The **Usage** section displays the total number of executions for each AI asset 
     This area of the dashboard displays a trend line chart showing the total executions for skills, assistants, and AI agents over the selected time range. Use the trend lines to compare usage volumes across asset types and monitor changes in execution patterns over time.
 
 
-**Parent Topic:**[View AI assets usage and performance in Now Assist Center](../task/now-assist-center-view-ai-usage.md)
+**Parent Topic:**[View AI assets usage and performance in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md)
 

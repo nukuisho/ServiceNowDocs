@@ -2,6 +2,7 @@
 title: PCI compliance score dashboard
 description: The PCI compliance score dashboard shows how your instance conforms to payment card industry \(PCI\) security standards. Use the dashboard to view your compliance score and modify your configuration to improve security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/pci-comp-score-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Check the daily compliance score and configure security property se
 
 The PCI compliance score dashboard shows how your instance conforms to payment card industry \(PCI\) security standards. Use the dashboard to view your compliance score and modify your configuration to improve security.
 
-![PCI compliance score dashboard with sample values](../image/pci-comp-dash.png)
+\[Omitted image "pci-comp-dash.png"\] Alt text: PCI compliance score dashboard with sample values
 
 ## Required ServiceNow AI Platform roles
 
@@ -62,7 +63,7 @@ PCI Compliance
 
 </td><td>
 
-![Stacked bar chart](../../../reuse/reporting/image/bar-stacked.svg) Stacked bar chart
+\[Omitted image "bar-stacked.svg"\] Alt text: Stacked bar chart Stacked bar chart
 
 </td><td>
 
@@ -73,5 +74,5 @@ Security Configurations \[isc\_security\_configurations\]
 Displays compliant and non-compliant security configurations in high, medium, and low categories. Click an area of the report to display the matching security configurations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Check the daily compliance score and configure security property settings](../../../administer/security/concept/instance-sec-center-hardening.md)
+</table>**Parent Topic:**[Check the daily compliance score and configure security property settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-hardening.md)
 

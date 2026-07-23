@@ -2,13 +2,14 @@
 title: Define or update a Business hours policy
 description: A Business hours job applies policies to identify resources that are running when they should be powered off, reports them, and can start and stop them on a schedule that you specify. Running only during specified business hours can significantly reduce your cloud spend.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/bh-policy-create-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Improve resource usage with Business hours, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Improve resource usage with Business hours, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Define or update a Business hours policy
@@ -94,7 +95,7 @@ Run order
 
 The order in which to apply policies. Each policy must have a unique value. The system applies policies in low-to-high run order and performs the actions for the first policy that matches. After a match, no other policy is applied to the resource.
 
- **Important:** The system applies two batches of policies in the precedence order that you specify: Policies created by Admins and policies created by Insights Owners. See the **Precedence** setting in [Configure Business hours operations](bh-settings-config-cloudin.md).
+ **Important:** The system applies two batches of policies in the precedence order that you specify: Policies created by Admins and policies created by Insights Owners. See the **Precedence** setting in [Configure Business hours operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/bh-settings-config-cloudin.md).
 
  Run order values for Unassigned Resources policies and Business hours policies don’t interfere with each other.
 
@@ -175,7 +176,7 @@ Business hour schedule
 
 </td><td>
 
-The schedule that specifies the days of the week and times of day that the resource should be powered on.Select a schedule from the list or define a schedule by navigating to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Administration** &gt; **Business hours schedules**. For more information, see [Create Business hours schedule](create-bh-schedule.md).
+The schedule that specifies the days of the week and times of day that the resource should be powered on.Select a schedule from the list or define a schedule by navigating to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Administration** &gt; **Business hours schedules**. For more information, see [Create Business hours schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-bh-schedule.md).
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.
@@ -190,18 +191,16 @@ The schedule that specifies the days of the week and times of day that the resou
 
 After you create or update a policy, select **Apply policies** to apply the created policy to a resource. This action also notifies you if enough recent billing data for AWS, Azure, or Google doesn't exist to apply the policy.
 
-**Parent Topic:**[Improve resource usage with Business hours](../concept/improve-res-use-business.md)
+**Parent Topic:**[Improve resource usage with Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/improve-res-use-business.md)
 
 **Related topics**  
 
 
-[Business hours](../concept/bh-cloudin.md)
+[Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/bh-cloudin.md)
 
-[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)
+[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)
 
-[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
+[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_StandardChangeCatalogPlugin.md)
 
-[bundle-itsm.create-a-change-request-template]
-
-[Exclude a resource from all Cloud Cost Management reports](exclusion-list-add-to-cloudin.md)
+[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

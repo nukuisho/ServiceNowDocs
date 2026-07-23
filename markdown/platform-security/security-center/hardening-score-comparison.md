@@ -2,6 +2,7 @@
 title: Hardening score comparison
 description: Gain visibility to the health of your hardening settings and use this data to improve the security posture of your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/hardening-score-comparison.html
 release: australia
 product: Security Center
 classification: security-center
@@ -15,7 +16,7 @@ breadcrumb: [Security hardening, Security configuration console, Security Center
 
 Gain visibility to the health of your hardening settings and use this data to improve the security posture of your instance.
 
-![Hardening score comparison](../images/hard-score-comp.png)
+\[Omitted image "hard-score-comp.png"\] Alt text: Hardening score comparison
 
 This page displays a summary of your hardening compliance and the changes made to your instance that impact this score.
 
@@ -35,8 +36,8 @@ The hardening score comparison page displays hardening settings with changes in 
 
 -   **Changed hardening settings**
 
-    Displays the list of hardening settings that have changed compliance statues between the selected dates. Review settings that became non-compliant and decreased your hardening comparison score for opportunities to make them compliant to increase your score. See [Increase hardening compliance score](../task/increase-hardening-comp-score.md).
+    Displays the list of hardening settings that have changed compliance statues between the selected dates. Review settings that became non-compliant and decreased your hardening comparison score for opportunities to make them compliant to increase your score. See [Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/increase-hardening-comp-score.md).
 
 
-**Parent Topic:**[Security hardening](sc-hardening.md)
+**Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-hardening.md)
 

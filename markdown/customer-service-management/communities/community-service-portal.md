@@ -2,6 +2,7 @@
 title: Community Service Portal
 description: The Community Service Portal is a web interface that is based on the ServiceNow Service Portal application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/community-service-portal.html
 release: australia
 product: Communities
 classification: communities
@@ -17,57 +18,57 @@ The Community Service Portal is a web interface that is based on the ServiceNow 
 
 The Community Service Portal is designed to allow you to have control over the behavior of your portal and help create an attractive and engaging user experience.
 
--   **[Customize Community Service Portal](../task/customize-community-service-portal.md)**  
+-   **[Customize Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/customize-community-service-portal.md)**  
 Customize community service portal according to your needs.
--   **[Configure Community Service Portal header menus](../task/configure-unified-theme-portal.md)**  
+-   **[Configure Community Service Portal header menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-unified-theme-portal.md)**  
 Configure Community Service Portal header menus to create a consistent user experience across all your end-user facing service portals using a modern interface and a unified navigation menu structure.
--   **[Configure announcement for community members](../task/manage-announcements.md)**  
+-   **[Configure announcement for community members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/manage-announcements.md)**  
 Global announcements appear in the banner and broadcast messages to all community members. Forum announcements appear in the Announcements section on the forum page. You can also send the announcement by email.
--   **[Community pages that support SEO data](../reference/communities-seo-data.md)**  
+-   **[Community pages that support SEO data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-seo-data.md)**  
 To improve search results for community members using external search engines, the Communities application generates SEO meta tags and injects the tags into questions, topics, forums, and other page types.
 
-**Parent Topic:**[Configuring communities](../reference/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 
 
-[Community content types](c_communities-content-types.md)
+[Community content types]()
 
-[Community feedback types](feedback-types.md)
+[Community feedback types]()
 
-[Community access types](access-types.md)
+[Community access types]()
 
-[Platform Analytics Solutions for Communities](../../../use/dashboards/application-content-packs/communities-content-pack.md)
+[Platform Analytics Solutions for Communities]()
 
-[Migrate Social Q&amp;A data to Communities](../task/migrate-socialqa.md)
+[Migrate Social Q&amp;A data to Communities]()
 
-[View community logs](../task/view-community-logs.md)
+[View community logs]()
 
-[View community feedback and bookmarks tables](../task/view-feedback-bookmark-tables.md)
+[View community feedback and bookmarks tables]()
 
-[Create a case from a discussion](case-management-integration.md)
+[Create a case from a discussion]()
 
-[Enable knowledge harvesting](communities-km-integration-configure.md)
+[Enable knowledge harvesting]()
 
-[Activate Communities plugins](../task/activate-communities.md)
+[Activate Communities plugins]()
 
-[Community setup guide for admins](../reference/r_setup-communities-admin.md)
+[Community setup guide for admins]()
 
-[Configure community content types](../task/enable-content-types-for-community.md)
+[Configure community content types]()
 
-[Configure video sources for a community](../../customer-service-management/task/create-video-configuration.md)
+[Configure video sources for a community]()
 
-[Configure community forums](../task/configure-forums-topics.md)
+[Configure community forums]()
 
-[Forum and user permissions management](communities-permissions.md)
+[Forum and user permissions management]()
 
-[Configure the community profile](../task/configure-community-profile.md)
+[Configure the community profile]()
 
-[Create community Terms and Conditions](../task/create-terms-conditions.md)
+[Create community Terms and Conditions]()
 
-[Enable users to self-register to a community](configure-registration.md)
+[Enable users to self-register to a community]()
 
-[Moderate a community](../task/moderate-communities.md)
+[Moderate a community]()
 
-[Administer gamification](communities-gamification-administer.md)
+[Administer gamification]()
 

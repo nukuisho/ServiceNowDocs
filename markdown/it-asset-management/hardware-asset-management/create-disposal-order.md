@@ -2,13 +2,14 @@
 title: Create a disposal order
 description: Create a disposal order for hardware or consumable assets. You can create a disposal order for an asset reaching its end of life cycle or an asset that is no longer functional.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-disposal-order.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a disposal order
@@ -23,29 +24,29 @@ Role required: asset
 
 ## About this task
 
-To add the consumables to a disposal order, select **Mark for disposal**. This will set the Planned for disposal field to **true**. For more details, see [Dispose of consumable assets](dispose-consumables.md).
+To add the consumables to a disposal order, select **Mark for disposal**. This will set the Planned for disposal field to **true**. For more details, see [Dispose of consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/dispose-consumables.md).
 
 Use the Workflow Studio application to create the Hardware Asset Disposal flow to take you through the entire hardware disposal order process.
 
-The hardware disposal order goes through various stages before it’s completed. Each stage is associated with a hardware disposal task. To move through the various stages, close each task until you reach the last stage. After you complete the last task, the hardware disposal order is complete. For more information about the hardware disposal order stages, see [Hardware disposal order stages](../reference/hardware-disposal-stages.md).
+The hardware disposal order goes through various stages before it’s completed. Each stage is associated with a hardware disposal task. To move through the various stages, close each task until you reach the last stage. After you complete the last task, the hardware disposal order is complete. For more information about the hardware disposal order stages, see [Hardware disposal order stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-disposal-stages.md).
 
 You can cancel a disposal order until it reaches the transit stage in the workflow. After your disposal order is in the confirmation stage, you can't cancel that order. You can cancel a task that is in a draft, scheduling, or transit stage by selecting **Closed Incomplete** from the **State** list and closing the task.
 
-Starting with Hardware Asset Management 15.0.0 version, the asset resale option is integrated at the final stage of the disposal workflow that is the Documentation stage. When the Disposal order task is in the Documentation stage, you can choose either to dispose of or to resell the assets. For more information about asset resale, see [Resale hardware assets](create-resale-order.md).
+Starting with Hardware Asset Management 15.0.0 version, the asset resale option is integrated at the final stage of the disposal workflow that is the Documentation stage. When the Disposal order task is in the Documentation stage, you can choose either to dispose of or to resell the assets. For more information about asset resale, see [Resale hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-resale-order.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Hardware Asset Workspace** &gt; **Inventory view**.
 
-<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d327530e131">
+<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d350190e131">
 
 Interface
 
-</th><th align="left" id="d327530e134">
+</th><th align="left" id="d350190e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d327530e140">
+</th></tr></thead><tbody><tr><td id="d350190e140">
 
 **Core UI**
 
@@ -53,7 +54,7 @@ Action
 
 Navigate to **All** &gt; **Inventory** &gt; **Create Disposal Order**.
 
-</td></tr><tr><td id="d327530e161">
+</td></tr><tr><td id="d350190e161">
 
 **Hardware Asset Workspace**
 
@@ -141,7 +142,7 @@ Person responsible for disposing of the asset.
 
 9.  Select the asset that you want to verify and select **Verify**.
 
-    You can't select an excluded asset. For more information, see [Hardware Asset Management license exclusion](../concept/ham-license-exclusion.md).
+    You can't select an excluded asset. For more information, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 
     The state of the asset changes to retired and the substate changes to pending disposal. The Scheduled Pickup task is created as a hardware disposal task.
 
@@ -180,75 +181,79 @@ Person responsible for disposing of the asset.
     -   For any maintenance contracts that are associated with the disposed asset, the **Date removed** field in the **Contracts** tab is populated and the disposed asset is no longer part of the contract.
     -   Any entitlements that are associated with the disposed asset are also removed.
 
--   **[Resale hardware assets](create-resale-order.md)**  
+-   **[Resale hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-resale-order.md)**  
 Enhance asset management by reselling eligible retired hardware assets instead of disposing of them.
--   **[Perform bulk update of resale value for the assets](bulk-update-resale-value-asset-state.md)**  
+-   **[Perform bulk update of resale value for the assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/bulk-update-resale-value-asset-state.md)**  
 Update the resale values for assets planned for disposal, and indicate that you want to resell them instead of disposing of them, to streamline the asset resale process.
 
-**Parent Topic:**[Using Hardware Asset Management](../concept/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
 
-[Manage asset bundles from your inventory](create-bundled-assets.md)
+[Work with hardware normalization]()
 
-[Manage your inventory through pallet assets](../concept/pallets-for-inventory-management.md)
+[Manage asset bundles from your inventory]()
 
-[Manage loaner assets](manage-loaner-asset.md)
+[Manage your inventory through pallet assets]()
 
-[Donate assets to charity organizations](../concept/donate-asset-to-charity-organizations.md)
+[Manage loaner assets]()
 
-[Use Advanced Shipment Notification](advanced-shipment-notification.md)
+[Donate assets to charity organizations]()
 
-[Manage RMA requests](../concept/manage-rma-req.md)
+[Use Advanced Shipment Notification]()
 
-[Create an inventory stock order request](create-inventory-stock-order.md)
+[Manage RMA requests]()
 
-[Use a hardware asset request flow](hardware-request-flow.md)
+[Create an inventory stock order request]()
 
-[Audit hardware asset inventory](../concept/ham-inventory-audit.md)
+[Fulfilling hardware asset requests]()
 
-[Request a Hardware Asset Refresh](hardware-asset-refresh.md#)
+[Audit hardware asset inventory]()
 
-[Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md)
+[Request a Hardware Asset Refresh]()
 
-[Reclaim hardware assets](../concept/manage-asset-reclaim.md)
+[Manage your expiring contracts for leased hardware assets]()
 
-[View RFID information of assets](view-rfid-info.md)
+[Reclaim hardware assets]()
 
-[Manage the lifecycle of hardware models with calculated lifecycle templates](../concept/manage-ham-lifecycle-temp.md)
+[View RFID information of assets]()
 
-[Receive asset warranty details from Lenovo](../concept/receive-warranty-details-lenovo.md)
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
-[Manage stockrooms](../concept/manage-your-stockrooms.md)
+[Create an internal lifecycle in the Hardware Asset Workspace]()
 
-[Track shipments using the integration framework](../concept/tracking-shipments-using-integration-framework.md)
+[Receive asset warranty details from Lenovo]()
 
-[Track asset location using indoor maps](track-asset-location-using-indoor-maps.md)
+[Manage stockrooms]()
 
-[Assess performance of Hardware Asset Management](../concept/suc-goal-act-hw.md)
+[Track shipments using the integration framework]()
 
-[Manage refresh of assets using Zero Touch Refresh](../concept/refresh-hardware-uisng-ztr.md)
+[Track asset location using indoor maps]()
 
-[Configure the Total Cost of Ownership of assets](../concept/configure-ham-tco.md)
+[Assess performance of Hardware Asset Management]()
 
-[Manage Hardware Asset Management subscriptions](../concept/managing-ham-subscriptions.md)
+[Manage refresh of assets using Zero Touch Refresh]()
 
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](../concept/manage-repair-of-defective-ham-assets.md)
+[Configure the Total Cost of Ownership of assets]()
 
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](../concept/manage-asset-picking-stockroom-ham-ws.md)
+[Manage Hardware Asset Management subscriptions]()
 
-[Manage hardware asset tasks using the Mobile Agent application](../concept/manage-hardware-asset-tasks-mobile-agent.md)
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
 
-[Manage asset put away using the Hardware Asset Workspace](../concept/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
 
-[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+[Manage hardware asset tasks using the Mobile Agent application]()
 
-[Acknowledge receipt of assets on the Employee Center portal](receive-assets-employee-center.md)
+[Manage asset put away using the Hardware Asset Workspace]()
 
-[Update associated Decision tables for HAM flows](trigger-flow-ham.md)
+[Audit your hardware assets by using Asset Attestation]()
 
-[Resale hardware assets](create-resale-order.md)
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
+
+[Resale hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-resale-order.md)
 

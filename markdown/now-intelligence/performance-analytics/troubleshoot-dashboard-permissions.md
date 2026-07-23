@@ -2,12 +2,13 @@
 title: Solving permissions issues on a responsive dashboard
 description: Dashboard permissions can be set in several different locations.Permissions on dashboards can be complicated. If you set a permission on a dashboard group, for example, permissions set on a dashboard within that group override it. This matrix shows what is visible based on various combinations of permissions.Users with edit permissions on a responsive dashboard may also need edit permissions on another dashboard that the tab is used in.Dashboards in scoped applications may not be visible to non-admin users. Non-admin users may not be able to view the dashboard or the widgets on the dashboard don't load.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/troubleshoot-dashboard-permissions.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Dashboard permissions, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -46,6 +47,17 @@ Role required: dashboard\_admin, pa\_admin
     The dashboard owner, users with the dashboard\_admin or admin role, and users with pa\_power\_user or pa\_admin roles who can edit the dashboard can perform this step. Other users who can edit the dashboard can view this field but cannot edit it.
 
 
+**Related topics**  
+
+
+[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
+
+[Organize dashboards into groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_GroupDashboards.md)
+
+[How dashboard and dashboard group permissions interact on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_GroupDashboards.md)
+
+[Restrict responsive dashboard access to specific roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/restrict-dashboard-access-to-certain-roles.md)
+
 ## Dashboard permissions scenarios
 
 Permissions on dashboards can be complicated. If you set a permission on a dashboard group, for example, permissions set on a dashboard within that group override it. This matrix shows what is visible based on various combinations of permissions.
@@ -56,7 +68,7 @@ The Dashboard permissions scenarios table uses these abbreviations:
 -   DG = Dashboard Group
 -   RTR = Restrict to Roles
 
-    For more information, see [Restrict responsive dashboard access to specific roles](../../dashboards/task/restrict-dashboard-access-to-certain-roles.md).
+    For more information, see [Restrict responsive dashboard access to specific roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/restrict-dashboard-access-to-certain-roles.md).
 
 -   X = Unspecified
 
@@ -93,7 +105,7 @@ A dashboard is shared with a user with edit permissions. On some tabs, the user 
 
 1.  Navigate to the affected dashboard.
 
-2.  From the context menu ![](../../dashboards/image/icon-context-p.png), select **Dashboard Properties**.
+2.  From the context menu \[Omitted image "icon-context-p.png"\] Alt text:, select **Dashboard Properties**.
 
 3.  Select Launch Dependency Assessment.
 
@@ -101,7 +113,7 @@ A dashboard is shared with a user with edit permissions. On some tabs, the user 
 
 4.  Select the affected tab.
 
-5.  From the context menu ![](../../dashboards/image/icon-context-p.png), choose **Show Used By**.
+5.  From the context menu \[Omitted image "icon-context-p.png"\] Alt text:, choose **Show Used By**.
 
     The result shows the dashboards where the tab appears.
 

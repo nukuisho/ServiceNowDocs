@@ -2,6 +2,7 @@
 title: Customer and Service order details forms
 description: The Order details forms enable you to select, review, and modify captured customer or service orders.The Orders details page - customer order section enables you to review and modify the general details for a product or service order.The Orders details page - pricing section enables you to review and modify the pricing details for a customer or service order.The Orders details page - totals section enables you to review the final total pricing details for a customer or service order.The Orders details page - totals section enables you to review the final total pricing details for a customer or service order.The Orders details page - address section enables you to review and modify the billing and shipping details for a customer or service order.The Orders details page - notes section enables you to review and modify the additional details for a customer or service order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/field-descriptions-customer-orders.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Order Management reference, Reference, Sales Customer Relationship 
 
 The Order details forms enable you to select, review, and modify captured customer or service orders.
 
-**Parent Topic:**[Order Management reference](order-mgt-reference.md)
+**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-reference.md)
 
 ## Order details page - Customer Order fields
 
@@ -35,7 +36,7 @@ Number
 
 Unique system-assigned customer order number.
 
-**Note:** Both customer orders and service orders have an assigned ID with a prefix of ORD. To learn more about order types, see [Order types in Sales Customer Relationship Management](../concept/som-order-types.md).
+**Note:** Both customer orders and service orders have an assigned ID with a prefix of ORD. To learn more about order types, see [Order types in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-order-types.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ State
 
 </td><td>
 
-Indicator of the current processing state for the customer order, including all of its associated line items. **Note:** To view a comprehensive listing of customer order states with detailed descriptions, see [Customer Order form states](order-mgt-state-values.md#section-cust-order-state) and [Customer order states](order-mgt-state-values.md).
+Indicator of the current processing state for the customer order, including all of its associated line items. **Note:** To view a comprehensive listing of customer order states with detailed descriptions, see [Customer Order form states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-state-values.md) and [Customer order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-state-values.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Priority
 
 </td><td>
 
-The priority of completing the order. Options include:-   1 - Critical
+The priority of completing the order. The available options are:-   1 - Critical
 -   2- High
 -   3 - Moderate
 -   4 - Low
@@ -227,7 +228,7 @@ Renewal adjustment basis
 
 </td><td>
 
-Pricing method applied during the renewal of a service contract. It enables agents to specify whether the renewal price should be based on the current market rate or the previously contracted rate. Options include:-   List price: Renews the contract at the current market price of the product or service at the time of renewal.
+Pricing method applied during the renewal of a service contract. It enables agents to specify whether the renewal price should be based on the current market rate or the previously contracted rate. The available options are:-   List price: Renews the contract at the current market price of the product or service at the time of renewal.
 -   Contracted price: Renews the contract using the original contract price, with optional adjustments
 
 </td></tr><tr><td>
@@ -236,7 +237,7 @@ Renewal adjustment type
 
 </td><td>
 
-Method used to adjust the renewal price of a service contract when the value of the Renewal adjustment basis field is set to Contracted price. Options include:-   Markup %: Increases the renewal price by a specified percentage above the contracted price.
+Method used to adjust the renewal price of a service contract when the value of the Renewal adjustment basis field is set to Contracted price. The available options are:-   Markup %: Increases the renewal price by a specified percentage above the contracted price.
 -   Markdown %: Decreases the renewal price by a specified percentage below the contracted price.
 
 The field is disabled if the value of the Renewal adjustment basis field is set to List price.
@@ -357,7 +358,7 @@ Shows the number of months the subscription is valid based on the contract start
 </table>**Related topics**  
 
 
-[Add subscription pricing to an order](../task/add-subscription-pricing-to-an-order.md)
+[Add subscription pricing to an order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-subscription-pricing-to-an-order.md)
 
 ## Order details page - Address fields
 

@@ -2,6 +2,7 @@
 title: getScore\(String indicator, Object onDate\)
 description: Returns the score of the specified indicator for the specified date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/PAFU-getScore\_S\_O.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -30,30 +31,30 @@ Example:
 pa.getScore($[[Number of open incidents]], score_end);
 ```
 
-**Parent Topic:**[PAFormulaUtils API](../concept/PAFormulaUtils.md)
+**Parent Topic:**[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
 
 **Related topics**  
 
 
-[getChange\(String indicator, Object fromDate, Object toDate\)](PAFU-getChange_S_O_O.md)
+[getChange\(String indicator, Object fromDate, Object toDate\)]()
 
-[getChangePercentage\(String indicator, Object fromDate, Object toDate\)](PAFU-getChangePercentage_S_O_O.md)
+[getChangePercentage\(String indicator, Object fromDate, Object toDate\)]()
 
-[getCurrentAggregateID\(\)](PAFU-getCurrentAggregateID.md)
+[getCurrentAggregateID\(\)]()
 
-[getCurrentBreakdownID\(\)](PAFU-getCurrentBreakdownID.md)
+[getCurrentBreakdownID\(\)]()
 
-[getCurrentBreakdownLevel2ID\(\)](PAFU-getCurrentBreakdownLevel2ID.md)
+[getCurrentBreakdownLevel2ID\(\)]()
 
-[getCurrentElementID\(\)](PAFU-getCurrentElementID.md)
+[getCurrentElementID\(\)]()
 
-[getCurrentElementLevel2ID\(\)](PAFU-getCurrentElementLevel2ID.md)
+[getCurrentElementLevel2ID\(\)]()
 
-[getGap\(String indicator, Object onDate\)](PAFU-getGap_S_O.md)
+[getGap\(String indicator, Object onDate\)]()
 
-[getGlobalTarget\(String indicator, Object onDate\)](PAFU-getGlobalTarget_S_O.md)
+[getGlobalTarget\(String indicator, Object onDate\)]()
 
-[getPersonalTarget\(String indicator, Object onDate\)](PAFU-getPersonalTarget_S_O.md)
+[getPersonalTarget\(String indicator, Object onDate\)]()
 
-[PAFormulaUtils API](../concept/PAFormulaUtils.md)
+[PAFormulaUtils API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/PAFormulaUtils.md)
 

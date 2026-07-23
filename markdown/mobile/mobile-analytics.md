@@ -2,6 +2,7 @@
 title: Usage Insights for mobile applications
 description: Usage Insights helps you understand usage and adoption of your mobile applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-analytics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Building mobile apps, Mobile Platform]
 
 Usage Insights helps you understand usage and adoption of your mobile applications.
 
-Video showing how to navigate and use Usage Insights 
+\[Omitted video\] Description: Video showing how to navigate and use Usage Insights
 
 This video shows you how to analyze the user experience within your applications using Usage Insights.
 
@@ -34,10 +35,10 @@ There are two mobile applications with the primary difference being the personas
     Mobile Agent focuses on the fulfiller or agent persona.
 
 
-![Usage Insights for Mobile overview page](../../user-exp-analytics/image/dashboard-overview-page.png)
+\[Omitted image "dashboard-overview-page.png"\] Alt text: Usage Insights for Mobile overview page
 
 **Related topics**  
 
 
-[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md)
+[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)
 

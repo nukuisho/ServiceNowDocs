@@ -2,6 +2,7 @@
 title: Standard chat
 description: With the Now Assist panel standard chat, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-panel-standard.html
 release: australia
 topic_type: concept
 last_updated: "2025-07-16"
@@ -13,7 +14,7 @@ breadcrumb: [Now Assist panel, Now Assist Experiences, Exploring Now Assist Admi
 
 With the Now Assist panel standard chat, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
 
-**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
+**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see .
 
 ## Now Assist panel overview
 
@@ -21,15 +22,15 @@ Agents can use the Now Assist panel to interact with and get assistance from gen
 
 Conversational aspects of the Now Assist panel, such as skill detection, are powered by Now LLM Service.
 
-**Note:** Now Assist skills must be enabled to appear on the Now Assist panel. For more information, see [Now Assist skills](../../now-assist-skills/concept/now-assist-skills.md).
+**Note:** Now Assist skills must be enabled to appear on the Now Assist panel. For more information, see [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 
-Let's get started by selecting the Now Assist icon ![Now Assist sparkle icon](../../../common/image/icon-ai-sparkle.png) to display the Now Assist panel.![Now Assist panel icon.](../images/now-assist-panel-icon.png)
+Let's get started by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist sparkle icon to display the Now Assist panel.\[Omitted image "now-assist-panel-icon.png"\] Alt text: Now Assist panel icon.
 
 If a number in a square appears, it indicates how many messages you missed when the Now Assist panel was closed.
 
-![Now Assist panel with callouts.](../images/now-assist-panel-screenshot-2.png "Now Assist panel")
+\[Omitted image "now-assist-panel-screenshot-2.png"\] Alt text: Now Assist panel with callouts.
 
-![Now Assist panel showing active chats, updates, and closed chats.](../images/now-assist-panel-chats.png)
+\[Omitted image "now-assist-panel-chats.png"\] Alt text: Now Assist panel showing active chats, updates, and closed chats.
 
 The Now Assist panel includes:
 
@@ -51,7 +52,7 @@ Expands the chat into a 90% screen-size window.
 
 </td></tr><tr><td>
 
-2 - ![Pushpin icon](../images/now-assist-panel-pushpin.png)
+2 - \[Omitted image "now-assist-panel-pushpin.png"\] Alt text: Pushpin icon
 
 </td><td>
 
@@ -93,11 +94,11 @@ Enter actions.
 
 Voice Input
 
- ![Voice input microphone on Now Assist panel.](../images/now-assist-panel-voice-input.png)
+ \[Omitted image "now-assist-panel-voice-input.png"\] Alt text: Voice input microphone on Now Assist panel.
 
 </td><td>
 
-If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the Now Assist panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice input for Now Assist panel](../../now-assist-admin/task/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for the Now Assist menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
+If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the Now Assist panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See  for the Now Assist menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
 
 </td></tr><tr><td>
 
@@ -136,11 +137,11 @@ Core UI
 
 </td></tr><tr><td>
 
-![Now Assist panel on Next Experience.](../images/now-assist-panel-overview-example.png)
+\[Omitted image "now-assist-panel-overview-example.png"\] Alt text: Now Assist panel on Next Experience.
 
 </td><td>
 
-![Now Assist panel on a Core UI incident form.](../images/now-assist-panel-overview-ui16-example.png)
+\[Omitted image "now-assist-panel-overview-ui16-example.png"\] Alt text: Now Assist panel on a Core UI incident form.
 
 </td></tr></tbody>
 </table>## Navigating from the Now Assist panel
@@ -169,7 +170,7 @@ You can generate a case or incident summarization from the Now Assist panel for 
 
 Get specific and accurate answers to your queries by using the Get Help skill option on the Now Assist panel. This skill is available to everyone entitled to Now Assist capabilities.
 
-For more information about the Now Assist Conversational Help skill which represents as Get Help on the Now Assist panel, see [Now Assist Conversational Help](../../now-assist-skills/concept/conversational-help-skills.md).
+For more information about the Now Assist Conversational Help skill which represents as Get Help on the Now Assist panel, see [Now Assist Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/conversational-help-skills.md).
 
 ## Resolution notes generation
 
@@ -179,7 +180,7 @@ To generate resolution notes from the Now Assist panel, select **Generate resolu
 
 ## Streaming responses
 
-After you enter a question or request on the Now Assist panel, Now Assist gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after the entire message has been delivered. An animated sparkle icon \(![Now Assist sparkle icon](../../../common/image/icon-ai-sparkle.png)\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded.
+After you enter a question or request on the Now Assist panel, Now Assist gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after the entire message has been delivered. An animated sparkle icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist sparkle icon\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded.
 
-**Parent Topic:**[Now Assist panel](now-assist-panel-overview.md)
+**Parent Topic:**[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)
 

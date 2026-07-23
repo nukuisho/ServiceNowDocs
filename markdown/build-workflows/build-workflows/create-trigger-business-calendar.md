@@ -16,7 +16,7 @@ Schedule a recurring trigger to run based on a business calendar, so your automa
 
 When you create a scheduled recurring trigger, the trigger runs based on the specified calendar dates. The schedule does not consider if the scheduled date falls on a weekend or a public holiday. This can cause errors, missed tasks, unwanted notifications, and broken integrations. To address this problem, you can use an existing business calendar to schedule the trigger so that the automation run only during business hours.
 
-**Note:** The trigger does not create a business calendar, it only refers an existing business calendar. To learn about business calendars, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md).
+**Note:** The trigger does not create a business calendar, it only refers an existing business calendar. To learn about business calendars, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md).
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: trigger\_designer, flow\_designer, or admin.
 
 2.  From the Workflow Studio home page, select **New** &gt; **Trigger**.
 
-    The New Trigger page appears![Screen to enter the details of your trigger.](../images/scheduled-trigger-biz-calendar.png).
+    The New Trigger page appears\[Omitted image "scheduled-trigger-biz-calendar.png"\] Alt text: Screen to enter the details of your trigger..
 
 3.  Fill in the details for your trigger.
 
@@ -94,7 +94,7 @@ Domain scope of the flow. For more information about domain separation, see [Dom
 
 6.  On the Trigger definition form, specify the **Scheduling Details**.
 
-    ![Form to specify the scheduling details for the trigger](../images/business-calendar-scheduling.png)
+    \[Omitted image "business-calendar-scheduling.png"\] Alt text: Form to specify the scheduling details for the trigger
 
 <table id="table_umj_g3l_k3c"><thead><tr><th>
 
@@ -133,7 +133,7 @@ Select if you want to differ the trigger schedule from the business calendar ent
 -   **before**
 If you select **before** or **after**, the form displays an **Offset number** field.
 
-![Specify the offset time in the offset number field.](../images/buniess-calendar-trigger-offset.png)
+\[Omitted image "buniess-calendar-trigger-offset.png"\] Alt text: Specify the offset time in the offset number field.
 
 Specify the offset time in the **Offset number** field. For example, run the trigger 60 minutes before the shift starts.
 
@@ -151,7 +151,7 @@ Specify the condition if you want to exclude certain business calendar entries f
 
 ## Result
 
-The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](use-saved-trigger.md).
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/use-saved-trigger.md).
 
-**Parent Topic:**[Create a saved scheduled trigger](create-scheduled-trigger.md)
+**Parent Topic:**[Create a saved scheduled trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-scheduled-trigger.md)
 

@@ -2,6 +2,7 @@
 title: Activity Definitions
 description: The ServiceNow AI Platform provides a few activity definitions within the base system. In addition, for the playbooks that SIR Workspace base system, there are a few activity definitions defined in the base system under Enterprise Security Case Management PAD Commons application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/build-activities.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,31 +30,31 @@ Here’s the list of activity definitions that are a part of the base system:
 |Delete Email|Security Incident \[sn\_si\_incident\]|Delete emails|Enterprise Security Case Management PAD Commons|
 |Yes No Outcome|Task \[task\]|Expected outcome|Enterprise Security Case Management PAD Commons|
 
--   **[Example Activity Definition: Send email](../task/example-activity-definition-send-email.md)**  
+-   **[Example Activity Definition: Send email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/example-activity-definition-send-email.md)**  
 The following is an example of Send email activity definition.
--   **[Submit to CSF X Sandbox](../task/submit-to-csf-x-sandbox.md)**  
+-   **[Submit to CSF X Sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/submit-to-csf-x-sandbox.md)**  
 Submit to CSF X Sandbox is an example of an activity definition process.
 
-**Parent Topic:**[Using SIR Workspace](../../secops-analyst-workspace/reference/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 
 
-[Working with Security Incident Records](../../secops-analyst-workspace/concept/using-analyst-workspace.md)
+[Working with Security Incident Records]()
 
-[Security Incident Playbook](../../secops-analyst-workspace/concept/security-incident-playbook.md#)
+[Security Incident Playbook]()
 
-[Prerequisites for the Playbooks](getting-started-with-processes.md)
+[Prerequisites for the Playbooks]()
 
-[Rebuilding existing playbooks in Workflow Studio](rebuilding-existing-playbooks-on-pad.md)
+[Rebuilding existing playbooks in Workflow Studio]()
 
-[Sample Playbooks for SIR Workspace](sir-workspace-playbooks.md)
+[Sample Playbooks for SIR Workspace]()
 
-[Working with MSI Records](../../secops-analyst-workspace/concept/working-with-msi-records.md)
+[Working with MSI Records]()
 
-[Working with Form UI actions](../../secops-analyst-workspace/concept/enable_workspace_form_ui_actions.md)
+[Working with Form UI actions]()
 
-[Security Incident Closure workflow](../../secops-analyst-workspace/concept/security-incident-closure-workflow_0.md)
+[Security Incident Closure workflow]()
 
-[Handle security incidents using Advanced Work Assignment](../../secops-analyst-workspace/task/handle-incidents-using-awa.md)
+[Handle security incidents using Advanced Work Assignment]()
 

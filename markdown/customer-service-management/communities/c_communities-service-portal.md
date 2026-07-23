@@ -2,6 +2,7 @@
 title: Community homepage features for logged in users
 description: Your community activity usually begins on the community homepage. If you are a logged in user, you see different information than non-logged in users. Your organization can customize the homepage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/c\_communities-service-portal.html
 release: australia
 product: Communities
 classification: communities
@@ -15,7 +16,7 @@ breadcrumb: [Using communities, Communities, Customer Service Management]
 
 Your community activity usually begins on the community homepage. If you are a logged in user, you see different information than non-logged in users. Your organization can customize the homepage.
 
-**Note:** The Community Service Portal header menu is not enabled by default. For more information, see [Configure Community Service Portal header menus](../task/configure-unified-theme-portal.md).
+**Note:** The Community Service Portal header menu is not enabled by default. For more information, see [Configure Community Service Portal header menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-unified-theme-portal.md).
 
 From the community homepage, you can access and use the following features:
 
@@ -119,38 +120,38 @@ Toggle between the Content List and Activity Feed. You can filter according to c
     -   To view all activity associated with a content item, click the content item. All activities, regardless of your subscriptions, are displayed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using communities](using-communities.md)
+</table>**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 
 
-[Navigating the activity feed](navigating-activity-feed.md)
+[Navigating the activity feed]()
 
-[Navigating the forum homepage](forum-homepage.md)
+[Navigating the forum homepage]()
 
-[Community homepage features for non-logged in users](community-homepage-non-logged.md)
+[Community homepage features for non-logged in users]()
 
-[Self-register to a community](../task/register-community.md)
+[Self-register to a community]()
 
-[Search the community](../task/search.md)
+[Search the community]()
 
-[Use a community profile](../task/community-profile.md)
+[Use a community profile]()
 
-[Community subscriptions](c_communities-subscriptions.md)
+[Community subscriptions]()
 
-[Request membership to a forum](../task/request-membership-forum.md)
+[Request membership to a forum]()
 
-[Accept an invitation to join a forum](../task/accept-invitation-forum.md)
+[Accept an invitation to join a forum]()
 
-[Post and respond to content in the community](../task/post-respond-content.md)
+[Post and respond to content in the community]()
 
-[Report inappropriate community content](../task/report-content.md)
+[Report inappropriate community content]()
 
-[Add featured content in a community](../task/feature-community-content.md)
+[Add featured content in a community]()
 
-[Email a community user](../task/private-message-community-user.md)
+[Email a community user]()
 
-[View a list of questions and create a case](../task/case-mgmt-integration-view-list.md)
+[View a list of questions and create a case]()
 
-[Gamification](communities-gamification.md)
+[Gamification]()
 

@@ -2,6 +2,7 @@
 title: Define trigger conditions
 description: Define trigger conditions that start a sequence by configuring simple triggers, or combining multiple triggers for initiating workflows from multiple record-based events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/define-trigger-conditions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Define trigger conditions that start a sequence by configuring simple triggers, 
 
 **Note:** Multi-trigger capability is available only with Playbooks versions 28.1 and higher on the Zurich release. For more information, see [Playbook release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/process-automation-designer-rn.md).
 
-Assign delegated developer roles to designated users. For more information, see [Grant delegated developer permissions for managing sequences](grant-delegated-developer-permissions.md).
+Assign delegated developer roles to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/grant-delegated-developer-permissions.md).
 
 Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
@@ -27,13 +28,13 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Sequences** &gt; **All Sequences**.
 
 4.  Select a sequence that you're creating or updating.
 
-5.  On the left sidebar, select the Triggers icon ![](../image/triggers-icon.png).
+5.  On the left sidebar, select the Triggers icon \[Omitted image "triggers-icon.png"\] Alt text:.
 
 6.  Select an option that indicates when the playbook should run from the to**Add trigger** drop-down list.
 
@@ -61,12 +62,12 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
 The triggers that you've created appear under the Record based triggers section on the Triggers pane.
 
-**Parent Topic:**[Create a customer engagement sequence](create-customer-engagement-sequence.md)
+**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-customer-engagement-sequence.md)
 
 **Related topics**  
 
 
-[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
+[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-triggers.md)
 
-[Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-trigger.md)
+[Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/add-configure-trigger.md)
 

@@ -2,6 +2,7 @@
 title: Time zones in resource plans
 description: Time zones are important in resource management when the users and groups doing the resource tasks are located in different locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/c\_TimeZonesInResourcePlans.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -15,7 +16,7 @@ breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Mana
 
 Time zones are important in resource management when the users and groups doing the resource tasks are located in different locations.
 
-Users maintain their time in the [My Calendar](c_MyCalendar.md) module and resource managers use the resource workbench or resource plan to assign tasks to various users.
+Users maintain their time in the [My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_MyCalendar.md) module and resource managers use the resource workbench or resource plan to assign tasks to various users.
 
 All users are assigned a schedule. If a user schedule changes, all time calculations change automatically. The schedules can be floating or time zone-specific.
 
@@ -23,42 +24,42 @@ All users are assigned a schedule. If a user schedule changes, all time calculat
 
 -   When a schedule is defined in a specific time zone, users in different time zones see the schedule with their own time zone applied. For example, if the resource manager sets a time zone-specific schedule for 08:00–17:00 in Amsterdam, the San Jose user sees the schedule as 23:00 of the previous day to 07:00 on the current day because the San Jose time zone is nine hours behind the Amsterdam time zone.
 
-**Parent Topic:**[Resource plans](c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
 
-[Create a resource plan](../task/t_CreateResourcePlanProjectTask.md)
+[Create a resource plan]()
 
-[Use Resource Finder to analyze resource availability](../task/create-resource-plan-with-finder.md)
+[Use Resource Finder to analyze resource availability]()
 
-[Create an operational resource plan](../task/create-operational-plan.md)
+[Create an operational resource plan]()
 
-[Request resources](../task/t_RequestResourcePlanApproval.md)
+[Request resources]()
 
-[Confirm a resource plan](../task/confirm-resource-plan.md)
+[Confirm a resource plan]()
 
-[Confirm and allocate a resource plan](../task/confirm-allocate-resource-plan.md)
+[Confirm and allocate a resource plan]()
 
-[Request a change to a resource plan](../task/t_RequestAChangeToAResourcePlan.md)
+[Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand](../task/recalculate-resource-costs.md)
+[Recalculate costs of a resource plan]()
 
-[Update cost plan related to a resource plan](../task/t_UpdateRelatedCostPlan.md)
+[Update cost plan related to a resource plan]()
 
-[Complete a resource plan](../task/t_CloseAResourcePlan.md)
+[Complete an allocated resource plan]()
 
-[Cancel a resource plan](../task/t_CancelAResourcePlan.md)
+[Cancel a resource plan]()
 
-[Delete a resource plan](../task/t_DeleteAResourcePlan.md)
+[Delete a resource plan]()
 
-[Extend a resource plan](../task/extend-resource-plan.md)
+[Extend a resource plan]()
 
-[Request extension of an allocated resource plan](../task/request-extension-allocated-resource-plan.md)
+[Request extension of an allocated resource plan]()
 
-[Allocate resources for the extended period](../task/allocate-resources-for-extended-period.md)
+[Allocate resources for the extended period]()
 
-[Reduce the duration of a resource plan](../task/reduce-resource-plan.md)
+[Reduce the duration of a resource plan]()
 
-[Associate a time card with a resource plan](../task/t_AssocATimeCardWithAResourcePlan.md)
+[Associate a time card with a resource plan]()
 

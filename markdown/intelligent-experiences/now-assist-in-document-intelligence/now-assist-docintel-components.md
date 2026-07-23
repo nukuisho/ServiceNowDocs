@@ -2,6 +2,7 @@
 title: Components installed with Now Assist in Document Intelligence
 description: Components are installed with the activation of Now Assist in Document Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/now-assist-docintel-components.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -20,32 +21,32 @@ Components are installed with the activation of Now Assist in Document Intellige
 
 There are no roles installed with Now Assist in Document Intelligence. It uses the same roles included with the Document Intelligence application.
 
-For more information, see [Components installed with Document Intelligence](installed-with-document-intelligence.md).
+For more information, see [Components installed with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/installed-with-document-intelligence.md).
 
 ## Tables installed
 
 Now Assist in Document Intelligence uses the same tables included with the Document Intelligence application.
 
-For more information, see [Components installed with Document Intelligence](installed-with-document-intelligence.md).
+For more information, see [Components installed with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/installed-with-document-intelligence.md).
 
-**Parent Topic:**[Now Assist in Document Intelligence reference](now-assist-in-document-intelligence-reference.md)
+**Parent Topic:**[Now Assist in Document Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-in-document-intelligence-reference.md)
 
 **Related topics**  
 
 
-[Data extraction modes in Now Assist in Document Intelligence](data-extraction-modes-now-assist-document-intelligence.md)
+[Data extraction modes in Now Assist in Document Intelligence]()
 
-[Document and visual insights AI agent](document-and-visual-insights-ai-agent.md)
+[Document and visual insights AI agent]()
 
-[Document Intelligence tool for Now Assist Skill Kit](document-visual-intelligence-skill-kit-tool.md)
+[Document Intelligence tool for Now Assist Skill Kit]()
 
-[Field types in Now Assist in Document Intelligence](now-assist-document-intelligence-field-types.md)
+[Field types in Now Assist in Document Intelligence]()
 
-[Now Assist in Document Intelligence forms](now-assist-document-intelligence-forms.md)
+[Now Assist in Document Intelligence forms]()
 
-[Limitations in Now Assist in Document Intelligence](now-assist-document-intelligence-limitations.md)
+[Limitations in Now Assist in Document Intelligence]()
 
-[Large language models used by Now Assist in Document Intelligence](llms-now-assist-document-intelligence.md)
+[Large language models used by Now Assist in Document Intelligence]()
 
-[Languages supported by Now Assist in Document Intelligence](languages-supported-now-assist-document-intelligence.md)
+[Languages supported by Now Assist in Document Intelligence]()
 

@@ -2,6 +2,7 @@
 title: View the unified map for a business application in Enterprise Modeling and Visualization
 description: You can view and model the unified map for your business applications, using Enterprise Modeling and Visualization. Using the Enterprise Modeling and Visualization \[com.snc.apm\_modelling\_tool\] functionality in Enterprise Architecture Workspace, you can modify your existing applications hierarchy and associate them with architectural artifacts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-unified-map-in-modeling-tool.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,9 +24,9 @@ Role required: sn\_apm.apm\_user and sn\_cmdb\_user
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon \(![Portfolio icon](../../image/portfolio-icon.png)\).
+2.  Open the Portfolio List view by selecting the Portfolio icon \(\[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon\).
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Application Portfolio**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Application Portfolio**.
 
 4.  Select **Business Applications**.
 
@@ -33,9 +34,9 @@ Role required: sn\_apm.apm\_user and sn\_cmdb\_user
 
 6.  Select **Open Map**.
 
-7.  Select the **Model with Enterprise Modeling and Visualization** icon \(![Unified map with the Model with Enterprise Modeling and Visualization icon highlighted.](../../image/eaw-image/unified-map.png)\).
+7.  Select the **Model with Enterprise Modeling and Visualization** icon \(\[Omitted image "unified-map.png"\] Alt text: Unified map with the Model with Enterprise Modeling and Visualization icon highlighted.\).
 
-    ![Unified map with the Model with Enterprise Modeling and Visualization icon highlighted.](../../image/eaw-image/unified-map.png)
+    \[Omitted image "unified-map.png"\] Alt text: Unified map with the Model with Enterprise Modeling and Visualization icon highlighted.
 
 8.  On the **Model with Enterprise Modeling and Visualization** pop-up window, fill in the following fields:
 
@@ -43,21 +44,21 @@ Role required: sn\_apm.apm\_user and sn\_cmdb\_user
     -   **Architectural category**: The category to which the architectural artifact is associated with.
 9.  Select **OK**.
 
-    To learn more on how to use Enterprise Modeling and Visualization, see [Exploring Enterprise Modeling and Visualization in the EA Workspace](../../concept/eaw-concept/eaw-modeling.md).
+    To learn more on how to use Enterprise Modeling and Visualization, see [Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling.md).
 
 
-**Parent Topic:**[View a unified map for a business application](eaw-open-map-ba.md)
+**Parent Topic:**[View a unified map for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-open-map-ba.md)
 
 **Related topics**  
 
 
-[Create a diagram for a business capability map](eaw-modeling-bc-map.md)
+[Create a diagram for a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bc-map.md)
 
-[Delete a shape](eaw-modeling-delete-shape.md)
+[Delete a shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-delete-shape.md)
 
-[Add related records in the modeling diagram](eaw-modeling-add-related-records.md)
+[Add related records in the modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-add-related-records.md)
 
-[Commit diagram changes](eaw-modeling-sync-diagram-servicenow.md)
+[Commit diagram changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-sync-diagram-servicenow.md)
 
-[Save as a new version](eaw-modeling-save-as-new.md)
+[Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-save-as-new.md)
 

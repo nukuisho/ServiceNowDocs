@@ -2,6 +2,7 @@
 title: Monitoring replication status in Instance Data Replication
 description: Monitor the status of active producer and consumer replication sets, scheduled jobs, seeding requests, license usage, or scheduled replication through the Instance Data Replication \(IDR\) Monitoring Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/instance-data-replication-dashboard.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -34,7 +35,7 @@ The IDR Overall Monitoring dashboard monitors the following:
 -   Producer Seeding Requests Within Last 7 Days
 -   Consumer Seeding Requests Within Last 7 Days
 
-![IDR Monitoring dashboard.](../image/IDR-monitoring-dashboard.png "IDR overall monitoring dashboard")
+\[Omitted image "IDR-monitoring-dashboard.png"\] Alt text: IDR Monitoring dashboard.
 
 -   **Active Producer Replication Sets**
 
@@ -141,13 +142,13 @@ The IDR License and Usage SMv2 dashboard monitors the following:
 
     The number of messages each subscriber instance sent, by month.
 
-    ![Subscriber sent messages.](../image/messages-sent.png "Subscriber messages sent")
+    \[Omitted image "messages-sent.png"\] Alt text: Subscriber sent messages.
 
 -   **Subscriber Received Messages**
 
     The number of messages each subscriber instance received, by month.
 
-    ![Subscriber received messages.](../image/subscriber-received-messages.png "Subscriber messages received")
+    \[Omitted image "subscriber-received-messages.png"\] Alt text: Subscriber received messages.
 
 -   **IDR License Details**
 
@@ -168,13 +169,13 @@ The IDR License and Usage SMv2 dashboard monitors the following:
 
     The number of messages sent, per license, monthly.
 
-    ![IDR messages sent.](../image/messages-sent.png "IDR messages sent")
+    \[Omitted image "messages-sent.png"\] Alt text: IDR messages sent.
 
 -   **IDR Messages Received**
 
     The number of messages received, per license, monthly.
 
-    ![IDR messages received.](../image/message-received.png "IDR messages received")
+    \[Omitted image "message-received.png"\] Alt text: IDR messages received.
 
 
 ## Scheduled Replication dashboard
@@ -213,22 +214,22 @@ Monitor the status of scheduled replication requests within a specific time peri
     A table showing the count for each status in the selected date range.
 
 
-**Parent Topic:**[Administering Instance Data Replication](administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 
 
-[Manage consumer access to replication data in Instance Data Replication](../task/approve-consumer.md)
+[Manage consumer access to replication data in Instance Data Replication]()
 
-[Comparing replicated data between instances in Instance Data Replication](comparing-replicated-data.md)
+[Comparing replicated data between instances in Instance Data Replication]()
 
-[Deploying a replication configuration from one instance to another in Instance Data Replication](copying-replication-configuration.md)
+[Deploying a replication configuration from one instance to another in Instance Data Replication]()
 
-[Cloning options with Instance Data Replication](cloning-with-instance-data-replicaton.md)
+[Cloning options with Instance Data Replication]()
 
-[Monitoring queues in Instance Data Replication](idr-queue-dashboard.md)
+[Monitoring queues in Instance Data Replication]()
 
-[Avoiding insert and update errors in Instance Data Replication](preventing-insert-update-errors.md)
+[Avoiding insert and update errors in Instance Data Replication]()
 
-[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+[Resolving data replication errors in Instance Data Replication]()
 

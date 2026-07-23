@@ -27,7 +27,7 @@ See [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 -   **[Submit a new clone even if another clone is scheduled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md)**
 
-    Create an additional clone request even if there’s already a future clone for that target. This feature helps with the limitation where you can't submit another clone until all existing requests have been canceled.
+    Create an additional clone request even if there’s already a future clone for that target. This feature removes the previous limitation where any new clone requests were not allowed until all existing requests were canceled. You can now submit new clone requests if more than five days apart from existing ones.
 
 -   **[Clone summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_StartAClone.md)**
 
@@ -41,11 +41,10 @@ See [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 ## Deprecated Features
 
 -   Clone requests via lists and forms \(legacy\) are no longer supported. The page redirects to the new request page after 30 seconds.
--   Legacy clones no longer appear in the Clone Admin Console dashboard.
 
 ## Activation information
 
 Clone Admin Console is a ServiceNow AI Platform feature that is active by default.
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
 

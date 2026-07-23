@@ -2,6 +2,7 @@
 title: Application service maps in classic Service Mapping
 description: Maps offer you a visualization of data on configuration items \(CIs\) comprising application services, and relations and connections between these CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/c\_UndestandMaps.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -38,37 +39,37 @@ Also, actions and information related to automatic discovery using Service Mappi
 
 Aside from the map itself, the map window also displays the Properties pane and tabs with additional information.
 
-![Service Mapping Map window](../image/MapOverview.png "Map window of Service Mapping")
+\[Omitted image "MapOverview.png"\] Alt text: Service Mapping Map window
 
 You can navigate to a different application service map directly from this window by selecting it from the list.
 
-![Select the required application service from the list.](../image/MapDisplayBSFromList.png "Service list")
+\[Omitted image "MapDisplayBSFromList.png"\] Alt text: Select the required application service from the list.
 
 By default, the entire map is shown in the center of the visible map area of the window. You can zoom in and out as well as position the map depending on which segment of the map you must see using these controls:
 
-![Control zoom and positioning of your map.](../image/MapZoomNavigation.png "Map navigation")
+\[Omitted image "MapZoomNavigation.png"\] Alt text: Control zoom and positioning of your map.
 
 You can also click anywhere in the map area and drag the required segment of the map into the visible area.
 
-You can view changes made to an service instance as a whole and to individual CIs belonging to a service by choosing a time range. For more information, see [View the change history of application services in classic Service Mapping](../task/t_ViewCIChanges.md).
+You can view changes made to an service instance as a whole and to individual CIs belonging to a service by choosing a time range. For more information, see [View the change history of application services in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md).
 
 ## Map elements and their appearance
 
 Every map consists of icons representing CIs and arrows that represent the connections between them.
 
-![Two CIs with a connection line between them.](../image/Map2CIsNConnector.png "Connected CIs")
+\[Omitted image "Map2CIsNConnector.png"\] Alt text: Two CIs with a connection line between them.
 
 Some map elements can contain other elements such as in the case of application clusters. On the map, application clusters appear as a stack of CIs with the plus \(+\) symbol next to it. The cluster label shows the number of CIs in this cluster with the multiplication sign.
 
-![The graphic shows a cluster of the application cluster type.](../image/MapClusterAppCluster.png "CI cluster")
+\[Omitted image "MapClusterAppCluster.png"\] Alt text: The graphic shows a cluster of the application cluster type.
 
 When the CI has inclusions, the CI icon has the plus \(+\) symbol next to it and shows the contained application when you expand it.
 
-![The graphic shows a cluster of the inclusion type.](../image/MapClusterInclusion.png "Inclusion")
+\[Omitted image "MapClusterInclusion.png"\] Alt text: The graphic shows a cluster of the inclusion type.
 
 An OS cluster appears as a CI with the plus \(+\) symbol and the number of CIs in this cluster.
 
-![The graphic shows an OS cluster element.](../image/MapClustersOSClusters.png "OS cluster CI")
+\[Omitted image "MapClustersOSClusters.png"\] Alt text: The graphic shows an OS cluster element.
 
 ## CI attributes and CI-related messages
 
@@ -76,46 +77,46 @@ When a map is loaded and no elements are selected, the Properties pane shows the
 
 A selected device, application, or connector appears in blue and is highlighted. Information about the selected map element is displayed in the Properties pane on the right of the map. The Properties pane contains the links to the Detailed Properties page.
 
-![The Properties pane shows attributes for connections and CIs.](../image/MapSelectedConnectionProperties.png "Connection information in the Properties pane")
+\[Omitted image "MapSelectedConnectionProperties.png"\] Alt text: The Properties pane shows attributes for connections and CIs.
 
 The attributes for the server hosting applications and applications themselves are shown separately inside the Properties pane.
 
-![The Properties pane shows attributes for hosts and applications separately.](../image/AppServerProperties.gif "Server information in the Properties pane")
+\[Omitted image "AppServerProperties.gif"\] Alt text: The Properties pane shows attributes for hosts and applications separately.
 
 If there is any information related to the selected CI or connection, it is highlighted on the tab at the bottom of the window.
 
-![Select a CI to display information related to it.](../image/MapChangesTabSelectCI.png "The CI and the related discovery message")
+\[Omitted image "MapChangesTabSelectCI.png"\] Alt text: Select a CI to display information related to it.
 
 When you select information on a tab at the bottom of the map window, the related CI displays in yellow.
 
-![Selecting message marks the related CI yellow.](../image/MapChangesTabSelectRecord.png "The message and the CI it is generated for")
+\[Omitted image "MapChangesTabSelectRecord.png"\] Alt text: Selecting message marks the related CI yellow.
 
 ## Map indicators
 
 You can show additional information for a CI or service instance itself by displaying its related records such as alerts, outages, incidents, and problems. If you enable this feature, record indicators appear next to relevant CIs and next to the service instance name. Records themselves are displayed on the tabs at the bottom of the map window.
 
-![Indicators for application service and a problem record](../image/MapBSIndicatorsRecord.png "Application service with indicators")
+\[Omitted image "MapBSIndicatorsRecord.png"\] Alt text: Indicators for application service and a problem record
 
 ## Map views
 
-Customize a map view to exclude irrelevant information and increase clarity, as described in [Modify view for an application service map](../task/modify-map-view.md).
+Customize a map view to exclude irrelevant information and increase clarity, as described in [Modify view for an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/modify-map-view.md).
 
 To open this service instance in Event Management and view alerts on CIs that are part of the service instance, click **Monitor Service** at the top of the window.
 
-![Monitor Service button for opening the application service in Event Management.](../image/map-monitor-service-button.png "Monitor Service button")
+\[Omitted image "map-monitor-service-button.png"\] Alt text: Monitor Service button for opening the application service in Event Management.
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 
 **Related topics**  
 
 
-[Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md)
+[Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md)
 
-[View CI attributes in an application service map in classic Service Mapping](../task/t_ViewCIDetails.md)
+[View CI attributes in an application service map in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIDetails.md)
 
-[Modify display for CI attributes](../task/t_ConfigurePropertyDisplay.md)
+[Modify display for CI attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ConfigurePropertyDisplay.md)
 
-[Modify view for an application service map](../task/modify-map-view.md)
+[Modify view for an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/modify-map-view.md)
 
-[View an alert impact on CIs in a service map](../../event-management/task/t_EMViewTopology.md)
+[View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewTopology.md)
 

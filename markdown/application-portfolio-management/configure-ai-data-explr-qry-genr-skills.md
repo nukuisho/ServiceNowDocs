@@ -2,6 +2,7 @@
 title: Configure AI Data Explorer and Query Generation skills
 description: You can configure the AI Data Explorer and Query Generation skills to provide AI-assisted data exploration features and generate insights in Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,15 +51,15 @@ Configuring AI Data Explorer and Query Generation skills enables you to use a co
     -   **Analytics hidden insights generation**
 3.  Configure AI Search.
 
-    For information on how to configure AI Search, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md)
+    For information on how to configure AI Search, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md)
 
 
-**Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](configure-now-assist-ea.md)
+**Parent Topic:**[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
 **Related topics**  
 
 
-[Generate insights for Enterprise Architecture Workspace dashboard widgets](generate-insights-ea-dashboard.md)
+[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/generate-insights-ea-dashboard.md)
 
-[Explore the Enterprise Architecture Workspace dashboard](../../../use/dashboards/concept/eaw-workspace-dashboard.md)
+[Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-workspace-dashboard.md)
 

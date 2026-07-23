@@ -2,6 +2,7 @@
 title: Create a certification policy
 description: Creating a data certification policy serves as a governance mechanism to ensure that the data used in enterprise architecture models and visualizations is accurate, complete, and trustworthy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,23 +16,25 @@ Creating a data certification policy serves as a governance mechanism to ensure 
 
 ## Before you begin
 
+\[Omitted video\] Description: Video demonstrating how to create and and publish a certification policy in Enterprise Architecture Workspace.
+
 Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Data certification page by selecting the Data certification icon \(![data certification icon](../../image/eaw-image/icon-data-cert.png)\).
+2.  Open the Data certification page by selecting the Data certification icon \(\[Omitted image "icon-data-cert.png"\] Alt text: data certification icon\).
 
 3.  Select **New policy**.
 
 4.  On the Create policy modal, enter details, then select **Next**.
 
-    The details are saved as General Information in the workflow. For field information, see [General information form](../../reference/eaw-reference/eaw-data-cert-gen-info-form.md).
+    The details are saved as General Information in the workflow. For field information, see [General information form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-gen-info-form.md).
 
 5.  Enter details in the **Data Filter** form.
 
-    For field information, see [Data filter form](../../reference/eaw-reference/eaw-data-filter-form.md).
+    For field information, see [Data filter form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-filter-form.md).
 
     -   Select **Apply filters** and then review the results of the impact analysis.
     -   Review the lists in the following tabs:
@@ -57,31 +60,31 @@ Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
     -   For certification and attestation tasks, set the **If task assignment field is empty** field to create assigned or unassigned tasks in cases where the specified task assignment field is empty. If you select to create an assigned task, then depending on the **Assignment type** setting, select the user or user group to assign a task to in that situation. Unassigned tasks are later reviewed by an administrator for assignment.
 7.  Enter details in the **Options** form.
 
-    For field information, see [Options form](../../reference/eaw-reference/eaw-data-cert-options-form.md).
+    For field information, see [Options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-options-form.md).
 
 8.  Enter details in the **Schedule** form and then select **Continue**.
 
-    For field information, see [Schedule form](../../reference/eaw-reference/eaw-data-cert-schedule-form.md).
+    For field information, see [Schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-schedule-form.md).
 
 9.  Review the policy details on the Review form, and then select **Publish policy** to activate the policy or **Save &amp; Exit** to save the policy as a draft.
 
     You can later continue to configure a draft policy, and then publish it when it's ready.
 
 
-**Parent Topic:**[Working with data certification](../../concept/eaw-concept/eaw-work-with-data-cert.md)
+**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-data-cert.md)
 
 **Related topics**  
 
 
-[Edit a certification policy](eaw-data-cert-edit-policy.md)
+[Edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-edit-policy.md)
 
-[Run certification for a policy](eaw-data-cert-run-certification.md)
+[Run certification for a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-run-certification.md)
 
-[Track progress of a certification policy](eaw-data-cert-track-progress.md)
+[Track progress of a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-track-progress.md)
 
-[Activate a certification policy](eaw-data-cert-activate.md)
+[Activate a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-activate.md)
 
-[Delete a certification policy](eaw-delete-data-cert.md)
+[Delete a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-delete-data-cert.md)
 
-[Deactivate a certification policy](eaw-data-cert-deactivate.md)
+[Deactivate a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-data-cert-deactivate.md)
 

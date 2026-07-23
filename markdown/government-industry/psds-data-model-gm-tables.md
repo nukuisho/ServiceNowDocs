@@ -2,10 +2,12 @@
 title: Tables installed with Grants Management
 description: This section describes the tables installed with the Grants Management application and shows how they store and manage information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-gm-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [grants management, tables, data model, government services]
 breadcrumb: [Grants Management, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -41,7 +43,31 @@ Government Service Case \(sn\_gsm\_government\_service\_case\)
 
 </td></tr><tr><td>
 
-Government Service Case \[sn\_gsm\_government\_service\_case\]
+Funding Allocation Review Task\[sn\_gsm\_grnt\_mgmt\_funding\_allocation\_review\_task\]
+
+</td><td>
+
+Captures the recommendation reason and automatically computes the proposal and funding/decline counts along with the total allocated amount.
+
+</td><td>
+
+Government Service Task \(sn\_gsm\_government\_service\_task\)
+
+</td></tr><tr><td>
+
+Funding Allocation Proposal Mapping\[sn\_gsm\_grnt\_mgmt\_funding\_allocation\_case\_mapping\]
+
+</td><td>
+
+Links individual proposals to a Funding Allocation Review Task. A flag indicates whether the proposal is included in the batch or removed during the review.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Government Service Case\[sn\_gsm\_government\_service\_case\]
 
 </td><td>
 
@@ -53,7 +79,7 @@ Customer Service Case \(sn\_customerservice\_case\)
 
 </td></tr><tr><td>
 
-Government Service Task \[sn\_gsm\_government\_service\_task\]
+Government Service Task\[sn\_gsm\_government\_service\_task\]
 
 </td><td>
 
@@ -85,11 +111,11 @@ Contains profiles of businesses interacting with government agencies, documentin
 
 </td><td>
 
-N/A
+None
 
 </td></tr><tr><td>
 
-Business Registration Request \[sn\_gsm\_business\_registration\]
+Business Registration Request\[sn\_gsm\_business\_registration\]
 
 </td><td>
 
@@ -97,7 +123,7 @@ Contains information about new business registration requests.
 
 </td><td>
 
-N/A
+None
 
 </td></tr><tr><td>
 
@@ -105,7 +131,7 @@ Government Service Document\[sn\_gsm\_document\]
 
 </td><td>
 
-Contains information about service documents.
+Contains information about service-related documents required for government service requests and case management.
 
 </td><td>
 
@@ -117,24 +143,12 @@ Government Service Evaluation Task\[sn\_gsm\_government\_service\_evaluation\_ta
 
 </td><td>
 
-Contains information about service evaluation tasks.
+Contains information about evaluation tasks for assessing the quality and outcomes of government services provided to constituents.
 
 </td><td>
 
 Government Service Task \(sn\_gsm\_government\_service\_task\)
 
-</td></tr><tr><td>
-
-Grant Award\[sn\_gsm\_grants\_mgmt\_items \_received\]
-
-</td><td>
-
-Tracks individual social benefit items received by constituents, noting benefit type, amount, and date of issuance.
-
-</td><td>
-
-Install Base Item \(sn\_install\_base\_item\)
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Grants Management Data Model](../concept/psds-data-model-gm.md)
+</table>**Parent Topic:**[Public Sector Digital Services Grants Management Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-gm.md)
 

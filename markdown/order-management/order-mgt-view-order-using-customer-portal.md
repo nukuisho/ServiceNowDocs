@@ -2,6 +2,7 @@
 title: View an order on the Business Portal
 description: Customers can view their orders using the Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-view-order-using-customer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,12 +28,12 @@ Role required: sn\_customerservice.customer
 
     -   To search for orders - use the search option.
     -   To sort, and filter orders - use the filter.
-    -   To export as a PDF, Excel, or CSV - use the Action icon ![](../image/icon-three-dot-menu.png).
+    -   To export as a PDF, Excel, or CSV - use the Action icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:.
     -   To open an order - select the order number.
     -   To navigate back to the main window - use the breadcrumbs.
 
 **Related topics**  
 
 
-[Create orders from the Business Portal](order-mgt-create-an-order-using-customer-portal.md)
+[Create orders from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-create-an-order-using-customer-portal.md)
 

@@ -2,6 +2,7 @@
 title: View all scoring profiles
 description: You can view the list of all scoring profiles in the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-all-scoring-profiles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,23 +22,23 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon ![Setup icon](../../image/eaw-image/setup-icon.png).
+2.  Open the Setup page by selecting the Setup icon \[Omitted image "setup-icon.png"\] Alt text: Setup icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Scoring Profiles**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Scoring Profiles**.
 
 4.  Select **All**.
 
 
-**Parent Topic:**[Working with the Setup page](../../concept/eaw-concept/eaw-work-with-setup-page.md)
+**Parent Topic:**[Working with the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-setup-page.md)
 
 **Related topics**  
 
 
-[Manage scoring profiles](../../concept/eaw-concept/eaw-configure-scoring-profiles.md)
+[Manage scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-scoring-profiles.md)
 
-[Add or edit a scoring profile](eaw-create-scoring-profile.md)
+[Add or edit a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-scoring-profile.md)
 
-[Attach a profile indicator with an application scoring profile](eaw-attach-profile-indicators-with-application-scoring-profiles.md)
+[Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md)
 
-[Regenerate scoring profile indicator scores on-demand in Enterprise Architecture Workspace](eaw-regenerate-scoring-profile-indicator-scores-in-eaw.md)
+[Regenerate scoring profile indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-regenerate-scoring-profile-indicator-scores-in-eaw.md)
 

@@ -2,13 +2,14 @@
 title: Review a case filing response and appeal the decision
 description: An appeal can be created by the issuer or acquirer if either party isn’t satisfied with the arbitration ruling from Visa. Review the case filing response and receive the decision letter from Visa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-case-filing-response-and-appeal.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Review a case filing response and appeal the decision
@@ -27,7 +28,7 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -37,40 +38,38 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+    The **Chargeback** stage is initiated for the transaction.
 
-7.  The **Chargeback** stage is initiated for the transaction.
+6.  Select the **Review case filing appeal** activity.
 
-8.  Select the **Review case filing appeal** activity.
-
-9.  Retrieve the decision letter from Visa by selecting **Get case filing response**.
+7.  Retrieve the decision letter from Visa by selecting **Get case filing response**.
 
     The letter can also be viewed in the activity stream.
 
-10. In the **Response outcome** field, either accept or appeal the decision.
+8.  In the **Response outcome** field, either accept or appeal the decision.
 
     -   To accept the outcome, select **Resolved**.
     -   To appeal the outcome, select **Unresolved**.
-11. In the **Create appeal** drop-down list, select **Yes**.
+9.  In the **Create appeal** drop-down list, select **Yes**.
 
-    **Note:** Certain conditions must be met to create an appeal. For more information, see [Collaboration workflow overview](../concept/collaboration-workflow.md).
+    **Note:** Certain conditions must be met to create an appeal. For more information, see [Collaboration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-workflow.md).
 
-12. In the **Appeal amount** field, enter the amount for the appeal.
+10. In the **Appeal amount** field, enter the amount for the appeal.
 
-13. In the **Reason for appeal** field, explain why you want to appeal the decision.
+11. In the **Reason for appeal** field, explain why you want to appeal the decision.
 
-14. In the **Description**, **Remarks**, and **Work notes** fields, enter additional details as necessary.
+12. In the **Description**, **Remarks**, and **Work notes** fields, enter additional details as necessary.
 
-15. Select **Continue**.
+13. Select **Continue**.
 
-16. Select **Create appeal**.
+14. Select **Create appeal**.
 
 
 ## Result
 
 After the request executes successfully, the transaction state changes to **Awaiting External Info**. The form is set to read-only mode while waiting on a response. Visa confirms the appeal with an acknowledgment letter. Retrieve the letter by selecting **Get acknowledgement letter** in the **Review case filing appeal** activity.
 
-**Parent Topic:**[Collaboration dispute workflow](../concept/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

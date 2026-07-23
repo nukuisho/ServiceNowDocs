@@ -2,6 +2,7 @@
 title: Treasury Operations dashboard
 description: With the Financial Services Treasury Operations dashboard, you can get an insight into how your team and business are performing for the treasury service requests that were received for your financial services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-treasury-ops-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ You can monitor the status of the treasury service cases, see trends, and drill 
 
 ## Access the Financial Services Treasury Operations dashboard
 
-To access the Financial Services Treasury Operations dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Financial Services Treasury Operations dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon.\).
 
 Alternatively, you can navigate to **All** &gt; **Treasury Operations** &gt; **Analytics**.
 
@@ -121,5 +122,5 @@ The following table shows the available filters in the Treasury Operations dashb
 |FSO Treasury.Service|Task record|Fetches all the records from the Service Definition \[sn\_bom\_service\_definition\] table where Task type starts with `sn_bom_treasury` and ends with `service`.|
 |Age|Bucket|Shows the age ranges in days for treasury cases.|
 
-**Parent Topic:**[Implementing Platform Analytics solutions](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
 

@@ -2,13 +2,14 @@
 title: Software installation optimization and removal
 description: You can optimize your environment by reclaiming unused software as well as removing unauthorized software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_SAMOptimization.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software installation optimization and removal
@@ -19,7 +20,7 @@ If a user is not using software installed, or infrequently, that software can be
 
 ## Overview of software reclamation
 
-Software reclamation is integrated with Workflow and [Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ClientSoftwareDistribution.md) \(CSD\) to automate the process of uninstalling software from devices and reclaiming those software rights. During the workflow, the state of the removal candidate changes based on the progression within the workflow.
+Software reclamation is integrated with Workflow and [Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ClientSoftwareDistribution.md) \(CSD\) to automate the process of uninstalling software from devices and reclaiming those software rights. During the workflow, the state of the removal candidate changes based on the progression within the workflow.
 
 **Note:** If you change a software asset's state to **Retired** or **Missing**, the installation associated to the software asset gets removed and a removal candidate won't be created.
 
@@ -183,12 +184,16 @@ When the **Reclaim** action is clicked, if the **Notify User** field is selected
 
 When the state changes to Awaiting User, a notification is sent to the user.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 
 **Related topics**  
 
 
-[View or create software usage](../task/view-sw-usage-workspace.md)
+[View or create software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-sw-usage-workspace.md)
 
-[Reclaim software](../task/reclaiming-software-sam.md)
+[Reclaim software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/reclaiming-software-sam.md)
+
+[License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md)
+
+[Publisher details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-publisher-details.md)
 

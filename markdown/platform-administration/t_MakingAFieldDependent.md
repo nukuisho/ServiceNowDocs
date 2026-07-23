@@ -2,6 +2,7 @@
 title: Make a field dependent
 description: A choice or reference field can be declared dependent on another field on the same table to limit the values available to select based on the value of the dependent field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_MakingAFieldDependent.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,12 +46,12 @@ If a required dependency does not function as expected, as might happen if there
 
 In the example below, the Subcategory field is made dependent upon the Category field. On an incident form, the value selected for the Category field determines which options appear for the Subcategory field.
 
-![Dependent Value](../image/DependentValue.png)
+\[Omitted image "DependentValue.png"\] Alt text: Dependent Value
 
-**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](../concept/customize-fields-now-platform-landing.md)
+**Parent Topic:**[Customizing fields on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/customize-fields-now-platform-landing.md)
 
 **Related topics**  
 
 
-[Reference qualifiers](../../../script/server-scripting/concept/c_ReferenceQualifiers.md)
+[Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md)
 

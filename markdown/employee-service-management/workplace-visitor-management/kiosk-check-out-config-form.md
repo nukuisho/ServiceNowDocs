@@ -2,6 +2,7 @@
 title: Kiosk Check-out Flow Configuration form
 description: Use the Kiosk Check-out Flow Configuration form to create a check-out flow for the Workplace Services Kiosk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/kiosk-check-out-config-form.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -64,24 +65,24 @@ Active
 Option to make the page configuration active.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Visitor Management references](../concept/workplace-visitor-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Visitor Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Visitor Management](components-installed-with-workplace-visitor-mgmt.md)
+[Components installed with Workplace Visitor Management]()
 
-[Properties installed with Workplace Visitor Management](properties-installed-with-workplace-visitor-mgmt.md)
+[Properties installed with Workplace Visitor Management]()
 
-[Kiosk Check-in Flow Configuration form](kiosk-check-in-config-form.md)
+[Kiosk Check-in Flow Configuration form]()
 
-[Kiosk Page Configuration form](kiosk-page-config-form.md)
+[Kiosk Page Configuration form]()
 
-[Kiosk Page Customizations](kiosk-page-customizations.md)
+[Kiosk Page Customizations]()
 
-[Location Policy form](location-policy-form.md)
+[Location Policy form]()
 
-[New visit form](new-visit-form.md)
+[New visit form]()
 
-[Additional requirement form](additional-req-form.md)
+[Additional requirement form]()
 

@@ -2,6 +2,7 @@
 title: Create an MCO input attribute
 description: Create the MCO input attributes for sales promotion campaign.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-input-attributes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 2.  Select **New**.
 
-3.  Fill in the fields on the [MCO input attributes form](../reference/mco-input-atrributes_form.md)form, as appropriate.
+3.  Fill in the fields on the [MCO input attributes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-input-atrributes_form.md)form, as appropriate.
 
 4.  Select **Save**.
 

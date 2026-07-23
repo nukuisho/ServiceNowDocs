@@ -2,6 +2,7 @@
 title: Planned Work Management
 description: The Planned Work Management application works with Field Service Management to help organizations create and manage the planned work activities with recurring schedules at regular intervals. The planned work activities include, maintenance, inspections, audits or more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/planned-work-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -46,16 +47,16 @@ Planned Work Management enhances maintenance operations by supporting dynamic sc
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 **Related topics**  
 
 
-[Configuring Planned Work Management](configuring-planned-work-management.md)
+[Configuring Planned Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configuring-planned-work-management.md)
 
-[Create a work order for the planned work](creating-work-orders-from-planned-work.md)
+[Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
 
-[Work plan example](../reference/example-planned-work.md#)
+[Work plan example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/example-planned-work.md)
 
-[Planned Work Management Home page](../../../use/dashboards/application-content-packs/pwm-dashboard.md)
+[Planned Work Management Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/pwm-dashboard.md)
 

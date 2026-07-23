@@ -2,6 +2,7 @@
 title: Edit a building's spaces using a map
 description: Space planners and administrators can update space attributes and allocation changes using interactive floor maps. Select and edit a single space or update bulk spaces via floor maps. Add, change, or remove space allocations as required. The updated space attributes and association changes are reflected in real-time on a floor map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/edit-space-details-for-buildings.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -25,7 +26,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
 2.  Select **View All** and select a building from the list of buildings.
 
-3.  On the Stack plan, select the Stack plan settings icon \(![stack plan settings](../../workplace-space-mapping/images/gear-icon.png)\) from the right pane to display different view options.
+3.  On the Stack plan, select the Stack plan settings icon \(\[Omitted image "gear-icon.png"\] Alt text: stack plan settings\) from the right pane to display different view options.
 
 4.  Select **View by** to select the view based on which the spaces on the floor must be categorized.
 
@@ -42,7 +43,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
     -   Workplace entity
     The spaces are displayed based on the selected view.
 
-5.  To display the Space details for a selected stack bar, select the Space details icon \(![space details icon.](../images/space-details-icon.png)\).
+5.  To display the Space details for a selected stack bar, select the Space details icon \(\[Omitted image "space-details-icon.png"\] Alt text: space details icon.\).
 
 6.  To view the space allocations on a map, select the **Floor Map** tab.
 
@@ -50,13 +51,13 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
 7.  To change the floors, use the **Floor** option.
 
-8.  To view the details of selected spaces, select the Space details icon \(![space details icon.](../images/space-details-icon.png)\).
+8.  To view the details of selected spaces, select the Space details icon \(\[Omitted image "space-details-icon.png"\] Alt text: space details icon.\).
 
     Space details like the space count, assigned profiles, and department details are displayed on the panel.
 
-    You can select the copy link \(![Copy link icon](../images/copy-link-icon.png)\) icon to copy a shareable link to the selected floor or space. You cannot share multiple spaces.
+    You can select the copy link \(\[Omitted image "copy-link-icon.png"\] Alt text: Copy link icon\) icon to copy a shareable link to the selected floor or space. You cannot share multiple spaces.
 
-9.  To change the view, on the right pane, select the Map Settings icon \(![map settings](../../workplace-space-mapping/images/gear-icon.png)\).
+9.  To change the view, on the right pane, select the Map Settings icon \(\[Omitted image "gear-icon.png"\] Alt text: map settings\).
 
     In the Map Settings panel, you can perform the following actions:
 
@@ -83,7 +84,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
         You can select multiple spaces by holding **Shift** and drawing a circle \(lasso\) around the spaces.
 
-        You can also select spaces based on a filter query by selecting the filter icon \(![Filter icon.](../../../reuse/icons/product-icons/filter-outline-24.svg)\). On the Filter spaces pop-up, you can add the conditions select the spaces based on your requirement. For example, `Department is Human Resources OR Department is Risk Management`.
+        You can also select spaces based on a filter query by selecting the filter icon \(\[Omitted image "filter-outline-24.svg"\] Alt text: Filter icon.\). On the Filter spaces pop-up, you can add the conditions select the spaces based on your requirement. For example, `Department is Human Resources OR Department is Risk Management`.
 
         You can also use Related list conditions to apply filtering on related tables. Make sure to set the Greater than or equal to operator value to 1 for accurate results.
 
@@ -97,7 +98,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
         **Note:** Enable the system property **glide.lists.inline\_editing\_enabled** for making inline edits in the list pages.
 
-        ![Real-time editing of multiple spaces using interactive floor map](../images/edit-multiple-spaces-floormap.png)
+        \[Omitted image "edit-multiple-spaces-floormap.png"\] Alt text: Real-time editing of multiple spaces using interactive floor map
 
     4.  After selecting the required spaces, select **Edit**.
 
@@ -161,7 +162,7 @@ Select **Remove allocation** from the drop-down list to remove the selected spac
 
     13. Select **New** to add a workplace location and update the required fields.
 
-        For more information, see [Managing workplace locations](../../workplace-space-management/concept/Creating-workplace-location-records-using-spce-mgmt.md).
+        For more information, see [Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md).
 
     14. After performing the changes, select **Save**.
 
@@ -170,10 +171,10 @@ Select **Remove allocation** from the drop-down list to remove the selected spac
     Any changes that you make to space records are applied in real-time and available on the floor Map of the selected space.
 
 
-**Parent Topic:**[Map based space administration](../concept/map-based-space-administration.md)
+**Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/map-based-space-administration.md)
 
 **Related topics**  
 
 
-[Move employees on a floor or to a different floor using the map](move-employees-on-a-floor-or-to-a-different-floor-using-the-map.md)
+[Move employees on a floor or to a different floor using the map]()
 

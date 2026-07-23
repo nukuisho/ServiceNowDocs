@@ -2,6 +2,7 @@
 title: Review and update the telecommunications equipment details
 description: Review and update a network asset instance for your telecommunications equipment. You define the equipment instances so that you can track and manage your network assets in the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -17,7 +18,7 @@ Review and update a network asset instance for your telecommunications equipment
 
 ## Before you begin
 
-You create the equipment form. To learn more, see [Create a telecommunications equipment instance](define-equipment-type.md).
+You create the equipment form. To learn more, see [Create a telecommunications equipment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-equipment-type.md).
 
 Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
@@ -25,7 +26,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Inventory** &gt; **All Equipment**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Inventory** &gt; **All Equipment**.
 
     The All Equipment window lists the configuration item \(CI\) records, which have an inventory category set as Equipment.
 
@@ -35,30 +36,30 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
     The following table lists the fields that are unique to the Telco Equipment form.
 
-    To learn about the remaining identification fields that are common to most of the Inventory and Inventory number allocation menu forms, see [Commonly used network asset instance identification fields](../reference/commonly-used-tni-identification-fields.md).
+    To learn about the remaining identification fields that are common to most of the Inventory and Inventory number allocation menu forms, see [Commonly used network asset instance identification fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-identification-fields.md).
 
     |Field|Description|
     |-----|-----------|
     |Name|Name of this telecommunications equipment. The ServiceNow AI Platform uses this name to identify it in your network inventory.|
-    |Product model|Name of the product model that this telco equipment belongs to. Select the search icon \(![Search icon.](../image/search.png) \) and select a model. To learn more, see [Create an equipment model](create-equipment-models.md).|
+    |Product model|Name of the product model that this telco equipment belongs to. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon. \) and select a model. To learn more, see [Create an equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-equipment-models.md).|
 
 5.  On the **Details** tab, in the Configuration section, fill in the configuration information for the telco equipment.
 
-    To learn more about the fields that are unique to the Configuration section in the Telco Equipment form, see [Telco Equipment form](../reference/tni-equipment-form-configuration.md).
+    To learn more about the fields that are unique to the Configuration section in the Telco Equipment form, see [Telco Equipment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-equipment-form-configuration.md).
 
-    To learn about the remaining configuration fields that are common to most of the Inventory menu forms, see [Commonly used network asset instance configuration fields](../reference/commonly-used-tni-configuration-fields.md).
+    To learn about the remaining configuration fields that are common to most of the Inventory menu forms, see [Commonly used network asset instance configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-configuration-fields.md).
 
 6.  Select **Save**.
 
     The Telecommunications Network Inventory attribute fields are displayed on the Telco Equipment form after you save the TNI CI Attributes form. The **Set Inventory Attributes** doesn’t appear when you reopen the CI record.
 
-7.  Add the attachments, such as the graphics or documents by selecting the attachment icon \(![Attachment icon.](../image/attachments-icon.png)\) in the right panel.
+7.  Add the attachments, such as the graphics or documents by selecting the attachment icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon.\) in the right panel.
 
 8.  Select **Save**.
 
-    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the Network inventory forms](../reference/inventory-related-tab.md).
+    The related tabs appear on the form. You can view or modify the related tab information. To learn more about the related tabs, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
-9.  To view the Dependency Views map, select the more options icon \(![More Options icon.](../image/options-icon.png)\) and then select **Dependency View**.
+9.  To view the Dependency Views map, select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Dependency View**.
 
     The Dependency Views map graphically displays the CIs that support the network asset and the relationships between the CIs.
 
@@ -66,19 +67,19 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
     **Note:** Install Service Graph Workspace or CMDB Workspace 3.5.0 or a later version to get this button in your instance. To learn more, see [CMDB Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
 
-11. View the associated network inventories by selecting the brick icon \(![Brick icon.](../image/infrastructure-relashionship.png)\).
+11. View the associated network inventories by selecting the brick icon \(\[Omitted image "infrastructure-relashionship.png"\] Alt text: Brick icon.\).
 
     The Infrastructure Relationships section shows all the associated network inventories grouped by the individual network asset instances.
 
 
 ## What to do next
 
-If you want to establish relationships with the other network assets, enter the details in the related tabs. To learn more, see [Related tabs in the Network inventory forms](../reference/inventory-related-tab.md).
+If you want to establish relationships with the other network assets, enter the details in the related tabs. To learn more, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
-**Parent Topic:**[Create a telecommunications equipment instance](define-equipment-type.md)
+**Parent Topic:**[Create a telecommunications equipment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-equipment-type.md)
 
 **Related topics**  
 
 
-[Modeling your workflow](../concept/telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 

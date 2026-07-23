@@ -2,6 +2,7 @@
 title: Revise orders
 description: Revise order line items to update product quantity for ongoing orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/revise-orders.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All** or **Service Orders** &gt; **All** to revise a product or service order respectively.
 
@@ -44,7 +45,14 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 ## What to do next
 
-A designated manager must approve the order revision. To learn more, see [Review and approve order revisions or cancellation requests](review-and-approve-or-decline-order-cancellation-requests.md).
+A designated manager must approve the order revision. To learn more, see [Review and approve order revisions or cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/review-and-approve-or-decline-order-cancellation-requests.md).
 
-**Parent Topic:**[Managing inflight order changes and cancellation requests](../concept/inflight-order-change-mgt-overview.md)
+**Parent Topic:**[Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

@@ -2,6 +2,7 @@
 title: Configure the request definition for your healthcare case type
 description: Configure the HCLS Case request definition to support the newly created healthcare case type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/configure-the-request-defintion-for-your-hcls-case-type.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -23,7 +24,7 @@ Set your scope to EMR Help.
 
 ## About this task
 
-Video showing how to configure a HCLS Case request definition to support the newly created healthcare case type.
+\[Omitted video\] Description: Video showing how to configure a HCLS Case request definition to support the newly created healthcare case type.
 
 ## Procedure
 
@@ -44,5 +45,5 @@ You have configured the HCLS Case request definition to support your healthcare 
 
 ## What to do next
 
-[Configure the healthcare record page to support your custom healthcare case type](configure-the-workspace-healthcare-page.md).
+[Configure the healthcare record page to support your custom healthcare case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/configure-the-workspace-healthcare-page.md).
 

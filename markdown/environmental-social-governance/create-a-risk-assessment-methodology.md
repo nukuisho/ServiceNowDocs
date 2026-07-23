@@ -2,6 +2,7 @@
 title: Configure a risk assessment methodology
 description: Configure the risk assessment methodologies \(RAMs\) that are provided by default. A RAM is a configuration or a record in the risk assessment engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-risk-assessment-methodology.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,8 +30,8 @@ You can use a RAM to assess either the risks or objects in your organization. Fo
 
 3.  On the form, modify the fields.
 
-    For information on the RAM fields, refer to [Risk Assessment Methodology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-methodology-form.md).
+    For information on the RAM fields, refer to [Risk Assessment Methodology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/risk-assessment-methodology-form.md).
 
 
-**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](../concept/esg-risk-management.md)
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-risk-management.md)
 

@@ -2,6 +2,7 @@
 title: Add a suggested relationship
 description: Add a suggested relationship for a class. The list of suggested relationships for a class is available when you create a new relationship for a CI of that class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_AddANewSuggestedRelationship.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -26,7 +27,7 @@ Role required:
 
 ## Procedure
 
-1.  Use the CI Class Manager \(Role required: sn\_cmdb\_admin or itil\_admin\):
+1.  Use the CI Class Manager:
 
     1.  Navigate to **All** &gt; **Configuration** &gt; **CI Class Manager**.
 
@@ -40,7 +41,7 @@ Role required:
 
     6.  Click **Save**.
 
-2.  Or, navigate to **All** &gt; **Configuration** &gt; **Relationships** &gt; **Suggested Relationships** \(Role required: sn\_cmdb\_admin or admin\):
+2.  Or, navigate to **All** &gt; **Configuration** &gt; **Relationships** &gt; **Suggested Relationships**:
 
     1.  Click **New**.
 
@@ -66,22 +67,22 @@ Role required:
 
 You may need to delete a suggested relationship, for example, to limit the choice of available relationships in the CI relationship editor. Removing a suggested relationship does not affect relationships that are created or updated by Discovery.
 
-**Parent Topic:**[CI relationships in the CMDB](../concept/c_CIRelationships.md)
+**Parent Topic:**[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 
 **Related topics**  
 
 
-[Suggested class relationships](../reference/r_SuggestedRelationshipModel.md)
+[Suggested class relationships]()
 
-[Relationship governance rules](../concept/relationship-governance.md)
+[Relationship governance rules]()
 
-[CI relations formatter](../concept/c_CIRelationsFormatterNG.md)
+[CI relations formatter]()
 
-[CI relationship editor](../concept/c_RelationshipEditor.md)
+[CI relationship editor]()
 
-[Relation qualifier](../concept/c_RelationQualifier.md)
+[Relation qualifier]()
 
-[CI relationship security](../concept/c_CIRelationshipSecurity.md)
+[CI relationship security]()
 
-[Create a CI relation rollup](t_CreateACIRelationRollup.md)
+[Create a CI relation rollup]()
 

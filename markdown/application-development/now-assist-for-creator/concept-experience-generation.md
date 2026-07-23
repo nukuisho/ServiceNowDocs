@@ -2,13 +2,14 @@
 title: Experience Generation
 description: Experience Generation is a Now Assist capability in UI Generation that uses AI to generate fully functional, multi-page experiences from plain-English descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/concept-experience-generation.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
-breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Experience Generation
@@ -70,12 +71,12 @@ When Now Assist generates an experience, it creates the following components:
     -   Filtered list: Displays records from the selected table with filtered views, sortable columns, and export and create actions.
     -   Simple record: A detail view that fulfillers use to view, edit, and act on individual records.
 
-**Parent Topic:**[Exploring UI generation](exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-ui-generation.md)
 
 **Related topics**  
 
 
-[Create an AI-generated experience](../task/generate-ui.md#)
+[Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-ui.md)
 
-[Use case: Create an AI-generated experience](use-case-experience-generation.md)
+[Use case: Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/use-case-experience-generation.md)
 

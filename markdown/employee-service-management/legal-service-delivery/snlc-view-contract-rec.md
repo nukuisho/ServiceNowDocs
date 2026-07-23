@@ -2,6 +2,7 @@
 title: View a contract repository record
 description: View the history of a legal contract to track changes, review the audit trail, and update fields. Easily see the date a contract was modified and who modified it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-view-contract-rec.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -23,7 +24,7 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  View all contracts by navigating to **Legal Contracts** &gt; **All Contracts**.
 
@@ -38,12 +39,12 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
     2.  In the **Contract History** related list, select a date in the **Contract Starts** column to view the earlier version.
 
 
-**Parent Topic:**[Manage Contract Management Pro for Legal Service Delivery](../concept/snlc-manage-sn-legal-contracts.md)
+**Parent Topic:**[Manage Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-manage-sn-legal-contracts.md)
 
 **Related topics**  
 
 
-[Modify a contract record](snlc-modify-contract-rec.md)
+[Modify a contract record]()
 
-[Manage clauses and contract templates](../concept/snlc-manage-clauses-ctemplates.md)
+[Manage clauses and contract templates]()
 

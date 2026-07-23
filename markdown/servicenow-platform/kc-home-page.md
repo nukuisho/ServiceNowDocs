@@ -2,6 +2,7 @@
 title: Knowledge Center Home Page
 description: Knowledge Center is a plugin within Knowledge Management that helps in the effective management of knowledge articles by using an intuitive interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-home-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -47,7 +48,7 @@ Insights
 
 </td><td>
 
-Discover areas of improvement in the knowledge base through potential knowledge gaps, potential duplicates, and article optimization. It helps you improve the content quality and helps for a complete, accurate knowledge base.
+Discover areas of improvement in the knowledge base through potential knowledge gaps, potential duplicates, article optimization, and knowledge health score. It helps you to improve the content quality and helps for a complete, accurate knowledge base.
 
 </td><td>
 

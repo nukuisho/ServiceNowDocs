@@ -2,13 +2,14 @@
 title: Providing your workplace data
 description: In the Workplace Core application, provide data related to your workplace locations and designate workspaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/providing-your-workplace-data-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Workplace Core, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Providing your workplace data
@@ -55,21 +56,21 @@ Before uploading a .dxf file, work with your AutoCAD designers to verify the fol
 
 Uploading a floor plan creates a floor record. All the workspaces of the floor are automatically added to the Spaces related list of the floor record.
 
--   **[Create records for your workplace data](../task/create-records-of-workplace-data-wsd.md)**  
+-   **[Create records for your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-records-of-workplace-data-wsd.md)**  
 Create individual records of your workspaces, floors, office buildings, and workplace locations within the Workplace Core application. Either insert new data or add records to the existing workplace data.
--   **[Upload a workplace floor plan](../task/upload-workplace-floor-map-wsd.md)**  
+-   **[Upload a workplace floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/upload-workplace-floor-map-wsd.md)**  
 Upload Drawing eXchange Format \(.dxf\) files of floor plans that you can configure and use to reserve space for your employees.
--   **[Update a workplace floor plan](../task/edit-workplace-floor-map-wsd.md)**  
+-   **[Update a workplace floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/edit-workplace-floor-map-wsd.md)**  
 Update a workplace floor plan by uploading a new plan.
 
-**Parent Topic:**[Configure Workplace Core](configure-wsd.md)
+**Parent Topic:**[Configure Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configure-wsd.md)
 
 **Related topics**  
 
 
-[Install Workplace Core](../task/install-workplace-service-delivery.md)
+[Install Workplace Core]()
 
-[Configuring spreadsheets to import workplace data](importing-workspace-data-wsd.md#)
+[Configuring spreadsheets to import workplace data]()
 
-[Activate Virtual Agent for Workplace Service Delivery](../task/actuvate-va-for-wsd.md)
+[Activate Virtual Agent for Workplace Service Delivery]()
 

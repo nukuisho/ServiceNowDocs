@@ -2,6 +2,7 @@
 title: Properties installed with Workplace Case Management
 description: Customize the properties available with Workplace Case Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/properties-installed-with-workplace-case-mgmt.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -54,14 +55,14 @@ If a Workplace case has 'Enable user acceptance' set to True and no 'Acceptance 
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Case Management references](../concept/workpalce-case-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Case Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workpalce-case-mgmt-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Case Management](components-installed-with-workplace-case-mgmt.md)
+[Components installed with Workplace Case Management]()
 
-[Workplace Service form](workplace-service-form.md)
+[Workplace Service form]()
 
-[Workplace Location Assignment service](location-assignment-service.md)
+[Workplace Location Assignment service]()
 

@@ -2,6 +2,7 @@
 title: Edit a knowledge article in Agent Workspace
 description: Edit knowledge articles within a knowledge base in Agent Workspace to update information shared across your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/edit-article-workspace.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -22,7 +23,7 @@ You must have contribute access to the knowledge base that stores the knowledge 
 **Note:**
 
 -   If the article versioning feature is enabled, only the knowledge administrator, knowledge managers, and author can edit the checked-out version of an article. If the feature is disabled, any users with contribute access to an article can edit the draft version of the article. An administrator can disable the article versioning feature by setting the **glide.knowman.versioning.enabled** property \(from the **System Property** \[sys\_properties\] table\) to **false**.
--   If an ownership group is associated with a knowledge article, the author or reviser of the article can't contribute to the article after the article is published. An administrator can override this behavior by enabling the **glide.knowman.ownership\_group.override** property. For more information, see [Ownership groups](../concept/enable-ownership-group.md).
+-   If an ownership group is associated with a knowledge article, the author or reviser of the article can't contribute to the article after the article is published. An administrator can override this behavior by enabling the **glide.knowman.ownership\_group.override** property. For more information, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md).
 -   If the **glide.knowman.translation.enable\_translation\_task** property is enabled, you can’t modify the knowledge base of existing articles.
 
 Role required: agent\_workspace\_user
@@ -37,9 +38,9 @@ Role required: agent\_workspace\_user
 
 4.  On the Knowledge form, click **Edit**.
 
-    **Note:** If the knowledge article was created using Microsoft Word, you can edit the article only in Microsoft Word. In this case, select **Open in Word** to open the article in Word Online. For more information, see [Edit a knowledge article in Microsoft Word](edit-article-word.md).
+    **Note:** If the knowledge article was created using Microsoft Word, you can edit the article only in Microsoft Word. In this case, select **Open in Word** to open the article in Word Online. For more information, see [Edit a knowledge article in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-word.md).
 
-    If you want to edit the article using the HTML editor, you can unlink the article from Word. For more information, see [Unlink knowledge articles from linked Microsoft Word documents](unlink-word-document.md).
+    If you want to edit the article using the HTML editor, you can unlink the article from Word. For more information, see [Unlink knowledge articles from linked Microsoft Word documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/unlink-word-document.md).
 
 5.  If the article versioning feature is enabled, click **Checkout** for a published knowledge article.
 
@@ -69,7 +70,7 @@ If you move a knowledge article to another knowledge base, the default value of 
 
 -   If the **Article Validity** field in the selected knowledge base is empty, the earlier **Valid to** date value is retained for the knowledge article.
 -   If the **Article Validity** field in the selected knowledge base isn't empty, the **Valid to** date is automatically updated to start from the date the article was updated until the number of days specified in the **Article Validity** field \(Article updated date + article validity\).
-If the dictionary value of the **Valid to** field is modified, this dictionary value overrides the default value of the **Valid to** field calculated according to the **Article Validity** field. For more information, see [Validity of a knowledge article](../concept/article-validity.md).
+If the dictionary value of the **Valid to** field is modified, this dictionary value overrides the default value of the **Valid to** field calculated according to the **Article Validity** field. For more information, see [Validity of a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-validity.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ Translation Tasks
 
 </td><td>
 
-Tasks submitted for translating the article. This related list appears when the Translation Management feature and the **glide.knowman.translation.enable\_translation\_task** property to enable creation of translation tasks are enabled. For more information, see [Knowledge Management properties](../reference/r_KnowledgeProperties.md#).
+Tasks submitted for translating the article. This related list appears when the Translation Management feature and the **glide.knowman.translation.enable\_translation\_task** property to enable creation of translation tasks are enabled. For more information, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
 </td></tr><tr><td>
 
@@ -125,7 +126,7 @@ Related Articles
 
 </td><td>
 
-Related articles mapped to the knowledge article. For more information, see [Map a related article in Agent Workspace](map-related-articles-agent.md).
+Related articles mapped to the knowledge article. For more information, see [Map a related article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/map-related-articles-agent.md).
 
 </td></tr><tr><td>
 
@@ -133,7 +134,7 @@ Related Catalog Items
 
 </td><td>
 
-Related catalog items mapped to the knowledge article. For more information, see [Map a related item in Agent Workspace](map-related-items-agent.md).
+Related catalog items mapped to the knowledge article. For more information, see [Map a related item in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/map-related-items-agent.md).
 
 </td></tr><tr><td>
 
@@ -141,16 +142,16 @@ Affected Products
 
 </td><td>
 
-Products mapped to the knowledge article. For more information, see [Add an affected product to a knowledge article in Agent Workspace](add-affected-products-agent.md).
+Products mapped to the knowledge article. For more information, see [Add an affected product to a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/add-affected-products-agent.md).
 
 </td></tr></tbody>
 </table>7.  Research for content related to knowledge article you're authoring using Agent assist.
 
-    1.  In the contextual side panel, select the agent assist icon \(![Agent Assist icon.](../image/agent-assist.png)\).
+    1.  In the contextual side panel, select the agent assist icon .
 
         The search results in Agent assist display default content based on the text-based search.
 
-    2.  Click the select a search resource icon \(![Select a search resource icon](../image/filter-settings.png)\), and then select a search resource.
+    2.  Click the select a search resource icon , and then select a search resource.
 
         For example, to view knowledge articles, select **Knowledge Articles**.
 
@@ -162,22 +163,22 @@ Products mapped to the knowledge article. For more information, see [Add an affe
 
     1.  Enter your search text in the text box available in Agent assist or retain the default text, which is the short description of the knowledge article.
 
-    2.  Select the lookup icon \(![Lookup icon.](../image/lookup-icon.png)\).
+    2.  Select the lookup icon .
 
-    3.  Select a search resource by clicking the Select a search resource icon \(![Select a search resource icon.](../image/filter-settings.png)\).
+    3.  Select a search resource by clicking the Select a search resource icon .
 
         -   To find knowledge articles that have high text similarity with the entered search text, choose **Similar Articles \(ML\)**.
 
-            **Note:** This option is available only when the Predictive Intelligence feature is enabled and your administrator has trained the similarity solution for Knowledge Management. For more information, see [Train the similarity solution for Knowledge Management to find related articles](train-similarity-solution-km.md).
+            **Note:** This option is available only when the Predictive Intelligence feature is enabled and your administrator has trained the similarity solution for Knowledge Management. For more information, see [Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/train-similarity-solution-km.md).
 
         -   To find knowledge articles that match the entered search text, choose **Knowledge Articles**.
 9.  Work with attachments.
 
-    -   Attach a file with supporting information by clicking the attachments icon \(![Attachments icon](../image/attachments.png)\) in the contextual side panel and selecting the file.
-    -   Download, remove, or rename an existing attachment by clicking the menu icon \(![Menu icon](../image/attachment-menu.png)\) displayed for the attachment.
+    -   Attach a file with supporting information by clicking the attachments icon in the contextual side panel and selecting the file.
+    -   Download, remove, or rename an existing attachment by clicking the menu icon \(\[Omitted image "attachment-menu.png"\] Alt text: Menu icon\) displayed for the attachment.
 10. Click **Save**.
 
-    The article is saved and appears in the My Articles - Unpublished list. If the article versioning feature is enabled, the version of the knowledge article is incremented by 0.01. For more information, see [Knowledge article version numbers](../concept/knowledge-article-version-numbers.md).
+    The article is saved and appears in the My Articles - Unpublished list. If the article versioning feature is enabled, the version of the knowledge article is incremented by 0.01. For more information, see [Knowledge article version numbers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md).
 
 11. Publish the article by clicking **Publish**.
 
@@ -186,21 +187,21 @@ Products mapped to the knowledge article. For more information, see [Add an affe
     -   **Knowledge - Instant Publish**: The knowledge article is immediately published unless it is scheduled to be published at a later date.
     -   **Knowledge - Approval Publish**: The knowledge article is published on approval completion unless it is scheduled to be published at a later date.
 
-        **Note:** With an ownership group associated with a knowledge article, ownership group members can approve self-authored articles for publication. An administrator can override this behavior by disabling the **glide.knowman.ownership\_group.enable\_self\_approval** property. For more information, see [Ownership groups](../concept/enable-ownership-group.md).
+        **Note:** With an ownership group associated with a knowledge article, ownership group members can approve self-authored articles for publication. An administrator can override this behavior by disabling the **glide.knowman.ownership\_group.enable\_self\_approval** property. For more information, see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md).
 
-    For more information, see [Schedule a knowledge article for publishing in Agent Workspace](schedule-article-publishing-agent.md).
+    For more information, see [Schedule a knowledge article for publishing in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/schedule-article-publishing-agent.md).
 
-    When published, the knowledge article appears in the My Articles - Published and All Articles lists. If the article versioning feature is enabled, the version number of the knowledge article increments to the next whole number \(for example, from 2.02 to 3.0\). For more information, see [Knowledge article version numbers](../concept/knowledge-article-version-numbers.md).
+    When published, the knowledge article appears in the My Articles - Published and All Articles lists. If the article versioning feature is enabled, the version number of the knowledge article increments to the next whole number \(for example, from 2.02 to 3.0\). For more information, see [Knowledge article version numbers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md).
 
 
 **Related topics**  
 
 
-[Create a knowledge article in Agent Workspace](create-article-workspace.md)
+[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-article-workspace.md)
 
-[View a knowledge article in Agent Workspace](view-article-agent.md)
+[View a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-agent.md)
 
 [bundle-platux.agent-assist]
 
-[Create knowledge from incident or problem](t_ApproveKnowledgeSubmission.md)
+[Create knowledge from incident or problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_ApproveKnowledgeSubmission.md)
 

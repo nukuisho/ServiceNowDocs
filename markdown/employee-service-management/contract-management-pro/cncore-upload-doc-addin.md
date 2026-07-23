@@ -2,6 +2,7 @@
 title: Complete mapping and upload Microsoft Word document that includes content controls
 description: As a contract configurator, after adding the content controls to the Microsoft Word document to be used for the contract template using the Microsoft Word Add-in for ServiceNow Contracts, upload the document to the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-upload-doc-addin.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,7 +18,7 @@ As a contract configurator, after adding the content controls to the Microsoft W
 
 ## Before you begin
 
-Add metadata, signatory details, and content controls for the clauses before uploading the document. The uploaded document is parsed for the content controls and data populated into the ServiceNow instance. For more information, see [Add document content controls using Microsoft Word add-in for ServiceNow Contracts](cncore-add-contrl-wrd-addin.md)
+Add metadata, signatory details, and content controls for the clauses before uploading the document. The uploaded document is parsed for the content controls and data populated into the ServiceNow instance. For more information, see [Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
 
 Role required: sn\_cm\_core.contract\_config and canvas\_user
 
@@ -33,7 +34,7 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 5.  Select **Complete mapping and upload**.
 
-    ![Complete mapping and upload](../image/cmpro-upload-doc.png "Complete mapping and upload")
+    \[Omitted image "cmpro-upload-doc.png"\] Alt text: Complete mapping and upload
 
 6.  On the confirmation screen, select **Complete mapping**.
 
@@ -42,16 +43,16 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 ## What to do next
 
-[Complete clause mapping to build a clause library](cncore-clause-map-addin.md).
+[Complete clause mapping to build a clause library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-clause-map-addin.md).
 
-**Parent Topic:**[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](../concept/cncore-setup-ct-add-in.md)
+**Parent Topic:**[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
 
 **Related topics**  
 
 
-[Create a contract template to contain content controls](cncore-create-ct-word-addin.md)
+[Create a contract template to contain content controls]()
 
-[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](cncore-add-contrl-wrd-addin.md)
+[Add document content controls using Microsoft Word add-in for ServiceNow Contracts]()
 
-[Complete clause mapping to build a clause library](cncore-clause-map-addin.md)
+[Complete clause mapping to build a clause library]()
 

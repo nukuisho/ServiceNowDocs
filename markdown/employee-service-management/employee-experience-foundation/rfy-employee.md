@@ -2,11 +2,12 @@
 title: View the Recommended for you content
 description: Access all the content recommended for you from from a central location in one-click.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/rfy-employee.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
@@ -23,40 +24,42 @@ As an employee, you can access the recommended knowledge articles or catalog ite
 
 
 
-For more information, see [Recommended for you](rfy-ec.md)
+For more information, see [Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/rfy-ec.md)
 
-**Parent Topic:**[Using Employee Center](using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
 
-[Use the Employee Center topic pages](ec-topic-use.md)
+[Use the Employee Center topic pages]()
 
-[Topic managers and contributors for topic page management](topic-managers-and-contributors-for-topic-page-management.md)
+[Topic managers and contributors for topic page management]()
 
-[Use the My To-dos page](../task/ec-to-dos-use.md)
+[Use the My To-dos page]()
 
-[Use approval experience](../task/ec-to-dos-use-approval-hub.md)
+[Use approval experience]()
 
-[Manage approvals from Microsoft Teams](../../sn-teams/task/va-concur.md)
+[Manage approvals from Microsoft Teams]()
 
-[Manage approvals from a Microsoft Outlook email](../../sn-ms-outlook/task/oam-concur.md)
+[Manage approvals from a Microsoft Outlook email]()
 
-[Task filters on My tasks](configurable-filters-experience.md)
+[Task filters on My tasks]()
 
-[Use Employee Center from Zoom](../task/zoom-create-email-notification.md)
+[Use Employee Center from Zoom]()
 
-[View employee profile](update-employee-profile.md)
+[View employee profile]()
 
-[Use Personalized Answers](using-personalized-search-on-employee-center.md)
+[Use Employee Profile with HR Service Delivery]()
 
-[Employee Profile org chart widget](../task/view-org-chart.md)
+[Use Personalized Answers]()
 
-[RTL support for Employee Center](ec-rtl-language-support.md)
+[Employee Profile org chart widget]()
 
-[Manage favorites](../task/web-configure-favorites-employee.md)
+[RTL support for Employee Center]()
 
-[Access applications from App Launcher](web-application-employee.md)
+[Manage favorites]()
 
-[Use Guided Self-Service](gss-guided-self-service-homepage.md)
+[Access applications from App Launcher]()
+
+[Use Guided Self-Service]()
 

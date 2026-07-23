@@ -2,6 +2,7 @@
 title: Using the calendar screen
 description: Use the calendar screen to create and view events related to specified dates. Scroll in either the calendar interface or the events list, to view corresponding information for the selected date or event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/calendar-screen-using.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -28,7 +29,7 @@ The calendar screen is divided into two sections. The upper section that contain
 
 </td><td>
 
-![Calendar screen with multi-day event showing.](../image/CalendarScreen.png)
+\[Omitted image "CalendarScreen.png"\] Alt text: Calendar screen with multi-day event showing.
 
 </td></tr></tbody>
 </table>The table describes the various buttons displayed in a calendar screen.
@@ -45,11 +46,11 @@ Definition
 
 </th></tr></thead><tbody><tr><td>
 
-New event button - iOS ![New event button - iOS.](../image/button-new-event-ios.png)
+New event button - iOS \[Omitted image "button-new-event-ios.png"\] Alt text: New event button - iOS.
 
 New event button - Android
 
-![New event button - Android.](../image/button-new-event-android.png)
+\[Omitted image "button-new-event-android.png"\] Alt text: New event button - Android.
 
 </td><td>
 
@@ -57,11 +58,11 @@ New event button. Tap to display quick actions in order to create a new event.
 
 </td></tr><tr><td>
 
-More button - iOS![More button - iOS.](../image/button-more-ios.png)
+More button - iOS\[Omitted image "button-more-ios.png"\] Alt text: More button - iOS.
 
 More button - Android
 
-![More button - Android.](../image/button-more-android.png)
+\[Omitted image "button-more-android.png"\] Alt text: More button - Android.
 
 </td><td>
 
@@ -69,7 +70,7 @@ More button. According to your administrators' configuration, the more button ma
 
 </td></tr><tr><td>
 
-![Today button.](../image/button-today.png)
+\[Omitted image "button-today.png"\] Alt text: Today button.
 
 </td><td>
 
@@ -77,15 +78,15 @@ Today button. Tap to return the calendar to the current day and to refresh the c
 
 </td></tr><tr><td>
 
-![Filter button.](../image/button-filter.png)
+\[Omitted image "button-filter.png"\] Alt text: Filter button.
 
 </td><td>
 
-Filter button. Use the filter option to help you search for specific content in the calendar. For more information about filtering, see [Filtering and sorting results in mobile](../task/filter-sort-results-using.md).
+Filter button. Use the filter option to help you search for specific content in the calendar. For more information about filtering, see [Filtering and sorting results in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/filter-sort-results-using.md).
 
 </td></tr><tr><td>
 
-![Saved items button.](../image/button-saved-items.png)
+\[Omitted image "button-saved-items.png"\] Alt text: Saved items button.
 
 </td><td>
 

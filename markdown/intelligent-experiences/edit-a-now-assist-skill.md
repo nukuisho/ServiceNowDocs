@@ -2,9 +2,10 @@
 title: Edit a Now Assist skill
 description: Edit the configuration of a Now Assist skill to choose the inputs or triggers and the display location of the skill output.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/edit-a-now-assist-skill.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Admin features, skill, edit, configuration, inputs, triggers]
 breadcrumb: [Using Now Assist Admin, Now Assist, Enable AI experiences]
@@ -30,9 +31,9 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 3.  On the feature card associated with the skill you'd like to edit, select **View details**.
 
-4.  Under **Active skills**, select the more options icon ![More options menu item](../../now-assist-platform/images/more-options-menu-item.png) next to the skill that you want to configure, then select **Edit**.
+4.  Under **Active skills**, select the more options icon \[Omitted image "more-options-menu-item.png"\] Alt text: More options menu item next to the skill that you want to configure, then select **Edit**.
 
-    ![More options menu expanded to show the Edit and Deactivate skill next to the Incident Summarization skill.](../image/now-assist-edit-skill.png)
+    \[Omitted image "now-assist-edit-skill.png"\] Alt text: More options menu expanded to show the Edit and Deactivate skill next to the Incident Summarization skill.
 
     The first step in the guided setup for the skill is displayed.
 
@@ -40,7 +41,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
     **Note:** Some configuration options are read-only.
 
-    ![Configuration panel for Chat summarization. Use this panel to choose when and how the skill is triggered.](../../now-assist-platform/images/edit-now-assist-skill-1.png "Chat summarization skill configuration panel")
+    \[Omitted image "edit-now-assist-skill-1.png"\] Alt text: Configuration panel for Chat summarization. Use this panel to choose when and how the skill is triggered.
 
 5.  Proceed to the next step when you've finished configuring the current step by selecting **Save and continue**.
 
@@ -51,7 +52,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## Result
 
-The skill is activated with your preferred settings. You can now [install other plugins](install-now-assist-feature-plugins.md) or [activate other skills](configure-a-now-assist-skill.md).
+The skill is activated with your preferred settings. You can now [install other plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) or [activate other skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
-**Parent Topic:**[Using Now Assist Admin](../concept/using-now-assist-admin_0.md)
+**Parent Topic:**[Using Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-admin_0.md)
 

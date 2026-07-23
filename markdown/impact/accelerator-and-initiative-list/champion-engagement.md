@@ -2,13 +2,14 @@
 title: Champion Engagement
 description: The Champion Engagement Accelerators provide insights into champion engagement.Guidance to effectively communicate the value and benefits of using the ServiceNow platform.Guidance to effectively communicate the value and benefits of using the ServiceNow platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/champion-engagement.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Champion Engagement

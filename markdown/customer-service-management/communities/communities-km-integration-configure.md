@@ -2,6 +2,7 @@
 title: Enable knowledge harvesting
 description: Configure knowledge harvesting from a community to convert unstructured conversations to structured knowledge articles and make the information more accessible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-km-integration-configure.html
 release: australia
 product: Communities
 classification: communities
@@ -24,48 +25,48 @@ Community administrators perform the following tasks to configure knowledge harv
 
 -   Add a knowledge category to a forum topic to categorize the harvested content.
 
-**Parent Topic:**[Configuring communities](../reference/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 
 
-[Community content types](c_communities-content-types.md)
+[Community content types]()
 
-[Community feedback types](feedback-types.md)
+[Community feedback types]()
 
-[Community access types](access-types.md)
+[Community access types]()
 
-[Platform Analytics Solutions for Communities](../../../use/dashboards/application-content-packs/communities-content-pack.md)
+[Platform Analytics Solutions for Communities]()
 
-[Migrate Social Q&amp;A data to Communities](../task/migrate-socialqa.md)
+[Migrate Social Q&amp;A data to Communities]()
 
-[View community logs](../task/view-community-logs.md)
+[View community logs]()
 
-[View community feedback and bookmarks tables](../task/view-feedback-bookmark-tables.md)
+[View community feedback and bookmarks tables]()
 
-[Create a case from a discussion](case-management-integration.md)
+[Create a case from a discussion]()
 
-[Activate Communities plugins](../task/activate-communities.md)
+[Activate Communities plugins]()
 
-[Community setup guide for admins](../reference/r_setup-communities-admin.md)
+[Community setup guide for admins]()
 
-[Configure community content types](../task/enable-content-types-for-community.md)
+[Configure community content types]()
 
-[Configure video sources for a community](../../customer-service-management/task/create-video-configuration.md)
+[Configure video sources for a community]()
 
-[Configure community forums](../task/configure-forums-topics.md)
+[Configure community forums]()
 
-[Forum and user permissions management](communities-permissions.md)
+[Forum and user permissions management]()
 
-[Configure the community profile](../task/configure-community-profile.md)
+[Configure the community profile]()
 
-[Create community Terms and Conditions](../task/create-terms-conditions.md)
+[Create community Terms and Conditions]()
 
-[Enable users to self-register to a community](configure-registration.md)
+[Enable users to self-register to a community]()
 
-[Moderate a community](../task/moderate-communities.md)
+[Moderate a community]()
 
-[Administer gamification](communities-gamification-administer.md)
+[Administer gamification]()
 
-[Community Service Portal](community-service-portal.md)
+[Community Service Portal]()
 

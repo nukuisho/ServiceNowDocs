@@ -2,13 +2,14 @@
 title: Stock rules
 description: Stock rules are defined criteria stating that when the inventory of a particular asset in a particular stockroom reaches a specified threshold, a certain number should either be transferred from another stockroom or ordered from a vendor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/c\_StockRules.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Stockrooms, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Stockrooms, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Stock rules
@@ -75,7 +76,9 @@ Vendor
 
 </td><td>
 
-When the Procurement plugin \(com.snc.procurement\) is activated, a purchase order and corresponding purchase order line items are created.Purchase orders and purchase order line items are created when the inventory in a stockroom reaches the defined threshold and needs replenishment directly from the vendor.
+When the Procurement plugin \(com.snc.procurement\) is activated, a purchase order and corresponding purchase order line items are created.**Important:** The automatic purchase order action works only for hardware models that are published as vendor catalog items. If a model isn't published as a vendor catalog item, the stock rule still triggers when stock falls below the minimum quantity, but it can't generate a purchase order. To publish a hardware model as a vendor catalog item, see [Publish an item to the hardware catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/t_PublishAnItemToTheHardwareCatalog.md).
+
+Purchase orders and purchase order line items are created when the inventory in a stockroom reaches the defined threshold and needs replenishment directly from the vendor.
 
 **Note:** You must have a procurement\_user role to access the purchase order and purchase order line item.
 
@@ -90,10 +93,10 @@ When the Hardware Asset Management application is installed and the stock rule i
 -   The pending\_delivery flag is used to track the status of the Service Catalog requests. This flag guarantees that the Service Catalog requests are processed correctly, avoiding duplicate actions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Stockrooms](c_Stockrooms.md)
+</table>**Parent Topic:**[Stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_Stockrooms.md)
 
 **Related topics**  
 
 
-[Create a stock rule](../task/t_CreateAStockRule.md)
+[Create a stock rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/t_CreateAStockRule.md)
 

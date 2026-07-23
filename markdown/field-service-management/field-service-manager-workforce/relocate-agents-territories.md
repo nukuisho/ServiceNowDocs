@@ -2,6 +2,7 @@
 title: Move agents between territories in the Territory Planning console
 description: Relocate agents between territories to add flexibility to their work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/relocate-agents-territories.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -25,7 +26,7 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_
 -   By matching resource availability and addressing unscheduled work for agents, schedule planning is significantly improved.
 -   When agents are relocated to another territory, any tasks assigned to them in the source territory are unassigned by default. You can also choose to alter the behaviour using `UnassignTaskOnAgentRelocation` extension point.
 
-This video shows the agent relocation process.Agent relocation procedure 
+This video shows the agent relocation process.\[Omitted video\] Description: Agent relocation procedure
 
 ## Procedure
 
@@ -33,7 +34,7 @@ This video shows the agent relocation process.Agent relocation procedure
 
 2.  Select the territory and open the record.
 
-3.  Select the Agent Relocation \(![Agent Relocation icon.](../image/agent-relocation.jpg)\) icon.
+3.  Select the Agent Relocation \(\[Omitted image "agent-relocation.jpg"\] Alt text: Agent Relocation icon.\) icon.
 
     The **Relocate agents** form appears in the contextual side panel.
 

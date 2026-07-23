@@ -2,6 +2,7 @@
 title: Configure "Did you mean?" suggestions
 description: The Knowledge Base and global text searches can provide "Did you mean?" suggestions. Suggestions appear if a search doesn't return any results and an alternate spelling or similar recent search does. This feature is disabled by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/t\_ConfigureADidYouMeanSuggestion.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -36,10 +37,10 @@ Set system properties to enable "Did you mean?" suggestions in the Knowledge Bas
 3.  Select **Save**.
 
 
-**Parent Topic:**[Global text search suggestions](../reference/r_GlobalTextSearchSuggestions.md)
+**Parent Topic:**[Global text search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/r_GlobalTextSearchSuggestions.md)
 
 **Related topics**  
 
 
-[Update a type-ahead suggestion](t_UpdateATypeAheadSuggestion.md)
+[Update a type-ahead suggestion]()
 

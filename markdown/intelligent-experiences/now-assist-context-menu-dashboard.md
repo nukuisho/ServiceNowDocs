@@ -2,9 +2,10 @@
 title: Now Assist context menu usage dashboard
 description: Use the Now Assist Context Menu dashboard to monitor the use of Now Assist context menu across the different applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-context-menu-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Now Assist context menu, Now Assist Experiences, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
 ---
@@ -21,15 +22,15 @@ The Now Assist context menu usage dashboard provides insights into usage pattern
 -   Capacity distribution
 -   Responses by feedback
 
-![Now assist context menu usage dashboard](../images/now-assist-context-menu-usage-dashboard.png)
+\[Omitted image "now-assist-context-menu-usage-dashboard.png"\] Alt text: Now assist context menu usage dashboard
 
 The Now Assist context menu usage dashboard enables you to filter the data based on the usage date. You can choose from the standard options or provide a custom range and select apply to filter the data.
 
-![Date filter](../images/nacm-dashboard-date-filter.png)
+\[Omitted image "nacm-dashboard-date-filter.png"\] Alt text: Date filter
 
-You have an option to refresh, duplicate, edit, create, and export a dashboard. ![More option](../images/nacm-dashboard-elipsis-more-icon.png)
+You have an option to refresh, duplicate, edit, create, and export a dashboard. \[Omitted image "nacm-dashboard-elipsis-more-icon.png"\] Alt text: More option
 
-You can also select the info icon \(\) to view the dashboard-related information. ![Dashboard information](../images/nacm-dashboard-infoicon-tab.png)![Information icon.](../../now-assist-admin/image/info-icon.png)
+You can also select the info icon \(\) to view the dashboard-related information. \[Omitted image "nacm-dashboard-infoicon-tab.png"\] Alt text: Dashboard information\[Omitted image "info-icon.png"\] Alt text: Information icon.
 
 ## Key features
 
@@ -47,5 +48,5 @@ Insights: View insights and suggestions for Now Assist usage.
 
 \`
 
-**Parent Topic:**[Now Assist context menu](now-assist-write-overview.md)
+**Parent Topic:**[Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md)
 

@@ -2,6 +2,7 @@
 title: Scripted templates
 description: You can apply an active template to a record using JavaScript.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_ScriptedTemplates.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -46,10 +47,9 @@ change.requested_by = current.caller_id;
 change.assignment_group.setDisplayValue('Change & Release');
 change.u_status = 'New';
 change.parent = current.number;
-if(0 == change.applyTemplate("standard_rfc")) {
-    current.rfc = change.insert();
-    current.comments = 'Change ' + change.number + ' created.';
-}
+change.applyTemplate("standard_rfc");
+current.rfc = change.insert();
+current.comments = 'Change ' + change.number + ' created.';
 
 var mySysID = current.update();
 
@@ -72,22 +72,22 @@ To apply a template using a sys\_id, use the following method.
 GlideTemplate.get(template.sys_id).apply(GlideRecord)
 ```
 
-**Parent Topic:**[Using form templates](../concept/c_Templates.md)
+**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md)
 
 **Related topics**  
 
 
-[Create a template using the Template form](../task/t_CreateATemplateUsingTheTmplForm.md)
+[Create a template using the Template form]()
 
-[Create templates for related task records](../task/create-templates-for-related-task-records.md)
+[Create templates for related task records]()
 
-[Create a template by saving a form](../task/t_SaveAFormAsATemplateInUI16OrUI15.md)
+[Create a template by saving a form]()
 
-[Schedule record creation from a template](../task/t_ScheduleATemplate.md)
+[Schedule record creation from a template]()
 
-[Create a module for a template](../task/t_CreateAModuleForATemplate.md)
+[Create a module for a template]()
 
-[Template bar](../concept/template-bar.md)
+[Template bar]()
 
-[Toggle the template bar](../task/t_ToggleTheTemplateBar.md)
+[Toggle the template bar]()
 

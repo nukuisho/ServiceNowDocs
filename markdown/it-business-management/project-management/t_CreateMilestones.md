@@ -2,6 +2,7 @@
 title: Create a milestone
 description: A milestone is a project task with a duration of zero \(0\). Use milestones to mark key dates in your project, such as key decision points, approvals, and holidays. Milestones are treated like any other project task and you can create dependencies between tasks and milestones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateMilestones.html
 release: australia
 product: Project Management
 classification: project-management
@@ -29,59 +30,55 @@ Role required: it\_project\_manager
 
 2.  Open the planning console Gantt chart and verify that it appears as a diamond.
 
-    You can also convert a task to milestone through [Planning console tasks](../reference/r_PlanningConsoleTasks.md).
+    You can also convert a task to milestone through [Planning console tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_PlanningConsoleTasks.md).
 
 
-**Parent Topic:**[Starting a project](t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
 
-[Create a project task from a project](t_CreateATaskFromAProject.md)
+[Create a project task from a project]()
 
-[Create a parent-child relationship on the Project Task form](t_CreateParentChildRelationship.md)
+[Create a parent-child relationship on the Project Task form]()
 
-[Create a monetary benefit plan for a project](create-project-benefit-plan.md)
+[Create a monetary benefit plan for a project]()
 
-[Create a non-monetary benefit plan for a project](create-a-non-monetary-benefit-plan-for-a-project.md)
+[Create a non-monetary benefit plan for a project]()
 
-[Associate monetary and non-monetary benefit plans](associate-monetary-and-non-monetary-benefit-plans-project.md)
+[Associate monetary and non-monetary benefit plans]()
 
-[Create a project cost plan](t_CreateAProjectCostPlan.md)
+[Create a project cost plan]()
 
-[Recalculating costs of all resource plans in a project](recalculate-resource-costs-of-a-project.md)
+[Recalculating costs of all resource plans in a project]()
 
-[Create an expense line](t_CreateAExpenseLine.md)
+[Create an expense line]()
 
-[Create and manage waterfall projects](../../project-portfolio-suite/concept/c_CreateAndManageWaterfallProjects.md)
+[Create and manage waterfall projects]()
 
-[Schedule a project from a start date](schedule-a-project-pm.md)
+[Update a project]()
 
-[Apply or change a task constraint](change-task-constraint-project-management.md)
+[Copy a project]()
 
-[Update a project](t_UpdateAProjectInProgress.md)
+[Assign a project schedule]()
 
-[Copy a project](t_CopyAProject.md)
+[Create baseline of a project]()
 
-[Assign a project schedule](t_UseAProjectSchedule.md)
+[Activate project task email notifications]()
 
-[Create baseline of a project](t_CreateAProjectBaseline.md)
+[Change the planned start date of a project]()
 
-[Activate project task email notifications](t_ActivateProjTaskEmailNot.md)
+[Create a cost type definition]()
 
-[Change the planned start date of a project](change-planned-start-date-of-project.md)
+[Costing add-on in Project Management]()
 
-[Create a cost type definition](t_CreateAResourceTypeDefinition.md)
+[Generate labor costs]()
 
-[Costing add-on in Project Management](../concept/c_ProjectManagementCostingAddOn.md)
+[Create a project status report]()
 
-[Generate labor costs](gen-cost-pln-prj-wrkspc.md)
+[Allocate budget to a project]()
 
-[Create a project status report](t_CreateAProjectStatusReport.md)
+[Migrate budget of active projects to Next Experience]()
 
-[Allocate budget to a project](allocate-budget-to-project.md)
-
-[Migrate budget of active projects to Next Experience](fin-migrate-budget-project-ppm.md)
-
-[Migrate financial baselines of projects to Next Experience](migrate-fin-baselines-projects.md)
+[Migrate financial baselines of projects to Next Experience]()
 

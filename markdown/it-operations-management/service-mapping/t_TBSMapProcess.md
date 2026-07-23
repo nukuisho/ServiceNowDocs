@@ -2,6 +2,7 @@
 title: Resolve pattern-related mapping errors
 description: You can troubleshoot mapping errors caused by patterns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_TBSMapProcess.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -15,10 +16,6 @@ breadcrumb: [Fix errors in individual application service maps, Application serv
 
 You can troubleshoot mapping errors caused by patterns.
 
-Service Mapping Part 2 \| Troubleshooting
-
-This video provides an alternative way of troubleshooting pattern-related errors.
-
 ## Before you begin
 
 Verify that the mapping error is caused by an inaccurate pattern by checking the discovery message. If the message says "Failed to recognize application", the error is pattern-related.
@@ -29,7 +26,7 @@ Role required: admin and service\_mapping\_admin
 
 ## About this task
 
-If there are configuration items \(CIs\) that Service Mapping could not map correctly, they appear on your service instance map with warning icons ![The warning icon](../image/MapWarningIcon.png). Typically, mapping errors happen when Service Mapping fails to connect to a CI or fails to recognize it due to an inaccurate pattern.
+If there are configuration items \(CIs\) that Service Mapping could not map correctly, they appear on your service instance map with warning icons \[Omitted image "MapWarningIcon.png"\] Alt text: The warning icon. Typically, mapping errors happen when Service Mapping fails to connect to a CI or fails to recognize it due to an inaccurate pattern.
 
 You can identify problematic steps in your pattern and fix them without reviewing all steps and operations contained in the pattern. It allows you to troubleshoot pattern-related errors quickly and effectively.
 
@@ -45,17 +42,17 @@ You can identify problematic steps in your pattern and fix them without reviewin
 
 2.  Ensure that the map opens in Edit mode displaying discovery messages and errors.
 
-    ![Discovery Messages pane](../image/MapEditDiscoveryMessages.png)
+    \[Omitted image "MapEditDiscoveryMessages.png"\] Alt text: Discovery Messages pane
 
-3.  Right-click the CI with the warning icon \(![The warning icon](../image/MapWarningIcon.png)\) and select **Show discovery log**.
+3.  Right-click the CI with the warning icon \(\[Omitted image "MapWarningIcon.png"\] Alt text: The warning icon\) and select **Show discovery log**.
 
 4.  Expand the failed pattern which appears above the result marked red.
 
-    ![A failed pattern appears](../image/DiscLogExpandPattern.png)
+    \[Omitted image "DiscLogExpandPattern.png"\] Alt text: A failed pattern appears
 
 5.  Expand the failed section and click the failed step.
 
-    ![A pattern section inside the pattern in the Discovery Log window.](../image/DiscLogExpandPatternSection.png)
+    \[Omitted image "DiscLogExpandPatternSection.png"\] Alt text: A pattern section inside the pattern in the Discovery Log window.
 
 6.  Click **Debug**.
 
@@ -65,7 +62,7 @@ You can identify problematic steps in your pattern and fix them without reviewin
 
     In the example below the port number is 8081 instead of 8080 which causes the problem.
 
-    ![The debug session fails when Pattern Designer tries to run a faulty step.](../image/PatDefDebugStepFailure.png)
+    \[Omitted image "PatDefDebugStepFailure.png"\] Alt text: The debug session fails when Pattern Designer tries to run a faulty step.
 
 8.  Click **OK**.
 
@@ -86,12 +83,12 @@ You can identify problematic steps in your pattern and fix them without reviewin
 16. Verify that the CI is discovered and mapped correctly.
 
 
-**Parent Topic:**[Fix errors in individual application service maps](fix-or-ignore-errors-business-service-map.md)
+**Parent Topic:**[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
 
 **Related topics**  
 
 
-[Fix errors in individual application services using discovery messages](fix-errors-by-discovery-messages.md)
+[Fix service mapping errors using discovery messages]()
 
-[Skip errors to continue discovering an application service](skip-errors-continue-discovery-individual-services.md)
+[Skip errors to continue discovering an application service]()
 

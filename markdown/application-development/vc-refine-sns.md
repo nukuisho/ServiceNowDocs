@@ -1,29 +1,30 @@
 ---
-title: Vibe-coded app refinement in ServiceNow Studio
-description: ServiceNow Studio connects AI-generated, vibe-coded apps to enterprise-grade solutions, where you can review, edit, and enhance your application in a dedicated development environment.
+title: Agentic development app refinement in ServiceNow Studio
+description: ServiceNow Studio connects AI-generated apps to enterprise-grade solutions, where you can review, edit, and enhance your application in a dedicated development environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/vc-refine-sns.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [ServiceNow Studio, vibe coding, Build Agent, AI-assisted development, application development, developer tools, code refinement, metadata editing, Automated Test Framework, ATF, application files, access control lists, ACL, record producers, update sets]
 audience: developer
-breadcrumb: [Build Agent overview, Develop, Vibe coding and AI-assisted development, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Vibe-coded app refinement in ServiceNow Studio
+# Agentic development app refinement in ServiceNow Studio
 
-ServiceNow Studio connects AI-generated, vibe-coded apps to enterprise-grade solutions, where you can review, edit, and enhance your application in a dedicated development environment.
+ServiceNow Studio connects AI-generated apps to enterprise-grade solutions, where you can review, edit, and enhance your application in a dedicated development environment.
 
-After vibe coding or developing an application with Build Agent or Now Assist for Creator, ServiceNow Studio provides a powerful, developer-friendly environment for reviewing, customizing, and perfecting your app.
+After developing an application agentically with Build Agent or Now Assist for Creator, ServiceNow Studio provides a powerful, developer-friendly environment for reviewing, customizing, and perfecting your app.
 
-If you're a developer who's new to vibe coding and AI-assisted development, ServiceNow Studio provides a more abstracted approach to code refinement compared to ServiceNow IDE.
+If you're a developer who's new to agentic development, ServiceNow Studio provides a more abstracted approach to code refinement compared to ServiceNow IDE.
 
-For documentation on using Build Agent in ServiceNow Studio, see [Build Agent in ServiceNow Studio](../../servicenow-studio/concept/build-agent-in-servicenow-studio.md).
+For documentation on using Build Agent in ServiceNow Studio, see [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
 
 ## ServiceNow Studio workflow
 
-To review and refine your vibe-coded app from Build Agent in ServiceNow Studio, follow these steps:
+To review and refine your app from Build Agent in ServiceNow Studio, follow these steps:
 
 1.  Open your app in ServiceNow Studio.
 
@@ -54,5 +55,5 @@ To review and refine your vibe-coded app from Build Agent in ServiceNow Studio, 
 1.  ServiceNow IDE: Best for file‑centric, code‑heavy edits, rapid iteration, and pairing with the ServiceNow SDK for local dev/CI. Suitable for developers familiar with the ServiceNow AI Platform.
 2.  ServiceNow Studio: Best for metadata‑centric review \(tables, ACLs, roles\) and cross‑scope editing with a visual overview of app artifacts; keeps Now Assist in‑context for conversational adjustments. Suitable for developers with various levels of experience on the ServiceNow AI Platform.
 
-**Parent Topic:**[AI-assisted ServiceNow AI Platform development with Build Agent](vc-build-agent-landing.md)
+**Parent Topic:**[AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vc-build-agent-landing.md)
 

@@ -2,12 +2,13 @@
 title: Using agentic workflows in Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Use the Now Assist for TMT agentic workflows to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/using-aiagents-usecases.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
@@ -181,6 +182,18 @@ Assist the customer to automatically draft, refine, and distribute the release a
 </td><td>
 
 Email communication manager AI agent
+
+</td></tr><tr><td>
+
+Service Exchange Knowledge Assistant
+
+</td><td>
+
+Helps users get answers to Service Exchange questions, grounded in documentation that matches the Service Exchange version installed on the instance. It also provides source links for every answer so users can verify the underlying documentation.
+
+</td><td>
+
+Service Exchange Knowledge Assistant AI agent
 
 </td></tr></tbody>
 </table>Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).

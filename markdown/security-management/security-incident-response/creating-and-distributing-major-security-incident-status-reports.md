@@ -2,6 +2,7 @@
 title: Create and distribute MSIM Status Reports
 description: As a Major Security Incident \(MSI\) manager, you can create and distribute the different status reports to different stakeholders at various intervals based on the configured report template or a previous status report throughout the course of the major security incident resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/creating-and-distributing-major-security-incident-status-reports.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -83,7 +84,7 @@ State of the status reports. The status reports can be in one of the following s
 </td></tr></tbody>
 </table>5.  Select the type of the status report that you would want to view or select **New** to create a status report.
 
-    ![Create and distribute MSIM Status Reports](../image/msim-status-reports-tab.png "MSIM Status Reports tab")
+    \[Omitted image "msim-status-reports-tab.png"\] Alt text: Create and distribute MSIM Status Reports
 
 6.  Choose one of the following status report types from the list.
 
@@ -94,15 +95,15 @@ State of the status reports. The status reports can be in one of the following s
 
 7.  On the Executive Email Status Report template, fill the sections with the details of the status report.
 
-<table id="choicetable_lfv_mkq_d1c"><thead><tr><th align="left" id="d309643e249">
+<table id="choicetable_lfv_mkq_d1c"><thead><tr><th align="left" id="d314721e245">
 
 Report section
 
-</th><th align="left" id="d309643e252">
+</th><th align="left" id="d314721e248">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d309643e258">
+</th></tr></thead><tbody><tr><td id="d314721e254">
 
 **Updates**
 
@@ -112,7 +113,7 @@ Provide a summary of the status update. This section contains the following:-   
 -   **Append text from last report shared**: Select this option to append the text from the last report shared.
 
 
-</td></tr><tr><td id="d309643e280">
+</td></tr><tr><td id="d314721e276">
 
 **Explanation**
 
@@ -124,7 +125,7 @@ Add an explanation on what has changed since the last status update was done. Th
 -   **Filter elements**: Select the report elements to be included in the report. For example, Key Updates or Next Updates.
 
 
-</td></tr><tr><td id="d309643e312">
+</td></tr><tr><td id="d314721e308">
 
 **Additional Information**
 
@@ -132,7 +133,7 @@ Add an explanation on what has changed since the last status update was done. Th
 
 Provide specific details relevant to the status update.
 
-</td></tr><tr><td id="d309643e321">
+</td></tr><tr><td id="d314721e317">
 
 **Visualizations**
 
@@ -142,7 +143,7 @@ Select the visualizations that best help communicate the status update. -   **In
 -   **Filter elements**: Select the report elements to be included in the report. For example, Incident Impact.
 
 
-</td></tr><tr><td id="d309643e344">
+</td></tr><tr><td id="d314721e340">
 
 **Lists**
 
@@ -155,7 +156,7 @@ Select lists of records that provide context to the status update.-   **Linked r
 </td></tr></tbody>
 </table>    **Note:** The options that you’ve selected from the Status Reports section are the same options that are rendered in the Preview report.
 
-    ![Status Report Template](../image/msim-status-report-template.png "Status Report Template")
+    \[Omitted image "msim-status-report-template.png"\] Alt text: Status Report Template
 
 8.  Select **Save** to save the updates you made to the status report.
 
@@ -220,7 +221,7 @@ Body of the email message.
 
     An email with the attached PDF Status Report is successfully sent to the concerned recipient for them to verify.
 
-    ![Report email](../image/email-report.png "Status Report - email")
+    \[Omitted image "email-report.png"\] Alt text: Report email
 
 11. You can also perform the following actions on the Status Reports tab:
 
@@ -231,28 +232,28 @@ Body of the email message.
     3.  Use the **Filter** action on the Status Reports view to filter the status reports based on certain conditions.
 
 
-**Parent Topic:**[Using Major Security Incident Management](../../security-incident-response/concept/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 
 
-[Propose, promote, and link incident records](../../security-incident-response/concept/promoting-sir-to-msim.md)
+[Propose, promote, and link incident records]()
 
-[Using MSI List view in the MSIM workspace](../../security-incident-response/task/list-view-in-msim.md)
+[Using MSI List view in the MSIM workspace]()
 
-[View Major Security Incident impact metrics](../concept/viewing-trend-charts-and-progress-of-msi.md)
+[View Major Security Incident impact metrics]()
 
-[View Major Security Incident trend charts](../concept/viewing-msi-impact-metrics.md)
+[View Major Security Incident trend charts]()
 
-[Update Major Security Incident details](../concept/msim-details-tab.md)
+[Update Major Security Incident details]()
 
-[Link additional records to Major Security Incident](linking-additional-records-to-major-security-incidents.md)
+[Link additional records to Major Security Incident]()
 
-[Unlink records from Major Security Incident](unlinking-msi-records.md)
+[Unlink records from Major Security Incident]()
 
-[Manage tasks in a Major Security Incident](../concept/tasks-tab.md)
+[Manage tasks in a Major Security Incident]()
 
-[Track collaboration activity via MSIM workspace](../concept/collab-tab.md#)
+[Track collaboration activity via MSIM workspace]()
 
-[Configure Major Security Incident status reports](../concept/manage-status-reports-for-major-security-incident-management.md)
+[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 

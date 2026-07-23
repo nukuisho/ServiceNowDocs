@@ -2,6 +2,7 @@
 title: Create a needs-based product offering recommendation
 description: Set the product offering to be used as a product recommendation for a needs template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-product-recommendations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Needs** &gt; **Needs Based Offering Recommendation** and select **New**.
 
@@ -40,5 +41,12 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## What to do next
 
-[Create a decision tree for a needs template](configure-needs-decision-tree.md).
+[Create a decision tree for a needs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-needs-decision-tree.md).
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

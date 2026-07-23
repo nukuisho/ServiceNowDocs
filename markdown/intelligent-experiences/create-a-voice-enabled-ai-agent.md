@@ -2,9 +2,10 @@
 title: Create an AI voice agent
 description: Create an AI voice agent in the AI Agent Studio to resolve cases, incidents, or tasks through the phone channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-a-voice-enabled-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
 breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
 ---
@@ -51,7 +52,7 @@ Navigate in AI Agent Studio
 
 1.  Go to **All** &gt; **AI Agent Studio** &gt; **Create and manage** and select the **AI agents** tab.
 2.  In the Add drop-down list, select **Voice** to create an AI voice agent.
- ![AI agents window showing the drop-down list used to create an AI voice agent.](../image/voice-agent-select-agent-type-voice.png)
+ \[Omitted image "voice-agent-select-agent-type-voice.png"\] Alt text: AI agents window showing the drop-down list used to create an AI voice agent.
 
 </td></tr></tbody>
 </table>2.  On the Define the specialty page, describe your AI agent and provide instructions on how you want your AI agent to perform its tasks.
@@ -172,7 +173,7 @@ Necessary steps to be followed by the AI agent while carrying out its role.
 
             -   Emphasize the benefits and outcomes of using the AI agent.
             -   Example: Using the AI agent leads to faster resolution times and higher customer satisfaction scores.
-        By following these general guidelines, you can create clear and effective prompt instructions that enable you to use AI agents to their fullest potential. For more information and examples, see [General guidelines for creating AI agents](../concept/gg-creating-aia.md).
+        By following these general guidelines, you can create clear and effective prompt instructions that enable you to use AI agents to their fullest potential. For more information and examples, see [General guidelines for creating AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gg-creating-aia.md).
 
     3.  Determine if the AI agent can be accessed by third parties.
 
@@ -188,17 +189,17 @@ Necessary steps to be followed by the AI agent while carrying out its role.
 
     The following tools are available for AI voice agents:
 
-    -   [File upload](../task/add-file-retrieval.md): Different file types such as PDF, DOCX, or TXT formats that you can add to your AI agent.
-    -   [Flow action](../task/add-flow-action-ai-agent.md): Custom automated processes in your system that you can add to your AI agent. Example for the Incident manager agent: Fetch details of the incident.
-    -   [Knowledge Graph](../task/add-knowledge-graph.md): Various Knowledge Graph items that you can add to you AI agent.
-    -   [MCP server tool](../../model-context-protocol-client/task/add-mcp-server-tool.md): An MCP server tool that you can to your AI agent.
-    -   [Record operation](../task/add-database-op-ai-agent.md): Different record operations that you can add to your AI agent.
-    -   [Script](../task/add-script-ai-agent.md): Editable scripts and APIs that you can add to your AI agent.
-    -   [Search retrieval](../task/add-retriever-ai-agent.md): Information retrieval processes in your system that you can add to your AI agent.
+    -   [File upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-file-retrieval.md): Different file types such as PDF, DOCX, or TXT formats that you can add to your AI agent.
+    -   [Flow action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-flow-action-ai-agent.md): Custom automated processes in your system that you can add to your AI agent. Example for the Incident manager agent: Fetch details of the incident.
+    -   [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-knowledge-graph.md): Various Knowledge Graph items that you can add to you AI agent.
+    -   [MCP server tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-mcp-server-tool.md): An MCP server tool that you can to your AI agent.
+    -   [Record operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-database-op-ai-agent.md): Different record operations that you can add to your AI agent.
+    -   [Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-script-ai-agent.md): Editable scripts and APIs that you can add to your AI agent.
+    -   [Search retrieval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-retriever-ai-agent.md): Information retrieval processes in your system that you can add to your AI agent.
 
         **Note:** Create a dedicated search profile that includes only the KB articles for AI voice agents to reduce the search scope and minimize latency.
 
-    -   [Sub flow](../task/add-sub-flow-ai-agent.md): Automated flows in your system that you can add to your AI agent.
+    -   [Sub flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/add-sub-flow-ai-agent.md): Automated flows in your system that you can add to your AI agent.
 4.  In the Define security controls tab, define who can access the AI agent and what data the AI agent has access to.
 
     1.  Define the users who can access this AI agent \(ACLs\).
@@ -224,7 +225,7 @@ Necessary steps to be followed by the AI agent while carrying out its role.
 
     2.  In the **Voice assistants** field, select **Now Assist Voice Deployment** or a custom provider.
 
-        Voice assistants are created in Assistant Designer. See [Create a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-voice-assistants.md) for more information.
+        Voice assistants are created in Assistant Designer. See  for more information.
 
     3.  Activate the AI agent by toggling the **Status**.
 

@@ -2,6 +2,7 @@
 title: Request resources
 description: After you create a resource plan, request resources from the resource manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_RequestResourcePlanApproval.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -36,42 +37,42 @@ Role required: it\_project\_manager, resource\_user
 
 The resource plan moves to the Requested state and is ready for review by the resource manager.
 
-**Parent Topic:**[Resource plans](../concept/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
 
-[Create a resource plan](t_CreateResourcePlanProjectTask.md)
+[Create a resource plan]()
 
-[Use Resource Finder to analyze resource availability](create-resource-plan-with-finder.md)
+[Use Resource Finder to analyze resource availability]()
 
-[Create an operational resource plan](create-operational-plan.md)
+[Create an operational resource plan]()
 
-[Confirm a resource plan](confirm-resource-plan.md)
+[Confirm a resource plan]()
 
-[Confirm and allocate a resource plan](confirm-allocate-resource-plan.md)
+[Confirm and allocate a resource plan]()
 
-[Request a change to a resource plan](t_RequestAChangeToAResourcePlan.md)
+[Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand](recalculate-resource-costs.md)
+[Recalculate costs of a resource plan]()
 
-[Update cost plan related to a resource plan](t_UpdateRelatedCostPlan.md)
+[Update cost plan related to a resource plan]()
 
-[Complete a resource plan](t_CloseAResourcePlan.md)
+[Complete an allocated resource plan]()
 
-[Cancel a resource plan](t_CancelAResourcePlan.md)
+[Cancel a resource plan]()
 
-[Delete a resource plan](t_DeleteAResourcePlan.md)
+[Delete a resource plan]()
 
-[Extend a resource plan](extend-resource-plan.md)
+[Extend a resource plan]()
 
-[Request extension of an allocated resource plan](request-extension-allocated-resource-plan.md)
+[Request extension of an allocated resource plan]()
 
-[Allocate resources for the extended period](allocate-resources-for-extended-period.md)
+[Allocate resources for the extended period]()
 
-[Reduce the duration of a resource plan](reduce-resource-plan.md)
+[Reduce the duration of a resource plan]()
 
-[Time zones in resource plans](../concept/c_TimeZonesInResourcePlans.md)
+[Time zones in resource plans]()
 
-[Associate a time card with a resource plan](t_AssocATimeCardWithAResourcePlan.md)
+[Associate a time card with a resource plan]()
 

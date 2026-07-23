@@ -2,6 +2,7 @@
 title: Interaction Management in Supplier Lifecycle Operations
 description: Interactions are a centralized location for all communication channels available in Source-to-Pay Workspace. Interaction Management involves managing supplier-related queries from different sources, such as an email, chat, message, or SMS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/interaction-mgmt-supplier-mgr-ws.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,41 +16,41 @@ breadcrumb: [Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, 
 
 Interactions are a centralized location for all communication channels available in Source-to-Pay Workspace. Interaction Management involves managing supplier-related queries from different sources, such as an email, chat, message, or SMS.
 
--   **[View or create an interaction for a supplier](../task/create-new-interaction.md)**  
+-   **[View or create an interaction for a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-interaction.md)**  
 Typically, an interaction record is automatically created when you accept a chat through the chat queue in the Source-to-Pay Workspace. However, you can also manually create an interaction from the list page of the Source-to-Pay Workspace. You can link an interaction record to an existing supplier case or can assign a task, which needs a supplier manager's involvement for investigation.
--   **[Associate an interaction record to a supplier case](../task/associate-interaction-supplier-case.md)**  
+-   **[Associate an interaction record to a supplier case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Associate an interaction record to a supplier case if your interaction is related to an existing supplier case in Source-to-Pay Workspace.
 
-**Parent Topic:**[Using Source-to-Pay Workspace](use-supp-mgr-wsp.md)
+**Parent Topic:**[Using Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-mgr-wsp.md)
 
 **Related topics**  
 
 
-[Create a supplier from the Source-to-Pay Workspace](../task/new-supplier.md)
+[Create a supplier from the Source-to-Pay Workspace]()
 
-[Manage supplier details](supp-ws-details-page.md)
+[Manage supplier details]()
 
-[Manage internal stakeholders](manage-internal-stakeholders.md)
+[Manage internal stakeholders]()
 
-[Manage supplier contacts from the Source-to-Pay Workspace](managing-contacts-smw.md)
+[Manage supplier contacts from the Source-to-Pay Workspace]()
 
-[Manage supplier cases from the Source-to-Pay Workspace](managing-cases.md)
+[Manage supplier cases from the Source-to-Pay Workspace]()
 
-[Manage supplier tasks from the Source-to-Pay Workspace](managing-tasks.md)
+[Manage supplier tasks from the Source-to-Pay Workspace]()
 
-[Offboard a supplier from the Source-to-Pay Workspace](../task/offboard-supplier.md)
+[Offboard a supplier from the Source-to-Pay Workspace]()
 
-[Accept an incoming chat request from the Source-to-Pay Workspace](../task/accept-chat-supp-ws.md)
+[Accept an incoming chat request from the Source-to-Pay Workspace]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace](email-composer-slm-workspace.md)
+[Composing emails with predefined content from the Source-to-Pay Workspace]()
 
-[Overall supplier dashboard](overall-supplier-db.md)
+[Overall supplier dashboard]()
 
-[Create supplier case from Universal Request](../task/create-supplier-case.md)
+[Create supplier case from Universal Request]()
 
-[Emails view for supplier managers](../task/enabling-emails-view-for-contacts.md)
+[Emails view for supplier managers]()
 
-[View or create an interaction for a supplier](../task/create-new-interaction.md)
+[View or create an interaction for a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-new-interaction.md)
 
-[Associate an interaction record to a supplier case](../task/associate-interaction-supplier-case.md)
+[Associate an interaction record to a supplier case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

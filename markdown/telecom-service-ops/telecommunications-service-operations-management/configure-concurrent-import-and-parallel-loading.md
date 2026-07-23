@@ -1,7 +1,8 @@
 ---
-title: Configure concurrent import and parallel loading for Nokia Altiplano
+title: Configure concurrent import and parallel loading
 description: Improve the efficiency of large data imports from Nokia Altiplano by configuring concurrent imports and enabling parallel loading. This configuration allows the platform to run multiple data import and transformation jobs simultaneously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-concurrent-import-and-parallel-loading.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -11,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Configure Nokia Altiplano SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
-# Configure concurrent import and parallel loading for Nokia Altiplano
+# Configure concurrent import and parallel loading
 
 Improve the efficiency of large data imports from Nokia Altiplano by configuring concurrent imports and enabling parallel loading. This configuration allows the platform to run multiple data import and transformation jobs simultaneously.
 
@@ -36,15 +37,15 @@ Use the following guidance to optimize performance:
 
 2.  Configure concurrent import or concurrent import
 
-<table id="choicetable_mpn_2vz_yfc"><thead><tr><th align="left" id="d29964e107">
+<table id="choicetable_mpn_2vz_yfc"><thead><tr><th align="left" id="d33035e107">
 
 To
 
-</th><th align="left" id="d29964e110">
+</th><th align="left" id="d33035e110">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d29964e116">
+</th></tr></thead><tbody><tr><td id="d33035e116">
 
 **To enable concurrent import**
 
@@ -56,7 +57,7 @@ Do the following
 4.  In the **Partition size**e field, enter the number of records per partition \(for example, 1000\).
  **Note:** The system splits the dataset into import sets based on the partition size. Each import set is processed in parallel, improving the speed of data transformation.
 
-</td></tr><tr><td id="d29964e158">
+</td></tr><tr><td id="d33035e158">
 
 **Configure parallel loading in the data source**
 
@@ -75,9 +76,9 @@ Do the following
 **Related topics**  
 
 
-[Set up Nokia Altiplano](initial-setup-procedure.md)
+[Set up Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/initial-setup-procedure.md)
 
-[Mapping Nokia Altiplano CIs and Relationships in CMDB](../concept/data-mapping.md)
+[Mapping Nokia Altiplano CIs and Relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/data-mapping.md)
 
-[System components installed with Nokia Altiplano](../reference/properties-installed-with-nokia-altiplano.md)
+[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
 

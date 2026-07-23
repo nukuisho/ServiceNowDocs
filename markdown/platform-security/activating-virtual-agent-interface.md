@@ -2,6 +2,7 @@
 title: Activate the ISC Virtual Agent interface
 description: If you have the admin role, you can activate the ISC Virtual Agent Conversations plugin \(com.glide.isc\_virtualagent\). Activating this plugin installs the Virtual Agent and Natural Language Understanding \(NLU content packs, providing Virtual Agent access from the Instance Security Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/activating-virtual-agent-interface.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,9 +20,9 @@ If you have the admin role, you can activate the ISC Virtual Agent Conversations
 
 Instance Security Center \(ISC\) has reached the end of sales as of September 2024, and is no longer supported or available for new activation.
 
-ServiceNow Security Center \(SSC\) is the recommended solution going forward. For more information, see [Instance Security Center to ServiceNow Security Center migration](../../security-center/concept/instance-security-center-to-security-center-migration.md).
+ServiceNow Security Center \(SSC\) is the recommended solution going forward. For more information, see [Instance Security Center to ServiceNow Security Center migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-center-to-security-center-migration.md).
 
-The Virtual Agent interface in the Instance Security Center is only available for users with paid Virtual Agent subscriptions, and who have activated the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin. To learn more, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
+The Virtual Agent interface in the Instance Security Center is only available for users with paid Virtual Agent subscriptions, and who have activated the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin. To learn more, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/activate-virtual-agent.md).
 
 Role required: admin.
 
@@ -72,21 +73,21 @@ Activates the Natural Language Understanding \(NLU\) content pack for the Instan
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Instance Security Center](../concept/instance-security-center.md)
+**Parent Topic:**[Instance Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-center.md)
 
 **Related topics**  
 
 
-[Instance Security Center to ServiceNow Security Center migration](../../security-center/concept/instance-security-center-to-security-center-migration.md)
+[Instance Security Center to ServiceNow Security Center migration]()
 
-[Monitor security events](../concept/instance-sec-center-event-ribbon.md)
+[Monitor security events]()
 
-[Check the daily compliance score and configure security property settings](../concept/instance-sec-center-hardening.md)
+[Check the daily compliance score and configure security property settings]()
 
-[Scan for incorrect security definitions](../concept/scan-for-incorrect-security-definitions.md)
+[Scan for incorrect security definitions]()
 
-[Monitor instance metrics](../concept/monitoring-user-email-antivirus-metrics.md)
+[Monitor instance metrics]()
 

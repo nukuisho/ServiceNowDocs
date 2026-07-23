@@ -2,6 +2,7 @@
 title: Process administration
 description: Process administration allows administrators to set domain-specific policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/c\_DelegatedAdministration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

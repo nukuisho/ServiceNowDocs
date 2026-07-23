@@ -2,12 +2,13 @@
 title: Topic managers and contributors for topic page management
 description: While topic managers control the topic level decisions, the contributors manage the connected content, quick links, adding applications, and featured content on the topic page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/topic-managers-and-contributors-for-topic-page-management.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -28,38 +29,40 @@ While topic managers control the topic level decisions, the contributors manage 
 
 **Topic contributor** level has been introduced to manage all topic level tasks, such as, linking Connected content, Quick links, adding applications, and Featured content. Contributors also have a top-down access control. The user criteria only work further down the sub-tree from the topic that it has been added.
 
-**Parent Topic:**[Using Employee Center](using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
 
-[Use the Employee Center topic pages](ec-topic-use.md)
+[Use the Employee Center topic pages]()
 
-[Use the My To-dos page](../task/ec-to-dos-use.md)
+[Use the My To-dos page]()
 
-[Use approval experience](../task/ec-to-dos-use-approval-hub.md)
+[Use approval experience]()
 
-[Manage approvals from Microsoft Teams](../../sn-teams/task/va-concur.md)
+[Manage approvals from Microsoft Teams]()
 
-[Manage approvals from a Microsoft Outlook email](../../sn-ms-outlook/task/oam-concur.md)
+[Manage approvals from a Microsoft Outlook email]()
 
-[Task filters on My tasks](configurable-filters-experience.md)
+[Task filters on My tasks]()
 
-[View the Recommended for you content](rfy-employee.md)
+[View the Recommended for you content]()
 
-[Use Employee Center from Zoom](../task/zoom-create-email-notification.md)
+[Use Employee Center from Zoom]()
 
-[View employee profile](update-employee-profile.md)
+[View employee profile]()
 
-[Use Personalized Answers](using-personalized-search-on-employee-center.md)
+[Use Employee Profile with HR Service Delivery]()
 
-[Employee Profile org chart widget](../task/view-org-chart.md)
+[Use Personalized Answers]()
 
-[RTL support for Employee Center](ec-rtl-language-support.md)
+[Employee Profile org chart widget]()
 
-[Manage favorites](../task/web-configure-favorites-employee.md)
+[RTL support for Employee Center]()
 
-[Access applications from App Launcher](web-application-employee.md)
+[Manage favorites]()
 
-[Use Guided Self-Service](gss-guided-self-service-homepage.md)
+[Access applications from App Launcher]()
+
+[Use Guided Self-Service]()
 

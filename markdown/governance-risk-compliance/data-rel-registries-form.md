@@ -1,7 +1,8 @@
 ---
-title: Relationship registry new record form
-description: Use the Relationship registry record form to create a relationship registry between objects.
+title: Relationship registry record form
+description: Use the Relationship Registry form \(the Relationship Registry \[sn\_data\_registry\_relationship\] table\) to create relationships between objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/data-rel-registries-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Create a relationship registry record, Data Relationships Framework, Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Relationship registry new record form
+# Relationship registry record form
 
-Use the Relationship registry record form to create a relationship registry between objects.
+Use the Relationship Registry form \(the Relationship Registry \[sn\_data\_registry\_relationship\] table\) to create relationships between objects.
 
-## Relationship registry new record form
+## Relationship registry record form
 
 <table id="table_jjg_syg_rzb"><thead><tr><th>
 
@@ -75,5 +76,5 @@ Relationship table
 Read-only field. The table selected in the **Relationship** field is displayed as a relationship table by default. For example, Issue \[sn\_grc\_issue\].
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a relationship registry record](../task/create-a-rela-registry-record.md)
+</table>**Parent Topic:**[Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-rela-registry-record.md)
 

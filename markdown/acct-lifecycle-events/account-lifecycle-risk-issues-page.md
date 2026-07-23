@@ -2,11 +2,12 @@
 title: Risk and issues page
 description: This page provides detailed information about a risk signal including risk occurrences, threshold values, and risk solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-risk-issues-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Risk portfolio dashboard, Customer success, Use, Customer Success Management]
+breadcrumb: [Risk portfolio dashboard, Dashboards, Customer success, Use, Customer Success Management]
 ---
 
 # Risk and issues page
@@ -17,16 +18,16 @@ To view this page, follow these steps:
 
 1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
 2.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workpace** and select the **List** icon.
-3.  Navigate to **Customer Success** &gt; **All Risks and Issues** and select **Number** column to open the record. You can also navigate to this page from the [Risk portfolio dashboard](account-lifecycle-risk-portfolio.md).
+3.  Navigate to **Customer Success** &gt; **All Risks and Issues** and select **Number** column to open the record. You can also navigate to this page from the [Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-risk-portfolio.md).
 
 \*\*\* to be updated \*\*\*
 
-![Risks and issues page](../image/account-lifecycle-risk-issues.png)
+\[Omitted image "account-lifecycle-risk-issues.png"\] Alt text: Risks and issues page
 
 You can see the following details:
 
 -   Engagement details: This section shows the details of the engagement for which the risk signal has been generated. It includes the Contract value, Stage, Next Renewal date, Health, and so on.
--   Risk signal details: The risk signal details including probability, tracking method, category, and so on. See [Create a risk signal](../task/account-lifecycle-create-risk-signal.md) for details.
+-   Risk signal details: The risk signal details including probability, tracking method, category, and so on. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-risk-signal.md) for details.
 -   Risk occurrence: List of risk occurrences based on the scheduled job. This includes the start and end dates on which the scheduled job was executed, the current value, threshold value, and the gap. Select the link to drill down to the Risk Occurrence page.
 
 The following options are available:
@@ -36,7 +37,7 @@ The following options are available:
     **Note:** This option is available only for unaddressed risks and requires the Now Assist for TMT to be installed.
 
 -   **Discuss**: Select this option to start a sidebar discussion about this risk signal. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
--   **Create success play**: See [Create a success play](../task/account-lifecycle-create-success-play.md)
+-   **Create success play**: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-success-play.md)
 
     The success play created from a risk signal is automatically tagged as a risk solution record.
 
@@ -61,11 +62,11 @@ This option identifies and executes success plays that address an unaddressed ri
 
 5.  Provide the required inputs, such as the planned start date and planned end date, for each success play. Once all the inputs have been provided, the success plays are initiated and run in the background. Optionally, you can select additional plays from the success catalog.
 6.  After the plays have been completed, the solutions are automatically added to the Risk solutions related list on the risk signal record.
-7.  A scheduled job runs every day and automatically identifies risk signals that are eligible for closure and generates closure notes. See [Draft close notes for a risk signal using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/draft-risk-close-notes.md) for details.
+7.  A scheduled job runs every day and automatically identifies risk signals that are eligible for closure and generates closure notes. See [Draft close notes for a risk signal using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/draft-risk-close-notes.md) for details.
 8.  When the risk is closed, closure notes are automatically generated and are visible in the Activity stream and Closure Notes in the risk record.
 
     **Note:** Closure notes are automatically generated only when the **Draft closure notes** skill is enabled, all associated risk solutions are closed, and no new risk occurrences exist for the risk signal.
 
 
-**Parent Topic:**[Risk portfolio dashboard](account-lifecycle-risk-portfolio.md)
+**Parent Topic:**[Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-risk-portfolio.md)
 

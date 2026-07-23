@@ -2,6 +2,7 @@
 title: Indoor Wayfinding and reservations
 description: Use your ServiceNow mobile app to locate indoor resources at your site. You can also use this feature to get step-by-step directions to the office or to other resource locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/indoor-wayfinding-reservations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,39 +22,39 @@ Indoor Wayfinding and reservations includes these features.
 
 ## View interactive office floor plans on your mobile device
 
-![Indoor Wayfinding map on a mobile device](../image/indoor-wayfind-map.png)
+\[Omitted image "indoor-wayfind-map.png"\] Alt text: Indoor Wayfinding map on a mobile device
 
 ## Select and reserve available resources
 
-![Selected destination shown on a mobile Indoor Wayfinding map](../image/indoor-wayfind-select-resource.png)
+\[Omitted image "indoor-wayfind-select-resource.png"\] Alt text: Selected destination shown on a mobile Indoor Wayfinding map
 
 ## Reserve multiple assets of the same kind at one time
 
-![Multiple resources selected for reservation on a mobile Indoor Wayfinding map](../image/indoor-wayfind-select-mult-res.png)
+\[Omitted image "indoor-wayfind-select-mult-res.png"\] Alt text: Multiple resources selected for reservation on a mobile Indoor Wayfinding map
 
 ## View a desired destination on a map and start wayfinding
 
-![Desired destination shown on a mobile Indoor Wayfinding map](../image/indoor-wayfind-view-desird-dest.png)
+\[Omitted image "indoor-wayfind-view-desird-dest.png"\] Alt text: Desired destination shown on a mobile Indoor Wayfinding map
 
 ## Switch between floors of an office building
 
 First, choose the starting location:
 
-![Choose the starting location on a mobile Indoor Wayfinding map](../image/indoor-wayfind-choose-start-loc-1.png)
+\[Omitted image "indoor-wayfind-choose-start-loc-1.png"\] Alt text: Choose the starting location on a mobile Indoor Wayfinding map
 
 Then view the wayfinding route from your starting point:
 
-![View of the route on the first floor from the starting location on a mobile Indoor Wayfinding map](../image/indoor-wayfind-vue-rte-1st-floor-2.png)
+\[Omitted image "indoor-wayfind-vue-rte-1st-floor-2.png"\] Alt text: View of the route on the first floor from the starting location on a mobile Indoor Wayfinding map
 
 Finally, view the route to your destination:
 
-![View of the route on the second floor to the destination on a mobile Indoor Wayfinding map](../image/indoor-wayfind-vue-rte-2nd-floor-3.png)
+\[Omitted image "indoor-wayfind-vue-rte-2nd-floor-3.png"\] Alt text: View of the route on the second floor to the destination on a mobile Indoor Wayfinding map
 
 ## Get step-by-step directions in text to any office location
 
-![Shows step-by-step directions in text on a mobile Indoor Wayfinding map](../image/indoor-wayfinding-step-by-step-dir.png)
+\[Omitted image "indoor-wayfinding-step-by-step-dir.png"\] Alt text: Shows step-by-step directions in text on a mobile Indoor Wayfinding map
 
 ## Choose and set your own starting position
 
-![Shows selecting and setting the starting position on a mobile Indoor Wayfinding map](../image/indoor-wayfinding-choose-set-start-pos.png)
+\[Omitted image "indoor-wayfinding-choose-set-start-pos.png"\] Alt text: Shows selecting and setting the starting position on a mobile Indoor Wayfinding map
 

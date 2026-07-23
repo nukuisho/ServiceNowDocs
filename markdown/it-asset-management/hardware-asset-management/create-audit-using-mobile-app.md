@@ -2,6 +2,7 @@
 title: Create an audit record using the ServiceNow Agent app
 description: Create an inventory audit record using the ServiceNow Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-audit-using-mobile-app.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [create an audit record]
-breadcrumb: [Audit hardware asset inventory, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an audit record using the ServiceNow Agent app
@@ -22,8 +23,8 @@ Role required: asset, and sn\_itam\_common.asset\_audit\_admin, or sn\_itam\_com
 
 **Note:**
 
--   When the **sn\_hamp\_migrate\_hamaudit** system property is set to **true**, you're required to have the asset role, along with either the sn\_itam\_common.asset\_audit\_admin or sn\_itam\_common.asset\_audit\_user role.
--   When the **sn\_hamp\_migrate\_hamaudit** system property is set to **false**, only the asset role is required.
+-   When the **sn\_hamp.migrate\_hamaudit** system property is set to **true**, you're required to have the asset role, along with either the sn\_itam\_common.asset\_audit\_admin or sn\_itam\_common.asset\_audit\_user role.
+-   When the **sn\_hamp.migrate\_hamaudit** system property is set to **false**, only the asset role is required.
 
 ## Procedure
 
@@ -33,33 +34,33 @@ Role required: asset, and sn\_itam\_common.asset\_audit\_admin, or sn\_itam\_com
 
 3.  Select the audit that you want to perform.
 
-<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d148065e102">
+<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d251038e102">
 
 Audit type
 
-</th><th align="left" id="d148065e105">
+</th><th align="left" id="d251038e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d148065e111">
+</th></tr></thead><tbody><tr><td id="d251038e111">
 
 **To perform stockroom audits**
 
 </td><td>
 
 1.  On the navigation bar, tap the Stockroom audits menu.
-2.  Tap the more actions icon \(![](../image/more-actions-icon.png)\).
+2.  Tap the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\).
 3.  Tap **New stockroom audit**.
 
 
-</td></tr><tr><td id="d148065e140">
+</td></tr><tr><td id="d251038e140">
 
 **To perform location audits**
 
 </td><td>
 
 1.  On the navigation bar, tap the Location audits menu.
-2.  Tap the more actions icon \(![](../image/more-actions-icon.png)\).
+2.  Tap the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\).
 3.  Tap **New location audit**.
 
 
@@ -138,8 +139,8 @@ Scan method to be used to scan the assets. The available options are:-   Single 
 -   When the **Include consumables** field is set to **No**, the **Scan method** field becomes editable, enabling you to select the scan type.
 Depending on the selected scan method for the audit record, you can scan the assets in the inventory using the ServiceNow Agent app.
 
--   To complete asset scanning for the single scan audit record, see [Complete a single scan inventory audit using the ServiceNow Agent app](scan-assets-agent-app.md).
--   To complete asset scanning for multi scan audit records, see [Complete multi scan inventory audit using the ServiceNow Agent app](complete-multi-scan-inventory-audit-using-mobile-app.md).
+-   To complete asset scanning for the single scan audit record, see [Complete a single scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/scan-assets-agent-app.md).
+-   To complete asset scanning for multi scan audit records, see [Complete multi scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/complete-multi-scan-inventory-audit-using-mobile-app.md).
 
 
 </td></tr></tbody>
@@ -151,19 +152,19 @@ Depending on the selected scan method for the audit record, you can scan the ass
 -   An audit record is created and listed on the **Open** tab.
 -   The audit result fields are displayed on the audit **Details** tab.
 
-    For a detailed description of the audit result field values, see [Audit results](../reference/audit-results.md).
+    For a detailed description of the audit result field values, see [Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-results.md).
 
 
 ## What to do next
 
 Scan the assets in the inventory using the ServiceNow Agent app.
 
-**Parent Topic:**[Audit hardware asset inventory](../concept/ham-inventory-audit.md)
+**Parent Topic:**[Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-inventory-audit.md)
 
 **Related topics**  
 
 
-[Complete a single scan inventory audit using the ServiceNow Agent app](scan-assets-agent-app.md)
+[Complete a single scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/scan-assets-agent-app.md)
 
-[Complete multi scan inventory audit using the ServiceNow Agent app](complete-multi-scan-inventory-audit-using-mobile-app.md)
+[Complete multi scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/complete-multi-scan-inventory-audit-using-mobile-app.md)
 

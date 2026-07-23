@@ -2,6 +2,7 @@
 title: Grant access to the Email API
 description: To grant non-admin users access to the Email API, administrators must create an access control and assign a special role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/grant-access-to-email-api.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-For additional details, see [Email API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/email-api.md) .
+For additional details, see [Email API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/email-api.md) .
 
 ## Procedure
 

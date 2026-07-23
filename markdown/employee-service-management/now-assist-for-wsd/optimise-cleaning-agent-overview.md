@@ -2,6 +2,7 @@
 title: Optimize cleaning activities agent overview
 description: The Optimize cleaning activities agent performs cleaning activities on a workplace location based on the space utilization threshold data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -19,13 +20,13 @@ This team of AI agents get all open workplace maintenance management cases. The 
 
 **Note:** Optimize Cleaning Activities Agentic workflow optimizes a space at the floor level for a selected building. It only optimizes non-reservable spaces like restrooms and so on.
 
-For more information about how to create maintenance management plan records, see [Create and publish maintenance plans](../../workplace-maintenance-management/task/create-publish-maintenance-plans.md).
+For more information about how to create maintenance management plan records, see [Create and publish maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-publish-maintenance-plans.md).
 
 -   The Optimize cleaning activities agentic AI workflow is triggered when the **Optimize cleaning activities** scheduled job is executed. The Optimize cleaning activities AI agent optimizes a maintenance plan record and gets space utilization data using the following Workplace Maintenance Management properties.
 
-    For more information, see [Components installed with Workplace Maintenance Management](../../workplace-maintenance-management/reference/components-installed-with-maintenance-mgmt.md)
+    For more information, see [Components installed with Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/components-installed-with-maintenance-mgmt.md)
 
-    -   The **sn\_wsd\_maintenance.optimise\_plans** property helps in optimizing a maintenance plan for a selected floor. To optimize a maintenance plan, workplace maintenance managers should copy the sys\_id from the maintenance plan URL. For example, &lt;https://&lt;instance\_name&gt;.service-now.com/now/workplace-management/maintenance-plan/ 59e13dbc3b27ee5090fd390f23e45a68. You can also copy the sys\_id of a maintenance plan record by navigating to the Additional actions icon \(![Additional actions icon](../../wsd-reservation-management/image/additional-actions.png)\) and select **Copy sys\_id**.
+    -   The **sn\_wsd\_maintenance.optimise\_plans** property helps in optimizing a maintenance plan for a selected floor. To optimize a maintenance plan, workplace maintenance managers should copy the sys\_id from the maintenance plan URL. For example, &lt;https://&lt;instance\_name&gt;.service-now.com/now/workplace-management/maintenance-plan/ 59e13dbc3b27ee5090fd390f23e45a68. You can also copy the sys\_id of a maintenance plan record by navigating to the Additional actions icon \(\[Omitted image "additional-actions.png"\] Alt text: Additional actions icon\) and select **Copy sys\_id**.
 
         Here, 59e13dbc3b27ee5090fd390f23e45a68 is the sys\_id of a maintenance plan record.
 
@@ -49,23 +50,23 @@ For more information about how to create maintenance management plan records, se
 
     -   The **sn\_wsd\_maintenance.optmise\_cleaning\_max\_utilisation\_threshold** property analyzes the maximum utilization threshold for a maintenance case. The default value is 80. If the utilization for a workplace maintenance plan case falls within this range or is higher than this range, a new maintenance case is added by the Optimize Cleaning Activities agentic AI workflow. A new case is added so that the optimized cleaning activities are handled using a single maintenance case. A new maintenance case can process it efficiently.
 
-1.  [Optimize cleaning activities agentic workflow](optimize-cleaning-activities-agent.md)  
+1.  [Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/optimize-cleaning-activities-agent.md)  
 This team of workplace agents can find open maintenance cases and optimize it for workplace maintenance activities. These agents can optimize a maintenance case based on the utilization rate of a location for which a maintenance case is created.
 
-**Parent Topic:**[Using AI agent workflows in Now Assist for WSD](now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 
 
-[Manage temporary space closures agentic workflow](maintenance-meeting-room-agent-ai.md)
+[Manage temporary space closures agentic workflow]()
 
-[Help manage workplace reservations agentic workflow](manage-workplace-reservations-agent-ai.md)
+[Help manage workplace reservations agentic workflow]()
 
-[Automate map updates agentic workflow](automate-map-updates-agent-ai.md)
+[Automate map updates agentic workflow]()
 
-[Workplace Advisor Overview](workplace-advisor-overview.md)
+[Workplace Advisor Overview]()
 
-[Workplace Concierge agentic workflow](workplace-concierge-ai-agent.md)
+[Workplace Concierge agentic workflow]()
 
-[implement-autonomous-l1-agent-for-workplace.md](implement-autonomous-l1-agent-for-workplace.md)
+[]()
 

@@ -2,13 +2,14 @@
 title: Create a topic
 description: Create a topic and publish the incoming notifications from the external system to the topic. By creating the topics, subscribers can select the topics to which they want to subscribe.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/create-topic-API-notification.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure API notifications, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure API notifications, Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Create a topic
@@ -103,5 +104,7 @@ A topic is created.
 
 ## What to do next
 
-You can create the topic subscription according to the customer requirement. For more information, see [.](create-subscription-api-notification.md)
+You can create the topic subscription according to the customer requirement. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/create-subscription-api-notification.md)
+
+**Parent Topic:**[Configuring Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-telecommunications-api-notifications.md)
 

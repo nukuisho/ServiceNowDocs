@@ -1,29 +1,36 @@
 ---
 title: Install Build Agent
-description: Install the Now Assist for Creator application from the ServiceNow Store to get the Build Agent.
+description: For the Premium version of Build Agent, install the Now Assist for Creator application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/install-build-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-04-02"
-reading_time_minutes: 1
+last_updated: "2026-06-24"
+reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Install Build Agent
 
-Install the Now Assist for Creator application from the ServiceNow Store to get the Build Agent.
+For the Premium version of Build Agent, install the Now Assist for Creator application from the ServiceNow Store.
 
 ## Before you begin
 
+The Premium version of Build Agent is part of Now Assist for Creator, and is a ServiceNow AI Platform® feature that's activated by default when Now Assist for Creator is installed. You don't need an entitlement to start exploring Build Agent.
+
 -   Review the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Build Agent supports Anthropic Claude on AWS, Azure OpenAI, and Google Gemini.
+-   You can use Build Agent on a Personal Development Instance \(PDI\). For more information, see [Accessing Build Agent in ServiceNow Studio and the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/access-build-agent.md).
+-   Build Agent supports the following models:
+    -   Gemini 2.5 Pro
+    -   Azure OpenAI 5.4
+    -   Opus 4.6
 
 Role required: admin
 
 ## About this task
 
-Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other Now Assist products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences. For more information, see [Use the app generation skill to generate apps](../../now-assist-app-gen/task/sns-app-gen-use-app-gen-skill.md).
+Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other Now Assist products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences. For more information, see [Use the app generation skill to generate apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-use-app-gen-skill.md).
 
 **Note:** The trial app was formerly called "Build Agent" and has been renamed to "Build Agent \(Trial\)."
 
@@ -43,17 +50,17 @@ Build Agent is enabled by default to create apps with AI, for example in Service
 
     2.  Go to the **Now Assist Skills** tab and select **Creator**.
 
-        ![Build Agent is listed as Now Assist for Creator skills.](../image/build-agent-enable.png)
+        \[Omitted image "build-agent-enable.png"\] Alt text: Build Agent is listed as Now Assist for Creator skills.
 
     3.  Select **Turn on** to enable the skill.
 
     The skill is enabled for all users.
 
 
-**Parent Topic:**[Configure Build Agent](configure-build-agent.md)
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/configure-build-agent.md)
 
 **Related topics**  
 
 
-[Install Now Assist for Creator](../../../administer/flow-designer/task/install-now-assist-for-creator.md)
+[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 

@@ -2,6 +2,7 @@
 title: Test an AI agent
 description: Analyze the performance of an AI agent with a Model Context Protocol tool added to it to verify that it functions the way that you defined it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-ai-agent-mcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,11 +36,11 @@ After you create an AI agent and a Model Context Protocol to it as a tool, test 
 
 5.  Select **Start test**.
 
-    ![Selecting an AI agent for testing in the AI Agent Studio.](../image/test-aia-mcp.png)
+    \[Omitted image "test-aia-mcp.png"\] Alt text: Selecting an AI agent for testing in the AI Agent Studio.
 
     You’re directed to the **Chat responses** tab, where you can see Now Assist executing operations to test the AI agent.
 
-    ![Initial chat response from testing an AI agent that has an MCP tool indicating that it requires authentication.](../image/chat-response-mcp-test.png)
+    \[Omitted image "chat-response-mcp-test.png"\] Alt text: Initial chat response from testing an AI agent that has an MCP tool indicating that it requires authentication.
 
 6.  Select **Log in** and authenticate the MCP server to complete the testing.
 
@@ -47,6 +48,6 @@ After you create an AI agent and a Model Context Protocol to it as a tool, test 
 
     -   Log in will be visible only if the server isn’t authenticated.
     -   Enabling access to the MCP Server refreshes the whole Testing page and resumes testing in the Chat responses tab. The OAuth token used for the authentication is saved in the OAuth Credentials table \[oauth\_credential\].
-    ![The AI agent with an MCP tool has been successfully tested.](../image/mcp-test-complete.png)
+    \[Omitted image "mcp-test-complete.png"\] Alt text: The AI agent with an MCP tool has been successfully tested.
 
 

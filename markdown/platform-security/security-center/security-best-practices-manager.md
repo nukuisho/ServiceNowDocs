@@ -2,6 +2,7 @@
 title: Security Best Practices
 description: Use Security Best Practices to implement privacy and security configuration tasks on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/security-best-practices-manager.html
 release: australia
 product: Security Center
 classification: security-center
@@ -24,17 +25,17 @@ Identify best practices to improve your security posture, and follow step-by-ste
 
 ## Security Best Practices home page
 
-![Best practices overview](../images/best-practices-1.png)
+\[Omitted image "best-practices-1.png"\] Alt text: Best practices overview
 
 The home page displays a **Manage your best practices** section, which includes graphs provide an overview of your progress.
 
 -   **Completed overall**
 
-    Displays a count and trend line of best practices you have completed. Select the card to view the **Completed Overall** metric page in [Security metrics](sc-metrics.md).
+    Displays a count and trend line of best practices you have completed. Select the card to view the **Completed Overall** metric page in [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
 
 -   **Completed by maturity level**
 
-    Displays a chart of completed best practices organized by maturity level \(see a description of maturity levels in the proceeding table\). Select the card to view the **Completed by Maturity Level** metric page in [Security metrics](sc-metrics.md).
+    Displays a chart of completed best practices organized by maturity level \(see a description of maturity levels in the proceeding table\). Select the card to view the **Completed by Maturity Level** metric page in [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-metrics.md).
 
 -   **Build a foundation**
 
@@ -42,10 +43,10 @@ The home page displays a **Manage your best practices** section, which includes 
 
 -   **Create a task**
 
-    Use the **+Create task** button to create a Security Task to track or delegate best practice work. For details on Security Tasks, see [Security Tasks](security-task-manager.md).
+    Use the **+Create task** button to create a Security Task to track or delegate best practice work. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
 
 
-The table enables you to apply filters so that you can sort and save filtered lists, which you can use as work lists for different use cases or roles. See [save a filtered list](../task/apply-filters-to-the-security-best-practices-table.md#) for more information.
+The table enables you to apply filters so that you can sort and save filtered lists, which you can use as work lists for different use cases or roles. See [save a filtered list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/apply-filters-to-the-security-best-practices-table.md) for more information.
 
 The following are explanations of the fields related to the security best practices table.
 
@@ -138,9 +139,9 @@ Which Security Center version the best practice was removed.
 </td></tr></tbody>
 </table>## Security Best Practices details page
 
-![Best practice details page](../images/best-practices-2.png)
+\[Omitted image "best-practices-2.png"\] Alt text: Best practice details page
 
-Select a best practice from the table to view its page. At the top of the details page, you can view general information about the security best practice including priority, maturity level, and status. Use **Complete Best Practice** button to mark a the practice as complete, or **Reopen Best Practice** button to mark the practice complete. Use the **+Create Task** to create a Security Task to track and delegate this task. For details on Security Tasks, see [Security Tasks](security-task-manager.md).
+Select a best practice from the table to view its page. At the top of the details page, you can view general information about the security best practice including priority, maturity level, and status. Use **Complete Best Practice** button to mark a the practice as complete, or **Reopen Best Practice** button to mark the practice complete. Use the **+Create Task** to create a Security Task to track and delegate this task. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
 
 This page provides more information on the best practice, divided into tabs:
 
@@ -156,23 +157,23 @@ This page provides more information on the best practice, divided into tabs:
 
 -   **Task Steps**
 
-    This tab provides step-by-step instructions for how to implement this security best practice. See [complete a security best practice](../task/complete-a-security-best-practice-on-your-servicenow-instance.md) for more information.
+    This tab provides step-by-step instructions for how to implement this security best practice. See [complete a security best practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/complete-a-security-best-practice-on-your-servicenow-instance.md) for more information.
 
 -   **Activity**
 
-    This tabe displays timestamped activities listed from newest to oldest. Use search and filter to query for information. See [apply filters to the security best practices table](../task/apply-filters-to-the-security-best-practices-table.md#) for more information.
+    This tabe displays timestamped activities listed from newest to oldest. Use search and filter to query for information. See [apply filters to the security best practices table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/apply-filters-to-the-security-best-practices-table.md) for more information.
 
 
--   **[Complete a security best practice](../task/complete-a-security-best-practice-on-your-servicenow-instance.md)**  
+-   **[Complete a security best practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/complete-a-security-best-practice-on-your-servicenow-instance.md)**  
 Learn how to complete a security best practice on your ServiceNow instance.
--   **[View activity of a best practice](../task/view-activity-of-a-best-practice.md)**  
+-   **[View activity of a best practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/view-activity-of-a-best-practice.md)**  
 Track the chronological and timestamped history related to a security best practice that you're completing on your ServiceNow instance, along with the user that initiated the activity.
--   **[View data of completed best practices](../task/view-statistics-of-completed-best-practices.md)**  
+-   **[View data of completed best practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/view-statistics-of-completed-best-practices.md)**  
 See visual representations of the total amount of best practices completed, or segmented by maturity level.
--   **[Filters the security best practices table](../task/apply-filters-to-the-security-best-practices-table.md#)**  
+-   **[Filters the security best practices table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/apply-filters-to-the-security-best-practices-table.md)**  
 Apply filters to return more relevant results for your security best practices.
--   **[Best Practices](../reference/best-practices.md)**  
+-   **[Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/best-practices.md)**  
 Learn details about the Best Practices in the Security Posture Console.
 
-**Parent Topic:**[Security posture console](sc-posture-console.md)
+**Parent Topic:**[Security posture console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-posture-console.md)
 

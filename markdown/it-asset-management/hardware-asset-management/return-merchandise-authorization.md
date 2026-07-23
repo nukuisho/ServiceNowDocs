@@ -2,20 +2,21 @@
 title: Return Merchandise Authorization
 description: Return Merchandise Authorization \(RMA\) is an agreement between a buyer and seller that lets the buyer return or replace a faulty product. The Asset RMA Order catalog item has prescriptive flows to streamline the RMA process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/return-merchandise-authorization.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Return Merchandise Authorization
 
 Return Merchandise Authorization \(RMA\) is an agreement between a buyer and seller that lets the buyer return or replace a faulty product. The Asset RMA Order catalog item has prescriptive flows to streamline the RMA process.
 
-An RMA request has RMA request lines. When an RMA request is submitted, an RMA request line is created for each asset and consumable that was selected. You can view a list of all the open RMA request lines in the Hardware Asset Dashboard. For details, see [Hardware Asset dashboard](../../../use/dashboards/application-content-packs/hardware-asset-content-pack.md#).
+An RMA request has RMA request lines. When an RMA request is submitted, an RMA request line is created for each asset and consumable that was selected. You can view a list of all the open RMA request lines in the Hardware Asset Dashboard. For details, see [Hardware Asset dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-asset-content-pack.md).
 
 ## Workflow for Return Merchandise Authorization
 
@@ -36,5 +37,5 @@ You can cancel an RMA request as long none of the assessment tasks are closed fo
 **Related topics**  
 
 
-[Manage RMA requests](manage-rma-req.md)
+[Manage RMA requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-rma-req.md)
 

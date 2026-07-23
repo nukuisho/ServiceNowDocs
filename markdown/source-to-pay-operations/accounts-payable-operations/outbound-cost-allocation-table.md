@@ -1,19 +1,21 @@
 ---
 title: Outbound cost allocation staging table
-description: The outbound cost allocation \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\] staging table stores important data about cost allocation information so that an ERP integrator can export this data to a third-party ERP system.
+description: Field descriptions for the outbound cost allocation \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\] staging table used to configure ERP integrations that export cost allocation data to third-party ERP systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/outbound-cost-allocation-table.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice management, cost allocation, GL coding, ERP integration, staging table, outbound integration]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Outbound cost allocation staging table
 
-The outbound cost allocation \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\] staging table stores important data about cost allocation information so that an ERP integrator can export this data to a third-party ERP system.
+Field descriptions for the outbound cost allocation \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\] staging table used to configure ERP integrations that export cost allocation data to third-party ERP systems.
 
 ## Outbound cost allocation staging table
 
@@ -30,38 +32,38 @@ The following table lists fields for the outbound cost allocation \[sn\_spend\_i
 |Invoice line|Reference|Line items on the invoice.|
 |Integration status|Choice|Status of the integration process.|
 
-**Parent Topic:**[Accounts Payable Operations reference](acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 
 
-[Accounts Payable Operations properties](acc-pay-properties.md)
+[Accounts Payable Operations properties]()
 
-[Create New Invoice Line form](create-invoice-line-form.md)
+[Create New Invoice Line form]()
 
-[Create invoice cost allocation form](create-invoice-cost-allocation-form.md)
+[Create invoice cost allocation form]()
 
-[Distribution set form](distribution-set-form.md)
+[Distribution set form]()
 
-[Create New Invoice case form](create-new-ap-case-form.md)
+[Create New Invoice case form]()
 
-[Create New Invoice task form](create-apm-task-form.md)
+[Create New Invoice task form]()
 
-[Invoice processing case form](invoice-processing-case-form.md)
+[Invoice processing case form]()
 
-[Tax lines](create-tax-lines-apo.md)
+[Tax lines]()
 
-[Invoice exception form](exception-form-fields.md)
+[Invoice exception form]()
 
-[Request Help form](ur-request-help-form.md)
+[Request Help form]()
 
-[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+[Data required for invoice processing]()
 
-[Invoice exception definition form](invoice-exception-definition-form.md)
+[Invoice exception definition form]()
 
-[Approval Rule form](new-approval-rule-form.md)
+[Approval Rule form]()
 
-[Approval Plan form](approval-plan-form.md)
+[Approval Plan form]()
 
-[Accounts Payable Operations glossary](../concept/apo-glossary.md#)
+[Accounts Payable Operations glossary]()
 

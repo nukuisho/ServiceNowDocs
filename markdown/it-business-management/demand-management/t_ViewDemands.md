@@ -2,6 +2,7 @@
 title: View demands
 description: You can view existing demands at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_ViewDemands.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -45,39 +46,39 @@ The **Project** field displays the project name after the demand manager creates
 
     -   **Idea**: If an idea is being evaluated, the pop-up window displays the current state of the idea.
     -   **Demand**: if an idea is promoted to a demand, the pop-up window displays the current state of the demand as well as the idea.
-    -   **Project**, **Enhancement**, **Change**, or **Defect**: If a demand is accepted, the pop-up window displays the current state of the resulting artifact in addition to the demand and idea.![Demand stage field pop-up shows the demand and project stages.](../image/demand-stage-fields.png)
+    -   **Project**, **Enhancement**, **Change**, or **Defect**: If a demand is accepted, the pop-up window displays the current state of the resulting artifact in addition to the demand and idea.\[Omitted image "demand-stage-fields.png"\] Alt text: Demand stage field pop-up shows the demand and project stages.
 
--   **[View an artifact created from a demand](t_ViewAnArtifactCreatedFromADemand.md)**  
+-   **[View an artifact created from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_ViewAnArtifactCreatedFromADemand.md)**  
 As the demand manager, you can view an artifact created from a demand.
--   **[View a demand summary](t_ViewADemandSummary.md)**  
+-   **[View a demand summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_ViewADemandSummary.md)**  
 Hover over a bubble in the demand workbench bubble chart to display a summary of the demand information.
 
-**Parent Topic:**[Use Demand Management](../reference/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 
 
-[Assess demands](../concept/c_AssessingDemands.md)
+[Assess demands]()
 
-[Create a demand](t_CreatingDemands.md)
+[Create a demand]()
 
-[Add details to demands](../concept/c_EnhancingDemands.md)
+[Add details to demands]()
 
-[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](../concept/ridac-entries-for-demand.md)
+[RIDACs records for a demand]()
 
-[Reset a demand to Draft state](reset-demand-to-draft-state.md)
+[Reset a demand to Draft state]()
 
-[Delete demands](t_DeletingDemands.md)
+[Delete demands]()
 
-[Move and resize a demand](t_MoveAndResizeADemand.md)
+[Move and resize a demand]()
 
-[Train the similarity solution for Demand Management to find similar demands](train-similarity-solution-dm.md)
+[Train the similarity solution for Demand Management to find similar demands]()
 
-[PPM PIWB template - Find similar demands](../../itbm-PI-workbench/task/ppm-piwb-demand.md)
+[PPM PIWB template - Find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](identify-similar-demands.md)
+[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
 
-[Summarize demands with demand summarization skill](demand-summary-demand-classic.md)
+[Summarize demands with demand summarization skill]()
 
-[Associate AI systems with demands](associate-ai-systems-with-demands.md)
+[Associate AI systems with demands]()
 

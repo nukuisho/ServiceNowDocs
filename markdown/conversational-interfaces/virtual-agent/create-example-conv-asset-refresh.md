@@ -2,6 +2,7 @@
 title: Create the Asset Refresh topic in Virtual Agent Designer
 description: Create the topic in Virtual Agent Designer using topic blocks that come with the ITSM Virtual Agent Conversations plugin. When the user receives a notification that it's time to upgrade, they will be directed to this topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,8 +25,8 @@ Install the following applications:
 
     You must have a subscription for Virtual Agent before you can activate the Glide Virtual Agent plugin.
 
--   [Enable Natural Language Understanding \(NLU\)](configure-nlu-settings.md), if not already enabled \(recommended\).
--   [ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.md) \(available in the ServiceNow® Store\)
+-   [Enable Natural Language Understanding \(NLU\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md), if not already enabled \(recommended\).
+-   [ITSM Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/setup-itsm-virtual-agent.md) \(available in the ServiceNow® Store\)
 
     If this application is already installed, check the ServiceNow Store for an updated version before you begin.
 
@@ -45,10 +46,10 @@ Role required: virtual\_agent\_admin or admin
 
 For more information about building topics and the Virtual Agent Designer interface, see the following topics:
 
--   [Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
--   [Creating a Virtual Agent topic](create-virtual-agent-topic.md)
--   [Assistant Designer controls](../concept/virtual-agent-controls.md)
--   [Assistant Designer interface reference](../concept/vad-reference.md)
+-   [Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+-   [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+-   [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-controls.md)
+-   [Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
 
 **Tip:** Look through existing conversations to ensure you are not duplicating effort, and familiarize yourself with Virtual Agent and the flow of topics. Additionally, it may be helpful to outline the flow of a conversation before building it in Virtual Agent Designer.
 
@@ -58,7 +59,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
 2.  On the Topics page, select **Create**.
 
-    ![Virtual Agent Designer +Create tile on the landing page.](../images/vad-create-tile.png)
+    \[Omitted image "vad-create-tile.png"\] Alt text: Virtual Agent Designer +Create tile on the landing page.
 
 3.  On the Create a topic form, set up your topic.
 
@@ -68,13 +69,13 @@ For more information about building topics and the Virtual Agent Designer interf
 
     3.  Select or create an intent for the NLU model.
 
-        ![In the Associated Intent field, select an existing intent or create a new one for your topic.](../images/example-create-intent-vad.png)
+        \[Omitted image "example-create-intent-vad.png"\] Alt text: In the Associated Intent field, select an existing intent or create a new one for your topic.
 
-        For descriptions of all field values, see [Create a topic form](../reference/vad-topic-creation-form.md).
+        For descriptions of all field values, see [Create a topic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-creation-form.md).
 
     4.  Select **Create**.
 
-    The **Flow** tab appears with Start and End nodes. For an overview of this screen and its components, see [Topic Flow tab](../reference/vad-topic-flow-tab.md).
+    The **Flow** tab appears with Start and End nodes. For an overview of this screen and its components, see [Topic Flow tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-flow-tab.md).
 
 4.  Create your initial message to greet the user.
 
@@ -84,7 +85,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
     3.  Enter a name for the node and the response you want to display to the user.
 
-        ![Enter a unique node name, such as Initial Message. Include a response, such as "You're eligible to upgrade!"](../images/example-topic-text-response.png)
+        \[Omitted image "example-topic-text-response.png"\] Alt text: Enter a unique node name, such as Initial Message. Include a response, such as "You're eligible to upgrade!"
 
 5.  Ask the user if they want to proceed with the asset refresh.
 
@@ -98,7 +99,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
             For example, your choices might be `Learn more` and `Continue with upgrade`. The values should make sense as variable names. For example, `info` and `upgrade`.
 
-    ![Static choice properties for "Continue or Defer" node. It includes a user prompt and two choices: Learn more or Continue with upgrade.](../images/example-static-choice-continue.png)
+    \[Omitted image "example-static-choice-continue.png"\] Alt text: Static choice properties for "Continue or Defer" node. It includes a user prompt and two choices: Learn more or Continue with upgrade.
 
 6.  Add a Decision utility to handle the user's choice.
 
@@ -108,17 +109,17 @@ For more information about building topics and the Virtual Agent Designer interf
 
     3.  Name each branch to correspond with the decisions \(info and upgrade\).
 
-        ![This Decision utility has two branches: info and upgrade. They are based on the choices offered to the user in the previous step.](../images/continue-or-defer-decision.png)
+        \[Omitted image "continue-or-defer-decision.png"\] Alt text: This Decision utility has two branches: info and upgrade. They are based on the choices offered to the user in the previous step.
 
     4.  For each branch, select it and then use the Branch Condition area to indicate which option the branch will follow.
 
-        ![Use the condition builder to specify the Continue or Defer choice node and the corresponding user choice that this branch will follow, such as "Continue with upgrade."](../images/continue-defer-decision-condition.png)
+        \[Omitted image "continue-defer-decision-condition.png"\] Alt text: Use the condition builder to specify the Continue or Defer choice node and the corresponding user choice that this branch will follow, such as "Continue with upgrade."
 
 7.  For the upgrade branch, add a Lookup utility node to confirm that the user still has the asset.
 
     1.  From the Components area, drag a Lookup utility onto the canvas.
 
-        ![Drag the Lookup utility node onto the upgrade path on the canvas.](../images/crawl-ex-lookup-canvas.png)
+        \[Omitted image "crawl-ex-lookup-canvas.png"\] Alt text: Drag the Lookup utility node onto the upgrade path on the canvas.
 
     2.  In the properties palette, specify the following information:
 
@@ -128,7 +129,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
             The asset state will tie into the notification you send the user for this asset refresh.
 
-            ![Filter assets in the Assign Condition builder using Assigned to is the current user, and the State is In maintenance.](../images/crawl-ex-lookup-condition.png)
+            \[Omitted image "crawl-ex-lookup-condition.png"\] Alt text: Filter assets in the Assign Condition builder using Assigned to is the current user, and the State is In maintenance.
 
 8.  Ask the user if they still have the asset.
 
@@ -140,7 +141,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
         Use dot-walking to refer to the asset found by the Asset Lookup node.
 
-        ![Write a prompt, such as "Do you still have this device?" Then dot-walk to Input Variables > Asset Lookup > Display name.](../images/crawl-ex-boolean-dotwalking.png)
+        \[Omitted image "crawl-ex-boolean-dotwalking.png"\] Alt text: Write a prompt, such as "Do you still have this device?" Then dot-walk to Input Variables &gt; Asset Lookup &gt; Display name.
 
 9.  If the user still has the asset \(the Boolean response is **true**\), we want to search for it in the catalog.
 
@@ -152,7 +153,7 @@ For more information about building topics and the Virtual Agent Designer interf
 
     The catalog search will provide these output variables by default, shown under Output mapping.
 
-    ![Output mapping variables for Search Catalog Item are the catalog_item_id, item_type, and is_conversational.](../images/crawl-ex-search-output-vars.png)
+    \[Omitted image "crawl-ex-search-output-vars.png"\] Alt text: Output mapping variables for Search Catalog Item are the catalog\_item\_id, item\_type, and is\_conversational.
 
 10. Request the upgraded item.
 
@@ -162,9 +163,9 @@ For more information about building topics and the Virtual Agent Designer interf
 
     3.  In the Input mapping area, use dot-walking to specify the **catalog\_item\_id** that the previous topic block returned.
 
-        ![For the catalog_item_id field, select the dot-walking icon and choose Input Variables > Catalog_item_id.](../images/crawl-ex-req-catalog-item.png)
+        \[Omitted image "crawl-ex-req-catalog-item.png"\] Alt text: For the catalog\_item\_id field, select the dot-walking icon and choose Input Variables &gt; Catalog\_item\_id.
 
-    This topic block returns output variables as well. The user will be able to select variables for their new device, as well. You can configure these variables in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md).
+    This topic block returns output variables as well. The user will be able to select variables for their new device, as well. You can configure these variables in [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog.md).
 
 11. Ask the user to confirm their choice of device.
 
@@ -178,7 +179,7 @@ For more information about building topics and the Virtual Agent Designer interf
         -   Table name: **Requested Item \[sc\_req\_item\]**
         -   In the Condition builder, add **Sys ID is Input Variables&gt;Record\_id**.
 
-            ![In the Assign Condition builder, select Sys ID, then is. For the third field, dot-walk to Input Variables > Record_id.](../images/crawl-ex-sysid-is-record-id.png)
+            \[Omitted image "crawl-ex-sysid-is-record-id.png"\] Alt text: In the Assign Condition builder, select Sys ID, then is. For the third field, dot-walk to Input Variables &gt; Record\_id.
 
         -   In the **fields** area, select the record columns to display in the card to the user.
 
@@ -186,17 +187,17 @@ For more information about building topics and the Virtual Agent Designer interf
 
 12. Drag this flow's arrow to the End node to complete this part of the workflow.
 
-    ![Drag the flow arrow that follows the Device Request Record node to the End node. This signals the end of the topic for this particular flow.](../images/crawl-ex-drag-arrow-end.png)
+    \[Omitted image "crawl-ex-drag-arrow-end.png"\] Alt text: Drag the flow arrow that follows the Device Request Record node to the End node. This signals the end of the topic for this particular flow.
 
 13. Select **Save**.
 
 
 ## What to do next
 
-[Create the Open Incident workflow in the Asset Refresh topic](create-example-asset-refresh-flow2.md)
+[Create the Open Incident workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.md)
 
 **Related topics**  
 
 
-[Maximizing code reuse with topic blocks](../concept/topic-blocks-overview.md)
+[Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md)
 

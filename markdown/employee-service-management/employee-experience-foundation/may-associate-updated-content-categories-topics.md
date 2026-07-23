@@ -2,6 +2,7 @@
 title: Check for updated content in categories
 description: Track and manage the updated content in categories for better visibility, content maintenance, and performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,7 +24,7 @@ User criteria required: Taxonomy Manager.
 
 ## About this task
 
-The related list **Check for updated content in categories** is available only when you do not [Enable connected content autosync system property](may-system-properties-taxonomy-autosync.md). As the system property automatically adds or removes the content updates, you can't check for individual updates manually.
+The related list **Check for updated content in categories** is available only when you do not [Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md). As the system property automatically adds or removes the content updates, you can't check for individual updates manually.
 
 For manual checking of updates, follow these steps.
 
@@ -35,17 +36,17 @@ For manual checking of updates, follow these steps.
 
 3.  Select the **Check for updated content in categories** related link to see the content that's added or removed.
 
-    ![Associated catalog and kb categories addition and removal updates](../images/connected-content-view-add-remove.png "Content additions and Removals")
+    \[Omitted image "connected-content-view-add-remove.png"\] Alt text: Associated catalog and kb categories addition and removal updates
 
 4.  Add or dismiss content, as required, with **Update topic with content** or **Dismiss content** respectively.
 
 5.  Click **OK**.
 
 
-**Parent Topic:**[Manage connected content from topic pages](mnge-content-topics.md)
+**Parent Topic:**[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
 
 **Related topics**  
 
 
-[Manage connected content from topic pages](mnge-content-topics.md)
+[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
 

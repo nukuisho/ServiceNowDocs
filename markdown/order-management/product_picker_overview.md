@@ -2,11 +2,12 @@
 title: Product pickers
 description: Learn how to create and configure product pickers to add products to a bill of materials \(BOM\) without writing rules. Define product options, subfields, aggregates, and display settings to enhance user interactions, automate data mapping, and present product information directly in layouts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/product\_picker\_overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [The CPQ Configurator, CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator - Advanced, Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Product pickers
@@ -17,13 +18,13 @@ A product picker is similar to a picklist with extended data. product pickers ca
 
 ## Creating a new product picker
 
-Product Pickers can be created in the fields tab of the Logik Admin. To make a new product picker functional, all you need to do is add some options, then place it on a Layout. Select product picker as the new field type.
+Product Pickers can be created in the fields tab of the Admin. To make a new product picker functional, all you need to do is add some options, then place it on a Layout. Select product picker as the new field type.
 
-![New product picket](../images/cpq-product-picker-tile.png)
+\[Omitted image "cpq-product-picker-tile.png"\] Alt text: New product picket
 
 ## Options
 
-![Product picket options](../images/cpq-product-picker-setup.png)
+\[Omitted image "cpq-product-picker-setup.png"\] Alt text: Product picket options
 
 Just like picklists, product pickers have a list of options. Each option represents a product, which is added to the BOM when selected by the user.
 
@@ -47,7 +48,7 @@ Actions:
 
 Product Picker options can be imported directly into the Picker by uploading a CSV file, much like picklist options.
 
-![Product picker setup](../images/cpq-product-picker-option-import.png)
+\[Omitted image "cpq-product-picker-option-import.png"\] Alt text: Product picker setup
 
 -   \(1\) Menu: Click the 3 vertical dot icon to open the menu
 -   \(2\) Import product picker options: launch the import dialog for product picker options
@@ -55,7 +56,7 @@ Product Picker options can be imported directly into the Picker by uploading a C
 
 Import dialog:
 
-![Import options](../images/cpq-product-picker-csv-import.png)
+\[Omitted image "cpq-product-picker-csv-import.png"\] Alt text: Import options
 
 \(1\) CSV import: Click or drag and drop the CSV file containing the product picker options that you want to import.
 
@@ -65,7 +66,7 @@ Import dialog:
 
 Fields can be created in the product picker and used to collect user input, interact with rules, display information and optionally set data in the product list. These fields are children of the current product picker and are found in the Option Fields tab. They are also referred to as subfields.
 
-![Product picker fields](../images/cpq-product-picker-fields.png)
+\[Omitted image "cpq-product-picker-fields.png"\] Alt text: Product picker fields
 
 \(1\) Option Fields tab: Additional subfields can be created and added to the product picker to display and optionally pass additional data into the ProductList. Subfields are displayed in a table format below.
 
@@ -84,11 +85,11 @@ Additional subfields can be created and optionally configured to pass additional
 
 ## Aggregates
 
-Aggregates can be created on product pickers, similar to how set aggregates work. For information about set aggregates, see [Creating set aggregates](creating_set_aggregates.md).
+Aggregates can be created on product pickers, similar to how set aggregates work. For information about set aggregates, see [Creating set aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating_set_aggregates.md).
 
 ## Setup
 
-![Product picker setup](../images/cpq-product-picker-setup-2.png)
+\[Omitted image "cpq-product-picker-setup-2.png"\] Alt text: Product picker setup
 
 Navigate to a product picker field.
 
@@ -96,13 +97,13 @@ Navigate to a product picker field.
 -   \(2\) New section for aggregate fields
 -   \(3\) Add button to create a new aggregate field
 
-![Select picker value screen](../images/cpq-product-picker-new-aggregate-field.png)
+\[Omitted image "cpq-product-picker-new-aggregate-field.png"\] Alt text: Select picker value screen
 
 When you create a new aggregate field, you can select any of the subfields in a product picker to aggregate on.
 
 A list of available sub fields are displayed. Select the field to create a new aggregate.
 
-![Picker options screen](../images/cpq-product-picker-new-aggregate-subfield.png)
+\[Omitted image "cpq-product-picker-new-aggregate-subfield.png"\] Alt text: Picker options screen
 
 1. Five types of aggregates can be created:
 
@@ -114,7 +115,7 @@ A list of available sub fields are displayed. Select the field to create a new a
 
 Select the aggregate type to use for the subfield. Each aggregate type can only be used once per subfield.
 
-![Aggregate fields screen](../images/cpq-product-picker-aggregate-type.png)
+\[Omitted image "cpq-product-picker-aggregate-type.png"\] Alt text: Aggregate fields screen
 
 Final Aggregate Field:
 
@@ -128,7 +129,7 @@ Final Aggregate Field:
 
 Aggregate fields can be added to the layout and will automatically be calculated on change of a field.
 
-![Simple product picker screen](../images/cpq-product-picker-aggregate-example.png)
+\[Omitted image "cpq-product-picker-aggregate-example.png"\] Alt text: Simple product picker screen
 
 -   \(1\) Quantity Max = 3, product b has qty 3
 -   \(2\) Quantity Sum = 4, one product with qty 1, one with qty 3
@@ -136,18 +137,18 @@ Aggregate fields can be added to the layout and will automatically be calculated
 
 ## Product Info fields
 
-Product Pickers can optionally display some read-only information about a product. The values are pulled from the product template that is cached in Logik. These fields can then be added to the layout.
+Product Pickers can optionally display some read-only information about a product. The values are pulled from the product template that is cached in ServiceNow CPQ. These fields can then be added to the layout.
 
 **Note:** These values are read-only and cannot be set by rules.
 
-![Product info fields](../images/cpq-product-picker-read-only-information.png)
+\[Omitted image "cpq-product-picker-read-only-information.png"\] Alt text: Product info fields
 
 -   \(1\) Available fields: Any available fields will be editable, to include a field and make it available in the layout, check the box next to the field name
 -   \(2\) Unavailable fields: Fields that are mapped to a subfield will be grayed out and unavailable to be included. To make a field available again, change the mapping of the subfield in the product picker Fields section
 
 ## Product Picker settings
 
-![Product picker settings screen](../images/cpq-product-picker-settings.png)
+\[Omitted image "cpq-product-picker-settings.png"\] Alt text: Product picker settings screen
 
 Product pickers have additional properties that can be set, both to control the product picker behavior itself and to set additional default values for the product list.
 
@@ -159,7 +160,7 @@ Product pickers have additional properties that can be set, both to control the 
 -   \(6\) BOM Type: Which BOM to set by default for the product options
 -   \(7\) Parent Product: Name of the parent product to use by default for the product options
 
-This table shows scenarios where the user changes Quantity and Logik changes Select, or vice versa. In all other cases, the value is not changed.
+This table shows scenarios where the user changes Quantity and ServiceNow CPQ changes Select, or vice versa. In all other cases, the value is not changed.
 
 |Change|Status of Quantity field|Status of Select field|Result|
 |------|------------------------|----------------------|------|
@@ -180,13 +181,13 @@ Product Pickers can be added and edited in Layouts both through the Layout Wizar
 -   ProductPickerGrid: Table based display, Single-select
 -   MultiSelectProductPickerGrid: Table based display, multiselect
 
-![Visual picker screen](../images/cpq-product-picker-visual-product-picker.png)
+\[Omitted image "cpq-product-picker-visual-product-picker.png"\] Alt text: Visual picker screen
 
 ## Product Picker imports and exports
 
 If a product picker Field is associated with a blueprint, it will be included in the exports of that blueprint.
 
-From the Fields page in the CPQ Admin, select a product picker to export and a ZIP file will be generated containing the following:
+From the Fields page in the ServiceNow CPQ Admin, select a product picker to export and a ZIP file will be generated containing the following:
 
 -   Product Picker fields
 -   Product Picker field options
@@ -198,7 +199,7 @@ A ZIP file containing a product picker can be imported through the Matrix Loader
 **Related topics**  
 
 
-[Product picker bulk actions](product_picker_bulk_actions.md)
+[Product picker bulk actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product_picker_bulk_actions.md)
 
-[Referencing a product picker](enrichments_how_to_reference_a_product_picker.md)
+[Referencing a product picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments_how_to_reference_a_product_picker.md)
 

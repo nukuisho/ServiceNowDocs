@@ -2,6 +2,7 @@
 title: Change the planned start date of a project
 description: Adjust the schedule of a project by changing the planned start date of a project and shifting it later or earlier than the current planned schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/change-planned-start-date-of-project.html
 release: australia
 product: Project Management
 classification: project-management
@@ -37,15 +38,15 @@ Changing the planned start date of a project to a new date also moves all its ta
 
 1.  Change the planned start date of a project using either of the following options.
 
-<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d309454e114">
+<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d316221e114">
 
 Option
 
-</th><th align="left" id="d309454e117">
+</th><th align="left" id="d316221e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d309454e123">
+</th></tr></thead><tbody><tr><td id="d316221e123">
 
 **From the Planning console**
 
@@ -53,10 +54,10 @@ Steps
 
 1.  Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Project Workspace**.
 2.  Open the project for which you want to change the planned start date.
-3.  In the Planning Console, select the more actions icon \(![More Actions icon](../../planning-and-policy/image/gannt_chart_icon.png)\) and then select the **Move project** option.
+3.  In the Planning Console, select the more actions icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More Actions icon\) and then select the **Move project** option.
 
 
-</td></tr><tr><td id="d309454e168">
+</td></tr><tr><td id="d316221e168">
 
 **From the Project form**
 
@@ -90,65 +91,61 @@ Steps
     For example, say a project is starting on November 10 with a Start On task starting on November 15, giving an offset of five days. If you move the project start date to November 20, then the task start date will be moved to November 25, maintaining the five-day offset from the project start date.
 
 -   All project tasks with Start ASAP constraint are moved to the new start date based on the **Constraint Date** field on the project form. The tasks must be in the Open or Pending state.
--   If the **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property is selected, all related entities like cost plan, resource plan, and benefit plans are moved relative to the project start date. For more information on how to set this property, see [Properties installed with Project Management](../reference/r_InstalledWithProjectManagement.md#project_application_properties).
+-   If the **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property is selected, all related entities like cost plan, resource plan, and benefit plans are moved relative to the project start date. For more information on how to set this property, see [Properties installed with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md).
 
--   **[Pre-date a project task](pre-date-prj-dt.md)**  
+-   **[Pre-date a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/pre-date-prj-dt.md)**  
 Move the planned start date of a task prior to the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
 
-**Parent Topic:**[Starting a project](t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
 
-[Create a project task from a project](t_CreateATaskFromAProject.md)
+[Create a project task from a project]()
 
-[Create a parent-child relationship on the Project Task form](t_CreateParentChildRelationship.md)
+[Create a parent-child relationship on the Project Task form]()
 
-[Create a monetary benefit plan for a project](create-project-benefit-plan.md)
+[Create a monetary benefit plan for a project]()
 
-[Create a non-monetary benefit plan for a project](create-a-non-monetary-benefit-plan-for-a-project.md)
+[Create a non-monetary benefit plan for a project]()
 
-[Associate monetary and non-monetary benefit plans](associate-monetary-and-non-monetary-benefit-plans-project.md)
+[Associate monetary and non-monetary benefit plans]()
 
-[Create a project cost plan](t_CreateAProjectCostPlan.md)
+[Create a project cost plan]()
 
-[Recalculating costs of all resource plans in a project](recalculate-resource-costs-of-a-project.md)
+[Recalculating costs of all resource plans in a project]()
 
-[Create an expense line](t_CreateAExpenseLine.md)
+[Create an expense line]()
 
-[Create and manage waterfall projects](../../project-portfolio-suite/concept/c_CreateAndManageWaterfallProjects.md)
+[Create and manage waterfall projects]()
 
-[Schedule a project from a start date](schedule-a-project-pm.md)
+[Update a project]()
 
-[Apply or change a task constraint](change-task-constraint-project-management.md)
+[Copy a project]()
 
-[Update a project](t_UpdateAProjectInProgress.md)
+[Assign a project schedule]()
 
-[Copy a project](t_CopyAProject.md)
+[Create baseline of a project]()
 
-[Assign a project schedule](t_UseAProjectSchedule.md)
+[Create a milestone]()
 
-[Create baseline of a project](t_CreateAProjectBaseline.md)
+[Activate project task email notifications]()
 
-[Create a milestone](t_CreateMilestones.md)
+[Create a cost type definition]()
 
-[Activate project task email notifications](t_ActivateProjTaskEmailNot.md)
+[Costing add-on in Project Management]()
 
-[Create a cost type definition](t_CreateAResourceTypeDefinition.md)
+[Generate labor costs]()
 
-[Costing add-on in Project Management](../concept/c_ProjectManagementCostingAddOn.md)
+[Create a project status report]()
 
-[Generate labor costs](gen-cost-pln-prj-wrkspc.md)
+[Allocate budget to a project]()
 
-[Create a project status report](t_CreateAProjectStatusReport.md)
+[Migrate budget of active projects to Next Experience]()
 
-[Allocate budget to a project](allocate-budget-to-project.md)
+[Migrate financial baselines of projects to Next Experience]()
 
-[Migrate budget of active projects to Next Experience](fin-migrate-budget-project-ppm.md)
+[Pre-date a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/pre-date-prj-dt.md)
 
-[Migrate financial baselines of projects to Next Experience](migrate-fin-baselines-projects.md)
-
-[Pre-date a project task](pre-date-prj-dt.md)
-
-[Starting a project](t_CreateAProject.md)
+[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
 

@@ -2,6 +2,7 @@
 title: Color theme considerations for mobile
 description: Learn how to use color in your mobile applications to improve user experience. Using the right colors for your environment can help guide your users through your app and quickly identify important information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/color-guide-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -95,11 +96,11 @@ Before you start using color variables, keep the following guidelines in mind.
 
 Use these links to learn how to use color variables to change theming in your mobile components.
 
--   [Color variable support for UI rules](../reference/color-var-ui-rule.md)
--   [Color variable support for icon UI sections](../reference/color-var-ui-section.md)
--   [Color variable support for map icons](../reference/color-var-map-pin.md)
--   [Color variable support for icons](../reference/color-var-mobile-icons.md)
--   [Color variable support for card view templates](../reference/color-var-mobile-template.md)
--   [Color variable support for card view buttons](../reference/color-var-cardview-button.md)
--   [Color variable support for input descriptions](../reference/color-var-input-description.md)
+-   [Color variable support for UI rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/color-var-ui-rule.md)
+-   [Color variable support for icon UI sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/color-var-ui-section.md)
+-   [Color variable support for map icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/color-var-map-pin.md)
+-   [Color variable support for icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/color-var-mobile-icons.md)
+-   [Color variable support for card view templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/color-var-mobile-template.md)
+-   [Color variable support for card view buttons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/color-var-cardview-button.md)
+-   [Color variable support for input descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/color-var-input-description.md)
 

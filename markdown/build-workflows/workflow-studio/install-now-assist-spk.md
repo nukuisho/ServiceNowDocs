@@ -2,6 +2,7 @@
 title: Install Now Assist for Creator
 description: Install the Now Assist for Creator application to use the spoke generation skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/install-now-assist-spk.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

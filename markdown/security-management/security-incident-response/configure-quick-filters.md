@@ -2,6 +2,7 @@
 title: Working with quick filters
 description: Quick filters are easily accessible filters that are available on, security incidents and response tasks lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-quick-filters.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -59,7 +60,7 @@ The base system provides the following quick filters for each response task:
 
     **Note:** The security admin can go ahead and configure these quick filters. As per the business need, admin can modify the existing value to false and create a quick filter.
 
-    ![Quick filters list view](../image/quick-filters-list-view.png "Quick Filters")
+    \[Omitted image "quick-filters-list-view.png"\] Alt text: Quick filters list view
 
 4.  Click **New** to create a new filter.
 
@@ -69,7 +70,7 @@ The base system provides the following quick filters for each response task:
 
     You will see the newly added filter listed on the page.
 
-    ![new filter](../image/new-filter.png)
+    \[Omitted image "new-filter.png"\] Alt text: new filter
 
     **Note:**
 
@@ -83,27 +84,27 @@ The base system provides the following quick filters for each response task:
 9.  Click **Update**.
 
 
--   **[Add or modify quick filters](add_quick_filters.md)**  
+-   **[Add or modify quick filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add_quick_filters.md)**  
 Add or modify quick filters for security incidents or response tasks within the list view.
 
-**Parent Topic:**[List view in SIR Workspace](setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 
 
-[Personalize a list](personalize-a-list.md)
+[Personalize a list]()
 
-[Apply quick filters on Security Incidents and Response Tasks lists](use-quick-filters-for-security-incidents.md)
+[Apply quick filters on Security Incidents and Response Tasks lists]()
 
-[Assign Security Incidents](assign-security-incident.md)
+[Assign Security Incidents]()
 
-[Close multiple security incidents](../task/close-multiple-incidents-sir.md)
+[Close multiple security incidents]()
 
-[Assign Response Tasks](../task/assign_response_tasks.md)
+[Assign Response Tasks]()
 
-[Report Phish Email](../task/report-phish-email.md)
+[Report Phish Email]()
 
-[Export Security Incidents or Response Tasks](export-security-incidents-or-response-tasks.md)
+[Export Security Incidents or Response Tasks]()
 
-[Manage Shift Handover records](manage-shift-handover-records.md)
+[Manage Shift Handover records]()
 

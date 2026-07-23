@@ -2,6 +2,7 @@
 title: Security Operations Integration - Publish to Watchlist Flow
 description: The Security Operations Integrations - Publish to Watchlist flow is a high-level flow independent of integrations. It adds observables to third-party watchlist that support the capability. Use it to fulfill an integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/secops-integration-publish-watchlist-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,9 +22,9 @@ Role required: sn\_si.analyst
 
 This flow is visible and runs only when an integration is available. It is triggered from the **Observables** or **Associated Indicators** tab on a security incident.
 
-![Security Operations Integration - Publish to Watchlist capability flow](../image/publish-to-watchlist.png "Publish to Watchlist")
+\[Omitted image "publish-to-watchlist.png"\] Alt text: Security Operations Integration - Publish to Watchlist capability flow
 
-Activities specific to this flow are described here. For more information on other activities, see [Common Security Operations integration flows and orchestration activities](../../security-operations-common/concept/common-wf-activities.md).
+Activities specific to this flow are described here. For more information on other activities, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md).
 
-**Parent Topic:**[Security Operations Integration- Publish to Watchlist capability](../../security-operations-common/concept/pubish-to-watchlist-capability.md)
+**Parent Topic:**[Security Operations Integration- Publish to Watchlist capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/pubish-to-watchlist-capability.md)
 

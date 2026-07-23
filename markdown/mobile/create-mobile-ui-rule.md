@@ -2,6 +2,7 @@
 title: Create a mobile UI rule
 description: Create a mobile UI rule to apply styling or field calculations for your mobile UI elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/create-mobile-ui-rule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,7 +62,7 @@ To use a field in a condition, the field must be displayed on the mobile card, o
 
 Conditions can also use variables defined in the mobile scratchpad. These variables are created and evaluated using the script in the **Mobile Scratchpad Script** field in the card \[sys\_sg\_view\_config\] record.
 
-![Javascript in the Mobile Scratchpad script field](../image/mobile-scratch-example-2.png)![Mobile UI Rule condition using a scripted condition](../image/mobile-scratch-example-1.png)**Note:** For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+\[Omitted image "mobile-scratch-example-2.png"\] Alt text: Javascript in the Mobile Scratchpad script field\[Omitted image "mobile-scratch-example-1.png"\] Alt text: Mobile UI Rule condition using a scripted condition**Note:** For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
 </td></tr><tr><td>
 

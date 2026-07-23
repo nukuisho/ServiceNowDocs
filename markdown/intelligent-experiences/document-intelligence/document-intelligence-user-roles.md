@@ -2,6 +2,7 @@
 title: Document Intelligence roles
 description: Document Intelligence is installed with these roles.Has full access to the Document Intelligence application, except for modifying a subset of system properties, and the billing and internal tables.Has view-only access on Document Intelligence document tasks that they are authorized to view.Extracts information from documents using the Document Intelligence workspace.Extracts information from documents using the Document Intelligence workspace. Also enables users to create Document Intelligence document tasks and submit them for processing.Creates and edits use cases, fields, field groups, and document tasks. Views, measures, and analyzes the usage and effectiveness of Document Intelligence using the Platform Document Intelligence Usage dashboard. Grants access to submit document tasks and interact with the Document Intelligence workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/document-intelligence-user-roles.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -15,38 +16,38 @@ breadcrumb: [Reference, Document Intelligence, Enable AI experiences]
 
 Document Intelligence is installed with these roles.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Document Intelligence references](docintel-references.md)
+**Parent Topic:**[Document Intelligence references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/docintel-references.md)
 
 **Related topics**  
 
 
-[Components installed with Document Intelligence](installed-with-document-intelligence.md)
+[Components installed with Document Intelligence]()
 
-[Confidence scores](../concept/docintel-confidence-scores.md)
+[Confidence scores]()
 
-[Data extraction modes](data-extraction-modes.md)
+[Data extraction modes]()
 
-[Data normalization](../concept/data-normalization.md)
+[Data normalization]()
 
-[Document field statuses](docintel-field-statuses.md)
+[Document field statuses]()
 
-[Document Intelligence forms](document-intelligence-forms.md)
+[Document Intelligence forms]()
 
-[Document Intelligence properties](document-intelligence-properties.md)
+[Document Intelligence properties]()
 
-[Document Intelligence terminology](../concept/docintel-terminology.md#)
+[Document Intelligence terminology]()
 
-[Document task statuses](docintel-task-statuses.md)
+[Document task statuses]()
 
-[Domain separation and Document Intelligence](domain-separation-and-doc-intel.md)
+[Domain separation and Document Intelligence]()
 
-[Languages supported by Document Intelligence](../concept/languages-supported-by-document-intelligence.md)
+[Languages supported by Document Intelligence]()
 
-[Limitations in Document Intelligence](hard-limits-in-doc-intel.md)
+[Limitations in Document Intelligence]()
 
 ## DocIntel Admin \[sn\_docintel.admin\]
 

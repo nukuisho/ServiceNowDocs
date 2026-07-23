@@ -2,6 +2,7 @@
 title: Approve and publish a policy
 description: When a policy is approved, it is automatically published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/t\_ApprovePolicy.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -21,8 +22,8 @@ Role required: sn\_compliance.user or sn\_compliance.manager
 
 **Note:** For more information:
 
--   About a policy, see [An overview of policy life cycle in Policy and Compliance Management](../concept/pc-policy-life-cycle-ovrvw.md).
--   About GRC application, see [Governance, Risk, and Compliance](../../grc-common/reference/r_WhatIsGRC.md).
+-   About a policy, see [An overview of policy life cycle in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/pc-policy-life-cycle-ovrvw.md).
+-   About GRC application, see [Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md).
 
 ## About this task
 
@@ -48,10 +49,10 @@ This feature requires that you manually install and activate the Knowledge Manag
 
     **Note:** As described above, if you activated the Knowledge Management Advanced Installer \[com.snc.knowledge\_advanced.installer\] plugin, a new version of the KB article is created and listed in the **Policy Versions** tab, along with a history of previous versions as shown below.
 
-    ![Policy versions](../image/policy-versions.png "Policy versions")
+    \[Omitted image "policy-versions.png"\] Alt text: Policy versions
 
     So, if you create links to this policy from the Service Portal or elsewhere, the latest version of the KB article is always displayed.
 
 
-**Parent Topic:**[Manage control objectives and policies](../reference/r_PoliciesAndProcedures.md)
+**Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 

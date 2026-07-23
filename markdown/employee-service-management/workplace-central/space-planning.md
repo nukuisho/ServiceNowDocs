@@ -2,6 +2,7 @@
 title: Space Planning
 description: Create, understand, and manage core functions like space hierarchy, neighborhoods, and user assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/space-planning.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -38,36 +39,36 @@ You must install the following plugins to use the Space Planning module:
     The Space Management plugin provides additional features like space metrics and summaries.
 
 
-You can install the plugins from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). You can also visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information of all the released apps, see the [ServiceNow Store release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+You can install the plugins from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). You can also visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information of all the released apps, see the [ServiceNow Store release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-**Important:** You must configure your workplace locations to use Space Planning. For more information about configuring workplace locations, see [Providing your workplace data](../../workplace-service-delivery/concept/providing-your-workplace-data-wsd.md).
+**Important:** You must configure your workplace locations to use Space Planning. For more information about configuring workplace locations, see [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 
 To access Space Planning, navigate to **All** &gt; **Workplace Central**, then select the **Space Planning** module in the workspace.
 
-![Space Planning module.](../images/wsd-space-planning-module.png)
+\[Omitted image "wsd-space-planning-module.png"\] Alt text: Space Planning module.
 
-**Parent Topic:**[Explore Workplace Central](workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 
 
-[Lists module](wsd-lists-module.md)
+[Lists module]()
 
-[Workplace Analytics](workplace-analytics.md)
+[Workplace Analytics]()
 
-[Space Optimization](space-optimization.md)
+[Space Optimization]()
 
-[Scenario Planning](scenario-planning.md)
+[Scenario Planning]()
 
-[Schedule Planning](schedule-planning.md)
+[Schedule Planning]()
 
-[Space assistance](space-assistance.md)
+[Space assistance]()
 
-[Event Planner](event-planner.md)
+[Event Planner]()
 
-[Move Management](move-mgmt.md)
+[Move Management]()
 
-[Case management](case-management-workspace.md)
+[Case management]()
 
-[Kiosk Indoor Mapping](kiosk-indoor-mapping.md)
+[Kiosk Indoor Mapping]()
 

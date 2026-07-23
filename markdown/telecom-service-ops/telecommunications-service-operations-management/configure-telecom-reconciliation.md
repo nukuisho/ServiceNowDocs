@@ -2,6 +2,7 @@
 title: Activate Telecom Discrepancy Identification and Reconciliation
 description: Activate the Telecom Discrepancy Identification and Reconciliation feature \(part of the Telecom Visibility plugin\) to ensure consistency between telecom network resources discovered in the live network and the data represented in the CMDB or Telecom Network Inventory \(TNI\). This feature helps detect and remediate mismatches automatically, supporting service accuracy and data integrity across your telecom environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -46,13 +47,13 @@ Plugin dependencies - Ensure the following plugins are installed and activated:
 **Related topics**  
 
 
-[Discrepancy identification – types of discrepancies](../concept/discrepancy-identification-types-of-discrepancies.md)
+[Discrepancy identification – types of discrepancies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/discrepancy-identification-types-of-discrepancies.md)
 
-[System components installed with Telecom Discrepancy Identification &amp; Reconciliation](../concept/system-properties-affecting-telecom-discrepancy-identification-reconciliation.md)
+[Telecom discrepancy identification and reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/system-properties-affecting-telecom-discrepancy-identification-reconciliation.md)
 
-[Telecom Discrepancy Identification and Reconciliation](../concept/exploring-telecom-reconciliation.md)
+[Telecom Discrepancy Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/exploring-telecom-reconciliation.md)
 
-[Run Telecom Discrepancy audit](run-audits.md#)
+[Run Telecom Discrepancy audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/run-audits.md)
 
-[Control CI attribute updates using Reconciliation rules](control-ci-attribute-updates-using-reconciliation-rules.md)
+[Control CI attribute updates using Reconciliation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/control-ci-attribute-updates-using-reconciliation-rules.md)
 

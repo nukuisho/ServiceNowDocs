@@ -2,6 +2,7 @@
 title: Create relationships
 description: Use relationships to provide internal and external users with additional access to customer data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-data-model-relationships.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -107,7 +108,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 2.  Select the desired relationship.
 
-<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d112689e262">
+<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d116075e262">
 
 **Account Team Members**
 
@@ -115,7 +116,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 Create a relationship between an internal user and an account.
 
-</td></tr><tr><td id="d112689e271">
+</td></tr><tr><td id="d116075e271">
 
 **Consumer Team Members**
 
@@ -123,7 +124,7 @@ Create a relationship between an internal user and an account.
 
 Create a relationship between an internal user and a consumer.
 
-</td></tr><tr><td id="d112689e280">
+</td></tr><tr><td id="d116075e280">
 
 **Household Team Members**
 
@@ -131,7 +132,7 @@ Create a relationship between an internal user and a consumer.
 
 Create a relationship between an internal user and a household.
 
-</td></tr><tr><td id="d112689e289">
+</td></tr><tr><td id="d116075e289">
 
 **Consumer Relationships**
 
@@ -139,7 +140,7 @@ Create a relationship between an internal user and a household.
 
 Create a relationship between two consumers, regardless of household.
 
-</td></tr><tr><td id="d112689e298">
+</td></tr><tr><td id="d116075e298">
 
 **Household Relationships**
 
@@ -240,7 +241,7 @@ Household Member Relationship
 **Related topics**  
 
 
-[Service Model Foundation responsibilities](../reference/csm-data-model-responsibilities.md)
+[Service Model Foundation responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-responsibilities.md)
 
-[Create a responsibility definition](t_CreateAResponsibilityDefinition.md)
+[Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md)
 

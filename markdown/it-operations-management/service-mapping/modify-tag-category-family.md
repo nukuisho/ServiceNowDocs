@@ -2,6 +2,7 @@
 title: Modify or update tag definitions for tag-based mapping
 description: You can change tag definitions that Service Mapping uses for tag-based mapping. Service Mapping uses updated tag definitions to create new tag-based services without applying tag-related changes to services you mapped earlier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/modify-tag-category-family.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -17,15 +18,15 @@ You can change tag definitions that Service Mapping uses for tag-based mapping. 
 
 ## Before you begin
 
-If you need to create a new tag category or modify an existing tag category, follow the prerequisites in [Map application services using tags with classic Service Mapping](map-service-tag.md).
+If you need to create a new tag category or modify an existing tag category, follow the prerequisites in [Map application services using tags with classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/map-service-tag.md).
 
-Review recommendations in [Prepare for mapping application services based on tags](prepare-map-service-tag.md).
+Review recommendations in [Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/prepare-map-service-tag.md).
 
 Role required: service\_mapping\_admin
 
 ## About this task
 
-**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](../reference/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](../concept/tag-discovery-service-mapping-workspace.md).
+**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
 
 You may decide to add or remove tag categories from a tag-based service family in the following cases:
 
@@ -68,30 +69,30 @@ Service Mapping generates new tag-based service candidates that you use to map s
 
 ## What to do next
 
-[Remap tag-based application services to reflect tag changes](remap-tag-based-services-tag-changes.md)
+[Remap tag-based application services to reflect tag changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/remap-tag-based-services-tag-changes.md)
 
-**Parent Topic:**[Application service mapping using classic Service Mapping](../concept/c_DefineMapBusinessServices.md)
+**Parent Topic:**[Application service mapping using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md)
 
 **Related topics**  
 
 
-[Map multiple application services suggested by classic Service Mapping](map-business-services-in-bulk.md)
+[Map multiple application services suggested by classic Service Mapping]()
 
-[Map application services using tags with classic Service Mapping](map-service-tag.md)
+[Map application services using tags with classic Service Mapping]()
 
-[Map multiple application services from a CSV file using classic Service Mapping](import-business-services-csv.md)
+[Map multiple application services from a CSV file using classic Service Mapping]()
 
-[Map a single application service using classic Service Mapping](t_DefineNewBusinessService.md)
+[Map a single application service using classic Service Mapping]()
 
-[Fix application service errors in bulk](fix-bus-serv-errors-by-category.md)
+[Fix application service errors in bulk]()
 
-[Fix errors in individual application service maps](fix-or-ignore-errors-business-service-map.md)
+[Fix errors in individual application service maps]()
 
-[Review and approval of application service maps](business-service-approval.md)
+[Review and approval of application service maps]()
 
-[Fine-tune application services to implement owner requests](review-implement-business-service-maps.md)
+[Fine-tune application services to implement owner requests]()
 
-[Application service completion](../concept/advanced-business-service-definitions.md)
+[Application service completion]()
 
-[Application service analysis and maintenance using classic Service Mapping](../concept/c_SvcPlanningAndAnalysisUsingMaps.md)
+[Application service analysis and maintenance using classic Service Mapping]()
 

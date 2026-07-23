@@ -2,13 +2,14 @@
 title: Upload the manifest file in Microsoft Office 365
 description: After you create a manifest file, upload it to Microsoft Office 365. You can view and use the add-in Microsoft Office 365 after you upload the manifest file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery/upload-the-manifest-file-office365.html
 release: australia
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Upload the manifest file in Microsoft Office 365
@@ -59,14 +60,14 @@ Role required: sn\_wsd\_msaddin.admin
 
 The add-in is uploaded to Microsoft Office 365. The users to whom the add-in is deployed can view the add-in option while scheduling a meeting.
 
-**Parent Topic:**[Configure Workplace Reservations for Microsoft Outlook Add-in](../concept/configure-workplace-rsv-for-outlook-addin.md)
+**Parent Topic:**[Configure Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery/configure-workplace-rsv-for-outlook-addin.md)
 
 **Related topics**  
 
 
-[Install Workplace Reservations for Microsoft Outlook Add-in](install-workplace-reservations-for-outlook-addin.md)
+[Install Workplace Reservations for Microsoft Outlook Add-in]()
 
-[Create a manifest file for Microsoft Outlook Add-in](add-manifest-file-for-outlook-addin.md)
+[Create a manifest file for Microsoft Outlook Add-in]()
 
-[Upload the manifest file for a single user](upload-manifest-for-single-user.md)
+[Upload the manifest file for a single user]()
 

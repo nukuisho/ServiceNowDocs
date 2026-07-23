@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP and domain separation
 description: Domain separation is unsupported for Zero Copy Connector for ERP \(Enterprise Resource Planning\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpi-domain-separation.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -23,7 +24,7 @@ Domain separation is unsupported for Zero Copy Connector for ERP \(Enterprise Re
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Zero Copy Connector for ERP reference](../reference/erp-integration-reference.md)
+**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
 
 **Related topics**  
 

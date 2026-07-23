@@ -2,6 +2,7 @@
 title: Set the time zone for availability results in Service Portfolio Management
 description: By default, the time zone to calculate availability for services and commitments is set to the global \(system\) time zone. You can change the global time zone or you can set the time zone for service commitments. With either option, you can recalculate the availability results based on the time zone that you set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-set-timezone.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -39,7 +40,7 @@ To set the time zone, the availability system property \[com.snc.availability.v2
 
 1.  Navigate to **All** &gt; **Service Portfolio Management** &gt; **Administration** &gt; **Availability calculation settings**.
 
-    ![Availability calculation settings page.](../image/spm2-avail-tz.png "Availability calculation settings page")
+    \[Omitted image "spm2-avail-tz.png"\] Alt text: Availability calculation settings page.
 
 2.  Decide how you want to calculate availability.
 
@@ -68,7 +69,7 @@ To set the time zone, the availability system property \[com.snc.availability.v2
         **Tip:** To see the service availability list, enter `service_availability.list` in the Filter navigator, and then press **Enter**.
 
     4.  Select **Recalculate results**, and then select **Recalculate** on the **Confirmation** page.
-    5.  Select **Refresh** \(![Refresh icon](../image/spm2-refresh-screen.png)\) on the service availability list to see the updated time zone in the **Time zone** column.
+    5.  Select **Refresh** \(\[Omitted image "spm2-refresh-screen.png"\] Alt text: Refresh icon\) on the service availability list to see the updated time zone in the **Time zone** column.
 
         **Note:** It takes a few minutes for all the records to recalculate and show the updated time zone field.
 
@@ -84,10 +85,10 @@ To set the time zone, the availability system property \[com.snc.availability.v2
 6.  Select **Save**.
 
 
-**Parent Topic:**[Using Service Portfolio Management](../concept/SPM2-using.md)
+**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
 
 **Related topics**  
 
 
-[View availability results in Service Portfolio Management](../concept/SPM2-view-availability-results.md)
+[View availability results in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-view-availability-results.md)
 

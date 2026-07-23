@@ -2,13 +2,14 @@
 title: Configure transition between state models
 description: Create state model transitions to define valid paths between workflow states. State model transitions control how authorization packages move from one step to another and verify that packages follow the correct sequence through your workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/create-state-transitions.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create GRC workflow states, GRC state model configuration, CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Create GRC workflow states, GRC state model configuration, CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Configure transition between state models
@@ -72,5 +73,5 @@ Role required: sn\_irm\_cont\_auth.admin
 
 ## What to do next
 
-[Create GRC model state transition conditions](add-state-transition-conditions.md)
+[Create GRC model state transition conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/add-state-transition-conditions.md)
 

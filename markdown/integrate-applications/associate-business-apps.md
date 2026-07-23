@@ -2,11 +2,12 @@
 title: Assign a business application to a bot process in RPA Hub
 description: Assign a business application to a bot process for an effective event correlation or to get information about assigned business applications. For example, you might want to see information about the SAP application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/associate-business-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Adding details for your bot process, Configuring a bot process record, Use, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Adding details for your bot process, Configuring a bot process record, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Assign a business application to a bot process in RPA Hub
@@ -15,7 +16,7 @@ Assign a business application to a bot process for an effective event correlatio
 
 ## Before you begin
 
-Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](../concept/create-botprocess.md).
+Create a bot process. For more information, see [Configuring a bot process record in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-botprocess.md).
 
 Verify that the business application exists on this ServiceNow instance. To add a new business application, navigate to **All** &gt; **Self-service** &gt; **Business Applications**.
 
@@ -33,7 +34,7 @@ An RPA business user \[sn\_rpa\_fdn.rpa\_business\_user\] can view the business 
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **Bot Process**.
 
@@ -50,5 +51,5 @@ An RPA business user \[sn\_rpa\_fdn.rpa\_business\_user\] can view the business 
 9.  To remove a business application, select the business application, and select **Remove**.
 
 
-**Parent Topic:**[Adding details to your bot process in RPA Hub](../concept/post-req-bot-process-rpa.md)
+**Parent Topic:**[Adding details to your bot process in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/post-req-bot-process-rpa.md)
 

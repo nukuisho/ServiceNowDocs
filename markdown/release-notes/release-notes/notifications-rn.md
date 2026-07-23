@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Notifications release notes
@@ -20,6 +20,9 @@ The ServiceNow® Notifications application enables you to create, manage, and se
 -   Enhanced inbound email classification to support thread-index header for emails generated via Microsoft or Microsoft Outlook ecosystem.
 -   Deliver critical push notifications even when users are logged out.
 -   Create and modify email notifications and email templates using natural language prompts through the Notification Agent.
+-   Enhance customer communications with branded email template support in the Email Generator Agent.
+-   Identify and process multiple intents in inbound emails, enabling multiple reply email actions.
+-   Handle missing inputs in inbound emails using configurable execution modes.
 
 See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) for more information.
 
@@ -52,6 +55,10 @@ See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
     Added the Forwarding Address option for the email account type.
 
+-   **[Create and associate actions for intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-actions-for-intent.md)**
+
+    Added the Email Template field to the Reply Email Notification Intent Action type.
+
 
 ## Changed in this release
 
@@ -71,14 +78,30 @@ See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
     Push notifications can now be configured to be sent to users even when they are logged out, ensuring critical updates are not missed.
 
+-   **[Now LLM support and email template configuration in Notification Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-creation-agent.md)**
+
+    Now LLM and third-party LLM models are now supported, and email templates can be configured for notifications created using the Notification Agent.
+
+-   **[Email templates for the Email Generator Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-actions-for-intent.md)**
+
+    Use branded email templates in the Email Generator Agent, allowing AI-generated responses with customer-specific layouts, logos, and styling.
+
+-   **[Multiple intent identification in inbound emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-agentic-workflow.md)**
+
+    Multiple intents can now be identified in inbound emails, allowing multiple reply email actions for a single email.
+
+-   **[Handle missing inputs for inbound email actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/email-agentic-workflow.md)**
+
+    Missing inputs for inbound email actions are now handled through configurable execution modes, allowing missing inputs to be requested, intents to be skipped, or processing to continue.
+
 
 ## Activation information
 
 Notifications is a ServiceNow AI Platform feature that is active by default.
 
-Install Notifications Email Agents by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Notifications Email Agents by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 The Notification Agent requires the Implementation Agent \(IA\) Orchestration framework and is not supported as a standalone feature.
 
-**Parent Topic:**[ServiceNow AI Platform administration release notes](now-platform-admin-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-admin-rn-landing.md)
 

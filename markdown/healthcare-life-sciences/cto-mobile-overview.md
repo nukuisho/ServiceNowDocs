@@ -2,6 +2,7 @@
 title: Care Team Mobile overview
 description: The Care Team Mobile landing page offers users a list of quick actions, recent updates on requests, and request tracking information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-mobile-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Explore, Care Team Mobile, Healthcare Operations, Healthcare and Li
 
 The Care Team Mobile landing page offers users a list of quick actions, recent updates on requests, and request tracking information.
 
-![Care Team Mobile overview screen.](../image/hcls-cto-mobile-overview.png)
+\[Omitted image "hcls-cto-mobile-overview.png"\] Alt text: Care Team Mobile overview screen.
 
 ## Quick actions
 

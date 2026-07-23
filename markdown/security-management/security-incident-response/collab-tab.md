@@ -2,6 +2,7 @@
 title: Track collaboration activity via MSIM workspace
 description: Track chat and file activities related to resolving major security incidents through the MSIM Workspace.The File Explorer displays the file system so you can view and interact with files and folders related to resolving the incident.The Chat Channel Manager displays Microsoft Teams with multiple channels created in the Microsoft Teams application based on a configuration template setup.The Chat Channel Manager displays Slack with multiple channels created in the Slack application based on a configuration template setup.Displays all the activities, logs, status that were performed on Microsoft SharePoint, File explorer, and Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/collab-tab.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -26,28 +27,28 @@ When a security incident is promoted as major security incident:
 
 Role required: sn\_msi.workspace\_manager.
 
-**Parent Topic:**[Using Major Security Incident Management](../../security-incident-response/concept/major-security-incident-setup.md)
+**Parent Topic:**[Using Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-setup.md)
 
 **Related topics**  
 
 
-[Propose, promote, and link incident records](../../security-incident-response/concept/promoting-sir-to-msim.md)
+[Propose, promote, and link incident records]()
 
-[Using MSI List view in the MSIM workspace](../../security-incident-response/task/list-view-in-msim.md)
+[Using MSI List view in the MSIM workspace]()
 
-[View Major Security Incident impact metrics](viewing-trend-charts-and-progress-of-msi.md)
+[View Major Security Incident impact metrics]()
 
-[View Major Security Incident trend charts](viewing-msi-impact-metrics.md)
+[View Major Security Incident trend charts]()
 
-[Update Major Security Incident details](msim-details-tab.md)
+[Update Major Security Incident details]()
 
-[Link additional records to Major Security Incident](../task/linking-additional-records-to-major-security-incidents.md)
+[Link additional records to Major Security Incident]()
 
-[Unlink records from Major Security Incident](../task/unlinking-msi-records.md)
+[Unlink records from Major Security Incident]()
 
-[Manage tasks in a Major Security Incident](tasks-tab.md)
+[Manage tasks in a Major Security Incident]()
 
-[Create and distribute MSIM Status Reports](../task/creating-and-distributing-major-security-incident-status-reports.md)
+[Create and distribute MSIM Status Reports]()
 
 ## Interact with files and folders
 

@@ -2,6 +2,7 @@
 title: Anonymize a visitor
 description: As an admin, you can anonymize a visitor to delete the visitor record and all the details of the visitor. Any future registrations of the visitor are canceled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/anonymize-visitor.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -55,20 +56,20 @@ When you anonymize a visitor, the visitor record is deleted. In all current visi
 
 The visitor is anonymized and all the details of the visitor are deleted. Any future registrations for the visitor are canceled, and the data in the fields is replaced with random values.
 
-**Parent Topic:**[Managing visitor registrations](../concept/manage-visitor-registrations.md)
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
 
-[Use the receptionist portal](use-receptionist-portal.md)
+[Use the receptionist portal]()
 
-[Update a visitor registration](update-visitor-registration.md)
+[Update a visitor registration]()
 
-[View visitor registrations](view-visitor-registrations.md)
+[View visitor registrations]()
 
-[View visitor policy confirmations](view-policy-confirmations.md)
+[View visitor policy confirmations]()
 
-[Visitor registration states](../reference/visitor-registration-states.md)
+[Visitor registration states]()
 
-[Apply visitor management archive policy](apply-visitor-management-archival-rule.md)
+[Apply visitor management archive policy]()
 

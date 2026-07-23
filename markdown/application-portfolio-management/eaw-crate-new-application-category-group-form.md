@@ -1,7 +1,8 @@
 ---
-title: Create new application category group form
+title: Create application category group form
 description: Create an application category group or edit an existing one to align it with your business requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-crate-new-application-category-group-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new application category group form
+# Create application category group form
 
 Create an application category group or edit an existing one to align it with your business requirements.
 
@@ -18,12 +19,12 @@ Create an application category group or edit an existing one to align it with yo
 |Name|Unique name of the application category group.|
 |Description|Description of the application category group.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Manage application category groups](../../concept/eaw-concept/eaw-configure-application-category-groups.md)
+[Manage application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-configure-application-category-groups.md)
 
-[Add or edit an application category group](../../task/eaw-task/eaw-create-app-cat-grp.md)
+[Add or edit an application category group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-app-cat-grp.md)
 

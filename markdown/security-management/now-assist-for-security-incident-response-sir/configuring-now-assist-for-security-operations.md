@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Security Incident Response
 description: The Now Assist for Security Incident Response application is supported in the Security Incident Response Workspace and in the legacy Core UI \(UI16\). Use the guided setup in the Now Assist Admin console to configure Now Assist for Security Incident Response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -19,7 +20,7 @@ The Now Assist for Security Incident Response application is supported in the Se
 
 AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 By sharing data with the ServiceNow® AI development program, you provide relevant data to help improve prediction accuracy, user experience, tailor products to your business needs, and reduce hallucinations for your activated Now Assist skills.
 
@@ -92,7 +93,7 @@ Security incident quality assessment
 
     When you update the Now Assist for Security Incident Response application, its dependency applications are automatically updated.
 
-2.  [Configure a skill for Now Assist for Security Incident Response](../task/activate-skills-for-now-assist-security-incident.md)
+2.  [Configure a skill for Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.md)
 
     You can deactivate, configure, and reactivate generative AI skills and agentic workflows in the Guided Setup.
 

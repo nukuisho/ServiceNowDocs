@@ -2,6 +2,7 @@
 title: Grouped list screen
 description: Grouped list records display a list of records that are grouped by a specific field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/grouped-list-screen.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Use a grouped list to provide a view of a list of items grouped by a field. Grou
 
 </td><td>
 
-![Grouped list record.](../image/GroupedListApplet.png)
+\[Omitted image "GroupedListApplet.png"\] Alt text: Grouped list record.
 
 </td></tr></tbody>
 </table>

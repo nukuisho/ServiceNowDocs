@@ -2,6 +2,7 @@
 title: Perform a cluster analysis
 description: Generate a cluster analysis on an activity, connection between activities, route, or an improvement opportunity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/request-cluster-analysis.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -17,7 +18,7 @@ Generate a cluster analysis on an activity, connection between activities, route
 
 **Before you begin**
 
--   [Configure a process for a clustering solution](process-configuration-clustering.md). To generate a cluster analysis, the project must have a process configured with a clustering solution on the relevant table.
+-   [Configure a process for a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-configuration-clustering.md). To generate a cluster analysis, the project must have a process configured with a clustering solution on the relevant table.
 -   Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 -   An analysis can be performed on an activity, connection, improvement opportunity, or combined routes with a minimum of 100 and maximum of 300,000 records.
 
@@ -25,7 +26,7 @@ Run a cluster analysis in one of the following ways.
 
 -   From the Summary and insights page:
     1.  From the Improvement Opportunities section, select a finding.
-    2.  In the **Action** list, select **Requester intent \(cluster\)**.![Cluster analysis from Improvement Opportunities section](../image/cluster-analysis.png)
+    2.  In the **Action** list, select **Requester intent \(cluster\)**.\[Omitted image "cluster-analysis.png"\] Alt text: Cluster analysis from Improvement Opportunities section
 
         **Note:** The status of the request is displayed in the same option as **In progress** until the task completes.
 
@@ -35,14 +36,14 @@ Run a cluster analysis in one of the following ways.
 
         You will get a notification that the task is running in the background. You can close the notification. When the task completes, you will be notified. You can see the details in the **Scheduled tasks** window.
 
-        ![Cluster analysis from Analyst workbench](../image/cluster-analyst-wb.png)
+        \[Omitted image "cluster-analyst-wb.png"\] Alt text: Cluster analysis from Analyst workbench
 
     3.  From the Scheduled tasks panel or the metrics box that the cluster analysis was requested on, select **View result** after generation completes.
 
-**Parent Topic:**[Cluster analysis](../concept/cluster-analysis.md)
+**Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md)
 
 **Related topics**  
 
 
-[View a cluster analysis](view-cluster-analysis.md)
+[View a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/view-cluster-analysis.md)
 

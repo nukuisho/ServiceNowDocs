@@ -2,6 +2,7 @@
 title: Integrate voice assistant with mobile app launcher
 description: Configure your voice assistant to be accessible through the voice launcher functions in mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integrate-voice-assistant-with-mobile-app-voice-launcher.html
 release: australia
 topic_type: task
 last_updated: "2026-01-20"
@@ -18,7 +19,7 @@ Configure your voice assistant to be accessible through the voice launcher funct
 Role required: virtual\_agent\_admin or admin
 
 -   You must have a voice assistant created in Assistant Designer
--   Mobile app voice launcher function must be configured using Now Assist for Mobile before you can assign it to an assistant. See [Configure Mobile AI Voice Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-ai-voice-agent.md) for more information.
+-   Mobile app voice launcher function must be configured using Now Assist for Mobile before you can assign it to an assistant. See  for more information.
 
 ## Procedure
 
@@ -28,7 +29,7 @@ Role required: virtual\_agent\_admin or admin
 
 3.  Select **Communication channels** in the Settings tab and select **Mobile channels** tab.
 
-    ![Voice launcher function selection in mobile channel configuration](../image/voice-agents-voice-launcher-function-configuration.png "Voice launcher function setup")
+    \[Omitted image "voice-agents-voice-launcher-function-configuration.png"\] Alt text: Voice launcher function selection in mobile channel configuration
 
 4.  In Voice launcher functions, select from the **Add voice launcher function** drop-down to add a voice launcher function to open the assistant in voice mode.
 
@@ -36,7 +37,7 @@ Role required: virtual\_agent\_admin or admin
 
 6.  In Prominent action button override, select from the **Add tab override** drop-down to allow a prominent action button to launch the assistant.
 
-    The prominent action button overrides what’s been defined in the chat launcher and voice launcher functions. See [Configuring a prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-prominent-action-button.md) for more information on configuring the prominent action button.
+    The prominent action button overrides what’s been defined in the chat launcher and voice launcher functions. See  for more information on configuring the prominent action button.
 
 7.  Select **Save** to save the configuration.
 

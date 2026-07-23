@@ -2,6 +2,7 @@
 title: Use response templates in the mini email composer
 description: Insert common responses into your emails by using response templates in the mini email composer instead of manually drafting a response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-response-templates-in-the-mini-email-composer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,11 +24,11 @@ Role required: email\_composer
 
 2.  Open the mini email composer by selecting the **Email** tab under the Compose panel.
 
-3.  From the email footer, select the Apply templates icon \(![Apply templates icon](../image/x-apply-templates-icon.png)\).
+3.  From the email footer, select the Apply templates icon \(\[Omitted image "x-apply-templates-icon.png"\] Alt text: Apply templates icon\).
 
     A modal opens with different types of templates.
 
-    ![Apply templates modal](../image/xs2-email-templates-tab.png)
+    \[Omitted image "xs2-email-templates-tab.png"\] Alt text: Apply templates modal
 
 4.  Select the **Response templates** tab.
 
@@ -39,6 +40,6 @@ Role required: email\_composer
 
 7.  Apply a response template with a keyboard shortcut.
 
-    For instructions on applying a response template with a keyboard shortcut, see [Add response templates with a keyboard shortcut](add-response-templates-shortcut.md).
+    For instructions on applying a response template with a keyboard shortcut, see [Add response templates with a keyboard shortcut](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/add-response-templates-shortcut.md).
 
 

@@ -2,6 +2,7 @@
 title: Implement post-upgrade activities on a non-prod instance
 description: Implement the post-upgrade tasks for a successful upgrade completion on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-post-upgrade-activities.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -71,13 +72,13 @@ Role required: admin
 
         Select **All dependent apps and plugins** to see the calculated list of all dependent applications and plugins for the Now assist update suite applications list.
 
-        ![](../image/uc-dependent-apps.png)
+        \[Omitted image "uc-dependent-apps.png"\] Alt text:
 
         For example, if you have 5 applications in the selected version of Now assist update suite, the Now assist update suite dependencies modal lists only the dependencies of these 5 applications.
 
     -   Upgrade store applications: List of applications that have been selected in the pre-upgrade stage and have updated versions available.
 
-        ![Screenshot showing app updates](../image/um-store-app-upgrades.png)
+        \[Omitted image "um-store-app-upgrades.png"\] Alt text: Screenshot showing app updates
 
         -   Application: Name of the application
         -   Upgrade version: Selected version of the application to which you want to upgrade. This was selected before upgrade starts in preview apps page
@@ -96,7 +97,7 @@ Role required: admin
 
     In order to conduct post-testing, the selected ATF tests are executed to ensure system functionality and integrity of the existing features.
 
-    ![Screenshot showing the post testing scenario](../image/um-post-testing.png)
+    \[Omitted image "um-post-testing.png"\] Alt text: Screenshot showing the post testing scenario
 
     You can review the following information in this step:
 
@@ -112,12 +113,12 @@ Role required: admin
         -   Generated: States if it has been generated or recently created
         -   Start time: States the start time of testing of the test suite
         -   Duration: States the total duration for the testing of the test suite
-    -   ATF troubleshooting agent: Select ATF troubleshooting agent to identify the root cause of test failures on specific metadata. See [ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md) for more information.
+    -   ATF troubleshooting agent: Select ATF troubleshooting agent to identify the root cause of test failures on specific metadata. See [ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-troubleshooting-agent-landing-page.md) for more information.
 4.  Prepare next environment.
 
     In this step, you can see the currently selected upgrade plan. You then prepare the update set and export it to the next production or non-production instance. This task is used to ensure that all necessary modifications are applied to the next production or non-production instance.
 
-    ![Screenshot showing next environment](../image/um-next-environment.png)
+    \[Omitted image "um-next-environment.png"\] Alt text: Screenshot showing next environment
 
     You can see the following information in this task:
 
@@ -130,12 +131,12 @@ Role required: admin
 5.  Select **Mark as complete** to complete the sub-production tasks in a non-production instance.
 
 
-**Parent Topic:**[Access guided upgrade on a non-production instance](um-guided-tour-implement.md)
+**Parent Topic:**[Access guided upgrade on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement.md)
 
 **Related topics**  
 
 
-[Implement pre-upgrade activities on a non-prod instance](um-pre-upgrade-activities.md)
+[Implement pre-upgrade activities on a non-prod instance]()
 
-[Implement instance upgrade activities on a sub-prod instance](um-implement-instance-upgrade.md)
+[Implement instance upgrade activities on a sub-prod instance]()
 

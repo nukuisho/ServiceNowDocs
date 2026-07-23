@@ -2,12 +2,14 @@
 title: Automatic creation of AI cases and inquiries from inbound email
 description: The system automatically creates AI cases and inquiries from inbound emails using keywords in the subject line and body based on configured email intake settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/automatic-creation-cases-inquiries-from-email.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [email-based AI case intake, automatic case creation, inbound email]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -19,7 +21,7 @@ The system automatically creates AI cases and inquiries from inbound emails usin
 
 Email-based intake provides a simple and familiar way for users to submit AI-related cases or inquiries. Instead of navigating a portal or completing forms, users send an email to configured addresses. When an email is received, the system processes the message extracting key information such as the subject, body, and sender, and creates an AI Case or Inquiry. This automation helps capture submissions consistently and immediately, ready for review and action.
 
-For step-by-step configuration instructions, see [Configure email-based intake for AI Risk and Compliance](../task/config-cases-inquiries-from-email.md).
+For step-by-step configuration instructions, see [Configure email-based intake for AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/config-cases-inquiries-from-email.md).
 
 ## Benefits of email-based intake
 
@@ -49,4 +51,13 @@ When an inbound email is processed, information from the email is used to popula
 -   The email body populates the **Description** field.
 -   Email attachments are included and linked to the record.
 -   For AI cases, the **Source** field is set to **Email**.
+
+**Related topics**  
+
+
+[Configure email-based intake for AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/config-cases-inquiries-from-email.md)
+
+[AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
+
+[AI governance email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc_email_notifications.md)
 

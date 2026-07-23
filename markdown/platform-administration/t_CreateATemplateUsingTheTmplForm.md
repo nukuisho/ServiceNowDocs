@@ -2,6 +2,7 @@
 title: Create a template using the Template form
 description: Create a template record for any table to populate certain fields automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateATemplateUsingTheTmplForm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: template\_editor\_global or admin
 
 ## About this task
 
-Create a template using the Template form. 
+\[Omitted video\] Description: Create a template using the Template form.
 
 Templates enable users to more quickly and uniformly complete records.
 
@@ -115,22 +116,22 @@ Template that links a child table with the template for the parent table. In the
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Using form templates](../concept/c_Templates.md)
+**Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Templates.md)
 
 **Related topics**  
 
 
-[Create templates for related task records](create-templates-for-related-task-records.md)
+[Create templates for related task records]()
 
-[Create a template by saving a form](t_SaveAFormAsATemplateInUI16OrUI15.md)
+[Create a template by saving a form]()
 
-[Schedule record creation from a template](t_ScheduleATemplate.md)
+[Schedule record creation from a template]()
 
-[Create a module for a template](t_CreateAModuleForATemplate.md)
+[Create a module for a template]()
 
-[Template bar](../concept/template-bar.md)
+[Template bar]()
 
-[Toggle the template bar](t_ToggleTheTemplateBar.md)
+[Toggle the template bar]()
 
-[Scripted templates](../reference/r_ScriptedTemplates.md)
+[Scripted templates]()
 

@@ -2,6 +2,7 @@
 title: Create Security Operations workflow triggers
 description: Create a workflow trigger that contains a condition on a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/create-workflow-triggers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,11 +24,11 @@ Security Operations contains several workflow triggers in the base system:
 
 -   **Rescan vulnerable group**
 
-    Rescans a vulnerable group, using the [Scan vulnerability workflow](../../vulnerability-response-orchestration/task/scan-vulnerability-workflow.md), when you **Close/Ignore** the group.
+    Rescans a vulnerable group, using the [Scan vulnerability workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/scan-vulnerability-workflow.md), when you **Close/Ignore** the group.
 
 -   **Rescan vulnerable item**
 
-    Rescans a vulnerable item, using the [Scan vulnerability item workflow](../../vulnerability-response-orchestration/task/scan-vulnerable-item-workflow.md) when you **Close/Ignore** the item.
+    Rescans a vulnerable item, using the [Scan vulnerability item workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/scan-vulnerable-item-workflow.md) when you **Close/Ignore** the item.
 
 
 Roles required:
@@ -98,7 +99,7 @@ Use filter group
 
 </td><td>
 
-Select this check box to use a predefined filter group or [create a new filter group](create-filter-group.md) to define the workflow trigger criteria.
+Select this check box to use a predefined filter group or [create a new filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/create-filter-group.md) to define the workflow trigger criteria.
 
 </td></tr><tr><td>
 
@@ -111,7 +112,7 @@ Select the filter group to use for defining workflow triggers. This field appear
 </td></tr></tbody>
 </table>4.  When you have completed your entries, select and hold \(or right-click\) in the form header and select **Save**.
 
-    ![WorkflowTriggers with filters example](../image/WorkflowTriggerFilters.png)
+    \[Omitted image "WorkflowTriggerFilters.png"\] Alt text: WorkflowTriggers with filters example
 
     The **Workflows** tab appears. It contains workflows that are run when all filter conditions or filter group conditions are met.
 
@@ -128,5 +129,5 @@ Select the filter group to use for defining workflow triggers. This field appear
 6.  Select **Update**.
 
 
-**Parent Topic:**[Security Operations workflow triggers](../concept/workflow-triggers.md)
+**Parent Topic:**[Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/workflow-triggers.md)
 

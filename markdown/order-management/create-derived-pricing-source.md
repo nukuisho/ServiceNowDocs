@@ -2,10 +2,13 @@
 title: Create rules for derived product pricing
 description: Define product pricing rules for deriving the price of a product dynamically based on the pricing of related products or a pricing source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-derived-pricing-source.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
+keywords: [derived pricing, product offering source, product offering target, Derived Pricing Matrix]
+audience: administrator
 breadcrumb: [Derived product pricing, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -15,7 +18,7 @@ Define product pricing rules for deriving the price of a product dynamically bas
 
 ## Before you begin
 
-Activate the **Account** option for the **Scope** field in the Derived Price Matrix. To activate the option, see [Enable the Account scope option for derived pricing](activate-account-option-derived-pricing.md).
+Activate the **Account** option for the **Scope** field in the Derived Pricing Matrix. To activate the option, see [Enable the Account scope option for derived pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activate-account-option-derived-pricing.md).
 
 Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pricelist\_manager
 
@@ -23,19 +26,28 @@ Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pri
 
 Use the Derived Price Matrix to define the rules for deriving the pricing of a product offering relative to other product offerings or a price source based on a transactional header, such as items from quote headers.
 
+The Derived Price Matrix defines pricing rules for both quotes and orders. When agents add products to a quote or order, the system automatically evaluates the rules in this matrix and generates, updates, or removes derived line items as needed. Agents cannot edit or copy system-generated lines. The system enforces these restrictions to preserve pricing integrity. When agents add products to a quote or order, the following occurs automatically:
+
+-   System-generated lines appear when pricing rules are evaluated and conditions are met.
+-   Existing derived lines update automatically when pricing conditions change, such as when source product prices or quantities are modified.
+-   Derived lines are removed automatically when they no longer meet the pricing rule conditions.
+-   System-generated lines display a **System generated** indicator and can't be edited, deleted, or copied. This restriction preserves pricing integrity.
+
+Agents can review the line item for the target product to see how the derived price was calculated by checking the scope values and price point used.
+
 **Note:** Only one rule set for a derived product is supported.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
-3.  Navigate to **Pricing** &gt; **Pricing Matrices**.
+3.  Navigate to **Pricing** &gt; **Pricing matrixes**.
 
-4.  In the Pricing Matrices list, select the **Derived Pricing Matrix**.
+4.  In the Pricing matrixes list, select the **Derived Pricing Matrix**.
 
-5.  If you have many rows in the decision table and you want to optimize rule matrix performance, in **Query optimization variables**, select the search icon and one or more context variables that the system uses to filter the derived pricing decision rows that are evaluated.
+5.  If you have many rows in the decision table and you want to optimize rule matrix performance, in **Query optimization variables**, select the Search icon and one or more context variables that the system uses to filter the derived pricing decision rows that are evaluated.
 
 6.  In **Rule selection criteria**, select the option that indicates whether single or multiple rules are applied in the Derived Pricing Matrix.
 
@@ -95,7 +107,7 @@ Use the Derived Price Matrix to define the rules for deriving the pricing of a p
 
     The derived pricing for the target product is available when the product is used in a transaction line.
 
-    **Note:** Once a matrix is published, you can't make further changes to it. If you have changes, create another version of the matrix with your updates and publish the new version. However, your admin can allow changes to a published matrix by using the **allow\_edit\_on\_published\_matrices** system property. To learn more, see [Allow changes to published pricing and product eligiblity matrices](edit-published-matrices.md).
+    **Note:** After a matrix is published, you can't make further changes to it. If you have changes, create another version of the matrix with your updates and publish the new version. However, your admin can allow changes to a published matrix by using the **allow\_edit\_on\_published\_matrices** system property. To learn more, see [Allow changes to published pricing and product eligiblity matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/edit-published-matrices.md).
 
 
 ## Result

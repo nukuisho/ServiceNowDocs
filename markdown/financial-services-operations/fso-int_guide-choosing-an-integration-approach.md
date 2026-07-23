@@ -2,6 +2,7 @@
 title: Choosing an Integration Approach
 description: You have several options to integrate your data with your platform. Review the Integration Guidance decision matrix to determine which is the best approach for your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-choosing-an-integration-approach.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +23,7 @@ Consider the following questions when choosing an integration approach:
 -   Must the data be current when viewing?
 -   Must the user see all the customer's related accounts?
 
-![Decision matrix to determine the most suitable integration approach.](../image/integration-decision-matrix.png)
+\[Omitted image "integration-decision-matrix.png"\] Alt text: Decision matrix to determine the most suitable integration approach.
 
 ## Using the FSO Remote Table Plugin
 

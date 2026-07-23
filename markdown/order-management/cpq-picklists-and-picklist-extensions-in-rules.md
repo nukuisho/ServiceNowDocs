@@ -2,11 +2,12 @@
 title: Picklists and picklist extensions in rules
 description: Learn how to use picklist extensions \(PLEs\) effectively in rules. Understand how filtering, inclusion, and exclusion interact, and apply correct operators like equals and contains for single- and multi-select picklists to ensure accurate rule behavior in advanced configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-picklists-and-picklist-extensions-in-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Configure picklist extensions, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+reading_time_minutes: 5
+breadcrumb: [Configure picklist extensions, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Picklists and picklist extensions in rules
@@ -21,6 +22,8 @@ Picklist extensions \(PLEs\) are a powerful way for administrators to display as
 -   Do not use inclusion rules for PLEs. PLE filtering works like inclusion rules, so in order to remove further options, the user should use exclusion rules.
 -   **Contains** and **Equals** act differently on multi-select picklists. `Array.includes()` and `==` also act differently.
 
+For information about rules, including inclusion and exclusion rules, see [Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rules_101.md).
+
 ## Simple rules
 
 It's best not to use rules with picklist extensions. PLEs are designed so that you can filter options and send data to the bill of materials without writing rules. Therefore, most reasons to use inclusion, exclusion, and product rules are not present in PLEs. Make sure your use case can’t be completed with typical PLE features before you continue to build your rules.
@@ -34,27 +37,27 @@ If you are using selections in a PLE to drive actions, make sure to note the dif
 
 For example: A user creates a multi-select picklist field with four options.
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-four-options.png)
+\[Omitted image "cpq-picklist-field-four-options.png"\] Alt text: Picklists and picklist extensions in rules
 
 Suppose the condition of a rule \(in this case, a determination action\) is set to fire if the multi-select field equals multi option 4.
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-equals.png)
+\[Omitted image "cpq-picklist-field-equals.png"\] Alt text: Picklists and picklist extensions in rules
 
 If the end user selects only multi option 4, the rule fires:
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-fires.png)
+\[Omitted image "cpq-picklist-field-fires.png"\] Alt text: Picklists and picklist extensions in rules
 
 If the end user selects multi option 3 and multi option 4, the rule does not fire:
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-does-not-fire.png)
+\[Omitted image "cpq-picklist-field-does-not-fire.png"\] Alt text: Picklists and picklist extensions in rules
 
 On the other hand, if the condition is set to fire if the multi-select field contains option 4, it fires in both instances.
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-contains-option-4.png)
+\[Omitted image "cpq-picklist-field-contains-option-4.png"\] Alt text: Picklists and picklist extensions in rules
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-fires-both-instances-1.png)
+\[Omitted image "cpq-picklist-field-fires-both-instances-1.png"\] Alt text: Picklists and picklist extensions in rules
 
-![Picklists and picklist extensions in rules](../images/cpq-picklist-field-fires-both-instances-2.png)
+\[Omitted image "cpq-picklist-field-fires-both-instances-2.png"\] Alt text: Picklists and picklist extensions in rules
 
 ## How PLE filters interact with exclusion rules
 
@@ -92,9 +95,9 @@ For other manipulations with the multi-select picklist array in advanced functio
 
 ## Additional reading
 
-For an overview of the picklist extension feature, see [Picklist extensions](cpq-picklist-extensions-ples.md).
+For an overview of the picklist extension feature, see [Picklist extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-picklist-extensions-ples.md).
 
-For a deeper understanding of the back end and how to display PLEs, see [Displaying a picklist extension on a layout](csv_layouts_how_do_i_display_a_picklist_extension.md).
+For a deeper understanding of the back end and how to display PLEs, see [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md).
 
-For an overview of the Picklist Extension Pricing enrichment feature, see [The Picklist Extension Pricing enrichment](picklist-extension-pricing-scripts.md).
+For an overview of the Picklist Extension Pricing enrichment feature, see [The Picklist Extension Pricing enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/picklist-extension-pricing-scripts.md).
 

@@ -2,6 +2,7 @@
 title: Automated Test Framework Test API - ServiceNow Fluent
 description: The Automated Test Framework Test API defines automated tests \[sys\_atf\_test\] that you can run to confirm that your instance works after making a change.Create an automated test \[sys\_atf\_test\] containing a series of steps to execute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/atf-test-now-ts.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -17,14 +18,14 @@ The Automated Test Framework Test API defines automated tests \[sys\_atf\_test\]
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about Automated Test Framework tests, see [Automated Test Framework \(ATF\)](../../../administer/auto-test-framework/concept/atf-landing-page.md).
+For general information about Automated Test Framework tests, see [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](../concept/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
 
 ## Test object
 
@@ -52,7 +53,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -132,7 +133,7 @@ The steps of the test. Test steps are passed as statements within the atf functi
 }
 ```
 
-For more information about test steps, see [Supported test steps](atf-test-now-ts.md#section_q5c_qmp_ccc).
+For more information about test steps, see [Supported test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/atf-test-now-ts.md).
 
 </td></tr><tr><td>
 
@@ -200,7 +201,7 @@ Test({
 
 ### Supported test steps
 
-The following test steps are supported. For information about step properties, see the [Automated Test Framework \(ATF\) test step categories](../../../administer/auto-test-framework/reference/test-step-categories.md) documentation.
+The following test steps are supported. For information about step properties, see the [Automated Test Framework \(ATF\) test step categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-step-categories.md) documentation.
 
 **Note:** Some fields available for test steps on forms aren't available as properties in ServiceNow Fluent.
 
@@ -214,7 +215,7 @@ Steps
 
 </th></tr></thead><tbody><tr><td>
 
-[Application Navigator category](../../../administer/auto-test-framework/reference/test-steps-app-navigator-category.md#)
+[Application Navigator category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md)
 
 </td><td>
 
@@ -224,7 +225,7 @@ Steps
 
 </td></tr><tr><td>
 
-[Email category](../../../administer/auto-test-framework/reference/test-steps-email-category.md#)
+[Email category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-email-category.md)
 
 </td><td>
 
@@ -237,7 +238,7 @@ Steps
 
 </td></tr><tr><td>
 
-[Form category](../../../administer/auto-test-framework/reference/test-steps-form-category.md#)
+[Form category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-form-category.md)
 
 </td><td>
 
@@ -256,7 +257,7 @@ Steps
 
 </td></tr><tr><td>
 
-[Forms in Service Portal category](../../../administer/auto-test-framework/reference/test-steps-forms-portal-category.md#)
+[Forms in Service Portal category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-forms-portal-category.md)
 
 </td><td>
 
@@ -272,7 +273,7 @@ Steps
 
 </td></tr><tr><td>
 
-[Quick start tests for Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/quick-start-tests-dashboards.md)
+[Quick start tests for Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/quick-start-tests-dashboards.md)
 
 </td><td>
 
@@ -281,7 +282,7 @@ Steps
 
 </td></tr><tr><td>
 
-[REST category](../../../administer/auto-test-framework/reference/test-steps-rest-category.md#)
+[REST category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-rest-category.md)
 
 </td><td>
 
@@ -298,7 +299,7 @@ Steps
 
 </td></tr><tr><td>
 
-[Server category](../../../administer/auto-test-framework/reference/test-steps-server-category.md#)
+[Server category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-server-category.md)
 
 </td><td>
 
@@ -319,7 +320,7 @@ Steps
 
 </td></tr><tr><td>
 
-[Service Catalog category](../../../administer/auto-test-framework/reference/test-steps-service-catalog-category.md#)
+[Service Catalog category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-service-catalog-category.md)
 
 </td><td>
 
@@ -336,7 +337,7 @@ Steps
 
 </td></tr><tr><td>
 
-[Service Catalog in Service Portal category](../../../administer/auto-test-framework/reference/test-steps-catalog-portal-category.md#)
+[Service Catalog in Service Portal category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-catalog-portal-category.md)
 
 </td><td>
 

@@ -2,13 +2,14 @@
 title: Duplicate a status report in Project Workspace
 description: Save time by duplicating an existing status report to copy all the project details without having to copy the information manually in the Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/duplicate-status-report-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a status report in Project Workspace, Managing projects with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Duplicate a status report in Project Workspace
@@ -21,7 +22,7 @@ Role required: it\_project\_manager
 
 ## Procedure
 
-1.  [Create a status report in Project Workspace](create-a-status-report-in-project-workspace.md).
+1.  [Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md).
 
     The status report appears with the data and information that you entered populated.
 
@@ -29,7 +30,7 @@ Role required: it\_project\_manager
 
     The changes you make to the status report here are saved to the status report in the Project Workspace and also get saved to the underlying status report record, which you access from the status report related list in Projects form.
 
-3.  Select the More actions icon \(![More actions icon.](../../alignment-planner-workspace/images/more-actions.png)\) of the status report that you want to copy and then select **Duplicate status report**.
+3.  Select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon.\) of the status report that you want to copy and then select **Duplicate status report**.
 
     -   The duplicated report displays the latest project status and metrics.
     -   Any static or manually added information from the original report is retained in the duplicated version.
@@ -37,18 +38,18 @@ Role required: it\_project\_manager
     The new status report is added to the same location as the original status report.
 
 
-**Parent Topic:**[Create a status report in Project Workspace](create-a-status-report-in-project-workspace.md)
+**Parent Topic:**[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 
 **Related topics**  
 
 
-[Status reporting in Project Workspace](../concept/status-reporting-in-pw.md)
+[Status reporting in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/status-reporting-in-pw.md)
 
-[Analyze the status report in Project Workspace](view-status-report-in-project-workspace.md)
+[Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-status-report-in-project-workspace.md)
 
-[Import old project status report to Project Workspace](import-old-status-reports.md)
+[Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Add dynamic content to status report in Project Workspace](add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 
-[Create a status report template in Project Workspace](create-a-status-report-template-project-workspace.md)
+[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 

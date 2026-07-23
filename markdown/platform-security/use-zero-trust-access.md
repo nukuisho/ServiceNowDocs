@@ -2,6 +2,7 @@
 title: Tutorial: Use Zero Trust Access
 description: Procedure to use Zero Trust Access feature with an end-to-end use case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/use-zero-trust-access.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -67,7 +68,7 @@ The following procedure explains an end-to-end configuration of session access c
 
     4.  Choose Action as **Limit To Roles**.
 
-        If the Policy is true, then only the selected roles and their associated child roles are available for the user when trying to log in to the instance.![Limited role.](../images/role-limited.png)
+        If the Policy is true, then only the selected roles and their associated child roles are available for the user when trying to log in to the instance.\[Omitted image "role-limited.png"\] Alt text: Limited role.
 
     5.  Select **Submit**.
 
@@ -77,7 +78,7 @@ The following procedure explains an end-to-end configuration of session access c
 
     After logging in, the user is displayed with the following error message on the platform in their profile section:
 
-    ![Error message after login.](../images/error-message-upon-login.png)
+    \[Omitted image "error-message-upon-login.png"\] Alt text: Error message after login.
 
     The user can contact the administrators and provide the Correlation ID for investigation.
 

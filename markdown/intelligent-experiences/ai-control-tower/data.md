@@ -1,7 +1,8 @@
 ---
-title: Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower
-description: Explore the Data sharing, Data processing, and Security &amp; privacy sections.
+title: Data sharing, processing, and security in AI Control Tower
+description: Explore the Data sharing, processing, and Security &amp; privacy sections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/data.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -12,21 +13,21 @@ keywords: [Now Assist, generative AI]
 breadcrumb: [Configurations, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower
+# Data sharing, processing, and security in AI Control Tower
 
-Explore the Data sharing, Data processing, and Security &amp; privacy sections.
+Explore the Data sharing, processing, and Security &amp; privacy sections.
 
-The section focuses on improving AI models, managing datacenter traffic, and enabling metrics to measure the integrity of your data model and monitor potential threats in large language model \(LLM\) input and output.
+These settings help you improve AI models, manage datacenter traffic, and enabling metrics to measure the integrity of your data model and monitor potential threats in large language model \(LLM\) input and output.
 
 ## Data sharing
 
-By default, Data sharing is active. You can opt out to deactivate AI Control Tower and share your data with ServiceNow to improve AI accuracy, enhance user experiences, and gain a better understanding of business needs.
+By default, Data sharing is active. You can opt out to share your data with ServiceNow to improve AI accuracy, enhance user experiences, and gain a better understanding of business needs.
 
-![Data sharing on the Configurations screen.](../image/aict-data-sharing.png)
+\[Omitted image "aict-data-sharing.png"\] Alt text: Data sharing on the Configurations screen.
 
 Data sharing helps enhance ServiceNow products, but if you choose to opt out of the ServiceNow data sharing program, you’ll no longer be able to contribute data to improve ServiceNow AI products.
 
-For information on data sharing opt-out, see [Opt out of data sharing](https://www.servicenow.com/docs/bundle/zurich-intelligent-experiences/page/administer/now-assist-admin/task/opt-out-of-data-sharing-for-now-assist.html).
+For information on data sharing opt-out, see [Opt out of data sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 ## Data overflow processing
 
@@ -38,7 +39,7 @@ By default, all Now Assist traffic is managed within ServiceNow datacenters. If 
 
 -   **Data integrity incident detection**
 
-    These configuration settings control the Data integrity incident detection chart, which is designed to help show potential violations of certain LLM guardrail policies in LLM responses. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, deselect **Active**.
+    These configuration settings control the Data integrity incident detection chart, which is designed to help show potential violations of certain LLM guardrail policies in LLM responses. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, clear **Active**.
 
     **Note:** If you inactivate the chart, past data shows on the chart for 90 days.
 
@@ -50,7 +51,7 @@ By default, all Now Assist traffic is managed within ServiceNow datacenters. If 
     -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 -   **Agent goal deviation**
 
-    These configuration settings control the Agent goal deviation chart, which shows when AI agents may be deviating from their intended role or objective. For example, unauthorized actions or prompt injection attempts. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, deselect **Active**.
+    These configuration settings control the Agent goal deviation chart, which shows when AI agents may be deviating from their intended role or objective. For example, unauthorized actions or prompt injection attempts. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, clear **Active**.
 
     **Note:** If you inactivate the chart, past data shows on the chart for 90 days. Due to the probabilistic nature of the data model, not all occurrences may be identified.
 
@@ -61,7 +62,7 @@ By default, all Now Assist traffic is managed within ServiceNow datacenters. If 
     -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the AI agent's or skill's response diverges from the expected output. Multiple analysis uses the results from 3 or more LLMs to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 -   **Output screening**
 
-    These configuration settings control the AI agent output with PII detected and Agentic output injection detection charts, which show when agents' LLM output contains potential PII or potential security-vulnerable patterns. To show data for these charts on the dashboard, select **Configure**, select **Active**, and then select a setting for the data to collect. If you want to discontinue collecting data for the charts, deselect **Active**.
+    These configuration settings control the AI agent output with PII detected and Agentic output injection detection charts, which show when agents' LLM output contains potential PII or potential security-vulnerable patterns. To show data for these charts on the dashboard, select **Configure**, select **Active**, and then select a setting for the data to collect. If you want to discontinue collecting data for the charts, clear **Active**.
 
     **Note:** If you inactivate the charts, past data collected shows on the charts for 90 days.
 
@@ -72,12 +73,12 @@ By default, all Now Assist traffic is managed within ServiceNow datacenters. If 
     -   **Output PII Violation** – Collect and show data in the AI agent output with PII detected chart. The data is collected by analyzing LLM output for potential PII sensitive data patterns specified in Data Privacy. For example, U.S. phone number or credit card number.
 -   **Sensitive data input and anonymization**
 
-    This section shows the data patterns enabled in Data Privacy to detect and anonymize information in LLM prompts. Use this view as a quick reference when troubleshooting Sensitive data detected and Sensitive data anonymized charts. This feature requires the Data privacy plugin to be installed. For more information on how the data is sent and stored, see [User data usage policy for Now Assist](https://www.servicenow.com/docs/bundle/australia-intelligent-experiences/page/administer/now-assist-admin/concept/user-data-usage-policy-now-assist.html).
+    This section shows the data patterns enabled in Data Privacy to detect and anonymize information in LLM prompts. Use this view as a quick reference when troubleshooting Sensitive data detected and Sensitive data anonymized charts. This feature requires the Data privacy plugin to be installed. For more information on how the data is sent and stored, see [User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/user-data-usage-policy-now-assist.md).
 
 -   **Score weight**
 
     This setting controls how the LLM guardrail categories that comprise the score are weighted. You can change the default weights or remove categories from the score by deactivating them. The score formula is an average across all managed AI assets.
 
-    ![AI asset security score configuration with default weights shown.](../image/sp-tab-ai-score-config.png)
+    \[Omitted image "sp-tab-ai-score-config.png"\] Alt text: AI asset security score configuration with default weights shown.
 
 

@@ -2,6 +2,7 @@
 title: Update iteration details in EAP
 description: Edit details of a PI or a Sprint to update details such as name, team capacity, committed points.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -17,7 +18,7 @@ Edit details of a PI or a Sprint to update details such as name, team capacity, 
 
 ## Before you begin
 
-[Create next PI and Sprint from EAP Backlog](create-pi-sprint-eap-backlog.md).
+[Create next PI and Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -31,15 +32,15 @@ Role required: sn\_apw\_advanced.eap\_user
 
 4.  From the side panel, edit details such as Name, Capacity, Committed points and others.
 
-    ![Sprint details in the side panel in EAP.](../images/eap-edit-sprint.png)
+    \[Omitted image "eap-edit-sprint.png"\] Alt text: Sprint details in the side panel in EAP.
 
 5.  Save changes by selecting **Save**.
 
 
-**Parent Topic:**[Manage team backlog in EAP](../concept/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 
 **Related topics**  
 
 
-[Schedule work items into iterations in EAP Backlog](schedule-work-items-into-iterations-in-eap-backlog.md)
+[Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md)
 

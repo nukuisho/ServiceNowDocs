@@ -2,6 +2,7 @@
 title: Summarize a purchase order by using Now Assist for Common Finance and Supply Chain features in Source-to-Pay Workspace
 description: As a fulfiller, summarize purchase orders and keep fulfillers informed of their status, progress, and required actions by using the Purchase order summarization for fulfillers skill in the Now Assist for Common Finance and Supply Chain features application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-summarize-po.html
 release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
@@ -30,7 +31,7 @@ You can use these record summarization skill in either Core UI or Source-to-Pay 
 
 1.  Navigate to **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\).
 
 3.  Navigate to **Lists** &gt; **Orders** &gt; **All purchase orders**.
 
@@ -38,7 +39,7 @@ You can use these record summarization skill in either Core UI or Source-to-Pay 
 
 5.  On the Details tab, in the Record summary section, select **Summarize**.
 
-    ![Summarize option that appears at the top of the purchase order record in Source-to-Pay Workspace.](../image/purchase-order-summarize.png)
+    \[Omitted image "purchase-order-summarize.png"\] Alt text: Summarize option that appears at the top of the purchase order record in Source-to-Pay Workspace.
 
 6.  When you opt to summarize a purchase order, you see the following message:
 
@@ -48,22 +49,22 @@ You can use these record summarization skill in either Core UI or Source-to-Pay 
 
 7.  Review the summary details.
 
-    A concise summary of a purchase order, including the overview, actions completed, and next steps.![Summarized procurement order.](../image/purchase-order-summarized.png)
+    A concise summary of a purchase order, including the overview, actions completed, and next steps.\[Omitted image "purchase-order-summarized.png"\] Alt text: Summarized procurement order.
 
     -   **Overview**: Provides information about the record.
     -   **Actions completed**: Lists all the actions that have been taken so far.
     -   **Next steps**: Lists the actions that the fulfillers need to take next.
 8.  When you finish summarizing a record, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d102734e211">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d68386e211">
 
 Option
 
-</th><th align="left" id="d102734e214">
+</th><th align="left" id="d68386e214">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d102734e220">
+</th></tr></thead><tbody><tr><td id="d68386e220">
 
 **Save the summary information by adding it to the record work notes**
 
@@ -71,61 +72,61 @@ Procedure
 
 1.  Select **Share**.
 2.  In the Share to work notes dialog box, edit the summary.
-3.  Select **Save to work notes**.![Save work notes for purchase order summarization.](../image/purchase-order-share-notes.png)
+3.  Select **Save to work notes**.\[Omitted image "purchase-order-share-notes.png"\] Alt text: Save work notes for purchase order summarization.
 
 
-</td></tr><tr><td id="d102734e252">
+</td></tr><tr><td id="d68386e252">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../image/icon-collapse.png)\) to see more details or fewer summary details.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d102734e273">
+</td></tr><tr><td id="d68386e273">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
+If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d102734e296">
+</td></tr><tr><td id="d68386e296">
 
 **Copy the record summary**
 
 </td><td>
 
-Select the copy to clipboard icon \(![Copy to clipboard icon.](../../supplier-lifecycle-operations/image/icon-copy.png)\) to use the record summary information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d102734e312">
+</td></tr><tr><td id="d68386e312">
 
 **View the information about the record summary**
 
 </td><td>
 
-If you want to check some details about the summary, select the more info icon \(![More info icon.](../image/icon-more-info.png)\).
+If you want to check some details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d102734e327">
+</td></tr><tr><td id="d68386e327">
 
 **Refresh the record summary**
 
 </td><td>
 
-If you want to refresh the summary, select the refresh icon \(![Refresh icon.](../image/icon-refresh.png)\).
+If you want to refresh the summary, select the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon.\).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for Common Finance and Supply Chain features](../concept/now-assist-fsc-using.md)
+**Parent Topic:**[Using Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-using.md)
 
 **Related topics**  
 
 
-[Categorize inquiry cases](../../accounts-payable-operations/task/categorize-inquiry-cases.md)
+[Categorize inquiry cases]()
 
-[Use Now Assist for Sourcing and Procurement Operations \(SPO\)](../concept/now-assist-spo-using.md)
+[Use Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
-[Use Now Assist for Supplier Lifecycle Operations \(SLO\)](../../supplier-lifecycle-operations/concept/now-assist-slo-using.md)
+[Use Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-using.md)
 
-[Using Now Assist for Accounts Payable Operations \(APO\)](../../accounts-payable-operations/concept/using-now-assist-apo.md)
+[Using Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.md)
 

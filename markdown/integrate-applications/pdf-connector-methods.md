@@ -2,11 +2,12 @@
 title: PDF connector methods
 description: Accelerate PDF processing for your document automation by using the various methods of PDF connector in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/pdf-connector-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [PDF connector, Connectors, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [PDF connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # PDF connector methods
@@ -369,5 +370,5 @@ Call this method with the output folder path where the split PDF pages must be s
 |---------|-----------|---------|
 |OutputFolderPath|The path to the folder where the split PDF pages are saved. Ensure the folder exists or has appropriate permissions for writing files.|String|
 
-**Parent Topic:**[PDF connector](pdf-connector.md)
+**Parent Topic:**[PDF connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/pdf-connector.md)
 

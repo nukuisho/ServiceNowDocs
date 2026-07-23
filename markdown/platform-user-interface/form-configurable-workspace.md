@@ -2,6 +2,7 @@
 title: Forms
 description: Learn about the components in UI Builder that enable admins to create and customize forms for a Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/form-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,13 +16,13 @@ Learn about the components in UI Builder that enable admins to create and custom
 
 ## Forms overview
 
-A [form](../configurable-workspace-glossary.md#) is a content page that displays fields and values for a single record from a database table.
+A [form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configurable-workspace-glossary.md) is a content page that displays fields and values for a single record from a database table.
 
 Within a Configurable Workspace record, the form enables agents to view, enter, and update details about the record.
 
 For example, an agent can update the short description, priority, assignment group, and status within an incident record form.
 
-![Form on a Configurable Workspace record](../image/configurable-workspace-form-record.png)
+\[Omitted image "configurable-workspace-form-record.png"\] Alt text: Standard record page screenshot with the form highlighted
 
 ## Form component bundle
 
@@ -33,7 +34,7 @@ The Form component bundle is configured and customized by admins in UI Builder. 
 
 ## Related lists
 
-While the form displays field-level data for a single record, [related lists](../configurable-workspace-glossary.md#) show records from other tables that are linked to the current record like tasks or associated incidents.
+While the form displays field-level data for a single record, [related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configurable-workspace-glossary.md) show records from other tables that are linked to the current record like tasks or associated incidents.
 
 The standard record page template in UI Builder often displays related lists as tabs alongside the form that provides details about a record.
 

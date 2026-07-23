@@ -2,6 +2,7 @@
 title: Generate summary and ask questions using Now Assist in Document Management
 description: Generate summary and ask questions to gain quick insights from your documents by using Now Assist in Document Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/ask-questions-faqs-now-assist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Generate summary and ask questions to gain quick insights from your documents by
 
 ## Before you begin
 
-Configure the smart document skill. For more information, see [Configure the Smart Documents Skill for Now Assist in Document Management](configure-skill-smart-documents.md).
+Configure the smart document skill. For more information, see [Configure the smart documents skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-skill-smart-documents.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
@@ -35,10 +36,10 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
     The document insights is generated based on the question.
 
-5.  Copy the response by selecting the copy icon ![copy icon](../image/icon-copy-icon.png).
+5.  Copy the response by selecting the copy icon \[Omitted image "icon-copy-icon.png"\] Alt text: copy icon.
 
     The responses are copied and can easily be shared across emails, reports, or collaboration tools.
 
-6.  Provide feedback on whether the result is helpful or not by selecting the liked icon ![liked icon](../../../administer/virtual-agent/images/llm-thumbs-up-like.png) or the not liked icon ![not liked icon](../../../administer/virtual-agent/images/llm-thumbs-down-dislike.png).
+6.  Provide feedback on whether the result is helpful or not by selecting the liked icon \[Omitted image "llm-thumbs-up-like.png"\] Alt text: liked icon or the not liked icon \[Omitted image "llm-thumbs-down-dislike.png"\] Alt text: not liked icon.
 
 

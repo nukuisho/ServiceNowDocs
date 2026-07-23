@@ -1,19 +1,20 @@
 ---
 title: Properties of Azure Foundry
-description: System properties for AI Service Graph Connector for Azure Foundry.
+description: System properties for AI Service Graph Connector for Azure AI Foundry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/properties-of-azure.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create AI connection for Azure Foundry, Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Properties of Azure Foundry
 
-System properties for AI Service Graph Connector for Azure Foundry.
+System properties for AI Service Graph Connector for Azure AI Foundry.
 
 <table id="table_fzn_bjj_m3c"><thead><tr><th>
 
@@ -46,6 +47,16 @@ Number of days to look back for usage data on first run \(when no last\_success\
 Default value: 30
 
 Location: System Property \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_ai\_msft\_integ.microsoft\_partition\_size
+
+</td><td>
+
+When we want to discover on large number of resources.Type: Integer
+
+Default value: 10
 
 </td></tr></tbody>
 </table>

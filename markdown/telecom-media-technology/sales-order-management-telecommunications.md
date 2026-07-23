@@ -2,6 +2,7 @@
 title: Exploring Sales CRM for Telecommunications
 description: Learn how the ServiceNow Sales CRM for Telecommunications application can help your organization manage the sales-to-fulfillment cycle for your customers. By adopting an integrated approach to quoting, ordering, and service delivery, you can increase operational efficiency and improve your customer experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/sales-order-management-telecommunications.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,5 +40,5 @@ The Sales CRM for Telecommunications application includes the following capabili
 |Configure, price, and quote \(CPQ\)|Guides agents to build service combinations with catalogs that support complex product bundles, subscriptions, and usage-based pricing. Shortens sales cycles and increases win rates while protecting margins.|
 |Order management|Automates order fulfillment from sale to service activation with intelligent workflows that coordinate across systems. Activates services faster while eliminating revenue loss from failed orders.|
 |Renewal workflows|Provides a complete view of services and subscriptions with automated renewal workflows for proactive outreach. Protects recurring revenue by identifying renewal risks early and surfacing expansion opportunities.|
-|Industry aligned \(TMF APIs\)| |
+|Industry aligned \(TMF APIs\)|Get the details of ServiceNow® implementation of TM Forum \(TMF\) APIs for Telecommunications, Media, and Technology \(TMT\) products.|
 

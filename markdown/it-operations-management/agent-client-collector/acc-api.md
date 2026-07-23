@@ -2,6 +2,7 @@
 title: Agent Client Collector API
 description: Use the Agent Client Collector \(ACC\) API to create a flow that executes an osquery command on agents and processes the results. By leveraging the ACC API, you can automate the querying of agent data and streamline the processing of results, making it easier to monitor and manage system performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-api.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -26,7 +27,7 @@ The ACC API enables seamless integration and automation for executing queries an
 
 For details on agent APIs, see [Enable agent APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/AccAgentsAPIAPIScoped.md).
 
-For details on enabling policy APIs, see [Enable policy APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agnt_clnt_cll-api.md).
+For details on enabling policy APIs, see [Enable policy APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/agnt_clnt_cll-api.md).
 
-**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

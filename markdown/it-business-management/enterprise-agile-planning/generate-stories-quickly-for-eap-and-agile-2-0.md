@@ -2,6 +2,7 @@
 title: Generate a story from an epic using Now Assist for SPM in EAP
 description: Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and Now Assist generates a story title, description, and acceptance criteria that you can review and edit before saving.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -17,7 +18,7 @@ Generate a complete user story directly from an epic using Quick story generatio
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Important:** Quick story generation is only available if the following two skills are active:
 
@@ -30,7 +31,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
 ## About this task
 
-AI quick story generation in EAP 
+\[Omitted video\] Description: AI quick story generation in EAP
 
 ## Procedure
 
@@ -50,7 +51,7 @@ AI quick story generation in EAP
 
 7.  Select **Generate**.
 
-    ![Generate story modal with a Story context field to enter details.](../images/eap-na-quick-story.png)
+    \[Omitted image "eap-na-quick-story.png"\] Alt text: Generate story modal with a Story context field to enter details.
 
     Now Assist generates a story title, description, and acceptance criteria based on the epic context and the input you provided.
 
@@ -58,7 +59,7 @@ AI quick story generation in EAP
 
     All fields are editable. You can modify, add to, or remove generated content in the title, description, and acceptance criteria fields.
 
-    ![AI recommended story with detailed description and acceptance criteria.](../images/eap-na-quick-story-preview.png)
+    \[Omitted image "eap-na-quick-story-preview.png"\] Alt text: AI recommended story with detailed description and acceptance criteria.
 
 9.  Select **Save story**.
 
@@ -67,16 +68,16 @@ AI quick story generation in EAP
 
 ## What to do next
 
-To further refine the story after saving, open the story record and select **Generate acceptance criteria** to regenerate or update the acceptance criteria using Now Assist. For more information, see [Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)](eap-generate-acceptance-criteria-for-stories.md).
+To further refine the story after saving, open the story record and select **Generate acceptance criteria** to regenerate or update the acceptance criteria using Now Assist. For more information, see [Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md).
 
-**Parent Topic:**[Manage team backlog in EAP](../../spw-eap/concept/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
 **Related topics**  
 
 
-[Generate multiple stories at once in EAP using Now Assist for SPM](generate-stories-from-epics-now-assist-eap.md)
+[Generate multiple stories at once in EAP using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md)
 
-[Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)](eap-generate-acceptance-criteria-for-stories.md)
+[Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)
 

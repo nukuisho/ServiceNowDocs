@@ -2,6 +2,7 @@
 title: Configure an embedded list for a record screen
 description: Create an embedded list that you can include as in a record screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/create-embedded-list-1.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,19 +28,19 @@ Role required: admin
 
     The Mobile App Builder categories home screen displays.
 
-3.  Select the **Screens** category and then select a record screen.![Record screen segments section of a record screen](../image/record-screen-seg-section.png)
+3.  Select the **Screens** category and then select a record screen.\[Omitted image "record-screen-seg-section.png"\] Alt text: Record screen segments section of a record screen
 
     **Note:** You can also create a new screen segment for your list by clicking the **New** button.
 
 4.  In the **Record screen segments** section of the record screen control panel, select the screen segment where you want to add an embedded list.
 
-5.  In the **Embedded screen** section, click **Choose** to select a screen to embed.![Embedded screen section](../image/embedded-screen-section.png)
+5.  In the **Embedded screen** section, click **Choose** to select a screen to embed.\[Omitted image "embedded-screen-section.png"\] Alt text: Embedded screen section
 
-    **Note:** You can also click the **New** button create a new screen. For details on creating screens, see [Create a screen](sg-studio-configure-applet-screens.md).
+    **Note:** You can also click the **New** button create a new screen. For details on creating screens, see [Create a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-configure-applet-screens.md).
 
 6.  Find the screen to embed in the **Choose an item** pop-up and click **Apply**.
 
-    **Warning:** A list section can only have one embedded screen. If one is already assigned, the **Choose** and **New** buttons appear disabled. To add a new embedded list, you must remove the existing one by clicking the remove \(![Remove icon](../image/remove-icon.png)\) icon to the right of the current embedded list.
+    **Warning:** A list section can only have one embedded screen. If one is already assigned, the **Choose** and **New** buttons appear disabled. To add a new embedded list, you must remove the existing one by clicking the remove \(\[Omitted image "remove-icon.png"\] Alt text: Remove icon\) icon to the right of the current embedded list.
 
 7.  Click **Save** in the upper right corner of the screen to save your record screen.
 
@@ -50,5 +51,5 @@ Your form is configured with an embedded list. Your users can access this list o
 
 ## What to do next
 
-To learn more about relationship data items used for embedded lists, see [Configure a relationship data item for an embedded list](sg-data-item-relationship.md).
+To learn more about relationship data items used for embedded lists, see [Configure a relationship data item for an embedded list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-data-item-relationship.md).
 

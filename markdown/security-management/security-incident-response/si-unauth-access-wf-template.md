@@ -2,6 +2,7 @@
 title: Security Incident Unauthorized Access workflow template
 description: The Security Incident - Unauthorized Access - Template allows you to perform a series of tasks designed to handle unauthorized access to your network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/si-unauth-access-wf-template.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,11 +24,11 @@ Role required: sn\_si.write
 
 The workflow is triggered when the **Category** in a security incident is set to **Unauthorized access**. This action causes a response task to be created for the first activity in the workflow.
 
-![Unauthorized access workflow template](../image/unauthorized-access.png "Unauthorized access")
+\[Omitted image "unauthorized-access.png"\] Alt text: Unauthorized access workflow template
 
 ## Procedure
 
-1.  Open the security incident for this potential attack, or [create a new security incident](../../security-incident-response/task/t_ManuallyCreateSecurityIncident.md).
+1.  Open the security incident for this potential attack, or [create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
 
 2.  In **Category**, select **Unauthorized access**.
 
@@ -137,28 +138,28 @@ The **State** of the security incident is changed automatically to **Review**, a
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Security Incident Response workflow templates](../concept/sir-orch-workflow-templates.md)
+**Parent Topic:**[Security Incident Response workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-orch-workflow-templates.md)
 
 **Related topics**  
 
 
-[Security Incident Confidential Data Exposure workflow template](si-confidential-data-exposure-template.md)
+[Security Incident Confidential Data Exposure workflow template]()
 
-[Security Incident Denial of Service workflow template](si-denial-of-service-template.md)
+[Security Incident Denial of Service workflow template]()
 
-[Security Incident Lost Equipment workflow template](si-lost-equip-template.md)
+[Security Incident Lost Equipment workflow template]()
 
-[Security Incident Malicious Software workflow template](si-malic-sftwr-template.md)
+[Security Incident Malicious Software workflow template]()
 
-[Security Incident Phishing workflow template](si-phishing-template.md)
+[Security Incident Phishing workflow template]()
 
-[Security Incident Policy Violation workflow template](si-policy-violation-template.md)
+[Security Incident Policy Violation workflow template]()
 
-[Security Incident Reconnaissance workflow template](si-recon-wf-template.md)
+[Security Incident Reconnaissance workflow template]()
 
-[Security Incident Rogue Server or Service workflow template](si-rogue-wf-template.md)
+[Security Incident Rogue Server or Service workflow template]()
 
-[Security Incident Spam workflow template](si-spam-template.md)
+[Security Incident Spam workflow template]()
 
-[Security Incident Web/BBS Defacement workflow template](si-web-defacement-template.md)
+[Security Incident Web/BBS Defacement workflow template]()
 

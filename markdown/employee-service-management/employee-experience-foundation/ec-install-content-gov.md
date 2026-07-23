@@ -2,6 +2,7 @@
 title: Activate Content Governance
 description: You can install the Content Governance application \(sn\_cg\) to provide a streamlined method for employees to request content to be created for Content Publishing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-install-content-gov.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -32,7 +33,7 @@ Activate these plugins:
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -52,7 +53,7 @@ Activate these plugins:
 **Related topics**  
 
 
-[Components installed with Content Governance](../reference/ec-installed-content-governance.md)
+[Components installed with Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-installed-content-governance.md)
 
-[Managing content requests](../concept/ec-content-governance.md)
+[Managing content requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-governance.md)
 

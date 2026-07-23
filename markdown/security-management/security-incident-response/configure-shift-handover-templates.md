@@ -2,6 +2,7 @@
 title: Configure Shift Handover Templates
 description: The Admin can define and configure different Shift Handover templates for the Shift Owner to create shift handover records and hand them over to the next shift team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-shift-handover-templates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -40,7 +41,7 @@ The Shift Owner can use the configured template to create Shift Handover log rec
 
     **Note:** As a part of the base system, you’re provided with one predefined Shift Handover template configuration to view, edit, or modify the shift handover template. However, you can’t create or delete the predefined Shift Handover template configuration.
 
-    ![Shift Handover Template Configurations](../image/shift-handover-landing.png "Shift Handover Template Configurations")
+    \[Omitted image "shift-handover-landing.png"\] Alt text: Shift Handover Template Configurations
 
 3.  To create a new Shift Handover template, select **New**.
 
@@ -153,7 +154,7 @@ ${section:References}
 </td></tr></tbody>
 </table>5.  To use and modify an existing Shift Handover template, select **Sample Shift Template**.
 
-    ![Create a new Shift Handover template](../image/shift-handover-template.png "Shift Handover template")
+    \[Omitted image "shift-handover-template.png"\] Alt text: Create a new Shift Handover template
 
 6.  Update the Shift Handover template according to your requirements.
 
@@ -161,19 +162,19 @@ ${section:References}
 
     The report generates a preview based on the Shift Handover template configuration.
 
-    ![Preview of the Shift Handover template](../image/shift-handover-preview.png "Preview of the Shift Handover template")
+    \[Omitted image "shift-handover-preview.png"\] Alt text: Preview of the Shift Handover template
 
 8.  Select **Save** to save the Shift Handover template.
 
 
 ## What to do next
 
-To learn how to Manage Shift Handover records in the list view and perform actions like create, edit, copy, or delete Shift Handover records, see [Manage Shift Handover records](../concept/manage-shift-handover-records.md).
+To learn how to Manage Shift Handover records in the list view and perform actions like create, edit, copy, or delete Shift Handover records, see [Manage Shift Handover records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-shift-handover-records.md).
 
-**Parent Topic:**[Configure Shift Handover](../concept/config-shift-handover.md)
+**Parent Topic:**[Configure Shift Handover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/config-shift-handover.md)
 
 **Related topics**  
 
 
-[Create shifts through Security Incident Response Workspace](configure-shift-times.md)
+[Create shifts through Security Incident Response Workspace]()
 

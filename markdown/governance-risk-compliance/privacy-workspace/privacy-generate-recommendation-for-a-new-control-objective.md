@@ -2,6 +2,7 @@
 title: Use Recommendation of similar control objectives skill to generate suggestions
 description: The "Recommendation of similar control objectives" skill generates recommendations by identifying, deduplicating, and rationalizing similar control objectives within the compliance library. This enables identification of redundant control objectives, making it easier to maintain a clean and efficient compliance library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-generate-recommendation-for-a-new-control-objective.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -21,7 +22,7 @@ Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The "Recommendation of similar control objectives" skill generates recommendations based on the similarity parameters configured \(names and description\). The Gen AI searches for similar names and descriptions, which serve as inputs for providing recommendations.
 

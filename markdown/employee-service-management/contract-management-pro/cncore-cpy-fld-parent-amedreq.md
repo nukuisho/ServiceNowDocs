@@ -2,6 +2,7 @@
 title: Copy fields from parent request to amendment request
 description: Configure the ContractManagementExt extension point to automatically copy fields to contract request from the linked parent request and parent contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-cpy-fld-parent-amedreq.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -36,7 +37,7 @@ Role required: admin
 
 5.  On the Script Include form, fill in the fields.
 
-    For a description of the field values, see [Scripted Extension Point form fields](../../legal-request-management/reference/scripted-extension-point-form-fields.md).
+    For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
 6.  In the **Script** field, update the copyDataFromBUToCMR function to configure the fields that you want to copy from the parent record to the contract request.
 
@@ -79,26 +80,28 @@ Role required: admin
 
 When a contract request is initiated, the configured fields are automatically populated with the corresponding values from the associated contract repository record selected while initiating an amendment request.
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](../concept/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace](../concept/cncore-conf-cntrct-wrkspc.md)
+[Configuring Contract Workspace]()
 
-[Configure signature pause duration when modifying signatories](cncore-pause-sig-property.md)
+[Configure signature pause duration when modifying signatories]()
 
-[Auto-populate the start date and end date for contract requests](cncore-conf-start-end-date-for-cntrcts.md)
+[Auto-populate the start date and end date for contract requests]()
 
-[Activate a system property to generate a certificate of completion](cncore-config-system-prop-COC.md)
+[Enable signatory roles]()
 
-[Enable users to view email details in activity stream](cncore-enbl-user-email-astream.md)
+[Activate a system property to generate a certificate of completion]()
 
-[Enable keyword search for contract templates](cncore-enable-search-cont-tmplts.md)
+[Enable users to view email details in activity stream]()
 
-[Configuring contract summarization for Contract Management Pro](cmpro-conf-cntr-summary.md)
+[Enable keyword search for contract templates]()
 
-[Configure conditions to send reminder notifications for expiring contracts](cncore-config-rem-exp-cont.md)
+[Configuring contract summarization for Contract Management Pro]()
 
-[Manage notifications in Contract Management Pro](../concept/cmpro-manage-notifications.md)
+[Configure conditions to send reminder notifications for expiring contracts]()
+
+[Manage notifications in Contract Management Pro]()
 

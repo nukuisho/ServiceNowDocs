@@ -2,9 +2,10 @@
 title: Building applications in source code
 description: Create and develop custom applications in source code using familiar development tools and processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/building-applications-source-code.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-02"
 reading_time_minutes: 5
 breadcrumb: [Building pro-code applications, Developing your application, Building applications]
 ---
@@ -25,11 +26,11 @@ Developing and maintaining applications in source code enables you to work in fa
 
 <table id="table_hmf_wtt_3bc" class="nav-card"><tbody><tr><td>
 
-[ServiceNow IDE![](../../servicenow-ide/image/servicenow-ide-logo.png)Develop applications in code in an IDE on the ServiceNow AI Platform.](../../servicenow-ide/concept/servicenow-ide-landing.md)
+[ServiceNow IDE\[Omitted image "servicenow-ide-logo.png"\] Alt text:Develop applications in code in an IDE on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md)
 
 </td><td>
 
-[ServiceNow SDK![](../../servicenow-sdk/image/servicenow-sdk-logo.png)Develop applications in code locally and upload changes to an instance.](../../servicenow-sdk/concept/servicenow-sdk-landing.md)
+[ServiceNow SDK\[Omitted image "servicenow-sdk-logo.png"\] Alt text:Develop applications in code locally and upload changes to an instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-landing.md)
 
 </td></tr></tbody>
 </table>## Comparison of the ServiceNow IDE and the ServiceNow SDK
@@ -148,18 +149,18 @@ Build Agent
 
 </td><td>
 
-Full support. Build Agent is accessed from a chat panel in the ServiceNow IDE.For information about activation, see [Build Agent](../../build-agent/concept/build-agent.md).
+Full support. Build Agent is accessed from a chat panel in the ServiceNow IDE.For information about activation, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-agent.md).
 
 </td><td>
 
-Not supported
+Build Agent skills are available beginning with ServiceNow SDK version 4.6.0.
 
 </td></tr></tbody>
 </table>## Application structure
 
 Applications created or converted with the ServiceNow IDE or ServiceNow SDK include source code files and metadata XML files. The `package.json` and `now.config.json` files define the application structure, which is similar to that of Node.js applications or Node Package Manager \(npm\) packages.
 
-![Structure of an application created in the ServiceNow IDE](../../servicenow-ide/image/servicenow-ide-app-structure.png "Default structure of an application created in the ServiceNow IDE")
+\[Omitted image "servicenow-ide-app-structure.png"\] Alt text: Structure of an application created in the ServiceNow IDE
 
 By default, applications include the following directories and files. You can modify certain aspects of the application structure to suit your needs in the `now.config.json` file.
 
@@ -246,7 +247,7 @@ now.config.json
 
 </td><td>
 
-File containing the ServiceNow application configuration. The `now.config.json` file must be in the base directory for an application. You can configure aspects of an application by adding support parameters. For more information, see [Custom application configuration in source code](../../servicenow-sdk/reference/app-config-source-code.md).
+File containing the ServiceNow application configuration. The `now.config.json` file must be in the base directory for an application. You can configure aspects of an application by adding support parameters. For more information, see [Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-config-source-code.md).
 
 </td></tr><tr><td>
 
@@ -283,11 +284,11 @@ File containing information about your application and custom or third-party mod
 **Related topics**  
 
 
-[ServiceNow Fluent](../../servicenow-sdk/concept/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
 
-[JavaScript modules and third-party libraries](../../servicenow-sdk/concept/javascript-modules-third-party-libraries.md)
+[JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/javascript-modules-third-party-libraries.md)
 
-[User interface development with React](../../servicenow-sdk/concept/ui-development-react.md)
+[User interface development with React](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-development-react.md)
 
-[Custom application configuration in source code](../../servicenow-sdk/reference/app-config-source-code.md)
+[Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-config-source-code.md)
 

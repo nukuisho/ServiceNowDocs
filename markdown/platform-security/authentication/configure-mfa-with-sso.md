@@ -2,6 +2,7 @@
 title: Configuring MFA with SSO
 description: Enforce MFA with SSO for your users within or outside your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-mfa-with-sso.html
 release: australia
 product: Authentication
 classification: authentication
@@ -17,7 +18,7 @@ Enforce MFA with SSO for your users within or outside your organization.
 
 ## Before you begin
 
-The MFA with SSO feature is offered as a part of the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\). You must enable the Adaptive authentication property for using MFA with SSO feature. To know more on how to set up Adaptive authentication, see [Adaptive authentication](../concept/adaptive-authentication.md).
+The MFA with SSO feature is offered as a part of the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\). You must enable the Adaptive authentication property for using MFA with SSO feature. To know more on how to set up Adaptive authentication, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication.md).
 
 **Note:** MFA with SSO login is available if the **glide.authenticate.mfa.with.multisso.enabled** property is set to **true**.
 
@@ -29,7 +30,7 @@ Role required: adaptive\_auth\_admin, sso\_config\_admin
 
 2.  Enable the **Enable Multi-factor authentication** and **Enable Multi-factor Authentication with SSO** check boxes.
 
-    ![Enable MFA for SSO.](../images/mfa-sso-properties.png)
+    \[Omitted image "mfa-sso-properties.png"\] Alt text: Enable MFA for SSO.
 
 3.  Click **Save**.
 
@@ -37,7 +38,7 @@ Role required: adaptive\_auth\_admin, sso\_config\_admin
 
     The MFA Context form appears.
 
-    ![MFA Auth Context](../images/mfa-auth-context.png)
+    \[Omitted image "mfa-auth-context.png"\] Alt text: MFA Auth Context
 
     **Note:** By default, the policy is **Step-Up MFA Policy**. Users are shown with Multi-factor Authentication if a condition configured in **Step-Up MFA Policy** evaluates to **true**. Policy takes precedence over the user or role-based configuration.
 
@@ -84,7 +85,7 @@ Conditions
 The type of condition that you want to apply for the policy. You can add filter conditions and 'OR' clauses.**Note:** Adding various filter conditions and clauses enables you to challenge MFA for specific users.
 
 </td></tr></tbody>
-</table>    ![Condition - New record](../images/mfa-sso-new-record.png)
+</table>    \[Omitted image "mfa-sso-new-record.png"\] Alt text: Condition - New record
 
     To set up your conditions, consider the following example. Assume that you want the authentication scheme with the identity provider as your condition for external users. You can set the conditions as follows:
 
@@ -101,7 +102,7 @@ The type of condition that you want to apply for the policy. You can add filter 
 **Related topics**  
 
 
-[Adaptive authentication](../concept/adaptive-authentication.md)
+[Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication.md)
 
-[Multi-factor Authentication with Single Sign-On](../concept/mfa-sso.md)
+[Multi-factor Authentication with Single Sign-On](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-sso.md)
 

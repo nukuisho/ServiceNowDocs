@@ -2,6 +2,7 @@
 title: Set map application scope
 description: Enable map application scope to specify which application can modify your Map Page configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-map-application-scope.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,27 +20,27 @@ Role required: admin
 
 ## Procedure
 
-1.  In the banner, select the Application scope icon \(![Scope selector icon.](../image/polaris-scope-selector-icon.png)\).
+1.  In the banner, select the Application scope icon \(\[Omitted image "polaris-scope-selector-icon.png"\] Alt text: Scope selector icon.\).
 
 2.  Select **Application scope: Global**.
 
 3.  From the Application list, select the required application.
 
 
-**Parent Topic:**[Map pages](../concept/c_MapPages.md)
+**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
 
 **Related topics**  
 
 
-[Set up Google Maps API](set-up-google-maps-api.md)
+[Set up Google Maps API]()
 
-[Create a map page](t_CreateAMapPage.md)
+[Create a map page]()
 
-[Create a map page module](create-map-page-module.md)
+[Create a map page module]()
 
-[Create an advanced Map Page](create-advanced-map-page.md)
+[Create an advanced Map Page]()
 
-[Create a smartphone map page module](t_CreateASmartphoneMapPageModule.md)
+[Create a smartphone map page module]()
 
-[Scripting for map pages](../reference/scripting-for-map-pages.md)
+[Scripting for map pages]()
 

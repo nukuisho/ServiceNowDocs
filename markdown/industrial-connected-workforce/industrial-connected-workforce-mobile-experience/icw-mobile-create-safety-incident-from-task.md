@@ -2,6 +2,7 @@
 title: Create a safety incident from a task
 description: Create a safety incident directly from an existing task when you are using the Industrial Connected Workforce Mobile Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-create-safety-incident-from-task.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -17,9 +18,9 @@ Create a safety incident directly from an existing task when you are using the I
 
 ## Before you begin
 
-Role required: sn\_icw.deviation\_user, sn\_icw.rca\_user, sn\_icw.action\_user
+Role required: sn\_icw.safety\_incident\_user, and one of sn\_icw.deviation\_user, sn\_icw.rca\_user, or sn\_icw.action\_user
 
-You must have above the roles to create safety incident from a deviation, from a root cause analysis, and an action respectively.
+You must have the sn\_icw.safety\_incident\_user role to create safety incident from a deviation, from a root cause analysis, and an action respectively.
 
 The task must be active on ICW Mobile application for you to create a safety incident.
 
@@ -46,14 +47,14 @@ The task must be active on ICW Mobile application for you to create a safety inc
 
 The safety incident is created and linked to the originating task. The incident can be viewed in the workspace for detailed triage and investigation.
 
-**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](../concept/using-icw-mobile-experience.md)
+**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
 
 **Related topics**  
 
 
-[Exploring Industrial Connected Workforce Integration with Health and Safety Incident Management](../../icw-digital-factory-workspace/concept/icw-health-and-security-integraton.md)
+[Exploring Industrial Connected Workforce Integration with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/icw-health-and-security-integraton.md)
 
-[Report safety incident from ICW Mobile](icw-mobile-report-safety-incident.md)
+[Report safety incident from ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-report-safety-incident.md)
 
-[Using ICW Health and Safety Integration](../../icw-digital-factory-workspace/concept/using-icw-health-and-safety-integration.md)
+[Using ICW Health and Safety Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-icw-health-and-safety-integration.md)
 

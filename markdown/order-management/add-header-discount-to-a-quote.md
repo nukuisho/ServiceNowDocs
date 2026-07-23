@@ -2,6 +2,7 @@
 title: Add a header discount to a quote
 description: Apply a percentage-based discount to the entire quote, or to a selected type of line items within the quote. The quote line items automatically inherit the designated discount percentage as a manual adjustment on the quote line level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/add-header-discount-to-a-quote.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,13 +20,13 @@ Role required: Sales Agent \[sn\_sales\_common.sales\_agent\]
 
 ## Procedure
 
-1.  In the **Configurable Workspace**, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the **Configurable Workspace**, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
 3.  Select your quote.
 
-4.  In the **Line Items** tab, select the **More Actions** menu ![](../../tmt-telecom-network-inventory/image/options-icon.png) at the header level.
+4.  In the **Line Items** tab, select the **More Actions** menu \[Omitted image "options-icon.png"\] Alt text: at the header level.
 
 5.  Select **Apply bulk discount**.
 
@@ -34,5 +35,5 @@ Role required: Sales Agent \[sn\_sales\_common.sales\_agent\]
 7.  Select **Apply**.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

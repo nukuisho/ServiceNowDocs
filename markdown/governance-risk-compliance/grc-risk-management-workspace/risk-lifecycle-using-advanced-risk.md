@@ -2,6 +2,7 @@
 title: Workflow of a risk using Advanced Risk
 description: When you migrate to advanced risk assessment, you can view the various states of the risks take the necessary actions. This ability simplifies your view of the risk form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-lifecycle-using-advanced-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,7 +28,7 @@ Prior to version 14.0, when the **Migrate to Advanced Risk Assessments** propert
 4.  Monitor
 5.  Retired
 
-![States of a risk with advanced risk assessments enabled.](../../grc-workspace-risk/image/risk-lifecycle-ara.png "States of a risk with advanced risk assessment")
+\[Omitted image "risk-lifecycle-ara.png"\] Alt text: States of a risk with advanced risk assessments enabled.
 
 All the states and the actions available for each state are explained in the following table.
 
@@ -127,12 +128,12 @@ This is the state of the risk when the risk is no longer valid but the organizat
 -   **Navigate to assessment scope**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage risks, risk statements, and risk frameworks](../reference/r_RiskRegister.md)
+</table>**Parent Topic:**[Manage risks, risk statements, and risk frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_RiskRegister.md)
 
 **Related topics**  
 
 
-[Manage risks linked to the same risk statement](manage_risks_linked_to_same_risk_stmnt.md)
+[Manage risks linked to the same risk statement]()
 
-[Risk hierarchy and scoring](../reference/risk-hierarchy-scoring.md)
+[Risk hierarchy and scoring]()
 

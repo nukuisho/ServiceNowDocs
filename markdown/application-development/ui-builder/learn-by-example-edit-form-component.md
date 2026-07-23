@@ -2,6 +2,7 @@
 title: Customize forms within a form component
 description: Customize your form components by accessing Form Builder in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/learn-by-example-edit-form-component.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -33,7 +34,7 @@ You can edit form components without leaving UI Builder. Access Form Builder fro
 
 2.  On the stage, move your cursor to the form component to display the **Edit Form** button.
 
-    ![Edit Form button on the form component](../image/edit-form.png)
+    \[Omitted image "edit-form.png"\] Alt text: Edit Form button on the form component
 
 3.  Select the **Edit Form** button.
 
@@ -41,7 +42,7 @@ You can edit form components without leaving UI Builder. Access Form Builder fro
 
 4.  Move your cursor to individual fields to display additional options.
 
-    ![Additional options on a field with callouts indicating the move button, the add buttons, and the delete button.](../image/form-builder-hover.png)
+    \[Omitted image "form-builder-hover.png"\] Alt text: Additional options on a field with callouts indicating the move button, the add buttons, and the delete button.
 
 5.  Insert fields by moving your cursor to the **+** button, which displays the **+ Add** button, then selecting **+ Add**.
 
@@ -62,20 +63,20 @@ You can edit form components without leaving UI Builder. Access Form Builder fro
 
 ## What to do next
 
-You can enhance the functionality of a custom form by configuring additional features. For more information, see [Forms in Table Builder](../../form-builder/concept/form-view-configuration.md).
+You can enhance the functionality of a custom form by configuring additional features. For more information, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md).
 
-**Parent Topic:**[Learn UI Builder by example](../concept/learning-uib-by-example.md)
+**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib-by-example.md)
 
 **Related topics**  
 
 
-[Create a demo experience to explore UI Builder](learn-by-example-create-experience.md)
+[Create a demo experience to explore UI Builder]()
 
-[Create a blank page](learn-by-example-create-blank-page.md)
+[Create a blank page]()
 
-[Create a record page using a template](learn-by-example-create-page-with-template.md)
+[Create a record page using a template]()
 
-[Define an audience for your variant](learn-by-example-define-audience.md)
+[Define an audience for your variant]()
 
-[Define conditions for your variant](learn-by-example-define-conditions.md)
+[Define conditions for your variant]()
 

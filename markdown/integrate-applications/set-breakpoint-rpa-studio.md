@@ -2,11 +2,12 @@
 title: Set a breakpoint to pause a component in RPA Desktop Design Studio
 description: Set a breakpoint on a component in RPA Desktop Design Studio so that you can pause it for debugging purposes during an automation execution. You can set a breakpoint for any number of components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/set-breakpoint-rpa-studio.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Use, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Set a breakpoint to pause a component in RPA Desktop Design Studio
@@ -17,7 +18,7 @@ Set a breakpoint on a component in RPA Desktop Design Studio so that you can pau
 
 Ensure that the component or components where you want to set a breakpoint in are a part of your automation.
 
-Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](configure-components.md).
+Configure a component. For more information, see [Use a component in RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-components.md).
 
 Role required: none
 
@@ -27,23 +28,23 @@ Role required: none
 
     After a breakpoint is set on a component, you can see a red icon as shown in the following example.
 
-    ![Red icon that appears after a breakpoint is set on a component.](../image/set-breakpoint-red.png "Red icon that appears after a breakpoint is set on a component")
+    \[Omitted image "set-breakpoint-red.png"\] Alt text: Red icon that appears after a breakpoint is set on a component.
 
     During the automation execution, when the robot reaches a component that has a breakpoint, the execution pauses and the component is highlighted with a red border, as shown in the following example.
 
-    ![Red border that appears when the robot reaches a component that has a breakpoint.](../image/set-breakoint-red-border.png "Red border that appears when the robot reaches a component that has a breakpoint")
+    \[Omitted image "set-breakoint-red-border.png"\] Alt text: Red border that appears when the robot reaches a component that has a breakpoint.
 
 2.  Choose an option and complete the action.
 
-<table id="choicetable_otx_hcg_wrb"><thead><tr><th align="left" id="d641072e122">
+<table id="choicetable_otx_hcg_wrb"><thead><tr><th align="left" id="d648534e122">
 
 Option
 
-</th><th align="left" id="d641072e125">
+</th><th align="left" id="d648534e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d641072e131">
+</th></tr></thead><tbody><tr><td id="d648534e131">
 
 **To execute the component where the breakpoint is set**
 
@@ -51,7 +52,7 @@ Action
 
 Click **Move next** under the **Design** tab or press the **Ctrl+F8** keys.For a step-by-step execution of the workflow, continue clicking the **Move next** button.
 
-</td></tr><tr><td id="d641072e155">
+</td></tr><tr><td id="d648534e155">
 
 **To continue the execution of the remaining components**
 
@@ -59,7 +60,7 @@ Click **Move next** under the **Design** tab or press the **Ctrl+F8** keys.For a
 
 Click **Run** under the **Design** tab.
 
-</td></tr><tr><td id="d641072e170">
+</td></tr><tr><td id="d648534e170">
 
 **To find all the breakpoints in the automation**
 
@@ -67,7 +68,7 @@ Click **Run** under the **Design** tab.
 
 Click the down arrow button next to the **Clear Breakpoints** button under the **Design** tab and select **Find all**.A list of breakpoints appears in the Find All References section.
 
-</td></tr><tr><td id="d641072e191">
+</td></tr><tr><td id="d648534e191">
 
 **To remove a breakpoint**
 
@@ -75,7 +76,7 @@ Click the down arrow button next to the **Clear Breakpoints** button under the *
 
 Right-click a desired component and select **Breakpoint**.
 
-</td></tr><tr><td id="d641072e204">
+</td></tr><tr><td id="d648534e204">
 
 **To remove all the breakpoints**
 
@@ -85,5 +86,5 @@ Click **Clear breakpoints** under the **Design** tab.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using automations](../concept/rpa-studio-use.md)
+**Parent Topic:**[Using automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-studio-use.md)
 

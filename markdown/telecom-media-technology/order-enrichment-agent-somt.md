@@ -2,11 +2,12 @@
 title: Now Assist for Sales CRM for Telecommunications AI agent collection order enrichment AI agent
 description: Use the order enrichment AI agent to collect customer order information, identify if the order needs enrichment, and create enrichment tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-enrichment-agent-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI agents in SOMT, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Now Assist for Sales CRM for Telecommunications AI agent collection order enrichment AI agent
@@ -19,7 +20,7 @@ The order enrichment AI agent creates a task and triggers the order fulfillment 
 
 For each top order line Item \(OLI\) and its child OLIs, the order enrichment agent uses historical data from similar orders to determine which enrichment tasks are required.
 
-To activate the Group Action Framework \(GAF\), see [Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications](../task/activate-group-action-framework-somt.md).
+To activate the Group Action Framework \(GAF\), see [Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/activate-group-action-framework-somt.md).
 
 If needed, the outcome of the order tasks can be modified by the agent.
 

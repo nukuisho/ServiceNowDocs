@@ -2,13 +2,14 @@
 title: Confirm indicator-indicator potential relationships
 description: Define the potential relationships between the objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/define-indicator-indicator-potential-relationships.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Potential Relationships, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Potential Relationships, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Confirm indicator-indicator potential relationships
@@ -52,5 +53,5 @@ Role required: sn\_sec\_tisc.analyst
 6.  Click **Delete** to delete the relationships.
 
 
-**Parent Topic:**[Potential Relationships](../concept/potential-relationships.md)
+**Parent Topic:**[Potential Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/potential-relationships.md)
 

@@ -2,11 +2,12 @@
 title: Accept an improvement
 description: Accept and assign a new improvement request so it can be assessed for approval. You can reject the improvement request if it does not align with company strategic objectives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/accept-assign-cim-request.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Managing improvements, Continual Improvement Management, IT Service Management]
 ---
@@ -100,10 +101,10 @@ As part of the acceptance process, the Improvement Manager determined that KPI p
 |Additional comments \(Customer visible\)|--|
 |Work notes|--|
 
-**Parent Topic:**[Managing improvements](../concept/cim-improvement-initiative-mgmt.md)
+**Parent Topic:**[Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
 
 **Related topics**  
 
 
-[Improvement field descriptions](../reference/cim-field-descriptions.md)
+[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-field-descriptions.md)
 

@@ -2,6 +2,7 @@
 title: Set up table notifications for non-task tables
 description: Table notifications are supported for all task tables by default, and you can set up a table notification for any other table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_SetUpTableNotifNonTaskTables.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -49,14 +50,14 @@ Role required: live\_feed\_admin or chat\_admin
 
 ## What to do next
 
-After saving the business rule, create a [Live Feed table notification record](t_SetUpATableNotifForATaskTable.md) for the new table as you would for a task table.
+After saving the business rule, create a [Live Feed table notification record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_SetUpATableNotifForATaskTable.md) for the new table as you would for a task table.
 
-**Parent Topic:**[Live Feed table notifications](../concept/c_SetUpLiveFeedTableNotifications.md)
+**Parent Topic:**[Live Feed table notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_SetUpLiveFeedTableNotifications.md)
 
 **Related topics**  
 
 
-[Set up table notifications for task tables](t_SetUpATableNotifForATaskTable.md)
+[Set up table notifications for task tables]()
 
-[Live Feed table notification examples](../concept/c_LFTableNotifiExamples.md)
+[Live Feed table notification examples]()
 

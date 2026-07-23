@@ -2,9 +2,10 @@
 title: Now Assist Analytics dashboard indicator details
 description: Indicator details help you understand the data and calculations behind an indicator that is presented in the form of a visualization on the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-analytics-dashboard-indicators.html
 release: australia
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
 keywords: [Now Assist Analytics, indicators, Platform Analytics Administration, GenAI, Generative AI]
 breadcrumb: [Now Assist Analytics reference, Analyzing Now Assist performance, Exploring Now Assist Admin, Now Assist, Enable AI experiences]

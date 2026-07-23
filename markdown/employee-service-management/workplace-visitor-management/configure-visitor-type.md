@@ -2,6 +2,7 @@
 title: Configure a visitor type
 description: Create a visitor type that can be used to categorize visitors for your hosts or reception staff.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/configure-visitor-type.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -51,22 +52,22 @@ Role required: sn\_wsd\_visitor.admin
     The visitor type is created and is available to hosts and reception staff members.
 
 
-**Parent Topic:**[Configuring Workplace Visitor Management](../concept/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 
 
-[Install Workplace Visitor Management](install-workplace-visitor-mgmt.md)
+[Install Workplace Visitor Management]()
 
-[Create a visitor policy](create-visitor-policy.md)
+[Create a visitor policy]()
 
-[Create a record producer for visitor management](create-rec-prodcr-visit-mgmt.md)
+[Create a record producer for visitor management]()
 
-[Configure visit requirements](configure-visit-requirements.md)
+[Configure visit requirements]()
 
-[Create a visitor badge template](create-visitor-badge-template.md)
+[Create a visitor badge template]()
 
-[Configuring Workplace Visitor Management for Workplace Services Kiosk](../concept/config-visitor-for-kiosk.md)
+[Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 
-[Quick start test for Workplace Visitor Management](../../../administer/atf-quick-start-tests/reference/quick-start-tests-wsd-visitor-mgmt.md)
+[Quick start test for Workplace Visitor Management]()
 

@@ -2,6 +2,7 @@
 title: Response time indicator icon
 description: A response time indicator icon may appear at the bottom right of forms and in the list view in the classic environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_ResponseTimeIndicator.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Hovering over or selecting the icon \(\) provides the processing time, including
 
 The following example shows detail provided when hovering over the icon.
 
-![Response time](../image/ResponseTime2.png "Response time")
+\[Omitted image "ResponseTime2.png"\] Alt text: Response time
 
 The response time text is:
 
@@ -34,9 +35,9 @@ In this example, the transaction took the following amount of processing time.
 
 Select the icon to see more details for the response time indicator.
 
-![Response time indicator expanded](../image/ResponseTimeExpanded.png "Response time indicator expanded")
+\[Omitted image "ResponseTimeExpanded.png"\] Alt text: Response time indicator expanded
 
 Administrators can disable the response time by setting the **glide.ui.response\_time** property to **false**.
 
-**Parent Topic:**[User interface configuration](../../../administer/core-configuration/concept/p_NavigationAndUIConfiguration.md)
+**Parent Topic:**[User interface configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/p_NavigationAndUIConfiguration.md)
 

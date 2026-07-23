@@ -2,6 +2,7 @@
 title: View recommended actions in AI Data Explorer
 description: Receive AI recommendations of actions to take based on your current exploration in AI Data Explorer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/expl-view-recommended-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,24 +24,24 @@ Role required: now\_assist\_explorer\_user
 
 1.  Launch AI Data Explorer.
 
-    For more information, see [Launch AI Data Explorer](launch-now-assist-explorer.md).
+    For more information, see [Launch AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/launch-now-assist-explorer.md).
 
 2.  Open an exploration that already has generated insights.
 
 3.  For best results, set an exploration goal.
 
-    For more information, see [Setting exploration goals](../concept/goals-questions.md).
+    For more information, see [Setting exploration goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/goals-questions.md).
 
 4.  Perform one of the following actions:
 
     -   In the border of the exploration, press the **Actions recommendation** button.
 
-        ![The Actions recommendation button.](../image/aiexpl-action-recom-button.png)
+        \[Omitted image "aiexpl-action-recom-button.png"\] Alt text: The Actions recommendation button.
 
-    -   In the prompt window, select **Recommend actions**.![The Recommended Actions control in the prompt window.](../image/view-recommended-actions.png)
+    -   In the prompt window, select **Recommend actions**.\[Omitted image "view-recommended-actions.png"\] Alt text: The Recommended Actions control in the prompt window.
 5.  Read the recommendations.
 
-    ![Panel showing generated recommendations.](../image/recommendations.png)
+    \[Omitted image "recommendations.png"\] Alt text: Panel showing generated recommendations.
 
 6.  If you need more details about a recommendation, expand the three-dot menu on that recommendation and select **Show details**.
 
@@ -55,5 +56,5 @@ Role required: now\_assist\_explorer\_user
 10. When you have addressed the recommendations, you can press the **Regenerate** button after the recommendations to generate new recommendations.
 
 
-**Parent Topic:**[Using AI Data Explorer](../concept/use-now-assist-explorer.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/use-now-assist-explorer.md)
 

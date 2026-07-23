@@ -2,13 +2,14 @@
 title: CEM Playbook tab
 description: The Playbook tab in Critical Event Management \(CEM\) provides an agent a step-by-step guide for managing critical events. It tracks tasks across different phases and confirms that all necessary actions are completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/playbook.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CEM Critical event record, Exploring, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [CEM Critical event record, Explore, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # CEM Playbook tab

@@ -2,6 +2,7 @@
 title: Create a decision tree for a needs template
 description: Create a decision tree that defines the questions that agents answer to determine customer needs and get product recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-needs-decision-tree.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Needs** &gt; **Decision Tree** and select **New**.
 
@@ -48,5 +49,12 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catal
 
 ## What to do next
 
-[Build a needs decision tree](build-needs-decision-tree.md) using Decision Tree Builder.
+[Build a needs decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/build-needs-decision-tree.md) using Decision Tree Builder.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

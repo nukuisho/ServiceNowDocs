@@ -2,12 +2,14 @@
 title: Exploring Hiring
 description: Learn more about the Hiring application and review the benefits it can provide to the hiring managers in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/exploring-hiring-tab.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [hiring tab benefits, hiring manager experience, track job requisitions, recruiter collaboration, hiring application overview]
 breadcrumb: [Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -29,16 +31,16 @@ The Hiring application provides a unified and seamless experience for managing h
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Open a job requisition when there’s a vacancy.|[Create a job requisition as a hiring manager](../task/request-req-hm.md)|Hiring manager|
-|Track the job requisitions and the associated details in the Hiring tab.|[Tracking a job requisition in the Hiring tab](view-status-my-request.md)|Hiring manager|
-|Track the applications on a job requisition and the associated details in the Hiring tab.|[Tracking an application record from the Hiring tab](application-record-details-hiring.md)|Hiring manager|
-|Collaborate with the recruiter for a job requisition.|[Collaborate with the recruiter](../task/collab-recruiter.md)|Hiring manager|
-|View hiring content like company policies and processes in the Hiring tab.|[View hiring content](view-hiring-content.md)|Hiring manager|
+|Open a job requisition when there’s a vacancy.|[Create a job requisition as a hiring manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/request-req-hm.md)|Hiring manager|
+|Track the job requisitions and the associated details in the Hiring tab.|[Tracking a job requisition in the Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/view-status-my-request.md)|Hiring manager|
+|Track the applications on a job requisition and the associated details in the Hiring tab.|[Tracking an application record from the Hiring tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/application-record-details-hiring.md)|Hiring manager|
+|Collaborate with the recruiter for a job requisition.|[Collaborate with the recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/collab-recruiter.md)|Hiring manager|
+|View hiring content like company policies and processes in the Hiring tab.|[View hiring content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/view-hiring-content.md)|Hiring manager|
 
 ## What to explore next
 
 To learn more about configuring and using Hiring, see:
 
--   [Configuring Hiring](configuring-hiring-tab.md)
--   [Using Hiring](use-hiring.md)
+-   [Configuring Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configuring-hiring-tab.md)
+-   [Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
 

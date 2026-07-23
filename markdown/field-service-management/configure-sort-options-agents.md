@@ -2,6 +2,7 @@
 title: Configure agent list sort options
 description: Configure the options available for dispatchers to sort agents in the Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-sort-options-agents.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -92,6 +93,6 @@ Criteria to determine the agents that are displayed in the list.
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-    ![agent recommendation sort criteria form](../image/agent-sort-options.png)
+    \[Omitted image "agent-sort-options.png"\] Alt text: agent recommendation sort criteria form
 
 

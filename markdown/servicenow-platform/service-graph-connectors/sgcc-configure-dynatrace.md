@@ -2,12 +2,13 @@
 title: Configure Service Graph Connector for Observability - Dynatrace using SGC Central
 description: Set up scheduled import jobs to pull in Dynatrace data into your Configuration Management Database \(CMDB\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgcc-configure-dynatrace.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Observability-Dynatrace, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -17,7 +18,9 @@ Set up scheduled import jobs to pull in Dynatrace data into your Configuration M
 
 ## Before you begin
 
-Install Service Graph Connector for Observability - Dynatrace version 1.11.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
+**Important:** The Service Graph Connector for Observability - Dynatrace supports Dynatrace Classic \(v1/v2 APIs\) and is intended for Dynatrace managed \(self‑hosted\) or legacy SaaS environments. If you're using or upgrading to the latest Dynatrace 3rd-generation SaaS platform, you should use the new Service Graph Connector for Observability - Dynatrace SaaS.
+
+Install Service Graph Connector for Observability - Dynatrace version 1.11.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 Role required: The following table shows the roles required for each stage of the playbook.
 
@@ -26,17 +29,17 @@ Role required: The following table shows the roles required for each stage of th
 |Prerequisites|admin|
 |Setup|SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin|
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](../../configuration-management/concept/cmdb-sgc-intro.md#section_ett_spp_4hc).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
 
 ## Procedure
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon ![](../image/icon-sgc-central.png) to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  On the Overview page, select **Create connection**.
 
@@ -264,7 +267,7 @@ List of the tag names to fetch from your Dynatrace environment. For multiple ent
 
     3.  Select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select **Save**.
 
@@ -282,9 +285,9 @@ Select **View all connections** to review the connection details. The created co
 **Related topics**  
 
 
-[Service Graph Connector for Observability - Dynatrace](../../configuration-management/concept/cmdb-integration-dynatrace.md)
+[Service Graph Connector for Observability - Dynatrace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-dynatrace.md)
 
-[CMDB classes targeted in Service Graph Connector for Observability - Dynatrace](../../configuration-management/reference/cmdb-dynatrace-classes.md)
+[CMDB classes targeted in Service Graph Connector for Observability - Dynatrace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-dynatrace-classes.md)
 
-[Service Graph Connector for Observability - Dynatrace properties](../../configuration-management/reference/sgc-cmdb-dynatrace-props.md)
+[Service Graph Connector for Observability - Dynatrace properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-dynatrace-props.md)
 

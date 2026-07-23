@@ -2,6 +2,7 @@
 title: Hide seconds in date/time fields on mobile cards, record screen details pages, or activity streams
 description: Set the mobileCardsShowSeconds, recordScreenDetailsShowSeconds, or the activityStreamShowSeconds mobile properties to False to hide the display of seconds in date/time fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/hide-secs-mobcds-recscreen-actstrem.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ The following mobile properties are set to `True` by default for the date/time f
 
 When these properties are set to `True`, seconds display in the date/time fields. To hide the display of seconds in date/time fields for mobile cards, record screen details pages, and activity streams, set these properties to `False` on your ServiceNow® instance.
 
-These mobile properties are available in ServiceNow mobile app versions 18.2 and later. For more information about ServiceNow mobile app versions, see [Mobile app version history for iOS and Android](https://servicenow.com/docs/bundle/mobile-rn/page/release-notes/mobile-apps/mobile-apps.html).
+These mobile properties are available in ServiceNow mobile app versions 18.2 and later. For more information about ServiceNow mobile app versions, see Mobile app version history for iOS and Android.
 
 ## Procedure
 
@@ -66,7 +67,7 @@ Application
 
 </td><td>
 
-Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(![Globe image](../image/globe-icon.png)\) on the instance banner. Then select **Application scope:_application\_scope_**. For information about how mobile properties are affected by application scope, see [Mobile properties](../concept/mobile-properties.md).
+Application scope where the mobile property is applied. To select a different application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe image\) on the instance banner. Then select **Application scope:_application\_scope_**. For information about how mobile properties are affected by application scope, see [Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md).
 
 </td></tr><tr><td>
 
@@ -116,7 +117,7 @@ Is Public
 
 Determines whether the **pre\_auth** property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-events.md).
+ By default, this option is not selected. If you want this property included in the **/pre\_auth** API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the **/user\_client** API response.
 
@@ -128,7 +129,7 @@ Mobile App Config
 
 Mobile app configuration that you want to use the mobile property for. This setting limits the mobile property behavior to users who have access to this mobile app configuration. Other users don't have access to this mobile property and instead experience default behavior.
 
- To enter a value, either start typing the configuration name or select the search icon \(![Magnifying glass image](../image/search-icon.png)\). The search dialog box lists the configurations from which you can choose. Select a configuration for **Mobile App Config**.
+ To enter a value, either start typing the configuration name or select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Magnifying glass image\). The search dialog box lists the configurations from which you can choose. Select a configuration for **Mobile App Config**.
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ Mobile Application
 
 Mobile application that you want to send the mobile property to. This setting limits the mobile property behavior to users who have access to this mobile app. Other users don't have access to this mobile property and instead experience default behavior.
 
- To enter a value, either start typing the application name or select the search icon \(![Magnifying glass image](../image/search-icon.png)\). The search dialog box lists the applications from which you can choose. Select an application for **Mobile Application**.
+ To enter a value, either start typing the application name or select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Magnifying glass image\). The search dialog box lists the applications from which you can choose. Select an application for **Mobile Application**.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -148,5 +149,5 @@ Mobile application that you want to send the mobile property to. This setting li
 
 After updating this property, the end user must refresh the app to get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](../concept/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
 

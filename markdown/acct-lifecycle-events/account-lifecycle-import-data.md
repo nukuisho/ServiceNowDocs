@@ -2,11 +2,12 @@
 title: Import data into the account onboarding playbook
 description: As part of the Customer Success Management process, you can import, configure, and publish data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-import-data.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Data capture and validation, Set up playbook, Account onboarding, Customer Success Management, Customer Success Management]
+breadcrumb: [Data capture and validation, Account onboarding playbook, Manage account onboarding cases, Account onboarding, Use, Customer Success Management]
 ---
 
 # Import data into the account onboarding playbook
@@ -15,7 +16,7 @@ As part of the Customer Success Management process, you can import, configure, a
 
 ## Before you begin
 
--   Role required: admin
+-   Role required: sn\_acct\_lc.onb\_agent
 
 ## About this task
 
@@ -29,11 +30,9 @@ To import data into these default tables, follow these steps:
 
 2.  In the Upload files window, select **Add file**, select the file and then select **Upload**.
 
-    **Note:** Verify that the XLSX file contains the accurate data that passes all the pre-defined validation checks or any custom validations that have been defined.
+    **Note:** Verify that the XLSX or csv file contains the accurate data that passes all the pre-defined validation checks or any custom validations that have been defined.
 
-    The uploaded file appears in the Upload &amp; process file page.
-
-    ![Account onboarding: uploaded files](../image/account-onboarding-data-upload.png)
+    The uploaded XLSX or csv file appears in the Upload &amp; process file page.
 
     You can upload multiple files. For each uploaded file, the name of the file, the date on which it was uploaded, the person who uploaded the file, and upload status \(Unprocessed\) is displayed.
 
@@ -49,6 +48,8 @@ To import data into these default tables, follow these steps:
     -   Needs attention: Records in this state have some issues that must be addressed.
     -   Yet to validate: Records in this state haven’t been validated.
 6.  Review the records in the **Needs attention** state, verify the information in the Comment column, and modify the record if necessary, and select **Save**.
+
+    All the errors must be fixed to move to yet to validate state.
 
 7.  After editing the record, navigate to the **Yet to validate** list, and select **Validate**.
 
@@ -74,5 +75,5 @@ To import data into these default tables, follow these steps:
     **Note:** You can send emails only to the team members associated with the account.
 
 
-**Parent Topic:**[Data capture and validation](../concept/account-lifecycle-use-playbook-data-capture.md)
+**Parent Topic:**[Data capture and validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-use-playbook-data-capture.md)
 

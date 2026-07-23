@@ -2,6 +2,7 @@
 title: Customer notification preferences
 description: Customers can set preferences for email notifications.Customize email notifications to stay informed about specific actions taken by customer service agents on cases, based on your preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_Business-portal-NotifPref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,9 +24,9 @@ Email notification preferences are set to control email notifications that are s
 **Related topics**  
 
 
-[Manage customer registration requests from Business Portal](manage-cust-registration-requests-business-portal.md#)
+[Manage customer registration requests from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests-business-portal.md)
 
-[Manage contacts from Business Portal](c_ManageUsersFrom-business-Portal.md#)
+[Manage contacts from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ManageUsersFrom-business-Portal.md)
 
 ## Set email notification preferences
 
@@ -57,4 +58,9 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
     -   Case assigned to a new group
     -   Case opened for customer
     -   Case resolved for customer
+
+**Related topics**  
+
+
+[Customer notification preferences]()
 

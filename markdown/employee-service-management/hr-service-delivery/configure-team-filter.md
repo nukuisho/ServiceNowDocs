@@ -2,6 +2,7 @@
 title: Configure team filters
 description: Configure team filters that you want to display on the Team members tab in Your team menu. For example, a team filter can be Employee Type, which in turn contains other filters such as position and location type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-team-filter.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -134,28 +135,28 @@ Option to display **No data** as a filter value so that managers can filter thei
 </td></tr></tbody>
 </table>3.  Click **Submit**.
 
-**Parent Topic:**[Configure Manager Hub](set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 
 
-[RCA approvals for Manager Hub](run-rca-mh.md)
+[RCA approvals for Manager Hub]()
 
-[Activate a scheduled job](../reference/activate-sj-mh.md)
+[Activate a scheduled job]()
 
-[Configure important dates](configure-imp-dates.md)
+[Configure important dates]()
 
-[Configure team requests](configure-team-requests.md)
+[Configure team requests]()
 
-[Configure team data](configure-team-data.md)
+[Configure team data]()
 
-[Configure team column data](configure-team-columndata.md)
+[Configure team column data]()
 
-[Set up View as Direct Reports](../../employee-center/task/view-direct-reportee.md)
+[Set up View as Direct Reports]()
 
-[Configure daily stats](configure-daily-stats.md)
+[Configure daily stats]()
 
-[Configure to do mappings](use-to-do-map.md)
+[Configure to do mappings]()
 
-[Configure widgets](configure-team-insights.md)
+[Configure widgets]()
 

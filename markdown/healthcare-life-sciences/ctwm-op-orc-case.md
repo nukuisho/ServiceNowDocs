@@ -2,11 +2,12 @@
 title: Input Orchestration case details into the Operational Rounding playbook
 description: Complete the Orchestration case playbook stage in the Operational rounding playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-op-orc-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Operational Rounding playbook, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Operational rounding playbook, Care Team Work Management, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Input Orchestration case details into the Operational Rounding playbook
@@ -119,5 +120,5 @@ A detailed description of the work being requested.
 
 ## What to do next
 
-[Input Orchestration task details into the Operational Rounding playbook](ctwm-op-healthcare-orc-tasks.md)
+[Input Orchestration task details into the Operational Rounding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/ctwm-op-healthcare-orc-tasks.md)
 

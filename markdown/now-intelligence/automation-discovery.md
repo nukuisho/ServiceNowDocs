@@ -2,6 +2,7 @@
 title: Automation Discovery
 description: ServiceNow Automation Discovery helps you identify automation opportunities for your workflows. Use the discovery reports to implement or improve automation solutions like Virtual Agent \(VA\), and Agent assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/automation-discovery.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ For applications such as Virtual Agent, Automation Discovery helps you implement
 
 ## Installation
 
-Automation Discovery is available from the ServiceNow Store. For more information, see [Install Automation Discovery](../task/install-automation-discovery.md).
+Automation Discovery is available from the ServiceNow Store. For more information, see [Install Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/install-automation-discovery.md).
 
 ## Language support
 
@@ -37,7 +38,7 @@ Reports created using the **Predictive AIOps** taxonomy support only English, be
 
 ## Discovery reports
 
-![Automation Discovery Reports list that shows all created reports.](../images/automation-discoveryT3.png)
+\[Omitted image "automation-discoveryT3.png"\] Alt text: Automation Discovery Reports list that shows all created reports.
 
 The **Automation Discovery Reports** page lists your created reports. For each report, the page lists the following information:
 
@@ -53,7 +54,7 @@ The **Automation Discovery Reports** page lists your created reports. For each r
 |Frequency|Number of times to run the report.|
 |Status|Status of the report.|
 
-To create a new report, see [Create an Automation Discovery report](../task/create-auto-discovry-report.md).
+To create a new report, see [Create an Automation Discovery report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-auto-discovry-report.md).
 
 To view results, select the name of the report.
 
@@ -61,7 +62,7 @@ To view results, select the name of the report.
 
 For each successful report, the report page shows information about automation opportunities.
 
-![Automation Discovery report page for an incident-based report.](../images/automation-discoveryT1.png)
+\[Omitted image "automation-discoveryT1.png"\] Alt text: Automation Discovery report page for an incident-based report.
 
 The report groups matching records together by opportunity. In this example, Automation Discovery found 125 opportunities for automation from the thousands of incidents analyzed. Several records group to the same opportunities because the incidents match the same intents.
 
@@ -69,7 +70,7 @@ Deflections refer to incidents that could have been immediately resolved through
 
 MTTR or mean time to resolve refers to the average amount of time it takes to resolve incidents. The report multiplies the number of matching records by the MTTR to get the **Estimated Time Savings** for the top 10 opportunities.
 
-![Automation Opportunities list item expanded. Shows the opportunity in more detail and actions you can take.](../images/automation-discoveryT2.png)
+\[Omitted image "automation-discoveryT2.png"\] Alt text: Automation Opportunities list item expanded. Shows the opportunity in more detail and actions you can take.
 
 The **Automation Opportunities** tab lists the automation opportunities that match your data. Select the list icon on each row to see more information about the records for that opportunity.
 
@@ -83,7 +84,7 @@ The **Actions You Can Take** card shows what you can do with the automation oppo
 
 In Topic Recommendations, you can add topics to your Natural Language Understanding \(NLU\) models and to Virtual Agent. If you add an opportunity to a model, the **Action Taken** shows the corresponding intent or model.
 
-To learn more see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-topic-recommendations.md) and [NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-models.md).
+To learn more see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-topic-recommendations.md) and [NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-models.md).
 
 You can also create custom topics for opportunities that are not VA ready. For more information about creating custom topics, see [Creating Virtual Agent Topics](https://developer.servicenow.com/dev.do#!/learn/learning-plans/quebec/servicenow_application_developer/app_store_learnv2_virtualagent_quebec_creating_topics) on the ServiceNow Developer Site.
 
@@ -91,7 +92,7 @@ You can also create custom topics for opportunities that are not VA ready. For m
 
 You can share your discovery reports with other members on your team. On a report page, click **Share Report** to open the report sharing pop-up.
 
-![Pop-up menu for sharing a report.](../images/share_report.png)
+\[Omitted image "share\_report.png"\] Alt text: Pop-up menu for sharing a report.
 
 You can share the report with the provided link or by sending the report via email.
 
@@ -110,5 +111,5 @@ Enabling sampling of data before clustering is run can help speed up the report 
 **Related topics**  
 
 
-[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
+[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md)
 

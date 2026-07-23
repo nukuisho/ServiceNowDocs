@@ -2,12 +2,13 @@
 title: Purchase requisition, purchase order, and sourcing request states
 description: Purchase requisitions, purchase orders, and sourcing requests move through a series of states as they progress through the procurement lifecycle. Each state reflects the current stage of processing and determines what actions are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pr-po-sr-states.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-04-14"
-reading_time_minutes: 9
+reading_time_minutes: 11
 keywords: [purchase requisition states, purchase order states, sourcing request states, state transitions, procurement lifecycle, Sourcing and Procurement Operations]
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -73,7 +74,7 @@ Awaiting Task Completion
 
 </td><td>
 
-Set when all purchase requisition lines are approved, but one or more order-dependent procurement cases or purchasing tasks associated with the purchase requisition are still open. The state is updated automatically when all blocking cases and tasks are closed.
+Set when all purchase requisition lines have cleared review and approval \(none remain in Pending Review or Pending Approval\), at least one line is in an approved state, and one or more order-dependent procurement cases or purchasing tasks are still open. Lines in a Pending Cancellation or Pending Revision state may also exist alongside approved lines without preventing this state from being set.
 
 </td><td>
 
@@ -85,11 +86,12 @@ Final Review
 
 </td><td>
 
-Set when all purchase requisition lines are approved and no open procurement cases or purchasing tasks are blocking the purchase requisition. The purchase requisition is ready for submission.
+Set when all purchase requisition lines have cleared review and approval, at least one line is approved, no open cases or tasks are blocking, and the purchase requisition has not yet been submitted. The purchase requisition is ready for submission.
 
 </td><td>
 
--   Pending Submission \(when buyer submits\)
+-   Pending Submission \(when buyer submits for non-punchout suppliers\)
+-   Pending Supplier Confirmation \(when buyer submits for punchout suppliers\)
 -   Pending Revision \(if a revision is triggered\)
 
 </td></tr><tr><td>
@@ -111,7 +113,7 @@ Pending Supplier Confirmation
 
 </td><td>
 
-Set when the purchase order has been submitted to the supplier and the system is waiting for an explicit supplier acknowledgment before the order is confirmed.
+Set when the associated purchase order has been submitted to the supplier and the system is waiting for an explicit supplier acknowledgment. The purchase requisition reflects this state while the supplier acknowledgment is awaited.**Note:** Unlike other purchase requisition states, this state is not derived from purchase requisition line statuses. It is set directly at the point of purchase order creation for punchout suppliers.
 
 </td><td>
 
@@ -148,7 +150,7 @@ Closed Complete
 
 </td><td>
 
-Set when all purchase requisition lines have reached a closed complete state, indicating that goods or services have been received and matched.
+Set when all approved purchase requisition lines have reached a closed complete state. Lines that were canceled or rejected during the process do not need to be in this state for the purchase requisition to close.
 
 </td><td>
 
@@ -275,7 +277,7 @@ Delivered
 
 </td><td>
 
-Set when all purchase order lines have been received. The purchase order is awaiting invoice processing.
+Set when at least one purchase order line has been delivered and no lines remain in an active or in-progress state \(such as Ordered, Processing, or Pending Submission\). Lines that have already progressed beyond delivery, such as those in Payment Pending or Closed Paid, do not prevent this state from being set. The purchase order is awaiting invoice processing for the remaining delivered lines.
 
 </td><td>
 
@@ -288,7 +290,7 @@ Payment Pending
 
 </td><td>
 
-Set when an invoice has been received and matched to the purchase order, and payment is pending.
+Set when an invoice has been received and matched to the purchase order, and payment is pending. This state is only entered when every line on the purchase order is in the Payment Pending state. If any line remains in a different state, the purchase order reflects that line's state instead.
 
 </td><td>
 
@@ -300,7 +302,7 @@ Pending Return
 
 </td><td>
 
-Set when a return has been initiated for one or more purchase order lines.
+Set when a return is confirmed with the supplier and the return playbook progresses to the shipping coordination stage. This state is set directly as part of the return playbook, not through the automated state recalculation from line states. When purchase order lines are in Pending Return, the automated state calculator does not update the purchase order status, and the purchase order header retains its previous state until the playbook advances.
 
 </td><td>
 
@@ -338,7 +340,7 @@ Closed Returned
 
 </td><td>
 
-Set when all returned lines have been processed and the return is complete.
+Set when all returned lines have been processed and the return is complete. This state requires every line on the purchase order to be in the Closed Returned state with no lines in any other state. A purchase order with a mix of Closed Returned and Closed Canceled lines, for example, will not enter this state automatically.
 
 </td><td>
 
@@ -441,7 +443,7 @@ Qualified
 
 </td><td>
 
-Set when qualification is complete and the sourcing request is ready for negotiation setup. Also set when a negotiation event exists but not all negotiations have started.
+Set when qualification is complete and the sourcing request is ready for negotiation setup. Also set during the active negotiation phase when a negotiation event exists but the negotiation has not yet advanced beyond the qualification stage for all lines. In this case, the sourcing request re-enters this state from Negotiation in Progress, not from the initial qualification step.
 
 </td><td>
 
@@ -507,7 +509,8 @@ Set when pricing has been obtained but one or more active sourcing-dependent pro
 
 </td><td>
 
-Requires Decision \(when all blocking cases and tasks are closed\)
+-   Requires Decision \(when all blocking cases and tasks are closed and no negotiation event is linked to the sourcing request\)
+-   Negotiation in Progress \(when all blocking cases and tasks are closed and a negotiation event is linked\)
 
 </td></tr><tr><td>
 
@@ -565,33 +568,35 @@ Closed Rejected
 
 </td><td>
 
-Set when all purchase requisition lines on the sourcing request have been rejected. When the primary line is rejected, all other lines on the sourcing request are also set to rejected.
+Set when all purchase requisition lines on the sourcing request have been rejected. When the primary line is rejected, all other lines on the sourcing request are also set to rejected. In workflows where individual line selection is supported \(such as the mobile supplier selection experience\), rejecting individual lines does not move the sourcing request to Closed Rejected until every line has been rejected.
 
 </td><td>
 
 Not applicable. This is the last state.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Procurement Operations reference](spo-reference.md)
+</table>**Parent Topic:**[Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
 
 **Related topics**  
 
 
-[Base system procurement case type reference](base-system-procurement-case-types.md)
+[Base system procurement case type reference]()
 
-[Create New Pipeline Project form](create-pipeline-project-form.md)
+[Create New Pipeline Project form]()
 
-[Pipeline project record tabs and UI actions](pipeline-form-tabs-actions.md)
+[Pipeline project record tabs and UI actions]()
 
-[SPO and ITAM data model mappings](../concept/itam-spo-data-model.md)
+[Savings opportunity fields]()
 
-[Domain separation and Sourcing and Procurement Operations](../concept/psm-domain-separation.md)
+[SPO and ITAM data model mappings]()
 
-[Sourcing and Procurement Operations glossary](../concept/spo-glossary.md#)
+[Domain separation and Sourcing and Procurement Operations]()
 
-[Purchase requisition](purchase-requisition.md)
+[Sourcing and Procurement Operations glossary]()
 
-[Purchase order](purchase-order.md)
+[Purchase requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition.md)
 
-[Sourcing request](sourcing-request.md)
+[Purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-order.md)
+
+[Sourcing request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-request.md)
 

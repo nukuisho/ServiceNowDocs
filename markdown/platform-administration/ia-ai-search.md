@@ -2,11 +2,12 @@
 title: AI Search
 description: Configure and maintain the AI-Search engine to experience a modern search experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-ai-search.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-25"
 reading_time_minutes: 1
-breadcrumb: [Platform module configuration, Configure, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # AI Search
@@ -19,19 +20,19 @@ Connect your external data sources with ServiceNow to enhance self-service capab
 
 **Warning:** External Content Connector apps are on different versions and can cause crawl failures. Please update all apps to same version.
 
-![Screenshot showing external sources](../image/ia-external-sources.png)
+\[Omitted image "ia-external-sources.png"\] Alt text: Screenshot showing external sources
 
-See [Predefined web sources for the Webcrawler external content connector](../../ai-search/reference/predefined-websources-webcrawler-ext-cont-connector.md) for more information.
+See [Webcrawler external content connector predefined web sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/predefined-websources-webcrawler-ext-cont-connector.md) for more information.
 
 ## ServiceNow sources
 
 Enable employees to resolve issues themselves by searching internal sources.
 
-![Screenshot showing SN sources](../image/ia-sources-sn.png)
+\[Omitted image "ia-sources-sn.png"\] Alt text: Screenshot showing SN sources
 
-See [Create a Microsoft SharePoint Online external content connector](../../ai-search/task/create-ext-cont-connector-mspo.md) for more information.
+See [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-ext-cont-connector-mspo.md) for more information.
 
-See [AI Search](../../ai-search/concept/overview-ais.md) for more information.
+See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) for more information.
 
-**Parent Topic:**[Platform module configuration in Now Assist for Setup](ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

@@ -2,6 +2,7 @@
 title: Control whether users can view attachments in external applications on Android devices
 description: Set the glide.sg.block\_mobile\_attachments\_external\_viewing system property to true to prevent Android users from opening attachments in third-party applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/vu-attach-extapp-android.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ The supported file types that can be opened in the internal, native viewer on th
 
 When a user attempts to open an attachment that isn't supported, an error message displays. For example:
 
-![mobile attachment error message](../image/mobile-attachment-error.png)
+\[Omitted image "mobile-attachment-error.png"\] Alt text: mobile attachment error message
 
 **Note:** The following supported file types can be opened in the internal, native viewer on iOS devices:
 
@@ -91,5 +92,5 @@ Enter one of the following values:-   Enter `true` to prevent users from opening
 </table>4.  Right-click the banner at the top of the **glide.sg.block\_mobile\_attachments\_external\_viewing** form and select **Save**.
 
 
-**Parent Topic:**[Mobile system property configurations](../concept/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
 

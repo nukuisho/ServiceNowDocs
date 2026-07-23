@@ -2,6 +2,7 @@
 title: Adjust workplace contract in Core UI
 description: Change the start date, end date, or payment amount after the contract is in the Active state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/adjust-lease-contract.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -40,12 +41,12 @@ To adjust a contract, its state must be Active.
 4.  Select **Submit Adjustments**.
 
 
-**Parent Topic:**[Manage workplace contracts from Core UI](../concept/manage-contracts-from-core-ui.md)
+**Parent Topic:**[Manage workplace contracts from Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/manage-contracts-from-core-ui.md)
 
 **Related topics**  
 
 
-[Renew workplace contract in Core UI](renew-lease-workplace-contracts.md)
+[Renew workplace contract in Core UI]()
 
-[Cancel workplace contract in Core UI](cancel-lease-contract.md)
+[Cancel workplace contract in Core UI]()
 

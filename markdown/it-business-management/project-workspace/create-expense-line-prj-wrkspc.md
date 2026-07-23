@@ -2,6 +2,7 @@
 title: Add or edit expense lines
 description: Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-expense-line-prj-wrkspc.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -23,7 +24,7 @@ Role required: it\_project\_manager
 
 An expense line is part of the project cost plans that can be associated with a specific source. You can create multiple expense lines for a cost plan. Only the expense lines that are in the processed state are considered for roll-ups on the work item.
 
-For unplanned expense lines which aren’t associated with any cost plan, the system automatically creates a cost plan or associates with an existing system-generated cost plan of the same expense type.
+For unplanned expense lines which aren't associated to any cost plan, system automatically creates an cost plan or associates to an existing system generated cost plan of the same expense type.
 
 ## Procedure
 
@@ -31,17 +32,17 @@ For unplanned expense lines which aren’t associated with any cost plan, the sy
 
 2.  Select **Financials** from the left menu.
 
-3.  Add an expense line using one of the following options.
+3.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d53995e82">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d56001e82">
 
 Choice
 
-</th><th align="left" id="d53995e85">
+</th><th align="left" id="d56001e85">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d53995e91">
+</th></tr></thead><tbody><tr><td id="d56001e91">
 
 **Select a cost plan**
 
@@ -51,35 +52,41 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d53995e112">
+</td></tr><tr><td id="d56001e112">
 
 **Select options**
 
 </td><td>
 
-1.  Select the options ![Option to add expense lines.](../../spw-financials/images/fin-options.png) from a cell.
+1.  Select the options \[Omitted image "fin-options.png"\] Alt text: Option to add expense lines. from a cell.
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d53995e139">
+</td></tr><tr><td id="d56001e139">
 
 **Select new expense line option**
 
 </td><td>
 
-Select **New expense line** using the More actions option.![GIF showing the selection of new expense line option.](../../spw-financials/images/fin-new-expense-line-option-gif.gif)
+Select **New expense line** using the More actions option.\[Omitted image "fin-new-expense-line-option-gif.gif"\] Alt text: GIF showing the selection of new expense line option.
 
 **Note:** Use this option to record and calculate any unplanned expenses.
 
 </td></tr></tbody>
 </table>4.  On the Create expense line form, fill the fields.
 
-    For a description of the field names, see [Create expense line form](../../alignment-planner-workspace/reference/create-exp-line-form-spw.md).
+    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-exp-line-form-spw.md).
 
 5.  Select **Save**.
 
-    **Note:** The expense lines created for sub-projects can be viewed in the Cost screen of the parent project.
+    **Note:** The expense lines created for sub projects can be viewed in the Cost screen of the parent project.
+
+6.  To edit a cost plan from the finanicals record page, select the actuals value from the cost plan to open the Expense line side panel.
+
+7.  Select the expense you want to edit.
+
+8.  Update the expense values as needed and select **Save**.
 
 
-**Parent Topic:**[Managing financials for your projects](../concept/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

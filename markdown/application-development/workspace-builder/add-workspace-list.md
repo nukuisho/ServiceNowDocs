@@ -2,6 +2,7 @@
 title: Create lists for a workspace in Workspace Builder
 description: Create list categories in Workspace Builder to add pages that list table records. You can add filter conditions and change columns to create variations on the list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/add-workspace-list.html
 release: australia
 product: Workspace Builder
 classification: workspace-builder
@@ -20,7 +21,7 @@ Create list categories in Workspace Builder to add pages that list table records
 Role required:
 
 -   admin or Guided Application Creator for ServiceNow Studio.
--   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -34,7 +35,7 @@ Role required:
 
 1.  Navigate to Workspace Builder.
 
-    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](../../workspace-builder/concept/accessing-workspace-builder-aes-crs.md).
+    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
 
 2.  If they aren't already activated, activate lists to enable them for the workspace.
 
@@ -46,7 +47,7 @@ Role required:
 
     3.  In the configuration panel, select the **Activate list** option.
 
-    ![Workspace list view with lists activated](../image/wb-list-example-purple.png)
+    \[Omitted image "wb-list-example-purple.png"\] Alt text: Workspace list view with lists activated
 
 3.  Add a list category.
 
@@ -160,7 +161,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 
 7.  Complete any additional actions on the list.
 
-<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d266011e590">
+<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d262208e590">
 
 **Edit a list category**
 
@@ -171,7 +172,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d266011e617">
+</td></tr><tr><td id="d262208e617">
 
 **Change how the filtered list appears by selecting the list in the navigation panel**
 
@@ -179,10 +180,10 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 
 1.  In the configuration panel, select **Manage columns**.
 2.  In the form that appears, move columns from **Available columns** to **Selected columns**, drag to rearrange the columns, and select **OK**.
-3.  Refresh the canvas preview by selecting the refresh icon \(![Refresh icon on preview canvas](../image/workspace-list-refresh-icon-purple.png)\) in the canvas header.
+3.  Refresh the canvas preview by selecting the refresh icon \(\[Omitted image "workspace-list-refresh-icon-purple.png"\] Alt text: Refresh icon on preview canvas\) in the canvas header.
 
 
-</td></tr><tr><td id="d266011e656">
+</td></tr><tr><td id="d262208e656">
 
 **Delete a list category**
 
@@ -193,7 +194,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  In the confirmation dialog, select **Delete**.
 
 
-</td></tr><tr><td id="d266011e683">
+</td></tr><tr><td id="d262208e683">
 
 **Delete a filtered list**
 

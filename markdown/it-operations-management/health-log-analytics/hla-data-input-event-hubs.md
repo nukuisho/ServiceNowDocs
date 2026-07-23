@@ -2,6 +2,7 @@
 title: Configure a Microsoft Azure Event Hubs data input in Health Log Analytics manually
 description: Set up a data input for streaming events from Microsoft Azure Event Hubs to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-event-hubs.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -18,11 +19,11 @@ Set up a data input for streaming events from Microsoft Azure Event Hubs to your
 
 ## Before you begin
 
--   Verify that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
+-   Verify that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md).
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 
 Role required: evt\_mgmt\_admin
 
@@ -36,19 +37,19 @@ Role required: evt\_mgmt\_admin
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [Microsoft Azure Event Hubs data input configuration fields](../reference/hla-data-input-event-hubs-ref.md).
+    For a description of the fields, see [Microsoft Azure Event Hubs data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-event-hubs-ref.md).
 
 5.  Select **Advanced** to set additional configuration fields.
 
-    For a description of the fields, see [Microsoft Azure Event Hubs data input configuration fields](../reference/hla-data-input-event-hubs-ref.md). For information about configuring the advanced settings later, see [Configure advanced settings for Microsoft Azure Event Hubs data inputs in Health Log Analytics manually](hla-data-input-adv-event-hubs.md).
+    For a description of the fields, see [Microsoft Azure Event Hubs data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-event-hubs-ref.md). For information about configuring the advanced settings later, see [Configure advanced settings for Microsoft Azure Event Hubs data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-event-hubs.md).
 
 6.  On the **Query settings** tab, fill in the fields.
 
-    For a description of the fields, see [Microsoft Azure Event Hubs data input configuration fields](../reference/hla-data-input-event-hubs-ref.md).
+    For a description of the fields, see [Microsoft Azure Event Hubs data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-event-hubs-ref.md).
 
 7.  On the **Transport** tab, fill in the fields.
 
-    For a description of the fields, see [Microsoft Azure Event Hubs data input configuration fields](../reference/hla-data-input-event-hubs-ref.md).
+    For a description of the fields, see [Microsoft Azure Event Hubs data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-event-hubs-ref.md).
 
 8.  Select **Save**.
 
@@ -78,12 +79,12 @@ The data input configuration process is complete. Health Log Analytics adds the 
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](hla-data-input-streaming.md)
+[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](../concept/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 
 **Related topics**  
 
 
-[Configure advanced settings for Microsoft Azure Event Hubs data inputs in Health Log Analytics manually](hla-data-input-adv-event-hubs.md)
+[Configure advanced settings for Microsoft Azure Event Hubs data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-event-hubs.md)
 

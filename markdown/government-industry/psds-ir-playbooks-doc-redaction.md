@@ -2,6 +2,7 @@
 title: Redact sensitive data from a document in Information Request Playbook
 description: As a legal reviewer, you can redact sensitive data from PDF documents by either searching keywords or selecting text in Information Request Playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ir-playbooks-doc-redaction.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -36,7 +37,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 5.  Under the Related Documents card, select the PDF you wish to redact information from.
 
-6.  Select the Redact PDF ![Redact Icon](../image/redactpdficon.png) icon.
+6.  Select the Redact PDF \[Omitted image "redactpdficon.png"\] Alt text: Redact Icon icon.
 
 7.  To redact using the highlight functionality: select Highlight.
 

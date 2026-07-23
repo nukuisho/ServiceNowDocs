@@ -2,6 +2,7 @@
 title: Add buying group member
 description: Add buying group member to a buying group to represent decision participants, assign roles within the decision process, track active participation, enable opportunity synchronization, and support accurate assessment of decision structure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/add-buying-group-member.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,4 +41,11 @@ Role required: bg\_admin; bg\_writer
 
     The new buying group member is added.
 
+
+**Related topics**  
+
+
+[Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-buying-group.md)
+
+[Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-buying-group.md)
 

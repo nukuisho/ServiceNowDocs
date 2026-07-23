@@ -2,10 +2,11 @@
 title: Compatibility information for Customer Engagement Sequences
 description: The features that are supported in Customer Engagement Sequences are determined by combinations of ServiceNow AI Platform, Playbooks in Workflow Studio, and the Customer Engagement Sequences app version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/compatibility-matrix-upgrade-info.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Customer Engagement Sequences, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -37,7 +38,7 @@ Customer Engagement Sequences starting with version 2.0.1
 
 Roles
 
- For more information, see [Components installed with Customer Engagement Sequences](components-installed-customer-engagement-sequences.md).
+ For more information, see [Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-customer-engagement-sequences.md).
 
 </td><td>
 
@@ -110,4 +111,11 @@ Available starting with the Zurich release and Playbooks version 28.1.
 
 -   In Xanadu and Yokohama, only the **Schedule call** activity is available in the activity picker and does not include the click-to-call capability.
 -   Starting with Zurich and Customer Engagement Sequences 2.1.0, both **Schedule call** and **Schedule call - Deprecated** appear in the activity picker. Use the **Schedule call** activity to enable the click-to-call capability.
+
+**Related topics**  
+
+
+[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-engagement-sequences.md)
+
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
 

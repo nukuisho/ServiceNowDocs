@@ -2,6 +2,7 @@
 title: Global date and time field format
 description: You define default date and time formats globally using system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_FormatDateAndTimeFields.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -61,5 +62,5 @@ The default format is: HH:mm:ss.
 **Related topics**  
 
 
-[Schedule entry fields](r_ScheduleEntryFields.md)
+[Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleEntryFields.md)
 

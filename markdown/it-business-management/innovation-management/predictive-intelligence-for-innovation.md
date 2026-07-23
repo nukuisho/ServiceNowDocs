@@ -2,6 +2,7 @@
 title: Predictive Intelligence for Innovation Management
 description: The Predictive Intelligence for Innovation Management capability uses machine-learning algorithms to search and display similar ideas while submitting a new idea.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/predictive-intelligence-for-innovation.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -35,7 +36,7 @@ Activate the following plugins before using the Predictive Intelligence Workbenc
 
 ## Solution definitions for Predictive Intelligence for Innovation Management
 
-The solution definitions for Predictive Intelligence for Innovation Management capability are available in the Predictive Intelligence for Ideation plugin \(com.snc.innovation\_management\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
+The solution definitions for Predictive Intelligence for Innovation Management capability are available in the Predictive Intelligence for Ideation plugin \(com.snc.innovation\_management\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md).
 
 <table id="table_bdh_nzs_kbc"><thead><tr><th>
 
@@ -67,16 +68,16 @@ Suggests related ideas based on the **Title** and **Description** fields. You ca
 -   The Related Ideas section on the Ideas page in the Idea Portal.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Innovation Management](exploring-innovation-management.md)
+</table>**Parent Topic:**[Exploring Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/exploring-innovation-management.md)
 
 **Related topics**  
 
 
-[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
+[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md)
 
-[Train the similarity solution for Innovation Management to find similar ideas](../task/train-similarity-solution-im.md)
+[Train the similarity solution for Innovation Management to find similar ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/train-similarity-solution-im.md)
 
-[Submit an idea using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/submit-idea.md)
+[Submit an idea using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/submit-idea.md)
 
-[PPM PIWB template - Find similar ideas](../../itbm-PI-workbench/task/ppm-piwb-idea.md)
+[PPM PIWB template - Find similar ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/ppm-piwb-idea.md)
 

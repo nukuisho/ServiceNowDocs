@@ -2,6 +2,7 @@
 title: Exploring business processes
 description: Business processes model how your organization performs work to achieve a business outcome. Use business processes in Enterprise Architecture Workspace to build a process hierarchy and to associate processes with supporting business applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-business-processes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,16 +41,16 @@ Use business processes to connect operational workflows to other enterprise arch
 
 Use business processes to model internal workflows and relate them to supporting applications. Use business capabilities to describe what the organization does. Use value streams to describe end‑to‑end value delivery across functions.
 
-**Parent Topic:**[Exploring the business architecture](eaw-business-architecture.md)
+**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  
 
 
-[View all business processes](../../task/eaw-task/eaw-view-all-business-processes.md)
+[View all business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-business-processes.md)
 
-[Add or edit a business process](../../task/eaw-task/eaw-create-business-process.md)
+[Add or edit a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-business-process.md)
 
-[Manage architectural artifacts of a business process](../../task/eaw-task/eaw-assoicate-artifact-bp.md)
+[Manage architectural artifacts of a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-bp.md)
 
-[Add or remove a business process from a value stream stage](../../task/eaw-task/eaw-assoc-bp-with-vs-stage.md)
+[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
 

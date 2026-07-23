@@ -2,6 +2,7 @@
 title: Components installed with Retail In-store Operations
 description: Certain roles and dependencies must be considered when using the Retail In-store Operations plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-in-store-operations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -70,6 +71,7 @@ Create, update, and close Store Operations case for their stores. Can view and c
 
 -   sn\_retail.associate\_fulfiller
 -   wm\_location\_agent
+-   questionnaire\_user
 
 </td></tr><tr><td>
 
@@ -77,7 +79,7 @@ sn\_rtl\_in\_store\_ops.manager
 
 </td><td>
 
-Can Create, update, and close Store Operations case for the stores and associated child locations they manage. Can create, update, and close Store tasks and assign tasks to others in the stores and associated child locations they manage.
+Create, update, and close Store Operations case for the stores and associated child locations they manage. Can create, update, and close Store tasks and assign tasks to others in the stores and associated child locations they manage.
 
 </td><td>
 
@@ -100,5 +102,5 @@ Can Create, update, and close Store Operations case for the stores and associate
 |Supporting retail organization |Same as requesting retail organization |
 |Due Date |2 hours from now \(date/time\) |
 
-**Parent Topic:**[Components installed with plugins](rahi-retail-components-installed-with-plugins.md)
+**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md)
 

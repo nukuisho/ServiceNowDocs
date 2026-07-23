@@ -2,11 +2,12 @@
 title: Create multiple configurations
 description: Create multiple configurations of a child product offering when you're adding a configurable product to an opportunity, quote, or order. You can then configure the product options and characteristics separately for each offering configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-multiple-child-configs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Legacy product configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create multiple configurations
@@ -19,7 +20,7 @@ Role required:sales\_agent or sn\_ind\_tmt\_orm.order\_agent
 
 ## About this task
 
-If your product catalog admin has enabled multiple configurations for child offerings in a bundled product, you can create multiple child offering configurations for selected child offerings using the legacy product configurator. When creating multiple configurations of child offering, you can do the following:
+If your product catalog admin has enabled multiple configurations for child offerings in a bundled product, you can create multiple child offering configurations for selected child offerings using the product configurator. When creating multiple configurations of child offering, you can do the following:
 
 -   Change the quantity of a child offering that can have multiple configurations.
 -   Clone a child offering or split a child offering that has a quantity greater than 1.
@@ -28,11 +29,11 @@ If your product catalog admin has enabled multiple configurations for child offe
 -   Customize the options and characteristics for each child offering instance created.
 -   Delete a child offering instance, as long as the minimum number of child offerings defined for the product is maintained.
 
-**Note:** Even when the multiple configurations feature is enabled, there are scenarios in which some configuration options might not be available. The system uses the default, minimum, and maximum quantity values from the product definition to determine valid configurations and then enables or disables the **Split** or **Delete** options for managing child offering configurations. For more information on validation, see [Multiple configurations](../concept/multiple-child-offering-configurations.md).
+**Note:** Even when the multiple configurations feature is enabled, there are scenarios in which some configuration options might not be available. The system uses the default, minimum, and maximum quantity values from the product definition to determine valid configurations and then enables or disables the **Split** or **Delete** options for managing child offering configurations. For more information on validation, see [Multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/multiple-child-offering-configurations.md).
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to the opportunity, quote, or order that you want to work with.
 
@@ -46,16 +47,16 @@ If your product catalog admin has enabled multiple configurations for child offe
 
 5.  Select the configurable product by choosing **Customize** in the appropriate product offering card.
 
-    The product configurator displays the product offering configuration, including the bundle product options and characteristics. Child offerings that can have multiple configurations are identified by information ![](../../now-assist-order-mgmt/image/icon-more-info.png) icons. Select the information icon to view a message indicating that the offering can have multiple configurations and that the offering quantity shown is aggregated across the configurations.
+    The product configurator displays the product offering configuration, including the bundle product options and characteristics. Child offerings that can have multiple configurations are identified by information \[Omitted image "icon-more-info.png"\] Alt text: icons. Select the information icon to view a message indicating that the offering can have multiple configurations and that the offering quantity shown is aggregated across the configurations.
 
-    ![Information message displayed for a child offering in a configurable product. The message indicates that multiple configurations can be created for the offering.](../image/multi-config-msg-order.png "Example bundle configuration for an order")
+    \[Omitted image "multi-config-msg-order.png"\] Alt text: Information message displayed for a child offering in a configurable product. The message indicates that multiple configurations can be created for the offering.
 
 6.  Navigate to the child offering in the product hierarchy, which displays the offering summary page.
 
     You can do the following:
 
     -   To change the quantity of the child offering, enter the new value in the **Quantity** field.
-    -   To add new configurations for the offering, select the **More options** ![](../image/icon-three-dots.png) menu next to the **Quantity** field and select an option.
+    -   To add new configurations for the offering, select the **More options** \[Omitted image "icon-three-dots.png"\] Alt text: menu next to the **Quantity** field and select an option.
 
 <table id="table_nsy_k4f_kfc"><thead><tr><th>
 
@@ -101,5 +102,5 @@ Removes an existing child offering instance.
 8.  When you finish configuring the child offerings, select **Add** to add each configuration as a separate line item to your opportunity, quote, or order.
 
 
-**Parent Topic:**[Using the legacy product configurator](../concept/using-som-product-configurator.md)
+**Parent Topic:**[Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-som-product-configurator.md)
 

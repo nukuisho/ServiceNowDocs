@@ -2,13 +2,14 @@
 title: Create an asset and reserve it for the requester
 description: Create the asset before they're delivered so that you can create the asset record with an asset tag and serial number early in the process and reserve the asset for the user who requested it. The receiver can only select the assets to be received as assets are pre-created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_CreateAssetReserveForRequester.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Procurement purchase order management for assets, Procurement, IT Asset Management]
+breadcrumb: [Procurement purchase order management for assets, Procurement, Common applications, Asset Management]
 ---
 
 # Create an asset and reserve it for the requester
@@ -65,22 +66,22 @@ When the asset state is **In stock**, the **Reserved for** field is maintained a
     You can also create assets for individual purchase order line items. On a purchase order, go to the **Purchase order line items** related list and click a specific purchase order line item number. Then, click the **Create hardware assets prior to delivery** related link. Only the hardware assets included on the purchase order line item are created.
 
 
-**Parent Topic:**[Procurement purchase order management for assets](../concept/c_UseProcurement.md)
+**Parent Topic:**[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_UseProcurement.md)
 
 **Related topics**  
 
 
-[Track a request from the service catalog](t_TrackReqFromServiceCatalog.md)
+[Track a request from the service catalog]()
 
-[Cancel a request from the service catalog](t_CancelReqFromServCatalog.md)
+[Cancel a request from the service catalog]()
 
-[View and edit a catalog task](t_ViewAndEditACatalogTask.md)
+[View and edit a catalog task]()
 
-[Create a purchase order](t_CreateAPurchaseOrder.md)
+[Create a purchase order]()
 
-[](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-editor.md)
+[](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-editor.md)
 
-[Set asset states and substates](../../asset-management/task/t_SettingAssetStatesAndSubstates.md)
+[Set asset states and substates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_SettingAssetStatesAndSubstates.md)
 
-[Models](../../product-catalog/concept/c_Models.md)
+[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md)
 

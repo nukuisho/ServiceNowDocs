@@ -2,13 +2,14 @@
 title: Custom license metric example script
 description: The following is an example of a custom license metric script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/custom-license-example-script.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Add a custom license metric, Software Asset Management administration, Software Asset Management, IT Asset Management]
+breadcrumb: [Add a custom license metric, SAM Administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Custom license metric example script
@@ -29,5 +30,5 @@ var rightsForDevice = -1;
 }]]></script>
 ```
 
-**Parent Topic:**[Add a custom license metric](../task/add-custom-license-metric.md)
+**Parent Topic:**[Add a custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-custom-license-metric.md)
 

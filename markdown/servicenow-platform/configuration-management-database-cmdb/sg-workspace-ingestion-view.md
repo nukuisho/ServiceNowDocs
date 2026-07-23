@@ -2,6 +2,7 @@
 title: Ingestion view in Service Graph Workspace
 description: The Overview page in the Ingestion view in Service Graph Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -27,12 +28,12 @@ Use the Overview page to monitor and troubleshoot your Service Graph Connectors 
 
 |Feature|Description|
 |-------|-----------|
-|[Connections overview](sg-workspace-ingestion-view.md#section_o5x_c51_cjc)|Displays the current state of your configured Service Graph Connector connections, including status, execution results, and error summaries.|
-|[Ingested and processed data](sg-workspace-ingestion-view.md#section_lrx_f51_cjc)|Displays key metrics related to the data imported and processed from third-party applications.|
-|[Data processing performance](sg-workspace-ingestion-view.md#section_gps_l51_cjc)|Displays how many configuration items \(CIs\) were added or updated over time, in addition to the number of processing errors.|
-|[Filters](sg-workspace-ingestion-view.md#section_w2h_n51_cjc)|Enables narrowing the data shown in graphs and metrics based on connector type, connection, data source, or date range.|
-|[Indicators](sg-workspace-ingestion-view.md#section_k3m_451_cjc)|Enables viewing of high-level metrics that reflect the volume and quality of imported data and help identify issues such as incomplete or failed import set processing.|
-|[Reports](sg-workspace-ingestion-view.md#section_xcx_p51_cjc)|Enables real-time visualizations that provide insights into data ingestion, processing trends, and error categorization across your Service Graph Connector connections.|
+|[Connections overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)|Displays the current state of your configured Service Graph Connector connections, including status, execution results, and error summaries.|
+|[Ingested and processed data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)|Displays key metrics related to the data imported and processed from third-party applications.|
+|[Data processing performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)|Displays how many configuration items \(CIs\) were added or updated over time, in addition to the number of processing errors.|
+|[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)|Enables narrowing the data shown in graphs and metrics based on connector type, connection, data source, or date range.|
+|[Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)|Enables viewing of high-level metrics that reflect the volume and quality of imported data and help identify issues such as incomplete or failed import set processing.|
+|[Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)|Enables real-time visualizations that provide insights into data ingestion, processing trends, and error categorization across your Service Graph Connector connections.|
 
 ## Connections overview
 
@@ -135,7 +136,7 @@ Displays the number of import set runs that ended in an error, including those i
 
 -   **Error summary**
 
-Provides a short description of the most recent error, if any. The summary includes error type and cause. A **View details** link may be available for diagnosing a processing error. To learn more, see [Diagnose a processing error in SGC Central](../../sgc-central/task/sgcc-diagnose-proc-errors.md).
+Provides a short description of the most recent error, if any. The summary includes error type and cause. A **View details** link may be available for diagnosing a processing error. To learn more, see [Diagnose a processing error in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-diagnose-proc-errors.md).
 
 -   **Last processed on**
 
@@ -196,17 +197,17 @@ Import sets
 
 </td><td>
 
-Number of import sets processed by data sources based on the [selected filters](sg-workspace-ingestion-view.md#section_w2h_n51_cjc), with the count of success, partial, and error statuses.Select the **View all import sets** link to view a complete list of processed import sets.
+Number of import sets processed by data sources based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md), with the count of success, partial, and error statuses.Select the **View all import sets** link to view a complete list of processed import sets.
 
 </td><td>
 
-[SGC.Integrations.ImportSet](sg-workspace-ingestion-view.md#importset)
+[SGC.Integrations.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)
 
- [SGC.Fully.successful.ImportSet](sg-workspace-ingestion-view.md#succ-import-set)
+ [SGC.Fully.successful.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)
 
- [SGC.Part.success.ImportSet](sg-workspace-ingestion-view.md#part-succ-import-set)
+ [SGC.Part.success.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)
 
- [SGC.Fully.error.ImportSet](sg-workspace-ingestion-view.md#error-import-set)
+ [SGC.Fully.error.ImportSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)
 
 </td></tr><tr><td>
 
@@ -214,11 +215,11 @@ Imported rows
 
 </td><td>
 
-Count of rows imported across all import sets based on the [selected filters](sg-workspace-ingestion-view.md#section_w2h_n51_cjc).Select the **View all latest import set rows ingested** link to view a complete list of import set rows ingested.
+Count of rows imported across all import sets based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md).Select the **View all latest import set rows ingested** link to view a complete list of import set rows ingested.
 
 </td><td>
 
-[SGC.Integrations.Importset.rows.ingested](sg-workspace-ingestion-view.md#import-set-rows)
+[SGC.Integrations.Importset.rows.ingested](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)
 
 </td></tr><tr><td>
 
@@ -226,7 +227,7 @@ CIs
 
 </td><td>
 
-Total CIs processed based on the [selected filters](sg-workspace-ingestion-view.md#section_w2h_n51_cjc), with the count of added and updated CIs.Select the **View all inserted and updated records** link to view a complete list of inserted and updated CIs.
+Total CIs processed based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md), with the count of added and updated CIs.Select the **View all inserted and updated records** link to view a complete list of inserted and updated CIs.
 
 </td><td>
 
@@ -238,7 +239,7 @@ Partial or incomplete CIs
 
 </td><td>
 
-Total CIs that are partial payloads based on the [selected filters](sg-workspace-ingestion-view.md#section_w2h_n51_cjc), with the count of partial and incomplete categories.Select the **View all partial and incomplete records** link to view a complete list of partial and incomplete CIs.
+Total CIs that are partial payloads based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md), with the count of partial and incomplete categories.Select the **View all partial and incomplete records** link to view a complete list of partial and incomplete CIs.
 
 </td><td>
 
@@ -267,15 +268,15 @@ CIs and errors trends
 
 </td><td>
 
-Daily trends for CIs that were added, updated, and any data processing errors occurred during data import process based on the [selected filters](sg-workspace-ingestion-view.md#section_w2h_n51_cjc).
+Daily trends for CIs that were added, updated, and any data processing errors occurred during data import process based on the [selected filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md).
 
 </td><td>
 
-[Records added](sg-workspace-ingestion-view.md#records-added)
+[Records added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)
 
- [Records updated](sg-workspace-ingestion-view.md#records-updated)
+ [Records updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)
 
- [Errors](sg-workspace-ingestion-view.md#errors)
+ [Errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)
 
 </td></tr><tr><td>
 
@@ -392,7 +393,7 @@ Affected CIs and errors
 
 </td><td>
 
-Relative compare \(![Relative compare](../image/relative-compare-icon.png)\)
+Relative compare \(\[Omitted image "relative-compare-icon.png"\] Alt text: Relative compare\)
 
 </td><td>
 
@@ -408,7 +409,7 @@ Error breakdown
 
 </td><td>
 
-Column \(![Column icon](../../../use/performance-analytics/image/column-icon.png)\)
+Column \(\[Omitted image "column-icon.png"\] Alt text: Column icon\)
 
 </td><td>
 
@@ -424,7 +425,7 @@ Import set rows ingested
 
 </td><td>
 
-Single score \(![Single score icon](../../knowledge-management/image/icon-single-score-report-p.png)\)
+Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Single score icon\)
 
 </td><td>
 
@@ -440,7 +441,7 @@ Import set processing rate
 
 </td><td>
 
-Single score \(![Single score icon](../../knowledge-management/image/icon-single-score-report-p.png)\)
+Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Single score icon\)
 
 </td><td>
 
@@ -456,7 +457,7 @@ Records added or updated
 
 </td><td>
 
-Single score \(![Single score icon](../../knowledge-management/image/icon-single-score-report-p.png)\)
+Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Single score icon\)
 
 </td><td>
 
@@ -472,7 +473,7 @@ Total import sets
 
 </td><td>
 
-Single score \(![Single score icon](../../knowledge-management/image/icon-single-score-report-p.png)\)
+Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Single score icon\)
 
 </td><td>
 
@@ -488,7 +489,7 @@ Updated classes
 
 </td><td>
 
-Column \(![Column icon](../../../use/performance-analytics/image/column-icon.png)\)
+Column \(\[Omitted image "column-icon.png"\] Alt text: Column icon\)
 
 </td><td>
 

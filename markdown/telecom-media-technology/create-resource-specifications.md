@@ -2,11 +2,12 @@
 title: Create and publish resource specifications
 description: Create and publish a base version of a resource specification to define all the resource options for a customer-facing product that you sell and to designate how to fulfill these options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-resource-specifications.html
 release: australia
 topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 4
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create and publish resource specifications
@@ -18,7 +19,7 @@ Create and publish a base version of a resource specification to define all the 
 Create characteristics, characteristic options, and specification categories. To learn more about characteristics, characteristic options, and specification categories, see:
 
 -   [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md)
--   [Create and associate specification categories with model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-associate-specification-categories.md)
+-   
 
 Role required: sn\_prd\_pm.product\_catalog\_manager
 
@@ -27,12 +28,12 @@ Role required: sn\_prd\_pm.product\_catalog\_manager
 You create a resource specification to define the technical information for a resource, which includes the following:
 
 -   All the specification characteristic options that are available for a resource, and how they should be fulfilled.
--   Various categories of information, such as the manufacture, model, and brand-related information about a resource, including the resource visuals and activation guides. Resource specifications are not customer-facing.
+-   Various categories of information, such as the manufacture, model, and brand-related information about a resource, including the resource visuals and activation guides. Resource specifications aren't customer-facing.
 -   Its relationship to other product, service, and resource specifications. You can enable the product and service delivery by using the required resource.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Specifications** &gt; **Resource specifications**.
 
@@ -256,7 +257,7 @@ Specification Relationships
 
 </td><td>
 
-[Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](create-specification-relationships-somt.md)
+[Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-specification-relationships-somt.md)
 
 </td></tr><tr><td>
 
@@ -264,20 +265,20 @@ Versions
 
 </td><td>
 
-[Create another version of the specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-publishing-new-versions-specifications.md)
+Create another version of the specification
 
 </td></tr></tbody>
 </table>6.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d26173e514">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d27315e501">
 
 Action
 
-</th><th align="left" id="d26173e517">
+</th><th align="left" id="d27315e504">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26173e523">
+</th></tr></thead><tbody><tr><td id="d27315e510">
 
 **Publish**
 
@@ -287,7 +288,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d26173e541">
+</td></tr><tr><td id="d27315e528">
 
 **Update**
 
@@ -295,7 +296,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d26173e550">
+</td></tr><tr><td id="d27315e537">
 
 **Copy**
 

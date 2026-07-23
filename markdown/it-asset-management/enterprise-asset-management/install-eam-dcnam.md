@@ -2,13 +2,14 @@
 title: Install Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
 description: You can install the Enterprise Asset Management for DCNAM application \(com.sn\_eam\_dcnam\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/install-eam-dcnam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Industry-specific EAM solutions, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Install Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
@@ -30,7 +31,7 @@ The following items are installed with Enterprise Asset Management for DCNAM:
 -   Store applications
 -   Roles
 
-For more information, see [Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](../reference/installed-with-eam-dcnam.md).
+For more information, see [Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/installed-with-eam-dcnam.md).
 
 ## Procedure
 
@@ -51,5 +52,5 @@ For more information, see [Components installed with Enterprise Asset Management
 5.  Select **Install**.
 
 
-**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](../concept/eam-dcnam.md)
+**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-dcnam.md)
 

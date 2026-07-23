@@ -2,6 +2,7 @@
 title: Threat group to technique heatmap definition
 description: Define the threat group to technique heatmap definition so that on the heatmap you can measure and detect the attack patterns that threat groups are using to attack your organization. The probability of an attack using a particular technique increases when you have a high number of attackers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-group-to-technique-heatmap-definition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -77,59 +78,59 @@ Description about the threat group range and definition.
 </td></tr></tbody>
 </table>    **Note:** Ensure that you do not overlap the threat group count ranges if you customize the threat group range \(min or max\).
 
-    The following illustration shows the threat group to technique heat map definitions list.![The following illustration shows the threat group to technique heat map definitions list.](../image/mitre-threat-group-definition.png)
+    The following illustration shows the threat group to technique heat map definitions list.\[Omitted image "mitre-threat-group-definition.png"\] Alt text: The following illustration shows the threat group to technique heat map definitions list.
 
 3.  To add an entry, click **New**, complete the entries, and click **Submit**.
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](../concept/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 
 
-[Get started with MITRE-ATT&amp;CK framework](../reference/get-started-with-mitre.md)
+[Get started with MITRE-ATT&amp;CK framework]()
 
-[Understand the MITRE to STIX data model](../reference/understand-the-mitre-to-stix-data-model-mapping.md)
+[Understand the MITRE to STIX data model]()
 
-[Domain separation and MITRE-ATT&amp;CK](../reference/domain-separation-and-mitre-att-ck.md)
+[Domain separation and MITRE-ATT&amp;CK]()
 
-[Set up the MITRE-ATT&amp;CK framework](setup-mitre-profile.md)
+[Set up the MITRE-ATT&amp;CK framework]()
 
-[Manage matrices](view-mitre-collection.md)
+[Manage matrices]()
 
-[Manage techniques](view-techniques.md)
+[Manage techniques]()
 
-[Manage mitigations](manage-mitigations.md)
+[Manage mitigations]()
 
-[Manage groups](manage-groups-threat-intel.md)
+[Manage groups]()
 
-[Manage malware](manage-malware.md)
+[Manage malware]()
 
-[Manage tools](manage-tools.md)
+[Manage tools]()
 
-[Manage MITRE relationships](manage-mitre-relationships.md)
+[Manage MITRE relationships]()
 
-[Manage CVE and technique mapping](manage-cve-and-technique-mapping.md)
+[Manage CVE and technique mapping]()
 
-[Extend the MITRE-ATT&amp;CK data](view-and-extend-information.md)
+[Extend the MITRE-ATT&amp;CK data]()
 
-[Define the data source and detection tool mapping](manage-mitre-att-ck-data-sources.md)
+[Define the data source and detection tool mapping]()
 
-[Define the data source and data component mapping](map-the-data-source-and-data-components.md)
+[Define the data source and data component mapping]()
 
-[Define the technique detection coverage](define-technique-coverage.md)
+[Define the technique detection coverage]()
 
-[Map your technique detection coverage to a technique](map-technique-coverage.md)
+[Map your technique detection coverage to a technique]()
 
-[Define the mitigation coverage](define-the-mitigation-coverage.md)
+[Define the mitigation coverage]()
 
-[Map your mitigation coverage to a technique](map-your-mitigation-coverage-to-a-technique.md)
+[Map your mitigation coverage to a technique]()
 
-[Create and map detection rules](create-detection-rules.md)
+[Create and map detection rules]()
 
-[Auto-extract technique rules for importing MITRE-ATT&amp;CK information](../concept/auto-extract-technique-rules.md#)
+[Auto-extract technique rules for importing MITRE-ATT&amp;CK information]()
 
-[Review threat group and MITRE-ATT&amp;CK techniques mapping](review-threat-group-and-techniques-mapping.md)
+[Review threat group and MITRE-ATT&amp;CK techniques mapping]()
 
-[Review the MITRE-ATT&amp;CK system properties](configure-mitre-att-ck-properties.md)
+[Review the MITRE-ATT&amp;CK system properties]()
 

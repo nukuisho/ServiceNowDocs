@@ -1,11 +1,12 @@
 ---
 title: Configure Eligibility Rules Engine Policies in Social Benefits Playbook
-description: Use the Social Benefits Playbook Eligibility Rules Engine, powered by Policy as Code Engine \(PaCE\), to manage the life cycle of a policy and create, update, review, and execute policies. In the Policy Home of the CSM Configurable Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Social Benefits Playbook.Create an eligibility policy using Social Benefits Playbook Eligibility Rules Engine​.For a eligibility policy to be invoked correctly, it must be mapped to an existing benefit model. Map a published eligibility policy to one or more of the social benefit types that your agency offers.Update an eligibility policy in the Social Benefits Eligibility Framework Engine.Make changes to the policy logic in the Social Benefits Eligibility Framework Engine. The Policy Builder tab allows an admin to test new logic parameters through the test playground.You can edit the mapping settings that map a policy to a benefit model.Create eligibility policy templates for the Social Benefits Playbook policy forms that you use frequently.
+description: Use the Social Benefits Playbook Eligibility Rules Engine, powered by Policy as Code Engine \(PaCE\), to manage the life cycle of a policy and create, update, review, and execute policies. In the Policy Home of the CSM Configurable Workspace, you can create, remove, and update the policies used for determining eligibility for an application routed through the Social Benefits Playbook.Create an eligibility policy using Social Benefits Playbook Eligibility Rules Engine​.For a eligibility policy to be invoked correctly, it must be mapped to an existing benefit model. Map a published eligibility policy to one or more of the social benefit types that your agency offers.Update an eligibility policy in the Social Benefits Eligibility Framework Engine.Make changes to the policy logic in the Social Benefits Eligibility Framework Engine. The Policy Builder tab allows an admin to test new logic parameters through the test playground.You can edit the mapping settings that map a policy to a benefit model.Create eligibility policy templates for the Social Benefits Playbook policy forms that you use frequently.Use an existing policy template created to quick-start the creation of a new eligibility policy with a similar set of data sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-sbp-ef-configure-eligibility.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Configure Eligibility Rules Engine, Social Benefits Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -15,7 +16,7 @@ Use the Social Benefits Playbook Eligibility Rules Engine, powered by Policy as 
 
 You can define and manage your eligibility rules engine policies in a single management console, the Policy Management Home in CSM Configurable Workspace.
 
-![Admin view of Policy Home on CSM Configurable Workspace](../image/psds_sbp_policy_home.png)
+\[Omitted image "psds\_sbp\_policy\_home.png"\] Alt text: Admin view of Policy Home on CSM Configurable Workspace
 
 Here, you can:
 
@@ -136,7 +137,7 @@ When you create a policy, a draft policy version is created, and must be publish
 -   Save the policy as a template
 -   Compare versions
 -   Duplicate policy versions
-For more details, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-versions.md).**Note:** You must publish a policy version to make it current before it can be used.
+For more details, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-policy-versions.md).**Note:** You must publish a policy version to make it current before it can be used.
 
 </td></tr><tr><td>
 
@@ -223,7 +224,7 @@ Value to enter text. Select the Data picker icon to concatenate multiple text st
 
 ### Result
 
-An eligibility policy is now created, and is ready to be mapped to one of more benefits models of the Social Benefits Playbook. See [Map an PaCE eligibility policy to a benefit model using Social Benefits Playbook Eligibility Framework](psds-sbp-ef-configure-eligibility.md#) for information on how to map the published policy to a specific benefit.
+An eligibility policy is now created, and is ready to be mapped to one of more benefits models of the Social Benefits Playbook. See [Map an PaCE eligibility policy to a benefit model using Social Benefits Playbook Eligibility Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-sbp-ef-configure-eligibility.md) for information on how to map the published policy to a specific benefit.
 
 ## Map an PaCE eligibility policy to a benefit model using Social Benefits Playbook Eligibility Framework
 
@@ -266,15 +267,15 @@ Role required: admin
 
 3.  Do one of the following, depending on what information you want to update.
 
-<table id="choicetable_swn_gw1_3bc"><thead><tr><th align="left" id="d62548e822">
+<table id="choicetable_swn_gw1_3bc"><thead><tr><th align="left" id="d47298e823">
 
 Select...
 
-</th><th align="left" id="d62548e825">
+</th><th align="left" id="d47298e826">
 
 To...
 
-</th></tr></thead><tbody><tr><td id="d62548e831">
+</th></tr></thead><tbody><tr><td id="d47298e832">
 
 **Select the Details tab.**
 
@@ -282,7 +283,7 @@ To...
 
 Edit details such as the policy name, category, date, and description.
 
-</td></tr><tr><td id="d62548e840">
+</td></tr><tr><td id="d47298e841">
 
 **Select the Policy Builder tab.**
 
@@ -290,7 +291,7 @@ Edit details such as the policy name, category, date, and description.
 
 Make changes to the policy logic, and switch between versions to take various actions at the version level. **Note:** Published versions of policies cannot be updated. To make changes to the logic of an existing policy, select **Create a copy** to create a new version of the existing policy that can be updated accordingly.
 
-</td></tr><tr><td id="d62548e854">
+</td></tr><tr><td id="d47298e855">
 
 **Select the Version Management tab.**
 
@@ -298,7 +299,7 @@ Make changes to the policy logic, and switch between versions to take various ac
 
 Manage different versions of a policy.
 
-</td></tr><tr><td id="d62548e863">
+</td></tr><tr><td id="d47298e864">
 
 **Select the Mappings tab.**
 
@@ -306,7 +307,7 @@ Manage different versions of a policy.
 
 Update or review the benefits to which the given policy is mapped.
 
-</td></tr><tr><td id="d62548e873">
+</td></tr><tr><td id="d47298e874">
 
 **Select the Executions tab.**
 
@@ -336,7 +337,7 @@ Role required: admin
 
 4.  Update the value or condition you wish to change, or add a new piece of logic to the eligibility policy.
 
-5.  Select the Test Playground icon ![test playground icon](../image/test-playground-icon.png) in the contextual side panel to test the policy.
+5.  Select the Test Playground icon \[Omitted image "test-playground-icon.png"\] Alt text: test playground icon in the contextual side panel to test the policy.
 
 6.  Select the parameters of the policy logic and select **Run Test**.
 
@@ -463,7 +464,7 @@ Date and time when the policy template was created.
 
 6.  Select the **Template Builder** tab and fill in the conditions in the Policy logic section, then select **Save**.
 
-    For more information about the parameters and condition fields, see [Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-passing-parameters.md) and [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.md).
+    For more information about the parameters and condition fields, see [Passing parameters to PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-passing-parameters.md) and [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-policy-logic-fields.md).
 
 
 ### What to do next
@@ -480,4 +481,47 @@ Before you activate your template, you can create a policy to test the template.
 8.  Navigate back to **Templates** &gt; **All Templates**. Select the template that you tested, then **Activate**.
 
 **Note:** Updating a template won’t affect policies created previously with that template.
+
+### Create a PaCE Eligibility Policy from a template
+
+Use an existing policy template created to quick-start the creation of a new eligibility policy with a similar set of data sources.
+
+#### About this task
+
+Use an existing policy template created to quick-start the creation of a new eligibility policy with a similar set of data sources.
+
+#### Before you begin
+
+Verify the template is activated. .
+
+Role required: admin
+
+#### Procedure
+
+1.  From the CSM Configurable Workspace sidebar, navigate to the **Policy Home** and select **All Policies**.
+
+2.  Select **New**.
+
+3.  Select the desired template.
+
+4.  Update the policy details with the details of the policy you are creating.
+
+5.  Select the **Policy Builder** tab.
+
+6.  On the **If** form, fill in the fields.
+
+7.  On the **Or** form, fill in the fields.
+
+8.  On the **Then** form, fill in the fields.
+
+9.  Select **Add else**, and fill in the fields.
+
+10. Select **Save**.
+
+11. Select **Publish**, and on the pop-up modal, select the checkbox for **Activate this Policy**, then **Publish without testing** to confirm activation of the policy.
+
+
+#### Result
+
+The policy is now activated and can be used to evaluate eligibility for any open Social Benefits case. A version of the policy should appear in the Version Management tab, as will any subsequent updates to the policy. You can publish any version of the policy at any time. For more information on PaCE policy version control, see [Manage PaCE policy versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/pace-policy-versions.md).
 

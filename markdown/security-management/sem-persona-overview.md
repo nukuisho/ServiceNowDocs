@@ -2,6 +2,7 @@
 title: Security Exposure Management Workspace personas and granular roles
 description: Before you can successfully remediate vulnerabilities with the Security Exposure Management Workspace plugin, you must assign personas and roles to your users and groups in Setup Assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-persona-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,15 +16,15 @@ Before you can successfully remediate vulnerabilities with the Security Exposure
 
 One of the first configuration steps required for the Security Exposure Management Workspace plugin is to assign roles to users and groups. Roles define what users and groups can see and do in Security Exposure Management Workspace, Performance Analytics for Vulnerability Response, and all third party integrations with Security Exposure Management Workspace.
 
-You assign persona roles to existing users and groups in Setup Assistant. See [Assign the Vulnerability Response persona roles using Setup Assistant](../task/sem-assign-personas_SA.md).
+You assign persona roles to existing users and groups in Setup Assistant. See [Assign the Vulnerability Response persona roles using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-assign-personas_SA.md).
 
 **Note:**
 
 If you are an upgrade customer, you can continue using your existing roles for the Vulnerability Response application. Access for users and groups assigned with the sn\_vul.vulnerability\_read and sn\_vul.vulnerability\_write permissions and remediation owner prior to v10.3 has not changed.
 
-However, for more control over what users and groups can do and see in the Security Exposure Management Workspace plugin at the task level, you may prefer using granular roles. For more information, see [Manage persona and granular roles for Vulnerability Response](../task/sem-manage-granular-roles.md).
+However, for more control over what users and groups can do and see in the Security Exposure Management Workspace plugin at the task level, you may prefer using granular roles. For more information, see [Manage persona and granular roles for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-manage-granular-roles.md).
 
-If you have already assigned roles using Setup Assistant and you want to manage granular role assignments for all users and groups from the User Administration module, see [Manage persona and granular roles for Vulnerability Response](../task/sem-manage-granular-roles.md) for more information.
+If you have already assigned roles using Setup Assistant and you want to manage granular role assignments for all users and groups from the User Administration module, see [Manage persona and granular roles for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-manage-granular-roles.md) for more information.
 
 ## Persona roles and granular roles starting
 
@@ -111,7 +112,7 @@ For example, assign sn\_vul.read\_all so a user can view all VR records. For rea
 
 One way to think about persona roles is to consider how their descriptions may relate to job descriptions for various IT or vulnerability remediation positions in your organization. The following figure illustrates a possible job description for a remediation specialist in IT, and how the tasks associated with this job relate to the tasks of a remediation owner persona role in the Vulnerability Response application.
 
-![Jobs in company compared to personas in Vulnerability Response.](../../vulnerability-response/image/job-tasks-personas.png "Job descriptions and a persona role")
+\[Omitted image "job-tasks-personas.png"\] Alt text: Jobs in company compared to personas in Vulnerability Response.
 
 Both the job description and the remediation owner persona role could be defined as a series of remediation tasks. In the preceding image, a job description and a persona role in green blocks sit atop the tasks that describe them. In this example, some of the typical job requirements for a specialist in a remediation group correspond directly to the tasks that make up the remediation owner persona in Vulnerability Response: Review and update records, track the remediation status of vulnerabilities, prioritize items for remediation, and apply fixes and patches with IT.
 
@@ -123,7 +124,7 @@ The names for the granular roles in Vulnerability Response usually describe what
 
 In the following image, the granular roles of both the remediation owner persona role and the vulnerability analyst persona are illustrated. Note that the remediation owner persona does not include the read\_all and write\_all permissions of the vulnerability analyst persona. The granular roles, read\_all and write\_all, are required before users and groups can read and edit all of the vulnerable item and remediation task records. To customize these roles, simply add or remove granular roles to expand or limit access.
 
-![The granular roles you can add or remove for the remediation owner and vulnerability analyst personas. For example, the read all and write all roles for the vulnerability analyst.](../../vulnerability-response/image/vr-Persona.png "Granular roles and the remediation owner and vulnerability analyst personas")
+\[Omitted image "vr-Persona.png"\] Alt text: The granular roles you can add or remove for the remediation owner and vulnerability analyst personas. For example, the read all and write all roles for the vulnerability analyst.
 
 If you want your users and groups to have more access than the persona roles permit, you can add more granular roles to users and groups. Conversely, if you want to limit access for specific users and groups at the task level, you can remove granular roles.
 
@@ -131,7 +132,7 @@ If you want your users and groups to have more access than the persona roles per
 
 ## Granular roles in the User Administration module
 
-For an example of how to manage granular roles for a user or group, see [Manage persona and granular roles for Vulnerability Response](../../vulnerability-response/task/vr_manage_granular-roles.md).
+For an example of how to manage granular roles for a user or group, see [Manage persona and granular roles for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr_manage_granular-roles.md).
 
-To assign persona roles, see [Assign the Vulnerability Response persona roles using Setup Assistant](../../vulnerability-response/task/vr-assign-personas_SA.md).
+To assign persona roles, see [Assign the Vulnerability Response persona roles using Setup Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-assign-personas_SA.md).
 

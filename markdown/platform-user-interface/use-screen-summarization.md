@@ -2,6 +2,7 @@
 title: Use Screen Summarization
 description: Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The page and section summaries can be read aloud with a screen reader.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-screen-summarization.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,6 +20,10 @@ Install Screen Summarization by requesting it from the ServiceNow® Store. Visit
 
 Role required: workspace\_user
 
+## About this task
+
+\[Omitted video\] Description: Screen Summarization overview and instructions on how to use it
+
 ## Procedure
 
 1.  Open a workspace page in your instance.
@@ -27,7 +32,7 @@ Role required: workspace\_user
 
     The Screen Summarization modal opens.
 
-    ![Screen summarization modal](../image/modal-ai-screen-summarizer.png)
+    \[Omitted image "modal-ai-screen-summarizer.png"\] Alt text: Screen summarization modal
 
 3.  Choose between the following actions:
 
@@ -38,5 +43,5 @@ Role required: workspace\_user
 
 The Screen Summarization modal generates a summary and can read it aloud with a screen reader.
 
-![Screen Summarization summary](../image/modal-ai-screen-summarizer-2.png)
+\[Omitted image "modal-ai-screen-summarizer-2.png"\] Alt text: Screen Summarization summary
 

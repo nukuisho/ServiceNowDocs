@@ -56,7 +56,7 @@ Condition
 
 </td><td>
 
-Conditions to be met when the required events occur in Jenkins. See [Jenkins v2 Spoke](../concept/jenkins-spoke-1.md) for information about the supported fields.
+Conditions to be met when the required events occur in Jenkins. See [Jenkins v2 Spoke]() for information about the supported fields.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Answer
 
 </td><td>
 
-Subflow that must be triggered when the specified conditions are met.1.  Click the Lookup icon \(![Lookup icon](../image/lookup-icon.png)\).
+Subflow that must be triggered when the specified conditions are met.1.  Click the Lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon\).
 2.  Select the required subflow from the Document list.
 
 **Note:** Ensure that the **Table name** is `Jenkins v2 Webhook Answer Subflow [sn_jenkinsv2_spoke_webhook_answer_subflow]`.

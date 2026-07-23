@@ -2,6 +2,7 @@
 title: Create a data preserver \(legacy\)
 description: Data preservers copy specified data to a target instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateADataPreserver.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ Role required: clone\_admin
 
 Data preservers retain system settings and themes, such as instance-specific authentication settings from the source instance. Don't use data preservers to transfer large sets of data, such as user groups. If you must preserve table data such as users, groups, and roles, consider exporting the records to a file and importing it after the clone is complete.
 
-For information on how data preservers interact with exclusions see [Clarifying exclusions and preservers combinations](../concept/clone-exclusions-preservers-cleanupscripts.md#section_ahk_kxg_bgc).
+For information on how data preservers interact with exclusions see [Clarifying exclusions and preservers combinations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/clone-exclusions-preservers-cleanupscripts.md).
 
 ## Procedure
 

@@ -2,9 +2,10 @@
 title: Share observables from a security incident
 description: Observables can be shared from a security incident in Security Incident Response to members in your trusted circle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/share-observable.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [View Sightings Search Results, Create sightings search configuration records, Security Operations Integration- Sightings Search capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -44,5 +45,5 @@ Role required: sn\_si.analyst
 10. If any of the shared observables contain sightings, the sightings are also shared and can be viewed by selecting the **Sightings** tab.
 
 
-**Parent Topic:**[View Sightings Search Results](view-sightings-search-results.md)
+**Parent Topic:**[View Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-sightings-search-results.md)
 

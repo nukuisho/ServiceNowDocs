@@ -2,6 +2,7 @@
 title: Configure Public Sector Digital Services foundational data and workflows
 description: With the Public Sector Digital Services Core application, you can import or create constituent information including names, addresses, and phone numbers; account and financial details; services contracts and items received; and service entitlements and contracts. You can also assign roles to users and create user relationships.Walk through the guided setup processes to configure Public Sector Digital Services foundational data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/configure-psds-foundation-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Walk through the guided setup processes to configure Public Sector Digital Servi
 
 ### Before you begin
 
-[Install the Public Sector Digital Services Core application](../task/install-public-sector-digital-services-core.md).
+[Install the Public Sector Digital Services Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/install-public-sector-digital-services-core.md).
 
 Role required: admin
 
@@ -51,7 +52,7 @@ To create data, such as adding new accounts and contacts, you can use the Public
 
     The guided setup reopens with a page of different categories of Public Sector Digital Services features that you can configure.
 
-    ![Guided Setup page view with modules and task completion to set up Public Sector Digital Services.](../image/ps-gs-second-page.png)
+    \[Omitted image "ps-gs-second-page.png"\] Alt text: Guided Setup page view with modules and task completion to set up Public Sector Digital Services.
 
 4.  In the Guided Setup category, select **Get Started**, then select the Foundation Data category and select Get Started.
 
@@ -115,7 +116,7 @@ Roles control access to features and capabilities. The Public Sector Digital Ser
 
 -   Internal roles for agents and managers
 -   External roles for constituents, business partners, and etc
-Assign the necessary roles to internal and external users. For more information, see [Assign roles to Public Sector Digital Services users](psds-config-assign-user-roles.md).
+Assign the necessary roles to internal and external users. For more information, see [Assign roles to Public Sector Digital Services users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-assign-user-roles.md).
 
 </td></tr><tr><td>
 
@@ -177,5 +178,5 @@ Account teams are made up of employees who fulfill specific jobs or roles for a 
 </table>
 ### What to do next
 
-After you have completed the foundation setup tasks, you can [set up your agent workspace](psds-config-organize-agent-workspaces.md) with other Public Sector applications, such as [Playbooks](psds-install-playbooks-solutions.md) or the [Performance Analytics Content Pack](../../../use/dashboards/application-content-packs/psds-install.md).
+After you have completed the foundation setup tasks, you can [set up your agent workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-config-organize-agent-workspaces.md) with other Public Sector applications, such as [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-install-playbooks-solutions.md) or the [Performance Analytics Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-install.md).
 

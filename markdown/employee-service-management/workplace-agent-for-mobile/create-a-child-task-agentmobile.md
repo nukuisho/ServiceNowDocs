@@ -2,13 +2,14 @@
 title: Create a child task
 description: Add child tasks to a workplace case when needed. The application enables you to create a child task instantly from the case details page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/create-a-child-task-agentmobile.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use Workplace Agent for mobile, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Use, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a child task
@@ -37,7 +38,7 @@ Role required: sn\_wsd\_case.workplace\_agent
 
     The case details page of the selected case opens separately.
 
-4.  Select the ![](../images/actions.png) icon on the top right of the header.
+4.  Select the \[Omitted image "actions.png"\] Alt text: icon on the top right of the header.
 
 5.  Select **Create task**.
 
@@ -74,24 +75,24 @@ Role required: sn\_wsd\_case.workplace\_agent
 
 ## Result
 
-The child task is created. After creation, the child task details are displayed in a separate page. For more information about actions that you can perform on a task, refer to [Edit or view a child task](edit-or-view-a-child-task-agentmobile.md).
+The child task is created. After creation, the child task details are displayed in a separate page. For more information about actions that you can perform on a task, refer to [Edit or view a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/edit-or-view-a-child-task-agentmobile.md).
 
-**Parent Topic:**[Use Workplace Agent for mobile](../concept/use-workplace-agent-mobile.md)
+**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
 
 **Related topics**  
 
 
-[Manage workplace cases and tasks](manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.md)
+[Manage workplace cases and tasks]()
 
-[Edit or view case details on the Workplace Agent for mobile app](edit-or-view-case-details-agentmobile.md)
+[Edit or view case details on the Workplace Agent for mobile app]()
 
-[Print workplace cases](print-workplace-cases-mobile.md)
+[Print workplace cases]()
 
-[Print workplace tasks](print-workplace-tasks-mobile.md)
+[Print workplace tasks]()
 
-[Create a workplace case on behalf of an employee through Workplace Agent for mobile](create-agentcase-mobile.md)
+[Create a workplace case on behalf of an employee through Workplace Agent for mobile]()
 
-[Edit or view a child task](edit-or-view-a-child-task-agentmobile.md)
+[Edit or view a child task]()
 
-[Offline mode](offline-mode.md)
+[Offline mode]()
 

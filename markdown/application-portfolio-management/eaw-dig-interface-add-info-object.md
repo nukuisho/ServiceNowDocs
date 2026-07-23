@@ -2,6 +2,7 @@
 title: Relate an information object to a digital interface
 description: Associate an information object to a digital interface in the Enterprise Architecture Workspace. You can also define how the information object should be consumed within the digital interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-dig-interface-add-info-object.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,9 +28,9 @@ Prior to linking the information objects to a digital interface that is provided
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  In the left navigation, open the Portfolio List view by selecting the Portfolio icon \(![Portfolio icon](../../image/portfolio-icon.png)\).
+2.  In the left navigation, open the Portfolio List view by selecting the Portfolio icon \(\[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon\).
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Application Portfolio**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Application Portfolio**.
 
 4.  Select **Digital Interfaces**.
 
@@ -41,25 +42,25 @@ Prior to linking the information objects to a digital interface that is provided
 
 8.  On the Create New Digital Interface Information Object form, fill in the fields.
 
-    For field descriptions, see [Digital interface information object form](../../reference/eaw-reference/eaw-dig-interface-info-object-form.md).
+    For field descriptions, see [Digital interface information object form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-info-object-form.md).
 
 9.  Select **Save**.
 
 
-**Parent Topic:**[Working with digital interfaces](../../concept/eaw-concept/eaw-work-with-digital-interfaces.md)
+**Parent Topic:**[Working with digital interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-digital-interfaces.md)
 
 **Related topics**  
 
 
-[View all digital interfaces](eaw-view-all-dig-interfaces.md)
+[View all digital interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-dig-interfaces.md)
 
-[Relate an SDLC component to a digital interface](eaw-dig-interface-add-sdlc-comp.md)
+[Relate an SDLC component to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-sdlc-comp.md)
 
-[Manage architectural artifacts of a digital interface in EA Workspace](eaw-manage-artifacts-digital-interface.md)
+[Manage architectural artifacts of a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-artifacts-digital-interface.md)
 
-[Add or edit a digital interface in the EA Workspace](eaw-create-digital-interface.md)
+[Add or edit a digital interface in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-digital-interface.md)
 
-[Relate credentials to a digital interface](eaw-dig-interface-add-credential.md)
+[Relate credentials to a digital interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-interface-add-credential.md)
 
-[Connect a digital interface with the CMDB API in the EA Workspace](eaw-relate-dig-interface-api.md)
+[Connect a digital interface with the CMDB API in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-relate-dig-interface-api.md)
 

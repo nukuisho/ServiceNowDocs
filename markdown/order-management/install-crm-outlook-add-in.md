@@ -2,10 +2,11 @@
 title: Install CRM Outlook Add-in
 description: You can install the CRM Outlook Add-in application \(com.sn\_crm\_outlook\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/install-crm-outlook-add-in.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Activity Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -22,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-User roles are installed with CRM Outlook Add-in. For more information, see [Components installed with the CRM Outlook Add-in](../reference/components-installed-crm-outlook-add-in.md).
+User roles are installed with CRM Outlook Add-in. For more information, see [Components installed with the CRM Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-crm-outlook-add-in.md).
 
 ## Procedure
 
@@ -49,6 +50,13 @@ User roles are installed with CRM Outlook Add-in. For more information, see [Com
 
 ## What to do next
 
--   [Configure CRM access from Microsoft Outlook](add-crm-outlook-add-in.md)
--   [Make emails associated through the CRM Outlook Add-in visible to agents](promote-crm-outlook-emails.md)
+-   [Configure CRM access from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-crm-outlook-add-in.md)
+-   [Configure email promotion rules for Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/promote-crm-outlook-emails.md)
+
+**Related topics**  
+
+
+[Using Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)
+
+[Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md)
 

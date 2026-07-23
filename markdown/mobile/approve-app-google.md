@@ -2,6 +2,7 @@
 title: Approve the ServiceNow app for Google Play
 description: Android for Work may not be able to find the ServiceNow application. If that is the case, the ServiceNow App might not be approved for your organization. You can approve the app by finding it in the Google Play store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/approve-app-google.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,8 +26,8 @@ Role required: none, however, you must either go to Google Play through the MDM,
 
 3.  Click **Approve**.
 
-    ![App in the Google Play store with the Approve button highlighted](../image/ApproveAndroidApp.png)
+    \[Omitted image "ApproveAndroidApp.png"\] Alt text: App in the Google Play store with the Approve button highlighted
 
 
-**Parent Topic:**[Supported mobile device management vendors](../concept/mobile-vendors.md)
+**Parent Topic:**[Supported mobile device management vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-vendors.md)
 

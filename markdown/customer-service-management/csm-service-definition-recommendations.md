@@ -2,6 +2,7 @@
 title: Service recommendations for interactions
 description: Recommend the most relevant services to an agent based on the context of an interaction record, such as the short description or description.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-service-definition-recommendations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ With Service recommendations for interactions, agents can see the recommended se
 
 The system displays the recommended services in a separate section at the top of the case type selector. By default, this section shows a maximum of four recommended services. The number of recommended services that can be displayed is controlled by the **sn\_csm\_case\_types.top\_ai\_predictions\_limit** system property.
 
-![Case type selector with the Top AI Predictions section that displays cards for AI predicted services based on the interaction context](../image/case-type-selector-ai-predictions.png "Case type selector with Top AI Predictions")
+\[Omitted image "case-type-selector-ai-predictions.png"\] Alt text: Case type selector with the Top AI Predictions section that displays cards for AI predicted services based on the interaction context
 
 ## Service recommendations for interactions properties
 
@@ -57,7 +58,7 @@ Sets the maximum number of AI predicted services to display in the case type sel
 </table>**Related topics**  
 
 
-[Configure service recommendations for interactions](../task/configure-service-recommendations-int.md)
+[Configure service recommendations for interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/configure-service-recommendations-int.md)
 
-[Create a case based on service definition recommendations](../task/use-service-definition-rec.md)
+[Create a case based on service definition recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/use-service-definition-rec.md)
 

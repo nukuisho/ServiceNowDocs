@@ -2,6 +2,7 @@
 title: Create a monetary benefit plan for a project
 description: Create a monetary benefit plan to specify the estimated benefit in a category spanning one or more fiscal periods. Project benefit plans capture the potential benefits accrued by the project when the project is executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/create-project-benefit-plan.html
 release: australia
 product: Project Management
 classification: project-management
@@ -35,9 +36,9 @@ The monetary benefit plan breakdown records are automatically created when you s
 
 4.  On the form, fill in the fields.
 
-    For field information, see [Benefit Plan form](../reference/benefit-plan-form-project-management.md).
+    For field information, see [Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/benefit-plan-form-project-management.md).
 
-    **Note:** When you move the project or the milestone date, the associated benefit plans also change accordingly based on whether the benefit plan is tied to the project start date, end date, or one of the project milestones. The [project property](../reference/r_InstalledWithProjectManagement.md#project_application_properties) **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** controls the behavior for project date changes.
+    **Note:** When you move the project or the milestone date, the associated benefit plans also change accordingly based on whether the benefit plan is tied to the project start date, end date, or one of the project milestones. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** controls the behavior for project date changes.
 
 5.  Select **Submit**.
 
@@ -46,61 +47,57 @@ The monetary benefit plan breakdown records are automatically created when you s
 
 On the Benefit Plan form, view the benefit breakdown by fiscal period in the Monetary Benefit Plan Breakdowns related list.
 
--   **[Update a monetary benefit plan breakdown for a project](update-benefit-plan-breakdown.md)**  
+-   **[Update a monetary benefit plan breakdown for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-benefit-plan-breakdown.md)**  
 Update a monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 
-**Parent Topic:**[Starting a project](t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
 
-[Create a project task from a project](t_CreateATaskFromAProject.md)
+[Create a project task from a project]()
 
-[Create a parent-child relationship on the Project Task form](t_CreateParentChildRelationship.md)
+[Create a parent-child relationship on the Project Task form]()
 
-[Create a non-monetary benefit plan for a project](create-a-non-monetary-benefit-plan-for-a-project.md)
+[Create a non-monetary benefit plan for a project]()
 
-[Associate monetary and non-monetary benefit plans](associate-monetary-and-non-monetary-benefit-plans-project.md)
+[Associate monetary and non-monetary benefit plans]()
 
-[Create a project cost plan](t_CreateAProjectCostPlan.md)
+[Create a project cost plan]()
 
-[Recalculating costs of all resource plans in a project](recalculate-resource-costs-of-a-project.md)
+[Recalculating costs of all resource plans in a project]()
 
-[Create an expense line](t_CreateAExpenseLine.md)
+[Create an expense line]()
 
-[Create and manage waterfall projects](../../project-portfolio-suite/concept/c_CreateAndManageWaterfallProjects.md)
+[Create and manage waterfall projects]()
 
-[Schedule a project from a start date](schedule-a-project-pm.md)
+[Update a project]()
 
-[Apply or change a task constraint](change-task-constraint-project-management.md)
+[Copy a project]()
 
-[Update a project](t_UpdateAProjectInProgress.md)
+[Assign a project schedule]()
 
-[Copy a project](t_CopyAProject.md)
+[Create baseline of a project]()
 
-[Assign a project schedule](t_UseAProjectSchedule.md)
+[Create a milestone]()
 
-[Create baseline of a project](t_CreateAProjectBaseline.md)
+[Activate project task email notifications]()
 
-[Create a milestone](t_CreateMilestones.md)
+[Change the planned start date of a project]()
 
-[Activate project task email notifications](t_ActivateProjTaskEmailNot.md)
+[Create a cost type definition]()
 
-[Change the planned start date of a project](change-planned-start-date-of-project.md)
+[Costing add-on in Project Management]()
 
-[Create a cost type definition](t_CreateAResourceTypeDefinition.md)
+[Generate labor costs]()
 
-[Costing add-on in Project Management](../concept/c_ProjectManagementCostingAddOn.md)
+[Create a project status report]()
 
-[Generate labor costs](gen-cost-pln-prj-wrkspc.md)
+[Allocate budget to a project]()
 
-[Create a project status report](t_CreateAProjectStatusReport.md)
+[Migrate budget of active projects to Next Experience]()
 
-[Allocate budget to a project](allocate-budget-to-project.md)
+[Migrate financial baselines of projects to Next Experience]()
 
-[Migrate budget of active projects to Next Experience](fin-migrate-budget-project-ppm.md)
-
-[Migrate financial baselines of projects to Next Experience](migrate-fin-baselines-projects.md)
-
-[Update a monetary benefit plan breakdown for a project](update-benefit-plan-breakdown.md)
+[Update a monetary benefit plan breakdown for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-benefit-plan-breakdown.md)
 

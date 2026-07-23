@@ -2,11 +2,12 @@
 title: Edit skills and proficiencies in the Skills Matrix
 description: Edit skills data and their proficiency levels to manage the progression at each role level in a role group using the Skills Matrix in the Skills Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/edit-skills-with-skills-matrix.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Working with job architecture, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -23,7 +24,7 @@ Role required: sn\_skills\_int.admin
 
 1.  Navigate to **All** &gt; **Skills Workspace**.
 
-2.  Select the Lists icon \(![Lists icon](../../../common/image/icon-list.png)\).
+2.  Select the Lists icon \(\[Omitted image "icon-list.png"\] Alt text: Lists icon\).
 
 3.  Go to **Job architecture** &gt; **Role groups**.
 
@@ -46,14 +47,14 @@ Role required: sn\_skills\_int.admin
 11. Select **Save**.
 
 
-**Parent Topic:**[Working with job architecture](../concept/job-architecture-working.md)
+**Parent Topic:**[Working with job architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/job-architecture-working.md)
 
 **Related topics**  
 
 
-[Creating a new role group through the Skills Workspace](create-new-role-group.md)
+[Creating a new role group through the Skills Workspace]()
 
-[Add more skills to a role group](adding-skills-with-skills-matrix.md)
+[Add more skills to a role group]()
 
-[Create related role groups](related-role-groups.md)
+[Create related role groups]()
 

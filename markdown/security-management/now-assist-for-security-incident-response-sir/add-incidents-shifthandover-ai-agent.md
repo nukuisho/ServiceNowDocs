@@ -2,6 +2,7 @@
 title: Generate SIR Shift Handover Report
 description: Chat with an AI agent in the Now Assist panel to use the Generate SIR Shift Handover Report agentic workflow to help you add a security incident's detail to a shift handover report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/add-incidents-shifthandover-ai-agent.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir

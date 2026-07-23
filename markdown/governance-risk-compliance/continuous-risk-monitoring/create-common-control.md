@@ -2,13 +2,14 @@
 title: Inherit from a common control
 description: After you have created a common control, you can identify other controls that can inherit protection and compliance from that common control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/create-common-control.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [RMF step 2 - Select controls for an authorization package, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [RMF step 2 - Select controls for an authorization package, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Inherit from a common control
@@ -38,12 +39,10 @@ You are aware that the facility has a fire suppression system, fire alarms, and 
 
 4.  Select **Inherit from Common Control**.
 
-    ![Inherit from Common Control](../image/inherit-confirm.png)
-
 5.  Select the common control you want to inherit protections from and select **Confirm**.
 
     The Inherited Controls related list now shows the control objective and the common control from which it is inheriting protection and compliance.
 
-    ![Inherited Controls](../image/inherited-control.png)
+    \[Omitted image "inherited-control.png"\] Alt text: Inherited Controls
 
 

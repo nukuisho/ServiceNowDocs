@@ -2,6 +2,7 @@
 title: Invoice case line form
 description: The invoice case line form displays details about an invoice case line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/invoice-case-lines-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

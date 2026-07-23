@@ -2,6 +2,7 @@
 title: Use Now Assist for Retail Service Management \(RSM\)
 description: Use store inquiry Al agent to improve and enhance the store inquiry processes in Retail Service Management\(RSM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/agentic-workflows-now-assist-retail.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ For more information on modifying an agentic workflow, see.
 
 Looking for an AI agent?
 
--   There may be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/csh?topicname=find-ai-agents&version=zurich&pubname=zurich-intelligent-experiences).
+-   There may be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 -   To find agents that may not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 **AI agents security**
@@ -44,5 +45,5 @@ You can enable security implementation on AI agents and agentic workflows throug
 
 Configure and manage these ACLs for agentic workflows and AI agents in the AI Agent Studio.
 
-See [Implement access control for security in AI agents](https://www.servicenow.com/docs/csh?topicname=aia-security-implementation&version=zurich&pubname=zurich-intelligent-experiences) for more information.
+See [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for more information.
 

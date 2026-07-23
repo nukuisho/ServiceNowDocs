@@ -2,6 +2,7 @@
 title: Components installed with Collaboration Services for Task Communications Management
 description: Several types of components are installed with the Collaboration Services for Task Communications Management \(sn\_tcm\_collab\_hook\) plugin, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/components-with-collab-services-tcm.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management
@@ -55,5 +56,5 @@ Stores Collaboration Service related data.
 </table>**Related topics**  
 
 
-[Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-slack-workspace.md)
+[Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-slack-workspace.md)
 

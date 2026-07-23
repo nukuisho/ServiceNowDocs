@@ -2,6 +2,7 @@
 title: Adding Declarative Actions on the Standard Record Page
 description: Adding declarative actions on the Incident page and the tabs inside the incident record page using the Standard Record Page \(SRP\) in the Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-srp-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -50,5 +51,5 @@ Along with the declarative actions customizations, the SRP or Standard Record Pa
     |Target Payload Mapping|The binding of the container and the type of the event|
 
 
-**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](../concept/srp-service-operations-workspace.md)
+**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)
 

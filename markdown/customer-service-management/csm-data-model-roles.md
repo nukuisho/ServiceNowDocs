@@ -2,10 +2,11 @@
 title: Service Model Foundation roles
 description: Roles that are included with the plugins that enable the Service Model Foundation feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-model-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -32,6 +33,41 @@ Description
 Contains roles
 
 </th></tr></thead><tbody><tr><td>
+
+Organization Hierarchy Contributor\[org\_hierarchy\_contributor\]
+
+</td><td>
+
+Organization Hierarchy Contributor
+
+</td><td>
+
+Create and track cases on behalf of their organization hierarchy.
+
+</td><td>
+
+sn\_customerservice.service\_organization\_contributor
+
+</td></tr><tr><td>
+
+Business Organization Self Contributor\[sn\_bus\_loc.business\_org\_self\_contributor\] or \[business\_org\_self\_contributor\]
+
+</td><td>
+
+Business Organization Self Contributor
+
+</td><td>
+
+Enables self-service case reporting for frontline, field, and location-based workers within business organizations. With this role, you can:
+
+-   Create and track cases for sold products and install base items assigned to you at a business location.
+-   View your own member details and responsibility at that location, along with the assignment group mapped to it.
+
+</td><td>
+
+sn\_customerservice.case\_contributor\_creator
+
+</td></tr><tr><td>
 
 Location agent\[sn\_customerservice.svc\_location\_agent\]
 
@@ -825,5 +861,5 @@ No
 </table>**Related topics**  
 
 
-[Service Model Foundation Granular admin roles](granular-admin-roles.md)
+[Service Model Foundation Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/granular-admin-roles.md)
 

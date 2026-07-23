@@ -1,7 +1,8 @@
 ---
 title: View or edit a consumer profile
-description: Registered users with the consumer role can view their consumer profiles, edit the information as needed, and change passwords.
+description: View and update your consumer profile, including personal information and contact details, from the Consumer Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-edit-consumer-portal-profile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,7 +12,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # View or edit a consumer profile
 
-Registered users with the consumer role can view their consumer profiles, edit the information as needed, and change passwords.
+View and update your consumer profile, including personal information and contact details, from the Consumer Portal.
 
 ## Before you begin
 
@@ -37,5 +38,5 @@ Role required: sn\_customerservice.consumer
 **Related topics**  
 
 
-[SoftPIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/softpin-authentication.md)
+[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/softpin-authentication.md)
 

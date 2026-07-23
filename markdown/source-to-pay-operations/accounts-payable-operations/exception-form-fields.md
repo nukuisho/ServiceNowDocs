@@ -1,19 +1,21 @@
 ---
 title: Invoice exception form
-description: Use the invoice exception form to view the case details that store invoice exception information that an Accounts Payable Specialist can use to perform related tasks.
+description: Field descriptions for the Invoice Exception form, organized by section, for reviewing and resolving invoice exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/exception-form-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice exception, invoice automation, AP automation]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice exception form
 
-Use the invoice exception form to view the case details that store invoice exception information that an Accounts Payable Specialist can use to perform related tasks.
+Field descriptions for the Invoice Exception form, organized by section, for reviewing and resolving invoice exceptions.
 
 |Field|Description|
 |-----|-----------|
@@ -31,41 +33,43 @@ Use the invoice exception form to view the case details that store invoice excep
 |Supplier|Supplier who delivers the product or service.|
 |Total amount|Total amount to be paid to the supplier.|
 
--   **[Invoice exception form tabs](exception-form-tabs.md)**  
-The Invoice exception form includes tabs that store invoice exception information that an Accounts Payable Specialist can use to perform related tasks.
+-   **[Invoice exception form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/exception-form-tabs.md)**  
+Descriptions of the tabs on the Invoice exception form, including the invoice exception information available for exception resolution.
+-   **[Invoice Exception Rule Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-exception-rule-form.md)**  
+Invoice exception rules in Accounts Payable Operations define which invoices trigger exceptions and how they are handled. Use this reference to understand each form field and its configuration options.
 
-**Parent Topic:**[Accounts Payable Operations reference](acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 
 
-[Accounts Payable Operations properties](acc-pay-properties.md)
+[Accounts Payable Operations properties]()
 
-[Create New Invoice Line form](create-invoice-line-form.md)
+[Create New Invoice Line form]()
 
-[Create invoice cost allocation form](create-invoice-cost-allocation-form.md)
+[Create invoice cost allocation form]()
 
-[Outbound cost allocation staging table](outbound-cost-allocation-table.md)
+[Outbound cost allocation staging table]()
 
-[Distribution set form](distribution-set-form.md)
+[Distribution set form]()
 
-[Create New Invoice case form](create-new-ap-case-form.md)
+[Create New Invoice case form]()
 
-[Create New Invoice task form](create-apm-task-form.md)
+[Create New Invoice task form]()
 
-[Invoice processing case form](invoice-processing-case-form.md)
+[Invoice processing case form]()
 
-[Tax lines](create-tax-lines-apo.md)
+[Tax lines]()
 
-[Request Help form](ur-request-help-form.md)
+[Request Help form]()
 
-[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+[Data required for invoice processing]()
 
-[Invoice exception definition form](invoice-exception-definition-form.md)
+[Invoice exception definition form]()
 
-[Approval Rule form](new-approval-rule-form.md)
+[Approval Rule form]()
 
-[Approval Plan form](approval-plan-form.md)
+[Approval Plan form]()
 
-[Accounts Payable Operations glossary](../concept/apo-glossary.md#)
+[Accounts Payable Operations glossary]()
 

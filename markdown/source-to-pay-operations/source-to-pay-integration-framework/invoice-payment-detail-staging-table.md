@@ -1,19 +1,21 @@
 ---
 title: Invoice payment detail import inbound table
-description: The Invoice Payment detail import inbound \[sn\_spend\_intg\_imp\_invoice\_payment\_detail\] staging table temporarily stores important data about supplier before this data is sent to the \[sn\_shop\_invoice\_payment\_detail\] primary table.
+description: Field descriptions and data types for the Invoice Payment Detail Import Inbound \[sn\_spend\_intg\_imp\_invoice\_payment\_detail\] staging table used to store imported invoice payment detail data from ERP systems before transfer to the \[sn\_shop\_invoice\_payment\_detail\] primary table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/invoice-payment-detail-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice management, supplier, staging table, inbound integration]
 breadcrumb: [Inbound staging tables for Accounts Payable Operations, Inbound staging tables, Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Invoice payment detail import inbound table
 
-The Invoice Payment detail import inbound \[sn\_spend\_intg\_imp\_invoice\_payment\_detail\] staging table temporarily stores important data about supplier before this data is sent to the \[sn\_shop\_invoice\_payment\_detail\] primary table.
+Field descriptions and data types for the Invoice Payment Detail Import Inbound \[sn\_spend\_intg\_imp\_invoice\_payment\_detail\] staging table used to store imported invoice payment detail data from ERP systems before transfer to the \[sn\_shop\_invoice\_payment\_detail\] primary table.
 
 ## Invoice payment detail import inbound staging table
 
@@ -212,22 +214,22 @@ String
 Unique identifier for imported data set.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](../concept/inbound-staging-tables-for-apo.md)
+</table>**Parent Topic:**[Inbound staging tables for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/inbound-staging-tables-for-apo.md)
 
 **Related topics**  
 
 
-[Invoice import inbound staging table](../../source-to-pay-integrations/reference/inbound-invoice-import-staging-table.md)
+[Invoice import inbound staging table]()
 
-[Import error staging table](import-error-staging-table.md)
+[Import error staging table]()
 
-[Invoice line import inbound staging table](../../source-to-pay-integrations/reference/inbound-invoice-line-staging-table.md)
+[Invoice line import inbound staging table]()
 
-[Organization tax details inbound staging table](../../source-to-pay-integrations/reference/slo-org-tax-details-inbound-table.md)
+[Organization tax details inbound staging table]()
 
-[Invoice tax line staging table](../../source-to-pay-operations/reference/inbound-invoice-tax-line-staging-table-apo.md)
+[Invoice tax line staging table]()
 
-[Invoice staging table](invoice-staging-table.md)
+[Invoice staging table]()
 
-[Invoice line stage table](invoice-line-staging-table.md)
+[Invoice line stage table]()
 

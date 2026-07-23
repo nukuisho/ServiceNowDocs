@@ -2,12 +2,13 @@
 title: Turn on the RPA bot generation skill
 description: Turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations, activities, and automation logic additions from text instructions and preview options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/turn-rpa-bot-generation-skill.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, Now Assist for RPA Hub, Workflow Data Fabric]
+breadcrumb: [Install Now Assist for RPA Hub, Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Turn on the RPA bot generation skill
@@ -16,7 +17,7 @@ Turn on the Robotic Process Automation \(RPA\) bot generation skill to use gener
 
 ## Before you begin
 
--   Install the Now Assist for RPA Hub application to add the generative AI capability. For more information, see [Configure Now Assist for RPA Hub](configure-now-assist-rpa-hub.md).
+-   Install the Now Assist for RPA Hub application to add the generative AI capability. For more information, see [Install Now Assist for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-rpa-hub.md).
 -   Perform these steps in your ServiceNow instance.
 -   Ensure that the AI Search application is enabled on your instance by navigating to **All** &gt; **AI Search** &gt; **AI Search Status**. If AI search is not enabled, select **Request AI Search**.
 -   Role required: sn\_nowassist\_admin.nsa\_admin or sn\_skill\_builder.admin
@@ -33,7 +34,7 @@ Turn on the Robotic Process Automation \(RPA\) bot generation skill to use gener
 
 3.  On the RPA bot generation card, select **Turn on**.
 
-    ![RPA bot generation card that displays the skill to be turned on.](../image/turn-rpa-bot-gen-skill.png "Turn on the RPA bot generation skill")
+    \[Omitted image "turn-rpa-bot-gen-skill.png"\] Alt text: RPA bot generation card that displays the skill to be turned on.
 
     You view a dialog box with the message "Successfully activated".
 
@@ -46,7 +47,7 @@ Turn on the Robotic Process Automation \(RPA\) bot generation skill to use gener
 
 The following example shows that the RPA bot generation card displays the skill as active.
 
-![RPA bot generation card that displays the skill as active.](../image/rpa-bot-generation-skill-activated.png "Activated RPA bot generation skill")
+\[Omitted image "rpa-bot-generation-skill-activated.png"\] Alt text: RPA bot generation card that displays the skill as active.
 
 ## What to do next
 
@@ -55,5 +56,5 @@ After activating the RPA bot generation skill, RPA Desktop Design Studio users m
 **Related topics**  
 
 
-[Robotic Process Automation \(RPA\) bot generation](../concept/rpa-bot-generation.md)
+[Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-bot-generation.md)
 

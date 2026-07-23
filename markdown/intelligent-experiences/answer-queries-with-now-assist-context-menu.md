@@ -2,6 +2,7 @@
 title: Improve Docs content in Strategic Portfolio Management with Now Assist context menu
 description: Use the Now Assist context menu to start conversations and raise queries, using generative AI capabilities and custom built in skills in Strategic Portfolio Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/answer-queries-with-now-assist-context-menu.html
 release: australia
 topic_type: concept
 last_updated: "2025-08-25"
@@ -18,24 +19,24 @@ You can now interact with Now Assist directly from the docs section in Strategic
 
 To access this feature, go to any doc page within Strategic Portfolio Management, Portfolio Planning Workspace or Project Workspace.
 
-Select the Now Assist icon \(![Now Assist context menu icon.](../images/wwna-icon.png)\) and enter your query.
+Select the Now Assist icon \(\[Omitted image "wwna-icon.png"\] Alt text: Now Assist context menu icon.\) and enter your query.
 
-![nacm menu spm](../images/open-prompt-nacm.png)![]()
+\[Omitted image "open-prompt-nacm.png"\] Alt text: nacm menu spm\[Omitted image ""\]
 
 The query response is generated in a new Now Assist window. You can use the input field to provide follow-up query responses and instructions.
 
-![nacm window spm](../images/na-modal-spm.png)
+\[Omitted image "na-modal-spm.png"\] Alt text: nacm window spm
 
-You can also select the Now Assist icon \(![Now Assist context menu icon.](../images/wwna-icon.png)\) and use the **Summarize** option from the drop-down menu to use generative AI for generating a record summary.
+You can also select the Now Assist icon \(\[Omitted image "wwna-icon.png"\] Alt text: Now Assist context menu icon.\) and use the **Summarize** option from the drop-down menu to use generative AI for generating a record summary.
 
-The Now Assist icon \(![Now Assist context menu icon.](../images/wwna-icon.png)\) along with the text input field is also displayed when you select any text from the docs page.
+The Now Assist icon \(\[Omitted image "wwna-icon.png"\] Alt text: Now Assist context menu icon.\) along with the text input field is also displayed when you select any text from the docs page.
 
 You can also see the option to **Summarize**, **shorten**, **elaborate**, or **change tone** for the selected content.
 
-**Parent Topic:**[Now Assist context menu](now-assist-write-overview.md)
+**Parent Topic:**[Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-write-overview.md)
 
 **Related topics**  
 
 
-[Generate and improve Docs content with Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)
+[bundle-itbm.generate-summarize-and-refine-content-of-docs-with-now-assist-spm]
 

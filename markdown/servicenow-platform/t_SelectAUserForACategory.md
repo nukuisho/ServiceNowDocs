@@ -2,6 +2,7 @@
 title: Select a user for a category
 description: Category users are the recipients of the questions for each category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_SelectAUserForACategory.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,25 +26,25 @@ A category can have one or more assigned users, and the same user can be assigne
 
 1.  To select users for a category, select the **Users** related list in a category record, and click **Edit**.
 
-    ![Quiz category users](../images/Quiz_Category_Users.png)
+    \[Omitted image "Quiz\_Category\_Users.png"\] Alt text: Quiz category users
 
 
-**Parent Topic:**[Create quizzes with forms](../concept/c_CreateQuizzesWithForms.md)
+**Parent Topic:**[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
 
 **Related topics**  
 
 
-[Create quizzes with forms](../concept/c_CreateQuizzesWithForms.md)
+[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_CreateQuizzesWithForms.md)
 
-[Create a quiz](t_CreateaQuiz.md)
+[Create a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateaQuiz.md)
 
-[Set up a category](t_SetUpACategory.md)
+[Set up a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetUpACategory.md)
 
-[Data types for quizzes](../reference/r_AvailableDataTypes.md)
+[Data types for quizzes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_AvailableDataTypes.md)
 
-[Change the order of an answer](t_ChangeTheOrderOfAnAnswer.md)
+[Change the order of an answer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ChangeTheOrderOfAnAnswer.md)
 
-[Distribute a quiz](t_DistributeAQuiz.md)
+[Distribute a quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DistributeAQuiz.md)
 
-[Modify a published quiz](t_ModifyAPublishedQuiz.md)
+[Modify a published quiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifyAPublishedQuiz.md)
 

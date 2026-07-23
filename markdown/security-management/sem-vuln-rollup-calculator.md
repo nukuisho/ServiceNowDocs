@@ -2,6 +2,7 @@
 title: Vulnerability Response Rollup Calculators
 description: After your initial assessment of risk calculators in the Setup Assistant, use the vulnerability rollup calculators to configure how the cumulative risk score is computed for remediation tasks and imported vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-vuln-rollup-calculator.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -55,8 +56,6 @@ Also, consider the following weights in the vulnerability rollup calculator:
 -   Average risk score: 5
 -   Count of vulnerable items: 15
 
-![Vulnerability rollup calculator example with a maximum risk score of 80, an average risk score of 5, and a count of vulnerable items of 15.](../../vulnerability-response/image/RollupCalculator.png "Vulnerability rollup calculator example")
-
 In the Vulnerability rollup calculator example, the formula for determining the remediation task **Risk Score** is:
 
 \(**Maximum risk score**/100\) \* 80 + \(**Average risk score** /100\) \* 5 + \(factor \* 15\)
@@ -80,8 +79,6 @@ So, for the remediation task, VUL324567:
 
 The **Risk Score** would be 45 \[\(50/100\) \* 80 + \(40/100\) \* 5 + 0.2 \* 15 = 40 + 2 + 3 = 45\]
 
-![EPSS rollup calculator script.](../../secops-integration-vr/epss/image/epss-rollup-calculator.png "Rollup EPSS Scores from NVDs to TPEs")
-
 ## EPSS Rollup calculator - Example
 
 For example, consider an organization with 100 vulnerabilities, each with a 5% chance of being exploited. The question of great interest to a network defender might be: what is the probability that at least one of those vulnerabilities will be exploited, and therefore what is my overall threat? The probability of at least one event occurring is simply the complement \(opposite\) of no events occurring, that is:
@@ -100,5 +97,5 @@ Which says that the probability of at least one of the vulnerabilities being exp
 
 **Important:** To modify the **Rollup EPSS Scores from NVD to TPEs**, you need to switch the Form context menu view to **Rollup Developer View** from the **Default view**.
 
-**Parent Topic:**[Prioritizing vulnerabilities and other findings using roll-up calculators](sem-prioritizing-vulnerabilities-other-findings.md)
+**Parent Topic:**[Prioritizing vulnerabilities and other findings using roll-up calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-prioritizing-vulnerabilities-other-findings.md)
 

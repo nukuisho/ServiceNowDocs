@@ -2,6 +2,7 @@
 title: Create new buying groups
 description: Create buying groups for an account and product family to capture the set of decision‑makers, influencers, and evaluators involved in a purchase decision.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-buying-groups.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,4 +47,11 @@ Role required: bg\_admin; bg\_writer
 
     The new buying group is created.
 
+
+**Related topics**  
+
+
+[Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-buying-group.md)
+
+[Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-buying-group.md)
 

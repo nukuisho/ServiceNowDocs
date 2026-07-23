@@ -2,6 +2,7 @@
 title: Associate buying group to an opportunity​
 description: Associate a buying group with an opportunity to connect the opportunity to the set of decision‑makers, influencers, and evaluators involved in the purchase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/associate-buying-groups-to-an-opportunity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,4 +39,11 @@ Role required: Opportunity Writer
 
     The opportunity associates to the buying group.
 
+
+**Related topics**  
+
+
+[Using Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-buying-group.md)
+
+[Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-buying-group.md)
 

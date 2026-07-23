@@ -2,6 +2,7 @@
 title: Activate the get regulatory analysis agentic workflow
 description: Configure and activate the get regulatory analysis agentic workflow that uses AI agents to enrich regulatory alerts with external context, classification, summarization, and recommended potential impacted items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/activate-rcm-agent-workflow.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -20,7 +21,7 @@ Configure and activate the get regulatory analysis agentic workflow that uses AI
 
 Install the Now Assist for IRM plugin \(sn\_irm\_gen\_ai\).
 
-The regulatory alert recommendation and summarization skills are required to generate enriched insights and identify impacted areas. For more information, see [AI-generated recommendations for a regulatory alert skill](../../grc-rcm/concept/recommendations-for-a-regulatory-alert.md) and [AI-driven regulatory alert summarization skill](../concept/regulatory-alert-summarization.md).
+The regulatory alert recommendation and summarization skills are required to generate enriched insights and identify impacted areas. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.md) and [AI-driven regulatory alert summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/regulatory-alert-summarization.md).
 
 Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 
@@ -175,7 +176,7 @@ Approved role\(s\)
 </td></tr></tbody>
 </table>    **Note:**
 
-    The user identity type that this agentic workflow runs under determines the roles and the data access permissions derived from them. Remember, when agentic workflows can access data, they can also share that data with the human user who interacts with them. [Learn more about access control list rules](https://www.servicenow.com/docs/csh?topicname=access-control-rules&version=latest).
+    The user identity type that this agentic workflow runs under determines the roles and the data access permissions derived from them. Remember, when agentic workflows can access data, they can also share that data with the human user who interacts with them. [Learn more about access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules).
 
 5.  Select **Add triggers** and configure conditions that start the workflow, such as when a new regulatory alert is created.
 

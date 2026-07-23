@@ -2,24 +2,25 @@
 title: Enable keyboard focus on text that displays tooltip
 description: Learn more about the Enable keyboard focus on text that displays tooltip accessibility preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-keyboard-focus-pref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure accessibility preferences, Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure accessibility preferences, Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Enable keyboard focus on text that displays tooltip
 
 Learn more about the Enable keyboard focus on text that displays tooltip accessibility preference.
 
-![Enable keyboard focus on text that displays a tooltip accessibility preference.](../image/coral-pref-truncated-text.png)
+\[Omitted image "coral-pref-truncated-text.png"\] Alt text: Enable keyboard focus on text that displays a tooltip accessibility preference.
 
 The purpose of this preference is to provide access to truncated text.
 
 Learn more about this preference from the following tutorial:
 
-Enable keyboard focus on text that displays tooltip 
+\[Omitted video\] Description: Enable keyboard focus on text that displays tooltip
 
 <table id="table_jbq_dgy_hgc"><thead><tr><th>
 

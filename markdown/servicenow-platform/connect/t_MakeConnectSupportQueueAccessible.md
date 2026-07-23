@@ -2,6 +2,7 @@
 title: Make a Connect Support queue accessible to end users
 description: To make a Connect Support queue accessible to end users, use the accepted URL format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_MakeConnectSupportQueueAccessible.html
 release: australia
 product: Connect
 classification: connect
@@ -39,4 +40,11 @@ For example, you might create a module or add a link to a portal. The accepted U
 
 6.  Create a module or other link to the queue using the URL.
 
+
+**Related topics**  
+
+
+[Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-steps-app-navigator-category.md)
+
+[Configure Connect Support widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/connect-support-sp.md)
 

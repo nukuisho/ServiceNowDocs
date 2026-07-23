@@ -2,6 +2,7 @@
 title: Mobile plugins for Mobile Agent
 description: Use these plugins to extend functionality for the Mobile Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mobile-plugins-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -178,5 +179,5 @@ Store
 Yes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile plugins](sg-mobile-plugins.md)
+</table>**Parent Topic:**[Mobile plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-plugins.md)
 

@@ -2,6 +2,7 @@
 title: Configure Jenkins plugin
 description: Configure Jenkins to send real time notifications for your pipeline executions to DevOps Change Velocity.Configure webhooks in Jenkins to send sync notifications to the DevOps Change Velocity application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/configure-jenkins-plugin.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -26,12 +27,12 @@ Role required: Jenkins admin
 2.  Search for **ServiceNow DevOps Plugin** and select it, and then select **Install**.
 
 
-**Parent Topic:**[Jenkins integration with DevOps Change Velocity](../concept/jenkins-integration-dev-ops.md)
+**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
 
 **Related topics**  
 
 
-[Configure webhooks manually for Jenkins](configure-jenkins-plugin.md#)
+[Configure webhooks manually for Jenkins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md)
 
 ## Configure webhooks manually for Jenkins
 
@@ -57,13 +58,13 @@ If DevOps Config is installed, you will only be able to configure Jenkins manual
 
 1.  In DevOps Change Velocity, choose **Configure manually** when configuring the tool instance to send data.
 
-    ![Configure webhooks automatically.](../image/jenkins-workspace-connect-8.png)
+    \[Omitted image "jenkins-workspace-connect-8.png"\] Alt text: Configure webhooks automatically.
 
 2.  Select **Copy** in the appropriate field to copy the value to your clipboard.
 
     The field label changes to **Copied**, but you can copy multiple times.
 
-    ![Configure webhooks manually.](../image/jenkins-workspace-connect-9.png)
+    \[Omitted image "jenkins-workspace-connect-9.png"\] Alt text: Configure webhooks manually.
 
 3.  In Jenkins, navigate to **Manage Jenkins** &gt; **System configuration** &gt; **Manage Plugins** &gt; **Configure System**.
 
@@ -77,7 +78,7 @@ If DevOps Config is installed, you will only be able to configure Jenkins manual
 
     **Note:** Values are case-sensitive.
 
-    ![Fields to be configured in Jenkins.](../image/jenkins-plugin.png)
+    \[Omitted image "jenkins-plugin.png"\] Alt text: Fields to be configured in Jenkins.
 
 <table id="table_b1g_c3x_gwb"><thead><tr><th>
 
@@ -187,7 +188,7 @@ The level of log messages you want to store in Jenkins logs/ ServiceNow log reco
 -   finer
 -   finest
 -   all
- For more information on Log levels and log recorders, see [Jenkins log levels and Log Recorders](../reference/devops-jenkins-log-recorders.md)
+ For more information on Log levels and log recorders, see [Jenkins log levels and Log Recorders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-jenkins-log-recorders.md)
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Customize supplier summarization for fulfillers skill
 description: If you have the admin role, you can customize the supplier summarization for fulfillers skill so that fulfillers can use the generative AI skills in Source-to-Pay Workspace to view relevant supplier information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/cust-na-fsc-supplier-skill.html
 release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
@@ -17,7 +18,7 @@ If you have the admin role, you can customize the supplier summarization for ful
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: admin
 
@@ -33,7 +34,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 3.  Create a copy of a skill and customize the input fields.
 
-    1.  On the Supplier summarization for fulfillers feature card, select the More actions icon \(![More actions icon.](../image/more_vertical_icon.png)\).
+    1.  On the Supplier summarization for fulfillers feature card, select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\).
 
     2.  Select **Make a copy**.
 
@@ -41,7 +42,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Supplier summarization for fulfillers skill](../reference/input-triggers-na-fsc-supplier.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for Supplier summarization for fulfillers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/input-triggers-na-fsc-supplier.md).
 
     1.  Enter a name and description for the skill.
 
@@ -59,7 +60,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         Add multiple base input fields, as necessary.
 
-        ![Choose input screen](../../source-to-pay-operations/image/na-choose-input-fsc-supplier.png "Choose input step")
+        \[Omitted image "na-choose-input-fsc-supplier.png"\] Alt text: Choose input screen
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -139,13 +140,13 @@ Description of the base input field value.
     The fulfillers having the sn\_fsc\_genai.now\_assist\_fulfiller role can now select **Summarize** for a supplier record in the Source-to-Pay Workspace to generate the summary of the supplier.
 
 
--   **[Skill inputs for Supplier summarization for fulfillers skill](../reference/input-triggers-na-fsc-supplier.md)**  
+-   **[Skill inputs for Supplier summarization for fulfillers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/input-triggers-na-fsc-supplier.md)**  
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 
-**Parent Topic:**[Configuring Now Assist for Common Finance and Supply Chain features](configure-now-assist-fsc.md)
+**Parent Topic:**[Configuring Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.md)
 
 **Related topics**  
 
 
-[Customize a Now Assist for Common Finance and Supply Chain features skill](cust-now-assist-fsc-skill.md)
+[Customize a Now Assist for Common Finance and Supply Chain features skill]()
 

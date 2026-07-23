@@ -2,9 +2,10 @@
 title: Account hierarchy
 description: Use the account hierarchy feature to create and view a parent-child relationship between accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_AccountHierarchy.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-26"
+last_updated: "2026-06-26"
 reading_time_minutes: 1
 breadcrumb: [Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -23,9 +24,9 @@ Agents can do the following from the account hierarchy:
 
 ## Account hierarchy in the workspace view
 
-To view the account hierarchy in CSM Configurable Workspace, navigate to an account record and select the Open Hierarchy \(![](../image/account-hierarchy-workspace-icon.png)\) icon on the **Account** field.
+To view the account hierarchy in CSM Configurable Workspace, navigate to an account record and select the Open Hierarchy \(\[Omitted image "account-hierarchy-workspace-icon.png"\] Alt text: account hierarchy workspace\) icon on the **Account** field.
 
-![Parent view of the account hierarchy structure with information about the current account and options to update and delete the account details.](../image/csm-account-hierarchy-workspace.png "Account hierarchy (workspace)")
+\[Omitted image "csm-account-hierarchy-workspace.png"\] Alt text: Parent view of the account hierarchy structure with information about the current account and options to update and delete the account details.
 
 Two different views of the account hierarchy are available.
 
@@ -34,11 +35,7 @@ Two different views of the account hierarchy are available.
 
 ## Account hierarchy in the Core UI view
 
-The account hierarchy is available in the Account Hierarchy section on the Account form.
-
-![Parent view of the account hierarchy structure with information about the current account and options to update and delete the account details.](../image/csm-account-hierarchy-platform.png "Account hierarchy (Core UI)")
-
-Two different views of the account hierarchy in the Core UI are available. In both views, the current account is highlighted in the account structure.
+In the Core UI, the account hierarchy is available in the Account Hierarchy section on the Account form. Two different views of the account hierarchy are available. In both views, the current account is highlighted in the account structure.
 
 -   **Parent view:** Displays the current account, the parent account \(if applicable\), and any child or sibling accounts.
 -   **Full view:** Displays the entire structure of the organization from the root account.

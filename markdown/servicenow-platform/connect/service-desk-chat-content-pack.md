@@ -2,6 +2,7 @@
 title: Service Desk Chat Platform Analytics Solutions
 description: Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/service-desk-chat-content-pack.html
 release: australia
 product: Connect
 classification: connect
@@ -22,5 +23,5 @@ To enable the solution for Service Desk Chat, an admin can navigate to **Perform
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

@@ -2,6 +2,7 @@
 title: Create a model to detect case language
 description: Edit and test the pre-trained model to detect the language used to create customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-create-language-solution.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Edit and test the pre-trained model to detect the language used to create custom
 
     -   Activate the I18N: Internationalization plugin
     -   Enable the ServiceNow translator.
-    For more information, see [Configure language detection](case-language-detection-configure.md).
+    For more information, see [Configure language detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-language-detection-configure.md).
 
 
 ## Set up your model
@@ -42,7 +43,7 @@ Edit and test the pre-trained model to detect the language used to create custom
 
 Choose the cases to use to test the model.
 
-![Language detection model for filtering past cases for language prediction with multiple conditions fields.](../image/task-intel-language-detection-pg1.png)
+\[Omitted image "task-intel-language-detection-pg1.png"\] Alt text: Language detection model for filtering past cases for language prediction with multiple conditions fields.
 
 Selecting this information tells the model which records to use for testing. When the model is deployed, it predicts the language on all records in the table that match the selected conditions.
 
@@ -53,7 +54,7 @@ Selecting this information tells the model which records to use for testing. Whe
 
 Assess the results from the testing and view sample results for past cases.
 
-![Language detection model providing a sample selection of test results with language predictions based on the past hundred cases.](../image/task-intel-language-detection-pg2.png)
+\[Omitted image "task-intel-language-detection-pg2.png"\] Alt text: Language detection model providing a sample selection of test results with language predictions based on the past hundred cases.
 
 Reviewing the results gives you a preview of how your model will perform after being deployed.
 
@@ -64,7 +65,7 @@ Reviewing the results gives you a preview of how your model will perform after b
 
 Tell the model how you want to use the language predictions.
 
-![Options menu enabling the user to use language predictions for new cases or monitor predictions running in the background.](../image/task-intel-language-detection-pg3.png)
+\[Omitted image "task-intel-language-detection-pg3.png"\] Alt text: Options menu enabling the user to use language predictions for new cases or monitor predictions running in the background.
 
 1.  Use predictions in new cases.
     1.  Add the predicted language in the **Language** field in cases.
@@ -79,5 +80,5 @@ Tell the model how you want to use the language predictions.
 
 Review your selections from the previous pages. Then you can select **Deploy** to deploy the model.
 
-![Details menu with information about model testing, functions, and predictions.](../image/task-intel-language-detection-pg4.png)
+\[Omitted image "task-intel-language-detection-pg4.png"\] Alt text: Details menu with information about model testing, functions, and predictions.
 

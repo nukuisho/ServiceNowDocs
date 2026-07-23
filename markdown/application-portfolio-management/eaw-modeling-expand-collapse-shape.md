@@ -2,6 +2,7 @@
 title: Expand or collapse a group shape
 description: The expand and collapse functionality for a group shape helps in simplifying visualization, improves focus, and supports hierarchical modeling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-expand-collapse-shape.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Large diagrams can be cluttered. Collapsing groups hides internal details while 
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(![Enterprise Modeling and Visualization](../../image/eaw-image/modeling/icon-modeling-logo.png)\).
+2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Enterprise Modeling and Visualization\).
 
 3.  Create a blank diagram or open an existing diagram.
 
@@ -33,8 +34,8 @@ Large diagrams can be cluttered. Collapsing groups hides internal details while 
 
 5.  Select the expand or collapse icon within the group shape to expand or collapse the group shape accordingly.
 
-    Expanding a shape helps in analyzing dependencies or editing details inside a group. Collapsing a group shape helps in presenting a high-level architecture view to stakeholders. It helps you to focus on other parts of the diagram. ![Expand or collapse a group shape](../../image/eaw-image/modeling/modeling-expand-collapse-group-shape.gif)
+    Expanding a shape helps in analyzing dependencies or editing details inside a group. Collapsing a group shape helps in presenting a high-level architecture view to stakeholders. It helps you to focus on other parts of the diagram. \[Omitted image "modeling-expand-collapse-group-shape.gif"\] Alt text: Expand or collapse a group shape
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](../../concept/eaw-concept/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 

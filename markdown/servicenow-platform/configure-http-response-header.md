@@ -2,6 +2,7 @@
 title: Configure HTTP response headers
 description: Configure standard name-value pairs for HTTP response headers. You designate if the configuration applies to all pages, or to specific types \(Service Portal, UI Page, or UX application record\).The HTTP response header table \(sys\_response\_header\) in the List view contains two additional columns - Add by and Order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configure-http-response-header.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -89,7 +90,7 @@ Record
 
 </td><td>
 
-Specific record the HTTP response header configuration applies to. To select a record:1.  Click the Search \(![Search icon](../../../common/image/List_SearchIcon.png)\) icon to access the Select the document form.
+Specific record the HTTP response header configuration applies to. To select a record:1.  Click the Search \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Search icon\) icon to access the Select the document form.
 2.  In the **Table name** field, the default is the type you selected in the **Type** field. Do not change it.
 3.  In the **Document** field, select the record from the table.
 
@@ -167,17 +168,17 @@ This option is relevant when the same header \(a header with the same name\) is 
 
 ### Append example
 
-The ServiceNow AI Platform is trying to set headers in the following order, and **Append** is the default value for each in the **Add By** column. ![Append example - sys_response_header.list](../image/headers-all-append-list-view.jpg)
+The ServiceNow AI Platform is trying to set headers in the following order, and **Append** is the default value for each in the **Add By** column. \[Omitted image "headers-all-append-list-view.jpg"\] Alt text: Append example - sys\_response\_header.list
 
 In this example, the second \(Header 2\) and third \(Header 3\) response header configurations have the same name \(Content-Security-Policy\). In this case, Header 3 is appended to Header 2. If a request is made for a specific page you configured with a Header 3 response, the net HTTP response headers are both Header 2 and Header 3.
 
-![Append example - resulting HTTP response header](../image/headers-all-append-page-response.png)
+\[Omitted image "headers-all-append-page-response.png"\] Alt text: Append example - resulting HTTP response header
 
 ### Overwrite
 
-The ServiceNow AI Platform is trying to set headers in the following order, and you've selected **Overwrite** in the **Add By** column for the third header. ![Overwrite example - sys_response_header.list](../image/headers-one-overwrite-list-view.jpg)
+The ServiceNow AI Platform is trying to set headers in the following order, and you've selected **Overwrite** in the **Add By** column for the third header. \[Omitted image "headers-one-overwrite-list-view.jpg"\] Alt text: Overwrite example - sys\_response\_header.list
 
 In this example, the second \(Header 2\) and third \(Header 3\) response header configurations have the same name \(Content-Security-Policy\). In this case, Header 3 overwrites Header 2. If a request is made for a specific page you configured with a Header 3 response, the net HTTP response header is only Header 3.
 
-![Overwrite example - resulting HTTP response header](../image/headers-one-overwrite-page-response.png)
+\[Omitted image "headers-one-overwrite-page-response.png"\] Alt text: Overwrite example - resulting HTTP response header
 

@@ -2,6 +2,7 @@
 title: Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the Now Assist panel
 description: Enable AI agents in the Now Assist panel to help you manage procurement requests more efficiently, with faster response times and smarter support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/activate-fulfill-pr-agentic-workflow.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [AI agents, agentic AI]
-breadcrumb: [Use agentic workflows, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use agentic workflows, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in the Now Assist panel
@@ -42,23 +43,25 @@ Role required: admin
 
     In addition to the now\_assist\_panel\_user role, you can assign any role to access the Now Assist panel.
 
-    ![Select display for activating the Conversational intake for sourcing and procurement agentic workflow.](../image/na-agentic-wf-activate.png)
+    \[Omitted image "na-agentic-wf-activate.png"\] Alt text: Select display for activating the Conversational intake for sourcing and procurement agentic workflow.
 
 7.  Activate the agentic workflow by selecting **Save and test**.
 
     The AI agents are enabled in the Now Assist panel.
 
 
-**Parent Topic:**[Use agentic workflows in Now Assist for Sourcing and Procurement Operations](../concept/agentic-ai-now-assist-spo.md)
+**Parent Topic:**[Use agentic workflows in Now Assist for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 **Related topics**  
 
 
-[Conversational intake for sourcing and procurement agentic workflow](../concept/spo-help-fulfill-pr-agentic.md)
+[Conversational intake for sourcing and procurement agentic workflow]()
 
-[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in Virtual Agent](activate-fulfill-pr-agentic-workflow-va.md)
+[Enable AI agents for the Conversational intake for sourcing and procurement agentic workflow in Virtual Agent]()
 
-[Submit a purchase request using the Now Assist AI agent](request-product-ai-agents.md)
+[Submit a purchase request using the Now Assist AI agent]()
 
-[Update the product category or spend category in the Now Assist panel](update-product-spend-category.md)
+[Update the product category or spend category in the Now Assist panel]()
+
+[Email parser agent for Sourcing and Procurement Operations]()
 

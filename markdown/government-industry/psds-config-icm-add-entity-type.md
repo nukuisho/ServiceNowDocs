@@ -2,6 +2,7 @@
 title: Configure entity types in the Investigative Case Management Entity Management workspace
 description: Configure the entity type tabs that are displayed in the Entity Management workspace. After you create or modify an entity type, investigators and supervisors can select and add the required entity type through the case form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-icm-add-entity-type.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,13 +42,13 @@ Role required: admin
 
 3.  Select and open the **Investigative Record Page Collection**.
 
-    Make sure the list is configured to display the Pages and Variants name column.![](../image/psds-icm-entity-tab-config-name-column.png)
+    Make sure the list is configured to display the Pages and Variants name column.\[Omitted image "psds-icm-entity-tab-config-name-column.png"\] Alt text:
 
 4.  If prompted, select **Edit in original scope**.
 
 5.  Select the name of the entity you wish to configure.
 
-    To add a new one, select the add \(![](../image/plus-icon-2.png)\) icon.
+    To add a new one, select the add \(\[Omitted image "plus-icon-2.png"\] Alt text:\) icon.
 
 6.  In the content panel, select **Body** &gt; **Generic List – ICM**.
 
@@ -66,5 +67,5 @@ A new entity type table has now been created and is displayed in the Entity Mana
 
 ## What to do next
 
-Add an entity to the case using this configuration. For more information on adding an entity to a case, see [Add entities to an investigative case using Investigative Case Management Entity Management](psds-using-icm-add-entities.md#).
+Add an entity to the case using this configuration. For more information on adding an entity to a case, see [Add entities to an investigative case using Investigative Case Management Entity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-add-entities.md).
 

@@ -2,6 +2,7 @@
 title: Activating Continuous Authentication
 description: For activating the Continuous Authentication feature on your instance, install the Zero Trust - Continuous Authentication \(com.snc.zero\_trust\_continuous\_authentication\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/activate-continuous-authentication.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,15 +34,15 @@ You must install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  
 
 
-[Pre-work for Continuous Authentication](../concept/pre-work-ca.md)
+[Pre-work for Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/pre-work-ca.md)
 
-[Configuring Continuous Authentication](configure-ca.md)
+[Configuring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-ca.md)
 
-[High Assurance session with Continuous Authentication](../concept/high-assurance-ca.md)
+[High Assurance session with Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/high-assurance-ca.md)
 

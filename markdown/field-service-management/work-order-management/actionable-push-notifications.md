@@ -2,6 +2,7 @@
 title: Push notifications on ServiceNow Agent
 description: Assign tasks and send reminders to Field Service agents using push notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/actionable-push-notifications.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -29,4 +30,6 @@ Push notifications provide several advantages:
 [Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
 
 [Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-mobile-push-notifications.md)
+
+[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-field-service-mobile.md)
 

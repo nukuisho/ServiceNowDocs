@@ -2,11 +2,12 @@
 title: Configure Service Graph Connector for Akamai API Security using SGC Central
 description: Use the playbook available with the SGC Central application to set up the Service Graph Connector for Akamai API Security for pulling in Akamai API Security data into the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgcc-configure-akamai-integ.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-29"
 reading_time_minutes: 4
 breadcrumb: [Akamai API Security, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -19,7 +20,7 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 -   Install Service Graph Connector for Akamai API Security version 1.0.0 from the ServiceNow Store.
 
-    For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
+    For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 -   Create a service account on the Akamai platform and generate client credentials to enable data retrieval using the Service Graph Connector for Akamai API Security.
 
@@ -33,17 +34,17 @@ Role required: The following table shows the roles required for each stage of th
 |Prerequisites|admin|
 |Setup|SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin|
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](../../configuration-management/concept/cmdb-sgc-intro.md#section_ett_spp_4hc).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
 
 ## Procedure
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon ![](../image/icon-sgc-central.png) to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  On the Overview page, select **Create connection**.
 
@@ -53,7 +54,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 4.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](sgcc-first-time-setup.md).
+    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
 
 5.  Complete the setup for configuring the connector for importing data.
 
@@ -129,7 +130,7 @@ Token URL of your Akamai client application.
         2.  Expand the Parent scheduled data import within the Import schedules list, and select the Sources import schedule.
         3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+            For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
         4.  Select **Save**.
 
@@ -146,7 +147,7 @@ Select **View all connections** to review the connection details. The configured
 **Related topics**  
 
 
-[Service Graph Connector for Akamai API Security](../../configuration-management/concept/sgc-integration-akamai.md)
+[Service Graph Connector for Akamai API Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-integration-akamai.md)
 
-[CMDB classes targeted in Service Graph Connector for Akamai API Security](../../configuration-management/reference/cmdb-akamai-classes.md)
+[CMDB classes targeted in Service Graph Connector for Akamai API Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-akamai-classes.md)
 

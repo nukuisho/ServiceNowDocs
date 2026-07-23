@@ -1,17 +1,18 @@
 ---
-title: Add an MCP server from AI Agent studio
+title: Add an MCP Server from AI Agent studio
 description: Add an external MCP server from AI Agent Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-agent-studio.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
 last_updated: "2025-11-23"
 reading_time_minutes: 2
-breadcrumb: [Process flow of MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Process flow of MCP Servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Add an MCP server from AI Agent studio
+# Add an MCP Server from AI Agent studio
 
 Add an external MCP server from AI Agent Studio.
 
@@ -25,7 +26,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 -   \(AIG admin\) aig\_admin
 -   \(MCP Client admin\) sn\_mcp\_client.admin
 
-For more information on the AI steward role and its responsibilities, see [AI Control Tower roles](../reference/roles-installed-with-ai-control-tower.md)
+For information on the AI steward role and its responsibilities, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md)
 
 ## Procedure
 
@@ -33,7 +34,7 @@ For more information on the AI steward role and its responsibilities, see [AI Co
 
 2.  Select **New**.
 
-    **Note:** In the Create and manage tab of the AI Agent Studio, you can add only those MCP servers that have been approved in the AI Control Tower. To view these approvals, go to the Approvals tab on the MCP server record. For more information on Approvals tab and MCP server record, see [MCP server record](../concept/view-the-mcp-server-record.md)
+    **Note:** In the Create and manage tab of the AI Agent Studio, you can add only those MCP servers that have been approved in the AI Control Tower. To view these approvals, go to the Approvals tab on the MCP server record. For more information on Approvals tab and MCP server record, see [MCP server record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/view-the-mcp-server-record.md)
 
 3.  Enter the Name.
 
@@ -59,7 +60,7 @@ For more information on the AI steward role and its responsibilities, see [AI Co
 
     **Note:** To view the approval request record for every MCP server in the AI Agent studio, select **View Approval record**. This action will direct you to the Related Variants tab of the respective MCP server
 
-    To know more about Related Variants tab in the MCP server record, see [MCP server record](../concept/view-the-mcp-server-record.md)
+    To know more about Related Variants tab in the MCP server record, see [MCP server record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/view-the-mcp-server-record.md)
 
 10. Select **Save** to create an MCP server record.
 
@@ -74,5 +75,5 @@ After synchronizing, the MCP server shows up in the AI asset inventory with its 
 
 ## What to do next
 
-The MCP server approval request must be approved. See [MCP server approval workflow](playbook-workflow-of-mcp-server-approval-request.md)
+The MCP server approval request must be approved. See [MCP Server Approval Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

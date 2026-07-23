@@ -2,13 +2,14 @@
 title: Create a transfer order
 description: Create a transfer order to move one or more assets from a source stockroom to a destination stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/create-a-transfer-order.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Transfer order tasks, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Transfer order tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Create a transfer order
@@ -44,10 +45,10 @@ Transfer order record is created.
 
 Create transfer order lines to specify the items that the transfer order comprises of.
 
-**Parent Topic:**[Transfer order tasks](../concept/work-with-transfer-orders.md)
+**Parent Topic:**[Transfer order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-transfer-orders.md)
 
 **Related topics**  
 
 
-[Create transfer order line](create-transfer-order-line.md)
+[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/create-transfer-order-line.md)
 

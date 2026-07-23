@@ -2,13 +2,14 @@
 title: Hardware asset overview
 description: Enhance your Hardware Asset Management experience by using the modernized and user-friendly Hardware asset overview view. The Hardware asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/hardware-asset-overview.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Hardware Asset Workspace, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Hardware asset overview
@@ -24,7 +25,7 @@ Use the Hardware asset overview view to:
 
 Select any widget or chart to view detailed information and take appropriate actions. You can also use **Location**, **Stockroom**, and **Model category** lists to filter your results.
 
-![Hardware asset overview in Hardware Asset Workspace.](../image/hardware-asset-overview.png "Hardware asset overview")
+\[Omitted image "hardware-asset-overview.png"\] Alt text: Hardware asset overview in Hardware Asset Workspace.
 
 |Widget or chart|Description|
 |---------------|-----------|
@@ -55,10 +56,10 @@ You can load charts or widgets that fetch a huge set of asset records on demand 
 
 The system property **sn\_itam\_workspace.asset\_overview\_enable\_lazy\_loading** provides you with an option to either selectively load reports you want to view or load reports concurrently with the page. By default, this system property is set to **False**. When this system property is enabled on your ServiceNow instance, you can view reports by using the **Load report** option.
 
-![Load reports on Hardware asset overview](../image/ham-asset-overview-load.png "Load reports on Hardware asset overview")
+\[Omitted image "ham-asset-overview-load.png"\] Alt text: Load reports on Hardware asset overview
 
 **Related topics**  
 
 
-[Analytics and Reporting Solutions for Hardware Asset Management](../../../use/dashboards/application-content-packs/hardware-asset-content-pack.md#)
+[Analytics and Reporting Solutions for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/hardware-asset-content-pack.md)
 

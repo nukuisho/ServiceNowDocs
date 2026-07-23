@@ -2,6 +2,7 @@
 title: Application Navigator category
 description: Verify the functionality of menus and modules in the application navigator.Verifies the visibility, or lack thereof, of selected application menus in the application navigator \(left navigation bar\). For example, you create a test that first impersonates a user, then verifies that specified application menus \(such as Self-Service and Reports\) are visible, or are not visible, to that user.Application menus define the main content that users can access in the application navigator. You can configure which applications appear in the application navigator.Modules are the children, or the second tier navigation options to the applications in the application navigator. Modules often link to other pages or records in the platform. You can configure which modules appear in the application navigator using Application Menus module.The Link type field on the Module form specifies what type of link the module opens.Clicking a module name in the navigation pane executes a URI that opens the module's page in the content pane. All the characters in module URIs must be URL-encoded or the link breaks.Verify the visibility, or lack thereof, of selected modules in the application navigator \(left navigation bar\). For example, create a test that first impersonates a user, then verifies that specified modules \(such as Homepage and My Requests\) are visible, or are not visible, to that user.Open a module from the application navigator, as if a user had clicked it. The module must be visible to the currently executing user to navigate to it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-app-navigator-category.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -130,7 +131,7 @@ Application menus whose lack of visibility in the application navigator is being
 </table>**Related topics**  
 
 
-[Create an application menu](test-steps-app-navigator-category.md#)
+[Create an application menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md)
 
 ## Create an application menu
 
@@ -168,7 +169,7 @@ When creating an application menu, consider grouping like modules into a consoli
 
 4.  Click **Submit**.
 
-5.  [Create modules](test-steps-app-navigator-category.md#) to appear in the application menu.
+5.  [Create modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md) to appear in the application menu.
 
     Only application menus that contain modules appear in the application navigator.
 
@@ -177,7 +178,7 @@ When creating an application menu, consider grouping like modules into a consoli
 
 Modules are the children, or the second tier navigation options to the applications in the application navigator. Modules often link to other pages or records in the platform. You can configure which modules appear in the application navigator using Application Menus module.
 
-Watch this five-minute video to learn about adding application menus and modules to the application navigator.Shows how to add application menus and modules to the application navigator.
+Watch this five-minute video to learn about adding application menus and modules to the application navigator.
 
 ### Before you begin
 
@@ -246,7 +247,7 @@ The order in which the module displays relative to other modules.
 
 5.  On the **List Type** tab, complete the fields.
 
-    The fields displayed depend on the **Link type** you choose. All module URIs must be encoded. If you supply arguments to the module URI, either you or ServiceNow. For more information about encoding module URIs, see [Encoding module URIs](test-steps-app-navigator-category.md#).
+    The fields displayed depend on the **Link type** you choose. All module URIs must be encoded. If you supply arguments to the module URI, either you or ServiceNow. For more information about encoding module URIs, see [Encoding module URIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md).
 
 <table id="table_rh5_vrx_xhb"><thead><tr><th>
 
@@ -262,7 +263,7 @@ Link type
 
 </td><td>
 
-Specifies what type of link this module opens. You must specify additional information based on the link type. See [Module link types](test-steps-app-navigator-category.md#).
+Specifies what type of link this module opens. You must specify additional information based on the link type. See [Module link types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md).
 
 </td></tr><tr><td>
 
@@ -286,7 +287,7 @@ Argument
 
 </td><td>
 
-String appended to the URI to create the module URI. Can be a sysparm\_query. These values must be encoded either by you or ServiceNow. For more information about encoding module URIs, see [Encoding module URIs](test-steps-app-navigator-category.md#).
+String appended to the URI to create the module URI. Can be a sysparm\_query. These values must be encoded either by you or ServiceNow. For more information about encoding module URIs, see [Encoding module URIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md).
 
 </td></tr><tr><td>
 
@@ -324,7 +325,7 @@ Content Page
 
 </td><td>
 
-Displays the content page you select in the **Content page** reference field. See [Create a content page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentPage.md).
+Displays the content page you select in the **Content page** reference field. See [Create a content page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAContentPage.md).
 
 </td></tr><tr><td>
 
@@ -442,7 +443,7 @@ Timeline Page
 
 </td><td>
 
-Displays the timeline page you select in the **Timeline Page** reference field. See [Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md).
+Displays the timeline page you select in the **Timeline Page** reference field. See [Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TimelinePages.md).
 
 </td></tr><tr><td>
 
@@ -466,7 +467,7 @@ Clicking a module name in the navigation pane executes a URI that opens the modu
 
 When you create modules, you have the option of adding arguments and filter conditions that sort and/or reduce the number of results displayed in the content pane. When you click a module name in **System Definitions** &gt; **Application Definitions**, you can see those conditions and arguments on the **Link Type** tab.
 
-![Link type tab](../../navigation-and-ui/image/link-type-tab.png)
+\[Omitted image "link-type-tab.png"\] Alt text: Link type tab
 
 The argument definition in **Arguments** and filter conditions defined in **Filter** become part of the module's URI and must be URL-encoded. ServiceNow automatically URL-encodes filter conditions and appends them to the module URI using sysparm\_query. For example, adding the filter condition, **Active is true** appends `sysparm_query=active%3Dtrue` to the module's URI; %3D is the URL-encoding for the equals sign \(=\).
 
@@ -699,7 +700,7 @@ Modules whose lack of visibility in the application navigator is being verified.
 </table>**Related topics**  
 
 
-[Create a module](test-steps-app-navigator-category.md#)
+[Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md)
 
 ## Navigate to Module
 
@@ -796,5 +797,5 @@ Module that should be opened. To navigate to the selected module, the module mus
 </table>**Related topics**  
 
 
-[Create a module](test-steps-app-navigator-category.md#)
+[Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-app-navigator-category.md)
 

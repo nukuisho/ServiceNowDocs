@@ -1,7 +1,8 @@
 ---
 title: Explore Scripting Governance Tool
-description: The Scripting Governance Tool \(SGT\) provides a single, centralised control for managing scripting access across your ServiceNow AI Platform.
+description: The Scripting Governance Tool provides a single, centralised control for managing scripting access across your ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/explore-sgt.html
 release: australia
 product: Access Control
 classification: access-control
@@ -14,11 +15,11 @@ breadcrumb: [Scripting Governance Tool, Access Management]
 
 # Explore Scripting Governance Tool
 
-The Scripting Governance Tool \(SGT\) provides a single, centralised control for managing scripting access across your ServiceNow AI Platform.
+The Scripting Governance Tool provides a single, centralised control for managing scripting access across your ServiceNow AI Platform.
 
 The Zurich release introduces a feature that gives administrators centralised control over who can edit script fields on the ServiceNow AI Platform. The feature adds a new permission layer built on the **Conditional Script Writer** group and its child role, `snc_required_script_writer_permission`. Users must be members of this group to edit any script field, regardless of their existing ACL-based access. This permission layer is enforced through data-type ACLs and maintained by scheduled jobs and system properties.
 
-To manage this feature, ServiceNow AI Platform provides the **Scripting Governance Tool \(SGT\)** — a dashboard where administrators can see which users have scripting access, scan the instance for users who have edited script fields, and directly add or revoke scripting access from users.
+To manage this feature, ServiceNow AI Platform provides the **Scripting Governance Tool** — a dashboard where administrators can see which users have scripting access, scan the instance for users who have edited script fields, and directly add or revoke scripting access from users.
 
 ## Why it matters
 
@@ -36,7 +37,7 @@ Scripting governance feature enforces a two-layer access model. Both layers must
 
     The user must pass the existing ACL on the scripting field \(out-of-the-box or custom\). This check is unchanged from pre-Zurich behaviour.
 
--   **Layer 2 — SGT role check**
+-   **Layer 2 — Scripting Governance Tool role check**
 
     The user must also hold the `snc_required_script_writer_permission` role, which is granted through membership in the **Conditional Script Writer** group.
 
@@ -69,7 +70,7 @@ Scripting governance feature introduces 9 data type ACLs to enforce Layer 2. The
     -   html\_template
     -   xml
     -   condition\_string
-    **Note:** The admin role does not have scripting access by default. Admin users are subject to the same two-layer check and cannot edit script fields unless they are members of the **Conditional Script Writer** group or explicitly hold the `snc_required_script_writer_permission` role.To know more, see [Datatype ACL](../../contextual-security/concept/datatype-acl.md).
+    **Note:** The admin role does not have scripting access by default. Admin users are subject to the same two-layer check and cannot edit script fields unless they are members of the **Conditional Script Writer** group or explicitly hold the `snc_required_script_writer_permission` role.To know more, see [Datatype ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/datatype-acl.md).
 
 
 ## Scheduled jobs and properties
@@ -110,14 +111,14 @@ Both scheduled jobs use the same criteria to determine which users are added to 
 
 ## Scripting Governance Tool
 
-The **Scripting Governance Tool** is a dashboard that helps administrators manage scripting access on the ServiceNow platform. It provides visibility into users who are members of the **Conditional Script Writer** group — giving a clear picture of how many users can script on your instance.
+The Scripting Governance Tool is a dashboard that helps administrators manage scripting access on the ServiceNow platform. It provides visibility into users who are members of the **Conditional Script Writer** group — giving a clear picture of how many users can script on your instance.
 
 You can also view which groups contain the scripting role and which roles contain it as a child role. There are two ways to manage scripting access through the tool:
 
 -   **Manual configuration**: Manually add or remove users from the **Conditional Script Writer** group to control who has scripting access.
 -   **Scan for users who have scripted**: Scan your instance to find users who have scripted within a specific time frame. The scan queries the audit logs and identifies any user who has performed write or update to a table having script field.
 
-![Scripting Governance Tool dashboard](../image/scripting-governance-dashboard.png)
+\[Omitted image "scripting-governance-dashboard.png"\] Alt text: Scripting Governance Tool dashboard
 
 **Note:** It is recommended to manage scripting access exclusively through the **Conditional Script Writer** group. Adding the `snc_required_script_writer_permission` role as a child role to other roles or groups reduces your ability to centrally control who can script on your instance.
 

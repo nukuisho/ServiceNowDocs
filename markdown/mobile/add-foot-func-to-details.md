@@ -2,6 +2,7 @@
 title: Add a footer function to screen
 description: Add footer functions to the details screen in your record screens using Mobile App Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/add-foot-func-to-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,9 +32,9 @@ Footer functions are functions that users can by tapping a button at the bottom 
 
 3.  Select the **Screens** category and then select the record screen.
 
-4.  Use the configuration tree on the left to find and select the details screen where you want to add a footer function.![Details screen within the Mobile App Builder configuration tree](../image/add-func-to-details-1.png)
+4.  Use the configuration tree on the left to find and select the details screen where you want to add a footer function.\[Omitted image "add-func-to-details-1.png"\] Alt text: Details screen within the Mobile App Builder configuration tree
 
-5.  In the configuration panel, find the **Field function instances** section and click the **New** button.![Field function instances section of the details screen panel](../image/add-func-to-details-3.png)
+5.  In the configuration panel, find the **Field function instances** section and click the **New** button.\[Omitted image "add-func-to-details-3.png"\] Alt text: Field function instances section of the details screen panel
 
 6.  In the **New function instance** control panel, fill in the fields as needed.
 
@@ -101,7 +102,7 @@ Icon
 
 Option icon used for your field function.To use an existing icon, click the **Choose** button, select an icon, and click **Apply**.
 
-To create an icon, click the **New** button. You’re redirected to the **New icon** panel. For details on creating icons see [Mobile icons](../reference/sg-mobile-icon.md).
+To create an icon, click the **New** button. You’re redirected to the **New icon** panel. For details on creating icons see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Button emphasis color
 
 </td><td>
 
-Color emphasis used for the footer function. The appearance of the color depends on your mobile theme. For details on mobile themes, see [Mobile theme color guidelines](../reference/sg-theme-colors.md).
+Color emphasis used for the footer function. The appearance of the color depends on your mobile theme. For details on mobile themes, see [Mobile theme color guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-theme-colors.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +120,7 @@ Function
 
 Function to use on the field selected in the **Field Name** field.To use an existing function, click the **Choose** button, select a function, and click **Apply**.
 
-To create function, click the **New** button. You’re redirected to the **New function** panel. For details on creating functions see [Mobile functions](../concept/sg-studio-mobile-button-types.md).
+To create function, click the **New** button. You’re redirected to the **New function** panel. For details on creating functions see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
 
 </td></tr></tbody>
 </table>7.  Click **Save** in the upper right corner to save your function instance.

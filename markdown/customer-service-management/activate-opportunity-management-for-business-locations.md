@@ -2,6 +2,7 @@
 title: Activate Opportunity Management for Business Locations
 description: Activate the Opportunity Management for Business Location plugin to create and track opportunities across the lifecycle of the customer journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-opportunity-management-for-business-locations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ The following items are installed with Opportunity Management for Business Locat
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Roles and responsibilities](../concept/personas-roles-and-tables-post-integration-oppMgmt.md).
+For more information, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/personas-roles-and-tables-post-integration-oppMgmt.md).
 
 ## Procedure
 
@@ -41,11 +42,11 @@ For more information, see [Roles and responsibilities](../concept/personas-roles
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  
 
 
-[Opportunity Management for business location](../concept/opportunity-management-for-business-location.md)
+[Opportunity Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/opportunity-management-for-business-location.md)
 

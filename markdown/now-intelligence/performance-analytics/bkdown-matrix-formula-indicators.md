@@ -2,6 +2,7 @@
 title: Breakdown matrices in formula indicators
 description: Formula indicators inherit breakdown matrices from indicators in the formula.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/bkdown-matrix-formula-indicators.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -41,22 +42,22 @@ Number of open incidents with Category = Software: 31
 Formula: 8152/31/24=11
 ```
 
-**Parent Topic:**[Formula indicators](formula-indicators.md)
+**Parent Topic:**[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
 
 **Related topics**  
 
 
-[Create a formula indicator](../task/t_CreateAFormulaIndicator.md)
+[Create a formula indicator]()
 
-[Get analytics methods in formulas](../task/get-indicator-analytics.md)
+[Get analytics methods in formulas]()
 
-[Prevent a contributing indicator in a formula from following breakdowns](c_ExcludingBreakdownsFromFormulas.md)
+[Prevent a contributing indicator in a formula from following breakdowns]()
 
-[Applying time series to result or to contributing indicators](apply-time-series-result-components.md)
+[Applying time series to result or to contributing indicators]()
 
-[Detect indicators with no scores in a formula](../task/detect-indicators-no-scores-formula.md)
+[Detect indicators with no scores in a formula]()
 
-[Indexing multiple indicators in a formula](index-indicators.md)
+[Indexing multiple indicators in a formula]()
 
-[Changes to score\_start/end because of different user time zones](time-zones-indicator-formulas.md)
+[Changes to score\_start/end because of different user time zones]()
 

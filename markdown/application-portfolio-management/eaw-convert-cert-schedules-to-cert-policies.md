@@ -2,6 +2,7 @@
 title: Import certification schedules in to Data Manager
 description: Import the certification schedules into Data Manager to convert the existing certification schedules to certification policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-convert-cert-schedules-to-cert-policies.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ This process converts the certification schedules into draft certification polic
 
 3.  Select the Data Manager link in Management tools, in the Manage section.
 
-    ![Management tools page](../../image/eaw-image/cmdb-datamangement.png)
+    \[Omitted image "cmdb-datamangement.png"\] Alt text: Management tools page
 
 4.  On the Data Manager overview page, select **Import** on the banner at the top of the page.
 
@@ -39,25 +40,25 @@ This process converts the certification schedules into draft certification polic
 
 5.  In the Confirm import of certification schedule into draft policies, select **Import into draft policies**.
 
-    ![Confirmation message for importing Data Certification schedules as Data Manager draft policies](../../image/eaw-image/cmdb-import-cert-schedules.png)
+    \[Omitted image "cmdb-import-cert-schedules.png"\] Alt text: Confirmation message for importing Data Certification schedules as Data Manager draft policies
 
 6.  In the Import summary modal, select **View draft policies**.
 
-    The converted policies appear in the Data Manager policies page, under the Draft policies tab.![Draft policies list](../../image/eaw-image/cmdb-draft-policies.png)
+    The converted policies appear in the Data Manager policies page, under the Draft policies tab.\[Omitted image "cmdb-draft-policies.png"\] Alt text: Draft policies list
 
 7.  Publish the draft policies to activate them.
 
-    For more information, see [Publish a draft Data Manager policy](eaw-publish-a-draft-policy.md).
+    For more information, see [Publish a draft Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-publish-a-draft-policy.md).
 
 
-**Parent Topic:**[Configure certification policies](../../concept/eaw-concept/eaw-setup-cert-policies.md)
+**Parent Topic:**[Configure certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-cert-policies.md)
 
 **Related topics**  
 
 
-[Publish a draft Data Manager policy](eaw-publish-a-draft-policy.md)
+[Publish a draft Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-publish-a-draft-policy.md)
 
-[Add or edit a certification policy](eaw-manage-cert-schedules.md)
+[Add or edit a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-cert-schedules.md)
 
-[View all certification policies](eaw-view-all-cert-schedules.md)
+[View all certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-cert-schedules.md)
 

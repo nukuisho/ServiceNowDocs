@@ -2,6 +2,7 @@
 title: Create a TPRM dashboard with the In-line editor
 description: You can create dashboards with data visualizations, filters, and other elements that you can share with others. You can create elements and add existing elements from the in-line editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-db.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -27,9 +28,9 @@ Role required: Any user with an internal role can create dashboards.
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**
 
-2.  Select the dashboards page icon ![](../../grc-workspace-vrm/image/icon-tprm-ws-dashboard.png).
+2.  Select the dashboards page icon \[Omitted image "icon-tprm-ws-dashboard.png"\] Alt text:.
 
-3.  Select the more actions menu icon ![](../image/context-menu-db-element-ac.png) and select **Create new**.
+3.  Select the more actions menu icon \[Omitted image "context-menu-db-element-ac.png"\] Alt text: and select **Create new**.
 
 4.  Select the **In-line editor** tile and give the dashboard a name and a description.
 
@@ -39,7 +40,7 @@ Role required: Any user with an internal role can create dashboards.
 
 6.  Choose **In-line editor**.
 
-    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) and [Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-tech-db-in-ac.md).
+    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md) and [Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-tech-db-in-ac.md).
 
 7.  Select **Add new element** to add content to the dashboard.
 
@@ -47,9 +48,9 @@ Role required: Any user with an internal role can create dashboards.
 
     When you add a data visualization, select **New data visualization** to create a new visualization or **Saved data visualization** to choose one from the library. When you add a filter, select **New filter** to create the filter without pre-configured data or **Saved filter** to reuse an existing filter.
 
-8.  Select the dashboard details icon ![](../../grc-business-continuity-management/image/InformationIcon.png) to open the Details panel and provide a name and description for your dashboard.
+8.  Select the dashboard details icon \[Omitted image "InformationIcon.png"\] Alt text: to open the Details panel and provide a name and description for your dashboard.
 
-    For more information, see [Edit TPRM dashboard details](edit-tprm-db-details.md).
+    For more information, see [Edit TPRM dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/edit-tprm-db-details.md).
 
 9.  Arrange the data on the canvas to make it useful.
 
@@ -64,6 +65,6 @@ Role required: Any user with an internal role can create dashboards.
 
 ## What to do next
 
--   [Edit TPRM dashboard details](edit-tprm-db-details.md)
--   [Edit TPRM dashboard elements](tprm-edit-db-elements.md)
+-   [Edit TPRM dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/edit-tprm-db-details.md)
+-   [Edit TPRM dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-edit-db-elements.md)
 

@@ -2,6 +2,7 @@
 title: Agent assist
 description: Learn about the Agent assist component in the tabs sidebar for a Configurable Workspace record page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/agent-assist-configurable-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Agent assist helps an agent resolve issues by providing a list of resources rela
 
 It appears as a tab within the tabs sidebar for a standard record page.
 
-![Agent Assist for Configurable Workspace](../image/configurable-workspace-agent-assist.png)
+\[Omitted image "configurable-workspace-agent-assist.png"\] Alt text: Agent Assist for Configurable Workspace
 
 The Agent assist component is configured and customized by admins in UI Builder. For information on Agent assist component configurations, see [Agent assist UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/sn-agent-assist-uib/uib-setup).
 

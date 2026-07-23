@@ -2,6 +2,7 @@
 title: Setting up defaults required for standard currency use
 description: Set up the defaults required for use of standard currency fields in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/setting-up-standard-currency-defaults.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -15,21 +16,21 @@ breadcrumb: [Configure, Currency administration, Configure core features, Admini
 
 Set up the defaults required for use of standard currency fields in your instance.
 
--   **[Control default currency field configuration and use in an instance](../reference/currency-properties.md)**  
+-   **[Control default currency field configuration and use in an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency-properties.md)**  
 You can control how currency fields are configured and used in your instance.
--   **[Change default currency decimal places](../task/change-currency-fraction-digits.md)**  
+-   **[Change default currency decimal places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/change-currency-fraction-digits.md)**  
 You can specify the number of decimal places stored and used in currency fields and calculations.
--   **[Configure default currency fields in audit records](../task/audit-currency-fields.md)**  
+-   **[Configure default currency fields in audit records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/audit-currency-fields.md)**  
 You can control what currency value is stored in audit records.
--   **[Configure the currency optimizer](../task/configure-currency-optimizer.md)**  
+-   **[Configure the currency optimizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-currency-optimizer.md)**  
 You can configure the system to use an optimizer for currency/price fields to speed up list view \(reading currency/price values\).
--   **[Default currency conversions](currency-conversions.md)**  
+-   **[Default currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency-conversions.md)**  
 Currency values can be converted to other currencies when stored and accessed.
 
-**Parent Topic:**[Configuring currency fields](configure-currency-admin.md)
+**Parent Topic:**[Configuring currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-currency-admin.md)
 
 **Related topics**  
 
 
-[Setting up defaults required for FX Currency use](setting-up-defaults-fx-currency-use.md)
+[Setting up defaults required for FX Currency use]()
 

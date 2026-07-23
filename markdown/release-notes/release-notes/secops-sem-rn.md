@@ -4,8 +4,8 @@ description: The ServiceNow Unified Security Exposure Management \(USEM\) applic
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-03"
-reading_time_minutes: 7
+last_updated: "2026-07-01"
+reading_time_minutes: 14
 keywords: [usem release notes]
 ---
 
@@ -15,6 +15,8 @@ The ServiceNow® Unified Security Exposure Management \(USEM\) application enhan
 
 ## Unified Security Exposure Management highlights for the Australia release
 
+-   Unified Security Exposure Management now integrates with Early Warning for Security Exposure Management integration to enrich Common Vulnerabilities and Exposures \(CVE\) data with Early Warning insights, enabling teams to focus remediation on vulnerabilities under active or imminent exploitation.
+-   Vulnerability management teams can use AI Security Exposure Management and supported integrations to reduce the AI attack surface by efficiently remediating security exposures in AI assets.
 -   USEM was enhanced and updated in the Australia release to support the new AI native experience.
 -   Administrators can manage user and group role assignments, create/update watchdogs with custom conditions, and access a centralized Advanced Settings page — all directly from the Security Exposure Management Workspace, eliminating the need to navigate multiple configuration pages.
 -   Assign tags to security incidents, response tasks, vulnerable items, observables, IoCs, and security cases to define metadata and access control all directly from the Security Exposure Management Workspace.
@@ -40,15 +42,90 @@ To access the new AI native experience in the Unified Security Exposure Manageme
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
-Unified Security Exposure Management is available to all customers who are entitled to Vulnerability Response, however, migrating to USEM is a major upgrade that introduces a unified architecture for improved performance, scalability, and streamlined workflows. Before upgrading, leverage the Migration assistant for Unified Security Exposure Management that is available as an update set. See the [Migration Guidance to Unified Security Exposure Management \[KB2556844\]](https://support.servicenow.com/kb?sys_kb_id=8652717893a8ba94f538fb2d6cba1078&id=kb_article_view) Knowledge Base article for more information. This tool provides a guided experience for plugin installation, data mapping, rule migration, and post-migration validation, reducing risk and manual effort. Ensure that all integrations and workflows are reviewed for compatibility before initiating migration. For more information, see [Migrating from Vulnerability Response to Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/migrating-to-usem.md) and [Migrate to Unified Security Exposure Management \(USEM\) from Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/migrate-to-usem.md).
+Unified Security Exposure Management is available to all customers who are entitled to Vulnerability Response, however, migrating to USEM is a major upgrade that introduces a unified architecture for improved performance, scalability, and streamlined workflows. Before upgrading, leverage the Migration assistant for Unified Security Exposure Management that is available as an update set. See the [Migration Guidance to Unified Security Exposure Management \[KB2556844\]](https://support.servicenow.com/kb?sys_kb_id=8652717893a8ba94f538fb2d6cba1078&id=kb_article_view) Knowledge Base article for more information. This tool provides a guided experience for plugin installation, data mapping, rule migration, and post-migration validation, reducing risk and manual effort. Ensure that all integrations and workflows are reviewed for compatibility before initiating migration. For more information, see [Migrating from Vulnerability Response to Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/migrating-to-usem.md) and [Migrate to Unified Security Exposure Management \(USEM\) from Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/migrate-to-usem.md).
 
 ## New in the Australia release
+
+-   **[Enhancements to the Invicti Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/invicti-vuln-integration.md)**
+
+    Added the Invicti Platform Integration. Support for the Invicti Platform APIs introduces three new integration jobs that connect directly to the Invicti Platform cloud service:
+
+    -   Application Integration — Imports the list of applications being scanned in Invicti Platform into your ServiceNow AI Platform® instance as discovered applications.
+    -   Scan Integration — Pulls scan records from Invicti Platform, providing scan metadata to correlate with vulnerability findings.
+    -   Vulnerability Integration — Imports application vulnerability findings from Invicti Platform and creates or updates application vulnerable items in Vulnerability Response in your ServiceNow AI Platform®.
+    Enhancements to Application life-cycle management: When an application is deleted or decommissioned in Invicti Platform, your ServiceNow AI Platform® automatically deactivates the corresponding discovered application and closes all associated application vulnerable items \(AVITs\), keeping your vulnerability inventory accurate without manual cleanup.
+
+-   **[Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)**
+
+    You can now integrate with Early Warning for Security Exposure Management integration to enrich vulnerabilities with Early Warning threat intelligence. Powered by Armis Threat Intelligence \(ATI\), Early Warning signals are mapped to CVEs and include supporting evidence, first-seen exploitation dates, and Admiralty Scores to indicate intelligence reliability. Delta-based scheduled ingestion ensures CVE enrichment remains current through efficient incremental updates, helping security teams respond faster to emerging threats by improving risk assessment and prioritisation.
+
+-   **[Enhancements to AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-ai-security-exposure.md)**
+
+    Remediation tasks are supported for the following AI Security Exposure Management findings:
+
+    -   AI Vulnerability Finding \(AIVUL\)
+    -   AI Validation Finding \(AIVF\)
+    -   AI Posture Finding \(AIPF\)
+    You can view these findings along with other Unified Security Exposure Management \(USEM\) findings and remediation tasks in the List module in the Security Exposure Management workspace organized by finding type.
+
+-   **[Enhancements to Exception Management for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exp-mngmt-vr.md)**
+    -   Added bulk edit support for Risk modification requests that permit you to evaluate and process multiple vulnerable items at once.
+    -   Added Smart Assessment support to the Risk Reduction option in Request Exception workflows.
+-   **[Evaluate vulnerability exposure with AI-powered analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-review-vulnerability-exposure-data.md)**
+
+    The Security Exposure 360 agentic workflow brings AI-powered exposure analysis to Unified Security Exposure Management \(USEM\). Users can now ask questions in plain language and get answers grounded in their own ServiceNow data — across all types of findings within USEM.
+
+-   **[AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-ai-security-exposure.md)**
+
+    Vulnerability management teams can use AI Security Exposure Management to reduce the AI attack surface by efficiently remediating security exposures in AI assets.
+
+    The AI Exposures dashboard provides you with a view into the critical security vulnerabilities of your AI attack surface. You have the option to use a generative AI skill to help you determine if any of the threats might be already mitigated and help you prioritize high risk exposures and defer lower risk exposures that have mitigations or guardrails already in place.
+
+    AI Security Exposure Management uses imported data with the following integrations that are available in the ServiceNow® Store:
+
+    -   The Cisco AI Defense Integration for AI Security Exposure Management
+    -   The AI Service Graph Connector for Palo Alto Prisma AIRS
+    -   The AI Service Graph Connector for HiddenLayer
+    -   The Palo Alto Prisma AIRS Integration
+-   **[Risk reduction requests for multiple findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-bulk-edit-request-exception.md)**
+
+    You can now submit risk reduction requests for multiple findings at once using Bulk Edit in the Security Exposure Management Workspace. This reduces manual effort and simplifies the risk acceptance workflow.
+
+-   **[Smart Assessment support for exception requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exp-mngmt-vr.md)**
+
+    The Request Exception option now supports Smart Assessment. When you select Request for Risk Reduction, the compensating control questionnaire takes priority and is displayed instead of the exception questionnaire, based on your exception management configuration.
+
+-   **[Enhancements to the Microsoft Defender Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ms-defender-sem.md)**
+
+    Added support for certificate-based authentication in the Microsoft Threat and Vulnerability Management \(TVM\) integration.
+
+-   **[Enhancements to Security Posture Control and supported applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-install.md)**
+    -   Configuration Compliance is now a supported dependency for Security Posture Control Core, expanding the policy framework for compliance-driven asset evaluation. It is installed automatically when you install Security Posture Control.
+    -   With enhancements to the asset profile framework, you might see improved coverage for service graph connector-sourced data.
+    -   Enhancements to the API Connector builder for Security Posture Control streamline the process for your custom-built connectors. You might see improvements for the request/response mapping steps.
+    -   Expanded support for additional authentication patterns when building custom API connectors.
+-   **[Activate the Wiz Asset Integration and identify resource types for import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/wiz-assets-resources-tab.md)**
+
+    Enhancements to the Wiz integration include:
+
+    -   Starting with version 32.1 \(USEM\) and version 4.1 \(non-USEM\), the Asset integration is deactivated by default and is not a mandatory prerequisite for the other Wiz integration imports.
+
+        If you choose to activate it, the Asset integration will retrieve assets for all resource types if you don't specify the ones you want on the **Asset Integration Configuration** tab. To avoid importing vulnerability data you don't need, identify only the resources \(assets\) that you want to import with this integration.
+
+    -   Resource Type is no longer a mandatory field for configuring the Vulnerability Response Integration with Wiz. You can now save Wiz configurations for the integrations without specifying a Resource Type, simplifying setup for use cases where specifying a Resource Type isn't appropriate.
+-   **[Configuring lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-lookup-rules.md)**
+
+    The Applies to field is added to the Rules page for Configuration \(CI\) lookup rule records. For third-party and ServiceNow® integrations that support both Application Vulnerability Response \(AVR\) and Vulnerability Response \(VR\) lookup rules, like the Vulnerability Response Integration with Wiz, for example, select one for a rule:
+
+    -   **Discovered Application** for Application Vulnerability Response lookup rules.
+    -   **Discovered Item** for Vulnerability Response lookup rules.
+    **Note:** The field is left empty by default. If you leave this field empty for lookup rules that support both VR and AVR integrations, background jobs for both applications apply changes on the same set of lookup rules. This state might cause a conflict and set the reapply flag incorrectly. With this distinction set, after the respective background jobs for AVR and VR are completed, the system resets the flag only for the lookup rules for the background job that was run.
 
 -   **[Auto-close rules now run in parallel, reducing processing time for large datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-auto-close-rules.md)**
 
     Previously, auto-close rules ran as a single sequential job. Starting with v30.3.3, the system automatically splits processing into multiple concurrent jobs based on data volume — no configuration required. Simply enable an auto-close rule and the system handles the rest.
 
--   **[Deferred migration option for Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/migrate-to-usem.md)**
+-   **[Deferred migration option for Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/migrate-to-usem.md)**
 
     If you're not ready to migrate to Unified Security Exposure Management \(USEM\), you can select **Upgrade later** button to defer the process. The Migration Assistant will be hidden from the main view but remains accessible via the Filter Navigator whenever you're ready to proceed.
 
@@ -68,7 +145,7 @@ Unified Security Exposure Management is available to all customers who are entit
 
     Administrators can now create and manage severity maps from the Security Exposure Management Workspace. Severity mapping normalizes source-specific severity fields from third-party integrations into the standardized severity scale used by Unified Security Exposure Management. This ensures consistent severity representation across all integrated data sources.
 
--   **[Background job configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-background-framework.md)**
+-   **[Background job configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-background-framework.md)**
 
     A new Background Job Configuration tile is now available in the Other section of the Security Exposure Management Workspace Administration console. Selecting the tile opens the Background Job Configuration page providing a consistent workspace-based entry point for managing background job settings.
 
@@ -84,32 +161,40 @@ Unified Security Exposure Management is available to all customers who are entit
 
     Added new KPI tiles to the Exception Management dashboard for Expiring Exceptions, Exception Extensions, and Repeated Rejections, giving approvers and managers additional visibility into exception health and lifecycle trends.
 
--   **[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/aws-integration-for-security-exposure-management-overview.md)**
+-   **[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/aws-integration-for-security-exposure-management-overview.md)**
 
     The AWS Integration for Security Exposure Management supports integrations with the following AWS services:
 
     -   AWS Inspector is an automated vulnerability management service that continuously scans EC2 instances, ECR container images, and Lambda functions for software vulnerabilities \(CVEs\) and unintended network exposure. The Vulnerability Response integration with AWS Inspector imports host and container vulnerability findings from AWS Inspector.
     -   AWS Security Hub is a security service that is used to centralize and update security checks across AWS accounts. It provides a unified view of security alerts and compliance status by integrating with various AWS services. The Vulnerability Response integration with AWS Security Hub imports host, container vulnerabilities, and misconfigurations from AWS Security Hub.
--   **[Unified Microsoft Defender Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/ms-defender-sem.md)**
+-   **[Unified Microsoft Defender Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ms-defender-sem.md)**
 
     The Microsoft Defender for Cloud and Microsoft Defender Threat and Vulnerability Management \(MS TVM\) plugins are now consolidated into a single plugin: Microsoft Defender Integration for Security Exposure Management. This consolidation deprecates the standalone Microsoft Defender for Cloud plugin. The unified plugin also introduces container image vulnerability ingestion from Microsoft Defender for Cloud, creating Container Vulnerable Items on your instance. A guided migration path is available to transfer existing data from the deprecated applications to the unified plugin.
 
--   **[Optimized Tenable.io Compliance Results ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/tenableIntegration.md)**
+-   **[Optimized Tenable.io Compliance Results ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/tenableIntegration.md)**
 
     Starting with v 6.1.3, the Tenable.io Compliance Results Integration is replaced by the Tenable.io Fixed Compliance Results Integration and Tenable.io Open Compliance Results Integration. Compliance results are now imported based on their status, optimizing ingestion performance and scalability for environments with large volumes of compliance data while keeping remediation and compliance tracking aligned with the current state of findings.
 
--   **[Qualys Integration – API enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/c_QualysVulnIntegration.md)**
+-   **[Qualys Integration – API enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_QualysVulnIntegration.md)**
 
     The Qualys Vulnerability Integration has been upgraded to support newer Qualys API versions across Host Detection, Host List, Knowledgebase, PC Controls, PC Policies, and PCRS integrations. The integrations now ingest additional data fields, including vulnerability detection source, authentication privilege status, active status for controls and policies, and cloud metadata, giving you better visibility into your vulnerability and compliance data. Use the new `posture_api_version` integration instance parameter to choose between the default v2.0 APIs or the newer v5.0 streaming APIs for the PCRS Policy Host and PCRS Test Results integrations.
 
--   **[GitHub Application Vulnerability Integration – Generic secrets support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/github-vuln-integration.md)**
+-   **[GitHub Application Vulnerability Integration – Generic secrets support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/github-vuln-integration.md)**
 
     The GitHub Secret Scanning Integration now imports generic secrets in addition to standard secrets from your GitHub repositories. A new Manage generic secrets in ServiceNow configuration option lets you control whether generic secrets are ingested. Imported secrets are mapped to Application Vulnerable Items \(AVIs\) with the scan type, `Secret`, while generic secrets are mapped with the scan type, `Generic Secret`.
 
 
 ## Changed in this release
 
--   **[Improved vulnerability assessment workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response-workspaces/vr-ws-vuln-assessment.md)**
+-   **[ITSM Advanced plugin required for change request options in the Remediation view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-ws-CRs.md)**
+
+    Use the **Create Change** and **Add to existing change** options in the Remediation view of the Security Exposure Management Workspace to manage remediation tasks through Change Management. These options now require the ITSM Advanced plugin to be active on your instance. If you have migrated to an ITSM AI Native SKU without ITSM Advanced, upgrade to ITSM Advanced SKU to restore access to these options.
+
+-   **[Create remediation tasks directly from the Security Exposure Management Workspace list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-workspace-list-page.md)**
+
+    Remediation owners can now create remediation tasks directly from list views in the Security Exposure Management Workspace by selecting the Create Remediation Task action from the list toolbar in the Assigned to me and Assigned to my group views for host vulnerable items, application vulnerable items, container vulnerable items, and configuration test results. Previously, this action was available only for managers.
+
+-   **[Improved vulnerability assessment workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-ws-vuln-assessment.md)**
     -   CI filtering for vulnerability assessments: You can now filter which configuration items are included in a vulnerability assessment using a condition builder.
     -   Business Application population on AVITs: AVITs created from SBOM assessment results now include Business Application information, helping you understand application impact and prioritize remediation.
     -   Priority roll‑down from vulnerability assessments: Updates to the priority of a vulnerability assessment now automatically roll down to associated VITs and AVITs, ensuring consistent prioritization based on the highest severity.
@@ -117,14 +202,14 @@ Unified Security Exposure Management is available to all customers who are entit
 
     You can now choose how remediation task rules are evaluated during ingestion. The new Match First execution mode evaluates rules sequentially and applies only the first matching rule, assigning each finding to exactly one remediation task. The default Match All mode continues to evaluate all applicable rules.
 
--   **[Enhanced Compensatory controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/requesting-approving-risk-reduction.md)**
+-   **[Enhanced Compensatory controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/requesting-approving-risk-reduction.md)**
 
     When new vulnerable items are ingested and associated with a remediation task that already has an approved compensating control, the reduced risk rating is now automatically inherited by those new vulnerable items.
 
 
 ## Activation information
 
-Install Unified Security Exposure Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Unified Security Exposure Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-**Parent Topic:**[Security Operations release notes](security-operations-rn-landing.md)
+**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/security-operations-rn-landing.md)
 

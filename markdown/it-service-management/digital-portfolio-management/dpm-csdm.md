@@ -2,6 +2,7 @@
 title: Apply the CSDM guidelines to Digital Portfolio Management
 description: Service data relates to each other using different applications and in different ways. Digital Portfolio Management \(DPM\) references the Common Service Data Model \(CSDM\) framework to bring service-related data together in a single view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-csdm.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -17,13 +18,13 @@ Service data relates to each other using different applications and in different
 
 DPM enables you to organize service data in logical sequences that make sense for your business. You can see details about your own services as well as services that you don't own but may impact your business.
 
-**Tip:** For CSDM set-up information, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md).
+**Tip:** For CSDM set-up information, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-implementation-stages.md).
 
 ## Personal portfolios and CSDM
 
 See how DPM aligns with the CSDM framework to provide a holistic view of your IT landscape.
 
-![DPM-and-CSDM.](../image/DPM_and_CSDM_infographic_V2-03.png "DPM and CSDM")
+\[Omitted image "DPM\_and\_CSDM\_infographic\_V2-03.png"\] Alt text: DPM-and-CSDM.
 
 ## CSDM life-cycle fields for business and technology management services
 
@@ -54,17 +55,17 @@ These fields also display when you use the Performance Analytics \(PA\) indicato
 
 To confirm that you see the data that you want in DPM, you must establish the correct CSDM relationships.
 
-How you establish relationships between your solutions and configuration items \(CIs\) varies depending on your situation. For more information, see [CI relationships in the CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/ci-relationships.md).
+How you establish relationships between your solutions and configuration items \(CIs\) varies depending on your situation. For more information, see [CI relationships in the CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ci-relationships.md).
 
--   **[CSDM terms for Digital Portfolio Management](dpm-common-terms.md)**  
+-   **[CSDM terms for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-common-terms.md)**  
 Because both ServiceNow® products of Digital Portfolio Management \(DPM\) and Service Portfolio Management closely align with the Common Service Data Model \(CSDM\), it's helpful to know the common terms when working in these applications.
 
-**Parent Topic:**[Configuring Digital Portfolio Management](../concept/dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 
 **Related topics**  
 
 
-[CSDM terms for Digital Portfolio Management](dpm-common-terms.md)
+[CSDM terms for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-common-terms.md)
 
-[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
+[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/csdm-implementation-stages.md)
 

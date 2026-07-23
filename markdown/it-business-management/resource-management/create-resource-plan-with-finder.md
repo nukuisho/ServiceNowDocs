@@ -2,6 +2,7 @@
 title: Use Resource Finder to analyze resource availability
 description: Search and analyze resource availability using the Resource Finder, so that you can create resource plans for a project or demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/create-resource-plan-with-finder.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -31,15 +32,15 @@ In the Resource Finder, search for the resources that you need, and create a pla
 
 1.  Open the Resource Plans page for a project or demand.
 
-<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d114319e118">
+<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d116607e118">
 
 Option
 
-</th><th align="left" id="d114319e121">
+</th><th align="left" id="d116607e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d114319e127">
+</th></tr></thead><tbody><tr><td id="d116607e127">
 
 **From a project**
 
@@ -50,7 +51,7 @@ Steps
 3.  In the **Resource Plan** related list, select **Manage** to open the Resources tab.
 
 
-</td></tr><tr><td id="d114319e166">
+</td></tr><tr><td id="d116607e166">
 
 **From a demand**
 
@@ -164,44 +165,44 @@ Right-click on the user and select **Update Capacity**.
 
 -   Update the planned hours for the resource plan using the resource grid.
 -   To view and update more details for the resource plan, click the information icon in the beginning of the resource plan row.
--   You can now [request the resource plan](t_RequestResourcePlanApproval.md).
+-   You can now [request the resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_RequestResourcePlanApproval.md).
 
-**Parent Topic:**[Resource plans](../concept/c_ResourcePlans.md)
+**Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md)
 
 **Related topics**  
 
 
-[Create a resource plan](t_CreateResourcePlanProjectTask.md)
+[Create a resource plan]()
 
-[Create an operational resource plan](create-operational-plan.md)
+[Create an operational resource plan]()
 
-[Request resources](t_RequestResourcePlanApproval.md)
+[Request resources]()
 
-[Confirm a resource plan](confirm-resource-plan.md)
+[Confirm a resource plan]()
 
-[Confirm and allocate a resource plan](confirm-allocate-resource-plan.md)
+[Confirm and allocate a resource plan]()
 
-[Request a change to a resource plan](t_RequestAChangeToAResourcePlan.md)
+[Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand](recalculate-resource-costs.md)
+[Recalculate costs of a resource plan]()
 
-[Update cost plan related to a resource plan](t_UpdateRelatedCostPlan.md)
+[Update cost plan related to a resource plan]()
 
-[Complete a resource plan](t_CloseAResourcePlan.md)
+[Complete an allocated resource plan]()
 
-[Cancel a resource plan](t_CancelAResourcePlan.md)
+[Cancel a resource plan]()
 
-[Delete a resource plan](t_DeleteAResourcePlan.md)
+[Delete a resource plan]()
 
-[Extend a resource plan](extend-resource-plan.md)
+[Extend a resource plan]()
 
-[Request extension of an allocated resource plan](request-extension-allocated-resource-plan.md)
+[Request extension of an allocated resource plan]()
 
-[Allocate resources for the extended period](allocate-resources-for-extended-period.md)
+[Allocate resources for the extended period]()
 
-[Reduce the duration of a resource plan](reduce-resource-plan.md)
+[Reduce the duration of a resource plan]()
 
-[Time zones in resource plans](../concept/c_TimeZonesInResourcePlans.md)
+[Time zones in resource plans]()
 
-[Associate a time card with a resource plan](t_AssocATimeCardWithAResourcePlan.md)
+[Associate a time card with a resource plan]()
 

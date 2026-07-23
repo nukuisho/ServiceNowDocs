@@ -2,6 +2,7 @@
 title: Define the payload for a custom modal
 description: Set your action button to open a custom modal by defining the payload parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/define-the-payload-for-a-custom-modal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,11 +16,11 @@ Set your action button to open a custom modal by defining the payload parameters
 
 ## Before you begin
 
--   [Create a form action](create-a-new-form-action.md)
--   Open your record page in UIB or [create a page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
--   [Design your page variant in UIB](design-a-page-variant-in-uib.md#)
--   [Configure your page variant as a modal in UIB](configure-a-page-variant-as-a-modal-in-uib.md#)
--   [Create a UX add-on event mapping](create-a-ux-add-on-event-mapping.md#)
+-   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-new-form-action.md)
+-   Open your record page in UIB or [create a page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md)
+-   [Design your page variant in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/design-a-page-variant-in-uib.md)
+-   [Configure your page variant as a modal in UIB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-a-page-variant-as-a-modal-in-uib.md)
+-   [Create a UX add-on event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-a-ux-add-on-event-mapping.md)
 
 Role required: admin
 
@@ -29,7 +30,7 @@ Role required: admin
 
 2.  Select the form action where you want to add the custom modal.
 
-3.  Open the **Specify client action** field by selecting the record preview icon \(![record preview icon](../../../use/collaboration/image/IconInfoTab.png)\) and **Open Record**.
+3.  Open the **Specify client action** field by selecting the record preview icon \(\[Omitted image "IconInfoTab.png"\] Alt text: record preview icon\) and **Open Record**.
 
 4.  Mark the location of your page by entering the page's action name as the route key of the **Payload** field.
 

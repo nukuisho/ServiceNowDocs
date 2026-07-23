@@ -2,6 +2,7 @@
 title: Domain separation and DevOps Config
 description: Domain separation is unsupported for DevOps Config. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-domain-separation.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,7 +16,7 @@ breadcrumb: [DevOps Config reference, DevOps Config, IT Service Management]
 
 Domain separation is unsupported for DevOps Config. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 ## Support level: No support
 
@@ -28,10 +29,10 @@ For more information on support levels, see [Application support for domain sepa
 
 The DevOps Config application validates and manages the configuration data of your enterprise applications across every stage of the DevOps pipeline. Domain separation is supported at the data segregation layer only.
 
--   **[Domain separation and CDM](../../configuration-data-management/concept/domain-separation-cdm.md)**  
+-   **[Domain separation and CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/domain-separation-cdm.md)**  
 Domain separation is supported for CDM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[DevOps Config reference](../reference/devops-config-reference.md)
+**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-reference.md)
 
 **Related topics**  
 

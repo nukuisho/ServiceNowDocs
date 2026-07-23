@@ -2,13 +2,14 @@
 title: Create a receiving slip
 description: Receiving slips are created automatically during the process of receiving assets. You can also create receiving slips manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_CreateAReceivingSlip.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Receive assets, Procurement, IT Asset Management]
+breadcrumb: [Receive assets, Procurement, Common applications, Asset Management]
 ---
 
 # Create a receiving slip
@@ -44,14 +45,14 @@ After a receiving slip has been created for a purchase order, all fields on the 
 
 Add a receiving slip line to the receiving slip to identify the items from the purchase order that were received.
 
-**Parent Topic:**[Receive assets](../concept/c_ReceiveAssets.md)
+**Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_ReceiveAssets.md)
 
 **Related topics**  
 
 
-[Receive an asset](t_ReceiveAnAsset.md)
+[Receive an asset]()
 
-[Create a receiving slip line](t_CreateAReceivingSlipLine.md)
+[Create a receiving slip line]()
 
-[Consumable assets](../concept/c_ReceiveAConsumableAsset.md)
+[Consumable assets]()
 

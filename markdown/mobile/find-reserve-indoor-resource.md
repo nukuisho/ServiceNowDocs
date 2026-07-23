@@ -2,6 +2,7 @@
 title: Find and reserve an indoor resource
 description: View an interactive map of the interior of your building to locate available resources such as desks or conference rooms. After locating a resource, you can then reserve it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/find-reserve-indoor-resource.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,10 +26,10 @@ Use interactive maps of your building to locate and reserve available resources 
 
 </td><td>
 
-![Indoor wayfinding map on a mobile device.](../image/indoor-wayfind-map.png)
+\[Omitted image "indoor-wayfind-map.png"\] Alt text: Indoor wayfinding map on a mobile device.
 
 </td></tr></tbody>
-</table>For more information about reserving an indoor map resource, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/make-a-reservation-on-mobile.md)
+</table>For more information about reserving an indoor map resource, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/make-a-reservation-on-mobile.md)
 
 ## Procedure
 
@@ -36,15 +37,15 @@ Use interactive maps of your building to locate and reserve available resources 
 
 2.  In the Quick links, select **Make a reservation**.
 
-    ![Shows the 'Make a reservation' option on a mobile app.](../image/find-reserve-indoor-wayfind-make-reserv.png)
+    \[Omitted image "find-reserve-indoor-wayfind-make-reserv.png"\] Alt text: Shows the 'Make a reservation' option on a mobile app.
 
 3.  Select the type of reservation, such as desks, rooms, lockers, or parking places.
 
-    ![Shows the different types of reservations in a mobile app.](../image/find-reserve-indoor-wayfind-type-res.png)
+    \[Omitted image "find-reserve-indoor-wayfind-type-res.png"\] Alt text: Shows the different types of reservations in a mobile app.
 
 4.  Select a quick reservation or browse resources to see what's available.
 
-    ![Shows the options to select a quick reservation or browse to see what's available in a mobile app.](../image/find-reserve-quick-res-or-browse.png)
+    \[Omitted image "find-reserve-quick-res-or-browse.png"\] Alt text: Shows the options to select a quick reservation or browse to see what's available in a mobile app.
 
 5.  On the form, fill in the fields.
 
@@ -107,11 +108,11 @@ Option to view the available reservations using a map view instead of a list vie
 </td></tr></tbody>
 </table>    Floor and capacity options are available to help find resources easier.
 
-6.  Select the options menu icon \(![Options menu icon](../image/indoor-way-more-options-icon.png)\) so that you can view the map legend to learn what the map icons mean.
+6.  Select the options menu icon \(\[Omitted image "indoor-way-more-options-icon.png"\] Alt text: Options menu icon\) so that you can view the map legend to learn what the map icons mean.
 
 7.  Select an available resource on the map and verify it is the resource that you want to reserve.
 
-    ![Selected resource shown on a mobile indoor wayfinding map.](../image/indoor-wayfind-select-resource.png)
+    \[Omitted image "indoor-wayfind-select-resource.png"\] Alt text: Selected resource shown on a mobile indoor wayfinding map.
 
 8.  Verify the reservation details and either revise or submit.
 

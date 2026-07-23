@@ -2,6 +2,7 @@
 title: Sign the REST and SOAP messages in the production instance
 description: Use update sets to sign and validate the REST and SOAP messages by enabling the code signing in protected and trusted instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/cs-rest-soap.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,11 +18,4 @@ Use update sets to sign and validate the REST and SOAP messages by enabling the 
 
 -   Establish Circle of Trust between the protected and trusted instances.
 -   Role required: security\_admin
-
--   **[Sign the existing REST and SOAP messages](rest-soap-code-sign.md)**  
-Sign and validate the existing REST and SOAP messages by enabling the Code Signing in protected and trusted instances.
--   **[Sign new REST and SOAP messages](cs-new-rest-soap.md)**  
-Sign and validate the new REST and SOAP messages from the trusted instance by enabling the Code Signing in protected and trusted instances.
-
-**Parent Topic:**[Using Code Signing](../concept/using-code-signing.md)
 

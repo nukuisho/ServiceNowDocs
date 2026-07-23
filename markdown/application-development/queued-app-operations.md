@@ -2,6 +2,7 @@
 title: Queued Application Operations
 description: CICD APIs that must obtain the update instance wide lock / mutex to perform the requested operations are queued instead of being rejected when the update instance wide lock / mutex is occupied by the other operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/queued-app-operations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,15 +24,15 @@ The application operation NowMQ messages have a common subject that is "sys.appl
 
 When the Application Operation NowMQ message is constructed and inserted, the Execution Tracker record for the corresponding CICD request is created and its sys\_id is added into the body of the NowMQ message. The Execution Tracker is in Pending state initially. The Execution Tracker’s “Details” column contains the information about the type of operation, and the important input parameters for the CICD request. Its “Message” column contains the information about the queue position. When the queue is paused, the message is prefixed with “\[App Operation Queue is paused\]”.
 
-Sample Application Operations Execution Trackers when queue is running. ![Sample application operation queue running.](../image/sample-app-operation-queue-running.png)
+Sample Application Operations Execution Trackers when queue is running. \[Omitted image "sample-app-operation-queue-running.png"\] Alt text: Sample application operation queue running.
 
-Sample Application Operation Execution Trackers when queue is paused.![Sample application operations execution trackers when queue is paused.](../image/sample-app-operation-queue-paused.png)
+Sample Application Operation Execution Trackers when queue is paused.\[Omitted image "sample-app-operation-queue-paused.png"\] Alt text: Sample application operations execution trackers when queue is paused.
 
 **Note:** Operations that are in a pending state will not display in recent history.
 
 Sample Applications Operations Execution Trackers recent history. Recent history displays historical operations that were queued and processed in the past 24hrs.
 
-![Recent history tracker shows executions](../image/applications-operations-exe-tracker-recent-history.png)
+\[Omitted image "applications-operations-exe-tracker-recent-history.png"\] Alt text: Recent history tracker shows executions
 
 ## Manage Application Operation Queue
 
@@ -43,15 +44,15 @@ Admin can manage the Application Operation Queue through System Diagnostics-&gt;
 
 ## Application Operation Queue UI page
 
-Sample Application Operation Queue UI page. Admin can click the button in “Operation Queue Status” to pause or resume the queue.![Application operation queue ui page.](../image/app-operation-queue-ui-page.png)
+Sample Application Operation Queue UI page. Admin can click the button in “Operation Queue Status” to pause or resume the queue.\[Omitted image "app-operation-queue-ui-page.png"\] Alt text: Application operation queue ui page.
 
-Click the “Application Operations Execution Trackers” list item, it opens the Execution Tracker form. If the queued message is pending in the queue, update the execution tracker state to “Cancelled” and save the change will cancel the corresponding queued CICD request. Note: if the state of the execution tracker is “Running”, the CICD request can’t be cancelled.![Execution tracker form.](../image/execution-tracker-page.png)
+Click the “Application Operations Execution Trackers” list item, it opens the Execution Tracker form. If the queued message is pending in the queue, update the execution tracker state to “Cancelled” and save the change will cancel the corresponding queued CICD request. Note: if the state of the execution tracker is “Running”, the CICD request can’t be cancelled.\[Omitted image "execution-tracker-page.png"\] Alt text: Execution tracker form.
 
 ## Application Operation Queue and Upgrade Window
 
 By default, 2 hours \(can be customized through sys property “com.glide.update\_operation.queue\_upgrade\_window”\) before the scheduled upgrade, Application Operation Queue stop processing queued messages.
 
-The Application Operation Queue status is changed to “Upgrade Paused”. During this upgrade window, new CICD requests continue to be queued.![Application operation queue and upgrade window.](../image/app-operation-queue-and-upgrade.png)
+The Application Operation Queue status is changed to “Upgrade Paused”. During this upgrade window, new CICD requests continue to be queued.\[Omitted image "app-operation-queue-and-upgrade.png"\] Alt text: Application operation queue and upgrade window.
 
 When upgrade completes, the Application Operation Queue resumes processing the queued messages automatically.
 
@@ -110,5 +111,5 @@ If the queue is unable to download an application package or find a plugin to ch
 
 **Note:** Failing to obtain necessary locks doesn't count as a failure attempt. Only errors encountered such as failing to download an application package from AppRepo count.
 
-**Parent Topic:**[Application sharing](../concept/c_SharingApplications.md)
+**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md)
 

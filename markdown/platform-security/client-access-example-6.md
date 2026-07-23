@@ -2,6 +2,7 @@
 title: Configure Flow Designer to manage the integration
 description: On your instance, use Workflow Studio to manage an integration between your local network and your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-6.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,17 +26,17 @@ In these steps, you create a Workflow Studio workflow to create a text file on y
 
 2.  Create an action in ServiceNow by selecting **New** and selecting **Action**.
 
-    ![Creating a new action in flow designer](../images/client-side-8.png)
+    \[Omitted image "client-side-8.png"\] Alt text: Creating a new action in flow designer
 
 3.  Enter a name in the **Action name** field, and select **Submit**.
 
 4.  Create a step by selecting the plus sign between **Inputs** and **Error Evaluation** in the **Action Outline**.
 
-    ![Creating a new action step](../images/client-side-9.png)
+    \[Omitted image "client-side-9.png"\] Alt text: Creating a new action step
 
 5.  In the **Choose a step to add to your action** window, select **Look Up Record**.
 
-    ![Selecting an action step](../images/client-side-10.png)
+    \[Omitted image "client-side-10.png"\] Alt text: Selecting an action step
 
 6.  In the **Look Up Record step** section, select **MID Server \[ecc\_agent\]** in the **Table** field.
 
@@ -57,7 +58,7 @@ In these steps, you create a Workflow Studio workflow to create a text file on y
 
 10. To fill the **MID Server** field, drag the **MID Server Record** pill from the **Data** section into the field.
 
-    ![Dragging MID server data pill](../images/client-side-12.png)
+    \[Omitted image "client-side-12.png"\] Alt text: Dragging MID server data pill
 
     **Warning:** When dragging the pill into the field, select the pill and not the black arrow next to the pill.
 
@@ -74,5 +75,5 @@ In these steps, you create a Workflow Studio workflow to create a text file on y
 12. Select the **Save** button to save the workflow.
 
 
-**Parent Topic:**[Configuring client accessible secrets](../concept/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
 

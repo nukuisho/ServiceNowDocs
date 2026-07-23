@@ -2,6 +2,7 @@
 title: Configure API credentials for Azure OpenAI
 description: Configure your API credentials to use Azure OpenAI in custom workflows and Virtual Agent Designer topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-azure-openai.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -33,7 +34,7 @@ In order to use models with Azure OpenAI as your LLM provider for Generative AI 
 
 3.  Select the **Create New Connection &amp; Credential** related link.
 
-    ![Create New Connection & Credential related link highlighted on the screen.](../image/gai-create-new-connection-azure.png)
+    \[Omitted image "gai-create-new-connection-azure.png"\] Alt text: Create New Connection &amp; Credential related link highlighted on the screen.
 
 4.  Edit the Connection URL to include your resource name.
 
@@ -50,7 +51,7 @@ In order to use models with Azure OpenAI as your LLM provider for Generative AI 
 
 You can now use capabilities labeled with Azure OpenAI in Flow Designer, Virtual Agent Designer, and scripts like background scripts and business rules to create custom experiences with generative AI.
 
-![Complete connection for Azure OpenAI.](../image/gai-created-connection-azure.png)
+\[Omitted image "gai-created-connection-azure.png"\] Alt text: Complete connection for Azure OpenAI.
 
 ## What to do next
 
@@ -59,7 +60,7 @@ If you want to use generative AI capabilities through your MID Server, open the 
 **Related topics**  
 
 
-[Bring your own key for third-party AI provider integration](../concept/byok-for-azure-open-ai.md)
+[Bring your own key for third-party AI provider integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/byok-for-azure-open-ai.md)
 
-[Configure a custom resource path for BYOK models](configure-custom-resource-path-byok.md)
+[Configure a custom resource path for BYOK models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-custom-resource-path-byok.md)
 

@@ -2,11 +2,12 @@
 title: Help nurture new leads agentic workflow
 description: Use the Help nurture new leads agentic workflow to process the entire lead record process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/help-nurture-new-leads-agentic-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use agentic workflows, Now Assist for SFA]
+breadcrumb: [Use agentic workflows, Now Assist for SFA, Sales Customer Relationship Management]
 ---
 
 # Help nurture new leads agentic workflow
@@ -111,7 +112,5 @@ To nurture a lead, perform the following steps:
 
 The agent executes the testing in AI Agent Studio for the use case.
 
-In the Now Assist panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
-
-**Parent Topic:**[Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)](using-agentic-worklflows-in-lead-management.md)
+In the Now Assist panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/request-gen-ai-capabilities-csm-now-assist-panel.md).
 

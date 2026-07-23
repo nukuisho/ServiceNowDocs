@@ -2,6 +2,7 @@
 title: Business stakeholder role for Enterprise Architecture Workspace
 description: The Business Stakeholder \(com.snc.business\_stakeholder\) plugin contains the business stakeholder role for Enterprise Architecture Workspace application. Users with this role can view or read records in the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-business-stakeholder-role.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -32,5 +33,5 @@ The Business Stakeholder role is designed to give users read-only access to all 
 
 Enterprise Architecture Workspace users with Business stakeholder role for Enterprise Architecture Workspace \(sn\_apm.apm\_read\) role have only view access to all the pages and they can't create or update any data in the Enterprise Architecture Workspace.
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](../../concept/explore-eaw.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)
 

@@ -2,6 +2,7 @@
 title: Activate a Now Assist skill
 description: Configure the triggers, settings, and display locations for Now Assist skills to enable generative AI capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-skill-spm.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -21,7 +22,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-Activate the skills that are most relevant to your use cases and business needs. For a full list of available skills, see [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md). After the skills have been activated, they’re accessible across the ServiceNow AI Platform based on the availability and display settings you choose.
+Activate the skills that are most relevant to your use cases and business needs. For a full list of available skills, see [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md). After the skills have been activated, they’re accessible across the ServiceNow AI Platform based on the availability and display settings you choose.
 
 ## Procedure
 

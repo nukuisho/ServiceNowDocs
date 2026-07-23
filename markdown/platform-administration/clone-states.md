@@ -2,6 +2,7 @@
 title: Clone states
 description: A reference topic displaying the various states of a clone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-states.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,5 +29,5 @@ A reference topic displaying the various states of a clone.
 |Rolling back|The clone is in the process of rolling back to a previous state.|
 |Rolled back|The clone request to roll back to a previous state is complete.|
 
-**Parent Topic:**[Instance Clone reference](instance-clone-reference.md)
+**Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-clone-reference.md)
 

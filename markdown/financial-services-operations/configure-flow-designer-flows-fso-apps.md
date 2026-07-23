@@ -2,6 +2,7 @@
 title: Configure flows
 description: Review the flows that are available with Financial Services Operations applications to see if these flows meet your business needs. You might need to customize these flows or design new ones as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-flow-designer-flows-fso-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +35,7 @@ Role required: Based on the application that you are configuring, you need the f
 
 The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) basics.
 
-For information on flows that are installed with Financial Services Operations applications, see [Designer flows for Financial Services Operations applications](../reference/flow-designer-flows-fso-apps.md).
+For information on flows that are installed with Financial Services Operations applications, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/flow-designer-flows-fso-apps.md).
 
 ## Procedure
 
@@ -44,12 +45,12 @@ For information on flows that are installed with Financial Services Operations a
 
     -   To create a flow, click **New**.
     -   To modify a predefined flow, filter the list to show the flows for the required application and open the desired flow.
-    For information on how to create or modify flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+    For information on how to create or modify flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow.md).
 
 3.  Click **Save**.
 
 4.  Test your flow and click **Activate**.
 
-    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-test.md).
 
 

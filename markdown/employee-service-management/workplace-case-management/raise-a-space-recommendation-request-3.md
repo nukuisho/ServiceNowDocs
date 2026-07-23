@@ -2,6 +2,7 @@
 title: Raise a space assistance request
 description: Submit a workplace service request to get space allocation recommendations using the Workplace Service Portal. The Workplace Service Delivery space assistance provides you with the best space allocation plan options based on the space quantity and the department that you specify. You can select the most suitable allocation or none. Depending on your selection, the Space planner deploys the plan to use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/raise-a-space-recommendation-request-3.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -280,76 +281,80 @@ The option that you selected is submitted. At any time, you can view your select
     -   If your manager rejects, then the space request is rejected and the state changes to Closed incomplete.
 -   If your user profile doesn’t require an approval, then the space request is transferred to your organization's space planner and the state changes to **Approved.**
 
-**Parent Topic:**[Requesting a workplace service](../../workplace-case-mgmt/concept/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
 
-**Parent Topic:**[Managing workplace locations](../concept/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
-**Parent Topic:**[Manage Workplace Central](../../workplace-central/concept/manage-workplace-central.md)
+**Parent Topic:**[Manage Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/manage-workplace-central.md)
 
 **Related topics**  
 
 
-[Reconfigure an office space](../../workplace-case-mgmt/task/Reconfig-office-space-1.md)
+[Reconfigure an office space]()
 
-[Raise help request for a workplace inquiry](../../workplace-case-mgmt/task/submit-gen-workplace-serv-req.md)
+[Raise help request for a workplace inquiry]()
 
-[Raise a move request for a space change](../../workplace-move-mgmt/task/request-desk-change.md)
+[Raise a move request for a space change]()
 
-[Request furniture for a space](../../workplace-case-mgmt/task/request-furniture.md)
+[Request furniture for a space]()
 
-[Submit a maintenance request](../../workplace-case-mgmt/task/submit-a-maintenance-request.md)
+[Submit a maintenance request]()
 
-[Submit a catering request](../../workplace-case-mgmt/task/submit-a-catering-request.md)
+[Submit a catering request]()
 
-[Submit heating and cooling request](../../workplace-case-mgmt/task/submit-heating-and-cooling-request.md)
+[Submit heating and cooling request]()
 
-[Submit a badge request](../../workplace-case-mgmt/task/submit-a-badge-request.md)
+[Submit a badge request]()
 
-[Submit a tech support request](../../workplace-case-mgmt/task/submit-a-tech-support-request.md)
+[Submit a tech support request]()
 
-[Submit a cleaning request](../../workplace-case-mgmt/task/submit-a-cleaning-request.md)
+[Submit a cleaning request]()
 
-[Submit an equipment request](../../workplace-case-mgmt/task/submit-a-equipment-request.md)
+[Submit an equipment request]()
 
-[Edit a workplace request](../../workplace-case-mgmt/task/edit-workplace-request.md)
+[Edit a workplace request]()
 
-[Submit an emergency maintenance request](../../workplace-case-mgmt/task/submit-emergency-maint-request.md)
+[Submit an emergency maintenance request]()
 
-[Submit a change event request for a reservation](../../workplace-case-mgmt/task/submit-change-event-reservation.md)
+[Submit a change event request for a reservation]()
 
-[Add a campus](add-a-campus.md)
+[Add a campus]()
 
-[Add a building using Workplace Space Management](add-new-building-1.md)
+[Add a building using Workplace Space Management]()
 
-[Add a floor using Workplace Space Management](add-a-floor-1.md)
+[Add a floor using Workplace Space Management]()
 
-[Add an area using Workplace Space Management](add-an-area.md)
+[Add an area using Workplace Space Management]()
 
-[Add a room using Workplace Space Management](add-a-room.md)
+[Add a room using Workplace Space Management]()
 
-[Add a space using Workplace Space Management](add-a-space.md)
+[Add a space using Workplace Space Management]()
 
-[Allocate a cost center, department, or workplace entity](add-cost-center-department-floor.md)
+[Allocate a cost center, department, or workplace entity]()
 
-[Configure a workspace or desk as flexible or permanent](assign-a-flex-perm-space.md)
+[Configure a workspace or desk as flexible or permanent]()
 
-[Update the measurement details of a workplace location](update-measurement-details-of-workplace-location.md)
+[Update the measurement details of a workplace location]()
 
-[Change the status of a workplace location](change-active-status-of-workplace-location.md)
+[Change the status of a workplace location]()
 
-[Configure a BOMA type](configure-a-boma-type.md)
+[Configure a BOMA type]()
 
-[Map a space type with BOMA type](map-a-space-type-with-boma-type.md)
+[Map a space type with BOMA type]()
 
-[Create a Space Recommender rule](create-a-space-recommender-rule.md)
+[Create a Space Recommender rule]()
 
-[Create a view-by configuration](create-view-by-config.md)
+[Create a view-by configuration]()
 
-[Reviewing allocation changes](../concept/reviewing-allocation-changes.md)
+[Create a KPI Configuration]()
 
-[Approve a scenario](../../workplace-central/task/approve-a-scenario.md)
+[Reviewing allocation changes]()
 
-[View workplace scenarios](../../workplace-central/task/view-space-optimization-board.md)
+[Approve a scenario]()
 
-[Approve a space assist request](../../workplace-central/task/approve-a-space-assist-request.md)
+[View workplace scenarios]()
+
+[Approve a space assist request]()
+
+[Manage reservation waitlist records]()
 

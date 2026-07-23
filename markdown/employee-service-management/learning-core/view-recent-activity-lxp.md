@@ -2,6 +2,7 @@
 title: View recent activity
 description: Review your recent learning activity with easy access to your assigned, saved, shared with, and history tabs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/view-recent-activity-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -30,22 +31,22 @@ Role required: learning.user
     -   Shared with: View courses that are shared with you by others here.
     -   History: View information on your completed courses here.
 
-**Parent Topic:**[Using My Learning](manage-your-learning.md)
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-your-learning.md)
 
 **Related topics**  
 
 
-[Enroll in a course collection on My Learning](../task/enroll-course-lxp.md)
+[Enroll in a course collection on My Learning]()
 
-[Resume a course](../task/resume-course.md)
+[Resume a course]()
 
-[Create a personal course collection](create-personal-collection.md)
+[Create a personal course collection]()
 
-[Create a Learning challenge](learning-challenge.md)
+[Create a Learning challenge]()
 
-[Assign Learning to your team](../task/assign-learning-lxp.md)
+[Assign Learning to your team]()
 
-[Manage Learning](manage-learning-achievements.md)
+[Manage Learning]()
 
-[Skill sensing for learning content](skill-sensing-for-learning-content.md)
+[Skill sensing for learning content]()
 

@@ -2,6 +2,7 @@
 title: Configure Service Graph Connector for Observability - New Relic using the guided setup
 description: Set up scheduled import jobs to pull in data from New Relic into your CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-config-new-relic-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -21,10 +22,10 @@ To use this Service Graph Connector, you need a subscription to a Subscription U
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](../concept/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](../concept/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   Observability Commons for CMDB \(sn\_observability\), which is only required for event ingestion. This must be installed prior to installing the connector for Event Management to work. For more information, see [Observability Commons for CMDB](https://store.servicenow.com/sn_appstore_store.do#!/store/application/97e04562072020107add6a77c4a9351a) on the ServiceNow Store.
 
@@ -32,7 +33,7 @@ Dependencies and requirements:
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](../concept/cmdb-sgc-intro.md#section_ett_spp_4hc).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## Procedure
 
@@ -156,7 +157,7 @@ Connection and Credential Alias
 
 </td><td>
 
-Select the connection alias that you created in step [4](sgc-config-new-relic-integration.md#new-relic-alias).
+Select the connection alias that you created in step [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-new-relic-integration.md).
 
 </td></tr></tbody>
 </table>        5.  Select **Submit**.
@@ -179,13 +180,13 @@ Select the connection alias that you created in step [4](sgc-config-new-relic-in
 
     4.  On the Scheduled Data Import form, verify the field values for the scheduled job.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     5.  Select the **Active** check box to activate the scheduled job.
 
     6.  Select **Update**.
 
-    7.  Repeat steps [6.c](sgc-config-new-relic-integration.md#select-job) to [6.f](sgc-config-new-relic-integration.md#exe-job) for each scheduled job for data import.
+    7.  Repeat steps [6.c](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-new-relic-integration.md) to [6.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-config-new-relic-integration.md) for each scheduled job for data import.
 
     8.  Navigate back to the guided setup page.
 

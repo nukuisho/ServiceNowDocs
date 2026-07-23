@@ -31,7 +31,7 @@ collaboration.email\_interval
 Sets the number of minutes the system waits before sending a Connect notification email to an inactive user.-   **Type**: integer
 -   Default value: 3
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Configure the email notification interval](../concept/c_CollaborationAdministration.md#)
+-   Learn more: [Configure the email notification interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationAdministration.md)
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ collaboration.frameset
 Determines whether the Connect overlay is visible \(enabled\). This property also impacts Connect Support.-   **Type**: true \| false
 -   Default value: true
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Disable the Connect overlay](../task/t_DisableTheCollaborationOverlay.md)
+-   Learn more: [Disable the Connect overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_DisableTheCollaborationOverlay.md)
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ connect.notification.audio\_alert
 Specifies the audio file to play to notify users of new messages, support conversation transfers, and @mentions in Connect. This property's value must point to the **Name** field of a record in the Audio File \[db\_audio\] table. This property also impacts Connect Support.-   **Type**: string
 -   Default value: connect\_alert.mp3
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Customize the Connect audio notification sound](../task/t_CustomizeConnectAudioNotifSound.md)
+-   Learn more: [Customize the Connect audio notification sound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_CustomizeConnectAudioNotifSound.md)
 
 </td></tr><tr><td>
 
@@ -113,14 +113,14 @@ glide.live\_feed.task\_header\_button
 
 </td><td id="entry_GlideLiveFeedTaskHeaderButtonDescription">
 
-Determines whether the show Live Feed icon \(![Show Live Feed icon](../../live-feed/image/ShowLiveFeedIcon.png)\) and **Follow** button are available in the form header of tables that have the **live\_feed=true** dictionary attribute.-   **Type**: choice list
+Determines whether the show Live Feed icon \(\[Omitted image "ShowLiveFeedIcon.png"\] Alt text: Show Live Feed icon\) and **Follow** button are available in the form header of tables that have the **live\_feed=true** dictionary attribute.-   **Type**: choice list
 -   Default value: collaboration
 -   Other possible values:
     -   **both**: enables both the show Live Feed icon and the **Follow** button.
     -   **live\_feed**: enables the show Live Feed icon.
     -   **none**: disables both the show Live Feed icon and the **Follow** button.
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Configure record conversations](../concept/c_CollaborationAdministration.md#)
+-   Learn more: [Configure record conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationAdministration.md)
 
 </td></tr></tbody>
 </table>

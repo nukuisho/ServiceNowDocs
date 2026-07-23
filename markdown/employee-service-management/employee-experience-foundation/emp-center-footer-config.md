@@ -2,6 +2,7 @@
 title: Footer configuration
 description: Employee Center and Employee Center Pro include a footer by default, which you can configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/emp-center-footer-config.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,39 +24,39 @@ You can configure the footer to display the following information about your com
 -   Privacy policy
 -   Social media handles
 
--   **[Configure the footer](../task/configure-the-employee-center-footer.md)**  
+-   **[Configure the footer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-the-employee-center-footer.md)**  
 Configure the footer in Employee Center or Employee Center Pro to display your company's corporate office address, email address, and so on.
--   **[Configure the footer menus](../task/config-emp-center-footer-menus.md)**  
+-   **[Configure the footer menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-emp-center-footer-menus.md)**  
 Footer menus enable you to create menus and associate links to internal and external resources under each menu.
--   **[Footer form](../reference/ec-footer-form.md)**  
+-   **[Footer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-footer-form.md)**  
 Use the Footer form to create a new footer that you want to appear in the Employee Center or Employee Center Pro.
--   **[Footer Menus form](../reference/ec-footer-menus.md)**  
+-   **[Footer Menus form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-footer-menus.md)**  
 Use the Footer Menus form to create a new footer menu that you want to appear on your Employee Center or Employee Center Pro.
 
-**Parent Topic:**[Employee Center admin configurations](configure-ec-portal.md)
+**Parent Topic:**[Employee Center admin configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-ec-portal.md)
 
 **Related topics**  
 
 
-[Employee Center plugins](install-plugins.md)
+[Employee Center plugins]()
 
-[Employee Center roles](emp-center-personas.md)
+[Employee Center roles]()
 
-[Migrate to Employee Center from Service Portal](../task/migrate-sp-to-ec.md)
+[Migrate to Employee Center from Service Portal]()
 
-[Post installation troubleshooting](post-install-steps.md)
+[Post installation troubleshooting]()
 
-[Customize Employee Center portal theme](../task/customize-theme.md)
+[Customize Employee Center portal theme]()
 
-[Modify email notification layout](../task/activate-notification-template.md)
+[Modify email notification layout]()
 
-[Enable support for right-to-left languages](ec-direction-right-to-left-languages.md)
+[Enable support for right-to-left languages]()
 
-[Employee Center global header](config-global-header.md)
+[Employee Center global header]()
 
-[Configure widget heading levels for accessibility](../task/config-heading-widget-instance.md)
+[Configure widget heading levels for accessibility]()
 
-[Employee live chat overview](employee-center-chat-configuration.md)
+[Employee live chat overview]()
 
-[Portal performance optimization](ec-load-experience-optimization.md)
+[Portal performance optimization]()
 

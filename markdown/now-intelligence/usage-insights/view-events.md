@@ -2,6 +2,7 @@
 title: Viewing events analytics
 description: View user analytics event occurrences to help you analyze core steps within your business processes.These event KPIs are tracked for web and mobile platforms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/view-events.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -23,7 +24,7 @@ Role required: user
 
 Usage Insights automatically detects all screens, gestures, and user actions in your applications. You can view occurrences of user-triggered events including menu selection, button clicking, and swiping.
 
-![Analytics module - Events screen](../../../use/par-for-workspace/image/uxa-event-properties.png)
+\[Omitted image "uxa-event-properties.png"\] Alt text: Analytics module - Events screen
 
 ## Procedure
 
@@ -31,7 +32,7 @@ Usage Insights automatically detects all screens, gestures, and user actions in 
 
 2.  Select the application for which you want to analyze events.
 
-3.  Select the search icon ![Search icon.](../../../use/navigation/image/IconSearch.png) to open the Search field and type the name of the event to filter in the Events list, or scroll to search the Events list.
+3.  Select the search icon \[Omitted image "IconSearch.png"\] Alt text: Search icon. to open the Search field and type the name of the event to filter in the Events list, or scroll to search the Events list.
 
     To view events across all applications, select **All Applications** from the applications list and then select **Events**.
 
@@ -39,7 +40,7 @@ Usage Insights automatically detects all screens, gestures, and user actions in 
 **Related topics**  
 
 
-[Creating custom events](tagged-events.md)
+[Creating custom events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/tagged-events.md)
 
 ## User Analytics Events KPIs
 

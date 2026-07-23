@@ -2,6 +2,7 @@
 title: Survey distribution
 description: There are several ways for survey administrators to distribute surveys to users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyDistribution.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,61 +20,61 @@ Surveys are distributed using any of the following methods.
 -   Share a survey URL that opens the survey directly.
 -   Create a module that opens a survey.
 
--   **[Email notifications for surveys](email-notification-for-surveys.md)**  
+-   **[Email notifications for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/email-notification-for-surveys.md)**  
 When an administrator creates a survey and assigns it to a user, an email notification is sent to the user. Selecting the survey link in the email notification redirects the user to the survey page, where the user can take the survey. This type of survey is called a non-triggered survey.
--   **[Send survey invitations to users](../task/t_SendSurveyInvitationsToUsers.md)**  
+-   **[Send survey invitations to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SendSurveyInvitationsToUsers.md)**  
 You can send survey invitations using the **Assign Survey** or **Send Invitations** buttons on the Survey Definition form.
--   **[Define a recipients list for surveys](../task/define-recipient-list.md)**  
+-   **[Define a recipients list for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/define-recipient-list.md)**  
 Use a recipients list to define targeted set of users for whom the survey invite can be sent. You can use a recipients list for multiple surveys.
--   **[Add a recipients list to a survey](../task/add-recipient-list-survey.md)**  
+-   **[Add a recipients list to a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/add-recipient-list-survey.md)**  
 Send the survey invites to targeted sets of users by adding a recipients list to a survey.
--   **[Embed a survey within the Outlook email client](../task/embed-survey-in-outlook-email.md)**  
+-   **[Embed a survey within the Outlook email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/embed-survey-in-outlook-email.md)**  
 Embed an interactive survey in the email notification sent to a user. The user can answer the survey questions and submit the survey from the email client instead of opening the survey in a new browser tab.
--   **[Enable localization for a survey](../task/enable-localization-survey.md)**  
+-   **[Enable localization for a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/enable-localization-survey.md)**  
 Enable a survey user to take a survey in multiple languages.
--   **[Survey URLs](c_SurveyURLs.md)**  
+-   **[Survey URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyURLs.md)**  
 You can distribute a survey by giving survey users a survey URL.
--   **[Create a survey module](../task/t_CreatingASurveyModule.md)**  
+-   **[Create a survey module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreatingASurveyModule.md)**  
 You can create a module that opens a survey.
--   **[Sharing surveys](c_SurveyInportAndExport.md)**  
+-   **[Sharing surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyInportAndExport.md)**  
 You can export a survey and then import it to a different ServiceNow instance.
--   **[Configure a survey in the Connect chat support](../task/take-survey-connect-chat.md)**  
+-   **[Configure a survey in the Connect chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/take-survey-connect-chat.md)**  
 Enable a user to take a survey after chatting with a support agent.
 
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](../task/view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](../task/t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Survey users and groups](c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Copy a survey](../task/copy-survey.md)
+[Copy a survey]()
 
-[Publish a survey](../task/t_PublishASurvey.md)
+[Publish a survey]()
 
-[Customize the appearance of a survey](../task/t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Survey definitions](c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Create a survey designer template question](../task/t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Sentiment analysis for surveys](sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](c_MigrateSurveys.md)
+[Legacy survey migration]()
 

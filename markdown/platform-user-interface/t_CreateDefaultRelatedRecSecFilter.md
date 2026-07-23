@@ -2,6 +2,7 @@
 title: Create a default filter for list selector records
 description: You can set a default filter to restrict which related records users can select when editing a reference field. Default filters are simple to set up but lack a dynamic filtering element, which prevents the end user from changing the default filter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateDefaultRelatedRecSecFilter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,24 +35,24 @@ A filter is used to restrict the records that are listed in the slushbucket that
     When users click the **Edit** button in the related list, the list of records they can select is filtered according to the default filter.
 
 
-**Parent Topic:**[Related lists](../../../use/using-forms/concept/c_RelatedLists.md)
+**Parent Topic:**[Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md)
 
 **Related topics**  
 
 
-[Select or create records in a related list](../../../use/using-forms/task/t_SelectRelatedRecords.md)
+[Select or create records in a related list]()
 
-[Configure when a related list loads](../../../use/using-forms/task/t_ConfigureWhenARelatedListLoads.md)
+[Configure when a related list loads]()
 
-[Create a default filter for a related list](../../../use/using-forms/task/t_CreateADefaultFilter.md)
+[Create a default filter for a related list]()
 
-[Configure the edit option](../../../use/using-forms/task/t_ConfigureTheEditOption.md)
+[Configure the edit option]()
 
-[Create defined related lists](t_CreateDefinedRelatedLists.md)
+[Create defined related lists]()
 
-[Add fields to selections in a related list](t_AddingFieldsToARelatedList.md)
+[Add fields to selections in a related list]()
 
 [Configure reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureReferenceQualifiers.md)
 
-[Condition builder](../../../use/common-ui-elements/concept/c_ConditionBuilder.md)
+[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md)
 

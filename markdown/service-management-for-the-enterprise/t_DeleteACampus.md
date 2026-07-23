@@ -2,6 +2,7 @@
 title: Delete a campus
 description: Delete all buildings assigned to a campus, before deleting the campus itself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_DeleteACampus.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,5 +29,5 @@ Role required: admin
     **Note:** If the campus has any buildings defined for it, a warning box appears identifying those buildings. Delete the buildings before deleting the campus.
 
 
-**Parent Topic:**[Customer-created maps](../reference/r_Manually-builtMaps.md)
+**Parent Topic:**[Customer-created maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_Manually-builtMaps.md)
 

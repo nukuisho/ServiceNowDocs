@@ -2,11 +2,12 @@
 title: Configure the Apache Kafka Consumer connector
 description: Configure the Apache Kafka Consumer connector instance to create events from streaming messages collected by the Apache Kafka connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-kafka-consumer-connector.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-16"
 reading_time_minutes: 5
 breadcrumb: [Apache Kafka Consumer Connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -108,7 +109,7 @@ This field is automatically set to the last error message.
 
     Use the **Kafka SSL credential** type when the Kafka server’s **sasl.enabled.mechanisms** or **sasl.mechanism** parameter's value don’t equal **PLAIN**. Go to step 5.
 
-    1.  Select the Search icon ![Search icon](../image/search-icon.png) next to the **Credential** field.
+    1.  Select the Search icon \[Omitted image "search-icon.png"\] Alt text: Search icon next to the **Credential** field.
 
     2.  On the Credentials screen, select **New**.
 
@@ -122,7 +123,7 @@ This field is automatically set to the last error message.
 
 5.  For a SASL\_PLAINTEXT, SSL, or SASL\_SSL authentication credential, in the **Credential** field, create a Kafka SSL credential.
 
-    1.  Select the Search icon ![Search icon](../image/search-icon.png) next to the **Credential** field.
+    1.  Select the Search icon \[Omitted image "search-icon.png"\] Alt text: Search icon next to the **Credential** field.
 
     2.  On the Credentials screen, select **New**.
 
@@ -130,7 +131,7 @@ This field is automatically set to the last error message.
 
     4.  On the Kafka SSL Authentication screen, fill in the Kafka SSL credentials fields.
 
-        For the Kafka SSL credentials fields descriptions, see [.](../../health-log-analytics-admin/reference/hla-data-input-kafka-credentials.md)
+        For the Kafka SSL credentials field descriptions, see [Kafka SSL credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
 
         **Note:** If you clear the **Disable hostname verification** field, then in the **Additional Kafka consumer properties** field, enter the value of the **ssl.endpoint.identification.algorithm** parameter the same as of the Kafka server parameter value. For example:
 
@@ -254,8 +255,6 @@ topic
 
 The Kafka topic from which the messages are fetched.
 
- This field is required.
-
 </td></tr></tbody>
 </table>8.  In the **MID Servers for Connectors** section, specify a MID Server that is up and is valid.
 
@@ -280,7 +279,7 @@ The Kafka topic from which the messages are fetched.
 
 ## What to do next
 
-After the connector is created, you must map the fields. For more information, see [Map Kafka message payload attributes to alert fields](map-kafka-message-payload-attributes-to-alert-fields.md).
+After the connector is created, you must map the fields. For more information, see [Map Kafka message payload attributes to alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/map-kafka-message-payload-attributes-to-alert-fields.md).
 
-**Parent Topic:**[Apache Kafka Consumer Connector](../concept/apache-kafka-consumer-connector.md)
+**Parent Topic:**[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/apache-kafka-consumer-connector.md)
 

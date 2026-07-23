@@ -2,6 +2,7 @@
 title: Administer Connect actions
 description: You can create or modify Connect actions to provide custom functionality in Connect Chat or Connect Support conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_AdministerConnectActions.html
 release: australia
 product: Connect
 classification: connect
@@ -112,5 +113,5 @@ Text that appears in the Connect action menu. The title for each Connect action 
 </table>
 ## Result
 
-![Connect Actions form with the condition conversation.table === 'chat_queue_entry'](../image/ConnectActionsForm.png "Connect Actions form")
+\[Omitted image "ConnectActionsForm.png"\] Alt text: Connect Actions form with the condition conversation.table === 'chat\_queue\_entry'
 

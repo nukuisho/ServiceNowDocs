@@ -2,11 +2,12 @@
 title: Use Employee Center from Zoom
 description: Access and use the ServiceNow Employee Center capabilities from Zoom client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/zoom-create-email-notification.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
@@ -34,40 +35,42 @@ Role required: Employee
     The ServiceNow Employee Center homepage is displayed.
 
 
-**Parent Topic:**[Using Employee Center](../concept/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
 
-[Use the Employee Center topic pages](../concept/ec-topic-use.md)
+[Use the Employee Center topic pages]()
 
-[Topic managers and contributors for topic page management](../concept/topic-managers-and-contributors-for-topic-page-management.md)
+[Topic managers and contributors for topic page management]()
 
-[Use the My To-dos page](ec-to-dos-use.md)
+[Use the My To-dos page]()
 
-[Use approval experience](ec-to-dos-use-approval-hub.md)
+[Use approval experience]()
 
-[Manage approvals from Microsoft Teams](../../sn-teams/task/va-concur.md)
+[Manage approvals from Microsoft Teams]()
 
-[Manage approvals from a Microsoft Outlook email](../../sn-ms-outlook/task/oam-concur.md)
+[Manage approvals from a Microsoft Outlook email]()
 
-[Task filters on My tasks](../concept/configurable-filters-experience.md)
+[Task filters on My tasks]()
 
-[View the Recommended for you content](../concept/rfy-employee.md)
+[View the Recommended for you content]()
 
-[View employee profile](../concept/update-employee-profile.md)
+[View employee profile]()
 
-[Use Personalized Answers](../concept/using-personalized-search-on-employee-center.md)
+[Use Employee Profile with HR Service Delivery]()
 
-[Employee Profile org chart widget](view-org-chart.md)
+[Use Personalized Answers]()
 
-[RTL support for Employee Center](../concept/ec-rtl-language-support.md)
+[Employee Profile org chart widget]()
 
-[Manage favorites](web-configure-favorites-employee.md)
+[RTL support for Employee Center]()
 
-[Access applications from App Launcher](../concept/web-application-employee.md)
+[Manage favorites]()
 
-[Use Guided Self-Service](../concept/gss-guided-self-service-homepage.md)
+[Access applications from App Launcher]()
 
-[Employee Center for Zoom](zoom-ec-create-app.md)
+[Use Guided Self-Service]()
+
+[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
 

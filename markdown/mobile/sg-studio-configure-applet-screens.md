@@ -2,6 +2,7 @@
 title: Create a screen
 description: Create a screen for a specific task, within your mobile app. Each screen comprises of one or more embedded screens displayed to your user to complete a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-studio-configure-applet-screens.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ Screens are a collection of components used to visualize your data templates. De
 
 4.  Select one of the displayed screen types, and then select **Continue**.
 
-    ![Menu of screen types.](../image/mab-screen-select.png)
+    \[Omitted image "mab-screen-select.png"\] Alt text: Menu of screen types.
 
 
 ## What to do next

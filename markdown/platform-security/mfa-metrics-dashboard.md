@@ -2,6 +2,7 @@
 title: MFA metrics dashboard
 description: The MFA metrics dashboard shows information on your instances multi-factor authentication configuration. Use the dashboard to ensure your MFA configuration meets your security standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/mfa-metrics-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -65,7 +66,7 @@ High Privilege MFA Users
 
 </td><td>
 
-Bar![Bar chart](../../../reuse/reporting/image/bars-total.svg)
+Bar\[Omitted image "bars-total.svg"\] Alt text: Bar chart
 
 </td><td>
 
@@ -81,7 +82,7 @@ MFA User Trend
 
 </td><td>
 
-![Trend chart](../../../reuse/reporting/image/trend.svg) Trend
+\[Omitted image "trend.svg"\] Alt text: Trend chart Trend
 
 </td><td>
 
@@ -92,5 +93,5 @@ MFA User Trend
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Monitor instance metrics](../../../administer/security/concept/monitoring-user-email-antivirus-metrics.md)
+</table>**Parent Topic:**[Monitor instance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/monitoring-user-email-antivirus-metrics.md)
 

@@ -2,6 +2,7 @@
 title: Multiple data sources
 description: Some visualization types support multiple data sources, while others do not. If your data visualization supports multiple data sources, the data sources must all be of the same type: all tables, all indicators, or all another type. Here's a simple example of a report based on the Indicator and Problem tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/multiple-data-sources.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -30,18 +31,18 @@ Some visualization types support multiple data sources, while others do not. If 
 
 **Warning:** If you select multiple data sources for a visualization and then change the visualization type to one that does not support multiple data sources, you keep only the first data source. Switching back to a visualization type that supports multiple data sources does not restore the previously selected data sources.
 
-**Parent Topic:**[Selecting data sources for data visualizations](../../performance-analytics/concept/selecting-data-sources.md)
+**Parent Topic:**[Selecting data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/selecting-data-sources.md)
 
 **Related topics**  
 
 
-[Select a table data source for a data visualization](../../performance-analytics/task/select-table-data-source.md)
+[Select a table data source for a data visualization]()
 
-[Select an indicator data source for a data visualization](../../performance-analytics/task/select-indicator-data-source.md)
+[Select an indicator data source for a data visualization]()
 
-[Select a Workflow Data Fabric data source for a data visualization](../../performance-analytics/task/select-wdf-data-source.md)
+[Select a Workflow Data Fabric data source for a data visualization]()
 
-[Usage Insights data sources for data visualizations](../../performance-analytics/concept/uxa-data-sources.md)
+[Usage Insights data sources for data visualizations]()
 
 ## Example data visualization based on multiple data sources
 
@@ -49,7 +50,7 @@ Here's a simple example of a report based on the Indicator and Problem tables.
 
 ### Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 
 ### Procedure
 
@@ -59,13 +60,13 @@ Role required: Anyone with access to data can create a visualization of that dat
 
 3.  For the purposes of this example, create a Vertical bar visualization.
 
-    For more information, see [Create a horizontal or vertical bar data visualization](../../reporting/task/create-dv-bar-ac.md).
+    For more information, see [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-bar-ac.md).
 
 4.  Under Data sources, select **+ Add data source**.
 
 5.  Add the Incident \[incident\] table as a data source, with the custom condition `Active is true`.
 
-    ![The Active is true condition on the Incident table data source.](../image/dv-active-true.png)
+    \[Omitted image "dv-active-true.png"\] Alt text: The Active is true condition on the Incident table data source.
 
 6.  Select **+ Add data source** again and add the Problem \[problem\] table, also with the condition `Active is true`.
 
@@ -75,7 +76,7 @@ Role required: Anyone with access to data can create a visualization of that dat
 
     The second source is grouped automatically by the same field as the first source.
 
-    ![Group by assignment group for two table sources.](../image/dv-group-by-multisource.png)
+    \[Omitted image "dv-group-by-multisource.png"\] Alt text: Group by assignment group for two table sources.
 
 8.  To make the visualization easier to read, under **Chart variation**, select `Side-by-side`.
 
@@ -84,5 +85,5 @@ Role required: Anyone with access to data can create a visualization of that dat
 
 ### Result
 
-![A vertical bar data visualization of Incident and Problem table data.](../image/dv-ex-two-data-sources.png "Data visualization with two data sources")
+\[Omitted image "dv-ex-two-data-sources.png"\] Alt text: A vertical bar data visualization of Incident and Problem table data.
 

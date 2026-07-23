@@ -2,13 +2,14 @@
 title: Procurement workflows
 description: Procurement uses the following workflows. You can edit the existing flows or create a flow in the graphical Workflow Studio to meet your organization's asset procurement process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/c\_ProcurementWorkflows.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Procurement, Asset Management, IT Service Management]
+breadcrumb: [Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Procurement workflows
@@ -17,39 +18,39 @@ Procurement uses the following workflows. You can edit the existing flows or cre
 
 -   In the Service Catalog Request workflow, items ordered from the service catalog that cost over one thousand dollars require approval.
 
-    ![Service catalog request workflow](../image/ServiceCatalogRequestWorkflow.png "Service catalog request workflow")
+    \[Omitted image "ServiceCatalogRequestWorkflow.png"\] Alt text: Service catalog request workflow
 
 -   In the Source Request workflow, catalog tasks are created so that a procurement manager can source the item by creating a transfer order or purchase order.
 
-    ![Source request flow actions](../image/SourceRequestWorkflow.png "Source request")
+    \[Omitted image "SourceRequestWorkflow.png"\] Alt text: Source request flow actions
 
 -   In the Procurement Process Flow-Hardware, a Service Catalog request task for a hardware asset is created so that a procurement manager can source the item by creating a transfer order or purchase order.
 
-    ![Procurement process flow-hardware actions](../image/procurement-process-flow-hardware.png "Procurement Process Flow-Hardware")
+    \[Omitted image "procurement-process-flow-hardware.png"\] Alt text: Procurement process flow-hardware actions
 
 
-**Parent Topic:**[Procurement](c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
 
 **Related topics**  
 
 
-[Procurement roles](../reference/r_ProcurementRoles.md)
+[Procurement roles]()
 
-[Use the Procurement Overview module](../task/t_UsingTheProcurementOverviewModule.md)
+[Use the Procurement Overview module]()
 
-[Activate Procurement](../task/t_ActivateProcurement.md)
+[Activate Procurement]()
 
-[Sourcing items in a service catalog request](c_SourcingRequestItems.md)
+[Sourcing items in a service catalog request]()
 
-[Procurement purchase order management for assets](c_UseProcurement.md)
+[Procurement purchase order management for assets]()
 
-[Receive assets](c_ReceiveAssets.md)
+[Receive assets]()
 
-[Domain separation and Procurement](domain-separation-procurement.md)
+[Domain separation and Procurement]()
 
-[Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md)
+[Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/c_WorkflowOverview.md)
 
-[Sourcing items in a service catalog request](c_SourcingRequestItems.md)
+[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_SourcingRequestItems.md)
 
-[Procurement purchase order management for assets](c_UseProcurement.md)
+[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_UseProcurement.md)
 

@@ -2,11 +2,12 @@
 title: Use the IsRunningInBotsession component
 description: Determine if a project is running in a Bot session as part of an automation Workflow by using the IsRunningInBotsession component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-debug-isrunnnginbotsession.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Debug, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Debug, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the IsRunningInBotsession component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the IsRunningInBotsession component. For more information about these properties, see [Properties of the Debug components](../reference/util-debug-prop.md).
+You can configure the properties for the IsRunningInBotsession component. For more information about these properties, see [Properties of the Debug components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-debug-prop.md).
 
 ## Procedure
 
@@ -81,5 +82,5 @@ No. Connecting the port is optional.
 </table>4.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Debug](../concept/debug-utility.md)
+**Parent Topic:**[Debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/debug-utility.md)
 

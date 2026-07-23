@@ -2,13 +2,14 @@
 title: Domain separation and Procurement
 description: Domain separation is supported in Procurement processing. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/domain-separation-procurement.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Procurement, Asset Management, IT Service Management]
+breadcrumb: [Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Domain separation and Procurement
@@ -31,24 +32,24 @@ For more information on support levels, see [Application support for domain sepa
 
 To create or edit Purchase Orders \(POs\) or PO line items that distinguish the domain, customers must be working in the proper domain. When adjusting any configuration, you should be in the domain where you're doing the work. Use the domain picker to choose the correct domain to work in.
 
-**Parent Topic:**[Procurement](c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md)
 
 **Related topics**  
 
 
-[Procurement roles](../reference/r_ProcurementRoles.md)
+[Procurement roles]()
 
-[Procurement workflows](c_ProcurementWorkflows.md)
+[Procurement workflows]()
 
-[Use the Procurement Overview module](../task/t_UsingTheProcurementOverviewModule.md)
+[Use the Procurement Overview module]()
 
-[Activate Procurement](../task/t_ActivateProcurement.md)
+[Activate Procurement]()
 
-[Sourcing items in a service catalog request](c_SourcingRequestItems.md)
+[Sourcing items in a service catalog request]()
 
-[Procurement purchase order management for assets](c_UseProcurement.md)
+[Procurement purchase order management for assets]()
 
-[Receive assets](c_ReceiveAssets.md)
+[Receive assets]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

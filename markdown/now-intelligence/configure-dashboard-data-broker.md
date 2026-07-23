@@ -2,6 +2,7 @@
 title: Configure dashboard data broker
 description: Activate the Dashboard data broker preset and configure the data broker to potentially speed the loading of dashboards by prefetching some data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-dashboard-data-broker.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ This data broker prefetches data only on direct page loads. It does not apply on
 
     The preset is activated by default.
 
-    ![Activating the Dashboard data binding preset](../image/dashboard-preset-data-binding.png)
+    \[Omitted image "dashboard-preset-data-binding.png"\] Alt text: Activating the Dashboard data binding preset
 
 4.  In the **Data and scripts** section of the page, open **Data resources** &gt; **Data controller 1**.
 
@@ -54,7 +55,7 @@ This data broker prefetches data only on direct page loads. It does not apply on
     |sysId|null|
     |filter|1|
 
-    ![Adding optional parameter values in the editor.](../image/dashboard-edit-optional-parms.png)
+    \[Omitted image "dashboard-edit-optional-parms.png"\] Alt text: Adding optional parameter values in the editor.
 
 7.  In the configuration panel, check whether the following properties are correctly set:
 
@@ -68,20 +69,20 @@ This data broker prefetches data only on direct page loads. It does not apply on
 8.  Save the page and open it in runtime.
 
 
-**Parent Topic:**[Creating Platform Analytics pages in your own workspace](../../../use/performance-analytics/concept/adding-analytics-center-to-ws.md)
+**Parent Topic:**[Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/adding-analytics-center-to-ws.md)
 
 **Related topics**  
 
 
-[Create a Platform Analytics workspace from App Engine Studio](../../../use/performance-analytics/concept/create-analytics-ws-aes.md)
+[Create a Platform Analytics workspace from App Engine Studio]()
 
-[Add Platform Analytics pages to a configurable workspace](../../../use/performance-analytics/task/add-analytics-center-to-experience.md#)
+[Add Platform Analytics pages to a configurable workspace]()
 
-[Add a dashboard to a Dashboards page](../../../use/performance-analytics/task/add-dashboard-to-workspace.md)
+[Add a dashboard to a Dashboards page]()
 
-[Configure custom redirection from a dashboard component](../../../use/performance-analytics/task/config-custom-redirection-from-db.md)
+[Configure custom redirection from a dashboard component]()
 
-[Dashboard URL parameter delegation](../concept/dashboard-url-parameter-delegation.md#)
+[Dashboard URL parameter delegation]()
 
-[Pass global filters to the dashboard page template](../../../use/par-for-workspace/task/pass-global-filters-to-db.md)
+[Pass global filters to the dashboard page template]()
 

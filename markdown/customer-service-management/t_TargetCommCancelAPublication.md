@@ -2,6 +2,7 @@
 title: Cancel a publication
 description: Cancel a pending publication before it reaches the publish date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommCancelAPublication.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

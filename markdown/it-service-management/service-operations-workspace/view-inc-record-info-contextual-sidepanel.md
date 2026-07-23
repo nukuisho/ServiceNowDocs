@@ -2,6 +2,7 @@
 title: Viewing incident record information using the Contextual side panel
 description: View the incident record information, such as caller details and assets, from the Contextual side panel. Use this information to help manage an incident more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/view-inc-record-info-contextual-sidepanel.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -15,11 +16,11 @@ breadcrumb: [Incident Management in Service Operations Workspace, Operating IT s
 
 View the incident record information, such as caller details and assets, from the Contextual side panel. Use this information to help manage an incident more efficiently.
 
-Select the **Record information** \(![Record information](../image/mim-record-info.png)\) icon on the Contextual side panel to view the incident information. The record information side panel includes this following information.
+Select the **Record information** \(\[Omitted image "mim-record-info.png"\] Alt text: Record information\) icon on the Contextual side panel to view the incident information. The record information side panel includes this following information.
 
 ## Active calls
 
-The Active calls card displays active conference calls that are currently in progress for major incidents. This card is displayed only for major incident records and if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active. For more information, see [Setting up Major Incident Management in Service Operations Workspace](setup-mim-sow.md).
+The Active calls card displays active conference calls that are currently in progress for major incidents. This card is displayed only for major incident records and if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active. For more information, see [Setting up Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/setup-mim-sow.md).
 
 A maximum of five collaboration records are displayed on this card. You can select the call record links displayed on this card to join the calls. You can use the **Collaborate** side panel tab to view and manage additional call record information.
 
@@ -43,7 +44,7 @@ The SLAs and timings card includes the following information:
 
 ## Caller
 
-The Caller card displays quick information about the caller, such as name, local time, department, and location. You can also select the **Preview caller** \(![Preview caller icon](../image/inc-preview-record.png)\) icon to preview the caller record. Select **Open record** to open the caller record on a separate tab. You can also select **Contact** to view all details about the caller.
+The Caller card displays quick information about the caller, such as name, local time, department, and location. You can also select the **Preview caller** \(\[Omitted image "inc-preview-record.png"\] Alt text: Preview caller icon\) icon to preview the caller record. Select **Open record** to open the caller record on a separate tab. You can also select **Contact** to view all details about the caller.
 
 **Note:** The caller card is displayed first on the Record information side panel, if you are a tier 1 agent.
 
@@ -63,7 +64,7 @@ You can select the following links to get additional record information specific
 
 The origin card displays the information related to the origin record. An origin record is the record from which the incident record is created such as change request, interaction or problem.
 
-![Origin card](../image/sow-origin-card-new.png "Origin card")
+\[Omitted image "sow-origin-card-new.png"\] Alt text: Origin card
 
 The card displays the following information about the origin record:
 
@@ -93,24 +94,24 @@ The Assigned to card displays the assignment status of the incident record. Sele
 
 You can view a list of five collaborators on a page at a time.
 
-**Parent Topic:**[Incident Management in Service Operations Workspace](incident-sow.md)
+**Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md)
 
 **Related topics**  
 
 
-[Create an incident in Service Operations Workspace](../task/create-incident-sow.md)
+[Create an incident in Service Operations Workspace]()
 
-[View and update incident information on the Overview tab in SOW](../task/view-update-inc-overview-tab.md)
+[View and update incident information on the Overview tab]()
 
-[Work on an incident list page in Service Operations Workspace](../task/work-incident-list-page-sow.md)
+[Work on an incident list page in Service Operations Workspace]()
 
-[Work on an incident record in Service Operations Workspace](../task/work-on-incident-sow.md)
+[Work on an incident record in Service Operations Workspace]()
 
-[Remedial actions using Playbook](remedial-actions-playbook.md)
+[Remedial actions using Playbook]()
 
-[Close resolved incident](../task/close-resolved-incident-sow.md)
+[Close resolved incident]()
 
-[Reopen an incident in Service Operations Workspace](../task/reopen-incident-sow.md)
+[Reopen an incident in Service Operations Workspace]()
 
-[Incident Management in Service Operations Workspace reference](sow-im-reference.md)
+[Incident Management in Service Operations Workspace reference]()
 

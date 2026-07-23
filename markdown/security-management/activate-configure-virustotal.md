@@ -2,6 +2,7 @@
 title: Activate and configure the VirusTotal integration
 description: Before you can use the VirusTotal integration, you must download it from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/activate-configure-virustotal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Threat Intelligence must be installed and activated before you can use VirusTota
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](../../../security-incident-response/reference/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
 
 2.  When the installation is complete, access VirusTotal and obtain the API Key under your VirusTotal profile.
 
@@ -76,7 +77,7 @@ Select this check box to send the URLs as hashes for threat lookup and protect t
 </td></tr></tbody>
 </table>5.  Click **Submit**.
 
-    ![VirusTotal Configuration page](../image/virus-total-config.png)
+    \[Omitted image "virus-total-config.png"\] Alt text: VirusTotal Configuration page
 
 
 ## Result
@@ -86,5 +87,5 @@ After it is configured, VirusTotal can be selected for performing lookups on obs
 **Related topics**  
 
 
-[Perform lookups on observables](../../../threat-intelligence/task/perform-lookups-on-observables.md)
+[Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/perform-lookups-on-observables.md)
 

@@ -2,6 +2,7 @@
 title: Cancel a scan
 description: Cancel or abort an ongoing scan by either selecting Cancel Scan in the scan execution modal or the Cancel Scan related link in the results record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-cancel-scan.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Select a scan to run it on the selected check.
 
-    ![Screenshot showing the execution modal.](../image/hs-cancel-scan-module.png)
+    \[Omitted image "hs-cancel-scan-module.png"\] Alt text: Screenshot showing the execution modal.
 
     The scan execution modal shows up.
 
@@ -35,19 +36,19 @@ Role required: admin
 
     The Cancel Scan modal shows up with the status of the cancelled transaction. You can also select **Go to Results** to see the results record of the selected scan.
 
-    ![Screenshot showing cancelled scan](../image/hs-cancel-scan.png)
+    \[Omitted image "hs-cancel-scan.png"\] Alt text: Screenshot showing cancelled scan
 
     **Note:** The **Cancel Scan** button won’t show up if the scan is complete \(successful or failed\).
 
 4.  Select **Cancel Scan** related link to cancel the scan, if you have selected **Go to Results** in the previous step.
 
-    ![Screenshot showing the status and cancel scan related link](../image/hs-cancel-scan-related-link.png)
+    \[Omitted image "hs-cancel-scan-related-link.png"\] Alt text: Screenshot showing the status and cancel scan related link
 
     **Note:** The **Cancel Scan** related link is visible only if the scan is still running. The **Status** field in the Scan Results form say In Progress if the scan is still ongoing.
 
 5.  Close the Cancel Scan modal or select **Go to Results** in the Cancel Scan modal.
 
-    ![Screenshot showing cancelled status](../image/hs-status-cancel.png)
+    \[Omitted image "hs-status-cancel.png"\] Alt text: Screenshot showing cancelled status
 
     The Scan Result record is updated. The **Status** field now says Cancelled.
 
@@ -58,28 +59,28 @@ Role required: admin
     **Note:** Since the scan is already cancelled, the Cancel Scan related link doesn’t show up.
 
 
-**Parent Topic:**[Using Instance Scan](../concept/hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 
 
-[Create a check](hs-create-health-check.md)
+[Create a check]()
 
-[Create a check suite](hc-create-check-suite.md)
+[Create a check suite]()
 
-[Executing a scan](../reference/hs-execute-scans.md)
+[Executing a scan]()
 
-[Schedule a full scan](hs-schedule-full-scan.md)
+[Schedule a full scan]()
 
-[Schedule a suite scan](hc-schedule-suite-scan.md)
+[Schedule a suite scan]()
 
-[Monitoring a scan](hs-progress-status-full-scan.md)
+[Monitoring a scan]()
 
-[Parallel scans](../concept/hs-parallel-scan.md)
+[Parallel scans]()
 
-[Reviewing of scans](../reference/hs-review-scans.md)
+[Reviewing of scans]()
 
-[Queue your scan](hs-queue-scan.md)
+[Queue your scan]()
 
-[Using the Instance Scan dashboard](hs-implement-dashboard.md)
+[Using the Instance Scan dashboard]()
 

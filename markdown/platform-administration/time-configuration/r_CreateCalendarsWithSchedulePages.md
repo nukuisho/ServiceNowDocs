@@ -2,6 +2,7 @@
 title: Using schedules and calendars
 description: Specific applications within the ServiceNow AI Platform generate graphical calendar displays based on schedule pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_CreateCalendarsWithSchedulePages.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -148,29 +149,29 @@ String
 The Server AJAX processor is specific to calendar type schedule pages that is used to return a set of schedule items and spans that display.
 
 </td></tr></tbody>
-</table>-   **[Invoke the Schedule page and view a calendar](../concept/c_GenCalViewsFromSchedPages.md)**  
+</table>-   **[Invoke the Schedule page and view a calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_GenCalViewsFromSchedPages.md)**  
 You can use the URL from arguments module, a field decoration \(dictionary attribute `ref_contributions`\), or a UI Action linking to `show_schedule.do` to invoke the Schedule page.
--   **[Schedule calendar](../concept/schedule-calendar.md)**  
+-   **[Schedule calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/schedule-calendar.md)**  
 Use the Schedule calendar to create, view, and edit events.
 
-**Parent Topic:**[Schedules](../concept/c_UseSchedules.md)
+**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
 **Related topics**  
 
 
-[Default schedules](r_DefaultSchedules.md)
+[Default schedules]()
 
-[Holidays](../concept/c_Holidays.md)
+[Holidays]()
 
-[Create a holiday schedule for multiple regions](../task/t_CreateAHolidaySchedMultiRegions.md)
+[Create a holiday schedule for multiple regions]()
 
-[Parent and child schedules](../concept/c_ParentAndChildSchedules.md)
+[Parent and child schedules]()
 
-[Define a schedule](../task/t_DefineASchedule.md)
+[Define a schedule]()
 
-[Schedule for the fifth instance of a week date](../task/t_FifthInstanceOfADayOfTheWeek.md)
+[Schedule for the fifth instance of a week date]()
 
-[Repeat a monthly schedule](../task/t_RepeatAMonthlySchedule.md)
+[Repeat a monthly schedule]()
 
-[Domain support and schedules](../concept/domain-support-for-schedules.md)
+[Domain support and schedules]()
 

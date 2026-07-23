@@ -2,6 +2,7 @@
 title: Set up roles for Care Team Work Management users
 description: Set up your care team agents and care team agent managers with the correct roles so care team cases and care team tasks can be fulfilled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/ctwm-set-up-roles.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

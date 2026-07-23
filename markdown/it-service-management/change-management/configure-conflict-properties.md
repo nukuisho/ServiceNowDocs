@@ -2,6 +2,7 @@
 title: Detect change conflicts
 description: Detect change conflicts by setting Change Management conflict analysis properties. Use the resulting information to calculate conflicts for change requests and review and modify the change to eliminate conflicts.Conflict detection includes properties that determine how the conflict detection capability is executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-conflict-properties.html
 release: australia
 product: Change Management
 classification: change-management
@@ -31,25 +32,25 @@ By default, not all properties are selected in the Change Management Conflict An
 
 3.  Configure the remaining customization properties.
 
-    For more information on conflict detection properties, see [Conflict detection properties](configure-conflict-properties.md#).
+    For more information on conflict detection properties, see [Conflict detection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-conflict-properties.md).
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Conflict detection](../concept/c_ConflictDetection.md)
+**Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ConflictDetection.md)
 
 **Related topics**  
 
 
-[Create blackout and maintenance schedules in Change Management](t_CreateBlkoutMaintSched.md)
+[Create blackout and maintenance schedules in Change Management]()
 
-[Configure a change request to monitor outside maintenance schedule conflicts](monitor-maintenance-schedule.md)
+[Configure a change request to monitor outside maintenance schedule conflicts]()
 
-[Conflict calendar](../concept/change-conflict-calendar.md)
+[Conflict calendar]()
 
-[Enable automatic change conflict detection](t_RunAutomatedConflictDetection.md)
+[Enable automatic change conflict detection]()
 
-[Detect conflicts manually and review conflict details](t_RunManualConflictDetection.md#)
+[Detect conflicts manually and review conflict details]()
 
 ## Conflict detection properties
 
@@ -145,7 +146,7 @@ Checks whether the change request falls within the scheduled maintenance defined
 
 </td><td>
 
-Checks whether a change request that falls within the maintenance or blackout windows affects other related application services, such as the services created that include the CI scheduled for change or any other CI within that service.**Note:** This action requires any business services identified to be converted to an application service. For more information, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md). For information about application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md) [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+Checks whether a change request that falls within the maintenance or blackout windows affects other related application services, such as the services created that include the CI scheduled for change or any other CI within that service.**Note:** This action requires any business services identified to be converted to an application service. For more information, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/convert-bus-to-app-svc-intro.md). For information about application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md) [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/application-services.md).
 
 </td></tr><tr><td>
 

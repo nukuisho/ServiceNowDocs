@@ -2,6 +2,7 @@
 title: Supported field types for anonymization
 description: Check which field types are supported when anonymizing data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/data-privacy-supported-data-types.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic

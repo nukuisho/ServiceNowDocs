@@ -2,6 +2,7 @@
 title: Assign mobile user roles permissions
 description: Apply user roles to determine which components are accessible within mobile apps for specific groups of users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/user-roles-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Apply user roles to determine which components are accessible within mobile apps
 
 ## About this task
 
-You can apply user roles to certain components of your mobile apps. For a complete list, see [Mobile components where user roles and user criteria permissions apply](../reference/components-roles-criteria.md). The instructions in this topic demonstrate how to apply roles to supported mobile components. Some components can have either user roles or user criteria components associated with them, in such a situation you must select whether this component is assigned a user role or a user criteria.
+You can apply user roles to certain components of your mobile apps. For a complete list, see [Mobile components where user roles and user criteria permissions apply](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/components-roles-criteria.md). The instructions in this topic demonstrate how to apply roles to supported mobile components. Some components can have either user roles or user criteria components associated with them, in such a situation you must select whether this component is assigned a user role or a user criteria.
 
 **Note:** If you do not add roles to any of the components, all users who have access to the mobile app can see those components. There may be a situation where users may still not see certain components as user criteria permissions may be implemented.
 
@@ -23,7 +24,7 @@ You can apply user roles to certain components of your mobile apps. For a comple
 
 Role required: admin
 
-When working with user roles in the Mobile App Builder, you assign existing user roles permissions and map them to a mobile component. To create additional user roles, you must access the Roles \[sys\_user\_role\] table. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
+When working with user roles in the Mobile App Builder, you assign existing user roles permissions and map them to a mobile component. To create additional user roles, you must access the Roles \[sys\_user\_role\] table. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ua-creating-roles.md).
 
 ## Procedure
 
@@ -39,7 +40,7 @@ When working with user roles in the Mobile App Builder, you assign existing user
 
 4.  Select a record that supports the assignment of user roles from the **Record type** field.
 
-    For a list of the mobile components that you can assign user roles, see [Mobile components where user roles and user criteria permissions apply](../reference/components-roles-criteria.md).
+    For a list of the mobile components that you can assign user roles, see [Mobile components where user roles and user criteria permissions apply](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/components-roles-criteria.md).
 
 5.  If your selected record has the option of both user roles and user criteria, then in the **Access control type** field, select **User roles**.
 
@@ -52,5 +53,5 @@ When working with user roles in the Mobile App Builder, you assign existing user
 9.  Select **Save**.
 
 
-**Parent Topic:**[User role permissions in mobile apps](../concept/sg-roles-permissions.md)
+**Parent Topic:**[User role permissions in mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-roles-permissions.md)
 

@@ -2,6 +2,7 @@
 title: Create cases in Security Case Management
 description: Cases are used to track information about a campaign or state actor threatening your organization. After a case is created, you can add artifacts that allow you to review and analyze all related information within a single case record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/create-cases-in-case-mgmt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ r
 
     The Security Cases screen opens.
 
-    ![New security case](../image/new-sec-case.png)
+    \[Omitted image "new-sec-case.png"\] Alt text: New security case
 
 3.  Fill in the fields as appropriate.
 
@@ -44,7 +45,7 @@ r
 
 4.  Click the **Additional Case Details** tab.
 
-    ![Additional details fields](../image/additional-details-tab.png)
+    \[Omitted image "additional-details-tab.png"\] Alt text: Additional details fields
 
 5.  Fill in the fields as appropriate.
 
@@ -59,13 +60,13 @@ r
 
 6.  Click **Submit**.
 
-    After the record has been saved, you can click the **Case Artifacts** tab and [add artifacts to the case](add-records-to-cases.md).
+    After the record has been saved, you can click the **Case Artifacts** tab and [add artifacts to the case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-records-to-cases.md).
 
 
--   **[Add artifacts to a case](add-records-to-cases.md)**  
+-   **[Add artifacts to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/add-records-to-cases.md)**  
 After you have created a case, you can add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
--   **[Associate MITRE-ATT&amp;CK information with security case](associate-mitre-att-ck-information-with-security-case-management.md)**  
+-   **[Associate MITRE-ATT&amp;CK information with security case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/associate-mitre-att-ck-information-with-security-case-management.md)**  
 Associate MITRE-ATT&amp;CK tactics and techniques to a security case for better security case management and threat analysis at a granular level.
 
-**Parent Topic:**[Security Case Management](../concept/case-mgmt.md)
+**Parent Topic:**[Security Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/case-mgmt.md)
 

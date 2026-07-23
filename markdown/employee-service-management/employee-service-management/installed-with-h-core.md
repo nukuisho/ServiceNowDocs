@@ -6,6 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [Hiring Core components, installed components, Hiring Core roles, tables installed, scheduled jobs]
 ---
 
 # Components installed with Hiring Core
@@ -48,7 +49,7 @@ This role is the super admin in the Hiring Experiences environment.
 
 -   Talent Profile admin
 
-sn\_ta\_tp.talent\_profile\_user
+sn\_ta\_tp.talent\_profile\_admin
 
 
 </td></tr><tr><td>
@@ -98,9 +99,9 @@ This role is for the recruiter who creates and manages the job requisitions.
 
 -   Placeholder
 -   \[email\_composer\]
--   Recruitment coodinator
+-   Recruitment coordinator
 
-\[sn\_ta\_hiring\_core.recruitment\_coodinator\]
+\[sn\_ta\_hiring\_core.recruitment\_coordinator\]
 
 -   Talent Profile user
 
@@ -113,7 +114,7 @@ This role is for the recruiter who creates and manages the job requisitions.
 
 </td></tr><tr><td>
 
-Hiring Core - Recruitment Coodinator
+Hiring Core - Recruitment Coordinator
 
 </td><td>
 
@@ -359,5 +360,5 @@ Interview reschedule history\[sn\_ta\_hiring\_core\_reschedule\_history\]
 Historic data of the interview schedules.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hiring Experiences reference](reference-frmwrk-ta.md)
+</table>**Parent Topic:**[Hiring Experiences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-frmwrk-ta.md)
 

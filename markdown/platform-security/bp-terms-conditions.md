@@ -2,9 +2,10 @@
 title: Domain separation terms
 description: With a ServiceNow instance, you can improve efficiency, add greater security, and increase performance for your customer organizations. It's helpful to understand some of the most common terms as you create your configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-terms-conditions.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 8
 breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
@@ -19,6 +20,8 @@ In a managed domain, the **Managed domain** field allows domain administrators t
 
 If you want to change those properties, you can override them to further customize the functions of the applications in each of your domains.
 
+\[Omitted image "bp-managed-domain.png"\] Alt text: Managed domain
+
 ## Process tables
 
 In process tables, if you see a value in the **Overrides \[sys\_overrides\]** field, a process override record exists. That means that delegated administration, which is how administrators can set domain-specific policies, is in effect. Admins in the global domain can use the **Expand/Collapse Domain Scope** related link to see override records.
@@ -29,7 +32,7 @@ When you view process tables from a domain, you see only the relevant process re
 
 The domain scope feature is used only for process tables and causes the visibility of data on the table to shift in the opposite direction. For example, a record in the parent domain can be seen in the child, but a parent cannot see a child record. This allows the process to flow down to child domains.
 
-![Overrides](../image/bp-overrides.png)
+\[Omitted image "bp-overrides.png"\] Alt text: Overrides
 
 ## Types of domains
 
@@ -67,7 +70,7 @@ User record data never belongs in the global domain or any of the process domain
 
 Admin accounts are special as they should not be used as everyday users of the instance and should be in the global domain to facilitate administrative functions.
 
-![Domain hierarchy](../image/bp-ds-hierarchy.png "Domain hierarchy")
+\[Omitted image "bp-ds-hierarchy.png"\] Alt text: Domain hierarchy
 
 ## Lists, admin, global process
 
@@ -85,58 +88,58 @@ You can create and maintain the process that affect the global domain as well as
 
 Examples: System properties, dictionary overrides, `sys_documentation` \(field labels\), the data model \(classes, CI types, and so on\), tables and fields `[sys_dictionary]` \(access can be restricted\), indexing \(text indexes as well as database\), ACLs, installation exits, inbound actions, public pages, and interceptors.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 
 
-[Domain separation explained](../concept/bp-what-is-domain-separation.md)
+[Domain separation explained]()
 
-[Domain separation hierarchies](bp-domain-sep-hierarchies.md)
+[Domain separation hierarchies]()
 
-[Context and domain separation](../concept/bp-domain-sep-context.md)
+[Context and domain separation]()
 
-[Segregating and securing data with domain separation](bp-segregate-secure.md)
+[Segregating and securing data with domain separation]()
 
-[Alternatives to domain separation](bp-domain-separation-alternatives.md)
+[Alternatives to domain separation]()
 
-[Evaluating the need for domain separation](bp-evaluation-dom-sep.md)
+[Evaluating the need for domain separation]()
 
-[Benefits of domain separation](bp-advantages-dom-sep.md)
+[Benefits of domain separation]()
 
-[How a database query works with domain separation](../concept/bp-db-query-with-ds.md)
+[How a database query works with domain separation]()
 
-[Domain separation levels of support](bp-domain-levels.md)
+[Domain separation levels of support]()
 
-[Service provider reference architecture](bp-sp-reference-arch-ds.md)
+[Service provider reference architecture]()
 
-[Domain-separate a custom table](bp-ds-custom-table.md)
+[Domain-separate a custom table]()
 
-[Customizing domain properties and themes](../concept/bp-domain-prop-themes.md)
+[Customizing domain properties and themes]()
 
-[Managing domain separation for specific uses](../concept/bp-emails-catalog-users.md)
+[Managing domain separation for specific uses]()
 
-[Configuring domain separation with the domain picker](../concept/bp-domain-picker-config-process.md)
+[Configuring domain separation with the domain picker]()
 
-[Domain separation performance considerations](../concept/bp-performance-considerations.md)
+[Domain separation performance considerations]()
 
-[Setting up domain hierarchies](../concept/bp-domain-hierarchy.md)
+[Setting up domain hierarchies]()
 
-[Checking domain logs for errors and warnings](../concept/bp-domain-logs.md)
+[Checking domain logs for errors and warnings]()
 
-[Importance of the Default domain](../concept/bp-default-domain.md)
+[Importance of the Default domain]()
 
-[Contains queries and domain access](../concept/bp-contains-domain-visibility.md)
+[Contains queries and domain access]()
 
-[Domain paths query method](../concept/bp-domain-query-method.md)
+[Domain paths query method]()
 
-[Slow queries and SQL debugging](../concept/bp-debug-sql.md)
+[Slow queries and SQL debugging]()
 
-[Before Query business rules](../concept/bp-before-query-business-rules.md)
+[Before Query business rules]()
 
-[Avoiding domain path in scripts](../concept/bp-no-domain-path-in-scripts.md)
+[Avoiding domain path in scripts]()
 
-[Domain assignments](bp-domain-assignment.md)
+[Domain assignments]()
 
-[Domain separation and the Customer Service Management \(CSM\) plugin](../concept/bp-ds-and-csm.md)
+[Domain separation and the Customer Service Management \(CSM\) plugin]()
 

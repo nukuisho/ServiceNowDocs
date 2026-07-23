@@ -2,6 +2,7 @@
 title: JS Code Coverage Debug
 description: JS Code Coverage Debug allows administrators and application developers to log the server-side scripts triggered during a user session and then review which lines of code the system ran.The JS Code Coverage application highlights script fields to indicate whether the system ran or skipped each line.You can activate the JS Code Coverage Debug plugin \(com.glide.js.coverage\) if you have the admin role.Use JS Code Coverage Debug to record a user session and then review which server-side scripts and lines of code the system ran.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/js-code-coverage-debug.html
 release: australia
 product: Scripts
 classification: scripts
@@ -26,7 +27,7 @@ Users with the js\_coverage\_debugger role can debug server-side scripts without
 
 **Note:** JS Code Coverage Debug doesn't log information for client-side scripts.
 
-**Parent Topic:**[Debugging scripts](script-debug-overview.md)
+**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debug-overview.md)
 
 ## JS Code Coverage highlighting
 
@@ -36,13 +37,18 @@ The color of the highlight indicates how the system evaluated the code line.
 
 Administrators and application developers can use this information to conduct more targeted debugging activities such as using the Script Debugger to determine why script conditions are not being met.
 
-![Sample code highlighting](../image/js-code-coverage-highlighting.png "Sample code highlighting")
+\[Omitted image "js-code-coverage-highlighting.png"\] Alt text: Sample code highlighting
 
 |Highlight color|Description|
 |---------------|-----------|
 |Green|This is an executable line of code that the system ran during the session.|
 |Red|This is an executable line of code that the system skipped for some reason. The system may have skipped an executable line of code because the necessary script conditions were not met or because the script function was never called. You may want to use the Script Debugger to determine why the system skipped the line of executable code.|
 |Gray|This is a non-executable line of code such as white space, code comment, or a portion of an expression split across multiple lines that cannot run on its own.|
+
+**Related topics**  
+
+
+[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
 
 ## Activate JS Code Coverage Debug
 
@@ -64,12 +70,17 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 ### What to do next
 
 To see the components the plugin installed, refresh the plugin form and select the **Plugin Files** related list.
+
+**Related topics**  
+
+
+[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 
 ## Debug with JS Code Coverage Debug
 
@@ -85,7 +96,7 @@ Role required: js\_coverage\_debugger or admin
 
     The system logs which server-side scripts and code lines the system runs as well as displays session debug messages in the JS Code Coverage namespace.
 
-    ![Debug with code coverage](../image/js-code-coverage-session-debug.png)
+    \[Omitted image "js-code-coverage-session-debug.png"\] Alt text: Debug with code coverage
 
 2.  Navigate to the table or page whose logic you want to test.
 
@@ -113,12 +124,12 @@ Role required: js\_coverage\_debugger or admin
 
     The system displays the JS Code Coverage Debug record.
 
-    ![JS code coverage debug section](../image/sample-code-coverage-incident-events.png)
+    \[Omitted image "sample-code-coverage-incident-events.png"\] Alt text: JS code coverage debug section
 
 7.  Review the **Script** field to determine which lines of code the system ran.
 
 
 ### What to do next
 
-Use the code coverage information to do more targeted debugging activities such as set breakpoints and review variable values with the Script Debugger. For more information, see [Script Debugger and Session Log](script-debugger.md).
+Use the code coverage information to do more targeted debugging activities such as set breakpoints and review variable values with the Script Debugger. For more information, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md).
 

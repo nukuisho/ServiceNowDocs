@@ -2,6 +2,7 @@
 title: Create a Report Subsection Template
 description: Use the report subsection to further organize the section into multiple subsections and configure their alignment and position using the available types such as Text side panel, Primary, and Secondary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-report-subsection-template.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -33,19 +34,19 @@ Role required: sn\_msi.workspace\_manager
 
 5.  Navigate to **Report subsections** &gt; **New**.
 
-    ![Sample Report subsection template](../image/msim-status-subsection.png "Create a Report subsection template") ![]( "Create a Report subsection template")
+    \[Omitted image "msim-status-subsection.png"\] Alt text: Sample Report subsection template \[Omitted image ""\] Alt text:
 
 6.  On the Report subsection form, fill in the fields.
 
-<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d162935e132">
+<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d166273e128">
 
 Field
 
-</th><th align="left" id="d162935e135">
+</th><th align="left" id="d166273e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d162935e141">
+</th></tr></thead><tbody><tr><td id="d166273e137">
 
 **Name**
 
@@ -58,7 +59,7 @@ Name of the Report template subsection. For example, Scope.**Note:** The existin
 -   **Progress**: Displays the visualization elements within the report such as the Linked Security Incidents Graphs, Response Tasks Graph, and Collaboration Graphs.
 
 
-</td></tr><tr><td id="d162935e170">
+</td></tr><tr><td id="d166273e166">
 
 **Type**
 
@@ -69,7 +70,7 @@ The report subsection type. The available types are:-   **Primary**: This subsec
 -   **Text side panel**: This subsection accompanies the secondary panel and only supports the text.
 
 
-</td></tr><tr><td id="d162935e197">
+</td></tr><tr><td id="d166273e193">
 
 **Table**
 
@@ -77,7 +78,7 @@ The report subsection type. The available types are:-   **Primary**: This subsec
 
 Name of the report template table.
 
-</td></tr><tr><td id="d162935e206">
+</td></tr><tr><td id="d166273e202">
 
 **MSI report section template**
 
@@ -85,7 +86,7 @@ Name of the report template table.
 
 The MSI Report Template name for which you’re dividing the report into sections.
 
-</td></tr><tr><td id="d162935e216">
+</td></tr><tr><td id="d166273e212">
 
 **Order**
 
@@ -93,7 +94,7 @@ The MSI Report Template name for which you’re dividing the report into section
 
 The order in which the report subsections will be rendered.
 
-</td></tr><tr><td id="d162935e225">
+</td></tr><tr><td id="d166273e221">
 
 **Icon**
 
@@ -101,7 +102,7 @@ The order in which the report subsections will be rendered.
 
 Use the icon to indicate or highlight the section container on the report runtime configuration form.
 
-</td></tr><tr><td id="d162935e234">
+</td></tr><tr><td id="d166273e230">
 
 **Active**
 
@@ -109,7 +110,7 @@ Use the icon to indicate or highlight the section container on the report runtim
 
 Select the check box to create a report subsection for the selected template in the MSIM workspace.**Note:** If the check box is unselected, the MSI Manager can’t create a report subsection for this template in the MSIM workspace.
 
-</td></tr><tr><td id="d162935e246">
+</td></tr><tr><td id="d166273e242">
 
 **Editor - Content**
 
@@ -121,16 +122,16 @@ Define the template subsection content.
 </table>7.  Save and **Submit** the new report template section.
 
 
-**Parent Topic:**[Configure Major Security Incident status reports](../concept/manage-status-reports-for-major-security-incident-management.md)
+**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 
 **Related topics**  
 
 
-[Create a Report Template](create-report-template.md)
+[Create a Report Template]()
 
-[Create a Report Section Template](create-report-section-template.md)
+[Create a Report Section Template]()
 
-[Create Report Subsection Element template](create-report-subsection-element-template.md)
+[Create Report Subsection Element template]()
 
-[Add system properties](../concept/adding-system-properties-to-your-status-reports.md)
+[Add system properties]()
 

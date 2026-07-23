@@ -2,6 +2,7 @@
 title: Use response templates in License and Permit Playbook
 description: Respond to cases by using the response templates in the contextual side panel in CSM Configurable Workspace. Good templates save you time by eliminating repetitive work. Response templates replace the static text with details from the license/permit application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/use-response-templates-lpr-psds.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 ## About this task
 
-Selecting the response templates icon![Email template icon](../image/email-template-icon.png) shows the reusable messages that you can copy and paste into cases and case tasks.
+Selecting the response templates icon\[Omitted image "email-template-icon.png"\] Alt text: Email template icon shows the reusable messages that you can copy and paste into cases and case tasks.
 
 In License and Permit Playbook,Response Templates replace the static text with details from the license/permit application, such as:
 
@@ -36,7 +37,7 @@ For information on how to create response templates, see [Create or modify a res
 
 1.  In the CSM Configurable Workspace, open an information request task.
 
-2.  In the contextual side panel, select the response templates icon ![Response template icon.](../image/response-template-icon.png) to display a list of the available templates.
+2.  In the contextual side panel, select the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. to display a list of the available templates.
 
 3.  In the Response Templates side panel, search for a template.
 

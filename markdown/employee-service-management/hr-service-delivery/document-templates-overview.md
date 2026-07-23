@@ -2,6 +2,7 @@
 title: Document Templates
 description: With the ServiceNow Document Templates application, you can create HTML and PDF document templates to generate standard letters or documents. You can automate and simplify the process of filling, signing, and reviewing a document online.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/document-templates-overview.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,15 +28,15 @@ With the ServiceNow® Document Templates application, you can create HTML and PD
 
 <table id="doc-tem" class="nav-card"><tbody><tr><td>
 
-[Configure ![Plan and configure your implementation](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your implementation](set-up-doc-temp.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-doc-temp.md)
 
 </td><td>
 
-[Use ![Automate and simplify the process of filling, signing, and reviewing a document online](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Automate and simplify the process of filling, signing, and reviewing a document online](using-doc-templates.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Automate and simplify the process of filling, signing, and reviewing a document online Automate and simplify the process of filling, signing, and reviewing a document online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-doc-templates.md)
 
 </td></tr><tr><td>
 
-[Reference ![Get details about components like fields, tables, and properties](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields, tables, and properties](../reference/reference-doc-templates.md#)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and properties Get details about components like fields, tables, and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-doc-templates.md)
 
 </td><td>
 

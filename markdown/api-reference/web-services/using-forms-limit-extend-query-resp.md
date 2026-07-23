@@ -2,6 +2,7 @@
 title: Use forms to limit or extend the query response
 description: On occasion, there is a need to limit the number of field values that a SOAP query returns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/using-forms-limit-extend-query-resp.html
 release: australia
 product: Web Services
 classification: web-services
@@ -29,20 +30,20 @@ https://<instance name>.service-now.com/incident.do?SOAP&sysparm_view=ess
 
 By default, if a specified view name does not exist, the response contains all fields.
 
-**Parent Topic:**[Direct web services](c_DirectWebServices.md)
+**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md)
 
 **Related topics**  
 
 
-[Return the display value for reference variables](return-display-reference-variables.md)
+[Return the display value for reference variables]()
 
-[Clear values from a target instance](clearing-values-target.md)
+[Clear values from a target instance]()
 
-[Retrieve journal entries using direct web services](retrieving-journal-entries.md)
+[Retrieve journal entries using direct web services]()
 
-[Retrieve choice fields using direct web services](retrieving-choice-fields-direct-ws.md)
+[Retrieve choice fields using direct web services]()
 
-[Persist an HTTP session across all SOAP calls](persist-session-all-soap-calls.md)
+[Persist an HTTP session across all SOAP calls]()
 
-[SOAP direct web service API functions](../../web-services-apis/reference/r_DirectWebServiceAPIFunctions.md)
+[SOAP direct web service API functions]()
 

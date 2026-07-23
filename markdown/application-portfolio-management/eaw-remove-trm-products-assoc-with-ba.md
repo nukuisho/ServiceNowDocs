@@ -1,7 +1,8 @@
 ---
-title: Remove Technology Reference Model products associated with a business application
+title: Remove TRM products from a business application
 description: You can remove the Technology Reference Model \(TRM\) products associated with business applications in the Enterprise Architecture Workspace, confirming only the relevant and current TRM products are associated with the business application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-remove-trm-products-assoc-with-ba.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Remove Technology Reference Model products associated with a business application
+# Remove TRM products from a business application
 
 You can remove the Technology Reference Model \(TRM\) products associated with business applications in the Enterprise Architecture Workspace, confirming only the relevant and current TRM products are associated with the business application.
 
@@ -21,9 +22,9 @@ Role required: sn\_apm.apm\_analyst
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon \(![Portfolio icon](../../image/portfolio-icon.png)\).
+2.  Open the Portfolio List view by selecting the Portfolio icon \(\[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon\).
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Application Portfolio**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Application Portfolio**.
 
 4.  Select **Business Applications**.
 
@@ -42,16 +43,16 @@ Role required: sn\_apm.apm\_analyst
 
 The TRM product is removed from the business application.
 
-**Parent Topic:**[Working with an application portfolio](../../concept/eaw-concept/eaw-work-with-application-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 
 
-[Manage the Technology Reference Model in Enterprise Architecture Workspace](../../concept/eaw-concept/eaw-managing-the-technology-portfolio.md)
+[Manage the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 
-[Exploring business applications](../../concept/eaw-concept/eaw-manage-business-applications.md)
+[Exploring business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-applications.md)
 
-[Working with Technology Reference Model \(TRM\) in EA Workspace](../../concept/eaw-concept/eaw-work-with-trm.md)
+[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-trm.md)
 
-[Working with an application portfolio](../../concept/eaw-concept/eaw-work-with-application-portfolio.md)
+[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)
 

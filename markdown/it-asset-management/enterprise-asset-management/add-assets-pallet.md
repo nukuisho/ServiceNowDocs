@@ -2,13 +2,14 @@
 title: Add assets to a pallet in the Enterprise Asset Workspace
 description: Add enterprise, hardware, base, bundle, or consumable assets to a pallet so that you can track and manage them as a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-assets-pallet.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create pallet assets in the Enterprise Asset Workspace, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create pallet assets in the Enterprise Asset Workspace, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Add assets to a pallet in the Enterprise Asset Workspace
@@ -65,5 +66,5 @@ You can add an asset to a pallet only under the following conditions:
 
 The assets are added to the **Assets** tab of the pallet asset record.
 
-**Parent Topic:**[Create pallet assets in the Enterprise Asset Workspace](create-pallet-asset-eam.md)
+**Parent Topic:**[Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md)
 

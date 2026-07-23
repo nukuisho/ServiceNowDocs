@@ -2,6 +2,7 @@
 title: Search files on your instance in VS Code
 description: Search and download any script files on your instance using the ServiceNow Extensions for VS Code extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/search-file.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,19 +26,19 @@ Role required: none
 
     You can also use a keyboard shortcut, Control+Shift+P in Windows or Command+Shift+P on MacOS, to open the command palette and choose **Now: Global Search** from the list.
 
-    ![Global Search File command](../image/vscode-globalsearch.png "Global File Search command")
+    \[Omitted image "vscode-globalsearch.png"\] Alt text: Global Search File command
 
 3.  Select the file group from the **Select File Group** list in the command palette on the top of the screen.
 
-    ![List of file groups](../image/vscode-filegroup.png "Select File Group list")
+    \[Omitted image "vscode-filegroup.png"\] Alt text: List of file groups
 
 4.  Select the file type from the Select a File Type list in the command palette on the top of the screen.
 
-    ![Select a file type list](../image/vscode-filetype.png "Select a file type list")
+    \[Omitted image "vscode-filetype.png"\] Alt text: Select a file type list
 
 5.  Select files from the **Select files to download** list.
 
-    ![Select files to download list](../image/vscode-listoffiles.png "Select files to download list")
+    \[Omitted image "vscode-listoffiles.png"\] Alt text: Select files to download list
 
     You can select and download multiple files at a time.
 
@@ -51,13 +52,13 @@ Role required: none
 
     3.  Enter the number of records you want to see in the Fetch Records Max Limit settings.
 
-        ![Fetch Records Max Limit settings](../image/vs-code-file-search.png "Fetch Records Max Limit settings")
+        \[Omitted image "vs-code-file-search.png"\] Alt text: Fetch Records Max Limit settings
 
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](../concept/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
 
 **Related topics**  
 
 
-[Create a file in VS Code](vscode-create-file.md)
+[Create a file in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vscode-create-file.md)
 

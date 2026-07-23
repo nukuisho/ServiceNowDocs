@@ -2,6 +2,7 @@
 title: Activity streams in list view
 description: Stream live activity information for all records on the current list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_DisplayActivityStreams.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Lists in the classic environment, Working in the classic environmen
 
 Stream live activity information for all records on the current list.
 
-To view the activity stream information, click the list activity stream icon \(![Activity stream icon](../image/Show_live_feed_icon.png)\) in the list title bar. This icon appears in the title bar for all task tables.
+To view the activity stream information, click the list activity stream icon \(\[Omitted image "Show\_live\_feed\_icon.png"\] Alt text: Activity stream icon\) in the list title bar. This icon appears in the title bar for all task tables.
 
 The activity stream information appears in a flyout window, and is the same information that appears in the [activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md) for a record. The short description appears as the title for the entry. Activity stream items on the task table use the task number as the title. The information in the flyout window updates automatically with audit and journal entries. Click the **&gt;&gt;** icon at the top to close the activity stream.
 
@@ -23,5 +24,5 @@ You can click an item to open the activity stream for that record. The record ac
 
 **Note:** The activity stream window is not the same interface as the activity formatter which appears on forms. Modifications and property settings user to change the behavior on the activity formatter are not applied to the activity stream window.
 
-**Parent Topic:**[Lists in the classic environment](c_UseLists.md)
+**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md)
 

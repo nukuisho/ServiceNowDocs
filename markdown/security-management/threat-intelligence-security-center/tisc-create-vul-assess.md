@@ -2,6 +2,7 @@
 title: Create vulnerability assessment for zero day
 description: Create a vulnerability assessment to evaluate and document security risks from zero day vulnerabilities in your environment. Use this when you want to assess the potential impact of newly discovered vulnerabilities that lack available patches.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-vul-assess.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -43,24 +44,26 @@ Role required:
     2.  Notify the concerned TISC Teams and VR Teams.
 
 
-**Parent Topic:**[Working with automated flows](../concept/tisc-automated-flows.md)
+**Parent Topic:**[Working with automated flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-automated-flows.md)
 
 **Related topics**  
 
 
-[Automated IOC Enrichment](tisc-ioc-enrichment.md)
+[Automated IOC Enrichment]()
 
-[Automated sharing of high-risk IOC's with trusted partners](tisc-automated-sharing-flow.md)
+[Automated sharing of high-risk IOC's with trusted partners]()
 
-[Automatically add threat intelligence to a TAXII collection](tisc-taxii-automated-flow.md)
+[Automatically add threat intelligence to a TAXII collection]()
 
-[Analyze, assess, and disseminate observables](tisc-disseminate-observables.md)
+[Analyze, assess, and disseminate observables]()
 
-[Analyze and assess threat IoC’s](tisc-analyze-ioc.md)
+[Analyze and assess threat IoC’s]()
 
-[Vulnerability Management Support](tisc-vul-mgmt.md)
+[Vulnerability Management Support]()
 
-[Zero-day vulnerability tracking](tisc-zero-vul.md)
+[Zero-day vulnerability tracking]()
 
-[Automated flows tables](../concept/tisc-flows-tables.md)
+[Automatic Threat Actor priority tagging]()
+
+[Automated flows tables]()
 

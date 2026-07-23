@@ -2,6 +2,7 @@
 title: Configuring Contracts and Entitlement Workflows
 description: Configure the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\) to generate and modify contracts using order management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-cont-ent-workflows-csm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

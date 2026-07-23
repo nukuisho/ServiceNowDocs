@@ -2,6 +2,7 @@
 title: Setting up primary data for ShoppingHub
 description: Create primary data of your suppliers and office locations that your suppliers deliver to. Define your product catalog with data of your product categories, product models, and supplier products. Define shopping controls to control the supplier product visibility to your employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -15,63 +16,65 @@ breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply 
 
 Create primary data of your suppliers and office locations that your suppliers deliver to. Define your product catalog with data of your product categories, product models, and supplier products. Define shopping controls to control the supplier product visibility to your employees.
 
--   **[Add a supplier](../task/create-supplier.md)**  
+-   **[Add a supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier.md)**  
 Add suppliers and their products to populate your primary data.
--   **[Add office locations](../task/create-office-locations.md)**  
+-   **[Add office locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-office-locations.md)**  
 Add all the office locations that your suppliers deliver to in your primary data. That way, your employees using Shopping Hub can select any of these pre-approved office locations for delivery while placing an order for a product.
--   **[Add delivery locations](../task/create-delivery-locations.md)**  
+-   **[Add delivery locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-delivery-locations.md)**  
 Add the address that can be selected by the user to have the product delivered. You can add multiple delivery locations.
--   **[Setting up your product catalog](../task/create-product-catalogue.md)**  
+-   **[Setting up your product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-product-catalogue.md)**  
 You can set up your product catalog by grouping the supplier products that you want to appear on the Shopping Hub portal into product categories and product models.
--   **[Lead time calculations](lead-time-calculations.md)**  
+-   **[Lead time calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.md)**  
 Lead time \(in days\) of a supplier product consist of the time for sourcing, supplier onboarding, purchasing, and shipping for a supplier product, product model, or a product category. Each of these durations are used to calculate the total lead time which determines the number of days to execute a purchase order.
--   **[Ledger assignment rules](../concept/ledger-assignment-rules.md)**  
+-   **[Ledger assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ledger-assignment-rules.md)**  
 When a purchase line is created for a purchase requisition on the ShoppingHub portal, the details of capex account, expense account, and pre-paid account are auto-populated based on applicable ledger assignment rules.
--   **[Create shopping controls](../task/create-shopping-controls.md)**  
+-   **[Create shopping controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-shopping-controls.md)**  
 Set conditions to control the visibility of supplier products for an employee or a department who visits the Shopping Hub portal. Shopping Hub administrators can manage access to products based on categories, suppliers, or any attribute related to a supplier product.​
--   **[Configure delegate for a shopper](../task/configure-delegate-for-a-shopper.md)**  
+-   **[Configure delegate for a shopper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-delegate-for-a-shopper.md)**  
 Configure your employees as delegates to shop on behalf of someone else. For these employees, the **Shopping as** option is available on the Shopping Hub homepage to shop as a delegate.
--   **[ShoppingHub configuration](../concept/shoppinghub-configurations.md)**  
-As an admin, you can create and modify ShoppingHub configurations to offer a standardized experience.
--   **[Sourcing checkout](../concept/sourcing-checkout.md)**  
+-   **[ShoppingHub configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)**  
+ShoppingHub configurations control the shopper experience for procurement workflows, including request modifications and sourcing checkouts.
+-   **[Sourcing checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/sourcing-checkout.md)**  
 As a ShoppingHub or Procurement administrator, you can configure checkouts for sourcing requests to collect information that is relevant to the product, product model, or category. Your teams can automate the sourcing processes, share more information, and improve operational efficiency.
--   **[Shopping Hub process visibility configuration](../concept/process-visibility-configuration.md)**  
+-   **[Shopping Hub process visibility configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/process-visibility-configuration.md)**  
 As a procurement administrator, you can create and modify purchase process steps, work items involved in the process steps, and link the process steps and work items.
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](../concept/configuring-spo.md)
+**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
-[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+[Install Sourcing and Procurement Operations]()
 
-[Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md)
+[Configure punchout for third-party site purchases]()
 
-[Configuring work prioritization](../concept/configuring-work-prioritization.md)
+[Configuring work prioritization]()
 
-[Add a new button in Shopping Hub](../task/add-new-button-shoppinghub.md)
+[Add a button in Shopping Hub]()
 
-[Customize your top suppliers on Shopping Hub](../task/customize-top-suppliers.md)
+[Customize your top suppliers on Shopping Hub]()
 
-[Configure conditions for merging purchase requisitions](../task/config-pr-merge.md)
+[Configure conditions for merging purchase requisitions]()
 
-[Service portal configuration for ShoppingHub](../concept/service-portal-configuration-for-shoppinghub.md)
+[Service portal configuration for ShoppingHub]()
 
-[Install ShoppingHub Mobile](../task/install-shoppinghub-mobile.md)
+[Install ShoppingHub Mobile]()
 
-[Advanced Work Assignment for Source-to-Pay Operations](../concept/awa-spo.md)
+[Advanced Work Assignment for Source-to-Pay Operations]()
 
-[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+[Install Universal Request for Sourcing and Procurement Operations]()
 
-[Application plugin installation sequence in Sourcing and Procurement Operations](application-plugin-list.md)
+[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 
-[Service portal configuration for ShoppingHub](../concept/service-portal-configuration-for-shoppinghub.md)
+[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
 
-[Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md)
+[Service portal configuration for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/service-portal-configuration-for-shoppinghub.md)
 
-[Customize your top suppliers on Shopping Hub](../task/customize-top-suppliers.md)
+[Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md)
 
-[Using Shopping Hub](use-shoppinghub-portal.md)
+[Customize your top suppliers on Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/customize-top-suppliers.md)
 
-[My purchases on Shopping Hub](../concept/my-purchases.md)
+[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
+
+[My purchases on Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/my-purchases.md)
 

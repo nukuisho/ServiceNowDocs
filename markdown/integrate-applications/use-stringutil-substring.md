@@ -2,11 +2,12 @@
 title: Use the SubString component
 description: Retrieve a substring from a string by using the SubString component in RPA Desktop Design Studio. You can specify the start character position and length of the substring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-stringutil-substring.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [String utilities, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [String utilities, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the SubString component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the SubString component. For more information about these properties, see [Properties of the String Utilities components](../reference/util-stringutil-prop.md).
+You can configure the properties for the SubString component. For more information about these properties, see [Properties of the String Utilities components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-stringutil-prop.md).
 
 ## Procedure
 
@@ -27,7 +28,7 @@ You can configure the properties for the SubString component. For more informati
 
 2.  Drag the SubString component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the SubString component to the corresponding ports of the other components as described in the following table.
 
@@ -107,5 +108,5 @@ No
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[String utilities](../concept/string-utilities.md)
+**Parent Topic:**[String utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/string-utilities.md)
 

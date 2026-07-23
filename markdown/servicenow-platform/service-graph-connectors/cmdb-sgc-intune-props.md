@@ -2,11 +2,12 @@
 title: Service Graph Connector for Microsoft Intune properties
 description: Service Graph Connector properties control the behavior of connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-sgc-intune-props.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-07-07"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Intune, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -150,6 +151,20 @@ Set the duration \(in milliseconds\) for the waiting period after the specified 
 </td><td>
 
 Advanced data sources \(SG-Intune Device Reports and SG-Intune Software Reports\)
+
+</td></tr><tr><td>
+
+user\_lookup\_field
+
+</td><td>
+
+Select the Microsoft Intune source field to be used for looking up the assigned user.-   Type: `user_principal_name` \| `email_address`
+-   Default value: `user_principal_name`
+
+</td><td>
+
+-   Regular data sources \(SG-Intune Computer, SG-Intune Devices, and SG-Intune Software\)
+-   Advanced data sources \(SG-Intune Device Reports and SG-Intune Software Reports\)
 
 </td></tr></tbody>
 </table>

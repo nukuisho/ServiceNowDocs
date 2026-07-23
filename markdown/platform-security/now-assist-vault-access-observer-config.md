@@ -2,6 +2,7 @@
 title: Access Observer configuration agentic workflow
 description: Use the Access Observer configuration agentic workflow to view, create, deactivate, and delete Access Observer settings for a particular field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/now-assist-vault-access-observer-config.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-23"
@@ -44,5 +45,5 @@ To access and configure the agentic workflow:
 
 There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
-**Parent Topic:**[Use agentic AI in Now Assist for Vault](use-now-assist-vault-agentic-ai.md)
+**Parent Topic:**[Use agentic AI in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
 

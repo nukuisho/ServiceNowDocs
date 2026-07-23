@@ -2,11 +2,12 @@
 title: Use the SetEnvironmentVariable component
 description: Create or update an environment variable as part of an automation Workflow by using the SetEnvironmentVariable component in RPA Desktop Design Studio. These variables persist across activities and can be retrieved later using GetEnvironmentVariable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-environment-setenvvariable.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Environment, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Environment, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the SetEnvironmentVariable component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the SetEnvironmentVariable component. For more information about these properties, see [Properties of the Environment components](../reference/util-environment-prop.md).
+You can configure the properties for the SetEnvironmentVariable component. For more information about these properties, see [Properties of the Environment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-environment-prop.md).
 
 ## Procedure
 
@@ -27,7 +28,7 @@ You can configure the properties for the SetEnvironmentVariable component. For m
 
 2.  Drag the SetEnvironmentVariable component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the SetEnvironmentVariable component to the corresponding ports of the other components as described in the following table.
 
@@ -51,7 +52,7 @@ You want your robot to process files and save logs to different folders dependin
     -   `LOG_PATH = C:\RPA\Dev\Logs`
     This variable defines if robot is running in the development mode, where to store the log files.
 
-    ![SetEnvironmentVariable with development environment details.](../image/set-env-var-dev-rpa.png)
+    \[Omitted image "set-env-var-dev-rpa.png"\] Alt text: SetEnvironmentVariable with development environment details.
 
 2.  Later in the workflow, when saving log files, use **GetEnvironmentVariable** to retrieve the value of `LOG_PATH`.
 
@@ -61,10 +62,10 @@ You want your robot to process files and save logs to different folders dependin
 
     -   `ENV_MODE = Production`
     -   `LOG_PATH = C:\RPA\Prod\Logs`
-    ![SetEnvironmentVariable with production environment details.](../image/set-env-var-prod-rpa.png)
+    \[Omitted image "set-env-var-prod-rpa.png"\] Alt text: SetEnvironmentVariable with production environment details.
 
     The robot now logs to the production folder automatically, because it reads the `LOG_PATH` value from the environment variable.
 
 
-**Parent Topic:**[Environment](../concept/environment-utility.md)
+**Parent Topic:**[Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/environment-utility.md)
 

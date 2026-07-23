@@ -2,6 +2,7 @@
 title: Data collected for IBM Cloud Discovery
 description: Discovery collects information about cloud resources in the IBM Cloud Platform and creates relationships between the CIs it finds. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/data-collected-ibm-discovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -18,7 +19,7 @@ Discovery collects information about cloud resources in the IBM Cloud Platform a
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -28,7 +29,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Visibility Content.
 -   **Configure a discovery schedule**
 
-    [Create a discovery schedule in Cloud Discovery Workspace](../task/cloud-operations-disco-create-schedule.md)
+    [Create a discovery schedule in Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-operations-disco-create-schedule.md)
 
 
 ## Verify the REST API Permissions
@@ -473,5 +474,5 @@ IBM Datacenter \[cmdb\_ci\_ibm\_datacenter\]
 |cmdb\_ci\_ibm\_datacenter|Hosted on::Hosts|cmdb\_ci\_cloud\_service\_account|
 |cmdb\_ci\_ibm\_datacenter|Hosts::Hosted on|cmdb\_ci\_network|
 
-**Parent Topic:**[Cloud resource discovery references](cloud-discovery-collected-data.md)
+**Parent Topic:**[Cloud resource discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/cloud-discovery-collected-data.md)
 

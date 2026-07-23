@@ -2,6 +2,7 @@
 title: Create a navigation menu block
 description: Navigation menu blocks enable you to create a menu of links to different content pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CreateNavigationMenuBlock.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -35,7 +36,7 @@ The following three objects define navigation menus.
 
     A gallery of available navigation menu blocks displays.
 
-    ![Navigation menu blocks.](../image/CMSMenuOptions.png "CMS menu options")
+    \[Omitted image "CMSMenuOptions.png"\] Alt text: Navigation menu blocks.
 
 3.  Select the desired menu block style.
 
@@ -53,33 +54,33 @@ The following three objects define navigation menus.
     |Category|Select a category to provide organization for the navigation menu block. The category also determines the detail page in which menu links open.|
 
 
--   **[Configure menu sections](t_ConfigureMenuSections.md)**  
+-   **[Configure menu sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_ConfigureMenuSections.md)**  
 Menu sections define groups of links displayed within the navigation menu block.
--   **[Menu types](../reference/r_MenuTypes.md)**  
+-   **[Menu types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_MenuTypes.md)**  
 By changing the **Type** field on the navigation menu block, you can format the same menu in different ways.
--   **[Example menu items and content links](../concept/c_NavigationMenusAndContentLinks.md)**  
+-   **[Example menu items and content links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_NavigationMenusAndContentLinks.md)**  
 The method for choosing a link target \(current window, iFrame, or new window\) and referencing the item linked \(page, attachment, or URL\) are similar. Review examples of how to link within these elements.
 
-**Parent Topic:**[Types of content blocks](../reference/r_TypesOfContentBlocks.md)
+**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
 
 **Related topics**  
 
 
-[Configure a header block](t_HeaderBlock.md)
+[Configure a header block]()
 
-[Configure dynamic blocks](t_CreateADynamicBlock.md)
+[Configure dynamic blocks]()
 
-[Customize the list block](t_DefineTheListBlock.md)
+[Customize the list block]()
 
-[Configure a static HTML block](t_StaticHTMLBlock.md)
+[Configure a static HTML block]()
 
-[Configure Flash movie blocks](t_FlashMovieBlock.md)
+[Configure Flash movie blocks]()
 
-[Configure content links](t_ConfigureContentLinks.md)
+[Configure content links]()
 
-[Configure iFrames](t_IFrame.md)
+[Configure iFrames]()
 
-[Configure a detailed content block](t_DetailedContentBlock.md)
+[Configure a detailed content block]()
 
-[Menu style customization](../concept/c_CustomizeTheMenuStyle.md)
+[Menu style customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CustomizeTheMenuStyle.md)
 

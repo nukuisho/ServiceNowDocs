@@ -2,6 +2,7 @@
 title: Survey question migration
 description: Before you migrate a legacy survey, understand that some legacy survey questions cannot be migrated due to incompatible question types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_SurveyQuestionMigration.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -40,14 +41,14 @@ The following table shows the conversion path for each legacy survey question ty
 |Wide Single Line Text|String \(**String** option set to **Single line wide**\)|
 |Yes / No|Yes/No|
 
-**Parent Topic:**[Legacy survey migration](../concept/c_MigrateSurveys.md)
+**Parent Topic:**[Legacy survey migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MigrateSurveys.md)
 
 **Related topics**  
 
 
-[Migrate a legacy survey](../task/t_MigrateALegacySurvey.md)
+[Migrate a legacy survey]()
 
-[Migrated components](r_MigratedComponents.md)
+[Migrated components]()
 
-[Migrated question review](r_ReviewMigratedQuestions.md)
+[Migrated question review]()
 

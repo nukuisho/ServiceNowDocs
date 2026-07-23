@@ -2,6 +2,7 @@
 title: Create email templates
 description: Create and manage the preconfigured email templates for sending notifications to your end users, user groups, or managers. With these templates, you can coach and communicate with your end users about the Data Loss Prevention Incident Response \(DLP IR\) incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-and-manage-email-templates.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -305,11 +306,11 @@ Please review the response for these incidents ${link_to_incidents_in_period_use
 </td></tr></tbody>
 </table>    The following example shows the DLP Email Template with the target users defined as all recipients.
 
-    ![Create and manage DLP email templates.](../image/dlp-email-template.png "Email template")
+    \[Omitted image "dlp-email-template.png"\] Alt text: Create and manage DLP email templates.
 
     The following example shows an email template with the subject "User incident notification" and a variable *new\_incidents\_in\_period*. The email body contains multiple variables that are added from the Select variables column.
 
-    ![Email template with fields to select variables.](../image/dlp-email-templates-variables.png "Email template variables")
+    \[Omitted image "dlp-email-templates-variables.png"\] Alt text: Email template with fields to select variables.
 
 4.  Click **Submit**.
 
@@ -318,50 +319,50 @@ Please review the response for these incidents ${link_to_incidents_in_period_use
 
 The end user receives a digest notification email with all the selected variable fields in the template.
 
-**Parent Topic:**[DLP Incident Response Administration](../concept/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
 
-[DLP default configuration settings](configure-data-loss-prevention.md)
+[DLP default configuration settings]()
 
-[Create end user lookup rules](configure-enduser-lookup-rules.md)
+[Create end user lookup rules]()
 
-[Create assignment rules](create-assignment-rules.md)
+[Create assignment rules]()
 
-[Create incident consolidation rules](configure-incident-consolidation-rules-to-consolidate-your-dlp-incidents.md)
+[Create incident consolidation rules]()
 
-[Create response due date rules](setup-response-due-date-rules.md)
+[Create response due date rules]()
 
-[Create Approval Rules](configure-approval-rules.md)
+[Create Approval Rules]()
 
-[Create user instructions templates](create-and-manage-user-instructions-template-for-dlp-incidents.md)
+[Create user instructions templates]()
 
-[Create a Data Loss Prevention Incident Response SLA trigger](sla-records.md)
+[Create a Data Loss Prevention Incident Response SLA trigger]()
 
-[Create a Data Loss Prevention Incident Response SLA definition](dlp-sla-definitions.md)
+[Create a Data Loss Prevention Incident Response SLA definition]()
 
-[Create assessments](create-and-manage-assessments-for-dlp-incidents.md)
+[Create assessments]()
 
-[Configure response option for your DLP incidents](configure-response-option-mapping.md)
+[Configure response option for your DLP incidents]()
 
-[Create incident response option rules](configure-end-user-action.md)
+[Create incident response option rules]()
 
-[Create age chart configurations](configure-age-chart.md)
+[Create age chart configurations]()
 
-[Create user delegate configurations](configure-delegation.md)
+[Create user delegate configurations]()
 
-[Create repeat offender identification rules](repeat-offender-identification-rules.md)
+[Create repeat offender identification rules]()
 
-[Create additional incident data fields](create-custom-fields-dlp.md)
+[Create additional incident data fields]()
 
-[DLP SLA Definition form](../reference/dlp-sla-def-properties.md)
+[DLP SLA Definition form]()
 
-[Configure advanced settings](configure-advanced-settings-dlp.md)
+[Configure advanced settings]()
 
-[Monitor DLP Integration Run process](../../dlp-microsoft/concept/configure-microsoft-dlp-integration-run-process.md)
+[Monitor DLP Integration Run process]()
 
-[DLP Incident Access Restrictions](../concept/dlp-incident-access-restrictions.md)
+[DLP Incident Access Restrictions]()
 
-[DLP Incidents Archival](dlp-archiving-rule.md)
+[DLP Incidents Archival]()
 

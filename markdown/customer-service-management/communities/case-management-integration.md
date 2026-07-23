@@ -2,6 +2,7 @@
 title: Create a case from a discussion
 description: In order to engage your internal experts to reply to discussion threads, you can create cases directly from community questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/case-management-integration.html
 release: australia
 product: Communities
 classification: communities
@@ -26,51 +27,51 @@ Two sets of users can create cases from questions:
 -   Customer service agents, consumer service agents, and customer service managers.
 -   Users with the sn\_customerservice.proxy\_case\_creator role. Community administrators and community moderators inherit this role.
 
--   **[Administer create case from discussion](case-mgmt-integration-administer.md)**  
+-   **[Administer create case from discussion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/case-mgmt-integration-administer.md)**  
 Configure parameters for the case generated from the community discussion so that it can be routed accordingly.
 
-**Parent Topic:**[Configuring communities](../reference/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-communities.md)
 
 **Related topics**  
 
 
-[Community content types](c_communities-content-types.md)
+[Community content types]()
 
-[Community feedback types](feedback-types.md)
+[Community feedback types]()
 
-[Community access types](access-types.md)
+[Community access types]()
 
-[Platform Analytics Solutions for Communities](../../../use/dashboards/application-content-packs/communities-content-pack.md)
+[Platform Analytics Solutions for Communities]()
 
-[Migrate Social Q&amp;A data to Communities](../task/migrate-socialqa.md)
+[Migrate Social Q&amp;A data to Communities]()
 
-[View community logs](../task/view-community-logs.md)
+[View community logs]()
 
-[View community feedback and bookmarks tables](../task/view-feedback-bookmark-tables.md)
+[View community feedback and bookmarks tables]()
 
-[Enable knowledge harvesting](communities-km-integration-configure.md)
+[Enable knowledge harvesting]()
 
-[Activate Communities plugins](../task/activate-communities.md)
+[Activate Communities plugins]()
 
-[Community setup guide for admins](../reference/r_setup-communities-admin.md)
+[Community setup guide for admins]()
 
-[Configure community content types](../task/enable-content-types-for-community.md)
+[Configure community content types]()
 
-[Configure video sources for a community](../../customer-service-management/task/create-video-configuration.md)
+[Configure video sources for a community]()
 
-[Configure community forums](../task/configure-forums-topics.md)
+[Configure community forums]()
 
-[Forum and user permissions management](communities-permissions.md)
+[Forum and user permissions management]()
 
-[Configure the community profile](../task/configure-community-profile.md)
+[Configure the community profile]()
 
-[Create community Terms and Conditions](../task/create-terms-conditions.md)
+[Create community Terms and Conditions]()
 
-[Enable users to self-register to a community](configure-registration.md)
+[Enable users to self-register to a community]()
 
-[Moderate a community](../task/moderate-communities.md)
+[Moderate a community]()
 
-[Administer gamification](communities-gamification-administer.md)
+[Administer gamification]()
 
-[Community Service Portal](community-service-portal.md)
+[Community Service Portal]()
 

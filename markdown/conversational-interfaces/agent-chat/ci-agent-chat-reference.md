@@ -2,6 +2,7 @@
 title: Agent Chat reference
 description: Reference topics provide descriptions about Agent Chat.Domain separation is supported in the Agent Chat application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.Create a report that tracks the number of help requests.The Interaction related record \[interaction\_related\_record\] table tracks tasks and Knowledge Base \(KB\) articles that are created, updated, or viewed in the context of a particular interaction. The Interaction related record table references the interaction, related document, whether the relationship is to a task or KB article, and what type of operation on the related document formed the basis for the relationship.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ci-agent-chat-reference.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -40,7 +41,7 @@ Domain separation allows organizations to segment their data and processes based
 
 A service provider \(SP\) has one chat setting \(Agent Chat\) record in the global domain when the instance is provisioned.
 
-The admin of a subdomain can specify Agent Chat settings for that subdomain, such as work queues and assignment groups. For details, see [Setting up Agent Chat](../task/ac-configure-agent-chat.md).
+The admin of a subdomain can specify Agent Chat settings for that subdomain, such as work queues and assignment groups. For details, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
 
 When a user logs into a subdomain, a seeded Agent Chat settings record is created.
 
@@ -127,7 +128,7 @@ You can update or create entries in the Interaction relationship policy \[intera
 -   Open - record opened in workspace in the context of the interaction.
 -   Unknown - interaction related record created by automated logic other than via agent actions from workspace.
 
-Two policies that are included with the base system govern behavior for relationships to the task and kb\_knowledge table. To override behavior for a particular task type, you can add an additional entry for the appropriate Document table.![Interaction relationship policies screenshot](../image/interaction_relationship_policies.png)
+Two policies that are included with the base system govern behavior for relationships to the task and kb\_knowledge table. To override behavior for a particular task type, you can add an additional entry for the appropriate Document table.\[Omitted image "interaction\_relationship\_policies.png"\] Alt text: Interaction relationship policies screenshot
 
 The com.glide.interaction.autocreate\_relationships property is set to true by default. If it is set to false, only relationships created via the interaction\_related\_record form are created. All others are blocked by the "Block relationship autocreation" business rule.
 

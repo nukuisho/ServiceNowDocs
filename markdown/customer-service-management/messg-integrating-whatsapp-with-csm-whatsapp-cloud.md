@@ -2,6 +2,7 @@
 title: Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API
 description: Use WhatsApp messaging with Customer Service Management to enable direct communication with customers through WhatsApp using the WhatsApp Cloud API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/messg-integrating-whatsapp-with-csm-whatsapp-cloud.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -142,9 +143,9 @@ The users with the roles listed in the following table can use the Conversationa
 **Related topics**  
 
 
-[System properties for configuring WhatsApp \(WhatsApp Cloud API\)](direct-cloud-api-system-property-configuration.md)
+[System properties for configuring WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/direct-cloud-api-system-property-configuration.md)
 
-[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-direct-whatsapp-configure.md)
+[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-direct-whatsapp-configure.md)
 
-[Using Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-direct-whatsapp-using.md)
+[Using Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/messg-direct-whatsapp-using.md)
 

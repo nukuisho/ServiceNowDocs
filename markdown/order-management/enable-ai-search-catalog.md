@@ -2,6 +2,7 @@
 title: Enable AI Search in product catalog
 description: Use the enable\_ai\_search\_in\_catalog property to enable AI Search in the product catalog interface for Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/enable-ai-search-catalog.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Use the **enable\_ai\_search\_in\_catalog** property to enable AI Search in the 
 
 ## Before you begin
 
-Role required: Role required: sn\_prd\_pm\_product\_catalog\_admin
+Role required: Role required: admin
 
 ## About this task
 
@@ -35,4 +36,11 @@ The **enable\_ai\_search\_in\_catalog** system property checks that the Product 
 
     If you enable this property, AI Search features are available in the product catalog interface.
 
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

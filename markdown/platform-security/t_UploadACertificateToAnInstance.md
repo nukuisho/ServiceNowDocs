@@ -2,6 +2,7 @@
 title: Uploading a certificate to an instance
 description: Add a certificate to the instance from the Certificates module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_UploadACertificateToAnInstance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -14,8 +15,6 @@ breadcrumb: [Certificates, Encryption]
 Add a certificate to the instance from the Certificates module.
 
 ## Upload a certificate to an instance
-
-Upload a certificate to an instance.
 
 ## Before you begin
 
@@ -56,15 +55,15 @@ When a certificate is updated on the ADFS server, you must also upload an update
     If the instance encounters any errors with the certificate or keystore, it displays an error message.
 
 
--   **[Uploading a trusted server certificate](t_UploadATrustedServerCertificate.md)**  
+-   **[Uploading a trusted server certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadATrustedServerCertificate.md)**  
 By uploading the service provider's trusted server certificate, the instance ensures it is connecting to a valid and secure service.
 
-**Parent Topic:**[Certificates](../concept/c_Certificates.md)
+**Parent Topic:**[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_Certificates.md)
 
 **Related topics**  
 
 
-[Exploring Certificates](../concept/exploring-certificates.md)
+[Exploring Certificates]()
 
-[Generating an LDAP client certificate](t_GenerateAnLDAPClientCertificate.md)
+[Generating an LDAP client certificate]()
 

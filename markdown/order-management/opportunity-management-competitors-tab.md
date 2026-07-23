@@ -2,6 +2,7 @@
 title: Add competitors to an opportunity
 description: Capture competitor details for your opportunity so that you can have winning sales conversations with your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/opportunity-management-competitors-tab.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sales\_manager
 
 ## Procedure
 
-1.  Navigate to **List** view ![](../../../reuse/icons/product-icons/list-outline-24.svg) and select **Opportunity - All**.
+1.  Navigate to **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with and select the **Competitors** tab.
 
@@ -123,5 +124,12 @@ Internal-only notes for product, sales, or design follow-up.
     The competitor information is added to the main opportunity.
 
 
-**Parent Topic:**[Using Opportunity Management](opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+**Related topics**  
+
+
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

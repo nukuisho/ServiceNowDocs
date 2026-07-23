@@ -2,6 +2,7 @@
 title: Create an epic backlog
 description: Categorize epics into epic backlogs by defining a set of filters according to your preferences. While planning your scrum program, you can use these epic backlogs to plan for only those stories that belong to the epics in this backlog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-epic-backlog.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -52,7 +53,7 @@ From Agile Board
 </td><td>
 
 Navigate to **Agile Development** &gt; **Agile Board** &gt; **Program** &gt; **Backlog** and do one of the following:-   If you are creating an epic backlog for the first time, click **Create Backlog**.
--   If this backlog that you want to create is an addition to existing epic backlogs, click the create icon \(![Create icon](../images/createnew.png)\).
+-   If this backlog that you want to create is an addition to existing epic backlogs, click the create icon \(\[Omitted image "createnew.png"\] Alt text: Create icon\).
 
 
 </td></tr></tbody>
@@ -67,10 +68,10 @@ Navigate to **Agile Development** &gt; **Agile Board** &gt; **Program** &gt; **B
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Scrum Programs for Agile Development 2.0](../concept/scrum-programs-concept.md)
+**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/scrum-programs-concept.md)
 
 **Related topics**  
 
 
-[Manage your epic backlogs](manage-epics-agile-board.md)
+[Manage your epic backlogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/manage-epics-agile-board.md)
 

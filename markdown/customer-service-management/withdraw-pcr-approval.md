@@ -2,6 +2,7 @@
 title: Withdraw post case review approval
 description: Withdraw a post case review document after sending it for approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/withdraw-pcr-approval.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

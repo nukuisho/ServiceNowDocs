@@ -2,6 +2,7 @@
 title: Tokens in Proactive Prompts
 description: Token placeholders indicate the data that will be replaced during runtime.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-tokens.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -44,18 +45,18 @@ When creating a signal, the message displayed to the user is written in the Sing
 |Script|Employee|receiving\_user, score, item\*|receiving\_user, item\_count\*|
 |Performance Analytics Indicator|Employee|receiving\_user, score, item\*|receiving\_user, item\_count\*|
 
-**Parent Topic:**[Reference for Proactive Prompts](proactive-prompts-reference.md)
+**Parent Topic:**[Reference for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Proactive Prompts](proactive-prompts-components.md)
+[Components installed with Proactive Prompts]()
 
-[Types of data sources in Proactive Prompts](proactive-prompts-data-source.md)
+[Types of data sources in Proactive Prompts]()
 
-[Actions and action groups in Proactive Prompts](proactive-prompts-actions.md)
+[Actions and action groups in Proactive Prompts]()
 
-[Signal data source form](proactive-prompts-signal-datasource-form.md)
+[Signal data source form]()
 
-[Signal configuration form](proactive-prompts-create-signal-form.md)
+[Signal configuration form]()
 

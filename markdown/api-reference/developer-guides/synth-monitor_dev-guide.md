@@ -1,13 +1,14 @@
 ---
 title: Synthetic Monitoring Developer Guide
-description: Use Synthetic Monitoring APIs create multiple synthetic monitors in a single operation.Create multiple synthetic monitors simultaneously by importing raw JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use curl commands in Terminal to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use Postman to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the SyntheticsAsyncBulkCreate API.Convert your CSV file to JSON format to create synthetic monitors.
+description: Use Synthetic Monitoring APIs create multiple synthetic monitors in a single operation.Create multiple synthetic monitors simultaneously by importing raw JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use curl commands in Terminal to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use Postman to create multiple synthetic monitors simultaneously by importing JSON files through the SyntheticsAsyncBulkCreate API.Convert your CSV file to JSON format to create synthetic monitors.The JSON file should contain an array of monitor objects, either directly or wrapped in a checks or monitors property.CSV files must include a header row followed by data rows.This is an example of using a CSV file wrapped in a JSON object to create bulk monitors using terminal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/synth-monitor\_dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
 topic_type: concept
 last_updated: "2026-04-29"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Developer guides, API implementation and reference]
 ---
 
@@ -15,12 +16,9 @@ breadcrumb: [Developer guides, API implementation and reference]
 
 Use Synthetic Monitoring APIs create multiple synthetic monitors in a single operation.
 
-This developer guide provides information on how to use [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-landing-page.md) APIs to bulk create monitors from Postman or Terminal.
+This developer guide provides information on how to use the [SyntheticsAsyncBulkCreate API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/synth-async-api.md) to bulk create monitors from Postman or Terminal.
 
-For full reference documentation for Synthetic Monitoring APIs, see:
-
--   [SyntheticsAsyncBulkCreate API](../../../inbound-rest/concept/synth-async-api.md#)
--   [SyntheticsBulkCreate API](../../../inbound-rest/concept/synthetics-bulk-create-api.md#)
+For more information about monitors, see [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-landing-page.md).
 
 ## Import and create synthetic monitors in bulk using API
 
@@ -311,7 +309,7 @@ After successful creation, verify your monitors in the ServiceNow UI by navigati
 
 ### Create monitors in bulk using Postman
 
-Use Postman to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the SyntheticsAsyncBulkCreate API.
+Use Postman to create multiple synthetic monitors simultaneously by importing JSON files through the SyntheticsAsyncBulkCreate API.
 
 #### Before you begin
 
@@ -320,7 +318,7 @@ Role required: sn\_sow\_synthetics.synthetics\_admin or sn\_sow\_synthetics.synt
 -   Valid ServiceNow instance credentials
 -   Access to Http endpoint
 -   Base URL: `https://<your-instance>.service-now.com/api/sn_sow_synthetics/v1/synthetics_async_bulk_create`
--   Prepared raw JSON or CSV file with monitor data containing required fields:
+-   Prepared raw JSON file with monitor data containing required fields:
     -   Monitor name
     -   HTTP endpoint sys\_id
     -   Parent service sys\_id
@@ -334,7 +332,7 @@ Role required: sn\_sow\_synthetics.synthetics\_admin or sn\_sow\_synthetics.synt
 
 The SyntheticsAsyncBulkCreate API uses a two-step process when accessed through Postman. First, create a POST request to upload your monitor data file and generate a job ID. Then, use the status check URL to verify monitor creation. Postman provides a user-friendly interface for testing the API and viewing formatted responses.
 
-The same Postman configuration works for both JSON and CSV files, with only the file format selection differing.
+Only use Postman to import JSON files for this API. To import CSV files, [use Terminal instead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/synth-monitor_dev-guide.md).
 
 #### Procedure
 
@@ -364,9 +362,7 @@ The same Postman configuration works for both JSON and CSV files, with only the 
 
     2.  Select **binary** as the body type.
 
-    3.  Select the **Select File** button, and browse to your monitor data file location and select your JSON or CSV file.
-
-        If you are uploading a CSV file, ensure it is properly formatted with all required columns. [Convert CSV file to JSON format](synth-monitor_dev-guide.md#)
+    3.  Select the **Select File** button, and browse to your monitor data file location and select your JSON file.
 
 6.  Add the filename as a query parameter in the URL, and select **Send** to submit the request.
 
@@ -466,7 +462,7 @@ The same Postman configuration works for both JSON and CSV files, with only the 
 
     2.  Note the monitor name, error code, and reason for each failure.
 
-    3.  Update your source JSON or CSV file to correct the identified issues.
+    3.  Update your source JSON file to correct the identified issues.
 
         Common errors include:
 
@@ -573,4 +569,85 @@ Once the content is available in JSON format, access the **Body** tab in Postman
 **Note:** Ensure that the format selected is JSON.
 
 The response status provides the job Id and the status of monitors created. If there are any errors found, fix the file and run the same commands to complete the monitor creation.
+
+### JSON file format
+
+The JSON file should contain an array of monitor objects, either directly or wrapped in a `checks` or `monitors` property.
+
+#### Direct array
+
+```json
+[
+  {
+    "name": "API Health Check",
+    "method": "GET",
+    "cmdb_ci": "sys_id_of_http_endpoint",
+    "interval": 5,
+    "locations": ["location_sys_id_1"],
+    "enabled": true,
+    "parent_service_sys_id": "service_sys_id",
+    "support_group_sys_id": "group_sys_id"
+  }
+]
+```
+
+#### Wrapped in object
+
+```json
+{
+  "checks": [
+    {
+      "name": "API Health Check",
+      "method": "GET",
+      "cmdb_ci": "sys_id_of_http_endpoint",
+      ...
+    }
+  ]
+}
+```
+
+### CSV file format
+
+CSV files must include a header row followed by data rows.
+
+#### CSV header
+
+```csv
+name,method,description,interval,cmdb_ci,enabled,should_create_alert,alert_severity,locations,headers,alert_tags,valid_http_code_type,valid_http_code,max_latency_ms,query_string,credential,body,body_condition,parent_service_sys_id,support_group_sys_id
+```
+
+#### CSV example
+
+```csv
+name,method,description,interval,cmdb_ci,enabled,should_create_alert,alert_severity,locations,headers,alert_tags,valid_http_code_type,valid_http_code,max_latency_ms,query_string,credential,body,body_condition,parent_service_sys_id,support_group_sys_id
+"My Monitor","GET","Health check",1,"0bd58579ff1232109a07ffffffffff72",true,true,1,"10eb9e1cffa2f2109a07ffffffffff27","[]","{}","equals","200","5000","","","","","81d847959f030200fe2ab0aec32e7031","2156c3a80b982300cac6c08393673a7e"
+```
+
+#### CSV special formatting
+
+-   **locations**: Pipe-separated sys\_ids \(example, `loc1_sys_id|loc2_sys_id`\)
+-   **headers**: JSON array string \(example, `[{"name":"Authorization","value":"Bearer xxx"}]`\)
+-   **alert\_tags**: JSON object string \(example, `{"env":"prod","team":"api"}`\)
+-   **body\_condition**: Colon-separated type:expression \(example, `jsonpath:$.status`\)
+-   **Boolean values**: `true`, `false`, `1`, `0`, `yes`, `no`
+
+### Example of bulk monitors using CSV file
+
+This is an example of using a CSV file wrapped in a JSON object to create bulk monitors using terminal.
+
+#### Step 1: Submit bulk job in CSV format
+
+`curl -X POST "https://<instance>.service-now.com/api/sn_sow_synthetics/v1/synthetics_async_bulk_create" \ -u "admin:password" \ -H "Content-Type: application/json" \ -H "Accept: application/json" \ -d @monitors.json`
+
+#### Response
+
+`{ "result": { "job_id": "a1b2c3d4e5f6...", "status": "pending", "total_count": 2, "message": "Bulk job accepted for processing" } }`
+
+#### Step 2: Check the job status
+
+`curl -X GET "https://<instance>.service-now.com/api/sn_sow_synthetics/v1/synthetics_async_bulk_create/{job_id}" \ -u "admin:password" \ -H "Accept: application/json"`
+
+#### Response
+
+`{ "result": { "job_id": "a1b2c3d4e5f6...", "status": "completed", "total_count": 2, "success_count": 2, "error_count": 0, "processed_count": 2 } }`
 

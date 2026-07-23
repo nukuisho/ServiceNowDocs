@@ -2,6 +2,7 @@
 title: Define the new Risk Score Calculator Rules
 description: Use the new Risk Score Calculator to define and calculate the risk score of security incidents based on the user-defined criteria, which provide a transparent intelligence scoring of security incidents. The risk score is auto-calculated for the security incident records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/define-risk-score-calculator-rules-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -28,7 +29,7 @@ Define a risk score for the security incident records that are generated based o
 **Note:**
 
 -   By default, the new Risk Score Calculator Rule is inactive, and you need to enable the rule to see the risk score of the security incidents.
--   To calculate the risk score for additional related tables other than those available in the base system, refer to [Risk Score Calculator for Additional Related Tables](risk-score-calculator-related-tables.md).
+-   To calculate the risk score for additional related tables other than those available in the base system, refer to [Risk Score Calculator for Additional Related Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/risk-score-calculator-related-tables.md).
 
 ## Procedure
 
@@ -134,7 +135,7 @@ Use this option to add, edit, or remove, and enable and disable criteria that co
 
     10. Select **Add** to add the configured criteria.
 
-        ![Scoring Criteria using Criteria Builder](../image/risk-score-calc-criteria-sir.png "Scoring Criteria using Criteria Builder")
+        \[Omitted image "risk-score-calc-criteria-sir.png"\] Alt text: Scoring Criteria using Criteria Builder
 
 6.  Select the **Recalculate Score** option to recalculate the risk score.
 
@@ -150,7 +151,7 @@ Use this option to add, edit, or remove, and enable and disable criteria that co
 
         The advanced script field is auto-populated with a function, which takes the parameters **current** and this function should return the risk score, which is an integer value ranging from 0 to 100.
 
-        ![Script Advanced option sample code](../image/risk-score-calc-sir.png "Scoring Criteria using Script (Advanced) option")
+        \[Omitted image "risk-score-calc-sir.png"\] Alt text: Script Advanced option sample code
 
         Here, the current parameter is the GlideRecord object of the entity \(security incident\) for which the risk score is being calculated. For the security incidents, it corresponds to the GlideRecord for the sn\_si\_incident table.
 
@@ -159,31 +160,33 @@ Use this option to add, edit, or remove, and enable and disable criteria that co
 10. Select **Save**.
 
 
--   **[Risk Score Calculator for Additional Related Tables](risk-score-calculator-related-tables.md)**  
+-   **[Risk Score Calculator for Additional Related Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/risk-score-calculator-related-tables.md)**  
 The Risk Score Calculator is provisioned with one risk-scoring rule as part of the base system to calculate the risk score of security incidents based on user-defined criteria. However, you can customize and include additional related tables to calculate the risk score.
 
-**Parent Topic:**[Configuring SIR Workspace](../reference/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 
 
-[Set up view of SIR Records](../concept/set-up-view-of-sir-records.md)
+[Set up view of SIR Records]()
 
-[Configure SI design time investigation](../concept/configure-investigation-canvas-records.md)
+[Configure SI design time investigation]()
 
-[SIR Workspace Related Records](../concept/sir-records.md#)
+[SIR Workspace Related Records]()
 
-[Configure Shift Handover](../concept/config-shift-handover.md)
+[Configure Shift Handover]()
 
-[Security Incident Response conference call integration](../concept/sir-conf-call-capability.md)
+[Security Incident Response conference call integration]()
 
-[Configure report templates in Security Incident Response](../concept/daily-status-sir.md)
+[Configure report templates in Security Incident Response]()
 
-[On-Call scheduling in Security Incident Response](../concept/on-call-schedule-sir.md)
+[On-Call scheduling in Security Incident Response]()
 
-[Category management in Security Incident Response](../concept/category-management-sir.md)
+[Category management in Security Incident Response]()
 
-[View and update Security Incident Response system properties](../concept/view-update-sirw-system-properties.md)
+[View and update Security Incident Response system properties]()
 
-[Create quick filters for Security Incidents and Response Tasks lists](create-quick-filters-for-security-incidents.md)
+[Create quick filters for Security Incidents and Response Tasks lists]()
+
+[Timeline in Security Incident Response Workspace]()
 

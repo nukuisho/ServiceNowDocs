@@ -2,6 +2,7 @@
 title: Opt-in for benchmark scores
 description: Get benchmark scores by registering your instance to the ServiceNow central instance. The latter maintains information of multiple industries to provide the benchmark score.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/vr-retrieve-benchmark-results.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information on Benchmarking, see [Benchmarks overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchOverview.md).
+For more information on Benchmarking, see .
 
 ## Procedure
 

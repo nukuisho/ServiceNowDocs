@@ -2,6 +2,7 @@
 title: Boolean operators allow conditional search results
 description: Construct complex searches using Boolean AND, OR, and NOT operators in global text searches.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/c\_BooleanOperators.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -39,7 +40,7 @@ OR or vertical bar symbol \(\|\)
 
 Finds a match if any of the search terms exist in a document \(a union of sets\). For example, to find documents that contain either `email password` or just `email`, you can search for `"email password" OR email` or `"email password"|email`. Using the `.or.` operator, which the system uses when you create OR condition groups for fields other than Keywords with the condition builder, can produce different results. For example, this filter searches for records with short descriptions containing `SSO` and then searches separately for records with short descriptions containing `SAML`:
 
-![Searching with the filter choice lists.](../image/search_with_lists.png "Searching with the filter choice lists")
+\[Omitted image "search\_with\_lists.png"\] Alt text: Searching with the filter choice lists.
 
 **Note:** By design, you can only have one Keywords filter condition per condition set. If you select the Keywords field in a filter choice list, the OR button for that filter condition becomes unavailable. Similarly, if you construct an OR filter condition, the Keywords field becomes unavailable in the filter choice lists.
 
@@ -66,20 +67,20 @@ Excludes documents that contain the search term after the NOT operator \(a diffe
  You can't use the NOT operator to exclude all terms in your search. For example, the following search returns no results: `NOT "10 minutes"`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available search options](c_IntroductionToSearching.md)
+</table>**Parent Topic:**[Available search options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_IntroductionToSearching.md)
 
 **Related topics**  
 
 
-[List search finds records from the current table](c_TextSearchesInRecordLists.md)
+[List search finds records from the current table]()
 
-[Quotation marks allow exact phrase searches](c_PhraseSearches.md)
+[Quotation marks allow exact phrase searches]()
 
-[Wildcard characters allow searching for patterns and variations](c_Wildcards.md)
+[Wildcard characters allow searching for patterns and variations]()
 
-[Enable or disable the Zing junk filter](../task/t_DisableTheJunkFilter.md)
+[Enable or disable the Zing junk filter]()
 
-[Debug Zing](../task/t_DebugZing.md)
+[Debug Zing]()
 
-[Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md)
+[Knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_KnowledgeProperties.md)
 

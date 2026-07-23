@@ -2,13 +2,14 @@
 title: Create custom SAP price lists
 description: Create custom SAP price lists so that you can track and manage SAP licenses based on the contracts that are specific to your SAP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-sap-pricelist.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create custom SAP price lists
@@ -21,7 +22,7 @@ Role required: sam\_admin
 
 **Note:** The custom SAP named user types that you create directly on your ServiceNow instance aren’t reflected in your SAP system. You must make the same changes in your SAP system.
 
-**Important:** You can create custom SAP price lists in both the Software Asset Management classic application and the Software Asset Workspace. Use the following steps to create custom SAP price lists in the Software Asset Management classic application. For details on how to create custom SAP price lists in the Software Asset Workspace, see [Create custom SAP price lists in workspace](sap-prcielists-workspace.md).
+**Important:** You can create custom SAP price lists in both the Software Asset Management classic application and the Software Asset Workspace. Use the following steps to create custom SAP price lists in the Software Asset Management classic application. For details on how to create custom SAP price lists in the Software Asset Workspace, see [Create custom SAP price lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-prcielists-workspace.md).
 
 ## Procedure
 
@@ -72,38 +73,38 @@ Role required: sam\_admin
     5.  Repeat steps a to c for each custom named user type that you want to add.
 
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](../concept/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
 
-[Tables installed with the SAP publisher pack](../concept/component-installed-sap-plugin.md)
+[Tables installed with the SAP publisher pack]()
 
-[Deploy the ABAP program for SAP](import-abap-program-sap.md)
+[Set up SAP integration to establish a connection with SAP]()
 
-[Establish an SAP connection using basic authentication](add-sap-connection.md)
+[Establish an SAP connection using basic authentication]()
 
-[Establish an SAP connection using OAuth 2.0](add-sap-connection-oauth.md)
+[Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP](create-entitlement-sap.md)
+[Create entitlements for SAP]()
 
-[Create software models for SAP](add-software-model-sap.md)
+[Create software models for SAP]()
 
-[Create a custom SAP named user type](create-named-user.md)
+[Create a custom SAP named user type]()
 
-[Map a role to a named user type](create-named-user-type-role-mapping.md)
+[Map a role to a named user type]()
 
-[Import custom SAP named user types](import-custom-sap-named-user-type.md)
+[Import custom SAP named user types]()
 
-[Import custom SAP price lists](import-custom-sap-price-list.md)
+[Import custom SAP price lists]()
 
-[SAP USMM-based optimization](../concept/usmm-optimization.md)
+[SAP USMM-based optimization]()
 
-[User transaction activity for named user types](../concept/sap-named-user-transaction-activity.md)
+[User transaction activity for named user types]()
 
-[Self-declaring SAP engine license usage](../concept/self-declaring-sap-engine-usage.md)
+[Self-declaring SAP engine license usage]()
 
-[Software Publisher Analytics dashboard for SAP in Software Asset Management classic](../reference/dashboard-sap.md)
+[Software Publisher Analytics dashboard for SAP in Software Asset Management classic]()
 
-[Publisher overview for SAP in the Software Asset Workspace](../reference/publisher-overview-sap.md)
+[Publisher overview for SAP in the Software Asset Workspace]()
 

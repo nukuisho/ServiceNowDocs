@@ -2,6 +2,7 @@
 title: Create a test set in Test Management 2.0
 description: Group related tests into a test set. Test sets help you find tests by category or tag.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/create-test-set.html
 release: australia
 product: Test Management
 classification: test-management
@@ -41,18 +42,18 @@ To reorder the tests in the test set, open the test set record and use the drag-
 
 **Tip:**
 
-To change the order of steps within an individual test, see [Create a test in Test Management 2.0](create-test2.md).
+To change the order of steps within an individual test, see [Create a test in Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/create-test2.md).
 
-**Parent Topic:**[Testing using Test Management 2.0](../concept/release-readiness-testing.md)
+**Parent Topic:**[Testing using Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/release-readiness-testing.md)
 
 **Related topics**  
 
 
-[Create a test in Test Management 2.0](create-test2.md)
+[Create a test in Test Management 2.0]()
 
-[Test Board in Test Management 2.0](../concept/test-board.md)
+[Test Board in Test Management 2.0]()
 
-[Create a test execution suite in Test Management 2.0](create-test-execution-suite.md)
+[Create a test execution suite in Test Management 2.0]()
 
-[Run your test assignments in Test Management 2.0](run-your-test-assignments.md)
+[Run your test assignments in Test Management 2.0]()
 

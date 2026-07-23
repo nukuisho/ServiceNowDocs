@@ -2,6 +2,7 @@
 title: Search the Service Graph database using natural language
 description: Now Assist for CMDB uses the search result classifier skill to analyze your search criteria, identify and apply implicit filters, determine the optimum search method \(keyword search or query generation\), query Service Graph data, and then display the results. You then have the option to refine the search using natural language in the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-search-result-classfy.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -19,19 +20,19 @@ Now Assist for CMDB uses the search result classifier skill to analyze your sear
 
 Starting with Now Assist for CMDB v3.0, the Now Assist for CMDB ServiceNow Store app must be installed. When the app is installed, several agents and skills are auto-activated. If you deactivate a skill, some features will not appear.
 
-For more information, see [Configure Now Assist for CMDB 3.0](../../configuration-management/task/now-assist-cmdb-configure-3.0.md).
+For more information, see [Configure Now Assist for CMDB 3.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configure-3.0.md).
 
-The Service Graph database on your instance includes CIs, services, and related data such as company and location data.
+The Service Graph database on your instance includes CIs, services, and related data such as company and location data. Search Service Graph database can invoke the "Analyze the CMDB search request" skill.
 
 Role required: sn\_cmdb\_user and now\_assist\_panel\_user
 
 ## Procedure
 
-1.  On the Service Graph Workspace, select the search icon ![](../../../administer/conversational-interfaces/image/sidebar-search-icon.png) in the side panel.
+1.  On the Service Graph Workspace, select the search icon \[Omitted image "sidebar-search-icon.png"\] Alt text: in the side panel.
 
 2.  On the **Search** tab, enter the search text in the text box and then press **Enter** or select the search icon.
 
-    ![Two sections in the search results.](../image/na-cmdb-search-rsult-class-skill.png)
+    \[Omitted image "na-cmdb-search-rsult-class-skill.png"\] Alt text: Two sections in the search results.
 
     Two sections appear.
 
@@ -43,37 +44,37 @@ Role required: sn\_cmdb\_user and now\_assist\_panel\_user
 
 4.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d277958e188">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d288016e188">
 
 Option
 
-</th><th align="left" id="d277958e191">
+</th><th align="left" id="d288016e191">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d277958e197">
+</th></tr></thead><tbody><tr><td id="d288016e197">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the response was helpful, select thumbs-up ![](../../configuration-management/image/icon-thumbs-up.png). If you think that it wasn’t helpful, select thumbs-down ![](../../configuration-management/image/icon-thumbs-down.png).This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d277958e212">
+</td></tr><tr><td id="d288016e212">
 
 **Copy the summary**
 
 </td><td>
 
-Select the copy to clipboard icon ![](../../configuration-management/image/icon-clipboard.png) to use the response information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d277958e223">
+</td></tr><tr><td id="d288016e223">
 
 **Refresh the summary**
 
 </td><td>
 
-If you think that data might have changed after you viewed the response, select the redo icon ![](../../configuration-management/image/icon-redo.png) to refresh the response information.
+If you think that data might have changed after you viewed the response, select the redo icon \[Omitted image "icon-redo.png"\] to refresh the response information.
 
 </td></tr></tbody>
 </table>

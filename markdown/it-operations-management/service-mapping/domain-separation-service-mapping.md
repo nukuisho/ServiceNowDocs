@@ -2,6 +2,7 @@
 title: Domain separation and Service Mapping
 description: Domain separation is supported in Service Mapping. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/domain-separation-service-mapping.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -49,15 +50,15 @@ Automated Service Suggestions supports domain separation. This means that:
 
 Automated Service Suggestions supports domain separation starting with version 1.9.0. No support is currently offered for on-premise instances. Reach out to product management for further information.
 
-For more context, refer to [Discovery patterns used by ITOM Visibility](c_MappingPatternsCustomization.md) topic and [MID Server configuration for Service Mapping](configure-mid-service-mapping.md). The following topics provide operational information on how to use Service Mapping in deployments with domain separation:
+For more context, refer to [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md) topic and [MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/configure-mid-service-mapping.md). The following topics provide operational information on how to use Service Mapping in deployments with domain separation:
 
--   [Enable traffic-based discovery for CI types or specific CIs](../task/t_CreateATrafficBasedDiscoveryRule.md)
--   [Map application services using tags with classic Service Mapping](../task/map-service-tag.md)
--   [Create or customize patterns](../task/t_CreatePatternPatDef.md)
--   [Create entry point types for Service Mapping](../task/t_CreateEntryPoint.md)
--   [Enhance patterns without changing their identification sections](../task/modify-pattern-using-extensions.md)
+-   [Enable traffic-based discovery for CI types or specific CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateATrafficBasedDiscoveryRule.md)
+-   [Map application services using tags with classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/map-service-tag.md)
+-   [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md)
+-   [Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md)
+-   [Enhance patterns without modifying identification sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/modify-pattern-using-extensions.md)
 
-**Parent Topic:**[Service Mapping reference](../reference/service-mapping-reference.md)
+**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 
 **Related topics**  
 

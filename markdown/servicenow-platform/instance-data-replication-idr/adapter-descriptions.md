@@ -2,6 +2,7 @@
 title: Adapter descriptions for Instance Data Replication
 description: Adapters modify the producer data before inserting the data on consumer instances in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/adapter-descriptions.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -379,18 +380,18 @@ Use the time zone conversion adapter to convert one time zone to another.
 |-------------------|-----------|--------------|
 |**Output time zone**: PDT|07:00:00 am GMT|00:00:00 am PDT|
 
-**Parent Topic:**[Instance Data Replication reference](../concept/reference-instance-data-replication.md)
+**Parent Topic:**[Instance Data Replication reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/reference-instance-data-replication.md)
 
 **Related topics**  
 
 
-[Data privacy in Instance Data Replication](../concept/data-privacy-consumers-idr.md)
+[Data privacy in Instance Data Replication]()
 
-[Excluded tables in Instance Data Replication](IDR-excluded-tables.md)
+[Excluded tables in Instance Data Replication]()
 
-[Domain separation and IDR](instance-data-replication-domain-separation.md)
+[Domain separation and IDR]()
 
-[Instance Data Replication system properties](instance-data-replication-properties.md)
+[Instance Data Replication system properties]()
 
-[Instance Data Replication roles](instance-data-replication-roles.md#)
+[Instance Data Replication roles]()
 

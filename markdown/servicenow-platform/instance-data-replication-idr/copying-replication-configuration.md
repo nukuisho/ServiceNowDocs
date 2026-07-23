@@ -2,6 +2,7 @@
 title: Deploying a replication configuration from one instance to another in Instance Data Replication
 description: Copy a replication configuration from one instance to another through an update set in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/copying-replication-configuration.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -50,25 +51,25 @@ When you create a replication set, a new record is added to the Entry Sets \[idr
 
 After selecting **Track in Update Set**, you can view the entry set and its replication entries in the current update set by navigating to **All** &gt; **System Update Sets** &gt; **Local Update Sets**, selecting the update set, and then viewing the **Customer Updates** tab.
 
--   **[Deploy a replication configuration through an update set in Instance Data Replication](../task/deploy-through-update-set.md)**  
+-   **[Deploy a replication configuration through an update set in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/deploy-through-update-set.md)**  
 Export a replication configuration from one instance and import it on another instance through an update set in Instance Data Replication \(IDR\).
 
-**Parent Topic:**[Administering Instance Data Replication](administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 
 
-[Manage consumer access to replication data in Instance Data Replication](../task/approve-consumer.md)
+[Manage consumer access to replication data in Instance Data Replication]()
 
-[Comparing replicated data between instances in Instance Data Replication](comparing-replicated-data.md)
+[Comparing replicated data between instances in Instance Data Replication]()
 
-[Cloning options with Instance Data Replication](cloning-with-instance-data-replicaton.md)
+[Cloning options with Instance Data Replication]()
 
-[Monitoring replication status in Instance Data Replication](instance-data-replication-dashboard.md)
+[Monitoring replication status in Instance Data Replication]()
 
-[Monitoring queues in Instance Data Replication](idr-queue-dashboard.md)
+[Monitoring queues in Instance Data Replication]()
 
-[Avoiding insert and update errors in Instance Data Replication](preventing-insert-update-errors.md)
+[Avoiding insert and update errors in Instance Data Replication]()
 
-[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+[Resolving data replication errors in Instance Data Replication]()
 

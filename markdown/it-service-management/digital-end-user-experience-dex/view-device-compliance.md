@@ -2,12 +2,14 @@
 title: View system compliance
 description: View whether the devices are adhering to your organization's application and policy compliance rules. Use this data to identify potential security risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-device-compliance.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [system compliance, device compliance, policy compliance, security risks, compliance rules]
 breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
 ---
 
@@ -25,10 +27,10 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Insights icon \(![Insights icon](../image/icon-insights.png)\).
+2.  In the primary navigation pane, select the Insights icon \(\[Omitted image "icon-insights.png"\] Alt text: Insights icon\).
 
 3.  Select **System compliance**.
 
-    For more information about the system compliance metrics, see [DEX Insights reports](../reference/insights-reports.md).
+    For more information about the system compliance metrics, see [DEX Insights reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/insights-reports.md).
 
 

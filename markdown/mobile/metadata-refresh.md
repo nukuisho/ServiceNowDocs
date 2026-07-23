@@ -2,6 +2,7 @@
 title: Refresh mobile app meta-data
 description: See the latest updates your administrators have made to your ServiceNow mobile apps by refreshing a screen launcher page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/metadata-refresh.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,10 +32,10 @@ Avoid inconsistencies in your apps by refreshing your app when instructed by you
 
 2.  Scroll to the top of the screen launcher page.
 
-3.  Tap the screen and drag down until you see the refresh \(![Refresh icon](../image/refresh-icon.png)\) icon, then release.
+3.  Tap the screen and drag down until you see the refresh \(\[Omitted image "refresh-icon.png"\] Alt text: Refresh icon\) icon, then release.
 
 
 ## Refreshing a screen launcher
 
-![screen launcher refresh](../image/metadata-refresh.gif)
+\[Omitted image "metadata-refresh.gif"\] Alt text: screen launcher refresh
 

@@ -1,23 +1,26 @@
 ---
 title: UX: Portal Experience Review
-description: This accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
+description: This Accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-review-employee-center.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Portal Experience Review
 
-This accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
+This Accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
 
 ## Accelerator overview
 
 UX: Portal Experience Review provides Impact customers with an assessment of the user experience of their ServiceNow portal implementation. Through careful review against ServiceNow leading practices, we identify UX issues and provide actionable recommendations to improve design, enhance user satisfaction, and increase portal adoption and efficiency.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
@@ -53,6 +56,8 @@ One or more customer resources are requested.The specific number of resources pr
 
 -   Customer goals and UX pain points for portal to be reviewed
 -   Existing user research and feedback on current portal, plus relevant insights
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

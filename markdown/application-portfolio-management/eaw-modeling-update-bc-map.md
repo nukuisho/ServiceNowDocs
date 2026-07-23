@@ -2,6 +2,7 @@
 title: Update a business capability map
 description: Modify an existing business capability map by adding new capabilities, business applications, or changing the hierarchy of the existing capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-modeling-update-bc-map.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(![Enterprise Modeling and Visualization icon](../../image/eaw-image/modeling/icon-modeling-logo.png)\).
+2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Enterprise Modeling and Visualization icon\).
 
 3.  Open an existing capability map artifact from the **Diagrams** page.
 
@@ -38,28 +39,28 @@ Role required: sn\_apm.apm\_user
 
 5.  Select **Commit changes** to synchronize the diagram to the database.
 
-    This option is available only when the diagram is approved. For more information, see [Synchronize a shape to the database](eaw-modeling-sync-shape.md).
+    This option is available only when the diagram is approved. For more information, see [Synchronize a shape to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-sync-shape.md).
 
 6.  Select **Share** to share the diagram with individuals or groups.
 
-    For more information, see [Share a modeling diagram](eaw-modeling-share-diagram.md).
+    For more information, see [Share a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-share-diagram.md).
 
-7.  Select the More Actions menu \(![More actions menu.](../../image/icon-three-dot-menu-eaw.png)\) to perform the following actions:
+7.  Select the More Actions menu \(\[Omitted image "icon-three-dot-menu-eaw.png"\] Alt text: More actions menu.\) to perform the following actions:
 
-    -   **Save as new version**: Select this option to create a version for the selected diagram. The version number is automatically added in the Version number field, and it isn’t editable. For more information, see [Save as a new version](eaw-modeling-save-as-new.md).
-    -   **Duplicate**: Select this option to duplicate the diagram. For more information, see [Duplicate a modeling diagram](eaw-modeling-duplicate.md).
-    -   **Submit for approval**: Select this option to submit the diagram for approval. The approval process can be done through a configured workflow. By default, the approval request is submitted to the Enterprise Architect group. For more information, see [Submit a modeling diagram for approval](eaw-modeling-submit-for-approval.md).
+    -   **Save as new version**: Select this option to create a version for the selected diagram. The version number is automatically added in the Version number field, and it isn’t editable. For more information, see [Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-save-as-new.md).
+    -   **Duplicate**: Select this option to duplicate the diagram. For more information, see [Duplicate a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-duplicate.md).
+    -   **Submit for approval**: Select this option to submit the diagram for approval. The approval process can be done through a configured workflow. By default, the approval request is submitted to the Enterprise Architect group. For more information, see [Submit a modeling diagram for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-submit-for-approval.md).
 
-**Parent Topic:**[Working with business capability map](../../concept/eaw-concept/eaw-work-with-bc-map.md)
+**Parent Topic:**[Working with business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-bc-map.md)
 
 **Related topics**  
 
 
-[Create a diagram for a business capability map](eaw-modeling-bc-map.md)
+[Create a diagram for a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bc-map.md)
 
-[Add a business capability or business application to the capability map](eaw-modeling-bcmap-add-bc-ba.md)
+[Add capabilities or applications to a capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)
 
-[Create diagram for a business hierarchy map](eaw-modeling-ba-map.md)
+[Create diagram for a business hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-ba-map.md)
 
-[Update a business application hierarchy map](eaw-modeling-update-ba-map.md)
+[Update a business application hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-update-ba-map.md)
 

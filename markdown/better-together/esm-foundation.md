@@ -2,10 +2,11 @@
 title: Enterprise Service Management Foundation
 description: Enterprise Service Management Foundation combines the Core Business Suite and the Simplified IT Service Management to deliver unified service experiences across IT, HR, finance, legal, workplace services, and procurement. The integrated solution streamlines service delivery and reduces administrative overhead for growing organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/better-together/esm-foundation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-30"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [employee service management, ESM foundation, Core Business Suite, AI-native IT Service Management, HR service delivery, legal service delivery, workplace services, finance services, procurement services, unified service portal]
 breadcrumb: [Solutions]
 ---
@@ -18,14 +19,14 @@ Enterprise Service Management Foundation combines the Core Business Suite and th
 
 Enterprise Service Management Foundation \(ESM Foundation\) brings together the Core Business Suite and the Simplified IT Service Management to create a comprehensive service delivery platform.
 
-The integration eliminates service silos and provides employees with a unified experience for all their service requests, while enabling organizations to leverage AI-assisted automation and intelligent routing across service domains.
+The integration eliminates service silos and provides employees with a unified experience for all their service requests, while enabling organizations to use AI-assisted automation and intelligent routing across service domains.
 
 |Feature|Core Business Suite only|Simplified IT Service Management only|ESM Foundation \(both together\)|
 |-------|------------------------|-------------------------------------|--------------------------------|
-|Unified employee portal experience|![Yes](../../reuse/images/icon-check-mark-green.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
-|Cross-departmental request routing|![Yes](../../reuse/images/icon-check-mark-green.png)|![No](../../reuse/images/icon-error-red-x.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
-|Multi-channel support \(chat, email\)|![No](../../reuse/images/icon-error-red-x.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
-|Supplier Collaboration Portal|![Yes](../../reuse/images/icon-check-mark-green.png)|![No](../../reuse/images/icon-error-red-x.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
+|Unified employee portal experience|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Cross-departmental request routing|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Multi-channel support \(chat, email\)|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Supplier Collaboration Portal|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 
 ## Workflow for ESM Foundation
 
@@ -38,6 +39,21 @@ Using Core Business Suite with Simplified IT Service Management together provide
 -   Accelerate resolution times through AI-assisted knowledge management and contextual recommendations.
 -   Support multi-channel engagement including chat, email, and portal interactions.
 -   Provide Supplier Collaboration Portal capabilities alongside employee service delivery.
+
+The following figure shows how employees, service agents, administrators, and suppliers use ESM Foundation to deliver seamless, AI-enhanced service experiences. Employees access all services through a unified portal with AI search and conversation-interface support, while specialized agents handle requests using AI-assisted tools that share common workflows and intelligent automation.
+
+\[Omitted image "esm-foundation.png"\] Alt text: ESM Foundation workflow with unified portal, AI routing, and supplier collaboration.
+
+In this workflow:
+
+1.  Employee submits a service request through the unified Employee Center portal with AI-powered search and chat assistance.
+2.  The AI-native system triggers triage and routes the request to the appropriate service team based on intelligent categorization.
+3.  The service agent receives the request in an AI-enhanced workspace with contextual recommendations and resolution suggestions.
+4.  AI agents provide automated triage, draft responses, and suggest next steps to accelerate resolution.
+5.  The agent collaborates with other departments using shared case management and AI-assisted knowledge discovery.
+6.  The employee receives real-time updates through preferred channels and can interact via chat, portal, or email.
+7.  Suppliers access the dedicated collaboration portal for invoice requests and general inquiries.
+8.  The system captures metrics and feedback across all service domains for continuous improvement.
 
 ## Core Business Suite service areas
 
@@ -246,7 +262,7 @@ ESM Foundation plugin is available in the ServiceNow® Store. The following capa
 4.  Now Assist for ITSM - delivers AI-powered skills and agentic workflows for service automation
 5.  Virtual Agent - enables conversational AI support and guided interactions
 6.  Service Portal - supports self-service capabilities across all service domains
-7.  Now Assist for Setup - facilitates guided setup and configuration management
+7.  Setup Hub - facilitates guided setup and configuration management
 8.  Now Assist for Core Business Suite - provides conversational configuration experience
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
@@ -255,7 +271,7 @@ ESM Foundation plugin is available in the ServiceNow® Store. The following capa
 
 Get started with ESM Foundation by completing the following implementation and configuration tasks:
 
-1.  Install Now Assist for Setup to enable modular admin home dashboard access
+1.  Install Setup Hub to enable modular admin home dashboard access
 2.  Install and configure Core Business Suite with default configurations for all required business units
 3.  Install Simplified IT Service Management with guided setup and default presets
 4.  Configure Employee Center portal to provide unified access to all service domains
@@ -268,5 +284,5 @@ Get started with ESM Foundation by completing the following implementation and c
 11. Configure comprehensive analytics dashboards for service performance monitoring across all domains
 12. Train service agents on AI-assisted tools and integrated case management workflows.
 
-**Parent Topic:**[Solutions](../reference/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
 

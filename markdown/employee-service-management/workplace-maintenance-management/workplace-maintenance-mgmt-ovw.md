@@ -2,6 +2,7 @@
 title: Workplace Maintenance Management
 description: Workplace Maintenance Management provides preventive maintenance plans for enterprise assets and workplace locations. Maintenance managers can perform maintenance planning for workplace services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-ovw.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
@@ -19,19 +20,19 @@ Workplace Maintenance Management provides preventive maintenance plans for enter
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Maintenance Management concepts and features](explore-wmm.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Workplace Maintenance Management concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/explore-wmm.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Install and Configure Workplace Maintenance Management](configure-maintenance-mgmt.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install and Configure Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/configure-maintenance-mgmt.md)
 
 </td></tr><tr><td>
 
-[Manage ![](../../../reuse/icons/brand-icons/bus-headset.svg) Manage Workplace Maintenance Management location records](manage-maintenance-plans.md)
+[Manage \[Omitted image "bus-headset.svg"\] Alt text: Manage Workplace Maintenance Management location records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
 </td><td>
 
-[References ![](../../../reuse/icons/brand-icons/bus-learn.svg) Learn about Workplace Maintenance Management roles, properties, and components](workplace-maintenance-mgmt-references.md) 
+[References \[Omitted image "bus-learn.svg"\] Alt text: Learn about Workplace Maintenance Management roles, properties, and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md) 
 
 </td></tr></tbody>
 </table>## Additional resources

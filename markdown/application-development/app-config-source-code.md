@@ -2,10 +2,11 @@
 title: Custom application configuration in source code
 description: Configure a custom application \[sys\_app\] in the now.config.json file for an application in source code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-config-source-code.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-20"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
 
@@ -71,7 +72,19 @@ The items in another application scope on which your application depends. You mu
 }
 ```
 
-For more information, see [Download ServiceNow Fluent application dependencies](../concept/downloading-dependencies-now-sdk.md#).
+For more information, see [Download ServiceNow Fluent application dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/downloading-dependencies-now-sdk.md).
+
+</td></tr><tr><td>
+
+excludeFilePatterns
+
+</td><td>
+
+Array
+
+</td><td>
+
+A list of file patterns to exclude when transforming metadata XML to ServiceNow Fluent code or downloading dependencies. Files that match are discarded and not written to the metadata directory.
 
 </td></tr><tr><td>
 
@@ -111,6 +124,28 @@ A list of tables to ignore when transforming application metadata into source co
 
 </td></tr><tr><td>
 
+linter
+
+</td><td>
+
+Object
+
+</td><td>
+
+A configuration for ServiceNow Fluent and JavaScript module linting behavior.The module.enabled property controls whether to run linting on modules for compatibility with the JavaScript engine on the platform. If false, linting is turned off for local modules \(in `src/server`\) and third-party npm packages \(in `node_modules`\).
+
+Default:
+
+```json
+"linter": {
+  "module": {
+    "enabled": true
+  }
+}
+```
+
+</td></tr><tr><td>
+
 metadataDir
 
 </td><td>
@@ -131,7 +166,7 @@ Object
 
 </td><td>
 
-A map of the module source files to their equivalent output files for if you use a custom transpilation step before building the application. For more information, see [Using TypeScript in JavaScript modules with the ServiceNow SDK](../concept/using-typescript.md#).**Warning:** You can't use this parameter and the `tsconfigPath` parameter. Configuring both results in an error.
+A map of the module source files to their equivalent output files for if you use a custom transpilation step before building the application. For more information, see [Using TypeScript in JavaScript modules with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/using-typescript.md).**Warning:** You can't use this parameter and the `tsconfigPath` parameter. Configuring both results in an error.
 
 </td></tr><tr><td>
 
@@ -371,5 +406,5 @@ Default: `.`
 **Related topics**  
 
 
-[Application access settings](../../applications/concept/c_ApplicationAccessSettings.md)
+[Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md)
 

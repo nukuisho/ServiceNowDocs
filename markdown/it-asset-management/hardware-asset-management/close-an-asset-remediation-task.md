@@ -2,6 +2,7 @@
 title: Close an asset remediation task
 description: View the open asset remediation from the Inventory view and close the task after updating the Model category and Model fields value for the asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/close-an-asset-remediation-task.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Open asset remediation tasks, close an asset remediation task, asset remediation tasks]
-breadcrumb: [Audit hardware asset inventory, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit hardware asset inventory, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Close an asset remediation task
@@ -70,10 +71,10 @@ For this new asset record, the application can’t automatically determine the *
     The closed asset remediation task isn’t listed on the Open asset remediation tasks list.
 
 
-**Parent Topic:**[Audit hardware asset inventory](../concept/ham-inventory-audit.md)
+**Parent Topic:**[Audit hardware asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-inventory-audit.md)
 
 **Related topics**  
 
 
-[Complete multi scan inventory audit using the ServiceNow Agent app](complete-multi-scan-inventory-audit-using-mobile-app.md)
+[Complete multi scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/complete-multi-scan-inventory-audit-using-mobile-app.md)
 

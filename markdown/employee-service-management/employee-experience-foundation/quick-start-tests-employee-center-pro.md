@@ -2,6 +2,7 @@
 title: Quick start tests for Employee Center Pro
 description: Validate the continued functionality of Employee Center Pro after any configuration change such as an upgrade or after developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center-pro.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Quick start tests are disabled and read-only test templates. By default, they on
 
 To make quick start tests produce a pass result when you run them with your instance-specific data, copy and configure them to use your instance data.
 
-Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See [Performance profiling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-perf-prof.md).
+Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See [Performance profiling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-perf-prof.md).
 
 The Agile Development 2.0 \(com.snc.sdlc.agile.2.0\) and the Agile Development 2.0 - ATF Tests \(com.snc.sdlc.agile.2.0.atf\) plugins must be enabled.
 
@@ -294,5 +295,5 @@ San Diego
 **Related topics**  
 
 
-[Quick start tests for Employee Center](quick-start-tests-employee-center.md)
+[Quick start tests for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/quick-start-tests-employee-center.md)
 

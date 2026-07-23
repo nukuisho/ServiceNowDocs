@@ -2,6 +2,7 @@
 title: Migration upgrade prerequisites
 description: Before you install the required applications for Security Exposure Management Workspace, review the following information and setup tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-install-prerequisites.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,11 +27,10 @@ Security Exposure Management supports the following applications:
 
 ## Prerequisites and notes for upgrade
 
--   You cannot use Operational Technology Vulnerability Response \(OT VR\) in the same instance with Unified Security Exposure Management.
--   You are aware of the significant data model changes and user experience updates outlined in this document.
+-   You're aware of the significant data model changes and user experience updates outlined in this document.
 -   Perform the upgrade in a non-critical, non-production instance first and validate the migrated data and any customizations.
 -   Rollback is not possible once an instance is upgraded to USEM.
--   You must deactivate all third-party integrations and ensure that no integration runs are underway before upgrade.
+-   You must deactivate all third-party integrations and verify that no integration runs are underway before upgrade.
 
     To deactivate scheduled jobs and scheduled jobs within integration-specific scopes:
 
@@ -38,7 +38,7 @@ Security Exposure Management supports the following applications:
     2.  Open an integration record.
     3.  Locate the integration instances related list and open a record.
     4.  Clear the Active flag and save \(Update\) the record.
--   You must deactivate the scheduled jobs and scheduled jobs within integration-specific scopes for the Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response, and Configuration Compliance applications. For a list of scheduled jobs you must deactivate, see [Migration upgrade reference information](../reference/sem-migration-prereq-reference-data.md).
+-   You must deactivate the scheduled jobs and scheduled jobs within integration-specific scopes for the Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response, and Configuration Compliance applications. For a list of scheduled jobs you must deactivate, see [Migration upgrade reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-migration-prereq-reference-data.md).
 
     To deactivate scheduled jobs:
 
@@ -46,10 +46,10 @@ Security Exposure Management supports the following applications:
     2.  Open a record.
     3.  Clear the Active flag and save \(Update\) the record.
 
-After you have completed the deactivation of scheduled jobs and third-party integrations, upgrade plugins in sequential order to migrate to USEM. See [Download and activate applications](../task/sem-install-required-applications.md) for more information.
+After you have completed the deactivation of scheduled jobs and third-party integrations, upgrade plugins in sequential order to migrate to USEM. See [Download and activate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-install-required-applications.md) for more information.
 
 1.  Vulnerability Response \(This will upgrade all the dependent plugins shown in the flow chart\)
 2.  Configuration Compliance
 3.  Container Vulnerability Response
-4.  Upgrade each of the third-party integrations you are using, one at a time.
+4.  Upgrade each of the third-party integrations you're using, one at a time.
 

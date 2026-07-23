@@ -2,6 +2,7 @@
 title: Manage and assign regulatory event alerts
 description: Assign regulatory event alerts that are received from the regulatory intelligence provider to an appropriate user. You can review other properties of the regulatory event alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/manage-regulatory-feeds.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -238,16 +239,16 @@ Impact assessment details that are associated with the regulatory event alert.
 
 The regulatory event alert is assigned to the selected user and it is listed under the **All Assigned Alerts** module in the application.
 
-**Parent Topic:**[Regulatory alerts](../concept/regulatory-feeds.md)
+**Parent Topic:**[Regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-feeds.md)
 
 **Related topics**  
 
 
-[Perform actions on regulatory alerts](perform-actions-reg-event-feeds.md)
+[Perform actions on regulatory alerts]()
 
-[Add an AI-recommended citation to a regulatory alert](add-recommended-citations-to-a-regulatory-alert.md)
+[Add an AI-recommended citation to a regulatory alert]()
 
-[Train and use the similarity solution to recommend citations on regulatory alerts](retrain-ml-reg-compliance-mapping.md)
+[Train and use the similarity solution to recommend citations on regulatory alerts]()
 
-[Manage and assign source document alerts](manage-source-document-feeds.md)
+[Manage and assign source document alerts]()
 

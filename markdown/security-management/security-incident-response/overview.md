@@ -2,6 +2,7 @@
 title: SIR Workspace interface overview
 description: The SIR Workspace Overview page consists of the Security Incidents and Response Tasks details that are under security analysts and their team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/overview.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -19,42 +20,42 @@ There are various widgets present under each filter grouped by priority, categor
 
 When filters are applied on the widgets, the bottom half of the overview page is populated with the corresponding security incidents or response tasks presented as cards or list items. The analyst can toggle between the card view or the list view as desired.
 
-For example, on the **Priority** widget if you want to select all the critical incidents or response tasks then click on the **Critical** segment \(example screen shot below\) of the widget and those incidents or response task which are critical gets displayed in the list or card view.
+For example, on the **Priority** widget if you want to select all the critical incidents or response tasks then select the **Critical** segment \(example screen shot below\) of the widget and those incidents or response task which are critical gets displayed in the list or card view.
 
-![Critical incidents](../image/critical-incidents.png "Overview section")
+\[Omitted image "critical-incidents.png"\] Alt text: Critical incidents
 
-You can assign or reassign the security incidents or response tasks directly from this view by clicking on the ellipse icon and select the **Assign** \(option in card view\) or directly the **Assign** button \(option in list view\) accordingly to assign an incident.
+You can assign or reassign the security incidents or response tasks directly from this view by selecting the ellipse icon and select the **Assign** \(option in card view\) or directly the **Assign** button \(option in list view\) accordingly to assign an incident.
 
-![Card view and Reassign](../image/card-view-example.png "Card view and Reassign example")
+\[Omitted image "card-view-example.png"\] Alt text: Card view and Reassign
 
-![workspace list view](../image/workspace-list-view.png "Assign incident")
+\[Omitted image "workspace-list-view.png"\] Alt text: workspace list view
 
 Here is an example of the list view. The user can assign incidents from the list view as well.
 
-![assign incidents](../image/assign-dialogue-box.png "Assign incident")
+\[Omitted image "assign-dialogue-box.png"\] Alt text: assign incidents
 
 **Add** or modify the assignee details such as Assignment group and Assigned to, add worknotes, if required.
 
 **Note:** You can assign one or more security incidents or response tasks to the assignment groups. The selected number is displayed on the **Assign** button.
 
-The user can delete security incidents from this view. Click the **Delete** button to delete the security incident, the record will be deleted from the list view.
+The user can delete security incidents from this view. Select the **Delete** button to delete the security incident, the record will be deleted from the list view.
 
-The user can export the list content as well. Click the **Export** button to export the list in the desired format.
+The user can export the list content as well. Select the **Export** button to export the list in the desired format.
 
-**Parent Topic:**[Exploring SIR Workspace](exploring-security-incident-response-workspace.md)
+**Parent Topic:**[Exploring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
 
 **Related topics**  
 
 
-[SIR Workspace plugins](components-installed-with-analyst-workspace.md)
+[SIR Workspace plugins]()
 
-[SIR Workspace features](key-features.md)
+[SIR Workspace features]()
 
-[Upcoming section](../task/upcoming-section.md)
+[Upcoming section]()
 
-[Quick links section](../concept/quick-links.md)
+[Quick links section]()
 
-[Shift Handover Records section](../concept/shift-handover-records-section.md)
+[Shift Handover Records section]()
 
-[List view in SIR Workspace](../concept/setting-up-list-view-in-analyst-workspace.md)
+[List view in SIR Workspace]()
 

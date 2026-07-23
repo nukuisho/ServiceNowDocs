@@ -2,11 +2,12 @@
 title: Create Channel Partner record
 description: Create and track channel partner records on the partner workspace to manage and store all information related to the channel partners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-channel-partner-record.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Partner Relationship Management, Use, Sales Customer Relationship Management]
 ---
 
 # Create Channel Partner record
@@ -19,7 +20,7 @@ Role required: sn\_prm.enterprise\_partner\_admin
 
 ## Procedure
 
-1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list ![](../../tmt-assurance-workflows/image/lists_icon-proactive.png) view.
+1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list \[Omitted image "lists\_icon-proactive.png"\] Alt text: view.
 
 2.  Select **Channel Partners** from the Partner Relationship Management.
 
@@ -27,7 +28,7 @@ Role required: sn\_prm.enterprise\_partner\_admin
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields in the channel partner details section, see [Channel partner table fields](../reference/channel-partner-table-fields.md).
+    To learn more about the fields in the channel partner details section, see [Channel partner table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/channel-partner-table-fields.md).
 
     |Field|Description|
     |-----|-----------|
@@ -42,10 +43,17 @@ Role required: sn\_prm.enterprise\_partner\_admin
 7.  Select **Save**.
 
 
--   **[View Channel Partner information on partner workspace](view-channel-partner-information-on-partner-workspace.md)**  
+-   **[View Channel Partner information on partner workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-channel-partner-information-on-partner-workspace.md)**  
 View consolidated channel partner information through the multiple tabs on workspace.
--   **[Register Partner Staff on workspace](register-partner-staff-on-workspace.md)**  
+-   **[Register Partner Staff on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/register-partner-staff-on-workspace.md)**  
 Register a new partner member or transfer existing staff within a partner organization.
 
-**Parent Topic:**[Partner Workspace](../concept/partner-workspace.md)
+**Parent Topic:**[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
+
+**Related topics**  
+
+
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
 

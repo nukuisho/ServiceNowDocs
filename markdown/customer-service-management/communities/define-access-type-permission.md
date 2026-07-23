@@ -2,6 +2,7 @@
 title: Add access types to a permission
 description: Access types for a permission determine the access that users have to certain forums.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/define-access-type-permission.html
 release: australia
 product: Communities
 classification: communities
@@ -36,18 +37,18 @@ Role required: sn\_communities.forum\_admin
 
 ## What to do next
 
-Create a [forum permission](create-forum-permission.md).
+Create a [forum permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-forum-permission.md).
 
-**Parent Topic:**[Create a permission](create-permission.md)
+**Parent Topic:**[Create a permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-permission.md)
 
 **Related topics**  
 
 
-[Add content types to a permission](add-content-types-permission.md)
+[Add content types to a permission]()
 
-[Create a permission exception](manage-permission-exceptions.md)
+[Create a permission exception]()
 
-[Community content types](../concept/c_communities-content-types.md)
+[Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-content-types.md)
 
-[Community access types](../concept/access-types.md)
+[Community access types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/access-types.md)
 

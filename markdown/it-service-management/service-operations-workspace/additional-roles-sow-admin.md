@@ -2,6 +2,7 @@
 title: Additional roles for SOW admin
 description: You can add various user roles to Service Operations Workspace \(SOW\) Admin role to perform SOW configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/additional-roles-sow-admin.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -216,16 +217,16 @@ Provides access to configurations related to Change Management in SOW Admin Cent
 -   itil
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Operations Workspace for ITSM reference](../concept/sow-reference.md)
+</table>**Parent Topic:**[Service Operations Workspace for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-reference.md)
 
 **Related topics**  
 
 
-[Terminology in Service Operations Workspace for ITSM](../concept/terminology-used-in-sow-for-itsm.md)
+[Terminology in Service Operations Workspace for ITSM]()
 
-[Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](sow-itsm-itom-version.md)
+[Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM]()
 
-[Service Operations Workspace for ITSM data model](sow-itsm-data-model.md)
+[Service Operations Workspace for ITSM data model]()
 
-[Components installed with Service Operations Workspace ITSM Applications](components-installed-with-sow.md)
+[Components installed with Service Operations Workspace ITSM Applications]()
 

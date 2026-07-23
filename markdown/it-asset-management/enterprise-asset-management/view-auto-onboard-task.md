@@ -2,13 +2,14 @@
 title: View an automatically created onboarding task
 description: View an automatically created asset onboarding task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/view-auto-onboard-task.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create an asset onboarding process, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create an asset onboarding process, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # View an automatically created onboarding task
@@ -36,5 +37,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
 5.  Open the onboarding task.
 
 
-**Parent Topic:**[Create an asset onboarding process](create-asset-onboarding-task-eam.md)
+**Parent Topic:**[Create an asset onboarding process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-onboarding-task-eam.md)
 

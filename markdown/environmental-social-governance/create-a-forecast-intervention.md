@@ -2,6 +2,7 @@
 title: Adjust parameters
 description: Adjust parameters to model different outcomes based on specific interventions or changes. When you update these parameters it enables your organization to explore the potential impacts of different decisions, providing a clear comparison of outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/create-a-forecast-intervention.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: sn\_esg.program\_manager
 
 3.  Select the Analysis record that you want and then navigate to the **Forecast** tab.
 
-4.  Select the information icon ![Information icon.](../../../reuse/icons/product-icons/circle-info-outline-24.svg) to open the forecast sidebar and fill in the parameter fields.
+4.  Select the information icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: Information icon. to open the forecast sidebar and fill in the parameter fields.
 
 <table id="table_zqs_sgr_fgc"><thead><tr><th>
 
@@ -62,7 +63,7 @@ For example, if your formula is as follows:
 **Note:**
 
 -   The fields displayed vary based on the operands chosen in the CMD formula and differ according to the specific CMD.
--   These fields appear when creating an analysis context with a metric definition selected in the **Type** field and a calculated metric definition selected in the **Metric definition** field. For more information, refer to [Create an analysis context](create-an-analysis-context.md).
+-   These fields appear when creating an analysis context with a metric definition selected in the **Type** field and a calculated metric definition selected in the **Metric definition** field. For more information, refer to [Create an analysis context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-analysis-context.md).
 
 
 </td></tr><tr><td>
@@ -74,13 +75,13 @@ Adjustment
 Choose an adjustment type absolute \(123\) or percentage \(%\) and enter the corresponding adjustment value.**Note:**
 
 -   This fields appear when while creating a analysis context, the metric definition is selected in **Type** field, a manual or automated metric definition is selected in **Metric definition** field.
--   This fields appears when creating a analysis context, a metric is selected in **Type** field and a metric is selected in the **Metric** field. For more information, refer to [Create an analysis context](create-an-analysis-context.md).
+-   This fields appears when creating a analysis context, a metric is selected in **Type** field and a metric is selected in the **Metric** field. For more information, refer to [Create an analysis context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-an-analysis-context.md).
 
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
 
-    The updated parameters are used to simulate the calculation based upon the updated values that were entered. The forecast graph shows the original standard forecast and the new adjusted forecast and the formula parameters for each are shown in the Formula parameters section.
+    The updated parameters are used to simulate the calculation based on the updated values that were entered. The forecast graph shows the original standard forecast and the new adjusted forecast and the formula parameters for each are shown in the Formula parameters section.
 
 6.  Repeat the above until the new adjusted forecast and formula parameters meet your requirements.
 
@@ -91,7 +92,7 @@ Choose an adjustment type absolute \(123\) or percentage \(%\) and enter the cor
 
 ## What to do next
 
-After creating and publishing multiple analyses and forecasts, you can compare the analyses and view a graph that captures the data for each analysis you select. For more information on viewing a Comparison graph see, [Create a forecast comparison graph](create-forecast-comparison.md). For more information on creating analyses, see [Create an analysis](create-a-scenario-analysis.md).
+After creating and publishing multiple analyses and forecasts, you can compare the analyses and view a graph that captures the data for each analysis you select. For more information on viewing a Comparison graph see, [Create a forecast comparison graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-forecast-comparison.md). For more information on creating analyses, see [Create an analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-a-scenario-analysis.md).
 
-**Parent Topic:**[Set up analysis contexts and analyses](../concept/set-up-scenarios.md)
+**Parent Topic:**[Set up analysis contexts and analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/set-up-scenarios.md)
 

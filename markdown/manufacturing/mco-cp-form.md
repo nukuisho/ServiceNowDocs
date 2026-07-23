@@ -2,6 +2,7 @@
 title: Channel partner form
 description: Use the fields on the channel partner form to manage and store information related to channel partners.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-cp-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -47,6 +48,14 @@ Manager from the enterprise who is associated with the channel partner.
 
 </td></tr><tr><td>
 
+Business function
+
+</td><td>
+
+A commercial function that an external partner performs, such as sales, distribution, implementation, service delivery, or customer support.
+
+</td></tr><tr><td>
+
 External partner manager
 
 </td><td>
@@ -69,6 +78,22 @@ Parent channel partner
 </td><td>
 
 Parent entity of the channel partner.
+
+</td></tr><tr><td>
+
+Partner manager
+
+</td><td>
+
+Select the partner manager from the list.
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+Select if it is partner group or partner subsidiary.
 
 </td></tr><tr><td>
 
@@ -104,7 +129,7 @@ Short description.
 
 </td></tr><tr><td>
 
-Revenue according to year
+Revenue per year
 
 </td><td>
 
@@ -120,7 +145,7 @@ Number of employees working for the channel partner.
 
 </td></tr><tr><td>
 
-Industry
+Supported Industries
 
 </td><td>
 
@@ -167,10 +192,10 @@ Activity
 Updates and information related to the channel partner.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[Create a channel partner](../task/mco-create-channel-partner.md)
+[Create channel partner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-create-channel-partner.md)
 

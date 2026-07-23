@@ -2,11 +2,12 @@
 title: Pre-built vocabulary
 description: Use ServiceNow pre-built vocabulary for software and hardware terms so the system recognizes their multiple variations in utterances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/prebuilt-vocabulary.html
 release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [NLU vocabulary, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
@@ -19,14 +20,14 @@ Your Natural Language Understanding models contain pre-built vocabulary settings
 
 For example, for one of your example utterances, you enter `I need to order a Mac`. When the system recognizes a pre-built vocabulary item, the term has a blue line under it.
 
-![Example utterance showing how pre-built vocabulary appears with a blue line underneath the word.](../images/using-nlu-vocabulary-parent-topic1.png "Utterance tab of the Intent details page")
+\[Omitted image "using-nlu-vocabulary-parent-topic1.png"\] Alt text: Example utterance showing how pre-built vocabulary appears with a blue line underneath the word.
 
 When you click the word, a window appears with two options to choose for the word:
 
 -   A pre-built suggested definition for the word
 -   An option to add a synonym
 
-![Example utterance showing the options users can choose to define the pre-built vocabulary: by choosing the system recommendation or by entering a synonym for the word.](../images/using-nlu-vocabulary-parent-topic2.png) ![]()
+\[Omitted image "using-nlu-vocabulary-parent-topic2.png"\] Alt text: Example utterance showing the options users can choose to define the pre-built vocabulary: by choosing the system recommendation or by entering a synonym for the word. \[Omitted image ""\] Alt text:
 
 If you select the first option and click **Confirm**, the system uses the pre-built suggested definition and the blue line disappears.
 

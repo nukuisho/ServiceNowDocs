@@ -2,6 +2,7 @@
 title: Add nodeless NLU entities as input variables to a topic
 description: You can add nodeless NLU entities as input variables to a topic if NLU is enabled for Virtual Agent. These variables can be slot-filled from NLU service provider predictions or provided outside of the scope of the topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-nodeless-entities-input-vars.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Nodeless, NLU, Natural Language Understanding, entity, input, variables, topic, slot-filled, Virtual Agent, Variables]
-breadcrumb: [Creating a Virtual Agent topic, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Creating a Virtual Agent topic, Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Add nodeless NLU entities as input variables to a topic
@@ -24,7 +25,7 @@ Role required: virtual\_agent\_admin or admin
 
 If a custom control prompts a user for a date and the user mentioned a date in their initial utterance, you can capture that without prompting the user again. To prompt the user when not slot-filled, use input controls.
 
-For more information about NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/entities.md). For more information about system entities, see [NLU system entities](../reference/nlu-system-entities.md).
+For more information about NLU entities, see [Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/entities.md). For more information about system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-system-entities.md).
 
 ## Procedure
 
@@ -32,7 +33,7 @@ For more information about NLU entities, see [Entities](https://raw.githubuserco
 
 2.  Open a topic and view the **Flow** tab.
 
-3.  In the sidebar, select the Variables tab, and select the **Input** icon ![](../images/icon-plus-clear.png).
+3.  In the sidebar, select the Variables tab, and select the **Input** icon \[Omitted image "icon-plus-clear.png"\].
 
 4.  On the form, fill in the fields.
 
@@ -55,7 +56,7 @@ Data type of the input. The fields on the dialog box change according to your ch
 -   **Date Time**: Date, time, or both. Shows the **Input format** field.
 -   **Static Choice**: Defined user choices. Shows **Display name** and **Value to store** field pairs.
 -   **Dynamic Choice**: Choice of table records. Shows **Populate choices by**, **Table**, and **Filter choices** fields. The value can be either conditional or scripted.
- For details, see [Input data types in Virtual Agent topics](../reference/va-data-types.md).
+ For details, see [Input data types in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-data-types.md).
 
 </td></tr><tr><td>
 
@@ -161,12 +162,12 @@ Select one of the following:-   **Condition Builder**: Creates a filter used to 
 
     NLU entities appear alongside topic input variables in the Variables sidebar.
 
-    ![NLU entities appear with input variables in the Variables sidebar. A copy icon appears alongside the view icon.](../images/nlu-entities-input-palette.png)
+    \[Omitted image "nlu-entities-input-palette.png"\] Alt text: NLU entities appear with input variables in the Variables sidebar. A copy icon appears alongside the view icon.
 
     **Note:**
 
-    You can remove a slot-filled value to prompt the user again \(unbind it from the initial input value\). For more information, read about the vaInputs.myvar.unbindEntity\(\); method in [Virtual Agent scripts](../concept/virtual-agent-scripts.md).
+    You can remove a slot-filled value to prompt the user again \(unbind it from the initial input value\). For more information, read about the vaInputs.myvar.unbindEntity\(\); method in [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
 
 
-**Parent Topic:**[Creating a Virtual Agent topic](create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

@@ -2,6 +2,7 @@
 title: Color variable support for card view buttons
 description: Learn how to use color variables to change theming in your mobile card view buttons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-cardview-button.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -23,11 +24,11 @@ Use color variables in **Card template element attributes** to control color val
 -   **BorderColorVariable**
 -   **TextColorVariable**
 
- For more information on these attributes, see [Card template element attributes](mca-attributes.md).
+ For more information on these attributes, see [Card template element attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mca-attributes.md).
 
 </td><td>
 
-![Color variable used in a card view template element](../image/color-var-example-6.png)
+\[Omitted image "color-var-example-6.png"\] Alt text: Color variable used in a card view template element
 
 </td></tr></tbody>
 </table>## Button style guide
@@ -50,7 +51,7 @@ Primary
 
 </td><td>
 
-![Primary button example](../image/icon-colors/button-primary.png)
+\[Omitted image "button-primary.png"\] Alt text: Primary button example
 
 </td><td>
 
@@ -73,7 +74,7 @@ Secondary
 
 </td><td>
 
-![Secondary button example](../image/icon-colors/button-secondary.png)
+\[Omitted image "button-secondary.png"\] Alt text: Secondary button example
 
 </td><td>
 
@@ -102,7 +103,7 @@ Positive
 
 </td><td>
 
-![Positive button example](../image/icon-colors/button-positive.png)
+\[Omitted image "button-positive.png"\] Alt text: Positive button example
 
 </td><td>
 
@@ -125,7 +126,7 @@ Destructive
 
 </td><td>
 
-![Destructive button example](../image/icon-colors/button-destructive.png)
+\[Omitted image "button-destructive.png"\] Alt text: Destructive button example
 
 </td><td>
 
@@ -148,7 +149,7 @@ Bare
 
 </td><td>
 
-![Bare button example](../image/icon-colors/button-bare.png)
+\[Omitted image "button-bare.png"\] Alt text: Bare button example
 
 </td><td>
 
@@ -177,7 +178,7 @@ Disabled
 
 </td><td>
 
-![Disabled button example](../image/icon-colors/button-disabled.png)
+\[Omitted image "button-disabled.png"\] Alt text: Disabled button example
 
 </td><td>
 

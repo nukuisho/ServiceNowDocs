@@ -2,6 +2,7 @@
 title: Register an instance for cloning
 description: Register your target instance before requesting your clone. You can also register a new target instance on the clone request page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/configure-target-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

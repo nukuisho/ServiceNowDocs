@@ -2,6 +2,7 @@
 title: Create a product offering category
 description: Define a product offering category used to organize similar product offerings in a catalog. Product categories make it easier for agents to browse and navigate product offerings when creating opportunities, quotes, and orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-product-offering-category.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_cata
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offering Categories**.
 
@@ -138,5 +139,12 @@ Product code for the category. The system automatically generates a code based o
 
 ## What to do next
 
-[Create product offerings](som-create-product-offering.md).
+[Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-product-offering.md).
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

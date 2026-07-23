@@ -2,11 +2,12 @@
 title: Modifying the Data Collection configuration
 description: You can make changes to the Data Collection configuration to align with your organization's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-all-modify.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Modifying the Data Collection configuration
@@ -33,4 +34,6 @@ The alterations for this change in metric definition would imply the following c
     -   Change the Indicator Source field to **Impact VM - Incidents Closed This Month** on both indicators.
     -   Change the Additional Conditions to add a filter for **Priority 1** on both indicators.
     -   For Time to Restore, as the duration field may not be in use, you can use a scripted calculation for the duration. You can re-use the script from the automate indicator **Impact VM - Average Time to Close an Incident \(hrs\)** for this.
+
+**Parent Topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md)
 

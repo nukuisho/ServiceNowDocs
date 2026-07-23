@@ -1,19 +1,21 @@
 ---
 title: Install Invoice Case Management
-description: You can install the Invoice Case Management \(sn\_ap\_cm\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Install the Invoice Case Management \(sn\_ap\_cm\) application as an admin to include demo data and related ServiceNow Store applications and plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice management, invoice case management]
 breadcrumb: [Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Install Invoice Case Management
 
-You can install the Invoice Case Management \(sn\_ap\_cm\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Install the Invoice Case Management \(sn\_ap\_cm\) application as an admin to include demo data and related ServiceNow® Store applications and plugins.
 
 ## Before you begin
 
@@ -22,7 +24,7 @@ You can install the Invoice Case Management \(sn\_ap\_cm\) application if you ha
 -   The Accounts Payable Invoice Processing \(sn\_ap\_apm\) application installs the following dependent plugins:
     -   Source-to-Pay Common Architecture \(com.snc.sn\_shop\)
     -   Supplier Collaboration Portal
-    -   [Source-to-Pay Operations](../../source-to-pay-operations/reference/source-to-pay-operations-overview.md)
+    -   [Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-operations-overview.md)
 
 Role required: admin
 
@@ -35,7 +37,7 @@ The following items are installed with Invoice Case Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Invoice Case Management](../reference/installed-with-invoice-case-mgmt.md).
+For more information, see [Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md).
 
 ## Procedure
 
@@ -60,17 +62,17 @@ For more information, see [Components installed with Invoice Case Management](..
 6.  Select **Install**.
 
 
--   **[Components installed with Invoice Case Management](../reference/installed-with-invoice-case-mgmt.md)**  
-Several types of components are installed with activation of the Invoice Case Management plugin, including user roles, scheduled jobs, and tables.
+-   **[Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md)**  
+Reference information for the roles, scheduled jobs, and tables installed with the Invoice Case Management plugin during activation.
 
-**Parent Topic:**[Configure Accounts Payable Operations](../concept/config-acc-pay-mgmt.md)
+**Parent Topic:**[Configure Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Install Accounts Payable Invoice Processing](install-acc-pay-mgmt.md)
+[Install Accounts Payable Invoice Processing]()
 
-[Install Accounts Payable Operations integration with Document Intelligence](../concept/apm-integration-docintel.md)
+[Install Accounts Payable Operations integration with Document Intelligence]()
 
-[Domain separation and Accounts Payable Operations](../concept/apm-domain-separation.md)
+[Domain separation and Accounts Payable Operations]()
 

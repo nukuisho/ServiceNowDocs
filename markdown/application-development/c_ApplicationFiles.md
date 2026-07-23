@@ -2,6 +2,7 @@
 title: Application files
 description: Application files are configuration records that allow developers to extend application functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationFiles.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,9 +27,4 @@ Administrators can:
 -   View file properties for configuration records.
 -   Protect application files from changes during upgrades.
 -   View parent-child relationships between configuration records.
-
-**Related topics**  
-
-
-[Legacy - Add an application file to an application](../task/t_AddAnAppFileToAnApp.md)
 

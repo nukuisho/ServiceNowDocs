@@ -2,13 +2,14 @@
 title: Remove model components from a bundle
 description: Remove a component from a bundled model, for example, when you want to replace it with a different component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_RemoveModelCompsFromABundle.html
 release: australia
 product: Product Catalog
 classification: product-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Bundled models, Models, Product Catalog, IT Asset Management]
+breadcrumb: [Bundled models, Models, Product Catalog, Common applications, Asset Management]
 ---
 
 # Remove model components from a bundle
@@ -36,12 +37,12 @@ No component history is retained. If you remove a component from a bundled model
 5.  Click **OK**.
 
 
-**Parent Topic:**[Bundled models](../concept/c_CreatingBundledModels.md)
+**Parent Topic:**[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_CreatingBundledModels.md)
 
 **Related topics**  
 
 
-[Add model components to a bundle](t_AddingModelComponentsToABundle.md)
+[Add model components to a bundle]()
 
-[Publish bundled models to product catalog](publish-product-catalog-bundledmodles.md)
+[Publish bundled models to product catalog]()
 

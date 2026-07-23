@@ -2,6 +2,7 @@
 title: Set design-time access to application tables
 description: Set these access permissions to protect application tables at design-time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/t\_SetDesignTimeAccessToAppTables.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ To set runtime access permissions:
 
 2.  Click the button for the application type you want to edit.
 
-<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d299268e86">
+<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d294335e86">
 
 **__Developed__**
 
@@ -35,7 +36,7 @@ To set runtime access permissions:
 
 displays applications created on this instance.
 
-</td></tr><tr><td id="d299268e96">
+</td></tr><tr><td id="d294335e96">
 
 **__Downloaded__**
 
@@ -53,12 +54,12 @@ displays applications downloaded on this instance.
 6.  Click **Update**.
 
 
-**Parent Topic:**[Design-time access to application tables](../concept/c_DesignTimeAccessToAppTables.md)
+**Parent Topic:**[Design-time access to application tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_DesignTimeAccessToAppTables.md)
 
 **Related topics**  
 
 
-[Example denying all design access to a table](../concept/c_ExampleDenyingAllDesignAccess.md)
+[Example denying all design access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ExampleDenyingAllDesignAccess.md)
 
-[Example allowing configuration records for a table](../concept/c_ExampleGrantingAccessToConfigRecs.md)
+[Example allowing configuration records for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ExampleGrantingAccessToConfigRecs.md)
 

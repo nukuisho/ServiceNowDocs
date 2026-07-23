@@ -2,6 +2,7 @@
 title: Configure integration services for SAP
 description: For configuring integration services, provide the connection end point and the SAP ERP credentials that you set up for your authentication profile. Also, create a separate integration service record for each service request that you want to customize.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-sap.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -15,12 +16,12 @@ breadcrumb: [Configure, Source-to-Pay integration with SAP, Integration with thi
 
 For configuring integration services, provide the connection end point and the SAP ERP credentials that you set up for your authentication profile. Also, create a separate integration service record for each service request that you want to customize.
 
-Configure integration services for SAP 
+\[Omitted video\] Description: Configure integration services for SAP
 
 ## Before you begin
 
 -   Verify that the application scope is set to SAP ECC and SAP S4 HANA spoke.
--   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
+-   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md).
 -   For REST type service, REST API details, as provided by ERP.
 
 Role required: sn\_fcms\_intg.admin
@@ -39,7 +40,7 @@ If the application requires multiple SAP instances, create separate integration 
 
 3.  In the Integration Services list, select the service that you want to configure.
 
-    ![Look up Legal Entities from SAP S4 HANA OData](../../source-to-pay-operations/image/sap-integration-full-pull.png "Look up Legal Entities from SAP S4 HANA OData")
+    \[Omitted image "sap-integration-full-pull.png"\] Alt text: Look up Legal Entities from SAP S4 HANA OData
 
 4.  To modify the Integration service record, select **here**.
 
@@ -133,18 +134,18 @@ Option to choose the order in which the entity should be displayed.
     The integration service is configured for the selected entity.
 
 
-**Parent Topic:**[Configure the Source-to-Pay integration with SAP](../concept/configuring-source-to-pay-sap-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-integration.md)
 
 **Related topics**  
 
 
-[ERP Source Configuration for SAP](../concept/erp-source-configuration-sap.md)
+[ERP Source Configuration for SAP]()
 
-[Define ERP source configuration for SAP](define-erp-source-sap.md)
+[Define ERP source configuration for SAP]()
 
-[Look up primary data in SAP](../concept/look-up-primary-data-sap.md)
+[Look up primary data in SAP]()
 
-[Manually execute flows or subflows in SAP \(Inbound\)](manually-trigger-subflows-sap.md)
+[Manually execute flows or subflows in SAP \(Inbound\)]()
 
-[Scheduled jobs to look up primary data in SAP](../concept/scheduled-jobs-to-primary-data-sap.md)
+[Scheduled jobs to look up primary data in SAP]()
 

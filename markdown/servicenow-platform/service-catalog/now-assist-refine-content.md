@@ -2,6 +2,7 @@
 title: Refine content
 description: Use the refine content skill to shorten, elaborate, rephrase, or generate content in the fields by using Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/now-assist-refine-content.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -30,10 +31,10 @@ This skill is available in the following workflow and product.
 |--------|-------|
 |Creator||
 
-**Parent Topic:**[Catalog item generation reference](../reference/catalog-item-generation-reference.md)
+**Parent Topic:**[Catalog item generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 
 **Related topics**  
 
 
-[Now Assist in Catalog Builder](now-assist-for-catalog-generation.md)
+[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 

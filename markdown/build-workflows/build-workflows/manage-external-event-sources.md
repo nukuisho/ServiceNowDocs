@@ -22,7 +22,7 @@ Confirm that you have installed the External Trigger Builder plugin on your inst
 
 An external event source is an end point on your ServiceNow instance which listens to a system or application outside of ServiceNow. After the application outside ServiceNow sends an event to the external event source, it enables a trigger definition to start one or more flows. For example, you define an external event source for an issue-tracking software that communicates with an external trigger definition that you have defined. The external trigger definition listens to the event source and starts a flow when a new issue is created in the issue-tracking software. Both the external event source and the trigger definitions are defined on your ServiceNow instance. An external trigger definition gives a set of conditions that tells your ServiceNow instance when to start a flow.
 
-**Parent Topic:**[Create a saved external trigger](create-saved-external-trigger.md)
+**Parent Topic:**[Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-saved-external-trigger.md)
 
 ## Create an external event source
 
@@ -44,11 +44,11 @@ Confirm that you have installed the External Trigger Builder plugin on your inst
 
     The **Spokes** tab is selected by default. If it isn’t selected already, confirm that you have selected it.
 
-    ![Spoke selection for external event source creation.](../images/external-event-src-select-spoke.png)
+    \[Omitted image "external-event-src-select-spoke.png"\] Alt text: Spoke selection for external event source creation.
 
 4.  On the left panel, click Event sources.
 
-    ![Event sources menu.](../images/external-event-source-event-src-menu.png)
+    \[Omitted image "external-event-source-event-src-menu.png"\] Alt text: Event sources menu.
 
 5.  Click **Create event source**.
 
@@ -56,7 +56,7 @@ Confirm that you have installed the External Trigger Builder plugin on your inst
 
 7.  In the Description field, enter a description of the external event source.
 
-    ![Create external event source screen.](../images/external-event-source-create-external-event-src-scrn.png)
+    \[Omitted image "external-event-source-create-external-event-src-scrn.png"\] Alt text: Create external event source screen.
 
 8.  Click **Create event source**.
 
@@ -66,7 +66,7 @@ Confirm that you have installed the External Trigger Builder plugin on your inst
 
     1.  Select the spoke tab.
 
-        ![Spoke tab is clicked.](../images/external-event-src-view-draft.png)
+        \[Omitted image "external-event-src-view-draft.png"\] Alt text: Spoke tab is clicked.
 
     2.  Select the **Drafts** tab.
 
@@ -167,7 +167,7 @@ HMAC Util Script
 
 </td><td>
 
-Option to specify the script that generates or validates the hash.To know more about HMAC, see [Configure HMAC - Token-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-hmac.md).
+Option to specify the script that generates or validates the hash.To know more about HMAC, see [Configure HMAC - Token-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-hmac.md).
 
 </td></tr><tr><td rowspan="3">
 
@@ -204,13 +204,13 @@ Option to specify a value that may come before the token.
 
     The external event source is available for you to associate with an external trigger definition.
 
-    ![External event source published.](../images/external-event-src-published.png)
+    \[Omitted image "external-event-src-published.png"\] Alt text: External event source published.
 
 12. View the published external event source.
 
     1.  Select the spoke tab.
 
-        ![Spoke tab selected.](../images/external-event-src-view-pub-event.png)
+        \[Omitted image "external-event-src-view-pub-event.png"\] Alt text: Spoke tab selected.
 
     2.  Select the **Published** tab.
 
@@ -221,7 +221,7 @@ Option to specify a value that may come before the token.
 
 ### What to do next
 
-[Create a saved external trigger](create-saved-external-trigger.md) and associate it with the external event source that you created.
+[Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-saved-external-trigger.md) and associate it with the external event source that you created.
 
 ## Update an external event source
 
@@ -247,11 +247,11 @@ You can update all information of an external event source in the draft state bu
 
     The **Spokes** tab is selected by default. If it isn’t selected, confirm that you have selected it.
 
-    ![Spoke selection for external event source creation.](../images/external-event-src-select-spoke.png)
+    \[Omitted image "external-event-src-select-spoke.png"\] Alt text: Spoke selection for external event source creation.
 
 4.  On the left panel, click Event sources.
 
-    ![Event sources menu.](../images/external-event-source-event-src-menu.png)
+    \[Omitted image "external-event-source-event-src-menu.png"\] Alt text: Event sources menu.
 
 5.  To update an event source in the draft state, do the steps.
 
@@ -259,7 +259,7 @@ You can update all information of an external event source in the draft state bu
 
     2.  Click the external event source that you want to update.
 
-    3.  Click the ellipsis button \(![Ellipsis icon to update external event source.](../images/external-event-src-ellipsis-icon.png)\) and then click Properties.
+    3.  Click the ellipsis button \(\[Omitted image "external-event-src-ellipsis-icon.png"\] Alt text: Ellipsis icon to update external event source.\) and then click Properties.
 
     4.  In the Event source properties form, update the information.
 
@@ -273,7 +273,7 @@ You can update all information of an external event source in the draft state bu
 
     2.  Click the external event source that you want to update.
 
-    3.  Click the ellipsis button \(![Ellipsis icon to update external event source.](../images/external-event-src-ellipsis-icon.png)\) and then click Properties.
+    3.  Click the ellipsis button \(\[Omitted image "external-event-src-ellipsis-icon.png"\] Alt text: Ellipsis icon to update external event source.\) and then click Properties.
 
     4.  In the Event source properties form, update the information in the following fields.
 
@@ -304,17 +304,17 @@ Confirm that you have installed the External Trigger Builder plugin on your inst
 
     The **Spokes** tab is selected by default. If it isn’t selected, confirm that you have selected it.
 
-    ![Spoke selection for external event source creation.](../images/external-event-src-select-spoke.png)
+    \[Omitted image "external-event-src-select-spoke.png"\] Alt text: Spoke selection for external event source creation.
 
 4.  On the left panel, click Event sources.
 
-    ![Event sources menu.](../images/external-event-source-event-src-menu.png)
+    \[Omitted image "external-event-source-event-src-menu.png"\] Alt text: Event sources menu.
 
 5.  Click the **Published** or **Drafts** tab.
 
 6.  Click the external event source that you want to delete.
 
-7.  Click the ellipsis button \(![Ellipsis icon to update external event source.](../images/external-event-src-ellipsis-icon.png)\) and then select Properties.
+7.  Click the ellipsis button \(\[Omitted image "external-event-src-ellipsis-icon.png"\] Alt text: Ellipsis icon to update external event source.\) and then select Properties.
 
 8.  Click **Delete**.
 

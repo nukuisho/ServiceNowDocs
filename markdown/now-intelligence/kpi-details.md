@@ -2,6 +2,7 @@
 title: KPI Details
 description: KPI Details page enables you to delve into the information inside your Performance Analytics indicators \(KPIs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/kpi-details.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,19 +18,19 @@ KPI Details page enables you to delve into the information inside your Performan
 
 <table id="table_o5y_trj_mcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn the purpose of KPI Details and how to open it](exploring-kpi-details.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the purpose of KPI Details and how to open it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/exploring-kpi-details.md)
 
 </td><td>
 
-[Investigate indicators![](../../../reuse/icons/brand-icons/bus-scan.svg)How to extract information from an indicator using KPI Details](../reference/kpi-details-components.md)
+[Investigate indicators\[Omitted image "bus-scan.svg"\] Alt text:How to extract information from an indicator using KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
 
 </td></tr><tr><td>
 
-[Set targets and thresholds![](../../../reuse/icons/brand-icons/bus-strategic.svg)Define indicator value goals and set limits](kpi-details-targets.md)
+[Set targets and thresholds\[Omitted image "bus-strategic.svg"\] Alt text:Define indicator value goals and set limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)System properties and more](kpi-details-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:System properties and more](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -41,5 +42,5 @@ KPI Details page enables you to delve into the information inside your Performan
 **Related topics**  
 
 
-[Performance Analytics \(Indicator data sources\)](../../performance-analytics/concept/r_PALandingPage.md)
+[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

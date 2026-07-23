@@ -2,6 +2,7 @@
 title: View visitor registrations
 description: View visitor registrations submitted through the service portal. You can view all visitor registrations, the ones for the current day, and the ones that were made by you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/view-visitor-registrations.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -36,23 +37,23 @@ Role required: sn\_wsd\_visitor.admin or sn\_wsd\_visitor.staff
     -   The Visit Details tab contains information like the location, host, co-hosts, arrival, and departure times.
     -   The Visitor Details tab contains the visitor's information like the name, email address, phone number, and consent.
     -   The Visitor Services tab contains information like the parking type and license plate, and whether the visitor is a VIP or requires WiFi.
-    You can also see whether the visitor has accepted or declined the visitor policies by selecting the record in the Visitor Policy Confirmation related list. For more information about visitor policy confirmations, see [View visitor policy confirmations](view-policy-confirmations.md).
+    You can also see whether the visitor has accepted or declined the visitor policies by selecting the record in the Visitor Policy Confirmation related list. For more information about visitor policy confirmations, see [View visitor policy confirmations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/view-policy-confirmations.md).
 
 
-**Parent Topic:**[Managing visitor registrations](../concept/manage-visitor-registrations.md)
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
 
-[Use the receptionist portal](use-receptionist-portal.md)
+[Use the receptionist portal]()
 
-[Update a visitor registration](update-visitor-registration.md)
+[Update a visitor registration]()
 
-[View visitor policy confirmations](view-policy-confirmations.md)
+[View visitor policy confirmations]()
 
-[Visitor registration states](../reference/visitor-registration-states.md)
+[Visitor registration states]()
 
-[Anonymize a visitor](anonymize-visitor.md)
+[Anonymize a visitor]()
 
-[Apply visitor management archive policy](apply-visitor-management-archival-rule.md)
+[Apply visitor management archive policy]()
 

@@ -2,6 +2,7 @@
 title: Approving or rejecting orders
 description: Fulfillment managers bridge the gap between order intake and execution by reviewing the order information and deciding whether an order is ready to proceed or requires further review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/approving-rejecting-orders-som.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -44,4 +45,11 @@ Once a rejection decision is made, update the order status to Rejected in the sy
 ## Reevaluating rejected orders
 
 A rejected order can be corrected and resubmitted for reevaluation by the order agent. If all issues are resolved and the order meets approval criteria, you can approve the order. Approving a rejected order updates the status back to In progress, enabling fulfillment to resume.
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

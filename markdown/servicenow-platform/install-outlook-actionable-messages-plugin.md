@@ -2,6 +2,7 @@
 title: Install Outlook Actionable Messages plugin
 description: Install Outlook Actionable Messages\(sn\_ms\_oam\) plugin to configure actionable messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/install-outlook-actionable-messages-plugin.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,10 +24,10 @@ Role required: oam\_admin
 
 2.  In the search field, enter `Outlook Actionable messages`.
 
-    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
 
-**Parent Topic:**[Outlook Actionable Messages](../concept/outlook-actionable-messages.md)
+**Parent Topic:**[Outlook Actionable Messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/outlook-actionable-messages.md)
 

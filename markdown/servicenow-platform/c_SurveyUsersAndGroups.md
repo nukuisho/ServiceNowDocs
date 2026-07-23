@@ -2,6 +2,7 @@
 title: Survey users and groups
 description: Survey users and survey user groups help survey administrators control who can take a survey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyUsersAndGroups.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,59 +27,59 @@ You can designate survey users from the Survey Designer, the Survey Definition f
 
 **Note:** If there are trigger conditions for a survey, do not create survey users. Instead, use the Trigger Conditions form to assign users.
 
--   **[Create a survey user group](../task/t_CreatingSurveyUserGroups.md)**  
+-   **[Create a survey user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreatingSurveyUserGroups.md)**  
 Survey user groups are groups that have the **Type** field set to survey and display only the information most relevant to surveys. You can assign survey groups or any user group to surveys.
--   **[Select recipients for a survey in the Survey Designer](../task/t_SelRecipsForASurveyInDesigner.md)**  
+-   **[Select recipients for a survey in the Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SelRecipsForASurveyInDesigner.md)**  
 You can assign survey users while designing or modifying the survey.
--   **[Designate a survey user](../task/t_SurveyDefinitionForm.md)**  
+-   **[Designate a survey user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SurveyDefinitionForm.md)**  
 You can designate one survey user at a time from the Survey Definition form.
--   **[Designate or remove multiple survey users at one time](../task/t_SurveyCategoryForm.md)**  
+-   **[Designate or remove multiple survey users at one time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SurveyCategoryForm.md)**  
 Use the Survey Category form to designate or remove multiple survey users at a time.
--   **[Allow recipients to retake a survey](../task/t_AllowRecipientsToRetakeASurvey.md)**  
+-   **[Allow recipients to retake a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_AllowRecipientsToRetakeASurvey.md)**  
 You can configure a survey to allow recipients to resubmit their answers as many times as they like, up to the survey's due date.
 
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](../task/view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](../task/t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Copy a survey](../task/copy-survey.md)
+[Copy a survey]()
 
-[Publish a survey](../task/t_PublishASurvey.md)
+[Publish a survey]()
 
-[Customize the appearance of a survey](../task/t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Survey definitions](c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Create a survey designer template question](../task/t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Sentiment analysis for surveys](sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](c_MigrateSurveys.md)
+[Legacy survey migration]()
 
-[Send survey invitations to users](../task/t_SendSurveyInvitationsToUsers.md)
+[Send survey invitations to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SendSurveyInvitationsToUsers.md)
 
-[Survey trigger conditions](c_TriggerConditions.md)
+[Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TriggerConditions.md)
 
-[Survey categories](c_SurveyCategory.md)
+[Survey categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyCategory.md)
 
-[Survey definitions](c_SurveyDefinitions.md)
+[Survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDefinitions.md)
 

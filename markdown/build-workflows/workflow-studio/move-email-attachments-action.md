@@ -2,6 +2,7 @@
 title: Move Email Attachments to Record action
 description: Move attachments from an email to a record so that the files are available to your users when they view the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/move-email-attachments-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -33,7 +34,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Data type: **Record**
 
-    Record to which you want to move one or more attachments. You can use the [Look Up Record action](lookup-record-flow-designer.md) to find an appropriate target record.
+    Record to which you want to move one or more attachments. You can use the [Look Up Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/lookup-record-flow-designer.md) to find an appropriate target record.
 
 
 ## Output
@@ -42,13 +43,13 @@ This action has no outputs. Instead it updates the source Email Attachment \[sys
 
 ## Move email attachments to incident record
 
-![Move Email Attachments to Record configuration](../images/example-move-email-attachments-to-record.png)
+\[Omitted image "example-move-email-attachments-to-record.png"\] Alt text: Move Email Attachments to Record configuration
 
 This example extends the sample flow for inbound email flow handling to add the Move Email Attachments to Record action. This examples assumes that you have previously set up your instance to receive emails, and that there are one or more email records with attachments. The Email Record input uses the data pill for the email that triggers the flow. The Target Record input uses the data pill for the incident record that was updated in flow step 1.
 
-![Execution details of Move Email Attachments to Record](../images/example-move-email-attachments-to-record-execution-details.png)
+\[Omitted image "example-move-email-attachments-to-record-execution-details.png"\] Alt text: Execution details of Move Email Attachments to Record
 
 In this example, the Email Record was a received email that contained multiple attachments. The runtime value is the Sys ID reference to the received email record. The Target record was incident record INC0010220, which was updated by the email in flow step 1.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

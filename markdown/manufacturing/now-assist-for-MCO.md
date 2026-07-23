@@ -2,6 +2,7 @@
 title: Now Assist for Manufacturing Commercial Operations
 description: Use the ServiceNow Now Assist for Manufacturing Commercial Operations application to create the corrective actions and charges information for the dealers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/now-assist-for-MCO.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,6 +2,7 @@
 title: Create a push action
 description: Create push actions to suit your needs, when the base system actions do not meet your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/actionable-push-notification-2-3.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  In the web-based UI, enter `sys_sg_push_action.list` in the filter navigator to open the push action categories list.
 
-    ![Use the filter navigator to open the push action category list](../image/open-action.png)
+    \[Omitted image "open-action.png"\] Alt text: Use the filter navigator to open the push action category list
 
 2.  In the push action categories list, click **New**.
 
@@ -39,5 +40,5 @@ Role required: admin
 4.  Click **Save**.
 
 
-**Parent Topic:**[Configure actionable push notifications](../concept/actionable-push-notification.md)
+**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
 

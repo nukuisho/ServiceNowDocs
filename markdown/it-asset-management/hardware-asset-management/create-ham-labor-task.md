@@ -2,13 +2,14 @@
 title: Create a labor rate card in Hardware Asset Workspace
 description: Create a labor rate card to record the time worked on a task and associate a rate to the task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-ham-labor-task.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure the Total Cost of Ownership of assets, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure the Total Cost of Ownership of assets, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a labor rate card in Hardware Asset Workspace
@@ -19,7 +20,7 @@ Create a labor rate card to record the time worked on a task and associate a rat
 
 Role required: asset\_admin
 
-Activate the ServiceNow® Cost Management \(com.snc.cost\_management\) plugin. For more information, see [Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/t_ActivatingCostManagement.md).
+Activate the ServiceNow® Cost Management \(com.snc.cost\_management\) plugin. For more information, see [Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_ActivatingCostManagement.md).
 
 ## Procedure
 
@@ -75,7 +76,7 @@ Set conditions
 
 </td><td>
 
-Filter to determine whether the **Use time worked** option applies to this rate card. For more information, see [Create a task rate card in Hardware Asset Workspace](create-ham-task-rate-card.md).This field uses the Condition Count widget to preview what records would be returned by the conditions.
+Filter to determine whether the **Use time worked** option applies to this rate card. For more information, see [Create a task rate card in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-ham-task-rate-card.md).This field uses the Condition Count widget to preview what records would be returned by the conditions.
 
 </td></tr></tbody>
 </table>4.  Select **Save**.
@@ -83,16 +84,16 @@ Filter to determine whether the **Use time worked** option applies to this rate 
 
 ## Result
 
-If you’re working on multiple HAM workflows including a labor rate card, the same value is used for all the time recorded tasks. But a labor rate card isn't included, the Default labor rate mentioned in the task rate card is used. For more information, see [Create a task rate card in Hardware Asset Workspace](create-ham-task-rate-card.md).
+If you’re working on multiple HAM workflows including a labor rate card, the same value is used for all the time recorded tasks. But a labor rate card isn't included, the Default labor rate mentioned in the task rate card is used. For more information, see [Create a task rate card in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-ham-task-rate-card.md).
 
-**Parent Topic:**[Configure the Total Cost of Ownership of assets](../concept/configure-ham-tco.md)
+**Parent Topic:**[Configure the Total Cost of Ownership of assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configure-ham-tco.md)
 
 **Related topics**  
 
 
-[Asset Total Cost of Ownership for Hardware Asset Management](../concept/asset-mgmt-tco.md)
+[Asset Total Cost of Ownership for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-mgmt-tco.md)
 
-[Asset analytics view](../concept/asset-analytics-view.md)
+[Asset analytics view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-analytics-view.md)
 
-[Asset operations view](../concept/asset-operations-view.md)
+[Asset operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-operations-view.md)
 

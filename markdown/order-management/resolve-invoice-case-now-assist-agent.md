@@ -2,12 +2,13 @@
 title: Resolve invoice disputes using agentic workflow
 description: Resolve invoice dispute cases using Now Assist directly from the CSM/FSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/resolve-invoice-case-now-assist-agent.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-05-18"
+reading_time_minutes: 4
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Now Assist for Order Management]
+breadcrumb: [Use, Now Assist for Order Management, Sales Customer Relationship Management]
 ---
 
 # Resolve invoice disputes using agentic workflow
@@ -16,7 +17,11 @@ Resolve invoice dispute cases using Now Assist directly from the CSM/FSM Configu
 
 ## Before you begin
 
-The invoice dispute assist agentic workflow must be made available on the Now Assist panel. For more information, see [Make the invoice dispute assist workflow available in the Now Assist panel](enable-invoice-dispute-assist-agentic-workflow.md).
+The invoice dispute assist agentic workflow must be made available on the Now Assist panel. For more information, see [Make the invoice dispute assist workflow available in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-invoice-dispute-assist-agentic-workflow.md).
+
+Now Assist for CSM must be installed to enable generative AI capabilities in the CSM/FSM Configurable Workspace. For more information, see [Install Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-now-assist-for-customer-service-management-csm.md).
+
+Chat Summarization must be configured to use the summarization and recommendation features. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
 
 Role required: awa\_agent, sn\_csm\_invoice.agent, sn\_otc.accounts\_receivable\_agent, and now\_assist\_panel\_user
 
@@ -26,13 +31,15 @@ When a customer escalates an invoice dispute to a human agent either through a V
 
 When a customer is transferred from the Virtual Assistant, the interaction record opens automatically with a conversation summary, giving you full context of the dispute discussed on the Virtual Assistant side.
 
+You can also use the summarize and chat recommendation features in the Active Chat to improve productivity. For more information, see [Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-chat.md) and [Generate a chat reply recommendation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/generate-chat-reply-recommendations.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  If you're assisting a customer via the live chat, accept the chat.
 
-    1.  Select the Inbox icon ![](../../../reuse/icons/product-icons/inbox-outline-24.svg).
+    1.  Select the Inbox icon \[Omitted image "inbox-outline-24.svg"\] Alt text:.
 
     2.  Change the status to **Available** to be able to accept the live chat.
 
@@ -44,7 +51,7 @@ When a customer is transferred from the Virtual Assistant, the interaction recor
 
         The case number, priority, state, and short description details are displayed for the associated invoice case.
 
-3.  Launch the Now Assist panel by selecting the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png).
+3.  Launch the Now Assist panel by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text:.
 
     The Now Assist panel is context-aware. When you launch it from an open interaction record or invoice case record, it tailors its responses to that record.
 
@@ -66,7 +73,7 @@ When a customer is transferred from the Virtual Assistant, the interaction recor
 
 7.  Select **Validate invoice dispute** to verify the customer's claim.
 
-    The AI agent triggers an ATP API call to cross-check the claimed quantity against delivery records and returns a validation status. If validated, the invoiced and delivered quantities are displayed for your review.
+    The AI agent triggers an ATP API call to cross-check the claimed quantity against delivery records and returns a validation status. If delivery records are unavailable, the AI agent validates the dispute against the original order line quantity. If validated, the invoiced and delivered quantities are displayed for your review.
 
 8.  Select **View invoice details** to review the invoice number, status, account, and associated invoice lines before closing the case.
 
@@ -82,5 +89,12 @@ When a customer is transferred from the Virtual Assistant, the interaction recor
 
 When the dispute is resolved, the invoice case is closed with the resolution details documented in the case notes, and an email notification is sent to the customer with a summary and a hyperlink to the case.
 
-**Parent Topic:**[Using Now Assist for Order Management](../concept/now-assist-order-management-using.md)
+**Parent Topic:**[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-management-using.md)
+
+**Related topics**  
+
+
+[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-using.md)
+
+[Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
 

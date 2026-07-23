@@ -2,6 +2,7 @@
 title: Create a dynamic choice set
 description: Define a fixed set of values for an attribute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-choice-set.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,9 +46,9 @@ For example, you can define a choice set for colors, with red, blue, and green a
 
 ## Add choice set for screen types
 
-![Add a choice set for type of screens.](../image/dynamic-choice-set-example.png)
+\[Omitted image "dynamic-choice-set-example.png"\] Alt text: Add a choice set for type of screens.
 
 ## What to do next
 
-[Add choices to a dynamic choice set](add-choices-choice-set.md)
+[Add choices to a dynamic choice set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/add-choices-choice-set.md)
 

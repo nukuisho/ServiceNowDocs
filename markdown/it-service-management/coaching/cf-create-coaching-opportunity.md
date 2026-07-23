@@ -2,11 +2,12 @@
 title: Define trigger conditions for a coaching opportunity
 description: Use the Coaching Opportunity form to define a critical moment in a process on which a user can be coached. A coaching opportunity consists of the relationship between a process that can be improved, and coaches and trainees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-create-coaching-opportunity.html
 release: australia
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-23"
 reading_time_minutes: 3
 breadcrumb: [Configure, Coaching, IT Service Management]
 ---
@@ -27,15 +28,15 @@ When the triggered conditions defined in a coaching opportunity are met, an asse
 
 1.  Create a coaching opportunity using the guided setup or by using the application navigator.
 
-<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d402275e68">
+<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d408195e68">
 
 To create using
 
-</th><th align="left" id="d402275e71">
+</th><th align="left" id="d408195e71">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d402275e77">
+</th></tr></thead><tbody><tr><td id="d408195e77">
 
 **Guided setup**
 
@@ -45,7 +46,7 @@ Do this
 2.  Go to the **Add a Coaching Opportunity** section and select **Configure**.
 
 
-</td></tr><tr><td id="d402275e113">
+</td></tr><tr><td id="d408195e113">
 
 **The Application navigator**
 
@@ -70,7 +71,7 @@ Navigate to **Coaching** &gt; **Coaching Opportunities**.
         -   To select the assignment group manager as the coach for the selected task record, enable the **Specify coach user** check box and select the coach user from the selected table.
     5.  Add the condition for the critical moment in the **Trigger** fields.
 
-        See [Common ITSM assessment triggers](../concept/cf-coaching-overview.md#section_b5h_3cd_gfb) for examples.
+        See [Common ITSM assessment triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-overview.md) for examples.
 
 4.  Fill in the fields in the **Snapshot Settings** tab.
 
@@ -86,7 +87,7 @@ Navigate to **Coaching** &gt; **Coaching Opportunities**.
 
         If you reduce the random sample size, you can avoid certain trainees from being excluded by specifying **Users who should be coached on every opportunity**. For example, you may want new employees to be coached every time.
 
-    2.  Specify the **Assessment duration** after which the coaching assessment is set to **Closed Complete** state.
+    2.  Specify the **Assessment duration** after which the coaching assessment is set to **Closed Incomplete** state.
 
         You can disable automatic closure behavior by deactivating the **Close assessments after expiration** scheduled job.
 
@@ -106,7 +107,7 @@ Navigate to **Coaching** &gt; **Coaching Opportunities**.
 
         **Note:** You can set strategic objectives by navigating to **Continual Improvement** &gt; **Strategy Objectives**.
 
-        You can add [assigned trainings and virtual coach](cf-identify-learning-content.md) items to the related lists, if applicable, to complete the coaching opportunity.
+        You can add [assigned trainings and virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-identify-learning-content.md) items to the related lists, if applicable, to complete the coaching opportunity.
 
 
 ## Coaching admin defines a trigger condition
@@ -138,10 +139,10 @@ Navigate to **Coaching** &gt; **Coaching Opportunities**.
 |Snapshot Settings|
 |Snapshot fields|Resolution code, Resolution notes, Work notes|
 
-**Parent Topic:**[Configuring Coaching](../concept/cf-configuring-coaching.md)
+**Parent Topic:**[Configuring Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-configuring-coaching.md)
 
 **Related topics**  
 
 
-[Coaching field descriptions](../reference/cf-coaching-field-descriptions.md)
+[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-field-descriptions.md)
 

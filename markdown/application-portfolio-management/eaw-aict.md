@@ -2,6 +2,7 @@
 title: AI Control Tower integration with Enterprise Architecture
 description: View and manage the AI systems associated with a business application from the Enterprise Architecture Workspace to understand AI risk and governance status as part of your broader application portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-aict.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-14"
@@ -99,11 +100,13 @@ An AI system is associated with a business application in one of two ways:
 
 -   A user submits the **Request an AI Use Case** catalog item in the service portal and selects one or more business applications in the **Business Applications** field. This is the recommended intake path because it creates the AI system record in AI Control Tower and establishes the business application association in a single step.
 
-    For information on how to create an AI use case, see [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md).
+    **Note:** The **Business Application** field is only displayed on the service catalog page for the AI system use case if the Enterprise Architecture Workspace version meets the minimum requirement. The field requires Enterprise Architecture Workspace version 9.0.1 or later for Zurich, or version 8.0.3 or later for Australia. If your instance does not meet the minimum version, the Business application field will not appear on the form.
 
-    For information on the **Request an AI use case** form fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-system-form.md).
+    For information on how to create an AI use case, see [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-ai-system.md).
 
--   A user with the APM user \(sn\_apm.apm\_user\) role manually adds an AI system from the **AI systems** tab on a business application record in the Enterprise Architecture Workspace. This is useful for associating AI systems that were not submitted through the service portal intake form. For information, see [Add an existing AI system to a business application](../../task/eaw-task/eaw-add-ai-system-to-ba.md).
+    For information on the **Request an AI use case** form fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-ai-system-form.md).
+
+-   A user with the APM user \(sn\_apm.apm\_user\) role manually adds an AI system from the **AI systems** tab on a business application record in the Enterprise Architecture Workspace. This is useful for associating AI systems that were not submitted through the service portal intake form. For information, see [Add an existing AI system to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-ai-system-to-ba.md).
 
 Only active business applications are available for association. Business applications with a status of Retired or a lifecycle stage of End of Life are excluded automatically, so the associations on an AI system record reflect only applications that are currently in scope for portfolio management.
 
@@ -113,22 +116,24 @@ Removing an AI system association from a business application record does not de
 
 The association between AI systems and business applications is bidirectional. To view linked business applications in AI Control Tower, navigate to **Workspaces** &gt; **AI Control Tower** &gt; **AI Assets** &gt; **AI systems** &gt; **Select an AI system** &gt; **Details** &gt; **Business applications**. This view is read-only in AI Control Tower; to add or remove associations, use the **Related assets** &gt; **Business applications** &gt; **AI systems** tab on the business application record in the Enterprise Architecture Workspace.
 
-For enterprise architects who work primarily in the Enterprise Architecture Workspace and AI stewards who work primarily in AI Control Tower, this bidirectionality means each team sees the same associations from their own workspace without requiring the other team to maintain a separate record.![Business applications related list displayed for an AI system in the AI Control Tower workspace.](../../image/eaw-image/ai-system-aict-related-list.png)
+For enterprise architects who work primarily in the Enterprise Architecture Workspace and AI stewards who work primarily in AI Control Tower, this bidirectionality means each team sees the same associations from their own workspace without requiring the other team to maintain a separate record.\[Omitted image "ai-system-aict-related-list.png"\] Alt text: Business applications related list displayed for an AI system in the AI Control Tower workspace.
 
 ## Required roles
 
 To view the **AI systems** tab on a business application record, you must have the APM User role \(sn\_apm.apm\_user\) or higher. Users with the AI Steward \(sn\_aig.ai\_steward\) or AI Asset Owner \(sn\_aig.ai\_asset\_owner\) role can add or remove AI system associations.
 
-**Parent Topic:**[Exploring the application portfolio](eaw-app-portfolio.md)
+**Parent Topic:**[Exploring the application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-app-portfolio.md)
 
 **Related topics**  
 
 
-[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-home-page.md)
+[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-home-page.md)
 
-[eaw-exploring-the-ai-portfolio.md](eaw-exploring-the-ai-portfolio.md)
+[Exploring the AI Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-exploring-the-ai-portfolio.md)
 
-[Remove an AI system from a business application](../../task/eaw-task/eaw-unassign-ai-system-from-ba.md)
+[Remove an AI system from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-unassign-ai-system-from-ba.md)
 
-[View AI system details from a business application](../../task/eaw-task/eaw-view-ai-system-in-aict-from-ba.md)
+[View AI system details from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-ai-system-in-aict-from-ba.md)
+
+[Exploring the AI Portfolio tab on the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dashboard-exploring-ai-portfolio-tab.md)
 

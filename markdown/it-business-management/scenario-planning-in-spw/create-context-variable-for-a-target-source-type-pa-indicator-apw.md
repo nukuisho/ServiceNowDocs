@@ -1,7 +1,8 @@
 ---
-title: Create a context variable for the target source type PA Indicator
+title: Create a context variable for a PA Indicator target source
 description: Create a context variable manually for the target source type PA Indicator if the breakdown is of Choice list type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-context-variable-for-a-target-source-type-pa-indicator-apw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -11,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Configuring target source for target automation, Configuring goals in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create a context variable for the target source type PA Indicator
+# Create a context variable for a PA Indicator target source
 
 Create a context variable manually for the target source type PA Indicator if the breakdown is of Choice list type.
 
@@ -37,7 +38,7 @@ Creating a context variable is similar to creating a column on a table.
 
 4.  On the form, fill in the **Type** field as Choice and the other fields as needed.
 
-    For a description of the field values, see [Context Variable form](../reference/context-variable-form-apw.md).
+    For a description of the field values, see [Context Variable form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/context-variable-form-apw.md).
 
 5.  Click **Submit**.
 
@@ -99,5 +100,5 @@ Sys\_id of the choice value for which the context variable is created. You can c
 
 The goal user can configure these choices as context variables on the Target form for which the target source is configured.
 
-**Parent Topic:**[Configuring target source for target automation](../concept/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md)
+**Parent Topic:**[Configuring target source for target automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md)
 

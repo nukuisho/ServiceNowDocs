@@ -2,6 +2,7 @@
 title: Configure the blur app option to improve security
 description: As a security feature, administrators can configure the mobile app to blur or appear blackened, depending on the operating system, when not in focus on a mobile device. When you double-click the home button on your mobile device to close apps or navigate back to where you left off, the ServiceNow app appears blurred or blackened.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/t\_BlurApp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -58,7 +59,7 @@ Before you enable the **glide.sg.blur\_ui\_when\_backgrounded** system property,
 
 With the property in place, the app is blurred when not in focus.
 
-![App is blurred when not in focus](../image/BlurApp.png)
+\[Omitted image "BlurApp.png"\] Alt text: App is blurred when not in focus
 
-**Parent Topic:**[Mobile system property configurations](../concept/additional-mobile-configuration.md)
+**Parent Topic:**[Mobile system property configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/additional-mobile-configuration.md)
 

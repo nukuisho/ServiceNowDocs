@@ -2,11 +2,12 @@
 title: Review HR artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance Analytics application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-hr-install-artifacts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Impact Value Management Data Collection Content Pack for HR, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for HR, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Review HR artifacts
@@ -80,4 +81,6 @@ The app contains the following artifacts for each of the above-specified artifac
 |Dashboard|Impact VM - HR|
 |Group Type|Tier 1|
 |Group Type|Tier 2+|
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-hr.md)
 

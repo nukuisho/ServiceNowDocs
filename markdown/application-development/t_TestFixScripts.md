@@ -2,6 +2,7 @@
 title: Test a fix script
 description: Test your fix scripts to ensure they install or update applications as expected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/t\_TestFixScripts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ Fix scripts add, update, and delete data, including rules, scripts, and property
 
 4.  Confirm how to run the script.
 
-<table id="choicetable_bkd_345_cr"><tbody><tr><td id="d265035e98">
+<table id="choicetable_bkd_345_cr"><tbody><tr><td id="d261018e98">
 
 **__Proceed in Background__**
 
@@ -45,7 +46,7 @@ Fix scripts add, update, and delete data, including rules, scripts, and property
 
 Use this option for long-running scripts, or if you do not know the expected execution time.
 
-</td></tr><tr><td id="d265035e108">
+</td></tr><tr><td id="d261018e108">
 
 **__Proceed__**
 
@@ -54,7 +55,7 @@ Use this option for long-running scripts, or if you do not know the expected exe
 Use this option to run the script immediately and display the results in a confirmation window.
 
 </td></tr></tbody>
-</table>    ![Successful fix script test](../image/FixScriptTest.png)
+</table>    \[Omitted image "FixScriptTest.png"\] Alt text: Successful fix script test
 
 5.  Review the results from the Progress Workers related list, and make any necessary changes.
 
@@ -64,6 +65,6 @@ Use this option to run the script immediately and display the results in a confi
 
     2.  Select the **Cancel job** related link.
 
-    ![Progress Workers results](../image/ProgressWorkers.png)
+    \[Omitted image "ProgressWorkers.png"\] Alt text: Progress Workers results
 
 

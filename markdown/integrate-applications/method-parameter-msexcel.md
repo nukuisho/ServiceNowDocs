@@ -2,11 +2,12 @@
 title: Parameters of the Microsoft Excel connector methods
 description: Learn about the parameters of the Microsoft Excel connector methods in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/method-parameter-msexcel.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Microsoft Excel, Connectors, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Microsoft Excel, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Parameters of the Microsoft Excel connector methods
@@ -837,7 +838,7 @@ No
 </td></tr></tbody>
 </table>## Enter inputs for parameters
 
-To enter inputs for the parameters, see [Configure port properties](../task/configure-input-port-properties.md).
+To enter inputs for the parameters, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
-**Parent Topic:**[Microsoft Excel](../concept/microsoft-excel-connector.md)
+**Parent Topic:**[Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-excel-connector.md)
 

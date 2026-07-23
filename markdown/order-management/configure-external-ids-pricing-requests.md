@@ -2,6 +2,7 @@
 title: Configure context variables for external IDs
 description: Set up a context variable for each external ID to be used in pricing requests and map the variable to a reference field in a ServiceNow reference table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-external-ids-pricing-requests.html
 release: australia
 topic_type: task
 last_updated: "2026-04-29"
@@ -24,7 +25,7 @@ The Sales CRM Pricing API supports external IDs in pricing requests. For each ex
 -   Source reference table
 -   Reference field name
 
-For information on the pricing API, see [Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales-crm-pricing-api.md).
+For information on the pricing API, see [Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md).
 
 **Note:** Only a single reference field for an external ID is supported as a key to resolve an external ID with a sys\_id. To get an accurate and valid response, the external ID or code sent in a reference field must map to a unique record in the source reference table.
 
@@ -34,9 +35,9 @@ For information on the pricing API, see [Sales CRM Pricing API](https://raw.gith
 
 2.  Set the application scope to Context Rule Management.
 
-    Use the scope selection menu icon ![](../../../reuse/icons/product-icons/globe-outline-24.svg) in the header bar to select the scope.
+    Use the scope selection menu icon \[Omitted image "globe-outline-24.svg"\] Alt text: in the header bar to select the scope.
 
-3.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+3.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 4.  Navigate to **Context Rule Management** &gt; **Context Variables**.
 
@@ -52,13 +53,15 @@ For information on the pricing API, see [Sales CRM Pricing API](https://raw.gith
 
         The **Column name** and **Code** fields are automatically generated based on the **Label name** entered. The default value for the **Type of mapping** field is set to Field mapping.
 
-        **Note:** You can enter your own **Code** value to replace the system-generated code.
+        **Note:** You can enter your own **Code** value to replace the system-generated code. If the context variable is used in a published pricing or product eligibility matrix, the **Code** value for the context variable can't be changed.
 
     3.  In the **Context type** field, select the context that indicates where the variable is retrieved from, for example the Transaction Header or Transaction Line for an opportunity or quote.
 
-    4.  In the **Reference** field in the Reference Specification section, select the source reference table for the variable.
+    4.  In the **Applicable to** field, select Pricing.
 
-    5.  In the **Pricing api key field**, select the reference field to be used from the source reference table specified in Step d.
+    5.  In the **Reference** field in the Reference Specification section, select the source reference table for the variable.
+
+    6.  In the **Pricing api key field**, select the reference field to be used from the source reference table specified in Step e.
 
 7.  Select **Save**.
 

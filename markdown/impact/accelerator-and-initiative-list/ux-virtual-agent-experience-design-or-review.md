@@ -1,7 +1,8 @@
 ---
 title: UX: Virtual Agent Experience Design or Review
-description: This accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or Now Assist in Virtual Agent.
+description: This Accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or Now Assist in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-virtual-agent-experience-design-or-review.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -9,18 +10,20 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Virtual Agent, UX Design, Conversation Design, Now Assist, User Experience]
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Virtual Agent Experience Design or Review
 
-This accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or Now Assist in Virtual Agent.
+This Accelerator provides guidance on designing or improving the conversational experience of Virtual Agent or Now Assist in Virtual Agent.
 
 ## Accelerator Overview
 
 UX: Virtual Agent Experience Design or Review helps Impact customers create more intuitive and efficient Virtual Agent \(VA\) and Now Assist in VA experiences. We will review their existing VA implementation and share conversation design best practices to help users resolve inquiries faster with less frustration. We will provide actionable recommendations to enhance user interactions, streamline conversation flows, and boost overall satisfaction.
 
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(Platform Governance\), Advanced and Total Packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact  Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
 
 ## What You Get
 
@@ -48,6 +51,8 @@ UX: Virtual Agent Experience Design or Review helps Impact customers create more
 |UX &amp; OCM Expert|Primary stakeholders and advocates for user experience and organizational change management.| |✓|
 |Process/Service Owner\(s\)|A senior leader within each business unit for each major process or service \(e.g., incident, change, employee onboarding\) who is accountable for ensuring the process is fit for purpose.| |✓|
 |Trusted Service Partner\(s\)|Attends ServiceNow Impact accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
+
+## Requested Information/Access
 
 ## Requested Information/Access
 

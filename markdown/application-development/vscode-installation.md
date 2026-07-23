@@ -2,6 +2,7 @@
 title: Install ServiceNow Extensions for VS Code
 description: Download and install ServiceNow extensions to begin editing your applications in VS Code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/vscode-installation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ In order to install ServiceNow Extensions for Visual Studio Code, you must have 
 
 ## Procedure
 
-1.  Open VS Code and navigate to the **Extensions** tab by clicking the Extensions tab icon \(![Extensions tab icon](../image/extensions-tab-icon.png)\) or pressing Control+Shift+X on Windows or Command+Shift+X on MacOS.
+1.  Open VS Code and navigate to the **Extensions** tab by clicking the Extensions tab icon \(\[Omitted image "extensions-tab-icon.png"\] Alt text: Extensions tab icon\) or pressing Control+Shift+X on Windows or Command+Shift+X on MacOS.
 
 2.  In the Visual Studio Code Marketplace, enter `ServiceNow` or `ServiceNow Extensions` in the **Search Visual Studio Code Extensions** search box.
 
@@ -38,7 +39,7 @@ In order to install ServiceNow Extensions for Visual Studio Code, you must have 
 
 ## What to do next
 
-Once you reload VS Code [activate](activate-servicenow-ext.md) the ServiceNow extension.
+Once you reload VS Code [activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/activate-servicenow-ext.md) the ServiceNow extension.
 
-**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](../concept/vs-code.md)
+**Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/vs-code.md)
 

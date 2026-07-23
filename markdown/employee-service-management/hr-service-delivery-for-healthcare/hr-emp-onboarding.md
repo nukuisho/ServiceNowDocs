@@ -2,6 +2,7 @@
 title: Healthcare Employee Onboarding form
 description: A hiring agent or a manager places an onboarding request for a healthcare professional via the Healthcare Employee onboarding form in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-healthcare/hr-emp-onboarding.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -33,34 +34,34 @@ A hiring agent or a manager places an onboarding request for a healthcare profes
 |Manager|Reporting manager of the healthcare professional.|
 |Company Location|Location in which the healthcare organization is situated.|
 
-**Parent Topic:**[HR Service Delivery for Healthcare reference](reference-hr-healthcare.md)
+**Parent Topic:**[HR Service Delivery for Healthcare reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/reference-hr-healthcare.md)
 
 **Related topics**  
 
 
-[Installed with HR Service Delivery for Healthcare](installed-with-hr-hc.md)
+[Installed with HR Service Delivery for Healthcare]()
 
-[Healthcare professional profile form](hr-service-healthcare.md)
+[Healthcare professional profile form]()
 
-[Professional ID form](hc-professional-profile.md)
+[Professional ID form]()
 
-[Professional liability Insurances form](hr-prof-liab.md)
+[Professional liability Insurances form]()
 
-[Professional reference form](hr-professional-ref.md)
+[Professional reference form]()
 
-[Professional speciality form](hc-prof-spec.md)
+[Professional speciality form]()
 
-[Malpractice history form](hr-mal-his.md)
+[Malpractice history form]()
 
-[Education and Training form](hr-edu-tra.md)
+[Education and Training form]()
 
-[Practice location form](hr-prac-loc.md)
+[Practice location form]()
 
-[Employment history form](hr-emp-det.md)
+[Employment history form]()
 
-[Languages Spoken form](hr-emp-lan.md)
+[Languages Spoken form]()
 
-[Hospital Affiliations form](hr-hos-aff.md)
+[Hospital Affiliations form]()
 
-[Payers Enrollment form](hr-payer-en.md)
+[Payers Enrollment form]()
 

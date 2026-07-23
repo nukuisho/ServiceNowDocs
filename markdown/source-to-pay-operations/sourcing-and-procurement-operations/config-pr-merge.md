@@ -2,6 +2,7 @@
 title: Configure conditions for merging purchase requisitions
 description: Configure the conditions under which the purchase requisitions \(PR\) should be merged.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/config-pr-merge.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,7 +24,7 @@ Role required: sn\_shop.shopping\_hub\_admin or sn\_shop.procurement\_administra
 
 The conditions that you set determine when to merge the purchase requisitions.
 
-**Note:** The existing default scenarios for merging purchase requisitions and purchase lines remain valid and function as they did previously. For more information, see [Purchase requisition merging](../concept/purchase-requisition-merging.md).
+**Note:** The existing default scenarios for merging purchase requisitions and purchase lines remain valid and function as they did previously. For more information, see [Purchase requisition merging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition-merging.md).
 
 You cannot merge the PRs that are in any of the following states:
 
@@ -43,7 +44,7 @@ You cannot merge the PRs that are in any of the following states:
 
     The **Configuration type** field is set to **Merge configuration** by default.
 
-    ![Purchase requisition merge conditions.](../image/pr-merge.png)
+    \[Omitted image "pr-merge.png"\] Alt text: Purchase requisition merge conditions.
 
 3.  The **Active** check box is selected by default.
 
@@ -115,26 +116,28 @@ Allows you to define conditions to manually merge PRs, based on any of the field
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](../concept/configuring-spo.md)
+**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
-[Install Sourcing and Procurement Operations](activate-finance-spend-central.md)
+[Install Sourcing and Procurement Operations]()
 
-[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+[Setting up primary data for ShoppingHub]()
 
-[Configure punchout for third-party site purchases](configure-supplier-punchout.md)
+[Configure punchout for third-party site purchases]()
 
-[Configuring work prioritization](../concept/configuring-work-prioritization.md)
+[Configuring work prioritization]()
 
-[Add a new button in Shopping Hub](add-new-button-shoppinghub.md)
+[Add a button in Shopping Hub]()
 
-[Customize your top suppliers on Shopping Hub](customize-top-suppliers.md)
+[Customize your top suppliers on Shopping Hub]()
 
-[Service portal configuration for ShoppingHub](../concept/service-portal-configuration-for-shoppinghub.md)
+[Service portal configuration for ShoppingHub]()
 
-[Install ShoppingHub Mobile](install-shoppinghub-mobile.md)
+[Install ShoppingHub Mobile]()
 
-[Advanced Work Assignment for Source-to-Pay Operations](../concept/awa-spo.md)
+[Advanced Work Assignment for Source-to-Pay Operations]()
+
+[Install Universal Request for Sourcing and Procurement Operations]()
 

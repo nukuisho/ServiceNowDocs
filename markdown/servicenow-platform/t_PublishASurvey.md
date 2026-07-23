@@ -2,6 +2,7 @@
 title: Publish a survey
 description: You must publish a survey to enable people to receive and complete survey instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_PublishASurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,46 +32,46 @@ The **State** field on the Survey Definition form indicates whether the survey i
 
 2.  Click **Publish**.
 
-    When you publish a survey, the system generates survey instances for any associated survey users. You can [assign](t_SendSurveyInvitationsToUsers.md) the survey to other users manually.
+    When you publish a survey, the system generates survey instances for any associated survey users. You can [assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SendSurveyInvitationsToUsers.md) the survey to other users manually.
 
 
--   **[Publish a survey in the Survey Designer](t_PublishASurveyInSurveyDesigner.md)**  
+-   **[Publish a survey in the Survey Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PublishASurveyInSurveyDesigner.md)**  
 You must save changes to a survey before you can publish it to the specified recipients or groups.
 
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](../concept/c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Survey users and groups](../concept/c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Copy a survey](copy-survey.md)
+[Copy a survey]()
 
-[Customize the appearance of a survey](t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Survey definitions](../concept/c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Create a survey designer template question](t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](../concept/c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](../concept/c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](../concept/c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Sentiment analysis for surveys](../concept/sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](../concept/c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](../concept/survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](../concept/c_MigrateSurveys.md)
+[Legacy survey migration]()
 

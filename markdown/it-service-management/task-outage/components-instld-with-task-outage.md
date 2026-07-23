@@ -2,6 +2,7 @@
 title: Components installed with Task-Outage Relationship
 description: The Task Outage table is installed with activation of the Task-Outage Relationship plugin \(com.snc.task\_outage\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-outage/components-instld-with-task-outage.html
 release: australia
 product: Task Outage
 classification: task-outage
@@ -42,5 +43,5 @@ Task Outage\[task\_outage\]
 A many-to-many table that stores references to the Task \[task\] and Outage \[cmdb\_ci\_outage\] tables.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Task-Outage Relationship](../task/activate-task-outage.md)
+</table>**Parent Topic:**[Activate Task-Outage Relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-outage/activate-task-outage.md)
 

@@ -36,16 +36,23 @@ See [Explore data products](https://raw.githubusercontent.com/ServiceNow/Service
 
 -   **[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md)**
 
-    Access data from external systems in place without replication using federated queries with pushdown query execution. Query sources such as Snowflake, Databricks, and native ServiceNow data in real time or near-real time without moving data into your instance.
+    Access data from external systems in place without replication using federated queries with pushdown query execution. Query sources such as Snowflake, Databricks, and native ServiceNow data in real-time or near-real time without moving data into your instance.
 
 -   **[Catalog-First Authoring Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/data-catalog.md)**
 
     Discover and onboard data assets directly from the Data Catalog and create data interfaces and data products from catalog assets without switching contexts. Build on catalog-registered data sources to improve reuse and reduce duplication of data efforts across your organization.
 
 
+## Changed in the release
+
+-   **[Edit a published data interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/edit-data-interface-wdf.md)**
+
+    Modify a published data interface to add columns, swap source tables, change the combination method, update column mappings, or adjust join conditions. Existing consumers continue to use the interface and must reconnect to pick up structural changes.
+
+
 ## Activation information
 
-Install Data products by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Data products by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -71,5 +78,5 @@ Install Data products by requesting it from the ServiceNow Store. Visit the [Ser
     The ServiceNow® Data Catalog is the self-service discovery layer where consumers find published data products, review metadata and documentation, and request access. After a data product is published and the metadata collector runs, it becomes discoverable in the Data Catalog.
 
 
-**Parent Topic:**[App development and low-code release notes](build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
 

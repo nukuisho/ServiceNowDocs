@@ -2,6 +2,7 @@
 title: Customer success management tables
 description: This section includes the Customer Success Management tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-success-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,5 +44,5 @@ This section includes the Customer Success Management tables.
 |Applicable team members|Associates team members with an engagement.|
 |Applicable customer team|Associate a customer team with an engagement.|
 
-**Parent Topic:**[Customer Success Management reference](account-lifecycle-reference.md)
+**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
 

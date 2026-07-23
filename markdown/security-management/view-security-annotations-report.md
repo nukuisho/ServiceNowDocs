@@ -2,9 +2,10 @@
 title: View security annotations reports
 description: The Security Annotations report presents details stored in the Security Annotations \[sn\_sec\_cmn\_security\_annotations\] table. You can customize the columns in the report and group the data in any way that suits you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/view-security-annotations-report.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Security annotations, Security Operations common functionality, Security Operations]
 ---
@@ -24,16 +25,16 @@ Role required: admin
 2.  Search for Security Annotations under **My reports** or **All.**
 
 
-**Parent Topic:**[Security annotations](../concept/security-annotations.md)
+**Parent Topic:**[Security annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-annotations.md)
 
 **Related topics**  
 
 
-[Create security annotations for CIs](create-security-annotations.md)
+[Create security annotations for CIs]()
 
-[Create security annotations for observables](create-security-annotations-multiple.md)
+[Create security annotations for observables]()
 
-[Create security annotations for users](create-multi-sec-annotations-for-users.md)
+[Create security annotations for users]()
 
-[View the Reports list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/r_ViewTheReportsList.md)
+[View the Reports list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/r_ViewTheReportsList.md)
 

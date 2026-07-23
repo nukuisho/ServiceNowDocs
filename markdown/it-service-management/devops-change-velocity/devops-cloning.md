@@ -2,6 +2,7 @@
 title: Cloning guidelines for DevOps Change Velocity
 description: Clone the DevOps Change Velocity application from one instance to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-cloning.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -230,5 +231,5 @@ Aim to have all the m2m mapping intact in the target instance.
 |Waiting Reason Tracking|sn\_devops\_waiting\_reason\_tracking|DevOps Data Model|
 |Work Item|sn\_devops\_work\_item|DevOps Data Model|
 
-**Parent Topic:**[Managing DevOps Change Velocity](../concept/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

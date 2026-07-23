@@ -2,9 +2,10 @@
 title: Data flow, planning, and execution in an event
 description: When the configuration item data is available on the ServiceNow AI Platform the same items can be used to assess dependencies in business impact analysis \(BIA\). The dependencies from the BIA can then be used in the planning and events. The configuration items \(CIs\) can be added manually to the plans and events as well.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/planning-execution-event-bcm.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -37,7 +38,7 @@ When a record in created in ServiceNow AI Platform as a configuration item in CM
 
     When you are in the planning stage, if you have scoped the BIA-dependent item and added it as the scope, then the dependencies of the scoped item are available as Related Assets. Also, the plans existing for these assets are available as Related Plans. In addition, you can add new plans also. For example, a plan is created for Data Center: NYC, along with which the related plans of the related assets such as SAP on-premise application and Facility: New York \(created in BIA\) also move in to the planning phase automatically. In addition to the items that came from the BIA, you can also add new assets manually to the plan.
 
-    In the **Recovery Tasks** tab of a plan, you can also [refer to a different plan](../task/bcp-recovery-tasks-grid.md#refer-related-plan-bcp) and select the plan from the list of related plans.
+    In the **Recovery Tasks** tab of a plan, you can also [refer to a different plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-recovery-tasks-grid.md) and select the plan from the list of related plans.
 
 -   **Exercise**
 
@@ -48,7 +49,7 @@ When a record in created in ServiceNow AI Platform as a configuration item in CM
 
 In this planning phase, as a planner you can identify the related assets, add the related plans, and set a sequence and dependencies for execution of recovery.
 
-![Recovery tasks to activate related plans.](../image/RecoveryTaskPlanningBCP.png "Recovery tasks to activate related plans")
+\[Omitted image "RecoveryTaskPlanningBCP.png"\] Alt text: Recovery tasks to activate related plans.
 
 If you must recover assets in Data center A before recovering assets in Data center B, then you can refer to a different plan that follows the recovery process of Data Center A. In this case, use the **Refer a different plan** option in the **Recovery Tasks** tab of the main plan, and select the relevant plan from the related plans to recover Data center A. The referred plan has its own set of tasks that the application executes when it comes to this particular task. You can also set a sequence for the execution of the referred plan within the event tasks of the main plan.
 

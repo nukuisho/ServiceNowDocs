@@ -2,22 +2,23 @@
 title: Create scripts
 description: Learn how to create advanced functions using the scripting interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/scripting.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create scripts
 
 Learn how to create advanced functions using the scripting interface.
 
-Some use cases require an advanced condition or action. Other times, the administrator may prefer script versus leveraging simple rules. For these occasions, CPQ offers the ability to write scripts in key areas.
+Some use cases require an advanced condition or action. Other times, the administrator may prefer script versus leveraging simple rules. For these occasions, ServiceNow CPQ offers the ability to write scripts in key areas.
 
 Scripting is available in rule actions and conditions, behind the Advanced menu choice or toggle.
 
-![Rule](../images/cpq-scripting-advanced.png)
+\[Omitted image "cpq-scripting-advanced.png"\] Alt text: Rule
 
 When you click **Create Advanced Function**, the script editor opens, including the tools you need to write a script.
 
@@ -31,19 +32,19 @@ When the script editor first opens, it provides the expected return format of th
 -   Advanced inclusion and exclusion rules return an array.
 -   Product rules return ProductList.
 
-For more details and a script sample, review the "Advanced product actions" section of [Rules](rules_101.md).
+For more details and a script sample, review the "Advanced product actions" section of [Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rules_101.md).
 
 The **? Help** button opens a menu of available functions. Each entry includes a description of the function, the parameters it accepts, its output, and an example that can be inserted at the current location of the cursor in the script.
 
-![Script](../images/cpq-scripting-available-functions.png)
+\[Omitted image "cpq-scripting-available-functions.png"\] Alt text: Script
 
 As you type in the script editor, suggestions are provided, including functions, configurable field variable names, and local variables. Using this feature helps eliminate mismatched variable names and typing errors. In the screenshot below, typing `Ma` gives the user two available functions \(Map and Math\) and a list of all matching fields. Additional inputs narrow the list of matching options.
 
-![Map structure](../images/cpq-scripting-typeahead.png)
+\[Omitted image "cpq-scripting-typeahead.png"\] Alt text: Map structure
 
 At the bottom of the scripting interface, the debugger lets you test your script by defining values for the variables \(fields\) that it references. Debugger input is provided in JSON format. For your convenience, review field-specific formats in the fields information help \(arrow\).
 
-![Help screen](../images/cpq-scripting-debugger.png)
+\[Omitted image "cpq-scripting-debugger.png"\] Alt text: Help screen
 
 It can be helpful to save your debugger inputs as comments in your script for easy pasting into the debugger when you need to test the script.
 
@@ -60,13 +61,13 @@ Also see the following sample scripts:
 **Related topics**  
 
 
-[CPQ scripting language reference](cpq-logik-io-scripting-language-reference.md)
+[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-[Sample scripts](cpq-sample-scripts.md)
+[Sample scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-sample-scripts.md)
 
-[Using comments and the console to debug scripts](rules-enrichments-comments-and-console_log.md)
+[Using comments and the console to debug scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/rules-enrichments-comments-and-console_log.md)
 
-[Scripting: Checking for first and subsequent configurations](enrichments_on_configurer_and_reconfigure_behavior.md)
+[Scripting: Checking for first and subsequent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments_on_configurer_and_reconfigure_behavior.md)
 
-[Scripting: How to populate set values](enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md)
+[Scripting: How to populate set values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enrichments-on-configure-reconfigure-scripts-how-to-populate-set-values.md)
 

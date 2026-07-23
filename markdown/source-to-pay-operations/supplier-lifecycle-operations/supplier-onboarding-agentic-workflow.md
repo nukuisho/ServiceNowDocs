@@ -2,6 +2,7 @@
 title: AI driven supplier onboarding using Now Assist for SLO
 description: Use the AI driven supplier onboarding playbook to automate onboarding tasks such as supplier registration, information validation, and task list generation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supplier-onboarding-agentic-workflow.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -111,9 +112,9 @@ AI driven primary data validation
 
 </td><td>
 
-This activity is triggered during the registration stage to validate banking details submitted by the supplier contact. It cross-references the banking details against the information in the attached proof and highlights any discrepancies, enabling the supplier relationship manager to resolve them.A supplier task is first created for the supplier contact to submit banking details through the Supplier Collaboration Portal. Once the supplier contact submits the banking details, the AI driven primary data validation activity is triggered. The supplier relationship manager can then choose to update either the record or the attached proof to resolve the discrepancies.
+This activity is triggered during the registration stage to validate banking details submitted by the supplier contact. It cross-references the banking details against the information in the attached proof and highlights any discrepancies. **Note:** In case of discrepancies, supplier managers can reopen the banking information task. Supplier contacts can then update the required information.
 
-**Note:** Supplier contacts must select the **Extract values from the attachment to auto-populate form fields.** checkbox while completing the supplier banking information task to auto-populate bank name, account holder name, and account number.
+Supplier contacts can auto-populate the bank name, account holder name, and account number fields by selecting the **Extract values from the attachment to auto-populate form fields** checkbox.
 
 </td></tr></tbody>
 </table>The AI agent decision log displays the AI agents that are working to resolve the case, and you can watch their interactions, decisions, and thought processes as they happen in real time.
@@ -121,7 +122,7 @@ This activity is triggered during the registration stage to validate banking det
 **Related topics**  
 
 
-[Activate AI agents](../task/activate-ai-agents.md)
+[Activate AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/activate-ai-agents.md)
 
-[Supplier document strategy generator AI agent](supplier-document-strategy-generator-ai-agent.md)
+[Supplier document strategy generator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-document-strategy-generator-ai-agent.md)
 

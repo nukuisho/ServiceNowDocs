@@ -2,6 +2,7 @@
 title: Resource generators in Recommended Actions
 description: Resource generators in Recommended Actions provide resources that you can use as inputs to actions such as guidances and field recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-resource-generators.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Resource generators provide resources such as a knowledge article, a set of case
 
 Another way to think of a resource generator is as a function with inputs and outputs. For example, you can create a resource generator that predicts a knowledge article and then use that knowledge article as a recommended action for a case.
 
-You can select a resource generator from the list or create a resource generator. For a complete list of resource generators that are included with the Recommended Actions application, see [Components installed with Recommended Actions](../reference/ra-csm-installed-components.md).
+You can select a resource generator from the list or create a resource generator. For a complete list of resource generators that are included with the Recommended Actions application, see [Components installed with Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-installed-components.md).
 
 ## Resource generator types
 
@@ -53,7 +54,7 @@ Decision table
 
 </td><td>
 
-Returns the results of the selected decision table. Use decision tables to help you resolve a complex decision that depends on multiple inputs and predetermined outputs. For example, a decision table might require inputs such as age, location, and health history to provide suggestions for different aspects of health insurance. You can use these suggestions, which are the outputs of the decision table, as action inputs for a recommendation.For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
+Returns the results of the selected decision table. Use decision tables to help you resolve a complex decision that depends on multiple inputs and predetermined outputs. For example, a decision table might require inputs such as age, location, and health history to provide suggestions for different aspects of health insurance. You can use these suggestions, which are the outputs of the decision table, as action inputs for a recommendation.For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +81,7 @@ AI search
 Returns the AI search results and genius results based on real-time data and insights regardless of the search source. These results are relevant to the context of a record. This resource generator type requires the following inputs:-   **Search field** - The field on which the AI search is performed.
 -   **Top N results** - The number of records to return from the AI search.
 
-For example, you can configure AI search to recommend a KB article or similar case based on the relevancy and context of the short description. For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
+For example, you can configure AI search to recommend a KB article or similar case based on the relevancy and context of the short description. For more information, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/overview-ais.md).
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ Classification
 Uses machine learning algorithms to recommend field values during record creation. This resource generator type requires the following inputs:-   **Classification definition** - The Predictive Intelligence classification model to return the predicted values or record references for a field on a table.
 -   **Top N Results** - The number of values or records to return from the relevant records predicted by the classification definition.
 
- For example, you can configure the classification solution to recommend a value for the category or assignment group based on the short description. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
+ For example, you can configure the classification solution to recommend a value for the category or assignment group based on the short description. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ Similarity
 Identifies existing records with similar values to a context record. You must create a word corpus that acts as a vocabulary for the machine learning system to compare trained records. This resource generator type requires the following inputs:-   **Similarity definition** - The similarity solution definition to return records that are relevant to the context record.
 -   **Top N Results** - The number of records to return from the relevant records predicted by the similarity definition.
 
- For example, you can find similar resolved cases to propose a resolution as a recommended action. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
+ For example, you can find similar resolved cases to propose a resolution as a recommended action. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +131,7 @@ This resource generator type requires the following inputs:
 -   **Solution**: The solution contains configuration for recommended input fields and recommended output fields for prediction. The solution also contains preference whether the fields are auto-filled or a recommendation message is displayed. The Task Intelligence classification model predicts multiple values or record references for fields on a table.
 -   **Top N Results** - The number of values or records to return from the relevant records predicted by the solution definition.
 
-For example, you can configure the Task Intelligence classification solution to recommend a value for the category or assignment group based on the short description. For more information, see [Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/task-intelligence.md).
+For example, you can configure the Task Intelligence classification solution to recommend a value for the category or assignment group based on the short description. For more information, see [Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence.md).
 
 **Note:** The Task Intelligence Admin Console \(com.sn\_ti\_admin\) plugin must be installed for selecting the Task Intelligence Classification resource generator type.
 
@@ -154,7 +155,7 @@ Identifies existing records with similar values to a context record. Uses machin
 -   **Predicted value**: For non-reference type fields, the Task Intelligence Admin Solution returns a predicted value.
 -   **Predicted record**: For reference type fields, the Task Intelligence Admin Solution returns a predicted record.
 
-For more information, see [Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/task-intelligence.md).
+For more information, see [Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -179,7 +180,7 @@ This resource generator evaluates the trend on the results of TI Similarity pred
 -   **Highest confidence record**: Reference of the highest confidence ML result record.
 -   **Qualified Records Sys IDs**: List of sys IDs of all qualified records.
 
-For more information, see [Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/task-intelligence.md).
+For more information, see [Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence.md).
 
 </td></tr></tbody>
 </table>## Timeout handling for resource generators
@@ -200,5 +201,5 @@ The **sn\_nb\_action\_adv.similarity\_prediction.timeout** system property contr
 **Related topics**  
 
 
-[Create a resource generator in Recommended Actions](../task/ra-csm-resource-generators-create.md)
+[Create a resource generator in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-resource-generators-create.md)
 

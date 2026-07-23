@@ -2,6 +2,7 @@
 title: Working with responsive dashboards
 description: Responsive dashboards enable you to share widgets such as reports and Performance Analytics visualizations in the classic environment. An easy-to-use drag and drop canvas helps you create, edit, and arrange content, and then share it with colleagues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_ResponsiveDashboards.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -15,7 +16,7 @@ breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Re
 
 Responsive dashboards enable you to share widgets such as reports and Performance Analytics visualizations in the classic environment. An easy-to-use drag and drop canvas helps you create, edit, and arrange content, and then share it with colleagues.
 
-The dashboard\_admin role is required to create or edit Core UI Responsive Dashboards, which may still be necessary in Service Portal, for example. To create dashboards in Platform Analytics experience, see [Dashboards in Platform Analytics](../../par-for-workspace/concept/analytics-center-dashboards.md).
+The dashboard\_admin role is required to create or edit Core UI Responsive Dashboards, which may still be necessary in Service Portal, for example. To create dashboards in Platform Analytics experience, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
 
 Use dashboards to:
 
@@ -25,12 +26,12 @@ Use dashboards to:
 -   Snap the widgets into a predefined layout, then adjust the layout as desired.
 -   Access information that you use frequently by setting dashboards as your **Home**.
 
-Watch this three-minute video to learn more about flexible layouts, multiple tabs, sharing, converting homepages to dashboards, and enabling responsive dashboards. How to get started using responsive dashboards 
+Watch this three-minute video to learn more about flexible layouts, multiple tabs, sharing, converting homepages to dashboards, and enabling responsive dashboards. \[Omitted video\] Description: How to get started using responsive dashboards
 
 ## Benefits
 
--   Optimize performance with configurable widget loading. For more information on the benefits of configurable widget loading, see [Optimize widget rendering time on responsive dashboards](../task/t_optimizeWidgetRenderingTime.md).
--   Use the **Restrict to roles** field to [specify roles required to access the dashboard](../task/restrict-dashboard-access-to-certain-roles.md). Users with any of the specified roles can access the dashboard if they have been given access on the dashboard's **Share** panel.
+-   Optimize performance with configurable widget loading. For more information on the benefits of configurable widget loading, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
+-   Use the **Restrict to roles** field to [specify roles required to access the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/restrict-dashboard-access-to-certain-roles.md). Users with any of the specified roles can access the dashboard if they have been given access on the dashboard's **Share** panel.
 
 ## Limitation
 
@@ -39,5 +40,5 @@ ServiceNow mobile apps don’t give access to dashboards as dashboards aren’t 
 **Related topics**  
 
 
-[Set responsive dashboards as your home](../task/t_SetDashboardsAsHome.md)
+[Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_SetDashboardsAsHome.md)
 

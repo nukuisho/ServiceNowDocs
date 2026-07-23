@@ -2,6 +2,7 @@
 title: Create a compute profile
 description: A compute profile specifies the hardware to use for newly-provisioned virtual machines. A compute profile maps to a cloud account, a datacenter, and a hardware template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-compute-profile.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -39,7 +40,7 @@ You must have a cloud account with datacenters. You must run Discovery on the se
 
     2.  In the **Profile Mappings** related list, click **New**, fill in the form, and then click **Submit**.
 
-        ![Compute resource profile](../image/compute-profile-mapping.png "Example compute profile")
+        \[Omitted image "compute-profile-mapping.png"\] Alt text: Compute resource profile
 
 <table id="table_n3n_zvt_ddb"><thead><tr><th>
 
@@ -71,12 +72,12 @@ Hardware Template \[cmdb\_ci\_compute\_template\]
 
 </td><td>
 
-Select the hardware type that the profile should be mapped to.Click the reference icon \(![Reference image](../../../common/image/icon-reference.png)\) to view the details of the template.
+Select the hardware type that the profile should be mapped to.Click the reference icon \(\[Omitted image "icon-reference.png"\] Alt text: Reference image\) to view the details of the template.
 
 </td></tr></tbody>
 </table>
 **Related topics**  
 
 
-[Discover all datacenters in a service account on-demand](../../cloud-management-v2-setup/task/disco-datacntrs-in-srv-acct-1.md)
+[Discover all datacenters in a service account on-demand]()
 

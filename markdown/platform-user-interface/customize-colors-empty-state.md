@@ -2,6 +2,7 @@
 title: Configure the colors for empty state illustrations
 description: Configure and control the colors automatically applied to empty state illustrations to keep your visual experience engaging while maintaining brand recognition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/customize-colors-empty-state.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,7 +35,7 @@ As a category, all empty state illustrations share color hook mappings. As a res
 
 2.  Use the Page drop-down list to select the Editor page view.
 
-    ![Example view of the Editor page.](../image/tb-editor-page-view.png "Editor page view")
+    \[Omitted image "tb-editor-page-view.png"\] Alt text: Example view of the Editor page.
 
 3.  From the Theme drop-down list, select the theme that you want to edit.
 
@@ -42,7 +43,7 @@ As a category, all empty state illustrations share color hook mappings. As a res
 
     The empty state illustrations available for editing are displayed on the main stage and grouped by type.
 
-    ![Image styles tab selected with empty state illustrations listed on main stage and property panel opened.](../image/tb-image-styles-opened.png "Image styles tab selected")
+    \[Omitted image "tb-image-styles-opened.png"\] Alt text: Image styles tab selected with empty state illustrations listed on main stage and property panel opened.
 
 5.  Select any empty state illustration type from the main stage.
 
@@ -54,11 +55,11 @@ As a category, all empty state illustrations share color hook mappings. As a res
 
     **Note:** The number of leading or supporting colors differs depending on the illustration category. For example, banner illustrations have one leading color, while empty state illustrations have two leading colors. Leading colors are the main colors in the illustration and supporting colors are accents. They’re listed from most prominent to least.
 
-    ![Property panel with Colors tab selected.](../image/tb-property-panel-colors.png "Property panel Colors tab")
+    \[Omitted image "tb-property-panel-colors.png"\] Alt text: Property panel with Colors tab selected.
 
 7.  Select an image color to edit the color using the Color picker.
 
-    ![Color picker.](../image/tb-color-picker.png "Color picker")
+    \[Omitted image "tb-color-picker.png"\] Alt text: Color picker.
 
     **Note:** By default, the My Colors tab shows all the available colors for the illustration. You can also use the Custom tab to select a new color.
 
@@ -66,14 +67,14 @@ As a category, all empty state illustrations share color hook mappings. As a res
 
     **Note:** After you have saved changes to any of the color hooks, a Remove override symbol appears. The Remove override symbol enables you to revert your color changes back to the original auto-generated colors.
 
-    ![Remove override symbol.](../image/tb-color-undo.png)
+    \[Omitted image "tb-color-undo.png"\] Alt text: Remove override symbol.
 
 
 ## Result
 
 The new colors are applied to all empty state illustration types.
 
-If your theme is published, your empty state illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](tb-apply-theme.md).
+If your theme is published, your empty state illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Empty state illustrations in Theme Builder](../concept/empty-state-illustrations.md)
+**Parent Topic:**[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/empty-state-illustrations.md)
 

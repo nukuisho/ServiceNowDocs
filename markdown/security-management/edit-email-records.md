@@ -2,6 +2,7 @@
 title: Edit email records in Security Operations
 description: Edit transforms in your existing email event records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/edit-email-records.html
 release: australia
 topic_type: task
 last_updated: "2026-04-20"
@@ -23,6 +24,10 @@ Role required: sn\_sec\_cmn.admin
 
 2.  Select the email parser to edit.
 
+    You're taken to the editable form of the transform.
+
+    \[Omitted image "EmailTransforms.png"\] Alt text: Email parsing
+
 3.  Edit fields as appropriate.
 
 4.  To edit **Field Transforms**, select in the field and change as appropriate.
@@ -30,5 +35,5 @@ Role required: sn\_sec\_cmn.admin
 5.  Select **Update.**
 
 
-**Parent Topic:**[Security Operations email parsing](../concept/email-parsing.md)
+**Parent Topic:**[Security Operations email parsing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/email-parsing.md)
 

@@ -2,6 +2,7 @@
 title: Enable MID Server mutual authentication
 description: Configure the MID Server to use a client certificate for authenticating to the instance. This avoids the need to create a basic authentication credentials in the Key Store for the MID Server's configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/install-mid-mutual-auth.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -26,7 +27,7 @@ Role required: admin
 </td></tr></tbody>
 </table>## About this task
 
-MID Server mutual authentication removes the MID Server user name and password and provides a client certificate for authentication. Whenever a server requests authentication, this certificate is sent instead. To use mutual authentication, certificate based authentication must be enabled. See [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md) for the procedure.
+MID Server mutual authentication removes the MID Server user name and password and provides a client certificate for authentication. Whenever a server requests authentication, this certificate is sent instead. To use mutual authentication, certificate based authentication must be enabled. See [Set up Certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/set-up-mutual-auth.md) for the procedure.
 
 If a new MID Server is created with mutual authentication, it does not add capabilities automatically. An administrator must add capabilities to its record on the instance. However, existing MID Servers using basic authentication with capabilities are preserved when switching to mutual authentication.
 
@@ -54,7 +55,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
      -----END CERTIFICATE----- 
     ```
 
-    ![The bundle contains the correct formatting and both the private key and certificate.](../image/install-mid-mutual-auth-bundle.png)
+    \[Omitted image "install-mid-mutual-auth-bundle.png"\] Alt text: The bundle contains the correct formatting and both the private key and certificate.
 
     You can read the contents of a PEM certificate using the `openssl` command on Linux or Windows as follows: `openssl x509 -in cert.crt -text`. The private key must be in the PKCS\#8 format. The header and footer of the PKCS\#8 syntax is the following:
 
@@ -77,7 +78,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
     3.  Intermediate certificates and root certificate
 4.  On the instance, upload file containing the intermediate and root certificates to the CA Certificate Chain table: **sys\_ca\_certificate.list**.
 
-    **Note:** If uploading individually instead of a bundle, start with the root certificate, and then the intermediate certificate\(s\). It is preferrable to uploade this file as a PEM bundle, whose type is set to CA Cert, instead of splitting it into multiple files.
+    **Note:** It is preferable to upload the root certificate and intermediate certificates as a single PEM bundle with the type set to CA Cert, rather than uploading them separately. If you choose to upload them individually, start with the root certificate followed by the intermediate certificates, and verify that the type is set to CA Cert for each, not Intermediate, as this is a platform requirement.
 
 5.  Check the uploaded CA Cert record on the instance and wait for the **Publish Status** to change to **Exists**.
 
@@ -95,7 +96,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
 10. Attach the original, unsplit PEM certificate to the record.
 
-    ![The attachment is in the top corner of the record.](../image/mid-mtls-user-cert-record.png)
+    \[Omitted image "mid-mtls-user-cert-record.png"\] Alt text: The attachment is in the top corner of the record.
 
     **Note:** Ensure that the attached file contains only the certificate.
 
@@ -184,40 +185,40 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 13. Start the MID Server.
 
 
-**Parent Topic:**[Securing and encrypting MID Server data](../concept/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[MID Server certificate check policies](../concept/mid-security-checks.md)
+[MID Server certificate check policies]()
 
-[Encrypt or decrypt MID Server configuration file values](mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server authentication credentials and SOAP requests](../concept/mid-authentication-soap-requests.md#)
+[MID Server authentication credentials and SOAP requests]()
 
-[MID Server unified key store](../concept/mid-unified-keystore.md#)
+[MID Server unified key store]()
 
-[MID Server Azure Key Vault integration](mid-azure-key-vault-integration.md#)
+[MID Server Azure Key Vault integration]()
 
-[MID Server command audit log](../concept/mid-audit-log.md)
+[MID Server command audit log]()
 
-[Rekey a MID Server](t_RekeyAMIDServer.md)
+[Rekey a MID Server]()
 
-[Add SSL certificates for the MID Server](add-ssl-certificates.md#)
+[Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server](mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
+[MID Server SSH cryptographic algorithms]()
 
-[Attach a script file to a file synchronized MID Server](mid-server-script-attach.md#)
+[Attach a script file to a file synchronized MID Server]()
 
-[MID Server FIPS Enforced Mode](../concept/mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 
-[MID Server Governance](../concept/mid-timeout.md)
+[MID Server Governance]()
 
-[Install custom certificates in the MID Server unified key store](../concept/mid-unified-keystore.md#)
+[Install custom certificates in the MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-unified-keystore.md)
 
-[MID Server unified key store](../concept/mid-unified-keystore.md#)
+[MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-unified-keystore.md)
 

@@ -2,6 +2,7 @@
 title: Check company news and events
 description: Stay connected and informed on company updates, events, announcements, and more with the help of the AI Agent in the Employee Center Now Assist in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/check-company-news-using-nowassist-va.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -41,23 +42,23 @@ Role required: none
 
     -   To check the latest news or know about any particular news, enter your query like `What's the latest news`, `show me the company news`, `show me news on 401k`, `` or anything.
     -   To check about upcoming events or any specific event, enter your query like `Are there any events`, `show me the events happening in New York this month`, `show me all the company events` or anything.
-    ![Checking company events in Now Assist](../images/uex-aiagent-event.png)![Checking more details about a specify event in Now Assist.](../images/uex-aiagent-eventtopic.png)![Latest news and events in Now Assist.](../images/uex-aiagent-steps.png)
+    \[Omitted image "uex-aiagent-event.png"\] Alt text: Checking company events in Now Assist\[Omitted image "uex-aiagent-eventtopic.png"\] Alt text: Checking more details about a specify event in Now Assist.\[Omitted image "uex-aiagent-steps.png"\] Alt text: Latest news and events in Now Assist.
 
 4.  Search for a specific event to get more details.
 
     If the event requires RSVP, select **Yes** or **No**. If you have already specified your RSVP, you can also edit it.
 
 
-**Parent Topic:**[Using Now Assist for Employee Experience](../concept/use-now-assist-for-emp-exp.md)
+**Parent Topic:**[Using Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/use-now-assist-for-emp-exp.md)
 
 **Related topics**  
 
 
-[Check your to-do tasks by using the Now Assist in Virtual Agent](check-todo-tasks-using-the-now-assist-virtual-agent.md)
+[Check your to-do tasks by using the Now Assist in Virtual Agent]()
 
-[Check your approvals by using Now Assist in Virtual Agent](check-your-approvals-using-now-assist-virtual-agent-emp-exp.md)
+[Check your approvals by using Now Assist in Virtual Agent]()
 
-[View summarization for approvals](view-summarization-approvals.md)
+[View summarization for approvals]()
 
-[Manage approvals with Now Assist Approval Assistance AI agent](manage-approvals-with-approvals-agent.md)
+[Manage approvals with Now Assist Approval Assistance AI agent]()
 

@@ -2,6 +2,7 @@
 title: Mobile Card Builder user interface
 description: Learn about the Mobile Card Builder user interface to get started building and modifying your mobile cards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mcb-stage-ui.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,11 +14,11 @@ breadcrumb: [Mobile Card Builder, Building tools, Building mobile apps, Mobile P
 
 Learn about the Mobile Card Builder user interface to get started building and modifying your mobile cards.
 
-![Mobile Card Builder.](../image/card-builder-stage.png)
+\[Omitted image "card-builder-stage.png"\] Alt text: Mobile Card Builder.
 
 ## Top panel
 
-![Mobile Card Builder UI top section panel.](../image/mcb-top-banner.png)
+\[Omitted image "mcb-top-banner.png"\] Alt text: Mobile Card Builder UI top section panel.
 
 The top panel of the Mobile Card Builder contains the following information and options.
 
@@ -53,7 +54,7 @@ The top panel of the Mobile Card Builder contains the following information and 
 
 <table id="table_jdp_dhl_4nb"><tbody><tr><td>
 
-![Mobile Card Builder panel.](../image/mcb-left-panel.png)
+\[Omitted image "mcb-left-panel.png"\] Alt text: Mobile Card Builder panel.
 
 </td><td>
 
@@ -73,15 +74,15 @@ Below the card section you can see the components of your card organized in a tr
 
 Use the center panel to design the layout of your card. The panel displays the components of your card. To view the card as it appears in a mobile app, Select the **Preview** button.
 
-![Mobile Card Builder center panel.](../image/mcb-center-panel-preview.png "Components in the center panel")
+\[Omitted image "mcb-center-panel-preview.png"\] Alt text: Mobile Card Builder center panel.
 
 Select a component of your card to highlight it. You can see a tab with the name of your component, and a trash can icon. Select that icon to remove the component from your card. More configuration options for the selected component appear in the right panel.
 
-![Adding a component in Mobile Card Builder.](../image/mcb-new-component-2.png "Adding a component")
+\[Omitted image "mcb-new-component-2.png"\] Alt text: Adding a component in Mobile Card Builder.
 
-Select a plus icon \(![plus icon](../image/mcb-plus-icon.png)\) to select a new component to add to your mobile card. For information about adding a button, see [Card actions in Mobile Card Builder](../concept/mcb-card-actions.md).
+Select a plus icon \(\[Omitted image "mcb-plus-icon.png"\] Alt text: plus icon\) to select a new component to add to your mobile card. For information about adding a button, see [Card actions in Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-card-actions.md).
 
-Remove components by selecting them and then select the delete icon \(![plus icon](../image/mcb-delete-icon.png)\).
+Remove components by selecting them and then select the delete icon \(\[Omitted image "mcb-delete-icon.png"\] Alt text: plus icon\).
 
 ## Right Panel
 
@@ -98,15 +99,15 @@ The right panel of the card builder contains the configuration options for the s
 -   Corner radius
 -   Text alignment
 
- You can also use this panel to map field values to components in your card. For details see [Customize a screen using Mobile Card Builder](../task/mcb-customize-item-view.md)
+ You can also use this panel to map field values to components in your card. For details see [Customize a screen using Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-customize-item-view.md)
 
 .
 
 </td><td>
 
-![Mobile Card Builder panel](../image/mcb-right-panel.png)
+\[Omitted image "mcb-right-panel.png"\] Alt text: Mobile Card Builder panel
 
 </td></tr></tbody>
-</table>-   **[Mobile Card Builder components](mcb-elements.md)**  
+</table>-   **[Mobile Card Builder components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mcb-elements.md)**  
 Learn about the components that make up mobile cards
 

@@ -2,6 +2,7 @@
 title: Search for information on customer service portal
 description: Use the search feature on the customer portal to find information about a question or an issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_SearchForInfoUsingThePortal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,4 +32,11 @@ The portal has a search feature that you can use to search for information acros
 
 3.  Click a link to view an article.
 
+
+**Related topics**  
+
+
+[Search the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheKnowledgeBase.md)
+
+[Search the customer service community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchTheCommunity.md)
 

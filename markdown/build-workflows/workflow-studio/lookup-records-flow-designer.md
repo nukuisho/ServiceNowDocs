@@ -2,6 +2,7 @@
 title: Look Up Records action
 description: Look up multiple records on any table using defined conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/lookup-records-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -33,7 +34,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Data type: **Conditions**
 
-    Field names and field values that you want to use to search for records. To use an inline script to specify conditions, consider using the GlideRecord and GlideQueryCondition classes to build your query. See [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) and [GlideQueryCondition - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideQueryConditionAPI.md).
+    Field names and field values that you want to use to search for records. To use an inline script to specify conditions, consider using the GlideRecord and GlideQueryCondition classes to build your query. See  and .
 
 -   **Order by**
 
@@ -62,7 +63,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
     Data type: **Records**
 
-    List of record Sys IDs found based on the lookup criteria that you provided. For more information, see [Records.\[Table\] data type](records-data.md).
+    List of record Sys IDs found based on the lookup criteria that you provided. For more information, see [Records.\[Table\] data type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/records-data.md).
 
 -   **Table**
 
@@ -83,7 +84,7 @@ Use these general guidelines when working with the Look Up Records action.
 
 -   **Process records with For Each flow logic**
 
-    Use For Each flow logic to iterate through a list of records. For more information about using For Each flow logic, see [For Each flow logic](../concept/flow-logic-for-each.md).
+    Use For Each flow logic to iterate through a list of records. For more information about using For Each flow logic, see [For Each flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-for-each.md).
 
 -   **Set Max Results to improve performance**
 
@@ -96,13 +97,13 @@ Use these general guidelines when working with the Look Up Records action.
 
 ## Look up configuration items assigned to a change request user
 
-![Configuration of Look Up Records action](../images/example-look-up-records-action.png)
+\[Omitted image "example-look-up-records-action.png"\] Alt text: Configuration of Look Up Records action
 
 In this example, the flow starts when an emergency change request is opened in the Network category. The Look Up Records action uses the Configuration Item \[cmdb\_ci\] table as the Table input. The Conditions input looks for configuration items assigned to the requester of the change request. The Order by input uses the Name field to perform an ascending alphabetical type sort.
 
-![Execution details of Look Up Records action](../images/example-look-up-records-action-execution-details.png)
+\[Omitted image "example-look-up-records-action-execution-details.png"\] Alt text: Execution details of Look Up Records action
 
 In the execution details, the Count output shows three configuration items that are assigned to the requester of the change request. The Records output shows the configuration items by name in the execution details page, but the data pill contains a series of Sys ID values. The Table output is the Configuration Item \[cmdb\_ci\] table.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

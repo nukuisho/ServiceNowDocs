@@ -2,13 +2,14 @@
 title: Create exports on the Azure portal
 description: Create exports for your Azure service account to download Azure billing data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-azure-exports.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Create exports on the Azure portal
@@ -43,13 +44,13 @@ Cloud Cost Management 10.0 and later versions support the FOCUS billing format i
 
     -   For the Cloud Native billing format, create exports with the **Cost and usage \(actual\)** and **Cost and usage \(amortized\)** templates to ensure accuracy of billing data.
     -   For the FOCUS billing format, create exports with the **Cost and usage \(FOCUS\)** to ensure efficient billing data management.
-    ![Cost Management page on Microsoft Azure portal showing templates for various billing formats](../image/focus-billing-azure.png)
+    \[Omitted image "focus-billing-azure.png"\] Alt text: Cost Management page on Microsoft Azure portal showing templates for various billing formats
 
 6.  Select **Next**.
 
 7.  On the Datasets tab, enter **Export prefix** to customize your export name.
 
-8.  Select the edit icon ![Edit credentials icon.](../../../reuse/itom/image/workspace-icon-edit.png) next to the export name that you want to edit.
+8.  Select the edit icon \[Omitted image "workspace-icon-edit.png"\] next to the export name that you want to edit.
 
 9.  In the Edit export window, fill in the fields.
 
@@ -130,5 +131,5 @@ The export that you have created appears in the list of exports.
 **Related topics**  
 
 
-[Schedule and manage the jobs that download Azure billing data](schedule-azure-billing-job.md)
+[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
 

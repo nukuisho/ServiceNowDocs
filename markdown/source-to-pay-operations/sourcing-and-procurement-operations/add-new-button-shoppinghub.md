@@ -1,7 +1,8 @@
 ---
-title: Add a new button in Shopping Hub
-description: You can add a new button in Shopping Hub, similar to the existing Don’t see what you need? button.
+title: Add a button in Shopping Hub
+description: You can add a button in Shopping Hub, similar to the existing Don’t see what you need? button.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/add-new-button-shoppinghub.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -11,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Add a new button in Shopping Hub
+# Add a button in Shopping Hub
 
-You can add a new button in Shopping Hub, similar to the existing Don’t see what you need? button.
+You can add a button in Shopping Hub, similar to the existing Don’t see what you need? button.
 
 ## Before you begin
 
@@ -25,11 +26,11 @@ Role required: sn\_shop.shopping\_hub\_admin or sn\_shop.procurement\_administra
 
 2.  On the UX Page Properties, select the existing configuration for the **Don't see what you need** button.
 
-    ![UX Page Properties list showing the configuration for the Don't see what you need button.](../image/sh-new-button-properties.png)
+    \[Omitted image "sh-new-button-properties.png"\] Alt text: UX Page Properties list showing the configuration for the Don't see what you need button.
 
 3.  On the UX Page Property page, add a new link object in the Value section.
 
-    ![UX Page Property page with Value section highlighted.](../image/sh-ux-page-property.png)
+    \[Omitted image "sh-ux-page-property.png"\] Alt text: UX Page Property page with Value section highlighted.
 
 4.  Add a new link object after the final entry to add the new button, following the structure shown below:
 
@@ -52,26 +53,28 @@ Role required: sn\_shop.shopping\_hub\_admin or sn\_shop.procurement\_administra
 
 The newly added button is displayed in Shopping Hub.
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](../concept/configuring-spo.md)
+**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
-[Install Sourcing and Procurement Operations](activate-finance-spend-central.md)
+[Install Sourcing and Procurement Operations]()
 
-[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+[Setting up primary data for ShoppingHub]()
 
-[Configure punchout for third-party site purchases](configure-supplier-punchout.md)
+[Configure punchout for third-party site purchases]()
 
-[Configuring work prioritization](../concept/configuring-work-prioritization.md)
+[Configuring work prioritization]()
 
-[Customize your top suppliers on Shopping Hub](customize-top-suppliers.md)
+[Customize your top suppliers on Shopping Hub]()
 
-[Configure conditions for merging purchase requisitions](config-pr-merge.md)
+[Configure conditions for merging purchase requisitions]()
 
-[Service portal configuration for ShoppingHub](../concept/service-portal-configuration-for-shoppinghub.md)
+[Service portal configuration for ShoppingHub]()
 
-[Install ShoppingHub Mobile](install-shoppinghub-mobile.md)
+[Install ShoppingHub Mobile]()
 
-[Advanced Work Assignment for Source-to-Pay Operations](../concept/awa-spo.md)
+[Advanced Work Assignment for Source-to-Pay Operations]()
+
+[Install Universal Request for Sourcing and Procurement Operations]()
 

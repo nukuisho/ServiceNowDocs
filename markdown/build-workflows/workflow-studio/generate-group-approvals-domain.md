@@ -2,6 +2,7 @@
 title: Generate group approvals for domain separated requests
 description: Configure Workflow Studio to generate approvals for all members of a group or to restrict approvals to only group members who are visible from the domain of the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/generate-group-approvals-domain.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -25,7 +26,7 @@ By default, Workflow Studio generates approvals for all group members who can ac
 
 ## Procedure
 
-1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 2.  For the system property name, enter `com.glide.hub.flow.approval.group_member.use_query_no_domain`.
 
@@ -33,7 +34,7 @@ By default, Workflow Studio generates approvals for all group members who can ac
 
 4.  For the system property value, enter one of these values.
 
-<table id="choicetable_j55_c14_t4b"><tbody><tr><td id="d49451e98">
+<table id="choicetable_j55_c14_t4b"><tbody><tr><td id="d49814e98">
 
 **true**
 
@@ -41,7 +42,7 @@ By default, Workflow Studio generates approvals for all group members who can ac
 
 Generate approvals for all members of the group who have access to the domain of the parent request. Select this option to exclude domain visibility from the approval generation query. For example, generate approvals for users who belong to domains higher in the domain hierarchy. This is the default value.
 
-</td></tr><tr><td id="d49451e107">
+</td></tr><tr><td id="d49814e107">
 
 **false**
 

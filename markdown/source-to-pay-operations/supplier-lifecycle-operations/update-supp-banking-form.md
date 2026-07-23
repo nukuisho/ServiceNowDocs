@@ -2,6 +2,7 @@
 title: Update banking details form
 description: Use the Update banking details form to update the banking details of the supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-form.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -120,34 +121,34 @@ Bank account proof
 Option to upload the bank account proof document. Select **Required - Upload** to upload the document.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Supplier Lifecycle Operations reference](supp-mgmt-reference.md)
+</table>**Parent Topic:**[Supplier Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-mgmt-reference.md)
 
 **Related topics**  
 
 
-[Create New Supplier Case form](new-supplier-case.md)
+[Create New Supplier Case form]()
 
-[Create new task form](create-new-supplier-task-form.md)
+[Create new task form]()
 
-[Add New Location form](supplier-location-form.md)
+[Add New Location form]()
 
-[Update profile details form](update-supp-profile-form.md)
+[Update profile details form]()
 
-[Onboard a Supplier form](onboard-supp-form.md)
+[Onboard a Supplier form]()
 
-[Create New Documents form](create-new-doc-form.md)
+[Create New Documents form]()
 
-[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+[Primary data tables for Supplier Lifecycle Operations]()
 
-[Domain separation and Supplier Lifecycle Operations](../concept/supplier-domain-separation.md)
+[Domain separation and Supplier Lifecycle Operations]()
 
-[Supplier Lifecycle Operations data model](slo-data-model.md)
+[Supplier Lifecycle Operations data model]()
 
-[Supplier Relationship and Performance Management reference](../concept/supplier-relationship-and-performance-management-reference.md)
+[Supplier Relationship and Performance Management reference]()
 
-[Supplier Payment Optimization reference](../concept/supp-payment-opt-ref.md)
+[Supplier Payment Optimization reference]()
 
-[Supplier Lifecycle Operations glossary](../concept/slo-glossary.md#)
+[Supplier Lifecycle Operations glossary]()
 
-[Update banking details using the supplier catalog](../task/update-supp-banking-info.md)
+[Update banking details using the supplier catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-banking-info.md)
 

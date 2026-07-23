@@ -2,6 +2,7 @@
 title: Submitting a forecast
 description: Sales agents and managers can finalize and submit forecasts in defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit in the specified time frame.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/submitting-a-forecast.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_sales\_forecast.submission\_writer
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **My lists** **&gt; Sales Forecast** **&gt; My Forecast Submissions**.
 
@@ -49,5 +50,12 @@ Role required: sn\_sales\_forecast.submission\_writer
     The forecast has been submitted. The forecast values have been locked and cannot be changed.
 
 
-**Parent Topic:**[Using Sales Forecasting](using-sales-forecasting.md)
+**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+
+**Related topics**  
+
+
+[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
 

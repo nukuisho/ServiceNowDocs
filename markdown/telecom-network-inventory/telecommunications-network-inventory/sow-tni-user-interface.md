@@ -2,6 +2,7 @@
 title: Service Operations Workspace for Telecommunications Network Inventory user interface
 description: Explore the Service Operations Workspace for Telecommunications Network Inventory interface to understand how an operator can prioritize network inventory tasks and offer solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/sow-tni-user-interface.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -23,7 +24,7 @@ From the **Workspaces** menu, select **Service Operations Workspace**.
 
 The landing page in the Service Operations Workspace for Telecommunications Network Inventory provides an overview of the current operational landscape of your datacenter. The landing page includes the important items such as datacenter overview, list of your and your team's assignments including change requests, alerts, and incidents.
 
-![Service Operations Workspace for TNI landing page view of the current status of your assignments.](../image/sow-tni-landing-page.png "Example of the landing page of Service Operations Workspace for Telecommunications Network Inventory")
+\[Omitted image "sow-tni-landing-page.png"\] Alt text: Service Operations Workspace for TNI landing page view of the current status of your assignments.
 
 Widgets in the landing page might look different based on the Telecommunications Service Management \(TSOM\) and Telecommunications Service Operations Management \(TSOM\) applications you have installed.
 
@@ -151,44 +152,44 @@ Without TSOM and TSM are installed, the following widgets appear.
 </td></tr></tbody>
 </table>## Lists
 
-From the Lists view, you can access most of the Telecommunications Network Inventory classes and functions. An agent can analyze the individual lists of incidents, alerts, change tasks, and so on, and take appropriate action. To learn more, see [Lists view](network-inventory-workspace-list-view.md).
+From the Lists view, you can access most of the Telecommunications Network Inventory classes and functions. An agent can analyze the individual lists of incidents, alerts, change tasks, and so on, and take appropriate action. To learn more, see [Lists view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/network-inventory-workspace-list-view.md).
 
-To access the Lists view, select the list icon \(![List Icon.](../image/ni-workspace-list-icon.png)\)
+To access the Lists view, select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List Icon.\)
 
-![List tab in Service Operations Workspace.](../image/sow-list-view.png "List view tab")
+\[Omitted image "sow-list-view.png"\] Alt text: List tab in Service Operations Workspace.
 
 The menus you see depend on the applications you have installed. If you install the TSOM and TSM, the Incidents and Alerts menu appears on the Lists view.
 
 **Note:** You must install Service Operations Workspace Alert Management \(sn\_sow\_em\)" plugin to view the Alerts in the List menu.
 
-To learn more about Telecommunications Network Inventory features, see [Exploring Telecommunications Network Inventory](exploring-telecommunicatons-network-inventory.md).
+To learn more about Telecommunications Network Inventory features, see [Exploring Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-telecommunicatons-network-inventory.md).
 
 ## Network visualization
 
-The Network visualization view provides various options to explore the network infrastructure-related functions. You can use the Network visualization to view the geographical location of your network sites, the floor plan of a datacenter, and the topology of your network. To learn more, see [Visualize network infrastructure](data-center-inventory-management.md).
+The Network visualization view provides various options to explore the network infrastructure-related functions. You can use the Network visualization to view the geographical location of your network sites, the floor plan of a datacenter, and the topology of your network. To learn more, see [Visualize network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md).
 
-To access the Network visualization page, select the blue hub icon \(![Blue Hub Icon.](../image/icon-blue-hub.png)\).
+To access the Network visualization page, select the blue hub icon \(\[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon.\).
 
-![Network visualization page view.](../image/network-visualization-view.png "Example of Network visualization page")
+\[Omitted image "network-visualization-view.png"\] Alt text: Network visualization page view.
 
 ## Inventory management
 
-Use the Inventory management view in the Service Operations Workspace to get a detailed view of your network inventory. To learn more, [Management view](inventory-management-view.md).
+Use the Inventory management view in the Service Operations Workspace to get a detailed view of your network inventory. To learn more, [Management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory-management-view.md).
 
-To open the Inventory management view, select the database search icon \(![Database Search Icon](../image/icon-database-search.png)\) on the side panel.
+To open the Inventory management view, select the database search icon \(\[Omitted image "icon-database-search.png"\] Alt text: Database Search Icon\) on the side panel.
 
-![Inventory Management view of the current status of network assets.](../image/inventory-management-view.png "Example of Inventory management view")
+\[Omitted image "inventory-management-view.png"\] Alt text: Inventory Management view of the current status of network assets.
 
 ## Design and Assign your network service
 
-The Design and Assign function provides step-by-step guidance for designing a network service. You can use the Design and Assign function to complete guided activities to design the network services and assign the network inventories. To learn more, see [Design and assign your network services](design-assign-playbook.md).
+The Design and Assign function provides step-by-step guidance for designing a network service. You can use the Design and Assign function to complete guided activities to design the network services and assign the network inventories. To learn more, see [Design and assign your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/design-assign-playbook.md).
 
-To access the Network visualization page, select the network visualization icon \(![Design Assign Icon](../image/icon-design-assign.png)\).
+To access the Network visualization page, select the network visualization icon \(\[Omitted image "icon-design-assign.png"\] Alt text: Design Assign Icon\).
 
-![Design and Assign home page with list of change requests.](../image/design-assign-homepage.png "Example of Design and Assign home page")
+\[Omitted image "design-assign-homepage.png"\] Alt text: Design and Assign home page with list of change requests.
 
 **Related topics**  
 
 
-[Visualize network infrastructure](data-center-inventory-management.md)
+[Visualize network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md)
 

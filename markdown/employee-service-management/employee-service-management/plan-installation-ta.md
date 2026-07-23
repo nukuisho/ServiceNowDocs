@@ -6,13 +6,14 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [plan installation, installation requirements, hiring suite setup, install hiring experiences, Talent Acquisition dependencies, required components, suite dependencies, hiring applications, application dependencies]
 ---
 
 # Plan your installation
 
 Identify the requirements and plan your installation of the Hiring Experiences suite.
 
-**Parent Topic:**[Configuring Hiring Experiences](config-frmwrk-ta.md)
+**Parent Topic:**[Configuring Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-frmwrk-ta.md)
 
 ## Dependencies of Hiring Experiences
 

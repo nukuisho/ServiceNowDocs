@@ -2,6 +2,7 @@
 title: Create a List Module
 description: Create custom lists for the All menu using the Next Experience All Menu Editing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-experience-list-module.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,11 +28,11 @@ Use list modules to provide quick access to pre-filled data, eliminating the nee
 
 2.  Select the **Edit application** icon.
 
-    ![Arrow pointing the edit application icon in the all menu.](../image/neame-edit-app.png)
+    \[Omitted image "neame-edit-app.png"\] Alt text: Arrow pointing the edit application icon in the all menu.
 
 3.  Select **+** in the menu header.
 
-    ![Arrow pointing the add module icon in the header.](../image/neame-add-module.png)
+    \[Omitted image "neame-add-module.png"\] Alt text: Arrow pointing the add module icon in the header.
 
 4.  Add a list module by hovering over the module and selecting **Add**.
 
@@ -58,8 +59,8 @@ Use list modules to provide quick access to pre-filled data, eliminating the nee
 
 11. Select **Open module** in the top bar to preview the list.
 
-    ![Arrow pointing the open module icon in the header.](../image/neame-open-list-module.png)
+    \[Omitted image "neame-open-list-module.png"\] Alt text: Arrow pointing the open module icon in the header.
 
 
-**Parent Topic:**[Next Experience All Menu Editing](../concept/next-experience-all-menu-editing.md)
+**Parent Topic:**[Next Experience All Menu Editing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-all-menu-editing.md)
 

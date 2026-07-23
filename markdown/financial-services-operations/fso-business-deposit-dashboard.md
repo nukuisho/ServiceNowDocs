@@ -2,6 +2,7 @@
 title: Business Deposit Operations dashboard
 description: With the Financial Services Business Deposit Operations dashboard, you can get an insight into how your team and business are performing for deposit service requests received for your financial services. You can monitor the status of deposit service cases, see trends, and drill down into the details from a single view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-business-deposit-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ For any time period that you specify, you can view the details for the closed ca
 
 ## Access the Financial Services Business Deposit Operations dashboard
 
-To access the Financial Services Business Deposit Operations dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Financial Services Business Deposit Operations dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon.\).
 
 Alternatively, you can navigate to **All** &gt; **Deposit Operations** &gt; **Analytics**.
 
@@ -188,5 +189,5 @@ Needs to be able to customize views.
 -   Age
 -   Service
 
-**Parent Topic:**[Implementing Platform Analytics solutions](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
 

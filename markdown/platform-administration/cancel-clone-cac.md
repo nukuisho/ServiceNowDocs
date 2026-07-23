@@ -2,6 +2,7 @@
 title: Cancel a clone
 description: You can cancel a clone that is scheduled, requested, or in progress until the Node Repoint state. Canceling a clone retains the target instance as-is in its pre-clone state with its original data.Scheduled clones aren't able to be modified, you must cancel scheduled clones and make a new clone schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/cancel-clone-cac.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

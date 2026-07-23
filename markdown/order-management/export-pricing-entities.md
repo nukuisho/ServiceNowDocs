@@ -2,6 +2,7 @@
 title: Export pricing entities
 description: Export pricing entities as a JSON file and save the file to your local download directory so that it can be imported to another ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/export-pricing-entities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Export** &gt; **Export Entities**.
 
@@ -56,5 +57,5 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator
 
 ## What to do next
 
-[Import pricing entities](import-pricing-entities.md).
+[Import pricing entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/import-pricing-entities.md).
 

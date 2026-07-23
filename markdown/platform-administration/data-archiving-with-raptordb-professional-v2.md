@@ -2,6 +2,7 @@
 title: Live Archive with RaptorDB Professional V2
 description: Live Archive \(formerly Data Archiving\) moves records and attachments to object storage, freeing up space in the primary database while keeping data accessible for compliance and reporting. This capability improves query performance and provides scalable storage for large archives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/data-archiving-with-raptordb-professional-v2.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-14"
@@ -40,13 +41,13 @@ Live Archive extends the existing archive rules framework. When records match th
 
     Live Archive automatically creates two S3 facade endpoints, one per datacenter in your instance's datacenter pair. If one datacenter is unavailable, the other endpoint keeps the archived records remain accessible. The S3 facade is verified during Live Archive installation.
 
-    ![Live Archive routes archived data through the S3 facade.](../image/s3-facade-data-archiving.png "Archiving with S3 facade")
+    \[Omitted image "s3-facade-data-archiving.png"\] Alt text: Live Archive routes archived data through the S3 facade.
 
 -   **Archive rules**
 
     Use archive rules to define which records should be archived. Time-based conditions are common. For example, to archive incidents closed more than two years ago. However, any field-based condition is supported.
 
-    Existing archive rules operate without changes or migration. For guidance on creating and managing archive rules, see [Create an archive rule in Core UI](../task/t_CreateAnArchiveRule.md#).
+    Existing archive rules operate without changes or migration. For guidance on creating and managing archive rules, see [Create an archive rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md).
 
     When an archive rule runs, records and attachments move from live tables to archive tables through the S3 facade.
 
@@ -69,5 +70,5 @@ Live Archive extends the existing archive rules framework. When records match th
     Object storage data is encrypted at rest and in transit without requiring additional configuration.
 
 
-To install Live Archive after upgrading to RaptorDB Professional V2, see [Install Live Archive](../../managing-data/task/install-data-archiving-plugin.md).
+To install Live Archive after upgrading to RaptorDB Professional V2, see [Install Live Archive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/install-data-archiving-plugin.md).
 

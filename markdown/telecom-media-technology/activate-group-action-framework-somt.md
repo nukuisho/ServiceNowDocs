@@ -2,11 +2,12 @@
 title: Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications
 description: Activate the Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/activate-group-action-framework-somt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Order enrichment AI agent, AI agents in SOMT, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Order enrichment AI agent, Standalone AI agents, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications
@@ -29,7 +30,7 @@ Role required: admin
 
 2.  In Group &amp; Action - Sales and Order Management for Telecommunications, select **Activate skill**.
 
-    ![Group & Action - Sales and Order Management for Telecommunications skill for TMT.](../image/assist-skills-somt.png)
+    \[Omitted image "assist-skills-somt.png"\] Alt text: Group &amp; Action - Sales and Order Management for Telecommunications skill for TMT.
 
 3.  On the Group &amp; Action - Sales and Order Management for Telecommunications form, change the values by selecting **Edit**.
 

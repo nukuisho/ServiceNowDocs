@@ -2,6 +2,7 @@
 title: Configure sorting display options for mobile filters
 description: Customize the way sorting options are displayed in your mobile filter and override the default behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/list-filter-sorting-attributes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,19 +26,19 @@ Role required: admin
 
 2.  Select **New**.
 
-3.  From the **Item Sorting** field, select the reference lookup icon \(![Reference lookup icon](../image/reference-lookup-icon.png)\) and select the item sorting entry to configure.
+3.  From the **Item Sorting** field, select the reference lookup icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference lookup icon\) and select the item sorting entry to configure.
 
 4.  Define attributes to configure for the selected item sorting.
 
-<table id="choicetable_cl5_cp2_1qb"><thead><tr><th align="left" id="d35532e91">
+<table id="choicetable_cl5_cp2_1qb"><thead><tr><th align="left" id="d36376e91">
 
 Attribute option
 
-</th><th align="left" id="d35532e94">
+</th><th align="left" id="d36376e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d35532e100">
+</th></tr></thead><tbody><tr><td id="d36376e100">
 
 **Define the ascending label**
 
@@ -48,7 +49,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d35532e136">
+</td></tr><tr><td id="d36376e136">
 
 **Define the descending label**
 
@@ -59,7 +60,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d35532e172">
+</td></tr><tr><td id="d36376e172">
 
 **Hide the ascending/descending suffix**
 
@@ -72,7 +73,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d35532e217">
+</td></tr><tr><td id="d36376e217">
 
 **Display either ascending/descending option**
 
@@ -93,5 +94,5 @@ Action
 
 After configuring various sorting display options, your filter sorting configuration may look like the one in the image.
 
-![Filter things](../image/mobile-filter-sort-customize.png)
+\[Omitted image "mobile-filter-sort-customize.png"\] Alt text: Filter things
 

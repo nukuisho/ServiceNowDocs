@@ -2,6 +2,7 @@
 title: Create quotes from request for quotes \(RFQs\)
 description: Create quotes from RFQ requests submitted by your customers via the Business Portal so you can share the quote with them and expedite the quote-to-order process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/convert-rfq-quote-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ To create a quote from an RFQ, you must first assign an RFQ record to an agent a
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Request for Quotes** &gt; **All**.
 
@@ -33,9 +34,9 @@ To create a quote from an RFQ, you must first assign an RFQ record to an agent a
 
 5.  Assign the RFQ to an agent.
 
-    1.  Select the Search for Record icon![](../../tmt-telecom-network-inventory/image/search.png) of the **Assignment group** field and select an assignment group.
+    1.  Select the Search for Record icon\[Omitted image "search.png"\] Alt text: of the **Assignment group** field and select an assignment group.
 
-    2.  Select the Search for Record icon![](../../tmt-telecom-network-inventory/image/search.png) of the **Assign to** field and select the agent's name.
+    2.  Select the Search for Record icon\[Omitted image "search.png"\] Alt text: of the **Assign to** field and select the agent's name.
 
 6.  In the **Status** field, select **In review** from the drop-down menu.
 
@@ -58,10 +59,10 @@ To create a quote from an RFQ, you must first assign an RFQ record to an agent a
 
 ## What to do next
 
-View quotes, generate PDFs share to share quotes with customers for acceptance, create sales agreements, or convert quotes to orders to continue the sales process. For more information, see [Using Quote Management](../concept/quote-mgmt-using.md).
+View quotes, generate PDFs share to share quotes with customers for acceptance, create sales agreements, or convert quotes to orders to continue the sales process. For more information, see [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md).
 
 **Related topics**  
 
 
-[View requests for quotes \(RFQs\) on the Business Portal](view-rfq-business-portal.md)
+[View requests for quotes \(RFQs\) on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-rfq-business-portal.md)
 

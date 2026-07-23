@@ -2,11 +2,12 @@
 title: Using ProductList.extended to populate the Quote Line record
 description: You can use the Extended product data object to populate custom fields on the Quote Line record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/reverse\_twin\_productlist\_extended\_data\_to\_quoteline.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ProductList.Type options: Accessory and Component, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ProductList.Type options: Accessory and Component, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Using ProductList.extended to populate the Quote Line record
@@ -29,7 +30,7 @@ In the following video, a custom text field with the variable name `Color_c` is 
 
 Reverse twinning extended product data also enables admins to populate quote line data directly to the Quote Line Editor \(QLE\). The custom Quote Line field must be added to the Line Editor field set.
 
-**Note:** Salesforce CPQ does not allow users to edit the following product option fields, including when passing data back from an external configurator such as CPQ.
+**Note:** Salesforce CPQ does not allow users to edit the following product option fields, including when passing data back from an external configurator such as ServiceNow CPQ.
 
 -   Product Code
 -   Product Configuration Type
@@ -43,5 +44,5 @@ Reverse twinning extended product data also enables admins to populate quote lin
 **Related topics**  
 
 
-[Adding custom attributes to the product list](productlist_extended_adding_custom_attributes_in_the_productlist.md)
+[Adding custom attributes to the product list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/productlist_extended_adding_custom_attributes_in_the_productlist.md)
 

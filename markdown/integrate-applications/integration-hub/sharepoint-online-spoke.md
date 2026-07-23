@@ -2,6 +2,7 @@
 title: Microsoft SharePoint Online Spoke
 description: The Microsoft SharePoint Online spoke integrates your ServiceNow instance with Microsoft SharePoint Online so that you can automate various predefined actions as part of a Workflow. For example, you can rename a folder on Microsoft SharePoint Online when a record in the database is updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sharepoint-online-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The Microsoft SharePoint Online spoke integrates your ServiceNow® instance with
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft SharePoint Online spoke v2.10.0 is the latest version.
+Microsoft SharePoint Online spoke v2.11.2 is the latest version.
 
 **Note:** The Microsoft SharePoint online spokes does not support the On-premise SharePoint.
 
@@ -797,16 +798,16 @@ Gets the site details.
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [ServiceNow Otto for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
     You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 
@@ -828,7 +829,7 @@ There might be AI agents installed with the Now Assist application that are not 
 
 ## SharePoint Online account requirements
 
-The Microsoft SharePoint Online spoke requires that you create a custom app on your SharePoint Online account to generate OAuth 2.0 tokens. See [Configure OAuth application in Microsoft Azure](../task/configure-oauth-application-in-microsoft-azure.md).
+The Microsoft SharePoint Online spoke requires that you create a custom app on your SharePoint Online account to generate OAuth 2.0 tokens. See [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 ## Connection and credential alias requirements
 
@@ -840,7 +841,7 @@ Integration Hub uses aliases to manage connection and credential information, an
 
 -   **Multiple tenants**
 
-    This spoke includes the MicrosoftSharepointOnline alias record to authorize actions on Microsoft SharePoint Online. Create a connection and credential alias record for each additional tenant site that you want to support. Select the correct alias in the Tenant record to authorize changes in Microsoft SharePoint Online. Create a connection and credential alias record for each additional tenant site that you want to support. Select the correct alias in the Tenant record to authorize changes in Microsoft SharePoint Online. See [Create aliases for multiple tenants](../task/create-aliases-sharepoint.md).
+    This spoke includes the MicrosoftSharepointOnline alias record to authorize actions on Microsoft SharePoint Online. Create a connection and credential alias record for each additional tenant site that you want to support. Select the correct alias in the Tenant record to authorize changes in Microsoft SharePoint Online. Create a connection and credential alias record for each additional tenant site that you want to support. Select the correct alias in the Tenant record to authorize changes in Microsoft SharePoint Online. See [Create aliases for multiple tenants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-aliases-sharepoint.md).
 
 
 **Note:**

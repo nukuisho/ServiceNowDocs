@@ -2,13 +2,14 @@
 title: Enterprise Asset Management normalization
 description: The Enterprise Asset Management normalization process enables you to normalize your manufacturer, model name, model number, and model type data of your enterprise models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/normalization-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Enterprise Asset Management normalization
@@ -100,5 +101,5 @@ Several normalization tables are installed with the activation of the Enterprise
 |Manage Enterprise Library \[sn\_eam\_manage\_cd\_library\]|Stores import and export content data.|
 |Enterprise Asset Configurations \[sn\_eam\_configuration\]|Stores opt-in and opt-out data.|
 
-**Parent Topic:**[Create and manage enterprise models](create-manage-enterprise-models.md)
+**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
 

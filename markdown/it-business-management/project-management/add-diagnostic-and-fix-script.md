@@ -2,6 +2,7 @@
 title: Add diagnostic and fix scripts
 description: Add diagnostic scripts to scan the data in your application for any corruption. You can also attach fix scripts to rectify the corrupt or invalid data identified by the diagnostic script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/add-diagnostic-and-fix-script.html
 release: australia
 product: Project Management
 classification: project-management
@@ -21,7 +22,7 @@ Role required: adt\_admin
 
 ## About this task
 
-The results of the filter conditions that you specify in a [diagnostic feature](add-diagnostic-feature.md) are used as an input for the diagnostic script while executing. You can also use the result of one script in subsequent scripts.
+The results of the filter conditions that you specify in a [diagnostic feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-diagnostic-feature.md) are used as an input for the diagnostic script while executing. You can also use the result of one script in subsequent scripts.
 
 ## Procedure
 
@@ -31,13 +32,13 @@ The results of the filter conditions that you specify in a [diagnostic feature](
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Diagnostic Scripts form](../reference/diagnostic-scripts-form.md).
+    For more information, see [Diagnostic Scripts form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/diagnostic-scripts-form.md).
 
 4.  Include a script for fixing the corrupt or invalid data identified by the diagnostic script.
 
     1.  Select the **Has Fix script** check box.
 
-    2.  Select the Edit User Roles icon \(![Edit User Roles icon](../image/edit_user_roles_icon.png)\) and choose the roles that can access the diagnostic script.
+    2.  Select the Edit User Roles icon \(\[Omitted image "edit\_user\_roles\_icon.png"\] Alt text: Edit User Roles icon\) and choose the roles that can access the diagnostic script.
 
     3.  In the **Fix script** section, add the code for the fix script.
 
@@ -47,5 +48,5 @@ The results of the filter conditions that you specify in a [diagnostic feature](
 **Related topics**  
 
 
-[Project Diagnostics](../../project-management/concept/project-diagnostics-overview.md)
+[Project Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-diagnostics-overview.md)
 

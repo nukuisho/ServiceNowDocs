@@ -2,6 +2,7 @@
 title: Open Requests Age Monitor dashboard
 description: Use this dashboard when you wish to dive into open requests divided by Age.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/open-requests-age-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Request Management Platform Analytics Solutions, Request Management
 
 Use this dashboard when you wish to dive into open requests divided by Age.
 
-![Open request age monitor showing the 0-1 day bucket](../image/open-req-age-monitor.png)
+\[Omitted image "open-req-age-monitor.png"\] Alt text: Open request age monitor showing the 0-1 day bucket
 
 ## Indicators
 
@@ -56,5 +57,5 @@ Indicators not appearing in dashboard widgets but used in formulas:
 -   Priority
 -   State
 
-**Parent Topic:**[Request Management Platform Analytics Solutions](request-content-pack.md)
+**Parent Topic:**[Request Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/request-content-pack.md)
 

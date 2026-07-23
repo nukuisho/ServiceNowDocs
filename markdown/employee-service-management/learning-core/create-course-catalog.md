@@ -2,6 +2,7 @@
 title: Create a course catalog
 description: Create a course catalog to maintain courses under one category and drive access control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-course-catalog.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -23,36 +24,36 @@ Role required: sn\_lc.learning\_admin, sn\_lc.learning\_course\_catalog\_admin
 
 1.  Navigate to **Learning** &gt; **Administration** &gt; **Course Catalog**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Course catalog form](../reference/course-catalog-table.md).
+    For a description of the field values, see [Course catalog form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/course-catalog-table.md).
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
--   **[Create courses to add to a course catalog](add-course-to-catalog.md)**  
+-   **[Create courses to add to a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-course-to-catalog.md)**  
 After creating a course catalog, create new course items to add to the course catalog and categorize them accordingly.
--   **[Define user access to course catalog](define-user-access-to-cc.md)**  
+-   **[Define user access to course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/define-user-access-to-cc.md)**  
 After creating a course catalog, define user access criteria at the course catalog level.
 
-**Parent Topic:**[Managing course and catalog content](manage-ln-content.md)
+**Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-ln-content.md)
 
 **Related topics**  
 
 
-[Create a content collection](create-course-collection.md)
+[Create a content collection]()
 
-[Create internal learning content](create-ln-cnt.md)
+[Create internal learning content]()
 
-[View external learning content](create-ln-extcnt.md)
+[View external learning content]()
 
-[Create a learning library](create-ln-ctg.md)
+[Create a learning library]()
 
-[Create a learning task](ln-task-le.md)
+[Create a learning task]()
 
-[Create courses to add to a course catalog](add-course-to-catalog.md)
+[Create courses to add to a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-course-to-catalog.md)
 
-[Define user access to course catalog](define-user-access-to-cc.md)
+[Define user access to course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/define-user-access-to-cc.md)
 

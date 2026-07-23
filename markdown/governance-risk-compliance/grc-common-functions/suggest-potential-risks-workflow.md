@@ -2,6 +2,7 @@
 title: Suggest potential risks workflow
 description: The Suggest potential risks workflow uses AI to identify and consolidate risks from multiple sources. It replaces manual, workshop-based risk discovery with a faster, consistent, and data-driven process that stays current with new regulations and trends.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/suggest-potential-risks-workflow.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -29,7 +30,7 @@ The **Risks** tab on the entity record page displays the following options in a 
 -   **Suggested risks**: List all risks suggested by the Risk Suggestion AI Agent.
 -   **All risks**: List all directly related risks and downstream risks.
 
-![Risk identification in Now Assist panel.](../image/risk-identification-agent.png)
+\[Omitted image "risk-identification-agent.png"\] Alt text: Risk identification in Now Assist panel.
 
 ## Suggest potential risks workflow benefits
 
@@ -45,7 +46,7 @@ The benefits are as follows:
 **Related topics**  
 
 
-[Activate agentic workflows in Now Assist for Integrated Risk Management \(IRM\)](../../grc-common/task/activate-agentic-workflows.md)
+[Activate agentic workflows in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.md)
 
-[Identify risks for an entity using Now Assist for IRM](../task/identify-risks-for-entity.md)
+[Identify risks for an entity using Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/identify-risks-for-entity.md)
 

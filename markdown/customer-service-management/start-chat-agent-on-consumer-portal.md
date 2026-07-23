@@ -1,7 +1,8 @@
 ---
 title: Chat with an agent from the Consumer Portal
-description: Chat with a virtual agent or a customer service agent from the Consumer Portal to resolve issues.
+description: Start a chat session with a virtual agent or a customer service agent from the Consumer Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/start-chat-agent-on-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,7 +12,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Chat with an agent from the Consumer Portal
 
-Chat with a virtual agent or a customer service agent from the Consumer Portal to resolve issues.
+Start a chat session with a virtual agent or a customer service agent from the Consumer Portal.
 
 ## Before you begin
 
@@ -21,13 +22,13 @@ Role required: sn\_customerservice.consumer
 
 1.  Navigate to the Consumer Portal.
 
-2.  Select the Chat icon \( ![Chat icon.](../image/chat-icon.png)\) in the Consumer Portal to start a conversation.
+2.  Select the Chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) in the Consumer Portal to start a conversation.
 
 3.  Enter your query to continue the conversation.
 
     **Note:** Pre chat survey is turned off by default.
 
-4.  To talk to a person instead of a virtual agent, select ![Connect Support icon.](../../customer-communities/images/contact-support-icon.png) and then **Contact Support**.
+4.  To talk to a person instead of a virtual agent, select \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Contact Support**.
 
 5.  Select **End Conversation** after you’re finished with the chat.
 
@@ -35,4 +36,11 @@ Role required: sn\_customerservice.consumer
 ## What to do next
 
 If the agent creates a case or links the discussion to an existing case, you can view these cases from the Consumer Portal by selecting **Requests** &gt; **View Submitted Requests** &gt; **View cases and tasks**.
+
+**Related topics**  
+
+
+[Chat anonymously with an agent from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/start-anonymous-chat-with-agent-consumer-portal.md)
+
+[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-on-consumer-portal.md)
 

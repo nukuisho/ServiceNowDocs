@@ -2,6 +2,7 @@
 title: Create a dynamic category
 description: Create a container for organizing dynamic attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-dynamic-category.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,11 +44,11 @@ Dynamic categories inherit the dynamic attributes of their extended hierarchy. F
 
 ## Create a dynamic category for capturing everything about electronics
 
-![A dynamic category for capturing everything about Electronics.](../image/dynamic-parent-category-example.png)
+\[Omitted image "dynamic-parent-category-example.png"\] Alt text: A dynamic category for capturing everything about Electronics.
 
 ## Create a dynamic category called Televisions that extends from the Electronics dynamic category
 
-![A dynamic category that extends from Electronics for capturing everything about televisions.](../image/dynamic-child-category-example.png)
+\[Omitted image "dynamic-child-category-example.png"\] Alt text: A dynamic category that extends from Electronics for capturing everything about televisions.
 
 ## What to do next
 

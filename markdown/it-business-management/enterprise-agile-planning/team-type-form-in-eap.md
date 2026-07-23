@@ -2,6 +2,7 @@
 title: Team type form
 description: Learn about the fields of the new table form that are required to add a new team type in Enterprise Agile Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/team-type-form-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -66,10 +67,10 @@ Select **Enterprise agile team**.
 |------------------|
 |Enable the **Can read**, **Can create**, **Can update**, and **Can delete** fields.|
 
-**Parent Topic:**[Enterprise Agile Planning reference](eap-reference.md)
+**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-reference.md)
 
 **Related topics**  
 
 
-[Create a custom team type in EAP](../task/create-custom-team-type-in-eap.md)
+[Create a custom team type in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-custom-team-type-in-eap.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Proactive Prompts
 description: Several types of components install with the activation of the Proactive Prompts application, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-components.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -66,12 +67,36 @@ Can view, modify, or create prompts. Write access on the Prompt \[sn\_pp\_prompt
 
 sn\_pp.reader
 
+</td></tr><tr><td>
+
+sn\_pp.config\_reader
+
+</td><td>
+
+Read access to signal configurations.
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_pp.dashboard\_viewer
+
+</td><td>
+
+View access to dashboard
+
+</td><td>
+
+ 
+
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md).
--   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
--   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+-   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddARoleToAnExistingRole.md).
+-   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignRoleToGroup.md).
+-   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 ## Tables installed
 
@@ -133,6 +158,14 @@ Stores additional criteria applied to users eligible for prompt.
 
 </td></tr><tr><td>
 
+Signal user preference\[sn\_pp\_signal\_user\_preference\]
+
+</td><td>
+
+Stores the signal per user prefrences.
+
+</td></tr><tr><td>
+
 Signal category\[sn\_pp\_signal\_category\]
 
 </td><td>
@@ -165,6 +198,14 @@ Stores the employee information qualified for the prompt or signal when the rece
 
 </td></tr><tr><td>
 
+Prompt header configuration\[sn\_pp\_prompt\_header\_config\]
+
+</td><td>
+
+Stores the prompt header configuration details.
+
+</td></tr><tr><td>
+
 Prompt users\[sn\_pp\_prompt\_users\]
 
 </td><td>
@@ -172,18 +213,18 @@ Prompt users\[sn\_pp\_prompt\_users\]
 Stores the record level information qualified for the prompt when the **Collect records** field is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Proactive Prompts](proactive-prompts-reference.md)
+</table>**Parent Topic:**[Reference for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
 
 **Related topics**  
 
 
-[Tokens in Proactive Prompts](proactive-prompts-tokens.md)
+[Tokens in Proactive Prompts]()
 
-[Types of data sources in Proactive Prompts](proactive-prompts-data-source.md)
+[Types of data sources in Proactive Prompts]()
 
-[Actions and action groups in Proactive Prompts](proactive-prompts-actions.md)
+[Actions and action groups in Proactive Prompts]()
 
-[Signal data source form](proactive-prompts-signal-datasource-form.md)
+[Signal data source form]()
 
-[Signal configuration form](proactive-prompts-create-signal-form.md)
+[Signal configuration form]()
 

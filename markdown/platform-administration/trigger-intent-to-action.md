@@ -2,6 +2,7 @@
 title: Enable intent to action workflow from triggers
 description: Enable and configure intent to action workflow to invoke this agentic workflow from triggers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/trigger-intent-to-action.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,10 +46,10 @@ Role required: sn\_notif\_agents.notification\_ai\_admin
 
     6.  Select **Activate**.
 
-        For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-edit.md), [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md), and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
+        For more information, see [Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-edit.md), [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-test.md), and [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-activate.md).
 
 
 ## What to do next
 
-[Create email intents](create-email-intent.md)
+[Create email intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-email-intent.md)
 

@@ -2,6 +2,7 @@
 title: Run historical data collection for a Platform Analytics Solution
 description: After you activate an Platform Analytics Solution, run a historical data collection job. This job gives you immediate insight from your existing data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/historical-data-nowintel-solution.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -58,31 +59,31 @@ You have just installed a set of Platform Analytics Solutions. You want to run t
 
 **Tip:** When you start to create your own historical data collector jobs, include the word 'Historic' in their names.
 
-![List of historic jobs showing Knowledge historical job](../image/nowintel-solution-jobs.png)
+\[Omitted image "nowintel-solution-jobs.png"\] Alt text: List of historic jobs showing Knowledge historical job
 
-You decide to run the job for the Knowledge Management solution first. To ensure that nobody has run the knowledge management historical job yet, you navigate to **Data Collector** &gt; **Job Logs** and filter the list on \[\[Job\]\[contains\]\[knowledge\]\].![Job logs showing no knowledge management jobs run since last zBoot](../image/nowintel-solution-no-knowledge.png)
+You decide to run the job for the Knowledge Management solution first. To ensure that nobody has run the knowledge management historical job yet, you navigate to **Data Collector** &gt; **Job Logs** and filter the list on \[\[Job\]\[contains\]\[knowledge\]\].\[Omitted image "nowintel-solution-no-knowledge.png"\] Alt text: Job logs showing no knowledge management jobs run since last zBoot
 
-In this case, you see that the job has not been run since the last zBoot. So you navigate back to the **Jobs** list and open **\[PA Knowledge\] Historic Data Collection**.![Record for a historical data collection job](../image/nowintel-solution-histjob.png)
+In this case, you see that the job has not been run since the last zBoot. So you navigate back to the **Jobs** list and open **\[PA Knowledge\] Historic Data Collection**.\[Omitted image "nowintel-solution-histjob.png"\] Alt text: Record for a historical data collection job
 
 In the form, you verify the following details:
 
 1.  The **Relative start** field is set for the default 60 days, which is fine for you.
 2.  The **Run as** user exists on your instance. Otherwise, you would have to choose a different user.
 
-    ![System Administrator user on instance](../image/nowintel-solution-sysadmin.png)
+    \[Omitted image "nowintel-solution-sysadmin.png"\] Alt text: System Administrator user on instance
 
 3.  The time zone is appropriate for your company.
 
-You are satisfied with the settings for the historical job, so you click **Execute Now**. After a few minutes, the job is shown as `Collected` in the job logs.![Job log showing collected Knowledge Management historical job](../image/nowintel-solution-complete-hist-job.png)
+You are satisfied with the settings for the historical job, so you click **Execute Now**. After a few minutes, the job is shown as `Collected` in the job logs.\[Omitted image "nowintel-solution-complete-hist-job.png"\] Alt text: Job log showing collected Knowledge Management historical job
 
-**Parent Topic:**[Collect data for Platform Analytics Solutions](../concept/collect-data-nowintel-solutions.md)
+**Parent Topic:**[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)
 
-**Previous topic:**[Collect data for Platform Analytics Solutions](../concept/collect-data-nowintel-solutions.md)
+**Previous topic:**[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)
 
-**Next topic:**[Schedule data collection for a Platform Analytics Solution](schedule-job-nowintel-solution.md)
+**Next topic:**[Schedule data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/schedule-job-nowintel-solution.md)
 
 **Related topics**  
 
 
-[Collect historical data](t_RunHistoricalDataCollection.md)
+[Collect historical data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_RunHistoricalDataCollection.md)
 

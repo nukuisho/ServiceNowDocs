@@ -2,6 +2,7 @@
 title: View the calculation breakdown in a formula tree
 description: View a structured and visual representation of the entire calculation chain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/view-formula-tree.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,8 +36,8 @@ A formula tree provides transparency by displaying the detailed breakdown of how
 
     You can view a visual representation of the entire calculation chain. The formula, associated metric definitions, sub formulas, functions, and so on, are shown.
 
-    **Note:** If you’re seeing an empty page, it's because the formula tree or formula operands are currently empty and are being updated asynchronously. If you’re seeing an error page, it's due to errors in the formula operands that need to be corrected.
+    **Note:** If you’re seeing an empty page, it's because the formula tree or formula operands are currently empty and are being updated asynchronously. If you’re seeing an error page, it's due to errors in the formula operands that must be corrected.
 
 
-**Parent Topic:**[Reviewing calculation details with formula trees](../concept/reviewing-formula-tree.md)
+**Parent Topic:**[Reviewing calculation details with formula trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/reviewing-formula-tree.md)
 

@@ -2,6 +2,7 @@
 title: Configure the activity filter
 description: The activity formatter contains a filter that lets users select which of the available fields to show in the activity list.Use the activity filter to show or hide fields that you want to display activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-activity-filters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: none
 
 All fields on the activity list display in alphabetical order by default. You can change the order that fields appear on the form by using the **Configure available fields** option in the activity formatter.
 
-**Parent Topic:**[Forms in the classic environment](../../../use/using-forms/concept/c_UsingForms.md)
+**Parent Topic:**[Forms in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
 
 ## Use the activity filter
 
@@ -39,7 +40,7 @@ All fields on the activity list display in alphabetical order by default. You ca
 
 ### Procedure
 
-1.  Open the filter by clicking the activity filter icon \(![Activity filter icon](../image/Show_hide_activity_filters_UI15.png)\) in the **Activity** header.
+1.  Open the filter by clicking the activity filter icon \(\[Omitted image "Show\_hide\_activity\_filters\_UI15.png"\] Alt text: Activity filter icon\) in the **Activity** header.
 
 2.  Select the fields for which you want to display activity.
 

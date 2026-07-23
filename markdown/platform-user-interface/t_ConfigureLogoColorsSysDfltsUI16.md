@@ -2,10 +2,11 @@
 title: Configure logo, colors, and system defaults for Core UI
 description: You can use the Basic Configuration Core UI module to brand your instance with your company logo and colors and set basic system defaults. This place is the best starting point if you are setting up your instance for the first time or if you have recently enabled Core UI.The La Jolla theme is the new brand theme for ServiceNow. When you upgrade to Madrid, your theme is automatically upgraded to the La Jolla theme. Any customizations you have made to the system theme will not be upgraded. Use the styles in the list below to upgrade or revert any styles to the new or old theme.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ConfigureLogoColorsSysDfltsUI16.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Customizing instance appearance, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -32,7 +33,7 @@ Each color selection option provides a color picker to select a color. The text 
 
 Refer to [HTML Color Names \(W3CSchools\)](http://www.w3schools.com/tags/ref_colornames.asp) for information about HTML color names.
 
-**Note:** This information is only applicable for instances that do not have Next Experience enabled. For theming information for Next Experience, see [Working with themes in Next Experience](../concept/next-experience-theming.md).
+**Note:** This information is only applicable for instances that do not have Next Experience enabled. For theming information for Next Experience, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
 
 ## Procedure
 
@@ -122,7 +123,7 @@ css.$navpage-header-bg
 
 </td><td>
 
-Select or enter the color.![Header background](../image/HeaderBGColor.png)
+Select or enter the color.\[Omitted image "HeaderBGColor.png"\] Alt text: Header background
 
 This color is also used as part of the theme preview on the Themes tab under system settings.
 
@@ -136,7 +137,7 @@ css.$navpage-header-color
 
 </td><td>
 
-Select or enter the color.![Banner text color](../image/BannerTextColor.png)
+Select or enter the color.\[Omitted image "BannerTextColor.png"\] Alt text: Banner text color
 
 This color is also used as part of the theme preview on the Themes tab under system settings.
 
@@ -150,7 +151,7 @@ css.$navpage-header-divider-color
 
 </td><td>
 
-Select or enter the color.![Header divider striper](../image/BannerDividerColor.png)
+Select or enter the color.\[Omitted image "BannerDividerColor.png"\] Alt text: Header divider striper
 
 </td></tr><tr><td>
 
@@ -162,7 +163,7 @@ css.$navpage-nav-bg
 
 </td><td>
 
-Select or enter the color. ![Navigation](../image/NavigationBGColor.png)
+Select or enter the color. \[Omitted image "NavigationBGColor.png"\] Alt text: Navigation
 
 </td></tr><tr><td>
 
@@ -174,7 +175,7 @@ css.$subnav-background-color
 
 </td><td>
 
-Select or enter the color.![Application with expanded modules to show the difference in color](../image/ExpandedBackgroundColor.png)
+Select or enter the color.\[Omitted image "ExpandedBackgroundColor.png"\] Alt text: Application with expanded modules to show the difference in color
 
 </td></tr><tr><td>
 
@@ -186,7 +187,7 @@ css.$navpage-nav-color-sub
 
 </td><td>
 
-Select or enter the color. ![Favorites, Connect list](../image/ModuleTextColor.png)
+Select or enter the color. \[Omitted image "ModuleTextColor.png"\] Alt text: Favorites, Connect list
 
 </td></tr><tr><td>
 
@@ -198,7 +199,7 @@ css.$navpage-nav-selected-bg
 
 </td><td>
 
-Select or enter the color. ![Selected tab](../image/NavigationSelectedTabBGColor.png)
+Select or enter the color. \[Omitted image "NavigationSelectedTabBGColor.png"\] Alt text: Selected tab
 
 </td></tr><tr><td>
 
@@ -210,7 +211,7 @@ css.$nav-highlight-bar-active
 
 </td><td>
 
-![Application navigator with the All Applications tab selected and an arrow indicating the fact that the line under the tab is blue](../image/NavBarActive.png)
+\[Omitted image "NavBarActive.png"\] Alt text: Application navigator with the All Applications tab selected and an arrow indicating the fact that the line under the tab is blue
 
 This color is also used as part of the theme preview on the Themes tab under system settings.
 
@@ -224,7 +225,7 @@ css.$nav-highlight-bar-inactive
 
 </td><td>
 
-![Application navigator with the All Applications tab selected and an arrow point to the other tabs to indicate that the line is a different color](../image/NavBarInactive.png)
+\[Omitted image "NavBarInactive.png"\] Alt text: Application navigator with the All Applications tab selected and an arrow point to the other tabs to indicate that the line is a different color
 
 </td></tr><tr><td>
 
@@ -236,7 +237,7 @@ css.$nav-hr-color
 
 </td><td>
 
-Select or enter the color. ![Separators](../image/NavigationSeparatorColor.png)
+Select or enter the color. \[Omitted image "NavigationSeparatorColor.png"\] Alt text: Separators
 
 </td></tr><tr><td>
 
@@ -248,7 +249,7 @@ css.$navpage-nav-bg-sub
 
 </td><td>
 
-Select or enter the color. ![Navigator, sidebars](../image/FavoritesConnectBGColor.png)
+Select or enter the color. \[Omitted image "FavoritesConnectBGColor.png"\] Alt text: Navigator, sidebars
 
 </td></tr><tr><td>
 
@@ -260,7 +261,7 @@ css.$navpage-nav-selected-color
 
 </td><td>
 
-Select or enter the color. ![Navigation icon](../image/NavigationIconColor.png)
+Select or enter the color. \[Omitted image "NavigationIconColor.png"\] Alt text: Navigation icon
 
 </td></tr><tr><td>
 
@@ -272,7 +273,7 @@ css.$navpage-nav-unselected-color
 
 </td><td>
 
-Select or enter the color.![Unselected favorites icon](../image/UnselectedNavIconColor.png)
+Select or enter the color.\[Omitted image "UnselectedNavIconColor.png"\] Alt text: Unselected favorites icon
 
 </td></tr><tr><td>
 
@@ -284,7 +285,7 @@ css.$navpage-nav-border
 
 </td><td>
 
-Select or enter the color. Also affects the border of the **Filter conversations** search box in the Connect Chat sidebar.![Filter navigator](../image/BorderColor.png)
+Select or enter the color. Also affects the border of the **Filter conversations** search box in the Connect Chat sidebar.\[Omitted image "BorderColor.png"\] Alt text: Filter navigator
 
 </td></tr><tr><td>
 
@@ -308,7 +309,7 @@ Switches the main content \(everything other than the application navigator and 
 
 After you save the configuration changes, all users who select the **System** theme in their UI personalization options see the new configuration colors.
 
-**Parent Topic:**[Customizing instance appearance](../reference/customizing-instance-appearance.md)
+**Parent Topic:**[Customizing instance appearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/customizing-instance-appearance.md)
 
 ## La Jolla and cobalt theme comparison
 

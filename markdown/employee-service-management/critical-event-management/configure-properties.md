@@ -2,13 +2,14 @@
 title: Configure Critical Event Management application properties
 description: Configure the application properties for Critical Event Management \(CEM\) to access the map feature on the dashboard and to. set the maximum contacts for Email and SMS according to organizational needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/configure-properties.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Configure Critical Event Management application properties

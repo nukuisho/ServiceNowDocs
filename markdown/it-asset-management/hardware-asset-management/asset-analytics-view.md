@@ -2,13 +2,14 @@
 title: Asset analytics view
 description: Use the Asset analytics view to get a detailed view of all your hardware assets, the total cost of ownership \(TCO\) of your assets, and the asset performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/asset-analytics-view.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Hardware Asset Workspace, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset analytics view
@@ -17,11 +18,11 @@ Use the Asset analytics view to get a detailed view of all your hardware assets,
 
 ## Total cost of ownership
 
-For more information about the TCO of your assets, see [Asset Total Cost of Ownership for Hardware Asset Management](asset-mgmt-tco.md).
+For more information about the TCO of your assets, see [Asset Total Cost of Ownership for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-mgmt-tco.md).
 
 **Important:** The Asset Analytics view is available with Hardware Asset Management 10.0.0 version or later.
 
-![Asset analytics view in Hardware Asset Workspace.](../image/ham-asset-analytics.png)
+\[Omitted image "ham-asset-analytics.png"\] Alt text: Asset analytics view in Hardware Asset Workspace.
 
 You can filter and narrow down your results by selecting a location, stockroom, and model category.
 
@@ -57,7 +58,7 @@ For example, if you have set the benchmark as $1000 and the asset cost has reach
 
 Use the system property **sn\_itam\_common.asset\_tco\_benchmark\_threshold\_percentage** to update the benchmark threshold percentage.
 
-For more information about the hardware asset field values, see [Asset record fields](../../asset-management/reference/asset-record-fields.md).
+For more information about the hardware asset field values, see [Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-record-fields.md).
 
 </td></tr><tr><td>
 
@@ -104,7 +105,7 @@ Monthly initial and operational costs of your assets over the last 12 months.
 
     View the most recently created TCO reports in this section.
 
-    You can also create a report by selecting **New** in the Comparative reports section. For more information, [Create a TCO report in Hardware Asset Workspace](../task/create-ham-tco-report.md).
+    You can also create a report by selecting **New** in the Comparative reports section. For more information, [Create a TCO report in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-ham-tco-report.md).
 
 
 ## Asset performance
@@ -115,7 +116,7 @@ The Asset performance tab provides details on the average values of the followin
 -   Mean time between failures \(MTBF\)
 -   Mean time to repair \(MTTR\)
 
-**Note:** For more details on calculation of KPIs, see [Asset performance reports in the Hardware Asset Workspace](asset-performance-reports-ham.md).
+**Note:** For more details on calculation of KPIs, see [Asset performance reports in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-performance-reports-ham.md).
 
 By default, the **Model category** filter is applied to the KPI reports. To further narrow down and focus on specific data, you can also select any one of the following filters:
 
@@ -130,7 +131,7 @@ You can see a weekly trend of the average KPI values in the report. The Asset Av
 
 When you select any KPI report, the **KPI Details** page appears. This page enables you to explore the information within that KPI. You can set targets you want to achieve and also set signals to notify you of any significant changes in the KPI.
 
-![Asset performance tab in the Asset analytics view](../image/asset-performance-view-ham.png "Asset performance dashboard")
+\[Omitted image "asset-performance-view-ham.png"\] Alt text: Asset performance tab in the Asset analytics view
 
 |Widget|Description|
 |------|-----------|

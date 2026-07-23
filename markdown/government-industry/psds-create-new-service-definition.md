@@ -2,6 +2,7 @@
 title: Configure a service definition for Playbooks in Public Sector Digital Services
 description: Create a service definition for use with Playbooks in Public Sector Digital Services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-create-new-service-definition.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -61,7 +62,7 @@ After upgrade to Public Sector Digital Services v8.0, Services Offered, an exten
 
 6.  In the Default Table Values field, select **Service Definition**.
 
-7.  Select the search icon ![Search icon.](../../../help-center/vendor-management-workspace/image/magnifying-glass.png), and select the new Service definition in the choice menu.
+7.  Select the search icon \[Omitted image "magnifying-glass.png"\] Alt text: Search icon., and select the new Service definition in the choice menu.
 
 8.  Select **Submit**.
 

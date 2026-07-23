@@ -2,6 +2,7 @@
 title: Set up forecast schedule
 description: Forecast schedule automatically fetches all the opportunities in the system and generates forecast data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/setup-forecast-schedule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  From the Run list, select the option to customize the timing of the scheduler according to your requirements.
 
-    ![Forecast scheduler](../image/forecast-scheduler.png)
+    \[Omitted image "forecast-scheduler.png"\] Alt text: Forecast scheduler
 
 5.  Select **Update** to save the settings of your scheduler.
 
@@ -39,4 +40,11 @@ Role required: admin
 
     You can copy the script provided in the Run this script field to create your own scheduler.
 
+
+**Related topics**  
+
+
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
 

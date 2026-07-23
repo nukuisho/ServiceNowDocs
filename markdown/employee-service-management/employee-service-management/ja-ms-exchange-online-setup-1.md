@@ -22,11 +22,11 @@ Some integrations and related plugins require activation by ServiceNow® personn
 
 ## Journey Accelerator v2
 
--   **[Microsoft AD Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-ad-spoke.md) \[com.sn.ad.spoke\]**
+-   **[Microsoft AD Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-ad-spoke.md) \[com.sn.ad.spoke\]**
 
     Provides communication between Journey Accelerator and Microsoft Active Directory to manage objects such as users, groups, and computers.
 
--   **[Microsoft Azure AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md) \[com.sn.azure\_ad.spoke\]**
+-   **[Microsoft Azure AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/microsoft-azure-ad-spoke.md) \[com.sn.azure\_ad.spoke\]**
 
     Provides security requirements to Journey Accelerator so that users, security groups, and office groups are appropriately managed.
 
@@ -57,12 +57,12 @@ Follow the instructions for setting up the spokes respective to your Journey Acc
 
 **Note:** When using Microsoft Exchange Online spoke v.2.0.2 with Retry Handler Framework, the scripted rest API for the retry handler framework is used as the webhook URL.
 
-For detailed steps, see [Update system properties for Microsoft Exchange Online in the Journey Accelerator app](../task/ja-update-system-properties-1.md)
+For detailed steps, see [Update system properties for Microsoft Exchange Online in the Journey Accelerator app]()
 
-**Parent Topic:**[Journey Accelerator integrations](ja-integrations.md)
+**Parent Topic:**[Journey Accelerator integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-integrations.md)
 
 **Related topics**  
 
 
-[Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)
+[Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md)
 

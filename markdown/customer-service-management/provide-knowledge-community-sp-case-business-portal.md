@@ -2,6 +2,7 @@
 title: Deflect cases with knowledge content
 description: Enable customers to search for information from the knowledge base and and find solutions to their issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/provide-knowledge-community-sp-case-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,4 +44,9 @@ The business portal Case form displays contextual search results based on text e
 
 6.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Search the knowledge base on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_SearchForInfoUsingThe-businessPortal.md)
 

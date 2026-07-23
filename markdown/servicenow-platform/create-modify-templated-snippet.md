@@ -2,6 +2,7 @@
 title: Create or modify a response template
 description: Create or modify a response template \(formerly known as a templated snippet\) to define a reusable message that can be copied to case or task forms or used in Agent Chat sessions to provide quick and consistent messages to users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/create-modify-templated-snippet.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -97,6 +98,14 @@ Indicates what groups have access to the response template.Adding groups filters
 
 </td></tr><tr><td>
 
+Language
+
+</td><td>
+
+Language in which you want the response template to be translated. **Note:** Translation feature is available only when the required language plugins are installed on the instance.
+
+</td></tr><tr><td>
+
 Template body
 
 </td><td>
@@ -107,9 +116,7 @@ Text of the response template providing instructions to the agent on how to resp
 
 -   Current user: `${current_user}`
 -   Current date: `${Date}`
- Or, place your mouse where you want the custom variable reference to appear and select the **Insert Current User** or **Insert Current Date** buttons.
-
- **Note:** Response templates do not support rich text.
+ Or, position your cursor where you want the custom variable reference to appear and select the **Insert Current User** or **Insert Current Date** buttons.
 
 </td></tr><tr><td>
 
@@ -122,15 +129,13 @@ Variables you can add to the template body. For example, if you choose the HR Ca
 </td></tr></tbody>
 </table>    The following GIF shows an example of an HR manager in the HR Service Delivery application creating a response template to escalate payroll discrepancy cases. The template is associated with the HR Payroll Case \[sn\_hr\_core\_case\_payroll\] table, and a condition is set to filter on cases that match the Payroll Discrepancy HR service. The template text is pasted into the body, and then a variable for the subject person is added to the salutation.
 
-    ![Response Template](../image/response-template.png)
+    \[Omitted image "response-template.png"\] Alt text: Response Template
 
-    ![How you can create a response template with conditions and variables.](../image/response-template-example.gif)
+    \[Omitted image "response-template-example.gif"\] Alt text: How you can create a response template with conditions and variables.
 
 4.  Click **Submit** or **Update**.
 
-    Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
-
-    The Channels related list appears.
+    The Channels related list appears. Channels limit the response template to only the channels you add. If you leave this blank, the response template is available to no channels. This feature allows you to have different messages for chats, emails, or form. For more information, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-templated-snippets.md).
 
 
 ## What to do next
@@ -139,5 +144,5 @@ You can copy response template content to any field on a form that meets the spe
 
 The following GIF shows an example of an HR case writer in the HR Service Delivery application opening a payroll discrepancy case and copying a payroll discrepancy escalation template to the comments field in the HR case form for the employee to read.
 
-![How you can copy response template content to a field on a case form.](../image/response-template-example-2.gif)
+\[Omitted image "response-template-example-2.gif"\] Alt text: How you can copy response template content to a field on a case form.
 

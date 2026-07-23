@@ -2,6 +2,7 @@
 title: External business location \(EBL\) as a fulfiller
 description: External business location \(EBL\) as a fulfiller enables partners, external agencies, and franchises to fulfill customer cases. You can use this capability to maintain consistent customer experiences across both internal and external business locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ebl-as-a-fulfiller.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,5 +29,5 @@ For example, the financial institution agencies perform various activities, from
 **Related topics**  
 
 
-[Access limitations for external location agents](../reference/access-limitations-for-ext-loc-agent.md)
+[Access limitations for external location agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/access-limitations-for-ext-loc-agent.md)
 

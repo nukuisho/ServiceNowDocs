@@ -2,11 +2,12 @@
 title: Create a sales promotion claim case
 description: Create a sales promotion claim case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-sls-pro-claim-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion claim management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion claim management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a sales promotion claim case
@@ -56,10 +57,8 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 Sales promotion claim case is created.
 
-**Parent Topic:**[Sales promotion claim management](../concept/mco-sls-pro-clm-mgmt.md)
-
 **Related topics**  
 
 
-[Use the Activity Stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/filter-activity-stream-csm.md)
+[bundle-csm.filter-activity-stream-csm]
 

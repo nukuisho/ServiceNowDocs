@@ -1,29 +1,40 @@
 ---
 title: Exploring LEAP
-description: LEAP categorizes similar incidents into groups and uses AI to generate resolution steps, problem records, knowledge base articles, and playbooks.
+description: LEAP categorizes similar incidents into groups and uses AI to generate resolution steps, problem records, AI-enhanced knowledge base articles, and playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-aiops-leap.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 4
 breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
 # Exploring LEAP
 
-LEAP categorizes similar incidents into groups and uses AI to generate resolution steps, problem records, knowledge base articles, and playbooks.
+LEAP categorizes similar incidents into groups and uses AI to generate resolution steps, problem records, AI-enhanced knowledge base articles, and playbooks.
 
 ## LEAP overview
 
 LEAP helps you manage incidents and operational tasks efficiently. It uses AI to gather information from existing incidents and generates resolutions that can be automated. The LEAP automation provides tools to manage incidents early, speed up resolution, use prebuilt automation, and follow clear steps to handle issues. These tools help support smooth operations.
 
-**Note:** The plugin name has been updated from AIOps Learning Enhanced Automation Playbook to AIOps Learning Enhanced Automation Platform \(LEAP\) to reflect its expanded capabilities and strategic direction.
+**Note:** The plugin name has been updated from AIOps Learning Enhanced Automation Playbook to Learning Enhanced Automation Platform \(LEAP\) to reflect its expanded capabilities and strategic direction.
 
-![LEAP dashboard with records analyzed](../images/leap-dashboard-records-analyzed.png)
+\[Omitted image "aiops-leap-landing-page.png"\] Alt text: LEAP landing page
 
-The landing page displays the number of records analyzed on the right-hand side of Automation opportunities section. The tool tip provides details about the duration considered for record analysis.
+The landing page displays the number of records analyzed in the Automation opportunities section. The tooltip provides details about the duration considered for record analysis. [https://player.vimeo.com/video/1203972930?h=a3a7ebd490&amp;badge=0&amp;autopause=0&amp;player\_id=0&amp;app\_id=58479%22](https://player.vimeo.com/video/1203972930?h=a3a7ebd490&badge=0&autopause=0&player_id=0&app_id=58479%22)
+
+When the LEAP homepage loads, it displays a banner that you can use to connect Ansible Automation Platform. The banner makes the Ansible automation integration discoverable so that you can connect the automation tool and map playbooks to resolution steps. Select **Connect** to open the LEAP settings page and configure the connection. To dismiss the banner, select **Remind me later**. The banner reappears when you refresh the homepage until a connection is configured. After you connect Ansible, the banner no longer appears on the homepage.
+
+## Grouping of automation opportunities in LEAP
+
+GAF \(Group Action Framework\) is the clustering engine that LEAP uses to group incidents into Automation Opportunities \(AOs\). GAF analyzes incident records using the short description field and applies ML-powered clustering to group incidents that share similar problem patterns. LEAP surfaces recurring issue types as discrete automation opportunities \(AOs\) rather than treating every incident in isolation.
+
+GAF runs on a scheduled job, by default monthly. The schedule is configured during LEAP skill activation through the installer. On the first run, GAF processes up to six months of historical incident data using the filter set in the installer.
+
+Before clustering begins, GAF selects the top N incidents from the eligible incident pool, where N is configurable and can be set to a maximum of 50. This selection confirms that clustering focuses on the most relevant and recent incidents within the defined scope. You can configure the fields GAF considers during analysis such as tables and columns in the LEAP settings. You can also modify the schedule run frequency in the LEAP settings.
 
 ## LEAP users
 
@@ -47,7 +58,7 @@ You have full control over LEAP capabilities, including the following:
 -   Execute scheduled jobs
 -   Manage LEAP tables and the LEAP Workspace
 -   Generate and update resolution steps
--   Create and view knowledge base articles, problem records and playbooks from automation opportunities \(AO\)
+-   Generate AI-enhanced knowledge base articles, problem records, and playbooks from automation opportunities \(AO\)
 
 </td></tr><tr><td>
 
@@ -139,12 +150,23 @@ A buyer or a business goal owner gains strategic and operational advantages usin
 |Targets Outcomes for L1 Operators|Interpret data and automate records|
 |Improves MTTR|Measure and enhance performance|
 |Optimize Resource Allocation|Identify and prioritize high impact areas|
+|Provides cost predictability|Fixed pricing model for incident analysis operations|
+
+## LEAP AI agent
+
+The LEAP AI agent uses automation opportunities created by LEAP analysis to generate artifacts — problem records, knowledge base articles, or playbooks — based on user requests.
+
+|AI agent|AI agent role|
+|--------|-------------|
+|LEAP AI agent|Uses the automation opportunities created by LEAP analysis, and creates artifacts — problem records, AI-enhanced knowledge base articles, or playbooks — based on user requests.|
+
+**Important:** This AI agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## What to explore next
 
 To learn more about configuring and using LEAP, see:
 
--   [Configuring LEAP](configuring-aiops-leap.md)
--   [Using LEAP](../task/using-aiops-leap.md)
--   [LEAP reference](../reference/references-aiops-leap.md)
+-   [Configuring LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configuring-aiops-leap.md)
+-   [Using LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/using-aiops-leap.md)
+-   [LEAP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/references-aiops-leap.md)
 

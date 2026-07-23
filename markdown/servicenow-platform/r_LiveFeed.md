@@ -2,6 +2,7 @@
 title: Live feed view of assessable records
 description: The Live Feed view displays Live Feed conversations that apply to the assessable record. Users can view the group feed, including tagged comments, and add comments of their own.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_LiveFeed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,24 +23,24 @@ The Live Feed view provides these viewing options:
 -   **Groups**: Displays all available groups and gives the logged in user the option to leave or join a group. Select a group to display that group's conversations.
 -   **Tags**: Displays all the tags found in Live Feed comments. Click a tag to display the conversations containing that tag.
 
-![Live Feed group scorecard](../images/live-feed-scorecard.png "Live Feed group scorecard")
+\[Omitted image "live-feed-scorecard.png"\] Alt text: Live Feed group scorecard
 
-**Parent Topic:**[View an assessment scorecard](../task/t_ViewAnAssessmentScorecard.md)
+**Parent Topic:**[View an assessment scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAnAssessmentScorecard.md)
 
 **Related topics**  
 
 
-[Create a link to a scorecard](../task/t_CreateALinkToAScorecard.md)
+[Create a link to a scorecard]()
 
-[Assessment scorecard averages](r_Averages.md)
+[Assessment scorecard averages]()
 
-[Assessment scorecard categories](r_Categories.md)
+[Assessment scorecard categories]()
 
-[Assessment scorecard category metrics](r_CategoryMetrics.md)
+[Assessment scorecard category metrics]()
 
-[Assessment scorecard head-to-head compare view](r_HeadToHeadCompare.md)
+[Assessment scorecard head-to-head compare view]()
 
-[Assessment scorecard history](r_History.md)
+[Assessment scorecard history]()
 
-[Assessment scorecard ratings](r_Ratings.md)
+[Assessment scorecard ratings]()
 

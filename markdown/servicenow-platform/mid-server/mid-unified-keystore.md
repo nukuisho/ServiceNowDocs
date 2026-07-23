@@ -2,6 +2,7 @@
 title: MID Server unified key store
 description: The MID Server unified key store allows all products on the MID Server to use common certificates and key pairs. This feature allows applications to use the same secure communication channel to the MID Server that the MID Server uses to connect to the instance.Install custom certificates to unify the security channels for various applications.If the key store becomes corrupted or is accidentally deleted you can restore a backup of the MID Server key store. This is especially useful for key stores with custom key-pairs, because otherwise recreating custom key-pair data can be difficult and time consuming.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-unified-keystore.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -64,38 +65,38 @@ MIIDKzCCAhOgAwIBAgIEPqMQqDANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJV
 -----END CERTIFICATE----- 
 ```
 
-**Parent Topic:**[Securing and encrypting MID Server data](mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[MID Server certificate check policies](mid-security-checks.md)
+[MID Server certificate check policies]()
 
-[Encrypt or decrypt MID Server configuration file values](../task/mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server authentication credentials and SOAP requests](mid-authentication-soap-requests.md#)
+[MID Server authentication credentials and SOAP requests]()
 
-[Enable MID Server mutual authentication](../task/install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication]()
 
-[MID Server Azure Key Vault integration](../task/mid-azure-key-vault-integration.md#)
+[MID Server Azure Key Vault integration]()
 
-[MID Server command audit log](mid-audit-log.md)
+[MID Server command audit log]()
 
-[Rekey a MID Server](../task/t_RekeyAMIDServer.md)
+[Rekey a MID Server]()
 
-[Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#)
+[Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server](../task/mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
+[MID Server SSH cryptographic algorithms]()
 
-[Attach a script file to a file synchronized MID Server](../task/mid-server-script-attach.md#)
+[Attach a script file to a file synchronized MID Server]()
 
-[MID Server FIPS Enforced Mode](mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 
-[MID Server Governance](mid-timeout.md)
+[MID Server Governance]()
 
 ## Install custom certificates in the MID Server unified key store
 
@@ -272,7 +273,7 @@ The **manage-certificates** has the following functions and the scripts must be 
 **Related topics**  
 
 
-[Enable MID Server mutual authentication](../task/install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-mid-mutual-auth.md)
 
 ## Restore the MID Server key store with a backup
 
@@ -290,7 +291,7 @@ In the backup folder, there is a dedicated backup log file: **keystore\_backup\_
 
 **Note:** For security purposes, the backup key store should have the same attributes as the original key store, such as owner, group, and permissions. Those attributes ensure the MID Server has the same protection at file system level.
 
-The key store backups can be modified with the MID Server properties **mid.keystore.max\_backups**, **mid.keystore.max\_live\_backups**, and **mid.keystore.backup\_overwrite\_timespan**. See [MID Server properties](../reference/r_MIDServerProperties.md#) for more information.
+The key store backups can be modified with the MID Server properties **mid.keystore.max\_backups**, **mid.keystore.max\_live\_backups**, and **mid.keystore.backup\_overwrite\_timespan**. See [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for more information.
 
 ### Procedure
 

@@ -2,11 +2,12 @@
 title: Calculating the order priority
 description: Order priority is calculated based on the rank defined in the decision table and the weightage assigned to each table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/order-mgmt-priority-calculate.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring order priority and routing, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Order priority and routing, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Calculating the order priority
@@ -43,9 +44,9 @@ The order priority is set to **high** in the customer order and in the order lin
 
 **Note:** The highest priority specified for the order line items is used to set the priority for the customer order. The order line item priority is then propagated to the corresponding domain orders and order tasks.
 
-## Adding a new priority rule
+## Adding a priority rule
 
-Apart from the rules defined in the decision tables provided with the base system \(see [Configuring order priority and routing](order-mgt-priority-management.md)\), you can create additional decision tables and a new extension point implementation to add new priority rules. To create a new priority rule, follow these steps:
+Apart from the rules defined in the decision tables provided with the base system \(see [Configuring order priority and routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/order-mgt-priority-management.md)\), you can create additional decision tables and a new extension point implementation to add new priority rules. To create a new priority rule, follow these steps:
 
 1.  Navigate to**All** &gt; **Decision tables**.
 2.  Click **New** and select **Decision table**.

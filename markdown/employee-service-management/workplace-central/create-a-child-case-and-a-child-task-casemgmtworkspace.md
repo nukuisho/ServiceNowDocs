@@ -2,6 +2,7 @@
 title: Create a child case and a child task
 description: As a case manager, to fulfill a case, you can create a child case and also a child task using the workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -27,7 +28,7 @@ Role required: sn\_wsd\_case.manager
 
     The Workplace Analytics dashboard opens.
 
-2.  On the left pane, select the **Case Management** icon \(![Case Management icon.](../images/casemgmt-icon.png)\).
+2.  On the left pane, select the **Case Management** icon \(\[Omitted image "casemgmt-icon.png"\] Alt text: Case Management icon.\).
 
     The Case Management landing page opens.
 
@@ -40,7 +41,7 @@ Role required: sn\_wsd\_case.manager
     -   Go to the **All active cases** section.
 4.  Select the case to which you want to add a child case/task.
 
-    The case details are displayed in a separate tab. For more information about the view, the actions that you can perform and additional features, refer to the **Case details page** section in the [Case Management - Key features, Actions &amp; Case details](../reference/case-management-key-features-actions-case-details.md) topic.
+    The case details are displayed in a separate tab. For more information about the view, the actions that you can perform and additional features, refer to the **Case details page** section in the [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
 
 5.  To create a child case, do the following:
 
@@ -66,9 +67,9 @@ Role required: sn\_wsd\_case.manager
         |Work notes|Add work notes to the case. The notes are visible only to you.|
         |Time worked|Tracks the total time spent on a case or task. The timer starts at zero, tracks time until the record is saved or closed, and resumes when revisited. You can also manually adjust, pause, or resume the timer.|
 
-    4.  To attach any file, select the Attachment icon \(![Attachment icon.](../images/casemgmt-attachementicon.png)\) on the side panel.
+    4.  To attach any file, select the Attachment icon \(\[Omitted image "casemgmt-attachementicon.png"\] Alt text: Attachment icon.\) on the side panel.
 
-    5.  To configure a template for the case, select the Template icon \(![Template icon.](../images/casemgmt-templateicon.png)\).
+    5.  To configure a template for the case, select the Template icon \(\[Omitted image "casemgmt-templateicon.png"\] Alt text: Template icon.\).
 
     6.  Select **Save**.
 
@@ -94,9 +95,9 @@ Role required: sn\_wsd\_case.manager
         |Workplace service activity|Select the Workplace service activity to implement the task.|
         |Short description|Enter a short description about the task.|
 
-    4.  To attach any file, select the Attachment icon \(![Attachment icon.](../images/casemgmt-attachementicon.png)\) on the side panel.
+    4.  To attach any file, select the Attachment icon \(\[Omitted image "casemgmt-attachementicon.png"\] Alt text: Attachment icon.\) on the side panel.
 
-    5.  To configure a template for the task, select the Template icon \(![Template icon.](../images/casemgmt-templateicon.png)\).
+    5.  To configure a template for the task, select the Template icon \(\[Omitted image "casemgmt-templateicon.png"\] Alt text: Template icon.\).
 
     6.  Select **Save**.
 
@@ -105,20 +106,26 @@ Role required: sn\_wsd\_case.manager
 7.  After adding the child case/child task, select **Save** to save the changes.
 
 
-**Parent Topic:**[Working with Case management](../concept/working-with-case-management.md)
+**Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-case-management.md)
 
 **Related topics**  
 
 
-[Manage workplace cases using Case management](manage-workplace-cases-using-case-management.md)
+[Manage workplace cases using Case management]()
 
-[Work on a workplace case using Case management](work-on-a-workplace-case-using-case-management.md)
+[Work on a workplace case using Case management]()
 
-[Create a workplace service case](create-a-case-casemgmtworkspace.md)
+[Create a workplace service case]()
 
-[Print a workplace case](print-a-workplace-case.md)
+[Print a workplace case]()
 
-[Managing print case](../concept/manage-print-case.md#)
+[Managing print case]()
 
-[Cancel or delete a case](cancel-or-delete-a-case-casemgmtworkspace.md)
+[Cancel or delete a case]()
+
+[Manage workplace cases in calendar view in Workplace Central]()
+
+[Manage workplace cases in List view in Workplace Central]()
+
+[View Facility Assets in Workplace Central]()
 

@@ -2,6 +2,7 @@
 title: Group Life Servicing
 description: The ServiceNow Group Life Servicing application \(sn\_ins\_group\_life\) gives your organization the tools to establish, update, and maintain group life and disability insurance policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/group-life-servicing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,23 +16,23 @@ The ServiceNow® Group Life Servicing application \(sn\_ins\_group\_life\) gives
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 <table class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how customers, insurance agents, and policy processors use Group Life Servicing.](exploring-group-life-servicing.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how customers, insurance agents, and policy processors use Group Life Servicing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/exploring-group-life-servicing.md)
 
 </td><td>
 
-[Set up ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Set up Group Life Servicing](setting-up-group-life-servicing.md)
+[Set up \[Omitted image "bus-sdlc.svg"\] Alt text: Set up Group Life Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/setting-up-group-life-servicing.md)
 
 </td></tr><tr><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components such as roles, tables, plugins, and store applications that are installed.](../reference/components-installed-with-group-life-servicing.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/components-installed-with-group-life-servicing.md)
 
 </td><td>
 
-[Analytics and Reporting ![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg) Monitor key statistics and track performance with preconfigured dashboard.](analytics-reporting-group-life-servicing.md)
+[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Monitor key statistics and track performance with preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/analytics-reporting-group-life-servicing.md)
 
 </td></tr></tbody>
 </table>

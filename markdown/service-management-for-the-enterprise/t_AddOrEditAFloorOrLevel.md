@@ -2,6 +2,7 @@
 title: Add or edit a floor or level
 description: A floor is a level in a structure that contains spaces. It can be a floor of a building, the basement, levels in a parking lot, or outdoor areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_AddOrEditAFloorOrLevel.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,15 +24,15 @@ Role required: admin
 
 2.  Continue with one of the following options.
 
-<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d41270e124">
+<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d41563e124">
 
 Option
 
-</th><th align="left" id="d41270e127">
+</th><th align="left" id="d41563e127">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41270e133">
+</th></tr></thead><tbody><tr><td id="d41563e133">
 
 **To add a floor or level**
 
@@ -40,7 +41,7 @@ Action
 -   Click **New**.
 
 
-</td></tr><tr><td id="d41270e151">
+</td></tr><tr><td id="d41563e151">
 
 **To edit the details of a floor or level**
 
@@ -124,7 +125,7 @@ Area unit
 
 Select the unit used for defining the space size: square feet or square meters.
 
- **Note:** The **Area unit** assigned to all spaces must be consistent for the rollup calculations to work properly. See [Space roll up calculations](../concept/c_SpaceRollupCalculations.md).
+ **Note:** The **Area unit** assigned to all spaces must be consistent for the rollup calculations to work properly. See [Space roll up calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_SpaceRollupCalculations.md).
 
 </td></tr><tr><td>
 
@@ -181,15 +182,15 @@ Enter a number to define the maximum level of utilization for the floor or level
 
 6.  Continue with one of the following options.
 
-<table id="choicetable_pbs_zp4_ht"><thead><tr><th align="left" id="d41270e410">
+<table id="choicetable_pbs_zp4_ht"><thead><tr><th align="left" id="d41563e410">
 
 Option
 
-</th><th align="left" id="d41270e413">
+</th><th align="left" id="d41563e413">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41270e419">
+</th></tr></thead><tbody><tr><td id="d41563e419">
 
 **To add the floor**
 
@@ -198,7 +199,7 @@ Action
 -   Click **Submit**.
 
 
-</td></tr><tr><td id="d41270e437">
+</td></tr><tr><td id="d41563e437">
 
 **To update the floor details**
 

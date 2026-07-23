@@ -2,6 +2,7 @@
 title: Service Exchange glossary
 description: A list of terms used in Service Exchange.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-glossary-sb.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -35,7 +36,7 @@ An individual user record that is permitted to access Service Exchange instances
 **Related topics**  
 
 
-[Add an authorized user](../task/service-bridge-v2-create-auth-user.md)
+[Add an authorized user]()
 
 ## B
 
@@ -56,7 +57,7 @@ A person or an organization that receives services from a provider through Servi
 **Related topics**  
 
 
-[Service Exchange for Consumers](../concept/service-bridge-consumers-landing-page.md)
+[Service Exchange for Consumers]()
 
 ### consumer application
 
@@ -65,7 +66,7 @@ A Service Exchange component installed on the consumer's instance that enables u
 **Related topics**  
 
 
-[Components installed with Service Exchange for Consumers](service-bridge-v2-installed-components-customer.md)
+[Components installed with Service Exchange for Consumers]()
 
 ### consumer criteria
 
@@ -74,16 +75,16 @@ A filter criteria that determine which consumers are entitled to specific Servic
 **Related topics**  
 
 
-[Create a consumer criteria](../concept/service-bridge-v2-create-consumer-criteria.md)
+[Create a consumer criteria]()
 
 ### configuration revision
 
-A versioned update to various [entitlements](service-bridge-v2-glossary-sb.md#), such as a remote record producer, remote task definition, or FDS offering, which enables providers to introduce new features without disrupting existing consumer entitlements.
+A versioned update to various [entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-glossary-sb.md), such as a remote record producer, remote task definition, or FDS offering, which enables providers to introduce new features without disrupting existing consumer entitlements.
 
 **Related topics**  
 
 
-[Configuring revisions](../concept/service-bridge-v2-config-revision.md)
+[Configuring revisions]()
 
 ## D
 
@@ -92,11 +93,6 @@ Glossary terms are grouped alphabetically.
 ### domain separation
 
 A process to separate data, processes, and administrative tasks into logical groupings called domains. Admins can then control the information available to each domain, including which users can see and access the data. Typically used only in Multiple Service Provider \(MSP\) organizations.
-
-**Related topics**  
-
-
-[Domain separation and Service Exchange](service-bridge-v2-domain-separation.md)
 
 ## E
 
@@ -109,7 +105,7 @@ A configuration mechanism in Service Exchange that determines which remote conte
 **Related topics**  
 
 
-[Creating entitlements in Service Exchange for Providers](../concept/service-bridge-v2-entitlements.md)
+[Creating entitlements in Service Exchange for Providers]()
 
 ## F
 
@@ -122,7 +118,7 @@ A predefined automation step in Workflow Studio that helps manage repetitive tas
 **Related topics**  
 
 
-[Flow action](../concept/service-bridge-v2-flow-action.md)
+[Flow action]()
 
 ### foundation data sync
 
@@ -131,7 +127,7 @@ A mechanism for scheduled, structured synchronization of foundational data \(suc
 **Related topics**  
 
 
-[Foundation data sync](../concept/service-bridge-v2-explore-foundation-data-sync.md)
+[Foundation data sync]()
 
 ## H
 
@@ -144,7 +140,7 @@ A centralized UI that displays health of connected instances, the results of sys
 **Related topics**  
 
 
-[Service Exchange Center](../concept/se-se-center.md)
+[Service Exchange Center]()
 
 ## I
 
@@ -157,9 +153,9 @@ Automated tests that identify configuration issues or system inconsistencies in 
 **Related topics**  
 
 
-[Instance scan checks](../concept/service-bridge-v2-scan-checks.md)
+[Instance scan checks]()
 
-[List of scan checks](service-bridge-v2-list-of-scan-checks-in-sb.md)
+[List of scan checks]()
 
 ## J
 
@@ -172,7 +168,7 @@ A framework that synchronizes journal-type fields, such as comments and work not
 **Related topics**  
 
 
-[Journal field frameworks](../concept/service-bridge-v2-expolre-journal-field-framework.md)
+[Journal field frameworks]()
 
 ## K
 
@@ -193,7 +189,7 @@ A special URL that allows a consumer user to access a resource in the provider i
 **Related topics**  
 
 
-[Magic links](../concept/service-bridge-v2-explore-magic-link.md)
+[Magic links]()
 
 ## N
 
@@ -214,16 +210,11 @@ A category used to define entitlement to catalog items or services by grouping a
 **Related topics**  
 
 
-[User roles for providers](../concept/service-bridge-v2-personas.md)
+[User roles for providers]()
 
 ### proactive case
 
 A case automatically generated to proactively notify and address impacted customers before they report an issue.
-
-**Related topics**  
-
-
-[Proactive cases](../concept/service-bridge-v2-proactive-case.md)
 
 ### provider
 
@@ -232,7 +223,7 @@ An organization or instance that offers and fulfills services for consumers usin
 **Related topics**  
 
 
-[Service Exchange for Providers](../concept/service-bridge-providers-landing-page.md)
+[Service Exchange for Providers]()
 
 ### provider application
 
@@ -241,7 +232,7 @@ The Service Exchange component installed on the service provider's instance. It 
 **Related topics**  
 
 
-[Components installed with Service Exchange for Providers](service-bridge-v2-installed-components-provider.md)
+[Components installed with Service Exchange for Providers]()
 
 ### provider task
 
@@ -250,7 +241,7 @@ A task created in the provider instance to fulfill a consumer request, with stat
 **Related topics**  
 
 
-[Provider tasks](../concept/service-bridge-v2-provider-tasks.md)
+[Provider tasks]()
 
 ## R
 
@@ -267,18 +258,18 @@ A catalog of services created by the provider and made available to consumers as
 **Related topics**  
 
 
-[Create remote catalogs in Service Exchange for providers](../concept/service-bridge-v2-remote-catalog.md)
+[Create remote catalogs in Service Exchange for providers]()
 
 ### remote record producer
 
-A configuration record that defines variables and inputs a consumer must provide to submit a request. When used, it creates a [provider task](service-bridge-v2-glossary-sb.md#) on the provider instance and triggers the appropriate fulfillment action. Task updates remain visible in both the provider and consumer instances throughout the process.
+A configuration record that defines variables and inputs a consumer must provide to submit a request. When used, it creates a [provider task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-glossary-sb.md) on the provider instance and triggers the appropriate fulfillment action. Task updates remain visible in both the provider and consumer instances throughout the process.
 
 Also know as RRP.
 
 **Related topics**  
 
 
-[Remote record producers in Service Exchange](../concept/service-bridge-v2-remote-record.md)
+[Remote record producers in Service Exchange]()
 
 ### remote task
 
@@ -287,7 +278,7 @@ A linked task that enables synchronization of incidents, cases, or service reque
 **Related topics**  
 
 
-[Remote tasks](../concept/service-bridge-v2-remote-task-overview.md)
+[Remote tasks]()
 
 ### role
 
@@ -296,7 +287,7 @@ A category assigned to a group or user to grant access to specific privileges in
 **Related topics**  
 
 
-[User roles for providers](../concept/service-bridge-v2-personas.md)
+[User roles for providers]()
 
 ## S
 
@@ -309,7 +300,7 @@ A feature that allows providers and consumers to exchange additional structured 
 **Related topics**  
 
 
-[Using the Scratchpad for Service Exchange tasks](../concept/service-bridge-v2-scratchpad.md)
+[Using the Scratchpad for Service Exchange tasks]()
 
 ### Service Exchange
 
@@ -318,7 +309,7 @@ An application that connects multiple ServiceNow instances \(provider, consumer,
 **Related topics**  
 
 
-[Exploring Service Exchange](../concept/service-bridge-v2-exploring-service-bridge.md)
+[Exploring Service Exchange]()
 
 ## T
 
@@ -331,7 +322,7 @@ A tool for mapping and converting data between provider and consumer instances d
 **Related topics**  
 
 
-[Transform data with the Service Exchange transform framework](../concept/service-bridge-v2-transform-about.md)
+[Transform data with the Service Exchange transform framework]()
 
 ## V
 

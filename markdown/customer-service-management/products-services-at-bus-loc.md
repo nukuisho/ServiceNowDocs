@@ -2,6 +2,7 @@
 title: Setting up products and available services at a business location
 description: By setting up the relationships between organizations and users in the Customer Service Management \(CSM\) application, your organization can associate the products and services with the service organization \(SO\). The SO staff can address the customer queries about the products and services at a business location and even raise a case on the behalf of their customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/products-services-at-bus-loc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a service definition](../task/create-csm-service-definition.md)
+[Create a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-definition.md)
 
 </td><td>
 
@@ -31,7 +32,7 @@ Create a service definition record.
 
 </td></tr><tr><td>
 
-[Service Definition form](../reference/service-definition-form-fields.md)
+[Service Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-definition-form-fields.md)
 
 </td><td>
 
@@ -39,7 +40,7 @@ Specify how a service organization provides its services by configuring the **Or
 
 </td></tr><tr><td>
 
-[Associate a product with a service definition](../task/service-def-associate-products.md)
+[Associate a product with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-products.md)
 
 </td><td>
 
@@ -47,7 +48,7 @@ Associate one or more products with a service definition.
 
 </td></tr><tr><td>
 
-[Associate service organizations with a service](../task/associate-services-to-service-organization.md)
+[Associate service organizations with a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-services-to-service-organization.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Integrating with Financial Management
 description: Customer Service Management and Field Service Management provide an integration with the ServiceNow Financial Management application as well as dashboards and reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-integration-financial-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -105,11 +106,4 @@ The Performance Analytics - Content Pack - Financial Management for Customer Ser
 -   FSM Financials Dashboard
 
 Navigate to **Performance Analytics** &gt; **Dashboards** and select the desired dashboard from the Dashboard menu.
-
-**Related topics**  
-
-
-[bundle-itbm.c_ITFinance]
-
-[bundle-itbm.c_TheITFinanceWorkbench]
 

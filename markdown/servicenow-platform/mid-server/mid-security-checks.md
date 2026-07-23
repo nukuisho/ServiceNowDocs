@@ -2,6 +2,7 @@
 title: MID Server certificate check policies
 description: MID Server uses four kinds of security checks to secure external traffic. The security checks use TLS/SSL certificate validation, hostname validation, Certificate Revocation List \(CRL\), and Online Certificate Status Protocol \(OCSP\) validation to improve security. Control these security checks with the MID Server certificate check policies table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-security-checks.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -15,6 +16,8 @@ breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instanc
 
 MID Server uses four kinds of security checks to secure external traffic. The security checks use TLS/SSL certificate validation, hostname validation, Certificate Revocation List \(CRL\), and Online Certificate Status Protocol \(OCSP\) validation to improve security. Control these security checks with the MID Server certificate check policies table.
 
+To access the **Certificate Check Policies** table, navigate to **All** &gt; **Mid Server** &gt; **MID Security Policy**.
+
 <table id="table_m2t_cv4_nhb"><tbody><tr><td>
 
 ![Set-up indicator for security phase](../image/ProgressBarSecure.png)
@@ -22,7 +25,7 @@ MID Server uses four kinds of security checks to secure external traffic. The se
 </td></tr></tbody>
 </table>## TLS/SSL certificate validation
 
-TLS/SSL encryption security uses asymmetric encryption, also called public-key encryption. This encryption uses two cryptographic keys: the public key and the private key. The public key is used for encryption of data and is publicly visible. The private key is used for decryption of data and its security is essential to verifying authenticity. For more information about preparing your network, see [MID Server TLS/SSL certificate check policy Quebec upgrade information \[KB0867397\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867397).
+TLS/SSL encryption security uses asymmetric encryption, also called public-key encryption. This encryption uses two cryptographic keys: the public key and the private key. The public key is used for encryption of data and is publicly visible. The private key is used for decryption of data and its security is essential to verifying authenticity.
 
 In TLS/SSL certificate validation, the MID Server attempts to connect to a web server secured with a TLS or SSL certificate. The web server sends a copy of its TLS/SSL certificate to the MID Server. The MID Server checks the authenticity of the certificate and sends a message to the webserver. The webserver responds with a digitally signed acceptance for initiating an TLS/SSL encrypted session. After which the MID Server can begin encrypted communication with the web server.
 
@@ -56,7 +59,7 @@ CRLs are cached locally and updated periodically based on the CA's update schedu
 
 MID Server security policies control all HTTPS traffic originating from the MID Server. This includes HTTPS connections from the MID Server to an internet endpoint, ServiceNow URLs, intranet endpoints, as well as cloud endpoints.
 
-![Certificate Check Policies](../image/mid-cert-check.png)
+\[Omitted image "mid-cert-check.png"\] Alt text: Certificate Check Policies
 
 These connections can be further classified into 4 security policies:
 
@@ -83,7 +86,7 @@ For upgrading customers, the intranet policy has the certificate validation chec
 
 **Note:** Internal endpoints or URLs need to possess a valid CA signed certificate for a successful connection.
 
-For endpoints that host a self-signed certificate, either import the certificate to the MID Server trust store or disable the policy checks which validate that host. For more information about adding certificates, see [Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#).
+For endpoints that host a self-signed certificate, either import the certificate to the MID Server trust store or disable the policy checks which validate that host. For more information about adding certificates, see [Add SSL certificates for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/add-ssl-certificates.md).
 
 After upgrading to Quebec, go to the certificate check policies table and make changes to policy configuration if necessary. Once the MID Server starts up and connects to the instance, any subsequent HTTPS connection originating from the MID server will start applying these certificate checks at runtime. Insecure connections are broken with appropriate error messages.
 
@@ -104,36 +107,36 @@ The default parameters in the **config.xml** are:
 
 Self-hosted or on-prem instances must add the following parameter for the **config.xml**: `<parameter name="mid.ssl.bootstrap.default.target_endpoint" value="FQDN_OF_THE_INSTANCE"/>`
 
-**Parent Topic:**[Securing and encrypting MID Server data](mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[Encrypt or decrypt MID Server configuration file values](../task/mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server authentication credentials and SOAP requests](mid-authentication-soap-requests.md#)
+[MID Server authentication credentials and SOAP requests]()
 
-[MID Server unified key store](mid-unified-keystore.md#)
+[MID Server unified key store]()
 
-[Enable MID Server mutual authentication](../task/install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication]()
 
-[MID Server Azure Key Vault integration](../task/mid-azure-key-vault-integration.md#)
+[MID Server Azure Key Vault integration]()
 
-[MID Server command audit log](mid-audit-log.md)
+[MID Server command audit log]()
 
-[Rekey a MID Server](../task/t_RekeyAMIDServer.md)
+[Rekey a MID Server]()
 
-[Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#)
+[Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server](../task/mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
+[MID Server SSH cryptographic algorithms]()
 
-[Attach a script file to a file synchronized MID Server](../task/mid-server-script-attach.md#)
+[Attach a script file to a file synchronized MID Server]()
 
-[MID Server FIPS Enforced Mode](mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 
-[MID Server Governance](mid-timeout.md)
+[MID Server Governance]()
 

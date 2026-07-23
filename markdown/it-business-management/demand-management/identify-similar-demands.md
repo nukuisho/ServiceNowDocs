@@ -2,6 +2,7 @@
 title: Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)
 description: Detect similar demand records using the identify similar records Now Assist skill. This skill detects similar demand records based on contextual similarity in the name, description, and business case content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/identify-similar-demands.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -18,7 +19,7 @@ Detect similar demand records using the identify similar records Now Assist skil
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 If you have custom roles that require access to this skill, update the ACLs \(access control lists\) for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
@@ -32,7 +33,7 @@ Role required: it\_demand\_user
 
 2.  On the Demand form, fill in the **Name**, **Description**, and **Business case** fields.
 
-    For a description of the field names, see [Demand form](../reference/demand-form.md).
+    For a description of the field names, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-form.md).
 
 3.  Select **Save**.
 
@@ -43,7 +44,7 @@ Role required: it\_demand\_user
 
 The similar demands identified by Now Assist are displayed in the top banner and the Similar Demands related list.
 
-![List of similar records identified by Now Assist.](../../now-assist-spm/images/similar-demand-new-color.png)
+\[Omitted image "similar-demand-new-color.png"\] Alt text: List of similar records identified by Now Assist.
 
 **Note:**
 
@@ -54,32 +55,32 @@ The similar demands identified by Now Assist are displayed in the top banner and
 
 View the full details of the identified similar demand records by selecting the demand number link from the Similar Demands related list.
 
-**Parent Topic:**[Use Demand Management](../reference/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 
 
-[Assess demands](../concept/c_AssessingDemands.md)
+[Assess demands]()
 
-[Create a demand](t_CreatingDemands.md)
+[Create a demand]()
 
-[View demands](t_ViewDemands.md)
+[View demands]()
 
-[Add details to demands](../concept/c_EnhancingDemands.md)
+[Add details to demands]()
 
-[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](../concept/ridac-entries-for-demand.md)
+[RIDACs records for a demand]()
 
-[Reset a demand to Draft state](reset-demand-to-draft-state.md)
+[Reset a demand to Draft state]()
 
-[Delete demands](t_DeletingDemands.md)
+[Delete demands]()
 
-[Move and resize a demand](t_MoveAndResizeADemand.md)
+[Move and resize a demand]()
 
-[Train the similarity solution for Demand Management to find similar demands](train-similarity-solution-dm.md)
+[Train the similarity solution for Demand Management to find similar demands]()
 
-[PPM PIWB template - Find similar demands](../../itbm-PI-workbench/task/ppm-piwb-demand.md)
+[PPM PIWB template - Find similar demands]()
 
-[Summarize demands with demand summarization skill](demand-summary-demand-classic.md)
+[Summarize demands with demand summarization skill]()
 
-[Associate AI systems with demands](associate-ai-systems-with-demands.md)
+[Associate AI systems with demands]()
 

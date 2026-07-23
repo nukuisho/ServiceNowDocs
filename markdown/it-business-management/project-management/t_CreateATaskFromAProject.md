@@ -2,6 +2,7 @@
 title: Create a project task from a project
 description: Create tasks from the project form to break down project objectives into manageable units of work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateATaskFromAProject.html
 release: australia
 product: Project Management
 classification: project-management
@@ -29,7 +30,7 @@ Role required: it\_project\_manager
 
 4.  On the form, fill in the fields.
 
-    For more information on project task form, see [Project task form](../reference/project-task-form.md).
+    For more information on project task form, see [Project task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-task-form.md).
 
 5.  Select **Submit**.
 
@@ -46,77 +47,73 @@ If you change the state of a project task from **Work in progress** to **Closed 
 
 The **Percent complete** field appears in the Gantt chart for parent tasks as a light-colored bar \(the part of the task that is complete\). The bar overlaps the darker, underlying bar \(the full task\). For example, a Demo project is 5.41% complete as shown in a pop-up window. The **Phase 1** task is about 50% complete \(not shown in the pop-up window\).
 
-The Project Tasks list and the Project Tasks related list on the Project form include a **Dependency** field. Any dependencies for a task, such as a parent task, are displayed in this field. Click a dependency record. See [Predecessor dependencies in the planning console](../reference/r_ProjectTaskDependencyValues.md) for a description of what you see in this column.
+The Project Tasks list and the Project Tasks related list on the Project form include a **Dependency** field. Any dependencies for a task, such as a parent task, are displayed in this field. Click a dependency record. See [Predecessor dependencies in the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_ProjectTaskDependencyValues.md) for a description of what you see in this column.
 
--   **[Create a task from an incident, problem, or change request](t_CreateTaskIntPrblmChange.md)**  
+-   **[Create a task from an incident, problem, or change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateTaskIntPrblmChange.md)**  
 You can create a new project task from the Project Task related list on the Incident, Problem, and Change Request forms. The tasks you create from these forms makes the project task a child of the incident, problem, or change, rather than a project.
--   **[Create tasks from project task creator](t_UseTheProjectTaskCreator.md)**  
+-   **[Create tasks from project task creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_UseTheProjectTaskCreator.md)**  
 Use the project task creator to create multiple tasks at once.
--   **[Insert a row into the project tasks list](t_InsertARowIntoTheProjectTasksList.md)**  
+-   **[Insert a row into the project tasks list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_InsertARowIntoTheProjectTasksList.md)**  
 You can create a new project task from the Project Task related list on the Project form. Administrators must enable this task-creation feature.
--   **[Copy an existing task or project](t_CopyExistingTaskorProject.md)**  
+-   **[Copy an existing task or project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CopyExistingTaskorProject.md)**  
 Save time when building a project by copying tasks from other projects.
--   **[Create a task from a project task template](t_UseAProjectTaskTemplate.md)**  
+-   **[Create a task from a project task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_UseAProjectTaskTemplate.md)**  
 You can save a project task as a template and reuse it when creating a task.
--   **[View default project and project task state categories](view-default-project-task-states.md)**  
+-   **[View default project and project task state categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/view-default-project-task-states.md)**  
 View category information for the default project and project task states. In the base system, the states in project and project task inherit the states in Task table.
--   **[Link change requests to a project task](t_LinkChangesToAProjectTask.md)**  
+-   **[Link change requests to a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_LinkChangesToAProjectTask.md)**  
 Link change requests to tasks on the Project Task form. You can link change requests only to project tasks that have no child tasks.
--   **[Accept or reject project task notifications](accept-project-task-notifications.md)**  
+-   **[Accept or reject project task notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/accept-project-task-notifications.md)**  
 Approve or reject the changes in a notification for an external soft dependency.
--   **[Use a project task checklist](t_CreateAProjectTaskChecklist.md)**  
+-   **[Use a project task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectTaskChecklist.md)**  
 You can create a checklist in a project task to track items that must be completed in the task.
 
-**Parent Topic:**[Starting a project](t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
 
-[Create a parent-child relationship on the Project Task form](t_CreateParentChildRelationship.md)
+[Create a parent-child relationship on the Project Task form]()
 
-[Create a monetary benefit plan for a project](create-project-benefit-plan.md)
+[Create a monetary benefit plan for a project]()
 
-[Create a non-monetary benefit plan for a project](create-a-non-monetary-benefit-plan-for-a-project.md)
+[Create a non-monetary benefit plan for a project]()
 
-[Associate monetary and non-monetary benefit plans](associate-monetary-and-non-monetary-benefit-plans-project.md)
+[Associate monetary and non-monetary benefit plans]()
 
-[Create a project cost plan](t_CreateAProjectCostPlan.md)
+[Create a project cost plan]()
 
-[Recalculating costs of all resource plans in a project](recalculate-resource-costs-of-a-project.md)
+[Recalculating costs of all resource plans in a project]()
 
-[Create an expense line](t_CreateAExpenseLine.md)
+[Create an expense line]()
 
-[Create and manage waterfall projects](../../project-portfolio-suite/concept/c_CreateAndManageWaterfallProjects.md)
+[Create and manage waterfall projects]()
 
-[Schedule a project from a start date](schedule-a-project-pm.md)
+[Update a project]()
 
-[Apply or change a task constraint](change-task-constraint-project-management.md)
+[Copy a project]()
 
-[Update a project](t_UpdateAProjectInProgress.md)
+[Assign a project schedule]()
 
-[Copy a project](t_CopyAProject.md)
+[Create baseline of a project]()
 
-[Assign a project schedule](t_UseAProjectSchedule.md)
+[Create a milestone]()
 
-[Create baseline of a project](t_CreateAProjectBaseline.md)
+[Activate project task email notifications]()
 
-[Create a milestone](t_CreateMilestones.md)
+[Change the planned start date of a project]()
 
-[Activate project task email notifications](t_ActivateProjTaskEmailNot.md)
+[Create a cost type definition]()
 
-[Change the planned start date of a project](change-planned-start-date-of-project.md)
+[Costing add-on in Project Management]()
 
-[Create a cost type definition](t_CreateAResourceTypeDefinition.md)
+[Generate labor costs]()
 
-[Costing add-on in Project Management](../concept/c_ProjectManagementCostingAddOn.md)
+[Create a project status report]()
 
-[Generate labor costs](gen-cost-pln-prj-wrkspc.md)
+[Allocate budget to a project]()
 
-[Create a project status report](t_CreateAProjectStatusReport.md)
+[Migrate budget of active projects to Next Experience]()
 
-[Allocate budget to a project](allocate-budget-to-project.md)
-
-[Migrate budget of active projects to Next Experience](fin-migrate-budget-project-ppm.md)
-
-[Migrate financial baselines of projects to Next Experience](migrate-fin-baselines-projects.md)
+[Migrate financial baselines of projects to Next Experience]()
 

@@ -2,11 +2,12 @@
 title: Create multi-building reservations
 description: Reserve multiple spaces spanning across multiple buildings in different timezone. Create multi-building reservations for the same date and time in a single reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-multi-building-reservation.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -23,13 +24,13 @@ Role required: sn\_wsd\_core.workplace\_user
 
 Reserve multiple spaces belonging to different buildings in a single reservation using the **Add another building** option on the Make a reservation page. For example, if you want to have a meeting where your colleagues are joining from different locations, you can create a single reservation with multiple locations from different time zones. Some of your colleagues may join from California while others may join from Amsterdam, and so on. Workplace Reservation Management automatically takes care of the timezone conversion based on the buildings selected and their associated timezones.
 
-The **Allow multiple building reservations** option should be configured by your administrator to make a multi-building reservation. For more information, see [Configure a reservable module](config-reservable-module.md).
+The **Allow multiple building reservations** option should be configured by your administrator to make a multi-building reservation. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 ## Procedure
 
 1.  Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-    Select the type of spaces that you want to reserve. The types are displayed as tabs, such as Desks, Meeting rooms, or Parking. For more information, see [Create a reservation](create-reservation-request-1.md).
+    Select the type of spaces that you want to reserve. The types are displayed as tabs, such as Desks, Meeting rooms, or Parking. For more information, see [Create a reservation]().
 
     You cannot make a multi-building reservation when using shifts.
 
@@ -47,7 +48,7 @@ The **Allow multiple building reservations** option should be configured by your
 
     By default, the search results first shows the primary building with spaces available in that building. Building card shows details like the building name, the campus that a building belongs to, and the number of spaces selected in a building.
 
-    If auto-search is enabled, the search results are automatically displayed. For more information, see [Create a reservation](create-reservation-request-1.md).
+    If auto-search is enabled, the search results are automatically displayed. For more information, see [Create a reservation]().
 
 5.  Switch between the **Card view** and **Schedule view** tabs to review and select the available spaces.
 
@@ -59,7 +60,7 @@ The **Allow multiple building reservations** option should be configured by your
 
 7.  To revisit and update the search criteria, click **Edit search**.
 
-    Click the remove building icon \( ![Remove building icon.](../image/remove-building-icon.png)\) to remove a building. If you remove a secondary building, the spaces associated with the building are also removed.
+    Click the remove building icon \( \[Omitted image "remove-building-icon.png"\] Alt text: Remove building icon.\) to remove a building. If you remove a secondary building, the spaces associated with the building are also removed.
 
 8.  Click **Next**.
 
@@ -78,40 +79,40 @@ The **Allow multiple building reservations** option should be configured by your
     This behavior is different when compared to multi-building reservations created using the Workplace Reservation Management application, as it does not allow you to proceed with the reservation if you have not selected a space in the primary building.
 
 
-**Parent Topic:**[Reserve workplace items](../concept/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 
 
-[Create a reservation](create-reservation-request-1.md)
+[Create a reservation]()
 
-[Add invitees as collaborators and create a reservation](add-colleagues-rsv-search.md)
+[Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations](recurring-reservations.md)
+[Auto-resolve recurring reservations]()
 
-[Set a location as favorite using the Space details page](set-a-location-as-favorite.md)
+[Set a location as favorite using the Space details page]()
 
-[Reserve a space near your colleague](browse-near-person-rsv.md)
+[Reserve a space near your colleague]()
 
-[Create a multi-day reservation](create-multi-day-reservation.md)
+[Create a multi-day reservation]()
 
-[Create neighborhood reservations](create-neighborhood-reservations.md)
+[Create neighborhood reservations]()
 
-[Create reservation for multiple workplace items](create-reservation-for-multiple-wrkplceitems-1.md)
+[Create reservation for multiple workplace items]()
 
-[Enable shift-based reservation](enable-shift-based-reservation.md)
+[Enable shift-based reservation]()
 
-[Create a reservation along with a shared reservation](create-rsv-along-with-shared-rsv.md)
+[Create a reservation along with a shared reservation]()
 
-[Create a reservation including a virtual meeting link](Create-reservation-with-virtual-meeting.md)
+[Create a reservation including a virtual meeting link]()
 
-[Create a shift reservation](create-a-shift-reservation.md)
+[Create a shift reservation]()
 
-[Create a group reservation](create-group-reservation.md)
+[Create a group reservation]()
 
-[Share, modify, or cancel a reservation](modify-cancel-res-request.md)
+[Share, modify, or cancel a reservation]()
 
-[Reserve a workplace using the Quick Reservation widget](reserve-workplace-for-a-time-slot.md)
+[Reserve a workplace using the Quick Reservation widget]()
 
-[Download an iCalendar for a reservation](generate-ical.md)
+[Download an iCalendar for a reservation]()
 

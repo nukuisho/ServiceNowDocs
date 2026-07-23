@@ -2,6 +2,7 @@
 title: Configure to do mappings
 description: Create additional conditions or mappings to display managerial tasks and requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/use-to-do-map.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -46,7 +47,7 @@ To-do filter condition
 
 </td><td>
 
-To-do filter condition on which additional conditions are applied. For more information on to-do filter condition, see [Create or modify a to-dos filter](../../employee-center/task/configure-to-dos-page-filters.md).
+To-do filter condition on which additional conditions are applied. For more information on to-do filter condition, see [Create or modify a to-dos filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-to-dos-page-filters.md).
 
 </td></tr><tr><td>
 
@@ -108,28 +109,28 @@ Order in which additional filter conditions are applied.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Manager Hub](set-up-managerhub.md)
+**Parent Topic:**[Configure Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-managerhub.md)
 
 **Related topics**  
 
 
-[RCA approvals for Manager Hub](run-rca-mh.md)
+[RCA approvals for Manager Hub]()
 
-[Activate a scheduled job](../reference/activate-sj-mh.md)
+[Activate a scheduled job]()
 
-[Configure important dates](configure-imp-dates.md)
+[Configure important dates]()
 
-[Configure team requests](configure-team-requests.md)
+[Configure team requests]()
 
-[Configure team data](configure-team-data.md)
+[Configure team data]()
 
-[Configure team column data](configure-team-columndata.md)
+[Configure team column data]()
 
-[Configure team filters](configure-team-filter.md)
+[Configure team filters]()
 
-[Set up View as Direct Reports](../../employee-center/task/view-direct-reportee.md)
+[Set up View as Direct Reports]()
 
-[Configure daily stats](configure-daily-stats.md)
+[Configure daily stats]()
 
-[Configure widgets](configure-team-insights.md)
+[Configure widgets]()
 

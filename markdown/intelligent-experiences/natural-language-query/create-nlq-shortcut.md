@@ -2,6 +2,7 @@
 title: Create an NLQ shortcut
 description: Create a semantic shortcut to help improve the ability of NLQ to recognize the various ways your users request data. Semantic shortcuts operate similarly to NLQ synonyms by mapping common words to columns, but for a selected table when certain conditions are met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/create-nlq-shortcut.html
 release: australia
 product: Natural Language Query
 classification: natural-language-query
@@ -25,7 +26,7 @@ Like NLQ synonyms, semantic shortcuts enable you to map common words in your use
 
 Semantic shortcuts provide a condition builder so that you can filter which records are covered by the terms you provide.
 
-Some semantic shortcuts are provided in the base system, and you can add more for your use cases and business requirements. Review NLQ logs of actual user utterances to find possible terms to add. For more information, see [View NLQ logs](view-nlq-logs.md).
+Some semantic shortcuts are provided in the base system, and you can add more for your use cases and business requirements. Review NLQ logs of actual user utterances to find possible terms to add. For more information, see [View NLQ logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/view-nlq-logs.md).
 
 You can create a new shortcut, or modify an existing shortcut, as follows.
 
@@ -101,18 +102,18 @@ The new shortcut is available to your users as soon as they refresh the browser 
 
 The following image shows an example of a semantic shortcut used on incident records. Incidents contain the Assigned to field. Using the condition builder, you can provide synonyms for when the field is empty. When NLQ detects unassigned and backlog in your users' input, it replaces them with the SQL clause `assigned_toISEMPTY`.
 
-![New record form for an NLQ Semantic Shortcut.](../images/create-nlq-shortcutT1.png)
+\[Omitted image "create-nlq-shortcutT1.png"\] Alt text: New record form for an NLQ Semantic Shortcut.
 
 A user can enter `show me incident backlog` or `unassigned incidents` and the system displays incidents with an empty Assigned to field.
 
-**Parent Topic:**[Configuring NLQ](../concept/configuring-nlq.md)
+**Parent Topic:**[Configuring NLQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/configuring-nlq.md)
 
 **Related topics**  
 
 
-[Create an NLQ synonym](create-nlq-synonym.md)
+[Create an NLQ synonym]()
 
-[View NLQ logs](view-nlq-logs.md)
+[View NLQ logs]()
 
-[View NLQ Table Guesser logs](view-nlq-table-guesser-logs.md)
+[View NLQ Table Guesser logs]()
 

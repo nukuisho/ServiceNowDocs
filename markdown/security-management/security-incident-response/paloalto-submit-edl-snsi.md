@@ -2,6 +2,7 @@
 title: Submit EDL entries from a security incident record for Palo Alto Networks Next-Generation Firewall
 description: Observables attached to a security incident record are submitted for approval as External Dynamic List \(EDL\) entries to EDLs. An approval process for EDL entries is part of the preconfigured workflow. The firewall imports EDL entries — IP addresses, URLs, domains — that are included in EDL lists and enforces policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/paloalto-submit-edl-snsi.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,43 +26,25 @@ Users with the sn\_si.analyst role submit EDL entries by requesting a block on o
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Security Incident** &gt; **Incidents** &gt; **Show All Incidents**, and click a security incident record to open it.
+1.  Navigate to **All** &gt; **Security Incident** &gt; **Incidents** &gt; **Show All Incidents**, and select a security incident record to open it.
 
-2.  Click the **Show IoC** related link.
-
-    ![Show IoC related link on the Security Incident record.](../image/4-30-ip-obsv-si-callout.png)
+2.  Select the **Show IoC** related link.
 
 3.  In the Observables related list, select the observables you want to block and from the **Actions on selected rows** list, select **Block Request**.
 
-    ![Select observables and run block request on Security Incident record.](../image/4-30-blk-run-ip-url.png)
-
-4.  In the dialog box that is displayed, click the search icon \(![Search icon](../../security-incident-response/image/SearchIcon.png)\).
+4.  In the dialog box that is displayed, select the search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search icon\).
 
 5.  From the list that is displayed, select the EDL you want to attach this entry to.
 
-    **Note:** For this example, the entry observable type \(URL\) should match the EDL observable type \(URL\).
+6.  In the Block Request dialog box with the EDL name displayed in the **Implementation** field, select **Block**.
 
-    ![Select the EDL for the entry.](../image/4-30-blk-list-options.png)
+7.  Navigate to **Palo Alto Networks NGFW Integration** &gt; **Firewall EDL Entries** and select **Firewall EDL Entries**.
 
-6.  In the Block Request dialog box with the EDL name displayed in the **Implementation** field, click **Block**.
-
-    ![Block Request dialog box.](../image/4-30-blk-rqst-confirm.png)
-
-7.  Navigate to **Palo Alto Networks NGFW Integration** &gt; **Firewall EDL Entries** and click **Firewall EDL Entries**.
-
-    ![Firewall EDL Entries list.](../image/4-30-entries-pending.png)
-
-8.  In the Palo Alto Networks Firewall External Dynamic List Entries list, click your observable in the **Entry value** column to open the record.
-
-    For this example, the record for **mail.dgtnetworks.com** is displayed.
-
-    ![EDL entry record.](../image/4-30-url-entry-pending-notes-b4-app.png)
+8.  In the Palo Alto Networks Firewall External Dynamic List Entries list, select your observable in the **Entry value** column to open the record.
 
     The status is Pending, the Active check box is cleared, and the work notes show that there is a request to add the observable. This EDL Entry request is ready for approval.
 
     The Entry value and Observable fields show different formats for the URL observable.
-
-    ![Entry value field and Observable field show different formats for the same observable.](../image/4-30-obsv-rcd-url-1.png)
 
     The icon next to the `Observable` field is a link to the ServiceNow AI Platform® Observable table.
 
@@ -76,14 +59,14 @@ Users with the sn\_si.analyst role submit EDL entries by requesting a block on o
 
 Approve EDL entries.
 
-**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](../concept/paloalto_integration.md)
+**Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_integration.md)
 
-**Previous topic:**[Activate an EDL for Palo Alto Networks Next-Generation Firewall with a change request](paloalto_sncr_edl.md)
+**Previous topic:**[Activate an EDL for Palo Alto Networks Next-Generation Firewall with a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto_sncr_edl.md)
 
-**Next topic:**[Submit EDL entries from the blocklist for Palo Alto Networks Next-Generation Firewall](paloalto-submit-entry-fm-blklist.md)
+**Next topic:**[Submit EDL entries from the blocklist for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-submit-entry-fm-blklist.md)
 
 **Related topics**  
 
 
-[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](../reference/paloalto-edl-execptions.md)
+[EDL entry exceptions for Palo Alto Networks Next-Generation Firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/paloalto-edl-execptions.md)
 

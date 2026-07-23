@@ -2,13 +2,14 @@
 title: Use the Procurement Overview module
 description: Use the gauges on the Procurement Overview homepage to help you track and manage requests, purchase orders, and other important aspects of the procurement process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_UsingTheProcurementOverviewModule.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Procurement, IT Asset Management]
+breadcrumb: [Procurement, Common applications, Asset Management]
 ---
 
 # Use the Procurement Overview module
@@ -28,22 +29,22 @@ Role required: procurement\_admin or procurement\_user
     For example, click a request number to view the request record.
 
 
-**Parent Topic:**[Procurement](../concept/c_Procurement.md)
+**Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_Procurement.md)
 
 **Related topics**  
 
 
-[Procurement roles](../reference/r_ProcurementRoles.md)
+[Procurement roles]()
 
-[Procurement workflows](../concept/c_ProcurementWorkflows.md)
+[Procurement workflows]()
 
-[Activate Procurement](t_ActivateProcurement.md)
+[Activate Procurement]()
 
-[Sourcing items in a service catalog request](../concept/c_SourcingRequestItems.md)
+[Sourcing items in a service catalog request]()
 
-[Procurement purchase order management for assets](../concept/c_UseProcurement.md)
+[Procurement purchase order management for assets]()
 
-[Receive assets](../concept/c_ReceiveAssets.md)
+[Receive assets]()
 
-[Domain separation and Procurement](../concept/domain-separation-procurement.md)
+[Domain separation and Procurement]()
 

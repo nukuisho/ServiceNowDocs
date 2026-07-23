@@ -2,9 +2,10 @@
 title: Confirm installation of Now Assist Center
 description: Confirm the installation of the Now Assist Center application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-install.html
 release: australia
 topic_type: task
-last_updated: "2026-03-27"
+last_updated: "2026-05-28"
 reading_time_minutes: 1
 keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
 breadcrumb: [Configure, Now Assist Center, Enable AI experiences]
@@ -42,9 +43,11 @@ Follow these steps to confirm the installation of the Now Assist Center plugin.
 
     5.  Select a version from the list.
 
-    6.  Select an installation schedule option.
+    6.  Review the installation details and select **Continue**.
 
-    7.  Select **Install**.
+    7.  Select an installation schedule option.
+
+    8.  Select **Install**.
 
         The Now Assist Center application will install at the selected time.
 
@@ -55,12 +58,12 @@ Follow these steps to confirm the installation of the Now Assist Center plugin.
 
 The application is installed and available to the appropriate user roles.
 
-**Parent Topic:**[Configuring Now Assist Center](../concept/configuring-now-assist-center.md)
+**Parent Topic:**[Configuring Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist-center.md)
 
 **Related topics**  
 
 
-[Enable the Now Assist panel](now-assist-center-enable-now-assist-panel.md)
+[Enable the Now Assist panel]()
 
-[Set up automation discovery in Now Assist Center](../concept/now-assist-center-automation-discovery-setup.md)
+[Set up automation opportunity discovery in Now Assist Center]()
 

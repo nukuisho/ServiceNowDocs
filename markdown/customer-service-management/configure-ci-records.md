@@ -2,6 +2,7 @@
 title: Configure records for the Customer Information view
 description: Configure the records to display on the Customer Information view. For example, a record could provide information on the contact or consumer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-ci-records.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 Records are displayed in the Customer Information view in Agent Workspace.
 
-![Contact section displaying the contact details of the customer.](../image/customer-records.jpg)
+\[Omitted image "customer-records.jpg"\] Alt text: Contact section displaying the contact details of the customer.
 
 ## Procedure
 

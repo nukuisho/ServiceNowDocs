@@ -2,6 +2,7 @@
 title: Field Service Management for Telecommunications
 description: The ServiceNow Field Service Management for Telecommunications \(FSMT\) application enables you to manage the field service workflow for the telecommunications customers. Use this application to streamline the appointment booking, service delivery, and assurance processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/field-service-management-for-telecommunications/field-service-management-telecommunications.html
 release: australia
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications

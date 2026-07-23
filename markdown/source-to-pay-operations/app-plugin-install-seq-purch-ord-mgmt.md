@@ -2,6 +2,7 @@
 title: Application plugin installation sequence in Purchase Order Management
 description: View the consolidated list of plugins, high-level description of each plugin, and the dependencies that are required before installing each plugin in Purchase Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/app-plugin-install-seq-purch-ord-mgmt.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -66,5 +67,14 @@ Provides configurations to support automatic routing, queuing, and assignment of
 Advanced Work Assignment \(glide.awa\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Purchase Order Management](../task/install-purch-order-mgmt.md)
+</table>**Parent Topic:**[Install Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/install-purch-order-mgmt.md)
+
+**Related topics**  
+
+
+[Explore Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/explore-purch-order-mgmt.md)
+
+[Assigning priority to a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assigning-priority-to-po.md)
+
+[Assigning purchase order exceptions to buyers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/assigning-po-exceptions-to-buyers.md)
 

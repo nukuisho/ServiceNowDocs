@@ -2,6 +2,7 @@
 title: Suggested class relationships
 description: The system keeps a table \(Suggested Relationship \[cmdb\_rel\_type\_suggest\]\) of relationship types that are appropriate for a CI type, based on its class. You can manage suggested relationships by navigating to Configuration Suggested Relationships , or in the CI Class Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r\_SuggestedRelationshipModel.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -48,26 +49,26 @@ Typically, neither of the following definitions would be appropriate:
 -   a rack runs on a server
 -   a server runs on a database
 
-For descriptions of some key relationships, see [CI relationships in the CMDB](../concept/c_CIRelationships.md).
+For descriptions of some key relationships, see [CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md).
 
-**Parent Topic:**[CI relationships in the CMDB](../concept/c_CIRelationships.md)
+**Parent Topic:**[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 
 **Related topics**  
 
 
-[Add a suggested relationship](../task/t_AddANewSuggestedRelationship.md)
+[Add a suggested relationship]()
 
-[Relationship governance rules](../concept/relationship-governance.md)
+[Relationship governance rules]()
 
-[CI relations formatter](../concept/c_CIRelationsFormatterNG.md)
+[CI relations formatter]()
 
-[CI relationship editor](../concept/c_RelationshipEditor.md)
+[CI relationship editor]()
 
-[Relation qualifier](../concept/c_RelationQualifier.md)
+[Relation qualifier]()
 
-[CI relationship security](../concept/c_CIRelationshipSecurity.md)
+[CI relationship security]()
 
-[Create a CI relation rollup](../task/t_CreateACIRelationRollup.md)
+[Create a CI relation rollup]()
 
-[CI Class Manager](../task/t_AddANewSuggestedRelationship.md)
+[CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_AddANewSuggestedRelationship.md)
 

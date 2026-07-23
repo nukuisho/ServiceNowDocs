@@ -2,6 +2,7 @@
 title: Document Intelligence tool for Now Assist Skill Kit
 description: Use the Document Intelligence tool to leverage extraction, question answering, and summarization capabilities for a skill created with Now Assist Skill Kit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/document-visual-intelligence-skill-kit-tool.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -22,9 +23,9 @@ A tool is a utility in Now Assist Skill Kit that is configured to convert skill 
 
 You can use the tool editor to configure the Document Intelligence tool.
 
-![Document Intelligence tool option in the tool editor.](../image/document-intelligence-nask.png "Document Intelligence tool in the Tool Editor")
+\[Omitted image "document-intelligence-nask.png"\] Alt text: Document Intelligence tool option in the tool editor.
 
-For more information on adding the Document Intelligence tool to a custom skill in Now Assist Skill Kit, see [Add a tool](../../now-assist-skill-kit/concept/add-a-tool.md).
+For more information on adding the Document Intelligence tool to a custom skill in Now Assist Skill Kit, see [Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-a-tool.md).
 
 ## Document Intelligence tool actions
 
@@ -45,26 +46,26 @@ The Document Intelligence tool provides the following capabilities for a custom 
     Generate a concise summary the key topics of the file content.
 
 
-For more information on creating custom Now Assist prompts and skills, see [Now Assist Skill Kit](../../now-assist-skill-kit/concept/now-assist-skill-kit-landing.md).
+For more information on creating custom Now Assist prompts and skills, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 
-**Parent Topic:**[Now Assist in Document Intelligence reference](now-assist-in-document-intelligence-reference.md)
+**Parent Topic:**[Now Assist in Document Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-in-document-intelligence-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Now Assist in Document Intelligence](now-assist-docintel-components.md)
+[Components installed with Now Assist in Document Intelligence]()
 
-[Data extraction modes in Now Assist in Document Intelligence](data-extraction-modes-now-assist-document-intelligence.md)
+[Data extraction modes in Now Assist in Document Intelligence]()
 
-[Document and visual insights AI agent](document-and-visual-insights-ai-agent.md)
+[Document and visual insights AI agent]()
 
-[Field types in Now Assist in Document Intelligence](now-assist-document-intelligence-field-types.md)
+[Field types in Now Assist in Document Intelligence]()
 
-[Now Assist in Document Intelligence forms](now-assist-document-intelligence-forms.md)
+[Now Assist in Document Intelligence forms]()
 
-[Limitations in Now Assist in Document Intelligence](now-assist-document-intelligence-limitations.md)
+[Limitations in Now Assist in Document Intelligence]()
 
-[Large language models used by Now Assist in Document Intelligence](llms-now-assist-document-intelligence.md)
+[Large language models used by Now Assist in Document Intelligence]()
 
-[Languages supported by Now Assist in Document Intelligence](languages-supported-now-assist-document-intelligence.md)
+[Languages supported by Now Assist in Document Intelligence]()
 

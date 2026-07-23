@@ -1,18 +1,19 @@
 ---
-title: Configure Now Assist for RPA Hub
-description: If you have the admin role, you can configure the Now Assist for RPA Hub application so that your human agents or users can get started with developing automations faster.
+title: Install Now Assist for RPA Hub
+description: If you have the admin role, you can install the Now Assist for RPA Hub application so that your human agents or users can get started with developing automations faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/configure-now-assist-rpa-hub.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
-breadcrumb: [Now Assist for RPA Hub, Workflow Data Fabric]
+breadcrumb: [Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
-# Configure Now Assist for RPA Hub
+# Install Now Assist for RPA Hub
 
-If you have the admin role, you can configure the Now Assist for RPA Hub application so that your human agents or users can get started with developing automations faster.
+If you have the admin role, you can install the Now Assist for RPA Hub application so that your human agents or users can get started with developing automations faster.
 
 ## Before you begin
 
@@ -31,15 +32,15 @@ Refer to the [Now Assist Overview](https://www.servicenow.com/content/dam/servic
 
 1.  Perform any of the following tasks to install the Now Assist for RPA Hub application.
 
-<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d110372e142">
+<table id="choicetable_b2q_dpq_y2c"><thead><tr><th align="left" id="d111219e136">
 
 Option
 
-</th><th align="left" id="d110372e145">
+</th><th align="left" id="d111219e139">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d110372e151">
+</th></tr></thead><tbody><tr><td id="d111219e145">
 
 **From Now Assist Admin**
 
@@ -52,7 +53,7 @@ Action
 5.  Select **Install**.
 
 
-</td></tr><tr><td id="d110372e213">
+</td></tr><tr><td id="d111219e207">
 
 **From System Applications**
 
@@ -77,11 +78,11 @@ In the Install dialog box that is displayed, any dependencies that are installed
 </table>
 ## Result
 
-To view the installed plugins, navigate to **All** &gt; **Now Assist Admin** &gt; **Settings** &gt; **Plugins**. You can view Now Assist for RPA Hub in the Installed tab.![Plugins tab that displays the Now Assist for RPA Hub as installed.](../image/installed-narh-plugin.png)
+To view the installed plugins, navigate to **All** &gt; **Now Assist Admin** &gt; **Settings** &gt; **Plugins**. You can view Now Assist for RPA Hub in the Installed tab.\[Omitted image "installed-narh-plugin.png"\] Alt text: Plugins tab that displays the Now Assist for RPA Hub as installed.
 
 ## What to do next
 
-If you are upgrading to the Yokohama Patch 3 release, reindex the data source. For more information, see [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-multiple-sources-ais.md). In the step 2 of this procedure, select the indexed source as RPA Component \[sn\_rpa\_na\_rpa\_component\].
+If you are upgrading to the Yokohama Patch 3 release, reindex the data source. For more information, see . In the step 2 of this procedure, select the indexed source as RPA Component \[sn\_rpa\_na\_rpa\_component\].
 
-Turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations, activities, and automation logic additions from text instructions and preview options. For more information, see [Turn on the RPA bot generation skill](turn-rpa-bot-generation-skill.md).
+Turn on the Robotic Process Automation \(RPA\) bot generation skill to use generative AI to create automations, activities, and automation logic additions from text instructions and preview options. For more information, see [Turn on the RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/turn-rpa-bot-generation-skill.md).
 

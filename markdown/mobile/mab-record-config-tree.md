@@ -2,6 +2,7 @@
 title: ServiceNow AI Platform configuration tree within a record screen
 description: The ServiceNow AI Platform configuration tree shows all your records in a hierarchical display. Instantly locate and select any record component in the tree to display the record's field types in the configuration panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mab-record-config-tree.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ The ServiceNow AI Platform configuration tree shows your selected record as the 
 
 -   **Display indicators**
 
-    As you work on records, indicators display on the configuration tree. A red indicator \(![Red indicator in configuration tree](../image/mab-red-indicator.png)\) shows that there are required fields that must be populated, before saving your changes. An orange indicator \(![Orange indicator in configuration tree](../image/mab-orange-indicator.png)\) shows that records have been edited but not yet saved.
+    As you work on records, indicators display on the configuration tree. A red indicator \(\[Omitted image "mab-red-indicator.png"\] Alt text: Red indicator in configuration tree\) shows that there are required fields that must be populated, before saving your changes. An orange indicator \(\[Omitted image "mab-orange-indicator.png"\] Alt text: Orange indicator in configuration tree\) shows that records have been edited but not yet saved.
 
     **Note:** The red and orange indicators are displayed on the right side of the hierarchical tree. This means that for a hierarchical tree with many levels of child records, the indicators may not be immediately visible. Either use the horizontal and vertical scroll bars. Alternatively, use the resize panel controller, which exists between the ServiceNow AI Platform configuration tree panel and the configuration panel.
 
@@ -41,11 +42,11 @@ Resize panel controller
 
 </th></tr></thead><tbody><tr><td>
 
-![Configuration tree within the record screen.](../image/mab-config-tree.png)
+\[Omitted image "mab-config-tree.png"\] Alt text: Configuration tree within the record screen.
 
 </td><td>
 
-![Panel controller for expanding and decreasing the size of configuration panel.](../image/mab-panel-controller.png)
+\[Omitted image "mab-panel-controller.png"\] Alt text: Panel controller for expanding and decreasing the size of configuration panel.
 
 </td></tr></tbody>
 </table>

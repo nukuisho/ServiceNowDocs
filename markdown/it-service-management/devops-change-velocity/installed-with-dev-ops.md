@@ -2,6 +2,7 @@
 title: Components installed with DevOps Change Velocity
 description: Several types of components are installed with DevOps Change Velocity, including tables, users, roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/installed-with-dev-ops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -676,5 +677,5 @@ Work Item
  Extends table Base Planning Item.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DevOps Change Velocity reference](devops-change-velocity-reference.md)
+</table>**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 

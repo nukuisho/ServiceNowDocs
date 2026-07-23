@@ -2,6 +2,7 @@
 title: Define a knowledge article category
 description: Each knowledge base has a hierarchy of categories that organizes the articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_DefineAKnowledgeCategory.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -84,7 +85,7 @@ Option to enable the category.
 
     1.  Expand an existing category and click **New** within the expanded section.
 
-    2.  Fill in the [Knowledge Category form](t_DefineAKnowledgeCategory.md#table_zpb_v2d_hmb).
+    2.  Fill in the [Knowledge Category form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md).
 
     3.  Click **Submit**.
 
@@ -93,14 +94,14 @@ Option to enable the category.
 
 In addition to using categories defined by a knowledge manager, knowledge contributors can add and edit categories when editing an article.
 
-**Parent Topic:**[Configuration tasks for knowledge managers](../concept/c_KnowledgeManager.md)
+**Parent Topic:**[Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_KnowledgeManager.md)
 
 **Related topics**  
 
 
-[Add a knowledge article to featured content](t_PinAnArticle.md)
+[Add a knowledge article to featured content]()
 
-[Assign a knowledge base manager](t_AssignAKnowledgeBaseManager.md)
+[Assign a knowledge base manager]()
 
-[Select a knowledge article category](t_SelectACategory.md)
+[Select a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectACategory.md)
 

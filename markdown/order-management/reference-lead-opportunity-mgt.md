@@ -2,6 +2,7 @@
 title: Lead and opportunity management reference
 description: Reference for lead and opportunity management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/reference-lead-opportunity-mgt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,16 +14,18 @@ breadcrumb: [Reference, Sales Customer Relationship Management]
 
 Reference for lead and opportunity management applications.
 
--   **[Customer Engagement Sequences reference](customer-engagement-sequences-reference.md)**  
-Reference topics provide additional information about the Customer Engagement Sequences application.
--   **[Lead Management reference](lead-management-reference.md)**  
+-   **[Lead Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-reference.md)**  
 Reference topics provide additional information about the Lead Management application.
--   **[Opportunity Management reference](opportunity-management-reference.md)**  
+-   **[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-reference.md)**  
 Reference topics provide additional information about the Opportunity Management application.
--   **[Components installed with Sales Territory Management​](../reference/components-installed-sales-territory-management.md)**  
+-   **[Customer Engagement Sequences reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/customer-engagement-sequences-reference.md)**  
+Reference topics provide additional information about the Customer Engagement Sequences application.
+-   **[Components installed with Buying Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-buying-group.md)**  
+Several types of components are installed with activation of the Buying Group\[var.buying-group\] plugin, including user roles and tables.
+-   **[Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-territory-management.md)**  
 Several types of components are installed with activation of the Sales Territory Management​ plugin, including user roles.
--   **[Activity Management reference](activity-management-reference.md)**  
+-   **[Activity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/activity-management-reference.md)**  
 Reference topics provide additional information about the Activity Management application.
 
-**Parent Topic:**[Sales Customer Relationship Management reference](som-reference.md)
+**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-reference.md)
 

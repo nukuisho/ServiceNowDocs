@@ -2,6 +2,7 @@
 title: Enable dark theme
 description: Use a dark theme on the Mobile Agent and Now Mobile apps to improve focus and readability, and accessibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/enable-dark-theme.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

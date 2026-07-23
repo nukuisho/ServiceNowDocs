@@ -2,11 +2,12 @@
 title: Copy a flow or subflow in SAP
 description: You can create a copy of the flow or subflow and make the necessary modifications. Use the following steps to activate a flow or subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/copy-flow-or-subflow-sap.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Use schedule flows, Use, Source-to-Pay integration with SAP, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -37,7 +38,7 @@ Role required:
 
     **Important:** Perform this step only if you plan to customize or make specific changes to the flow.
 
-    ![Copy of a Create non-purchase order flow](../../source-to-pay-operations/image/sap-integration-copy-flow.png "Copy of a Create non-purchase order flow")
+    \[Omitted image "sap-integration-copy-flow.png"\] Alt text: Copy of a Create non-purchase order flow
 
 5.  Activate the flow or subflow.
 
@@ -52,19 +53,19 @@ Role required:
     -   **Status** is **Pending Submission**
     **Note:** Don’t modify the trigger condition.
 
-    ![Trigger conditions for Creating a non-purchase order invoice flow](../../source-to-pay-operations/image/sap-integration-flow-trigger.png "Trigger conditions for Creating a non-purchase order invoice flow")
+    \[Omitted image "sap-integration-flow-trigger.png"\] Alt text: Trigger conditions for Creating a non-purchase order invoice flow
 
     **Note:**
 
-    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../concept/s2p-transform-maps-flows.md).
+    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md).
 
     You have successfully copied and executed the flow.
 
 
-**Parent Topic:**[Use schedule flows in SAP](../concept/using-schedule-flows-sap.md)
+**Parent Topic:**[Use schedule flows in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/using-schedule-flows-sap.md)
 
 **Related topics**  
 
 
-[Use a flow or subflow in SAP \(Outbound\)](use-flow-or-subflow-sap.md)
+[Use a flow or subflow in SAP \(Outbound\)]()
 

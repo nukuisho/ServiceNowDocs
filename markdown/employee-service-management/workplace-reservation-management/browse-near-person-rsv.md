@@ -2,11 +2,12 @@
 title: Reserve a space near your colleague
 description: Make a workplace reservation and reserve a space near your team member or a colleague.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/browse-near-person-rsv.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -23,15 +24,15 @@ Role required: admin
 
 1.  Select any of the following context menu navigation options to make a workplace reservation and reserve a space near your preferred colleague or a team member.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d728934e59">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d742618e59">
 
 Location
 
-</th><th align="left" id="d728934e62">
+</th><th align="left" id="d742618e62">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d728934e68">
+</th></tr></thead><tbody><tr><td id="d742618e68">
 
 **Application navigation filter**
 
@@ -39,7 +40,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d728934e92">
+</td></tr><tr><td id="d742618e92">
 
 **From Employee Center Portal**
 
@@ -51,14 +52,14 @@ Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &g
 
 Make a reservation portal page opens for you to make workplace reservations.
 
--   Another way to make reservation is to use chat icon. On the home page, select the chat icon \(![Chat icon.](../image/chat-icon.png)\). To make a reservation, enter your question or select **Show Me Everything** to select from the list of available options.
+-   Another way to make reservation is to use chat icon. On the home page, select the chat icon \(\[Omitted image "chat-icon.png"\] Alt text: Chat icon.\). To make a reservation, enter your question or select **Show Me Everything** to select from the list of available options.
 
 </td></tr></tbody>
 </table>    The Make a Reservation page opens in a new tab.
 
 2.  Select a Reservable Module configuration.
 
-    For example, select any of the following Reservable Module configuraiton. For more information, see [Configure a reservable module](config-reservable-module.md).
+    For example, select any of the following Reservable Module configuraiton. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
     -   Desks
     -   Desks with an Area
@@ -67,7 +68,7 @@ Make a reservation portal page opens for you to make workplace reservations.
     -   Desks with a shift
 3.  Select **Browse near a person** to search for available spaces near a colleague or team member.
 
-    **Note:** This option appears only if the **Enable browse near a person** Reservable Module property is enabled. For more information, see [Configure a reservable module](config-reservable-module.md).
+    **Note:** This option appears only if the **Enable browse near a person** Reservable Module property is enabled. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
     The **Max number of days for browse near a person** Reservable Module property can be configured to reserve a space near a colleague for a maximum number of days. The default value of this property is 7. The **Browse near a person** is displayed only when the **Enable browse near a person** option is selected on the Reservable Module. The system counts **Max number of days for browse near a person** from the current date \(day 1\). Here, seven days includes current date \(day 1\) and the next six available calendar days.
 
@@ -77,7 +78,7 @@ Make a reservation portal page opens for you to make workplace reservations.
 
     All required fields must be filled in on the form when you’re creating a reservation and when the auto-search option is enabled by your administrator. The auto-search option doesn't work if the required field inputs are missing on the reservation page.
 
-    ![Browse near a person reservable path selected with inputs provided in the Browse near a person form fields.](../image/wsd-browse-near-a-person-rsv.png)
+    \[Omitted image "wsd-browse-near-a-person-rsv.png"\] Alt text: Browse near a person reservable path selected with inputs provided in the Browse near a person form fields.
 
     1.  **Who would you like to sit near?**: Select the user or colleague that you want to reserve a space nearby.
 
@@ -91,12 +92,12 @@ Make a reservation portal page opens for you to make workplace reservations.
 
             The dates are visible, based on the following considerations:
 
-            -   Maximum days specified in the **Max number of days for browse near a person** Reservable Module property. For more information, see [Configure a reservable module](config-reservable-module.md).
+            -   Maximum days specified in the **Max number of days for browse near a person** Reservable Module property. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
             -   Start date and End date: If a multi-day reservation is enabled, you can select a date in the range of a colleague's multi day reservation when making a reservation.
 
                 For example, if **Max days for multi-day** is 10 and you try to make a reservation for 15 days, the application shows a validation error. You’re only allowed to make a reservation for the next 10 days from the current date.
 
-                For more information, see [Create a multi-day reservation](create-multi-day-reservation.md)
+                For more information, see [Create a multi-day reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-multi-day-reservation.md)
 
         -   **Select one of their reserved spaces**: Option to show dedicated spaces and reserved spaces that aren’t marked as private for a colleague or team member with a workplace profile. In case, if the selected user or colleague doesn’t have a workplace profile, only the available reserved spaces \(if applicable\) are displayed.
 
@@ -122,40 +123,40 @@ Make a reservation portal page opens for you to make workplace reservations.
 9.  Select **Submit Reservation**.
 
 
-**Parent Topic:**[Reserve workplace items](../concept/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 
 
-[Create a reservation](create-reservation-request-1.md)
+[Create a reservation]()
 
-[Add invitees as collaborators and create a reservation](add-colleagues-rsv-search.md)
+[Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations](recurring-reservations.md)
+[Auto-resolve recurring reservations]()
 
-[Set a location as favorite using the Space details page](set-a-location-as-favorite.md)
+[Set a location as favorite using the Space details page]()
 
-[Create a multi-day reservation](create-multi-day-reservation.md)
+[Create a multi-day reservation]()
 
-[Create multi-building reservations](create-multi-building-reservation.md)
+[Create multi-building reservations]()
 
-[Create neighborhood reservations](create-neighborhood-reservations.md)
+[Create neighborhood reservations]()
 
-[Create reservation for multiple workplace items](create-reservation-for-multiple-wrkplceitems-1.md)
+[Create reservation for multiple workplace items]()
 
-[Enable shift-based reservation](enable-shift-based-reservation.md)
+[Enable shift-based reservation]()
 
-[Create a reservation along with a shared reservation](create-rsv-along-with-shared-rsv.md)
+[Create a reservation along with a shared reservation]()
 
-[Create a reservation including a virtual meeting link](Create-reservation-with-virtual-meeting.md)
+[Create a reservation including a virtual meeting link]()
 
-[Create a shift reservation](create-a-shift-reservation.md)
+[Create a shift reservation]()
 
-[Create a group reservation](create-group-reservation.md)
+[Create a group reservation]()
 
-[Share, modify, or cancel a reservation](modify-cancel-res-request.md)
+[Share, modify, or cancel a reservation]()
 
-[Reserve a workplace using the Quick Reservation widget](reserve-workplace-for-a-time-slot.md)
+[Reserve a workplace using the Quick Reservation widget]()
 
-[Download an iCalendar for a reservation](generate-ical.md)
+[Download an iCalendar for a reservation]()
 

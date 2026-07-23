@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Operational Sustainability Management
 description: Get a quick overview of the important information that is related to the Now Assist for Operational Sustainability application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/supporting-information-for-now-assist-for-esg.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -30,7 +31,7 @@ This store app has the following dependencies:
 -   Now Assist Platform
 -   Environmental, Social, Governance Management
 
-For more information, see [Configure Now Assist for Operational Sustainability \(formerly ESG\)](configure-now-assist-for-esg.md).
+For more information, see [Configure Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/configure-now-assist-for-esg.md).
 
-**Parent Topic:**[Exploring Now Assist for Operational Sustainability \(formerly ESG\)](exploring-now-assist-for-esg.md)
+**Parent Topic:**[Exploring Now Assist for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/exploring-now-assist-for-esg.md)
 

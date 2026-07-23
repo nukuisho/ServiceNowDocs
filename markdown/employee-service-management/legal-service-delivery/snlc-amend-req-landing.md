@@ -2,11 +2,12 @@
 title: Contract amendments
 description: The contract amendment workflow enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with an audit trail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-amend-req-landing.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-19"
 reading_time_minutes: 5
 keywords: [Amendment request, Amend contract, Amendment workflow, Contract amendment, Amendment]
 breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
@@ -20,7 +21,7 @@ Amendments can be made by adding, removing, or updating terms, without the need 
 
 You can use the **Amendment request** intake form available in the Employee Center to submit an amendment request.
 
-![Use the Amendment request record producer from Employee Center to submit an contract amendment request](../image/lsd-amend-rp.png)
+\[Omitted image "lsd-amend-rp.png"\] Alt text: Use the Amendment request record producer from Employee Center to submit an contract amendment request
 
 ## Distinguish contract and amendment request
 
@@ -33,7 +34,7 @@ This field is also available in the following base system configurations \(when 
 -   Contract template rules
 -   Contract configurations
 
-![Request type field to differentiate between contract and amendment request](../image/lsd-amend-field-request-type.png)
+\[Omitted image "lsd-amend-field-request-type.png"\] Alt text: Request type field to differentiate between contract and amendment request
 
 ## Types of paper for an amendment request
 
@@ -43,15 +44,15 @@ The amendment workflow supports both own-paper and third-party amendment request
 
 While submitting an amendment request, you can select the **Type of paper** from the intake form.
 
-![Select amendment type](../image/lsd-amend-type.png)
+\[Omitted image "lsd-amend-type.png"\] Alt text: Select amendment type
 
 ## Amendment intake form and record producer
 
 The intake form and record producer for an amendment are available in the base system, enabling you to submit an amendment requests.
 
-![Amendment intake from and record producer in the base sytem (OOB)](../image/lsd-amend-OOB-intakeform.png)
+\[Omitted image "lsd-amend-OOB-intakeform.png"\] Alt text: Amendment intake from and record producer in the base sysstem \(OOB\)
 
-You can also create a customized record producer by copying a base system \(OOB\) record producer to reuse its existing configuration settings. For more information on how to create record producer, see [Create a legal contract intake workflow](../task/snlc-create-legal-contract.md).
+You can also create a customized record producer by copying a base system \(OOB\) record producer to reuse its existing configuration settings. For more information on how to create record producer, see [Create a legal contract intake workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-create-legal-contract.md).
 
 While linking the record producer to an intake form, verify that the **Amendment request indicator** is selected in the **Options** field.
 
@@ -69,7 +70,7 @@ The following tabs are available within the contract repository record to provid
 -   Contract Requests: Displays all contract and amendment requests associated with the contract.
 -   Amendment Field Changes: Shows a detailed log of all field changes made through amendments, enabling easy tracking of modifications over time.
 
-![Contract repository record showing amendment related details](../image/lsd-amend-related-lists.png)
+\[Omitted image "lsd-amend-related-lists.png"\] Alt text: Contract repository record showing amendment related details
 
 ## Contract amendment workflow
 
@@ -98,35 +99,37 @@ The contract amendment workflow might progress as follows:
 
 For amendment documents, Now Assist in Contract Management features of obligation extraction or metadata extraction aren’t supported. However, Contract Analysis is supported when all the configurations are complete and valid, enabling users to review and analyze amendments effectively.
 
-For more information, see [Now Assist in Contract Management](../../contract-mgmt-pro/concept/cncore-now-assit-landing.md).
+For more information, see [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md).
 
--   **[Submit amendment request](../task/snlc-amend-inititate-req.md)**  
+-   **[Submit amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-amend-inititate-req.md)**  
 Submit an amendment request from the Employee Center.
--   **[View and track amendment requests as a legal user](../task/snlc-view-amend-req-details.md)**  
+-   **[View and track amendment requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-view-amend-req-details.md)**  
 View the details of an amendment request after it has been submitted and track the activities in the request.
--   **[Work on amendment request](../task/snlc-amend-work.md)**  
+-   **[Work on amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-amend-work.md)**  
 Review and work on an amendment request for an existing contract.
--   **[View amendment details](../task/lsd-view-amend-details.md)**  
+-   **[View amendment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-view-amend-details.md)**  
 View the amendment details in the contract repository record.
 
-**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](snlc-use-sn-legal-cont-landing.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
 
 
-[Non-disclosure agreement requests](snlc-request-nda-1.md)
+[Non-disclosure agreement requests]()
 
-[Third-party contract review requests](snlc-request-third-party-contract-1.md)
+[Third-party contract review requests]()
 
-[Linking parent-child contracts](snlc-linking-parent-child.md)
+[Linking parent-child contracts]()
 
-[Internal review overview](../task/snlc-expert-review.md)
+[Internal review overview]()
 
-[Cancel a legal request](../task/snlc-cancel-request-tpc.md)
+[Signature workflow for a request]()
 
-[View and download a signed contract document](../task/snlc-preview-contract.md)
+[Cancel a legal request]()
 
-[View contract requests](../task/snlc-view-contract-requests.md)
+[View and download a signed contract document]()
 
-[Manage Contract Management Pro for Legal Service Delivery](snlc-manage-sn-legal-contracts.md)
+[View contract requests]()
+
+[Manage Contract Management Pro for Legal Service Delivery]()
 

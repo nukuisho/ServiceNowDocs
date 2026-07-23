@@ -2,6 +2,7 @@
 title: Checking domain logs for errors and warnings
 description: Check the domain logs to find errors or warnings in your domain path processes and hierarchy configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-logs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,62 +20,62 @@ Look for any errors and warnings in this table. After reviewing this table, you 
 
 In this example of a log, the system has detected ten orphan records in the sys\_ui\_list table. The errors in these records must be fixed before the domain path can run successfully.
 
-![Domain logs showing errors](../image/bp-domain-logs.png)
+\[Omitted image "bp-domain-logs.png"\] Alt text: Domain logs showing errors
 
-To learn more about domain-separation errors, see [Troubleshoot domain separation errors](../reference/r_TroubleshootDomainSeparationError.md).
+To learn more about domain-separation errors, see [Troubleshoot domain separation errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_TroubleshootDomainSeparationError.md).
 
-**Parent Topic:**[Domain separation recommended practices for service providers](../reference/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 
 
-[Domain separation explained](bp-what-is-domain-separation.md)
+[Domain separation explained]()
 
-[Domain separation hierarchies](../reference/bp-domain-sep-hierarchies.md)
+[Domain separation hierarchies]()
 
-[Context and domain separation](bp-domain-sep-context.md)
+[Context and domain separation]()
 
-[Segregating and securing data with domain separation](../reference/bp-segregate-secure.md)
+[Segregating and securing data with domain separation]()
 
-[Alternatives to domain separation](../reference/bp-domain-separation-alternatives.md)
+[Alternatives to domain separation]()
 
-[Evaluating the need for domain separation](../reference/bp-evaluation-dom-sep.md)
+[Evaluating the need for domain separation]()
 
-[Benefits of domain separation](../reference/bp-advantages-dom-sep.md)
+[Benefits of domain separation]()
 
-[How a database query works with domain separation](bp-db-query-with-ds.md)
+[How a database query works with domain separation]()
 
-[Domain separation levels of support](../reference/bp-domain-levels.md)
+[Domain separation levels of support]()
 
-[Service provider reference architecture](../reference/bp-sp-reference-arch-ds.md)
+[Service provider reference architecture]()
 
-[Domain separation terms](../reference/bp-terms-conditions.md)
+[Domain separation terms]()
 
-[Domain-separate a custom table](../reference/bp-ds-custom-table.md)
+[Domain-separate a custom table]()
 
-[Customizing domain properties and themes](bp-domain-prop-themes.md)
+[Customizing domain properties and themes]()
 
-[Managing domain separation for specific uses](bp-emails-catalog-users.md)
+[Managing domain separation for specific uses]()
 
-[Configuring domain separation with the domain picker](bp-domain-picker-config-process.md)
+[Configuring domain separation with the domain picker]()
 
-[Domain separation performance considerations](bp-performance-considerations.md)
+[Domain separation performance considerations]()
 
-[Setting up domain hierarchies](bp-domain-hierarchy.md)
+[Setting up domain hierarchies]()
 
-[Importance of the Default domain](bp-default-domain.md)
+[Importance of the Default domain]()
 
-[Contains queries and domain access](bp-contains-domain-visibility.md)
+[Contains queries and domain access]()
 
-[Domain paths query method](bp-domain-query-method.md)
+[Domain paths query method]()
 
-[Slow queries and SQL debugging](bp-debug-sql.md)
+[Slow queries and SQL debugging]()
 
-[Before Query business rules](bp-before-query-business-rules.md)
+[Before Query business rules]()
 
-[Avoiding domain path in scripts](bp-no-domain-path-in-scripts.md)
+[Avoiding domain path in scripts]()
 
-[Domain assignments](../reference/bp-domain-assignment.md)
+[Domain assignments]()
 
-[Domain separation and the Customer Service Management \(CSM\) plugin](bp-ds-and-csm.md)
+[Domain separation and the Customer Service Management \(CSM\) plugin]()
 

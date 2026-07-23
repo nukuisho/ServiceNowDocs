@@ -2,6 +2,7 @@
 title: MCO input attributes form
 description: MCO input attributes form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-input-atrributes\_form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -32,5 +33,5 @@ MCO input attributes form.
 |Text index|Option to determine whether searches index the text in a table.|
 |Audit|Option to enable auditing for a table.|
 
-**Parent Topic:**[Repair form](repair-form.md)
+**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
 

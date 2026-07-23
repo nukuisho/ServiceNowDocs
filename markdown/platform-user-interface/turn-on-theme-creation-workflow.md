@@ -2,6 +2,7 @@
 title: Turn on theme creation workflow for use in the Now Assist panel
 description: Turn on the theme creation workflow to generate themes using the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/turn-on-theme-creation-workflow.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Turn on the theme creation workflow to generate themes using the Now Assist pane
 
 ## Before you begin
 
-Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md).
+Install the Now Assist for Creator application. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
 
 Turn on the Now Assist panel. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)
 
@@ -48,7 +49,7 @@ This workflow is required to use the AI feature within the Now Assist panel.
 
 ## What to do next
 
-[Create a theme using Now Assist](create-theme-now-assist.md).
+[Create a theme using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-theme-now-assist.md).
 
-**Parent Topic:**[Theme creation with AI](../concept/theme-creation-with-ai.md)
+**Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)
 

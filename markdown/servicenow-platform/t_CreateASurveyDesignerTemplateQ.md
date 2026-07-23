@@ -2,6 +2,7 @@
 title: Create a survey designer template question
 description: You can create a question that uses choice lists from a template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CreateASurveyDesignerTemplateQ.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin or survey\_admin
 
 ## About this task
 
-For more information about the template, see [Survey question template](../concept/c_SurveyQuestionTemplate.md).
+For more information about the template, see [Survey question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyQuestionTemplate.md).
 
 ## Procedure
 
@@ -31,19 +32,19 @@ For more information about the template, see [Survey question template](../conce
 
 4.  Select a predefined scale from the list.
 
-    ![Template properties form](../image/SurveyDesignerTemplateProperties.png)
+    \[Omitted image "SurveyDesignerTemplateProperties.png"\] Alt text: Template properties form
 
     Question entry fields appear for that template.
 
 5.  Enter one or more questions that are appropriate for the template.
 
-    ![Template choice properties form](../image/SurveyDesignerTemplateProperties2.png)
+    \[Omitted image "SurveyDesignerTemplateProperties2.png"\] Alt text: Template choice properties form
 
 6.  Click the arrow to the right of a question to configure its properties.
 
     You must provide a name for each question.
 
-    ![Template question form](../image/SurveyDesignerTemplateQuestionProperties.png)
+    \[Omitted image "SurveyDesignerTemplateQuestionProperties.png"\] Alt text: Template question form
 
 7.  Click the back arrow to return to the template properties dialog box.
 
@@ -52,46 +53,46 @@ For more information about the template, see [Survey question template](../conce
 9.  Click the **X** icon to close the template properties dialog box and save your settings.
 
 
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](../concept/c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Survey users and groups](../concept/c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Copy a survey](copy-survey.md)
+[Copy a survey]()
 
-[Publish a survey](t_PublishASurvey.md)
+[Publish a survey]()
 
-[Customize the appearance of a survey](t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Survey definitions](../concept/c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Survey questions](../concept/c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](../concept/c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](../concept/c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Sentiment analysis for surveys](../concept/sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](../concept/c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](../concept/survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](../concept/c_MigrateSurveys.md)
+[Legacy survey migration]()
 
-[Survey designer elements](../concept/c_SurveyDesignerElements.md)
+[Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesignerElements.md)
 
-[Survey designer](../concept/c_SurveyDesigner.md)
+[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
 
-[Edit a survey in the survey designer](t_EditASurveyInTheSurveyDesigner.md)
+[Edit a survey in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_EditASurveyInTheSurveyDesigner.md)
 

@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Common Finance and Supply Chain features
 description: If you have the admin role, you can configure the Now Assist for Common Finance and Supply Chain features application so that your fulfillers can use the agentic AI skills in Source-to-Pay Workspace Workspace and Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/now-assist-for-fsc-common/configure-now-assist-fsc.html
 release: australia
 product: Now Assist for FSC Common
 classification: now-assist-for-fsc-common
@@ -31,13 +32,13 @@ The following table lists the Now Assist for Common Finance and Supply Chain fea
 |Supplier summarization for fulfillers|Summarize supplier details and keep fulfillers informed about their overview, total spends, and performance.|
 |Purchase order summarization for fulfillers|Summarize purchase orders and keep fulfillers informed on their status, progress, and required actions.|
 
-![Now Assist skills for Common Finance and Supply Chain features section, showing the Purchase order summarization for fulfillers feature card.](../image/now-assist-for-fsc.png "Now Assist skills for Common Finance and Supply Chain features")
+\[Omitted image "now-assist-for-fsc.png"\] Alt text: Now Assist skills for Common Finance and Supply Chain features section, showing the Purchase order summarization for fulfillers feature card.
 
 ## Procedure
 
 1.  Install the Now Assist for FSC Common \(sn\_fsc\_genai\) plugin.
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Common Finance and Supply Chain features](../concept/now-assist-fsc-supporting-info.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-supporting-info.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 
@@ -62,15 +63,15 @@ The following table lists the Now Assist for Common Finance and Supply Chain fea
 
 10. Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d115881e358">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d167027e358">
 
 Option
 
-</th><th align="left" id="d115881e361">
+</th><th align="left" id="d167027e361">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d115881e367">
+</th></tr></thead><tbody><tr><td id="d167027e367">
 
 **Skill is always available**
 
@@ -78,7 +79,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d115881e376">
+</td></tr><tr><td id="d167027e376">
 
 **Customize skill availability**
 
@@ -91,15 +92,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d115881e412">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d167027e412">
 
 Option
 
-</th><th align="left" id="d115881e415">
+</th><th align="left" id="d167027e415">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d115881e421">
+</th></tr></thead><tbody><tr><td id="d167027e421">
 
 **In-product desktop**
 
@@ -107,13 +108,13 @@ Description
 
 The Purchase order summarization for fulfiller skillis displayed in the Source-to-Pay Workspace for Sourcing and Procurement Operations, Supplier Lifecycle Operations, and Accounts Payable Operations.
 
-</td></tr><tr><td id="d115881e442">
+</td></tr><tr><td id="d167027e442">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>13. Select **Save and continue** to go to the next step.
@@ -125,19 +126,19 @@ Now Assist skills are available in the Now Assist panel. Turn on multi-language 
     The skill is activated.
 
 
--   **[Customize a Now Assist for Common Finance and Supply Chain features skill](cust-now-assist-fsc-skill.md)**  
+-   **[Customize a Now Assist for Common Finance and Supply Chain features skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/cust-now-assist-fsc-skill.md)**  
 If you have the admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
--   **[Customize supplier summarization for fulfillers skill](cust-na-fsc-supplier-skill.md)**  
+-   **[Customize supplier summarization for fulfillers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/cust-na-fsc-supplier-skill.md)**  
 If you have the admin role, you can customize the supplier summarization for fulfillers skill so that fulfillers can use the generative AI skills in Source-to-Pay Workspace to view relevant supplier information.
 
-**Parent Topic:**[Now Assist for Common Finance and Supply Chain features](../concept/now-assist-fsc-common.md)
+**Parent Topic:**[Now Assist for Common Finance and Supply Chain features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-fsc-common/now-assist-fsc-common.md)
 
 **Related topics**  
 
 
-[Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](configure-now-assist-for-spo.md)
+[Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
-[Configure Now Assist for Supplier Lifecycle Operations \(SLO\)](../../supplier-lifecycle-operations/task/now-assist-slo-configuring.md)
+[Configure Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-configuring.md)
 
-[Configure Now Assist for Accounts Payable Operations \(APO\)](../../accounts-payable-operations/task/configuring-now-assist-apo.md)
+[Configure Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md)
 

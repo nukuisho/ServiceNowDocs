@@ -2,6 +2,7 @@
 title: Create an indicator definition
 description: You can create a new KPI Composer indicator definition directly from the relevant artifact in the Data Definition tab. Fill the indicator definition with the necessary information for creating a Performance Analytics indicator.After you create an indicator definition in KPI Composer, you can add contributing indicators to that definition. Formula indicator definitions, where the formula includes one or more other indicators, require contributing indicators to be complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-indicator-definition.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,13 +18,13 @@ You can create a new KPI Composer indicator definition directly from the relevan
 
 ## Before you begin
 
-You have an existing [KPI Composer project](../concept/kpi-composer-projects.md) with a complete draft of the [KPI tree](../concept/design-kpi-tree.md#) in the Analytics tab. You also need technical knowledge of Performance Analytics indicators.
+You have an existing [KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md) with a complete draft of the [KPI tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/design-kpi-tree.md) in the Analytics tab. You also need technical knowledge of Performance Analytics indicators.
 
 Role required: sn\_kpi\_composer.admin or admin to link to a Performance Analytics indicator, sn\_kpi\_composer.user for other functionality. No roles are required for responsible users or users with edit access, except to link to a Performance Analytics indicator.
 
 ## About this task
 
-You can create an indicator definition for every artifact in your project, whether or not it is associated with a Performance Analytics widget. You cannot add more than one indicator definition for an artifact. However, if you link an artifact to a formula indicator, you automatically link it to all the [contributing indicators](../concept/performance-analytics-glossary.md#) in the formula.
+You can create an indicator definition for every artifact in your project, whether or not it is associated with a Performance Analytics widget. You cannot add more than one indicator definition for an artifact. However, if you link an artifact to a formula indicator, you automatically link it to all the [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) in the formula.
 
 ## Procedure
 
@@ -35,7 +36,7 @@ You can create an indicator definition for every artifact in your project, wheth
 
     **Tip:** Before you continue to create an indicator definition, check whether any suitable indicator definitions already exist. Click the artifact to open its properties. Then browse the list of available indicator definitions.
 
-    ![Properties of a measurement artifact in the data definition tab](../image/kpi-composer-data-def-measurement-props.png)
+    \[Omitted image "kpi-composer-data-def-measurement-props.png"\] Alt text: Properties of a measurement artifact in the data definition tab
 
 4.  Select the plus sign, +.
 
@@ -49,7 +50,7 @@ You can create an indicator definition for every artifact in your project, wheth
 
     A link icon appears in artifacts next to the name of an indicator definition that is linked to a Performance Analytics indicator.
 
-    ![Critical success factor artifact in Data Definition tab, showing indicator definitions linked to PA indicators](../image/kpi-comp-element-linked-indicators.png)
+    \[Omitted image "kpi-comp-element-linked-indicators.png"\] Alt text: Critical success factor artifact in Data Definition tab, showing indicator definitions linked to PA indicators
 
 6.  Fill in the **Development instructions** field with any information for your developers that is not in the rest of the form.
 
@@ -65,15 +66,15 @@ You can create an indicator definition for every artifact in your project, wheth
 
 8.  Decide whether an Automated, Formula, or Manual indicator best represents the information in the artifact.
 
-<table id="choicetable_tkh_r5y_4jb"><thead><tr><th align="left" id="d169508e276">
+<table id="choicetable_tkh_r5y_4jb"><thead><tr><th align="left" id="d170672e276">
 
 Indicator Type
 
-</th><th align="left" id="d169508e279">
+</th><th align="left" id="d170672e279">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d169508e285">
+</th></tr></thead><tbody><tr><td id="d170672e285">
 
 **Automated**
 
@@ -81,7 +82,7 @@ Description
 
 An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data.
 
-</td></tr><tr><td id="d169508e297">
+</td></tr><tr><td id="d170672e297">
 
 **Formula**
 
@@ -89,7 +90,7 @@ An automated indicator uses an indicator source as its data set. The indicator s
 
 Calculate scores from the scores of one or more other indicators. Apply mathematical operations or a preset method, such as the method to calculate the gap between an indicator score and the indicator target.
 
-</td></tr><tr><td id="d169508e309">
+</td></tr><tr><td id="d170672e309">
 
 **Manual**
 
@@ -120,20 +121,20 @@ Manual indicators are not associated with an indicator source. Scores for manual
 
 In the following short animation, the user defines a formula indicator for the measurement "% of major incident first call resolution." The indicator is based on an existing PA indicator that calculates a similar percentage but does not filter on Priority.
 
-![Creating an indicator definition for a measurement](../image/kpi-comp-create-indicator-def.gif)
+\[Omitted image "kpi-comp-create-indicator-def.gif"\] Alt text: Creating an indicator definition for a measurement
 
-**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](../concept/designing-pa-solution.md)
+**Parent Topic:**[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
 
 **Related topics**  
 
 
-[Automated indicators](../concept/automated-indicators.md)
+[Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/automated-indicators.md)
 
-[Indicator sources](../concept/c_IndicatorSources.md#)
+[Indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_IndicatorSources.md)
 
-[Formula indicators](../concept/formula-indicators.md)
+[Formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/formula-indicators.md)
 
-[Manual indicators](t_CreateAManualIndicator.md)
+[Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
 
 ## Add contributing indicators
 
@@ -151,22 +152,22 @@ Role required: Same as creating an indicator definition
 
 1.  In the relevant artifact on the Data Definition tab, click the indicator definition name to open the indicator definition.
 
-    ![Measurement artifact with the indicator definition highlighted](../image/kpi-comp-open-indic-def.png)
+    \[Omitted image "kpi-comp-open-indic-def.png"\] Alt text: Measurement artifact with the indicator definition highlighted
 
 2.  In the Supporting Indicator Definitions related list, click one of the following buttons:
 
-    -   Click **New** to create a new indicator definition. Follow the same procedure as in [Create an indicator definition](create-indicator-definition.md#).
+    -   Click **New** to create a new indicator definition. Follow the same procedure as in [Create an indicator definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-indicator-definition.md).
     -   Click **Edit** to open a list of existing indicator definitions in this project. You can select as many indicators as you need.
     Search the existing indicator definitions before you create new ones, so as not to duplicate indicators.
 
 
 ### Result
 
-After saving the changes, the artifact in the Data Definition tab shows the [contributing indicator](../concept/performance-analytics-glossary.md#) definitions under the main indicator definition, with a darker background.
+After saving the changes, the artifact in the Data Definition tab shows the [contributing indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) definitions under the main indicator definition, with a darker background.
 
 ### Adding a contributing indicator
 
 In this example, the contributing indicator Number of resolved incidents is added to the % of major incident first call resolution artifact. This indicator matches an existing indicator definition.
 
-![Animated gif showing a contributing indicator being added to an artifact](../image/kpi-comp-contrib-indicators.gif)
+\[Omitted image "kpi-comp-contrib-indicators.gif"\] Alt text: Animated gif showing a contributing indicator being added to an artifact
 

@@ -2,6 +2,7 @@
 title: Assign the Vulnerability Response persona roles using Setup Assistant
 description: Assign the Vulnerability Response persona roles to groups or users with Setup Assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-assign-personas\_SA.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Assign the Vulnerability Response persona roles to groups or users with Setup As
 
 ## Before you begin
 
-If you have already assigned persona roles in Vulnerability Response using Setup Assistant and you want more information about editing and managing your granular roles and role assignments in the User Administration module, see [Manage persona and granular roles for Vulnerability Response](../../vulnerability-response/task/vr_manage_granular-roles.md).
+If you have already assigned persona roles in Vulnerability Response using Setup Assistant and you want more information about editing and managing your granular roles and role assignments in the User Administration module, see [Manage persona and granular roles for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr_manage_granular-roles.md).
 
 If you are an upgrade customer, you can continue using your existing roles for the Vulnerability Response application. Access for users and groups assigned with the sn\_vul.vulnerability\_read and sn\_vul.vulnerability\_write permissions and remediation owner roles available in previous versions of Vulnerability Response has not changed.
 
@@ -23,7 +24,7 @@ However, for more control over what users and groups can do and see in the Vulne
 
 If you have not already assigned the sn\_vul.vulnerability\_admin persona role using Setup Assistant, follow the steps below to assign it. Once assigned, the vulnerability administrator with this persona role has permission to complete the Setup Assistant tasks after the first section, and manage rules and third-party integrations in the Vulnerability Response application.
 
-For an overview about persona roles and granular roles, see [Vulnerability Response personas and granular roles](../../vulnerability-response/concept/vr-persona-overview.md#).
+For an overview about persona roles and granular roles, see [Vulnerability Response personas and granular roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-persona-overview.md).
 
 If you are an upgrade customer, use the following table as a reference.
 
@@ -104,7 +105,7 @@ Role required: admin
 
     The System Administration Vulnerability Response Users and Groups page is displayed.
 
-    ![System Administration Vulnerability Response Users and Groups page with no personas assigned.](../../vulnerability-response/image/vr-setup-persona-1.png)
+    \[Omitted image "vr-setup-persona-1.png"\] Alt text: System Administration Vulnerability Response Users and Groups page with no personas assigned.
 
 3.  With Assign roles to a user selected, choose an existing user from the list.
 
@@ -118,13 +119,13 @@ Role required: admin
 
     Note that for existing users or a groups currently assigned with the sn\_vul.vulnerability\_read or sn\_vul.vulnerability\_write roles, these roles are displayed along with the persona roles in the list. Once you assign a persona role, the old role is no longer available going forward. For example, as shown in following figure, the Write \[sn\_vul.vulnerability\_write\] role is no longer displayed as an option for this user or group after it is assigned one of the persona roles.
 
-    ![List of available roles prior to version 10.3.](../../vulnerability-response/image/vr_roles_prev11..png)
+    \[Omitted image "vr\_roles\_prev11..png"\] Alt text: List of available roles prior to version 10.3.
 
 4.  From the list on the right of the form, select **Vulnerability Admin \[sn\_vul.vulnerability\_admin\]**.
 
     A message is displayed that indicates the user or group is successfully assigned with the persona.
 
-    ![User assigned vulnerability admin persona.](../../vulnerability-response/image/vr-setup-persona-2.png "Remediation Owner persona assigned to a group, and Vulnerability admin persona assigned to a user")
+    \[Omitted image "vr-setup-persona-2.png"\] Alt text: User assigned vulnerability admin persona.
 
 5.  Using the descriptions of the persona roles listed above, continue to assign any users and groups to the remaining persona roles: Remediation Owner, Vulnerability Analyst, CI Manager, and Exception Approver.
 
@@ -151,5 +152,5 @@ Role required: admin
 
 ## What to do next
 
-As system admin, continue with the configuration of Vulnerability Response in Setup Assistant. Note that after the first section is completed, you can have a user you assigned with the vulnerability admin persona role complete the tasks in Setup Assistant. For more information about managing granular roles and examples, see [Manage persona and granular roles for Vulnerability Response](../../vulnerability-response/task/vr_manage_granular-roles.md).
+As system admin, continue with the configuration of Vulnerability Response in Setup Assistant. Note that after the first section is completed, you can have a user you assigned with the vulnerability admin persona role complete the tasks in Setup Assistant. For more information about managing granular roles and examples, see [Manage persona and granular roles for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr_manage_granular-roles.md).
 

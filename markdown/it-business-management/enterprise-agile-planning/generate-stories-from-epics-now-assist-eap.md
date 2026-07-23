@@ -2,6 +2,7 @@
 title: Generate multiple stories at once in EAP using Now Assist for SPM
 description: Breakdown epics and features into stories using the Now Assist panel in the Enterprise Agile Planning \(EAP\) workspace. Based on the work item details, Now Assist generates stories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -17,7 +18,7 @@ Breakdown epics and features into stories using the Now Assist panel in the Ente
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -45,21 +46,21 @@ If you have custom roles that require access to this skill, update the ACLs for 
 
 6.  Go through the story recommendations and choose to confirm, combine, split, remove any of the stories, suggest modifications, or create more stories.
 
-    **Tip:** While Now Assist is working on the story recommendations for the current work item, you can start a new chat to create stories for another epic or feature. Select **New chat** \(![](../images/icon-na-new-chat.png)\) from the Now Assist panel header. You can switch between chats by selecting **All chats** \(![](../images/icon-na-all-chats.png)\).
+    **Tip:** While Now Assist is working on the story recommendations for the current work item, you can start a new chat to create stories for another epic or feature. Select **New chat** \(\[Omitted image "icon-na-new-chat.png"\] Alt text:\) from the Now Assist panel header. You can switch between chats by selecting **All chats** \(\[Omitted image "icon-na-all-chats.png"\] Alt text:\).
 
 7.  You can iterate on any of these actions and when you’re satisfied with the recommendations, enter **Save**.
 
     Now Assist creates stories with the confirmed recommendations. The newly created stories are displayed in the Stories tab of the epic or feature details page.
 
 
-**Parent Topic:**[Manage team backlog in EAP](../../spw-eap/concept/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
 **Related topics**  
 
 
-[Configure Create stories agentic workflow with Now Assist for SPM](configure-create-stories-agentic-workflow-now-assist-for-spm.md)
+[Configure Create stories agentic workflow with Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configure-create-stories-agentic-workflow-now-assist-for-spm.md)
 
-[Create stories agentic workflow using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/generate-agile-story-planning-items.md)
+[Create stories agentic workflow using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.md)
 

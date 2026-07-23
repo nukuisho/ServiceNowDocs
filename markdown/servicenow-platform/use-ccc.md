@@ -2,6 +2,7 @@
 title: Using Voice
 description: Agents can use ServiceNow Voice to receive inbound calls and make outbound calls with a seamless voice call experience. Managers can use this application to monitor and analyze calls.An agent can receive inbound calls using the Agent Softphone interface to handle a caller's request.Improve your productivity as an agent by initiating outbound calls to connect with customers using the click-to-call feature in the ServiceNow Voice application.When on a call with a customer, an agent can transfer the call to another agent or to a queue to get more assistance for the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/use-ccc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [ServiceNow Voice, Manage people and work capabilities, Extend Servi
 
 Agents can use ServiceNow Voice to receive inbound calls and make outbound calls with a seamless voice call experience. Managers can use this application to monitor and analyze calls.
 
-**Parent Topic:**[ServiceNow Voice](cloud-call-center-overview.md)
+**Parent Topic:**[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-overview.md)
 
 ## Receiving inbound calls in ServiceNow Voice
 
@@ -26,7 +27,7 @@ As an agent, you should have any of the following roles to receive an inbound ca
 
 After a customer dials in, the corresponding contact flow is invoked in Amazon Connect. Through the configured nodes, the request is forwarded to an operation handler in the ServiceNow instance.
 
-If an agent is available, the agent can receive the call and handle the request using Agent Softphone interface. For information about the presence states of an agent, see [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/agent-experience.md).
+If an agent is available, the agent can receive the call and handle the request using Agent Softphone interface. For information about the presence states of an agent, see [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md).
 
 |If|Then the interaction|
 |---|--------------------|
@@ -44,7 +45,7 @@ As an agent, you can initiate outbound calls using the click-to-call feature whe
 **Note:**
 
 -   If not available, you can add the **Caller** field to an incident form.
--   The phone number of a user should be in the E.164 format. For information about configuring a phone number in this format, see [Configure the E.164 format for a consumer phone number](../task/configure-e614-consumer.md).
+-   The phone number of a user should be in the E.164 format. For information about configuring a phone number in this format, see [Configure the E.164 format for a consumer phone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-e614-consumer.md).
 
 You should have any of the following roles to initiate an outbound call:
 
@@ -114,13 +115,18 @@ Indicates that you were unable to connect with the customer. After the call does
 
 The activity stream of the associated interaction record is populated with your status details, the URL to the call recording, contact trace record, and call transcript.
 
+**Related topics**  
+
+
+[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md)
+
 ## Transferring a call to an agent or queue
 
 When on a call with a customer, an agent can transfer the call to another agent or to a queue to get more assistance for the customer.
 
-This feature is available for ServiceNow Voice for Customer Service Management. See [Integrating ServiceNow Voice with CSM](integrating-ccc-csm.md) for more information.
+This feature is available for ServiceNow Voice for Customer Service Management. See [Integrating ServiceNow Voice with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integrating-ccc-csm.md) for more information.
 
-![Transfer a call to another agent or to a queue. The customer is Amy, the first agent is Ned, and the second agent is Beth.](../image/transfer-workflow.png "Example of a transfer flow")
+\[Omitted image "transfer-workflow.png"\] Alt text: Transfer a call to another agent or to a queue. The customer is Amy, the first agent is Ned, and the second agent is Beth.
 
 1.  Navigate to **All** &gt; **Workspace Experience** &gt; **CSM/FSM Configurable Workspace**.
 2.  Ned uses the Agent Softphone to accept an incoming call from a customer.

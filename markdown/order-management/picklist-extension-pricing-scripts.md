@@ -2,11 +2,12 @@
 title: The Picklist Extension Pricing enrichment
 description: Use the Picklist Extension Pricing enrichment to adjust pricing according to location or other factors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/picklist-extension-pricing-scripts.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setting up enrichments and rules scripting, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # The Picklist Extension Pricing enrichment
@@ -17,15 +18,15 @@ The Picklist Extension Pricing enrichment can be used to dynamically change the 
 
 ## Prerequisites
 
-Submit a support case through the CPQ Support site or by emailing [support@logik.io](mailto:support@logik.io) requesting the enrichment be enabled for your environment. Please provide a use case for using the enrichment.
+Submit a support case requesting the enrichment be enabled for your environment. Please provide a use case for using the enrichment. To submit a support case, use the [ServiceNow Support portal](https://support.servicenow.com). For step-by-step instructions, see [Create a case on Now Support for CPQ Customers](https://support.servicenow.com/kb?sys_kb_id=d67d3e71475d7a90f64de825126d4326&id=kb_article_view).
 
 Picklist extension fields need to have the "Enable for enrichment" toggle turned on to be affected by the enrichment.
 
-![Picklist extension fields](../images/cpq-enrichments-enable-for-enrichment.png)
+\[Omitted image "cpq-enrichments-enable-for-enrichment.png"\] Alt text: Picklist extension fields
 
-The enrichments tab will be shown when navigating to a blueprint in the CPQ Admin.
+The enrichments tab will be shown when navigating to a blueprint in the ServiceNow CPQ Admin.
 
-![Picklist extension fields](../images/cpq-enrichments-in-blueprint.png)
+\[Omitted image "cpq-enrichments-in-blueprint.png"\] Alt text: Picklist extension fields
 
 Watch this demonstration of the Picklist Extension Pricing enrichment in action.
 
@@ -136,5 +137,5 @@ Referencing elements in the `pleRequest` object is similar to referencing object
 **Related topics**  
 
 
-[CPQ scripting language reference](cpq-logik-io-scripting-language-reference.md)
+[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

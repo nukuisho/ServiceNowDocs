@@ -2,6 +2,7 @@
 title: Add choices to a dynamic choice set
 description: Build out a dynamic choice set by defining the choices that belong to it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/add-choices-choice-set.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,15 +52,15 @@ A dynamic choice is added to the dynamic choice set.
 
 ## Add a dynamic choice to a dynamic choice set
 
-![Add a choice to the screen type choice set.](../image/dynamic-choice-example.png)
+\[Omitted image "dynamic-choice-example.png"\] Alt text: Add a choice to the screen type choice set.
 
 ## Define a specific choice in the Televisions category
 
-![Add a choice that's limited to a specific attribute in a specific category.](../image/dynamic-choice-limited-example.png)
+\[Omitted image "dynamic-choice-limited-example.png"\] Alt text: Add a choice that's limited to a specific attribute in a specific category.
 
 ## Choices defined in choice set
 
-![Choices in a choice set.](../image/dynamic-choice-set-choices-example.png)
+\[Omitted image "dynamic-choice-set-choices-example.png"\] Alt text: Choices in a choice set.
 
 ## What to do next
 

@@ -2,6 +2,7 @@
 title: Allow or restrict access to custom tables in mobile data items
 description: Use system properties to control whether custom tables are available when creating or modifying data items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-allow-custom-tables.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: admin
 
 3.  To permit access to custom tables for data items, set the **Value** field to `false`, otherwise, set the value to `true`.
 
-    This system property is in the global scope. If you are not in the global scope, you see a prompt at the top of the page. Click the **here** link to edit the property.![Out of scope edit warning](../image/scope-edit-warning.png)
+    This system property is in the global scope. If you are not in the global scope, you see a prompt at the top of the page. Click the **here** link to edit the property.\[Omitted image "scope-edit-warning.png"\] Alt text: Out of scope edit warning
 
 4.  Click **Update**.
 

@@ -2,10 +2,11 @@
 title: Retail
 description: The ServiceNow Retail product empowers managers and associates to manage daily retail operations by automating tasks and resolving issues quickly with self-service, freeing up time to serve customers. It enables seamless two-way communication and visibility between stores and HQ. It helps in delivering a great customer experience while enhancing staff productivity and reducing costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-operations-overview.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Retail
@@ -16,44 +17,48 @@ The ServiceNow® Retail product empowers managers and associates to manage daily
 
 <table id="table_t2v_qm1_qbc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about the benefits of Retail and how it's used.](rahi-retail-operations-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about the benefits of Retail and how it's used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-explore.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install Retail and configure your environment.](rahi-retail-operations-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install Retail and configure your environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-configuring.md)
 
 </td><td>
 
-[Manage customer complaints![](../../../reuse/icons/brand-icons/bus-manage.svg)Create, track, and close customer complaint cases in Workspace.](rahi-retail-manage-customer-complaints.md)
+[Manage customer complaints\[Omitted image "bus-manage.svg"\] Alt text:Create, track, and close customer complaint cases in Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-customer-complaints.md)
 
 </td></tr><tr><td>
 
-[Manage store inquiries![](../../../reuse/icons/brand-icons/bus-customer-service-agent.svg)Create, manage, track, and resolve the store inquiries through the retail portal, workspace, or mobile app.](rahi-retail-manage-store-inquiries.md)
+[Manage store inquiries\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Create, manage, track, and resolve the store inquiries through the retail portal, workspace, or mobile app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-inquiries.md)
 
 </td><td>
 
-[Track store inquiry cases![](../../../reuse/icons/brand-icons/bus-management-console.svg)Track store inquiry cases from the Retail portal.](rahi-retail-navigating-retail.md)
+[Track store inquiry cases\[Omitted image "bus-management-console.svg"\] Alt text:Track store inquiry cases from the Retail portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-navigating-retail.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Retail components such as fields, tables, and properties.](rahi-retail-operations-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Retail components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-operations-reference.md)
 
 </td></tr><tr><td>
 
-[Manage store plans![](../../../reuse/icons/brand-icons/bus-task-list.svg)Manage store plans to plan and schedule generation of cases and tasks](rahi-retail-manage-store-plans.md)
+[Manage store plans\[Omitted image "bus-task-list.svg"\] Alt text:Manage store plans to plan and schedule generation of cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-manage-store-plans.md)
 
 </td><td>
 
-[Track and monitor store plans![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Track and monitor store plans from the workspace.](track-monitor-store-plans.md)
+[Track and monitor store plans\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Track and monitor store plans from the workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/track-monitor-store-plans.md)
 
 </td><td>
 
-[Now assist for Retail![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use Now Assist for Retail to enhance user productivity and efficiency through proactive experiences using generative AI.](rahi-retail-now-assist-for-retail.md)
+[Now assist for Retail\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use Now Assist for Retail to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-now-assist-for-retail.md)
 
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>## Additional resources
 
--   [Ask questions and explore other resources for Retail Operations in the ServiceNow Community](https://www.servicenow.com/community/)
+-   Learn more about what's new and changed in this release at [Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/retail-rn.md).
+-   Log into your ServiceNow account and find additional information about implementing and deploying Financial Services Operations features at [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
+-   Work with an implementation specialist to streamline your Financial Services Operations setup process. To learn more, see the [ServiceNow Impact](https://www.servicenow.com/success.html).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=a4d172da47f33658db63fb25126d43e8&s=1&ssa=3).
+-   Connect with other Retail users in the [Retail and Hospitality community forum](https://www.servicenow.com/community/retail-hospitality/ct-p/industry-retail-hospitality).
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 

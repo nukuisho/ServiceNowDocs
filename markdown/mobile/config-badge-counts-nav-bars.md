@@ -2,6 +2,7 @@
 title: Configure badge counts on navigation bars
 description: Configure navigation bar launcher screen tabs and screen tabs to display badge counts. These badge counts indicate how many rows in the Badge Count \[sys\_sg\_badge\_count\] table match a condition that you can configure. For example, how many work orders are waiting for your attention or how many new and unread Sidebar messages have been received.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/config-badge-counts-nav-bars.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +40,7 @@ Application
 
 Application scope.
 
- To change the application scope, select the globe icon \(![Globe icon](../image/globe-icon.png)\) on the banner and choose the appropriate application scope.
+ To change the application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe icon\) on the banner and choose the appropriate application scope.
 
 </td></tr><tr><td>
 
@@ -85,7 +86,7 @@ Component
 
 The component on which the badge count is displayed. In this case, it is the navigation bar tab on which you want the badge count to appear.
 
- Select the search icon \(![Magnifying glass search icon](../image/search-icon.png)\) and select a component.
+ Select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Magnifying glass search icon\) and select a component.
 
 </td></tr><tr><td>
 

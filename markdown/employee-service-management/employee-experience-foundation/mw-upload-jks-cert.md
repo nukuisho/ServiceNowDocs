@@ -2,6 +2,7 @@
 title: Upload Java KeyStore certificate
 description: Upload a Java KeyStore certificate and specify the password that's sent in Moveworks encrypted email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Ensure you have the encrypted email from Moveworks to set up secure connection.
 
 You can generate a self-signed JWT certificate \(valid for 2 years\) for use with Moveworks for Web. For more information, see [JWT Certificate Generation Guide \(Mac and Windows\)](https://docs.moveworks.com/ai-assistant/ai-assistant-web-surfaces/moveworks-for-web/moveworks-for-web-installation-servicenow#jwt-certificate-generation-guide-mac--windows)
 
-**Note:** You must've purchased Moveworks and implemented it for the self-signing to work.
+**Note:** You must have purchased Moveworks and implemented it for the self-signing to work.
 
 Role required: admin or OAuth admin
 
@@ -33,17 +34,15 @@ Certificate authentication creates encrypted communication between your ServiceN
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Certificates**.
 
-2.  Search for **moveworks.jks** in the certificate list.
-
-    ![Moveworks JKS](../images/mw-jks-key.png "Moveworks JKS certificate")
+2.  Search for **moveworks JKS** in the certificate list.
 
 3.  Open the certificate record and upload the certificate file.
 
-    1.  Select the **Manage Attachments** \(![](../../workplace-central/images/attachment-icon.png)\) icon.
-    2.  Upload your **moveworks.jks** file.
+    1.  Select the **Manage Attachments** \(\[Omitted image "attachment-icon.png"\]\) icon.
+    2.  Upload your **moveworks JKS** file.
 4.  Enter the password in the **Key Store Password** field.
 
-    ![Validate Stores and certificates](../images/mw-jks-certificate.png "JKS password")
+    \[Omitted image "mw-jks-certificate.png"\] Alt text: Validate Stores and certificates
 
     **Note:** This password you receive from Moveworks team.
 
@@ -57,13 +56,15 @@ Certificate authentication creates encrypted communication between your ServiceN
 
     1.  In the Signing configuration field, verify if `Moveworks JWT Provider` is selected.
 
-    2.  Select the info icon \(![preview icon](../../wsd-reservation-management/image/info-icon.png)\).
+    2.  Select the info icon \(\[Omitted image "info-icon.png"\] Alt text: preview icon\), select **Open Record** in the pop-up, and select Global scope.
 
-    3.  Select **Open Record** in the pop-up.
+        \[Omitted image "mw-jws-key.png"\] Alt text: movdworks JWT key password
 
-    4.  In the Moveworks JWT key window, enter the same **Key Store Password** in the **Signing Key** field.
+    3.  In the Moveworks JWT key window, enter the same **Key Store Password** in the **Signing Key** field.
 
 7.  Select **Save** or **Update**.
+
+    For more information, see [Partner-Specific ServiceNow Updates](https://docs.moveworks.com/ai-assistant/getting-started/labs/partner-demo-guide/employeeworks-installation-guide-errata#partner-specific-servicenow-updates).
 
 
 ## Result
@@ -77,5 +78,5 @@ Proceed to add bot ID to complete the Moveworks AI assistant setup.
 **Related topics**  
 
 
-[Moveworks for Employee Center reference](../reference/mw-ec-integration-reference.md)
+[Moveworks for Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
 

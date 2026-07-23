@@ -2,6 +2,7 @@
 title: Complete predefined customer engagement tasks
 description: Execute predefined sequence steps in your sequence tasks in the CSM Configurable Workspace to engage with your prospective customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/execute-sequence-steps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: Sequence executor \[sn\_crm\_sequence.executor\]
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Sequences** &gt; **My Sequence Tasks**.
 
@@ -35,7 +36,7 @@ Role required: Sequence executor \[sn\_crm\_sequence.executor\]
 
     1.  Go to the **Details** tab.
 
-    2.  Select the Open record icon ![](../../../reuse/icons/product-icons/circle-info-outline-24.svg) next to the **Sequence** field and select **Open record**.
+    2.  Select the Open record icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: next to the **Sequence** field and select **Open record**.
 
         The associated sequence record opens in a new tab.
 
@@ -48,10 +49,10 @@ Role required: Sequence executor \[sn\_crm\_sequence.executor\]
     The sequence is marked as Completed when you finish all activities in the sequence task.
 
 
-**Parent Topic:**[Using Customer Engagement Sequences](../concept/using-customer-engagement-sequences.md)
+**Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-customer-engagement-sequences.md)
 
 **Related topics**  
 
 
-[Fulfill a telesales sequence](complete-telesales-sequences.md)
+[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/complete-telesales-sequences.md)
 

@@ -2,6 +2,7 @@
 title: Using the Capacity Console
 description: The Capacity Console is a tool designed for monitoring, managing, and optimizing resource capacities across territories and demand channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/capacity-and-reservation-management-console.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -17,17 +18,17 @@ The Capacity Console is a tool designed for monitoring, managing, and optimizing
 
 It provides an intuitive, visual representation of capacity utilization, empowering capacity planners to make data-driven decisions and improve operational efficiency.
 
-**Note:** To use Capacity Console, you must activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin. For more information, see [Activate Field Service Capacity console](../task/capacity-console-plugin.md).
+**Note:** To use Capacity Console, you must activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin. For more information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
 
 -   **Comprehensive capacity view**
 
     The Capacity Console offers a detailed and visual overview of capacity utilization. Key views include:
 
     -   Territory view:
-        -   Displays resource capacity data for specific territories, with impacted demand channels listed underneath. For more information, see [Create a Field Service territory](../task/create-territories-territory-planning-console.md).
+        -   Displays resource capacity data for specific territories, with impacted demand channels listed underneath. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
         -   Provides insights into planned, allocated, and forecasted capacities.
     -   Demand channel view:
-        -   Highlights demand channels at the top, with impacted territories listed underneath. For more information, see [Create a demand channel](../task/create-a-demand-channel.md).
+        -   Highlights demand channels at the top, with impacted territories listed underneath. For more information, see [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md).
         -   Offers visibility into demand channels and their associated capacities.
 -   **Customizing the Capacity Console**
 
@@ -43,7 +44,7 @@ It provides an intuitive, visual representation of capacity utilization, empower
     -   Save filter preferences: Save your chosen filter settings for quick and easy access in future sessions.
     -   Customize calendar capacity data parameters: Update the calendar to prioritize specific metrics:
         -   Replace existing metrics \(for example, "Used Capacity" with "Unused Capacity"\).
-        -   Add new fields using the **Application Field Set**: Capacity Console events fields. For more information, see [Activate Field Service Capacity console](../task/capacity-console-plugin.md).
+        -   Add new fields using the **Application Field Set**: Capacity Console events fields. For more information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
 -   **Refining data with the filters**
 
     Customizable filters at the top of the console enable for tailored data views.
@@ -82,16 +83,16 @@ The following snapshot illustrates the Capacity Console, showcasing:
 -   Demand channels \(for example, Copper Install and Copper Repair\).
 -   Weekly capacity metrics, including demand, allocated capacity, and unused capacity.
 
-![Capacity Console showing territories like Aurora and Chicago across demand channels with a week-view of capacity metrics.](../image/capacity-console.png)
+\[Omitted image "capacity-console.png"\] Alt text: Capacity Console showing territories like Aurora and Chicago across demand channels with a week-view of capacity metrics.
 
 **Related topics**  
 
 
-[Capacity Console](capacity-console.md)
+[Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/capacity-console.md)
 
-[View data in capacity console](../task/view-territory-summary-from-capacity-console.md)
+[View data in capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/view-territory-summary-from-capacity-console.md)
 
-[View territory and demand channel summary in the contextual side panel](../task/view-territory-summary-in-capacity-console.md)
+[View territory and demand channel summary in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/view-territory-summary-in-capacity-console.md)
 
-[Update capacity value and reservation for a territory in capacity console](../task/update-reservation-rule-in-capacity-console.md)
+[Update capacity value and reservation for a territory in capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/update-reservation-rule-in-capacity-console.md)
 

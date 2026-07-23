@@ -2,13 +2,14 @@
 title: Observables
 description: Observables represent stateful properties \(such as the MD5 hash of a file or the value of a registry key\) or measurable events \(such as the creation of a registry key or the deletion of a file\) that are pertinent to the operation of computers and networks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/observables.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Observables
@@ -44,49 +45,49 @@ Following are the type of observables available in the application:
 -   Windows Registry Key
 -   X.509 Certificate
 
--   **[Define an Observable](../task/define-an-observable.md)**  
+-   **[Define an Observable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-an-observable.md)**  
 Observables can be retrieved from scheduled feed ingestion or from the import assistant. However, you can create observables, as needed.
--   **[Observables source records](../task/tisc-observables-source-records.md)**  
+-   **[Observables source records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-observables-source-records.md)**  
 The source records contribute to an aggregated record as displayed in the form view. These source records are auto created from feeds or manually created by the user.
--   **[Link Threat Intel Related Records](../task/link-threat-intel-releated-records.md)**  
+-   **[Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md)**  
 Link the records that are related to the corresponding threat intelligence objects.
--   **[Fetch Observables Data](../task/fetch-observables-data.md)**  
+-   **[Fetch Observables Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/fetch-observables-data.md)**  
 Fetch the observables related records data.
--   **[View details in Visualizer](objects-visualizer.md)**  
+-   **[View details in Visualizer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/objects-visualizer.md)**  
 Using the Visualizer, you can view the relationships between objects, observables and indicators which provides context for you to further investigate. The Visualizer uses colors and icons to illustrate various information about the objects.
--   **[Working with Internal Intelligence Records](working-with-ti-internal-intelligence-records.md)**  
+-   **[Working with Internal Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/working-with-ti-internal-intelligence-records.md)**  
 Use this feature to work with the internal intelligence data that is collected from Configuration Database Management System \(CMDB\) into Threat Intelligence Security Center.
--   **[Run Enrichment Actions from Observable](../task/run-enrichment-actions-from-observable.md)**  
+-   **[Run Enrichment Actions from Observable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/run-enrichment-actions-from-observable.md)**  
 Use this section to understand how enrichments actions are performed on observables and other objects.
--   **[Add to Case](../task/add-to-case.md)**  
+-   **[Add to Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/add-to-case.md)**  
 Add observables, indicators, or other objects to the case.
--   **[Run Enrichment operations in TISC](../task/tisc-unified-experience-capabilities-and-modal-screens.md)**  
+-   **[Run Enrichment operations in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-unified-experience-capabilities-and-modal-screens.md)**  
 The following table below describes the interactions involved in running different enrichment operations from TISC.
--   **[View Enrichment Results](../task/vtisc-iew-enrichment-results.md)**  
+-   **[View Enrichment Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 View observables, indicators, and various objects enrichment results.
 
-**Parent Topic:**[TISC Library Repository](tisc-ioc.md)
+**Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ioc.md)
 
 **Related topics**  
 
 
-[Indicators](indicator.md)
+[Indicators]()
 
-[Threat Entities](tisc-threat-entities.md)
+[Threat Entities]()
 
-[Other Objects](tisc-other-objects.md)
+[Other Objects]()
 
-[Vulnerability Artifacts](vulnerability.md)
+[Vulnerability Artifacts]()
 
-[View RSS Feeds](../task/define-rss-feeds.md)
+[View RSS Feeds]()
 
-[Working with Reports in TISC](tisc-reports-lib-view.md)
+[Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository](tisc-mitre-att-ck-framework-overview.md)
+[MITRE-ATT&amp;CK Repository]()
 
-[Relationships Objects](relationship-objects.md)
+[Relationships Objects]()
 
-[Potential Relationships](potential-relationships.md)
+[Potential Relationships]()
 
-[Vulnerability relationship mapping](tisc-vul-relationship-map.md)
+[Vulnerability relationship mapping]()
 

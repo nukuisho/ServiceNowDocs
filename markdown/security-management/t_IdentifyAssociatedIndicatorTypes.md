@@ -2,6 +2,7 @@
 title: Identify associated indicator types
 description: If an IoC has no associated indicator types defined, it tracks all types of observables. However, if you associate one or more types of indicators to an IoC, it limits the types of observables that can be associated with the IoC.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/t\_IdentifyAssociatedIndicatorTypes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,18 +35,18 @@ Role required: sn\_ti.write
 7.  Click **Save**.
 
 
-**Parent Topic:**[Indicators of compromise](../concept/c_IoCs.md)
+**Parent Topic:**[Indicators of compromise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/c_IoCs.md)
 
 **Related topics**  
 
 
-[View an IoC](t_AddIoCs.md)
+[View an IoC]()
 
-[Add a related observable to an IoC](t_AddObservToIoC.md)
+[Add a related observable to an IoC]()
 
-[Add a related attack mode/method to an IoC](t_AddRelatedAttackModeToIoc.md)
+[Add a related attack mode/method to an IoC]()
 
-[Identify indicator sources](t_IdentifyIndicatorSources.md)
+[Identify indicator sources]()
 
-[Add associated tasks to an IoC](t_AddAssociatedTasksToIoC.md)
+[Add associated tasks to an IoC]()
 

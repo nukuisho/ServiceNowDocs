@@ -2,6 +2,7 @@
 title: Link button widget
 description: The Link Button widget is a button you can nest in any other widget that links to another destination. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/link-button-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -15,7 +16,7 @@ breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring 
 
 The Link Button widget is a button you can nest in any other widget that links to another destination. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-![Link Button widget with Ask a Question as an example](../image/WidgetLinkButton.png "Link Button widget")
+\[Omitted image "WidgetLinkButton.png"\] Alt text: Link Button widget with Ask a Question as an example
 
 ## Instance options
 
@@ -25,14 +26,14 @@ The Link Button widget is a button you can nest in any other widget that links t
 |Link for button|Page that the button links to. Use ?id=&lt;page\_name&gt; to link to another page in the portal.|
 |Contents of button|The button text.|
 
-**Parent Topic:**[Example widgets](sp-example-widgets.md)
+**Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-example-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

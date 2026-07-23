@@ -2,6 +2,7 @@
 title: Record time worked for a case or activity
 description: Customer service agents can record time worked on a case or case task as well as time spent on other activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cust-service-agent-record-time.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ When an agent creates a time worked record, a time card and time sheet are autom
 
 1.  To record time worked from a Case form or Case Task form.
 
-<table id="choicetable_wwf_xcz_jjb"><tbody><tr><td id="d116254e90">
+<table id="choicetable_wwf_xcz_jjb"><tbody><tr><td id="d119561e90">
 
 **Platform interface**
 
@@ -35,13 +36,13 @@ When an agent creates a time worked record, a time card and time sheet are autom
 
 Navigate to a case or task and select **Record Time**.
 
-</td></tr><tr><td id="d116254e102">
+</td></tr><tr><td id="d119561e102">
 
 **Agent Workspace**
 
 </td><td>
 
-Navigate to a case or task, select the more UI actions icon \(![More UI Actions icon.](../image/agent-workspace-more-ui-actions-icon.jpg)\), and select **Record Time**.
+Navigate to a case or task, select the more UI actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\), and select **Record Time**.
 
 </td></tr></tbody>
 </table>    This action opens a Time Worked form with the **Task** and **User** fields already populated.
@@ -64,7 +65,7 @@ Navigate to a case or task, select the more UI actions icon \(![More UI Actions 
 
 7.  Select one of the following actions.
 
-<table id="choicetable_lzj_xhz_acm"><tbody><tr><td id="d116254e220">
+<table id="choicetable_lzj_xhz_acm"><tbody><tr><td id="d119561e220">
 
 **Platform interface**
 
@@ -72,7 +73,7 @@ Navigate to a case or task, select the more UI actions icon \(![More UI Actions 
 
 Select **Submit**.
 
-</td></tr><tr><td id="d116254e232">
+</td></tr><tr><td id="d119561e232">
 
 **Agent Workspace**
 

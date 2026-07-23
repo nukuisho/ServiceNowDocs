@@ -2,6 +2,7 @@
 title: Install a Security Operations integration
 description: All ServiceNow integrations are available on the ServiceNow Store. Core applications, such as Security Incident Response, are visible in the ServiceNow Products tab on the store. Integration add-ons are visible in the Certified Apps tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/install-non-core-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,21 +28,21 @@ Store installations require a Now Support account and permission to request appl
 
     **Note:**
 
-    ![Configuration tiles for integrations](../image/config_tiles.png)
+    \[Omitted image "config\_tiles.png"\] Alt text: Configuration tiles for integrations
 
 2.  Locate the integration you want to install and click **Configure**.
 
     The selected integration is shown in the ServiceNow Store
 
-    ![Store application](../image/palo_alto.png)
+    \[Omitted image "palo\_alto.png"\] Alt text: Store application
 
 3.  Click **View Dependencies** and review the app dependencies listed.
 
-    ![Dependency Notice](../image/dependency-notice-palo-alto.png)
+    \[Omitted image "dependency-notice-palo-alto.png"\] Alt text: Dependency Notice
 
 4.  If the integration has any core application dependencies, such as Security Incident Response, to which your company is not yet entitled:
 
-    1.  [Follow these instructions to obtain entitlements, download dependency plugins, and activate the applications](../reference/download-app-first-time.md).
+    1.  [Follow these instructions to obtain entitlements, download dependency plugins, and activate the applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
 
     2.  Return to this procedure.
 
@@ -55,7 +56,7 @@ Store installations require a Now Support account and permission to request appl
 
     A Purchase screen similar to the following opens.
 
-    ![Purchase screen](../image/integration-purchase.png)
+    \[Omitted image "integration-purchase.png"\] Alt text: Purchase screen
 
 7.  Identify which instances you want the integration to be available on, manage your notifications, and select the **ServiceNow Store Addendum** check box.
 

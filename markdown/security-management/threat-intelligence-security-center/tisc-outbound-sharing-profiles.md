@@ -2,6 +2,7 @@
 title: Configuring Outbound Intel Sharing Profiles
 description: Use this section to create new Outbound Intelligence Profiles. The outbound intelligence profiles specify the endpoint details to which threat intelligence data is sent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-outbound-sharing-profiles.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -139,20 +140,20 @@ Any headers to be passed with the requests can be provided for the outbound inte
 8.  Additionally, select **Disable** to disable the profile if it is not needed for sharing intelligence.
 
 
-**Parent Topic:**[Exploring Outbound Intel Sharing](../concept/tisc-outbound-intel-sharing.md)
+**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
 
 **Related topics**  
 
 
-[Configuring Outbound Intel Sharing Controls](tisc-outbound-sharing.md)
+[Configuring Outbound Intel Sharing Controls]()
 
-[Configuring Outbound Intel Data Exclusion Rule](tisc-outbound-data-exclusion.md)
+[Configuring Outbound Intel Data Exclusion Rule]()
 
-[Configuring Outbound Intel Sharing Groups](tisc-config-inbound-sharing-groups.md)
+[Configuring Outbound Intel Sharing Groups]()
 
-[Defining Approval Rule for Outbound Intel](tisc-approval-outbound-intel.md)
+[Defining Approval Rule for Outbound Intel]()
 
-[Configuring Outbound Intel Sharing Templates](tisc-intel-sharing-templates.md)
+[Configuring Outbound Intel Sharing Templates]()
 
-[Working on the Redaction Library](tisc-redaction-library.md)
+[Working on the Redaction Library]()
 

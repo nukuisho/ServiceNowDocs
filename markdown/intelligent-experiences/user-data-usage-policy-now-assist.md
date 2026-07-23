@@ -2,9 +2,10 @@
 title: User data usage policy for Now Assist
 description: Now Assist is designed to keep user data safe and secure. You can also mask sensitive data or opt-out of sharing data for model improvements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/user-data-usage-policy-now-assist.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, user, data, usage, policy, mask sensitive data, data sharing]
 breadcrumb: [Now Assist reference, Now Assist, Enable AI experiences]
@@ -30,7 +31,7 @@ Further, to confirm quality of service, ServiceNow might use Azure-hosted GPUs f
 
 ## Mask sensitive data
 
-Sensitive data can be masked before sending it to LLMs using Now Assist for Data Privacy. To learn more, see [Configuring Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md).
+Sensitive data can be masked before sending it to LLMs using Now Assist for Data Privacy. To learn more, see .
 
 After you enable the plugin, it’s designed to mask sensitive data before it’s sent to the LLM, but could result in less accurate results because the specific data isn’t included within the prompt.
 
@@ -44,7 +45,7 @@ ServiceNow might use Retrieval Augmented Generation \(RAG\) for selected AI feat
 
 Data Sharing helps ServiceNow to continuously advance and improve its Now LLMs, based on the latest customer usage. If you no longer want to participate in the customer data-sharing program, you’re able to opt out.
 
-To opt out, follow the instructions in [Opt out of data sharing for Now Assist](../task/opt-out-of-data-sharing-for-now-assist.md).
+To opt out, follow the instructions in [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-**Parent Topic:**[Now Assist reference](../reference/now-assist-reference-landing.md)
+**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-reference-landing.md)
 

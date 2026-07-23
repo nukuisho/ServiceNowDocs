@@ -2,11 +2,12 @@
 title: HR Service Delivery Integration with Cornerstone OnDemand
 description: The ServiceNow HR Service Delivery Integration with Cornerstone OnDemand application enables you to display relevant learning courses for employees as part of their To-do tasks in the ServiceNow Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-cornerstone-int.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -19,7 +20,7 @@ Cornerstone OnDemand is a learning system that hosts learning videos, training, 
 
 ## Setting up the application
 
-To set up the HR Service Delivery Integration with Cornerstone OnDemand application, you must first activate the HR Service Delivery Integration with Cornerstone OnDemand plugin \[sn\_hr\_cornerstone\] from ServiceNow Store. This plugin activates Cornerstone spoke in IntegrationHub and Enterprise Service Management Integrations Framework. Next you must set up the Cornerstone spoke in IntegrationHub. For details on how to complete the set up, refer to [Setting up HR Service Delivery Integration with Cornerstone OnDemand](../task/set-up-cornerstone.md).
+To set up the HR Service Delivery Integration with Cornerstone OnDemand application, you must first activate the HR Service Delivery Integration with Cornerstone OnDemand plugin \[sn\_hr\_cornerstone\] from ServiceNow Store. This plugin activates Cornerstone spoke in IntegrationHub and Enterprise Service Management Integrations Framework. Next you must set up the Cornerstone spoke in IntegrationHub. For details on how to complete the set up, refer to [Setting up HR Service Delivery Integration with Cornerstone OnDemand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-cornerstone.md).
 
 ## Using Enterprise Service Management Integrations Framework
 
@@ -37,15 +38,15 @@ On clicking the learning task in Employee Center, the employee is navigated to C
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation.](../task/set-up-cornerstone.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-cornerstone.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components like fields, tables, and properties.](../reference/reference-ondemand.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-ondemand.md)
 
 </td></tr></tbody>
 </table>## Additional resources

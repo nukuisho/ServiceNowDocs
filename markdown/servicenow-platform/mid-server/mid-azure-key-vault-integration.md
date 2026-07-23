@@ -1,7 +1,8 @@
 ---
 title: MID Server Azure Key Vault integration
-description: The MID Server integration with the Azure Key vault enables Orchestration, Discovery, and Service Mapping to run without storing any credentials on the instance.The MID Server integration with the Azure Key vault enables Orchestration, Discovery, and Service Mapping to run without storing any credentials on the instance.The MID Server supports specified credentials for integration with the Azure Key vault.
+description: The MID Server integration with the Azure Key vault enables Orchestration, Discovery, and Service Mapping to run without storing any credentials on the instance.The MID Server integration with the Azure Key vault enables Orchestration, Discovery, and Service Mapping to run without storing any credentials on the instance.The MID Server supports specific credential types for integration with Azure Key Vault. Each credential is stored as a secret and must be a valid JSON string matching a supported credential type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-azure-key-vault-integration.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -28,7 +29,9 @@ To install the required application on the instance, navigate to **Plugin Manage
 
 ## About this task
 
-When setting up access to the Azure Key Vault, the MID Server is either within the Azure environment or it is on an external virtual machine. This procedure covers setting up the Azure Key Vault for a MID Server within the Azure environment.
+When setting up access to the Azure Key Vault, the MID Server is either within the Azure environment or it is on an external virtual machine. An external virtual machine is any server that is not hosted in the Azure cloud environment, such as an on-premises server or a VM in another cloud provider. External virtual machines can't use Azure Managed Identity and must authenticate to Azure Key Vault using an App Registration with a client ID, tenant ID, and client secret or certificate.
+
+This procedure covers setting up the Azure Key Vault for a MID Server within the Azure environment.
 
 For more information about specific Azure and Azure Key Vault procedures, see the [Azure Key Vault documentation](https://learn.microsoft.com/en-us/azure/key-vault/).
 
@@ -51,38 +54,38 @@ For more information about specific Azure and Azure Key Vault procedures, see th
 7.  Set the resource to the key vault that you want to integrate with the MID Server.
 
 
-**Parent Topic:**[Securing and encrypting MID Server data](../concept/mid-server-security-encryption.md)
+**Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-security-encryption.md)
 
 **Related topics**  
 
 
-[MID Server certificate check policies](../concept/mid-security-checks.md)
+[MID Server certificate check policies]()
 
-[Encrypt or decrypt MID Server configuration file values](mid-server-manual-encryption.md)
+[Encrypt or decrypt MID Server configuration file values]()
 
-[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+[MID Server configuration file security]()
 
-[MID Server authentication credentials and SOAP requests](../concept/mid-authentication-soap-requests.md#)
+[MID Server authentication credentials and SOAP requests]()
 
-[MID Server unified key store](../concept/mid-unified-keystore.md#)
+[MID Server unified key store]()
 
-[Enable MID Server mutual authentication](install-mid-mutual-auth.md)
+[Enable MID Server mutual authentication]()
 
-[MID Server command audit log](../concept/mid-audit-log.md)
+[MID Server command audit log]()
 
-[Rekey a MID Server](t_RekeyAMIDServer.md)
+[Rekey a MID Server]()
 
-[Add SSL certificates for the MID Server](add-ssl-certificates.md#)
+[Add SSL certificates for the MID Server]()
 
-[Specify an external TrustStore for the MID Server](mid-external-truststore.md)
+[Specify an external TrustStore for the MID Server]()
 
-[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
+[MID Server SSH cryptographic algorithms]()
 
-[Attach a script file to a file synchronized MID Server](mid-server-script-attach.md#)
+[Attach a script file to a file synchronized MID Server]()
 
-[MID Server FIPS Enforced Mode](../concept/mid-fips-enforced.md#)
+[MID Server FIPS Enforced Mode]()
 
-[MID Server Governance](../concept/mid-timeout.md)
+[MID Server Governance]()
 
 ## Azure Key Vault Integration for External Virtual Machine MID Servers
 
@@ -98,7 +101,7 @@ When setting up access to the Azure Key Vault, the MID Server is either within t
 
 For more information about specific Azure and Azure Key Vault procedures, see the [Azure Key Vault documentation](https://learn.microsoft.com/en-us/azure/key-vault/).
 
-MID servers can use the Vault Credential Resolver to consume secrets directly from Vault for the purpose of performing discovery. The External Credential Storage and Management Application offers out-of-the-box integration to external credential providers. MID Servers support certificate-based authentication when connecting to Azure Key Vault. This provides a more secure and flexible way to authenticate, especially for enterprise environments that prefer certificate credentials over client secrets. For more information on managing certificates, see [MID Server unified key store](../concept/mid-unified-keystore.md#).
+MID servers can use the Vault Credential Resolver to consume secrets directly from Vault for the purpose of performing discovery. The External Credential Storage and Management Application offers out-of-the-box integration to external credential providers. MID Servers support certificate-based authentication when connecting to Azure Key Vault. This provides a more secure and flexible way to authenticate, especially for enterprise environments that prefer certificate credentials over client secrets. For more information on managing certificates, see [MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-unified-keystore.md).
 
 ### Procedure
 
@@ -128,7 +131,9 @@ MID servers can use the Vault Credential Resolver to consume secrets directly fr
 
 ## Supported Credentials for Azure Key Vault Integration
 
-The MID Server supports specified credentials for integration with the Azure Key vault.
+The MID Server supports specific credential types for integration with Azure Key Vault. Each credential is stored as a secret and must be a valid JSON string matching a supported credential type.
+
+Before creating secrets in Azure Key Vault, verify you have the appropriate permissions to create and manage secrets in your Key Vault instance. For instructions on creating and managing secrets, see the Microsoft Azure documentation.
 
 ### List of Credentials
 

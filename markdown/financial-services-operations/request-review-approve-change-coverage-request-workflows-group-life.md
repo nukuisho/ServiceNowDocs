@@ -2,6 +2,7 @@
 title: Request, review, and approve change membership request workflows
 description: Learn how agents, using the change member info workflows, resolve service requests for requesting, reviewing, and approving group life insurance member change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/request-review-approve-change-coverage-request-workflows-group-life.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Learn how agents, using the change member info workflows, resolve service reques
 
 The following diagram shows how the application helps agents resolve a change policy membership request.
 
-![Workflow that shows how a change membership request for a policy is resolved using the Group Life Servicing application. For the text description, refer to the workflow steps that follow.](../image/change-membership-workflow.png "Group Life Servicing - Change membership workflow example")
+\[Omitted image "change-membership-workflow.png"\] Alt text: Workflow that shows how a change membership request for a policy is resolved using the Group Life Servicing application. For the text description, refer to the workflow steps that follow.
 
 The insurance policy admin can review and customize this predefined flow based on the business needs of your organization.
 

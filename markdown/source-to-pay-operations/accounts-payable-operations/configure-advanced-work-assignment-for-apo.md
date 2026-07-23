@@ -1,19 +1,21 @@
 ---
 title: Configure Advanced Work Assignment for Accounts Payable Operations
-description: Configure AWA for APO to ensure that requests or queries received via email, chat, messenger are routed to the respective APO agents belonging to defined groups.
+description: Set up Advanced Work Assignment to automatically route Accounts Payable Operations requests from email, chat, and messenger to the appropriate agent groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-advanced-work-assignment-for-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, email ingestion, Advanced Work Assignment, AWA]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure Advanced Work Assignment for Accounts Payable Operations
 
-Configure AWA for APO to ensure that requests or queries received via email, chat, messenger are routed to the respective APO agents belonging to defined groups.
+Set up Advanced Work Assignment to automatically route Accounts Payable Operations requests from email, chat, and messenger to the appropriate agent groups.
 
 ## Before you begin
 
@@ -25,7 +27,7 @@ Role required: admin
 
 2.  Create a service channel to automatically route incoming work to agents.
 
-    For more information about creating service channels, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md) Service channels specific to Accounts Payable Operations are:
+    For more information about creating service channels, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-service-channel.md) Service channels specific to Accounts Payable Operations are:
 
     -   Invoice Inquiry Cases
     -   Chat
@@ -33,45 +35,45 @@ Role required: admin
 
     After you've created the service channel, do the following.
 
-    1.  Configure the agent capacity to determine the number of work items that can be assigned to agents belonging to a defined group. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-change-agent-capacity.md)
-    2.  Create or change an inbox layout to determine the information shown on work item cards displayed in an agent's inbox. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md)
-    3.  Create a work item size override if you want to calculate an agent's workload using a work item size other than the default. For more information on work item, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-work-item-size.md)
-    Define or modify a work item queue, which determines the work items to be routed automatically to agents assigned to a service channel. For more information on queues, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md)
+    1.  Configure the agent capacity to determine the number of work items that can be assigned to agents belonging to a defined group. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-change-agent-capacity.md)
+    2.  Create or change an inbox layout to determine the information shown on work item cards displayed in an agent's inbox. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-modify-inbox-layout.md)
+    3.  Create a work item size override if you want to calculate an agent's workload using a work item size other than the default. For more information on work item, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-modify-work-item-size.md)
+    Define or modify a work item queue, which determines the work items to be routed automatically to agents assigned to a service channel. For more information on queues, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md)
 
-3.  To assign queues, work items to agents, follow steps 3–5 from [Configure Advanced Work Assignment for Source-to-Pay Operations](../../sourcing-procurement-operations/task/configure-awa-spo.md).
+3.  To assign queues, work items to agents, follow steps 3–5 from [Configure Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-awa-spo.md).
 
 
--   **[Configure the Accounts Payable Operations queues](configure-the-account-payable-operation-queues.md)**  
-Configure AWA for Accounts Payable Operations queues so that email, chat, and requests raised by suppliers are routed to respective agents belonging to the Accounts Payable supplier group.
--   **[Configure Agent chat for Accounts Payable Operations](configure-agent-chat-for-accounts-payable-operations.md)**  
-Configure agent chat settings to interact with an Accounts Payable Operations agent.
+-   **[Configure the Accounts Payable Operations queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-the-account-payable-operation-queues.md)**  
+Configure Advanced Work Assignment queues to automatically route supplier communications, including email and chat to the appropriate accounts payable agents.
+-   **[Configure Agent chat for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configure-agent-chat-for-accounts-payable-operations.md)**  
+Configure agent chat settings in Accounts Payable Operations to enable AP agents to interact with suppliers through live chat.
 
-**Parent Topic:**[Use Accounts Payable Operations](../concept/use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Create a knowledge base article about invoice](create-knowledge-base-articles-for-invoices.md)
+[Create a knowledge base article about invoice]()
 
-[Invoice case categories and subcategories](../concept/working-with-cases.md)
+[Invoice case categories and subcategories]()
 
-[Using Invoice Case Management](../concept/use-invoice-case-mgmt.md)
+[Using Invoice Case Management]()
 
-[Using Accounts Payable Invoice Processing](../concept/use-ap-invoice-processing.md)
+[Using Accounts Payable Invoice Processing]()
 
-[Advanced Work Assignment in Accounts Payable Operations](../concept/advanced-work-assignment.md)
+[Advanced Work Assignment in Accounts Payable Operations]()
 
-[Using Advanced Work Assignment for Accounts Payable Operations](../concept/using-awa-for-apo.md)
+[Using Advanced Work Assignment for Accounts Payable Operations]()
 
-[Working with Advanced Work Assignment](working-with-advanved-work-assignment.md)
+[Working with Advanced Work Assignment]()
 
-[Interaction management in Accounts Payable Operations](../concept/interaction-record.md)
+[Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace](../concept/email-composer-apm-workspace.md)
+[Composing emails with predefined content from the Source-to-Pay Workspace]()
 
-[Universal Request in Accounts Payable Operations](../concept/universal-request-in-apo.md)
+[Universal Request in Accounts Payable Operations]()
 
-[Playbook for updating the invoice primary data](../concept/playbooks.md)
+[Playbook for updating the invoice primary data]()
 
-[Using Supplier Collaboration Portal in APO](../concept/using-supplier-collaboration-portal.md)
+[Using Supplier Collaboration Portal in APO]()
 

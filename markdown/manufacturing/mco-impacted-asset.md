@@ -2,11 +2,12 @@
 title: Create an impacted asset
 description: Identify an impacted asset that must be replaced or recalled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-impacted-asset.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for my campaigns, Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create an impacted asset
@@ -35,6 +36,4 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 4.  Select **Save**.
 
-
-**Parent Topic:**[Related lists for my campaigns](../concept/mco-related-list-for-my-campaigns.md)
 

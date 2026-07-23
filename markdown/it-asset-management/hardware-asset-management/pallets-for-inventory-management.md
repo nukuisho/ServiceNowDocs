@@ -2,92 +2,97 @@
 title: Manage your inventory through pallet assets
 description: Manage your inventory effectively using pallet assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/pallets-for-inventory-management.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage your inventory through pallet assets
 
 Manage your inventory effectively using pallet assets.
 
--   **[Create pallet assets](../task/create-pallet-assets.md)**  
+-   **[Create pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-pallet-assets.md)**  
 Create a pallet asset from the Asset estate view in the Hardware Asset Workspace to track and manage assets in the inventory.
--   **[Add assets to a pallet](../task/add-assets-to-pallet.md)**  
+-   **[Add assets to a pallet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/add-assets-to-pallet.md)**  
 Add base, hardware, bundle, consumable, and other pallet assets to an in-stock pallet to track and manage the assets in a stockroom as a group.
--   **[Remove assets from a pallet](../task/remove-assets-from-pallet.md)**  
+-   **[Remove assets from a pallet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/remove-assets-from-pallet.md)**  
 Remove the assets contained in a pallet when you don't need to track and manage them using pallets.
--   **[Delete pallet assets](../task/delete-pallet-assets.md)**  
+-   **[Delete pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/delete-pallet-assets.md)**  
 Delete a pallet asset when no assets are associated with it.
--   **[Using pallet assets for managing inventory](using-pallet-assets-for-inventory-mgmt.md)**  
+-   **[Using pallet assets for managing inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-pallet-assets-for-inventory-mgmt.md)**  
 You can add a pallet with the assets contained in it to transfer orders and disposal orders to manage your inventory effectively.
 
-**Parent Topic:**[Using Hardware Asset Management](using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization](Work-with-hardware-normalization.md)
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
 
-[Manage asset bundles from your inventory](../task/create-bundled-assets.md)
+[Work with hardware normalization]()
 
-[Manage loaner assets](../task/manage-loaner-asset.md)
+[Manage asset bundles from your inventory]()
 
-[Donate assets to charity organizations](donate-asset-to-charity-organizations.md)
+[Manage loaner assets]()
 
-[Use Advanced Shipment Notification](../task/advanced-shipment-notification.md)
+[Donate assets to charity organizations]()
 
-[Manage RMA requests](manage-rma-req.md)
+[Use Advanced Shipment Notification]()
 
-[Create an inventory stock order request](../task/create-inventory-stock-order.md)
+[Manage RMA requests]()
 
-[Create a disposal order](../task/create-disposal-order.md)
+[Create an inventory stock order request]()
 
-[Use a hardware asset request flow](../task/hardware-request-flow.md)
+[Create a disposal order]()
 
-[Audit hardware asset inventory](ham-inventory-audit.md)
+[Fulfilling hardware asset requests]()
 
-[Request a Hardware Asset Refresh](../task/hardware-asset-refresh.md#)
+[Audit hardware asset inventory]()
 
-[Manage your expiring contracts for leased hardware assets](../task/manage-your-leased-hw-asts-expiring-contract.md)
+[Request a Hardware Asset Refresh]()
 
-[Reclaim hardware assets](manage-asset-reclaim.md)
+[Manage your expiring contracts for leased hardware assets]()
 
-[View RFID information of assets](../task/view-rfid-info.md)
+[Reclaim hardware assets]()
 
-[Manage the lifecycle of hardware models with calculated lifecycle templates](manage-ham-lifecycle-temp.md)
+[View RFID information of assets]()
 
-[Receive asset warranty details from Lenovo](receive-warranty-details-lenovo.md)
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
-[Manage stockrooms](manage-your-stockrooms.md)
+[Create an internal lifecycle in the Hardware Asset Workspace]()
 
-[Track shipments using the integration framework](tracking-shipments-using-integration-framework.md)
+[Receive asset warranty details from Lenovo]()
 
-[Track asset location using indoor maps](../task/track-asset-location-using-indoor-maps.md)
+[Manage stockrooms]()
 
-[Assess performance of Hardware Asset Management](suc-goal-act-hw.md)
+[Track shipments using the integration framework]()
 
-[Manage refresh of assets using Zero Touch Refresh](refresh-hardware-uisng-ztr.md)
+[Track asset location using indoor maps]()
 
-[Configure the Total Cost of Ownership of assets](configure-ham-tco.md)
+[Assess performance of Hardware Asset Management]()
 
-[Manage Hardware Asset Management subscriptions](managing-ham-subscriptions.md)
+[Manage refresh of assets using Zero Touch Refresh]()
 
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](manage-repair-of-defective-ham-assets.md)
+[Configure the Total Cost of Ownership of assets]()
 
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](manage-asset-picking-stockroom-ham-ws.md)
+[Manage Hardware Asset Management subscriptions]()
 
-[Manage hardware asset tasks using the Mobile Agent application](manage-hardware-asset-tasks-mobile-agent.md)
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
 
-[Manage asset put away using the Hardware Asset Workspace](manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
 
-[Audit your hardware assets by using Asset Attestation](audit-hardware-assets-attestation.md)
+[Manage hardware asset tasks using the Mobile Agent application]()
 
-[Acknowledge receipt of assets on the Employee Center portal](../task/receive-assets-employee-center.md)
+[Manage asset put away using the Hardware Asset Workspace]()
 
-[Update associated Decision tables for HAM flows](../task/trigger-flow-ham.md)
+[Audit your hardware assets by using Asset Attestation]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
 

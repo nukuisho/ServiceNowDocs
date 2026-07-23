@@ -2,6 +2,7 @@
 title: Copy a flow or subflow in Oracle Financial Cloud
 description: You can create a copy of the a flow or subflow and make the necessary modifications. Use the following steps to activate a flow or subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/copy-flow-subflow-oracle-fin-cloud.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -31,22 +32,23 @@ Role required: sn\_fcms\_intg.integration\_user
 
     **Important:** Perform this step only if you plan to customize or make specific changes to the flow.
 
-    ![Copy a flow or subflow in Oracle Financial Cloud](../../source-to-pay-operations/image/oracle-fin-copy-subflow.png "Copy a flow or subflow in Oracle Financial Cloud")
+    \[Omitted image "oracle-fin-copy-subflow.png"\] Alt text: Copy a flow or subflow in Oracle Financial Cloud
 
 5.  Activate the flow or subflow.
 
     -   Make sure that the flow or subflow is available and activated on the base system.
     -   Activate the copied flow after making the required changes.
-6.  Use the **Trigger Condition** for the flow or subflow.
+6.  Use the Subflow **Inputs &amp; Outputs** for providing your inputs and outputs as per your requirements.
 
-    This flow or subflow is triggered and associated with the purchase order when the following conditions are met:
+    **Note:**
 
-    -   **Legal entity . ERP source . Active** is **true**.
-    -   **Legal entity . ERP source . ERP Source** is **not empty**.
-    -   **Status** is **Pending Submission**
-    **Note:** Do not modify the trigger condition.
+    -   Don't modify the trigger condition.
+    -   Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md)
+7.  Select **Done**.
 
-    **Note:** Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../concept/s2p-transform-maps-flows.md)
+8.  Select **Publish** to publish the subflow.
+
+9.  Select **Publish** again to confirm the publication of the subflow.
 
     You have successfully copied and executed the flow.
 

@@ -2,13 +2,14 @@
 title: Roles and permissions matrix
 description: Learn about the roles required to access each UI Generation feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/roles-and-permissions-matrix.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Reference, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Reference, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Roles and permissions matrix
@@ -36,7 +37,7 @@ The ui\_builder\_admin role is the primary role for using Now Assist UI Generati
 
     Primary role for UI Generation. Contains ui\_interaction\_admin, canvas\_user, and workspace\_admin as sub-roles.
 
-    For more information, see [UI generation roles](ui-generation-roles.md) and [Grant UI Builder admin role](../task/grant-ui-builder-admin-role.md).
+    For more information, see [UI generation roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ui-generation-roles.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/grant-ui-builder-admin-role.md).
 
 -   **workspace\_admin**
 
@@ -47,5 +48,5 @@ The ui\_builder\_admin role is the primary role for using Now Assist UI Generati
     Full instance administration, including system properties management and role assignment.
 
 
-**Parent Topic:**[UI generation reference](../concept/ui-generation-reference.md)
+**Parent Topic:**[UI generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ui-generation-reference.md)
 

@@ -2,6 +2,7 @@
 title: Configuring FX Currency global settings
 description: Before setting up and using FX Currency, review the related system properties to confirm or modify its default behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/fx-currency-configure.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The global defaults you establish in system properties apply the configuration option to all FX Currency fields. You can then customize them for specific dictionary attributes in **System Localization** &gt; **FX Currency Configuration.** When you create a currency configuration, it applies those settings only to the FX Currency field that you add it to. To learn more about FX Currency configurations, see [Configuring FX Currency field behavior](../concept/configure-fx-currency-field-behavior.md).
+The global defaults you establish in system properties apply the configuration option to all FX Currency fields. You can then customize them for specific dictionary attributes in **System Localization** &gt; **FX Currency Configuration.** When you create a currency configuration, it applies those settings only to the FX Currency field that you add it to. To learn more about FX Currency configurations, see [Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
 
 FX Currency configuration settings for specific FX Currency fields take precedence over system properties. Administrators can set a global configuration for a property, and then apply exceptions on a field-by-field basis.
 
@@ -98,7 +99,7 @@ conversion\_rate\_table
 Conversion rate table used to perform currency conversions. By default, the source for currency conversions is the System Currency Conversion Rate \[fx\_system\_rate\] table, which stores the daily reference rates retrieved from the European Central Bank. If you have defined a custom rate table, you can change the rate table used in currency conversions. -   **Type**: String
 -   **Default value**: fx\_system\_rate
 -   **Available options**: Any table that extends the **Currency Conversion Rate** table \[fx\_conversion\_rate\]
--   **Learn more**: [Understanding how FX Currency field conversions work](../concept/fx-currency-conversions.md)and [Default currency conversions](../concept/currency-conversions.md)
+-   **Learn more**: [Understanding how FX Currency field conversions work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-conversions.md)and [Default currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency-conversions.md)
 -   **Develop**: [GlideCurrencyConverter](https://developer.servicenow.com/go_to_api.do?ID=GlideCurrencyConverterScopedAPI&v=kingston) [GlideCurrencyExchangeValue](https://developer.servicenow.com/go_to_api.do?ID=GlideCurrencyExchangeValueScopedAPI&v=kingston)
 
 
@@ -117,22 +118,22 @@ Three-digit ISO currency code used for the reference currency. The default refer
 
 If set to false, the system locale is the default.
 
--   **Learn more**: [Session and reference currency](../concept/session-and-reference-currency.md)
+-   **Learn more**: [Session and reference currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/session-and-reference-currency.md)
 -   **Develop**: [GlideElementCurrency2](https://developer.servicenow.com/go_to_api.do?ID=GlideElementCurrency2API&v=kingston)
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up defaults required for FX Currency use](../concept/setting-up-defaults-fx-currency-use.md)
+**Parent Topic:**[Setting up defaults required for FX Currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/setting-up-defaults-fx-currency-use.md)
 
 **Related topics**  
 
 
-[Add conversion rates using a custom rate table](custom-rate-table.md)
+[Add conversion rates using a custom rate table]()
 
-[Add an FX Currency field to a table](add-fx-currency-field-table.md)
+[Add an FX Currency field to a table]()
 
-[Configuring FX Currency field behavior](../concept/configure-fx-currency-field-behavior.md)
+[Configuring FX Currency field behavior]()
 
-[Update a Currency Instance record](updating-fx-currency-instance-record.md)
+[Update a Currency Instance record]()
 

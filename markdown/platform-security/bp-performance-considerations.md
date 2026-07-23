@@ -2,6 +2,7 @@
 title: Domain separation performance considerations
 description: As you configure domain separation in your application and services, make sure that you consider the number and properties of domains you create. Too many property-heavy domains can impact the performance of your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-performance-considerations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ As you configure domain separation in your application and services, make sure t
 
 You can create as many domains as needed, but make sure that you don't create unnecessary domains on the instance. Weighing too many domains on the instance with a lot of properties can impact the performance of your instance.
 
-The number of domains is not what impacts performance but rather what's in them. Too many properties can slow down the [domain picker](bp-domain-picker-config-process.md), which then slows down the overall user experience of your customers. If you are loading the domain picker and already have a large number of domains with a lot of properties, the domain picker has to load all the domains before it gives you control in the session. This process could lead to an outage where you can't access anything on the instance until the domain picker finishes. Before you create new domains, navigate to the domain hierarchy under **Domain Admin** &gt; **Domain Map** and make sure that you actually need to create a new domain or whether an existing [domain hierarchy](bp-domain-hierarchy.md) can work.
+The number of domains is not what impacts performance but rather what's in them. Too many properties can slow down the [domain picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-picker-config-process.md), which then slows down the overall user experience of your customers. If you are loading the domain picker and already have a large number of domains with a lot of properties, the domain picker has to load all the domains before it gives you control in the session. This process could lead to an outage where you can't access anything on the instance until the domain picker finishes. Before you create new domains, navigate to the domain hierarchy under **Domain Admin** &gt; **Domain Map** and make sure that you actually need to create a new domain or whether an existing [domain hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-hierarchy.md) can work.
 
 ## Using Core UI domain picker
 
@@ -31,58 +32,58 @@ Enable the domain reference picker in Core UI by following these steps:
 
 **Note:** Do not upload a large number of domains \(over 30\) via integration or import sets without doing some testing first or you might bring down your instance.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](../reference/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 
 
-[Domain separation explained](bp-what-is-domain-separation.md)
+[Domain separation explained]()
 
-[Domain separation hierarchies](../reference/bp-domain-sep-hierarchies.md)
+[Domain separation hierarchies]()
 
-[Context and domain separation](bp-domain-sep-context.md)
+[Context and domain separation]()
 
-[Segregating and securing data with domain separation](../reference/bp-segregate-secure.md)
+[Segregating and securing data with domain separation]()
 
-[Alternatives to domain separation](../reference/bp-domain-separation-alternatives.md)
+[Alternatives to domain separation]()
 
-[Evaluating the need for domain separation](../reference/bp-evaluation-dom-sep.md)
+[Evaluating the need for domain separation]()
 
-[Benefits of domain separation](../reference/bp-advantages-dom-sep.md)
+[Benefits of domain separation]()
 
-[How a database query works with domain separation](bp-db-query-with-ds.md)
+[How a database query works with domain separation]()
 
-[Domain separation levels of support](../reference/bp-domain-levels.md)
+[Domain separation levels of support]()
 
-[Service provider reference architecture](../reference/bp-sp-reference-arch-ds.md)
+[Service provider reference architecture]()
 
-[Domain separation terms](../reference/bp-terms-conditions.md)
+[Domain separation terms]()
 
-[Domain-separate a custom table](../reference/bp-ds-custom-table.md)
+[Domain-separate a custom table]()
 
-[Customizing domain properties and themes](bp-domain-prop-themes.md)
+[Customizing domain properties and themes]()
 
-[Managing domain separation for specific uses](bp-emails-catalog-users.md)
+[Managing domain separation for specific uses]()
 
-[Configuring domain separation with the domain picker](bp-domain-picker-config-process.md)
+[Configuring domain separation with the domain picker]()
 
-[Setting up domain hierarchies](bp-domain-hierarchy.md)
+[Setting up domain hierarchies]()
 
-[Checking domain logs for errors and warnings](bp-domain-logs.md)
+[Checking domain logs for errors and warnings]()
 
-[Importance of the Default domain](bp-default-domain.md)
+[Importance of the Default domain]()
 
-[Contains queries and domain access](bp-contains-domain-visibility.md)
+[Contains queries and domain access]()
 
-[Domain paths query method](bp-domain-query-method.md)
+[Domain paths query method]()
 
-[Slow queries and SQL debugging](bp-debug-sql.md)
+[Slow queries and SQL debugging]()
 
-[Before Query business rules](bp-before-query-business-rules.md)
+[Before Query business rules]()
 
-[Avoiding domain path in scripts](bp-no-domain-path-in-scripts.md)
+[Avoiding domain path in scripts]()
 
-[Domain assignments](../reference/bp-domain-assignment.md)
+[Domain assignments]()
 
-[Domain separation and the Customer Service Management \(CSM\) plugin](bp-ds-and-csm.md)
+[Domain separation and the Customer Service Management \(CSM\) plugin]()
 

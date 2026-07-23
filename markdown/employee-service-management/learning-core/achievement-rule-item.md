@@ -2,6 +2,7 @@
 title: Create an achievement rule item
 description: Create an achievement rule item to define if all or a count of items need to be completed to receive an achievement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/achievement-rule-item.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -19,7 +20,7 @@ Create an achievement rule item to define if all or a count of items need to be 
 
 Role required: sn\_lep.achievement\_manager
 
-Create an achievement rule. For more information see, [Create an achievement rule](create-achievement-rule.md).
+Create an achievement rule. For more information see, [Create an achievement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-achievement-rule.md).
 
 ## Procedure
 
@@ -91,24 +92,24 @@ Order in which the achievement rule item appears.
 </table>5.  Select **Submit**.
 
 
-**Parent Topic:**[Manage Learning](../concept/manage-learning-achievements.md)
+**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-learning-achievements.md)
 
 **Related topics**  
 
 
-[Create a content collection](../concept/create-content-collection.md)
+[Create a content collection]()
 
-[Create internal Learning content](../concept/create-internal-learning-content.md)
+[Create internal Learning content]()
 
-[View external Learning content](../concept/view-external-learning-content.md)
+[View external Learning content]()
 
-[Create a learning library](../concept/create-learning-library.md)
+[Create a learning library]()
 
-[Create a learning task](../concept/create-learning-task.md)
+[Create a learning task]()
 
-[Create an achievement definition](../concept/create-achievement.md)
+[Create an achievement definition]()
 
-[Create user achievements](../concept/create-user-achievements.md)
+[Create user achievements]()
 
-[Create an achievement rule](create-achievement-rule.md)
+[Create an achievement rule]()
 

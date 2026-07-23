@@ -2,6 +2,7 @@
 title: Signal data source form
 description: Form to create a data source for the signal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-signal-datasource-form.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -51,7 +52,7 @@ The type of data source that you want to create. The available values are:-   Si
 -   Indicator \(Performance Analytics Indicator\)
 -   Subflow
 
-For more information, see [Types of data sources in Proactive Prompts](proactive-prompts-data-source.md).
+For more information, see [Types of data sources in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-data-source.md).
 
 </td></tr><tr><td>
 
@@ -226,18 +227,18 @@ Include zero records
 Option to include users without any records in the table. For example, select this option to send a prompt to the employees who have no PTO balance.**Note:** You can narrow down the users with zero records by selecting a user configuration in the **Applies to** field. For example, you can send prompts to employees in the HR department with no records in the selected table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference for Proactive Prompts](proactive-prompts-reference.md)
+</table>**Parent Topic:**[Reference for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Proactive Prompts](proactive-prompts-components.md)
+[Components installed with Proactive Prompts]()
 
-[Tokens in Proactive Prompts](proactive-prompts-tokens.md)
+[Tokens in Proactive Prompts]()
 
-[Types of data sources in Proactive Prompts](proactive-prompts-data-source.md)
+[Types of data sources in Proactive Prompts]()
 
-[Actions and action groups in Proactive Prompts](proactive-prompts-actions.md)
+[Actions and action groups in Proactive Prompts]()
 
-[Signal configuration form](proactive-prompts-create-signal-form.md)
+[Signal configuration form]()
 

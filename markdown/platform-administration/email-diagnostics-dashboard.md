@@ -2,6 +2,7 @@
 title: Email diagnostics dashboard
 description: The email diagnostics dashboards provide visibility in to email delivery metrics that can help in improving the email health by identifying errors and areas that need deeper investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/email-diagnostics-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ Email diagnostics are available in a new tab within the Email Notifications dash
 
 Data is displayed for the last six hours and can be refreshed at any time.
 
-Email diagnostics overview 
+\[Omitted video\] Description: Email diagnostics overview
 
 ## Analytics
 
@@ -43,13 +44,13 @@ Analytics provides comprehensive insights into the status and performance of you
 
 The operational overview gives the overview of email sending and reader operations for the displayed time and can be refreshed to fetch the latest updated status.
 
-![operational overview of email diagnostics dashboard](../image/email-operational-overview.png "Operational overview")
+\[Omitted image "email-operational-overview.png"\] Alt text: operational overview of email diagnostics dashboard
 
 **Queue overview**
 
 Queue overview gives insights into all email records including the records pending for processing and their status.
 
-![Queue overview for email diagnostics dashboard](../image/email-queue-overview.png "Queue overview")
+\[Omitted image "email-queue-overview.png"\] Alt text: Queue overview for email diagnostics dashboard
 
 |UI component|Description|
 |------------|-----------|
@@ -64,7 +65,7 @@ Queue overview gives insights into all email records including the records pendi
 
 A Job Overview is a consolidated view that displays the status, performance, and metrics, giving administrators and users a quick insight into their operational state. Only processed jobs insights are displayed and jobs that are currently in execution are excluded.
 
-![Job overview for email diagnostics dashboard](../image/email-job-overview.png "Job overview")
+\[Omitted image "email-job-overview.png"\] Alt text: Job overview for email diagnostics dashboard
 
 |UI component|Description|
 |------------|-----------|
@@ -96,34 +97,34 @@ An error log captures and provides information about issues, failures, or unexpe
 
 ## Connection status
 
-![Connection status of configured email accounts](../image/email-connection-status.png "Connect status")
+\[Omitted image "email-connection-status.png"\] Alt text: Connection status of configured email accounts
 
 Connection status displays the real time status of all email accounts configured in an instance.
 
-**Parent Topic:**[Email and SMS notifications](c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 
 
-[Create notification categories](../task/create-notification-categories.md)
+[Create notification categories]()
 
-[Create an email notification](../task/t_CreateANotification.md)
+[Create an email notification]()
 
-[Email notifications dashboard](email-notifications-dashboard.md)
+[Email notifications dashboard]()
 
-[Email templates](c_EmailTemplates.md)
+[Email templates]()
 
-[Email layouts](email-layouts.md)
+[Email layouts]()
 
-[Email retention](email-retention.md)
+[Email retention]()
 
-[Watermarks on notification emails](c_WorkingWithWatermarks.md)
+[Watermarks on notification emails]()
 
-[Parse an email thread](../task/parse-email.md)
+[Parse an email thread]()
 
-[Email digests](email-digests.md)
+[Email digests]()
 
-[Domain separation and Notifications](domain-separation-notifications.md)
+[Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails](troubleshooting-notification-emails.md)
+[Email FAQs and troubleshooting notification emails]()
 

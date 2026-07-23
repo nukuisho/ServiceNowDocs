@@ -2,9 +2,10 @@
 title: Compose emails
 description: Create an email to communicate the product information to your customer as per the business requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management-use-emails-tab.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-09"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -19,11 +20,13 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and select a lead that you want to work with.
 
 3.  Select the **Emails** tab.
+
+    **Note:** The **Emails** tab displays both emails linked directly to the lead and emails linked to the lead's touchpoints.
 
 4.  Select **Compose Email** to start a new email or select an existing email to view details.
 
@@ -41,5 +44,12 @@ Role required: sales\_agent
 6.  Select **Send email** to send the email or close the email form to save it in the **Draft Emails** tab.
 
 
-**Parent Topic:**[Using Lead Management](../concept/lead-management-using.md)
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-using.md)
+
+**Related topics**  
+
+
+[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
 

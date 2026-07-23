@@ -2,6 +2,7 @@
 title: Configure the Supplier News REST message
 description: Configure the Supplier News REST message using the Microsoft Bing News Search API subscription key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/config-supp-news-rest.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -31,17 +32,17 @@ Get the Bing News Search API subscription key.
 
 4.  In the HTTP Request related list, under HTTP Headers, double-click the **Value** column and enter the Bing News Search API subscription key.
 
-5.  Select the green check mark icon \(![Green check mark icon.](../image/green-check-mark.png)\) to save your changes.
+5.  Select the green check mark icon \(\[Omitted image "green-check-mark.png"\] Alt text: Green check mark icon.\) to save your changes.
 
 6.  Select **Update**.
 
 
-**Parent Topic:**[News Integration for Supplier Lifecycle Operations](../concept/supp-news-integration.md)
+**Parent Topic:**[News Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-news-integration.md)
 
 **Related topics**  
 
 
-[News Integration for Supplier Lifecycle Operations](../concept/supp-news-integration.md)
+[News Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-news-integration.md)
 
-[Configuring a custom API to dynamically fetch supplier news](../concept/config-supplier-news-api.md)
+[Configuring a custom API to dynamically fetch supplier news](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supplier-news-api.md)
 

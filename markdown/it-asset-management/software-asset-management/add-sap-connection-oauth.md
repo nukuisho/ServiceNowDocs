@@ -2,13 +2,14 @@
 title: Establish an SAP connection using OAuth 2.0
 description: Create a connection profile to establish a connection between your SAP system and your ServiceNow instance using OAuth 2.0 authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/add-sap-connection-oauth.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Establish an SAP connection using OAuth 2.0
@@ -20,7 +21,7 @@ Create a connection profile to establish a connection between your SAP system an
 Before establishing a connection between SAP and your ServiceNow instance, make sure that the following conditions are met:
 
 -   Verify if your SAP system network is accessible to external applications like ServiceNow.
--   If external connections are blocked, install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
+-   If external connections are blocked, install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md).
 
 If you already have a MID Server installed in the network and connected to your ServiceNow instance, this SAP connection automatically uses it.
 
@@ -248,7 +249,7 @@ Controls the data pull from SAP for user transaction activity data.
 
 6.  If you're running the latest version of the ABAP program, test your SAP connection by selecting the **Test SAP Connection and Version** related link.
 
-    **Note:** If you upgrade your ServiceNow instance, you must download and deploy the new version of the ABAP program and reconfigure a service provider with the SOA Manager.
+    **Note:** If you upgrade your ServiceNow instance, you must download and deploy the compatible version of the ABAP program and reconfigure a service provider with the SOA Manager.
 
 7.  Send a request to the custom ABAP program to collect the SAP data into the custom tables again by selecting the **Refresh data in SAP** related link.
 
@@ -275,38 +276,38 @@ The SAP connection is established.
 
 You can start creating software models and entitlements.
 
-**Parent Topic:**[Software Asset Management publisher pack for SAP](../concept/sap-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
 
-[Tables installed with the SAP publisher pack](../concept/component-installed-sap-plugin.md)
+[Tables installed with the SAP publisher pack]()
 
-[Deploy the ABAP program for SAP](import-abap-program-sap.md)
+[Set up SAP integration to establish a connection with SAP]()
 
-[Establish an SAP connection using basic authentication](add-sap-connection.md)
+[Establish an SAP connection using basic authentication]()
 
-[Create entitlements for SAP](create-entitlement-sap.md)
+[Create entitlements for SAP]()
 
-[Create software models for SAP](add-software-model-sap.md)
+[Create software models for SAP]()
 
-[Create a custom SAP named user type](create-named-user.md)
+[Create a custom SAP named user type]()
 
-[Map a role to a named user type](create-named-user-type-role-mapping.md)
+[Map a role to a named user type]()
 
-[Create custom SAP price lists](create-sap-pricelist.md)
+[Create custom SAP price lists]()
 
-[Import custom SAP named user types](import-custom-sap-named-user-type.md)
+[Import custom SAP named user types]()
 
-[Import custom SAP price lists](import-custom-sap-price-list.md)
+[Import custom SAP price lists]()
 
-[SAP USMM-based optimization](../concept/usmm-optimization.md)
+[SAP USMM-based optimization]()
 
-[User transaction activity for named user types](../concept/sap-named-user-transaction-activity.md)
+[User transaction activity for named user types]()
 
-[Self-declaring SAP engine license usage](../concept/self-declaring-sap-engine-usage.md)
+[Self-declaring SAP engine license usage]()
 
-[Software Publisher Analytics dashboard for SAP in Software Asset Management classic](../reference/dashboard-sap.md)
+[Software Publisher Analytics dashboard for SAP in Software Asset Management classic]()
 
-[Publisher overview for SAP in the Software Asset Workspace](../reference/publisher-overview-sap.md)
+[Publisher overview for SAP in the Software Asset Workspace]()
 

@@ -2,11 +2,12 @@
 title: Configure escalation management
 description: Escalating a case or account raises awareness about important customer issues, facilitates communication, and enables users to track progress towards a resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-escalation-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Case and account escalation, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure escalation management
@@ -65,5 +66,5 @@ The escalation severity defines the type of escalation and the color used to rep
 **Related topics**  
 
 
-[Case and account escalation](../concept/customer-service-case-escalation.md)
+[Case and account escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-escalation.md)
 

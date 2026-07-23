@@ -2,6 +2,7 @@
 title: Choice table
 description: The Choice \[sys\_choice\] table contains translated text for options that appear in lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/r\_ChoicesTable.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -24,16 +25,16 @@ The main fields for this table are:
 -   Label: The label for the choice in the specified language.
 -   Sequence: A number that determines in what order the option appears in the list if you don’t want to list choices alphabetically.
 
-![The list of records in the Choices table with choice labels in English and Spanish.](../image/ChoiceList.png "Choice list")
+\[Omitted image "ChoiceList.png"\] Alt text: The list of records in the Choices table with choice labels in English and Spanish.
 
-![A Choice record translated into Spanish.](../image/TranslatedChoiceList.png "Translated choices")
+\[Omitted image "TranslatedChoiceList.png"\] Alt text: A Choice record translated into Spanish.
 
-**Parent Topic:**[Translation tables](r_TranslationTables.md)
+**Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslationTables.md)
 
 **Related topics**  
 
 
-[Create a language choice for users](../task/t_CreateANewChoiceRecord.md)
+[Create a language choice for users]()
 
-[Ensure that translated choices appear for applications added by plugins](../task/activate-translated-choices-plugins.md)
+[Ensure that translated choices appear for applications added by plugins]()
 

@@ -2,9 +2,10 @@
 title: Add a catalog item to an AI agent
 description: Add a Service Catalog to an AI agent in AI Agent Studio so that your users can access conversational catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-catalog-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---

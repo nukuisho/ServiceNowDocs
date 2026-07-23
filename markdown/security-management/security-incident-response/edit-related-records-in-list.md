@@ -2,6 +2,7 @@
 title: Update information in security incident related records
 description: Edit related records for a security incident in Security Incident Response Workspace directly from the Related Records tab without having to leave the current context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/edit-related-records-in-list.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -41,30 +42,32 @@ Role required: sn\_si.analyst
 6.  Update the values of the fields.
 
 
-**Parent Topic:**[Working with Security Incident Records](../concept/using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 
 
-[Security Incident Overview section](../concept/security-incident-overview.md)
+[Security Incident Overview section]()
 
-[Security Incident Details section](../concept/security-incident-details.md)
+[Security Incident Details section]()
 
-[SIR Workspace Orchestration](../concept/security-incident-response-workspace-orchestration-activities.md)
+[SIR Workspace Orchestration]()
 
-[Security Incident Response Tasks](../concept/security-incident-response-tasks.md)
+[Security Incident Response Tasks]()
 
-[Security Incident Response Other Records](../concept/security-incident-response-other-records.md#)
+[Security Incident Response Other Records]()
 
-[Security Incident Response Post Incident Review](../concept/security-incident-response-post-incident-review.md)
+[Security Incident Response Post Incident Review]()
 
-[TISC integration within SIR Workspace](../../secops-integration-threat-security-center/concept/tisc-sir-workspace.md)
+[TISC integration within SIR Workspace]()
 
-[Reports in Security Incident Response](../concept/report-templates-sir.md)
+[Reports in Security Incident Response]()
 
-[Collaborate using conference call or chat in Security Incident Response](../concept/collab-sir-call-chat.md)
+[Collaborate using conference call or chat in Security Incident Response]()
 
-[Viewing incident details with a relationship graph](../concept/sir-relationship-graph.md)
+[Viewing incident details with a relationship graph]()
 
-[MITRE attack and defend technique graph](../concept/mitre-attack-defend-graph-sir.md)
+[MITRE attack and defend technique graph]()
+
+[View and filter the incident timeline]()
 

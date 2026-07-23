@@ -2,6 +2,7 @@
 title: Create a holiday schedule for multiple regions
 description: You can create holiday schedules for multiple regions that follow the same work schedule but have different holidays.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_CreateAHolidaySchedMultiRegions.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -28,28 +29,28 @@ The following method supports multiple regions with the same work schedule \(for
     This method requires making &lt;number of schedules&gt; + 1 total schedules. If you make the regional holiday schedule a child schedule of the work hours schedule, you must create a separate work hours schedule for each region. The total number of schedules in this case is &lt;number of schedules&gt; x two schedules.
 
 
-**Parent Topic:**[Schedules](../concept/c_UseSchedules.md)
+**Parent Topic:**[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
 **Related topics**  
 
 
-[Default schedules](../reference/r_DefaultSchedules.md)
+[Default schedules]()
 
-[Holidays](../concept/c_Holidays.md)
+[Holidays]()
 
-[Parent and child schedules](../concept/c_ParentAndChildSchedules.md)
+[Parent and child schedules]()
 
-[Define a schedule](t_DefineASchedule.md)
+[Define a schedule]()
 
-[Schedule for the fifth instance of a week date](t_FifthInstanceOfADayOfTheWeek.md)
+[Schedule for the fifth instance of a week date]()
 
-[Repeat a monthly schedule](t_RepeatAMonthlySchedule.md)
+[Repeat a monthly schedule]()
 
-[Using schedules and calendars](../reference/r_CreateCalendarsWithSchedulePages.md)
+[Using schedules and calendars]()
 
-[Domain support and schedules](../concept/domain-support-for-schedules.md)
+[Domain support and schedules]()
 
-[Schedules](../concept/c_UseSchedules.md)
+[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
-[Define a schedule](t_DefineASchedule.md)
+[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md)
 

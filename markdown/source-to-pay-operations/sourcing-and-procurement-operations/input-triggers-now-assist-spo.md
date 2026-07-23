@@ -2,6 +2,7 @@
 title: Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)
 description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -9,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 8
 keywords: [Now Assist Security Operations]
-breadcrumb: [Configure, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Configure, Now Assist, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)
@@ -679,10 +680,12 @@ Base input fields
 -   Business owner
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](../task/configure-now-assist-for-spo.md)
+</table>**Parent Topic:**[Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
 **Related topics**  
 
 
-[Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill](../task/cust-now-assist-spo-skill.md)
+[Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill]()
+
+[Activate the Spend categorization agent]()
 

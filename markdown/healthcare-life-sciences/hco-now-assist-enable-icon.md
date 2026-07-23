@@ -2,6 +2,7 @@
 title: Enable the Now Assist icon in Care Team Mobile
 description: Set up the Now Assist icon within Care Team Mobile so you can leverage the Request care team assistance agentic workflow in Care Team Mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-enable-icon.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,27 +32,29 @@ Role required: admin
 
     For example, Now Assist for Care Team icon.
 
-6.  Set **Icon** to **spark-solid \(AIS\)**.
+6.  Enter a display label to identify what this icon displays as for users.
 
-7.  Set **Function** to **Agent Chat**.
+7.  Set **Icon** to **spark-solid \(AIS\)**.
 
-    Ensure that the Application scope value is **Now Mobile**.
+8.  Set **Function** to **Agent Chat**.
 
-8.  Select **Save**.
+    Ensure that the Application scope value is **Care Team Mobile**.
 
-9.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants** &gt; **Manage Assistants**.
+9.  Select **Save**.
 
-10. Select the Now Assist in Virtual Agent assistant.
+10. Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants** &gt; **Manage Assistants**.
 
-11. In **Display Experiences**, navigate to the **Mobile Apps** tab.
+11. Select the Now Assist in Virtual Agent assistant \(default\).
 
-12. In **Chat Launcher Functions**, select **Edit chat experience** and then select **Standard chat**.
+12. In **Display Experiences**, navigate to the **Mobile Apps** tab.
 
-13. Select **Apply**.
+13. In **Chat Launcher Functions**, select **Edit chat experience** and then select **Standard chat**.
 
-14. In **Prominent Action Button Override**, select **Edit chat experience** and then select **Standard chat**.
+14. Select **Apply**.
 
-15. Select **Apply**.
+15. In **Prominent Action Button Override**, select **Edit chat experience** and then select **Standard chat**.
+
+16. Select **Apply**.
 
 
 ## Result

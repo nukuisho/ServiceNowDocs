@@ -2,6 +2,7 @@
 title: Compare scores
 description: In the Analytics Hub Compare tab, compare scores on any two dates, or compare scores against linked benchmark scores.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/scorecard-compare-tab.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -15,7 +16,7 @@ breadcrumb: [Analytics Hub for a specific indicator, Analytics Hub, Reporting, d
 
 In the Analytics Hub Compare tab, compare scores on any two dates, or compare scores against linked benchmark scores.
 
-![The compare tab of the Analytics Hub showing the changes in scores between two dates](../image/detailed-scorecard-compare.png "Compare tab")
+\[Omitted image "detailed-scorecard-compare.png"\] Alt text: The compare tab of the Analytics Hub showing the changes in scores between two dates
 
 **Note:** The Compare tab is available only for automated indicators.
 
@@ -29,18 +30,18 @@ If the scores refer to a count, below the scores, you see the following informat
 -   The number of records that moved in, or were added to the indicator on the later date
 -   The number of records on the latest date
 
-A list of records in the indicator is in the lower pane. If you are comparing dates, click the graph icon \(![Activity stream icon](../image/ah-activity-stream-icon.png)\) to open the Activity Stream. The Activity Stream shows, for each record, the fields most relevant to the latest activity on the record and its current state. Hovering the cursor over the timestamp of an activity reveals the **Comment** link. This link opens a dialog where you can leave either an Additional Comment or a Work Note.
+A list of records in the indicator is in the lower pane. If you are comparing dates, click the graph icon \(\[Omitted image "ah-activity-stream-icon.png"\] Alt text: Activity stream icon\) to open the Activity Stream. The Activity Stream shows, for each record, the fields most relevant to the latest activity on the record and its current state. Hovering the cursor over the timestamp of an activity reveals the **Comment** link. This link opens a dialog where you can leave either an Additional Comment or a Work Note.
 
 **Note:** If you apply a time series aggregation to the indicator, you cannot compare records. The scores are aggregated, but the underlying records are not. You can compare aggregated scores.
 
-![The activity stream showing the Comment dialog](../image/ah-activity-stream-comment.gif "Activity stream")
+\[Omitted image "ah-activity-stream-comment.gif"\] Alt text: The activity stream showing the Comment dialog
 
 If the indicator is linked to a benchmark indicator, select **Benchmarks** to compare the two indicators. Select a date range for comparing the indicators as you would in the **Overview** tab.
 
-![If a benchmarked indicator is linked to the indicator of the Analytics Hub, click Benchmarks to compare the indicators](../image/detailed-scorecard-benchmarks.png "Comparing the indicator to a linked benchmark indicator")
+\[Omitted image "detailed-scorecard-benchmarks.png"\] Alt text: If a benchmarked indicator is linked to the indicator of the Analytics Hub, click Benchmarks to compare the indicators
 
 **Related topics**  
 
 
-[Link an automated indicator to a benchmark](../task/link-automated-indicator-benchmark.md)
+[Link an automated indicator to a benchmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/link-automated-indicator-benchmark.md)
 

@@ -2,6 +2,7 @@
 title: Exploring Agentic Playbooks
 description: Integrate AI agents into your workflows, and enable automation, adaptability, and transparency across your business processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/agentic-playbooks.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -14,6 +15,8 @@ breadcrumb: [Agentic Playbooks, Workflow Studio, Build workflows]
 # Exploring Agentic Playbooks
 
 Integrate AI agents into your workflows, and enable automation, adaptability, and transparency across your business processes.
+
+\[Omitted video\] Description: Agentic Playbooks overview
 
 ## Agentic Playbooks overview
 
@@ -50,7 +53,7 @@ Knowledge Graph TextToResult API Crawler
 
 </td><td>
 
-Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.md)
+Gathers data by using ServiceNow Knowledge Graph.You can also use a custom knowledge graph schema for the agent. To know more about knowledge graphs, see [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-knowledge-graph.md)
 
 </td></tr><tr><td>
 
@@ -111,7 +114,7 @@ For more information about Now Assist AI agents and their capabilities, refer to
 
 ## User personas
 
-If you're a playbook author and want to configure activities to be performed by AI agents, see [Configuring Agentic Playbooks](../task/configure-agentic-playbooks.md).
+If you're a playbook author and want to configure activities to be performed by AI agents, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md).
 
-If you're an agent running a playbook, see [Using Agentic Playbooks](../task/running-agentic-activities.md).
+If you're an agent running a playbook, see [Using Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/running-agentic-activities.md).
 

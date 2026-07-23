@@ -2,6 +2,7 @@
 title: Baseline assignment rules example
 description: A baseline instance contains certain assignment rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/r\_BaselineAssignmentRulesExample.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -136,20 +137,20 @@ Active is true
 Group: Service Desk
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Defining assignment rules](../concept/c_DefineAssignmentRules.md)
+</table>**Parent Topic:**[Defining assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md)
 
 **Related topics**  
 
 
-[Assignment rules module](../concept/c_AssignmentRulesModule.md)
+[Assignment rules module]()
 
-[Data lookup rules](../concept/c_DataLookupRules.md)
+[Data lookup rules]()
 
-[Precedence between data lookup, assignment, and business rules](../concept/c_PrecBetweenAssignmentAndBusRules.md)
+[Precedence between data lookup, assignment, and business rules]()
 
-[Workflow assignments](../concept/c_WorkflowAssignments.md)
+[Workflow assignments]()
 
-[Create an assignment rule](../task/t_AssignmentModuleRule.md)
+[Create an assignment rule]()
 
-[Create an assignment data lookup rule](../task/t_DataLookupRule.md)
+[Create an assignment data lookup rule]()
 

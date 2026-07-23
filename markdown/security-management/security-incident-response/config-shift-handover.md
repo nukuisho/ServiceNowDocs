@@ -2,6 +2,7 @@
 title: Configure Shift Handover
 description: Configure Shift Handover settings to provide complete shift information to the next shift analysts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/config-shift-handover.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -15,33 +16,35 @@ breadcrumb: [Configure, Security Incident Response Workspace, Security Incident 
 
 Configure Shift Handover settings to provide complete shift information to the next shift analysts.
 
--   **[Configure Shift Handover Templates](../task/configure-shift-handover-templates.md)**  
+-   **[Configure Shift Handover Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-shift-handover-templates.md)**  
 The Admin can define and configure different Shift Handover templates for the Shift Owner to create shift handover records and hand them over to the next shift team.
--   **[Create shifts through Security Incident Response Workspace](../task/configure-shift-times.md)**  
+-   **[Create shifts through Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-shift-times.md)**  
 Create shifts through the Security Incident Response Workspace to use when configuring shift handover records.
 
-**Parent Topic:**[Configuring SIR Workspace](../reference/configuring-security-incident-response-workspace.md)
+**Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 
 
-[Set up view of SIR Records](set-up-view-of-sir-records.md)
+[Set up view of SIR Records]()
 
-[Configure SI design time investigation](configure-investigation-canvas-records.md)
+[Configure SI design time investigation]()
 
-[SIR Workspace Related Records](sir-records.md#)
+[SIR Workspace Related Records]()
 
-[Define the new Risk Score Calculator Rules](../task/define-risk-score-calculator-rules-sir.md)
+[Define the new Risk Score Calculator Rules]()
 
-[Security Incident Response conference call integration](sir-conf-call-capability.md)
+[Security Incident Response conference call integration]()
 
-[Configure report templates in Security Incident Response](daily-status-sir.md)
+[Configure report templates in Security Incident Response]()
 
-[On-Call scheduling in Security Incident Response](on-call-schedule-sir.md)
+[On-Call scheduling in Security Incident Response]()
 
-[Category management in Security Incident Response](category-management-sir.md)
+[Category management in Security Incident Response]()
 
-[View and update Security Incident Response system properties](view-update-sirw-system-properties.md)
+[View and update Security Incident Response system properties]()
 
-[Create quick filters for Security Incidents and Response Tasks lists](../task/create-quick-filters-for-security-incidents.md)
+[Create quick filters for Security Incidents and Response Tasks lists]()
+
+[Timeline in Security Incident Response Workspace]()
 

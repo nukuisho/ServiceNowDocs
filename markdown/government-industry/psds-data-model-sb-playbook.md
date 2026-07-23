@@ -2,6 +2,7 @@
 title: Public Sector Digital Services Social Benefits Data Model
 description: This section outlines the Social Benefits data model and the tables installed with the Social Benefits application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-data-model-sb-playbook.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,10 +16,10 @@ This section outlines the Social Benefits data model and the tables installed wi
 
 The following logical diagram shows the tables and their relationships within the Social Benefits data model.
 
-![Public Sector Digital Services Social Benefits Data Model](../image/psds-datamodel-sb.png "Social Benefits Data Model")
+\[Omitted image "psds-datamodel-sb.png"\] Alt text: Public Sector Digital Services Social Benefits Data Model
 
--   **[Tables installed with Social Benefits Playbook](../reference/psds-data-model-sb-playbook-tables.md)**  
+-   **[Tables installed with Social Benefits Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-data-model-sb-playbook-tables.md)**  
 This section describes the tables installed with the Social Benefits Playbook application and shows how they store and manage information.
 
-**Parent Topic:**[Public Sector Digital Services Data Model](public-sector-digital-services-data-model.md)
+**Parent Topic:**[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/public-sector-digital-services-data-model.md)
 

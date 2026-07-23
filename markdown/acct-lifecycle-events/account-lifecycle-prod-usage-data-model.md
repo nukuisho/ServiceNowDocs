@@ -2,11 +2,12 @@
 title: Product and capability usage records
 description: The product and capability usage records are automatically created and updated when changes occur in sold product configurations, capability mappings, or in the data context engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-prod-usage-data-model.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a product capability, Customer success, Customer Success Management, Customer Success Management]
+breadcrumb: [Create a product capability record, Product capabilities, Customer success, Configure, Customer Success Management]
 ---
 
 # Product and capability usage records
@@ -291,7 +292,7 @@ Adoption score
 Calculated adoption score for this capability.
 
 </td></tr></tbody>
-</table>To configure how this usage data is displayed in the workspace, see [Configure DCE Visualizations](../task/account-lifecycle-configure-dce-visual.md).
+</table>To configure how this usage data is displayed in the workspace, see [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md).
 
-**Parent Topic:**[Create a product capability](../task/account-lifecycle-create-prod-cap.md)
+**Parent Topic:**[Create a product capability record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-prod-cap.md)
 

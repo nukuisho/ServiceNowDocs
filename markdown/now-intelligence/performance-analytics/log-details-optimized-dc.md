@@ -2,6 +2,7 @@
 title: Log details for optimized data collector
 description: Starting with the Tokyo release, a new, optimized data collector is available. The log details for this data collector differ from the log details of the classic data collector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/log-details-optimized-dc.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -19,13 +20,13 @@ Starting with the Tokyo release, a new, optimized data collector is available. T
 
 The data collection job involves executing an SQL query for each indicator source that uses the data collector. The query repeats for every collection time from the start date to the stop date. Then queries run for the next indicator source. Each step of executing a query is documented in the data collection job log.
 
-![Flow chart showing the relation between the different levels of processes in a data collection job](../image/data-collection-subprocesses.png "High-level view of data collection job")
+\[Omitted image "data-collection-subprocesses.png"\] Alt text: Flow chart showing the relation between the different levels of processes in a data collection job
 
 ## Starting and completing collection job
 
 Follow the data collection process as revealed in log messages. The log messages in each subprocess have been separated into their own tables.
 
-**Note:** This log is for the optimized HSQL data collector as described in [Optimizing data collection](../concept/optimized-data-collection.md). If **com.snc.pa.dc.hsql** is "false," you are using the classic data collector. Otherwise, you are using the optimized data collector. For more information about that log, see [Log details for classic data collector](original-data-collection-process.md).
+**Note:** This log is for the optimized HSQL data collector as described in [Optimizing data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optimized-data-collection.md). If **com.snc.pa.dc.hsql** is "false," you are using the classic data collector. Otherwise, you are using the optimized data collector. For more information about that log, see [Log details for classic data collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/original-data-collection-process.md).
 
 <table id="table_kwh_k4g_qbb"><thead><tr><th>
 
@@ -73,7 +74,7 @@ Indicator Sources to collect: Incidents.New: b54f2c23d7030100b96d45a3ce61032f, I
 
 </td></tr><tr><td>
 
-Lists each indicator associated with the job and the indicator properties that are related to data collection:-   Are records collected in a [snapshot](../concept/performance-analytics-glossary.md#)?
+Lists each indicator associated with the job and the indicator properties that are related to data collection:-   Are records collected in a [snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md)?
 -   Are any breakdowns excluded?
 -   Are the collection periods in the indicator source overridden?
 -   Is the breakdown matrix collected?
@@ -89,7 +90,7 @@ Iterate steps for each indicator source
 
 </td><td>
 
-See table [Steps iterated for each indicator source](log-details-optimized-dc.md#section_indicator-source).
+See table [Steps iterated for each indicator source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/log-details-optimized-dc.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +116,7 @@ Collection ended
 |Retrieve indicator source.|Processing indicator source Incidents.Open|
 |Repeat that optimized HSQL data collector is in use.| |
 |List indicators that have additional conditions, beyond the conditions inherited from the indicator source.|Indicator: Admin Logins - \[sys\_id of indicator\], Additional Conditions: ref\_isc\_login\_event.login\_type=login\_admin, Is Collect Records: true|
-|Iterate steps for each collection period.|See table [Steps iterated for each collection period](log-details-optimized-dc.md#section_collection-period)|
+|Iterate steps for each collection period.|See table [Steps iterated for each collection period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/log-details-optimized-dc.md)|
 |Retrieve next indicator source.|Processing indicator source Incidents.New|
 
 ## Steps iterated for each collection period
@@ -177,7 +178,7 @@ Run the map/reduce function to calculate indicator scores.
 
 </td><td>
 
-See the table [Steps of the map/reduce function](log-details-optimized-dc.md#section_map-reduce)
+See the table [Steps of the map/reduce function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/log-details-optimized-dc.md)
 
 </td></tr><tr><td rowspan="2">
 
@@ -333,12 +334,12 @@ The map/reduce function completes.
 Applied map/reduce function
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data collection process and logging](../concept/data-collection-process-logging.md)
+</table>**Parent Topic:**[Data collection process and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/data-collection-process-logging.md)
 
 **Related topics**  
 
 
-[Optimizing data collection](../concept/optimized-data-collection.md)
+[Optimizing data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optimized-data-collection.md)
 
-[View the data collection job logs](../task/t_ViewingADataCollectionJobLog.md)
+[View the data collection job logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ViewingADataCollectionJobLog.md)
 

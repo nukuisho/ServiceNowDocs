@@ -2,6 +2,7 @@
 title: HR criteria
 description: HR criteria defines the audience for HR content, services, or cases. You can make information available to or create an HR case for specific groups, individuals, or to all employees using HR criteria.Create or modify HR criteria to define an audience for HR content, services, or cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-criteria.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ HR criteria contains a script include that can be called from an advanced User c
 
 **Note:** Complex conditional statements for scripted User criteria applied to a knowledge base with large amounts of documents can cause performance issues. Standard \(non-scripted\) User criteria is recommended for securing knowledge documents.
 
-See [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md).
+See [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/user-criteria.md).
 
 HR criteria define conditions that are evaluated against HR tables. Once HR criteria is defined, you can filter what is available to those users.
 
@@ -47,7 +48,7 @@ If you use HR criteria for Knowledge and Service catalog access, ensure:
 
 When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
-**Parent Topic:**[HR Administration](c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
 ## Configure an HR criteria record
 

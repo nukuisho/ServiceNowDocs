@@ -2,6 +2,7 @@
 title: Grouping of tasks in status reports of CWM My Work
 description: Learn how various tasks assigned to you are grouped based on their State and Priority in My Work reports of Collaborative Work Management \(CWM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -37,12 +38,12 @@ Priority buckets provide a unified way to understand the urgency of tasks. Prior
 
 Your ServiceNow instance may have some extended task types that have custom state or priority values. These custom values may not align with the default values of the Task table. These work items with these non-default State or Priority values appear as **Others** in the bar graphs in My Work. This method ensures reporting accuracy instead of forcing a state/priority into the wrong bucket.
 
-![Other grouping for State and Priority.](../images/cwm-my-work-other.png)
+\[Omitted image "cwm-my-work-other.png"\] Alt text: Other grouping for State and Priority.
 
-**Parent Topic:**[Collaborative Work Management reference](../concept/reference-cwm.md)
+**Parent Topic:**[Collaborative Work Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/reference-cwm.md)
 
 **Related topics**  
 
 
-[My Work in CWM](../concept/my-work-in-cwm.md)
+[My Work in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/my-work-in-cwm.md)
 

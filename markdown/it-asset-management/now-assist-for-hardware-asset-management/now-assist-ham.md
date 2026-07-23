@@ -2,6 +2,7 @@
 title: Now Assist for Hardware Asset Management \(HAM\)
 description: Use the Now Assist for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair process with the agentic workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.html
 release: australia
 product: Now Assist for Hardware Asset Management
 classification: now-assist-for-hardware-asset-management
@@ -9,12 +10,16 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Now Assist for Hardware Asset Management \(HAM\)
 
 Use the Now Assist for Hardware Asset Management \(HAM\) application to streamline and automate the hardware asset request process and the repair processwith the agentic workflows.
+
+## Get started with AI
+
+Starting with the Australia release, Now Assist for Hardware Asset Management \(HAM\) is being prepared for future deprecation. It will be hidden and no longer installed on new ServiceNow instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -24,41 +29,14 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 
 For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-Watch this short video for an introduction to the agentic AI for Hardware Asset Management application.
+For more information on AI capabilities in HAM, see [AI in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ai-in-ham.md).
 
-Agentic AI for Hardware Asset Management 
+**Important:**
 
-## Get started
-
-<table id="table_esh_mkr_w2c" class="nav-card presentation"><tbody><tr><td>
-
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for HAM](exploring-now-assist-ham.md)
-
-</td><td>
-
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for HAM application to get started](configuring-now-assist-ham.md)
-
-</td></tr><tr><td>
-
-[Use generative AI skills![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use generative AI capabilities offered by Now Assist for HAM](now-assist-ham-agent-ai.md)
-
-</td><td>
-
-[Use Hardware Asset Management AI agent collection![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use agentic workflows in Now Assist for HAM](now-assist-ham-agentic-workflow.md)
-
-</td></tr></tbody>
-</table>**Important:**
-
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
-
-## Troubleshoot and get help
-
--   [ServiceNow Community on AI and Intelligence](https://www.servicenow.com/community/ai-intelligence-articles/tkb-p/ai-platform-kb)
--   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
--   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
 ## AI limitations
 

@@ -2,6 +2,7 @@
 title: Return the display value for reference variables
 description: When you query a record using a get or getRecords function, the instance returns all fields associated with that record. The fields are often reference fields that contain a sys\_id for a record on another table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/return-display-reference-variables.html
 release: australia
 product: Web Services
 classification: web-services
@@ -21,20 +22,20 @@ Use one of these options if you want the display value for the field to be retur
 2.  Add the **displayvalue=true** parameter to your SOAP request URL, and SOAP requests with that parameter will return a display value for a reference field as a string, instead of the sys\_id. The SOAP URL would look as follows: `https://<instance name>.service-now.com/incident.do?displayvalue=true&SOAP`.
 3.  Add the **displayvalue=all** parameter to your SOAP request URL, and SOAP requests with that parameter will return a display value for a reference field, in addition to the sys\_id. The response element name for the display value field will be prefixed with `dv`, such as `dv_caller_id`.
 
-**Parent Topic:**[Direct web services](c_DirectWebServices.md)
+**Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md)
 
 **Related topics**  
 
 
-[Use forms to limit or extend the query response](using-forms-limit-extend-query-resp.md)
+[Use forms to limit or extend the query response]()
 
-[Clear values from a target instance](clearing-values-target.md)
+[Clear values from a target instance]()
 
-[Retrieve journal entries using direct web services](retrieving-journal-entries.md)
+[Retrieve journal entries using direct web services]()
 
-[Retrieve choice fields using direct web services](retrieving-choice-fields-direct-ws.md)
+[Retrieve choice fields using direct web services]()
 
-[Persist an HTTP session across all SOAP calls](persist-session-all-soap-calls.md)
+[Persist an HTTP session across all SOAP calls]()
 
-[SOAP direct web service API functions](../../web-services-apis/reference/r_DirectWebServiceAPIFunctions.md)
+[SOAP direct web service API functions]()
 

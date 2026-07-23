@@ -2,11 +2,12 @@
 title: Edit a free-form roadmap view
 description: Edit a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/edit-free-form-roadmap-view-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Managing free-form roadmap views, Create a free-form roadmap, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -44,7 +45,7 @@ Role required: sn\_align\_core.ap\_read\_only
 
     The view is updated to reflect the changes made.
 
-6.  To edit name of the view, select the Free-form roadmap drop-down from the free-form roadmap header and then select Edit view icon \(![edit view icon.](../images/edit-view-icon-spw.png)\) next to the view you want to edit the name for.
+6.  To edit name of the view, select the Free-form roadmap drop-down from the free-form roadmap header and then select Edit view icon \(\[Omitted image "edit-view-icon-spw.png"\] Alt text: edit view icon.\) next to the view you want to edit the name for.
 
     On the Edit view window, fill the details.
 
@@ -58,19 +59,19 @@ Role required: sn\_align\_core.ap\_read\_only
 
     3.  Select **Save**.
 
-        ![Edit portfolio plan view name.](../images/edit-free-form-roadmap-view-spw.gif)
+        \[Omitted image "edit-free-form-roadmap-view-spw.gif"\] Alt text: Edit portfolio plan view name.
 
 
 ## What to do next
 
-Share the free-form roadmap with your stakeholders to start collaborating on the free-form roadmap. See [Share a free-form roadmap with stakeholders](share-a-roadmap-with-stakeholders.md).
+Share the free-form roadmap with your stakeholders to start collaborating on the free-form roadmap. See [Share a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/share-a-roadmap-with-stakeholders.md).
 
-**Parent Topic:**[Managing free-form roadmap views](../concept/managing-free-form-roadmap-views-spw.md)
+**Parent Topic:**[Managing free-form roadmap views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-free-form-roadmap-views-spw.md)
 
 **Related topics**  
 
 
-[Create a free-form roadmap view](create-free-form-roadmap-view-spw.md)
+[Create a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-free-form-roadmap-view-spw.md)
 
-[Delete a free-form roadmap view](delete-free-form-roadmap-view-spw.md)
+[Delete a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/delete-free-form-roadmap-view-spw.md)
 

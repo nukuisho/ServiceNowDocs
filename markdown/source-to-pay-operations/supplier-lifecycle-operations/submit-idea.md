@@ -2,6 +2,7 @@
 title: Submit an idea using the supplier catalog
 description: Submit an idea you would like to share.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/submit-idea.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -37,7 +38,7 @@ Role required: sn\_slm.contact
 
 5.  In the **Description** field, describe the idea you want to share.
 
-6.  Select the Add attachments icon \(![Add attachments icon.](../image/attachments-icon.png)\) to add attachments, such as documents and image files, to the request.
+6.  Select the Add attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Add attachments icon.\) to add attachments, such as documents and image files, to the request.
 
 7.  Select **Submit**.
 
@@ -46,30 +47,30 @@ Role required: sn\_slm.contact
 
 The application creates a case and assigns it to the supplier manager to take appropriate action.
 
-**Parent Topic:**[Raising requests from the Supplier Collaboration Portal](../concept/supp-catalog-req.md)
+**Parent Topic:**[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 
 **Related topics**  
 
 
-[Add or remove a supplier location using the supplier catalog](submit-add-remove-supploc.md)
+[Add or remove a supplier location using the supplier catalog]()
 
-[Add a supplier contact using the supplier catalog](enroll-contact-catalog.md)
+[Add a supplier contact using the supplier catalog]()
 
-[Remove a supplier contact using the supplier catalog](remove-contact-catalog.md)
+[Remove a supplier contact using the supplier catalog]()
 
-[Ask a question using the supplier catalog](submit-question.md)
+[Ask a question using the supplier catalog]()
 
-[Submit an issue using the supplier catalog](submit-issue.md)
+[Submit an issue using the supplier catalog]()
 
-[Update banking details using the supplier catalog](update-supp-banking-info.md)
+[Update banking details using the supplier catalog]()
 
-[Update company profile using the supplier catalog](update-supp-profile.md)
+[Update company profile using the supplier catalog]()
 
-[Request elevated access](request-elevated-access.md)
+[Request elevated access]()
 
-[Update default supplier](update-default-supplier.md)
+[Update default supplier]()
 
-[Request something else using the supplier catalog](submit-general-request.md)
+[Request something else using the supplier catalog]()
 
-[Raising requests from the Supplier Collaboration Portal](../concept/supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 

@@ -16,7 +16,7 @@ The ServiceNow CRM portfolio is built on a shared data foundation. The data mode
 
 This shared data foundation ensures that every team works from the same information without duplication or manual synchronization.
 
-![Shows the value that service organizations can provide to companies,employes and staff, and customers](../image/crm-customer-service-value-chain.png "Customer service value chain")
+\[Omitted image "crm-customer-service-value-chain.png"\] Alt text: Shows the value that service organizations can provide to companies,employes and staff, and customers
 
 The CRM data management layer models the complete customer service value chain:
 
@@ -42,7 +42,7 @@ The CRM data foundation supports several business models that determine how cust
 
 Beyond the core business models, the Service Model Foundation \(SMF\) framework and the contributor user model extend the data foundation to support complex organizational structures and cross-functional service delivery. SMF introduces service organizations, business locations, and location-based roles that provide the flexibility to model multi-tier service structures across industries. The contributor user model enables internal employees outside the front-line service team, such as back-office specialists and middle-office workers, to participate in case resolution through scoped access and task assignment.
 
-![Shows the direct models (B2B, B2C) and the multi-level models (B2B2C, B2B2E)](../image/crm-csm-business-models.png "Customer service business models")
+\[Omitted image "crm-csm-business-models.png"\] Alt text: Shows the direct models \(B2B, B2C\) and the multi-level models \(B2B2C, B2B2E\)
 
 Together, these models and frameworks give organizations the ability to configure a CRM environment that matches how they sell, service, and support their customers.
 
@@ -104,31 +104,31 @@ Manages data privacy compliance and maintains clean, accurate customer data incl
 </td></tr></tbody>
 </table>## In this section
 
--   **[Data models](crm-data-models.md)**
+-   **[Data models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-data-models.md)**
 
     Understand the layered data architecture underpinning the CRM portfolio, including how the Now Platform, CRM Foundation, Customer Workflows \(Sales CRM, CSM, FSM\), and Industry Workflows relate to each other.
 
--   **[Customer data](crm-customer-data.md)**
+-   **[Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-customer-data.md)**
 
     Configure and manage accounts, contacts, consumers, and households, the core customer records that agents, sales teams, and technicians rely on across the CRM portfolio.
 
--   **[User management](crm-user-management.md)**
+-   **[User management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-user-management.md)**
 
     Define and organize internal and external users, assign roles and group memberships, and control access to CRM features and case data
 
--   **[Product data](crm-product-data.md)**
+-   **[Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-product-data.md)**
 
     Understand how product models, sold products, install base items, and installed products give agents and customers a shared view of what has been purchased and how it is deployed.
 
--   **[Product catalog](crm-product-catalog.md)**
+-   **[Product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-product-catalog.md)**
 
     Understand how products and services are defined in the catalog and how catalog items connect to product models to enable self-service requests and order management.
 
--   **[Service Model Foundation](crm-service-model-foundation.md)**
+-   **[Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-service-model-foundation.md)**
 
     Understand the framework that models service organizations, internal and external business locations, and the relationships between them.
 
--   **[Partner relationship management](crm-partner-relationship-mgmt.md)**
+-   **[Partner relationship management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-relationship-management/crm-partner-relationship-mgmt.md)**
 
     Understand how channel partners are onboarded, managed, and enabled to sell and support customers through partner programs, deal registration, and the partner workspace.
 

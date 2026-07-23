@@ -1,19 +1,20 @@
 ---
 title: Access demands
-description: Learn how to navigate to the Next Experience for Demand Management and open a demand from the All Demands page.
+description: Learn how to navigate to the Next Experience for Demand Management in Strategic Planning Workspace and open a demand from the All Demands page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/access-demand-workspace.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Access demands
 
-Learn how to navigate to the Next Experience for Demand Management and open a demand from the **All Demands** page.
+Learn how to navigate to the Next Experience for Demand Management in Strategic Planning Workspace and open a demand from the **All Demands** page.
 
 ## Before you begin
 
@@ -23,28 +24,47 @@ Role required: it\_demand\_user, it\_demand\_manager, sn\_ppm\_read, demand\_app
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Demands**.
 
-    Demands on the **All Demands** home page are displayed in a list view. For more information, see [Demands list view](../reference/demands-list-view.md).![All Demands home page.](../images/all-demands-home-page.png)
+    Demands on the **All Demands** page displays in a list view.\[Omitted image "all-demands-home-page.png"\] Alt text: All Demands home page.
 
-2.  Select a demand to open it.
+2.  Choose an action from the following options.
 
-    -   If a playbook is available for the demand, the **Playbook** page is displayed.
-    -   If there are no playbooks associated with the demand, the **Details** page is displayed.
-    If you select the short description of a demand, it opens the demand details in a side panel, enabling you to edit them. For more information, see [Update the demand details](update-the-demand-details-from-dw.md).
+<table id="choicetable_oln_cdb_j3c"><thead><tr><th align="left" id="d134434e97">
 
-3.  Select **Personalize fields** from More Actions to customize the **All Demands** page view.![The Personalize fields option under More Actions allows you to customize your list view.](../images/personalize-fields-demands-list.png)
+Action
 
-    |Action|Description|
-    |------|-----------|
-    |**Add columns to your page view**|Select the check box next to the required column name in **Available columns**.|
-    |**Remove columns from your page view**|Select the cross icon next to the required column name in **Selected columns**.|
+</th><th align="left" id="d134434e100">
 
-4.  Select **Apply**.
+Description
 
-    **Note:** You can also increase or reduce the area occupied by the columns in the data grid by dragging the line that separates them.
+</th></tr></thead><tbody><tr><td id="d134434e106">
+
+**Open a demand**
+
+</td><td>
+
+Select a demand.-   If a playbook is available for the demand, the **Playbook** page opens.
+-   If there are no playbooks associated with the demand, the **Details** page opens.
 
 
-**Related topics**  
+</td></tr><tr><td id="d134434e129">
 
+**Edit a demand in the side panel**
 
-[Demands list view](../reference/demands-list-view.md)
+</td><td>
 
+Select the short description of a demand. For more information, see [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/update-the-demand-details-from-dw.md).
+
+</td></tr><tr><td id="d134434e148">
+
+**Customize the __All Demands__ page view**
+
+</td><td>
+
+1.  Select **Personalize fields** from More Actions.\[Omitted image "personalize-fields-demands-list.png"\] Alt text: The Personalize fields option under More Actions enables you to customize your list view.
+    -   Add columns to your page view - select the check box next to the required column name in **Available columns**.
+    -   Remove columns from your page view - select the cross icon next to the required column name in **Selected columns**.
+2.  Select **Apply**.
+ **Note:** Increase or reduce the area occupied by the columns in the data grid by dragging the line that separates them.
+
+</td></tr></tbody>
+</table>

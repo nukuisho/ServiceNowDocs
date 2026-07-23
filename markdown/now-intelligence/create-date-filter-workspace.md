@@ -2,6 +2,7 @@
 title: Configure a Date filter in the inline editor
 description: Let users select predefined periods or specify custom start and end dates for the data on a dashboard tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-date-filter-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Let users select predefined periods or specify custom start and end dates for th
 
 ## Before you begin
 
-**Important:** This procedure assumes you’ve created a filter in the Filter designer or added a filter to your dashboard with the Date filter type. For instructions, see [Create or add a filter on an inline dashboard](select-workspace-filter-type.md) or [Create a filter in the Filter Designer](add-filter-library.md).
+**Important:** This procedure assumes you’ve created a filter in the Filter designer or added a filter to your dashboard with the Date filter type. For instructions, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md).
 
 Role required: In the dashboard inline editor: dashboard\_admin, or you must be the dashboard owner or have had editing rights shared with you.
 
@@ -29,13 +30,13 @@ For time series data visualizations showing table or indicator data, the data ag
 
 ## Procedure
 
-1.  Create a filter and select the Date filter type, as described in [Create or add a filter on an inline dashboard](select-workspace-filter-type.md) or [Create a filter in the Filter Designer](add-filter-library.md).
+1.  Create a filter and select the Date filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md).
 
 2.  Specify the data to filter.
 
     The filter is applied automatically to all Performance Analytics indicators and MetricBase KPIs on the tab or in the dashboard.
 
-    ![Data to filter section with KPIs added automatically.](../image/filter-all-kpis.png)
+    \[Omitted image "filter-all-kpis.png"\] Alt text: Data to filter section with KPIs added automatically.
 
     You can add any number of date fields on tables or Usage Insights date properties to apply the filter to. If you add a table field, you can also choose to apply the filter to the hierarchy of related tables: Parents, children, siblings, and any database views that contain the table.
 
@@ -44,13 +45,13 @@ For time series data visualizations showing table or indicator data, the data ag
     -   Choice of calendar dates or relative ranges, such as seven days or Year To Date \(YTD\)
     -   Calendar only
     -   Relative ranges only
-    ![Runtime view of date filter with both relative ranges and calendar.](../image/paw-filter-calendar-rel-ranges.png)
+    \[Omitted image "paw-filter-calendar-rel-ranges.png"\] Alt text: Runtime view of date filter with both relative ranges and calendar.
 
 4.  If you’re letting the users select from relative ranges, you can select which relative ranges they can choose from in **Select predefined ranges**.
 
-    If you have Fiscal Calendars installed and configured, you can select from fiscal calendar ranges. For more information, see [Defining fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).
+    If you have Fiscal Calendars installed and configured, you can select from fiscal calendar ranges. For more information, see [Defining fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_FiscalCalendar.md).
 
-    ![Select Predefined Ranges picker showing fiscal calendar options.](../image/filters-fiscal-calendar.png)
+    \[Omitted image "filters-fiscal-calendar.png"\] Alt text: Select Predefined Ranges picker showing fiscal calendar options.
 
 5.  To let users filter on the time in hours and minutes instead of only the date, enable **Allow time selection**.
 
@@ -67,12 +68,12 @@ The filter is ready to use when you exit editing mode.
 
 ## What to do next
 
-If you have the required roles, add the filter to the filter library. You can also reconfigure, delete, or duplicate the filter. For more information, see [Edit a Platform Analytics filter on a dashboard](edit-filters-configurable-workspaces.md).
+If you have the required roles, add the filter to the filter library. You can also reconfigure, delete, or duplicate the filter. For more information, see [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md).
 
 **Related topics**  
 
 
-[Edit a Platform Analytics filter on a dashboard](edit-filters-configurable-workspaces.md)
+[Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md)
 
-[Configure a data visualization to follow filters or not](configure-dv-follow-filters-or-not.md)
+[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-dv-follow-filters-or-not.md)
 

@@ -2,13 +2,14 @@
 title: RMF step 3 - Implement controls
 description: After you have selected controls for implementation and performed any of the possible actions on them, you can implement the controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/implement-controls.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # RMF step 3 - Implement controls
@@ -29,15 +30,13 @@ The **Controls** related list contains all of the controls created from the cont
 
 1.  From the list of controls, select the control number \(with a CTRL prefix\) to open the control.
 
-    ![Control](../image/control-implement.png)
-
 2.  The implementation process performed by your system owner and other technical or security personnel employs the control management workflow inherent in the base GRC system.
 
     For details, see the following:
 
-    -   [Manage controls](../../grc-policy-and-compliance/concept/c_GRCControls.md)
-    -   [Manage control attestations](../../grc-policy-and-compliance/concept/c_Attestations.md#)
-    -   [Manage control indicators](../../grc-policy-and-compliance/concept/manage-indicators-policy-comp.md#)
+    -   [Manage controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md)
+    -   [Manage control attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md)
+    -   [Manage control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-indicators-policy-comp.md)
 3.  The **Percentage of controls implemented** field keeps track of your progress while you implement the controls.
 
 4.  After you have completed the implementation process for all controls, select **Assess** to transition the package to the **Assess** state.

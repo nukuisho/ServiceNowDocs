@@ -2,6 +2,7 @@
 title: Database Administrator \(DBA\) report discovery
 description: Discovery and Service Mapping uses the Patterns extension sections to provide a Database Administrator report \(DBA report\) for the Apache Cassandra, Microsoft SQL, MySQL, MongoDB, and Oracle databases. The extension sections for each DB pattern populate the related entries tables. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/dba-report-discovery-pattern.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -18,7 +19,7 @@ Discovery and Service Mapping uses the Patterns extension sections to provide a 
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -39,7 +40,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of the credentials**
 
-    For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md).
+    For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
 
 <table id="table_uzm_pxs_lyb"><tbody><tr><td>
 
@@ -112,7 +113,7 @@ Discovery credentials should have read access to: -   Run `“lsnrctl services�
 </td></tr></tbody>
 </table>-   **Verify that a Discovery schedule is configured**
 
-    For more information, see [create a discovery schedule](running-discoveries.md)
+    For more information, see [create a discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md)
 
 
 ## Data collected by the extension section of the Apache Cassandra pattern
@@ -683,5 +684,5 @@ Oracle Top 10 Queries
 -   ci
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Database discovery](database-discovery.md)
+</table>**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/database-discovery.md)
 

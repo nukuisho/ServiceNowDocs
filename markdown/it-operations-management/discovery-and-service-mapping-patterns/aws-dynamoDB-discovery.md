@@ -2,6 +2,7 @@
 title: Amazon DynamoDB discovery using Patterns
 description: The ServiceNow Discovery and Service Mapping applications use the Amazon AWS DynamoDB pattern to find components of DynamoDB. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-dynamoDB-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -21,7 +22,7 @@ The ServiceNow AI Platform supports Amazon Commercial Cloud Services \(C2S\) for
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -53,7 +54,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **MID Server**
 
-    When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
+    When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_MIDServerSystemRequirements.md).
 
 -   **Discovery schedule**
 
@@ -256,7 +257,7 @@ The choices are:-   Enabled
 </td></tr></tbody>
 </table>The graphic illustrates CIs that are part of DynamoDB discovery.
 
-![DynamoDB components](../image/DynamoDB-components.png "Dependency Views showing DynamoDB components")
+\[Omitted image "DynamoDB-components.png"\] Alt text: DynamoDB components
 
 ## CI relationships
 
@@ -313,10 +314,10 @@ The Pattern Designer fails because of a timeout during pattern debugging \(and n
 By default, the **sa.debugger.max\_timeout**parameter is set to 240 seconds.Increase the value of this parameter on the relevant MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+</table>**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 
 **Related topics**  
 
 
-[Define a Cloud REST Query for cloud computing devices](../task/cloud-rest-query-pattern.md)
+[Define a Cloud REST Query for cloud computing devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/cloud-rest-query-pattern.md)
 

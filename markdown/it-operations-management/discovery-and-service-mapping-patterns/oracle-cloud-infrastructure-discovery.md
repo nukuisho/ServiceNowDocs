@@ -2,6 +2,7 @@
 title: Oracle Cloud Infrastructure \(OCI\) discovery
 description: ServiceNow Discovery uses the Oracle Cloud Infrastructure \(OCI\) discovery patterns to provide real-time elasticity for enterprise applications by combining Oracle autonomous services, integrated security, and cloud compute. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-infrastructure-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -20,7 +21,7 @@ Starting with version 1.29.0, Discovery and Service Mapping Patterns supports th
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -34,27 +35,26 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Discovery and Service Mapping Patterns
 -   **Configure Oracle API credentials**
 
-    Ensure that your OCI credentials are configured and that your private and public keys are converted to the RSA format. For more information, see [Create Oracle API credentials](../../it-operations-management/task/create-oracle-api-credentials.md).
+    Ensure that your OCI credentials are configured and that your private and public keys are converted to the RSA format. For more information, see [Create Oracle API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-oracle-api-credentials.md).
 
 -   **Create OCI service account**
 
-    For more information, see [Create OCI service accounts](../../it-operations-management/task/create-oci-service-accounts.md).
+    For more information, see [Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-oci-service-accounts.md).
 
 -   **Create a cloud discovery schedule**
 
-    To run a cloud discovery at scale, see [Create an OCI Discovery schedule in Discovery Admin Workspace](../../discovery/task/create-oci-schedule-DAW.md).
+    To run a cloud discovery at scale, see [Create an OCI Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-oci-schedule-DAW.md).
 
     Create a discovery schedule to run LDCs on.
 
     1.  Navigate to **Discovery** &gt; **Discovery Schedules**.
-    2.  Click the **Cloud Discovery** button.
-    3.  In the **Provider** field, select **OCI**. Fill in the form to create a new account or select an existing one. For more information, see [Create OCI service accounts](../../it-operations-management/task/create-oci-service-accounts.md).
+    2.  Select **Cloud Discovery**.
+    3.  In the **Provider** field, select **OCI**. Fill in the form to create an account or select an existing one. For more information, see [Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-oci-service-accounts.md).
     4.  On the **Select Datacenters** page, filter which LDCs you want to run the discovery.
-    5.  Under the **Discover Virtual Machines \(optional\)** page, select if you want to run VM OS Discovery.
-    6.  When you're finished, navigate to the **Create Schedule** page and select the **Finish and Run** button.
+    5.  When you're finished, navigate to the **Create Schedule** page and select **Finish and Run**.
 -   **\(Optional\) Populate Service Account and Logical Datacenter fields in cloud CIs**
 
-    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables](../concept/query-service-account-ldc-fields.md).
+    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables]().
 
 
 ## Verify the REST API Permissions
@@ -192,5 +192,5 @@ Tags are populated to the **cmdb\_key\_value** table and related to the relevant
 |cmdb\_ci\_vm\_instance|DR provided by::Provides DR for|cmdb\_ci\_avaliability\_zone|
 |cmdb\_ci\_avaliability\_zone|Contains::Contained by|cmdb\_ci\_vm\_instance|
 
-**Parent Topic:**[Available cloud discovery patterns](../concept/available-patterns-cloud.md)
+**Parent Topic:**[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 

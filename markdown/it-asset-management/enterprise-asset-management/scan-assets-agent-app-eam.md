@@ -2,13 +2,14 @@
 title: Complete a single scan enterprise asset inventory audit using the ServiceNow Agent app
 description: Scan your inventory assets by using the ServiceNow Agent app for single scan audit records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/scan-assets-agent-app-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage enterprise asset inventory audit using the ServiceNow Agent app, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage enterprise asset inventory audit using the ServiceNow Agent app, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Complete a single scan enterprise asset inventory audit using the ServiceNow Agent app
@@ -45,13 +46,13 @@ Role required: sn\_eam.enterprise\_admin, sn\_eam.enterprise\_asset\_manager, sn
 
     The List of assets and models screen is displayed, showing the scanned asset record.
 
-    **Note:** When the scanned asset record doesn't exist in your ServiceNow instance, the List of assets and models screen is empty. You can create an asset record for the new asset in the inventory. For more information, see [Create an enterprise asset from the inventory audit screen](inventory-audit-create-asset-eam.md).
+    **Note:** When the scanned asset record doesn't exist in your ServiceNow instance, the List of assets and models screen is empty. You can create an asset record for the new asset in the inventory. For more information, see [Create an enterprise asset from the inventory audit screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/inventory-audit-create-asset-eam.md).
 
 10. On the List of assets and models screen, slide the scanned asset record to the left side.
 
     The Audit option is displayed on the screen.
 
-    ![Audit option for single scan method](../../hardware-asset-management/image/single-scan-audit-option.png)
+    \[Omitted image "single-scan-audit-option.png"\] Alt text: Audit option for single scan method
 
 11. Tap **Audit**.
 
@@ -70,7 +71,7 @@ Role required: sn\_eam.enterprise\_admin, sn\_eam.enterprise\_asset\_manager, sn
 
 ## Result
 
-The audit result field values are updated on the **Details** tab screen. For a detailed field description, see [Audit results](../reference/audit-results-eam.md).
+The audit result field values are updated on the **Details** tab screen. For a detailed field description, see [Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/audit-results-eam.md).
 
 ## What to do next
 
@@ -80,7 +81,7 @@ The audit result field values are updated on the **Details** tab screen. For a d
 **Related topics**  
 
 
-[Audit results](../reference/audit-results-eam.md)
+[Audit results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/audit-results-eam.md)
 
-[Create an enterprise asset from the inventory audit screen](inventory-audit-create-asset-eam.md)
+[Create an enterprise asset from the inventory audit screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/inventory-audit-create-asset-eam.md)
 

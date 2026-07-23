@@ -2,6 +2,7 @@
 title: Effectiveness form
 description: This form enables you to add the effectiveness information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-effectiveness-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,5 +21,5 @@ This form enables you to add the effectiveness information.
 |Effectiveness reason code|Reason why the plan was not fully effective \(if applicable\).|
 |Effectiveness notes|Additional notes on review result, failures, or supporting evidence.|
 
-**Parent Topic:**[General form](mco-general-form.md)
+**Parent Topic:**[General form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-general-form.md)
 

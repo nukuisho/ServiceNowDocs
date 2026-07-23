@@ -2,6 +2,7 @@
 title: IBM Virtualization and Hardware Management Console discovery
 description: The Discovery and Service Mapping Patterns application uses the IBM HMC Server pattern to find information about Hardware Management Console \(HMC\), frame, and logical partition \(LPAR\) servers. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -31,7 +32,7 @@ The IBM HMC Server pattern runs using SSH. It’s supported to run on IBM AIX OS
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -46,17 +47,17 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
         -   `lssysconn -r all -F type_model_serial_num:ipaddr`
     -   Verify you have permissions for the following AIX \(LPAR\) command: `lparstat -i`.
 
-        **Note:** The `lparstat -i` command is in addition to the commands required for AIX server discovery. For more information on AIX server discovery, see [AIX server discovery](../../discovery/reference/r_DataCollDiscoAIXComputers.md). For a list of the AIX commands, see [Service Mapping commands requiring a privileged user](r_CommandsnCredentials.md).
+        **Note:** The `lparstat -i` command is in addition to the commands required for AIX server discovery. For more information on AIX server discovery, see [AIX server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoAIXComputers.md). For a list of the AIX commands, see [Service Mapping commands requiring a privileged user]().
 
 -   **Configure SSH credentials**
 
-    Configure SSH credentials on the ServiceNow AI Platform. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+    Configure SSH credentials on the ServiceNow AI Platform. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
 
 -   **Run a horizontal discovery for HMC Server and LPARs**
 
     1.  Run a discovery on the HMC IP address.
     2.  Only when the HMC Server discovery has successfully completed, run a discovery on the LPARs using the AIX machine IP address.
-    For more information on running a discovery, see [Schedule a horizontal discovery](../../discovery/task/t_CreateADiscoverySchedule.md#).
+    For more information on running a discovery, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -323,5 +324,5 @@ Discovery creates these relationships to support the IBM Virtualization and HMC 
 |IBM HMC Processor Pool \[cmdb\_ci\_processor\_pool\]|Members::Member of|IBM LPAR Instance \[cmdb\_ci\_lpar\_instance\]|
 |IBM LPAR Instance \[cmdb\_ci\_lpar\_instance\]|References|IBM Frame \[cmdb\_ci\_ibm\_frame\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

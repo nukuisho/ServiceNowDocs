@@ -2,6 +2,7 @@
 title: Managing print cases
 description: Filter workplace cases using criteria such as the Short Description, Workplace Location, or other relevant fields to generate a consolidated report.Use filter criteria to filter multiple cases and generate a consolidated report based on the filtered cases. You can set the condition based on the Short description, workplace location, or any other fields. When you run the filter and select Print filter selection, a new workplace task is created with the consolidated report as an attachment.Print a consolidated report, including child cases and associated services, by selecting one or more workplace cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/manage-case-print.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -20,18 +21,18 @@ Use one of the following options to proceed:
 -   Print Filter Selection – Apply filters and select this option to create a workplace task with the consolidated report attached.
 -   Print Selected Records – Manually select one or more workplace cases and choose this option to view the consolidated report directly.
 
-**Parent Topic:**[Managing Workplace cases](manage-workplace-cases.md)
+**Parent Topic:**[Managing Workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/manage-workplace-cases.md)
 
 **Related topics**  
 
 
-[View and track workplace cases](../task/view-workplace-cases.md)
+[View and track workplace cases]()
 
-[View emergency maintenance case details](../task/view-emergency-maint-case.md)
+[View emergency maintenance case details]()
 
-[View change event reservation case details](../task/view-case-change-event-reservation.md)
+[View change event reservation case details]()
 
-[Print workplace cases](../task/print-workplace-cases.md)
+[Print workplace cases]()
 
 ## Print filtered cases
 

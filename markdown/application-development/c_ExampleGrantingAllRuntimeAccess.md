@@ -2,6 +2,7 @@
 title: Example granting all runtime access to a table
 description: You can permit some or all runtime script API and web service calls from other application scopes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ExampleGrantingAllRuntimeAccess.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,11 +25,11 @@ Granting access requires setting the following values in the table record.
 |**Can delete**|Enabled|
 |**Allow access to this table via web services**|Enabled|
 
-![Granting other application scopes all runtime access permissions](../image/GrantingAllRuntimeAccess.png "Granting other application scopes all runtime access permissions")
+\[Omitted image "GrantingAllRuntimeAccess.png"\] Alt text: Granting other application scopes all runtime access permissions
 
 The following diagram illustrates the effect of granting access to application tables from API calls and web services in other application scopes.
 
-![Granted access to application tables](../image/EffectsOfGrantAllRuntimeAccess.png "Granted access to application tables")
+\[Omitted image "EffectsOfGrantAllRuntimeAccess.png"\] Alt text: Granted access to application tables
 
-**Parent Topic:**[Runtime access to applications tables](c_RuntimeAccessToAppTables.md)
+**Parent Topic:**[Runtime access to applications tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_RuntimeAccessToAppTables.md)
 

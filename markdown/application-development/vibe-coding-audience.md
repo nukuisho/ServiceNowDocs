@@ -1,21 +1,22 @@
 ---
 title: Who should use this guide
-description: This guide provides a holistic view of vibe coding and using AI to develop apps on the ServiceNow AI Platform. It helps you understand the range of AI-assisted development approaches available, from fully automated code generation to AI-assisted development workflows.
+description: This guide provides a holistic view of agentic development on the ServiceNow AI Platform. It helps you understand the range of agentic development approaches available, from fully automated code generation to agentic development workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-audience.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Explore, Vibe coding and AI-assisted development, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Who should use this guide
 
-This guide provides a holistic view of vibe coding and using AI to develop apps on the ServiceNow AI Platform. It helps you understand the range of AI-assisted development approaches available, from fully automated code generation to AI-assisted development workflows.
+This guide provides a holistic view of agentic development on the ServiceNow AI Platform. It helps you understand the range of agentic development approaches available, from fully automated code generation to agentic development workflows.
 
 ## Intended audience
 
-This guide is for a range of people vibe coding and using AI to develop apps on the ServiceNow AI Platform. The intended audience is:
+This guide is for a range of people building apps agentically on the ServiceNow AI Platform. The intended audience is:
 
 -   ServiceNow developers who want to use AI to accelerate app development on ServiceNow. You may be:
     -   New to ServiceNow but experienced with full-stack development
@@ -25,17 +26,17 @@ This guide is for a range of people vibe coding and using AI to develop apps on 
 -   ServiceNow developers who want to incorporate AI into their existing workflows. You may be:
     -   Experienced with the ServiceNow platform and wanting to explore AI tooling
     -   Looking to improve development speed and efficiency
-    -   Seeking guidance on general guidelines for AI-assisted development
+    -   Seeking guidance on general guidelines for agentic development
     -   Evaluating which AI tools best fit your use case
 
 **Note:** Build Agent requires the admin role.
 
 ## What this guide covers
 
-The term "vibe coding" can encompass a spectrum of AI-assisted development approaches:
+Agentic development encompasses a spectrum of approaches:
 
--   Autonomous code generation: At one end of the spectrum, some definitions of vibe coding involve providing a high-level description and letting AI generate, test, and deploy code without manual review. This approach prioritizes speed and simplicity.
--   AI-assisted development: At the other end of the spectrum, AI serves as a collaborative tool that generates code suggestions, automates repetitive tasks, and accelerates development, while developers review, refine, and maintain ownership of the final code. This approach emphasizes understanding and supportability.
+-   Autonomous code generation: At one end of the spectrum, agentic development involves providing a high-level description and letting AI generate, test, and deploy code without manual review. This approach prioritizes speed and simplicity.
+-   Agentic development: At the other end of the spectrum, AI serves as a collaborative tool that generates code suggestions, automates repetitive tasks, and accelerates development, while developers review, refine, and maintain ownership of the final code. This approach emphasizes understanding and supportability.
 
 ServiceNow provides tools across the development spectrum. This guide helps you understand:
 
@@ -46,7 +47,7 @@ ServiceNow provides tools across the development spectrum. This guide helps you 
 
 ## What this guide does not cover
 
-This guide focuses on AI-assisted development tools and workflows. It does not cover the following topics:
+This guide focuses on agentic development tools and workflows. It does not cover the following topics:
 
 -   Low-code/no-code development tools like Creator Studio or Catalog Builder
 -   Traditional ServiceNow development without AI assistance

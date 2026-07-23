@@ -2,6 +2,7 @@
 title: Update the data source of the connector
 description: Link the duplicated ETL to a valid data source for your specific connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/update-data-source-of-the-connector.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The following screenshot can help you to replace the default source with your connector's data source.![Specify basic details user interface displaying the selection of data source to replace the default data source](../images/replace-datasource.png)
+The following screenshot can help you to replace the default source with your connector's data source.\[Omitted image "replace-datasource.png"\] Alt text: Specify basic details user interface displaying the selection of data source to replace the default data source
 
 ## Procedure
 
@@ -39,5 +40,5 @@ The following screenshot can help you to replace the default source with your co
 **Related topics**  
 
 
-[Deploy a new service graph connector with existing ETL](deploy-a-new-service-graph-connector-with-duplicated-etl.md)
+[Deploy service graph connector with existing ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/deploy-a-new-service-graph-connector-with-duplicated-etl.md)
 

@@ -2,6 +2,7 @@
 title: Create Record action
 description: Creates a record on any table. You can dynamically add and configure fields for the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-record-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -35,7 +36,7 @@ Provide a value for each input that your flow needs. To add dynamic values, you 
 
     Field values to set for the record. For example, to set the short description to a certain value, select **Short description** and set the desired value.
 
-    To learn about creating template value input, see [Create a template value input](../task/template-value.md).
+    To learn about creating template value input, see [Create a template value input]().
 
     **Important:** The system does not support updating multiple journal fields such as the additional comments or work notes of a task record.
 
@@ -59,13 +60,13 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 ## Create a problem record from an incident record
 
-![Create Problem Record where the Parent is set to the incident Sys ID, the Category is Network, and the Problem Statement is set.](../images/example-create-record-action.png)
+\[Omitted image "example-create-record-action.png"\] Alt text: Create Problem Record where the Parent is set to the incident Sys ID, the Category is Network, and the Problem Statement is set.
 
 In this example, the flow runs when a priority 1 network incident changes to the resolved state. The Create Record action creates a problem record where the Parent is set to the trigger incident's Sys ID, the Category is set to Network, and Problem statement is set to Determine the cause of the trigger incident's number.
 
-![Execution details for PRB00400002, which was created from INC0000002](../images/example-create-record-action-execution-details.png)
+\[Omitted image "example-create-record-action-execution-details.png"\] Alt text: Execution details for PRB00400002, which was created from INC0000002
 
 In this example, the action creates problem record PRB00400002, which was created from INC0000002. You can use the Record runtime value to open the new record.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

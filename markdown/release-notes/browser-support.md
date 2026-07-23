@@ -2,6 +2,7 @@
 title: Browser support
 description: Browser support varies for each version of the user interface \(UI\). Some features have additional browser requirements, which are noted in the appropriate documentation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/browser-support.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

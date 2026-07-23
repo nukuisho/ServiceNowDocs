@@ -2,6 +2,7 @@
 title: Question form for use case setup
 description: The Question form enables you to define a question you want to ask about the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/document-qna-single-field-form.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -50,7 +51,7 @@ Field Type
 
 The type of field \(for example, a text or Boolean field\).
 
- For more information, see [Field types in Now Assist in Document Intelligence](now-assist-document-intelligence-field-types.md).
+ For more information, see [Field types in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-field-types.md).
 
 </td></tr><tr><td>
 
@@ -97,12 +98,12 @@ Create multiple single fields
 Option to keep the form displayed on the screen. Enable this if you are adding more than one questionto the use case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist in Document Intelligence forms](now-assist-document-intelligence-forms.md)
+</table>**Parent Topic:**[Now Assist in Document Intelligence forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/now-assist-document-intelligence-forms.md)
 
 **Related topics**  
 
 
-[Field form for use case setup](document-extraction-single-field-form.md)
+[Field form for use case setup]()
 
-[Table form for use case setup](document-extraction-table-form.md)
+[Table form for use case setup]()
 

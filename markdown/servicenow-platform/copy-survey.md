@@ -2,6 +2,7 @@
 title: Copy a survey
 description: Create a copy of a survey with at least one category to reduce the effort of creating another survey with similar data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/copy-survey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,15 +32,15 @@ All associated questions \(type\), configurations, categories, metrics, domain s
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_vbb_qcl_l2b"><thead><tr><th align="left" id="d139842e89">
+<table id="choicetable_vbb_qcl_l2b"><thead><tr><th align="left" id="d147181e89">
 
 Option
 
-</th><th align="left" id="d139842e92">
+</th><th align="left" id="d147181e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d139842e98">
+</th></tr></thead><tbody><tr><td id="d147181e98">
 
 **From Platform**
 
@@ -47,7 +48,7 @@ Description
 
 In the title bar, click **Copy**.
 
-</td></tr><tr><td id="d139842e110">
+</td></tr><tr><td id="d147181e110">
 
 **From Platform**
 
@@ -55,52 +56,52 @@ In the title bar, click **Copy**.
 
 In the title bar, select **Copy** from the context menu.
 
-</td></tr><tr><td id="d139842e122">
+</td></tr><tr><td id="d147181e122">
 
 **From survey designer**
 
 </td><td>
 
 1.  In the title bar, click Survey Designer.
-2.  In the Survey Designer title bar, point to the menu icon \(![Menu icon](../image/Menu.png)\) on the header bar and click **Copy Survey**
+2.  In the Survey Designer title bar, point to the menu icon \(\[Omitted image "Menu.png"\] Alt text: Menu icon\) on the header bar and click **Copy Survey**
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](../concept/c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Survey users and groups](../concept/c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Publish a survey](t_PublishASurvey.md)
+[Publish a survey]()
 
-[Customize the appearance of a survey](t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Survey definitions](../concept/c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Create a survey designer template question](t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](../concept/c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](../concept/c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](../concept/c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Sentiment analysis for surveys](../concept/sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](../concept/c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](../concept/survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](../concept/c_MigrateSurveys.md)
+[Legacy survey migration]()
 

@@ -1,21 +1,22 @@
 ---
 title: MCP Server Console
-description: MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform functionality into any external MCP client and employee experience over the Model Context Protocol
+description: MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform functionality into any external MCP client and employee experience over the Model Context Protocol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mcp-platform-manager-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-08-08"
 reading_time_minutes: 3
 breadcrumb: [Enable AI experiences]
 ---
 
 # MCP Server Console
 
-MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol
+MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows or AI agents. For more information see [ServiceNow product tiers](../../ai-implementation/concept/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows or AI agents. For more information see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-MCP Server Console overview 
+\[Omitted video\] Description: MCP Server Console overview
 
 In this video, learn about the Model Context Protocol and how to create and use MCP servers with MCP Server Console.
 
@@ -23,19 +24,19 @@ In this video, learn about the Model Context Protocol and how to create and use 
 
 <table id="table_iym_jph_ggc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about MCP Server Console.](exploring-mcp-server-console.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about MCP Server Console.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-mcp-server-console.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Create an MCP server and configure its tools.](configuring-mcp-server-console.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Create an MCP server and configure its tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
 
 </td></tr><tr><td>
 
-[Connect![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Call an MCP server from an MCP client.](connect-mcp-server-client.md#)
+[Connect\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Call an MCP server from an MCP client.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-client-connect-server.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components installed with MCP Server Console.](mcp-server-console-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components installed with MCP Server Console.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
 
 </td></tr></tbody>
 </table>## AI limitations
@@ -48,7 +49,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](../../now-assist-admin/task/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](../../now-assist-platform/concept/platform-now-assist-landing.md).
+For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 

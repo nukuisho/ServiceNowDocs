@@ -2,6 +2,7 @@
 title: Manage model providers
 description: Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/edit-model-providers.html
 release: australia
 topic_type: task
 last_updated: "2025-07-02"
@@ -28,7 +29,7 @@ Let's take an example of editing the model provider for skill group.
 
 3.  Select **Manage model providers**.
 
-    ![Manage model providers](../image/na-admin-edit-model-providers.png)
+    \[Omitted image "na-admin-edit-model-providers.png"\] Alt text: Manage model providers
 
 4.  Select **Edit model provider** to edit the model provider for the instance or customize it to update it at the skill or skill group level.
 
@@ -50,7 +51,7 @@ Let's take an example of editing the model provider for skill group.
 
 7.  Select **Customize** to select the model provider for a particular skill or skill group.
 
-    ![Custom edit model provider](../image/na-admin-edit-model-custom.png)
+    \[Omitted image "na-admin-edit-model-custom.png"\] Alt text: Custom edit model provider
 
     1.  Select the **Default model provider** for specific skill or skill group.
 
@@ -58,7 +59,7 @@ Let's take an example of editing the model provider for skill group.
 
     2.  Select **Save and activate** to update your selection.
 
-    **Note:** The Websearch AI search answers skill is only compatible with Google Gemini as the LLM provider. If you want to change the LLM provider to Azure OpenAI for this skill, see [Configure AI search answers capability for web search](../../generative-ai-controller/task/configure-ai-search-answers-capability-for-web-search.md) for more information.
+    **Note:** The Websearch AI search answers skill is only compatible with Google Gemini as the LLM provider. If you want to change the LLM provider to Azure OpenAI for this skill, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md) for more information.
 
 8.  Select **Cancel, go back** to revert or **Yes, activate** to save the updates.
 
@@ -79,5 +80,5 @@ Let's take an example of editing the model provider for skill group.
 11. Follow similar steps for editing the model provider for a particular skill.
 
 
-**Parent Topic:**[Manage AI models](manage-large-language-models.md)
+**Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md)
 

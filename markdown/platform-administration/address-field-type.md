@@ -2,6 +2,7 @@
 title: Address \(Simple\) field type
 description: The Address \(Simple\) field type provides real-time address suggestions as you enter text to reduce manual entry errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/address-field-type.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,10 +31,10 @@ To configure the Address field to a form, complete the following setup:
 
 1.  Add the Address \(Simple\) field to a table to store and display data.
 
-    For more information, see [Add and customize a field in a table](../task/t_CreatingNewFields.md).
+    For more information, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
 
 2.  Configure the address suggestions API in system properties.
 
-    For more information, see [Configure address suggestion properties](../task/configure-address-suggestion-properties.md).
+    For more information, see [Configure address suggestion properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-address-suggestion-properties.md).
 
 

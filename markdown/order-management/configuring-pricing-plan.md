@@ -2,9 +2,10 @@
 title: Configurable pricing plans
 description: Pricing Management provides a default pricing plan that defines the sequence of steps in which pricing calculations and adjustments are applied to determine final product prices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-pricing-plan.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -22,7 +23,7 @@ The default pricing plan is an active, published plan that is automatically impl
 -   Review the new steps for calculating net pricing in quotes and orders: Net Price Calculation, Line Rollup, and Header Rollup. The rollup steps calculate the roll-up values for configurable products and the header-level values in quotes and orders. This pricing functionality for quotes and orders existed in previous releases, but was not included in the default pricing plan.
 -   To maintain the net pricing and rollup functionality for quotes and orders, retain the Net Price Calculation, Line Rollup, and Header Rollup steps in your custom pricing plan.
 
-![Sequence of steps in the default pricing plan, described in the following table](../image/default-pricing-plan-q42025.png "Default Pricing Plan steps")
+\[Omitted image "default-pricing-plan-q42025.png"\] Alt text: Sequence of steps in the default pricing plan, described in the following table
 
 The default plan consists of basic pricing steps in which certain actions are run to calculate product offering prices.
 
@@ -56,7 +57,7 @@ Fetch Base Cost
 
 </td><td>
 
-Get costs from a [cost book](../task/create-cost-books.md), if your organization is using cost books in Quote Management.
+Get costs from a [cost book](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-cost-books.md), if your organization is using cost books in Quote Management.
 
 </td></tr><tr><td>
 
@@ -72,7 +73,7 @@ Fetch Base List Price
 
 </td><td>
 
-Get the list price for all requested products based on the [price list](../task/som-create-price-list.md), unit of measurement, and data provided to the pricing API.
+Get the list price for all requested products based on the [price list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-create-price-list.md), unit of measurement, and data provided to the pricing API.
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ Apply Renewal Adjustment
 Apply a renewal adjustment for contracts. This step determines whether a markup or markdown value, either a percentage or specific amount, such as a pricing uplift for contract renewals, is to be calculated and applied. **Note:**
 
 -   Subsequent pricing adjustment steps in the pricing plan aren’t applied after this renewal adjustment step.
--   You can change or remove this step in a custom pricing plan. You can also change the conditions for running subsequent steps after the renewal adjustment step. For details on changing conditions for a particular step, see [Add or change a pricing plan step](../task/add-pricing-step.md).
+-   You can change or remove this step in a custom pricing plan. You can also change the conditions for running subsequent steps after the renewal adjustment step. For details on changing conditions for a particular step, see [Add or change a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-pricing-step.md).
 
 </td></tr><tr><td>
 
@@ -172,9 +173,9 @@ The default pricing plan is fixed, to preserve the default pricing logic. You ca
 
 As a pricing admin or manager, follow these steps to define a custom pricing plan:
 
--   [Create a configurable pricing plan](../task/create-custom-pricing-plan.md) \(copy the default plan\).
--   [Add or change a pricing plan step](../task/add-pricing-step.md). In your configurable pricing plan, you can add one or more pricing steps for pricing adjustments, including any conditions for running the step. If needed, you can also change the sequence of the adjustment step.
--   [Delete a pricing plan step](../task/delete-pricing-plan-step.md), if needed.
+-   [Create a configurable pricing plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-custom-pricing-plan.md) \(copy the default plan\).
+-   [Add or change a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/add-pricing-step.md). In your configurable pricing plan, you can add one or more pricing steps for pricing adjustments, including any conditions for running the step. If needed, you can also change the sequence of the adjustment step.
+-   [Delete a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/delete-pricing-plan-step.md), if needed.
 
 As you add or change pricing steps, the system validates your entries, such as the sequence number, price point, and calculation type. When you finish adding or changing steps, publish the configurable pricing plan to make it active. The former active plan is retired.
 

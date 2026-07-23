@@ -2,16 +2,24 @@
 title: Manage contacts from Business Portal
 description: Create and update customer contacts, assign roles to contacts, and enable or disable contact login from the business portal.Use the Create Contact catalog item to create a customer contact from the business portal.Update the contact information for a user from the business portal.Enable or disable the login for a contact from the business portal to control user access to the portal.Assign one or more user roles to a contact from the business portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_ManageUsersFrom-business-Portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 5
 breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Manage contacts from Business Portal
 
 Create and update customer contacts, assign roles to contacts, and enable or disable contact login from the business portal.
+
+**Related topics**  
+
+
+[Manage customer registration requests from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-cust-registration-requests-business-portal.md)
+
+[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_ManageUsersFrom-business-Portal.md)
 
 ## Create a customer contact
 
@@ -70,9 +78,20 @@ By selecting the **Create Contact** catalog item, you can add the details for a 
 7.  Select **Save** to update the record.
 
 
+**Related topics**  
+
+
+[Update contact information for a user]()
+
+[Enable or disable the login for a contact]()
+
 ## Update contact information for a user
 
 Update the contact information for a user from the business portal.
+
+### About this task
+
+Customer admins and partner admins can update contact details for users in their company directly from the business portal. Keeping contact information current helps ensure that cases, notifications, and communications reach the right person.
 
 ### Before you begin
 
@@ -107,6 +126,13 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
 6.  Select **Save**.
 
 
+**Related topics**  
+
+
+[Create a customer contact]()
+
+[Assign user roles to a contact]()
+
 ## Enable or disable the login for a contact
 
 Enable or disable the login for a contact from the business portal to control user access to the portal.
@@ -125,15 +151,15 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
 
 4.  In the Actions list, select one of the following links, as required.
 
-<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d180479e762">
+<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d185204e831">
 
 Choice
 
-</th><th align="left" id="d180479e765">
+</th><th align="left" id="d185204e834">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d180479e771">
+</th></tr></thead><tbody><tr><td id="d185204e840">
 
 **Disable login**
 
@@ -141,7 +167,7 @@ Description
 
 Disables the login for this contact. When the login is inactive, the contact can’t access the business portal.This link is displayed if the login is enabled.
 
-</td></tr><tr><td id="d180479e783">
+</td></tr><tr><td id="d185204e852">
 
 **Enable login**
 
@@ -151,6 +177,13 @@ Enables the login for this contact.This link is displayed if the login is disabl
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[Create a customer contact]()
+
+[Assign user roles to a contact]()
+
 ## Assign user roles to a contact
 
 Assign one or more user roles to a contact from the business portal.
@@ -181,4 +214,9 @@ Use the Edit Role pop-up window to manage the roles for a contact. Contacts must
 
     **Note:** If there are no roles in the **Selected** column, the system displays an error message and the column resets to display the originally assigned roles.
 
+
+**Related topics**  
+
+
+[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

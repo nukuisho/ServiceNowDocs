@@ -2,6 +2,7 @@
 title: Overview of CMDB
 description: The Configuration Management Database \(CMDB\) creates and maintains the logical configurations your network infrastructure needs to support a ServiceNow service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cnfig-mgmt-and-cmdb.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,7 +16,7 @@ breadcrumb: [Explore, Configuration Management Database \(CMDB\), Configuration 
 
 The Configuration Management Database \(CMDB\) creates and maintains the logical configurations your network infrastructure needs to support a ServiceNow service.
 
-CMDB Overview 
+\[Omitted video\] Description: CMDB Overview
 
 In CMDB, the logical service configurations are mapped to the physical layout data of the supporting network and application infrastructure in each of your respective domains. They track the physical and logical state of IT service elements and associate incidents to the state of service elements, which helps in analyzing trends and reducing problems and incidents.
 
@@ -48,17 +49,17 @@ To extend the CMDB you can [activate](https://raw.githubusercontent.com/ServiceN
 
 Sets of CIs that share attributes are stored in their own class table. All CMDB tables are connected by relationships and inherit attributes from each other to form a web of tables referred to as the CMDB hierarchy.
 
-Use the [CI Class Manager](../reference/ci-class-manager-landing-page.md) to manage CMDB classes within the CMDB hierarchy, CMDB Health, and other class-related definitions. For example, in the CI Class Manager you can view class attributes, class identification rules, and the list of CIs for a specific class. To view the list of CIs in the CMDB, you can also enter `cmdb_ci_list.do` in the filter navigator.
+Use the [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md) to manage CMDB classes within the CMDB hierarchy, CMDB Health, and other class-related definitions. For example, in the CI Class Manager you can view class attributes, class identification rules, and the list of CIs for a specific class. To view the list of CIs in the CMDB, you can also enter `cmdb_ci_list.do` in the filter navigator.
 
 ## Architecture
 
-![Components and data flow of the CMDB](../image/CMDBArchitecture_NewBrand.png)
+\[Omitted image "CMDBArchitecture\_NewBrand.png"\] Alt text: Components and data flow of the CMDB
 
 ## Related tables
 
 There are tables that are not part of the CMDB hierarchy but which still qualify as CMDB data. Related tables, such as the Serial Number \[cmdb\_serial\_number\] table, don't inherent from the Configuration Item \[cmdb\_ci\] table, but have at least one column that references a CMDB CI. Related tables are specified in the Related Entries \[cmdb\_related\_entry\] table.
 
-Some scenarios that involve related tables, can result in orphan or otherwise stale records in related tables. A CI in a related table can, for example, become orphan if the referenced CI in the CMDB is deleted. You can use the [CMDB Data Manager](cmdb-data-management.md) to create a policy of the 'Delete CMDB Related Entry' policy type, that will cascade-delete that un-needed related items data. For more information about creating that CMDB Data Manager policy, see [Create a CMDB Data Manager policy](../task/data-manager-create-policy-wrkspc.md).
+Some scenarios that involve related tables, can result in orphan or otherwise stale records in related tables. A CI in a related table can, for example, become orphan if the referenced CI in the CMDB is deleted. You can use the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) to create a policy of the 'Delete CMDB Related Entry' policy type, that will cascade-delete that un-needed related items data. For more information about creating that CMDB Data Manager policy, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 
 ## Localization
 
@@ -68,10 +69,10 @@ Using the Translated Text field type \(instead of string\) for attributes in CMD
 
 Reading CMDB tables directly requires the cmdb\_read role, however accessing the **Configuration** module requires the sn\_cmdb\_editor, sn\_cmdb\_admin, asset, itil, or itil\_admin roles. For viewing CMDB-related records in the user interface, the sn\_cmdb\_editor or itil roles are usually sufficient. For updating records and for other manipulation of records, roles with higher credentials are usually required, as noted in each procedure throughout the documentation set.
 
-For details about CMDB and other roles, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md), or see a feature components topic such as [Components installed with CMDB Workspace](../reference/installed-with-cmdb-workspace.md).
+For details about CMDB and other roles, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_BaseSystemRoles.md), or see a feature components topic such as [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md).
 
 **Related topics**  
 
 
-[CMDB schema model](c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

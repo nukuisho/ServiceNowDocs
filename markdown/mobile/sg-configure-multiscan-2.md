@@ -2,6 +2,7 @@
 title: Create UI parameters for your grouped input
 description: Create UI parameters to contain the values that your users scan in with your grouped input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-configure-multiscan-2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  In the **UI Parameters** field, click the lookup icon \(![Lookup icon](../image/reference-lookup-icon.png)\) to display the UI parameters list.
+1.  In the **UI Parameters** field, click the lookup icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Lookup icon\) to display the UI parameters list.
 
 2.  Click **New**.
 
@@ -40,5 +41,5 @@ Role required: admin
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Configure a grouped input for multiple scans](sg-configure-multiscan.md)
+**Parent Topic:**[Configure a grouped input for multiple scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-multiscan.md)
 

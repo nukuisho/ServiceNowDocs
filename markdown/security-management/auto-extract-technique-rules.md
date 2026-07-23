@@ -2,6 +2,7 @@
 title: Auto-extract technique rules for importing MITRE-ATT&amp;CK information
 description: Use the base system auto-extraction rules to import the MITRE-ATT&amp;CK information from any existing third-party integrations.Use the threat lookup auto-extraction rules to import the MITRE-ATT&amp;CK information from any existing Threat Intelligence third-party integrations.Use the SIEM auto-extraction rules to import the MITRE-ATT&amp;CK information from any existing Security Operations SIEM third-party integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/auto-extract-technique-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,56 +14,56 @@ breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overvie
 
 Use the base system auto-extraction rules to import the MITRE-ATT&amp;CK information from any existing third-party integrations.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 
 
-[Get started with MITRE-ATT&amp;CK framework](../reference/get-started-with-mitre.md)
+[Get started with MITRE-ATT&amp;CK framework]()
 
-[Understand the MITRE to STIX data model](../reference/understand-the-mitre-to-stix-data-model-mapping.md)
+[Understand the MITRE to STIX data model]()
 
-[Domain separation and MITRE-ATT&amp;CK](../reference/domain-separation-and-mitre-att-ck.md)
+[Domain separation and MITRE-ATT&amp;CK]()
 
-[Set up the MITRE-ATT&amp;CK framework](../task/setup-mitre-profile.md)
+[Set up the MITRE-ATT&amp;CK framework]()
 
-[Manage matrices](../task/view-mitre-collection.md)
+[Manage matrices]()
 
-[Manage techniques](../task/view-techniques.md)
+[Manage techniques]()
 
-[Manage mitigations](../task/manage-mitigations.md)
+[Manage mitigations]()
 
-[Manage groups](../task/manage-groups-threat-intel.md)
+[Manage groups]()
 
-[Manage malware](../task/manage-malware.md)
+[Manage malware]()
 
-[Manage tools](../task/manage-tools.md)
+[Manage tools]()
 
-[Manage MITRE relationships](../task/manage-mitre-relationships.md)
+[Manage MITRE relationships]()
 
-[Manage CVE and technique mapping](../task/manage-cve-and-technique-mapping.md)
+[Manage CVE and technique mapping]()
 
-[Extend the MITRE-ATT&amp;CK data](../task/view-and-extend-information.md)
+[Extend the MITRE-ATT&amp;CK data]()
 
-[Define the data source and detection tool mapping](../task/manage-mitre-att-ck-data-sources.md)
+[Define the data source and detection tool mapping]()
 
-[Define the data source and data component mapping](../task/map-the-data-source-and-data-components.md)
+[Define the data source and data component mapping]()
 
-[Define the technique detection coverage](../task/define-technique-coverage.md)
+[Define the technique detection coverage]()
 
-[Map your technique detection coverage to a technique](../task/map-technique-coverage.md)
+[Map your technique detection coverage to a technique]()
 
-[Define the mitigation coverage](../task/define-the-mitigation-coverage.md)
+[Define the mitigation coverage]()
 
-[Map your mitigation coverage to a technique](../task/map-your-mitigation-coverage-to-a-technique.md)
+[Map your mitigation coverage to a technique]()
 
-[Create and map detection rules](../task/create-detection-rules.md)
+[Create and map detection rules]()
 
-[Review threat group and MITRE-ATT&amp;CK techniques mapping](../task/review-threat-group-and-techniques-mapping.md)
+[Review threat group and MITRE-ATT&amp;CK techniques mapping]()
 
-[Threat group to technique heatmap definition](../task/threat-group-to-technique-heatmap-definition.md)
+[Threat group to technique heatmap definition]()
 
-[Review the MITRE-ATT&amp;CK system properties](../task/configure-mitre-att-ck-properties.md)
+[Review the MITRE-ATT&amp;CK system properties]()
 
 ## Use threat-lookup auto-extraction rules
 
@@ -79,7 +80,7 @@ Role required:
 
 When any Threat Intelligence integration, such as Sandbox or a TIP, supports the MITRE-ATT&amp;CK framework and if the MITRE-ATT&amp;CK information is parsed at each integration level, then the information is displayed in each threat lookup result record. However, not all Threat Intelligence integrations parse the MITRE-ATT&amp;CK information. The threat lookup global auto-extraction rule can extract MITRE-ATT&amp;CK information from all Threat Intelligence integrations.
 
-You can choose to roll up the MITRE-ATT&amp;CK information automatically from the threat lookup results to a security incident. For automatic rollup of threat lookup results to security incidents, [enable the system property](../task/configure-mitre-att-ck-properties.md). Alternatively, you can [rollup the information manually](../task/associate-mitre-observables.md) for each individual threat lookup.
+You can choose to roll up the MITRE-ATT&amp;CK information automatically from the threat lookup results to a security incident. For automatic rollup of threat lookup results to security incidents, [enable the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configure-mitre-att-ck-properties.md). Alternatively, you can [rollup the information manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/associate-mitre-observables.md) for each individual threat lookup.
 
 The base system Threat Intelligence automatically extracts the MITRE-ATT&amp;CK information from the third-party integrations raw payload to the threat lookup result record, if the Threat Intelligence integration provides you with MITRE-ATT&amp;CK information like the technique or tactic.
 
@@ -229,7 +230,7 @@ Enable either the SIEM auto-extraction rule or the alert rule at a time.
 
     In the following illustration, you see an example of the Splunk Enterprise SIEM technique extraction rule in the form view. This rule is similar to all the other SIEM technique extraction rules.
 
-    ![Splunk technique extraction rule.](../image/mitre-splunk-extraction.gif)
+    \[Omitted image "mitre-splunk-extraction.gif"\] Alt text: Splunk technique extraction rule.
 
 4.  Click **Submit**.
 

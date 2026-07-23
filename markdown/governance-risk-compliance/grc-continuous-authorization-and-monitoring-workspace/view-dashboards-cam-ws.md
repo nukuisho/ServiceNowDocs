@@ -2,13 +2,14 @@
 title: Monitor and manage your NIST security posture
 description: Access the CAM Overview, AO Overview, and SCA Overview dashboards from the CAM Workspace to monitor and analyze data and view CAM reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/view-dashboards-cam-ws.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Monitor and manage your NIST security posture
@@ -23,11 +24,13 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.authorization\_off
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace** and then select the dashboard icon \(![Dashboard icon.](../../grc-workspace-risk/image/feedback-dashboard-icon.jpg)\).
+1.  Navigate to **All** &gt; **CAM Workspace**.
+
+2.  Select \[Omitted image "feedback-dashboard-icon.jpg"\] Alt text: Dashboard icon. from the sidebar.
 
     The dashboard appropriate for your user role opens.
 
-2.  Select the change dashboard list icon \(![Change dashboard list icon.](../image/change-dashboard-icon.png)\) to select the dashboard to view.
+3.  Select the dashboard you want to view.
 
     -   **CAM Overview dashboard**
 
@@ -35,7 +38,7 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.authorization\_off
 
         Users with the CAM Administrator \[sn\_irm\_cont\_auth.admin\] role can view the dashboard.
 
-        See [CAM Overview dashboard](../../../use/dashboards/application-content-packs/cam-overvw-pa-db.md).
+        See [CAM Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-overvw-pa-db.md).
 
     -   **AO Overview dashboard**
 
@@ -45,7 +48,7 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.authorization\_off
 
         Users with the Authorization Official \[sn\_irm\_cont\_auth.authorization\_official\] role can view the dashboard.
 
-        See [AO Overview dashboard](../../grc-cam/reference/reports-ao-overview.md).
+        See [AO Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reports-ao-overview.md).
 
     -   **SCA Overview dashboard**
 
@@ -53,8 +56,8 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.authorization\_off
 
         Users with the CAM Administrator \(sn\_irm\_cont\_auth.admin\) or Security Control Assessor \(sn\_irm\_cont\_auth.sec\_control\_assessor\) role can view the dashboard.
 
-        See [SCA Overview dashboard](../../grc-cam/reference/reports-sca-ov.md).
+        See [SCA Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/reports-sca-ov.md).
 
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](../concept/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

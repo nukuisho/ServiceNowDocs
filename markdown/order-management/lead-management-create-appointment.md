@@ -2,6 +2,7 @@
 title: Create appointments for lead tasks
 description: Create appointments with your stakeholders to conduct business discussions for your lead.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/lead-management-create-appointment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,11 +20,11 @@ Role required: sales\_agent
 
 ## About this task
 
-You can create appointments only after creating a lead task. To create a lead task, see [Add lead tasks](lead-management-use-tasks-tab.md).
+You can create appointments only after creating a lead task. To create a lead task, see [Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-use-tasks-tab.md).
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Lead** &gt; **All**.
 
@@ -33,10 +34,17 @@ You can create appointments only after creating a lead task. To create a lead ta
 
 5.  Fill in the fields in the Create New Appointment form.
 
-    For description of the field values, see [Create new appointment form](../reference/create-lead-appointment-form.md).
+    For description of the field values, see [Create new appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-lead-appointment-form.md).
 
 6.  Select **Save** to save the appointment and send it later or select **Send activity** to send it now.
 
 
-**Parent Topic:**[Add lead tasks](lead-management-use-tasks-tab.md)
+**Parent Topic:**[Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management-use-tasks-tab.md)
+
+**Related topics**  
+
+
+[Install and configure Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/lead-management.md)
 

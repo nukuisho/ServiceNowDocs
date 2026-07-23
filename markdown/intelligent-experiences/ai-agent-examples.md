@@ -2,9 +2,10 @@
 title: Examples of using AI agents
 description: Review different ways that you can leverage the Now Assist AI agents application in agentic workflows across the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-examples.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Now Assist AI agents, Enable AI experiences]
 ---

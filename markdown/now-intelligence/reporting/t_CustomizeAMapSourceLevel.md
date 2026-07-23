@@ -2,6 +2,7 @@
 title: Customize a map source level
 description: A map source configures data to be displayed in a map report. Customize existing map sources according to your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_CustomizeAMapSourceLevel.html
 release: australia
 product: Reporting
 classification: reporting
@@ -126,16 +127,16 @@ If you selected **Use mapping**, select a mapping group to use. A mapping group 
 6.  Click **Update**.
 
 
-**Parent Topic:**[Map report administration](../concept/c_AdministeringMapReports.md)
+**Parent Topic:**[Map report administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdministeringMapReports.md)
 
 **Related topics**  
 
 
-[Map report objects](../concept/c_MapReportObjects.md)
+[Map report objects]()
 
-[Automatically generate a map source hierarchy](t_AutoGenerateMapSourceHierarchy.md)
+[Automatically generate a map source hierarchy]()
 
-[Create a key-value pair mapping](t_CreateKeyValuePairMapping.md)
+[Create a key-value pair mapping]()
 
-[Create a map](t_CreateAMap.md#)
+[Create a map]()
 

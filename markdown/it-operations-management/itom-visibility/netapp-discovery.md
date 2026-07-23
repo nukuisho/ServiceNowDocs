@@ -2,6 +2,7 @@
 title: NetApp Server and Cluster discovery
 description: Discovery and Service Mapping find NetApp servers and clusters using patterns. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/netapp-discovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -18,9 +19,9 @@ Discovery and Service Mapping find NetApp servers and clusters using patterns. D
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-NetApp discovery isn’t supported for NetApp servers in the AWS cloud. To learn about the components and versions of NetApp servers and clusters that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](../../service-mapping/reference/r_SupportedApplications.md).
+NetApp discovery isn’t supported for NetApp servers in the AWS cloud. To learn about the components and versions of NetApp servers and clusters that you can discover, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
 
 ## NetApp Server and Cluster discovery methods
 
@@ -98,7 +99,7 @@ The Cluster-Mode patterns support chassis and disk shelf chassis discovery throu
 
 -   **Configure SNMP community credentials**
 
-    Configure SNMP community credentials to classify the NetApp server. For more information, see [SNMP community credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md).
+    Configure SNMP community credentials to classify the NetApp server. For more information, see [SNMP community credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNMPCredentials.md).
 
 -   **Enable __read-only__ access to the ONTAP API**
 
@@ -149,14 +150,14 @@ The Cluster-Mode patterns support chassis and disk shelf chassis discovery throu
         -   `vserver-get-iter`
 -   **Configure basic authentication credentials**
 
-    Configure basic authentication credentials for the read-only user. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+    Configure basic authentication credentials for the read-only user. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
 
 ## REST-based discovery prerequisites
 
 -   **Disable SNMP-based discovery**
 
-    For more information, see [Disable SNMP-based NetApp storage cluster discovery](../../service-mapping/task/disable-snmp-netapp-discovery.md).
+    For more information, see [Disable SNMP-based NetApp storage cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/disable-snmp-netapp-discovery.md).
 
 -   **Verify __read-only__ role and permissions**
 
@@ -187,7 +188,7 @@ The Cluster-Mode patterns support chassis and disk shelf chassis discovery throu
     -   `/api/svm/svms?fields=subtype,name`
 -   **Configure basic authentication credentials**
 
-    Configure basic authentication credentials for the read-only user. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+    Configure basic authentication credentials for the read-only user. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
 
 ## General prerequisites
@@ -201,7 +202,7 @@ The Cluster-Mode patterns support chassis and disk shelf chassis discovery throu
 
 -   **Schedule a horizontal discovery**
 
-    To run discovery using Patterns, create a Discovery schedule that targets the management IP address of the NetApp server. For more information, see [create a discovery schedule](running-discoveries.md).
+    To run discovery using Patterns, create a Discovery schedule that targets the management IP address of the NetApp server. For more information, see [create a discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md).
 
     **Note:** NetApp creates different storage volume identifiers when running with different protocols. When running discovery with HTTP after running discovery with SNMP, duplicate CIs are created for the same storage volume. One CI is created for the unique identifier \(UUID\) NetApp ONTAP API provides, and one CI is created for the unique identifier \(UUID\) NetApp HTTP REST API provides.
 
@@ -909,7 +910,7 @@ Discovery populates the data in the CMDB when running the NetApp Cluster-Mode Pa
 |Description \[short\_description\]|The value is set to NetApp Storage Disk Shelf Chassis.|
 |Chassis \[chassis\]|References the Chassis \[cmdb\_ci\_chassis\] table.|
 
-**Note:** For more information on NetApp discovery with CIM, see [Storage Discovery via SMI-S and CIM](../reference/r_DataCollDiscoStorageviaSMISCIM.md).
+**Note:** For more information on NetApp discovery with CIM, see [Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md).
 
 ## CI relationships
 
@@ -971,5 +972,5 @@ Discovery creates these relationships when running the NetApp Cluster-Mode patte
 
 \* The CI table \(Chassis or Disk Shelf Chassis\) is determined by the serial number type field.
 
-**Parent Topic:**[Storage discovery](c_Storage.md)
+**Parent Topic:**[Storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Storage.md)
 

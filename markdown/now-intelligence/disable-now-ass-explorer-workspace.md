@@ -2,6 +2,7 @@
 title: Remove data visualization links to AI Data Explorer in a specific workspace
 description: If you don't want data visualizations in a specific workspace to have an entry point for AI Data Explorer, add the workspace to the PAAI Canvas Workspace Configs table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/disable-now-ass-explorer-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,14 +26,14 @@ Role required: now\_assist\_explorer\_admin or higher
 
 3.  In the new PAAI Canvas Workspace Config record, select the workspace or experience from the **Experience** list.
 
-    ![Expanded list for selecting an experience or workspace for the Experience field.](../image/nowass-select-restricted-workspace.png)
+    \[Omitted image "nowass-select-restricted-workspace.png"\] Alt text: Expanded list for selecting an experience or workspace for the Experience field.
 
 4.  Turn on **Disabled in workspace**.
 
-    ![Disable in Workspace selector in PAAI Canvas Workspace Config record.](../image/nowass-disable-workspace.png)
+    \[Omitted image "nowass-disable-workspace.png"\] Alt text: Disable in Workspace selector in PAAI Canvas Workspace Config record.
 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configure AI Data Explorer](../concept/configure-now-ass-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-now-ass-explorer.md)
 

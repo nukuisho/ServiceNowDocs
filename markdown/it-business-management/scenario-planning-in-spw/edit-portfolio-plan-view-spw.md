@@ -2,11 +2,12 @@
 title: Edit a portfolio plan view
 description: Edit a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/edit-portfolio-plan-view-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Manage portfolio plan views, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -44,7 +45,7 @@ Role required: sn\_align\_core.ap\_read\_only
 
     The view is updated to reflect the changes made.
 
-6.  To edit name of the view, select the Portfolio plan view drop-down from the portfolio plan header and then select Edit view icon \(![edit view icon.](../../spw-roadmap/images/edit-view-icon-spw.png)\) next to the view you want to edit the name for.
+6.  To edit name of the view, select the Portfolio plan view drop-down from the portfolio plan header and then select Edit view icon \(\[Omitted image "edit-view-icon-spw.png"\] Alt text: edit view icon.\) next to the view you want to edit the name for.
 
     On the Edit view window, fill the details.
 
@@ -60,19 +61,19 @@ Role required: sn\_align\_core.ap\_read\_only
 
         The name of the view is updated.
 
-        ![Edit portfolio plan view name.](../images/edit-view-name-spw.gif)
+        \[Omitted image "edit-view-name-spw.gif"\] Alt text: Edit portfolio plan view name.
 
 
 ## What to do next
 
-Share the portfolio plan with your stakeholders to start collaborating on the portfolio plan. See [Share a portfolio plan with stakeholders](share-portfolio-plan-alignment-planner-workspace.md).
+Share the portfolio plan with your stakeholders to start collaborating on the portfolio plan. See [Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md).
 
-**Parent Topic:**[Managing portfolio plan views in Strategic Planning Workspace](../concept/managing-portfolio-plan-views-spw.md)
+**Parent Topic:**[Managing portfolio plan views in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-portfolio-plan-views-spw.md)
 
 **Related topics**  
 
 
-[Create a portfolio plan view](create-portfolio-plan-view-spw.md)
+[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.md)
 
-[Delete a portfolio plan view](delete-portfolio-plan-view-spw.md)
+[Delete a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/delete-portfolio-plan-view-spw.md)
 

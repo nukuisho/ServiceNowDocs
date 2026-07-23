@@ -2,13 +2,14 @@
 title: View controls in grid view
 description: View and edit controls and their requirements in a hierarchical data grid that enables bulk operations and in-line editing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/view-controls-in-grid-view.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-04-06"
 reading_time_minutes: 1
-breadcrumb: [RMF step 3 - Implement controls, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [RMF step 3 - Implement controls, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # View controls in grid view
@@ -17,7 +18,7 @@ View and edit controls and their requirements in a hierarchical data grid that e
 
 ## Before you begin
 
-Role required: sn\_grc\_cam.manager, sn\_grc\_cam.admin, or sn\_grc\_cam.isso
+Role required: sn\_grc\_cam.manager, sn\_grc\_cam.admin or sn\_grc\_cam.isso
 
 ## About this task
 
@@ -59,6 +60,10 @@ The Controls tab displays a hierarchical data grid where you can expand controls
 -   Select one or more controls
 -   Select **Attest**
 -   The system creates attestation records and updates control state to Attest
+
+**Change the owner:**
+
+A compliance user can update the owner of a control when the control is in Draft state.
 
 **Customize columns:**
 

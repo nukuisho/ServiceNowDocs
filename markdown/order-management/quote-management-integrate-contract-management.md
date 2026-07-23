@@ -2,11 +2,12 @@
 title: Integrate with Contract Management Pro
 description: With the integration of Quote Management and Contract Management Pro, sales agents can initiate contract requests while finalizing a deal and formalizing agreements between you and your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-integrate-contract-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Quote Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring Quote Management - Basic, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Integrate with Contract Management Pro
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  Search for Contract Management for Sales and Order Management \(Quote Management with Contract Management Pro\) plugin \(com.sn\_som\_clm\).
+2.  Search for Contract Management for Sales CRM \(Quote Management with Contract Management Pro\) plugin \(com.sn\_som\_clm\).
 
     **Note:** To activate this plugin, there’s a dependency on the Contracts core plugin \(com.sn\_cm\_core\). Verify that it’s installed to use the contract creation workflow from a quote.
 
@@ -29,13 +30,13 @@ Role required: admin
 
 4.  Complete the initial configuration steps to set up this integration.
 
-    For more information on setting up Contract Management Pro, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md).
+    For more information on setting up Contract Management Pro, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-config-cmpro.md).
 
 
 **Related topics**  
 
 
-[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
+[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-config-cmpro.md)
 
-[Initiate a contract request](quote-management-create-contract.md)
+[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-create-contract.md)
 

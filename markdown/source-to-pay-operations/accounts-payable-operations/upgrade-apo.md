@@ -2,12 +2,14 @@
 title: Upgrade Accounts Payable Operations from version 2.0
 description: Upgrade Accounts Payable Operations with Document Intelligence from lower to higher versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/upgrade-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, upgrade, admin, migration]
 breadcrumb: [Upgrade Accounts Payable Operations, Components installed with Accounts Payable Invoice Processing, Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -48,6 +50,8 @@ functionalignParentUseCaseSysIds(oldReadOnlyUseCaseSysId,newReadOnlyUseCaseSysId
 
     -   Use cases configured for Invoice processing flow in Accounts Payable Operations integration with Document Intelligence scope `[sn_ap_ic]` only will get upgraded.
     -   Use cases will be upgraded if there is at least one trained task that are manually trained by the user from Document Intelligence Workspace.
-    Use cases are upgraded with latest model.
 
+## Result
+
+Use cases are upgraded with latest model.
 

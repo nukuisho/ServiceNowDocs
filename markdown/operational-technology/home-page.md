@@ -2,11 +2,12 @@
 title: Home page
 description: The Home page on the Discovery Console for OT provides a dashboard overview of the assets and sites on your current system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/home-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Home page
@@ -17,7 +18,7 @@ In the navigation menu, you can select the Assets and Sensors pages to reveal su
 
 The Console opens to the Home page.
 
-![Home page](../images/homepage.png)
+\[Omitted image "homepage1.png"\] Alt text: Console Home page
 
 The **Home** page is made up of a left-hand, expandable navigation menu and a main area; that is, the Assets Dashboard. The dashboard is divided into the following sections.
 
@@ -42,17 +43,17 @@ Under these graphs are the **By Brand** and **By Port** graphs. The **By Brand**
 
 The following image shows an example of the data that you can find in the Assets section.
 
-![Assets overview on the Home page dashboard](../../msi-console/image/assets-ot-console.png)
+\[Omitted image "assets-ot-console.png"\] Alt text: Assets overview on the Home page dashboard
 
 ## Assets by Location
 
-The Assets by Location section provides the number of assets according to the available site. The location of an asset is dependent on the Site's IP ranges that you define when creating a site. For more information about creating a site, see [Add a Site](ot-discovery-console-user-guide/task/add-site.md).
+The Assets by Location section provides the number of assets according to the available site. The location of an asset is dependent on the Site's IP ranges that you define when creating a site. For more information about creating a site, see [Add a Site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-site.md).
 
 The **Top Locations** widget ranks each location based on its number of assets. The **New Assets** widget calls out any recently discovered assets by Site. The **Modified Assets** widget calls out recently edited or updated assets by site.
 
 The following image shows an example of the data that you can find on the Assets by Locations section.
 
-![Assets organized by location on the Home page dashboard](../../msi-console/image/assets-by-location.png)
+\[Omitted image "assets-by-location.png"\] Alt text: Assets organized by location on the Home page dashboard
 
 ## Keyswitch / Protection
 
@@ -60,5 +61,5 @@ The Keyswitch / Protection section displays any key switch security or protectio
 
 **Note:** The Keyswitch / Protection section is only available if you have data available in your system.
 
-![Keyswitch and protection data on the Home page dashboard](../../msi-console/image/keyswitch-ot-console.png)
+\[Omitted image "home-page-bottom.png"\] Alt text: Bottom of the Home page
 

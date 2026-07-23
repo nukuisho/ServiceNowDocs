@@ -2,6 +2,7 @@
 title: Verify your log sources in Health Log Analytics
 description: Verify that all your log sources are present and active after Health Log Analytics tagging has assigned a log to a service instance and components, and has automatically mapped the log to a source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-log-sources-review.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -87,7 +88,7 @@ The last time logs streamed into the system from this source.
 
     2.  Use the JavaScript function to manually map a log sample to the correct service instance, component, and source type.
 
-        For more information, see [Map raw log data in Health Log Analytics](hla-data-input-mapping.md).
+        For more information, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
     3.  Navigate back to the Log Sources page and verify that the status of the new log source is Active.
 
@@ -100,14 +101,14 @@ The last time logs streamed into the system from this source.
 6.  Select **Update**.
 
 
-**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](../concept/hla-data-input-setup-extra.md)
+**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 
 **Related topics**  
 
 
-[Delete a log source in Health Log Analytics](hla-log-source-delete.md)
+[Delete a log source in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-source-delete.md)
 
-[Stop extraction of unneeded log data in Health Log Analytics](hla-log-data-exclude.md)
+[Stop extraction of unneeded log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-data-exclude.md)
 
-[Extract specific log data in Health Log Analytics](hla-log-data-extract.md)
+[Extract specific log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-data-extract.md)
 

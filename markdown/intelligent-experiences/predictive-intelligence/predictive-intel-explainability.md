@@ -2,6 +2,7 @@
 title: Model Explainability
 description: Analyze the importance of each input field to your model's predictions using model explainability. Create a Workflow Classification model that includes a graphical analysis of feature importance by executing the provided script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intel-explainability.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -17,16 +18,16 @@ Analyze the importance of each input field to your model's predictions using mod
 
 ## Before you begin
 
--   This method uses the Workflow Classification Solution API, instead of the Solution Definition form, to create and train a model with explainability added. For information about the components of Workflow Classification models, see [Create and train a classification solution](create-solution-definition.md).
+-   This method uses the Workflow Classification Solution API, instead of the Solution Definition form, to create and train a model with explainability added. For information about the components of Workflow Classification models, see [Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
 -   Role required: ml\_admin or admin
 
 ## About this task
 
 Model explainability helps identify the key features that influence the model's predictions during training.
 
-**Note:** Explainability can't be added to an existing model. This method uses a script to create and train a new Workflow Classification model. For more information about scripting the creation of Classification solutions, see [ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md).
+**Note:** Explainability can't be added to an existing model. This method uses a script to create and train a new Workflow Classification model. For more information about scripting the creation of Classification solutions, see .
 
-The script provided in the procedure creates and trains a model with explainability set to true. On the new model's solution form, an additional tab labeled **Feature Importance** appears. This tab offers a graph of the relative contribution of each input to the prediction.![On the Solution form, the Feature Importance tab is highlighted. In the output (predicted) field, the value Global is selected, and an example graph is displayed.](../images/predictive-intel-explainability1.png)
+The script provided in the procedure creates and trains a model with explainability set to true. On the new model's solution form, an additional tab labeled **Feature Importance** appears. This tab offers a graph of the relative contribution of each input to the prediction.\[Omitted image "predictive-intel-explainability1.png"\] Alt text: On the Solution form, the Feature Importance tab is highlighted. In the output \(predicted\) field, the value Global is selected, and an example graph is displayed.
 
 ## Procedure
 
@@ -68,19 +69,19 @@ The script provided in the procedure creates and trains a model with explainabil
 
     **Feature Importance** displays a drop-down list.
 
-    ![On the Feature Importance tab, the drop-down list containing the range of possible classes for the output field.](../images/explainability-supplement.png)
+    \[Omitted image "explainability-supplement.png"\] Alt text: On the Feature Importance tab, the drop-down list containing the range of possible classes for the output field.
 
     -   The label for this drop-down list is the name of your output \(predicted\) field, so the label is specific to each model.
     -   The values in the drop-down list are the possible output classes for your output field, plus the **Global** option.
-<table id="choicetable_afh_pny_12c"><thead><tr><th align="left" id="d167647e157">
+<table id="choicetable_afh_pny_12c"><thead><tr><th align="left" id="d184198e156">
 
 List option
 
-</th><th align="left" id="d167647e160">
+</th><th align="left" id="d184198e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d167647e166">
+</th></tr></thead><tbody><tr><td id="d184198e165">
 
 **__Global__**
 
@@ -88,7 +89,7 @@ Description
 
 Provides an overview of how the model behaves across all predictions, showing the overall impact of each input feature.Select **Global** to open a graph of the importance of your input fields to predictions for all output classes as a whole.
 
-</td></tr><tr><td id="d167647e181">
+</td></tr><tr><td id="d184198e180">
 
 **`Your output class value`**
 
@@ -99,7 +100,7 @@ Focuses on the model's behavior for the chosen class only, showing how input fea
 </td></tr></tbody>
 </table>5.  Launch the graphical analysis by selecting a value from the drop-down list.
 
-    The y axis shows your input fields and the x axis shows the numerical importance for each input. The label of the graph reflects the class that you chose in the drop-down list. ![On the Feature Importance tab, one of the possible output classes is selected. An example graph is displayed, illustrating the importance of the input fields to predictions for this class.](../images/predictive-intel-explainability2.png)
+    The y axis shows your input fields and the x axis shows the numerical importance for each input. The label of the graph reflects the class that you chose in the drop-down list. \[Omitted image "predictive-intel-explainability2.png"\] Alt text: On the Feature Importance tab, one of the possible output classes is selected. An example graph is displayed, illustrating the importance of the input fields to predictions for this class.
 
     You can hover over a bar to display the numerical percentage for each input's importance.
 
@@ -115,9 +116,9 @@ Consider dropping input fields with low importance scores. Retrain your model af
 **Related topics**  
 
 
-[Using Machine Learning APIs](../concept/using-ml-apis.md#)
+[Using Machine Learning APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-ml-apis.md)
 
-[ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+[bundle-crapiref.ClassificationSolutionAPI]
 
-[Create and train a classification solution](create-solution-definition.md)
+[Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 

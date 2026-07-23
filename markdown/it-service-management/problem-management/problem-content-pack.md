@@ -2,6 +2,7 @@
 title: Legacy: Problem Management Platform Analytics Solutions
 description: Platform Analytics Solutions and in-form analytics contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-content-pack.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -28,5 +29,5 @@ Some dashboards in this content pack are inactive when installed. Complete confi
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
+[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

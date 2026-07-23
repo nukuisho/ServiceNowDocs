@@ -2,6 +2,7 @@
 title: Track your cases and tasks from the Retail portal
 description: Track the cases that are assigned to you or your team from the Retail portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/view-cases-and-tasks-in-retail-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

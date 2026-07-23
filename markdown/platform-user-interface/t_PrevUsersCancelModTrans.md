@@ -2,6 +2,7 @@
 title: Prevent users from canceling module transactions
 description: You can explicitly prevent users from canceling the activity of a module by updating the module definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_PrevUsersCancelModTrans.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,15 +28,15 @@ Role required: admin
 
 4.  Select the check box for **Uncancelable by Other Modules**.
 
-    ![Prevent users from canceling this module when they navigate away](../image/600px-Uncancelable_by_other_modules.png)
+    \[Omitted image "600px-Uncancelable\_by\_other\_modules.png"\] Alt text: Prevent users from canceling this module when they navigate away
 
 5.  Click **Update**.
 
 
-**Parent Topic:**[Navigation action cancellation](../concept/c_CancelingNavigationActions.md)
+**Parent Topic:**[Navigation action cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_CancelingNavigationActions.md)
 
 **Related topics**  
 
 
-[Add sites to the always cancel list](t_AddSitesAlwaysCancelWhiteList.md)
+[Add sites to the always cancel list]()
 

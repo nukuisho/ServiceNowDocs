@@ -1,22 +1,23 @@
 ---
-title: Limitations of Robotic Process Automation \(RPA\) bot generation skill
+title: Limitations of Now Assist for RPA Hub
 description: The limitations of the RPA bot generation skill are as follows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/limitations-rpa-bot-gen-skill.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
-breadcrumb: [Reference, Now Assist for RPA Hub, Workflow Data Fabric]
+breadcrumb: [Reference, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
-# Limitations of Robotic Process Automation \(RPA\) bot generation skill
+# Limitations of Now Assist for RPA Hub
 
 The limitations of the RPA bot generation skill are as follows.
 
 -   **AI Search and LLM timeout**
 
-    The RPA bot generation skill relies on AI Search and large language models \(LLM\) to understand the user instructions and flow creation. The timeout limits and rate-limiting behavior of these APIs collectively apply to the RPA bot generation skill. For more information about AI search system properties, see [AI Search system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/system-properties-ais.md). For more information about API rate limits, see [Inbound REST API rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/inbound-REST-API-rate-limiting.md). For more information about configuring rate limiting for providers, see [Configure rate limiting for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-rate-limit.md).
+    The RPA bot generation skill relies on AI Search and large language models \(LLM\) to understand the user instructions and flow creation. The timeout limits and rate-limiting behavior of these APIs collectively apply to the RPA bot generation skill. For more information about AI search system properties, see . For more information about API rate limits, see . For more information about configuring rate limiting for providers, see .
 
 -   **Component scope in Yokohama release**
 
@@ -28,29 +29,29 @@ The limitations of the RPA bot generation skill are as follows.
 
     In the following example, to get the weather information, data reader components are required. Since they are not available in the current scope, they appear as UNKNOWN components in the automation preview.
 
-    ![Automation preview section displays UNKNOWN components.](../image/weather-data-reader-uc-narh.png "Unknown components in the Automation preview")
+    \[Omitted image "weather-data-reader-uc-narh.png"\] Alt text: Automation preview section displays UNKNOWN components.
 
     If you select **Next** in the previous screen, the automation appears as follows on the Design surface.
 
-    ![Design surface displays UNKNOWN components.](../image/unknown-comp-rpa-na-t2b.png "Unknown components on the Design surface")
+    \[Omitted image "unknown-comp-rpa-na-t2b.png"\] Alt text: Design surface displays UNKNOWN components.
 
 -   **Usage of existing connectors in new activity using Now Assist or build automation context menu options**
 
     During the automation workflow creation, if a method, such as the AddNewWorksheet method of Microsoft Excel connector is created, RPA Desktop Design Studio checks for an existing global object of the same connector type and uses the most recent one. In the following example, the Badging Data Microsoft Excel connector is used.
 
-    ![Project Explorer section displays Microsoft Excel connectors in the Global Objects. Badging Data Microsoft Excel connector is selected.](../image/global-obj-recent.png "Microsoft Excel connectors in Global Objects")
+    \[Omitted image "global-obj-recent.png"\] Alt text: Project Explorer section displays Microsoft Excel connectors in the Global Objects. Badging Data Microsoft Excel connector is selected.
 
 -   **Dynamic configuration**
 
-    Dynamic configuration for supported components isn’t available in the Yokohama release. You can configure components manually. For example, you must give inputs in the configuration window for the Microsoft Excel connector's SetCellValues method. Select the settings icon \(![Settings icon.](../image/component-settings-icon.png)\) to view the configuration window.
+    Dynamic configuration for supported components isn’t available in the Yokohama release. You can configure components manually. For example, you must give inputs in the configuration window for the Microsoft Excel connector's SetCellValues method. Select the settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Settings icon.\) to view the configuration window.
 
     Data in the parameter values might not be populated in the large language model \(LLM\) generated components.
 
-    ![Configuration window for the SetCellValues method is displayed.](../image/dynamic-config-limitation.png "Configuration window for SetCellValues method")
+    \[Omitted image "dynamic-config-limitation.png"\] Alt text: Configuration window for the SetCellValues method is displayed.
 
 -   **Automation for Windows, Java, or browser applications**
 
-    For automating Windows, Java, or browser-based applications, RPA Desktop Design Studio suggests generic UI actions such as SetValue, GetValue, or Click. These actions are a part of the Universal app connector. You must configure these actions manually, including capturing screens and adding elements via the field window. For more information about these methods, see [Universal app connector](../concept/universal-app-connector.md).
+    For automating Windows, Java, or browser-based applications, RPA Desktop Design Studio suggests generic UI actions such as SetValue, GetValue, or Click. These actions are a part of the Universal app connector. You must configure these actions manually, including capturing screens and adding elements via the field window. For more information about these methods, see [Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md).
 
 -   **Expression-based components**
 
@@ -61,5 +62,7 @@ The limitations of the RPA bot generation skill are as follows.
     If the large language model \(LLM\) returns a method that doesn’t exist in the RPA Desktop Design Studio, then such methods are displayed as unknown components in the generated automation workflow.
 
 
-**Parent Topic:**[Now Assist for RPA Hub reference](../concept/now-assist-rpa-hub-reference.md)
+**Parent Topic:**[RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-reference.md)
+
+**Parent Topic:**[Now Assist for RPA Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-rpa-hub-reference.md)
 

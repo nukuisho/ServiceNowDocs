@@ -2,6 +2,7 @@
 title: Property API - ServiceNow Fluent
 description: The Property API defines system properties \[sys\_properties\] that control instance behavior.Add a system property \[sys\_properties\] for configuring an aspect of an application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/property-api-now-ts.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -17,14 +18,14 @@ The Property API defines system properties \[sys\_properties\] that control inst
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+For general information about system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](../concept/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
 
 ## Property object
 
@@ -52,7 +53,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -131,7 +132,7 @@ roles: {
 }
 ```
 
-For more information, see [Role API - ServiceNow Fluent](role-api-now-ts.md#).
+For more information, see [Role API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/role-api-now-ts.md).
 
 </td></tr><tr><td>
 

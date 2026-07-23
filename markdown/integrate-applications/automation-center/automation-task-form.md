@@ -2,6 +2,7 @@
 title: Automation task form
 description: Use the Automation task form to create an automation task in Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automation-task-form.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -70,11 +71,11 @@ Description of the automation task.
 
 </td></tr><tr><td>
 
-Active
+Due date
 
 </td><td>
 
-Option for ensuring the use of the automation task.
+Date when the task is due.
 
 </td></tr><tr><td>
 
@@ -113,5 +114,5 @@ Assigned to
 Name of the user assigned to the automation task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](../concept/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
 

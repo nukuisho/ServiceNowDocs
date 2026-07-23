@@ -2,6 +2,7 @@
 title: Mobile application management \(MAM\) integration
 description: Use Microsoft Intune or BlackBerry Dynamics to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mam.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -78,7 +79,7 @@ Take advantage of the policy enforcement and management features of Microsoft In
 
 ServiceNow provides versions of the Mobile Agent and Now Mobile apps designed to integrate with your Microsoft Intune mobility management tools.
 
-![App logos for ServiceNow mobile apps for Microsoft Intune.](../image/ms-intune-app-logos.png "App logos for ServiceNow mobile apps for Microsoft Intune")
+\[Omitted image "ms-intune-app-logos.png"\] Alt text: App logos for ServiceNow mobile apps for Microsoft Intune.
 
 Using these apps, you can set and manage policies for each app using your organizations Intune administration portal. The following mobile application management features are supported:
 
@@ -94,7 +95,7 @@ Manage your ServiceNow mobile apps using your organization's BlackBerry Dynamics
 
 ServiceNow provides versions of the Mobile Agent and Now Mobile apps designed to integrate with your BlackBerry Dynamics mobility management tools. BlackBerry versions of ServiceNow are available in the BlackBerry marketplace store.
 
-![App logos for ServiceNow mobile apps for BlackBerry Dynamics.](../image/bb-dynm-app-logos.png "App logos for ServiceNow mobile apps for BlackBerry Dynamics")
+\[Omitted image "bb-dynm-app-logos.png"\] Alt text: App logos for ServiceNow mobile apps for BlackBerry Dynamics.
 
 Using these apps, you can set and manage policies for each app using the BlackBerry Dynamics SDK. The following mobile application management features are supported:
 
@@ -108,5 +109,5 @@ Your branded apps are integrated with the BlackBerry Dynamics SDK to help manage
 
 ## Package and Bundle IDs
 
-To enforce app policies your mobile application management software may require the bundle or package ID associated with the mobile apps. For information on these IDs see [Bundle and Package IDs for ServiceNow mobile apps](../reference/sg-mobile-package-ids.md).
+To enforce app policies your mobile application management software may require the bundle or package ID associated with the mobile apps. For information on these IDs see [Bundle and Package IDs for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-package-ids.md).
 

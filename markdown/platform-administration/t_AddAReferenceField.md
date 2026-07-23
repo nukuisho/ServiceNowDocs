@@ -2,6 +2,7 @@
 title: Add a reference field
 description: Add reference fields to a table using the same method as for any other field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_AddAReferenceField.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

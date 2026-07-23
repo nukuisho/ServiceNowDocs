@@ -2,13 +2,14 @@
 title: Asset fields for enterprise assets
 description: A detailed description of all asset fields in the Enterprise Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/asset-fields-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 13
-breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Asset fields for enterprise assets
@@ -250,7 +251,7 @@ RFID tag
 
 </td><td>
 
-Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. See [Zebra MotionWorks RFID integration for Enterprise Asset Management](../concept/eam-zebra-rfid-integration.md) for more information on RFID tags.**Note:** If this asset is a child of another asset and does not contain its own RFID tag, the **RFID tag** field populates with the RFID tag of the parent asset. If you remove the parent asset, the **RFID tag** field is cleared for this asset.
+Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. See [Zebra MotionWorks RFID integration for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-zebra-rfid-integration.md) for more information on RFID tags.**Note:** If this asset is a child of another asset and does not contain its own RFID tag, the **RFID tag** field populates with the RFID tag of the parent asset. If you remove the parent asset, the **RFID tag** field is cleared for this asset.
 
 </td></tr><tr><td>
 
@@ -516,7 +517,7 @@ RFID tag
 
 </td><td>
 
-Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. For more information on RFID tags, see [Zebra MotionWorks RFID integration for Enterprise Asset Management](../concept/eam-zebra-rfid-integration.md).
+Real-time radio-frequency identification \(RFID\) tag that is associated with the asset. For more information on RFID tags, see [Zebra MotionWorks RFID integration for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-zebra-rfid-integration.md).
 
 </td></tr><tr><td>
 
@@ -654,7 +655,7 @@ Status
 
 Status of mapping RFID location data to the asset. If the data is successfully mapped to the asset, this field is set to **Matched**. If the data is not mapped to the asset, this field is set to **Unmatched**.**Important:** RFID location data can be mapped to the asset only if you select the **Active** option in the RFID form section.
 
- **Tip:** You can view and take action on the asset records that have an RFID **Status** of **Unmatched** by using the **Unmatched RFID tags** important action that appears on the **Overview** tab of the Enterprise asset estate view. For more information on the Enterprise asset estate view, see [Enterprise asset estate overview for Enterprise Asset Workspace](../concept/asset-estate-overview-eam.md).
+ **Tip:** You can view and take action on the asset records that have an RFID **Status** of **Unmatched** by using the **Unmatched RFID tags** important action that appears on the **Overview** tab of the Enterprise asset estate view. For more information on the Enterprise asset estate view, see [Enterprise asset estate overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md).
 
 </td></tr></tbody>
 </table><table id="table_ydm_ggh_nrb"><thead><tr><th>
@@ -680,48 +681,48 @@ Work notes are updated for the following cases: -   Updates to **Assigned To**, 
 |DaaS asset|Option that indicates if the given asset is a Device as a Service \(DaaS\) asset.|
 |DaaS account|DaaS account that the asset is leased to.|
 
-**Parent Topic:**[Enterprise Asset Management reference](../concept/reference-enterprise-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 
 
-[Domain separation and Enterprise Asset Management](../concept/domain-separation-eam.md)
+[Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles](eam-roles.md)
+[Components installed with Enterprise Asset Management]()
 
-[OT Asset Workspace roles](ot-workspace-roles.md)
+[OT Asset Workspace roles]()
 
-[Asset audit fields for enterprise assets](asset-audit-record-fields-eam.md)
+[Asset audit fields for enterprise assets]()
 
-[Audit results](audit-results-eam.md)
+[Audit results]()
 
-[Enterprise model categories and corresponding classes](enterprise-model-categories.md)
+[Enterprise model categories and corresponding classes]()
 
-[Mandatory fields in the bulk import spreadsheets](mandatory-bulk-fields.md)
+[Mandatory fields in the bulk import spreadsheets]()
 
-[Normalization status for enterprise models](norm-status-eam.md)
+[Normalization status for enterprise models]()
 
-[Model fields for Enterprise Asset Management](eam-model-fields.md)
+[Model fields for Enterprise Asset Management]()
 
-[Contract fields for Enterprise Asset Management](contract-fields-eam.md)
+[Contract fields for Enterprise Asset Management]()
 
-[Maintenance plan fields for Enterprise Asset Management](maintenance-plan-fields-eam.md)
+[Maintenance plan fields for Enterprise Asset Management]()
 
-[Maintenance schedule fields for Enterprise Asset Management](maintenance-schedule-fields-eam.md)
+[Maintenance schedule fields for Enterprise Asset Management]()
 
-[Work plan fields for Enterprise Asset Management](wp-fields-eam.md)
+[Work plan fields for Enterprise Asset Management]()
 
-[Work plan schedule fields for Enterprise Asset Management](work-plan-schedule-fields-eam.md)
+[Work plan schedule fields for Enterprise Asset Management]()
 
-[Expense line fields for Enterprise Asset Management](expense-line-fields-eam.md)
+[Expense line fields for Enterprise Asset Management]()
 
-[Fields inherited from a parent asset group to a sub group](subgroups-parent-fields-eam.md)
+[Fields inherited from a parent asset group to a sub group]()
 
-[Enterprise asset disposal order stages](eamasset-disposalorder-stages.md)
+[Enterprise asset disposal order stages]()
 
-[Terminology for linear assets](terms-eam.md)
+[Terminology for linear assets]()
 
-[Scheduled jobs and tables installed with normalization of firmware models](firmware-tables-jobs-ot.md)
+[Scheduled jobs and tables installed with normalization of firmware models]()
 
-[Asset put away task fields](put-away-task-form-eam.md)
+[Asset put away task fields]()
 

@@ -2,6 +2,7 @@
 title: Map screen
 description: Map screens display a map with locations that are associated to the records in a data item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/map-screen.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Use a map screen when you need your users be aware of the locations related to t
 
 </td><td>
 
-![Map screen with points of interest.](../image/SGMapScreen.png "Map screen with points of interest")
+\[Omitted image "SGMapScreen.png"\] Alt text: Map screen with points of interest.
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Configurable Workspace UI
 description: The Configurable Workspace UI provides a suite of tools in a single, focused work area to help you answer customer questions and resolve issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/workspace-landing-page.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,23 +16,23 @@ The Configurable Workspace UI provides a suite of tools in a single, focused wor
 
 <table id="configurable-workspace-navigation" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Configurable Workspace concepts and features.](../../workspace/concept/learn-about-agent-workspace.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Configurable Workspace concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/learn-about-agent-workspace.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up your Configurable Workspace environments, tools, and access.](c_set-up-configurable-workspace.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up your Configurable Workspace environments, tools, and access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_set-up-configurable-workspace.md)
 
 </td><td>
 
-[Administer![Administer navigation card](../../../reuse/icons/brand-icons/bus-it-leader.svg)Manage and customize your Configurable Workspace.](administering-configurable-workspace.md)
+[Administer\[Omitted image "bus-it-leader.svg"\] Alt text: Administer navigation cardManage and customize your Configurable Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administering-configurable-workspace.md)
 
 </td></tr><tr><td>
 
-[Work![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Use your Configurable Workspace to answer customer questions and resolve issues.](../../../get-started/servicenow-overview/concept/working-in-your-workspace.md)
+[Work\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use your Configurable Workspace to answer customer questions and resolve issues.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-in-your-workspace.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get additional information about the Configurable Workspace.](../../workspace/reference/configurable-workspace-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about the Configurable Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configurable-workspace-reference.md)
 
 </td><td>
 

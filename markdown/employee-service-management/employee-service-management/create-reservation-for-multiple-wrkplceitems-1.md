@@ -28,15 +28,15 @@ Before booking a room or desk, check the availability of the selected item using
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table><thead><tr><th align="left" id="d346960e60">
+<table><thead><tr><th align="left" id="d353849e60">
 
 Location
 
-</th><th align="left" id="d346960e63">
+</th><th align="left" id="d353849e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d346960e69">
+</th></tr></thead><tbody><tr><td id="d353849e69">
 
 **From application navigator**
 
@@ -44,7 +44,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d346960e90">
+</td></tr><tr><td id="d353849e90">
 
 **From Employee Center Portal**
 
@@ -56,7 +56,7 @@ Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Rese
 
 Make a reservation portal page opens for you to make workplace reservations.
 
-</td></tr><tr><td id="d346960e137">
+</td></tr><tr><td id="d353849e137">
 
 **From Workplace Service Portal**
 
@@ -82,7 +82,7 @@ Make a reservation portal page opens for you to make workplace reservations.
 
 2.  Select a Reservable Module configuration such as **Desks**, **Meeting rooms** **Desks within an area** and so on.
 
-    For more information how to configure a Reservable module, see [Configure a reservable module](config-reservable-module.md).
+    For more information how to configure a Reservable module, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 3.  Select **Search**.
 
@@ -226,14 +226,14 @@ If any of the items needs approval, then your request is submitted to the approv
 
 ## What to do next
 
--   To view, edit or cancel your reservations, see [Share, modify, or cancel a reservation](modify-cancel-res-request.md).
+-   To view, edit or cancel your reservations, see [Share, modify, or cancel a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/modify-cancel-res-request.md).
 -   To view, add or remove any invitees from the reservation, do the following:
     1.  On the Reservation summary page, select the **Invitees** tab.
     2.  To change the location of any invitees, do the following:
         1.  Select the check box next to the invitee.
         2.  Select **Actions** &gt; **Assign to**.
 
-            You can also select the actions icon \(![Action icon](../image/actions-invitees-icon.png)\) next to the invitee details.
+            You can also select the actions icon \(\[Omitted image "actions-invitees-icon.png"\] Alt text: Action icon\) next to the invitee details.
 
         3.  In the **New location assignment** field, select the location where you want to move the invitee.
         4.  Click **Send update**.
@@ -245,45 +245,45 @@ If any of the items needs approval, then your request is submitted to the approv
         1.  On the Reservation summary page, select **Actions** &gt; **Change reservation details**.
         2.  In the Reservation details page, go to the **Add invitees to this reservation** section.
         3.  To add an invitee, select the invitee name from the search list.
-        4.  To remove an invitee, click the remove icon \(![Remove icon](../image/remove-invitee-icon.png)\) near the invitee name.
+        4.  To remove an invitee, click the remove icon \(\[Omitted image "remove-invitee-icon.png"\] Alt text: Remove icon\) near the invitee name.
         5.  Click **Update reservation details**.
         If you have added an invitee, an email is sent to the invitee with the reservation details. If you have removed an invitee, an email is sent that the reservation is canceled.
 
 
-**Parent Topic:**[Reserve workplace items](../concept/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 
 
-[Create a reservation](create-reservation-request-1.md)
+[Create a reservation]()
 
-[Add invitees as collaborators and create a reservation](add-colleagues-rsv-search.md)
+[Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations](recurring-reservations.md)
+[Auto-resolve recurring reservations]()
 
-[Set a location as favorite using the Space details page](set-a-location-as-favorite.md)
+[Set a location as favorite using the Space details page]()
 
-[Reserve a space near your colleague](browse-near-person-rsv.md)
+[Reserve a space near your colleague]()
 
-[Create a multi-day reservation](create-multi-day-reservation.md)
+[Create a multi-day reservation]()
 
-[Create multi-building reservations](create-multi-building-reservation.md)
+[Create multi-building reservations]()
 
-[Create neighborhood reservations](create-neighborhood-reservations.md)
+[Create neighborhood reservations]()
 
-[Enable shift-based reservation](enable-shift-based-reservation.md)
+[Enable shift-based reservation]()
 
-[Create a reservation along with a shared reservation](create-rsv-along-with-shared-rsv.md)
+[Create a reservation along with a shared reservation]()
 
-[Create a reservation including a virtual meeting link](Create-reservation-with-virtual-meeting.md)
+[Create a reservation including a virtual meeting link]()
 
-[Create a shift reservation](create-a-shift-reservation.md)
+[Create a shift reservation]()
 
-[Create a group reservation](create-group-reservation.md)
+[Create a group reservation]()
 
-[Share, modify, or cancel a reservation](modify-cancel-res-request.md)
+[Share, modify, or cancel a reservation]()
 
-[Reserve a workplace using the Quick Reservation widget](reserve-workplace-for-a-time-slot.md)
+[Reserve a workplace using the Quick Reservation widget]()
 
-[Download an iCalendar for a reservation](generate-ical.md)
+[Download an iCalendar for a reservation]()
 

@@ -1,7 +1,8 @@
 ---
 title: Log in to the Consumer Portal
-description: Log in to the Consumer Portal using the name and password you created during registration.
+description: Log in to the Consumer Portal to access your cases, products, and profile information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/log-in-to-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,7 +12,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Log in to the Consumer Portal
 
-Log in to the Consumer Portal using the name and password you created during registration.
+Log in to the Consumer Portal to access your cases, products, and profile information.
 
 ## Before you begin
 
@@ -33,4 +34,11 @@ Role required: sn\_customerservice.consumer
 ## Result
 
 You’re logged in to the Consumer Portal and your name and profile picture appears in the portal header.
+
+**Related topics**  
+
+
+[Register for the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/consumer-portal-registration.md)
+
+[Change your password from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/password-change-consumer-portal.md)
 

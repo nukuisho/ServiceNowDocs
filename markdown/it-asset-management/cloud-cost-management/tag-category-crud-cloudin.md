@@ -2,13 +2,14 @@
 title: Create and update a tag category
 description: Create a tag category to enable multiple tag names for representing costs against a single business entity. For example, multiple users might independently have created the tag names "App", "AppService", and "appl" to indicate applications. With a tag category of "Application", any costs for items tagged App, AppService, or appl are correctly assigned as costs against an application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Create and update a tag category
@@ -17,7 +18,7 @@ Create a tag category to enable multiple tag names for representing costs agains
 
 Watch this short video to learn how to create and update a tag category.
 
-Demonstrates how to create and update a tag category in Cloud Cost Management. 
+\[Omitted video\] Description: Demonstrates how to create and update a tag category in Cloud Cost Management.
 
 ## Before you begin
 
@@ -38,7 +39,7 @@ This procedure describes the process as performed from the user interface. Alter
 
 2.  On the Tag Categories list, select **New**.
 
-    For the list of default tag categories, see [List of default tag categories](../reference/default-tag-categories.md).
+    For the list of default tag categories, see [List of default tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/default-tag-categories.md).
 
     **Note:** In this step, you add a single tag name to the category to create the initial category record. You can add any number of tag names to the category later.
 
@@ -82,7 +83,7 @@ Tag names
 
 </td><td>
 
-The list of tag names that you can add to the category.1.  Select the Lookup icon ![Search icon.](../../software-asset-management2/image/search-icon.png) to open the list of tag names that came with the latest Billing Download Job. All tag names appear on the Tag Names list.
+The list of tag names that you can add to the category.1.  Select the Lookup icon \[Omitted image "search-icon.png"\] to open the list of tag names that came with the latest Billing Download Job. All tag names appear on the Tag Names list.
 2.  Select tag names from the drop-down list.
 
 
@@ -95,13 +96,16 @@ The list of tag names that you can add to the category.1.  Select the Lookup ico
 
     The Tag Category form reopens and the tag name that you added appears in the **Tag names** list.
 
-6.  On the **Tag names** list, select the Lookup icon ![Search icon.](../../software-asset-management2/image/search-icon.png) to add multiple tag names.
+6.  On the **Tag names** list, select the Lookup icon \[Omitted image "search-icon.png"\] to add multiple tag names.
 
 
-**Parent Topic:**[Using Cloud Cost Management](../concept/using-cloud-insights.md)
+-   **[Add or update a tag value for an AI Service tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/create-tag-value-ai.md)**  
+Associate a tag name with its corresponding tag value whenever a new AI service or a category within an existing AI service is introduced for Amazon Web Services \(AWS\), Microsoft Azure, or Google Cloud Platform \(GCP\).
+
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 
 **Related topics**  
 
 
-[Tags and tag categories](../reference/tags-overview.md)
+[Tags and tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tags-overview.md)
 

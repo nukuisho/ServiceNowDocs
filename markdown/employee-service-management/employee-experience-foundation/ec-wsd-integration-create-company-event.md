@@ -2,6 +2,7 @@
 title: Create Company Event with Workplace Service Management
 description: Create new company events and make changes to existing company events from the Workplace Service Management portal, which integrates with Employee Center Pro.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-wsd-integration-create-company-event.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,13 +30,13 @@ The workplace service delivery integrates with employee center pro to provide yo
 
 1.  Navigate to **Workplace Service Management** &gt; **Portal** &gt; **Content publishing** &gt; **Create new.**
 
-2.  ![Create a Company event from the Workplace Service Management portal](../images/wsd-integration-create-company-event.png "Create Company Event")
+2.  \[Omitted image "wsd-integration-create-company-event.png"\] Alt text: Create a Company event from the Workplace Service Management portal
 
 3.  Select **Company event** to choose the type of content you want to create.
 
 4.  Select **Continue**.
 
-5.  ![Choose Company event for the type of content](../images/wsd-integration-new-event-content-format.png "Content Format")
+5.  \[Omitted image "wsd-integration-new-event-content-format.png"\] Alt text: Choose Company event for the type of content
 
     **Note:** When you fill in the required fields all reservation details will show up in the workplace reservation field on the company event record.
 
@@ -45,17 +46,17 @@ The workplace service delivery integrates with employee center pro to provide yo
 
     **Note:** The **Publish** tab will allow you to proceed with publishing your event. Content Manager role will be required to publish a company event.
 
-8.  ![Required and optional fields for company event information](../images/wsd-integration-company-event-record.png "Company event record")
+8.  \[Omitted image "wsd-integration-company-event-record.png"\] Alt text: Required and optional fields for company event information
 
 9.  Review the content and reservation details in the **Content preview** to ensure everything looks good.
 
 10. Select **Save** or **Save and continue.**
 
-11. ![Review and approval company event details before saving and publishing](../images/wsd-integration-content-preview.png "Content Preview")
+11. \[Omitted image "wsd-integration-content-preview.png"\] Alt text: Review and approval company event details before saving and publishing
 
 12. Review the **Reservation details** and **Reservation summary**.
 
-13. ![Review the reservation details and reservation summary to validate, update, or change event information](../images/wsd-integration-reservation-summary.png "Reservation details and summary")
+13. \[Omitted image "wsd-integration-reservation-summary.png"\] Alt text: Review the reservation details and reservation summary to validate, update, or change event information
 
 14. Make any necessary update and then select Update reservation details.
 
@@ -63,7 +64,7 @@ The workplace service delivery integrates with employee center pro to provide yo
 
 15. The option to make changes, cancel or share your reservation is available from the **Actions** menu.
 
-16. ![Change, Cancel or Share your reservation from the Actions menu options](../images/wsd-integration-actions-menu.png "Actions Menu")
+16. \[Omitted image "wsd-integration-actions-menu.png"\] Alt text: Change, Cancel or Share your reservation from the Actions menu options
 
     **Note:**
 
@@ -74,12 +75,12 @@ The workplace service delivery integrates with employee center pro to provide yo
     Reservation details for company event is updated and published.
 
 
-**Parent Topic:**[Workplace Service Delivery Integration](ec-wsd-integration-company-events.md)
+**Parent Topic:**[Workplace Service Delivery Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.md)
 
 **Related topics**  
 
 
-[Create a company event](create-company-event.md)
+[Create a company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-company-event.md)
 
-[Publishing company events](ec-publish-company-events.md)
+[Publishing company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-company-events.md)
 

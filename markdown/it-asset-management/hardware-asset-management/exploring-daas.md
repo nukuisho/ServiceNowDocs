@@ -2,13 +2,14 @@
 title: Device as a Service
 description: The Device as a Service \(DaaS\) feature provides assets and asset management services to the customers of DaaS providers via a subscription model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/exploring-daas.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Device as a Service
@@ -17,9 +18,9 @@ The Device as a Service \(DaaS\) feature provides assets and asset management se
 
 ## DaaS overview
 
-Hardware Asset Management for DaaS.
+\[Omitted video\] Description: Hardware Asset Management for DaaS.
 
-Managing your DaaS offerings on a single platform through provider-focused views and tasks brings significant advantages to both providers and customers. DaaS providers can manage their asset inventory from sourcing through disposal to support their DaaS offerings. By consolidating all DaaS - related activities and information onto one platform, DaaS providers can streamline their operations and improve efficiency. For more information, see [DaaS provider view](daas-workspace.md).
+Managing your DaaS offerings on a single platform through provider-focused views and tasks brings significant advantages to both providers and customers. DaaS providers can manage their asset inventory from sourcing through disposal to support their DaaS offerings. By consolidating all DaaS - related activities and information onto one platform, DaaS providers can streamline their operations and improve efficiency. For more information, see [DaaS provider view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/daas-workspace.md).
 
 ## DaaS benefits
 

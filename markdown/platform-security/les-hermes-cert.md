@@ -2,6 +2,7 @@
 title: Set up a secure connection to the Hermes Messaging Service for LES
 description: Secure your Kafka topics by generating a ServiceNow instance-signed certificate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/les-hermes-cert.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,14 +20,14 @@ Setting up the Hermes Messaging Service requires coordination with your network 
 
 Make sure the following setup is in place:
 
--   The Hermes Messaging Service is activated. See [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
+-   The Hermes Messaging Service is activated. See [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service-activation.md).
 -   The Key Management Framework plugin \(com.glide.kmf.global\) is activated.
 -   The Certificates \[sys\_kmf\_certificate\] table contains a ServiceNow instance root CA certificate.
 -   The instance isn't configured with a Custom URL. Custom URLs are not supported with the Instance PKI Certificate Generator.
 
 Role required: hermes\_admin, sn\_kmf.cryptographic\_manager, or admin
 
-For details on assigning KMF roles, see [Roles installed with Key Management Framework](../../key-management-framework/reference/kmf-roles.md#).
+For details on assigning KMF roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/kmf-roles.md).
 
 ## Procedure
 
@@ -34,15 +35,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d125737e135">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d128466e135">
 
 Option
 
-</th><th align="left" id="d125737e138">
+</th><th align="left" id="d128466e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d125737e144">
+</th></tr></thead><tbody><tr><td id="d128466e144">
 
 **Apply ACLs to namespaces**
 
@@ -55,7 +56,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d125737e186">
+</td></tr><tr><td id="d128466e186">
 
 **Apply ACLs to defined topics**
 
@@ -98,14 +99,14 @@ You can now create a secure connection to the Hermes Messaging Service.
 
 ## What to do next
 
-[Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/run-hermes-messaging-service-diagnostics.md).
+[Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/run-hermes-messaging-service-diagnostics.md).
 
-**Parent Topic:**[Configuring Log Export Service \(LES\)](../concept/les-configure.md)
+**Parent Topic:**[Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-configure.md)
 
 **Related topics**  
 
 
-[Kafka consumer](../concept/les-kafka-consumer.md)
+[Kafka consumer]()
 
-[MID server consumer](../concept/les-mid-server-consumer.md)
+[MID server consumer]()
 

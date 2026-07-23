@@ -2,13 +2,14 @@
 title: Add compatible models to a hardware model
 description: On a hardware model record, you can add compatible hardware models, giving you a good method for tracking hardware assets that can work together.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_AddingCompModelsToHrdwreModel.html
 release: australia
 product: Product Catalog
 classification: product-catalog
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create hardware models, Models, Product Catalog, IT Asset Management]
+breadcrumb: [Create hardware models, Models, Product Catalog, Common applications, Asset Management]
 ---
 
 # Add compatible models to a hardware model
@@ -38,14 +39,14 @@ Role required: model\_manager
     The selected model is listed in the **Compatibles** related list.
 
 
-**Parent Topic:**[Create hardware models](t_CreatingHardwareModels.md)
+**Parent Topic:**[Create hardware models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/t_CreatingHardwareModels.md)
 
 **Related topics**  
 
 
-[Add substitute models to a hardware model](t_AddingSubModelsToHrdwModel.md)
+[Add substitute models to a hardware model]()
 
-[Models](../concept/c_Models.md)
+[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md)
 
-[Bundled models](../concept/c_CreatingBundledModels.md)
+[Bundled models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_CreatingBundledModels.md)
 

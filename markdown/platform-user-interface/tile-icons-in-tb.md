@@ -2,6 +2,7 @@
 title: Tile icon illustrations in Theme Builder
 description: Tile icon illustrations are used to communicate a tile’s purpose using visual metaphors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tile-icons-in-tb.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ A tile icon illustration is a small, purpose-driven graphic that visually repres
 
 **Important:** Tile icon illustrations apply to Workspaces and are not supported in the Core UI.
 
-![Accessibility tile icon illustration.](../image/tb-tile-icon-illustration.png "Example of a default tile icon illustration")
+\[Omitted image "tb-tile-icon-illustration.png"\] Alt text: Accessibility tile icon illustration.
 
 ## Custom images
 
@@ -33,10 +34,10 @@ To override the default tile icon illustrations with custom images, upload each 
 |Format|SVG|
 |File size limit|2 MB|
 
--   **[Configure colors for tile icon illustrations](../task/configure-tile-icon-colors.md)**  
+-   **[Configure colors for tile icon illustrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-tile-icon-colors.md)**  
 Configure and control the colors automatically applied to tile icon illustrations to keep your visual experience engaging while maintaining brand recognition.
--   **[Override tile icon illustrations with custom images](../task/override-tile-icon-with-custom-images.md)**  
+-   **[Override tile icon illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/override-tile-icon-with-custom-images.md)**  
 Modify or override the default tile icon illustrations with your own custom images to promote visual elements that reflect your company's branding.
 
-**Parent Topic:**[Working with Image styles](working-with-image-styles.md)
+**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-image-styles.md)
 

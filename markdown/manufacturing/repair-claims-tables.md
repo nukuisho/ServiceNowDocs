@@ -2,6 +2,7 @@
 title: Repair claims tables
 description: This section explains the repair claim tables in Manufacturing Commercial Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/repair-claims-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -96,7 +97,7 @@ Claim Case Line Charge\[sn\_claim\_cmn\_case\_line\_charge\]
 Stores the charges incurred for each repair job.
 
 </td></tr></tbody>
-</table>To learn more about the Case and Case Line, see [Case Lines and Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-mgmt-case-lines.md).
+</table>To learn more about the Case and Case Line, see .
 
-**Parent Topic:**[Repair claims data model](repair-claims.md)
+**Parent Topic:**[Repair claims data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-claims.md)
 

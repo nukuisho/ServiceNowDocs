@@ -2,6 +2,7 @@
 title: Manage automatically assigned Walk-up Experience interactions
 description: The agents supporting Walk-up Experience locations can view and manage interactions automatically pushed to the Agent Workspace inbox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/view-auto-assigned-walkup-requests.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -23,7 +24,7 @@ Role required: sn\_walkup.walkup\_technician
 
 Walk-up Experience interactions can be automatically pushed to a personal inbox in Agent Workspace based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature. The agents fulfill interactions on a first-come-first-served basis as they appear in the inbox.
 
-To manually assign and manage interactions using the Walk-up Experience Agent modules found in the application navigator, refer to [Manage Walk-up Experience interactions manually](view-assigned-walkup-requests.md).
+To manually assign and manage interactions using the Walk-up Experience Agent modules found in the application navigator, refer to [Manage Walk-up Experience interactions manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/view-assigned-walkup-requests.md).
 
 The Agents set a status in the Agent Workspace inbox to indicate readiness to accept interactions. Status choices are **Available**, **Away**, and **Offline**.
 
@@ -86,29 +87,29 @@ All Closed Complete and Closed Abandoned interactions assigned to a specific wal
 
         The requester does not lose position in the queue and you can help another requester simultaneously. Placing an interaction on hold does not affect your capacity for new interactions. To put an interaction on hold, click the **Put on Hold** button.
 
-    2.  You can associate the interaction with another record by selecting **Associate Record** from the more UI actions icon ![more UI actions icon](../../../common/image/Form_MoreOptions.png) in the interaction header.
+    2.  You can associate the interaction with another record by selecting **Associate Record** from the more UI actions icon \[Omitted image "Form\_MoreOptions.png"\] Alt text: more UI actions icon in the interaction header.
 
     3.  To view the walk-up location stockroom for fulfillment requests, click **List** in the left navigation panel of the Agent Workspace interface, then click **My Stockrooms**.
 
     4.  If you cannot resolve an issue, click the **Create Incident** button in the interaction header.
 
-        If you cannot fulfill a request from the stockroom, click the more UI actions icon ![more UI actions icon](../../../common/image/Form_MoreOptions.png) in the interaction header to view more actions. Select **Create Request** from the list to access the Service Catalog.
+        If you cannot fulfill a request from the stockroom, click the more UI actions icon \[Omitted image "Form\_MoreOptions.png"\] Alt text: more UI actions icon in the interaction header to view more actions. Select **Create Request** from the list to access the Service Catalog.
 
 4.  When you are finished resolving the interaction, select the **Close** button in the interaction header.
 
     Closing an interaction affects your capacity because a new interaction will be pushed to your inbox.
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](../concept/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 
 **Related topics**  
 
 
 [Agent Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md)
 
-[Service Operations Workspace](../../service-operations-workspace/concept/explore-sow.md)
+[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/explore-sow.md)
 
-[Create an incident](../../incident-management/task/create-an-incident.md)
+[Create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-an-incident.md)
 
 [Create a request through a catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_CreateARequestThroughTheCatalog.md)
 

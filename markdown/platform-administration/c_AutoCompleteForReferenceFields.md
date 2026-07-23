@@ -2,6 +2,7 @@
 title: Auto-complete for reference fields
 description: By default, a reference field auto-completes as the user types in the field.A field inherits and uses the reference table's auto-complete attributes unless the field has its own value for the same attributes. You can define the attributes for references to a table, and it affects every form that references that table.You can remove the display value column from a reference field by setting the ref\_ac\_display\_value attribute to false.By default, all reference fields use a starts with query to search for matching text in the reference table. This prevents auto-complete from executing inefficient contains queries every time a user searches a reference field. You can require all reference fields to use a starts with query.By default, auto-complete only matches text in the display value column. You can configure a reference field to match text from any additional column the reference field displays.By default, the reference auto-complete uses a starts with search. A user preference can be created to implement a contains search.Wildcard searches use the auto-complete functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_AutoCompleteForReferenceFields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ By default, a reference field auto-completes as the user types in the field.
 
 Administrators can configure additional auto-complete options. A user must have table-level read permission on the referenced table for auto-complete to display any options.
 
-![A user types in joe, and autocomplete suggests Joe Employee for the field.](../image/RefAutoComplete.png "Auto complete")
+\[Omitted image "RefAutoComplete.png"\] Alt text: A user types in joe, and autocomplete suggests Joe Employee for the field.
 
 ## Dictionary attributes for auto-completion of reference fields
 
@@ -104,7 +105,7 @@ Use these steps to define auto-complete attributes for all fields in a table tha
 
 To test the new auto-complete attributes, open a form that references the User \[sys\_user\] table, such as an open incident. Enter a single character in the **Assigned to** field. The auto-complete options now include both the user name and department.
 
-![Auto-complete list](../image/AutocompleteTableAttributes2.png)
+\[Omitted image "AutocompleteTableAttributes2.png"\] Alt text: Auto-complete list
 
 ## Remove the display value column
 
@@ -154,7 +155,7 @@ This example describes how to remove the display value column from references to
 
 To test the new auto-complete attributes, open a form that references the User \[sys\_user\] table, such as an open incident. Enter a single character in the **Assigned to** field. The auto-complete options now hide the display value column \(user\_name\) and only display the first\_name and last\_name columns.
 
-![Auto-complete no display value](../image/AutocompleteNoDisplayValue.png)
+\[Omitted image "AutocompleteNoDisplayValue.png"\] Alt text: Auto-complete no display value
 
 ## Improve auto-complete queries
 
@@ -168,7 +169,7 @@ Role required: admin
 
 The following example illustrates a **contains** query. Note that the letter "d" appears anywhere in the user's first or last name.
 
-![Auto-complete contains query](../image/AutocompleteContains.png)
+\[Omitted image "AutocompleteContains.png"\] Alt text: Auto-complete contains query
 
 This procedure describes how to change the **glide.ui.ref\_ac.startswith** system property to always use a **starts with** query.
 
@@ -188,7 +189,7 @@ This procedure describes how to change the **glide.ui.ref\_ac.startswith** syste
 
 5.  Test the change by opening a record with a reference field and entering a character in it, as illustrated in the example below.
 
-    ![Auto-complete starts with query](../image/AutocompleteStartswith.png)
+    \[Omitted image "AutocompleteStartswith.png"\] Alt text: Auto-complete starts with query
 
 
 ## Configure auto-complete to match text from any reference field
@@ -244,7 +245,7 @@ Role required: admin
 
 1.  Disable the **glide.ui.ref\_ac.startswith** system property.
 
-    For more information, see [Improve auto-complete queries](c_AutoCompleteForReferenceFields.md#).
+    For more information, see [Improve auto-complete queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
 
     **Note:** Setting the **glide.ui.ref\_ac.startswith** system property to **true** overrides any existing "autocomplete.contains" settings in both user and system level preferences. This property changes the auto-complete query method for all users regardless of preferences.
 

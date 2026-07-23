@@ -2,13 +2,14 @@
 title: Configure Microsoft Azure
 description: Set up a personal mode of authentication with Microsoft Azure to connect Microsoft Exchange Online with Workplace Calendar Synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/configure-azure-personal-auth-mode.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a personal authentication mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create a personal authentication mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure Microsoft Azure
@@ -89,20 +90,20 @@ Microsoft Exchange Online is set up with Microsoft Azure.
 
 ## What to do next
 
-Configure resource room and specify the delegated user email details. For more information, see [Configure resource rooms in Microsoft Exchange Online](configure-resource-rooms-in-msex.md).
+Configure resource room and specify the delegated user email details. For more information, see [Configure resource rooms in Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-resource-rooms-in-msex.md).
 
-**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](../concept/personal-auth-mode-connection-with-msex.md)
+**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
 
 **Related topics**  
 
 
-[Configure resource rooms in Microsoft Exchange Online](configure-resource-rooms-in-msex.md)
+[Configure resource rooms in Microsoft Exchange Online]()
 
-[Set up personal authentication mode OAuth connectivity with Microsoft Exchange Online](setup-personal-auth-mode-oauth-connectivity-with-msex.md)
+[Set up personal authentication mode OAuth connectivity with Microsoft Exchange Online]()
 
-[Configure a personal authentication mode Connection and Credential alias for Microsoft Exchange Online](configure-personal-auth-mode-connection-and-credential-alias.md)
+[Configure a personal authentication mode Connection and Credential alias for Microsoft Exchange Online]()
 
-[Configure your own connection and credential alias for personal authentication mode](configure-your-own-connection-and-credential-alias-for-personal-auth.md)
+[Configure your own connection and credential alias for personal authentication mode]()
 
-[Configure the Microsoft Exchange Online calendar provider in personal authentication mode](configure-calendar-provider-in-personal-auth-mode.md)
+[Configure the Microsoft Exchange Online calendar provider in personal authentication mode]()
 

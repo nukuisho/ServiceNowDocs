@@ -2,6 +2,7 @@
 title: OpenStack resource discovery
 description: The ServiceNow Discovery application uses OpenStack resource discovery patterns to find OpenStack resources through REST API calls. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -21,7 +22,7 @@ Starting with the Discovery and Service Mapping Patterns August 2024 store relea
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -36,7 +37,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Credentials**
 
-    On the ServiceNow AI Platform, create OpenStack credentials for the ServiceNow cloud service account. Enter the Domain ID, User Name, Project Name, and Password values you've configured in OpenStack requirements. For more information, see [Create and test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_CreateCredential.md).
+    On the ServiceNow AI Platform, create OpenStack credentials for the ServiceNow cloud service account. Enter the Domain ID, User Name, Project Name, and Password values you've configured in OpenStack requirements. For more information, see [Create and test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateCredential.md).
 
 -   **Service account**
 
@@ -44,7 +45,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create a discovery schedule**
 
-    For more information, see [Create an OpenStack Discovery schedule in Discovery Admin Workspace](../../discovery/task/create-openstack-schedule-DAW.md).
+    For more information, see [Create an OpenStack Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-openstack-schedule-DAW.md).
 
 -   **Create an automatic discovery schedule for OpenStack service accounts—for private cloud only**
 
@@ -52,7 +53,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **\(Optional\) Populate Service Account and Logical Datacenter fields in cloud CIs**
 
-    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables](../concept/query-service-account-ldc-fields.md).
+    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables]().
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -458,9 +459,9 @@ The discovered data includes the OpenStack Hypervisor View \[cmdb\_ci\_openstack
 
 The Dependency Views map shows all discovered OpenStack resources in your organization that are available through REST API calls and the relationships between them.
 
-![CIs and connections on a Dependency Views map](../image/openstack-network-dependency.PNG "OpenStack Network Dependency")
+\[Omitted image "openstack-network-dependency.PNG"\] Alt text: CIs and connections on a Dependency Views map
 
-![CIs and connections on a Dependency Views map](../image/openstack-VM-dependency.PNG "OpenStack VM Dependency")
+\[Omitted image "openstack-VM-dependency.PNG"\] Alt text: CIs and connections on a Dependency Views map
 
 ## CI relationships
 
@@ -499,5 +500,5 @@ The relationships listed in the following table are created to support OpenStack
 |cmdb\_ci\_openstack\_hypervisor\_view|Hosted on::Hosts|cmdb\_ci\_openstack\_datacenter|
 |cmdb\_ci\_openstack\_hypervisor\_view|Uses::Hosts Used by|cmdb\_ci\_server|
 
-**Parent Topic:**[Available cloud discovery patterns](../concept/available-patterns-cloud.md)
+**Parent Topic:**[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 

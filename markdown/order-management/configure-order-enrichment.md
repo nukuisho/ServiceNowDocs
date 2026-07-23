@@ -2,6 +2,7 @@
 title: Configure order enrichment flows using Decision Tables
 description: Associate enrichment subflows with the product or service specifications by using the Order Enrichment Flow Policy in Decision Tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-order-enrichment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,14 +32,21 @@ Add rows to the Order Enrichment Flow Policy decision table to specify which pro
 
 4.  Select the product offering in the **Offering** column.
 
-    ![Order Enrichment Flow Policy decision table for configuring the order enrichment process.](../image/order-mgt-enrichment-decision-table.png "Decision table for order enrichment process")
+    \[Omitted image "order-mgt-enrichment-decision-table.png"\] Alt text: Order Enrichment Flow Policy decision table for configuring the order enrichment process.
 
 5.  Select **Save**.
 
 
 ## Result
 
-A list of subflows appear in the results section. These sub flows create the enrichment tasks for an order line item during the enrichment process. For more information, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-builder-user-interface.md).
+A list of subflows appear in the results section. These sub flows create the enrichment tasks for an order line item during the enrichment process. For more information, see [Decision Builder user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/decision-builder-user-interface.md).
 
-**Parent Topic:**[Configuring Order Management](../concept/order-mgt-configuring.md)
+**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+**Related topics**  
+
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-order-management.md)
 

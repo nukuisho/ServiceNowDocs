@@ -2,13 +2,14 @@
 title: Accounts Payable Operations glossary
 description: Learn about the terms and concepts used in Accounts Payable Operations \(APO\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/apo-glossary.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 14
-keywords: [glossary terms, Account Number, Invoice Stage Field, Agent, Accounts Payable Invoice Processing, Accounts Payable Operations \(APO\), Accounts Payable Operations Integration with Document Intelligence, Accounts Payable Specialist, ACH Routing Number, Invoice Stage Field, AR Invoice, Business Object, AR Invoice Line, Business Object, Awaiting Internal Info, Invoice Case State, Awaiting Requester Info, Invoice Case State, glossary terms, Business Owner, glossary terms, Credit Memo, Cost Allocation, Cost Center, cXML, glossary terms, Distribution Lines, Distribution Set, Duplicate Invoice Detection, glossary terms, ERP, ERP Integration Framework, ERP Source, Exception Engine, Exception Monitoring Job, Exception Task, Extraction Confidence, glossary terms, GL, glossary terms, Inbound Staging Tables, Inquiry Case, Integration Error, Interaction Record, Invoice approval, Invoice Automation, Invoice Case, Invoice Ingestion API, Invoice Line, Invoice Line Mapping, Invoice Processing Case, Invoice Table Restructuring, ITAM, ITAM Integration, glossary terms, Ledger Account \(General Ledger Account/GL Account\), Legal Entity, glossary terms, Natural Language Understanding \(NLU\), NLU, Non-PO Invoice, glossary terms, Outbound Staging Table, glossary terms, Playbook, PO Invoice, PO Matching, PSM, glossary terms, Receipt Task, Receiving Slip, Rules-Based Engine, glossary terms, Staging Tables, Supplier, Supplier Collaboration Portal, Supplier Legal Entity Mapping \(sn\_fin\_supplier\_detail\), Supplier Tax, Source-to-Pay Workspace, System Tax, glossary terms, Tax Calculation, Tax Line, Tax Type, Tolerance Type, Transformation Process, glossary terms, Universal Request \(UR\), UR, glossary terms, Virtual Agent Flows, glossary terms, Workflow, Work Item]
+reading_time_minutes: 15
+keywords: [APO, Accounts Payable Operations, glossary, terminology, definitions, glossary terms, Account Number, Invoice Stage Field, Agent, Accounts Payable Invoice Processing, Accounts Payable Operations \(APO\), Accounts Payable Operations Integration with Document Intelligence, Accounts Payable Specialist, ACH Routing Number, Invoice Stage Field, AR Invoice, Business Object, AR Invoice Line, Business Object, Awaiting Internal Info, Invoice Case State, Awaiting Requester Info, Invoice Case State, glossary terms, Business Owner, glossary terms, Credit Memo, Cost Allocation, Cost Center, cXML, glossary terms, Distribution Lines, Distribution Set, Duplicate Invoice Detection, glossary terms, ERP, ERP Integration Framework, ERP Source, Exception Engine, Exception Monitoring Job, Exception Task, Extraction Confidence, glossary terms, GL, glossary terms, Inbound Staging Tables, Inquiry Case, Integration Error, Interaction Record, Invoice approval, Invoice Automation, Invoice Case, Invoice Ingestion API, Invoice Line, Invoice Line Mapping, Invoice Processing Case, Invoice Table Restructuring, ITAM, ITAM Integration, glossary terms, Ledger Account \(General Ledger Account/GL Account\), Legal Entity, glossary terms, Natural Language Understanding \(NLU\), NLU, Non-PO Invoice, glossary terms, Outbound Staging Table, glossary terms, Playbook, PO Invoice, PO Matching, PSM, glossary terms, Receipt Task, Receiving Slip, Rules-Based Engine, glossary terms, Staging Tables, Supplier, Supplier Collaboration Portal, Supplier Legal Entity Mapping \(sn\_fin\_supplier\_detail\), Supplier Tax, Source-to-Pay Workspace, System Tax, glossary terms, Tax Calculation, Tax Line, Tax Type, Tolerance Type, Transformation Process, glossary terms, Universal Request \(UR\), UR, glossary terms, Virtual Agent Flows, glossary terms, Workflow, Work Item]
 breadcrumb: [Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -18,42 +19,42 @@ Learn about the terms and concepts used in Accounts Payable Operations \(APO\).
 
 Glossary terms are grouped alphabetically.
 
-[A](apo-glossary.md#) \| [B](apo-glossary.md#)\| [C](apo-glossary.md#)\| [D](apo-glossary.md#) \| [E](apo-glossary.md#) \| [G](apo-glossary.md#) \| [I](apo-glossary.md#) \| [L](apo-glossary.md#) \| [N](apo-glossary.md#) \| [O](apo-glossary.md#) \| [P](apo-glossary.md#) \| [R](apo-glossary.md#) \| [S](apo-glossary.md#) \| [T](apo-glossary.md#) \| [U](apo-glossary.md#) \| [V](apo-glossary.md#) \| [W](apo-glossary.md#)
+[A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [B](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md)\| [C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md)\| [D](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [E](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [G](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [I](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [L](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [N](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [O](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [P](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [R](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [T](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [U](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [V](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md) \| [W](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md)
 
-**Parent Topic:**[Accounts Payable Operations reference](../reference/acc-pay-reference.md)
+**Parent Topic:**[Accounts Payable Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 **Related topics**  
 
 
-[Accounts Payable Operations properties](../reference/acc-pay-properties.md)
+[Accounts Payable Operations properties]()
 
-[Create New Invoice Line form](../reference/create-invoice-line-form.md)
+[Create New Invoice Line form]()
 
-[Create invoice cost allocation form](../reference/create-invoice-cost-allocation-form.md)
+[Create invoice cost allocation form]()
 
-[Outbound cost allocation staging table](../reference/outbound-cost-allocation-table.md)
+[Outbound cost allocation staging table]()
 
-[Distribution set form](../reference/distribution-set-form.md)
+[Distribution set form]()
 
-[Create New Invoice case form](../reference/create-new-ap-case-form.md)
+[Create New Invoice case form]()
 
-[Create New Invoice task form](../reference/create-apm-task-form.md)
+[Create New Invoice task form]()
 
-[Invoice processing case form](../reference/invoice-processing-case-form.md)
+[Invoice processing case form]()
 
-[Tax lines](../reference/create-tax-lines-apo.md)
+[Tax lines]()
 
-[Invoice exception form](../reference/exception-form-fields.md)
+[Invoice exception form]()
 
-[Request Help form](../reference/ur-request-help-form.md)
+[Request Help form]()
 
-[Master data table for Accounts Payable Operations](../reference/master-data-table-apo.md)
+[Data required for invoice processing]()
 
-[Invoice exception definition form](../reference/invoice-exception-definition-form.md)
+[Invoice exception definition form]()
 
-[Approval Rule form](../reference/new-approval-rule-form.md)
+[Approval Rule form]()
 
-[Approval Plan form](../reference/approval-plan-form.md)
+[Approval Plan form]()
 
 ## A
 

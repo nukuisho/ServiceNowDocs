@@ -2,6 +2,7 @@
 title: Space Optimization
 description: As a space planner, you can use the Workplace Central to monitor all your scenarios and workplace-related information from a single page called Space Optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/space-optimization.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -32,7 +33,7 @@ As a space planner, you can do the following using the Space Optimization module
 -   Change a space assignment from flexible to permanent or vice versa.
 -   Add, change, or remove a single allocation or multiple allocations at a time if you want to change their existing department or cost center.
 
-For more information about the Space Optimization homepage key features, refer to [Space Optimization - Key features and actions](../reference/space-optmization-features-and-actions-.md).
+For more information about the Space Optimization homepage key features, refer to [Space Optimization - Key features and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/space-optmization-features-and-actions-.md).
 
 ## Installing and accessing Space Optimization
 
@@ -52,42 +53,38 @@ You can also view the scenarios created by you from **All**
 
 ## View Space Optimization metrics
 
-You can view Space Optimization metrics in the Workplace Analytics dashboard. For more information, see [View Space Optimization metrics](../task/view-space-opt-analytics.md).
+You can view Space Optimization metrics in the Workplace Analytics dashboard. For more information, see [View Space Optimization metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-space-opt-analytics.md).
 
 ## View Space Occupancy metrics
 
-Ensure that you have installed the Workplace Connectors application. For more information Occupancy Dashboard metrics, see [View Occupancy Dashboard](../../workplace-connectors/task/view-badging-tables.md).
+Ensure that you have installed the Workplace Connectors application. For more information Occupancy Dashboard metrics, see [View Occupancy Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-badging-tables.md).
 
-**Parent Topic:**[Exploring Workplace Space Management](../../workplace-space-management/concept/explore_wsm.md)
+**Parent Topic:**[Exploring Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/explore_wsm.md)
 
-**Parent Topic:**[Explore Workplace Central](workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 
 
-[Scenario Planning](scenario-planning.md)
+[Scenario Planning]()
 
-[Schedule Planning](schedule-planning.md)
+[Schedule Planning]()
 
-[Allocation - types, setting, and impact](../../workplace-space-management/reference/setting-an-allocation-and-its-impact.md)
+[Allocation - types, setting, and impact]()
 
-[Lists module](wsd-lists-module.md)
+[Lists module]()
 
-[Workplace Analytics](workplace-analytics.md)
+[Workplace Analytics]()
 
-[Space Planning](space-planning.md)
+[Space Planning]()
 
-[Scenario Planning](scenario-planning.md)
+[Space assistance]()
 
-[Schedule Planning](schedule-planning.md)
+[Event Planner]()
 
-[Space assistance](space-assistance.md)
+[Move Management]()
 
-[Event Planner](event-planner.md)
+[Case management]()
 
-[Move Management](move-mgmt.md)
-
-[Case management](case-management-workspace.md)
-
-[Kiosk Indoor Mapping](kiosk-indoor-mapping.md)
+[Kiosk Indoor Mapping]()
 

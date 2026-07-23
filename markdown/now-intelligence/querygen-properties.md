@@ -2,10 +2,11 @@
 title: Query Generation properties
 description: The properties included with Query Generation apply to segments. They define whether the record or indicator that is the basis for a segment has been recently used or changed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/querygen-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
 ---
 
@@ -27,6 +28,18 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+sn\_query\_gen.default\_source\_type
+
+</td><td>
+
+Fallback source type when the user request and conversation history do not determine whether to use table or indicator data. Accepted values: 'table' \(default\), 'indicator', or 'match\_found\_wins' \(indicator data if a match was found, otherwise table\).
+
+-   Type: String
+-   Default value: table
+-   Location: System Property \[sys\_properties\] table
+
+</td></tr><tr><td>
+
 sn\_query\_gen.hidden\_insights.groupby.min\_fields
 
 </td><td>
@@ -36,7 +49,27 @@ The target number of group-by fields for extended analysis in AI Data Explorer. 
 -   Type: Integer
 -   Default value: 5
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Extended analysis](hidden-insights.md)
+-   Learn more: [Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/hidden-insights.md)
+
+</td></tr><tr><td>
+
+sn\_query\_gen.indicator.feature\_enabled
+
+</td><td>
+
+If false, Query Generation does not use indicator data. All calls to Query Generation return only table data.-   Type: Boolean \(true/false\)
+-   Default value: true
+-   Location: System Property \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_query\_gen.indicator.search.enabled
+
+</td><td>
+
+Per-execution indicator search gate. If false, the indicator executor returns `INDICATOR_SEARCH_DISABLED`; combined-mode requests can fall back to table.-   Type: Boolean \(true/false\)
+-   Default value: true
+-   Location: System Property \[sys\_properties\] table
 
 </td></tr><tr><td>
 
@@ -47,7 +80,7 @@ sn\_query\_gen.segment\_enabled
 When set to true, segments are created and used. When false, no segments are created, and all existing segments are excluded from AI Data Explorer search results. During the next Sync Segments Job, all segments are deactivated.-   Type: Boolean \(true/false\)
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -60,7 +93,7 @@ When set to true, excludes all segments from sys\_filter from AI Data Explorer s
 -   Type: Boolean \(true/false\)
 -   Default value: false
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -75,7 +108,7 @@ When set to true, excludes all segments from sn\_query\_gen\_segment\_table\_con
 -   Type: Boolean \(true/false\)
 -   Default value: false
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -88,7 +121,7 @@ When set to true, excludes all segments from indicator sources \(pa\_cubes\) fro
 -   Type: Boolean \(true/false\)
 -   Default value: false
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -101,7 +134,7 @@ When set to true, excludes all segments from sys\_reports from AI Data Explorer 
 -   Type: Boolean \(true/false\)
 -   Default value: false
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -114,7 +147,7 @@ When set to true, excludes all segments from sys\_report\_source from AI Data Ex
 -   Type: Boolean \(true/false\)
 -   Default value: false
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -127,7 +160,7 @@ When set to true, excludes all segments from sys\_app\_module from AI Data Explo
 -   Type: Boolean \(true/false\)
 -   Default value: false
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -140,7 +173,7 @@ When set to true, enables batch AIS search where manual and automated segments a
 -   Type: Boolean \(true/false\)
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -148,10 +181,10 @@ sn\_query\_gen.segments.indicator.inactivity\_threshold\_multiplier
 
 </td><td>
 
-Applies a multiplier to how long ago an indicator value can have changed for that indicator to be "recently changed." The \[Query Generation\] Sync Segments job deactivates segments based on indicators that have not recently changed. The value that is multiplied differs by indicator frequency \(see [Segments in the Query Generation semantic layer](querygen-segments.md)\).-   Type: Integer
+Applies a multiplier to how long ago an indicator value can have changed for that indicator to be "recently changed." The \[Query Generation\] Sync Segments job deactivates segments based on indicators that have not recently changed. The value that is multiplied differs by indicator frequency \(see [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)\).-   Type: Integer
 -   Default value: 1
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -162,7 +195,7 @@ sn\_query\_gen.segments.manual\_segment\_scale\_factor
 Multiplier applied to manual segments to give them a different weight than automatic segments when segments are scored.-   Type: Number
 -   Default value: 1.05 \(5% greater weight for manual segments\)
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -173,7 +206,7 @@ sn\_query\_gen.segments\_match\_threshold
 Minimum semantic similarity score that a segment must meet to qualify to be chosen.-   Type: Number
 -   Default value: 0.70
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -184,7 +217,7 @@ sn\_query\_gen.segments.max\_filter\_length
 The maximum number of characters a segment can contain. Segments of greater length are removed.-   Type: Integer
 -   Default value: 2000
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -195,7 +228,7 @@ sn\_query\_gen.segments.reports.last\_viewed\_threshold\_days
 Defines how many days ago a report can have run for that report to be considered "recently run." The \[Query Generation\] Sync Segments job deactivates segments based on reports that have not run recently. It also deactivates report sources whose reports have not run recently.-   Type: Integer
 -   Default value: 180
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -206,7 +239,7 @@ sn\_query\_gen.segments\_search\_limit
 The maximum number of results that can be requested from AI Search per search for segments.-   Type: Integer
 -   Default value: 12
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr><tr><td>
 
@@ -217,8 +250,8 @@ sn\_query\_gen.segments\_result\_limit
 The maximum number of segments that AI Search can return after filtering.-   Type: Integer
 -   Default value: 12
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Segments in the Query Generation semantic layer](querygen-segments.md)
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/querygen-segments.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Query Generation reference](query-generation-reference.md)
+</table>**Parent Topic:**[Query Generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation-reference.md)
 

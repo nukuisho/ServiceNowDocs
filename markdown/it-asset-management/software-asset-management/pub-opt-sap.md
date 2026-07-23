@@ -2,13 +2,14 @@
 title: Publisher optimizations for SAP
 description: View licensing optimizations for SAP by selecting SAP from the Publisher drop-down list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/pub-opt-sap.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+breadcrumb: [Reference, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Publisher optimizations for SAP
@@ -160,5 +161,5 @@ Software Subscriptions\[samp\_sw\_subscription\]
 Number of users by their SAP cloud use type in SAP S/4HANA Public Cloud.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
 

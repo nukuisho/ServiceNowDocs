@@ -4,8 +4,8 @@ description: The ServiceNow Container Vulnerability Response application brings 
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-06"
-reading_time_minutes: 6
+last_updated: "2026-06-05"
+reading_time_minutes: 7
 ---
 
 # Container Vulnerability Response release notes
@@ -15,12 +15,12 @@ The ServiceNow® Container Vulnerability Response application brings security an
 ## Container Vulnerability Response highlights for the Australia release
 
 -   The AWS Integration for Security Exposure Management supports integrations with AWS Inspector and AWS Security Hub.
--   If you're currently using Container Vulnerability Response and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) notes](secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
+-   If you're currently using Container Vulnerability Response and you want to upgrade to Unified Security Exposure Management \(USEM\), see [Unified Security Exposure Management \(USEM\) notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/secops-sem-rn.md) for more information about USEM and the Unified Security Exposure Management migration.
 -   Import container image vulnerability data from the Wiz scanners into container vulnerable items \(CVITs\) with the Vulnerability Response Integration with Wiz.
 -   With the sn\_vul\_container.vulnerability\_analyst or sn\_vul\_container.vulnerability\_admin role, create container remediation tasks manually in the Vulnerability Manager Workspace.
 -   With the role sn\_vul\_container.remediation\_owner, create container remediation tasks manually in the IT Remediation Workspace.
 
-See [Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/cvr-landing.md) for more information.
+See [Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cvr-landing.md) for more information.
 
 **Important:** Container Vulnerability Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -34,26 +34,36 @@ For more information about the released versions of the Container Vulnerability 
 
 ## New in the Australia release
 
--   **[Enhancements to Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/exploring-cvr.md)**
+-   **[Activate the Wiz Asset Integration and identify resource types for import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/wiz-assets-resources-tab.md)**
+
+    Enhancements to the Wiz integration include:
+
+    -   A link lets you navigate from the Wiz configuration module directly to the **Configure VI Granularity** module where you can configure the keys that generate Container Vulnerability Response findings.
+    -   Starting with version 32.1 \(USEM\) and version 4.1 \(non-USEM\), the Asset integration is deactivated by default and is not a mandatory prerequisite for the other Wiz integration imports.
+
+        If you choose to activate it, the Asset integration will retrieve assets for all resource types if you don't specify the ones you want on the **Asset Integration Configuration** tab. To avoid importing vulnerability data you don't need, identify only the resources \(assets\) that you want to import with this integration.
+
+    -   Resource Type is no longer a mandatory field for configuring the Vulnerability Response Integration with Wiz. You can now save Wiz configurations for the integrations without specifying a Resource Type, simplifying setup for use cases where specifying a Resource Type isn't appropriate.
+-   **[Enhancements to Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/exploring-cvr.md)**
 
     The image repository name format for new and existing discovered container images in the Container Vulnerability Response application has been updated to align with the discovery format. Perform a complete import to view the registry/repository enhancements on existing and new records.
 
-    -   The registry/repository format is supported for all third-party integrations including the [Vulnerability Response integration with Palo Alto Networks Prisma Cloud Compute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/pcc-integration.md) and [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md) third-party integrations.
+    -   The registry/repository format is supported for all third-party integrations including the [Vulnerability Response integration with Palo Alto Networks Prisma Cloud Compute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/pcc-integration.md) and [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-wiz-exploring-host-cf.md) third-party integrations.
     -   Appended all repositories that are associated with an image to the Repository field on records on the Discovered Container Image \[sn\_vul\_container\_image\] table, which can help you see images from specific repositories.
     -   The default integration instance parameter for configuring finding keys for the Container Vulnerability Integration includes src\_ci, vulnerability, package, image\_layer, and image\_repository.
-    Added the source\_id column to the Container Image Finding \[sn\_vul\_container\_image\_findings\] table. Mapped the id attribute from imports to the Source id field on findings records for all third-party integrations including the Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute and [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md) third-party integrations.
+    Added the source\_id column to the Container Image Finding \[sn\_vul\_container\_image\_findings\] table. Mapped the id attribute from imports to the Source id field on findings records for all third-party integrations including the Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute and [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-wiz-exploring-host-cf.md) third-party integrations.
 
--   **[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/aws-integration-for-security-exposure-management-overview.md)**
+-   **[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/aws-integration-for-security-exposure-management-overview.md)**
 
     The AWS Integration for Security Exposure Management supports integrations with the following AWS services:
 
     -   AWS Inspector is an automated vulnerability management service that continuously scans EC2 instances, ECR container images, and Lambda functions for software vulnerabilities \(CVEs\) and unintended network exposure. The Vulnerability Response integration with AWS Inspector imports host and container vulnerability findings from AWS Inspector.
     -   AWS Security Hub is a security service that is used to centralize and update security checks across AWS accounts. It provides a unified view of security alerts and compliance status by integrating with various AWS services. The Vulnerability Response integration with AWS Security Hub imports host, container vulnerabilities, and misconfigurations from AWS Security Hub.
--   **[Unified Microsoft Defender Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/ms-defender-sem.md)**
+-   **[Unified Microsoft Defender Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/ms-defender-sem.md)**
 
     The Microsoft Defender for Cloud and Microsoft Defender Threat and Vulnerability Management \(MS TVM\) plugins are now consolidated into a single plugin: Microsoft Defender Integration for Security Exposure Management. This consolidation deprecates the standalone Microsoft Defender for Cloud plugin. The unified plugin also introduces container image vulnerability ingestion from Microsoft Defender for Cloud, creating Container Vulnerable Items on your instance. A guided migration path is available to transfer existing data from the deprecated applications to the unified plugin.
 
--   **[Configure Image Vulnerability keys for Container Vulnerability Response CVIT creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/cvr-configuring-findings-key-granularity.md)**
+-   **[Configure Image Vulnerability keys for Container Vulnerability Response CVIT creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/cvr-configuring-findings-key-granularity.md)**
 
     Configure records on the Configure Image Vulnerability Keys \[sn\_vul\_container\_image\_vulnerability\_keys\] table in your ServiceNow AI Platform® instance for the Image Vulnerability Keys that create container vulnerable items \(CVIT\)s.
 
@@ -75,15 +85,15 @@ For more information about the released versions of the Container Vulnerability 
 
 ## Deprecated features
 
--   The Path Column in the Container Image Package \[sn\_vul\_container\_image\_package\] table for the Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute and [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md) third-party integrations. Path tracking has been moved to the Path Column on the Container Image Finding \[sn\_vul\_container\_image\_findings\] table to support accurate and consistent path and image association.
+-   The Path Column in the Container Image Package \[sn\_vul\_container\_image\_package\] table for the Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute and [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-wiz-exploring-host-cf.md) third-party integrations. Path tracking has been moved to the Path Column on the Container Image Finding \[sn\_vul\_container\_image\_findings\] table to support accurate and consistent path and image association.
 
     If you use these integrations you must refer to the Path column available on the Container Image Finding \[sn\_vul\_container\_image\_findings\] table.
 
--   The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md) is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to version 1.1, you must backdate any of your existing Wiz primary integrations by three days and run them. See more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
+-   The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-wiz-exploring-host-cf.md) is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to version 1.1, you must backdate any of your existing Wiz primary integrations by three days and run them. See more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
 
 ## Activation information
 
-Install Container Vulnerability Response and third-party integrations by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Container Vulnerability Response and third-party integrations by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-**Parent Topic:**[Security Operations release notes](security-operations-rn-landing.md)
+**Parent Topic:**[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/security-operations-rn-landing.md)
 

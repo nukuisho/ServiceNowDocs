@@ -2,10 +2,11 @@
 title: Defining product characteristics and characteristic options
 description: As a product catalog admin, you create the characteristics and characteristic options for product offerings and specifications. Product characteristics are attributes that define and describe a product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/defining-prod-characteristics.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -40,13 +41,18 @@ You can use the Object type to build a hierarchy of complex characteristics, whi
 
 The following example shows a characteristic hierarchy for Routing Addresses, which is a parent-level attribute with an object data type. This attribute has the following child attributes: Procurement Date, Route, Additional Address Required, BGP, Routing Type, and Address Supplier. Notice that the BGP child characteristic is an array of objects with a minimum size of 2 and maximum size of 4.
 
-![Order for configurable product offering that has complex characteristics for the Routing Addresses of the SD WAN Controllerv2 . Shows the input prompts for the BGP characteristic options.](../image/complex-char-nodes-array.png "Example of complex characteristics in product configurator")
+\[Omitted image "complex-char-nodes-array.png"\] Alt text: Order for configurable product offering that has complex characteristics for the Routing Addresses of the SD WAN Controllerv2 . Shows the input prompts for the BGP characteristic options.
 
 ## Setting up complex characteristics
 
 Defining a hierarchical attribute structure involves setting up the parent attribute, for example routing addresses, as an object type. You then define the characteristic relationships between the parent attribute and child attributes to establish the hierarchical structure and the order in which the child characteristics display in the product configurator.
 
-For details on defining characteristics, see [Create product characteristics and characteristic options](../task/som-product-config-add-characteristics.md)
+For details on defining characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md).
 
-.
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

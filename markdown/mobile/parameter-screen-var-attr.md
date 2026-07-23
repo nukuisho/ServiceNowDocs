@@ -2,6 +2,7 @@
 title: Input form screen attributes for inputs
 description: Different types of inputs are available for use in input form screens, and you can use different attributes to configure the inputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/parameter-screen-var-attr.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,7 +44,7 @@ DataSourceId
 
 </td><td>
 
-Define this attribute whenever you create a data source mechanism to load input values. For more information, see [Data sources](../concept/data-sources.md).**Note:**
+Define this attribute whenever you create a data source mechanism to load input values. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-sources.md).**Note:**
 
 This attribute is not supported with signature inputs.
 
@@ -53,7 +54,7 @@ ElementIdentifier
 
 </td><td>
 
-Define this attribute whenever you create a data source mechanism to load input values. For more information, see [Data sources](../concept/data-sources.md).**Note:**
+Define this attribute whenever you create a data source mechanism to load input values. For more information, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/data-sources.md).**Note:**
 
 This attribute is not supported with signature inputs.
 
@@ -68,7 +69,7 @@ Use attachment inputs to enable users to attach files in an input form screen. A
 
 </td><td>
 
-![Attachment input example.](../image/param-input-attachment-1.png)
+\[Omitted image "param-input-attachment-1.png"\] Alt text: Attachment input example.
 
 </td></tr></tbody>
 </table>The following is an example of code that contains attachment inputs.
@@ -91,7 +92,7 @@ Use attachment inputs to enable users to attach files in an input form screen. A
     -   on-site via a camera
     -   from the user’s phone gallery
     -   from the user’s file system
-    In the Input attribute record, select `HiddenAttachmentSources`. Select either `camera`, `files` or `gallery`, from the **Value** field and then select **Save**. Repeat the process if you want to include more than one attachment source. For more information, see [Define attachment sources available to users](../task/attachment-source-define.md).
+    In the Input attribute record, select `HiddenAttachmentSources`. Select either `camera`, `files` or `gallery`, from the **Value** field and then select **Save**. Repeat the process if you want to include more than one attachment source. For more information, see [Define attachment sources available to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/attachment-source-define.md).
 
 <table id="table_qyx_sfg_zdc"><thead><tr><th>
 
@@ -119,7 +120,7 @@ Use barcode inputs to scan single or multiple barcodes. Barcodes are machine-rea
 -   Multi-scan inputs can be configured with the **MaxEntries** attribute. If your input form screen barcode input is configured with the **MaxEntries** attribute, users can quickly scan multiple barcodes sequentially without leaving the scanning interface.
 -   Grouped scans can be configured to scan multiple barcodes associated with an asset that must be grouped in a set. To configure a grouped barcode input, you must create a barcode section in the input form screen that has barcode inputs only. Then the section **MaxEntries** attribute must be configured for the grouped barcode section so that users can scan multiple groups of barcodes.
 
-![Examples of scanning a barcode with a mobile app.](../image/barcode-input.png "Barcode scanning in a mobile app")
+\[Omitted image "barcode-input.png"\] Alt text: Examples of scanning a barcode with a mobile app.
 
 You can use this attribute with barcode inputs.
 
@@ -140,7 +141,7 @@ Description
 Used only for configuring multi-scanning and multiple groups of barcodes. Sets the maximum number of barcodes that a user can scan at a time. For example, you can set the value to `5` to enable users to rescan 5 times.**Note:** Use this attribute for multi-scan barcode inputs only. If your barcode input is intended for single scans, no attribute is required.
 
 </td></tr></tbody>
-</table>For information about creating an input form screen with barcode inputs, see [Configure input form screens with single and multi-scan barcode inputs](../task/single-multi-barcode-input-config.md) and [Configure input form screens with grouped scan barcode inputs](../task/config-grouped-scan-barcode-inputs.md).
+</table>For information about creating an input form screen with barcode inputs, see [Configure input form screens with single and multi-scan barcode inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/single-multi-barcode-input-config.md) and [Configure input form screens with grouped scan barcode inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-grouped-scan-barcode-inputs.md).
 
 ## Boolean inputs
 
@@ -150,7 +151,7 @@ Use Boolean inputs for inputs with true or false values. You can configure Boole
 
 </td><td>
 
-![Examples of boolean inputs configured as a check box or toggle switch.](../image/param-input-boolean-1.png)
+\[Omitted image "param-input-boolean-1.png"\] Alt text: Examples of boolean inputs configured as a check box or toggle switch.
 
 </td></tr></tbody>
 </table>You can use these attributes with Boolean inputs.
@@ -191,7 +192,7 @@ Use choice inputs to give your users options to select from. You can create thes
 
 </td><td>
 
-![Single and multiple choice input options on input form screen.](../image/inline-choice.png "Single and multiple choice input options on an input form screen")
+\[Omitted image "inline-choice.png"\] Alt text: Single and multiple choice input options on input form screen.
 
 </td></tr></tbody>
 </table>You can use these attributes with choice inputs.
@@ -236,7 +237,7 @@ The field that contains your choices.**Note:** Use this option to use the choice
 
 Option to select how to display your choice inputs. By default, the value is **false**, meaning that the choice display is on the same screen, removing the need to navigate to a separate screen. For a visual example, see the image in the Choice inputs introduction.If you select **true**, a list-type option displays where users are required to navigate to an additional screen, after a selection is made.
 
-![Inline choice option showing the need for a secondary selection screen.](../image/param-input-choice-1.png "Inline choice list-style option showing the need for a secondary screen")
+\[Omitted image "param-input-choice-1.png"\] Alt text: Inline choice option showing the need for a secondary selection screen.
 
 </td></tr><tr><td>
 
@@ -248,7 +249,7 @@ Option to define the number of chips to display within an input form screen sect
 -   Negative numerical value: Displays all the choice values, even if it exceeds 8 values.
 -   Positive numerical value: Displays the number of choice values defined. If there are more choices than the entered numerical value a **See all** button displays.
 
-The following image illustrates a scenario where 8 is the value entered and there are 12 choice values. The first screen displays 8 values. When the user taps the **See all** button, a new screen opens with all the 12 choice values displayed.![Choice list with See all button.](../image/inline-choice-see-all.png "Choice list with See all button")
+The following image illustrates a scenario where 8 is the value entered and there are 12 choice values. The first screen displays 8 values. When the user taps the **See all** button, a new screen opens with all the 12 choice values displayed.\[Omitted image "inline-choice-see-all.png"\] Alt text: Choice list with See all button.
 
 </td></tr><tr><td>
 
@@ -299,7 +300,7 @@ If you're modifying an existing custom map input that uses the advanced referenc
 
 </td><td>
 
-![Shows how the custom map input is displayed in a mobile app where you select 'Next' to view the map.](../image/input-form-custom-map-input.png)
+\[Omitted image "input-form-custom-map-input.png"\] Alt text: Shows how the custom map input is displayed in a mobile app where you select 'Next' to view the map.
 
 </td></tr></tbody>
 </table>You can use these attributes with custom map inputs.
@@ -363,7 +364,7 @@ Use date/time inputs to enable your users to input date and time values. You can
 
 </td><td>
 
-![Examples of date and date time configurations.](../image/param-input-datetime-1.png)
+\[Omitted image "param-input-datetime-1.png"\] Alt text: Examples of date and date time configurations.
 
 </td></tr></tbody>
 </table>You can use these attributes with date/time inputs.
@@ -409,9 +410,9 @@ The time zone of the mobile device where the input is being added. The value mus
 
  YYYY-MM-DD hh:mm:ss
 
- For information about setting up the IncludeTimezone attribute of date/time inputs for different action types, see [Date/time input setup for different action item types](../concept/datetime-input-setup-4-action-items.md).
+ For information about setting up the IncludeTimezone attribute of date/time inputs for different action types, see [Date/time input setup for different action item types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/datetime-input-setup-4-action-items.md).
 
- For information about action item types, see [Configure an action item](../task/sg-studio-create-action-item.md).
+ For information about action item types, see [Configure an action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-create-action-item.md).
 
 </td></tr><tr><td>
 
@@ -468,12 +469,12 @@ Use number inputs to enable your users to enter numerical values. Define optiona
 
 </td><td>
 
-![Examples of number inputs configured as a numerical or percentage values.](../image/ifs-number-box.png)
+\[Omitted image "ifs-number-box.png"\] Alt text: Examples of number inputs configured as a numerical or percentage values.
 
 </td></tr></tbody>
 </table>To add additional elements to the number inputs, you can use the input attributes listed in the table. From the **Inputs attributes** field select **New** for each attribute you want to add.
 
-**Note:** The **Translated value attribute** toggle is only relevant when selecting the Decoration input attribute. The Decoration input attribute is relevant for the slider Render type. For more information see, [Configure a slider option for a number input](../task/configure-slider.md).
+**Note:** The **Translated value attribute** toggle is only relevant when selecting the Decoration input attribute. The Decoration input attribute is relevant for the slider Render type. For more information see, [Configure a slider option for a number input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-slider.md).
 
 <table id="table_qmz_d1r_b4b"><thead><tr><th>
 
@@ -517,28 +518,28 @@ Specify a render type for the number input.-   **integer**
 
 Displays whole integers, such as `3`, `1003`, or `57`. When **integer** is used, end users can only enter integers and can't enter decimals.
 
-![The render type called integer showing an input called Number of outlets with a value of 60.](../image/ifs-number-box2.png)
+\[Omitted image "ifs-number-box2.png"\] Alt text: The render type called integer showing an input called Number of outlets with a value of 60.
 
 -   **line**
 
 Displays the input as a line field.
 
-![The render type called line showing an input called Subscription duration in months with a value of 73.](../image/ifs-number-line.png)
+\[Omitted image "ifs-number-line.png"\] Alt text: The render type called line showing an input called Subscription duration in months with a value of 73.
 
 -   **percentage**
 
 Displays a percent symbol\(%\) after the number in the input.
 
-![The render type called percentage showing an input called Interest rate in percentage with a value of 8%.](../image/ifs-number-percent.png)
+\[Omitted image "ifs-number-percent.png"\] Alt text: The render type called percentage showing an input called Interest rate in percentage with a value of 8%.
 
 -   **slider**
 
-Displays the input as slider value and a box input. For more information about sliders and how to configure them, see [Configure a slider option for a number input](../task/configure-slider.md).
+Displays the input as slider value and a box input. For more information about sliders and how to configure them, see [Configure a slider option for a number input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-slider.md).
 
-![The render type called slider showing an input called Weight of package in kilograms with a value of 44.25.](../image/ifs-slider-float-step-size.png)
+\[Omitted image "ifs-slider-float-step-size.png"\] Alt text: The render type called slider showing an input called Weight of package in kilograms with a value of 44.25.
 
 
-**Note:** For a table showing which attributes can be used with which render type, see [Number render types and compatible input attributes](number-compatible-input-attributes.md).
+**Note:** For a table showing which attributes can be used with which render type, see [Number render types and compatible input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/number-compatible-input-attributes.md).
 
 </td></tr><tr><td>
 
@@ -551,7 +552,7 @@ Displays the input as slider value and a box input. For more information about s
 Can be set to either `true` or `false`. It's set to `false` by default, which means that by default the associated UI rule validation is run on the hidden inputs. Only set this to `true` when you want to skip the validation on hidden inputs.
 
 </td></tr></tbody>
-</table>The following input attributes listed in this table apply only to the slider render type. For more information, see [Slider types and their input attributes](slider-input-attributes.md).
+</table>The following input attributes listed in this table apply only to the slider render type. For more information, see [Slider types and their input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/slider-input-attributes.md).
 
 <table id="table_lx5_npt_bgc"><thead><tr><th>
 
@@ -569,7 +570,7 @@ Description
 
 The value displayed when the user first views the slider. If no value is entered, the value displayed is zero. The default value must be between the min and max values.
 
- **Note:** This defined value is the the starting point, unless a loading mechanism, which takes priority, is configured. See, [Loading mechanisms for input form screens](../concept/loading-mechanisms.md).
+ **Note:** This defined value is the the starting point, unless a loading mechanism, which takes priority, is configured. See, [Loading mechanisms for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/loading-mechanisms.md).
 
 </td></tr><tr><td>
 
@@ -609,7 +610,7 @@ When set to **true** users are unable to enter a value in the number box that do
 
 </td><td>
 
-Defines sections on the slider with corresponding labels that appear when a user taps a section or enters a value. Each section can be associated with a specific color to aid visual representation. For more information, see [Configure a slider option for a number input](../task/configure-slider.md).
+Defines sections on the slider with corresponding labels that appear when a user taps a section or enters a value. Each section can be associated with a specific color to aid visual representation. For more information, see [Configure a slider option for a number input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-slider.md).
 
 </td></tr></tbody>
 </table>## Ranking inputs
@@ -622,7 +623,7 @@ Use ranking inputs to enable your users to sort the available choices in order o
 
 </td><td>
 
-![Ranking input example.](../image/param-input-ranking-1.png)
+\[Omitted image "param-input-ranking-1.png"\] Alt text: Ranking input example.
 
 </td></tr></tbody>
 </table>There are no attributes for ranking inputs other than the general attributes listed in this topic.
@@ -658,15 +659,15 @@ This example creates an input form screen input for the **Assigned to** field on
 2.  Because you're adding the user to an incident record, the **SourceTable** attribute is set to `incident`.
 3.  Set the **SourceFieldName** to `assigned_to` so that the selected user is assigned to the **Assigned to** field.
 
-![Input form screen input for the assigned_to field configured in Mobile App Builder.](../image/reference-input-example.png "Reference input for the assigned_to field configured in Mobile App Builder")
+\[Omitted image "reference-input-example.png"\] Alt text: Input form screen input for the assigned\_to field configured in Mobile App Builder.
 
-![Input form screen input attributes for the assigned_to field configured in Mobile App Builder.](../image/reference-input-attribute-example.png "Reference input attributes for the assigned_to field configured in Mobile App Builder")
+\[Omitted image "reference-input-attribute-example.png"\] Alt text: Input form screen input attributes for the assigned\_to field configured in Mobile App Builder.
 
 ## Signature inputs
 
 Use signature inputs to capture e-signatures on an input form screen. Signature inputs can be included on input form screen sections or pages.
 
-![Signature inputs in an input form screen on a mobile device.](../image/signature-inputs.png "Signature inputs in an input form screen on a mobile device")
+\[Omitted image "signature-inputs.png"\] Alt text: Signature inputs in an input form screen on a mobile device.
 
 You can use the optional **IsOverlay** attribute with signature inputs. By default, signatures are rendered in the full modal window. When the **IsOverlay** attribute **Value** is set to `true`, signatures are rendered in a half modal window.
 
@@ -687,7 +688,7 @@ Description
 Sets whether the signature input is opened in a half modal window. You can set the **Value** to `true` or `false`. A value of **true** configures the signature to open in a half modal window.**Note:** If the signature input is configured as the only input on a page and the **isOverlay** attribute is set to `true`, the **isOverlay** attribute is ignored, and the signature input is displayed in the full screen.
 
 </td></tr></tbody>
-</table>For information about creating an input form screen with signature inputs, see [Configure input form screens with signature inputs](../task/configure-signature-inputs.md).
+</table>For information about creating an input form screen with signature inputs, see [Configure input form screens with signature inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configure-signature-inputs.md).
 
 **Note:** The data source loading mechanism, which uses the **DataSouceId** and **ElementIdentifier** attributes is not compatible with signature inputs.
 
@@ -699,7 +700,7 @@ Use string inputs for text input. You can define a maximum character length for 
 
 </td><td>
 
-![String input example.](../image/param-input-string-1.png)
+\[Omitted image "param-input-string-1.png"\] Alt text: String input example.
 
 </td></tr></tbody>
 </table>You can use these attributes with string inputs.
@@ -715,7 +716,7 @@ Use string inputs for text input. You can define a maximum character length for 
 
 Use a screen input to transform a list screen into selectable list input. Users can select multiple list items and perform a write-back operation to the cache.
 
-![Screen input example in a mobile app.](../image/input-screen-form-screen-input.png)
+\[Omitted image "input-screen-form-screen-input.png"\] Alt text: Screen input example in a mobile app.
 
 You can use these attributes with screen inputs.
 

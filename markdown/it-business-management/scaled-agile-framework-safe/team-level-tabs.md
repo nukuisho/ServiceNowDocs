@@ -2,6 +2,7 @@
 title: SAFe Board — Team level
 description: As a team member, you can plan and monitor activities within your team by accessing the Team level on the SAFe Board.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/team-level-tabs.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -41,7 +42,7 @@ In addition, you can:
 -   Of the group type SAFe Team, with the role safe\_scrum\_user assigned to the team members
 -   Added to Agile Release Trains
 
-![Backlog tab](../../sdlc-scrum/image/backlogplanningscreen.png)
+\[Omitted image "backlogplanningscreen.png"\] Alt text: Backlog tab
 
 ## Sprint Tracking
 
@@ -49,7 +50,7 @@ The **Sprint Tracking** tab provides the following views:
 
 -   **Story board**
 
-    Story board is built on visual task boards, which transform the navigation of lists and forms into an interactive graphical experience. The visual task board interface provides a graphic-rich environment suited for managing and collaborating records. To know more about the actions that can be performed in the board, see [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md). In addition, you can:
+    Story board is built on visual task boards, which transform the navigation of lists and forms into an interactive graphical experience. The visual task board interface provides a graphic-rich environment suited for managing and collaborating records. To know more about the actions that can be performed in the board, see [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_VisualTaskBoards.md). In addition, you can:
 
     -   Track all the stories of the current sprint across lanes.
     -   Move stories from one lane to another, which in turn updates the state of the stories.
@@ -68,28 +69,28 @@ The **Sprint Tracking** tab provides the following views:
     -   View the state, short description, and assignee of the scrum task without drilling down into details.
     -   View the short description and run result of a test.
     -   Assess scrum tasks and tests that are pending before the closure of current sprint.
-    ![Sprint Tracking List](../images/team-list.png)
+    \[Omitted image "team-list.png"\] Alt text: Sprint Tracking List
 
 
--   **[Manage your team backlog](../task/manage-team-backlog.md#)**  
+-   **[Manage your team backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/manage-team-backlog.md)**  
 Manage, evaluate, prioritize, and sequence stories in your team backlog.
--   **[Track your SAFe tasks from the Board view](../task/track-stories-board.md)**  
+-   **[Track your SAFe tasks from the Board view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/track-stories-board.md)**  
 Track the progress of your SAFe stories and scrum tasks. View their transition from one state \(lane\) to another in a visual task board.
--   **[Track your SAFe team work from the list view](../task/safe-sprint-tracking-list.md)**  
+-   **[Track your SAFe team work from the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/safe-sprint-tracking-list.md)**  
 Create, execute, track, and complete the scrum tasks and tests of a SAFe story from the list view.
 
-**Parent Topic:**[Essential SAFe](essential-overview.md)
+**Parent Topic:**[Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/essential-overview.md)
 
 **Related topics**  
 
 
-[Components installed with Essential SAFe](../reference/installed-with-EssentialSAFe.md)
+[Components installed with Essential SAFe]()
 
-[Quick start tests for Essential SAFe](../../../administer/atf-quick-start-tests/reference/quick-start-tests-essentialSAFe.md)
+[Quick start tests for Essential SAFe]()
 
-[SAFe entities](key-entities-SAFe.md)
+[SAFe entities]()
 
-[SAFe PI objectives](safe-pi-objectives.md)
+[SAFe PI objectives]()
 
-[SAFe Board — ART level](program-level-tabs.md)
+[SAFe Board — ART level]()
 

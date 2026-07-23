@@ -2,6 +2,7 @@
 title: Configure mutual authentication
 description: Mutual authentication establishes trust by exchanging secure sockets layer \(SSL\) certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_MutualAuthentication.html
 release: australia
 product: Authentication
 classification: authentication
@@ -89,7 +90,7 @@ Create a new Certificate entry with the type of "Trust Store Cert" and attach a 
 
 ## Protocol Profile
 
-![Certificate exchange workflow](../image/CertExchange.png "Certificate Exchange")
+\[Omitted image "CertExchange.png"\] Alt text: Certificate exchange workflow
 
 -   When a client requests the server certificate for authentication, a certificate signing request \(CSR\) is generated.
 -   To respond to a CSR, the server generates two unique cryptographic keys: A public key, which is used to encrypt messages to the server and a private key, which is used to decrypt messages. Both keys are kept in the Key Store.

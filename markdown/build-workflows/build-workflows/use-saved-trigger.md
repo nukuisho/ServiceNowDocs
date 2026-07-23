@@ -32,7 +32,7 @@ Role required: flow-designer or admin
 
     For example, Global. Workflow Studio displays a list of triggers present in the selected application. Select the info icon to see more details about the trigger.
 
-    ![Select a saved trigger under the installed applications.](../images/saved-trigger-select.png)
+    \[Omitted image "saved-trigger-select.png"\] Alt text: Select a saved trigger under the installed applications.
 
 5.  Select the trigger.
 
@@ -42,7 +42,7 @@ Role required: flow-designer or admin
 
     **Note:** Adding additional conditions affects only the flow, it doesn't alter the saved trigger.
 
-    ![View trigger properties and optionally add more conditions for the flow.](../images/saved-trigger-properties.png)
+    \[Omitted image "saved-trigger-properties.png"\] Alt text: View trigger properties and optionally add more conditions for the flow.
 
 7.  Select **Done**.
 
@@ -51,5 +51,5 @@ Role required: flow-designer or admin
 
 The selected saved trigger is added to the flow and will start the flow depending on how the trigger is configured.
 
-**Parent Topic:**[Building triggers](../concept/building-triggers.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
 

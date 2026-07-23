@@ -2,6 +2,7 @@
 title: Configure webhooks
 description: Configure a webhook to subscribe to events in Threat Intelligence Security Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/setup-webhooks.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -35,15 +36,15 @@ For example, whenever a new observable is added in threat intelligence then a pa
 
 3.  Click **New**.
 
-<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d46886e106">
+<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d47554e102">
 
 Field
 
-</th><th align="left" id="d46886e109">
+</th><th align="left" id="d47554e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46886e115">
+</th></tr></thead><tbody><tr><td id="d47554e111">
 
 **Name**
 
@@ -51,7 +52,7 @@ Description
 
 Enter a webhook name.
 
-</td></tr><tr><td id="d46886e124">
+</td></tr><tr><td id="d47554e120">
 
 **Description**
 
@@ -59,7 +60,7 @@ Enter a webhook name.
 
 Add the description of the webhook.
 
-</td></tr><tr><td id="d46886e133">
+</td></tr><tr><td id="d47554e129">
 
 **Configuration Details**
 
@@ -67,33 +68,33 @@ Add the description of the webhook.
 
  
 
-</td></tr><tr><td id="d46886e141">
+</td></tr><tr><td id="d47554e137">
 
 **Use REST message**
 
 </td><td>
 
-Select **Use REST Message** check box if you need to use REST Message/REST Method functionality that is provided by ServiceNow AI Platform.If this check box is not selected, then the application uses the endpoint provided in Webhook URL to send the event information. For more information, see [Outbound REST web service](https://servicenow.com/docs/bundle/vancouver-api-reference/page/integrate/outbound-rest/concept/c_OutboundRESTWebService.html) on ServiceNow AI Platform documentation.
+Select **Use REST Message** check box if you need to use REST Message/REST Method functionality that is provided by ServiceNow AI Platform.If this check box is not selected, then the application uses the endpoint provided in Webhook URL to send the event information. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on ServiceNow AI Platform documentation.
 
-</td></tr><tr><td id="d46886e166">
+</td></tr><tr><td id="d47554e162">
 
 **REST message**
 
 </td><td>
 
-Select the REST Message record from the list of REST message records which are already configured in the instance. For more information, see [Outbound REST web service](https://servicenow.com/docs/bundle/vancouver-api-reference/page/integrate/outbound-rest/concept/c_OutboundRESTWebService.html) on the ServiceNow AI Platform documentation.
+Select the REST Message record from the list of REST message records which are already configured in the instance. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on the ServiceNow AI Platform documentation.
 
 **Note:** The REST message and REST method fields are mandatory when you select the REST message.
 
-</td></tr><tr><td id="d46886e187">
+</td></tr><tr><td id="d47554e183">
 
 **REST method**
 
 </td><td>
 
-Select REST Method from the list of available REST Methods configured for the selected REST Message. For more information, see [Outbound REST web service](https://servicenow.com/docs/bundle/vancouver-api-reference/page/integrate/outbound-rest/concept/c_OutboundRESTWebService.html) on the ServiceNow AI Platform documentation.**Note:** Only POST Rest methods are supported for webhooks.
+Select REST Method from the list of available REST Methods configured for the selected REST Message. For more information, see [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) on the ServiceNow AI Platform documentation.**Note:** Only POST Rest methods are supported for webhooks.
 
-</td></tr><tr><td id="d46886e205">
+</td></tr><tr><td id="d47554e201">
 
 **Webhook URL**
 
@@ -101,7 +102,7 @@ Select REST Method from the list of available REST Methods configured for the se
 
 A webhook endpoint is a URL that receives webhook event notifications.
 
-</td></tr><tr><td id="d46886e214">
+</td></tr><tr><td id="d47554e210">
 
 **Authentication Required**
 
@@ -109,7 +110,7 @@ A webhook endpoint is a URL that receives webhook event notifications.
 
 Select this check box if the authentication is required.**Note:** This is only applicable when Webhook URL is being used to retrieve the data.
 
-</td></tr><tr><td id="d46886e225">
+</td></tr><tr><td id="d47554e221">
 
 **Authentication Type**
 
@@ -117,7 +118,7 @@ Select this check box if the authentication is required.**Note:** This is only a
 
 The authentication type for the webhook.**Note:** As of now, only Basic authentication type is supported.
 
-</td></tr><tr><td id="d46886e236">
+</td></tr><tr><td id="d47554e232">
 
 **Username**
 
@@ -125,7 +126,7 @@ The authentication type for the webhook.**Note:** As of now, only Basic authenti
 
 Provide a username to your authentication type.
 
-</td></tr><tr><td id="d46886e246">
+</td></tr><tr><td id="d47554e242">
 
 **Password**
 
@@ -133,7 +134,7 @@ Provide a username to your authentication type.
 
 Provide a password to your authentication type.
 
-</td></tr><tr><td id="d46886e255">
+</td></tr><tr><td id="d47554e251">
 
 **Headers to be passed with request**
 
@@ -151,19 +152,19 @@ Any headers to be passed with the requests can be provided in Request Header Map
     -   For the validation of webhook, empty request payload is sent to the endpoint and the user needs to ensure that the endpoint sends successful response code \(200\) when the empty request is passed to the configured webhook endpoint.
     -   By default, any webhook that is created will be in disabled state, you need to enable the webhook and activate it. A sample webhook is provisioned in the base system as a reference to the users.
 
--   **[Subscribe Triggers](subscribe-triggers.md)**  
+-   **[Subscribe Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/subscribe-triggers.md)**  
 View the list of all the subscribed webhook triggers for the current webhook.
--   **[View webhook error logs](tisc-error-logs.md)**  
+-   **[View webhook error logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-error-logs.md)**  
 Use this error logs section to view all the audit entries which are marked as error in the status for a particular webhook.
--   **[View webhook batches](../task/tisc-webhook-batch.md)**  
+-   **[View webhook batches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-webhook-batch.md)**  
 A webhook batch record is created for each webhook execution.
 
-**Parent Topic:**[Working with Webhooks](tisc-webhooks.md)
+**Parent Topic:**[Working with Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-webhooks.md)
 
 **Related topics**  
 
 
-[System properties for Webhooks](tisc-sysprops-retry.md)
+[System properties for Webhooks]()
 
-[Webhook Triggers](tisc-triggers.md)
+[Webhook Triggers]()
 

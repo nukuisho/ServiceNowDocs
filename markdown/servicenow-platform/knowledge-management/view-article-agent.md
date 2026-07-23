@@ -2,6 +2,7 @@
 title: View a knowledge article in Agent Workspace
 description: View a knowledge article in Agent Workspace, including the article number, short description, and article content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/view-article-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -35,9 +36,9 @@ Role required: agent\_workspace\_user
 
     **Note:** The Language list is populated based on the available translated versions of the article.
 
-5.  Copy the link to the knowledge article to your clipboard by clicking the more actions icon \(![More actions icon](../image/KnowledgeServicePortalOverflowIcon.png)\) and then clicking **Copy link**.
+5.  Copy the link to the knowledge article to your clipboard by clicking the more actions icon and then clicking **Copy link**.
 
-6.  Download the article as a Microsoft Word document to your computer by selecting the more actions icon \(![More actions icon.](../image/KnowledgeServicePortalOverflowIcon.png)\) and then selecting **Download as Word**.
+6.  Download the article as a Microsoft Word document to your computer by selecting the more actions icon and then selecting **Download as Word**.
 
     **Note:** This option appears only when the article was originally created using Microsoft Word and the administrator has enabled the **sn\_km\_word.glide.knowman.enable\_document\_download** property.
 
@@ -53,11 +54,11 @@ The selected version of the article opens in a knowledge article view page displ
 **Related topics**  
 
 
-[Viewing knowledge article details in Agent Workspace](../concept/knowledge-article-view-page-workspace.md)
+[Viewing knowledge article details in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-view-page-workspace.md)
 
-[Managing access to knowledge bases and knowledge articles](../concept/user-access-knowledge.md)
+[Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md)
 
-[Provide feedback for a knowledge article in Agent Workspace](respond-evaluate-articles-agent.md)
+[Provide feedback for a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/respond-evaluate-articles-agent.md)
 
-[Edit a knowledge article in Agent Workspace](edit-article-workspace.md)
+[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-article-workspace.md)
 

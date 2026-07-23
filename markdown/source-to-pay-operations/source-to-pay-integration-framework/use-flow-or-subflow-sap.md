@@ -2,11 +2,12 @@
 title: Use a flow or subflow in SAP \(Outbound\)
 description: A flow or subflow can be executed in SAP using the Workflow Studio. Follow these steps to run a flow or subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/use-flow-or-subflow-sap.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Use schedule flows, Use, Source-to-Pay integration with SAP, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -24,7 +25,7 @@ Role required:
 
 ## About this task
 
-Use an Outbound flow or subflow in SAP 
+\[Omitted video\] Description: Use an Outbound flow or subflow in SAP
 
 ## Procedure
 
@@ -40,7 +41,7 @@ Use an Outbound flow or subflow in SAP
 
     For example, select **Create non-purchase order invoice** flow.
 
-    ![Overview of the Create non purchase order invoice flow](../../source-to-pay-operations/image/sap-integration-invoice-flow.png "Create non-purchase order invoice flow")
+    \[Omitted image "sap-integration-invoice-flow.png"\] Alt text: Overview of the Create non purchase order invoice flow
 
 5.  In the Trigger field, specify the time and interval at which you want to run the scheduled flow automatically.
 
@@ -51,10 +52,10 @@ Use an Outbound flow or subflow in SAP
     The flow or subflow gets executed.
 
 
-**Parent Topic:**[Use schedule flows in SAP](../concept/using-schedule-flows-sap.md)
+**Parent Topic:**[Use schedule flows in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/using-schedule-flows-sap.md)
 
 **Related topics**  
 
 
-[Copy a flow or subflow in SAP](copy-flow-or-subflow-sap.md)
+[Copy a flow or subflow in SAP]()
 

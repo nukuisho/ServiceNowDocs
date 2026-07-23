@@ -2,6 +2,7 @@
 title: Combined product release notes for upgrades from Xanadu to Australia
 description: To help you upgrade from Xanadu to Australia, we have combined the cross-family release notes for each product onto one page. Select the products you have to customize the release notes results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/australia-xanadu-combined-release-notes.html
 release: australia
 topic_type: reference
 last_updated: "2020-06-26"
@@ -131,6 +132,14 @@ Agentic Contact Center for Banking
 
 </td></tr><tr><td>
 
+Agentic Contact Center for Insurance
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-agenticcontactcenterforinsurance-release-notes.html)
+
+</td></tr><tr><td>
+
 Agent Workspace for HR Case Management
 
 </td><td>
@@ -248,14 +257,6 @@ Application Manager
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-applicationmanager-release-notes.html)
-
-</td></tr><tr><td>
-
-Application Portfolio Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-applicationportfoliomanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -459,14 +460,6 @@ Cloud Account Management
 
 </td></tr><tr><td>
 
-Cloud Cost Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-cloudcostmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Cloud Cost Management 10.0
 
 </td><td>
@@ -496,14 +489,6 @@ Cloud Exposure View
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-cloudexposureview-release-notes.html)
-
-</td></tr><tr><td>
-
-Coaching
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-coaching-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -723,14 +708,6 @@ Data Catalog
 
 </td></tr><tr><td>
 
-Data Discovery
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-datadiscovery-release-notes.html)
-
-</td></tr><tr><td>
-
 Data Loss Prevention Incident Response
 
 </td><td>
@@ -779,14 +756,6 @@ Data Separation
 
 </td></tr><tr><td>
 
-Decision Builder
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-decisionbuilder-release-notes.html)
-
-</td></tr><tr><td>
-
 Decision Builder in Workflow Studio
 
 </td><td>
@@ -800,14 +769,6 @@ Decision tables in Workflow Studio
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-decisiontablesinworkflowstudio-release-notes.html)
-
-</td></tr><tr><td>
-
-Delegated Development
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-delegateddevelopment-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -955,14 +916,6 @@ Employee Slate
 
 </td></tr><tr><td>
 
-EMR Help
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-emrhelp-release-notes.html)
-
-</td></tr><tr><td>
-
 Encryption
 
 </td><td>
@@ -1091,14 +1044,6 @@ Financial Services Operations Integration with Visa
 
 </td></tr><tr><td>
 
-Financial Services Operations Platform Analytics Solutions
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-financialservicesoperationsplatformanalyticssolutions-release-notes.html)
-
-</td></tr><tr><td>
-
 Flows, Subflows, and Actions
 
 </td><td>
@@ -1144,14 +1089,6 @@ Hardware Asset Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-hardwareassetmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Hardware Asset Management 10.0.0
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-hardwareassetmanagement1000-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1256,14 +1193,6 @@ Identity
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-identity-release-notes.html)
-
-</td></tr><tr><td>
-
-Identity and Authentication
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-identityandauthentication-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1392,14 +1321,6 @@ Interview management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-interviewmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Investment Funding
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-investmentfunding-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1699,14 +1620,6 @@ Model Risk Management
 
 </td></tr><tr><td>
 
-Natural Language Query
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-naturallanguagequery-release-notes.html)
-
-</td></tr><tr><td>
-
 Next Experience
 
 </td><td>
@@ -1728,14 +1641,6 @@ Next Experience Developer \(NED\) Tools
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nextexperiencedevelopernedtools-release-notes.html)
-
-</td></tr><tr><td>
-
-Next Experience Developer Tools
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nextexperiencedevelopertools-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2011,14 +1916,6 @@ Now Assist for Security Operations
 
 </td></tr><tr><td>
 
-Now Assist for Setup
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-nowassistforsetup-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Software Asset Management \(SAM\)
 
 </td><td>
@@ -2187,19 +2084,19 @@ Operational Technology Change Management
 
 </td></tr><tr><td>
 
+Operational Technology Discovery
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-operationaltechnologydiscovery-release-notes.html)
+
+</td></tr><tr><td>
+
 Operational Technology Incident Management
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-operationaltechnologyincidentmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Operational Technology Knowledge Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-operationaltechnologyknowledgemanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2344,6 +2241,14 @@ Portfolio Planning
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-portfolioplanning-release-notes.html)
+
+</td></tr><tr><td>
+
+Predictive AI for CSM
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-predictiveaiforcsm-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2571,6 +2476,14 @@ Retail Operations
 
 </td></tr><tr><td>
 
+Retail Strategic Portfolio Management Suite
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-retailstrategicportfoliomanagementsuite-release-notes.html)
+
+</td></tr><tr><td>
+
 Retail Task Management Core
 
 </td><td>
@@ -2587,11 +2500,11 @@ Return Merchandise Authorization
 
 </td></tr><tr><td>
 
-Robotic Process Automation \(RPA\) Hub
+Reverse Tunnel
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-roboticprocessautomationrpahub-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-reversetunnel-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2675,14 +2588,6 @@ Self-service and omnichannel engagement for CSM
 
 </td></tr><tr><td>
 
-Service Builder
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicebuilder-release-notes.html)
-
-</td></tr><tr><td>
-
 Service Catalog
 
 </td><td>
@@ -2720,14 +2625,6 @@ Service Graph Connector for Microsoft Defender for IoT \(Azure\)
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicegraphconnectorformicrosoftdefenderforiotazure-release-notes.html)
-
-</td></tr><tr><td>
-
-Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicegraphconnectorformicrosoftdefenderforiotonpremisesmanagementconsole-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2819,14 +2716,6 @@ Service Observability
 
 </td></tr><tr><td>
 
-Service Operations Workspace for IT Service Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-serviceoperationsworkspaceforitservicemanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Service Operations Workspace for ITSM
 
 </td><td>
@@ -2856,6 +2745,14 @@ Service Reliability Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-servicereliabilitymanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+Setup Hub
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-setuphub-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2931,6 +2828,14 @@ Sourcing and Procurement Operations
 
 </td></tr><tr><td>
 
+SPM Enterprise-Wide Deployment
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-spmenterprisewidedeployment-release-notes.html)
+
+</td></tr><tr><td>
+
 SQL API
 
 </td><td>
@@ -2987,14 +2892,6 @@ Synthetic monitoring
 
 </td></tr><tr><td>
 
-System Clone
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-systemclone-release-notes.html)
-
-</td></tr><tr><td>
-
 System Update Sets
 
 </td><td>
@@ -3008,14 +2905,6 @@ Table Builder
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-tablebuilder-release-notes.html)
-
-</td></tr><tr><td>
-
-Table Builder for App Engine
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-tablebuilderforappengine-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3155,14 +3044,6 @@ Usage Insights
 
 </td></tr><tr><td>
 
-User Experience Analytics
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-userexperienceanalytics-release-notes.html)
-
-</td></tr><tr><td>
-
 Vendor Management Workspace
 
 </td><td>
@@ -3200,14 +3081,6 @@ Vulnerability Response
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-vulnerabilityresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Vulnerability Response for Microsoft Defender for IoT \(On-premises Management Console\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-vulnerabilityresponseformicrosoftdefenderforiotonpremisesmanagementconsole-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3256,14 +3129,6 @@ Workforce Optimization for CSM
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-workforceoptimizationforcsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Workforce Optimization for Customer Service
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-workforceoptimizationforcustomerservice-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3320,14 +3185,6 @@ Zero Copy Connectors
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-zerocopyconnectors-release-notes.html)
-
-</td></tr><tr><td>
-
-Zing text indexing and search engine
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-xanadu-australia/australia-xanadu-zingtextindexingandsearchengine-release-notes.html)
 
 </td></tr></tbody>
 </table>

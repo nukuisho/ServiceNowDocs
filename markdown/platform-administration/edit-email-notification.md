@@ -2,6 +2,7 @@
 title: Edit an email notification using the Notification agent
 description: Edit an email notification using the Notification agent in Now Assist by describing your requirements in natural language, instead of navigating forms or writing scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/edit-email-notification.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"
@@ -15,7 +16,7 @@ Edit an email notification using the Notification agent in Now Assist by describ
 
 ## Before you begin
 
-The Notification agent may produce inconsistent results when used with the Now LLM model. Confirm the notification details before deployment.
+Confirm the notification details before deployment.
 
 **Note:** The Notification Agent requires the Implementation Agent \(IA\) Orchestration framework and is not supported as a standalone feature.
 

@@ -2,6 +2,7 @@
 title: Health and safety action schedule form
 description: Safety team can use the action schedule form for actions to be created and assigned based on defined conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/hs-health-safety-action-schedule-form.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Core, Health and Safety, Employee Serv
 
 Safety team can use the action schedule form for actions to be created and assigned based on defined conditions.
 
-For information on setting up a health and safety action schedule, see [Create a Health and Safety action schedule](../task/create-health-safety-action-schedule.md).
+For information on setting up a health and safety action schedule, see [Create a Health and Safety action schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/create-health-safety-action-schedule.md).
 
 <table id="table_tzg_shc_y2c"><thead><tr><th>
 
@@ -60,7 +61,7 @@ Type of the action.-   **Corrective**: An action to eliminate the causes of non-
 -   **Task**: A generic task assigned as an action.
 -   **Learning**: An action that includes a learning for the user, for example, completing a training.
 
-**Note:** The **Learning** option in this field appears only when the Learning Core \(sn\_lc\) application is installed on your instance. For more information, see [Additional features in Health and Safety](../task/install-hs-incident-mgmt.md#table_ix1_bff_gxb).
+**Note:** The **Learning** option in this field appears only when the Learning Core \(sn\_lc\) application is installed on your instance. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md).
 
 
 </td></tr><tr><td>
@@ -71,7 +72,7 @@ Learning material
 
 Learning material for the training, for example, knowledge article or URL for a training video.This field appears only when **Learning** is selected from **Type**.
 
-**Note:** This field lists the learning content created in Learning Core. For more information, see [Managing course and catalog content](../../human-resources/task/manage-ln-content.md).
+**Note:** This field lists the learning content created in Learning Core. For more information, see [Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-ln-content.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Assign to
 
 </td><td>
 
-Users with the Health and Safety profile the generated actions are assigned to.Use the **Set conditions** builder in this field to define the criteria for assigning this action to specific individuals. For more information, see [Create a Health and Safety action schedule](../task/create-health-safety-action-schedule.md).
+Users with the Health and Safety profile the generated actions are assigned to.Use the **Set conditions** builder in this field to define the criteria for assigning this action to specific individuals. For more information, see [Create a Health and Safety action schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/create-health-safety-action-schedule.md).
 
 </td></tr><tr><td>
 
@@ -147,22 +148,22 @@ Day of the selected month when the schedule should run to generate the recurring
 This field appears only when **Frequency** is set as **Monthly**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Core reference](../../hs-core/concept/hs-core-reference.md)
+</table>**Parent Topic:**[Health and Safety Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-core-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Health and Safety Core](../../hs-core/reference/components-installed-hs-core.md)
+[Components installed with Health and Safety Core]()
 
-[Health and Safety action form](hs-action-form.md)
+[Health and Safety action form]()
 
-[Health and Safety profile form](hs-health-safety-profile-form.md)
+[Health and Safety profile form]()
 
-[Health and Safety document version form](hs-document-form.md)
+[Health and Safety document version form]()
 
-[Health and Safety report field mapping form](hs-report-field-mapping-form.md)
+[Health and Safety report field mapping form]()
 
-[Health and Safety meeting form](hs-safety-meeting-form.md)
+[Health and Safety meeting form]()
 
-[Health and Safety meeting attendee form](hs-safety-meeting-attendee-form.md)
+[Health and Safety meeting attendee form]()
 

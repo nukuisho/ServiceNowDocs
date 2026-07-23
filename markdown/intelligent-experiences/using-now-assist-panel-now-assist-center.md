@@ -2,9 +2,10 @@
 title: Using the conversational experience in Now Assist Center
 description: Use the Now Assist panel to perform Now Assist administration and setup tasks through a conversational interface directly in Now Assist Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/using-now-assist-panel-now-assist-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-13"
 reading_time_minutes: 2
 keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
 breadcrumb: [Use, Now Assist Center, Enable AI experiences]
@@ -16,7 +17,7 @@ Use the Now Assist panel to perform Now Assist administration and setup tasks th
 
 The Now Assist panel appears pinned along the right side of the browser by default, and is accessible from every page in the workspace. You can interact with your AI companion by typing questions and instructions in plain language.
 
-![Now Assist panel in Now Assist Center.](../image/now-assist-center-panel-2.png "Now Assist panel")
+\[Omitted image "now-assist-center-panel-2.png"\] Alt text: Now Assist panel in Now Assist Center.
 
 ## AI companion capabilities
 
@@ -41,16 +42,18 @@ Use the Now Assist panel to perform the following types of actions in Now Assist
 
 After you enter your request in the chat, your AI companion generates a plan to implement your AI solution using the available AI assets. You can review the details of the solution, test it, and activate it, all in the conversation.
 
-**Parent Topic:**[Using Now Assist Center](using-now-assist-center.md)
+**Parent Topic:**[Using Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-center.md)
 
 **Related topics**  
 
 
-[Activating actionable use cases from Now Assist Center](now-assist-center-actionable-use-cases.md)
+[Activating actionable use cases from Now Assist Center]()
 
-[Using AI Agent Advisor in Now Assist Center](now-assist-center-using-ai-agent-advisor.md)
+[Using Now Assist Readiness Evaluation in Now Assist Center]()
 
-[Using the asset inventory in Now Assist Center](now-assist-center-using-asset-inventory.md)
+[Using AI Agent Advisor in Now Assist Center]()
 
-[Using other Now Assist applications and features from Now Assist Center](now-assist-center-using-other-applications.md)
+[Using the asset inventory in Now Assist Center]()
+
+[Using other Now Assist applications and features from Now Assist Center]()
 

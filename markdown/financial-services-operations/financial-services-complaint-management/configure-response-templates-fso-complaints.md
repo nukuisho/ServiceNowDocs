@@ -2,6 +2,7 @@
 title: Define response templates for Financial Services Complaint Management
 description: Create or modify a response template to define a reusable message that can be copied to complaint case or task forms to provide quick and consistent messages to customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/configure-response-templates-fso-complaints.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -41,7 +42,7 @@ Each template is associated with the Complaint Case \[sn\_bom\_compl\_service\] 
 
     -   Click **New** to create a new channel that gets added to the response template.
 
-        **Note:** For information on Response Template Channel form fields, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+        **Note:** For information on Response Template Channel form fields, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-templated-snippets.md).
 
     -   Click **Edit** to access and add an existing channel to the response template.
     The Response Template form returns.

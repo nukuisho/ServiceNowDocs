@@ -2,6 +2,7 @@
 title: Service Catalog variable attributes
 description: There are a few Service Catalog variables support specific attributes to define the behavior and restrictions for variables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/variable-attributes.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -110,12 +111,12 @@ In the Catalog variable form, under the **Type Specifications** tab, you can spe
 
 **Important:** Attribute behavior is specific to the service catalog desktop.
 
-**Parent Topic:**[Create a service catalog variable](../task/t_CreateAVariableForACatalogItem.md)
+**Parent Topic:**[Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md)
 
 **Related topics**  
 
 
-[Define help information for a service catalog variable](../task/t_DefineHelpInformation.md)
+[Define help information for a service catalog variable]()
 
-[Define a question choice for a variable](../task/define-question-choice-var.md)
+[Define a question choice for a variable]()
 

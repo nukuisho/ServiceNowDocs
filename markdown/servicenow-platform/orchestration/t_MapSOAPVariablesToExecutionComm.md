@@ -2,11 +2,12 @@
 title: Configure the SOAP execution command
 description: Use the input variables you created to configure the command that Orchestration executes on the SOAP endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t\_MapSOAPVariablesToExecutionComm.html
 release: australia
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 3
 breadcrumb: [Create a SOAP web service activity, Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,7 +22,7 @@ Create the input variables you need in the **Inputs** form before you can advanc
 
 Role required: web\_service\_admin, activity\_admin, activity\_creator
 
-**Note:** You can test the SOAP connection between the MID Server and the endpoint without having to run the acvitity in a workflow context. For details, see [test template outputs](CreateInputVariables.md#).
+**Note:** You can test the SOAP connection between the MID Server and the endpoint without having to run the acvitity in a workflow context. For details, see [test template outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ Role required: web\_service\_admin, activity\_admin, activity\_creator
 
     The system formats the variable in the proper syntax for the command.
 
-    ![SOAP execution command](../image/SOAPExecutionCommand.png "SOAP execution command")
+    \[Omitted image "SOAPExecutionCommand.png"\] Alt text: SOAP execution command
 
 2.  Complete the fields shown in the table.
 
@@ -47,7 +48,7 @@ Input
 
 </td><td>
 
-Input variable builder. [Create input variables](CreateInputVariables.md#) to [map](CreateInputVariables.md#) to available fields.
+Input variable builder. [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to [map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md) to available fields.
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ Required MID Server capabilities
 
 </td><td>
 
-MID Server with the appropriate [MID Server capabilities](../../../product/mid-server/reference/r_MIDServerCapabilities.md) for connecting to the SOAP endpoint. By default, the system selects a MID Server with SOAP capabilities. This field is available when the **Use MID Server** check box is selected.
+MID Server with the appropriate [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for connecting to the SOAP endpoint. By default, the system selects a MID Server with SOAP capabilities. This field is available when the **Use MID Server** check box is selected.
 
 </td></tr><tr><td>
 
@@ -126,7 +127,7 @@ Credentials
 
 </td><td>
 
-Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md) defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
+Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ConfigureTheMIDServerForCyberArk.md) defined in the MID Server configuration file by adding the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
 
 </td></tr><tr><td>
 
@@ -142,5 +143,5 @@ Protocol Profile
 4.  Click **Continue** to advance to the **Outputs** stage.
 
 
-**Parent Topic:**[Create a SOAP web service activity](t_CreateASOAPWebServiceActivity.md)
+**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
 

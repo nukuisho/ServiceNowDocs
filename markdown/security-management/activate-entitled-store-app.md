@@ -2,6 +2,7 @@
 title: Activate a ServiceNow Store application
 description: After an application has been given entitlement, you must activate its dependencies plugin and activate the application. This process also applies to applications downloaded to sub-production instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/activate-entitled-store-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-    ![System applications](../image/system-apps.png)
+    \[Omitted image "system-apps.png"\] Alt text: System applications
 
     **Note:** Starting with Orlando, dependency plugins are automatically activated when you activate a core application. For example, when you activate the Vulnerability Response application, the Vulnerability Response Dependencies plugin is also activated. Hence, steps 2 through 5 are optional.
 
@@ -29,13 +30,13 @@ Role required: admin
 
     For example, if you are activating Security Incident Response, locate the Security Incident Response Dependencies plugin.
 
-    ![Locating the Security Incident Response Dependencies plugin](../image/sir-dependencies.png)
+    \[Omitted image "sir-dependencies.png"\] Alt text: Locating the Security Incident Response Dependencies plugin
 
 3.  Click **Install**.
 
     The Activate Plugin dialog box appears.
 
-    ![Activate dependency plugin](../image/sir-dep-plugin.png)
+    \[Omitted image "sir-dep-plugin.png"\] Alt text: Activate dependency plugin
 
 4.  In the **Activate Plugin** dialog box, click **Activate**.
 

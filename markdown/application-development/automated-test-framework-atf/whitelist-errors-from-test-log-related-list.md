@@ -2,6 +2,7 @@
 title: Allow client errors from the test logs
 description: Allow client errors as you review test logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/whitelist-errors-from-test-log-related-list.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -36,7 +37,7 @@ You can allow multiple or individual client errors. For each client error, you m
 
 3.  Select the client errors to be allowed.
 
-<table id="choicetable_pd5_3d2_1db"><tbody><tr><td id="d198114e109">
+<table id="choicetable_pd5_3d2_1db"><tbody><tr><td id="d194831e109">
 
 **Specific test log from the Test Log related list**
 
@@ -48,7 +49,7 @@ You can allow multiple or individual client errors. For each client error, you m
     -   **Add client error to warning list**: Allow the client error with a report level of Warning.
 
 
-</td></tr><tr><td id="d198114e143">
+</td></tr><tr><td id="d194831e143">
 
 **Multiple test logs from the Test Log related list**
 
@@ -60,7 +61,7 @@ You can allow multiple or individual client errors. For each client error, you m
     -   **Add client error to warning list**: Allow the client error with a report level of Warning.
 
 
-</td></tr><tr><td id="d198114e180">
+</td></tr><tr><td id="d194831e180">
 
 **Specific test log from Test Result Item record**
 
@@ -76,10 +77,10 @@ You can allow multiple or individual client errors. For each client error, you m
 </table>    The Automated Test Framework allows the selected client errors and displays a status message at the top of the form.
 
 
-**Parent Topic:**[Allowed client errors](../concept/whitelisted-client-errors.md)
+**Parent Topic:**[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 
 **Related topics**  
 
 
-[Allowed client errors](../concept/whitelisted-client-errors.md)
+[Allowed client errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/whitelisted-client-errors.md)
 

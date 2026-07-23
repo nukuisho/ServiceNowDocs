@@ -2,6 +2,7 @@
 title: Configuring Now Assist in Catalog Builder
 description: Install and configure Now Assist in Catalog Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configuring-catalog-item-generation.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -20,7 +21,7 @@ Install and configure Now Assist in Catalog Builder.
 
 Along with the installation of Now Assist in Catalog Builder application, you must activate the Catalog item generation skill.
 
-**Parent Topic:**[Now Assist in Catalog Builder](now-assist-for-catalog-generation.md)
+**Parent Topic:**[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 
 **Related topics**  
 

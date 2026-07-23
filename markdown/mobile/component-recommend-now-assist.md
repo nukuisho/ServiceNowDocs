@@ -2,6 +2,7 @@
 title: Component recommendations with Now Assist
 description: Now Assist reduces manual work and saves you time by recommending components based on context like the current record name and configuration tree information when you’re configuring records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/component-recommend-now-assist.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -26,7 +27,7 @@ The following record types are compatible with component recommendations:
 -   Data item
 -   List stream
 
-![component recommendations pop-up showing three recommendations](../image/now-assist-component-recc.png "Component recommendations pop-up")
+\[Omitted image "now-assist-component-recc.png"\] Alt text: component recommendations pop-up showing three recommendations
 
 Component recommendations are suggested based on information such as the record's name and description, as well as a semantic search of existing records that are related to the current record type, such as list screen or function.
 

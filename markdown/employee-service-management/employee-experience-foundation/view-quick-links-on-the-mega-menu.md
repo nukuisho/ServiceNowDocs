@@ -2,6 +2,7 @@
 title: View quick links on the mega menu
 description: You can view quick links associated with root topics on the mega menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/view-quick-links-on-the-mega-menu.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You can associate quick links with a root topic so that it appears on the mega menu under Quick Links. Only the quick links that you associated with root topics are shown on the mega menu. For more information, see [Associate a quick link to a topic](associate-quick-link-to-topic.md).
+You can associate quick links with a root topic so that it appears on the mega menu under Quick Links. Only the quick links that you associated with root topics are shown on the mega menu. For more information, see [Associate a quick link to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/associate-quick-link-to-topic.md).
 
 ## Procedure
 
@@ -29,9 +30,9 @@ You can associate quick links with a root topic so that it appears on the mega m
 
     If the root topic has quick links associated with it, and if you have access to the quick links, then those quick links are displayed for that root topic on the mega menu.
 
-    ![Quick links associated with the IT root topic are displayed on the mega menu.](../images/quick-links-mega-menu.png)
+    \[Omitted image "quick-links-mega-menu.png"\] Alt text: Quick links associated with the IT root topic are displayed on the mega menu.
 
-    **Note:** The external link icon \(![External link icon.](../images/external-link-icon.png)\) next to a quick link indicates that it is an external link.
+    **Note:** The external link icon \(\[Omitted image "external-link-icon.png"\] Alt text: External link icon.\) next to a quick link indicates that it is an external link.
 
 2.  Click any quick link that you want to view.
 
@@ -43,9 +44,9 @@ You can associate quick links with a root topic so that it appears on the mega m
 **Related topics**  
 
 
-[Create a quick link](create-quick-links.md)
+[Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-quick-links.md)
 
-[Assign topics to a quick link](assign-topics-to-quick-links.md)
+[Assign topics to a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/assign-topics-to-quick-links.md)
 
-[Restrict access to a quick link](restrict-access-to-quick-links.md)
+[Restrict access to a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/restrict-access-to-quick-links.md)
 

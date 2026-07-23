@@ -2,6 +2,7 @@
 title: Mobile Agent app demo
 description: Access the demo in your Mobile Agent app to learn how the app can help your agents work from anywhere using their mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-agent-demo.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Access the demo in your Mobile Agent app to learn how the app can help your agen
 
 <table id="table_onb_gf2_hlb"><tbody><tr><td>
 
-![phone image](../image/phone-icon.png)
+\[Omitted image "phone-icon.png"\] Alt text: phone image
 
 </td><td>
 
@@ -38,16 +39,16 @@ Finally, tap the **Launch Demo** button to start using the demo. The demo automa
 
 <table id="table_tz5_wg4_jpb"><tbody><tr><td>
 
-![Instance login page with option to try demo account.](../image/now-mobile-demo-2.png)
+\[Omitted image "now-mobile-demo-2.png"\] Alt text: Instance login page with option to try demo account.
 
 </td><td>
 
-![Choice of mobile agent personas.](../image/mobile-agent-personas.png)
+\[Omitted image "mobile-agent-personas.png"\] Alt text: Choice of mobile agent personas.
 
 </td></tr></tbody>
 </table>## Demo highlights
 
-The Mobile Agent app demo displays a launcher screen divided into sections. Tap an item in any section to open the item or tap **See All** to view all items in that section. For details on how launcher screens, other screens, and actions work together in the mobile environment, see [Mobile hierarchy](mobile-hierarchy.md).
+The Mobile Agent app demo displays a launcher screen divided into sections. Tap an item in any section to open the item or tap **See All** to view all items in that section. For details on how launcher screens, other screens, and actions work together in the mobile environment, see [Mobile hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-hierarchy.md).
 
 ## Customer Service Agent
 
@@ -112,7 +113,7 @@ The Mobile Agent app demo displays a launcher screen divided into sections. Tap 
 
 -   **Improve IT asset management accuracy**
 
-    Accurately scan and receive assets for a streamlined operation with automatic updates to your asset data. Scan multiple assets in a single batch upload. Quickly resolve discrepancies between ServiceNow information and audits. Instantly lookup info about any hardware asset. For more information on Hardware Asset Management using mobile applications, see [Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/mobile-my-asset.md).
+    Accurately scan and receive assets for a streamlined operation with automatic updates to your asset data. Scan multiple assets in a single batch upload. Quickly resolve discrepancies between ServiceNow information and audits. Instantly lookup info about any hardware asset. For more information on Hardware Asset Management using mobile applications, see [Mobile app for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/mobile-my-asset.md).
 
 
 ## IT Operator
@@ -161,13 +162,13 @@ The Mobile Agent app demo displays a launcher screen divided into sections. Tap 
 
     Agents use the Mobile Agent app to engage and respond to major incidents. They can see proposed major incident candidates and quickly review and promote them. Collaborate by kicking off a conference call right from the app to serve as an in-person war room for the team.
 
-    For more information on incident management using mobile applications, see Mobile experience with ITSM Mobile agent [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/itsm-mobile-agent.md).
+    For more information on incident management using mobile applications, see Mobile experience with ITSM Mobile agent [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent.md).
 
 
 ## Learn more about the Mobile Agent app
 
 Use the following links to learn more about on how to use and configure the Mobile Agent app.
 
--   [Mobile Agent app](mobile-experience.md)
--   [Building mobile apps](build-mobile-apps-landing.md)
+-   [Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md)
+-   [Building mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/build-mobile-apps-landing.md)
 

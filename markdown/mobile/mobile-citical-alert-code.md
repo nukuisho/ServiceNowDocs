@@ -2,6 +2,7 @@
 title: Configure code for critical alerts
 description: You can make a push notification into a critical alert with the addition of some JSON code. Different JSON code is used for iOS and Android operating systems and for the ITSM business unit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-citical-alert-code.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Mobile critical alerts, Push notifications, Before implementation, 
 
 You can make a push notification into a critical alert with the addition of some JSON code. Different JSON code is used for iOS and Android operating systems and for the ITSM business unit.
 
-When creating critical alert notifications, you need the code structure of a push notification message as well as the required JSON code that defines the notification as a critical alert. You add this code in the Push message content area. For more information, see [Mobile critical alerts](../task/mobile-critical-alerts-create.md).
+When creating critical alert notifications, you need the code structure of a push notification message as well as the required JSON code that defines the notification as a critical alert. You add this code in the Push message content area. For more information, see [Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-critical-alerts-create.md).
 
 **Important:**
 
@@ -70,7 +71,7 @@ json["aps"] = {
 The parameters in the sample JSON code are as follows:
 
 -   The **critical** parameter defines the notification as a critical alert. `1` means the critical alert is active, `0` means the critical alert is inactive.
--   The **name** parameter is the name of the tone that is activated when a critical alert is sent. Some tones for critical alerts are listed in the table. For a complete list, see [Configure sounds for push notifications](push-notif-sounds.md).
+-   The **name** parameter is the name of the tone that is activated when a critical alert is sent. Some tones for critical alerts are listed in the table. For a complete list, see [Configure sounds for push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/push-notif-sounds.md).
 
     |Accepted file name values|Tone rhythm|
     |-------------------------|-----------|
@@ -112,5 +113,5 @@ The **Push message content** area may contain previously configured code includi
 
 Changing the value of the critical alert script include affects all ITSM implementations of the script include. Similarly, an ITSM plugin upgrade could override your changes to your script include.
 
-**Parent Topic:**[Mobile critical alerts](../task/mobile-critical-alerts-create.md)
+**Parent Topic:**[Mobile critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-critical-alerts-create.md)
 

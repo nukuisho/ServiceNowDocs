@@ -2,6 +2,7 @@
 title: Assign fonts by component category
 description: Assign fonts to specific component categories to create a clearer visual hierarchy and ensure consistent typography across related UI elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/assign-fonts-by-category.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
 ## About this task
 
-Font assignments at the category level override broader defaults. Font size is managed separately in the **Sizes** tab and isn’t changed when assigning fonts by category. For information on editing font size, see [Edit font size](edit-font-size.md).
+Font assignments at the category level override broader defaults. Font size is managed separately in the **Sizes** tab and isn’t changed when assigning fonts by category. For information on editing font size, see [Edit font size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/edit-font-size.md).
 
 **Note:** Changing the font at the category level does not affect individual components that have their own font settings.
 
@@ -33,19 +34,19 @@ Font assignments at the category level override broader defaults. Font size is m
 
 2.  Use the Page drop-down list to select the Editor page view.
 
-    ![Page drop-down list with Editor selected.](../image/tb-editor-page-list.png "Page drop-down list")
+    \[Omitted image "tb-editor-page-list.png"\] Alt text: Page drop-down list with Editor selected.
 
 3.  From the Theme drop-down list, select the theme that you want to edit.
 
     The **Global styles** tab opens automatically with the Overview panel displayed.
 
-    ![Example view of the Editor page.](../image/tb-editor-page-view.png "Editor page view")
+    \[Omitted image "tb-editor-page-view.png"\] Alt text: Example view of the Editor page.
 
 4.  From the Global styles Overview panel, navigate to Typography and select the **Fonts** tab.
 
     Typography is split into Fonts and Sizes, with font assignments managed in the **Fonts** tab.
 
-    ![Typography with Fonts selected.](../image/tb-typography-panel-fonts.png "Global styles Typography")
+    \[Omitted image "tb-typography-panel-fonts.png"\] Alt text: Typography with Fonts selected.
 
 5.  Expand a component category.
 
@@ -53,11 +54,11 @@ Font assignments at the category level override broader defaults. Font size is m
 
 6.  For the selected category, choose a font family.
 
-    Select from available platform fonts or previously uploaded custom fonts. You can also [Upload a custom font to your theme](upload-custom-font.md) directly from the font selector.
+    Select from available platform fonts or previously uploaded custom fonts. You can also [Upload a custom font to your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-custom-font.md) directly from the font selector.
 
 7.  Select **Save**.
 
-    **Note:** After you save changes to a typography option, a Remove override icon ![](../../../reuse/icons/product-icons/undo-top-outline-24.svg) appears. Use Remove override to revert the option to its original default value.
+    **Note:** After you save changes to a typography option, a Remove override icon \[Omitted image "undo-top-outline-24.svg"\] appears. Use Remove override to revert the option to its original default value.
 
 8.  Adjust the font face or text transform for the category.
 
@@ -72,7 +73,7 @@ Font assignments at the category level override broader defaults. Font size is m
 
 Theme Builder automatically saves your theme record.
 
-If your theme is published, your font edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](tb-apply-theme.md).
+If your theme is published, your font edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Working with Global styles](../concept/working-with-global-styles.md)
+**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)
 

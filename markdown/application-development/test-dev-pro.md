@@ -2,6 +2,7 @@
 title: Pro-code tools: What you can do to build apps
 description: Select an option below.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-dev-pro.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,27 +16,27 @@ Select an option below.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Build apps ![](../image/icon-app-journey.png) Learn about developing on the ServiceNow platform.](test-dev-pro-build.md)
+[Build apps \[Omitted image "icon-app-journey.png"\] Learn about developing on the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-pro-build.md)
 
 </td><td>
 
-[Manage my apps ![](../image/icon-aes.png) Customize your ServiceNow applications.](test-dev-pro-manage.md)
+[Manage my apps \[Omitted image "icon-aes.png"\] Customize your ServiceNow applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-pro-manage.md)
 
 </td><td>
 
-[Engage with my customers ![](../image/icon-engage.png) Learn how you can communicate with your customers using the ServiceNow platform.](test-dev-pro-engage.md)
+[Engage with my customers \[Omitted image "icon-engage.png"\] Learn how you can communicate with your customers using the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-pro-engage.md)
 
 </td></tr><tr><td>
 
-[Create reports ![](../image/icon-dashboard-builder.png) Create reports with your data on the ServiceNow platform.](test-dev-pro-reports.md)
+[Create reports \[Omitted image "icon-dashboard-builder.png"\] Create reports with your data on the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-dev-pro-reports.md)
 
 </td><td>
 
-[Learn about the ServiceNow platform ![](../image/icon-learn.png) See what you can do with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-platform/now-platform-landing.md)
+[Learn about the ServiceNow platform \[Omitted image "icon-learn.png"\] See what you can do with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-platform/now-platform-landing.md)
 
 </td><td>
 
-[Get help ![](../image/icon-core.png) Find resources to help you with the ServiceNow platform.](../concept/developer_navigation_table.md)
+[Get help \[Omitted image "icon-core.png"\] Find resources to help you with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer_navigation_table.md)
 
 </td></tr></tbody>
 </table>

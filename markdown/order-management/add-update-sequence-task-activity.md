@@ -2,6 +2,7 @@
 title: Add the Update sequence task activity to a sequence
 description: Dynamically update the sequence task records based on predefined configuration using the Update sequence task activity while designing customer engagement sequences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/add-update-sequence-task-activity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Dynamically update the sequence task records based on predefined configuration u
 
 ## Before you begin
 
-The delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](grant-delegated-developer-permissions.md).
+The delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/grant-delegated-developer-permissions.md).
 
 Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
@@ -29,7 +30,7 @@ Add the Update sequence task activity with other activities in a stage or in its
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Sequences** &gt; **All Sequences**.
 
@@ -37,11 +38,11 @@ Add the Update sequence task activity with other activities in a stage or in its
 
 5.  In the sequence diagram, create a stage to add the activity.
 
-    For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-stage.md).
+    For more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/add-configure-stage.md).
 
-6.  Within the stage, select the Add icon ![](../../../reuse/icons/product-icons/circle-plus-fill-24.svg).
+6.  Within the stage, select the Add icon \[Omitted image "circle-plus-fill-24.svg"\] Alt text:.
 
-7.  Open the activity picker by selecting the Add an activity icon ![](../../../reuse/icons/product-icons/square-outline-24.svg).
+7.  Open the activity picker by selecting the Add an activity icon \[Omitted image "square-outline-24.svg"\] Alt text:.
 
 8.  On the Add activity screen, search for and select **Customer Engagement Sequences** &gt; **Update sequence task**.
 
@@ -85,5 +86,12 @@ Field in the parent table you want to update. For example, to mark a lead as con
 </table>11. Select **Save and close**.
 
 
-**Parent Topic:**[Create a customer engagement sequence](create-customer-engagement-sequence.md)
+**Parent Topic:**[Create a customer engagement sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-customer-engagement-sequence.md)
+
+**Related topics**  
+
+
+[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-customer-engagement-sequences.md)
+
+[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-customer-engagement-sequences.md)
 

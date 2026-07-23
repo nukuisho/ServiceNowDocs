@@ -2,6 +2,7 @@
 title: Grant visibility domains to an individual user
 description: While it is possible to add visibility domains for specific users on the User form, it's best to add them only via groups. This controls permissions and access should individuals change departments or leave the company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_GrVisDomIndUser.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Role required: admin
 
 6.  Click **Save**, and then click **Update**.
 
-    ![](../image/Visibility_domains_user.png)
+    \[Omitted image "Visibility\_domains\_user.png"\] Alt text:
 
     The Visibility domain embedded list contains the following fields.
 

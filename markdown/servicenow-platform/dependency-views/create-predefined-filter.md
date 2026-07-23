@@ -2,6 +2,7 @@
 title: Create a predefined filter
 description: Create filters to narrow down the CIs that are displayed on a Dependency Views map. You can create filters that are based on CIs' class, CIs' attributes, or CIs' relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/create-predefined-filter.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -66,28 +67,28 @@ Create a predefined filter that you can then select to determine the scope of th
 
 After creating a predefined filter, you can apply it to a map:
 
-1.  Click the Map settings icon ![Map settings.](../image/dv-map-settings.png) to open **Map Settings**.
+1.  Click the Map settings icon \[Omitted image "dv-map-settings.png"\] Alt text: Map settings. to open **Map Settings**.
 2.  Select a filter from the **Predefined Filters** list.
 3.  Click **Apply**.
 
-**Parent Topic:**[Administer Dependency Views](../topic/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 
 
-[Create or modify map indicators](t_CreateModifyNGBSMMapIndicators.md)
+[Create or modify map indicators]()
 
-[Create or modify map icons](t_CreateModifyNGBSMMapIcons.md)
+[Create or modify map icons]()
 
-[Set a predefined filter as default](set-predefined-filter-default.md)
+[Set a predefined filter as default]()
 
-[Create or modify Map Related Items](t_CreateModifyNGBSMMapRelatedItems.md)
+[Create or modify Map Related Items]()
 
-[Create or modify Dependency Views menu actions](t_CreateModifyNGBSMMenuActions.md)
+[Create or modify Dependency Views menu actions]()
 
-[Condition and script parameters for menu actions](../reference/condition-script-parameters.md)
+[Condition and script parameters for menu actions]()
 
-[Create or edit a dependency type](t_CreateMapScript.md)
+[Create or edit a dependency type]()
 
-[Filter the view of a Dependency Views map](t_FilterViewNGBSMMap.md)
+[Filter the view of a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/t_FilterViewNGBSMMap.md)
 

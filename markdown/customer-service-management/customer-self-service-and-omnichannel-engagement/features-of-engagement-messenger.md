@@ -2,6 +2,7 @@
 title: Features of Engagement Messenger
 description: Understand what the Engagement Messenger application can provide to your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/features-of-engagement-messenger.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,7 +18,7 @@ Understand what the Engagement Messenger application can provide to your custome
 
 After you create and configure the Engagement Messenger module, you can customize it for your customers. For example, you can change the display order of any of these features on the home page of the messenger. Also, you can enable or disable any of these features to suit your customer's needs.
 
-![Engagement messenger application showing all options for a customer to interact with a company. Refer to the following list for all available options.](../image/em-home-page-v3.png "Engagement Messenger features")
+\[Omitted image "em-home-page-v3.png"\] Alt text: Engagement messenger application showing all options for a customer to interact with a company. Refer to the following list for all available options.
 
 -   **Greeting**
 
@@ -45,9 +46,9 @@ After you create and configure the Engagement Messenger module, you can customiz
 
     -   You must configure AI Search in your ServiceNow instance and then enable Typeahead Search and AI Search Assist widgets so that the unauthenticated users can use the AI search feature from Engagement Messenger.
 
-        For more information on enabling Typeahead Search and AI Search Assist widgets for Engagement Messenger, see [Enabling AI search in the Customer and Consumer Service Portals for unauthenticated users](../task/configure_search_csp_guestuser.md).
+        For more information on enabling Typeahead Search and AI Search Assist widgets for Engagement Messenger, see [Enabling AI search in the Customer and Consumer Service Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_csp_guestuser.md).
 
-        For more information of AI Search configuration, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md).
+        For more information of AI Search configuration, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md).
 
 -   **Case management**
 
@@ -55,7 +56,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
     By using the Cases widget on the messenger, your customers can submit a case to request help with something or to report an issue. Submitted cases can be assigned to a customer service agent and tracked to a resolution.
 
-    ![Case management chat windows that customers can see on the customer portal. For the text description, refer to the text that follows.](../image/em-case-flow.png "Case management")
+    \[Omitted image "em-case-flow.png"\] Alt text: Case management chat windows that customers can see on the customer portal. For the text description, refer to the text that follows.
 
     Whenever your customers return to the customer portal and log in, they are notified of any updates to the cases that they created. They can also view the details of all the cases and requests that they have previously submitted and track their status.
 
@@ -67,7 +68,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
     Whenever your customers return to the customer portal and log in, they are notified of any updates to the requests that they have previously submitted.
 
-    ![Catalog view with the Request things you need feature highlighted.](../image/catalog-feature.png "Catalog feature")
+    \[Omitted image "catalog-feature.png"\] Alt text: Catalog view with the Request things you need feature highlighted.
 
 -   **Field service management**
 
@@ -75,7 +76,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
     All technician requests are stored as work orders in your ServiceNow instance so that they can be tracked to completion.
 
-    The Work Order will have the location where the customer has raised a request. Geo-location services must be enabled for the technicians so that customers can track the live location and know the estimated time of arrival \(ETA\) of their technician. For more information, see [Field service feature configuration](../reference/field-service-feature-configuration.md).
+    The Work Order will have the location where the customer has raised a request. Geo-location services must be enabled for the technicians so that customers can track the live location and know the estimated time of arrival \(ETA\) of their technician. For more information, see [Field service feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/field-service-feature-configuration.md).
 
     **Note:**
 
@@ -104,7 +105,7 @@ After you create and configure the Engagement Messenger module, you can customiz
 
         Customers can use the Chat widget on the messenger to interact with a virtual or live customer support agents in your organization. This way, your customers can get immediate responses to their queries or issues.
 
-        ![Chat window showing a customer's dissatisfied response to a field service agent's suggested steps to resolve an issue.](../image/em-chat-live-agent.png "Live agent chat")
+        \[Omitted image "em-chat-live-agent.png"\] Alt text: Chat window showing a customer's dissatisfied response to a field service agent's suggested steps to resolve an issue.
 
         Engagement Messenger also provides contextual chat functionality. From any case details page, your customers can directly start a chat that opens with the context of that specific case.
 
@@ -114,16 +115,16 @@ After you create and configure the Engagement Messenger module, you can customiz
 
         Now Assist in Virtual Agent offers a conversational support experience that improves the chat experience in Engagement Messenger by delivering prompt answers to user questions. When enabled, Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation that is easier to understand and helps users to be more comfortable with chatting to a bot.
 
-        By integrating generative AI chat capabilities, Now Assist in Virtual Agent enhances the user experience in Engagement Messenger. It improves asynchronous messaging, enabling users to resolve issues more quickly and efficiently. These capabilities help speed up issue resolution and increase efficiency by reducing the number of incoming queries that must be diverted to a live agent. To know more about Now Assist in Virtual Agent, see [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md).
+        By integrating generative AI chat capabilities, Now Assist in Virtual Agent enhances the user experience in Engagement Messenger. It improves asynchronous messaging, enabling users to resolve issues more quickly and efficiently. These capabilities help speed up issue resolution and increase efficiency by reducing the number of incoming queries that must be diverted to a live agent. To know more about Now Assist in Virtual Agent, see [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/exploring-now-assist-va.md).
 
         Getting started with Now Assist in Virtual Agent in Engagement Messenger:
 
-        -   To enable Now Assist in Virtual Agent chat support in Engagement Messenger, verify that the Now Assist in Virtual Agent experience is configured by virtual\_agent\_admin or admin. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
-        -   You can create or use an existing assistant by navigating to **All** &gt; **Conversational Interfaces** &gt; **Assistants**. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
-        -   Once you select an assistant navigate to the **Display experience** tab to configure the Engagement Messenger module. In the **Portals** tab, select the Engagement Messenger module from the **Add portal** list and select the **Standard chat** as the experience. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+        -   To enable Now Assist in Virtual Agent chat support in Engagement Messenger, verify that the Now Assist in Virtual Agent experience is configured by virtual\_agent\_admin or admin. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
+        -   You can create or use an existing assistant by navigating to **All** &gt; **Conversational Interfaces** &gt; **Assistants**. For more information, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-assistant.md).
+        -   Once you select an assistant navigate to the **Display experience** tab to configure the Engagement Messenger module. In the **Portals** tab, select the Engagement Messenger module from the **Add portal** list and select the **Standard chat** as the experience. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md).
         **Note:** Each assistant comes with its own search configuration. For a smooth experience, if the assistant appears on a portal or mobile app that already has AI search configured, consider duplicating that setup to maintain consistency.
 
-        ![Engagement Messenger displaying a conversational interface with Now Assist in Virtual Agent enabled.](../image/nava_in_em.png)
+        \[Omitted image "nava\_in\_em.png"\] Alt text: Engagement Messenger displaying a conversational interface with Now Assist in Virtual Agent enabled.
 
     -   **Asynchronous chat**
 
@@ -134,20 +135,20 @@ After you create and configure the Engagement Messenger module, you can customiz
         -   **Message preview**
 
             -   Enable preview to see previews of unread chat message text, tables, links, HTML content, cases, knowledge cards, and images shared by the support agent without opening a message. The complete HTML content or video, and multiple unread messages, can be seen only when the user accesses the message.
-            -   Asynchronous chat supports emojis sent by an agent in the message preview for a more interactive conversation. For more information on how to use emojis in Agent chat, see [Using emojis in Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md).
-            ![Unread message previews shared by support agents. For the text description, refer to the preceding text in the Message preview section.](../image/async-preview.png "Previews")
+            -   Asynchronous chat supports emojis sent by an agent in the message preview for a more interactive conversation. For more information on how to use emojis in Agent chat, see [Using emojis in Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-using.md).
+            \[Omitted image "async-preview.png"\] Alt text: Unread message previews shared by support agents. For the text description, refer to the preceding text in the Message preview section.
 
         -   **Offline message support**
 
             Offline chat support enables users to view messages sent by the support agent while they were offline. The chat widget notification shows the total number of unread messages in real-time when the user revisits the website.
 
-            ![Pop-up window displaying the number of messages received when the user was offline.](../image/async-notif.png "Offline message support")
+            \[Omitted image "async-notif.png"\] Alt text: Pop-up window displaying the number of messages received when the user was offline.
 
         -   **Chat messages history**
 
             Users can close and reopen the chat window as needed without losing context or progress so an accidental messenger closure doesn’t reset the chat session.
 
-        **Note:** You can set a specific timeout to manage the idle conversation. By default, if the requester doesn’t respond to an agent message within two days, the conversation status changes to Closed Abandoned and the chat session is ended. As an admin, you can override the conversation idle timeout period for a web channel by setting the value in the Conversation Idle Timeout field in the Messaging Channels \[sys\_cs\_channel\] table. For details, see [Closing Virtual Agent and Live Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-open-conversations.md).
+        **Note:** You can set a specific timeout to manage the idle conversation. By default, if the requester doesn’t respond to an agent message within two days, the conversation status changes to Closed Abandoned and the chat session is ended. As an admin, you can override the conversation idle timeout period for a web channel by setting the value in the Conversation Idle Timeout field in the Messaging Channels \[sys\_cs\_channel\] table. For details, see [Closing Virtual Agent and Live Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/va-open-conversations.md).
 
 -   **Configurable Cards**
 
@@ -157,19 +158,19 @@ After you create and configure the Engagement Messenger module, you can customiz
 
         Allows you to embed any portal page or catalog item on Engagement Messenger. The embedded page opens within the messenger when the user selects the feature card.
 
-        ![Portal configuration showing feature cards including a clickable image as a display card, and title and subtitle text as a display card.](../image/em-portal.png "Portal configuration")
+        \[Omitted image "em-portal.png"\] Alt text: Portal configuration showing feature cards including a clickable image as a display card, and title and subtitle text as a display card.
 
     -   **Featured links**
 
         Enables you to add a list of links to website on Engagement Messenger. The link opens in a new browser tab when accessed using the feature card on messenger's home page.
 
-        ![Featured links shown as Top Links in a display card.](../image/em-links.png "Featured links")
+        \[Omitted image "em-links.png"\] Alt text: Featured links shown as Top Links in a display card.
 
     -   **Data from any table feature card**
 
         The feature card enables you to embed data from any table on Engagement Messenger. The added records appear as a card with a title or links on a messenger's home page.
 
-        ![Engagement messenger view of open orders and their details, displayed in a table record view or list view when accessed through Card or Links.](../image/em-data-from-table.png "Data from any table")
+        \[Omitted image "em-data-from-table.png"\] Alt text: Engagement messenger view of open orders and their details, displayed in a table record view or list view when accessed through Card or Links.
 
 -   **Proactive updates and reminders**
 
@@ -182,20 +183,20 @@ After you create and configure the Engagement Messenger module, you can customiz
     According to the configuration of Engagement Messenger behavior, the count of the updates is displayed on the messenger widget on your customer support webpage. If the customer navigates away from your website, the count of updates is also displayed on the browser tab.
 
 
-To learn how to start configuring Engagement Messenger for your third-party website, see [Set up Engagement Messenger](setting-up-engagement-messenger.md).
+To learn how to start configuring Engagement Messenger for your third-party website, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
 
 **Related topics**  
 
 
-[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-ais.md)
+[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/explore-ais.md)
 
-[Case management for Customer Service Management](csm-case-management.md)
+[Case management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-management.md)
 
-[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md)
+[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md)
 
-[Using Walk-up Experience](use-walkup-experiencce.md)
+[Using Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-walkup-experiencce.md)
 
-[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
+[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management.md)
 
 [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Parametrized list screens
 description: Learn how to use parameters to pass information into a list screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/list-applet-parameters.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,5 +18,5 @@ Use parameters to pass information into a list screen. For example, a user views
 
 |Incidents grouped by Priority|Incident list with a high priority selected|
 |-----------------------------|-------------------------------------------|
-|![Grouped list applet with items from the incident table grouped by priority](../image/GroupedListApplet.png)|![Grouped list applet with records from a specific priority selected](../image/GroupedListApplet2.png)|
+|\[Omitted image "GroupedListApplet.png"\] Alt text: Grouped list applet with items from the incident table grouped by priority|\[Omitted image "GroupedListApplet2.png"\] Alt text: Grouped list applet with records from a specific priority selected|
 

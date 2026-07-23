@@ -2,6 +2,7 @@
 title: Parallel scans
 description: Parallel scan is a functionality in Instance Scan that allows multiple scans to run in parallel instead of sequential execution. This improves efficiency and reduces wait times when several scans are executed concurrently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-parallel-scan.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -32,30 +33,30 @@ Parallel scan uses a queue-based execution model when `glide.scan.queue.enabled`
 
 **Note:** Parallel scan is applicable on full scan, test scan, suite scan, and reactive scan. It is not applicable with point scan.
 
-See [Instance Scan properties](../reference/hs-sys-properties.md) for more information.
+See [Instance Scan properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-sys-properties.md) for more information.
 
-**Parent Topic:**[Using Instance Scan](hs-using-scans.md)
+**Parent Topic:**[Using Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-using-scans.md)
 
 **Related topics**  
 
 
-[Create a check](../task/hs-create-health-check.md)
+[Create a check]()
 
-[Create a check suite](../task/hc-create-check-suite.md)
+[Create a check suite]()
 
-[Executing a scan](../reference/hs-execute-scans.md)
+[Executing a scan]()
 
-[Schedule a full scan](../task/hs-schedule-full-scan.md)
+[Schedule a full scan]()
 
-[Schedule a suite scan](../task/hc-schedule-suite-scan.md)
+[Schedule a suite scan]()
 
-[Monitoring a scan](../task/hs-progress-status-full-scan.md)
+[Monitoring a scan]()
 
-[Reviewing of scans](../reference/hs-review-scans.md)
+[Reviewing of scans]()
 
-[Queue your scan](../task/hs-queue-scan.md)
+[Queue your scan]()
 
-[Cancel a scan](../task/hs-cancel-scan.md)
+[Cancel a scan]()
 
-[Using the Instance Scan dashboard](../task/hs-implement-dashboard.md)
+[Using the Instance Scan dashboard]()
 

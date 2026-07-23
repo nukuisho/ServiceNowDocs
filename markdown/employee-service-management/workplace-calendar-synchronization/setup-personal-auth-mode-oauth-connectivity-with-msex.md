@@ -2,13 +2,14 @@
 title: Set up personal authentication mode OAuth connectivity with Microsoft Exchange Online
 description: Create a personal authentication mode application registry for Microsoft Exchange Online with your instance for OAuth authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/setup-personal-auth-mode-oauth-connectivity-with-msex.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a personal authentication mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create a personal authentication mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Set up personal authentication mode OAuth connectivity with Microsoft Exchange Online
@@ -17,7 +18,7 @@ Create a personal authentication mode application registry for Microsoft Exchang
 
 ## Before you begin
 
-Configure Microsoft Azure. For more information, see [Configure Microsoft Azure](configure-azure-personal-auth-mode.md).
+Configure Microsoft Azure. For more information, see [Configure Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-azure-personal-auth-mode.md).
 
 Confirm that the application scope is set to **Workplace Calendar Synchronization**.
 
@@ -31,7 +32,7 @@ Role required: admin
 
 3.  On the Third-party OAuth Provider form, fill in the fields:
 
-    For a description of the field values, see [Third-party OAuth Provider form](../reference/wsd-third-party-oauth-provider-form.md).
+    For a description of the field values, see [Third-party OAuth Provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/wsd-third-party-oauth-provider-form.md).
 
 4.  Right-click in the form header and select **Save**.
 
@@ -52,18 +53,18 @@ Role required: admin
 
 The OAuth registration is added for Microsoft Exchange Online with personal authentication mode OAuth entity profiles and OAuth entity scopes.
 
-**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](../concept/personal-auth-mode-connection-with-msex.md)
+**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
 
 **Related topics**  
 
 
-[Configure Microsoft Azure](configure-azure-personal-auth-mode.md)
+[Configure Microsoft Azure]()
 
-[Configure resource rooms in Microsoft Exchange Online](configure-resource-rooms-in-msex.md)
+[Configure resource rooms in Microsoft Exchange Online]()
 
-[Configure a personal authentication mode Connection and Credential alias for Microsoft Exchange Online](configure-personal-auth-mode-connection-and-credential-alias.md)
+[Configure a personal authentication mode Connection and Credential alias for Microsoft Exchange Online]()
 
-[Configure your own connection and credential alias for personal authentication mode](configure-your-own-connection-and-credential-alias-for-personal-auth.md)
+[Configure your own connection and credential alias for personal authentication mode]()
 
-[Configure the Microsoft Exchange Online calendar provider in personal authentication mode](configure-calendar-provider-in-personal-auth-mode.md)
+[Configure the Microsoft Exchange Online calendar provider in personal authentication mode]()
 

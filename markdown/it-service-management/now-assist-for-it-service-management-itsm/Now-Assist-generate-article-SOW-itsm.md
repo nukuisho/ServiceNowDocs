@@ -2,12 +2,13 @@
 title: Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist
 description: As an agent or knowledge writer, quickly generate knowledge articles from resolved and closed incidents within the Service Operations Workspace for ITSM application and classic environment by using the Now Assist application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/Now-Assist-generate-article-SOW-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -20,7 +21,7 @@ As an agent or knowledge writer, quickly generate knowledge articles from resolv
 
 You can generate a knowledge article in any incident state that is set by your administrator using the **com.snc.incident.create\_knowledge.multistate.enable** system property. The incident must also not have an existing knowledge article that is associated with it.
 
-The Knowledge generation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+The Knowledge generation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a Now Assist product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Important:**
 
@@ -49,7 +50,7 @@ The Knowledge generation skill is turned on by default. The skill will be automa
 
 To enable an agent to see the Now Assist experience on the Create Article page, configure the following knowledge base generation criteria:
 
--   Install the knowledge skills. For more information, see [Configure Now Assist for IT Service Management \(ITSM\)](../../now-assist-itsm/task/configure-now-assist-for-itsm.md).
+-   Install the knowledge skills. For more information, see [Configure Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
 -   Make sure that the following criteria are in place in the Now Assist Admin console:
     -   Specify the table record and input fields.
     -   Specify the conditions for the skill availability from the list of attributes.
@@ -70,12 +71,16 @@ Role required: itil
 
 3.  Create the article by selecting the **Create knowledge** option from the UI action drop-down menu in the incident.
 
-    ![Now assist in knowledge article option in knowledge article option.](../../now-assist-itsm/image/now-assist-itsm-knowledge-option.png)
+    \[Omitted image "now-assist-itsm-knowledge-option.png"\] Alt text: Now Assist in ITSM knowledge article option.
 
     **Note:**
 
     -   The **Create knowledge** UI action is only visible when an incident doesn't have an existing knowledge article that is associated with it.
-    -   When the **Create knowledge** action is initiated, it gets redirected to an interceptor page. The Knowledge article interceptor page displays only when the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is not installed. A series of steps is then executed within the [Knowledge Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md).
+    -   When the **Create knowledge** action is initiated, it gets redirected to an interceptor page. The Knowledge article interceptor page displays only when the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is not installed.
+
+        **Important:** If the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is installed, then the interceptor page is skipped.
+
+        A series of steps is then executed within the [Knowledge Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management.md).
 
         This includes determining if the following actions must be done:
 
@@ -85,31 +90,113 @@ Role required: itil
     -   If you encounter a duplicate **Create Knowledge** button, see the [Resolving duplicate Create Knowledge actions](https://www.servicenow.com/community/itsm-articles/issue-and-resolution-two-quot-create-knowledge-quot-actions-in/ta-p/3418702) community article for the resolution.
 4.  In the Knowledge article interceptor page, select a knowledge base and an article template.
 
-    Knowledge article interceptor page for Service Operation Workspace![Knowledge interceptor page in SOW](../../now-assist-itsm/image/now-assist-itsm-kb-interceptor-sow.png)
-
-    Knowledge article interceptor page in Core UI![Knowledge interceptor page in UI16](../../now-assist-itsm/image/now-assist-itsm-kb-interceptor-ui16.png)
+    |Knowledge article interceptor page|UI display|
+    |----------------------------------|----------|
+    |**In Service Operation Workspace**|\[Omitted image "now-assist-itsm-kb-interceptor-sow.png"\] Alt text: The knowledge article interceptor page in Service Operations Workspace|
+    |**In Core UI**|\[Omitted image "now-assist-itsm-kb-interceptor-ui16.png"\] Alt text: The knowledge article interceptor page for core UI.|
 
 5.  Select **Next**.
 
-    **Note:** When you use the standard template, the content from the incident's **Description**, **Resolution**, and **Additional comments** fields are populated in the **Issue**, **Resolution**, and **Additional comments** sections respectively in the article body of the standard template.
+    **Note:** When you use the standard template, the content from the incident's **Description**, **Resolution**, and **Additional comments** fields are populated in the respective fields in the article body of the standard template.
 
-    ![Fields populated in the article body of the standard template](../../now-assist-itsm/image/now-assist-itsm-standard-template-art-body1.png)
+6.  To add or update the knowledge article, follow the instructions in the table below.
 
-6.  In the Use AI to draft this article? modal, choose to write the article yourself, or draft an article with Now Assist.
+<table><thead><tr><th align="left" id="d332134e525">
 
-    ![Now Assist ITSM KB generation modal](../../now-assist-itsm/image/now-assist-itsm-kb-gen-modal1.png)
+To add or update the knowledge article
 
-7.  If you’re drafting the article with Now Assist, you can choose up to five relevant tasks for the creation of the article, and select **Use selected tasks to help draft new article**; otherwise, select **Cancel**.
+</th><th align="left" id="d332134e528">
 
-    ![Now Assist in ITSM knowledge article related incidents modal.](../../now-assist-itsm/image/now-assist-itsm-similar-incidents.png)
+Do this
 
-    When creating an article that includes information that spans multiple similar incidents, a single article is created containing the details from the selected incidents.
+</th></tr></thead><tbody><tr><td id="d332134e534">
 
-    The article appears in a new tab, has a unique ID number for the knowledge article, and is attached to the parent record.
+**In Service Operation Workspace**
 
-8.  Review the article and edit it if necessary.
+</td><td>
 
-    ![Now Assist in ITSM knowledge article.](../../now-assist-itsm/image/now-assist-itsm-kb-gen-art.png)
+-   In the main article editor, select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist iconand make changes as needed.
+
+\[Omitted image "now-assist-itsm-sow-create-new-knowledge.png"\] Alt text: Create a KCS article for an incident in SOW-Article body sections populated from fields in the corresponding incident
+
+-   Click **Save**.
+
+
+</td></tr><tr><td id="d332134e575">
+
+**In Core UI**
+
+</td><td>
+
+You can update the knowledge article manually or use Generative AI to update it.\[Omitted image "now-assist-itsm-coreui-create-new-knowledge.png"\] Alt text: Create a KCS article for an incident in CoreUI
+
+To update it:
+
+-   Manually, select **No, write it myself** and updated the contents in the fields manually.
+-   Using Now Assist, select **Yes, draft with Now Assist**. Now Assist adds content to the **Issue** and **Resolution** fields.
+-   Select **Submit** after you make the changes.
+**Note:** Select **Edit using improved editor**. The new Knowledge Article Advanced Editor page opens in the Knowledge Center where you can edit the content and click **Save** to save the edits.
+
+</td></tr></tbody>
+</table>7.  If you’re creating a draft of the article with Now Assist, you can select more than one incident to create the article .
+
+    **Note:** Make sure that AI Search is activated.
+
+    To verify, go to **All** &gt; **AI Search** &gt; **AI Search Status** and verify that AI Search is active.
+
+    \[Omitted image "now-assist-itsm-ai-search.png"\] Alt text: AI Search activated
+
+<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d332134e673">
+
+Type of UI
+
+</th><th align="left" id="d332134e676">
+
+Procedure
+
+</th></tr></thead><tbody><tr><td id="d332134e682">
+
+**In Service Operation Workspace**
+
+</td><td>
+
+1.  Open an incident.
+2.  Select **Create Knowledge**.
+3.  Select the Delete icon and select **Clear Canvas**.
+
+The 'Write about \(incident number\)' displays.
+
+4.  Enter an incident number or an incident short description and press the arrow icon\[Omitted image "now-assist-itsm-arrow-icon.png"\] Alt text:.
+\[Omitted image "now-assist-itsm-sow-clear-canvas.png"\] Alt text: Clear the canvas to view incidents with similar tasks-   When an incident number is provided, Now Assist generates the article based on the incident number.
+-   When an incident short description is copied and pasted, Now Assist searches the top three similar incidents to generate the article.
+The Knowledge article is created and attached to all selected similar incidents.
+
+\[Omitted image "now-assist-itsm-sow-similar-inc-knowledge.png"\] Alt text: Knowledge created for similar incidentsSelect **Save** to save the article.
+
+</td></tr><tr><td id="d332134e751">
+
+**In Core UI**
+
+</td><td>
+
+1.  In CoreUI, open an incident with similar incidents.
+2.  Select **Create Knowledge**.
+3.  Select **Yes, draft with Now Assist**.
+
+A popup displays similar incidents. You can select up to 5 incidents.
+
+4.  Select **Continue without more tasks**.
+
+The knowledge article is created.
+
+5.  Select **Save**.
+
+The knowledge article is attached to all similar incidents.
+
+ \[Omitted image "now-assist-itsm-coreui-multiple-inc-knowledge.png"\] Alt text: Multiple related incidents in CoreUI
+
+</td></tr></tbody>
+</table>8.  Review the article and edit it if necessary.
 
 9.  Select **Save** or **Publish**.
 
@@ -124,5 +211,5 @@ Role required: itil
 **Related topics**  
 
 
-[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)
+[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-knowledge-management.md)
 

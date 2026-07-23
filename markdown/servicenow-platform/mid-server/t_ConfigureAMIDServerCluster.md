@@ -2,6 +2,7 @@
 title: Configure a MID Server cluster
 description: Group multiple MID Servers to form clusters, then configure clusters for fail-over protection or load balancing. Load-balancing clusters automatically balance work between each MID Server to improve stability and performance, as well as handle fail-over. Fail-over clusters have a configured order used to determine which MID Server to use next if a failure occurs.MID Server clusters enable multiple MID Servers with the appropriate capabilities to be grouped together for load balancing and fail-over protection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_ConfigureAMIDServerCluster.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -17,7 +18,7 @@ Group multiple MID Servers to form clusters, then configure clusters for fail-ov
 
 ## Before you begin
 
-Ensure that all MID Servers in the cluster have the same [capabilities](t_ConfigureCapabilities.md#) \(Supported Applications, IP Ranges, and Capabilities\). A MID Server should not belong to more than one cluster.
+Ensure that all MID Servers in the cluster have the same [capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md) \(Supported Applications, IP Ranges, and Capabilities\). A MID Server should not belong to more than one cluster.
 
 Role required: admin
 
@@ -45,7 +46,7 @@ Create a new cluster or edit an existing cluster.
 6.  Select appropriate MID Servers for this cluster from the slushbucket.
 
 
-**Parent Topic:**[Configuring MID Servers](../concept/c_MIDServerConfiguration.md)
+**Parent Topic:**[Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
 
 ## MID Server clusters
 
@@ -59,7 +60,7 @@ For performance and reliability reasons, these data sources should not be used w
 -   Export sets
 -   JDBC data sources
 
-**Note:** If a MID Server in a cluster fails, the fail-over MID Server starts over at the beginning of the ECC queue task even if much of the information from the JDBC data source was already returned. This can result in duplicate data. For more details, see the [Using MID Server clusters for JDBC data sources can cause duplicate and out-of-date data \[KB0727739\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0727739) article in the HI Knowledge Base.
+**Note:** If a MID Server in a cluster fails, the failover MID Server restarts processing from the beginning of the ECC queue task, even if much of the information from the JDBC data source was already returned. This may produce duplicate data. To prevent duplicate data, use dedicated \(non-clustered\) MID Servers for LDAP, export set, and JDBC data sources.
 
 ### How clusters work
 
@@ -67,7 +68,7 @@ MID Servers in clusters must be able to connect to the instance and to all the d
 
 -   **Load balancing**
 
-    If the cluster business rule determines that a MID Server is part of a load balancing cluster, the application using the MID Server automatically balances the work between the MID Servers in that cluster. It is good practice to put MID Servers with the same [capabilities](../reference/r_MIDServerCapabilities.md) in a load balancing cluster.
+    If the cluster business rule determines that a MID Server is part of a load balancing cluster, the application using the MID Server automatically balances the work between the MID Servers in that cluster. It is good practice to put MID Servers with the same [capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) in a load balancing cluster.
 
 -   **Fail-over protection**
 
@@ -77,7 +78,7 @@ MID Servers in clusters must be able to connect to the instance and to all the d
 
     Configure a fail-over MID Server with at least the same capabilities as the MID Server it is intended to relieve.
 
-    **Note:** If a MID Server fails while the [Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureTheShazzamProbe.md) is running and auto-selection is configured, failover is not available. The Shazzam discovery stops. Discovery does not automatically choose another MID Server.
+    **Note:** If a MID Server fails while the [Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_ConfigureTheShazzamProbe.md) is running and auto-selection is configured, failover is not available. The Shazzam discovery stops. Discovery does not automatically choose another MID Server.
 
 
 ### MID Server cluster event
@@ -92,7 +93,7 @@ The following event is triggered when the platform cannot find a MID Server with
 
 A MID Server can be added to both types of clusters at the same time. This diagram shows a scenario in which a MID Server from a load balancing cluster \(MID Server D\) is also present in a fail-over cluster. If MID Server D fails, MID Server E in the failover cluster is available to the load balancing cluster to perform the tasks previously assigned to MID Server D.
 
-![MID Server failover example](../image/MIDServerClustersDiagram.png)
+\[Omitted image "MIDServerClustersDiagram.png"\] Alt text: MID Server failover example
 
 ### Specifying a specific MID Server cluster
 
@@ -100,7 +101,7 @@ You can specify a specific MID Server cluster for a Discovery schedule. The disc
 
 ### Distributed MID Server clusters for Operational Intelligence
 
-The distributed MID Server cluster type is used exclusively in Operational Intelligence, which analyzes Event Management events and generates anomaly alerts. These MID Servers communicate with one another to distribute and balance the workload. For details, see [MID Server distributed clusters for Operational Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md)
+The distributed MID Server cluster type is used exclusively in Operational Intelligence, which analyzes Event Management events and generates anomaly alerts. These MID Servers communicate with one another to distribute and balance the workload. For details, see [MID Server distributed clusters for Operational Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/ops-intelligence-mid-server.md)
 
 ### Smart Workload Manager
 

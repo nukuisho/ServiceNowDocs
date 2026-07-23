@@ -2,6 +2,7 @@
 title: Get Supported Security Capabilities action
 description: The Get Supported Capabilities flow action retrieves the name and number of integrations that are active and support the requested capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/get-supported-security-capabilities-activity.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,5 +44,5 @@ The output variables contain data that can be used in subsequent actions.
 |supportedCapabilities|List of integrations that support the capability.|
 |capabilityCount|Number of integrations that support the capability.|
 
-**Parent Topic:**[Common Security Operations integration flows and orchestration activities](../../security-operations-common/concept/common-wf-activities.md)
+**Parent Topic:**[Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/common-wf-activities.md)
 

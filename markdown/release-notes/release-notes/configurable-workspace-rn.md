@@ -102,7 +102,7 @@ See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/Ser
     -   Configure a simple filtering mechanism.
     -   Use a search term for filtering panel definitions.
     -   Configure fixed queries.
--   **[Hierarchical queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/data-hierarchies.md)**
+-   **[Hierarchical queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-hierarchies.md)**
 
     Configure a record hierarchy to create filter queries that traverse levels of hierarchy.
 
@@ -178,7 +178,7 @@ See [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/Ser
 
     Upgrade form action layout groups to customize the order, label, and icons for declarative actions without altering the base action.
 
--   **[Declarative actions and UI actions on public pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md)**
+-   **[Declarative actions and UI actions on public pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-web-embeddables.md)**
 
     Non-logged in users may access specified declarative actions and UI actions on embedded web pages while maintaining integrity with security guidance and access control list permissions.
 
@@ -198,7 +198,7 @@ Configurable Workspace is a ServiceNow AI Platform feature that is active by def
 
 ## Browser requirements
 
-Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](../../administer/navigation-and-ui/reference/browser-support.md).
+Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/browser-support.md).
 
 ## Accessibility information
 
@@ -211,10 +211,10 @@ Configurable Workspace doesn’t support mobile devices, Internet Explorer, or M
 
 ## Related ServiceNow applications and features
 
--   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)**
+-   ****
 
     Use UI Builder to build your Configurable Workspace experience.
 
 
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](now-platform-ui-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
 

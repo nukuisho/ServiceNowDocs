@@ -2,12 +2,13 @@
 title: Enable keyword search for contract templates
 description: Enable keyword search in contract templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-enable-search-cont-tmplts.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -27,37 +28,39 @@ Role required: admin
 
 3.  Select **Generate Text Index** from the Related Links
 
-    ![Initiate table indexing for keyword search in contract templates](../image/cmpro-generate-index.png "Contract configuration")
+    \[Omitted image "cmpro-generate-index.png"\] Alt text: Initiate table indexing for keyword search in contract templates
 
 4.  Select **Ok** in the Generate Text Index dialog box.
 
-    ![Select Ok to start the table indexing for search](../image/cmpro-gen-index-confirmation.png "Contract configuration")
+    \[Omitted image "cmpro-gen-index-confirmation.png"\] Alt text: Select Ok to start the table indexing for search
 
 
 ## Result
 
-The table will be indexed. For more information on how to search for a keyword in a contract template, see [Search for keywords in contract templates](cncore-search-in-doct.md)
+The table will be indexed. For more information on how to search for a keyword in a contract template, see [Search for keywords in contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-search-in-doct.md)
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](../concept/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace](../concept/cncore-conf-cntrct-wrkspc.md)
+[Configuring Contract Workspace]()
 
-[Configure signature pause duration when modifying signatories](cncore-pause-sig-property.md)
+[Configure signature pause duration when modifying signatories]()
 
-[Auto-populate the start date and end date for contract requests](cncore-conf-start-end-date-for-cntrcts.md)
+[Auto-populate the start date and end date for contract requests]()
 
-[Activate a system property to generate a certificate of completion](cncore-config-system-prop-COC.md)
+[Enable signatory roles]()
 
-[Enable users to view email details in activity stream](cncore-enbl-user-email-astream.md)
+[Activate a system property to generate a certificate of completion]()
 
-[Configuring contract summarization for Contract Management Pro](cmpro-conf-cntr-summary.md)
+[Enable users to view email details in activity stream]()
 
-[Configure conditions to send reminder notifications for expiring contracts](cncore-config-rem-exp-cont.md)
+[Configuring contract summarization for Contract Management Pro]()
 
-[Copy fields from parent request to amendment request](cncore-cpy-fld-parent-amedreq.md)
+[Configure conditions to send reminder notifications for expiring contracts]()
 
-[Manage notifications in Contract Management Pro](../concept/cmpro-manage-notifications.md)
+[Copy fields from parent request to amendment request]()
+
+[Manage notifications in Contract Management Pro]()
 

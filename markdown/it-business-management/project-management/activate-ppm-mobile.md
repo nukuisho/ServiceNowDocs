@@ -2,6 +2,7 @@
 title: Activate Mobile Project Status
 description: Activate the MobilenProject Status application from ServiceNow Store, earlier known as PPM Mobile \(com.sn\_ppm\_mobile\), if you have an admin role. Installing this application also activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/activate-ppm-mobile.html
 release: australia
 product: Project Management
 classification: project-management
@@ -52,7 +53,7 @@ Enables you to manage your demands, resources, portfolios and projects. It also 
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
 **Related topics**  

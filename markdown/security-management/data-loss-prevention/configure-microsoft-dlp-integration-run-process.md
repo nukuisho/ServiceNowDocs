@@ -2,6 +2,7 @@
 title: Monitor DLP Integration Run process
 description: Track and monitor the ongoing ingestion or the integration run process. The integration run processes contains the statistics on how much the data was processed and the integration status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-microsoft-dlp-integration-run-process.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -31,50 +32,50 @@ The integration run contains the Source for which the integration profile and th
 3.  Navigate to the **DLP Integration Run Process**.
 4.  View the queue entry status of the record.
 
-**Parent Topic:**[DLP Incident Response Administration](../../data-loss-prevention/concept/data-loss-prevention-administration.md)
+**Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 **Related topics**  
 
 
-[DLP default configuration settings](../../data-loss-prevention/task/configure-data-loss-prevention.md)
+[DLP default configuration settings]()
 
-[Create end user lookup rules](../../data-loss-prevention/task/configure-enduser-lookup-rules.md)
+[Create end user lookup rules]()
 
-[Create assignment rules](../../data-loss-prevention/task/create-assignment-rules.md)
+[Create assignment rules]()
 
-[Create incident consolidation rules](../../data-loss-prevention/task/configure-incident-consolidation-rules-to-consolidate-your-dlp-incidents.md)
+[Create incident consolidation rules]()
 
-[Create response due date rules](../../data-loss-prevention/task/setup-response-due-date-rules.md)
+[Create response due date rules]()
 
-[Create Approval Rules](../../data-loss-prevention/task/configure-approval-rules.md)
+[Create Approval Rules]()
 
-[Create user instructions templates](../../data-loss-prevention/task/create-and-manage-user-instructions-template-for-dlp-incidents.md)
+[Create user instructions templates]()
 
-[Create email templates](../../data-loss-prevention/task/create-and-manage-email-templates.md)
+[Create email templates]()
 
-[Create a Data Loss Prevention Incident Response SLA trigger](../../data-loss-prevention/task/sla-records.md)
+[Create a Data Loss Prevention Incident Response SLA trigger]()
 
-[Create a Data Loss Prevention Incident Response SLA definition](../../data-loss-prevention/task/dlp-sla-definitions.md)
+[Create a Data Loss Prevention Incident Response SLA definition]()
 
-[Create assessments](../../data-loss-prevention/task/create-and-manage-assessments-for-dlp-incidents.md)
+[Create assessments]()
 
-[Configure response option for your DLP incidents](../../data-loss-prevention/task/configure-response-option-mapping.md)
+[Configure response option for your DLP incidents]()
 
-[Create incident response option rules](../../data-loss-prevention/task/configure-end-user-action.md)
+[Create incident response option rules]()
 
-[Create age chart configurations](../../data-loss-prevention/task/configure-age-chart.md)
+[Create age chart configurations]()
 
-[Create user delegate configurations](../../data-loss-prevention/task/configure-delegation.md)
+[Create user delegate configurations]()
 
-[Create repeat offender identification rules](../../data-loss-prevention/task/repeat-offender-identification-rules.md)
+[Create repeat offender identification rules]()
 
-[Create additional incident data fields](../../data-loss-prevention/task/create-custom-fields-dlp.md)
+[Create additional incident data fields]()
 
-[DLP SLA Definition form](../../data-loss-prevention/reference/dlp-sla-def-properties.md)
+[DLP SLA Definition form]()
 
-[Configure advanced settings](../../data-loss-prevention/task/configure-advanced-settings-dlp.md)
+[Configure advanced settings]()
 
-[DLP Incident Access Restrictions](../../data-loss-prevention/concept/dlp-incident-access-restrictions.md)
+[DLP Incident Access Restrictions]()
 
-[DLP Incidents Archival](../../data-loss-prevention/task/dlp-archiving-rule.md)
+[DLP Incidents Archival]()
 

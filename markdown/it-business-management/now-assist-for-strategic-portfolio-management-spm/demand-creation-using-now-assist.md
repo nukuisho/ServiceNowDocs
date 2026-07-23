@@ -2,6 +2,7 @@
 title: Create demands by using the conversational experience
 description: Use the conversational experience of Now Assist in Virtual Agent to create a demand from any application that supports Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/demand-creation-using-now-assist.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Create a demand,]
-breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+breadcrumb: [Use Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
 # Create demands by using the conversational experience
@@ -23,13 +24,13 @@ Use the conversational experience of Now Assist in Virtual Agent to create a dem
 Ensure that the following tasks are completed:
 
 -   Install an application that supports Virtual Agent.
--   Complete configuring the conversational experiences for demand creation. For more information, see [Configure Now Assist Admin features](../concept/configuring-na-spm.md).
+-   Complete configuring the conversational experiences for demand creation. For more information, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 
 Role required: none
 
 ## About this task
 
-Creating demands using Now Assist 
+\[Omitted video\] Description: Creating demands using Now Assist
 
 In the application that supports Virtual Agent, for example Employee Service Center, start with a prompt to create a demand in the chat. Through a series of questions, Virtual Agent prompts you to provide information for the questions that you configured for a catalog item. Now Assist in Virtual Agent understands the context and maps the information that you provide in response to a question to an appropriate catalog item, in this case, a demand.
 
@@ -62,7 +63,7 @@ Virtual Agent starts a conversation to ask more information from you about the d
 -   What are the risks associated with performing this demand?
 The information you provide is used to fill in the fields of the Demand form. You can skip answering a question that is related to non-required fields by entering **skip**.
 
-![Basic instruction to create a demand using Virtual Agent chat in the Employee Center.](../images/now-assist-demand-short-prompt.png)
+\[Omitted image "now-assist-demand-short-prompt.png"\] Alt text: Basic instruction to create a demand using Virtual Agent chat in the Employee Center.
 
 </td></tr><tr><td>
 
@@ -76,7 +77,7 @@ Using the context that you provided, Virtual Agent automatically matches it to t
 
  You can skip answering a question that is related to non-required fields by entering **skip**.
 
- ![Elaborate instruction to create a demand using Virtual Agent chat in the Employee Center.](../images/now-assist-demand-elaborate-prompt.png)
+ \[Omitted image "now-assist-demand-elaborate-prompt.png"\] Alt text: Elaborate instruction to create a demand using Virtual Agent chat in the Employee Center.
 
 </td></tr></tbody>
 </table>4.  Review the information that Virtual Agent filled in for the Demand form fields.
@@ -90,10 +91,10 @@ Using the context that you provided, Virtual Agent automatically matches it to t
     The conversation is now complete.
 
 
-**Parent Topic:**[Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
+**Parent Topic:**[Use Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
 **Related topics**  
 
 
-[Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)
+[Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md)
 

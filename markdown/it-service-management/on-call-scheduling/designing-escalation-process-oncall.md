@@ -2,6 +2,7 @@
 title: Designing an escalation process
 description: To design an escalation process for a task, you define a trigger rule and configure one or more escalation policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/designing-escalation-process-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -26,13 +27,13 @@ For example, a trigger rule might specify:
 -   If \(rule condition\): An incident with level **Critical** or **High** is raised and is assigned to the **Network** group.
 -   Then \(rule action\): Run the **Assign and Notify** workflow. \(The workflow sends an email notification to the current on-call roster member.\)
 
-![Network high priority trigger rule](../image/trigger-rule-when-to-activate-tab.png "Rule condition on the When to activate tab")
+\[Omitted image "trigger-rule-when-to-activate-tab.png"\] Alt text: Network high priority trigger rule
 
-![example trigger action](../image/trigger-rule-action-to-take-tab.png "Rule action on the What action to take tab")
+\[Omitted image "trigger-rule-action-to-take-tab.png"\] Alt text: example trigger action
 
 **Note:** An on-call escalation is canceled when the assignment group of the associated task record, for example, an incident, changes to a different group without a matching trigger rule. It ensures that an existing irrelevant escalation workflow is no longer associated with that task record.
 
-See [Create an escalation trigger rule](../task/create-trigger-rule-oncall.md).
+See [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md).
 
 ## About escalation policies
 
@@ -44,23 +45,23 @@ An escalation policy includes the following configurations:
 
 You can create a custom escalation policy for a shift by overriding settings in a default escalation type, for example, by configuring custom delays between escalation steps.
 
--   **[Configure a table for escalation trigger rules](../task/configure-tables-for-escalation-trigger-rule.md)**  
+-   **[Configure a table for escalation trigger rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.md)**  
 Configure escalation trigger rules for the tables that do not extend tasks.
--   **[Create an escalation trigger rule](../task/create-trigger-rule-oncall.md)**  
+-   **[Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md)**  
 Create a trigger rule to specify both the conditions under which an escalation process should begin and the actions \(workflow or script\) to perform for the escalation.
--   **[Create an escalation policy](../task/create-custom-esc-policy-oncall.md)**  
+-   **[Create an escalation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-custom-esc-policy-oncall.md)**  
 An escalation policy includes the policy type that defines the order in which rosters and roster members receive escalation notifications. You can create a custom escalation policy for a shift by overriding settings in a default escalation type, for example, by configuring custom delays between escalation steps.
--   **[Escalation and reminder settings for rosters](../reference/escalation-remind-settings-oncall.md)**  
+-   **[Escalation and reminder settings for rosters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/escalation-remind-settings-oncall.md)**  
 Use the escalation settings to specify how and when escalations occur and when reminder notifications are sent.
--   **[Example escalation reports](example-escalation-reports-oncall.md)**  
+-   **[Example escalation reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/example-escalation-reports-oncall.md)**  
 Because escalation reports depend on the escalation type, report content can vary greatly.
 
-**Parent Topic:**[Escalations in On-Call Scheduling](escalations-oncall.md)
+**Parent Topic:**[Escalations in On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/escalations-oncall.md)
 
 **Related topics**  
 
 
-[Track the progress of an escalation](../task/track-escalation-progress-oncall.md)
+[Track the progress of an escalation]()
 
-[View details in an escalation log](../task/view-escalation-logs-oncall.md)
+[View details in an escalation log]()
 

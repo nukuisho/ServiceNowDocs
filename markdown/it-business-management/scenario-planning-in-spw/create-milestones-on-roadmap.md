@@ -2,6 +2,7 @@
 title: Add milestones for a roadmap
 description: Track key dates of your plan's timeline by creating milestones and displaying them on the roadmap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -28,15 +29,15 @@ For the timeline of your portfolio plan or free-form roadmap, create milestones 
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d293416e96">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d298062e96">
 
 Roadmap type
 
-</th><th align="left" id="d293416e99">
+</th><th align="left" id="d298062e99">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d293416e105">
+</th></tr></thead><tbody><tr><td id="d298062e105">
 
 **Portfolio plan roadmap**
 
@@ -46,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d293416e126">
+</td></tr><tr><td id="d298062e126">
 
 **Free-form roadmap**
 
@@ -57,11 +58,11 @@ From the Free-form Roadmaps tab, select a roadmap.
 </td></tr></tbody>
 </table>2.  From the More actions drop-down, select **New milestone**.
 
-    ![More actions dropdown on the roadmap header.](../images/new-rdmp-milestone.png)
+    \[Omitted image "new-rdmp-milestone.png"\] Alt text: More actions dropdown on the roadmap header.
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Roadmap milestone form](../../alignment-planner-workspace/reference/milestone-form.md).
+    For field information, see [Roadmap milestone form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/milestone-form.md).
 
 4.  Select **Submit**.
 
@@ -72,7 +73,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 Milestones that you created are visible on the roadmap.
 
-Here is an image of a sample roadmap with the milestone bar showing different milestones for the planning period.![Roadmap milestones](../images/roadmap-level-milestones.png)
+Here is an image of a sample roadmap with the milestone bar showing different milestones for the planning period.\[Omitted image "roadmap-level-milestones.png"\] Alt text: Roadmap milestones
 
 The color of the milestone, shown on the legend, indicates the status of the milestone.
 
@@ -82,15 +83,15 @@ The color of the milestone, shown on the legend, indicates the status of the mil
 
 If multiple milestones are scheduled close to each other, they might appear grouped in the milestone bar. In this case, you can expand and collapse the milestone bar to view all the milestones of that period.
 
-![milestone group](../images/milestone-group.gif)
+\[Omitted image "milestone-group.gif"\] Alt text: milestone group
 
--   **[Update a roadmap milestone](update-roadmap-milestone.md)**  
+-   **[Update a roadmap milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-roadmap-milestone.md)**  
 Update or delete the milestones that you added to your portfolio plan or free-form roadmap so that they reflect any change of plans.
 
-**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](../concept/roadmaps-in-alignment-planner-workspace.md)
+**Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)
 
 **Related topics**  
 
 
-[Customizing milestones display on roadmap in Strategic Planning Workspace](../../alignment-planner-workspace/concept/personalizing-the-milestones-display-on-the-roadmap.md)
+[Customizing milestones display on roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/personalizing-the-milestones-display-on-the-roadmap.md)
 

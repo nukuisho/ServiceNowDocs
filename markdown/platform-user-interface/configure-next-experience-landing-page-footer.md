@@ -2,6 +2,7 @@
 title: Configure a Next Experience landing page footer
 description: Display useful links in the footer of your Next Experience landing pages. The footer contains two fully configurable link set components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-next-experience-landing-page-footer.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,11 +32,11 @@ The footer is hidden by default. To configure the footer, you enable it in UI Bu
 
 3.  In the search experiences field, enter `Unified Navigation App`.
 
-4.  In the Variants section, select the More options icon ![](../../ui-builder/image/three-dot-icon.png) for the Next Experience Landing Page - Admin Role and select **Duplicate**.
+4.  In the Variants section, select the More options icon \[Omitted image "three-dot-icon.png"\] Alt text: for the Next Experience Landing Page - Admin Role and select **Duplicate**.
 
     The main variant of the landing page is read-only. To edit, you work in a copy.
 
-    ![UI Builder Next Experience landing page more options menu with Duplicate highlighted](../image/duplicate-unified-nav-landing.png)
+    \[Omitted image "duplicate-unified-nav-landing.png"\] Alt text: UI Builder Next Experience landing page more options menu with Duplicate highlighted
 
 5.  In the variant creation modal, keep all fields as-is and select **Create**.
 
@@ -45,7 +46,7 @@ The footer is hidden by default. To configure the footer, you enable it in UI Bu
 
     This action enables the landing page footer.
 
-    ![](../image/disable-hideresourcessection-param.png)
+    \[Omitted image "disable-hideresourcessection-param.png"\] Alt text:
 
 8.  Select the **Apply**.
 
@@ -58,5 +59,5 @@ The footer is hidden by default. To configure the footer, you enable it in UI Bu
     For more information, see [Link set UIB Setup](https://developer.servicenow.com/dev.do#!/reference/now-experience/rome/shared-components/now-link-set/uib-setup) in the ServiceNow Developer documentation.
 
 
-**Parent Topic:**[Next Experience landing pages](../concept/next-experience-landing-pages.md)
+**Parent Topic:**[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-pages.md)
 

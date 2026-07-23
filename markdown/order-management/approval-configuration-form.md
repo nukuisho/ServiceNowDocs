@@ -2,6 +2,7 @@
 title: Approval Configuration form
 description: Field descriptions for the Approval Configuration form in Advanced Approval Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/approval-configuration-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,7 +44,7 @@ Allow escalations
 
 </td><td>
 
-Option that turns on escalations for approvals. If you select this option, you must also define escalation details in the appropriate approval rules, including the escalation assignee, length of time allowed for approval completion, and associated Service Level Agreement \(SLA\)\). For information on the escalation details defined in an approval rule, see [Create Approval Rule form](create-approval-rule-form.md).
+Option that turns on escalations for approvals. If you select this option, you must also define escalation details in the appropriate approval rules, including the escalation assignee, length of time allowed for approval completion, and associated Service Level Agreement \(SLA\). For information on the escalation details defined in an approval rule, see [Create Approval Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-rule-form.md).
 
 </td></tr><tr><td>
 
@@ -70,10 +71,10 @@ Reminder schedule
 Option displayed when **Send auto reminders** is enabled. Enter the time \(days, hours, minutes, seconds\) at which approval reminder notifications are sent.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Advanced Approval Management reference](advanced-approval-management-reference.md)
+</table>**Parent Topic:**[Advanced Approval Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/advanced-approval-management-reference.md)
 
 **Related topics**  
 
 
-[Create an approval configuration](../task/create-approval-configuration.md)
+[Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-approval-configuration.md)
 

@@ -2,9 +2,10 @@
 title: Request an extension for a deferred remediation task
 description: As a remediation owner, you’re no longer required to wait until the deferred due date to make this request. Request an extension for a deferred remediation task before it reaches its deferred until due date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-extend-defer-rem.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -81,5 +82,5 @@ Enter any other relevant information.
     -   The Request Extension button is unavailable for remediation tasks that are created as part of an exception rule.
     -   If a deferred remediation task is extended again, the extend deferral count increases in the backend.
 
-**Parent Topic:**[Exception Management Overview](../concept/sem-exception-management-overview.md)
+**Parent Topic:**[Exception Management Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-exception-management-overview.md)
 

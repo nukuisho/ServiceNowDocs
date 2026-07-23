@@ -2,6 +2,7 @@
 title: Modify a shared link access
 description: Modify the document shared link access to make the link inactive or change the expiration date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/modify-access-shared-link.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -34,22 +35,22 @@ Role required: owner or writer
     **Important:** The permalink generated can be accessed publicly irrespective of the document classification.
 
 
-**Parent Topic:**[Document repository](../concept/doc-mgt-view-documents-repo.md)
+**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
 **Related topics**  
 
 
-[Create a document record](create-new-doc.md)
+[Create a document record]()
 
-[Document versions](../concept/document-mgt-versions.md)
+[Document versions]()
 
-[Download a document](downloading-a-document.md)
+[Download a document]()
 
-[Share a document link](share-document-link.md)
+[Share a document link]()
 
-[Configure document permissions](../concept/document-configuration.md)
+[Configure document permissions]()
 
-[Delete a document link](delete-document-link.md)
+[Delete a document link]()
 
-[Delete documents](delete-a-doc.md)
+[Delete documents]()
 

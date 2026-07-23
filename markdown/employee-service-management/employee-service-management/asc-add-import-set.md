@@ -40,6 +40,6 @@ Role required: import\_set\_loader
 
 11. To view the import set, click the import \(ISET\) set number link.
 
-    To view a list of staged alumni, see [Edit staged users for Alumni Center](asc-staged-users.md)
+    To view a list of staged alumni, see [Edit staged users for Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-staged-users.md)
 
 

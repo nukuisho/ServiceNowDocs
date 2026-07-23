@@ -2,6 +2,7 @@
 title: Reassign tasks to a different contact from the Supplier Collaboration Portal
 description: Reassign a task to a different contact in the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/reassign-task-contact.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -38,15 +39,15 @@ The **Reassign** option is displayed only for the following task types:
 
 2.  Do one of the following.
 
-<table><thead><tr><th align="left" id="d156694e110">
+<table><thead><tr><th align="left" id="d94641e110">
 
 To
 
-</th><th align="left" id="d156694e113">
+</th><th align="left" id="d94641e113">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d156694e119">
+</th></tr></thead><tbody><tr><td id="d94641e119">
 
 **Open a task from the portal header**
 
@@ -64,7 +65,7 @@ The Supplier Task List is displayed.
 2.  Select the task that you want to reassign to a different contact.
 
 
-</td></tr><tr><td id="d156694e153">
+</td></tr><tr><td id="d94641e153">
 
 **Open a task from the My active items widget**
 
@@ -72,7 +73,7 @@ The Supplier Task List is displayed.
 
 Select the Tasks tile, which opens the The My To-dos page.
 
-</td></tr><tr><td id="d156694e162">
+</td></tr><tr><td id="d94641e162">
 
 **Open a task from the My tasks widget**
 
@@ -92,18 +93,18 @@ Select the task that you want to reassign to a different contact.
 
 The task is reassigned to the selected contact.
 
-**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](../concept/managing-contacts-scp.md)
+**Parent Topic:**[Managing supplier contacts from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.md)
 
 **Related topics**  
 
 
-[Managing supplier contacts from the Supplier Collaboration Portal](../concept/managing-contacts-scp.md)
+[Managing supplier contacts from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/managing-contacts-scp.md)
 
-[Elevate a contact to the primary contact role from the Supplier Collaboration Portal](elevate-contact-portal.md)
+[Elevate a contact to the primary contact role from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/elevate-contact-portal.md)
 
-[Restrict the primary contact role for a contact from the Supplier Collaboration Portal](restrict-contact-portal.md)
+[Restrict the primary contact role for a contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/restrict-contact-portal.md)
 
-[Update the supplier contact email from the Supplier Collaboration Portal](update-supp-contact-email.md)
+[Update the supplier contact email from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/update-supp-contact-email.md)
 
-[Remove a supplier contact from the Supplier Collaboration Portal](remove-supplier-contact.md)
+[Remove a supplier contact from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/remove-supplier-contact.md)
 

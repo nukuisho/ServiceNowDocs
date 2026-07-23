@@ -2,6 +2,7 @@
 title: Sales Territory Management​
 description: Sales territory management enables you to structure and optimize the sales efforts of your organization based on territories. It focuses on dividing CRM entities, such as accounts, leads, opportunities, and consumers, into manageable segments \(geographical, product, or industry-based\) to promote efficient coverage and accountability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/explore-sales-territory-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -38,11 +39,11 @@ Sales Territory Management​ executes and refines the territory plan so that th
 |Adaptability and scalability|Adapts easily to organizational changes for long-term effectiveness.|
 |Systematically rule-based approach|Offers a structured, rule-based method ideal for managing large sales teams efficiently.|
 
-## Related links
+## What to explore next
 
 The following topics provide more information about configuring and using Sales Territory Management​:
 
--   [Configuring Sales Territory Management​](configure-sales-territory-management.md)
--   [Using Sales Territory Management​](../task/use-sales-territory-management.md)
--   [Components installed with Sales Territory Management​](../reference/components-installed-sales-territory-management.md)
+-   [Configuring Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-territory-management.md)
+-   [Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+-   [Components installed with Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-sales-territory-management.md)
 

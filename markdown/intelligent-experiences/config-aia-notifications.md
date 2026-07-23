@@ -2,6 +2,7 @@
 title: Add recipients to usage spike, execution failure, and latency error email notifications
 description: Add or change recipients to email notifications triggered by unexpected or undesired behavior in AI agent and agentic workflow executions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/config-aia-notifications.html
 release: australia
 topic_type: task
 last_updated: "2025-10-27"
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-There are different email notifications that can be configured: one for Assist usage spikes, one for failed AI agent executions, and two for latency errors. The properties for configuring the thresholds for sending these notifications can be found in the [Now Assist AI Agents Reference](../reference/na-aia-reference.md#agent-properties-table-properties).
+There are different email notifications that can be configured: one for Assist usage spikes, one for failed AI agent executions, and two for latency errors. The properties for configuring the thresholds for sending these notifications can be found in the [Now Assist AI Agents Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-aia-reference.md).
 
 ## Procedure
 

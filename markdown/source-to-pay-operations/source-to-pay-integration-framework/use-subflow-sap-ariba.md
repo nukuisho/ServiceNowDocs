@@ -2,6 +2,7 @@
 title: Use a flow or subflow in SAP Ariba \(Outbound\)
 description: Execute a flow or subflow in SAP Ariba using the Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/use-subflow-sap-ariba.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -25,13 +26,13 @@ Role required: sn\_fcms\_intg.admin, sn\_shop.procurement\_specialist, connectio
 
 2.  From the Workflow Studio home page, select **Flows**.
 
-3.  Select the More icon ![More icon](../../sourcing-procurement-operations/image/more_vertical_icon.png) corresponding to the flow, subflow, or application name, use the filter condition, and select **Apply**.
+3.  Select the More icon \[Omitted image "more\_vertical\_icon.png"\] Alt text: More icon corresponding to the flow, subflow, or application name, use the filter condition, and select **Apply**.
 
 4.  Select the required flow from the list.
 
     For example, select the **Create or Update Sourcing Event in SAP Ariba** flow.
 
-    ![Overview of the Create or Update Sourcing Event in SAP Ariba flow](../../source-to-pay-operations/image/sap-ariba-trigger.png "Create or Update Sourcing Event in SAP Ariba")
+    \[Omitted image "sap-ariba-trigger.png"\] Alt text: Overview of the Create or Update Sourcing Event in SAP Ariba flow
 
 5.  In the Trigger field, specify the condition for the flow to run.
 
@@ -42,12 +43,12 @@ Role required: sn\_fcms\_intg.admin, sn\_shop.procurement\_specialist, connectio
     The flow or subflow gets executed.
 
 
-**Parent Topic:**[Use flows in SAP Ariba](../concept/use-flows-sap-ariba.md)
+**Parent Topic:**[Use flows in SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/use-flows-sap-ariba.md)
 
 **Related topics**  
 
 
-[Manually trigger flows or subflows in SAP Ariba \(Inbound\)](manually-trigger-subflows-sap-ariba.md)
+[Manually trigger flows or subflows in SAP Ariba \(Inbound\)]()
 
-[Copy a flow or subflow in SAP Ariba](copy-subflow-sap-ariba.md)
+[Copy a flow or subflow in SAP Ariba]()
 

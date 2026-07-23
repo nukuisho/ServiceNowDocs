@@ -2,9 +2,10 @@
 title: View upgraded processes or records in the global domain
 description: You can track and review base system records or processes in the global domain that were overridden across one or multiple domains prior to an upgrade and were subsequently updated during a platform or app upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_view-upgraded-overriden-domains.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---

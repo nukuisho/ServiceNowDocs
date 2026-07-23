@@ -2,6 +2,7 @@
 title: Export a snapshot of a configuration item
 description: You can export a snapshot of a configuration item from its timeline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ExportCIHistoryChanges.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ You can export a snapshot of the CI to an XML, PDF \(Portal\), or PDF \(Landscap
 
 4.  Select the bubble representing the time for which you want to export a snapshot of the CI.
 
-5.  Click the export icon \(![export icon](../image/ExportCIHistoryChanges.png)\).
+5.  Click the export icon \(\[Omitted image "ExportCIHistoryChanges.png"\] Alt text: export icon\).
 
 6.  Select the file format to use for the export.
 

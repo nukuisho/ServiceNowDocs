@@ -1,7 +1,8 @@
 ---
-title: Physical Connection Creation subflow
+title: Physical connection creation subflow
 description: The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/physical-connection-creation-subflow.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -11,7 +12,7 @@ reading_time_minutes: 4
 breadcrumb: [Subflows, Reference, Telecommunications Network Inventory]
 ---
 
-# Physical Connection Creation subflow
+# Physical connection creation subflow
 
 The Physical Connection Creation subflow enables you to create a physical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
 
@@ -36,9 +37,9 @@ The following table lists the input fields in the Physical Connection Creation s
 |Bandwidth|Bandwidth of the logical connection.|Reference.Bandwidth|
 |Connection Type|Type of connection. This field information updates the product model that is associated with the physical connection.|Reference.Physical Connection Model|
 |CI Relationship|Type of configuration item \(CI\) relationship. By default, the Logical Creation subflow sets a CI relationship to **Terminated::Terminated by**.|Reference.CI Relationship Type|
-|Physical connection elements|sys\_id of the connection elements that are added for the physical connections. If the physical connection has the Connection Type attribute as Cable, you can add the connection element. Click the add icon \(![Add icon.](../image/add-icon-1.png)\) to add a connection element.|Array.String|
+|Physical connection elements|sys\_id of the connection elements that are added for the physical connections. If the physical connection has the Connection Type attribute as Cable, you can add the connection element. Click the add icon \(\[Omitted image "add-icon-1.png"\] Alt text: Add icon.\) to add a connection element.|Array.String|
 
-To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md).
+To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
 
 ## Output
 
@@ -50,34 +51,34 @@ The following table lists the information about the subflow's output.
 |CI Relationship with Interface Z|Returns the CI relationship with an ending network interface.|Reference.CI Relationship|
 |CI Relationship with Interface A|Returns the CI relationship with a starting network interface.|Reference.CI Relationship|
 
-**Parent Topic:**[Telecommunications Network Inventory subflows](subflow.md)
+**Parent Topic:**[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 
 **Related topics**  
 
 
-[Create Logical Connection with template subflow](create-logical-connection-template-subflow.md)
+[Create Logical Connection with template subflow]()
 
-[Logical Connection Creation subflow](logical-connection-creation-subflow.md)
+[Logical Connection Creation subflow]()
 
-[Design Assign Connection Element Creation subflow](tni-design-assign-connection-element-creation-subflow.md)
+[Design Assign Connection Element Creation subflow]()
 
-[Design Assign Protected Path Assignment subflow](tni-design-assign-protected-path-assignment-subflow.md)
+[Design Assign Protected Path Assignment subflow]()
 
-[Design Assign IP Address Creation subflow](tni-design-assign-ip-address-creation-subflow.md)
+[Design Assign IP Address Creation subflow]()
 
-[Design assign Logical Connection Creation subflow](tni-design-assign-logical-connection-creation-subflow.md)
+[Design assign Logical Connection Creation subflow]()
 
-[Design Assign Number Element Creation subflow](tni-design-assign-number-element-creation-subflow.md)
+[Design Assign Number Element Creation subflow]()
 
-[Design Assign Set Attributes subflow](tni-design-assign-set-attributes-subflow.md)
+[Design Assign Set Attributes subflow]()
 
-[Design Assign Request Details Update subflow](tni-design-assign-request-details-update-subflow.md)
+[Design Assign Request Details Update subflow]()
 
-[Design Assign Connection Element Validation subflow](tni-design-assign-connection-element-validation-subflow.md)
+[Design Assign Connection Element Validation subflow]()
 
-[Design Assign IP Address Validation subflow](tni-design-assign-ip-address-validation-subflow.md)
+[Design Assign IP Address Validation subflow]()
 
-[Design Assign Number Element Validation subflow](tni-design-assign-number-element-validation-subflow.md)
+[Design Assign Number Element Validation subflow]()
 
-[Workflows in Flow Designer](telecommunication-network-inventory-workflows-flow-designer.md)
+[Workflows in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-workflows-flow-designer.md)
 

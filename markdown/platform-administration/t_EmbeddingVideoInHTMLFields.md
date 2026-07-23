@@ -2,10 +2,11 @@
 title: Embed videos in the HTML editor
 description: You can insert videos into HTML fields. You can also add videos to the video library using the HTML Insert/Modify Video form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_EmbeddingVideoInHTMLFields.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-06-02"
+reading_time_minutes: 2
 breadcrumb: [Extended functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -50,9 +51,9 @@ Internet Explorer and Safari have difficulty streaming videos uploaded to the da
 
 1.  Open the form that contains the HTML field.
 
-2.  Click the position where the video is to appear, or to modify an existing video, click the video.
+2.  Select the position where the video is to appear, or to modify an existing video, select the video.
 
-3.  Click the insert/edit video icon \(![Insert or edit video](../image/TinyMCEV4Video.png)\) on the HTML editor toolbar.
+3.  Select the insert/edit video icon \(\[Omitted image "TinyMCEV4Video.png"\] Alt text: Insert or edit video\) on the HTML editor toolbar.
 
 4.  Enter information in each field.
 
@@ -73,7 +74,7 @@ Type
 Select the video type.-   **Video Library**: List of videos stored in the db\_video table. You can reuse it.
 -   **URL**: from an external source
 -   **Attachment**: available in the current record only
- For an attachment or video library file, select a video from the list or click **New**. For an external URL, enter the URL.
+ For an attachment or video library file, select a video from the list or select **New**. For an external URL, enter the URL.
 
 </td></tr><tr><td>
 
@@ -84,6 +85,15 @@ Size
 Enter the **Width** and **Height** of the video in pixels.
 
 </td></tr></tbody>
-</table>5.  Click **OK**.
+</table>5.  Select **OK**.
 
+
+## What to do next
+
+**Note:** You can also add and use an HTML video in portal content, see the following steps for how this works.
+
+1.  Upload a video to db\_video table.
+2.  Create Link content record of type Video with URL with syntax \(Videoname.extension, Example: Escx\_test.mp4\)
+3.  Create the portal video content, choose the newly produced video, and publish it to the desired widget.
+4.  Preview the content you created in the portal widget you published it to.
 

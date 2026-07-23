@@ -2,12 +2,13 @@
 title: CMDB groups
 description: A CMDB group is a collection of CIs that lets you apply CI actions collectively to all the CIs that are members in the group.Depending on the group type, you can populate a CMDB group by manually adding individual CIs, selecting saved CMDB queries, or building encoded queries in the CMDB group itself. The resulting CIs from each query are added as members to the group.Display CI Lifecycle Management operational state and CI actions that apply to the CIs that are members of a CMDB group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -15,7 +16,7 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 A CMDB group is a collection of CIs that lets you apply CI actions collectively to all the CIs that are members in the group.
 
-For example, a CMDB CI Lifecycle Management API can use a CMDB group scriptable API to retrieve the group's list of CIs, and then apply a CI Lifecycle Management action collectively to all the CIs. You can also use a CMDB group with the [Dynamic CI Group](../task/populate-app-service-dynamic-group.md) service population method, to populate an application service.
+For example, a CMDB CI Lifecycle Management API can use a CMDB group scriptable API to retrieve the group's list of CIs, and then apply a CI Lifecycle Management action collectively to all the CIs. You can also use a CMDB group with the [Dynamic CI Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md) service population method, to populate an application service.
 
 ## Group types
 
@@ -35,10 +36,10 @@ You can configure a CMDB group with one of the following group types:
 
     Custom class group which is used as follows:
 
-    -   Appears in the [Management view](cmdb-workspace-mangmnt-view.md) in the [CMDB Workspace store app](cmdb-workspace.md).
-    -   Used in the Search and Explore view in the [Service Graph Workspace store app](sg-workspace.md). When the Service Graph Workspace - Content store app isn't installed, then CMDB group definitions in which type is **CMDB Workspace**, are used to structure the navigation panel in the Explore tab.
+    -   Appears in the [Management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
+    -   Used in the Explore and Search view in the [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md). When the Service Graph Workspace - Content store app isn't installed, then CMDB group definitions in which type is **CMDB Workspace**, are used to structure the navigation panel in the Explore tab.
 
-        For more information, see [Explore and Search view in Service Graph Workspace](sg-workspace-search-explore-view.md).
+        For more information, see [Explore and Search view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md).
 
     Can be populated only by encoded queries.
 
@@ -125,7 +126,7 @@ CI Overview Condition
 
 </td><td>
 
-Filter that is used in the calculation for the CI Overview chart in [CMDB Workspace](cmdb-workspace.md). Applies only if the **sn\_cmdb\_ws.ci\_overview.enable\_simple\_condition** system property is set to **true** \(**false** by default\). Improves performance by yielding less results when there is a large amount of data in an environment that hasn't migrated to CSDM.
+Filter that is used in the calculation for the CI Overview chart in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md). Applies only if the **sn\_cmdb\_ws.ci\_overview.enable\_simple\_condition** system property is set to **true** \(**false** by default\). Improves performance by yielding less results when there is a large amount of data in an environment that hasn't migrated to CSDM.
 
 This condition isn't used when selecting **Show All CI**.
 
@@ -144,6 +145,11 @@ Filters the CIs that are included in the group. Used if **CI Overview Condition*
 ### What to do next
 
 Select **Show All CI** to show all CIs from all the result columns of the query. However, only CIs from CMDB tables are shown.
+
+**Related topics**  
+
+
+[Exploring CMDB Query Builder]()
 
 ## Show CI Lifecycle Management details for CMDB group CIs
 
@@ -172,4 +178,9 @@ If the CMDB group is based on a CMDB query, then the query runs in real-time and
     |Operational Status|CI Lifecycle Management operational state of the CI such as 'Repair in Progress' or 'Operational'. Possible operational states are defined in the choice list of the **Operational status** field in the cmdb\_ci table.|
     |Actions|CI Lifecycle Management actions that apply to the CI such as 'Cloning' and 'Provision'. Possible actions are defined in the CMDB CI Actions \[statemgmt\_cmdb\_actions\] table.|
 
+
+**Related topics**  
+
+
+[CMDB CI Lifecycle Management \(legacy\)]()
 

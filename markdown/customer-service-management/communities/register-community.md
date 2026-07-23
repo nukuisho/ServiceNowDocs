@@ -2,6 +2,7 @@
 title: Self-register to a community
 description: Once you have accessed a public forum and decided to join the community, you can self-register by signing up and accepting the community Terms and Conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/register-community.html
 release: australia
 product: Communities
 classification: communities
@@ -75,38 +76,38 @@ If the community Terms and Conditions are updated, all community users are promp
     4.  Click **User Profile** or **Notification Preferences** to edit your community profile or your notification and subscription settings.
 
 
-**Parent Topic:**[Using communities](../concept/using-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/using-communities.md)
 
 **Related topics**  
 
 
-[Community homepage features for logged in users](../concept/c_communities-service-portal.md)
+[Community homepage features for logged in users]()
 
-[Navigating the activity feed](../concept/navigating-activity-feed.md)
+[Navigating the activity feed]()
 
-[Navigating the forum homepage](../concept/forum-homepage.md)
+[Navigating the forum homepage]()
 
-[Community homepage features for non-logged in users](../concept/community-homepage-non-logged.md)
+[Community homepage features for non-logged in users]()
 
-[Search the community](search.md)
+[Search the community]()
 
-[Use a community profile](community-profile.md)
+[Use a community profile]()
 
-[Community subscriptions](../concept/c_communities-subscriptions.md)
+[Community subscriptions]()
 
-[Request membership to a forum](request-membership-forum.md)
+[Request membership to a forum]()
 
-[Accept an invitation to join a forum](accept-invitation-forum.md)
+[Accept an invitation to join a forum]()
 
-[Post and respond to content in the community](post-respond-content.md)
+[Post and respond to content in the community]()
 
-[Report inappropriate community content](report-content.md)
+[Report inappropriate community content]()
 
-[Add featured content in a community](feature-community-content.md)
+[Add featured content in a community]()
 
-[Email a community user](private-message-community-user.md)
+[Email a community user]()
 
-[View a list of questions and create a case](case-mgmt-integration-view-list.md)
+[View a list of questions and create a case]()
 
-[Gamification](../concept/communities-gamification.md)
+[Gamification]()
 

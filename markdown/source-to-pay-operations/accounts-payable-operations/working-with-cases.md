@@ -1,19 +1,21 @@
 ---
 title: Invoice case categories and subcategories
-description: An agent and Accounts Payable Specialist can access and work on the invoice cases in the Accounts Payable workspace.
+description: Invoice cases are organized into categories and subcategories to help agents and Accounts Payable specialists manage different types of payment and processing issues, with each case type having specific role requirements and workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/working-with-cases.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice management, Accounts Payable Workspace, AP case]
 breadcrumb: [Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice case categories and subcategories
 
-An agent and Accounts Payable Specialist can access and work on the invoice cases in the Accounts Payable workspace.
+Invoice cases are organized into categories and subcategories to help agents and Accounts Payable specialists manage different types of payment and processing issues, with each case type having specific role requirements and workflows.
 
 The following table provides information about the invoice case categories and subcategories, when the cases are created, and which roles can access and work on these cases.
 
@@ -53,7 +55,7 @@ Agent\[sn\_ap\_cm.agent\]
 
 You can view the invoice inquiry cases in the Source-to-Pay Workspace.
 
- For more information, see [Invoice inquiry cases](work-with-inquiry-cases.md).
+ For more information, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
 </td></tr><tr><td>
 
@@ -71,13 +73,13 @@ Accounts Payable Specialist\[sn\_ap\_apm.accounts\_payable\_specialist\]
 
 You can view the manual invoice ingestion cases in the Source-to-Pay Workspace.
 
- For more information, see [Invoice processing cases](working-with-ingestion-cases.md).
+ For more information, see [Invoice processing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.md).
 
 </td></tr></tbody>
 </table>To view the invoice cases, do the following:
 
 1.  Navigate to **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 3.  Do one of the following:
     -   As an Accounts Payable Specialist:
 
@@ -85,9 +87,9 @@ You can view the manual invoice ingestion cases in the Source-to-Pay Workspace.
         -   Navigate to **Lists** &gt; **All Work** &gt; **Cases**.
         Open invoice cases under My work.
 
-        ![Open invoice cases](../image/all-work-invoice-cases.png)
+        \[Omitted image "all-work-invoice-cases.png"\] Alt text: Open invoice cases
 
-        All invoice cases under All work.![All invoice cases](../image/all-work-cases.png)
+        All invoice cases under All work.\[Omitted image "all-work-cases.png"\] Alt text: All invoice cases
 
     -   As an agent, you can view inquiry cases:
         -   Navigate to **Lists** &gt; **My Work** &gt; **Open cases**
@@ -95,35 +97,35 @@ You can view the manual invoice ingestion cases in the Source-to-Pay Workspace.
 
             With Invoice Case Management, agents can manage and work on their assigned invoice cases, request more information from suppliers or employees, and create and assign tasks to users using the Accounts Payable workspace.
 
-            ![AP Agents view inquiry case](../image/ap-agents.png)
+            \[Omitted image "ap-agents.png"\] Alt text: AP Agents view inquiry case
 
 
-**Parent Topic:**[Use Accounts Payable Operations](use-acc-pay-mgmt.md)
+**Parent Topic:**[Accounts Payable Operations overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Create a knowledge base article about invoice](../task/create-knowledge-base-articles-for-invoices.md)
+[Create a knowledge base article about invoice]()
 
-[Using Invoice Case Management](use-invoice-case-mgmt.md)
+[Using Invoice Case Management]()
 
-[Using Accounts Payable Invoice Processing](use-ap-invoice-processing.md)
+[Using Accounts Payable Invoice Processing]()
 
-[Advanced Work Assignment in Accounts Payable Operations](advanced-work-assignment.md)
+[Advanced Work Assignment in Accounts Payable Operations]()
 
-[Configure Advanced Work Assignment for Accounts Payable Operations](../task/configure-advanced-work-assignment-for-apo.md)
+[Configure Advanced Work Assignment for Accounts Payable Operations]()
 
-[Using Advanced Work Assignment for Accounts Payable Operations](using-awa-for-apo.md)
+[Using Advanced Work Assignment for Accounts Payable Operations]()
 
-[Working with Advanced Work Assignment](../task/working-with-advanved-work-assignment.md)
+[Working with Advanced Work Assignment]()
 
-[Interaction management in Accounts Payable Operations](interaction-record.md)
+[Interaction management in Accounts Payable Operations]()
 
-[Composing emails with predefined content from the Source-to-Pay Workspace](email-composer-apm-workspace.md)
+[Composing emails with predefined content from the Source-to-Pay Workspace]()
 
-[Universal Request in Accounts Payable Operations](universal-request-in-apo.md)
+[Universal Request in Accounts Payable Operations]()
 
-[Playbook for updating the invoice primary data](playbooks.md)
+[Playbook for updating the invoice primary data]()
 
-[Using Supplier Collaboration Portal in APO](using-supplier-collaboration-portal.md)
+[Using Supplier Collaboration Portal in APO]()
 

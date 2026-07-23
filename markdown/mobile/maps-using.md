@@ -2,6 +2,7 @@
 title: Using the map screen
 description: Use the map screen to see highlighted locations associated with records. You can switch between the map view and list view to help you understand the information displayed within a map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/maps-using.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,11 +14,11 @@ breadcrumb: [Using the mobile apps, Mobile Platform]
 
 Use the map screen to see highlighted locations associated with records. You can switch between the map view and list view to help you understand the information displayed within a map.
 
-![Map screen with a map view display and a list view display.](../image/map-screen-3-interfaces.png "Map screens showing a map view display and a list view display")
+\[Omitted image "map-screen-3-interfaces.png"\] Alt text: Map screen with a map view display and a list view display.
 
 Map screens help you see location-based information on a map from your mobile app. Points of interest are displayed in a map using pins that are configured by the administrator. These pins represent things like the location of work order tasks or incidents that need addressing. You can switch between a map view and a list view to obtain additional information displayed on a map.
 
-![Map screen with indicators highlighting various items](../image/map-screen-with-indicators.png "Map view with indicators highlighting various items")
+\[Omitted image "map-screen-with-indicators.png"\] Alt text: Map screen with indicators highlighting various items
 
 The table describes the various indicators and icons displayed in a map screen.
 
@@ -31,7 +32,7 @@ Definition
 
 </th></tr></thead><tbody><tr><td>
 
-![Location identifier.](../image/location-icon.png)
+\[Omitted image "location-icon.png"\] Alt text: Location identifier.
 
 </td><td>
 
@@ -39,7 +40,7 @@ My location button. Tap to find your current location on the map.**Note:** You m
 
 </td></tr><tr><td>
 
-![Overview identifier.](../image/overview-icon.png)
+\[Omitted image "overview-icon.png"\] Alt text: Overview identifier.
 
 </td><td>
 
@@ -47,7 +48,7 @@ Overview button. Tap to see a zoomed-out view containing your points of interest
 
 </td></tr><tr><td>
 
-![List button.](../image/list-toggle.png)
+\[Omitted image "list-toggle.png"\] Alt text: List button.
 
 </td><td>
 
@@ -55,7 +56,7 @@ List button displayed in the map view. Tap to display the list view.
 
 </td></tr><tr><td>
 
-![Identification indicator number one.](../image/green-indicator-1.png)
+\[Omitted image "green-indicator-1.png"\] Alt text: Identification indicator number one.
 
 </td><td>
 
@@ -63,7 +64,7 @@ A selected point of interest. In the image, the pin is enlarged because it is se
 
 </td></tr><tr><td>
 
-![Identification indicator number two.](../image/green-indicator-2.png)
+\[Omitted image "green-indicator-2.png"\] Alt text: Identification indicator number two.
 
 </td><td>
 
@@ -73,7 +74,7 @@ Area point of interest. This icon represents a clustering of points of interest 
 
 </td></tr><tr><td>
 
-![Identification indicator number three.](../image/green-indicator-3.png)
+\[Omitted image "green-indicator-3.png"\] Alt text: Identification indicator number three.
 
 </td><td>
 
@@ -81,7 +82,7 @@ Multi-record point of interest. This icon represents many points of interest at 
 
 </td></tr><tr><td>
 
-![Identification indicator number four.](../image/green-indicator-4.png)
+\[Omitted image "green-indicator-4.png"\] Alt text: Identification indicator number four.
 
 </td><td>
 
@@ -89,7 +90,7 @@ A single point of interest that is currently not selected.
 
 </td></tr><tr><td>
 
-![Identification indicator number five.](../image/green-indicator-5.png)
+\[Omitted image "green-indicator-5.png"\] Alt text: Identification indicator number five.
 
 </td><td>
 
@@ -97,12 +98,12 @@ Your current location
 
 </td></tr><tr><td>
 
-![Map button.](../image/map-toggle.png) \(Not shown in the map view image above\)
+\[Omitted image "map-toggle.png"\] Alt text: Map button. \(Not shown in the map view image above\)
 
 </td><td>
 
 Map button displayed in the list view. Tap to display the map view. This button is the only icon displayed in the list view.
 
 </td></tr></tbody>
-</table>![Maps showing aggregated points of interest](../image/maps-aggregated-points-of-interest.png "Maps showing aggregated points of interest")
+</table>\[Omitted image "maps-aggregated-points-of-interest.png"\] Alt text: Maps showing aggregated points of interest
 

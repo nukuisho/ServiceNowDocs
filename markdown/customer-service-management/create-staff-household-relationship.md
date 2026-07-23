@@ -2,6 +2,7 @@
 title: Create a household staff relationship
 description: Create a relationship between a staff member at a business location and a household.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-staff-household-relationship.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

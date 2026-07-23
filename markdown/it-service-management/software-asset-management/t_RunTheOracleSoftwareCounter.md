@@ -2,13 +2,14 @@
 title: Run the Oracle software counter for the legacy Oracle Process Pack
 description: Running the Oracle software counter is a requirement to associate a software installation with an Oracle mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_RunTheOracleSoftwareCounter.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Legacy Oracle process pack, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Legacy Oracle process pack, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Run the Oracle software counter for the legacy Oracle Process Pack
@@ -30,5 +31,5 @@ Role required: sam
     You can view different types of software counter results.
 
 
-**Parent Topic:**[Legacy Oracle process pack](../concept/c_OracleProcessPack.md)
+**Parent Topic:**[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_OracleProcessPack.md)
 

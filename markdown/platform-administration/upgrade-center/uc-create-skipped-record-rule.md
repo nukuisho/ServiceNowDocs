@@ -2,6 +2,7 @@
 title: Create a skipped record rule
 description: Create skipped record rules based on your set conditions to define your customizations after an upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-create-skipped-record-rule.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center
@@ -103,14 +104,14 @@ Add a comment on the conditions being set.
 
 ## What to do next
 
-You can now run the skipped record rules either automatically during an upgrade or can run on demand on the skipped records. See [Execute a skipped record rule](uc-execute-skipped-record-rule.md#) for more information.
+You can now run the skipped record rules either automatically during an upgrade or can run on demand on the skipped records. See [Execute a skipped record rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-execute-skipped-record-rule.md) for more information.
 
-**Parent Topic:**[Administering Upgrade Center](../reference/uc-administration.md)
+**Parent Topic:**[Administering Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-administration.md)
 
 **Related topics**  
 
 
-[Managing upgrade risk](../concept/uc-manage-upgrade-risk.md)
+[Managing upgrade risk]()
 
-[Execute a skipped record rule](uc-execute-skipped-record-rule.md#)
+[Execute a skipped record rule]()
 

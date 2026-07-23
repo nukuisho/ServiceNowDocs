@@ -2,6 +2,7 @@
 title: Migrate existing goals data to Goal Framework
 description: With the admin role, you can migrate the existing goals data to the Goal Framework tables by running the scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/migrate-existing-goals-to-new-data-model.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -84,5 +85,5 @@ migrateStrategyWorkItemRelData
 </table>4.  Select **Execute Now**.
 
 
-**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](create-esg-goal.md)
+**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-goal.md)
 

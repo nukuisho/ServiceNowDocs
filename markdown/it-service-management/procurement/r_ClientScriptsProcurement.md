@@ -2,13 +2,14 @@
 title: Client scripts installed with Procurement
 description: Procurement plugin adds the following client scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/r\_ClientScriptsProcurement.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Components installed with Procurement, Activate Procurement, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Components installed with Procurement, Activate Procurement, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Client scripts installed with Procurement
@@ -52,5 +53,5 @@ Receiving Slip Line \[proc\_rec\_slip\_item\]
 Changes the **Purchase Order Line** field on the Receiving Slip Line form to mandatory if the associated receiving slip has a listed purchase order.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Procurement](r_InstalledWithProcurement.md)
+</table>**Parent Topic:**[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/r_InstalledWithProcurement.md)
 

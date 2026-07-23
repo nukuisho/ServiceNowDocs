@@ -2,6 +2,7 @@
 title: View supplier payment information from the Supplier Collaboration Portal
 description: As a supplier contact, view the payment information of a supplier in the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/view-bank-info-supp-central.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -31,7 +32,7 @@ Role required: sn\_slm.contact
 
     -   The list of suppliers under **My Company** is available from the Xanadu December 2024 release onwards.
     -   If M2M mapping between supplier contact and suppliers is enabled, you can select the supplier from the **My Company** drop-down list of suppliers.
-3.  Navigate to the **Payment Information** section on the Company Profile page.![Payment Information section on the Company Profile page.](../image/supplier-payment-information-supplier-collaboration-portal.png)
+3.  Navigate to the **Payment Information** section on the Company Profile page.\[Omitted image "supplier-payment-information-supplier-collaboration-portal.png"\] Alt text: Payment Information section on the Company Profile page.
 
 
 ## Result
@@ -41,36 +42,36 @@ The Payment Information section displays the details about your banks. You can d
 -   Select the link to a bank name to view its details.
 -   To view a list of all of your payment information on the Payment Information page, select **View all**.
 
-**Parent Topic:**[Using Supplier Collaboration Portal](../concept/use-supp-central.md)
+**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 
 **Related topics**  
 
 
-[Invite a member to access the Supplier Collaboration Portal](invite-member-supp-portal.md)
+[Invite a member to access the Supplier Collaboration Portal]()
 
-[Supplier contact self-registration](../concept/supp-contact-self-reg.md)
+[Supplier contact self-registration]()
 
-[Managing supplier contacts from the Supplier Collaboration Portal](../concept/managing-contacts-scp.md)
+[Managing supplier contacts from the Supplier Collaboration Portal]()
 
-[Raising requests from the Supplier Collaboration Portal](../concept/supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal]()
 
-[Viewing supplier contact tasks from the Supplier Collaboration Portal](../concept/my-to-dos.md)
+[Viewing supplier contact tasks from the Supplier Collaboration Portal]()
 
-[View or update your user profile from the Supplier Collaboration Portal](view-update-supp-profile.md)
+[View or update your user profile from the Supplier Collaboration Portal]()
 
-[View all your requests from the Supplier Collaboration Portal](view-supp-case-sc.md)
+[View all your requests from the Supplier Collaboration Portal]()
 
-[View supplier locations from the Supplier Collaboration Portal](view-supp-loc-supp-central.md)
+[View supplier locations from the Supplier Collaboration Portal]()
 
-[Start a chat session from the Supplier Collaboration Portal](start-chat-portal.md)
+[Start a chat session from the Supplier Collaboration Portal]()
 
-[Manage documents from the Supplier Collaboration Portal](upload-doc-portal.md)
+[Manage documents from the Supplier Collaboration Portal]()
 
-[Complete a risk assessment from the Supplier Collaboration Portal](complete-risk-assessments.md)
+[Complete a risk assessment from the Supplier Collaboration Portal]()
 
-[Create a Universal Request from the Supplier Collaboration Portal](../concept/create-universal-request.md)
+[Create a Universal Request from the Supplier Collaboration Portal]()
 
-[Raising requests from the Supplier Collaboration Portal](../concept/supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supp-catalog-req.md)
 
-[View all your requests from the Supplier Collaboration Portal](view-supp-case-sc.md)
+[View all your requests from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/view-supp-case-sc.md)
 

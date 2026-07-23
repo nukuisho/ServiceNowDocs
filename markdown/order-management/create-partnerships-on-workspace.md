@@ -2,11 +2,12 @@
 title: Create Partnerships on the CSM Configurable Workspace
 description: With the Partner Relationship Management application, you can establish a relationship between channel partners and partner programs on the workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-partnerships-on-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
-breadcrumb: [Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [PRM in CSM workspace, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Create Partnerships on the CSM Configurable Workspace
@@ -19,7 +20,7 @@ Role required: sn\_prm.enterprise\_partner\_admin
 
 ## Procedure
 
-1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list ![](../../tmt-assurance-workflows/image/lists_icon-proactive.png) view.
+1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list \[Omitted image "lists\_icon-proactive.png"\] Alt text: view.
 
 2.  Select **Partnerships** from Partner Relationship Management.
 
@@ -27,10 +28,17 @@ Role required: sn\_prm.enterprise\_partner\_admin
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields on the Partnership form, see [Partner program relationship table fields](../reference/partner-program-relationship-table-fields.md).
+    To learn more about the fields on the Partnership form, see [Partner program relationship table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-program-relationship-table-fields.md).
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Partner Workspace](../concept/partner-workspace.md)
+**Parent Topic:**[Partner Relationship Management in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-workspace.md)
+
+**Related topics**  
+
+
+[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management.md)
+
+[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-partner-relationship-management.md)
 

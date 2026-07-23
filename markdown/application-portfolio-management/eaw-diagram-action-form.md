@@ -2,6 +2,7 @@
 title: Create diagram action form
 description: The diagram action form helps you to create action for a custom shape that can be used in the Enterprise Modeling and Visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-diagram-action-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -69,8 +70,9 @@ Node type
 
 </td><td>
 
-Select either of the following options as a node type: -   Image node container
--   Image node container with connectors
+Select the node type that defines how the shape behaves on the canvas: -   **Image node container** — Use for standalone visual shapes with no entity data.
+-   **Image node container with connectors** — Use for standalone visual shapes that support connector lines.
+-   **CI Item** — Use when you want the shape to display a properties side panel showing data from a platform entity. Requires an entity configuration to be mapped to the shape library element.
 
 </td></tr><tr><td>
 
@@ -105,10 +107,10 @@ Icon
 Enter name of the icon for which you want to associate the diagram action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Create a diagram action for a custom shape](../../task/eaw-task/eaw-modeling-action-custom-shape.md)
+[Create a diagram action for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-action-custom-shape.md)
 

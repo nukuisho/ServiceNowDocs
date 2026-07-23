@@ -2,6 +2,7 @@
 title: Configure trend for a native Data snapshots indicator in KPI Details
 description: Select a calendar and period by which to aggregate scores on the chart. You can also choose whether to include scores from incomplete periods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-trend-ds-indicator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,15 +20,15 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 ## About this task
 
-**Important:** Only native Data snapshots indicators have this feature. Classic indicators, including ones with Data snapshots enabled, have a time aggregation instead. For more information, see [Select time aggregation in KPI Details](select-time-series-aggregation.md).
+**Important:** Only native Data snapshots indicators have this feature. Classic indicators, including ones with Data snapshots enabled, have a time aggregation instead. For more information, see [Select time aggregation in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-time-series-aggregation.md).
 
 ## Procedure
 
-1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](../../performance-analytics/task/view-kpi-details.md).
+1.  Open KPI Details for a native Data snapshots indicator, as described in [View KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/view-kpi-details.md).
 
 2.  Expand the Trend by menu, which has a label matching the currently selected aggregation period.
 
-    ![The control for expanding the trend by menu](../image/kpid-open-trend-by.png)
+    \[Omitted image "kpid-open-trend-by.png"\] Alt text: The control for expanding the trend by menu
 
 3.  Note the read-only **Date field**.
 
@@ -50,24 +51,24 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 7.  Press **Apply**.
 
 
-**Parent Topic:**[Examining indicators with KPI Details](../reference/kpi-details-components.md)
+**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
 
 **Related topics**  
 
 
-[View contributing indicators to a formula in KPI Details](../concept/view-formula-components.md)
+[View contributing indicators to a formula in KPI Details]()
 
-[Show, compare, create, and edit records in KPI Details](../concept/show-compare-edit-records.md#)
+[Show, compare, create, and edit records in KPI Details]()
 
-[Chart options in KPI Details](../reference/chart-options.md)
+[Chart options in KPI Details]()
 
-[Select time aggregation in KPI Details](select-time-series-aggregation.md)
+[Select time aggregation in KPI Details]()
 
-[Configure display properties for a Data snapshots indicator](configure-display-properties-ds-indicator.md)
+[Configure display properties for a Data snapshots indicator]()
 
-[Filter indicator scores by breakdown elements in KPI Details](apply-brkdowns-element-kpi-details.md#)
+[Filter indicator scores by breakdown elements in KPI Details]()
 
-[Filter native Data snapshots indicator scores in KPI Details](filter-data-snapshots-indicator-scores.md)
+[Filter native Data snapshots indicator scores in KPI Details]()
 
-[Access indicator record or scoresheet from KPI Details](access-indicator-record-scoresheet.md)
+[Access indicator record or scoresheet from KPI Details]()
 

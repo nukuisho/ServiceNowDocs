@@ -2,6 +2,7 @@
 title: Call a workflow flow logic
 description: Run a published and active workflow from your flow. You can use the flow data as a workflow input. For example, you can specify the current record as a workflow input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-call-workflow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -68,11 +69,11 @@ The flow execution details only display workflow output values that are generate
 
 In this example, the flow calls the **Routine Change** workflow. The **Wait?** option is checked, so the flow pauses until this workflow completes. The **Current** field is filled using a data pill representing the record that triggered this flow.
 
-![Call a workflow logic configured to call the Routine Change workflow and wait for it to complete.](../images/example-call-workflow.png)
+\[Omitted image "example-call-workflow.png"\] Alt text: Call a workflow logic configured to call the Routine Change workflow and wait for it to complete.
 
 ## Execution details
 
-![Example Flow execution details page of a flow including a Call a Workflow flow logic.](../images/ex-details-call-flow.png "Call Workflow execution details")
+\[Omitted image "ex-details-call-flow.png"\] Alt text: Example Flow execution details page of a flow including a Call a Workflow flow logic.
 
 1.  The header displays a link so that you can view the workflow progress in the Workflow Editor, the flow logic state, the start time, and the runtime duration.
 2.  The **Workflow Configuration** section displays how the flow logic was configured for this flow and the runtime values that were generated.
@@ -80,40 +81,40 @@ In this example, the flow calls the **Routine Change** workflow. The **Wait?** o
 
 **Note:** If you cancel the workflow or delete the context record prior to the workflow finishing, the flow logic state is set to **Complete**.
 
-**Parent Topic:**[Workflow Studio flow logic](flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 
 
-[Append to Flow Variables flow logic](../reference/append-to-flow-variables-flow-logic.md)
+[Append to Flow Variables flow logic]()
 
-[Assign subflow outputs flow logic](flow-logic-assign-subflow-outputs.md)
+[Assign subflow outputs flow logic]()
 
-[Do the following until flow logic](flow-logic-do-until.md)
+[Do the following until flow logic]()
 
-[Do the following in parallel flow logic](flow-logic-do-following-in-parallel.md)
+[Do the following in parallel flow logic]()
 
-[Dynamic flows flow logic](flow-logic-dynamic-flow.md)
+[Dynamic flows flow logic]()
 
-[End Flow flow logic](flow-logic-end-action.md)
+[End Flow flow logic]()
 
-[Exit Loop flow logic](../reference/exit-loop-flow-logic.md)
+[Exit Loop flow logic]()
 
-[For Each flow logic](flow-logic-for-each.md)
+[For Each flow logic]()
 
-[Get Flow Outputs flow logic](../reference/get-flow-outputs-flow-logic.md)
+[Get Flow Outputs flow logic]()
 
-[Go back to flow logic](../reference/go-back-to-flow-logic.md)
+[Go back to flow logic]()
 
-[If flow logic](flow-logic-if.md)
+[If flow logic]()
 
-[Make a decision flow logic](flow-logic-make-decision.md)
+[Make a decision flow logic]()
 
-[Set Flow Variables flow logic](flow-logic-set-flow-variables.md)
+[Set Flow Variables flow logic]()
 
-[Skip Iteration flow logic](../reference/skip-iteration-flow-logic.md)
+[Skip Iteration flow logic]()
 
-[Try flow logic](flow-logic-try.md)
+[Try flow logic]()
 
-[Wait for a duration flow logic](flow-logic-wait-for-a-duration.md)
+[Wait for a duration flow logic]()
 

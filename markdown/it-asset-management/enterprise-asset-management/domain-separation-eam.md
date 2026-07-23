@@ -2,13 +2,14 @@
 title: Domain separation and Enterprise Asset Management
 description: Domain separation is supported in Enterprise Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/domain-separation-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Domain separation and Enterprise Asset Management
@@ -51,50 +52,50 @@ The [Recommended practice](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 To learn more, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md), [Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-contains-domain-visibility.md), and [Importance of Default domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-default-domain.md).
 
-**Parent Topic:**[Enterprise Asset Management reference](reference-enterprise-asset-management.md)
+**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 
 
-[Enterprise Asset Management roles](../reference/eam-roles.md)
+[Components installed with Enterprise Asset Management]()
 
-[OT Asset Workspace roles](../reference/ot-workspace-roles.md)
+[OT Asset Workspace roles]()
 
-[Asset fields for enterprise assets](../reference/asset-fields-eam.md)
+[Asset fields for enterprise assets]()
 
-[Asset audit fields for enterprise assets](../reference/asset-audit-record-fields-eam.md)
+[Asset audit fields for enterprise assets]()
 
-[Audit results](../reference/audit-results-eam.md)
+[Audit results]()
 
-[Enterprise model categories and corresponding classes](../reference/enterprise-model-categories.md)
+[Enterprise model categories and corresponding classes]()
 
-[Mandatory fields in the bulk import spreadsheets](../reference/mandatory-bulk-fields.md)
+[Mandatory fields in the bulk import spreadsheets]()
 
-[Normalization status for enterprise models](../reference/norm-status-eam.md)
+[Normalization status for enterprise models]()
 
-[Model fields for Enterprise Asset Management](../reference/eam-model-fields.md)
+[Model fields for Enterprise Asset Management]()
 
-[Contract fields for Enterprise Asset Management](../reference/contract-fields-eam.md)
+[Contract fields for Enterprise Asset Management]()
 
-[Maintenance plan fields for Enterprise Asset Management](../reference/maintenance-plan-fields-eam.md)
+[Maintenance plan fields for Enterprise Asset Management]()
 
-[Maintenance schedule fields for Enterprise Asset Management](../reference/maintenance-schedule-fields-eam.md)
+[Maintenance schedule fields for Enterprise Asset Management]()
 
-[Work plan fields for Enterprise Asset Management](../reference/wp-fields-eam.md)
+[Work plan fields for Enterprise Asset Management]()
 
-[Work plan schedule fields for Enterprise Asset Management](../reference/work-plan-schedule-fields-eam.md)
+[Work plan schedule fields for Enterprise Asset Management]()
 
-[Expense line fields for Enterprise Asset Management](../reference/expense-line-fields-eam.md)
+[Expense line fields for Enterprise Asset Management]()
 
-[Fields inherited from a parent asset group to a sub group](../reference/subgroups-parent-fields-eam.md)
+[Fields inherited from a parent asset group to a sub group]()
 
-[Enterprise asset disposal order stages](../reference/eamasset-disposalorder-stages.md)
+[Enterprise asset disposal order stages]()
 
-[Terminology for linear assets](../reference/terms-eam.md)
+[Terminology for linear assets]()
 
-[Scheduled jobs and tables installed with normalization of firmware models](../reference/firmware-tables-jobs-ot.md)
+[Scheduled jobs and tables installed with normalization of firmware models]()
 
-[Asset put away task fields](../reference/put-away-task-form-eam.md)
+[Asset put away task fields]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

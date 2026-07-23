@@ -2,6 +2,7 @@
 title: Security Incident Playbook
 description: Invoke the security incident playbook flow automatically or manually.Use this section to add playbook manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-playbook.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -28,7 +29,7 @@ For a Playbook to be invoked automatically, a process needs to be defined using 
 
 ## Add playbook manually
 
-For a Playbook to be invoked manually, navigate to the Form UI action drop down and select **Add Playbook**. For more information see, [Add Playbook](security-incident-playbook.md#)
+For a Playbook to be invoked manually, navigate to the Form UI action drop down and select **Add Playbook**. For more information see, [Add Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-playbook.md)
 
 **Note:** If there is already a playbook available then the new playbooks added will run in parallel to the existing playbooks.
 
@@ -42,60 +43,57 @@ For a Playbook to be invoked manually, navigate to the Form UI action drop down 
 1.  Navigate to **All** &gt; **Playbook Experiences**.
 2.  In the Playbook Experiences page, select an **SIR Playbook Experience**.
 
-    ![The Security Incident Playbook experience](../image/playbook-experience.png "Playbook Experience")
+    \[Omitted image "playbook-experience.png"\] Alt text: The Security Incident Playbook experience
 
     The **Playbook Experience SIR Playbook Experience** page is displayed.
 
-    ![Editing the SIR Playbook Experience record](../image/playbook-expereince-record.png "Playbook Experience Record")
+    \[Omitted image "playbook-expereince-record.png"\] Alt text: Editing the SIR Playbook Experience record
 
-3.  Click on the **Configuration** record.
+3.  Select the **Configuration** record.
+4.  In the Configuration tab, select the SIR Playbook Experience Configuration.
 
-    ![Playbook configuration record](../image/playbook-expereince-config-record.png)
-
-4.  In the Configuration tab, click the SIR Playbook Experience Configuration.
-
-    ![Edit the Playbook Configuration](../image/playbook-config-record.png "Playbook Configuration")
+    \[Omitted image "playbook-config-record.png"\] Alt text: Edit the Playbook Configuration
 
 5.  Navigate to the **Pending Item Visibility** field's drop down list, select the desired option and save the record. Choose from the following options:
     -   **Hide pending activities**: Select this option to hide the pending activities that you would like to see on the playbook section of the workspace.
 
-        ![Hide pending activities in Phishing Manual playbook.](../image/playbook-hide-pending-activities.png "User Reported Phishing Example")
+        \[Omitted image "playbook-hide-pending-activities.png"\] Alt text: Hide pending activities in Phishing Manual playbook.
 
     -   **Show pending stages and activities**: Select this option to show pending stages and activities that you would to like to see on the playbook section of the workspace.
 
-        ![Show pending stages and activities in Phishing Manual playbook](../image/playbook-show-pending-stages.png "Show pending stages and activities")
+        \[Omitted image "playbook-show-pending-stages.png"\] Alt text: Show pending stages and activities in Phishing Manual playbook
 
     -   **Hide pending activities and stages**: Select this option to hide pending activities and stages,that you would like to see on the playbook section of the workspace.
 
-        ![Hide pending activities and stages in Phishing Manual playbook](../image/playbook-hide-pending-activities-stages.png "Hide pending activities and stages")
+        \[Omitted image "playbook-hide-pending-activities-stages.png"\] Alt text: Hide pending activities and stages in Phishing Manual playbook
 
 6.  On the Playbook section, use the filter option to filter the activities by Playbook card status \(activity definition\).
 
-    ![Playbook card status](../image/playbook-card-status-filters.png "Playbook card status")
+    \[Omitted image "playbook-card-status-filters.png"\] Alt text: Playbook card status
 
 
-**Parent Topic:**[Using SIR Workspace](../reference/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 
 
-[Working with Security Incident Records](using-analyst-workspace.md)
+[Working with Security Incident Records]()
 
-[Prerequisites for the Playbooks](../../playbook-migration-guide/concept/getting-started-with-processes.md)
+[Prerequisites for the Playbooks]()
 
-[Rebuilding existing playbooks in Workflow Studio](../../playbook-migration-guide/concept/rebuilding-existing-playbooks-on-pad.md)
+[Rebuilding existing playbooks in Workflow Studio]()
 
-[Activity Definitions](../../playbook-migration-guide/concept/build-activities.md)
+[Activity Definitions]()
 
-[Sample Playbooks for SIR Workspace](../../playbook-migration-guide/concept/sir-workspace-playbooks.md)
+[Sample Playbooks for SIR Workspace]()
 
-[Working with MSI Records](working-with-msi-records.md)
+[Working with MSI Records]()
 
-[Working with Form UI actions](enable_workspace_form_ui_actions.md)
+[Working with Form UI actions]()
 
-[Security Incident Closure workflow](security-incident-closure-workflow_0.md)
+[Security Incident Closure workflow]()
 
-[Handle security incidents using Advanced Work Assignment](../task/handle-incidents-using-awa.md)
+[Handle security incidents using Advanced Work Assignment]()
 
 ## Add Playbook
 
@@ -111,31 +109,31 @@ Role required: sn\_si.analyst
 
 2.  Open an incident record.
 
-3.  Click **Add Playbook**.
+3.  Select **Add Playbook**.
 
-    ![Add a playbook manually](../image/manually-invoke-playbook.png)
+    \[Omitted image "manually-invoke-playbook.png"\] Alt text: Add a playbook manually
 
     The **Add Playbook** dialogue box is displayed.
 
-    ![Add playbook](../image/manually-invoke-playbook1.png)
+    \[Omitted image "manually-invoke-playbook1.png"\] Alt text: Add playbook
 
 4.  Select the playbook template.
 
-5.  Click **Add Playbook**.
+5.  Select **Add Playbook**.
 
     A confirmation message dialogue box is displayed for you to confirm.
 
-6.  Click **Add Anyway**.
+6.  Select **Add Anyway**.
 
-    ![Confirmation message](../image/addanyway-button.png)
+    \[Omitted image "addanyway-button.png"\] Alt text: Confirmation message
 
 7.  The **Playbook** gets added next to the **Details** tab.
 
-    ![Playbook confirmation message](../image/playbook-attached.png)
+    \[Omitted image "playbook-attached.png"\] Alt text: Playbook confirmation message
 
-8.  Click the **Playbook** tab.
+8.  Select the **Playbook** tab.
 
-    ![Playbook activities](../image/playbook-tasks.png)
+    \[Omitted image "playbook-tasks.png"\] Alt text: Playbook activities
 
 9.  Perform the series of activities as listed to move to the next level.
 

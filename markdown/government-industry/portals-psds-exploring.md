@@ -2,6 +2,7 @@
 title: Self-service Portals for Public Sector Digital Services
 description: A portal provides an end user, in this case a constituent or applicant, with step-by-step guidance through submitting a public service request case. Use Portals to submit requests for licenses and permits, government records and public information, non-emergency services, or to submit applications for social benefits or grants opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/portals-psds-exploring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Explore, Public Sector Digital Services \(PSDS\)]
 
 A portal provides an end user, in this case a constituent or applicant, with step-by-step guidance through submitting a public service request case. Use Portals to submit requests for licenses and permits, government records and public information, non-emergency services, or to submit applications for social benefits or grants opportunities.
 
-![Grants Management Portal homepage](../image/psds_gmportal.png)
+\[Omitted image "psds\_gmportal.png"\] Alt text: Grants Management Portal homepage
 
 With the Public Sector Digital Services application, you can provide service for your constituents through web applications that hosts self-service capabilities like knowledge articles, community forums, service catalogs, case management, and chat.
 
@@ -40,7 +41,7 @@ Guided intake with playbooks on service portals makes it effortless to fill out 
 
 This example shows the Playbooks on portal experience for applicants using the Grants Proposal Intake Playbook on the Grants Management Portal.
 
-![Playbooks on portal experience as shown in Grants Proposal Intake Playbook on the Grants Management Portal.](../image/psds_exploring_portals.png)
+\[Omitted image "psds\_exploring\_portals.png"\] Alt text: Playbooks on portal experience as shown in Grants Proposal Intake Playbook on the Grants Management Portal.
 
 With Playbooks for Portals, you get a guided interface where you can take prompt actions on the pending tasks and activities that are related to your cases. You get the following key benefits using Playbooks for Portals:
 
@@ -69,7 +70,7 @@ The following playbooks on service portal experiences are available for constitu
 
 With the Engagement Messenger web application, constituents can access the information or services they need from your third-party web applications, even if they’re located outside of the ServiceNow environment.
 
-To learn more about Engagement Messenger, see [Configure Engagement Messenger for Playbooks](../task/psds-configure-engagement-messenger.md#).
+To learn more about Engagement Messenger, see [Configure Engagement Messenger for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-configure-engagement-messenger.md).
 
 ## Service catalog
 

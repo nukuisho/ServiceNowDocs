@@ -2,6 +2,7 @@
 title: Advanced Risk Assessments in the Risk Workspace
 description: The Risk Workspace offers an enhanced and a simplified user experience for users to perform Advanced Risk Assessments. You can quickly access the risk assessments assigned to you or your group from the GRC Risk Portal or the Risk Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/ara-in-ws.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -15,13 +16,13 @@ breadcrumb: [GRC Risk Workspace, Explore, Risk Management, Governance, Risk, and
 
 The Risk Workspace offers an enhanced and a simplified user experience for users to perform Advanced Risk Assessments. You can quickly access the risk assessments assigned to you or your group from the GRC Risk Portal or the Risk Workspace.
 
-With the new Risk Workspace, your risk assessments are more intuitive with more data readily available for you to refer for every assessment that you perform in the risk assessment instance. As an operational risk manager, when you use Advanced Risk Assessments, on the Home page, in the **Risk Summary** field,you have a filter available to select your risk assessment methodology. For example, you can select the risk assessment methodology that shows you the operational risks assessed. For more information on risk assessment methodologies, see [Advanced Risk Assessment](../../grc-risk/concept/advanced-risk-assessment.md).
+With the new Risk Workspace, your risk assessments are more intuitive with more data readily available for you to refer for every assessment that you perform in the risk assessment instance. As an operational risk manager, when you use Advanced Risk Assessments, on the Home page, in the **Risk Summary** field,you have a filter available to select your risk assessment methodology. For example, you can select the risk assessment methodology that shows you the operational risks assessed. For more information on risk assessment methodologies, see [Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md).
 
 For a new user to understand risk assessments, a Contextual side panel is provided with an explanation about the assessment sections. While a default explanation and a brief training are provided, you can also configure the system to show your training content related to risk assessments. If you do not want to keep the side panel training information open, you can also close it using the information icon.
 
 At a glance, the risk assessment home page shows you the entity being assessed, the due date for the assessment, the person the assessment is assigned to, the approver, and the risk description. The home page also shows the results of the risk assessment and the selected risk response strategies.
 
-![Risk assessment home page](../image/risk-assessment-approval.png "Risk assessment home page")
+\[Omitted image "risk-assessment-approval.png"\] Alt text: Risk assessment home page
 
 Some of the major enhancements for Advanced Risk Assessments in the Risk Workspace are as follows:
 
@@ -34,11 +35,11 @@ The Contextual side panel shows the reference information for associated risks a
 -   Percentage of control indicator failure graph. When performing a control assessment, you can refer to the control test results, indicator failures, and so on
 -   Number of open issues with their severity. You can also create issues by clicking the plus icon.
 
-![Additional information for Advanced Risk Assessment.](../image/reference-side-bar.jpg "Reference information for Advanced Risk Assessment")
+\[Omitted image "reference-side-bar.jpg"\] Alt text: Additional information for Advanced Risk Assessment.
 
 ## View factor guidance
 
-In the workspace, while responding to factors, you can quickly view the guidance by clicking the Show guidance icon ![Show guidance.](../image/show-guidance.jpg). This ability saves your time as you can view the guidance and understand the factor while responding.
+In the workspace, while responding to factors, you can quickly view the guidance by clicking the Show guidance icon \[Omitted image "show-guidance.jpg"\] Alt text: Show guidance.. This ability saves your time as you can view the guidance and understand the factor while responding.
 
 ## Reassign assessments
 
@@ -48,10 +49,10 @@ If you are assigned a risk assessment that must be assessed by another user, you
 
 As a first line risk assessor, you may need to view the qualitative weight, the qualitative score, and the quantitative score of a factor. You can easily access this information by clicking **Overall rating**.
 
-**Parent Topic:**[GRC Risk Workspace](risk-workspace.md)
+**Parent Topic:**[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)
 
 **Related topics**  
 
 
-[Perform advanced risk assessment in the Risk Workspace](../task/perform-ara-workspace.md)
+[Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md)
 

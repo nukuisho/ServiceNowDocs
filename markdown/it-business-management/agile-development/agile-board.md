@@ -2,6 +2,7 @@
 title: Agile board in Agile Development 2.0
 description: The Agile board is a landing page where you can perform key actions of the scrum process such as managing your backlogs, planning your sprints, and tracking the sprint progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-board.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -34,13 +35,13 @@ The Backlog tab helps you manage your personalized backlogs. Within the Backlog 
 
     -   The epics for the stories from your backlog are listed in this section.
     -   Epic completion is indicated by a progress bar and percentage.
-    -   You can show or hide this section by selecting the configuration icon \(![Configuration icon.](../../agile-development/image/config-icon.png)\).
--   Personalize columns by using the personalize icon \(![Update Personalized List icon.](../../application-portfolio-management/image/personalisecolumns.png)\).
+    -   You can show or hide this section by selecting the configuration icon \(\[Omitted image "config-icon.png"\] Alt text: Configuration icon.\).
+-   Personalize columns by using the personalize icon \(\[Omitted image "personalisecolumns.png"\] Alt text: Update Personalized List icon.\).
 -   Use the search option to filter stories using a keyword.
 
-For more information on how to manage your backlog, see [Manage your product backlog in Agile Development 2.0](../task/manage-maintain-backlog.md).
+For more information on how to manage your backlog, see [Manage your product backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/manage-maintain-backlog.md).
 
-![Backlog tab on Agile Board.](../image/backlogplanningscreen.png "Backlog tab on Agile Board")
+\[Omitted image "backlogplanningscreen.png"\] Alt text: Backlog tab on Agile Board.
 
 ## Sprint Planning
 
@@ -55,7 +56,7 @@ From the Sprint Planning tab, you can:
 -   Add stories to the backlog and set up their order of implementation.
 -   Move unfinished stories from the completed sprint to the backlog or to a future sprint.
 
-![Sprint Planning tab of Agile Board.](../image/sprintplanningscreen.png "Sprint Planning tab on Agile Board")
+\[Omitted image "sprintplanningscreen.png"\] Alt text: Sprint Planning tab of Agile Board.
 
 ## Sprint Tracking
 
@@ -66,9 +67,9 @@ From the Sprint Tracking tab, you can track the progress of your current sprint 
     -   Track all the stories of the current sprint across lanes.
     -   Move a story from one lane to another, which updates the state of the story.
     -   Filter stories by search criteria.
-    For more information, see [Track progress of stories for a sprint in Agile Development 2.0](../task/agile-sprint-story-board.md).
+    For more information, see [Track progress of stories for a sprint in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-sprint-story-board.md).
 
-    ![Sprint Tracking in the Story board view.](../image/sprinttrackingboard.png "Sprint Tracking in the Story board view")
+    \[Omitted image "sprinttrackingboard.png"\] Alt text: Sprint Tracking in the Story board view.
 
 -   **Task board**
 
@@ -76,9 +77,9 @@ From the Sprint Tracking tab, you can track the progress of your current sprint 
 
     -   Move scrum tasks from one lane to another, which updates the state of the stories.
     -   Filter scrum tasks by search criteria.
-    For more information on tracking your scrum tasks using the board view, see [Track progress of scrum tasks for a sprint in Agile Development 2.0](../task/agile-sprint-board.md).
+    For more information on tracking your scrum tasks using the board view, see [Track progress of scrum tasks for a sprint in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-sprint-board.md).
 
-    ![Sprint Tracking in the Task board view.](../image/taskboard-agile.png "Sprint Tracking in the Task board view")
+    \[Omitted image "taskboard-agile.png"\] Alt text: Sprint Tracking in the Task board view.
 
 -   **List**
 
@@ -88,15 +89,15 @@ From the Sprint Tracking tab, you can track the progress of your current sprint 
     -   View the state, short description, and assignee of the scrum task.
     -   View the short description and result of a test.
     -   Assess scrum tasks and tests that are still pending before the current sprint is closed.
-    For more information on tracking a sprint's progress using the List view, see [Track sprint progress in Agile Development 2.0](../task/sprint-tracking-list.md).
+    For more information on tracking a sprint's progress using the List view, see [Track sprint progress in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/sprint-tracking-list.md).
 
-    ![Sprint Tracking in the List view.](../image/sprinttrackinglist.png "Sprint Tracking in the List view")
+    \[Omitted image "sprinttrackinglist.png"\] Alt text: Sprint Tracking in the List view.
 
 
-**Parent Topic:**[Exploring Agile Development 2.0](../../agile-development/concept/exploring-agile-development-2.md)
+**Parent Topic:**[Exploring Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/exploring-agile-development-2.md)
 
 **Related topics**  
 
 
-[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
+[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_VisualTaskBoards.md)
 

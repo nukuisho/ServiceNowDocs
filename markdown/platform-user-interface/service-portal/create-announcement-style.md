@@ -2,6 +2,7 @@
 title: Create an announcement display style
 description: Define the background color, foreground color, and text alignment of an announcement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/create-announcement-style.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -89,14 +90,14 @@ Text alignment. Options include:-   Left align
 
 ## Result
 
-By default, the announcement appears in both the portal banner and the Announcements widget, but only the banner uses your new display style. You can configure the widget to use the display style also. For more information, see the instance options in [Announcements widget](../concept/announcements-widget.md).
+By default, the announcement appears in both the portal banner and the Announcements widget, but only the banner uses your new display style. You can configure the widget to use the display style also. For more information, see the instance options in [Announcements widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/announcements-widget.md).
 
-**Parent Topic:**[Posting announcements to portal users](../concept/announcements.md)
+**Parent Topic:**[Posting announcements to portal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/announcements.md)
 
 **Related topics**  
 
 
-[Create an announcement](create-announcement.md)
+[Create an announcement]()
 
-[Create an announcement type](add-announcement-type.md)
+[Create an announcement type]()
 

@@ -2,9 +2,10 @@
 title: Deal registration table fields
 description: Store the main details related to a deal submitted by a partner and track the life cycle of the deal through its stages on the deal registration \(sn\_prm\_dr\_deal\_registration\) table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/deal-registration-table-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -347,5 +348,5 @@ Domain id
 Domain to which the deal registration belongs
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Partner Relationship Management reference](partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/partner-relationship-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Trigger condition example
 description: You can send out auto-triggered surveys when an incident is closed or resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_TriggerConditionExample.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,11 +44,11 @@ One of the most common use cases for Surveys is to send out an auto-triggered su
 
 Filtering the survey results provides more detail on how people and teams are performing based on ticket data. Since this information is automatically captured, you can dot-walk while filtering the data \(instead of utilizing a related field on the Survey trigger condition form, as previously required\).
 
-![Using the Task as a filter for survey results](../image/SurveyReport.png "Using the Task as a filter for survey results")
+\[Omitted image "SurveyReport.png"\] Alt text: Using the Task as a filter for survey results
 
 To create a report on incident-triggered survey responses by Assignment group, set up the report on the Task Assessment Details by navigating to **Reports** **View/Run** and clicking **Create a report**.
 
-![Defining a report on survey responses that are triggered by an incident](../image/SurveyReportCreate.png "Defining a report on survey responses that are triggered by an incident")
+\[Omitted image "SurveyReportCreate.png"\] Alt text: Defining a report on survey responses that are triggered by an incident
 
-**Parent Topic:**[Survey trigger conditions](../concept/c_TriggerConditions.md)
+**Parent Topic:**[Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TriggerConditions.md)
 

@@ -2,6 +2,7 @@
 title: Color variable support for input descriptions
 description: Learn how to use color variables to change theming in your mobile input descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/color-var-input-description.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,13 +20,13 @@ Use color variables in the **Description** field of your inputs to control text 
 
  Use color variables in the **Description** field of your inputs to control text color when **Description** field is configured as `HTML`.
 
- For example, in addition to color hex values like `#FF0000`, you may use a color variable, such as `--now-color-primary-0`. For a list of available variables see [Color theme considerations for mobile](../concept/color-guide-landing.md).
+ For example, in addition to color hex values like `#FF0000`, you may use a color variable, such as `--now-color-primary-0`. For a list of available variables see [Color theme considerations for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/color-guide-landing.md).
 
- For details on inputs, see [Configure an input form screen](../task/parameter-screen-config.md).
+ For details on inputs, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
 
 </td><td>
 
-![Color variable used in an input description](../image/color-var-example-7.png)
+\[Omitted image "color-var-example-7.png"\] Alt text: Color variable used in an input description
 
 </td></tr></tbody>
 </table>## Input description color guide
@@ -59,7 +60,7 @@ Critical
 
 </td><td>
 
-![Critical alert color scheme](../image/alert-color-palette-critical.png)
+\[Omitted image "alert-color-palette-critical.png"\] Alt text: Critical alert color scheme
 
 </td><td>
 
@@ -78,7 +79,7 @@ High
 
 </td><td>
 
-![High alert color scheme](../image/alert-color-palette-high.png)
+\[Omitted image "alert-color-palette-high.png"\] Alt text: High alert color scheme
 
 </td><td>
 
@@ -97,7 +98,7 @@ Warning
 
 </td><td>
 
-![Warning alert color scheme](../image/alert-color-palette-warning.png)
+\[Omitted image "alert-color-palette-warning.png"\] Alt text: Warning alert color scheme
 
 </td><td>
 
@@ -116,7 +117,7 @@ Moderate
 
 </td><td>
 
-![Moderate alert color scheme](../image/alert-color-palette-moderate.png)
+\[Omitted image "alert-color-palette-moderate.png"\] Alt text: Moderate alert color scheme
 
 </td><td>
 
@@ -135,7 +136,7 @@ Info
 
 </td><td>
 
-![Info alert color scheme](../image/alert-color-palette-info.png)
+\[Omitted image "alert-color-palette-info.png"\] Alt text: Info alert color scheme
 
 </td><td>
 
@@ -154,7 +155,7 @@ Positive
 
 </td><td>
 
-![Positive alert color scheme](../image/alert-color-palette-positive.png)
+\[Omitted image "alert-color-palette-positive.png"\] Alt text: Positive alert color scheme
 
 </td><td>
 
@@ -173,7 +174,7 @@ Low
 
 </td><td>
 
-![Low alert color scheme](../image/alert-color-palette-low.png)
+\[Omitted image "alert-color-palette-low.png"\] Alt text: Low alert color scheme
 
 </td><td>
 
@@ -192,7 +193,7 @@ Disabled
 
 </td><td>
 
-![Disabled alert color scheme](../image/alert-color-palette-disabled.png)
+\[Omitted image "alert-color-palette-disabled.png"\] Alt text: Disabled alert color scheme
 
 </td><td>
 
@@ -211,7 +212,7 @@ Critical \(Alternate\)
 
 </td><td>
 
-![Critical alert color scheme alternate](../image/alert-color-palette-critical2.png)
+\[Omitted image "alert-color-palette-critical2.png"\] Alt text: Critical alert color scheme alternate
 
 </td><td>
 
@@ -230,7 +231,7 @@ High \(Alternate\)
 
 </td><td>
 
-![High alert color scheme alternate](../image/alert-color-palette-high2.png)
+\[Omitted image "alert-color-palette-high2.png"\] Alt text: High alert color scheme alternate
 
 </td><td>
 
@@ -249,7 +250,7 @@ Warning \(Alternate\)
 
 </td><td>
 
-![Warning alert color scheme alternate](../image/alert-color-palette-warning2.png)
+\[Omitted image "alert-color-palette-warning2.png"\] Alt text: Warning alert color scheme alternate
 
 </td><td>
 
@@ -268,7 +269,7 @@ Moderate \(Alternate\)
 
 </td><td>
 
-![Moderate alert color scheme alternate](../image/alert-color-palette-moderate2.png)
+\[Omitted image "alert-color-palette-moderate2.png"\] Alt text: Moderate alert color scheme alternate
 
 </td><td>
 
@@ -287,7 +288,7 @@ Info \(Alternate\)
 
 </td><td>
 
-![Info alert color scheme alternate](../image/alert-color-palette-info2.png)
+\[Omitted image "alert-color-palette-info2.png"\] Alt text: Info alert color scheme alternate
 
 </td><td>
 
@@ -306,7 +307,7 @@ Positive \(Alternate\)
 
 </td><td>
 
-![Positive alert color scheme alternate](../image/alert-color-palette-positive2.png)
+\[Omitted image "alert-color-palette-positive2.png"\] Alt text: Positive alert color scheme alternate
 
 </td><td>
 
@@ -325,7 +326,7 @@ Low \(Alternate\)
 
 </td><td>
 
-![Low alert color scheme alternate](../image/alert-color-palette-low2.png)
+\[Omitted image "alert-color-palette-low2.png"\] Alt text: Low alert color scheme alternate
 
 </td><td>
 
@@ -344,7 +345,7 @@ Disabled \(Alternate\)
 
 </td><td>
 
-![Disabled alert color scheme alternate](../image/alert-color-palette-disabled2.png)
+\[Omitted image "alert-color-palette-disabled2.png"\] Alt text: Disabled alert color scheme alternate
 
 </td><td>
 
@@ -376,7 +377,7 @@ Blue
 
 </td><td>
 
-![Blue grouped color scheme](../image/grouped-color-palette-blue.png)
+\[Omitted image "grouped-color-palette-blue.png"\] Alt text: Blue grouped color scheme
 
 </td><td>
 
@@ -391,7 +392,7 @@ Brown
 
 </td><td>
 
-![Brown grouped color scheme](../image/grouped-color-palette-brown.png)
+\[Omitted image "grouped-color-palette-brown.png"\] Alt text: Brown grouped color scheme
 
 </td><td>
 
@@ -406,7 +407,7 @@ Gray
 
 </td><td>
 
-![Gray grouped color scheme](../image/grouped-color-palette-gray.png)
+\[Omitted image "grouped-color-palette-gray.png"\] Alt text: Gray grouped color scheme
 
 </td><td>
 
@@ -421,7 +422,7 @@ Green
 
 </td><td>
 
-![Green grouped color scheme](../image/grouped-color-palette-green.png)
+\[Omitted image "grouped-color-palette-green.png"\] Alt text: Green grouped color scheme
 
 </td><td>
 
@@ -436,7 +437,7 @@ Green-Yellow
 
 </td><td>
 
-![Green-yellow grouped color scheme](../image/grouped-color-palette-green-yellow.png)
+\[Omitted image "grouped-color-palette-green-yellow.png"\] Alt text: Green-yellow grouped color scheme
 
 </td><td>
 
@@ -451,7 +452,7 @@ Magenta
 
 </td><td>
 
-![Magenta grouped color scheme](../image/grouped-color-palette-magenta.png)
+\[Omitted image "grouped-color-palette-magenta.png"\] Alt text: Magenta grouped color scheme
 
 </td><td>
 
@@ -466,7 +467,7 @@ Orange
 
 </td><td>
 
-![Orange grouped color scheme](../image/grouped-color-palette-orange.png)
+\[Omitted image "grouped-color-palette-orange.png"\] Alt text: Orange grouped color scheme
 
 </td><td>
 
@@ -481,7 +482,7 @@ Pink
 
 </td><td>
 
-![Pink grouped color scheme](../image/grouped-color-palette-pink.png)
+\[Omitted image "grouped-color-palette-pink.png"\] Alt text: Pink grouped color scheme
 
 </td><td>
 
@@ -496,7 +497,7 @@ Purple
 
 </td><td>
 
-![Purple grouped color scheme](../image/grouped-color-palette-purple.png)
+\[Omitted image "grouped-color-palette-purple.png"\] Alt text: Purple grouped color scheme
 
 </td><td>
 
@@ -511,7 +512,7 @@ Teal
 
 </td><td>
 
-![Teal grouped color scheme](../image/grouped-color-palette-teal.png)
+\[Omitted image "grouped-color-palette-teal.png"\] Alt text: Teal grouped color scheme
 
 </td><td>
 
@@ -526,7 +527,7 @@ Yellow
 
 </td><td>
 
-![Yellow grouped color scheme](../image/grouped-color-palette-yellow.png)
+\[Omitted image "grouped-color-palette-yellow.png"\] Alt text: Yellow grouped color scheme
 
 </td><td>
 
@@ -541,7 +542,7 @@ Blue \(Alternate\)
 
 </td><td>
 
-![Blue grouped color scheme alternate](../image/grouped-color-palette-blue2.png)
+\[Omitted image "grouped-color-palette-blue2.png"\] Alt text: Blue grouped color scheme alternate
 
 </td><td>
 
@@ -556,7 +557,7 @@ Brown \(Alternate\)
 
 </td><td>
 
-![Brown grouped color scheme alternate](../image/grouped-color-palette-brown2.png)
+\[Omitted image "grouped-color-palette-brown2.png"\] Alt text: Brown grouped color scheme alternate
 
 </td><td>
 
@@ -571,7 +572,7 @@ Gray \(Alternate\)
 
 </td><td>
 
-![Gray grouped color scheme alternate](../image/grouped-color-palette-gray2.png)
+\[Omitted image "grouped-color-palette-gray2.png"\] Alt text: Gray grouped color scheme alternate
 
 </td><td>
 
@@ -586,7 +587,7 @@ Green \(Alternate\)
 
 </td><td>
 
-![Green grouped color scheme alternate](../image/grouped-color-palette-green2.png)
+\[Omitted image "grouped-color-palette-green2.png"\] Alt text: Green grouped color scheme alternate
 
 </td><td>
 
@@ -601,7 +602,7 @@ Green-Yellow \(Alternate\)
 
 </td><td>
 
-![Green-yellow grouped color scheme alternate](../image/grouped-color-palette-green-yellow2.png)
+\[Omitted image "grouped-color-palette-green-yellow2.png"\] Alt text: Green-yellow grouped color scheme alternate
 
 </td><td>
 
@@ -616,7 +617,7 @@ Magenta \(Alternate\)
 
 </td><td>
 
-![Magenta grouped color scheme alternate](../image/grouped-color-palette-magenta2.png)
+\[Omitted image "grouped-color-palette-magenta2.png"\] Alt text: Magenta grouped color scheme alternate
 
 </td><td>
 
@@ -631,7 +632,7 @@ Orange \(Alternate\)
 
 </td><td>
 
-![Orange grouped color scheme alternate](../image/grouped-color-palette-orange2.png)
+\[Omitted image "grouped-color-palette-orange2.png"\] Alt text: Orange grouped color scheme alternate
 
 </td><td>
 
@@ -646,7 +647,7 @@ Pink \(Alternate\)
 
 </td><td>
 
-![Pink grouped color scheme alternate](../image/grouped-color-palette-pink2.png)
+\[Omitted image "grouped-color-palette-pink2.png"\] Alt text: Pink grouped color scheme alternate
 
 </td><td>
 
@@ -661,7 +662,7 @@ Purple \(Alternate\)
 
 </td><td>
 
-![Purple grouped color scheme alternate](../image/grouped-color-palette-purple2.png)
+\[Omitted image "grouped-color-palette-purple2.png"\] Alt text: Purple grouped color scheme alternate
 
 </td><td>
 
@@ -676,7 +677,7 @@ Teal \(Alternate\)
 
 </td><td>
 
-![Teal grouped color scheme alternate](../image/grouped-color-palette-teal2.png)
+\[Omitted image "grouped-color-palette-teal2.png"\] Alt text: Teal grouped color scheme alternate
 
 </td><td>
 
@@ -691,7 +692,7 @@ Yellow \(Alternate\)
 
 </td><td>
 
-![Yellow grouped color scheme alternate](../image/grouped-color-palette-yellow2.png)
+\[Omitted image "grouped-color-palette-yellow2.png"\] Alt text: Yellow grouped color scheme alternate
 
 </td><td>
 

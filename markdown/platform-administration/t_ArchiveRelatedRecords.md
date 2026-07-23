@@ -2,6 +2,7 @@
 title: Archive related records in Core UI
 description: Archive, clear, or delete related records from an archive rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ArchiveRelatedRecords.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,15 +22,15 @@ Role required: admin.
 
 1.  Access the archive rule that you want to configure in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d124601e59">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d127860e59">
 
 Option
 
-</th><th align="left" id="d124601e62">
+</th><th align="left" id="d127860e62">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d124601e68">
+</th></tr></thead><tbody><tr><td id="d127860e68">
 
 **Using a data management policy**
 
@@ -41,7 +42,7 @@ Steps
 4.  In the **Archive Related Records** related list, select **New**.
 
 
-</td></tr><tr><td id="d124601e110">
+</td></tr><tr><td id="d127860e110">
 
 **Using the Archive Rules module**
 
@@ -72,7 +73,7 @@ Steps
         For example, you create an archive rule on the Problem \[problem\] table. You can include related incident records by selecting the **Problem in Incident** field reference field on the Incident \[incident\] table.
 
         -   The **Archive** action archives any incident record that references an archived problem.
-        -   The **Clear** action updates any incident record with a reference to the archived problem record by clearing the reference. If the reference is a [many-to-many relationship](../../task-table/concept/c_ManyToManyTaskRelations.md), the related record rule deletes the reference instead of clearing the reference.
+        -   The **Clear** action updates any incident record with a reference to the archived problem record by clearing the reference. If the reference is a [many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md), the related record rule deletes the reference instead of clearing the reference.
         -   The **Delete** action deletes any incident record that references the archived problem record.
     -   **Document ID fields**
 
@@ -101,5 +102,5 @@ Steps
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Archiving records in Core UI](../../managing-data/concept/archiving-older-records.md)
+**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-older-records.md)
 

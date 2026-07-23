@@ -2,6 +2,7 @@
 title: Attach files to a standard change template
 description: Attach files, such as documents, spreadsheet, and images to a standard change proposal. Standard change templates copy any file attached to the template to a change request that the template creates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/attach-files-change-templates.html
 release: australia
 product: Change Management
 classification: change-management
@@ -25,7 +26,7 @@ Role required: itil, admin
 
 2.  Open the proposal to which you want to add the attachment to.
 
-3.  Click the ![Manage Attachments.](../image/attachfiles.png) icon to browse and select the file.
+3.  Click the \[Omitted image "attachfiles.png"\] Alt text: Manage Attachments. icon to browse and select the file.
 
     The attached file appears at the top of the proposal.
 
@@ -38,14 +39,14 @@ Role required: itil, admin
 
 Any attachment associated with a standard change proposal gets copied to the standard change template that is created when the proposal is approved. When that template is used to create a standard change, any attachment associated to it is also copied to those standard change requests.
 
-**Parent Topic:**[Standard change catalog](../concept/c_StandardChangeCatalogPlugin.md)
+**Parent Topic:**[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
 
 **Related topics**  
 
 
-[Configure standard change catalog properties](t_ConfigureTheStandardChangeCatalog.md)
+[Configure standard change catalog properties]()
 
-[Create a standard change task template](create-a-standard-change-task-template.md)
+[Create a standard change task template]()
 
-[Modify or retire a standard change template](manage-standard-change-template.md)
+[Modify or retire a standard change template]()
 

@@ -2,6 +2,7 @@
 title: Create a Learning challenge
 description: Create a Learning challenge to challenge yourself to complete a particular number of courses within a time frame that you choose.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-challenge.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -83,27 +84,27 @@ Number of courses that you target to finish for each tracking period.
 
 A Learning challenge is created along with a new widget on the Overview tab to track your progress.
 
--   **[Complete a learning challenge](../task/complete-challenge-lxp.md)**  
+-   **[Complete a learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/complete-challenge-lxp.md)**  
 Complete a learning challenge whenever you're ready to finish with it.
--   **[Restart a learning challenge](../task/restart-challenge-lxp.md)**  
+-   **[Restart a learning challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/restart-challenge-lxp.md)**  
 Restart a challenge when you want to reset the progress you have made on the challenge.
 
-**Parent Topic:**[Using My Learning](manage-your-learning.md)
+**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-your-learning.md)
 
 **Related topics**  
 
 
-[Enroll in a course collection on My Learning](../task/enroll-course-lxp.md)
+[Enroll in a course collection on My Learning]()
 
-[Resume a course](../task/resume-course.md)
+[Resume a course]()
 
-[Create a personal course collection](create-personal-collection.md)
+[Create a personal course collection]()
 
-[View recent activity](view-recent-activity-lxp.md)
+[View recent activity]()
 
-[Assign Learning to your team](../task/assign-learning-lxp.md)
+[Assign Learning to your team]()
 
-[Manage Learning](manage-learning-achievements.md)
+[Manage Learning]()
 
-[Skill sensing for learning content](skill-sensing-for-learning-content.md)
+[Skill sensing for learning content]()
 

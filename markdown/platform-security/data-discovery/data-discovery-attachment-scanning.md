@@ -2,6 +2,7 @@
 title: Attachment scanning in Data Discovery jobs
 description: Attachment scanning in Data Discovery enables you to scan, discover, and report on sensitive data in file attachments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/data-discovery-attachment-scanning.html
 release: australia
 product: Data Discovery
 classification: data-discovery
@@ -29,4 +30,7 @@ Sensitive data such as social security Numbers \(SSN\), credit card numbers, and
     -   TXT
     -   XLS
     -   CSV
+    -   HTML
+    -   EML
+    -   MSG
 

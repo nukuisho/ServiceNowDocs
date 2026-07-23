@@ -2,13 +2,14 @@
 title: Upgrade Cloud Cost Management
 description: You upgrade Cloud Cost Management on the System Applications page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/upgrade-cloud-insights-to-version-3-0.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Upgrade Cloud Cost Management

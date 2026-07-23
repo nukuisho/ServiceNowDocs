@@ -2,6 +2,7 @@
 title: Display the priorities and goals on the project form
 description: If you're an existing user, configure the project form to upgrade to the Goal Framework. The benefit of the Goal Framework is that it enables you to set targets for goals. You can also define strategic priorities and associated goals as part of the organization's strategic plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/configure-project-form.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sys\_admin
 
 If you have preconfigured forms, you must do this configuration to make the new framework features and fields available.
 
-The same procedure can be performed on the Demand and Program forms as well. For more information, see [Goal framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework.md).
+The same procedure can be performed on the Demand and Program forms as well. For more information, see [Goal framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ The same procedure can be performed on the Demand and Program forms as well. For
 
 2.  Open a project.
 
-3.  Select the additional actions icon \(![Additional actions icon.](../images/additional-information.png)\) and do the following:
+3.  Select the additional actions icon \(\[Omitted image "additional-information.png"\] Alt text: Additional actions icon.\) and do the following:
 
     1.  Select **Configure**.
 
@@ -39,7 +40,7 @@ The same procedure can be performed on the Demand and Program forms as well. For
 
     4.  Under the Form view and section, set the **Section** field to **Business Case**.
 
-    5.  In the Available list, select **Primary goal \[+\]** and click the tree workflow icon \(![Tree workflow icon.](../images/tree-workflow.png)\).
+    5.  In the Available list, select **Primary goal \[+\]** and click the tree workflow icon \(\[Omitted image "tree-workflow.png"\] Alt text: Tree workflow icon.\).
 
     6.  In the Available list, double-click **Strategic priority \[+\]**.
 
@@ -54,5 +55,5 @@ The same procedure can be performed on the Demand and Program forms as well. For
 
 The Project form shows the **Strategic priority** field and the **Primary goal** field.
 
-**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](create-esg-goal.md)
+**Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/create-esg-goal.md)
 

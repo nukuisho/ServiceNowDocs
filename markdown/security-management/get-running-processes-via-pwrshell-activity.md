@@ -2,6 +2,7 @@
 title: Get Running Processes via PowerShell activity
 description: The Get Sensor ID workflow activity gathers running processes using PowerShell to use in the workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/get-running-processes-via-pwrshell-activity.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -41,5 +42,5 @@ The output variables contain data that can be used in subsequent activities.
 |--------|-----------|
 |response|Raw output. Running processes data.|
 
-**Parent Topic:**[Security Operations System Command Integration- Get Running Processes flow](../../security-incident-response-orchestration/task/obtain-WMI-retrieval-workflow.md)
+**Parent Topic:**[Security Operations System Command Integration- Get Running Processes flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/obtain-WMI-retrieval-workflow.md)
 

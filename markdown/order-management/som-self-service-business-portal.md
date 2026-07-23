@@ -2,6 +2,7 @@
 title: Customer self-service for Sales Customer Relationship Management
 description: Support your business-to-business \(B2B\) customers by enabling self-service capabilities through the Business Portal to create and manage orders, invoices, and requests for quotes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-self-service-business-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ Enable customers to place orders independently, reducing sales cycle time and ac
 
 </td><td>
 
-[Create orders from the Business Portal](../task/order-mgt-create-an-order-using-customer-portal.md)
+[Create orders from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-create-an-order-using-customer-portal.md)
 
 </td></tr><tr><td>
 
@@ -43,7 +44,7 @@ Accelerate pricing and proposal turnaround by enabling customers to request quot
 
 </td><td>
 
-[Submit a request for quote from the Business Portal](../task/create-rfq-business-portal.md)
+[Submit a request for quote from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-rfq-business-portal.md)
 
 </td></tr><tr><td>
 
@@ -51,7 +52,7 @@ Enable customers to view quotes generated from requests for quotes \(RFQs\) or q
 
 </td><td>
 
-[View quotes from the Business Portal](../task/view-quotes-business-portal.md)
+[View quotes from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-quotes-business-portal.md)
 
 </td></tr><tr><td>
 
@@ -59,9 +60,9 @@ Reduce customer dependency on customer service agents for routine order inquirie
 
 </td><td>
 
-[Request updates for one or more orders](../task/create-order-case-for-multiple-orders.md)
+[Request updates for one or more orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-order-case-for-multiple-orders.md)
 
- [Request updates for items in a single order](../task/create-order-case-specific-order-lines.md)
+ [Request updates for items in a single order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-order-case-specific-order-lines.md)
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Provide customers access to their invoice and invoice line details so they can t
 
 </td><td>
 
-[View invoices on the Business Portal](../task/view-invoices-business-portal.md)
+[View invoices on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-invoices-business-portal.md)
 
 </td></tr><tr><td>
 
@@ -77,23 +78,23 @@ Simplify invoice inquiries and dispute management through a direct, trackable se
 
 </td><td>
 
-[Dispute a specific line item on an invoice against your account using the Business Portal](../task/create-invoice-case-single.md)
+[Dispute a specific line item on an invoice against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-invoice-case-single.md)
 
- [Dispute multiple invoices against your account using the Business Portal](../task/create-invoice-case-multiple.md)
+ [Dispute multiple invoices against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-invoice-case-multiple.md)
 
 </td></tr></tbody>
 </table>## Business Portal and sales agents
 
 Sales agents don’t directly use the Business Portal, but work on orders, order cases, invoice cases, and RFQs submitted through the Business Portal from the CSM Configurable Workspace. Depending on the process for orders, order cases, invoice cases, and RFQs, the agents work on their assignments and work with the customers to provide resolution. For example, reviewing RFQs, converting RFQs to quotes, applying price adjustments, and returning the quote to the customer for approval.
 
-## Related links
+## What to explore next
 
 The following topics provide more information about configuring and using the Business Portal:
 
--   [Configuring the Business Portal](order-management-configure-business-portal.md)
--   [Customer self-service using the Business Portal](order-mgt-business-portal.md)
--   Getting started with the Business Portal: [Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.md)
--   [Business Portal reference for Sales Customer Relationship Management](../reference/som-business-portal-reference.md)
+-   [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)
+-   [Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
+-   Getting started with the Business Portal: [Configure Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-business-portal.md)
+-   [Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-business-portal-reference.md)
 -   [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/use-the-business-portal.md)
 -   [Business Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_BusinessPortalUserRoles.md)
 

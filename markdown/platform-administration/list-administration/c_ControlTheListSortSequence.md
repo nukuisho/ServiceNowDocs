@@ -2,6 +2,7 @@
 title: Controlling the sort sequence used to display lists
 description: All lists have a default sort sequence based on the type of fields present in the list.For any list, if the user has clicked a column header to sort by that column, then that action is remembered. The next time that list is displayed, the same field is used to order the list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/c\_ControlTheListSortSequence.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -39,16 +40,16 @@ An administrator can set the sort order of records displayed for a table in the 
 
 ## Sorting a column in a list according to session language
 
-By default, when sorting columns in lists, the field values are ordered according to the English alphabet. To support sorting a column according to the user's session language, you can configure the instance behavior and behavior of individual columns. See [Sorting according to the session language](../../localization/task/sorting-session-language.md#).
+By default, when sorting columns in lists, the field values are ordered according to the English alphabet. To support sorting a column according to the user's session language, you can configure the instance behavior and behavior of individual columns. See [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/sorting-session-language.md).
 
 **Related topics**  
 
 
-[System dictionary](../../data-dictionary-tables/concept/c_SystemDictionary.md)
+[System dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SystemDictionary.md)
 
 [User preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UserPreferences.md)
 
-[Altering tables and fields using dictionary attributes](../../reference-pages/concept/c_DictionaryAttributes.md)
+[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)
 
 ## Sort order control
 
@@ -56,7 +57,7 @@ For any list, if the user has clicked a column header to sort by that column, th
 
 This remembered sort field can be overridden by adding a *sysparm\_order* specification to the definition of the module. For example, if each time **News** is displayed, you want the new items listed in order of importance, then the **News** module can be updated accordingly.
 
-![Module arguments to set the sort order based on the Importance field](../image/SortSequence.png "Set module sort order to the Importance field value")
+\[Omitted image "SortSequence.png"\] Alt text: Module arguments to set the sort order based on the Importance field
 
 The actual order \(ascending or descending\) can be specified by adding a *sysparm\_order\_direction* specification. Here are two examples of sorting a list by the **sys\_created\_on** field, one ascending and one descending:
 

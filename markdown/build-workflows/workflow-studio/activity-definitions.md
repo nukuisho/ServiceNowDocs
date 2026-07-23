@@ -2,12 +2,13 @@
 title: Activity definitions
 description: Activity definitions describe how the activities in your playbook get the data that they need when your playbook runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/activity-definitions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -90,17 +91,17 @@ Each activity definition has an automation plan. The automation plan for an acti
 
 Activity designers can configure the visibility of each activity input.
 
--   **Include in standard modal**
+-   **Always show**
 
-    Hides the input from the properties panel. Playbook designers can only see the input from the standard modal when they select the **Show advanced properties** option.
+    Displays the input in the properties panel.
 
--   **Include in standard modal and configuration panel**
+-   **Show as additional property**
 
-    Displays the input in the properties panel. Playbook designers can also see the input from the standard modal when they select the **Show advanced properties** option.
+    Displays the input in the properties panel only when playbook authors select **Show additional options**.
 
--   **Admin visibility only**
+-   **Show as additional property for Playbook admins only**
 
-    Hides the input from users who do not have the admin or playbook.admin roles.
+    Displays the input in the properties panel when users with the playbook.admin role select **Show additional option**. The input is hidden for any other users.
 
 
 ## Activity experience
@@ -109,17 +110,17 @@ Each activity also has an optional activity experience. The activity experience 
 
 -   **Experience type**
 
-    An experience type defines the data, or properties, that describe how the activity renders as a playbook card at runtime. For example, a Record experience type tells the system that the activity can display a title, tagline, description, footer, and service level agreement \(SLA\) information in the Playbook card when your activated playbook runs. For more information, see [UI Layouts](experience-types.md).
+    An experience type defines the data, or properties, that describe how the activity renders as a playbook card at runtime. For example, a Record experience type tells the system that the activity can display a title, tagline, description, footer, and service level agreement \(SLA\) information in the Playbook card when your activated playbook runs. For more information, see [UI Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/experience-types.md).
 
 -   **Associated record**
 
-    The associated record defines the record whose data can render within a Playbook card at runtime. The associated record is dynamic, which means that it changes frequently as the playbook progresses. Because of this dynamic nature, you may want to use the data pill picker \(![Data pill picker](../images/data-pill-picker-icon.png)\) to map the associated record to output record data within the underlying subflow or action specified in the automation plan.
+    The associated record defines the record whose data can render within a Playbook card at runtime. The associated record is dynamic, which means that it changes frequently as the playbook progresses. Because of this dynamic nature, you may want to use the data pill picker \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker\) to map the associated record to output record data within the underlying subflow or action specified in the automation plan.
 
 -   **Data to render in the Playbook card**
 
-    You can specify the data to render in the Playbook card in the sections under the Associated Record section. To add dynamic data to fields that render in this user-facing view, use the data pill picker ![Data pill picker](../images/data-pill-picker-icon.png) next to a data field and navigate, or dot-walk, to the appropriate data pill. The data pill should point to data within the subflow or action specified in the activity definition's automation plan.
+    You can specify the data to render in the Playbook card in the sections under the Associated Record section. To add dynamic data to fields that render in this user-facing view, use the data pill picker \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker next to a data field and navigate, or dot-walk, to the appropriate data pill. The data pill should point to data within the subflow or action specified in the activity definition's automation plan.
 
-    **Note:** An activity experience contains many sections where you can specify the data to appear within the Playbook card. These sections vary depending on the experience type that you select. For example, a Record experience type has Details, Form, Attachments, and Features sections, while a Knowledge experience type has Knowledge, Details, and Features sections. For more information, see [UI Layouts](experience-types.md).
+    **Note:** An activity experience contains many sections where you can specify the data to appear within the Playbook card. These sections vary depending on the experience type that you select. For example, a Record experience type has Details, Form, Attachments, and Features sections, while a Knowledge experience type has Knowledge, Details, and Features sections. For more information, see [UI Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/experience-types.md).
 
 -   **Actions to render in the Playbook card**
 
@@ -134,46 +135,19 @@ Refer to these design considerations when working with activity definitions:
 
 -   **Avoid calling triggered Workflow Studio flows in an activity's automation plan**
 
-    To prevent unintentionally running a flow outside of Playbooks, you can use only subflows or actions in activity automation plans. Alternatively, you can set the flow's trigger to only run if not already running. For more information, see [Workflow Studio flow trigger types](../../flow-designer/reference/flow-triggers.md).
+    To prevent unintentionally running a flow outside of Playbooks, you can use only subflows or actions in activity automation plans. Alternatively, you can set the flow's trigger to only run if not already running. For more information, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
 -   **Specify default input values in your activity definitions**
 
     Preconfiguring default input values for your activity definitions reduces the time and complexity needed for a playbook owner to create a playbook.
 
 
--   **[Create an activity definition](../task/create-activity-definition.md)**  
+-   **[Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md)**  
 Specify the action or subflow you want an activity to run. Configure the inputs you want playbook designers to set when adding the activity to a playbook. Select the experience you want end users to have when the activity runs.
--   **[Create an action as an activity automation plan](../task/create-automation-plan.md)**  
+-   **[Create an action as an activity automation plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-automation-plan.md)**  
 Create an example action to configure and run as an activity from Playbooks.
--   **[UI Layouts](experience-types.md)**  
+-   **[UI Layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/experience-types.md)**  
 A UI Layout describes what properties and components to use when an activity renders as a card in a Playbook Experience.
 
-**Parent Topic:**[Stages and activities](process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook](../task/add-configure-stage.md)
-
-[Add and configure an activity in a playbook](../task/add-configure-activity.md)
-
-[Use AI agent as an activity](../task/ai-agent-as-activity.md)
-
-[Automation Assets](automation-assets.md)
-
-[Start with delay input properties](../reference/start-with-delay-properties.md)
-
-[Optional activities](optional-activities.md#)
-
-[Decision activities](../task/create-a-decision-activity.md)
-
-[Decision stages](../task/create-decision-stage.md)
-
-[Questionnaire activity](../reference/questionnaire-activity.md)
-
-[Parallel branches](../task/create-parallel-activity.md)
-
-[Add dynamic inputs to an activity](../task/add-dynamic-inputs-to-activity.md)
-
-[Playbook activity state mapping](../../workspace/concept/playbook-activity-state-mapping.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

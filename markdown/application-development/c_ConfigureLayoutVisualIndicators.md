@@ -2,6 +2,7 @@
 title: Layout visual indicators
 description: The UI displays the following visual indicators when configuring the layout of a custom application's list or form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ConfigureLayoutVisualIndicators.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +21,7 @@ You can only edit fields, views, and sections when you are in the same applicati
 -   Save button with a blue background.
 -   Editable fields in the **Create new field** section.
 
-![Visual indicators of editable sections.](../image/FormLayoutEditable.png "Visual indicators of editable sections")
+\[Omitted image "FormLayoutEditable.png"\] Alt text: Visual indicators of editable sections.
 
 Views and sections in another application scope display as read only. Read-only sections have:
 
@@ -30,14 +31,14 @@ Views and sections in another application scope display as read only. Read-only 
 -   Save button with a gray background.
 -   Read only fields in the **Create new field** section.
 
-![Visual indicators of read-only sections.](../image/FormLayoutReadonly.png "Visual indicators of read-only sections")
+\[Omitted image "FormLayoutReadonly.png"\] Alt text: Visual indicators of read-only sections.
 
 **Related topics**  
 
 
-[Lists and forms in scoped applications](c_CreatingListsAndFormsScopedApps.md)
+[Lists and forms in scoped applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_CreatingListsAndFormsScopedApps.md)
 
-[Available layout and design actions](../reference/r_AvailableLayoutAndDesignActions.md)
+[Available layout and design actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_AvailableLayoutAndDesignActions.md)
 
-[Form design visual indicators](c_FormDesignVisualIndicators.md)
+[Form design visual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_FormDesignVisualIndicators.md)
 

@@ -2,6 +2,7 @@
 title: Use Now Assist for Zero Copy Connector agentic workflows and AI agents
 description: Use Now Assist for Zero Copy Connector agentic workflows and AI agents to improve and enhance working with ERP data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/zero-copy-connector-for-erp-ai-agents-use-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

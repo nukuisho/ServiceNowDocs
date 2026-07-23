@@ -2,11 +2,12 @@
 title: Configure the Authentication Profile
 description: The Verifi Issuer API uses JSON Web Tokens \(JWT\) for authentication. A fresh JWT must be generated for every API call. This section explains how to store credentials securely and how the ServiceNow script generates and attaches the JWT.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-the-authentication-profile.html
 release: australia
 topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 1
-breadcrumb: [Verifi, Integrate, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Verifi, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Configure the Authentication Profile
@@ -25,13 +26,13 @@ Role required: admin
 
 3.  Create a new connection in sn\_verifi\_spoke.
 
-    Configure the Verifi connection alias with the correct URL, the Issuer ID \(shared by Verifi\) and the JWT provider created in previous step, make sure that API version provided here is correct. See [../reference/jwt-authentication.md](../reference/jwt-authentication.md) for more information.
+    Configure the Verifi connection alias with the correct URL, the Issuer ID \(shared by Verifi\) and the JWT provider created in previous step, make sure that API version provided here is correct. See [JWT Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/jwt-authentication.md) for more information.
 
 4.  Attach the required headers at call time.
 
 
--   **[Storing credentials for Verifi CDRN](../reference/store-credentials-for-verifi-cdrn.md)**  
+-   **[Storing credentials for Verifi CDRN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/store-credentials-for-verifi-cdrn.md)**  
 Credential storage information for securely managing Issuer ID and Shared Secret values for Financial Services Operations Integration with Verifi.
 
-**Parent Topic:**[configure-financial-services-integration-with-verifi-cdrn.md](configure-financial-services-integration-with-verifi-cdrn.md)
+**Parent Topic:**[Configuring Financial Services Operations Integration with Verifi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/configure-financial-services-integration-with-verifi-cdrn.md)
 

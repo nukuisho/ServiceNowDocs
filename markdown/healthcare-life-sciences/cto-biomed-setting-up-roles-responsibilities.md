@@ -2,6 +2,7 @@
 title: Setting up roles and responsibilities in Care Team Operations for Biomed
 description: To manage access effectively in Care Team Operations for Biomed, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-setting-up-roles-responsibilities.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Configure, Care Team Operations for Biomed, Healthcare Operations, 
 
 To manage access effectively in Care Team Operations for Biomed, first understand how roles and responsibilities work together. These concepts build on the Service Model Foundation \(SMF\) but are adapted for Healthcare Operations-specific use cases.
 
-To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](cto-setting-up-roles-responsibilities.md).
+To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
 
 The following roles and responsibilities are included with Care Team Operations for Biomed:
 
@@ -44,6 +45,6 @@ Can view/resolve all cases under their assignment group, tracks, and fulfill cas
 </td></tr></tbody>
 </table>## What to do next
 
-1.  [Assign roles for Care Team Operations for Biomed](../task/cto-biomed-set-up-roles.md)
-2.  [Assign responsibilities to Care Team Operations for Biomed users](../task/cto-biomed-assign-responsibilities.md)
+1.  [Assign roles for Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-biomed-set-up-roles.md)
+2.  [Assign responsibilities to Care Team Operations for Biomed users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-biomed-assign-responsibilities.md)
 

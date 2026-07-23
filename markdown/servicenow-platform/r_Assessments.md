@@ -2,6 +2,7 @@
 title: Assessments
 description: Use assessments to evaluate, score, and rank records from any table in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/r\_Assessments.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -18,6 +19,4 @@ You can assess projects that executives want to evaluate for effective managemen
 The Assessments plugin is enabled by default.
 
 You can only edit an assessment that has the same application scope as that of your current session.
-
-The difference between assessments, surveys, and quizzes, and when to use each; also provides a quick look at the three stages in the survey process: designing, sharing, and evaluating.
 

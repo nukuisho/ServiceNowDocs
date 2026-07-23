@@ -2,6 +2,7 @@
 title: Create a content collection
 description: Create a content collection in Learning to dynamically group Learning content that includes multiple internal and external courses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-content-collection.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -17,7 +18,7 @@ Create a content collection in Learning to dynamically group Learning content th
 
 ## Before you begin
 
-Every collection must be a part of a course catalog. Create a course catalog before you create a collection. For more information, see [Create a course catalog](../task/create-course-catalog.md).
+Every collection must be a part of a course catalog. Create a course catalog before you create a collection. For more information, see [Create a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-course-catalog.md).
 
 Role required: sn\_lc.learning\_admin, sn\_lc.learning\_course\_catalog\_admin
 
@@ -29,44 +30,44 @@ Role required: sn\_lc.learning\_admin, sn\_lc.learning\_course\_catalog\_admin
 
 3.  On the Collection form, fill in the fields.
 
-    For a description of the field values, see [Collection form](../reference/collection-form-lxp.md).
+    For a description of the field values, see [Collection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/collection-form-lxp.md).
 
 4.  Select **Submit**.
 
 
--   **[Add course items to collection](add-course-items.md)**  
+-   **[Add course items to collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-course-items.md)**  
 After you create a collection, add course items as groupings of courses that are orchestrated within ServiceNow®.
--   **[Define user access to course within a collection](define-course-user-access.md)**  
+-   **[Define user access to course within a collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/define-course-user-access.md)**  
 Define user access to the collection to define who has read access to the collections.
--   **[Add learning course sections](../task/add-learning-course-sections-lxp.md)**  
+-   **[Add learning course sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-learning-course-sections-lxp.md)**  
 Add learning course sections to collections.
--   **[Assign topics to a collection](assign-collection-topics.md)**  
+-   **[Assign topics to a collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/assign-collection-topics.md)**  
 Add assigned topics to collections.
 
-**Parent Topic:**[Manage Learning](manage-learning-achievements.md)
+**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-learning-achievements.md)
 
 **Related topics**  
 
 
-[Create internal Learning content](create-internal-learning-content.md)
+[Create internal Learning content]()
 
-[View external Learning content](view-external-learning-content.md)
+[View external Learning content]()
 
-[Create a learning library](create-learning-library.md)
+[Create a learning library]()
 
-[Create a learning task](create-learning-task.md)
+[Create a learning task]()
 
-[Create an achievement definition](create-achievement.md)
+[Create an achievement definition]()
 
-[Create user achievements](create-user-achievements.md)
+[Create user achievements]()
 
-[Create an achievement rule](../task/create-achievement-rule.md)
+[Create an achievement rule]()
 
-[Create an achievement rule item](../task/achievement-rule-item.md)
+[Create an achievement rule item]()
 
-[Collection form](../reference/collection-form-lxp.md)
+[Collection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/collection-form-lxp.md)
 
-[Add course items to collection](add-course-items.md)
+[Add course items to collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-course-items.md)
 
-[Add learning course sections](../task/add-learning-course-sections.md)
+[Add learning course sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/add-learning-course-sections.md)
 

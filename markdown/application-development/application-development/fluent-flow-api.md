@@ -1,12 +1,12 @@
 ---
 title: Flow API - ServiceNow Fluent
-description: The Flow API defines flows and subflows \[sys\_hub\_flow\], which automate business processes with reusable multiple-step components.Create a flow \[sys\_hub\_flow\] to run a sequence of actions and flow logic when a set of trigger conditions occur.Create a subflow \[sys\_hub\_flow\] to run a reusbale sequence of actions and flow logic when called by a flow or API.Run a flow when the start conditions of a specific trigger type are met. Triggers determine when a flow runs and what data is available from the flow start conditions.Run a specific action instance from a flow or subflow. Actions determine what data is generated, updated, or retrieved.Run a specific flow logic instance from a flow or subflow. Flow logic determines how and when data is used.Reference a specific runtime data pill value from an action or flow logic input.
+description: The Flow API defines flows and subflows \[sys\_hub\_flow\], which automate business processes with reusable multiple-step components.Create a flow \[sys\_hub\_flow\] to run a sequence of actions and flow logic when a set of trigger conditions occur.Create a subflow \[sys\_hub\_flow\] to run a reusable sequence of actions and flow logic when called by a flow or API.Run a flow when the start conditions of a specific trigger type are met. Triggers determine when a flow runs and what data is available from the flow start conditions.Run a specific action instance from a flow or subflow. Actions determine what data is generated, updated, or retrieved.Run a specific flow logic instance from a flow or subflow. Flow logic determines how and when data is used.Reference a specific runtime data pill value from an action or flow logic input.Run a specific subflow from a parent flow or subflow.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 26
-keywords: [servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api]
+reading_time_minutes: 29
+keywords: [servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api, servicenow fluent, fluent api]
 ---
 
 # Flow API - ServiceNow Fluent
@@ -15,18 +15,18 @@ The Flow API defines flows and subflows \[sys\_hub\_flow\], which automate busin
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-Create a flow using the Flow object. For more information, see [Flow object](fluent-flow-api.md#).
+Create a flow using the Flow object. For more information, see [Flow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
 
-Create a subflow using the Subflow object. For more information, see [Subflow object](fluent-flow-api.md#).
+Create a subflow using the Subflow object. For more information, see [Subflow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
 
-For general information about flows, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md). For general information about subflows, see [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-subflows.md).
+For general information about flows, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md). For general information about subflows, see [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-subflows.md).
 
-**Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
+**Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 
 **Related topics**  
 
 
-[ServiceNow Fluent](../concept/servicenow-fluent.md)
+[ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-fluent.md)
 
 ## Flow object
 
@@ -76,7 +76,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -128,7 +128,7 @@ String
 
 </td><td>
 
-Specify the roles that the flow uses while running. For more information about running a flow with roles, see [Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-roles.md).
+Specify the roles that the flow uses while running. For more information about running a flow with roles, see [Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-roles.md).
 
 </td></tr><tr><td>
 
@@ -200,7 +200,7 @@ Function
 
 </td><td>
 
-Defines when to run the flow. When the trigger conditions are met, the system runs the flow using the data provided by the trigger. For more information about the wfa.trigger function, see [wfa.trigger function](fluent-flow-api.md#).
+Defines when to run the flow. When the trigger conditions are met, the system runs the flow using the data provided by the trigger. For more information about the wfa.trigger function, see [wfa.trigger function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
 
 </td></tr><tr><td>
 
@@ -214,8 +214,8 @@ Function
 
 **Flow body** is an **Arrow function** in TypeScript that represents the execution steps in the flow. The Flow Body receives the **params** parameter as its input, which contains the **wfa.trigger** and **flowVariables** objects.The steps in the **Flow body** consist of these function types:
 
--   **wfa.action** function: Execute specific tasks and operations within a flow, such as creating records, sending emails, requesting approvals, or integrating with external systems. For more information about the wfa.action function, see [wfa.action function](fluent-flow-api.md#).
--   **wfa.flow\_logic** function: Control how flows execute, providing conditional branching, iteration, and flow structuring capabilities. For more information about wfa.flow\_logic function, see [wfa.flow\_logic function](fluent-flow-api.md#).
+-   **wfa.action** function: Execute specific tasks and operations within a flow, such as creating records, sending emails, requesting approvals, or integrating with external systems. For more information about the wfa.action function, see [wfa.action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+-   **wfa.flow\_logic** function: Control how flows execute, providing conditional branching, iteration, and flow structuring capabilities. For more information about wfa.flow\_logic function, see [wfa.flow\_logic function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
 
  You can use these parameter values in the Flow body function.
 
@@ -465,7 +465,7 @@ export const changeRequestApprovalNotificationFlow = Flow(
 
 ## Subflow object
 
-Create a subflow \[sys\_hub\_flow\] to run a reusbale sequence of actions and flow logic when called by a flow or API.
+Create a subflow \[sys\_hub\_flow\] to run a reusable sequence of actions and flow logic when called by a flow or API.
 
 Subflows run when called by a flow or an API. Use subflows for on-demand automation that can be called by multiple flows.
 
@@ -513,7 +513,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -681,8 +681,8 @@ Function
 
 **Flow body** is an **Arrow function** in TypeScript that represents the execution steps in the flow. The Flow Body receives the **\_params** parameter as its input, which contains the **inputs** and **flowVariables** objects.The steps in the **Flow body** consist of these function types:
 
--   **wfa.action** function: Execute specific tasks and operations within a flow, such as creating records, sending emails, requesting approvals, or integrating with external systems. For more information about the wfa.action function, see [wfa.action function](fluent-flow-api.md#).
--   **wfa.flow\_logic** function: Control how flows execute, providing conditional branching, iteration, and flow structuring capabilities. For more information about wfa.flow\_logic function, see [wfa.flow\_logic function](fluent-flow-api.md#).
+-   **wfa.action** function: Execute specific tasks and operations within a flow, such as creating records, sending emails, requesting approvals, or integrating with external systems. For more information about the wfa.action function, see [wfa.action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+-   **wfa.flow\_logic** function: Control how flows execute, providing conditional branching, iteration, and flow structuring capabilities. For more information about wfa.flow\_logic function, see [wfa.flow\_logic function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
 
  You can use these parameter values in the Flow body function.
 
@@ -900,13 +900,14 @@ The following types of action instances are supported:
 -   trigger.scheduled.repeat
 -   trigger.scheduled.runOnce
 -   trigger.application.inboundEmail
+-   trigger.application.serviceCatalog
 -   trigger.application.slaTask
 -   trigger.application.knowledgeManagement
 -   trigger.application.remoteTableQuery
 
 .
 
-For more information about available actions, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
+For more information about available actions, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-triggers.md).
 
 <table id="table_tjy_23k_xhc" class="parameters"><thead><tr><th>
 
@@ -954,7 +955,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -1033,6 +1034,56 @@ wfa.trigger(
 }
 ```
 
+This example starts a flow when a Service Catalog item is requested. This example assumes that you have configured the Service Catalog item to run a flow.
+
+```javascript
+import { Flow, wfa, trigger, action } from "@servicenow/sdk/automation";
+
+Flow(
+  {
+    $id: Now.ID["laptop_fulfillment"],
+    name: "Laptop Fulfillment Workflow"
+  },
+
+  wfa.trigger(
+    trigger.application.serviceCatalog,
+    { $id: Now.ID["catalog_trigger"] },
+    {
+      run_flow_in: "background"
+    }
+  ),
+
+  _params => {
+    // Log the catalog request
+    wfa.action(
+      action.core.log,
+      { $id: Now.ID["log_request"] },
+      {
+        log_level: "info",
+        log_message: `Processing catalog request: ${wfa.dataPill(_params.trigger.request_item, "string")}`
+      }
+    );
+
+    // Create fulfillment task
+    wfa.action(
+      action.core.createCatalogTask,
+      { $id: Now.ID["create_task"] },
+      {
+        ah_requested_item: wfa.dataPill(
+          _params.trigger.request_item,
+          "reference"
+        ),
+        ah_short_description: "Fulfill laptop request",
+        ah_fields: TemplateValue({
+          assignment_group: "Hardware Fulfillment Team",
+          priority: "3"
+        })
+      }
+    );
+  }
+);
+```
+
 ## wfa.action function
 
 Run a specific action instance from a flow or subflow. Actions determine what data is generated, updated, or retrieved.
@@ -1054,6 +1105,10 @@ The following types of action instances are supported:
 -   action.core.askForApproval
 -   action.core.waitForApproval
 -   action.core.createTask
+-   action.core.createCatalogTask
+-   action.core.submitCatalogItemRequest
+-   action.core.getCatalogVariables
+-   action.core.recordProducer
 -   action.core.log
 -   action.core.waitForCondition
 -   action.core.waitForMessage
@@ -1061,7 +1116,7 @@ The following types of action instances are supported:
 
 .
 
-For more information about available actions, see [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md).
+For more information about available actions, see [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-actions.md).
 
 <table id="table_zyb_kqj_xhc" class="parameters"><thead><tr><th>
 
@@ -1109,7 +1164,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -1277,7 +1332,7 @@ The following types of flow logic instances are supported:
 
 .
 
-For more information about available flow logic, see [Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md).
+For more information about available flow logic, see [Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-logic.md).
 
 <table id="table_nbq_m5j_xhc" class="parameters"><thead><tr><th>
 
@@ -1313,7 +1368,7 @@ String or Number
 
 </td><td>
 
-Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](fluent-constructs.md).Format: `Now.ID['String' or Number]`
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
 
 </td></tr><tr><td>
 
@@ -1425,8 +1480,8 @@ Function
 
 </td><td>
 
-**Flow logic body** is an **Arrow function** in TypeScript that represents the execution steps in the flow logic. The Flow Body receives the **\_params** parameter as its input, which contains the **wfa.trigger** and **flowVariables** objects. The steps in the **Flow logic body** consist of these functions calls:-   **wfa.action** function: Run a specific action instance from a flow or subflow. Actions determine what data is generated, updated, or retrieved.. For more information about the wfa.action function, see [wfa.action function](fluent-flow-api.md#).
--   **wfa.flow\_logic** function: Run a specific flow logic instance from a flow or subflow. Flow logic determines how and when data is used. For more information about the wfa.flow\_logic function, see [wfa.flow\_logic function](fluent-flow-api.md#).
+**Flow logic body** is an **Arrow function** in TypeScript that represents the execution steps in the flow logic. The Flow Body receives the **\_params** parameter as its input, which contains the **wfa.trigger** and **flowVariables** objects. The steps in the **Flow logic body** consist of these functions calls:-   **wfa.action** function: Run a specific action instance from a flow or subflow. Actions determine what data is generated, updated, or retrieved.. For more information about the wfa.action function, see [wfa.action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+-   **wfa.flow\_logic** function: Run a specific flow logic instance from a flow or subflow. Flow logic determines how and when data is used. For more information about the wfa.flow\_logic function, see [wfa.flow\_logic function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
 
 </td></tr></tbody>
 </table>This example shows checking for conditions in the trigger record. If the current record has a priority of 1, it assigns the record to a critical priority team. Else If the current record has a priority value of 2, it assigns the record to a high priority team. If neither condition is met, the record is assigned to a general team.
@@ -1807,5 +1862,194 @@ export const emailIncidentTaskFlow = Flow(
         })
     }
 )
+```
+
+## wfa.subflow function
+
+Run a specific subflow from a parent flow or subflow.
+
+Create a subflow object to run a reusable sequence of actions and flow logic. To create a subflow object, see [Subflow object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-flow-api.md).
+
+Call a specific subflow by adding a wfa.subflow function to the **Flow Body** function of a Flow or Subflow object.
+
+<table id="table_ozs_2mk_xhc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+subflow
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the specific subflow to run. All subflow names use a dot notation that starts with `action.core`. For example, `action.core.lookUpRecord`, `action.core.lookUpRecords`, `action.core.createRecord`, or `action.core.updateRecord`.
+
+</td></tr><tr><td>
+
+configuration
+
+</td><td>
+
+Object
+
+</td><td>
+
+Required. An object containing the metadata configuration properties for the Fluent object or function.
+
+</td></tr><tr><td>
+
+$id
+
+</td><td>
+
+String or Number
+
+</td><td>
+
+Required. A unique ID for the metadata object. When you build the application, this ID is hashed into a unique sys\_id. For more information, see [ServiceNow Fluent language constructs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/fluent-constructs.md).Format: `Now.ID['String' or Number]`
+
+</td></tr><tr><td>
+
+annotation
+
+</td><td>
+
+String
+
+</td><td>
+
+Text description of the subflow to display in the editor.
+
+</td></tr><tr><td>
+
+inputs
+
+</td><td>
+
+Object
+
+</td><td>
+
+An object containing any subflow input parameters required by the subflow such as `subject` or `body`.
+
+</td></tr><tr><td>
+
+waitForCompletion
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Option to pause the parent calling flow or subflow until the subflow completes running.Valid values: true, false
+
+Default: false
+
+</td></tr></tbody>
+</table>This example creates a subflow object that can be called by the constant name notifyUserSubflow.
+
+```javascript
+// File: fluent/flows/notify-user-subflow.now.ts
+import { Subflow, wfa, action } from "@servicenow/sdk/automation";
+import { StringColumn, BooleanColumn } from "@servicenow/sdk/core";
+
+export const notifyUserSubflow = Subflow(
+  {
+    $id: Now.ID["notify_user_subflow"],
+    name: "Notify User Subflow",
+    runAs: "system",
+    inputs: {
+      userId: StringColumn({ label: "User Sys ID", mandatory: true }),
+      message: StringColumn({ label: "Message", mandatory: true })
+    },
+    outputs: {
+      notified: BooleanColumn({ label: "Notified", mandatory: true })
+    }
+  },
+  params => {
+    wfa.action(
+      action.core.log,
+      { $id: Now.ID["log_notify"], annotation: "Log notification" },
+      {
+        log_level: "info",
+        log_message: `Notifying user: ${wfa.dataPill(params.inputs.userId, "string")} — ${wfa.dataPill(params.inputs.message, "string")}`
+      }
+    );
+
+    wfa.flowLogic.assignSubflowOutputs(
+      { $id: Now.ID["assign_notify_outputs"] },
+      params.outputs,
+      { notified: true }
+    );
+  }
+);
+```
+
+This example calls the notifyUserSubflow subflow that was created by the previous Subflow object.
+
+```javascript
+// File: fluent/flows/incident-created-flow.now.ts
+import { Flow, wfa, trigger, action } from "@servicenow/sdk/automation";
+import { notifyUserSubflow } from "./notify-user-subflow.now";
+
+Flow(
+  {
+    $id: Now.ID["incident_created_flow"],
+    name: "Incident Created Flow",
+    runAs: "system"
+  },
+  wfa.trigger(
+    trigger.record.created,
+    { $id: Now.ID["trg_incident_created"] },
+    {
+      table: "incident",
+      condition: "priority=1",
+      run_flow_in: "background",
+      run_on_extended: "false",
+      run_when_user_list: [],
+      run_when_setting: "both",
+      run_when_user_setting: "any"
+    }
+  ),
+  _params => {
+    const result = wfa.subflow(
+      notifyUserSubflow,
+      {
+        $id: Now.ID["notify_user_instance"],
+        annotation: "Notify assigned user"
+      },
+      {
+        userId: wfa.dataPill(
+          _params.trigger.current.assigned_to.sys_id,
+          "string"
+        ),
+        message: "A P1 incident has been assigned to you.",
+        waitForCompletion: true
+      }
+    );
+
+    wfa.action(
+      action.core.log,
+      { $id: Now.ID["log_notify_result"] },
+      {
+        log_level: "info",
+        log_message: `Subflow notified: ${wfa.dataPill(result.notified, "boolean")}`
+      }
+    );
+  }
+);
 ```
 

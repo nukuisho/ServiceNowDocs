@@ -2,6 +2,7 @@
 title: Types of external dependencies
 description: The Project management application supports two types of external dependencies - hard and soft.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/external-dependency-types.html
 release: australia
 product: Project Management
 classification: project-management
@@ -15,48 +16,46 @@ breadcrumb: [Basics of Project Management, Exploring Project Management, Project
 
 The Project management application supports two types of external dependencies - hard and soft.
 
-The type of external dependency can be set during [adding a dependency](../task/create-external-dependency-planning-console.md) between two projects tasks on the planning console.
+The type of external dependency can be set during [adding a dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-external-dependency-planning-console.md) between two projects tasks on the planning console.
 
 ## Hard dependencies
 
-In a hard dependency, any changes made in the predecessor project are automatically propagated to the successor project. A [notification](../reference/r_PlanningConsoleTasks.md#table_ukw_ftd_2s) for the changes made is triggered in the successor project. The following image shows the process flow for a hard dependency type:
+In a hard dependency, any changes made in the predecessor project are automatically propagated to the successor project. A [notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_PlanningConsoleTasks.md) for the changes made is triggered in the successor project. The following image shows the process flow for a hard dependency type:
 
-![Process flow for a hard dependency type](../image/ExternalHardDependency.png "External hard dependency")
+\[Omitted image "ExternalHardDependency.png"\] Alt text: Process flow for a hard dependency type
 
 ## Soft dependencies
 
 In a soft dependency, any changes made in the predecessor project trigger a notification in the successor project. As the project manager of the successor project, you can choose to accept or reject the changes in the notification. If you accept the notification changes, the changes in the predecessor project are synced to the successor project and the project is recalculated. If you reject the notification changes, the changes are not propagated to the successor project. The following image shows the process flow for a soft dependency type:
 
-![Process flow for a soft dependency type](../image/ExternalSoftDependency.png "External soft dependency")
+\[Omitted image "ExternalSoftDependency.png"\] Alt text: Process flow for a soft dependency type
 
-**Parent Topic:**[Basics of Project Management](c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
 
-[Parent-child rollup task calculations](c_ParentChildRollupTaskCalcs.md)
+[Parent-child rollup task calculations]()
 
-[Project tasks](../task/t_CreateAProjectTask.md)
+[Project tasks]()
 
-[Schedule conflicts between project tasks](scheduling-conflicts.md)
+[Schedule conflicts between project tasks]()
 
-[Change requests and project tasks](c_ChangeRequestsAndProjectTasks.md)
+[Change requests and project tasks]()
 
-[Project task checklists](c_project-task-checklists.md)
+[Project task checklists]()
 
-[Task resources](c_TaskResources.md)
+[Task resources]()
 
-[Project and project task states](project-and-project-task-states.md)
+[Project and project task states]()
 
-[Composite Fields](pm-composite-fields.md)
+[Composite Fields]()
 
-[Cost plan breakdown](cost-plan-breakdown.md#)
+[Cost plan breakdown]()
 
-[Actual project costs](actual-project-costs.md)
+[Actual project costs]()
 
-[Project and portfolio funding](../../project-portfolio-suite-with-financials/concept/c_ProjectAndPortfolioFunding.md)
+[Project and portfolio funding]()
 
-[Project scheduling in Project Management](project-scheduling.md)
-
-[Task constraints](task-constraints-project-management.md)
+[Project scheduling in Project Management]()
 

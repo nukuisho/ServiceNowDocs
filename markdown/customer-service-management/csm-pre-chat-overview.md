@@ -2,6 +2,7 @@
 title: Pre-chat surveys
 description: Use pre-chat surveys to capture preliminary information from a customer. From the responses received, Advanced Work Assignment \(AWA\) routes chat conversations to appropriate queues and groups. Before entering into a chat conversation, the assigned agent can review the context of the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-pre-chat-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Pre-chat surveys provide the following advantages that help agents efficiently h
 
 -   **Routing chats to the correct queue**
 
-    Advanced Work Assignment \(AWA\) leverages information captured through pre-chat surveys to route a chat to the right queue. For more information, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-queues.md).
+    Advanced Work Assignment \(AWA\) leverages information captured through pre-chat surveys to route a chat to the right queue. For more information, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-queues.md).
 
 -   **Identifying topics related to the chat issue**
 
@@ -36,7 +37,7 @@ Pre-chat surveys provide the following advantages that help agents efficiently h
 
 ## Configuring Pre-chat if you have upgraded
 
-Some settings need to be configured if you have upgraded your ServiceNow® instance. For more information, see [Configure pre-chat after upgrading](../task/csm-configure-pre-chat-upgrade.md).
+Some settings need to be configured if you have upgraded your ServiceNow® instance. For more information, see [Configure pre-chat after upgrading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-configure-pre-chat-upgrade.md).
 
 ## Plugins
 
@@ -45,5 +46,5 @@ You must activate the Consumer Service Portal \(com.glide.service-portal.consume
 **Related topics**  
 
 
-[Pre-chat from the Consumer Service Portal](../task/csm-pre-chat.md)
+[Pre-chat from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-pre-chat.md)
 

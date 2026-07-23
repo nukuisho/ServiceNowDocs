@@ -2,6 +2,7 @@
 title: Domain separation and the Content Management System
 description: Domain separation is supported in the Content Management System. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/domain-separation-content-management.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -22,22 +23,22 @@ Domain separation is supported in the Content Management System. Domain separati
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Content Management System](c_ContentManagementSystem.md)
+**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 **Related topics**  
 
 
-[Content Management design](c_ContentManagementPlanning.md)
+[Content Management design]()
 
-[Configure Content Management sites](../task/t_CreateASite.md)
+[Configure Content Management sites]()
 
-[Content Management integration points](c_CMSIntegrationPoints.md)
+[Content Management integration points]()
 
-[Content Management testing](c_ContentManagementTesting.md)
+[Content Management testing]()
 
-[Global search in Content Management](c_UseGlobalSearchContentManagement.md)
+[Global search in Content Management]()
 
-[CMS translation](c_CMSTranslation.md#)
+[CMS translation]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

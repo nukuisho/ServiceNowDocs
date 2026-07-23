@@ -2,6 +2,7 @@
 title: Administer the ServiceNow AI Platform
 description: As a platform administrator, you have the power of the ServiceNow AI Platform at your fingertips. The ServiceNow AI Platform is an application platform as a service that automates business processes across the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/intro-now-platform-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -18,23 +19,23 @@ Choose one of these tiles to get started.
 
 <table id="table_oyp_mhr_r5b" class="nav-card"><tbody><tr><td>
 
-[Start here to learn about the ServiceNow AI Platform![](../../../reuse/icons/brand-icons/bus-power.svg)Learn how the ServiceNow AI Platform works.](get-started-now-platform.md)
+[Start here to learn about the ServiceNow AI Platform\[Omitted image "bus-power.svg"\] Alt text:Learn how the ServiceNow AI Platform works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/get-started-now-platform.md)
 
 </td><td>
 
-[Configure ServiceNow AI Platform core features![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure settings that affect global ServiceNow AI Platform behavior and behavior for ServiceNow AI Platform applications.](config-now-platform-core-features.md)
+[Configure ServiceNow AI Platform core features\[Omitted image "bus-sdlc.svg"\] Alt text:Configure settings that affect global ServiceNow AI Platform behavior and behavior for ServiceNow AI Platform applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-now-platform-core-features.md)
 
 </td></tr><tr><td>
 
-[Maintain and monitor the ServiceNow AI Platform![](../../../reuse/icons/brand-icons/ind-maintenance-repair-operations.svg)Identify health issues and settings that you need to change. Optimize ServiceNow AI Platform performance using performance monitoring and diagnostics.](maintain-monitor-now-platform.md)
+[Maintain and monitor the ServiceNow AI Platform\[Omitted image "ind-maintenance-repair-operations.svg"\] Alt text:Identify health issues and settings that you need to change. Optimize ServiceNow AI Platform performance using performance monitoring and diagnostics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/maintain-monitor-now-platform.md)
 
 </td><td>
 
-[Upgrade to the latest version![](../../../reuse/icons/brand-icons/bus-release.svg)Plan and manage your ServiceNow AI Platform upgrades using Upgrade Center. Monitor upgrade progress and view a summary of upgrade results with Upgrade Monitor.](upgrade-now-platform.md)
+[Upgrade to the latest version\[Omitted image "bus-release.svg"\] Alt text:Plan and manage your ServiceNow AI Platform upgrades using Upgrade Center. Monitor upgrade progress and view a summary of upgrade results with Upgrade Monitor.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-now-platform.md)
 
 </td></tr><tr><td>
 
-[Additional Resources![](../image/adm-additional-resources.png)Upgrade your platform administrator experience to the next level](../reference/adm-additional-resources.md)
+[Additional Resources\[Omitted image "adm-additional-resources.png"\] Alt text:Upgrade your platform administrator experience to the next level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/adm-additional-resources.md)
 
 </td><td>
 
@@ -57,7 +58,7 @@ Learn about the ServiceNow AI Platform and these important applications:
 
     One location to install, update, and manage licensed applications and plugins for your instance.
 
--   **Now Assist for Setup**
+-   **Setup Hub**
 
     A guided experience to install, configure, and deploy certain ServiceNow products.
 
@@ -66,7 +67,7 @@ Learn about the ServiceNow AI Platform and these important applications:
     A centralized management experience to help you understand your subscriptions and entitlements.
 
 
-![Subscription Management overview.](../../subscription-management/image/subscription-management-overview.png)
+\[Omitted image "subscription-management-overview.png"\] Alt text: Subscription Management overview.
 
 ## Configure ServiceNow AI Platform core features
 

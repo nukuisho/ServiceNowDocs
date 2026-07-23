@@ -2,13 +2,14 @@
 title: Design considerations for prompting
 description: Generate your desired test by following the guided principles of effective prompting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/tg-prompt-design-considerations.html
 release: australia
 product: Test Generation
 classification: test-generation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Test generation references, Test generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test generation references, Test generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Design considerations for prompting
@@ -90,10 +91,10 @@ The bad prompt is incomplete for the following reasons:-   Catalog Item entity h
 -   Missing $ sign in price
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Test generation references](tg-reference.md)
+</table>**Parent Topic:**[Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-reference.md)
 
 **Related topics**  
 
 
-[Test generation design considerations](tg-summary.md)
+[Test generation design considerations]()
 

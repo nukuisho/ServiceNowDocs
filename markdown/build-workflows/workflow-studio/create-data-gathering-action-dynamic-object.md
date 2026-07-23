@@ -2,6 +2,7 @@
 title: Create a data gathering action for a dynamic object
 description: Create an action to collect output values. Then, pass the values to a parent action as a dynamic object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-data-gathering-action-dynamic-object.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,11 +20,11 @@ Create an action to collect output values. Then, pass the values to a parent act
 
 Role required: action\_designer or admin
 
-**Note:** Dynamic outputs are not available in the base system. To use dynamic outputs in Workflow Studio, you must [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-integrationhub.md).
+**Note:** Dynamic outputs are not available in the base system. To use dynamic outputs in Workflow Studio, you must Request an Integration Hub plugin.
 
 ## About this task
 
-These steps allow you to create a generic data gathering action for a dynamic output. To see working examples of data gathering actions for dynamic outputs, see [Get started with dynamic outputs](getting-started-dynamic-output.md#).
+These steps allow you to create a generic data gathering action for a dynamic output. To see working examples of data gathering actions for dynamic outputs, see [Get started with dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md).
 
 ## Procedure
 
@@ -35,11 +36,11 @@ These steps allow you to create a generic data gathering action for a dynamic ou
 
 4.  In the **Name** field, enter a name for your action, choose the proper **Application** scope, and then select **Submit**.
 
-5.  In the Action Outline, select the add a new step icon \(![Add a new step icon](../images/add-new-step-icon.png)\) under Inputs and select the **REST** step.
+5.  In the Action Outline, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: Add a new step icon\) under Inputs and select the **REST** step.
 
-    Configure your REST step to get data from the proper Base URL and Resource Path with any applicable Query Parameters for the HTTP Method `GET`. For more information on using the REST step in Integration Hub, see [REST step](../reference/rest-request-action-designer.md) and [REST in IntegrationHub](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_rest_paris_rest_in_integrationhub/app_store_learnv2_rest_paris_rest_in_integrationhub_objectives?v=paris).
+    Configure your REST step to get data from the proper Base URL and Resource Path with any applicable Query Parameters for the HTTP Method `GET`. For more information on using the REST step in Integration Hub, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/rest-request-action-designer.md) and [REST in IntegrationHub](https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_rest_paris_rest_in_integrationhub/app_store_learnv2_rest_paris_rest_in_integrationhub_objectives?v=paris).
 
-6.  In the Action Outline, select the add a new step icon \(![Add a new step icon](../images/add-new-step-icon.png)\) under your REST step and select the **Script** step.
+6.  In the Action Outline, select the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: Add a new step icon\) under your REST step and select the **Script** step.
 
     This script step must transform the response from the REST step's Response Body into a format that defines the schema of a dynamic object output for a parent action. Your script step must:
 
@@ -113,7 +114,7 @@ These steps allow you to create a generic data gathering action for a dynamic ou
            }
         ```
 
-        **Note:** Supported [action data types](../reference/action-inputs-outputs.md) for the `type` property include:
+        **Note:** Supported [action data types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md) for the `type` property include:
 
         -   `string`
         -   `integer`
@@ -135,29 +136,29 @@ These steps allow you to create a generic data gathering action for a dynamic ou
 
     2.  In the Dynamic Options, select a data gathering action for the **Action** option.
 
-        For examples of dynamic output data gathering actions, see [Get started with dynamic outputs](getting-started-dynamic-output.md#).
+        For examples of dynamic output data gathering actions, see [Get started with dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-dynamic-output.md).
 
     3.  If needed set the **Depends On Another input** option, and select the input.
 
     Create an outputs of type Dynamic Object.
 
-8.  Select **Save** and [test the action](test-action.md).
+8.  Select **Save** and [test the action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-action.md).
 
     In the execution details, your data gathering action runs successfully if the runtime value for `output` contains the `data` property in the proper format.
 
 9.  Select **Publish** to make the action available to other flows or actions within the same application scope.
 
-    ![Use your data gathering action to populate schema values for a dynamic object.](../images/create-data-gathering-action-dynamic-object-result.png)
+    \[Omitted image "create-data-gathering-action-dynamic-object-result.png"\] Alt text: Use your data gathering action to populate schema values for a dynamic object.
 
     You can now use your data gathering action to populate the schema values for a dynamic object in a parent action.
 
 
-**Parent Topic:**[Dynamic outputs](../concept/dynamic-outputs.md)
+**Parent Topic:**[Dynamic outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/dynamic-outputs.md)
 
 **Related topics**  
 
 
-[Get started with dynamic outputs](getting-started-dynamic-output.md#)
+[Get started with dynamic outputs]()
 
-[Dynamic output configuration options](../reference/dynamic-output-options.md)
+[Dynamic output configuration options]()
 

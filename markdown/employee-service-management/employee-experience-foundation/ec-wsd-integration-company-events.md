@@ -2,6 +2,7 @@
 title: Workplace Service Delivery Integration
 description: Create new reservations and make changes to existing reservations for your company events from the Workplace Service Management portal, which integrates with Employee Center Pro.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-wsd-integration-company-events.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +30,7 @@ The workplace service delivery integrates with employee center pro to provide yo
 
 1.  Navigate to **Workplace Service Management** &gt; **Portal** &gt; **New Reservation.**
 
-2.  ![image.wsd-integration-wrm-nr]
+2.  \[Omitted image "image.wsd-integration-wrm-nr"\] Alt text: Create a new reservation through WSD portal
 
 3.  Enter the day and time for the event to start and end.
 
@@ -37,7 +38,7 @@ The workplace service delivery integrates with employee center pro to provide yo
 
 4.  Select **Search** to populate the **Search results** for a list of available buildings for the day and time you selected.
 
-5.  ![image.wsd-integration-make-reservation]
+5.  \[Omitted image "image.wsd-integration-make-reservation"\] Alt text: Set a day and time for your reservation and see search results
 
 6.  Select **Next**.
 
@@ -49,7 +50,7 @@ The workplace service delivery integrates with employee center pro to provide yo
 
 9.  Review the **Reservation summary** and select **Submit reservation**.
 
-10. ![image.wsd-integration-reservation-details]
+10. \[Omitted image "image.wsd-integration-reservation-details"\] Alt text: See your reservation details and summary to validate the information you selected
 
     **Note:** Any **Workplace User** can see the **Reservation details** and **Reservation summary**; however, only a **Content Manager** is able to save the event or make changes to the event in the content library.
 
@@ -58,19 +59,19 @@ The workplace service delivery integrates with employee center pro to provide yo
     New reservations or reservation changes are successfully executed and reflected within the portal reservation details.
 
 
--   **[Create Company Event with Workplace Service Management](ec-wsd-integration-create-company-event.md)**  
+-   **[Create Company Event with Workplace Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-wsd-integration-create-company-event.md)**  
 Create new company events and make changes to existing company events from the Workplace Service Management portal, which integrates with Employee Center Pro.
--   **[Company Event Troubleshooting](ec-wsd-integration-troubleshooting.md)**  
+-   **[Company Event Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-wsd-integration-troubleshooting.md)**  
 Company event troubleshooting steps help resolve reservation changes and cancellations.
 
-**Parent Topic:**[Company events](../concept/ec-company-events.md)
+**Parent Topic:**[Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-company-events.md)
 
 **Related topics**  
 
 
-[Create Company Event with Workplace Service Management](ec-wsd-integration-create-company-event.md)
+[Create Company Event with Workplace Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-wsd-integration-create-company-event.md)
 
-[Create a company event](create-company-event.md)
+[Create a company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-company-event.md)
 
-[Publishing company events](ec-publish-company-events.md)
+[Publishing company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-company-events.md)
 

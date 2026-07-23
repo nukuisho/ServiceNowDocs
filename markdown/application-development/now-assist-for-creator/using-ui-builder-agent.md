@@ -2,13 +2,14 @@
 title: Using UI Builder agent
 description: Use the UI Builder agent to learn about features and functionality, understand your page setup, and accelerate page configuration.Use this feature to learn about UI Builder.Use this feature to understand the architecture and functionality of a page and its elements.Use this feature to build and modify your page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/using-ui-builder-agent.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 5
-breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Using UI Builder agent
@@ -19,7 +20,7 @@ The UI Builder agent introduces key features to enhance user experience. It offe
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
-**Parent Topic:**[Using UI generation](using-ui-generation.md)
+**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-ui-generation.md)
 
 ## Learn about UI Builder
 
@@ -27,7 +28,7 @@ Use this feature to learn about UI Builder.
 
 ### Before you begin
 
-Install Now Assist for UI generation application. For more information, see [Install UI generation](../task/install-ui-generation.md).
+Install Now Assist for UI generation application. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-ui-generation.md).
 
 Role required: ui\_builder\_admin
 
@@ -41,7 +42,7 @@ This feature answers your questions about the UI Builder. It provides informatio
 
 2.  Create a new experience or navigate to an existing one.
 
-    For more information about creating an experience, see [Create an AI-generated experience](../task/generate-ui.md#).
+    For more information about creating an experience, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-ui.md).
 
 3.  Create a new page or navigate to an existing one.
 
@@ -60,7 +61,7 @@ The UI Builder agent processes your question and provides answers, along with re
 
 For example:
 
-![In the Now Assist panel, ask a question about UI Builder to get instant answers.](../image/ui-gen-agent-learn-uib.png)
+\[Omitted image "ui-gen-agent-learn-uib.png"\] Alt text: In the Now Assist panel, ask a question about UI Builder to get instant answers.
 
 **Note:** The UI Builder agent operates only within UI Builder.
 
@@ -70,7 +71,7 @@ Use this feature to understand the architecture and functionality of a page and 
 
 ### Before you begin
 
-Install Now Assist for UI generation application. For more information, see [Install UI generation](../task/install-ui-generation.md).
+Install Now Assist for UI generation application. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-ui-generation.md).
 
 Role required: ui\_builder\_admin
 
@@ -84,7 +85,7 @@ This feature provides insights into how a page is constructed, including its des
 
 2.  Create a new experience or navigate to an existing one.
 
-    For more information about creating an experience, see [Create an AI-generated experience](../task/generate-ui.md#).
+    For more information about creating an experience, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-ui.md).
 
 3.  Create a new page or navigate to an existing one.
 
@@ -101,7 +102,7 @@ Based on your request, the UI Builder agent provides a detailed explanation of t
 
 For example:
 
-![In the Now Assist panel, ask a question about the page configuration to get instant answers.](../image/ui-gen-agent-understand-page-configpng.png)
+\[Omitted image "ui-gen-agent-understand-page-configpng.png"\] Alt text: In the Now Assist panel, ask a question about the page configuration to get instant answers.
 
 **Note:**
 
@@ -114,7 +115,7 @@ Use this feature to build and modify your page.
 
 ### Before you begin
 
-Install Now Assist for UI generation application. For more information, see [Install UI generation](../task/install-ui-generation.md).
+Install Now Assist for UI generation application. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-ui-generation.md).
 
 Role required: ui\_builder\_admin
 
@@ -128,7 +129,7 @@ This feature enables you to easily modify and enhance your page. You can apply d
 
 2.  Create a new experience or navigate to an existing one.
 
-    For more information about creating an experience, see [Create an AI-generated experience](../task/generate-ui.md#).
+    For more information about creating an experience, see [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-ui.md).
 
 3.  Create a new page or navigate to an existing one.
 
@@ -143,7 +144,7 @@ This feature enables you to easily modify and enhance your page. You can apply d
 
 UI Builder agent implements the modifications and enhancements to the design and functionality of your page.
 
-For example: ![In the Now Assist panel, request a page modification.](../image/ui-gen-agent-accelerate-page-config.png)
+For example: \[Omitted image "ui-gen-agent-accelerate-page-config.png"\] Alt text: In the Now Assist panel, request a page modification.
 
 **Note:**
 
@@ -157,7 +158,7 @@ For example: ![In the Now Assist panel, request a page modification.](../image/u
 **Related topics**  
 
 
-[UI Builder Agent](uib-builder-agent-concept.md)
+[UI Builder Agent]()
 
-[Use case: Using UI Builder Agent](use-case-ui-builder-agent.md)
+[Use case: Using UI Builder Agent]()
 

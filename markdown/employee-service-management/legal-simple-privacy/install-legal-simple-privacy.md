@@ -2,6 +2,7 @@
 title: Install Legal Simple Privacy
 description: Install the a Legal Simple Privacy \(sn\_lg\_privacy​\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-privacy/install-legal-simple-privacy.html
 release: australia
 product: Legal Simple Privacy
 classification: legal-simple-privacy
@@ -58,14 +59,14 @@ The following items are installed with Legal Simple Privacy:
 
 ## What to do next
 
-\(Optional\) Reconfigure the forms in the application to use the new privacy assessment record producer, catalog category, and content taxonomy. For more information, see [Reconfigure forms to use new components](reconfigure-post-install-privacy.md)
+\(Optional\) Reconfigure the forms in the application to use the new privacy assessment record producer, catalog category, and content taxonomy. For more information, see [Reconfigure forms to use new components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-privacy/reconfigure-post-install-privacy.md)
 
-Use the Legal Service Delivery Guided Setup to configure the application on your instance. To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+Use the Legal Service Delivery Guided Setup to configure the application on your instance. To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-setup.md).
 
-**Parent Topic:**[Configure Legal Simple Privacy](../concept/setting-up-legal-simple-privacy.md)
+**Parent Topic:**[Configure Legal Simple Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-privacy/setting-up-legal-simple-privacy.md)
 
 **Related topics**  
 
 
-[Reconfigure forms to use new components](reconfigure-post-install-privacy.md)
+[Reconfigure forms to use new components]()
 

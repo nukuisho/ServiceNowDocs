@@ -2,11 +2,12 @@
 title: Creating set aggregates
 description: You can collect the average, count, maximum, minimum, and sum of the data in any field in a set by using a set aggregate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/creating\_set\_aggregates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Configure sets, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure sets, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Creating set aggregates
@@ -19,11 +20,11 @@ To create an aggregate, open a set, scroll to the subfield that you want to aggr
 
 You can add the aggregate to the layout just like any other field, and deploy.
 
-![Set layout](../images/cpq-sets-aggregates-1.png)
+\[Omitted image "cpq-sets-aggregates-1.png"\] Alt text: Set layout
 
 Below is the new sum aggregate during runtime:
 
-![Create set screen](../images/cpq-sets-aggregates-2.png)
+\[Omitted image "cpq-sets-aggregates-2.png"\] Alt text: Create set screen
 
 **Note:** The Sandwich Sum aggregate represents the sum of the Quantity field. This is not to be confused with the Sandwich Size of 3, which is the number of rows in the set.
 
@@ -39,19 +40,19 @@ This aggregate can cause the most confusion. Count can be defined as “count th
 
 For both single-select and multi-select picklists, the count aggregate is based on how many indexes have a value selected. The Count aggregate for the following sample field would be 2, because indexes 1 and 2 have values. Indexes 3, 4, and 5 donʼt count because they are blank.
 
-![The Count aggregate](../images/cpq-sets-aggregates-5.png)
+\[Omitted image "cpq-sets-aggregates-5.png"\] Alt text: The Count aggregate
 
 **Note:** For multi-select picklists, it does not matter how many values are selected—it counts as one.
 
 ## Number field
 
-![Number field](../images/cpq-sets-aggregates-3.png)
+\[Omitted image "cpq-sets-aggregates-3.png"\] Alt text: Number field
 
 The count aggregate on this field would be 3 \(from index 1, 2, and 3\).
 
 ## Boolean field
 
-![Boolean field](../images/cpq-sets-aggregates-4.png)
+\[Omitted image "cpq-sets-aggregates-4.png"\] Alt text: Boolean field
 
 The count aggregate on this would be 2.
 
@@ -59,7 +60,7 @@ The count aggregate on this would be 2.
 
 An average aggregate runs on all iterations of the number field in the set, including zero values. This is in contrast to count aggregates, which ignore zero number values.
 
-![The Average, Minimum, Maximum, and Sum aggregates](../images/cpq-sets-aggregates-7.png)
+\[Omitted image "cpq-sets-aggregates-7.png"\] Alt text: The Average, Minimum, Maximum, and Sum aggregates
 
 In this number field, indexes 1, 2, 3, and 4 add up to a quantity of 8. Since Index 3 with the 0 value is included, 4 is the divisor and the average is 8/4=2.
 
@@ -67,7 +68,7 @@ This “including-zero” behavior is true for Sum aggregates, Minimum aggregate
 
 An average aggregate on a Boolean field will usually be in decimal form. It lets the user know what percentage of the indexes are selected as true. In the following Boolean field, three of the six indexes' Select Option values are true, and the resulting aggregate is 0.5.
 
-![The Average, Minimum, Maximum, and Sum aggregates](../images/cpq-sets-aggregates-8.png)
+\[Omitted image "cpq-sets-aggregates-8.png"\] Alt text: The Average, Minimum, Maximum, and Sum aggregates
 
 A sum aggregate will show the number of Boolean fields marked as true. In the example provided, the aggregate is 3.
 
@@ -81,19 +82,19 @@ Four of the five aggregates \(average, minimum, maximum and sum\) work only on n
 
 For example, suppose two fields were created. Both fields had the same field options, but one is a single-select picklist and one is a multi-select picklist. Here are the field options:
 
-![Aggregates on picklist subfields](../images/cpq-sets-aggregates-9.png)
+\[Omitted image "cpq-sets-aggregates-9.png"\] Alt text: Aggregates on picklist subfields
 
 The fourth field option uses the word “four” instead of the number 4. As noted above, when deployed and “four” is selected, an error message occurs:
 
-![Aggregates on picklist subfields](../images/cpq-sets-aggregates-10.png)
+\[Omitted image "cpq-sets-aggregates-10.png"\] Alt text: Aggregates on picklist subfields
 
 But if we select the numeric based options, the aggregates work.
 
-![Aggregates on picklist subfields](../images/cpq-sets-aggregates-11.png)
+\[Omitted image "cpq-sets-aggregates-11.png"\] Alt text: Aggregates on picklist subfields
 
 In the following single-select picklist field, there are four indexes. The picklist “Toast Time” has the option label displayed as text, but behind the scenes, the option value is numeric.
 
-![Aggregates on picklist subfields](../images/cpq-sets-aggregates-12.png)
+\[Omitted image "cpq-sets-aggregates-12.png"\] Alt text: Aggregates on picklist subfields
 
 The four values selected are “One Minute” \(1\), ”Two Minutes” \(2\), blank, and “Five Minutes” \(5\). By applying each of the aggregates to the single-select picklist field, the result is:
 
@@ -107,7 +108,7 @@ Keep in mind that blank picklist values count towards the minimum, maximum, sum,
 
 In the following picklist field, Toast Time has been converted into a multi-select picklist. The four indexes have the following option values: \[1, 5\], \[2\], \[ \], and \[2, 5\].
 
-![Aggregates to the field](../images/cpq-sets-aggregates-18.png)
+\[Omitted image "cpq-sets-aggregates-18.png"\] Alt text: Aggregates to the field
 
 By applying each of the aggregates to the field, the results are:
 
@@ -121,10 +122,10 @@ Remember: The average, minimum, maximum and sum aggregates only work for picklis
 
 The following field is the field set up for the examples in this topic. Note that the Comparison Type is Number, and the values are numbers.
 
-![Aggregates to the field](../images/cpq-sets-aggregates-28.png)
+\[Omitted image "cpq-sets-aggregates-28.png"\] Alt text: Aggregates to the field
 
 **Related topics**  
 
 
-[Using sets in layouts](layouts-sets.md)
+[Using sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/layouts-sets.md)
 

@@ -2,13 +2,14 @@
 title: Domain separation and Cloud Cost Management
 description: Domain separation is unsupported for Cloud Cost Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/domain-separation-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Reference, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Domain separation and Cloud Cost Management
@@ -22,7 +23,7 @@ Domain separation is unsupported for Cloud Cost Management. Domain separation en
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Cloud Cost Management reference](reference-cloudinsights.md)
+**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 
 **Related topics**  
 

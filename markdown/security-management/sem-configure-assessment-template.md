@@ -2,9 +2,10 @@
 title: Configure an assessment template
 description: Assessment templates contain the questions prompted during the request process \(such as, when requesting an exception\). The above-mentioned preconfigured templates are provided with smart assessment. You can also create your own templates as required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configure-assessment-template.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Questionnaire support in Exception Management via Smart Assessment, Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -38,5 +39,5 @@ In the Security Exposure Management workspace, you can select the template with 
     -   **Template Categories**: Templates are categorized for easier management. Some template categories are provided by default, for example, Vulnerability Response Questionnaire Templates. Alternatively, you can also create templates of your choice.
     -   **Assessment Targets**: Specifies the table that the template is related to. For VR, it’s the CA table \(Change Approval table\).
 
-**Parent Topic:**[Questionnaire support in Exception Management via Smart Assessment](../concept/sem-smart-assessment-exp-management.md)
+**Parent Topic:**[Questionnaire support in Exception Management via Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-smart-assessment-exp-management.md)
 

@@ -2,11 +2,12 @@
 title: Search and filter connections
 description: Find and explore connections available in external systems through search and filtering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connecthub-search-and-filter-connections.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [View Connections, Build integrations with connectors, Connect, Workflow Data Fabric Home, Workflow Data Fabric]
+breadcrumb: [View Connections, Build integrations with connectors, Connect, Workflow Data Fabric]
 ---
 
 # Search and filter connections

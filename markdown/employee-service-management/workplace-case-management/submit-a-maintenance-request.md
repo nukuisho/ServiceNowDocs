@@ -2,6 +2,7 @@
 title: Submit a maintenance request
 description: Raise a maintenance request for an equipment for a location using either the Workplace Service Portal or the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/submit-a-maintenance-request.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -23,15 +24,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d461772e57">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d471143e57">
 
 Location
 
-</th><th align="left" id="d461772e60">
+</th><th align="left" id="d471143e60">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d461772e66">
+</th></tr></thead><tbody><tr><td id="d471143e66">
 
 **Workplace Service Portal**
 
@@ -51,7 +52,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d461772e136">
+</td></tr><tr><td id="d471143e136">
 
 **Employee Center**
 
@@ -145,36 +146,36 @@ Select the option if you want to add any attachments.
     The maintenance request is submitted. A workplace maintenance case is created and the state is set to Work in Progress.
 
 
-**Parent Topic:**[Requesting a workplace service](../concept/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 
 
-[Reconfigure an office space](Reconfig-office-space-1.md)
+[Reconfigure an office space]()
 
-[Raise help request for a workplace inquiry](submit-gen-workplace-serv-req.md)
+[Raise help request for a workplace inquiry]()
 
-[Raise a move request for a space change](../../workplace-move-mgmt/task/request-desk-change.md)
+[Raise a move request for a space change]()
 
-[Request furniture for a space](request-furniture.md)
+[Request furniture for a space]()
 
-[Raise a space assistance request](../../workplace-space-management/task/raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Submit a catering request](submit-a-catering-request.md)
+[Submit a catering request]()
 
-[Submit heating and cooling request](submit-heating-and-cooling-request.md)
+[Submit heating and cooling request]()
 
-[Submit a badge request](submit-a-badge-request.md)
+[Submit a badge request]()
 
-[Submit a tech support request](submit-a-tech-support-request.md)
+[Submit a tech support request]()
 
-[Submit a cleaning request](submit-a-cleaning-request.md)
+[Submit a cleaning request]()
 
-[Submit an equipment request](submit-a-equipment-request.md)
+[Submit an equipment request]()
 
-[Edit a workplace request](edit-workplace-request.md)
+[Edit a workplace request]()
 
-[Submit an emergency maintenance request](submit-emergency-maint-request.md)
+[Submit an emergency maintenance request]()
 
-[Submit a change event request for a reservation](submit-change-event-reservation.md)
+[Submit a change event request for a reservation]()
 

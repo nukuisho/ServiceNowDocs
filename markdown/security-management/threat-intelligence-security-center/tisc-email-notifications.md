@@ -2,6 +2,7 @@
 title: Email Notifications
 description: Use email notifications to send selected users email notifications about specific tasks within the application, such as updates to observables/indicators/various other objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-email-notifications.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -29,7 +30,7 @@ Email notifications allow administrators to specify:
 
 **Note:** If you want to make changes, then you need to configure whom the email should be sent by modifying the base system rules based on your requirements.
 
-For more information, see [Create an email notification](https://servicenow.com/docs/bundle/washingtondc-platform-administration/page/administer/notification/task/t_CreateANotification.html) section on ServiceNow AI Platform administration documentation.
+For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) section on ServiceNow AI Platform administration documentation.
 
 The following table details the email notification rules that are provisioned in the base system.
 
@@ -44,14 +45,14 @@ The following table details the email notification rules that are provisioned in
 |High Risk Malicious Domain Observable|sn\_sec\_tisc\_domain\_name|
 |Notifying on case updation|sn\_sec\_tisc\_case|
 
-![email notifications](../image/tisc-email-notifications.png "Email Notifications")
+\[Omitted image "tisc-email-notifications.png"\] Alt text: email notifications
 
 **Note:** Clicking on each email notification will take you to the classic UI, so that you can take necessary actions such as viewing or editing or creating the notifications.
 
-**Parent Topic:**[Manage email Notifications](tisc-notifications.md)
+**Parent Topic:**[Manage email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-notifications.md)
 
 **Related topics**  
 
 
-[Email logs](tisc-email-logs.md)
+[Email logs]()
 

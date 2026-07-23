@@ -28,6 +28,6 @@ Role required: admin.
 
 4.  Copy and record the generated value for later use.
 
-    ![Client Secret or Authorization Key](../image/auth-token.png)
+    \[Omitted image "auth-token.png"\] Alt text: Client Secret or Authorization Key
 
 

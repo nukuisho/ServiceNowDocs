@@ -2,6 +2,7 @@
 title: Exploring the 360º view
 description: After you have successfully set up your data registries for the tables you use, you can use the 360º view feature to view the relationships between a selected record and related objects, such as controls, risks, and entity types.After data registries have been set up, you can launch 360º view from any record screen in any GRC workspace application to view relationships between the various types of data associated with the selected record.In the 360º view, you can click on any relationship to view details.As you navigate through 360º view relationship visualizations, the breadcrumbs along the top edge keep track of where you've been and allow you to return to previously viewed information.If you have defined different views, you can select them from any 360º view visualization.You can configure some functionality enhancements for the 360º view of each record as part of the GRC updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-360-degree-relationship-visualization/understanding-360-view.html
 release: australia
 product: GRC: 360 Degree Relationship Visualization
 classification: grc-360-degree-relationship-visualization
@@ -17,11 +18,11 @@ After you have successfully set up your data registries for the tables you use, 
 
 When you launch the 360º view from a particular record, the relationships between the selected record and all associated objects are displayed in a distinctive visualization that allows you to instantly understand how the objects interact with one another. The relationships are linked to your data so you can perform actions on the displayed records, such as drilling down into them to view additional details or creating new records.
 
-![360º view](../image/360-rel-viz.png "360º view for the Risk: Loss of Availability entity")
+\[Omitted image "360-rel-viz.png"\] Alt text: 360º view
 
 The screen above shows the relationships that you set up in the data registry for the selected main object \(in this case, the Risk: Loss of Availability entity\). As you can see, one entity and one control apply to the main object. And the main object includes a range of relationships related to risk response tasks, internal risk events, and risk assessments. Additionally, there is a risk statement relationship upstream from the main object. All these relationships to the main object are available to you at a glance.
 
-**Parent Topic:**[360° Relationship Visualization](grc-360-deg-rel-vis.md)
+**Parent Topic:**[360° Relationship Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.md)
 
 ## Launch the 360º view
 
@@ -37,13 +38,13 @@ Role required: data registry reader
 
 2.  Open a record for which you want to open in the 360º view.
 
-    ![Record in workspace](../image/360-button.png "Record in workspace")
+    \[Omitted image "360-button.png"\] Alt text: Record in workspace
 
     **Note:** Depending on the record screen, you may need to click the ellipsis icon to view the **360º view** button.
 
 3.  Click **360º view**.
 
-    ![Relationship visualization](../image/360-rel-viz.png "360º view of selected record")
+    \[Omitted image "360-rel-viz.png"\] Alt text: Relationship visualization
 
     **Note:** If you launch the 360º view prior to configuring your data registries, or if you click on an object within the 360º view that has not been configured, the visualization screen opens in fallback \(or unconfigured\) mode. All one-to-many and many-to-many relationships for the object are automatically calculated and displayed in the view.
 
@@ -56,17 +57,17 @@ In the 360º view, you can click on any relationship to view details.
 
 For example, you can click on the **Risks** relationship to view details on four risks.
 
-![Drilling down on Risks](../image/drill-down.png "Drilling down on risks")
+\[Omitted image "drill-down.png"\] Alt text: Drilling down on Risks
 
 You can then select one of the risk records to view relationships specific to that risk record.
 
-![Showing relationships for a selected record](../image/change-relationship-view.png "Showing relationships for a selected risk")
+\[Omitted image "change-relationship-view.png"\] Alt text: Showing relationships for a selected record
 
 ## Navigating the 360º view using breadcrumbs
 
 As you navigate through 360º view relationship visualizations, the breadcrumbs along the top edge keep track of where you've been and allow you to return to previously viewed information.
 
-![360º view breadcrumbs](../image/breadcrumbs.png "360º view breadcrumbs")
+\[Omitted image "breadcrumbs.png"\] Alt text: 360º view breadcrumbs
 
 Clicking the **Entity: ACME Americas** breadcrumb returns you to a visualization of those relationships.
 
@@ -74,16 +75,16 @@ Clicking the **Entity: ACME Americas** breadcrumb returns you to a visualization
 
 If you have defined different views, you can select them from any 360º view visualization.
 
-![Selecting a different view](../image/select-view.png "Selecting a different view")
+\[Omitted image "select-view.png"\] Alt text: Selecting a different view
 
 The Compliance view presents you with relationships for the main object that are specific to compliance, as you configured it.
 
-![Compliance view](../image/compliance-view.png "Compliance view")
+\[Omitted image "compliance-view.png"\] Alt text: Compliance view
 
 **Related topics**  
 
 
-[Configure 360º views](set-up-360-data-reg.md#)
+[Configure 360º views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/set-up-360-data-reg.md)
 
 ## Enhancements in the 360º view
 
@@ -93,17 +94,17 @@ The following enhancements and bug fixes are supported with the updated 360º vi
 
 -   Displaying an interactive donut chart: You can enable the **Show Visualization** option for each record and select the display columns in the **Group by** list. See the following example.
 
-    ![Show Visualization option for a record.](../../grc-common-workspace/image/show-visualization-option-record.png "Show Visualization option for a record")
+    \[Omitted image "show-visualization-option-record.png"\] Alt text: Show Visualization option for a record.
 
     When you enable the **Show Visualization** option for a record, the 360º view is displayed. In the 360º view, you can view all the objects that are associated with the record as shown in the following example.
 
-    ![360º view for a record.](../../grc-operational-res-ws/image/360-degree-view.png "360º view for a record")
+    \[Omitted image "360-degree-view.png"\] Alt text: 360º view for a record.
 
     When you click any sector of the donut chart, the related lists that are associated with the selected object are refreshed. When you click an object pill, it displays the donut chart for the selected object in the side-panel.
 
 -   Configuring the Group by list: You can configure the number and order of the columns in the Group by list. When you update the columns in the Group by list as shown in the following example, the donut chart is refreshed for the selected columns.
 
-    ![Sequence of the columns in the Group by list.](../../grc-common-workspace/image/group-by-field-sequence-of-columns.png "Sequence of the columns in the Group by list")
+    \[Omitted image "group-by-field-sequence-of-columns.png"\] Alt text: Sequence of the columns in the Group by list.
 
     When you select a specific order of the columns in the Group by list, the same order of the columns is reflected in the UI. The first column that is displayed in the Selected list is the default value in the display for the customers.
 

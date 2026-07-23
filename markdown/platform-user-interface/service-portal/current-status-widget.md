@@ -2,6 +2,7 @@
 title: Current Status widget
 description: The Current Status widget displays any issues reported in the system. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/current-status-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -19,7 +20,7 @@ The Current Status widget checks the Outages \[cmdb\_ci\_outage\] table to see i
 
 Service owners and service desk managers report planned or unplanned outages by creating outage records. Each outage record includes **Begin** and **End** fields to indicate the duration of the outage. If the **End** time is later or empty, then the outage is still ongoing. The Current Status widget displays all ongoing outages.
 
-![Current Status widget](../image/WidgetCurrentStatus.png "Current Status widget")
+\[Omitted image "WidgetCurrentStatus.png"\] Alt text: Current Status widget
 
 The Current Status displays outages only for services, which are tracked in the Services \[cmdb\_ci\_service\] table.
 
@@ -32,14 +33,14 @@ Use the instance options to configure the Current Status widget for a portal pag
 |Show outage details|Option to display details from the Outage \[cmdb\_ci\_outage\] record.|
 |Standalone|Option to remove explanatory information. This option also adds a link to more information.|
 
-**Parent Topic:**[Service Portal service status widgets](service-status-widgets.md)
+**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-status-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

@@ -2,13 +2,14 @@
 title: Domain separation and Product Catalog
 description: Domain separation is supported in the Product Catalog. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/domain-separation-product-catalog.html
 release: australia
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product Catalog, IT Asset Management]
+breadcrumb: [Product Catalog, Common applications, Asset Management]
 ---
 
 # Domain separation and Product Catalog
@@ -30,20 +31,20 @@ For more information on support levels, see [Application support for domain sepa
 
 The domain owner's employees and tenants can use the same processes if the work is done in the correct domain. When adjusting any configuration, you should be in the domain where you're doing the work. Use the domain picker to select the correct domain to work in.
 
-**Parent Topic:**[Product Catalog](c_ProductCatalog.md)
+**Parent Topic:**[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ProductCatalog.md)
 
 **Related topics**  
 
 
-[Components installed with Product Catalog](../reference/r_InstalledWithProductCatalog.md)
+[Components installed with Product Catalog]()
 
-[Models](c_Models.md)
+[Models]()
 
-[Vendor catalog items](c_ManageVendorCatalogItems.md)
+[Vendor catalog items]()
 
-[Product catalog items](c_ManagingProductCatalogItems.md)
+[Product catalog items]()
 
-[Model categories](c_ModelCategories.md)
+[Model categories]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

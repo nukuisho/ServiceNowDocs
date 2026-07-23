@@ -2,6 +2,7 @@
 title: Configure a detailed content block
 description: A detailed content block displays the content of an existing document, such as an incident, knowledge article, or service management request. The document type determines the page that a list of documents points to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_DetailedContentBlock.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -21,7 +22,7 @@ Role required: content\_admin or admin
 
 ## About this task
 
-The block works with content types in the **Default detail page** field. For more information, see [Configure a content type](t_CreateAContentType.md).
+The block works with content types in the **Default detail page** field. For more information, see [Configure a content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentType.md).
 
 If you plan to use a script to find a document, configure the form to add the **Script** field if it is not displayed.
 
@@ -63,7 +64,7 @@ Frame
 
 </td><td>
 
-Select a border styling for the detailed content block. For more information, see [Format a frame](t_Frame.md).
+Select a border styling for the detailed content block. For more information, see [Format a frame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_Frame.md).
 
 </td></tr><tr><td>
 
@@ -112,28 +113,28 @@ Enter a script to find an appropriate document if the **Type** is set to **Use a
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Types of content blocks](../reference/r_TypesOfContentBlocks.md)
+**Parent Topic:**[Types of content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/r_TypesOfContentBlocks.md)
 
 **Related topics**  
 
 
-[Configure a header block](t_HeaderBlock.md)
+[Configure a header block]()
 
-[Create a navigation menu block](t_CreateNavigationMenuBlock.md)
+[Create a navigation menu block]()
 
-[Configure dynamic blocks](t_CreateADynamicBlock.md)
+[Configure dynamic blocks]()
 
-[Customize the list block](t_DefineTheListBlock.md)
+[Customize the list block]()
 
-[Configure a static HTML block](t_StaticHTMLBlock.md)
+[Configure a static HTML block]()
 
-[Configure Flash movie blocks](t_FlashMovieBlock.md)
+[Configure Flash movie blocks]()
 
-[Configure content links](t_ConfigureContentLinks.md)
+[Configure content links]()
 
-[Configure iFrames](t_IFrame.md)
+[Configure iFrames]()
 
-[Content blocks](../concept/c_ContentBlocks.md)
+[Content blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentBlocks.md)
 
-[Configure a content block](t_CreateAContentBlock.md)
+[Configure a content block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentBlock.md)
 

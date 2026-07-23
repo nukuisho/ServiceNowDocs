@@ -2,6 +2,7 @@
 title: Application access settings
 description: Application access settings determine whether one application can access resources from another application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/c\_ApplicationAccessSettings.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ Access setting location
 
 </th></tr></thead><tbody><tr><td>
 
-[Application design and runtime settings](../reference/r_ApplicationDesignAndRuntimeSettings.md)
+[Application design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_ApplicationDesignAndRuntimeSettings.md)
 
 </td><td>
 
@@ -53,7 +54,7 @@ Access determined by the cross-scope privilege record owned by the calling appli
 
 </td></tr><tr><td>
 
-[Table design and runtime settings](../reference/r_TableApplicationAccessFields.md)
+[Table design and runtime settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/r_TableApplicationAccessFields.md)
 
 </td><td>
 
@@ -74,7 +75,7 @@ Access determined by settings on the target table.
 
 </td></tr><tr><td>
 
-[Restricted caller access privilege settings](restricted-caller-access-privilege.md)
+[Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md)
 
 </td><td>
 

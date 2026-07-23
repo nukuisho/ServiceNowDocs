@@ -2,6 +2,7 @@
 title: Configure AI Agents for Public Sector Digital Services
 description: Configure the Now Assist AI Agents to execute use cases and complete tasks autonomously in Public Sector Digital Services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-config-agentic-ai.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ To get started with AI Agents, you must have the sn\_gsm\_ai\_agents plugin inst
 
 1.  Ensure that the Now Assist Panel and AI Search module are both enabled.
 
-    For instructions on how to enable the Now Assist panel and on how to set up AI Search, see [Configure Now Assist for Public Sector Digital Services \(PSDS\)](now-assist-psds-configuring.md) and [Configure AI search for Now Assist for Public Sector Digital Services \(PSDS\)](now-assist-psds-configuring-ai-search-toggle.md).
+    For instructions on how to enable the Now Assist panel and on how to set up AI Search, see [Configure Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md) and [Configure AI search for Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring-ai-search-toggle.md).
 
 2.  Navigate to **All** &gt; **AI Search** &gt; **Indexed Sources.**.
 
@@ -37,7 +38,7 @@ To get started with AI Agents, you must have the sn\_gsm\_ai\_agents plugin inst
 
 6.  Select **Publish** to publish the search source for the Information Request table.
 
-7.  Create a KB article that will contain the criteria for determining whether a fee waiver request should be approved or rejected.![KB article creation.](../image/create_kb_article_aiagents_psds.png)
+7.  Create a KB article that will contain the criteria for determining whether a fee waiver request should be approved or rejected.\[Omitted image "create\_kb\_article\_aiagents\_psds.png"\] Alt text: KB article creation.
 
     The KB article must have a unique name and number.
 

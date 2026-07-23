@@ -2,6 +2,7 @@
 title: Business rules and script includes
 description: Business rules are server-side actions that can be run during CRUD \(Create, Read, Update, Delete\) operations on instance records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/business-rules-and-script-includes.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Build form and business logic, Build your application, Exploring pr
 
 Business rules are server-side actions that can be run during CRUD \(Create, Read, Update, Delete\) operations on instance records.
 
-**Note:** Consider creating applications with help from agentic AI. For more information, see [Vibe coding and AI app development on the ServiceNow AI Platform](../../ai-capabilities/concept/use-ai-capabilities-in-custom-apps.md).
+**Note:** Consider creating applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
 
 Some good practices when using Business Rules are:
 
@@ -43,7 +44,7 @@ Store any code that might need to be used elsewhere in a Script Include. Call th
 
 Keeping functions in a Script Include allows testing of the function before deploying the function in other scripted areas, thus reducing overall development and testing time.
 
-For more information, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
+For more information, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md).
 
-**Parent Topic:**[Build form and business logic](build-form-and-business-logic.md)
+**Parent Topic:**[Build form and business logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/build-form-and-business-logic.md)
 

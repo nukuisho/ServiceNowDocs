@@ -2,6 +2,7 @@
 title: My team dashboard
 description: As a group manager, with the My team dashboard, gain insights into the data like incidents at risk, breached incidents or overdue changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/my-team-dashboard-mob.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -17,7 +18,7 @@ As a group manager, with the My team dashboard, gain insights into the data like
 
 Tap on the sections to process the incidents.
 
-![my team dashboard](../image/itsm-ma-my-team-dashboard.png)
+\[Omitted image "itsm-ma-my-team-dashboard.png"\] Alt text: my team dashboard
 
 **Note:**
 
@@ -27,5 +28,5 @@ Tap on the sections to process the incidents.
 **Related topics**  
 
 
-[Overdue changes](../task/overdue-change-mobile.md)
+[Overdue changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/overdue-change-mobile.md)
 

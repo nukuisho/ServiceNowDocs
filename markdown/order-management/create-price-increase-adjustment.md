@@ -2,6 +2,7 @@
 title: Create a price increase adjustment
 description: Create a price increase adjustment such as an renewal uplift. Use the Price Increase Defaulting Matrix to define conditions that control the price increase applied.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-price-increase-adjustment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing. pr
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Context Rule Management** &gt; **Rule Matrices**.
 

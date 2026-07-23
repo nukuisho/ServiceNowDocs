@@ -2,6 +2,7 @@
 title: Customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill for Case summarization
 description: If you have the admin role, you can customize a Now Assist for Supplier Lifecycle Operations \(SLO\) skill. By customizing a skill, supplier managers can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-cust-skill.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -34,7 +35,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
     1.  On the Case summarization feature card, select **View details**.
 
-    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(![More actions icon.](../../sourcing-procurement-operations/image/more_vertical_icon.png)\).
+    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\).
 
     3.  Select **Make copy**.
 
@@ -46,7 +47,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs for each skill, see [Configure skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)](../reference/now-assist-slo-skill-input-triggers.md).
+    For information about the inputs for each skill, see [Configure skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md).
 
     1.  Enter a name and description for the skill.
 
@@ -186,7 +187,7 @@ Closed
 **Related topics**  
 
 
-[Customize Now Assist for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat](cust-now-assist-slo-va.md)
+[Customize Now Assist for Supplier Lifecycle Operations \(SLO\) to use the Virtual Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/cust-now-assist-slo-va.md)
 
-[Configure skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)](../reference/now-assist-slo-skill-input-triggers.md)
+[Configure skill input for Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-skill-input-triggers.md)
 

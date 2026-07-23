@@ -23,15 +23,17 @@ See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow
 
 ## Important information for upgrading Platform Analytics experience to Australia
 
-After upgrading, only admins can create Core UI analytics objects: reports, Performance Analytics widgets, responsive dashboards, and interactive filters. Other users can still view and edit Core UI objects but can create only Platform Analytics objects, such as data visualizations.
+When upgrading, all Core UI reports and dashboards are identified as such in the library under the **UI version** column. Users can edit these legacy artifacts in the Report Builder and Dashboard Builder applications.
 
-When upgrading, the published status on all Core UI reports changes to **false**, making them unpublished.
+**Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
+
+All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
 
 After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
 
 ## New in the Australia release
 
--   **[New UI Builder templates for Dashboards and Data visualization libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md)**
+-   **Use new UI Builder templates for Dashboards and Data visualization libraries**
 
     Create Dashboard and Data Visualization library pages within your workspaces in UI Builder by using new page templates.
 
@@ -80,7 +82,7 @@ After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub a
 
     Create content entirely within Platform Analytics.
 
--   **[Take role-based tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tours.md)**
+-   **[Take role-based tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/guided-tours.md)**
 
     Role-based guided tours are added to the Platform Analytics Migration Center and the Dashboards and Data Visualizations library pages.
 
@@ -120,7 +122,7 @@ After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub a
 
 -   **[Hide the Refresh action on data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md)**
 
-    In the Headers and Borders section of data visualizations, use the **Show refresh option** check box to hide the **Refresh** icon ![](../image/refresh-icon.jpg) in the Configuration settings of data visualizations. Data visualizations on cached dashboards never have the Refresh icon.
+    In the Headers and Borders section of data visualizations, use the **Show refresh option** check box to hide the **Refresh** icon \[Omitted image "refresh-icon.jpg"\] Alt text: in the Configuration settings of data visualizations. Data visualizations on cached dashboards never have the Refresh icon.
 
 -   **[Migration Center enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration.md)**
     -   As an analytics manager, migrate any Core UI dashboard to Platform Analytics in the Dashboard library.
@@ -135,26 +137,9 @@ After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub a
 
     When scheduling the email of dashboards or data visualizations, limit recipients based on reference qualifiers.
 
+-   **[Public reports are unpublished](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/report-permission-issues.md)**
 
-## Deprecated features
-
-Business users can no longer create or edit the following Core UI objects:
-
--   Reports
-
-    Create new Core UI reports from sys\_reports.list with the report\_admin role.
-
--   Interactive filters
-
-    Create new Core UI interactive filters from sys\_ui\_hp\_publisher.list with the report\_admin role.
-
--   Responsive dashboards
-
-    Create new responsive dashboards from pa\_dashboards.list with the dashboard\_admin role.
-
--   PA widgets
-
-    Create new Performance Analytics widgets from pa\_widgets.list with the pa\_admin role.
+    On upgrade, all public Core UI reports are unpublished to enhance security control. Report administrators can find the unpublished reports on the Reports Public \[sys\_report\_public\] table. They can then make the reports available through the Sharing UI in the Report Designer.
 
 
 ## Activation information
@@ -167,18 +152,18 @@ Platform Analytics experience is a ServiceNow AI Platform feature that is active
 
     Use AI-powered tools to enhance the value you get from Platform Analytics.
 
--   **[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md)**
+-   **[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-overview.md)**
 
     Create key performance indicators to optimize your business processes. Display these indicators in Platform Analytics.
 
--   **[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md)**
+-   **[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)**
 
     Monitor how users interact with your ServiceNow Core UI, Next Experience, Portal, and Mobile applications.
 
--   **[Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/task-mining.md)**
+-   **[Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining.md)**
 
     Collect and analyze workstation activities to understand how tasks are performed, identify inefficiencies, and make data-driven decisions.
 
 
-**Parent Topic:**[Platform Analytics release notes](analytics-intel-report-rn-landing.md)
+**Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/analytics-intel-report-rn-landing.md)
 

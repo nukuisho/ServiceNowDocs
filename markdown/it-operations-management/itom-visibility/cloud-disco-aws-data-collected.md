@@ -2,6 +2,7 @@
 title: Data collected for Amazon AWS Cloud Discovery
 description: Discovery collects information about cloud resources in AWS datacenters. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/cloud-disco-aws-data-collected.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -18,7 +19,7 @@ Discovery collects information about cloud resources in AWS datacenters. Discove
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -28,7 +29,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Visibility Content.
 -   **Configure a discovery schedule**
 
-    [Create a discovery schedule in Cloud Discovery Workspace](../task/cloud-operations-disco-create-schedule.md)
+    [Create a discovery schedule in Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-operations-disco-create-schedule.md)
 
 
 ## Verify the REST API Permissions
@@ -275,14 +276,14 @@ Indicates whether automated backups are enabled and the retention period.
 |Vendor|vendor|The vendor of the Kubernetes Cluster.|
 |Fully qualified domain name|fqdn|The fully qualified domain name of the Kubernetes apiserver.|
 
-**Parent Topic:**[Cloud resource discovery references](cloud-discovery-collected-data.md)
+**Parent Topic:**[Cloud resource discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/cloud-discovery-collected-data.md)
 
 **Related topics**  
 
 
-[AWS discovery using patterns](data-discovered-aws-patterns.md)
+[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 
-[Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-aws-sg.md)
+[Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-aws-sg.md)
 
-[Agent Client Collector Discovery](../../agent-client-collector/concept/acc-discovery.md)
+[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-discovery.md)
 

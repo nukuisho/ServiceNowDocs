@@ -2,12 +2,13 @@
 title: Install ShoppingHub Mobile
 description: Install the Shopping Hub Mobile application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/install-shoppinghub-mobile.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -17,9 +18,7 @@ Install the Shopping Hub Mobile application from the ServiceNow Store.
 
 ## Before you begin
 
-Role required: admin
-
-Role required: admin
+Role required: sn\_shop.shopping\_hub\_admin
 
 ## Procedure
 
@@ -44,37 +43,39 @@ Role required: admin
 6.  Select **Install**.
 
 
--   **[Enable the mobile experience for ShoppingHub Mobile](enable-shoppinghub-mobile.md)**  
+-   **[Enable the mobile experience for ShoppingHub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/enable-shoppinghub-mobile.md)**  
 Enable the mobile experience for Shopping Hub Mobile so that users can complete to-dos assigned to them and view and track their purchases from their mobile device.
 
-**Parent Topic:**[Configure Sourcing and Procurement Operations](../concept/configuring-spo.md)
+**Parent Topic:**[Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
 
 **Related topics**  
 
 
-[Install Sourcing and Procurement Operations](activate-finance-spend-central.md)
+[Install Sourcing and Procurement Operations]()
 
-[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+[Setting up primary data for ShoppingHub]()
 
-[Configure punchout for third-party site purchases](configure-supplier-punchout.md)
+[Configure punchout for third-party site purchases]()
 
-[Configuring work prioritization](../concept/configuring-work-prioritization.md)
+[Configuring work prioritization]()
 
-[Add a new button in Shopping Hub](add-new-button-shoppinghub.md)
+[Add a button in Shopping Hub]()
 
-[Customize your top suppliers on Shopping Hub](customize-top-suppliers.md)
+[Customize your top suppliers on Shopping Hub]()
 
-[Configure conditions for merging purchase requisitions](config-pr-merge.md)
+[Configure conditions for merging purchase requisitions]()
 
-[Service portal configuration for ShoppingHub](../concept/service-portal-configuration-for-shoppinghub.md)
+[Service portal configuration for ShoppingHub]()
 
-[Advanced Work Assignment for Source-to-Pay Operations](../concept/awa-spo.md)
+[Advanced Work Assignment for Source-to-Pay Operations]()
 
-[Application plugin installation sequence in Sourcing and Procurement Operations](../reference/application-plugin-list.md)
+[Install Universal Request for Sourcing and Procurement Operations]()
 
-[Shopping Hub Mobile](../concept/shoppinghub-mobile.md)
+[Application plugin installation sequence in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/application-plugin-list.md)
 
-[My purchases on your mobile](../concept/my-purchases-mobile.md)
+[Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-mobile.md)
 
-[Using Shopping Hub Mobile](../concept/using-sh-mobile.md)
+[My purchases on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/my-purchases-mobile.md)
+
+[Using Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-sh-mobile.md)
 

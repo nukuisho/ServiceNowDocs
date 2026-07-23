@@ -1,7 +1,8 @@
 ---
 title: GRC case summarization skill for compliance cases
-description: The GRC case summarization skill uses a large language model \(LLM\) to generate a structured, AI-powered summary of a compliance case record. The summary is generated on demand from case data and can be saved to the record for future reference.
+description: The GRC case summarization skill uses a large language model \(LLM\) to generate a structured AI summary of a compliance case record. The summary is generated on demand from case data and can be saved to the record for future reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/compliance-case-summarization-skill.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -13,7 +14,7 @@ breadcrumb: [Explore, Now Assist, Common GRC features, Governance, Risk, and Com
 
 # GRC case summarization skill for compliance cases
 
-The GRC case summarization skill uses a large language model \(LLM\) to generate a structured, AI-powered summary of a compliance case record. The summary is generated on demand from case data and can be saved to the record for future reference.
+The GRC case summarization skill uses a large language model \(LLM\) to generate a structured AI summary of a compliance case record. The summary is generated on demand from case data and can be saved to the record for future reference.
 
 ## Overview of the GRC case summarization skill
 
@@ -40,8 +41,6 @@ An administrator must set a default LLM provider before the skill can be used. T
 
 -   Azure OpenAI
 -   AWS Claude
--   Now LLM Service
--   Now LLM Service LTS
 -   Google Gemini
 
 To set a default provider for the GRC case summarization skill, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
@@ -125,7 +124,7 @@ AI-powered analysis of the case timeline and overall investigation effort.-   **
 </table>**Related topics**  
 
 
-[Activate the GRC case summarization skill](../../now-assist-irm/task/activate-grc-case-summarization-skill.md)
+[Activate the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/activate-grc-case-summarization-skill.md)
 
-[Summarize a compliance case using the GRC case summarization skill](../../now-assist-irm/task/summarize-compliance-case.md)
+[Summarize a compliance case using the GRC case summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/summarize-compliance-case.md)
 

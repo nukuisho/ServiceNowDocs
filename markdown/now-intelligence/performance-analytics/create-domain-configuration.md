@@ -2,6 +2,7 @@
 title: Create a domain configuration
 description: Create a domain configuration to define which domains to collect scores from and how to store scores within the domain hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-domain-configuration.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ The Performance Analytics - Domain Support plugin \(com.snc.pa.domain\_support\)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Domain Configuration** and create a new record.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Collector** &gt; **Domain Configurations** and create a record.
 
 <table id="table_mff_5qm_tw"><thead><tr><th>
 
@@ -95,7 +96,7 @@ Select **All child domains** to roll up scores from the specified domains and al
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](../concept/pa-domain-separation-msp.md)
+**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
 
 **Related topics**  
 

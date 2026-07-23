@@ -2,6 +2,7 @@
 title: Supported export output types
 description: The dashboard and visualization output skill supports the same outputs for the same data visualizations as Platform Analytics generally.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/nowass-supported-export-output.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -22,14 +23,14 @@ You can export dashboards as Microsoft PowerPoint or PDF files, but not all dash
 |Other data visualizations|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|None|Not applicable|
 
-**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](../task/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 
 
-[Export destinations](nowass-export-destinations.md)
+[Export destinations]()
 
-[Limitations for exporting dashboards and visualizations](limitations-exporting-db-dv.md)
+[Limitations for exporting dashboards and visualizations]()
 
-[Export guidelines and examples](nowass-export-guidelines-examples.md)
+[Export guidelines and examples]()
 

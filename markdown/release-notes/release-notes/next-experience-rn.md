@@ -30,6 +30,11 @@ See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNow
     Create and edit application menus and modules directly from the Next Experience UI. Admins can configure Record, List, Dashboard, and Custom page modules from a centralized, platform-native interface.
 
 
+-   **[In-Product Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/in-product-surveys-overview.md)**
+
+    Collect feedback from users as they work in Next Experience. Admins can turn off surveys at the instance level.
+
+
 ## UI changes
 
 -   **[Updated Coral theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)**
@@ -71,5 +76,5 @@ The Australia release doesn't support Internet Explorer 11. The iOS version of F
     Explore accessibility preferences with a guided tour that shows how to customize navigation, keyboard behavior, and visual themes in Next Experience.
 
 
-**Parent Topic:**[ServiceNow AI Platform user interface release notes](now-platform-ui-rn-landing.md)
+**Parent Topic:**[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-platform-ui-rn-landing.md)
 

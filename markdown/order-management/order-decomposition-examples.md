@@ -2,6 +2,7 @@
 title: Order decomposition examples
 description: Examples using demo data illustrating how customer and service orders can be decomposed under diverse conditions help you to understand the decomposition process. The conditions include optional characteristics, quantity-based decomposition, staggered fulfillment, and exclusion rules that support complex order management and fulfillment workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-decomposition-examples.html
 release: australia
 topic_type: concept
 last_updated: "2025-10-03"
@@ -31,7 +32,7 @@ After receiving a service order for adding a Managed Firewall service, a service
 
 Next, the ServiceNow AI Platform triggers a fulfillment workflow for the decomposed service and resource orders. This workflow generates the required order tasks for fulfilling the domain orders and uses decision tables to identify the workflow for a decomposed order. The selected workflow is based on various attributes in the original service order. These attributes include the specification category, and an order line item action \(Add, Change, or Delete\), among others.
 
-To learn more about decision tables, see [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md):
+To learn more about decision tables, see [Decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-table.md):
 
 ## Example of an order decomposition that is based on specification relationships
 
@@ -70,11 +71,11 @@ When a customer order is received for the SD-WAN Service Package, and that order
 
 When you define specification relationships, you can optionally create decomposition rules. With a decomposition rule, you can specify to exclude domain orders from being created when you receive a customer order that doesn't contain a specific characteristic or characteristic option. The following example shows that the SD-WAN Controller Tenancy product characteristic was designated as optional.
 
-![Product Specification page displaying the decomposition rules tab view of SD-WAN controller along with field description. For more information, refer to the description that follows.](../image/specification-relationship1.png "SD-WAN Controller Tenancy product characteristic")
+\[Omitted image "specification-relationship1.png"\] Alt text: Product Specification page displaying the decomposition rules tab view of SD-WAN controller along with field description. For more information, refer to the description that follows.
 
 In the example, you see that a decomposition rule was defined for the SD-WAN Controller product specification relationship to the SD-WAN Controller Service. This rule excludes the specification when a customer does not select the **Tenancy** option.
 
-![Decomposition rule field details of SD-WAN controller service. To learn more about fields, refer to the following description.](../image/decomp-rule2.png "SD-WAN Controller Service decomposition rule")
+\[Omitted image "decomp-rule2.png"\] Alt text: Decomposition rule field details of SD-WAN controller service. To learn more about fields, refer to the following description.
 
 When a customer places an order and doesn't select the **Tenancy** option, the related service order doesn't generate for it.
 
@@ -105,7 +106,7 @@ When a customer submits an order for three instances of the SD-WAN Service Packa
 
 The following example describes the staggered decomposition process for a product offering called SD-WAN Bronze Plan.
 
-![Product Offering page displaying the decomposition process of SD-WAN bronze plan. For more information, refer to the description that follows.](../image/SD-WAN-Bronze-Plan.png "SD-WAN Bronze Plan product offering")
+\[Omitted image "SD-WAN-Bronze-Plan.png"\] Alt text: Product Offering page displaying the decomposition process of SD-WAN bronze plan. For more information, refer to the description that follows.
 
 The SD-WAN Bronze Plan product offering uses a product specification, called an SD-WAN Service Package \(as shown in the following example\), that has three target specifications:
 
@@ -113,17 +114,24 @@ The SD-WAN Bronze Plan product offering uses a product specification, called an 
 -   SD-WAN Security
 -   SD-WAN Controller
 
-![Product Specification page displaying the specification relationships tab view of SD-WAN service package along with field details. For more information, refer to the description that follows.](../image/SD-WAN-Service-Package.png "SD-WAN Service Package product specifications")
+\[Omitted image "SD-WAN-Service-Package.png"\] Alt text: Product Specification page displaying the specification relationships tab view of SD-WAN service package along with field details. For more information, refer to the description that follows.
 
 The SD-WAN Edge Device product specification has specification relationships with SD WAN Optimization Service and SD-WAN Routing, and the underlying decomposition rules don't have any values for WAN Optimization and Routing characteristics.
 
-![View of the specification relationships tab view of SD-WAN edge device and its field details. For the image description, refer to the text that follows.](../image/SD-WAN-Bronze-Plan-Specification-Relationships.png "SD-WAN Bronze Plan specification relationships")
+\[Omitted image "SD-WAN-Bronze-Plan-Specification-Relationships.png"\] Alt text: View of the specification relationships tab view of SD-WAN edge device and its field details. For the image description, refer to the text that follows.
 
 The following example shows the decomposition rules for the product offering for the SD-WAN Bronze Plan.
 
-![View of the decomposition rules tab view of SD-WAN edge device and its field details. For the image description, refer to the text that follows.](../image/SD-WAN-Bronze-Plan-Decomposition-Rules.png "SD-WAN Bronze Plan decomposition rules")
+\[Omitted image "SD-WAN-Bronze-Plan-Decomposition-Rules.png"\] Alt text: View of the decomposition rules tab view of SD-WAN edge device and its field details. For the image description, refer to the text that follows.
 
 When your customer places an order for the SD-WAN Bronze Plan product offering and you approve this customer order, decomposition begins with the creation of the domain orders as per the defined specification relationships and decomposition rules. Because this customer order doesn't have the values for these characteristics for Routing and WAN Optimization, the decomposition rule doesn't create the service orders.
 
 However, as a part of the order fulfillment process, the information for Routing and WAN Optimization must be available. When your fulfillment agent provides the values for these characteristics, the decomposition rule creates the necessary service orders and the order decomposition completes.
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

@@ -32,15 +32,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 6.  Access and edit the contract document.
 
-<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d768446e91">
+<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d783085e91">
 
 Choice
 
-</th><th align="left" id="d768446e94">
+</th><th align="left" id="d783085e94">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d768446e100">
+</th></tr></thead><tbody><tr><td id="d783085e100">
 
 **Download contract document from the internal storage**
 
@@ -49,11 +49,11 @@ Steps
 1.  Select **Preview document**.
 2.  In the drop-down list, select the contract type.
 3.  Select **Preview**.
-4.  Select the Download icon \(![Download icon](../image/cncore-int-storage-dwnld.png)\).
+4.  Select the Download icon \(\[Omitted image "cncore-int-storage-dwnld.png"\] Alt text: Download icon\).
 5.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d768446e139">
+</td></tr><tr><td id="d783085e139">
 
 **Download contract document from the external storage**
 
@@ -67,7 +67,7 @@ The document opens from the external storage.
 3.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d768446e162">
+</td></tr><tr><td id="d783085e162">
 
 **Edit the contract document directly from the external storage**
 
@@ -96,7 +96,7 @@ The document is automatically saved in the external storage.
         -   **External Storage**- In the Document field, select the document. This option is displayed only if external storage is configured
 8.  Get approval of the updated document from stakeholders.
 
-    For more information, see [Initiate an ad hoc approval for a contract document revision](cmpro-initiate-approval-contract-request.md).
+    For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md).
 
 9.  Return the contract document to the requester.
 

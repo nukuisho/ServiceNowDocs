@@ -2,6 +2,7 @@
 title: Cable form
 description: The Cable form enables you to describe the details for an optical fiber cable record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/cable-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -53,7 +54,7 @@ Managed by
 
 </td><td>
 
-Name of the person who manages this network asset. Select the search icon \(![Search icon.](../image/search.png)\) and select a user from the listing.
+Name of the person who manages this network asset. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a user from the listing.
 
 </td></tr><tr><td>
 
@@ -267,10 +268,10 @@ Operational status
 Operational status of the network inventory asset.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 
 **Related topics**  
 
 
-[Define the cable details](../task/define-cable.md)
+[Define the cable details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-cable.md)
 

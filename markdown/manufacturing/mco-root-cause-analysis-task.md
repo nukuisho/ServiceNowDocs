@@ -2,11 +2,12 @@
 title: Create a root cause analysis
 description: Create a root cause analysis \(RCA\) to identify the underlying cause of an issue and implement effective, long-term solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-root-cause-analysis-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product Non-conformance without playbook, Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a root cause analysis
@@ -25,7 +26,7 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
 3.  On the Root Cause Analysis Task form, fill in the fields.
 
-    For a description of the field values, see [Root cause analysis task form](../reference/mco-root-cause-analysis-task-form.md).
+    For a description of the field values, see [Root cause analysis task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-root-cause-analysis-task-form.md).
 
 4.  Select **Save**.
 
@@ -33,20 +34,15 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
     The Start a Sidebar discussion window is displayed.
 
-    For more information on the sidebar discussion window, see [Create a Sidebar discussion for a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/sidebar-discussions-record.md).
+    For more information on the sidebar discussion window, see [Create a Sidebar discussion for a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar-discussions-record.md).
 
 6.  Select **Save**.
 
 
--   **[Associating a task cause](mco-task-cause-associations.md)**  
-Associate a cause to a RCA for the root cause analysis of the product non-conformance.
-
-**Parent Topic:**[Product Non-conformance without playbook](mco-related-lists-product-non-conformance.md)
-
 **Related topics**  
 
 
-[Notes form](../reference/mco-notes.md)
+[Notes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-notes.md)
 
-[Resolution information form](../reference/mco-resolution-information-form.md)
+[Resolution information form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-resolution-information-form.md)
 

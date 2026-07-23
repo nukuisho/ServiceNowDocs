@@ -2,6 +2,7 @@
 title: Create additional inflight order change types
 description: Define your own enterprise-specific inflight order change types that are used to categorize revisions or requests for cancellations, product orders, service orders, and their related line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/define-inflight-order-change-types.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,5 +31,12 @@ Role required: admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring inflight changes](../concept/configure-inflight-order-change-mgt.md)
+**Parent Topic:**[Configuring inflight changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-inflight-order-change-mgt.md)
+
+**Related topics**  
+
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
+
+[Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
 

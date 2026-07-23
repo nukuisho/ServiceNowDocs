@@ -2,6 +2,7 @@
 title: Install the order case management apps for Business Portal
 description: You can install the order case management applications if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/install-order-case-self-service.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,4 +47,11 @@ Role required: admin
 
 5.  Select **Install**.
 
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+
+[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 

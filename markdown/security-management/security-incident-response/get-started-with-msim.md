@@ -2,6 +2,7 @@
 title: Get started with MSIM
 description: Review the following information before you start working with Major Security Incident Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-started-with-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ Before you begin with the application, ensure that you have the required depende
 
 </td><td>
 
-As a first step, install:-   [ServiceNow IntegrationHub Installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md) \(com.glide.hub.integrations\)
+As a first step, install:-   [ServiceNow IntegrationHub Installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/request-ih-overview.md) \(com.glide.hub.integrations\)
 -   ServiceNow® Integration Hub Runtime \(com.glide.hub.integration.runtime\).
 -   ServiceNow® Integration Hub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow® Integration Hub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)
@@ -52,14 +53,14 @@ Verify that you have required access to install Microsoft SharePoint Spoke and M
 Before you install Microsoft SharePoint Spoke and Microsoft Teams Graph Spoke, make sure you have required access to the ServiceNow Integration Hub applications.**Note:** Microsoft SharePoint Spoke and Microsoft Teams Graph spoke are dependent applications to ServiceNow® Integration Hub applications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Major Security Incident Management](exploring-major-security-incident-management.md)
+</table>**Parent Topic:**[Exploring Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/exploring-major-security-incident-management.md)
 
 **Related topics**  
 
 
-[Major Security Incident Management](../concept/major-security-incident-management.md)
+[Major Security Incident Management]()
 
-[Checklist for MSIM setup](../../security-incident-response/reference/msim-checklist.md)
+[Checklist for MSIM setup]()
 
-[Major Security Incident Management roles](msi-roles.md)
+[Major Security Incident Management roles]()
 

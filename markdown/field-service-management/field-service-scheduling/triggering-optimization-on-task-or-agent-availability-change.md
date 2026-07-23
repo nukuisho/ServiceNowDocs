@@ -1,7 +1,8 @@
 ---
 title: Optimizing technician schedules in response to urgent events
-description: Prioritized event optimization is a mode of intraday optimization that aims to run a faster, more focused intraday process. This mode specifically targets the most critical events.
+description: Resolve urgent scheduling changes quickly and efficiently by configuring prioritized event optimization, which responds immediately to critical events and targets only the specific technicians and tasks affected, without reoptimizing all tasks and qualifiers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/triggering-optimization-on-task-or-agent-availability-change.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -13,7 +14,7 @@ breadcrumb: [Intraday optimization, Schedule Optimization, Setting up a Field Se
 
 # Optimizing technician schedules in response to urgent events
 
-Prioritized event optimization is a mode of intraday optimization that aims to run a faster, more focused intraday process. This mode specifically targets the most critical events.
+Resolve urgent scheduling changes quickly and efficiently by configuring prioritized event optimization, which responds immediately to critical events and targets only the specific technicians and tasks affected, without reoptimizing all tasks and qualifiers.
 
 ## About intraday optimization for prioritized events
 
@@ -29,32 +30,28 @@ The optimization engine considers technicians directly affected by events, such 
 
 ## Task Selection
 
-The optimization engine considers technicians directly affected by events, such as those running late or early. When a task-related event occurs, the system also considers technicians already assigned to affected tasks.
-
 When only task-related events occur without technician events, the engine includes only existing task assignees. If no assignees exist, no technicians are considered.
 
-Prioritized event optimization focuses on territories directly impacted by the events and doesn’t include overlapping territories.
+Prioritized event optimization focuses on territories directly impacted by the events and doesn't include overlapping territories.
 
-To set up intraday optimization for prioritized events, see [Configure optimization for prioritized events](configure-immediate-optimization.md).
+To set up intraday optimization for prioritized events, see [Configure optimization for prioritized events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-immediate-optimization.md).
 
 ## Optimization with matching rules
 
-You can apply matching rules to prioritized event optimization for improved control over job assignments. Matching rules are only available when [Territory-Based Optimization](territory-based-optimization.md) is enabled. [Territory-Based Optimization](territory-based-optimization.md) can’t be used with configurations that use assignment groups.
+You can apply matching rules to prioritized event optimization for improved control over job assignments. Matching rules are only available when [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md) is enabled. [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/territory-based-optimization.md) can't be used with optimization configurations that use assignment groups.
 
-If you installed the Field Service Management Demo Data plugin, two example matching rules are available: Filter technicians for prioritized events and Filter tasks for prioritized events. These rules include criteria for affected technicians and affected tasks. You can use these example rules or create your own matching rules to identify subsets of tasks and technicians based on your defined criteria.
+Matching rules identify a subset of relevant tasks and technicians to optimize based on criteria such as search radius, required skills, and time thresholds. When matching rules are configured, they determine which tasks and technicians are directly impacted by a prioritized event, including pending dispatch tasks with SLA breaches or tasks that have a window end within the next four hours. For example, when a technician calls in sick, matching rules identify all technicians with similar skills as directly impacted, enabling the optimization engine to reassign that technician's tasks efficiently. When a prioritized event occurs and creates a task event, the system generates a prioritized job and applies the configured matching rules to filter assignment options before making recommendations.
 
-When matching rules are configured, they determine which tasks and technicians are directly impacted by a prioritized event. For example, when a technician calls in sick, matching rules identify all technicians with the same certifications as directly impacted, enabling the system to reassign that technician's tasks efficiently. Matching rules also limit optimization to tasks and technicians within a specific radius of a new high-priority task.
+You can configure the maximum search radius and distance unit at the qualifier level to control the scope of optimization for each territory.
 
-When a prioritized event occurs and creates a task event, the system generates a prioritized job. If matching rules are configured for intraday events, the optimization engine applies those rules to filter the assignment options before making recommendations.
+If you installed the Field Service Management Demo Data plugin, two example matching rules are available: Filter technicians for prioritized events and Filter tasks for prioritized events. These rules include criteria for affected technicians and affected tasks. You can use these example rules or create your own.
 
-To configure matching rules for intraday events, access the Intraday Event Type table from the Matching Rules table field. For more information about matching rules, see [Set up prioritized intraday optimization with matching rules](set-up-prioritized-intraday-optimization-with-matching-rules.md).
+For more information about matching rules, see [Set up prioritized intraday optimization with matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/set-up-prioritized-intraday-optimization-with-matching-rules.md).
 
-**Note:**
-
-Note: If you have custom event types and flows for intraday optimization, migrate them to the Intraday Event Type table. Update your flows to populate the event type field with table references instead of drop-down values.
+**Note:** If you have custom event types and flows for intraday optimization, migrate them to the Intraday Event Type table. Update your flows to populate the event type field with table references instead of drop-down values.
 
 **Related topics**  
 
 
-[Schedule Optimization properties](../reference/schedule-optimization-properties.md)
+[Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-properties.md)
 

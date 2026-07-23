@@ -2,6 +2,7 @@
 title: View notifications on email response
 description: View notifications on email responses that are received from the customer in the ongoing email conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-notifications-email-responses-received.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -22,7 +23,7 @@ Role required: sn\_customerservice\_agent, or sn\_customerservice\_manager
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the ongoing tab icon \(![Ongoing tab icon](../image/ongoing-tab-icon-new-eaai.png)\).
+2.  Select the ongoing tab icon \(\[Omitted image "ongoing-tab-icon-new-eaai.png"\] Alt text: Ongoing tab icon\).
 
     A list of ongoing email interactions is displayed.
 

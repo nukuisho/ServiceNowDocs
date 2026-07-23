@@ -2,6 +2,7 @@
 title: Install the Chief Human Resources Officer Dashboard
 description: The CHRO Dashboard helps people leadership to run its business to deliver value quickly, improve productivity and optimize risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/install-dashboard-chro.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -53,6 +54,6 @@ Plugins:
 
         Assign the user role sn\_chro\_dashboard.chro\_dashboard\_user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/exploring-user-administration.md).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-user-administration.md).
 
 

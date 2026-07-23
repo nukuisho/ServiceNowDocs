@@ -2,6 +2,7 @@
 title: Enable the Request care team assistance agentic workflow to create care team cases
 description: Enable the Request care team assistance agentic workflow so that care team cases can be created using Now Assist in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-enable-request-cto-assistance.html
 release: australia
 topic_type: task
 last_updated: "2026-04-01"

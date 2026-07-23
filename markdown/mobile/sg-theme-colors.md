@@ -2,6 +2,7 @@
 title: Mobile theme color guidelines
 description: Learn how the colors that you select in your mobile themes are applied on your mobile applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-theme-colors.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Legacy theming, Configuring the Mobile Platform, Mobile Platform]
 
 Learn how the colors that you select in your mobile themes are applied on your mobile applications.
 
-**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](../concept/explore-ne-theming.md).
+**Important:** Use legacy mobile theming on Tokyo and earlier ServiceNow® instances. For Utah and later releases, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
 
 ## Color choice considerations
 
@@ -34,7 +35,7 @@ This example shows the colors that are used in the default mobile app theme. Use
 
 </td><td>
 
-![Colors used in the default mobile theme](../image/mobile-color-legend.png)
+\[Omitted image "mobile-color-legend.png"\] Alt text: Colors used in the default mobile theme
 
 </td></tr></tbody>
 </table>## Mobile Features
@@ -43,27 +44,27 @@ Use the following figures to see how your color choices affect the elements with
 
 -   **Application Launch Page**
 
-    ![Diagram of where theme colors are applied in an application launch page.](../image/mobile-theme-alp.png)
+    \[Omitted image "mobile-theme-alp.png"\] Alt text: Diagram of where theme colors are applied in an application launch page.
 
 -   **Navigation Bar**
 
-    ![Diagram of where theme colors are applied in the navigation bar.](../image/mobile-theme-tabbar.png)
+    \[Omitted image "mobile-theme-tabbar.png"\] Alt text: Diagram of where theme colors are applied in the navigation bar.
 
 -   **List**
 
-    ![Diagram of where theme colors are applied in a list.](../image/mobile-theme-list.png)
+    \[Omitted image "mobile-theme-list.png"\] Alt text: Diagram of where theme colors are applied in a list.
 
 -   **Virtual Agent**
 
-    ![Diagram of where theme colors are applied in virtual agent.](../image/mobile-theme-va.png)
+    \[Omitted image "mobile-theme-va.png"\] Alt text: Diagram of where theme colors are applied in virtual agent.
 
 -   **Search**
 
-    ![Diagram of where theme colors are applied in search components.](../image/mobile-theme-search.png)
+    \[Omitted image "mobile-theme-search.png"\] Alt text: Diagram of where theme colors are applied in search components.
 
 -   **Actions**
 
-    ![Diagram of where theme colors are applied in action cards.](../image/mobile-theme-actions.png)
+    \[Omitted image "mobile-theme-actions.png"\] Alt text: Diagram of where theme colors are applied in action cards.
 
 
 ## Record screen and components
@@ -72,23 +73,23 @@ Use the following figures to see how your color choices affect a record screen a
 
 -   **Record screen**
 
-    ![Diagram of where theme colors are applied in a record screen.](../image/mobile-theme-form.png)
+    \[Omitted image "mobile-theme-form.png"\] Alt text: Diagram of where theme colors are applied in a record screen.
 
 -   **Checklist**
 
-    ![Diagram of where theme colors are applied in a checklist.](../image/mobile-theme-checklist.png)
+    \[Omitted image "mobile-theme-checklist.png"\] Alt text: Diagram of where theme colors are applied in a checklist.
 
 -   **Activity stream**
 
-    ![Diagram of where theme colors are applied in an activity stream.](../image/mobile-theme-activity.png)
+    \[Omitted image "mobile-theme-activity.png"\] Alt text: Diagram of where theme colors are applied in an activity stream.
 
 -   **Links**
 
-    ![Diagram of where theme colors are applied in links.](../image/mobile-theme-link.png)
+    \[Omitted image "mobile-theme-link.png"\] Alt text: Diagram of where theme colors are applied in links.
 
 -   **E-signature**
 
-    ![Diagram of where theme colors are applied in e-signatures.](../image/mobile-theme-esig.png)
+    \[Omitted image "mobile-theme-esig.png"\] Alt text: Diagram of where theme colors are applied in e-signatures.
 
 
 ## Screen templates
@@ -97,17 +98,17 @@ Use the following figures to see how your color choices affect the various scree
 
 -   **Calendar**
 
-    ![Diagram of where theme colors are applied in calendar screens.](../image/mobile-theme-calendar.png)
+    \[Omitted image "mobile-theme-calendar.png"\] Alt text: Diagram of where theme colors are applied in calendar screens.
 
 -   **Map**
 
-    ![Diagram of where theme colors are applied in map screens.](../image/mobile-theme-map.png)
+    \[Omitted image "mobile-theme-map.png"\] Alt text: Diagram of where theme colors are applied in map screens.
 
     **Note:** The **Pin color** field in the list stream record that is associated to your map screen determines the color of the pins on your maps.
 
 -   **URL template**
 
-    ![Diagram of where theme colors are applied in URL template screens.](../image/mobile-theme-url.png)
+    \[Omitted image "mobile-theme-url.png"\] Alt text: Diagram of where theme colors are applied in URL template screens.
 
 
 ## Settings and notifications
@@ -116,27 +117,27 @@ Use the following figures to see how your color choices affect the various setti
 
 -   **Notifications**
 
-    ![Diagram of where theme colors are applied in the notifications screen.](../image/mobile-theme-notification.png)
+    \[Omitted image "mobile-theme-notification.png"\] Alt text: Diagram of where theme colors are applied in the notifications screen.
 
 -   **Settings**
 
-    ![Diagram of where theme colors are applied in the settings screen.](../image/mobile-theme-settings.png)
+    \[Omitted image "mobile-theme-settings.png"\] Alt text: Diagram of where theme colors are applied in the settings screen.
 
 -   **Offline mode settings**
 
-    ![Diagram of where theme colors are applied in the offline mode settings screen.](../image/mobile-theme-offline.png)
+    \[Omitted image "mobile-theme-offline.png"\] Alt text: Diagram of where theme colors are applied in the offline mode settings screen.
 
 -   **Geolocation settings**
 
-    ![Diagram of where theme colors are applied in the geolocation settings screen.](../image/mobile-theme-geo.png)
+    \[Omitted image "mobile-theme-geo.png"\] Alt text: Diagram of where theme colors are applied in the geolocation settings screen.
 
 -   **PIN settings**
 
-    ![Diagram of where theme colors are applied in the PIN settings screen.](../image/mobile-theme-pin.png)
+    \[Omitted image "mobile-theme-pin.png"\] Alt text: Diagram of where theme colors are applied in the PIN settings screen.
 
 -   **Siri shortcuts settings \(iOS Only\)**
 
-    ![Diagram of where theme colors are applied in the Siri shortcuts settings screen.](../image/mobile-theme-siri.png)
+    \[Omitted image "mobile-theme-siri.png"\] Alt text: Diagram of where theme colors are applied in the Siri shortcuts settings screen.
 
 
 ## Modals
@@ -145,10 +146,10 @@ Use the following figures to see how your color choices display in your Android 
 
 -   **Android modals**
 
-    ![Diagram of where theme colors are applied in Android modals.](../image/mobile-theme-android-modal.png)
+    \[Omitted image "mobile-theme-android-modal.png"\] Alt text: Diagram of where theme colors are applied in Android modals.
 
 -   **iOS modals**
 
-    ![Diagram of where theme colors are applied in iOS modals.](../image/mobile-theme-ios-modal.png)
+    \[Omitted image "mobile-theme-ios-modal.png"\] Alt text: Diagram of where theme colors are applied in iOS modals.
 
 

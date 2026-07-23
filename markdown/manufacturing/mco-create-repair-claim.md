@@ -1,15 +1,16 @@
 ---
-title: Create a repair claim
+title: Create a repair claim manually
 description: Create a repair claim for the products under warranty or recall.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-repair-claim.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Repair claim, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Create a repair claim
+# Create a repair claim manually
 
 Create a repair claim for the products under warranty or recall.
 
@@ -27,7 +28,7 @@ Role required: Manufacturing operations admin
 
 3.  On the Claims details form, fill in the fields.
 
-    For a description of the field values, see [Claim details form](../reference/mco-claim-details-form.md).
+    For a description of the field values, see [Claim details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-claim-details-form.md).
 
 4.  Select **Continue**.
 
@@ -35,11 +36,11 @@ Role required: Manufacturing operations admin
 
 5.  Select **Add claim jobs**.
 
-6.  Set **Type** as **Warranty**.
+6.  Set **Type** as **Warranty** or **Recall**.
 
 7.  On the Repair claim jobs form, fill in the fields.
 
-    For a description of the field values, see [Repair claim form](../reference/repair-claim-form.md).
+    For a description of the field values, see [Repair claim form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-claim-form.md).
 
 8.  Select **Submit**.
 
@@ -47,6 +48,4 @@ Role required: Manufacturing operations admin
 ## Result
 
 The claim job is successfully submitted for review and approval.
-
-**Parent Topic:**[Repair claim](mco-use-repair-claim.md)
 

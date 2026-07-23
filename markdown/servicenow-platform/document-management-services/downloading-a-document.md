@@ -2,6 +2,7 @@
 title: Download a document
 description: Download an attached document version based on the selected default version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/downloading-a-document.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -36,22 +37,22 @@ Role required: none
 5.  In the **Actions on selected rows** drop-down menu, select **Download Document**.
 
 
-**Parent Topic:**[Document repository](../concept/doc-mgt-view-documents-repo.md)
+**Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
 **Related topics**  
 
 
-[Create a document record](create-new-doc.md)
+[Create a document record]()
 
-[Document versions](../concept/document-mgt-versions.md)
+[Document versions]()
 
-[Share a document link](share-document-link.md)
+[Share a document link]()
 
-[Modify a shared link access](modify-access-shared-link.md)
+[Modify a shared link access]()
 
-[Configure document permissions](../concept/document-configuration.md)
+[Configure document permissions]()
 
-[Delete a document link](delete-document-link.md)
+[Delete a document link]()
 
-[Delete documents](delete-a-doc.md)
+[Delete documents]()
 

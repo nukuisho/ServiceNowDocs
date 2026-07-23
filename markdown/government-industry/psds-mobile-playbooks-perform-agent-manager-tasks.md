@@ -2,6 +2,7 @@
 title: Using the Mobile Agent to perform agent tasks
 description: If you're a government service agent, you can manage your cases and receive real-time updates on your mobile device with the Mobile Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-mobile-playbooks-perform-agent-manager-tasks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ View the details of a case and determine if you need to make any changes or take
 3.  Select a case to view its details.
 4.  Determine if you need to make any changes or take other actions. If so, perform any of the tasks in this table.
 
- For details on viewing a case in the Mobile Agent, see [Track government service requests with the Mobile Agent app](../task/psds-mobile-playbook-view-service-requests-agent.md).
+ For details on viewing a case in the Mobile Agent, see [Track government service requests with the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-mobile-playbook-view-service-requests-agent.md).
 
 </td></tr><tr><td>
 
@@ -46,9 +47,9 @@ Edit a case
 </td><td>
 
 1.  From the Service Requests list, open a case.
-2.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Edit Case**.
+2.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Edit Case**.
 
-For details on the case fields, see [Service Request case form](../reference/service-request-case-form-new.md#).
+For details on the case fields, see [Service Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/service-request-case-form-new.md).
 
 
 </td></tr><tr><td>
@@ -58,10 +59,10 @@ Add comments to a case
 </td><td>
 
 1.  From the Service Requests list, open a case.
-2.  Tap the More actions icon \(![More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Add Comments**.
+2.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: More actions icon.\) and select **Add Comments**.
 3.  In the**Work Notes** or **Additional Comments** fields, add your work notes or comments about the case.
 
-You can also add comments through the activity stream related list. For more information, see [Using the activity stream in the Mobile Agent](psds-mobile-playbook-using-activity-stream.md).
+You can also add comments through the activity stream related list. For more information, see [Using the activity stream in the Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-mobile-playbook-using-activity-stream.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Propose a solution for a case
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Propose Solution**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Propose Solution**.
 2.  In the **Resolution Code** and **Resolution Notes** fields, add the code and notes that you propose as a solution to resolve the case and then select **Submit**.
 
 </td></tr><tr><td>
@@ -78,7 +79,7 @@ Request more information
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Request Info**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Request Info**.
 2.  In the **Additional Comments** field, add more comments about the request.
 
 </td></tr><tr><td>
@@ -87,7 +88,7 @@ Escalate a case
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Escalate**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Escalate**.
 2.  In the **Escalations** dialog box, fill in the details of the escalation.
 
 </td></tr><tr><td>
@@ -105,7 +106,7 @@ Close a case
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Close Case**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Close Case**.
 2.  In the **Resolution Code** and **Resolution Notes** fields, enter the code and your notes about how the case was resolved.
 
 </td></tr></tbody>
@@ -128,7 +129,7 @@ View the details of a case and determine if you need to make any changes or take
 3.  Select a case to view its details.
 4.  Determine if you need to make any changes or take other actions. If so, perform any of the tasks in this table.
 
- For details on viewing a case in the Mobile Agent, see [Track information requests with the Mobile Agent](../task/psds-mobile-playbook-view-info-requests-agent.md).
+ For details on viewing a case in the Mobile Agent, see [Track information requests with the Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-mobile-playbook-view-info-requests-agent.md).
 
 </td></tr><tr><td>
 
@@ -137,9 +138,9 @@ Edit a case
 </td><td>
 
 1.  From the Information Requests list, open a case.
-2.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Edit Case**.
+2.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Edit Case**.
 
-For details on the case fields, see [Information Request case form](../reference/information-request-case-form.md#).
+For details on the case fields, see [Information Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/information-request-case-form.md).
 
 
 </td></tr><tr><td>
@@ -149,10 +150,10 @@ Add comments to a case
 </td><td>
 
 1.  From the Information Requests list, open a case.
-2.  Tap the More actions icon \(![More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Add Comments**.
+2.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: More actions icon.\) and select **Add Comments**.
 3.  In the **Work Notes** or **Additional Comments** fields, add your work notes or comments about the case.
 
-You can also add comments through the activity stream related list. For more information, see [Using the activity stream in the Mobile Agent](psds-mobile-playbook-using-activity-stream.md).
+You can also add comments through the activity stream related list. For more information, see [Using the activity stream in the Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-mobile-playbook-using-activity-stream.md).
 
 </td></tr><tr><td>
 
@@ -160,7 +161,7 @@ Propose a solution for a case
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Propose Solution**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Propose Solution**.
 2.  In the **Resolution Code** and **Resolution Notes** fields, add the code and notes that you propose as a solution to resolve the case and then select **Submit**.
 
 </td></tr><tr><td>
@@ -169,7 +170,7 @@ Request more information
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Request Info**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Request Info**.
 2.  In the **Additional Comments** field, add more comments about the request.
 
 </td></tr><tr><td>
@@ -178,7 +179,7 @@ Escalate a case
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Escalate**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Escalate**.
 2.  In the **Escalations** dialog box, fill in the details of the escalation.
 
 </td></tr><tr><td>
@@ -196,7 +197,7 @@ Evaluate similar requests
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Evaluate similar requests**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Evaluate similar requests**.
 2.  In the **Escalations** dialog box, fill in the details of the escalation.
 
 </td></tr><tr><td>
@@ -205,7 +206,7 @@ Send for Requester Approval
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Send for Requester Approval**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Send for Requester Approval**.
 2.  In the **Send for Requester Approval** dialog box, fill in the details of the escalation.
 
 </td></tr><tr><td>
@@ -214,7 +215,7 @@ Request Fee Approval
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Request Fee Approval**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Request Fee Approval**.
 2.  In the **Escalations** dialog box, fill in the details of the escalation.
 
 </td></tr><tr><td>
@@ -232,7 +233,7 @@ Close a case
 
 </td><td>
 
-1.  Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Close Case**.
+1.  Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Close Case**.
 2.  In the **Resolution Code** and **Resolution Notes** fields, enter the code and your notes about how the case was resolved.
 
 </td></tr><tr><td>
@@ -241,7 +242,7 @@ Cancel a case
 
 </td><td>
 
-Tap the More actions icon \(![Mobile Agent More actions icon.](../image/psds-mobile-agent-top-menu.png)\) and select **Cancel Case**.
+Tap the More actions icon \(\[Omitted image "psds-mobile-agent-top-menu.png"\] Alt text: Mobile Agent More actions icon.\) and select **Cancel Case**.
 
 </td></tr></tbody>
 </table>

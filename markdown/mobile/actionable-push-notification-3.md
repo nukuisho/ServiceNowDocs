@@ -2,6 +2,7 @@
 title: Create functions for each push action
 description: Create mobile function for each function in the selected action category. These actions perform tasks on your instance based on what the user selects in the notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/actionable-push-notification-3.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Role required: admin
     -   Navigation
     -   URL
     -   Chat launcher
-    For information on function types, and detailed steps for creating functions, see [Mobile functions](../concept/sg-studio-mobile-button-types.md).
+    For information on function types, and detailed steps for creating functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
 
 4.  Create additional functions for each push action.
 
@@ -42,5 +43,5 @@ Role required: admin
 
 You have functions to perform actions for each of the buttons that display in your push notification. In the next steps, you will associate these functions to the notification actions so your functions trigger when users tap the buttons.
 
-**Parent Topic:**[Configure actionable push notifications](../concept/actionable-push-notification.md)
+**Parent Topic:**[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/actionable-push-notification.md)
 

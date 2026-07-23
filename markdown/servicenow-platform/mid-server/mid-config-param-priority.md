@@ -2,6 +2,7 @@
 title: MID Server Configuration Parameter settings and priority
 description: The MID Server's settings reside in multiple tables and the MID Server prioritizes them in a set order. MIDConfigParameter must be defined with the correct type-style builders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-config-param-priority.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -29,36 +30,36 @@ Avoid creating duplicate records in the MID Property table because they can inva
 
 Similarly, avoid creating global configuration parameters because they are unsupported. Global configuration parameters are configuration parameters with no assigned MID Server. If a setting should be applied to all MID Servers, then use a global MID Property.
 
-**Parent Topic:**[MID Server reference](../concept/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
 
-[MID Server system requirements](r_MIDServerSystemRequirements.md)
+[MID Server system requirements]()
 
-[MID Server upgrades](../concept/c_UpgradeAndTestMIDServer.md)
+[MID Server upgrades]()
 
-[Resolving MID Server issues](r_MIDServerTroubleshooting.md)
+[Resolving MID Server issues]()
 
-[MID Server dashboard](../concept/c_MIDServerDashboard.md)
+[MID Server dashboard]()
 
-[MID Server properties](r_MIDServerProperties.md#)
+[MID Server properties]()
 
-[MID Server parameters](mid-server-parameters.md#)
+[MID Server parameters]()
 
-[MID Server File Cleaner](../concept/mid_file_cleaner.md)
+[MID Server File Cleaner]()
 
-[MID Server protected records and reserved characters](mid-server-reserved-characters.md)
+[MID Server protected records and reserved characters]()
 
-[MID Server privileged commands](../concept/c_PrivilegedCommandsForMIDServer.md#)
+[MID Server privileged commands]()
 
-[MIDSystem methods](r_MIDSystemMethods.md)
+[MIDSystem methods]()
 
-[Manually start, stop, and restart a MID Server](../task/t_InstallMIDServerAsWinService.md)
+[Manually start, stop, and restart a MID Server]()
 
-[MID Server heartbeat](r_MIDServerHeartbeat.md)
+[MID Server heartbeat]()
 
-[Set the MID Server JVM memory size](../task/t_MIDServerOptionalConfiguration.md)
+[Set the MID Server JVM memory size]()
 
-[Pause the MID Server](../task/t_PauseTheMIDServer.md#)
+[Pause the MID Server]()
 

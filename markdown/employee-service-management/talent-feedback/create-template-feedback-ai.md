@@ -2,6 +2,7 @@
 title: Create feedback template using survey designer
 description: As an admin, you can create feedback templates using survey designer that managers can use to collect specific feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/create-template-feedback-ai.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

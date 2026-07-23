@@ -2,6 +2,7 @@
 title: Create KPI units
 description: Create KPI units to be used as measurement units for the quantitative performance of the supplier KPIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-units.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -14,6 +15,8 @@ breadcrumb: [Configure Supplier Relationship and Performance Management, Configu
 # Create KPI units
 
 Create KPI units to be used as measurement units for the quantitative performance of the supplier KPIs.
+
+\[Omitted video\] Description: Creating KPI Units.
 
 ## Before you begin
 
@@ -61,7 +64,7 @@ Unit family
 
 </td><td>
 
-Category under which the unit is listed. For example, the unit **US Dollars** is listed under the **Currency** Unit family.**Note:** You can see the list of existing Unit families by selecting the look-up \(![Look-up icon](../image/look-up-icon.png)\) icon. If none is listed, you can create one by selecting **New**.
+Category under which the unit is listed. For example, the unit **US Dollars** is listed under the **Currency** Unit family.**Note:** You can see the list of existing Unit families by selecting the look-up \(\[Omitted image "look-up-icon.png"\] Alt text: Look-up icon\) icon. If none is listed, you can create one by selecting **New**.
 
 </td></tr><tr><td>
 
@@ -97,22 +100,22 @@ Domain
 
 </td><td>
 
-Domain category under which the unit is listed. By default, the Domain is set as **Global**.**Note:** You can see the list of existing domains by selecting the look-up \(![Look-up icon](../image/look-up-icon.png)\) icon. If none is listed, you can create one by selecting **New**.
+Domain category under which the unit is listed. By default, the Domain is set as **Global**.**Note:** You can see the list of existing domains by selecting the look-up \(\[Omitted image "look-up-icon.png"\] Alt text: Look-up icon\) icon. If none is listed, you can create one by selecting **New**.
 
 </td></tr></tbody>
-</table>5.  Select **Submit**.![Selected button for saving the new KPI unit.](../image/create-kpi-units.png)
+</table>5.  Select **Submit**.\[Omitted image "create-kpi-units.png"\] Alt text: Selected button for saving the new KPI unit.
 
     A record is created for the new KPI unit.
 
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 
 **Related topics**  
 
 
-[Create KPI performance domains](create-kpi-domain.md)
+[Create KPI performance domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-domain.md)
 
-[Create manual KPI templates](../task/create-kpi-template-slo.md)
+[Create manual KPI templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-kpi-template-slo.md)
 
-[Create KPIs by adding suppliers to a KPI template](../task/add-supplier-kpi-template.md)
+[Create KPIs by adding suppliers to a KPI template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-kpi-template.md)
 

@@ -2,11 +2,12 @@
 title: Table connector methods
 description: The Table connector provides multiple methods that perform various actions on tabular data as part of an automation Workflow in the RPA Desktop Design Studio. For example, tasks such as getting a table, getting a row data, and removing empty rows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connectors-table-methods.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 16
-breadcrumb: [Table, Connectors, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Table, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Table connector methods
@@ -135,8 +136,8 @@ Adds a row and its contents at the specified index. You must provide the RowInde
 
 To set the index values where you add the contents of the row, do the following actions:
 
-1.  Click the component settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
-2.  Click the add index icon \(![Add index icon.](../image/add-image-icon.png)\).
+1.  Click the component settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
+2.  Click the add index icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add index icon.\).
 3.  Enter the index.
 4.  Repeat the steps to add multiple indexes.
 5.  Click **OK**.
@@ -446,8 +447,8 @@ Returns True if the method finds the text that you specify and the row values ba
 
 To specify the row values, you must configure the method.
 
-1.  Click the method settings icon \(![Method settings icon.](../image/component-settings-icon.png)\).
-2.  Click the add row index icon \(![Add row index.](../image/add-image-icon.png)\).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon.\).
+2.  Click the add row index icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add row index.\).
 3.  Update the row index value data type.
 4.  Enter the row index value.
 5.  Click **OK**.
@@ -542,8 +543,8 @@ Returns values of the multiple cells based on the index values that you specify.
 
 To configure, do the following actions:
 
-1.  Click the method settings icon \(![Method settings icon.](../image/component-settings-icon.png)\).
-2.  Click the add row index icon \(![Add row index.](../image/add-image-icon.png)\).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Method settings icon.\).
+2.  Click the add row index icon \(\[Omitted image "add-image-icon.png"\] Alt text: Add row index.\).
 3.  Update the row index value data type.
 4.  Enter the row index value.
 5.  Click **OK**.
@@ -895,8 +896,8 @@ Gets cell value\(s\) of a particular row if row contains specified text.
 
 To input the values, do the following actions:
 
-1.  Click the method settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
-2.  Click ![Add value icon.](../image/add-image-icon.png).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
+2.  Click \[Omitted image "add-image-icon.png"\] Alt text: Add value icon..
 3.  Enter the values.
 4.  Click **OK**.
 
@@ -914,8 +915,8 @@ Sets cell value\(s\) of a particular row if row contains specified text.
 
 To input the values, do the following actions:
 
-1.  Click the method settings icon \(![Component settings icon.](../image/component-settings-icon.png)\).
-2.  Click ![Add value icon.](../image/add-image-icon.png).
+1.  Click the method settings icon \(\[Omitted image "component-settings-icon.png"\] Alt text: Component settings icon.\).
+2.  Click \[Omitted image "add-image-icon.png"\] Alt text: Add value icon..
 3.  Enter the values.
 4.  Click **OK**.
 
@@ -927,5 +928,5 @@ To input the values, do the following actions:
 |SearchColumnIndex|Integer value that indicates the order of the column from the left. The default index value is -1 for the first column. Providing a custom index value is optional. If the field receives no custom index value, the method automatically sets the order of the columns.|Data In|Integer|
 |StartRowIndex|Integer value that indicates the order of the column from the left. The default index value is -1 for the first row. Providing a custom index value is optional. If the field receives no custom index value, the method automatically sets the order of the columns.|Data In|Integer|
 
-**Parent Topic:**[Table](../concept/table-connector.md)
+**Parent Topic:**[Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/table-connector.md)
 

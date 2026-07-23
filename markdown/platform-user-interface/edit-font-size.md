@@ -2,6 +2,7 @@
 title: Edit font size
 description: Adjust font sizes at the theme or component category level to refine default or custom fonts and keep your brand consistent across all experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/edit-font-size.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,23 +38,23 @@ Font sizing changes in Theme Builder also apply to web embeddables using your th
 
 2.  Use the Page drop-down list to select the Editor page view.
 
-    ![Page drop-down list with Editor selected.](../image/tb-editor-page-list.png "Page drop-down list")
+    \[Omitted image "tb-editor-page-list.png"\] Alt text: Page drop-down list with Editor selected.
 
 3.  From the Theme drop-down list, select the theme that you want to edit.
 
     The **Global styles** tab opens automatically with the Overview panel displayed.
 
-    ![Example view of the Editor page.](../image/tb-editor-page-view.png "Editor page view")
+    \[Omitted image "tb-editor-page-view.png"\] Alt text: Example view of the Editor page.
 
 4.  From the Global styles Overview panel, navigate to Typography and select the **Sizes** tab.
 
     Typography is split into Fonts and Sizes, with size assignments managed in the **Sizes** tab.
 
-    ![Typography with Sizes selected.](../image/tb-typography-sizes.png "Global styles Typography")
+    \[Omitted image "tb-typography-sizes.png"\] Alt text: Typography with Sizes selected.
 
 5.  Edit global font sizes.
 
-<table id="choicetable_o4q_hfq_g3c"><tbody><tr><td id="d91255e179">
+<table id="choicetable_o4q_hfq_g3c"><tbody><tr><td id="d91728e179">
 
 **Edit global base font**
 
@@ -61,7 +62,7 @@ Font sizing changes in Theme Builder also apply to web embeddables using your th
 
 Under Global sizes, locate Base font size and enter a new size value.
 
-</td></tr><tr><td id="d91255e188">
+</td></tr><tr><td id="d91728e188">
 
 **Edit individual global font sizes**
 
@@ -70,7 +71,7 @@ Under Global sizes, locate Base font size and enter a new size value.
 Under Global sizes, expand Base font size. Locate the individual size that you want to change and enter a new pixel value.
 
 </td></tr></tbody>
-</table>6.  To revert the font sizes to their original default size, select the Remove override icon ![](../../../reuse/icons/product-icons/undo-top-outline-24.svg).
+</table>6.  To revert the font sizes to their original default size, select the Remove override icon \[Omitted image "undo-top-outline-24.svg"\].
 
 7.  Edit fonts by component category.
 
@@ -82,7 +83,7 @@ Under Global sizes, expand Base font size. Locate the individual size that you w
 
         The category adopts the size of the tier it is dropped into. Dragging a category changes which size it uses, not the size value itself.
 
-    4.  To revert the category back to its original default size, select the Remove override icon ![](../../../reuse/icons/product-icons/undo-top-outline-24.svg).
+    4.  To revert the category back to its original default size, select the Remove override icon \[Omitted image "undo-top-outline-24.svg"\].
 
 8.  Use the available views to validate typography at different levels of detail.
 
@@ -93,7 +94,7 @@ Under Global sizes, expand Base font size. Locate the individual size that you w
 
 Theme Builder automatically saves your theme record.
 
-If your theme is published, your font sizing edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](tb-apply-theme.md).
+If your theme is published, your font sizing edits are visible to users who have your theme applied on refresh. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Working with Global styles](../concept/working-with-global-styles.md)
+**Parent Topic:**[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/working-with-global-styles.md)
 

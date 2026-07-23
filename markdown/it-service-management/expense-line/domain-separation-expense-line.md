@@ -2,6 +2,7 @@
 title: Domain separation and Expense Line
 description: Domain separation is unsupported in Expense Line processing. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/expense-line/domain-separation-expense-line.html
 release: australia
 product: Expense Line
 classification: expense-line
@@ -22,16 +23,16 @@ Domain separation is unsupported in Expense Line processing. Domain separation e
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Expense Line](../../asset-and-configuration/concept/c_ExpenseLine.md)
+**Parent Topic:**[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLine.md)
 
 **Related topics**  
 
 
-[Components installed with Expense Line](../reference/r_InstalledWithExpenseLine.md#)
+[Components installed with Expense Line]()
 
-[View an expense](../../asset-and-configuration/task/t_ExpenseLinesExample.md)
+[View an expense]()
 
-[Expense lines and expense allocations](c_ExpenseLinesAndAllocations.md)
+[Expense lines and expense allocations]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
 

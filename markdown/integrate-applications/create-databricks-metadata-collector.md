@@ -2,10 +2,11 @@
 title: Create a Databricks metadata collector
 description: Create a collector to import metadata from Databricks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-databricks-metadata-collector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Databricks metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -17,34 +18,42 @@ Create a collector to import metadata from Databricks.
 
 Before you begin, verify the following:
 
--   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](../concept/mid-server-for-metadata-collectors-dc.md).
--   All per-requisite tasks are completed. For more information, see [Prepare to run the Databricks collector](prepare-to-run-the-databricks-collector.md#).
+-   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
+-   All per-requisite tasks are completed. For more information, see [Prepare to run the Databricks collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/prepare-to-run-the-databricks-collector.md).
 -   Role required: connection-admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
 
-2.  Select the Connect Hub ![Connect Hub icon](../../../build/workflow-data-fabric/image/wdf-connect-hub-icon.png) icon in the left sidebar.
+2.  Select the Connect Hub \[Omitted image "wdf-connect-hub-icon.png"\] Alt text: Connect Hub icon icon in the left sidebar.
 
 3.  Select **Create** &gt; **Metadata collector**.
 
 4.  From the System list, select **Databricks**.
 
-5.  On the form, fill in the fields.
+5.  From the Connection type list, select one of the following:
+
+    1.  Select **New connection** to configure a new connection.
+
+    2.  Select **Existing connection** to reuse an existing connection and select an existing connection from the **Connections** list.
+
+        The configuration form is filled with details from the existing connection. The name is appended with the word Copy and sensitive details like password aren't copied.
+
+6.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
-    |Connection name|Unique identifier for the connection. This field cannot be modified once the connection is established.|
+    |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
     |Short description|Purpose and details of the connection.|
 
-6.  Enter the Databricks configuration details.
+7.  Enter the Databricks configuration details.
 
     |Field|Description|
     |-----|-----------|
     |Server|Hostname of the database server to connect to.|
 
-7.  Choose between **Collect all schemas** and **Specify which schema to collect** to configure the schema collection options.
+8.  Choose between **Collect all schemas** and **Specify which schema to collect** to configure the schema collection options.
 
     |Field|Description|
     |-----|-----------|
@@ -56,7 +65,7 @@ Before you begin, verify the following:
     |Specify which schema to collect|Catalog only the specified schemas.|
     |Schema|Name of the database schema to catalog.|
 
-8.  Enter the Databricks configuration details.
+9.  Enter the Databricks configuration details.
 
 <table id="table_pjv_hr4_33c"><thead><tr><th>
 
@@ -99,7 +108,7 @@ Excluded database
 Name or regular expression for databases to exclude when the Database field is empty.**Note:** This parameter is ignored if the Database field is specified.
 
 </td></tr></tbody>
-</table>9.  Configure the server details and authentication options.
+</table>10. Configure the server details and authentication options.
 
     |Field|Description|
     |-----|-----------|
@@ -109,7 +118,7 @@ Name or regular expression for databases to exclude when the Database field is e
     |Authenticate using personal access token|Option to authenticate using the Databricks personal access token. For details, see [Databricks documentation.](https://docs.databricks.com/dev-tools/api/latest/authentication.html)|
     |Authenticate using Databricks Service Principal|Option to authenticate using the Databricks service principal client ID and Databricks Service Principal Client Secret.|
 
-10. Configure the statistics and sampling options.
+11. Configure the statistics and sampling options.
 
 <table id="table_ocr_gc4_33c"><thead><tr><th>
 
@@ -152,7 +161,7 @@ Disable Extended Metadata collection
 Skip harvesting of extended metadata for data asset types such as database, schema, table, columns functions, stored procedures, user defined types, and synonyms. Basic metadata for these data asset types will still be harvested.
 
 </td></tr></tbody>
-</table>11. Configure the harvesting scope and limits options.
+</table>12. Configure the harvesting scope and limits options.
 
 <table id="table_kbn_4lp_33c"><thead><tr><th>
 
@@ -227,7 +236,7 @@ Enable Metric Views Harvesting
 Enable harvesting of metric views. Metric view information is extracted from a table's extended metadata and is available only when extended metadata harvesting is enabled.
 
 </td></tr></tbody>
-</table>12. Configure the connection and reliability options.
+</table>13. Configure the connection and reliability options.
 
 <table id="table_yhb_plp_33c"><thead><tr><th>
 
@@ -303,6 +312,22 @@ The external workspace URL for cross-workspace access.
 
 </td></tr><tr><td>
 
+Enable Governance Metadata Collection
+
+</td><td>
+
+Enable harvesting of governance metadata including privileges, workspace bindings, ABAC policies, row filters, and column masking policies
+
+</td></tr><tr><td>
+
+Workspace ID to URL Mapping
+
+</td><td>
+
+Specify workspace ID to workspace URL mapping. Provide the option multiple times for multiple mappings.
+
+</td></tr><tr><td>
+
 SQL parsing timeout
 
 </td><td>
@@ -310,7 +335,7 @@ SQL parsing timeout
 Timeout in seconds for SQL parsing during lineage collection. Default: 60
 
 </td></tr></tbody>
-</table>13. Select **Save**.
+</table>14. Select **Save**.
 
 
 ## Result
@@ -321,10 +346,10 @@ The metadata collector is created and appears on the Connectors page with a Conf
 
 After creating the collector, you can perform any of the following tasks:
 
--   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](run_metadata-collectors-manually.md).
--   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](schedule-metadata-collector-runs.md).
--   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](view-runtime-logs-for-collector-runs.md).
--   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](../concept/manage-data-catalog.md).
+-   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/run_metadata-collectors-manually.md).
+-   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/schedule-metadata-collector-runs.md).
+-   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-runtime-logs-for-collector-runs.md).
+-   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-catalog.md).
 
-**Parent Topic:**[Databricks metadata collector](../concept/databricks-metadata-collector.md)
+**Parent Topic:**[Databricks metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/databricks-metadata-collector.md)
 

@@ -2,6 +2,7 @@
 title: Find an asset or CI
 description: All users in your organization, regardless of their role, can search for assets and CIs. The results are ordered by current level or floor, current campus, and other campuses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/t\_FindAssetorCI.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,9 +33,9 @@ Role required: none
 
 3.  To help narrow your search results, you can select the campus, building, and floor number for your search.
 
-    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](../reference/r_WorkbenchConfiguration.md).
+    **Note:** The facilities administrator configures the number of search results returned. See [Facilities visualization workbench configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_WorkbenchConfiguration.md).
 
-    ![In this figure, a facilities map image displays a building floor and its designated spaces.](../image/CampusFloorSelection.png)
+    \[Omitted image "CampusFloorSelection.png"\] Alt text: In this figure, a facilities map image displays a building floor and its designated spaces.
 
 4.  On the Spaces tab, enter the asset or CI in the search field.
 
@@ -47,15 +48,15 @@ Role required: none
     -   Other Campuses
 6.  Perform one of the following options.
 
-<table id="choicetable_dm3_syy_nt"><thead><tr><th align="left" id="d25822e180">
+<table id="choicetable_dm3_syy_nt"><thead><tr><th align="left" id="d26098e180">
 
 Result
 
-</th><th align="left" id="d25822e183">
+</th><th align="left" id="d26098e183">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d25822e189">
+</th></tr></thead><tbody><tr><td id="d26098e189">
 
 **To see the asset or CI details**
 
@@ -63,15 +64,15 @@ Action
 
 Click the link for the asset or CI. The details for that asset or CI open in a separate form.
 
-</td></tr><tr><td id="d25822e201">
+</td></tr><tr><td id="d26098e201">
 
 **To see the location of the asset or CI on the floor plan**
 
 </td><td>
 
-Click the pin ![pin icon](../image/PinIcon.png) icon, beside the link for the asset or CI.
+Click the pin \[Omitted image "PinIcon.png"\] Alt text: pin icon icon, beside the link for the asset or CI.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Interactive facility maps](../concept/c_InteractiveFacilityMaps.md)
+**Parent Topic:**[Interactive facility maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_InteractiveFacilityMaps.md)
 

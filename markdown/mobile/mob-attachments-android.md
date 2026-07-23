@@ -2,6 +2,7 @@
 title: Configure different mobile attachment capabilities on Android devices based on user roles
 description: Use a combination of system properties and mobile properties to enable different users on Android devices to share, download, or view attachments in external applications based on roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mob-attachments-android.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,7 +43,7 @@ Group B: users that CAN'T:
 </td></tr></tbody>
 </table>## About this task
 
-After you identify the two groups of users, assign different roles to each group of users. You can assign more than one role to each group of users. For information about creating and assigning roles to users, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md).
+After you identify the two groups of users, assign different roles to each group of users. You can assign more than one role to each group of users. For information about creating and assigning roles to users, see [Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateARole.md).
 
 **Note:** This feature is available on Android clients, version 19.5.1 and later.
 
@@ -50,11 +51,11 @@ After you identify the two groups of users, assign different roles to each group
 
 1.  Set the system property **glide.sg.block\_mobile\_attachments\_external\_viewing** to `true`.
 
-    For more information, see [Control whether users can view attachments in external applications on Android devices](vu-attach-extapp-android.md).
+    For more information, see [Control whether users can view attachments in external applications on Android devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/vu-attach-extapp-android.md).
 
 2.  Set the system property **glide.sg.block\_mobile\_attachments\_sharing** to `true`.
 
-    For more information, see [Block users from downloading or sharing attachments](block-users-download-shar-attach.md).
+    For more information, see [Block users from downloading or sharing attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/block-users-download-shar-attach.md).
 
 3.  On your ServiceNow® instance, navigate to **All** &gt; **sys\_sg\_properties\_list.do**.
 
@@ -88,7 +89,7 @@ Application
 
 </td><td>
 
-Application scope where the mobile property is applied. To select a different application scope, select the Overflows Menu \(![Overflows menu image](../image/button-more-android.png)\) on the instance banner. Then select **Scope selectors &gt; Application scope:_application\_scope_**.
+Application scope where the mobile property is applied. To select a different application scope, select the Overflows Menu \(\[Omitted image "button-more-android.png"\] Alt text: Overflows menu image\) on the instance banner. Then select **Scope selectors &gt; Application scope:_application\_scope_**.
 
 </td></tr><tr><td>
 
@@ -132,7 +133,7 @@ Is Public
 
 Determines whether the pre-auth property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-events.md).
+ By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the /user\_client API response.
 
@@ -144,7 +145,7 @@ Mobile App Config
 
 Mobile app configuration that you want to use the mobile property for. This setting limits the mobile property behavior to users who have access to this mobile app configuration. Other users don't have access to this mobile property and instead experience default behavior.
 
- To enter a value, either start typing the configuration name or select the search icon \(![magnifying glass image](../image/search-icon.png)\). The search dialog box lists the configurations from which you can choose. Select a configuration for **Mobile App Config**.
+ To enter a value, either start typing the configuration name or select the search icon \(\[Omitted image "search-icon.png"\] Alt text: magnifying glass image\). The search dialog box lists the configurations from which you can choose. Select a configuration for **Mobile App Config**.
 
 </td></tr><tr><td>
 
@@ -154,7 +155,7 @@ Mobile Application
 
 Mobile application that you want to send the mobile property to. This setting limits the mobile property behavior to users who have access to this mobile app. Other users don't have access to this mobile property and instead experience default behavior.
 
- To enter a value, either start typing the application name or select the search icon \(![magnifying glass image](../image/search-icon.png)\). The search dialog box lists the applications from which you can choose. Select an application for **Mobile Application**.
+ To enter a value, either start typing the application name or select the search icon \(\[Omitted image "search-icon.png"\] Alt text: magnifying glass image\). The search dialog box lists the applications from which you can choose. Select an application for **Mobile Application**.
 
 </td></tr></tbody>
 </table>6.  Select **Submit**.
@@ -187,7 +188,7 @@ Application
 
 </td><td>
 
-Application scope where the mobile property is applied. To select a different application scope, select the Overflows Menu \(![Overflows menu image](../image/button-more-android.png)\) on the instance banner. Then select **Scope selectors &gt; Application scope:_application\_scope_**.
+Application scope where the mobile property is applied. To select a different application scope, select the Overflows Menu \(\[Omitted image "button-more-android.png"\] Alt text: Overflows menu image\) on the instance banner. Then select **Scope selectors &gt; Application scope:_application\_scope_**.
 
 </td></tr><tr><td>
 
@@ -231,7 +232,7 @@ Is Public
 
 Determines whether the pre-auth property is included in the API response.
 
- By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-events.md).
+ By default, this option is not selected. If you want this property included in the /pre-auth API response, select this checkbox. For more information, see [Adaptive authentication events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/adaptive-authentication-events.md).
 
  Mobile properties with this checkbox enabled are excluded from the /user\_client API response.
 
@@ -243,7 +244,7 @@ Mobile App Config
 
 Mobile app configuration that you want to use the mobile property for. This setting limits the mobile property behavior to users who have access to this mobile app configuration. Other users don't have access to this mobile property and instead experience default behavior.
 
- To enter a value, either start typing the configuration name or select the search icon \(![magnifying glass image](../image/search-icon.png)\). The search dialog box lists the configurations from which you can choose. Select a configuration for **Mobile App Config**.
+ To enter a value, either start typing the configuration name or select the search icon \(\[Omitted image "search-icon.png"\] Alt text: magnifying glass image\). The search dialog box lists the configurations from which you can choose. Select a configuration for **Mobile App Config**.
 
 </td></tr><tr><td>
 
@@ -253,7 +254,7 @@ Mobile Application
 
 Mobile application that you want to send the mobile property to. This setting limits the mobile property behavior to users who have access to this mobile app. Other users don't have access to this mobile property and instead experience default behavior.
 
- To enter a value, either start typing the application name or select the search icon \(![magnifying glass image](../image/search-icon.png)\). The search dialog box lists the applications from which you can choose. Select an application for **Mobile Application**.
+ To enter a value, either start typing the application name or select the search icon \(\[Omitted image "search-icon.png"\] Alt text: magnifying glass image\). The search dialog box lists the applications from which you can choose. Select an application for **Mobile Application**.
 
 </td></tr></tbody>
 </table>8.  Select **Submit**.
@@ -263,5 +264,5 @@ Mobile application that you want to send the mobile property to. This setting li
 
 After updating these properties, the end user must pull to refresh and get the latest feature configurations.
 
-**Parent Topic:**[Mobile properties](../concept/mobile-properties.md)
+**Parent Topic:**[Mobile properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-properties.md)
 

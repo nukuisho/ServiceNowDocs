@@ -2,6 +2,7 @@
 title: Create a quote
 description: Create a quote in Quote Management to start the quote building process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-quote.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,21 +27,21 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All** and select **New**.
 
 3.  On the **Create new quote** form, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d148343e105">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d163715e105">
 
 To
 
-</th><th align="left" id="d148343e108">
+</th><th align="left" id="d163715e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d148343e114">
+</th></tr></thead><tbody><tr><td id="d163715e114">
 
 **Create quote for an account**
 
@@ -59,7 +60,7 @@ Select the **Account** and enter the following:-   Expiration date: Date and tim
 -   Channel partner: \(Optional\) The name of the organization selling a product or service.
 
 
-</td></tr><tr><td id="d148343e166">
+</td></tr><tr><td id="d163715e166">
 
 **Create quote for a consumer**
 
@@ -82,14 +83,14 @@ Select the **Consumer** name and enter the following:-   Deal type: Indicates th
 
     The quote is saved and you return to the **Quotes** list view.
 
-5.  Select refresh ![](../../tmt-telecom-network-inventory/image/icon-refresh.png) to see the new quote in the list.
+5.  Select refresh \[Omitted image "icon-refresh.png"\] Alt text: to see the new quote in the list.
 
 6.  Select **Add Line Items** to save the quote and begin adding quote line items.
 
 
 ## What to do next
 
-[Add and view details of a quote](quote-management-details-tab.md).
+[Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-details-tab.md).
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

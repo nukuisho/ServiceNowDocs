@@ -2,6 +2,7 @@
 title: External Link form
 description: Use the External Link form to create an external link.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/external-link-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,68 +20,68 @@ Use the External Link form to create an external link.
 |-----|-----------|
 |Title|Title for the external link.|
 |Short description|Short description for the external link.|
-|URL|URL of the external link; for more information, see[Create an external link](../task/create-external-links.md)|
+|URL|URL of the external link; for more information, see[Create an external link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-external-links.md)|
 
-**Parent Topic:**[Employee Center reference](emp-center-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
 
-[Activity Configuration form](ec-activity-configuration-form.md)
+[Activity Configuration form]()
 
-[Activity Configuration Detail form](activity-configuration-detail-form.md)
+[Activity Configuration Detail form]()
 
-[Approvals experience reference](approval-hub-ootb.md)
+[Approvals experience reference]()
 
-[Connected Content form](connected-content-form.md)
+[Connected Content form]()
 
-[Default Employee Profile Header Configuration record](default-profile-header.md)
+[Default Employee Profile Header Configuration record]()
 
-[Employee Center widgets](../concept/employee-center-widgets-list.md)
+[Employee Center widgets]()
 
-[Employee Profile form](employee-profile-fieldconfig.md)
+[Employee Profile form]()
 
-[Employee Profile Header Configuration form](profile-header-config-form.md)
+[Employee Profile Header Configuration form]()
 
-[Employee Profile portal configuration form](profile-portal-config-form.md)
+[Employee Profile portal configuration form]()
 
-[Employee Profile upgrade scenarios](emp-profile-upgrade.md)
+[Employee Profile upgrade scenarios]()
 
-[Enhanced Requests Experience forms](req-concept-ec.md)
+[Enhanced Requests Experience forms]()
 
-[Featured Content form](featured-content-form.md)
+[Featured Content form]()
 
-[Footer form](ec-footer-form.md)
+[Footer form]()
 
-[Footer Menus form](ec-footer-menus.md)
+[Footer Menus form]()
 
-[Guided Self-Service reference](gss-guided-self-service-reference-info.md)
+[Guided Self-Service reference]()
 
-[Menu Item form](menu-item-form.md)
+[Menu Item form]()
 
-[Overview section form](profile-overview-section-form.md)
+[Overview section form]()
 
-[Portal notification configuration form](portal-notif-config-form.md)
+[Portal notification configuration form]()
 
-[Portal notification content form](notif-content-form.md)
+[Portal notification content form]()
 
-[Trigger conditions form](notif-trigger-form.md)
+[Trigger conditions form]()
 
-[Quick Link form](ec-quick-link-form.md)
+[Quick Link form]()
 
-[Tab widget mapping form](tab-widget-mapping-form.md)
+[Tab widget mapping form]()
 
-[Taxonomy form](taxonomy-form.md)
+[Taxonomy form]()
 
-[Topic form](topic-form.md)
+[Topic form]()
 
-[User Criteria form](ec-user-criteria-form.md)
+[User Criteria form]()
 
-[User Criteria output](user-criteria-output.md)
+[User Criteria output]()
 
-[Schedule appointment form](schedule-appointment-form.md)
+[Schedule appointment form]()
 
-[Location Consent form](location-consent-form.md)
+[Location Consent form]()
 
-[Website configuration form](config-website-form.md)
+[Website configuration form]()
 

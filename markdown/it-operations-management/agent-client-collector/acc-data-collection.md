@@ -1,7 +1,8 @@
 ---
 title: Agent Client Collector data collection tables
-description: Agent Client Collector performs data collection based on the scoped apps that you've installed. Agent Client Collector Framework performs basic data collection, and Agent Client Collector for Visibility - Content performs enhanced data collection.
+description: Agent Client Collector performs data collection based on the scoped apps that you've installed. Agent Client Collector Framework performs basic data collection, and Agent Client Collector for Visibility Content performs enhanced data collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-data-collection.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -13,7 +14,7 @@ breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Col
 
 # Agent Client Collector data collection tables
 
-Agent Client Collector performs data collection based on the scoped apps that you've installed. Agent Client Collector Framework performs basic data collection, and Agent Client Collector for Visibility - Content performs enhanced data collection.
+Agent Client Collector performs data collection based on the scoped apps that you've installed. Agent Client Collector Framework performs basic data collection, and Agent Client Collector for Visibility Content performs enhanced data collection.
 
 The Refresh Host Data for Agents scheduled job collects host data every hour on hosts that haven't had data collection run in the past 12 hours. The job collects the data described in the following tables.
 
@@ -168,5 +169,5 @@ cmdb\_serial\_number
 |TCP Connections|cmdb\_tcp|
 |Running Processes|cmdb\_running\_process|
 
-**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

@@ -2,6 +2,7 @@
 title: Create matching rules for intraday events
 description: Create matching rules to specify which tasks and technicians to include in prioritized intraday optimization runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-matching-rules-for-intraday-events.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,7 +18,7 @@ Create matching rules to specify which tasks and technicians to include in prior
 
 ## Before you begin
 
-[Set up prioritized intraday optimization with matching rules](set-up-prioritized-intraday-optimization-with-matching-rules.md)
+[Set up prioritized intraday optimization with matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/set-up-prioritized-intraday-optimization-with-matching-rules.md)
 
 Role required: wm\_admin
 
@@ -92,8 +93,16 @@ Indicates the option to match the rules. Select **Selection Criteria** to use th
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-6.  If you selected **Selection Criteria** in the **Matching** field, add matching criteria in the **Matching Criteria** related list.
+6.  If you selected **Selection Criteria** in the **Matching** field, add one or more matching criteria in the **Matching Criteria** related list.
 
+    Available matching criteria:
+
+    -   **Affected task\(s\)** — identifies tasks directly affected by the prioritized event
+    -   **Affected technician\(s\)** — identifies technicians directly affected by the prioritized event
+    -   **Retrieve task\(s\) based on skills** — identifies tasks whose required skills match the criteria
+    -   **Retrieve task\(s\) within radius** — identifies tasks located within the defined radius of the intraday event
+    -   **Retrieve technician\(s\) based on skills** — identifies technicians whose skills match those required by the intraday event
+    -   **Retrieve technician\(s\) within radius** — identifies technicians located within the defined radius of the intraday event
 7.  Choose which event types use matching rules.
 
     1.  Navigate to **All** &gt; **Schedule Optimization** &gt; **Intraday Optimization** &gt; **Event Types**.
@@ -108,7 +117,7 @@ The matching rule is added to the configuration and executes when the specified 
 **Related topics**  
 
 
-[Optimizing technician schedules at set intervals throughout the day](optimize-your-schedules-intraday.md)
+[Optimizing technician schedules at set intervals throughout the day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
 
-[Optimizing technician schedules in response to urgent events](triggering-optimization-on-task-or-agent-availability-change.md)
+[Optimizing technician schedules in response to urgent events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/triggering-optimization-on-task-or-agent-availability-change.md)
 

@@ -2,6 +2,7 @@
 title: Create purchase order exception from Universal Request
 description: Operational buyers can convert universal requests into purchase order exceptions during triage, cutting down on manual effort and ensuring that purchase order related issues are tracked and resolved more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/create-po-exception-universal-req.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ Role required: Operational buyer
 
 6.  In the Create New Purchase Order Exception form, fill in the details.
 
-    For a description of the field values, see [Create new purchase order exception form](../reference/create-new-poe-form.md).
+    For a description of the field values, see [Create new purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-new-poe-form.md).
 
     The universal request number from which the purchase order exception is created appears in the **Universal Request** field on the purchase order exception form.
 
@@ -46,12 +47,16 @@ Role required: Operational buyer
 
 A purchase order exception record is created, which links to the original universal request.
 
-**Parent Topic:**[Use Purchase Order Management](../concept/use-purch-order-mgmt.md)
+**Parent Topic:**[Use Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/use-purch-order-mgmt.md)
 
 **Related topics**  
 
 
-[Reporting delivery plan issues](../concept/reporting-delivery-plan-issues.md)
+[Reporting delivery plan issues]()
 
-[Resolving purchase order exceptions](../concept/resolving-purchase-order-exceptions.md)
+[Resolving purchase order exceptions]()
+
+[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/universal-request.md)
+
+[Create new purchase order exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/create-new-poe-form.md)
 

@@ -2,11 +2,12 @@
 title: Retire or archive a product offering version
 description: Move a published product offering version to a Retired or Archived state when it is no longer in use or being sold to your customers. When you retire a product offering version, you can't use it in a product catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/retire-archive-product-offering-somt.html
 release: australia
 topic_type: task
 last_updated: "2026-04-07"
 reading_time_minutes: 1
-breadcrumb: [Retiring or archiving versioned specifications and product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Retire or archive versions, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Retire or archive a product offering version
@@ -36,7 +37,7 @@ You can maintain only one active version of the product offering. After a produc
 
 4.  To view the previous versions that are related to this product offering, select **More** &gt; **Versions \(n\)**, where n represents the number of base and previous product offering versions.
 
-    For detailed information about the field descriptions [Product Offering Versions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/field-descriptions-product-offering-form.md).
+    For detailed information about the field descriptions .
 
 5.  From the Versions \(n\) tab, you can select one or more product offering versions to retire or archive.
 

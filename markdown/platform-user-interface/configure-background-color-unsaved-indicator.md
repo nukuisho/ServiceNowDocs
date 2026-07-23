@@ -2,6 +2,7 @@
 title: Configure a background color for unsaved fields
 description: Configure a background color to display on unsaved fields across the entire workspace experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/configure-background-color-unsaved-indicator.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Configure a background color to display on unsaved fields across the entire work
 
 ## Before you begin
 
-Configure a UX page property to enable the unsaved field indicator. For instructions, see [Configure the unsaved indicator](configure-unsaved-field-indicator.md).
+Configure a UX page property to enable the unsaved field indicator. For instructions, see [Configure the unsaved indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-unsaved-field-indicator.md).
 
 Role required: admin
 
@@ -81,5 +82,5 @@ The following fields don't support a background color on unsaved fields:
 
 Unsaved field display both an indicator and a background color across the entire workspace experience.
 
-![Unsaved field with a background color and indicator](../image/form-unsaved-background-color.png)
+\[Omitted image "form-unsaved-background-color.png"\] Alt text: Unsaved field with a background color and indicator
 

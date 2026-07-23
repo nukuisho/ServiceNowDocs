@@ -2,6 +2,7 @@
 title: Components installed with the Industrial Connected Workforce
 description: Several types of components are installed with activation of the plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/components-installed-with-icw.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -53,7 +54,8 @@ User role for the Actions module
 
 </td><td>
 
-sn\_icw.user
+-   sn\_icw.user
+-   sn\_nb\_action.next\_best\_action\_user
 
 </td></tr><tr><td>
 
@@ -145,7 +147,8 @@ User role for the Deviations module
 
 </td><td>
 
-sn\_icw.user
+-   sn\_icw.user
+-   sn\_nb\_action.next\_best\_action\_user
 
 </td></tr><tr><td>
 
@@ -206,7 +209,8 @@ User role for root Cause Analysis
 
 </td><td>
 
-sn\_icw.user
+-   sn\_icw.user
+-   sn\_nb\_action.next\_best\_action\_user
 
 </td></tr><tr><td>
 
@@ -220,7 +224,26 @@ Report user role for the ICW Core application
 
 </td><td>
 
-sn\_icw.user
+-   cmdb\_read
+-   cmdb\_ot\_viewer
+-   sn\_ent.classification\_reader
+
+</td></tr><tr><td>
+
+Safety Incident User
+
+ \[sn\_icw.safety\_incident\_user\]
+
+</td><td>
+
+Can view and report safety incidents
+
+</td><td>
+
+-   sn\_icw.user
+-   sn\_ohs\_im.incident\_reader
+-   sn\_ohs\_im.incident\_writer
+-   sn\_ohs\_im.workspace\_user
 
 </td></tr><tr><td>
 
@@ -237,7 +260,6 @@ User role for the ICW Core application
 -   canvas\_user
 -   cmdb\_ot\_isa\_viewer
 -   sn\_ent.classification\_reader
--   sn\_nb\_action.next\_best\_action\_user
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -254,5 +276,5 @@ User role for the ICW Core application
 -   Industrial Task \[sn\_icw\_task\]
 -   Worker profile \[sn\_icw\_worker\_profile\]
 
-**Parent Topic:**[Industrial Connected Workforce reference](icw-reference.md)
+**Parent Topic:**[Industrial Connected Workforce reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/icw-reference.md)
 

@@ -2,11 +2,12 @@
 title: Verify capabilities in ServiceNow Studio
 description: Verify the capabilities that you have added using Now Assist for Security Incident Response integrations and update the scripts for any required changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/verify-capabilities.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use, LLM-powered SIR integration builder, Security Operations]
+breadcrumb: [Use SIR Integration Builder, LLM-powered SIR integration builder, Security Operations]
 ---
 
 # Verify capabilities in ServiceNow Studio
@@ -41,7 +42,7 @@ Role required: sn\_si\_int\_kit.integration\_creator
 
 4.  Select **Capability Implementation**.
 
-    1.  Verify each of the added capability.
+    1.  Verify each added capability.
 
     2.  Make any necessary changes.
 
@@ -55,7 +56,7 @@ Role required: sn\_si\_int\_kit.integration\_creator
 
         **Warning:**
 
-        This application uses artificial intelligence \(AI\) and machine learning, which are rapidly evolving fields of study that generate predictions based on patterns in data. As a result, this application may not always produce accurate, complete, or appropriate information. Furthermore, there is no guarantee that this application has been fully trained or tested for your use case. To mitigate these issues, it is your responsibility to test and evaluate your use of this application for accuracy, harm, and appropriateness for your use case, employ human oversight of output, and refrain from relying solely on AI-generated outputs for decision-making purposes. This is especially important if you choose to deploy this application in areas with consequential impacts such as healthcare, finance, legal, employment, security, or infrastructure. You agree to abide by [ServiceNow’s AI Acceptable Use Policy](https://www.servicenow.com/ai-acceptable-use-policy.html), which may be updated by ServiceNow.
+        This application uses artificial intelligence \(AI\) and machine learning, which are rapidly evolving fields of study that generate predictions based on patterns in data. As a result, this application may not always produce accurate, complete, or appropriate information. Furthermore, there is no guarantee that this application has been fully trained or tested for your use case. To mitigate these issues, it is your responsibility to test and evaluate your use of this application for accuracy, harm, and appropriateness for your use case, employ human oversight of output, and refrain from relying solely on AI-generated outputs for decision-making purposes. This is especially important if you choose to deploy this application in areas with consequential impacts such as healthcare, finance, legal, employment, security, or infrastructure. You agree to abide by [ServiceNow's AI Acceptable Use Policy](https://www.servicenow.com/ai-acceptable-use-policy.html), which may be updated by ServiceNow.
 
     2.  Make any necessary changes.
 

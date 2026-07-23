@@ -2,13 +2,14 @@
 title: Employee document management bulk imports
 description: Use the Employee Document Management Bulk Imports feature to copy your employee documents from an external third-party cloud-based storage or a local network directory to Employee Document Management. Having your employee documents within HR Service Delivery makes administration efficient and convenient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/edm-bulk-uploads.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Using Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Employee document management bulk imports
@@ -35,13 +36,13 @@ Activating the Orchestration \[com.snc.runbook\_automation\] plugin is required 
 
 **Note:** Java JRE 6 or later is also required.
 
-![EDM — Local directory diagram](../image/edm-local-diagram.png)
+\[Omitted image "edm-local-diagram.png"\] Alt text: EDM — Local directory diagram
 
 The process for configuring HR Service Delivery with a local document repository is:
 
 1.  Configure HR Service Delivery to communicate with the source location from Employee Document Import Configuration.
 
-    Before you can configure a local document storage, ensure that a [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) is configured and available. A MID server is required to facilitate communication and movement of data between a ServiceNow instance and applications, data sources, and services.
+    Before you can configure a local document storage, ensure that a [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md) is configured and available. A MID server is required to facilitate communication and movement of data between a ServiceNow instance and applications, data sources, and services.
 
     **Important:** By default, this feature expects the file server to be UNIX. If the file server is any OS other than UNIX, then you must customize the solution.
 
@@ -50,7 +51,7 @@ The process for configuring HR Service Delivery with a local document repository
 
         **Note:** Other methods of configuring your local document storage requires custom development.
 
-    Create a credential to use for authentication with the local document storage. See [Set up SSH credentials to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/set-up-and-config-MID-server.md).
+    Create a credential to use for authentication with the local document storage. See [Set up SSH credentials to the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/set-up-and-config-MID-server.md).
 
     **Note:** When connecting to a local document repository, you may need to grant admin rights.
 
@@ -71,7 +72,7 @@ Activating the ServiceNow IntegrationHub Installer \[com.glide.hub.integrations\
 
 **Note:** Integrating with a third-party, cloud-based document storage is considered a custom implementation. Employee document management bulk imports provides a basic framework to integrate with third-party, cloud-based document storage. You may need to consult with your ServiceNow Solution Consultant.
 
-![EDM — Cloud diagram](../image/edm-cloud-diagram.png)
+\[Omitted image "edm-cloud-diagram.png"\] Alt text: EDM — Cloud diagram
 
 You need the following to configure with your third-party cloud-based \(source\) document repository:
 
@@ -101,21 +102,21 @@ Use the **sn\_hr\_ef.max\_file\_size** field in the Properties for Employee Docu
 
 **Note:** Increasing the maximum size can affect system performance.
 
-For more information, see [Properties for Employee Document Management application](../reference/employee-doc-properties.md).
+For more information, see [Properties for Employee Document Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/employee-doc-properties.md).
 
--   **[Use import mapping to locate and transform source employee documents](import-mapping.md#)**  
+-   **[Use import mapping to locate and transform source employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/import-mapping.md)**  
 Import mapping locates your source employee documents from your source document repository and transforms them to import them to Employee Document Management.
--   **[Configuring employee document management bulk import with source document repository](../task/edm-bulk-configuration.md#)**  
+-   **[Configuring employee document management bulk import with source document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-bulk-configuration.md)**  
 Use Employee Document Import Configuration to identify and communicate with the source document repository. The source document repository is where you currently store your employee documents.
--   **[Bulk import map examples](../reference/edm-map-examples.md)**  
+-   **[Bulk import map examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-map-examples.md)**  
 Mapping your source employee documents to required elements in Employee Document Management is crucial for a successful bulk import.
--   **[Correcting employee documents in the staging table](../task/edm-doc-staging.md)**  
+-   **[Correcting employee documents in the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-doc-staging.md)**  
 Use the Employee Document Staging form to correct staging records prior to importing to HR Service Delivery. Staging records are created after you have mapped your source employee documents and the Start staging job has run.
 
-**Parent Topic:**[Using Employee Document Management](using-employee-document-management.md)
+**Parent Topic:**[Using Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/using-employee-document-management.md)
 
 **Related topics**  
 
 
-[Managing employee documents](hr-doc-management-admin.md#)
+[Managing employee documents]()
 

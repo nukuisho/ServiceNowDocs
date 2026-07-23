@@ -2,12 +2,13 @@
 title: Use Guided Self-Service
 description: Use the Guided Self-Service experience to self-serve, leading to improved productivity, and operational efficiencies for the organization.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -33,44 +34,46 @@ As an employee, you can select options, view or modify the choices, restart acti
 
 Here is the intuitive step-by-step flow for the use cases.
 
-![Know your benefits - Guided Self-Service in Employee Center and its intuitive uses.](../images/gss-guided-help-employee.gif "Guided Self-Service: Know your benefits flow")
+\[Omitted image "gss-guided-help-employee.gif"\] Alt text: Know your benefits - Guided Self-Service in Employee Center and its intuitive uses.
 
-![Leave request - Guided Self-Service in Employee Center and its intuitive uses.](../images/gss-guided-help-employee-leave-flow.gif "Guided Self-Service Start over")
+\[Omitted image "gss-guided-help-employee-leave-flow.gif"\] Alt text: Leave request - Guided Self-Service in Employee Center and its intuitive uses.
 
-For more information, see [Guided Self-Service in Employee Center](gss-guided-self-service-overview.md).
+For more information, see [Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md).
 
-**Parent Topic:**[Using Employee Center](using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
 
-[Use the Employee Center topic pages](ec-topic-use.md)
+[Use the Employee Center topic pages]()
 
-[Topic managers and contributors for topic page management](topic-managers-and-contributors-for-topic-page-management.md)
+[Topic managers and contributors for topic page management]()
 
-[Use the My To-dos page](../task/ec-to-dos-use.md)
+[Use the My To-dos page]()
 
-[Use approval experience](../task/ec-to-dos-use-approval-hub.md)
+[Use approval experience]()
 
-[Manage approvals from Microsoft Teams](../../sn-teams/task/va-concur.md)
+[Manage approvals from Microsoft Teams]()
 
-[Manage approvals from a Microsoft Outlook email](../../sn-ms-outlook/task/oam-concur.md)
+[Manage approvals from a Microsoft Outlook email]()
 
-[Task filters on My tasks](configurable-filters-experience.md)
+[Task filters on My tasks]()
 
-[View the Recommended for you content](rfy-employee.md)
+[View the Recommended for you content]()
 
-[Use Employee Center from Zoom](../task/zoom-create-email-notification.md)
+[Use Employee Center from Zoom]()
 
-[View employee profile](update-employee-profile.md)
+[View employee profile]()
 
-[Use Personalized Answers](using-personalized-search-on-employee-center.md)
+[Use Employee Profile with HR Service Delivery]()
 
-[Employee Profile org chart widget](../task/view-org-chart.md)
+[Use Personalized Answers]()
 
-[RTL support for Employee Center](ec-rtl-language-support.md)
+[Employee Profile org chart widget]()
 
-[Manage favorites](../task/web-configure-favorites-employee.md)
+[RTL support for Employee Center]()
 
-[Access applications from App Launcher](web-application-employee.md)
+[Manage favorites]()
+
+[Access applications from App Launcher]()
 

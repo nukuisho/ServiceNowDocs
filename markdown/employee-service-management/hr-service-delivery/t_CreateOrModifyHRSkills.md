@@ -2,6 +2,7 @@
 title: Add or modify an HR skill
 description: You can create HR skills and assign them to HR staff to assist with the auto-assignment of HR cases and tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyHRSkills.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -33,18 +34,6 @@ The following procedure describes how to create and edit HR skills from the Skil
 
 4.  Click **Submit** to save your changes.
 
-5.  To assign users to the skill, complete the following steps.
 
-    1.  Locate and click the skill in the **All Skills** column.
-
-    2.  Click **Assign/Remove Users** at the top, right.
-
-    3.  Click the users you want assigned to this skill.
-
-    4.  Click **Save**.
-
-    If you add users to a skill with child skills, the child skills are assigned to the user. Messages are displayed to notify you of the skills that were assigned.
-
-
-**Parent Topic:**[HR skills management](../concept/c_HRSkillsManagement.md)
+**Parent Topic:**[HR skills management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRSkillsManagement.md)
 

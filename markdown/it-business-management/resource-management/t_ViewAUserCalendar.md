@@ -2,6 +2,7 @@
 title: View a user calendar
 description: View the calendar of a user to check availability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_ViewAUserCalendar.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -29,7 +30,7 @@ You can view a calendar for a specific user, and not for all users in a group.
 
 2.  Do one of the following options.
 
-<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d167074e86">
+<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d169907e86">
 
 **From the User list**
 
@@ -37,7 +38,7 @@ You can view a calendar for a specific user, and not for all users in a group.
 
 Right-click a user name in the Users list and select **View Calendar**.
 
-</td></tr><tr><td id="d167074e98">
+</td></tr><tr><td id="d169907e98">
 
 **From the User form**
 
@@ -47,16 +48,16 @@ Select a User record to open the User form, and then select the **View Calendar*
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[My Calendar](../concept/c_MyCalendar.md)
+**Parent Topic:**[My Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_MyCalendar.md)
 
 **Related topics**  
 
 
-[Add events to your calendar](t_AddEventsToYourCalendar.md)
+[Add events to your calendar]()
 
-[Create repeatable events](t_CreateRepeatableEvents.md)
+[Create repeatable events]()
 
-[Add events to a user calendar](t_AddEventsToAUserCalendar.md)
+[Add events to a user calendar]()
 
-[Delete events](t_DeleteEvents.md)
+[Delete events]()
 

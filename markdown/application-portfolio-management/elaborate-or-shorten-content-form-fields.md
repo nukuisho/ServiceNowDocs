@@ -2,6 +2,7 @@
 title: Elaborate or shorten content in form fields
 description: Elaborate or shorten text in the description or reasoning fields in forms using Now Assist in the Enterprise Architecture Workspace. You can also use prompts to generate content for the Reasoning field found in Planned Disposition section of a business application form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/elaborate-or-shorten-content-form-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,9 @@ Elaborate or shorten text in the description or reasoning fields in forms using 
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+The default AI model provider for this skill is Azure OpenAI.
 
 Role required: sn\_apm.apm\_user
 
@@ -115,9 +118,9 @@ Elaborate or shorten existing content
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon ![Portfolio icon](../../application-portfolio-management/image/portfolio-icon.png).
+2.  Open the Portfolio List view by selecting the Portfolio icon \[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../application-portfolio-management/image/ExpandIcon.png)\) next to **Application Portfolio**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Application Portfolio**.
 
 4.  Select **Business Applications**.
 
@@ -133,7 +136,7 @@ Elaborate or shorten existing content
 
     -   **Elaborate**: Elaborates the selected text.
     -   **Shorten**: Shortens the selected text.
-    ![Elaborate or shorten description content.](../image/desc-field-nacm.png)
+    \[Omitted image "desc-field-nacm.png"\] Alt text: Elaborate or shorten description content.
 
 7.  Select the **Reasoning** field to perform any of the following tasks.
 
@@ -145,18 +148,18 @@ Elaborate or shorten existing content
     The business application data is saved.
 
 
-**Parent Topic:**[Using Now Assist for Enterprise Architecture \(EA\)](../concept/using-now-assist-for-ea.md)
+**Parent Topic:**[Using Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-now-assist-for-ea.md)
 
 **Related topics**  
 
 
-[Business application form](../../application-portfolio-management/reference/eaw-reference/eaw-apprat-business-application-form.md)
+[Business application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-apprat-business-application-form.md)
 
-[Create new business capability form](../../application-portfolio-management/reference/eaw-reference/eaw-cap-form.md)
+[Create business capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-cap-form.md)
 
-[Create business process form](../../application-portfolio-management/reference/eaw-reference/eaw-business-process-form.md)
+[Create business process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-business-process-form.md)
 
-[Create new value stream stage form](../../application-portfolio-management/reference/eaw-reference/eaw-create-new-value-stream-stage-form.md)
+[Create value stream stage form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-value-stream-stage-form.md)
 
-[Create information object form](../../application-portfolio-management/reference/eaw-reference/eaw-information-object-form.md)
+[Create information object form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-information-object-form.md)
 

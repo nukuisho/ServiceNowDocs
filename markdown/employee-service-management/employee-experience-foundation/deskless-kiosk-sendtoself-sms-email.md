@@ -2,6 +2,7 @@
 title: Configure the mail and SMS send to self
 description: Help employees access information easily by sending required information as an SMS or email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,9 +21,9 @@ Help employees access information easily by sending required information as an S
 Ensure you set up the email and SMS notifications first.
 
 -   Configure email as explained in [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
--   Configure SMS notification with Twilio as explained in [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md).
+-   Configure SMS notification with Twilio as explained in [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md).
 
-    **Important:** Work with the notify\_admin user for Twilio **Account SID** and **Auth Token** to set up Notify with Twilio. Follow the instructions from [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md) and verify [Verified Caller IDs](https://www.twilio.com/console/phone-numbers/verified).
+    **Important:** Work with the notify\_admin user for Twilio **Account SID** and **Auth Token** to set up Notify with Twilio. Follow the instructions from [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md) and verify [Verified Caller IDs](https://www.twilio.com/console/phone-numbers/verified).
 
 
 Role required: sn\_hr\_sp.esc\_admin
@@ -102,14 +103,14 @@ Employee can send the mail and SMS using the default Email and SMS template.
 -   **User triggered notification template** is available from **All** &gt; **System Notifications** &gt; **Email** &gt; **Templates**.
 -   **User triggered employee notification layout** is available from **All** &gt; **System Policy** &gt; **Email** &gt; **Layout**.
 
-**Parent Topic:**[Employee Center Pro Kiosk](../concept/deskless-kiosk-overview.md)
+**Parent Topic:**[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 
 **Related topics**  
 
 
-[Use Employee Center Pro Kiosk](../concept/deskless-eck-homepage.md)
+[Use Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-eck-homepage.md)
 
-[Modify Send to self widget display](config-sendtoself-instanceoptions.md)
+[Modify Send to self widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-sendtoself-instanceoptions.md)
 
-[Modify email notification layout](activate-notification-template.md)
+[Modify email notification layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-notification-template.md)
 

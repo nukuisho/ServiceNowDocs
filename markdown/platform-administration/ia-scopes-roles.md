@@ -2,11 +2,12 @@
 title: Scopes and roles for console items
 description: Review the following information regarding the scopes and roles required for configuration for each console item in the Platform module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-scopes-roles.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-25"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Scopes and roles for console items
@@ -41,5 +42,5 @@ Review the following information regarding the scopes and roles required for con
 |Security Settings|sn\_vsc.security\_center\_viewer, sn\_vsc.se|
 |Assets|admin|
 
-**Parent Topic:**[Now Assist for Setup references](ia-reference.md)
+**Parent Topic:**[Setup Hub references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
 

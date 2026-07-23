@@ -2,6 +2,7 @@
 title: Configure signature pause duration when modifying signatories
 description: Configure the duration for which a signature workflow is paused when signatories are modified for an ongoing signature workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-pause-sig-property.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -34,7 +35,7 @@ Role required: sn\_cm\_core.contract\_admin
 
 2.  In the **Name** column, search for the `maximum_signature_pause_duration` property.
 
-    ![System property to configure maximum duration for which a signature workflow is paused.](../image/cmpro-signature_pause.png "Maximum signature pause duration property")
+    \[Omitted image "cmpro-signature\_pause.png"\] Alt text: System property to configure maximum duration for which a signature workflow is paused.
 
 3.  Select the property.
 
@@ -49,28 +50,30 @@ Role required: sn\_cm\_core.contract\_admin
 
 ## Result
 
-The signature pause time duration is set. For more information on the signature workflow, see [Signature workflow for a contract request](../concept/cncore-signature-workflow.md) and [Modify signatories](cncore-pause-signature.md).
+The signature pause time duration is set. For more information on the signature workflow, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-signature-workflow.md) and [Modify signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-pause-signature.md).
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](../concept/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace](../concept/cncore-conf-cntrct-wrkspc.md)
+[Configuring Contract Workspace]()
 
-[Auto-populate the start date and end date for contract requests](cncore-conf-start-end-date-for-cntrcts.md)
+[Auto-populate the start date and end date for contract requests]()
 
-[Activate a system property to generate a certificate of completion](cncore-config-system-prop-COC.md)
+[Enable signatory roles]()
 
-[Enable users to view email details in activity stream](cncore-enbl-user-email-astream.md)
+[Activate a system property to generate a certificate of completion]()
 
-[Enable keyword search for contract templates](cncore-enable-search-cont-tmplts.md)
+[Enable users to view email details in activity stream]()
 
-[Configuring contract summarization for Contract Management Pro](cmpro-conf-cntr-summary.md)
+[Enable keyword search for contract templates]()
 
-[Configure conditions to send reminder notifications for expiring contracts](cncore-config-rem-exp-cont.md)
+[Configuring contract summarization for Contract Management Pro]()
 
-[Copy fields from parent request to amendment request](cncore-cpy-fld-parent-amedreq.md)
+[Configure conditions to send reminder notifications for expiring contracts]()
 
-[Manage notifications in Contract Management Pro](../concept/cmpro-manage-notifications.md)
+[Copy fields from parent request to amendment request]()
+
+[Manage notifications in Contract Management Pro]()
 

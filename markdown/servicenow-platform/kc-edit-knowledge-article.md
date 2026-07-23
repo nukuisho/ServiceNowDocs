@@ -2,6 +2,7 @@
 title: Generate and edit articles using the article editor
 description: The Knowledge Center \(KC\) Article Editor delivers an intuitive experience for creating and managing content. Featuring blocks, responsive previews, and AI-powered assistance, it simplifies article design while verifying accessibility and search engine optimization compliance. Backward compatibility with existing templates guarantees a smooth transition for authors and administrators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/kc-edit-knowledge-article.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 
 6.  Start by entering the **Knowledge base**, **Short description** \(title\), and other details in the metadata pane of the article form.
 
-    ![Article editor page.](../image/Using-article-editor.jpeg)
+    \[Omitted image "Using-article-editor.jpeg"\] Alt text: Article editor page.
 
 7.  As you create the article in the main article editor space, drag **Components**, such as columns and text section, into the article area from the **Blocks** pane.
 
@@ -49,7 +50,7 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 
 11. Select and format inline text such as headings, lists, fonts, and hyperlinks, with the floating formatting toolbar.
 
-    ![Settings and formatting tools in article editor.](../image/Settings-and-Formatting.jpeg)
+    \[Omitted image "Settings-and-Formatting.jpeg"\] Alt text: Settings and formatting tools in article editor.
 
 12. Upload images and re-size, rotate, or flip using the image-editing tools.
 
@@ -61,7 +62,7 @@ Generate and edit knowledge articles in the Knowledge Center from a task using A
 **Related topics**  
 
 
-[Configure skill for Now Assist context menu](../../knowledge-management/task/Now-Assist-configuring-context-menu-skill.md)
+[Configure skill for Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-context-menu-skill.md)
 
-[Generate and edit articles using Now Assist in the Knowledge Center article editor](../../knowledge-management/task/kc-article-editor.md)
+[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/kc-article-editor.md)
 

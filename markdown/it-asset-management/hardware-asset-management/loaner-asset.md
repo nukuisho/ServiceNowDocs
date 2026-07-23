@@ -2,13 +2,14 @@
 title: Loaner assets
 description: Request a loaner asset or consumable when you need it for a short period of time.Waitlisted loaner orders give visibility to future demands for loaner asset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/loaner-asset.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Loaner assets
@@ -28,12 +29,12 @@ A loaner order request is completed through the following stages:
 
 Loaner assets are not counted in the stockroom count when stock rules are being processed.
 
-You can't allocate an excluded loaner asset. For more information, see [Hardware Asset Management license exclusion](ham-license-exclusion.md).
+You can't allocate an excluded loaner asset. For more information, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 
 **Related topics**  
 
 
-[Manage loaner assets](../task/manage-loaner-asset.md)
+[Manage loaner assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-loaner-asset.md)
 
 ## Loaner asset reservation
 
@@ -49,5 +50,5 @@ As an inventory admin, if you want to confirm a wait listed loaner order, unchec
 -   Reserved
 -   In use
 
-**Note:** You can't select an excluded loaner asset. For more information, see [Hardware Asset Management license exclusion](ham-license-exclusion.md).
+**Note:** You can't select an excluded loaner asset. For more information, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 

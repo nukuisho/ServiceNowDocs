@@ -1,7 +1,8 @@
 ---
 title: Access your list of install base items from the Consumer Portal
-description: Access your install base items from the Consumer Portal to view detailed information, such as the number of items registered to you.
+description: View install base items registered to your account from the Consumer Portal, including details for each device or service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-install-base-items-from-consumer-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,13 +12,17 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Access your list of install base items from the Consumer Portal
 
-Access your install base items from the Consumer Portal to view detailed information, such as the number of items registered to you.
+View install base items registered to your account from the Consumer Portal, including details for each device or service.
 
 ## Before you begin
 
 Install Customer Service Install Base Management \(com.snc.install\_base\) app from [ServiceNow store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 Role required: none
+
+## About this task
+
+Install base items are the devices or services registered to your account. Viewing them from the Consumer Portal lets you check details such as household and consumer associations, and access related cases for each item.
 
 ## Procedure
 
@@ -33,4 +38,11 @@ Role required: none
 
 3.  From the list, open an install base record to see all the details and cases for that install base item.
 
+
+**Related topics**  
+
+
+[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-case-on-consumer-portal.md)
+
+[Register a product from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/register-product-on-consumer-portal.md)
 

@@ -2,6 +2,7 @@
 title: Create a quick action in your mobile applications
 description: Provide easy access to an important item by creating a quick action. For example, you can create a quick action that opens a Service Catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/sc-quick-action.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -252,24 +253,24 @@ Number that indicates the order that the functions are listed. If there are mult
 
 ## Result
 
-Your users can open the quick action by selecting the ![Plus icon](../image/more-items.png) icon on the applet launcher page.
+Your users can open the quick action by selecting the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the applet launcher page.
 
-**Parent Topic:**[Request experience in Now Mobile](../../../product/service-catalog-management/concept/now-mobile-catalog.md)
+**Parent Topic:**[Request experience in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-mobile-catalog.md)
 
 **Related topics**  
 
 
-[Configure catalogs](configure-catalog.md)
+[Configure catalogs]()
 
-[Browse catalog items using the catalog hierarchy](../../../product/service-catalog-management/task/now-mob-browse-cat-item-catalog.md)
+[Browse catalog items using the catalog hierarchy]()
 
-[Submit and track a request](order-item.md)
+[Submit and track a request]()
 
-[Enable notifications in Now Mobile](../../../product/service-catalog-management/task/enable-notification-mobile.md)
+[Enable notifications in Now Mobile]()
 
-[Enable the cart in Now Mobile](../../../product/service-catalog-management/task/enable-cart-mobile.md)
+[Enable the cart in Now Mobile]()
 
-[Edit the label of Submit button for a record producer](../../../product/service-catalog-management/task/edit-recprdcr-submit-label.md)
+[Edit the label of Submit button for a record producer]()
 
-[Configure Now Mobile properties](../../../product/service-catalog-management/task/config-now-mob-properties.md)
+[Configure Now Mobile properties]()
 

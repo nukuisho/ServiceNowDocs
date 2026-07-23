@@ -2,6 +2,7 @@
 title: Create a rule entity filter
 description: Create a rule filter for the product entity to be used in a product eligibility matrix. The rule filter defines how the rule is applied, for example to a product catalog, category, or offering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-rule-entity-filter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_ca
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Context Rule Management** &gt; **Rule Entity Filter**.
 
@@ -95,4 +96,11 @@ Condition to be used to filter the entity. Use the **Set conditions** builder to
 
     The rule filter can now be used in a product eligibility matrix.
 
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

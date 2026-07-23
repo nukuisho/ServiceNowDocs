@@ -2,6 +2,7 @@
 title: Enable a Health and Safety table for configuring report field mapping
 description: Enable a Health and Safety table for report field mapping. You can then configure its mapping with your reporting PDF template, enabling safety agents to generate reports for records in this table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/enable-hs-table-report-field-mapping.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -40,26 +41,26 @@ Role required: sn\_ohs\_im.admin
 
 ## What to do next
 
-To generate a report for this table's records, you must configure its report field mapping. For more information, see [Create a safety report field mapping for generating reports](create-safety-report-field-mapping.md).
+To generate a report for this table's records, you must configure its report field mapping. For more information, see [Create a safety report field mapping for generating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/create-safety-report-field-mapping.md).
 
-**Parent Topic:**[Setting up Health and Safety Core](../../hs-core/concept/setting-up-hs-core.md)
+**Parent Topic:**[Setting up Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/setting-up-hs-core.md)
 
 **Related topics**  
 
 
-[Install Health and Safety Core](../../hs-core/task/install-hs-core.md)
+[Install Health and Safety Core]()
 
-[Workplace location data](configure-hs-workplace-location-data.md)
+[Workplace location data]()
 
-[Create a safety report field mapping for generating reports](create-safety-report-field-mapping.md)
+[Create a safety report field mapping for generating reports]()
 
-[Configure groups for Health and Safety](configure-groups-health-and-safety.md)
+[Configure groups for Health and Safety]()
 
-[Configure scheduled job to generate frequency rates](configure-job-generate-frequency-rates.md)
+[Configure scheduled job to generate frequency rates]()
 
-[Assign Health and Safety profile to a user](assign-hs-profile-user.md)
+[Assign Health and Safety profile to a user]()
 
-[Add a Health and Safety visitor](hs-add-health-safety-visitor.md)
+[Add a Health and Safety visitor]()
 
-[Migrate existing safety documents to the Document library](../../hs-core/task/hs-migrate-sync-existing-safety-document-docs-library.md)
+[Migrate existing safety documents to the Document library]()
 

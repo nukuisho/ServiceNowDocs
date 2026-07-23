@@ -2,11 +2,12 @@
 title: Adding a product picker aggregate using APIs
 description: Follow these steps to add a product picker aggregate using API calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-adding-a-product-picker-aggregate-using-apis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Product picker bulk actions, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product picker bulk actions, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Adding a product picker aggregate using APIs
@@ -23,7 +24,7 @@ Role required: Admin
 
     In the product picker aggregates area, two endpoints are available in the admin APIs:
 
-    ![Adding a product picker aggregate using APIs](../images/cpq-product-picker-aggregates-get-and-post.png)
+    \[Omitted image "cpq-product-picker-aggregates-get-and-post.png"\] Alt text: Adding a product picker aggregate using APIs
 
     The GET endpoint gets the list of all the aggregates that are already available on a product picker. The parameter is the variable name of the product picker field that is passed in the URL in Postman.
 
@@ -31,13 +32,13 @@ Role required: Admin
 
     Examples of product picker endpoints:
 
-    ![Adding a product picker aggregate using APIs](../images/cpq-product-picker-aggregates-endpoints.png)
+    \[Omitted image "cpq-product-picker-aggregates-endpoints.png"\] Alt text: Adding a product picker aggregate using APIs
 
 2.  Set the following URL as the URL of the Postman API call.
 
     \(This is the URL from the image just above.\)
 
-    `https://<tenant>.<sector>.logik.io/api/Admin/v1/productPickers/<productPickerName>/aggregateFields`
+    `https://<tenant>.<sector>.cpq/api/Admin/v1/productPickers/<productPickerName>/aggregateFields`
 
     Replace the URL with the parameters that apply to your environment, including the sector name and the variable name of the product picker from the UI.
 
@@ -58,12 +59,12 @@ Role required: Admin
 
 In the UI, refresh the page to see the added aggregate.
 
-![Adding a product picker aggregate using APIs](../images/cpq-product-picker-aggregates-new-1.png)
+\[Omitted image "cpq-product-picker-aggregates-new-1.png"\] Alt text: Adding a product picker aggregate using APIs
 
 **Related topics**  
 
 
-[Product picker aggregates](../concept/product-picker-aggregates.md)
+[Product picker aggregates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-picker-aggregates.md)
 
-[Product pickers](../concept/product_picker_overview.md)
+[Product pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product_picker_overview.md)
 

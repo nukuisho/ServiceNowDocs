@@ -2,6 +2,7 @@
 title: View related details for an IoC artifact
 description: If your case includes indicators of compromise \(IoC\) artifacts, you can view any related details contained in each IoC referenced by the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/view-related-details-for-ioc-artifact.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,23 +28,23 @@ Role required: sn\_ti.case\_user\_write
 
 3.  Click Additional Details icon for the IoC artifact you want to view related details for.
 
-    ![View related details for an IoC](../image/related-details-ioc.png)
+    \[Omitted image "related-details-ioc.png"\] Alt text: View related details for an IoC
 
 4.  Click any of the tabs to view specific types of details for the selected artifact.
 
 5.  You can also click **Security Annotation** tab to view annotations for the selected artifact.
 
 
-**Parent Topic:**[Related details for case artifacts](../concept/related-details-for-case-artifacts.md)
+**Parent Topic:**[Related details for case artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/related-details-for-case-artifacts.md)
 
 **Related topics**  
 
 
-[View related details for a security incident artifact](view-related-details-for-sec-inc-artifact.md)
+[View related details for a security incident artifact]()
 
-[View related details for a configuration item artifact](view-related-details-for-ci-artifact.md)
+[View related details for a configuration item artifact]()
 
-[View related details for an affected user artifact](view-related-details-for-user-artifact.md)
+[View related details for an affected user artifact]()
 
-[View related details for an observable artifact](view-related-details-for-observ-artifact.md)
+[View related details for an observable artifact]()
 

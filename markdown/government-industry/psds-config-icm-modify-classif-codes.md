@@ -2,6 +2,7 @@
 title: Modify case classification codes
 description: Create and modify case classification codes and titles to organize and categorize the investigation types your agency handles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config-icm-modify-classif-codes.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,7 +48,7 @@ Role required: admin
 
 3.  On the form, fill in or update the fields with the desired classification code and title.
 
-    ![edit icm classification codes.](../image/psds-modify-classif-codes.png)
+    \[Omitted image "psds-modify-classif-codes.png"\] Alt text: edit icm classification codes.
 
 4.  Select **Save**.
 

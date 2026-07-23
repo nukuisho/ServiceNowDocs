@@ -2,10 +2,11 @@
 title: Add members to a territory
 description: Add territory members with their appropriate responsibility to get access to the CRM entities belonging to the territory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/add-members-som.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Resources, Sales Territory Management, Lead and opportunity management apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -93,7 +94,7 @@ Date until which the member is available to work in the territory.
 </td></tr></tbody>
 </table>    The member appears in the Territory Members related list.
 
-5.  On the Territory Members tab, select ![](../../now-assist-order-mgmt/image/icon-more-info.png) and **Open Record** of the territory member to add Territory Member Roles.
+5.  On the Territory Members tab, select \[Omitted image "icon-more-info.png"\] Alt text: and **Open Record** of the territory member to add Territory Member Roles.
 
 6.  On Territory Membership Responsibilities, select **New**.
 
@@ -129,4 +130,11 @@ However, more roles can be configured. For more information, see [Create related
 </td></tr></tbody>
 </table>    The member with the defined role appears in the Territory Member roles related list.
 
+
+**Related topics**  
+
+
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/use-sales-territory-management.md)
+
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-sales-territory-management.md)
 

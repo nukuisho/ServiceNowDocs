@@ -2,6 +2,7 @@
 title: Reviewing quarantined files
 description: Review quarantined file attachments and take further action as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/resolve-infected-file.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,7 +44,7 @@ The system asks for confirmation and performs the selected action per your input
 **Related topics**  
 
 
-[Instance Security Center](../concept/instance-security-center.md)
+[Instance Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-center.md)
 
-[Antivirus metrics](../concept/instance-sec-center-antivirus-metrics.md)
+[Antivirus metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-antivirus-metrics.md)
 

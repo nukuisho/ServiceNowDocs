@@ -2,12 +2,14 @@
 title: Microsoft Certificate Authority \(CA\) certificates discovery
 description: The ServiceNow Discovery application can discover Microsoft Certificate Authority \(CA\) certificates using the Microsoft CA - Certificate Management pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/microsoft-ca-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
+keywords: [Microsoft Certificate Authority \(CA\) certificates discovery, Microsoft CA certificates discovery, Microsoft CA - Certificate Management, Microsoft CA - Certificate Management pattern, Microsoft CA certificates, Microsoft Certificate Authority \(CA\) certificates, Microsoft Certificate Authority \(CA\) certificates pattern, Microsoft CA certificates pattern]
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
@@ -17,7 +19,7 @@ The ServiceNow Discovery application can discover Microsoft Certificate Authorit
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Starting with version 1.27.0, Discovery and Service Mapping Patterns supports discovering the subject alternative name \(SAN\) for both the all request IDs and the template ID discovery methods.
 
@@ -32,11 +34,11 @@ Starting with version 1.27.0, Discovery and Service Mapping Patterns supports di
 
 -   **Verify previous Windows discovery**
 
-    Verify a Windows host was discovered during a previous horizontal discovery. For more information, see [Windows discovery](../../discovery/reference/r_DataCollDiscoWindowsComputers.md).
+    Verify a Windows host was discovered during a previous horizontal discovery. For more information, see [Windows discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoWindowsComputers.md).
 
 -   **Create a serverless discovery schedule**
 
-    Create a discovery schedule to perform targeted discovery of Microsoft CA certificates using the host on which the CA process is running. For more information, see [Create a serverless schedule for Microsoft Certificate Authority \(CA\) discovery](../task/create-serverless-schedule-ms-ca.md).
+    Create a discovery schedule to perform targeted discovery of Microsoft CA certificates using the host on which the CA process is running. For more information, see [Create a serverless schedule for Microsoft CA discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ms-ca.md).
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -323,5 +325,5 @@ Information about the certificate that needs to be acted on by the CA or the cer
 
 The Microsoft CA - Certificate Management pattern doesn’t create any CI relationships.
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

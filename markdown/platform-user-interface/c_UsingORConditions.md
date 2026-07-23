@@ -2,6 +2,7 @@
 title: OR conditions
 description: The condition builder uses two different types of OR conditions: top-level and dependent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/c\_UsingORConditions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ For example, to return a list of all unassigned problem and incident records fro
 
 **\[Assigned to\] \[is\] \[empty\]** AND **\[Number\] \[begins with\] \[PRB\]** OR **\[Number\] \[begins with\] \[INC\]**.
 
-![Dependent OR condition](../image/DependentOR.png "Dependent OR")
+\[Omitted image "DependentOR.png"\] Alt text: Dependent OR condition
 
 A top-level OR condition allows you to display the results of multiple filter criteria in a single list. Top level OR conditions work in the manner \(A and B\) or \(C and D\).
 
@@ -29,20 +30,20 @@ For example, to return a single list of all active incidents with a category of 
 -   Top level OR condition
 -   **\[Active\] \[is\] \[false\]** AND **\[Category\] \[is\] \[Software\]**
 
-![Top level OR condition](../image/TopLevelOR.png "Top level OR")
+\[Omitted image "TopLevelOR.png"\] Alt text: Top level OR condition
 
 Top-level and dependent OR conditions can be used together. Filters using both types of OR conditions work in the manner \(A or B\) or \(C or D\). By mixing AND conditions with top-level and dependent OR conditions, you can create very specific filters.
 
-**Parent Topic:**[Filters](c_Filters.md)
+**Parent Topic:**[Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md)
 
 **Related topics**  
 
 
-[Create a filter in List](../task/t_CreatingFilters.md)
+[Create a filter in List]()
 
-[Add related list conditions](../../using-lists-v3/task/create-related-list-query.md)
+[Add related list conditions]()
 
-[Filter on multiple string values](../task/t_FilteringOnMultipleStringValues.md)
+[Filter on multiple string values]()
 
-[Dynamic operators](../reference/r_UsingTheDynamicOperator.md)
+[Dynamic operators]()
 

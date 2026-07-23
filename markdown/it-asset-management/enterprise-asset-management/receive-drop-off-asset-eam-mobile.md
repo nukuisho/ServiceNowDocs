@@ -2,13 +2,14 @@
 title: Verify the enterprise assets received through a Drop off task using the Mobile Agent application
 description: As an asset manager, confirm that you received the enterprise assets that were delivered to your stockroom and complete the Receive task using the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/receive-drop-off-asset-eam-mobile.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage Drop off tasks, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage Drop off tasks, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Verify the enterprise assets received through a Drop off task using the Mobile Agent application

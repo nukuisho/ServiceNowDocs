@@ -2,6 +2,7 @@
 title: Create a knowledge block in Agent Workspace
 description: Create a knowledge block for a knowledge base in Agent Workspace to reuse a piece of content in knowledge articles in that knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/create-knowledge-block-workspace.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -17,14 +18,14 @@ Create a knowledge block for a knowledge base in Agent Workspace to reuse a piec
 
 ## Before you begin
 
--   Enable the knowledge blocks feature for the knowledge base where you plan to create blocks. For more information, see [Enable knowledge blocks for each knowledge base](enable-knowledge-blocks-for-knowledge-base.md).
+-   Enable the knowledge blocks feature for the knowledge base where you plan to create blocks. For more information, see [Enable knowledge blocks for each knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-knowledge-blocks-for-knowledge-base.md).
 -   You must have contribute access to the knowledge base within which you want to create the knowledge block.
 
 Role required: agent\_workspace\_user and knowledge
 
 ## About this task
 
-You can also create blocks when accessing an article panel. For more information, see [Add a knowledge block to a knowledge article in Agent Workspace](add-knowledge-block-to-article-workspace.md).
+You can also create blocks when accessing an article panel. For more information, see [Add a knowledge block to a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/add-knowledge-block-to-article-workspace.md).
 
 ## Procedure
 
@@ -44,7 +45,7 @@ You can also create blocks when accessing an article panel. For more information
             -   Pending retirement
             -   Retired
             -   Outdated
-        -   Click the show filter panel icon \(![Show filter panel icon](../image/show-filter-panel.png)\), and click **Advanced view**. In the Advanced view dialog box, specify conditions in the **All of these conditions must be met** field and click **Update**.
+        -   Click the show filter panel icon , and click **Advanced view**. In the Advanced view dialog box, specify conditions in the **All of these conditions must be met** field and click **Update**.
 3.  Click **New** in a Knowledge Blocks list.
 
 4.  On the Knowledge Block form, fill in the fields.
@@ -87,7 +88,7 @@ Ownership Group
 
 </td><td>
 
-Ownership group for the knowledge block. This field appears when the ownership groups feature is enabled \(see [Ownership groups](../concept/enable-ownership-group.md)\).**Note:** Knowledge blocks can be used without the ownership groups feature.
+Ownership group for the knowledge block. This field appears when the ownership groups feature is enabled \(see [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md)\).**Note:** Knowledge blocks can be used without the ownership groups feature.
 
 </td></tr><tr><td>
 
@@ -95,7 +96,7 @@ Can Read
 
 </td><td>
 
-User criteria to apply for read access at the knowledge block level.**Note:** User criteria set at the knowledge base and knowledge block level control which users can read block content within an article. \(For more information, see [Select user criteria for a knowledge block](select-user-criteria-for-knowledge-block.md).\)
+User criteria to apply for read access at the knowledge block level.**Note:** User criteria set at the knowledge base and knowledge block level control which users can read block content within an article. \(For more information, see [Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md).\)
 
 </td></tr><tr><td>
 
@@ -103,7 +104,7 @@ Cannot Read
 
 </td><td>
 
-User criteria to apply for cannot read access at the knowledge block level.**Note:** User criteria set at the knowledge base and knowledge block level controls which users can read block content within an article. \(For more information, see [Select user criteria for a knowledge block](select-user-criteria-for-knowledge-block.md).\)
+User criteria to apply for cannot read access at the knowledge block level.**Note:** User criteria set at the knowledge base and knowledge block level controls which users can read block content within an article. \(For more information, see [Select user criteria for a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/select-user-criteria-for-knowledge-block.md).\)
 
 </td></tr><tr><td>
 
@@ -137,7 +138,7 @@ Version
 
 </td><td>
 
-Version number of the knowledge block. This field is automatically set to a version number when the article versioning feature is enabled.**Note:** Knowledge blocks can be used without the article versioning feature. To learn more about article versioning, including how to disable the feature, see [Article versioning](../concept/article-versioning.md).
+Version number of the knowledge block. This field is automatically set to a version number when the article versioning feature is enabled.**Note:** Knowledge blocks can be used without the article versioning feature. To learn more about article versioning, including how to disable the feature, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md).
 
 </td></tr><tr><td>
 
@@ -174,5 +175,5 @@ Publication state of the block. This field is automatically set to the publicati
 **Related topics**  
 
 
-[Edit a knowledge block in Agent Workspace](edit-knowledge-block-workspace.md)
+[Edit a knowledge block in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-block-workspace.md)
 

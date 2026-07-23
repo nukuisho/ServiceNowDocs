@@ -2,18 +2,19 @@
 title: Using Investigative Case Management Evidence Management
 description: Investigative Case Management Evidence Management guides investigators through the process of logging and managing all physical and digital evidence associated with a case, ensuring it's consistently classified, accessed, and associated with relevant investigative records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-explore-icm-evidence-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Using Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using Investigative Case Management Evidence Management
 
 Investigative Case Management Evidence Management guides investigators through the process of logging and managing all physical and digital evidence associated with a case, ensuring it's consistently classified, accessed, and associated with relevant investigative records.
 
-![Evidence Management evidence details view](../image/psds-icm-evidence-details-view.png)
+\[Omitted image "psds-icm-evidence-details-view.png"\] Alt text: Evidence Management evidence details view
 
 The Evidence Management feature provides a structured, searchable record system for managing evidence across all investigative contexts, whether the evidence is a physical item stored in a law enforcement evidence locker, or a digital file hosted on a cloud platform. With thorough metadata, customizable access controls, and auto-linkage to cases, people, locations, events, and other entities, investigators can track and integrate evidence into case data. For civilian and internal investigative units, Evidence Management offers a comprehensive method for documenting evidence custody, keeping related records, and maintaining audit compliance.
 
@@ -35,11 +36,11 @@ Investigators can access Evidence Management directly from the Investigative Cas
 -   Property \(items discovered or stolen\)
 -   Organizations \(gangs, schools, employers\)
 
-For information on how to link evidence to entities, see [Associate and link evidence to entities](../task/psds-using-icm-associate-evidence-entities.md).
+For information on how to link evidence to entities, see [Associate and link evidence to entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-associate-evidence-entities.md).
 
 ## Evidence Tabs
 
-![evidence tabs view](../image/psds_icm_evidence_tabs.png)
+\[Omitted image "psds\_icm\_evidence\_tabs.png"\] Alt text: evidence tabs view
 
 In Evidence Management, an investigator can view details about the evidence through the evidence record page. The evidence record page has the following tabs:
 
@@ -86,7 +87,7 @@ In Evidence Management, an investigator can view details about the evidence thro
 
 ## Chain of Custody Log
 
-![Investigative Case Management Evidence Management Chain of Custody Log View](../image/psds-evid-management-coc-view.png)
+\[Omitted image "psds-evid-management-coc-view.png"\] Alt text: Investigative Case Management Evidence Management Chain of Custody Log View
 
 Track the movement, transfer, and status changes of evidence records with a dedicated digital Chain of Custody \(CoC\) log tab, featuring audit logging, timestamps, and information about responsible personnel for each action. Investigators can create entries of custody events, and include information such as the sender, receiver, timestamp, and purpose, which can be especially useful for internal investigations \(e.g., OIGs, compliance offices, HR\) and offices with multiple investigative departments working with a single set of evidence. A document upload or signature capture within the custody record can also be configured by an admin.
 
@@ -98,7 +99,7 @@ In the Investigative Case Management application, a Chain of Custody record answ
 -   The method of transfer from one location and person to another
 -   Where it physically and/or digitally resides
 
-The following example shows the view for an investigator who wants to view the log for a piece of evidence.![Evidence Management CoC Log](../image/icmcocview.png)
+The following example shows the view for an investigator who wants to view the log for a piece of evidence.\[Omitted image "icmcocview.png"\] Alt text: Evidence Management CoC Log
 
-For information on how to create a chain of custody log in Evidence Management, see [Create a chain of custody log for an evidence record in an investigative case](../task/psds-using-icm-create-chain-of-custody-log.md).
+For information on how to create a chain of custody log in Evidence Management, see [Create a chain of custody log for an evidence record in an investigative case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-using-icm-create-chain-of-custody-log.md).
 

@@ -1,34 +1,35 @@
 ---
-title: Transaction Manager use case: Document generation with Google Docs
-description: Generate documents from Transaction Manager by using Google Docs and Google Apps Script.
+title: ServiceNow Quote Experience use case: Document generation with Google Docs
+description: Generate documents from ServiceNow Quote Experience by using Google Docs and Google Apps Script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-use-case-document-generation-with-google-docs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Transaction Manager: Use cases, Transaction Manager, CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow Quote Experience: Use cases, ServiceNow CPQ, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
-# Transaction Manager use case: Document generation with Google Docs
+# ServiceNow Quote Experience use case: Document generation with Google Docs
 
-Generate documents from Transaction Manager by using Google Docs and Google Apps Script.
+Generate documents from ServiceNow Quote Experience by using Google Docs and Google Apps Script.
 
-To generate a document from Transaction Manager, Google Docs combined with Google Apps Script provides an efficient and straightforward solution. By creating custom APIs using Apps Script, you can easily receive GET and POST requests from a direct URL. This eliminates the need for middleware, streamlining integration with services like CPQ or Transaction Manager.
+To generate a document from ServiceNow Quote Experience, Google Docs combined with Google Apps Script provides an efficient and straightforward solution. By creating custom APIs using Apps Script, you can easily receive GET and POST requests from a direct URL. This eliminates the need for middleware, streamlining integration with services like ServiceNow CPQ or ServiceNow Quote Experience.
 
 You can trigger document generation by either of these methods:
 
--   CPQ Webhook: Automatically send POST requests to initiate document creation.
--   Transaction Manager: Use this for managing and automating processes.
+-   ServiceNow CPQ Webhook: Automatically send POST requests to initiate document creation.
+-   ServiceNow Quote Experience: Use this for managing and automating processes.
 
-## Setting up a Google doc to pull CPQ data
+## Setting up a Google doc to pull ServiceNow CPQ data
 
 To access the developer window, open the Google doc where you want to integrate the script. In the menu bar, go to Extensions &gt; Apps Script to open the development environment.
 
 You can write custom JavaScript to process data and interact with Google Docs by using the Apps Script editor.
 
-![BOM](../images/cpq-txn-mgr-use-case-doc-gen-script-loc.jpeg)
+\[Omitted image "cpq-txn-mgr-use-case-doc-gen-script-loc.jpeg"\] Alt text: BOM
 
-![Script](../images/cpq-txn-mgr-use-case-doc-gen-script-interface.png)
+\[Omitted image "cpq-txn-mgr-use-case-doc-gen-script-interface.png"\] Alt text: Script
 
 ## Coding
 
@@ -39,7 +40,7 @@ Google Apps Script includes GET and POST requests.
 
 This [video](https://www.youtube.com/watch?v=N3vnUgjQCGU) explains how the `doGet` and `doPost` work in a Google Doc app script.
 
-When using Transaction Manager, you need to transform the JSON to send over to Google Docs. Below is an example template. If you are using a webhook, see [Webhooks](cpq-webhooks.md) for how the data will be sent over to Google Docs.
+When using ServiceNow Quote Experience, you need to transform the JSON to send over to Google Docs. Below is an example template. If you are using a webhook, see [Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/cpq-webhooks.md) for how the data will be sent over to Google Docs.
 
 The following code block shows an example Transform Template, sent as a POST to the doPost function.
 
@@ -142,15 +143,15 @@ If you do not set the `doGet` function and try to access the URL you will receiv
 
 ```
 function doGet(e) {
-  return ContentService.createTextOutput('Logik Transaction Manager Document Generation Web App is running.');
+  return ContentService.createTextOutput('Document Generation Web App is running.');
 }
 ```
 
 When you access the live URL, you receive this message:
 
-![Message: Logik Transaction Manager Document Generation Web App is running.](../images/cpq-txn-mgr-use-case-doc-gen-msg.png)
+\[Omitted image "cpq-txn-mgr-use-case-doc-gen-msg.png"\] Alt text: Message:Document Generation Web App is running.
 
-The `doPost` is important, because it will probably handle the Webhook or Integration payloads being sent from CPQ via POST requests.
+The `doPost` is important, because it will probably handle the Webhook or Integration payloads being sent from ServiceNow CPQ via POST requests.
 
 Next, we create a function to generate a Google Doc using the `doPost` function.
 
@@ -231,7 +232,7 @@ In the Google Cloud Logs Explorer, apply the filter `resource.type="app_script_f
 
     -   Execute as: This should be set to Me, so the script runs with your permissions.
     -   Who has access: Choose “Anyone” \(public\).
-    ![New deployment user interface](../images/cpq-txn-mgr-google-apps-script-editor-new-deployment.png)
+    \[Omitted image "cpq-txn-mgr-google-apps-script-editor-new-deployment.png"\] Alt text: New deployment user interface
 
 
 Once deployed, you’ll get a URL ending in `/exec` for live usage and `/dev` for testing. This is the URL that users will target to trigger the `doGet` function or send POST requests to trigger `doPost`.
@@ -270,5 +271,5 @@ If needed, you can roll back to an older version of your web app:
 
 This provides an easy way to revert any issues that may arise with newer versions.
 
-**Parent Topic:**[Transaction Manager: Use cases](transaction-manager-use-cases.md)
+**Parent Topic:**[ServiceNow Quote Experience: Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-use-cases.md)
 

@@ -1,7 +1,8 @@
 ---
 title: Control objectives form
-description: Use the control objectives form to capture all the information that you need to associate a control with a question using the Third-party Risk Management application. As a third-party risk admin, you can create a control objective.
+description: Use the control objectives form to capture all the information that you need to associate a control objective with a question using the Third-party Risk Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-control-objective-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -13,7 +14,7 @@ breadcrumb: [Add a control objective, TPRM with Policy and Compliance Management
 
 # Control objectives form
 
-Use the control objectives form to capture all the information that you need to associate a control with a question using the Third-party Risk Management application. As a third-party risk admin, you can create a control objective.
+Use the control objectives form to capture all the information that you need to associate a control objective with a question using the Third-party Risk Management application.
 
 <table id="table_FloorForm"><thead><tr><th>
 
@@ -189,10 +190,10 @@ Functional domain
 Functional domain for the control objective.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manually add a control objective to a question](../../grc-vendor-risk-implementation/task/tprm-add-controls-q.md)
+</table>**Parent Topic:**[Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md)
 
 **Related topics**  
 
 
-[Manually add a control objective to a question](../../grc-vendor-risk-implementation/task/tprm-add-controls-q.md)
+[Manually add a control objective to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-add-controls-q.md)
 

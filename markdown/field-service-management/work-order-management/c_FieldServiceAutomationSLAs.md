@@ -2,6 +2,7 @@
 title: Field Service Management SLAs
 description: ServiceNow SLAs track the service level provided by groups and individuals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_FieldServiceAutomationSLAs.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Managem
 
 ServiceNow SLAs track the service level provided by groups and individuals.
 
-When you create a work order, the system automatically assigns it a default [Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-concepts.md) based on priority level. If you change the priority of the work order, the system cancels the current SLA and applies the SLA appropriate for the new priority. The SLA timer continues to run even if the priority is changed. The three default SLAs used for work orders are:
+When you create a work order, the system automatically assigns it a default [Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management-concepts.md) based on priority level. If you change the priority of the work order, the system cancels the current SLA and applies the SLA appropriate for the new priority. The SLA timer continues to run even if the priority is changed. The three default SLAs used for work orders are:
 
 |SLA|Description|
 |---|-----------|
@@ -40,5 +41,5 @@ SLA details show on the task card in the task panel and the calendar in the Disp
 **Related topics**  
 
 
-[Manage a work order SLA](../task/t_ManageAWorkOrderSLA.md)
+[Manage a work order SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_ManageAWorkOrderSLA.md)
 

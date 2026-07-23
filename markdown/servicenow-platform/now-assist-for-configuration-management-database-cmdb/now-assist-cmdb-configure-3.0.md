@@ -2,6 +2,7 @@
 title: Configure Now Assist for CMDB 3.0
 description: Configure the Now Assist for CMDB application so users can benefit from Agentic workflows, agents, and skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configure-3.0.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -33,7 +34,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
     You install the Now Assist for CMDB \(com.snc.cmdb.gen.ai\) plugin.
 
-    ![Accessing the Now Assist for CMDB (com.snc.cmdb.gen.ai) plugin from the Now Assist Admin console.](../../now-assist-cmdb/image/na-cmdb-plugins-install-page.png)
+    \[Omitted image "na-cmdb-plugins-install-page.png"\] Alt text: Accessing the Now Assist for CMDB \(com.snc.cmdb.gen.ai\) plugin from the Now Assist Admin console.
 
     You're redirected to the ServiceNow Store in a new browser tab so you can get the plugin.
 
@@ -47,33 +48,33 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
     2.  On the **Installed** tab, verify that the **Status** value is **Installed**.
 
-        ![Verifying that the plugin is installed.](../../now-assist-cmdb/image/na-cmdb-plugin-installed.png)
+        \[Omitted image "na-cmdb-plugin-installed.png"\] Alt text: Verifying that the plugin is installed.
 
     Now that you have installed the plugin, you set up the skills for Now Assist for CMDB.
 
 7.  On the **Now Assist Skills** tab, expand **Technology** and then select **CMDB**.
 
-    ![Activating the Now Assist for CMDB skills.](../../now-assist-cmdb/image/na-cmdb-turn-on-skill-page.png)
+    \[Omitted image "na-cmdb-turn-on-skill-page.png"\] Alt text: Activating the Now Assist for CMDB skills.
 
 8.  Configure property settings.
 
-    See [Property settings for Now Assist for CMDB](../../now-assist-cmdb/reference/na-data-fdn-properties.md).
+    See [Property settings for Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-data-fdn-properties.md).
 
 
 ## What to do next
 
-To start using Now Assist for CMDB skills, see [Using Now Assist skills in Now Assist for CMDB](../concept/now-assist-cmdb-using-skills.md).
+To start using Now Assist for CMDB skills, see [Using Now Assist skills in Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using-skills.md).
 
-To deactivate a skill, select the menu icon ![](../image/menu-icon.png)for the skill and then select **Deactivate skill**.
+To deactivate a skill, select the menu icon \[Omitted image "menu-icon.png"\] Alt text:for the skill and then select **Deactivate skill**.
 
 Admins might be interested in Query Generation. Query Generation is an AI-powered service that translates user questions into an executable query. An executable query contains the data source, filter, aggregation, and visualization instructions that best answer the user's question. For more information, see [Exploring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/exploring-query-generation.md).
 
-**Parent Topic:**[Configuring Now Assist for CMDB](../concept/now-assist-cmdb-configuring.md)
+**Parent Topic:**[Configuring Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 
 **Related topics**  
 
 
-[CMDB Workspace store app](../concept/cmdb-workspace.md)
+[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 
-[Service Graph Workspace store app](../concept/sg-workspace.md)
+[Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md)
 

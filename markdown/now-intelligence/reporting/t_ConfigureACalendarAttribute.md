@@ -2,6 +2,7 @@
 title: Configure how calendar entries look
 description: To configure how calendar entries appear for a table, add calendar\_elements attributes to the System Dictionary entry for that table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_ConfigureACalendarAttribute.html
 release: australia
 product: Reporting
 classification: reporting
@@ -25,11 +26,11 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 2.  Open a form for any record in the table.
 
-3.  Select the Additional actions menu \(![Additional actions menu icon](../../performance-analytics/image/additional-actions.png)\) and choose **Configure** &gt; **Dictionary**.
+3.  Select the Additional actions menu \(\[Omitted image "additional-actions.png"\] Alt text: Additional actions menu icon\) and choose **Configure** &gt; **Dictionary**.
 
 4.  In the record list that appears, select the first record that does not have a value in the **Column name** field.
 
-    ![Reports calendar attributes](../image/reports-calendar-attributes01.png)
+    \[Omitted image "reports-calendar-attributes01.png"\] Alt text: Reports calendar attributes
 
 5.  Switch the **Dictionary Entry** form to the **Advanced** view.
 
@@ -41,7 +42,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
     calendar_elements=number;short_description;state
     ```
 
-    ![Reports calendar attributes](../image/reports-calendar-attributes02.png)
+    \[Omitted image "reports-calendar-attributes02.png"\] Alt text: Reports calendar attributes
 
 7.  If the table already has an attribute, separate it from the attribute you are adding with a comma, for example:
 
@@ -56,16 +57,16 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 The calendar entries display the attributes you have added for the selected table.
 
-![Calendar entry with number, short description, and added state attribute](../image/calendar-attribute-change-result-rd.png)
+\[Omitted image "calendar-attribute-change-result-rd.png"\] Alt text: Calendar entry with number, short description, and added state attribute
 
-**Parent Topic:**[Customize calendar reports](../concept/c_CustomizeCalendarReports.md)
+**Parent Topic:**[Customize calendar reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CustomizeCalendarReports.md)
 
 **Related topics**  
 
 
-[Modifying and adding calendar report system properties](modify-add-calendar-sys-props.md#)
+[Modifying and adding calendar report system properties]()
 
-[Change highlighting of calendar report events](t_HighlightACalendarEntry.md)
+[Change highlighting of calendar report events]()
 
-[Customize start and end dates](t_CustomizeAStartAndEndDate.md)
+[Customize start and end dates]()
 

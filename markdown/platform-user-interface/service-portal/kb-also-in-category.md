@@ -2,6 +2,7 @@
 title: KB also in Category widget
 description: List of articles also included within a particular category. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/kb-also-in-category.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -15,26 +16,26 @@ breadcrumb: [Knowledge Management widgets, Widget library, Using portal widgets,
 
 List of articles also included within a particular category. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-The information that appears in the KB also in Category widget is determined by the knowledge article child categories. For more information, see [Define a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_DefineAKnowledgeCategory.md).
+The information that appears in the KB also in Category widget is determined by the knowledge article child categories. For more information, see [Define a knowledge article category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefineAKnowledgeCategory.md).
 
-![Knowledge Base also in Category widget](../image/WidgetKBAlsoInCategory.png "KB also in Category widget")
+\[Omitted image "WidgetKBAlsoInCategory.png"\] Alt text: Knowledge Base also in Category widget
 
 ## Instance options
 
-![KB also in Category widget with one instance option to change the bootstrap widget color](../image/InstanceOptionsKBAlsoIn.png "KB also in Category instance options")
+\[Omitted image "InstanceOptionsKBAlsoIn.png"\] Alt text: KB also in Category widget with one instance option to change the bootstrap widget color
 
 |Field|Description|
 |-----|-----------|
 |Bootstrap color|Color scheme for the widget. The default colors are defined by the portal theme, but if you want the instance to have a specific color, select the option from the list.|
 
-**Parent Topic:**[Knowledge Management widgets](km-widgets.md)
+**Parent Topic:**[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/km-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

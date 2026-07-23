@@ -2,6 +2,7 @@
 title: Components installed with Financial Services Operations Integration with Jack Henry jXchange
 description: Several types of components are installed with the activation of the Financial Services Operations Integration with Jack Henry jXchange spoke \(com.sn.jha.spoke\), including plugins and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/components-installed-with-fso-integration-with-jha.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -95,5 +96,5 @@ Product Model Mapping\[sn\_fso\_intg\_jha\_product\_model\_mapping\]
 Table that stores the unique identification value in its ID field. This value is generated when the product model record was created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Operations Integration with Jack Henry jXchange](../concept/fso-integration-with-jha-integthub-landing-page.md)
+</table>**Parent Topic:**[Financial Services Operations Integration with Jack Henry jXchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-integration-with-jha-integthub-landing-page.md)
 

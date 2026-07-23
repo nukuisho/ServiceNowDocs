@@ -1,21 +1,20 @@
 ---
 title: Data Context Engine \(DCE\) Insights
-description: DCE Insights is a Data Context Engine feature that enables you to display product usage and capability metrics based on the record type and the context.
+description: DCE Insights is a Data Context Engine feature that enables the visualization of identified metrics for product and capability usage records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-dce-insights.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer success, Explore, Customer Success Management]
+breadcrumb: [Data Context Engine, Customer success, Explore, Customer Success Management]
 ---
 
 # Data Context Engine \(DCE\) Insights
 
-DCE Insights is a Data Context Engine feature that enables you to display product usage and capability metrics based on the record type and the context.
+DCE Insights is a Data Context Engine feature that enables the visualization of identified metrics for product and capability usage records.
 
-DCE Insights enables you to configure and display relevant metrics based on context and usage patterns. The system provides flexibility to show different metric sets depending on the viewing context. For example, you can display 10 key indicators on an account record page and a different set on a sold product page. Additionally, you can define targets and baselines for each data source and specify conditions that determine when the data appears.
-
-You can configure visualizations and associate them with a DCE Insight entity. DCE Insight entities used to track usage data are defined in the DCE Insights table. Each entity in the DCE Insights table is associated with entities present in the DCE Insight Items table. Each DCE Insight Item is mapped to a specific layout spot, ensuring insights appear in the correct context. The following entities as part of the base system:
+Configure DCE Insights to display contextually using relevant attributes of an engagement, product, and more to determine the correct metrics, threshold, and values to display. You can configure visualizations and associate them with a DCE Insight entity. DCE Insight entities used to track usage data are defined in the DCE Insights table. Each entity in the DCE Insights table is associated with entities present in the DCE Insight Items table. DCE Insights are configured to display on DCE entities where the associated DCE Insight items are shown. The following entities and insight items are included as part of the base system:
 
 -   Product usage: Enables you to track usage data at the product level. It includes the following DCE Insight Items:
     -   Adoption score
@@ -28,5 +27,5 @@ You can configure visualizations and associate them with a DCE Insight entity. D
     -   Adoption score
     -   Auxiliary metrics
 
-The DCE Visualizations option enables you to configure the data visualization on the product capability pages. See [Configure DCE Visualizations](../task/account-lifecycle-configure-dce-visual.md) for details.
+For more information on configuring DCE Insights, see [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md).
 

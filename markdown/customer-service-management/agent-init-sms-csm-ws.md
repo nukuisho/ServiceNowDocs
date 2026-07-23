@@ -2,6 +2,7 @@
 title: Initiate SMS conversations from CSM Agent Workspace
 description: Compose an SMS message from CSM Agent Workspace to interact with a customer contact or a consumer regarding customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-init-sms-csm-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Compose an SMS message from CSM Agent Workspace to interact with a customer cont
 
 Role required: agent\_workspace\_user
 
-Ensure that an administrator has configured the Conversational SMS Integration with Twilio application. For more information, see [Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/sms-twilio-store-app.md).
+Ensure that an administrator has configured the Conversational SMS Integration with Twilio application. For more information, see [Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sms-twilio-store-app.md).
 
 ## Procedure
 
@@ -31,9 +32,9 @@ Ensure that an administrator has configured the Conversational SMS Integration w
     -   To create another interaction, click **New** in the My Interactions list.
 4.  On the Details tab of the workspace form, fill in the details for a new interaction or modify the details.
 
-    For more information about the form, see [CSM workspace form features](../reference/csm-workspace-agent-actions.md).
+    For more information about the form, see [CSM workspace form features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-agent-actions.md).
 
-    **Note:** The user profile associated with an interaction is configured by an administrator by using the AgentInitiatedConversationUtil extension point. By default, the AgentInitiatedMessagingUtilExtPointImpl script include that implements the AgentInitiatedConversationUtil extension point is available for the Conversational SMS Integration with Twilio application. For more information, see [Associate user profiles on messaging interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/associate-user-profiles-messaging-interactions.md).
+    **Note:** The user profile associated with an interaction is configured by an administrator by using the AgentInitiatedConversationUtil extension point. By default, the AgentInitiatedMessagingUtilExtPointImpl script include that implements the AgentInitiatedConversationUtil extension point is available for the Conversational SMS Integration with Twilio application. For more information, see [Associate user profiles on messaging interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/associate-user-profiles-messaging-interactions.md).
 
 5.  Click **Compose SMS**.
 
@@ -85,7 +86,7 @@ Attachment
 
 File to be sent as an attachment. Click **Attach File** to browse and select a file.
 
- **Note:** By default, you can attach only images to the message. However, an administrator can configure the Attachment API to upload more file types. For more information, see [Attachment - POST /now/attachment/upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_AttachmentAPI.md).
+ **Note:** By default, you can attach only images to the message. However, an administrator can configure the Attachment API to upload more file types. For more information, see [Attachment - POST /now/attachment/upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_AttachmentAPI.md).
 
 </td></tr></tbody>
 </table>7.  Click **Send**.

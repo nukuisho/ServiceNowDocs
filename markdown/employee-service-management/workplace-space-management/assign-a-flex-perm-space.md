@@ -2,6 +2,7 @@
 title: Configure a workspace or desk as flexible or permanent
 description: Define if a space is flexible or permanent. On the Reservation portal, the availability of a space for a user profile depends on its assignment type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/assign-a-flex-perm-space.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -19,7 +20,7 @@ Define if a space is flexible or permanent. On the Reservation portal, the avail
 
 Ensure the following:
 
--   The space is added in the application. Otherwise, refer to [Add a space using Workplace Space Management](add-a-space.md).
+-   The space is added in the application. Otherwise, refer to [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/add-a-space.md).
 -   The **Space type** field of the space is set to **Workspace/desk**.
 
 Role required: sn\_wsd\_spcmgmt.manager
@@ -59,38 +60,40 @@ You can specify if a desk or workspace is a permanent space or flexible. If you 
 
 The space is configured as flexible or permanent based on the assignment type that you selected.
 
-**Parent Topic:**[Managing workplace locations](../concept/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 
 
-[Add a campus](add-a-campus.md)
+[Add a campus]()
 
-[Add a building using Workplace Space Management](add-new-building-1.md)
+[Add a building using Workplace Space Management]()
 
-[Add a floor using Workplace Space Management](add-a-floor-1.md)
+[Add a floor using Workplace Space Management]()
 
-[Add an area using Workplace Space Management](add-an-area.md)
+[Add an area using Workplace Space Management]()
 
-[Add a room using Workplace Space Management](add-a-room.md)
+[Add a room using Workplace Space Management]()
 
-[Add a space using Workplace Space Management](add-a-space.md)
+[Add a space using Workplace Space Management]()
 
-[Allocate a cost center, department, or workplace entity](add-cost-center-department-floor.md)
+[Allocate a cost center, department, or workplace entity]()
 
-[Update the measurement details of a workplace location](update-measurement-details-of-workplace-location.md)
+[Update the measurement details of a workplace location]()
 
-[Change the status of a workplace location](change-active-status-of-workplace-location.md)
+[Change the status of a workplace location]()
 
-[Configure a BOMA type](configure-a-boma-type.md)
+[Configure a BOMA type]()
 
-[Map a space type with BOMA type](map-a-space-type-with-boma-type.md)
+[Map a space type with BOMA type]()
 
-[Create a Space Recommender rule](create-a-space-recommender-rule.md)
+[Create a Space Recommender rule]()
 
-[Raise a space assistance request](raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Create a view-by configuration](create-view-by-config.md)
+[Create a view-by configuration]()
 
-[Reviewing allocation changes](../concept/reviewing-allocation-changes.md)
+[Create a KPI Configuration]()
+
+[Reviewing allocation changes]()
 

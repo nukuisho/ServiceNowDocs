@@ -2,6 +2,7 @@
 title: Schedule fields
 description: The Schedule form contains the following fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/r\_ScheduleFields.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -75,12 +76,12 @@ Description
 Description of the schedule.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Define a schedule](../task/t_DefineASchedule.md)
+</table>**Parent Topic:**[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md)
 
 **Related topics**  
 
 
-[Schedules](../concept/c_UseSchedules.md)
+[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
 
-[Define a schedule](../task/t_DefineASchedule.md)
+[Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md)
 

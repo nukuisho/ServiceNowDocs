@@ -2,6 +2,7 @@
 title: Associate a quick link to a topic
 description: Associate quick links to topics to quickly view important content, such as knowledge articles, catalog, items, internal pages, and external links.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/associate-quick-link-to-topic.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,11 +30,11 @@ User criteria required: Taxonomy Manager.
 
 3.  On the **Quick Link** tab, click **New**.
 
-    ![Associating topic to the related tabs](../images/associate-topics-tabs.png "Quick link tab")
+    \[Omitted image "associate-topics-tabs.png"\] Alt text: Associating topic to the related tabs
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields and description, see [Quick Link form](../reference/ec-quick-link-form.md).
+    For more information on the fields and description, see [Quick Link form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-quick-link-form.md).
 
     **Note:** You can't add a quick link as a featured item.
 
@@ -43,7 +44,7 @@ User criteria required: Taxonomy Manager.
 **Related topics**  
 
 
-[Create a quick link](create-quick-links.md)
+[Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-quick-links.md)
 
-[Assign topics to a quick link](assign-topics-to-quick-links.md)
+[Assign topics to a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/assign-topics-to-quick-links.md)
 

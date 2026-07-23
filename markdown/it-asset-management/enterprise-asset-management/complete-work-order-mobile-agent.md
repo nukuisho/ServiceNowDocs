@@ -2,13 +2,14 @@
 title: Take action on an enterprise asset using the Mobile Agent application
 description: Deploy, remove, or swap any assets or parts that are required for an enterprise asset by using the Mobile Agent application. You can also use the application to calibrate your enterprise assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-work-order-mobile-agent.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Take action on an enterprise asset using the Mobile Agent application
@@ -31,8 +32,8 @@ Role required: wm\_agent
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon \(![Filter icon](../image/filter-mobile-task-eam.png)\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon \(![Filter icon](../image/filter-mobile-task-eam.png)\), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\), tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the work order task for which you want to take action.
 
 6.  Complete all the work that is required for the work order task.
@@ -44,7 +45,7 @@ Role required: wm\_agent
 
         2.  On the Asset Usages list, choose the action that you want to take on the asset or part.
 
-            **Note:** If you want to filter the displayed assets or parts, tap the Filter icon \(![Filter icon](../image/filter-mobile-task-eam.png)\) and enter the values to use as a filter in the **Quantity**, **State**, **Substate**, or **Display name** fields.
+            **Note:** If you want to filter the displayed assets or parts, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\) and enter the values to use as a filter in the **Quantity**, **State**, **Substate**, or **Display name** fields.
 
 <table id="table_icr_plp_cbc"><thead><tr><th>
 
@@ -155,7 +156,7 @@ Swap an asset or part with a replacement part
 
         7.  On the Calibration lines screen, select the calibration line that you want to complete or skip.
 
-            Each calibration line corresponds with a calibration attribute on the associated enterprise asset. If any calibration attribute contains multiple points at which you can measure accuracy, the Enterprise Asset Management application creates a separate calibration line for each point. You can choose to complete or skip each calibration line as needed. For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](add-calibration-attributes-enterprise-model.md).
+            Each calibration line corresponds with a calibration attribute on the associated enterprise asset. If any calibration attribute contains multiple points at which you can measure accuracy, the Enterprise Asset Management application creates a separate calibration line for each point. You can choose to complete or skip each calibration line as needed. For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
 
         8.  On the Calibration line record, use one of the following options to complete or skip the calibration line:
             -   To complete the calibration line, tap **Edit**. On the Edit calibration line screen, fill in the fields and then tap **Submit**.
@@ -213,7 +214,7 @@ Additional comments about the calibration.
         9.  Return to the Calibration lines screen.
         10. Repeat steps f to h for each of your calibration lines.
 
-            **Note:** If any of your calibration lines have a Result of Failed, you can remediate the entire calibration event by initiating a new work order and corresponding work order tasks. See [Remediate an unsuccessful enterprise asset calibration](remediate-unsuccessful-enterprise-asset-calibration.md) for detailed instructions.
+            **Note:** If any of your calibration lines have a Result of Failed, you can remediate the entire calibration event by initiating a new work order and corresponding work order tasks. See [Remediate an unsuccessful enterprise asset calibration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/remediate-unsuccessful-enterprise-asset-calibration.md) for detailed instructions.
 
         11. Tap **Mark as complete**.
 
@@ -223,36 +224,36 @@ Additional comments about the calibration.
 
 ## What to do next
 
-Close the work order associated with the enterprise asset. For details, see [Close a work order for an enterprise asset using the Mobile Agent application](close-workorder-mobile-app-eam.md).
+Close the work order associated with the enterprise asset. For details, see [Close a work order for an enterprise asset using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/close-workorder-mobile-app-eam.md).
 
-**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](work-order-mobile-agent-eam.md)
+**Parent Topic:**[Manage an Enterprise Asset Management task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/work-order-mobile-agent-eam.md)
 
 **Related topics**  
 
 
-[View your tasks using the Mobile Agent application](track-tasks-using-mobile-agent-app.md)
+[View your tasks using the Mobile Agent application]()
 
-[Assign a group task to yourself using the Mobile Agent application](pick-task-from-assignment-group.md)
+[Assign a group task to yourself using the Mobile Agent application]()
 
-[Start working on tasks using the Mobile Agent application](start-work-mobile-agent-eam.md)
+[Start working on tasks using the Mobile Agent application]()
 
-[Record time worked on a task using the Mobile Agent application](../concept/record-time-mobile-agent-app.md)
+[Record time worked on a task using the Mobile Agent application]()
 
-[Initiate a request to source parts for work order tasks using the Mobile Agent application](source-parts-mobile-agent.md)
+[Initiate a request to source parts for work order tasks using the Mobile Agent application]()
 
-[Close a Pick Up Asset task using the Mobile Agent application](pickup-asset-task-mobile-agent.md)
+[Close a Pick Up Asset task using the Mobile Agent application]()
 
-[Close a work order for an enterprise asset using the Mobile Agent application](close-workorder-mobile-app-eam.md)
+[Close a work order for an enterprise asset using the Mobile Agent application]()
 
-[Create a checklist for work order tasks using the Mobile Agent application](manage-work-orders-using-checklist.md)
+[Create a checklist for work order tasks using the Mobile Agent application]()
 
-[View knowledge articles related to work order tasks in the Mobile Agent application](view-knowledge-articles-mobile-agent.md)
+[View knowledge articles related to work order tasks in the Mobile Agent application]()
 
-[Create work notes about the work order tasks using the Mobile Agent application](create-worknote-mobile-agent.md)
+[Create work notes about the work order tasks using the Mobile Agent application]()
 
-[Set enterprise assets to the shutdown state using the Mobile Agent application](shutdown-assets-eam-mobile.md)
+[Set enterprise assets to the shutdown state using the Mobile Agent application]()
 
-[Start up enterprise assets after maintenance activities using the Mobile Agent application](startup-assets-eam-mobile.md)
+[Start up enterprise assets after maintenance activities using the Mobile Agent application]()
 
-[Move enterprise assets to maintenance state using the Mobile Agent application](move-assets-maintenance-mobile.md)
+[Move enterprise assets to maintenance state using the Mobile Agent application]()
 

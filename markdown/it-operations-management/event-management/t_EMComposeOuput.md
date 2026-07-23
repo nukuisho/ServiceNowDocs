@@ -2,6 +2,7 @@
 title: Configure an event rule to customize alert content
 description: You can configure an event rule to customize alert content. You can customize the order of the fields and select which fields display. The fields in the left-hand work area of the Transform and Compose Alert Output section of an event rule are the fields that appear in the generated alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMComposeOuput.html
 release: australia
 product: Event Management
 classification: event-management
@@ -40,6 +41,8 @@ Format alert text by using one or both of these methods:
 
 -   Control the order of event form fields by configuring em\_event\_rule\_order.
 
+To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Event Rules**.
@@ -56,22 +59,22 @@ Format alert text by using one or both of these methods:
 
     1.  Click the required field in the Event Input pane. The value and contents of the selected field appear in the workarea on the left.
 
-        ![Event Management output](../image/event-rule-workarea.png)
+        \[Omitted image "event-rule-workarea.png"\] Alt text: Event Management output
 
-    2.  Select standard edit mode ![Event Management icon](../image/transform-standard-mode.png).
-    3.  Using the pencil cursor, highlight the required text. You can double-click text in the field to select a word ![Event Management icon](../image/event-rule-select-text.png) or select the required text and symbols.
+    2.  Select standard edit mode \[Omitted image "transform-standard-mode.png"\] Alt text: Event Management icon.
+    3.  Using the pencil cursor, highlight the required text. You can double-click text in the field to select a word \[Omitted image "event-rule-select-text.png"\] Alt text: Event Management icon or select the required text and symbols.
 
-        **Note:** If **Accessibility enabled** ![Accessibility enabled](../image/accessibility-enabled.png) is selected in System Settings, standard edit mode is not available ![Standard edit mode icon](../image/standard-edit-mode-icon.png).
+        **Note:** If **Accessibility enabled** \[Omitted image "accessibility-enabled.png"\] Alt text: Accessibility enabled is selected in System Settings, standard edit mode is not available \[Omitted image "standard-edit-mode-icon.png"\] Alt text: Standard edit mode icon.
 
     4.  Select a field name from the list or enter the required expression name. Fields that appear in the list are existing event fields, additional info fields or previously defined alert tags \(fields prefixed with "t\_"\). The field name appears in the **Expressions** pane and the selected text is highlighted. Both the text and the expression name are highlighted in the same color. Each additional expression that you create, plus its value, is highlighted in a different color.
 
-        ![Event Management output](../image/event-rule-transform-list.png)
+        \[Omitted image "event-rule-transform-list.png"\] Alt text: Event Management output
 
         **Note:** Transform field names cannot contain a ‘ \(single quote\) character.
 
     5.  Click **Done**. The expression name appears in the **Expressions** section of the **Event Input** pane.
 
-        ![Event Management output](../image/event-rule-expression-section.png)
+        \[Omitted image "event-rule-expression-section.png"\] Alt text: Event Management output
 
     6.  If you click an expression or its value in the **Event Input** pane, the details display in the workarea on the left.
 5.  To transform information in fields—regex mode:
@@ -99,18 +102,18 @@ Format alert text by using one or both of these methods:
     -   Aside from `Pattern.DOTALL`, other regex flags cannot be changed.
     -   `Lookahead` is supported. However, `Lookbehind` is not supported.
     1.  Click the required field in the Event Input pane. The value and contents of the selected field appears in the workarea on the left.
-    2.  Select regex edit mode ![Event Management icon](../image/transpose-regex-mode.png).
+    2.  Select regex edit mode \[Omitted image "transpose-regex-mode.png"\] Alt text: Event Management icon.
 
-        ![Event Management output](../image/event-rule-workarea-regex.png)
+        \[Omitted image "event-rule-workarea-regex.png"\] Alt text: Event Management output
 
-    3.  Select the required text and symbols ![Event Management graphic](../image/transpose-regex.png). Replace the highlighted text with \(.\*\) to create a regex expression.
+    3.  Select the required text and symbols \[Omitted image "transpose-regex.png"\] Alt text: Event Management graphic. Replace the highlighted text with \(.\*\) to create a regex expression.
     4.  In the **Expressions** pane, click the **Select or Add Field** field.
 
-        ![Event Management image](../image/transform-add-field.png)
+        \[Omitted image "transform-add-field.png"\] Alt text: Event Management image
 
     5.  Select a field name from the list or enter the required expression name. Fields that appear in the list are existing event fields, additional info fields or previously defined alert tags \(fields prefixed with "t\_"\). The field name appears in the **Expressions** pane.
 
-        ![Event Management output](../image/event-rule-transform-list.png)
+        \[Omitted image "event-rule-transform-list.png"\] Alt text: Event Management output
 
         **Note:** Transform field names cannot contain a ‘ \(single quote\) character.
 
@@ -121,7 +124,7 @@ Format alert text by using one or both of these methods:
     -   When composing the event rule regex, specify the terms using an exact match of the input from the event fields. For example, for the text vhxy2stlgwc\_8888\_hec03v012979, the regex ^\(\[^\_\]+\)\_ looks as if it should catch the text “vhxy2stlgwc” that appears before the underscore. However, it does not work as this text is not an exact match. Use the full regex, as follows: ^\(\[^\_\]+\)\_.\*
 6.  To compose text, in the Transform and compose alert output section, click in the required field.
 
-    ![Event Management output](../image/alert-rule-compose.png)
+    \[Omitted image "alert-rule-compose.png"\] Alt text: Event Management output
 
     Compose text in the alert fields by performing any of these actions:
 
@@ -143,18 +146,18 @@ Format alert text by using one or both of these methods:
 
 ## What to do next
 
-You can filter event rules. See [Filter the events that an event rule applies to](t_EMCreateFilter.md).
+You can filter event rules. See [Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateFilter.md).
 
-**Parent Topic:**[Event rules](../concept/create-event-rules.md)
+**Parent Topic:**[Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-event-rules.md)
 
 **Related topics**  
 
 
-[Create or edit an event rule](create-or-edit-event-rule.md)
+[Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-or-edit-event-rule.md)
 
-[Use event input information](../concept/event-input-information.md)
+[Use event input information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-input-information.md)
 
-[Alert tags](../concept/alert-tags.md)
+[Alert tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-tags.md)
 
-[Filter the events that an event rule applies to](t_EMCreateFilter.md)
+[Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateFilter.md)
 

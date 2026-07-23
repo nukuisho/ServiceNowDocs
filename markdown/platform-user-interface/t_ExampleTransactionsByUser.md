@@ -2,6 +2,7 @@
 title: Add transactions by user related list
 description: This example adds a relationship, Last 20 transactions, to the user form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_ExampleTransactionsByUser.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ The new relationship creates a list of task records opened by the current user.
 
 3.  Create a relationship with the following values.
 
-<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d132706e84">
+<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d132937e84">
 
 **Name**
 
@@ -37,7 +38,7 @@ The new relationship creates a list of task records opened by the current user.
 
 Last 20 transactions
 
-</td></tr><tr><td id="d132706e93">
+</td></tr><tr><td id="d132937e93">
 
 **Applies to table**
 
@@ -45,7 +46,7 @@ Last 20 transactions
 
 User \[sys\_user\]
 
-</td></tr><tr><td id="d132706e102">
+</td></tr><tr><td id="d132937e102">
 
 **Queries from table**
 
@@ -53,7 +54,7 @@ User \[sys\_user\]
 
 Task \[task\]
 
-</td></tr><tr><td id="d132706e111">
+</td></tr><tr><td id="d132937e111">
 
 **Queries with**
 
@@ -91,7 +92,7 @@ Notes and limitations:
 -   The parent variable refers to the **Applies to table**. In this case, it applies to the User \[sys\_user\] table.
 -   Querying against a record sys\_id is a common query method for relationships.
 
-**Parent Topic:**[Create defined related lists](t_CreateDefinedRelatedLists.md)
+**Parent Topic:**[Create defined related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateDefinedRelatedLists.md)
 
 **Related topics**  
 

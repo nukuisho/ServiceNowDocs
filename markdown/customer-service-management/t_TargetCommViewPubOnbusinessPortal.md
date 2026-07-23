@@ -2,6 +2,7 @@
 title: View a publication on Business Portal
 description: View the details of a publication on the business portal and download any attachments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommViewPubOnbusinessPortal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,4 +42,9 @@ The **Publications** link on the business portal displays a list of current publ
 
 7.  Select the return arrow at the top of the publication to return to the Publications list.
 
+
+**Related topics**  
+
+
+[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
 

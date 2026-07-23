@@ -2,12 +2,13 @@
 title: Create a security incident from a TISC case
 description: Create security incidents and associate observables to the security incidents from a TISC case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-si-case.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -70,24 +71,30 @@ Role required: sn\_si\_basic
     -   A work notes is posted on the activity stream indicating that the security incident was successfully created from TISC case. This work notes also includes a link to the TISC case confirming that the selected observables have been associated with the security incident.
     -   In addition, you can also verify this by accessing the **Related Records** tab of the Security Incident Response Workspace and reviewing the observables entries under **Threat Intel** &gt; **Associated Observables**. From there, you can also view the associated observables under the **TISC Context** section. You may notice that the these observables have been directly associated from TISC.
 
-**Parent Topic:**[Threat Analyst Workbench](../concept/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 
 
-[Workbench Overview](../concept/workbench-overview.md)
+[Workbench Overview]()
 
-[Creating cases using Threat Analyst Workbench](../concept/create-cases-using-threat-analyst-workbench.md)
+[Creating cases using Threat Analyst Workbench]()
 
-[Creating case task using Threat Analyst Workbench](tisc-create-case-task.md)
+[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
 
-[Working with Investigation Canvas](../concept/tisc-investigation-canvases.md)
+[Creating case task using Threat Analyst Workbench]()
 
-[Add artifacts to case\(s\) or case task\(s\)](add-artifacts-to-a-case-s.md)
+[Working with Investigation Canvas]()
 
-[Run Enrichment Actions within a case](run-enrichment-results.md)
+[Add artifacts to case\(s\) or case task\(s\)]()
 
-[View Case Reports](view-case-reports.md)
+[Run Enrichment Actions within a case]()
 
-[Upload Secure File Attachments](secure-file-attachments.md)
+[Generate a Case Report using generative AI]()
+
+[Generate a Case Report using a template]()
+
+[Upload Secure File Attachments]()
+
+[Using playbooks]()
 

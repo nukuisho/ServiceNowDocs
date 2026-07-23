@@ -2,6 +2,7 @@
 title: View service instances for a CI
 description: For a selected CI, the Service instances panel in Unified Map lists details in the Service Mapping application for all associated service instances \(formerly application services\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-show-app-service.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -17,7 +18,7 @@ For a selected CI, the **Service instances** panel in Unified Map lists details 
 
 ## Before you begin
 
-Service Mapping must be installed. For more information, see [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md).
+Service Mapping must be installed. For more information, see [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_ServiceMappingOverview.md).
 
 Role required:
 
@@ -28,15 +29,15 @@ Role required:
 
 ## About this task
 
-The information that appears on a service instance card is described in [Service Mapping data](../reference/um-data-from-service-mapping.md).
+The information that appears on a service instance card is described in [Service Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/um-data-from-service-mapping.md).
 
 ## Procedure
 
-1.  While working in a map, select a CI on the map and then select the Service Instances icon ![](../image/icon-um-app-services-panel.png).
+1.  While working in a map, select a CI on the map and then select the Service Instances icon \[Omitted image "icon-um-app-services-panel.png"\].
 
     The panel displays a card with details for each related service instance.
 
-    ![Service instances for the selected CI.](../image/um-app-services-panel.png)
+    \[Omitted image "um-app-services-panel.png"\] Alt text: Service instances for the selected CI.
 
 
 ## What to do next
@@ -45,8 +46,8 @@ The information that appears on a service instance card is described in [Service
 -   Select an empty space on the map to show all service instances for any of the CIs on the map.
 -   In the **Service instances** \(formerly Application services\) panel:
     -   Use the Search box to search for a specific service instance.
-    -   Select the Open filter icon ![](../image/icon-um-open-filter-panel.png) to open the filter panel, and then select a category and a sort order by which to sort the service instance cards. Close the filter panel to apply your settings.
--   On an individual service instance card, select the additional actions icon ![](../image/icon-um-additional-app-services.png) and then select one of the following options:
+    -   Select the Open filter icon \[Omitted image "icon-um-open-filter-panel.png"\] to open the filter panel, and then select a category and a sort order by which to sort the service instance cards. Close the filter panel to apply your settings.
+-   On an individual service instance card, select the additional actions icon \[Omitted image "icon-um-additional-app-services.png"\] and then select one of the following options:
 
     -   Select **View CI details** to open the CI form for the service instance CI.
     -   Select **Open in new map** to open a new map in which the service instance is set as the home node.
@@ -57,5 +58,5 @@ The information that appears on a service instance card is described in [Service
 **Related topics**  
 
 
-[Service Mapping data that appears on maps](../reference/um-data-from-service-mapping.md)
+[Service Mapping data that appears on maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/um-data-from-service-mapping.md)
 

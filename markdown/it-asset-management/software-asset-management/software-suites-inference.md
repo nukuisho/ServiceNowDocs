@@ -2,20 +2,21 @@
 title: Software suites inference
 description: Suite inference is used to determine whether the software is part of a suite and to infer the best or efficient suite to use when licensing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-suites-inference.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Software Asset Management software suites, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management software suites, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software suites inference
 
 Suite inference is used to determine whether the software is part of a suite and to infer the best or efficient suite to use when licensing.
 
-This video explains the software inference feature and how the Software Asset Management application works with this feature. 
+\[Omitted video\] Description: This video explains the software inference feature and how the Software Asset Management application works with this feature.
 
 ## Suite inference flow
 
@@ -85,5 +86,5 @@ When the system property **Use component licenses to optimize compliance when su
 
 As an example, let's say you specify the **Inference percent** as 75% and set the **Mandatory** field to **Always Mandatory** on Microsoft Access. These settings specify that Microsoft Access must be installed, along with three out of four other products \(Microsoft Word, Microsoft Excel, Microsoft PowerPoint, and Microsoft Outlook\), to infer that Microsoft Office Professional is installed on a device.
 
-**Parent Topic:**[Software Asset Management software suites](software-suites.md)
+**Parent Topic:**[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-suites.md)
 

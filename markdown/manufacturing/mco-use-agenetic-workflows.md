@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for Manufacturing Commercial Operations \(MCO\)
 description: Use the MCO AI agents within an agentic workflow to extract relevant data from repair documents, enabling the generation of corrective actions and associated charges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-use-agenetic-workflows.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -55,7 +56,7 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 
 [Explore Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md)
 
-[Create recall corrective actions using Now Assist for Manufacturing Commercial Operations \(MCO\)](../task/execute-recall-campaigns.md)
+[Create recall corrective actions using Now Assist for Manufacturing Commercial Operations \(MCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/execute-recall-campaigns.md)
 
-[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
+[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)
 

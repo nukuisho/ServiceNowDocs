@@ -2,6 +2,7 @@
 title: Move management key features and actions
 description: As a Move manager, fulfill move requests efficiently by logically grouping them in to move projects using the Workplace Central Move management workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/move-mgmt-views-states-actions.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -22,12 +23,12 @@ The Move management workspace is a one stop workspace where you can perform mult
 The workspace has several key features such as move requests-related metrics, visual representation, detailed views, and also the option to create a move project. The Move management displays information in the following categories:
 
 -   **Move management**: Displays metrics of your active move projects, move requests, and move tasks. It also provides a visual representation of the planned and unplanned move requests, states of requests and active projects.
--   **Create project**: Option to create a move project. For more information, refer to [Create a move project from existing move requests](../task/create-move-project.md).
+-   **Create project**: Option to create a move project. For more information, refer to [Create a move project from existing move requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-move-project.md).
 -   **Move management**: Lists the details of the following:
     -   Details of all the move projects with their planned start and end date, their current state, and the assigned user.
     -   Details of all the move requests with their current state, the requested move date, the expected start, and the due date.
 
-For detailed information about move projects, its features, and various states, refer to [Move project views, actions, and states](move-project-schedule-view.md).
+For detailed information about move projects, its features, and various states, refer to [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-project-schedule-view.md).
 
 ## Move request metrics
 
@@ -71,43 +72,43 @@ At a time, the workspace displays up to five move requests. To view all the move
     -   Add or remove filters.
 -   You can select a move request to view the details in a separate tab. When selected, the workplace move case record is opened where you can view the request details and also edit any information if necessary.
 
--   **[Move project views, actions, and states](move-project-schedule-view.md)**  
+-   **[Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-project-schedule-view.md)**  
 As a move manager, create, track, and work on move projects to fulfill multiple move requests at a time. The move project enables you to work using a schedule view, which is faster than opening individual move requests.
 
-**Parent Topic:**[Workplace Central reference](../concept/workplace-central-references.md)
+**Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Central](components-installed-with-workplace-central.md)
+[Components installed with Workplace Central]()
 
-[Space Optimization - Key features and actions](space-optmization-features-and-actions-.md)
+[Space Optimization - Key features and actions]()
 
-[Workplace Central Event planner](event-planner-key-features-actions-views.md)
+[Workplace Central Event planner]()
 
-[Scenario and Building - Views, states, settings, and key features](scenario-planning-views-actions-keyfeatures-.md)
+[Scenario and Building - Views, states, settings, and key features]()
 
-[Space request approvals, states, actions, and key features](space-request-states-and-view.md)
+[Space request approvals, states, actions, and key features]()
 
-[Case Management - Key features, Actions &amp; Case details](case-management-key-features-actions-case-details.md)
+[Case Management - Key features, Actions &amp; Case details]()
 
-[Schedule Plan details form](schedule-plan-details-form.md)
+[Schedule Plan details form]()
 
-[Scenario details form](scenario-details-form.md)
+[Scenario details form]()
 
-[Space Deployment Plan](space-deployment-plan.md)
+[Space Deployment Plan]()
 
-[User Deployment Plan](user-deployment-plan.md)
+[User Deployment Plan]()
 
-[Excel column lengths for move projects](move-excel-char-limit.md)
+[Excel column lengths for move projects]()
 
-[Move conflicts for projects created via Excel upload](excel-upload-conflicts.md)
+[Move conflicts for projects created via Excel upload]()
 
-[Workplace Central troubleshooting](workplace-central-troubleshooting.md)
+[Workplace Central troubleshooting]()
 
-[Workplace Task form - Space Assignment task](workplace-task-space-assignment.md)
+[Workplace Task form - Space Assignment task]()
 
-[Neighborhood User Assignment Rule form](user-assignment-rule-form.md)
+[Neighborhood User Assignment Rule form]()
 
-[User Workplace Profile form](user-workplace-profile-form.md)
+[User Workplace Profile form]()
 

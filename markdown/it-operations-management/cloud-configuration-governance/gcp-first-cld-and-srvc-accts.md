@@ -2,6 +2,7 @@
 title: Set up a cloud account and service account for Google Cloud Platform
 description: A service account is a secure record on your instance that stores the credential and access information for your provider account. Discovery uses the information to access your provider account to get data on each resource in each specified datacenter. A cloud account is the logical representation in Cloud Provisioning and Governance of all or part of your managed cloud infrastructure. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/gcp-first-cld-and-srvc-accts.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,7 +20,7 @@ A service account is a secure record on your instance that stores the credential
 
 Role required: none
 
--   Download and activate the CSC Terraform Connector from the ServiceNow® Store. To try out the [Out Of Box Catalogs using Cloud Services Catalog](../../cloud-services-catalog/concept/out-of-the-box-catalog-items.md) for Google, install the CSC content pack.
+-   Download and activate the CSC Terraform Connector from the ServiceNow® Store. To try out the [Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md) for Google, install the CSC content pack.
 -   Operations in the Google Cloud Console require the Google administrator role.
 -   Operations in Cloud Provisioning and Governance require the sn\_cmp.cloud\_admin role.
 
@@ -27,7 +28,7 @@ Role required: none
 
 When you finish the Day-1 setup process, your cloud account might look like this:
 
-![Structure of a cloud account on Day 1](../image/cloud-acct-day-1.png "Structure of a cloud account on Day 1")
+\[Omitted image "cloud-acct-day-1.png"\] Alt text: Structure of a cloud account on Day 1
 
 ## Procedure
 
@@ -46,11 +47,11 @@ When you finish the Day-1 setup process, your cloud account might look like this
 
 4.  From the JSON key file that is associated with the service account, populate the **project\_id** value into the **Account ID** field.
 
-    **Note:** You can use the import JSON file option to populate. For more details, see [Configure the Google API credentials for Cloud Discovery](../../discovery/task/itom-create-google-api-credentials.md).
+    **Note:** You can use the import JSON file option to populate. For more details, see [Configure the Google API credentials for Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-create-google-api-credentials.md).
 
 5.  In the **Discovery credentials** field, select the appropriate credentials for the service account.
 
-    These are the credentials that you generated in the [Specify the credentials that CSC Terraform Connector uses to access Google Cloud Platform data](gcp-create-creds-cloud-mgt-1.md) procedure.
+    These are the credentials that you generated in the [Specify the credentials that CSC Terraform Connector uses to access Google Cloud Platform data]() procedure.
 
 6.  Leave the **Datacenter URL** field blank.
 
@@ -78,8 +79,8 @@ When you finish the Day-1 setup process, your cloud account might look like this
 
     The following lists appear:
 
-    -   **Resources**: Cloud resources for the current datacenter. Run Discovery to populate the CMDB for the datacenter and populate the tab. See [Discover all datacenters in a service account on-demand](disco-datacntrs-in-srv-acct-1.md).
-    -   **Capacity Limits**: Limits on virtual CPUs, virtual networks, storage volume size, and other services. See [Set capacity limits on user requests for resources](set-capacity-limits-cloud-mgt-1.md).
+    -   **Resources**: Cloud resources for the current datacenter. Run Discovery to populate the CMDB for the datacenter and populate the tab. See [Discover all datacenters in a service account on-demand]().
+    -   **Capacity Limits**: Limits on virtual CPUs, virtual networks, storage volume size, and other services. See [Set capacity limits on user requests for resources]().
     -   **Discovery Log**: The process creates a log record for each action associated with a discovery status.
 12. Repeat the process to add as many service accounts as needed.
 
@@ -91,9 +92,9 @@ After you complete all procedures in this initial "Day 1" setup, you can create 
 **Related topics**  
 
 
-[Set up an additional cloud account](add-cloud-account-cloud-mgt.md)
+[Set up an additional cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-cloud-account-cloud-mgt.md)
 
-[\(Optional\) Add a Google Cloud Platform service account to the cloud account](gcp-add-service-account-cloud-mgt.md)
+[\(Optional\) Add a Google Cloud Platform service account to the cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/gcp-add-service-account-cloud-mgt.md)
 
-[Discovery for Google Cloud Platform](../../service-mapping/reference/google-gcp-discovery-pattern.md)
+[Discovery for Google Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/google-gcp-discovery-pattern.md)
 

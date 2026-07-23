@@ -2,13 +2,14 @@
 title: Producing outbound API notifications using Hermes
 description: Produce an outbound notification from the ServiceNow instance using the Hermes capability. Customers can consume the details of the message from the Kafka environment in their external system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Handling API notifications, Use, Product Support for Technology]
+breadcrumb: [Use, API Notification Management, Product Support for Technology]
 ---
 
 # Producing outbound API notifications using Hermes
@@ -17,8 +18,8 @@ Produce an outbound notification from the ServiceNow instance using the Hermes c
 
 In this use case, the notifications are produced to the Hermes cluster from your ServiceNow instance. After replication from Hermes to Kafka is completed, customers can consume or pull the messages from their own Kafka.
 
--   To learn more about Hermes Messaging Service, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.md).
--   To learn more about Apache Kafka Stream Connect, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
+-   To learn more about Hermes Messaging Service, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/hermes-messaging-service.md).
+-   To learn more about Apache Kafka Stream Connect, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/stream-connect-apache-kafka.md).
 
 In the Australia release, the following events are supported for trouble ticket notification.
 
@@ -29,7 +30,7 @@ In the Australia release, the following events are supported for trouble ticket 
 
 ## Prerequisites
 
-Before producing an outbound notification, the customer must create the topic in the Hermes cluster. To learn more about creating a topic in Hermes, see [Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md).
+Before producing an outbound notification, the customer must create the topic in the Hermes cluster. To learn more about creating a topic in Hermes, see [Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/managing-namespaces-topics-hermes.md).
 
 ## Workflow
 
@@ -42,11 +43,13 @@ The workflow for producing the outbound notification by using Hermes contains th
 2.  The system pushes the Glide snapshot and event type in the staging table, which acts as a queue.
 3.  The producer framework picks the event and converts it to a TMF 688 complaint event payload.
 
-    To learn more about the system properties that you must configure for the producer framework, see [Using the producer framework for outbound notifications](using-producer-framework-for-trouble-ticket-notification.md).
+    To learn more about the system properties that you must configure for the producer framework, see [Using the producer framework for outbound notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/using-producer-framework-for-trouble-ticket-notification.md).
 
 4.  The system invokes the Producer V2 API of Stream Connect and produces the event on the Hermes Kafka topic.
 5.  The Stream Connect pushes the event in the Hermes Kafka cluster.
 6.  The customers can consume the message in their in-house Kafka.
+
+**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
 
 **Related topics**  
 

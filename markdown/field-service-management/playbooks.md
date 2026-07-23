@@ -2,9 +2,10 @@
 title: Playbooks for Field Service Management
 description: Playbooks provide step-by-step guidance for your Field Service teams to complete activities involved in field service tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/playbooks.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -36,14 +37,14 @@ Playbooks are organized in stages to provide a guided experience. They direct yo
 5.  Verify work completion
 6.  Close work order task
 
-For more information, see [Playbooks on ServiceNow Agent](playbooks-now-mobile-agent-app.md).
+For more information, see [Playbooks on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/playbooks-now-mobile-agent-app.md).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 **Related topics**  
 
 
-[Configuring Playbooks for Field Service Management](configuring-playbooks-fsm.md)
+[Configuring Playbooks for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configuring-playbooks-fsm.md)
 

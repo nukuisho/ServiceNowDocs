@@ -2,6 +2,7 @@
 title: Usage of emission factors in a calculated metric definition
 description: When using an emission factor in a calculated metric definition \(CMD\), follow the specified guidelines to confirm accurate results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/usage-of-emission-factors-in-a-calculated-metric-definition.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,5 +30,5 @@ When using an emission factor in a calculated metric definition \(CMD\), follow 
 
 By verifying both the date and location alignment, you can accurately build your formulas for calculations.
 
-**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](esg-new-explore.md)
+**Parent Topic:**[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/esg-new-explore.md)
 

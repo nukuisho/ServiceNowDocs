@@ -2,6 +2,7 @@
 title: Associated CIs on a change request
 description: You can associate additional CIs or services to change requests through related lists on the Change Request form. You can also associate CIs with a change request from the dependency views map.You can use dependency views to identify dependent CIs affected by a change request, and then add them to the Affected CIs related list.You can associate multiple impacted or affected CIs with a single change request.From the change request form, you can add an affected CI that is associated with a calculated application service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/c\_AffectedCIsAndImpactedServices.html
 release: australia
 product: Change Management
 classification: change-management
@@ -31,7 +32,7 @@ The **Impacted Services/CIs** and **Service Offering** related lists represents 
 -   Refresh Impacted Services was only available for Change Request table. From this release, it is available for tables that extend the Task table. The list of these tables is driven by the **com.snc.task.refresh\_impacted\_services** property. This UI action populates the Impacted Services/CIs related list based on the primary CI i.e. the CI that is mentioned on the form.
 -   The Impacted Services list includes application services discovered by Service Mapping.
 
-**Parent Topic:**[Process a change request](../task/t_ProcessAChangeRequest.md)
+**Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)
 
 ## Add affected CIs to change requests using dependency views
 
@@ -96,7 +97,7 @@ When you create a change request, you can add multiple CIs to that change reques
 
 2.  In either the **Affected CIs** or **Impacted Services/CIs** related list, select **Add**.
 
-    ![Add CIs](../image/Create-Change-select-CIs-0.png)
+    \[Omitted image "Create-Change-select-CIs-0.png"\] Alt text: Add CIs
 
 3.  In the Add Affected CIS dialog box, select one or more configuration items from the list.
 
@@ -112,7 +113,7 @@ When you create a change request, you can add multiple CIs to that change reques
 **Related topics**  
 
 
-[Mass Update CI](bulk-ci-change.md)
+[Mass Update CI]()
 
 ## Add an affected CI with a calculated application service
 

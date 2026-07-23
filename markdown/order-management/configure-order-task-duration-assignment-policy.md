@@ -2,6 +2,7 @@
 title: Configure the Order Task Duration Assignment Policy
 description: Configure the Order Task Duration Assignment Policy using Workflow Studio. This policy determines how long each task should take to complete, when it should start, and when it's expected to finish, enabling accurate scheduling, resource planning, and timeline visibility across the order life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-order-task-duration-assignment-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: admin
 
 2.  Select **Order Task Duration Assignment Policy**.
 
-    ![The image shows the Order Task Duration Assignment policy window in Workflow Studio.](../image/jm-order-task-duration-assignment.png)
+    \[Omitted image "jm-order-task-duration-assignment.png"\] Alt text: The image shows the Order Task Duration Assignment policy window in Workflow Studio.
 
 3.  On the Order Task Duration Assignment Policy decision table, fill in the fields.
 
@@ -65,5 +66,12 @@ Allotted time for this task. For example, 2 Days 6 Hours.**Note:** The allotted 
 
 ## What to do next
 
-The next step is to configure SLA definitions for Jeopardy Management. For more information, see [create-sla-definitions.md](create-sla-definitions.md).
+The next step is to configure SLA definitions for Jeopardy Management. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-sla-definitions.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-sla-definitions.md).
+
+**Related topics**  
+
+
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/jeopardy-management.md)
+
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/monitoring-jeopardy-management.md)
 

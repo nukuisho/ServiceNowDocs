@@ -2,6 +2,7 @@
 title: Now Assist for Zero Copy Connector
 description: Use the Now Assist for Zero Copy Connector AI skills and agentic workflows to obtain information about ERP systems, software, models, and data products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/now-assist-for-zero-copy-connector-for-erp.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,11 +25,11 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 <table id="table_fqw_fwq_2hc" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn more about Now Assist for ZCC](exploring-now-assist-for-zero-copy-connector.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn more about Now Assist for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/exploring-now-assist-for-zero-copy-connector.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure the Now Assist for ZCC application to get started](../task/configure-now-assist-for-zero-copy-connectors.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the Now Assist for ZCC application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-now-assist-for-zero-copy-connectors.md)
 
 </td><td>
 
@@ -36,11 +37,11 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td></tr><tr><td>
 
-[Use generative AI![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use generative AI capabilities offered by Now Assist for ZCC](now-assist-for-zero-copy-connectors-skills.md)
+[Use generative AI\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connectors-skills.md)
 
 </td><td>
 
-[Use agentic AI![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use agentic AI workflows offered by Now Assist for ZCC](zero-copy-connector-for-erp-ai-agents-use-cases.md)
+[Use agentic AI\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic AI workflows offered by Now Assist for ZCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connector-for-erp-ai-agents-use-cases.md)
 
 </td><td>
 
@@ -49,9 +50,9 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help

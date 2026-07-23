@@ -2,6 +2,7 @@
 title: Mobile Platform
 description: Access your instance from anywhere using the ServiceNow Mobile Platform. The Mobile Platform enables you to create customized mobile experiences on the Now Mobile and Mobile Agent apps. Using these apps, your users access custom reports and can execute multiple tasks, enabling them to perform their work from anywhere, at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-config-navigation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -12,7 +13,7 @@ reading_time_minutes: 2
 
 Access your instance from anywhere using the ServiceNow® Mobile Platform. The Mobile Platform enables you to create customized mobile experiences on the Now Mobile® and Mobile Agent® apps. Using these apps, your users access custom reports and can execute multiple tasks, enabling them to perform their work from anywhere, at any time.
 
-Introductory video to ServiceNow mobile apps. 
+\[Omitted video\] Description: Introductory video to ServiceNow mobile apps.
 
 This video highlights some of the capabilities of the 2 ServiceNow® mobile apps: Mobile Agent and Now Mobile. The video defines the purpose of each app, who uses them, and how they support your workflows and ServiceNow business applications. The Mobile Agent app is designed for field service technicians and engineers to support them while they are off-site. The Now Mobile app can be used by your entire organization. Using the Now Mobile app, employees can perform tasks such as viewing their work schedules, viewing a knowledge article, or reserving a conference room.
 
@@ -24,23 +25,23 @@ Starting with the Australia release, Mobile Studio is being prepared for future 
 
 <table id="table_pzb_2hx_rvb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the ServiceNow mobile apps that are available on iOS and Android.](explore-mobile-platform-landing.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about the ServiceNow mobile apps that are available on iOS and Android.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-mobile-platform-landing.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-mobile-native.svg) Learn how to use ServiceNow mobile apps to get your work done from anywhere using your mobile device.](use-mobile-platform-landing.md)
+[Use \[Omitted image "bus-mobile-native.svg"\] Alt text: Learn how to use ServiceNow mobile apps to get your work done from anywhere using your mobile device.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/use-mobile-platform-landing.md)
 
 </td></tr><tr><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure a mobile experience for any of the ServiceNow mobile apps.](config-mobile-platform-landing.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure a mobile experience for any of the ServiceNow mobile apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-mobile-platform-landing.md)
 
 </td><td>
 
-[Build ![](../../../reuse/icons/brand-icons/bus-application-development.svg) Create and modify base system mobile app components for ServiceNow mobile apps.](build-mobile-apps-landing.md)
+[Build \[Omitted image "bus-application-development.svg"\] Alt text: Create and modify base system mobile app components for ServiceNow mobile apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/build-mobile-apps-landing.md)
 
 </td></tr><tr><td>
 
-[Additional Resources![](../image/additional-resources.png)Explore additional Mobile Platform resources to upgrade your mobile experience to the next level.](../reference/mobile-additional-resources.md)
+[Additional Resources\[Omitted image "additional-resources.png"\]Explore additional Mobile Platform resources to upgrade your mobile experience to the next level.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-additional-resources.md)
 
 </td><td>
 

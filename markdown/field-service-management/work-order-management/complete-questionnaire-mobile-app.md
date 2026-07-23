@@ -1,37 +1,38 @@
 ---
-title: Complete a questionnaire for a work order task
-description: Complete the answers to questions associated with a work order task and store the responses for future reference.
+title: Complete a questionnaire for work order task
+description: Complete the answers to questions associated with a work order task and store the responses for future reference. For example, you can create questionnaires for verifying the condition of an equipment before it’s repaired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/complete-questionnaire-mobile-app.html
 release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Complete a questionnaire for a work order task
+# Complete a questionnaire for work order task
 
-Complete the answers to questions associated with a work order task and store the responses for future reference.
+Complete the answers to questions associated with a work order task and store the responses for future reference. For example, you can create questionnaires for verifying the condition of an equipment before it’s repaired.
 
 ## About this task
 
--   You can view, answer, and submit questionnaires even while offline. For more information on enabling the offline mode, see [Run ServiceNow Agent in offline mode](../concept/work-offline-fieldservice-mobile.md#). Saving the questionnaire responses in the offline mode stores them in your device's local cache. Once the responses are submitted in the offline mode, tap **Sync All** to update them in the related work order task.
--   You can edit responses submitted in a questionnaire even after it is submitted. However, this functionality is limited to questionnaires associated with work order tasks moved under **Needs Information** and will also work in the offline mode.
--   Agents can’t view each others completed questionnaire even if the agent impersonates the other agent’s profile.
+Agents can’t view each others completed questionnaire, even if the agent impersonates the other agent’s profile.
 
-Agents can’t view each others completed questionnaire even if the agent impersonates the other agent’s profile.
+## About this task
+
+The **Change Approval Policy** activity generates approvals from the associated change approval policy. Approval timing, due dates, and escalation are governed by the approval definitions in the policy and not by the activity. To set due dates and automatic resolution \(approve, reject, or cancel on due date\), use the Apply Change Approval policy flow action.For more information, see Change approval policy
 
 ## Before you begin
 
-A questionnaire must be connected to the work order task. For more information on creating questionnaires and associating them with work order tasks, see [Work order questionnaires](../concept/work-order-questionnaire.md).
+You can view a questionnaire in a work order task if it’s made available for that task. For more information on creating questionnaires and associating them with work orders or work order tasks, see [Work order questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/work-order-questionnaire.md).
 
 Role required: wm\_agent or wm\_dispatcher
 
 ## Procedure
 
-1.  Open the ServiceNow Agent application.
+1.  Open the Now Mobile Agent application.
 
 2.  Tap **My Work**.
 
@@ -43,14 +44,17 @@ Role required: wm\_agent or wm\_dispatcher
 
 6.  On the **Pending** tab, tap the questionnaire that you’re ready to take.
 
-7.  Save the responses in the questionnaire before completing it by tapping the ![](../image/view-available-parts-inventory.png) icon and selecting the **Save** option.
+    If the questionnaire is required, you can’t close the task until you complete the questionnaire.
 
-    You can reopen and view the responses before submitting the entire questionnaire.
+7.  Tap **Get Started** and answer each question in the questionnaire.
 
-8.  Tap **Submit**.
+8.  Perform one of the following actions.
 
+    |To|Complete these steps|
+    |---|--------------------|
+    |**Save the questionnaire**|Tap **Save**. You can edit the questionnaire later.|
+    |**Submit the questionnaire**|Tap **Submit**. Once submitted, you can view but can’t change your questionnaire.|
 
-## Result
+    The submitted questionnaire appears in the **Completed** tab.
 
-The submitted questionnaire appears in the **Completed** tab.
 

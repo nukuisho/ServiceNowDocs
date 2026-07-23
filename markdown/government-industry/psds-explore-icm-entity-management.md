@@ -2,11 +2,12 @@
 title: Using Investigative Case Management Entity Management
 description: Investigators can use the Investigative Case Management Entity Management feature to manage all entities \(persons, locations, vehicles, property, firearms, organizations\) related to a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-explore-icm-entity-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Using Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using Investigative Case Management Entity Management
@@ -46,13 +47,13 @@ ICM supports management of persons, property, vehicles, organizations, locations
 
 Investigators and supervisors will mainly interact with case entities through the dedicated entity tabs in the workspace. Each tab allows the user to create as many records as needed, as well as add related cases and associate other entities.
 
-![Entity tabs in Entity Management](../image/psds-icm-entities-tabs-highlight.png)
+\[Omitted image "psds-icm-entities-tabs-highlight.png"\] Alt text: Entity tabs in Entity Management
 
 -   **Persons**
 
     The Person tab allows users to create and manage person records. Users are able to add new Persons, view existing ones in a related tab or list, and edit records. Users can add different person types to a case using the categories provided. Users are also able to link/delete other associated entities to a person, and view associated entities.
 
-    ![entity persons view](../image/psds-icm-persons-tab-entity.png)
+    \[Omitted image "psds-icm-persons-tab-entity.png"\] Alt text: entity persons view
 
 -   **Vehicles**
 
@@ -78,12 +79,12 @@ Investigators and supervisors will mainly interact with case entities through th
 
     The Firearm tab allows users to create and manage firearm records. Users can create and manage firearms and manually related entities. Each firearm profile stores critical identifiers, traits, and historical data. Users are able to add new firearms, view existing ones in a related tab or list, and edit them. The vehicle index and firearm index tables are an extension of the property index table.
 
-    ![entity firearms view](../image/psds-icm-firearms-tab-entity.png)
+    \[Omitted image "psds-icm-firearms-tab-entity.png"\] Alt text: entity firearms view
 
 
 ## Entity Completeness
 
 In the Entity Management form, not every field is mandatory, and is designed to capture as much information as possible, without imposing strict restrictions on the information that can be added. However, each entity record contains a completeness field that tracks whether the record has sufficient data to be searchable within ICM.
 
-An entity is only returned in search results when its completeness field is set to true. Completeness is recalculated automatically whenever relevant fields are updated, ensuring search visibility reflects the current state of the record. To see completeness rules for each entity type, see [Completeness Rules by Entity Type](../reference/psds-icm-ref-entity-man-completeness-rules.md).
+An entity is only returned in search results when its completeness field is set to true. Completeness is recalculated automatically whenever relevant fields are updated, ensuring search visibility reflects the current state of the record. To see completeness rules for each entity type, see [Completeness Rules by Entity Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-icm-ref-entity-man-completeness-rules.md).
 

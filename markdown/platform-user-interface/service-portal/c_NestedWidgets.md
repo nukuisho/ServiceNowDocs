@@ -2,6 +2,7 @@
 title: Embedded widgets
 description: Embed a widget in the HTML template, server script, or client script.Embed the cool clock widget multiple times using custom options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/c\_NestedWidgets.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -117,7 +118,7 @@ When a widget model is called from within another widget, the HTML template, cli
 |options|object|Options used to initialize the widget.|
 |template|string|HTML template field for the widget.|
 
-**Parent Topic:**[Developing custom widgets](widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
 
 ## Embed a widget multiple times with custom options
 
@@ -131,7 +132,7 @@ Role required: admin or sp\_admin
 
 Create a widget that embeds multiple instances of the cool clock widget, each with a different time zone and title. Open the cool clock widget in the Widget Editor to see widget options referenced in the HTML template and the Client Script.
 
-![Cool Clock widget with c.options.title, c.options.c_color, and c.options.zone highlighted](../image/CoolClockOptionsHighlighted.png "Cool Clock widget with Options highlighted")
+\[Omitted image "CoolClockOptionsHighlighted.png"\] Alt text: Cool Clock widget with c.options.title, c.options.c\_color, and c.options.zone highlighted
 
 ### Procedure
 
@@ -193,5 +194,5 @@ Create a widget that embeds multiple instances of the cool clock widget, each wi
 
 Each instance of the clock in the embedded clock widget appears with a different time zone.
 
-![Embedded clock with four embedded widgets with four different time zones](../image/SampleClockOptions.png "Sample clock options")
+\[Omitted image "SampleClockOptions.png"\] Alt text: Embedded clock with four embedded widgets with four different time zones
 

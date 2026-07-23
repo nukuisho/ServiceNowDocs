@@ -2,6 +2,7 @@
 title: Edit a published TRM catalog configuration
 description: Edit a published TRM catalog configuration to update catalog name, article publishing rules for software and hardware records, or manage portal and knowledge base mappings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/modify-trm-cat-pub-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,9 +26,9 @@ When you update and save changes to a published catalog configuration, the catal
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon ![Setup icon](../../image/eaw-image/setup-icon.png).
+2.  Open the Setup page by selecting the Setup icon \[Omitted image "setup-icon.png"\] Alt text: Setup icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Publishing Center**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Publishing Center**.
 
 4.  Select **All**.
 
@@ -51,16 +52,16 @@ The publishing configuration is updated based on your changes.
 
 You must republish to apply changes to the published knowledge base output. Use the Run logs to monitor the publishing job and confirm completion.
 
-**Parent Topic:**[Working with the publishing center](../../concept/eaw-concept/working-with-publishing-center.md)
+**Parent Topic:**[Working with the publishing center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/working-with-publishing-center.md)
 
 **Related topics**  
 
 
-[Republish a TRM catalog after updates](republish-trm-cat.md)
+[Republish a TRM catalog after updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/republish-trm-cat.md)
 
-[View publishing status and run log](view-run-log.md)
+[View publishing status and run log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/view-run-log.md)
 
-[Access the published TRM catalog knowledge base](access-the-published-kb.md)
+[Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/access-the-published-kb.md)
 
-[Understanding the publishing results and knowledge base output](../../reference/eaw-reference/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/understand-publishing-output.md)
 

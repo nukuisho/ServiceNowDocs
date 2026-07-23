@@ -2,6 +2,7 @@
 title: Activate Case and Knowledge Management
 description: You can activate Human Resources Scoped App: Core \[com.sn\_hr\_core\] if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -62,13 +63,13 @@ Provides HR Integrations.
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Case and Knowledge Management](../concept/configuring-ckm.md)
+**Parent Topic:**[Configuring Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configuring-ckm.md)
 
 **Related topics**  
 
 
-[Components installed with Case and Knowledge Management](../reference/components-installed-with-case-and-knowledge-management.md)
+[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md)
 

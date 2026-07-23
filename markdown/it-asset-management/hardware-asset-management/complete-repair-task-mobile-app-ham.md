@@ -2,13 +2,14 @@
 title: Close a hardware asset repair task using the Mobile Agent application
 description: Complete an assigned hardware asset repair task and mark the task as closed using the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/complete-repair-task-mobile-app-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage hardware asset repair tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage hardware asset repair tasks, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Close a hardware asset repair task using the Mobile Agent application
@@ -39,23 +40,23 @@ You can close any task that belongs to the following task types:
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon \(![Filter icon](../../enterprise-asset-management/image/filter-mobile-task-eam.png)\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon \(![Filter icon](../../enterprise-asset-management/image/filter-mobile-task-eam.png)\), tap **Sort by**, and select the fields to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\), tap **Sort by**, and select the fields to sort your tasks.
 5.  Tap the repair task that you want to close.
 
 6.  On the **Details** tab of the repair task, tap **Close** .
 
 7.  On the Repair task input form screen, enter the result of your task.
 
-<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d49409e168">
+<table id="choicetable_g14_wv2_yxb"><thead><tr><th align="left" id="d41470e174">
 
 Task
 
-</th><th align="left" id="d49409e171">
+</th><th align="left" id="d41470e177">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d49409e177">
+</th></tr></thead><tbody><tr><td id="d41470e183">
 
 **Troubleshoot asset**
 
@@ -66,7 +67,7 @@ In the **Troubleshoot result** field, select any of the following:-   **Repairab
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d49409e203">
+</td></tr><tr><td id="d41470e209">
 
 **Repair asset**
 
@@ -77,7 +78,7 @@ In the **Repair result** field, select any of the following: -   **Repaired**
 -   **Redeployable**
 
 
-</td></tr><tr><td id="d49409e229">
+</td></tr><tr><td id="d41470e235">
 
 **Evaluate asset**
 
@@ -97,14 +98,14 @@ In the **Evaluation result** field, select any of the following:-   **Redeployab
 
 The state of the repair task changes to Closed Complete.
 
-**Parent Topic:**[Manage hardware asset repair tasks using the Mobile Agent application](../concept/repair-orders-mobile-agent-ham.md)
+**Parent Topic:**[Manage hardware asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/repair-orders-mobile-agent-ham.md)
 
 **Related topics**  
 
 
-[View your hardware asset repair tasks using the Mobile Agent application](view-ham-repair-tasks-using-mobile-agent.md)
+[View your hardware asset repair tasks using the Mobile Agent application]()
 
-[Start working on a hardware asset repair task using the Mobile Agent application](start-work-repair-task-mobile-ham.md)
+[Start working on a hardware asset repair task using the Mobile Agent application]()
 
-[Record time worked on a hardware asset repair task using the Mobile Agent application](../concept/record-time-worked-mobile-agent-app-con.md)
+[Record time worked on a hardware asset repair task using the Mobile Agent application]()
 

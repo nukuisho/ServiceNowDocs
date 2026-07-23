@@ -2,6 +2,7 @@
 title: Filter product catalog by location
 description: Agents can filter products in the catalog by using the location function in Order Management. The location filter helps agents be more efficient when creating orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-filter-catalog-by-location.html
 release: australia
 topic_type: task
 last_updated: "2026-04-13"
@@ -15,7 +16,7 @@ Agents can filter products in the catalog by using the location function in Orde
 
 ## Before you begin
 
-Location-based product transaction capability must be activated to enable location-based filtering in Order Management. For more information [Activate location-based transactions](som-activate-location-filter.md).
+Location-based product transaction capability must be activated to enable location-based filtering in Order Management. For more information [Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-activate-location-filter.md).
 
 Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_agent
 
@@ -23,7 +24,7 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_agent
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All**.
 
@@ -39,5 +40,5 @@ Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_agent
 **Related topics**  
 
 
-[Configuring location-based product transactions](../concept/config-location-transaction.md)
+[Configuring location-based product transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/config-location-transaction.md)
 

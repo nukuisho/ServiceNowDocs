@@ -2,6 +2,7 @@
 title: Parent-child rollup task calculations
 description: Date changes, stage changes, and value calculations roll up from child tasks to parent tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_ParentChildRollupTaskCalcs.html
 release: australia
 product: Project Management
 classification: project-management
@@ -44,7 +45,7 @@ Cost calculations roll up when the costing add-on is active.
 -   **Estimated cost**: The sum of all cost estimates at the beginning of a project. Estimated costs of child tasks roll up to parent tasks and to the project.
 -   **Actual cost**: By default for the project, the sum of all costs of all the expense lines, and are typically associated with a time card and a labor rate. To track costs, you can derive rates using any of the following options:
 
-    -   Associate a [rate model](../../project-portfolio-suite-with-financials/concept/rate-model.md) to the project.
+    -   Associate a [rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md) to the project.
     -   Define rate cards for the task and labor expenses.
     -   Associate rate at the resource plan level.
     These rates automatically generate expense lines showing actual expenditures, which are associated with the projects. If rate cards are defined, the task expense lines are generated as each project task closes, and labor expense lines are generated when time cards are approved. Expense lines are visible in the **Expense Lines** related list, which requires the **Advanced view** on both Project and Project Task forms.
@@ -72,36 +73,34 @@ Project states can also roll down. If you change the state of a project to close
     -   Child tasks with a **Start on** date that has passed are changed to start **ASAP** and the state is changed to **Work in Progress**.
     -   Child tasks with a **Start on** date that has not yet passed retain the same start on date but the state is changed to **Open**.
 
-**Parent Topic:**[Basics of Project Management](c_ProjectTasks.md)
+**Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectTasks.md)
 
 **Related topics**  
 
 
-[Project tasks](../task/t_CreateAProjectTask.md)
+[Project tasks]()
 
-[Schedule conflicts between project tasks](scheduling-conflicts.md)
+[Schedule conflicts between project tasks]()
 
-[Change requests and project tasks](c_ChangeRequestsAndProjectTasks.md)
+[Change requests and project tasks]()
 
-[Project task checklists](c_project-task-checklists.md)
+[Project task checklists]()
 
-[Task resources](c_TaskResources.md)
+[Task resources]()
 
-[Project and project task states](project-and-project-task-states.md)
+[Project and project task states]()
 
-[Composite Fields](pm-composite-fields.md)
+[Composite Fields]()
 
-[Cost plan breakdown](cost-plan-breakdown.md#)
+[Cost plan breakdown]()
 
-[Actual project costs](actual-project-costs.md)
+[Actual project costs]()
 
-[Types of external dependencies](external-dependency-types.md)
+[Types of external dependencies]()
 
-[Project and portfolio funding](../../project-portfolio-suite-with-financials/concept/c_ProjectAndPortfolioFunding.md)
+[Project and portfolio funding]()
 
-[Project scheduling in Project Management](project-scheduling.md)
+[Project scheduling in Project Management]()
 
-[Task constraints](task-constraints-project-management.md)
-
-[Create a parent-child relationship on the Project Task form](../task/t_CreateParentChildRelationship.md)
+[Create a parent-child relationship on the Project Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateParentChildRelationship.md)
 

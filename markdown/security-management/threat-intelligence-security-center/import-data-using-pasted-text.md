@@ -2,6 +2,7 @@
 title: Import data using raw text
 description: Import the observables data by copying and pasting raw text or entering the free text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/import-data-using-pasted-text.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -112,7 +113,7 @@ Select a Taxonomy
 
 </td><td>
 
-Select the taxonomy for the imported data. Using taxonomies, define dictionaries that can be used as taxonomies assigned to threat intel records. For example, CAPEC nomenclature. For more information, see [Creating Taxonomies](../concept/create-taxonomies.md).
+Select the taxonomy for the imported data. Using taxonomies, define dictionaries that can be used as taxonomies assigned to threat intel records. For example, CAPEC nomenclature. For more information, see [Creating Taxonomies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-taxonomies.md).
 
 </td></tr></tbody>
 </table>5.  Click **Next**.
@@ -142,14 +143,14 @@ Select the taxonomy for the imported data. Using taxonomies, define dictionaries
 12. Click **Go Back** to go back to the previous page and review the record, if necessary.
 
 
-**Parent Topic:**[Import Intelligence in TISC](../concept/importing-threat-intelligence.md)
+**Parent Topic:**[Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
 
 **Related topics**  
 
 
-[Import data using structured file](import-data-using-structured-file.md)
+[Import data using structured file]()
 
-[Import data using standard format](import-data-using-standard-format.md)
+[Import data using standard format]()
 
-[Import data using unstructured file format](import-data-using-unstructured-file.md)
+[Import data using unstructured file format]()
 

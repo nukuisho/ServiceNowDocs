@@ -1,7 +1,8 @@
 ---
-title: Summarize a customer profile in the Customer 360 page
-description: Use the Customer profile summarization skill to generate an AI-powered overview of a customer's status and information within the Customer 360 page. This feature helps customer service representatives quickly understand a customer's status to provide personalized, real-time support.
+title: Summarize a banking customer profile in the Customer 360 page
+description: Use the Customer Profile Summarization skill to generate an AI-powered overview of a customer's status and information within the Customer 360 page in Agentic Contact Center for Banking. This feature helps customer service representatives quickly understand a customer's status to provide personalized, real-time support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-customer-profile-fso.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -11,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Use generative AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
 ---
 
-# Summarize a customer profile in the Customer 360 page
+# Summarize a banking customer profile in the Customer 360 page
 
-Use the Customer profile summarization skill to generate an AI-powered overview of a customer's status and information within the Customer 360 page. This feature helps customer service representatives quickly understand a customer's status to provide personalized, real-time support.
+Use the Customer Profile Summarization skill to generate an AI-powered overview of a customer's status and information within the Customer 360 page in Agentic Contact Center for Banking. This feature helps customer service representatives quickly understand a customer's status to provide personalized, real-time support.
 
 ## Before you begin
 
@@ -25,7 +26,7 @@ Role required: sn\_fso\_csr.business\_agent, sn\_fso\_csr.personal\_agent
 
 The Customer profile summarization skill provides a concise, comprehensive summary of a customer's status in the Customer 360 workspace as part of Agentic Contact Center for Banking.
 
-![Customer profile summary panel showing profile and status information.](../../fso-front-office-banking/images/agentic-contact-center-c360-context-summary.png)
+\[Omitted image "agentic-contact-center-c360-context-summary.png"\] Alt text: Customer profile summary panel showing profile and status information.
 
 ## Procedure
 
@@ -37,58 +38,58 @@ The Customer profile summarization skill provides a concise, comprehensive summa
 
 3.  After the summary is generated, you can perform additional actions.
 
-<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d43848e117">
+<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d44680e120">
 
 Option
 
-</th><th align="left" id="d43848e120">
+</th><th align="left" id="d44680e123">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d43848e126">
+</th></tr></thead><tbody><tr><td id="d44680e129">
 
 **Refresh the customer summary**
 
 </td><td>
 
-Select the refresh icon \(![Refresh icon.](../../fso-common/image/icon-refresh.png)\) to generate another customer summary.
+Select the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon.\) to generate another customer summary.
 
-</td></tr><tr><td id="d43848e141">
+</td></tr><tr><td id="d44680e144">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../../customer-service-management/image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../../customer-service-management/image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d43848e164">
+</td></tr><tr><td id="d44680e167">
 
 **View the information about the case summary**
 
 </td><td>
 
-If you want to review details about the summary, select the more info icon \(![More info icon.](../../customer-service-management/image/icon-more-info.png)\).
+If you want to review details about the summary, select the more info icon \(\[Omitted image "icon-more-info.png"\] Alt text: More info icon.\).
 
-</td></tr><tr><td id="d43848e179">
+</td></tr><tr><td id="d44680e182">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the expand card icon \(![Expand card icon.](../../customer-service-management/image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../../customer-service-management/image/icon-collapse.png)\) to see more details or fewer summary details.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
-Use an AI agent to engage in Q&amp;A, anticipate customer needs, and surface insights. For more information, see [Generate customer insights in the Customer 360 page](generate-customer-insights-customer-360-workspace.md).
+Use an AI agent to engage in Q&amp;A, anticipate customer needs, and surface insights. For more information, see [Generate customer insights in the Customer 360 page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/generate-customer-insights-customer-360-workspace.md).
 
-**Parent Topic:**[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](../../fso-common/concept/using-now-assist-for-financial-services-operations-fso.md)
+**Parent Topic:**[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
 
 **Related topics**  
 
 
-[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](../../fso-common/concept/using-now-assist-for-financial-services-operations-fso.md)
+[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
 
-[Configure customer profile summarization in Now Assist for FSO](configure-customer-profile-summarization-fso.md)
+[Configure banking customer profile summarization in Now Assist for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configure-customer-profile-summarization-fso.md)
 

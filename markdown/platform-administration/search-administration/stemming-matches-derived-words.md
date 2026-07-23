@@ -2,6 +2,7 @@
 title: Zing matches derived words with stemming
 description: Convert any multiple-character search keyword to its stem form to find derived versions of the word.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/stemming-matches-derived-words.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -25,32 +26,32 @@ Zing uses the [Porter Stemming Algorithm](https://tartarus.org/martin/PorterStem
 
 The stemming language determines how the system generates indexes of record data. The system only supports one stemming language at a time regardless of how many languages the instance supports. When you change the stemming language, the system creates any new index entries based on the new language stemming rules, but doesn't regenerate any existing index records. You must manually regenerate indexes for tables you want to use the new stemming language.
 
-**Parent Topic:**[Zing text indexing and search engine](c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 
 
-[Features of Zing text indexing and search engine](../reference/features-zing.md)
+[Features of Zing text indexing and search engine]()
 
-[Available search options](c_IntroductionToSearching.md)
+[Available search options]()
 
-[Global search finds records from multiple tables](c_GlobalTextSearch.md)
+[Global search finds records from multiple tables]()
 
-[Zing generates search results in four phases](c_SearchProcess.md)
+[Zing generates search results in four phases]()
 
-[Zing filters search results with access controls](zing-filters-search-results.md)
+[Zing filters search results with access controls]()
 
-[Zing computes document scores using three components](c_DocumentScoring.md)
+[Zing computes document scores using three components]()
 
-[Zing indexes words](zing-indexes-words.md)
+[Zing indexes words]()
 
-[Zing can include attachments in search results](c_SearchingForAttachments.md)
+[Zing can include attachments in search results]()
 
-[Zing removes stop words from queries](stop-words-removed-from-queries.md)
+[Zing removes stop words from queries]()
 
-[Zing can expand search results with synonyms](search-synonyms-expand-results.md)
+[Zing can expand search results with synonyms]()
 
-[Zing displays search suggestions as users enter search terms](search-suggestions-zing.md)
+[Zing displays search suggestions as users enter search terms]()
 
-[Installed with Zing](../reference/installed-with-zing.md)
+[Installed with Zing]()
 

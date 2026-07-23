@@ -2,9 +2,10 @@
 title: Components installed with Opportunity Management
 description: Several types of components are installed with activation of the Opportunity Management plugin, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-opportunity-management.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-06-09"
 reading_time_minutes: 2
 breadcrumb: [Opportunity Management reference, Lead and opportunity management, Reference, Sales Customer Relationship Management]
 ---
@@ -64,9 +65,26 @@ A granular role created to give CRUD access to Opportunity tables.
 
 </td><td>
 
+-   sn\_meeting\_mgmt.meeting\_creator
+-   sn\_nowassist\_admin.nsa\_admin
 -   sn\_opty\_mgmt\_core.opportunity\_setup\_writer
 -   sn\_opty\_mgmt\_core.opportunity\_writer
 -   sn\_opty\_mgmt\_core.opportunity\_allocation\_writer
+-   sn\_crm\_touchpoint.admin
+
+</td></tr><tr><td>
+
+sn\_opty\_mgmt\_core.opportunity\_integrator
+
+</td><td>
+
+Provides integration-level write access to the opportunity entity.
+
+</td><td>
+
+-   sn\_meeting\_mgmt.meeting\_creator
+-   sn\_crm\_touchpoint.touchpoint\_writer
+-   sn\_opty\_mgmt\_core.opportunity\_writer
 
 </td></tr><tr><td>
 
@@ -320,10 +338,10 @@ Opportunity Allocation Dimensionsn\_opty\_mgmt\_core\_opportunity\_allocation\_d
 Allocation values that are grouped or categorized, such as by territory or product family.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Opportunity Management reference](../concept/opportunity-management-reference.md)
+</table>**Parent Topic:**[Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-reference.md)
 
 **Related topics**  
 
 
-[Install Opportunity Management](../task/install-opportunity-management.md)
+[Install Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-opportunity-management.md)
 

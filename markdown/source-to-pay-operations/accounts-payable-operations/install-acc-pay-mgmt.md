@@ -1,19 +1,21 @@
 ---
 title: Install Accounts Payable Invoice Processing
-description: You can install the Accounts Payable Invoice Processing \(sn\_ap\_apm\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Install the Accounts Payable Invoice Processing \(sn\_ap\_apm\) application as an admin to include demo data and related ServiceNow Store applications and plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/install-acc-pay-mgmt.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice management, accounts payable invoice processing]
 breadcrumb: [Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Install Accounts Payable Invoice Processing
 
-You can install the Accounts Payable Invoice Processing \(sn\_ap\_apm\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Install the Accounts Payable Invoice Processing \(sn\_ap\_apm\) application as an admin to include demo data and related ServiceNow® Store applications and plugins.
 
 ## Before you begin
 
@@ -34,7 +36,7 @@ The following items are installed with Accounts Payable Operations:
 -   Flows
 -   Tables
 
-For more information, see [Components installed with Accounts Payable Invoice Processing](../reference/installed-with-acc-pay-mgmt.md).
+For more information, see [Components installed with Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-acc-pay-mgmt.md).
 
 ## Procedure
 
@@ -59,17 +61,17 @@ For more information, see [Components installed with Accounts Payable Invoice Pr
 6.  Select **Install**.
 
 
--   **[Components installed with Accounts Payable Invoice Processing](../reference/installed-with-acc-pay-mgmt.md)**  
-Several types of components are installed with activation of the Accounts Payable Invoice Processing plugin, including user roles, flows, and tables.
+-   **[Components installed with Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-acc-pay-mgmt.md)**  
+Reference information for the roles, flows, scheduled jobs, and tables installed with the Accounts Payable Invoice Processing plugin during activation.
 
-**Parent Topic:**[Configure Accounts Payable Operations](../concept/config-acc-pay-mgmt.md)
+**Parent Topic:**[Configure Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Install Invoice Case Management](install-invoice-case-mgmt.md)
+[Install Invoice Case Management]()
 
-[Install Accounts Payable Operations integration with Document Intelligence](../concept/apm-integration-docintel.md)
+[Install Accounts Payable Operations integration with Document Intelligence]()
 
-[Domain separation and Accounts Payable Operations](../concept/apm-domain-separation.md)
+[Domain separation and Accounts Payable Operations]()
 

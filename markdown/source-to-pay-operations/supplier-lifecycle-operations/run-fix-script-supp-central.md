@@ -2,6 +2,7 @@
 title: Run the fix script to enable access to Supplier Collaboration Portal
 description: After you install the Supplier Collaboration Portal, you must run the fix script to enable access to the portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script-supp-central.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -41,13 +42,15 @@ After you download the script file, perform the following steps.
 
 6.  Select **Run Fix Script**.
 
-    You can now access the Supplier Collaboration Portal.
 
+## Result
 
-**Parent Topic:**[Enable access to Supplier Collaboration Portal](enable-access-supp-central.md)
+After the fix script run is successful, you can access the Supplier Collaboration Portal.
+
+**Parent Topic:**[Enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-access-supp-central.md)
 
 **Related topics**  
 
 
-[Enable access to Supplier Collaboration Portal](enable-access-supp-central.md)
+[Enable access to Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-access-supp-central.md)
 

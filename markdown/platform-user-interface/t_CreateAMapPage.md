@@ -2,6 +2,7 @@
 title: Create a map page
 description: Your ServiceNow instance provides several default map pages. You can also create custom map pages with the script examples described in this page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_CreateAMapPage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -131,26 +132,26 @@ Script
 
 </td><td>
 
-Create a script to define the type of data to display on this map. For more information, see [Scripting for map pages](../reference/scripting-for-map-pages.md).
+Create a script to define the type of data to display on this map. For more information, see [Scripting for map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/scripting-for-map-pages.md).
 
 </td></tr></tbody>
 </table>4.  Save the record.
 
 
-**Parent Topic:**[Map pages](../concept/c_MapPages.md)
+**Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_MapPages.md)
 
 **Related topics**  
 
 
-[Set up Google Maps API](set-up-google-maps-api.md)
+[Set up Google Maps API]()
 
-[Create a map page module](create-map-page-module.md)
+[Create a map page module]()
 
-[Create an advanced Map Page](create-advanced-map-page.md)
+[Create an advanced Map Page]()
 
-[Set map application scope](set-map-application-scope.md)
+[Set map application scope]()
 
-[Create a smartphone map page module](t_CreateASmartphoneMapPageModule.md)
+[Create a smartphone map page module]()
 
-[Scripting for map pages](../reference/scripting-for-map-pages.md)
+[Scripting for map pages]()
 

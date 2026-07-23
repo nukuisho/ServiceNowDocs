@@ -2,6 +2,7 @@
 title: Activate a playbook page or page variant
 description: Activate a playbook page or page variant and set the page order. The system uses the active page with the lowest order number to display records in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-process-based-page.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,7 +41,7 @@ Some playbook pages and page variants are not active by default. You need to act
 
 6.  In the **Order** field, set the order number for the page.
 
-    Each page has an order number. The page with the lowest order number is the default page. When the system displays a record in CSM Configurable Workspace, it uses this default page to display the record information. For more information, see [Set record page order](config-csm-ws-set-record-page-order.md).
+    Each page has an order number. The page with the lowest order number is the default page. When the system displays a record in CSM Configurable Workspace, it uses this default page to display the record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 7.  In the **Variant conditions** field, specify the table value.
 
@@ -52,11 +53,11 @@ Some playbook pages and page variants are not active by default. You need to act
 **Related topics**  
 
 
-[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md)
+[Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/reuse-page-definitions.md)
 
-[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-page.md)
+[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-page.md)
 
-[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
+[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-variant.md)
 
-[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-variant-settings.md)
+[Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/edit-variant-settings.md)
 

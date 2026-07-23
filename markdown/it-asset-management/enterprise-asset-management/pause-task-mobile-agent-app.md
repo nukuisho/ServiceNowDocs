@@ -2,13 +2,14 @@
 title: Pause a task using the Mobile Agent application
 description: Record a break from a work order task or asset task in the Mobile Agent application if you’re not continuing to work on it. Resume the task when you start working on it again. The system automatically tracks and calculates the actual time taken to complete the task even though the work was interrupted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/pause-task-mobile-agent-app.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Record time worked on a task using the Mobile Agent application, Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Record time worked on a task using the Mobile Agent application, Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Pause a task using the Mobile Agent application
@@ -36,11 +37,11 @@ Role required:
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon ![](../image/filter-mobile-task-eam.png) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon ![](../image/filter-mobile-task-eam.png), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text: and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:, tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the task record that you want to pause.
 
-6.  Tap the more actions icon ![](../../hardware-asset-management/image/more-actions-icon.png) at the top right corner of the screen and then tap **Pause work**.
+6.  Tap the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: at the top right corner of the screen and then tap **Pause work**.
 
     On the **Details** tab, the **Close complete** option changes to **Resume work**.
 
@@ -51,10 +52,10 @@ Role required:
 
 Each time you pause or resume work on the task, the actual time you worked on the task is automatically calculated. An entry for the time worked is created in the Time worked time card.
 
-**Parent Topic:**[Record time worked on a task using the Mobile Agent application](../concept/record-time-mobile-agent-app.md)
+**Parent Topic:**[Record time worked on a task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-time-mobile-agent-app.md)
 
 **Related topics**  
 
 
-[Record time worked for a task manually using the Mobile Agent application](record-time-worked-manually.md)
+[Record time worked for a task manually using the Mobile Agent application]()
 

@@ -1,7 +1,8 @@
 ---
-title: Add or remove a business capability from a value stream stage
+title: Add or remove business capabilities from a value stream stage
 description: You can add an existing business capability to a value stream stage to map your organizational capabilities to the stages of your value streams. You can also remove associated business capability if they’re no longer relevant for the value stream stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Manage value stream stages, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Add or remove a business capability from a value stream stage
+# Add or remove business capabilities from a value stream stage
 
 You can add an existing business capability to a value stream stage to map your organizational capabilities to the stages of your value streams. You can also remove associated business capability if they’re no longer relevant for the value stream stage.
 
@@ -21,9 +22,9 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon ![Portfolio icon](../../image/portfolio-icon.png).
+2.  Open the Portfolio List view by selecting the Portfolio icon \[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon.
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Business Architecture**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Business Architecture**.
 
 4.  Select **Value Stream Stages**.
 
@@ -50,16 +51,16 @@ Role required: sn\_apm.apm\_user
     -   You can select and remove multiple business capabilities simultaneously.
     -   This action just removes the association between the value stream stage and the business capability. The business capability record isn’t deleted from the system.
 
-**Parent Topic:**[Manage value stream stages](../../concept/eaw-concept/eaw-manage-value-stream-stages.md)
+**Parent Topic:**[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-value-stream-stages.md)
 
 **Related topics**  
 
 
-[Exploring value stream stages](../../concept/eaw-concept/eaw-value-stream-stage.md)
+[Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-value-stream-stage.md)
 
-[View value stream stage details](eaw-view-all-value-stream-stages.md)
+[View value stream stage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-value-stream-stages.md)
 
-[Add or edit a value stream stage](eaw-add-or-edit-a-value-stream-stage.md)
+[Add or edit a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-value-stream-stage.md)
 
-[Add or remove a business process from a value stream stage](eaw-assoc-bp-with-vs-stage.md)
+[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
 

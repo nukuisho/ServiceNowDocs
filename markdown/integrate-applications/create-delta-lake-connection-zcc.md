@@ -2,6 +2,7 @@
 title: Create a Delta Lake connection
 description: Establish a zero copy connection to Delta Lake in Zero Copy Connector Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-delta-lake-connection-zcc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,15 +48,15 @@ Work with your data source admin to create a connection to Delta Lake. For addit
 
 4.  Configure the metastore that you want to use with Delta Lake.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d651469e243">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d659545e243">
 
 Option
 
-</th><th align="left" id="d651469e246">
+</th><th align="left" id="d659545e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d651469e252">
+</th></tr></thead><tbody><tr><td id="d659545e252">
 
 **Hive Thrift**
 
@@ -71,7 +72,7 @@ Description
 3.  Enter the truststore password.
 
 
-</td></tr><tr><td id="d651469e287">
+</td></tr><tr><td id="d659545e287">
 
 **AWS Glue**
 
@@ -92,7 +93,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-zcc.md).
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

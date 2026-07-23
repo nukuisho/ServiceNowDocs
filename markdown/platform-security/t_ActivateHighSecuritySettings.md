@@ -2,6 +2,7 @@
 title: Activating High Security Settings
 description: The High Security Settings plugin is active by default on all new instances. If it is not active on your instance, you can request the plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_ActivateHighSecuritySettings.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,17 +18,17 @@ The High Security Settings plugin is active by default on all new instances. If 
 
 Role required: None
 
-Before [activating High Security Settings](t_ActivateHighSecuritySettings.md) on an existing instance:
+Before [activating High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateHighSecuritySettings.md) on an existing instance:
 
 1.  Review the following information to understand the new behavior:
-    -   [Access Control List Rules](../../contextual-security/concept/access-control-rules.md)
-    -   [High Security Settings](../concept/c_HighSecuritySettings.md)
-    -   [Default deny property](../concept/c_DefaultDenyProperty.md)
+    -   [Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md)
+    -   [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_HighSecuritySettings.md)
+    -   [Default deny property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/c_DefaultDenyProperty.md)
 2.  Enable the plugin on a non-production instance. A recent clone of production is preferable.
 3.  Test the revised functionality, especially the added ACLs and default-deny functionality. Continue testing until the system performs as expected. If users cannot access expected resources, ensure they have appropriate roles and ACL rules to grant them the access.
 4.  Create update sets of any needed changes so you can apply them to production.
 
-**Note:** To learn more about this plugin, see [Enable High Security Plugin](../../security-center/reference/sc-high-security-plugin.md) in Instance Security Hardening Settings.
+**Note:** To learn more about this plugin, see [Enable High Security Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md) in Instance Security Hardening Settings.
 
 Role required: admin
 
@@ -63,7 +64,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 

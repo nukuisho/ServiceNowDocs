@@ -2,6 +2,7 @@
 title: Install the invoice management apps for Business Portal
 description: You can install the invoice case management applications if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/install-invoice-self-service.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -47,4 +48,11 @@ Role required: admin
 
 5.  Select **Install**.
 
+
+**Related topics**  
+
+
+[View invoices on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-invoices-business-portal.md)
+
+[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-business-portal-reference.md)
 

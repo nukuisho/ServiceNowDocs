@@ -2,6 +2,7 @@
 title: Modify a request type for the Platform UI
 description: Review and modify the case interceptors that are available with Financial Services Operations applications as needed. These interceptors enable your agents to create cases for various request types from the Platform UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-interceptors-fso-apps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

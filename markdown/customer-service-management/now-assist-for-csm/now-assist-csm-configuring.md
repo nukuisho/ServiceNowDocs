@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Customer Service Management \(CSM\)
 description: If you have the admin role, you can configure the Now Assist for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -51,6 +52,9 @@ Case
 -   Trending topics dashboard
 -   Activity response generation
 -   Sentiment analysis dashboard
+-   Automated quality assurance
+-   Special handling notes summarization
+-   Customer summarization
 
 </td></tr><tr><td>
 
@@ -71,15 +75,14 @@ Call summarization
 </td></tr></tbody>
 </table>**Note:**
 
--   Now LLM Service is currently the only provider for this Now Assist application's skills.
-
+-   Learn how to select an LLM provider to configure all Now Assist skills at once. Your choice controls the intelligence layer for the entire capability. For more info, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md)and [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-model-providers.md).
 -   The minimum version of the workspace required to support Now Assist for CSM features:
-    -   CSM and FSM Configurable Workspace Foundation \(sn\_cwf\_wrkspc\): 24.2.1.
+    -   CSM Configurable Workspace Foundation \(sn\_cwf\_wrkspc\): 24.2.1.
 
     -   CSM Configurable Workspace \(sn\_csm\_wrkspc\): 24.2.0.
 
 
-For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) to upgrade it to a later version.
+For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager.md) to upgrade it to a later version.
 
 **Related topics**  
 
@@ -88,7 +91,7 @@ For earlier versions, go to [Application Manager](https://raw.githubusercontent.
 
 [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md)
 
-[Using agentic AI in Now Assist for Customer Service Management \(CSM\)](csm-ai-agents-use-cases.md)
+[Using agentic AI in Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 
-[Customer Service Management AI agent collection triage cases agentic workflow](case-resolving-use-case.md)
+[Customer Service Management AI agent collection triage cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/case-resolving-use-case.md)
 

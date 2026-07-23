@@ -2,6 +2,7 @@
 title: Now Assist in Virtual Agent
 description: Use generative AI skills in your conversational experiences. Now Assist in Virtual Agent uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -19,27 +20,27 @@ Use generative AI skills in your conversational experiences. Now Assist in Virtu
 
 For an introduction to building a Virtual Agent with Now Assist, watch this video.
 
-Building a Virtual Agent with Now Assist 
+\[Omitted video\] Description: Building a Virtual Agent with Now Assist
 
 <table id="table_lgc_mpv_jzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the generative AI skills available in Now Assist in Virtual Agent.](exploring-now-assist-va.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative AI skills available in Now Assist in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate Now Assist in Virtual Agent and configure generative AI skills.](../task/configure-now-assist-va.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate Now Assist in Virtual Agent and configure generative AI skills.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-person.svg)Learn about the requester conversational experience.](using-now-assist-in-va.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Learn about the requester conversational experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md)
 
 </td></tr><tr><td>
 
-Analyze![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg)Monitor the performance of Now Assist in Virtual Agent.
+Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Monitor the performance of Now Assist in Virtual Agent.
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about user input and bot responses supported by Now Assist in Virtual Agent.](../reference/now-assist-in-va-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about user input and bot responses supported by Now Assist in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-reference.md)
 
 </td><td>
 
@@ -48,9 +49,9 @@ Analyze![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg)Mo
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help

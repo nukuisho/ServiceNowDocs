@@ -2,11 +2,12 @@
 title: Open and log in to Desktop Assistant
 description: Open and log in to Desktop Assistant to get quick access to self-service tools, network tests, important notifications, and support resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/open-desktop-exp.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Desktop Assistant, Digital End-User Experience, IT Service Management]
 ---
@@ -17,7 +18,7 @@ Open and log in to Desktop Assistant to get quick access to self-service tools, 
 
 ## Before you begin
 
--   Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](install-app-device-health.md) and [Download and install Desktop Assistant](download-desktop-experience.md).
+-   Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 -   Confirm that the OAuth registry record for Desktop Assistant is active.
 
@@ -25,7 +26,7 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
 ## Procedure
 
-1.  From your system tray, select and hold or select and hold \(or right-click\) the Desktop Assistant icon ![](../image/icon-desktop-exp.png), and then select **Open**.
+1.  From your system tray, select and hold or select and hold \(or right-click\) the Desktop Assistant icon \[Omitted image "icon-desktop-exp.png"\] Alt text:, and then select **Open**.
 
 2.  Update the instance URL.
 
@@ -45,7 +46,7 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
         2.  If you can't remember your login details, select **Forgot password** to reset your password.
         3.  Select **Log in**.
         4.  Select **Allow** to grant Desktop Assistant permission to connect to your ServiceNow account.
-        **Note:** To enable SSO login, set up the SSO provider and configure SSO in the instance. For more information, see [Configure Open Authorization details](configure-oauth-details.md).
+        **Note:** To enable SSO login, set up the SSO provider and configure SSO in the instance. For more information, see [Configure Open Authorization details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configure-oauth-details.md).
 
     -   When SSO is enabled:
         1.  Select the **Login with SSO** link.
@@ -63,5 +64,5 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 **Related topics**  
 
 
-[Resolve Desktop Assistant screen loading issue](../reference/resolve-loading-da-screen.md)
+[Resolve Desktop Assistant screen loading issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/resolve-loading-da-screen.md)
 

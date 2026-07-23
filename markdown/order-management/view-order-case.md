@@ -2,6 +2,7 @@
 title: View order case details
 description: View the list of order cases and their state from the Business Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/view-order-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -63,3 +64,10 @@ The order case is being handled by the sales agent.
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md)
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+

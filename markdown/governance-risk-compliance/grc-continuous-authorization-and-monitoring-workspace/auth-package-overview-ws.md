@@ -2,13 +2,14 @@
 title: View package details in CAM Workspace
 description: Use the authorization package overview page to view documents and evidence that help you to assess your organization's security posture.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # View package details in CAM Workspace
@@ -34,13 +35,13 @@ Role required:
 
 1.  Navigate to **All** &gt; **CAM Workspace**.
 
-2.  To navigate to the Lists page, select the ![List icon](../image/ws-list-icon.png) icon.
+2.  To navigate to the Lists page, select \[Omitted image "ws-list-icon.png"\] Alt text: List icon from the sidebar.
 
 3.  From the Authorization packages in the RMF list, select an authorization package record.
 
     The stepper component displays the current state of the package, and the roadmap to reach the Monitor state.
 
-    ![A short GIF showing an Authorization package overview page widgets.](../image/auth-package-overview-page.gif)
+    \[Omitted image "auth-package-overview-page.gif"\] Alt text: A short GIF showing an Authorization package overview page widgets.
 
     -   **Compliance summary**
 
@@ -66,11 +67,11 @@ Role required:
         In the **Details** tab when the authorization package moves to the **Authorize** step you can view the following details:
 
         -   **Next Authorization Date**: This date is generated when the Authorization Package is moved to the Authorize step. The next authorization date will be set to three years from the date the package is moved to this step.
-        -   **Next Engagement Date**: The next engagement date is prepopulated based on the number of days defined on the **System Properties** page. For more information, see [Continuous Authorization and Monitoring system properties](../../grc-cam/reference/cam-components-installed.md#).
+        -   **Next Engagement Date**: The next engagement date is prepopulated based on the number of days defined on the **System Properties** page. For more information, see [Continuous Authorization and Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md).
 
             On this date, a new engagement is created with controls, test plans carried over from previous engagements, and newly associated control tests and assessment procedures.
 
-4.  Select the sidebar icon \(![Sidebar icon](../../grc-workspace-compliance/image/pc-ws-sidebar-icon.png)\).
+4.  Select the sidebar icon.
 
     The Highlighted details section displays:
 
@@ -82,19 +83,19 @@ Role required:
 
     **360° view** is added in the Overview pages of Authorization Boundary, Authorization Package, Control, Control objective, Control overlays, Control test, Test template, Test plan, Engagements, and in the Details pages of Indicator, Indicator Template, and POA&amp;Ms.
 
-    ![360° view of all the elements associated with the authorization package.](../image/apack-cam-ws-360-view.png)
+    \[Omitted image "apack-cam-ws-360-view.png"\] Alt text: 360° view of all the elements associated with the authorization package.
 
 6.  Select **Generate SSP** to generate a System Security Plan \(SSP\).
 
-    You can also generate ATO artifact reports such as Security Assessment Report \(SAR\) and Plan of Actions and Milestones \(POA&amp;Ms\) by selecting the more actions icon \(![More actions icon](../../grc-workspace-risk/image/icon-more-actions-risk.png)\).
+    You can also generate ATO artifact reports such as Security Assessment Report \(SAR\) and Plan of Actions and Milestones \(POA&amp;Ms\) by selecting the More actions menu.
 
-    For more information on CAM ATO artifacts, see [ATO artifacts for an authorization package](../concept/generate-ato-artifacts-cam-ws.md).
+    For more information on CAM ATO artifacts, see [ATO artifacts for an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-ato-artifacts-cam-ws.md).
 
-7.  To generate OSCAL SSP, select the **Export OSCAL SSP** option from the more actions icon \(![More actions icon](../../grc-workspace-risk/image/icon-more-actions-risk.png)\).
+7.  To generate OSCAL SSP, select the **Export OSCAL SSP** option from the More actions menu.
 
-    For more information, see [Export in OSCAL format](../concept/oscal-support-cam.md) and [Export OSCAL SSP](generate-oscal-models.md).
+    For more information, see [Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md) and [Export OSCAL SSP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/generate-oscal-models.md).
 
-8.  To move to the previous step of the authorization package and to update any details, select the **Back to previous step** option from the more actions icon \(![More actions icon](../../../common/image/icon-ellipses.png)\).
+8.  To move to the previous step of the authorization package and to update any details, select the **Back to previous step** option from the More actions menu.
 
     All actions that are done when you moved to the current state are reversed if you opt the **Back to previous step** action. For example, if the package is in Implement state, then when it moves back to Select state all the existing controls that are generated are retired. In the Select state, you can revisit the baseline controls and take necessary actions if required. However, this operation can only be done by a Continuous Authorization and Monitoring administrator \(sn\_irm\_cont\_auth.admin\).
 
@@ -104,7 +105,7 @@ Role required:
 
         In the Continuous Authorization and Monitoring application, you can view the control's allocation category in the header of the control's Overview page. **Control allocation** is either System specific or Hybrid.
 
-    2.  Select the sidebar icon \(![Sidebar icon](../../grc-workspace-compliance/image/pc-ws-sidebar-icon.png)\) to view the NIST reference details.
+    2.  Select the sidebar icon to view the NIST reference details.
 
     3.  Select the **Details** related list.
 
@@ -114,7 +115,7 @@ Role required:
 
 10. Select **Add**, select the controls you want to add, and then select **Add** to add the selected control objectives to the baseline controls.
 
-    **Note:** When adding control objectives, you cannot select multiple control objectives with the same reference ID to add to the baseline controls. You cannot add a control objective if its reference ID already exists in the baseline controls list.![Selecting multiple control objectives.](../image/add-baseline-controls-auth-pack.png)
+    **Note:** When adding control objectives, you cannot select multiple control objectives with the same reference ID to add to the baseline controls. You cannot add a control objective if its reference ID already exists in the baseline controls list.
 
 11. To inherit the requirements for a baseline control, select only one control objective in the **Baseline Controls** tab.
 
@@ -126,7 +127,7 @@ Role required:
 
         The Create Hybrid Control pop-up lists the packages in groups.
 
-        ![Create hybrid control popup.](../image/cam-ws-create-control-hybrid.png)
+        \[Omitted image "cam-ws-create-control-hybrid.png"\] Alt text: Create hybrid control popup.
 
     2.  Enter a package in the **Authorization Package \(Optional\)** field.
 
@@ -142,7 +143,7 @@ Role required:
 
     The Reference for the control objective, sourced by NIST, is captured as **Source ID** in the header of the control objective.
 
-    The controls are grouped as a **Family**, and abbreviated with an ID that is defined as **Family ID**. These fields are editable and help you to identify the group to which the control belongs and are used in the Control allocation section for reporting purpose. The content for Family and Family ID is updated based on NIST 800-53. For more information, see [Control Requirement Details View](../../grc-cam/reference/cam-cr-control-form.md).
+    The controls are grouped as a **Family**, and abbreviated with an ID that is defined as **Family ID**. These fields are editable and help you to identify the group to which the control belongs and are used in the Control allocation section for reporting purpose. The content for Family and Family ID is updated based on NIST 800-53. For more information, see [Control Requirement Details View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-cr-control-form.md).
 
     1.  Select the Related control objectives related list.
 
@@ -157,8 +158,8 @@ Role required:
         The list shows those control objectives that aren’t already added to the related control objectives list of the package.
 
 
--   **[Apply overlays to the baseline controls](apply-overlay-to-baseline.md)**  
+-   **[Apply overlays to the baseline controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/apply-overlay-to-baseline.md)**  
 You can include overlays to the baseline control objectives in the Authorization Package using either addition, subtraction, or a custom action.
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](../concept/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

@@ -2,6 +2,7 @@
 title: Azure virtual machine pattern-based discovery
 description: Discovery and Service Mapping Patterns finds Azure virtual machines \(VMs\) on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/azure-vm-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -20,11 +21,15 @@ Discovery and Service Mapping Patterns finds Azure virtual machines \(VMs\) on y
 
 -   **Verify the Microsoft Azure discovery prerequisites**
 
-    For more information, see the prerequisites section in [Microsoft Azure Cloud discovery using patterns](azure-cloud-discovery-patterns.md).
+    For more information, see the prerequisites section in [Microsoft Azure Cloud discovery using patterns]().
 
 -   **\(Optional\) Exclude temporary Azure Databricks VMs**
 
-    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can reduce short-lived configuration item \(CI\) records by excluding temporary Azure Databricks VMs. For more information, see [Exclude temporary Azure Databricks virtual machines](../task/exclude-temp-azure-databricks-vms.md).
+    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can reduce short-lived configuration item \(CI\) records by excluding temporary Azure Databricks VMs. For more information, see [Exclude temporary Azure Databricks virtual machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/exclude-temp-azure-databricks-vms.md).
+
+-   **Create Server CIs during cloud discovery without running IP-based discovery**
+
+    Starting with Discovery and Service Mapping Patterns version 1.31.0, you can create Server CIs during cloud discovery without running IP-based discovery. For more information, see [Server CI population during cloud discovery]().
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -184,7 +189,7 @@ Provider \[provider\]
 Cloud provider. The value is set to **AZURE**. This field is only populated in the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table.
 
 </td></tr></tbody>
-</table>**Note:** When using the Image \[cmdb\_ci\_os\_template\] table to store Cloud OS images, you may notice an unusually large number of records. To avoid this issue, you can store the discovered OS images in the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. For more information, see [Enable Cloud OS Image discovery](../../discovery/task/enable-cloud-os-image-discovery-pattern.md).
+</table>**Note:** When using the Image \[cmdb\_ci\_os\_template\] table to store Cloud OS images, you may notice an unusually large number of records. To avoid this issue, you can store the discovered OS images in the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. For more information, see [Enable Cloud OS Image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-cloud-os-image-discovery-pattern.md).
 
 <table id="table_hardware_type"><thead><tr><th>
 
@@ -211,7 +216,7 @@ Provider \[provider\]
 Cloud provider. The value is set to **AZURE**. This field is only populated in the Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table.
 
 </td></tr></tbody>
-</table>**Note:** When using the Hardware Type \[cmdb\_ci\_compute\_template\] table to store the hardware types, you may notice an unusually large number of records. To avoid this issue, you can store the discovered hardware types in the Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table. For more information, see [Enable the Cloud Hardware Type class extension](../../discovery/task/enable-hardware-type-class-extension.md).
+</table>**Note:** When using the Hardware Type \[cmdb\_ci\_compute\_template\] table to store the hardware types, you may notice an unusually large number of records. To avoid this issue, you can store the discovered hardware types in the Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table. For more information, see [Enable the Cloud Hardware Type class extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-hardware-type-class-extension.md).
 
 ## CI relationships
 
@@ -294,8 +299,8 @@ Configuration item \[configuration\_item\]
 References the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table.
 
 </td></tr></tbody>
-</table>-   **[Exclude temporary Azure Databricks virtual machines](../task/exclude-temp-azure-databricks-vms.md)**  
+</table>-   **[Exclude temporary Azure Databricks virtual machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/exclude-temp-azure-databricks-vms.md)**  
 Reduce short-lived configuration item \(CI\) records by excluding temporary Azure Databricks virtual machines \(VMs\).
 
-**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](azure-cloud-discovery-patterns.md)
+**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

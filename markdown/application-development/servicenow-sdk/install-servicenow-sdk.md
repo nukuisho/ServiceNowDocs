@@ -2,6 +2,7 @@
 title: Install the ServiceNow SDK in an application
 description: Install the ServiceNow software development kit \(SDK\) in a local application using Node Package Manager \(npm\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/install-servicenow-sdk.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -54,15 +55,15 @@ In the following procedure, you install the ServiceNow SDK within a new applicat
 
 5.  Create an application with the ServiceNow SDK.
 
-<table id="choicetable_bpj_k5p_s2c"><thead><tr><th align="left" id="d238989e200">
+<table id="choicetable_bpj_k5p_s2c"><thead><tr><th align="left" id="d235772e200">
 
 State
 
-</th><th align="left" id="d238989e203">
+</th><th align="left" id="d235772e203">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d238989e209">
+</th></tr></thead><tbody><tr><td id="d235772e209">
 
 **Authentication hasn't been configured**
 
@@ -74,9 +75,9 @@ If you haven't added authentication credentials and an alias on your system yet,
 npx @servicenow/sdk auth --add <instance>
 ```
 
- For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](../concept/authenticate-instance-now-sdk.md).
+ For more information, see [Authenticating to a ServiceNow instance with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/authenticate-instance-now-sdk.md).
 
-</td></tr><tr><td id="d238989e248">
+</td></tr><tr><td id="d235772e248">
 
 **Authentication has been configured**
 
@@ -88,20 +89,20 @@ If you have added authentication credentials, install the ServiceNow SDK in new 
 npx @servicenow/sdk init
 ```
 
- For more information, see [Create an application with the ServiceNow SDK](create-application-now-sdk.md) or [Convert an application with the ServiceNow SDK](convert-application-now-sdk.md).
+ For more information, see [Create an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/create-application-now-sdk.md) or [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/convert-application-now-sdk.md).
 
 </td></tr></tbody>
 </table>
 ## What to do next
 
-Install the ServiceNow Fluent Language server to get language processing and validation for ServiceNow Fluent in Visual Studio Code. For more information, see [Install the ServiceNow Fluent Language server in Visual Studio Code](install-fluent-language-extension-vs-code.md).
+Install the ServiceNow Fluent Language server to get language processing and validation for ServiceNow Fluent in Visual Studio Code. For more information, see [Install the ServiceNow Fluent Language server in Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/install-fluent-language-extension-vs-code.md).
 
-**Parent Topic:**[Configuring the ServiceNow SDK](../concept/configuring-servicenow-sdk.md)
+**Parent Topic:**[Configuring the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/configuring-servicenow-sdk.md)
 
 **Related topics**  
 
 
-[Upgrade the ServiceNow SDK](upgrade-servicenow-sdk.md)
+[Upgrade the ServiceNow SDK]()
 
-[Install the ServiceNow Fluent Language server in Visual Studio Code](install-fluent-language-extension-vs-code.md)
+[Install the ServiceNow Fluent Language server in Visual Studio Code]()
 

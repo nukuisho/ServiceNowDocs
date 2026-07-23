@@ -2,6 +2,7 @@
 title: Create a consumer staff relationship
 description: Create a relationship between a staff member at a business location and a consumer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-staff-consumer-relationship.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

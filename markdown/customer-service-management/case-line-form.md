@@ -2,6 +2,7 @@
 title: Case line item form
 description: The case line item form displays details about a case line item on a case record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-line-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

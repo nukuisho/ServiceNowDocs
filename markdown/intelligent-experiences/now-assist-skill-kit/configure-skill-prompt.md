@@ -2,11 +2,12 @@
 title: Configure a skill prompt
 description: Configure your skill prompt to set the model that is used and the randomness and creativity of the response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/configure-skill-prompt.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configuring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---
@@ -97,16 +98,16 @@ Returns prompt responses in a consistent JSON format. **Note:** Only Google Gemi
 
 ## What to do next
 
-After you configure your prompt settings, you can test your skill. To learn more about testing skills, see [Test a prompt](test-prompt-template.md).
+After you configure your prompt settings, you can test your skill. To learn more about testing skills, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
 
 To learn more about configuring models and tokens, see [Now Assist Skill Kit FAQs on the ServiceNow Community.](https://www.servicenow.com/community/now-assist-articles/now-assist-skill-kit-nask-faq/ta-p/3007953)
 
-**Parent Topic:**[Configuring Now Assist Skill Kit](../concept/configuring-now-assist-skill-kit.md)
+**Parent Topic:**[Configuring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 **Related topics**  
 
 
-[Configure skill deployment settings](configure-skill-settings.md)
+[Configure skill deployment settings]()
 
-[Configure security controls for a skill](nask-access-control.md)
+[Configure security controls for a skill]()
 

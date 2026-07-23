@@ -49,7 +49,7 @@ Trigger type
 Type of trigger to start your flow. Under **Record**, select any of the following:-   **Created**: Starts the flow when a record is created in the specified table.
 -   **Updated**: Starts the flow when a record is updated.
 -   **Created or updated**: Starts the flow on either event.
-For more information about trigger types, see [Workflow Studio flow trigger types](../reference/flow-triggers.md).
+For more information about trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Advanced options
 
 </td><td>
 
-Additional options to choose where and when to run the flow.For more information about the advanced options, see [Workflow Studio flow trigger types](../reference/flow-triggers.md).
+Additional options to choose where and when to run the flow.For more information about the advanced options, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
 You can select if you want users to view and modify these options when they use the trigger in a flow.
 
@@ -125,16 +125,16 @@ If a user modifies the advanced options, any future modifications that you make 
 
 ## Result
 
-The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](use-saved-trigger.md).
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/use-saved-trigger.md).
 
-**Parent Topic:**[Building triggers](../concept/building-triggers.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
 
 **Related topics**  
 
 
-[Saved flow triggers](../concept/saved-flow-triggers.md)
+[Saved flow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/saved-flow-triggers.md)
 
-[Create a saved scheduled trigger](create-scheduled-trigger.md)
+[Create a saved scheduled trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-scheduled-trigger.md)
 
-[Create a saved external trigger](create-saved-external-trigger.md)
+[Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-saved-external-trigger.md)
 

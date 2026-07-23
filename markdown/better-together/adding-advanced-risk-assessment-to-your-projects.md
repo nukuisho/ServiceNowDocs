@@ -2,6 +2,7 @@
 title: Improve visibility into organizational risk exposure with advanced project risk assessment
 description: With advanced risk assessment for your projects, you can easily identify if any projects pose potential organizational risks and quickly decide on mitigating actions. Combine project risk management with enterprise risk management and get better visibility into your organization's overall risk exposure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/better-together/adding-advanced-risk-assessment-to-your-projects.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,12 +18,12 @@ With advanced risk assessment for your projects, you can easily identify if any 
 
 |Feature|Project Portfolio Management|Advanced Risk|Both applications together|
 |-------|----------------------------|-------------|--------------------------|
-|Project risk assessment|![Yes](../../reuse/images/icon-check-mark-green.png)|![No](../../reuse/images/icon-error-red-x.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
-|Elevating to enterprise risk|![No](../../reuse/images/icon-error-red-x.png)|![No](../../reuse/images/icon-error-red-x.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
-|Assessing inherent and residual risks|![Yes](../../reuse/images/icon-check-mark-green.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
-|Integrated project and enterprise risk registers|![No](../../reuse/images/icon-error-red-x.png)|![No](../../reuse/images/icon-error-red-x.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
-|Risk heatmaps|![No](../../reuse/images/icon-error-red-x.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
-|Enterprise project risk overview dashboard|![No](../../reuse/images/icon-error-red-x.png)|![No](../../reuse/images/icon-error-red-x.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
+|Project risk assessment|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Elevating to enterprise risk|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Assessing inherent and residual risks|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Integrated project and enterprise risk registers|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Risk heatmaps|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Enterprise project risk overview dashboard|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 
 ## Workflow of advanced project risk assessment
 
@@ -33,7 +34,7 @@ Use Project Portfolio Management \(PPM\) and Advanced Risk Assessment \(ARA\) to
 
 The following figure shows an example workflow of how a project manager, risk specialist, and enterprise risk manager use the applications together to assess and mitigate risks both at the project and enterprise level.
 
-![Advanced Risk Assessment with Project Portfolio Management Workflow](../image/ara-ppm-workflow-bottom_v2_asset0012692.png "The Project Portfolio Management and Advanced Risk workflow")
+\[Omitted image "ara-ppm-workflow-bottom\_v2\_asset0012692.png"\] Alt text: Advanced Risk Assessment with Project Portfolio Management Workflow
 
 In this workflow:
 
@@ -53,26 +54,26 @@ In this workflow:
 
 To get started with assessing your project risks, follow these steps:
 
-1.  Setup and configure the risk assessment methodology. See [Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/specify-approvers-for-proj-risks.md).
+1.  Setup and configure the risk assessment methodology. See [Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/specify-approvers-for-proj-risks.md).
 
     Role: sn\_risk.admin.
 
-2.  Define scope and initiate risk assessment. See [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-risks-for-project.md).
+2.  Define scope and initiate risk assessment. See [Add risks for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/add-risks-for-project.md).
 
     Role: it\_project\_manager.
 
-3.  Perform risk assessment. See [Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/assessing-proj-risk-by-projmanager.md).
+3.  Perform risk assessment. See [Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/assessing-proj-risk-by-projmanager.md).
 
     Role: sn\_grc.business\_user.
 
-4.  Assess and elevate to project risk. See [Elevate a project risk to enterprise risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/Elevating-a-risk.md).
+4.  Assess and elevate to project risk. See [Elevate a project risk to enterprise risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/Elevating-a-risk.md).
 
     Role: it\_project\_manager.
 
-5.  Convert risk to issue and monitor security posture. See [Monitor risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/project-risk-dashboard.md).
+5.  Convert risk to issue and monitor security posture. See [Monitor risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/project-risk-dashboard.md).
 
     Role: sn\_risk.admin, it\_project\_manager.
 
 
-**Parent Topic:**[Solutions](../reference/solutions-gallery.md)
+**Parent Topic:**[Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/better-together/solutions-gallery.md)
 

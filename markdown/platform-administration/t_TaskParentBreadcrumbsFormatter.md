@@ -2,6 +2,7 @@
 title: Parent breadcrumbs formatter
 description: The parent breadcrumbs formatter on the Task table provides breadcrumbs that show the parent or parents of the current task. This formatter can be used also on any table that extends Task.You can customize the parent breadcrumbs formatter to control what breadcrumbs appear.The parent breadcrumbs formatter can be used on non-Task tables as long as the table has a reference to itself through a field called parent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_TaskParentBreadcrumbsFormatter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,9 +24,9 @@ To add the parent breadcrumbs formatter to a form, configure the form and add **
 
 The **Parent** reference field also has to contain a value for the breadcrumbs to appear. You may need to configure the form to contain the **Parent** field as well.
 
-![Problem Task showing breadcrumbs and the Parent reference field](../image/ParentBreadcrumbReferenceField.png "Breadcrumbs")
+\[Omitted image "ParentBreadcrumbReferenceField.png"\] Alt text: Problem Task showing breadcrumbs and the Parent reference field
 
-**Parent Topic:**[Using formatters](../concept/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
 
 ## Customize the parent breadcrumbs formatter
 
@@ -69,7 +70,7 @@ Role required: ui\_macro\_admin
     var crumbs = pc.getCrumbs();
     ```
 
-    ![Customized parent breadcrumb](../image/ParentBreadcrumbsCustomized.png)
+    \[Omitted image "ParentBreadcrumbsCustomized.png"\] Alt text: Customized parent breadcrumb
 
 
 ## Use the parent breadcrumbs formatter on non-Task tables

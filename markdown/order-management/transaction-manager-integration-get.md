@@ -1,56 +1,57 @@
 ---
-title: Transaction Manager: Integration - GET
+title: ServiceNow Quote Experience Integration - GET
 description: Learn how to access data from a third-party application such as Salesforce by using the GET integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-manager-integration-get.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Transaction Manager, CPQ, Configure, price, quote, Explore, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 
-# Transaction Manager: Integration - GET
+# ServiceNow Quote Experience Integration - GET
 
 Learn how to access data from a third-party application such as Salesforce by using the GET integration.
 
-This article describes how to retrieve the Salesforce opportunity ID, together with transaction details including the account name, opportunity name, shipping address, and billing address, and write them into CPQ transaction fields. This pattern is relevant to any integration that requires CPQ to request data from a third party.
+This article describes how to retrieve the Salesforce opportunity ID, together with transaction details including the account name, opportunity name, shipping address, and billing address, and write them into ServiceNow CPQ transaction fields. This pattern is relevant to any integration that requires ServiceNow CPQ to request data from a third party.
 
 ## Goal: End-user \(buyside\) flow
 
-We begin by opening a Transaction Manager transaction in Salesforce. Then, by clicking **Get SF Data** in the buyside UI, we trigger the Get SF Data event. This event initiates several integrations that connect to Salesforce, extracting the relevant transaction data \(opportunity ID, opportunity name, shipping address, billing address, account ID, and account name\) and populating the corresponding fields in the buyside UI.
+We begin by opening a ServiceNow Quote Experience transaction in Salesforce. Then, by clicking **Get SF Data** in the buyside UI, we trigger the Get SF Data event. This event initiates several integrations that connect to Salesforce, extracting the relevant transaction data \(opportunity ID, opportunity name, shipping address, billing address, account ID, and account name\) and populating the corresponding fields in the buyside UI.
 
 In the buyside transaction UI, click **Get SF Data**.
 
-![Get SF Data](../images/cpq-txn-mgr-integration-get-1.png)
+\[Omitted image "cpq-txn-mgr-integration-get-1.png"\] Alt text: Get SF Data
 
 Notice that the details are all populated.
 
-![Transaction stages](../images/cpq-txn-mgr-integration-get-2.png)
+\[Omitted image "cpq-txn-mgr-integration-get-2.png"\] Alt text: Transaction stages
 
-![Get SF Data](../images/cpq-txn-mgr-integration-get-3.png)
+\[Omitted image "cpq-txn-mgr-integration-get-3.png"\] Alt text: Get SF Data
 
-The rest of this article lists the steps in CPQ to create the integrations that get the data from Salesforce.
+The rest of this article lists the steps in ServiceNow CPQ to create the integrations that get the data from Salesforce.
 
 ## Administration setup: Prerequisites
 
-This guide assumes a CPQ environment with Transaction Manager features enabled, as well as installation of the Logik Transaction Manager Integration Extension on a corresponding Salesforce environment. To view the installation instructions, see [Installing the Salesforce Transaction Manager Integration Package extension](installing-the-salesforce-transaction-manager-integration-package-extension.md).
+This guide assumes a ServiceNow CPQ environment with ServiceNow Quote Experience features enabled, as well as installation of the CPQ ServiceNow Quote Experience Integration Extension on a corresponding Salesforce environment. To view the installation instructions, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md).
 
-## CPQ: Add a connection
+## ServiceNow CPQ: Add a connection
 
-A connection record contains the data required to initiate a Transaction Manager Integration. This includes authentication details, host URL, path, and headers. To view a connection record, in CPQ Admin, go to **Utilities**, and then click **Connections**.
+A connection record contains the data required to initiate a ServiceNow Quote Experience Integration. This includes authentication details, host URL, path, and headers. To view a connection record, in ServiceNow CPQ Admin, go to **Utilities**, and then click **Connections**.
 
-![Add a Connection](../images/cpq-txn-mgr-integration-get-add-connection.png)
+\[Omitted image "cpq-txn-mgr-integration-get-add-connection.png"\] Alt text: Add a Connection
 
-For information about adding a connection, see the "Creating a Connection" section in [Transaction Manager: Integrations](transaction-manager-integrations.md). For the purposes of this article, we use a connection to a Salesforce environment.
+For information about adding a connection, see the "Creating a Connection" section in [ServiceNow Quote Experience Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integrations.md). For the purposes of this article, we use a connection to a Salesforce environment.
 
-## CPQ: Add the integration
+## ServiceNow CPQ: Add the integration
 
-1.  Open CPQ Admin and go to the Integrations section.
+1.  Open ServiceNow CPQ Admin and go to the Integrations section.
 2.  Click **Add Integration**. Create a new integration using any suitable name. In this example, we use the name "Get Oppty Id".
 
-    ![Add Integration](../images/cpq-txn-mgr-integration-get-add-opp-1.png)
+    \[Omitted image "cpq-txn-mgr-integration-get-add-opp-1.png"\] Alt text: Add Integration
 
-    ![Add Integration](../images/cpq-txn-mgr-integration-get-add-opp-2.png)
+    \[Omitted image "cpq-txn-mgr-integration-get-add-opp-2.png"\] Alt text: Add Integration
 
     The integration details page shown above includes the following sections:
 
@@ -72,14 +73,14 @@ For information about adding a connection, see the "Creating a Connection" secti
 
     -   Line Item Details to Include: Selected Lines
     -   Timeout: 2000 ms
-    ![Add Integration](../images/cpq-txn-mgr-integration-get-add-opp-3.png)
+    \[Omitted image "cpq-txn-mgr-integration-get-add-opp-3.png"\] Alt text: Add Integration
 
     Click **Next**.
 
 -   Request Transformation: Not required when we are building a GET Integration.
 -   Connection to Endpoint: For this example, we are querying **Salesforce**. If you are setting up an integration with another system, select the appropriate connection.
 
-    ![Add Integration](../images/cpq-txn-mgr-integration-get-retrieve-opp-4.png)
+    \[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-4.png"\] Alt text: Add Integration
 
     Click **Next**.
 
@@ -101,13 +102,13 @@ For information about adding a connection, see the "Creating a Connection" secti
     ```
 
 
-## New integration: Retrieve opportunity details
+## Integration: Retrieve opportunity details
 
 Create another integration to get additional details through **txn.opportunity.id**.
 
 Now that we have the opportunity ID, the next step in the integration involves using it as a reference to retrieve additional details from the opportunity and to populate the relevant LGK transaction fields.
 
-![Admin transaction](../images/cpq-txn-mgr-integration-get-retrieve-opp-1.png)
+\[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-1.png"\] Alt text: Admin transaction
 
 -   Integration settings:
 
@@ -118,12 +119,12 @@ Now that we have the opportunity ID, the next step in the integration involves u
 
         To get the field details from Salesforce, click **Setup** &gt; **Object Manager** &gt; **Opportunity** &gt; **Fields &amp; Relationships**.
 
-        ![Add Integration](../images/cpq-txn-mgr-integration-get-retrieve-opp-2.png)
+        \[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-2.png"\] Alt text: Add Integration
 
     -   Line Item Details to Include: Selected Lines
     -   Timeout: 2000 ms
 
-        ![Add Integration](../images/cpq-txn-mgr-integration-get-retrieve-opp-3.png)
+        \[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-3.png"\] Alt text: Add Integration
 
     Click **Next**.
 
@@ -132,7 +133,7 @@ Now that we have the opportunity ID, the next step in the integration involves u
 
     Select **Connection to Endpoint**. For this example, we are querying Salesforce. If you are setting up an integration with another system, select the appropriate connection.
 
-    ![Add Integration](../images/cpq-txn-mgr-integration-get-retrieve-opp-4.png)
+    \[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-4.png"\] Alt text: Add Integration
 
     Click **Next**.
 
@@ -174,33 +175,33 @@ Now that we have the opportunity ID, the next step in the integration involves u
 
 Trigger the integration when the end user clicks a button. You can now click **Events** to create a new event or to select an existing one. In this case, we use the Get SF Data event \(a button in the UI\) to connect to the integrations we previously created.
 
-![Admin transaction](../images/cpq-txn-mgr-integration-get-retrieve-opp-5.png)
+\[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-5.png"\] Alt text: Admin transaction
 
 Click **Add New Action**.
 
-![Add Integration](../images/cpq-txn-mgr-integration-get-retrieve-opp-6.png)
+\[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-6.png"\] Alt text: Add Integration
 
 Click **Integrations**.
 
-![Add Integration](../images/cpq-txn-mgr-integration-get-retrieve-opp-7.png)
+\[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-7.png"\] Alt text: Add Integration
 
 Search for and add the "Get Oppty Id" integration.
 
-![Add Integration](../images/cpq-txn-mgr-integration-get-retrieve-opp-8.png)
+\[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-8.png"\] Alt text: Add Integration
 
 Click **Save**. Then, click **Add New Action** and add "retrieveSFOptyData".
 
-![Add Integration](../images/cpq-txn-mgr-integration-get-retrieve-opp-9.png)
+\[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-9.png"\] Alt text: Add Integration
 
 Click the up and down arrows next to the action items to arrange them in the desired order. \(Here, we are selecting "Get Oppty Id", followed by "Retrieve SF Opty Data", to fetch the opportunity ID and retrieve relevant data.\)
 
-![Add Integration](../images/cpq-txn-mgr-integration-get-retrieve-opp-10.png)
+\[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-10.png"\] Alt text: Add Integration
 
 Click **Save**, and deploy the changes.
 
 We have discussed how integrations can be added with events. Integrations can also be configured at the stage level. To do so, navigate to **Stages** &gt; **Edit Settings** &gt; **Add New Action** &gt; **Integration**.
 
-![Add Integration](../images/cpq-txn-mgr-integration-get-retrieve-opp-11.png)
+\[Omitted image "cpq-txn-mgr-integration-get-retrieve-opp-11.png"\] Alt text: Add Integration
 
 ## Troubleshooting
 
@@ -216,5 +217,5 @@ By following this order, you can maintain the integrity of the integration and e
 **Related topics**  
 
 
-[Transaction Manager: Integration - POST](transaction-manager-integration-post.md)
+[ServiceNow Quote Experience Integration - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/transaction-manager-integration-post.md)
 

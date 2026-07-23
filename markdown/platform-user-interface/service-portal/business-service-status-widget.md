@@ -2,6 +2,7 @@
 title: Business Service Status widget
 description: View how services are running on your system. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/business-service-status-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -17,11 +18,11 @@ View how services are running on your system. You can use this base system widge
 
 The Business Service Status widget pulls information from the cmdb\_ci\_service table. You can change where the data comes from in a cloned version of the widget by adjusting the settings in the widget server script.
 
-![Business Service Status widget](../image/WidgetBusinessServiceStatus.png "Business Service Status widget")
+\[Omitted image "WidgetBusinessServiceStatus.png"\] Alt text: Business Service Status widget
 
 ## Instance options
 
-![Instance options for the Business Service Status widget, which include the option to limit the number of services shown](../image/IOBusinessServiceStatus.png "Business Service Status widget instance options")
+\[Omitted image "IOBusinessServiceStatus.png"\] Alt text: Instance options for the Business Service Status widget, which include the option to limit the number of services shown
 
 |Field|Description|
 |-----|-----------|
@@ -29,14 +30,14 @@ The Business Service Status widget pulls information from the cmdb\_ci\_service 
 |Glyph|Icon for the widget. This is not user-facing.|
 |Number of Services|The number of services displayed in the widget. The default number is 250.|
 
-**Parent Topic:**[Service Portal service status widgets](service-status-widgets.md)
+**Parent Topic:**[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-status-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

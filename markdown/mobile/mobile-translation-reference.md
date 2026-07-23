@@ -2,6 +2,7 @@
 title: Translation values for mobile element
 description: Use this reference to find which values to use to translate your mobile elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-translation-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -28,7 +29,7 @@ Use this reference to find which values to use to translate your mobile elements
 |UI parameter name|sys\_sg\_ui\_parameter|name|
 |UI parameter placeholder text|sys\_sg\_ui\_parameter|placeholder|
 
-This example shows a translation record for an applet called **My Tasks** translated into Spanish.![Translation record example.](../image/mobile-translate-example.png)
+This example shows a translation record for an applet called **My Tasks** translated into Spanish.\[Omitted image "mobile-translate-example.png"\] Alt text: Translation record example.
 
-**Parent Topic:**[Server-side localization](../concept/localization-server-side.md)
+**Parent Topic:**[Server-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/localization-server-side.md)
 

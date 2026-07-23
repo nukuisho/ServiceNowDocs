@@ -2,6 +2,7 @@
 title: Configure action functions in a record section
 description: Add action functions, like buttons to the footer area of record sections to enable users to trigger functions within a record section and quickly perform repetitive processes. This capability can be added to launcher screens and section screens within a record section.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-ui-section-config-item-function.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Add action functions, like buttons to the footer area of record sections to enab
 
 ## Before you begin
 
-To configure record section functions within a sections screen, at least one pre-configured record section must be created. For more information, see [Configure a record UI section](sg-ui-section-config-item.md).
+To configure record section functions within a sections screen, at least one pre-configured record section must be created. For more information, see [Configure a record UI section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-ui-section-config-item.md).
 
 Role required: admin
 
@@ -29,11 +30,11 @@ Vertical button within a section screen view of a record section
 
 </th></tr></thead><tbody><tr><td>
 
-![Record section with two buttons.](../image/record-section-two-buttons.png)
+\[Omitted image "record-section-two-buttons.png"\] Alt text: Record section with two buttons.
 
 </td><td>
 
-![Record section with one button.](../image/record-section-one-button.png)
+\[Omitted image "record-section-one-button.png"\] Alt text: Record section with one button.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -115,11 +116,11 @@ Function not displayed when 'Hide if empty' field is checked
 
 </th></tr></thead><tbody><tr><td>
 
-![Hide if empty field is unchecked so action function displays.](../image/record-section-unhide.png)
+\[Omitted image "record-section-unhide.png"\] Alt text: Hide if empty field is unchecked so action function displays.
 
 </td><td>
 
-![Hide if empty field is checked so action function does not display.](../image/record-section-hide.png)
+\[Omitted image "record-section-hide.png"\] Alt text: Hide if empty field is checked so action function does not display.
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.

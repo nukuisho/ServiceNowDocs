@@ -2,6 +2,7 @@
 title: Revert to the legacy global search UI
 description: Disable the dynamic global search UI to preserve customizations you made to the legacy global search UI.The global text search results page allows users to set several user preferences for global text search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/revert-to-legacy-global-search.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -48,12 +49,12 @@ Role required: admin
 
 The system displays the global search UI and uses the legacy display logic.
 
-**Parent Topic:**[Set global text search properties](set-global-text-search-properties.md)
+**Parent Topic:**[Set global text search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/set-global-text-search-properties.md)
 
 **Related topics**  
 
 
-[Configure parallel processing of search groups](t_ConfigureParallelProcessing.md)
+[Configure parallel processing of search groups]()
 
 ## Legacy global search user preferences
 
@@ -61,7 +62,7 @@ The global text search results page allows users to set several user preferences
 
 The following search preferences are available from the **Search tips and preferences** link.
 
-![Search preferences.](../image/SearchPreferences.png "Search preferences")
+\[Omitted image "SearchPreferences.png"\] Alt text: Search preferences.
 
 <table id="table_bsp_2xx_pp"><thead><tr><th>
 
@@ -148,11 +149,11 @@ Shows or hides the full search results page if the search term matches a task re
 
 **Note:** The system filters exact search results to display only knowledge records that are in the same language as the preferred language setting.
 
- ![Sample search query for the knowledge article KB0000023.](../image/exact-search-filters.png "Sample exact match search query")
+ \[Omitted image "exact-search-filters.png"\] Alt text: Sample search query for the knowledge article KB0000023.
 
 In this sample search, the **Knowledge &amp; Catalog** search filter is cleared, which would normally prevent returning any knowledge articles.
 
- ![Sample search results for the knowledge article record KB0000023.](../image/exact-search-match.png "Sample exact match search results")
+ \[Omitted image "exact-search-match.png"\] Alt text: Sample search results for the knowledge article record KB0000023.
 
 In this sample exact match, the system displays the matching article and an information message in the form header reading `Exact search match. Click here to see full search results.`
 

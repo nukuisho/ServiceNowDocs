@@ -2,13 +2,14 @@
 title: Vulnerability relationship mapping
 description: Use many-to-many \(M2M\) relationship records to map connections between vulnerabilities and other entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-vul-relationship-map.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Vulnerability relationship mapping
@@ -20,28 +21,28 @@ Use many-to-many \(M2M\) relationship records to map connections between vulnera
 
 Bulk delete operations are available for all M2M relationship records from the related list view.
 
-**Parent Topic:**[TISC Library Repository](tisc-ioc.md)
+**Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ioc.md)
 
 **Related topics**  
 
 
-[Observables](observables.md)
+[Observables]()
 
-[Indicators](indicator.md)
+[Indicators]()
 
-[Threat Entities](tisc-threat-entities.md)
+[Threat Entities]()
 
-[Other Objects](tisc-other-objects.md)
+[Other Objects]()
 
-[Vulnerability Artifacts](vulnerability.md)
+[Vulnerability Artifacts]()
 
-[View RSS Feeds](../task/define-rss-feeds.md)
+[View RSS Feeds]()
 
-[Working with Reports in TISC](tisc-reports-lib-view.md)
+[Working with Reports in TISC]()
 
-[MITRE-ATT&amp;CK Repository](tisc-mitre-att-ck-framework-overview.md)
+[MITRE-ATT&amp;CK Repository]()
 
-[Relationships Objects](relationship-objects.md)
+[Relationships Objects]()
 
-[Potential Relationships](potential-relationships.md)
+[Potential Relationships]()
 

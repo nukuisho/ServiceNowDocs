@@ -2,6 +2,7 @@
 title: Exit Loop flow logic
 description: Exit from a flow logic loop when the conditions of an If flow logic are met. Continue running the flow from the next step after the flow logic loop. This flow logic is also known as break.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/exit-loop-flow-logic.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -39,46 +40,46 @@ When a flow exits a loop, the state of the Exit Loop flow logic block becomes Co
 
 In this example, a flow generates a list of incidents assigned to a user. For each incident that is assigned to the user, the flow sends an email. If the list of incidents is greater than or equal to 5, then the flow exits the For Each flow logic loop and doesn’t send an email.
 
-![Exit Loop flow logic within an If flow logic then branch](../images/flow-logic-exit-loop.png)
+\[Omitted image "flow-logic-exit-loop.png"\] Alt text: Exit Loop flow logic within an If flow logic then branch
 
 In this example, there are 19 incidents assigned to the user, which meets the exit conditions. The first item of the For Each flow logic counter shows the Exit Loop flow logic having a state of Completed.
 
-![Execution details of an Exit Loop flow logic](../images/flow-logic-exit-loop-execution-details.png)
+\[Omitted image "flow-logic-exit-loop-execution-details.png"\] Alt text: Execution details of an Exit Loop flow logic
 
-**Parent Topic:**[Workflow Studio flow logic](../concept/flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 
 
-[Append to Flow Variables flow logic](append-to-flow-variables-flow-logic.md)
+[Append to Flow Variables flow logic]()
 
-[Assign subflow outputs flow logic](../concept/flow-logic-assign-subflow-outputs.md)
+[Assign subflow outputs flow logic]()
 
-[Call a workflow flow logic](../concept/flow-logic-call-workflow.md)
+[Call a workflow flow logic]()
 
-[Do the following until flow logic](../concept/flow-logic-do-until.md)
+[Do the following until flow logic]()
 
-[Do the following in parallel flow logic](../concept/flow-logic-do-following-in-parallel.md)
+[Do the following in parallel flow logic]()
 
-[Dynamic flows flow logic](../concept/flow-logic-dynamic-flow.md)
+[Dynamic flows flow logic]()
 
-[End Flow flow logic](../concept/flow-logic-end-action.md)
+[End Flow flow logic]()
 
-[For Each flow logic](../concept/flow-logic-for-each.md)
+[For Each flow logic]()
 
-[Get Flow Outputs flow logic](get-flow-outputs-flow-logic.md)
+[Get Flow Outputs flow logic]()
 
-[Go back to flow logic](go-back-to-flow-logic.md)
+[Go back to flow logic]()
 
-[If flow logic](../concept/flow-logic-if.md)
+[If flow logic]()
 
-[Make a decision flow logic](../concept/flow-logic-make-decision.md)
+[Make a decision flow logic]()
 
-[Set Flow Variables flow logic](../concept/flow-logic-set-flow-variables.md)
+[Set Flow Variables flow logic]()
 
-[Skip Iteration flow logic](skip-iteration-flow-logic.md)
+[Skip Iteration flow logic]()
 
-[Try flow logic](../concept/flow-logic-try.md)
+[Try flow logic]()
 
-[Wait for a duration flow logic](../concept/flow-logic-wait-for-a-duration.md)
+[Wait for a duration flow logic]()
 

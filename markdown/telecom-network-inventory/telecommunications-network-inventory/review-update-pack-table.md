@@ -2,6 +2,7 @@
 title: Review and update a pack for a CI record
 description: Review and update the attributes that you've defined in the pack table for a configuration item \(CI\) record in the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/review-update-pack-table.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -17,7 +18,7 @@ Review and update the attributes that you've defined in the pack table for a con
 
 ## Before you begin
 
-Add the pack table for the CI record. To learn more, see [Use an attribute pack in the CI record](use-telecommunication-network-inventry-pack.md).
+Add the pack table for the CI record. To learn more, see [Use an attribute pack in the CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/use-telecommunication-network-inventry-pack.md).
 
 Role required: sn\_ni\_core.inventory\_agent
 
@@ -25,7 +26,7 @@ Role required: sn\_ni\_core.inventory\_agent
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then open the inventory record where you want to update the pack table attributes.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then open the inventory record where you want to update the pack table attributes.
 
 3.  On the **Pack** tab, select the pack table that you want to update.
 
@@ -34,10 +35,10 @@ Role required: sn\_ni\_core.inventory\_agent
 5.  Select **Save**.
 
 
-**Parent Topic:**[Attribute pack for CI records](../concept/using-pack-table-ci-record.md)
+**Parent Topic:**[Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md)
 
 **Related topics**  
 
 
-[Use an attribute pack in the CI record](use-telecommunication-network-inventry-pack.md)
+[Use an attribute pack in the CI record]()
 

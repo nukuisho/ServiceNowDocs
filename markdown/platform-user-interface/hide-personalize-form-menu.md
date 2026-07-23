@@ -2,6 +2,7 @@
 title: Hide the Personalize Form menu
 description: Disable the Personalize Form menu by using the glide.ui.personalize\_form system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/hide-personalize-form-menu.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The Personalize Form menu \(![](../image/icon-personalize-form.png)\) in the form header enables you to customize which fields display on the form. You can use the **glide.ui.personalize\_form** system property to disable the Personalize Form menu.
+The Personalize Form menu \(\[Omitted image "icon-personalize-form.png"\]\) in the form header enables you to customize which fields display on the form. You can use the **glide.ui.personalize\_form** system property to disable the Personalize Form menu.
 
 ## Procedure
 
@@ -27,7 +28,7 @@ The Personalize Form menu \(![](../image/icon-personalize-form.png)\) in the for
 
 2.  Add a system property named **glide.ui.personalize\_form**.
 
-    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set the Value to **false**.
 

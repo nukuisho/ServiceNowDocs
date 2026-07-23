@@ -2,13 +2,14 @@
 title: Request a Hardware Asset Refresh
 description: Use the Hardware Refresh request flow to track the aged hardware assets that are nearing the end of their life cycle. Replace them with new hardware assets.Replace aged hardware assets by sourcing new hardware assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/hardware-asset-refresh.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 12
-breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+reading_time_minutes: 13
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request a Hardware Asset Refresh
@@ -27,7 +28,7 @@ The Flow Designer application is used to create the Hardware Asset Refresh flo
 
 **Note:** You can check if a hardware model is eligible for refresh by using the Eligible for refresh field of the Hardware \[alm\_hardware\] table. The SAM - Calculate Asset Refresh Eligibility scheduled job runs weekly and invokes the **Process** method in the **SAMRefreshEligibityCalculator** Script Include. The Script Include fetches the hardware product model records for the assets for which the useful\_life field \(in months\) is specified. The date on which the asset record was created is compared with the useful\_life field to determine if the asset is in the useful life period. The Eligible for refresh flag is set to true for assets that aren't in the useful life period.
 
-![Hardware Asset Refresh flow.](../image/hardware-asset-refresh-flow.png "Hardware Asset Refresh Flow")
+\[Omitted image "hardware-asset-refresh-flow.png"\] Alt text: Hardware Asset Refresh flow.
 
 While customizing a Hardware Asset Refresh catalog item on the Catalog Item form, don't remove or change the following variables.
 
@@ -38,13 +39,13 @@ While customizing a Hardware Asset Refresh catalog item on the Catalog Item form
 |Variable Sets|Hardware Asset Management process set|
 |Hardware Asset Management sourcing set|
 
-**Note:** There are readily available decision tables that you can use to customize the Hardware Asset Refresh Line Flow. For more details, see [Hardware Asset Management flow customization](../concept/readily-available-dec-tables-ham.md).
+**Note:** There are readily available decision tables that you can use to customize the Hardware Asset Refresh Line Flow. For more details, see [Hardware Asset Management flow customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/readily-available-dec-tables-ham.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Asset Lifecycle**.
 
-    The **Asset Lifecycle** category isn’t on the Service Catalog page by default. To add this category, select the add content icon \(![Add content icon.](../image/add_content_icon.png)\) beside the search catalog bar and then select **Asset Lifecycle**.
+    The **Asset Lifecycle** category isn’t on the Service Catalog page by default. To add this category, select the add content icon \(\[Omitted image "add\_content\_icon.png"\] Alt text: Add content icon.\) beside the search catalog bar and then select **Asset Lifecycle**.
 
 2.  Open **Hardware Asset Refresh Order**.
 
@@ -103,7 +104,7 @@ Aged Hardware assets that you want to replace. You can use a filter to search fo
 
 5.  Select **Order Now**.
 
-    You can't view an excluded asset. For more information, see [Hardware Asset Management license exclusion](../concept/ham-license-exclusion.md).
+    You can't view an excluded asset. For more information, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 
 
 ## Result
@@ -112,70 +113,74 @@ The aged assets are set to get refreshed. In the Hardware table under the Dispos
 
 An Order status page appears and it displays the details of the order. A request is created to source the new hardware assets and to replace the aged hardware assets. The Request form shows the total price of all the new hardware asset models.
 
-**Parent Topic:**[Using Hardware Asset Management](../concept/using-ham-classic.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
 
-[Manage asset bundles from your inventory](create-bundled-assets.md)
+[Work with hardware normalization]()
 
-[Manage your inventory through pallet assets](../concept/pallets-for-inventory-management.md)
+[Manage asset bundles from your inventory]()
 
-[Manage loaner assets](manage-loaner-asset.md)
+[Manage your inventory through pallet assets]()
 
-[Donate assets to charity organizations](../concept/donate-asset-to-charity-organizations.md)
+[Manage loaner assets]()
 
-[Use Advanced Shipment Notification](advanced-shipment-notification.md)
+[Donate assets to charity organizations]()
 
-[Manage RMA requests](../concept/manage-rma-req.md)
+[Use Advanced Shipment Notification]()
 
-[Create an inventory stock order request](create-inventory-stock-order.md)
+[Manage RMA requests]()
 
-[Create a disposal order](create-disposal-order.md)
+[Create an inventory stock order request]()
 
-[Use a hardware asset request flow](hardware-request-flow.md)
+[Create a disposal order]()
 
-[Audit hardware asset inventory](../concept/ham-inventory-audit.md)
+[Fulfilling hardware asset requests]()
 
-[Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md)
+[Audit hardware asset inventory]()
 
-[Reclaim hardware assets](../concept/manage-asset-reclaim.md)
+[Manage your expiring contracts for leased hardware assets]()
 
-[View RFID information of assets](view-rfid-info.md)
+[Reclaim hardware assets]()
 
-[Manage the lifecycle of hardware models with calculated lifecycle templates](../concept/manage-ham-lifecycle-temp.md)
+[View RFID information of assets]()
 
-[Receive asset warranty details from Lenovo](../concept/receive-warranty-details-lenovo.md)
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
-[Manage stockrooms](../concept/manage-your-stockrooms.md)
+[Create an internal lifecycle in the Hardware Asset Workspace]()
 
-[Track shipments using the integration framework](../concept/tracking-shipments-using-integration-framework.md)
+[Receive asset warranty details from Lenovo]()
 
-[Track asset location using indoor maps](track-asset-location-using-indoor-maps.md)
+[Manage stockrooms]()
 
-[Assess performance of Hardware Asset Management](../concept/suc-goal-act-hw.md)
+[Track shipments using the integration framework]()
 
-[Manage refresh of assets using Zero Touch Refresh](../concept/refresh-hardware-uisng-ztr.md)
+[Track asset location using indoor maps]()
 
-[Configure the Total Cost of Ownership of assets](../concept/configure-ham-tco.md)
+[Assess performance of Hardware Asset Management]()
 
-[Manage Hardware Asset Management subscriptions](../concept/managing-ham-subscriptions.md)
+[Manage refresh of assets using Zero Touch Refresh]()
 
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](../concept/manage-repair-of-defective-ham-assets.md)
+[Configure the Total Cost of Ownership of assets]()
 
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](../concept/manage-asset-picking-stockroom-ham-ws.md)
+[Manage Hardware Asset Management subscriptions]()
 
-[Manage hardware asset tasks using the Mobile Agent application](../concept/manage-hardware-asset-tasks-mobile-agent.md)
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
 
-[Manage asset put away using the Hardware Asset Workspace](../concept/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
 
-[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+[Manage hardware asset tasks using the Mobile Agent application]()
 
-[Acknowledge receipt of assets on the Employee Center portal](receive-assets-employee-center.md)
+[Manage asset put away using the Hardware Asset Workspace]()
 
-[Update associated Decision tables for HAM flows](trigger-flow-ham.md)
+[Audit your hardware assets by using Asset Attestation]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
 
 ## Use Hardware Asset Refresh Lines tasks to replace the aged assets
 
@@ -203,15 +208,15 @@ After sourcing the new assets, the asset refresh is completed through the follow
 
 1.  Select the hardware asset refresh request.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d273177e741">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d321832e769">
 
 Interface
 
-</th><th align="left" id="d273177e744">
+</th><th align="left" id="d321832e772">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d273177e750">
+</th></tr></thead><tbody><tr><td id="d321832e778">
 
 **Core UI**
 
@@ -221,7 +226,7 @@ Action
 2.  Select the request number of the hardware asset refresh request that you want to fulfill.
 
 
-</td></tr><tr><td id="d273177e783">
+</td></tr><tr><td id="d321832e811">
 
 **Hardware Asset Workspace**
 
@@ -241,13 +246,13 @@ Action
 
     You can source items in the request by consuming the local stock, through purchase orders, or through transfer orders.
 
-    For more details on sourcing items, see [Sourcing items in a service catalog request](../../procurement/concept/c_SourcingRequestItems.md).
+    For more details on sourcing items, see [Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_SourcingRequestItems.md).
 
     After the new asset is received, the following events happens:
 
     -   The Hardware Asset Refresh Line flow is triggered for the asset.
     -   The Hardware Asset Refresh Line tab is displayed next to the Asset Tasks tab on the requested item form.
-    -   The Asset pick task is created under the Refresh Line Tasks only if the requested item is consumed from the local stockroom for which the Asset pick task is enabled. Otherwise thePrepare asset task is createddirectly without the Pick task. For details, see [Enable the Asset pick task for your stockroom in the Hardware Asset Workspace](enable-pick-task-for-stockroom-ham.md).
+    -   The Asset pick task is created under the Refresh Line Tasks only if the requested item is consumed from the local stockroom for which the Asset pick task is enabled. Otherwise thePrepare asset task is createddirectly without the Pick task. For details, see [Enable the Asset pick task for your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/enable-pick-task-for-stockroom-ham.md).
 3.  Select the **Hardware Asset Refresh Line** tab.
 
 4.  Select the hardware asset refresh line.
@@ -256,7 +261,7 @@ Action
 
 6.  Complete the Asset pick task by using the Mobile Agent application.
 
-    For details on completing this step, see [Locate and pick the hardware assets in your stockroom using the Mobile Agent application](locate-and-pick-hardware-asset-using-mobile-app.md).
+    For details on completing this step, see [Locate and pick the hardware assets in your stockroom using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/locate-and-pick-hardware-asset-using-mobile-app.md).
 
 7.  Prepare the asset.
 

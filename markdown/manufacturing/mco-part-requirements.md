@@ -2,11 +2,12 @@
 title: Generate a part requirement
 description: Capture all the part requirements at the campaign level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-part-requirements.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Corrective actions, Related lists for my campaigns, Create a campaign, Recall management, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Corrective actions, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Generate a part requirement
@@ -82,9 +83,4 @@ Unit of measure. Available options are:-   Box
 </td></tr></tbody>
 </table>    **Note:** When corrective action status changes to Draft, part details in part requirements are reset to 0.
 
-
--   **[Create a part availability](mco-part-availability.md)**  
-Track current part availability and expected availability dates for required parts.
-
-**Parent Topic:**[Corrective actions](mco-corrective-actions.md)
 

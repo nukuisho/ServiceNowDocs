@@ -2,6 +2,7 @@
 title: Pause the MID Server
 description: Pause the MID Server to temporarily prevent it from polling the ECC Queue for work or sending Discovery results back to the instance.The MID server can be put into a Paused state to temporarily prevent it from polling the ECC Queue for work or sending Discovery results back to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_PauseTheMIDServer.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -26,7 +27,7 @@ Role required: agent\_admin
 </td></tr></tbody>
 </table>## About this task
 
-You can only pause [validated MID Servers](t_ValidateAMIDServer.md). You might want to pause the MID Server when your network infrastructure is undergoing changes. This prevents applications like Discovery from throwing errors during a particular maintenance window.
+You can only pause [validated MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md). You might want to pause the MID Server when your network infrastructure is undergoing changes. This prevents applications like Discovery from throwing errors during a particular maintenance window.
 
 A paused MID Server continues processing commands that it had already retrieved before it was paused. When you resume the MID Server, the MID Server starts retrieving new commands to process.
 
@@ -42,63 +43,63 @@ A paused MID Server continues processing commands that it had already retrieved 
 
     The state of the MID Server changes to **Paused**.
 
-    ![A paused MID Server](../image/MIDServerIcon.png "A paused MID Server")
+    \[Omitted image "MIDServerIcon.png"\] Alt text: A paused MID Server
 
 4.  To resume MID Server processing, select **Resume MID** under **Related Links**.
 
 
-**Parent Topic:**[MID Server reference](../concept/mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
 
-[MID Server system requirements](../reference/r_MIDServerSystemRequirements.md)
+[MID Server system requirements]()
 
-[MID Server upgrades](../concept/c_UpgradeAndTestMIDServer.md)
+[MID Server upgrades]()
 
-[Resolving MID Server issues](../reference/r_MIDServerTroubleshooting.md)
+[Resolving MID Server issues]()
 
-[MID Server dashboard](../concept/c_MIDServerDashboard.md)
+[MID Server dashboard]()
 
-[MID Server properties](../reference/r_MIDServerProperties.md#)
+[MID Server properties]()
 
-[MID Server parameters](../reference/mid-server-parameters.md#)
+[MID Server parameters]()
 
-[MID Server Configuration Parameter settings and priority](../reference/mid-config-param-priority.md)
+[MID Server Configuration Parameter settings and priority]()
 
-[MID Server File Cleaner](../concept/mid_file_cleaner.md)
+[MID Server File Cleaner]()
 
-[MID Server protected records and reserved characters](../reference/mid-server-reserved-characters.md)
+[MID Server protected records and reserved characters]()
 
-[MID Server privileged commands](../concept/c_PrivilegedCommandsForMIDServer.md#)
+[MID Server privileged commands]()
 
-[MIDSystem methods](../reference/r_MIDSystemMethods.md)
+[MIDSystem methods]()
 
-[Manually start, stop, and restart a MID Server](t_InstallMIDServerAsWinService.md)
+[Manually start, stop, and restart a MID Server]()
 
-[MID Server heartbeat](../reference/r_MIDServerHeartbeat.md)
+[MID Server heartbeat]()
 
-[Set the MID Server JVM memory size](t_MIDServerOptionalConfiguration.md)
+[Set the MID Server JVM memory size]()
 
 ## MID Server pause
 
 The MID server can be put into a **Paused** state to temporarily prevent it from polling the ECC Queue for work or sending Discovery results back to the instance.
 
-Unlike stopping the MID Server from the [Windows](../concept/mid-server-install-prereqs.md#) or [Linux](t_InstallAMIDServerOnLinux.md#) server command line on the MID Server machine, pausing the MID server is something that you can do from the instance. The MID Server pause feature is available starting with the Istanbul release.
+Unlike stopping the MID Server from the [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md) or [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md) server command line on the MID Server machine, pausing the MID server is something that you can do from the instance. The MID Server pause feature is available starting with the Istanbul release.
 
-**Note:** You can only pause [validated MID Servers](t_ValidateAMIDServer.md).
+**Note:** You can only pause [validated MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md).
 
 You can still perform these actions when the MID Server is paused:
 
--   [Access the MID Server logs](../concept/ecc-queue-mid-server.md#) and delete log entries.
+-   [Access the MID Server logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md) and delete log entries.
 -   View MID server statistics. While the MID Server is in the **Paused** state it stops generating statistics. But you can still view the statistics generated before you paused the MID Server.
 -   Retrieve the MID Server thread dump.
--   Make and save [configuration changes](../concept/c_MIDServerConfiguration.md) and property changes to the server. The changes take effect after the MID Server is resumed.
+-   Make and save [configuration changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md) and property changes to the server. The changes take effect after the MID Server is resumed.
 -   Clear the ECC queue.
 
-The [MID server heartbeat](../reference/r_MIDServerHeartbeat.md) continues to function while the MID Server is in the **Paused** state. If the MID Server is upgraded while it is in the **Paused** state, the MID Server state automatically changes to **Up** after successful upgrade. It does not return to the **Paused** state.
+The [MID server heartbeat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerHeartbeat.md) continues to function while the MID Server is in the **Paused** state. If the MID Server is upgraded while it is in the **Paused** state, the MID Server state automatically changes to **Up** after successful upgrade. It does not return to the **Paused** state.
 
-During [MID Server selection](../concept/c_MIDServerSelector.md), paused MID Servers can still be selected but are prioritized below MID Servers that are not paused.
+During [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md), paused MID Servers can still be selected but are prioritized below MID Servers that are not paused.
 
 ### Events that occur during MID Server pause
 
@@ -106,6 +107,6 @@ The **vCenter** and **SNMP** event collectors, continue to run and process event
 
 To prevent these events from being processed, stop the extensions from running. For more information, see:
 
--   [Configure and run the vCenter event collector extension](../concept/c_VCenterEventProcessorExtension.md#)
--   [Configure the SNMP Trap Collector Extension](../concept/c_SNMPTrapCollectorExtension.md#)
+-   [Configure and run the vCenter event collector extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_VCenterEventProcessorExtension.md)
+-   [Configure the SNMP Trap Collector Extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_SNMPTrapCollectorExtension.md)
 

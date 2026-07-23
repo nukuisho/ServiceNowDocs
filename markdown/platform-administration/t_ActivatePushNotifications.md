@@ -2,6 +2,7 @@
 title: Activate push notifications
 description: Several plugins must be activated to use push notifications. If you have the Mobile UI \(com.glide.ui.m\) plugin active, push notification plugins are automatically activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ActivatePushNotifications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ Ensure the following plugins are active on your instance:
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    ![HI redirect to Service Catalog](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: HI redirect to Service Catalog
 
 4.  Select your instance.
 
@@ -87,24 +88,24 @@ Information that would be helpful for the ServiceNow personnel who are activatin
 </table>7.  Select **Submit**.
 
 
-**Parent Topic:**[Push notifications](../concept/c_PushNotifications.md)
+**Parent Topic:**[Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md)
 
 **Related topics**  
 
 
-[Push notification system](../reference/r_PushMessageArchitecture.md)
+[Push notification system]()
 
-[Enable push notifications for logged-out users](enable-notifications-logged-out-users.md)
+[Enable push notifications for logged-out users]()
 
-[Installed with push notifications](../reference/r_InstalledWithPushNotifications.md#)
+[Installed with push notifications]()
 
-[Push notification properties](../reference/r_PushNotificationProperties.md)
+[Push notification properties]()
 
-[Push notification setup with the ServiceNow mobile app](../reference/r_PushNotificationSetupSN.md)
+[Push notification setup with the ServiceNow mobile app]()
 
-[Push notification setup with a custom push application for ServiceNow mobile apps](../reference/r_PushNotificationSetupCustom.md)
+[Push notification setup with a custom push application for ServiceNow mobile apps]()
 
-[Requeue failed push notification messages](t_HandlingFailedPushMessages.md)
+[Requeue failed push notification messages]()
 
-[Push notification retention](../concept/push-notification-retention.md)
+[Push notification retention]()
 

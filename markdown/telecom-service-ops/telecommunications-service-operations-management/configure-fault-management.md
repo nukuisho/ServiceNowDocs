@@ -2,12 +2,13 @@
 title: Configure a webhook
 description: Integrate with a webhook to connect to an external event source and push event information to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-fault-management.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-05-09"
-reading_time_minutes: 1
+last_updated: "2026-07-09"
+reading_time_minutes: 2
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
@@ -30,7 +31,7 @@ Role required: TSOM Assurance admin
 
 1.  Navigate to &gt; **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation pane, select the Integrations Launchpad icon ![](../images/integrations_launchpad_icon.png).
+2.  From the navigation pane, select the Integrations Launchpad icon \[Omitted image "integrations\_launchpad\_icon.png"\] Alt text:.
 
 3.  Select the **Browse Integrations** tab
 
@@ -76,10 +77,16 @@ Role required: TSOM Assurance admin
     Incoming events might take a few minutes to appear in the dashboard.
 
 
-**Parent Topic:**[Configure Telecom Assurance](../concept/set-up-fault-management.md)
+**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
 
 **Related topics**  
 
 
-[Exploring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/exploring-event-management.md)
+[Exploring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-event-management.md)
+
+[arista-velocloud-installed-integrations]
+
+[Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
+
+[Fortinet installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/fortinet-installed-integrations.md)
 

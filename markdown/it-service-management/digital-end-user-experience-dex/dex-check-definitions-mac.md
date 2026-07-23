@@ -2,6 +2,7 @@
 title: DEX check definitions for macOS
 description: Check definitions for macOS are predetermined sets of rules and criteria that assess the performance, security, and conformance of macOS devices. These checks can cover various aspects such as CPU usage, memory usage, battery details, and firewall status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-check-definitions-mac.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -568,6 +569,14 @@ os.all.check.internal.get-device-configuration-on-change
 
 Gets the configurations of a device. For example: sudo configured, debug on, agent user, and so on. Runs only if value changes.
 
+</td></tr><tr><td>
+
+os.mac.action-kill-zombie-orphan-process
+
+</td><td>
+
+Takes an app name as input, identifies zombie and orphan processes for that app using the app\_process\_data.sh script, and kills them. Returns output in the format \{isSuccess: true/false, message: "success/failure message", output: \{"killedProcessPids": \[array of pids\]\}\}
+
 </td></tr></tbody>
 </table>## Check definitions — Diagnostic Actions
 
@@ -843,5 +852,5 @@ duration
 Elevates temporary admin access to users for a period of time to perform specific tasks without compromising on security.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Content Playbook reference](dex-content-playbook-reference.md)
+</table>**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
 

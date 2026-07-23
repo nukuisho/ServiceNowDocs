@@ -1,19 +1,20 @@
 ---
-title: Generate troubleshooting guidance for SaaS integrations by using Now Assist for SAM
-description: Generate error messages and detailed guidance to troubleshoot runtime job failures for SaaS integrations. These recommendations enable you to resolve common configuration issues and reduce downtime.
+title: Generate troubleshooting guidance for SaaS and SSO integrations by using Now Assist for SAM
+description: Generate error messages and detailed guidance to troubleshoot runtime job failures for SaaS and SSO integrations. These recommendations enable you to resolve common configuration issues and reduce downtime.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/now-assist-for-software-asset-management-sam/troubleshooting-saas-now-assist-sam.html
 release: australia
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
+breadcrumb: [Use generative AI skills, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Generate troubleshooting guidance for SaaS integrations by using Now Assist for SAM
+# Generate troubleshooting guidance for SaaS and SSO integrations by using Now Assist for SAM
 
-Generate error messages and detailed guidance to troubleshoot runtime job failures for SaaS integrations. These recommendations enable you to resolve common configuration issues and reduce downtime.
+Generate error messages and detailed guidance to troubleshoot runtime job failures for SaaS and SSO integrations. These recommendations enable you to resolve common configuration issues and reduce downtime.
 
 ## Before you begin
 
@@ -21,7 +22,11 @@ Role required: sam\_integrator
 
 ## About this task
 
-Now Assist for SAM generates the troubleshooting guidance for all SaaS integrations by enabling dynamic debug-level logging for flow actions and validating connections. The troubleshooting guidance is available for both existing and new SaaS integrations.
+**Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+Starting with the Australia Patch 4 release, AWS Claude is the default model provider for the Error resolution recommendation and Error log summarization generative AI skill.
+
+Now Assist for SAM generates the troubleshooting guidance for all SaaS and SSO integrations by enabling dynamic debug-level logging for flow actions and validating connections. The troubleshooting guidance is available for both current and new SaaS integrations.
 
 ## Procedure
 
@@ -31,15 +36,15 @@ Now Assist for SAM generates the troubleshooting guidance for all SaaS integrati
 
 3.  Generate troubleshooting guidance.
 
-<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d303564e106">
+<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d338691e127">
 
 Integration
 
-</th><th align="left" id="d303564e109">
+</th><th align="left" id="d338691e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d303564e115">
+</th></tr></thead><tbody><tr><td id="d338691e136">
 
 **Existing**
 
@@ -53,7 +58,7 @@ An error message is displayed on the Integration Profile form indicating that th
 
 The Now Assist for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
 
-</td></tr><tr><td id="d303564e143">
+</td></tr><tr><td id="d338691e164">
 
 **New**
 
@@ -64,7 +69,7 @@ The Now Assist for SAM application generates the troubleshooting details that co
 3.  Select **Continue**.
 4.  On the Integration profile form, enter a unique and descriptive **Display name**.
 5.  Verify the required user roles or API permissions specified under various subflows and select **Save**.
-6.  Select the preview icon ![](../../../common/image/Form_ReferenceLookupIcon.png) next to the **Connection &amp; Credential** field.
+6.  Select the preview icon \[Omitted image "Form\_ReferenceLookupIcon.png"\] next to the **Connection &amp; Credential** field.
 7.  Enter connection and credential details for this integration profile by selecting the **Create New Connection &amp; Credential** related link.
 8.  Select **Create**.
 9.  On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
@@ -76,7 +81,7 @@ The ServiceNow instance displays an error message stating that the connection va
 The Now Assist for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
 
 </td></tr></tbody>
-</table>    ![Error summary and troubleshooting guidance for SaaS integration](../image/now-assist-troubleshooting.png)
+</table>    \[Omitted image "now-assist-troubleshooting.png"\] Alt text: Error summary and troubleshooting guidance for SaaS integration
 
 4.  Use the suggested resolutions and select **Validate Connection.**
 
@@ -85,5 +90,5 @@ The Now Assist for SAM application generates the troubleshooting details that co
 5.  After the connection validation is successful, publish the integration profile by selecting **Publish**.
 
 
-**Parent Topic:**[Using generative AI skills in Now Assist for SAM](../concept/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

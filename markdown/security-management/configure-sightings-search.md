@@ -2,6 +2,7 @@
 title: Configure MISP sighting searches
 description: Configure the ServiceNow AI Platform to do sighting searches for observables in the MISP instance. With this information, you can determine how often threats occur.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configure-sightings-search.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,12 +16,12 @@ Configure the ServiceNow AI Platform to do sighting searches for observables in 
 
 ## Before you begin
 
--   [Review the MISP user role and permissions](../reference/misp-user-roles-and-permissions.md) that are required for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) that are required for using the MISP bi-directional features.
 -   Role required: sn\_si.admin, sn\_ti.admin
 
 ## About this task
 
-The [Security Operations Integration - Sightings Search workflow](../../security-operations-integrations/task/secops-integration-sightings-search-workflow.md) executes the sighting searches. This workflow accepts a list of observables, finds any implementing capabilities, creates the queries that are based on the sighting search configurations, and executes the searches that are based on the configured workflow.
+The [Security Operations Integration - Sightings Search workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/secops-integration-sightings-search-workflow.md) executes the sighting searches. This workflow accepts a list of observables, finds any implementing capabilities, creates the queries that are based on the sighting search configurations, and executes the searches that are based on the configured workflow.
 
 The MISP integration for Security Operations provides a base system sighting search profile that enables you to configure automatic sighting searches. With this profile, you can access the related observable sighting information of an organization and also see the external sightings from other organizations.
 
@@ -49,26 +50,26 @@ The MISP integration for Security Operations provides a base system sighting sea
 
 You created a MISP sightings search configuration profile.
 
-**Parent Topic:**[MISP administration](../concept/misp-administration.md)
+**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
 
 **Related topics**  
 
 
-[Getting started with MISP integration for Security Operations](../reference/get-started-with-misp-integration-for-security-operations.md)
+[Getting started with MISP integration for Security Operations]()
 
-[Install and configure the MISP integration for Security Operations](install-and-configure-misp.md)
+[Install and configure the MISP integration for Security Operations]()
 
-[Review the MISP integration settings](review-the-misp-integration-settings.md)
+[Review the MISP integration settings]()
 
-[Configure how an automatic event is created](configure-automatic-event-creation-profile.md#)
+[Configure how an automatic event is created]()
 
-[MISP event data](../concept/misp-event-data.md)
+[MISP event data]()
 
-[Associated MISP events](../reference/associated-misp-events.md)
+[Associated MISP events]()
 
-[MISP user information](../reference/misp-user-information.md)
+[MISP user information]()
 
-[Domain separation and MISP](../reference/domain-separation-and-misp.md)
+[Domain separation and MISP]()
 
-[Troubleshooting MISP integration](../reference/troubleshooting-misp-integration.md)
+[Troubleshooting MISP integration]()
 

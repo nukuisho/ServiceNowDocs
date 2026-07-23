@@ -2,6 +2,7 @@
 title: Modify the weight of a category
 description: View category results stored in the Assessment Category Result \[asmt\_category\_result\] table, which display the overall ratings for each category based on the weighted value for each scored question, and edit the default Weight value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewAQuizCategoryResult.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: none
 
 1.  Navigate to **Quizzes** &gt; **Category Results**.
 
-    ![Category results](../images/QuizCategoryResults.png)
+    \[Omitted image "QuizCategoryResults.png"\] Alt text: Category results
 
     The system calculates results from the weight configured for each category. Weights are set to a value of 10 by default but can be changed.
 
@@ -34,10 +35,10 @@ Role required: none
     **Note:** You can also edit the weight of a question in the Quiz view of the Assessment Metric form.
 
 
-**Parent Topic:**[View a quiz result](t_ViewAQuizResult.md)
+**Parent Topic:**[View a quiz result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAQuizResult.md)
 
 **Related topics**  
 
 
-[Quiz designer](../concept/c_QuizDesigner.md)
+[Quiz designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_QuizDesigner.md)
 

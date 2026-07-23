@@ -2,20 +2,19 @@
 title: Client scripts
 description: Client scripts allow the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/client-scripts.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-05-18"
+reading_time_minutes: 4
 breadcrumb: [Client-side scripting, Scripting, API implementation, API implementation and reference]
 ---
 
 # Client scripts
 
 Client scripts allow the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
-
-Introduction to client scripts, script types, APIs, and good practices
 
 Use client scripts to configure forms, form fields, and field values while the user is using the form. Client scripts can:
 
@@ -32,7 +31,7 @@ Client scripts are intended to optimize the user experience on a form. Client sc
 
 To prevent unwanted access to data, ensure that sensitive fields are hidden or read-only through ACLs or data policies.
 
-For more information, see [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) or [Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataPolicy.md).
+For more information, see [Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control-rules.md) or [Data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DataPolicy.md).
 
 ## Where client scripts run
 
@@ -78,7 +77,9 @@ UI Type
 
 </td><td>
 
-Target user interface to which the client script applies.
+Target user interface to which the client script applies.-   Desktop: The script runs only in the desktop Core UI.
+-   Mobile / Service Portal: The script runs only in mobile, portal, or configurable workspace UIs.
+-   All: The script executes across all available UIs.
 
 </td></tr><tr><td>
 
@@ -174,7 +175,7 @@ Messages
 
 </td><td>
 
-Text string \(one per line\) available to the client script as localized messages using getmessage\('\[message\]'\). For additional information, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateAClientScriptMessage.md).
+Text string \(one per line\) available to the client script as localized messages using getmessage\('\[message\]'\). For additional information, see [Translate a client script message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TranslateAClientScriptMessage.md).
 
 </td></tr><tr><td>
 
@@ -190,8 +191,13 @@ Isolate script
 
 </td><td>
 
-New client scripts are run in strict mode, with direct DOM access disabled. Access to jQuery, prototype, and the window object are also disabled. To disable this on a per-script basis, configure this form and select the **Isolate script** check box. To disable this feature for all new globally-scoped client-side scripts set the system property glide.script.block.client.globals to false.
+New client scripts are run in strict mode, in which direct DOM access is turned off. Access to jQuery, prototype, and the window object are also turned off by default. To enable DOM access on a per-script basis, leave the **Isolate script** option cleared. To turn off strict mode for all new globally scoped client scripts, set the **glide.script.block.client.globals** system property to false.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Client-side scripting](client-side-scripting-overview.md)
+</table>**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-side-scripting-overview.md)
+
+**Related topics**  
+
+
+[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 

@@ -2,9 +2,10 @@
 title: Create security annotations for CIs
 description: Annotations on CIs allow you to track activity across incidents. You can add annotations to a single or multiple CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/create-security-annotations.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Security annotations, Security Operations common functionality, Security Operations]
 ---
@@ -34,14 +35,14 @@ Role required: admin
     **Note:** You can add the same annotation to multiple CIs by selecting CIs on the list, choose **Add security annotation**, enter an annotation in any text format, and select **Submit**.
 
 
-**Parent Topic:**[Security annotations](../concept/security-annotations.md)
+**Parent Topic:**[Security annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-annotations.md)
 
 **Related topics**  
 
 
-[Create security annotations for observables](create-security-annotations-multiple.md)
+[Create security annotations for observables]()
 
-[Create security annotations for users](create-multi-sec-annotations-for-users.md)
+[Create security annotations for users]()
 
-[View security annotations reports](view-security-annotations-report.md)
+[View security annotations reports]()
 

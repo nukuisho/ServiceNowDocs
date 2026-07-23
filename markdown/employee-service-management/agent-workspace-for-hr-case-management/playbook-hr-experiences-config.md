@@ -2,6 +2,7 @@
 title: Configure HR Playbook Experiences
 description: Use Playbook Experiences to modify the default playbook experience configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/playbook-hr-experiences-config.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -29,12 +30,8 @@ Role required: sn\_hr\_ws.admin
 
 3.  Select the **Playbook Configurations** tab and select **true**.
 
-    For information on the form fields, see Update playbook experience configurations.
-
 4.  Select the **Playbook Activity Overrides** tab and an activity override.
 
-    For information on the form fields, see Set up playbook activity overrides.
-
-5.  After editing or creating, click **Update** or **Submit**.
+5.  After editing or creating, select **Update** or **Submit**.
 
 

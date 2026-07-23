@@ -2,6 +2,7 @@
 title: Collection form
 description: Use the Collection form to create a content collection in Learning Core to dynamically group learning content that includes multiple internal and external courses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/collection-form-lc.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -171,22 +172,22 @@ Valid until
 Retirement date of the collection.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Learning Core Reference](learning-core-reference.md)
+</table>**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-core-reference.md)
 
 **Related topics**  
 
 
-[Components installed with Learning Core](learning-core-components-installed.md)
+[Components installed with Learning Core]()
 
-[Course catalog form](course-catalog-table.md)
+[Course catalog form]()
 
-[Learning library form](learning-library-form.md)
+[Learning library form]()
 
-[Learning task form](learning-task-form.md)
+[Learning task form]()
 
-[Life-cycle stages of a content collection in Learning Core](lifecycle-stages-collection.md)
+[Life-cycle stages of a content collection in Learning Core]()
 
-[Learning internal content form](learning-internal-content-form.md)
+[Learning internal content form]()
 
-[Learning External Contents form](learning-external-contents-form.md)
+[Learning External Contents form]()
 

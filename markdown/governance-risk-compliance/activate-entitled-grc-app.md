@@ -2,6 +2,7 @@
 title: Activate an entitled GRC ServiceNow Store application
 description: After an application has been given entitlement, you can activate it. This process applies to applications downloaded to sub-production instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/activate-entitled-grc-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-    ![System applications](../../security-incident-response/image/system-apps.png)
+    \[Omitted image "system-apps.png"\] Alt text: System applications
 
     **Note:**
 
@@ -33,13 +34,13 @@ Role required: admin
 
     For example, if you are activating Security Incident Response, locate the Security Incident Response Dependencies plugin.
 
-    ![Dependency plugin](../../security-incident-response/image/sir-dependencies.png)
+    \[Omitted image "sir-dependencies.png"\] Alt text: Dependency plugin
 
 3.  Click **Install**.
 
     The Activate Plugin dialog box appears.
 
-    ![Activate dependency plugin](../../security-incident-response/image/sir-dep-plugin.png)
+    \[Omitted image "sir-dep-plugin.png"\] Alt text: Activate dependency plugin
 
 4.  In the Activate Plugin dialog box, click **Activate**.
 

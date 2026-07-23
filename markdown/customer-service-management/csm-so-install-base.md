@@ -2,6 +2,7 @@
 title: Service organization install base
 description: Extend proactive customer support to the Service Model Foundation by tracking products and services at service organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-so-install-base.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,7 +29,7 @@ Service organizations can:
 **Related topics**  
 
 
-[Sold products and install base plugins for service organizations](../reference/so-install-base-plugins.md)
+[Sold products and install base plugins for service organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/so-install-base-plugins.md)
 
-[Assign roles](../task/configure-data-model-roles.md)
+[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-roles.md)
 

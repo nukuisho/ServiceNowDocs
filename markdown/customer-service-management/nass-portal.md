@@ -2,6 +2,7 @@
 title: Now Assist conversational experience in self-service portals
 description: Learn about the Now Assist enhanced chat feature in the Self-service portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/nass-portal.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Learn about the Now Assist enhanced chat feature in the Self-service portals.
 
 Now Assist enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities.
 
-You can enable enhanced chat experience from the Now Assist in Virtual Agent guided setup. For details, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+You can enable enhanced chat experience from the Now Assist in Virtual Agent guided setup. For details, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-assistant-portal-channel.md).
 
 ## Enhanced chat experience on self-service portal
 
@@ -36,8 +37,6 @@ You can enable enhanced chat experience from the Now Assist in Virtual Agent gui
     The new theme is visually appealing, engaging, and user-friendly, with a focus on enhancing productivity.
 
 
-![Portal homepage with enhanced chat](../image/enhanced-chat-NASS.png "Enhanced chat with Now Assist in Portals")
-
 ## Search experience 
 
 When you search for information using the Now Assist enhanced chat on your self-service portals, you receive comprehensive and detailed answers compared to the traditional AI search.
@@ -49,7 +48,7 @@ The search results include links to the sources of information and related actio
 **Related topics**  
 
 
-[Now Assist in Virtual Agent in self-service portal](nava-csp-csm-portals.md)
+[Now Assist in Virtual Agent in self-service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nava-csp-csm-portals.md)
 
-[Using Virtual Agent in Customer and Consumer Service Portals](va-csp-csm-portal.md)
+[Using Virtual Agent in Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/va-csp-csm-portal.md)
 

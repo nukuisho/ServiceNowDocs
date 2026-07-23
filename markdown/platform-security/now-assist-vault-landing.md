@@ -2,6 +2,7 @@
 title: Now Assist for Vault
 description: With Now Assist for Vault, you can generate custom data patterns, check role access for an encrypted column, and schedule data discovery jobs. Now Assist for Vault can make it easier for you to perform common tasks without going to multiple systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/now-assist-vault-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -16,61 +17,65 @@ With Now Assist for Vault, you can generate custom data patterns, check role acc
 
 <table id="table_dm1_dr1_nhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the generative AI skills that are available in Now Assist for Vault](exploring-now-assist-vault.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the generative and agentic AI skills that are available in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/exploring-now-assist-vault.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the generative AI skills in Now Assist for Vault](../task/configuring-now-assist-vault.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the generative and agentic AI skills in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-now-assist-vault.md)
+
+</td></tr><tr><td>
+
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use the generative AI capabilities in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/using-now-assist-vault.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use the generative AI capabilities in Now Assist for Vault](using-now-assist-vault.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use the agentic AI capabilities in Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/use-now-assist-vault-agentic-ai.md)
 
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
     [ServiceNow Community](https://community.servicenow.com/community)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-dev-portal.svg) Developer**
+-   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
 
     [developer.servicenow.com](https://developer.servicenow.com/)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-impact.svg) Impact**
+-   **\[Omitted image "dcx-icon-impact.svg"\] Impact**
 
     [http://impact.servicenow.com](http://impact.servicenow.com)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-learning.svg) ServiceNow University**
+-   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
     [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon.svg) Best Practices**
+-   **\[Omitted image "dcx-icon.svg"\] Best Practices**
 
     [Best Practices](https://mynow.servicenow.com/now/best-practices/home)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-partner.svg) Partner**
+-   **\[Omitted image "dcx-icon-partner.svg"\] Partner**
 
     [https://www.servicenow.com/partners.html](https://www.servicenow.com/partners.html)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon.svg) ServiceNow**
+-   **\[Omitted image "dcx-icon.svg"\] ServiceNow**
 
     [http://servicenow.com](http://servicenow.com)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-store.svg) ServiceNow Store**
+-   **\[Omitted image "dcx-icon-store.svg"\] ServiceNow Store**
 
     [http://servicenow.com](http://servicenow.com)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-support.svg) Support**
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
     -   [https://support.servicenow.com/now](https://support.servicenow.com/now)
     -   [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
 

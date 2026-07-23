@@ -2,6 +2,7 @@
 title: Virtual Agent URL parameters
 description: Virtual Agent provides various system parameters that admins can add to an instance URL to control how page content is rendered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-sysparm.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -158,20 +159,20 @@ Specifies the requester's language for the conversation session when Dynamic Tra
 `https://<instance_name>.service-now.com/$sn-va-web-client-app.do?sysparm_requester_session_language=<two-letter language code>`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent technical reference](../concept/va-advanced-technical-reference.md)
+</table>**Parent Topic:**[Virtual Agent technical reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-advanced-technical-reference.md)
 
 **Related topics**  
 
 
-[Domain separation and Virtual Agent](../concept/domain-separation-virtual-agent.md)
+[Domain separation and Virtual Agent]()
 
-[Virtual Agent interaction records](../concept/va-interactions.md)
+[Virtual Agent interaction records]()
 
-[Virtual Agent scripts](../concept/virtual-agent-scripts.md)
+[Virtual Agent scripts]()
 
-[Input data types in Virtual Agent topics](va-data-types.md)
+[Input data types in Virtual Agent topics]()
 
-[NLU system entities](nlu-system-entities.md)
+[NLU system entities]()
 
-[Latency feedback in Virtual Agent](latency-feedback.md)
+[Latency feedback in Virtual Agent]()
 

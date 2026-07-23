@@ -2,6 +2,7 @@
 title: Other additional Security Incident Response setup tasks
 description: If you are an administrator in the global domain, you configure how Security Incident Response handles day-to-day operations.To protect investigations and keep security incidents private, you can restrict Security Incident Response access to security-specific roles and ACLs. Non-security administrators can be restricted from access, unless you expressly allow them entry.The Restricted Caller Access \(RCA\) feature enables an administrator to define cross-scope access to an application or application resource and allow or deny access requests. This feature is enabled in Security Incident Response by default so security analysts can protect sensitive security-related information.Validate that Security Incident Response still works after you make any configuration changes, such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_ConfigureSIM.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -107,7 +108,7 @@ You can configure notifications to be sent to specific recipients when selected 
 3.  From **Recipients**, select one or more recipients.
 4.  If you select **a specific user** or **a specific group**, you are prompted to select a user or group.
 5.  To define more notifications using other fields or recipients, repeat the preceding steps for the next set of notification settings.
-6.  To remove a notification, select the ![delete notification symbol](../../threat-intelligence/image/DeleteNotification.png) icon to the right of the notification.
+6.  To remove a notification, select the \[Omitted image "DeleteNotification.png"\] Alt text: delete notification symbol icon to the right of the notification.
 
 
 </td></tr></tbody>
@@ -245,7 +246,7 @@ Role required: sn\_si.admin
 
 4.  Type **sn\_si** in the **Scope** field.
 
-    ![System applications.](../image/system-applications.png)
+    \[Omitted image "system-applications.png"\] Alt text: System applications.
 
 5.  Click **Security Incident Response**.
 
@@ -566,5 +567,5 @@ Zurich
 </table>**Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/quick-start-tests.md)
 

@@ -2,13 +2,14 @@
 title: Jumpstart Your Service Mapping
 description: The Jumpstart Your Service Mapping Accelerator provides a demonstration of the possibilities and capabilities of Service Mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-service-mapping.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Service Mapping
@@ -19,9 +20,11 @@ The Jumpstart Your Service Mapping Accelerator provides a demonstration of the p
 
 Jumpstart Your Service Mapping provides Impact customers with an overview and applied demonstration of Service Mapping. This Accelerator focuses on Service Mapping Foundational techniques and various mapping methods. The possibilities and capabilities of Service Mapping are highlighted, providing key resources and leading practices for getting started.
 
-For more information on the feature, see [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md).
+For more information on the feature, see .
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 ## What you get
 

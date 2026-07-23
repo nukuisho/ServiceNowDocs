@@ -2,6 +2,7 @@
 title: Use extension points in Pricing Management
 description: Use extension points to call custom scripts from external sources that control pricing logic used in the Pricing Management feature of the Sales Customer Relationship Management \(Sales CRM\) applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/extension-points-som-pricing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -62,6 +63,14 @@ sn\_csm\_pricing.PricingAdjustmentsExtensionPoint
 </td><td>
 
 Customize the logic that determines price adjustments for a product offering. Enables administrators \(partner implementers\) to extend the pricing engine logic by not relying on the Standard and Component Configuration Rule matrix to fetch the adjustment values.
+
+</td></tr><tr><td>
+
+`sn_csm_pricing.RampRenewalUpliftCalculationExtensionPoint`
+
+</td><td>
+
+Customize the logic for calculating renewal uplift pricing. Your inputs can include segment data, unit price, and term for each ramp segment.
 
 </td></tr></tbody>
 </table>

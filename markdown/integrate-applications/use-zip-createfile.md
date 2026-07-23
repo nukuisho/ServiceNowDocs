@@ -2,11 +2,12 @@
 title: Use the CreateFile component
 description: Zip an existing folder or create a zip file by using the CreateFile component in RPA Desktop Design Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-zip-createfile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Zip, Utilities, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Zip, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the CreateFile component
@@ -19,7 +20,7 @@ Role required: none
 
 ## About this task
 
-You can configure the properties for the CreateFile component. For more information about these properties, see [Properties of the Zip components](../reference/util-zip-prop.md).
+You can configure the properties for the CreateFile component. For more information about these properties, see [Properties of the Zip components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/util-zip-prop.md).
 
 ## Procedure
 
@@ -27,7 +28,7 @@ You can configure the properties for the CreateFile component. For more informat
 
 2.  Drag the CreateFile component to the Design surface.
 
-3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-input-port-properties.md).
 
 4.  Connect the data and control ports of the CreateFile component to the corresponding ports of the other components as described in the following table.
 
@@ -121,5 +122,5 @@ Yes
 </table>5.  To test the component, under the **DESIGN** tab, click **Run**.
 
 
-**Parent Topic:**[Zip](../concept/zip-utilities.md)
+**Parent Topic:**[Zip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zip-utilities.md)
 

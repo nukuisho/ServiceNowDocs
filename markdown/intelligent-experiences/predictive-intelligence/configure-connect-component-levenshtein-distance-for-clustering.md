@@ -2,6 +2,7 @@
 title: Configure Connect Component algorithm and Levenshtein Distance method for a clustering solution
 description: Apply Configure Connect Component and Levenshtein Distance method encoding to optimize the training for your clustering solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-connect-component-levenshtein-distance-for-clustering.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -42,7 +43,7 @@ In this example scenario, you train your solution definition by using the third 
 
 3.  On the Advanced Solution Settings tab in the Related Links section of the form, select **New**.
 
-    ![This image shows how to select the Solution Parameters option for creating the parameter.](../images/tf-idf-similarity-solution2.png)
+    \[Omitted image "tf-idf-similarity-solution2.png"\] Alt text: This image shows how to select the Solution Parameters option for creating the parameter.
 
 4.  Create a parameter record.
 
@@ -50,39 +51,39 @@ In this example scenario, you train your solution definition by using the third 
 
     2.  In the ML Solution Parameters screen, select **Levenshtein Distance**.
 
-    ![How to create the parameter record by selecting the Search button, and then selecting the Levenshtein Distance key's Short Description.](../images/configure-connect-component-levenshtein-distance-for-clustering1.png)
+    \[Omitted image "configure-connect-component-levenshtein-distance-for-clustering1.png"\] Alt text: How to create the parameter record by selecting the Search button, and then selecting the Levenshtein Distance key's Short Description.
 
 5.  Select **Submit**.
 
     The Advanced Solution Setting record screen refreshes.
 
-    ![The new Solution Parameter record you create from the values you just assigned.](../images/configure-connect-component-levenshtein-distance-for-clustering2.png)
+    \[Omitted image "configure-connect-component-levenshtein-distance-for-clustering2.png"\] Alt text: The new Solution Parameter record you create from the values you just assigned.
 
 6.  Select **Submit**.
 
     **Result:** Levenshtein Distance is configured for your clustering solution. Its solution parameter appears on the Advanced Solution Settings tab of your clustering definition form.
 
-    ![When you submit the record you created, the Levenshtein Distance solution parameter appears on your clustering solution definition form.](../images/configure-connect-component-levenshtein-distance-for-clustering3.png)
+    \[Omitted image "configure-connect-component-levenshtein-distance-for-clustering3.png"\] Alt text: When you submit the record you created, the Levenshtein Distance solution parameter appears on your clustering solution definition form.
 
 7.  Repeat steps 1-6 from the previous Levenshtein Distance example, except this time you're creating the **Minimum Neighbors** and **DBSCAN** solution parameters, which together enable the Connect Component feature.
 
-    ![The two remaining solution parameters you need to add to your clustering solution. These two final parameters enable the Connect Component feature.](../images/configure-connect-component-levenshtein-distance-for-clustering4.png)
+    \[Omitted image "configure-connect-component-levenshtein-distance-for-clustering4.png"\] Alt text: The two remaining solution parameters you need to add to your clustering solution. These two final parameters enable the Connect Component feature.
 
     When you select, configure, and submit the **Minimum Neighbors** solution parameter, be sure to set the **User Inputs** field with a value of `1`. Only some parameters have a User Inputs field.
 
-    ![How to add a value to the User Inputs field for the Minimum Neighbors parameter. In this scenario, you enter a value of 1.](../images/configure-connect-component-levenshtein-distance-for-clustering4a.png)
+    \[Omitted image "configure-connect-component-levenshtein-distance-for-clustering4a.png"\] Alt text: How to add a value to the User Inputs field for the Minimum Neighbors parameter. In this scenario, you enter a value of 1.
 
     **Result:**
 
     Connect Component is configured for your clustering solution. Its two solution parameters appear on the Advanced Solution Settings tab of your clustering definition form, alongside the Levenshtein Distance parameter you configured in steps 1-6 of this procedure.
 
-    ![The three solution parameters you configured on the Advanced Solution Settings section of your clustering solution.](../images/configure-connect-component-levenshtein-distance-for-clustering5.png)
+    \[Omitted image "configure-connect-component-levenshtein-distance-for-clustering5.png"\] Alt text: The three solution parameters you configured on the Advanced Solution Settings section of your clustering solution.
 
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](../concept/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Create and train a clustering solution](create-clustering-solution.md)
+[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
 

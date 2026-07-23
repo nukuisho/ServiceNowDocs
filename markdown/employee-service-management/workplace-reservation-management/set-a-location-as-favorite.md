@@ -2,6 +2,7 @@
 title: Set a location as favorite using the Space details page
 description: Mark your most reserved workplace location as favorite in the Workplace Service Portal. Once the location is set as favorite, it is displayed first whenever you search for locations to make a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/set-a-location-as-favorite.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -30,13 +31,13 @@ You can set a location as favorite from any one of the following locations in th
 
 After you set a workplace location as your favorite, you can directly reserve that location from the My favorites page on the Employee Center.
 
-**Note:** For more information about the derivation logic used by Workplace Reservation Management on the Space details page to assign reservable modules, see [Reservable module derivation logic for Space details](../concept/reservation-logic-for-myfavorites-space-details.md).
+**Note:** For more information about the derivation logic used by Workplace Reservation Management on the Space details page to assign reservable modules, see [Reservable module derivation logic for Space details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reservation-logic-for-myfavorites-space-details.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
-2.  From the top right menu, select the favorite icon \(![Favorite icon.](../image/favorite-icon.png)\).
+2.  From the top right menu, select the favorite icon \(\[Omitted image "favorite-icon.png"\] Alt text: Favorite icon.\).
 
     My favorites page is displayed.
 
@@ -46,13 +47,13 @@ After you set a workplace location as your favorite, you can directly reserve th
 
 4.  On the **Check Availability** section, select the start date, time, and end date.
 
-    ![Make reservations using the Employee Center space details page.](../image/wsd-emp-center-dates-new-changes-use.png)
+    \[Omitted image "wsd-emp-center-dates-new-changes-use.png"\] Alt text: Make reservations using the Employee Center space details page.
 
     If the **Max days for multi-day** Reservable Module property value is set and is greater than 1, employees can reserve a space for multiple days. Default value of **Max days for multi-day** property is 1. For example, if **Max days for multi-day** value is set to 10 days from the current date, then, only the next available 10 days are available for you to select and make a reservation. Other dates are disabled and are not available for selection.
 
 5.  Select **Search**.
 
-6.  In the **Card view**, **Schedule view** or **Map view** In the Card view, Schedule view or Map view, Mark a location as favorite by clicking the favorite icon \(![Favorite icon to mark a location.](../image/favorite-icon.png)\)
+6.  In the **Card view**, **Schedule view** or **Map view** In the Card view, Schedule view or Map view, Mark a location as favorite by clicking the favorite icon \(\[Omitted image "favorite-icon.png"\] Alt text: Favorite icon to mark a location.\)
 
 7.  The **Schedule view** in case of multi-day reservation displays available spaces in a day view.
 
@@ -63,13 +64,13 @@ After you set a workplace location as your favorite, you can directly reserve th
 
 9.  Map view shows the selected workplace spaces on a map, if maps are enabled by your organization.
 
-    If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](display-permanent-seats-on-maps.md).
+    If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
 
 10. Select **Reserve**.
 
 11. Review the Reservation details page.
 
-    For more information about Reservation details page, see [Create a reservation](create-reservation-request-1.md)
+    For more information about Reservation details page, see [Create a reservation]()
 
 12. Submit your Reservation.
 
@@ -119,40 +120,40 @@ After you set a workplace location as your favorite, you can directly reserve th
 
 The location is added to your favorites list.
 
-**Parent Topic:**[Reserve workplace items](../concept/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 
 
-[Create a reservation](create-reservation-request-1.md)
+[Create a reservation]()
 
-[Add invitees as collaborators and create a reservation](add-colleagues-rsv-search.md)
+[Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations](recurring-reservations.md)
+[Auto-resolve recurring reservations]()
 
-[Reserve a space near your colleague](browse-near-person-rsv.md)
+[Reserve a space near your colleague]()
 
-[Create a multi-day reservation](create-multi-day-reservation.md)
+[Create a multi-day reservation]()
 
-[Create multi-building reservations](create-multi-building-reservation.md)
+[Create multi-building reservations]()
 
-[Create neighborhood reservations](create-neighborhood-reservations.md)
+[Create neighborhood reservations]()
 
-[Create reservation for multiple workplace items](create-reservation-for-multiple-wrkplceitems-1.md)
+[Create reservation for multiple workplace items]()
 
-[Enable shift-based reservation](enable-shift-based-reservation.md)
+[Enable shift-based reservation]()
 
-[Create a reservation along with a shared reservation](create-rsv-along-with-shared-rsv.md)
+[Create a reservation along with a shared reservation]()
 
-[Create a reservation including a virtual meeting link](Create-reservation-with-virtual-meeting.md)
+[Create a reservation including a virtual meeting link]()
 
-[Create a shift reservation](create-a-shift-reservation.md)
+[Create a shift reservation]()
 
-[Create a group reservation](create-group-reservation.md)
+[Create a group reservation]()
 
-[Share, modify, or cancel a reservation](modify-cancel-res-request.md)
+[Share, modify, or cancel a reservation]()
 
-[Reserve a workplace using the Quick Reservation widget](reserve-workplace-for-a-time-slot.md)
+[Reserve a workplace using the Quick Reservation widget]()
 
-[Download an iCalendar for a reservation](generate-ical.md)
+[Download an iCalendar for a reservation]()
 

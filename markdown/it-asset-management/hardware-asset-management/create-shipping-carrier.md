@@ -2,13 +2,14 @@
 title: Create a shipping carrier record
 description: Create a shipping carrier record used to associate the carrier with an integration profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-shipping-carrier.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Track shipments using the integration framework, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Track shipments using the integration framework, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a shipping carrier record
@@ -61,7 +62,7 @@ Integration profile
 
 </td><td>
 
-Profile for integrating with the third-party carrier's application.For more details, see [View the carrier integration profile details](view-integration-profiles.md).
+Profile for integrating with the third-party carrier's application.For more details, see [View the carrier integration profile details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-integration-profiles.md).
 
 </td></tr><tr><td>
 
@@ -99,26 +100,26 @@ Additional information about the carrier.
 
 The shipping carrier record is created and added to the Shipping carriers list.
 
-**Parent Topic:**[Track shipments using the integration framework](../concept/tracking-shipments-using-integration-framework.md)
+**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
 
 **Related topics**  
 
 
-[Creating an integration script include for third-party carrier applications](../concept/creating-integration-script-include-ham.md)
+[Creating an integration script include for third-party carrier applications]()
 
-[Connect your ServiceNow instance with a shipping carrier application](associate-shipping-carrier-int-profile.md)
+[Connect your ServiceNow instance with a shipping carrier application]()
 
-[Remove a shipping carrier from an integration profile](remove-shipping-carrier.md)
+[Remove a shipping carrier from an integration profile]()
 
-[Create a carrier integration profile](create-carrier-integration-profile.md)
+[Create a carrier integration profile]()
 
-[View the carrier integration profile details](view-integration-profiles.md)
+[View the carrier integration profile details]()
 
-[Test the integration with the carrier API](test-carrier-api-integration.md)
+[Test the integration with the carrier API]()
 
-[View hardware asset shipment details](view-hardware-asset-shipments.md)
+[View hardware asset shipment details]()
 
-[Stale shipments](../concept/stale-shipments.md)
+[Stale shipments]()
 
-[Track a hardware asset shipment](track-hardware-asset-shipments.md)
+[Track a hardware asset shipment]()
 

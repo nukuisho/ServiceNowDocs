@@ -2,6 +2,7 @@
 title: AI-generated recommendations for a regulatory alert skill
 description: The recommendations framework is designed to deliver actionable, AI-driven insights directly within the user interface. It provides rich contextual information about recommendations, empowering users to make well-informed decisions and take follow-up actions seamlessly. The scalable and flexible design supports multiple recommendation types and complex business scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/recommendations-for-a-regulatory-alert.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -51,7 +52,7 @@ A default recommendation context named `Suggest business operations affected by 
 
 **Note:** Only users with the sn\_grc\_comp\_genai.reg\_change\_ai\_user role can see the option to generate recommendations for a regulatory alert. This role must be manually assigned to an RCM user.
 
-To understand how you can create recommendations for a regulatory alert and activate the Regulatory alert impacted citations and Regulatory alert impacted control objectives skills, refer to [Activate Regulatory alert recommendation skills](../../now-assist-irm/task/configure-recommendation-skill-for-a-regulatory-alert.md), and [Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](../../now-assist-irm/task/create-recommendation-reg-alert.md).
+To understand how you can create recommendations for a regulatory alert and activate the Regulatory alert impacted citations and Regulatory alert impacted control objectives skills, refer to [Activate Regulatory alert recommendation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-recommendation-skill-for-a-regulatory-alert.md), and [Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md).
 
 ## Viewing a recommendation
 
@@ -79,7 +80,7 @@ Last refreshed
 
 </td><td>
 
-Date and time the recommendations were last generated or refreshed. You can select the refresh icon ![](../../grc-risk/image/refresh-icon.jpg) to view the latest recommendations.
+Date and time the recommendations were last generated or refreshed. You can select the refresh icon \[Omitted image "refresh-icon.jpg"\] Alt text: to view the latest recommendations.
 
 </td></tr><tr><td>
 
@@ -98,7 +99,7 @@ Control objectives
 Details of the control objective. For example, the name of the control objective and parent.
 
 </td></tr></tbody>
-</table>**Note:** For more information about citations and control objectives, see [Structural overview of Policy and Compliance Management](../../grc-policy-and-compliance/concept/pc-structural-overview-policy-comp.md).
+</table>**Note:** For more information about citations and control objectives, see [Structural overview of Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/pc-structural-overview-policy-comp.md).
 
 |Field|Description|
 |-----|-----------|
@@ -112,12 +113,12 @@ Details of the control objective. For example, the name of the control objective
 
 Feedback trail side-panel: The feedback side-panel displays the history of user interactions with recommended items. This can include what the user accepted, what they skipped or ignored, and what they dismissed.
 
-For more information on generating recommendations, see [Generate a regulatory alert summary](../../now-assist-irm/task/create-a-summary-of-a-reg-alert.md).
+For more information on generating recommendations, see [Generate a regulatory alert summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-a-summary-of-a-reg-alert.md).
 
 **Related topics**  
 
 
-[Activate Regulatory alert recommendation skills](../../now-assist-irm/task/configure-recommendation-skill-for-a-regulatory-alert.md)
+[Activate Regulatory alert recommendation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-recommendation-skill-for-a-regulatory-alert.md)
 
-[Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](../../now-assist-irm/task/create-recommendation-reg-alert.md)
+[Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md)
 

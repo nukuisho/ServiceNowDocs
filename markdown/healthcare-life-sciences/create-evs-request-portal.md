@@ -2,6 +2,7 @@
 title: Create an environmental services support request using Care Team Portal
 description: Use the Care Team Portal to create an environmental services support request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/create-evs-request-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_hco.care\_team\_member
 
 ## About this task
 
-![Environmental services support request being created in Care Team Portal.](../image/cto-evs-create-request.png)
+\[Omitted image "cto-evs-create-request.png"\] Alt text: Environmental services support request being created in Care Team Portal.
 
 Care Team Operations for Environmental Services comes with preconfigured service requests for facilities support departments.
 
@@ -27,7 +28,7 @@ Select the catalog item that aligns with your request type.
 
 For example, a nurse who notices a room needs clean linens would navigate to **Create a request &gt; Request environmental service &gt; Clean Linen Delivery request** and fill in the request details.
 
-For detailed information on the Care Team Operations for Environmental Services service catalog, see [Service Catalog installed with Care Team Operations for Environmental Services](../reference/cto-evs-service-catalog.md).
+For detailed information on the Care Team Operations for Environmental Services service catalog, see [Service Catalog installed with Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-service-catalog.md).
 
 ## Procedure
 
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-The category of this request. For a detailed list of categories, see [Service Catalog installed with Care Team Operations for Environmental Services](../reference/cto-evs-service-catalog.md).
+The category of this request. For a detailed list of categories, see [Service Catalog installed with Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-evs-service-catalog.md).
 
 </td></tr><tr><td>
 

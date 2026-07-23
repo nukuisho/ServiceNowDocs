@@ -2,6 +2,7 @@
 title: Configure Now Assist for Public Sector Digital Services \(PSDS\)
 description: If you have the admin role, you can configure the Now Assist for Public Sector Digital Services \(PSDS\) application so that your agents and managers can use the generative-AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-configuring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -65,5 +66,5 @@ Search
 </td></tr></tbody>
 </table>**Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 

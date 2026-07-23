@@ -2,6 +2,7 @@
 title: Domain separation and IBM QRadar Offense Ingestion
 description: Domain separation is supported in IBM QRadar offense ingestion. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm-domain-sep.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -39,7 +40,7 @@ Follow these steps to achieve domain separation:
 -   Replicate the IBM QRadar Process Polling Queue, the IBM QRadar Process Profiles, and the Offense Updates scheduled jobs for every domain.
 -   Change the **Run as** from the system user to the user with the `sn_si.admin` role in the respective domain and run the scheduled job.
 
-![IBM QRadar Process Polling Queue job](../image/ibm-qradar-domain-sep1.png)
+\[Omitted image "ibm-qradar-domain-sep1.png"\] Alt text: IBM QRadar Process Polling Queue job
 
 **Related topics**  
 

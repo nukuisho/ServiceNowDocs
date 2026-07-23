@@ -2,6 +2,7 @@
 title: Add covered products to order line items
 description: Enhance orders by adding covered products such as contracts or entitlements at the order line level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-update-covered-products.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ You can add multiple covered products to an order line item.
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace.** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All**.
 
@@ -46,7 +47,7 @@ You can add multiple covered products to an order line item.
     -   **Covered install base item**: Add an install base item to the order line.
 8.  Select **Save**.
 
-    **Note:** You can't modify a covered product added to an order line. To make changes, delete the covered product by selecting **More Actions icon ![](../image/icon-three-dot-menu.png)** &gt; **Delete** and add the covered product again by selecting **New**.
+    **Note:** You can't modify a covered product added to an order line. To make changes, delete the covered product by selecting **More Actions icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:** &gt; **Delete** and add the covered product again by selecting **New**.
 
 9.  On the order line item page, select the contract start date and the contract end date.
 
@@ -58,5 +59,5 @@ You can add multiple covered products to an order line item.
 **Related topics**  
 
 
-[Add Covered Products using Contracts and Entitlement Workflow](../../post-sales-support/concept/adding-cov-prod-cceworkflows.md)
+[Add Covered Products using Contracts and Entitlement Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/adding-cov-prod-cceworkflows.md)
 

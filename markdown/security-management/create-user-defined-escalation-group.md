@@ -2,6 +2,7 @@
 title: Create a Security Operations user-defined escalation group
 description: Escalate a security incident to any group associated with the incident using Escalations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/create-user-defined-escalation-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,12 +32,12 @@ Role required: sn\_si.admin
     |Initial group|Select group this security incident belongs to.|
     |Escalation group|Select group to escalate the security incident to.|
 
-    ![Escalation](../image/EscalationGroup.png)
+    \[Omitted image "EscalationGroup.png"\] Alt text: Escalation
 
 4.  Select **Submit**.
 
     An escalation group is available for all security incidents in the initial group. You can create multiple groups.
 
 
-**Parent Topic:**[Security Operations user-defined escalation](../concept/user-defined-escalation.md)
+**Parent Topic:**[Security Operations user-defined escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/user-defined-escalation.md)
 

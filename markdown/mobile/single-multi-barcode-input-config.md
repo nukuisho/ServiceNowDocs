@@ -2,6 +2,7 @@
 title: Configure input form screens with single and multi-scan barcode inputs
 description: Configure input fields that you can use to scan a single barcode one at a time or multiple barcodes without leaving the scanning interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/single-multi-barcode-input-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,13 +16,13 @@ Configure input fields that you can use to scan a single barcode one at a time o
 
 ## Before you begin
 
-You must create an input form screen before you create inputs. For information about creating an input form screen, see [Configure an input form screen](parameter-screen-config.md).
+You must create an input form screen before you create inputs. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md).
 
 Role required: admin
 
 ## About this task
 
-Barcode inputs are available [offline](../concept/mobile-offline-mode.md). [Mobile UI rules](../concept/mobile-ui-rules.md) apply to barcode inputs.
+Barcode inputs are available [offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-offline-mode.md). [Mobile UI rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-ui-rules.md) apply to barcode inputs.
 
 ## Procedure
 
@@ -51,15 +52,15 @@ Barcode inputs are available [offline](../concept/mobile-offline-mode.md). [Mobi
 
 6.  Depending on the type of barcode scan input you want to configure.
 
-<table id="choicetable_dwz_qrl_zvb"><thead><tr><th align="left" id="d49212e249">
+<table id="choicetable_dwz_qrl_zvb"><thead><tr><th align="left" id="d50697e249">
 
 Option
 
-</th><th align="left" id="d49212e252">
+</th><th align="left" id="d50697e252">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d49212e258">
+</th></tr></thead><tbody><tr><td id="d50697e258">
 
 **Single scan barcode inputs**
 
@@ -67,7 +68,7 @@ Description
 
 When you finish configuring all the fields you want, select **Update**.
 
-</td></tr><tr><td id="d49212e270">
+</td></tr><tr><td id="d50697e270">
 
 **Multi-scan barcode inputs**
 

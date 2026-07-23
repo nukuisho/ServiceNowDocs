@@ -2,6 +2,7 @@
 title: Change the owner of a responsive dashboard
 description: The owner of a dashboard can edit it, and share it with other users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/change-dashboard-owner.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -24,7 +25,7 @@ Role required: Only users with the dashboard\_admin or admin role can change a d
 
 To learn who owns a dashboard, navigate to pa\_dashboards\_list.do and search for the dashboard.
 
-This topic refers to owners of Core UI dashboards. To change the owner of a dashboard in Platform Analytics experience, see [Configure Platform Analytics dashboard details](config-db-in-ac.md).
+This topic refers to owners of Core UI dashboards. To change the owner of a dashboard in Platform Analytics experience, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-db-in-ac.md).
 
 ## Procedure
 
@@ -32,11 +33,11 @@ This topic refers to owners of Core UI dashboards. To change the owner of a dash
 
 2.  Open the dashboard whose owner that you want to change.
 
-3.  Click the context menu \(![](../../../common/image/Form_MenuIcon.png)\) and select **Dashboard Properties**.
+3.  Click the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text:\) and select **Dashboard Properties**.
 
 4.  Select a new owner in the **Owner** field.
 
-    ![Animation showing selection of dashboard properties and owner field](../image/resp-db-change-owner.gif)
+    \[Omitted image "resp-db-change-owner.gif"\] Alt text: Animation showing selection of dashboard properties and owner field
 
 5.  Click **Update**.
 
@@ -44,7 +45,7 @@ This topic refers to owners of Core UI dashboards. To change the owner of a dash
 **Related topics**  
 
 
-[Share a responsive dashboard](t_ControlAccessToADashboard.md)
+[Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 
-[Edit a responsive dashboard](t_EditADashboard.md)
+[Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md)
 

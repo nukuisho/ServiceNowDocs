@@ -2,6 +2,7 @@
 title: Get started with DLP Incident Response
 description: Review the following information before you start setting up your Data Loss Prevention Incident Response \(DLP IR\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/get-started-with-dlp.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -44,7 +45,7 @@ The Data Loss Prevention Incident Response plugin \(com.snc.data\_loss\_incident
 -   Data Loss Prevention Incident Response \(com.snc.data\_loss\_incident\)
 -   Security Support Common
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](../../security-incident-response/task/entitle-secops-product.md) or [Activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/entitle-secops-product.md) or [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/activate-entitled-store-app.md).
 
 </td></tr><tr><td>
 
@@ -52,13 +53,13 @@ Domain separation
 
 </td><td>
 
-Verify the [Domain separation and DLP Incident Response](domain-separation-and-dlp.md) topic if you intend to separate data, processes, and administrative tasks.
+Verify the [Domain separation and DLP Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/domain-separation-and-dlp.md) topic if you intend to separate data, processes, and administrative tasks.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Data Loss Prevention Incident Response](../concept/exploring-dlp.md)
+</table>**Parent Topic:**[Exploring Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/exploring-dlp.md)
 
 **Related topics**  
 
 
-[DLP Incident Response overview](../concept/understanding-data-loss-prevention.md)
+[DLP Incident Response overview]()
 

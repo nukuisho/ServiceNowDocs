@@ -2,6 +2,7 @@
 title: Properties installed to configure expiry notifications
 description: There are several properties related to Contracts Core that can be used to configure the number of days before which expiry notification should be sent and the generation of audit certificate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-properties-installed.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -44,36 +45,38 @@ Specifies whether the user needs an audit certificate to accompany the signed co
 -   Default value: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contract Management Pro reference](../concept/cncore-ref.md)
+</table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 
 
-[Components installed with Contract Management Pro](cncore-comp-ccore.md)
+[Components installed with Contract Management Pro]()
 
-[Components installed with Contract Workspace](cncore-comp-contract-workspace.md)
+[Components installed with Contract Workspace]()
 
-[Components installed with Analytics Pack for Contract Management Pro](cncore-comp-analytics-pack-cmpro.md)
+[Components installed with Analytics Pack for Contract Management Pro]()
 
-[Contract request State and Contract document status in Contract Management Pro](cncore-cr-state-status.md)
+[Contract request State and Contract document status in Contract Management Pro]()
 
-[Clause Variation form](cncore-cv-form.md)
+[Signatory roles]()
 
-[Contract Configuration form](cncore-contract-config-form.md)
+[Clause Variation form]()
 
-[Properties installed to configure contracts integrations](cncore-properties.md)
+[Contract Configuration form]()
 
-[Expiring Contracts Condition form fields](cncore-email-notif-expcont-form.md)
+[Properties installed to configure contracts integrations]()
 
-[Action assignment form](cmpro-actn-assignment-form.md)
+[Expiring Contracts Condition form fields]()
 
-[UFX Add on Event mapping form](cmpro-ufx-event-map-form.md)
+[Action assignment form]()
 
-[Obligation form](cncore-obligation-form.md)
+[UFX Add on Event mapping form]()
 
-[Obligation Management notifications](cncore-ob-mgmt-notification.md)
+[Obligation form]()
 
-[Contract Management Pro glossary](../concept/contract-management-pro-glossary.md#)
+[Obligation Management notifications]()
 
-[Contract Management solutions](cmpro-cml-feature-compare.md)
+[Contract Management Pro glossary]()
+
+[Contract Management solutions]()
 

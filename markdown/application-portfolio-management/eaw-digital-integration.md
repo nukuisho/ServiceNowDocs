@@ -2,6 +2,7 @@
 title: Exploring digital integrations in Enterprise Architecture Workspace
 description: Manage all your digital integrations in the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-digital-integration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,23 +26,23 @@ The digital integration represents the integration between two business applicat
 
 An easy form for digital integration enables the creation of a digital integration from a single page, including the introduction of a new digital interface if it doesn't exist.The digital integrations are saved in the Digital Integration \[sn\_apm\_di\_digital\_integration\] table. After you create a digital integration, a CI relationship link is created between the two business applications with the interface type. This link enables you to access the integration as part of the node map for any business application. A catalog entry is provided to request approval for a digital integration. After the request is approved, the integration gets created.
 
-The Digital Integrations page displays a list of existing digital integrations and their related information. You can access the Digital Integrations page by navigating to **Workspaces** &gt; **Enterprise Architecture Workspace** &gt; **Portfolio** &gt; **Application Portfolio** &gt; **Digital Integrations**![Digital Integrations in Enterprise Architecture Workspace](../../image/eaw-image/eaw-digital-integrations.png).
+The Digital Integrations page displays a list of existing digital integrations and their related information. You can access the Digital Integrations page by navigating to **Workspaces** &gt; **Enterprise Architecture Workspace** &gt; **Portfolio** &gt; **Application Portfolio** &gt; **Digital Integrations**\[Omitted image "eaw-digital-integrations.png"\] Alt text: Digital Integrations in Enterprise Architecture Workspace.
 
--   **[Digital integration management data model](../../reference/eaw-reference/eaw-dig-intg-data-model.md)**  
+-   **[Digital integration management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-intg-data-model.md)**  
 This section shows the digital integration management data model.
 
-**Parent Topic:**[Exploring the application portfolio](eaw-app-portfolio.md)
+**Parent Topic:**[Exploring the application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-app-portfolio.md)
 
 **Related topics**  
 
 
-[Digital integration management data model](../../reference/eaw-reference/eaw-dig-intg-data-model.md)
+[Digital integration management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-intg-data-model.md)
 
-[View all digital integrations](../../task/eaw-task/eaw-view-all-dig-integ.md)
+[View all digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-all-dig-integ.md)
 
-[Add or edit a digital integration in the EA Workspace](../../task/eaw-task/eaw-create-digital-integ.md)
+[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-digital-integ.md)
 
-[Manage architectural artifacts of a digital integration in EA Workspace](../../task/eaw-task/eaw-assoicate-artifact-dig-intgn.md)
+[Manage architectural artifacts of a digital integration in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-dig-intgn.md)
 
-[Associate an information object to a digital integration](../../task/eaw-task/eaw-dig-integ-add-info-object.md)
+[Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-dig-integ-add-info-object.md)
 

@@ -2,6 +2,7 @@
 title: Preserve applications and customizations in development during a system clone
 description: Manually preserve a copy of each application and customization that you currently have in development before you can clone the application version to the target \(development\) instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/preserve-applications-during-clone.html
 release: australia
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -75,7 +76,7 @@ None. The system clone process copies this application version onto the target i
 
     If you saved each application to a source control repository, use one of these actions to retrieve them from the source control repository:
 
-    **Note:** For what to expect after application customization post clone, see [Results post cloning for application customizations](../reference/what-to-expect-post-clone-for-app-customization.md).
+    **Note:** For what to expect after application customization post clone, see [Results post cloning for application customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/what-to-expect-post-clone-for-app-customization.md).
 
     |Application installation state|Action to take on clone target|
     |------------------------------|------------------------------|
@@ -133,4 +134,15 @@ Because you previously used a source control integration to develop version 1.0 
 You schedule a clone of the production instance over the development instance. After completion, you log in to the development instance and see that it has version 1.0 of the Marketing Events application, because that was the version installed on the source instance.
 
 Because the application was already installed on the source instance, you apply the remote changes from the source control repository to receive the latest application version. The development instance now has version 2.0 of the Marketing Events application and is available for further development and testing.
+
+**Related topics**  
+
+
+[Source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/source-control-in-servicenow-studio.md)
+
+[Publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md)
+
+[Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md)
+
+[Load customizations from a single XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)
 

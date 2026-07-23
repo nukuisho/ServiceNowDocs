@@ -2,11 +2,12 @@
 title: Run fix-script for RCA approvals
 description: After you install or upgrade to the latest Employee Experience applications from ServiceNow Store, you might encounter Restricted Caller Access \(RCA\) approval messages requesting for an update in the access request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/install-rca-fix-script.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Post installation troubleshooting, Admin configurations, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
@@ -52,10 +53,10 @@ After you download the script file, perform the following steps.
 5.  Click **Run Script** to allow all the requested RCAs.
 
 
-**Parent Topic:**[Post installation troubleshooting](../concept/post-install-steps.md)
+**Parent Topic:**[Post installation troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/post-install-steps.md)
 
 **Related topics**  
 
 
-[Run fix scripts to update Employee Center](run_scripts_manually_config-search.md)
+[Run fix scripts to update Employee Center]()
 

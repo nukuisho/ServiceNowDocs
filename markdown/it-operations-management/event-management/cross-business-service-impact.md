@@ -2,6 +2,7 @@
 title: View impact of child service on parent service
 description: In the map view of an application service, the severity of a child service is propagated to its parent service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/cross-business-service-impact.html
 release: australia
 product: Event Management
 classification: event-management
@@ -28,7 +29,7 @@ In the map view of a discovered application service, you can see that the severi
 
 An application service is affected by the severity of alerts that are directly associated with it and alerts on the CIs that are in the service. If the severity of a child service is higher than that of its parent service, on the map view the parent service shows the severity of the child service. In the map view, the **Impact Tree** list shows the CIs. The color of the CIs indicates the alert severity. The child service is also affected by application services that are under it.
 
-![Child service severity is propagated to parent service](../image/service-health-propagated.png "Example where the parent service shows the severity of the child service")
+\[Omitted image "service-health-propagated.png"\] Alt text: Child service severity is propagated to parent service
 
 If a loop is created, for example, by connecting a parent service to a sub-service, this relationship can be viewed in the map view. The impact of this loop is not calculated and the Impact Tree does not display this relationship. For example, assume that there are three CIs, A, B, and C, where C is a sub-service to B and B is a sub-service to A. The relationship of the A connected service to C is displayed in the map view. However, this relationship is not shown in the Impact Tree.
 
@@ -38,7 +39,7 @@ For example, `Found loop in ServiceId:409d4fd59f030200fe2ab0aec32e705c, and node
 
 Click a service or CI to see the alerts that are associated with it. For example, if you click the high-level application service, the alerts that are associated with it are displayed in the alert area under the Map View. The alerts listed are those of the selected service. Alerts of child-services are listed when those services are selected.
 
-![Alert list in the Map View](../image/alert-list-map-view.png "Example of alerts listed under the Map View")
+\[Omitted image "alert-list-map-view.png"\] Alt text: Alert list in the Map View
 
 ## Procedure
 
@@ -56,11 +57,11 @@ In the service map, you can visually verify that the service health of the sub-s
 **Related topics**  
 
 
-[Transfer a map segment into another application service](../../service-mapping/task/add-segment-to-business-service-map.md)
+[Transfer a map segment into another application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-segment-to-business-service-map.md)
 
-[Configure a manual cluster](configure-manual-cluster.md)
+[Configure a manual cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-manual-cluster.md)
 
-[Adjust alert impact while triaging an alert](../../event-management-operator/task/operator-adjust-impact-rules.md)
+[Adjust alert impact while triaging an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-adjust-impact-rules.md)
 
-[View an alert impact on CIs in a service map](t_EMViewTopology.md)
+[View an alert impact on CIs in a service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewTopology.md)
 

@@ -2,6 +2,7 @@
 title: Configure the Accelerate Complaint Case Handling agentic workflow
 description: Configure the Accelerate Complaint Case Handling agentic workflow by defining key requirements and security controls. The workflow is then tested and made available through various channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

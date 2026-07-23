@@ -2,6 +2,7 @@
 title: Detect friendly fraud
 description: Detect friendly fraud and determine the course of actions required depending on the amount being disputed, the customer relationship, and the outcome of the detection logic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/resolve-friendly-fraud.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -40,7 +41,7 @@ Dispute agents can also use the Help resolve friendly fraud disputes agentic wor
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -64,29 +65,29 @@ Dispute agents can also use the Help resolve friendly fraud disputes agentic wor
 
     If the Friendly fraud AI Agent in Now Assist for FSO is enabled and is triggered based on the rules in the agentic workflow, then the AI agent provides a recommendation for the dispute along with a valid reason. The AI agent guides the dispute agent using the Now Assist panel to select the appropriate action and provide the reasons for the selection of options.
 
-    For more information, see [Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)](../../fso-now-assist/concept/using-ai-agent-use-cases-in-now-assist-for-fso.md).
+    For more information, see [Using agentic workflows in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/using-ai-agent-use-cases-in-now-assist-for-fso.md).
 
 9.  Select one of the following options.
 
-<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d107015e249">
+<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d111234e249">
 
 Action
 
-</th><th align="left" id="d107015e252">
+</th><th align="left" id="d111234e252">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d107015e258">
+</th></tr></thead><tbody><tr><td id="d111234e258">
 
 **Decline dispute transaction**
 
 </td><td>
 
 1.  Provide the reason for the decline and select **Mark Complete.**
-2.  The next activity **Customer communication** is displayed. See [Manage customer communication](resolve-fraud-customer-communication.md).
+2.  The next activity **Customer communication** is displayed. See [Manage customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
 
 
-</td></tr><tr><td id="d107015e288">
+</td></tr><tr><td id="d111234e288">
 
 **Issue credit and write-off**
 
@@ -100,22 +101,22 @@ The **Issue credit** activity is displayed.
 3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete.**
 .
 
-</td></tr><tr><td id="d107015e324">
+</td></tr><tr><td id="d111234e324">
 
 **Proceed with dispute**
 
 </td><td>
 
-The **Report fraud** activity is displayed. Follow the further steps to resolve the fraud. For more information, see [Report fraud to a card network](report-fraud-to-card-network.md).
+The **Report fraud** activity is displayed. Follow the further steps to resolve the fraud. For more information, see [Report fraud to a card network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/report-fraud-to-card-network.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Investigating a dispute](investigate-a-dispute.md)
+**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-a-dispute.md)
 
 **Related topics**  
 
 
-[Now Assist for Financial Services Operations \(FSO\)](../../fso-common/concept/now-assist-for-financial-services-operations.md)
+[Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
 
-[Resolve friendly fraud by using agentic AI](../../fso-now-assist/task/resolve-friendly-fraud-using-agentic-ai.md)
+[Resolve friendly fraud by using agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/resolve-friendly-fraud-using-agentic-ai.md)
 

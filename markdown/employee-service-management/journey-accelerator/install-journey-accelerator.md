@@ -2,6 +2,7 @@
 title: Install and configure Journey Accelerator
 description: Install the Journey Accelerator \[sn\_ja\] application to enable your users to easily create and manage transition plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/install-journey-accelerator.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -19,8 +20,8 @@ Install the Journey Accelerator \[sn\_ja\] application to enable your users to e
 
 The Employee Center must be installed and activated. Managers, employees, and mentors access Journey Accelerator plans from the EC.
 
--   Learn about the Employee Center \(EC\) portal \[com.sn\_hr\_service\_portal\] at [Employee Center](../../employee-center/concept/employee-center-landing-page.md).
--   If you are planning to use the Journey Accelerator v2 scheduling feature, see [Microsoft Exchange Online setup for Journey Accelerator](../concept/ja-ms-exchange-online-setup-1.md) before you begin installation.
+-   Learn about the Employee Center \(EC\) portal \[com.sn\_hr\_service\_portal\] at [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
+-   If you are planning to use the Journey Accelerator v2 scheduling feature, see [Microsoft Exchange Online setup for Journey Accelerator]() before you begin installation.
 -   Role required: admin
 
 ## Procedure
@@ -31,7 +32,7 @@ The Employee Center must be installed and activated. Managers, employees, and me
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -49,5 +50,5 @@ The Employee Center must be installed and activated. Managers, employees, and me
 **Related topics**  
 
 
-[Verify the Journey Accelerator installation](ja-verify-install-dataset-updates.md)
+[Verify the Journey Accelerator installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-verify-install-dataset-updates.md)
 

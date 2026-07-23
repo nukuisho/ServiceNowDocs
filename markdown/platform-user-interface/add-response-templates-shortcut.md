@@ -2,6 +2,7 @@
 title: Use keyboard shortcuts for emails
 description: Use keyboard shortcuts to view response templates, drafts, and email templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-response-templates-shortcut.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Role required: email\_composer
 
     -   **Open the full email composer**
 
-        Select the **More Actions** icon \(![More actions icon](../image/x-more-actions-icon.png)\) and **Compose Email**.
+        Select the **More Actions** icon \(\[Omitted image "x-more-actions-icon.png"\] Alt text: More actions icon\) and **Compose Email**.
 
 3.  In the email body, enter a keyboard shortcut.
 

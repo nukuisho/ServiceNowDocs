@@ -2,11 +2,12 @@
 title: Use extension points for open state management
 description: Control the options displayed in the product configurator by using extension points in Open state management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-open-state-configuration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Legacy product configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Use extension points for open state management

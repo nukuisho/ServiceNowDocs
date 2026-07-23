@@ -2,6 +2,7 @@
 title: Configure Legal
 description: Configure the Legal business unit to submit and manage legal requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/config-legal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +49,7 @@ Role required: admin, sn\_cbs.admin
     |Legal request|Submits general legal questions or requests legal services.|
 
     -   To customize an existing intake forms, select the **Edit** icon.
-    -   To create an intake form, select **Create new**. For more information, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder.md).
+    -   To create an intake form, select **Create new**. For more information, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/catalog-builder.md).
 
         **Note:** Create intake forms directly in the new instance. Moving intake forms configurations to a new instance using an update set isn’t supported.
 
@@ -96,8 +97,8 @@ Role required: admin, sn\_cbs.admin
 8.  Configure notifications sent through Email, Portal, and Workspace to users about submitted or assigned legal requests.
 
     -   To create an email notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
-    -   To create Portal or Workspace notification, see [Trigger conditions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/notif-trigger-form.md).
+    -   To create Portal or Workspace notification, see [Trigger conditions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/notif-trigger-form.md).
     -   After configuring notifications, select **Mark as configured**.
 
-**Parent Topic:**[Configure Core Business Suite using guided setup](../concept/config-cbs-using-guided-setup.md)
+**Parent Topic:**[Configure Core Business Suite using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-cbs-using-guided-setup.md)
 

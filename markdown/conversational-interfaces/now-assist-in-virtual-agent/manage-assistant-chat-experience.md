@@ -2,12 +2,13 @@
 title: Manage an assistant chat experience
 description: Manage the chat experience of your assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/manage-assistant-chat-experience.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-03-18"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
 
@@ -17,15 +18,17 @@ Manage the chat experience of your assistant.
 
 ## Before you begin
 
-See [Enable additional chat features](additional-chat-features.md).
+See [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
 
 Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-Define your greeting, closing messages and fallback options.
+Define your greeting, closing messages, and fallback options.
 
 Depending on your configuration, different options may appear. Legacy messages \(chat messages\) and legacy fallbacks \(chat fallbacks\) are shown when at least one display experience has standard chat or enhanced chat. Premium messages and premium fallbacks are shown when at least one display experience has premium chat.
+
+**Note:** If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. Review the settings to verify that everything was prefilled correctly. Adding or editing a premium fallback may take a few minutes to take effect after saving.
 
 A standard chat preview pane is shown for the default greeting topic and the default closing topic. Selecting custom topics won't show a preview pane.
 
@@ -39,16 +42,21 @@ Fallbacks appear in the preview pane when you toggle individual or all fallbacks
 
 2.  In the **Legacy messages** or the **Premium messages** section, set up your messages.
 
-    ![Greeting message screen.](../image/NAinVA-chat-experience-legacy-messages-0426.png "Set up Now Assist in Virtual Agent assistant legacy messages")
-
-    ![Greeting message screen.](../image/NAinVA-chat-experience--nap-premium-messages-0426.png "Set up Now Assist panel - Platform assistant premium messages")
+    \[Omitted image "NAinVA-chat-experience-legacy-messages-0426.png"\] Alt text: Greeting message screen.
 
     Selecting a default topic shows its corresponding default message. You can also create your own topic from **All** &gt; **Assistant Designer** &gt; **Asset Library**, and use it as the greeting or closing topic. When selecting a custom topic, the message field isn’t shown in the preview pane.
 
     Closing message only appears if you have a display experience with standard chat.
 
-    ![Closing topic and closing message for the standard chat experience.](../image/NAinVA-closing-message-122025.png "Standard chat closing message")
+    \[Omitted image "NAinVA-closing-message-122025.png"\] Alt text: Closing topic and closing message for the standard chat experience.
 
+    \[Omitted image "NAinVA-manage-premium-messages.png"\] Alt text: Premium messages screen.
+
+    For premium messages, select one of the greeting messages:
+
+    -   Default greeting message: The assistant generates a contextually-relevant greeting message.
+    -   Static greeting message: The message displays every time the assistant is accessed. You can customize your text in the input box.
+    -   Custom greeting topic: You can select any topic that you have created.
     **Note:** Configuration options differ between different assistant types and display experiences.
 
 <table id="table_vx4_nhh_zfc"><thead><tr><th>
@@ -85,13 +93,15 @@ Now Assist - Greeting is the default greeting topic for Now Assist in Virtual Ag
 
 Select a custom greeting if you want to replace the default greeting topic.
 
+For premium messages, choose between the default greeting message, the static greeting message, or use a custom greeting topic.
+
 </td><td>
 
 Yes
 
 </td><td>
 
-You can use the default greeting message or contact Support to create your own greeting source.
+Choose between the default greeting message, the static greeting message, or use a custom greeting topic.
 
 </td><td>
 
@@ -107,7 +117,9 @@ Greeting message
 
 </td><td>
 
-If the default greeting topic is used, the default greeting message is shown.If a custom greeting topic is selected, the **Greeting message** field doesn't appear.
+For legacy messages, if the default greeting topic is used, the default greeting message is shown. If a custom greeting topic is selected, the **Greeting message** field doesn't appear.
+
+ For premium messages, choose between the default greeting message, the static greeting message, or use a custom greeting topic.
 
 </td><td>
 
@@ -131,15 +143,15 @@ Closing topic
 
 </td><td>
 
-The closing topic is only applicable for the standard chat experience.Now Assist - Closing is the default closing topic. To replace it, select a topic from the drop-down menu.
+Now Assist - Closing is the default closing topic. To replace it, select a topic from the drop-down menu.
 
 </td><td>
 
-Yes \(only for standard chat\)
+Yes \(for standard, enhanced, and premium chat\)
 
 </td><td>
 
-No
+Yes
 
 </td><td>
 
@@ -159,11 +171,11 @@ Closing message
 
 </td><td>
 
-Yes \(only for standard chat\)
+Yes \(for standard, enhanced, and premium chat\)
 
 </td><td>
 
-No
+Yes
 
 </td><td>
 
@@ -179,7 +191,7 @@ Error topic
 
 </td><td>
 
-Now Assist - Error is the default topic for Now Assist in Virtual Agent assistants.Now Assist Panel - Error is the default topic for Now Assist panel assistants.
+Now Assist - Error is the default topic for Now Assist in Virtual Agent assistants.Now Assist panel - Error is the default topic for Now Assist panel assistants.
 
 To replace the default topic, select a custom topic from the drop-down menu.
 
@@ -205,7 +217,9 @@ Error message
 
 </td><td>
 
-If the default Now Assist - Error topic is used, the default Error message is used.If a custom topic is used, the error message field isn't shown.
+For legacy messages, if the default - Error topic is used, the default Error message is used. If a custom topic is used, the error message field isn't shown.
+
+ For premium messages, the error message is LLM generated and it's not configurable.
 
 </td><td>
 
@@ -213,7 +227,7 @@ Yes
 
 </td><td>
 
-Yes
+The error message is LLM generated and it's not configurable.
 
 </td><td>
 
@@ -231,11 +245,11 @@ Survey
 
 You can optionally select a custom topic to use it as a survey topic. If you don't select any topic, the default survey experience is applied.
 
- Feedback surveys are supported in both the standard and enhanced chat experiences. When enhanced chat is enabled, the survey is automatically triggered when the user indicates that they are finished chatting, based on the assistant's survey configuration.
+ Post chat feedback surveys are supported in standard, enhanced, and premium chat experiences. When premium chat is enabled, the survey is automatically triggered when the user indicates that they are finished chatting, based on the assistant's survey configuration.
 
 </td><td>
 
-Yes
+Yes \(for standard, enhanced, and premium chat\)
 
 </td><td>
 
@@ -243,7 +257,7 @@ No
 
 </td><td>
 
-Yes
+No
 
 </td><td>
 
@@ -252,11 +266,11 @@ No
 </td></tr></tbody>
 </table>3.  In the **Legacy fallbacks** or **Premium fallbacks** sections, activate one or more fallback options.
 
-    **Note:** For premium fallbacks, web search fallback is dependent on your web search mode setting in [Enable additional chat features](additional-chat-features.md). If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available where you can turn it on or off.
+    \[Omitted image "NAinVA-chat-experience-legacy-fallbacks-0426.png"\] Alt text: Activate fallback options.
 
-    ![Activate fallback options.](../image/NAinVA-chat-experience-legacy-fallbacks-0426.png "Activate Now Assist in Virtual Agent legacy fallback options")
+    \[Omitted image "NAinVA-manage-premium-fallbacks.png"\] Alt text: Activate fallback options.
 
-    ![Activate fallback options.](../image/NAinVA-chat-experience-nap-premium-fallbacks-0426.png "Activate Now Assist panel - Platform assistant premium fallback options")
+    For premium fallbacks, web search fallback is dependent on your web search mode setting in [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md). If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available where you can turn it on or off.
 
     **Note:** For Now Assist panel - Platform assistant, web search, record producer, and custom fallback are available options. End this chat and survey are available for the standard chat experience.
 
@@ -267,9 +281,9 @@ No
     -   To transfer a user to a live agent while also creating an incident record.
     -   To end a conversation while creating an incident report.
     -   To use a custom topic while having the live agent transfer option.
-    1.  Route the user to an available agent by turning on **Live agent**. Selecting the **Live agent topic** field displays a drop-down for topics, and the text input is used for the fallback button in the assistant. The default **Live agent topic** is **Now Assist Live Agent**.The default button label is **Request a live chat**.
+    For premium chat, you can select a topic for fallback options.
 
-        **Note:** To customize premium fallbacks for premium chat, contact Support.
+    1.  Route the user to an available agent by turning on **Live agent**. Selecting the **Live agent topic** field displays a drop-down for topics, and the text input is used for the fallback button in the assistant. The default **Live agent topic** is **Now Assist Live Agent**.The default button label is **Request a live chat**.
 
         If your instance doesn't have Live Agent configured, the **Live Agent** fallback option is unavailable. To configure Live agent, select the **Configure** link and navigate to **CI Admin console** &gt; **Settings** &gt; **Agent chat** tab. Use the default Now Assist Live Agent topic or select a topic.
 
@@ -279,7 +293,7 @@ No
 
         If the instance is self-hosted or regulated, the warning message won't be shown.
 
-        **Note:** For the premium chat experience, web search fallback requires web search mode to be turned on. To ensure that web search mode is turned on, see [Enable additional chat features](additional-chat-features.md).
+        **Note:** For the premium chat experience, web search fallback requires web search mode to be turned on. To ensure that web search mode is turned on, see [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
 
     3.  Direct the user to a record producer catalog item to create an incident or a case by turning on **Record producer**.
 
@@ -289,15 +303,12 @@ No
 
     4.  End the chat between the user and the assistant by turning on **End this chat**. End this chat is a fallback option for the standard chat experience. For the enhanced chat experience, conversations don't end. The text input is used for the fallback button in the assistant, and the default text input is **End this chat**. The button label default is **End this chat**.
     5.  Select a topic from the **Custom fallback topic** field by turning on **Custom fallback**. There isn't a default topic. The text input is used for the fallback button in the assistant. The default text input is **Custom fallback button**.
-
-        **Note:** There is no default custom premium fallbacks. To customize premium fallbacks, contact Support.
-
-    For more information about fallback options, see [Enhanced chat](../concept/nava-enhanced-chat.md).
+    For more information about fallback options, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
 
 4.  Select **Save and continue**.
 
 
 ## What to do next
 
-See [Review chat assistant settings](review-assistant-settings.md).
+See [Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/review-assistant-settings.md).
 

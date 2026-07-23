@@ -1,7 +1,8 @@
 ---
 title: Set up Now Assist AI agents
-description: The default \(out-of-the-box\) AI agents provide preconfigured agentic workflows that address common business challenges across ServiceNow applications. Before activating the default AI agents, you must ensure that your instance meets the prerequisites and complete the required configuration steps.
+description: The default \(base system\) AI agents provide preconfigured agentic workflows that address common business challenges across ServiceNow applications. Before activating the default AI agents, you must verify that your instance meets the prerequisites and complete the required configuration steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/set-up-na-aia.html
 release: australia
 topic_type: task
 last_updated: "2026-02-06"
@@ -11,7 +12,7 @@ breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
 
 # Set up Now Assist AI agents
 
-The default \(out-of-the-box\) AI agents provide preconfigured agentic workflows that address common business challenges across ServiceNow applications. Before activating the default AI agents, you must ensure that your instance meets the prerequisites and complete the required configuration steps.
+The default \(base system\) AI agents provide preconfigured agentic workflows that address common business challenges across ServiceNow applications. Before activating the default AI agents, you must verify that your instance meets the prerequisites and complete the required configuration steps.
 
 ## Before you begin
 
@@ -31,7 +32,7 @@ Role required: sn\_aia\_admin
         -   Now Assist for ITSM
         -   Now Assist for HRSD
         -   Now Assist for CSM
-        -   Now Assist for Security Operations
+        -   Now Assist for Security Incident Response
     -   Generative AI Controller plugin \(minimum version 11.0.0\)
     **Note:** Select **Load demo data** during installation to access preconfigured examples.
 
@@ -51,12 +52,12 @@ Role required: sn\_aia\_admin
     2.  Verify that AI Search is enabled.
 2.  Enable Now Assist panel.
 
-    1.  Navigate to **Now Assist Admin** &gt; **Experiences**.
+    1.  Navigate to **Now Assist admin** &gt; **Experiences**.
     2.  Turn on the **Panel** option.
 3.  Access the AI Agent Studio.
 
     1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
-    2.  Review the available default \(out-of-the-box\) agentic workflows.
+    2.  Review the available default \(base system\) agentic workflows.
 4.  Activate the default agentic workflows.
 
     1.  Select the agentic workflow that you want to use from the available default workflows.
@@ -77,9 +78,9 @@ Role required: sn\_aia\_admin
 
     If using external LLM providers instead of the default OpenAI GPT-4.1:
 
-    1.  Navigate to **Now Assist Admin Console** &gt; **Settings** &gt; **Manage Integration**.
+    1.  Navigate to **Now Assist admin Console** &gt; **Settings** &gt; **Manage Integration**.
     2.  Configure API credentials for your chosen LLM provider.
-    **Note:** The default Orchestration layer uses OpenAI GPT-4.1 on ServiceNow-managed Azure servers.
+    **Note:** The default Orchestration layer uses OpenAI GPT-4.1 5.4 on ServiceNow-managed Azure servers.
 
 7.  Test the default AI agents.
 

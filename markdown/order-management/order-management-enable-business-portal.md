@@ -2,6 +2,7 @@
 title: Enable the Business Portal
 description: Admins can enable the Business Portal \(sn\_b2b\_portal\) so customers can browse products and create orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-management-enable-business-portal.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Admins can enable the Business Portal \(sn\_b2b\_portal\) so customers can brows
 
 ## Before you begin
 
-The application scope must be set to Business Portal. You can change the application scope using the application picker ![](../../../reuse/icons/product-icons/globe-outline-24.svg) in the Unified Navigation bar.
+The application scope must be set to Business Portal. You can change the application scope using the application picker \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation bar.
 
 Role required: admin
 
@@ -23,7 +24,7 @@ Role required: admin
 
 To set up the Business Portal and Sales Customer Relationship Management self-service enhancements, first install the Business Portal plugins, which are available in the app store.
 
-See [Configuring the Business Portal](../concept/order-management-configure-business-portal.md) for more information.
+See [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-management-configure-business-portal.md) for more information.
 
 ## Procedure
 
@@ -40,5 +41,12 @@ See [Configuring the Business Portal](../concept/order-management-configure-busi
 
 ## What to do next
 
-Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see [Setup Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-business-portals.md).
+Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see [Setup Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-business-portals.md).
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-self-service-business-portal.md)
+
+[Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-business-portal.md)
 

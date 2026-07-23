@@ -1,7 +1,8 @@
 ---
-title: Renewal playbook
-description: Use the renewal playbook to define the account renewal processes in your organization. This playbook is used to drive contract renewals and improve customer retention.
+title: Renewal play
+description: Use the renewal play to define the account renewal processes in your organization. This playbook is used to drive contract renewals and improve customer retention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-renewal-playbook.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -9,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Playbooks, Customer success, Explore, Customer Success Management]
 ---
 
-# Renewal playbook
+# Renewal play
 
-Use the renewal playbook to define the account renewal processes in your organization. This playbook is used to drive contract renewals and improve customer retention.
+Use the renewal play to define the account renewal processes in your organization. This playbook is used to drive contract renewals and improve customer retention.
 
-The renewal playbook consists of the following stages:
+The renewal play consists of the following stages:
 
 -   Initiate
 -   Assess Opportunity
@@ -21,5 +22,5 @@ The renewal playbook consists of the following stages:
 -   Track Opportunity
 -   Review &amp; Close
 
-For instructions on how to create the renewal playbook, see [Create a renewal playbook](../task/account-lifecycle-create-renewal-playbook.md).
+For instructions on how to create the renewal play, see [Create a renewal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-renewal-playbook.md).
 

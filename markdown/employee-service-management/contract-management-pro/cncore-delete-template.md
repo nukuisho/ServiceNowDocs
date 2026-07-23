@@ -2,6 +2,7 @@
 title: Delete a contract template
 description: Delete contract template when you no longer need it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-delete-template.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -30,18 +31,18 @@ Role required: sn\_cm\_core.contract\_config
 4.  In the Confirmation pop-up, select **Delete**.
 
 
-**Parent Topic:**[Manage clauses, tables, and contract templates](../concept/cncore-manage-clauses-ctemplates.md)
+**Parent Topic:**[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)
 
 **Related topics**  
 
 
-[Edit a contract clause variation](cncore-edit-cv.md)
+[Edit a contract clause variation]()
 
-[Edit contract templates by manually adding content controls](cncore-edit-ct.md)
+[Edit contract templates by manually adding content controls]()
 
-[Edit a contract template using Microsoft Word add-in for ServiceNow Contracts](cncore-edit-ct-addin.md)
+[Edit a contract template using Microsoft Word add-in for ServiceNow Contracts]()
 
-[Create a contract template from an existing template](cncore-create-template-revision.md)
+[Create a contract template from an existing template]()
 
-[Generate and preview a contract document from a template](cncore-preview-template.md)
+[Generate and preview a contract document from a template]()
 

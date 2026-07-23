@@ -2,6 +2,7 @@
 title: Install Workplace Visitor Management
 description: Install the Workplace Visitor Management application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/install-workplace-visitor-mgmt.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -13,7 +14,7 @@ breadcrumb: [Configure, Workplace Visitor Management, Workplace Service Delivery
 
 # Install Workplace Visitor Management
 
-Install the Workplace Visitor Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Workplace Visitor Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -54,22 +55,22 @@ Use the following details when required:
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configuring Workplace Visitor Management](../concept/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 
 
-[Create a visitor policy](create-visitor-policy.md)
+[Create a visitor policy]()
 
-[Create a record producer for visitor management](create-rec-prodcr-visit-mgmt.md)
+[Create a record producer for visitor management]()
 
-[Configure a visitor type](configure-visitor-type.md)
+[Configure a visitor type]()
 
-[Configure visit requirements](configure-visit-requirements.md)
+[Configure visit requirements]()
 
-[Create a visitor badge template](create-visitor-badge-template.md)
+[Create a visitor badge template]()
 
-[Configuring Workplace Visitor Management for Workplace Services Kiosk](../concept/config-visitor-for-kiosk.md)
+[Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 
-[Quick start test for Workplace Visitor Management](../../../administer/atf-quick-start-tests/reference/quick-start-tests-wsd-visitor-mgmt.md)
+[Quick start test for Workplace Visitor Management]()
 

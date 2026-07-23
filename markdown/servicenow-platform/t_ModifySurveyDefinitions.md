@@ -2,6 +2,7 @@
 title: Modify a survey definition
 description: You can configure additional options for a survey definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ModifySurveyDefinitions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -195,7 +196,7 @@ Chat Survey
 
 </td><td>
 
-Option to validate if survey questions are supported in a chat survey. Enables conversational questionnaires \(pre-chat and post-chat surveys\) in the chat client. Also enables you to map chat context variables to survey questions. For information on a chat survey in ITSM Virtual Agent, see [Surveys in ITSM Virtual Agent](../concept/survey-virtual-agent.md).**Note:** This field is available only when the Glide Conversation Server plugin \(com.glide.cs\) is activated.
+Option to validate if survey questions are supported in a chat survey. Enables conversational questionnaires \(pre-chat and post-chat surveys\) in the chat client. Also enables you to map chat context variables to survey questions. For information on a chat survey in ITSM Virtual Agent, see [Surveys in ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-virtual-agent.md).**Note:** This field is available only when the Glide Conversation Server plugin \(com.glide.cs\) is activated.
 
 </td></tr><tr><td>
 
@@ -251,7 +252,7 @@ View Responses
 
 </td><td>
 
-Link that opens the list of [responses](../concept/c_SurveyResults.md) for this survey. This related link is available only if there are results for the survey.
+Link that opens the list of [responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md) for this survey. This related link is available only if there are results for the survey.
 
 </td></tr><tr><td>
 
@@ -259,7 +260,7 @@ View Scorecard
 
 </td><td>
 
-Link that opens the [scorecard](t_ViewAScorecard.md) for this survey. This related link is available only if there are results for the survey.
+Link that opens the [scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewAScorecard.md) for this survey. This related link is available only if there are results for the survey.
 
 </td></tr><tr><td>
 
@@ -267,7 +268,7 @@ View Survey URL
 
 </td><td>
 
-Link that opens a dialog box that displays a [URL](../concept/c_SurveyURLs.md) for this survey. The URL is useful for sharing a public survey.This related link is available only if the **Active** check box is selected. The URL does not work until the survey definition is published.
+Link that opens a dialog box that displays a [URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyURLs.md) for this survey. The URL is useful for sharing a public survey.This related link is available only if the **Active** check box is selected. The URL does not work until the survey definition is published.
 
 </td></tr><tr><td>
 
@@ -278,7 +279,7 @@ Show Benchmarks
 Opens the Benchmarks Dashboard that provides visibility into your key performance indicators \(KPIs\) and trends.**Note:**
 
 -   This related link is available only for survey\_admin, assessment\_admin and survey\_reader with bm\_viewer role.
--   You must opt in to Benchmarks to view the dashboard. See [Enable Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/t_EnableBench.md)
+-   You must opt in to Benchmarks to view the dashboard. See Enable Benchmarks
 -   This is applicable only for a published survey.
 
 
@@ -328,7 +329,7 @@ Metric Categories
 
 </td><td>
 
-All [survey categories](../concept/c_SurveyCategory.md) for this survey.
+All [survey categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyCategory.md) for this survey.
 
 </td></tr><tr><td>
 
@@ -336,7 +337,7 @@ Survey Users
 
 </td><td>
 
-All [survey users](../concept/c_SurveyUsersAndGroups.md) who are authorized to take this survey. If no users are listed, any user can take this survey.
+All [survey users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyUsersAndGroups.md) who are authorized to take this survey. If no users are listed, any user can take this survey.
 
 </td></tr><tr><td>
 
@@ -344,7 +345,7 @@ Assessment Instances
 
 </td><td>
 
-All [survey instances](t_ViewSurveyInstance.md) for this survey. Configure the form to add this related list to see it.
+All [survey instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewSurveyInstance.md) for this survey. Configure the form to add this related list to see it.
 
  **Note:** If you add a related list to the form, use list control to omit the **New** button. The system generates survey instances to produce functional surveys.
 
@@ -368,14 +369,14 @@ Recipients lists that are added to the survey.
 </table>4.  Save the record.
 
 
-**Parent Topic:**[Survey definitions](../concept/c_SurveyDefinitions.md)
+**Parent Topic:**[Survey definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDefinitions.md)
 
 **Related topics**  
 
 
-[Survey trigger conditions](../concept/c_TriggerConditions.md)
+[Survey trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_TriggerConditions.md)
 
-[Publish a survey](t_PublishASurvey.md)
+[Publish a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_PublishASurvey.md)
 
-[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduleEvents.md)
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduleEvents.md)
 

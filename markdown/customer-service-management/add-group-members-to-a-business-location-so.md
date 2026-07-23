@@ -2,6 +2,7 @@
 title: Add group members to a business location
 description: Enroll or add group members to a business location to create a dedicated group or team focused on specific cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-group-members-to-a-business-location-so.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

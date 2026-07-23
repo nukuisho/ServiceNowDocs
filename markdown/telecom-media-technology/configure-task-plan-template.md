@@ -2,6 +2,7 @@
 title: Configure the task plan template
 description: Configure the task plan template to add conditions to a template item that determines when a template item is applicable for domain orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/configure-task-plan-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ Role required: admin
         |oper|is|
         |Value|Select the specification from the list of records for domain order.|
 
-        ![task plan template.](../image/task-plan-condition.png)
+        \[Omitted image "task-plan-condition.png"\] Alt text: task plan template.
 
     -   Select **+New condition set** to add a new condition.
 

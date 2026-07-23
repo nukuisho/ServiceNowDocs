@@ -2,6 +2,7 @@
 title: Quick actions
 description: Define quick actions for your launcher screen so that your users can access commonly used functions, such as transferring records or using a template in the mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-config-quick-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,13 +26,13 @@ Define quick actions for a launcher screen so that your users can access commonl
 
  Users access quick actions by tapping the quick action icon.
 
- For Android users, this icon appears as a plus symbol \(![Android quick action icon](../image/quick-action-icon-ios.png)\) at the upper right corner of the launcher screen.
+ For Android users, this icon appears as a plus symbol \(\[Omitted image "quick-action-icon-ios.png"\] Alt text: Android quick action icon\) at the upper right corner of the launcher screen.
 
- For iOS users this icon appears as an ellipsis symbol \(![iOS quick action icon](../image/quick-action-icon.png)\)
+ For iOS users this icon appears as an ellipsis symbol \(\[Omitted image "quick-action-icon.png"\] Alt text: iOS quick action icon\)
 
 </td><td>
 
-![Quick actions screen.](../image/quick-actions-screenshot2.png)
+\[Omitted image "quick-actions-screenshot2.png"\] Alt text: Quick actions screen.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -124,7 +125,7 @@ Icon
 
 </td><td>
 
-Icon that displays for the quick action. Select **Choose** to use an existing icon or select **New** to add one. For more information about creating an icon, see [Mobile icons](../reference/sg-mobile-icon.md).
+Icon that displays for the quick action. Select **Choose** to use an existing icon or select **New** to add one. For more information about creating an icon, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).
 
 </td></tr></tbody>
 </table>7.  In the **Function placement** section, for **Button emphasis color**, select the emphasis color for the button from the following options.
@@ -135,11 +136,11 @@ Icon that displays for the quick action. Select **Choose** to use an existing ic
     |Primary|The emphasis color is the color that is set as the primary color in the mobile theme that you are using.|
     |Destructive|The emphasis color is the color that is set as the destructive color in the mobile theme that you are using.|
 
-    **Note:** For more information about mobile themes, see [Mobile theme color guidelines](../reference/sg-theme-colors.md). If you have enabled Next Experience theming for mobile, see [Next Experience theming for mobile](../concept/explore-ne-theming.md).
+    **Note:** For more information about mobile themes, see [Mobile theme color guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-theme-colors.md). If you have enabled Next Experience theming for mobile, see [Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/explore-ne-theming.md).
 
 8.  In the **Function** section, select **Choose** to use an existing function or select **New** to create one.
 
-    For information about creating a new function, see [Mobile functions](../concept/sg-studio-mobile-button-types.md).
+    For information about creating a new function, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
 
 9.  Select **Save**.
 

@@ -2,13 +2,14 @@
 title: Business rules installed with Procurement
 description: Procurement plugin adds the following business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/r\_BusinessRulesProcurement.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Components installed with Procurement, Activate Procurement, Procurement, IT Asset Management]
+breadcrumb: [Components installed with Procurement, Activate Procurement, Procurement, Common applications, Asset Management]
 ---
 
 # Business rules installed with Procurement
@@ -259,10 +260,10 @@ Hardware \[alm\_hardware\]
 Sets the **Configuration item** field on the catalog task and requested item to the related hardware CI created during the procurement process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Procurement](r_InstalledWithProcurement.md)
+</table>**Parent Topic:**[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/r_InstalledWithProcurement.md)
 
 **Related topics**  
 
 
-[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md)
+[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md)
 

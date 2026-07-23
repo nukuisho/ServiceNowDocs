@@ -2,13 +2,14 @@
 title: Software Publisher Analytics dashboard for SAP in Software Asset Management classic
 description: View your license compliance position for SAP on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/dashboard-sap.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Publisher Analytics dashboard for SAP in Software Asset Management classic
@@ -26,8 +27,6 @@ The dashboard is updated whenever a new reconciliation result is available.
 |SAM user: Can view the dashboard to track SAP license compliance and potential savings.|sam\_user|
 
 ## SAP dashboard
-
-![Software Publisher Analytics dashboard for SAP.](../image/publisher-dashboard-sap.png)
 
 <table id="table_qc5_wn3_qfb"><thead><tr><th>
 
@@ -212,38 +211,38 @@ SAP System Users
 Number of SAP users that have indirect access to the SAP system.Users are given a score based on total CPU time, peak count, and steps.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management publisher pack for SAP](../concept/sap-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sap-publisher-pack.md)
 
 **Related topics**  
 
 
-[Tables installed with the SAP publisher pack](../concept/component-installed-sap-plugin.md)
+[Tables installed with the SAP publisher pack]()
 
-[Deploy the ABAP program for SAP](../task/import-abap-program-sap.md)
+[Set up SAP integration to establish a connection with SAP]()
 
-[Establish an SAP connection using basic authentication](../task/add-sap-connection.md)
+[Establish an SAP connection using basic authentication]()
 
-[Establish an SAP connection using OAuth 2.0](../task/add-sap-connection-oauth.md)
+[Establish an SAP connection using OAuth 2.0]()
 
-[Create entitlements for SAP](../task/create-entitlement-sap.md)
+[Create entitlements for SAP]()
 
-[Create software models for SAP](../task/add-software-model-sap.md)
+[Create software models for SAP]()
 
-[Create a custom SAP named user type](../task/create-named-user.md)
+[Create a custom SAP named user type]()
 
-[Map a role to a named user type](../task/create-named-user-type-role-mapping.md)
+[Map a role to a named user type]()
 
-[Create custom SAP price lists](../task/create-sap-pricelist.md)
+[Create custom SAP price lists]()
 
-[Import custom SAP named user types](../task/import-custom-sap-named-user-type.md)
+[Import custom SAP named user types]()
 
-[Import custom SAP price lists](../task/import-custom-sap-price-list.md)
+[Import custom SAP price lists]()
 
-[SAP USMM-based optimization](../concept/usmm-optimization.md)
+[SAP USMM-based optimization]()
 
-[User transaction activity for named user types](../concept/sap-named-user-transaction-activity.md)
+[User transaction activity for named user types]()
 
-[Self-declaring SAP engine license usage](../concept/self-declaring-sap-engine-usage.md)
+[Self-declaring SAP engine license usage]()
 
-[Publisher overview for SAP in the Software Asset Workspace](publisher-overview-sap.md)
+[Publisher overview for SAP in the Software Asset Workspace]()
 

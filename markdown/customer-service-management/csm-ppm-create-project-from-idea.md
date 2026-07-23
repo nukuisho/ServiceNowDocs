@@ -2,6 +2,7 @@
 title: Create a customer project from an idea
 description: Create a customer project from an idea on the Idea Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-create-project-from-idea.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: customer project manager \(it\_project\_manager + sn\_customerser
 
 ## About this task
 
-The Idea Portal provides a central location to collect, curate, and promote ideas into demand, project, epic, or story. With the Customer Service Management integration with Project Portfolio Management, you can also create a customer project from an idea. For more information, see [Idea Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-portal.md).
+The Idea Portal provides a central location to collect, curate, and promote ideas into demand, project, epic, or story. With the Customer Service Management integration with Project Portfolio Management, you can also create a customer project from an idea. For more information, see [Idea Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/idea-portal.md).
 
 ## Procedure
 

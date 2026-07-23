@@ -2,6 +2,7 @@
 title: Create the More Information workflow in the Asset Refresh topic
 description: In our example, we must provide the workflow for the "more information" Decision branch. If the user wants to learn more before upgrading, we can point them to a specific KB article explaining how your organization's policy works.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow3.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,8 +19,8 @@ In our example, we must provide the workflow for the "more information" Decision
 
 ## Before you begin
 
--   [Create the Asset Refresh topic in Virtual Agent Designer](create-example-conv-asset-refresh.md)
--   [Create the Open Incident workflow in the Asset Refresh topic](create-example-asset-refresh-flow2.md)
+-   [Create the Asset Refresh topic in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-conv-asset-refresh.md)
+-   [Create the Open Incident workflow in the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-flow2.md)
 
 Role required: virtual\_agent\_admin or admin
 
@@ -37,7 +38,7 @@ Role required: virtual\_agent\_admin or admin
 
         For example, enter `hardware upgrade policy`.
 
-        ![Enter the search string in the Search Term field.](../images/crawl-ex-run-ai-search-string.png)
+        \[Omitted image "crawl-ex-run-ai-search-string.png"\] Alt text: Enter the search string in the Search Term field.
 
 3.  Show the results of the search to the user.
 
@@ -51,7 +52,7 @@ Role required: virtual\_agent\_admin or admin
         -   Table name: **Knowledge Article \[sn\_km\_mr\_st\_kb\_knowledge\]**
         -   In the Condition builder, restrict the results to specific internal KB numbers that describe the policy, such as **Number is KB000000456**.
 
-            ![In the condition builder, specify a specific KB article or a range of articles. For example, Number is KB000000456.](../images/crawl-ex-poss-ai-search-results.png)
+            \[Omitted image "crawl-ex-poss-ai-search-results.png"\] Alt text: In the condition builder, specify a specific KB article or a range of articles. For example, Number is KB000000456.
 
         -   In the **fields** area, select **Content** for a single KB article, or **Short description** if multiple records are returned.
 4.  Once the user has read the KB article, give them the option to continue with the upgrade.
@@ -66,7 +67,7 @@ Role required: virtual\_agent\_admin or admin
 
             For example, your choices might be `Yes, upgrade now` and `No, maybe later`. The values should make sense as variable names. For example, `yes` and `no`.
 
-        ![Static choice properties for "Upgrade Next Steps" node. It includes a user prompt and two choices: Yes, upgrade now or No, maybe later.](../images/crawl-ex-upgrade-now-later.png)
+        \[Omitted image "crawl-ex-upgrade-now-later.png"\] Alt text: Static choice properties for "Upgrade Next Steps" node. It includes a user prompt and two choices: Yes, upgrade now or No, maybe later.
 
 5.  Add a Decision utility to handle the user's choice.
 
@@ -78,13 +79,13 @@ Role required: virtual\_agent\_admin or admin
 
     4.  For each branch, select it and then use the Branch Condition area to indicate which option the branch will follow.
 
-        ![Use the condition builder to specify the Upgrade Next Steps choice node and the corresponding user choice that this branch will follow, such as "Yes, upgrade now."](../images/crawl-ex-condition-upgrade-now.png)
+        \[Omitted image "crawl-ex-condition-upgrade-now.png"\] Alt text: Use the condition builder to specify the Upgrade Next Steps choice node and the corresponding user choice that this branch will follow, such as "Yes, upgrade now."
 
     5.  Drag the `no` flow's arrow to the End node to complete this part of the workflow.
 
     6.  Drag the `yes` flow's arrow to the Asset Lookup node to bring the user to the upgrade workflow.
 
-        ![This Decision utility has two branches: yes, upgrade and no, not now. Choosing yes takes the user through the upgrade flow. Choosing no ends the conversation.](../images/crawl-ex-decision-after-info.png)
+        \[Omitted image "crawl-ex-decision-after-info.png"\] Alt text: This Decision utility has two branches: yes, upgrade and no, not now. Choosing yes takes the user through the upgrade flow. Choosing no ends the conversation.
 
 6.  Select **Save**.
 
@@ -93,16 +94,16 @@ Role required: virtual\_agent\_admin or admin
 
 Your topic is ready to test. Test the topic, making sure you go through each possible workflow in the conversation and make any needed adjustments.
 
-For more information about testing topics, see [Testing NLU/Keyword topics](../reference/va-designer-testing.md). If you're using NLU discovery, [add utterances](modify-nlu-utterances-va-topic.md) to the intent and [train and test your NLU model.](train-test-publish-nlu-model-vad.md)
+For more information about testing topics, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md). If you're using NLU discovery, [add utterances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/modify-nlu-utterances-va-topic.md) to the intent and [train and test your NLU model.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.md)
 
-When you're finished, [publish the topic](publish-virtual-agent-topic.md).
+When you're finished, [publish the topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 ## What to do next
 
-[Create the notification for the Asset Refresh topic](create-example-asset-refresh-notification.md)
+[Create the notification for the Asset Refresh topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-example-asset-refresh-notification.md)
 
 **Related topics**  
 
 
-[Improving the user experience with AI Search](../concept/va-ai-search.md)
+[Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md)
 

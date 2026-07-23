@@ -2,6 +2,7 @@
 title: Configure how an automatic event is created
 description: Configure the ServiceNow AI Platform to automatically create events in MISP.Configure the event trigger conditions in the ServiceNow AI Platform so that you can automatically trigger an event in MISP when the conditions are met.Map the MISP event fields in the ServiceNow AI Platform so that security incident information is available when MISP events are created.Map the Security Incident Response observable types to the MISP attribute types because the MISP attribute types and the SIR observables may be different.Synchronize the MITRE-ATT&amp;CK information with MISP attributes for better security incident and threat analysis.Add MISP tags to the created MISP events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configure-automatic-event-creation-profile.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Configure the ServiceNow AI Platform to automatically create events in MISP.
 
 ## Before you begin
 
--   [Review the MISP user role and permissions](../reference/misp-user-roles-and-permissions.md) that are required for using the MISP bi-directional features.
+-   [Review the MISP user role and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-user-roles-and-permissions.md) that are required for using the MISP bi-directional features.
 -   Role required: sn\_si.admin, sn\_ti.admin
 
 ## Procedure
@@ -78,28 +79,28 @@ Option that indicates if the profile is active or inactive. The option is cleare
 </table>4.  Click **Continue**.
 
 
-**Parent Topic:**[MISP administration](../concept/misp-administration.md)
+**Parent Topic:**[MISP administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/misp-administration.md)
 
 **Related topics**  
 
 
-[Getting started with MISP integration for Security Operations](../reference/get-started-with-misp-integration-for-security-operations.md)
+[Getting started with MISP integration for Security Operations]()
 
-[Install and configure the MISP integration for Security Operations](install-and-configure-misp.md)
+[Install and configure the MISP integration for Security Operations]()
 
-[Review the MISP integration settings](review-the-misp-integration-settings.md)
+[Review the MISP integration settings]()
 
-[Configure MISP sighting searches](configure-sightings-search.md)
+[Configure MISP sighting searches]()
 
-[MISP event data](../concept/misp-event-data.md)
+[MISP event data]()
 
-[Associated MISP events](../reference/associated-misp-events.md)
+[Associated MISP events]()
 
-[MISP user information](../reference/misp-user-information.md)
+[MISP user information]()
 
-[Domain separation and MISP](../reference/domain-separation-and-misp.md)
+[Domain separation and MISP]()
 
-[Troubleshooting MISP integration](../reference/troubleshooting-misp-integration.md)
+[Troubleshooting MISP integration]()
 
 ## Configure event trigger conditions
 
@@ -166,7 +167,7 @@ MISP event that you can create if an observable doesn't have corresponding event
 </td></tr></tbody>
 </table>    The following example shows the event trigger conditions as you set up the MISP event creation profile.
 
-    ![Configure conditions that are based on an event that is created in MISP.](../image/misp-event-trigger-conditions.png "Event trigger conditions")
+    \[Omitted image "misp-event-trigger-conditions.png"\] Alt text: Configure conditions that are based on an event that is created in MISP.
 
 2.  Click **Continue**.
 
@@ -238,7 +239,7 @@ Current stage of the analysis for the event, with the following possible options
 
 
 
-    ![Configure the form to create a new event in MISP.](../image/misp-event-field-mapping.png)
+    \[Omitted image "misp-event-field-mapping.png"\] Alt text: Configure the form to create a new event in MISP.
 
 2.  Click **Continue**.
 
@@ -293,7 +294,7 @@ Option to map the SIR observable types to the MISP attribute types. For example,
 
  To add a new mapping, click **Add Observable Type**, search for the SIR observable type, and then map to the corresponding MISP attribute type.
 
- Click the Remove Mapping icon ![Remove mapping.](../image/misp-remove-mapping.png) to remove the SIR and MISP attribute mapping association.
+ Click the Remove Mapping icon \[Omitted image "misp-remove-mapping.png"\] Alt text: Remove mapping. to remove the SIR and MISP attribute mapping association.
 
  **Note:** For more information on MISP attribute types, see the [MISP documentation](https://www.circl.lu/doc/misp/categories-and-types/#types).
 
@@ -318,7 +319,7 @@ Option that lets you know that if an observable is marked as malicious in SIR, t
 
 
 
-    ![Map SIR observable and MISP attribute type.](../image/misp-attribute-mapping.gif)
+    \[Omitted image "misp-attribute-mapping.gif"\] Alt text: Map SIR observable and MISP attribute type.
 
 
 ## Synchronize MITRE-ATT&amp;CK information to MISP events

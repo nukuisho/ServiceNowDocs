@@ -2,13 +2,14 @@
 title: Add an AWS service account
 description: Add an AWS service account to store the credential and access information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-service-acct-add-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Cloud Cost Management for AWS, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Add an AWS service account
@@ -33,7 +34,7 @@ A service account is a secure record on your instance that stores the credential
 
 2.  Select **New**.
 
-3.  On the form, fill in the fields.
+3.  On the Cloud Service Account form, fill in the fields.
 
 <table id="table_pm4_gm2_1yb"><thead><tr><th>
 
@@ -49,7 +50,7 @@ Name
 
 </td><td>
 
-Unique and meaningful name for this service account.
+A unique and descriptive name for this service account.
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Is Billing Account
 
 </td><td>
 
-Option for enabling the account to access billing data.
+The option for enabling the account to access billing data.
 
 </td></tr></tbody>
 </table>4.  Select **Save**.
@@ -112,7 +113,7 @@ The service account that you created gets listed on the **Service accounts** pag
 **Related topics**  
 
 
-[Schedule and manage the jobs that download AWS billing data](aws-bill-dwnld-job-cloudin.md)
+[Schedule and manage the jobs that download AWS billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-bill-dwnld-job-cloudin.md)
 
-[Schedule and manage the Cloud Cost Management jobs that download AWS price sheets](aws-pricesht-sched-dwnld-cloudin.md)
+[Schedule and manage the Cloud Cost Management jobs that download AWS price sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-pricesht-sched-dwnld-cloudin.md)
 

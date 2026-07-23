@@ -2,6 +2,7 @@
 title: Import an application into Visual Studio Code
 description: After you create a project, import an application from your instance into the project to begin editing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/vscode-import-application.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Role required: none.
 
 3.  At the **Configure file types** prompt, click **OK** to select all file types.
 
-    ![Select metadata prompt in Visual Studio Code](../image/vscode-select-metadata.png)
+    \[Omitted image "vscode-select-metadata.png"\] Alt text: Select metadata prompt in Visual Studio Code
 
     By default, Visual Studio Code imports all the file types of your application. You can modify the selection of the file types while editing the application, by choosing **Now: Configure File Types** from the command palette and choosing the file types from the list.
 
@@ -38,5 +39,5 @@ Role required: none.
     You can switch applications within the workspace by clicking the name of the application, for example, EmployeeApp in this case, in the status bar at the bottom of the VS code IDE or choosing **Now: Select Application** from the command palette and selecting the application name from the list. Similarly, you can modify the update set by clicking the current update set icon, for example, EmployeeApp in this case, in the status bar at the bottom of the VS code IDE or by choosing **Now: Select Update Set** from the command pallet and selecting the name of the updateset.
 
 
-**Parent Topic:**[Create a project in VS Code](create-project.md)
+**Parent Topic:**[Create a project in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-project.md)
 

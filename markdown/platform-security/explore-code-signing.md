@@ -2,6 +2,7 @@
 title: Exploring Code Signing
 description: Code Signing provides cryptographic verification to ensure that only authorized scripts can execute on MID Servers. Code Signing prevents unauthorized or tampered External Communication Channel \(ECC\) queue records from being processed by MID Servers, maintaining the integrity of integrations between ServiceNow and external systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/explore-code-signing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Code Signing declares the intent behind the operation being performed and valida
 
 </td><td>
 
-![Code signing process diagram](../image/codesign-diagram-1.png)
+\[Omitted image "codesign-diagram-1.png"\] Alt text: Code signing process diagram
 
 </td></tr></tbody>
 </table>Code Signing uses a secure Circle of Trust \(COT\) between your trusted and protected instances to help ensure that only authorized, secure trusted instances can access the Code Signing feature.
@@ -78,7 +79,7 @@ All the metadata tables with valid configurations are signed at build time using
 
     **Note:** With the Australia release, script includes and business rule records are signed using the new "Wild Card Purpose". This replaces the previously empty purpose value. This change eliminates import warnings and manual intervention when handling large numbers of such records. You cannot create or update a signature configuration with the wild card purpose because it is already predefined. This value is reserved for script includes and business rules only, not for other tables. Attempts to use it elsewhere result in an error.
 
-    ![Signature Configuration record for an update set.](../../key-management-framework/image/kmf-signature-config.png "KMF signature record for update set")
+    \[Omitted image "kmf-signature-config.png"\] Alt text: Signature Configuration record for an update set.
 
 -   **Mass sign records**
 
@@ -88,8 +89,8 @@ All the metadata tables with valid configurations are signed at build time using
 
     This job signs all the attachment records that are attached to a table that matches a specified signature configuration​.
 
-    ![Encryption job to mass sign records.](../../key-management-framework/image/encryption-job.png "Code signing job to mass sign records")
+    \[Omitted image "encryption-job.png"\] Alt text: Encryption job to mass sign records.
 
 
-**Parent Topic:**[Code Signing](code-signing-landing.md)
+**Parent Topic:**[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/code-signing-landing.md)
 

@@ -2,6 +2,7 @@
 title: Add subscription pricing to a quote
 description: Add subscription pricing to a quote or quote line items including start and end dates in Quote Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/quote-management-add-subscription-pricing.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,11 +26,11 @@ In a quote, you can set the subscription pricing start date and end date, or you
 
 Subscription pricing can be added at the quote header level or at the quote line item level.
 
-See [Subscription revenue metrics](../concept/som-subscription-pricing.md) for more information about how subscription pricing works.
+See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-subscription-pricing.md) for more information about how subscription pricing works.
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**
 
@@ -49,5 +50,5 @@ See [Subscription revenue metrics](../concept/som-subscription-pricing.md) for m
 5.  Select **Save**.
 
 
-**Parent Topic:**[Using Quote Management](../concept/quote-mgmt-using.md)
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-mgmt-using.md)
 

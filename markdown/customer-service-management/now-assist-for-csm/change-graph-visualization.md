@@ -2,6 +2,7 @@
 title: Change graph visualization
 description: Change a graph visualization to a different type within the same graph group, such as converting a horizontal bar chart to a vertical bar chart or an area chart to a line chart.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/change-graph-visualization.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -58,7 +59,7 @@ This procedure allows you to change a graph to a different visualization type wi
 **Related topics**  
 
 
-[Change an insight to use a different field for trending topics](change-insight-to-use-a-different-field.md)
+[Change an insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
 
-[Add a new filter](add-a-new-filter.md)
+[Add a new filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
 

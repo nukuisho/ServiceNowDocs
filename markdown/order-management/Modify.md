@@ -2,6 +2,7 @@
 title: Modify
 description: Modify Customer contracts, contracts lines, and entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/Modify.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

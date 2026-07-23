@@ -2,6 +2,7 @@
 title: Develop a component for Virtual Agent
 description: Create a custom Virtual Agent component to gather input or display information in the Virtual Agent client interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/va-components.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ To develop a component for Virtual Agent, add specific properties and actions to
 
 -   **Response component**
 
-    A response component only provides information to the user, and does not gather input or handle user interaction. For example, a card control that does not require user input and is only in the conversation once.![A card control as an output component that does not require user input](../image/card-control.png)
+    A response component only provides information to the user, and does not gather input or handle user interaction. For example, a card control that does not require user input and is only in the conversation once.\[Omitted image "card-control.png"\] Alt text: A card control as an output component that does not require user input
 
     Add a property to your response component to handle the data sent by the Virtual Agent server.
 
@@ -110,7 +111,7 @@ Because they accept data, input components must handle multiple states. The stat
 
     The initial state of a component waiting for user interaction. The `controlData` property is set, but the `forceControlClosed` property is false. This example shows a slider component in the waiting for input state.
 
-    ![Component waiting for input.](../image/slider-open.png)
+    \[Omitted image "slider-open.png"\] Alt text: Component waiting for input.
 
     In this example, if the user has not provided a `responseValue` and the control is not closed, the slider and the input button display.
 
@@ -157,13 +158,13 @@ Because they accept data, input components must handle multiple states. The stat
     -   The user ended the chat. The server does not wait for a response.
     For example, the slider component only renders the original prompt when in the closed state.
 
-    ![Closed component that is no longer waiting on user input.](../image/closed-slider.png)
+    \[Omitted image "closed-slider.png"\] Alt text: Closed component that is no longer waiting on user input.
 
 -   **Sending response**
 
     After the user responds, the control is rendered again on the user's side of the conversation with the value of the `responseValue` property.
 
-    ![Users response sent to the client.](../image/input-control-response.png)
+    \[Omitted image "input-control-response.png"\] Alt text: Users response sent to the client.
 
     For example, the slider control uses this snippet to render the response.
 
@@ -179,12 +180,12 @@ Because they accept data, input components must handle multiple states. The stat
 
 ## Adding the component to Virtual Agent Designer
 
-After developing the component and deploying it to your instance, add it to Virtual Agent Designer using a custom control and definition. For more information, see [Virtual Agent custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/custom-controls.md).
+After developing the component and deploying it to your instance, add it to Virtual Agent Designer using a custom control and definition. For more information, see [Virtual Agent custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/custom-controls.md).
 
--   **[Add properties to communicate with Virtual Agent](../task/add-va-properties.md)**  
+-   **[Add properties to communicate with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-va-properties.md)**  
 To develop a component for Virtual Agent, add specific properties and actions to interact with the Virtual Agent client interface. The properties required depend on the type of component you are creating.
--   **[Test a component for Virtual Agent](../task/test-va-component.md)**  
+-   **[Test a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-va-component.md)**  
 Test your Virtual Agent custom component before deploying it to your instance.
 
-**Parent Topic:**[Create custom components using ServiceNow CLI](custom-components.md)
+**Parent Topic:**[Create custom components using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/custom-components.md)
 

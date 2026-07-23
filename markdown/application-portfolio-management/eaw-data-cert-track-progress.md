@@ -2,6 +2,7 @@
 title: Track progress of a certification policy
 description: Monitor and review the certification policy status to track completion progress and view details such as total tasks, completed tasks, open tasks, and unassigned tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-data-cert-track-progress.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,16 +22,16 @@ Role required: sn\_apm.apm\_analyst
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Data certification page by selecting the Data certification icon \(![data certification icon](../../image/eaw-image/icon-data-cert.png)\).
+2.  Open the Data certification page by selecting the Data certification icon \(\[Omitted image "icon-data-cert.png"\] Alt text: data certification icon\).
 
     The Data certification page opens.
 
 3.  Select the **Track Progress** tab.
 
-    A list of certification instances are displayed with details such as due date, percent complete, and associated tasks.![Track progress of certification policies](../../image/eaw-image/eaw-data-cert-track-prog.png)
+    A list of certification instances are displayed with details such as due date, percent complete, and associated tasks.\[Omitted image "eaw-data-cert-track-prog.png"\] Alt text: Track progress of certification policies
 
     **Note:** You can select each link under the Certification instance column to see associated policy tasks.
 
 
-**Parent Topic:**[Working with data certification](../../concept/eaw-concept/eaw-work-with-data-cert.md)
+**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-data-cert.md)
 

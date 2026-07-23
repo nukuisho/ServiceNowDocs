@@ -2,6 +2,7 @@
 title: Windows discovery
 description: Discovery identifies and classifies information about Windows computers that use IPv4 addresses, IPv6 addresses, or both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoWindowsComputers.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -58,7 +59,7 @@ The following device types haven’t been verified for IPv6 discovery:
 
 -   **Configure Windows credentials**
 
-    For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
+    For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 -   **Verify user access**
 
@@ -70,7 +71,11 @@ The following device types haven’t been verified for IPv6 discovery:
     -   Membership in the Distributed COM Users local security group.
 -   **\(Optional\) Populate Virtual Machine Object field in Hardware \[cmdb\_ci\_hardware\] table**
 
-    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating the Virtual Machine Object field in the Hardware \[cmdb\_ci\_hardware\] table. For more information, see [Improved query performance with direct field population in CI tables](../../service-mapping/concept/query-service-account-ldc-fields.md).
+    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating the Virtual Machine Object field in the Hardware \[cmdb\_ci\_hardware\] table. For more information, see [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md).
+
+-   **Set the preferred IP address version for network adapter discovery**
+
+    Starting with Visibility Content version 6.32.0, if your network adapters support both IPv4 and IPv6, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
 
 
 ## Classifiers, probes, and patterns
@@ -137,7 +142,7 @@ Windows OS - Server
 
 ^These probes remain active by default, even when Discovery uses pattern discovery.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](../concept/c-UsingPatternsForHorizontalDiscovery.md#) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected
 
@@ -163,7 +168,7 @@ To use patterns, verify that the correct pattern is specified in the horizontal 
 |DNS domain|cmdb\_ci\_win\_server|dns\_domain|DNS|
 |Free space \(GB\)|cmdb\_ci\_file\_system|free\_space|wmi|
 |Hostname|cmdb\_ci\_win\_server|host\_name|DNS, NBT|
-|IP address|cmdb\_ci\_network\_adapter|ip\_address|wmi|
+|IP address\*\*\*|cmdb\_ci\_network\_adapter|ip\_address|wmi|
 |Listening on|cmdb\_running\_process|listening\_on|wmi|
 |MAC address|cmdb\_ci\_network\_adapter|mac\_address|wmi|
 |Manufacturer|cmdb\_ci\_win\_server|manufacturer|wmi|
@@ -188,6 +193,8 @@ To use patterns, verify that the correct pattern is specified in the horizontal 
 
 \*\* The value in the **disk\_space** field is an aggregation of the total capacity \(to include used space\) for all non-removable disks, including both directly attached and SAN storage.
 
+\*\*\* Starting with Visibility Content version 6.32.0, for network adapters that support both IPv4 and IPv6, the IPv4 address is populated by default. Before this release, the populated value was selected randomly. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
+
 ## The Windows registry
 
 Discovery can find software that has been installed on a Windows machine by looking at the Windows Registry. Discovery can find the following attributes of discovered software:
@@ -200,13 +207,13 @@ Discovery can find software that has been installed on a Windows machine by look
 -   **Install Date**: The date the software was installed. The Windows - Installed Software sensor appends a timestamp of 00:00:00 to the install\_date retrieved from the registry. The installation time of all Windows software is independent of the time zone and is set to midnight of the day it was installed. For example, an install date of **2.19.2017** in the Windows registry appears as **2.19.2017 00:00:00** in the CMDB.
 -   **Installed on**: The name of the asset on which the software is installed.
 
--   **[Windows server cluster discovery](r_WindowsServerClusterDiscovery.md)**  
+-   **[Windows server cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_WindowsServerClusterDiscovery.md)**  
 Discovery establishes the relationships between a Windows server cluster and its nodes.
 
-**Parent Topic:**[Operating systems discovery](../concept/c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
 
 **Related topics**  
 
 
-[Windows probes and permissions](r_DiscoWinProbesAndPermissions.md)
+[Windows probes and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoWinProbesAndPermissions.md)
 

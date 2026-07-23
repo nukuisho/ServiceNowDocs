@@ -2,6 +2,7 @@
 title: Create or modify to-dos
 description: Create or modify a to-dos in the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-to-dos-page-filters.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -261,7 +262,7 @@ Widget
 
 </td><td>
 
-Name of the widget that the to-dos configuration is associated with.**Note:** To learn more about widgets and how to configure them, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
+Name of the widget that the to-dos configuration is associated with.**Note:** To learn more about widgets and how to configure them, see [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal-widgets.md)
 
 </td></tr></tbody>
 </table>    3.  Click **Submit** or **Update**.
@@ -331,7 +332,7 @@ Enter the order number in which you want the To-do to appear in the widget.
 </td></tr></tbody>
 </table>    3.  Under **Field Mappings**, map the fields of the selected **To-dos configuration** table with the **To-do target** table.
 
-        ![field mapping details](../images/to-do-config-field-mapping.png "To-do configuration detail field mappings")
+        \[Omitted image "to-do-config-field-mapping.png"\] Alt text: field mapping details
 
     4.  Click **Submit** or **Update**.
 
@@ -341,5 +342,5 @@ Enter the order number in which you want the To-do to appear in the widget.
 **Related topics**  
 
 
-[Enable task configuration for approvals](approval-hub-to-dos-page-filters.md)
+[Enable task configuration for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.md)
 

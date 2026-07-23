@@ -2,6 +2,7 @@
 title: Install Conversational Integration with Alexa
 description: You can install the Conversational Integration with Alexa application \(sn.va.alexa\) if you have the admin role. The application installs the related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/install-alexa.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -28,7 +29,7 @@ The following applications are installed with Conversational Integration with Al
 
     Provides the custom chat integration framework of scriptable APIs to enable the Virtual Agent application on any conversational interface.
 
-    For more information, see [Creating conversational custom chat integrations in Virtual Agent](../concept/va-custom-adapter-framework.md).
+    For more information, see [Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
 
 -   **ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)**
 
@@ -43,7 +44,7 @@ The following applications are installed with Conversational Integration with Al
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -160,5 +161,5 @@ The following applications are installed with Conversational Integration with Al
 }
 ```
 
-**Parent Topic:**[Conversational Integration with Alexa](../concept/conv-integ-alexa.md)
+**Parent Topic:**[Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conv-integ-alexa.md)
 

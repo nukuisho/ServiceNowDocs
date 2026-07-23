@@ -2,6 +2,7 @@
 title: Slow queries and SQL debugging
 description: Debugging SQL and slow queries can help you resolve slowness issues in an instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-debug-sql.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,62 +22,62 @@ If you do find slow queries, try to analyze why they are slow.
 
 ## Common reasons for slow queries
 
--   A query has too many OR conditions \(for more information, see [Contains queries and domain access](bp-contains-domain-visibility.md)\). In the domain hierarchy, place the user or a domain at a hierarchy level where contains or visibility is not needed.
--   The query method is not the domain path query method \(for more information, see [Domain paths query method](bp-domain-query-method.md)\): If you are not using the domain path query method, contact Customer Service and Support.
+-   A query has too many OR conditions \(for more information, see [Contains queries and domain access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-contains-domain-visibility.md)\). In the domain hierarchy, place the user or a domain at a hierarchy level where contains or visibility is not needed.
+-   The query method is not the domain path query method \(for more information, see [Domain paths query method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-query-method.md)\): If you are not using the domain path query method, contact Customer Service and Support.
 -   A query needs a database to be indexed so you can see what is in the database quickly. If you can identify the slow query, run the "explain plan" to see if there are options for indexing available. The "explain plan" is a function of SQL that shows the query and what is going on with it.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](../reference/bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 
 
-[Domain separation explained](bp-what-is-domain-separation.md)
+[Domain separation explained]()
 
-[Domain separation hierarchies](../reference/bp-domain-sep-hierarchies.md)
+[Domain separation hierarchies]()
 
-[Context and domain separation](bp-domain-sep-context.md)
+[Context and domain separation]()
 
-[Segregating and securing data with domain separation](../reference/bp-segregate-secure.md)
+[Segregating and securing data with domain separation]()
 
-[Alternatives to domain separation](../reference/bp-domain-separation-alternatives.md)
+[Alternatives to domain separation]()
 
-[Evaluating the need for domain separation](../reference/bp-evaluation-dom-sep.md)
+[Evaluating the need for domain separation]()
 
-[Benefits of domain separation](../reference/bp-advantages-dom-sep.md)
+[Benefits of domain separation]()
 
-[How a database query works with domain separation](bp-db-query-with-ds.md)
+[How a database query works with domain separation]()
 
-[Domain separation levels of support](../reference/bp-domain-levels.md)
+[Domain separation levels of support]()
 
-[Service provider reference architecture](../reference/bp-sp-reference-arch-ds.md)
+[Service provider reference architecture]()
 
-[Domain separation terms](../reference/bp-terms-conditions.md)
+[Domain separation terms]()
 
-[Domain-separate a custom table](../reference/bp-ds-custom-table.md)
+[Domain-separate a custom table]()
 
-[Customizing domain properties and themes](bp-domain-prop-themes.md)
+[Customizing domain properties and themes]()
 
-[Managing domain separation for specific uses](bp-emails-catalog-users.md)
+[Managing domain separation for specific uses]()
 
-[Configuring domain separation with the domain picker](bp-domain-picker-config-process.md)
+[Configuring domain separation with the domain picker]()
 
-[Domain separation performance considerations](bp-performance-considerations.md)
+[Domain separation performance considerations]()
 
-[Setting up domain hierarchies](bp-domain-hierarchy.md)
+[Setting up domain hierarchies]()
 
-[Checking domain logs for errors and warnings](bp-domain-logs.md)
+[Checking domain logs for errors and warnings]()
 
-[Importance of the Default domain](bp-default-domain.md)
+[Importance of the Default domain]()
 
-[Contains queries and domain access](bp-contains-domain-visibility.md)
+[Contains queries and domain access]()
 
-[Domain paths query method](bp-domain-query-method.md)
+[Domain paths query method]()
 
-[Before Query business rules](bp-before-query-business-rules.md)
+[Before Query business rules]()
 
-[Avoiding domain path in scripts](bp-no-domain-path-in-scripts.md)
+[Avoiding domain path in scripts]()
 
-[Domain assignments](../reference/bp-domain-assignment.md)
+[Domain assignments]()
 
-[Domain separation and the Customer Service Management \(CSM\) plugin](bp-ds-and-csm.md)
+[Domain separation and the Customer Service Management \(CSM\) plugin]()
 

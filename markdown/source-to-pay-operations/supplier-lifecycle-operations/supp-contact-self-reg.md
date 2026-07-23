@@ -2,6 +2,7 @@
 title: Supplier contact self-registration
 description: Supplier contacts can self-register to the Supplier Collaboration Portal and start working on the assigned tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supp-contact-self-reg.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -15,41 +16,41 @@ breadcrumb: [Using Supplier Collaboration Portal, Use, Supplier Lifecycle Operat
 
 Supplier contacts can self-register to the Supplier Collaboration Portal and start working on the assigned tasks.
 
--   **[Supplier contact self-registration](how-self-reg-works.md)**  
+-   **[Supplier contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/how-self-reg-works.md)**  
 The process of self-registering to the Supplier Collaboration Portal involves a series of tasks that the supplier contact must complete.
--   **[Self-register to the Supplier Collaboration Portal](../task/self-reg-to-supp-central.md)**  
+-   **[Self-register to the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/self-reg-to-supp-central.md)**  
 Supplier contacts can self-register themselves to the Supplier Collaboration Portal without the help of an administrator.
 
-**Parent Topic:**[Using Supplier Collaboration Portal](use-supp-central.md)
+**Parent Topic:**[Using Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/use-supp-central.md)
 
 **Related topics**  
 
 
-[Invite a member to access the Supplier Collaboration Portal](../task/invite-member-supp-portal.md)
+[Invite a member to access the Supplier Collaboration Portal]()
 
-[Managing supplier contacts from the Supplier Collaboration Portal](managing-contacts-scp.md)
+[Managing supplier contacts from the Supplier Collaboration Portal]()
 
-[Raising requests from the Supplier Collaboration Portal](supp-catalog-req.md)
+[Raising requests from the Supplier Collaboration Portal]()
 
-[Viewing supplier contact tasks from the Supplier Collaboration Portal](my-to-dos.md)
+[Viewing supplier contact tasks from the Supplier Collaboration Portal]()
 
-[View or update your user profile from the Supplier Collaboration Portal](../task/view-update-supp-profile.md)
+[View or update your user profile from the Supplier Collaboration Portal]()
 
-[View all your requests from the Supplier Collaboration Portal](../task/view-supp-case-sc.md)
+[View all your requests from the Supplier Collaboration Portal]()
 
-[View supplier locations from the Supplier Collaboration Portal](../task/view-supp-loc-supp-central.md)
+[View supplier locations from the Supplier Collaboration Portal]()
 
-[View supplier payment information from the Supplier Collaboration Portal](../task/view-bank-info-supp-central.md)
+[View supplier payment information from the Supplier Collaboration Portal]()
 
-[Start a chat session from the Supplier Collaboration Portal](../task/start-chat-portal.md)
+[Start a chat session from the Supplier Collaboration Portal]()
 
-[Manage documents from the Supplier Collaboration Portal](../task/upload-doc-portal.md)
+[Manage documents from the Supplier Collaboration Portal]()
 
-[Complete a risk assessment from the Supplier Collaboration Portal](../task/complete-risk-assessments.md)
+[Complete a risk assessment from the Supplier Collaboration Portal]()
 
-[Create a Universal Request from the Supplier Collaboration Portal](create-universal-request.md)
+[Create a Universal Request from the Supplier Collaboration Portal]()
 
-[Supplier contact self-registration](how-self-reg-works.md)
+[Supplier contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/how-self-reg-works.md)
 
-[Self-register to the Supplier Collaboration Portal](../task/self-reg-to-supp-central.md)
+[Self-register to the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/self-reg-to-supp-central.md)
 

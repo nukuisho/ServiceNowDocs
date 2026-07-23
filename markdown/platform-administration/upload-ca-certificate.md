@@ -2,6 +2,7 @@
 title: Upload a CA certificate
 description: Upload a digital CA \(Certificate Authority\) certificate to validate email certificates for secure communication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upload-ca-certificate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: admin
 
 2.  Select **New**.
 
-3.  Select the attachment icon ![Attachment icon](../image/attach-icon.png) to upload the CA certificate.
+3.  Select the attachment icon \[Omitted image "attach-icon.png"\] Alt text: Attachment icon to upload the CA certificate.
 
 4.  On the form, fill in the fields.
 
@@ -41,16 +42,16 @@ Role required: admin
 
 ## What to do next
 
-[Upload an email certificate](upload-email-certificate.md).
+[Upload an email certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upload-email-certificate.md).
 
-**Parent Topic:**[Setting up S/MIME for email](../concept/smime-for-email-signing-and-encryption.md)
+**Parent Topic:**[Setting up S/MIME for email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/smime-for-email-signing-and-encryption.md)
 
 **Related topics**  
 
 
-[Import an S/MIME key pair](import-smime-key-pair.md)
+[Import an S/MIME key pair]()
 
-[Upload an email certificate](upload-email-certificate.md)
+[Upload an email certificate]()
 
-[Enable S/MIME](../concept/enable-smime-for-outbound-and-inbound.md)
+[Enable S/MIME]()
 

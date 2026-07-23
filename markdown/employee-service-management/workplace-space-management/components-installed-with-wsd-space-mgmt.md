@@ -2,6 +2,7 @@
 title: Components installed with Workplace Space Management
 description: Several types of components are installed with the Workplace Space Management application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/components-installed-with-wsd-space-mgmt.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -131,7 +132,7 @@ As a Project Owner, you can create and manage Schedule Plans.
 </td></tr></tbody>
 </table>## Tables installed with Workplace Space Management
 
-**Note:** Neighborhood is moved from Workplace Space Management \[version\] to Workplace Core \[version\]. For more information, see [Components installed with Workplace Core](../../workplace-service-delivery/reference/components-installed-with-workplace-service-delivery.md).
+**Note:** Neighborhood is moved from Workplace Space Management \[version\] to Workplace Core \[version\]. For more information, see [Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/components-installed-with-workplace-service-delivery.md).
 
 <table id="table_t5k_1kj_qpb"><thead><tr><th>
 
@@ -230,12 +231,14 @@ Space Allocation Type Change Tracker\[sn\_wsd\_spcmgmt\_space\_allocation\_type\
 Stores information about changes made to types of allocation, which can be reviewed to plan and edit scenarios.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Space Management references](../concept/workplace-space-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Space Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md)
 
 **Related topics**  
 
 
-[Properties installed with Workplace Space Management](properties-installed-with-workplace-space-mgmt.md)
+[Properties installed with Workplace Space Management]()
 
-[View by Configuration form](view-by-configuration-form.md)
+[View by Configuration form]()
+
+[KPI Configuration form]()
 

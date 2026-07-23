@@ -2,6 +2,7 @@
 title: Load required key pairs and certificates for Code Signing
 description: Establish the relationship in a designated trusted instance using Code Signing. This first step loads two cryptographic keys into the trusted environment to establish a trusted source for updates to the production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/circle-trust-setup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ The first step in establishing the relationship is to establish the trust founda
 
     -   One pair for the cm\_code\_signing cryptographic module
     -   One pair for the cm\_code\_attest cryptographic module
-    For more information on these keys, see [Create Code Signing key pairs and certificates](../reference/create-key-pairs-and-certs.md).
+    For more information on these keys, see [Create Code Signing key pairs and certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-key-pairs-and-certs.md).
 
     **Important:** These key pairs must be signed by a public certificate authority or signed by your organizations internal certificate authority. The certificate can't be self-signed.
 
@@ -66,7 +67,5 @@ The first step in establishing the relationship is to establish the trust founda
 
 ## What to do next
 
-Export the certificate to production. See [Prepare Circle of Trust certificates](create-updateset-nonprod.md) for details.
-
-**Parent Topic:**[Configuring Code Signing](../concept/config-code-signing.md)
+Export the certificate to production. See [Prepare Circle of Trust certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-updateset-nonprod.md) for details.
 

@@ -2,11 +2,12 @@
 title: Create a compatibility rule
 description: Create a compatibility rule in the product catalog to define the horizontal relationships between your product, service, and resource specifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/create-compatibility-rules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring compatibility rules, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Configuring compatibility rules, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create a compatibility rule
@@ -19,7 +20,7 @@ Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm\_adv.catalog\_
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Rules** &gt; **Compatibility Rule**.
 
@@ -101,5 +102,5 @@ Name of the compatibility rule based on the source configuration. Displays when 
 
 ## What to do next
 
-[Create compatible records in compatibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-create-compatibles.md).
+.
 

@@ -2,6 +2,7 @@
 title: Actions font icons
 description: Use actions font icons for functions. They can be used on buttons that are located on cards or for quick actions. Actions font icons are in the now-mobile-icons-buttons font family.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/actions-font-icons.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -20,9 +21,9 @@ Use actions font icons for functions. They can be used on buttons that are locat
 
 ## Usage examples
 
-![Action sheet screen example](../image/mab-icon-action-sheet-exp.png "Action sheet")
+\[Omitted image "mab-icon-action-sheet-exp.png"\] Alt text: Action sheet screen example
 
-![Mobile card screen example](../image/mab-icon-action-mobile-card-exp.png "Mobile card")
+\[Omitted image "mab-icon-action-mobile-card-exp.png"\] Alt text: Mobile card screen example
 
 ## Action font icons
 
@@ -64,7 +65,7 @@ New York
 
 </td><td>
 
-![Add User Solid example](../image/mab-icon-action-add-user-solid.png)
+\[Omitted image "mab-icon-action-add-user-solid.png"\] Alt text: Add User Solid example
 
 </td><td>
 
@@ -84,7 +85,7 @@ New York
 
 </td><td>
 
-![Bag Solid example](../image/mab-icon-action-bag-solid.png)
+\[Omitted image "mab-icon-action-bag-solid.png"\] Alt text: Bag Solid example
 
 </td><td>
 
@@ -104,7 +105,7 @@ New York
 
 </td><td>
 
-![Calendar Solid example](../image/mab-icon-action-calendar-solid.png)
+\[Omitted image "mab-icon-action-calendar-solid.png"\] Alt text: Calendar Solid example
 
 </td><td>
 
@@ -124,11 +125,11 @@ New York
 
 </td><td>
 
-![Cart Solid example](../image/mab-icon-action-cart-solid.png)
+\[Omitted image "mab-icon-action-cart-solid.png"\] Alt text: Cart Solid example
 
 </td><td>
 
-![Reversed Cart Solid example](../image/mab-icon-action-cart-solid-rt2lt.png)
+\[Omitted image "mab-icon-action-cart-solid-rt2lt.png"\] Alt text: Reversed Cart Solid example
 
 </td></tr><tr><td>
 
@@ -144,7 +145,7 @@ New York
 
 </td><td>
 
-![Chart Bar Solid example](../image/mab-icon-action-chart-bar-solid.png)
+\[Omitted image "mab-icon-action-chart-bar-solid.png"\] Alt text: Chart Bar Solid example
 
 </td><td>
 
@@ -164,7 +165,7 @@ New York
 
 </td><td>
 
-![Check Circle Solid example](../image/mab-icon-action-ck-circle-solid.png)
+\[Omitted image "mab-icon-action-ck-circle-solid.png"\] Alt text: Check Circle Solid example
 
 </td><td>
 
@@ -184,7 +185,7 @@ New York
 
 </td><td>
 
-![Clipboard Solid example](../image/mab-icon-action-clipbrd-solid.png)
+\[Omitted image "mab-icon-action-clipbrd-solid.png"\] Alt text: Clipboard Solid example
 
 </td><td>
 
@@ -204,7 +205,7 @@ New York
 
 </td><td>
 
-![Clipboard-exclamation Solid example](../image/mab-icon-action-clipbrd-excl-solid.png)
+\[Omitted image "mab-icon-action-clipbrd-excl-solid.png"\] Alt text: Clipboard-exclamation Solid example
 
 </td><td>
 
@@ -224,7 +225,7 @@ New York
 
 </td><td>
 
-![Cloud Solid example](../image/mab-icon-action-cloud-solid.png)
+\[Omitted image "mab-icon-action-cloud-solid.png"\] Alt text: Cloud Solid example
 
 </td><td>
 
@@ -244,7 +245,7 @@ New York
 
 </td><td>
 
-![Comment Solid example](../image/mab-icon-action-comment-solid.png)
+\[Omitted image "mab-icon-action-comment-solid.png"\] Alt text: Comment Solid example
 
 </td><td>
 
@@ -264,7 +265,7 @@ New York
 
 </td><td>
 
-![Comments Solid example](../image/mab-icon-action-comment-multi-solid.png)
+\[Omitted image "mab-icon-action-comment-multi-solid.png"\] Alt text: Comments Solid example
 
 </td><td>
 
@@ -284,7 +285,7 @@ New York
 
 </td><td>
 
-![Copy Solid example](../image/mab-icon-action-copy-solid.png)
+\[Omitted image "mab-icon-action-copy-solid.png"\] Alt text: Copy Solid example
 
 </td><td>
 
@@ -304,7 +305,7 @@ New York
 
 </td><td>
 
-![Edit 2 Solid example](../image/mab-icon-action-edit2-solid.png)
+\[Omitted image "mab-icon-action-edit2-solid.png"\] Alt text: Edit 2 Solid example
 
 </td><td>
 
@@ -324,7 +325,7 @@ New York
 
 </td><td>
 
-![File Solid example](../image/mab-icon-action-file-solid.png)
+\[Omitted image "mab-icon-action-file-solid.png"\] Alt text: File Solid example
 
 </td><td>
 
@@ -344,7 +345,7 @@ New York
 
 </td><td>
 
-![Flag Solid example](../image/mab-icon-action-flag-solid.png)
+\[Omitted image "mab-icon-action-flag-solid.png"\] Alt text: Flag Solid example
 
 </td><td>
 
@@ -364,7 +365,7 @@ New York
 
 </td><td>
 
-![Group Solid example](../image/mab-icon-action-group-solid.png)
+\[Omitted image "mab-icon-action-group-solid.png"\] Alt text: Group Solid example
 
 </td><td>
 
@@ -384,7 +385,7 @@ New York
 
 </td><td>
 
-![Hardware Solid example](../image/mab-icon-action-hdwe-solid.png)
+\[Omitted image "mab-icon-action-hdwe-solid.png"\] Alt text: Hardware Solid example
 
 </td><td>
 
@@ -404,7 +405,7 @@ New York
 
 </td><td>
 
-![Heart Solid example](../image/mab-icon-action-heart-solid.png)
+\[Omitted image "mab-icon-action-heart-solid.png"\] Alt text: Heart Solid example
 
 </td><td>
 
@@ -424,7 +425,7 @@ New York
 
 </td><td>
 
-![Headphones-Mic Solid example](../image/mab-icon-action-hdfonmic-solid.png)
+\[Omitted image "mab-icon-action-hdfonmic-solid.png"\] Alt text: Headphones-Mic Solid example
 
 </td><td>
 
@@ -444,7 +445,7 @@ New York
 
 </td><td>
 
-![Information Solid example](../image/mab-icon-action-info-solid.png)
+\[Omitted image "mab-icon-action-info-solid.png"\] Alt text: Information Solid example
 
 </td><td>
 
@@ -464,7 +465,7 @@ New York
 
 </td><td>
 
-![Knowledge Solid example](../image/mab-icon-action-knowl-solid.png)
+\[Omitted image "mab-icon-action-knowl-solid.png"\] Alt text: Knowledge Solid example
 
 </td><td>
 
@@ -484,7 +485,7 @@ New York
 
 </td><td>
 
-![Mail Solid example](../image/mab-icon-action-mail-solid.png)
+\[Omitted image "mab-icon-action-mail-solid.png"\] Alt text: Mail Solid example
 
 </td><td>
 
@@ -504,7 +505,7 @@ New York
 
 </td><td>
 
-![Map Pin Solid example](../image/mab-icon-action-mapin-solid.png)
+\[Omitted image "mab-icon-action-mapin-solid.png"\] Alt text: Map Pin Solid example
 
 </td><td>
 
@@ -524,11 +525,11 @@ New York
 
 </td><td>
 
-![Megaphone Solid example](../image/mab-icon-action-mgfon-solid.png)
+\[Omitted image "mab-icon-action-mgfon-solid.png"\] Alt text: Megaphone Solid example
 
 </td><td>
 
-![Reversed Megaphone Solid example](../image/mab-icon-action-mgfon-r2l-solid.png)
+\[Omitted image "mab-icon-action-mgfon-r2l-solid.png"\] Alt text: Reversed Megaphone Solid example
 
 </td></tr><tr><td>
 
@@ -544,7 +545,7 @@ New York
 
 </td><td>
 
-![Phone Solid example](../image/mab-icon-action-fon-solid.png)
+\[Omitted image "mab-icon-action-fon-solid.png"\] Alt text: Phone Solid example
 
 </td><td>
 
@@ -564,7 +565,7 @@ New York
 
 </td><td>
 
-![Star Solid example](../image/mab-icon-action-star-solid.png)
+\[Omitted image "mab-icon-action-star-solid.png"\] Alt text: Star Solid example
 
 </td><td>
 
@@ -584,7 +585,7 @@ New York
 
 </td><td>
 
-![Trash Solid example](../image/mab-icon-action-trash-solid.png)
+\[Omitted image "mab-icon-action-trash-solid.png"\] Alt text: Trash Solid example
 
 </td><td>
 
@@ -604,7 +605,7 @@ New York
 
 </td><td>
 
-![User Solid example](../image/mab-icon-action-user-solid.png)
+\[Omitted image "mab-icon-action-user-solid.png"\] Alt text: User Solid example
 
 </td><td>
 
@@ -624,7 +625,7 @@ New York
 
 </td><td>
 
-![Web Link Solid example](../image/mab-icon-action-weblk-solid.png)
+\[Omitted image "mab-icon-action-weblk-solid.png"\] Alt text: Web Link Solid example
 
 </td><td>
 
@@ -644,7 +645,7 @@ New York
 
 </td><td>
 
-![Wrench Solid example](../image/mab-icon-action-wrench-solid.png)
+\[Omitted image "mab-icon-action-wrench-solid.png"\] Alt text: Wrench Solid example
 
 </td><td>
 
@@ -668,7 +669,7 @@ Orlando
 
 </td><td>
 
-![Lightbulb Solid example](../image/mab-icon-action-bulb-solid.png)
+\[Omitted image "mab-icon-action-bulb-solid.png"\] Alt text: Lightbulb Solid example
 
 </td><td>
 
@@ -688,7 +689,7 @@ Orlando
 
 </td><td>
 
-![Plus Solid example](../image/mab-icon-action-plus-solid.png)
+\[Omitted image "mab-icon-action-plus-solid.png"\] Alt text: Plus Solid example
 
 </td><td>
 
@@ -708,7 +709,7 @@ Orlando
 
 </td><td>
 
-![Question-Circle Solid example](../image/mab-icon-action-ques-circle-solid.png)
+\[Omitted image "mab-icon-action-ques-circle-solid.png"\] Alt text: Question-Circle Solid example
 
 </td><td>
 
@@ -728,7 +729,7 @@ Orlando
 
 </td><td>
 
-![Request Solid example](../image/mab-icon-action-req-solid.png)
+\[Omitted image "mab-icon-action-req-solid.png"\] Alt text: Request Solid example
 
 </td><td>
 
@@ -752,7 +753,7 @@ Paris
 
 </td><td>
 
-![Camera Solid example](../image/mab-icon-action-camra-solid.png)
+\[Omitted image "mab-icon-action-camra-solid.png"\] Alt text: Camera Solid example
 
 </td><td>
 
@@ -772,7 +773,7 @@ Paris
 
 </td><td>
 
-![Clipboard Lines Solid](../image/mab-icon-action-clipbrdlins-solid.png)
+\[Omitted image "mab-icon-action-clipbrdlins-solid.png"\] Alt text: Clipboard Lines Solid
 
 </td><td>
 
@@ -792,7 +793,7 @@ Paris
 
 </td><td>
 
-![Images Solid example](../image/mab-icon-action-images-solid.png)
+\[Omitted image "mab-icon-action-images-solid.png"\] Alt text: Images Solid example
 
 </td><td>
 
@@ -812,7 +813,7 @@ Paris
 
 </td><td>
 
-![Phone 2 Solid example](../image/mab-icon-action-fon2-solid.png)
+\[Omitted image "mab-icon-action-fon2-solid.png"\] Alt text: Phone 2 Solid example
 
 </td><td>
 
@@ -836,7 +837,7 @@ Quebec
 
 </td><td>
 
-![Approve example](../image/mab-icon-action-approv.png)
+\[Omitted image "mab-icon-action-approv.png"\] Alt text: Approve example
 
 </td><td>
 
@@ -856,11 +857,11 @@ Quebec
 
 </td><td>
 
-![Arrow Solid example](../image/mab-icon-action-arro-solid.png)
+\[Omitted image "mab-icon-action-arro-solid.png"\] Alt text: Arrow Solid example
 
 </td><td>
 
-![Reversed Arrow Solid example](../image/mab-icon-action-arro-r2l-solid.png)
+\[Omitted image "mab-icon-action-arro-r2l-solid.png"\] Alt text: Reversed Arrow Solid example
 
 </td></tr><tr><td>
 
@@ -898,7 +899,7 @@ Quebec
 
 </td><td>
 
-![Menu example](../image/mab-icon-action-menu.png)
+\[Omitted image "mab-icon-action-menu.png"\] Alt text: Menu example
 
 </td><td>
 
@@ -918,7 +919,7 @@ Quebec
 
 </td><td>
 
-![Note Solid example](../image/mab-icon-action-note-solid.png)
+\[Omitted image "mab-icon-action-note-solid.png"\] Alt text: Note Solid example
 
 </td><td>
 
@@ -938,11 +939,11 @@ Quebec
 
 </td><td>
 
-![Recall example](../image/mab-icon-action-recal.png)
+\[Omitted image "mab-icon-action-recal.png"\] Alt text: Recall example
 
 </td><td>
 
-![Reversed Recall example](../image/mab-icon-action-recal-r2l.png)
+\[Omitted image "mab-icon-action-recal-r2l.png"\] Alt text: Reversed Recall example
 
 </td></tr><tr><td>
 
@@ -958,11 +959,11 @@ Quebec
 
 </td><td>
 
-![Recall2 example](../image/mab-icon-action-recal2.png)
+\[Omitted image "mab-icon-action-recal2.png"\] Alt text: Recall2 example
 
 </td><td>
 
-![Reversed Recall2 example](../image/mab-icon-action-recal2-r2l.png)
+\[Omitted image "mab-icon-action-recal2-r2l.png"\] Alt text: Reversed Recall2 example
 
 </td></tr><tr><td>
 
@@ -978,7 +979,7 @@ Quebec
 
 </td><td>
 
-![Reject example](../image/mab-icon-action-rejct.png)
+\[Omitted image "mab-icon-action-rejct.png"\] Alt text: Reject example
 
 </td><td>
 
@@ -998,7 +999,7 @@ Quebec
 
 </td><td>
 
-![Search example](../image/mab-icon-action-search.png)
+\[Omitted image "mab-icon-action-search.png"\] Alt text: Search example
 
 </td><td>
 
@@ -1022,7 +1023,7 @@ Rome
 
 </td><td>
 
-![Alert example](../image/mab-icon-action-alert.png)
+\[Omitted image "mab-icon-action-alert.png"\] Alt text: Alert example
 
 </td><td>
 
@@ -1042,7 +1043,7 @@ Rome
 
 </td><td>
 
-![Alert Solid example](../image/mab-icon-action-alert-solid.png)
+\[Omitted image "mab-icon-action-alert-solid.png"\] Alt text: Alert Solid example
 
 </td><td>
 
@@ -1066,7 +1067,7 @@ Tokyo
 
 </td><td>
 
-![Inventory with Plus example](../image/mab-icon-action-invent-plus.png)
+\[Omitted image "mab-icon-action-invent-plus.png"\] Alt text: Inventory with Plus example
 
 </td><td>
 
@@ -1090,7 +1091,7 @@ Utah
 
 </td><td>
 
-![Microphone_Unmute example](../image/mab-icon-action-mic-unmute.png)
+\[Omitted image "mab-icon-action-mic-unmute.png"\] Alt text: Microphone\_Unmute example
 
 </td><td>
 
@@ -1110,7 +1111,7 @@ Utah
 
 </td><td>
 
-![Microphone_Mute example](../image/mab-icon-action-mic-mute.png)
+\[Omitted image "mab-icon-action-mic-mute.png"\] Alt text: Microphone\_Mute example
 
 </td><td>
 
@@ -1134,7 +1135,7 @@ Washington DC
 
 </td><td>
 
-![Circle Close example](../image/mab-icon-action-circle-close.png)
+\[Omitted image "mab-icon-action-circle-close.png"\] Alt text: Circle Close example
 
 </td><td>
 
@@ -1154,7 +1155,7 @@ Washington DC
 
 </td><td>
 
-![Globe example](../image/mab-icon-action-globe.png)
+\[Omitted image "mab-icon-action-globe.png"\] Alt text: Globe example
 
 </td><td>
 
@@ -1174,7 +1175,7 @@ Washington DC
 
 </td><td>
 
-![Translated Text example](../image/mab-icon-action-translate-txt.png)
+\[Omitted image "mab-icon-action-translate-txt.png"\] Alt text: Translated Text example
 
 </td><td>
 
@@ -1198,7 +1199,7 @@ Xanadu
 
 </td><td>
 
-![Thumbs-Up-Solid example](../image/mab-icon-action-thum-up-solid.png)
+\[Omitted image "mab-icon-action-thum-up-solid.png"\] Alt text: Thumbs-Up-Solid example
 
 </td><td>
 
@@ -1218,7 +1219,7 @@ Xanadu
 
 </td><td>
 
-![Thumbs-Up-Outline example](../image/mab-icon-action-thum-up-outline.png)
+\[Omitted image "mab-icon-action-thum-up-outline.png"\] Alt text: Thumbs-Up-Outline example
 
 </td><td>
 
@@ -1238,7 +1239,7 @@ Xanadu
 
 </td><td>
 
-![Thumbs-Down-Solid example](../image/mab-icon-action-thum-down-solid.png)
+\[Omitted image "mab-icon-action-thum-down-solid.png"\] Alt text: Thumbs-Down-Solid example
 
 </td><td>
 
@@ -1258,7 +1259,7 @@ Xanadu
 
 </td><td>
 
-![Thumbs-Down-Outline example](../image/mab-icon-action-thum-down-out.png)
+\[Omitted image "mab-icon-action-thum-down-out.png"\] Alt text: Thumbs-Down-Outline example
 
 </td><td>
 
@@ -1278,7 +1279,7 @@ Xanadu
 
 </td><td>
 
-![Outgoing-Outline example](../image/mab-icon-action-outgoing-outlin.png)
+\[Omitted image "mab-icon-action-outgoing-outlin.png"\] Alt text: Outgoing-Outline example
 
 </td><td>
 
@@ -1298,7 +1299,7 @@ Xanadu
 
 </td><td>
 
-![Tree-Solid example](../image/mab-icon-action-tree-solid.png)
+\[Omitted image "mab-icon-action-tree-solid.png"\] Alt text: Tree-Solid example
 
 </td><td>
 
@@ -1322,7 +1323,7 @@ Yokohama
 
 </td><td>
 
-![User-Clock-Solid example](../image/mab-icon-action-usr-clok-solid.png)
+\[Omitted image "mab-icon-action-usr-clok-solid.png"\] Alt text: User-Clock-Solid example
 
 </td><td>
 
@@ -1342,7 +1343,7 @@ Yokohama
 
 </td><td>
 
-![Calendar-Days-Clock-Solid example](../image/mab-icon-action-cal-days-clok-sol.png)
+\[Omitted image "mab-icon-action-cal-days-clok-sol.png"\] Alt text: Calendar-Days-Clock-Solid example
 
 </td><td>
 
@@ -1362,7 +1363,7 @@ Yokohama
 
 </td><td>
 
-![Calendar-Days-Search-Solid example](../image/mab-icon-action-cal-days-srch-sol.png)
+\[Omitted image "mab-icon-action-cal-days-srch-sol.png"\] Alt text: Calendar-Days-Search-Solid example
 
 </td><td>
 
@@ -1382,7 +1383,7 @@ Yokohama
 
 </td><td>
 
-![Map-Solid example](../image/mab-icon-action-map-solid.png)
+\[Omitted image "mab-icon-action-map-solid.png"\] Alt text: Map-Solid example
 
 </td><td>
 
@@ -1402,7 +1403,7 @@ Yokohama
 
 </td><td>
 
-![Cloud-Arrow-Up-Outline example](../image/mab-icon-action-cloud-arro-up-out.png)
+\[Omitted image "mab-icon-action-cloud-arro-up-out.png"\] Alt text: Cloud-Arrow-Up-Outline example
 
 </td><td>
 
@@ -1426,7 +1427,7 @@ Zurich
 
 </td><td>
 
-![Arrow-Clockwise example](../image/mab-icon-action-arro-clock.png)
+\[Omitted image "mab-icon-action-arro-clock.png"\] Alt text: Arrow-Clockwise example
 
 </td><td>
 
@@ -1446,7 +1447,7 @@ Zurich
 
 </td><td>
 
-![Camera-Triangle-Exclamation-Solid example](../image/mab-icon-action-cam-tri-ex-solid.png)
+\[Omitted image "mab-icon-action-cam-tri-ex-solid.png"\] Alt text: Camera-Triangle-Exclamation-Solid example
 
 </td><td>
 
@@ -1466,7 +1467,7 @@ Zurich
 
 </td><td>
 
-![AI-Sparkle-Solid example](../image/mab-icon-action-ai-sparkle-sol.png)
+\[Omitted image "mab-icon-action-ai-sparkle-sol.png"\] Alt text: AI-Sparkle-Solid example
 
 </td><td>
 
@@ -1486,7 +1487,7 @@ Zurich
 
 </td><td>
 
-![Chat-AI-Sparkle-Solid example](../image/mab-icon-action-chat-ai-spark.png)
+\[Omitted image "mab-icon-action-chat-ai-spark.png"\] Alt text: Chat-AI-Sparkle-Solid example
 
 </td><td>
 
@@ -1510,7 +1511,7 @@ Australia
 
 </td><td>
 
-![Servicenow-Lens-App-Outline example](../image/mab-icon-action-lens-app-outline.png)
+\[Omitted image "mab-icon-action-lens-app-outline.png"\] Alt text: Servicenow-Lens-App-Outline example
 
 </td><td>
 
@@ -1530,12 +1531,12 @@ Australia
 
 </td><td>
 
-![Microphone-AI-Spark-Solid example](../image/mab-icon-action-mic-ai-sparkle-solid.png)
+\[Omitted image "mab-icon-action-mic-ai-sparkle-solid.png"\] Alt text: Microphone-AI-Spark-Solid example
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile icon reference](../concept/mobile-icon-reference.md)
+</table>**Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-icon-reference.md)
 

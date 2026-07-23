@@ -4,8 +4,8 @@ description: ServiceNow Activity Management helps customer-focused teams to plan
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-10"
-reading_time_minutes: 3
+last_updated: "2026-06-18"
+reading_time_minutes: 5
 ---
 
 # Activity Management release notes
@@ -17,27 +17,13 @@ ServiceNow® Activity Management helps customer-focused teams to plan, execute, 
 -   Enable email activity capture into ServiceNow Customer Relationship Management \(CRM\) software using the CRM Outlook Add-in.
 -   Define, plan, capture, and track customer interactions such as discovery calls, demos, and customer business reviews \(CBRs\) across different channels such as emails, calls, meetings, and more.
 -   Manage tasks and appointments for leads, opportunities, and more directly from a touchpoint record, in addition to opportunity.
+-   Automatically associate inbound sales emails with the correct CRM record using AI-based intent detection and semantic matching.
 
 See [Activity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-activity-management.md) for more information.
 
 **Important:** Activity Management applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Activity Management features
-
-CRM Outlook Add-in
-
--   **[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)**
-
-    Associate customer emails to the correct ServiceNow CRM record without leaving Microsoft Outlook. Manually search and associate emails with leads, opportunities, accounts, or contacts, so that engagement context is captured immediately and remains available for future correspondence and follow‑up.
-
--   **[Create new leads and contacts from email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-entity-outlook.md)**
-
-    Create a new lead or contact directly from an email when no matching CRM record exists, and automatically attach the originating email to the newly created record to preserve engagement history.
-
--   **[Centralize customer communications for the entire team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md)**
-
-    Make email‑based customer interactions visible to account, lead, or opportunity teams by associating emails with the ServiceNow CRM records instead of them being isolated in your personal inbox.
-
 
 CRM Touchpoints
 
@@ -51,19 +37,66 @@ CRM Touchpoints
 
 -   **[Activity capture and tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-activity-management.md)**
 
-    Capture emails, calls, meetings, and tasks within touchpoints such as discovery, demo, business value assessment, or CBRs in a single system of record. Track metrics such as primary channel and time spent for every interaction, giving leadership visibility into the activity volume per sales representative.
+    Capture emails, calls, meetings, and tasks within touchpoints such as discovery, demo, business value assessment, or CBRs in a single system of record. Track metrics such as primary channel and time spent for every interaction, providing leadership with visibility into the activity volume per sales representative.
+
+
+CRM Outlook Add-in
+
+-   **[Associate an email with an existing CRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)**
+
+    Associate customer emails to the correct ServiceNow CRM record without leaving Microsoft Outlook. Manually search and associate emails with leads, opportunities, accounts, or contacts, so that engagement context is captured immediately and remains available for future correspondence and follow‑up.
+
+-   **[Create leads and contacts from email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-entity-outlook.md)**
+
+    Create a lead or contact directly from an email when no matching CRM record exists, and automatically attach the originating email to the newly created record to preserve engagement history.
+
+-   **[Automatic record matching for emails in a thread](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)**
+
+    Skip the record lookup when associating emails from the email thread. After you associate an email from a thread with a CRM entity, the add-in links any other email you select from the thread to the same CRM record. You stay in control of which emails are captured in the CRM by selecting an email and launching the ServiceNow CRM for Outlook Add-in.
+
+-   **[Centralize customer communications for the entire team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/view-associated-emails-crm.md)**
+
+    Make email‑based customer interactions visible to account, lead, or opportunity teams by associating emails with the ServiceNow CRM records instead of them being isolated in your personal inbox.
+
+
+AI sales activity association
+
+-   **[AI sales activity association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-ai-sales-activity-association.md)**
+
+    Automatically associate inbound sales emails with the correct lead, opportunity, account, or contact using AI-based intent detection and semantic matching. When the agent identifies a confident match, it auto-associates the email to the CRM record so sales representatives see emails already linked in the record's Activity stream.
 
 
 ## Changed in this release
+
+CRM Touchpoints
 
 -   **[Account and Contact field auto-population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-crm-touchpoint.md)**
 
     Reduce manual data entry when creating touchpoints by automatically populating the Account and Contact fields when you select an Associated Entity and Associated Record of type Contact, Account, Lead, or Opportunity. Associated Entity and Associated Record fields become read-only after the touchpoint record is created.
 
 
+CRM Outlook Add-in
+
+-   **[Correct identification of sent emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)**
+
+    Distinguish sent emails from received emails in your CRM activity history. Sent emails associated through the ServiceNow CRM for Outlook add-in now appear correctly classified as sent in the associated record's Emails tab. Previously, all emails associated through the add-in classified as received in the CRM workspace. When you create a new lead or contact from a sent email, the form now pre-populates with the recipient's details instead of your own.
+
+-   **[Tab visibility follows write permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)**
+
+    Show the Accounts, Contacts, Leads, and Opportunities tabs in the ServiceNow CRM for Outlook add-in based on a user's write permission for the underlying entity table rather than fixed role assignment.
+
+-   **[Session timeout recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)**
+
+    Return to the ServiceNow CRM for Outlook add-in home page after re-authenticating when your session times out. The add-in opens its own sign-in form and brings you back to the home page on successful authentication, instead of redirecting you to the ServiceNow platform home page as in previous releases.
+
+-   **[Pre-applied filters on entity tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/associate-email-crm-outlook.md)**
+
+    Find relevant CRM records faster when associating an email. Each entity tab in the ServiceNow CRM for Outlook add-in pre-applies filters based on the email's sender or recipient name and domain, so you see only the records most likely to match instead of every record in the table.
+
+
 ## Activation information
 
-Install CRM Outlook Add-in and CRM Touchpoints by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install CRM Outlook Add-in and CRM Touchpoints by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -71,8 +104,13 @@ Install CRM Outlook Add-in and CRM Touchpoints by requesting them from the Servi
 
     The following plugins are new in Australia:
 
+    -   AI sales activity association \(com.sn\_act\_assoc\_agent\): Automatically associates inbound sales emails with the correct CRM record using AI-based intent detection and semantic matching, reducing manual association effort for sales representatives.
     -   CRM Outlook Add-in \(com.sn\_crm\_outlook\): Enables sales agents to associate emails and create CRM records directly from Microsoft Outlook.
     -   CRM Touchpoints \(com.sn\_crm\_touchpoint\): Enables sales and service teams to capture, track, and act on various touchpoints and activities throughout the customer's association with your business.
+
+## Accessibility information
+
+The CRM Outlook Add-in includes screen reader improvements for card views in this release. On the Accounts, Contacts, Leads, and Opportunities tabs, each card announces its primary record details such as the contact name and key fields instead of a generic card-button label, so users on assistive technology can identify records without opening each card.
 
 ## Related ServiceNow applications and features
 
@@ -85,5 +123,5 @@ Install CRM Outlook Add-in and CRM Touchpoints by requesting them from the Servi
     The  ServiceNow® Opportunity Management application enables your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers. Create touchpoints on opportunity records to track sales activities such as demos, business value assessments, and stakeholder meetings as deals progress through the pipeline.
 
 
-**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sales-order-management-rn-landing.md)
 

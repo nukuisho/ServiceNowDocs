@@ -2,6 +2,7 @@
 title: Exploring the Social Benefits Playbook
 description: The Social Benefits Playbook provides an end-to-end workflow for handling applications for social benefit programs offered by your government agency and submitted by public sector end users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-exploring-pbs-social-benefits.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,5 +14,5 @@ breadcrumb: [Playbooks, Playbooks and Solutions, Explore, Public Sector Digital 
 
 The Social Benefits Playbook provides an end-to-end workflow for handling applications for social benefit programs offered by your government agency and submitted by public sector end users.
 
-![](../image/psds_sbp_base_functional_flow.png)
+\[Omitted image "psds\_sbp\_base\_functional\_flow.png"\] Alt text: social benefits playbook workflow
 

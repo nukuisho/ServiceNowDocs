@@ -2,6 +2,7 @@
 title: Using agentic workflows in IRM
 description: Use the Integrated Risk Management AI agent collection to help complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/using-agentic-ai-workflows.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -69,7 +70,7 @@ Regulatory change task planning agent
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read-only.
 
-To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-ai-agents/task/clone-aia-usecase.html), and then proceed with the following steps:
+To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
 
 -   Activate the workflow.
 -   Activate all agents within the workflow.

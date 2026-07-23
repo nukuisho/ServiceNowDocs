@@ -2,6 +2,7 @@
 title: Order Management for business location
 description: Integrate Service Model Foundation with Order Management to support channel sales.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/order-managment-for-business-location.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -137,7 +138,7 @@ Boolean
 </table>**Related topics**  
 
 
-[Roles and responsibilities](personas-roles-and-tables-post-integration.md)
+[Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/personas-roles-and-tables-post-integration.md)
 
-[Activate Order Management for Business Locations](../task/activate-order-management-for-business-locations.md)
+[Activate Order Management for Business Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-order-management-for-business-locations.md)
 

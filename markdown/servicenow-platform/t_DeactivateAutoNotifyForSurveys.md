@@ -2,6 +2,7 @@
 title: Deactivate auto-notification for surveys
 description: Deactivate an auto-notification to avoid a problem that causes a second system-generated email notification being sent to a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_DeactivateAutoNotifyForSurveys.html
 release: australia
 topic_type: task
 last_updated: "2025-01-30"
@@ -32,14 +33,14 @@ Role required: admin or survey\_admin
 4.  Clear the **Send to event creator** check box.
 
 
-**Parent Topic:**[Survey URLs](../concept/c_SurveyURLs.md)
+**Parent Topic:**[Survey URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyURLs.md)
 
 **Related topics**  
 
 
-[Obtain and distribute a general survey URL](t_ObtainAGeneralSurveyURL.md)
+[Obtain and distribute a general survey URL]()
 
-[Obtain a survey instance URL](t_ObtainASurveyInstanceURL.md)
+[Obtain a survey instance URL]()
 
-[Test a survey URL](t_TestTheSurveyURL.md)
+[Test a survey URL]()
 

@@ -1,19 +1,21 @@
 ---
 title: Source-to-Pay Workspace
-description: The Source-to-Pay Workspace enables you to manage and work on cases and tasks related to invoices and invoice exceptions.
+description: Use the Source-to-Pay Workspace to manage cases and tasks related to invoices and invoice exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/acc-pay-workspace.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice exception, Accounts Payable Workspace, AP case]
 breadcrumb: [Explore, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Source-to-Pay Workspace
 
-The Source-to-Pay Workspace enables you to manage and work on cases and tasks related to invoices and invoice exceptions.
+Use the Source-to-Pay Workspace to manage cases and tasks related to invoices and invoice exceptions.
 
 The Source-to-Pay Workspace provides a dashboard and tools that enable you to do the following:
 
@@ -37,14 +39,14 @@ The Source-to-Pay Workspace is automatically installed if any of the following a
 |Accounts Payable Specialist: View and manage invoice processing cases and tasks.|sn\_ap\_apm.accounts\_payable\_specialist|
 |Agent: View and manage invoice inquiry cases and tasks.|sn\_ap\_cm.agent|
 
-**Parent Topic:**[Explore Accounts Payable Operations](explore-acc-pay-mgmt.md)
+**Parent Topic:**[Explore Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.md)
 
 **Related topics**  
 
 
-[Accounts Payable Invoice Processing](acc-pay-invoice-processing.md)
+[Accounts Payable Invoice Processing]()
 
-[Invoice Case Management](acc-pay-case-mgmt-overview.md)
+[Invoice Case Management]()
 
-[Accounts Payable Operations integration with Document Intelligence](apo-docintel-integration.md)
+[Accounts Payable Operations integration with Document Intelligence]()
 

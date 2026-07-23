@@ -2,6 +2,7 @@
 title: Send a scenario for approval
 description: After publishing the scenario, send your scenario for approval to workplace managers of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/send-a-scenario-for-approval.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -19,8 +20,8 @@ After publishing the scenario, send your scenario for approval to workplace mana
 
 Ensure the following:
 
-1.  [Create a scenario](create-a-scenario.md)
-2.  [Publish a scenario](publish-a-scenario.md)
+1.  [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+2.  [Publish a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/publish-a-scenario.md)
 
 Role required: sn\_wsd\_spcmgmt.space\_planner
 
@@ -38,7 +39,7 @@ After you publish a scenario, send the scenario for approval. The scenario will 
 
     The Workplace Analytics dashboard opens.
 
-2.  On the left pane, select **Space Optimization** icon \(![Space optimization icon.](../images/space-optimization-icon.png)\).
+2.  On the left pane, select **Space Optimization** icon \(\[Omitted image "space-optimization-icon.png"\] Alt text: Space optimization icon.\).
 
     The Space optimization dashboard opens.
 
@@ -46,15 +47,15 @@ After you publish a scenario, send the scenario for approval. The scenario will 
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d381635e159">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d389352e159">
 
 Path
 
-</th><th align="left" id="d381635e162">
+</th><th align="left" id="d389352e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d381635e168">
+</th></tr></thead><tbody><tr><td id="d389352e168">
 
 **From the Scenarios list section**
 
@@ -68,7 +69,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d381635e193">
+</td></tr><tr><td id="d389352e193">
 
 **From the Buildings list section**
 
@@ -87,11 +88,11 @@ The stack plan view of the building opens.
 
 4.  Review the scenario.
 
-    Refer to [Review a scenario](review-a-scenario.md).
+    Refer to [Review a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/review-a-scenario.md).
 
 5.  If the scenario is not published, then publish the scenario.
 
-    Refer to [Publish a scenario](publish-a-scenario.md).
+    Refer to [Publish a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/publish-a-scenario.md).
 
 6.  After publishing, click **Send for approval** to send the scenario for approval.
 
@@ -120,7 +121,7 @@ The stack plan view of the building opens.
     -   Approved: If the scenario is approved, then the state of the scenario changes to Approved. You can no longer edit the scenario after it is approved.
 9.  After the scenario is approved, deploy the scenario.
 
-    Refer to [Deploy a scenario](deploy-a-scenoria.md).
+    Refer to [Deploy a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 
 ## Result
@@ -129,32 +130,32 @@ The scenario approval process is completed.
 
 ## What to do next
 
-[Deploy a scenario](deploy-a-scenoria.md)
+[Deploy a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-**Parent Topic:**[Working with Space Optimization](../concept/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 
 
-[Create a scenario](create-a-scenario.md)
+[Create a scenario]()
 
-[Viewing or editing a scenario](../concept/viewing-editing-scenario.md)
+[Viewing or editing a scenario]()
 
-[Review a scenario](review-a-scenario.md)
+[Review a scenario]()
 
-[Publish a scenario](publish-a-scenario.md)
+[Publish a scenario]()
 
-[Change owner of a scenario](change-owner-of-a-scenario.md)
+[Change owner of a scenario]()
 
-[Deploy a scenario](deploy-a-scenoria.md)
+[Deploy a scenario]()
 
-[View scenario change details](view-scenario-change-details.md)
+[View scenario change details]()
 
-[Create a copy of an existing scenario](create-copy-of-scenario.md)
+[Create a copy of an existing scenario]()
 
-[View or edit space allocations of a building](view-or-edit-space-alloctions-of-a-building.md)
+[View or edit space allocations of a building]()
 
-[Work on a space assist request](work-on-space-assist-request.md)
+[Work on a space assist request]()
 
-[Map based space administration](../concept/map-based-space-administration.md)
+[Map based space administration]()
 

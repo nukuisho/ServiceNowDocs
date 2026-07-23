@@ -2,6 +2,7 @@
 title: Repair claim form
 description: The repair claim form enables you to enter the warranty and recall claim details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/repair-claim-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -39,7 +40,7 @@ Displays all the repair pre-authorization case lines previously created for the 
 
 </td></tr><tr><td>
 
-Casual part
+Causal part
 
 </td><td>
 
@@ -133,11 +134,11 @@ Part number that is repaired, replaced, or upgraded.
 
 </td></tr><tr><td>
 
-Casual part replacement
+Causal part replacement
 
 </td><td>
 
-Casual part replacement is enabled only if you select repair action as replacement or if remedy type contains replacement for recall claim job.
+Causal part replacement is enabled only if you select repair action as replacement or if remedy type contains replacement for recall claim job.
 
 </td></tr><tr><td>
 
@@ -316,12 +317,10 @@ Attachments
 Attachments that support your claims.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](repair-form.md)
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[Submit a repair claim for warranty](../task/mco-submit-repair-claim.md)
-
-[Submit a repair claim for recall](../task/mco-submit-repair-claim-for-recall.md)
+[Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-submit-repair-claim.md)
 

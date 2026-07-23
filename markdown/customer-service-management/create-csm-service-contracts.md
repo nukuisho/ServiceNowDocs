@@ -2,6 +2,7 @@
 title: Create service contracts
 description: Service contracts define the type of support that customers receive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-csm-service-contracts.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

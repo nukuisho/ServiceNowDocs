@@ -2,11 +2,12 @@
 title: Update a code quality rules form in RPA Hub
 description: Update few fields in the code quality rule form to set the code quality check standard.Use the Code quality rule form to view a rule along with description and type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/edit-cqr-rpa.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Code quality check, Use, RPA Hub, Workflow Data Fabric]
+breadcrumb: [Code quality check, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Update a code quality rules form in RPA Hub
@@ -21,7 +22,7 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 
 1.  Navigate to **All** &gt; **Robotic Process Automation** &gt; **RPA Hub Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/rpahublist-icon.png)\).
+2.  Select the list icon \(\[Omitted image "rpahublist-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Administration**, select **Code Quality Rules**.
 
@@ -35,7 +36,7 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager or sn\_rpa\_fdn.rpa\_admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Code quality check in RPA Hub](../concept/code-quality-check-rpa.md)
+**Parent Topic:**[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-rpa.md)
 
 ## Code quality rule form in RPA Hub
 
@@ -121,9 +122,9 @@ Brief description of the rule.
 </table>**Related topics**  
 
 
-[Code quality check in RPA Hub](../concept/code-quality-check-rpa.md)
+[Code quality check in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/code-quality-check-rpa.md)
 
-[View the code quality rules list in RPA Hub](view-cqr-rpa.md)
+[View the code quality rules list in RPA Hub]()
 
-[Code quality rules list in RPA Hub](../reference/cqr-list-rpa.md)
+[Code quality rules list in RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/cqr-list-rpa.md)
 

@@ -2,6 +2,7 @@
 title: Now Assist for Enterprise Architecture \(EA\)
 description: Use the ServiceNow Now Assist for Enterprise Architecture \(EA\) application to summarize Architectural Decision Records \(ADR\) in the Enterprise Architecture Workspace Use the Architectural Decision Records \(ADR\) to explain your infrastructure. ADR is a type of artifact that helps you to understand the background of a specific architectural decision.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/now-assist-ea.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -25,23 +26,23 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 <table id="table_ojj_jjv_qdc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for Enterprise Architecture \(EA\)](exploring-now-assist-for-ea.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for Enterprise Architecture \(EA\) application to get started](../task/configure-now-assist-ea.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Enterprise Architecture \(EA\) application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
 </td><td>
 
-[Use AI agents![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use the AI agent use cases in Now Assist for Enterprise Architecture \(EA\)](using-na-ea-ai-agents.md)
+[Use AI agents\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-na-ea-ai-agents.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use the generative AI capabilities offered by Enterprise Architecture \(EA\)](using-now-assist-for-ea.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities offered by Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-now-assist-for-ea.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about forms and fields of Now Assist for Enterprise Architecture \(EA\)](../reference/now-assist-ea-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about forms and fields of Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea-reference.md)
 
 </td><td>
 
@@ -50,9 +51,9 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
@@ -74,16 +75,16 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
--   **[Exploring Now Assist for Enterprise Architecture \(EA\)](exploring-now-assist-for-ea.md)**  
+-   **[Exploring Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)**  
 With the Now Assist for Enterprise Architecture \(EA\) application, you can generate a summary of Architectural Decision Records \(ADR\) or gather insights into business applications in the Enterprise Architecture Workspace.
--   **[Configure Now Assist for Enterprise Architecture \(EA\)](../task/configure-now-assist-ea.md)**  
+-   **[Configure Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/configure-now-assist-ea.md)**  
 If you have the admin role, you can configure the Now Assist for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
--   **[Using Now Assist for Enterprise Architecture \(EA\)](using-now-assist-for-ea.md)**  
+-   **[Using Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-now-assist-for-ea.md)**  
 With the Now Assist for Enterprise Architecture \(EA\) application, you can summarize Architectural decision records \(ADR\) and help gather insights into business applications in the Enterprise Architecture Workspace.
--   **[Using AI agent agentic workflow in Now Assist for Enterprise Architecture \(EA\)](using-na-ea-ai-agents.md)**  
+-   **[Using AI agent agentic workflow in Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/using-na-ea-ai-agents.md)**  
 Use the AI agents in Enterprise Architecture to help complete tasks autonomously.
--   **[Now Assist for Enterprise Architecture reference](../reference/now-assist-ea-reference.md)**  
+-   **[Now Assist for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/now-assist-ea-reference.md)**  
 Reference information to provide additional information about tables, roles, and properties installed with Now Assist for Enterprise Architecture \(EA\).
 
-**Parent Topic:**[Enterprise Architecture](../../application-portfolio-management/concept/application-portfolio-management-landing-page.md)
+**Parent Topic:**[Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/application-portfolio-management-landing-page.md)
 

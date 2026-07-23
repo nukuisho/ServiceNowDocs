@@ -2,6 +2,7 @@
 title: Enable users to view email details in activity stream
 description: As a contract configurator, specify the user roles to enable users to view email details in the activity stream of contract requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-enbl-user-email-astream.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -30,7 +31,7 @@ Role required: admin
 
             For example, to enable contract fulfillers to view email details in the activity stream, add `sn_cm_core.contract_fulfiller`.
 
-            ![Add roles in system properties using the UI](../image/cmpro-add-role-ui.png "Customize properties")
+            \[Omitted image "cmpro-add-role-ui.png"\] Alt text: Add roles in system properties using the UI
 
         3.  Select **Save**.
     -   Add role to the system property.
@@ -41,7 +42,7 @@ Role required: admin
 
             For example, to enable contract fulfillers to view email details in the activity stream, add `sn_cm_core.contract_fulfiller`.
 
-            ![Add roles using system properties](../image/cmpro-sys-prop-role.png "Customize system properties")
+            \[Omitted image "cmpro-sys-prop-role.png"\] Alt text: Add roles using system properties
 
         5.  Select **Update**.
 
@@ -49,26 +50,28 @@ Role required: admin
 
 The users with the assigned role that has been added to the system property can view email details in the activity stream of a contract request.
 
-**Parent Topic:**[Configure additional features in Contract Management Pro](../concept/cmpro-additional-feature.md)
+**Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace](../concept/cncore-conf-cntrct-wrkspc.md)
+[Configuring Contract Workspace]()
 
-[Configure signature pause duration when modifying signatories](cncore-pause-sig-property.md)
+[Configure signature pause duration when modifying signatories]()
 
-[Auto-populate the start date and end date for contract requests](cncore-conf-start-end-date-for-cntrcts.md)
+[Auto-populate the start date and end date for contract requests]()
 
-[Activate a system property to generate a certificate of completion](cncore-config-system-prop-COC.md)
+[Enable signatory roles]()
 
-[Enable keyword search for contract templates](cncore-enable-search-cont-tmplts.md)
+[Activate a system property to generate a certificate of completion]()
 
-[Configuring contract summarization for Contract Management Pro](cmpro-conf-cntr-summary.md)
+[Enable keyword search for contract templates]()
 
-[Configure conditions to send reminder notifications for expiring contracts](cncore-config-rem-exp-cont.md)
+[Configuring contract summarization for Contract Management Pro]()
 
-[Copy fields from parent request to amendment request](cncore-cpy-fld-parent-amedreq.md)
+[Configure conditions to send reminder notifications for expiring contracts]()
 
-[Manage notifications in Contract Management Pro](../concept/cmpro-manage-notifications.md)
+[Copy fields from parent request to amendment request]()
+
+[Manage notifications in Contract Management Pro]()
 

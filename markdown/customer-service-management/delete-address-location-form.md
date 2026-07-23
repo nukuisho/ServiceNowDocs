@@ -2,6 +2,7 @@
 title: Deleting or editing an address on the location form
 description: As a user, you can edit or delete an existing record in the account address table without affecting any other associated records. To use this capability, you must be an admin or a sn\_customerservice\_manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/delete-address-location-form.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

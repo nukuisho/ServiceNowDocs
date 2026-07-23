@@ -2,6 +2,7 @@
 title: List screen configuration
 description: Configure a list screen so that your users can see a list of records from their mobile app. To access a record from the list, a user can tap the record name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-configure-list-screen.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ Create a simple list screen with a single data source, single segment, default f
 
 4.  Select the **List** option in the Create a screen page, and then select **Continue**.
 
-    ![blank list screen creation record](../image/mab-list-screen-creation.png "New list screen creation screen")
+    \[Omitted image "mab-list-screen-creation.png"\] Alt text: blank list screen creation record
 
 5.  Complete the fields as needed; the associated records are automatically generated for you based on the inputs you provide.
 
@@ -60,7 +61,7 @@ Create a simple list screen with a single data source, single segment, default f
 
     Automatically generated records are marked with a blue spark icon in the configuration tree.
 
-    ![three generated records with a blue spark next to them](../image/mab-generated-records-icon.png "Generated record icons")
+    \[Omitted image "mab-generated-records-icon.png"\] Alt text: three generated records with a blue spark next to them
 
 7.  Edit fields or fill in additional ones for your list screen.
 
@@ -92,11 +93,11 @@ Create a simple list screen with a single data source, single segment, default f
 
 List screen primary screen
 
-![List screen.](../image/mobile-list.png "Created list screen")
+\[Omitted image "mobile-list.png"\] Alt text: List screen.
 
 ## What to do next
 
--   **Use embedded screens within your list screen**- List screens can be configured to include record screens. Adding an embedded screen enables users to tap on a record, the contents of which are displayed in a new screen. As an admin, you configure this option in the List item config record. For more information, see [Configure a record screen for use with a list screen](sg-configure-form-applet.md).
--   **Configure mobile functions for your list screen** - The List screen can include top menu functions and footer functions to determine the type of action users can perform on a list screen. As an admin, you configure this option in the List screen record. For more information see, [Mobile functions](../concept/sg-studio-mobile-button-types.md) and [Associate a function with a location in the app](../reference/sg-studio-button-instances.md).
+-   **Use embedded screens within your list screen**- List screens can be configured to include record screens. Adding an embedded screen enables users to tap on a record, the contents of which are displayed in a new screen. As an admin, you configure this option in the List item config record. For more information, see [Configure a record screen for use with a list screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-form-applet.md).
+-   **Configure mobile functions for your list screen** - The List screen can include top menu functions and footer functions to determine the type of action users can perform on a list screen. As an admin, you configure this option in the List screen record. For more information see, [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md) and [Associate a function with a location in the app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-button-instances.md).
 -   **Configure role access for records in your list screen** - Use the role access option to configure the records in your list screen to only display to selected roles. As an admin, you configure this option in the List screen record.
 

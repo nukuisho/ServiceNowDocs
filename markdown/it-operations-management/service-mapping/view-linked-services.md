@@ -2,6 +2,7 @@
 title: View dependent application services in classic Service Mapping
 description: Check which application services depend on an application service and open maps for dependent application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/view-linked-services.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -23,7 +24,7 @@ Roles required: service\_mapping\_user
 
 The service that contains a reference to another service instance, becomes a dependent service. The service that you include as a reference is a contained service.
 
-![The map showing a contained service.](../image/linked-services-dependent-contained.png "Dependent service map with a reference to a contained application service")
+\[Omitted image "linked-services-dependent-contained.png"\] Alt text: The map showing a contained service.
 
 ## Procedure
 
@@ -41,15 +42,15 @@ The service that contains a reference to another service instance, becomes a dep
 
 3.  Select the link for the dependent service whose map you want to view.
 
-    ![View dependent application services](../image/linked-services-show-dependent.png)
+    \[Omitted image "linked-services-show-dependent.png"\] Alt text: View dependent application services
 
     The map window shows the map for the dependent service you selected.
 
 
-**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](../concept/c_SvcPlanningAndAnalysisUsingMaps.md)
+**Parent Topic:**[Application service analysis and maintenance using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_SvcPlanningAndAnalysisUsingMaps.md)
 
 **Related topics**  
 
 
-[Link application services](link-services-to-services.md)
+[Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/link-services-to-services.md)
 

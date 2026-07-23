@@ -2,6 +2,7 @@
 title: Create Report Subsection Element template
 description: Use subsection elements to further organize a subsection into multiple elements. Subsection elements help define visualizations, lists, free-form text more declaratively with filter options such as assignment groups and labels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-report-subsection-element-template.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -35,19 +36,19 @@ Role required: sn\_msi.workspace\_manager
 
 6.  Navigate to **Report subsection elements** &gt; **New**.
 
-    ![Sample Report subsection element template](../image/msim-status-subsection-element.png "Create Report subsection element template") ![]( "Create Report subsection element template")
+    \[Omitted image "msim-status-subsection-element.png"\] Alt text: Sample Report subsection element template \[Omitted image ""\] Alt text:
 
 7.  On the Report subsection elements form, fill in the fields.
 
-<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d480765e138">
+<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d488859e134">
 
 Field
 
-</th><th align="left" id="d480765e141">
+</th><th align="left" id="d488859e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d480765e147">
+</th></tr></thead><tbody><tr><td id="d488859e143">
 
 **Name**
 
@@ -61,7 +62,7 @@ Name of the Report template subsection element. For example, Scope.**Note:** The
 -   **Active Team Trend:** Depicts the active teams trend in a graphical representation.
 
 
-</td></tr><tr><td id="d480765e181">
+</td></tr><tr><td id="d488859e177">
 
 **Type**
 
@@ -73,7 +74,7 @@ The report subsection element type. The available types are:-   Free Form Text
 -   List
 
 
-</td></tr><tr><td id="d480765e205">
+</td></tr><tr><td id="d488859e201">
 
 **Table**
 
@@ -81,7 +82,7 @@ The report subsection element type. The available types are:-   Free Form Text
 
 Name of the report template table.
 
-</td></tr><tr><td id="d480765e214">
+</td></tr><tr><td id="d488859e210">
 
 **Active**
 
@@ -89,7 +90,7 @@ Name of the report template table.
 
 Select the check box to create a report section for the selected template in the MSIM workspace.**Note:** If the check box is unselected, the MSI Manager can’t create a report section for this template in the MSIM workspace.
 
-</td></tr><tr><td id="d480765e227">
+</td></tr><tr><td id="d488859e223">
 
 **Show by default in the report**
 
@@ -97,7 +98,7 @@ Select the check box to create a report section for the selected template in the
 
 Select this check box if you want to include the section within the report to quickly render the elements.
 
-</td></tr><tr><td id="d480765e236">
+</td></tr><tr><td id="d488859e232">
 
 **MSI Report Template**
 
@@ -105,7 +106,7 @@ Select this check box if you want to include the section within the report to qu
 
 The MSI Report Template name for which you’re dividing the report into sections.
 
-</td></tr><tr><td id="d480765e245">
+</td></tr><tr><td id="d488859e241">
 
 **Order**
 
@@ -113,7 +114,7 @@ The MSI Report Template name for which you’re dividing the report into section
 
 The order in which the report sections will be rendered.
 
-</td></tr><tr><td id="d480765e254">
+</td></tr><tr><td id="d488859e250">
 
 **Description**
 
@@ -125,25 +126,25 @@ Provide a description to the subsection element type.
 </table>8.  Save and **Update** the new report template section.
 
 
--   **[Create a Free Form Type Element](create-free-form-type-element.md)**  
+-   **[Create a Free Form Type Element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-free-form-type-element.md)**  
 Create a free form element type to define the free form text more declaratively with filter options such as assignment groups and labels.
--   **[Create a Visualization Type Element](create-visualization-type-element.md)**  
+-   **[Create a Visualization Type Element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-visualization-type-element.md)**  
 Create a visualization element type to define the visualization elements more declaratively with filter options such as assignment groups and labels.
--   **[Create a List Type Element](create-list-type-element.md)**  
+-   **[Create a List Type Element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-list-type-element.md)**  
 Create a list type element, which defines the related list elements more declaratively with filter options such as assignment groups and labels.
--   **[Create a Custom Type Element](create-a-custom-type-element.md)**  
+-   **[Create a Custom Type Element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-a-custom-type-element.md)**  
 Create a list type element, which defines the related list elements more declaratively with filter options such as assignment groups and labels.
 
-**Parent Topic:**[Configure Major Security Incident status reports](../concept/manage-status-reports-for-major-security-incident-management.md)
+**Parent Topic:**[Configure Major Security Incident status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/manage-status-reports-for-major-security-incident-management.md)
 
 **Related topics**  
 
 
-[Create a Report Template](create-report-template.md)
+[Create a Report Template]()
 
-[Create a Report Section Template](create-report-section-template.md)
+[Create a Report Section Template]()
 
-[Create a Report Subsection Template](create-report-subsection-template.md)
+[Create a Report Subsection Template]()
 
-[Add system properties](../concept/adding-system-properties-to-your-status-reports.md)
+[Add system properties]()
 

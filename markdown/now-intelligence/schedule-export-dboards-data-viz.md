@@ -2,6 +2,7 @@
 title: Schedule the export of dashboards and data visualizations
 description: Automate the export and mailing of dashboards and data visualizations. Help colleagues build presentations, share information with external users, or track data over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/schedule-export-dboards-data-viz.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,7 +27,7 @@ To view the list of scheduled exports, navigate to **All** &gt; **Platform Analy
 
 ## About this task
 
-You can export multiple dashboards and data visualizations together in one scheduled email. Supported export formats depend on what you are exporting and whether you are exporting it as part of a dashboard or as a standalone data visualization.
+You can export multiple dashboards and data visualizations together in one scheduled email. Supported export formats depend on what you're exporting and whether you're exporting it as part of a dashboard or as a standalone data visualization.
 
 |Data visualization or dashboard element|Supported dashboard export formats|Supported data visualization export formats|
 |---------------------------------------|----------------------------------|-------------------------------------------|
@@ -45,31 +46,29 @@ You can export multiple dashboards and data visualizations together in one sched
 
     Check the list of supported export formats under **About this task**.
 
-3.  From the More actions menu \(![More actions menu icon](../../../administer/integrationhub/images/more-actions-menu-icon.png)\), select **Schedule**.
+3.  From the More actions menu \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions menu icon\), select **Schedule**.
 
-    You cannot be in Edit mode.
+    You can't be in Edit mode.
 
-    ![Schedule option in More actions menu](../image/paw-vd-schedule.png)
+    \[Omitted image "paw-vd-schedule.png"\] Alt text: Schedule option in More actions menu
 
-    All the options appear for exporting the dashboard or data visualization. If you do not want to export this object, select **Change**.
+    All the options appear for exporting the dashboard or data visualization. If you don't want to export this object, select **Change**.
 
 4.  Select the file type.
 
-5.  If you are exporting a dashboard or data visualization to PDF, or a data visualization to a graphic file, select the page format and orientation.
+5.  If you're exporting a dashboard or data visualization to PDF, select the page format and orientation.
 
-    Scheduled exports of List data visualizations to PDF do not have options for page format or orientation. If you need a PDF with a particular format or orientation, consider putting the List on a dashboard and scheduling the export of that dashboard, instead.
-
-6.  If you are exporting a dashboard to Power Point, do the following steps:
+6.  If you're exporting a dashboard to Power Point, do the following steps:
 
     1.  Select whether to export all tabs or only specific tabs.
 
     2.  If you select to export only specific tabs, select which tabs to export and whether to include the top layout contents.
 
-        ![Export configuration for one tab and the top level visualizations.](../image/sched-exp-by-tab.png "Configuring the export of dashboard tabs")
+        \[Omitted image "sched-exp-by-tab.png"\] Alt text: Export configuration for one tab and the top level visualizations.
 
-        For example, if you do not turn on **Export all tabs**, you have to select the tabs to export. If you select a tab and turn on **Export all visualizations in the top layout**, you export that tab and any visualizations placed above the tabs.
+        For example, if you don't turn on **Export all tabs**, you have to select the tabs to export. If you select a tab and turn on **Export all visualizations in the top layout**, you export that tab and any visualizations placed above the tabs.
 
-        ![Tab and top level visualizations that are exported.](../image/sched-exp-top-and-tab.png "The visualizations that are exported")
+        \[Omitted image "sched-exp-top-and-tab.png"\] Alt text: Tab and top level visualizations that are exported.
 
 7.  To add more dashboards or data visualizations to the export, do the following steps:
 
@@ -151,27 +150,27 @@ A conditional script that determines if a scheduled job should run. The last exp
 11. Select **Save** to save the schedule.
 
 
--   **[Scheduled export reference qualifiers](scheduled-export-ref-qualifiers.md)**  
+-   **[Scheduled export reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/scheduled-export-ref-qualifiers.md)**  
 Use reference qualifiers to specify the users and groups in the recipients field of scheduled exports.
 
-**Parent Topic:**[Common dashboard tasks in the in-line editor](../../dashboards/concept/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 
 
-[Create a dashboard with the in-line editor](../../dashboards/task/create-db-in-ac.md)
+[Create a dashboard with the in-line editor]()
 
-[Edit Platform Analytics dashboards](../../dashboards/task/edit-db-in-ac.md)
+[Edit Platform Analytics dashboards]()
 
-[Share a Platform Analytics dashboard](../../dashboards/task/share-db-in-ac.md)
+[Share a Platform Analytics dashboard]()
 
-[Duplicate a Platform Analytics dashboard](../../reporting/task/duplicate-db.md#)
+[Duplicate a Platform Analytics dashboard]()
 
-[Print a Platform Analytics dashboard](../../dashboards/task/printer-friendly-db-ac.md)
+[Print a Platform Analytics dashboard]()
 
-[Export a Platform Analytics dashboard](../../dashboards/task/export-pae-dashboard-ppt.md)
+[Export a Platform Analytics dashboard]()
 
-[Bookmark a Platform Analytics dashboard](../../dashboards/task/bookmark-dashboard-ac.md)
+[Bookmark a Platform Analytics dashboard]()
 
-[Delete a Platform Analytics dashboard](../../dashboards/task/delete-db-in-ac.md)
+[Delete a Platform Analytics dashboard]()
 

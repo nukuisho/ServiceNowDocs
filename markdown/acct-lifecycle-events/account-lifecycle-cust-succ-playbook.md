@@ -1,7 +1,8 @@
 ---
 title: Customer success playbooks
-description: Customer success agents can use playbooks to define planned and unplanned activities, success, and renewal processes.
+description: Customer success agents can use playbooks to define planned and unplanned activities, success case tasks, and renewal processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-cust-succ-playbook.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -11,7 +12,7 @@ breadcrumb: [Customer success, Explore, Customer Success Management]
 
 # Customer success playbooks
 
-Customer success agents can use playbooks to define planned and unplanned activities, success, and renewal processes.
+Customer success agents can use playbooks to define planned and unplanned activities, success case tasks, and renewal processes.
 
 Playbooks provide step-by-step guidance and include multiple stages and activities that must be included. Customer success agents can:
 
@@ -20,9 +21,9 @@ Playbooks provide step-by-step guidance and include multiple stages and activiti
 -   Mark an activity as complete and move to the next activity or stage.
 -   Complete the stages and activities and close the playbook.
 
-For more details on the playbook layout and components, see [Playbook layout and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-layout.md). The following playbooks are available:
+For more details on the playbook layout and components, see . The following playbooks are available:
 
--   [Success case playbook](account-lifecycle-success-playbook.md)
--   [Internal play playbook](account-lifecycle-internal-playbook.md)
--   [Renewal playbook](account-lifecycle-renewal-playbook.md)
+-   [Customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-success-playbook.md)
+-   [Internal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-internal-playbook.md)
+-   [Renewal play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-renewal-playbook.md)
 

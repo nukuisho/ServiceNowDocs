@@ -2,9 +2,10 @@
 title: Reopen an exception rule
 description: Reopen an exception rule that has been rejected, but you want to resubmit. Reopening the rule moves it to the Draft state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-reopen-ex-rule.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Configuring an exception rule, Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -34,5 +35,5 @@ You can then update and resubmit the rule for approval.
 5.  Update the form and resubmit it for approval.
 
 
-**Parent Topic:**[Configuring an exception rule](../concept/sem-configure-exception-rule.md)
+**Parent Topic:**[Configuring an exception rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-configure-exception-rule.md)
 

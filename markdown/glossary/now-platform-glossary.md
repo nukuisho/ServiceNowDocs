@@ -2,11 +2,12 @@
 title: ServiceNow AI Platform glossary
 description: Learn about the terms and concepts related to the ServiceNow AI Platform.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/glossary/now-platform-glossary.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 101
-keywords: [glossary terms, ACL, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
+reading_time_minutes: 100
+keywords: [glossary terms, ACL, glossary terms, glossary terms, glossary terms, glossary terms, dashboard, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 ---
 
 # ServiceNow AI Platform glossary
@@ -217,7 +218,7 @@ App shells are the static elements of a web experience \(for example, the header
 
 Provides predefined data, experience, logic and automation, and security to support a certain use case. For example, the Travel Request template provides application content for submitting and approving employee travel requests.
 
-For more information on the available templates, see [Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md).
+For more information on the available templates, see [Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/template-library.md).
 
 ### applet launcher
 
@@ -348,9 +349,9 @@ An automated indicator uses an indicator source as its data set. The indicator s
 **Related topics**  
 
 
-[indicator \(KPI\)](now-platform-glossary.md#)
+[indicator \(KPI\)]()
 
-[database view](now-platform-glossary.md#)
+[database view]()
 
 ### Automated Test Framework \(ATF\)
 
@@ -423,7 +424,7 @@ The values for a breakdown. For example, the Priority breakdown may have the ele
 **Related topics**  
 
 
-[breakdown](now-platform-glossary.md#)
+[breakdown]()
 
 ### breakdown mapping
 
@@ -436,11 +437,11 @@ A set of records from a table or database view that constitute the unique values
 **Related topics**  
 
 
-[breakdown](now-platform-glossary.md#)
+[breakdown]()
 
-[breakdown element](now-platform-glossary.md#)
+[breakdown element]()
 
-[bucket group](now-platform-glossary.md#)
+[bucket group]()
 
 ### breakdown
 
@@ -449,9 +450,9 @@ A grouping or a filter of indicator scores that is based on a qualitative attrib
 **Related topics**  
 
 
-[breakdown element](now-platform-glossary.md#)
+[breakdown element]()
 
-[indicator \(KPI\)](now-platform-glossary.md#)
+[indicator \(KPI\)]()
 
 ### breakpoint
 
@@ -866,7 +867,7 @@ Glossary terms are grouped alphabetically.
 
 ### dashboard
 
-A collection of visualizations grouped into a single location.
+A canvas for organizing and sharing data visually. Dashboards contain data visualizations, filters, and other visual elements. Users can share dashboards with other users, groups, or roles to create a shared view of data.
 
 ### data binding
 
@@ -1055,11 +1056,6 @@ Sets the domains a user can access in a domain-separated environment.
 ### domain separation
 
 A process to separate data, processes, and administrative tasks into logical groupings called domains. Admins can then control the information available to each domain, including which users can see and access the data. Typically used only in Multiple Service Provider \(MSP\) organizations.
-
-**Related topics**  
-
-
-[service-bridge-v2-domain-separation]
 
 ### domain
 
@@ -1250,7 +1246,7 @@ A graphical interface users interact with to create workspaces, portals, catalog
 
 ### Experience
 
-Graphical interface that your users interact with. For example, you can create a portal where users find information, submit requests, or complete business tasks. For more information on the available application experiences, see [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md).
+Graphical interface that your users interact with. For example, you can create a portal where users find information, submit requests, or complete business tasks. For more information on the available application experiences, see [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-experience.md).
 
 ### export definition
 
@@ -2163,11 +2159,6 @@ Prioritization helps review all the new and existing work for a portfolio plan, 
 
 A case automatically generated to proactively notify and address impacted customers before they report an issue.
 
-**Related topics**  
-
-
-[service-bridge-v2-proactive-case]
-
 ### process job
 
 Execution of a bot process by a robot in RPA Hub.
@@ -2210,7 +2201,7 @@ The process of finding, acquiring, and buying goods, services, or works from an 
 
 ### Product idea
 
-A product idea is an improvement or solution created from gathered feedback.These product ideas are assessed for impact, prioritized, and developed to improve the user experience. For more information, see [Product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/managing-product-feedback-in-strategic-planning.md).
+A product idea is an improvement or solution created from gathered feedback.These product ideas are assessed for impact, prioritized, and developed to improve the user experience. For more information, see [Product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/managing-product-feedback-in-strategic-planning.md).
 
 ### product offer
 
@@ -2697,10 +2688,6 @@ A list of table records \(sys\_ids\) that are collected at the time that the ind
 
 A record that stores details on how to interact with an external web service through SOAP.
 
-### sold product
-
-A product or service that is sold to an account or a consumer that can have child and parent sold products in a hierarchical structure.
-
 ### source control
 
 The management of code and changes to the code of an application.
@@ -2955,7 +2942,7 @@ The user-defined top or bottom limit of the normal range of scores for an indica
 
 ### TMF 621 rest API
 
-A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/trouble-ticket-open-api.md).
+A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/trouble-ticket-open-api.md).
 
 ### tolerance rules
 

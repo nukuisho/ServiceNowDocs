@@ -2,6 +2,7 @@
 title: Constituent Service dashboard
 description: Use this dashboard to monitor the health of citizen services, gain insights on how efficiently government cases are handled, and assess the overall performance of services offered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/constituent-services-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,9 +14,9 @@ breadcrumb: [Analytics and Reporting, Public Sector Digital Services \(PSDS\)]
 
 Use this dashboard to monitor the health of citizen services, gain insights on how efficiently government cases are handled, and assess the overall performance of services offered.
 
-![Constituent Services Overview tab that displays indicators and reports for constituent cases represented by various graphs and tiles.](../../../product/public-sector/image/constituent-service-overview-dboard-new.png "Constituent Service Dashboard Overview tab")
+\[Omitted image "constituent-service-overview-dboard-new.png"\] Alt text: Constituent Services Overview tab that displays indicators and reports for constituent cases represented by various graphs and tiles.
 
-![Constituent Services Performance tab that displays KPIs and reports on open and closed cases represented by line and bar graphs.](../../../product/public-sector/image/constituent-service-dboard-performance-new.png "Constituent Service Dashboard Performance tab")
+\[Omitted image "constituent-service-dboard-performance-new.png"\] Alt text: Constituent Services Performance tab that displays KPIs and reports on open and closed cases represented by line and bar graphs.
 
 ## Required ServiceNow AI Platform roles
 
@@ -147,7 +148,7 @@ Open cases older than 30 days by stage and state
 
 </td><td>
 
-Pivot![](../../../product/public-sector/image/pivot.svg)
+Pivot\[Omitted image "pivot.svg"\] Alt text:
 
 </td><td>
 
@@ -163,7 +164,7 @@ Open cases
 
 </td><td>
 
-Score![](../../../reuse/reporting/image/single-score.svg)
+Score\[Omitted image "single-score.svg"\] Alt text:
 
 </td><td>
 
@@ -179,7 +180,7 @@ Cases opened per week
 
 </td><td>
 
-Line![](../../../reuse/reporting/image/line-trend.svg)
+Line\[Omitted image "line-trend.svg"\] Alt text:
 
 </td><td>
 
@@ -211,7 +212,7 @@ Unassigned cases
 
 </td><td>
 
-Score![](../../../reuse/reporting/image/single-score.svg)
+Score\[Omitted image "single-score.svg"\] Alt text:
 
 </td><td>
 
@@ -243,7 +244,7 @@ Open cases by stage and state
 
 </td><td>
 
-Pivot![](../../../product/public-sector/image/pivot.svg)
+Pivot\[Omitted image "pivot.svg"\] Alt text:
 
 </td><td>
 
@@ -259,7 +260,7 @@ Cases closed per week
 
 </td><td>
 
-Line![](../../../reuse/reporting/image/line-trend.svg)Line
+Line\[Omitted image "line-trend.svg"\] Alt text:Line
 
 </td><td>
 
@@ -286,5 +287,5 @@ Government Service Case \[sn\_gsm\_government\_service\_case\]
 Distribution of unassigned government cases by priority.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and Reporting Solutions for Public Sector Digital Services](../../application-content-packs/concept/psds-content-pack.md)
+</table>**Parent Topic:**[Analytics and Reporting Solutions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-content-pack.md)
 

@@ -2,13 +2,14 @@
 title: Workplace Profile Location Assignment form
 description: The location assignment form helps you assign a location or a neighborhood to a workplace profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/wsd-location-assignment-form.html
 release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Workplace Core references, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Workplace Profile Location Assignment form
@@ -29,7 +30,7 @@ Workplace profile
 
 </td><td>
 
-Workplace profile record that the location must be assigned to. A workplace profile can have multiple location assignments.For more information about workplace profiles, see [Map designated workspaces to user profiles](../task/map-employees-to-existing-workplace-locations-wsd.md).
+Workplace profile record that the location must be assigned to. A workplace profile can have multiple location assignments.For more information about workplace profiles, see [Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md).
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Schedule plan
 
 </td><td>
 
-Schedule plan that you want to use to assign workplace locations to the profile. For more information about schedule plans, see [Schedule Planning](../../workplace-central/concept/schedule-planning.md).
+Schedule plan that you want to use to assign workplace locations to the profile. For more information about schedule plans, see [Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/schedule-planning.md).
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ Is primary
 
 </td><td>
 
-Option to specify if the assigned workplace location is the primary location for the profile. A workplace profile can only be assigned one primary location.For more information about setting a primary location, see [Set the primary location of a workplace profile](../task/set-prim-location-of-worplace-profile.md).
+Option to specify if the assigned workplace location is the primary location for the profile. A workplace profile can only be assigned one primary location.For more information about setting a primary location, see [Set the primary location of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/set-prim-location-of-worplace-profile.md).
 
 </td></tr><tr><td>
 
@@ -85,7 +86,7 @@ Reason for anomaly
 
 </td><td>
 
-Anomaly that occurred due to a mismatch in the allocation or assignment type. For more information about anomalies, see [Workplace location assignment anomaly types](location-assignment-anomaly-types.md). This field is automatically calculated based on the workplace location and profile records.
+Anomaly that occurred due to a mismatch in the allocation or assignment type. For more information about anomalies, see [Workplace location assignment anomaly types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/location-assignment-anomaly-types.md). This field is automatically calculated based on the workplace location and profile records.
 
 </td></tr><tr><td>
 
@@ -104,18 +105,18 @@ Source
 Source from which the location assignment record was created. This field is automatically generated and is only visible in the Workplace Profile Location Assignments related list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Core references](../concept/wsd-references.md)
+</table>**Parent Topic:**[Workplace Core references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Core](components-installed-with-workplace-service-delivery.md)
+[Components installed with Workplace Core]()
 
-[Properties installed with Workplace Core](properties-installed-with-workplace-service-delivery.md)
+[Properties installed with Workplace Core]()
 
-[Workplace location assignment anomaly types](location-assignment-anomaly-types.md)
+[Workplace location assignment anomaly types]()
 
-[Reserve a space form](reserve-space-form.md)
+[Reserve a space form]()
 
-[Card Configuration examples](card-configuration-examples.md)
+[Card Configuration examples]()
 

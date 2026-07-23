@@ -2,6 +2,7 @@
 title: Unauthorized change properties
 description: Use the Unauthorized Change Properties page to enable or disable the unauthorized change capability, and to configure the criteria for additional unauthorized change properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/unauth-change-properties.html
 release: australia
 product: Change Management
 classification: change-management
@@ -69,10 +70,10 @@ CI class inclusion
 Choose the CI classes that you want to include and monitor for an unauthorized change to be created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Unauthorized change request](../concept/unauthorized-change-request.md)
+</table>**Parent Topic:**[Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/unauthorized-change-request.md)
 
 **Related topics**  
 
 
-[Disable the creation of an unauthorized change request](../task/disable-unauth-notification.md)
+[Disable the creation of an unauthorized change request]()
 

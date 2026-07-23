@@ -2,6 +2,7 @@
 title: Add a catalog item to the shopping cart in Employee Center
 description: Add a catalog item or order guide to the shopping cart to store at one place and checkout.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/add-to-cart-ec.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -41,7 +42,7 @@ Role required: requester
 
 6.  If necessary, edit the quantity of items.
 
-7.  To remove an item from the cart, click the Remove Item icon \(![Icon to remove item](../image/RemoveIcn.png)\).
+7.  To remove an item from the cart, click the Remove Item icon \(\[Omitted image "RemoveIcn.png"\] Alt text: Icon to remove item\).
 
 8.  To make changes to this item, select it, and then select **Save as Draft**.
 
@@ -71,7 +72,7 @@ Role required: requester
 
 15. Specify the **Delivery Information** and **Special instructions**.
 
-16. To add one or more attachments for the cart, click the add attachment icon \(![add attachment icon](../image/IconAddAttachmnt.png)\).
+16. To add one or more attachments for the cart, click the add attachment icon \(\[Omitted image "IconAddAttachmnt.png"\] Alt text: add attachment icon\).
 
     You can browse and choose the files, drag the files, or copy and paste them in the Add attachments window.
 
@@ -80,10 +81,10 @@ Role required: requester
     The corresponding request is displayed in the My Requests page with the request number, estimated delivery date for the entire order, price, and the order status of individual ordered items.
 
 
-**Parent Topic:**[Service Catalog in Employee Center portal](../concept/service-catalog-in-ec.md)
+**Parent Topic:**[Service Catalog in Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-in-ec.md)
 
 **Related topics**  
 
 
-[Save a draft of a catalog item](save-draft-catalog-item.md)
+[Save a draft of a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/save-draft-catalog-item.md)
 

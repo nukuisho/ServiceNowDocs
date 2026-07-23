@@ -2,6 +2,7 @@
 title: Add an adaptive desktop action tool to an AI agent for web-based tasks
 description: Configure and add a desktop action as a tool to an AI agent in AI Agent Studio so that AI agents can perform dynamic steps in the web environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-web-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-04-13"
@@ -15,7 +16,7 @@ Configure and add a desktop action as a tool to an AI agent in AI Agent Studio s
 
 ## Before you begin
 
-Familiarize yourself with adaptive desktop actions. For more information, see [Adaptive desktop actions for web-based tasks](web-agents-overview.md).
+Familiarize yourself with adaptive desktop actions. For more information, see [Adaptive desktop actions for web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/web-agents-overview.md).
 
 Role required: sn\_aia.admin
 
@@ -27,39 +28,43 @@ An AI agent named **Web Automation Agent** and agentic workflow named **Web Auto
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage** &gt; **AI agents**.
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 
-2.  Open the AI agent that you want to add a desktop action to.
+2.  Select **AI agents** tab on the page.
 
-    For creating an AI agent, see [Create an AI agent](../../../administer/now-assist-ai-agents/task/configure-next-best-action-agent.md).
+3.  Open the AI agent that you want to add a desktop action to.
 
-3.  Navigate to the Add tools and information step.
+    You can select the AI agent that is provided by default \(**Web Automation Agent**\) or create an AI agent.
 
-4.  In the **Add tool** drop-down list, select **Desktop action**.
+    For creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
-    ![Add tool drop-down showing desktop action as an option.](../image/create-web-tool4.png)
+4.  Navigate to the **Add tools and information** step.
 
-5.  On the Add a desktop action modal, select the **Click here to create a desktop action** link.
+5.  In the **Add tool** drop-down list, select **Desktop action**.
 
-    ![Add web-based desktop actions](../image/create-web-tool5.png)
+    \[Omitted image "create-web-tool4.png"\] Alt text: Add tool drop-down showing desktop action as an option.
 
-6.  Keep the option **Let AI determine the steps dynamically for web-based tasks** selected.
+6.  On the Add a desktop action modal, select the **Click here to create a desktop action** link.
 
-    ![Add web-based desktop actions](../image/create-web-tool6.png)
+    \[Omitted image "create-web-tool5.png"\] Alt text: Add web-based desktop actions
 
-7.  Select **Continue**
+7.  Select the **Let AI determine the steps dynamically for web-based tasks** option.
 
-8.  On the form, fill in the fields.
+    \[Omitted image "create-web-tool6.png"\] Alt text: Add web-based desktop actions
 
-<table id="choicetable_t3f_bgj_y3c"><thead><tr><th align="left" id="d91631e217">
+8.  Select **Continue**
+
+9.  On the form, fill in the fields.
+
+<table id="choicetable_t3f_bgj_y3c"><thead><tr><th align="left" id="d101818e222">
 
 Field
 
-</th><th align="left" id="d91631e220">
+</th><th align="left" id="d101818e225">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d91631e226">
+</th></tr></thead><tbody><tr><td id="d101818e231">
 
 **Name**
 
@@ -67,7 +72,7 @@ Description
 
 Provide a unique intuitive name.
 
-</td></tr><tr><td id="d91631e235">
+</td></tr><tr><td id="d101818e240">
 
 **Tool Description**
 
@@ -75,7 +80,7 @@ Provide a unique intuitive name.
 
 Description of the tool's purpose, functionality, inputs, and expected outputs, written in complete sentences. The AI agent uses this description to select the appropriate tool. Explain how an AI agent uses the tool and its inputs — including specific fields or data types — to carry out its role. Include exact input requirements such as format rules, character limits, and valid values. Specify what the tool returns and how the AI agent should use the output.
 
-</td></tr><tr><td id="d91631e244">
+</td></tr><tr><td id="d101818e249">
 
 **Navigation actions**
 
@@ -83,7 +88,7 @@ Description of the tool's purpose, functionality, inputs, and expected outputs, 
 
 Add a list of precise steps that the AI agent must execute on the web page or application effectively.
 
-</td></tr><tr><td id="d91631e253">
+</td></tr><tr><td id="d101818e258">
 
 **Time out**
 
@@ -91,7 +96,7 @@ Add a list of precise steps that the AI agent must execute on the web page or ap
 
 Enter the maximum number of minutes an AI agent should use the web page or application. Default value: 30 mins.
 
-</td></tr><tr><td id="d91631e265">
+</td></tr><tr><td id="d101818e270">
 
 **Execution mode**
 
@@ -101,7 +106,7 @@ Mode of execution for your selected desktop action:-   **Supervised**: Inputs fr
 -   **Autonomous**: Doesn't require any input from your live agent during the execution of this desktop action while the AI agent runs.
 
 
-</td></tr><tr><td id="d91631e286">
+</td></tr><tr><td id="d101818e291">
 
 **Display output**
 
@@ -120,7 +125,7 @@ If you want the AI agent to work in Off Glide architecture with AI-native experi
     -   **No**
 **Note:** The display output as a toggle is exclusively available for the AI-native experience when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard display output options.
 
-</td></tr><tr><td id="d91631e355">
+</td></tr><tr><td id="d101818e360">
 
 **Select an output transformation format**
 
@@ -133,7 +138,7 @@ Style for the LLM to present the results as it passes information between tools 
 -   Custom
 
 
-</td></tr><tr><td id="d91631e381">
+</td></tr><tr><td id="d101818e386">
 
 **Write processing messages for users**
 
@@ -144,12 +149,12 @@ Message to display to users during tool execution.-   In-progress message: Write
 
 
 </td></tr></tbody>
-</table>9.  Select **Add desktop action**.
+</table>10. Select **Add desktop action**.
 
     The desktop action is added in the Desktop actions list on the Add tools and information page.
 
 
 ## What to do next
 
-For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](use-agentic-desktop.md).
+For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/use-agentic-desktop.md).
 

@@ -2,6 +2,7 @@
 title: Configuring Article Optimization skill and prompts
 description: Create custom prompts for the default Article Optimization \(AO\) skill in the Knowledge Center application and prompts using standalone custom skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-in-knowledge-management/configure-kc-AO-skill.html
 release: australia
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
@@ -64,15 +65,15 @@ Article optimization skill is now configured.
 
 ## What to do next
 
-After successfully configuring the skill, proceed to activate the article optimization skill. For more information, see [Activate Article Optimization skill](activate-kc-AO-skill.md).
+After successfully configuring the skill, proceed to activate the article optimization skill. For more information, see [Activate Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md).
 
--   **[Activate Article Optimization skill](activate-kc-AO-skill.md)**  
+-   **[Activate Article Optimization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/activate-kc-AO-skill.md)**  
 Activate the Knowledge Center Article Optimization skill to enable use of article optimization features for generating knowledge articles in the Knowledge Center.
 
-**Parent Topic:**[Configuring Now Assist in Knowledge Management](../../knowledge-management/concept/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 
 **Related topics**  
 
 
-[Configure custom AI-based Article Optimization scans](configure-custom-ai-based-AO-scans.md)
+[Configure custom AI-based Article Optimization scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-custom-ai-based-AO-scans.md)
 

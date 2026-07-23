@@ -2,6 +2,7 @@
 title: Write with Now Assist
 description: Write with Now Assist enables generative-AI powered text generation and editing assistance natively in your mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/now-assist-context-menu-mobile.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -16,7 +17,7 @@ Write with Now Assist enables generative-AI powered text generation and editing 
 
 Use content editing prompts such as Elaborate and Shorten to enhance or condense your writing. The recommendations provided by Write with Now Assist can assist in composing emails, finalizing drafts, and offering template suggestions. This functionality aids in refining and optimizing your writing process.
 
-![now assist context menu options for a set of resolution notes](../image/na-context-menu.png "Write with Now Assist")
+\[Omitted image "na-context-menu.png"\] Alt text: now assist context menu options for a set of resolution notes
 
 |Prompt name|Description|
 |-----------|-----------|
@@ -24,5 +25,5 @@ Use content editing prompts such as Elaborate and Shorten to enhance or condense
 |Elaborate|Lengthen the word count of the selected text to add more detail.|
 |Change tone|Personalize the selected text to reflect your desired voice. Select from Sympathetic, Formal, or Casual tones.|
 
-Write with Now Assist is supported on mobile input form screens for Now Assist skills such as task summarization. For more, see [Mobile resolution notes generation](ai-case-summarization.md).
+Write with Now Assist is supported on mobile input form screens for Now Assist skills such as task summarization. For more, see [Mobile resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/ai-case-summarization.md).
 

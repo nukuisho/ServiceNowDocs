@@ -2,6 +2,7 @@
 title: Setting up roles and responsibilities in Care Team Operations for Healthcare IT
 description: To be determined.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-it-set-up-roles-responsibilities.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Configure, Care Team Operations for Healthcare IT, Healthcare Opera
 
 To be determined.
 
-To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](cto-setting-up-roles-responsibilities.md).
+To understand how roles and responsibilities function in Healthcare Operations, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
 
 The following roles and responsibilities are included with Care Team Operations for Healthcare IT:
 
@@ -44,6 +45,6 @@ Can view/resolve all cases under their assignment group, tracks, and fulfill cas
 </td></tr></tbody>
 </table>## What to do next
 
-1.  [Assign roles to Care Team Operations for Healthcare IT users](../task/cto-it-set-up-roles.md)
-2.  [Assign responsibilities to Care Team Operations for Healthcare IT users](../task/cto-hcit-assign-responsibilites.md)
+1.  [Assign roles to Care Team Operations for Healthcare IT users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-it-set-up-roles.md)
+2.  [Assign responsibilities to Care Team Operations for Healthcare IT users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/cto-hcit-assign-responsibilites.md)
 

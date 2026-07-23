@@ -2,11 +2,12 @@
 title: Create a configuration settings rule
 description: Configuration settings affect how metric data is processed. Configuration settings rules override the default metric processing behavior to determine the system actions when an anomaly is detected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-config-overriding-rule.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 8
 breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -92,9 +93,9 @@ Name
 
 </td><td>
 
-Configuration setting for which to override its value. Click the ![Event Management icon](../image/LookupUsingList.png) icon to display the list of all configuration settings.
+Configuration setting for which to override its value. Click the \[Omitted image "LookupUsingList.png"\] Alt text: Event Management icon icon to display the list of all configuration settings.
 
- Click the ![Event Management icon](../image/info.png) icon to display the **Metric Settings** dialog with details such as range of possible values.
+ Click the \[Omitted image "info.png"\] Alt text: Event Management icon icon to display the **Metric Settings** dialog with details such as range of possible values.
 
  See the following tables \(Configuration Settings and Internal Configuration Settings\) for details about configuration settings.
 
@@ -169,7 +170,7 @@ CI/Metric
 
  Action level of anomaly analysis and processing.
 
- For more information, see [Configure the action level for anomaly detection](../concept/configure-level-anomaly-detection.md).
+ For more information, see [Configure the action level for anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-level-anomaly-detection.md).
 
 </td><td>
 
@@ -1307,13 +1308,13 @@ CI/Metric
 
 </td></tr></tbody>
 </table>
--   **[Synchronize configuration settings rules](synch-config-settings-rules.md)**  
+-   **[Synchronize configuration settings rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/synch-config-settings-rules.md)**  
 Metric Intelligence configuration settings rules contain user specified values that override default values that currently exist on Metric Intelligence MID Servers. To take effect, the Metric Intelligence MID Servers must be synchronized with the updated set of configuration settings rules.
 
-**Parent Topic:**[Deploying Agent Client Collector on endpoints](../../agent-client-collector/concept/acc-endpoint-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 
 **Related topics**  
 
 
-[Configure multiple MID Servers to work with Agent Client Collector Monitoring](../../agent-client-collector/task/configure-multiple-mid-acc-monitoring.md)
+[Configure multiple MID Servers to work with Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-multiple-mid-acc-monitoring.md)
 

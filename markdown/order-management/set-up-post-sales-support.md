@@ -2,6 +2,7 @@
 title: Setting up the Customer Contracts and Entitlements application
 description: Configure the features and components of Customer Contracts and Entitlements to enable a seamless, end-to-end service experience including after sales services for your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/set-up-post-sales-support.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a characteristic](../reference/create-entitlement-template-characteristic.md)
+[Create a characteristic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-entitlement-template-characteristic.md)
 
 </td><td>
 
@@ -33,7 +34,7 @@ Create a characteristic to add to an entitlement. A characteristic refers to the
 
 </td></tr><tr><td>
 
-[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md)
+[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md)
 
 </td><td>
 
@@ -41,7 +42,7 @@ Add a user to your instance to enable them to log in and use designated applicat
 
 </td></tr><tr><td>
 
-[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
+[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AssignARoleToAUser.md)
 
 </td><td>
 

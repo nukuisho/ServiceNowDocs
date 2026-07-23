@@ -35,18 +35,18 @@ Role required: sn\_asc.alumni
     **Note:**
 
     -   If you don't select any option for a question, that question won’t be considered for score calculation.
-    -   Alumni preferences are configured by your organizations administrator. You can see different preferences depending on how your organization configures the preferences. For more information, see [Configure alumni job preferences](config-alumni-job-pref.md).
+    -   Alumni preferences are configured by your organizations administrator. You can see different preferences depending on how your organization configures the preferences. For more information, see [Configure alumni job preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/config-alumni-job-pref.md).
 4.  Select **Save**.
 
 
-**Parent Topic:**[Using your Alumni Center](../concept/asc-use.md)
+**Parent Topic:**[Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-use.md)
 
 **Related topics**  
 
 
-[Register on the Alumni Center website](alumni-self-registration.md)
+[Register on the Alumni Center website]()
 
-[Add other employment details](add-other-emp-details.md)
+[Add other employment details]()
 
-[Edit personal details](edit-personal-details.md)
+[Edit personal details]()
 

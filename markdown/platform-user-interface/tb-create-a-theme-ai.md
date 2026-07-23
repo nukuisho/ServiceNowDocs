@@ -1,7 +1,8 @@
 ---
 title: Create a theme with AI in Theme Builder
-description: Use an AI-powered theme creation from within Theme Builder to generate themes from brand images , preview, and refine results all within the updated Create a theme wizard.
+description: Use an AI-powered theme creation from within Theme Builder to generate themes from brand images or brand guidelines, preview, and refine results all within the updated Create a theme wizard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/tb-create-a-theme-ai.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,13 +12,13 @@ breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Buil
 
 # Create a theme with AI in Theme Builder
 
-Use an AI-powered theme creation from within Theme Builder to generate themes from brand images , preview, and refine results all within the updated Create a theme wizard.
+Use an AI-powered theme creation from within Theme Builder to generate themes from brand images or brand guidelines, preview, and refine results all within the updated Create a theme wizard.
 
 ## Before you begin
 
 This feature requires:
 
--   Now Assist for Creator installed. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md).
+-   Now Assist for Creator installed. See [Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
 
 Role required: ui\_builder\_admin
 
@@ -29,7 +30,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
     The Theme Builder landing page opens in a new tab and is displayed in the Home page view.
 
-    ![Theme Builder Home screen.](../image/tb-ai-home.png "Theme Builder Home screen")
+    \[Omitted image "tb-ai-home.png"\] Alt text: Theme Builder Home screen.
 
 2.  Select **Create a theme**.
 
@@ -41,16 +42,18 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
     |Option|Action|
     |------|------|
-    |**Upload brand image**|AI automatically extracts a color palette from your image .|
+    |**Upload brand image or brand guidelines PDF**|AI automatically extracts a color palette from your image or brand guidelines PDF..|
     |**Select __Handpick my colors__**|Manually choose your theme colors|
 
-    ![Theme Creation wizard showing the option to upload a brand image or handpick colors to generate a color palette.](../image/tb-nap-wizard-flow-2.png "Generate theme colors using AI or manual selection")
 
-5.  If you chose to upload a brand image , generate your theme colors using AI.
 
-    1.  Upload your brand image .
+    \[Omitted image "tb-nap-wizard-flow-2-ap2.png"\] Alt text: Theme Creation wizard showing the option to upload an image or PDF file or handpick colors to generate a color palette.
 
-        Supported formats are JPEG, JPG, PNG, and SVG with a maximum size of 1 MB.
+5.  If you chose to upload a brand image or brand guidelines file, generate your theme colors using AI.
+
+    1.  Upload your brand image or brand guidelines file.
+
+        Supported formats are JPEG, JPG, PNG, and SVG with a maximum size of 1 MB.Supported formats for brand guidelines are PDF with a maximum size of 20 MB.\[Omitted image "tb-nap-wizard-upload-image.png"\] Alt text: Theme Creation wizard showing a brand image uploaded to generate a color palette using AI.
 
     2.  Select **Generate Palette**.
 
@@ -60,7 +63,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
         **Note:** The AI detects up to eight colors from your image, with the two most dominant pre-selected as the primary and secondary. Any additional detected colors are suggested as available options that you can swap in as needed.
 
-        ![Theme Creation wizard showing primary and secondary colors with a color selector for adjusting the primary palette.](../image/tb-nap-wizard-flow-manage-colors.png)
+        \[Omitted image "tb-nap-wizard-flow-manage-colors.png"\] Alt text: Theme Creation wizard showing primary and secondary colors with a color selector for adjusting the primary palette.
 
     5.  Choose a new color from the color selector and select **Apply**.
 
@@ -72,7 +75,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
     1.  Select the Primary tile and choose your brand’s primary color from the color selector or enter a value using HEX, RGB, or HSL.
 
-        ![Your brand's primary color](../image/tb-select-primary-color.png "Your brand's primary color")
+        \[Omitted image "tb-select-primary-color.png"\] Alt text: Your brand's primary color
 
     2.  After you identify the primary color of your brand, select **Apply**.
 
@@ -96,7 +99,7 @@ For information on granular roles, see [Granular admin roles](https://raw.github
 
     **Note:** From this screen, you can edit any part of the theme before selecting **Create theme**. After the theme is created, any changes you make are automatically saved.
 
-    ![Final review screen showing theme information, brand colors, and a preview before creating the theme.](../image/tb-nap-wizard-flow-summary.png "Theme details and final preview before creation")
+    \[Omitted image "tb-nap-wizard-flow-summary.png"\] Alt text: Final review screen showing theme information, brand colors, and a preview before creating the theme.
 
 
 ## Result
@@ -105,7 +108,7 @@ Your theme is saved as a draft in Theme Builder and appears in the Unpublished s
 
 ## What to do next
 
-After creating your theme in the wizard, you are directed to the Editor view of the theme where you can continue [modifying](tb-edit-theme.md) or [publish your theme](tb-apply-theme.md).
+After creating your theme in the wizard, you are directed to the Editor view of the theme where you can continue [modifying](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-edit-theme.md) or [publish your theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Theme creation with AI](../concept/theme-creation-with-ai.md)
+**Parent Topic:**[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/theme-creation-with-ai.md)
 

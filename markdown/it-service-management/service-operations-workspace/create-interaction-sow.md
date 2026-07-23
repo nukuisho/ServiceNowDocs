@@ -2,6 +2,7 @@
 title: Create an interaction in Service Operations Workspace
 description: Track an interaction that is a centralized location for all communication channels. Each interaction represents a request for assistance through a communication channel, for example, a phone call or a chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-interaction-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,26 +24,26 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating an interaction.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d144492e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d147945e52">
 
 Option
 
-</th><th align="left" id="d144492e55">
+</th><th align="left" id="d147945e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d144492e61">
+</th></tr></thead><tbody><tr><td id="d147945e61">
 
 **From the List menu in the primary navigation**
 
 </td><td>
 
-1.  From the primary navigation, click the list icon \(![List icon](../../itsm-manager-workspace/image/lists_icon.png)\).
-2.  Click the add icon \(![add icon](../image/add-icon.png)\) next to the **List** tab.
+1.  From the primary navigation, click the list icon \(\[Omitted image "lists\_icon.png"\] Alt text: List icon\).
+2.  Click the add icon \(\[Omitted image "add-icon.png"\] Alt text: add icon\) next to the **List** tab.
 3.  Click **New Interaction**.
 
 
-</td></tr><tr><td id="d144492e100">
+</td></tr><tr><td id="d147945e100">
 
 **From an interaction list**
 
@@ -76,14 +77,14 @@ Description
 3.  Click **Save**.
 
 
-**Parent Topic:**[Interaction Management in Service Operations Workspace](../concept/interaction-sow.md)
+**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/interaction-sow.md)
 
 **Related topics**  
 
 
-[Work on an interaction in Service Operations Workspace](work-on-interaction-sow.md)
+[Work on an interaction in Service Operations Workspace]()
 
-[Collaborate using Microsoft Teams from an interaction record in Service Operations Workspace](collaborate-interaction-ms-teams-sow.md)
+[Collaborate using Microsoft Teams from an interaction record in Service Operations Workspace]()
 
-[Associate an interaction with a task record](associate-interaction-record-sow.md)
+[Associate an interaction with a task record]()
 

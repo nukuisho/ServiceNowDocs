@@ -2,11 +2,12 @@
 title: Use the WaitForAnyScreen method for Universal App Connector
 description: Find one or more application screens and optionally, their child elements within a time period that you specify and then perform actions that you specify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/use-the-wait-for-any-screen-method.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Universal app connector, Connectors, Automation components, RPA Desktop Design Studio, Workflow Data Fabric]
+breadcrumb: [Universal app connector, Connectors, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Use the WaitForAnyScreen method for Universal App Connector
@@ -25,7 +26,7 @@ When you use the WaitForAnyScreen method, it tries to find a screen by matching 
 
 1.  Configure the UAC.
 
-    To learn to configure the application screens and child elements, see [Use the Universal App Connector](configure-uac.md).
+    To learn to configure the application screens and child elements, see [Use the Universal App Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-uac.md).
 
 2.  Under Global Objects, double-click the **UniversalApplication** object.
 
@@ -35,7 +36,7 @@ When you use the WaitForAnyScreen method, it tries to find a screen by matching 
 
 4.  Configure the WaitForAnyScreen method.
 
-    1.  Select the settings icon \(![Wait For Any Screen method settings icon.](../image/uac-connector-settings-icon.png)\).
+    1.  Select the settings icon \(\[Omitted image "uac-connector-settings-icon.png"\] Alt text: Wait For Any Screen method settings icon.\).
 
     2.  On the CHOOSE SCREENS window, select one or more application screens.
 
@@ -43,7 +44,7 @@ When you use the WaitForAnyScreen method, it tries to find a screen by matching 
 
         The application screen that you selected appears in the WaitForAnyScreen method.
 
-        ![Captured screen on the Wait For Any Screen method.](../image/uac-connector-captured-screen.png)
+        \[Omitted image "uac-connector-captured-screen.png"\] Alt text: Captured screen on the Wait For Any Screen method.
 
     4.  Configure the parameters on the WaitForAnyScreen method.
 
@@ -194,12 +195,12 @@ No
 
     For example, if you select a Java application screen or element, the Java connector methods are displayed in Object Explorer.
 
-    -   For more information on Java connector methods, see [Java connector methods](../reference/java-connector-methods.md).
-    -   For more information on Google Chrome and Microsoft Edge connector methods, see [Chromium connector methods](../reference/connectors-chrome-methods.md).
+    -   For more information on Java connector methods, see [Java connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/java-connector-methods.md).
+    -   For more information on Google Chrome and Microsoft Edge connector methods, see [Chromium connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-chrome-methods.md).
 
-    -   For more information on Windows connector methods, see [Windows Connector methods](../reference/connectors-windows-methods.md).
+    -   For more information on Windows connector methods, see [Windows Connector methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/connectors-windows-methods.md).
     -   If you have captured a web application screen and you want to execute a custom JavaScript on it, you can use the ExecuteJavascript method.
 
 
-**Parent Topic:**[Universal app connector](../concept/universal-app-connector.md)
+**Parent Topic:**[Universal app connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/universal-app-connector.md)
 

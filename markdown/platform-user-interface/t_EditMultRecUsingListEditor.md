@@ -2,6 +2,7 @@
 title: Edit multiple records in a list using the list editor
 description: You can edit multiple records at the same time using the list editor. If you want to update a single field on multiple records to have the same value, the list editor is the quickest method.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/t\_EditMultRecUsingListEditor.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,17 +28,17 @@ Role required: none
 
     The number of selected rows that you’re editing is indicated. If any rows can’t be edited due to security constraints, that is indicated.
 
-    ![Selected fields](../image/MultipleSelect.png "Selected fields are highlighted in blue")
+    \[Omitted image "MultipleSelect.png"\] Alt text: Selected fields
 
 3.  Enter the appropriate values and select **Save**.
 
 
-**Parent Topic:**[Methods for list edits](../reference/r_MethodsForListEdits.md)
+**Parent Topic:**[Methods for list edits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_MethodsForListEdits.md)
 
 **Related topics**  
 
 
-[Use the list editor](t_UseTheListEditor.md)
+[Use the list editor]()
 
-[Edit multiple records in a list using an editing form](t_EditMultiRecUsingEditingForm.md)
+[Edit multiple records in a list using an editing form]()
 

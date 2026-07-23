@@ -2,13 +2,14 @@
 title: Create a software maintenance contract example
 description: One common use case for the Contract Management application is creating a contract to track maintenance payments for enterprise software. You can use this example to learn how to create a software maintenance contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_UseCaseCreateSWMaintContract.html
 release: australia
 product: Contract Management
 classification: contract-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, IT Asset Management]
+breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
 
 # Create a software maintenance contract example
@@ -25,9 +26,9 @@ The goal of this example is to create a contract that shows the total amount of 
 
 ## Procedure
 
-1.  Create an [application model](../../product-catalog/concept/c_Models.md), adding a **Name** and specifying **Software License** in **Model categories**.
+1.  Create an [application model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md), adding a **Name** and specifying **Software License** in **Model categories**.
 
-2.  Create a [software model](../../product-catalog/concept/c_Models.md), adding a **Name** and **Model Number**, and selecting the application model created in step 1.
+2.  Create a [software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md), adding a **Name** and **Model Number**, and selecting the application model created in step 1.
 
 3.  Create a new software entitlement by selecting the software model created in step 2.
 
@@ -35,7 +36,7 @@ The goal of this example is to create a contract that shows the total amount of 
 
 5.  Click **New** and enter the following information.
 
-<table id="choicetable_iy4_czk_35"><tbody><tr><td id="d36515e155">
+<table id="choicetable_iy4_czk_35"><tbody><tr><td id="d197470e155">
 
 **Agreement Type**
 
@@ -43,7 +44,7 @@ The goal of this example is to create a contract that shows the total amount of 
 
 Select **Enterprise**.
 
-</td></tr><tr><td id="d36515e167">
+</td></tr><tr><td id="d197470e167">
 
 **Application Model**
 
@@ -58,7 +59,7 @@ Select the application model created in step 1.
 
 7.  In the **Asset Covered** related list, click **New** and enter the following information.
 
-<table id="choicetable_yqm_mzk_35"><tbody><tr><td id="d36515e204">
+<table id="choicetable_yqm_mzk_35"><tbody><tr><td id="d197470e204">
 
 **Asset**
 
@@ -66,7 +67,7 @@ Select the application model created in step 1.
 
 Select the software license created in step 3.
 
-</td></tr><tr><td id="d36515e213">
+</td></tr><tr><td id="d197470e213">
 
 **Date added**
 
@@ -79,7 +80,7 @@ Enter the value.
 
 9.  Continue completing the form with the following information.
 
-<table id="choicetable_smt_zzk_35"><tbody><tr><td id="d36515e240">
+<table id="choicetable_smt_zzk_35"><tbody><tr><td id="d197470e240">
 
 **Payment schedule**
 
@@ -87,7 +88,7 @@ Enter the value.
 
 Select **Annually**.
 
-</td></tr><tr><td id="d36515e252">
+</td></tr><tr><td id="d197470e252">
 
 **Payment amount**
 
@@ -100,21 +101,21 @@ Enter the value.
 
 11. Click **Update**.
 
-12. [Submit the contract for review](t_ObtainContractApproval.md).
+12. [Submit the contract for review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_ObtainContractApproval.md).
 
 
-**Parent Topic:**[Create a contract](t_CreateAContract.md)
+**Parent Topic:**[Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_CreateAContract.md)
 
 **Related topics**  
 
 
-[Add an asset to a contract](t_AddAnAssetToAContract.md)
+[Add an asset to a contract]()
 
-[Add a user to a contract](t_AddAUserToAContract.md)
+[Add a user to a contract]()
 
-[Add a configuration item to a contract](t_AddAConfigurationItemToAContract.md)
+[Add a configuration item to a contract]()
 
-[Add a document to a contract](t_AddADocumentToAContract.md)
+[Add a document to a contract]()
 
-[Software Asset Management](../../software-asset-management2/concept/c_SAMOverview.md)
+[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOverview.md)
 

@@ -2,6 +2,7 @@
 title: Restricted Caller Access for Localization Workspace
 description: Give Localization Workspace access to your content by setting Restricted Caller Access privileges. Setting these privileges is required only when target tables or scripts are restricted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-restricted-caller-access.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -41,7 +42,7 @@ In the list view of **Tables** or **Script Includes**:
 
 The following procedure is needed only when the **Caller Access** column has a value of `Caller Restriction`.
 
-![List view of the sys_db_object table, with an example target resource (To-do Content) displaying 'Caller Restriction' in the Caller Access column.](../image/lw-restricted-caller-access-dbo-table.png)
+\[Omitted image "lw-restricted-caller-access-dbo-table.png"\] Alt text: List view of the sys\_db\_object table, with an example target resource \(To-do Content\) displaying 'Caller Restriction' in the Caller Access column.
 
 For further information see **Related Content** on this page.
 
@@ -49,14 +50,14 @@ For further information see **Related Content** on this page.
 
 1.  Set your application scope to Global, then navigate to **All** &gt; **System Applications** &gt; **Application Restricted Caller Access** \[sys\_restricted\_caller\_access\].
 
-2.  In the list view of the **Restricted Caller Access Privileges** \[sys\_restricted\_caller\_access\] table, open **Show/hide filter** using the icon![](../../../use/using-lists/image/show-hide-filters.png).
+2.  In the list view of the **Restricted Caller Access Privileges** \[sys\_restricted\_caller\_access\] table, open **Show/hide filter** using the icon\[Omitted image "show-hide-filters.png"\].
 
 3.  Add the following conditions to the filter:
 
     -   `Source Scope is Localization Workspace`
     -   `Target Scope is same as Application`
     -   `Status is Requested`
-4.  Select **Run** to execute the query.![The list view of Restricted Caller Access Privileges table, displaying three rows having a Source Scope of Localization Workspace.](../image/lw-restricted-caller-access1.png)
+4.  Select **Run** to execute the query.\[Omitted image "lw-restricted-caller-access1.png"\] Alt text: The list view of Restricted Caller Access Privileges table, displaying three rows having a Source Scope of Localization Workspace.
 
 5.  In the list of results, open any record by selecting the value in the first column \(by default the first column is Operation\).
 
@@ -64,23 +65,23 @@ For further information see **Related Content** on this page.
 
     **Note:** Because most records are not in the Global application scope, you must select the link in the banner **To edit this record click here**.
 
-    ![The form view of a Restricted Caller Access Privilege record. The current Status is Requested, but the option to change the Status to Allowed is highlighted.](../image/lw-restricted-caller-access2.png)
+    \[Omitted image "lw-restricted-caller-access2.png"\] Alt text: The form view of a Restricted Caller Access Privilege record. The current Status is Requested, but the option to change the Status to Allowed is highlighted.
 
 7.  Repeat this procedure so that all records in the list of results have a status of `Allowed`.
 
 
 ## What to do next
 
-Continue with setup of Localization Workspace. See [Configuring Localization Workspace](../concept/configuring-localization-workspace.md).
+Continue with setup of Localization Workspace. See [Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/configuring-localization-workspace.md).
 
-**Parent Topic:**[Configuring Localization Workspace](../concept/configuring-localization-workspace.md)
+**Parent Topic:**[Configuring Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/configuring-localization-workspace.md)
 
 **Related topics**  
 
 
 [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md)
 
-[Artifact configurations](../../localization-framework/concept/framework-configuration.md)
+[Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/framework-configuration.md)
 
 [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md)
 

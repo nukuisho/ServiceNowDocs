@@ -2,6 +2,7 @@
 title: Care Team Operations for Biomed data model
 description: Learn about the  Care Team Operations for Biomed  application by viewing the data model and role relationship diagrams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-data-model.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,5 +18,5 @@ These diagrams show the relationships between the tables within the application 
 
 The following diagram shows the tables and their relationships within the Healthcare Operations for Biomed application.
 
-![CTO for Biomed data model.](../image/cto-biomed-data-model.png)
+\[Omitted image "cto-biomed-data-model.png"\] Alt text: CTO for Biomed data model.
 

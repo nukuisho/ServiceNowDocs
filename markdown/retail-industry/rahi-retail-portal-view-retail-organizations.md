@@ -2,6 +2,7 @@
 title: View your associated retail organizations from the Retail portal
 description: Track your associated retail organizations from the Retail portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-portal-view-retail-organizations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

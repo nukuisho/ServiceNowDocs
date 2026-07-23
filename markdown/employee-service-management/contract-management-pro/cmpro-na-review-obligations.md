@@ -2,6 +2,7 @@
 title: Review AI-extracted obligations
 description: Use the contract playbook to review, edit, approve, or reject obligations automatically extracted from contract documents. Approved obligations are added as obligations records in the Obligations tab of the contract repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-review-obligations.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,28 +28,28 @@ The manage contract repository agentic workflow uses AI agents to extract key co
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d81949e68">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d83429e68">
 
 Method
 
-</th><th align="left" id="d81949e71">
+</th><th align="left" id="d83429e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d81949e77">
+</th></tr></thead><tbody><tr><td id="d83429e77">
 
 **Contract Workspace**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon ![](../../legal-request-management/image/lsd-lcc-list-icon.png).
+2.  Select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text:.
 3.  Select **Executed contracts**.
 4.  Select **All**.
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d81949e124">
+</td></tr><tr><td id="d83429e124">
 
 **Workspace used by your application**
 
@@ -60,7 +61,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d81949e151">
+</td></tr><tr><td id="d83429e151">
 
 **Email notification**
 
@@ -73,7 +74,7 @@ Select **Review contract** in the email notification that you receive after the 
 
     The playbook opens displaying a step-by-step interface to review the extracted obligations.
 
-    ![Contract playbook displaying extracted obligations details.](../image/cmpro-na-playbook.png "Contract playbook")
+    \[Omitted image "cmpro-na-playbook.png"\] Alt text: Contract playbook displaying extracted obligations details.
 
 3.  In the playbook, navigate to the **Review obligations** step under the AI extracted obligations section.
 
@@ -81,13 +82,13 @@ Select **Review contract** in the email notification that you receive after the 
 
     The extracted obligations are displayed on a new tab.
 
-    ![Form displaying the list of extracted obligations.](../image/cmpro-na-ob-extracted.png "Extracted obligations")
+    \[Omitted image "cmpro-na-ob-extracted.png"\] Alt text: Form displaying the list of extracted obligations.
 
 5.  Select an obligation to review the obligation details.
 
     -   The **Details** tab displays the extracted obligation details. Use this tab to edit, approve, or reject the obligation.
     -   The **Activity** tab displays a log of key attributes identified during the extraction process. Use this tab to review how the AI agent detected and populated the obligation, including the original text snippets and metadata extracted from the contract. The **Activity** tab helps you validate the extraction accuracy and provides transparency into the decision-making process for each obligation.
-    ![Obligation details form displaying the information extracted by AI.](../image/cmpro-na-ob-reviewob.png "Extracted obligation details")
+    \[Omitted image "cmpro-na-ob-reviewob.png"\] Alt text: Obligation details form displaying the information extracted by AI.
 
 6.  On the **Details** tab, perform the required action.
 
@@ -95,13 +96,13 @@ Select **Review contract** in the email notification that you receive after the 
 
         **Note:** Complete all required fields before saving the changes or approving the obligation.
 
-        For more information on the fields, see [Obligation form](../reference/cncore-obligation-form.md).
+        For more information on the fields, see [Obligation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-obligation-form.md).
 
     -   Select **Save** to save the changes.
     -   Select **Approve** to approve the extracted obligation and add it as a record in contract repository.
     -   Select **Reject** to reject the extracted obligation.
 
-        Once an obligation is rejected, it’s deactivated and can’t be reactivated again. If you need to add the obligation later, you must create an obligation record manually. For more information, see [Create obligation records](cncore-create-obligations.md).
+        Once an obligation is rejected, it’s deactivated and can’t be reactivated again. If you need to add the obligation later, you must create an obligation record manually. For more information, see [Create obligation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-obligations.md).
 
 7.  Repeat step 6 for all the extracted obligations.
 
@@ -116,22 +117,22 @@ Approved obligations are available as records in the **Obligations** tab of the 
 
 If the schedule of the obligation is recurring, the obligation tasks are automatically created based on the interval specified in the **Repeats** field.
 
-If the schedule of the obligation is adhoc, you must create obligation tasks manually. For more information see, [Create an ad hoc obligation task](cncore-adhoc-ob-task.md).
+If the schedule of the obligation is adhoc, you must create obligation tasks manually. For more information see, [Create an ad hoc obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-adhoc-ob-task.md).
 
-![Obligations tab displaying the list of obligations added in the contract repository record.](../image/cmpro-na-ob-added.png "Obligation records")
+\[Omitted image "cmpro-na-ob-added.png"\] Alt text: Obligations tab displaying the list of obligations added in the contract repository record.
 
 **Related topics**  
 
 
-[Obligation Management](../concept/cncore-obligation-management.md)
+[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-obligation-management.md)
 
-[Obligation form](../reference/cncore-obligation-form.md)
+[Obligation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-obligation-form.md)
 
-[Submit obligation tasks](cncore-work-on-ob-tasks.md)
+[Submit obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-work-on-ob-tasks.md)
 
-[Cancel an obligation task](cncore-cancel-ob-task.md)
+[Cancel an obligation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-cancel-ob-task.md)
 
-[Approve or reject obligation tasks](cncore-manage-ob-tasks.md)
+[Approve or reject obligation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-ob-tasks.md)
 
-[Obligation Management notifications](../reference/cncore-ob-mgmt-notification.md)
+[Obligation Management notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ob-mgmt-notification.md)
 

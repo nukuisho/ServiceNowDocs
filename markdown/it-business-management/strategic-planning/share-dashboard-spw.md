@@ -2,6 +2,7 @@
 title: Share a dashboard
 description: Share a dashboard with stakeholders, planning managers, portfolio managers, or product managers to provide visibility into work progress and foster collaboration. You can grant either view-only rights or both view and edit rights to a shared dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/share-dashboard-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -58,11 +59,11 @@ pf\_read
 
 2.  From the Change dashboard drop-down, select the dashboard you want to share.
 
-    ![select a dashboard in strategic planning.](../Images/change-dashboard-drop-down.png)
+    \[Omitted image "change-dashboard-drop-down.png"\] Alt text: select a dashboard in strategic planning.
 
     The selected dashboard appears.
 
-3.  From the dashboard header, select the More actions icon \(![More actions icon in the portfolio plan header.](../../alignment-planner-workspace/images/more-actions.png)\) and then select **Share**.
+3.  From the dashboard header, select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon in the portfolio plan header.\) and then select **Share**.
 
 4.  On the Share Dashboard window, fill the details.
 
@@ -82,7 +83,7 @@ pf\_read
 
     4.  Select **Confirm**.
 
-    ![share dashboard in strategic planning.](../Images/share-dashboard-spw.gif)
+    \[Omitted image "share-dashboard-spw.gif"\] Alt text: share dashboard in strategic planning.
 
 
 ## Result
@@ -93,16 +94,16 @@ The roles, groups, and users you have shared the dashboard with appear when you 
 
 You can change the rights of whom you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can share list for each user, group, or role.
 
-**Parent Topic:**[Using Dashboards in Strategic Planning Workspace](../concept/using-dashboards-spw.md)
+**Parent Topic:**[Using Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/using-dashboards-spw.md)
 
 **Related topics**  
 
 
-[View a dashboard](view-dashboard-spw.md)
+[View a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/view-dashboard-spw.md)
 
-[Create a dashboard](create-dashboard-spw.md)
+[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-dashboard-spw.md)
 
-[Duplicate a dashboard](copy-dashboard-spw.md)
+[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/copy-dashboard-spw.md)
 
-[Add a Platform Analytics dashboard](add-platform-dashboard-to-spw.md)
+[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)
 

@@ -2,6 +2,7 @@
 title: Manage potential knowledge gaps
 description: Learn how to review and resolve potential knowledge gaps in the Knowledge Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/address-knowledge-gaps.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Learn how to review and resolve potential knowledge gaps in the Knowledge Center
 
 Role required: admin.
 
-Suggested reading: [Configure Now Assist Skills for potential gaps](../../knowledge-management/task/configure-na-km.md)
+Suggested reading: [Configure Now Assist Skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 
 ## About this task
 
@@ -56,5 +57,5 @@ The selected gap is updated or resolved, improving knowledge coverage and reduci
 **Related topics**  
 
 
-[Potential knowledge gaps](../concept/understanding-knowledge-gaps.md)
+[Potential knowledge gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/understanding-knowledge-gaps.md)
 

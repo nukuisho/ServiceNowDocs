@@ -27,13 +27,17 @@ See  for more information.
     Reduce missed integration opportunities and accelerate development by discovering relevant SAP OData v2 services for your models using the OData Services Recommender AI agent. This workflow finds standard SAP capabilities that align with your use cases.
 
 
+## Removed in this release
+
+The Ask AI button has been removed from the Model Manager.
+
 ## Activation information
 
-Install Now Assist for Zero Copy Connector by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Now Assist for Zero Copy Connector by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
--   **[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md)**
+-   **[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-overview.md)**
 
      enables you to simplify the use of ERP data from a system of record such as SAP. Use the ERP data to create applications on the ServiceNow.
 
@@ -42,7 +46,7 @@ Install Now Assist for Zero Copy Connector by requesting it from the ServiceNow 
     Improve productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower users to search more effectively.
 
 
-**Parent Topic:**[App development and low-code release notes](build-automate-rn-landing.md)
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/build-automate-rn-landing.md)
 
-**Parent Topic:**[Now Assist and agentic AI release notes](../now-assist/now-assist-rn-landing.md)
+**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-rn-landing.md)
 

@@ -2,6 +2,7 @@
 title: Work on a document verification task
 description: A document agent can review and approve or reject a document submitted for verification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/doc-processor-work-on-doc-verification-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ A document agent can review and approve or reject a document submitted for verif
 
 ## Before you begin
 
-**Note:** An OCR-processed document can be automatically reviewed and approved. For information on OCR-processed documents, see [Integrating with Document Intelligence](integration-with-document-intelligence.md).
+**Note:** An OCR-processed document can be automatically reviewed and approved. For information on OCR-processed documents, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md).
 
 Role required: sn\_doc\_processor.agent​
 
@@ -23,7 +24,7 @@ Role required: sn\_doc\_processor.agent​
 
 1.  Navigate to **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![List icon.](../../../use/reporting/image/inline-data-vis-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: List icon.\).
 
 3.  In the **Lists** tab, under **Document verification**, open the task list.
 
@@ -41,21 +42,21 @@ Role required: sn\_doc\_processor.agent​
 
     Review and update any extracted values in the **Extracted Values** related list.
 
-    For more information, see [Integrating with Document Intelligence](integration-with-document-intelligence.md).
+    For more information, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/integration-with-document-intelligence.md).
 
 6.  From the **Notes and Activity** tab in the **Work notes** field, enter any comments.
 
 7.  Select one of the following options.
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d132816e209">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d137829e209">
 
 Task
 
-</th><th align="left" id="d132816e212">
+</th><th align="left" id="d137829e212">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d132816e218">
+</th></tr></thead><tbody><tr><td id="d137829e218">
 
 **Verify**
 
@@ -63,7 +64,7 @@ Action
 
 Select **Verify** if the document details are sufficient.
 
-</td></tr><tr><td id="d132816e230">
+</td></tr><tr><td id="d137829e230">
 
 **Reject**
 

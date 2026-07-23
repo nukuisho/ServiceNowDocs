@@ -2,6 +2,7 @@
 title: Modify state decision tables in Care Team Operations for Biomed
 description: Use Decision Builder to change the state mappings for cases and work orders in Care Team Operations for Biomed .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-biomed-modify-states.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,13 +14,13 @@ breadcrumb: [Configure, Care Team Operations for Biomed, Healthcare Operations, 
 
 Use Decision Builder to change the state mappings for cases and work orders in Care Team Operations for Biomed .
 
-![Healthcare biomed case state sync map.](../image/cto-biomed-case-tstate.png)
+\[Omitted image "cto-biomed-case-tstate.png"\] Alt text: Healthcare biomed case state sync map.
 
 The Healthcare Biomed case state sync map displays all current mappings between Healthcare Biomed case and work order states.
 
-To modify these state mappings, see [Modify decision table structure in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/format-decision-table-in-decision-designer.md)**.**
+To modify these state mappings, see **.**
 
-To learn more about decisions tables, see [Edit decision tables using draft authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/edit-decision-tables-using-draft-authoring.md) and [Use decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/use-decision-tables.md).
+To learn more about decisions tables, see  and .
 
 The source table aligns with the input state and the destination table aligns with the output state.
 

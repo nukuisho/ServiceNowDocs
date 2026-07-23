@@ -2,6 +2,7 @@
 title: Domain separation and mobile
 description: Domain separation is supported in mobile. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-domain-separation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ You can use the company or account fields to display appropriate records by doma
 
 After the feature has been set up through the platform web-based interface, a two-part process is required to further extend the domain separation functionality on mobile. For additional information about configuring domain separation on mobile devices, contact Customer Service and Support.
 
-**Note:** ITSM Mobile Agent contains an automatically configured domain separation feature. For more information, refer to the [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/itsm-mobile-agent.md) documentation.
+**Note:** ITSM Mobile Agent contains an automatically configured domain separation feature. For more information, refer to the [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent.md) documentation.
 
 **Related topics**  
 

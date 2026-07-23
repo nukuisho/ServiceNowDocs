@@ -2,11 +2,12 @@
 title: Configure the donuts in the tier 2 landing page
 description: Configure the data displayed in donuts in the Overview section of the tier 2 landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-donut-tier2-landing-page.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Landing page configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You can customize header label, data source, metric, group by field, and viewAllQuery for all donuts. For example, Catalog tasks assigned to me donut.
+You can customize the header label, data source, metric, group by field, `viewAllQuery`and `roles` for each donuts. The `roles` property is required and controls which users can view each donut.
 
 ## Procedure
 
@@ -104,6 +105,8 @@ You can customize header label, data source, metric, group by field, and viewAll
             
     
     ```
+
+    **Important:** The `roles` property is required in each donut configuration object. It accepts an array of role name strings and controls which users can view the donut. Omitting `roles` or providing an empty array makes the donut visible to all users regardless of their role.
 
     Add below snippet object to add Catalog Tasks donut to tier2 landing page.
 
@@ -199,5 +202,5 @@ You can customize header label, data source, metric, group by field, and viewAll
 6.  Select **Update**.
 
 
-**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](../concept/landing-page-configurations-sow-itsm.md)
+**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
 

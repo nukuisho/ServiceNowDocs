@@ -2,6 +2,7 @@
 title: Data interfaces
 description: Data interfaces provide stable contracts for accessing data from single tables or combined sources through JOIN or UNION operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/data-interfaces.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-25"
@@ -21,7 +22,7 @@ Data interfaces map source data to a target schema that consumers query. The dat
 
 A data interface can expose data from a single ServiceNow table, a single Data Fabric Table connected to an external system, or multiple sources combined through JOIN or UNION operations.
 
-Consumers query the data interface without requiring knowledge about which source systems provide the data. The data interface handles connections to sources, applies column mappings, and returns results in the defined schema. ![Sample data interface](../image/wdf-data-interface-overview.png)
+Consumers query the data interface without requiring knowledge about which source systems provide the data. The data interface handles connections to sources, applies column mappings, and returns results in the defined schema. \[Omitted image "wdf-data-interface-overview.png"\] Alt text: Sample data interface
 
 ## Combination methods
 
@@ -64,6 +65,6 @@ Consumers access data interfaces through multiple channels:
 
 To learn more about data interfaces, see:
 
--   [Managing data interfaces](manage-data-interfaces_wdf.md)
--   [Managing data products](manage-data-products-wdf.md)
+-   [Managing data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-interfaces_wdf.md)
+-   [Managing data products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-products-wdf.md)
 

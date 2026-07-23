@@ -2,6 +2,7 @@
 title: Apply alert group filters to aggregated groups
 description: Reduce noise by locating only aggregated alert groups that match a configured filter. Aggregated groups are groups created for alerts with identical CIs and pattern identifiers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-filter-aggregated.html
 release: australia
 product: Event Management
 classification: event-management
@@ -27,7 +28,7 @@ Role required: evt\_mgmt\_admin
 
 2.  On the Automatic Group Filters page, add the **Aggregated** column.
 
-    1.  Select the Personalize List icon \( ![Personalize List icon](../../cloud-management-v2/image/icon-gear-system-settings.png)\) in the upper right corner.
+    1.  Select the Personalize List icon \( \[Omitted image "icon-gear-system-settings.png"\] Alt text: Personalize List icon\) in the upper right corner.
 
     2.  Move the **Aggregated** entry from the **Available** list to the **Selected** list.
 
@@ -47,5 +48,5 @@ Role required: evt\_mgmt\_admin
 **Related topics**  
 
 
-[Specify and manage pattern identifier attributes for alert grouping](ptrn-attributes-alrt-aggregate.md)
+[Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md)
 

@@ -2,6 +2,7 @@
 title: CMS translation
 description: You can translate CMS sites by activating internationalization plugins and manually translating custom interface strings.Activate an internationalization plugin, which provides a quick way to see translated strings for CMS menus, breadcrumbs, and links. For a full translation, you must translate the instance manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_CMSTranslation.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -17,25 +18,25 @@ You can translate CMS sites by activating internationalization plugins and manua
 
 Two tables support the translation of a CMS site into other languages.
 
--   Translated Name / Field \[sys\_translated\]: Stores strings that are shared or commonly used within a site. These include menu section names, menu item names, site breadcrumb names, link names, and footer menu links. Internationalization plugins typically provide translations for these strings. See[System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/system-localization-landing.md).
--   Translated Text \[sys\_translated\_text\]: Stores unique string translations which you create when you manually translate interface elements. See [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateTheInterface.md).
+-   Translated Name / Field \[sys\_translated\]: Stores strings that are shared or commonly used within a site. These include menu section names, menu item names, site breadcrumb names, link names, and footer menu links. Internationalization plugins typically provide translations for these strings. See[System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization-landing.md).
+-   Translated Text \[sys\_translated\_text\]: Stores unique string translations which you create when you manually translate interface elements. See [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_TranslateTheInterface.md).
 
-**Parent Topic:**[Content Management System](c_ContentManagementSystem.md)
+**Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
 **Related topics**  
 
 
-[Content Management design](c_ContentManagementPlanning.md)
+[Content Management design]()
 
-[Domain separation and the Content Management System](domain-separation-content-management.md)
+[Domain separation and the Content Management System]()
 
-[Configure Content Management sites](../task/t_CreateASite.md)
+[Configure Content Management sites]()
 
-[Content Management integration points](c_CMSIntegrationPoints.md)
+[Content Management integration points]()
 
-[Content Management testing](c_ContentManagementTesting.md)
+[Content Management testing]()
 
-[Global search in Content Management](c_UseGlobalSearchContentManagement.md)
+[Global search in Content Management]()
 
 ## View a translated CMS site
 
@@ -71,5 +72,5 @@ This example explains how to view a translated site in Japanese.
 **Related topics**  
 
 
-[Language internationalization support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_LangInternationalizationSupport.md)
+[Language internationalization support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_LangInternationalizationSupport.md)
 

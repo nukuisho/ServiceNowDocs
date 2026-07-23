@@ -2,12 +2,13 @@
 title: Create an incident
 description: Create an incident record to document a deviation from an expected standard of operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/create-an-incident.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2025-01-30"
+reading_time_minutes: 8
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
 
@@ -27,11 +28,11 @@ This procedure describes how an ITIL agent completes the Incident form. Incident
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Create New**.
 
-    You can also click **New** from the Incident list view.
+    You can also select **New** from the Incident list view.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the **Incident** module is not visible in the **All** menu, contact your system administrator to verify that the **itil** or **sn\_incident\_write** role is assigned to you.
 
-2.  [Use a template](t_UseATemplateFromAForm.md), if one exists for the type of incident that you are logging.
+2.  [Use a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_UseATemplateFromAForm.md), if one exists for the type of incident that you are logging.
 
     If the organization uses form templates, then you can apply a template to pre-populate some of the fields for specific types of incidents.
 
@@ -79,9 +80,9 @@ Service
 
 Affected business service, if applicable. **Note:**
 
-If you select a business service as the configuration item and if that business service is also listed as the configuration item in any other active task, then the active tasks icon \(![Other active tasks](../../change-management/image/other-active-task.png)\) appears. Click the icon to view the list of all the other active tasks that are affecting the business service.
+If you select a business service as the configuration item and if that business service is also listed as the configuration item in any other active task, then the active tasks icon \(\[Omitted image "other-active-task.png"\] Alt text: Other active tasks\) appears. Click the icon to view the list of all the other active tasks that are affecting the business service.
 
-You can view the BSM map \(dependency view\) of the selected business service by clicking the dependency icon \(![Open dependency view](../image/dependency-icon-r.png)\).
+You can view the BSM map \(dependency view\) of the selected business service by clicking the dependency icon \(\[Omitted image "dependency-icon-r.png"\] Alt text: Open dependency view\).
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ Configuration item
 
 </td><td>
 
-Affected CI, if applicable.After a CI is selected, you can click the open **Dependency views** icon \(![Open dependency view](../image/dependency-icon-r.png)\) next to the field to see how the CI maps into the infrastructure. The dependency view shows you what is impacted and whether other CIs or services are experiencing issues. To capture information on the affected CIs, refer to [Capture information on affected configuration items in an incident](track-ci.md).
+Affected CI, if applicable.After a CI is selected, you can click the open **Dependency views** icon \(\[Omitted image "dependency-icon-r.png"\] Alt text: Open dependency view\) next to the field to see how the CI maps into the infrastructure. The dependency view shows you what is impacted and whether other CIs or services are experiencing issues. To capture information on the affected CIs, refer to [Capture information on affected configuration items in an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/track-ci.md).
 
 When adding configuration items to the **Configuration item** field of an incident form, the search result containing a list of configuration items \(CI\) is displayed and sorted based on the CI names in alphabetical order.
 
@@ -130,7 +131,7 @@ State
 
 </td><td>
 
-State of the incident. The state moves and tracks incidents through several stages of resolution.**Tip:** Use the **State** field, rather than the **Incident State** or **Problem State** fields, as your primary means of tracking the state of an incident because this state progresses through the entire processing cycle. To learn more, see [Life cycle of an Incident](../concept/c_IncidentManagementStateModel.md).
+State of the incident. The state moves and tracks incidents through several stages of resolution.**Tip:** Use the **State** field, rather than the **Incident State** or **Problem State** fields, as your primary means of tracking the state of an incident because this state progresses through the entire processing cycle. To learn more, see [Life cycle of an Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentManagementStateModel.md).
 
 </td></tr><tr><td>
 
@@ -206,7 +207,7 @@ Attachments
 
 </td><td>
 
-Attachments related to the incident that helps in incident resolution such as screenshots or pdfs. Select the Attachment \(![Attachment icon](../../digital-product-release/image/dpr-icon-attachment.png)\) to add and manage the attachments.
+Attachments related to the incident that helps in incident resolution such as screenshots or pdfs. Select the Attachment \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon\) to add and manage the attachments.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -218,7 +219,7 @@ Watch list
 
 </td><td>
 
-Users who receive notifications about this incident when comments are added. Click the add me icon \(![Add me icon](../image/add-me.png)\) to add yourself to the watch list.
+Users who receive notifications about this incident when comments are added. Click the add me icon \(\[Omitted image "add-me.png"\] Alt text: Add me icon\) to add yourself to the watch list.
 
 </td></tr><tr><td>
 
@@ -226,7 +227,7 @@ Work notes list
 
 </td><td>
 
-Users who receive notifications about this incident when work notes are added. Click the add me icon \(![Add me icon](../image/add-me.png)\) to add yourself to the work notes list.**Note:** The administrator must create an email notification for the work notes list.
+Users who receive notifications about this incident when work notes are added. Click the add me icon \(\[Omitted image "add-me.png"\] Alt text: Add me icon\) to add yourself to the work notes list.**Note:** The administrator must create an email notification for the work notes list.
 
 </td></tr><tr><td>
 
@@ -298,18 +299,32 @@ Unique number of the change request that resulted in the creation of the inciden
 
 ## Result
 
-The incident record is created.
+The incident is created.
 
 ## What to do next
 
-You can perform various actions and use the features in the incident record form to track and resolve the incident. For more information, see [Working with incident record form](../concept/working-incident-record-form.md).
+-   If you want to mail the incident record, click the more options icon \(\[Omitted image "more-options.png"\] Alt text: More options icon\) in the title bar and select **Email**.
 
-**Parent Topic:**[Managing incidents](../concept/work-on-incidents.md)
+    The user who requested the incident and the user who is assigned to the incident are automatically populated in the list of recipients.
+
+-   When an incident is created from a case, the Customer Service with Service Management plugin \(com.sn\_cs\_sm\) is installed and you have a customer service agent \(sn\_customerservice\_agent\) role, you can view the **Customer Cases** tab in the Related Links section of the Incident form. This tab contains the list of the customer cases associated with the incident record.
+-   When there are one or more interaction records associated with the incident record, you can view the **Interaction** tab in the Related Links section of the Incident form that contains the list of the interaction records.
+-   A **Primary device health** link appears on the Related Links section of the Incident form. Select to launch the Digital End-User Experience application and device health page for the selected CI in Service Operations Workspace on a separate browser tab. This tab enables agents to view all the available metrics and the device health for the selected CI, which were collected by DEX. You can also access this feature using the **View device health** option on the classic U16 CI record.
+
+    **Note:**
+
+    -   DEX requires a separate entitlement.
+    -   This link is available to the agent only if the following conditions are met:
+        -   The selected CI is of type Device, which is also known as Endpoint.
+        -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md).
+        -   The DEX agent is installed on the selected CI.
+
+**Parent Topic:**[Managing incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/work-on-incidents.md)
 
 **Related topics**  
 
 
-[Create a record from incident](t_PromoteAnIncident.md)
+[Create a record from incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/t_PromoteAnIncident.md)
 
-[Managing major incidents](../concept/major-incident-management.md)
+[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md)
 

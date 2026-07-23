@@ -2,6 +2,7 @@
 title: CSDM implementation stage — Foundation
 description: In the Foundation stage of implementing the CSDM framework, admins prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-implement-foundation-stage.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -24,7 +25,7 @@ The basis of any good data model is the foundational data that is referenced thr
 
 ## Tables that you work on during the Foundation stage
 
-![Tables that you work on to prepare Foundation data.](../image/domain-foundation-tables.png)
+\[Omitted image "domain-foundation-tables.png"\] Alt text: Tables that you work on to prepare Foundation data.
 
 -   **Business Process \[cmdb\_ci\_business\_process\] table**
 
@@ -38,13 +39,13 @@ The basis of any good data model is the foundational data that is referenced thr
 
     The Product model \[model\_id\] table identifies the unique types of products your organization develops or consumes. When you group assets and CIs by product model, you unify and relate CIs that are part of the same digital product and portfolios of products. Grouping assets and CIs by product model can help you plan projects, monitor costs, and rationalize your data. Discovery can populate tangible/physical product models after they’re operational, but other types of product models require planning from product owners.
 
-    Use the CSDM Product Model Assignment job to auto-generate a product model record \(application model, service model, or software model\) for each logical CI that is not yet associated with a product model. Product models are ideal for associating CIs that are parts of a single digital product. See [Auto-generate product models for logical CIs](../task/csdm-auto-create-prod-model-for-ci.md).
+    Use the CSDM Product Model Assignment job to auto-generate a product model record \(application model, service model, or software model\) for each logical CI that is not yet associated with a product model. Product models are ideal for associating CIs that are parts of a single digital product. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
 
 -   **CMDB Group \[cmdb\_ci\_query\_based\_service\] table**
 
     The CMDB Group table identifies a collection of CIs based on the results of saved Query Builder queries, encoded queries, or manual entries.
 
-    CMDB groups are critical elements of dynamic CI groups and the strategic management of CIs. Decide early how you want to report CI information and how you want to monitor CIs. These decisions affect how you create CMDB groups. For Change Management and Incident Management processes, there are two distinct impact analysis behaviors for dynamic CI groups. See [Matching the usage of dynamic CI groups to service type](csdm-dynamic-ci-groups-by-service.md).
+    CMDB groups are critical elements of dynamic CI groups and the strategic management of CIs. Decide early how you want to report CI information and how you want to monitor CIs. These decisions affect how you create CMDB groups. For Change Management and Incident Management processes, there are two distinct impact analysis behaviors for dynamic CI groups. See [Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md).
 
 -   **Software bills of material \(SBOM\)**
 
@@ -54,7 +55,7 @@ The basis of any good data model is the foundational data that is referenced thr
 
     The Location table uniquely identifies geographic locations. You can create a hierarchy of location data using the Parent attribute. The hierarchy might include entries that match your reporting requirements. For example, you could populate the location table as follows
 
-    ![Location reporting.](../image/location-flow.png "Your organization's location attributes")
+    \[Omitted image "location-flow.png"\] Alt text: Location reporting.
 
     To include more detail in reports, you could extend the Location table to include floors, rooms, and even datacenters. With hierarchy capabilities, trusted source data, and your requirements in hand, you can create locations that support your future reporting needs.
 
@@ -100,21 +101,21 @@ The basis of any good data model is the foundational data that is referenced thr
     -   **life cycle stage status** is the particular status of a CI within its current life cycle stage.
     For example, a tangible/physical CI in the **Operational** stage might change stage status over time from **In Use** to **In Maintenance** to **End of Support**. A different tangible/physical CI might go from **In Use** to **End of Support** without ever having been in **In Maintenance** status.
 
-    ![Allowed life-cycle values during the Operational stage of a tangible/physical CI life cycle](../image/csdm-op-stage-of-hw-ci.png)
+    \[Omitted image "csdm-op-stage-of-hw-ci.png"\] Alt text: Allowed life-cycle values during the Operational stage of a tangible/physical CI life cycle
 
     **Note:** The \[life\_cycle\_control\] table uses the type of CI \(tangible/physical, document and contract, location and so on\) to determine which *life cycle stage status* values are available for each *life cycle stage*.
 
-    To take full advantage of the CSDM life-cycle standards, you can map legacy status data to the life-cycle value pairs. See [Enabling life-cycle synchronization from legacy to asset](../../configuration-management/concept/csdm-life-cycle-standard-values.md#).
+    To take full advantage of the CSDM life-cycle standards, you can map legacy status data to the life-cycle value pairs. See [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
     The following assets can use life-cycle value pairs:
 
-    -   [Life cycle of product entities](csdm-lifecycle-product.md)
-    -   [Life cycle of tangible/physical CIs](csdm-lifecycle-hardware.md)
-    -   [Life cycle of intangible/logical entities](csdm-lifecycle-logical.md)
-    -   [Life cycle of document and contract entities](csdm-lifecycle-document.md)
-    -   [Life cycle of location entities](csdm-lifecycle-location.md)
+    -   [Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)
+    -   [Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
+    -   [Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
+    -   [Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
+    -   [Life cycle of location entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-location.md)
     Watch the ServiceNow Community video: [CSDM V4 product and life cycle discussion](https://www.youtube.com/watch?v=TfRv1VTRsgM)
 
 
-**Parent Topic:**[Implementing the CSDM framework in stages](csdm-implementation-stages.md)
+**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
 

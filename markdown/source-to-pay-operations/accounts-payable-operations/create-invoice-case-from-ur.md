@@ -1,19 +1,21 @@
 ---
 title: Create invoice case from Universal Request
-description: AP agents validate the incoming UR requests in the Source-to-Pay workspace and create an invoice case for further processing.
+description: Validate incoming Universal Request items in the Source-to-Pay Workspace and create invoice cases for further processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-invoice-case-from-ur.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice processing, Accounts Payable Workspace, AP case, universal request, employee inquiry]
 breadcrumb: [Universal Request in Accounts Payable Operations, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create invoice case from Universal Request
 
-AP agents validate the incoming UR requests in the Source-to-Pay workspace and create an invoice case for further processing.
+Validate incoming Universal Request items in the Source-to-Pay Workspace and create invoice cases for further processing.
 
 ## Before you begin
 
@@ -26,11 +28,13 @@ Plugins required:
 
 Users can also create own groups. For more information on creating own service- specific-assignment groups see, Universal Request is raised in the Employee Center or Supplier portal.
 
+This video shows you how to create a Universal Request.\[Omitted video\] Description: The video shows you how to create a invoice case from a Universal Request.
+
 ## Procedure
 
 1.  Navigate to **Source-to-Pay workspace** &gt; **List** &gt; **Universal request**.
 
-    The AP agent validates the UR case details and creates an invoice case for further processing.![Universal Request List view](../image/universal-req-list.png)
+    The AP agent validates the UR case details and creates an invoice case for further processing.\[Omitted image "universal-req-list.png"\] Alt text: Universal Request List view
 
 2.  Select a specific UR case to view case details.
 
@@ -38,7 +42,7 @@ Users can also create own groups. For more information on creating own service- 
 
 3.  Select **Create case** &gt;**Create invoice case**.
 
-    The **Create New Invoice case** form appears. The associated UR details appear as a banner in the case. For more information on creating invoice case, see [Create an invoice manually](create-invoice.md).![Create invoice case](../image/create-invoice-ur.png)
+    The **Create New Invoice case** form appears. The associated UR details appear as a banner in the case. For more information on creating invoice case, see [Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice.md).\[Omitted image "create-invoice-ur.png"\] Alt text: Create invoice case
 
 4.  Select **Save** to save the changes.
 
@@ -46,15 +50,15 @@ Users can also create own groups. For more information on creating own service- 
 
     If a ticket is transferred to another team and the user who submitted the UR doesn't have the necessary permissions to access that team's case, updates to the UR will not be visible to them.
 
-    For more information on transferring a UR, see [Transfer a primary ticket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/route-primarytask-to-ur.md).![Transfer UR](../image/transfer-ur.png)
+    For more information on transferring a UR, see [Transfer a primary ticket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/route-primarytask-to-ur.md).\[Omitted image "transfer-ur.png"\] Alt text: Transfer UR
 
 6.  Select **Create Associated Ticket** to request other departments for assistance in resolving a universal request \(UR\).
 
-    For more information on associated ticket, see [Create associated ticket for primary ticket of UR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/create-associated-ticket.md).
+    For more information on associated ticket, see [Create associated ticket for primary ticket of UR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/create-associated-ticket.md).
 
     If the ticket is assigned to another team, and the original user who submitted the UR doesn’t possess the necessary privileges or access to view that team's case, they’ll be unable to monitor updates on the UR.
 
-    ![Associated ticket](../image/ur-associated-ticket-success.png)
+    \[Omitted image "ur-associated-ticket-success.png"\] Alt text: Associated ticket
 
     An associated ticket is created.
 
@@ -63,10 +67,10 @@ Users can also create own groups. For more information on creating own service- 
 
 Invoice case is created and processed. Once the case is resolved, the agent closes the case with appropriate reason. The UR is synced with invoice case details for invoice owners and suppliers to track the status of the UR.
 
-**Parent Topic:**[Universal Request in Accounts Payable Operations](../concept/universal-request-in-apo.md)
+**Parent Topic:**[Universal Request in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/universal-request-in-apo.md)
 
 **Related topics**  
 
 
-[Using Invoice Case Management](../concept/use-invoice-case-mgmt.md)
+[Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Content Experiences
 description: Several types of components install with the activation of the Content Experiences \[sn\_cd\] plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/installed-with-content-auto.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Several types of components install with the activation of the Content Experienc
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
-For more information about tables, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
+For more information about tables, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableAdministration.md).
 
 Demo data is available for this feature.
 
@@ -172,7 +173,7 @@ Content Experiences: Purge Campaign Data
 
 </td><td>
 
-Purges campaigns and users based on the Content Experiences Configurations Properties settings.See the Purging section in [Properties installed with Content Experiences](properties-installed-with-content-auto.md).
+Purges campaigns and users based on the Content Experiences Configurations Properties settings.See the Purging section in [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md).
 
  Runs every hour by default.
 
@@ -216,7 +217,7 @@ Content Experiences: Update Campaign Audience
 
 Reevaluates the audience for a campaign and removes employees that no longer satisfy the criteria. Adds users that match your defined criteria to the campaign. Users show up in the Campaign Targets related list for a campaign.
 
- You can view the updated audience from the Campaign Targets tab of a campaign. See [View campaign targets](../task/manage-campaign-targets.md).
+ You can view the updated audience from the Campaign Targets tab of a campaign. See [View campaign targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-campaign-targets.md).
 
  Runs daily by default.
 
@@ -232,48 +233,48 @@ Reevaluates the audience for a campaign and removes employees that no longer sat
 |Campaign Target \[sn\_ca\_campaign\_user\]|Who in your company is part of a campaign.|
 |Creation Status \[sn\_ca\_creation\_status\]|Tracks whether a campaign target has visited a particular widget instance that is part of the campaign.|
 
-**Parent Topic:**[Employee Center Pro reference](emp-center-pro-reference.md)
+**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 
 
-[Block content form](block-content-form.md)
+[Block content form]()
 
-[Campaign overview and Campaign analytics dashboards](../concept/ecpro-content-automation-content-pack.md)
+[Campaign overview and Campaign analytics dashboards]()
 
-[Components installed with Employee Center Pro](components-installed-with-employee-center-pro-1.md)
+[Components installed with Employee Center Pro]()
 
-[Components installed with Content engagement](installed-content-engagement.md)
+[Components installed with Content engagement]()
 
-[Components installed with Content Publishing](installed-with-content-delivery.md)
+[Components installed with Content Publishing]()
 
-[Components installed with Content Governance](ec-installed-content-governance.md)
+[Components installed with Content Governance]()
 
-[Components installed with Content Analytics](ecpro-installed-content-analytics-1.md)
+[Components installed with Content Analytics]()
 
-[Content Analytics dashboards](../concept/content-analytics-dashboards.md)
+[Content Analytics dashboards]()
 
-[Content engagement dashboard](../concept/ec-pro-content-engagement-dashboard.md)
+[Content engagement dashboard]()
 
-[Content Library Overview dashboard](../concept/content-library-overview-dashboard.md)
+[Content Library Overview dashboard]()
 
-[Employee Center Pro widgets](employee-center-pro-widgets-list.md)
+[Employee Center Pro widgets]()
 
-[Feedback configuration form](ex-feedback-new-record.md)
+[Feedback configuration form]()
 
-[Feedback definition form](fdbck-dfnition-record.md)
+[Feedback definition form]()
 
-[Link content form](link-content-form.md)
+[Link content form]()
 
-[Notification content form](notification-content-form.md)
+[Notification content form]()
 
-[Properties installed with Content Experiences](properties-installed-with-content-auto.md)
+[Properties installed with Content Experiences]()
 
-[Properties installed with Content Governance](properties-installed-content-governance.md)
+[Properties installed with Content Governance]()
 
-[Properties installed with Content Publishing](properties-with-content-delivery.md)
+[Properties installed with Content Publishing]()
 
-[Standard banner and icon sizes](ec-portal-images-size.md)
+[Standard banner and icon sizes]()
 
-[To-do content form](to-do-content-form.md)
+[To-do content form]()
 

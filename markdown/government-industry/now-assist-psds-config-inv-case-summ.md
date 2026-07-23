@@ -2,6 +2,7 @@
 title: Configure the Investigative case summarization skill in Now Assist for Public Sector Digital Services \(PSDS\)
 description: Activate and customize the Investigative case summarization skill in the Now Assist for Public Sector Digital Services \(PSDS\) application so that investigators can use the generative AI skills in CSM Configurable Workspace and in Public Sector Digital Services Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-config-inv-case-summ.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,11 +16,11 @@ Activate and customize the Investigative case summarization skill in the Now Ass
 
 ## Before you begin
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
+**Important:** Some generative AI skills, agents, and agentic workflows are turned on by default. The default behavior works as follows:
 
 -   **New customers**
 
-    When you install a Now Assist product, designated skills, agents, or agentic workflows are turned on automatically.
+    When you install an AI product, designated generative AI skills, AI agents, or agentic workflows are turned on automatically.
 
 -   **Existing customers who are upgrading \(starting with Australia Patch 4\)**
 
@@ -27,12 +28,14 @@ Activate and customize the Investigative case summarization skill in the Now Ass
 
     An AI asset is turned on if:
 
-    -   The Now Assist plugin is installed, but the asset was never turned on.
+    -   The AI plugin is installed, but the asset was never turned on.
     -   An admin has never adjusted roles for the skill.
     An AI asset is not turned on if:
 
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
+
+For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Confirm that the following applications and plugins are installed:
 
@@ -51,7 +54,7 @@ Activate and customize the Investigative case summarization skill in the Now Ass
 
 3.  On the card for the Investigative case summarization Al skill, select **Activate Skill**.
 
-    ![Investigative case summarization Al skill card that displays the skill to be activated.](../image/psds-nowassist-ics-activate.png)
+    \[Omitted image "psds-nowassist-ics-activate.png"\] Alt text: Investigative case summarization Al skill card that displays the skill to be activated.
 
 4.  In the General details section, select **Save and continue**.
 
@@ -73,6 +76,6 @@ Activate and customize the Investigative case summarization skill in the Now Ass
 
 11. Verify that the skill is activated on the Investigative case summarization skill card.
 
-    ![Document screening Al skill is active.](../image/psds-doc-screening-skill-activated.png)
+    \[Omitted image "psds-doc-screening-skill-activated.png"\] Alt text: Document screening Al skill is active.
 
 

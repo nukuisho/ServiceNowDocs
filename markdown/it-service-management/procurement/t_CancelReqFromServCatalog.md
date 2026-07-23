@@ -2,13 +2,14 @@
 title: Cancel a request from the service catalog
 description: You can cancel a request from the service catalog if, for example, the item is no longer needed or the request was not approved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_CancelReqFromServCatalog.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Procurement purchase order management for assets, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Procurement purchase order management for assets, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Cancel a request from the service catalog
@@ -38,16 +39,16 @@ Associated transfer order lines that are in the **In Transit** or **Delivered** 
 3.  Click **Cancel Request**.
 
 
-**Parent Topic:**[Procurement purchase order management for assets](../concept/c_UseProcurement.md)
+**Parent Topic:**[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_UseProcurement.md)
 
 **Related topics**  
 
 
-[Track a request from the service catalog](t_TrackReqFromServiceCatalog.md)
+[Track a request from the service catalog]()
 
-[View and edit a catalog task](t_ViewAndEditACatalogTask.md)
+[View and edit a catalog task]()
 
-[Create a purchase order](t_CreateAPurchaseOrder.md)
+[Create a purchase order]()
 
-[Create an asset and reserve it for the requester](t_CreateAssetReserveForRequester.md)
+[Create an asset and reserve it for the requester]()
 

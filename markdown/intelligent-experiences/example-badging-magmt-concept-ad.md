@@ -2,10 +2,11 @@
 title: Example: Automate badge request management using AI Desktop Actions
 description: Automate various tasks related to badge requests through desktop actions using AI Desktop Actions and AI agents.Automate various badge-related tasks through desktop actions in AI Desktop Actions.Create an AI agent in AI Agent Studio and add desktop action tools for automating badge-related requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/example-badging-magmt-concept-ad.html
 release: australia
 topic_type: concept
-last_updated: "2025-11-21"
-reading_time_minutes: 10
+last_updated: "2026-05-25"
+reading_time_minutes: 12
 breadcrumb: [Desktop action examples, AI Desktop Actions, Enable AI experiences]
 ---
 
@@ -25,8 +26,8 @@ Automate various badge-related tasks through desktop actions in AI Desktop Actio
 
 To access the AI Desktop Actions functionality, perform the following steps:
 
--   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](../task/configure-agentic-desktop.md).
--   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer](../task/download-agentic-desktop-installer.md).
+-   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-agentic-desktop.md).
+-   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/download-agentic-desktop-installer.md).
 
 Confirm that the following system requirements are met:
 
@@ -34,10 +35,21 @@ Confirm that the following system requirements are met:
 -   A .NET 9.0 runtime v9.0.10 and .NET 9 Desktop Runtime v9.0.10 is installed.
 -   No extended monitors are connected.
 -   Theme must match between the systems used for recording and execution.
+-   For record with AI, the ServiceNow AI Lens skill must be active on your instance. Contact your ServiceNow administrator if you're unsure whether this condition is met.
 
-Familiarize yourself with the Design workspace and Action recorder. For more information, see [AI Desktop Actions Design workspace](agentic-desktop-overview.md) and [Action recorder in AI Desktop Actions](action-recorder-ad.md).
+Familiarize yourself with the Design workspace and Action recorder. For more information, see [AI Desktop Actions Design workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-overview.md) and [Action recorder in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/action-recorder-ad.md).
 
-Role required: sn\_aia.admin
+Role required: sn\_desktop\_core.desktop\_action\_user
+
+### About this task
+
+Record with AI generates more accurate anchor positions automatically, reducing the time you spend on manual anchor adjustments.
+
+When you record with AI, after you finish recording, AI analyzes the recording, validates anchor positions, and corrects inaccuracies before you save or activate the desktop action. AI also generates a screen context for each captured screen and description for the desktop action. Screen context is a description of what the screen does and what it contains, which helps reviewers and AI agents understand the screen's intent.
+
+**Note:** If your automation requires manual inputs, such as entering an OTP or CAPTCHA, you must provide instructions to the AI Agent to wait for the user input during execution. Otherwise, the automation can't proceed.
+
+The **sn\_desktop\_core.record\_with\_ai** property is enabled by default, making **Record with AI** the default recording option. Turn off this property to set the manual recorder as the default recording option.
 
 ### Procedure
 
@@ -47,7 +59,7 @@ Role required: sn\_aia.admin
 
     For example, `https://<instance name>.service-now.com`.
 
-    ![AI Desktop Actions login screen for entering ServiceNow instance URL.](../image/ad-login-screen.png)
+    \[Omitted image "ad-login-screen.png"\] Alt text: AI Desktop Actions login screen for entering ServiceNow instance URL.
 
 3.  Select **Proceed**.
 
@@ -55,41 +67,61 @@ Role required: sn\_aia.admin
 
     Your must have the sn\_aia.admin role.
 
-    ![Login window for entering your ServiceNow account username and password.](../image/ad-login-screen-cred.png)
+    \[Omitted image "ad-login-screen-cred.png"\] Alt text: Login window for entering your ServiceNow account username and password.
 
-5.  On the onboarding journey wizard, complete the onboarding and select **Get started**.
+5.  On the onboarding journey modal, complete the onboarding and select **Get started**.
 
-    ![Onboarding journey widget with five pages to show you the highlights of the application.](../image/onboarding-widget-ad.png)
+    \[Omitted image "onboarding-widget-ad.png"\] Alt text: Onboarding journey widget with five pages to show you the highlights of the application.
 
     If you launch the AI Desktop Actions for the first time, the onboarding journey widget appears. You can select **Don't show me again** to hide the widget the next time you launch AI Desktop Actions or **Skip intro** to skip the onboarding.
 
 6.  On the AI Desktop Actions home page, select **Create desktop action**.
 
-    ![AI Desktop Actions home page displaying the Create desktop action UI action, search and select options, and cards of existing desktop actions.](../image/home-page-actions-ad.png)
+    \[Omitted image "home-page-actions-ad.png"\] Alt text: AI Desktop Actions home page displaying the Create desktop action UI action, search and select options, and cards of existing desktop actions.
 
-7.  In the New desktop action dialog box, select **Auto-capture steps \(recommended\)**.
+7.  In the Create Desktop Action dialog, do one of the following.
 
-    ![New desktop action window with auto-capture option selected and fields to enter name and description for the desktop action.](../image/new-desktop-action-window-ad.png)
+    -   If you want to record with AI, keep the **Record with AI \(recommended\)** check box selected.
+
+        \[Omitted image "create-desktop-action-with-ai.png"\] Alt text: Create desktop action modal with Record with AI option selected and a field to enter name for the desktop action.
+
+        **Important:** If the **Record with AI \(recommended\)** check box is unavailable, the ServiceNow AI Lens is inactive on your instance. Contact your ServiceNow administrator to enable it. You can still create desktop actions using [auto-capture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/auto-create-desktop-action-ad.md) mode.
+
+    -   If you want to use manual recorder, clear the **Record with AI \(recommended\)** check box.
+
+        \[Omitted image "ad-lens-skill-disabled.png"\] Alt text: Create desktop action modal with Record with AI option inactive and a fields to enter name and description for the desktop action.
 
 8.  In the **Name** field, enter `Create new badge`.
 
 9.  In the **Description** field, enter `Desktop action for issuing a badge to a new employee.`
 
-10. Select **Start capturing**.
+    This field only appears when you clear the **Record with AI \(recommended\)** check box.
+
+10. Select **Continue**.
+
+11. In the modal, review the tips and select **Open recorder** to begin.
+
+    \[Omitted image "open-recorder-ad.png"\] Alt text: Guided slow model for providing tips for effective recording.
 
     The AI Desktop Actions window is minimized and the Action recorder panel is launched. You can freely drag and reposition the Action recorder panel anywhere on your desktop screen.
 
-    ![Floating recorder panel that has Discard, Pause, and Start recording UI actions.](../image/recorder-auto-capture-ad.png)
+    \[Omitted image "recorder-auto-capture-ad.png"\] Alt text: Floating recorder panel that has Discard, Pause, and Start recording UI actions.
 
-11. Open the **Employee Badge Management** application on your desktop.
+12. Open the **Employee Badge Management** application on your desktop.
 
-12. From the Action recorder panel, select **Start**.
+13. From the Action recorder panel, select **Start recording**.
 
-    You see that a "Recording started" message on the Action recorder panel.
+    **Important:** Before you start recording, review the tips for accurate capturing of anchors and steps. For more information, see [Tips for accurate recording](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/action-recorder-ad.md).
 
-    -   Pause recording: You can skip recording steps by selecting **Pause**.
-    -   Discard recording: You can discard the recording if it doesn’t meet your needs by selecting **Discard**.
-13. On the **Employee Badge Management** application, perform the following steps for creating a badge.
+    You will see a "Recording started" message on the Action recorder panel. You can select any of the following options when needed from the **More options** menu:
+
+    -   **Pause**: Skip recording steps
+    -   **Restart**: Restart recording the steps
+
+        You will lose the recorded screens and steps.
+
+    -   **Discard**: Discard the recording if it doesn't meet your needs
+14. On the **Employee Badge Management** application, perform the following steps for creating a badge.
 
     The recorder feature records the steps that you perform for creating a badge.
 
@@ -101,23 +133,30 @@ Role required: sn\_aia.admin
 
         You see the success message that the new badge is created.
 
-14. After you’re done with all the steps, select **Stop** on the Action recorder panel.
+15. After you’re done with all the steps, select **End recording** on the Action recorder panel.
 
-    You see a "Drafting recorded action\(s\)" message on the Action recorder panel.
+    You see a "Draft workflow saved" message on the Action recorder panel.
+
+    For Record with AI option, AI processes the recording in three stages:
+
+    1.  Analyzing your recording with AI
+    2.  Inserting anchors
+    3.  Generating screen contexts
+    You must not close the application during processing.
 
     The recorded steps are displayed as screenshots in the Design workspace with anchors and steps automatically assigned.
 
-    ![Employee badge management login window.](../image/ex-employee-badge-1.png "Screen1")
+    \[Omitted image "ex-employee-badge-1.png"\] Alt text: Employee badge management login window.
 
-    ![Employee badge management welcome window displaying cards for creating new badge, inactivating badge, reissuing badge, and viewing audit logs.](../image/ex-employee-badge-2.png "Screen2")
+    \[Omitted image "ex-employee-badge-2.png"\] Alt text: Employee badge management welcome window displaying cards for creating new badge, inactivating badge, reissuing badge, and viewing audit logs.
 
-    ![Displaying option for searching employee ID in the Employee Badge Management app.](../image/ex-employee-badge-3.png "Screen3")
+    \[Omitted image "ex-employee-badge-3.png"\] Alt text: Displaying option for searching employee ID in the Employee Badge Management app.
 
-    ![Displaying preview of new badge.](../image/ex-employee-badge-4.png "Screen4")
+    \[Omitted image "ex-employee-badge-4.png"\] Alt text: Displaying preview of new badge.
 
-    ![Success message indicating new badge is successfully created.](../image/ex-employee-badge-5.png "Screen5")
+    \[Omitted image "ex-employee-badge-5.png"\] Alt text: Success message indicating new badge is successfully created.
 
-15. Configure the following properties for the captured steps.
+16. Configure the following properties for the captured steps.
 
     |Screen &gt; Step|Property|Value|
     |----------------|--------|-----|
@@ -127,9 +166,9 @@ Role required: sn\_aia.admin
     |Screen2 &gt; Click2|Delay after|5|
     |Screen3 &gt; Click2|Delay after|10|
 
-    For more information, see [Screen, anchor, and step properties in AI Desktop Actions](../reference/screen-anchor-and-action-properties-ad.md).
+    For more information, see [Screen, anchor, and step properties in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/screen-anchor-and-action-properties-ad.md).
 
-16. Modify the auto-generated names for all added screens, anchors, and steps.
+17. Modify the auto-generated names for all added screens, anchors, and steps.
 
     You can modify the auto-generated names following these naming guidelines.
 
@@ -139,17 +178,17 @@ Role required: sn\_aia.admin
         -   Each screen must have a unique name at the desktop-action level.
         -   Each anchor must have a unique name at the screen level.
         -   Each step must have a unique name at the anchor level.
-17. Select the Details tab.
+18. Select the Details tab.
 
-18. In the Applications list, add Badge Management Application.
+19. In the Applications list, add Badge Management Application.
 
-19. Select **Save**.
+20. Select **Save**.
 
-20. Test and activate the desktop action.
+21. Test and activate the desktop action.
 
-    For more information, see [Test and activate a desktop action in AI Desktop Actions](../task/test-activate-desktop-action-ad.md).
+    For more information, see [Test and activate a desktop action in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-activate-desktop-action-ad.md).
 
-21. Similarly, create and activate the following desktop actions.
+22. Similarly, create and activate the following desktop actions.
 
     -   Badge application login
     -   Badge application logout
@@ -174,7 +213,7 @@ Role required: sn\_aia.admin
 
 3.  On the New AI Agent page, in the Define the specialty step, define your AI agent and provide the specialties that this agent contains so that the LLM can analyze the wording you use to understand the purpose of the AI agent.
 
-    ![AI Agent Guided Setup showcasing the different stages of configuring an AI agent.](../../../administer/now-assist-ai-agents/image/create-ai-agent-latest.png)
+    \[Omitted image "create-ai-agent-latest.png"\] Alt text: AI Agent Guided Setup showcasing the different stages of configuring an AI agent.
 
     **Note:** The more details that you provide, the more accurately your AI agent can perform.
 
@@ -270,11 +309,11 @@ List of steps
 
 6.  Complete the remaining steps that are necessary.
 
-    For more information, see [Create an AI agent](../../../administer/now-assist-ai-agents/task/configure-next-best-action-agent.md).
+    For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
 7.  Select **Save and test** to complete the configuration steps or review a previous step by selecting **Back**.
 
-    Selecting Save and test leads you to the AI agent testing page, where you can test the AI agent that you created. For more information, see [Manually test the execution of an AI agent](../../../administer/now-assist-ai-agents/task/test-ai-agent.md).
+    Selecting Save and test leads you to the AI agent testing page, where you can test the AI agent that you created. For more information, see [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md).
 
     To test the AI agent, you must have the sn\_aia.admin role and any roles the ACLs configured for the AI agent and its tools require, if applicable.
 
@@ -283,5 +322,5 @@ List of steps
 
 Enable your HR representatives to trigger AI agents from the Now Assist panel to address badge-related requests.
 
-For more information, see [Example: Use AI agents to process badge-related requests automatically](../task/example-use-badging-ai-agent-ad.md).
+For more information, see [Example: Use AI agents to process badge-related requests automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/example-use-badging-ai-agent-ad.md).
 

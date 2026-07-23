@@ -1,7 +1,8 @@
 ---
 title: Activate Investment Funding for projects and demands
-description: Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they aren't already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/activate-investment-funding-ppm.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -13,7 +14,7 @@ breadcrumb: [PPM Standard \(Project Portfolio Management\), Explore Project Port
 
 # Activate Investment Funding for projects and demands
 
-Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Investment Funding \(com.snc.investment\_funding\) plugin if you have the admin role. This plugin includes demo data and activates related plugins if they aren't already active.
 
 ## Before you begin
 
@@ -44,17 +45,17 @@ The plugin activates the related plugins if they are not already active. It also
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[PPM Standard \(Project Portfolio Management\)](../../project-portfolio-suite-with-financials/concept/c_ProjectPortfolioSuiteWithFinancials.md)
+**Parent Topic:**[PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md)
 
 **Related topics**  
 
 
-[Currencies and budget reference rates](../../project-management/concept/c_BudgetReferenceRates.md)
+[Currencies and budget reference rates]()
 
-[Install Investment Funding](activate-investment-funding.md)
+[Install Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/activate-investment-funding.md)
 
 [List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 

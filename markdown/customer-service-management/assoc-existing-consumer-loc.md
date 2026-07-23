@@ -2,6 +2,7 @@
 title: Associate an existing consumer location with a consumer profile
 description: Associate an existing consumer location with a consumer profile by using the Consumer Profile Location \[sn\_csm\_consumer\_profile\_location\] table in the Customer Service Management \(CSM\) application. By connecting consumer profiles and locations, industries can handle multiple addresses that are associated with individual profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/assoc-existing-consumer-loc.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,13 +34,13 @@ By using the Consumer Profile Location \[sn\_csm\_consumer\_profile\_location\] 
 
 2.  In the Consumer Profile Locations record, select **New**.
 
-3.  In the **Location** field, select the lookup icon ![Lookup icon](../image/search_icon.png) to open the list of locations.
+3.  In the **Location** field, select the lookup icon \[Omitted image "search\_icon.png"\] Alt text: Lookup icon to open the list of locations.
 
 4.  Select the location to be associated with the consumer profile.
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values, see [Consumer Profile Location table](../reference/consumer-profile-location-table.md).
+    For a description of the field values, see [Consumer Profile Location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/consumer-profile-location-table.md).
 
 6.  Select **Submit**.
 
@@ -51,5 +52,5 @@ A location has been added to the consumer profile. Additionally, you can include
 **Related topics**  
 
 
-[Create and associate a location to a consumer profile](creating-loc-and-assoc-to-consumer-profile.md)
+[Create and associate a location to a consumer profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/creating-loc-and-assoc-to-consumer-profile.md)
 

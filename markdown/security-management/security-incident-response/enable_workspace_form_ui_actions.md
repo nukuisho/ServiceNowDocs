@@ -2,11 +2,12 @@
 title: Working with Form UI actions
 description: Following are the UI actions that are displayed on the security incident form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/enable\_workspace\_form\_ui\_actions.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 6
 breadcrumb: [Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -238,30 +239,30 @@ Cancel a security incident. After you select **Cancel** all the related records 
 Delete a security incident record.
 
 </td></tr></tbody>
-</table>4.  Click on a security incident number to view the security incident record. You can see the UI actions on the top of the page.
+</table>4.  Select a security incident number to view the security incident record. You can see the UI actions on the top of the page.
 
-![Form UI actions](../image/form-ui-actions.png)
+\[Omitted image "form-ui-actions.png"\] Alt text: Form UI actions
 
-**Parent Topic:**[Using SIR Workspace](../reference/using-sir-workspace.md)
+**Parent Topic:**[Using SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-sir-workspace.md)
 
 **Related topics**  
 
 
-[Working with Security Incident Records](using-analyst-workspace.md)
+[Working with Security Incident Records]()
 
-[Security Incident Playbook](security-incident-playbook.md#)
+[Security Incident Playbook]()
 
-[Prerequisites for the Playbooks](../../playbook-migration-guide/concept/getting-started-with-processes.md)
+[Prerequisites for the Playbooks]()
 
-[Rebuilding existing playbooks in Workflow Studio](../../playbook-migration-guide/concept/rebuilding-existing-playbooks-on-pad.md)
+[Rebuilding existing playbooks in Workflow Studio]()
 
-[Activity Definitions](../../playbook-migration-guide/concept/build-activities.md)
+[Activity Definitions]()
 
-[Sample Playbooks for SIR Workspace](../../playbook-migration-guide/concept/sir-workspace-playbooks.md)
+[Sample Playbooks for SIR Workspace]()
 
-[Working with MSI Records](working-with-msi-records.md)
+[Working with MSI Records]()
 
-[Security Incident Closure workflow](security-incident-closure-workflow_0.md)
+[Security Incident Closure workflow]()
 
-[Handle security incidents using Advanced Work Assignment](../task/handle-incidents-using-awa.md)
+[Handle security incidents using Advanced Work Assignment]()
 

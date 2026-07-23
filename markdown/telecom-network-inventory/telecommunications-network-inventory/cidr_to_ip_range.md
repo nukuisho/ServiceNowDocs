@@ -2,6 +2,7 @@
 title: CIDR to IP range function
 description: Classless Inter-Domain Range \(CIDR\) to IP range flow action enables you to create a set of IP addresses using the Classless Inter-Domain Range \(CIDR\) using Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/cidr\_to\_ip\_range.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -38,30 +39,30 @@ The following table lists the information about the function output.
 |----|-----------|---------|
 |Allocated IP address|Returns a glide a record|Record|
 
-**Parent Topic:**[Telecommunications Network Inventory function catalog](tni-flow-action.md)
+**Parent Topic:**[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)
 
 **Related topics**  
 
 
-[Allocate Free Number function](allocate-free-number-action.md)
+[Allocate Free Number function]()
 
-[Create CI From Template function](add-card-action.md)
+[Create CI From Template function]()
 
-[Cascade Update function](cascade-update-action.md)
+[Cascade Update function]()
 
-[Create and Assign Range/Single Number function](create-assign-range-single-number-function.md)
+[Create and Assign Range/Single Number function]()
 
-[Create Logical Interface function](create-logical-interface-action.md)
+[Create Logical Interface function]()
 
-[Create Logical Connection function](create-logical-connection-action.md)
+[Create Logical Connection function]()
 
-[Create Physical Connection function](create-physical-connection-action.md)
+[Create Physical Connection function]()
 
-[Create IP subnetwork function](create_ip_subnetwork.md)
+[Create IP subnetwork function]()
 
-[Get Interface Summary function](get-interface-summary-action.md)
+[Get Interface Summary function]()
 
-[Lookup Next Hub function](lookup-next-hub-action.md)
+[Lookup Next Hub function]()
 
-[Path Search function](path-compute-action.md)
+[Path Search function]()
 

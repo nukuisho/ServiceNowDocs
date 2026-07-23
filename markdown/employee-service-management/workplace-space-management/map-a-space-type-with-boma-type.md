@@ -2,6 +2,7 @@
 title: Map a space type with BOMA type
 description: Using Workplace Space Management, map a space type that you created using Workplace Core with a BOMA type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/map-a-space-type-with-boma-type.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -19,8 +20,8 @@ Using Workplace Space Management, map a space type that you created using Workpl
 
 Ensure the following:
 
--   Space type is configured. To configure a space type, refer to [Add a space type configuration](../../workplace-service-delivery/task/add-space-type-configuration-wsd.md).
--   BOMA type is configured. To configure a BOMA type, refer to [Configure a BOMA type](configure-a-boma-type.md).
+-   Space type is configured. To configure a space type, refer to [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
+-   BOMA type is configured. To configure a BOMA type, refer to [Configure a BOMA type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/configure-a-boma-type.md).
 
 Role required: sn\_wsd\_core.admin and sn\_wsd\_spcmgmt.manager
 
@@ -47,38 +48,40 @@ Role required: sn\_wsd\_core.admin and sn\_wsd\_spcmgmt.manager
 
 The space type is mapped with a BOMA type. All the spaces that are assigned to this space type, will be classified with the selected BOMA type.
 
-**Parent Topic:**[Managing workplace locations](../concept/Creating-workplace-location-records-using-spce-mgmt.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
 
 
-[Add a campus](add-a-campus.md)
+[Add a campus]()
 
-[Add a building using Workplace Space Management](add-new-building-1.md)
+[Add a building using Workplace Space Management]()
 
-[Add a floor using Workplace Space Management](add-a-floor-1.md)
+[Add a floor using Workplace Space Management]()
 
-[Add an area using Workplace Space Management](add-an-area.md)
+[Add an area using Workplace Space Management]()
 
-[Add a room using Workplace Space Management](add-a-room.md)
+[Add a room using Workplace Space Management]()
 
-[Add a space using Workplace Space Management](add-a-space.md)
+[Add a space using Workplace Space Management]()
 
-[Allocate a cost center, department, or workplace entity](add-cost-center-department-floor.md)
+[Allocate a cost center, department, or workplace entity]()
 
-[Configure a workspace or desk as flexible or permanent](assign-a-flex-perm-space.md)
+[Configure a workspace or desk as flexible or permanent]()
 
-[Update the measurement details of a workplace location](update-measurement-details-of-workplace-location.md)
+[Update the measurement details of a workplace location]()
 
-[Change the status of a workplace location](change-active-status-of-workplace-location.md)
+[Change the status of a workplace location]()
 
-[Configure a BOMA type](configure-a-boma-type.md)
+[Configure a BOMA type]()
 
-[Create a Space Recommender rule](create-a-space-recommender-rule.md)
+[Create a Space Recommender rule]()
 
-[Raise a space assistance request](raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Create a view-by configuration](create-view-by-config.md)
+[Create a view-by configuration]()
 
-[Reviewing allocation changes](../concept/reviewing-allocation-changes.md)
+[Create a KPI Configuration]()
+
+[Reviewing allocation changes]()
 

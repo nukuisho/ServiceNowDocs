@@ -2,11 +2,12 @@
 title: Configure semantic indexing settings for an indexed source
 description: Specify the semantic indexing configuration settings you want to apply when AI Search indexes records from your indexed sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-semantic-indexing-ais.html
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-07-06"
 reading_time_minutes: 2
 breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configuring AI Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -23,7 +24,7 @@ Role required: ais\_admin
 
 ## About this task
 
-As an AI Search admin, you can perform this task to choose the fields from and indexed source's table that you want the system to index for semantic vector search. You can also choose the embedding models and content chunking strategy to use for semantically-indexed content from the source table.
+As an AI Search admin, you can perform this task to choose the fields from and indexed source's table that you want the system to index for semantic vector search. You can also choose the embedding models and content chunking strategy to use for semantically indexed content from the source table.
 
 ## Procedure
 
@@ -39,7 +40,7 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
 4.  On the Semantic Index Configuration form, fill in the fields.
 
-    For a description of the field values, see [Semantic Index Configuration form](../reference/semantic-index-configuration-form.md).
+    For a description of the field values, see [Semantic Index Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-configuration-form.md).
 
 5.  Select **Submit**.
 
@@ -47,13 +48,13 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
     The Semantic Index Configuration form reloads and displays your selected field values and the Semantic Index Fields related list.
 
-6.  In the Semantic Index Fields related list, create a new record for each field with content that you want to include in the semantic index for the specified indexed source.
+6.  In the Semantic Index Fields related list, create a record for each field with content that you want to include in the semantic index for the specified indexed source.
 
     1.  Select **New**.
 
     2.  On the Semantic Index Field form, fill in the fields.
 
-        For a description of the field values, see [Semantic Index Field form](../reference/semantic-index-field-form.md).
+        For a description of the field values, see [Semantic Index Field form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-field-form.md).
 
     3.  Select **Submit**.
 
@@ -62,9 +63,9 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
 ## What to do next
 
-After changing the semantic index configuration settings for an indexed source, you need to reindex content from that indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](index-single-source-ais.md).
+After changing the semantic index configuration settings for an indexed source, you must reindex content from that indexed source. For reindexing steps, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
 
-**Note:** Indexing content for semantic vector search is typically slower than indexing for keyword search. Your indexed source may take more time to reindex once you've defined a semantic index configuration for it.
+**Note:** Indexing content for semantic vector search is typically slower than indexing for keyword search. Your indexed source may take more time to reindex once you have defined a semantic index configuration for it.
 
-**Parent Topic:**[Semantic index configuration for indexed sources](../concept/semantic-index-cfg-ais.md)
+**Parent Topic:**[Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-index-cfg-ais.md)
 

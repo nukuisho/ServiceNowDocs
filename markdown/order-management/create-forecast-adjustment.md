@@ -2,6 +2,7 @@
 title: Create forecast adjustment
 description: Modify system-generated forecast values based on your judgment and prediction. Sales agents can adjust their individual forecasts and managers can modify team forecasts to align with overall targets. Sales managers can override team-level adjustments and the system automatically recalculates the roll-ups to reflect the updated forecast values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-forecast-adjustment.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_sales\_forecast.adjustment\_writer
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **My lists** **&gt; Sales Forecast** **&gt; Forecast**.
 
@@ -44,5 +45,12 @@ Role required: sn\_sales\_forecast.adjustment\_writer
     On your forecast item, the Owner Adjustment field displays the adjusted forecast value and the Hierarchy Forecast value displays the original forecast value.
 
 
-**Parent Topic:**[Using Sales Forecasting](using-sales-forecasting.md)
+**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+
+**Related topics**  
+
+
+[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
 

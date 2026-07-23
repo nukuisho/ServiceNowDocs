@@ -2,6 +2,7 @@
 title: App Launcher
 description: App Launcher enables you to provide employees one-click access to all of their web business applications from Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/web-application-employee-about.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -49,30 +50,30 @@ Organize applications on the App launcher for better app discovery and quick acc
 
 Enhance application discovery and navigation on the App launcher by configuring the access and visibility settings. Understand how access control can improve the app discovery for employees and find relevant apps that they have access to.
 
-For more information, see [Configure application visibility and access](../task/applauncher-enable-availability.md).
+For more information, see [Configure application visibility and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/applauncher-enable-availability.md).
 
 ## App Launcher integration with AI search
 
-Understand how AI Search is integrated with App launcher for better application discovery and access, see [Configure search navigation tabs](../task/config-search-nav-tabs.md).
+Understand how AI Search is integrated with App launcher for better application discovery and access, see [Configure search navigation tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-search-nav-tabs.md).
 
 Ensure you understand how to configure and enable AI search capabilities, see the following AI Search topics:
 
--   [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ais.md)
--   [Configuring navigation tabs in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/config-nav-tabs-ais.md)
--   [Search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md)
+-   [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ais.md)
+-   [Configuring navigation tabs in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/config-nav-tabs-ais.md)
+-   [Search sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-sources-ais.md)
 
 **Related topics**  
 
 
-[Register custom web applications with app launcher](../task/web-applications-custom.md)
+[Register custom web applications with app launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-applications-custom.md)
 
-[Assign topics to web applications](../task/web-applications-topic-assignment.md)
+[Assign topics to web applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-applications-topic-assignment.md)
 
-[Sync your applications from Microsoft Entra ID](../task/web-applications-azure.md)
+[Sync your applications from Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-applications-azure.md)
 
-[Modify app launcher widget display](../task/use-app-launcher.md)
+[Modify app launcher widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/use-app-launcher.md)
 
-[Access applications from App Launcher](web-application-employee.md)
+[Access applications from App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee.md)
 
-[Configure application visibility and access](../task/applauncher-enable-availability.md)
+[Configure application visibility and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/applauncher-enable-availability.md)
 

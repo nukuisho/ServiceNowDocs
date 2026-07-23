@@ -2,6 +2,7 @@
 title: IBM Cloud Platform discovery
 description: The ServiceNow Discovery application finds IBM Cloud Platform components \(Softlayer API v3 and v3.1 and Bluemix API v2\) using the IBM Cloud Platform patterns. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/ibm-cloud-platform-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -19,7 +20,7 @@ You can use the patterns on the ServiceNow AI Platform using London Patch 7, Mad
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -66,7 +67,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create a Discovery schedule**
 
-    To configure a Discovery schedule through Discovery Admin Workspace, see [Create an IBM Discovery schedule in Discovery Admin Workspace](../../discovery/task/create-ibm-schedule-DAW.md).
+    To configure a Discovery schedule through Discovery Admin Workspace, see [Create an IBM Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-ibm-schedule-DAW.md).
 
     To configure a serverless Discovery schedule:
 
@@ -84,7 +85,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     4.  Right-click the header of the Discovery Schedule form and select **Save**.
 
-        ![Serverless execution pattern](../image/serverless-execution-pattern.png)
+        \[Omitted image "serverless-execution-pattern.png"\] Alt text: Serverless execution pattern
 
     5.  Click the **Serverless Execution Patterns** tab.
     6.  Click **New**.
@@ -112,7 +113,7 @@ Pattern
 
 </td><td>
 
-Name of the pattern that you want to run.![IBM patterns](../image/ibm-patterns.png)
+Name of the pattern that you want to run.\[Omitted image "ibm-patterns.png"\] Alt text: IBM patterns
 
  If you want to run multiple patterns, create multiple records.
 
@@ -154,14 +155,14 @@ Option for enabling this schedule for Discovery. Select this check box to enable
 
     -   Specify all the fields with the same values as in the Cloud REST Query custom operation, except to specify the table for the response, which is set in the **Response Variable Name** field.
 
-        ![Response field](../image/response-variable-name.png)
+        \[Omitted image "response-variable-name.png"\] Alt text: Response field
 
     -   Set **Define parsing** to None.
     Methods to retrieve data for the IBM account
 
     1.  Navigate to **Pattern Designer** &gt; **Custom Operations**.
 
-        ![Cloud REST query](../image/cloud-rest-query.png)
+        \[Omitted image "cloud-rest-query.png"\] Alt text: Cloud REST query
 
     2.  Click **Cloud REST – add response to context**.
     Method: Get Call
@@ -587,11 +588,11 @@ Option for enabling this schedule for Discovery. Select this check box to enable
 
 -   **Activate the cloud-related CI relationships**
 
-    To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](../concept/tag_discovery_configuration.md).
+    To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration]().
 
 -   **\(Optional\) Populate Service Account and Logical Datacenter fields in cloud CIs**
 
-    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables](../concept/query-service-account-ldc-fields.md).
+    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables]().
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -2310,7 +2311,7 @@ Status of last execution of Discover Datacenters.
 </td></tr></tbody>
 </table>-   **IBM Cloud Virtual Server – Related Items view**
 
-    ![IBM Cloud Virtual Server – Related Items view](../image/ibm-vserver-related-items-1.png)
+    \[Omitted image "ibm-vserver-related-items-1.png"\] Alt text: IBM Cloud Virtual Server – Related Items view
 
 
 ## CI Relationships
@@ -2486,5 +2487,5 @@ The Pattern Designer fails because of a timeout during pattern debugging \(and n
 By default, the **sa.debugger.max\_timeout**parameter is set to 240 seconds.Increase the value of this parameter on the relevant MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available cloud discovery patterns](../concept/available-patterns-cloud.md)
+</table>**Parent Topic:**[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 

@@ -2,6 +2,7 @@
 title: View relationships configurations
 description: View all relationship configurations available for the Enterprise Modeling and Visualization in the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-relationships.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,41 +22,41 @@ Role required: sn\_apm\_mdtl\_com.mdtl\_com\_user
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon \(![setup icon.](../../image/eaw-image/eaw-icon-setup.png)\).
+2.  Open the Setup page by selecting the Setup icon \(\[Omitted image "eaw-icon-setup.png"\] Alt text: setup icon.\).
 
-3.  Select the expand row icon \(![expand row icon.](../../image/ExpandIcon.png)\) next to **Enterprise Modeling and Visualization**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: expand row icon.\) next to **Enterprise Modeling and Visualization**.
 
 4.  Select **Relationships**.
 
 
-**Parent Topic:**[Working with Enterprise Modeling and Visualization](../../concept/eaw-concept/eaw-work-with-ent-model-and-visual.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
 **Related topics**  
 
 
-[View all shape libraries](eaw-view-shape-libraries.md)
+[View all shape libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-shape-libraries.md)
 
-[View all entities](eaw-view-entity-config.md)
+[View all entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-entity-config.md)
 
-[View configuration for Enterprise Architecture Workspace](eaw-view-modeling-config.md)
+[View configuration for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-modeling-config.md)
 
-[Search shapes in a diagram](eaw-filter-shapes.md)
+[Search shapes in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-filter-shapes.md)
 
-[Add related records in the modeling diagram](eaw-modeling-add-related-records.md)
+[Add related records in the modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-add-related-records.md)
 
-[Share a modeling diagram](eaw-modeling-share-diagram.md)
+[Share a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-share-diagram.md)
 
-[Commit diagram changes](eaw-modeling-sync-diagram-servicenow.md)
+[Commit diagram changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-sync-diagram-servicenow.md)
 
-[Save as a new version](eaw-modeling-save-as-new.md)
+[Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-save-as-new.md)
 
-[Duplicate a modeling diagram](eaw-modeling-duplicate.md)
+[Duplicate a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-duplicate.md)
 
-[Submit a modeling diagram for approval](eaw-modeling-submit-for-approval.md)
+[Submit a modeling diagram for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-submit-for-approval.md)
 
-[Synchronize a shape to the database](eaw-modeling-sync-shape.md)
+[Synchronize a shape to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-sync-shape.md)
 
-[Approve or reject a modeling diagram request](eaw-approve-diagram-req.md)
+[Approve or reject a modeling diagram request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-approve-diagram-req.md)
 
-[Delete a shape](eaw-modeling-delete-shape.md)
+[Delete a shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-modeling-delete-shape.md)
 

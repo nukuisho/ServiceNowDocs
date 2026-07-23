@@ -2,6 +2,7 @@
 title: Now Assist in Contract Management
 description: Use Now Assist in Contract Management to analyze contracts for non-standard and missing clauses, and extract information from signed contracts to add in the contract repository. It also provides conversational search using natural language, enabling you to search the contract repository and perform semantic search in signed contract documents from the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-now-assit-landing.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -24,26 +25,26 @@ The Advance AI and Data Products and services do not and are not intended to con
 
 <table id="table_rzz_55j_qcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about generative AI skills and agentic workflows available in Now Assist in Contract Management](cncore-exp-now-assist-land.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about generative AI skills and agentic workflows available in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate and configure Now Assist in Contract Management](../task/confg-na-in-cmpro.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate and configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Use generative AI capabilities and agentic workflows offered by Now Assist in Contract Management](cncore-use-now-assist-land.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use generative AI capabilities and agentic workflows offered by Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
 
 </td><td>
 
-[Use agentic workflows![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use the agentic workflows in Now Assist in Contract Management](cmpro-agentic-workflows.md)
+[Use agentic workflows\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-agentic-workflows.md)
 
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help

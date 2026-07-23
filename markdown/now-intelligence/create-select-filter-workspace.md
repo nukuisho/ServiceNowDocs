@@ -2,6 +2,7 @@
 title: Configure a Single/Multiple select or cascading filter
 description: Let users filter a dashboard tab on one or more values from a set of choices, such as incident priority. You can have a single or multiple select filter follow another filter in a cascade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-select-filter-workspace.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Let users filter a dashboard tab on one or more values from a set of choices, su
 
 ## Before you begin
 
-**Important:** This procedure assumes you’ve created a filter in the Filter designer or added a filter to your dashboard with the Single select or Multiple select filter type. See [Create or add a filter on an inline dashboard](select-workspace-filter-type.md), [Create a filter in the Filter Designer](add-filter-library.md), or [Create a filter group](create-filter-group.md).
+**Important:** This procedure assumes you’ve created a filter in the Filter designer or added a filter to your dashboard with the Single select or Multiple select filter type. See [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md), [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md), or [Create a filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-filter-group.md).
 
 Role required: In the inline dashboard editor: dashboard\_admin, or you must be the dashboard owner or have had editing rights shared with you.
 
@@ -29,15 +30,15 @@ On a tabbed dashboard, a filter can apply either to the items in a single tab or
 
 A Single select filter lets users filter items by one value.
 
-![Single select filter, showing one value being selected.](../image/paw-filter-single-select.gif)
+\[Omitted image "paw-filter-single-select.gif"\] Alt text: Single select filter, showing one value being selected.
 
 A Multiple select filter lets users select multiple values of a field or breakdown.
 
-![Multiple select filter, showing several values being selected.](../image/paw-filter-multi-select.gif)
+\[Omitted image "paw-filter-multi-select.gif"\] Alt text: Multiple select filter, showing several values being selected.
 
 ## Procedure
 
-1.  Create a filter and select the Single or Multiple Select filter type, as described in [Create or add a filter on an inline dashboard](select-workspace-filter-type.md) or [Create a filter in the Filter Designer](add-filter-library.md).
+1.  Create a filter and select the Single or Multiple Select filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-filter-library.md).
 
 2.  In **Filter source type**, select a Table, an Indicator breakdown, or a Usage Insights source.
 
@@ -54,7 +55,7 @@ A Multiple select filter lets users select multiple values of a field or breakdo
         -   If you select a MetricBase table, don’t select a field.
         -   If you select a field that is a reference field to another table, the filter source resets to refer to that table with no field selected. The data to filter is set automatically to the reference field that you originally selected. As additional data to filter, you can set only the table in the filter source or other reference fields pointing to that table.
 
-            ![Changing the data source to a reference field, which in turn changes the table.](../image/paw-filter-ref-field-source.gif)
+            \[Omitted image "paw-filter-ref-field-source.gif"\] Alt text: Changing the data source to a reference field, which in turn changes the table.
 
     -   If you selected the Indicator breakdown type, select an indicator breakdown.
 
@@ -66,15 +67,15 @@ A Multiple select filter lets users select multiple values of a field or breakdo
     -   If you selected a Usage Insights filter, select a UX Analytics property.
 4.  If you selected a Table source and a user hierarchy is defined for the table, you have the option of creating a filter on that hierarchy.
 
-    ![Filter source configuration pane showing filter hierarchy fields.](../image/filter-hierarchy.png)
+    \[Omitted image "filter-hierarchy.png"\] Alt text: Filter source configuration pane showing filter hierarchy fields.
 
 5.  To limit the values that the runtime user can choose to filter by, select **Configure values \(number\)**.
 
     A list of possible values opens. Clear a value to prevent runtime users from filtering by it.
 
-    ![Checklist of possible table values.](../image/paw-filter-configure-values.png "Configure values list and resulting choices in runtime")
+    \[Omitted image "paw-filter-configure-values.png"\] Alt text: Checklist of possible table values.
 
-    ![Available values in runtime.](../image/paw-filter-restricted-runtime-values.png "Configure values list and resulting choices in runtime")
+    \[Omitted image "paw-filter-restricted-runtime-values.png"\] Alt text: Available values in runtime.
 
     **Note:** If the filter source is a reference to a table, you don’t have a list of values to configure. Instead, you can build a condition to set the values in the filter. You can also set a related list condition.
 
@@ -86,13 +87,13 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
     Some data to filter is chosen automatically depending on the filter source. For example, if you select the Category indicator breakdown from the Incident.Category breakdown source, the filter automatically filters the Category field on the Incident table and any indicators with the Category breakdown. You can edit the automatic data selection or add more data to filter.
 
-    **Note:** Your selection of filter source can impact which data you can filter. For more information, see Step [3](create-select-filter-workspace.md#step_filter-source).
+    **Note:** Your selection of filter source can impact which data you can filter. For more information, see Step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md).
 
 8.  Under **Other filters to follow**, if the conditions are met, you can select another filter for the current filter to follow in a hierarchy, creating a cascade.
 
     **Note:** You can only set **Other filters to follow** when you're configuring filters on a dashboard, not from the filter designer.
 
-    When you set the filter to follow another filter, the choices available in the following filter are limited by the choices made in the followed filter. For more information, see the example [Cascading filters for Manager and Assignment Group](create-select-filter-workspace.md#example_pnj_s4m_4xb).
+    When you set the filter to follow another filter, the choices available in the following filter are limited by the choices made in the followed filter. For more information, see the example [Cascading filters for Manager and Assignment Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-select-filter-workspace.md).
 
     Conditions:
 
@@ -101,8 +102,8 @@ A Multiple select filter lets users select multiple values of a field or breakdo
     -   The filter to be followed must filter data on the same table as the filter source of the following filter.
     **Note:**
 
-    -   Some filters have a many-to-many relationship, where values on both filters can match multiple values on the other filter. One such filter can follow another only through a connecting table. Only admins can set up these cascading filters. For more information, see [Set a filter to follow another filter in a many-to-many relationship](set-filter-to-follow-filter.md).
-    -   Two filters can follow each other, but there are additional requirements. For more information, see [Conditions for two filters to follow each other](../concept/filters-follow-each-other.md).
+    -   Some filters have a many-to-many relationship, where values on both filters can match multiple values on the other filter. One such filter can follow another only through a connecting table. Only admins can set up these cascading filters. For more information, see [Set a filter to follow another filter in a many-to-many relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/set-filter-to-follow-filter.md).
+    -   Two filters can follow each other, but there are additional requirements. For more information, see [Conditions for two filters to follow each other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filters-follow-each-other.md).
 9.  Select the **Sort direction**.
 
     If you select **Ascending**, the lowest filtered values are shown first. If you select **Descending**, the highest values are shown first. The user can change this value.
@@ -129,21 +130,21 @@ In this example, you want your users to filter incidents by manager or by assign
 
     1.  First, you create a Single select filter labeled Manager.
 
-        ![New single select filter with Manager label.](../image/filter-ex-inc-ass-man-label.png)
+        \[Omitted image "filter-ex-inc-ass-man-label.png"\] Alt text: New single select filter with Manager label.
 
     2.  You select the User \[sys\_user\] table as the data source. The Manager field is in that table.
 
-        ![User table selected as the filter source for the Manager filter.](../image/filter-ex-inc-ass-man-source.png)
+        \[Omitted image "filter-ex-inc-ass-man-source.png"\] Alt text: User table selected as the filter source for the Manager filter.
 
     3.  Because you want to apply this filter to a data visualization of Incident table data, you edit the **Data to filter** field to point to the Incident table and the dotwalked reference field Assignment group.Manager.
 
-        ![The dotwalked field Incident.Assignment Group.Manager selected as data to filter.](../image/filter-inc-ass-man-data-2-filter-1.png)
+        \[Omitted image "filter-inc-ass-man-data-2-filter-1.png"\] Alt text: The dotwalked field Incident.Assignment Group.Manager selected as data to filter.
 
     4.  Still under **Data to filter**, you select **Add+** and add the Manager field on the Group \[sys\_user\_group\] table. You will need this field later when you set up a cascading filter.
 
-        ![The Manager field on the Group table selected as a second set of data to filter.](../image/filter-inc-ass-man-data-2-filter-2.png)
+        \[Omitted image "filter-inc-ass-man-data-2-filter-2.png"\] Alt text: The Manager field on the Group table selected as a second set of data to filter.
 
-    ![Completed filter on the User table data source filtering the dot walked incident - assignment group - manager field.](../image/filter-ex-inc-ass-man.png "Completed configuration for the Manager filter")
+    \[Omitted image "filter-ex-inc-ass-man.png"\] Alt text: Completed filter on the User table data source filtering the dot walked incident - assignment group - manager field.
 
 3.  You create a filter to filter incident data by assignment group.
 
@@ -151,13 +152,13 @@ In this example, you want your users to filter incidents by manager or by assign
     2.  Then you select the Assignment Group field of the Incident \[incident\] table as the filter source.
     Because Assignment Group is a reference field that refers to the Group \[sys\_user\_group\] table, the filter source resets automatically to the Group table. The data to filter remains Incident.Assignment Group.
 
-    ![Filter with the Group table as filter source that filters the Assignment Group field on the Incident table.](../image/paw-group-filter.png)
+    \[Omitted image "paw-group-filter.png"\] Alt text: Filter with the Group table as filter source that filters the Assignment Group field on the Incident table.
 
 4.  Scroll down the Group filter's configuration panel to **Follow other filters**.
 
 5.  Under **Directly connected filters**, you select **Follow Manager**.
 
-    ![Other Filters to Follow section of the configuration panel for the Group filter, with a toggle to follow the Manager filter.](../image/paw-follow-filter.png)
+    \[Omitted image "paw-follow-filter.png"\] Alt text: Other Filters to Follow section of the configuration panel for the Group filter, with a toggle to follow the Manager filter.
 
     This choice appears because you configured the Manager filter to filter data on the Group table and not only on the Incident table. Remember that to have a cascading filter, the filter that will be followed \(in this case Manager\) must filter data on the same table as the filter that does the following \(in this case Group, on the table sys\_user\_group\).
 
@@ -165,18 +166,18 @@ In this example, you want your users to filter incidents by manager or by assign
 
 Later, a dashboard viewer selects Beth Anglin in the Manager filter. Then, when selecting assignment groups in the Group filter, only those groups with Beth Anglin as the manager are available.
 
-![Dashboard filtered by Beth Anglin as manager, showing only those assignment groups they manage as available to filter by.](../image/paw-cascading-filters.png)
+\[Omitted image "paw-cascading-filters.png"\] Alt text: Dashboard filtered by Beth Anglin as manager, showing only those assignment groups they manage as available to filter by.
 
 ## What to do next
 
-If you have the required roles, add the filter to the filter library. You can also reconfigure, delete, or duplicate the filter. For more information, see [Edit a Platform Analytics filter on a dashboard](edit-filters-configurable-workspaces.md).
+If you have the required roles, add the filter to the filter library. You can also reconfigure, delete, or duplicate the filter. For more information, see [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md).
 
 **Related topics**  
 
 
-[Applying filters to Process Mining maps](../concept/applying-filters-to-process-optimization-maps.md)
+[Applying filters to Process Mining maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/applying-filters-to-process-optimization-maps.md)
 
-[Edit a Platform Analytics filter on a dashboard](edit-filters-configurable-workspaces.md)
+[Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-filters-configurable-workspaces.md)
 
-[Configure a data visualization to follow filters or not](configure-dv-follow-filters-or-not.md)
+[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-dv-follow-filters-or-not.md)
 

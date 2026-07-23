@@ -2,6 +2,7 @@
 title: Managing agent calendar
 description: Customer service agents and field service technicians can use the agent calendar to see work schedules and assignments and also add personal events such as meetings or appointments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-calendar.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,7 +23,7 @@ The agent calendar administrator has access to the Agent Schedule menu in the ap
 -   **Event Configuration**: create a configuration for each type of event or task displayed on the agent calendar.
 -   **Work Schedule**: create one or more work schedules for each calendar user.
 -   **Agent Personal Events**: create personal schedules for each agent and add events to those schedules.
--   **Schedule**: create or modify schedules. For more information, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md).
+-   **Schedule**: create or modify schedules. For more information, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseSchedules.md).
 
 ## Viewing the calendar
 
@@ -33,7 +34,7 @@ Customer service agents and field service technicians with the agent\_schedule\_
 
 **Note:** The agent calendar is supported in the mobile application and the mobile web.
 
-![Calendar displaying an agent's schedule and daily assignments including work hours, tasks, personal meetings, and appointments.](../image/AgentCalendar.png "Agent Calendar")
+\[Omitted image "AgentCalendar.png"\] Alt text: Calendar displaying an agent's schedule and daily assignments including work hours, tasks, personal meetings, and appointments.
 
 The calendar can display a single day, a week, or a month. Buttons in the calendar header allow you to switch views as well as go backward or forward in time. An agent's scheduled work hours are highlighted in gray and the current day is highlighted in blue. The agent calendar displays work or tasks assigned to the agent as well as personal events. Each type of event is displayed on the calendar using a different color.
 
@@ -137,7 +138,7 @@ Allows customer service agents and field service technicians to access and updat
 </table>**Related topics**  
 
 
-[Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md)
+[Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UseSchedules.md)
 
-[Configuring an agent calendar](configure-agent-calendar.md)
+[Configuring an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-agent-calendar.md)
 

@@ -16,7 +16,7 @@ The Alumni home page serves as a central hub for former employees to update thei
 
 **Note:** To be able to login and access all the alumni features, you must be a user in the Alumni table \(sn\_asc\_user\) and not in the User table \(sys\_user\).
 
-![Alumni homepage](../image/alumni-homepage.png)
+\[Omitted image "alumni-homepage.png"\] Alt text: Alumni homepage
 
 <table id="table_my2_srz_3hc"><thead><tr><th>
 
@@ -75,7 +75,7 @@ Top services available for you. The alumni services are:-   Employment Verificat
 
 </td><td>
 
-Recommended job opportunities​ for you. For more information on job opportunities, see [Alumni job opportunities](alumni-job-opportunities.md).
+Recommended job opportunities​ for you. For more information on job opportunities, see [Alumni job opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/alumni-job-opportunities.md).
 
 </td></tr><tr><td>
 
@@ -126,9 +126,9 @@ Your active items.
 Quick links and latest videos.
 
 </td></tr></tbody>
-</table>The Alumni home page uses some of the widgets from **Content Delivery**. For more information, see [Content Publishing](../../employee-center/concept/ec-publish-content.md).
+</table>The Alumni home page uses some of the widgets from **Content Delivery**. For more information, see [Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md).
 
-For more information about the service portal, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md).
+For more information about the service portal, see [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ServicePortal.md).
 
-For more information on the Employee Center, see [Employee Center](../../employee-center/concept/employee-center-landing-page.md).
+For more information on the Employee Center, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
 

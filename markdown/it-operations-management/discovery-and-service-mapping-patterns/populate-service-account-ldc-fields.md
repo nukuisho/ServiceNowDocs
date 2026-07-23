@@ -2,6 +2,7 @@
 title: Enable direct field population for query performance
 description: Populate Service Account, Logical Datacenter, and Virtual Machine Object fields in configuration item \(CI\) tables to improve query performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/populate-service-account-ldc-fields.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -37,12 +38,12 @@ Role required: discovery\_admin
     -   Select **Update** to enable the job to run on its configured schedule.
     -   Select **Execute Now** to run the batch job immediately.
 
-**Parent Topic:**[Improved query performance with direct field population in CI tables](../concept/query-service-account-ldc-fields.md)
+**Parent Topic:**[Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)
 
 **Related topics**  
 
 
-[Improved query performance with direct field population in CI tables](../concept/query-service-account-ldc-fields.md)
+[Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)
 
-[Available cloud discovery patterns](../concept/available-patterns-cloud.md)
+[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 

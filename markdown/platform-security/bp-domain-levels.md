@@ -2,9 +2,10 @@
 title: Domain separation levels of support
 description: Choose from three categories for domain separation of an application for your customers' organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/bp-domain-levels.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
 breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
@@ -17,7 +18,7 @@ Applications that support domain separation may support the separation of data a
 
 ## Incremental ServiceNow support levels
 
-![Domain separation support levels](../image/ds-support-levels.png)
+\[Omitted image "ds-support-levels.png"\] Alt text: Domain separation support levels
 
 <table id="table_ucy_nd2_rhb"><thead><tr><th>
 
@@ -107,7 +108,7 @@ In some cases, a platform feature or application may support service provider us
  Use case: Before the New York release, Service Catalog had no domain support but the instance owners could configure separate catalogs and items for each tenant in a domain-separated instance by using user criteria. The result was that each tenant could use Service Catalog at a Standard level.
 
 </td></tr></tbody>
-</table>To view all applications listed by their support level see [Application support for domain separation](domain-separated-apps.md).
+</table>To view all applications listed by their support level see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
 ## Summary
 
@@ -115,58 +116,58 @@ Domain separation is a framework that you must use to make your applications awa
 
 Consider the domain framework capabilities, your applications' business use cases, what the personas are, and how they use the application before you can use the framework to make your application supportable.
 
-**Parent Topic:**[Domain separation recommended practices for service providers](bp-domain-sep-recommended.md)
+**Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 
 **Related topics**  
 
 
-[Domain separation explained](../concept/bp-what-is-domain-separation.md)
+[Domain separation explained]()
 
-[Domain separation hierarchies](bp-domain-sep-hierarchies.md)
+[Domain separation hierarchies]()
 
-[Context and domain separation](../concept/bp-domain-sep-context.md)
+[Context and domain separation]()
 
-[Segregating and securing data with domain separation](bp-segregate-secure.md)
+[Segregating and securing data with domain separation]()
 
-[Alternatives to domain separation](bp-domain-separation-alternatives.md)
+[Alternatives to domain separation]()
 
-[Evaluating the need for domain separation](bp-evaluation-dom-sep.md)
+[Evaluating the need for domain separation]()
 
-[Benefits of domain separation](bp-advantages-dom-sep.md)
+[Benefits of domain separation]()
 
-[How a database query works with domain separation](../concept/bp-db-query-with-ds.md)
+[How a database query works with domain separation]()
 
-[Service provider reference architecture](bp-sp-reference-arch-ds.md)
+[Service provider reference architecture]()
 
-[Domain separation terms](bp-terms-conditions.md)
+[Domain separation terms]()
 
-[Domain-separate a custom table](bp-ds-custom-table.md)
+[Domain-separate a custom table]()
 
-[Customizing domain properties and themes](../concept/bp-domain-prop-themes.md)
+[Customizing domain properties and themes]()
 
-[Managing domain separation for specific uses](../concept/bp-emails-catalog-users.md)
+[Managing domain separation for specific uses]()
 
-[Configuring domain separation with the domain picker](../concept/bp-domain-picker-config-process.md)
+[Configuring domain separation with the domain picker]()
 
-[Domain separation performance considerations](../concept/bp-performance-considerations.md)
+[Domain separation performance considerations]()
 
-[Setting up domain hierarchies](../concept/bp-domain-hierarchy.md)
+[Setting up domain hierarchies]()
 
-[Checking domain logs for errors and warnings](../concept/bp-domain-logs.md)
+[Checking domain logs for errors and warnings]()
 
-[Importance of the Default domain](../concept/bp-default-domain.md)
+[Importance of the Default domain]()
 
-[Contains queries and domain access](../concept/bp-contains-domain-visibility.md)
+[Contains queries and domain access]()
 
-[Domain paths query method](../concept/bp-domain-query-method.md)
+[Domain paths query method]()
 
-[Slow queries and SQL debugging](../concept/bp-debug-sql.md)
+[Slow queries and SQL debugging]()
 
-[Before Query business rules](../concept/bp-before-query-business-rules.md)
+[Before Query business rules]()
 
-[Avoiding domain path in scripts](../concept/bp-no-domain-path-in-scripts.md)
+[Avoiding domain path in scripts]()
 
-[Domain assignments](bp-domain-assignment.md)
+[Domain assignments]()
 
-[Domain separation and the Customer Service Management \(CSM\) plugin](../concept/bp-ds-and-csm.md)
+[Domain separation and the Customer Service Management \(CSM\) plugin]()
 

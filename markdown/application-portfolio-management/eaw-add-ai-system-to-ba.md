@@ -2,10 +2,11 @@
 title: Add an existing AI system to a business application
 description: Associate an existing AI Control Tower AI system with a business application from the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-add-ai-system-to-ba.html
 release: australia
 topic_type: task
 last_updated: "2026-04-16"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [AI system, business application, associate, AI Control Tower, enterprise architecture workspace, portfolio management, governance]
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -16,6 +17,8 @@ Associate an existing AI Control Tower AI system with a business application fro
 
 ## Before you begin
 
+\[Omitted video\] Description: Add an existing AI system to a business application
+
 Role required:
 
 -   To add an existing AI system to a business application: sn\_apm.apm\_user
@@ -25,15 +28,15 @@ Role required:
 
 This task adds an existing AI system from AI Control Tower to a business application record.
 
-You can also add a business application to a new AI System. For information, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-system-form.md).
+You can also add a business application to a new AI System. For information, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-ai-system-form.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Portfolio List view by selecting the Portfolio icon \(![Portfolio icon](../../image/portfolio-icon.png)\).
+2.  Open the Portfolio List view by selecting the Portfolio icon \(\[Omitted image "portfolio-icon.png"\] Alt text: Portfolio icon\).
 
-3.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to **Application Portfolio**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Application Portfolio**.
 
 4.  Select **Business Applications**.
 
@@ -57,17 +60,17 @@ You can also add a business application to a new AI System. For information, see
 
     The AI system appears in the **AI systems** tab.
 
-    ![AI systems tab highlighted in the business applications related list.](../../image/eaw-image/ai-system-ba.png)
+    \[Omitted image "ai-system-ba.png"\] Alt text: AI systems tab highlighted in the business applications related list.
 
     The association also appears under **Workspaces** &gt; **AI Control Tower** &gt; **AI Assets** &gt; **AI systems** &gt; **Select an AI system** &gt; **Details** &gt; **Business applications**.
 
 
-**Parent Topic:**[Working with an application portfolio](../../concept/eaw-concept/eaw-work-with-application-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 
 
-[AI Control Tower integration with Enterprise Architecture](../../concept/eaw-concept/eaw-aict.md)
+[AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md)
 
-[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-control-tower-home-page.md)
+[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-home-page.md)
 

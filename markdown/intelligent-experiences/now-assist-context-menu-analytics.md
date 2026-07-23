@@ -2,9 +2,10 @@
 title: Now Assist context menu analytics
 description: Monitor the usage and performance of the Now Assist context menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-context-menu-analytics.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using Now Assist Analytics, Analyzing Now Assist performance, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
 ---
@@ -15,9 +16,9 @@ Monitor the usage and performance of the Now Assist context menu.
 
 The Now Assist context menu dashboard helps admins to evaluate the effectiveness of context menu actions in assisting agents with summarizing, creating, and editing emails and chat replies.
 
-![Now Assist context menu dashboard page.](../image/naa-nacm.png "Now Assist context menu dashboard page")
+\[Omitted image "naa-nacm.png"\] Alt text: Now Assist context menu dashboard page.
 
-The indicators on the Now Assist context menu dashboard page provide the following insights. See [Now Assist Analytics dashboard indicator details](now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
+The indicators on the Now Assist context menu dashboard page provide the following insights. See [Now Assist Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
 
 -   Count and distribution of context menu actions in a date range. This indicator reveals the scale of usage, and the most and least used actions.
 -   Acceptance and feedback on context menu actions. This indicator reveals actions that were accepted or rejected by the users with a positive or negative feedback.
@@ -29,7 +30,7 @@ The indicators on the Now Assist context menu dashboard page provide the followi
 
     This area of the dashboard shows the total number of Now Assist context menu actions used in the selected date range.
 
-    ![Usage in this period indicator.](../image/naa-nacm-usage.png "Usage in this period indicator")
+    \[Omitted image "naa-nacm-usage.png"\] Alt text: Usage in this period indicator.
 
 -   **Acceptance distribution**
 
@@ -37,19 +38,19 @@ The indicators on the Now Assist context menu dashboard page provide the followi
 
     -   Accepted: The user has inserted the context menu response into their workspace.
     -   Not Accepted: The user has closed the window or dialog box containing the context menu response.
-    ![Acceptance distribution indicator.](../image/naa-nacm-acceptance-distribution.png "Acceptance distribution indicator")
+    \[Omitted image "naa-nacm-acceptance-distribution.png"\] Alt text: Acceptance distribution indicator.
 
 -   **Usage trend by skill**
 
     This area of the dashboard shows the usage trend of Now Assist context menu actions in the selected date range.
 
-    ![Usage trend by skill indicator.](../image/naa-nacm-usage-trend-by-skills.png "Usage trend by skill indicator")
+    \[Omitted image "naa-nacm-usage-trend-by-skills.png"\] Alt text: Usage trend by skill indicator.
 
 -   **Capability distribution**
 
     This area of the dashboard shows the usage distribution of various Now Assist context menu actions in the selected date range.
 
-    ![Capability distribution indicator.](../image/naa-nacm-capability-distribution.png "Capability distribution indicator")
+    \[Omitted image "naa-nacm-capability-distribution.png"\] Alt text: Capability distribution indicator.
 
 -   **Responses by feedback**
 
@@ -57,8 +58,8 @@ The indicators on the Now Assist context menu dashboard page provide the followi
 
     -   Accepted: The user gave a thumbs up on the context menu response.
     -   Rejected: The user gave a thumbs down on the context menu response.
-    ![Responses by feedback indicator.](../image/naa-nacm-responses-by-feedback.png "Responses by feedback indicator")
+    \[Omitted image "naa-nacm-responses-by-feedback.png"\] Alt text: Responses by feedback indicator.
 
 
-**Parent Topic:**[Using Now Assist Analytics](using-now-assist-analytics.md)
+**Parent Topic:**[Using Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-analytics.md)
 

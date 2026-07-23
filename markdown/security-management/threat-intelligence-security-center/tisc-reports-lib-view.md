@@ -2,13 +2,14 @@
 title: Working with Reports in TISC
 description: The Reports module in the Threat Intelligence Library section enables you to create, manage, and publish reports that use any intelligence available in the Threat Intelligence Library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-reports-lib-view.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+reading_time_minutes: 5
+breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Working with Reports in TISC
@@ -25,7 +26,7 @@ Case Reports contain information specific to an individual case. Using the case 
 
 Access to the Case Reports is strictly controlled. Only users or groups with permission to access the case can view or interact with its reports. Without the appropriate permissions, the report and its contents are not accessible.
 
-Case Reports follow the same structure and capabilities as the existing CTI case reporting. For more information, see [About Report Templates in TISC](tisc-report-templates.md). These case reports appear in **All Reports** and **Case Reports** views of the threat intelligence library **Reports** module providing a structured and secure result for case level investigations.
+Case Reports follow the same structure and capabilities as the existing CTI case reporting. For more information, see [Configure report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-report-templates.md). These case reports appear in **All Reports** and **Case Reports** views of the threat intelligence library **Reports** module providing a structured and secure result for case level investigations.
 
 ## Intelligence Reports
 
@@ -129,43 +130,47 @@ By selecting this option, you can choose any individual from the list of system 
 NA
 
 </td></tr></tbody>
-</table>![Record selection using slash command](../image/tisc-report-slash-cmd.png "Record selection using Slash Command")
+</table>\[Omitted image "tisc-report-slash-cmd.png"\] Alt text: Record selection using slash command
 
 Reports include pre-defined templates, tables offering a comprehensive view of relevant intelligence.
 
 Intelligence Reports appear in the **All Reports** and **Intelligence Reports** views of the threat intelligence library **Reports** module.
 
--   **[View All Reports](tisc-reports.md)**  
+-   **[View All Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports.md)**  
 Use this section to view all the list of reports.
--   **[View Case Reports](../task/tisc-case-reports.md)**  
+-   **[View Case Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-case-reports.md)**  
 View Case Reports.
--   **[View Intelligence Reports](../task/tisc-view-intel-reports.md)**  
+-   **[Create Case Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-case-report.md)**  
+Create a case report from the **Reports** module in Threat Intel Library.
+-   **[View Intelligence Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-view-intel-reports.md)**  
 View intelligence reports.
--   **[View my reports](../task/tisc-view-my-reports.md)**  
+-   **[Create an intelligence report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-intelligence-report.md)**  
+Create an intelligence report from the **Reports** module in the Threat Intelligence Library by using a published intelligence template and populating it with intelligence from library lists and slash commands, independent of a case.
+-   **[View my reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-view-my-reports.md)**  
 View the reports that you created.
 
-**Parent Topic:**[TISC Library Repository](tisc-ioc.md)
+**Parent Topic:**[TISC Library Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-ioc.md)
 
 **Related topics**  
 
 
-[Observables](observables.md)
+[Observables]()
 
-[Indicators](indicator.md)
+[Indicators]()
 
-[Threat Entities](tisc-threat-entities.md)
+[Threat Entities]()
 
-[Other Objects](tisc-other-objects.md)
+[Other Objects]()
 
-[Vulnerability Artifacts](vulnerability.md)
+[Vulnerability Artifacts]()
 
-[View RSS Feeds](../task/define-rss-feeds.md)
+[View RSS Feeds]()
 
-[MITRE-ATT&amp;CK Repository](tisc-mitre-att-ck-framework-overview.md)
+[MITRE-ATT&amp;CK Repository]()
 
-[Relationships Objects](relationship-objects.md)
+[Relationships Objects]()
 
-[Potential Relationships](potential-relationships.md)
+[Potential Relationships]()
 
-[Vulnerability relationship mapping](tisc-vul-relationship-map.md)
+[Vulnerability relationship mapping]()
 

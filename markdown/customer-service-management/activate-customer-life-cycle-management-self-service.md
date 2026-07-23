@@ -2,9 +2,10 @@
 title: Activate Customer Life Cycle Management Self-Service
 description: If you have the admin role, you can install the Customer Life Cycle Management Self Service plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-customer-life-cycle-management-self-service.html
 release: australia
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -27,7 +28,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -43,7 +44,7 @@ Role required: admin
 **Related topics**  
 
 
-[View product information from Business Portal](view-product-info-business-portal.md)
+[View product information from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-info-business-portal.md)
 
-[View Product Inventory information on Business Portal](view-product-inventory-information-on-business-portal.md)
+[View Product Inventory information on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-product-inventory-information-on-business-portal.md)
 

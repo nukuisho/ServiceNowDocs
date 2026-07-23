@@ -2,6 +2,7 @@
 title: Survey categories
 description: Survey categories provide a way to group questions of a similar theme for a given survey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyCategory.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,27 +21,27 @@ For simple surveys, one category is usually enough. Consider creating additional
 -   Separate groups of questions into collapsible sections by category on the survey questionnaire.
 -   Report on category scores, which are calculated based on responses for all questions within each category.
 
--   **[Create a category in the survey designer](../task/t_CreateCatInSurveyDesigr.md)**  
+-   **[Create a category in the survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCatInSurveyDesigr.md)**  
 A category represents a theme for evaluating a specific element of the survey topic and contains questions pertaining to that theme.
--   **[Create a survey category in a survey](../task/t_CreateASurveyCategory.md)**  
+-   **[Create a survey category in a survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateASurveyCategory.md)**  
 You can modify an existing survey to add one or more survey categories.
 
-**Parent Topic:**[Survey designer](c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
 
 **Related topics**  
 
 
-[Survey designer elements](c_SurveyDesignerElements.md)
+[Survey designer elements]()
 
-[Configure a survey in the survey designer](../task/t_ConfigSurveyInSurveyDesgnr.md)
+[Configure a survey in the survey designer]()
 
-[Create a question in the survey designer](../task/t_CreateQuestSurveyDesigr.md)
+[Create a question in the survey designer]()
 
-[Survey question data types](../reference/r_SurveyQuestionDataTypes.md)
+[Survey question data types]()
 
-[Create custom metric type](../task/create-custom-templates-questions.md)
+[Create custom metric type]()
 
-[Edit a survey in the survey designer](../task/t_EditASurveyInTheSurveyDesigner.md)
+[Edit a survey in the survey designer]()
 
-[Configure category weights for a survey](../task/t_ConfigCatWeightsForSurvey.md)
+[Configure category weights for a survey]()
 

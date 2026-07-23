@@ -2,6 +2,7 @@
 title: Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts
 description: As a contract configurator, add clause and clause variations to a contract using the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-addin-add-clauses.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -19,13 +20,13 @@ As a contract configurator, add clause and clause variations to a contract using
 
 The following video walks you through the process of mapping clause and clause variations using Microsoft Word add-in for ServiceNow Contracts.
 
-The following video walks you through the process of mapping clause and clause variations using Microsoft Word add-in for ServiceNow Contracts. 
+\[Omitted video\] Description: The following video walks you through the process of mapping clause and clause variations using Microsoft Word add-in for ServiceNow Contracts.
 
 ## Before you begin
 
-The Microsoft Word add-in for ServiceNow Contracts must have been configured. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](cncore-config-word-addin.md).
+The Microsoft Word add-in for ServiceNow Contracts must have been configured. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
 
-An active contract template in the Draft or Editing state must exist. For more information, see [Create a contract template to contain content controls](cncore-create-ct-word-addin.md).
+An active contract template in the Draft or Editing state must exist. For more information, see [Create a contract template to contain content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.md).
 
 Role required: sn\_cm\_core.contract\_config and canvas\_user
 
@@ -37,7 +38,7 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 3.  In the login screen, enter the credentials of the ServiceNow instance from which you downloaded the manifest file.
 
-    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](cncore-config-word-addin.md)
+    For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-word-addin.md)
 
 4.  In the **Templates** tab, select the contract template for which you want to add or modify clauses.
 
@@ -45,25 +46,25 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
     A list of active clauses associated with the table selected in the contract template is displayed.
 
-6.  On the Microsoft Word Home ribbon, select the Show/Hide formatting marks icon \(![Show/Hide formatting marks icon](../image/lsd-word-formatting-icon.png)\) to see the formatting symbols.
+6.  On the Microsoft Word Home ribbon, select the Show/Hide formatting marks icon \(\[Omitted image "lsd-word-formatting-icon.png"\] Alt text: Show/Hide formatting marks icon\) to see the formatting symbols.
 
-7.  In the Microsoft Word document, select the content to be tagged along with the paragraph ending symbol \(![Paragraph ending symbol](../image/lsd-word-formatting-icon.png)\).
+7.  In the Microsoft Word document, select the content to be tagged along with the paragraph ending symbol \(\[Omitted image "lsd-word-formatting-icon.png"\] Alt text: Paragraph ending symbol\).
 
 8.  Map the content to the clauses by either using an existing clause variation, creating a clause, or creating clause variation.
 
     A clause cannot be mapped to more than one piece of content.
 
-    ![Map clauses in ServiceNow Contracts add-in](../image/cmpro-waddin-use-clause.png "Clause mapping")
+    \[Omitted image "cmpro-waddin-use-clause.png"\] Alt text: Map clauses in ServiceNow Contracts add-in
 
-<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d144870e247">
+<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d147302e247">
 
 Methods for content and clause mapping
 
-</th><th align="left" id="d144870e250">
+</th><th align="left" id="d147302e250">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d144870e256">
+</th></tr></thead><tbody><tr><td id="d147302e256">
 
 **Use the clause as it is and do not update any of the existing clauses or clause variation**
 
@@ -71,13 +72,13 @@ Steps
 
 In the **Clauses** tab, select **Use this clause** for the clause that you want to use.**Note:** The imported clause is classified as No Change in the ServiceNow instance.
 
-</td></tr><tr><td id="d144870e276">
+</td></tr><tr><td id="d147302e276">
 
 **Create a clause and do not create any clause variation**
 
 </td><td>
 
-1.  In the **Clauses** tab, select the Create a new clause icon \(![Create new clause icon](../image/lsd-plus-symbol-addin.png)\).
+1.  In the **Clauses** tab, select the Create a new clause icon \(\[Omitted image "lsd-plus-symbol-addin.png"\] Alt text: Create new clause icon\).
 2.  In the New clause form, fill in the fields.
     -   **Name** - Unique name for the clause.
     -   **Contract type** - This field is automatically set to the contract type associated with the contract template.
@@ -94,7 +95,7 @@ In the **Clauses** tab, select **Use this clause** for the clause that you want 
     -   The imported clause is classified as Existing Clause in the ServiceNow instance.
 
 
-</td></tr><tr><td id="d144870e349">
+</td></tr><tr><td id="d147302e349">
 
 **Create a clause variation for an existing clause**
 
@@ -109,20 +110,20 @@ In the **Clauses** tab, select **Create Variation** for the clause that you want
 ## Result
 
 -   The selected content is tagged with the clause.
--   The clause details are synced to the ServiceNow instance. You can access the clause details by logging to the ServiceNow instance and navigating to the **Imported Clauses** related list of the contract template.![Mapped clauses added from ServiceNow Contracts add-in are synced to your instance](../image/cmpro-waddin-view-mapped-cls.png)
+-   The clause details are synced to the ServiceNow instance. You can access the clause details by logging to the ServiceNow instance and navigating to the **Imported Clauses** related list of the contract template.\[Omitted image "cmpro-waddin-view-mapped-cls.png"\] Alt text: Mapped clauses added from ServiceNow Contracts add-in are synced to your instance
 
 ## What to do next
 
-[Complete mapping and upload Microsoft Word document that includes content controls](cncore-upload-doc-addin.md)
+[Complete mapping and upload Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md)
 
-**Parent Topic:**[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](cncore-add-contrl-wrd-addin.md)
+**Parent Topic:**[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
 
 **Related topics**  
 
 
-[Configure metadata for fields, variables, and variables sets in a contract document](cncore-addin-add-metadata.md)
+[Configure metadata for fields, variables, and variables sets in a contract document]()
 
-[Configuring signatories in Contract template using Microsoft Word add-in](../concept/cncore-config-sign-addin.md)
+[Configuring signatories in Contract template using Microsoft Word add-in]()
 
-[Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](cncore-addin-table.md)
+[Map contract tables using the Microsoft Word add-in for ServiceNow Contracts]()
 

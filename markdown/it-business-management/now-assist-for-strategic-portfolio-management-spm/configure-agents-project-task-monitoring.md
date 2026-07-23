@@ -2,6 +2,7 @@
 title: Configure the Monitor project tasks AI agent in AI Agent Studio
 description: Monitor project tasks autonomously by configuring the AI agent in the AI Agent Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-agents-project-task-monitoring.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -17,7 +18,7 @@ Monitor project tasks autonomously by configuring the AI agent in the AI Agent S
 
 ## Before you begin
 
-The Project insights generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](../concept/configuring-na-spm.md).
+The Project insights generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 
 Role required: admin or it\_project\_manager
 
@@ -42,14 +43,14 @@ Role required: admin or it\_project\_manager
 
 4.  Navigate to **Workspaces** &gt; **Project Workspace** and select the project.
 
-    The admin must enable the project insights generation skill for a specific project and set up a cadence for the project insights email. For more information on how to set up an email cadence, see the [Schedule the project insights email](email-project-summary-skill-pw.md).
+    The admin must enable the project insights generation skill for a specific project and set up a cadence for the project insights email. For more information on how to set up an email cadence, see the [Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/email-project-summary-skill-pw.md).
 
 5.  Enable the AI agent for a specific project:
 
-    1.  [Schedule the project insights email](email-project-summary-skill-pw.md).
-    2.  From the planning page, select the more actions icon \(![More actions icon.](../../innovation-management/image/more-options-icon.png)\) and then select **Enable critical task alerts**.
+    1.  [Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/email-project-summary-skill-pw.md).
+    2.  From the planning page, select the more actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: More actions icon.\) and then select **Enable critical task alerts**.
 
-        **Note:** Enable critical task alerts option is only available when the email is scheduled. To disable the AI agent, select the more actions icon \(![More actions icon.](../../innovation-management/image/more-options-icon.png)\) and then select **Disable critical task alerts**.
+        **Note:** Enable critical task alerts option is only available when the email is scheduled. To disable the AI agent, select the more actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: More actions icon.\) and then select **Disable critical task alerts**.
 
 
 ## Result
@@ -63,7 +64,7 @@ The Monitor project tasks agents are enabled for the selected project.
 
 [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md)
 
-[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
 
-[Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](../concept/na-spm-task-monitoring-usecase.md)
+[Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/na-spm-task-monitoring-usecase.md)
 

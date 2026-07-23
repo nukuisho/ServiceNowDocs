@@ -2,6 +2,7 @@
 title: Search for an article in the Now Mobile Information applet
 description: You can search for an article in the Now Mobile Information applet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/search-article-now-mobile.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -19,6 +20,8 @@ You can search for an article in the Now Mobile Information applet.
 
 You can specify user criteria for an article to control which users can read the article. If no user criteria is defined for an article, all users can read the article.
 
+Role required: none
+
 ## Procedure
 
 1.  On the Now Mobile app, tap **Information**.
@@ -34,12 +37,12 @@ You can specify user criteria for an article to control which users can read the
 5.  Tap an article in the search results to view the article content.
 
 
-**Parent Topic:**[Using Now Mobile for Knowledge Management](../concept/mobile-experience-for-km.md)
+**Parent Topic:**[Using Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/mobile-experience-for-km.md)
 
 **Related topics**  
 
 
-[View an article in the Now Mobile Information applet](view-article-now-mobile.md)
+[View an article in the Now Mobile Information applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-article-now-mobile.md)
 
-[Control access at the knowledge article level through user criteria](t_SelectUCArticle.md)
+[Control access at the knowledge article level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUCArticle.md)
 

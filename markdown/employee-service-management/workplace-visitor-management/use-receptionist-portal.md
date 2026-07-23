@@ -2,6 +2,7 @@
 title: Use the receptionist portal
 description: Use the receptionist portal to manage visitor activity in your workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/use-receptionist-portal.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -35,15 +36,15 @@ Role required: sn\_wsd\_visitor.staff
 
 5.  Perform any of the following actions based on your preference.
 
-<table id="choicetable_x42_ksz_n3c"><thead><tr><th align="left" id="d553433e114">
+<table id="choicetable_x42_ksz_n3c"><thead><tr><th align="left" id="d565029e114">
 
 Action
 
-</th><th align="left" id="d553433e117">
+</th><th align="left" id="d565029e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d553433e123">
+</th></tr></thead><tbody><tr><td id="d565029e123">
 
 **View visitor details**
 
@@ -58,9 +59,9 @@ The following details are displayed on the panel:
 -   Pre-check tasks status
 -   Host info like the host's name and email
 -   Visit details like the date, time, location, and purpose
-**Note:** You can set the visibility of the details panel as persistent by selecting the expand details panel icon \(![image.visitor-expand-details-icon]\).
+**Note:** You can set the visibility of the details panel as persistent by selecting the expand details panel icon \(\[Omitted image "visitor-expand-details-icon.png"\] Alt text: Expand details panel icon.\).
 
-</td></tr><tr><td id="d553433e161">
+</td></tr><tr><td id="d565029e161">
 
 **View other visitor states**
 
@@ -74,7 +75,7 @@ The following details are displayed on the panel:
     -   No Show
 
 
-</td></tr><tr><td id="d553433e196">
+</td></tr><tr><td id="d565029e196">
 
 **Select multiple visitors**
 
@@ -82,7 +83,7 @@ The following details are displayed on the panel:
 
 Use the `Command` or `Ctrl` key to select multiple visitors.You can perform actions like check-in, check-out, or print badges for all the selected visitors.
 
-</td></tr><tr><td id="d553433e213">
+</td></tr><tr><td id="d565029e213">
 
 **Complete pre-check tasks**
 
@@ -103,7 +104,7 @@ The First name and Last name are required.
 
 The visitor might have to provide a signature based on the configuration set by the admin.
 
-</td></tr><tr><td id="d553433e258">
+</td></tr><tr><td id="d565029e258">
 
 **Check-in a visitor**
 
@@ -120,7 +121,7 @@ Alternatively, you can drag the visitor card into the checked in visitors column
 
  You can undo a check-in by selecting **Undo Check-In** from the context menu in the details panel.
 
-</td></tr><tr><td id="d553433e292">
+</td></tr><tr><td id="d565029e292">
 
 **Start a break**
 
@@ -130,7 +131,7 @@ Alternatively, you can drag the visitor card into the checked in visitors column
 2.  On the details panel, from the context menu, select **Start break**.
  Visitors who are on break are displayed in the checked-out column.
 
-</td></tr><tr><td id="d553433e316">
+</td></tr><tr><td id="d565029e316">
 
 **End a break**
 
@@ -140,7 +141,7 @@ Alternatively, you can drag the visitor card into the checked in visitors column
 2.  On the details panel, from the context menu, select **End break**.
  Visitors who end their break are moved to the checked-in column.
 
-</td></tr><tr><td id="d553433e340">
+</td></tr><tr><td id="d565029e340">
 
 **Print visitor badges**
 
@@ -154,7 +155,7 @@ A badge with the visitor details is displayed in a new browser tab.
 3.  Print the badge by using your web browser's print options.
 
 
-</td></tr><tr><td id="d553433e366">
+</td></tr><tr><td id="d565029e366">
 
 **Check-out a visitor**
 
@@ -165,7 +166,9 @@ A badge with the visitor details is displayed in a new browser tab.
 
 Alternatively, you can drag the visitor card into the checked out visitors column.
 
-</td></tr><tr><td id="d553433e389">
+ You can undo a check-out by selecting **Undo Check-Out** from the context menu in the details panel.
+
+</td></tr><tr><td id="d565029e395">
 
 **Create a visit**
 
@@ -174,32 +177,32 @@ Alternatively, you can drag the visitor card into the checked out visitors colum
 1.  Select **Create new visit**.
 2.  On the New visit form, fill in the fields.
 
-For a description of the field values, see [New visit form](../reference/new-visit-form.md).
+For a description of the field values, see [New visit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/new-visit-form.md).
 
 3.  Select **Create Visit**.
 4.  Add internal or external visitors.
 
-For more information about adding visitors, see [Adding visitors](../concept/adding-visitors.md#).
+For more information about adding visitors, see [Adding visitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/adding-visitors.md).
 
 5.  Select **Confirm**.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing visitor registrations](../concept/manage-visitor-registrations.md)
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
 
-[Update a visitor registration](update-visitor-registration.md)
+[Update a visitor registration]()
 
-[View visitor registrations](view-visitor-registrations.md)
+[View visitor registrations]()
 
-[View visitor policy confirmations](view-policy-confirmations.md)
+[View visitor policy confirmations]()
 
-[Visitor registration states](../reference/visitor-registration-states.md)
+[Visitor registration states]()
 
-[Anonymize a visitor](anonymize-visitor.md)
+[Anonymize a visitor]()
 
-[Apply visitor management archive policy](apply-visitor-management-archival-rule.md)
+[Apply visitor management archive policy]()
 

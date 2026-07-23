@@ -2,6 +2,7 @@
 title: Unified Security Exposure Management integrations
 description: Unified Security Exposure Management supports multiple third-party integrations to help with vulnerability management, orchestration and remediation. This section provides guidelines for managing and developing integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/integrating-usem.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -75,7 +76,7 @@ Match assets, import third-party vulnerabilities to create vulnerable items.
 
 </td><td>
 
-[Understanding the Tenable Vulnerability Integration](../../secops-integration-vr/tenable/concept/tenableIntegration.md)
+[Understanding the Tenable Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/tenableIntegration.md)
 
 </td><td>
 
@@ -87,7 +88,7 @@ AWS
 
 </td><td>
 
-[AWS Integration for Security Exposure Management](../../security-exposure-management-integrations/concept/aws-integration-for-security-exposure-management-overview.md)
+[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/aws-integration-for-security-exposure-management-overview.md)
 
 </td><td>
 
@@ -123,7 +124,7 @@ Match assets, import third-party vulnerabilities to create vulnerable items.
 
 </td><td>
 
-[Understanding the Rapid7 Vulnerability Integration](../../secops-integration-vr/rapid7/concept/r7-vuln-integration.md)
+[Understanding the Rapid7 Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/r7-vuln-integration.md)
 
 </td><td>
 
@@ -149,7 +150,7 @@ Match assets, import third-party vulnerabilities to create vulnerable items.
 
 </td><td>
 
-[Understanding the Qualys Vulnerability Integration](../../secops-integration-vr/qualys/concept/c_QualysVulnIntegration.md)
+[Understanding the Qualys Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/c_QualysVulnIntegration.md)
 
 </td><td>
 
@@ -197,7 +198,7 @@ Match assets and import endpoint vulnerabilities to create vulnerable items.
 
 </td><td>
 
-[Understanding the Microsoft Threat and Vulnerability Management Vulnerability integration](../../secops-integration-vr/mstvm/concept/mstvm-integration.md)
+[Understanding the Microsoft Threat and Vulnerability Management Vulnerability integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/mstvm-integration.md)
 
 </td><td>
 
@@ -221,7 +222,7 @@ Import vulnerabilities into ServiceNow Operational Technology Vulnerability Resp
 
 </td><td>
 
-[Understanding the Vulnerability Response patch orchestration integration with Microsoft SCCM](../../secops-integration-vr/ms-sccm-patch-orchestration/concept/mspatch-integration.md)
+[Understanding the Vulnerability Response patch orchestration integration with Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/mspatch-integration.md)
 
 </td><td>
 
@@ -367,7 +368,7 @@ Match cloud assets and import third-party vulnerabilities to create vulnerable i
 
 </td><td>
 
-[Understanding the Wiz Vulnerability Response Integration](../../secops-integration-vr/wiz-host-vuln-integration/concept/vr-wiz-exploring-host-cf.md)
+[Understanding the Wiz Vulnerability Response Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md)
 
 </td><td>
 
@@ -617,7 +618,7 @@ Ingest container vulnerabilities from Prisma Cloud Compute \(formerly Twistlock\
 
 </td><td>
 
-[Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute integration](../../secops-integration-vr/prisma/concept/pcc-integration.md)
+[Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/pcc-integration.md)
 
 </td><td>
 
@@ -655,7 +656,7 @@ AWS
 
 </td><td>
 
-[AWS Integration for Security Exposure Management](../../security-exposure-management-integrations/concept/aws-integration-for-security-exposure-management-overview.md)
+[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/aws-integration-for-security-exposure-management-overview.md)
 
 </td><td>
 
@@ -741,7 +742,7 @@ Import all container vulnerabilities from Wiz.
 
 </td><td>
 
-[Exploring the Wiz Container Vulnerability Integration](../../secops-integration-vr/wiz-cvr-container-vuln-integration/concept/wiz-exploring-cvr-vuln-intcf.md)
+[Exploring the Wiz Container Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/wiz-exploring-cvr-vuln-intcf.md)
 
 </td><td>
 
@@ -817,7 +818,7 @@ Provides solution content for vulnerabilities.
 
 </td><td>
 
-[Microsoft Security Response Center Solution Integration](../../secops-integration-vr/msrc/concept/mscr-integration.md)
+[Microsoft Security Response Center Solution Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/mscr-integration.md)
 
 </td><td>
 
@@ -841,7 +842,7 @@ Provides solution content for vulnerabilities.
 
 </td><td>
 
-[Red Hat Solution Integration](../../secops-integration-vr/redhat/concept/redhat-integration.md)
+[Red Hat Solution Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/redhat-integration.md)
 
 </td><td>
 
@@ -865,7 +866,7 @@ Provides solution content for vulnerabilities.
 
 </td><td>
 
-[Rapid7 solution management](../../secops-integration-vr/rapid7/concept/rapid-7-solution-management.md)
+[Rapid7 solution management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/rapid-7-solution-management.md)
 
 </td><td>
 
@@ -913,8 +914,8 @@ Provides solution content for vulnerabilities.
 
 </td><td>
 
--   [Generic framework to ingest data from any solution vendor](../../vulnerability-response/concept/ingest-data-solution-vendors-generic-framework.md)
--   [Setting up vulnerability solution providers](../../vulnerability-response/concept/setup-vulnerability-solution-providers.md)
+-   [Generic framework to ingest data from any solution vendor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/ingest-data-solution-vendors-generic-framework.md)
+-   [Setting up vulnerability solution providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/setup-vulnerability-solution-providers.md)
 
 </td><td>
 
@@ -938,8 +939,8 @@ Provides solution content for vulnerabilities.
 
 </td><td>
 
--   [Generic framework to ingest data from any solution vendor](../../vulnerability-response/concept/ingest-data-solution-vendors-generic-framework.md)
--   [Setting up vulnerability solution providers](../../vulnerability-response/concept/setup-vulnerability-solution-providers.md)
+-   [Generic framework to ingest data from any solution vendor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/ingest-data-solution-vendors-generic-framework.md)
+-   [Setting up vulnerability solution providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/setup-vulnerability-solution-providers.md)
 
 </td><td>
 
@@ -1115,7 +1116,7 @@ Use known exploitedvulnerabilities.
 
 </td><td>
 
-[CISA Known Exploit Vulnerability \(KEV\) Integration](../../secops-integration-vr/CISA/concept/cisa-vuln-integration.md)
+[CISA Known Exploit Vulnerability \(KEV\) Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/cisa-vuln-integration.md)
 
 </td><td>
 
@@ -1139,7 +1140,7 @@ Use the Exploit prediction scoring system to prioritize vulnerabilities.
 
 </td><td>
 
-[Understanding the Exploit Prediction Scoring System \(EPSS\) integration](../../secops-integration-vr/epss/concept/epss-vr-integration-overview.md)
+[Understanding the Exploit Prediction Scoring System \(EPSS\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/epss-vr-integration-overview.md)
 
 </td><td>
 
@@ -1221,7 +1222,7 @@ Ingest the patch details and correlate the patch, solution, and asset details to
 
 </td><td>
 
-[Understanding the Vulnerability Response patch orchestration integration with Microsoft SCCM](../../secops-integration-vr/ms-sccm-patch-orchestration/concept/mspatch-integration.md)
+[Understanding the Vulnerability Response patch orchestration integration with Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/mspatch-integration.md)
 
 </td><td>
 
@@ -1245,7 +1246,7 @@ Ingest the patch details and correlate the patch, solution, and asset details to
 
 </td><td>
 
-[Understanding the HCL BigFix patch orchestration integration with Vulnerability Response](../../secops-integration-vr/bigfix/concept/vr-bigfix-integration.md)
+[Understanding the HCL BigFix patch orchestration integration with Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-bigfix-integration.md)
 
 </td><td>
 
@@ -1297,7 +1298,7 @@ Import test, policies, results.
 
 </td><td>
 
-[Qualys integration with Configuration Compliance](../../secops-integration-cc/qualys/concept/Qualys-cc-Integration.md)
+[Qualys integration with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/Qualys-cc-Integration.md)
 
 </td><td>
 
@@ -1333,7 +1334,7 @@ AWS
 
 </td><td>
 
-[AWS Integration for Security Exposure Management](../../security-exposure-management-integrations/concept/aws-integration-for-security-exposure-management-overview.md)
+[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/aws-integration-for-security-exposure-management-overview.md)
 
 </td><td>
 
@@ -1369,7 +1370,7 @@ Import test, policies, results.
 
 </td><td>
 
-[Understanding the Tenable Vulnerability Integration](../../secops-integration-vr/tenable/concept/tenableIntegration.md)
+[Understanding the Tenable Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/tenableIntegration.md)
 
 </td><td>
 
@@ -1493,7 +1494,7 @@ Import the cloud resource configuration issues from Microsoft Defender for Cloud
 
 </td><td>
 
-[Microsoft Defender for Cloud Integration for Security Operations](../../secops-integration-vr/azure-security-center/concept/cc_asc_overview.md)
+[Microsoft Defender for Cloud Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/cc_asc_overview.md)
 
 </td><td>
 
@@ -1517,7 +1518,7 @@ Import the cloud resource configuration issues from Prisma Cloud \(formerly RedL
 
 </td><td>
 
-[Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud](../../secops-integration-vr/prisma/concept/prisma-cloud-overview.md)
+[Understanding the Vulnerability Response Integration with Palo Alto Prisma Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/prisma-cloud-overview.md)
 
 </td><td>
 
@@ -1541,7 +1542,7 @@ Import the cloud resource configuration issues from Microsoft Defender for Cloud
 
 </td><td>
 
-[Exploring the Wiz Test Results and Issues Integrations with Configuration Compliance](../../secops-integration-cc/wiz-test-results-integration/concept/exploring-wiz-ctest-results-int.md)
+[Exploring the Wiz Test Results and Issues Integrations with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/exploring-wiz-ctest-results-int.md)
 
 </td><td>
 
@@ -1601,7 +1602,7 @@ AWS
 
 </td><td>
 
-[AWS Integration for Security Exposure Management](../../security-exposure-management-integrations/concept/aws-sem-integrations.md)
+[AWS Integration for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/aws-sem-integrations.md)
 
 </td><td>
 
@@ -1641,7 +1642,7 @@ Import test, policies, results, DAST findings, SAST findings and SCA findings.
 
 </td><td>
 
-[Veracode Vulnerability Integration](../../secops-integration-vr/veracode/concept/veracode-vuln-integration.md)
+[Veracode Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/veracode-vuln-integration.md)
 
 </td><td>
 
@@ -1691,7 +1692,7 @@ Import DAST and SAST findings.
 
 </td><td>
 
-[Fortify Vulnerability Integration](../../secops-integration-vr/fortify-on-demand/concept/fortify-vuln-integration.md)
+[Fortify Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/fortify-vuln-integration.md)
 
 </td><td>
 
@@ -1769,7 +1770,7 @@ Code Scanning Secret Scanning Dependabot alerts.
 
 </td><td>
 
-[GitHub Application Vulnerability Integration](../../secops-integration-vr/github-vulnerability/concept/github-vuln-integration.md)
+[GitHub Application Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/github-vuln-integration.md)
 
 </td><td>
 
@@ -1869,7 +1870,7 @@ Application Vulnerability Response
 
 </td><td>
 
-[Invicti Vulnerability Integration](../../secops-integration-vr/invicti/concept/invicti-vuln-integration.md)
+[Invicti Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/invicti-vuln-integration.md)
 
 </td><td>
 
@@ -1893,7 +1894,7 @@ Import SCA findings.
 
 </td><td>
 
-[Vulnerability Response Integration with Black Duck](../../secops-integration-vr/blackduck-integration/concept/vulnerability-response-integration-blackduck-overview.md)
+[Vulnerability Response Integration with Black Duck](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td><td>
 
@@ -2140,7 +2141,7 @@ Create Jira tasks/ issues for Application and Container vulnerabilities. Bi-dire
 
 </td><td>
 
-[Understanding the Atlassian Jira integration with Vulnerability Response](../../secops-integration-vr/jira/concept/jira-vuln-integration.md)
+[Understanding the Atlassian Jira integration with Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/jira-vuln-integration.md)
 
 </td><td>
 
@@ -2149,13 +2150,13 @@ ServiceNow
 </td></tr></tbody>
 </table>## Custom integrations
 
-You can manually create integrations not available in the ServiceNow Store. See [Manually create a vulnerability integration](../../vulnerability-response/concept/c_VulnerabilityIntegrations.md) for more information.
+You can manually create integrations not available in the ServiceNow Store. See [Manually create a vulnerability integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/c_VulnerabilityIntegrations.md) for more information.
 
 ## Configuring and managing integrations
 
 -   You can install, configure, schedule, and launch many integration applications.
--   For integrations supporting multiple deployments, refer to [Create domain-separated imports for an integration](../../vulnerability-response/task/create-domain-separated-imports.md).
--   The Rapid7 Vulnerability Integration application can be installed from Setup Assistant, but its configuration isn’t supported within Setup Assistant. See [Install the Rapid7 Vulnerability Integration](../../secops-integration-vr/rapid7/task/install-and-configure-r7.md) for more information. You can install, configure, schedule, and launch on-demand many of the integration applications from within Setup Assistant.
+-   For integrations supporting multiple deployments, refer to [Create domain-separated imports for an integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/create-domain-separated-imports.md).
+-   The Rapid7 Vulnerability Integration application can be installed from Setup Assistant, but its configuration isn’t supported within Setup Assistant. See [Install the Rapid7 Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/install-and-configure-r7.md) for more information. You can install, configure, schedule, and launch on-demand many of the integration applications from within Setup Assistant.
 
 ## Performance and timeout handling
 
@@ -2166,11 +2167,13 @@ During integration execution, multiple processes are generated, and data is rece
 -   **sn\_sec\_cmn.record\_threshold\_heartbeat**: Defines the number of processed records, after which the heartbeat \(timestamp\) is sent to the import queue entry.
 -   **sn\_sec\_cmn.maximum\_heartbeat\_delay**: Defines the time after which the import queue entry must be timed out.
 
--   **[Review Unified Security Exposure Management integrations](../../security-exposure-management-administration/concept/review-usem-integrations.md)**  
+-   **[Review Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/review-usem-integrations.md)**  
 The integration dashboard provides an overview of the installed third-party applications and the status of the integration runs.
+-   **[Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/armis-early-warning-integration.md)**  
+The Early Warning for Security Exposure Management integration, powered by Armis, enriches the Unified Security Exposure Management \(USEM\) with vulnerability intelligence of imminent exploit, enabling your security team to prioritize and patch vulnerabilities months before threat actors weaponize them.
 
 **Related topics**  
 
 
-[Review Unified Security Exposure Management integrations](../../security-exposure-management-administration/concept/review-usem-integrations.md)
+[Review Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/review-usem-integrations.md)
 

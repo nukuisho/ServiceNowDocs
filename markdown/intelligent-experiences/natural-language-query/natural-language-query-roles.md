@@ -2,6 +2,7 @@
 title: Natural Language Query roles
 description: Natural Language Query \(NLQ\) is installed with these roles.The administrator for Natural Language Query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/natural-language-query-roles.html
 release: australia
 product: Natural Language Query
 classification: natural-language-query
@@ -17,12 +18,12 @@ Natural Language Query \(NLQ\) is installed with these roles.
 
 To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[Natural Language Query References](nlq-references.md)
+**Parent Topic:**[Natural Language Query References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/nlq-references.md)
 
 **Related topics**  
 
 
-[NLQ properties](nlq-properties.md)
+[NLQ properties]()
 
 ## NLQ Admin \[nlq\_admin\]
 
@@ -32,14 +33,14 @@ The administrator for Natural Language Query.
 
 Has full access to the following modules:
 
--   NLQ Cmdb Implicit Relationships. For more information see [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md).
--   [NLQ Query Logs](../task/view-nlq-logs.md)
--   [NLQ Semantic Shortcuts](../task/create-nlq-shortcut.md).
--   [NLQ Synonyms](../task/create-nlq-synonym.md).
+-   NLQ Cmdb Implicit Relationships. For more information see .
+-   [NLQ Query Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/view-nlq-logs.md)
+-   [NLQ Semantic Shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/create-nlq-shortcut.md).
+-   [NLQ Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/create-nlq-synonym.md).
 
 Has read-only access to the following module:
 
-[NLQ Table Guesser Query Logs](../task/view-nlq-table-guesser-logs.md).
+[NLQ Table Guesser Query Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query/view-nlq-table-guesser-logs.md).
 
 ### Contains Roles
 

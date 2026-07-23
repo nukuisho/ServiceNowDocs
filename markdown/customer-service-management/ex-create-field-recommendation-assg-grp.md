@@ -2,9 +2,10 @@
 title: Create a field recommendation for recommending assignment group field value
 description: Create a field recommendation that you can select when configuring a recommended action. This field recommendation suggests an assignment group field value on a case record for a router issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-create-field-recommendation-assg-grp.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 breadcrumb: [Example: Recommend an assignment group for a router issue, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -15,7 +16,7 @@ Create a field recommendation that you can select when configuring a recommended
 
 ## Before you begin
 
-Use the CSM default record page or the CSM Interaction record page to display field recommendations in CSM Configurable Workspace. For setting the CSM default record page or the CSM Interaction record page as the default page, see [Set record page order](config-csm-ws-set-record-page-order.md).
+Use the CSM default record page or the CSM Interaction record page to display field recommendations in CSM Configurable Workspace. For setting the CSM default record page or the CSM Interaction record page as the default page, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 Role required: sn\_nb\_action.next\_best\_action\_author, or admin
 
@@ -62,8 +63,6 @@ Creating a field recommendation involves two main steps:
     2.  In **Field**, select the Assignment group field.
 
     3.  In the **Recommendation message** field, enter `You can assign this issue to` and use the pill-picker to add the recommended value **Field recommendation inputs** &gt; **Assignment group** as part of the message.
-
-        ![Recommendation message displaying the recommended value, specifically the assignment group in this case, as part of the message.](../image/ex-config-recommendation-message.png)
 
         **Note:** If the resource generator returns an empty field value, the recommendation message isn’t displayed.
 

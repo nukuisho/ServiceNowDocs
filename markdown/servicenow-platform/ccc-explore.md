@@ -2,6 +2,7 @@
 title: Exploring ServiceNow Voice
 description: Use ServiceNow Voice to facilitate inbound and outbound telephone calls by integrating your ServiceNow instance with a third-party phone system such as Amazon Connect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/ccc-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,19 +20,19 @@ Use ServiceNow Voice to facilitate inbound and outbound telephone calls by integ
 
     Provide a seamless inbound and outbound voice call experience for your callers and agents using third-party systems. See the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/search?listingtype=allintegrations&q=voice&searchDetail&pagetype=integration) for a full list of integrations.
 
-    ![Integrate third-party phone system](../image/integrate-third-party-phone-app.png "Integrate third-party phone system")
+    \[Omitted image "integrate-third-party-phone-app.png"\] Alt text: Integrate third-party phone system
 
 -   **Display relevant data for an agent at the right time**
 
     Display relevant data in an interaction for an agent to help a customer during a call.
 
-    ![Route calls to agents](../image/route-calls-agent.png "Route calls to agents")
+    \[Omitted image "route-calls-agent.png"\] Alt text: Route calls to agents
 
 -   **Analyze recording and call metrics of interactions**
 
     Within your ServiceNow instance, access recordings, call metrics, and call transcripts of agents to analyze interactions.
 
-    ![Review and analyze call transcripts](../image/review-analyze-call-transcripts.png "Review and analyze call transcripts")
+    \[Omitted image "review-analyze-call-transcripts.png"\] Alt text: Review and analyze call transcripts
 
 
 As an admin, you can:
@@ -52,7 +53,7 @@ As an agent, you can:
 -   Get the context of caller information before accepting a call.
 -   View real-time transcripts of calls while interacting with a customer. For more information about real-time transcripts, see
 -   Collaborate with managers who can analyze your conversations and provide feedback for quality assurance.
--   Manage presence states within the ServiceNow instance. For information about the presence states of an agent, see [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/agent-experience.md).
+-   Manage presence states within the ServiceNow instance. For information about the presence states of an agent, see [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md).
 -   Access and use your softphone directly from within the ServiceNow interface using the OpenFrame integration. For information about OpenFrame, see [OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md).
 
 As a caller, you can:
@@ -70,7 +71,7 @@ When a caller contacts the call center, using the voice or dual-tone multi-frequ
 
 Here is an example workflow.
 
-![Amazon Connect Integration](../image/amazon-connect-integration.png "Amazon Connect Integration")
+\[Omitted image "amazon-connect-integration.png"\] Alt text: Amazon Connect Integration
 
-**Parent Topic:**[ServiceNow Voice](cloud-call-center-overview.md)
+**Parent Topic:**[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-overview.md)
 

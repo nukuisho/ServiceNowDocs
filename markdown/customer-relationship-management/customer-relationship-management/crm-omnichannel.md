@@ -16,7 +16,7 @@ Omnichannel support enables organizations to serve customers across multiple com
 
 Omnichannel integrates customer communications across platforms including email, chat, voice, and messaging applications within a centralized system, ensuring continuity as customers transition between channels. Agents access all interactions with complete context from a single workspace.
 
-![omnichannel diagram that shows the different available channels](../image/crm-omnichannel-diagram.png "CRM omnichannel overview")
+\[Omitted image "crm-omnichannel-diagram.png"\] Alt text: omnichannel diagram that shows the different available channels
 
 Advanced Work Assignment \(AWA\) routes work items across all channels based on agent availability, capacity, and skills. Organizations can configure routing queues independently for each channel, then apply consistent assignment logic across all of them. For example, the same routing system manages chats from the Customer Service Portal, email interactions, WhatsApp messages, and phone calls handled by Contact Center as a Service \(CCaaS\).
 

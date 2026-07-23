@@ -2,6 +2,7 @@
 title: Configuration Compliance states
 description: With Configuration Compliance, you can see a state model to learn what the status of the remediation task is at any given time. The remediation task states control the test result states by precedence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/vuln-config-compl-states.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -29,7 +30,7 @@ Remediation tasks \(RTs\) have many possible states. Automatic transition is ava
 
 The following figure shows how the state of a remediation task transitions from the Open state to the Closed state.
 
-![Configuration Compliance state flow.](../image/CC-State-Flow.png "Configuration Compliance state flow (prior to v15.0)")
+\[Omitted image "CC-State-Flow.png"\] Alt text: Configuration Compliance state flow.
 
 **Note:**
 
@@ -64,7 +65,7 @@ Under Investigation
 
 Triggered by the **Start Investigation** button. From this state, you can:-   **Create a Change Request**
 
-For more information, see [Create a change request in Configuration Compliance](../task/cc-CR-v12-create.md).
+For more information, see [Create a change request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-CR-v12-create.md).
 
 -   **Request exception**
 
@@ -123,11 +124,11 @@ Awaiting Implementation
 
 Triggered by the **Awaiting Implementation** button. From this state you can:-   **Create a Security Incident**
 
-For more information, see [Create a security incident](../../security-incident-response/task/t_ManuallyCreateSecurityIncident.md).
+For more information, see [Create a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
 
 -   **Create a Change Request**
 
-For more information, see [Create a change request in Configuration Compliance](../task/cc-CR-v12-create.md).
+For more information, see [Create a change request in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-CR-v12-create.md).
 
 -   **Resolve**
 
@@ -148,7 +149,7 @@ Resolved
 
 Triggered from the **Resolve** button. From this state you can:-   **Create a Security Incident**
 
-For more information, see [Create a security incident](../../security-incident-response/task/t_ManuallyCreateSecurityIncident.md).
+For more information, see [Create a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md).
 
 -   **Reopen**
 

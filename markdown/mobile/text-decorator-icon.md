@@ -2,6 +2,7 @@
 title: Create text decorator icon
 description: Use a text decorator icon to selectively highlight list elements that need your users attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/text-decorator-icon.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -97,9 +98,9 @@ The style where you define your icon. For a text decorator icon, use `text_decor
 
 This example demonstrates how to apply a text decorator icon to all records on an incident list in the **New** state.
 
-![UI style configuration for a text decorator icon.](../image/text-decor-ui-style.png)
+\[Omitted image "text-decor-ui-style.png"\] Alt text: UI style configuration for a text decorator icon.
 
 This example applies to the **State** element of the **Incident List Screen Item View** UI style. The condition field has been set, so the icon only appears for records in the **New** state. The icon is located on the **Icon** \[sys\_sg\_icon\] table.
 
-![List of incidents displaying an icon for records in the New state.](../image/text-decor-result.png)
+\[Omitted image "text-decor-result.png"\] Alt text: List of incidents displaying an icon for records in the New state.
 

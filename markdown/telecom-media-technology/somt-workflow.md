@@ -2,9 +2,10 @@
 title: Sales CRM for Telecommunications workflow
 description: The Sales CRM for Telecommunications workflow shows the end-to-end process for managing sales orders, from initial prospect identification through order closure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-workflow.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 5
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -13,7 +14,7 @@ breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunicati
 
 The Sales CRM for Telecommunications workflow shows the end-to-end process for managing sales orders, from initial prospect identification through order closure.
 
-![Flowchart showing Sales CRM for Telecommunications workflow stages](../image/mmasset0021736-telecom-workflow-vertical.svg)
+\[Omitted image "mmasset0021736-telecom-workflow-vertical.svg"\] Alt text: Flowchart showing Sales CRM for Telecommunications workflow stages
 
 ## Sales CRM for Telecommunications lifecycle stages
 
@@ -25,9 +26,9 @@ This diagram showcases the following key stages in the lifecycle including lead 
     -   **Configure, price, and quote**: Handles the detailed commercial configuration, pricing, and feasibility validation to ensure the proposed solution can be delivered. Feasibility results determine offer eligibility, compatibility, and pricing. The account is mandatory with a complete structure and hierarchy, and location information for all accounts must be provided. Site-level product configuration occurs at each child account, and global SLAs from the sales agreement apply automatically. The offer is configured with confirmed pricing, and approvals or repricing activities are completed. Quote versions accommodate iterative refinement. Quote confirmation produces a summary document and requires legal signature before proceeding to contract creation.
     -   **Create sales agreement**: Establishes the commercial framework and negotiates terms and conditions that govern all subsequent quotes and the entire customer relationship. Agreement is the reference for future quotes. Customer account is mandatory at the legal level, product catalog is also mandatory. Global level service-agnostic SLAs are negotiated that cascade to all service contracts. Terms and conditions for partner services are also negotiated at this level.
 
-        **Note:** This is applicable if an existing customer wants to create a new quote. In this case, the existing contract is used as a reference and a quote is immediately generated.
+        **Note:** This is applicable if an existing customer wants to create quote. In this case, the existing contract is used as a reference and a quote is immediately generated.
 
-4.  **Contract managementCreate sales contract**: Contracts can be sales contract or service contracts.
+4.  **Contract management / Create sales contract**: Contracts can be sales contract or service contracts.
     -   Sales contract: Following quote confirmation, the sales contract represents the legally binding commercial agreement between a customer and service provider. Quote confirmation is mandatory before proceeding, and accounts with contacts at the child level must be established. The sales contract directly reflects quote line items, capturing the confirmed commercial configuration, pricing, and terms.
     -   Service contract: Represents a post-confirmation contractual agreement that handles non-commercial configuration with entitlements and service level commitments. Entitlements are mandatory, modeled as Product Offering \(PO\) types, and must follow the global SLAs established in the sales agreement. Service contracts are created at the child account or site level based on specific quote Line Item configurations including routing type, access type, and POP redundancy requirements.
 5.  **Order submission**: The order consolidates all commercial and non-commercial configurations into a validated, ready-to-fulfill package. Account information including billing profile is mandatory. Order header and line items directly reflect the quote, maintaining traceability. Commercial modifications require reopening the quote, while non-commercial modifications occur directly in the order. The order is validated before approval.

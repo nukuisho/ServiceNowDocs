@@ -2,6 +2,7 @@
 title: Operational Technology \(OT\) Manager Foundation
 description: Use the Operational Technology \(OT\) Manager Foundation to help streamline processes in the Industrial Workspace related to your OT device data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/now-assist-for-otm-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,17 +20,17 @@ Use the Operational Technology \(OT\) Manager Foundation to help streamline proc
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about OT Manager Foundation](exploring-now-assist-for-otm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/exploring-now-assist-for-otm.md)
 
 </td><td>
 
-[Configure](configuring-na-otm.md)
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-na-otm.md)
 
- [![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the OT Manager Foundation to get started](configuring-na-otm.md)
+ [\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the OT Manager Foundation to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-na-otm.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use generative AI capabilities offered by the OT Manager Foundation](using-now-assist-for-otm.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-now-assist-for-otm.md)
 
 </td></tr><tr><td>
 
@@ -37,9 +38,9 @@ Use the Operational Technology \(OT\) Manager Foundation to help streamline proc
 
 </td><td>
 
-[Use the OTM AI agent collection](now-assist-for-otm-use-cases.md)
+[Use the OTM AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-use-cases.md)
 
- [![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use agentic workflows for the OT Manager Foundation](now-assist-for-otm-use-cases.md)
+ [\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows for the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-for-otm-use-cases.md)
 
 </td><td>
 
@@ -48,9 +49,9 @@ Use the Operational Technology \(OT\) Manager Foundation to help streamline proc
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help

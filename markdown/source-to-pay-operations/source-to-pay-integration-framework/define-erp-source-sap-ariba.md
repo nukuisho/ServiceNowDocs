@@ -2,6 +2,7 @@
 title: Define ERP source configuration for SAP Ariba
 description: ERP source configuration determines the ERP source to which your ERP system connects. Map the integration payload with the SAP Ariba tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-sap-ariba.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -29,7 +30,7 @@ Role required: sn\_fcms\_intg.admin
 
 3.  To edit the ERP source, select **here** from the label **To edit this record click here**.
 
-    1.  Select the list search icon \(![List search icon](../../../common/image/List_SearchIcon.png)\) to look up the required ERP source for SAP Ariba.
+    1.  Select the list search icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: List search icon\) to look up the required ERP source for SAP Ariba.
 
     2.  In the ERP Sources dialog, use the search option to select the ERP Source for SAP Ariba.
 
@@ -39,11 +40,11 @@ Role required: sn\_fcms\_intg.admin
 
     1.  Select **here**.
 
-    2.  Select the list search icon \(![List search icon](../../../common/image/List_SearchIcon.png)\) to look up the required ERP source for SAP Ariba.
+    2.  Select the list search icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: List search icon\) to look up the required ERP source for SAP Ariba.
 
     3.  In the ERP Source dialog, select **New**.
 
-        ![New ERP Source for SAP Ariba](../../source-to-pay-operations/image/sap-ariba-new-config.png "Create an ERP Source for SAP Ariba")
+        \[Omitted image "sap-ariba-new-config.png"\] Alt text: New ERP Source for SAP Ariba
 
     4.  On the form, fill the fields.
 
@@ -61,14 +62,14 @@ Role required: sn\_fcms\_intg.admin
         **Note:** SAP Ariba integration can have multiple ERP sources. The Staging table displays the ERP source column, which helps identify the ERP system associated with the data.
 
 
-**Parent Topic:**[Configure the Source-to-Pay integration with SAP Ariba](../concept/configuring-source-to-pay-sap-ariba-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-ariba-integration.md)
 
 **Related topics**  
 
 
-[ERP source configuration for SAP Ariba](../concept/erp-source-configuration-sap-ariba.md)
+[ERP source configuration for SAP Ariba]()
 
-[Configure integration services for SAP Ariba](../concept/configure-service-maps-sap-ariba.md)
+[Configure integration services for SAP Ariba]()
 
-[Look up primary data in SAP Ariba](../concept/look-up-primary-data-sap-ariba.md)
+[Look up primary data in SAP Ariba]()
 

@@ -2,11 +2,12 @@
 title: Configure an event pull connector
 description: Configure event pull connectors that require a script, connector definition, and connector instance to pull events from external management systems. These connectors automate the data retrieval process, promoting the seamless integration of external events into your system for efficient monitoring and management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configure-an-event-pull-connector.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
@@ -23,7 +24,7 @@ Role required: TSOM Assurance admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation pane, select the Integrations Launchpad icon ![](../images/integrations_launchpad_icon.png).
+2.  From the navigation pane, select the Integrations Launchpad icon \[Omitted image "integrations\_launchpad\_icon.png"\] Alt text:.
 
 3.  Select the **Browse Integrations** tab
 
@@ -43,19 +44,29 @@ Role required: TSOM Assurance admin
 
 11. In the **Credential** field, select the valid credentials to access the event source host.
 
-12. Validate the connectivity of the connector before activating it by selecting **Test Connector**.
+12. In the **Metrics collection schedule \(seconds\)** field, enter the polling interval for metric collection.
 
-13. Select **Update**.
+    **Important:** For a CPU usage \(`devicePerformance`\) connector instance, the **Metrics collection schedule \(seconds\)** field must be set to 1800 or greater \(30 minutes minimum\). The system displays a validation error for lower values. For a Fortinet interface logs connector instance, the **Metrics collection schedule \(seconds\)** field must be set to 600 or less \(10 minutes maximum\). The system displays a validation error for higher values.
 
-14. Verify that the pull connector is configured correctly and events are flowing into the system by returning to the Integrations Launchpad.
+13. Validate the connectivity of the connector before activating it by selecting **Test Connector**.
+
+14. Select **Update**.
+
+15. Verify that the pull connector is configured correctly and events are flowing into the system by returning to the Integrations Launchpad.
 
     The tiles appear under the **Installed Integrations** tab.
 
 
-**Parent Topic:**[Configure Telecom Assurance](../concept/set-up-fault-management.md)
+**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
 
 **Related topics**  
 
 
-[Exploring Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/exploring-metric-intelligence.md)
+[Exploring Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-metric-intelligence.md)
+
+[arista-velocloud-installed-integrations]
+
+[Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
+
+[Fortinet installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/fortinet-installed-integrations.md)
 

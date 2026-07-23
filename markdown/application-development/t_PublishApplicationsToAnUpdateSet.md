@@ -2,6 +2,7 @@
 title: Publish an application to an Update Set
 description: Publishing an application creates an update set containing the current version of all application configuration records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/t\_PublishApplicationsToAnUpdateSet.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ You can use this update set as a backup file for auditing purposes or to transfe
 
 5.  Fill in the fields, as appropriate \(see table\).
 
-    ![Publish to Update Set](../image/PublishToUpdateSet.png)
+    \[Omitted image "PublishToUpdateSet.png"\] Alt text: Publish to Update Set
 
 <table id="table_cr1_2yy_sr"><thead><tr><th>
 
@@ -81,7 +82,7 @@ Select the check box to include a limited number of data records from each table
 
 Using this feature to migrate large quantities of data records between instances can cause performance issues, as it is not intended for this purpose. To migrate data, use an instance-to-instance import. You can adjust the maximum number of data records to include with an application.
 
-See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md).
+See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/c_ImportSetsKeyConcepts.md).
 
  -   If your sample data includes tables with record numbering, the current counter value is also transferred. When the update set is applied on another instance, the counter is set to the larger of the sample data or the target instance counter.
 -   For translated fields, only records in English are transferred.
@@ -99,16 +100,16 @@ See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/au
 8.  Run any fix scripts that are included in the application.
 
 
-**Parent Topic:**[Application sharing](../concept/c_SharingApplications.md)
+**Parent Topic:**[Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md)
 
 **Related topics**  
 
 
-[Retrieve an update set](../../system-update-sets/task/t_RetrieveAnUpdateSet.md)
+[Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md)
 
-[Save an update set as a local XML file](../../system-update-sets/task/t_SaveAnUpdateSetAsAnXMLFile.md#)
+[Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)
 
-[Run fix scripts](t_RunFixScripts.md)
+[Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/t_RunFixScripts.md)
 
-[Delegate development and deployment permissions to personnel](t_AddADeveloper.md)
+[Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/t_AddADeveloper.md)
 

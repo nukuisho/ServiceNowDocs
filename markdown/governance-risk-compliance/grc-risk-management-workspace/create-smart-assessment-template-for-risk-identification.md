@@ -2,6 +2,7 @@
 title: Create a smart assessment template for risk identification
 description: Create a smart assessment template for risk identification using the Smart Assessment Engine application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-smart-assessment-template-for-risk-identification.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -47,7 +48,7 @@ Assessment name
 
 </td><td>
 
-Option to include alternative name for generated assessments. The respondent sees this name rather than the template name.**Note:** The **Assessment name** field is available when you select the add text ![image.sae-add-text] icon.
+Option to include alternative name for generated assessments. The respondent sees this name rather than the template name.**Note:** The **Assessment name** field is available when you select the add text \[Omitted image "sae-add-text.png"\] Alt text: Add text icon. icon.
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ Category that the new assessment template should be a member of. You must select
 
 Template purposes enforce data segregation for templates. A purpose controls which users can view a template. Each assessment template is associated with a purpose. To view a template within a specific purpose, you must have a category role associated with that purpose.
 
-See [Create an assessment template category](../../assessment-engine/task/sae-asmnt-template-category-create.md)**Note:** You can create an assessment only from a published assessment template.
+See [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)**Note:** You can create an assessment only from a published assessment template.
 
 </td></tr><tr><td>
 
@@ -81,10 +82,12 @@ The table records selected to be assessed, otherwise known as the assessment sco
 </table>3.  Select **Create**.
 
 
-**Parent Topic:**[Application risk assessment using Advanced Risk Assessment](../concept/risk-and-apm-better-together.md)
+**Parent Topic:**[Application risk assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-and-apm-better-together.md)
 
 **Related topics**  
 
 
-[Using the template designer](../../assessment-engine/concept/sae-template-designer.md)
+[Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)
+
+[Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
 

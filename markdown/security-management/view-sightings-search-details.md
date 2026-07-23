@@ -2,6 +2,7 @@
 title: View Sightings Search Details
 description: Review the aggregate details of all sighting searches.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/view-sightings-search-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,5 +40,5 @@ Role required: sn\_si.analyst
     |Updated|Date and time of last modification.|
 
 
-**Parent Topic:**[Create sightings search configuration records](../../security-incident-response/task/sightings-search-configurations.md)
+**Parent Topic:**[Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sightings-search-configurations.md)
 

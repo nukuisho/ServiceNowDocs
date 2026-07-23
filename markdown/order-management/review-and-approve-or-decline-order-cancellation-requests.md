@@ -2,10 +2,11 @@
 title: Review and approve order revisions or cancellation requests
 description: Review a customer or service order that has a pending revision or cancellation request so that you can make sure that the order is correct and complete. You can also approve the order and order line item revisions or cancellations requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/review-and-approve-or-decline-order-cancellation-requests.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Inflight order changes, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -21,13 +22,13 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order\_fulfillm
 
 When you approve a revised order, it enables it to continue in its modified state through the rest of the fulfillment process. When you approve a cancellation request, it finalizes the cancellation and prevents the order from continuing through fulfillment processing.
 
-To learn more about how the states of orders change when you approve them, see [Key inflight order change and cancellation request fields](../concept/key-inflight-order-change-cancellation-request-fields.md#).
+To learn more about how the states of orders change when you approve them, see [Key inflight order change and cancellation request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/key-inflight-order-change-cancellation-request-fields.md).
 
 ## Procedure
 
 1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Navigate to **Customer Orders** &gt; **All**.
 
@@ -44,5 +45,12 @@ To learn more about how the states of orders change when you approve them, see [
 
 Orders with unapproved revisions have a Revision in Progress state. When you approve them, their state changes to In Progress. Orders with unapproved cancellation requests have an Assessing the Cancellation state. When you approve them, their order state changes to Cancellation in Progress.
 
-**Parent Topic:**[Managing inflight order changes and cancellation requests](../concept/inflight-order-change-mgt-overview.md)
+**Parent Topic:**[Managing inflight order changes and cancellation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/inflight-order-change-mgt-overview.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-order-management.md)
 

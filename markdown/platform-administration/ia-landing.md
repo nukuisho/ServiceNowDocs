@@ -1,7 +1,8 @@
 ---
-title: Now Assist for Setup
-description: Now Assist for Setup provides a guided experience to install, configure, and deploy ServiceNow products. It automates installation, applies best-practice configurations, tracks progress, and packages changes for production, which reduces complexity, minimizes manual effort, and significantly shortens time to deployment.
+title: Setup Hub
+description: The Setup Hub provides a unified, guided experience to set up, configure, and adopt ServiceNow products. It connects Admin Home, product hubs, and the Configuration Console into a single path from product activation to full configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-landing.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -9,42 +10,44 @@ reading_time_minutes: 1
 breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Now Assist for Setup
+# Setup Hub
 
-Now Assist for Setup provides a guided experience to install, configure, and deploy ServiceNow products. It automates installation, applies best-practice configurations, tracks progress, and packages changes for production, which reduces complexity, minimizes manual effort, and significantly shortens time to deployment.
+The Setup Hub provides a unified, guided experience to set up, configure, and adopt ServiceNow products. It connects Admin Home, product hubs, and the Configuration Console into a single path from product activation to full configuration.
+
+Administrators can manage entitlements, install required components, apply recommended configurations, complete guided setup steps, track progress, and package changes for promotion. The experience reduces manual effort and complexity by streamlining installation and configuration tasks. The Setup Hub is available with or without AI. All setup capabilities—including installation, default configurations, guided steps, and update set packaging are supported without AI, while AI-assisted features, such as agents and conversational experiences, are available when included in the subscription.
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../common/image/icon-explore.png)Learn about Now Assist for Setup](ia-explore.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text:Learn about Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)
 
 </td><td>
 
-[Administer![](../../upgrade-center/image/uc-administer-icon.png)Administering Now Assist for Setup](../task/ia-update-set.md)
+[Administer\[Omitted image "uc-administer-icon.png"\] Alt text:Administering Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-update-set.md)
 
 </td></tr><tr><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Now Assist for Setup](ia-bu-conf.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-bu-conf.md)
 
 </td><td>
 
-[Reference![](../../upgrade-center/image/uc-reference-icon.png) Learn miscellaneous information about Now Assist for Setup](../../upgrade-management/reference/um-references.md)
+[Reference\[Omitted image "uc-reference-icon.png"\] Alt text: Learn miscellaneous information about Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-references.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   [Ask or answer questions aboutNow Assist for Setup in the ServiceNow Community](https://www.servicenow.com/community/)
+-   [Ask or answer questions about Setup Hub in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 
--   **[Explore Now Assist for Setup](ia-explore.md)**  
-Now Assist for Setup simplifies installing, configuring, and deploying ServiceNow products by automating setup, applying best practices, tracking progress, and packaging changes for production.
--   **[Administer Now Assist for Setup](ia-administer.md)**  
-Explore this section to learn more about setting up an application and Now Assist admin with Now Assist for Setup.
--   **[Configure in Now Assist for Setup](ia-config-landing.md)**  
-Understand and learn how to configure the Platform module and other product modules in Now Assist for Setup by following the steps in each category.
--   **[Now Assist for Setup references](../reference/ia-reference.md)**  
-The reference topics provide additional information about Now Assist for Setup.
+-   **[Explore Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-explore.md)**  
+Setup Hub simplifies installing, configuring, and deploying ServiceNow products by automating setup, applying best practices, tracking progress, and packaging changes for production.
+-   **[Administer Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-administer.md)**  
+Explore this section to learn more about setting up an application and Now Assist admin with Setup Hub.
+-   **[Configure in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-landing.md)**  
+Understand and learn how to configure the Platform module and other product modules in Setup Hub by following the steps in each category.
+-   **[Setup Hub references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)**  
+The reference topics provide additional information about Setup Hub.
 
-**Parent Topic:**[Getting started on the ServiceNow AI Platform](../../general/concept/get-started-now-platform.md)
+**Parent Topic:**[Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/get-started-now-platform.md)
 

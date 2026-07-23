@@ -2,13 +2,14 @@
 title: Run Enrichment Actions from Observable
 description: Use this section to understand how enrichments actions are performed on observables and other objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/run-enrichment-actions-from-observable.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Observables, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Run Enrichment Actions from Observable
@@ -38,5 +39,5 @@ Role required: sn\_sec\_tisc.admin
     **Note:** Once the execution initiated or completed, a work notes is posted on the activity stream of the form view.
 
 
-**Parent Topic:**[Observables](../concept/observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/observables.md)
 

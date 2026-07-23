@@ -2,6 +2,7 @@
 title: Assign a role to a user
 description: A user inherits roles from all groups to which they belong. You can also assign roles directly to a user. Whenever a user is assigned a new role, it only takes effect after logging in with a new session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_AssignARoleToAUser.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -29,7 +30,9 @@ To grant the admin role to a user, you must also have the admin role. To grant t
 
 The System administrator\(admin\) role provides access to all system features, functions, and data, regardless of security constraints. Avoid assigning this role to your users when more targeted roles are available.
 
-You can’t delete roles that are assigned to the group from the user record. You must remove the user from the group record.
+You can't delete roles that are assigned to the group from the user record. You must remove the user from the group record.
+
+**Note:** The **Collection** list displays only roles for applications and plugins that are installed on your instance. If a role does not appear, the corresponding application may not be installed.
 
 ## Procedure
 
@@ -46,5 +49,5 @@ You can’t delete roles that are assigned to the group from the user record. Yo
 
 **Note:** If the user is logged in when you update their roles and they’re unable to access records enabled by the new role, they may need to log out and back in again.
 
-**Parent Topic:**[Create a role](../../roles/task/t_CreateARole.md)
+**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md)
 

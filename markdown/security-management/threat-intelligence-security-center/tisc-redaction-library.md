@@ -2,6 +2,7 @@
 title: Working on the Redaction Library
 description: Redaction is the process of replacing sensitive information from shared data to protect confidentiality during intelligence sharing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-redaction-library.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -58,15 +59,15 @@ By leveraging the Redaction Library feature, TISC administrators and analysts ca
 
 9.  Select **New** to create Redaction Category Value record.
 
-<table id="choicetable_qsf_s3c_qfc"><thead><tr><th align="left" id="d387738e204">
+<table id="choicetable_qsf_s3c_qfc"><thead><tr><th align="left" id="d394587e200">
 
 Field
 
-</th><th align="left" id="d387738e207">
+</th><th align="left" id="d394587e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d387738e213">
+</th></tr></thead><tbody><tr><td id="d394587e209">
 
 **Redaction Category**
 
@@ -81,7 +82,7 @@ Indicates the redaction category. Few examples of Redaction Category are as foll
 -   Identification\_Number
 
 
-</td></tr><tr><td id="d387738e241">
+</td></tr><tr><td id="d394587e237">
 
 **Value**
 
@@ -114,23 +115,23 @@ This property enables or disables case sensitivity when applying redaction to sh
 </table>11. Select **Save**.
 
 
--   **[Bulk Import of Redaction Categories and Values](tisc-bulk-import-redaction.md)**  
+-   **[Bulk Import of Redaction Categories and Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-bulk-import-redaction.md)**  
 Import redaction categories. Bulk importing of redaction categories and their associated values.
 
-**Parent Topic:**[Exploring Outbound Intel Sharing](../concept/tisc-outbound-intel-sharing.md)
+**Parent Topic:**[Exploring Outbound Intel Sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-outbound-intel-sharing.md)
 
 **Related topics**  
 
 
-[Configuring Outbound Intel Sharing Controls](tisc-outbound-sharing.md)
+[Configuring Outbound Intel Sharing Controls]()
 
-[Configuring Outbound Intel Data Exclusion Rule](tisc-outbound-data-exclusion.md)
+[Configuring Outbound Intel Data Exclusion Rule]()
 
-[Configuring Outbound Intel Sharing Profiles](tisc-outbound-sharing-profiles.md)
+[Configuring Outbound Intel Sharing Profiles]()
 
-[Configuring Outbound Intel Sharing Groups](tisc-config-inbound-sharing-groups.md)
+[Configuring Outbound Intel Sharing Groups]()
 
-[Defining Approval Rule for Outbound Intel](tisc-approval-outbound-intel.md)
+[Defining Approval Rule for Outbound Intel]()
 
-[Configuring Outbound Intel Sharing Templates](tisc-intel-sharing-templates.md)
+[Configuring Outbound Intel Sharing Templates]()
 

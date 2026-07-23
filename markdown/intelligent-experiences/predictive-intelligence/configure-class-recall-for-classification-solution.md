@@ -2,6 +2,7 @@
 title: Configure class recall for a classification solution
 description: Create and apply a class recall parameter to an ML solution prior to training its data. For example, you set and apply this solution parameter to 90% recall for all records in the Email class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-class-recall-for-classification-solution.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -36,11 +37,11 @@ You can apply a recall value to one class per solution definition.
 
     In this example scenario, you use an Incident Categorization solution definition form that you haven't trained yet.
 
-    ![This image shows an example classification solution definition on which you apply the class recall parameter.](../images/configure-class-recall1.png)
+    \[Omitted image "configure-class-recall1.png"\] Alt text: This image shows an example classification solution definition on which you apply the class recall parameter.
 
 3.  On the Advanced Solution Settings tab in the Related Links section of the form, select **New**.
 
-    ![This image shows how to select the Solution Parameters option for creating the parameter.](../images/tf-idf-similarity-solution2.png)
+    \[Omitted image "tf-idf-similarity-solution2.png"\] Alt text: This image shows how to select the Solution Parameters option for creating the parameter.
 
 4.  Create a parameter record.
 
@@ -48,11 +49,11 @@ You can apply a recall value to one class per solution definition.
 
     2.  In the ML Solution Parameters screen, select **Add class recall value while training**.
 
-        ![How to create the parameter record by selecting a Search value, and then selecting the Class-Recall key Short Description.](../images/configure-class-recall2a.png)
+        \[Omitted image "configure-class-recall2a.png"\] Alt text: How to create the parameter record by selecting a Search value, and then selecting the Class-Recall key Short Description.
 
     The Advanced Solution Setting \[ml\_advanced\_solution\_settings\] record appears.
 
-    ![This image shows the Advanced Solution Setting record for Class Recall.](../images/configure-class-recall3.png)
+    \[Omitted image "configure-class-recall3.png"\] Alt text: This image shows the Advanced Solution Setting record for Class Recall.
 
 5.  Add your values to the **User inputs** field, in the format `ClassName:RecallValue`.
 
@@ -66,27 +67,27 @@ You can apply a recall value to one class per solution definition.
 
     In other words you're specifying Phish as the target class, and 95 is the Recall percentage you're requesting the system to deliver during solution training \(`Phish:95`\).
 
-    ![How to configure the User inputs field, where Phish is the target class, and 95% is the Recall percentage you're asking the system to deliver during solution training.](../images/configure-class-recall4.png)
+    \[Omitted image "configure-class-recall4.png"\] Alt text: How to configure the User inputs field, where Phish is the target class, and 95% is the Recall percentage you're asking the system to deliver during solution training.
 
 6.  Select **Submit**.
 
     **Result:** Class recall is configured for your classification solution. Its solution parameter appears on the Advanced Solution Settings tab of your classification solution definition form.
 
-    ![When you submit the record you created, the solution parameter for class recall appears on your solution definition form.](../images/configure-class-recall-result.png)
+    \[Omitted image "configure-class-recall-result.png"\] Alt text: When you submit the record you created, the solution parameter for class recall appears on your solution definition form.
 
 
 ## What to do next
 
 Train your saved classification solution so that your updates are incorporated.
 
-**Parent Topic:**[Configuring advanced settings for your ML solutions](../concept/configuring-advanced-settings-ml-solutions.md)
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 
 
-[Create and train a classification solution](create-solution-definition.md)
+[Create and train a classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md)
 
-[Configuring target metrics for a trained classification solution](../concept/configuring-target-metrics-trained-classification-solution.md)
+[Configuring target metrics for a trained classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-target-metrics-trained-classification-solution.md)
 
-[Configure TF-IDF for solutions](configure-tf-idf-classification-similarity.md)
+[Configure TF-IDF for solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configure-tf-idf-classification-similarity.md)
 

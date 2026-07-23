@@ -2,13 +2,14 @@
 title: Reserve a space form
 description: The reserve a space form helps you select the location and duration of your reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/reserve-space-form.html
 release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Workplace Core references, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Reserve a space form
@@ -108,18 +109,18 @@ Floor
 Floor of the area or space that you want to access.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Core references](../concept/wsd-references.md)
+</table>**Parent Topic:**[Workplace Core references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Core](components-installed-with-workplace-service-delivery.md)
+[Components installed with Workplace Core]()
 
-[Properties installed with Workplace Core](properties-installed-with-workplace-service-delivery.md)
+[Properties installed with Workplace Core]()
 
-[Workplace Profile Location Assignment form](wsd-location-assignment-form.md)
+[Workplace Profile Location Assignment form]()
 
-[Workplace location assignment anomaly types](location-assignment-anomaly-types.md)
+[Workplace location assignment anomaly types]()
 
-[Card Configuration examples](card-configuration-examples.md)
+[Card Configuration examples]()
 

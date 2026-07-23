@@ -2,6 +2,7 @@
 title: Manage your product backlog in Agile Development 2.0
 description: Manage your product backlog from a centralized location called the Agile board in Agile Development 2.0. Add stories to a personalized backlog and prioritize them as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/manage-maintain-backlog.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -33,11 +34,11 @@ Prioritize stories in your backlog. You can add stories, assign stories to a rel
 
     If you have already created a personalized backlog, it automatically appears in this tab. If you have not created a personalized backlog, then a welcome page appears that provides a link to create a backlog.
 
-2.  From the list at the top-left corner, select the required backlog or create a backlog by using the Create Backlog icon \(![Create Backlog icon.](../image/createbacklog.png)\).
+2.  From the list at the top-left corner, select the required backlog or create a backlog by using the Create Backlog icon \(\[Omitted image "createbacklog.png"\] Alt text: Create Backlog icon.\).
 
-3.  Update the existing filter criteria of your selected backlog by using the Edit Backlog icon \(![Edit Backlog icon.](../../agile-development/image/edit-icon.png)\).
+3.  Update the existing filter criteria of your selected backlog by using the Edit Backlog icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit Backlog icon.\).
 
-4.  Personalize columns in a list by selecting the personalize icon![Update Personalized list icon.](../../application-portfolio-management/image/personalisecolumns.png).
+4.  Personalize columns in a list by selecting the personalize icon\[Omitted image "personalisecolumns.png"\] Alt text: Update Personalized list icon..
 
 5.  Add a story to the backlog.
 
@@ -61,9 +62,9 @@ Prioritize stories in your backlog. You can add stories, assign stories to a rel
 
 7.  Create an epic or a theme directly from the **Backlog** tab.
 
-    1.  Select the options icon \(![options icon.](../../agile-development/image/create-story-arrow.png)\) next to the **Create Story** option.
+    1.  Select the options icon \(\[Omitted image "create-story-arrow.png"\] Alt text: options icon.\) next to the **Create Story** option.
 
-        ![Drop down option to create story, epic, or theme on Agile board](../../agile-development/image/create-story-epic-theme-dropdown.png)
+        \[Omitted image "create-story-epic-theme-dropdown.png"\] Alt text: Drop down option to create story, epic, or theme on Agile board
 
     2.  Select **Create Epic** or **Create Theme** from the list.
 
@@ -74,10 +75,10 @@ Prioritize stories in your backlog. You can add stories, assign stories to a rel
 8.  Arrange stories within a Backlog page using one of the following options.
 
     -   Use the mouse device to select and hold a story, drag it to the required position, and drop it.
-    -   Use the keyboard. For more information, see [Arrange Agile Development 2.0 stories in Agile Board using the keyboard](arrange-stories.md)
+    -   Use the keyboard. For more information, see [Arrange Agile Development 2.0 stories in Agile Board using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/arrange-stories.md)
     Rearranging stories in the backlog adjusts the ranking of stories in the global\_rank column in the Story \[rm\_story\] table. When you move a story within a backlog, its rank changes relative to the stories within the same backlog. So, the story at the top of the backlog list has a lower rank value and assumes higher priority while the story at the bottom of the backlog list has a higher rank value and assumes lower priority.
 
-9.  Perform any of the following actions on a single story or a set of stories by selecting the required stories and clicking the Options icon \(![Options icon.](../image/ellipsis.png)\).
+9.  Perform any of the following actions on a single story or a set of stories by selecting the required stories and clicking the Options icon \(\[Omitted image "ellipsis.png"\] Alt text: Options icon.\).
 
     |Option|Description|
     |------|-----------|
@@ -123,15 +124,15 @@ Prioritize stories in your backlog. You can add stories, assign stories to a rel
     You need a specific role that provides access to a triaged record in the backlog. For example, to view a problem in the backlog, you must have the itil role. If you do not have access to any record, an error message appears.
 
 
--   **[Arrange Agile Development 2.0 stories in Agile Board using the keyboard](arrange-stories.md)**  
+-   **[Arrange Agile Development 2.0 stories in Agile Board using the keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/arrange-stories.md)**  
 Learn how to use the keyboard to move and rearrange Agile Development 2.0 stories in the Backlog and Sprint Planning tabs of your Agile board.
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](../../agile-development/concept/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
 
 **Related topics**  
 
 
-[Agile board in Agile Development 2.0](../concept/agile-board.md)
+[Agile board in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-board.md)
 
-[Create a personalized backlog in Agile Development 2.0](create-a-backlog.md)
+[Create a personalized backlog in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-a-backlog.md)
 

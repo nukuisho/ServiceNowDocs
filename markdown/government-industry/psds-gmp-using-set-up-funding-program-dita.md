@@ -1,17 +1,18 @@
 ---
-title: Create a funding program using Grants Management program setup for Public Sector Digital Services
-description: As a grant program manager at a government service agency, use the Public Sector Digital Services Grants Management program setup​ to either create a new funding program, or create one from an existing configuration.
+title: Create a funding program for Public Sector Digital Services
+description: Create a funding program, or create one from an existing configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-gmp-using-set-up-funding-program-dita.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-01-29"
 reading_time_minutes: 2
-breadcrumb: [Using Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Evaluate a grant application, Grants Management Proposal Playbook, Grants Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Create a funding program using Grants Management program setup for Public Sector Digital Services
+# Create a funding program for Public Sector Digital Services
 
-As a grant program manager at a government service agency, use the Public Sector Digital Services Grants Management program setup​ to either create a new funding program, or create one from an existing configuration.
+Create a funding program, or create one from an existing configuration.
 
 ## Before you begin
 
@@ -23,9 +24,9 @@ Role required: admin
 
 2.  Navigate to **Lists** &gt; **Funding Programs** and choose **New**.
 
-    Here, you have the option to create a new funding program, or start by copying data and configurations from an existing funding program, using the funding program ID.
+    Here, you have the option to create a funding program, or start by copying data and configurations from an existing funding program, using the funding program ID.
 
-    -   To create a new funding program without using any pre-existing configurations, choose **New**.
+    -   To create a funding program without using any pre-existing configurations, choose **New**.
     -   To copy data and configurations from a pre-existing funding program, choose **Create a new program from an existing one**. Choose the existing funding program from the drop-down menu and select **Continue**.
 
         You can review which fields are copied over to the new funding program record, including default fields. You can configure the fields as necessary.
@@ -49,6 +50,6 @@ Role required: admin
 
     Choose **new** to create a grant program.
 
-    For more information about creating a grant program, see [Create a grant program using Grants Management program setup for Public Sector Digital Services](psds-gmp-using-set-up-grants-management-program.md).
+    For more information about creating a grant program, see [Create a grant program for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-gmp-using-set-up-grants-management-program.md).
 
 

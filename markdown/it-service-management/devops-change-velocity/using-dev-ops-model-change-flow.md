@@ -2,6 +2,7 @@
 title: Customizing DevOps flows
 description: Customize or recreate the DevOps Change Request Manual Approval, DevOps Change Request Minimal Automation Approval, and DevOps Change Request Advanced Automation Approval flows based on your requirements using a flow or a script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/using-dev-ops-model-change-flow.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -31,7 +32,7 @@ You can use either a flow or a script to call the action.
 
     This action serves as a trigger for the **Change Control Callback** flow, which is used to notify the change decision to the orchestration tool.
 
-    ![DevOps Change Request Manual Approval flow](../image/devops-manual-flow.png)
+    \[Omitted image "devops-manual-flow.png"\] Alt text: DevOps Change Request Manual Approval flow
 
 -   **Calling the Workflow Studio action using a script**
 
@@ -54,7 +55,7 @@ You can use either a flow or a script to call the action.
 
     This action serves as a trigger for the **Change Control Callback** flow, which is used to notify the change decision to the orchestration tool.
 
-    ![DevOps Change Request Minimal Automation Approval flow](../image/devops-minimal-flow.png)
+    \[Omitted image "devops-minimal-flow.png"\] Alt text: DevOps Change Request Minimal Automation Approval flow
 
 -   **Calling the Workflow Studio action using a script**
 
@@ -77,7 +78,7 @@ You can use either a flow or a script to call the action.
 
     This action serves as a trigger for the **Change Control Callback** flow, which is used to notify the change decision to the orchestration tool.
 
-    ![DevOps Change Request Advanced Automation Approval flow](../image/devops-advanced-flow.png)
+    \[Omitted image "devops-advanced-flow.png"\] Alt text: DevOps Change Request Advanced Automation Approval flow
 
 -   **Calling the Workflow Studio action using a script**
 
@@ -88,10 +89,10 @@ You can use either a flow or a script to call the action.
     ```
 
 
-**Parent Topic:**[Accelerating your DevOps change process](dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 
 **Related topics**  
 
 
-[Accelerating your DevOps change process](dev-ops-change-acceleration.md)
+[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

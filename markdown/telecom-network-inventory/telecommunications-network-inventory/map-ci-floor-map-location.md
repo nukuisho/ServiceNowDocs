@@ -2,6 +2,7 @@
 title: Map a Configuration Item to a floor map
 description: Map a Configuration Item \(CI\) to a place on your floor map in the Telecommunications Network Inventory application so you can view its details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/map-ci-floor-map-location.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,7 +28,7 @@ Associate a CI such as facility hardware to a place on the floor map to view its
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the blue hub icon ![Blue Hub Icon.](../image/icon-blue-hub.png).
+2.  Select the blue hub icon \[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon..
 
     The Network viewer window is displayed.
 
@@ -41,9 +42,9 @@ Associate a CI such as facility hardware to a place on the floor map to view its
 
     If you’re mapping an equipment rack, then select the location with Rack place type.
 
-6.  On the details pane, select the more options icon \(![More Options Icon.](../image/icon-more-option.png)\), and then select **Create place mapping**.
+6.  On the details pane, select the more options icon \(\[Omitted image "icon-more-option.png"\] Alt text: More Options Icon.\), and then select **Create place mapping**.
 
-7.  On the details pane, select the more options icon \(![More Options Icon.](../image/icon-more-option.png)\), and then select **Open record**.
+7.  On the details pane, select the more options icon \(\[Omitted image "icon-more-option.png"\] Alt text: More Options Icon.\), and then select **Open record**.
 
     The place record opens. Select the **Place documents** tab, and then select **New**.
 
@@ -89,12 +90,12 @@ CI that you want to map to the place.**Note:** A CI must be mapped to only one p
 
 The CI is mapped to the place on the floor map. The color of the place is changed and reflects the selected inventory class according to the map legend. Select the CI on the map pane to view its details.
 
-**Parent Topic:**[Floor map](../concept/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 
 **Related topics**  
 
 
-[Floor map](../concept/visualization-floor-maps.md)
+[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
 
-[Upload and manage floor map for your datacenter](create-floor-map-data-center.md)
+[Upload and manage floor map for your datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-floor-map-data-center.md)
 

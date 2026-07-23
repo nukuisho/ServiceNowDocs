@@ -2,11 +2,12 @@
 title: View a product non-conformance
 description: View the product non-conformance reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-view-a-product-non-conformance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product non-conformance, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # View a product non-conformance
@@ -27,6 +28,4 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
     -   All: Cases that belong to that business location.
     -   Open: All the open cases.
     -   Unassigned: Unassigned cases and assign them to the available agent.
-
-**Parent Topic:**[Product non-conformance](../concept/mco-product-non-conformances.md)
 

@@ -2,6 +2,7 @@
 title: Skills performance dashboard
 description: The skills performance dashboard helps you monitor how Now Assist for CSM skills are being used across CSM records and interactions. Use this dashboard to identify high-performing skills, track adoption trends, and spot skills that need attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/skills-performnace-dashboard.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -51,7 +52,7 @@ Usage metrics across the following Now Assist for CSM skills are:
 
 The GenAI skills dashboards within Platform Analytics provide comprehensive metrics for tracking skill usage across CSM record and interaction pages. The dashboards include several default widgets that deliver insight into skill performance and user adoption. The **Skills Performance** dashboard provides the following key visualizations:
 
-![image.skills-performance-dashboard]
+\[Omitted image "skills-performance-dashboard.png"\] Alt text: Dashboard with multiple charts showing trends, usage counts, errors, and performance metrics for activity response generation skill
 
 Default widgets:
 

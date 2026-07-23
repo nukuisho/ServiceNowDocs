@@ -2,6 +2,7 @@
 title: Analyzing your campaign for effectiveness
 description: Analyze your campaign to ensure that your messaging is effective and that you are targeting the correct audience when you use campaign success goals. You can also check your campaign's progress and evaluate how successful your campaign is.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-content-automation-reevaluate-audience.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,9 +16,9 @@ breadcrumb: [Creating campaigns, Authoring and managing employee communications,
 
 Analyze your campaign to ensure that your messaging is effective and that you are targeting the correct audience when you use campaign success goals. You can also check your campaign's progress and evaluate how successful your campaign is.
 
-Campaigns uses Content Analytics to collect data on user interactions and generate visualizations that help you determine the effectiveness of your campaign. View the data visualizations for published campaigns in the [Campaign overview and Campaign analytics dashboards](ecpro-content-automation-content-pack.md).
+Campaigns uses Content Analytics to collect data on user interactions and generate visualizations that help you determine the effectiveness of your campaign. View the data visualizations for published campaigns in the [Campaign overview and Campaign analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.md).
 
-**Note:** Content Analytics is a separate plugin that must be installed and configured. For installation information, see [Activate Content Analytics](../task/activate-content-analytics-plugin.md).
+**Note:** Content Analytics is a separate plugin that must be installed and configured. For installation information, see [Activate Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-analytics-plugin.md).
 
 ## Evaluating a campaign
 
@@ -31,13 +32,13 @@ You can define the following factors to make your campaign more effective:
 
     After the campaign starts, the Content Experiences: Update Campaign Audience scheduled job adds or removes users when they meet or no longer meet the conditions. For example, a campaign targets employees of the Engineering department. The scheduled job periodically re-evaluates the audience, adding new hires to the audience and removing users who transfer to another department or leave the company. The campaign content is displayed only to the current employees in the Engineering department.
 
-    Alternatively, you can manually modify the audience after your campaign starts. For more information, see [Editing a published campaign](../task/ecpro-edit-campaign.md).
+    Alternatively, you can manually modify the audience after your campaign starts. For more information, see [Editing a published campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-edit-campaign.md).
 
     Campaign targets appear after a campaign is published and the Content Experiences: Update Campaign Audience scheduled job runs. You can view a list of the users in the target audience by opening a campaign and navigating to the **Campaign Targets** tab. The campaign target list contains the date the user was added, the user, the campaign the user is assigned, and if the campaign is active.
 
     Click the **Campaign Targets** tab to view the users that you are targeting for your campaign.
 
-    ![Campaign targets](../images/campaign-targets.png)
+    \[Omitted image "campaign-targets.png"\] Alt text: Campaign targets
 
 -   **Trigger configuration**
 
@@ -56,7 +57,7 @@ You can define the following factors to make your campaign more effective:
     -   Determine if your campaign is successfully driving a specific type of action, like employees signing up for benefits. For example, your company has 2,000 employees and 1,500 have already signed up for payroll direct deposit. You create a campaign that is directed at the 500 employees who have not signed up for payroll direct deposit yet. If your campaign is in the last stage and few employees have signed up, you can add another stage to the campaign with additional content encouraging employees to sign up.
     -   Compare metrics from your campaign against a previous campaign. For example, the open enrollment campaign last year included a webinar with a question-and-answer session, whereas this year the campaign has an informational video instead. You can review the difference in enrollment rates to determine if the content change had an impact.
     -   See if your campaign is successfully reducing a type of action. For example, you create a campaign that provides videos, knowledge articles, and links to inform employees about a program. In the weeks after the campaign ends, you compare the number of inquiry cases created before the campaign started to the number of cases created after.
-    ![Campaign success goals](../images/campaign-success.png)
+    \[Omitted image "campaign-success.png"\] Alt text: Campaign success goals
 
     Click the **Campaign Success Goals** tab to view the progress of a campaign. Depending on the type of success goal that you create, you can see a progress chart under Drive action progress or Deflection progress.
 

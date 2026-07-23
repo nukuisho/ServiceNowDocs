@@ -2,6 +2,7 @@
 title: Control specific app usage
 description: To support your organization's authentication policies, admins can control which mobile apps can log in to ServiceNow instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/control-mobile-app-usage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ To control which mobile apps can log in to ServiceNow instances, admins can choo
 
 By configuring a system property, admins can create a list of mobile apps that can connect to ServiceNow instances. If a user tries to connect to an instance with an app that isn't on the list, the user receives an `Unable to log in …` message as shown in the following image.
 
-![Mobile app login screen that shows the "Unable to log in" message.](../image/mobile-app-cant-connect2instance.png "Failed login by an unauthorized app")
+\[Omitted image "mobile-app-cant-connect2instance.png"\] Alt text: Mobile app login screen that shows the "Unable to log in" message.
 
 ## Advanced app allowance with links to permitted apps
 

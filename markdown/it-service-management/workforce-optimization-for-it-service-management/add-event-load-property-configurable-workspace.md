@@ -2,6 +2,7 @@
 title: Configure an event load order in Workforce Optimization for ITSM
 description: Add a system property to display your preferred event categories first on the calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/add-event-load-property-configurable-workspace.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -97,5 +98,5 @@ sn\_shift\_planning.admin
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure event categories for the ITSM Manager Workspace](categorize-events-configurable-wfo-itsm.md)
+**Parent Topic:**[Configure event categories for the ITSM Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/categorize-events-configurable-wfo-itsm.md)
 

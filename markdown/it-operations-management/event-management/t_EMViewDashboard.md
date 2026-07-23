@@ -2,6 +2,7 @@
 title: Monitor service health
 description: On the Operator Workspace, you can view alerts by application services, technical service, and alert group. For services, you can also open a service map to view relationships between CIs in the service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMViewDashboard.html
 release: australia
 product: Event Management
 classification: event-management
@@ -31,9 +32,9 @@ These tile icons are available:
 
 |Icon|Meaning|
 |----|-------|
-|![Mapped application service icon](../image/mapped-app-service-icon.png)|Represents the status of a mapped application services.|
-|![Alert group icon](../image/alert-group-icon.png)|Represents the status of an Alert group with a set of corresponding open alerts.|
-|![Dynamic CI group icon](../image/dynamic-ci-group-icon.png)|Represents the status of a dynamic CI group.|
+|\[Omitted image "mapped-app-service-icon.png"\] Alt text: Mapped application service icon|Represents the status of a mapped application services.|
+|\[Omitted image "alert-group-icon.png"\] Alt text: Alert group icon|Represents the status of an Alert group with a set of corresponding open alerts.|
+|\[Omitted image "dynamic-ci-group-icon.png"\] Alt text: Dynamic CI group icon|Represents the status of a dynamic CI group.|
 
 Each tile represents the highest severity of an alert for the service, alert group, or CI. For example, a tile appears in red if an alert is critical. A green tile indicates either information alerts or no currently active alerts. As the alert severities change, the tile colors update accordingly. The following severities are available:
 
@@ -47,20 +48,20 @@ Each tile represents the highest severity of an alert for the service, alert gro
 
 1.  To integrate with Operational Intelligence, activate the Operational Intelligence \(com.snc.sa.metric\) plugin.
 
-    Follow the steps in the [Get started with Metric Intelligence](get-started-metrics.md) topic. Metrics information appears on the **Metrics** tab in the Service Operations Workspace.
+    Follow the steps in the [Get started with Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/get-started-metrics.md) topic. Metrics information appears on the **Metrics** tab in the Service Operations Workspace.
 
 
--   **[View discovered service history](t_EMViewAlertHistory.md)**  
+-   **[View discovered service history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlertHistory.md)**  
 The discovered service history shows the frequency of discovered services for a particular time period.
--   **[Monitor alerts for an application services](t_EMMonitorManualService.md)**  
+-   **[Monitor alerts for an application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMMonitorManualService.md)**  
 To view information for application services only, navigate to the application services list. From this list, you can open service maps to view and manage alerts for the CIs in each service.
--   **[View monitored services](monitor-services.md)**  
+-   **[View monitored services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/monitor-services.md)**  
 View all services that Event Management supports, such as, alert groups, discovered services, application services, and technical services. According to the type of service, you can view service definition details or drill down into the service.
 
-**Parent Topic:**[Using Event Management](../concept/user-guide.md)
+**Parent Topic:**[Using Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/user-guide.md)
 
 **Related topics**  
 
 
-[View metric values in the Insights Explorer](view-metrics-explorer.md)
+[View metric values in the Insights Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/view-metrics-explorer.md)
 

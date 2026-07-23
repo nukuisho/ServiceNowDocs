@@ -2,6 +2,7 @@
 title: Install Supplier Operations
 description: You can install the Supplier Operations application \(com.snc.sn\_so\) to access advanced case management capabilities to handle key supplier lifecycle events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/install-supplier-ops.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -51,30 +52,30 @@ To install Supplier Operations, the following plugins have to be installed:
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configure Supplier Lifecycle Operations](../concept/config-supp-mgmt.md)
+**Parent Topic:**[Configure Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-supp-mgmt.md)
 
 **Related topics**  
 
 
-[Install Supplier Case Management](install-supp-mgmt.md)
+[Install Supplier Case Management]()
 
-[Install Supplier Collaboration Portal](install-supp-central.md)
+[Install Supplier Collaboration Portal]()
 
-[Install Supplier Payment Optimization](install-supp-payment-opt.md)
+[Install Supplier Payment Optimization]()
 
-[Supplier Document Management](../concept/supp-doc-mgmt-overview.md)
+[Supplier Document Management]()
 
-[Configure the document template for the Sign document action type for supplier task](configure-pdf-template-sign-doc-task.md)
+[Configure the document template for the Sign document action type for supplier task]()
 
-[Advanced Work Assignment for Supplier Lifecycle Operations](../concept/supplier-awa.md)
+[Advanced Work Assignment for Supplier Lifecycle Operations]()
 
-[Enable M2M mapping between supplier contact and suppliers](enable-m2m-supplier-contacts.md)
+[Enable M2M mapping between supplier contact and suppliers]()
 
-[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+[Configure Supplier Relationship and Performance Management]()
 
-[Install Universal Request for SLO](install-universal-request.md)
+[Install Universal Request for SLO]()
 
-[Configure smart assessments](../concept/configure-smart-assessments.md)
+[Configure smart assessments]()
 
-[Install Supplier Case Management](install-supp-mgmt.md)
+[Install Supplier Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/install-supp-mgmt.md)
 

@@ -2,9 +2,10 @@
 title: Now Assist panel
 description: The Now Assist panel is the conversational interface where you can interact with the AI companion to perform setup, solution building, and question answering tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-now-assist-panel.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-28"
 reading_time_minutes: 1
 keywords: [Now Assist, Now Assist Center, Gen AI, Generative AI]
 breadcrumb: [Now Assist Center workspace, Explore, Now Assist Center, Enable AI experiences]
@@ -21,7 +22,8 @@ Use the Now Assist panel to perform the following types of actions:
 -   Perform common administrator functions
 -   Implement the setup and configuration of AI solutions
 -   Answer questions and find help documentation
--   Enable or disable native and dynamic translation
+-   Activate and set up base system skills
+-   Enable or disable native and machine translation
 -   Configure language support for supported language models
 -   View privacy policy details and guidance
 -   View data sharing details and guidance
@@ -30,9 +32,9 @@ Use the Now Assist panel to perform the following types of actions:
 -   View active and deprecated AI model versions
 -   Discover and assign AI agents and agentic workflows that implement use cases
 
-![Now Assist panel in Now Assist Center.](../image/now-assist-center-panel.png "Now Assist panel")
+\[Omitted image "now-assist-center-panel.png"\] Alt text: Now Assist panel in Now Assist Center.
 
-For more information, see [Using the conversational experience in Now Assist Center](using-now-assist-panel-now-assist-center.md).
+For more information, see [Using the conversational experience in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-panel-now-assist-center.md).
 
-**Parent Topic:**[Now Assist Center workspace](now-assist-center-workspace.md)
+**Parent Topic:**[Now Assist Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-workspace.md)
 

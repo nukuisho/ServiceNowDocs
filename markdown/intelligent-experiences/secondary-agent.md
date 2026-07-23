@@ -2,6 +2,7 @@
 title: ServiceNow AI agents as secondary agents
 description: Integrate ServiceNow AI agents into other agentic AI systems, such as Google Cloud or Azure OpenAI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/secondary-agent.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-18"
@@ -19,7 +20,7 @@ In AI Agent Studio, on the **Settings** page, under **External AI Agents** &gt; 
 
 You can also choose between **Synchronous** and **Asynchronous** communication between your external AI agent and the agentic AI provider.
 
-![Discoverability page in AI Agent Studio settings.](../image/A2A-asynchronous.png)
+\[Omitted image "A2A-asynchronous.png"\] Alt text: Discoverability page in AI Agent Studio settings.
 
 ## ServiceNow AI agents as secondary agents overview
 
@@ -33,7 +34,9 @@ You can use the same OAuth or API key for authenticating the agent discovery and
 
 To verify that your AI agent is running from the ServiceNow side, during a conversation with the AI agent, you can go to the **Execution Plan \[sn\_aia\_execution\_plan\]** table. From the Execution Plan table, you can identify the execution plan based on the **Objective** field that contains the prompt from the conversation on the other platform.
 
-For more information about sample payloads for Google A2A with ServiceNow AI agent as Secondary agent, see [Sample payloads for Google A2A.](https://www.servicenow.com/community/now-assist-articles/sample-payloads-for-google-a2a-servicenow-as-secondary-agent/ta-p/3451904)
+For more information about sample payloads for Google A2A with ServiceNow AI agent as Secondary agent, see [Sample payloads for Google A2A](https://www.servicenow.com/community/now-assist-articles/sample-payloads-for-google-a2a-servicenow-as-secondary-agent/ta-p/3451904).
+
+For more information about setting up instructions for your ServiceNow AI agents as secondary agents \(acting as A2A server\), refer to [Authentication for Google A2A - ServiceNow as Secondary Agent](https://www.servicenow.com/community/now-assist-articles/authentication-for-google-a2a-servicenow-as-secondary-agent/ta-p/3446091).
 
 ## Asynchronous connection
 
@@ -47,5 +50,5 @@ Once you save the record, a Connection &amp; Credential Alias \[sys\_alias\] rec
 
 When the record is created, you can go back to the External Agent Callback Registry record you created and select **Verify URL** to test the connection works as expected.
 
-**Parent Topic:**[Create an external AI agent](create-external-aia.md)
+**Parent Topic:**[Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-external-aia.md)
 

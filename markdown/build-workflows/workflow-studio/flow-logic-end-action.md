@@ -2,6 +2,7 @@
 title: End Flow flow logic
 description: Stop running the current flow. Use End Flow within a branch of the flow to specify an exit condition. For example, end the flow when it reaches a specific If flow logic block.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-logic-end-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -40,48 +41,48 @@ Use the general guidelines when adding an End flow or End subflow flow logic.
 
 ## Request Ad hoc Approval subflow
 
-![Subflow containing an End Subflow branch](../images/example-end-subflow-approval.png)
+\[Omitted image "example-end-subflow-approval.png"\] Alt text: Subflow containing an End Subflow branch
 
 This example subflow supports adding arbitrary approvals from a Playbooks activity. The wait condition in steps 5 to 6 checks the flow data record for an end state such as cancelled, complete, error, or skipped. When the flow data record enters one of these states, the subflow ends without assigning any outputs.
 
-![Execution details of subflow reaching the End branch.](../images/example-end-subflow-approval-execution-details.png)
+\[Omitted image "example-end-subflow-approval-execution-details.png"\] Alt text: Execution details of subflow reaching the End branch.
 
 When the subflow reaches this branch, it stops the subflow and sets the state to Completed. The actions in other branches are not run.
 
-**Parent Topic:**[Workflow Studio flow logic](flow-logic.md)
+**Parent Topic:**[Workflow Studio flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic.md)
 
 **Related topics**  
 
 
-[Append to Flow Variables flow logic](../reference/append-to-flow-variables-flow-logic.md)
+[Append to Flow Variables flow logic]()
 
-[Assign subflow outputs flow logic](flow-logic-assign-subflow-outputs.md)
+[Assign subflow outputs flow logic]()
 
-[Call a workflow flow logic](flow-logic-call-workflow.md)
+[Call a workflow flow logic]()
 
-[Do the following until flow logic](flow-logic-do-until.md)
+[Do the following until flow logic]()
 
-[Do the following in parallel flow logic](flow-logic-do-following-in-parallel.md)
+[Do the following in parallel flow logic]()
 
-[Dynamic flows flow logic](flow-logic-dynamic-flow.md)
+[Dynamic flows flow logic]()
 
-[Exit Loop flow logic](../reference/exit-loop-flow-logic.md)
+[Exit Loop flow logic]()
 
-[For Each flow logic](flow-logic-for-each.md)
+[For Each flow logic]()
 
-[Get Flow Outputs flow logic](../reference/get-flow-outputs-flow-logic.md)
+[Get Flow Outputs flow logic]()
 
-[Go back to flow logic](../reference/go-back-to-flow-logic.md)
+[Go back to flow logic]()
 
-[If flow logic](flow-logic-if.md)
+[If flow logic]()
 
-[Make a decision flow logic](flow-logic-make-decision.md)
+[Make a decision flow logic]()
 
-[Set Flow Variables flow logic](flow-logic-set-flow-variables.md)
+[Set Flow Variables flow logic]()
 
-[Skip Iteration flow logic](../reference/skip-iteration-flow-logic.md)
+[Skip Iteration flow logic]()
 
-[Try flow logic](flow-logic-try.md)
+[Try flow logic]()
 
-[Wait for a duration flow logic](flow-logic-wait-for-a-duration.md)
+[Wait for a duration flow logic]()
 

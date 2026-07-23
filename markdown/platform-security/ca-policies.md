@@ -2,6 +2,7 @@
 title: Policies
 description: View the different continuous authentication policies that are created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ca-policies.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,14 +28,14 @@ To access the policies page, navigate to **All** &gt; **Continuous Authenticatio
 |Tables|Tables selected for the policy|
 |Created|Policy creation details|
 
-![CA Policies page](../images/ca-policy-page.png)
+\[Omitted image "ca-policy-page.png"\] Alt text: CA Policies page
 
 **Related topics**  
 
 
-[Metrics](ca-metrics.md)
+[Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-metrics.md)
 
-[System properties](ca-system-properties.md)
+[System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ca-system-properties.md)
 
-[Exploring Continuous Authentication](explore-continuous-auth.md)
+[Exploring Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explore-continuous-auth.md)
 

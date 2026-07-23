@@ -2,6 +2,7 @@
 title: Action assignment form
 description: Learn about the fields of the Action Assignment form. Use this form to add the New action button to your workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-actn-assignment-form.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, 
 
 Learn about the fields of the Action Assignment form. Use this form to add the New action button to your workspace.
 
-Use the action assignment form to define a action button in your workspace and map it to the built-in action that initiates a contract request. For more information, see [Add a workspace action button for initiating a contract request](../task/cncore-config-initiate-cont.md).
+Use the action assignment form to define a action button in your workspace and map it to the built-in action that initiates a contract request. For more information, see [Add a workspace action button for initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-initiate-cont.md).
 
 |Field|Description|
 |-----|-----------|
@@ -30,36 +31,38 @@ Use the action assignment form to define a action button in your workspace and m
 |Tooltip|Text that displays when agents point their cursor over the button.|
 |Description|Description for the action that's displayed in the Action Assignments list.|
 
-**Parent Topic:**[Contract Management Pro reference](../concept/cncore-ref.md)
+**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
 
 **Related topics**  
 
 
-[Components installed with Contract Management Pro](cncore-comp-ccore.md)
+[Components installed with Contract Management Pro]()
 
-[Components installed with Contract Workspace](cncore-comp-contract-workspace.md)
+[Components installed with Contract Workspace]()
 
-[Components installed with Analytics Pack for Contract Management Pro](cncore-comp-analytics-pack-cmpro.md)
+[Components installed with Analytics Pack for Contract Management Pro]()
 
-[Contract request State and Contract document status in Contract Management Pro](cncore-cr-state-status.md)
+[Contract request State and Contract document status in Contract Management Pro]()
 
-[Clause Variation form](cncore-cv-form.md)
+[Signatory roles]()
 
-[Contract Configuration form](cncore-contract-config-form.md)
+[Clause Variation form]()
 
-[Properties installed to configure expiry notifications](cncore-properties-installed.md)
+[Contract Configuration form]()
 
-[Properties installed to configure contracts integrations](cncore-properties.md)
+[Properties installed to configure expiry notifications]()
 
-[Expiring Contracts Condition form fields](cncore-email-notif-expcont-form.md)
+[Properties installed to configure contracts integrations]()
 
-[UFX Add on Event mapping form](cmpro-ufx-event-map-form.md)
+[Expiring Contracts Condition form fields]()
 
-[Obligation form](cncore-obligation-form.md)
+[UFX Add on Event mapping form]()
 
-[Obligation Management notifications](cncore-ob-mgmt-notification.md)
+[Obligation form]()
 
-[Contract Management Pro glossary](../concept/contract-management-pro-glossary.md#)
+[Obligation Management notifications]()
 
-[Contract Management solutions](cmpro-cml-feature-compare.md)
+[Contract Management Pro glossary]()
+
+[Contract Management solutions]()
 

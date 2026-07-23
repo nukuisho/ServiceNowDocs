@@ -2,21 +2,22 @@
 title: Health Assessment
 description: The Health Assessment Accelerators provide insights into your instance health.The Health Assessment – Advanced Accelerator provides guidance to measure and improve your ServiceNow instance health.The Health Assessment - Total Accelerator provides guidance to measure and improve your ServiceNow instance health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/health-assessment.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Health Assessment
 
 The Health Assessment Accelerators provide insights into your instance health.
 
--   [Health Assessment – Advanced](health-assessment.md#)
--   [Health Assessment - Total](health-assessment.md#)
+-   [Health Assessment – Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/health-assessment.md)
+-   [Health Assessment - Total](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/health-assessment.md)
 
 ## Health Assessment – Advanced
 
@@ -25,6 +26,8 @@ The Health Assessment – Advanced Accelerator provides guidance to measure and 
 ### Overview
 
 Health Assessment- Advanced provides Impact Advanced customers with prescriptive guidance, leading practice content, and a technical analysis of their ServiceNow instance health via a HealthScan scan. Also included is a review of key platform health indicators, such as instance manageability, performance, security, upgradability, and user experience. This Accelerator aims to help you understand how your instance aligns with leading practices and improve your instance health.
+
+### Package Availability
 
 **Note:** This Accelerator is available for the Impact Advanced package.
 
@@ -105,6 +108,8 @@ The Health Assessment - Total Accelerator provides guidance to measure and impro
 ### Overview
 
 Health Assessment – Total provides Impact Total customers with prescriptive guidance, leading practices content, and a technical analysis of their ServiceNow instance health via a HealthScan scan. A review of key platform health indicators, such as instance manageability, performance, security, upgradability, and user experience is also included. This Accelerator aims to help you understand how your instance aligns with leading practices and to improve your instance health.
+
+### Package Availability
 
 **Note:** This Accelerator is available for the Impact Total package.
 

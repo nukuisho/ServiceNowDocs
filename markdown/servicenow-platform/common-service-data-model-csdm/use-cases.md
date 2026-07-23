@@ -2,6 +2,7 @@
 title: Applying CSDM guidelines to your product — product views
 description: ServiceNow products expect that CMDB data is organized according to CSDM guidelines and they benefit from that organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/use-cases.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -36,7 +37,7 @@ The topics do not address the following information:
 
 -   **Change Management**
 
-    [Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/itsm-change-use-case-product-view.md)
+    [Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-change-use-case-product-view.md)
 
 -   **Customer Service Management**
 
@@ -44,7 +45,7 @@ The topics do not address the following information:
 
 -   **Digital Portfolio Management**
 
-    [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-csdm.md)
+    [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpm-csdm.md)
 
 -   **Enterprise Architecture**
 
@@ -52,11 +53,11 @@ The topics do not address the following information:
 
 -   **HR Service Delivery for Healthcare**
 
-    [HR Service Delivery and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hrsd-csdm.md)
+    [HR Service Delivery and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hrsd-csdm.md)
 
 -   **Incident Management**
 
-    [Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/itsm-incident-use-case-product-view.md)
+    [Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-incident-use-case-product-view.md)
 
 -   **Install Base Management**
 
@@ -68,15 +69,15 @@ The topics do not address the following information:
 
 -   **ITOM Visibility**
 
-    [Applying the CSDM guidelines to ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/itom-visibility-use-case.md)
+    [Applying the CSDM guidelines to ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility-use-case.md)
 
 -   **Operational Technology Manager**
 
-    [Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-use-case-product-view.md)
+    [Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-use-case-product-view.md)
 
 -   **Problem Management**
 
-    [Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/pm-use-case-product-view.md)
+    [Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/pm-use-case-product-view.md)
 
 -   **RPA Hub**
 
@@ -84,20 +85,20 @@ The topics do not address the following information:
 
 -   **Service Catalog**
 
-    [Service Catalog and CSDM](../../service-catalog-management/concept/request-cat-use-case-product-view.md)
+    [Service Catalog and CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-cat-use-case-product-view.md)
 
 -   **Service Portfolio Management**
 
-    [Applying the CSDM guidelines to Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-csdm.md)
+    [Applying the CSDM guidelines to Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/SPM2-csdm.md)
 
 -   **Vulnerability Response**
 
-    [Vulnerability Response applications and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-avr-sbom-csdm-guidelines.md)
+    [Vulnerability Response applications and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vr-avr-sbom-csdm-guidelines.md)
 
 
 ## CSDM videos in the ServiceNow Community
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[Common Service Data Model](../concept/csdm-landing-page.md)
+**Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

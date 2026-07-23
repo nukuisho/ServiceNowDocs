@@ -2,6 +2,7 @@
 title: Request translations
 description: The Localization Framework enables you to select one or more activated languages while requesting translations for artifacts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/language-picker-ui.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -20,28 +21,28 @@ The Localization Framework enables you to select one or more activated languages
 -   Define localization preferences for the languages available in the instance to request translations.
 -   Lists only the activated languages in the instance to choose for localization of the content.
 
-    **Note:** Before you request for translations, ensure to activate all the required languages in the instance. For more information, see [Activate a language](../../localization/task/t_ActivateALanguage.md).
+    **Note:** Before you request for translations, ensure to activate all the required languages in the instance. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 -   Displays the translation status for each activated language only if translations have been requested for insights in those languages. The translation status is updated when the insights dashboard is generated.
 -   Enables you to request translations in the selected language from the localization dashboard for the selected insights records.
 -   Enables you to request translations for insights into one or more activated languages from their respective tables.
 
-    ![Request translations from an artifact table](../image/language-picker-ui.png "Request translations from an artifact table")
+    \[Omitted image "language-picker-ui.png"\] Alt text: Request translations from an artifact table
 
     **Note:** Languages without localization settings are disabled for selection while requesting translations.
 
 
--   **[Request translations for Service Catalog items](../task/request-translations-multiple-items.md)**  
+-   **[Request translations for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/request-translations-multiple-items.md)**  
 Request translations for multiple Service Catalog items to localize them from English into one or more languages.
--   **[Request adhoc translation for Service Catalog items](../task/req-adhoc-translation-for-sc-items.md)**  
+-   **[Request adhoc translation for Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/req-adhoc-translation-for-sc-items.md)**  
 Request adhoc translations for Service Catalog items to localize them from English into one or more languages using the edit translations option. After you make the changes, you can publish the translations.
 
-**Parent Topic:**[Request translations](using-localization-framework.md)
+**Parent Topic:**[Request translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/using-localization-framework.md)
 
 **Related topics**  
 
 
-[Fulfill a localization task](../task/fulfill-localization-task.md)
+[Fulfill a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/fulfill-localization-task.md)
 
-[Approve a localization task](../task/approve-localization-task.md)
+[Approve a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/approve-localization-task.md)
 

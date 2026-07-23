@@ -2,13 +2,14 @@
 title: Jumpstart Your Multi-lingual Virtual Agent
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Dynamic Translation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-multi-lingual-virtual-agent.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Multi-lingual Virtual Agent
@@ -19,11 +20,13 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 Jumpstart Your Multi-lingual Virtual Agent Accelerator provides Impact customers with a demonstration of the possibilities and capabilities of Dynamic Translation. A demonstration of how Dynamic Translation works using Virtual Agent conversations, within AI Search via a temporary cloned instance, and hand-offs to Live Agent are included. Leading practices to get started are also incorporated.
 
-See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) for additional information on Virtual Agent.
+See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md) for additional information on Virtual Agent.
 
-**Note:** This Accelerator is available in Guided, Advanced, and Total Packages.
+## Package Availability
 
-Offered pursuant to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 

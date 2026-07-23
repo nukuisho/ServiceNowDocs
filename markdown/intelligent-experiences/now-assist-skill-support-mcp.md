@@ -2,9 +2,10 @@
 title: Now Assist skill support in MCP Server Console
 description: MCP Server Console supports creating tools for Model Context Protocol \(MCP\) servers from a subset of Now Assist skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-support-mcp.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-12-17"
 reading_time_minutes: 1
 breadcrumb: [Reference, MCP Server Console, Enable AI experiences]
 ---
@@ -50,21 +51,20 @@ In addition, you can create tools from the following Now Assist skills or from c
 -   Resume Skill Extraction
 -   Skill keyword extractor
 -   Spoke Generation
--   Subflows and actions
 -   Supplier recommendation
 -   Survey Filler Answer Suggestion skill
 -   Text2Test Sentinel
 -   Text2Test Skill
 -   Vulnerable item deduplication
 
-**Parent Topic:**[MCP Server Console reference](../concept/mcp-server-console-reference.md)
+**Parent Topic:**[MCP Server Console reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-server-console-reference.md)
 
 **Related topics**  
 
 
-[Create a tool for a Model Context Protocol server](../task/create-tool-mcp-server.md)
+[Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-tool-mcp-server.md)
 
-[Now Assist skills](../../now-assist-skills/concept/now-assist-skills.md)
+[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
 
-[Now Assist Skill Kit](../../now-assist-skill-kit/concept/now-assist-skill-kit-landing.md)
+[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

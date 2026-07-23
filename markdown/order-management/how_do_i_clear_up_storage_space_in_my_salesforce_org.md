@@ -2,11 +2,12 @@
 title: Free storage space in a Salesforce org
 description: How to clear up space in a Salesforce test environment that is near its storage limit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/how\_do\_i\_clear\_up\_storage\_space\_in\_my\_salesforce\_org.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Free storage space in a Salesforce org
@@ -21,7 +22,7 @@ One option is to remove records from the ConfigurationBOM table. For managed pac
 
 1.  Setup cog in SFDC → Developer Console → Debug \[Open Execute Anonymous Window\]
 
-    ![Menu](../images/cpq-using-apex-anonymous-window.png)
+    \[Omitted image "cpq-using-apex-anonymous-window.png"\] Alt text: Menu
 
 2.  Paste and execute the following:
 
@@ -29,7 +30,7 @@ One option is to remove records from the ConfigurationBOM table. For managed pac
     delete [SELECT id FROM LGK__ConfigurationBOM__c];
     ```
 
-    For CPQ managed packages v1.0 or greater, run this delete instruction against the following objects:
+    For ServiceNow CPQ managed packages v1.0 or greater, run this delete instruction against the following objects:
 
     -   LGK\_\_ConfigurationLineItem\_\_c
     -   LGK\_\_ConfigurationFieldData\_\_c

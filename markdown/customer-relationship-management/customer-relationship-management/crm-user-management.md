@@ -108,7 +108,7 @@ Individual consumers can have multiple profiles for different needs. Consumer pr
 
 [AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/awa-csm-overview.md)
 
-[Set up self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-self-service.md)
+[Set up self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/set-up-self-service.md)
 
 [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

@@ -2,12 +2,13 @@
 title: Manage approvals from Microsoft Teams
 description: Manage Concur expense approvals using Virtual Agent actionable notifications in Microsoft Teams to resolve the approval directly in the Virtual Agent conversation without involving a live agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/va-concur-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -20,7 +21,7 @@ Manage Concur expense approvals using Virtual Agent actionable notifications in 
 -   The Virtual Agent integration is supported only for users who have a user record in your ServiceNow instance. Users must link their accounts to Microsoft Teams and enable Virtual Agent notifications.
 -   Install the Approvals hub integration with the SAP Concur \(sn\_ex\_cnc\) plugin.
 
-For more information on receiving notifications, see [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md) and [Enable Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-va-notifications.md). For more information on Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md).
+For more information on receiving notifications, see [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/teams-conv-integration.md) and [Enable Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-va-notifications.md). For more information on Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
 Role required: approver\_user
 
@@ -44,15 +45,15 @@ Role required: approver\_user
 
     **Note:** You cannot accept or reject a report if the assigned approver has been modified or the report has been updated or closed.
 
-<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d236594e175">
+<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d242062e175">
 
 Decision
 
-</th><th align="left" id="d236594e178">
+</th><th align="left" id="d242062e178">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d236594e184">
+</th></tr></thead><tbody><tr><td id="d242062e184">
 
 **Approve the report**
 
@@ -60,7 +61,7 @@ Action
 
 Select **Approve**.
 
-</td></tr><tr><td id="d236594e196">
+</td></tr><tr><td id="d242062e196">
 
 **Reject the report**
 
@@ -72,40 +73,42 @@ Select **Approve**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Employee Center](../../employee-center/concept/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
-**Parent Topic:**[Employee actions](../concept/employee-sn-ms-teams.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-sn-ms-teams.md)
 
 **Related topics**  
 
 
-[Use the Employee Center topic pages](../../employee-center/concept/ec-topic-use.md)
+[Use the Employee Center topic pages]()
 
-[Topic managers and contributors for topic page management](../../employee-center/concept/topic-managers-and-contributors-for-topic-page-management.md)
+[Topic managers and contributors for topic page management]()
 
-[Use the My To-dos page](../../employee-center/task/ec-to-dos-use.md)
+[Use the My To-dos page]()
 
-[Use approval experience](../../employee-center/task/ec-to-dos-use-approval-hub.md)
+[Use approval experience]()
 
-[Manage approvals from a Microsoft Outlook email](../../sn-ms-outlook/task/oam-concur.md)
+[Manage approvals from a Microsoft Outlook email]()
 
-[Task filters on My tasks](../../employee-center/concept/configurable-filters-experience.md)
+[Task filters on My tasks]()
 
-[View the Recommended for you content](../../employee-center/concept/rfy-employee.md)
+[View the Recommended for you content]()
 
-[Use Employee Center from Zoom](../../employee-center/task/zoom-create-email-notification.md)
+[Use Employee Center from Zoom]()
 
-[View employee profile](../../employee-center/concept/update-employee-profile.md)
+[View employee profile]()
 
-[Use Personalized Answers](../../employee-center/concept/using-personalized-search-on-employee-center.md)
+[Use Employee Profile with HR Service Delivery]()
 
-[Employee Profile org chart widget](../../employee-center/task/view-org-chart.md)
+[Use Personalized Answers]()
 
-[RTL support for Employee Center](../../employee-center/concept/ec-rtl-language-support.md)
+[Employee Profile org chart widget]()
 
-[Manage favorites](../../employee-center/task/web-configure-favorites-employee.md)
+[RTL support for Employee Center]()
 
-[Access applications from App Launcher](../../employee-center/concept/web-application-employee.md)
+[Manage favorites]()
 
-[Use Guided Self-Service](../../employee-center/concept/gss-guided-self-service-homepage.md)
+[Access applications from App Launcher]()
+
+[Use Guided Self-Service]()
 

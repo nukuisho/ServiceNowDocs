@@ -2,13 +2,14 @@
 title: Software Spend Detection Overview dashboard
 description: View all software spend from uploaded financial data in the Software Spend Detection Overview dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-spend-detection-overview-dashboard.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Spend Detection Overview dashboard
@@ -21,9 +22,9 @@ Expand a publisher in the left menu bar to see their products. Select a publishe
 
 Sharing the dashboard's URL displays your currently selected publisher, product, and date range. To view the applied filters, the URL recipients must already be logged in to their ServiceNow instance.
 
-**Note:** Transactions that aren't labeled with a software publisher aren't included in the dashboard. You can manually update these transactions with a publisher to add them to the dashboard. For more information, see [Manually update transactions](../task/manually-update-transactions.md).
+**Note:** Transactions that aren't labeled with a software publisher aren't included in the dashboard. You can manually update these transactions with a publisher to add them to the dashboard. For more information, see [Manually update transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manually-update-transactions.md).
 
-![Software Spend Detection dashboard for all publishers and their spend data](../image/spend-detection-dashboard.png)
+\[Omitted image "spend-detection-dashboard.png"\] Alt text: Software Spend Detection dashboard for all publishers and their spend data
 
 |Indicator|Description|
 |---------|-----------|
@@ -37,5 +38,5 @@ Sharing the dashboard's URL displays your currently selected publisher, product,
 |Expense Spend|Total spend for transactions where the type is Expense. These transactions are from an employee expense system or credit card feed.|
 |Software Spend Over Time|Amount spent on software each month.|
 
-**Parent Topic:**[Software Spend Detection](software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
 

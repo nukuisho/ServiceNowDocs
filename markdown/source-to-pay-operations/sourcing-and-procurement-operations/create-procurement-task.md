@@ -2,6 +2,7 @@
 title: Create a procurement task
 description: As a procurement specialist, create a procurement task for the shopper or employer from the contextual panel of a procurement object details page in Source-to-Pay Workspace, to address your procurement-related business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-task.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -15,7 +16,7 @@ breadcrumb: [Using Procurement Case Management, Use, Sourcing and Procurement Op
 
 As a procurement specialist, create a procurement task for the shopper or employer from the contextual panel of a procurement object details page in Source-to-Pay Workspace, to address your procurement-related business needs.
 
-Describes the procedure for creating a procurement task from the Procurement workspace. 
+\[Omitted video\] Description: Describes the procedure for creating a procurement task from the Procurement workspace.
 
 ## Before you begin
 
@@ -230,5 +231,5 @@ Time taken to resolve the task, in days, hours, minutes, and seconds.
     If you have created a procurement task with action type as Sign document, a document task is automatically created and assigned to the selected shopper or employee.
 
 
-**Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

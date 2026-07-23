@@ -2,6 +2,7 @@
 title: Create a shift plan
 description: Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/manage-team-shifts-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -23,33 +24,33 @@ Role required: sn\_shift\_planning.admin
 
 In the **Shifts** tab, you can view the work shifts and on-call shifts in separate tabs. The shifts are grouped by active and inactive shifts. The contextual side panel displays the active and then the inactive shifts in the order it is displayed in the **Shifts** tab. You can scroll through the shifts using pagination.
 
-**Note:** Your administrator can set user preferences for the pagination size to view work shifts and on-call shifts. For more information see, [Scheduling in Workforce Optimization for ITSM](../reference/configurable-wfo-itsm-scheduling-reference.md)
+**Note:** Your administrator can set user preferences for the pagination size to view work shifts and on-call shifts. For more information see, [Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md)
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon](../../itsm-manager-workspace/image/schedule-icon.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text: Schedule icon\).
 
 3.  Click the **Shifts** tab.
 
     -   **Search shift plans:** Type keywords in the Work shift or On-call shift search field to access related shift plans easily.
-    -   **Filter shift plans:** Use the filter icon \(![Filter schedule](../image/filter-schedule-icon.png)\) to view shifts based on whether the shift is in draft or published state.
-        -   To filter work shifts, in the **Work shift** tab, click the filter icon \(![Filter schedule](../image/filter-schedule-icon.png)\) and select the desired state of shifts you want to view using the **State** field. Use the **Days of week** filter to narrow down the display of shifts based on the desired days in a week.
-        -   To filter on-call shifts, in the **On-call shift** tab, click the filter icon \(![Filter schedule](../image/filter-schedule-icon.png)\) and select the desired state of shifts you want to view.
+    -   **Filter shift plans:** Use the filter icon \(\[Omitted image "filter-schedule-icon.png"\] Alt text: Filter schedule\) to view shifts based on whether the shift is in draft or published state.
+        -   To filter work shifts, in the **Work shift** tab, click the filter icon \(\[Omitted image "filter-schedule-icon.png"\] Alt text: Filter schedule\) and select the desired state of shifts you want to view using the **State** field. Use the **Days of week** filter to narrow down the display of shifts based on the desired days in a week.
+        -   To filter on-call shifts, in the **On-call shift** tab, click the filter icon \(\[Omitted image "filter-schedule-icon.png"\] Alt text: Filter schedule\) and select the desired state of shifts you want to view.
 4.  Click the plus \(+\) icon.
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d39792e180">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d40487e180">
 
 To
 
-</th><th align="left" id="d39792e183">
+</th><th align="left" id="d40487e183">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d39792e189">
+</th></tr></thead><tbody><tr><td id="d40487e189">
 
 **Create a work shift**
 
@@ -82,7 +83,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Click **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d39792e307">
+</td></tr><tr><td id="d40487e307">
 
 **Create an on-call shift**
 
@@ -97,7 +98,7 @@ You can view the number of agents for each hour or day on the shift span window.
         2.  In the **End Time** field, enter the time of day when you want to end the shift.
         3.  From the **Time Zone** menu, select the time zone of the users that you want to allocate to the shift.
     5.  Select the days of the week for which you want to apply the shift.
-    6.  In the **Rotation start date** field, click the calendar icon \(![Calendar icon](../image/calendar-icon.png)\), select the on-call rotation start date for the shift and click **OK**.
+    6.  In the **Rotation start date** field, click the calendar icon \(\[Omitted image "calendar-icon.png"\] Alt text: Calendar icon\), select the on-call rotation start date for the shift and click **OK**.
     7.  Click **Save**.
 2.  Create the on-call rotation.
 
@@ -118,10 +119,10 @@ You can view the name of the primary agent for each on-call shift on the shift c
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](../concept/scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
 
 **Related topics**  
 
 
-[On-Call Scheduling](../../../administer/on-call-scheduling/concept/c_OnCallScheduling.md)
+[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
 

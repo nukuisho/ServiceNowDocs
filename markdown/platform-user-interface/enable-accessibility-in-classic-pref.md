@@ -2,18 +2,19 @@
 title: Enable accessibility in Classic preference
 description: Learn more about the Enable accessibility in Classic preference accessibility preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-accessibility-in-classic-pref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure accessibility preferences, Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure accessibility preferences, Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Enable accessibility in Classic preference
 
 Learn more about the Enable accessibility in Classic preference accessibility preference.
 
-![Enable accessibility in classic accessibility preference.](../image/coral-pref-classic.png)
+\[Omitted image "coral-pref-classic.png"\] Alt text: Enable accessibility in classic accessibility preference.
 
 The purpose of this preference is to improve accessibility in the Classic UI. The classic environment refers to working in lists of records and on record forms directly. You can work in the classic environment with Next Experience active, or with it inactive, which is referred to as Core UI. Turn this preference on to unlock additional accessibility options in Core UI.
 

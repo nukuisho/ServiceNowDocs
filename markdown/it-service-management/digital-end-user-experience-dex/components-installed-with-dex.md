@@ -2,6 +2,7 @@
 title: Installed with DEX
 description: Several types of components are installed with activation of the DEX application \[sn\_dex\] plugin, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/components-installed-with-dex.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -107,7 +108,7 @@ DEX Application\[dex\_application\]
 
 </td><td>
 
-Parent table that stores a list of all the applications configured for monitoring on the **Administration** &gt; **Applications** page. The table extends the parent table sn\_acc\_vis\_content\_application in the Agent Client Collector for Visibility - Content scoped app.
+Parent table that stores a list of all the applications configured for monitoring on the **Administration** &gt; **Applications** page. The table extends the parent table sn\_acc\_vis\_content\_application in the Agent Client Collector for Visibility Content scoped app.
 
 </td></tr><tr><td>
 
@@ -155,8 +156,8 @@ CI Device Configuration\[dex\_ci\_device\_config\]
 
 </td><td>
 
-Table that stores the device configuration data including the logged-in user information.For information on the related policies and check definitions, see [DEX Content Playbook reference](dex-content-playbook-reference.md).
+Table that stores the device configuration data including the logged-in user information.For information on the related policies and check definitions, see [DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

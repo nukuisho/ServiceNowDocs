@@ -2,6 +2,7 @@
 title: Exploring Multi-factor Authentication
 description: Multi-factor Authentication \(MFA\) is an authentication method that requires users to provide information other than their basic credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/explore-mfa.html
 release: australia
 product: Authentication
 classification: authentication
@@ -39,7 +40,7 @@ To enhance security, it’s recommended to prioritize the use of secured factors
 -   MFA is activated by default on ServiceNow.
 -   MFA is enabled using **glide.authenticate.multifactor** property. If you want to disable this property, you must provide a business justification about why you want to disable MFA.
 
-![MFA screen](../images/new-mfa.png)
+\[Omitted image "new-mfa.png"\] Alt text: MFA screen
 
 ServiceNow's MFA supports verification methods such as Authenticator App, Fast IDentity Online 2 \(FIDO2\), Passkey, and time-based One-time Password \(OTP\). Following are the details of available verification methods:
 
@@ -50,13 +51,13 @@ ServiceNow's MFA supports verification methods such as Authenticator App, Fast I
 
 You can use MFA along with the following:
 
--   Local Database Authentication \(native ServiceNow authentication\) or [Lightweight Directory Access Protocol integration](../../ldap/concept/c_LDAPIntegration.md)
--   SSO SAML or SSO OIDC. For more information, see [Multi-Provider single sign-on \(SSO\)](../../single-sign-on/concept/c_MultipleProviderSingleSignOn.md).
+-   Local Database Authentication \(native ServiceNow authentication\) or [Lightweight Directory Access Protocol integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegration.md)
+-   SSO SAML or SSO OIDC. For more information, see [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
 
 **Related topics**  
 
 
-[Multi-factor Authentication verification methods](mfa-methods.md)
+[Multi-factor Authentication verification methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-methods.md)
 
-[Multi-factor Authentication system properties](../reference/mfa-properties.md)
+[Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-properties.md)
 

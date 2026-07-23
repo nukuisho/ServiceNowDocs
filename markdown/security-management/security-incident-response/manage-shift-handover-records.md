@@ -2,12 +2,13 @@
 title: Manage Shift Handover records
 description: Use the Shift Handover records list view to create, edit, copy, or delete Shift Handover records. Each Shift Handover record is associated with a Shift Handover Report Template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manage-shift-handover-records.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [List view in SIR Workspace, Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -26,7 +27,7 @@ Role required:
 -   sn\_si.admin - Inherits the sn\_escm\_sh.shift\_admin role.
 -   sn\_escm\_sh.shift\_admin - Inherits the sn\_escm\_sh.shift\_owner role
 
-**Important:** To learn how to configure the Shift Handover Template as an Admin, see [Configure Shift Handover Templates](../task/configure-shift-handover-templates.md).
+**Important:** To learn how to configure the Shift Handover Template as an Admin, see [Configure Shift Handover Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-shift-handover-templates.md).
 
 ## About this task
 
@@ -45,7 +46,7 @@ Shift Handover template key points:
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
 
-2.  Select the Security Incident List ![list icon](../image/listview-icon.png) icon.
+2.  Select the Security Incident List \[Omitted image "listview-icon.png"\] Alt text: list icon icon.
 
 3.  On the **Lists** tab, select **Shift Handover Records**.
 
@@ -124,7 +125,7 @@ The shift name containing the shift start and shift end details. For example, US
 
     **Note:** Only the Shift Owner can modify the content.
 
-    ![Edit Shift Handover report content](../image/shift-handover-list.png "Shift Handover report content")
+    \[Omitted image "shift-handover-list.png"\] Alt text: Edit Shift Handover report content
 
 10. In the Draft shift report editor, use the Shift Handover report template sections to update the details of the security incidents and users.
 
@@ -136,7 +137,7 @@ The shift name containing the shift start and shift end details. For example, US
 
     2.  Select **Change to "In-progress" state** action to move the Shift Handover record to In-progress state.
 
-        ![Shift Handover in-progress state](../image/shift-handover-report-progress.png "Shift Handover in-progress")
+        \[Omitted image "shift-handover-report-progress.png"\] Alt text: Shift Handover in-progress state
 
 11. In the My shift handover notes editor, update the required details for all the sections like security incident and user details.
 
@@ -146,7 +147,7 @@ The shift name containing the shift start and shift end details. For example, US
 
         For example, if you select **Security Incidents** record, then a list of security incident appear. Select a security incident \(**SIR0010025**\) from the list and update the required Shift Handover details. You can also mention the fields associated with the security incident like short description, watch list by using **/** after the security incident number.
 
-        ![Shift Handover notes](../image/shift-handover-sample.png "Shift Handover Notes")
+        \[Omitted image "shift-handover-sample.png"\] Alt text: Shift Handover notes
 
     2.  To mention a particular user in the editor, use **/** and choose **Select a user**, and then select a user from the list that pops-up.
 
@@ -160,7 +161,7 @@ The shift name containing the shift start and shift end details. For example, US
 
         **Note:** If some other analyst from the active shift team has already updated the report before you, and if changes are being processed, then you might see an error message. You must wait a few seconds and then select **Change to "Review" state** again.
 
-        ![Shift Handover Review state](../image/shift-handover-report-review.png "Shift Handover Review")
+        \[Omitted image "shift-handover-report-review.png"\] Alt text: Shift Handover Review state
 
 12. In the Consolidated shift report, review the Shift Handover report and make the required changes.
 
@@ -172,7 +173,7 @@ The shift name containing the shift start and shift end details. For example, US
 
     3.  Select **Publish** action to publish the Shift Handover report.
 
-        ![Publish the Shift Handover report](../image/shift-handover-report-publish.png "Shift Handover Publish")
+        \[Omitted image "shift-handover-report-publish.png"\] Alt text: Publish the Shift Handover report
 
 13. Select **Save** to save the Shift Handover report.
 
@@ -191,24 +192,24 @@ The shift name containing the shift start and shift end details. For example, US
     3.  To delete an existing Shift Handover record, select the record and select the **Delete** action.
 
 
-**Parent Topic:**[List view in SIR Workspace](setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 
 
-[Personalize a list](personalize-a-list.md)
+[Personalize a list]()
 
-[Apply quick filters on Security Incidents and Response Tasks lists](use-quick-filters-for-security-incidents.md)
+[Apply quick filters on Security Incidents and Response Tasks lists]()
 
-[Assign Security Incidents](assign-security-incident.md)
+[Assign Security Incidents]()
 
-[Close multiple security incidents](../task/close-multiple-incidents-sir.md)
+[Close multiple security incidents]()
 
-[Assign Response Tasks](../task/assign_response_tasks.md)
+[Assign Response Tasks]()
 
-[Report Phish Email](../task/report-phish-email.md)
+[Report Phish Email]()
 
-[Working with quick filters](configure-quick-filters.md)
+[Working with quick filters]()
 
-[Export Security Incidents or Response Tasks](export-security-incidents-or-response-tasks.md)
+[Export Security Incidents or Response Tasks]()
 

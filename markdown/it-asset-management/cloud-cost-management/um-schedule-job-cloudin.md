@@ -2,13 +2,14 @@
 title: Schedule unused resources to be powered off or terminated
 description: To terminate or power off an unused resource, add it to an Unused resources job, specify whether to terminate or power off, and specify when the job should run. You can also move resources from one scheduled job to a different job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/um-schedule-job-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Manage unused resources, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+reading_time_minutes: 3
+breadcrumb: [Manage unused resources, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Schedule unused resources to be powered off or terminated
@@ -109,7 +110,7 @@ Type of change request to use. Unused Machines operations are directly integrate
     -   If a member of the change group rejects the request, the resource state is set to **Declined**, the resource remains listed on reports, and no action is taken.
 **Note:**
 
-The **Short description**, **Description**, **Assignment group**, and **Affected CIs** fields are auto populated. For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md).
+The **Short description**, **Description**, **Assignment group**, and **Affected CIs** fields are auto-populated. For more information, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/t_CreateAChange.md).
 
 </td></tr><tr><td>
 
@@ -117,9 +118,9 @@ Change template
 
 </td><td>
 
-This field appears only when the **Approval type** is selected as **Auto approval**.
+This field appears only when the **Approval type** is set to **Auto approval**.
 
- Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one. See Create a change request template.
+ Change request template \(Standard Change type\) to be used. If no template appears in the list, you must create one.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -129,16 +130,14 @@ This field appears only when the **Approval type** is selected as **Auto approva
 
 The Unused resources job is created and runs at the scheduled time.
 
-**Parent Topic:**[Manage unused resources](../concept/manage-unused-mac.md)
+**Parent Topic:**[Manage unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/manage-unused-mac.md)
 
 **Related topics**  
 
 
-[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)
+[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_ITILChangeManagement.md)
 
-[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_StandardChangeCatalogPlugin.md)
+[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_StandardChangeCatalogPlugin.md)
 
-[bundle-itsm.create-a-change-request-template]
-
-[Exclude a resource from all Cloud Cost Management reports](exclusion-list-add-to-cloudin.md)
+[Exclude a resource from all Cloud Cost Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/exclusion-list-add-to-cloudin.md)
 

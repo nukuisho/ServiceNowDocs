@@ -16,7 +16,7 @@ Playbooks are structured workflows that guide users, agents, and technicians ste
 
 A playbook is a structured process attached to a record, typically a case or a work order, that guides the user working on it through a defined sequence of stages and activities. Because playbooks are associated with specific record types, the correct process is applied automatically based on the nature of the work. A complaint case opens with the complaint handling playbook; a work order task opens with the corresponding field service playbook.
 
-![Playbook with a horizontal stage picker that displays stages across the top of the record and activities in the currently selected stage along the side of the record.](../image/case-playbook-horizontal-stages.png "Playbook with horizontal stages")
+\[Omitted image "case-playbook-horizontal-stages.png"\] Alt text: Playbook with a horizontal stage picker that displays stages across the top of the record and activities in the currently selected stage along the side of the record.
 
 A playbook is organized into stages and activities that progress sequentially based on conditions set by an administrator. Each stage contains a group of activities to complete before the process moves forward. Activities can be manual tasks or form entries, automated system actions that run without agent input, or guided decisions that present structured questions and branch to a recommended next action based on the response.
 

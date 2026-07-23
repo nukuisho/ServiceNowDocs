@@ -2,11 +2,12 @@
 title: Next Experience user start options
 description: As a user, you can specify where you want to start when you log in to ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/ne-start-options-user.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring start page options, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Start page options, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Next Experience user start options
@@ -23,14 +24,16 @@ The start page that you configure should address your daily needs. Next Experien
 
 -   **Next Experience default landing page**
 
-    The default landing page provides information to help orient you to your tasks in an instance with Next Experience enabled. Variants of this page are available, depending on your setup. For more information, see [Exploring your Next Experience default landing page](../../../get-started/servicenow-overview/concept/exploring-your-next-experience-homepage.md).![Next Experience default landing page.](../image/ne-landing-page-user.png)
+    The default landing page provides information to help orient you to your tasks in an instance with Next Experience enabled. Variants of this page are available, depending on your setup. For more information, see [Exploring your Next Experience default landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/exploring-your-next-experience-homepage.md).\[Omitted image "ne-landing-page-user.png"\] Alt text: Next Experience default landing page.
 
 -   **Configurable workspace home**
 
-    Any page within a configurable workspace can be the start page. For more information about configurable workspace options, see [Configuring Configurable Workspace](../../configurable-workspace/concept/c_set-up-configurable-workspace.md).
+    Any page within a configurable workspace can be the start page. For more information about configurable workspace options, see [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_set-up-configurable-workspace.md).
 
 -   **Another user-selected landing page**
 
-    You can select any page on the platform to be your start, based on a user preference. A user-selected landing page can be any page inside a configurable workspace as well. For more information, see [Configure a user-selected start page](../task/configure-user-selected-start-page-preference.md).
+    You can select any page on the platform to be your start, based on a user preference. A user-selected landing page can be any page inside a configurable workspace as well. For more information, see [Configure a user-selected start page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-selected-start-page-preference.md).
 
+
+**Parent Topic:**[Configure Next Experience start page options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

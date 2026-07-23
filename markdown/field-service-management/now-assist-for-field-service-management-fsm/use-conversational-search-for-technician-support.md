@@ -2,6 +2,7 @@
 title: Use conversational search for technician support
 description: Ask natural language questions and get answers from the Knowledge Base, including related steps and guidance, from the ServiceNow Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/use-conversational-search-for-technician-support.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -22,7 +23,7 @@ Role required: wm\_agent
 
 ## About this task
 
-This video demonstrates how to use conversational search for technician support 
+\[Omitted video\] Description: This video demonstrates how to use conversational search for technician support
 
 You can ask questions in your own words and receive responses from the Knowledge Base, including relevant details and step-by-step guidance to help you diagnose and resolve issues.
 
@@ -47,5 +48,5 @@ You can ask questions in your own words and receive responses from the Knowledge
 7.  Tap the new conversation icon to begin a new conversation.
 
 
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](../concept/using-now-assist-fsm.md)
+**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 

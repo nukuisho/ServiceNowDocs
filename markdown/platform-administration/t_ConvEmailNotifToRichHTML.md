@@ -2,6 +2,7 @@
 title: Convert legacy email notifications to rich HTML
 description: By default, new email notifications are created in the rich HTML format. But you can also convert legacy notifications to rich HTML.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ConvEmailNotifToRichHTML.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -40,9 +41,9 @@ When creating new email notifications, write mail scripts using **System Notific
 
 If you manually enter a mail script, any text bounded by `<mail_script> </mail_script>` in the body of a new or converted email notification or template which is saved to the record, a message asks whether the mail script should be converted.
 
-![Invalid mail script message](../image/invalid-mailscript.png "Invalid mail script message")
+\[Omitted image "invalid-mailscript.png"\] Alt text: Invalid mail script message
 
 In many cases, an unconverted mail script fails to run from inside the HTML editor. If you select **Yes**, the script is added to the Email Script \[sys\_script\_email\] table and is automatically replaced in the body with an embedded script tag. You can view the mail scripts in their original form by opening the email notification and clicking the **Show Notification Scripts** related link.
 
-**Parent Topic:**[Create an email notification](t_CreateANotification.md)
+**Parent Topic:**[Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
 

@@ -2,6 +2,7 @@
 title: Add Next Experience font and image assets
 description: Add assets to your Next Experience themes and styles to store extra information associated with a theme, including fonts and images.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/add-image-asset.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,13 +30,13 @@ Upload images associated with your theme including banner images and logos. Add 
 
 2.  In the UX Theme Assets list, select **New**.
 
-3.  Select the Manage Attachments icon ![](../image/icon-manage-attachment.png) to add an image or font.
+3.  Select the Manage Attachments icon \[Omitted image "icon-manage-attachment.png"\] Alt text: to add an image or font.
 
     Your font asset may have separate files for different characteristics such as bold or italic. Upload each of these files. Verify that your image is in SVG format.
 
 4.  When the asset is uploaded, close the Attachments window.
 
-5.  Type the file name of the asset in the **Name** field and select **Submit**.![UX Theme Asset form with uploaded image asset](../image/next-exp-add-image-asset.png)
+5.  Type the file name of the asset in the **Name** field and select **Submit**.\[Omitted image "next-exp-add-image-asset.png"\] Alt text: UX Theme Asset form with uploaded image asset
 
 6.  Add a script to the asset in the **Asset Properties** box.
 
@@ -46,5 +47,5 @@ Upload images associated with your theme including banner images and logos. Add 
 
 The font or image is available to use in your theme.
 
-**Parent Topic:**[Configuring Next Experience themes and preferences](config-next-experience-themes-prefs.md)
+**Parent Topic:**[Configuring Next Experience themes and preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-next-experience-themes-prefs.md)
 

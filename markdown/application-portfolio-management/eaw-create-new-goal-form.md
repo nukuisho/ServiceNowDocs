@@ -1,7 +1,8 @@
 ---
-title: Create new goal form
+title: Create goal form
 description: Use the Goal form to create goals for your organizational strategic priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-create-new-goal-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new goal form
+# Create goal form
 
 Use the Goal form to create goals for your organizational strategic priorities.
 
@@ -171,14 +172,14 @@ Comments
 Detailed comments for the goal to facilitate collaboration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Exploring goals](../../concept/eaw-concept/eaw-goals.md)
+[Exploring goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-goals.md)
 
-[Add or edit a goal](../../task/eaw-task/eaw-add-or-edit-a-goal.md)
+[Add or edit a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-add-or-edit-a-goal.md)
 
-[Create a sub-goal](../../task/eaw-task/eaw-create-a-sub-goal.md)
+[Create a sub-goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-a-sub-goal.md)
 

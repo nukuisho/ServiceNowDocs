@@ -2,12 +2,13 @@
 title: Add artifacts to case\(s\) or case task\(s\)
 description: After you have created a case, you can view or add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -19,7 +20,7 @@ After you have created a case, you can view or add artifacts, such as security i
 
 Role required: admin
 
-**Note:** Artifacts are available only to the existing cases. For observables and indicators, the artifacts can also be added or associated to a case from the import job using the Import Intelligence button. For more information on how to import see, [Import Intelligence in TISC](../concept/importing-threat-intelligence.md)
+**Note:** Artifacts are available only to the existing cases. For observables and indicators, the artifacts can also be added or associated to a case from the import job using the Import Intelligence button. For more information on how to import see, [Import Intelligence in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/importing-threat-intelligence.md)
 
 ## Procedure
 
@@ -39,7 +40,7 @@ Role required: admin
 
 6.  Link or Unlink the records from the case or case task.
 
-    **Note:** For more information, see [Link Threat Intel Related Records](link-threat-intel-releated-records.md)
+    **Note:** For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md)
 
     Following table lists the artifacts related lists related to the case\(s\) or case task\(s\):
 
@@ -285,29 +286,35 @@ List the vulnerability entries that are related to this cases or case tasks.
 
 </td></tr></tbody>
 </table>
--   **[Roll up of MITRE Techniques from Artifacts to Case](roll-up-mitre-case.md)**  
+-   **[Roll up of MITRE Techniques from Artifacts to Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/roll-up-mitre-case.md)**  
 When intelligence records are added to a case, all associated MITRE Techniques are automatically rolled up to the case level.
--   **[Show MITRE ATT&amp;CK Framework for a Case\(s\)](tisc-show-mitre-fw.md)**  
+-   **[Show MITRE ATT&amp;CK Framework for a Case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-show-mitre-fw.md)**  
 Displays all the associated techniques of a case on the MITRE ATT&amp;CK framework.
 
-**Parent Topic:**[Threat Analyst Workbench](../concept/threat-analyst-workbench.md)
+**Parent Topic:**[Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-analyst-workbench.md)
 
 **Related topics**  
 
 
-[Workbench Overview](../concept/workbench-overview.md)
+[Workbench Overview]()
 
-[Creating cases using Threat Analyst Workbench](../concept/create-cases-using-threat-analyst-workbench.md)
+[Creating cases using Threat Analyst Workbench]()
 
-[Creating case task using Threat Analyst Workbench](tisc-create-case-task.md)
+[Summarize a Case with Now Assist for Threat Intelligence Security Center]()
 
-[Working with Investigation Canvas](../concept/tisc-investigation-canvases.md)
+[Creating case task using Threat Analyst Workbench]()
 
-[Run Enrichment Actions within a case](run-enrichment-results.md)
+[Working with Investigation Canvas]()
 
-[View Case Reports](view-case-reports.md)
+[Run Enrichment Actions within a case]()
 
-[Create a security incident from a TISC case](tisc-create-si-case.md)
+[Generate a Case Report using generative AI]()
 
-[Upload Secure File Attachments](secure-file-attachments.md)
+[Generate a Case Report using a template]()
+
+[Create a security incident from a TISC case]()
+
+[Upload Secure File Attachments]()
+
+[Using playbooks]()
 

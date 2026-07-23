@@ -2,6 +2,7 @@
 title: Install Now Assist plugins
 description: Install Now Assist plugins to enable generative AI on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/install-now-assist-spm-plugin.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm

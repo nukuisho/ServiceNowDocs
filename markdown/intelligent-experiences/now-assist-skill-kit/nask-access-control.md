@@ -2,11 +2,12 @@
 title: Configure security controls for a skill
 description: You must define an access control list \(ACL\) and role restrictions for all skills. An ACL enables you to restrict who is able to access and execute a skill to only users with the correct role. Role restrictions enable users to limit roles during skill execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/nask-access-control.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---
@@ -41,7 +42,7 @@ Role required: sn\_skill\_builder.admin
 
     4.  Select an option.
 
-        ![image.nask-acl]
+        \[Omitted image "image.nask-acl"\] Alt text: User access dialog.
 
 <table id="table_h4k_kys_jgc"><thead><tr><th>
 
@@ -74,7 +75,7 @@ Select the roles that a user must have to execute the skill. **Note:** If you se
 
 3.  Add an ACL to a new skill.
 
-    1.  [Create a skill](create-new-skill.md).
+    1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md).
 
     2.  In the **Configure security controls** section, select an option for the access control list.
 
@@ -83,12 +84,12 @@ Select the roles that a user must have to execute the skill. **Note:** If you se
     4.  Continue creating the skill.
 
 
-**Parent Topic:**[Configuring Now Assist Skill Kit](../concept/configuring-now-assist-skill-kit.md)
+**Parent Topic:**[Configuring Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/configuring-now-assist-skill-kit.md)
 
 **Related topics**  
 
 
-[Configure a skill prompt](configure-skill-prompt.md)
+[Configure a skill prompt]()
 
-[Configure skill deployment settings](configure-skill-settings.md)
+[Configure skill deployment settings]()
 

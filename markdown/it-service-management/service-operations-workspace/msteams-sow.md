@@ -2,6 +2,7 @@
 title: ServiceNow integrations with Microsoft Teams in Service Operations Workspace
 description: You can create a connected experience for users in Service Operations Workspace through ServiceNow integrations with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/msteams-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -29,43 +30,43 @@ From the **Collaborate** panel of the task record, you can perform any of the fo
 -   Initiate a chat conversation from the record.
 -   Import messages from an existing chat conversation to the record.
 
-An agent can view the user presence before contacting the user. For information about the refresh duration for user presence in Service Operations Workspace, see [Specify the refresh duration for user presence in Service Operations Workspace](../task/specify-refresh-duration-user-presence.md).
+An agent can view the user presence before contacting the user. For information about the refresh duration for user presence in Service Operations Workspace, see [Specify the refresh duration for user presence in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/specify-refresh-duration-user-presence.md).
 
-![Collaborate panel from the sidebar](../image/collaborate-panel.png "Collaborate panel from the sidebar")
+\[Omitted image "collaborate-panel.png"\] Alt text: Collaborate panel from the sidebar
 
-For more information about Service Operations Workspace through ServiceNow integrations with Microsoft Teams, see [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_ServiceNowForMSTeams.md).
+For more information about Service Operations Workspace through ServiceNow integrations with Microsoft Teams, see [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/c_ServiceNowForMSTeams.md).
 
--   **[Collaborate on a task record using Microsoft Teams in Service Operations Workspace](../task/start-msteams-chat-sow.md)**  
-Provide a connected experience for users by starting a Microsoft Teams chat conversation from a task record or importing the chat to the task record.
+-   **[Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/start-msteams-chat-sow.md)**  
+Start or import a Microsoft Teams chat from a task record in Service Operations Workspace.
 
-**Parent Topic:**[Managing IT services in your organization](managing-services-operations-in-organization.md)
+**Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 
 **Related topics**  
 
 
-[Knowledge Management in Service Operations Workspace](knowledge-articles-sow.md)
+[Knowledge Management in Service Operations Workspace]()
 
-[Major Incident Management in Service Operations Workspace](mim-in-sow.md)
+[Major Incident Management in Service Operations Workspace]()
 
-[On-Call Scheduling in Service Operations Workspace](on-call-scheduling-in-sow.md)
+[On-Call Scheduling in Service Operations Workspace]()
 
-[Problem Management in Service Operations Workspace](problem-sow.md)
+[Problem Management in Service Operations Workspace]()
 
-[Recommendation Framework in Service Operations Workspace](recommendation-framework-sow.md)
+[Recommendation Framework in Service Operations Workspace]()
 
-[Recommended Actions for ITSM in Service Operations Workspace](recommended-actions-for-itsm-in-service-operations-workspace.md)
+[Recommended Actions for ITSM in Service Operations Workspace]()
 
-[Service Level Management in Service Operations Workspace](slm-sow.md#)
+[Service Level Management in Service Operations Workspace]()
 
-[Walk-up Experience management in Service Operations Workspace](walkup-sow.md)
+[Walk-up Experience management in Service Operations Workspace]()
 
-[Collaboration in Service Operations Workspace](collaboration-sow.md)
+[Collaboration in Service Operations Workspace]()
 
-[Computer Telephony Integration in Service Operations Workspace](configure-cti-sow.md)
+[Computer Telephony Integration in Service Operations Workspace]()
 
-[Universal Request in Service Operations Workspace](using-ur-sow.md)
+[Universal Request in Service Operations Workspace]()
 
-[Universal Task in Service Operations Workspace](using-ut-sow.md)
+[Universal Task in Service Operations Workspace]()
 
-[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](resetting-password-pr-sow.md)
+[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace]()
 

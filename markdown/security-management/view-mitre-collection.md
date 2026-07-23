@@ -2,6 +2,7 @@
 title: Manage matrices
 description: Manage the matrices that have been imported from the MITRE TAXII collections. Matrices are a collection of tactics and techniques. You can view the matrices to review if your collections are available in the MITRE-ATT&amp;CK repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/view-mitre-collection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Manage the matrices that have been imported from the MITRE TAXII collections. Ma
 
 ## Before you begin
 
-**Note:** Review and verify that only the matrix you intend to use in your organization is set to active and disable the other matrices. For example, if you intend to use the Enterprise ATT&amp;CK matrix, then the Enterprise ATT&amp;CK matrix is activated at the [TAXII collection](setup-mitre-profile.md) level and in the Matrices level. Disable the other Mobile ATT&amp;CK and ICS ATT&amp;CK matrices at the TAXII collection and at the Matrices level.
+**Note:** Review and verify that only the matrix you intend to use in your organization is set to active and disable the other matrices. For example, if you intend to use the Enterprise ATT&amp;CK matrix, then the Enterprise ATT&amp;CK matrix is activated at the [TAXII collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/setup-mitre-profile.md) level and in the Matrices level. Disable the other Mobile ATT&amp;CK and ICS ATT&amp;CK matrices at the TAXII collection and at the Matrices level.
 
 Role required:
 
@@ -43,61 +44,61 @@ Role required:
 
     In the following illustration, you can see the navigational path from the Enterprise ATT&amp;CK matrix, to the Initial Access \(TA0001\) tactic, and then to the Phishing \(T1566\) technique. On the Attack Pattern - Phishing technique page, you can view the related list - Tactic, Sub Technique, Group, Mitigation, External References, Malware, and Tools.
 
-    ![Threat Intelligence: MITRE ATT&CK matrix.](../image/enterprise-matrice-view.gif)
+    \[Omitted image "enterprise-matrice-view.gif"\] Alt text: Threat Intelligence: MITRE ATT&amp;CK matrix.
 
 
 ## What to do next
 
-You can [extend the information](view-and-extend-information.md) in some of these related list objects based on the technique that you selected. For example, you can add new information for Group, Mitigation, External References, Malware, and Tools.
+You can [extend the information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/view-and-extend-information.md) in some of these related list objects based on the technique that you selected. For example, you can add new information for Group, Mitigation, External References, Malware, and Tools.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](../concept/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 
 
-[Get started with MITRE-ATT&amp;CK framework](../reference/get-started-with-mitre.md)
+[Get started with MITRE-ATT&amp;CK framework]()
 
-[Understand the MITRE to STIX data model](../reference/understand-the-mitre-to-stix-data-model-mapping.md)
+[Understand the MITRE to STIX data model]()
 
-[Domain separation and MITRE-ATT&amp;CK](../reference/domain-separation-and-mitre-att-ck.md)
+[Domain separation and MITRE-ATT&amp;CK]()
 
-[Set up the MITRE-ATT&amp;CK framework](setup-mitre-profile.md)
+[Set up the MITRE-ATT&amp;CK framework]()
 
-[Manage techniques](view-techniques.md)
+[Manage techniques]()
 
-[Manage mitigations](manage-mitigations.md)
+[Manage mitigations]()
 
-[Manage groups](manage-groups-threat-intel.md)
+[Manage groups]()
 
-[Manage malware](manage-malware.md)
+[Manage malware]()
 
-[Manage tools](manage-tools.md)
+[Manage tools]()
 
-[Manage MITRE relationships](manage-mitre-relationships.md)
+[Manage MITRE relationships]()
 
-[Manage CVE and technique mapping](manage-cve-and-technique-mapping.md)
+[Manage CVE and technique mapping]()
 
-[Extend the MITRE-ATT&amp;CK data](view-and-extend-information.md)
+[Extend the MITRE-ATT&amp;CK data]()
 
-[Define the data source and detection tool mapping](manage-mitre-att-ck-data-sources.md)
+[Define the data source and detection tool mapping]()
 
-[Define the data source and data component mapping](map-the-data-source-and-data-components.md)
+[Define the data source and data component mapping]()
 
-[Define the technique detection coverage](define-technique-coverage.md)
+[Define the technique detection coverage]()
 
-[Map your technique detection coverage to a technique](map-technique-coverage.md)
+[Map your technique detection coverage to a technique]()
 
-[Define the mitigation coverage](define-the-mitigation-coverage.md)
+[Define the mitigation coverage]()
 
-[Map your mitigation coverage to a technique](map-your-mitigation-coverage-to-a-technique.md)
+[Map your mitigation coverage to a technique]()
 
-[Create and map detection rules](create-detection-rules.md)
+[Create and map detection rules]()
 
-[Auto-extract technique rules for importing MITRE-ATT&amp;CK information](../concept/auto-extract-technique-rules.md#)
+[Auto-extract technique rules for importing MITRE-ATT&amp;CK information]()
 
-[Review threat group and MITRE-ATT&amp;CK techniques mapping](review-threat-group-and-techniques-mapping.md)
+[Review threat group and MITRE-ATT&amp;CK techniques mapping]()
 
-[Threat group to technique heatmap definition](threat-group-to-technique-heatmap-definition.md)
+[Threat group to technique heatmap definition]()
 
-[Review the MITRE-ATT&amp;CK system properties](configure-mitre-att-ck-properties.md)
+[Review the MITRE-ATT&amp;CK system properties]()
 

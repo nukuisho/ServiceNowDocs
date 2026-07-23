@@ -2,6 +2,7 @@
 title: Configure the ServiceNow app for the default instance
 description: Configure apps that support managed configuration by deploying an XML configuration file to users' iOS devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/config-app-default-instance-citrix.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -66,7 +67,7 @@ Configuring the app for a default instance is only available for iOS devices.
 14. Click **Save**.
 
 
-**Parent Topic:**[Citrix XenMobile](../concept/citrix-mdm.md)
+**Parent Topic:**[Citrix XenMobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/citrix-mdm.md)
 
 **Related topics**  
 

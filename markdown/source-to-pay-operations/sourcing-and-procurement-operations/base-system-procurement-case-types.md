@@ -2,6 +2,7 @@
 title: Base system procurement case type reference
 description: Procurement Case Management provides 13 base system case types that classify procurement work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/base-system-procurement-case-types.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -223,22 +224,24 @@ Obtain a copy of an existing supplier contract for reference.
 Employee submits the **Request a copy of contract** catalog item in the Service Catalog or Employee Center. The system links the case to the relevant contract record and populates the case description with the contract number.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Procurement Operations reference](spo-reference.md)
+</table>**Parent Topic:**[Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
 
 **Related topics**  
 
 
-[Create New Pipeline Project form](create-pipeline-project-form.md)
+[Create New Pipeline Project form]()
 
-[Pipeline project record tabs and UI actions](pipeline-form-tabs-actions.md)
+[Pipeline project record tabs and UI actions]()
 
-[Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md)
+[Savings opportunity fields]()
 
-[SPO and ITAM data model mappings](../concept/itam-spo-data-model.md)
+[Purchase requisition, purchase order, and sourcing request states]()
 
-[Domain separation and Sourcing and Procurement Operations](../concept/psm-domain-separation.md)
+[SPO and ITAM data model mappings]()
 
-[Sourcing and Procurement Operations glossary](../concept/spo-glossary.md#)
+[Domain separation and Sourcing and Procurement Operations]()
 
-[Procurement case types](../concept/procurement-case-types.md)
+[Sourcing and Procurement Operations glossary]()
+
+[Procurement case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/procurement-case-types.md)
 

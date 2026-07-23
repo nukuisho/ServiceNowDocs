@@ -2,13 +2,14 @@
 title: Legacy Software Asset Management plugin setup process
 description: To get started with the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin, you need to identify and discover software owned, create software models, create license records, and configure software counters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_SetupProcess.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Legacy Software Asset Management plugin setup process
@@ -37,30 +38,30 @@ To get started with the legacy Software Asset Management \(com.snc.software\_ass
     Configure software counters to view your organization's software compliance levels for all of your software.
 
 
-**Parent Topic:**[Legacy Software Asset Management plugin](c_SoftwareAssetManagement.md)
+**Parent Topic:**[Legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
 
 **Related topics**  
 
 
-[Legacy Software Asset Management plugin Overview module](c_SWAssetMgmtOverviewMod.md)
+[Legacy Software Asset Management plugin Overview module]()
 
-[Determine where software is installed using the legacy Software Asset Management plugin](c_DeterminWhereSWInstalled.md)
+[Determine where software is installed using the legacy Software Asset Management plugin]()
 
-[Software licenses in the legacy Software Asset Management plugin](c_SoftwareLicenses.md)
+[Software licenses in the legacy Software Asset Management plugin]()
 
-[Manage software models using the legacy Software Asset Management plugin](../task/t_ManagingSoftwareModels.md)
+[Manage software models using the legacy Software Asset Management plugin]()
 
-[License calculations with the legacy Software Asset Management plugin](c_UseLicenseCalculations.md)
+[License calculations with the legacy Software Asset Management plugin]()
 
-[Software discovery models in the legacy Software Asset Management plugin](c_UsingSoftwareDiscoveryModels.md)
+[Software discovery models in the legacy Software Asset Management plugin]()
 
-[Legacy Software License Compliance Checker](c_SoftwareLicenseComplianceChecker.md)
+[Legacy Software License Compliance Checker]()
 
-[Software license reconciliation counters for the legacy Software Asset Management plugin](c_UseCountersSWLicenseReconcil.md)
+[Software license reconciliation counters for the legacy Software Asset Management plugin]()
 
-[Legacy IBM PVU Process Pack](c_IBMPVUProcessPack.md)
+[Legacy IBM PVU Process Pack]()
 
-[Software contracts for the legacy Software Asset Management plugin](c_SoftwareContracts.md)
+[Software contracts for the legacy Software Asset Management plugin]()
 
-[Legacy Oracle process pack](c_OracleProcessPack.md)
+[Legacy Oracle process pack]()
 

@@ -2,6 +2,7 @@
 title: Create an email notification using the Notification agent
 description: Create an email notification using the Notification agent in Now Assist by describing your requirements in natural language, instead of navigating forms or writing scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-email-notification.html
 release: australia
 topic_type: task
 last_updated: "2026-03-20"
@@ -15,7 +16,7 @@ Create an email notification using the Notification agent in Now Assist by descr
 
 ## Before you begin
 
-The Notification agent may produce inconsistent results when used with the Now LLM model. Confirm the notification details before deployment.
+Confirm the notification details before deployment.
 
 **Note:** The Notification Agent requires the Implementation Agent \(IA\) Orchestration framework and is not supported as a standalone feature.
 
@@ -41,8 +42,9 @@ Role required: admin
 
     Example prompts:
 
-    -   `Notify the approver when an [BU name] request is pending approval.`
-    -   `Notify the assignee when an [BU name] task is due.`
+    -   `Notify the approver when an [application] request is pending approval.`
+    -   `Notify the assignee when an [application] task is due.`
+    -   `Create a new notification that sends an email when a new incident is created. The notification should be sent to both the caller and the assigned user on the incident. Set the notification category to IT Service Management. Set the email template to 'incident.ess.resolve'.`
     **Note:**
 
     The agent supports two intents, creating a new notification or editing an existing notification. If the intent is unclear, the agent prompts you to select one.

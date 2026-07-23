@@ -2,6 +2,7 @@
 title: Generate a knowledge article for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Generate the knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment with Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-knowledge-article.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -19,7 +20,7 @@ Generate the knowledge articles for resolved and closed cases within the CSM Con
 
 To generate a knowledge article for a case, the case must be in the resolved and closed state, and must not already have a knowledge article linked to it.
 
-Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
+Install the Knowledge Management Advanced plugin to use the Knowledge Centered Service \(KCS\) template when you’re generating knowledge articles. For more information, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/activate-knowledge-advanced-plugin.md).
 
 Make sure that your administrator enables Now Assist experience on the Create Article page to ensure that the following knowledge base generation criteria is configured:
 
@@ -60,11 +61,11 @@ In  CSM Configurable Workspace and classic environment, you can generate the k
 
 6.  In the Use Al to draft this article modal, select **Yes, draft with Now Assist**.
 
-    ![Enable Now Assist in CSM for KB article generation.](../image/serviceproblemcase-knowledge-article.png "Modal to draft article using AI")
+    \[Omitted image "serviceproblemcase-knowledge-article.png"\] Alt text: Enable Now Assist in CSM for KB article generation.
 
 7.  In the new modal, search for similar cases that can be used to generate the article; otherwise, select **Cancel**.
 
-    ![Select up to five additional relevant cases in the new modal to generate the article.](../image/additional-relevant-task-tmt.png "Additional relevant tasks")
+    \[Omitted image "additional-relevant-task-tmt.png"\] Alt text: Select up to five additional relevant cases in the new modal to generate the article.
 
     The completed article is displayed in the chosen template with a success message "This article was drafted by Now Assist. Be sure to review it for accuracy before saving."
 
@@ -88,10 +89,10 @@ In  CSM Configurable Workspace and classic environment, you can generate the k
     The Now Assist success message disappears which means that it’s no longer a Now LLM Service generated article.
 
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-spm-using.md)
+**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 
 **Related topics**  
 
 
-[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/now-assist-knowledge-management.md)
+[Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-knowledge-management.md)
 

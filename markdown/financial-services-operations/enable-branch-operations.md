@@ -2,6 +2,7 @@
 title: Enable branch operations
 description: You can enable a set of branch operations features so that managers can gain views into operational performance and cases across the branches they manage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/enable-branch-operations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -48,7 +49,7 @@ The following plugins install the Location manager contributor role and workspac
 -   Financial Services Operations \(FSO\) application plugin - Applicable FSO application plugins install branch operations demo data and add the branch location field on case tables and records.
 -   Financial Services Operations Core application plugin - The Financial Services Operations Core application plugin \(sn\_bom\) is automatically installed when you install an applicable FSO application. The sn\_bom plugin installs the Location manager contributor role \(sn\_bom.location\_manager\_contributor\). The Location manager contributor role enables a personalized Workspace with dashboard for viewing metrics and managing cases. The role can collect and submit case documents, and add staff members to a branch location.
 
-    **Note:** The Business Location plugin must be activated for the sn\_bom.location\_manager\_contributor role to be enabled. For more information, see [https://servicenow.com/docs/bundle/tokyo-customer-service-management/page/product/customer-service-management/task/activate-business-location.html](https://servicenow.com/docs/bundle/tokyo-customer-service-management/page/product/customer-service-management/task/activate-business-location.html)
+    **Note:** The Business Location plugin must be activated for the sn\_bom.location\_manager\_contributor role to be enabled. For more information, see [Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-business-location.md)
 
 -   Business Location plugin \(com.snc.business\_location\) - The com.snc.business\_location plugin enables support for banks that interact with customers through branches. The com.snc.business\_location plugin automatically activates the Service Organization plugin \(com.snc.service\_organization\), which enables support for internal branches. For information on activating the Business Location plugin, see [Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/activate-business-location.md).
 
@@ -62,9 +63,9 @@ The Location manager contributor workspace contains these pages.
 
 The Location manager contributor role can select metric numbers from the landing or Branch Performance Metrics dashboard pages to drill down to a breakdown list or KPI Details performance analytics view.
 
-For more information about analytics and reporting for Financial Services Operations, see [Implementing Platform Analytics solutions](../../../use/application-content-packs/concept/fso-content-pack.md) and [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md).
+For more information about analytics and reporting for Financial Services Operations, see [Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md) and [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md).
 
-For more information on workspaces in Financial Services Operations, see [Workspaces](fso-workspace.md).
+For more information on workspaces in Financial Services Operations, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-workspace.md).
 
 ## Branch Performance Metrics dashboard
 

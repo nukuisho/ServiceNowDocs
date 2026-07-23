@@ -2,6 +2,7 @@
 title: Now Assist for Retail Service Management \(RSM\)
 description: The store inquiry AI agent is an intelligent assistant designed to support the headquarters \(HQ\) support agents in efficiently managing and resolving cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-now-assist-for-retail.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,15 +18,15 @@ The store inquiry AI agent is an intelligent assistant designed to support the h
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about the store inquiry AI agent and it's capabilities.](rahi-retail-now-assist-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about the store inquiry AI agent and it's capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-now-assist-explore.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)How to enable the trigger to leverage the store inquiry AI agent.](rahi-retail-now-assist-configure.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:How to enable the trigger to leverage the store inquiry AI agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/rahi-retail-now-assist-configure.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use store inquiry Al agent to improve and enhance the store inquiry processes.](agentic-workflows-now-assist-retail.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use store inquiry Al agent to improve and enhance the store inquiry processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/retail-industry/agentic-workflows-now-assist-retail.md)
 
 </td></tr><tr><td>
 
@@ -44,9 +45,9 @@ The store inquiry AI agent is an intelligent assistant designed to support the h
 
 **Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help

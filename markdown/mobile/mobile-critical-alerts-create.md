@@ -2,6 +2,7 @@
 title: Mobile critical alerts
 description: Send your users critical alerts, even if they set their mobile device to Do Not Disturb or Silent mode. Configure these visual and audio alerts to be sent when an issue needs immediate attention. Example scenarios can be to inform the user of an essential update, or to publicize a major incident that requires a speedy response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-critical-alerts-create.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,11 +20,11 @@ Role required: admin
 
 ## About this task
 
-This task describes how to create a critical alert from an existing push notification. To create a push notification from scratch, see [Mobile push notifications](../concept/sg-mobile-push-notifications.md).
+This task describes how to create a critical alert from an existing push notification. To create a push notification from scratch, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md).
 
 **Note:**
 
--   For users to receive critical alerts, the feature must be enabled on the user’s mobile device. If the feature is not enabled, the critical alert is delivered as a regular push notification, however it is labeled as critical in the notifications area. For more information, see the user-related topic, [Enabling critical alerts](../reference/critical-alert-enable.md).
+-   For users to receive critical alerts, the feature must be enabled on the user’s mobile device. If the feature is not enabled, the critical alert is delivered as a regular push notification, however it is labeled as critical in the notifications area. For more information, see the user-related topic, [Enabling critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/critical-alert-enable.md).
 -   On the Android platform, when a user receives a critical alert on certain phone types, they may experience the following device behavior:
 
     -   **OnePlus devices with hardware-controlled ringer mode:**
@@ -54,22 +55,22 @@ This task describes how to create a critical alert from an existing push notific
 
     This is the notification record that you define with a critical status.
 
-    **Note:** If you want to create a push notification from scratch, refer to [Mobile push notifications](../concept/sg-mobile-push-notifications.md). You then must follow these subsequent steps to define the push notification as critical.
+    **Note:** If you want to create a push notification from scratch, refer to [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md). You then must follow these subsequent steps to define the push notification as critical.
 
 5.  Select the Push notification message content record within the Push notification event.
 
-    ![Location of the push notification message content in the MAB hierarchy tree.](../image/push-notif-mess-content.png)
+    \[Omitted image "push-notif-mess-content.png"\] Alt text: Location of the push notification message content in the MAB hierarchy tree.
 
 6.  Within the **Push message content** area, define and configure your critical alert.
 
-    For information on how to configure a critical alert, see [Configure code for critical alerts](../reference/mobile-citical-alert-code.md).
+    For information on how to configure a critical alert, see [Configure code for critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-citical-alert-code.md).
 
 7.  Select **Save**.
 
 8.  Complete these steps if you need the same push notification to be pushed to different mobile applications.
 
     1.  Select the Push notification message you want to duplicate.
-    2.  Select the more button \(![More button.](../image/mab-button-more.png)\) and select **Duplicate**.
+    2.  Select the more button \(\[Omitted image "mab-button-more.png"\] Alt text: More button.\) and select **Duplicate**.
 
         The Create a push notification message window displays.
 
@@ -83,13 +84,13 @@ This task describes how to create a critical alert from an existing push notific
     7.  In the **Push app** field in the Push application area, select the same application you selected for the push notification message record.
     8.  In the Pull message content area, you have the option to edit the critical alert parameters.
 
-        **Note:** If the push message content contains a mobile deep link in the code, then you must change the application this alert is used for, either `Request` or `Agent`. Mobile deep links are written in the code as `MobileDeepLinkGenerator('<application type>')`. For more information, see [Mobile deep link structure](../reference/deep-link-mobile-structure.md).
+        **Note:** If the push message content contains a mobile deep link in the code, then you must change the application this alert is used for, either `Request` or `Agent`. Mobile deep links are written in the code as `MobileDeepLinkGenerator('<application type>')`. For more information, see [Mobile deep link structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/deep-link-mobile-structure.md).
 
     9.  Select **Save**.
     10. Repeat these steps for each mobile application where you want to add a critical notification.
 
--   **[Configure code for critical alerts](../reference/mobile-citical-alert-code.md)**  
+-   **[Configure code for critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-citical-alert-code.md)**  
 You can make a push notification into a critical alert with the addition of some JSON code. Different JSON code is used for iOS and Android operating systems and for the ITSM business unit.
 
-**Parent Topic:**[Mobile push notifications](../concept/sg-mobile-push-notifications.md)
+**Parent Topic:**[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-push-notifications.md)
 

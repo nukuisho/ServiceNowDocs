@@ -2,6 +2,7 @@
 title: Location migration
 description: Learn how to migrate location data from the ServiceNow Locations table to the Workplace Location table to use them in Workplace Service Delivery applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/location-migration.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -28,51 +29,51 @@ When you set a configuration as optional, then the records that don’t match th
 
 After migrating the locations, if you create a location in the Workplace Core application, the location is automatically added in the ServiceNow® Location \[cmn\_location\] table. You can configure the type of the location by setting Dictionary Overrides.
 
--   **[Configure location migration hierarchy](../task/add-location-migration-hierarchy.md)**  
+-   **[Configure location migration hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-location-migration-hierarchy.md)**  
 Create a hierarchy for how the location data from the ServiceNow® Location table \[cmn\_location\] must be migrated to the Workplace Location \[sn\_wsd\_core\_workplace\_location\] table of Workplace Service Delivery.
--   **[Set the location type in Location table](../task/set-loc-type-in-loc-table.md)**  
+-   **[Set the location type in Location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/set-loc-type-in-loc-table.md)**  
 Set the location type of a location by creating a dictionary override of the table.
 
-**Parent Topic:**[Manage workplace safety activities](manage-wsd-activites.md)
+**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 
 
-[Import your workspaces data from an Excel spreadsheet](../task/import-excel-spreadsheet-workspace-data-wsd.md)
+[Import your workspaces data from an Excel spreadsheet]()
 
-[Add a space type configuration](../task/add-space-type-configuration-wsd.md)
+[Add a space type configuration]()
 
-[Configure a workplace card](../task/configure-workplace-card.md)
+[Configure a workplace card]()
 
-[Block a workplace location](../task/block-workplace-location.md)
+[Block a workplace location]()
 
-[Configure Workplace entity and entity types](workplace-entity.md)
+[Configure Workplace entity and entity types]()
 
-[Managing Neighborhoods](../../workplace-space-management/concept/neighborhoods.md)
+[Managing Neighborhoods]()
 
-[Enable favorites option for Workplace Service Portal](../task/confgure-favourites-option-for-ws-portal-wsd.md)
+[Enable favorites option for Workplace Service Portal]()
 
-[Create a workplace performer criteria](../task/create-workplace-performer-criteria.md)
+[Create a workplace performer criteria]()
 
-[Mapping employees to their designated workspaces](mapping-employees-to-existing-work-locations-wsd.md)
+[Mapping employees to their designated workspaces]()
 
-[Assign the workplace user role to employees](../task/assign-workplace-user-role-to-employees-of-a-location-wsd.md)
+[Assign the workplace user role to employees]()
 
-[Configuring shifts for your workplace](configuring-shifts-for-your-workplace-wsd.md)
+[Configuring shifts for your workplace]()
 
-[Managing workplace shifts that you own](managing-shifts-you-own-wsd.md)
+[Managing workplace shifts that you own]()
 
-[Managing workplace reservations for employees](managing-workplace-reservations-wsd.md)
+[Managing workplace reservations for employees]()
 
-[Setting and tracking arrivals at the workplace](scheduling-employees-arrival-to-the-workplace-wsd.md)
+[Setting and tracking arrivals at the workplace]()
 
-[Approve employee workplace reservation requests](../task/approve-workplace-reservation-requests-wsd.md)
+[Approve employee workplace reservation requests]()
 
-[Managing workplace tasks](managing-workplace-maintenance-tasks.md)
+[Managing workplace tasks]()
 
-[Workplace knowledge management](workplace-knowledge-mgmt-wsd.md)
+[Workplace knowledge management]()
 
-[QR code management](qr-code-mgmt.md)
+[QR code management]()
 
-[View workplace service usage analytics with Usage Insights](../reference/appsee-intergration-wsd.md)
+[View workplace service usage analytics with Usage Insights]()
 

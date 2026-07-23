@@ -2,6 +2,7 @@
 title: Enable sanitization on individual fields
 description: You can use field attributes to enable or disable the sanitizer on individual fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/t\_EnSanitizIndFlds.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

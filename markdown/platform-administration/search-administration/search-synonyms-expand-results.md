@@ -2,6 +2,7 @@
 title: Zing can expand search results with synonyms
 description: Expand search results to include additional search terms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/search-synonyms-expand-results.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -36,43 +37,43 @@ By default, synonyms don't use the same weight as regular search terms. Synonyms
 
 Zing doesn't expand the `%` and `*` wildcard characters when looking for synonyms that match your search term. These characters are treated as literal characters when finding matching synonyms. As an example, if you search for `issu*`, Zing doesn't find synonyms for `issue`, but it does find synonyms for `issu*`.
 
--   **[Enable search synonyms](../task/enable-text-index-synonyms.md)**  
+-   **[Enable search synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/enable-text-index-synonyms.md)**  
 Enabling text index synonyms allows Zing to expand text searches with additional search keywords.
--   **[Create synonym dictionaries](../task/create-synonym-dictionaries.md)**  
+-   **[Create synonym dictionaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/create-synonym-dictionaries.md)**  
 You can create synonym dictionaries to expand Zing text searches with additional search keywords.
--   **[Select synonym dictionaries for a table](../task/select-synonym-dictionaries.md)**  
+-   **[Select synonym dictionaries for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/select-synonym-dictionaries.md)**  
 Search administrators can specify one or more synonym dictionaries available to a particular table.
--   **[Disable synonyms for a table](../task/disable-synonyms-for-a-table.md)**  
+-   **[Disable synonyms for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/disable-synonyms-for-a-table.md)**  
 By default, Zing uses all active synonym dictionaries when a user performs a text search. Search administrators can disable synonym dictionary usage on a per-table basis.
--   **[Debug synonym searches](../task/debug-synonym-searches.md)**  
+-   **[Debug synonym searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/debug-synonym-searches.md)**  
 You can view debug messages to determine if synonym searches are working as expected.
 
-**Parent Topic:**[Zing text indexing and search engine](c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 
 
-[Features of Zing text indexing and search engine](../reference/features-zing.md)
+[Features of Zing text indexing and search engine]()
 
-[Available search options](c_IntroductionToSearching.md)
+[Available search options]()
 
-[Global search finds records from multiple tables](c_GlobalTextSearch.md)
+[Global search finds records from multiple tables]()
 
-[Zing generates search results in four phases](c_SearchProcess.md)
+[Zing generates search results in four phases]()
 
-[Zing filters search results with access controls](zing-filters-search-results.md)
+[Zing filters search results with access controls]()
 
-[Zing computes document scores using three components](c_DocumentScoring.md)
+[Zing computes document scores using three components]()
 
-[Zing indexes words](zing-indexes-words.md)
+[Zing indexes words]()
 
-[Zing can include attachments in search results](c_SearchingForAttachments.md)
+[Zing can include attachments in search results]()
 
-[Zing removes stop words from queries](stop-words-removed-from-queries.md)
+[Zing removes stop words from queries]()
 
-[Zing matches derived words with stemming](stemming-matches-derived-words.md)
+[Zing matches derived words with stemming]()
 
-[Zing displays search suggestions as users enter search terms](search-suggestions-zing.md)
+[Zing displays search suggestions as users enter search terms]()
 
-[Installed with Zing](../reference/installed-with-zing.md)
+[Installed with Zing]()
 

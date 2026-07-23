@@ -2,11 +2,12 @@
 title: Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)
 description: Use the Now Assist for Sales Force Automation \(SFA\) AI agent collection to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/using-agentic-worklflows-in-lead-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for SFA]
+breadcrumb: [Now Assist for SFA, Sales Customer Relationship Management]
 ---
 
 # Use agentic workflows in Now Assist for Sales Force Automation \(SFA\)
@@ -66,9 +67,4 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 -   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
 There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
-
--   **[Help nurture new leads agentic workflow](help-nurture-new-leads-agentic-workflow.md)**  
-Use the Help nurture new leads agentic workflow to process the entire lead record process.
-
-**Parent Topic:**[Now Assist for Sales Force Automation \(SFA\)](now-assist-for-sales-and-order-management-som.md)
 

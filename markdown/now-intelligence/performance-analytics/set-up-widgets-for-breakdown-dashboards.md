@@ -2,6 +2,7 @@
 title: Configure widgets for breakdown dashboards
 description: Configure each widget that goes on a breakdown dashboard. The configuration determines whether and how the widget follows the elements selected on the dashboard. For some widgets and indicators, you can select whether to show multiple element values separately or as an aggregate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -23,15 +24,15 @@ Role required: pa\_power\_user, admin
 
 ## Procedure
 
-1.  On the breakdown dashboard, click the plus sign \(![Plus sign button](../../dashboards/image/AddWidgetButton.png)\) to put the dashboard in edit mode.
+1.  On the breakdown dashboard, click the plus sign \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\) to put the dashboard in edit mode.
 
-2.  Point to the widget, then click the pencil icon \(![Pencil icon](../../dashboards/image/EditWidgetButton.png)\).
+2.  Point to the widget, then click the pencil icon \(\[Omitted image "EditWidgetButton.png"\] Alt text: Pencil icon\).
 
     The widget record opens.
 
 3.  Select **Follow element** in the widget record.
 
-    ![Section of widget properties form with Follow element selected](../image/follow-element.png "Widget record showing options")
+    \[Omitted image "follow-element.png"\] Alt text: Section of widget properties form with Follow element selected
 
     If you do not select **Follow element** for a widget, that widget does not follow any breakdown elements selected on the dashboard. The **Followed breakdown** and **Show multiple elements as** options are not visible.
 
@@ -49,19 +50,19 @@ Role required: pa\_power\_user, admin
 
     -   **Aggregate**, which shows a single, aggregate score of all selected elements.
     -   **Separate**, which shows each selected element separately.
-    Not all widget and indicator types support both views. Some types do not support selecting multiple elements at all. If it is not possible to select multiple elements for a widget/indicator combination, the field says **Not available**. For more information, see [Showing multiple elements separately or aggregated](../../dashboards/concept/multi-element-select-indicator-views.md).
+    Not all widget and indicator types support both views. Some types do not support selecting multiple elements at all. If it is not possible to select multiple elements for a widget/indicator combination, the field says **Not available**. For more information, see [Showing multiple elements separately or aggregated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
 
 
-**Parent Topic:**[Using breakdowns on dashboards](../concept/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 
 
-[Add breakdown sources to a dashboard](../../dashboards/task/t_ExistingBreakdownDashboard.md)
+[Add breakdown sources to a dashboard]()
 
-[Showing multiple elements separately or aggregated](../../dashboards/concept/multi-element-select-indicator-views.md)
+[Showing multiple elements separately or aggregated]()
 
-[Same breakdown on widget and dashboard](../concept/same-breakdown-widget-dashboard.md)
+[Same breakdown on widget and dashboard]()
 
-[Showing breakdown relations on dashboards](../concept/c_ShowBkdwnRltnsWdgts.md)
+[Showing breakdown relations on dashboards]()
 

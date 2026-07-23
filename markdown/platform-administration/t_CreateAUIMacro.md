@@ -2,6 +2,7 @@
 title: Create a UI macro for a formatter
 description: Create a UI macro to define the content that the formatter displays.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_CreateAUIMacro.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Role required: ui\_macro\_admin
 
     **Note:** The UI Macro for the formatter represents a row in the UI. It must begin and end with `<TR></TR>` tags.
 
-    ![Formatter UI macro](../image/FormatterUIMacro.png)
+    \[Omitted image "FormatterUIMacro.png"\] Alt text: Formatter UI macro
 
     This Jelly script is reproduced below in plain text that you can copy into the Macro form as a basis for your macro script.
 
@@ -59,22 +60,24 @@ Role required: ui\_macro\_admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Using formatters](../concept/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
 
 **Related topics**  
 
 
-[Activity formatter](../concept/c_ActivityFormatter.md#)
+[Activity formatter]()
 
-[Create a formatter and add it to a form](t_CreateAFormatter.md)
+[Create a formatter and add it to a form]()
 
-[Process flow formatter](../reference/r_ProcessFlowFormatter.md#)
+[Process flow formatter]()
 
-[Parent breadcrumbs formatter](t_TaskParentBreadcrumbsFormatter.md#)
+[Parent breadcrumbs formatter]()
 
-[Approval summarizer formatter](../../service-administration/reference/r_ApprovalSummarizerFormatter.md)
+[Approval summarizer formatter]()
 
-[Limit the number of activity stream entries](limit-activity-stream-entries.md)
+[Limit the number of activity stream entries]()
 
-[Override a formatter with macros](t_UIMacroOverride.md)
+[Override a formatter with macros]()
+
+[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
 

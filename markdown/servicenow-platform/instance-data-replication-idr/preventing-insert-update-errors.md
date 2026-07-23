@@ -2,6 +2,7 @@
 title: Avoiding insert and update errors in Instance Data Replication
 description: You can avoid insert and update failures in Instance Data Replication \(IDR\) by specifying a class name filter in the producer replication set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/preventing-insert-update-errors.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -40,22 +41,22 @@ If the table is a child, decide if you want to replicate its parent.
 -   If you only want to replicate the child table, the filter is optional.
 -   If one or more child tables are already being replicated, you must add the sys\_class\_name filter to the parent.
 
-**Parent Topic:**[Administering Instance Data Replication](administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 
 
-[Manage consumer access to replication data in Instance Data Replication](../task/approve-consumer.md)
+[Manage consumer access to replication data in Instance Data Replication]()
 
-[Comparing replicated data between instances in Instance Data Replication](comparing-replicated-data.md)
+[Comparing replicated data between instances in Instance Data Replication]()
 
-[Deploying a replication configuration from one instance to another in Instance Data Replication](copying-replication-configuration.md)
+[Deploying a replication configuration from one instance to another in Instance Data Replication]()
 
-[Cloning options with Instance Data Replication](cloning-with-instance-data-replicaton.md)
+[Cloning options with Instance Data Replication]()
 
-[Monitoring replication status in Instance Data Replication](instance-data-replication-dashboard.md)
+[Monitoring replication status in Instance Data Replication]()
 
-[Monitoring queues in Instance Data Replication](idr-queue-dashboard.md)
+[Monitoring queues in Instance Data Replication]()
 
-[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+[Resolving data replication errors in Instance Data Replication]()
 

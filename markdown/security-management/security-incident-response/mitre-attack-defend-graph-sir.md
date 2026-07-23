@@ -2,12 +2,13 @@
 title: MITRE attack and defend technique graph
 description: The MITRE attack and defend technique graph provides security analysts with an interactive, node-based visualization of attack techniques, defense techniques, and associated artifacts for a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mitre-attack-defend-graph-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -81,30 +82,32 @@ The graph displays relationships between nodes using connecting lines \(edges\):
 -   Cross-level references: When nodes at the same hierarchical level share relationships, connecting lines appear between them.
 -   Edge labels: Labels on the edges between defend techniques and artifacts indicate the relationship type \(sourced from MITRE-ATT&amp;CK data\).
 
-**Parent Topic:**[Working with Security Incident Records](using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 
 
-[Security Incident Overview section](security-incident-overview.md)
+[Security Incident Overview section]()
 
-[Security Incident Details section](security-incident-details.md)
+[Security Incident Details section]()
 
-[SIR Workspace Orchestration](security-incident-response-workspace-orchestration-activities.md)
+[SIR Workspace Orchestration]()
 
-[Security Incident Response Tasks](security-incident-response-tasks.md)
+[Security Incident Response Tasks]()
 
-[Security Incident Response Other Records](security-incident-response-other-records.md#)
+[Security Incident Response Other Records]()
 
-[Security Incident Response Post Incident Review](security-incident-response-post-incident-review.md)
+[Security Incident Response Post Incident Review]()
 
-[Update information in security incident related records](../task/edit-related-records-in-list.md)
+[Update information in security incident related records]()
 
-[TISC integration within SIR Workspace](../../secops-integration-threat-security-center/concept/tisc-sir-workspace.md)
+[TISC integration within SIR Workspace]()
 
-[Reports in Security Incident Response](report-templates-sir.md)
+[Reports in Security Incident Response]()
 
-[Collaborate using conference call or chat in Security Incident Response](collab-sir-call-chat.md)
+[Collaborate using conference call or chat in Security Incident Response]()
 
-[Viewing incident details with a relationship graph](sir-relationship-graph.md)
+[Viewing incident details with a relationship graph]()
+
+[View and filter the incident timeline]()
 

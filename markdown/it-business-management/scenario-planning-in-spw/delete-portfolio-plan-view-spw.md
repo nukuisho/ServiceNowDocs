@@ -2,11 +2,12 @@
 title: Delete a portfolio plan view
 description: Delete a customized portfolio plan view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/delete-portfolio-plan-view-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plan views, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -31,21 +32,21 @@ Role required: sn\_align\_core.ap\_read\_only
 
 2.  From the list of portfolio plans, select one.
 
-3.  Select the Portfolio plan view drop-down from the portfolio plan header and then select Delete view icon \(![Delete view icon.](../images/delete-view-icon-spw.png)\) next to the view you want to delete.
+3.  Select the Portfolio plan view drop-down from the portfolio plan header and then select Delete view icon \(\[Omitted image "delete-view-icon-spw.png"\] Alt text: Delete view icon.\) next to the view you want to delete.
 
     The Delete this view window appears.
 
 4.  On the Delete this view window, select **Delete**.
 
-    ![Delete portfolio plan view.](../images/delete-view-spw.gif)
+    \[Omitted image "delete-view-spw.gif"\] Alt text: Delete portfolio plan view.
 
 
-**Parent Topic:**[Managing portfolio plan views in Strategic Planning Workspace](../concept/managing-portfolio-plan-views-spw.md)
+**Parent Topic:**[Managing portfolio plan views in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-portfolio-plan-views-spw.md)
 
 **Related topics**  
 
 
-[Create a portfolio plan view](create-portfolio-plan-view-spw.md)
+[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.md)
 
-[Edit a portfolio plan view](edit-portfolio-plan-view-spw.md)
+[Edit a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/edit-portfolio-plan-view-spw.md)
 

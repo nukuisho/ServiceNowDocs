@@ -2,6 +2,7 @@
 title: Managing email notifications in Knowledge Management
 description: Reminders enable relevant users to review knowledge articles and complete tasks associated with them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/email-notifications-km.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -17,14 +18,14 @@ Reminders enable relevant users to review knowledge articles and complete tasks 
 
 By default, the Knowledge Management application includes the following types of email notifications:
 
--   [Email notifications for knowledge article feedback tasks](email-notifications-km.md#section_wn1_kxp_mlb).
--   [Email notifications for knowledge subscriptions](email-notifications-km.md#section_dcs_yfq_mlb).
--   [Email notifications for knowledge article approval publishing workflow](email-notifications-km.md#section_wdn_y3q_mlb).
--   [Email notifications for translation tasks](email-notifications-km.md#section_h1c_f3q_mlb).
--   [Email notifications for expiring knowledge articles](email-notifications-km.md#section_gsy_5jq_mlb).
--   [Email notifications for article quality index \(AQI\) reviews](email-notifications-km.md#section_dk1_rjq_mlb).
+-   [Email notifications for knowledge article feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for knowledge article approval publishing workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for translation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for expiring knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
+-   [Email notifications for article quality index \(AQI\) reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
 
-You can decide if you must receive any knowledge notifications by setting notification preferences. For more information, see [Set knowledge notification preferences](../task/set-subscription-notifications.md).
+You can decide if you must receive any knowledge notifications by setting notification preferences. For more information, see [Set knowledge notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/set-subscription-notifications.md).
 
 ## Email notifications for knowledge article feedback tasks
 
@@ -204,7 +205,7 @@ Knowledge articles have an expiration date set using the **Valid to** field when
 
 On the first day of each month, the application sends an email notification to a list of authorized recipients to remind them about articles that are scheduled to expire in the next month. The user can then determine whether to extend the **Valid to** date to continue providing access to the article.
 
-**Note:** To extend the **Valid to** date of a knowledge article, see [Edit a knowledge article](https://www.servicenow.com/docs/bundle/xanadu-servicenow-platform/page/product/knowledge-management/task/edit-knowledge-article.html)
+**Note:** To extend the **Valid to** date of a knowledge article, see [Edit a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/edit-knowledge-article.md)
 
 The content of the email notification is determined by the number of articles expiring in the coming month.
 
@@ -299,21 +300,21 @@ An AQI was performed and submitted on a knowledge article with the ownership gro
 </td></tr></tbody>
 </table>**Note:** An email notification is sent to a reviser of a knowledge article when the article versioning feature is enabled.
 
--   **[Set knowledge notification preferences](../task/set-subscription-notifications.md)**  
+-   **[Set knowledge notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/set-subscription-notifications.md)**  
 Set notification preferences for knowledge bases and knowledge articles.
 
-**Parent Topic:**[Using Knowledge Management](using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
 
 **Related topics**  
 
 
-[Activate the Knowledge Management Advanced plugin](../task/activate-knowledge-advanced-plugin.md)
+[Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md)
 
-[Additional plugins for Knowledge Management](../reference/additional-plugins-km.md)
+[Additional plugins for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/additional-plugins-km.md)
 
-[Ownership groups](enable-ownership-group.md)
+[Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md)
 
-[Validity of a knowledge article](article-validity.md)
+[Validity of a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-validity.md)
 
-[Knowledge subscriptions](knowledge-article-subscriptions.md)
+[Knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-subscriptions.md)
 

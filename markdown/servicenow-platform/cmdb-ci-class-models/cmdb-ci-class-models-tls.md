@@ -2,6 +2,7 @@
 title: Transport Layer Security \(TLS\) extension classes
 description: The CMDB CI Class Models app adds or updates a class for TLS certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-tls.html
 release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -17,17 +18,17 @@ The CMDB CI Class Models app adds or updates a class for TLS certificates.
 
 CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the [full release notes for all CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufE1FMlVTSFREVDc3S0hTfDMzNDcxMjV8U1VCU0NSSVBUSU9OU3xoSw).
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Transport Layer Security \(TLS\)
 
 TLS is a cryptographic protocol provide communications security over a computer network. The TLS protocol provides privacy and data integrity between communicating computer applications. Once the client and the server have agreed to use TLS, they negotiate a stateful connection by using a handshaking procedure. The server usually provides identification in the form of a digital certificate. The certificate contains the server name, the trusted certificate authority \(CA\) that vouches for the authenticity of the certificate, and the server's public encryption key. The client confirms the validity of the certificate before proceeding. When the handshake is completed, a secured connection is established.
 
-![TLS certificate classes integrated with the CMDB class hierarchy.](../image/CMDBCIClassModels-tls.png "TLS certificate classes integrated with the CMDB class hierarchy")
+\[Omitted image "CMDBCIClassModels-tls.png"\] Alt text: TLS certificate classes integrated with the CMDB class hierarchy.
 
 ## Scoped apps certification class
 
@@ -46,10 +47,10 @@ The CMDB CI Class Models: Release 1.4.0 updates the following class:
 The CMDB CI Class Models app changes the Unique Certificate \[cmdb\_ci\_certificate\] class as follows:
 
 -   The **assigned\_to** attribute now depends on the **assignment\_group** attribute so that users in the **assigned\_to** attribute are filtered based on the specified **assignment\_group**.
--   The [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt.md) app populates the Unique Certificate \[cmdb\_ci\_certificate\] table. The list view for that class does not have a **New** button and you can no longer add new records to the table. This is because there are certain fields that are extracted from binary encoded parameters in the certificate which users may not be able to provide. Also, certificates have to be discovered rather uploaded.
+-   The [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cert-inventory-mgmt.md) app populates the Unique Certificate \[cmdb\_ci\_certificate\] table. The list view for that class does not have a **New** button and you can no longer add new records to the table. This is because there are certain fields that are extracted from binary encoded parameters in the certificate which users may not be able to provide. Also, certificates have to be discovered rather uploaded.
 -   You can no longer add or delete attachments in the **Certificate file** attribute.
 
-The CMDB CI Class Models: Release 1.3.0 adds the following classes. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+The CMDB CI Class Models: Release 1.3.0 adds the following classes. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 |Class|Extends|Description|
 |-----|-------|-----------|
@@ -302,5 +303,5 @@ CMDB CI Class Models: Release 1.3.0 adds no columns.
 **Related topics**  
 
 
-[CMDB schema model](c_ConfigurationManagementDatabase.md)
+[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

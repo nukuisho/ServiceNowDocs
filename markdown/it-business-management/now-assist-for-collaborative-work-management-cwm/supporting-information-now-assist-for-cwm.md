@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Collaborative Work Management \(CWM\)
 description: Learn about supported versions, user interfaces, and application dependencies of Now Assist for CWM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-collaborative-work-management-cwm/supporting-information-now-assist-for-cwm.html
 release: australia
 product: Now Assist for Collaborative Work Management \(CWM\)
 classification: now-assist-for-collaborative-work-management-cwm
@@ -30,5 +31,5 @@ Installing the latest Now Assist for Collaborative Work Management \(CWM\) store
 **Related topics**  
 
 
-[Configure Now Assist for Collaborative Work Management \(CWM\)](../task/configure-now-assist-for-collaborative-work-management.md)
+[Configure Now Assist for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-collaborative-work-management-cwm/configure-now-assist-for-collaborative-work-management.md)
 

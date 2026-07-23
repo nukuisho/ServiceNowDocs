@@ -16,14 +16,14 @@ Customer Central gives users a view of a customer's details and recent service h
 
 Customer Central provides customer data directly on the records that agents and fulfillers work with in a configurable workspace, including cases, interactions, accounts, contacts, and consumer records. When a user opens an escalated case, for example, the account details, contact information, recent cases, and interaction history are already surfaced on the record. The user can see what has been attempted previously and avoid asking the customer to repeat information.
 
-![Customer Information tab displaying customer contact information and recent engagements with the customer, including chat interactions, high priority, and recent cases and phone calls.](../image/cust-central-cust-information.png "Customer Information view")
+\[Omitted image "cust-central-cust-information.png"\] Alt text: Customer Information tab displaying customer contact information and recent engagements with the customer, including chat interactions, high priority, and recent cases and phone calls.
 
 Customer Central presents this information in two views: Customer Information and Customer History.
 
 -   **Customer Information:** Provides users with a snapshot of who the customer is and how they have engaged with the service organization. It displays key details such as contact information, account details, and recent cases, alongside a summary of the customer's interactions. Administrators configure what information appears in this view and the date range of the data displayed.
 -   **Customer History:** Displays a customer's recent interactions with the service organization, giving users a clear timeline of the customer's service journey. The feed updates in real time, so users always see the latest activity for the customer they are helping. Users can access the customer history from the case record page without leaving the record. Users can also search the history by keyword or filter by category to narrow the results to what is most relevant to the issue at hand.
 
-![Customer History component displays recent customer interactions](../image/cust-central-cust-history.png "Customer History view")
+\[Omitted image "cust-central-cust-history.png"\] Alt text: Customer History component displays recent customer interactions
 
 ## Customer Central benefits
 

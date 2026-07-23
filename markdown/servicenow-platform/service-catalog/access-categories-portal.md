@@ -2,6 +2,7 @@
 title: Access Service Catalog categories in Service Portal
 description: Access Service Catalog categories to access the catalog items within.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/access-categories-portal.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -33,7 +34,7 @@ Role required: requester
 
 3.  In the **Catalogs** section, select the required catalog from the list.
 
-    For information on how you can configure a catalog, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
+    For information on how you can configure a catalog, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/associate-portal-catalog.md).
 
     **Note:**
 
@@ -51,23 +52,23 @@ Role required: requester
 
     -   You can click the category count or anywhere in the row to view the category details.
     -   For a category with a long name, additional text is displayed as ellipses. Point to the category name to view the additional text.
-5.  To change the display of category items, click the card view icon \(![Card view icon.](../image/CardView.png)\) or the grid view icon \(![Grid view icon.](../image/GridView.png)\).
+5.  To change the display of category items, click the card view icon \(\[Omitted image "CardView.png"\] Alt text: Card view icon.\) or the grid view icon \(\[Omitted image "GridView.png"\] Alt text: Grid view icon.\).
 
     **Note:** When you access a catalog item from the Catalog landing page or type ahead search results, the breadcrumb of the item displays the path based on the primary category configured on that item. When you access the item from a specific category, the breadcrumb of the item displays the path based on that category.
 
 
-**Parent Topic:**[Service Catalog in Service Portal](../concept/catalog-on-portal.md)
+**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-on-portal.md)
 
 **Related topics**  
 
 
-[Add an item to the wish list in Service Portal](add-to-wishlist-portal.md)
+[Add an item to the wish list in Service Portal]()
 
-[Add a catalog item to the shopping cart](add-to-cart-portal.md)
+[Add a catalog item to the shopping cart]()
 
-[Request a catalog item from Service Portal](request-cat-item-portal.md)
+[Request a catalog item from Service Portal]()
 
-[Request an order guide from Service Portal](request-order-guide-portal.md)
+[Request an order guide from Service Portal]()
 
-[SC Categories widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-categories-widget.md)
+[SC Categories widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sc-categories-widget.md)
 

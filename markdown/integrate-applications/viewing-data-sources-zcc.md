@@ -2,6 +2,7 @@
 title: Available connectors
 description: Discover available connectors to use in a zero copy connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/viewing-data-sources-zcc.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ In the Zero Copy Connector Hub, you can access a variety of data sources that en
 
 In the Zero Copy Connector Hub, a connection admin can navigate to the **Available connectors** tab to view primary and community connectors and create a zero copy connection. After the connection is established, the connection admin can grant access to a data steward. The data steward can then access the zero copy connection from the **Established connections** tab to create a data fabric table.
 
-![Available connectors in the Zero Copy Connectors app.](../image/zcc-sources.png "Available connectors")
+\[Omitted image "zcc-sources.png"\] Alt text: Available connectors in the Zero Copy Connectors app.
 
 ## Required ServiceNow AI Platform roles
 
@@ -46,7 +47,7 @@ A connection admin with the df\_connection\_admin role can create connections to
     Community connectors are developed by the open-source community and made available by ServiceNow. These connectors are certified for essential functionality but are not part of the ServiceNow support scope.
 
 
-For details on creating connections using primary connectors, see [Primary connectors](primary-connectors-zcc.md).
+For details on creating connections using primary connectors, see [Primary connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/primary-connectors-zcc.md).
 
-For details on creating connections using community connectors, see [Community connectors](community-connectors-zcc.md).
+For details on creating connections using community connectors, see [Community connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/community-connectors-zcc.md).
 

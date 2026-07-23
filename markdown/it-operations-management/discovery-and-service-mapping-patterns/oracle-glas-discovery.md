@@ -1,21 +1,22 @@
 ---
-title: Oracle Global License Advisory Services \(GLAS\) data collection using patterns
-description: The ServiceNow Discovery application uses the Oracle verified GLAS Data Collection pattern to discover Oracle GLAS data. This data includes discovered Oracle Database, Middleware, and Java configuration items.
+title: Oracle GLAS data collection using patterns
+description: The ServiceNow Discovery application uses the Oracle GLAS Data Collection pattern extensions to discover Oracle GLAS data. This data includes discovered Oracle Database, Middleware, and Java configuration items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 9
+last_updated: "2026-06-04"
+reading_time_minutes: 12
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
-# Oracle Global License Advisory Services \(GLAS\) data collection using patterns
+# Oracle GLAS data collection using patterns
 
-The ServiceNow Discovery application uses the Oracle verified GLAS Data Collection pattern to discover Oracle GLAS data. This data includes discovered Oracle Database, Middleware, and Java configuration items.
+The ServiceNow Discovery application uses the Oracle GLAS Data Collection pattern extensions to discover Oracle GLAS data. This data includes discovered Oracle Database, Middleware, and Java configuration items.
 
-The Oracle GLAS Data Collection pattern is an extension of the following patterns:
+Oracle GLAS Data Collection patterns are extensions of the following patterns:
 
 -   Oracle Database on UNIX and Windows patterns
 -   Oracle Middleware on Linux for the following patterns:
@@ -24,15 +25,17 @@ The Oracle GLAS Data Collection pattern is an extension of the following pattern
     -   Linux
 -   Oracle Java on Java installation pattern
 
-The Oracle Database and Middleware patterns execute the pattern extensions, and the data collected is stored in the ServiceNow tables for GLAS data. The Oracle GLAS Data Collection Database pattern can be used on the ServiceNow AI Platform beginning with the Paris release. The Oracle GLAS Data Collection Middleware pattern can be used on the ServiceNow AI Platform beginning with the Rome release. The Oracle Java pattern can be used on the ServiceNow AI Platform beginning with the Washington DC release.
+The Oracle Database and Middleware patterns execute the pattern extensions, and the data collected is stored in the ServiceNow tables for GLAS data.
 
-For details on how to view and download the collected Oracle GLAS data, see [Download Oracle Global License Advisory Services \(GLAS\) data](../task/download-oracle-glas-data.md).
+For details on how to view and download the collected Oracle GLAS data, see [Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.md).
+
+To learn about the supported versions of Oracle, refer to [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md).
+
+The Data Collection for Oracle Global Licensing and Advisory Services application supports two database data collection methods. The default method, V1, stores data across six CMDB CI tables. V2, available starting with Data Collection for Oracle Global Licensing and Advisory Services version 1.12.0, is an alternative method optimized for large-scale or high-volume Oracle database environments that consolidates data into a single non-CMDB table. For more information about V2, see the "Oracle GLAS Data Collection V2" section.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
-
-To learn about the supported versions of Oracle, refer to [Detailed information on products discovered by ITOM Visibility](r_SupportedApplications.md).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -61,8 +64,8 @@ To learn about the supported versions of Oracle, refer to [Detailed information 
 
     Verify that you have the following credentials for your operating system, and then create credentials for them on the ServiceNow AI Platform:
 
-    -   UNIX credentials using SSH. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
-    -   Windows credentials using PowerShell/WMI. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
+    -   UNIX credentials using SSH. For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
+    -   Windows credentials using PowerShell/WMI. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
 
         **Note:** PowerShell and WMI credentials are required only for Database collection.
 
@@ -73,7 +76,7 @@ To learn about the supported versions of Oracle, refer to [Detailed information 
     -   Read permissions on the `tnsnames.ora` file.
     -   Permissions to execute the `sqlplus` command.
     -   \(For middleware collection\) Sudo permissions to run the following command: `sudo su - oracle -c "$ORACLE_INSTANCE/bin/opmnctl status"`
-    Verify you have the user name and password for the relevant Oracle Database, with read permissions on the following tables:
+    Verify you have the user name and password for the relevant Oracle Database, with read permissions on the following tables.
 
 <table id="table_ixr_1rz_5tb"><tbody><tr><td>
 
@@ -306,7 +309,11 @@ SYS.DBA\_MINING\_MODELS
 </td></tr></tbody>
 </table>-   **Create applicative credentials for Oracle Instance**
 
-    Create applicative credentials on the ServiceNow AI Platform. For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md).
+    Create applicative credentials on the ServiceNow AI Platform. For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
+
+-   **For UNIX: You can use Oracle Wallet authentication instead of applicative credentials**
+
+    For more information, see [Enable Oracle Wallet authentication for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md).
 
 -   **For virtual machines: Verify virtual machine credentials**
 
@@ -331,17 +338,95 @@ SYS.DBA\_MINING\_MODELS
     2.  Open the command-line interface for the operating system.
     3.  Run the hardware script for the operating system.
     4.  Repeat for each target virtual machine.
+-   **For large-scale or high-volume environments: You can enable Oracle GLAS V2 data collection**
 
-## Database CI relationships
+    To use V2 database data collection instead of the default V1 method, set the **sn\_itom\_pattern.enable\_large\_env\_glas\_data\_collection** system property to **true**. For more information about V2, see the "Oracle GLAS Data Collection V2" section. For instructions, see [Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.md).
+
+
+## V1 database CI relationships
 
 |CI|Relationship/Reference|CI|
 |---|----------------------|---|
-|cmdb\_ci\_orcl\_vsession|Contains::Contained By|cmdb\_ci\_db\_ora\_instance|
-|cmdb\_ci\_ora\_lms\_detail|Contains::Contained By|cmdb\_ci\_db\_ora\_instance|
-|cmdb\_ci\_ora\_lms\_overview|Contains::Contained By|cmdb\_ci\_db\_ora\_instance|
-|cmdb\_ci\_orcl\_options|Contains::Contained By|cmdb\_ci\_db\_ora\_instance|
-|cmdb\_ci\_orcl\_dba\_users|Contains::Contained By|cmdb\_ci\_db\_ora\_instance|
-|cmdb\_ci\_orcl\_vlicense|Contains::Contained By|cmdb\_ci\_db\_ora\_instance|
+|ORCL V SESSION \[cmdb\_ci\_orcl\_vsession\]|Contains::Contained by|Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]|
+|ORCL DETAIL \[cmdb\_ci\_ora\_lms\_detail\]|Contains::Contained by|Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]|
+|ORCL OVERVIEW \[cmdb\_ci\_ora\_lms\_overview\]|Contains::Contained by|Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]|
+|ORCL OPTIONS \[cmdb\_ci\_orcl\_options\]|Contains::Contained by|Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]|
+|ORCL DBA USERS \[cmdb\_ci\_orcl\_dba\_users\]|Contains::Contained by|Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]|
+|ORCL V LICENSE \[cmdb\_ci\_orcl\_vlicense\]|Contains::Contained by|Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]|
+
+## Oracle GLAS Data Collection V2
+
+Oracle GLAS Data Collection V2 is an alternative database data collection method that uses the **Oracle GLAS Data Collection V2** pattern extension. V2 optimizes database data collection for large-scale or high-volume Oracle database environments. The V2 method applies to database data collection only; middleware and Java data collection aren't affected.
+
+In V2, the MID Server collects data from the Oracle GLAS scripts and uses the GlideRecord API to populate the Oracle GLAS Database Audit Data \[sn\_itom\_oracleglas\_glas\_data\_for\_database\] table directly. As a result, GLAS data appears in the Content field and not in the discovery payload. To verify data population, navigate to the Oracle GLAS Database Audit Data table and review the **Content** field. If data is missing or incomplete, see [MID Server ECC Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ecc-queue-mid-server.md) for information about accessing MID Server logs.
+
+V2 stores all database GLAS data in the Oracle GLAS Database Audit Data table. Each record directly references the Oracle Instance \[cmdb\_ci\_db\_ora\_instance\] table; in V1, this association is established through a CI relationship \(see the "V1 database CI relationships" section\).
+
+The Oracle GLAS Data Collection V2 pattern extension populates the following fields in the Oracle GLAS Database Audit Data table:
+
+<table id="table_glas_v2_fields"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Host Name \[hostname\]
+
+</td><td>
+
+Host name of the server running the Oracle instance.
+
+</td></tr><tr><td>
+
+DB Name \[dbname\]
+
+</td><td>
+
+Name of the Oracle database.
+
+</td></tr><tr><td>
+
+Type \[type\]
+
+</td><td>
+
+Identifies the type of GLAS data stored in the record. Possible values:-   ORCL\_OVERVIEW
+-   ORCL\_DETAILS
+-   ORCL\_LICENSE
+-   ORCL\_SESSION
+-   ORCL\_OPTIONS
+-   ORCL\_DBA\_USERS
+
+</td></tr><tr><td>
+
+Order \[order\]
+
+</td><td>
+
+Sequential order of the record. If the content for a type exceeds 10 megabytes \(MB\), it is stored in multiple records ordered sequentially starting from 0.
+
+</td></tr><tr><td>
+
+Content \[content\]
+
+</td><td>
+
+Collected GLAS data for the record type. Maximum size is 10 MB per record.
+
+</td></tr><tr><td>
+
+Oracle Instance \[oracle\_instance\]
+
+</td><td>
+
+References the Oracle Instance \[cmdb\_ci\_db\_ora\_instance\] table.
+
+</td></tr></tbody>
+</table>When V2 is enabled, the navigation menu updates automatically, hiding the six V1 database modules and displaying the **GLAS V2 - Databases** module. To enable V2 data collection, see [Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.md).
 
 ## Tuxedo middleware extension
 
@@ -450,9 +535,9 @@ In the pattern flow, the Java processes are discovered by Application Dependency
 
 For information about privileged user access, see [KB1705845](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1705845).
 
-For more information about Agent Client Collector with patterns, see [Application patterns for the Agent Client Collector](../../agent-client-collector/concept/application-patterns-acc.md).
+For more information about Agent Client Collector with patterns, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/application-patterns-acc.md).
 
-For more information about Agent Client Collector with file-based discovery, see [Discover java installation data using Agent Client Collector for Visibility - Content file-based discovery](../../agent-client-collector/task/acc-file-based-discovery.md).
+For more information about Agent Client Collector with file-based discovery, see [Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
 
 -   **Data collected**
 
@@ -497,7 +582,7 @@ For more information about Agent Client Collector with file-based discovery, see
     |File information|Provides a reference to the \[cmdb\_file\_information\] table. Relevant only for file-based discovery \(FBD\); in pattern-based discovery, this field remains empty.|
 
 
-Download the Oracle GLAS report in the Discovery Admin Workspace. For more information, see [Download Oracle Global License Advisory Services \(GLAS\) data](../task/download-oracle-glas-data.md).
+Download the Oracle GLAS report in the Discovery Admin Workspace. For more information, see [Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.md).
 
 ## Oracle GLAS Data Collection
 
@@ -505,12 +590,17 @@ After Discovery finishes discovering the components of your database or middlewa
 
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** to view and access the Oracle GLAS Data Collection.
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+-   **[Download Oracle Global License Advisory Services \(GLAS\) data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.md)**  
+Download Oracle GLAS data in CSV format to get detailed information on patterns and configuration items. You can also download reports for Oracle Database, Middleware, Oracle Java, VM, and vCenter hardware information.
+-   **[Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.md)**  
+Enable the Oracle GLAS V2 data collection method to improve data collection performance in large-scale or high volume Oracle database environments.
+
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 
 **Related topics**  
 
 
-[Oracle Catalog discovery](oracle-catalog-discovery.md)
+[Oracle Catalog discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-catalog-discovery.md)
 
-[Oracle pluggable database and container database discovery](oracle-cdb-pdb-discovery.md)
+[Oracle pluggable database and container database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-cdb-pdb-discovery.md)
 

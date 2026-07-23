@@ -2,6 +2,7 @@
 title: Trigger assessments from a script
 description: Use a script to execute the Trigger Smart Assessment flow action to generate Smart Assessment Engine assessments and assign them to the assessors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-trigger-from-script.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -29,7 +30,7 @@ In the script, you specify the assessment template for the generated assessments
 
 2.  On the **Actions** tab, select **Trigger Smart Assessment**.
 
-3.  In the More actions menu icon ![](../image/more-actions-menu.png),select **Create code snippet**, and then copy and paste the snippet into your script.
+3.  In the More actions menu icon \[Omitted image "more-actions-menu.png"\] Alt text:,select **Create code snippet**, and then copy and paste the snippet into your script.
 
 
 ## Result
@@ -40,7 +41,7 @@ The call to the Trigger Smart Assessment action is now part of the script.
 
 ## What to do next
 
-Specify the required and optional input settings for the action. The settings are defined on the Trigger Smart Assessment action form and are described in [Trigger Smart Assessment action form](../reference/sae-smart-asmnt-action-form.md).
+Specify the required and optional input settings for the action. The settings are defined on the Trigger Smart Assessment action form and are described in [Trigger Smart Assessment action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-smart-asmnt-action-form.md).
 
 **Related topics**  
 

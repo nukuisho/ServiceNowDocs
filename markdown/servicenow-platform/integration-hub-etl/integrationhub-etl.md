@@ -2,6 +2,7 @@
 title: IntegrationHub ETL
 description: Use the IntegrationHub ETL store app to create and manage ETL transform maps, which integrate third-party data into the CMDB or into non-CMDB tables without compromising the integrity of data. IntegrationHub ETL provides a simplified user interface that guides you through the integration process end-to-end, including a test integration run of sample data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/integration-hub-etl/integrationhub-etl.html
 release: australia
 product: Integration Hub ETL
 classification: integration-hub-etl
@@ -17,12 +18,12 @@ Use the IntegrationHub ETL store app to create and manage ETL transform maps, wh
 
 The IntegrationHub ETL \(sn\_int\_studio\) plugin provides the IntegrationHub ETL functionality.
 
--   Use the CMDB Integrations Dashboard to track progress, results, and errors associated with using custom integrations created in IntegrationHub ETL. The CMDB Integrations Dashboard is included in the [Integration Commons for CMDB](integration-commons-for-cmdb.md) store app.
+-   Use the CMDB Integrations Dashboard to track progress, results, and errors associated with using custom integrations created in IntegrationHub ETL. The CMDB Integrations Dashboard is included in the [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app.
 -   Watch the [IntegrationHub ETL \| Importing resources into the CMDB](https://www.youtube.com/watch?v=YvsCY0M7JLw) video for an introduction and walk through of the IntegrationHub ETL tool.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Roles required
 
@@ -30,7 +31,7 @@ Users with the cmdb\_inst\_admin role can use IntegrationHub ETL to create integ
 
 ## Support for non-CMDB tables
 
-Starting with the Australia release, IntegrationHub ETL supports the integration of third-party data into some non-CMDB tables. IntegrationHub ETL supports those non-CMDB tables that are supported by Identification and Reconciliation \(IRE\). For details about which non-CMDB tables are supported and any needed configuration, see [IRE support for non-CMDB tables](ire-support-non-cmdb-tables.md).
+Starting with the Australia release, IntegrationHub ETL supports the integration of third-party data into some non-CMDB tables. IntegrationHub ETL supports those non-CMDB tables that are supported by Identification and Reconciliation \(IRE\). For details about which non-CMDB tables are supported and any needed configuration, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
 Supported non-CMDB tables are available in IntegrationHub ETL when specifying classes, conditional classes, class associations, and reference sources in mapping definitions. However, there are some differences between using CMDB classes and non-CMDB tables in IntegrationHub ETL:
 
@@ -44,8 +45,8 @@ Supported non-CMDB tables are available in IntegrationHub ETL when specifying cl
 
 The two key components that IntegrationHub ETL uses for processing are:
 
--   [Robust Transform Engine \(RTE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/robust-import-set-transformers.md): Used to transform raw source data that is stored in staging tables, into the data that is mapped and integrated into the CMDB. RTE uses ETL transform maps that were created for the integration during data transformation.
--   [Identification and Reconciliation Engine \(IRE\)](ire.md): Used as a centralized framework for identification and reconciliation processes across different data sources. IRE processes help maintain data integrity in the CMDB and in supported non-CMDB tables.
+-   [Robust Transform Engine \(RTE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/robust-import-set-transformers.md): Used to transform raw source data that is stored in staging tables, into the data that is mapped and integrated into the CMDB. RTE uses ETL transform maps that were created for the integration during data transformation.
+-   [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md): Used as a centralized framework for identification and reconciliation processes across different data sources. IRE processes help maintain data integrity in the CMDB and in supported non-CMDB tables.
 
 IntegrationHub ETL uses RTE and IRE which work together to process and integrate data. Data is first imported from a data source, and is then stored in temporary staging tables in Import Sets systems. Using the data in the staging tables and the ETL transform map created by IntegrationHub ETL, RTE creates IRE payloads which are then processed by IRE. IRE applies reconciliation processes to avoid potential problems such as duplicate CIs, ensuring that the CMDB or non-CMDB tables remain healthy, and then integrates the resulting data.
 
@@ -114,7 +115,7 @@ For example:
 
 ## Nested data payloads
 
-To process nested data payloads, you must first ensure that the data source that is used for the integration, is set with the [Data in single column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_DataSourceFileTypeFields.md) option. With that setting, you can correctly represent nested data in a JSON payload which IntegrationHub ETL then processes as nested data, rather than as flat data.
+To process nested data payloads, you must first ensure that the data source that is used for the integration, is set with the [Data in single column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/r_DataSourceFileTypeFields.md) option. With that setting, you can correctly represent nested data in a JSON payload which IntegrationHub ETL then processes as nested data, rather than as flat data.
 
 Sample of nested data:
 
@@ -180,5 +181,5 @@ For a demo about working with nested payload data, watch the [Integration Hub - 
 **Related topics**  
 
 
-[Teams related list](../reference/r_RelatedListsOfCIComponents.md)
+[Teams related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_RelatedListsOfCIComponents.md)
 

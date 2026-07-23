@@ -2,13 +2,14 @@
 title: Run software reconciliation in the workspace
 description: Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in the Software Asset Workspace environment on-demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/run-recon-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+reading_time_minutes: 2
+breadcrumb: [Use SAM Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Run software reconciliation in the workspace
@@ -29,7 +30,7 @@ Role required: sam\_user or sam\_admin
 
     -   **Software Asset Workspace** &gt; **Software asset overview** &gt; **Run Reconciliation**
     -   **Software Asset Workspace** &gt; **License usage** &gt; **Run Reconciliation**
-    ![Run reconciliation process](../image/run-recon-workspace.png) ![]()
+    \[Omitted image "run-recon-workspace.png"\] Alt text: Run reconciliation process \[Omitted image ""\] Alt text:
 
     **Note:** If domain separation is enabled on your instance, then the Domain filter drop-down appears in the Run Reconciliation dialog box.
 
@@ -138,5 +139,10 @@ The date and time when the particular reconciliation process was completed.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
+
+**Related topics**  
+
+
+[License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md)
 

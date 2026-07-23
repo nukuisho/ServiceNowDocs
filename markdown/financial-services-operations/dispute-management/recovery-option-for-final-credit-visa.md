@@ -2,13 +2,14 @@
 title: Determine recovery option for providing final credit
 description: Complete the Recovery option task to choose whether to pursue chargeback for a Visa transaction where final credit to the card customer will be provided.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/recovery-option-for-final-credit-visa.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Investigate, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Determine recovery option for providing final credit
@@ -27,7 +28,7 @@ A chargeback is bank initiated, pursued when a card provider requests from the m
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -37,21 +38,25 @@ A chargeback is bank initiated, pursued when a card provider requests from the m
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  In the open task tab, select the dispute transaction.
 
-6.  Select the **Recovery option** activity under the Investigation playbook stage.
+    The transaction opens in the **Dispute workspace**.
+
+6.  Select the **Recovery option** from the **Dispute workspace**.
 
 7.  Select the recovery task that you want to complete.
 
-8.  On the form, fill in the required fields and any other related information that you've gathered.
+8.  On the form, fill in the required fields and any other related information that you have gathered.
 
 9.  -   In the **Pursue chargeback** field, select whether the determination is to pursue chargeback from the merchant.
 -   In the **Deny dispute** field, select whether the determination is to deny the dispute.
-10. In the **Work notes** field, enter any comments.
+10. In the **Remarks** field, enter any comments.
+
+    This step is optional.
 
 11. After you have entered the details in the task, select **Update**.
 
-12. Close the task from the playbook.
+12. Close the task.
 
     |Dispute activity|Action|
     |----------------|------|
@@ -63,5 +68,5 @@ A chargeback is bank initiated, pursued when a card provider requests from the m
 -   If determination was made to deny the dispute, the transaction task state updates to Closed complete.
 -   If determination was made to pursue chargeback, the relevant tasks for the transaction will trigger for the Chargeback stage.
 
-**Parent Topic:**[Investigate stage](../concept/investigate-stage.md)
+**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-stage.md)
 

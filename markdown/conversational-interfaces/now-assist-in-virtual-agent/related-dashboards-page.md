@@ -2,6 +2,7 @@
 title: Related dashboards page
 description: The Related Dashboards page in Assistant analytics dashboard provides a centralized location to view and manage dashboards created in the Platform Analytics experience and shared across your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/related-dashboards-page.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -21,7 +22,7 @@ The dashboard library in the Related Dashboards page includes dashboards that ha
 
 To access the dashboard library, navigate to **All** &gt; **Assistant Analytics** and select Related Dashboards in the left navigation. The dashboard is accessible to the virtual\_agent\_admin and sn\_na\_analytics.ai\_engmt\_viewer roles.
 
-![Dashboard Library in Related Dashboards screen.](../image/NAinVA-assistant-designer-analytics-related-dashboards.png "Dashboard Library in Related Dashboards page") ![]( "Dashboard Library in Related Dashboards page")
+\[Omitted image "NAinVA-assistant-designer-analytics-related-dashboards.png"\] Alt text: Dashboard Library in Related Dashboards screen. \[Omitted image ""\] Alt text:
 
 ## Dashboard cards
 
@@ -48,7 +49,7 @@ The dashboard library supports pagination to help you navigate through large num
 
 Role required: virtual\_agent\_admin
 
-See [Add a dashboard to dashboard library](add-a-dashboard-to-dashboard-library.md) and [Edit a dashboard in the dashboard library](edit-a-dashboard-in-the-dashboard-library.md) for information on adding and editing a dashboard respectively.
+See [Add a dashboard to dashboard library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-a-dashboard-to-dashboard-library.md) and [Edit a dashboard in the dashboard library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/edit-a-dashboard-in-the-dashboard-library.md) for information on adding and editing a dashboard respectively.
 
 ## View a dashboard
 

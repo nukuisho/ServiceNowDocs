@@ -2,6 +2,7 @@
 title: Survey URLs
 description: You can distribute a survey by giving survey users a survey URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyURLs.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -58,35 +59,35 @@ If the schedule period is **No Limit** or if the period restriction has expired,
 </td></tr></tbody>
 </table>If someone opens a URL for an unpublished or deactivated survey, an error message appears.
 
--   **[Obtain and distribute a general survey URL](../task/t_ObtainAGeneralSurveyURL.md)**  
+-   **[Obtain and distribute a general survey URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ObtainAGeneralSurveyURL.md)**  
 You can distribute a general survey URL to allow any eligible user to open a survey questionnaire.
--   **[Deactivate auto-notification for surveys](../task/t_DeactivateAutoNotifyForSurveys.md)**  
+-   **[Deactivate auto-notification for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DeactivateAutoNotifyForSurveys.md)**  
 Deactivate an auto-notification to avoid a problem that causes a second system-generated email notification being sent to a user.
--   **[Obtain a survey instance URL](../task/t_ObtainASurveyInstanceURL.md)**  
+-   **[Obtain a survey instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ObtainASurveyInstanceURL.md)**  
 You can distribute a survey instance URL to allow the assigned user to open a survey questionnaire.
--   **[Test a survey URL](../task/t_TestTheSurveyURL.md)**  
+-   **[Test a survey URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_TestTheSurveyURL.md)**  
 When there are survey users associated with a survey, the survey is restricted so only those users can use the survey URL. You can test the survey URL to ensure it is restricted.
 
-**Parent Topic:**[Survey distribution](c_SurveyDistribution.md)
+**Parent Topic:**[Survey distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDistribution.md)
 
 **Related topics**  
 
 
-[Email notifications for surveys](email-notification-for-surveys.md)
+[Email notifications for surveys]()
 
-[Send survey invitations to users](../task/t_SendSurveyInvitationsToUsers.md)
+[Send survey invitations to users]()
 
-[Define a recipients list for surveys](../task/define-recipient-list.md)
+[Define a recipients list for surveys]()
 
-[Add a recipients list to a survey](../task/add-recipient-list-survey.md)
+[Add a recipients list to a survey]()
 
-[Embed a survey within the Outlook email client](../task/embed-survey-in-outlook-email.md)
+[Embed a survey within the Outlook email client]()
 
-[Enable localization for a survey](../task/enable-localization-survey.md)
+[Enable localization for a survey]()
 
-[Create a survey module](../task/t_CreatingASurveyModule.md)
+[Create a survey module]()
 
-[Sharing surveys](c_SurveyInportAndExport.md)
+[Sharing surveys]()
 
-[Configure a survey in the Connect chat support](../task/take-survey-connect-chat.md)
+[Configure a survey in the Connect chat support]()
 

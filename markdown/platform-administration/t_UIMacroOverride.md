@@ -2,6 +2,7 @@
 title: Override a formatter with macros
 description: The system uses formatters to handle complex rendering of specific form elements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_UIMacroOverride.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,18 +46,18 @@ A UI macro can override formatters provided in the base system.
 
 This example shows the form that defines the existing approval summarizer formatter:
 
-![Approval summarizer formatter](../image/Formatter.png)
+\[Omitted image "Formatter.png"\] Alt text: Approval summarizer formatter
 
 Here is the form for the UI macro that overrides the approval summarizer formatter:
 
-![Override the formatter](../image/FormatterOverride.png)
+\[Omitted image "FormatterOverride.png"\] Alt text: Override the formatter
 
-**Parent Topic:**[Using formatters](../concept/c_Formatters.md)
+**Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md)
 
 **Related topics**  
 
 
-[Create a UI macro for a formatter](t_CreateAUIMacro.md)
+[Create a UI macro for a formatter]()
 
-[Create a formatter and add it to a form](t_CreateAFormatter.md)
+[Create a formatter and add it to a form]()
 

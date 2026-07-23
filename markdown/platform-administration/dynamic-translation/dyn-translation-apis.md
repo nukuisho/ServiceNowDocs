@@ -2,6 +2,7 @@
 title: DynamicTranslation API
 description: You can use the DynamicTranslation API to translate text in real time into multiple languages using translation service providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/dyn-translation-apis.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -19,5 +20,5 @@ This API is available as part of Server APIs, Client APIs, and Service Portal AP
 
 No matter what translation service provider you choose, this API works on a standard set of inputs and outputs, and displays standard error codes and messages.
 
-There are a few limitations when you integrate with a translation service provider to enable the Dynamic Translation experience. For more information, see [Limitations in Dynamic Translation](../reference/limitations-dynamic-translation.md).
+There are a few limitations when you integrate with a translation service provider to enable the Dynamic Translation experience. For more information, see [Limitations in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/limitations-dynamic-translation.md).
 

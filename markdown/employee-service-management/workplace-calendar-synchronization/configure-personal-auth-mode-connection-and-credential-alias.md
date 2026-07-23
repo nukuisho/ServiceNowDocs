@@ -2,13 +2,14 @@
 title: Configure a personal authentication mode Connection and Credential alias for Microsoft Exchange Online
 description: Establish a personal authentication mode connection and credential alias for Microsoft Exchange Online. Confirm that the values for the connection and credentials alias are set as specified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/configure-personal-auth-mode-connection-and-credential-alias.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a personal authentication mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create a personal authentication mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure a personal authentication mode Connection and Credential alias for Microsoft Exchange Online
@@ -76,18 +77,18 @@ Configure the default connection and credential alias to use the default entity 
 
 The Connection and credential alias is set.
 
-**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](../concept/personal-auth-mode-connection-with-msex.md)
+**Parent Topic:**[Create a personal authentication mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.md)
 
 **Related topics**  
 
 
-[Configure Microsoft Azure](configure-azure-personal-auth-mode.md)
+[Configure Microsoft Azure]()
 
-[Configure resource rooms in Microsoft Exchange Online](configure-resource-rooms-in-msex.md)
+[Configure resource rooms in Microsoft Exchange Online]()
 
-[Set up personal authentication mode OAuth connectivity with Microsoft Exchange Online](setup-personal-auth-mode-oauth-connectivity-with-msex.md)
+[Set up personal authentication mode OAuth connectivity with Microsoft Exchange Online]()
 
-[Configure your own connection and credential alias for personal authentication mode](configure-your-own-connection-and-credential-alias-for-personal-auth.md)
+[Configure your own connection and credential alias for personal authentication mode]()
 
-[Configure the Microsoft Exchange Online calendar provider in personal authentication mode](configure-calendar-provider-in-personal-auth-mode.md)
+[Configure the Microsoft Exchange Online calendar provider in personal authentication mode]()
 

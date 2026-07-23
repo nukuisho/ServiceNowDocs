@@ -2,13 +2,14 @@
 title: Report a critical event as an employee
 description: Create a ticket to report a critical event in Critical Event Management as an employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/report-a-critical-event-as-an-employee.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reporting critical events, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Report critical events, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Report a critical event as an employee

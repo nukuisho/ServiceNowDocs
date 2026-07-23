@@ -2,6 +2,7 @@
 title: Request AI agent support in the Interaction page
 description: Request AI-powered assistance during customer interactions to receive real-time insights, intent identification, and recommended responses. The Banking CSR support AI agent analyzes call context and transcripts to provide next-step guidance and suggested actions within the Interaction page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/request-ai-agent-interaction-workspace.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -51,7 +52,7 @@ The AI agent answers your questions using information from its configured knowle
 **Related topics**  
 
 
-[Agentic AI use cases for FSO](../concept/usecase-now-assist.md)
+[Agentic AI use cases for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/usecase-now-assist.md)
 
-[Agentic Contact Center for Banking AI agents overview](../concept/agentic-contact-center-for-banking-agents-overview.md)
+[Agentic Contact Center for Banking AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/agentic-contact-center-for-banking-agents-overview.md)
 

@@ -2,11 +2,12 @@
 title: Create a visibility criteria
 description: Agents workspaces enables the manufacturers to create the visibility criteria. Manufacturer can filter the dealer name for which the target sales promotion is applicable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-visibility-criteria.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for my promotions, My promotions, Sales promotion management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a checklist template, My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a visibility criteria
@@ -47,16 +48,14 @@ Condition
 
 </td><td>
 
-Required service organization condition.To learn more about the Service Organization Criteria, see [Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-service-organization-criteria.md).
+Required service organization condition.To learn more about the Service Organization Criteria, see .
 
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Related list for my promotions](related-list-for-my-promotions.md)
-
 **Related topics**  
 
 
-[Associate service organizations with a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-services-to-service-organization.md)
+[bundle-csm.associate-services-to-service-organization]
 

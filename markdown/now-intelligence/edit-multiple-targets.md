@@ -2,6 +2,7 @@
 title: Edit multiple targets in KPI Details
 description: Retroactively change one or more existing targets from their start date instead of ending them and starting new targets from a later date. You can edit multiple targets to have the same value, the same change in value, or the same date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/edit-multiple-targets.html
 release: australia
 topic_type: task
 last_updated: "2023-08-03"
@@ -17,7 +18,7 @@ Retroactively change one or more existing targets from their start date instead 
 
 Role required: pa\_target\_admin to edit all targets that were created for everyone. Any user with a target that they created for themselves can edit that target.
 
-A responsible user can edit any target that they are responsible for, regardless of role. For more information, see [Responsibility for indicator targets](../concept/responsibiity-targets-kpi-details.md#).
+A responsible user can edit any target that they are responsible for, regardless of role. For more information, see [Responsibility for indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/responsibiity-targets-kpi-details.md).
 
 ## About this task
 
@@ -33,13 +34,13 @@ You can change only identical target values to new values. You can change differ
 
 1.  Open KPI Details for an indicator.
 
-2.  Click the target icon ![Target icon](../image/target-icon.png).
+2.  Click the target icon \[Omitted image "target-icon.png"\] Alt text: Target icon.
 
     The **Targets** panel opens.
 
 3.  Click the cogwheel to open the **Targets Configuration** panel.
 
-    ![Targets panel top showing config cogwheel.](../image/kpi-details-target-config-cogwheel.png)
+    \[Omitted image "kpi-details-target-config-cogwheel.png"\] Alt text: Targets panel top showing config cogwheel.
 
     **Note:** The Targets Configuration panel is not available for native Data snapshots indicators.
 
@@ -49,7 +50,7 @@ You can change only identical target values to new values. You can change differ
 
     By default, you see targets that are currently in effect and those that will come into effect.
 
-    ![Filter on Targets Configuration panel letting you choose whether to select any of past, current, or future targets.](../image/kpi-details-targets-config-past-pres-future.png)
+    \[Omitted image "kpi-details-targets-config-past-pres-future.png"\] Alt text: Filter on Targets Configuration panel letting you choose whether to select any of past, current, or future targets.
 
 5.  To further filter the selection of targets, select the hidden filter icon on the right side of each column header.
 
@@ -57,7 +58,7 @@ You can change only identical target values to new values. You can change differ
 
     **Tip:** You can filter on item name for either breakdowns or time aggregations. For example, filtering on `7d` returns only targets on weekly time aggregations.
 
-    ![Filtering for targets only on the Assignment Group breakdown.](../image/kpi-details-targets-config-filter.png)
+    \[Omitted image "kpi-details-targets-config-filter.png"\] Alt text: Filtering for targets only on the Assignment Group breakdown.
 
 6.  Select one or more targets.
 
@@ -132,18 +133,18 @@ The highest value you want the target to have, regardless of calculation. You do
     You expect to meet the target by the review date, or at least to review progress then.
 
 
-**Parent Topic:**[Indicator targets and thresholds in KPI Details](../concept/kpi-details-targets.md)
+**Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-targets.md)
 
 **Related topics**  
 
 
-[Create a target in KPI Details](create-kpi-details-targets.md)
+[Create a target in KPI Details]()
 
-[Subscribe users to Data snapshots indicator target](subscribe-users-to-ds-target.md)
+[Subscribe users to Data snapshots indicator target]()
 
-[Create, modify, or delete a threshold in KPI Details](add-mod-pers-tar-thresh-kpi-details.md)
+[Create, modify, or delete a threshold in KPI Details]()
 
-[Add a target to multiple breakdown elements in KPI Details](add-multiple-targets.md)
+[Add a target to multiple breakdown elements in KPI Details]()
 
-[Responsibility for indicator targets](../concept/responsibiity-targets-kpi-details.md#)
+[Responsibility for indicator targets]()
 

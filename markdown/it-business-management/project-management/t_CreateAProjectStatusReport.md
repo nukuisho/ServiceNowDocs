@@ -2,6 +2,7 @@
 title: Create a project status report
 description: Create project status report from the related lists of the project form. The project status report created for the most recent status date updates the status of the project in portfolios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_CreateAProjectStatusReport.html
 release: australia
 product: Project Management
 classification: project-management
@@ -25,21 +26,21 @@ The project status report shows snapshot status of RIDAC \(Risk, Issues, Decisio
 
 To include RIDAC records in the status report, select the **Show on project status report** option on individual RIDAC forms.
 
-You can also print a project status report from project workspace. To print a report, select the print icon \(![screenshot for print icon](../../program-management/image/PrintIcon.png)\) in the header of **Status Report** tab.
+You can also print a project status report from project workspace. To print a report, select the print icon \(\[Omitted image "PrintIcon.png"\] Alt text: screenshot for print icon\) in the header of **Status Report** tab.
 
 ## Procedure
 
 1.  Create a project status report.
 
-<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d55623e88">
+<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d57696e88">
 
 Option
 
-</th><th align="left" id="d55623e91">
+</th><th align="left" id="d57696e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d55623e97">
+</th></tr></thead><tbody><tr><td id="d57696e97">
 
 **From project workspace**
 
@@ -51,7 +52,7 @@ Steps
 
 **Note:** Alternatively, select a status report and select **Copy** from the choice list next to **Create new**. This option copies the selected status report including all fields into the new report.
 
-</td></tr><tr><td id="d55623e150">
+</td></tr><tr><td id="d57696e150">
 
 **From project record**
 
@@ -65,68 +66,64 @@ Steps
 </td></tr></tbody>
 </table>2.  On the status report form, fill in the details.
 
-    For more information, see [Status report form](../reference/status-report-form-project-management.md).
+    For more information, see [Status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/status-report-form-project-management.md).
 
 3.  Select **Submit**.
 
 
--   **[View project status reports](project-status-report.md)**  
+-   **[View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-status-report.md)**  
 Project status reports provide the most recent, at-a-glance progress of a project displayed in several categories.
 
-**Parent Topic:**[Starting a project](t_CreateAProject.md)
+**Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
 
 
-[Create a project task from a project](t_CreateATaskFromAProject.md)
+[Create a project task from a project]()
 
-[Create a parent-child relationship on the Project Task form](t_CreateParentChildRelationship.md)
+[Create a parent-child relationship on the Project Task form]()
 
-[Create a monetary benefit plan for a project](create-project-benefit-plan.md)
+[Create a monetary benefit plan for a project]()
 
-[Create a non-monetary benefit plan for a project](create-a-non-monetary-benefit-plan-for-a-project.md)
+[Create a non-monetary benefit plan for a project]()
 
-[Associate monetary and non-monetary benefit plans](associate-monetary-and-non-monetary-benefit-plans-project.md)
+[Associate monetary and non-monetary benefit plans]()
 
-[Create a project cost plan](t_CreateAProjectCostPlan.md)
+[Create a project cost plan]()
 
-[Recalculating costs of all resource plans in a project](recalculate-resource-costs-of-a-project.md)
+[Recalculating costs of all resource plans in a project]()
 
-[Create an expense line](t_CreateAExpenseLine.md)
+[Create an expense line]()
 
-[Create and manage waterfall projects](../../project-portfolio-suite/concept/c_CreateAndManageWaterfallProjects.md)
+[Create and manage waterfall projects]()
 
-[Schedule a project from a start date](schedule-a-project-pm.md)
+[Update a project]()
 
-[Apply or change a task constraint](change-task-constraint-project-management.md)
+[Copy a project]()
 
-[Update a project](t_UpdateAProjectInProgress.md)
+[Assign a project schedule]()
 
-[Copy a project](t_CopyAProject.md)
+[Create baseline of a project]()
 
-[Assign a project schedule](t_UseAProjectSchedule.md)
+[Create a milestone]()
 
-[Create baseline of a project](t_CreateAProjectBaseline.md)
+[Activate project task email notifications]()
 
-[Create a milestone](t_CreateMilestones.md)
+[Change the planned start date of a project]()
 
-[Activate project task email notifications](t_ActivateProjTaskEmailNot.md)
+[Create a cost type definition]()
 
-[Change the planned start date of a project](change-planned-start-date-of-project.md)
+[Costing add-on in Project Management]()
 
-[Create a cost type definition](t_CreateAResourceTypeDefinition.md)
+[Generate labor costs]()
 
-[Costing add-on in Project Management](../concept/c_ProjectManagementCostingAddOn.md)
+[Allocate budget to a project]()
 
-[Generate labor costs](gen-cost-pln-prj-wrkspc.md)
+[Migrate budget of active projects to Next Experience]()
 
-[Allocate budget to a project](allocate-budget-to-project.md)
+[Migrate financial baselines of projects to Next Experience]()
 
-[Migrate budget of active projects to Next Experience](fin-migrate-budget-project-ppm.md)
+[View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-status-report.md)
 
-[Migrate financial baselines of projects to Next Experience](migrate-fin-baselines-projects.md)
-
-[View project status reports](project-status-report.md)
-
-[Status report form](../reference/status-report-form-project-management.md)
+[Status report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/status-report-form-project-management.md)
 

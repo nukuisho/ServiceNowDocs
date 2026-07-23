@@ -2,6 +2,7 @@
 title: Review and approve a post case review
 description: Review and approve a post case review document for a resolved case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/approve-case-review-document.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

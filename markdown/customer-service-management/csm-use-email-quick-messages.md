@@ -2,6 +2,7 @@
 title: Respond to a case using an email quick message
 description: Use predefined quick email messages to quickly draft replies to customers. Agents can select predefined quick messages to add content into the message body of emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-use-email-quick-messages.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +33,7 @@ For more information, see the following topics:
 
 1.  Open a customer service case.
 
-2.  Select the More Actions icon \(![More options icon.](../image/more_icon.png)\) and then select **Email**.
+2.  Select the More Actions icon \(\[Omitted image "more\_icon.png"\] Alt text: More options icon.\) and then select **Email**.
 
 3.  Select the Quick Messages drop-down menu in the Compose Email header and select a predefined message.
 

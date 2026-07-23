@@ -2,6 +2,7 @@
 title: Request exception form for risk reduction
 description: The following table shows the fields that you must fill on the Request exception form for risk reduction requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/itr-ws-request-exception-form-rr.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -29,7 +30,7 @@ Reason
 
 </td><td>
 
-Reason for your exception request. Select Mitigating Control in Place for risk reduction request.To see how to add new reason choices, see [Define policy reason mapping](../../vulnerability-app-vuln-mgmt/task/define-policy-reason-mapping.md).
+Reason for your exception request. Select Mitigating Control in Place for risk reduction request.To see how to add new reason choices, see [Define policy reason mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/define-policy-reason-mapping.md).
 
 </td></tr><tr><td>
 
@@ -97,5 +98,5 @@ Details that are related to the reason why this request is being made.
 </table>**Related topics**  
 
 
-[Request risk reduction for a vulnerable item or remediation task](../../vr-vulnerability-manager-workspace/task/request-risk-reduction.md)
+[Request risk reduction for a vulnerable item or remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/request-risk-reduction.md)
 

@@ -2,6 +2,7 @@
 title: Update verification status of TPM audit details
 description: Change the verification status of a software product or hardware model lifecycle in the TPM technology lifecycle exception table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-update-verif-status.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ You can acknowledge a heuristic lifecycle match of a product by changing its sta
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon ![Technology portfolio icon](../image/eaw-image/technology-portfolio-icon.png).
+2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon \[Omitted image "technology-portfolio-icon.png"\] Alt text: Technology portfolio icon.
 
 3.  Select **Technology Portfolio Audit** tab.
 
@@ -40,10 +41,10 @@ You can acknowledge a heuristic lifecycle match of a product by changing its sta
 7.  Select **Save**.
 
 
-**Parent Topic:**[View technology portfolio audit risk details](eaw-task/eaw-view-audit-risk-details.md)
+**Parent Topic:**[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
 
 **Related topics**  
 
 
-[View technology portfolio audit risk details](eaw-task/eaw-view-audit-risk-details.md)
+[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
 

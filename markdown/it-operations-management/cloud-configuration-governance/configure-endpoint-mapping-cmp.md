@@ -2,11 +2,12 @@
 title: Configure endpoint operation mapping
 description: You can configure endpoint mapping on a storage volume to make a connection to a resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/configure-endpoint-mapping-cmp.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 2
 breadcrumb: [Create a custom resource block, Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -23,7 +24,7 @@ Role required: admin
 
 In the following example, the endpoint mapping that is configured for a storage volume specifies the conditions that must be met and the operation to execute to make a connection to a resource \(a virtual server in the example\) that supports a binding interface to a storage volume. The storage volume implements the endpoint \(type Block EP in the example\) and the virtual server consumes the endpoint:
 
-![Endpoint mapping for a storage volume](../image/connection-in-blueprint-canvas.png "Endpoint mapping for a storage volume")
+\[Omitted image "connection-in-blueprint-canvas.png"\] Alt text: Endpoint mapping for a storage volume
 
 The settings on the example **Resource Endpoint Mappings** related list specifies the conditions and an action:
 
@@ -33,7 +34,7 @@ The settings on the example **Resource Endpoint Mappings** related list specifie
 
 Use the **Attach** operation to implement the connection. Use the specified **Operation Implementation** to perform the **Attach** operation.
 
-![Storage volume for a resource block](../image/endpoint-mapping-rel-list.png "Storage volume for a resource block")
+\[Omitted image "endpoint-mapping-rel-list.png"\] Alt text: Storage volume for a resource block
 
 ## Procedure
 
@@ -91,12 +92,12 @@ Resource block that can present an **Endpoint** of the type that you specified. 
 </table>2.  Repeat the process for as many mappings as are needed.
 
 
-**Parent Topic:**[Create a custom resource block](create-resource-block.md)
+**Parent Topic:**[Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-resource-block.md)
 
 **Related topics**  
 
 
-[Specify a host resource for a resource block](specify-host-resource-cmp.md)
+[Specify a host resource for a resource block]()
 
-[Specify the bindings for resource blocks](specify-resource-bindings-cmp.md)
+[Specify the bindings for resource blocks]()
 

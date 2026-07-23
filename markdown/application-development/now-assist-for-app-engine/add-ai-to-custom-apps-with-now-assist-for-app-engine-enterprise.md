@@ -2,6 +2,7 @@
 title: Now Assist for App Engine
 description: Use Now Assist for App Engine to supercharge custom applications with AI agents and skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -9,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
-breadcrumb: [Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Now Assist for App Engine
@@ -28,15 +29,15 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 <table id="table_wjh_cz5_bfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Now Assist for App Engine concepts and features.](exploring-now-assist-for-app-generation-enterprise.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist for App Engine concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
 
 </td><td>
 
-[Install![](../../../reuse/icons/brand-icons/bus-cloud-download.svg)Install Now Assist for App Engine.](../task/install-now-assist-for-app-engine.md)
+[Install\[Omitted image "bus-cloud-download.svg"\] Alt text:Install Now Assist for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Now Assist for App Engine.](use-now-assist-for-app-engine-enterprise.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Now Assist for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
 
 </td><td>
 
@@ -45,9 +46,9 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help

@@ -2,13 +2,14 @@
 title: Create a record of Microsoft Azure credentials in Cloud Cost Management
 description: Securely store your Microsoft Azure credentials in the ServiceNow AI Platform credentials store. You must create a service account that accepts billing data for Cloud Cost Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/create-azure-credential-record-ccm.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Create a record of Microsoft Azure credentials in Cloud Cost Management
@@ -93,5 +94,5 @@ Option to enable the credentials for use.
 
 ## What to do next
 
-[Schedule and manage the jobs that download Azure billing data](schedule-azure-billing-job.md)
+[Schedule and manage the jobs that download Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/schedule-azure-billing-job.md)
 

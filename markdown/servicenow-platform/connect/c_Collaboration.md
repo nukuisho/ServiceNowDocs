@@ -2,6 +2,7 @@
 title: Connect Chat
 description: Connect Chat is a real-time messaging tool that enables users to chat with individuals and groups, quickly share files, and collaborate on any record by connecting with the right people instantly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/c\_Collaboration.html
 release: australia
 product: Connect
 classification: connect
@@ -32,11 +33,7 @@ Core UI is required to use Connect Chat.
 
 This video demonstrates how to use Connect Chat.
 
-How to use Connect Chat
-
 This video demonstrates how to use Connect Support.
-
-How to use Connect Support
 
 **Note:** Connect Chat does not replace legacy chat but offers some of the same functionality. The features should not be used concurrently.
 

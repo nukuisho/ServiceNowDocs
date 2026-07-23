@@ -2,6 +2,7 @@
 title: Using the activity stream in the Mobile Agent
 description: If you're a government service agent, you can access the activity stream from within the case card in the Mobile Agent. You can also communicate with requesters and make internal notes about the work on a record, which means that you can relay and track information more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-mobile-playbook-using-activity-stream.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ As an agent, you can use the activity stream to communicate with constituents an
 
 The following example shows the activity information view for a record in the Mobile Agent.
 
-![Activity stream view for a record in the Mobile Agent app.](../image/psds-mobile-service-request-activity-stream.png "Mobile Agent activity stream")
+\[Omitted image "psds-mobile-service-request-activity-stream.png"\] Alt text: Activity stream view for a record in the Mobile Agent app.
 
 ## Agent tasks in the mobile activity stream
 
@@ -60,9 +61,9 @@ Add photos or attachments
 
 </td><td>
 
--   Select the document icon \(![Document icon.](../image/psds-mobile-agent-app-document-icon.png)\) to attach a document to the case.
--   Select the camera ![Camera icon.](../image/psds-mobile-agent-app-camera-icon.png) icon to take a photo to attach to the case.
--   Select the gallery icon \(![Gallery icon.](../image/psds-mobile-agent-app-gallery-icon.png)\) to attach an existing photo to the case.
+-   Select the document icon \(\[Omitted image "psds-mobile-agent-app-document-icon.png"\] Alt text: Document icon.\) to attach a document to the case.
+-   Select the camera \[Omitted image "psds-mobile-agent-app-camera-icon.png"\] Alt text: Camera icon. icon to take a photo to attach to the case.
+-   Select the gallery icon \(\[Omitted image "psds-mobile-agent-app-gallery-icon.png"\] Alt text: Gallery icon.\) to attach an existing photo to the case.
 
 </td></tr></tbody>
 </table>

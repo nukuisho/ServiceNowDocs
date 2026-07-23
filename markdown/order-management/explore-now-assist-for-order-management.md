@@ -2,12 +2,13 @@
 title: Exploring Now Assist for Order Management
 description: With the Now Assist for Order Management application, you can use generative AI to summarize complex orders involving multiple products, services, and fulfillment tasks for faster, more accurate decision-making and improved customer responsiveness.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/explore-now-assist-for-order-management.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-11"
 reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Now Assist for Order Management]
+breadcrumb: [Now Assist for Order Management, Sales Customer Relationship Management]
 ---
 
 # Exploring Now Assist for Order Management
@@ -44,8 +45,8 @@ The Now Assist for Order Management includes the following applications that ena
     -   Order exception AI voice agent: Enables B2B customers to submit order cases using voice calls.
     Get started by performing the following tasks:
 
-    -   [Enable the manage order operations agent on the Business Portal](../task/enable-manage-order-operations-ai-agent.md)
-    -   [Configure ATP API for the manage order operations agent](../task/create-atp-api-call.md)
+    -   [Enable the manage order operations agent on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-manage-order-operations-ai-agent.md)
+    -   [Configure scripted extension points for the manage order operations agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/create-atp-api-call.md)
 -   **Manage Invoice Operations**
 
     The Manage Invoice Operations application \(com.sn\_inv\_ops\_aias\) includes the following AI agents and agentic workflow:
@@ -55,17 +56,15 @@ The Now Assist for Order Management includes the following applications that ena
     -   Invoice dispute assist agentic workflow: Enables finance agents to validate and resolve invoice disputes using a guided experience from the Now Assist panel in the CSM/FSM Configurable Workspace. Internally, it uses the invoice dispute support assistant AI agent to validate invoice information, trigger API calls to check quantity discrepancies and provide resolutions.
     Get started by performing the following tasks:
 
-    -   [Configure AI-assisted invoice dispute intake on the Business Portal](../task/enable-manage-invoice-operations-ai-agent.md)
-    -   [Configure the invoice quantity validation extension point](../task/configure-invoice-quantity-check-ep.md)
-    -   [Configure the invoice dispute resolution extension point](../task/configure-invoice-case-resolution-ep.md)
-    -   [Make the invoice dispute assist workflow available in the Now Assist panel](../task/enable-invoice-dispute-assist-agentic-workflow.md)
-
-**Parent Topic:**[Now Assist for Order Management](now-assist-order-management.md)
+    -   [Configure AI-assisted invoice dispute intake on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-manage-invoice-operations-ai-agent.md)
+    -   [Configure the invoice quantity validation extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-invoice-quantity-check-ep.md)
+    -   [Configure the invoice dispute resolution extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-invoice-case-resolution-ep.md)
+    -   [Make the invoice dispute assist workflow available in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/enable-invoice-dispute-assist-agentic-workflow.md)
 
 **Related topics**  
 
 
-[Configuring Now Assist for Order Management](now-assist-for-order-management-configuring.md)
+[Configuring Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-for-order-management-configuring.md)
 
-[Using Now Assist for Order Management](now-assist-order-management-using.md)
+[Using Now Assist for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/now-assist-order-management-using.md)
 

@@ -2,6 +2,7 @@
 title: CMS to Service Portal transition
 description: Your CMS may include complex forms and customizations that do not render as expected in Service Portal. Use this guide to understand how best to modify your CMS and Service Catalog implementation for Service Portal adoption, and to understand how a conversion may affect your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/cms-sp-migrate.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -72,7 +73,7 @@ Because UI Macros use Jelly, they are not supported in Service Portal.
 </td><td>
 
 -   In Service Portal, you can use widgets instead of UI Macros. Base system widgets generally cover most use cases, but for custom solutions, you can develop new widgets using AngularJS.
--   If your implementation includes UI Macros in Service Catalog forms that reference other fields or variables in the form, you can embed the widget inside a Service Catalog variable. Learn more: [Replace a Service Catalog form script with a widget](../task/ui-macro-widget.md).
+-   If your implementation includes UI Macros in Service Catalog forms that reference other fields or variables in the form, you can embed the widget inside a Service Catalog variable. Learn more: [Replace a Service Catalog form script with a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ui-macro-widget.md).
 
 </td></tr><tr><td>
 
@@ -95,7 +96,7 @@ Catalog client scripts
 
 </td><td>
 
-Only UI Type options **Mobile / Service Portal** and **All** are supported. UI type **Desktop** is not supported in Service Portal. For a list of supported APIs, see [Service Portal and client scripts](unsupported_client_scripts.md).
+Only UI Type options **Mobile / Service Portal** and **All** are supported. UI type **Desktop** is not supported in Service Portal. For a list of supported APIs, see [Service Portal and client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/unsupported_client_scripts.md).
 
  **Note:** Synchronous JavaScript calls are not supported in Service Portal and must be replaced by asynchronous calls. For example, the getXMLWait\(\) method of the GlideAjax class is not supported in Service Portal. Instead, use one of the following supported asynchronous methods:
 
@@ -117,7 +118,7 @@ UI policies
 
 </td><td>
 
-Scripted UI policies can only use APIs supported in Service Portal. For a list of supported APIs, see [Service Portal and client scripts](unsupported_client_scripts.md).
+Scripted UI policies can only use APIs supported in Service Portal. For a list of supported APIs, see [Service Portal and client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/unsupported_client_scripts.md).
 
 </td><td>
 
@@ -142,7 +143,7 @@ Service Catalog variables are supported in Service Portal with the following exc
 
 </td><td>
 
--   If embedding a widget in a catalog item form, you can use the UI Macro variable type. Learn more: [Replace a Service Catalog form script with a widget](../task/ui-macro-widget.md).
+-   If embedding a widget in a catalog item form, you can use the UI Macro variable type. Learn more: [Replace a Service Catalog form script with a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ui-macro-widget.md).
 -   If using variable with annotations, make sure to test your catalog items in Service Portal to ensure that help text displays as expected.
 
 </td></tr><tr><td>
@@ -159,7 +160,7 @@ Large order guides can cause performance issues in the Service Portal. If you ha
 
  -   Break them into multiple order guides.
 -   Simplify variables used in the order guides.
--   As a temporary solution, you can render the Service Catalog item using an iFrame. See [Service Catalog forms in Service Portal](sc-forms-in-sp.md).
+-   As a temporary solution, you can render the Service Catalog item using an iFrame. See [Service Catalog forms in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-forms-in-sp.md).
 
 </td></tr><tr><td>
 
@@ -188,7 +189,7 @@ In CMS, you used the CMSEntryPage script include to define login scenarios. Inst
 
 In Service Portal, define login behavior by modifying the SPEntryPage script include and setting system properties.
 
- For more information, see [Single sign-on, logins, and URL redirects](c_SPSSOLoginAndRedirects.md#).
+ For more information, see [Single sign-on, logins, and URL redirects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_SPSSOLoginAndRedirects.md).
 
 </td></tr><tr><td>
 
@@ -206,7 +207,7 @@ Service Catalog forms such as catalog items and record producers are rendered wi
 </td><td>
 
 -   Simplify any complex forms in your Service Catalog.
--   As a temporary solution, you can render the Service Catalog item using an iFrame. See [Service Catalog forms in Service Portal](sc-forms-in-sp.md).
+-   As a temporary solution, you can render the Service Catalog item using an iFrame. See [Service Catalog forms in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sc-forms-in-sp.md).
 
 </td></tr><tr><td>
 
@@ -221,5 +222,5 @@ The Service Portal includes a base system Shopping Cart widget.
 Use the Shopping Cart widget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Content Management and Service Portal](c_CMSAndSP.md)
+</table>**Parent Topic:**[Content Management and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CMSAndSP.md)
 

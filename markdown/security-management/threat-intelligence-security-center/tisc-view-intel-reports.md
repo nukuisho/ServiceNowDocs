@@ -2,13 +2,14 @@
 title: View Intelligence Reports
 description: View intelligence reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-view-intel-reports.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with Reports in TISC, TISC Library Repository, Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Working with Reports in TISC, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # View Intelligence Reports
@@ -27,7 +28,7 @@ Role required: sn\_sec\_tisc\_analyst
 
     This page displays the list of intelligence reports.
 
-3.  Select any report.
+3.  Open the required report.
 
 4.  Select **Download** to download the report.
 
@@ -38,5 +39,5 @@ Role required: sn\_sec\_tisc\_analyst
     **Note:** You can also preview the report before sharing.
 
 
-**Parent Topic:**[Working with Reports in TISC](../concept/tisc-reports-lib-view.md)
+**Parent Topic:**[Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md)
 

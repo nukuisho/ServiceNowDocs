@@ -2,6 +2,7 @@
 title: Workplace Analytics
 description: The ServiceNow Workplace Analytics dashboard displays key metrics that enable you to optimize the use of workplace resources and maximize your return on investment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/workplace-analytics.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -35,37 +36,37 @@ The ServiceNow Workplace Analytics dashboard displays key metrics that enable yo
 
 ## Accessing Workplace Analytics
 
-To access Workplace Analytics, Workplace Central must be installed. For more information, see [Install Workplace Central](../task/install-workplace-central.md).
+To access Workplace Analytics, Workplace Central must be installed. For more information, see [Install Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/install-workplace-central.md).
 
 You can access Workplace Analytics by using one of the following methods:
 
 -   Navigate to **All** &gt; **Workplace Central** &gt; **Workplace Central**.
 -   Navigate to **Workspaces** &gt; **Workplace Central**.
 
-For more information about how to use Workplace Analytics, see [Working with Workplace Analytics](working-with-workplace-analytics.md).
+For more information about how to use Workplace Analytics, see [Working with Workplace Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-workplace-analytics.md).
 
-**Parent Topic:**[Explore Workplace Central](workplace-central.md)
+**Parent Topic:**[Explore Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central.md)
 
 **Related topics**  
 
 
-[Lists module](wsd-lists-module.md)
+[Lists module]()
 
-[Space Planning](space-planning.md)
+[Space Planning]()
 
-[Space Optimization](space-optimization.md)
+[Space Optimization]()
 
-[Scenario Planning](scenario-planning.md)
+[Scenario Planning]()
 
-[Schedule Planning](schedule-planning.md)
+[Schedule Planning]()
 
-[Space assistance](space-assistance.md)
+[Space assistance]()
 
-[Event Planner](event-planner.md)
+[Event Planner]()
 
-[Move Management](move-mgmt.md)
+[Move Management]()
 
-[Case management](case-management-workspace.md)
+[Case management]()
 
-[Kiosk Indoor Mapping](kiosk-indoor-mapping.md)
+[Kiosk Indoor Mapping]()
 

@@ -2,6 +2,7 @@
 title: MLSolution - Global
 description: The MLSolution API provides methods for handling Predictive Intelligence predictions and retrieving solution objects for all capabilities: similarity, classification, and clustering\).Gets the prediction result for a classification solution and applies it to the input GlideRecord if the confidence value is higher than the threshold.Gets the capability information of a trained solution.Gets assignments for a clustering solution.Gets the cluster information for a clustering solution.Gets information for a specified clustering solution.Gets the version of the active solution.Determines if a solution is active.Gets the prediction results from the prediction server given a GlideRecord or an array of key-value pairs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/MLSolutionAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -31,16 +32,16 @@ This API provides methods commonly used among all solution capabilities and meth
 
 The MLSolution API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-The methods in this object are instantiated using [MLSolutionFactory](../../MLSolutionFactory/concept/MLSolutionFactoryAPI.md#).
+The methods in this object are instantiated using [MLSolutionFactory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MLSolutionFactoryAPI.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 **Related topics**  
 
 
-[MLSolutionUtil](../../MLSolutionUtil/concept/MLSolutionUtilAPI.md#)
+[MLSolutionUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MLSolutionUtilAPI.md)
 
-[REST API: Get predictions for multiple solutions](../../../../../integrate/inbound-rest/concept/agent-intelligence-api.md#)
+[REST API: Get predictions for multiple solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-intelligence-api.md)
 
 ## MLSolution - applyPrediction\(GlideRecord now\_GR\)
 
@@ -162,7 +163,7 @@ String
 
 </td><td>
 
-Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
+Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-clustering-solution.md).
 
 </td></tr><tr><td>
 
@@ -289,7 +290,7 @@ String
 
 </td><td>
 
-Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
+Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-clustering-solution.md).
 
 </td></tr><tr><td>
 
@@ -422,7 +423,7 @@ Object
 
 </td><td>
 
-[GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#) or array of JSON objects containing field names and values as key-value pairs.
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) or array of JSON objects containing field names and values as key-value pairs.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Configure integration services for Oracle EBS
 description: For configuring integration services, provide the connection end point and the Oracle EBS ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-oracle-ebs.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -15,12 +16,12 @@ breadcrumb: [Configure, Source-to-Pay integration with Oracle EBS, Integration w
 
 For configuring integration services, provide the connection end point and the Oracle EBS ERP credentials that you set up for your authentication profile. Also, create a separate web service record for each service request that you want to customize.
 
-Configure integration services for Oracle EBS. 
+\[Omitted video\] Description: Configure integration services for Oracle EBS.
 
 ## Before you begin
 
 -   Verify that the application scope is set to Oracle EBS spoke.
--   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
+-   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md).
 
     **Note:** The MID Server integration is required only for an Oracle EBS ERP integration using SOAP services.
 
@@ -42,7 +43,7 @@ If the application requires multiple Oracle EBS ERP instances, create separate w
 
 3.  In the Integration Services list, select the service that you want to configure.
 
-    ![Look up Legal Entities from Oracle EBS](../../source-to-pay-operations/image/oracle-ebs-fullpull.png "Look up Legal Entities from Oracle EBS")
+    \[Omitted image "oracle-ebs-fullpull.png"\] Alt text: Look up Legal Entities from Oracle EBS
 
 4.  On the integration service record, fill in the fields.
 
@@ -141,18 +142,18 @@ Option to choose the order in which the entity should be displayed.
     The integration service is configured for the selected entity.
 
 
-**Parent Topic:**[Configure the Source-to-Pay integration with Oracle EBS](../concept/configuring-source-to-pay-oracle-ebs-integration.md)
+**Parent Topic:**[Configure the Source-to-Pay integration with Oracle EBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-oracle-ebs-integration.md)
 
 **Related topics**  
 
 
-[ERP source configuration for Oracle EBS](../concept/erp-source-configuration-oracle.md)
+[ERP source configuration for Oracle EBS]()
 
-[Define ERP source configuration for Oracle EBS](define-erp-source-oracle.md)
+[Define ERP source configuration for Oracle EBS]()
 
-[Load data to ERP user-mapping table for Oracle EBS](load-data-erp-user-mapping-oracle-ebs.md)
+[Load data to ERP user-mapping table for Oracle EBS]()
 
-[Look up primary data in Oracle EBS](../concept/look-up-primary-data-oracle-ebs.md)
+[Look up primary data in Oracle EBS]()
 
-[Scheduled jobs to look up primary data in Oracle EBS](../concept/scheduled-jobs-to-primary-data-oracle-ebs.md)
+[Scheduled jobs to look up primary data in Oracle EBS]()
 

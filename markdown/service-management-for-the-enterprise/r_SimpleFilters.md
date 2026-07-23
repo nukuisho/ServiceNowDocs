@@ -2,6 +2,7 @@
 title: Simple filters
 description: Simple filters are available for the Workbench and the floor plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/r\_SimpleFilters.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Simple filters are available for the **Workbench** and the floor plan.
 
 Simple filters allow you to quickly highlight spaces based on conditions.
 
-From **Workbench**, click the Filter icon ![List filter icon](../../../common/image/List_FilterIcon.png).
+From **Workbench**, click the Filter icon \[Omitted image "List\_FilterIcon.png"\] Alt text: List filter icon.
 
 <table id="table_xjm_z11_x5"><thead><tr><th>
 
@@ -69,12 +70,12 @@ Zones
 Lists zones queried from the tables that extend or include \[fm\_m2m\_space\_to\_zone\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Map filters](r_MapFilters.md)
+</table>**Parent Topic:**[Map filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_MapFilters.md)
 
 **Related topics**  
 
 
-[Saved filters](r_SavedFilters.md)
+[Saved filters]()
 
-[Create a map filter in Facilities Service Management](../task/t_CreateAMapFilter.md)
+[Create a map filter in Facilities Service Management]()
 

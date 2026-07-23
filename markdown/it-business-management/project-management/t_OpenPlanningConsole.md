@@ -2,6 +2,7 @@
 title: Open the project planning console
 description: Access the planning console to perform the planning for the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_OpenPlanningConsole.html
 release: australia
 product: Project Management
 classification: project-management
@@ -23,25 +24,25 @@ Role required: it\_project\_manager
 
 -   Open the planning console using any of the following methods.
 
-<table id="choicetable_tt5_jhn_sdb"><thead><tr><th align="left" id="d266255e68">
+<table id="choicetable_tt5_jhn_sdb"><thead><tr><th align="left" id="d270349e68">
 
 Option
 
-</th><th align="left" id="d266255e71">
+</th><th align="left" id="d270349e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d266255e77">
+</th></tr></thead><tbody><tr><td id="d270349e77">
 
 **From project workspace**
 
 </td><td>
 
-1.  Open a project record in [project workspace](access-the-project-workspace.md).
+1.  Open a project record in [project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-the-project-workspace.md).
 2.  Select the **Planning** tab.
 
 
-</td></tr><tr><td id="d266255e105">
+</td></tr><tr><td id="d270349e105">
 
 **From a project record**
 
@@ -51,7 +52,7 @@ Steps
 2.  Select the **Planning Console** related link.
 
 
-</td></tr><tr><td id="d266255e129">
+</td></tr><tr><td id="d270349e129">
 
 **From Project Workbench**
 
@@ -63,22 +64,22 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Planning console - Legacy](../concept/c_TheProjectPlanningConsole.md)
+**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 
 **Related topics**  
 
 
-[Planning console tasks](../reference/r_PlanningConsoleTasks.md)
+[Planning console tasks]()
 
-[Client side planning console](../concept/client-side-planning-console.md)
+[Client side planning console]()
 
-[Gantt chart](../concept/c_GanttChart.md)
+[Gantt chart]()
 
-[Create a parent-child relationship on the planning console](t_CreateParentChildRelatConsole.md)
+[Create a parent-child relationship on the planning console]()
 
-[Predecessor dependencies in the planning console](../reference/r_ProjectTaskDependencyValues.md)
+[Predecessor dependencies in the planning console]()
 
-[Custom columns in the planning console](../concept/custom-columns-planning-console.md)
+[Custom columns in the planning console]()
 
-[Create a dependency from the planning console](t_CreateADependency.md)
+[Create a dependency from the planning console]()
 

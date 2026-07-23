@@ -2,6 +2,7 @@
 title: Associate an interaction with a task record
 description: Associating a record to an interaction leverages data to streamline processes, enhance the customer experience, and improve resolution time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/associate-interaction-record-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,17 +24,17 @@ Role required: itil or admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(![List icon](../image/list-icon-new.png)\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
 
 3.  Select **Interactions** &gt; **Open**.
 
 4.  Select the interaction record.
 
-5.  Select More Actions \(![More actions](../image/more-options-card.png)\) icon, and then select **Associate record**.
+5.  Select More Actions \(\[Omitted image "more-options-card.png"\] Alt text: More actions\) icon, and then select **Associate record**.
 
     A modal is displayed with the list of records.
 
-    ![Associate records](../image/associate-records-interaction-sow-jun24.png)
+    \[Omitted image "associate-records-interaction-sow-jun24.png"\] Alt text: Associate records
 
 6.  Select the record that must be associated to the interaction.
 
@@ -44,14 +45,14 @@ Role required: itil or admin
     The selected records are associated with the interaction.
 
 
-**Parent Topic:**[Interaction Management in Service Operations Workspace](../concept/interaction-sow.md)
+**Parent Topic:**[Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/interaction-sow.md)
 
 **Related topics**  
 
 
-[Create an interaction in Service Operations Workspace](create-interaction-sow.md)
+[Create an interaction in Service Operations Workspace]()
 
-[Work on an interaction in Service Operations Workspace](work-on-interaction-sow.md)
+[Work on an interaction in Service Operations Workspace]()
 
-[Collaborate using Microsoft Teams from an interaction record in Service Operations Workspace](collaborate-interaction-ms-teams-sow.md)
+[Collaborate using Microsoft Teams from an interaction record in Service Operations Workspace]()
 

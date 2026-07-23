@@ -2,6 +2,7 @@
 title: Generate an action plan using AI Enhanced recommended actions for ICW Mobile
 description: Generate an action plan to document and track remediation steps for an Industrial Connected Workforce Mobile Experience \(ICW Mobile\) deviation. Action plans help you organize tasks, assign responsibilities, and monitor progress toward resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/generate-action-plan-ai-enhanced-ra-icw-mobile.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -30,7 +31,7 @@ The AI Enhanced recommended actions for ICW Mobile enables you to generate a str
 
 2.  In the Action plan section, select **Generate Action Plan**.
 
-3.  Select ![](../../../reuse/icons/product-icons/chevron-down-outline-24.svg)to expand and view the full action plan.
+3.  Select \[Omitted image "chevron-down-outline-24.svg"\] Alt text:to expand and view the full action plan.
 
     Review the listed steps. The action plan is created using your uploaded resources and information available in the deviation record.
 
@@ -38,7 +39,7 @@ The AI Enhanced recommended actions for ICW Mobile enables you to generate a str
 
 5.  Select the **Activity** tab and refresh to view the generated action plan in the work notes.
 
-6.  In the generated action plan, select the **More** \(![](../../mftg-manufacturing-ot-knowledge/image/more-actions-vertical.png)\) icon and then select **Create follow-up actions**.
+6.  In the generated action plan, select the **More** \(\[Omitted image "more-actions-vertical.png"\] Alt text:\) icon and then select **Create follow-up actions**.
 
     Use this option to create a follow-up action for either the entire action plan or a step listed in the action plan.
 
@@ -51,14 +52,14 @@ The action plan appears in Work notes of the deviation record that you can refer
 
 You can also track and continue working on the follow-up actions.
 
-**Parent Topic:**[Create a deviation in the Industrial Connected Workforce Mobile application](create-deviation-mobile.md)
+**Parent Topic:**[Create a deviation in the Industrial Connected Workforce Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-deviation-mobile.md)
 
 **Related topics**  
 
 
-[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](use-ai-enhanced-ra-icw-mobile.md)
+[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/use-ai-enhanced-ra-icw-mobile.md)
 
-[AI Enhanced recommended actions for Industrial Connected Workforce \( ICW\)](../../icw-ai-enhanced-recommended-actions/concept/exploring-ai-enhanced-ra-icw.md)
+[AI Enhanced recommended actions for Industrial Connected Workforce \( ICW\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/exploring-ai-enhanced-ra-icw.md)
 
-[Configure AI Enhanced recommended actions for Industrial Connected Workforce](../../icw-ai-enhanced-recommended-actions/concept/configure-ai-enhanced-ra-icw.md)
+[Configure AI Enhanced recommended actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configure-ai-enhanced-ra-icw.md)
 

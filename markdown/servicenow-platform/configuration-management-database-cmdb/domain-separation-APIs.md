@@ -2,6 +2,7 @@
 title: CMDB APIs \(CMDB SDK\)
 description: Use CMDB APIs to create, update, and read operations on the CMDB. Domain separation is supported in CMDB APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/domain-separation-APIs.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -70,7 +71,7 @@ The configuration is done at the CMDB level.
 
 ## If a domain column is present for base system application tables
 
-See the [Domain separation in CMDB Health](cmdb-health-domain-separation.md) topic.
+See the [Domain separation in CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-health-domain-separation.md) topic.
 
 ## Tenant domains and application data
 
@@ -79,5 +80,5 @@ There is no application-specific data to manage with CMDB.
 **Related topics**  
 
 
-[Domain separation and Configuration Management Database \(CMDB\)](domain-separation-cmdb.md)
+[Domain separation and Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/domain-separation-cmdb.md)
 

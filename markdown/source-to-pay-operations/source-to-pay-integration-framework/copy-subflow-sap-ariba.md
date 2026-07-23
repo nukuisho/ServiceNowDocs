@@ -2,11 +2,12 @@
 title: Copy a flow or subflow in SAP Ariba
 description: You can create a copy of the a flow or subflow, and modify based on your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/copy-subflow-sap-ariba.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use flows in SAP Ariba, Use, Source-to-Pay integration with SAP Ariba, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -47,21 +48,21 @@ Role required: sn\_fcms\_intg.admin, sn\_shop.procurement\_specialist, connectio
 
     **Note:** Do not modify the trigger condition.
 
-    ![Trigger conditions to create or update in SAP Ariba](../../source-to-pay-operations/image/sap-ariba-trigger-conditions.png "Trigger condition to create or update sourcing even in SAP Ariba")
+    \[Omitted image "sap-ariba-trigger-conditions.png"\] Alt text: Trigger conditions to create or update in SAP Ariba
 
     **Note:**
 
-    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../concept/s2p-transform-maps-flows.md).
+    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md).
 
     You have successfully copied and executed the flow.
 
 
-**Parent Topic:**[Use flows in SAP Ariba](../concept/use-flows-sap-ariba.md)
+**Parent Topic:**[Use flows in SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/use-flows-sap-ariba.md)
 
 **Related topics**  
 
 
-[Manually trigger flows or subflows in SAP Ariba \(Inbound\)](manually-trigger-subflows-sap-ariba.md)
+[Manually trigger flows or subflows in SAP Ariba \(Inbound\)]()
 
-[Use a flow or subflow in SAP Ariba \(Outbound\)](use-subflow-sap-ariba.md)
+[Use a flow or subflow in SAP Ariba \(Outbound\)]()
 

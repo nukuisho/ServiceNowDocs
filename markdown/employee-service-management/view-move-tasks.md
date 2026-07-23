@@ -2,11 +2,12 @@
 title: View move tasks
 description: Monitor the move-related tasks that are created in the application to fulfill a move request. View the move tasks assigned to you, the tasks that are currently open, and all the move tasks created in the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/view-move-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Analytics and reporting solutions for Workplace Move Management, Workplace Move Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Analytics and Reporting, Workplace Move Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # View move tasks
@@ -27,10 +28,10 @@ Role required: sn\_wsd\_move.manager
     -   **Open tasks:** Select this option to view open move tasks.
     -   **All move tasks**: Select this option to view all the move tasks.
 
-**Parent Topic:**[Analytics and reporting solutions for Workplace Move Management](../concept/analytics-reporting-solution.md)
+**Parent Topic:**[Analytics and reporting solutions for Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/analytics-reporting-solution.md)
 
 **Related topics**  
 
 
-[View move requests](view-move-requests.md)
+[View move requests]()
 

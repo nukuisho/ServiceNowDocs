@@ -2,6 +2,7 @@
 title: Configure the healthcare record page to support your custom healthcare case type
 description: Configure the healthcare record page in Workspace to include your custom case type to display EMR session information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/configure-the-workspace-healthcare-page.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -23,7 +24,7 @@ Set your scope to Healthcare and Life Sciences Service Management Core.
 
 ## About this task
 
-Video showing how to configure a HCLS Case request definition to support the newly created healthcare case type.
+\[Omitted video\] Description: Video showing how to configure a HCLS Case request definition to support the newly created healthcare case type.
 
 ## Procedure
 

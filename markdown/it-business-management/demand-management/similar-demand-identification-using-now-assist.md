@@ -2,6 +2,7 @@
 title: Now Assist skills for Demand Management
 description: Now Assist for Strategic Portfolio Management \(SPM\) provides AI-powered skills for demand records that help you quickly understand demand details and identify related records. These skills improve planning efficiency and support informed decision-making.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/similar-demand-identification-using-now-assist.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -24,7 +25,7 @@ This skill uses the name, description, and business case content of a demand to 
 
 The similar demand records are displayed in a top banner and in the Similar Demands related list. This skill improves visibility into related initiatives, and enhances decision-making for demand users.
 
-For more information, see [Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](../task/identify-similar-demands.md).
+For more information, see [Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/identify-similar-demands.md).
 
 ## Demand summarization
 
@@ -32,12 +33,12 @@ The demand summarization skill reviews the fields and related lists of a demand 
 
 The generated summary is displayed in a summary card on the demand record. You can copy the summary for further use.
 
-For more information on, see [Summarize demands with demand summarization skill](../task/demand-summary-demand-classic.md).
+For more information on, see [Summarize demands with demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-summary-demand-classic.md).
 
-**Parent Topic:**[Exploring Demand Management](exploring-demand-management.md)
+**Parent Topic:**[Exploring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/exploring-demand-management.md)
 
 **Related topics**  
 
 
-[Now Assist for Strategic Portfolio Management \(SPM\)](../../now-assist-spm/concept/now-assist-spm.md)
+[Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
 

@@ -2,6 +2,7 @@
 title: Create an opportunity
 description: Create a new product opportunity in the Opportunity Management application by entering the details, such as account, sales stage, sales cycle type, and deal size.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-new-opportunity.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, select the **List** ![](../../../reuse/icons/product-icons/list-outline-24.svg) view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  In the **Opportunity - All** list, select **New**.
 
@@ -27,15 +28,15 @@ Role required: sales\_agent
 
 3.  Use the following table to fill in the information.
 
-<table id="choicetable_urq_rxt_c1c"><thead><tr><th align="left" id="d55180e88">
+<table id="choicetable_urq_rxt_c1c"><thead><tr><th align="left" id="d60704e88">
 
 Fields
 
-</th><th align="left" id="d55180e91">
+</th><th align="left" id="d60704e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d55180e97">
+</th></tr></thead><tbody><tr><td id="d60704e97">
 
 **Short Description**
 
@@ -43,7 +44,7 @@ Description
 
 Fill in a short description for the opportunity.
 
-</td></tr><tr><td id="d55180e106">
+</td></tr><tr><td id="d60704e106">
 
 **Estimated Deal Size**
 
@@ -51,7 +52,7 @@ Fill in a short description for the opportunity.
 
 Amount of potential opportunity.
 
-</td></tr><tr><td id="d55180e115">
+</td></tr><tr><td id="d60704e115">
 
 **Account**
 
@@ -59,7 +60,7 @@ Amount of potential opportunity.
 
 Provide account information.
 
-</td></tr><tr><td id="d55180e124">
+</td></tr><tr><td id="d60704e124">
 
 **Consumer**
 
@@ -67,7 +68,7 @@ Provide account information.
 
 Select a consumer.
 
-</td></tr><tr><td id="d55180e134">
+</td></tr><tr><td id="d60704e134">
 
 **Deal type**
 
@@ -77,7 +78,7 @@ Indicates the type of deal associated with the opportunity:-   Direct: The selle
 -   Indirect: The seller engages the customer through an intermediary, such as a reseller, service provider, or distributor.
 
 
-</td></tr><tr><td id="d55180e151">
+</td></tr><tr><td id="d60704e151">
 
 **Stage**
 
@@ -85,7 +86,7 @@ Indicates the type of deal associated with the opportunity:-   Direct: The selle
 
 Enter a stage of the opportunity. For example: Qualify, Develop, Propose, Negotiate, Closed- Won, or Closed- Lost.
 
-</td></tr><tr><td id="d55180e160">
+</td></tr><tr><td id="d60704e160">
 
 **Route to market**
 
@@ -97,7 +98,7 @@ Identifies the exact sales channel used to execute the deal:-   Direct
 -   Distributor
 
 
-</td></tr><tr><td id="d55180e183">
+</td></tr><tr><td id="d60704e183">
 
 **Sales Cycle Type**
 
@@ -105,7 +106,7 @@ Identifies the exact sales channel used to execute the deal:-   Direct
 
 Enter the type of sales cycle during the creation of the opportunity. For example: NEWCUST, RENEW, or UPSELL.
 
-</td></tr><tr><td id="d55180e192">
+</td></tr><tr><td id="d60704e192">
 
 **Contact**
 
@@ -113,7 +114,7 @@ Enter the type of sales cycle during the creation of the opportunity. For exampl
 
 Fill in the primary contact information associated with the opportunity.
 
-</td></tr><tr><td id="d55180e201">
+</td></tr><tr><td id="d60704e201">
 
 **Channel partner**
 
@@ -124,12 +125,19 @@ An external organization involved in selling, influencing, or supporting an oppo
 </td></tr></tbody>
 </table>4.  Select **Save** to save the opportunity and **Close** to return to the main Opportunities window.
 
-5.  Select Refresh ![](../../tmt-telecom-network-inventory/image/icon-refresh.png) to see the new opportunity in the list.
+5.  Select Refresh \[Omitted image "icon-refresh.png"\] Alt text: to see the new opportunity in the list.
 
 
 ## What to do next
 
-Start adding more information to your opportunity. To learn more, see [Add and view the details of an opportunity](opportunity-management-details-tab.md).
+Start adding more information to your opportunity. To learn more, see [Add and view the details of an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management-details-tab.md).
 
-**Parent Topic:**[Using Opportunity Management](opportunity-mgmt-using.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-mgmt-using.md)
+
+**Related topics**  
+
+
+[Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/opportunity-management.md)
 

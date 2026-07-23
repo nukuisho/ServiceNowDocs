@@ -2,6 +2,7 @@
 title: VMware NSX Advanced load balancer discovery
 description: The ServiceNow Discovery application uses the VMware NSX Advanced load balancer discovery pattern to find VMware NSX load balancers. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/vmware-nsx-lb-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -15,13 +16,13 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 The ServiceNow Discovery application uses the VMware NSX Advanced load balancer discovery pattern to find VMware NSX load balancers. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-The pattern uses a set of REST APIs to find the load balancers. It is triggered by the NSX HTTP classifier that responds to the **HTTP - Classify** probe. For more information, see [HTTP device discovery](../../discovery/concept/http-discovery.md).
+The pattern uses a set of REST APIs to find the load balancers. It is triggered by the NSX HTTP classifier that responds to the **HTTP - Classify** probe. For more information, see [HTTP device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/http-discovery.md).
 
 **Note:** There are two patterns available. The legacy VMware NSX Load Balancer pattern is for the S series. The new VMware NSX-T Load Balancer pattern is for the T series. The functionality and collected information remain the same.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -41,7 +42,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
         -   /api/4.0/edges
         -   /api/4.0/edges/&lt;edge\_id&gt;loadbalancer/config
     -   NSX-T: /api/v1/edge-clusters
-    For more information about basic authentication credentials, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+    For more information about basic authentication credentials, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
 -   **Verify HTTP discovery is triggered against the NSX Main Controller IP**
 
@@ -49,7 +50,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create a discovery schedule**
 
-    Create the discovery schedule for VMware NSX load balancer discovery or run a quick discovery on the IP address of the NSX Main Controller. For more information about running a quick discovery, see [Run a Quick Discovery](../../discovery/task/t_CreateADiscoverySchedule.md#).
+    Create the discovery schedule for VMware NSX load balancer discovery or run a quick discovery on the IP address of the NSX Main Controller. For more information about running a quick discovery, see [Run a Quick Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 
 ## Data collected by Discovery for VMware NSX Advanced load balancer
@@ -95,7 +96,7 @@ Discovery populates the data in the CMDB when running the VMware NSX Advanced lo
 
 The Dependency Views map shows all discovered load balancer CIs and the relationships between them.
 
-![CIs and connections on a Dependency Views map](../image/dependency-nsx.png)
+\[Omitted image "dependency-nsx.png"\] Alt text: CIs and connections on a Dependency Views map
 
 ## CI relationships
 
@@ -153,5 +154,5 @@ The Pattern Designer fails because of a timeout during pattern debugging \(and n
 By default, the **sa.debugger.max\_timeout**parameter is set to 240 seconds.Increase the value of this parameter on the relevant MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+</table>**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

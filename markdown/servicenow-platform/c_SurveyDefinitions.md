@@ -2,6 +2,7 @@
 title: Survey definitions
 description: A survey definition is the root record upon which a survey is built.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/c\_SurveyDefinitions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,47 +18,47 @@ The survey designer generates a survey definition automatically when you save or
 
 Survey administrators and survey readers can also send survey invitations directly to users from the survey definition.
 
--   **[Modify a survey definition](../task/t_ModifySurveyDefinitions.md)**  
+-   **[Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifySurveyDefinitions.md)**  
 You can configure additional options for a survey definition.
--   **[Schedule periods](c_SchedulePeriods.md)**  
+-   **[Schedule periods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SchedulePeriods.md)**  
 The available schedule periods are **Only Once**, **No Limit**, **Daily**, **Weekly**, **Monthly**, and **Yearly**.
 
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](../task/view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](../task/t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Survey users and groups](c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Copy a survey](../task/copy-survey.md)
+[Copy a survey]()
 
-[Publish a survey](../task/t_PublishASurvey.md)
+[Publish a survey]()
 
-[Customize the appearance of a survey](../task/t_CustomizingAppearance.md)
+[Customize the appearance of a survey]()
 
-[Create a survey designer template question](../task/t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Sentiment analysis for surveys](sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](c_MigrateSurveys.md)
+[Legacy survey migration]()
 
-[Send survey invitations to users](../task/t_SendSurveyInvitationsToUsers.md)
+[Send survey invitations to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SendSurveyInvitationsToUsers.md)
 

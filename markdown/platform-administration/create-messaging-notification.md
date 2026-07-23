@@ -2,6 +2,7 @@
 title: Create a messaging notification
 description: Notifications define when a message is sent, who it is sent to, and what it contains. To send a notification to Slack or Teams, add a messaging content record to the notification and configure the notification messaging channel. Notifications that require action must be sent to individual users instead of groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-messaging-notification.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: admin
 
 3.  Fill in or modify the fields as appropriate.
 
-    ![Messaging notification form showing Name, Table, Category, and Description fields](../image/email-notification-form.png)
+    \[Omitted image "email-notification-form.png"\] Alt text: Messaging notification form showing Name, Table, Category, and Description fields
 
 <table id="table_tlr_5hd_rdb"><thead><tr><th>
 
@@ -76,7 +77,7 @@ Enter a description for this notification.
 
 5.  Open the **When to send** tab and complete the form.
 
-    ![When to send tab showing Send when, Weight, Conditions, and Advanced condition fields](../image/when-to-send-tab.png)
+    \[Omitted image "when-to-send-tab.png"\] Alt text: When to send tab showing Send when, Weight, Conditions, and Advanced condition fields
 
     **Note:** If the same trigger generates multiple notifications, the system only sends one notification. The system considers all other notifications, even if they have a different subject and body, as duplicates. The Ignore Duplicates business rule controls this functionality.
 
@@ -96,7 +97,7 @@ Send when
 
 Select under what condition the notification is sent: -   When a record is inserted or updated
 -   When a particular event is fired
--   When [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/trigger-notification-action-designer.md) in Flow Designer
+-   When [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/trigger-notification-action-designer.md) in Flow Designer
 
 
 </td></tr><tr><td>
@@ -145,7 +146,7 @@ Advanced condition
 
 </td><td>
 
-Create a script to define more filter conditions, like sending a notification based on the current messaging record, changing field values, or changing system properties. [The advanced condition](../concept/c_OptSpecifyingAdvancedCond.md) script must return **true** or set a global answer variable to **true** to send the notification.
+Create a script to define more filter conditions, like sending a notification based on the current messaging record, changing field values, or changing system properties. [The advanced condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_OptSpecifyingAdvancedCond.md) script must return **true** or set a global answer variable to **true** to send the notification.
 
  The advanced condition script uses the following global variables:
 
@@ -232,5 +233,5 @@ Select this check box if the event parameter 2 contains one or more notification
 8.  Click **Update**.
 
 
-**Parent Topic:**[Notifications in messaging applications](../concept/messaging-integration.md)
+**Parent Topic:**[Notifications in messaging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/messaging-integration.md)
 

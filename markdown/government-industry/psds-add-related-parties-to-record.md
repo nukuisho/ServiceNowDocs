@@ -2,6 +2,7 @@
 title: Configure related parties for Items Received
 description: Add related parties to an item received in the Public Sector Digital Services application so that the contacts, businesses, constituents, or agencies can get the correct access level to perform the actions that they need for a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-add-related-parties-to-record.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin, sn\_gsm.constituent, sn\_gsm.constituent\_agent, sn\_gsm.b
 
 ## Procedure
 
-1.  Navigate to the CSM Configurable Workspace and select the Lists icon ![Lists icon.](../image/lists-icon.png) in the sidebar.
+1.  Navigate to the CSM Configurable Workspace and select the Lists icon \[Omitted image "lists-icon.png"\] Alt text: Lists icon. in the sidebar.
 
 2.  Navigate to **Item Received** &gt; **All**.
 

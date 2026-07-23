@@ -2,6 +2,7 @@
 title: Guided setup for MID Server consumers
 description: Implement the following steps for a complete guided setup for MID Server consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/les-guided-setup-mid-server.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +40,7 @@ Role required: admin
 
 2.  Generate certificates for a secure connection to Hermes Messaging Service and pull log events from it.
 
-    Setup secure connection to Hermes Messaging Service. See [Set up a secure connection to the Hermes Messaging Service for LES](les-hermes-cert.md) for more information. You will need these certificates for authentication and authorization in the client which will pull the logs from Hermes.
+    Setup secure connection to Hermes Messaging Service. See [Set up a secure connection to the Hermes Messaging Service for LES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-hermes-cert.md) for more information. You will need these certificates for authentication and authorization in the client which will pull the logs from Hermes.
 
     **Note:** admin or Hermes\_admin roles are required for this step.
 
@@ -81,8 +82,10 @@ Role required: admin
 
     Complete the following tasks to install the MID Server.
 
-    -   Install dedicated MID Server: The MID Server that Log Export Service uses should be dedicated for only this purpose and should not be expected to run other processes. This is important to ensure timely delivery of exported log messages to your REST endpoint. You can install the new MID Server either by using the [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/use-mid-server-guidedsetup.md) or by installing it manually. For the manual installation, follow the [Configure MID Server network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConnectionPrerequisites.md) documentation first and then the [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md) documentation after that.
-    -   Validate MID Server: You must manually validate the MID Server after it is installed to enable it to execute automation tasks. To validate the MID Server you are dedicating for LES, see [Validate the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ValidateAMIDServer.md)
+    -   Install dedicated MID Server: The MID Server that Log Export Service uses should be dedicated for only this purpose and should not be expected to run other processes. This is important to ensure timely delivery of exported log messages to your REST endpoint. You can install the new MID Server either by using the [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by installing it manually. For the manual installation, follow the [Configure MID Server network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_MIDServerConnectionPrerequisites.md) documentation first and then the [Installing the MID Server with manual or guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-installation.md) documentation after that.
+    -   Validate MID Server: You must manually validate the MID Server after it is installed to enable it to execute automation tasks. To validate the MID Server you are dedicating for LES, see [Validate the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ValidateAMIDServer.md)
+    **Note:** If you configure a MID Server for this application, MID Server proxy settings do not apply to Hermes connectivity. MID Server proxy configuration applies only to HTTP-based communication. Because Hermes uses Kafka-native TCP connections, traffic to the Hermes cluster bypasses proxy settings regardless of MID Server configuration.
+
 5.  Configure Log REST Push Destination: Setup the MID Server to be able to push logs to your log analytics system \(such as Splunk\).
 
     Complete the following tasks to configure log REST push destination.
@@ -160,5 +163,5 @@ Role required: admin
         **Note:** If you make any change in one of the Consumer records, it shows up on the Consumer Status view page. If you select a consumer record name on the Consumer Status list, the Consumer form for the selected record opens. You can then update the Name and Destination Configuration of the selected record.
 
 
-**Parent Topic:**[MID server consumer](../concept/les-mid-server-consumer.md)
+**Parent Topic:**[MID server consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-mid-server-consumer.md)
 

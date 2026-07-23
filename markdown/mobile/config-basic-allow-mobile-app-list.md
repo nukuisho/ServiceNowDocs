@@ -2,6 +2,7 @@
 title: Configure a basic allowed mobile app list
 description: As an admin, configure a system property that contains a list of mobile apps that can log in to ServiceNow instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/config-basic-allow-mobile-app-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ To support your organization's authentication policies, you can configure a list
 
 2.  Make sure you are in the global application scope.
 
-    To check if you are in the global application scope, select the globe icon \(![Globe icon.](../image/globe-icon.png)\) in the banner. The application scope that you are in is displayed.
+    To check if you are in the global application scope, select the globe icon \(\[Omitted image "globe-icon.png"\] Alt text: Globe icon.\) in the banner. The application scope that you are in is displayed.
 
     If you aren't in the global application scope, then select **Application Scope** &gt; **Global**.
 
@@ -49,7 +50,7 @@ To support your organization's authentication policies, you can configure a list
     com.servicenow.intune.requestor,com.servicenow.requestor.mam.intune
     ```
 
-    For a list of iOS Bundle IDs and Android Package IDs, see [Bundle and Package IDs for ServiceNow mobile apps](../reference/sg-mobile-package-ids.md).
+    For a list of iOS Bundle IDs and Android Package IDs, see [Bundle and Package IDs for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-package-ids.md).
 
 8.  Select **Submit**.
 

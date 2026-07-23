@@ -2,6 +2,7 @@
 title: Create an achievement rule
 description: Create achievement rules to define the criteria to be met to complete an achievement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/create-achievement-rule.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -27,29 +28,29 @@ Role required: sn\_lep.achievement\_manager
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Achievement rule form](../reference/achievement-rule-form.md).
+    For a description of the field values, see [Achievement rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/achievement-rule-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Manage Learning](../concept/manage-learning-achievements.md)
+**Parent Topic:**[Manage Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/manage-learning-achievements.md)
 
 **Related topics**  
 
 
-[Create a content collection](../concept/create-content-collection.md)
+[Create a content collection]()
 
-[Create internal Learning content](../concept/create-internal-learning-content.md)
+[Create internal Learning content]()
 
-[View external Learning content](../concept/view-external-learning-content.md)
+[View external Learning content]()
 
-[Create a learning library](../concept/create-learning-library.md)
+[Create a learning library]()
 
-[Create a learning task](../concept/create-learning-task.md)
+[Create a learning task]()
 
-[Create an achievement definition](../concept/create-achievement.md)
+[Create an achievement definition]()
 
-[Create user achievements](../concept/create-user-achievements.md)
+[Create user achievements]()
 
-[Create an achievement rule item](achievement-rule-item.md)
+[Create an achievement rule item]()
 

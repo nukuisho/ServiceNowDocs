@@ -2,6 +2,7 @@
 title: Zing removes stop words from queries
 description: Remove common words from search queries that don't produce meaningful results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/stop-words-removed-from-queries.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -26,41 +27,41 @@ By default, the system maintains two types of stop words.
 
 By default, the system has stops words for common English words. Search administrators typically create stop words from search terms that produce too many search results such as articles, conjunctions, personal pronouns, and prepositions.
 
--   **[Configure a global stop word](../task/t_ConfigureAGlobalStopWord.md)**  
+-   **[Configure a global stop word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_ConfigureAGlobalStopWord.md)**  
 Configure stop words that shouldn't be indexed by the search.
--   **[Configure a table-specific stop word](../task/t_ConfigureATableSpecificStopWord.md)**  
+-   **[Configure a table-specific stop word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_ConfigureATableSpecificStopWord.md)**  
 You can configure stop words for a specific table.
--   **[Enable automatic stop words for a table](../task/t_ConfigureAnAutomaticStopWord.md)**  
+-   **[Enable automatic stop words for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/t_ConfigureAnAutomaticStopWord.md)**  
 The system can identify and generate stop words when a search term exceeds an occurrence threshold.
--   **[Disable a stop word in Zing](../task/disable-stop-word-zing.md)**  
+-   **[Disable a stop word in Zing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/disable-stop-word-zing.md)**  
 Configure Zing to return results for text search terms that match a stop word's stemmed form.
 
-**Parent Topic:**[Zing text indexing and search engine](c_ZingTextSearch.md)
+**Parent Topic:**[Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
 
 **Related topics**  
 
 
-[Features of Zing text indexing and search engine](../reference/features-zing.md)
+[Features of Zing text indexing and search engine]()
 
-[Available search options](c_IntroductionToSearching.md)
+[Available search options]()
 
-[Global search finds records from multiple tables](c_GlobalTextSearch.md)
+[Global search finds records from multiple tables]()
 
-[Zing generates search results in four phases](c_SearchProcess.md)
+[Zing generates search results in four phases]()
 
-[Zing filters search results with access controls](zing-filters-search-results.md)
+[Zing filters search results with access controls]()
 
-[Zing computes document scores using three components](c_DocumentScoring.md)
+[Zing computes document scores using three components]()
 
-[Zing indexes words](zing-indexes-words.md)
+[Zing indexes words]()
 
-[Zing can include attachments in search results](c_SearchingForAttachments.md)
+[Zing can include attachments in search results]()
 
-[Zing matches derived words with stemming](stemming-matches-derived-words.md)
+[Zing matches derived words with stemming]()
 
-[Zing can expand search results with synonyms](search-synonyms-expand-results.md)
+[Zing can expand search results with synonyms]()
 
-[Zing displays search suggestions as users enter search terms](search-suggestions-zing.md)
+[Zing displays search suggestions as users enter search terms]()
 
-[Installed with Zing](../reference/installed-with-zing.md)
+[Installed with Zing]()
 

@@ -2,6 +2,7 @@
 title: ServiceNow AI Platform Additional Capabilities
 description: Explore additional ServiceNow ServiceNow AI Platform capabilities features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-platform-additional-capabilities.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,15 +16,15 @@ Explore additional ServiceNow ServiceNow AI Platform capabilities features.
 
 <table id="table_dyt_rjh_hvb" class="nav-card"><tbody><tr><td>
 
-[Connect ![](../../../reuse/icons/brand-icons/bus-2-person.svg) Connect to your coworkers and participate in conversations while you work.](../../../use/collaboration/concept/c_Connect.md)
+[Connect \[Omitted image "bus-2-person.svg"\] Alt text: Connect to your coworkers and participate in conversations while you work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_Connect.md)
 
 </td><td>
 
-[Orchestration ![](../../../reuse/icons/brand-icons/bus-share.svg) Extend automation capabilities to external services.](../../../product/orchestration/reference/r-orchestration.md)
+[Orchestration \[Omitted image "bus-share.svg"\] Alt text: Extend automation capabilities to external services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/r-orchestration.md)
 
 </td><td>
 
-[Task Communications Management ![](../../../reuse/icons/brand-icons/bus-microphone.svg) Create communications plans for any event.](../../task-communication-management/reference/tcm-landing-page.md)
+[Task Communications Management \[Omitted image "bus-microphone.svg"\] Alt text: Create communications plans for any event.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/tcm-landing-page.md)
 
 </td></tr></tbody>
 </table>## Connect

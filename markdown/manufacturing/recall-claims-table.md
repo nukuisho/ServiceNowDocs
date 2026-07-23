@@ -2,6 +2,7 @@
 title: Recall campaign tables
 description: This section explains the recall campaign tables in Manufacturing Commercial Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/recall-claims-table.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -120,5 +121,5 @@ Recall phase part allocation\[sn\_rcl\_claim\_mgmt\_phase\_part\_allocation\]
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recall campaign data model](recall-claims.md)
+</table>**Parent Topic:**[Recall campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/recall-claims.md)
 

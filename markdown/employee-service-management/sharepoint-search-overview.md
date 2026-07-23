@@ -2,6 +2,7 @@
 title: SharePoint Online Search Connector
 description: The ServiceNow SharePoint Online Search Connector offers a consumer-grade search configuration to manage your information resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/sharepoint-search-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,11 +22,11 @@ As search is the key to productivity, SharePoint Online Search Connector \(SPOC\
 
 For additional instructions on how to get started with **External Content Connectors**, see
 
--   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md).
--   [Exploring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/exploring-ext-cont-connectors.md).
--   [Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-ext-cont-connectors.md).
+-   [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md).
+-   [Exploring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/exploring-ext-cont-connectors.md).
+-   [Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-ext-cont-connectors.md).
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view the application and for information about submitting requests to the store. For cumulative release notes information, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view the application and for information about submitting requests to the store. For cumulative release notes information, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Additional resources
 
@@ -38,7 +39,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 **Related topics**  
 
 
-[SharePoint Online Search Connector reference](../reference/sharepoint-reference.md)
+[SharePoint Online Search Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-reference.md)
 
-[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ext-cont-connectors-landing-page.md)
+[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ext-cont-connectors-landing-page.md)
 

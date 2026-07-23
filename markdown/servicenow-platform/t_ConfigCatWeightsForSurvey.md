@@ -2,6 +2,7 @@
 title: Configure category weights for a survey
 description: You can assign a weight to each category in a survey. The system calculates results from the weight that you configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ConfigCatWeightsForSurvey.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,22 +35,22 @@ Weights are set to a value of **10** by default but can be changed.
 4.  Click **Update**.
 
 
-**Parent Topic:**[Survey designer](../concept/c_SurveyDesigner.md)
+**Parent Topic:**[Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md)
 
 **Related topics**  
 
 
-[Survey designer elements](../concept/c_SurveyDesignerElements.md)
+[Survey designer elements]()
 
-[Configure a survey in the survey designer](t_ConfigSurveyInSurveyDesgnr.md)
+[Configure a survey in the survey designer]()
 
-[Survey categories](../concept/c_SurveyCategory.md)
+[Survey categories]()
 
-[Create a question in the survey designer](t_CreateQuestSurveyDesigr.md)
+[Create a question in the survey designer]()
 
-[Survey question data types](../reference/r_SurveyQuestionDataTypes.md)
+[Survey question data types]()
 
-[Create custom metric type](create-custom-templates-questions.md)
+[Create custom metric type]()
 
-[Edit a survey in the survey designer](t_EditASurveyInTheSurveyDesigner.md)
+[Edit a survey in the survey designer]()
 

@@ -2,6 +2,7 @@
 title: Create credentials and test credential encryption
 description: Create a credential to authenticate into a third-party system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/client-access-example-4.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,9 +36,9 @@ Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.crypt
     |User name|Enter the user name.|
     |Password|Enter the password related to the user in the **User name** field.|
 
-4.  Select the lock icon \(![lock button](../../key-management-framework/image/lock-icon.png)\) next to the **Credential alias** field.
+4.  Select the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: lock button\) next to the **Credential alias** field.
 
-5.  Select the reference icon \(![reference button](../images/magnifying_glass.png)\) to open the **Connection &amp; credential aliases** list.
+5.  Select the reference icon \(\[Omitted image "magnifying\_glass.png"\] Alt text: reference button\) to open the **Connection &amp; credential aliases** list.
 
 6.  Select **New** to create a **Connection &amp; credential alias** record.
 
@@ -57,13 +58,13 @@ Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.crypt
 
     The sys\_id is a 32 character code representing the symmetric key that is being used to encrypt this credential. The encrypted password that you entered into the SSH Credentials table is to the right of the two sets of boxes on this same line.
 
-    ![XML from the SSH credentials record, with the sys_id highlighted](../images/client-side-5.png)
+    \[Omitted image "client-side-5.png"\] Alt text: XML from the SSH credentials record, with the sys\_id highlighted
 
 13. Navigate to the **Module keys** list by entering `sys_kmf_module_key.list` in the navigation filter.
 
 14. Filter the list for records where the **Sys ID** field matches the sys\_id you copied in step 12, and select **Run**.
 
-    ![List filter to match the copied sys_id](../images/client-side-6.png)
+    \[Omitted image "client-side-6.png"\] Alt text: List filter to match the copied sys\_id
 
     Your search should return a single **Module key** record. This record shows you that you have successfully created, and are using, a symmetric key.
 
@@ -75,10 +76,10 @@ Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.crypt
 
     -   The **Wrapped key material** column shows that the symmetric key within the Crypto Module \(that is being used to encrypt the SSH credential\) is encrypted by the public key that you uploaded to the Identity Group.
     -   The **Wrapped key sys id** field shows that it's the key \(the Crypto Module symmetric key\) that is being encrypted by the **Wrapping key sys id** \(the Public Key uploaded to the Identity Group\).
-    If the preceding fields aren't on your list by default, you can add them to the list by selecting the **Personalize list** icon \(![Personalize list button](../images/gear-icon.png)\).
+    If the preceding fields aren't on your list by default, you can add them to the list by selecting the **Personalize list** icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list button\).
 
     **Note:** Your instance executes a clean-up job every 10 minutes, which removes orphaned keys and helps prevent unassociated key proliferation after you update your credentials.
 
 
-**Parent Topic:**[Configuring client accessible secrets](../concept/client-access-secret-landing.md)
+**Parent Topic:**[Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/client-access-secret-landing.md)
 

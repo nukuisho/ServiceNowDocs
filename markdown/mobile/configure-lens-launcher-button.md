@@ -2,6 +2,7 @@
 title: Configure a Lens launcher button
 description: Add a ServiceNow AI Lens button to input form screens to enable users to quickly extract data from attachments and complete forms faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/configure-lens-launcher-button.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,21 +36,21 @@ If any Inputs in an input form screen have the **DisableAILensAutoFill** attribu
 
 3.  Select the input form screen on which you want to configure the launcher button, or select **New** to create an input form screen.
 
-    See [Configure an input form screen](../task/parameter-screen-config.md) for instructions on how to create an input form screen.
+    See [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/parameter-screen-config.md) for instructions on how to create an input form screen.
 
 4.  Under the **Presentation style** category, set the style to **Screen** to allow the addition of function instances.
 
 5.  Select **New** under the function instance option that corresponds to where you want the button to appear, then complete the fields in the **Function instance** form.
 
-<table><thead><tr><th align="left" id="d109372e144">
+<table><thead><tr><th align="left" id="d110396e144">
 
 Option
 
-</th><th align="left" id="d109372e147">
+</th><th align="left" id="d110396e147">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d109372e153">
+</th></tr></thead><tbody><tr><td id="d110396e153">
 
 **__Top icon function instances__**
 
@@ -61,7 +62,7 @@ Creates a button in the top header. -   **Name** — Enter a name for the functi
 -   **Function** — Select **New** to display the function form.
 
 
-</td></tr><tr><td id="d109372e189">
+</td></tr><tr><td id="d110396e189">
 
 **__Top menu function instances__**
 
@@ -87,12 +88,12 @@ Creates a button under the three-dot menu in the top header. -   **Name** — En
 
 A lens launcher button now appears in the location you selected — either in the top header or under the three-dot menu. When a user taps the button, Lens opens in the context of the table you configured, allowing users to interact with the associated data directly from the mobile interface.
 
--   **[Add optional prompts to the ServiceNow AI Lens Launcher](add-optional-prompts.md)**  
+-   **[Add optional prompts to the ServiceNow AI Lens Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/add-optional-prompts.md)**  
 Add optional prompts to the ServiceNow AI Lens launcher button.
--   **[Enable attachment IDs for write-back actions](making-attachment-ids-available-for-write-back-actions.md)**  
+-   **[Enable attachment IDs for write-back actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/making-attachment-ids-available-for-write-back-actions.md)**  
 Enable write-back actions to use attachment IDs in your ServiceNow AI Lens launcher button.
--   **[Configure Lens launcher using scripted screen](config-lens-launcher-scripted-screen.md)**  
+-   **[Configure Lens launcher using scripted screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/config-lens-launcher-scripted-screen.md)**  
 Configure a ServiceNow AI Lens launcher button with scripted screen.
 
-**Parent Topic:**[Configuring Now Assist for Mobile](configuring-now-assist-mobile.md)
+**Parent Topic:**[Configuring Now Assist for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-now-assist-mobile.md)
 

@@ -2,6 +2,7 @@
 title: Create or modify Dependency Views menu actions
 description: To modify an existing menu option, first you create a copy of the original menu action record, and then you modify the copy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMenuActions.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -112,22 +113,22 @@ Menu action type being created, either a menu option or a menu separator. The me
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Administer Dependency Views](../topic/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 
 
-[Create or modify map indicators](t_CreateModifyNGBSMMapIndicators.md)
+[Create or modify map indicators]()
 
-[Create or modify map icons](t_CreateModifyNGBSMMapIcons.md)
+[Create or modify map icons]()
 
-[Create a predefined filter](create-predefined-filter.md)
+[Create a predefined filter]()
 
-[Set a predefined filter as default](set-predefined-filter-default.md)
+[Set a predefined filter as default]()
 
-[Create or modify Map Related Items](t_CreateModifyNGBSMMapRelatedItems.md)
+[Create or modify Map Related Items]()
 
-[Condition and script parameters for menu actions](../reference/condition-script-parameters.md)
+[Condition and script parameters for menu actions]()
 
-[Create or edit a dependency type](t_CreateMapScript.md)
+[Create or edit a dependency type]()
 

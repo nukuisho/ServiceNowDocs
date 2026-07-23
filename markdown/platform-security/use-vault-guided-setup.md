@@ -1,7 +1,8 @@
 ---
 title: Use guided setup for ServiceNow Vault
-description: Use guided setup to begin using an application with ServiceNow Vault easily.
+description: Use guided setup to configure an application with ServiceNow Vault.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/use-vault-guided-setup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -11,13 +12,13 @@ breadcrumb: [Configuring ServiceNow Vault, ServiceNow Vault]
 
 # Use guided setup for ServiceNow Vault
 
-Use guided setup to begin using an application with ServiceNow Vault easily.
+Use guided setup to configure an application with ServiceNow Vault.
 
 ## Before you begin
 
 Role required: Elevate to sn\_vault\_console.vault\_console\_admin role.
 
-To secure custom apps, install the Now Assist for Vault application and make sure that all Now Assist for Vault skills and workflows are enabled. See [Install Now Assist for Vault](../../now-assist-vault/task/configuring-now-assist-vault.md) for more information.
+To secure custom apps, install the Now Assist for Vault application and make sure that all Now Assist for Vault skills and workflows are enabled. See [Install Now Assist for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-now-assist-vault.md) for more information.
 
 ## Procedure
 
@@ -47,11 +48,11 @@ To secure custom apps, install the Now Assist for Vault application and make sur
     |Column name|The column the data is located in.|
     |Final class|The class the data will be assigned.|
 
-    When finished, check **Agree** and select **Classify data**.
+    When finished, select the **Agree** check box and select **Classify data**.
 
 5.  In **Classification summary**, review the results of the data classification and select **Next** when finished.
 
-    Use [Data Classification](../../security/concept/data-classification.md) to review any data that failed to classify.
+    Use [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/data-classification.md) to review any data that failed to classify.
 
 6.  In **Protect existing data**, review the protection policies of the data.
 
@@ -65,9 +66,9 @@ To secure custom apps, install the Now Assist for Vault application and make sur
 
 7.  Begin applying that column's respective application data protection policy by selecting **Available**.
 
-    Review [Vault tools and metrics](../concept/vault-tools.md) for more information.
+    Review [Vault tools and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-tools.md) for more information.
 
-8.  In **Protect real-time data, review your real-time data protection policies**.
+8.  In **Protect real-time data**, review your real-time data protection policies.
 
     |Label|Description|
     |-----|-----------|
@@ -82,5 +83,5 @@ To secure custom apps, install the Now Assist for Vault application and make sur
 
 ## Result
 
-The selected application now has classified data and protection policies. It also reports relevant metrics to the [ServiceNow Vault console dashboard](../concept/vault-dashboard.md).
+The selected application now has classified data and protection policies. It also reports relevant metrics to the [ServiceNow Vault console dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/vault-dashboard.md).
 

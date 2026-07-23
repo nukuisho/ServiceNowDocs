@@ -2,6 +2,7 @@
 title: Properties installed with Communities
 description: Community administrators can use properties to configure Communities behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/communities-properties.html
 release: australia
 product: Communities
 classification: communities
@@ -830,18 +831,18 @@ Enter the maximum number of times a user can post Social Q&amp;A questions per d
 -   Location: System Properties
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communities references](communitie-references.md)
+</table>**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communitie-references.md)
 
 **Related topics**  
 
 
-[Quick start tests for Communities](../../../administer/atf-quick-start-tests/reference/quick-start-tests-communities.md)
+[Quick start tests for Communities]()
 
-[Communities roles](communities-roles.md)
+[Communities roles]()
 
-[Forum form fields](forum-form-fields.md)
+[Forum form fields]()
 
-[Video Configurations form fields](video-configurations-form-fields.md)
+[Video Configurations form fields]()
 
-[Topic form fields](topic-form-fields.md)
+[Topic form fields]()
 

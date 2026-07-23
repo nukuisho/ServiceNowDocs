@@ -2,6 +2,7 @@
 title: Create a move project from existing move requests
 description: As a move manager, create a move project to logically group move requests based on different criteria and fulfill them on priority.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-move-project.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -34,7 +35,7 @@ Create a move project to group multiple move requests into a single project to o
 
     You can also open Workplace Central from the Employee Center directly. Navigate to **Workspaces** &gt; **Workplace Central**.
 
-2.  Select the Move management \(![Move management icon.](../images/move-mgmt-icon-central.png)\) module.
+2.  Select the Move management \(\[Omitted image "move-mgmt-icon-central.png"\] Alt text: Move management icon.\) module.
 
 3.  Select **Create project**.
 
@@ -65,18 +66,18 @@ Create a move project to group multiple move requests into a single project to o
 
 The move project is created and all the move requests that have matched the filter conditions that you specified are displayed in the move scheduler. The move requests are displayed to you in the schedule view by default. The planned start and end date of the project are set based on the minimum **Expected start** date and the maximum **Due date** from the move requests that are associated with the project.
 
-A move project contains both the schedule view and a list view. For more information on Move projects, refer to [Move project views, actions, and states](../reference/move-project-schedule-view.md).
+A move project contains both the schedule view and a list view. For more information on Move projects, refer to [Move project views, actions, and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-project-schedule-view.md).
 
 ## What to do next
 
-[Work on a move project](work-on-a-move-project.md).
+[Work on a move project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/work-on-a-move-project.md).
 
-**Parent Topic:**[Working with Move management](../concept/working-with-move-management.md)
+**Parent Topic:**[Working with Move management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-move-management.md)
 
 **Related topics**  
 
 
-[Create a move project by uploading an Excel file](create-move-project-excel.md)
+[Create a move project by uploading an Excel file]()
 
-[Work on a move project](work-on-a-move-project.md)
+[Work on a move project]()
 

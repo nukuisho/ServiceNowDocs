@@ -2,6 +2,7 @@
 title: Enable search synonyms
 description: Enabling text index synonyms allows Zing to expand text searches with additional search keywords.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/enable-text-index-synonyms.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -34,16 +35,16 @@ By default, text searches don't use text index synonyms.
 
 Text searches use active synonym dictionaries to expand keyword searches.
 
-**Parent Topic:**[Zing can expand search results with synonyms](../concept/search-synonyms-expand-results.md)
+**Parent Topic:**[Zing can expand search results with synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-synonyms-expand-results.md)
 
 **Related topics**  
 
 
-[Create synonym dictionaries](create-synonym-dictionaries.md)
+[Create synonym dictionaries]()
 
-[Select synonym dictionaries for a table](select-synonym-dictionaries.md)
+[Select synonym dictionaries for a table]()
 
-[Disable synonyms for a table](disable-synonyms-for-a-table.md)
+[Disable synonyms for a table]()
 
-[Debug synonym searches](debug-synonym-searches.md)
+[Debug synonym searches]()
 

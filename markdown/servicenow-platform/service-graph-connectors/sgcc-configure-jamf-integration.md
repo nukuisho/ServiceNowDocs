@@ -2,6 +2,7 @@
 title: Configure Service Graph Connector for Jamf using SGC Central
 description: Use the playbook available with the SGC Central application to set up the Service Graph Connector for Jamf for pulling in Jamf data into the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgcc-configure-jamf-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,7 +18,7 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
-Install Service Graph Connector for Jamf version 2.13.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
+Install Service Graph Connector for Jamf version 2.13.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 When using client credentials for authentication, obtain the OAuth credentials from your Jamf administrator. Make a note of the following details:
 
@@ -30,13 +31,13 @@ Role required: admin
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-ui.md).
 
 ## Procedure
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon ![](../image/icon-sgc-central.png) to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  On the Overview page, select **Create connection**.
 
@@ -46,7 +47,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 4.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](sgcc-first-time-setup.md).
+    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
 
 5.  Determine the type of authentication for the Jamf connection.
 
@@ -98,7 +99,7 @@ OAuth Client ID
 
 </td><td>
 
-Application \(client\) ID of your Jamf client application as noted in the [Before you begin](sgcc-configure-jamf-integration.md#prereq) section.**Note:** Verify that the Jamf client has read privileges for the **Computers** and **Mobile Devices** categories in Jamf.
+Application \(client\) ID of your Jamf client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-jamf-integration.md) section.**Note:** Verify that the Jamf client has read privileges for the **Computers** and **Mobile Devices** categories in Jamf.
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client Secret of your Jamf client application as noted in the [Before you begin](sgcc-configure-jamf-integration.md#prereq) section.
+Client Secret of your Jamf client application as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-jamf-integration.md) section.
 
 </td></tr><tr><td>
 
@@ -231,11 +232,11 @@ Option to enable the use of the Jamf Pro API for querying computer records. **No
 
     3.  Select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     4.  Select **Save**.
 
-    5.  Repeat steps from [8.b](sgcc-configure-jamf-integration.md#schedule-start) to [8.d](sgcc-configure-jamf-integration.md#schedule-save) for each job displayed on the page.
+    5.  Repeat steps from [8.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-jamf-integration.md) to [8.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-jamf-integration.md) for each job displayed on the page.
 
     6.  Select **Continue**.
 
@@ -249,9 +250,9 @@ Select **View all connections** to review the connection details. The configured
 **Related topics**  
 
 
-[Service Graph Connector for Jamf](../../configuration-management/concept/cmdb-integration-jamf.md)
+[Service Graph Connector for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-jamf.md)
 
-[CMDB classes targeted in Service Graph Connector for Jamf](../../configuration-management/reference/cmdb-jamf-classes.md)
+[CMDB classes targeted in Service Graph Connector for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-jamf-classes.md)
 
-[Accessing the connection details of Service Graph Connector for Jamf](../../configuration-management/concept/sgc-jamf-conn.md#)
+[Accessing the connection details of Service Graph Connector for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-jamf-conn.md)
 

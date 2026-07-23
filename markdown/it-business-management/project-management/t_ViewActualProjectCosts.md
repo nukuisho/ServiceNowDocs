@@ -2,6 +2,7 @@
 title: View actual project costs
 description: When you are using Project Portfolio Management with Financials, you can view actual project costs on cost plans and projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/t\_ViewActualProjectCosts.html
 release: australia
 product: Project Management
 classification: project-management
@@ -34,10 +35,10 @@ Actual costs for projects also roll up to portfolios in the same way.
 3.  Select the **Cost Plans** related list.
 
 
-**Parent Topic:**[Create a project cost plan](../../project-management/task/t_CreateAProjectCostPlan.md)
+**Parent Topic:**[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md)
 
 **Related topics**  
 
 
-[Actual project costs](../../project-management/concept/actual-project-costs.md)
+[Actual project costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/actual-project-costs.md)
 

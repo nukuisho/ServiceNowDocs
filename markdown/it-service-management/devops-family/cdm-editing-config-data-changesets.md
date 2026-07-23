@@ -2,6 +2,7 @@
 title: Viewing and editing config data
 description: You can update the config data of an application by creating or opening a changeset on the Config data tab, where you update the structure and CDIs of the config data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-editing-config-data-changesets.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,7 +16,7 @@ breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 
 You can update the config data of an application by creating or opening a changeset on the **Config data** tab, where you update the structure and CDIs of the config data.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 ## Tabs on the Application page
 
@@ -34,7 +35,7 @@ When you open an application, the header area for each tab displays administrati
 
 After you open a changeset by selecting **Edit config data**, you can edit the config data on the Config Data tab. In the config data tree \(A in the screenshot\), select the node to edit. By default, the editing panel \(C\) displays the script view of the key-value pairs \(the config data items or CDIs\) in the selected node.
 
-![Config data tab on the Changeset form of a CDM application.](../image/cdm-config-data-tab-nav2.png)
+\[Omitted image "cdm-config-data-tab-nav2.png"\] Alt text: Config data tab on the Changeset form of a CDM application.
 
 -   **A: Config data tree**
 
@@ -54,16 +55,16 @@ After you open a changeset by selecting **Edit config data**, you can edit the c
 
     The Preview panel displays the persisted state of the data in structured form. If you make any changes in the Editor panel and save the changes, the data in the Preview panel is updated to include the changes.
 
-    -   To resolve variables and view the fully resolved data in the preview panel: In the More actions menu \(![More actions icon.](../../site-reliability-ops/image/icon-actions-menu.png)\), select **Apply variables**.
-    -   Encrypted data appears as \*\*\*\*\*\*\*\*. Users with the CDM Secrets \[sn\_cdm.cdm\_secrets\] role can view all encrypted values in the preview panel. In the More actions menu \(![More actions icon.](../../site-reliability-ops/image/icon-actions-menu.png)\), select **View encrypted data**.
-    -   To see nodes and CDIs that are excluded from inheritance: In the More actions menu \(![More actions icon.](../../site-reliability-ops/image/icon-actions-menu.png)\), select **View excluded data**.
+    -   To resolve variables and view the fully resolved data in the preview panel: In the More actions menu \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\), select **Apply variables**.
+    -   Encrypted data appears as \*\*\*\*\*\*\*\*. Users with the CDM Secrets \[sn\_cdm.cdm\_secrets\] role can view all encrypted values in the preview panel. In the More actions menu \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\), select **View encrypted data**.
+    -   To see nodes and CDIs that are excluded from inheritance: In the More actions menu \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\), select **View excluded data**.
 -   **E: Actions**
     -   **Refresh View**: Update data in the view.
     -   **Save Changes**: Save \(persist\) the current changes but do not commit the data. The Editor panel, List view, and Preview panel refreshes to reflect the resolved state of the changeset. The system updates the changeset but does not update the application. Changes appear on the **Activity** tab. You must commit a changeset to update the config data for the application. After saving, you can move on to other activities and return later to edit the changeset. The button appears only if you have made changes.
     -   **Delete Changeset**: Delete the record of the changeset.
     -   **Commit Changeset**:  The system generates a snapshot of each deployable that is affected by the changes.
 
-        **Note:** Because changes in two changesets that are open at the same time can conflict, the system blocks such commits. See [Conflicts between changeset commits](cdm-changeset-conflicts.md).
+        **Note:** Because changes in two changesets that are open at the same time can conflict, the system blocks such commits. See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md).
 
 -   **F: Header for the changeset**
 
@@ -71,7 +72,7 @@ After you open a changeset by selecting **Edit config data**, you can edit the c
 
 -   **G: Name path of the selected node**
 
-    The name path is the complete folder path of the selected node in the list. Select the copy name path to clipboard icon \(![Copy name path to clipboard icon.](../image/cdm-icon-copy-path.png)\) to copy the name path of the node.
+    The name path is the complete folder path of the selected node in the list. Select the copy name path to clipboard icon \(\[Omitted image "cdm-icon-copy-path.png"\] Alt text: Copy name path to clipboard icon.\) to copy the name path of the node.
 
 
 ## Changeset - Header and Details tab
@@ -116,7 +117,7 @@ State
 
 -   Committed: This draft of the changeset has been committed.
 -   Open: The changeset is being updated and is not committed.
--   Blocked: Other commits conflict with this commit. The changeset cannot be committed. See [Conflicts between changeset commits](cdm-changeset-conflicts.md).
+-   Blocked: Other commits conflict with this commit. The changeset cannot be committed. See [Conflicts between changeset commits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-conflicts.md).
 -   Commit in progress: A draft of the changeset that is currently being committed.
 
 </td></tr><tr><td>

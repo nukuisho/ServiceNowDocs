@@ -2,6 +2,7 @@
 title: Create or modify map indicators
 description: Dependency Views maps and application service maps, use icons to display additional information for a CI by displaying its related records such as alerts, outages, incidents and problems. These icons are called map indicator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/t\_CreateModifyNGBSMMapIndicators.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -31,11 +32,11 @@ The default configuration includes map indicators for the following record types
 
 You can filter out the display of affected CIs, alerts, current change requests, incidents and problems from the map settings menu.
 
-The Affected CI’s map indicator appears for CIs in two related but not identical situations. It appears for CIs for which tasks such as change request, incident, or problem were directly created for, and for any CIs that were added in those tasks \(parent tasks\) as Affected CIs \(The CI for which a task is directly created for, is automatically added as an affected CI in that task\). The state of affected CI’s depends on the status of the respective parent task. For as long as the parent task is active, the associated affected CIs continue to be impacted by the task issue. In a map, the Affected CI’s indicator displays for all affected CIs for as long as the parent task is active. On a map, the Affected CI tooltip displays the details of the task records in which the CI was added as an affected CI. However, the **Details** pane does not contain an Affected CI’s tab, and no further details about affected CIs, or the associated tasks are displayed. After the parent task is closed, the Affected CI’s indicator no longer displays for any of the tasks’ affected CIs. For information about affected CIs in Change Management, see [Associate CIs to a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
+The Affected CI’s map indicator appears for CIs in two related but not identical situations. It appears for CIs for which tasks such as change request, incident, or problem were directly created for, and for any CIs that were added in those tasks \(parent tasks\) as Affected CIs \(The CI for which a task is directly created for, is automatically added as an affected CI in that task\). The state of affected CI’s depends on the status of the respective parent task. For as long as the parent task is active, the associated affected CIs continue to be impacted by the task issue. In a map, the Affected CI’s indicator displays for all affected CIs for as long as the parent task is active. On a map, the Affected CI tooltip displays the details of the task records in which the CI was added as an affected CI. However, the **Details** pane does not contain an Affected CI’s tab, and no further details about affected CIs, or the associated tasks are displayed. After the parent task is closed, the Affected CI’s indicator no longer displays for any of the tasks’ affected CIs. For information about affected CIs in Change Management, see [Associate CIs to a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/c_AffectedCIsAndImpactedServices.md).
 
 **Note:** Details about affected CIs are derived from the **task** and the **cmdb\_ci** tables and their extensions. Therefore, if you use custom tables to store CIs for incidents, problems and changes, it affects the details that are displayed for affected CIs.
 
-For more information on how map indicators are used to show tasks and outages in clusters and collapsed nodes, see [Cluster nodes in a Dependency Views map](../concept/c_CollapsedNodesInNGBSM.md).
+For more information on how map indicators are used to show tasks and outages in clusters and collapsed nodes, see [Cluster nodes in a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/c_CollapsedNodesInNGBSM.md).
 
 ## Procedure
 
@@ -83,7 +84,7 @@ Icon
 
 </td><td>
 
-File name and path of the icon image file, which can be a system image.-   To create a new icon, see [Create or modify map icons](t_CreateModifyNGBSMMapIcons.md)
+File name and path of the icon image file, which can be a system image.-   To create a new icon, see [Create or modify map icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIcons.md)
 -   To create or use a system image see [Storing images in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_StoringImagesInTheDatabase.md).
 
 
@@ -183,22 +184,22 @@ Suffix portion of the tooltip \(Tooltip Label : Tooltip info\).
 
 For an indicator to appear in a Dependency Views map, a CI must meet all filter conditions, and **Active Dependencies** must be selected.
 
-**Parent Topic:**[Administer Dependency Views](../topic/p_AdministerNGBSM.md)
+**Parent Topic:**[Administer Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/p_AdministerNGBSM.md)
 
 **Related topics**  
 
 
-[Create or modify map icons](t_CreateModifyNGBSMMapIcons.md)
+[Create or modify map icons]()
 
-[Create a predefined filter](create-predefined-filter.md)
+[Create a predefined filter]()
 
-[Set a predefined filter as default](set-predefined-filter-default.md)
+[Set a predefined filter as default]()
 
-[Create or modify Map Related Items](t_CreateModifyNGBSMMapRelatedItems.md)
+[Create or modify Map Related Items]()
 
-[Create or modify Dependency Views menu actions](t_CreateModifyNGBSMMenuActions.md)
+[Create or modify Dependency Views menu actions]()
 
-[Condition and script parameters for menu actions](../reference/condition-script-parameters.md)
+[Condition and script parameters for menu actions]()
 
-[Create or edit a dependency type](t_CreateMapScript.md)
+[Create or edit a dependency type]()
 

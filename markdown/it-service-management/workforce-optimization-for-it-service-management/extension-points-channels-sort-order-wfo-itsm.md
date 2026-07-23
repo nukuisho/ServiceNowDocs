@@ -2,6 +2,7 @@
 title: Channel Management extension point in Workforce Optimization for ITSM
 description: Use extension points to call scripts to configure the list sort order in Channel Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/extension-points-channels-sort-order-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -52,5 +53,5 @@ Add or update the `getColumns` to modify the current implementation to configure
 Add or update the `getColumns` to configure the columns in the All queues list for Channel Management.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](../concept/setup-channels-configurable-workforce-optimization-itsm.md)
+</table>**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
 

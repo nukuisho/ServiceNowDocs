@@ -2,6 +2,7 @@
 title: Install Intent Discovery
 description: You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/install-intent-discovery.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -23,11 +24,11 @@ You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you h
     -   **Required ServiceNow plugins**
         -   **Predictive Intelligence \(com.glide.platform\_ml\)**
 
-            Enables various Predictive Intelligence and Machine Learning capabilities for training models. See [Install Predictive Intelligence](../../predictive-intelligence/task/install-predictive-intelligence.md#).
+            Enables various Predictive Intelligence and Machine Learning capabilities for training models. See [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
 
         -   **NLU Workbench - Core \(com.glide.nlu\)**
 
-            Adds NLU Model capabilities. See [Activate the NLU Workbench](activate-nlu-workbench.md).
+            Adds NLU Model capabilities. See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
 
 Role required: admin
@@ -36,7 +37,7 @@ Role required: admin
 
 Tables are installed with Intent Discovery:
 
-For more information, see [Components installed with Intent Discovery](../reference/installed-with-intent-discovery.md).
+For more information, see [Components installed with Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/installed-with-intent-discovery.md).
 
 ## Procedure
 
@@ -46,7 +47,7 @@ For more information, see [Components installed with Intent Discovery](../refere
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

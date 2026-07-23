@@ -2,6 +2,7 @@
 title: Mobile pop-ups
 description: Display configurable mobile pop-ups based on real-time conditions. Mobile pop-ups are a way to transmit information to users and to encourage them to perform actions. You can display a mobile pop-up at the login page or when a user taps a button.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile\_popups.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ A mobile pop-up is a window that appears on top of the main content in a user in
 
 |Mobile pop-up triggered at the log in stage with blurred background|Mobile pop-up triggered at the button tap stage with clear background|
 |-------------------------------------------------------------------|---------------------------------------------------------------------|
-|![Mobile pop-up triggered at the log in page with blurred background.](../image/mobile-popup-login.png)|![Mobile pop-up triggered on button tap with clear background.](../image/mobile-popup-button.png)|
+|\[Omitted image "mobile-popup-login.png"\] Alt text: Mobile pop-up triggered at the log in page with blurred background.|\[Omitted image "mobile-popup-button.png"\] Alt text: Mobile pop-up triggered on button tap with clear background.|
 
 ## Use cases for using mobile pop-ups 
 
@@ -27,8 +28,8 @@ The following are use cases of when it's beneficial to use mobile pop-ups.
 -   Time-sensitive information- Mobile pop-ups can display time-sensitive information, like flash sale notifications or event reminders. For example, information about campaigns, company news and announcements, “What’s new” on their application, or information about the site they're currently visiting. 
 -   Actions Confirmation- Mobile pop-ups may be used to handle cases where the user must confirm an action when a specific condition is met. For example, display a pop-up to a user stating that they've accepted a new task with an estimated three hours of work, but their work shift is due to end in an hour. 
 
--   **[Create a mobile pop-up](../task/mobile-popups-create.md)**  
+-   **[Create a mobile pop-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-popups-create.md)**  
 Learn how to display configurable mobile pop-ups based on real-time conditions. You can display these pop-ups at the mobile app login phase or after a button tap.
 
-**Parent Topic:**[Considerations before implementation](imp-considerations.md)
+**Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/imp-considerations.md)
 

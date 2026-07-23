@@ -2,6 +2,7 @@
 title: Tab widget mapping form
 description: You can use the tab widget mapping form to display widgets on a tab and control their visibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/tab-widget-mapping-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -79,7 +80,7 @@ Users who can view the widgets.-   Employee only
 
     -   Available For: User group for whom the widget is visible. Define and select the user group based on your business needs.
     -   Not Available For: User group for whom the widget isn’t visible. Define and select the user group based on your business needs.
-Values that are defined in the Not Available For group take precedence over the values defined in the Available For group. If both aren't defined, the widget is visible to all users. For more information on widget visibility based on user criteria, see [User Criteria output](user-criteria-output.md).
+Values that are defined in the Not Available For group take precedence over the values defined in the Available For group. If both aren't defined, the widget is visible to all users. For more information on widget visibility based on user criteria, see [User Criteria output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/user-criteria-output.md).
 
 **Note:** Use the user criteria cautiously because the profile page load time can take longer based on your criteria.
 
@@ -122,73 +123,73 @@ Widget parameters
 
 </td><td>
 
-Comma-separated list of widget parameters auto-populated with default values.For the **Employee Schedule** widget, to send Email or SMS, specify the widget parameters `enable_send_email` and `enable_send_sms` values to true. For more information, see [Configure the mail and SMS send to self](../task/deskless-kiosk-sendtoself-sms-email.md).
+Comma-separated list of widget parameters auto-populated with default values.For the **Employee Schedule** widget, to send Email or SMS, specify the widget parameters `enable_send_email` and `enable_send_sms` values to true. For more information, see [Configure the mail and SMS send to self](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.md).
 
 For default calendar view, specify `default_calendar_view` value to day or week or month.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
 
-[Activity Configuration form](ec-activity-configuration-form.md)
+[Activity Configuration form]()
 
-[Activity Configuration Detail form](activity-configuration-detail-form.md)
+[Activity Configuration Detail form]()
 
-[Approvals experience reference](approval-hub-ootb.md)
+[Approvals experience reference]()
 
-[Connected Content form](connected-content-form.md)
+[Connected Content form]()
 
-[Default Employee Profile Header Configuration record](default-profile-header.md)
+[Default Employee Profile Header Configuration record]()
 
-[Employee Center widgets](../concept/employee-center-widgets-list.md)
+[Employee Center widgets]()
 
-[Employee Profile form](employee-profile-fieldconfig.md)
+[Employee Profile form]()
 
-[Employee Profile Header Configuration form](profile-header-config-form.md)
+[Employee Profile Header Configuration form]()
 
-[Employee Profile portal configuration form](profile-portal-config-form.md)
+[Employee Profile portal configuration form]()
 
-[Employee Profile upgrade scenarios](emp-profile-upgrade.md)
+[Employee Profile upgrade scenarios]()
 
-[Enhanced Requests Experience forms](req-concept-ec.md)
+[Enhanced Requests Experience forms]()
 
-[External Link form](external-link-form.md)
+[External Link form]()
 
-[Featured Content form](featured-content-form.md)
+[Featured Content form]()
 
-[Footer form](ec-footer-form.md)
+[Footer form]()
 
-[Footer Menus form](ec-footer-menus.md)
+[Footer Menus form]()
 
-[Guided Self-Service reference](gss-guided-self-service-reference-info.md)
+[Guided Self-Service reference]()
 
-[Menu Item form](menu-item-form.md)
+[Menu Item form]()
 
-[Overview section form](profile-overview-section-form.md)
+[Overview section form]()
 
-[Portal notification configuration form](portal-notif-config-form.md)
+[Portal notification configuration form]()
 
-[Portal notification content form](notif-content-form.md)
+[Portal notification content form]()
 
-[Trigger conditions form](notif-trigger-form.md)
+[Trigger conditions form]()
 
-[Quick Link form](ec-quick-link-form.md)
+[Quick Link form]()
 
-[Taxonomy form](taxonomy-form.md)
+[Taxonomy form]()
 
-[Topic form](topic-form.md)
+[Topic form]()
 
-[User Criteria form](ec-user-criteria-form.md)
+[User Criteria form]()
 
-[User Criteria output](user-criteria-output.md)
+[User Criteria output]()
 
-[Schedule appointment form](schedule-appointment-form.md)
+[Schedule appointment form]()
 
-[Location Consent form](location-consent-form.md)
+[Location Consent form]()
 
-[Website configuration form](config-website-form.md)
+[Website configuration form]()
 
-[Manage profile tabs and visibility in Employee Profile](../task/manage-employee-profile-tabs-visibility.md)
+[Manage profile tabs and visibility in Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-employee-profile-tabs-visibility.md)
 

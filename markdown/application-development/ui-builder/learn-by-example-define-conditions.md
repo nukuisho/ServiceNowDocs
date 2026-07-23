@@ -2,6 +2,7 @@
 title: Define conditions for your variant
 description: You can define conditions to determine when a page variant is shown. The conditions are based on setting an order, and declaring the criteria that must be met for the page variant to display.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/learn-by-example-define-conditions.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -15,7 +16,7 @@ breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Build
 
 You can define conditions to determine when a page variant is shown. The conditions are based on setting an order, and declaring the criteria that must be met for the page variant to display.
 
-This video shows you how to perform the following procedure.This video shows you how to define conditions for your page variant in a UI Builder experience.
+This video shows you how to perform the following procedure.
 
 ## Before you begin
 
@@ -31,9 +32,9 @@ If you have multiple page variants that all have the same conditions, the varian
 
 2.  Select the experience you created, and select **Default**.
 
-    ![Demo Experience Editor page.](../image/demo-experience-conditions.png "Demo Experience")
+    \[Omitted image "demo-experience-conditions.png"\] Alt text: Demo Experience Editor page.
 
-3.  On the Default variant under the **All users record page**, select the **Menu** icon \(![Menu icon](../image/three-dot-icon.png)\), and select **Duplicate variant**.
+3.  On the Default variant under the **All users record page**, select the **Menu** icon \(\[Omitted image "three-dot-icon.png"\] Alt text: Menu icon\), and select **Duplicate variant**.
 
 4.  On the **Tell us about your variant** screen, enter **Incident record page** in the **Name** field.
 
@@ -47,27 +48,27 @@ If you have multiple page variants that all have the same conditions, the varian
 
         When you created this page earlier in the series, you set this condition to the Task table. Now, you are configuring the page to display only to users accessing a record from the Incident table.
 
-    ![Parameter field with dropdown options 'table' and 'sysId', along with Operator and Value fields.](../image/demo-experience-declare-conditions.png "Condition fields")
+    \[Omitted image "demo-experience-declare-conditions.png"\] Alt text: Parameter field with dropdown options 'table' and 'sysId', along with Operator and Value fields.
 
 6.  Select **Create**.
 
-    ![Incident record page in Demo Experience Editor page.](../image/demo-experience-boxed.png "Incident record page")
+    \[Omitted image "demo-experience-boxed.png"\] Alt text: Incident record page in Demo Experience Editor page.
 
     **Note:** You can view the structure of your pages and variants in this experience. The **Conditions** column shows a **View** link for each page. You can select **View** to see the condition for that variant \(that is, table=incident\). The **Audiences** column for the Admin only variant shows a 1. You can select the **1** to view the role required to view that variant.
 
 
-**Parent Topic:**[Learn UI Builder by example](../concept/learning-uib-by-example.md)
+**Parent Topic:**[Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib-by-example.md)
 
 **Related topics**  
 
 
-[Create a demo experience to explore UI Builder](learn-by-example-create-experience.md)
+[Create a demo experience to explore UI Builder]()
 
-[Create a blank page](learn-by-example-create-blank-page.md)
+[Create a blank page]()
 
-[Create a record page using a template](learn-by-example-create-page-with-template.md)
+[Create a record page using a template]()
 
-[Define an audience for your variant](learn-by-example-define-audience.md)
+[Define an audience for your variant]()
 
-[Customize forms within a form component](learn-by-example-edit-form-component.md)
+[Customize forms within a form component]()
 

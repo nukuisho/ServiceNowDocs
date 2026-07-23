@@ -2,11 +2,12 @@
 title: Script sandbox evaluator
 description: The script sandbox evaluator helps prevent executing untrusted scripts on an instance by limiting the APIs available to scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/script-sandbox.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-05"
 reading_time_minutes: 2
 breadcrumb: [Sandbox environment, Server-side scripting, Scripting, API implementation, API implementation and reference]
 ---
@@ -20,7 +21,7 @@ Scripts that run in the script sandbox evaluator can use features supported by t
 -   A script has been granted a guarded-script exemption \(manually or automatically\).
 -   When guarded script is in Phase 1: Detection, and a script is sent to the server by an authenticated user.
 
-For more information about guarded-script exemptions and enforcement phases, see [Guarded script evaluator](guarded-script.md).
+For more information about guarded-script exemptions and enforcement phases, see [Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md).
 
 ## Restricted methods with the script sandboxevaluator
 
@@ -194,10 +195,10 @@ GlideSchedule
 -   whenNext\(\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Script sandbox environment](script-sandbox-environment.md)
+</table>**Parent Topic:**[Script sandbox environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox-environment.md)
 
 **Related topics**  
 
 
-[Guarded script evaluator](guarded-script.md)
+[Guarded script evaluator]()
 

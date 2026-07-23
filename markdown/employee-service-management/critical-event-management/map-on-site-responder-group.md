@@ -2,13 +2,14 @@
 title: Map on-site responder group with location
 description: Map the on-site responder groups with the location, enabling these groups to be automatically populated when the location is selected in a new critical event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/map-on-site-responder-group.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure groups, Configuring, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Configure groups, Configure, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Map on-site responder group with location
@@ -36,14 +37,14 @@ Role required: admin or sn\_critical.manager
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure Critical Event Management groups](configure-critical-event-management-groups.md)
+**Parent Topic:**[Configure Critical Event Management groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-critical-event-management-groups.md)
 
 **Related topics**  
 
 
-[Add members to the group](add-members-group.md)
+[Add members to the group]()
 
-[Add roles to a member](add-member-roles.md)
+[Add roles to a member]()
 
-[Add roles to the group](add-group-roles.md)
+[Add roles to the group]()
 

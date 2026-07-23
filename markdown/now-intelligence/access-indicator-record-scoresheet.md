@@ -2,6 +2,7 @@
 title: Access indicator record or scoresheet from KPI Details
 description: In KPI Details, the More actions menu lets you open the record or the scoresheet of the indicator you are viewing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/access-indicator-record-scoresheet.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,39 +24,39 @@ Role required: pa\_power\_user, pa\_admin, or admin for record; pa\_admin or adm
 
 ## Procedure
 
-1.  In KPI Details, expand the **More actions** menu ![More actions menu icon](../../../common/image/icon-menu.png).
+1.  In KPI Details, expand the **More actions** menu \[Omitted image "icon-menu.png"\] Alt text: More actions menu icon.
 
 2.  Select one of the following options:
 
     -   To open the indicator record, select **Edit settings**.
     -   To open the scoresheet, select **Edit scores**.
-    ![The More actions menu for KPI Details, showing options to edit indicator record or scoresheet.](../image/kpi-details-more-actions.png)
+    \[Omitted image "kpi-details-more-actions.png"\] Alt text: The More actions menu for KPI Details, showing options to edit indicator record or scoresheet.
 
 
-**Parent Topic:**[Examining indicators with KPI Details](../reference/kpi-details-components.md)
+**Parent Topic:**[Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-components.md)
 
 **Related topics**  
 
 
-[View contributing indicators to a formula in KPI Details](../concept/view-formula-components.md)
+[View contributing indicators to a formula in KPI Details]()
 
-[Show, compare, create, and edit records in KPI Details](../concept/show-compare-edit-records.md#)
+[Show, compare, create, and edit records in KPI Details]()
 
-[Chart options in KPI Details](../reference/chart-options.md)
+[Chart options in KPI Details]()
 
-[Select time aggregation in KPI Details](select-time-series-aggregation.md)
+[Select time aggregation in KPI Details]()
 
-[Configure trend for a native Data snapshots indicator in KPI Details](configure-trend-ds-indicator.md)
+[Configure trend for a native Data snapshots indicator in KPI Details]()
 
-[Configure display properties for a Data snapshots indicator](configure-display-properties-ds-indicator.md)
+[Configure display properties for a Data snapshots indicator]()
 
-[Filter indicator scores by breakdown elements in KPI Details](apply-brkdowns-element-kpi-details.md#)
+[Filter indicator scores by breakdown elements in KPI Details]()
 
-[Filter native Data snapshots indicator scores in KPI Details](filter-data-snapshots-indicator-scores.md)
+[Filter native Data snapshots indicator scores in KPI Details]()
 
-[Create an automated indicator](../../performance-analytics/task/t_CreateAnAutomatedIndicator.md#)
+[Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
 
-[Create a formula indicator](../../performance-analytics/task/t_CreateAFormulaIndicator.md)
+[Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md)
 
-[Add or edit indicator scores manually](../../performance-analytics/task/t_ManuallyAddingScoresForIndicators.md)
+[Add or edit indicator scores manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ManuallyAddingScoresForIndicators.md)
 

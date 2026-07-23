@@ -2,13 +2,14 @@
 title: Work plan fields for Enterprise Asset Management
 description: A detailed description of all work plan fields in the Enterprise Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/wp-fields-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Work plan fields for Enterprise Asset Management
@@ -147,48 +148,48 @@ Filter conditions that enable you to apply the work plan to specific subsets of 
 -   **+ New condition set**: Enables you to specify additional sets of conditions that an enterprise asset can meet to have the maintenance plan applied to it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Asset Management reference](../concept/reference-enterprise-asset-management.md)
+</table>**Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
 **Related topics**  
 
 
-[Domain separation and Enterprise Asset Management](../concept/domain-separation-eam.md)
+[Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles](eam-roles.md)
+[Components installed with Enterprise Asset Management]()
 
-[OT Asset Workspace roles](ot-workspace-roles.md)
+[OT Asset Workspace roles]()
 
-[Asset fields for enterprise assets](asset-fields-eam.md)
+[Asset fields for enterprise assets]()
 
-[Asset audit fields for enterprise assets](asset-audit-record-fields-eam.md)
+[Asset audit fields for enterprise assets]()
 
-[Audit results](audit-results-eam.md)
+[Audit results]()
 
-[Enterprise model categories and corresponding classes](enterprise-model-categories.md)
+[Enterprise model categories and corresponding classes]()
 
-[Mandatory fields in the bulk import spreadsheets](mandatory-bulk-fields.md)
+[Mandatory fields in the bulk import spreadsheets]()
 
-[Normalization status for enterprise models](norm-status-eam.md)
+[Normalization status for enterprise models]()
 
-[Model fields for Enterprise Asset Management](eam-model-fields.md)
+[Model fields for Enterprise Asset Management]()
 
-[Contract fields for Enterprise Asset Management](contract-fields-eam.md)
+[Contract fields for Enterprise Asset Management]()
 
-[Maintenance plan fields for Enterprise Asset Management](maintenance-plan-fields-eam.md)
+[Maintenance plan fields for Enterprise Asset Management]()
 
-[Maintenance schedule fields for Enterprise Asset Management](maintenance-schedule-fields-eam.md)
+[Maintenance schedule fields for Enterprise Asset Management]()
 
-[Work plan schedule fields for Enterprise Asset Management](work-plan-schedule-fields-eam.md)
+[Work plan schedule fields for Enterprise Asset Management]()
 
-[Expense line fields for Enterprise Asset Management](expense-line-fields-eam.md)
+[Expense line fields for Enterprise Asset Management]()
 
-[Fields inherited from a parent asset group to a sub group](subgroups-parent-fields-eam.md)
+[Fields inherited from a parent asset group to a sub group]()
 
-[Enterprise asset disposal order stages](eamasset-disposalorder-stages.md)
+[Enterprise asset disposal order stages]()
 
-[Terminology for linear assets](terms-eam.md)
+[Terminology for linear assets]()
 
-[Scheduled jobs and tables installed with normalization of firmware models](firmware-tables-jobs-ot.md)
+[Scheduled jobs and tables installed with normalization of firmware models]()
 
-[Asset put away task fields](put-away-task-form-eam.md)
+[Asset put away task fields]()
 

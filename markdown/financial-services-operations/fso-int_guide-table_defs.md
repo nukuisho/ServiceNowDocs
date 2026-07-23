@@ -2,6 +2,7 @@
 title: FSO table definitions
 description: The Financial Services Operations \(FSO\) product provides multiple tables that you can leverage within your custom FSO applications. This section identifies the most frequently used of these tables and defines the fields contained within them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-int\_guide-table\_defs.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -14,15 +15,15 @@ breadcrumb: [Developer resources, Financial Services Operations \(FSO\)]
 
 The Financial Services Operations \(FSO\) product provides multiple tables that you can leverage within your custom FSO applications. This section identifies the most frequently used of these tables and defines the fields contained within them.
 
--   [Consumer \[csm\_consumer\] table](fso-int_guide-table_defs.md#csm_consumer)
--   [Credit Card \[sn\_bom\_credit\_card\] table](fso-int_guide-table_defs.md#sn_bom_credit_card)
--   [Credit Card Service \[sn\_bom\_credit\_card\_service\] table](fso-int_guide-table_defs.md#sn_bom_credit_card_service)
--   [Inbound Document \[sn\_bom\_document\_inbound\_document\] table](fso-int_guide-table_defs.md#sn_bom_document_inbound_document)
--   [Loan Service Case \[sn\_bom\_loan\_service\] table](fso-int_guide-table_defs.md#sn_bom_loan_service)
--   [Mortgage \[sn\_bom\_mortgage\] table](fso-int_guide-table_defs.md#sn_bom_mortgage)
--   [Payment Inquiry Case \[sn\_bom\_payment\_inquiry\] table](fso-int_guide-table_defs.md#sn_bom_payment_inquiry)
--   [Personal Checking Account \[sn\_bom\_checking\_account\] table](fso-int_guide-table_defs.md#sn_bom_checking_account)
--   [Personal Loan \[sn\_bom\_personal\_loan\] table](fso-int_guide-table_defs.md#sn_bom_personal_loan)
+-   [Consumer \[csm\_consumer\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-table_defs.md)
+-   [Credit Card \[sn\_bom\_credit\_card\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-table_defs.md)
+-   [Credit Card Service \[sn\_bom\_credit\_card\_service\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-table_defs.md)
+-   [Inbound Document \[sn\_bom\_document\_inbound\_document\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-table_defs.md)
+-   [Loan Service Case \[sn\_bom\_loan\_service\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-table_defs.md)
+-   [Mortgage \[sn\_bom\_mortgage\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-table_defs.md)
+-   [Payment Inquiry Case \[sn\_bom\_payment\_inquiry\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-table_defs.md)
+-   [Personal Checking Account \[sn\_bom\_checking\_account\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-table_defs.md)
+-   [Personal Loan \[sn\_bom\_personal\_loan\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-int_guide-table_defs.md)
 
 ## Consumer \[csm\_consumer\] table
 
@@ -429,7 +430,7 @@ Maximum length: 40
 </td></tr></tbody>
 </table>## Credit Card \[sn\_bom\_credit\_card\] table
 
-<table id="d2309e40"><thead><tr><th>
+<table id="d2803e40"><thead><tr><th>
 
 Parameter
 
@@ -946,7 +947,7 @@ Date and time when the case was last updated.Data type: String \(Date\)
 </td></tr></tbody>
 </table>## Credit Card Service \[sn\_bom\_credit\_card\_service\]
 
-<table id="d2416e40"><thead><tr><th>
+<table id="d2344e40"><thead><tr><th>
 
 Element
 
@@ -2212,7 +2213,7 @@ Maximum length: 40
 </td></tr></tbody>
 </table>## Inbound Document \[sn\_bom\_document\_inbound\_document\]
 
-<table id="d2743e40"><thead><tr><th>
+<table id="d2804e40"><thead><tr><th>
 
 Element
 
@@ -2432,7 +2433,7 @@ Date and time when the case was last updated.Data type: String \(Date\)
 </td></tr></tbody>
 </table>## Loan Service Case \[sn\_bom\_loan\_service\]
 
-<table id="d2164e40"><thead><tr><th>
+<table id="d2087e40"><thead><tr><th>
 
 Element
 
@@ -2444,7 +2445,7 @@ Description
 
 account
 
-</td><td id="d2120e65">
+</td><td id="d2089e65">
 
 Sys\_id of the account record associated with the case.
 
@@ -2481,7 +2482,7 @@ Flag that indicates whether the case is open and active.Possible values:
 
 active\_account\_escalation
 
-</td><td id="d2120e106">
+</td><td id="d2089e106">
 
 Sys\_id of the active account escalation record associated with the case.Data type: String
 
@@ -2491,7 +2492,7 @@ Table: Escalation \[sn\_customerservice\_escalation\]
 
 active\_escalation
 
-</td><td id="d2120e119">
+</td><td id="d2089e119">
 
 Sys\_id of the active escalation record associated with the case.Data type: String
 
@@ -2501,7 +2502,7 @@ Table: Escalation \[sn\_customerservice\_escalation\]
 
 activity\_due
 
-</td><td id="d2166e90">
+</td><td id="d2090e90">
 
 Date for which the associated case is expected to be completed.Data type: String \(Date\)
 
@@ -2511,7 +2512,7 @@ Maximum length: 40
 
 additional\_assignee\_list
 
-</td><td id="d2166e103">
+</td><td id="d2090e103">
 
 List of the sys\_ids of the additional persons \(other than primary assignee\) that have been assigned to the account.Data type: Array
 
@@ -2533,7 +2534,7 @@ Total amount paid on the loan.Data type: Number \(Currency\)
 
 approval
 
-</td><td id="d2166e118">
+</td><td id="d2090e118">
 
 String that describes the type of approval required.Possible values:
 
@@ -2555,7 +2556,7 @@ Default: not requested
 
 approval\_history
 
-</td><td id="d2166e159">
+</td><td id="d2090e159">
 
 List of all approvals associated with the case.Data type: String \(Journal\)
 
@@ -2565,7 +2566,7 @@ Maximum length: 4,000
 
 approval\_set
 
-</td><td id="d2166e173">
+</td><td id="d2090e173">
 
 Date and time that the associated action was approved.Data type: String \(Date\)
 
@@ -2575,7 +2576,7 @@ Maximum length: 40
 
 asset
 
-</td><td id="d2120e224">
+</td><td id="d2089e224">
 
 Sys\_id of the asset record associated with the case.Data type: String
 
@@ -2585,7 +2586,7 @@ Table: Asset \[alm\_asset\]
 
 assigned\_on
 
-</td><td id="d2120e237">
+</td><td id="d2089e237">
 
 Date and time that the case was assigned to the person identified in the **assigned\_to** parameter.Data type: String \(Date\)
 
@@ -2615,7 +2616,7 @@ Sys\_id of the customer service agent group assigned to the case. Located in the
 
 auto\_close
 
-</td><td id="d2120e284">
+</td><td id="d2089e284">
 
 Flag that indicates whether the case was automatically closed.Possible values:
 
@@ -2640,7 +2641,7 @@ Date on which the associated customer declared bankruptcy.Data type: String \(Da
 
 business\_duration
 
-</td><td id="d2166e214">
+</td><td id="d2090e214">
 
 Length in calendar work hours, work days, and work weeks that it took to complete the case.Data type: String \(Duration\)
 
@@ -2650,7 +2651,7 @@ Maximum length: 40
 
 business\_service
 
-</td><td id="d2166e227">
+</td><td id="d2090e227">
 
 Sys\_id of the service record associated with the case.Data type: String
 
@@ -2660,7 +2661,7 @@ Table: Service \[cmdb\_ci\_service\]
 
 calendar\_duration
 
-</td><td id="d2166e240">
+</td><td id="d2090e240">
 
 Length in calendar hours, days, and weeks that it took to complete the case.Data type: String \(Duration\)
 
@@ -2670,7 +2671,7 @@ Maximum length: 40
 
 case
 
-</td><td id="d2120e358">
+</td><td id="d2089e358">
 
 Case short description and case number.Data type: String
 
@@ -2680,7 +2681,7 @@ Maximum length: 300
 
 case\_report
 
-</td><td id="d2120e371">
+</td><td id="d2089e371">
 
 Sys\_id of the associated case report.Data type: String
 
@@ -2708,7 +2709,7 @@ Case category.Possible values:
 
 cause
 
-</td><td id="d2120e410">
+</td><td id="d2089e410">
 
 Details about the cause of the problem.Data type: String
 
@@ -2718,7 +2719,7 @@ Maximum length: 4,000
 
 caused\_by
 
-</td><td id="d2120e423">
+</td><td id="d2089e423">
 
 Sys\_id of the change request that caused the case to be created.Data type: String
 
@@ -2728,7 +2729,7 @@ Table: Change Request \[change\_request\]
 
 change
 
-</td><td id="d2120e437">
+</td><td id="d2089e437">
 
 Sys\_id of the change request that caused the case to be created.Data type: String
 
@@ -2748,7 +2749,7 @@ Number of the customer check used to make a loan payment.Data type: String
 
 closed\_at
 
-</td><td id="d2166e254">
+</td><td id="d2090e254">
 
 Date and time that the case was closed.Data type: String
 
@@ -2758,7 +2759,7 @@ Maximum length: 40
 
 closed\_by
 
-</td><td id="d2166e267">
+</td><td id="d2090e267">
 
 Sys\_id of the user that closed the case. Located in the User \[sys\_user\] table.Data type: String
 
@@ -2766,7 +2767,7 @@ Sys\_id of the user that closed the case. Located in the User \[sys\_user\] tabl
 
 close\_notes
 
-</td><td id="d2166e278">
+</td><td id="d2090e278">
 
 Notes made when the case was closed.Data type: String
 
@@ -2776,7 +2777,7 @@ Maximum length: 4,000
 
 cmdb\_ci
 
-</td><td id="d2166e291">
+</td><td id="d2090e291">
 
 Sys\_id of the configuration item associated with the case.Data type: String
 
@@ -2796,7 +2797,7 @@ Additional comments about the case.Data type: String \(Journal Input\)
 
 comments\_and\_work\_notes
 
-</td><td id="d2166e317">
+</td><td id="d2090e317">
 
 Comments and work notes entered for the case.Data type: String \(Journal List\)
 
@@ -2806,7 +2807,7 @@ Maximum length: 4,000
 
 company
 
-</td><td id="d2166e331">
+</td><td id="d2090e331">
 
 Sys\_id of the company associated with the case.Data type: String
 
@@ -2824,7 +2825,7 @@ Business-to-consumer cases only. Sys\_id of the person to contact with regards t
 
 contact
 
-</td><td id="d2120e574">
+</td><td id="d2089e574">
 
 Business-to-business based cases only. Sys\_id of the person to contact regarding this case.Data type: String
 
@@ -2834,7 +2835,7 @@ Table: Contact \[customer\_contact\]
 
 contact\_local\_time
 
-</td><td id="d2120e587">
+</td><td id="d2089e587">
 
 Contact local time.Data type: String
 
@@ -2844,7 +2845,7 @@ Maximum length: 70
 
 contact\_time\_zone
 
-</td><td id="d2120e601">
+</td><td id="d2089e601">
 
 Time zone of the contact associated with the case.Data type: String
 
@@ -2872,7 +2873,7 @@ Maximum length: 40
 
 contract
 
-</td><td id="d2166e376">
+</td><td id="d2090e376">
 
 Sys\_id of the contract associated with the case.Data type: String
 
@@ -2892,7 +2893,7 @@ Action the customer is taking to correct the current loan infraction, such as ma
 
 correlation\_display
 
-</td><td id="d2166e389">
+</td><td id="d2090e389">
 
 Display value for the correlation ID.Data type: String
 
@@ -2972,7 +2973,7 @@ Reason the deferment is being put in place, such as, financial difficulties, cha
 
 delivery\_plan
 
-</td><td id="d2166e415">
+</td><td id="d2090e415">
 
 Sys\_id of the parent execution plan for this case. Located in the Execution Plan \[sc\_cat\_item\_delivery\_plan\] table.Data type: String
 
@@ -2980,7 +2981,7 @@ Sys\_id of the parent execution plan for this case. Located in the Execution Pla
 
 delivery\_task
 
-</td><td id="d2166e427">
+</td><td id="d2090e427">
 
 Sys\_id of the execution plan task. Data type: String
 
@@ -3000,7 +3001,7 @@ Detailed description of the problem associated with the case. Data type: String
 
 due\_date
 
-</td><td id="d2166e455">
+</td><td id="d2090e455">
 
 Date that the case is due to be closed.Data type: String \(Date\)
 
@@ -3020,7 +3021,7 @@ End date of the loan or an associated activity such as a deferment period.Data t
 
 entitlement
 
-</td><td id="d2120e764">
+</td><td id="d2089e764">
 
 Sys\_id of the entitlement record associated with the case. Entitlements define the type of support that a customer receives as well as the supported communication channels. An entitlement can be associated with a product, an asset, an account, or a contract.Data type: String
 
@@ -3049,7 +3050,7 @@ Default: 0
 
 expected\_start
 
-</td><td id="d2166e499">
+</td><td id="d2090e499">
 
 Date and time when work is scheduled to begin on the case.Data type: String \(Date\)
 
@@ -3089,7 +3090,7 @@ Amount of fees that have been written off for this account.Data type: String \(C
 
 first\_response\_time
 
-</td><td id="d2120e818">
+</td><td id="d2089e818">
 
 Date and time when the first action was taken on the case.Data type: String
 
@@ -3097,7 +3098,7 @@ Date and time when the first action was taken on the case.Data type: String
 
 follow\_the\_sun
 
-</td><td id="d2120e829">
+</td><td id="d2089e829">
 
 Flag that indicates whether the case should be handed-off for global follow-up.If a customer enters additional comments on a Priority 1 - Critical or a Priority 2 - High case, or if the case is escalated, the flag is automatically set to true.
 
@@ -3114,7 +3115,7 @@ Default: false
 
 follow\_up
 
-</td><td id="d2166e512">
+</td><td id="d2090e512">
 
 Date and time of the next follow up action.Data type: String \(Date\)
 
@@ -3134,7 +3135,7 @@ Source of the funds for this loan.Data type: String
 
 group\_list
 
-</td><td id="d2166e526">
+</td><td id="d2090e526">
 
 List of sys\_ids of the group records associated with the case.Data type: Array \(List\)
 
@@ -3146,7 +3147,7 @@ Table: Group \[sys\_user\_group\]
 
 impact
 
-</td><td id="d2166e541">
+</td><td id="d2090e541">
 
 Impact on customer.Possible values:
 
@@ -3164,7 +3165,7 @@ Default: 3
 
 initiated\_as\_request
 
-</td><td id="d2120e918">
+</td><td id="d2089e918">
 
 Flag that indicates if this inquiry was initiated as a request by the customer.Possible values:
 
@@ -3209,7 +3210,7 @@ Date that the legal judgement was decided on this loan.Data type: String \(Date\
 
 knowledge
 
-</td><td id="d2166e569">
+</td><td id="d2090e569">
 
 Flag that indicates if there is a knowledge base article available for the specified issue.Possible values:
 
@@ -3272,7 +3273,7 @@ Sys\_id of the loan forgiveness transaction associated with this loan. Located i
 
 location
 
-</td><td id="d2166e592">
+</td><td id="d2090e592">
 
 Sys\_id of the record describing the company location.Data type: String
 
@@ -3282,7 +3283,7 @@ Table: Location \[cmn\_location\]
 
 made\_sla
 
-</td><td id="d2166e605">
+</td><td id="d2090e605">
 
 Flag that indicates whether the case was resolved in alignment with the associated service level agreement.Possible values:
 
@@ -3307,7 +3308,7 @@ Method used to make the most recent payment, such as cash, check, debit, custome
 
 notes\_to\_comments
 
-</td><td id="d2120e1053">
+</td><td id="d2089e1053">
 
 Flag that indicates whether to add the resolution notes to the comments.Possible values:
 
@@ -3320,7 +3321,7 @@ Data type: Boolean
 
 notify
 
-</td><td id="d2120e1074">
+</td><td id="d2089e1074">
 
 Method to use to notify contact/consumer.Possible values:
 
@@ -3346,7 +3347,7 @@ Case number.Data type: String
 
 opened\_at
 
-</td><td id="d2166e642">
+</td><td id="d2090e642">
 
 Date and time that the case was opened.Data type: String \(Date\)
 
@@ -3356,7 +3357,7 @@ Maximum length: 40
 
 opened\_by
 
-</td><td id="d2166e655">
+</td><td id="d2090e655">
 
 Sys\_id of the person that initially opened the case.Data type: String
 
@@ -3366,7 +3367,7 @@ Table: User \[sys\_user\]
 
 order
 
-</td><td id="d2166e668">
+</td><td id="d2090e668">
 
 Defines some ordering/sequencing, whose usage depends upon the specific use cases.Data type: Number \(Integer\)
 
@@ -3414,7 +3415,7 @@ Sys\_id of the parent case to which this case \(child\) is associated. Located i
 
 partner
 
-</td><td id="d2120e1162">
+</td><td id="d2089e1162">
 
 Sys\_id of the partner associated with the case.Data type: String
 
@@ -3424,7 +3425,7 @@ Table: Account \[customer\_account\]
 
 partner\_contact
 
-</td><td id="d2120e1175">
+</td><td id="d2089e1175">
 
 Sys\_id of the partner contact associated with the case.Data type: String
 
@@ -3482,7 +3483,7 @@ Total amount of principal that has been written-off for this loan.Data type: Str
 
 priority
 
-</td><td id="d2166e694">
+</td><td id="d2090e694">
 
 Priority of the case. Possible values:
 
@@ -3501,7 +3502,7 @@ Default: 4
 
 proactive
 
-</td><td id="d2120e1220">
+</td><td id="d2089e1220">
 
 Flag that indicates whether the inquiry is being proactively monitored.Possible values:
 
@@ -3532,7 +3533,7 @@ Sys\_id of the product model of the asset associated to the case. Located in the
 
 reassignment\_count
 
-</td><td id="d2166e727">
+</td><td id="d2090e727">
 
 Number of times that the case was reassigned to a person that is responsible for moving the case forward.Data type: Number \(Integer\)
 
@@ -3544,7 +3545,7 @@ Default: 0
 
 rejection\_goto
 
-</td><td id="d2166e743">
+</td><td id="d2090e743">
 
 Sys\_id of the task to execute if the case is rejected.Data type: String
 
@@ -3623,7 +3624,7 @@ Flag that indicates whether the loan status has to be reported to the credit bur
 
 resolution\_code
 
-</td><td id="d2120e1322">
+</td><td id="d2089e1322">
 
 Resolution state for the case, such as "Solved - Fixed by Support/Guidance provided". Data type: String
 
@@ -3633,7 +3634,7 @@ Maximum length: 40
 
 resolved\_at
 
-</td><td id="d2120e1335">
+</td><td id="d2089e1335">
 
 Date and time that the case was resolved.Data type: String
 
@@ -3641,7 +3642,7 @@ Date and time that the case was resolved.Data type: String
 
 resolved\_by
 
-</td><td id="d2120e1346">
+</td><td id="d2089e1346">
 
 Sys\_id of the person that resolved the case.Data type: String
 
@@ -3651,7 +3652,7 @@ Table: User \[sys\_user\]
 
 route\_reason
 
-</td><td id="d2166e756">
+</td><td id="d2090e756">
 
 Reason that the case was routed to a different assignee.Data type: Number \(Integer\)
 
@@ -3679,7 +3680,7 @@ Sys\_id of the definition of service associated with this account. Located in th
 
 service\_offering
 
-</td><td id="d2166e769">
+</td><td id="d2090e769">
 
 Sys\_id of the service offering associated with the payment inquiry. Service offerings uniquely define the level of service in terms of availability, scope, pricing, and packaging options.Data type: String
 
@@ -3699,7 +3700,7 @@ Concise description of the case. Data type: String
 
 skills
 
-</td><td id="d2166e796">
+</td><td id="d2090e796">
 
 Sys\_ids of the skills needed to complete the case.Data type: String
 
@@ -3711,7 +3712,7 @@ Table: Skill \[cmn\_skill\]
 
 sla\_due
 
-</td><td id="d2166e811">
+</td><td id="d2090e811">
 
 Date/time at which the case must be closed based on the associated service level agreement.Data type: String
 
@@ -3721,7 +3722,7 @@ Maximum length: 40
 
 sn\_app\_cs\_social\_social\_profile
 
-</td><td id="d2120e1417">
+</td><td id="d2089e1417">
 
 Sys\_id of the social media profile associated with the case.Data type: String
 
@@ -3779,7 +3780,7 @@ Current state of the case. Possible values:
 
 subcategory
 
-</td><td id="d2120e1489">
+</td><td id="d2089e1489">
 
 Case subcategory.Possible values:
 
@@ -3791,7 +3792,7 @@ Default: 0
 
 support\_manager
 
-</td><td id="d2120e1505">
+</td><td id="d2089e1505">
 
 Sys\_id of the CSM manager assigned to the case.Data type: String
 
@@ -3801,7 +3802,7 @@ Table: User \[sys\_user\]
 
 sync\_driver
 
-</td><td id="d2120e1518">
+</td><td id="d2089e1518">
 
 Flag that indicates whether there's driver synchronization.Possible values:
 
@@ -3814,7 +3815,7 @@ Data type: Boolean
 
 sys\_class\_name
 
-</td><td id="d2166e859">
+</td><td id="d2090e859">
 
 Table that contains the case record.Data type: String
 
@@ -3908,7 +3909,7 @@ Date and time when the case was last updated.Data type: String \(Date\)
 
 task\_effective\_number
 
-</td><td id="d2166e981">
+</td><td id="d2090e981">
 
 Identifying number. If the task has a Universal Request associated with it, it's the UR number. Otherwise, it's the current task number.
 
@@ -3920,7 +3921,7 @@ Maximum length: 40
 
 time\_worked
 
-</td><td id="d2166e996">
+</td><td id="d2090e996">
 
 Total amount of time worked on the case.Data type: String \(Timer\)
 
@@ -3950,7 +3951,7 @@ Total amount that has been written-off for this loan.Data type: String \(Currenc
 
 universal\_request
 
-</td><td id="d2166e1010">
+</td><td id="d2090e1010">
 
 Sys\_id of a universal task that this inquiry is part of.Data type: String
 
@@ -3960,7 +3961,7 @@ Table: Task \[task\]
 
 upon\_approval
 
-</td><td id="d2166e1023">
+</td><td id="d2090e1023">
 
 Action to take if the case is approved.Possible values:
 
@@ -3977,7 +3978,7 @@ Default: proceed
 
 upon\_reject
 
-</td><td id="d2166e1048">
+</td><td id="d2090e1048">
 
 Action to take if the case is rejected.Possible values:
 
@@ -3994,7 +3995,7 @@ Default: cancel
 
 urgency
 
-</td><td id="d2166e1073">
+</td><td id="d2090e1073">
 
 Urgency of the case.Possible values:
 
@@ -4012,7 +4013,7 @@ Default: 3
 
 user\_input
 
-</td><td id="d2166e1101">
+</td><td id="d2090e1101">
 
 Additional user input.Data type: String \(User Input\)
 
@@ -4022,7 +4023,7 @@ Maximum length: 4,000
 
 variables
 
-</td><td id="d2166e1114">
+</td><td id="d2090e1114">
 
 Name-value pairs of variables associated with the case.Data type: String \(Variables\)
 
@@ -4042,7 +4043,7 @@ List of sys\_ids of the users who receive notifications about this case when add
 
 wf\_activity
 
-</td><td id="d2166e1143">
+</td><td id="d2090e1143">
 
 Sys\_id of the workflow activity record associated with the case.Data type: String
 
@@ -4052,7 +4053,7 @@ Table: Workflow Activity \[wf\_activity\]
 
 work\_end
 
-</td><td id="d2166e1156">
+</td><td id="d2090e1156">
 
 Date and time work ended on the case.Data type: String \(Date\)
 
@@ -4082,7 +4083,7 @@ List of sys\_ids of the internal users who receive notifications about this case
 
 work\_start
 
-</td><td id="d2166e1197">
+</td><td id="d2090e1197">
 
 Date and time that work started on the case.Data type: String \(Date\)
 
@@ -4101,7 +4102,7 @@ Type of write-off of the loan, such as full write-off or partial write-off. Data
 </td></tr></tbody>
 </table>## Mortgage \[sn\_bom\_mortgage\] table
 
-<table id="d2282e40"><thead><tr><th>
+<table id="d2568e40"><thead><tr><th>
 
 Parameter
 
@@ -4113,7 +4114,7 @@ Description
 
 account
 
-</td><td id="d2121e67">
+</td><td id="d2138e67">
 
 Sys\_id of the account record associated with the case. Located in the Account \[customer\_account\] table. Data type: String
 
@@ -4501,7 +4502,7 @@ Number of times the customer deferred their payment on the mortgage.Data type: N
 
 number
 
-</td><td id="d2121e102">
+</td><td id="d2138e102">
 
 Case number.Data type: String
 
@@ -4521,7 +4522,7 @@ Date when the mortgage account was first opened.Data type: String \(Date\)
 
 parent\_sold\_product
 
-</td><td id="d2121e116">
+</td><td id="d2138e116">
 
 Sys\_id of the parent product associated with this entity. Located in the Sold Product \[sn\_install\_base\_sold\_product\] table.Data type: String \(Reference\)
 
@@ -4685,7 +4686,7 @@ Current status of the account, such as issued, active, blocked, closed, cancelle
 
 sys\_class\_name
 
-</td><td id="d2121e139">
+</td><td id="d2138e139">
 
 Table that contains the case record.Data type: String
 
@@ -4774,7 +4775,7 @@ Number of terms associated with the mortgage.Data type: Number \(Integer\)
 </td></tr></tbody>
 </table>## Payment Inquiry Case \[sn\_bom\_payment\_inquiry\]
 
-<table id="d2425e40"><thead><tr><th>
+<table id="d2550e40"><thead><tr><th>
 
 Element
 
@@ -4809,7 +4810,7 @@ Flag that indicates whether the case is open and active.Possible values:
 
 active\_account\_escalation
 
-</td><td id="d2120e106">
+</td><td id="d2089e106">
 
 Sys\_id of the active account escalation record associated with the case.Data type: String
 
@@ -4819,7 +4820,7 @@ Table: Escalation \[sn\_customerservice\_escalation\]
 
 active\_escalation
 
-</td><td id="d2120e119">
+</td><td id="d2089e119">
 
 Sys\_id of the active escalation record associated with the case.Data type: String
 
@@ -4829,7 +4830,7 @@ Table: Escalation \[sn\_customerservice\_escalation\]
 
 activity\_due
 
-</td><td id="d2166e90">
+</td><td id="d2090e90">
 
 Date for which the associated case is expected to be completed.Data type: String \(Date\)
 
@@ -4839,7 +4840,7 @@ Maximum length: 40
 
 additional\_assignee\_list
 
-</td><td id="d2166e103">
+</td><td id="d2090e103">
 
 List of the sys\_ids of the additional persons \(other than primary assignee\) that have been assigned to the account.Data type: Array
 
@@ -4851,7 +4852,7 @@ Table: User \[sys\_user\]
 
 approval
 
-</td><td id="d2166e118">
+</td><td id="d2090e118">
 
 String that describes the type of approval required.Possible values:
 
@@ -4873,7 +4874,7 @@ Default: not requested
 
 approval\_history
 
-</td><td id="d2166e159">
+</td><td id="d2090e159">
 
 List of all approvals associated with the case.Data type: String \(Journal\)
 
@@ -4883,7 +4884,7 @@ Maximum length: 4,000
 
 approval\_set
 
-</td><td id="d2166e173">
+</td><td id="d2090e173">
 
 Date and time that the associated action was approved.Data type: String \(Date\)
 
@@ -4946,7 +4947,7 @@ Flag that indicates whether the case was automatically closed.Possible values:
 
 business\_duration
 
-</td><td id="d2166e214">
+</td><td id="d2090e214">
 
 Length in calendar work hours, work days, and work weeks that it took to complete the case.Data type: String \(Duration\)
 
@@ -4956,7 +4957,7 @@ Maximum length: 40
 
 business\_service
 
-</td><td id="d2166e227">
+</td><td id="d2090e227">
 
 Sys\_id of the service record associated with the case.Data type: String
 
@@ -4986,7 +4987,7 @@ Case short description and case number.Data type: String
 
 case\_report
 
-</td><td id="d2120e371">
+</td><td id="d2089e371">
 
 Sys\_id of the associated case report.Data type: String
 
@@ -5012,7 +5013,7 @@ Default: 1
 
 cause
 
-</td><td id="d2120e410">
+</td><td id="d2089e410">
 
 Details about the cause of the problem.Data type: String
 
@@ -5030,7 +5031,7 @@ Sys\_id of the change request that caused the case to be created. Located in the
 
 change
 
-</td><td id="d2120e437">
+</td><td id="d2089e437">
 
 Sys\_id of the change request that caused the case to be created.Data type: String
 
@@ -5058,7 +5059,7 @@ Sys\_id of the user that closed the case. Located in the User \[sys\_user\] tabl
 
 close\_notes
 
-</td><td id="d2166e278">
+</td><td id="d2090e278">
 
 Notes made when the case was closed.Data type: String
 
@@ -5068,7 +5069,7 @@ Maximum length: 4,000
 
 cmdb\_ci
 
-</td><td id="d2166e291">
+</td><td id="d2090e291">
 
 Sys\_id of the configuration item associated with the case.Data type: String
 
@@ -5098,7 +5099,7 @@ Comments and work notes entered for the case.Data type: String \(Journal List\)
 
 company
 
-</td><td id="d2166e331">
+</td><td id="d2090e331">
 
 Sys\_id of the company associated with the case.Data type: String
 
@@ -5124,7 +5125,7 @@ Business-to-business based cases only. Sys\_id of the person to contact regardin
 
 contact\_local\_time
 
-</td><td id="d2120e587">
+</td><td id="d2089e587">
 
 Contact local time.Data type: String
 
@@ -5134,7 +5135,7 @@ Maximum length: 70
 
 contact\_time\_zone
 
-</td><td id="d2120e601">
+</td><td id="d2089e601">
 
 Time zone of the contact associated with the case.Data type: String
 
@@ -5144,7 +5145,7 @@ Maximum length: 40
 
 contact\_type
 
-</td><td id="d2166e344">
+</td><td id="d2090e344">
 
 Method in which the case was initially reported.Possible values:
 
@@ -5162,7 +5163,7 @@ Maximum length: 40
 
 contract
 
-</td><td id="d2166e376">
+</td><td id="d2090e376">
 
 Sys\_id of the contract associated with the case.Data type: String
 
@@ -5202,7 +5203,7 @@ Corrected routing number of the account to apply the payment to.Data type: Strin
 
 correlation\_display
 
-</td><td id="d2166e389">
+</td><td id="d2090e389">
 
 Display value for the correlation ID.Data type: String
 
@@ -5212,7 +5213,7 @@ Maximum length: 100
 
 correlation\_id
 
-</td><td id="d2166e402">
+</td><td id="d2090e402">
 
 Unique identifier for content pulled from an external system. Used in tracking continued updates for the content as part of integration.Data type: String
 
@@ -5232,7 +5233,7 @@ Reason that the customer is making the payment inquiry, such as wrong account nu
 
 delivery\_plan
 
-</td><td id="d2166e415">
+</td><td id="d2090e415">
 
 Sys\_id of the parent execution plan for this case. Located in the Execution Plan \[sc\_cat\_item\_delivery\_plan\] table.Data type: String
 
@@ -5240,7 +5241,7 @@ Sys\_id of the parent execution plan for this case. Located in the Execution Pla
 
 delivery\_task
 
-</td><td id="d2166e427">
+</td><td id="d2090e427">
 
 Sys\_id of the execution plan task. Data type: String
 
@@ -5260,7 +5261,7 @@ Detailed description of the problem associated with the case. Data type: String
 
 due\_date
 
-</td><td id="d2166e455">
+</td><td id="d2090e455">
 
 Date that the case is due to be closed.Data type: String \(Date\)
 
@@ -5270,7 +5271,7 @@ Maximum length: 40
 
 entitlement
 
-</td><td id="d2120e764">
+</td><td id="d2089e764">
 
 Sys\_id of the entitlement record associated with the case. Entitlements define the type of support that a customer receives as well as the supported communication channels. An entitlement can be associated with a product, an asset, an account, or a contract.Data type: String
 
@@ -5290,7 +5291,7 @@ Type of error that was made, such as customer error or bank error.Data type: Str
 
 escalation
 
-</td><td id="d2166e468">
+</td><td id="d2090e468">
 
 Current escalation level.Possible values:
 
@@ -5309,7 +5310,7 @@ Default: 0
 
 expected\_start
 
-</td><td id="d2166e499">
+</td><td id="d2090e499">
 
 Date and time when work is scheduled to begin on the case.Data type: String \(Date\)
 
@@ -5339,7 +5340,7 @@ Date and time when the first action was taken on the case.Data type: String \(Da
 
 follow\_the\_sun
 
-</td><td id="d2120e829">
+</td><td id="d2089e829">
 
 Flag that indicates whether the case should be handed-off for global follow-up.If a customer enters additional comments on a Priority 1 - Critical or a Priority 2 - High case, or if the case is escalated, the flag is automatically set to true.
 
@@ -5356,7 +5357,7 @@ Default: false
 
 follow\_up
 
-</td><td id="d2166e512">
+</td><td id="d2090e512">
 
 Date and time of the next follow up action.Data type: String \(Date\)
 
@@ -5366,7 +5367,7 @@ Maximum length: 40
 
 group\_list
 
-</td><td id="d2166e526">
+</td><td id="d2090e526">
 
 List of sys\_ids of the group records associated with the case.Data type: Array \(List\)
 
@@ -5378,7 +5379,7 @@ Table: Group \[sys\_user\_group\]
 
 impact
 
-</td><td id="d2166e541">
+</td><td id="d2090e541">
 
 Impact on customer.Possible values:
 
@@ -5396,7 +5397,7 @@ Default: 3
 
 initiated\_as\_request
 
-</td><td id="d2120e918">
+</td><td id="d2089e918">
 
 Flag that indicates if this inquiry was initiated as a request by the customer.Possible values:
 
@@ -5463,7 +5464,7 @@ Flag that indicates whether this is a valid inquiry claim.Possible values:
 
 knowledge
 
-</td><td id="d2166e569">
+</td><td id="d2090e569">
 
 Flag that indicates if there is a knowledge base article available for the specified issue.Possible values:
 
@@ -5478,7 +5479,7 @@ Default: false
 
 location
 
-</td><td id="d2166e592">
+</td><td id="d2090e592">
 
 Sys\_id of the record describing the company location.Data type: String
 
@@ -5488,7 +5489,7 @@ Table: Location \[cmn\_location\]
 
 made\_sla
 
-</td><td id="d2166e605">
+</td><td id="d2090e605">
 
 Flag that indicates whether the case was resolved in alignment with the associated service level agreement.Possible values:
 
@@ -5516,7 +5517,7 @@ Flag that indicates whether to add the resolution notes to the comments.Possible
 
 notify
 
-</td><td id="d2120e1074">
+</td><td id="d2089e1074">
 
 Method to use to notify contact/consumer.Possible values:
 
@@ -5560,7 +5561,7 @@ Sys\_id of the person that initially opened the case. Located in the User \[sys\
 
 order
 
-</td><td id="d2166e668">
+</td><td id="d2090e668">
 
 Defines some ordering/sequencing, whose usage depends upon the specific use cases.Data type: Number \(Integer\)
 
@@ -5588,7 +5589,7 @@ Sys\_id of the parent case to which this case \(child\) is associated. Located i
 
 partner
 
-</td><td id="d2120e1162">
+</td><td id="d2089e1162">
 
 Sys\_id of the partner associated with the case.Data type: String
 
@@ -5598,7 +5599,7 @@ Table: Account \[customer\_account\]
 
 partner\_contact
 
-</td><td id="d2120e1175">
+</td><td id="d2089e1175">
 
 Sys\_id of the partner contact associated with the case.Data type: String
 
@@ -5618,7 +5619,7 @@ Processor used to handle the associated payment, such as BACS, CHAP, Wire, and S
 
 priority
 
-</td><td id="d2166e694">
+</td><td id="d2090e694">
 
 Priority of the case. Possible values:
 
@@ -5637,7 +5638,7 @@ Default: 4
 
 proactive
 
-</td><td id="d2120e1220">
+</td><td id="d2089e1220">
 
 Flag that indicates whether the inquiry is being proactively monitored.Possible values:
 
@@ -5652,7 +5653,7 @@ Default:false
 
 problem
 
-</td><td id="d2120e1256">
+</td><td id="d2089e1256">
 
 Sys\_id of the issue that the customer is encountering.Data type: String
 
@@ -5844,7 +5845,7 @@ Sys\_id of the definition of service associated with this account. Located in th
 
 service\_offering
 
-</td><td id="d2166e769">
+</td><td id="d2090e769">
 
 Sys\_id of the service offering associated with the payment inquiry. Service offerings uniquely define the level of service in terms of availability, scope, pricing, and packaging options.Data type: String
 
@@ -5864,7 +5865,7 @@ Concise description of the case. Data type: String
 
 skills
 
-</td><td id="d2166e796">
+</td><td id="d2090e796">
 
 Sys\_ids of the skills needed to complete the case.Data type: String
 
@@ -5886,7 +5887,7 @@ Date/time at which the case must be closed based on the associated service level
 
 sn\_app\_cs\_social\_social\_profile
 
-</td><td id="d2120e1417">
+</td><td id="d2089e1417">
 
 Sys\_id of the social media profile associated with the case.Data type: String
 
@@ -5934,7 +5935,7 @@ Current state of the case. Possible values:
 
 subcategory
 
-</td><td id="d2120e1489">
+</td><td id="d2089e1489">
 
 Case subcategory.Possible values:
 
@@ -5946,7 +5947,7 @@ Default: 0
 
 support\_manager
 
-</td><td id="d2120e1505">
+</td><td id="d2089e1505">
 
 Sys\_id of the CSM manager assigned to the case.Data type: String
 
@@ -5956,7 +5957,7 @@ Table: User \[sys\_user\]
 
 sync\_driver
 
-</td><td id="d2120e1518">
+</td><td id="d2089e1518">
 
 Flag that indicates whether there's driver synchronization.Possible values:
 
@@ -6063,7 +6064,7 @@ Date and time when the case was last updated.Data type: String \(Date\)
 
 task\_effective\_number
 
-</td><td id="d2166e981">
+</td><td id="d2090e981">
 
 Identifying number. If the task has a Universal Request associated with it, it's the UR number. Otherwise, it's the current task number.
 
@@ -6075,7 +6076,7 @@ Maximum length: 40
 
 time\_worked
 
-</td><td id="d2166e996">
+</td><td id="d2090e996">
 
 Total amount of time worked on the case.Data type: String \(Timer\)
 
@@ -6105,7 +6106,7 @@ Unique transaction identifier for this payment inquiry.Data type: String
 
 universal\_request
 
-</td><td id="d2166e1010">
+</td><td id="d2090e1010">
 
 Sys\_id of a universal task that this inquiry is part of.Data type: String
 
@@ -6115,7 +6116,7 @@ Table: Task \[task\]
 
 upon\_approval
 
-</td><td id="d2166e1023">
+</td><td id="d2090e1023">
 
 Action to take if the case is approved.Possible values:
 
@@ -6132,7 +6133,7 @@ Default: proceed
 
 upon\_reject
 
-</td><td id="d2166e1048">
+</td><td id="d2090e1048">
 
 Action to take if the case is rejected.Possible values:
 
@@ -6149,7 +6150,7 @@ Default: cancel
 
 urgency
 
-</td><td id="d2166e1073">
+</td><td id="d2090e1073">
 
 Urgency of the case.Possible values:
 
@@ -6167,7 +6168,7 @@ Default: 3
 
 user\_input
 
-</td><td id="d2166e1101">
+</td><td id="d2090e1101">
 
 Additional user input.Data type: String \(User Input\)
 
@@ -6177,7 +6178,7 @@ Maximum length: 4,000
 
 variables
 
-</td><td id="d2166e1114">
+</td><td id="d2090e1114">
 
 Name-value pairs of variables associated with the case.Data type: String \(Variables\)
 
@@ -6197,7 +6198,7 @@ List of sys\_ids of the users who receive notifications about this case when add
 
 wf\_activity
 
-</td><td id="d2166e1143">
+</td><td id="d2090e1143">
 
 Sys\_id of the workflow activity record associated with the case.Data type: String
 
@@ -6246,7 +6247,7 @@ Date and time that work started on the case.Data type: String \(Date\)
 </td></tr></tbody>
 </table>## Personal Checking Account \[sn\_bom\_checking\_account\] table
 
-<table id="d2193e40"><thead><tr><th>
+<table id="d2136e40"><thead><tr><th>
 
 Parameter
 
@@ -6258,7 +6259,7 @@ Description
 
 account
 
-</td><td id="d2121e67">
+</td><td id="d2138e67">
 
 Sys\_id of the account record associated with the case. Located in the Account \[customer\_account\] table. Data type: String
 
@@ -6425,7 +6426,7 @@ Full name of the primary person associated with the checking account.Data type: 
 
 number
 
-</td><td id="d2121e102">
+</td><td id="d2138e102">
 
 Case number.Data type: String
 
@@ -6455,7 +6456,7 @@ Preferential discounts that are applicable to a category of customers, such as m
 
 parent\_sold\_product
 
-</td><td id="d2121e116">
+</td><td id="d2138e116">
 
 Sys\_id of the parent product associated with this entity. Located in the Sold Product \[sn\_install\_base\_sold\_product\] table.Data type: String \(Reference\)
 
@@ -6539,7 +6540,7 @@ Current status of the account, such as active, blocked, closed, cancelled, and s
 
 sys\_class\_name
 
-</td><td id="d2121e139">
+</td><td id="d2138e139">
 
 Table that contains the case record.Data type: String
 
@@ -6549,7 +6550,7 @@ Table that contains the case record.Data type: String
 
 sys\_created\_by
 
-</td><td id="d2121e153">
+</td><td id="d2138e153">
 
 Person that initially opened the case.Data type: String
 
@@ -6559,7 +6560,7 @@ Person that initially opened the case.Data type: String
 
 sys\_created\_on
 
-</td><td id="d2121e167">
+</td><td id="d2138e167">
 
 Date and time when the case was initially created.Data type: String \(Date\)
 
@@ -6569,7 +6570,7 @@ Date and time when the case was initially created.Data type: String \(Date\)
 
 sys\_domain
 
-</td><td id="d2121e181">
+</td><td id="d2138e181">
 
 Domain associated with the case.Data type: String
 
@@ -6589,7 +6590,7 @@ Unique identifier of the credit card record.Data type: String
 
 sys\_mod\_count
 
-</td><td id="d2121e213">
+</td><td id="d2138e213">
 
 Number of updates to the case since it was initially created.Data type: Number \(Integer\)
 
@@ -6599,7 +6600,7 @@ Number of updates to the case since it was initially created.Data type: Number \
 
 sys\_updated\_by
 
-</td><td id="d2121e227">
+</td><td id="d2138e227">
 
 Person that last updated the case.Data type: String
 
@@ -6609,7 +6610,7 @@ Person that last updated the case.Data type: String
 
 sys\_updated\_on
 
-</td><td id="d2121e241">
+</td><td id="d2138e241">
 
 Date and time when the case was last updated.Data type: String \(Date\)
 
@@ -6618,7 +6619,7 @@ Date and time when the case was last updated.Data type: String \(Date\)
 </td></tr></tbody>
 </table>## Personal Loan \[sn\_bom\_personal\_loan\] table
 
-<table id="d2118e40"><thead><tr><th>
+<table id="d2144e40"><thead><tr><th>
 
 Parameter
 
@@ -6630,7 +6631,7 @@ Description
 
 account
 
-</td><td id="d2120e65">
+</td><td id="d2089e65">
 
 Sys\_id of the account record associated with the case.
 
@@ -7022,7 +7023,7 @@ Maximum length: 40
 
 number
 
-</td><td id="d2121e102">
+</td><td id="d2138e102">
 
 Case number.Data type: String
 
@@ -7042,7 +7043,7 @@ Maximum length: 40
 
 parent\_sold\_product
 
-</td><td id="d2121e116">
+</td><td id="d2138e116">
 
 Sys\_id of the parent product associated with this entity. Located in the Sold Product \[sn\_install\_base\_sold\_product\] table.Data type: String \(Reference\)
 
@@ -7206,7 +7207,7 @@ Maximum length: 40
 
 sys\_class\_name
 
-</td><td id="d2121e139">
+</td><td id="d2138e139">
 
 Table that contains the case record.Data type: String
 

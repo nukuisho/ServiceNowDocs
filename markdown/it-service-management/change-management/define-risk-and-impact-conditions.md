@@ -2,11 +2,12 @@
 title: Add or modify risk and impact conditions
 description: You can define risk calculation rules on which the risk and impact of a change are calculated. Best Practice - Change Risk Calculator is activated by default in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/define-risk-and-impact-conditions.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Risk conditions and calculation, Analyze change request risk and impact, Reference, Change Management, IT Service Management]
 ---
@@ -103,15 +104,15 @@ Enter a description of how this risk calculation is applied.
 </td></tr></tbody>
 </table>4.  Specify the rule based on your selected rule method.
 
-<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d218517e223">
+<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d223180e223">
 
 Choice
 
-</th><th align="left" id="d218517e226">
+</th><th align="left" id="d223180e226">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d218517e232">
+</th></tr></thead><tbody><tr><td id="d223180e232">
 
 **Condition**
 
@@ -119,7 +120,7 @@ Action
 
 Use the condition builder to add conditions. It is hidden if you selected **Use advanced condition**.
 
-</td></tr><tr><td id="d218517e244">
+</td></tr><tr><td id="d223180e244">
 
 **Use advanced conditions**
 
@@ -127,7 +128,7 @@ Use the condition builder to add conditions. It is hidden if you selected **Use 
 
 Write the script in the **Advanced condition** field using standard business rule syntax. The condition must set the global variable answer to *true* or *false*.
 
-</td></tr><tr><td id="d218517e262">
+</td></tr><tr><td id="d223180e262">
 
 **Use script values**
 
@@ -138,15 +139,15 @@ Write the script in the **Script values** field. Specify the **Risk** and **Impa
 </td></tr></tbody>
 </table>    In the following example, the **Advanced condition** script first determines whether the CI is a business service. If so, the script identifies whether the **Business criticality** value is **1 - most critical** or **2 - somewhat critical**. If it does, it sets the global variable answer to *true*.
 
-    ![Critical business service risk condition](../image/risk-condition-rule.png)
+    \[Omitted image "risk-condition-rule.png"\] Alt text: Critical business service risk condition
 
     When the **Advanced condition** script returns *true*, the script in the **Script values** field sets the change request **Impact** and **Risk** values based on the **Business criticality** value.
 
 
-**Parent Topic:**[Risk conditions and calculation](../concept/change-risk-assess-detect-conflict.md)
+**Parent Topic:**[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-risk-assess-detect-conflict.md)
 
 **Related topics**  
 
 
-[Risk Calculator property](../../../script/server-scripting/reference/r_ChangeRiskCalculator.md)
+[Risk Calculator property]()
 

@@ -2,6 +2,7 @@
 title: Exploring Secrets Management
 description: Use ServiceNow Secrets Management for granular management of access to your passwords to fit your business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/exploring-secrets-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,11 +14,11 @@ breadcrumb: [Secrets Management, Platform Security]
 
 Use ServiceNow Secrets Management for granular management of access to your passwords to fit your business needs.
 
-**Important:** Admins must have the role to see modules and records related to Secrets Management. For secrets management role information, see [Secrets Management roles](../reference/roles-sec-man.md#).
+**Important:** Admins must have the role to see modules and records related to Secrets Management. For secrets management role information, see [Secrets Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/roles-sec-man.md).
 
 ## Select from Core and Enterprise versions of Secrets Management
 
-Choose from Secrets Management Core andSecrets Management Enterprise depending on your business needs.
+Choose from Secrets Management Core and Secrets Management Enterprise depending on your business needs.
 
 The Secrets Management Core plugin \(com.glide.sm.core\) is available by default. No installation is required on the instance to use this plugin. The Secrets Management Enterprise plugin is only available with a ServiceNow Vault v1, PROD18537 license. Contact Customer Support for assistance with the Secrets Management Enterprise plugin.
 
@@ -76,7 +77,7 @@ Secret groups of either type can be made instance accessible or client accessibl
     Client-side secrets groups use a public/private key pair so that secrets can only be decrypted by the client. When you create a client-accessible secrets group, you upload the public key to the instance and retain the private key on your MID Server. The instance uses the public key to encrypt your secrets, but they can only be decrypted using the private key.
 
 
-**Note:** For more information on these group types, see [Understanding client-side Secrets Management](understand-sec-man.md).
+**Note:** For more information on these group types, see [About client-side Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/understand-sec-man.md).
 
 ## Use secrets groups for more granular control
 
@@ -108,7 +109,7 @@ For client-side secret groups, Secrets Management uses a new encryption scheme. 
 </td></tr></tbody>
 </table>## Apply module access policies to your groups
 
-After you’ve grouped your secrets into a secret group, you can apply policies that determine how you can access them at a group level. Module access policies are the access control mechanisms that you apply to cryptographic modules to define instance-level controls, such as a validity time frame for the cryptographic key. For more information on module access policies, see [Module access policy overview](../../key-management-framework/concept/module_access_policy_overview.md).
+After you’ve grouped your secrets into a secret group, you can apply policies that determine how you can access them at a group level. Module access policies are the access control mechanisms that you apply to cryptographic modules to define instance-level controls, such as a validity time frame for the cryptographic key. For more information on module access policies, see [Module access policy overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/module_access_policy_overview.md).
 
 ## Tables installed with Secrets Management
 
@@ -116,7 +117,7 @@ Secrets Management adds or modifies these tables.
 
 <table id="table_orx_gt1_dtb"><tbody><tr><td class="sub-head" colspan="2">
 
-New Tables
+New tables
 
 </td></tr><tr><td>
 
@@ -194,6 +195,8 @@ Added new module access policy type
 
     This infographic shows a simplified reference architecture of how ServiceNow IT Operations Management \(ITOM\) Discovery can be deployed by your organization. As shown in the infographic, multiple Windows and Linux servers connect to the Management, Instrumentation, and Discovery \(MID\) Server and several MID Server agents enable the discovery process to update the Configuration Management Database \(CMDB\). Every MID Server transaction requires a secure authentication, so managing the authentication credentials is critical from a security perspective.
 
+    \[Omitted image "sm-itom-discovery-diagram.svg"\] Alt text: Architecture showing how ServiceNow IT Operations Management \(ITOM\) Discovery can be deployed
+
 -   **Accelerating workflow connectivity with Integration Hub securely**
 
     Use ServiceNow's Integration Hub to connect to different systems using automated application programming interface \(APIs\). Each time Integration Hub connects to a system using an API, an authentication credential is required to establish connectivity. Management of a multitude of applications and APIs for connectivity is made easier by using a secrets management solution.
@@ -201,8 +204,8 @@ Added new module access policy type
     Secrets Management is a key part of ensuring your organization’s cybersecurity. It covers all processes and tools related to the creation, storage, transmission, and management of digital credentials such as encryption keys, API tokens, and passwords. To manage secrets both securely and effectively, you can build a core secrets management policy that establishes standard rules and procedures for all phases of a secret’s lifecycle.
 
 
--   **[Understanding client-side Secrets Management](understand-sec-man.md)**  
+-   **[About client-side Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/understand-sec-man.md)**  
 Learn how use Secrets Management to manage access to secrets and groups.
 
-**Parent Topic:**[Secrets Management](secrets-management.md)
+**Parent Topic:**[Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/secrets-management.md)
 

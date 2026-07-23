@@ -2,6 +2,7 @@
 title: Supported query operations
 description: The following encoded query operators are supported for creating context objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/qg-supported-query-operations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -38,5 +39,5 @@ The following encoded query operators are supported for creating context objects
 -   "ON"
 -   "INSTANCEOF"
 
-**Parent Topic:**[Query Generation reference](../concept/query-generation-reference.md)
+**Parent Topic:**[Query Generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/query-generation-reference.md)
 

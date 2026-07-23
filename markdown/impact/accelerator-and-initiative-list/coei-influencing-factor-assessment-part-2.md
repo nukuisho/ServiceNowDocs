@@ -2,13 +2,14 @@
 title: CoEI Influencing Funding Strategy
 description: The Center of Excellence &amp; Innovation \(CoEI\) Funding Strategy Accelerator advises Impact customers on how to identify and develop a strategic CoEI Funding approach.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/coei-influencing-factor-assessment-part-2.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # CoEI Influencing Funding Strategy
@@ -19,7 +20,9 @@ The Center of Excellence &amp; Innovation \(CoEI\) Funding Strategy Accelerator 
 
 CoEI Funding Strategy Accelerator Accelerator provides Impact customers with leading practices content and prescriptive guidance and support to build a funding model within their organization. This Accelerator aims to help you use the CoEI Funding Strategy as a vehicle to realize and accelerate the value received from ServiceNow products.
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
 ## What you get
 

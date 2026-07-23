@@ -2,11 +2,12 @@
 title: Activate Data Collection for APM
 description: Activate the Data Collection Pack for APM after you enable and configure it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-apm-activate.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection for APM, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection for APM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Activate Data Collection for APM
@@ -53,4 +54,6 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
     3.  Navigate to **Platform Analytics &gt; Dashboard**, and then open **Impact VM – APM**.
 
+
+**Parent Topic:**[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-apm.md)
 

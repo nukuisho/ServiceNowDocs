@@ -2,6 +2,7 @@
 title: Configuring HR Service Delivery with Ultimate Kronos Group
 description: Set up the HR Service Delivery with Ultimate Kronos Group application to start pulling information, such as accrual balances and shifts from the Ultimate Kronos Group application into a ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/set-up-ukg.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,7 +24,7 @@ Activate the HR Service Delivery Integration with Ultimate Kronos Group \[sn\_hr
 
 -   Glide Virtual Agent \[com.glide.cs.chatbot\]
 -   Human Resources Scoped App: Core \[com.sn\_hr\_core\]
--   Employee Service Center \[com.sn\_hr\_service\_portal\]
+-   Employee Service Center \[com.sn\_ex\_employee\_center\_pro\]
 -   Virtual Agent Service Portal Widgets \[com.glide.va.sp\_widgets\]
 -   NLU Workbench \[com.snc.nlu\_studio\]
 -   Predictive Intelligence \[com.glide.platform\_ml\]
@@ -33,11 +34,11 @@ Activate the HR Service Delivery Integration with Ultimate Kronos Group \[sn\_hr
 
 1.  Integrate your Ultimate Kronos Group application with your ServiceNow instance.
 
-    Register an OAuth application in the Ultimate Kronos Group application and authenticate requests from ServiceNow. For more information, see [Set up the UKG spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-kronos.md).
+    Register an OAuth application in the Ultimate Kronos Group application and authenticate requests from ServiceNow. For more information, see [Set up the UKG spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-connection-ukg-spoke.md).
 
 2.  Complete the one time set up of loading accrual codes from the Ultimate Kronos Group application into ServiceNow.
 
-    For more information, see [Set up accrual codes](accrual-type-ukg.md).
+    For more information, see [Set up accrual codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/accrual-type-ukg.md).
 
 3.  The **Person number** field in Ultimate Kronos Group application should match the **Employee number** field in the ServiceNow User table.
 

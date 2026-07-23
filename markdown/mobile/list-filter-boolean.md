@@ -2,6 +2,7 @@
 title: Add Boolean fields within a mobile filter
 description: Add Boolean fields, such as 'Active: Yes / No', within mobile filters, so users can more easily search for specific data and streamline their results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/list-filter-boolean.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,7 +44,7 @@ Role required: admin
     3.  On the Filter Condition Form, fill in the fields.
 
         1.  **Name**: Enter a title for the filter condition field.
-        2.  **Type**: Select the reference lookup icon \(![Reference lookup icon](../image/reference-lookup-icon.png)\) and select `Boolean` from the list.
+        2.  **Type**: Select the reference lookup icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference lookup icon\) and select `Boolean` from the list.
         3.  **Label**: Enter a name for the Boolean filter displayed to the user.
     4.  Right-click in the header and select **Save**.
 

@@ -2,6 +2,7 @@
 title: Tested devices and supported versions for ServiceNow mobile apps
 description: Use the following information to verify that your mobile devices and operating systems are ready to use ServiceNow mobile apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-supported-devices.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-26"

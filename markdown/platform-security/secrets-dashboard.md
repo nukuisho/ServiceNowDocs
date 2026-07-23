@@ -2,6 +2,7 @@
 title: Secrets Management dashboard
 description: Use the Secrets Management dashboard to review the secret groups configured on your instance and learn about any security issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/secrets-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-30"
@@ -15,7 +16,7 @@ Use the Secrets Management dashboard to review the secret groups configured on y
 
 ## Secret Group Overview
 
-![Secrets management dashboard](../images/sm_dash.png)
+\[Omitted image "sm\_dash.png"\] Alt text: Secrets management dashboard
 
 The **Secret Group Overview** tab displays information about your configured secret groups. Use this tab to see information about the secrets groups configured on your instance.
 
@@ -38,7 +39,7 @@ The **Secret Group Overview** tab displays information about your configured sec
 
 ## Secret Group Warnings
 
-![Secrets management dashboard](../images/sm_dash_2.png)
+\[Omitted image "sm\_dash\_2.png"\] Alt text: Secrets management dashboard
 
 The **Secret Group Warnings** tab displays warnings related to your secret groups and identity groups.
 
@@ -50,25 +51,25 @@ The **Secret Group Warnings** tab displays warnings related to your secret group
 
     This card displays warnings if there are client accessible secret groups that don’t have an active identity module access policy \(MAP\). Select a secret group name to view that record.
 
--   **Identity Groups - Warnings**
+-   **Identity Groups- Warnings**
 
     This card displays warnings if there are identity groups that don’t have group members configured. Select the identity group name to view the record.
 
 
-**Note:** The Secrets Management Dashboard is a part of Secrets Management Enterprise. Secrets Management Enterprise is a paid plugin that ServiceNow personnel must activate on your production instance.
+**Note:** The Secrets Management Dashboard is a part of Secrets Management Enterprise. Secrets Management Enterprise is a Secrets Management Enterprise. Secrets Management ServiceNow's production instance.
 
--   **[Secrets Management roles](../reference/roles-sec-man.md#)**  
+-   **[Secrets Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/roles-sec-man.md)**  
 Secrets Management adds these roles.
--   **[Create a secret group cryptographic module](../task/create-sm-crypto-module.md)**  
+-   **[Create a secret group cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/create-sm-crypto-module.md)**  
 Create a secret group cryptographic module to perform encryption and decryption.
--   **[Create a basic secret group](../task/sm-create-basic-group.md)**  
+-   **[Create a basic secret group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sm-create-basic-group.md)**  
 Create a basic secret group to group any secrets, regardless of their criteria.
--   **[Create a secret group with criteria](../task/sm-create-criteria-group.md)**  
+-   **[Create a secret group with criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sm-create-criteria-group.md)**  
 Create a secret group with criteria to organize secrets entered in Password2 fields automatically when they share a common criteria, such as table, scope, or application.
--   **[Upload a public key for Secrets Management](../task/sm-upload-key.md)**  
+-   **[Upload a public key for Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sm-upload-key.md)**  
 Upload a public key to encrypt your secrets in Secrets Management.
--   **[Run Secrets Management security jobs](../task/sm-security-jobs.md)**  
+-   **[Run Secrets Management security jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sm-security-jobs.md)**  
 Schedule a Secrets Management job to perform encryption tasks on secrets fields on your instance.
 
-**Parent Topic:**[Secrets Management](secrets-management.md)
+**Parent Topic:**[Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/secrets-management.md)
 

@@ -2,6 +2,7 @@
 title: CoPQ financial requests form
 description: CoPQ financial form enables you to enter the financial requests raised for the remediation plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-copq-financial-requests-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -125,5 +126,5 @@ Description
 Detailed description of the CoPQ financial requests.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quality issue management form](mco-qim-form.md)
+</table>**Parent Topic:**[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/mco-qim-form.md)
 

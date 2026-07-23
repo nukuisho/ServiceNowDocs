@@ -2,6 +2,7 @@
 title: Java KeyStore and Windows Certificate Store discovery
 description: Discovery uses the Collect Certificates extension section of the Linux Server and Windows OS – Servers patterns to discover certificates stored in the Java KeyStore or Windows Certificate Store. Discovering the certificate information requires installing and updating Discovery and Service Mapping Patterns and Certificate Inventory and Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/x509-certificates-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -17,7 +18,7 @@ Discovery uses the **Collect Certificates** extension section of the **Linux Ser
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -30,11 +31,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of the Java KeyStore credentials**
 
-    In the **Discovery Credentials** module, select **jks credentials**. Make sure you configured the Discovery IP Affinity. In the **Type** field, insert `java_keystore`. For more information, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
+    In the **Discovery Credentials** module, select **jks credentials**. Make sure you configured the Discovery IP Affinity. In the **Type** field, insert `java_keystore`. For more information, see [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md)
 
 -   **Verify the configuration of the Discovery schedule**
 
-    For more information, see [Running discoveries in your network](../../discovery/concept/running-discoveries.md)
+    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md)
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -246,5 +247,5 @@ Root Issuer \[root\_issuer\]
 A reference to the root certificate record. The reference is available if the issued certificate is a part of the same payload.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management patterns](../../discovery/reference/cert-invt-mgmt-patterns.md)
+</table>**Parent Topic:**[Certificate Inventory and Management patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-patterns.md)
 

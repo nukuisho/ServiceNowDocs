@@ -2,13 +2,14 @@
 title: TuneUp Your IT Asset Management
 description: Provides prescriptive guidance to improve IT Asset Management \(ITAM\) health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-your-it-asset-management.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # TuneUp Your IT Asset Management
@@ -17,11 +18,13 @@ Provides prescriptive guidance to improve IT Asset Management \(ITAM\) health.
 
 ## Accelerator Overview
 
-This accelerator provides Impact Customers with an analysis of common IT Asset Management problem areas through HealthScan along with recommendations on addressing those findings. It aims to help customers understand how to identify problem areas within your ITAM setup, including a review of the top challenging areas and leading practices on how to best remediate gaps.
+This Accelerator provides Impact Customers with an analysis of common IT Asset Management problem areas through HealthScan along with recommendations on addressing those findings. It aims to help customers understand how to identify problem areas within your ITAM setup, including a review of the top challenging areas and leading practices on how to best remediate gaps.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
 
-Offered pursuant to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 

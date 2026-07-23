@@ -2,11 +2,12 @@
 title: Use a flow or subflow in Oracle EBS \(Outbound\)
 description: A flow or subflow can be executed in Oracle EBS using the Workflow Studio. Follow these steps to run a flow or subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/use-flow-or-subflow-oracle-ebs.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 1
 breadcrumb: [Use schedule flows in Oracle EBS, Use, Source-to-Pay integration with Oracle EBS, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -21,7 +22,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
 ## About this task
 
-Use an Outbound flow or subflow in Oracle EBS 
+\[Omitted video\] Description: Use an Outbound flow or subflow in Oracle EBS
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Use an Outbound flow or subflow in Oracle EBS
 
     For example, select **Create or update or cancel purchase order** flow.
 
-    ![Overview of the Create or update purchase order flow](../../source-to-pay-operations/image/oracle-ebs-create-po-flow.png "Create or update or cancel purchase order flow")
+    \[Omitted image "oracle-ebs-create-po-flow.png"\] Alt text: Overview of the Create or update purchase order flow
 
 5.  In the Trigger field, specify the time and interval at which you want to run the scheduled flow automatically.
 
@@ -46,12 +47,12 @@ Use an Outbound flow or subflow in Oracle EBS
     The flow or subflow gets executed.
 
 
-**Parent Topic:**[Use schedule flows in Oracle EBS](../concept/using-schedule-flows-oracle-ebs.md)
+**Parent Topic:**[Use schedule flows in Oracle EBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/using-schedule-flows-oracle-ebs.md)
 
 **Related topics**  
 
 
-[Manually trigger flows or subflows in Oracle EBS \(Inbound\)](manually-trigger-subflows-oracle-ebs.md)
+[Manually trigger flows or subflows in Oracle EBS \(Inbound\)]()
 
-[Copy a flow or subflow in Oracle EBS](copy-flow-or-subflow-oracle-ebs.md)
+[Copy a flow or subflow in Oracle EBS]()
 

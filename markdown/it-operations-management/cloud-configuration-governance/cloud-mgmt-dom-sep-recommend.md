@@ -2,6 +2,7 @@
 title: Domain separation in Cloud Provisioning and Governance - considerations for service providers
 description: Review the following considerations to effectively create, implement, and maintain domain separation for Cloud Provisioning and Governance services in the instance that you are setting up for your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-mgmt-dom-sep-recommend.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -38,7 +39,7 @@ Pool-Filter, Resource profile, Billing, Quota, Permissions, IPAM, Budget, and No
 
 While domain separation provides multi-tenancy support, multi-tenancy is still contained within a single instance. Some global properties, data, and processes are shared across all domains. The following image illustrates domain separation hierarchy for unrestricted and restricted use cases.
 
-![Service provider hierarchy](../image/bp-cm-ds-hierarchy.png)
+\[Omitted image "bp-cm-ds-hierarchy.png"\] Alt text: Service provider hierarchy
 
 Perform the following tasks to set up your domain-separated instance:
 
@@ -71,7 +72,7 @@ Perform the following tasks to set up your domain-separated instance:
 
                 **Note:** Use sparingly, as Visibility can allow complete access that you may not intend.
 
-    -   [Add a new company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddANewCompany.md)
+    -   [Add a new company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddANewCompany.md)
 
         You can add companies that represent vendors, manufacturers, or customers with whom you do business. These companies provide a way to categorize users, groups, and assets.
 
@@ -82,11 +83,11 @@ Perform the following tasks to set up your domain-separated instance:
         To customize the ServiceNow instance for each company, you can enter contact phone numbers, street addresses, and additional notes. You can also customize the company logo and banner text that your end users see at the top of each page. For more information see [Create a new company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateACompanyProfile.md).
 
 -   Create user groups and assign roles and domain to the users of each new company. You assign users to companies to associate them with domains. Associate a company with a user to map the user to a domain.
-    1.  Navigate to **Organizations** &gt; **Company,** and click **New** to create new users. For more information on creating users, see, [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md)
+    1.  Navigate to **Organizations** &gt; **Company,** and click **New** to create new users. For more information on creating users, see, [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUser.md)
 
         **Note:** Don’t use the manual-managed domain option to choose the domain for users.
 
-    2.  Create groups and assign roles to the groups. Users that are assigned to the group inherit the roles. You can create cloud user portal users for a company in the leaf domain. For more information on creating groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
+    2.  Create groups and assign roles to the groups. Users that are assigned to the group inherit the roles. You can create cloud user portal users for a company in the leaf domain. For more information on creating groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAGroup.md).
     3.  Create these users in each of the leaf domains:
         -   MID Server user for each leaf domain and company. Assign the mid\_server role to MID Server users.
         -   Domain admin for each leaf domain and company. Assign the sn\_cmp.cmp\_root\_admin role to cloud \(domain\) administrators.
@@ -104,7 +105,7 @@ Perform the following tasks to set up your domain-separated instance:
 
 ## Next Steps
 
-For more information on onboarding customers or companies in a domain-separated instance for Cloud Provisioning and Governance services, see [On-board a Company](cust-onboard-dom-sep-sp.md).
+For more information on onboarding customers or companies in a domain-separated instance for Cloud Provisioning and Governance services, see [On-board a Company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cust-onboard-dom-sep-sp.md).
 
 **Related topics**  
 

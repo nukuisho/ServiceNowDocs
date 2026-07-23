@@ -2,12 +2,14 @@
 title: Hiring
 description: Increase your productivity with a portal that provides clarity in the hiring process and an effortless collaboration with the recruiters. Save the time required to hire with an intuitive hiring flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hiring-tab-concept.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [hiring tab, manager hub hiring, recruiter collaboration, streamlined hiring, hiring productivity, hiring workflow]
 breadcrumb: [Explore, Hiring tab, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -25,7 +27,7 @@ Hiring provides the hiring manager with:
 -   Reduced time to hire.
 -   Clear approval flow for a requisition.
 
-![Hiring manager's view of job requisition details in the Hiring tab within Manager Hub](../images/hiring-L.png "Hiring")
+\[Omitted image "hiring-L.png"\] Alt text: Hiring manager's view of job requisition details in the Hiring tab within Manager Hub
 
 Open a requisition, support a recruiter to create a job description, collaborate with the recruiters, and track the approval workflow, as a hiring manager, on the Hiring tab.
 

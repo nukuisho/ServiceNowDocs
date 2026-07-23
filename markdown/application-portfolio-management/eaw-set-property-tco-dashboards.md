@@ -1,7 +1,8 @@
 ---
-title: Set the duration of a fiscal period property for TCO dashboards
+title: Set the fiscal period property for TCO dashboards
 description: Set the system property \(com.glide.fiscal\_calendar.fiscal\_unit\) to view TCO dashboards for a specific duration of the fiscal period in the Dashboard page of the Enterprise Architecture Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-set-property-tco-dashboards.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Set the duration of a fiscal period property for TCO dashboards
+# Set the fiscal period property for TCO dashboards
 
 Set the system property \(**com.glide.fiscal\_calendar.fiscal\_unit**\) to view TCO dashboards for a specific duration of the fiscal period in the Dashboard page of the Enterprise Architecture Workspace.
 
@@ -29,17 +30,17 @@ Role required: admin
 
 4.  Select  **Update**.
 
-    The Portfolio TCO dashboard page shows the data according to the specified duration of the fiscal period. For more details, see [Explore the Enterprise Architecture Workspace dashboard](../../../../use/dashboards/concept/eaw-workspace-dashboard.md).
+    The Portfolio TCO dashboard page shows the data according to the specified duration of the fiscal period. For more details, see [Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-workspace-dashboard.md).
 
 
-**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](../../concept/eaw-concept/eaw-setup-app-tco.md)
+**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-setup-app-tco.md)
 
 **Related topics**  
 
 
-[Create a source for an Application TCO](eaw-create-tco-source.md)
+[Create a source for an Application TCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-tco-source.md)
 
-[Create a TCO source cost type](eaw-create-tco-source-cost-type.md)
+[Create a TCO source cost type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-tco-source-cost-type.md)
 
-[Create a cost type for Application TCO in Enterprise Architecture Workspace](eaw-create-tco-cost-type.md)
+[Create a cost type for Application TCO in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-tco-cost-type.md)
 

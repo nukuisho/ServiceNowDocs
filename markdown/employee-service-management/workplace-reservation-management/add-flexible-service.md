@@ -2,13 +2,14 @@
 title: Create a flexible service
 description: Create a flexible service and provide it as an extra service to employees. Employees can use the flexible service and other basic standard services when they make a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-flexible-service.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a flexible service
@@ -21,7 +22,7 @@ Create a flexible service and provide it as an extra service to employees. Emplo
 
 -   After the upgrade, the existing flexible services are removed from the Workplace Reservation Management application and are listed as workplace services in the Workplace Case Management application.
 
-    For more information on how to create an extra service after the upgrade, refer to [Create a workplace service to provide an extra service for a reservation](create-workplace-service-to-provide-extra-service.md).
+    For more information on how to create an extra service after the upgrade, refer to [Create a workplace service to provide an extra service for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-workplace-service-to-provide-extra-service.md).
 
 -   Each category of a flexible service is created as a workplace service. The flexible services that belonged to that category are created as Workplace Service Items of that workplace service.
 -   The locations to which the flexible services were available are listed in the Workplace Service Item Locations Related list of that workplace service.
@@ -144,53 +145,53 @@ The flexible service is added to the application.
 
 ## What to do next
 
-Add the flexible service to a workplace space or room, so that the service is available to employees when they make a reservation. For more information, see [Add a flexible service to workplace item](add-flex-service-to-workplace-item.md).
+Add the flexible service to a workplace space or room, so that the service is available to employees when they make a reservation. For more information, see [Add a flexible service to workplace item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-flex-service-to-workplace-item.md).
 
--   **[Add a flexible service to workplace item](add-flex-service-to-workplace-item.md)**  
+-   **[Add a flexible service to workplace item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-flex-service-to-workplace-item.md)**  
 Enable employees to request for extra services. Add an extra service to a workplace space or room, and make the service available to employees when they make a reservation.
 
-**Parent Topic:**[Configure Workplace Reservation Management portal](../concept/wsd-reservation-setup.md)
+**Parent Topic:**[Configure Workplace Reservation Management portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/wsd-reservation-setup.md)
 
 **Related topics**  
 
 
-[Install Workplace Reservation Management](install-wsd-reservation-mgmt.md)
+[Install Workplace Reservation Management]()
 
-[Add a workplace space for reservation](add-reservable-items.md)
+[Add a workplace space for reservation]()
 
-[Add a workplace room for reservation](add-workplace-rooms.md)
+[Add a workplace room for reservation]()
 
-[Configure a reservable module](config-reservable-module.md)
+[Configure a reservable module]()
 
-[Assign spaces to an area](add-neighbourhood-spaces-to-an-area.md)
+[Assign spaces to an area]()
 
-[Create a standard service](add-standard-services.md)
+[Create a standard service]()
 
-[Create a workplace service to provide an extra service for a reservation](create-workplace-service-to-provide-extra-service.md)
+[Create a workplace service to provide an extra service for a reservation]()
 
-[Create a reservable view](create-a-reservable-view.md)
+[Create a reservable view]()
 
-[Create a user criteria record](create-user-criteria.md)
+[Create a user criteria record]()
 
-[Configure a reservable purpose](configure-reservable-purpose.md)
+[Configure a reservable purpose]()
 
-[Create a quick reservation time slot](add-reservable-time-slots.md)
+[Create a quick reservation time slot]()
 
-[Configure virtual meeting providers](configure-virtual-meeting-providers.md)
+[Configure virtual meeting providers]()
 
-[Configure Microsoft Teams as virtual meeting provider](configure-msteams-as-virtual-meeting-provider.md)
+[Configure Microsoft Teams as virtual meeting provider]()
 
-[Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md)
+[Connect Workplace Reservation Management with Microsoft Teams]()
 
-[Connect Workplace Reservation Management with Zoom](connect-rsv-mtm-with-zoom.md)
+[Connect Workplace Reservation Management with Zoom]()
 
-[Display permanent seat assignments on floor maps](display-permanent-seats-on-maps.md)
+[Display permanent seat assignments on floor maps]()
 
-[Display name of the person reserving a space](displayname-person-booking-rsv.md)
+[Display name of the person reserving a space]()
 
-[Manage check-in and check-out reservations](../concept/check-in-check-out-process.md)
+[Manage check-in and check-out reservations]()
 
-[Configure automatic check-in for reserved spaces](../concept/configure-rsv-check-in.md)
+[Configure automatic check-in for reserved spaces]()
 
-[Configure reservation multi-day settings in Reservable Module](../concept/rsv-config-rsv-mod-value.md)
+[Configure reservation multi-day settings in Reservable Module]()
 

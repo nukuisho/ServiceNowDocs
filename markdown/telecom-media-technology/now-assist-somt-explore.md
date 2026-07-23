@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Sales CRM for Telecommunications
 description: With the Now Assist for Sales CRM for Telecommunications application, you can use standalone AI agents to create a customer move order capture journey, create enrichment tasks, identify the tasks required for domain orders by using historical data from similar orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-somt-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,6 +2,7 @@
 title: Enable Proactive Triggers
 description: Use Proactive Triggers to create and view context-specific messages and use relevant actions on the chat widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/enable-proactive-triggers.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -17,9 +18,9 @@ Use Proactive Triggers to create and view context-specific messages and use rele
 
 ## Before you begin
 
-**Note:** The Proactive Triggers feature \[sn\_pt\] is available as an app and must be installed from the ServiceNow Store. This feature is only available after you've installed and updated the Omni-Experience Standard Feature Set to the latest version through the ServiceNow Store. Subsequent updates are also available there. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+**Note:** The Proactive Triggers feature \[sn\_pt\] is available as an app and must be installed from the ServiceNow Store. This feature is only available after you've installed and updated the Omni-Experience Standard Feature Set to the latest version through the ServiceNow Store. Subsequent updates are also available there. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-For conceptual information about Proactive Triggers, see [Exploring Proactive Triggers](../concept/proactive-triggers.md).
+For conceptual information about Proactive Triggers, see [Exploring Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers.md).
 
 The Proactive Triggers feature can be used with Domain Separation. For more information about Domain Separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md).
 
@@ -43,11 +44,11 @@ An admin first enables and then creates rules and actions as separate tasks.
 
     You must be in the Proactive Triggers scope to enable this feature.
 
-4.  Under Proactive triggers, select the more info icon \(![More info icon.](../image/info-icon.png)\) next to the **Enable proactive triggers** field toggle switch to view the Proactive Triggers scope reminder.
+4.  Under Proactive triggers, select the more info icon \(\[Omitted image "info-icon.png"\] Alt text: More info icon.\) next to the **Enable proactive triggers** field toggle switch to view the Proactive Triggers scope reminder.
 
-    ![Proactive Triggers scope reminder.](../image/proactive-triggers-scope-info-2.png)
+    \[Omitted image "proactive-triggers-scope-info-2.png"\] Alt text: Proactive Triggers scope reminder.
 
-    For more information about scopes and how to change them, see [Application scopes](../../../app-store/dev_portal/application_model/concept/c_ApplicationScopes.md).
+    For more information about scopes and how to change them, see [Application scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/c_ApplicationScopes.md).
 
 5.  Under **Proactive triggers**, select the **Enable proactive triggers** field toggle switch to enable the feature.
 
@@ -57,11 +58,11 @@ An admin first enables and then creates rules and actions as separate tasks.
 
     The default sample rules included with Proactive Triggers appear.
 
-    ![Default Proactive Triggers rules.](../image/proactive-rules-default.png)
+    \[Omitted image "proactive-rules-default.png"\] Alt text: Default Proactive Triggers rules.
 
 7.  Navigate back to the **Conversational Interfaces** &gt; **Settings** page and next to **Trigger types**, select **View all**.
 
-    The default trigger types appear. All trigger types default to **Active is true** except the Search Event trigger type. To turn on the Search Event trigger type, proceed to the next step.![Default Proactive Triggers types.](../image/pt-trigger-types.png)
+    The default trigger types appear. All trigger types default to **Active is true** except the Search Event trigger type. To turn on the Search Event trigger type, proceed to the next step.\[Omitted image "pt-trigger-types.png"\] Alt text: Default Proactive Triggers types.
 
 8.  Turn on the Search Event trigger.
 
@@ -108,12 +109,12 @@ The Proactive Triggers feature is enabled and you know where to create rules, ac
 
 ## What to do next
 
-Create rules and actions for Proactive Triggers. For more information, see [Create rules and actions for Proactive Triggers](create-rule-actions.md).
+Create rules and actions for Proactive Triggers. For more information, see [Create rules and actions for Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/create-rule-actions.md).
 
-Create custom trigger types. For more information, see [Create custom trigger types](create-custom-trigger-types.md).
+Create custom trigger types. For more information, see [Create custom trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/create-custom-trigger-types.md).
 
 **Related topics**  
 
 
-[Enable message preview on the chat widget](../../conversational-interfaces/task/web-client-message-preview.md)
+[Enable message preview on the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/web-client-message-preview.md)
 

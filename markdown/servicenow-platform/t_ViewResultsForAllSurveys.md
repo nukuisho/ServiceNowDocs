@@ -2,6 +2,7 @@
 title: View results for all surveys
 description: You can view the survey responses that are stored on the Metric Result \[asmt\_metric\_result\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_ViewResultsForAllSurveys.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -28,20 +29,20 @@ Role required: survey\_admin or survey\_reader
 2.  Select a response to view its details.
 
 
-**Parent Topic:**[Survey responses and results](../concept/c_SurveyResults.md)
+**Parent Topic:**[Survey responses and results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyResults.md)
 
 **Related topics**  
 
 
-[View the results for a survey](t_ViewResultsForASpecificSurvey.md)
+[View the results for a survey]()
 
-[View a survey scorecard](t_ViewAScorecard.md)
+[View a survey scorecard]()
 
-[Export a quiz scorecard as an image](../../assessments/task/t_ExportAQuizScorecard.md)
+[Export a quiz scorecard as an image]()
 
-[Request translations for surveys](request-translations-for-surveys.md)
+[Request translations for surveys]()
 
-[Edit translations for surveys](edit-translations-for-surveys.md)
+[Edit translations for surveys]()
 
-[Survey responses in a database view](../concept/survey-result-database-view.md)
+[Survey responses in a database view]()
 

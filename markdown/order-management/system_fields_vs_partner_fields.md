@@ -1,37 +1,38 @@
 ---
-title: CPQ fields, system fields, and partner fields
-description: Learn about the three types of fields in CPQ—CPQ, system fields, and partner fields. Understand how each type stores, retrieves, and displays data in configurations, and how they interact with Salesforce and partner systems for seamless data integration.
+title: ServiceNow CPQ fields, system fields, and partner fields
+description: Learn about the three types of fields in ServiceNow CPQ—ServiceNow CPQ, system fields, and partner fields. Understand how each type stores, retrieves, and displays data in configurations, and how they interact with Salesforce and partner systems for seamless data integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/system\_fields\_vs\_partner\_fields.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure fields, CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure fields, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# CPQ fields, system fields, and partner fields
+# ServiceNow CPQ fields, system fields, and partner fields
 
-Learn about the three types of fields in CPQ—CPQ, system fields, and partner fields. Understand how each type stores, retrieves, and displays data in configurations, and how they interact with Salesforce and partner systems for seamless data integration.
+Learn about the three types of fields in ServiceNow CPQ—ServiceNow CPQ, system fields, and partner fields. Understand how each type stores, retrieves, and displays data in configurations, and how they interact with Salesforce and partner systems for seamless data integration.
 
-There are three categories of fields in the CPQ environment: CPQ fields, system fields, and partner fields.
+There are three categories of fields in the ServiceNow CPQ environment: ServiceNow CPQ fields, system fields, and partner fields.
 
-## CPQ fields
+## ServiceNow CPQ fields
 
-A CPQ field is a user-defined field that is custom to the CPQ environment. Its type can be number, text, picklist, set, or product picker. When users create fields in CPQ, they can manually assign default values in the field definition, or they can set values through determination actions.
+A ServiceNow CPQ field is a user-defined field that is custom to the ServiceNow CPQ environment. Its type can be number, text, picklist, set, or product picker. When users create fields in CPQ, they can manually assign default values in the field definition, or they can set values through determination actions.
 
-The following example shows how a user would set a CPQ field in an On Configure/Reconfigure enrichment:
+The following example shows how a user would set a ServiceNow CPQ field in an On Configure/Reconfigure enrichment:
 
 ```
 cfgRequest.testField.set("value", "Hello World"); 
 ```
 
-For a more complete description of CPQ fields, see [Configure fields](fields_101.md).
+For a more complete description of ServiceNow CPQ fields, see [Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md).
 
-**Note:** In organizations that do not use Salesforce for their launch-point into CPQ, all fields must be initialized in their API call.
+**Note:** In organizations that do not use Salesforce for their launch-point into ServiceNow CPQ, all fields must be initialized in their API call.
 
 ## System fields
 
-![System fields](../images/cpq-fields-system-fields.png)
+\[Omitted image "cpq-fields-system-fields.png"\] Alt text: System fields
 
 System fields are predefined. System fields cannot be assigned a default value because they leverage the SFDC product cache \(or the current date and time\) to generate their values.
 
@@ -45,11 +46,11 @@ System fields can be added directly to any layout. There are no issues with disp
 
 In the layout editor:
 
-![Layout editor](../images/cpq-fields-layout-editor.png)
+\[Omitted image "cpq-fields-layout-editor.png"\] Alt text: Layout editor
 
 In the Configurator UI:
 
-![Layout editor screen](../images/cpq-fields-configurator-ui.png)
+\[Omitted image "cpq-fields-configurator-ui.png"\] Alt text: Layout editor screen
 
 Unit of Measure is blank because in this example, it has not been defined in SFDC.
 
@@ -66,18 +67,18 @@ The mapping of each of these system fields to their respective SFDC object is as
 -   sys.productPrice &gt; Price Book Entry: List Price \(UnitPrice\)
 -   sys.productId: value depends on Admin Settings
 
-    sys.productId changes to whatever is defined in your CPQ environment settings. For instance, if the Product Id field was set to Product Code, the resulting data would be Product Code, making it identical to the sys.productCode field.
+    sys.productId changes to whatever is defined in your ServiceNow CPQ environment settings. For instance, if the Product Id field was set to Product Code, the resulting data would be Product Code, making it identical to the sys.productCode field.
 
 
-![Product code](../images/cpq-fields-product-code.png)
+\[Omitted image "cpq-fields-product-code.png"\] Alt text: Product code
 
 If the Product Id field was instead set to Partner Id, the data would be pulled from the SFDC field Product2 Id \(ID as the field API name\):
 
-![System fields screen](../images/cpq-fields-partner-id-example.png)
+\[Omitted image "cpq-fields-partner-id-example.png"\] Alt text: System fields screen
 
 ## Partner fields
 
-![Partner fields](../images/cpq-fields-partner-fields.png)
+\[Omitted image "cpq-fields-partner-fields.png"\] Alt text: Partner fields
 
 Partner fields are fields that use a POST call to initialize a configuration via API. Partner fields leverage the partnerʼs data set to generate field values.
 
@@ -93,7 +94,7 @@ The mapping of each of these partner fields to their respective SFDC object is a
 
 When using these fields, it’s important to note that some of the data may not have any value \(null\) when the product is first configured. To make sure that there are no initialization errors, include null checks in any rules or scripts that utilize partner fields.
 
-These fields cannot be directly added to a layout like system fields can. Instead, you can use CPQ fields to populate the data in partner fields via an initialization enrichment.
+These fields cannot be directly added to a layout like system fields can. Instead, you can use ServiceNow CPQ fields to populate the data in partner fields via an initialization enrichment.
 
 The following example initialization enrichment populates the values of the partner fields into the configurator:
 
@@ -120,11 +121,11 @@ return cfgRequest;
 
 Initial configuration:
 
-![Initial configuration screen.](../images/cpq-fields-initial-config.png)
+\[Omitted image "cpq-fields-initial-config.png"\] Alt text: Initial configuration screen.
 
 Reconfiguration:
 
-![Partner fields](../images/cpq-fields-reconfig.png)
+\[Omitted image "cpq-fields-reconfig.png"\] Alt text: Partner fields
 
 Line ID is now populated.
 
@@ -133,7 +134,7 @@ How you use partner and system fields is up to you. Some organizations find it h
 **Related topics**  
 
 
-[Grid-style fields and field collections](what_field_type_should_i_use_for_organizing_field_options_and_data.md)
+[Grid-style fields and field collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/what_field_type_should_i_use_for_organizing_field_options_and_data.md)
 
-[Configure fields](fields_101.md)
+[Configure fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/fields_101.md)
 

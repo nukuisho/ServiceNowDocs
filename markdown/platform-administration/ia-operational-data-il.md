@@ -2,11 +2,12 @@
 title: Operational data
 description: Configure departments, locations, users, groups, and roles to establish the foundation for your ServiceNow implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-operational-data-il.html
 release: australia
 topic_type: reference
 last_updated: "2025-12-05"
 reading_time_minutes: 3
-breadcrumb: [Platform module configuration, Configure, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform module configuration, Configure, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Operational data
@@ -17,7 +18,7 @@ Configure departments, locations, users, groups, and roles to establish the foun
 
 Manage and organize department details. On selecting Departments under Operational data, a list of existing departments shows up. You can modify an existing department by selecting it from the list. Select **Add a department** to individually add a new department.
 
-![Image showing departments](../image/ia-dpts.png)
+\[Omitted image "ia-dpts.png"\] Alt text: Image showing departments
 
 |Field|Description|
 |-----|-----------|
@@ -35,7 +36,7 @@ Select **Save** to save the recent department settings and redirect you to the l
 
 Store your address and contact details for all locations. On selecting Locations under Operational data, a list of existing locations shows up. You can modify an existing location by selecting it from the list. Select **Add a location** to individually add a new location.
 
-![Image showing locations](../image/ia-locs.png)
+\[Omitted image "ia-locs.png"\] Alt text: Image showing locations
 
 |Field|Description|
 |-----|-----------|
@@ -64,7 +65,7 @@ Add and manage users with job titles, then assign groups for simplified access c
 
 If you select the checkmark next to an existing user, the **Assign roles** option is enabled. The Assign roles &amp; users modal shows up on the right panel.
 
-![Image showing users](../image/ia-users.png)
+\[Omitted image "ia-users.png"\] Alt text: Image showing users
 
 You also have an option of **Bulk upload** to add more than one user from an excel. If you select **Bulk upload** from the dropdown menu, you get the option of creating the Excel template and uploading the sheet where the user records are saved.
 
@@ -74,7 +75,7 @@ Select **Save** to save the recent user details and redirect you to the list of 
 
 Use Groups to organize users and assign roles. On selecting Groups under Operational data, a list of existing groups shows up. You can modify an existing group by selecting it from the list. Select **Add a group** to individually add a new group.
 
-![](../image/ia-groups.png)
+\[Omitted image "ia-groups.png"\] Alt text:
 
 You also have an option of **Bulk upload** to add more than one group from an excel. If you select **Bulk upload** from the dropdown menu, you get the option of creating the Excel template and uploading the sheet where the group records are saved.
 
@@ -84,9 +85,9 @@ Select **Save** to save the recent user details and redirect you to the list of 
 
 Define roles for users and groups to control access permissions, leveraging smart defaults. On selecting Roles assignment under Operational data, a list of existing roles shows up.
 
-![](../image/ia-roles-assign.png)
+\[Omitted image "ia-roles-assign.png"\] Alt text:
 
 **Note:** You can't modify the details of any existing role nor can you create a new role.
 
-**Parent Topic:**[Platform module configuration in Now Assist for Setup](ia-config-platform-il.md)
+**Parent Topic:**[Platform module configuration in Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-config-platform-il.md)
 

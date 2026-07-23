@@ -2,9 +2,10 @@
 title: Add a search retrieval to an AI agent
 description: Add a search retrieval to an AI agent in AI Agent Studio. Leveraging the Retrieval-Augmented Generation \(RAG\) enables an AI agent to retrieve and incorporate relevant information from an external source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-retriever-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---
@@ -65,7 +66,7 @@ Search profile
 
 </td><td>
 
-Name of the search profile that you want to add to your RAG-based tool from the list. To learn more about a search profile, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
+Name of the search profile that you want to add to your RAG-based tool from the list. To learn more about a search profile, see .
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Search sources
 
 </td><td>
 
-One or multiple sources that you want to add to your search profile. To learn more about the search sources, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
+One or multiple sources that you want to add to your search profile. To learn more about the search sources, see .
 
 </td></tr><tr><td>
 

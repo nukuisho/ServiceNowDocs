@@ -2,6 +2,7 @@
 title: Remove the unique constraint from Email Domain
 description: Multiple supplier records can have the same email domain after removing the unique constraint from the Email Domain column of the Supplier Email Domain \[sn\_slm\_email\_domain\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/remove-unique-constraint.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -31,7 +32,7 @@ Role required: admin
 
 4.  Select **Email Domain** from the **Columns tab** to open the Dictionary Entry of `sn_slm_email_domain` table.
 
-5.  Select the form context menu icon \(![](../image/context-menu.png)\) and select **Configure** &gt; **Form Layout**.
+5.  Select the form context menu icon \(\[Omitted image "context-menu.png"\]\) and select **Configure** &gt; **Form Layout**.
 
 6.  From the **Available** list of fields, select the **Unique** field and move it to the **Selected** column.
 
@@ -44,12 +45,12 @@ Role required: admin
     **Note:** If you are still unable to invite a supplier contact with duplicate domain, or if the onboarding playbook is stuck while waiting to send out an email to the supplier contact, follow the troubleshooting steps in the KB article [KB1709872](https://support.servicenow.com/kb?sys_kb_id=43cccf6483ca9a10cdbbc430feaad3d4&id=kb_article_view).
 
 
-**Parent Topic:**[Enable M2M mapping between supplier contact and suppliers](enable-m2m-supplier-contacts.md)
+**Parent Topic:**[Enable M2M mapping between supplier contact and suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/enable-m2m-supplier-contacts.md)
 
 **Related topics**  
 
 
-[Run the fix script to enable M2M mapping](run-fix-script.md)
+[Run the fix script to enable M2M mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-fix-script.md)
 
-[Verify version record](verify-version-record.md)
+[Verify version record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/verify-version-record.md)
 

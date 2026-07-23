@@ -1,21 +1,22 @@
 ---
 title: Add a subflow to an AI agent
-description: Add a subflow to an AI agent in AI Agent Studio. Subflows are reusable sequences of processing steps that can be called from within a flow.
+description: Add a subflow tool to an AI agent in AI Agent Studio. Subflows are reusable sequences of processing steps that can be called from within a flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/add-sub-flow-ai-agent.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---
 
 # Add a subflow to an AI agent
 
-Add a subflow to an AI agent in AI Agent Studio. Subflows are reusable sequences of processing steps that can be called from within a flow.
+Add a subflow tool to an AI agent in AI Agent Studio. Subflows are reusable sequences of processing steps that can be called from within a flow.
 
 ## Before you begin
 
-When an AI agent uses a subflow tool, the user the AI agent is running as must pass the ACL of the subflow. Ensure that the security configurations for the subflow are met by the AI agent and agentic workflow. For more information, see [Security for AI agents](../concept/aia-security-implementation.md).
+When an AI agent uses a subflow tool, the user the AI agent is running as must pass the ACL of the subflow. Ensure that the security configurations for the subflow are met by the AI agent and agentic workflow. For more information, see [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
 
 Role required: sn\_aia.admin
 
@@ -67,7 +68,7 @@ Inputs
 
 </td><td>
 
-Subflow inputs. The values are filled in by the LLM at runtime unless you specify a value override.**Note:** If the agent uses multiple tools, you can choose to use another tool's output as an input value override. Select the data picker icon \(![Data picker icon.](../image/data-picker-icon.png)\) to review the available options.
+Subflow inputs. The values are filled in by the LLM at runtime unless you specify a value override.**Note:** If the agent uses multiple tools, you can choose to use another tool's output as an input value override. Select the data picker icon \(\[Omitted image "data-picker-icon.png"\] Alt text: Data picker icon.\) to review the available options.
 
 </td></tr><tr><td>
 

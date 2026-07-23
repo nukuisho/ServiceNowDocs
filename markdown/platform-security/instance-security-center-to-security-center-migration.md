@@ -2,6 +2,7 @@
 title: Instance Security Center to ServiceNow Security Center migration
 description: Learn the key differences when migrating from Instance Security Center \(ISC\) to ServiceNow Security Center \(SSC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-center-to-security-center-migration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -52,7 +53,7 @@ Set a schedule for to recalculate your compliance score
 
 Using SSC, you can set when the system triggers a refresh of your compliance score.1.  Navigate to the Scheduled Script Executions \[sysauto\_script\] table.
 2.  Find and open the `SC - Calculate Compliance Monthly` record.
-3.  Use the **Run**, **Day**, **Time zone**, and **Time** fields to set your preferred schedule. ![Fields used to configure compliance calculation schedule](../images/compliance-schedule.png)
+3.  Use the **Run**, **Day**, **Time zone**, and **Time** fields to set your preferred schedule. \[Omitted image "compliance-schedule.png"\] Alt text: Fields used to configure compliance calculation schedule
 4.  Select **Update** to save your changes.
 
 </td></tr></tbody>
@@ -149,7 +150,7 @@ Monitor sessions functionality
 
 </td><td>
 
--   Visualize session activities using the [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md).
+-   Visualize session activities using the [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_UsePerformanceAnalyticsScorecards.md).
 -   Monitor session activity by navigating to **Metrics** &gt; **Sessions**.
 
 </td></tr><tr><td>
@@ -165,18 +166,18 @@ Access all learning resources in a single page at **Overview** &gt; **Learning**
 
 To disable Security Center features on your instance, follow the steps provided in [KB1702514: Guidelines to disable Instance Security Center components \(while using Security Center\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1702514).
 
-**Parent Topic:**[Instance Security Center](../../security/concept/instance-security-center.md)
+**Parent Topic:**[Instance Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-center.md)
 
 **Related topics**  
 
 
-[Monitor security events](../../security/concept/instance-sec-center-event-ribbon.md)
+[Monitor security events]()
 
-[Check the daily compliance score and configure security property settings](../../security/concept/instance-sec-center-hardening.md)
+[Check the daily compliance score and configure security property settings]()
 
-[Scan for incorrect security definitions](../../security/concept/scan-for-incorrect-security-definitions.md)
+[Scan for incorrect security definitions]()
 
-[Monitor instance metrics](../../security/concept/monitoring-user-email-antivirus-metrics.md)
+[Monitor instance metrics]()
 
-[Activate the ISC Virtual Agent interface](../../security/task/activating-virtual-agent-interface.md)
+[Activate the ISC Virtual Agent interface]()
 

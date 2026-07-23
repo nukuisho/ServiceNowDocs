@@ -1,7 +1,8 @@
 ---
-title: Create a business rule to apply a custom table map configuration
+title: Create a business rule for custom table map configuration
 description: Create a business rule to enable import for your new custom table map configuration from Agile Development 2.0, SAFe, and PPM applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-a-bussiness-rule.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Create a table map, Create custom mapping configurations, Configuring Strategic Planning with PPM, Agile 2.0, and SAFe, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create a business rule to apply a custom table map configuration
+# Create a business rule for custom table map configuration
 
 Create a business rule to enable import for your new custom table map configuration from Agile Development 2.0, SAFe, and PPM applications.
 
@@ -31,7 +32,7 @@ After you create a custom table map in Strategic Planning integrations, create a
 
 2.  From the list of available business rules, locate and open the Sync Data from Execution to Alignment rule.
 
-3.  From the context menu \(![Context menu icon.](../images/context-menu-icon.png)\), perform an Insert and Stay operation on this business rule.
+3.  From the context menu \(\[Omitted image "context-menu-icon.png"\] Alt text: Context menu icon.\), perform an Insert and Stay operation on this business rule.
 
     If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see [Allow insert options on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-form-administration.md).
 

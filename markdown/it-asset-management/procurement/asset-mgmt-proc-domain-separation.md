@@ -2,13 +2,14 @@
 title: Domain separation and Asset Management - Procurement Integration
 description: Domain separation is supported for Asset Management - Procurement Integration. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/asset-mgmt-proc-domain-separation.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrating with external procurement applications, Procurement, IT Asset Management]
+breadcrumb: [Integrating with external procurement applications, Procurement, Common applications, Asset Management]
 ---
 
 # Domain separation and Asset Management - Procurement Integration

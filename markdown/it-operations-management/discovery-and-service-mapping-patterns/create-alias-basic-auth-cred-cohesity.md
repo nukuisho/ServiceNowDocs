@@ -2,6 +2,7 @@
 title: Create an alias for a basic authentication credential for Cohesity storage system discovery
 description: Create an alias and add it to a basic authentication credential to discover Cohesity storage systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/create-alias-basic-auth-cred-cohesity.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -17,7 +18,7 @@ Create an alias and add it to a basic authentication credential to discover Cohe
 
 ## Before you begin
 
-Verify you have a basic authentication account configured with proper permissions. For more information, see the [Verify API permissions](../reference/cohesity-storage-system-discovery.md#cohesity-api-permissions) section in [Cohesity storage system discovery](../reference/cohesity-storage-system-discovery.md).
+Verify you have a basic authentication account configured with proper permissions. For more information, see the [Verify API permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/cohesity-storage-system-discovery.md) section in [Cohesity storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/cohesity-storage-system-discovery.md).
 
 Role required: discovery\_admin
 
@@ -47,15 +48,15 @@ Role required: discovery\_admin
 
     6.  Select **Submit**.
 
-        For more information about Basic Auth Credentials form fields, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+        For more information about Basic Auth Credentials form fields, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
 
 ## What to do next
 
-Create a serverless discovery schedule. For more information, see [Create a serverless schedule for Cohesity storage system discovery](create-serverless-schedule-cohesity.md).
+Create a serverless discovery schedule. For more information, see [Create a serverless schedule for Cohesity storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-cohesity.md).
 
 **Related topics**  
 
 
-[Cohesity storage system discovery](../reference/cohesity-storage-system-discovery.md)
+[Cohesity storage system discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/cohesity-storage-system-discovery.md)
 

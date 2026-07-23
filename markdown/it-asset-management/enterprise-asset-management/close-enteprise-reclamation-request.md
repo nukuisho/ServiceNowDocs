@@ -2,13 +2,14 @@
 title: Close an enterprise asset reclamation request
 description: Close an asset reclamation request to efficiently reclaim enterprise assets when an employee leaves an organization or moves to a different role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/close-enteprise-reclamation-request.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Close an enterprise asset reclamation request
@@ -145,5 +146,5 @@ Any additional information that you want to mention.
     **Note:** When the stage of all Enterprise Asset Reclamation Lines has changed to **Closed Complete**, the state of the Asset Reclamation Request also changes to **Complete**.
 
 
-**Parent Topic:**[Create and manage enterprise asset inventory](../concept/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

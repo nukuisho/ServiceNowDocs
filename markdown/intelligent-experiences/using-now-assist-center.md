@@ -2,6 +2,7 @@
 title: Using Now Assist Center
 description: Use Now Assist Center to set up, manage, and optimize your Now Assist solutions from a single, guided, conversational workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/using-now-assist-center.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -14,16 +15,18 @@ breadcrumb: [Now Assist Center, Enable AI experiences]
 
 Use Now Assist Center to set up, manage, and optimize your Now Assist solutions from a single, guided, conversational workspace.
 
--   **[Using the conversational experience in Now Assist Center](using-now-assist-panel-now-assist-center.md)**  
+-   **[Using the conversational experience in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-panel-now-assist-center.md)**  
 Use the Now Assist panel to perform Now Assist administration and setup tasks through a conversational interface directly in Now Assist Center.
--   **[Activating actionable use cases from Now Assist Center](now-assist-center-actionable-use-cases.md)**  
+-   **[Activating actionable use cases from Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-actionable-use-cases.md)**  
 Actionable use cases are quick-start scenarios that help you rapidly adopt AI capabilities on your instance.
--   **[Using AI Agent Advisor in Now Assist Center](now-assist-center-using-ai-agent-advisor.md)**  
+-   **[Using Now Assist Readiness Evaluation in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)**  
+Use Now Assist Readiness Evaluation to help you prepare to launch generative AI and agentic AI for your organization.
+-   **[Using AI Agent Advisor in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-ai-agent-advisor.md)**  
 Use AI Agent Advisor to automatically discover automation opportunities in your instance and deploy AI agents to implement the automations.
--   **[Using the asset inventory in Now Assist Center](now-assist-center-using-asset-inventory.md)**  
+-   **[Using the asset inventory in Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md)**  
 The asset inventory lists the AI assets in your instance.
--   **[Using other Now Assist applications and features from Now Assist Center](now-assist-center-using-other-applications.md)**  
+-   **[Using other Now Assist applications and features from Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-using-other-applications.md)**  
 Access other Now Assist applications within the Now Assist Center workspace to configure and manage AI capabilities on your instance.
 
-**Parent Topic:**[Now Assist Center](now-assist-center-landing-page.md)
+**Parent Topic:**[Now Assist Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with workday learning
 description: Several types of components are installed with activation of the HR Service Delivery Integration with Workday Learning \(sn\_lrn\_workday\) application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/components-installed-with-workday-learning.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -60,7 +61,7 @@ Trigger Workday Learning Integration Flow
 
 </td><td>
 
-Pulls data from Workday Learning to ServiceNow. By default the flow is in inactive state. For information on how to activate the flow, see [Activating schedule flows](../task/activate-w-schedule-flow.md).
+Pulls data from Workday Learning to ServiceNow. By default the flow is in inactive state. For information on how to activate the flow, see [Activating schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-w-schedule-flow.md).
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -99,21 +100,21 @@ Stores one-time configuration parameters for the initial setup of the HR Service
 
 </td></tr><tr><td>
 
-Workday Learning Skills
+Workday Learning Skills \[sn\_lrn\_workday\_skills\]
 
 </td><td>
 
 Fetches all the active skills from Workday Learning.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference HR Service Delivery Integration with Workday Learning](reference-workday-learning-intg.md)
+</table>**Parent Topic:**[Reference HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-workday-learning-intg.md)
 
 **Related topics**  
 
 
-[Edit a record in HR Service Delivery Integration with Workday Learning](sync-user-activity-form.md)
+[Edit a record in HR Service Delivery Integration with Workday Learning]()
 
-[Workday learning todos staging form](wdl-todos-form.md)
+[Workday learning todos staging form]()
 
-[Workday learning user course activity staging form](wdl-user-course-activity-form.md)
+[Workday learning user course activity staging form]()
 

@@ -2,6 +2,7 @@
 title: Remove the text index for a child table
 description: You can remove the text index for a child table if you no longer want the search engine to return results for that child table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/remove-index-child-table.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -35,7 +36,7 @@ To disable text indexing for a specific child table, set that table's **No text 
 
     The dictionary record for a table is the record with an empty column name and a **Type** value of **Collection**, as shown in the following example image.
 
-    ![Dictionary Entry table showing a table's dictionary record with empty Column name and Type value of Collection.](../image/table-dictionary-record.png)
+    \[Omitted image "table-dictionary-record.png"\] Alt text: Dictionary Entry table showing a table's dictionary record with empty Column name and Type value of Collection.
 
 3.  In the Attributes related list, select **New**.
 
@@ -55,32 +56,32 @@ To disable text indexing for a specific child table, set that table's **No text 
 
 The system no longer indexes or queries the child table for text search results. Indexing continues for other tables in the table's hierarchy.
 
-**Parent Topic:**[Zing indexes words](../concept/zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 
 
-[Zing indexes punctuation as part of some words](../concept/c_PunctuationForSearchResults.md)
+[Zing indexes punctuation as part of some words]()
 
-[Zing indexes some HTML elements](../concept/c_SearchingHTMLContent.md)
+[Zing indexes some HTML elements]()
 
-[Configure a table for indexing and searching](configure-single-table-for-indexing.md#)
+[Configure a table for indexing and searching]()
 
-[Configure a text index group to search across multiple tables](index-multiple-tables.md)
+[Configure a text index group to search across multiple tables]()
 
-[Zing index and search dictionary attributes](../reference/index-attributes.md)
+[Zing index and search dictionary attributes]()
 
-[Regenerate a text index for a table](t_RegenerateATextIndexForATable.md)
+[Regenerate a text index for a table]()
 
-[Remove an index](t_RemoveAnIndex.md)
+[Remove an index]()
 
-[Remove an index for a specific field](t_RemoveAnIndexForASpecificField.md)
+[Remove an index for a specific field]()
 
-[Change the query mode of an indexed table](configure-table-query-mode.md)
+[Change the query mode of an indexed table]()
 
-[Enable indexing of text in multi-row variable sets](index-text-multi-row-variable-sets.md)
+[Enable indexing of text in multi-row variable sets]()
 
-[Text indexing statistics and status](../reference/r_ViewTextIndexingStatsAndStatus.md)
+[Text indexing statistics and status]()
 
-[Configure tables to use the Japanese tokenizer](configure-tables-japanese-tokenizer.md)
+[Configure tables to use the Japanese tokenizer]()
 

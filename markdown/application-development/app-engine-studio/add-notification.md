@@ -2,6 +2,7 @@
 title: Add an email notification
 description: Build notifications in App Engine Studio \(AES\) to create automated emails for events using templates or custom messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-notification.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,7 +18,7 @@ Build notifications in App Engine Studio \(AES\) to create automated emails for 
 
 ## Before you begin
 
-You can perform this task if you're either an administrator or a developer for the application. The required developer permission is **All File Types**. For more information on being a developer for an application, see [Delegated development in App Engine Studio](../concept/aes-app-dev-workflow.md).
+You can perform this task if you're either an administrator or a developer for the application. The required developer permission is **All File Types**. For more information on being a developer for an application, see [Delegated development in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 Role required: admin or delegated\_developer
 
@@ -41,7 +42,7 @@ If your administrator has created an email template in the ServiceNow AI Platfor
 
 4.  Select the card for **Email**.
 
-    ![Select to add an email notification](../image/add-email-notification-purple.png "Add email notification")
+    \[Omitted image "add-email-notification-purple.png"\] Alt text: Select to add an email notification
 
 5.  On the form, fill in the fields for the basic settings.
 
@@ -73,7 +74,7 @@ Situation where a notification is sent, such as after something happens or when 
 -   **When event is fired**
  This field is automatically set to **When a record is created or updated**.
 
- After you create an email notification with a [Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/noti-flow-action.md) as the trigger, you specify the notification when creating a flow in Workflow Studio. For more information, see [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/trigger-notification-action-designer.md).
+ After you create an email notification with a [Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/noti-flow-action.md) as the trigger, you specify the notification when creating a flow in Workflow Studio. For more information, see [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/trigger-notification-action-designer.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ People and groups
 Static addresses for users and groups who receive the email notification. You can also search for users and groups.
 
 </td></tr></tbody>
-</table>    ![Specify recipient by table field](../image/recipient-field-refine-purple.png)
+</table>    \[Omitted image "recipient-field-refine-purple.png"\] Alt text: Specify recipient by table field
 
 9.  In the Email content section of the form, select a template or write original content.
 
@@ -211,15 +212,15 @@ Use variables to include values from a record in the table, such as an incident 
 
     Check the preview that appears. To see how a notification renders, select the search icon in the preview and select the record you want to preview.
 
-    ![Search to preview the email notification for a specific record](../image/preview-email-notification-purple.png)
+    \[Omitted image "preview-email-notification-purple.png"\] Alt text: Search to preview the email notification for a specific record
 
 
 ## Result
 
 When you create a notification in AES, the notification is saved only to the application that you’re currently building.
 
--   **[Modify an email notification](edit-notification.md)**  
+-   **[Modify an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-notification.md)**  
 Edit an email notification created for an app in App Engine Studio \(AES\) to change it. For example, modify when to send the email notification, who receives it, and what it contains.
 
-**Parent Topic:**[Add logic and automation](../concept/add-automation.md)
+**Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md)
 

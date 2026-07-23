@@ -2,11 +2,12 @@
 title: Security Incident Response AI agent collection Wrap up security incident agentic workflow
 description: The Wrap up security incident agentic workflow enables security analysts to close a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/now-assist-sir-close-incident-usecase.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [AI agents, agentic AI]
 breadcrumb: [Use agentic workflows, Now Assist for Security Incident Response, Security Operations]

@@ -2,6 +2,7 @@
 title: View details of the geo map
 description: Use the geo map to view the geographical location of a network site and datacenter and its details in the Telecommunications Network Inventory application. You can understand the detailed overview of the site and information about the connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/view-details-network-site-map.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -33,7 +34,7 @@ Use the geo map to do the following:
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the blue hub icon ![Blue Hub Icon.](../image/icon-blue-hub.png).
+2.  Select the blue hub icon \[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon..
 
     The Network visualization window is displayed.
 
@@ -41,25 +42,25 @@ Use the geo map to do the following:
 
 4.  View the details of the site by performing the following actions on the map pane.
 
-<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d27640e172">
+<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d28540e121">
 
 Action
 
-</th><th align="left" id="d27640e175">
+</th><th align="left" id="d28540e124">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d27640e181">
+</th></tr></thead><tbody><tr><td id="d28540e130">
 
 **View the details of a site.**
 
 </td><td>
 
-Hover over the map icon on the map pane and then select **View Details**. You can view the site details on the details pane. You can also view the image of the site. To learn more about how to upload an image, see [Add images to a network inventory record](add-image-network-invetory-record.md).
+Hover over the map icon on the map pane and then select **View Details**. You can view the site details on the details pane. You can also view the image of the site. To learn more about how to upload an image, see [Add images to a network inventory record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/add-image-network-invetory-record.md).
 
  **Note:** If you select the datacenter on the map pane, select **View floor map** to view the floor map. The **View Floor Map** automatically populates the campus only. You must manually select a building and floor to view the corresponding floor map.
 
-</td></tr><tr><td id="d27640e222">
+</td></tr><tr><td id="d28540e161">
 
 **View the details of the sites in the same location.**
 
@@ -69,7 +70,7 @@ Hover over the map icon on the map pane and then select **View Details**. You ca
 2.  Select next or previous buttons to view the details about other site.
 
 
-</td></tr><tr><td id="d27640e243">
+</td></tr><tr><td id="d28540e182">
 
 **View the physical and logical connections and topology details**
 
@@ -86,7 +87,7 @@ These connection elements appear as dashed lines between the sites.
 3.  Select a line to view the details on the details pane. The bar chart graph shows the available connection elements.
 
 
-</td></tr><tr><td id="d27640e283">
+</td></tr><tr><td id="d28540e218">
 
 **View the cable route between sites**
 
@@ -98,7 +99,7 @@ These connection elements appear as dashed lines between the sites.
 
 **Note:** You must only select **Cables** to view the cable route.
 
-</td></tr><tr><td id="d27640e322">
+</td></tr><tr><td id="d28540e248">
 
 **View the capacity information**
 
@@ -117,7 +118,7 @@ Select a site and view the capacity information on the details pane. The bar cha
 -   Card Bandwidth
  Select the a bar on the graph to redirect to the corresponding capacity metrics list.
 
-</td></tr><tr><td id="d27640e369">
+</td></tr><tr><td id="d28540e293">
 
 **View the change requests**
 
@@ -127,10 +128,10 @@ Select a site to view the number of associated change requests on the details pa
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Geo map](../concept/using-network-site-map.md)
+**Parent Topic:**[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
 
 **Related topics**  
 
 
-[Geo map](../concept/visualization-map.md)
+[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/visualization-map.md)
 

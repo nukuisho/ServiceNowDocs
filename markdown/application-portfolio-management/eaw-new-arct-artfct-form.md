@@ -1,7 +1,8 @@
 ---
-title: New architectural artifact form
+title: Architectural artifact form
 description: Architectural artifacts describe a system, solution, or state of an enterprise. The architectural artifacts in Enterprise Architecture enable enterprise architects to create and manage the artifacts used in their organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-new-arct-artfct-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# New architectural artifact form
+# Architectural artifact form
 
 Architectural artifacts describe a system, solution, or state of an enterprise. The architectural artifacts in Enterprise Architecture enable enterprise architects to create and manage the artifacts used in their organization.
 
@@ -65,12 +66,12 @@ This field is displayed when the File Type is selected as **URL**.
  Enter the URL associated with the architectural artifact.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Create an architectural artifact and associate it with a business application](../../task/eaw-task/eaw-assoicate-artifact-ba.md)
+[Associate an architectural artifact with a business app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-assoicate-artifact-ba.md)
 
-[Create or edit an architectural artifact from Portfolio page](../../task/eaw-task/eaw-create-architectural-artifact.md)
+[Create or edit an architectural artifact from Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-architectural-artifact.md)
 

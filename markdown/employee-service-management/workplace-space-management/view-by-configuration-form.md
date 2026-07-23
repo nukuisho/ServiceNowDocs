@@ -2,6 +2,7 @@
 title: View by Configuration form
 description: The view by configuration form helps you select the table and field used to filter the view on the scenario planner or building overview.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/view-by-configuration-form.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -65,7 +66,7 @@ Application
 
 </td><td>
 
-Application that the record is created in.This field is automatically set to Workplace Space Management and can't be edited.
+Application that the record is created in.This field is automatically set to the application scope of the instance and can't be edited.
 
 </td></tr><tr><td>
 
@@ -74,6 +75,8 @@ Mode
 </td><td>
 
 Mode where the view by configuration is enabled.**Note:**
+
+-   Space Planning is not supported for the Scenario Plan Space Detail \[sn\_wsd\_spcmgmt\_scenario\_plan\_space\_detail\] table.
 
 -   Building overview is not supported for the Scenario Plan Space Detail \[sn\_wsd\_spcmgmt\_scenario\_plan\_space\_detail\] table.
 
@@ -86,7 +89,7 @@ Order
 
 </td><td>
 
-Order of the view by configuration in the drop-down list of the scenario planner or building overview.
+Order of the view by configuration in the drop-down list of the scenario planner, space planning page, or building overview.
 
 </td></tr><tr><td>
 
@@ -94,15 +97,17 @@ Domain
 
 </td><td>
 
-Domain for the view by configuration.This field is automatically set to global.
+Domain for the view by configuration.This field is automatically set to global and can't be edited.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Space Management references](../concept/workplace-space-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Space Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md)
 
 **Related topics**  
 
 
-[Components installed with Workplace Space Management](components-installed-with-wsd-space-mgmt.md)
+[Components installed with Workplace Space Management]()
 
-[Properties installed with Workplace Space Management](properties-installed-with-workplace-space-mgmt.md)
+[Properties installed with Workplace Space Management]()
+
+[KPI Configuration form]()
 

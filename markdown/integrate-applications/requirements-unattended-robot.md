@@ -2,11 +2,12 @@
 title: Requirements for Unattended Robot
 description: Ensure that you meet the following hardware and software requirements before you install the Unattended Robot application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/requirements-unattended-robot.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Unattended Robot, Workflow Data Fabric]
+breadcrumb: [Reference, Unattended Robot, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 
 # Requirements for Unattended Robot

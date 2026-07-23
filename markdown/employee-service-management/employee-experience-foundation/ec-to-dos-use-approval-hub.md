@@ -2,12 +2,13 @@
 title: Use approval experience
 description: Use the My tasks section to track and fulfill the requests from the portal and Now Mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Using Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -31,40 +32,42 @@ You can perform the following actions from the portal and Now Mobile.
 -   Perform quick actions such as approve, send back, or view details.
 -   When you enable e-signatures for approvals, the approver must enter the correct credentials to change the approval state. Only when the credentials pass, the approval status changes.
 
-For more information, see [Approvals experience reference](../reference/approval-hub-ootb.md) and [Approvals hub](../concept/approval-hub-intro.md).
+For more information, see [Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-ootb.md) and [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
 
-**Parent Topic:**[Using Employee Center](../concept/using-emp-center.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
 
-[Use the Employee Center topic pages](../concept/ec-topic-use.md)
+[Use the Employee Center topic pages]()
 
-[Topic managers and contributors for topic page management](../concept/topic-managers-and-contributors-for-topic-page-management.md)
+[Topic managers and contributors for topic page management]()
 
-[Use the My To-dos page](ec-to-dos-use.md)
+[Use the My To-dos page]()
 
-[Manage approvals from Microsoft Teams](../../sn-teams/task/va-concur.md)
+[Manage approvals from Microsoft Teams]()
 
-[Manage approvals from a Microsoft Outlook email](../../sn-ms-outlook/task/oam-concur.md)
+[Manage approvals from a Microsoft Outlook email]()
 
-[Task filters on My tasks](../concept/configurable-filters-experience.md)
+[Task filters on My tasks]()
 
-[View the Recommended for you content](../concept/rfy-employee.md)
+[View the Recommended for you content]()
 
-[Use Employee Center from Zoom](zoom-create-email-notification.md)
+[Use Employee Center from Zoom]()
 
-[View employee profile](../concept/update-employee-profile.md)
+[View employee profile]()
 
-[Use Personalized Answers](../concept/using-personalized-search-on-employee-center.md)
+[Use Employee Profile with HR Service Delivery]()
 
-[Employee Profile org chart widget](view-org-chart.md)
+[Use Personalized Answers]()
 
-[RTL support for Employee Center](../concept/ec-rtl-language-support.md)
+[Employee Profile org chart widget]()
 
-[Manage favorites](web-configure-favorites-employee.md)
+[RTL support for Employee Center]()
 
-[Access applications from App Launcher](../concept/web-application-employee.md)
+[Manage favorites]()
 
-[Use Guided Self-Service](../concept/gss-guided-self-service-homepage.md)
+[Access applications from App Launcher]()
+
+[Use Guided Self-Service]()
 

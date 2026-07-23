@@ -2,13 +2,14 @@
 title: Create an inbound asset order line
 description: Create an inbound asset order line for every asset in an inbound asset order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-inbound-order-line.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing inbound asset orders for DaaS assets, Device as a Service, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Managing inbound asset orders for DaaS assets, Device as a Service, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an inbound asset order line
@@ -118,5 +119,5 @@ Asset that is selected matching the model.This field automatically populates whe
 
 ## What to do next
 
-[Select a DaaS asset matching the model specified by the DaaS provider.](select-daas-asset.md)
+[Select a DaaS asset matching the model specified by the DaaS provider.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/select-daas-asset.md)
 

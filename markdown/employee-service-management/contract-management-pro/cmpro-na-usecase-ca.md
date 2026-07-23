@@ -2,6 +2,7 @@
 title: Create use cases for contract analysis
 description: Create a use case for contract analysis that is used by Now Assist to identify non-standard and missing clauses in a contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -44,7 +45,7 @@ For more information on the computation of non-standard and missing clauses, see
 
 3.  Select **Activate skill** on the skill you want to activate.
 
-    ![Now Assist skills available for Contract Management Pro.](../image/cmpro-NA-skills.png "Now Assist skills for Contract Management Pro")
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -82,7 +83,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents this is by Now Assist.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/languages-supported-by-document-intelligence.md).
+Language of the contract documents this is by Now Assist.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/languages-supported-by-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +116,7 @@ Displays the skill name for which you’re creating the use case.
 
     1.  In the New field window, select **Question group**.
 
-        ![Question group card in add field page.](../image/cmpro-na-question-group.png "Question group")
+        \[Omitted image "cmpro-na-question-group.png"\] Alt text: Question group card in add field page.
 
         **Note:** Add a question group, and then define the questions within that question group to ensure that questions are linked to a question group.
 
@@ -156,13 +157,13 @@ This field should be left empty.
 </td></tr></tbody>
 </table>    3.  Select **Add questions**.
 
-        ![Adding questions in a Question group page.](../image/cmpro-na-add-questions.png "Question group page")
+        \[Omitted image "cmpro-na-add-questions.png"\] Alt text: Adding questions in a Question group page.
 
     4.  Enter details for the field.
 
-        For more information on the field form, see [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/document-qna-single-field-form.md).
+        For more information on the field form, see [Question form for use case setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-qna-single-field-form.md).
 
-        ![Question details in the fields page.](../image/cmpro-na-add-fields.png "Fields page")
+        \[Omitted image "cmpro-na-add-fields.png"\] Alt text: Question details in the fields page.
 
     5.  Select **Save**.
 
@@ -197,18 +198,18 @@ The use case for Contract analysis skill is created.
 
 ## What to do next
 
-[Map a field group to a clause](cmpro-na-map-fieldgrp-clause.md)
+[Map a field group to a clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.md)
 
-**Parent Topic:**[Configuring contract analysis](../concept/cmpro-conf-contract-analysis.md)
+**Parent Topic:**[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
 
 **Related topics**  
 
 
-[Map a field group to a clause](cmpro-na-map-fieldgrp-clause.md)
+[Map a field group to a clause]()
 
-[Map a field to an expected response](cmpro-na-exp-res-mapping.md)
+[Map a field to an expected response]()
 
-[Map a use case for contract analysis](cmpro-na-usecase-mappings-ca.md)
+[Map a use case for contract analysis]()
 
-[Select large language models for use cases in Now Assist in Contract Management](cmpro-na-manage-llm.md)
+[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
 

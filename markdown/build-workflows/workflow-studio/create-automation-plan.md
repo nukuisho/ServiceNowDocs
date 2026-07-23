@@ -2,6 +2,7 @@
 title: Create an action as an activity automation plan
 description: Create an example action to configure and run as an activity from Playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-automation-plan.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,8 +20,8 @@ Create an example action to configure and run as an activity from Playbooks.
 
 Role required:
 
--   This task requires some knowledge of creating flows in Workflow Studio environment. For more information, see [Building flows](../../flow-designer/concept/flows.md).
--   This task requires some knowledge of server-side scripting. For more information, see [Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md).
+-   This task requires some knowledge of creating flows in Workflow Studio environment. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
+-   This task requires some knowledge of server-side scripting. For more information, see Server-side scripting.
 -   admin
 
 ## About this task
@@ -67,7 +68,7 @@ In this example, you create a reusable Workflow Studio action to use as an activ
     |Name|Enter `record`.|
     |Type|Select **Reference.Task\[task\]**|
 
-8.  Click the add a new step icon \(![Add a new step icon](../../flow-designer/images/add-new-step-icon.png)\).
+8.  Click the add a new step icon \(\[Omitted image "add-new-step-icon.png"\] Alt text: Add a new step icon\).
 
     The Select Step to add screen appears.
 
@@ -75,11 +76,11 @@ In this example, you create a reusable Workflow Studio action to use as an activ
 
     The **Update Record** step appears in the Action Outline under Inputs.
 
-10. In the **Record** field, click the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon.png)\), and then dot-walk to **Inputs** &gt; **Record**.
+10. In the **Record** field, click the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\), and then dot-walk to **Inputs** &gt; **Record**.
 
 11. Under Field Values, click **+Add Field Value**, and then select **Parent** from the list.
 
-12. Next to the **Parent** field, click the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon.png)\), and then dot-walk to **Inputs** &gt; **Parent Record**.
+12. Next to the **Parent** field, click the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\), and then dot-walk to **Inputs** &gt; **Parent Record**.
 
 13. Under the Action Outline, click **Outputs**.
 
@@ -101,9 +102,9 @@ In this example, you create a reusable Workflow Studio action to use as an activ
 
 16. In the Action Output header, click **Exit Edit Mode**.
 
-17. Next to the **Record** output's Value column, click the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon.png)\), and then dot-walk to **Inputs** &gt; **Record**
+17. Next to the **Record** output's Value column, click the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\), and then dot-walk to **Inputs** &gt; **Record**
 
-18. Next to the **Parent Record** output's Value column, click the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon.png)\), and then dot-walk to **Inputs** &gt; **Parent Record**.
+18. Next to the **Parent Record** output's Value column, click the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\), and then dot-walk to **Inputs** &gt; **Parent Record**.
 
 19. In the main header, click **Save** &gt; **Publish** to make your action available to add to an activity definition's automation plan.
 
@@ -114,14 +115,14 @@ You can now add your custom Workflow Studio action to an automation plan for you
 
 ## What to do next
 
-Add your custom action to an automation plan when you [Create an activity definition](create-activity-definition.md).
+Add your custom action to an automation plan when you [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
 
-**Parent Topic:**[Activity definitions](../concept/activity-definitions.md)
+**Parent Topic:**[Activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md)
 
 **Related topics**  
 
 
-[Create an activity definition](create-activity-definition.md)
+[Create an activity definition]()
 
-[UI Layouts](../concept/experience-types.md)
+[UI Layouts]()
 

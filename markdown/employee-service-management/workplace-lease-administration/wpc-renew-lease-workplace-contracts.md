@@ -2,6 +2,7 @@
 title: Renew workplace contract in Workplace Central
 description: Renew a workplace contract after you have created it, when it is approaching expiration, or when it has expired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-renew-lease-workplace-contracts.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
@@ -128,12 +129,12 @@ Percentage increase or decrease in the price of the renewed contract. A negative
 
 If you selected the **Save** option, ensure that you click **Renew** when you’re ready to submit the contract renewal for approval.
 
-**Parent Topic:**[Manage workplace contracts from Workplace Central](../concept/manage-contracts-from-wpc.md)
+**Parent Topic:**[Manage workplace contracts from Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/manage-contracts-from-wpc.md)
 
 **Related topics**  
 
 
-[Adjust workplace contract in Workplace Central](wpc-adjust-lease-contract.md)
+[Adjust workplace contract in Workplace Central]()
 
-[Cancel workplace contract in Workplace Central](wpc-cancel-lease-contract.md)
+[Cancel workplace contract in Workplace Central]()
 

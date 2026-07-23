@@ -2,11 +2,12 @@
 title: Configure Zoom to create a touchpoint meeting summary
 description: Set up the Zoom spoke integration and the bi-directional web hook to generate summaries for virtual touchpoint meetings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-config-zoom-sum.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Touchpoint home page, Customer success, Use, Customer Success Management]
+breadcrumb: [Zoom and touchpoint integration, Customer success, Configure, Customer Success Management]
 ---
 
 # Configure Zoom to create a touchpoint meeting summary
@@ -19,7 +20,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
 
 ## Procedure
 
-1.  To configure the Zoom spoke, follow the steps listed in [Set up the Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zoom.md).
+1.  To configure the Zoom spoke, follow the steps listed in Set up the Zoom spoke.
 
     A token is generated for Zoom connectivity.
 
@@ -35,7 +36,7 @@ Role required: sn\_acct\_lc.customer\_success\_application\_admin
     -   Secret token: Secret token of the app in your Zoom account.
 5.  Log in to your Zoom marketplace, open the General app, select **Access** &gt; **Event Subscriptions**.
 
-    ![Event notification endpoint URL](../image/account-lifecycle-zoom-endpoint.jpg)
+    \[Omitted image "account-lifecycle-zoom-endpoint.jpg"\] Alt text: Event notification endpoint URL
 
 6.  Add the **Meeting summary has been completed** event and specify the **Event notification endpoint URL**.
 
@@ -108,17 +109,14 @@ Name
 Name of the webhook registry.
 
 </td></tr></tbody>
-</table>    ![Zoom webhook registry](../image/account-lifecycle-zoom-webhook.jpg)
+</table>    \[Omitted image "account-lifecycle-zoom-webhook.jpg"\] Alt text: Zoom webhook registry
 
-    For more details on configuring the webhook, see [Set up a bi-directional webhook for Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhook-zoom-spoke.md).
+    For more details on configuring the webhook, see .
 
 
 ## Result
 
 When these steps have been completed, you can generate the meeting summary for touchpoint meetings that have been created using Zoom.
 
--   **[Generate summary for Zoom meetings](account-lifecycle-zoom-meeting-summary.md)**  
-Generate the meeting summary for virtual meetings conducted using Zoom.
-
-**Parent Topic:**[Touchpoint home page](../concept/account-lifecycle-touchpoint-home.md)
+**Parent Topic:**[Configure Zoom and touchpoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-zoom-int.md)
 

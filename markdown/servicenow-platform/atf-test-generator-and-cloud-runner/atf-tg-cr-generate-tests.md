@@ -2,6 +2,7 @@
 title: Generating the tests
 description: Generate tests automatically by leveraging ServiceNow Test Generation and Cloud Runner application. You can also run these tests with the click of a button.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-generate-tests.html
 release: australia
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
@@ -29,7 +30,7 @@ Role required: admin
 
     If you already have a test generation running, you will see the following message.
 
-    ![Image showing in progress test generation](../image/atf-app-inprogress-test-generation.png)
+    \[Omitted image "atf-app-inprogress-test-generation.png"\] Alt text: Image showing in progress test generation
 
     **Note:** You can't start more than one test generation process simultaneously, but it will queue up for later execution.
 
@@ -41,7 +42,7 @@ Role required: admin
 
 3.  Select one of the two ways to generate tests.
 
-    ![Generate Tests screen.](../image/atf-tg-cr-advanced.png)
+    \[Omitted image "atf-tg-cr-advanced.png"\] Alt text: Generate Tests screen.
 
     -   Not selecting **Advanced**: Generates tests on every table by default
     -   Selecting **Advanced**: Option to specify a specific table to generate tests
@@ -63,7 +64,7 @@ Role required: admin
 
     **Note:** You can't delete the default **None** preset. Some example presets have been provided which can be edited.
 
-    ![Generate Tests screen.](../image/atf-app-preset-tabs.png)
+    \[Omitted image "atf-app-preset-tabs.png"\] Alt text: Generate Tests screen.
 
     Depending on the query created by the preset values, the following tabs return certain data.
 
@@ -72,23 +73,23 @@ Role required: admin
     -   Service Catalog
     **Note:** You can create new condition sets to filter the required information in tabs.
 
-    ![Users screen.](../image/atf-app-filter.png)
+    \[Omitted image "atf-app-filter.png"\] Alt text: Users screen.
 
 5.  Select **Start Test Generation**.
 
     The Test Generation Started page shows up.
 
-    ![Image showing the test generation started dialog box](../image/atf-app-test-generation-progress.png)
+    \[Omitted image "atf-app-test-generation-progress.png"\] Alt text: Image showing the test generation started dialog box
 
     If you run a test or a suite when the test generation is in progress, one of the following messages shows up.
 
     -   For test run
 
-        ![Image showing test run queue when test generation is in progress](../image/atf-app-queue-test-run.png)
+        \[Omitted image "atf-app-queue-test-run.png"\] Alt text: Image showing test run queue when test generation is in progress
 
     -   For suite run
 
-        ![Image showing suite run queue when test generation is in progress](../image/atf-app-queue-suite-run.png)
+        \[Omitted image "atf-app-queue-suite-run.png"\] Alt text: Image showing suite run queue when test generation is in progress
 
 6.  Go to Suites to see the generated tests.
 
@@ -109,10 +110,10 @@ Role required: admin
     From the automated tests created, you can view all the users who have used that record or incident. Although the tests steps here are similar to the other test steps, the initial validation is done for the fields on the form. Also, for every mandatory field, a value is set based on the sample data. It also validates after every mandatory step. Once you submit, it does a final record validation.
 
 
-**Parent Topic:**[Operating ATF Test Generator and Cloud Runner](../concept/atf-tg-cr-operate.md)
+**Parent Topic:**[Operating ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-operate.md)
 
 **Related topics**  
 
 
-[Tests generation for flow and flow logic](../concept/atf-tg-cr-sc-flow.md)
+[Tests generation for flow and flow logic]()
 

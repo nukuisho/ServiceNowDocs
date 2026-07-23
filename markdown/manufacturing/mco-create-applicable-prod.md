@@ -2,11 +2,12 @@
 title: Create an applicable product
 description: Create an applicable product. An applicable product specifies the products to which the sales promotion is applied.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/manufacturing/mco-create-applicable-prod.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related list for my promotions, My promotions, Sales promotion management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a checklist template, My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Create an applicable product
@@ -33,6 +34,4 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 4.  Select **Save**.
 
-
-**Parent Topic:**[Related list for my promotions](related-list-for-my-promotions.md)
 

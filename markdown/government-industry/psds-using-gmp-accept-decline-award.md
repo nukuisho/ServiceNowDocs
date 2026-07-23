@@ -2,9 +2,10 @@
 title: Accept or decline a grant award
 description: As an applicant in the Grants Management Portal, you can review the terms of your grant award and choose to accept or decline the award.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-using-gmp-accept-decline-award.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Accept a grant award, Decline a grant award, Accept an award, Decline an award]
 breadcrumb: [Grants Management Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
@@ -16,7 +17,7 @@ As an applicant in the Grants Management Portal, you can review the terms of you
 
 ## Before you begin
 
-Role required: admin
+Role required: business contact
 
 ## Procedure
 

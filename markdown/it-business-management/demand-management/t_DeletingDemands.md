@@ -2,6 +2,7 @@
 title: Delete demands
 description: Demands can be deleted only while in the Pending state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_DeletingDemands.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -36,32 +37,32 @@ To delete a demand:
     -   Select the demand to open the demand form and then select **Delete**.
     -   Select the check box next to the demand and then select **Delete** from the **Actions** list.
 
-**Parent Topic:**[Use Demand Management](../reference/r_UsingDemandManagement.md)
+**Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 
 **Related topics**  
 
 
-[Assess demands](../concept/c_AssessingDemands.md)
+[Assess demands]()
 
-[Create a demand](t_CreatingDemands.md)
+[Create a demand]()
 
-[View demands](t_ViewDemands.md)
+[View demands]()
 
-[Add details to demands](../concept/c_EnhancingDemands.md)
+[Add details to demands]()
 
-[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](../concept/ridac-entries-for-demand.md)
+[RIDACs records for a demand]()
 
-[Reset a demand to Draft state](reset-demand-to-draft-state.md)
+[Reset a demand to Draft state]()
 
-[Move and resize a demand](t_MoveAndResizeADemand.md)
+[Move and resize a demand]()
 
-[Train the similarity solution for Demand Management to find similar demands](train-similarity-solution-dm.md)
+[Train the similarity solution for Demand Management to find similar demands]()
 
-[PPM PIWB template - Find similar demands](../../itbm-PI-workbench/task/ppm-piwb-demand.md)
+[PPM PIWB template - Find similar demands]()
 
-[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](identify-similar-demands.md)
+[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)]()
 
-[Summarize demands with demand summarization skill](demand-summary-demand-classic.md)
+[Summarize demands with demand summarization skill]()
 
-[Associate AI systems with demands](associate-ai-systems-with-demands.md)
+[Associate AI systems with demands]()
 

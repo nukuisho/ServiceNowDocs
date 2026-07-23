@@ -2,6 +2,7 @@
 title: Add related tasks to a change schedule
 description: Create related definitions to present related tasks for change requests in the change schedule. For example, to view the change tasks associated with a change request, you need to define a related definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/add-related-tasks-to-chng-schedule.html
 release: australia
 product: Change Management
 classification: change-management
@@ -133,16 +134,16 @@ List of fields that appear on the right column of the record summary pop-up. The
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Change schedules](../concept/change-schedule.md)
+**Parent Topic:**[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-schedule.md)
 
 **Related topics**  
 
 
-[Change schedules view](../concept/change-schedules-view.md)
+[Change schedules view]()
 
-[Create a change schedule from the Change Schedules page](create-chng-sch-from-chng-sch-page.md)
+[Create a change schedule from the Change Schedules page]()
 
-[Create a change schedule from the change schedule definition](create-chng-sch-from-chng-sch-def.md)
+[Create a change schedule from the change schedule definition]()
 
-[Style rules definition](../concept/style-rules-definition.md)
+[Style rules definition]()
 

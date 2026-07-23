@@ -2,6 +2,7 @@
 title: Business Lifecycle Operations dashboard
 description: With the Business Lifecycle Operations dashboard, you can get insight into how your team and business are performing for the business lifecycle cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/fso-business-lifecycle-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ You can monitor the status of the lifecycle cases, see trends, and drill down in
 
 ## Access the Financial Services Business Lifecycle dashboard
 
-To access the Financial Services Business Lifecycle dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Financial Services Business Lifecycle dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon.\).
 
 Alternatively, you can navigate to **Business Lifecycle** &gt; **Analytics**.
 
@@ -118,5 +119,5 @@ The following table shows the available filters in the Business Lifecycle Operat
 |Age|Bucket|Shows the age ranges in days for the Business Lifecycle cases.|
 |Service|List|Fetches the records for all the Business Lifecycle cases.|
 
-**Parent Topic:**[Implementing Platform Analytics solutions](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
 

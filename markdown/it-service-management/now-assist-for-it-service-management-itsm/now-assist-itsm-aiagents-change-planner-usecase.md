@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection Generate change request plans agentic workflow
 description: Use the Change request planning AI agent team to monitor similar change requests autonomously and generate the necessary plans. This approach may help reduce the time required for scheduling changes and managing change-related risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-change-planner-usecase.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -58,8 +59,8 @@ In the use agentic workflow:
 
     **Example of a Generate change request plans agentic workflow output in the ServiceNow StudioAI Agent Studio**
 
-    ![Generate change request plans agentic workflow output.](../image/now-assist-itsm-aiagents-change-plan-nap.png)
+    \[Omitted image "now-assist-itsm-aiagents-change-plan-nap.png"\] Alt text: Generate change request plans agentic workflow output.
 
 
-In the AI Agent Studio, the human agent gets notified as soon as the report gets generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](../task/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as the report gets generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 

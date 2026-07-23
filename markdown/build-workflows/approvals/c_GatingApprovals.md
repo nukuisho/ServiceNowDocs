@@ -2,6 +2,7 @@
 title: Gating approvals
 description: A gating approval acts as a gate through which a request must pass before it can start.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/c\_GatingApprovals.html
 release: australia
 product: Approvals
 classification: approvals
@@ -27,7 +28,7 @@ Generate gating approvals with:
 **Related topics**  
 
 
-[Set up a gating approval via an approval rule](../task/t_SetUpAGatingApprViaApprovalRule.md)
+[Set up a gating approval via an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/t_SetUpAGatingApprViaApprovalRule.md)
 
-[Set up a gating approval based on the item being ordered](c_SetUpGatingApprBasedOnOrdItem.md)
+[Set up a gating approval based on the item being ordered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/c_SetUpGatingApprBasedOnOrdItem.md)
 

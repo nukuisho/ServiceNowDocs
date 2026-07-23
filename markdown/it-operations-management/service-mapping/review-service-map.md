@@ -2,6 +2,7 @@
 title: Review application service maps
 description: As the application service owner for the application service map, you receive an email notification that the application service map is assigned to you for review. Review mapping results for correctness and either provide your feedback or approve the application service map. The review and approval process is available only for discovered and manually created service instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/review-service-map.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -23,7 +24,7 @@ Role required: sm\_app\_owner
 
 Ideally, only the application service owner reviews the planned application service, however, users with the sm\_app\_owner or service\_mapping\_admin role can also perform this task.
 
-Reviewing application service maps is part of the [review and approval process](business-service-approval.md). The process of application service review may take some time as it requires making changes and repeatedly running the mapping process on the application service. Typically, it takes several iterations to arrive at the desired result. Once you are satisfied with the discovery result, you approve the application service.
+Reviewing application service maps is part of the [review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/business-service-approval.md). The process of application service review may take some time as it requires making changes and repeatedly running the mapping process on the application service. Typically, it takes several iterations to arrive at the desired result. Once you are satisfied with the discovery result, you approve the application service.
 
 After you request fixes or approve the application service, the service process task assigned to you closes.
 
@@ -51,25 +52,25 @@ To see documentation for another review phase, click the relevant box in the dia
 
 3.  On the application service map, check that all essential CIs comprising the application service are discovered and mapped correctly.
 
-<table id="choicetable_zzx_gvd_ht"><thead><tr><th align="left" id="d266990e275">
+<table id="choicetable_zzx_gvd_ht"><thead><tr><th align="left" id="d280922e275">
 
 Purpose
 
-</th><th align="left" id="d266990e278">
+</th><th align="left" id="d280922e278">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d266990e284">
+</th></tr></thead><tbody><tr><td id="d280922e284">
 
 **Verify that there are no missing CI connections.**
 
 </td><td>
 
-Pay attention to CIs with no connectors from it to other CIs. For example, in the following figure, the Web Server on win2K12 CI is missing connections.![CIs missing connectors](../image/MapMissingConnection.png)
+Pay attention to CIs with no connectors from it to other CIs. For example, in the following figure, the Web Server on win2K12 CI is missing connections.\[Omitted image "MapMissingConnection.png"\] Alt text: CIs missing connectors
 
  If connections and CIs to which they lead are missing, the map does not reflect the real state of the service instance and its operation. Inaccurate data can also be transferred to Event Management, causing imprecise monitoring.
 
-</td></tr><tr><td id="d266990e308">
+</td></tr><tr><td id="d280922e308">
 
 **Verify that there are no CIs that do not belong in the service.**
 
@@ -77,15 +78,15 @@ Pay attention to CIs with no connectors from it to other CIs. For example, in th
 
 Check all CIs comprising the application service map to identify CIs not belonging to this application service. Typically, it is applications supporting internal services. For example, Microsoft Internet Information Services \(IIS\) connecting to Active Directory, may be not part of the application service.
 
-</td></tr><tr><td id="d266990e317">
+</td></tr><tr><td id="d280922e317">
 
 **Check that the connections between CIs are correct.**
 
 </td><td>
 
-[View CI connection attributes in an application service map in classic Service Mapping](view-connector-properties.md).
+[View CI connection attributes in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/view-connector-properties.md).
 
-</td></tr><tr><td id="d266990e333">
+</td></tr><tr><td id="d280922e339">
 
 **Check that clusters are reflected correctly.**
 
@@ -99,11 +100,11 @@ In an application cluster, two or more applications or devices are configured to
 
 This type of cluster appears as a stack of CIs with a label showing the number of CIs in this cluster with the multiplication sign.
 
-![Expanding an application cluster](../image/MapClusterAppCluster.png)
+\[Omitted image "MapClusterAppCluster.png"\] Alt text: Expanding an application cluster
 
 Application clusters can have a cluster within a cluster, but never more than two levels:
 
-![Expanding an application cluster with two levels](../image/MapClusterDouble.png)
+\[Omitted image "MapClusterDouble.png"\] Alt text: Expanding an application cluster with two levels
 
 -   **OS cluster**
 
@@ -111,9 +112,9 @@ In an OS cluster, a server hosts two identical operating systems. Typically, the
 
 This type of cluster appears as a CI with a plus sign and the number of CIs in this cluster.
 
-![OS cluster](../image/MapClustersOSClusters.png)
+\[Omitted image "MapClustersOSClusters.png"\] Alt text: OS cluster
 
-</td></tr><tr><td id="d266990e388">
+</td></tr><tr><td id="d280922e394">
 
 **Check that inclusions are reflected correctly.**
 
@@ -121,7 +122,7 @@ This type of cluster appears as a CI with a plus sign and the number of CIs in t
 
 Click the plus \(+\) icon next to a CI.In an inclusion, a server hosts applications that are treated as independent objects. For example, IIS Virtual Directory can run on a Windows Service as its host.
 
- ![Expanding inclusion](../image/MapClusterInclusion.png)
+ \[Omitted image "MapClusterInclusion.png"\] Alt text: Expanding inclusion
 
 </td></tr></tbody>
 </table>4.  To notify the service mapping admin of a necessary change or fix, perform the following steps:
@@ -141,10 +142,10 @@ Click the plus \(+\) icon next to a CI.In an inclusion, a server hosts applicati
     The application service status changes to Approved and it appears in the list of completed application services on the **Home** page. The operational status changes to Operational. From this point, other applications can use data collected and organized by Service Mapping.
 
 
-**Parent Topic:**[Review and approval of application service maps](business-service-approval.md)
+**Parent Topic:**[Review and approval of application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/business-service-approval.md)
 
 **Related topics**  
 
 
-[Fix errors in individual application service maps](fix-or-ignore-errors-business-service-map.md)
+[Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md)
 

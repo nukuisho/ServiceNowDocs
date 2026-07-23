@@ -2,12 +2,13 @@
 title: DevOps change models
 description: DevOps Change Velocity enables you to use fit-for-purpose change models that allow better flexibility in defining change models or processes to reflect modern development practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-change-multimodel.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 17
+reading_time_minutes: 16
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
 
@@ -17,13 +18,13 @@ DevOps Change Velocity enables you to use fit-for-purpose change models that all
 
 ## DevOps Change model overview
 
-**Important:** For DevOps change requests, use the Change Management - Change Models feature, which provides greater flexibility to enable the change process flow in a way that is optimized for specific use cases. For more information, see [Change models](../../change-management/concept/change-models.md). The legacy Change Management - State Model is also supported. For more information, see [Legacy: State model and transitions](../../change-management/concept/c_ChangeStateModel.md).
+**Important:** For DevOps change requests, use the Change Management - Change Models feature, which provides greater flexibility to enable the change process flow in a way that is optimized for specific use cases. For more information, see . The legacy Change Management - State Model is also supported. For more information, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).
 
 **Important:** The DevOps and DevOps Simplified change models are not supported for Argo CD and Split tool change requests.
 
-Use fit-for-purpose change models with a suite of succinct flows and flow actions built in Flow Designer for specific use cases. Instead of using the legacy ITIL-based change processes that are predefined in change workflows \(Normal, Standard, and Emergency\), you can selectively transition to a wide range of models that are optimized for specific use cases. Change models can be created with states and rules that determine the transitions between the states. For information on change models, see [Change models](../../change-management/concept/change-models.md).
+Use fit-for-purpose change models with a suite of succinct flows and flow actions built in Flow Designer for specific use cases. Instead of using the legacy ITIL-based change processes that are predefined in change workflows \(Normal, Standard, and Emergency\), you can selectively transition to a wide range of models that are optimized for specific use cases. Change models can be created with states and rules that determine the transitions between the states. For information on change models, see .
 
-![Change models](../image/change-model-01.png)
+\[Omitted image "change-model-01.png"\] Alt text: Change models
 
 You can use any of the base system change models including the DevOps or DevOps Simplified change models. To create a change request based on models, you can either configure the **Model** field in the Step form in ServiceNow, or pass the model sys\_id or name in the change step from your orchestration pipeline.
 
@@ -198,7 +199,7 @@ Type is passed. For example, Normal```
 
 ErrorChange request can’t be created because the type compatibility flag is disabled. Enable the type compatibility flag in system properties or configure the change model in the step record in ServiceNow or enter the appropriate change model sys id or name in the pipeline.
 
-For information on resolving this error, see [Common errors in DevOps Change Velocity](../reference/devops-reference-error-messages.md).
+For information on resolving this error, see [Common errors in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md).
 
 </td></tr><tr><td>
 
@@ -236,7 +237,7 @@ Neither model nor change type is passed.
 
 ErrorChange request can’t be created because either the change type or change model isn’t configured for the pipeline.
 
-For information on resolving this error, see [Common errors in DevOps Change Velocity](../reference/devops-reference-error-messages.md).
+For information on resolving this error, see [Common errors in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md).
 
 </td></tr><tr><td>
 
@@ -278,7 +279,7 @@ Different type is passed. For example, Emergency.
 
 ErrorChange request cannot be created because the type compatibility flag is disabled. Enable the type compatibility flag in system properties or configure the change model in the step record in ServiceNow or enter the appropriate change model sys id or name in the pipeline.
 
-For information on resolving this error, see [Common errors in DevOps Change Velocity](../reference/devops-reference-error-messages.md).
+For information on resolving this error, see [Common errors in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-reference-error-messages.md).
 
 </td></tr></tbody>
 </table>
@@ -286,11 +287,11 @@ For information on resolving this error, see [Common errors in DevOps Change Vel
 
     The base system change models have the **Implementation states** field value as Implement, and the **Record preset** field is selected as **Type=Normal** by default. The model states available for the DevOps change model are New, Assess, Authorize, Scheduled, Implement, Review, Closed, and Canceled. And the model states available for the DevOps Simplified change model are New, Authorize, Scheduled, Implement, Review, Closed, and Canceled. Depending on your requirements, you can modify the change models and configure the states and transitions for your specific use case.
 
-    ![DevOps change model](../image/change-model-devops-02.png "DevOps Change Model")
+    \[Omitted image "change-model-devops-02.png"\] Alt text: DevOps change model
 
-    ![DevOps Simplified Change Model](../image/devops-simplified-model.png "DevOps Simplified Change Model")
+    \[Omitted image "devops-simplified-model.png"\] Alt text: DevOps Simplified Change Model
 
-    If you want to create your own model instead of using the base system DevOps models, see the instructions in the [Create a Change model](../../change-management/task/create-a-change-model.md) section.
+    If you want to create your own model instead of using the base system DevOps models, see the instructions in the [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md) section.
 
     You can use record presets to configure change details for your change model. Whenever a change is created, these values will be automatically set on the change. You can set a record preset for any change field that exists in the change request.
 
@@ -311,7 +312,7 @@ For information on resolving this error, see [Common errors in DevOps Change Vel
 The DevOps change model contains flows in the base system for state transition and change approvals. Each state in the DevOps model has its own flows and each flow will get triggered when the required conditions are met. Change approval \(auto or manual\) is based on the DevOps Model Change Policy. By default, the base system DevOps Model Change Policy only has the manual approval decision activated. When you are ready for more approval automation, you can modify the policy. The following flows explain the state transition and change approval behavior.
 
 -   Change - DevOps - New: When the change request is created in the New state, this flow gets triggered. If it has an Assignment Group, then this flow updates the change state to Assess.
--   Change - DevOps - Assess: When the change request is in the Assess state, this flow gets triggered. There are two key actions in this flow - DevOps Gather Change Policy Data and Apply Change Approval Policy, which are used to retrieve the DevOps data associated with the change request and check whether the change request must be auto approved, auto rejected, or sent for manual approval. The change approval \(auto or manual\) happens as part of this flow in the Apply Change Approval Policy action based on the DevOps Model Change Policy. If the change is approved \(auto or manual\), it moves to the Authorize state. If the change is rejected, an email notification is sent to the user who requested the change and the change is moved back to the New state. ![Change - DevOps - Assess flow](../image/change-devops-assess.png)
+-   Change - DevOps - Assess: When the change request is in the Assess state, this flow gets triggered. There are two key actions in this flow - DevOps Gather Change Policy Data and Apply Change Approval Policy, which are used to retrieve the DevOps data associated with the change request and check whether the change request must be auto approved, auto rejected, or sent for manual approval. The change approval \(auto or manual\) happens as part of this flow in the Apply Change Approval Policy action based on the DevOps Model Change Policy. If the change is approved \(auto or manual\), it moves to the Authorize state. If the change is rejected, an email notification is sent to the user who requested the change and the change is moved back to the New state. \[Omitted image "change-devops-assess.png"\] Alt text: Change - DevOps - Assess flow
 -   Change - DevOps - Authorize: When the change request is in the Authorize state, this flow gets triggered. In the base system, you will notice that there are two key actions - DevOps Gather Change Policy Data and Apply Change Approval Policy, which are used to retrieve the DevOps data associated with the change request and check whether the change request must be auto approved, auto rejected, or sent for manual approval. The conditions in the DevOps Model Change Policy in the Apply Change Approval Policy action won't be met. So the change approval \(auto or manual\) in this flow will be skipped. This flow will only move the change request state to Scheduled that triggers the Change - DevOps - Schedule flow.
 
     **Note:** If your change process requires another approval, you can refer to this flow and customize the DevOps Model Change Policy according to your requirements.
@@ -356,7 +357,7 @@ The DevOps Simplified change model contains flows in the base system for state t
 
     **Note:** If your change process requires another approval, you can refer to this flow and customize the DevOps Simplified Model Change Policy according to your requirements.
 
-    ![Change - DevOps Simplified - Authorize flow](../image/change-devops-simplified-authorize.png)
+    \[Omitted image "change-devops-simplified-authorize.png"\] Alt text: Change - DevOps Simplified - Authorize flow
 
 -   Change - DevOps Simplified- Schedule: When the change request is in the Scheduled state, this flow gets triggered. When the planned start date is reached, the change is moved to the Implement state.
 -   Change - DevOps Simplified - Implement: When the change request is in the Implement state, this flow gets triggered.
@@ -393,7 +394,7 @@ In DevOps Change Velocity, the following considerations are made to send a callb
 
 -   The implementation states is used to send a callback to the third-party orchestration tool. If only one implementation state is present in the change model, then an absolute comparison is made. When the change created by a change model reaches the implementation state that is set, a call back is sent to the third-party orchestration tool.
 
-    **Note:** In change models, the Implementation states field can have one or more states. You can define the implementation states for each change model. For more information, see [Legacy: State model and transitions](../../change-management/concept/c_ChangeStateModel.md).
+    **Note:** In change models, the Implementation states field can have one or more states. You can define the implementation states for each change model. For more information, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).
 
 -   If multiple implementation states are present in the change model, a call back is sent to the third-party orchestration tool in the state where implementation state is reached first.
 -   If there’s no implementation state set on the change model, then the model states are checked for the **Implement** state. If the Implement state is present, then that is considered for call back to the third-party orchestration tool. If there’s no implement state in the model states as well, then the value present in the **sn\_devops.change\_request.implement\_state** property is considered. The value of the system property is -1 by default, which is the implement state.
@@ -403,7 +404,7 @@ In DevOps Change Velocity, the following considerations are made to send a callb
 ## After upgrade
 
 -   The **Change model** field will be displayed in the Step form. This won’t impact your existing type-based change creation process as the type compatibility property \(**com.snc.change\_management.change\_model.type\_compatibility**\) is true.
--   If you want to have a model-based change request, set the type compatibility property to false. The **Change model** field in the Step form will be required. For information on configuration combination based on the property, see the table [When the type compatibility property is set to False](devops-change-multimodel.md#table_d4k_b3s_cyb).
+-   If you want to have a model-based change request, set the type compatibility property to false. The **Change model** field in the Step form will be required. For information on configuration combination based on the property, see the table [When the type compatibility property is set to False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md).
 
 **Note:** If you’re an existing customer and zbooted your instance, or a new customer, you can create model-based change requests by default. However, you can create type-based change requests by setting the type compatibility property to true.
 
@@ -459,7 +460,7 @@ In the base system, change approval \(auto or manual\) happens through the Chang
 
 </td><td>
 
-See the [Note](devops-change-multimodel.md#note-callback) in the Callback section.
+See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
 
 </td></tr><tr><td>
 
@@ -487,7 +488,7 @@ In the base system, change approval \(auto or manual\) happens through the Chang
 
 </td><td>
 
-See the [Note](devops-change-multimodel.md#note-callback) in the Callback section.
+See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
 
 </td></tr><tr><td>
 
@@ -514,7 +515,7 @@ In the base system, change approval \(auto or manual\) happens through the Chang
 
 </td><td>
 
-See the [Note](devops-change-multimodel.md#note-callback) in the Callback section.
+See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
 
 </td></tr><tr><td>
 
@@ -542,7 +543,7 @@ In the base system, change approval \(auto or manual\) happens through the Chang
 
 </td><td>
 
-See the [Note](devops-change-multimodel.md#note-callback) in the Callback section.
+See the [Note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md) in the Callback section.
 
 </td></tr><tr><td>
 
@@ -569,8 +570,8 @@ DevOps Change Request Manual Approval, or DevOps Change Request Minimal Automati
 Change Control Callback flows
 
 </td></tr></tbody>
-</table>-   **[Update change model in pipeline](../task/update-change-model-in-pipeline.md)**  
+</table>-   **[Update change model in pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-change-model-in-pipeline.md)**  
 Update the change model in your existing pipeline steps using the DevOps Pipeline Migration to Change Models catalog item.
 
-**Parent Topic:**[Accelerating your DevOps change process](dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

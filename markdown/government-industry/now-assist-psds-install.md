@@ -2,6 +2,7 @@
 title: Install Now Assist for Public Sector Digital Services \(PSDS\)
 description: Install required plugins and enable Now Assist for Public Sector Digital Services \(PSDS\) to configure and use generative AI skills in Configurable Workspace, Playbooks, and Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ The following plug-ins and store apps are required for use of Now Assist for Pub
 
 **Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 
 To get started with Now Assist, you must install at least one Now Assist application on your instance. The Now Assist Admin console can guide your implementation, starting with installation. Use the Now Assist Admin console to configure Now Assist for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md), as well as the [Now Assist Journey Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
 
@@ -51,7 +52,7 @@ To install the Now Assist for PSDS plugin \(sn\_psds\_gen\_ai\), follow the proc
 
     Plugins appear as cards. Review all Now Assist plugins on the **Available for you** tab. Plugins that you have already installed appear on the **Installed** tab.
 
-    ![Example plugin card reads "Now Assist for Public Sector Digital Services (PSDS): GenAl related features for Public Sector Digital Services that are powered by Now Assist." Select Get plugins on the card to install it.](../image/na-psds-plugin-card-config.png)
+    \[Omitted image "na-psds-plugin-card-config.png"\] Alt text: Example plugin card reads "Now Assist for Public Sector Digital Services \(PSDS\): GenAl related features for Public Sector Digital Services that are powered by Now Assist." Select Get plugins on the card to install it.
 
 4.  Select **Get plugins** on the Now Assist for Customer Service Management \(CSM\) and Now Assist for Public Sector Digital Services \(PSDS\) cards.
 
@@ -74,5 +75,5 @@ Your Now Assist Admin console is successfully configured with the necessary plug
 
 ## What to do next
 
-[Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)or [Activate a Now Assist Skill.](../concept/now-assist-psds-configure-skill.md)
+[Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)or [Activate a Now Assist Skill.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configure-skill.md)
 

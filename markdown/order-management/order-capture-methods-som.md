@@ -2,6 +2,7 @@
 title: Methods of creating orders in Sales Customer Relationship Management
 description: Orders can be created by agents, customers, or using APIs in ServiceNow Order Management. Irrespective of where or how you create orders, all orders can be managed, tracked, and fulfilled using Order Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-capture-methods-som.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -72,12 +73,12 @@ Alternate way to create an order for an account or a consumer with a different s
 </td></tr></tbody>
 </table>## Order creation using TM Forum \(TMF\) APIs
 
-Most of the service orders that you process are captured from third-party customer order management systems through the Service Order Open API. The Service Order Open API is a ServiceNow implementation of the TM Forum TMF641 Service Ordering Open API specification. To learn more, see [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/service-order-open-api.md).
+Most of the service orders that you process are captured from third-party customer order management systems through the Service Order Open API. The Service Order Open API is a ServiceNow implementation of the TM Forum TMF641 Service Ordering Open API specification. To learn more, see [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md).
 
 Order creators and order integrators for a Communications Service Provider \(CSP\) company can use the following TMF APIs to create orders:
 
--   [TMF622: Product Ordering API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md)
--   [TMF641: Service Ordering API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/service-order-open-api.md)
+-   [TMF622: Product Ordering API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/tmf622_product_ordering-api.md)
+-   [TMF641: Service Ordering API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/service-order-open-api.md)
 
 **Note:** You need a Telecommunications Service Management subscription to create orders using TMF APIs.
 
@@ -87,7 +88,7 @@ Your ServiceNow instances can be integrated with the instances of your customers
 
 ## Order creation by B2B customers
 
-Business-to-Business \(B2B\) customers can leverage self-service capabilities provided through the Business Portal to browse products and submit orders. These orders are then processed by the order and fulfillment agents. For more information, see [Create orders from the Business Portal](../task/order-mgt-create-an-order-using-customer-portal.md).
+Business-to-Business \(B2B\) customers can leverage self-service capabilities provided through the Business Portal to browse products and submit orders. These orders are then processed by the order and fulfillment agents. For more information, see [Create orders from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-create-an-order-using-customer-portal.md).
 
 ## Post-capture order record generation
 
@@ -101,7 +102,7 @@ When you capture or directly enter a customer or service order, the correspondin
 **Related topics**  
 
 
-[Creating orders in Order Management](creating-orders-som.md)
+[Creating orders in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/creating-orders-som.md)
 
-[Convert quotes into orders](../task/quote-management-customer-orders-tab.md)
+[Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management-customer-orders-tab.md)
 

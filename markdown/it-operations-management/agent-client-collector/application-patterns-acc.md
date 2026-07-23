@@ -2,6 +2,7 @@
 title: Application patterns for the Agent Client Collector
 description: Application patterns gather details on the applications that run on the Agent Client Collector \(ACC\) host. Application patterns are supported only for servers, and are triggered after the Agent Client Collector host Discovery is complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/application-patterns-acc.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -21,7 +22,7 @@ Application patterns gather details on the applications that run on the Agent Cl
 To enable application patterns on the Agent Client Collector, install the following:
 
 -   Agent Client Collector Framework
--   Agent Client Collector for Visibility - Content
+-   Agent Client Collector for Visibility Content
 -   Discovery
 
 Ensure that the agent is connected to a MID Server to enable pattern execution. The MID Server runs the pattern, and each command step is evaluated against the agent as an ad-hoc check who's name begins with **PatternOnTheFlyCheck**.
@@ -85,7 +86,15 @@ sn\_agent.appl\_classification\_behavior
 
 Set value to **full** to enable working with applications patterns and to access pattern commands in the allow-list.Default: simple
 
-**Note:** To enable application pattern execution with the allow-list, use the allow-list template for application patterns. For details, see the [Pattern execution on ACC: Sample Allowlist for Pattern Content](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1585764) article in the Now Support Knowledge Base.
+**Note:** To enable application pattern execution with the allow-list, use the allow-list template for application patterns. For details, see [Generate a Pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/generate-patterns-allow-list.md).
+
+</td></tr><tr><td>
+
+sn\_agent.trigger\_patterns\_on\_endpoints
+
+</td><td>
+
+Controls whether Discovery patterns are triggered during application classification for endpoint CIs \(cmdb\_ci\_computer\). Set to true to enable pattern triggering on endpoints, which follows the same classification path as non-endpoint CI types. When set to false, endpoints skip pattern-based classification and fall back to simple classification behavior.Default: false
 
 </td></tr></tbody>
 </table><table id="table_fsp_ctl_g1c"><thead><tr><th>
@@ -137,22 +146,22 @@ When performing Discovery with Agent Client Collector, ensure that you have the 
 -   Agent Client Collector users:
 
     -   Must have the Agent Client Collector Framework store plugin.
-    -   Can have the Agent Client Collector for Visibility - Content store plugin, for extra data.
+    -   Can have the Agent Client Collector for Visibility Content store plugin, for extra data.
     For information about privileged user access, see [KB1705845](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1705845).
 
     **Note:** Oracle Java discovery with ACC is applicable in all server environments. However, currently, it's partially supported for different Desktop environments. For a Windows Desktop update set, see the KB article [KB1705845](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1705845).
 
 
-For information on java installation Discovery using Agent Client Collector for Visibility - Content, see [Discover java installation data using Agent Client Collector for Visibility - Content file-based discovery](../task/acc-file-based-discovery.md).
+For information on java installation Discovery using Agent Client Collector for Visibility Content, see [Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
 
-For information on the collected data, see [Data collected during Agent Client Collector for Visibility - Content file-based Discovery](../reference/data-collected-file-based-discovery.md).
+For information on the collected data, see [Data collected during Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/data-collected-file-based-discovery.md).
 
-Application patterns support Oracle GLAS data collection in a Linux environment. For details on using patterns, see [Oracle Global License Advisory Services \(GLAS\) data collection using patterns](../../service-mapping/reference/oracle-glas-discovery.md).
+Application patterns support Oracle GLAS data collection in a Linux environment. For details on using patterns, see [Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md).
 
 Although Oracle GLAS supports Put file operations, the related files are deployed using Agent Client Collector plugins instead of SSH or WMI.
 
 **Related topics**  
 
 
-[Discovery patterns used by ITOM Visibility](../../service-mapping/concept/c_MappingPatternsCustomization.md)
+[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 

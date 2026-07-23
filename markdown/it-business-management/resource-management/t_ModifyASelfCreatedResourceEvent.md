@@ -2,6 +2,7 @@
 title: Modify a self-created resource event
 description: You can modify a resource event that you created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/t\_ModifyASelfCreatedResourceEvent.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -30,14 +31,14 @@ Role required: none
 4.  Select **Update**.
 
 
-**Parent Topic:**[Resource events](../concept/c_ResourceEvents.md)
+**Parent Topic:**[Resource events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceEvents.md)
 
 **Related topics**  
 
 
-[Resource events and schedules](../reference/r_ResourceEventsAndSchedules.md)
+[Resource events and schedules]()
 
-[Resource event modifications](../concept/c_ModifyAResourceEvent.md)
+[Resource event modifications]()
 
-[Change the resource event color](t_ChangeTheResourceEventColor.md)
+[Change the resource event color]()
 

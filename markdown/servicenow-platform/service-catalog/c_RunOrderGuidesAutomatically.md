@@ -2,6 +2,7 @@
 title: Run order guides automatically
 description: You can run an order guide automatically from within a workflow or a server script, passing parameters to that order guide to define variable values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_RunOrderGuidesAutomatically.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -19,10 +20,10 @@ Automatically generate a set of ordered items as part of a wider process, withou
 
 For example, you can run an order guide to fulfill HR onboarding requests, passing parameters such as the new employee's position and department. The order guide then generates a set of requested items such as laptop and email account, based on those parameters.
 
-**Parent Topic:**[Order guides](c_ServiceCatalogOrderGuides.md)
+**Parent Topic:**[Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogOrderGuides.md)
 
 **Related topics**  
 
 
-[Service Catalog API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_ServiceCatalogAPI.md)
+[Service Catalog API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_ServiceCatalogAPI.md)
 

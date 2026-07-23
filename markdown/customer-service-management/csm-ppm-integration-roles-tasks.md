@@ -2,6 +2,7 @@
 title: Customer Project Management personas, roles, and tables
 description: An overview of the tasks that can be performed by the different Customer Project Management roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-integration-roles-tasks.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

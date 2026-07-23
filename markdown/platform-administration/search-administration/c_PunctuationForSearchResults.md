@@ -2,6 +2,7 @@
 title: Zing indexes punctuation as part of some words
 description: Zing indexes some punctuation marks as part of some words to improve search results for common search terms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/c\_PunctuationForSearchResults.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -156,32 +157,32 @@ Zing locates product numbers that follow a typical pattern. To meet this pattern
 </td></tr></tbody>
 </table>**Note:** The punctuation handling described here doesn't affect wildcard and boolean operators. These operators provide separate Zing functions.
 
-**Parent Topic:**[Zing indexes words](zing-indexes-words.md)
+**Parent Topic:**[Zing indexes words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/zing-indexes-words.md)
 
 **Related topics**  
 
 
-[Zing indexes some HTML elements](c_SearchingHTMLContent.md)
+[Zing indexes some HTML elements]()
 
-[Configure a table for indexing and searching](../task/configure-single-table-for-indexing.md#)
+[Configure a table for indexing and searching]()
 
-[Configure a text index group to search across multiple tables](../task/index-multiple-tables.md)
+[Configure a text index group to search across multiple tables]()
 
-[Zing index and search dictionary attributes](../reference/index-attributes.md)
+[Zing index and search dictionary attributes]()
 
-[Regenerate a text index for a table](../task/t_RegenerateATextIndexForATable.md)
+[Regenerate a text index for a table]()
 
-[Remove an index](../task/t_RemoveAnIndex.md)
+[Remove an index]()
 
-[Remove an index for a specific field](../task/t_RemoveAnIndexForASpecificField.md)
+[Remove an index for a specific field]()
 
-[Remove the text index for a child table](../task/remove-index-child-table.md)
+[Remove the text index for a child table]()
 
-[Change the query mode of an indexed table](../task/configure-table-query-mode.md)
+[Change the query mode of an indexed table]()
 
-[Enable indexing of text in multi-row variable sets](../task/index-text-multi-row-variable-sets.md)
+[Enable indexing of text in multi-row variable sets]()
 
-[Text indexing statistics and status](../reference/r_ViewTextIndexingStatsAndStatus.md)
+[Text indexing statistics and status]()
 
-[Configure tables to use the Japanese tokenizer](../task/configure-tables-japanese-tokenizer.md)
+[Configure tables to use the Japanese tokenizer]()
 

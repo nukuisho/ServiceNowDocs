@@ -2,6 +2,7 @@
 title: Gantt chart
 description: A Gantt chart on the planning console is a visual representation of a project timeline that shows start and end dates of tasks, and the dependencies between tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_GanttChart.html
 release: australia
 product: Project Management
 classification: project-management
@@ -36,7 +37,7 @@ The colors of the task bars on the Gantt chart are based on the percent complete
 |Light blue bar|Task is pending or open.|
 |Dark blue bar \(full or partial\)|The percentage complete is between 1% and 100%. The dark blue section indicates the percentage complete. The task can be in the Work in Progress state or Completed state.|
 
-**Note:** The colors of the task bars on the Gantt chart can be configured from [program](../../program-management/task/t_AccessTheProgramWorkbench.md) workbench.
+**Note:** The colors of the task bars on the Gantt chart can be configured from [program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_AccessTheProgramWorkbench.md) workbench.
 
 ## SDLC phases
 
@@ -49,25 +50,25 @@ Icons appear next to tasks to indicate what phase they belong to.
 
 **Note:** Tasks in the waterfall phase do not display an icon.
 
--   **[Gantt chart options](../reference/r_EditTasks.md)**  
+-   **[Gantt chart options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_EditTasks.md)**  
 Use the Gantt chart to quickly change task attributes, such as start and end time, rather than opening every Task form and modifying field values one by one.
 
-**Parent Topic:**[Using Planning console - Legacy](c_TheProjectPlanningConsole.md)
+**Parent Topic:**[Using Planning console - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md)
 
 **Related topics**  
 
 
-[Open the project planning console](../task/t_OpenPlanningConsole.md)
+[Open the project planning console]()
 
-[Planning console tasks](../reference/r_PlanningConsoleTasks.md)
+[Planning console tasks]()
 
-[Client side planning console](client-side-planning-console.md)
+[Client side planning console]()
 
-[Create a parent-child relationship on the planning console](../task/t_CreateParentChildRelatConsole.md)
+[Create a parent-child relationship on the planning console]()
 
-[Predecessor dependencies in the planning console](../reference/r_ProjectTaskDependencyValues.md)
+[Predecessor dependencies in the planning console]()
 
-[Custom columns in the planning console](custom-columns-planning-console.md)
+[Custom columns in the planning console]()
 
-[Create a dependency from the planning console](../task/t_CreateADependency.md)
+[Create a dependency from the planning console]()
 

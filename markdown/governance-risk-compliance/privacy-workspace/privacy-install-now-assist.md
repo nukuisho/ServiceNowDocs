@@ -2,6 +2,7 @@
 title: Install Now Assist for Privacy Management
 description: Install Now Assist for Privacy Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace

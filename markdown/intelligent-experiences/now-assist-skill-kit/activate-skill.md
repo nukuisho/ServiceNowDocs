@@ -2,6 +2,7 @@
 title: Activate a skill
 description: After you publish a skill, a Now Assist admin must activate it in Now Assist Admin. Activating the skill makes it available for users to trigger within the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/activate-skill.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -64,22 +65,22 @@ After activation, the skill moves to the **Active** tab in Now Assist Admin. Use
 
 You can enable Now Assist Guardian for your skills. To learn more about Now Assist Guardian, see .
 
-**Parent Topic:**[Using Now Assist Skill Kit](../concept/using-now-assist-skill-kit.md)
+**Parent Topic:**[Using Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 
 **Related topics**  
 
 
-[Create a skill](create-new-skill.md)
+[Create a skill]()
 
-[Create a prompt](create-prompt-template.md)
+[Create a prompt]()
 
-[Use prompt assistance](use-prompt-assistance.md)
+[Use prompt assistance]()
 
-[Test a prompt](test-prompt-template.md)
+[Test a prompt]()
 
-[Evaluate a prompt](evaluate-prompt.md)
+[Evaluate a prompt]()
 
-[Finalize and publish a skill](publish-skill.md)
+[Finalize and publish a skill]()
 
-[Call a custom skill from a script](call-custom-skill-from-script.md)
+[Call a custom skill from a script]()
 

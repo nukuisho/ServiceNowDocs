@@ -2,6 +2,7 @@
 title: Using interactions in Agent Workspace for HR Case Management
 description: Use interaction records to create an HR case or reference employee information to decide to create a case or request from different types of employee communications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-interactions.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -19,9 +20,7 @@ An interaction is a request for assistance made through chat, phone, or in perso
 
 You can also create an interaction for simple requests where you decide you might not want to create an HR case or associated tasks.
 
-Interaction records are automatically created when you are using agent chat.
+Interaction records are automatically created when you're using agent chat.
 
 **Note:** Agent Assist is available for interactions.
-
-For more information on interactions, see Interaction records in Agent Workspace.
 

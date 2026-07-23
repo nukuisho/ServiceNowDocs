@@ -2,13 +2,14 @@
 title: Create a Slack channel for your project
 description: Create a Slack channel for your project to start collaborating with your team and receive timely updates of the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/create-collab-channel-from-project.html
 release: australia
 product: Project Management
 classification: project-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [PPM Collaboration for project teams, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a Slack channel for your project
@@ -47,10 +48,10 @@ Role required: it\_project\_manager
 
 If you are unable to create a channel, retry the procedure after sometime. If the issue persists, contact your system administrator.
 
-**Parent Topic:**[Using Project Management](../../project-management/concept/using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[Collaborate with your project teams using PPM Collaboration application](../concept/ppm-collab-overview.md)
+[PPM Collaboration for project teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-collab-overview.md)
 

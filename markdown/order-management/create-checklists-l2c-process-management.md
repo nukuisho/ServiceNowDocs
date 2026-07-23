@@ -2,6 +2,7 @@
 title: Create and manage task checklists
 description: Create and manage checklists to track progress on completing routine or repetitive tasks and processes such as fulfilling orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/create-checklists-l2c-process-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon ![](../../../reuse/icons/product-icons/list-outline-24.svg).
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 3.  Under **Lead to Cash Process Management**, select **Sales Process Records**.
 
@@ -35,7 +36,7 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
 8.  Repeat the steps to add more tasks to your checklist.
 
-    To remove a task while creating the checklist, select the Delete icon ![](../../../common/image/icon-delete-trashcan.png) next to the task entry.
+    To remove a task while creating the checklist, select the Delete icon \[Omitted image "icon-delete-trashcan.png"\] Alt text: next to the task entry.
 
 9.  Select **Save**.
 
@@ -49,10 +50,17 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
     3.  Add or delete an item.
 
-        -   To delete an item, select the Delete icon ![](../../../common/image/icon-delete-trashcan.png) next to the task entry.
+        -   To delete an item, select the Delete icon \[Omitted image "icon-delete-trashcan.png"\] Alt text: next to the task entry.
         -   To add an item, select **Add item** and provide the task name.
     4.  Select **Save**.
 
 
-**Parent Topic:**[Using Lead-to-Cash Process Management](../concept/using-lead-cash-process-management.md)
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-lead-cash-process-management.md)
+
+**Related topics**  
+
+
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configuring-lead-cash-process-management.md)
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/explore-lead-cash-process-management.md)
 

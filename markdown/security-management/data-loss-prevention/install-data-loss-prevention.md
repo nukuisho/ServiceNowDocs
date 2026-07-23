@@ -2,6 +2,7 @@
 title: Install and configure the DLP Incident Response application
 description: Manage sensitive information and automate the remediation workflows by using the Data Loss Prevention Incident Response \(DLP IR\) application in your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/install-data-loss-prevention.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -23,15 +24,15 @@ Roles required: admin and sn\_dlir.admin
 
 ## Procedure
 
-1.  Follow the instructions for [downloading an application from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
+1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/download-app-first-time.md).
 
-2.  After you have downloaded the **DLP Incident Response** application and all of its dependency applications, navigate to **All** &gt; **DLP Administration** &gt; **Default Configuration** to complete the rest of the [application configuration](configure-data-loss-prevention.md).
+2.  After you have downloaded the **DLP Incident Response** application and all of its dependency applications, navigate to **All** &gt; **DLP Administration** &gt; **Default Configuration** to complete the rest of the [application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-data-loss-prevention.md).
 
 
-**Parent Topic:**[Installing and configuring DLP IR Incident Response](../concept/install-dlp.md)
+**Parent Topic:**[Installing and configuring DLP IR Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/install-dlp.md)
 
 **Related topics**  
 
 
-[Domain separation and DLP Incident Response](../reference/domain-separation-and-dlp.md)
+[Domain separation and DLP Incident Response]()
 

@@ -2,6 +2,7 @@
 title: Configure a character counter for journal fields
 description: Configure a character counter to display the number of remaining characters in a journal field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-up-character-counter-journal-fields.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Add a system property named **glide.ui.textarea.character\_counter**.
 
-    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 3.  Set the Value to **true**.
 

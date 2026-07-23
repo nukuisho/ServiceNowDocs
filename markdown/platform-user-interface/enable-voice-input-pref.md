@@ -2,20 +2,21 @@
 title: Enable voice input for the Now Assist panel
 description: Learn more about the Enable voice input for the Now Assist panel accessibility preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/enable-voice-input-pref.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure accessibility preferences, Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure accessibility preferences, Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Enable voice input for the Now Assist panel
 
 Learn more about the Enable voice input for the Now Assist panel accessibility preference.
 
-**Note:** Voice input is automatically activated when the Now Assist panel is activated. As of the Zurich Patch 4 release, voice input is configured in the [Additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md) and not with this option.
+**Note:** Voice input is automatically activated when the Now Assist panel is activated. As of the Zurich Patch 4 release, voice input is configured in the [Additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md) and not with this option.
 
-![Enable voice input for the Now Assist panel.](../image/pol-pref-voice-input.png)
+\[Omitted image "pol-pref-voice-input.png"\] Alt text: Enable voice input for the Now Assist panel.
 
 The purpose of this preference is to provide an alternative input method.
 
@@ -23,7 +24,7 @@ The purpose of this preference is to provide an alternative input method.
 
 Learn more about this preference from the following tutorial:
 
-Voice input for Now Assist 
+\[Omitted video\] Description: Voice input for Now Assist
 
 <table id="table_kgl_jgy_hgc"><thead><tr><th>
 
@@ -64,13 +65,13 @@ Deactivated
 
 The Now Assist panel includes a microphone button for voice input.
 
-![Ask Now Assist search bar with Voice input preference turned on and microphone displayed.](../image/a11y-pref-voice-input-on.png)
+\[Omitted image "a11y-pref-voice-input-on.png"\] Alt text: Ask Now Assist search bar with Voice input preference turned on and microphone displayed.
 
 </td><td>
 
 The microphone button isn’t available in the Now Assist panel.
 
-![Ask Now Assist search bar without microphone displayed.](../image/a11y-pref-voice-input-off.png)
+\[Omitted image "a11y-pref-voice-input-off.png"\] Alt text: Ask Now Assist search bar without microphone displayed.
 
 </td></tr></tbody>
 </table>

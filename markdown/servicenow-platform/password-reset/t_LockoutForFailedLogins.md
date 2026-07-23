@@ -2,6 +2,7 @@
 title: Specify lockout for failed login attempts
 description: The system provides inactive script actions that enable you to specify the number of failed login attempts before a user account is locked and to reset the count after a successful login.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_LockoutForFailedLogins.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -25,7 +26,7 @@ Role required: password\_reset\_admin
 
     **Note:** Starting with the Kingston release, following a zBoot, the script actions **SNC User Lockout Check with Auto Unlock** and **SNC User Clear** are activated.
 
-    To learn more about properties that affect failed login attempts, see [Managing failed login attempts \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-managing-failed-login-attempts.md) in the Instance Security Hardening Settings.
+    To learn more about properties that affect failed login attempts, see [Managing failed login attempts \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/sc-managing-failed-login-attempts.md) in the Instance Security Hardening Settings.
 
 <table id="table_yzs_qcf_g1b"><thead><tr><th>
 
@@ -70,28 +71,28 @@ Each time a user attempts to log in, the action is recorded in an event log. You
 1.  Navigate to **System Policy** &gt; **Event Logs**.
 2.  Filter for **login.failed** in the **Name** field. You can view the attempted login name, date, and IP address logged for the attempt.
 
-**Parent Topic:**[Configure your Password Reset process](../../login/task/t_CreateAPasswordResetProcess.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
 
 **Related topics**  
 
 
-[Calculating the security score for password reset process](../../login/reference/pwd-reset-process-recommend.md)
+[Calculating the security score for password reset process]()
 
-[Configure password expiration reminder](../../login/task/password-reset-expiration-setup.md)
+[Configure password expiration reminder]()
 
-[Credential stores for Password Reset](../../login/concept/c_CredentialStores.md)
+[Credential stores for Password Reset]()
 
-[Password Reset verifications](../../login/concept/c_PWRVerifications.md)
+[Password Reset verifications]()
 
-[Configure your Password Reset process to auto-enroll users](configure-auto-enroll-for-pwd-reset.md)
+[Configure your Password Reset process to auto-enroll users]()
 
-[Enable users to enroll for Password Reset](configure-user-enroll-for-pwd-reset.md)
+[Enable users to enroll for Password Reset]()
 
-[Configure Password Reset properties](../../login/task/t_SetPwdResetProps.md)
+[Configure Password Reset properties]()
 
-[Send email to remind users to enroll for Password Reset](../../login/task/config-pwd-reset-enroll-reminder.md)
+[Send email to remind users to enroll for Password Reset]()
 
-[Configure the required strength for passwords](../../login/task/config-pwd-strength-rqmts.md)
+[Configure the required strength for passwords]()
 
-[Configure Google reCAPTCHA for the password reset process](../../login/task/t_ConfigureGoogleRecaptcha.md)
+[Configure Google reCAPTCHA for the password reset process]()
 

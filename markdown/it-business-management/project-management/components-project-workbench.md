@@ -2,6 +2,7 @@
 title: Components of project workbench
 description: The project workbench displays project information in two distinct areas. The top pane displays the project visualization, and the bottom pane displays phase details in a list view or visual task board. There is also a header above the workbench that includes several buttons and controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/components-project-workbench.html
 release: australia
 product: Project Management
 classification: project-management
@@ -25,13 +26,13 @@ The first time a user accesses the project workbench from the Project menu, the 
 
 After a project is opened, the header displays additional components, depending on the type of project selected.
 
--   Back \(![screenshot for back icon](../image/ProjectWorkbenchBackIcon.png)\): takes the user to the Project form to view the project details.
+-   Back \(\[Omitted image "ProjectWorkbenchBackIcon.png"\] Alt text: screenshot for back icon\): takes the user to the Project form to view the project details.
 -   **Select Project**: displays the current project name. Click the down arrow to select a new project.
--   Add phase icon \(![screenshot for Add phase icon](../image/ProjectWorkbenchAddPhaseIcon.png)\): adds a phase or milestone to the timeline.
+-   Add phase icon \(\[Omitted image "ProjectWorkbenchAddPhaseIcon.png"\] Alt text: screenshot for Add phase icon\): adds a phase or milestone to the timeline.
 -   **Apply Template**: opens a dialog box for setting a start date and adding a template to the project. This button appears for new or blank projects that have no phases.
--   **Manage Stories**: under the Options icon \(![screenshot for Options icon](../image/elipsis_icon.png)\) displays the story backlog for this project.
--   **List**: under the Options icon \(![screenshot for Options icon](../image/elipsis_icon.png)\) displays additional details in list view about the currently selected phase. This button appears if a project has one or more phases.
--   **VTB**: under the Options icon \(![screenshot for Options icon](../image/elipsis_icon.png)\) displays additional details in the Visual Task Board about the currently selected phase. This button appears if a project has one or more phases.
+-   **Manage Stories**: under the Options icon \(\[Omitted image "elipsis\_icon.png"\] Alt text: screenshot for Options icon\) displays the story backlog for this project.
+-   **List**: under the Options icon \(\[Omitted image "elipsis\_icon.png"\] Alt text: screenshot for Options icon\) displays additional details in list view about the currently selected phase. This button appears if a project has one or more phases.
+-   **VTB**: under the Options icon \(\[Omitted image "elipsis\_icon.png"\] Alt text: screenshot for Options icon\) displays additional details in the Visual Task Board about the currently selected phase. This button appears if a project has one or more phases.
 
 ## Timeline
 
@@ -77,14 +78,14 @@ The bottom pane of the project workbench displays detailed information for the p
 
 Information in the bottom pane can be displayed in list view or in a visual task board. The **List** and **VTB** buttons in the Project Workbench header control how this information is displayed.
 
-**Parent Topic:**[Using Project workbench - Legacy](c_ProjectWorkbench.md)
+**Parent Topic:**[Using Project workbench - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_ProjectWorkbench.md)
 
 **Related topics**  
 
 
-[Access the project workbench](../task/t_AccessTheProjectWorkbench.md)
+[Access the project workbench]()
 
-[Project calculation](c_ProjectWorkbenchProjectCalc.md)
+[Project calculation]()
 
-[Managing Project workbench](c_UsingProjectWorkbench.md)
+[Managing Project workbench]()
 

@@ -2,6 +2,7 @@
 title: Configure a skill in Now Assist for Public Sector Digital Services \(PSDS\)
 description: Configure the triggers, settings, and display locations for Now Assist skills to enable GenAI capabilities across the Public Sector Digital Services agent platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/government-industry/now-assist-psds-configure-skill.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,10 +20,10 @@ Each skill is configured separately, and tailored to support agents across vario
 
 |Skill|Description|
 |-----|-----------|
-|Document screening|Review and validate uploaded documents autonomously, checking IDs, tax forms, and other supporting documents. This skill flags potential issues and surfaces key details, applying consistent validation logic across every submission. For more info, see [Configure Document screening](psds-ai-skill-doc-screening.md#).|
-|Investigative case summarization|Synthesize narratives, entities, evidence, and activity into a structured summary, enabling agents to grasp case contexts and respond to inquiries. Generate detailed resolution information for investigative outcomes, allowing agents to propose solutions and integrate generated information into the case record. For more info, see [Configure Investigative case summarization](now-assist-psds-config-inv-case-summ.md).|
-|Government case summarization|Summarize the case details and display this information on the case record, helping agents to grasp the context of a case. For more information, see [Configure Case summarization](now-assist-psds-customize-case-summ.md).|
-|Chat summarization|Auto-generate summaries of agent-facing chats, capturing the essence of conversations between agents and constituents or virtual agents, highlighting key points and enabling critical information from interactions to be readily accessible for future reference and actions. For more information, see[Configure Chat summarization](now-assist-psds-customize-chat-summ.md).|
+|Document screening|Review and validate uploaded documents autonomously, checking IDs, tax forms, and other supporting documents. This skill flags potential issues and surfaces key details, applying consistent validation logic across every submission. For more info, see [Configure Document screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/psds-ai-skill-doc-screening.md).|
+|Investigative case summarization|Synthesize narratives, entities, evidence, and activity into a structured summary, enabling agents to grasp case contexts and respond to inquiries. Generate detailed resolution information for investigative outcomes, allowing agents to propose solutions and integrate generated information into the case record. For more info, see [Configure Investigative case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-config-inv-case-summ.md).|
+|Government case summarization|Summarize the case details and display this information on the case record, helping agents to grasp the context of a case. For more information, see [Configure Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-customize-case-summ.md).|
+|Chat summarization|Auto-generate summaries of agent-facing chats, capturing the essence of conversations between agents and constituents or virtual agents, highlighting key points and enabling critical information from interactions to be readily accessible for future reference and actions. For more information, see[Configure Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-customize-chat-summ.md).|
 
 The Now Assist Admin console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md)
 
@@ -50,7 +51,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Features** tab of the Now Assist Admin console.
 
-    ![Menu dropdown showing Now Assist Admin](../image/nowassist_psds_admin.png)
+    \[Omitted image "nowassist\_psds\_admin.png"\] Alt text: Menu dropdown showing Now Assist Admin
 
 2.  Activate and configure the skills for the Now Assist for PSDS.
 
@@ -60,19 +61,19 @@ Role required: admin
     -   Chat Summarization
     These features are grouped under the **Customer** workflow group. Select **PSDS** in the dropdown to access the skills for Now Assist for Public Sector Digital Services \(PSDS\). Each feature has its associated skills.
 
-    ![Menu dropdown showing PSDS in the list of Now Assist Products](../image/now-assist-psds-panel.png)
+    \[Omitted image "now-assist-psds-panel.png"\] Alt text: Menu dropdown showing PSDS in the list of Now Assist Products
 
 3.  On the feature card that is associated with the skill that you would like to activate, select **View details**.
 
     For the Government case summarization skill, select **View details** under the Government case feature card.
 
-    ![Feature card showing option to view skill details](../image/nowassist_psds_viewdetails.png)
+    \[Omitted image "nowassist\_psds\_viewdetails.png"\] Alt text: Feature card showing option to view skill details
 
 4.  In the All available skills section for the desired feature, select **Activate skill**.
 
 5.  Select the inputs or triggers for the selected skill.
 
-    ![Example Define triggers screen for the chat skill.](../image/chat-summ-define-triggers-na-psds.png "Example Define trigger screen for the Chat summarization skill")
+    \[Omitted image "chat-summ-define-triggers-na-psds.png"\] Alt text: Example Define triggers screen for the chat skill.
 
 6.  After you configure all inputs or triggers for the selected skill, select **Save and continue** to go to the next step.
 
@@ -97,7 +98,7 @@ Role required: admin
 
 11. Review your choices and select **Activate** to complete the configuration.
 
-    ![Modal showing Activate option for the government case summarization skill](../image/nowassist_psds_activate.png)
+    \[Omitted image "nowassist\_psds\_activate.png"\] Alt text: Modal showing Activate option for the government case summarization skill
 
 
 ## Result
@@ -113,7 +114,7 @@ You can go back to the Now Assist Features page to configure another skill.
 
 [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Configure Now Assist for Public Sector Digital Services \(PSDS\)](now-assist-psds-configuring.md)
+[Configure Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-configuring.md)
 
-[Using generative AI with Now Assist for Public Sector Digital Services \(PSDS\)](now-assist-psds-using.md)
+[Using generative AI with Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-using.md)
 

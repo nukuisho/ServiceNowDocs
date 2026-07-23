@@ -1,17 +1,18 @@
 ---
-title: Producing outbound trouble ticket notifications using the open message bus
+title: Outbound trouble ticket notifications via open message bus
 description: Produce an outbound notification from the ServiceNow instance using the open message bus. Customers can consume the details of the notification from the message bus in their external system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Handling API notifications, Use, Product Support for Technology]
+breadcrumb: [Use, API Notification Management, Product Support for Technology]
 ---
 
-# Producing outbound trouble ticket notifications using the open message bus
+# Outbound trouble ticket notifications via open message bus
 
 Produce an outbound notification from the ServiceNow instance using the open message bus. Customers can consume the details of the notification from the message bus in their external system.
 
@@ -26,9 +27,9 @@ In the Australia release, the following events are supported for trouble ticket 
 
 ## Prerequisites
 
-Before producing outbound notifications, it’s necessary to create the egress topics on the Topic \[sn\_api\_notif\_mgmt\_topic\] table in the ServiceNow instance. When you create an egress topic, the system runs a business rule and attempts to synchronize the topic to the message bus based on configuration. To learn more about manually creating a topic in the Topic table, see [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/create-topic-API-notification.md). The system synchronizes only the egress topic with the message bus in the external system. The **user\_created** field in the associated topic record is set to true.
+Before producing outbound notifications, it’s necessary to create the egress topics on the Topic \[sn\_api\_notif\_mgmt\_topic\] table in the ServiceNow instance. When you create an egress topic, the system runs a business rule and attempts to synchronize the topic to the message bus based on configuration. To learn more about manually creating a topic in the Topic table, see [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/create-topic-API-notification.md). The system synchronizes only the egress topic with the message bus in the external system. The **user\_created** field in the associated topic record is set to true.
 
-Alternatively, you can create the topics on the message bus in your external system and push them into the Topic table in ServiceNow instance. The customers invoke the Event Management Topic Open API endpoint, which stores the topic in the Topic \[sn\_api\_notif\_mgmt\_topic\] table of ServiceNow instance. The **user\_created** field in the associated topic record is set to false. To learn more about the methods that are used when processing the Event Management Topic Open API endpoint, see [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/event_management_topic-api.md).
+Alternatively, you can create the topics on the message bus in your external system and push them into the Topic table in ServiceNow instance. The customers invoke the Event Management Topic Open API endpoint, which stores the topic in the Topic \[sn\_api\_notif\_mgmt\_topic\] table of ServiceNow instance. The **user\_created** field in the associated topic record is set to false. To learn more about the methods that are used when processing the Event Management Topic Open API endpoint, see [Event Management Topic Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/event_management_topic-api.md).
 
 ## Workflow
 
@@ -41,7 +42,7 @@ The workflow for producing the outbound notification by using the open message b
 2.  The system pushes the Glide snapshot and event type in the staging table, which acts as a queue.
 3.  The producer framework picks the event and converts it to a TMF 688 complaint event payload.
 
-    To learn more about the producer framework, see [Using the producer framework for outbound notifications](using-producer-framework-for-trouble-ticket-notification.md).
+    To learn more about the producer framework, see [Using the producer framework for outbound notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/using-producer-framework-for-trouble-ticket-notification.md).
 
 4.  The topic picker mechanism determines the topics, which are compatible with the event type. Topic picker performs the following steps to check the compatibility of the topics:
 
@@ -56,6 +57,8 @@ The workflow for producing the outbound notification by using the open message b
 
 7.  The customers can consume the message in their message bus REST Proxy.
 
+**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
+
 **Related topics**  
 
 
@@ -63,5 +66,5 @@ The workflow for producing the outbound notification by using the open message b
 
 [EventQueueProcessorOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EventQueueProcessorOOBScopedAPI.md)
 
-[External event management via Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
+[External event management via Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-api-notification.md)
 

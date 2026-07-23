@@ -2,6 +2,7 @@
 title: Disable SNMP-based NetApp storage cluster discovery
 description: Disable the default SNMP-based NetApp storage cluster discovery and use REST-based discovery instead for enhanced security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/disable-snmp-netapp-discovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -34,10 +35,10 @@ Role required: discovery\_admin
 
 ## What to do next
 
-Configure basic authentication credentials for a user with a read-only role. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+Configure basic authentication credentials for a user with a read-only role. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
 **Related topics**  
 
 
-[NetApp Server and Cluster discovery](../../discovery/concept/netapp-discovery.md)
+[NetApp Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/netapp-discovery.md)
 

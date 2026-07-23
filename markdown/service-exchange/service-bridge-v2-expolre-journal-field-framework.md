@@ -2,12 +2,14 @@
 title: Journal field frameworks
 description: The Journal Field Framework \(JFF\) enables real-time synchronization of journal type fields, such as comments and work notes, between provider and consumer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-expolre-journal-field-framework.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-13"
 reading_time_minutes: 2
+keywords: [journal field framework, JFF, journal synchronization, comments work notes, remote task definition]
 breadcrumb: [Explore, Service Exchange]
 ---
 
@@ -31,7 +33,7 @@ With JFF, you can do the following:
     -   Work notes to comments
     When a remote task is created based on the RTD, these mapped journal fields are automatically synchronized between the provider and consumer instances. As a result, when comments or work notes are posted in one instance, they appear in the connected instance as well.
 
-    A comment-to-comment mapping is created by default in both the **Inbound** and the **Outbound** field configurations while creating a remote task definition from Service Exchange version 2.2.x. For more information, see [Create a remote task definition in Service Exchange for Providers](../task/service-bridge-v2-create-remote-tasks-defs.md).
+    A comment-to-comment mapping is created by default in both the **Inbound** and the **Outbound** field configurations while creating a remote task definition from Service Exchange version 2.2.x. For more information, see [Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
 
     -   **Rules of journal field mapping**
 
@@ -64,7 +66,7 @@ Journal synchronization or synchronize of historical journals might not work for
 **Related topics**  
 
 
-[Create a remote task definition in Service Exchange for Providers](../task/service-bridge-v2-create-remote-tasks-defs.md)
+[Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md)
 
-[Activate a remote task definition record in Service Exchange](../task/service-bridge-v2-activate-remote-task.md)
+[Activate a remote task definition record in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-activate-remote-task.md)
 

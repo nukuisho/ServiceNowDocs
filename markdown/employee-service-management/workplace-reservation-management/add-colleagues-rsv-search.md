@@ -2,6 +2,7 @@
 title: Add invitees as collaborators and create a reservation
 description: Employee can add their colleagues as collaborators while making a reservation. Employees can view availability of their colleagues on the reservation portal search page while making a reservation to find an available space.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-colleagues-rsv-search.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -24,7 +25,7 @@ Workplace Reservation Management should be integrated with Microsoft Exchange On
 For more information about setting up Microsoft Azure portal configuration, see [Set up Microsoft Exchange](https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/setup-ms-exch-ol.html?contentId=R1EDI02PGW_yQSiS3EQ1ow). To set up the Find Meeting Times and Lookup Schedules spoke actions for Microsoft Exchange Online, see [Microsoft Exchange Online Spoke Action](https://www.servicenow.com/docs/r/xanadu/integrate-applications/integration-hub/ms-exch-online-spoke.html).
 
 -   Microsoft Exchange Online integration is enabled with Workplace Reservation Management with availability of Spoke action 'Find Meeting Times'.
--   Ensure the Reservable Module property **Allow attendees-based search** option is enabled by your administrator. This property is available when you've installed and configured Workplace Calendar Synchronization. For more information, see [Configure Workplace Calendar Synchronization](../../workplace-calendar-synchronization/concept/configure-rsv-sync.md)
+-   Ensure the Reservable Module property **Allow attendees-based search** option is enabled by your administrator. This property is available when you've installed and configured Workplace Calendar Synchronization. For more information, see [Configure Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-rsv-sync.md)
 -   The sys\_user table must be populated with valid user data. Employees can select attendees for their event from the sys\_user table.
 -   Valid user email Id should be configured in Microsoft Exchange Online. When email Id is missing or not configured, the status of an employee is shown as unknown in the add attendee list.
 -   Workplace Calendar Synchronization should be installed and configured.
@@ -39,7 +40,7 @@ Role required: admin
 
     On the form, fill in the fields.
 
-    ![Make a reservation form.](../image/make-reservation-page-add-invitees.png)
+    \[Omitted image "make-reservation-page-add-invitees.png"\] Alt text: Make a reservation form.
 
 <table id="table_nxh_43v_j3c"><thead><tr><th>
 
@@ -55,7 +56,7 @@ Type
 
 </td><td>
 
-Select a Reservable Module \(Example, Desks, Meeting rooms, and so on\)**Note:** Allow attendee-based search is not supported for shift-based Reservable Module configuration. For more information, see [Configure a reservable module](config-reservable-module.md).
+Select a Reservable Module \(Example, Desks, Meeting rooms, and so on\)**Note:** Allow attendee-based search is not supported for shift-based Reservable Module configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 Google Calendar and Microsoft On premises are not supported for you to add colleagues as collaborators in a reservation.
 
@@ -89,7 +90,7 @@ When
 
 </td><td>
 
-Select the meeting duration. The meeting duration is shown based on your building time zone. For example, Europe/Amsterdam timezone.The start date and end date is dependent on the on Max days in future value. If Max days in future module configuration value is 6, you cannot reserve a location beyond this duration. /Max number of occurrences. Employees cannot select a date beyond the range specified in these Reservable Module configuration. For more information, see [Configure a reservable module](config-reservable-module.md).
+Select the meeting duration. The meeting duration is shown based on your building time zone. For example, Europe/Amsterdam timezone.The start date and end date is dependent on the on Max days in future value. If Max days in future module configuration value is 6, you cannot reserve a location beyond this duration. /Max number of occurrences. Employees cannot select a date beyond the range specified in these Reservable Module configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +114,7 @@ Recurring
 
 </td><td>
 
-Select the required recurring event option from the drop-down list. For example, Daily, Weekly, Monthly, Custom and so on. For more information, see [Create a reservation](create-reservation-request-1.md).**Note:** Recurring event scheduling is dependent on the **Max number of Occurrences** and **Max days in future** Reservable Module property value. You cannot select recurring occurrences beyond the value specified in the **Max number of Occurrences** Reservable module property value.
+Select the required recurring event option from the drop-down list. For example, Daily, Weekly, Monthly, Custom and so on. For more information, see [Create a reservation]().**Note:** Recurring event scheduling is dependent on the **Max number of Occurrences** and **Max days in future** Reservable Module property value. You cannot select recurring occurrences beyond the value specified in the **Max number of Occurrences** Reservable module property value.
 
 In case of recurring reservations \(Daily, Weekly, Monthly, or Custom\), time suggestions for selected attendees are shown only for a single day \(24-hour\) duration. For Weekly, time suggestion for the first occurrence in a series is shown. For Daily and monthly recurring reservations, time suggestion for the first occurrence is shown.
 
@@ -140,17 +141,17 @@ In case of recurring reservations \(Daily, Weekly, Monthly, or Custom\), time su
     -   White, pink dot or arrow in Purple: Often appears for Out of Office events or shared calendar items.
     **Note:** These colors and icons may vary slightly between classic Microsoft Outlook, New Microsoft Outlook, and Microsoft Outlook on the web, but "Show As" meanings \(Busy/Free/Tentative\) remain consistent.
 
-    ![Unknown user shown by a null or empty color in the Add Availability dialog box.](../image/add-invitees-unknown-user-email-not-config.png)
+    \[Omitted image "add-invitees-unknown-user-email-not-config.png"\] Alt text: Unknown user shown by a null or empty color in the Add Availability dialog box.
 
 4.  In the Add invitees and find availability dialog box, select attendees or collaborators that you want to add to your meeting.
 
-    ![Add invitees and find availability dialog box.](../image/add-invitees-dialog-box-select.png)
+    \[Omitted image "add-invitees-dialog-box-select.png"\] Alt text: Add invitees and find availability dialog box.
 
     The application adds attendees to your meeting and syncs the attendees calendar event to your calendar.
 
     When the application is unable to fetch attendees availability, it shows a message. “Unable to load availability. Availability cannot be loaded. You can continue with your reservation”.
 
-    ![Add invitees dialog box showing unavailability of selected attendees.](../image/add-invitees-message-availability-cannot-be-loaded.png)
+    \[Omitted image "add-invitees-message-availability-cannot-be-loaded.png"\] Alt text: Add invitees dialog box showing unavailability of selected attendees.
 
     **Note:** If you change the start and end date, the list is refreshed.
 
@@ -165,19 +166,19 @@ In case of recurring reservations \(Daily, Weekly, Monthly, or Custom\), time su
 
     If you add multiple attendees or invitees, the users are displayed in horizontal sequence or series. At a time, five attendees names are displayed. If there are more than five attendees, expand the plus option to view additional attendees.
 
-    ![Add multiple invitees to your meeting for collaboration. Remove attendees as required.](../image/rsv-add-invitees-plus-number.png)
+    \[Omitted image "rsv-add-invitees-plus-number.png"\] Alt text: Add multiple invitees to your meeting for collaboration. Remove attendees as required.
 
-    You can remove an attendee by selecting the remove option icon \(![Remove icon.](../image/remove-invitee-icon.png)\).
+    You can remove an attendee by selecting the remove option icon \(\[Omitted image "remove-invitee-icon.png"\] Alt text: Remove icon.\).
 
     **Note:** Availability for selected attendees is shown for 24-hour duration only. If you select a duration beyond this, the application shows "Availability is checked for the first 24-hours only". Suggestions are shown only for 24-hour duration for attendees availability. Microsoft Exchange Online's **Find Meeting Times** spoke action doesn't return attendees' availability for more than 24-hours.
 
     For recurring reservations, application shows availability based on the first occurrence, and doesn't calculate the availability based on all occurrences or a sub-set of it. For Weekly, time suggestion for the first occurrence in a series is shown. For Daily and monthly recurring reservations, time suggestion for the first occurrence is shown.
 
-    ![Availability for attendees in the Suggestions panel are shown only for 24-hour duration.](../image/rsv-attendees-availability-24hrs-only.png)
+    \[Omitted image "rsv-attendees-availability-24hrs-only.png"\] Alt text: Availability for attendees in the Suggestions panel are shown only for 24-hour duration.
 
     Select **More Suggestions** to load additional suggestions. At a time, the maximum number of suggestions up to 7 days are displayed or shown at a time. This is dependent on the **Max days in future** Reservable Module configuration property. If your Max days in future value is 5, you get suggestions for 5 days only.
 
-    ![Message showing max number of suggestions that can be loaded at a time.](../image/rsv-attendees-max-number-suggestions-message.png)
+    \[Omitted image "rsv-attendees-max-number-suggestions-message.png"\] Alt text: Message showing max number of suggestions that can be loaded at a time.
 
 6.  Select **Confirm**.
 
@@ -199,7 +200,7 @@ In case of recurring reservations \(Daily, Weekly, Monthly, or Custom\), time su
 
 10. Complete the required information on the Reservation details page.
 
-    For more information, see [Create a reservation](create-reservation-request-1.md).
+    For more information, see [Create a reservation]().
 
 11. Select Invite Attendees to add external visitors or guests.
 
@@ -209,51 +210,51 @@ In case of recurring reservations \(Daily, Weekly, Monthly, or Custom\), time su
 
 13. Edit or update your reservation or workplace services as required.
 
-    For more information, see [View or update reservations](view-reservations.md)
+    For more information, see [View or update reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/view-reservations.md)
 
 14. Select **Submit** to create a reservation and add invitees as collaborators to your reservation.
 
 15. Review the Reservation summary page.
 
-    ![Reservation summary page showing internal and external attendees that are added to a reservation.](../image/rsv-summary-page-showing-attendees-added.png)
+    \[Omitted image "rsv-summary-page-showing-attendees-added.png"\] Alt text: Reservation summary page showing internal and external attendees that are added to a reservation.
 
     The Reservation summary page displays the invitees or attendees that are added to your reservation. The internal invitees \(attendees\) column that you've added shows Microsoft Exchange Online user mail IDs. External visitors' column show their personal mail IDs.
 
 
-**Parent Topic:**[Reserve workplace items](../concept/reserve-workplace-items.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
 
 
-[Create a reservation](create-reservation-request-1.md)
+[Create a reservation]()
 
-[Auto-resolve recurring reservations](recurring-reservations.md)
+[Auto-resolve recurring reservations]()
 
-[Set a location as favorite using the Space details page](set-a-location-as-favorite.md)
+[Set a location as favorite using the Space details page]()
 
-[Reserve a space near your colleague](browse-near-person-rsv.md)
+[Reserve a space near your colleague]()
 
-[Create a multi-day reservation](create-multi-day-reservation.md)
+[Create a multi-day reservation]()
 
-[Create multi-building reservations](create-multi-building-reservation.md)
+[Create multi-building reservations]()
 
-[Create neighborhood reservations](create-neighborhood-reservations.md)
+[Create neighborhood reservations]()
 
-[Create reservation for multiple workplace items](create-reservation-for-multiple-wrkplceitems-1.md)
+[Create reservation for multiple workplace items]()
 
-[Enable shift-based reservation](enable-shift-based-reservation.md)
+[Enable shift-based reservation]()
 
-[Create a reservation along with a shared reservation](create-rsv-along-with-shared-rsv.md)
+[Create a reservation along with a shared reservation]()
 
-[Create a reservation including a virtual meeting link](Create-reservation-with-virtual-meeting.md)
+[Create a reservation including a virtual meeting link]()
 
-[Create a shift reservation](create-a-shift-reservation.md)
+[Create a shift reservation]()
 
-[Create a group reservation](create-group-reservation.md)
+[Create a group reservation]()
 
-[Share, modify, or cancel a reservation](modify-cancel-res-request.md)
+[Share, modify, or cancel a reservation]()
 
-[Reserve a workplace using the Quick Reservation widget](reserve-workplace-for-a-time-slot.md)
+[Reserve a workplace using the Quick Reservation widget]()
 
-[Download an iCalendar for a reservation](generate-ical.md)
+[Download an iCalendar for a reservation]()
 

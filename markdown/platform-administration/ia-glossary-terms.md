@@ -1,19 +1,20 @@
 ---
-title: Now Assist for Setup terminology
-description: Before getting started with Now Assist for Setup, it's important to understand some key terms used in the application.
+title: Setup Hub terminology
+description: Before getting started with Setup Hub, it's important to understand some key terms used in the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-glossary-terms.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-17"
 reading_time_minutes: 1
-breadcrumb: [Reference, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Setup Hub, Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Now Assist for Setup terminology
+# Setup Hub terminology
 
-Before getting started with Now Assist for Setup, it's important to understand some key terms used in the application.
+Before getting started with Setup Hub, it's important to understand some key terms used in the application.
 
-**Parent Topic:**[Now Assist for Setup references](../reference/ia-reference.md)
+**Parent Topic:**[Setup Hub references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-reference.md)
 
 ## application scope
 

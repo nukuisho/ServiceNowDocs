@@ -2,6 +2,7 @@
 title: Monitoring queues in Instance Data Replication
 description: Monitor the replication record queue, message produced queue, message consumed queue, and the messages processed for all replications sets through the Instance Data Replication \(IDR\) Queue Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/idr-queue-dashboard.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -35,7 +36,7 @@ In any chart, select **Last 24 Hours** or **Last 5 Days** as the time period. Fo
 
 Select the legend link under the chart to exclude that data source.
 
-![Queue dashboard.](../image/idr-queue-dashboard.png "IDR Queue Dashboard")
+\[Omitted image "idr-queue-dashboard.png"\] Alt text: Queue dashboard.
 
 ## IDR Queued Producer Records
 
@@ -96,22 +97,22 @@ If the producer is sending records to the message queue and the consumer is not 
 
 Position your cursor over a point in the chart to see the message count and replication set name for that point.
 
-**Parent Topic:**[Administering Instance Data Replication](administering-instance-data-replication.md)
+**Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
 
 
-[Manage consumer access to replication data in Instance Data Replication](../task/approve-consumer.md)
+[Manage consumer access to replication data in Instance Data Replication]()
 
-[Comparing replicated data between instances in Instance Data Replication](comparing-replicated-data.md)
+[Comparing replicated data between instances in Instance Data Replication]()
 
-[Deploying a replication configuration from one instance to another in Instance Data Replication](copying-replication-configuration.md)
+[Deploying a replication configuration from one instance to another in Instance Data Replication]()
 
-[Cloning options with Instance Data Replication](cloning-with-instance-data-replicaton.md)
+[Cloning options with Instance Data Replication]()
 
-[Monitoring replication status in Instance Data Replication](instance-data-replication-dashboard.md)
+[Monitoring replication status in Instance Data Replication]()
 
-[Avoiding insert and update errors in Instance Data Replication](preventing-insert-update-errors.md)
+[Avoiding insert and update errors in Instance Data Replication]()
 
-[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+[Resolving data replication errors in Instance Data Replication]()
 

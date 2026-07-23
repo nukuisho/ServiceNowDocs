@@ -2,11 +2,12 @@
 title: Components installed with Localization Workspace
 description: Several types of components are installed with activation of the Localization Workspace plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-components-installed-with.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-19"
 reading_time_minutes: 1
 breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -15,40 +16,15 @@ breadcrumb: [Localization Workspace reference, Localization Workspace, Translati
 
 Several types of components are installed with activation of the Localization Workspace plugin, including tables, user roles, and scheduled jobs.
 
+## Components from Localization Framework used in Localization Workspace
+
+Localization Workspace builds on functionality from Localization Framework, including tables and roles. Installing Localization Workspace also installs Localization Framework if it isn't already activated. For detailed information see [Components installed with Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/components-installed-with-lf.md).
+
 ## Roles installed
 
-<table id="table_akc_n14_52c"><thead><tr><th>
+For detailed information about roles installed see [Localization Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace-roles.md).
 
-Role title \[name\]
-
-</th><th>
-
-Description
-
-</th><th>
-
-Contains roles
-
-</th></tr></thead><tbody><tr><td>
-
-Localization Workspace user
-
- \[sn\_lw.user\]
-
-</td><td>
-
-Assign this role to any user working in Localization Workspace.
-
-</td><td>
-
-From version 2.0.2: canvas\_user
-
- From version 3.0.0: content\_admin, import\_set\_loader, import\_transformer
-
-**Note:** The content\_admin role is different from the sn\_cd.content\_admin role. For more information about sn\_cd.content\_admin, see [Types of Localizable content in Localization Workspace](lw-localizable-content.md).
-
-</td></tr></tbody>
-</table>## Scheduled jobs installed
+## Scheduled jobs installed
 
 <table id="table_ckc_n14_52c"><thead><tr><th>
 
@@ -94,6 +70,14 @@ Glossary Source \(from version 3.0.0\)
 </td><td>
 
 \[sn\_lw\_glossary\_source\]
+
+</td></tr><tr><td>
+
+LW Glossary Export Data \(from version 3.1.0\)
+
+</td><td>
+
+\[sn\_lw\_glossary\_export\_data\]
 
 </td></tr><tr><td>
 
@@ -192,10 +176,10 @@ Translation Target Group Info \(from version 2.0.2\)
 \[sn\_lw\_target\_group\_info\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Localization Workspace reference](../concept/localization-workspace-reference.md)
+</table>**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace-reference.md)
 
 **Related topics**  
 
 
-[Find components installed with an application](../../plugins/task/find-components.md)
+[Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md)
 

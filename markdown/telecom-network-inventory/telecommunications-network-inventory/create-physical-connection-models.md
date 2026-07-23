@@ -2,6 +2,7 @@
 title: Create a physical connection model
 description: Create a physical connection model in the Telecommunications Network Inventory application to define the metadata for the different physical connections. In the physical connection model, you can import models, attach a file or an image, add or remove optional fields, and add compatibilities and substitutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-physical-connection-models.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,7 +28,7 @@ When you create a physical connection model record, it creates a model in the Ph
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Inventory Models** &gt; **Physical Connection Models**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Inventory Models** &gt; **Physical Connection Models**.
 
 3.  Select **New**.
 
@@ -43,15 +44,15 @@ When you create a physical connection model record, it creates a model in the Ph
 
 5.  On the **Details** tab, fill in the general section of the form for the physical connection model.
 
-    **Note:** To learn more about the fields, see [Inventory Model form - General](../reference/tni-model-form-general.md).
+    **Note:** To learn more about the fields, see [Inventory Model form - General](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-general.md).
 
 6.  On the **Details** tab, fill in the information section of the form for the physical connection model.
 
-    To learn more about the fields, see [Inventory Model form - Information](../reference/tni-model-form-information.md).
+    To learn more about the fields, see [Inventory Model form - Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-model-form-information.md).
 
 7.  To add the compatible models, select **Add Compatible**.
 
-    You can personalize the list of compatibles by using the gear icon \(![Gear icon.](../image/Personalize_1.png)\).
+    You can personalize the list of compatibles by using the gear icon \(\[Omitted image "Personalize\_1.png"\] Alt text: Gear icon.\).
 
     **Note:** In the classic environment, this function is available only for administrators.
 
@@ -61,19 +62,19 @@ When you create a physical connection model record, it creates a model in the Ph
 
     **Note:** In the classic environment, this function is available only for administrators.
 
-9.  To add the attachments, such as graphics or documents, select the attachment icon \(![Attachment icon.](../image/attachments-icon.png)\) in the right panel.
+9.  To add the attachments, such as graphics or documents, select the attachment icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon.\) in the right panel.
 
 10. Select **Save**.
 
-    The related tabs appear on the form. You can view or modify the tabs information. To learn more about the related tabs, see [Inventory models additional tabs](../reference/additional-tabs-of-inventory-models.md).
+    The related tabs appear on the form. You can view or modify the tabs information. To learn more about the related tabs, see [Inventory models additional tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/additional-tabs-of-inventory-models.md).
 
-11. To delete a model, select the options icon \(![Options icon.](../image/options-icon.png)\) next to the **Save** button, and click **Delete**.
+11. To delete a model, select the options icon \(\[Omitted image "options-icon.png"\] Alt text: Options icon.\) next to the **Save** button, and click **Delete**.
 
 
-**Parent Topic:**[Create inventory models](../concept/creating-your-inventory-models.md)
+**Parent Topic:**[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 
 **Related topics**  
 
 
-[Network inventory models](../concept/using-inventory-models-tni.md)
+[Network inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.md)
 

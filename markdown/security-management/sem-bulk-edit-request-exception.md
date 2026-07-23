@@ -2,10 +2,11 @@
 title: Request bulk exception in the Security Exposure Management Workspace
 description: Request an exception for multiple findings concurrently using the bulk edit feature instead of manually selecting each record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sem-bulk-edit-request-exception.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 7
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -24,11 +25,11 @@ Role required:
 
 ## About this task
 
-When you request an exception for one or more records from the Bulk edit modal, a remediation task is created with the selected records.
+When you request an exception for one or more records from the Bulk edit modal, a remediation task is created with the selected records. The remediation task is created only when Deferred or Closed-false positive state is selected.
 
-**Note:** The Application Vulnerable Items \(AVITs\) from the scanners with the **Manage exceptions in ServiceNow** parameter set to false are not updated.
+**Note:** The Application Vulnerable Items \(AVITs\) from the scanners with the **Manage exceptions in ServiceNow** parameter set to false aren't updated.
 
--   If you select AVITs from various scanners, some with the **Manage exceptions in ServiceNow** parameter set to true and other set to false, the AVITs linked to the scanners with he **Manage exceptions in ServiceNow** parameter set to false are not updated.
+-   If you select AVITs from various scanners, some with the **Manage exceptions in ServiceNow** parameter set to true and other set to false, the AVITs linked to the scanners with he **Manage exceptions in ServiceNow** parameter set to false aren't updated.
 -   If you select AVITs from only the scanners with the **Manage exceptions in ServiceNow** parameter set to false, the Defer option does not appear in the **State** field in the Bulk Edit modal.
 
 ## Procedure
@@ -43,8 +44,8 @@ When you request an exception for one or more records from the Bulk edit modal, 
     -   Configuration Test Results
 3.  Perform one of the following:
 
-    -   Select the check box next to each item if you want to use the Only Selected Items option in the [Record selection](../../vr-vulnerability-manager-workspace/task/vmws-bulk-edit-request-exception.md#record-slection-field) field.
-    -   Apply filters if you want to use the All records that match filter option in the [Record selection](../../vr-vulnerability-manager-workspace/task/vmws-bulk-edit-request-exception.md#record-slection-field) field.
+    -   Select the check box next to each item if you want to use the Only Selected Items option in the [Record selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-exception.md) field.
+    -   Apply filters if you want to use the All records that match filter option in the [Record selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-exception.md) field.
 4.  Select the **Bulk Edit** button.
 
 5.  On the form, fill in the following fields to request an exception for multiple findings \(VITs, AVITs, CVITs, or TRs\) simultaneously.
@@ -92,6 +93,7 @@ Select the Deferred state to request an exception for the selected records.
 
 -   When you select this option, the Reason, Short description, Until, and Additional information fields appear.
 -   When you defer records, a remediation task is created and this task is sent for approval.
+-   Only findings in Open, Under investigation and awaiting implementation state can be deferred.
 
 
 </td></tr><tr><td>
@@ -106,6 +108,42 @@ Reason for deferring records:-   Awaiting Maintenance Window
 -   Mitigating Control in Place
 -   Other
 **Note:** The **Reason** field appears when you select the State as Deferred.
+
+</td></tr><tr><td>
+
+Request for Deferral
+
+</td><td>
+
+Select this check box to request a deferral exception for the selected items. This option appears when the **Reason** is Mitigating Control in Place.
+
+</td></tr><tr><td>
+
+Request for Risk Reduction
+
+</td><td>
+
+Select this check box to request risk reduction for the selected items. This option appears when the **Reason** is Mitigating Control in Place and risk reduction is enabled on the associated CVE or TPE. **Important:** Risk reduction is restricted when the selected items belong to different vulnerabilities. A message is displayed indicating this restriction, and you can proceed with a deferral request only.
+
+ When risk reduction is disabled for a CVE or TPE, the **Request for Risk Reduction** option does not appear in the Bulk Edit modal for items associated with that vulnerability. To enable risk reduction, see [Disable or enable risk reduction for a CVE or TPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-disable-risk-reduction.md)
+
+.
+
+</td></tr><tr><td>
+
+Desired risk rating
+
+</td><td>
+
+Target risk rating for the vulnerable items after the compensating controls are applied. This field appears when **Request for Risk Reduction** is selected.
+
+</td></tr><tr><td>
+
+Compensating controls
+
+</td><td>
+
+One or more compensating controls to associate with the risk reduction request. This field appears when **Request for Risk Reduction** is selected. If compensating controls are associated with the vulnerability, only those controls appear. Otherwise, all active controls from the library appear.
 
 </td></tr><tr><td>
 
@@ -140,13 +178,13 @@ Work notes
 Text that you enter to describe the changes.
 
 </td></tr></tbody>
-</table>6.  Click  **Edit**.
+</table>6.  Select  **Edit**.
 
-7.  On the Take Questionnaire modal, answer the questions and click  **Submit**.
+7.  On the Take Questionnaire modal, answer the questions and select  **Submit**.
 
     A remediation task is created containing the records that you selected. Your request is submitted for approval and the State of the records changes to  In Review.
 
-    **Note:** The **Take Questionnaire** modal appears only when the questionnaire is enabled for exception requests in the Exception Management form. For more information on configuring a questionnaire for exception requests, see [Configure Exception Management for Vulnerability Response](../../vulnerability-response/task/configure-exception-management-settings.md), [Configure Exception Management for Application Vulnerability Response](../../vulnerability-app-vuln-mgmt/task/configure-exception-management-application-vulnerability-response.md), and [Configure Exception Management for Container Vulnerability Response](../../container-vulnerability-response/task/configure-exception-management-for-container-vulnerability-response.md), and [Configuration Compliance Exception Management overview](../../vulnerability-config-compliance/concept/cc-ex-mgmt.md).
+    **Note:** The **Take Questionnaire** modal appears only when the questionnaire is enabled for exception requests in the Exception Management form. For more information on configuring a questionnaire for exception requests, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/configure-exception-management-settings.md), [Configure Exception Management for Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/configure-exception-management-application-vulnerability-response.md), and [Configure Exception Management for Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/configure-exception-management-for-container-vulnerability-response.md), and [Configuration Compliance Exception Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-ex-mgmt.md).
 
     The approver receives an email notification about your request.
 
@@ -157,10 +195,10 @@ In the Security Exposure Management Workspace, on the List page, navigate to **E
 
 |Approval state|Result|
 |--------------|------|
-|Approved|The state of the Remediation task transitions to Deferred with the given Reason as sub-state. The state and reason are rolled down to the records.|
+|Approved|The state of the Remediation task transitions to Deferred with the given Reason as sub-state. The state and reason are rolled down to the records.The state of the Remediation task transitions to Deferred with the given Reason as sub-state. The state and reason are rolled down to the records. When risk reduction is also requested, a separate change approval is created for the risk reduction request. If that approval is also approved, the risk rating of the records is updated to the desired risk rating that was selected during the bulk edit request.|
 |Rejected|The state of the Remediation Task and its records doesn’t change.|
 
 In the **Activity stream** of a record or remediation task, you can view the entire workflow of your request.
 
-**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](../concept/sem-using-bulk-edit.md)
+**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sem-using-bulk-edit.md)
 

@@ -2,11 +2,12 @@
 title: Creating and publishing specification versions
 description: As a product catalog manager, you can create and publish the specification versions that list the improved products and services that you can offer to your customers in a technical product catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/creating-publish-specification-versions-somt.html
 release: australia
 topic_type: concept
 last_updated: "2026-04-14"
 reading_time_minutes: 5
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Creating and publishing specification versions
@@ -30,10 +31,10 @@ As a product catalog manager, you do the following actions when you create a ver
     -   Decomposition rules
     -   Quantity mappings
     -   Attribute propagation rules
-    **Note:** To learn more, see [Create and publish a specification version](../task/create-publish-new-specification-somt.md).
+    **Note:** To learn more, see [Create and publish a specification version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-publish-new-specification-somt.md).
 
-3.  Create a product offering, and then publish it when you update your product catalog. To learn more, see [Create and publish a product offering version](../task/create-publish-product-offering-version-somt.md).
-4.  Retire or archive old or unused specifications, and product offerings. To learn more, see [Retiring or archiving versioned specifications and product offerings](retiring-archiving-specifications-somt.md).
+3.  Create a product offering, and then publish it when you update your product catalog. To learn more, see [Create and publish a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/create-publish-product-offering-version-somt.md).
+4.  Retire or archive old or unused specifications, and product offerings. To learn more, see [Retiring or archiving versioned specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/retiring-archiving-specifications-somt.md).
 
 ## Updates and validations that are performed when you create and publish a specification version
 
@@ -64,7 +65,7 @@ When you create a version for a currently published specification, the system co
 
     **Note:** To learn more about these rules, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-specification-rels.md).
 
-6.  Copies the associated quantity mappings and attribute propagation rules. The source specifications in the quantity mappings and attribute propagation rules are also updated to the current versions. To learn more about these rules, see [Defining mappings for attribute value propagation to domain orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-define-propagate-domain-order-attributes.md).
+6.  Copies the associated quantity mappings and attribute propagation rules. The source specifications in the quantity mappings and attribute propagation rules are also updated to the current versions. To learn more about these rules, see .
 
 When you publish the updated specification version, the ServiceNow AI Platform® performs validations on your edits. These validations ensure that all rules are valid with the characteristic and characteristic options that are available for the new specification version. An error might occur if you inadvertently remove or change the characteristics or characteristic options that are referenced by the other rules that are associated with the new specification version. If an error occurs, a message similar to this example appears.
 

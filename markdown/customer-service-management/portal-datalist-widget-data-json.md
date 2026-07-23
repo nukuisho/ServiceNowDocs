@@ -2,10 +2,11 @@
 title: Portal Data List widget JSON parameters
 description: JSON parameters define aspects of the Portal Data list widget on the portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/portal-datalist-widget-data-json.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [JSON parameter in Configurable Portal Widgets, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
 
@@ -141,6 +142,25 @@ By default, this field is set to the Case \(csm\_ticket\) page.
 
 </td></tr><tr><td>
 
+target\_page
+
+</td><td>
+
+The page to which users are redirected when they select a record in the widget. You can specify either a page name or a full dynamic URL that resolves the target page, table, and record at runtime based on the record type.Example: `"target_page": "portal_contact"`
+
+Full dynamic URL — Generates the URL at runtime based on the record type. Use the following formats depending on the type of record:
+
+-   Referenced "target\_page": `"id=example_page_id&table={reference_field.sys_class_name}&view=example_view_name"`
+-   Child \(extended\) table "target\_page":`"id=example_page_id&table={sys_class_name}&view=example_view_name"`
+-   Parent table "target\_page": `"id=example_page_id&table=parent_table&view=example_view_name"`
+-   Same table "target\_page": `"id=example_page_id"`
+
+If both `target_page` and `target_page_id` are configured, `target_page` takes precedence.
+
+**Note:** This parameter is optional. If neither `target_page` nor `target_page_id` is configured, the widget falls back to the value defined in `record_view_page`.
+
+</td></tr><tr><td>
+
 pre\_defined\_filters"filter\_name":"Value",
 
 </td><td>
@@ -223,7 +243,7 @@ Used to display items for guest users or not logged in users. Map the view you w
 -   Page containing widget \(For example, Cases and Tasks\)
 -   Page content instance
 
-For details, see [Configure public access on the Portal Data List widget](../task/config-data-list-widget-inst-guest-access.md).
+For details, see [Configure public access on the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-guest-access.md).
 
 This parameter is optional.
 
@@ -247,5 +267,5 @@ Order of sorting the data list. Default is ascending.This parameter is optional.
 </table>**Related topics**  
 
 
-[Add and configure the Portal Data List widget](../task/config-data-list-widget-inst-optns.md)
+[Add and configure the Portal Data List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-list-widget-inst-optns.md)
 

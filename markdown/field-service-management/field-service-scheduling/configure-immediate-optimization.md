@@ -2,6 +2,7 @@
 title: Configure optimization for prioritized events
 description: Configure prioritized event optimization to enable schedule adjustments in response to critical, same-day events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-immediate-optimization.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,7 +18,7 @@ Configure prioritized event optimization to enable schedule adjustments in respo
 
 ## Before you begin
 
-To set the system properties for the prioritized event mode, see [Schedule Optimization properties](../reference/schedule-optimization-properties.md).
+To set the system properties for the prioritized event mode, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-properties.md).
 
 Role required: wm\_admin
 
@@ -57,7 +58,7 @@ When the selected event type occurs, optimization runs shortly after. The optimi
 **Related topics**  
 
 
-[Activate intraday optimization](activate-intraday-optimization.md)
+[Activate intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-intraday-optimization.md)
 
-[Configure intraday optimization](configure-intraday-optimization.md)
+[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
 

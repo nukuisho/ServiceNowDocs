@@ -2,6 +2,7 @@
 title: Create a data interface using UNION
 description: Create a governed data interface that consolidates rows from two or more source tables with compatible schemas using UNION. Publish it to the Data Catalog so consumers can access an aggregated view through a stable schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-data-interface-union-wdf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-26"
@@ -19,8 +20,8 @@ Before you begin, verify the following:
 
 -   All source tables are discoverable in the Data Catalog.
 -   The source tables have compatible schemas. Columns that you map to the same target column must have compatible data types.
--   For tables in external systems, a zero copy connector for each system is configured in Connect Hub. For setup instructions, see the [Zero copy connectors documentation](../../../build/zero-copy-connectors/concept/zero-copy-connectors.md).
--   Role required: df\_data\_steward
+-   For tables in external systems, a zero copy connector for each system is configured in Connect Hub. For setup instructions, see the [Zero copy connectors documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md).
+-   Role required: data\_product\_admin, df\_data\_steward, delegated\_developer, df\_data\_steward, and delegatedadmin \(scope admin\)
 
 ## Procedure
 
@@ -37,8 +38,12 @@ Before you begin, verify the following:
     -   **Application scope**: Select the scope in which to create the data interface.
 4.  On the Select source tables page, select **Add**.
 
-5.  Search for the source table in the Data Catalog and add tables to your selection. ![Select source tables](../image/wdf-data-interface-union-select-table.png)
+5.  Search for the source table in the Data Catalog and add tables to your selection. \[Omitted image "wdf-data-interface-union-select-table.png"\] Alt text: Select source tables
 
+    **Note:** The following platform table types are not supported as source tables:
+
+    -   Tables with names that begin with `sys_`
+    -   Child tables
 6.  Review the list of tables and select **Continue**.
 
     The wizard advances to the combination method step.
@@ -52,11 +57,11 @@ Before you begin, verify the following:
     -   Select the source column from each table that maps to this output column.
     -   Enter a target column name.
     -   Select the target column type.
-    All source columns mapped to the same output column must have compatible data types. The system validates type compatibility and displays errors before you can continue. ![Define union mapping](../image/wdf-data-interface-union-select-columns.png)
+    All source columns mapped to the same output column must have compatible data types. The system validates type compatibility and displays errors before you can continue. \[Omitted image "wdf-data-interface-union-select-columns.png"\] Alt text: Define union mapping
 
 9.  Review the target table column mapping and select **Create table**.
 
-    The **Define target table** step shows the output schema based on your union mapping. You can adjust column labels and types before creating the table. After you select **Create table**, the source tables and column structure are locked and can't be edited. ![Define target table](../image/wdf-data-interface-union-define-table.png)
+    The **Define target table** step shows the output schema based on your union mapping. You can adjust column labels and types before creating the table. \[Omitted image "wdf-data-interface-union-define-table.png"\] Alt text: Define target table
 
     The system creates the data interface table and the underlying Data Fabric Tables. The wizard advances to the **Connect and verify** step.
 
@@ -70,7 +75,7 @@ Before you begin, verify the following:
 
     3.  Select **Verify**.
 
-        The table shows a **Verified** status when the connection is verified. ![Connect and verify](../image/wdf-data-interface-union-verify.png)
+        The table shows a **Verified** status when the connection is verified. \[Omitted image "wdf-data-interface-union-verify.png"\] Alt text: Connect and verify
 
 11. Select **Preview** to review sample data from the data interface.
 
@@ -84,7 +89,7 @@ Before you begin, verify the following:
 
 13. Review the data interface configuration on the **Review and finalize** page and select **Done**.
 
-    The data interface is published and the overview page opens. The data interface is now in a read-only state and cannot be edited after publishing.
+    The data interface is published and the overview page opens.
 
 
 ## Result
@@ -95,7 +100,7 @@ The data interface is published and visible in Data Workbench. After the metadat
 
 ## What to do next
 
-To package this data interface into a data product, see [Create a data product](create-data-product-wdf.md).
+To package this data interface into a data product, see [Create a data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-data-product-wdf.md).
 
-**Parent Topic:**[Managing data interfaces](../concept/manage-data-interfaces_wdf.md)
+**Parent Topic:**[Managing data interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/manage-data-interfaces_wdf.md)
 

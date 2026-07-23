@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for Purchase Order Management \(POM\)
 description: Use agentic workflows in Now Assist for Purchase Order Management \(POM\) to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/using-agentic-wf-na-for-pom.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,10 +30,10 @@ Use the following agentic workflows that are available with Now Assist for Purch
 
 There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 
--   **[Automated purchase order exception creation from emails](convert-emails-to-exceptions.md)**  
+-   **[Automated purchase order exception creation from emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/convert-emails-to-exceptions.md)**  
 Emails sent by a registered supplier contact are automatically converted to purchase order exceptions or universal requests by using the Email Intent to Action Agentic workflow.
--   **[Identify and execute mitigation strategies for purchase order exceptions](mitigation-strategies-for-po-exceptions.md)**  
+-   **[Identify and execute mitigation strategies for purchase order exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/mitigation-strategies-for-po-exceptions.md)**  
 Leverage the define PO exception mitigation strategy workflow to resolve purchase order exceptions and avoid the risk of critical part shortages. This agentic workflow helps buyers identify and execute the best mitigation strategies by analyzing delivery gaps and proposing order changes with alternative suppliers.
 
-**Parent Topic:**[Now Assist for Purchase Order Management \(POM\)](now-assist-for-purch-order-magmt.md)
+**Parent Topic:**[Now Assist for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/now-assist-for-purch-order-magmt.md)
 

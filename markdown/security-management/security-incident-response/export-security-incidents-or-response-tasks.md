@@ -2,6 +2,7 @@
 title: Export Security Incidents or Response Tasks
 description: Export the security incidents or response tasks from the list view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/export-security-incidents-or-response-tasks.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
 
-2.  Select the list ![](../image/listview-icon.png) icon.
+2.  Select the list \[Omitted image "listview-icon.png"\] Alt text: icon.
 
 3.  Select **Lists**.
 
@@ -31,7 +32,7 @@ Role required: sn\_si.analyst
 
 5.  View the list and select **Export**.
 
-    ![Export list](../image/export-list.png)
+    \[Omitted image "export-list.png"\] Alt text: Export list
 
 6.  Select the **File Type** and **Delivery Type**.
 
@@ -42,24 +43,24 @@ Role required: sn\_si.analyst
     The file will be downloaded or emailed according to the option chosen.
 
 
-**Parent Topic:**[List view in SIR Workspace](setting-up-list-view-in-analyst-workspace.md)
+**Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)
 
 **Related topics**  
 
 
-[Personalize a list](personalize-a-list.md)
+[Personalize a list]()
 
-[Apply quick filters on Security Incidents and Response Tasks lists](use-quick-filters-for-security-incidents.md)
+[Apply quick filters on Security Incidents and Response Tasks lists]()
 
-[Assign Security Incidents](assign-security-incident.md)
+[Assign Security Incidents]()
 
-[Close multiple security incidents](../task/close-multiple-incidents-sir.md)
+[Close multiple security incidents]()
 
-[Assign Response Tasks](../task/assign_response_tasks.md)
+[Assign Response Tasks]()
 
-[Report Phish Email](../task/report-phish-email.md)
+[Report Phish Email]()
 
-[Working with quick filters](configure-quick-filters.md)
+[Working with quick filters]()
 
-[Manage Shift Handover records](manage-shift-handover-records.md)
+[Manage Shift Handover records]()
 

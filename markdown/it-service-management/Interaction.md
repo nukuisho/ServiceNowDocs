@@ -2,6 +2,7 @@
 title: Interaction dashboard
 description: Dashboard with distribution and process metrics for Interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/Interaction.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

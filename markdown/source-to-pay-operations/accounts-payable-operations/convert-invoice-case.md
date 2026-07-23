@@ -1,19 +1,21 @@
 ---
 title: Convert invoice type
-description: You can convert invoice type from PO to Non-PO invoice and vice versa based on interaction between buyers and suppliers of business services.
+description: Convert an invoice type between PO and Non-PO to correctly classify an invoice based on updated information from buyers or suppliers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/convert-invoice-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice management, supplier, AP specialist]
 breadcrumb: [Accounts Payable Specialist manual tasks, Work on an invoice processing case, Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Convert invoice type
 
-You can convert invoice type from PO to Non-PO invoice and vice versa based on interaction between buyers and suppliers of business services.
+Convert an invoice type between PO and Non-PO to correctly classify an invoice based on updated information from buyers or suppliers.
 
 ## Before you begin
 
@@ -23,7 +25,7 @@ Role required: Account Payable Specialist
 
 1.  Navigate to **All** &gt; **Source-to-Pay Workspace** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Navigate to **Lists** &gt; **My work** &gt; **My open invoice processing cases** and open an invoice processing case.
 
@@ -33,9 +35,9 @@ Role required: Account Payable Specialist
 
 4.  Select **View invoice processing case**.
 
-5.  Select **More Actions** ![more actions](../image/more-actions.png)&gt;**Change invoice type**.
+5.  Select **More Actions** \[Omitted image "more-actions.png"\] Alt text: more actions&gt;**Change invoice type**.
 
-    You can choose to convert invoice types to:![Change invoice type](../image/change-invoice-type.png)
+    You can choose to convert invoice types to:\[Omitted image "change-invoice-type.png"\] Alt text: Change invoice type
 
     -   PO to Non-PO invoice and vice versa
     -   Credit memo invoice to PO invoice, Non-PO invoice and vice versa
@@ -48,22 +50,26 @@ Role required: Account Payable Specialist
     The status of the invoice changes to **Draft**. The invoice is reprocessed and re-validated.
 
 
-**Parent Topic:**[Accounts Payable Specialist manual tasks](../concept/aps-manual-tasks.md)
+## Result
+
+The status of the invoice changes to **Draft**. The invoice is reprocessed and re-validated.
+
+**Parent Topic:**[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)
 
 **Related topics**  
 
 
-[View the invoice processing case associated with an invoice](view-invoice-case.md)
+[View the invoice processing case associated with an invoice]()
 
-[Review an invoice in Document Intelligence](review-invoice-docintel.md)
+[Review an invoice in Document Intelligence]()
 
-[Enter the missing required invoice information and submit an invoice](enter-missing-docintel.md)
+[Enter the missing required invoice information and submit an invoice]()
 
-[Confirm whether an invoice is a duplicate](confirm-duplicate-invoice.md)
+[Confirm whether an invoice is a duplicate]()
 
-[Reset an invoice to the Received status](reset-invoice-to-received.md)
+[Reset an invoice to the Received status]()
 
-[Check for invoice exceptions on a single invoice](identify-exceptions-manually.md)
+[Check for invoice exceptions on a single invoice]()
 
-[Start the processing for an invoice imported via integration with third-party applications](start-invoice-processing.md)
+[Start the processing for an invoice imported via integration with third-party applications]()
 

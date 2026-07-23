@@ -2,6 +2,7 @@
 title: Create an email account for Microsoft Graph \(receive\)
 description: Create an email account for reading emails from Microsoft Exchange Online using Microsoft Graph Endpoints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-email-account-ms-graph.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -101,12 +102,12 @@ Option to create node logs for the raw data that is exchanged with the email ser
 5.  Select the test connection link at the bottom to test the account.
 
 
-**Parent Topic:**[Reading email using Microsoft Graph](../concept/read-email-using-ms-graph.md)
+**Parent Topic:**[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/read-email-using-ms-graph.md)
 
 **Related topics**  
 
 
-[Configure an OAuth profile to use a client ID and secret for token generation](microsoft-graph.md#)
+[Configure an OAuth profile to use a client ID and secret for token generation]()
 
-[Configure an OAuth profile to use certificates for authentication with Microsoft Azure](configure-oauth-profile-using-certificates.md)
+[Configure an OAuth profile to use certificates for authentication with Microsoft Azure]()
 

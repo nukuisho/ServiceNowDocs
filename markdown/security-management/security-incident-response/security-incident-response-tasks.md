@@ -2,6 +2,7 @@
 title: Security Incident Response Tasks
 description: All the response tasks associated with a security incident are displayed within the Response Tasks section.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/security-incident-response-tasks.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,37 +22,39 @@ The analyst will be able to:
 -   assign response tasks to self or others
 -   delete response tasks
 
-![Security Incident Response Tasks highlighted](../image/response-task.png "Response Tasks on the workspace")
+\[Omitted image "response-task.png"\] Alt text: Security Incident Response Tasks highlighted
 
 **Note:** To make any quick edits to the response tasks. Select the response task and a list of response tasks are displayed, select the record and make changes and save the response task.
 
--   **[Create a Response Task](create_response_task.md)**  
+-   **[Create a Response Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create_response_task.md)**  
 Create response tasks to track separate actions to be performed to respond to the security issue.
 
-**Parent Topic:**[Working with Security Incident Records](using-analyst-workspace.md)
+**Parent Topic:**[Working with Security Incident Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-analyst-workspace.md)
 
 **Related topics**  
 
 
-[Security Incident Overview section](security-incident-overview.md)
+[Security Incident Overview section]()
 
-[Security Incident Details section](security-incident-details.md)
+[Security Incident Details section]()
 
-[SIR Workspace Orchestration](security-incident-response-workspace-orchestration-activities.md)
+[SIR Workspace Orchestration]()
 
-[Security Incident Response Other Records](security-incident-response-other-records.md#)
+[Security Incident Response Other Records]()
 
-[Security Incident Response Post Incident Review](security-incident-response-post-incident-review.md)
+[Security Incident Response Post Incident Review]()
 
-[Update information in security incident related records](../task/edit-related-records-in-list.md)
+[Update information in security incident related records]()
 
-[TISC integration within SIR Workspace](../../secops-integration-threat-security-center/concept/tisc-sir-workspace.md)
+[TISC integration within SIR Workspace]()
 
-[Reports in Security Incident Response](report-templates-sir.md)
+[Reports in Security Incident Response]()
 
-[Collaborate using conference call or chat in Security Incident Response](collab-sir-call-chat.md)
+[Collaborate using conference call or chat in Security Incident Response]()
 
-[Viewing incident details with a relationship graph](sir-relationship-graph.md)
+[Viewing incident details with a relationship graph]()
 
-[MITRE attack and defend technique graph](mitre-attack-defend-graph-sir.md)
+[MITRE attack and defend technique graph]()
+
+[View and filter the incident timeline]()
 

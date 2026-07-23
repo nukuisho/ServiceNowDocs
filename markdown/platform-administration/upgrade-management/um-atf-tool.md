@@ -2,6 +2,7 @@
 title: ATF Test Generator and Cloud Runner tool in Upgrade Console
 description: Leverage the power of ServiceNow's ATF Test Generator and Cloud Runner to create intelligent, comprehensive regression tests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-atf-tool.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -25,24 +26,24 @@ You can achieve the following using the ATF Test Generator and Cloud Runner stor
 -   AI-powered test generation minimizes human error and improves the reliability of test results.
 -   Streamlined workflows and efficient test execution optimize your testing process.
 
-See [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-intro.md) for more information.
+See [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-tg-cr-intro.md) for more information.
 
-**Parent Topic:**[Upgrade Console tools](../reference/um-tools.md)
+**Parent Topic:**[Upgrade Console tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-tools.md)
 
 **Related topics**  
 
 
-[Cloning tool in Upgrade Console](um-cloning-tool.md)
+[Cloning tool in Upgrade Console]()
 
-[Upgrade History tool in Upgrade Console](um-upgrade-history-tool.md)
+[Upgrade History tool in Upgrade Console]()
 
-[Upgrade Monitor tool in Upgrade Console](um-upgrade-monitor-tool.md)
+[Upgrade Monitor tool in Upgrade Console]()
 
-[Now Support in Upgrade Console](um-now-support.md)
+[Now Support in Upgrade Console]()
 
-[Upgrade Preview tool in Upgrade Console](um-upgrade-preview-tool.md)
+[Upgrade Preview tool in Upgrade Console]()
 
-[Upgrade Skipped Record Rules Editor tool in Upgrade Console](um-skipped-rules-tool.md)
+[Upgrade Skipped Record Rules Editor tool in Upgrade Console]()
 
-[Upgrade Plans tool in Upgrade Console](um-upgrade-plans-tool.md)
+[Upgrade Plans tool in Upgrade Console]()
 

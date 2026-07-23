@@ -2,6 +2,7 @@
 title: Metric Explorer
 description: Metric Explorer provides an easy-to-navigate interface where service agents can view the health of a CI associated with an alert. Health details for a CI include various metric charts with control bounds, and aggregations in a time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/agent-workspace-ops-intelligence.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -25,13 +26,13 @@ A metric chart that appears in the metric charts form in Metric Explorer can be 
 
 -   **Time-series chart**
 
-    ![Time series chart type in Agent Workspace.](../image/time-series-chart.png)
+    \[Omitted image "time-series-chart.png"\] Alt text: Time series chart type in Agent Workspace.
 
-    The time-series chart type is a graph of all data points in the specified time range, for the metrics of the CI associated with the chart. Time-series charts are similar to charts in [Insights Explorer](../task/view-metrics-explorer.md), and depending on settings, show lower and upper bounds.
+    The time-series chart type is a graph of all data points in the specified time range, for the metrics of the CI associated with the chart. Time-series charts are similar to charts in [Insights Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/view-metrics-explorer.md), and depending on settings, show lower and upper bounds.
 
 -   **Single-score chart**
 
-    ![Single score chart type in Agent Workspace.](../image/single-score-chart.png)
+    \[Omitted image "single-score-chart.png"\] Alt text: Single score chart type in Agent Workspace.
 
     The single-score chart type shows a single number which is an aggregation of the data points in the time series for the metric and CI of the chart. The aggregation is an average of the data points, or the maximum, minimum, or last data point in the time series.
 

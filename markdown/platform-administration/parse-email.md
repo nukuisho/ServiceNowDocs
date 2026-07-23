@@ -2,6 +2,7 @@
 title: Parse an email thread
 description: When an email is received, parse the most recent message in an email thread by creating Email Reply Separators using specified string or regular expressions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/parse-email.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -105,30 +106,30 @@ Language of the reply separator.**Note:** All email clients don't indicate a lan
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Email and SMS notifications](../concept/c_EmailNotifications.md)
+**Parent Topic:**[Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
 
 **Related topics**  
 
 
-[Create notification categories](create-notification-categories.md)
+[Create notification categories]()
 
-[Create an email notification](t_CreateANotification.md)
+[Create an email notification]()
 
-[Email notifications dashboard](../concept/email-notifications-dashboard.md)
+[Email notifications dashboard]()
 
-[Email diagnostics dashboard](../concept/email-diagnostics-dashboard.md)
+[Email diagnostics dashboard]()
 
-[Email templates](../concept/c_EmailTemplates.md)
+[Email templates]()
 
-[Email layouts](../concept/email-layouts.md)
+[Email layouts]()
 
-[Email retention](../concept/email-retention.md)
+[Email retention]()
 
-[Watermarks on notification emails](../concept/c_WorkingWithWatermarks.md)
+[Watermarks on notification emails]()
 
-[Email digests](../concept/email-digests.md)
+[Email digests]()
 
-[Domain separation and Notifications](../concept/domain-separation-notifications.md)
+[Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails](../concept/troubleshooting-notification-emails.md)
+[Email FAQs and troubleshooting notification emails]()
 

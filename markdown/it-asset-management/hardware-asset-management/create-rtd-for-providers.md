@@ -2,13 +2,14 @@
 title: Trigger the assignment of a remote task
 description: As an asset provider, create remote task definitions that trigger the assignment of a remote task for your customer to communicate the details of Zero Touch Refresh requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-rtd-for-providers.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Service Exchange configuration for Zero Touch Refresh, Manage refresh of assets using Zero Touch Refresh, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Service Exchange configuration, Manage refresh of assets using Zero Touch Refresh, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Trigger the assignment of a remote task
@@ -47,7 +48,7 @@ You receive the details of a Zero Touch Refresh Fulfillment Request from your cu
 
     2.  For each field you create, fill in the fields and then select **Submit**.
 
-        For the required details of the inbound fields that you must create, see [Remote task definition inbound and outbound fields](../reference/inbound-outbound-fields-for-rtd.md).
+        For the required details of the inbound fields that you must create, see [Remote task definition inbound and outbound fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/inbound-outbound-fields-for-rtd.md).
 
 8.  Create the outbound fields, which enable you to send data to the customer's instance when a remote task is created or updated.
 
@@ -55,7 +56,7 @@ You receive the details of a Zero Touch Refresh Fulfillment Request from your cu
 
     2.  For each field you create, fill in the fields and then select **Submit**.
 
-        For the required details of the outbound fields that you must create, see [Remote task definition inbound and outbound fields](../reference/inbound-outbound-fields-for-rtd.md).
+        For the required details of the outbound fields that you must create, see [Remote task definition inbound and outbound fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/inbound-outbound-fields-for-rtd.md).
 
 9.  Set customer criteria, which specify the customers who can use this remote task definition.
 

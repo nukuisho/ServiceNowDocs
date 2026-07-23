@@ -2,13 +2,14 @@
 title: Automated Correlation
 description: Automated correlation helps you identify the relationships between observables, indicators, and objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/automated-correlation-rules.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-04-06"
 reading_time_minutes: 5
-breadcrumb: [Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Automated Correlation
@@ -270,22 +271,22 @@ Creates a Potential Relationship
 Disabled
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Threat Intelligence Security Center Library](threat-intelligence-security-center-library.md)
+</table>**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 
 
-[Understanding the Data Model](../reference/understanding-the-data-model.md)
+[TISC Data Model]()
 
-[TISC Library Objects form view](tisc-library-home-page-view.md)
+[TISC Library Objects form view]()
 
-[TISC Library Repository](tisc-ioc.md)
+[TISC Library Repository]()
 
-[Access Vulnerability Downstream actions](downstream-actions-from-the-vulnerability-form-view.md)
+[Access Vulnerability Downstream actions]()
 
-[Deleting threat intelligence library records](../task/tisc-delete-lib-records.md)
+[Deleting threat intelligence library records]()
 
-[Export intelligence data](../task/tisc-export-observables.md)
+[Export intelligence data]()
 
-[Confirm Potential Relationships from Related Records](../task/confirm-potential-relationships.md)
+[Confirm Potential Relationships from Related Records]()
 

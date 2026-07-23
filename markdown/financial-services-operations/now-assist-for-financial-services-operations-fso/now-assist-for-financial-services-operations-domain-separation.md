@@ -2,6 +2,7 @@
 title: Domain separation and Now Assist for Financial Services Operations \(FSO\)
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Now Assist for Financial Services Operations \(FSO\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations-domain-separation.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -48,7 +49,7 @@ You can configure the roles when you’re activating or editing a skill.
 
 For example, you can grant certain roles access to the Now Assist panel in one domain, while another domain has no role restrictions.
 
-**Parent Topic:**[Now Assist for Financial Services Operations \(FSO\) reference](now-assist-for-fso-reference.md)
+**Parent Topic:**[Now Assist for Financial Services Operations \(FSO\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-fso-reference.md)
 
 **Related topics**  
 

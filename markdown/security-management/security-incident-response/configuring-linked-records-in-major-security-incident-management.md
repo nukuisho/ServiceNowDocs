@@ -2,6 +2,7 @@
 title: Configure Linked Records in Major Security Incident Management
 description: Use Linked Records Configuration to store the information of task tables that can be used to link/promote/propose to Major Security Incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configuring-linked-records-in-major-security-incident-management.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,13 +26,13 @@ Role required: admin and sn\_msi.workspace\_admin.
 
     The Linked Record Configuration page displays.
 
-    ![Linked Record configuration](../image/linked-record-config.png "Linked Record Configuration")
+    \[Omitted image "linked-record-config.png"\] Alt text: Linked Record configuration
 
 2.  On the Linked Record Configuration page, click **New**
 
     **Note:** Ensure that the application is in Major Security Incident Management scope.
 
-    ![Create record](../image/linked-record-new-form.png)
+    \[Omitted image "linked-record-new-form.png"\] Alt text: Create record
 
 3.  On the record configuration form, fill in the fields.
 
@@ -91,21 +92,21 @@ MSI Field Mapping
 Write a script to map the source record fields to a newly created major security incident when the source tables record is in the process of being proposed or promoted.This script executes only when **Can Promote to MSI** value is true.
 
 </td></tr></tbody>
-</table>    ![Order of the dropdown list](../image/linked-record-config-order.png "Image 1: Linked Records list view order")
+</table>    \[Omitted image "linked-record-config-order.png"\] Alt text: Order of the dropdown list
 
-    ![Can promote to MSI](../image/linked-can-promote-to-msi.png "Image 2: Can Promote to MSI")
+    \[Omitted image "linked-can-promote-to-msi.png"\] Alt text: Can promote to MSI
 
 
-**Parent Topic:**[Rollup Framework for MSIM](../concept/roll-up-framework-for-major-security-incident-management.md)
+**Parent Topic:**[Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
 
 **Related topics**  
 
 
-[Configure Rollup Records in Major Security Incident Management](../concept/roll-up-record-configuration-in-major-security-incident-management.md)
+[Configure Rollup Records in Major Security Incident Management]()
 
-[Configure List Layout in Major Security Incident Management](../concept/list-layout-confguration.md)
+[Configure List Layout in Major Security Incident Management]()
 
-[Rollup example use case implementation for a Security Case](../concept/use-case-for-a-security-case.md)
+[Rollup example use case implementation for a Security Case]()
 
-[Perform on demand atomic rollup](../concept/perform-on-demand-atomic-rollup.md)
+[Perform on demand atomic rollup]()
 

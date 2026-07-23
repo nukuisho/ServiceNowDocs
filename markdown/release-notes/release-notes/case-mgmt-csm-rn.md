@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 ---
 
 # Case management for CSM release notes
@@ -14,6 +14,8 @@ The ServiceNow® Case management for CSM application enables customer service or
 
 ## Case management for CSM highlights for the Australia release
 
+-   Add dependencies between task plan template items to define predecessor–successor relationships using the supported dependency types: Finish to start, Start after start, and Start together
+-   Provide a visual governance experience to define and manage user access enabling business process owners to configure relationships with clarity.
 -   Major cases now have the same case type as the original case, and associated child cases also have the same case type.
 -   Enhancements to task plan templates to support task dependency, and to support document attachments in task plan template items.
 -   Migrating several applications from family to store.
@@ -22,7 +24,7 @@ See [Case management for Customer Service Management](https://raw.githubusercont
 
 ## New in the Australia release
 
--   **[Task Dependencies for Task Plan Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-dependencies-for-task-plan-templates.md)**
+-   **[Task dependencies for task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-dependencies-for-task-plan-templates.md)**
 
     Define dependency relationships between template items in the \[sn\_task\_plan\_template\_dependency\] table, and upon applying the template, create and store the resulting task dependencies in the \[sn\_task\_dependency\_m2m\] table to ensure controlled task sequencing through predecessor–successor relationships.
 
@@ -30,9 +32,35 @@ See [Case management for Customer Service Management](https://raw.githubusercont
 
     Add documents to Task Plan Template items, storing document references in the \[sn\_task\_plan\_template\_document\] table and making them accessible through form views and related lists based on template state and user permissions, ensuring secure and controlled document access aligned with template‑level permissions
 
+-   ****
+
+    Create and manage dependencies between template items using the supported dependency types. Users can apply a template at any time after the template is published. Validate dependencies using built‑in checks \(including circular dependency validation\) to help prevent invalid dependency definitions.
+
+    The following dependency types are supported:
+
+    -   Finish to- start: the successor task starts when the predecessor task is completed.
+    -   Start after start: the successor task starts when the predecessor task is started.
+    -   Start together: both tasks start at the same time.
+-   ****
+
+    Provide a visual governance experience to define and manage user access enabling business process owners to configure relationships with clarity.
+
 
 ## Changed in this release
 
+-   **[Granular viewer roles for Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-management-roles.md)**
+
+    Added new read-only roles within Case Management. These include the following:
+
+    -   Customer Service All Case Viewer \[sn\_customerservice.all\_cases\_viewer\]
+    -   Case Playbook for Complaint Viewer \[sn\_complaint.viewer\]
+    -   Case Playbook for Onboarding Viewer \[sn\_onboarding.viewer\]
+    -   Action Status Viewer \[sn\_action\_status.viewer\]
+    -   Customer Service Document Template Viewer \[sn\_csm\_doctemplate.viewer\]
+    -   Case Digest Viewer \[sn\_csm\_case\_digest.viewer\]
+    -   Customer Project Management Viewer \[sn\_csm\_ppm.viewer\]
+    -   Case Type Configuration Viewer \[sn\_scm\_case\_type.config\_viewer\]
+    -   Case Line Viewer \[sn\_case\_line.viewer\]
 -   **[Major Issue Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-management.md)**
 
     Case Type consistency improvements: This update ensures case type consistency when creating and managing major cases and their related child cases, improving accuracy and reducing manual correction.
@@ -63,6 +91,15 @@ See [Case management for Customer Service Management](https://raw.githubusercont
     -   List view
     -   Case task list view
 
+## UI changes
+
+-   **[Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)**
+
+    The following UI components have been added in the Task Plan Template table:
+
+    -   The Template Dependencies tab displays a node‑map view of dependencies between template items in saved task plan template records. Each dependency appears as a labeled edge between nodes, indicating its type \(Finish to start, Start after start\) or Start together\). Select Edge to edit or delete the dependency, based on your role.
+    -   The Share Plan modal in the task plan template workspace includes three views; **Share Plan**, **Success**, and **Manage Access**, for configuring, confirming, and managing access to a task plan template, with a search bar, Select all option, and Currently shared with list in the Share Plan view.
+
 ## Plugin information
 
 -   **New Plugins**
@@ -87,5 +124,5 @@ See [Case management for Customer Service Management](https://raw.githubusercont
     -   [Targeted communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_TargetedCommunications.md) \(com.sn\_publications\)
     -   [Case Assignment Workbench Demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md) \(com.snc.case\_assignment\_workbench\_demo\): Beginning with the Australia release this plugin will be deprecated. The demo data will be migrated to the Case Assignment Workbench store application.
 
-**Parent Topic:**[Customer Service Management release notes](customer-service-mgmt-rn-landing.md)
+**Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 

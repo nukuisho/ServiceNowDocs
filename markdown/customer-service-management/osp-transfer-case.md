@@ -2,6 +2,7 @@
 title: Transfer a case
 description: The OSP agent or manager, if unable to resolve a case, transfers the case manually to an enterprise's internal agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-transfer-case.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

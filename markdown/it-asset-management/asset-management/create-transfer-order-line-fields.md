@@ -2,6 +2,7 @@
 title: Transfer order line fields
 description: Transfer order line form and related fields description.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/create-transfer-order-line-fields.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -9,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [transfer order line fields, create transfer order line]
-breadcrumb: [Reference, Asset Management, IT Asset Management]
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Transfer order line fields
@@ -110,5 +111,5 @@ Number of items that already needed to be returned.
 </table>**Related topics**  
 
 
-[t_TransferAssetsUsingTransferOrders]
+[Create transfer order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/create-transfer-order-line.md)
 

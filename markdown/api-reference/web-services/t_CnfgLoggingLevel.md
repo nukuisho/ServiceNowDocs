@@ -2,6 +2,7 @@
 title: Configure the logging level of the ODBC driver
 description: Change the logging level of the ODBC driver.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_CnfgLoggingLevel.html
 release: australia
 product: Web Services
 classification: web-services
@@ -29,13 +30,13 @@ Role required: none
 
 3.  \[ODBC version 1.0.8\] Change the value of the **ServiceJVMOptions** attribute to the desired logging level.
 
-    ![ODBC service JVM options](../image/ODBC_ServiceJVMOptions.png)
+    \[Omitted image "ODBC\_ServiceJVMOptions.png"\] Alt text: ODBC service JVM options
 
 4.  Within the management console, navigate to **&lt;your\_installation\_directory&gt;** &gt; **Services** &gt; **ServiceNow\_ODBC** &gt; **Service Settings** &gt; **Logging**.
 
 5.  Change the value of the **ServiceDebugLogLevel** by selecting all available check boxes.
 
-    ![ODBC service debug log level](../image/ODBC_ServiceDebugLogLevel.png)
+    \[Omitted image "ODBC\_ServiceDebugLogLevel.png"\] Alt text: ODBC service debug log level
 
 6.  In Windows, navigate to **Start** &gt; **Programs** &gt; **ServiceNow ODBC** &gt; **ODBC Administrator**.
 
@@ -48,12 +49,12 @@ Role required: none
 10. Enable SOAP debugging for your ServiceNow instance.
 
 
-**Parent Topic:**[Configuring the ODBC driver](../concept/configuring-odbc.md)
+**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-odbc.md)
 
 **Related topics**  
 
 
-[Generate logs for debugging](t_GenerateDebugLogs.md)
+[Generate logs for debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_GenerateDebugLogs.md)
 
-[Debug incoming SOAP envelope](../../inbound-soap/concept/c_DebuggingIncomingSOAPEnvelope.md)
+[Debug incoming SOAP envelope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DebuggingIncomingSOAPEnvelope.md)
 

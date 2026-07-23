@@ -2,6 +2,7 @@
 title: Raise help request for a workplace inquiry
 description: Submit a general workplace service request for issues that need a human response. Request help for issues that are not covered by current automated workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/submit-gen-workplace-serv-req.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -17,7 +18,7 @@ Submit a general workplace service request for issues that need a human response
 
 ## Before you begin
 
-**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates, and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
+**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates, and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/associate-portal-catalog.md).
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -29,7 +30,7 @@ Request a workplace-related help or raise an issue about anything related to the
 
 If the workplace has a QR code available, you can scan the QR code and submit your request.
 
-You can also submit a general question using the Virtual agent chat support. From Employee Center portal, select the chat option ![Chat icon](../../wsd-reservation-management/image/chat-icon.png). Type your question or select **Show Me Everything** to choose from the list of options to submit your query.
+You can also submit a general question using the Virtual agent chat support. From Employee Center portal, select the chat option \[Omitted image "chat-icon.png"\] Alt text: Chat icon. Type your question or select **Show Me Everything** to choose from the list of options to submit your query.
 
 ## Procedure
 
@@ -57,7 +58,7 @@ You can also submit a general question using the Virtual agent chat support. Fro
 
     If the Workplace Space Mapping plugin is installed, you can also click the **Find the space on a floor map** option to select the space directly on the map.
 
-    If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](../../wsd-reservation-management/task/display-permanent-seats-on-maps.md).
+    If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
 
     1.  In the **Location** field, select the building where the space is located.
 
@@ -86,36 +87,36 @@ If you want to cancel a request, Click **Cancel Request**.
 
 When the request is resolved, select **Accept** or **Reject**.
 
-**Parent Topic:**[Requesting a workplace service](../concept/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 
 
-[Reconfigure an office space](Reconfig-office-space-1.md)
+[Reconfigure an office space]()
 
-[Raise a move request for a space change](../../workplace-move-mgmt/task/request-desk-change.md)
+[Raise a move request for a space change]()
 
-[Request furniture for a space](request-furniture.md)
+[Request furniture for a space]()
 
-[Raise a space assistance request](../../workplace-space-management/task/raise-a-space-recommendation-request.md)
+[Raise a space assistance request]()
 
-[Submit a maintenance request](submit-a-maintenance-request.md)
+[Submit a maintenance request]()
 
-[Submit a catering request](submit-a-catering-request.md)
+[Submit a catering request]()
 
-[Submit heating and cooling request](submit-heating-and-cooling-request.md)
+[Submit heating and cooling request]()
 
-[Submit a badge request](submit-a-badge-request.md)
+[Submit a badge request]()
 
-[Submit a tech support request](submit-a-tech-support-request.md)
+[Submit a tech support request]()
 
-[Submit a cleaning request](submit-a-cleaning-request.md)
+[Submit a cleaning request]()
 
-[Submit an equipment request](submit-a-equipment-request.md)
+[Submit an equipment request]()
 
-[Edit a workplace request](edit-workplace-request.md)
+[Edit a workplace request]()
 
-[Submit an emergency maintenance request](submit-emergency-maint-request.md)
+[Submit an emergency maintenance request]()
 
-[Submit a change event request for a reservation](submit-change-event-reservation.md)
+[Submit a change event request for a reservation]()
 

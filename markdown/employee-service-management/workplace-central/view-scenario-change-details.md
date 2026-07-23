@@ -2,6 +2,7 @@
 title: View scenario change details
 description: View details of each change that you implemented in a scenario. You can view details such as the space that is changed, the type of change, and the workplace move case associated with the change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-scenario-change-details.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -17,7 +18,7 @@ View details of each change that you implemented in a scenario. You can view det
 
 ## Before you begin
 
-Ensure that you have created a scenario. For more information about creating a scenario, see [Create a scenario](create-a-scenario.md).
+Ensure that you have created a scenario. For more information about creating a scenario, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reader \(read only; to view a scenario\)
 
@@ -35,21 +36,21 @@ View details of every change made in the scenario. You can view details such as 
 
     The Workplace Analytics dashboard opens.
 
-2.  Select the **Space Optimization** icon \(![Space Optimization icon.](../images/space-optimization-icon.png)\).
+2.  Select the **Space Optimization** icon \(\[Omitted image "space-optimization-icon.png"\] Alt text: Space Optimization icon.\).
 
     The Space optimization dashboard opens.
 
 3.  Open the scenario that you want to view by using any of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d763623e142">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d778063e142">
 
 Path
 
-</th><th align="left" id="d763623e145">
+</th><th align="left" id="d778063e145">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d763623e151">
+</th></tr></thead><tbody><tr><td id="d778063e151">
 
 **From the Scenarios list section**
 
@@ -63,7 +64,7 @@ A list of all the scenarios created in the application is displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d763623e176">
+</td></tr><tr><td id="d778063e176">
 
 **From the Buildings list section**
 
@@ -91,33 +92,33 @@ The details of every change that is implemented on the scenario is displayed. If
 
 For more information about the space and user deployment plans, see the following topics:
 
--   [Space Deployment Plan](../reference/space-deployment-plan.md)
--   [User Deployment Plan](../reference/user-deployment-plan.md)
+-   [Space Deployment Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/space-deployment-plan.md)
+-   [User Deployment Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/user-deployment-plan.md)
 
-**Parent Topic:**[Working with Space Optimization](../concept/working-with-space-optimization.md)
+**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
 
 **Related topics**  
 
 
-[Create a scenario](create-a-scenario.md)
+[Create a scenario]()
 
-[Viewing or editing a scenario](../concept/viewing-editing-scenario.md)
+[Viewing or editing a scenario]()
 
-[Review a scenario](review-a-scenario.md)
+[Review a scenario]()
 
-[Publish a scenario](publish-a-scenario.md)
+[Publish a scenario]()
 
-[Send a scenario for approval](send-a-scenario-for-approval.md)
+[Send a scenario for approval]()
 
-[Change owner of a scenario](change-owner-of-a-scenario.md)
+[Change owner of a scenario]()
 
-[Deploy a scenario](deploy-a-scenoria.md)
+[Deploy a scenario]()
 
-[Create a copy of an existing scenario](create-copy-of-scenario.md)
+[Create a copy of an existing scenario]()
 
-[View or edit space allocations of a building](view-or-edit-space-alloctions-of-a-building.md)
+[View or edit space allocations of a building]()
 
-[Work on a space assist request](work-on-space-assist-request.md)
+[Work on a space assist request]()
 
-[Map based space administration](../concept/map-based-space-administration.md)
+[Map based space administration]()
 

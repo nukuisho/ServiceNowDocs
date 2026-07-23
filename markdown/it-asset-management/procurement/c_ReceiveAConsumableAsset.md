@@ -2,13 +2,14 @@
 title: Consumable assets
 description: A consumable asset is one that is purchased in quantity and distributed. It is assigned to the consumable model category, and the asset record tracks the quantity that is available and total cost. When consumable assets are received, they are merged into an existing consumable record, if available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/c\_ReceiveAConsumableAsset.html
 release: australia
 product: Procurement
 classification: procurement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Receive assets, Procurement, IT Asset Management]
+breadcrumb: [Receive assets, Procurement, Common applications, Asset Management]
 ---
 
 # Consumable assets
@@ -23,16 +24,16 @@ If no matching consumable record exists in the receiving stockroom, a record is 
 
 **Note:** The related list of a purchase order doesn't display consumable asset details. This means that you can't track consumables through a purchase order.
 
-For more details on creating consumable assets, see [Create consumable assets](../../asset-management/task/t_CreatingConsumableAssets.md).
+For more details on creating consumable assets, see [Create consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingConsumableAssets.md).
 
-**Parent Topic:**[Receive assets](c_ReceiveAssets.md)
+**Parent Topic:**[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/c_ReceiveAssets.md)
 
 **Related topics**  
 
 
-[Receive an asset](../task/t_ReceiveAnAsset.md)
+[Receive an asset]()
 
-[Create a receiving slip](../task/t_CreateAReceivingSlip.md)
+[Create a receiving slip]()
 
-[Create a receiving slip line](../task/t_CreateAReceivingSlipLine.md)
+[Create a receiving slip line]()
 

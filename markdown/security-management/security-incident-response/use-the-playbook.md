@@ -2,6 +2,7 @@
 title: Resolve security threats with the playbook
 description: Use the Playbook to resolve certain types of security threats in a step-by-step manner. For example, you can resolve phishing attacks and threats caused by malicious code activity using playbooks.The Phishing playbook guides you through the tasks necessary for analyzing and resolving a phishing attack reported by one of your company's employees.As you analyze security threats using the Security Incident Response playbook, you can view knowledge articles for each task if defined by your organization. If knowledge articles are not present, you can create them and associate them with playbook tasks.The Security Analyst Workspace base system includes a series of tasks for each threat category. You can create custom tasks that meet the unique needs of your system or customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/use-the-playbook.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,17 +24,13 @@ Role required: sn\_si.admin or admin
 
 Each group of tasks \(Analysis, Contain, and so forth\) leads you through a series of questions and other activities for resolving the threat.
 
-![Playbook example](../image/add-task-button-callout.png "Playbook")
-
 As you work through each task, enter work notes to help analyze similar attacks in the future. After a threat is identified, you can also use information in the playbook to quarantine the threat, isolate similarly affected assets, and remove malware.
 
 Knowledge articles, included in each task, provide tips and other information to help you perform the needed steps.
 
-![Knowledge article in support of phishing task](../image/multiple-outcomes.png "Knowledge articles")
+The base system includes knowledge articles for each of the playbook tasks. You can, however, [write your own knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md) and [associate them to playbook tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md).
 
-The base system includes knowledge articles for each of the playbook tasks. You can, however, [write your own knowledge articles](t_CrtScrIncdtKnwArt.md) and [associate them to playbook tasks](use-the-playbook.md#).
-
-**Note:** For an example of how to use the playbook to analyze and resolve a specific threat, see [Resolving user-reported phishing attacks with the playbook](use-the-playbook.md#).
+**Note:** For an example of how to use the playbook to analyze and resolve a specific threat, see [Resolving user-reported phishing attacks with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md).
 
 ## Procedure
 
@@ -41,23 +38,17 @@ The base system includes knowledge articles for each of the playbook tasks. You 
 
     The Security Incidents screen shows security incidents that have been assigned to you.
 
-    ![Security incidents](../image/cj-sir-si-list.png)
-
 2.  You can click the **Assigned to me** choice list to select a different filter, such as all open incidents or all unassigned incidents.
 
     Alternatively, you can click one of the Quick Filters to view security incidents of a particular type, such as only Critical incidents.
 
 3.  Click the security incident you want to analyze.
 
-    Consider prioritizing security incidents with high [risk scores](../reference/setup-assistant-reference.md#).
+    Consider prioritizing security incidents with high [risk scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md).
 
-4.  If the playbook pane on the right-hand edge of the screen is closed, click the playbook icon \(![Playbook](../image/cj-sir-icon-playbook.png)\) to open it.
+4.  If the playbook pane on the right-hand edge of the screen is closed, click the playbook icon \(\[Omitted image "cj-sir-icon-playbook.png"\] Alt text: Playbook\) to open it.
 
-    If no playbook is assigned to the security incident, you can select a playbook from the Selected Playbook choice list as shown below:
-
-    ![Select playbook](../image/cj-sir-playbook-select.png)
-
-    You can also assign a different playbook to the security incident. To include a playbook in the Selected Playbook choice list or to change the playbook for a security incident, see [Enable playbooks for analyst selection](../concept/sir-new-ui-add-playbook.md) for details.
+    If no playbook is assigned to the security incident, you can select a playbook from the Selected Playbook choice list. You can also assign a different playbook to the security incident. To include a playbook in the Selected Playbook choice list or to change the playbook for a security incident, see [Enable playbooks for analyst selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui-add-playbook.md) for details.
 
     The playbook specific to the type of security threat opens. It is divided into categories of similar tasks. For example, you use the tasks in the **Analysis** group to determine the validity and scope of the threat. The **Contain** group includes tasks for isolating the threat to a specific user or asset. The tasks in the **Eradicate** group guide you through the process of removing the malware or reimaging the host.
 
@@ -66,7 +57,7 @@ The base system includes knowledge articles for each of the playbook tasks. You 
 6.  Follow the prompts in the task.
 
     -   Some tasks ask a question, such as "Is Email Part of Campaign?" Perform the necessary analysis to answer the question, and select **Yes** or **No**.
-    -   If you have [defined knowledge articles and associated them with playbook tasks](use-the-playbook.md#), the articles appear when you start work on a task.
+    -   If you have [defined knowledge articles and associated them with playbook tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md), the articles appear when you start work on a task.
     -   Some tasks are transitional. They simply instruct you to perform an action, such as adding observables to a security incident. After you complete the action, click **Mark as Completed**.
     As you complete tasks, subsequent tasks are presented to you based on the choices you make. Grayed out groups \(such as **Recover**, **Review**, and so forth\) may be activated by your choices.
 
@@ -76,7 +67,7 @@ The base system includes knowledge articles for each of the playbook tasks. You 
 **Related topics**  
 
 
-[Add a custom task to the playbook](use-the-playbook.md#)
+[Add a custom task to the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md)
 
 ## Resolving user-reported phishing attacks with the playbook
 
@@ -84,7 +75,7 @@ The Phishing playbook guides you through the tasks necessary for analyzing and r
 
 ### How security incidents are created from user-reported phishing attacks
 
-During Security Incident Response setup, your system administrator creates a series of [email matching rules](../reference/setup-assistant-reference.md#) that can identify emails that contain signs of a phishing attack. When employees receive a suspicious email that contains the common signs of a phishing attack \(as defined by your security policies\), they can send it as an .EML attachment to the phishing email address defined by your organization.
+During Security Incident Response setup, your system administrator creates a series of [email matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md) that can identify emails that contain signs of a phishing attack. When employees receive a suspicious email that contains the common signs of a phishing attack \(as defined by your security policies\), they can send it as an .EML attachment to the phishing email address defined by your organization.
 
 When the email is received at the phishing email address, the .EML attachment is parsed and its information is compared to the email matching rules. If a match is found, a security incident containing the following information is created:
 
@@ -92,11 +83,7 @@ When the email is received at the phishing email address, the .EML attachment is
 -   The .EML file is attached to the security incident.
 -   If the .EML contained any observables, they are parsed, and enrichment and threat lookups are automatically performed.
 
-![User reported phishing security incident](../image/cj-sir-phishing-callouts.png "User Reported Phishing")
-
-When a Phishing category security incident is opened, the Phishing Playbook is automatically available. Simply click the playbook icon \(![Playbook](../image/cj-sir-icon-playbook.png)\) to open the playbook.
-
-![Phishing playbook pane](../image/cj-sir-phishing-playbook.png "Phishing Playbook")
+When a Phishing category security incident is opened, the Phishing Playbook is automatically available. Simply select the playbook icon \(\[Omitted image "cj-sir-icon-playbook.png"\] Alt text: Playbook\) to open the playbook.
 
 The Phishing playbook contains tasks to help you analyze, contain, and eradicate a phishing threat. The tasks are organized into states \(for example, **Analysis**, **Contain**, and so forth\). When all tasks for a state have been completed, the playbook guides you to the next state.
 
@@ -216,9 +203,9 @@ Set the condition builder to:-   **Option:** Select **Short description**.
 **Related topics**  
 
 
-[Create a security incident knowledge article](t_CrtScrIncdtKnwArt.md)
+[Create a security incident knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md)
 
-[Create a Security Incident Response runbook](../reference/setup-assistant-reference.md#)
+[Create a Security Incident Response runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-assistant-reference.md)
 
 ## Add a custom task to the playbook
 

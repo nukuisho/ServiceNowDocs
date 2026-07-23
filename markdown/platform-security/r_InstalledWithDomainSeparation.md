@@ -2,6 +2,7 @@
 title: Installed with domain separation
 description: Several platform components are added or modified with domain separation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/r\_InstalledWithDomainSeparation.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -108,20 +109,20 @@ MSP Extensions add several new default options to the type field of the Group ta
 |Deactivated script|
 |\(BP\) Set Location to User|Monitors the incident location field and sets the location field to the caller's location.|
 
-**Parent Topic:**[Exploring domain separation](../concept/c_DomainSeparation.md)
+**Parent Topic:**[Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
 
 **Related topics**  
 
 
-[Configuration that can be delegated to internal or external customers](../concept/ds-before-you-begin.md)
+[Configuration that can be delegated to internal or external customers]()
 
-[Domain assignment](../concept/c_DomainAssignment.md)
+[Domain assignment]()
 
-[Visibility domains and Contains domains](../concept/c_DomainVisibility.md)
+[Visibility domains and Contains domains]()
 
-[Domain scope](../concept/c_DomainScope.md)
+[Domain scope]()
 
-[Concepts for service providers](../concept/sp-concepts.md)
+[Concepts for service providers]()
 
-[Domain separation recommended practices for service providers](bp-domain-sep-recommended.md)
+[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
 

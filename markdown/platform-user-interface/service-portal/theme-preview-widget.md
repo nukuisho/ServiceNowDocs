@@ -2,6 +2,7 @@
 title: Theme Preview widget
 description: The Theme Preview widget appears in the Branding Editor and allows you to see any theme changes you make to your portal. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/theme-preview-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -15,16 +16,16 @@ breadcrumb: [Service Portal configuration page widgets, Widget library, Using po
 
 The Theme Preview widget appears in the Branding Editor and allows you to see any theme changes you make to your portal. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-![Theme Preview widget with Brand and Navbar information.](../image/WidgetThemePreview.png "Theme Preview widget")
+\[Omitted image "WidgetThemePreview.png"\] Alt text: Theme Preview widget with Brand and Navbar information.
 
-**Parent Topic:**[Service Portal configuration page widgets](sp-config-widgets.md)
+**Parent Topic:**[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-config-widgets.md)
 
 **Related topics**  
 
 
-[Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#)
+[Create and edit a page using the Service Portal Designer]()
 
-[Configure widget instances](c_ConfigureWidgetInstances.md)
+[Configure widget instances]()
 
-[Clone a widget](../task/t_CloneAndEditAWidget.md)
+[Clone a widget]()
 

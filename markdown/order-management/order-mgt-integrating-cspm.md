@@ -2,6 +2,7 @@
 title: Order Management diagnostics capability
 description: Agents can use ServiceNow Order Management diagnostics capability to diagnose and resolve service issues related to order tasks and domain orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/order-mgt-integrating-cspm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

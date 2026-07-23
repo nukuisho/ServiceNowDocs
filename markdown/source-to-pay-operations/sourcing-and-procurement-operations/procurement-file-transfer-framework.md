@@ -2,6 +2,7 @@
 title: Procurement File Transfer Framework
 description: Procurement File Transfer Framework \(PFTF\) helps you transfer information between the ServiceNow database and a third-party reseller through a File Transfer Protocol \(FTP\). You can set up an FTP server for access and transfer of reseller data without any spoke development by the third-party reseller.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -42,39 +43,39 @@ Currently, the following integrations are supported:
 
 **Exports**: Order export
 
-Your suppliers can upload the files with the recommended [folder](../reference/data-sources-info.md) structure and format on the server. ServiceNow imports and exports all the details automatically through scheduled data imports and exports.
+Your suppliers can upload the files with the recommended [folder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md) structure and format on the server. ServiceNow imports and exports all the details automatically through scheduled data imports and exports.
 
--   **[Third‑party registration for PIF and PFTF integrations](../reference/third-party-registration-for-pif-pftf.md)**  
+-   **[Third‑party registration for PIF and PFTF integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/third-party-registration-for-pif-pftf.md)**  
 Third‑party registration enables you to configure supplier integrations for Source-to-Pay Integration Framework \(PIF\) and Procurement File Transfer Framework \(PFTF\).
--   **[Import data using FTP server](../task/ftp-data-import.md)**  
+-   **[Import data using FTP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ftp-data-import.md)**  
 Import a file from a local source, a remote network server, or another instance by providing a path and authentication information. Transfer and manage procurement data in a principled structure that administrators can use for various data management operations.
--   **[Perform export steps](../task/validate-errors.md)**  
+-   **[Perform export steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.md)**  
 Export a file from a local source, a remote network server, or another instance by providing a path and authentication information.
--   **[Data source table information](../reference/data-sources-info.md)**  
+-   **[Data source table information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/data-sources-info.md)**  
 The following information can help you with the FTP import and export data.
 
-**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](integrating-spo.md)
+**Parent Topic:**[Integrate Sourcing and Procurement Operations with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integrating-spo.md)
 
 **Related topics**  
 
 
-[Sourcing and Procurement Operations integration with IT Asset Management](spo-itam-better-together.md)
+[Sourcing and Procurement Operations integration with Asset Management]()
 
-[Sourcing and Procurement Operations integration with Employee Center](employee-center-integration-psm.md)
+[Sourcing and Procurement Operations integration with Employee Center]()
 
-[Sourcing and Procurement Operations integration with third-party sourcing solutions](psm-integration-third-party-sourcing.md)
+[Sourcing and Procurement Operations integration with third-party sourcing solutions]()
 
-[Sourcing and Procurement Operations integration with Third-party Risk Management](better-together-with-vrm.md)
+[Sourcing and Procurement Operations integration with Third-party Risk Management]()
 
-[Sourcing and Procurement Operations integration with Project Management](integration-psm-ppm.md)
+[Sourcing and Procurement Operations integration with Project Management]()
 
-[Sourcing and Procurement Operations integration with Celonis](integration-psm-celonis.md)
+[Sourcing and Procurement Operations integration with Celonis]()
 
-[Sourcing and Procurement Operations integration with Field Service Management](integration-psm-fsm.md)
+[Sourcing and Procurement Operations integration with Field Service Management]()
 
-[Source-to-Pay Operations integration with Contract Management Pro](integration-spo-cmpro.md)
+[Source-to-Pay Operations integration with Contract Management Pro]()
 
-[ERP source validation on Sourcing and Procurement Operations objects](../reference/erp-source-val-spo-objects.md)
+[ERP source validation on Sourcing and Procurement Operations objects]()
 
-[SpendInt APIs](spendint-api.md)
+[SpendInt APIs]()
 

@@ -2,9 +2,10 @@
 title: Create a product offering version
 description: Create a version of a product offering when updates are needed to a published offering in Sales Customer Relationship Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/som-product-config-create-new-version.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -38,10 +39,17 @@ After a product offering is published, changes can’t be made. To add changes t
 
 ## What to do next
 
--   [Create product characteristics and characteristic options](som-product-config-add-characteristics.md)
--   [Add product visuals](som-product-config-add-visuals.md)
--   [Add product catalog categories](som-product-config-offering-categories.md)
--   [Create product offering relationships](som-product-config-offering-relationships.md)
--   [Add related contracts to product offerings](som-product-config-related-contracts.md)
--   [Create product offering relationship groups](som-product-config-relationship-groups.md)
+-   [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md)
+-   [Add product visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-visuals.md)
+-   [Add product catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-offering-categories.md)
+-   [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-offering-relationships.md)
+-   [Add related contracts to product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-related-contracts.md)
+-   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-relationship-groups.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/product-catalog-managment.md)
 

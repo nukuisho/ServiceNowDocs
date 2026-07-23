@@ -2,6 +2,7 @@
 title: Install Virtual Agent for PPM
 description: Install Virtual Agent for PPM from the ServiceNow store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/activate-ppm-va.html
 release: australia
 product: Project Management
 classification: project-management
@@ -37,7 +38,7 @@ To install Virtual Agent for PPM, activate the following plugins:
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from ServiceNow store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select **Install**.
 
@@ -57,11 +58,11 @@ To install Virtual Agent for PPM, activate the following plugins:
 **Related topics**  
 
 
-[Virtual Agent for PPM](../concept/ppm-va-overview.md)
+[Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-overview.md)
 
-[Enable Virtual Agent for PPM](setup-ppm-va.md)
+[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/setup-ppm-va.md)
 
-[PPM Virtual Agent conversation flows](../concept/ppm-va-conversations.md)
+[PPM Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-conversations.md)
 
-[Reusable PPM Virtual Agent topic blocks](../concept/ppm-va-topic-blocks.md)
+[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/ppm-va-topic-blocks.md)
 

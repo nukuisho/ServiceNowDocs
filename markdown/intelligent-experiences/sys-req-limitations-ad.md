@@ -2,6 +2,7 @@
 title: System requirements and limitations in AI Desktop Actions
 description: Be aware of system requirements and a few limitations when you’re using the AI Desktop Actions application for defined desktop actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sys-req-limitations-ad.html
 release: australia
 topic_type: concept
 last_updated: "2025-11-18"
@@ -36,13 +37,13 @@ Be aware of system requirements and a few limitations when you’re using the AI
     -   Local changes to the Remote Desktop Users group are temporary unless they align with Microsoft Active Directory entitlements.
     -   If the user is not entitled, Group Policy refresh automatically removes them from the group.
 -   Theme must match between the systems used for recording and execution.
--   Confirm that your firewall allows bidirectional traffic between the AI Desktop Actions application and your ServiceNow instance on the following ports:
-    -   Port 80 for HTTP and WebSocket \(`ws://`\) traffic
-    -   Port 443 for HTTPS and encrypted WebSocket \(`wss://`\) traffic
+-   Confirm that your firewall allows bidirectional traffic between the AI Desktop Actions application and your ServiceNow instance on the port 80 for HTTP and port 443 for HTTPs.
 
-        If your organization uses non-standard ports for HTTP or HTTPS, confirm the correct ports with your IT administrator before proceeding.
+    If your organization uses non-standard ports for HTTP or HTTPS, confirm the correct ports with your IT administrator before proceeding.
 
--   Confirm that you have registered the `snada://` custom URI protocol to enable the browser to launch the AI Desktop Actions application.
+    You must have full permissions to create and use system I/O communication pipes.
+
+-   If applicable, confirm that the `snada://` custom URI protocol is registered to launch the AI Desktop Actions application in the browser.
 
 **Note:** Screen resolution and scaling must be the same between the systems used for recording and execution of desktop actions that are created before AI Desktop Actions v1.0.1.
 
@@ -113,5 +114,5 @@ Sensitive information
 The sensitive information isn’t masked during recording. Confirm that you don’t record any sensitive information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Desktop Actions reference](agentic-desktop-reference.md)
+</table>**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/agentic-desktop-reference.md)
 

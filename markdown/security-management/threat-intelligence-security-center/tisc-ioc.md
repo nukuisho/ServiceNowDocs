@@ -2,58 +2,59 @@
 title: TISC Library Repository
 description: IoC repository contains STIX objects, each of these objects contain a specific piece of information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-ioc.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Threat Intelligence Security Center Library, Use, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
 # TISC Library Repository
 
 IoC repository contains STIX objects, each of these objects contain a specific piece of information.
 
--   **[Observables](observables.md)**  
+-   **[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/observables.md)**  
 Observables represent stateful properties \(such as the MD5 hash of a file or the value of a registry key\) or measurable events \(such as the creation of a registry key or the deletion of a file\) that are pertinent to the operation of computers and networks.
--   **[Indicators](indicator.md)**  
+-   **[Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/indicator.md)**  
 Indicators are artifacts observed on a network or operating system that are likely to indicate an intrusion. Typical IoCs are virus signatures and IP addresses, MD5 hashes of malware files or URLs, or domain names.
--   **[Threat Entities](tisc-threat-entities.md)**  
+-   **[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-entities.md)**  
 The Threat Entities module provides structured records used to manage threat intelligence objects in the TISC. These records align with STIX domain object concepts and help standardize how threat activity is documented and analyzed.
--   **[Other Objects](tisc-other-objects.md)**  
+-   **[Other Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-other-objects.md)**  
 Define and manage data classifications within TISC.
--   **[Vulnerability Artifacts](vulnerability.md)**  
+-   **[Vulnerability Artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/vulnerability.md)**  
 A Vulnerability is a weakness or defect in a software or hardware component that attackers exploit. Vulnerabilities apply for STIX 2.x.
--   **[View RSS Feeds](../task/define-rss-feeds.md)**  
+-   **[View RSS Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-rss-feeds.md)**  
 A threat intelligence feed is a real-time, continuous data stream that gathers information related to cyber risks or threats. RSS Feeds provides an easy way to stay up to date with your favorite security blogs or latest cyber security news.
--   **[Working with Reports in TISC](tisc-reports-lib-view.md)**  
+-   **[Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md)**  
 The Reports module in the Threat Intelligence Library section enables you to create, manage, and publish reports that use any intelligence available in the Threat Intelligence Library.
--   **[MITRE-ATT&amp;CK Repository](tisc-mitre-att-ck-framework-overview.md)**  
+-   **[MITRE-ATT&amp;CK Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)**  
 The MITRE-ATT&amp;CK repository is available under the Intelligence Library where the data from the MITRE sources are ingested.
--   **[Relationships Objects](relationship-objects.md)**  
+-   **[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/relationship-objects.md)**  
 Use the relationships objects to link together two observables or an observable and SDO to explain how they relate to each other.
--   **[Potential Relationships](potential-relationships.md)**  
+-   **[Potential Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/potential-relationships.md)**  
 The application uses automated correlation to establish potentially possible relationships between two SDOs, two Observables or an observable and SDO.
--   **[Vulnerability relationship mapping](tisc-vul-relationship-map.md)**  
+-   **[Vulnerability relationship mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-vul-relationship-map.md)**  
 Use many-to-many \(M2M\) relationship records to map connections between vulnerabilities and other entities.
 
-**Parent Topic:**[Threat Intelligence Security Center Library](threat-intelligence-security-center-library.md)
+**Parent Topic:**[Threat Intel Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md)
 
 **Related topics**  
 
 
-[Understanding the Data Model](../reference/understanding-the-data-model.md)
+[TISC Data Model]()
 
-[TISC Library Objects form view](tisc-library-home-page-view.md)
+[TISC Library Objects form view]()
 
-[Access Vulnerability Downstream actions](downstream-actions-from-the-vulnerability-form-view.md)
+[Access Vulnerability Downstream actions]()
 
-[Deleting threat intelligence library records](../task/tisc-delete-lib-records.md)
+[Deleting threat intelligence library records]()
 
-[Export intelligence data](../task/tisc-export-observables.md)
+[Export intelligence data]()
 
-[Confirm Potential Relationships from Related Records](../task/confirm-potential-relationships.md)
+[Confirm Potential Relationships from Related Records]()
 
-[Automated Correlation](automated-correlation-rules.md)
+[Automated Correlation]()
 

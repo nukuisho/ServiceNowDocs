@@ -2,6 +2,7 @@
 title: Screen fields
 description: Screen fields improve the usability of your form screens. With screen fields, your users can view and edit attachments, view and complete checklist items, or display a field without a label.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/sg-screen-field-enhancements.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ When configuring a details screen, you select fields to display on your form. Wh
 
 </td><td>
 
-![Text screen field with value only option selected.](../image/screen-field-value-only.png)
+\[Omitted image "screen-field-value-only.png"\] Alt text: Text screen field with value only option selected.
 
 </td></tr><tr><td>
 
@@ -31,7 +32,7 @@ When configuring a details screen, you select fields to display on your form. Wh
 
 </td><td>
 
-![Percentage screen field.](../image/screen-field-percent.png)
+\[Omitted image "screen-field-percent.png"\] Alt text: Percentage screen field.
 
 </td></tr><tr><td>
 
@@ -39,7 +40,7 @@ When configuring a details screen, you select fields to display on your form. Wh
 
 </td><td>
 
-![Screen field on form and image preview screen.](../image/screen-field-image.png)
+\[Omitted image "screen-field-image.png"\] Alt text: Screen field on form and image preview screen.
 
 </td></tr><tr><td>
 
@@ -47,7 +48,7 @@ When configuring a details screen, you select fields to display on your form. Wh
 
 </td><td>
 
-![Attachment screen field on the incident table.](../image/screen-enhance-attachment.png)
+\[Omitted image "screen-enhance-attachment.png"\] Alt text: Attachment screen field on the incident table.
 
 </td></tr><tr><td>
 
@@ -55,15 +56,15 @@ When configuring a details screen, you select fields to display on your form. Wh
 
 </td><td>
 
-![Video screen field.](../image/screen-field-video.png)
+\[Omitted image "screen-field-video.png"\] Alt text: Video screen field.
 
 </td></tr><tr><td>
 
-**File** Use a file screen field to display a PDF file within your form. The PDF displays as a preview on your form. Users can tap the preview \(![PDF preview icon](../image/pdf-preview-icon.png)\) icon to open it in a preview screen where they can scroll and zoom on the PDF document. The file screen field gets its value from a field on the current record. The value must be the sys\_ID of an attachment \[sys\_attachment\] record on your instance that contains a PDF file.
+**File** Use a file screen field to display a PDF file within your form. The PDF displays as a preview on your form. Users can tap the preview \(\[Omitted image "pdf-preview-icon.png"\] Alt text: PDF preview icon\) icon to open it in a preview screen where they can scroll and zoom on the PDF document. The file screen field gets its value from a field on the current record. The value must be the sys\_ID of an attachment \[sys\_attachment\] record on your instance that contains a PDF file.
 
 </td><td>
 
-![File screen field.](../image/screen-field-file.png)
+\[Omitted image "screen-field-file.png"\] Alt text: File screen field.
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ When configuring a details screen, you select fields to display on your form. Wh
 
 </td><td>
 
-![HTML screen field.](../image/field-screen-html.png)
+\[Omitted image "field-screen-html.png"\] Alt text: HTML screen field.
 
 </td></tr><tr><td>
 
@@ -79,15 +80,15 @@ When configuring a details screen, you select fields to display on your form. Wh
 
 </td><td>
 
-![Checklist screen field.](../image/screen-enhance-checklist.png)
+\[Omitted image "screen-enhance-checklist.png"\] Alt text: Checklist screen field.
 
 </td></tr><tr><td>
 
-**Date** Use a date screen field to display a date value on your form. This value comes from a date or date/time field on the current record. Dates are displayed in the format that are defined by your instance. This field type has a**Value only** option, which displays the value of the field without the field label. If the field is configured with an action function, users can change the values of these fields. For more information, see [Configure an action function](../task/sg-studio-config-action-function.md).
+**Date** Use a date screen field to display a date value on your form. This value comes from a date or date/time field on the current record. Dates are displayed in the format that are defined by your instance. This field type has a**Value only** option, which displays the value of the field without the field label. If the field is configured with an action function, users can change the values of these fields. For more information, see [Configure an action function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-config-action-function.md).
 
 </td><td>
 
-![Date screen field.](../image/screen-field-date.png)
+\[Omitted image "screen-field-date.png"\] Alt text: Date screen field.
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ When configuring a details screen, you select fields to display on your form. Wh
 
 </td><td>
 
-![Mobile stage field.](../image/mobile-stage-field.png)
+\[Omitted image "mobile-stage-field.png"\] Alt text: Mobile stage field.
 
 </td></tr><tr><td>
 
@@ -110,11 +111,11 @@ When configuring a details screen, you select fields to display on your form. Wh
 
 </td><td>
 
-![Script screen option in a record screen.](../image/record-script-screen-platform.png)
+\[Omitted image "record-script-screen-platform.png"\] Alt text: Script screen option in a record screen.
 
 </td></tr></tbody>
-</table>-   **[Add screen fields to a record screen](../task/sg-mobile-add-screen-field.md)**  
+</table>-   **[Add screen fields to a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-add-screen-field.md)**  
 Add screen fields to improve the usability of your record screens. Screen fields enable you to change how information is shown in your form or you can provide access to additional elements, such as attachments, videos, or links.
--   **[Add a video screen field to a record screen](../task/sg-mobile-add-video-field.md)**  
+-   **[Add a video screen field to a record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-add-video-field.md)**  
 Learn how to use a video screen field to view embedded videos in your mobile screens.
 

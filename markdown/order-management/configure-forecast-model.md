@@ -2,6 +2,7 @@
 title: Configure Forecast Model
 description: The forecast model is a framework used to predict future sales based on historical data, current sales activities, and other relevant factors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/configure-forecast-model.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -190,7 +191,7 @@ Option to submit and adjust forecasts at base forecast source. **Note:** If you 
 
     4.  In the **Rollup Owner Criteria** field, use **Add Filter Condition** or **Add OR Clause** to refine the rollup owner selection.
 
-    5.  From the **Rollup Owner to Forecast Association** field, define how the rollup owner record is associated to the forecast record.![Roll Up Owner Configuration](../image/roll-up-owner-config-sf.png)
+    5.  From the **Rollup Owner to Forecast Association** field, define how the rollup owner record is associated to the forecast record.\[Omitted image "roll-up-owner-config-sf.png"\] Alt text: Roll Up Owner Configuration
 
     6.  From the **Forecast to Rollup Owner Association** field, define how the forecast record is associated back to the rollup owner.
 
@@ -202,4 +203,11 @@ Option to submit and adjust forecasts at base forecast source. **Note:** If you 
 ## Result
 
 The new forecast model is created. You can view it on the Forecast Models page.
+
+**Related topics**  
+
+
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/using-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-forecasting.md)
 

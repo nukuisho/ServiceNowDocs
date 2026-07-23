@@ -2,6 +2,7 @@
 title: Microsoft SQL Server and Cluster discovery
 description: The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/mssql-data-collected-pattern.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -18,9 +19,9 @@ The Discovery and Service Mapping Patterns application uses the MSSql DB On Wind
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/06a71b1367e4130051c9027e2685ef1e/1.6.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPatterns&sl=sh) to view all the available updates and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-For detailed information on SQL Server supported versions see: [Detailed information on products discovered by ITOM Visibility](../../service-mapping/reference/r_SupportedApplications.md)
+For detailed information on SQL Server supported versions see: [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md)
 
 ## Prerequisites
 
@@ -29,11 +30,11 @@ For detailed information on SQL Server supported versions see: [Detailed informa
     -   Visibility Content starting with version 6.12.1 \(August 2023\)
 -   **Create Windows credentials**
 
-    After verifying that the MID Server is connected to the target Windows server, create Windows credentials on the ServiceNow AI Platform. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).
+    After verifying that the MID Server is connected to the target Windows server, create Windows credentials on the ServiceNow AI Platform. For more information, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_WindowsCredentialsForm.md).
 
 -   **Create applicative credentials when using SQL authentication**
 
-    For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md).
+    For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md).
 
 -   **Verify the configuration of the MID Server**
 
@@ -72,7 +73,7 @@ For detailed information on SQL Server supported versions see: [Detailed informa
 
 Updating the version 1.6.1 set of Patterns available from the ServiceNow® Store starting August 2023 enables an appropriate discovery of the Always On availability group details and the SQL Failover Clusters. When the failover scenario is occurring, the MSSql DB On Windows pattern discovers the failover cluster \(Node 2\). Then a new MSFT SQL instance and databases are created.
 
-![Node 2 is a duplicate of Node 1](../image/sql_cluster_discovery.png)
+\[Omitted image "sql\_cluster\_discovery.png"\] Alt text: Node 2 is a duplicate of Node 1
 
 The following procedure enables appropriate visibility of the SQL clusters.
 
@@ -80,7 +81,7 @@ The following procedure enables appropriate visibility of the SQL clusters.
 2.  Ensure that an `sqlservr.exe` process to trigger the MSSql DB On Windows pattern is running on the server.
 3.  Run a CI discovery.
 
-    For more information, see [Running discoveries in your network](../concept/running-discoveries.md).
+    For more information, see [Running discoveries in your network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/running-discoveries.md).
 
 4.  Either keep duplicate instances and databases or delete them.
     -   To keep the duplicate instances and databases, keep the default configuration.
@@ -100,19 +101,19 @@ The Collect MSSQL HADR - Availability Group Info pattern extension introduces th
 |MSSQL Availability Group Listener \[cmdb\_ci\_mssql\_ag\_listener\]|Endpoint \[cmdb\_ci\_endpoint\]|
 |MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|MSSQL Cluster Node \[cmdb\_ci\_mssql\_cluster\_node\]|
 
-![Collect MSSQL HADR - Availability Group Info pattern extension relationships](../../service-mapping/image/mssql-ag-pattern-model.png "Data model of Collect MSSQL HADR - Availability Group Info")
+\[Omitted image "mssql-ag-pattern-model.png"\] Alt text: Collect MSSQL HADR - Availability Group Info pattern extension relationships
 
 -   **Prerequisites**
 
-    [Verify availability group table permissions](mssql-data-collected-pattern.md#verify-availability-group-permissions)
+    [Verify availability group table permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/mssql-data-collected-pattern.md)
 
 -   **Discovered resources**
 
-    [Resources discovered by the pattern extension: Collect MSSQL HADR - Availability Group Info](mssql-data-collected-pattern.md#resources-discovered-mssql-availability-group-pattern)
+    [Resources discovered by the pattern extension: Collect MSSQL HADR - Availability Group Info](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/mssql-data-collected-pattern.md)
 
 -   **Discovered relationships**
 
-    [Relationships discovered by the pattern extension: Collect MSSQL HADR - Availability Group Info](mssql-data-collected-pattern.md#table_er3_qss_p2c)
+    [Relationships discovered by the pattern extension: Collect MSSQL HADR - Availability Group Info](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/mssql-data-collected-pattern.md)
 
 
 ## Data collected by Discovery during horizontal discovery
@@ -518,14 +519,14 @@ The MSSql DB On Windows pattern creates the following relationships and referenc
 |MSSQL Availability Group Listener \[cmdb\_ci\_mssql\_ag\_listener\]|Availability Group \[availability\_group\]|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|
 |MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|Availability Group \[availability\_group\]|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|
 
-**Parent Topic:**[Database discovery](../concept/database-discovery.md)
+**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/database-discovery.md)
 
 **Related topics**  
 
 
-[Add the Horizontal Pattern probe to a classifier](../concept/c-UsingPatternsForHorizontalDiscovery.md#)
+[Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md)
 
-[Horizontal Pattern probe](r-HorizontalPatternProbe.md)
+[Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md)
 
-[Database Administrator \(DBA\) report discovery](../concept/dba-report-discovery-pattern.md)
+[Database Administrator \(DBA\) report discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/dba-report-discovery-pattern.md)
 

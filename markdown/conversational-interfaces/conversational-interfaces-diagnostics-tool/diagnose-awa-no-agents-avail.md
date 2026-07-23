@@ -2,6 +2,7 @@
 title: Diagnose Advanced Work Assignment configuration issues
 description: Use the Conversational Interfaces Diagnostic Tool to identify and resolve common Advanced Work Assignment \(AWA\) configuration issues before reaching out to Now Support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose-awa-no-agents-avail.html
 release: australia
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
@@ -41,7 +42,7 @@ Solve issues with your AWA configuration. For example, you can solve issues such
 
     The Diagnostic Tool asks if you want to proceed with the diagnosis.
 
-    ![Virtual Agent chat window displaying question to user in Microsoft Teams asking to proceed with the diagnosis.](../image/ci-dt-microsoft-proceed-choices.png "Proceed or search again chat response") ![]( "Proceed or search again chat response")
+    \[Omitted image "ci-dt-microsoft-proceed-choices.png"\] Alt text: Virtual Agent chat window displaying question to user in Microsoft Teams asking to proceed with the diagnosis. \[Omitted image ""\] Alt text:
 
 5.  Select **Yes** to continue.
 
@@ -51,9 +52,9 @@ Solve issues with your AWA configuration. For example, you can solve issues such
 
     When the diagnosis is complete, the Diagnostic Tool displays a recommended solution.
 
-    ![Virtual Agent chat window displaying recommended solution.](../image/ci-dt-recommended-solution.png "Issue recommendation")
+    \[Omitted image "ci-dt-recommended-solution.png"\] Alt text: Virtual Agent chat window displaying recommended solution.
 
-    ![Virtual Agent chat window displaying confirmation to proceed with workflow.](../image/ci-dt-proceed-with-topic-flow.png "Issue confirmation")
+    \[Omitted image "ci-dt-proceed-with-topic-flow.png"\] Alt text: Virtual Agent chat window displaying confirmation to proceed with workflow.
 
 7.  Select **Yes** to confirm, or select **No** to end the workflow.
 
@@ -71,10 +72,10 @@ Solve issues with your AWA configuration. For example, you can solve issues such
 
     -   Select **No** to confirm that the solution was helpful and to exit the workflow.
     -   You may see a link that you can use to download support data.
-    ![A link to download support data displays at the end of the workflow.](../image/ci-dt-download-support-data.png "Prompt to download support data")
+    \[Omitted image "ci-dt-download-support-data.png"\] Alt text: A link to download support data displays at the end of the workflow.
 
 9.  Click the link to download support data.
 
 
-**Parent Topic:**[Using the Conversational Interfaces Diagnostic Tool](../concept/using-ci-diagnostics-tool.md)
+**Parent Topic:**[Using the Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/using-ci-diagnostics-tool.md)
 

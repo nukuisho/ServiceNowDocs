@@ -2,6 +2,7 @@
 title: Customize the appearance of a survey
 description: As an assessment and survey administrator, set properties to customize the color of various elements on the questionnaires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/t\_CustomizingAppearance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,47 +40,47 @@ The customizations that you make apply to all assessments and surveys.
 
     **Note:** You can customize the **Caption font color**, **Caption background color**, and **Question header background color** only if Next Experience is turned off.
 
-    ![Assessment color properties](../image/AssessmentColorProperties.png)
+    \[Omitted image "AssessmentColorProperties.png"\] Alt text: Assessment color properties
 
 3.  Click **Save**.
 
     Clear the browser's cache to see updates.
 
 
-**Parent Topic:**[Survey administration](../reference/r_SurveyAdminTasks.md)
+**Parent Topic:**[Survey administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/r_SurveyAdminTasks.md)
 
 **Related topics**  
 
 
-[View survey reports](view-survey-overview.md)
+[View survey reports]()
 
-[Survey designer](../concept/c_SurveyDesigner.md)
+[Survey designer]()
 
-[View a survey instance](t_ViewSurveyInstance.md)
+[View a survey instance]()
 
-[Survey users and groups](../concept/c_SurveyUsersAndGroups.md)
+[Survey users and groups]()
 
-[Copy a survey](copy-survey.md)
+[Copy a survey]()
 
-[Publish a survey](t_PublishASurvey.md)
+[Publish a survey]()
 
-[Survey definitions](../concept/c_SurveyDefinitions.md)
+[Survey definitions]()
 
-[Create a survey designer template question](t_CreateASurveyDesignerTemplateQ.md)
+[Create a survey designer template question]()
 
-[Survey questions](../concept/c_SurveyQuestion.md)
+[Survey questions]()
 
-[Survey trigger conditions](../concept/c_TriggerConditions.md)
+[Survey trigger conditions]()
 
-[Survey distribution](../concept/c_SurveyDistribution.md)
+[Survey distribution]()
 
-[Outlook Actionable Messages](../../outlook-actionable-messages/concept/outlook-actionable-messages.md)
+[Outlook Actionable Messages]()
 
-[Sentiment analysis for surveys](../concept/sentiment-analysis.md)
+[Sentiment analysis for surveys]()
 
-[Surveys in Service Portal and the Now Mobile app](../concept/c_SurveyServicePortal.md)
+[Surveys in Service Portal and the Now Mobile app]()
 
-[Surveys in ITSM Virtual Agent](../concept/survey-virtual-agent.md)
+[Surveys in ITSM Virtual Agent]()
 
-[Legacy survey migration](../concept/c_MigrateSurveys.md)
+[Legacy survey migration]()
 

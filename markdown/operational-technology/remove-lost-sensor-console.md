@@ -2,11 +2,12 @@
 title: Remove a lost Sensor
 description: Remove a Sensor that no longer functions or is otherwise reported as having a lost connection from the Discovery Console for OT.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/remove-lost-sensor-console.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Remove a lost Sensor
@@ -19,21 +20,33 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to the Sensors page.
+1.  Navigate to the **Appliances** page.
 
-2.  Select the Sensor that you want to remove.
+2.  From the list, under the Name column, select the Sensor that you want to remove.
 
     **Danger**
 
-    Removing Sensors in the OT environment may require working in environments with dangerous voltages, moving parts, and other safety hazards. Sensors should only be installed by persons with proper electrical and workplace safety training.
+    Removing Sensors in the OT environment may require working in environments with dangerous voltages, moving parts, and other safety hazards. Sensors should only be removed by persons with proper electrical and workplace safety training.
 
-3.  Select **Actions**.
+3.  The Sensor record opens for the selected appliance.
 
-4.  Select **Remove Device from Console**.
+4.  In the record, select the Action button.
+
+5.  From the menu, select **Remove Device from Console**.
 
     **Note:** The **Remove Device from Console** option is only available in the drop-down if the Device Status is **Connection Lost**.
 
-5.  Confirm your choice to remove the Sensor.
+6.  If the select Sensor is associated to a Site, a warning prompt opens.
+
+    \[Omitted image "remove-sensor-warning1.png"\] Alt text: Warning
+
+    Removing a Sensor that is associated to a Site can't be undone.
+
+7.  If you still intend to remove the Sensor, select **Continue**.
+
+    \[Omitted image "remove-second-warning2.png"\] Alt text: Remove the Sensor
+
+8.  Select the **Remove Sensor** button to complete the removal.
 
 
 ## Result

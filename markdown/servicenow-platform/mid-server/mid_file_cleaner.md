@@ -2,11 +2,12 @@
 title: MID Server File Cleaner
 description: A monitor thread runs in the MID Server to clean up old files, to keep the size and quantity of files within the install folder manageable, and to prevent performance issues with the MID Servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid\_file\_cleaner.html
 release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-07-09"
 reading_time_minutes: 4
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -59,38 +60,38 @@ The MID File Cleaner can be disabled completely for all folders, by adding the M
 
 On the MID Server form, click New on the "Configuration Parameters" related list, select mid.file\_cleaner.disabled, and enter the value "true".
 
-This can also be manually added to the config.xml file: `<parameter name="mid.file_cleaner.disabled" value="true"/>`. See [MID Server parameters](../reference/mid-server-parameters.md#) for more information.
+This can also be manually added to the config.xml file: `<parameter name="mid.file_cleaner.disabled" value="true"/>`. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md) for more information.
 
-**Parent Topic:**[MID Server reference](mid-server-reference-information.md)
+**Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 
 **Related topics**  
 
 
-[MID Server system requirements](../reference/r_MIDServerSystemRequirements.md)
+[MID Server system requirements]()
 
-[MID Server upgrades](c_UpgradeAndTestMIDServer.md)
+[MID Server upgrades]()
 
-[Resolving MID Server issues](../reference/r_MIDServerTroubleshooting.md)
+[Resolving MID Server issues]()
 
-[MID Server dashboard](c_MIDServerDashboard.md)
+[MID Server dashboard]()
 
-[MID Server properties](../reference/r_MIDServerProperties.md#)
+[MID Server properties]()
 
-[MID Server parameters](../reference/mid-server-parameters.md#)
+[MID Server parameters]()
 
-[MID Server Configuration Parameter settings and priority](../reference/mid-config-param-priority.md)
+[MID Server Configuration Parameter settings and priority]()
 
-[MID Server protected records and reserved characters](../reference/mid-server-reserved-characters.md)
+[MID Server protected records and reserved characters]()
 
-[MID Server privileged commands](c_PrivilegedCommandsForMIDServer.md#)
+[MID Server privileged commands]()
 
-[MIDSystem methods](../reference/r_MIDSystemMethods.md)
+[MIDSystem methods]()
 
-[Manually start, stop, and restart a MID Server](../task/t_InstallMIDServerAsWinService.md)
+[Manually start, stop, and restart a MID Server]()
 
-[MID Server heartbeat](../reference/r_MIDServerHeartbeat.md)
+[MID Server heartbeat]()
 
-[Set the MID Server JVM memory size](../task/t_MIDServerOptionalConfiguration.md)
+[Set the MID Server JVM memory size]()
 
-[Pause the MID Server](../task/t_PauseTheMIDServer.md#)
+[Pause the MID Server]()
 

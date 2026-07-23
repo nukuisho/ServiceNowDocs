@@ -2,6 +2,7 @@
 title: Domain separation and MITRE-ATT&amp;CK
 description: This domain separation overview pertains to MITRE-ATT&amp;CK. Domain separation allows you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/domain-separation-and-mitre-att-ck.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Follow these steps to achieve domain separation:
 
 -   Create a user with the required sn\_ti.admin roles in the respective domain.
 -   Replicate the following for every domain:
-    -   [TAXII Collections](domain-separation-and-mitre-att-ck.md#section_svm_dry_y4b)
+    -   [TAXII Collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-and-mitre-att-ck.md)
 
         **Note:**
 
@@ -47,56 +48,56 @@ Follow these steps to achieve domain separation:
 
 The following illustration shows how to select the domain TOP/Initech, replicate the TAXII collection in the domain, and verify the replicated TAXII collection.
 
-![Replicate the TAXII collection using the Insert and Stay option.](../image/mitre-insert-stay.gif)
+\[Omitted image "mitre-insert-stay.gif"\] Alt text: Replicate the TAXII collection using the Insert and Stay option.
 
-**Parent Topic:**[MITRE-ATT&amp;CK administration](../concept/mitre-att-ck-administration.md)
+**Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/mitre-att-ck-administration.md)
 
 **Related topics**  
 
 
-[Get started with MITRE-ATT&amp;CK framework](get-started-with-mitre.md)
+[Get started with MITRE-ATT&amp;CK framework]()
 
-[Understand the MITRE to STIX data model](understand-the-mitre-to-stix-data-model-mapping.md)
+[Understand the MITRE to STIX data model]()
 
-[Set up the MITRE-ATT&amp;CK framework](../task/setup-mitre-profile.md)
+[Set up the MITRE-ATT&amp;CK framework]()
 
-[Manage matrices](../task/view-mitre-collection.md)
+[Manage matrices]()
 
-[Manage techniques](../task/view-techniques.md)
+[Manage techniques]()
 
-[Manage mitigations](../task/manage-mitigations.md)
+[Manage mitigations]()
 
-[Manage groups](../task/manage-groups-threat-intel.md)
+[Manage groups]()
 
-[Manage malware](../task/manage-malware.md)
+[Manage malware]()
 
-[Manage tools](../task/manage-tools.md)
+[Manage tools]()
 
-[Manage MITRE relationships](../task/manage-mitre-relationships.md)
+[Manage MITRE relationships]()
 
-[Manage CVE and technique mapping](../task/manage-cve-and-technique-mapping.md)
+[Manage CVE and technique mapping]()
 
-[Extend the MITRE-ATT&amp;CK data](../task/view-and-extend-information.md)
+[Extend the MITRE-ATT&amp;CK data]()
 
-[Define the data source and detection tool mapping](../task/manage-mitre-att-ck-data-sources.md)
+[Define the data source and detection tool mapping]()
 
-[Define the data source and data component mapping](../task/map-the-data-source-and-data-components.md)
+[Define the data source and data component mapping]()
 
-[Define the technique detection coverage](../task/define-technique-coverage.md)
+[Define the technique detection coverage]()
 
-[Map your technique detection coverage to a technique](../task/map-technique-coverage.md)
+[Map your technique detection coverage to a technique]()
 
-[Define the mitigation coverage](../task/define-the-mitigation-coverage.md)
+[Define the mitigation coverage]()
 
-[Map your mitigation coverage to a technique](../task/map-your-mitigation-coverage-to-a-technique.md)
+[Map your mitigation coverage to a technique]()
 
-[Create and map detection rules](../task/create-detection-rules.md)
+[Create and map detection rules]()
 
-[Auto-extract technique rules for importing MITRE-ATT&amp;CK information](../concept/auto-extract-technique-rules.md#)
+[Auto-extract technique rules for importing MITRE-ATT&amp;CK information]()
 
-[Review threat group and MITRE-ATT&amp;CK techniques mapping](../task/review-threat-group-and-techniques-mapping.md)
+[Review threat group and MITRE-ATT&amp;CK techniques mapping]()
 
-[Threat group to technique heatmap definition](../task/threat-group-to-technique-heatmap-definition.md)
+[Threat group to technique heatmap definition]()
 
-[Review the MITRE-ATT&amp;CK system properties](../task/configure-mitre-att-ck-properties.md)
+[Review the MITRE-ATT&amp;CK system properties]()
 

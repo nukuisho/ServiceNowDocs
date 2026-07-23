@@ -2,6 +2,7 @@
 title: Set the default theme
 description: Set a preferred Theme Builder theme as the default for your web experiences when multiple themes are published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/set-the-default-theme.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,18 +38,18 @@ The default theme is treated as the first theme that is displayed in the Next Ex
 
     **Note:** When you have selected the theme that you want to set as the default, verify that you have selected the correct scope for the theme from the application scope picker.
 
-4.  Select the More actions icon ![](../image/tb-more-actions.png)from the theme that you have selected, and select **Mark as default**.
+4.  Select the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:from the theme that you have selected, and select **Mark as default**.
 
-    ![Mark as default option.](../image/tb-mark-as-default.png)
+    \[Omitted image "tb-mark-as-default.png"\] Alt text: Mark as default option.
 
     The theme is listed as the Default within the Published section. The default theme is treated as the first theme and each theme listed after the default theme follows a sequential order.
 
-    ![Default theme displayed in Published section.](../image/tb-theme-default.png)
+    \[Omitted image "tb-theme-default.png"\] Alt text: Default theme displayed in Published section.
 
 5.  Refresh your browser to view the new theme.
 
     The default theme appears first in the user's Theme preference.
 
 
-**Parent Topic:**[Publish your themes with Theme Builder](tb-apply-theme.md)
+**Parent Topic:**[Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-apply-theme.md)
 

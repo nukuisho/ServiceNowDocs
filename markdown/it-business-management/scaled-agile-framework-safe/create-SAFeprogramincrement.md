@@ -2,6 +2,7 @@
 title: Define a program increment in SAFe
 description: With SAFe, define a program increment \(PI\). A program increment is typically 8–12 weeks long, during which an ART delivers incremental value in the form of working, tested software and systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/create-SAFeprogramincrement.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -23,15 +24,15 @@ Role required: safe\_admin
 
 1.  Navigate to the program increment form using either of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d147681e56">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d150218e56">
 
 Option
 
-</th><th align="left" id="d147681e59">
+</th><th align="left" id="d150218e59">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147681e65">
+</th></tr></thead><tbody><tr><td id="d150218e65">
 
 **From the Program Increment Planning tab**
 
@@ -44,7 +45,7 @@ Steps
 5.  Click **Create Program Increment**.
 
 
-</td></tr><tr><td id="d147681e110">
+</td></tr><tr><td id="d150218e110">
 
 **From the Program Increment related list**
 
@@ -221,12 +222,12 @@ PI Objectives
 List of all the objectives for this PI. View, create, and update the PI objectives.This related list is visible in the SAFe view of the PI form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SAFe entities](../concept/key-entities-SAFe.md)
+</table>**Parent Topic:**[SAFe entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/key-entities-SAFe.md)
 
 **Related topics**  
 
 
-[Define a feature in SAFe](create-SAFefeature.md)
+[Define a feature in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFefeature.md)
 
-[Define a story in SAFe](create-SAFestory.md)
+[Define a story in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFestory.md)
 

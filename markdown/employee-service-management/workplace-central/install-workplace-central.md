@@ -2,6 +2,7 @@
 title: Install Workplace Central
 description: Install the Workplace Central application from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/install-workplace-central.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -13,7 +14,7 @@ breadcrumb: [Configure, Workplace Central, Workplace Service Delivery, Employee 
 
 # Install Workplace Central
 
-Install the Workplace Central application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Workplace Central application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -61,10 +62,10 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configure Workplace Central](../concept/configure-workplace-central.md)
+**Parent Topic:**[Configure Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/configure-workplace-central.md)
 
 **Related topics**  
 
 
-[Configure approvers of a scenario](configure-approvers-of-a-scenario.md)
+[Configure approvers of a scenario]()
 

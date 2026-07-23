@@ -2,6 +2,7 @@
 title: Example 3: Add specific runtime details inputs to an implementation: Run Additional Actions
 description: Add specific runtime details inputs to an implementation, Run Additional Actions.Add specific run time inputs for each of the selected implementation as applicable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/example-3-add-specific-runtime-details-inputs.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,14 +24,14 @@ You can perform **Run Additional Actions** related integration capabilities acti
     **Note:** You can also navigate to the **Related Records** tab on the workspace to perform the integrations capabilities action.
 
 
-**Parent Topic:**[Unified Experience examples](../concept/unified-expereince-example.md)
+**Parent Topic:**[Unified Experience examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/unified-expereince-example.md)
 
 **Related topics**  
 
 
-[Example 1: Select implementations: Threat Lookup](example-1-select-implementations-threat-lookup.md)
+[Example 1: Select implementations: Threat Lookup]()
 
-[Example 2: Common Inputs: Sighting Search](common-inputs.md#)
+[Example 2: Common Inputs: Sighting Search]()
 
 ## Add specific inputs to an implementation
 
@@ -52,13 +53,13 @@ The available implementations are listed. Select the implementation\(s\), after 
 
     The investigation tab with the entry points lists is displayed.
 
-    ![Investigation tab.](../image/example1.png)
+    \[Omitted image "example1.png"\] Alt text: Investigation tab.
 
 4.  Select the configuration item from the entry point list.
 
     For example, select **configuration Item** entry point list. The corresponding configuration items records are displayed.
 
-    ![Select Configuration Item.](../image/config-items.png "Select Configuration Item")
+    \[Omitted image "config-items.png"\] Alt text: Select Configuration Item.
 
 5.  Select any **Configuration Item**.
 
@@ -79,7 +80,7 @@ The available implementations are listed. Select the implementation\(s\), after 
 
 8.  Select one or more implementations from the list.
 
-    ![Run Additional Actions](../image/additional-actions.png)
+    \[Omitted image "additional-actions.png"\] Alt text: Run Additional Actions
 
 9.  Click **Next**.
 
@@ -89,7 +90,7 @@ The available implementations are listed. Select the implementation\(s\), after 
 
 11. Click **Submit**.
 
-    ![Submitted records and Activity stream work notes.](../image/specific-run-time.png)
+    \[Omitted image "specific-run-time.png"\] Alt text: Submitted records and Activity stream work notes.
 
     After the selected records are submitted, a message is displayed that the Additional Action request is being executed. Also, the respective implementation action progress is displayed in the **Activity** section.
 

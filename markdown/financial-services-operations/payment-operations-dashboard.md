@@ -2,6 +2,7 @@
 title: Payment Operations dashboard
 description: With the Financial Services Payment Operations dashboard, you can get an insight into how your team and business are performing for payment inquiries, claims, and debits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/payment-operations-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -24,7 +25,7 @@ You can monitor the status of these cases, see trends, and drill down into the d
 
 ## Access the Financial Services Payment Operations dashboard
 
-To access the Financial Services Payment Operations dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
+To access the Financial Services Payment Operations dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon.\).
 
 Alternatively, you can navigate to **All** &gt; **Payment Operations** &gt; **Analytics**.
 
@@ -209,5 +210,5 @@ The following table shows the available filters in the Payment Operations dashbo
 |Payment Service|List|Fetches the records for all payment tasks.|
 |Payment Type|Script|Fetches the payment case records from the Task SLA table.|
 
-**Parent Topic:**[Implementing Platform Analytics solutions](../../application-content-packs/concept/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-content-pack.md)
 
